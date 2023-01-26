@@ -2,8 +2,8 @@
 title: の基本 [!DNL Marketing Channels]
 description: 以下に関する主な情報を学ぶ： [!DNL Analytics Marketing Channels] その [!DNL Analytics for Advertising] ユーザーは理解する必要があります。
 feature: Integration with Adobe Analytics
-exl-id: 27b6fb07-0b63-4ff1-a316-20b9a2b60fe9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -45,6 +45,6 @@ Adobe広告が、カスタムマーケティングチャネルの作成に必要
 >* [Adobe広告 ID を使用した作成 [!DNL Marketing Channels] 処理ルール](mc-ids.md)
 >* [チャネル広告とチャネル広告でチャネルデータが異なるAdobeを使用する理由 [!DNL Marketing Channels]](mc-data-variances.md)
 >* [使用 [!DNL Analytics Marketing Channels] とAdobe広告データ](mc-ac-data.md)
->* [ビデオ：使用 [!DNL Marketing Channels] (Adobe広告レポート用 )](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [ビデオ：使用 [!DNL Marketing Channels] (Adobe広告レポート用 )](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [の概要 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
 

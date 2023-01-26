@@ -7,9 +7,10 @@ product: advertising cloud
 user-guide-title: Advertising DSPガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+index: true
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '881'
 ht-degree: 5%
 
 ---
@@ -34,15 +35,8 @@ ht-degree: 5%
       + [クロスデバイス対応ソリューション](/help/dsp/introduction/features/cross-device-solutions.md)
    + [アカウント資金](/help/dsp/introduction/billing/account-funding.md)
    + [サポートされる通貨](/help/dsp/currency.md)
-   + 消費者プライバシーのサポート {#privacy}
-      + [EU 一般データ保護規則のサポート](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/gdpr.html)
-      + CCPA のサポート {#ccpa}
-         + [カリフォルニア州消費者プライバシー法のサポート：消費者データのアクセスと削除](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-access-delete.html)
-         + [カリフォルニア州消費者プライバシー法のサポート：消費者のオプトアウト (COS)](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html)
-   + ポリシーとガイドライン {#policies}
-      + [広告要件ポリシー](https://experienceleague.adobe.com/docs/advertising-cloud/policies/ad-requirements-policy.html)
-      + [Acceptable Health Segment Guidelines](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
-      + [[!DNL DSP] データ使用のガイドライン](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
+   + [消費者プライバシーのサポート](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [ポリシーとガイドライン](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [高度な測定ソリューション](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Campaign Management構造の概要](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -85,7 +79,7 @@ ht-degree: 5%
       + [で広告を作成 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
       + [広告の複製](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [プレースメントへの広告の添付](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [プレースメントへの広告の添付](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [広告に関連付けられた配置のリスト](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [広告の詳細レポートの表示](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [広告のアーカイブまたはアーカイブ解除](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
@@ -230,6 +224,6 @@ ht-degree: 5%
    + 通知 {#notifications}
       + [アラート購読について](/help/dsp/admin/alerts-about.md)
       + [アラート購読の管理](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloud との統合](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
++ [Adobe Experience Cloud との統合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [カスタマーサポート](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
 + [Adobe Experience Cloud のリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

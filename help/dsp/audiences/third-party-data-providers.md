@@ -2,8 +2,8 @@
 title: Advertising DSPで利用可能なサードパーティデータプロバイダー
 description: 利用可能なすべてのサードパーティデータプロバイダーの一覧を参照します。
 feature: DSP Audiences
-exl-id: f67d81a0-bd31-48d8-9bcf-1888afd43894
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%

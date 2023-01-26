@@ -2,8 +2,8 @@
 title: 使用 [!DNL Marketing Channels] とAdobe広告データ
 description: でのAdobe広告データの使用方法 [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-exl-id: c9403a03-58aa-4633-bb97-51afc30843ad
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 522c7f01-1138-477d-8018-36030caab55e
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -55,6 +55,6 @@ AMO ID は訪問者のジャーニーを通じて保持されるので、AMO ID 
 >* [の基本 [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe広告 ID を使用した作成 [!DNL Marketing Channels] 処理ルール](mc-ids.md)
 >* [チャネル広告とチャネル広告でチャネルデータが異なるAdobeを使用する理由 [!DNL Marketing Channels]](mc-data-variances.md)
->* [ビデオ：使用 [!DNL Marketing Channels] (Adobe広告レポート用 )](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [ビデオ：使用 [!DNL Marketing Channels] (Adobe広告レポート用 )](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [の概要 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
 

@@ -2,10 +2,10 @@
 title: A と B の間で予想されるデータの相違 [!DNL Analytics] およびAdobe広告
 description: A と B の間で予想されるデータの相違 [!DNL Analytics] およびAdobe広告
 feature: Integration with Adobe Analytics
-exl-id: 34685e04-d4f9-4e27-b83e-b56164244b2b
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3278'
 ht-degree: 0%
 
 ---
@@ -153,17 +153,13 @@ Adobe広告レポートは、Adobe広告 ( [!DNL Advertising Search] 広告、�
 
 In [!DNL Analytics]（を検証する最も簡単な方法の 1 つ） [!DNL Analytics for Advertising] トラッキングは、次のように計算される「AMO ID インスタンスへのクリック数」計算指標を使用して、クリック数をインスタンスと比較することです。
 
-```
-Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
-```
+```Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)```
 
 [!UICONTROL AMO ID Instances] は、AMO ID の回数を表します (`s_kwcid` パラメーター ) は、サイト上で追跡されます。 広告がクリックされるたびに、 `s_kwcid` パラメーターがランディングページの URL に追加されます。 この [!UICONTROL AMO ID Instances]したがって、はクリック数に似ており、実際の広告クリックに対して検証できます。 のマッチ率は通常 80%です。 [!DNL Search] との 30%の一致率 [!DNL DSP] トラフィック（クリックスルーのみを含めるようにフィルタリングした場合） [!UICONTROL AMO ID Instances]) をクリックします。 検索と表示の期待値の違いは、予想されるトラフィック動作によって説明できます。 検索は目的をキャプチャし、そのため、ユーザーは通常、クエリの検索結果をクリックする予定です。 ただし、ディスプレイ広告やオンラインビデオ広告を見たユーザーは、意図せず広告をクリックした後、サイトからバウンスするか、ページアクティビティが追跡される前に読み込まれる新しいウィンドウを破棄する可能性が高くなります。
 
 Adobe広告レポートでは、同様に、[!UICONTROL ef_id_instances]」指標 ( [!UICONTROL AMO ID Instances]:
 
-```
-Clicks to [EF ID Instances = (ef_id_instances / Clicks)
-```
+```Clicks to [!UICONTROL EF ID Instances] = (ef_id_instances / Clicks)```
 
 AMO ID と EF ID の間で高い一致率が予想されますが、AMO ID と EF ID は基本的に異なるデータを追跡するので、100%のパリティは想定しないでください。この違いにより、合計の差がわずかに生じる可能性があります [!UICONTROL AMO ID Instances] および [!UICONTROL EF ID Instances]. 合計 [!UICONTROL AMO ID Instances] in [!DNL Analytics] ～とは異なる [!UICONTROL EF ID Instances] ただし、Adobe広告で 1%以上の割合で、 [!DNL Adobe] アカウントチームに問い合わせてください。
 
@@ -179,17 +175,13 @@ AMO ID と EF ID について詳しくは、 [Analytics で使用されるAdobe�
 
 例えば、次のランディングページがあるとします。
 
-```
-www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id
-```
+`www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id`
 
 EF ID は「`test_ef_id`」と入力し、AMO ID は「`test_amo_id`.&quot;
 
 サイト側のリダイレクトが発生した場合、URL は次のようになります。
 
-```
-www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
-```
+`www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag`
 
 EF ID は「`test_ef_id`」と入力し、AMO ID は「`test_amo_id#redirectAnchorTag`.&quot;
 
@@ -231,7 +223,7 @@ EF ID は「`test_ef_id`」と入力し、AMO ID は「`test_amo_id#redirectAnch
 
 ### Adobe以外の広告Dimensionに対するAdobe広告トラフィック指標の使用
 
-Adobe広告は Analytics に [広告固有のトラフィック指標および関連ディメンション [!DNL DSP] および [!DNL Search]](advertising-metrics-in-analytics.md). Adobeの広告提供の指標は、指定されたAdobeの広告ディメンションにのみ適用され、データは、 [!DNL Analytics].
+Adobe広告は Analytics に [広告固有のトラフィック指標およびDSPと [!DNL からの関連ディメンション [!DNL Search]]](advertising-metrics-in-analytics.md). Adobeの広告提供の指標は、指定されたAdobeの広告ディメンションにのみ適用され、データは、 [!DNL Analytics].
 
 例えば、 [!UICONTROL AMO Clicks] および [!UICONTROL AMO Cost] 指標 (Adobe広告ディメンション ) をアカウント別に指定すると、合計が表示されます [!UICONTROL AMO Clicks] および [!UICONTROL AMO Cost] アカウント別。
 

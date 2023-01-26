@@ -3,8 +3,9 @@ title: Adobe Advertising 消費者プライバシーサポート
 description: Adobe広告は、広告主の顧客が消費者のプライバシーに関する法律を遵守するのに役立つセキュリティとプライバシーに関する制御を提供します。
 cloud: Experience Cloud
 product: advertising cloud
-exl-id: ffc50470-301e-44bc-9f56-63667dd8fb64
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+index: true
+exl-id: 1f9b2866-c0c6-4733-a687-d72eb4014598
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 20%

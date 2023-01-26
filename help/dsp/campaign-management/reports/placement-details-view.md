@@ -2,8 +2,8 @@
 title: プレースメントのサイト、広告、頻度および在庫の詳細を表示します
 description: 配置のターゲットサイト、広告、頻度および在庫データを表示する方法を説明します。
 feature: DSP Placements
-exl-id: 99bb4a4e-dc52-4130-87c4-5458e25bbc1e
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%

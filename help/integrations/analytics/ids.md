@@ -2,10 +2,10 @@
 title: Adobe広告 ID が [!DNL Analytics]
 description: Adobe広告 ID が [!DNL Analytics]
 feature: Integration with Adobe Analytics
-exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,7 @@ EF ID は、Adobe広告がアクティビティをオンラインクリックま
 
 #### [!DNL Google Ads] 広告を検索
 
-```
-{gclid}:G:s
-```
+```{gclid}:G:s```
 
 場所：
 
@@ -60,9 +58,7 @@ EF ID は、Adobe広告がアクティビティをオンラインクリックま
 
 #### Microsoft Advertising 検索広告
 
-```
-{msclkid}:G:s
-```
+```{msclkid}:G:s```
 
 場所：
 
@@ -71,9 +67,7 @@ EF ID は、Adobe広告がアクティビティをオンラインクリックま
 
 #### 他の検索エンジンでの広告と検索広告の表示
 
-```
-<Adobe Advertising visitor ID>:<timestamp>:<channel type>
-```
+```<Adobe Advertising visitor ID>:<timestamp>:<channel type>```
 
 場所：
 
@@ -87,7 +81,7 @@ EF ID は、Adobe広告がアクティビティをオンラインクリックま
    * `i` DSPディスプレイ広告のインプレッション（表示ビュースルー）の場合
    * `s` 検索広告のクリック（検索クリックスルー）。
 
-例 `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
+例 `EF `ID:WcmibgAAHJK1RyY:1551968087687:d
 
 ### の EF IDDimension [!DNL Analytics]
 
@@ -103,9 +97,7 @@ AMO ID は、 `s_kwcid`(「[!DNL the squid].&quot;
 
 ### の AMO ID フォーマット [!DNL DSP]
 
-```
-<Channel ID>!<Ad ID>!<Placement ID>
-```
+```<Channel ID>!<Ad ID>!<Placement ID>```
 
 場所：
 
@@ -124,9 +116,7 @@ AMO ID の例：AC!iIMvXqlOa6Nia2lDvtgw!GrV6o2oV2qQLjQiXLC7
 
 の AMO ID [!DNL Search] 各検索エンジンで異なる形式に従います。 すべての検索エンジンの形式は、次のように始まります。
 
-```
-AL!{userid}!{sid}
-```
+```AL!{userid}!{sid}```
 
 場所：
 
@@ -138,9 +128,7 @@ AL!{userid}!{sid}
 
 の AMO ID フォーマット [!DNL Google Ads]:
 
-```
-AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
-```
+```AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}```
 
 場所：
 
@@ -152,9 +140,7 @@ AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partitio
 
 の AMO ID フォーマット [!DNL Microsoft Advertising]:
 
-```
-AL!{userid}!{sid}!{AdId}!{OrderItemId}
-```
+```AL!{userid}!{sid}!{AdId}!{OrderItemId}```
 
 場所：
 

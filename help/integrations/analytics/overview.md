@@ -2,8 +2,8 @@
 title: の概要 [!DNL Analytics for Advertising]
 description: の概要 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
-exl-id: 31367c8b-3410-4110-9ae6-11defe625355
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 所要時間 [のビデオ紹介 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html?lang=en#analytics).
+> 所要時間 [のビデオ紹介 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=en#analytics).
 
 ## Analytics を使用した有料メディアレポート
 
@@ -94,19 +94,19 @@ Audiences サービスについて詳しくは、「Experience Cloud」を参照
 
 ### Analysis WorkspaceでのAdobe広告データの使用
 
-Analysis WorkspaceでAdobe広告データを使用して視覚的なレポートを作成する方法については、ビデオを参照してください。[Workspace とレポートの概要](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+Analysis WorkspaceでAdobe広告データを使用して視覚的なレポートを作成する方法については、ビデオを参照してください。[Workspace とレポートの概要](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
 
 ### Adobe広告ダッシュボードの作成
 
-Analysis Workspaceで目標に合わせてAdobe広告データを追跡する方法については、ビデオ「[Adobe AnalyticsでのAdobe広告ダッシュボードの作成](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
+Analysis Workspaceで目標に合わせてAdobe広告データを追跡する方法については、ビデオ「[Adobe AnalyticsでのAdobe広告ダッシュボードの作成](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
 
 ### サイト入口分析にAdobe広告 ID を使用する
 
-曜日、時間帯、ブラウザー、地理的な影響を監視するAdobe広告サイトエントリレポートを作成する方法については、ビデオ「[Adobe広告サイト入口レポートの作成](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
+曜日、時間帯、ブラウザー、地理的な影響を監視するAdobe広告サイトエントリレポートを作成する方法については、ビデオ「[Adobe広告サイト入口レポートの作成](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
 
 >[!MORELIKETHIS]
 >
->* [ビデオ：の概要 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html)
+>* [ビデオ：の概要 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
 >* [実装の前提条件と主な情報 [!DNL Analytics for Advertising]](prerequisites.md)
 >* [Analytics で使用されるAdobe広告 ID](ids.md)
 >* [広告用 Analytics の JavaScript コード](/help/integrations/analytics/javascript.md)

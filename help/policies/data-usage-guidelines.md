@@ -2,8 +2,8 @@
 title: AdobeAdvertising DSP Data Usage Guidelines
 description: データ使用に関するガイドラインを参照してください。
 feature: Policies
-exl-id: 6b646988-4a53-4092-8bc6-bcd350ee4096
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b71caa80-d1f6-4f42-90c3-a3e19acb2c6c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Adobe広告DSPの場合*
 
-以下のデータ使用ガイドライン（「データガイドライン」）は、Adobeの On-demand Services for Advertising DSP（「サービス」）を通じてアクセスされる特定のデータを使用する際の要件を示しています。 本ガイドラインは、オンデマンドサービスを使用するAdobeとお客様との間の契約に参考にして組み込まれます。 本ガイドラインで使用されるが、ここで定義されていない大文字の用語は、本契約に規定される意味を持ちます。
+以下のデータ使用ガイドライン（「データガイドライン」）は、Adobeの On-demand Services for Advertising DSP（「サービス」）を通じてアクセスされる特定のデータを使用する際の要件を示しています。 本ガイドラインは、オンデマンドサービスを使用するAdobeとお客様との間の契約に基づいて組み込まれます。 本ガイドラインで使用されるが、ここで定義されていない大文字の用語は、本契約に規定される意味を持ちます。
 
 Adobeは、お客様のデータの使用がこのガイドラインに違反しているかどうかを、単独の判断で判断する権利を留保します。
 

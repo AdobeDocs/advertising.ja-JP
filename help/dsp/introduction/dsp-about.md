@@ -2,8 +2,8 @@
 title: Adobe広告DSPについて
 description: Adobe広告DSPについて
 feature: DSP Introduction
-exl-id: def006b2-eb51-4942-b277-a2e673bccc7f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 2a5df455-673b-483f-91a6-4fc5678b7f8a
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -28,6 +28,6 @@ Adobe広告DSP(DSP) は、高度なファーストパーティデータのセグ
 
 >[!MORELIKETHIS]
 >
->* [ビデオ：Advertising DSPの概要](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/intro.html)
->* [ビデオ：DSPアカウント構造とユーザーインターフェイス](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/ui.html)
+>* [ビデオ：Advertising DSPの概要](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html)
+>* [ビデオ：DSPアカウント構造とユーザーインターフェイス](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
 
