@@ -1,9 +1,9 @@
 ---
 title: 広告主アカウント設定
 description: 使用可能な広告主設定の説明を参照してください。
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * Audience Managerセグメント
 * [!DNL Analytics] Adobe Experience Cloudに公開されたセグメント
-* Adobe Experience Cloudで [!DNL People core service]
+* Adobe Experience Cloud [!DNL Audience Library]
 * Adobe Experience Platformで作成され、Audience Managerを介してAdobe広告に送信されるセグメント
 
 初期同期には約 24 時間かかります。 その後、データはリアルタイムで同期され、1～2 秒の遅延が発生します。

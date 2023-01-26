@@ -3,9 +3,9 @@ title: 広告ターゲティング用のAdobe Audience Managerセグメントの
 description: インポート方法を学ぶ [!DNL Adobe] Adobe Audience Managerを使用して Advertising DSPと Search にオーディエンスを追加
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Advertising DSP and [!DNL Advertising Search] は、すべての広告主や代�
 
 * Adobe Experience Cloudに公開されたAdobe Analyticsセグメント
 
-* Adobe Experience Cloudで [!DNL People core service]
+* Adobe Experience Cloud [!DNL Audience Library]
 
 * Adobe Experience Platformで作成され、Audience Managerを介してAdobe広告に送信されるセグメント
 
