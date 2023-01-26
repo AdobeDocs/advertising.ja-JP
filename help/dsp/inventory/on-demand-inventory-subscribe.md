@@ -2,8 +2,8 @@
 title: 購読してへのアクセスをリクエスト [!DNL On Demand] プレミアム在庫取引
 description: 購読方法とへのアクセス権のリクエスト方法を説明します。[!DNL On Demand] 契約
 feature: DSP On Demand Inventory
-exl-id: e66e5bad-526e-4b71-8072-332dd173f105
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## パブリッシャーの契約のすべてを購読
 
-1. メインメニューで、 **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
 1. （オプション）次の条件のいずれかで、利用可能な契約または発行者をフィルタリングします。
 
@@ -36,7 +36,8 @@ ht-degree: 0%
 
    * 契約元 **[!UICONTROL TV Broadcasters]**
 
-   * 「tune-in」クリエイティブ (**[!UICONTROL Tune-In]**)
+   * 「tune-in」クリエイティブを受け入れる発行者の契約
+      **[!UICONTROL Tune-In]**)
 
    * パブリッシャーが 21 件以上のターゲティングを適用し、アルコール広告 (**[!UICONTROL Legal drinking age]**)
 
@@ -48,7 +49,7 @@ ht-degree: 0%
 
 ## 個々の契約へのアクセスをリクエスト
 
-1. メインメニューで、 **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
 1. （オプション）次の条件のいずれかで、利用可能な契約または発行者をフィルタリングします。
 
@@ -64,7 +65,8 @@ ht-degree: 0%
 
    * 契約元 **[!UICONTROL TV Broadcasters]**
 
-   * 「tune-in」クリエイティブ (**[!UICONTROL Tune-In]**)
+   * 「tune-in」クリエイティブを受け入れる発行者の契約
+      **[!UICONTROL Tune-In]**)
 
    * パブリッシャーが 21 件以上のターゲティングを適用し、アルコール広告 (**[!UICONTROL Legal drinking age]**)
 

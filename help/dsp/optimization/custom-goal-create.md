@@ -2,8 +2,8 @@
 title: カスタム目標の作成
 description: カスタム目標の作成
 feature: DSP Optimization
-exl-id: 440ded21-92d3-41ad-839f-ebc8376aa932
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 81b0acfa-085d-495b-9516-576b952b1307
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 1. ログイン [!DNL Adobe Advertising Search] （米国の会社）で [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) または（他のすべての国の会社） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. 目標に含める指標が追跡され、製品で利用できること、および表示名が含まれていることを確認します。
-   1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
+   1. メインメニューで、 **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
    1. 指標を見つけ、 **[!UICONTROL Show in UI and Reports]** は指標に対して有効になっています。
    1. 指標の値が **[!UICONTROL Display Name]** 列をクリックし、セル内をクリックして表示名を入力し、 **[!UICONTROL Apply].**
 1. カスタム目標を *目的*:
-   1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Objectives]**.
+   1. メインメニューで、 **[!UICONTROL Search]** > **[!UICONTROL Optimization]>[!UICONTROL Objectives]**.
    1. ツールバーで、 **[!UICONTROL Create objective].**
    1. 目標設定を入力します。
       1. 内 **[!UICONTROL Change Objective Name]** 「 」フィールドに、目標名を入力します。

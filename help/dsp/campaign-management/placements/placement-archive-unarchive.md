@@ -2,8 +2,8 @@
 title: 配置のアーカイブまたはアーカイブ解除
 description: 配置をアーカイブまたはアーカイブ解除する方法を説明します。
 feature: DSP Placements
-exl-id: 3d342f83-1bcb-4f80-b31a-2009bcdde565
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 4304452d-4573-46b3-892e-299950a75d4f
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 1. キャンペーンの名前をクリックします。
 1. サブメニューで、 **[!UICONTROL Placements]**.
-1. 配置名の横にある  **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. 配置名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. 確認メッセージで、 **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -35,7 +35,7 @@ ht-degree: 0%
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 1. キャンペーンの名前をクリックします。
 1. サブメニューで、 **[!UICONTROL Placements]**.
-1. 配置名の横にある  **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. 配置名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. 確認メッセージで、 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

@@ -2,8 +2,8 @@
 title: パッケージのアーカイブまたはアーカイブ解除
 description: パッケージをアーカイブまたはアーカイブ解除する方法について説明します。
 feature: DSP Packages
-exl-id: a8840f9e-e0ee-481d-80c2-66b56fc1882f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 12d1b498-2239-401a-8571-9210956e32b2
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 1. キャンペーン名をクリックして、 [!UICONTROL Packages] 表示
-1. パッケージ名の横にある  **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. パッケージ名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. 確認メッセージで、 **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 1. キャンペーン名をクリックして、 [!UICONTROL Packages] 表示
-1. パッケージ名の横にある  **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. パッケージ名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. 確認メッセージで、 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

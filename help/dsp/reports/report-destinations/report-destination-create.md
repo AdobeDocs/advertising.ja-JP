@@ -2,8 +2,8 @@
 title: レポートの宛先の作成
 description: カスタムレポートの配信先を作成する方法を説明します。
 feature: DSP Custom Reports
-exl-id: 33c58a98-a7d3-4d05-99e7-5e55ba3e625a
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 2a8d6cef-9c33-4483-ac1e-93778a231962
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # レポートの宛先の作成
 
-1. メインメニューで、 **[!UICONTROL Reports]>[!UICONTROL Report Destinations]**.
+1. メインメニューで、 **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
 
 1. クリック **[!UICONTROL Add Destination]**.
 

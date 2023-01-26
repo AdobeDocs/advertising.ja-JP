@@ -2,8 +2,8 @@
 title: 再利用可能なオーディエンスに関する詳細の表示
 description: 再利用可能なオーディエンスの設定とオーディエンスサイズを表示する方法を説明します。
 feature: DSP Audiences
-exl-id: 54e25dcf-cbad-4be2-8d72-b1bb666b82b2
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b7ef5af5-0b82-474b-b769-135f80ba5460
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 再利用可能なオーディエンスに関する詳細の表示
 
-1. メインメニューで、 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. オーディエンス行にカーソルを置き、 **[!UICONTROL View Details]**.
 

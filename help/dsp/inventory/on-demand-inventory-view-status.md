@@ -2,8 +2,8 @@
 title: ステータスの表示 [!DNL On Demand] 契約リクエストと購読
 description: のステータスを確認する方法を説明します [!DNL On Demand] リクエストと購読を処理します。
 feature: DSP On Demand Inventory
-exl-id: 8dd6d922-c4a3-4ddb-bca9-f6f782da1320
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 個々の契約をリクエストするか、パブリッシャーのすべての契約を購読した後、パブリッシャーがアカウント内の各広告主に対する各契約を承認または拒否したかどうかを確認します。
 
-1. メインメニューで、 **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 1. 利用可能な契約をフィルタリングして、リクエストまたは購読した契約を含めます (**[!UICONTROL Currently subscribed to]**)**。
 1. 次のいずれかの操作を行います。
    * の契約を表示するには [!UICONTROL Deal] 表示、クリック **[!UICONTROL Deal view]**.

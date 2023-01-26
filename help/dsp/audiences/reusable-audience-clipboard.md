@@ -2,8 +2,8 @@
 title: 再利用可能なオーディエンスのセグメントキーをクリップボードにコピーする
 description: 再利用可能なオーディエンスの設定とオーディエンスサイズを表示する方法を説明します。
 feature: DSP Audiences
-exl-id: 039779aa-8fa4-48b4-8fe6-2d5517dd0603
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 1e1f45fe-d7f9-4c26-a557-c3d00f74edb8
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 オーディエンスの英数字セグメントキー (ID) をクリップボードにコピーできます。 セグメントキーを使用して、 [セグメントロジックを手動で定義](audience-segment-logic-syntax.md) 他の再利用可能なオーディエンス用
 
-1. メインメニューで、 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. オーディエンス行にカーソルを置き、 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 

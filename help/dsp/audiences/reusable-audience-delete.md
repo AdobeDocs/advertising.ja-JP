@@ -2,8 +2,8 @@
 title: 再利用可能なオーディエンスの削除
 description: 再利用可能なオーディエンスを削除する方法を説明します。
 feature: DSP Audiences
-exl-id: 037f85b1-8676-4ac7-b1a2-ae7d5550b377
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 オーディエンスが現在使用されている場合は、 [!DNL Microsoft Excel] オーディエンスを使用するすべての配置とオーディエンスを表示するワークシート。
 
-1. メインメニューで、 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. オーディエンス行にカーソルを置き、 **[!UICONTROL Delete]**.
 

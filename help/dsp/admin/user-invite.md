@@ -1,8 +1,8 @@
 ---
 title: 組織アカウントへの新しいユーザーの招待
 description: 新しいユーザーを招待してアカウントに参加させる方法を説明します。
-exl-id: 5394d4e8-e081-4db4-909b-38bd366ce4fc
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 1. 次のいずれかの操作を行います。
 
-   * メインメニューで、 **[!UICONTROL Settings]>[!UICONTROL Users]**.
+   * メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * メインメニューで、 **[!UICONTROL Settings]>[!UICONTROL Account]**&#x200B;をクリックし、 **[!UICONTROL Edit users]**.
+   * メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;をクリックし、 **[!UICONTROL Edit users]**.
 
 1. 内 **[!UICONTROL Invitations]** セクションで、 **[!UICONTROL Send Invite]**.
 

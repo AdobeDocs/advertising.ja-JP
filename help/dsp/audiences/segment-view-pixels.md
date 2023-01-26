@@ -2,8 +2,8 @@
 title: セグメントの表示追跡ピクセル
 description: カスタムまたは CCPA オプトアウトオブセールセグメントのトラッキングピクセルを表示する方法を説明します。
 feature: DSP Segments
-exl-id: 67c6d0d1-f65b-4d29-88e5-c7d00e44a956
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # セグメントの表示追跡ピクセル
 
-1. メインメニューで、 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. セグメント行の上にカーソルを置き、 **[!UICONTROL Get Pixel]**.
 

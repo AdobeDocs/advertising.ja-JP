@@ -2,8 +2,8 @@
 title: キー配置設定をすばやく編集
 description: 主要な配置設定をすばやく変更する方法を説明します。
 feature: DSP Placements
-exl-id: 107ec263-a0f2-491b-8380-2cceaf51cae9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 1. キャンペーンの名前をクリックします。
 1. サブメニューで、 **[!UICONTROL Placements]**.
-1. 配置名の横にある  **[!UICONTROL ...]>[!UICONTROL Quick Edit]**.
+1. 配置名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
 1. 使用可能な任意の [配置設定](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**、および **[!UICONTROL Budget]**.
 1. クリック **[!UICONTROL Apply]**.
 
@@ -37,5 +37,5 @@ ht-degree: 0%
 >* [配置の一時停止またはアクティブ化](placement-pause-activate.md)
 >* [配置の変更ログの表示](placement-change-log.md)
 >* [配置設定](placement-settings.md)
->* [ビデオ：一括編集ツールを使用した配置の編集方法](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [ビデオ：一括編集ツールを使用した配置の編集方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

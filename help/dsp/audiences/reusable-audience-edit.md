@@ -2,8 +2,8 @@
 title: 再利用可能なオーディエンスを編集
 description: 再利用可能なオーディエンスを編集する方法を説明します。
 feature: DSP Audiences
-exl-id: 6a3145b9-2d30-4040-8893-0fb7b3f86597
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 任意の配置や他の再利用可能なオーディエンスで使用されているオーディエンスを編集すると、変更がそれらの配置やオーディエンスに直ちに適用されます。<!-- verify -->
 
-1. メインメニューで、 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. オーディエンス行にカーソルを置き、 **[!UICONTROL Edit]**.
 
@@ -51,9 +51,9 @@ ht-degree: 0%
 
       1. 次のいずれかの方法で、既存のオーディエンスからセグメントロジックをコピーします。
 
-         * 「すべてのオーディエンス」表示で、オーディエンス行の上にカーソルを置き、 **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * 「すべてのオーディエンス」表示で、オーディエンス行の上にカーソルを置き、 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * 既存のオーディエンスの設定で、セグメントのロジックパネルの上部にある「 **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * 既存のオーディエンスの設定で、セグメントのロジックパネルの上部にある「 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * テキストエディターで、英数字のセグメント ID と [ブール構文](audience-segment-logic-syntax.md)をクリップボードにコピーします。
       1. クリック **[!UICONTROL paste in an audience rule to begin building]**」で、既存のセグメントロジックを入力フィールドに貼り付けて、「 **[!UICONTROL Apply]**.

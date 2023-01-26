@@ -2,8 +2,8 @@
 title: 再リクエスト [!DNL On Demand] プレミアム在庫取引
 description: 再リクエスト方法を学ぶ [!DNL On Demand] 以前に拒否された契約。
 feature: DSP On Demand Inventory
-exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 該当する広告主アカウントの広告主カテゴリが正しいことを確認します。
 
-   1. メインメニューで、 **[!UICONTROL Settings]> [!UICONTROL Advertisers].**
+   1. メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Advertisers].**
 
    1. 広告主の行の上にカーソルを置き、 **[!UICONTROL Edit]**.
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 在庫を再リクエスト：
 
-   1. メインメニューで、 **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+   1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
    1. 利用可能な契約をフィルタリングして、リクエストした契約 (**[!UICONTROL Currently subscribed to]**)**。
 

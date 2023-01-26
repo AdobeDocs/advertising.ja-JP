@@ -2,10 +2,10 @@
 title: CCPA オプトアウトオブセールセグメントの作成と実装
 description: セグメントを作成および実装して、消費者のオプトアウトオブセールのリクエストからユーザー ID を追跡する方法について説明します。
 feature: CCPA, DSP Segments
-exl-id: aebe0c5b-382f-4e4a-b145-c32f32d216ca
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* Adobe Experience Platform Privacy Service API を使用してAdobe広告に CCPA オプトアウトオブセールのリクエストを伝える方法について詳しくは、 [https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa-opt-out-of-sale.html).
+>* Adobe Experience Platform Privacy Service API を使用してAdobe広告に CCPA オプトアウトオブセールのリクエストを伝える方法について詳しくは、 [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* CCPA オプトアウトオブセールイベントの追跡に関係なく、Web ページを訪問したユーザーや、デスクトップ、モバイル、CTV デバイスから広告を受け取るユーザーを追跡するには、 [カスタムセグメント](/help/dsp/audiences/custom-segment-create.md).
 
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. セグメントを追跡するピクセルタグをコピーして実装します。
 
-   1. 戻る **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+   1. 戻る **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
    1. セグメント行で、新しいセグメントの上にカーソルを置き、 **[!UICONTROL Get pixel]**.
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [カリフォルニア州消費者プライバシー法に対するAdobe広告のサポート：消費者のオプトアウトのサポート](/help/privacy/ccpa-opt-out-of-sale.md)
+>* [カリフォルニア州消費者プライバシー法に対するAdobe広告のサポート：消費者のオプトアウトのサポート](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [について [!UICONTROL CCPA Opt-out-of-Sale] セグメントとレポート](ccpa-opt-out-about.md)
 >* [消費者オプトアウトオブセールレポートの取得](ccpa-opt-out-segment-report-retrieve.md)
 >* [カスタムセグメントの作成と実装](custom-segment-create.md)

@@ -1,9 +1,9 @@
 ---
-title: '" [!UICONTROL Simple Ad Serving] 契約」'
-description: 「 [!UICONTROL Simple Ad Serving] 契約」
+title: の作成 [!UICONTROL Simple Ad Serving] 契約
+description: のトラッキングピクセルを作成する方法を説明します。 [!UICONTROL Simple Ad Serving] 契約
 feature: DSP Simple Ad Serving
-exl-id: d8de85ec-616c-44ed-9a1a-cc25713ad4a4
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # の作成 [!UICONTROL Simple Ad Serving] 契約
 
-1. メインメニューで、 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. データテーブルの上にある **[!UICONTROL Create]**&#x200B;を選択し、 **[!UICONTROL Simple Ad Serving]**.
 

@@ -2,8 +2,8 @@
 title: 非公開契約設定の編集
 description: 個人契約の詳細を編集する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 171a3dae-6a25-4e16-85f8-cd4138ec4ba8
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 承認された契約に対する変更は、SSP からは同期されません。 契約を承認したのに、発行者が変更を送信した場合は、次の場所から契約設定の一部の要素を編集できます。 [!UICONTROL Inventory] > [!UICONTROL Deals]. また、いつでも契約の名前を変更できます。
 
-1. メインメニューで、 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 契約行で、「  **[!UICONTROL ...]>[!UICONTROL edit]**.
+1. 契約行で、「  **[!UICONTROL ...]** > **[!UICONTROL edit]**.
 
 1. を編集します。 [取引設定](deal-id-settings.md).
 

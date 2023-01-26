@@ -2,8 +2,8 @@
 title: 編集 [!UICONTROL Simple Ad Serving] 契約設定
 description: の設定を編集する方法を説明します [!UICONTROL Simple Ad Serving] 契約
 feature: DSP Simple Ad Serving
-exl-id: 025b299b-05ba-4e4e-ac92-8a738303bc32
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 48540a6c-54ee-4109-bdd6-293fbee5c3e5
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 1%
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 一部の設定は、 [!UICONTROL Simple Ad Serving] まだ終わっていない取引。
 
-1. メインメニューで、 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 契約行で、「  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+1. 契約行で、「  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. を編集します。 [取引設定](simple-deal-settings.md).
 

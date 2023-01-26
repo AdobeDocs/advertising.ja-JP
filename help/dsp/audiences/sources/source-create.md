@@ -2,8 +2,8 @@
 title: オーディエンスソースを作成してファーストパーティオーディエンスをアクティブ化する
 description: オーディエンスをアカウントまたは広告主アカウントにインポートするソースを作成する方法を説明します。
 feature: DSP Audiences
-exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >ソースを作成した後、 [!DNL Real-Time CDP]を有効にするには、 [!DNL Real-Time CDP] 内のAdobeAdvertising DSPの宛先を通じてオーディエンス [!DNL Real-Time CDP] 読み込みを開始します。 詳しくは、 [アクティベーションワークフローの手順](source-about.md#workflow-sources).
 
-1. メインメニューで、「**」をクリックします。[!UICONTROL Audiences] > [!UICONTROL Sources (BETA)].
+1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL Sources (BETA)].
 
 1. クリック [!UICONTROL Add Source].
 
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 1. Experience Platformで、 [!UICONTROL Source Key] DSPのソース設定で生成された
 
-   DSPの宛先接続をアクティブ化し、セグメントを選択し、制御権限にアクセスする手順については、「[Adobe Advertising Cloud DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+DSPの宛先接続をアクティブ化し、セグメントを選択し、制御権限にアクセスする手順については、「[Adobe Advertising Cloud DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [Audience Source 設定](source-settings.md)
 >* [オーディエンスソースからの認証済みセグメントのアクティブ化について](source-about.md)
 >* [永続 ID パートナーから認証済みセグメントをアクティブ化](source-durable-id.md)<!-- title?-->
->* [Adobe Advertising Cloud DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising Cloud DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
 >* [Audience Management について](/help/dsp/audiences/audience-about.md)
 

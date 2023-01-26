@@ -1,7 +1,7 @@
 ---
 title: 広告主アカウントの作成
 description: 広告主アカウントの作成方法を説明します。
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 広告主は、組織アカウントのすべてのユーザーが利用できます。
 
-1. メインメニューで、 **[!UICONTROL Settings]>[!UICONTROL Advertisers]**.
+1. メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
 
 1. クリック **[!UICONTROL Create]**.
 

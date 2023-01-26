@@ -2,8 +2,8 @@
 title: での契約の承認 [!UICONTROL Deal ID Inbox]
 description: パブリッシャーとの間で既に交渉を行ったプライベート契約を受け入れる方法を説明します。 [!DNL FreeWheel], [!DNL Google Authorized Buyers] ( 旧称： [!DNL AdX]), and [!DNL Magnite DV+] ( 以前の [!DNL Rubicon]) を使用して、Deal ID Inbox を使用します。
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 55e8ca50-05f5-4f38-9fd5-afaed71315dc
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >の発行者とのプログラム的な保証契約の設定 [!DNL FreeWheel] には、追加の権限と手順が必要です。 参照：[FreeWheel でのプログラム保証契約の設定の概要](freewheel-overview.md)」を参照してください。
 
-1. メインメニューで、 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. リストの上 [!UICONTROL Deals]、青いバーをクリックして、 [!UICONTROL Deal ID inbox].
 

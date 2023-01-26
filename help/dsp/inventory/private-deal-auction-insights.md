@@ -2,8 +2,8 @@
 title: 非公開契約のオークションインサイトの表示
 description: オークションのインサイトを使用して、個人契約の契約構成を分析する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 9d585bd4-59d5-401a-a68c-6ed656086252
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 オークションインサイトは、保証済みの契約と保証されていないプライベート契約の両方の契約構成を分析できるトラブルシューティングツールです。 このツールは、データのビジュアライゼーションを使用して、 [キーオークション属性](#auction-attributes) 指定した期間内。
 
-1. メインメニューで、 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 契約行で、「  **[!UICONTROL ...]>[!UICONTROL Auction Insights]**.
+1. 契約行で、「  **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
 
 >[!NOTE]
 >
->オークションインサイトは、配置を通じても利用できます [!UICONTROL Inspector] ツール 彼らを開くには [配置を開く [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) から [!UICONTROL Inventory tab]をクリックし、 **[!UICONTROL ...]>[!UICONTROL Auction Insights]** を選択します。
+>オークションインサイトは、配置を通じても利用できます [!UICONTROL Inspector] ツール 彼らを開くには [配置を開く [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) から [!UICONTROL Inventory tab]をクリックし、 **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** を選択します。
 
 ## オークション属性 {#auction-attributes}
 

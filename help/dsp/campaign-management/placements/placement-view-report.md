@@ -2,8 +2,8 @@
 title: 配置の詳細レポートの表示
 description: 配置レベルのレポートを開き、 [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications]、および [!UICONTROL Ads] データ。
 feature: DSP Placements, DSP Campaign Data Views
-exl-id: 90cd8030-73a6-4224-9a04-dcee91ce7d78
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: ddfae530-1dc6-4470-9910-ae13abcbaa8b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 1. キャンペーンの名前をクリックします。
 1. サブメニューで、 **[!UICONTROL Placements]**.
-1. 配置名の横にある  **[!UICONTROL ...]>[!UICONTROL View report]**.
+1. 配置名の横にある  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >

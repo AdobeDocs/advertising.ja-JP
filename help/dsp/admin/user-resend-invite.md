@@ -1,8 +1,8 @@
 ---
 title: 保留中のユーザーの招待状の再送信
 description: 保留中のユーザーの招待状を再送信する方法を説明します。
-exl-id: e326460b-8354-452e-aa35-00c82c7d76bf
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 1. 次のいずれかの操作を行います。
 
-   * メインメニューで、 **[!UICONTROL Settings]>[!UICONTROL Users]**.
+   * メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * メインメニューで、 **[!UICONTROL Settings]>[!UICONTROL Account]**&#x200B;をクリックし、 **[!UICONTROL Edit users]**.
+   * メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;をクリックし、 **[!UICONTROL Edit users]**.
 
 1. 内 **招待** セクションで、 ![再送信](/help/dsp/assets/resend.png).
 

@@ -2,8 +2,7 @@
 title: のイベントピクセルの表示 [!UICONTROL Simple Ad Serving] 契約
 description: イベント追跡ピクセルのコピーを取得する方法を説明します。 [!UICONTROL Simple Ad Serving] 契約
 feature: DSP Simple Ad Serving
-exl-id: 88d18ddd-98ba-4e36-890c-d6ddfb7d59e5
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 イベントピクセルには、 [!UICONTROL Clickthrough] ピクセルと [!UICONTROL Impression] ピクセル。 ビデオおよびオーディオ広告には、四分位数ごとに ( [!UICONTROL 25% Complete] から [!UICONTROL 100% Complete]) をクリックします。
 
-1. メインメニューで、 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
 1. 契約行で、「 ![オプションメニュー](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
 

@@ -2,8 +2,8 @@
 title: 配置診断レポートの表示
 description: 配置の設定とペーシングに関する問題を診断する方法を説明します。
 feature: DSP Placements
-exl-id: d64406b6-83b5-4ae7-984c-98610fc1ee40
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
    1. 配置設定を開きます。
       1. メインメニューで、 **[!UICONTROL Campaigns]**.
       1. キャンペーン名をクリックし、 **[!UICONTROL Placements]**.
-      1. 配置名の横にある  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+      1. 配置名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
    1. 右上で、 ![配置診断](/help/dsp/assets/placement-diagnostics.png) または **[!UICONTROL Diagnostic]**.
 1. 次のいずれかの操作を行います。
    * 変更ログを表示するには、次の手順に従います。

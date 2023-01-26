@@ -2,8 +2,8 @@
 title: 再利用可能なオーディエンスに関する詳細のエクスポート
 description: 再利用可能なオーディエンスの設定、オーディエンスのサイズ、ターゲット配置を表示する方法を説明します。
 feature: DSP Audiences
-exl-id: a4c946f1-8968-4e55-9935-76e6376561f1
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 次をダウンロードできます。 [!DNL Microsoft Excel] ワークシートファイル（オーディエンス設定ルール、デバイスタイプ別のアクティブなオーディエンスメンバーと合計オーディエンスメンバーの数、オーディエンス内の各セグメントに関する詳細、オーディエンスをターゲットとするすべての配置）。
 
-1. メインメニューで、 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. オーディエンス行にカーソルを置き、 **[!UICONTROL Export XLS]**.
 

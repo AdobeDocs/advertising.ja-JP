@@ -2,8 +2,8 @@
 title: 非公開契約のアーカイブまたはアーカイブ解除
 description: 個人契約をアーカイブまたはアーカイブ解除する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 6ecf90b6-a52f-42f3-aa3f-b2c489ea0aa8
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 ## 個人契約のアーカイブ
 
-1. メインメニューで、 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
-1. 契約行で、「 **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. 契約行で、「 **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. 確認メッセージで、 **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 ## 非公開契約のアーカイブ解除
 
-1. メインメニューで、 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 1. 契約リストの上で、「 ![フィルター](/help/dsp/assets/filter.png);クリック **[!UICONTROL Status]** を選択し、 *[!UICONTROL Archived]*;次に、 **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
-1. 契約行で、「 **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. 契約行で、「 **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. 確認メッセージで、 **[!UICONTROL Unarchive]**.
 
 パブリッシャーまたは SSP が以前にこの契約を無効にしており、再度使用する場合は、パブリッシャーまたは SSP に直接問い合わせてください。

@@ -2,8 +2,8 @@
 title: パッケージの編集
 description: パッケージの編集方法を説明します。
 feature: DSP Packages
-exl-id: 4067f8c8-d5a9-4fe6-9abe-78aa73bc00a1
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 88fbbb46-0150-4ff7-838f-ea00aead529e
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 1. キャンペーン名をクリックして、 [!UICONTROL Packages] 表示
-1. パッケージ名の横にある  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+1. パッケージ名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 1. を編集します。 [パッケージ設定](package-settings.md).
 1. クリック **[!UICONTROL Save and Close]**.
 

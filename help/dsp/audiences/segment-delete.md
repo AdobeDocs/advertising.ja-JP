@@ -2,8 +2,8 @@
 title: セグメントの削除
 description: カスタムまたは CCPA オプトアウトオブセールセグメントを削除する方法について説明します。
 feature: DSP Segments
-exl-id: dd58d4ad-50a7-46d5-b644-77aa481f15ba
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 2b5f61b1-b07d-45e1-bf1c-8e7c25ead42b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 カスタムまたは CCPA オプトアウトオブセールセグメントを削除すると、そのセグメントが含まれるすべての配置と保存済みオーディエンスから削除され、今後使用できなくなります。
 
-1. メインメニューで、 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. セグメント行の上にカーソルを置き、 **[!UICONTROL More]** > **[!UICONTROL Delete]**.
 

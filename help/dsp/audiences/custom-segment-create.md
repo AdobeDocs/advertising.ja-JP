@@ -2,8 +2,8 @@
 title: カスタムセグメントの作成と実装
 description: Web ページを訪問した広告やユーザーにさらされるユーザーを追跡するカスタムセグメントを作成および実装する方法について説明します。
 feature: DSP Segments
-exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. セグメントの作成：
 
-   1. メインメニューで、 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+   1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
    1. データテーブルの上にある **[!UICONTROL Create]**.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 必要に応じて、タグをコピーして実装し、セグメントを追跡します。
 
-   1. 戻る **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+   1. 戻る **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
    2. セグメント行の上にカーソルを置き、 **[!UICONTROL Get Pixel]**.
 

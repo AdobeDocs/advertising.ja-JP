@@ -2,8 +2,8 @@
 title: 配置の編集
 description: プレースメントの編集方法を説明します。
 feature: DSP Placements
-exl-id: 135adad3-0bc0-4402-ac4a-a4fc71f78edf
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. サブメニューで、 **[!UICONTROL Placements]**.
 
-1. 配置名の横にある  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+1. 配置名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. を編集します。 [配置設定](placement-settings.md).
 
@@ -88,5 +88,5 @@ ht-degree: 0%
 >* [配置設定](placement-settings.md)
 >* [キーボードショートカット](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [スプレッドシートを使用したキャンペーンの配置設定の修正について](/help/dsp/campaign-management/qa/qa-about.md)
->* [ビデオ：一括編集ツールを使用した配置の編集方法](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [ビデオ：一括編集ツールを使用した配置の編集方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

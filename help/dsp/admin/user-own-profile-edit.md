@@ -1,8 +1,8 @@
 ---
 title: ユーザープロファイルを編集
 description: ユーザープロファイルの編集方法を説明します。
-exl-id: 4a140b0a-5860-4b68-820c-03b6bf80254f
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 アカウントプロファイルには、ログイン資格情報などの情報が含まれます。 また、一部のユーザーの役割では、組織のアカウントに関する情報を表示し、追加のユーザーを招待して組織のアカウントにユーザーアカウントを作成することもできます。
 
-1. メインメニューで、 **[!UICONTROL Settings]> [!UICONTROL Account].**
+1. メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Account].**
 
 1. プロファイル設定を編集します。
 
@@ -22,7 +22,6 @@ ht-degree: 3%
       1. 既存の **[!UICONTROL Email address]**&#x200B;をクリックし、 **[!UICONTROL Edit]**.
 
       1. 新しい電子メールアドレスと、ユーザーアカウントの既存のパスワードを入力します。
-
       1. クリック **[!UICONTROL Continue]**.
    * ユーザーアカウントのパスワードを編集するには、次の手順に従います。
 

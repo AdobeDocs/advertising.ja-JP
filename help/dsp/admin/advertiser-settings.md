@@ -1,7 +1,7 @@
 ---
 title: 広告主アカウント設定
 description: 使用可能な広告主設定の説明を参照してください。
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 0%
@@ -38,9 +38,9 @@ ht-degree: 0%
 
 （オプション） DSPアカウントにリンクされた追加のExperience Cloud製品。 製品は、 [!UICONTROL Adobe IMS IDs] 」セクションに入力します。
 
-**[!UICONTROL Attribution services]> [!UICONTROL Adobe Media Optimizer]:** ( [!DNL Adobe Advertising Search] または (Adobe広告コンバージョンピクセルを使用する ) A [!DNL Search] DSPがアトリビューションデータを交換するアカウント。
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** ( [!DNL Adobe Advertising Search] または (Adobe広告コンバージョンピクセルを使用する ) A [!DNL Search] DSPがアトリビューションデータを交換するアカウント。
 
-**[!UICONTROL Report suites]> [!UICONTROL Adobe Analytics]:** (Adobe Analyticsの広告主オプション；は、 [!DNL EF Redirect] およびトークンのみ ) 1 つ以上 [!DNL Analytics] パブリッシャーおよびサプライサイドのパートナーからDSPが収集したデータを送信するレポートスイート。 また、Analytics は、クライアントのサイトから収集したデータをDSPに送信します。
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Adobe Analyticsの広告主オプション；は、 [!DNL EF Redirect] およびトークンのみ ) 1 つ以上 [!DNL Analytics] パブリッシャーおよびサプライサイドのパートナーからDSPが収集したデータを送信するレポートスイート。 また、Analytics は、クライアントのサイトから収集したデータをDSPに送信します。
 
 データをレポートスイートに表示する場合は、 [!DNL Search] 広告主レベルの設定を[!UICONTROL Enable tracking for SAINT feeds]」を有効にする必要があります。 また、 [!DNL Analytics] アカウント広告からデータを受け取るようにアカウントをAdobeする必要があります。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 との統合について詳しくは、 [!DNL Analytics]を参照してください。[の概要 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
-**[!UICONTROL Audiences]> [!UICONTROL Adobe Analytics Cloud]:** (Adobe Audience Manager又はAdobe Analyticsの広告主（オプション）Audience Managerまたは [!DNL Analytics] DSPがすべての広告主のAdobeオーディエンスのセグメントメタデータ、階層データおよび一意のオーディエンスデータを取り込むアカウント。 これには、以下のデータが含まれます。
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Adobe Audience Manager又はAdobe Analyticsの広告主（オプション）Audience Managerまたは [!DNL Analytics] DSPがすべての広告主のAdobeオーディエンスのセグメントメタデータ、階層データおよび一意のオーディエンスデータを取り込むアカウント。 これには、以下のデータが含まれます。
 
 * Audience Managerセグメント
 * [!DNL Analytics] Adobe Experience Cloudに公開されたセグメント

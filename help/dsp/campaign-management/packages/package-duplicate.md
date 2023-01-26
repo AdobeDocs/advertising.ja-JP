@@ -2,8 +2,8 @@
 title: パッケージの複製
 description: パッケージの複製方法を説明します。
 feature: DSP Packages
-exl-id: 4c37883f-5feb-4513-9573-ed4e32606132
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 1. キャンペーン名をクリックして、 [!UICONTROL Packages] 表示
 
-1. パッケージ名の横にある  **[!UICONTROL ...]>[!UICONTROL Duplicate]**.
+1. パッケージ名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. 新しいパッケージ設定を指定します。
 

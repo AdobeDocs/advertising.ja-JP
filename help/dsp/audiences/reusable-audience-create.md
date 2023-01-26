@@ -2,8 +2,8 @@
 title: 再利用可能なオーディエンスを作成
 description: オーディエンスセグメントと他の保存済みのオーディエンスで構成される再利用可能なオーディエンスを作成する方法を説明します。
 feature: DSP Audiences
-exl-id: 48e3dc4c-6e2d-452c-8d69-7e6211d808e0
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 再利用可能なオーディエンス（オーディエンスセグメントのグループ、および他の保存済みのオーディエンスのグループ）を保存および管理できます。これらは、複数の配置のターゲットまたは除外として使用できます。
 
-1. メインメニューで、 **[!UICONTROL Audiences]>[!UICONTROL All Audiences]**.
+1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
 1. データテーブルの上にある **[!UICONTROL Create]**.
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 
       1. 次のいずれかの方法で、既存のオーディエンスからセグメントロジックをコピーします。
 
-         * 「すべてのオーディエンス」表示で、オーディエンス行の上にカーソルを置き、 **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * 「すべてのオーディエンス」表示で、オーディエンス行の上にカーソルを置き、 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * 既存のオーディエンスの設定で、セグメントのロジックパネルの上部にある「 **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * 既存のオーディエンスの設定で、セグメントのロジックパネルの上部にある「 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * テキストエディターで、英数字のセグメント ID と [ブール構文](audience-segment-logic-syntax.md)をクリップボードにコピーします。
       1. クリック **[!UICONTROL paste in an audience rule to begin building]**」で、既存のセグメントロジックを入力フィールドに貼り付けて、「 **[!UICONTROL Apply]**.
