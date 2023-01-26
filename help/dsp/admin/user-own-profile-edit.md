@@ -2,7 +2,7 @@
 title: ユーザープロファイルを編集
 description: ユーザープロファイルの編集方法を説明します。
 exl-id: 4a140b0a-5860-4b68-820c-03b6bf80254f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -22,6 +22,7 @@ ht-degree: 3%
       1. 既存の **[!UICONTROL Email address]**&#x200B;をクリックし、 **[!UICONTROL Edit]**.
 
       1. 新しい電子メールアドレスと、ユーザーアカウントの既存のパスワードを入力します。
+
       1. クリック **[!UICONTROL Continue]**.
    * ユーザーアカウントのパスワードを編集するには、次の手順に従います。
 

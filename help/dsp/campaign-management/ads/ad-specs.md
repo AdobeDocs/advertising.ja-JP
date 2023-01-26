@@ -3,7 +3,7 @@ title: 広告の仕様
 description: 一般的な広告仕様およびパブリッシャー固有の広告仕様を参照します。
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%
@@ -177,7 +177,6 @@ ht-degree: 0%
    * ファイルタイプ：JPEG、JPG、PNG、GIF、HTML
    * 最大ファイルサイズ：2 MB
    * Dimension:300x250
- 
 
 ## ネイティブディスプレイ広告
 

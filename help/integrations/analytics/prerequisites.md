@@ -3,7 +3,7 @@ title: 実装の前提条件と主な情報 [!DNL Analytics for Advertising]
 description: 実装の前提条件と主な情報 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Adobe AnalyticsとAdobe広告を統合する前に、次の情報を確認して
 ## Analytics セグメントをAdobe広告と共有する際の要件
 
 * Experience CloudID サービス： `visitorAPI.js` バージョン 2.1 以降
-* Adobe Analytics: `!DNL appMeasurement.js` バージョン 1.8 以降
+* Adobe Analytics: `appMeasurement.js` バージョン 1.8 以降
 
 ## 報告の要件 [!DNL Analytics] Adobe広告のデータ
 

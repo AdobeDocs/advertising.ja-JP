@@ -3,7 +3,7 @@ title: Campaign Managementに関する FAQ
 description: 変更の待ち時間を含むキャンペーン管理の詳細と、フライト中に予算を変更した場合の動作を説明します。
 feature: DSP Packages, DSP Placements
 exl-id: 9034ab2c-b8b0-4759-bc87-5f73857bb062
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * フライトの最終日に、パッケージのぺーシングはどのように変化しますか？
 
-   フライトの最終日は、パッケージ予算を超えないように、日を 24 時間から 23 時間に短縮します。 また、パッケージのペーシングフィル戦略は自動的に「[!UICONTROL Frontload]」と表示されます。[!UICONTROL even].&quot; つまり、1 日の予算の 65%が、米国東部標準時の午前 11 時 30 分までに納入するはずです。
+   フライトの最終日は、パッケージ予算を超えないように、日を 24 時間から 23 時間に短縮します。 また、パッケージのペーシングフィル戦略は自動的に「[!UICONTROL Frontload]」と表示されます。[!UICONTROL even].&quot; つまり、1 日の予算の 65%が、米国東部標準時の午前 11 時 30 分までに納入するということです。
 
 >[!MORELIKETHIS]
 >

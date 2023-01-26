@@ -3,7 +3,7 @@ title: オーディエンスソースを作成してファーストパーティ�
 description: オーディエンスをアカウントまたは広告主アカウントにインポートするソースを作成する方法を説明します。
 feature: DSP Audiences
 exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. Experience Platformで、 [!UICONTROL Source Key] DSPのソース設定で生成された
 
-DSPの宛先接続をアクティブ化し、セグメントを選択し、制御権限にアクセスする手順については、「[Adobe Advertising Cloud DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+   DSPの宛先接続をアクティブ化し、セグメントを選択し、制御権限にアクセスする手順については、「[Adobe Advertising Cloud DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >

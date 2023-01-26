@@ -3,7 +3,7 @@ title: での契約の承認 [!UICONTROL Deal ID Inbox]
 description: パブリッシャーとの間で既に交渉を行ったプライベート契約を受け入れる方法を説明します。 [!DNL FreeWheel], [!DNL Google Authorized Buyers] ( 旧称： [!DNL AdX]), and [!DNL Magnite DV+] ( 以前の [!DNL Rubicon]) を使用して、Deal ID Inbox を使用します。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 55e8ca50-05f5-4f38-9fd5-afaed71315dc
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%

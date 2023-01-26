@@ -3,7 +3,7 @@ title: 用 JavaScript コード [!DNL Analytics for Advertising]
 description: 用 JavaScript コード [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 184508ce-df8d-4fa0-b22b-ca0546a61d58
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 0%
@@ -76,9 +76,9 @@ JavaScript ライブラリは、 [!DNL Analytics] およびAdobe広告を使用�
    * 2 番目の行は、リクエストをAdobe広告に送信する呼び出しです。 最初は次のようになります。 `_les_imsOrgId=[your_imsOrgId_here]&_les_url=[your_encoded_url]`
 
       Adobe広告への呼び出しが表示されない場合は、訪問の最初のページビューでない可能性があります。 テストの目的で、cookie を削除して、次の呼び出しが対応する訪問の最初のページビューになるようにできます。
-
-      1. 「アプリケーション」タブで、 `adcloud` cookie を確認し、cookie に `_les_v` （最後の訪問）の値が `y` と、30 分で期限切れになる UTC エポックタイムスタンプ。
+   1. 「アプリケーション」タブで、 `adcloud` cookie を確認し、cookie に `_les_v` （最後の訪問）の値が `y` と、30 分で期限切れになる UTC エポックタイムスタンプ。
       1. を削除します。 `ad cloud` cookie を更新し、ページを更新します。
+
 
 1. (Experience CloudID サービスを使用する実装 ) `visitorAPI.js` コード ) フィルター `/b/ss` をクリックして Analytics ヒットを確認します。
 

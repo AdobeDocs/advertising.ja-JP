@@ -3,7 +3,7 @@ title: 使用例
 description: Advertising DSPのメディアデータをAudience Managerと共有する使用例について説明します
 feature: Integration with Adobe Audience Manager
 exl-id: 21d80cf6-f817-495a-bae4-fc9e44f1eda4
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 48cab1494ee36e6ab2f12b2e87adedf62a21374f
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -34,17 +34,23 @@ Audience Managerでインプレッションデータをキャプチャすると�
 
    例えば、特性の名前を指定するには、 `Creative Trait 123`の場合は、次の特性ルールを使用します。
 
-   `d_creative == 123 AND d_event == imp`
+   ```
+   d_creative == 123 AND d_event == imp
+   ```
 
 1. クリックまたはコンバージョンをおこなうユーザーを取得する特性を作成します。
 
    例えば、この特性の名前をに設定するには、次のようにします。 `Click and Converter`の場合は、次の特性ルールを使用します。
 
-   `d_event == click OR d_event=conv`
+   ```
+   d_event == click OR d_event=conv
+   ```
 
 1. という名前のセグメントを作成します。 `Retarget Users` クリエイティブを見たユーザーを生み出す `123` ただし、クリックや変換は行われませんでした。 次の特性ルールを使用します。
 
-   `Creative Trait 123 AND NOT Click and Converter`
+   ```
+   Creative Trait 123 AND NOT Click and Converter
+   ```
 
 1. セグメントのマッピング `Retarget Users` を宛先に追加し、クリエイティブを使用して宛先のユーザーをターゲット化する `456`.
 

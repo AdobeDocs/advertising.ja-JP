@@ -3,7 +3,7 @@ title: プレースメントへの広告の添付
 description: プレースメントに広告を添付する方法を説明します。
 feature: DSP Ads
 exl-id: 4d85b89b-217f-46eb-a8b2-27da4c220be7
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 1%
@@ -86,6 +86,7 @@ ht-degree: 1%
       1. クリック **[!UICONTROL Select an Ad].**
 
       1. 広告を指定します。
+
          * 一度に 1 つの広告を追加するには：
 
             1. 広告名の横にある **[!UICONTROL Select].**

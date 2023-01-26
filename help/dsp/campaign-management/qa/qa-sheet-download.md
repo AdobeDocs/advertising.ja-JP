@@ -3,7 +3,7 @@ title: キャンペーンの配置設定のダウンロード
 description: Excel QA スプレッドシートを使用して、キャンペーンの配置設定をダウンロードする方法を説明します。
 feature: DSP Placements
 exl-id: c3b0cbf2-7095-4608-977a-9a5dd0bbd585
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 1. 次のいずれかの操作を行います。
 
-   * キャンペーン名の横にある **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
+   * キャンペーン名の横にある **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
-   * キャンペーン名をクリックして、キャンペーンの詳細を表示します。 右上で、 **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
+   * キャンペーン名をクリックして、キャンペーンの詳細を表示します。 右上で、 **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
    ファイルのダウンロードが可能な時期を示す通知メッセージが表示されます。
 

@@ -3,7 +3,7 @@ title: PG 契約の広告をに提出 [!DNL FreeWheel]
 description: パブリッシャーとのプログラム的に保証された契約に対して、広告の承認をリクエストする方法を説明します。 [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 6cb41f3b-29e4-4feb-9c31-578ab40bd4f7
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 2459ae8803e26c68d9fca3a1bcf5b744eaafb72c
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -32,7 +32,9 @@ ht-degree: 0%
 
       例えば、次の URL では、広告キーは `3NtNC5ZbaGZtqbei8jD3`
 
-      `https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads`
+      ```
+      https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads
+      ```
 
 1. 広告をに送信 [!DNL Freewheel]:
 

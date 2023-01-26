@@ -3,9 +3,9 @@ title: 配置設定
 description: 使用可能な配置設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '3418'
+source-wordcount: '3416'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 0%
 
    キーワード、キー、Deal ID、カスタムタグでリストを検索できます。
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]:すべて [プレミアム、保証なし [!UICONTROL On Demand] 在庫](/help/dsp/inventory/on-demand-inventory-about.md) ( または [!UICONTROL On Demand] [!DNL] Roku での契約 [!DNL Roku] 配置 ) を購読している [!DNL DSP]. 含めたり除外したりできます [!UICONTROL On Demand] 在庫。
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]:すべて [プレミアム、保証なし [!UICONTROL On Demand] 在庫](/help/dsp/inventory/on-demand-inventory-about.md) ( または [!UICONTROL On Demand] [!DNL Roku] ～の契約 [!DNL Roku] 配置 ) を購読している [!DNL DSP]. 含めたり除外したりできます [!UICONTROL On Demand] 在庫。
 
    リストは、ソース別またはフィード別に表示できます。 フィード別にリストを表示する場合、フィード名、フィードキー、または選択した投稿者の地域、カテゴリタグ、特性タグで検索できます。
 
@@ -188,14 +188,14 @@ ht-degree: 0%
    1. 在庫タイプ名の横にあるチェックボックスを選択します。
    1. （オプション）以下を含めるようにソースを変更します。
       1. クリック ![編集](/help/dsp/assets/edit.png).
-      1. ([!UICONTROL Public] および [!UICONTROL On Demand] 在庫 ) クリック *[!UICONTROL *View by Source]**または **[!UICONTROL View by Feed]** をクリックして、ソースの表示方法を変更します。
+      1. ([!UICONTROL Public] および [!UICONTROL On Demand] 在庫 ) クリック **[!UICONTROL View by Source]** または **[!UICONTROL View by Feed]** をクリックして、ソースの表示方法を変更します。
       1. （該当する場合）必要に応じて在庫をフィルターします。
       1. 含める、および除外するソースを指定します。
          * を含めるには、以下を実行します。 [!UICONTROL Public] または [!UICONTROL On Demand] ソース、クリック **[!UICONTROL Include]** をクリックします。
          * 含める [!UICONTROL Private] ソース：
             * 1 つの契約にすべての在庫を含めるには、 **[!UICONTROL Include all]** をクリックします。
             * 個々の在庫ソースを含めるには、契約名を展開し、ソース名の横にあるチェックボックスをクリックします。
-         * を除外するには [!UICONTROL Public] または [!UICONTROL On ] ソース、クリック **[!UICONTROL Exclude]** をクリックします。
+         * を除外するには [!UICONTROL Public] または [!UICONTROL On source]をクリックし、 **[!UICONTROL Exclude]** をクリックします。
    1. （オプション）ターゲット情報を含む CSV ファイルをブラウザーのダウンロード場所にダウンロードするには、 **[!UICONTROL Save & Export]**.
    1. クリック **[!UICONTROL Save]**.
 
@@ -311,6 +311,7 @@ ht-degree: 0%
 **[!UICONTROL Secondary Cap]:** ( オプション、数値を含める場合に使用できます [!UICONTROL Placement Cap]) プライマリ配置キャップの範囲内の追加の制限。 インプレッション数と期間（12 時間あたり 3 回など）を選択します。
 
 **[!UICONTROL Day Parting]:** （オプション）広告が実行される曜日と時刻を指定します。 時間帯区分間隔を指定するには：
+
 1. クリック ![編集](/help/dsp/assets/edit.png).
 1. 該当するタイムゾーンを選択します。
 1. 間隔を指定します。

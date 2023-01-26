@@ -2,9 +2,9 @@
 title: Adobe TargetでAdobe広告広告用の A/B テストを設定する
 description: で A/B テストを設定する方法を説明します。 [!DNL Target] (DSPおよび [!DNL Search] 広告。
 exl-id: 97055645-4b2f-4795-830d-9ce89ae2ad15
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1644'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Adobe広告とAdobe Targetを使用すると、マーケターは、有料メデ
 
 ![クリックスルーフレームワーク](/help/integrations/assets/target-ct-framework.png)
 
-クリックスルー URL にDSPマクロを追加する場合（ユーザーが広告をクリックしてランディングページに到達すると表示される URL）、DSPは、 ```${TM_PLACEMENT_ID}``` をクリックスルー URL に追加します。 このマクロは、数値配置 ID ではなく、英数字配置キーをキャプチャします。
+クリックスルー URL にDSPマクロを追加する場合（ユーザーが広告をクリックしてランディングページに到達すると表示される URL）、DSPは、 `${TM_PLACEMENT_ID}` をクリックスルー URL に追加します。 このマクロは、数値配置 ID ではなく、英数字配置キーをキャプチャします。
 
 ![ランディングページの URL に追加されたクリックスルー URL](/help/integrations/assets/target-ct-url.jpg)
 
@@ -98,7 +98,7 @@ DSPアカウントチームと Advertising Solutions Group(aac-advertising-solut
 
    1. 次の **データソース** ドロップダウンメニューで、「 **Ad Cloud**.
 
-   1. 式ビルダー内で、 ```d_event``` 「キー」フィールドと ```imp``` 内 **値** フィールド、選択 **ルールを追加**&#x200B;特性を保存します。
+   1. 式ビルダー内で、 `d_event` 「キー」フィールドと `imp` 内 **値** フィールド、選択 **ルールを追加**&#x200B;特性を保存します。
 
    ![ルールベースの特性のスクリーンショット](/help/integrations/assets/target-am-trait.png)
 
@@ -115,7 +115,7 @@ DSPアカウントチームと Advertising Solutions Group(aac-advertising-solut
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-以下の手順は、DSPの使用例に関する情報をハイライトします。 詳しい手順については、[A/B テストの作成](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html.&quot;
+以下の手順は、DSPの使用例に関する情報をハイライトします。 詳しい手順については、[A/B テストの作成](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html).&quot;
 
 1. [Adobe Targetにログイン](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
@@ -208,7 +208,7 @@ Analysis Workspace内で、アクティビティとエクスペリエンスの�
 
 * 同じランディングページで、a) ソリューション/ Target のAdobeデバッガーに表示されるホスト名が b) に表示されるトラッキングサーバーが一致することを確認します ( [!DNL Target] アクティビティの（目標と設定/レポート設定の下）を選択します。
 
-   [!DNL Analytics For Target] にはが必要です [!DNL Analytics] からの呼び出しで送信されるトラッキングサーバー [!DNL Target] から [!DNL Modstats] Analytics のデータ収集サーバー。&lt;! — 単に「Analytics に」へ。>
+   [!DNL Analytics For Target] にはが必要です [!DNL Analytics] からの呼び出しで送信されるトラッキングサーバー [!DNL Target] から [!DNL Modstats] Analytics のデータ収集サーバー。<!-- just "to Analytics?"-->
 
 [Debugger のホスト名値](/help/integrations/assets/target-troubleshooting-hostname.png)
 
