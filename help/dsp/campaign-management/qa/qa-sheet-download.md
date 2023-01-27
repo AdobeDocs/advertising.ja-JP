@@ -3,7 +3,7 @@ title: キャンペーンの配置設定のダウンロード
 description: Excel QA スプレッドシートを使用して、キャンペーンの配置設定をダウンロードする方法を説明します。
 feature: DSP Placements
 exl-id: dd65eec8-9616-4eca-b6b9-b904b3e65141
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%

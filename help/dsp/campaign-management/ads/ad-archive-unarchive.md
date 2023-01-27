@@ -3,7 +3,7 @@ title: 広告のアーカイブまたはアーカイブ解除
 description: 広告をアーカイブまたはアーカイブ解除する方法について説明します。
 feature: DSP Ads
 exl-id: 086c120f-df55-43b0-a6fb-51d68d00a29e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 1. キャンペーンの名前をクリックします。
 1. サブメニューで、 **[!UICONTROL Ads]**.
-1. 広告名の横にある  **... >[!UICONTROL Archive]**.
+1. 広告名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. 確認メッセージで、 **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -33,7 +33,7 @@ ht-degree: 0%
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 1. キャンペーンの名前をクリックします。
 1. サブメニューで、 **[!UICONTROL Ads]**.
-1. 広告名の横にある  **... >[!UICONTROL Unarchive]**.
+1. 広告名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. 確認メッセージで、 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

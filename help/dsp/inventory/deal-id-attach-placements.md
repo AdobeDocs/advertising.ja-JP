@@ -3,7 +3,7 @@ title: 個人契約のプレースメントと広告の指定
 description: 追加の配置と広告を使用して個人取引を使用する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 1%

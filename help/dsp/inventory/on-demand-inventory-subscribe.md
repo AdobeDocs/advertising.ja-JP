@@ -3,7 +3,7 @@ title: 購読してへのアクセスをリクエスト [!DNL On Demand] プレ�
 description: 購読方法とへのアクセス権のリクエスト方法を説明します。[!DNL On Demand] 契約
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -36,8 +36,7 @@ ht-degree: 0%
 
    * 契約元 **[!UICONTROL TV Broadcasters]**
 
-   * 「tune-in」クリエイティブを受け入れる発行者の契約
-      **[!UICONTROL Tune-In]**)
+   * 「tune-in」クリエイティブ (**[!UICONTROL Tune-In]**)
 
    * パブリッシャーが 21 件以上のターゲティングを適用し、アルコール広告 (**[!UICONTROL Legal drinking age]**)
 
@@ -65,8 +64,7 @@ ht-degree: 0%
 
    * 契約元 **[!UICONTROL TV Broadcasters]**
 
-   * 「tune-in」クリエイティブを受け入れる発行者の契約
-      **[!UICONTROL Tune-In]**)
+   * 「tune-in」クリエイティブ (**[!UICONTROL Tune-In]**)
 
    * パブリッシャーが 21 件以上のターゲティングを適用し、アルコール広告 (**[!UICONTROL Legal drinking age]**)
 

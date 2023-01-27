@@ -3,7 +3,7 @@ title: Campaign Managementに関する FAQ
 description: 変更の待ち時間を含むキャンペーン管理の詳細と、フライト中に予算を変更した場合の動作を説明します。
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: ダウンロード/アップロード済みスプレッドシートの列
 description: ダウンロードおよびアップロードした Excel QA スプレッドシートの列を参照します。
 feature: DSP Placements
 exl-id: 698c0d86-cb2e-4d76-89c7-5584b6cdb542
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!UICONTROL Goals] | [!UICONTROL Max Bid] | プレースメントの最大入札額。 | はい |
 | [!UICONTROL Goals] | [!UICONTROL Flight Pacing] | 配置のフライトペーシング戦略： *[!UICONTROL Even]*, *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]*&#x200B;または *[!UICONTROL aggressive frontload]*. | はい |
 | [!UICONTROL Goals] | [!UICONTROL Intraday Pacing] | 配置の日中のペーシング戦略： *[!UICONTROL Even]* または *[!UICONTROL ASAP]*. | はい |
-| [!UICONTROL Goals] | [!UICONTROL  Pre-Bid Filters] | 適用する入札前のフィルター条件。 | — |
+| [!UICONTROL Goals] | [!UICONTROL Pre-Bid Filters] | 適用する入札前のフィルター条件。 | — |
 | [!UICONTROL Goals] | [!UICONTROL Bidding Rules] | 入札ルール（非推奨）が *[!UICONTROL ON]* または *[!UICONTROL OFF]*. | — |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap] | 指定した配置の主な頻度キャップ [!UICONTROL Frequency Cap Interval]. | はい |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap Interval] | プライマリ周波数キャップの間隔： *[!UICONTROL Day]*, *[!UICONTROL Week]*&#x200B;または *[!UICONTROL Month]*. | はい |

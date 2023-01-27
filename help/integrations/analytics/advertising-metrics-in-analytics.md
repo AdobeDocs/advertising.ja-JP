@@ -3,7 +3,7 @@ title: Analysis WorkspaceのAdobe広告指標
 description: Analysis WorkspaceのAdobe広告指標
 feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL AMO Views 75% Complete] | Adobe広告ビデオの少なくとも 75%が視聴された視聴回数。 |
 | [!UICONTROL AMO Views 100% Complete] | Adobe広告ビデオの 100%が視聴された視聴回数。 |
 | [!UICONTROL AMO Viewable Impressions] | 配置設定に従って表示可能と測定されたインプレッション数。 |
-| [!UICONTROL AMO Not Viewable Impressions] | 表示不可と判断されたインプレッションの数。 この値は ([!UICONTROL AMO Measurable Impressions] - [!UICONTROL AMO Viewable ]) をクリックします。 |
+| [!UICONTROL AMO Not Viewable Impressions] | 表示不可と判断されたインプレッションの数。 この値は ([!UICONTROL AMO Measurable Impressions] - [!UICONTROL AMO Viewable]) をクリックします。 |
 | [!UICONTROL AMO Measurable Impressions] | 視認性計測が正常に初期化された、提供されたインプレッション数。 この値は、 （計測されたインプレッション数 — 測定できないインプレッション数）として計算されます。 |
 
 ## Adobe広告に役立つカスタム計算指標

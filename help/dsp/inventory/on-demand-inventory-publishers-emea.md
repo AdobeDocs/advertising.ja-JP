@@ -3,7 +3,7 @@ title: '[!DNL On Demand] ヨーロッパ、中東、アフリカのプレミア�
 description: '[!DNL On Demand] ヨーロッパ、中東、アフリカのプレミアムインベントリ出版社'
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -189,7 +189,7 @@ ht-degree: 0%
 | [!DNL Future] | 英国 |
 | [!DNL Gameloft] | 英国 |
 | [!DNL Gentside] | 英国 |
-| [!DNL GiveMeSport ] | 英国 |
+| [!DNL GiveMeSport] | 英国 |
 | [!DNL Hearst] | 英国 |
 | [!DNL King] | 英国 |
 | [!DNL Ladbible] | 英国 |

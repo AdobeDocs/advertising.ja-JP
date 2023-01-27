@@ -3,9 +3,9 @@ title: 広告ターゲティング用のAdobe Audience Managerセグメントの
 description: インポート方法を学ぶ [!DNL Adobe] Adobe Audience Managerを使用して Advertising DSPと Search にオーディエンスを追加
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Advertising DSP and [!DNL Advertising Search] は、すべての広告主や代�
 
 * Adobe Experience Platformで作成され、Audience Managerを介してAdobe広告に送信されるセグメント
 
-アクセスするには [!DNL Adobe] DSPまたは [!DNL Creative]の場合、オーディエンスをDSPにインポートする必要があります。 アクセスするには [!DNL Adobe] [!DNL のオーディエンス [!DNL Search]」の場合、オーディエンスを [!DNL] にインポートする必要があります。 [!DNL Search]].
+アクセスするには [!DNL Adobe] DSPまたは [!DNL Creative]の場合、オーディエンスをDSPにインポートする必要があります。 アクセスするには [!DNL Adobe] オーディエンス [!DNL Search]の場合、オーディエンスを [!DNL Search].
 
 ## 前提条件
 
@@ -109,7 +109,7 @@ API は自動的に以下をおこないます。
 ### How DSP Syncs the Data
 
 DSP syncs the data automatically using the [!DNL Adobe Experience Cloud Identity (ECID) Service]. During synchronization, the [!DNL ECID Service] calls Adobe Advertising at [!DNL cm.eversttech.net]. Because Adobe Advertising is a trusted domain, ID syncs take place from parent pages rather than within the destination publishing iframes, as they do with most third-party activation partners. Audience Manager identifies unique users by device IDs, using the [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids), also called the [!DNL Device ID].
- 
+
 ![Synchronization of [!DNL Adobe] audiences in DSP](/help/integrations/assets/audience-manager-sync.png)
 
 ### How Search Syncs the Data
@@ -148,7 +148,7 @@ In [!DNL Creative]の場合、セグメントはターゲットノードのエ�
 
 ### In [!DNL Advertising Search]
 
-[!DNL [!DNL Search]」と入力すると、 [!DNL Google] オーディエンスを [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]から [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
+In [!DNL Search]を使用する場合、セグメントは [!DNL Google] オーディエンスを [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]から [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
 
 各 [!DNL Google] オーディエンスを作成します。 [!DNL Google] は、オーディエンスサイズを提供します。
 

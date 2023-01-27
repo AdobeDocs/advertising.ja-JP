@@ -3,7 +3,7 @@ title: 認定広告配信パートナー
 description: 認定済み広告サーバーと広告ユニットをすべて表示します。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 815d2dd9be270603fd699d979ae3eb09df7d8820
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 | [!DNL Adform] | X | X |  | X |  |
 | [!DNL ADITION Technologies] |  | X |  |  |  |
 | [!DNL ADman Media] | X |  |  |  |  |
-| [!DNL Adobe Advertising Creative ] |  |  |  |  |  |
+| [!DNL Adobe Advertising Creative] |  |  |  |  |  |
 | [!DNL ADventori] |  | X |  |  |  |
 | [!DNL Artsai] |  | X |  | X |  |
 | [!DNL Atlas] |  |  |  | X |  |
@@ -53,7 +53,7 @@ ht-degree: 0%
 | [!DNL Pubmatic] |  |  |  | X | VAST のみ |
 | [!DNL RevJet] |  |  |  | X | VAST のみ |
 | [!DNL Seedtag] |  | X |  |  |  |
-| [!DNL Sizmek] | X | X |  | X | OLV および CTV</br></br>UI でタグがレンダリングされるようにするには、タグを次のように囲みます。 `<a>` タグ（先頭と末尾）に追加します。 以下のサンプルタグを参照してください。</br></br>```<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>``` |
+| [!DNL Sizmek] | X | X |  | X | OLV および CTV</br></br>UI でタグがレンダリングされるようにするには、タグを次のように囲みます。 `<a>` タグ（先頭と末尾）に追加します。 以下のサンプルタグを参照してください。</br></br>`<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>` |
 | [!DNL Spaceback] |  | X |  |  |  |
 | [!DNL Spirable] |  | X |  |  |  |
 | [!DNL SUBLIME] |  |  | X |  |  |

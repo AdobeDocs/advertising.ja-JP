@@ -3,7 +3,7 @@ title: カスタム目標の作成
 description: カスタム目標の作成
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 2060ab016917a69ef8bf718d339a35eb62b1269e
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >詳しくは、 [カスタム目標の作成に関するベストプラクティス](custom-goal-best-practices.md) カスタム目標の設定方法に関するヒントを参照してください。
 
-1. ログイン [!DNL Adobe Advertising Search] （米国の会社）で [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) または（他のすべての国の会社） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. ログイン [!DNL Adobe Advertising Search] （北米のユーザー） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) または（他のすべてのユーザー） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. 目標に含める指標が追跡され、製品で利用できること、および表示名が含まれていることを確認します。
    1. メインメニューで、 **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
    1. 指標を見つけ、 **[!UICONTROL Show in UI and Reports]** は指標に対して有効になっています。

@@ -3,7 +3,7 @@ title: 配置を複製
 description: 1 つ以上の配置の複製方法を説明します。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%

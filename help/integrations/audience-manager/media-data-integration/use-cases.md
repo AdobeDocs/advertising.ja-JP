@@ -3,9 +3,9 @@ title: 使用例
 description: Advertising DSPのメディアデータをAudience Managerと共有する使用例について説明します
 feature: Integration with Adobe Audience Manager
 exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -34,17 +34,23 @@ Audience Managerでインプレッションデータをキャプチャすると�
 
    例えば、特性の名前を指定するには、 `Creative Trait 123`の場合は、次の特性ルールを使用します。
 
-   `d_creative == 123 AND d_event == imp`
+   ```
+   d_creative == 123 AND d_event == imp
+   ```
 
 1. クリックまたはコンバージョンをおこなうユーザーを取得する特性を作成します。
 
    例えば、この特性の名前をに設定するには、次のようにします。 `Click and Converter`の場合は、次の特性ルールを使用します。
 
-   `d_event == click OR d_event=conv`
+   ```
+   d_event == click OR d_event=conv
+   ```
 
 1. という名前のセグメントを作成します。 `Retarget Users` クリエイティブを見たユーザーを生み出す `123` ただし、クリックや変換は行われませんでした。 次の特性ルールを使用します。
 
-   `Creative Trait 123 AND NOT Click and Converter`
+   ```
+   Creative Trait 123 AND NOT Click and Converter
+   ```
 
 1. セグメントのマッピング `Retarget Users` を宛先に追加し、クリエイティブを使用して宛先のユーザーをターゲット化する `456`.
 
@@ -52,7 +58,7 @@ Audience Managerでインプレッションデータをキャプチャすると�
 
 キャンペーンのインプレッションとクリックデータがAudience Manager内で使用可能になったら、特定のキャンペーンまたは戦術にさらされた、または特定のキャンペーンや戦術に対してインタラクションがおこなわれたユーザーの特性およびセグメントを作成できます。 を使用 [[!DNL Audience Analytics] 統合](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)の場合、Audience Managerセグメントを [!DNL Analytics] を参照してください。 潜在的な使用例を次に示します。
 
-* **DSPと [!DNL Adobe Advertising Search] 広告：** 標準 [[!DNL Analytics for Advertising] 統合](/help/integrations/analytics/overview.md) では、DSPと [!DNL] の間のやり取りに関するインサイトを提供しません。 [!DNL Search]] の場合は、両方のチャネルで AMO ID 属性ルールに従う AMO ID が使用され、検索クリックで表示ビュースルーが上書きされます。 Audience ManagerでDSP露出セグメントを作成すると、 [!DNL Audience Analytics] DSPと [!DNL] の間のインタラクションを分析するには、以下を実行します。 [!DNL Search]] 広告 [!DNL Analytics].
+* **DSPと [!DNL Adobe Advertising Search] 広告：** 標準 [[!DNL Analytics for Advertising] 統合](/help/integrations/analytics/overview.md) では、DSPと [!DNL Search] どちらのチャネルも、AMO ID 属性ルールに従う AMO ID を使用するので、検索クリックで表示ビュースルーが上書きされます。 Audience ManagerでDSP露出セグメントを作成すると、 [!DNL Audience Analytics] DSPとの間の相互作用を分析するには [!DNL Search] 広告 [!DNL Analytics].
 
 * **頻度分析：** 特定の広告またはキャンペーンに対するAudience Managerの表示回数に基づいて、ユーザーでセグメントを作成できます。 その後、Analytics で様々な露出セグメントを分析し、DSPの露出数に応じてユーザーの行動がどのように変化するかを確認できます。
 

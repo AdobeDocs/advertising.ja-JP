@@ -3,7 +3,7 @@ title: キャンペーンのアーカイブまたはアーカイブ解除
 description: キャンペーンをアーカイブまたはアーカイブ解除する方法を説明します。
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## キャンペーンのアーカイブ
 
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
-1. キャンペーン名の横にある  **... >[!UICONTROL Archive]**.
+1. キャンペーン名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. 確認メッセージで、 **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -29,7 +29,7 @@ ht-degree: 0%
 ## キャンペーンのアーカイブ解除
 
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
-1. キャンペーン名の横にある  **... >[!UICONTROL Unarchive]**.
+1. キャンペーン名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. 確認メッセージで、 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

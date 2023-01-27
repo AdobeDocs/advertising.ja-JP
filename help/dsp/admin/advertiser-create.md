@@ -1,7 +1,7 @@
 ---
 title: 広告主アカウントの作成
 description: 広告主アカウントの作成方法を説明します。
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ace64d46a8e0394d460f3894fe8823b048c28dc0
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%

@@ -3,7 +3,7 @@ title: 広告に関連付けられた配置のリスト
 description: 広告に関連付けられた配置の表示方法を説明します。
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 1. キャンペーンの名前をクリックします。
 1. サブメニューで、 **[!UICONTROL Ads]**.
-1. 広告名の横にある  **... >[!UICONTROL See placements]**.
+1. 広告名の横にある  **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
 
 >[!MORELIKETHIS]
 >
