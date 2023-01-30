@@ -1,6 +1,6 @@
 ---
 title: カスタム目標を構築するためのベストプラクティス
-description: 成功イベントを定義するためのカスタム目標を構築するためのベストプラクティスについて説明します。
+description: 成功イベントを定義するためのカスタム目標を構築するためのベストプラクティスを学びます。
 feature: DSP Optimization, DSP Best Practices
 exl-id: 8b1247cd-083d-4c8c-8588-9e8c03c4cc67
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
