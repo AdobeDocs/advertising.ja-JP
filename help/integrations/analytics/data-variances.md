@@ -3,9 +3,9 @@ title: A と B の間で予想されるデータの相違 [!DNL Analytics] お�
 description: A と B の間で予想されるデータの相違 [!DNL Analytics] およびAdobe広告
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 2060ab016917a69ef8bf718d339a35eb62b1269e
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '3279'
+source-wordcount: '3276'
 ht-degree: 0%
 
 ---
@@ -88,11 +88,8 @@ Adobe広告との間のビュースルーコンバージョンを比較する際
 
 次のリストを参照： [!DNL Analytics] アトリビューションモデルとその定義 ( [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
 
-ログインしている場合 [!DNL Search]を使用すると、リストを検索できます
-
-* （北米の利用者） [`https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
-
-* （その他すべてのユーザ） [`https://enterprise-intl.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-intl.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
+ログインしている場合 [!DNL Search]の場合、アトリビューションモデルのリストは、
+[https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm).
 
 #### イベント広告におけるAdobe日属性
 
