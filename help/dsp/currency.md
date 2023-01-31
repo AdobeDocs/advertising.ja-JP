@@ -3,7 +3,7 @@ title: サポートされる通貨
 description: サポートされる通貨の一覧を参照してください。
 feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: f1beceb854c6ccb013897b79560d0329a9c0bc5a
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -49,3 +49,4 @@ Adobe広告は、次の通貨をサポートしています。
 ## [!DNL Adobe Advertising Search]
 
 サポートされている検索エンジンでサポートされるすべての通貨。 これはと同じです。 [～に支持されている人々 [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
+
