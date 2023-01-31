@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 95b704237370057d60cef28013907da8526f32c9
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 0%
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
 | 2023 年 1 月 26 日 | 契約 | 在庫/掘り出し物ビューの新しい「PG Impression Pacing」支出列は、保証された掘り出し物のペーシングをレポートします。 | 参照：[カスタム列表示の編集](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
+| 2023 年 1 月 4 日 | [!UICONTROL Campaigns] | 選択した日付範囲でおこなわれた変更を示す変更ログが各キャンペーンで使用できるようになりました。 変更ログは、既にパッケージと配置に使用できました。 | 参照：[キャンペーンの変更ログの表示](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;.&quot; |
 | 2022 年 12 月 14 日 | プレースメント、広告 | （ベータ版機能を開く）新機能[!UICONTROL Universal Video]「配置と広告を使用すると、1 つのビデオ配置を使用して、VPAID と VAST の在庫に対して複数のデバイス環境をターゲットに設定できます。<br><br>ユニバーサルビデオ配置には、デバイスタイプのターゲット ([!UICONTROL Desktop], [!UICONTROL Mobile]、および [!UICONTROL Connected TV]) をクリックします。 ユニバーサルビデオ広告は、ユニバーサルビデオ配置にのみリンクできます。<br><br>カスタムレポートには、新しい配置レベルのディメンション「デバイス環境」が含まれます。 | 参照：[配置設定](/help/dsp/campaign-management/placements/placement-settings.md)&quot;および&quot;[使用可能なレポート列](/help/dsp/reports/report-columns.md).&quot;<br><br>関連項目：[ユニバーサルビデオ広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot;および&quot;[広告の作成](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | 2022 年 11 月 23 日 | 契約 | この [!UICONTROL Inventory] > [!UICONTROL Deals] 表示に「[!UICONTROL Deal Health]」列には、個々の個人契約の健康状態が示されます。&quot;[!UICONTROL Success],&quot; &quot;[!UICONTROL Warning],&quot; &quot;[!UICONTROL Critical],&quot;または&quot;[!UICONTROL Unavailable].&quot; ステータスをクリックすると、契約が期待どおりに実行されない理由や支出がない理由、潜在的な問題をトラブルシューティングする手順など、詳細を確認できます。 | — |
 | 2022 年 10 月 27 日 | [!UICONTROL Campaigns] | 選択した日付範囲で行われた変更を示す変更ログが、各パッケージおよび配置に対して使用できるようになりました。 | 参照：[パッケージの変更ログの表示](/help/dsp/campaign-management/packages/package-change-log.md)&quot;および&quot;[配置の変更ログの表示](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |

@@ -3,9 +3,9 @@ title: キャンペーン設定
 description: 使用可能なキャンペーン設定の説明を参照してください。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -150,4 +150,5 @@ ht-degree: 0%
 >* [Campaign Managementについて](campaign-about.md)
 >* [キャンペーンの作成](campaign-create.md)
 >* [キャンペーンの編集](campaign-edit.md)
+>* [キャンペーンの変更ログの表示](campaign-change-log.md)
 

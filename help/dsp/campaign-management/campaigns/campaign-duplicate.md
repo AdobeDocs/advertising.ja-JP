@@ -3,9 +3,9 @@ title: キャンペーンの複製
 description: キャンペーンの複製方法を説明します。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -55,5 +55,6 @@ ht-degree: 0%
 >* [Campaign Managementについて](campaign-about.md)
 >* [キャンペーンの作成](campaign-create.md)
 >* [キャンペーンの編集](campaign-edit.md)
+>* [キャンペーンの変更ログの表示](campaign-change-log.md)
 >* [キャンペーン設定](campaign-settings.md)
 

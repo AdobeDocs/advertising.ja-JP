@@ -3,10 +3,10 @@ title: キャンペーンの作成
 description: キャンペーンの作成方法を説明します。
 feature: DSP Campaigns
 exl-id: 8e401c15-018d-439b-922e-2e456eabfea4
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,5 +26,6 @@ ht-degree: 1%
 >* [Campaign Managementについて](campaign-about.md)
 >* [キャンペーンの複製](campaign-duplicate.md)
 >* [キャンペーンの編集](campaign-edit.md)
+>* [キャンペーンの変更ログの表示](campaign-change-log.md)
 >* [キャンペーン設定](campaign-settings.md)
 
