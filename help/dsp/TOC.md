@@ -4,19 +4,19 @@ role: User, Admin
 cloud: Experience Cloud
 solution: Advertising, Advertising Cloud
 product: advertising cloud
-user-guide-title: Advertising DSPガイド
-user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて学習します。
+user-guide-title: Advertising DSP ガイド
+user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 85f748bae0efb52e96d8993dcc482b1b969fe6fe
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 5%
+source-wordcount: '879'
+ht-degree: 6%
 
 ---
 
 
-# Advertising DSPガイド {#dsp}
+# Advertising DSP ガイド {#dsp}
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
       + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
@@ -106,8 +106,8 @@ ht-degree: 5%
          + [キャンペーンデータをフィルタ](/help/dsp/campaign-management/reports/campaign-data-filter.md)
          + [列の並べ替え](/help/dsp/campaign-management/reports/campaign-data-sort.md)
       + [データビジュアライゼーションの管理](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
-   + スプレッドシートを使用したキャンペーンの配置設定の修正 {#qa-spreadsheet}
-      + [スプレッドシートを使用したキャンペーンの配置設定の修正について](/help/dsp/campaign-management/qa/qa-about.md)
+   + スプレッドシートを使用した配置設定の修正 {#qa-spreadsheet}
+      + [スプレッドシートを使用した配置設定の修正について](/help/dsp/campaign-management/qa/qa-about.md)
       + [キャンペーンの配置設定のダウンロード](/help/dsp/campaign-management/qa/qa-sheet-download.md)
       + [キャンペーンの配置設定のアップロード](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [ダウンロード/アップロード済みスプレッドシートの列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
@@ -126,7 +126,7 @@ ht-degree: 5%
    + [パフォーマンスのトラブルシューティング](/help/dsp/optimization/troubleshooting-performance.md)
 + オーディエンス {#audiences}
    + [Audience Management について](/help/dsp/audiences/audience-about.md)
-   + セグメントの管理 {#segments}
+   + セグメント {#segments}
       + [カスタムセグメントの作成と実装](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale] セグメント {#ccpa-opt-out-of-sale-segments}
          + [について [!UICONTROL CCPA Opt-out-of-Sale] セグメント](/help/dsp/audiences/ccpa-opt-out-about.md)
@@ -136,7 +136,7 @@ ht-degree: 5%
       + [セグメントの共有または共有の停止](/help/dsp/audiences/segment-share.md)
       + [セグメントの表示追跡ピクセル](/help/dsp/audiences/segment-view-pixels.md)
       + [セグメントの削除](/help/dsp/audiences/segment-delete.md)
-   + オーディエンス管理 {#reusable-audiences}
+   + オーディエンス {#reusable-audiences}
       + [再利用可能なオーディエンスを作成](/help/dsp/audiences/reusable-audience-create.md)
       + [再利用可能なオーディエンスを複製](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [再利用可能なオーディエンスを編集](/help/dsp/audiences/reusable-audience-edit.md)
@@ -147,7 +147,7 @@ ht-degree: 5%
       + [再利用可能なオーディエンスの削除](/help/dsp/audiences/reusable-audience-delete.md)
       + [オーディエンス設定](/help/dsp/audiences/audience-settings.md)
       + [オーディエンスセグメントロジックの構文](/help/dsp/audiences/audience-segment-logic-syntax.md)
-   + ソースの管理 {#sources}
+   + ソース {#sources}
       + [オーディエンスソースからの認証済みセグメントのアクティブ化について](/help/dsp/audiences/sources/source-about.md)
       + [永続 ID パートナーから認証済みセグメントをアクティブ化する](/help/dsp/audiences/sources/source-durable-id.md)
       + [オーディエンスソースを作成してファーストパーティオーディエンスをアクティブ化する](/help/dsp/audiences/sources/source-create.md)

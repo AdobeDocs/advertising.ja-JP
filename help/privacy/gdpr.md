@@ -3,9 +3,9 @@ title: EU 一般データ保護規則に対するAdobe広告のサポート
 description: サポートされるデータリクエストの種類、必須セットアップとフィールド値、および従来の製品 ID と返されたデータフィールドを使用した API アクセスリクエストの例について説明します
 feature: GDPR
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 99ebf339504e053578dc90dbde41437c5f3774f6
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Adobe広告のデータへのアクセスおよび削除をリクエストする
    >
    >一部のAdobe Experience Cloudソリューションへのリクエストには JavaScript ライブラリは必要ありませんが、Adobe広告へのリクエストには必要です。
 
-   Web ページにライブラリをデプロイし、その Web ページから、会社のプライバシーポータルなどのアクセス要求や削除要求をデータ主体が送信できるようにする必要があります。 ライブラリを使用すると、AdobeCookie( 名前空間 ID: `gsurferID`) を使用して、Adobe Experience Platform Privacy Service API を介してこれらの id をアクセスリクエストや削除リクエストの一部として送信できるようにします。
+   Web ページにライブラリをデプロイして、会社のプライバシーポータルなど、データ主体がアクセス要求や削除要求を送信できるようにする必要があります。 ライブラリを使用すると、AdobeCookie( 名前空間 ID: `gsurferID`) を使用して、Adobe Experience Platform Privacy Service API を介してこれらの id をアクセスリクエストや削除リクエストの一部として送信できるようにします。
 
    データ主体が個人データの削除を要求すると、ライブラリはデータ主体のブラウザーからデータ主体の Cookie も削除します。
 

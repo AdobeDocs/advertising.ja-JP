@@ -3,9 +3,9 @@ title: カリフォルニア州消費者プライバシー法に対するAdobe�
 description: 消費者のオプトアウトオブセールのリクエストをキャプチャするためのサポートについて説明します。
 feature: CCPA
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: cce2d73880fbc4b185b426f2e18c1b071dd511a1
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ CCPA のAdobeプライバシーサービスについて詳しくは、 [Adobeプ
    >
    >一部のAdobe Experience Cloudソリューションへのリクエストには JavaScript ライブラリは必要ありませんが、Adobe広告へのリクエストには必要です。
 
-   ライブラリは Web ページにデプロイする必要があります。このライブラリから、会社のプライバシーポータルなど、販売のオプトアウトリクエストを送信できます。 ライブラリを使用すると、AdobeCookie( 名前空間 ID: `gsurferID`) を使用して、Adobe Experience Platform Privacy Service API を介して販売のオプトアウトリクエストの一部としてこれらの id を送信できます。
+   ライブラリは、会社のプライバシーポータルなど、顧客が販売のオプトアウトリクエストを送信できる Web ページにデプロイする必要があります。 ライブラリを使用すると、AdobeCookie( 名前空間 ID: `gsurferID`) を使用して、Adobe Experience Platform Privacy Service API を介して販売のオプトアウトリクエストの一部としてこれらの id を送信できます。
 
 1. Experience Cloudの組織 ID を特定し、組織の Advertising アカウントにリンクされていることを確認します。
 
