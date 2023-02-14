@@ -3,9 +3,9 @@ title: EU 一般データ保護規則に対するAdobe広告のサポート
 description: サポートされるデータリクエストの種類、必須セットアップとフィールド値、および従来の製品 ID と返されたデータフィールドを使用した API アクセスリクエストの例について説明します
 feature: GDPR
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 99ebf339504e053578dc90dbde41437c5f3774f6
+source-git-commit: 7c5472ee97635039a635bcdbd4e0cc384fd04299
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
