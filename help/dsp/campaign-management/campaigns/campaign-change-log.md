@@ -3,9 +3,9 @@ title: キャンペーンの変更ログの表示
 description: キャンペーンに加えられた変更を表示する方法を説明します。
 feature: DSP Campaigns
 exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
-source-git-commit: 4c1b94f6cc168f85b0517d77db5398ddaea4a10d
+source-git-commit: 7f8e4f2170e981a1ab8865be731faba2623fd97d
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,16 @@ ht-degree: 0%
 「新しい値」と「古い値」を除く任意の列でデータを並べ替えることができます。
 
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
+
 1. キャンペーン名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
-1. ( ベータ版機能（オプション）テーブルフォームのみと、テーブルフォームとグラフフォームの両方でのデータ表示を切り替えるには、 ![テーブルとグラフ表示](/help/dsp/assets/table-plus-chart-view.png "テーブルとグラフ表示") または ![テーブル表示](/help/dsp/assets/table-view.png "テーブル表示") 」をクリックします。
-1. ( ベータ版機能（オプション）エントリにメモを追加するには、 [!UICONTROL Notes] 列をクリックし、 **[!UICONTROL Add Notes]**. 入力フィールドにテキストを入力し、 **[!UICONTROL Save]**.
-1. ( ベータ版機能（オプション）ポップアップウィンドウでエントリの詳細を表示するには、 [!UICONTROL Notes] 列をクリックし、 **[!UICONTROL More]>[!UICONTROL View Details]**.
+
+1. （オプション）次のいずれかの操作をおこないます。
+
+   * 表形式のデータの表示と、表形式と表形式の両方でのデータの表示を切り替えるには、 ![テーブルとグラフ表示](/help/dsp/assets/table-plus-chart-view.png "テーブルとグラフ表示") または ![テーブル表示](/help/dsp/assets/table-view.png "テーブル表示") 」をクリックします。
+
+   * エントリにメモを追加するには、 [!UICONTROL Notes] 列をクリックし、 **[!UICONTROL Add Notes]**. 入力フィールドにテキストを入力し、 **[!UICONTROL Save]**.
+
+   * ポップアップウィンドウでエントリの詳細を表示するには、 [!UICONTROL Notes] 列をクリックし、 **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >

@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 425a5f38582a0c603417b67a665a7919dc26e1ac
+source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023 年 2 月 16 日 | [!UICONTROL Campaigns] | 変更ログをグラフ形式で表示し、エントリにメモを追加するオプションは、ベータ版ではありません。 | 参照：[キャンペーンの変更ログの表示](/help/dsp/campaign-management/campaigns/campaign-change-log.md)」を参照してください。[パッケージの変更ログの表示](/help/dsp/campaign-management/packages/package-change-log.md)、」を参照し、「[配置の変更ログの表示](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023 年 2 月 3 日 | [!UICONTROL Campaigns] | （ベータ版機能）変更ログをグラフ形式で表示し、任意のエントリにメモを追加できるようになりました。 | 参照：[キャンペーンの変更ログの表示](/help/dsp/campaign-management/campaigns/campaign-change-log.md)」を参照してください。[パッケージの変更ログの表示](/help/dsp/campaign-management/packages/package-change-log.md)、」を参照し、「[配置の変更ログの表示](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023 年 1 月 26 日 | [!UICONTROL Deals] | 在庫/掘り出し物ビューの新しい「PG Impression Pacing」支出列は、保証された掘り出し物のペーシングをレポートします。 | 参照：[カスタム列表示の編集](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 2023 年 1 月 4 日 | [!UICONTROL Campaigns] | 選択した日付範囲でおこなわれた変更を示す変更ログが各キャンペーンで使用できるようになりました。 変更ログは、既にパッケージと配置に使用できました。 | 参照：[キャンペーンの変更ログの表示](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;.&quot; |
