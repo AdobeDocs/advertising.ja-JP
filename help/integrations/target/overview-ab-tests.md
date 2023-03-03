@@ -2,9 +2,9 @@
 title: Adobe TargetでAdobe広告広告用の A/B テストを設定する
 description: で A/B テストを設定する方法を説明します。 [!DNL Target] (DSPおよび [!DNL Search] 広告。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 69a829a7fda684fcb2d698427f3ef5772d11433d
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ FlashトーキングまたはGoogle Campaign Manager 360 内で、各広告の�
 
 * [追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Google Campaign Manager 360] 広告タグ](/help/integrations/analytics/macros-google-campaign-manager.md)
 
-DSPアカウントチームと Advertising Solutions Group(aac-advertising-solutions-group@adobe.com) に連絡して、必要な配置キーを取得し、設定を完了し、各クリックスルー URL に配置キーが入力されていることを確認します。
+Adobeアカウントチームと Advertising Solutions Group(aac-advertising-solutions-group@adobe.com) に連絡して、必要な配置キーを取得し、設定を完了し、各クリックスルー URL に配置キーが入力されていることを確認してください。
 
 ## 手順 2:「次を使用したビュースルーフレームワークの設定」Audience Manager {#view-through-framework}
 
@@ -166,7 +166,7 @@ DSPアカウントチームと Advertising Solutions Group(aac-advertising-solut
    * エクスペリエンス B:以下を使用： [!DNL Target] テストに含まれるアセット（ヘッドライン、コピー、ボタンの配置、クリエイティブなど）に基づいてランディングページテンプレートをカスタマイズするユーザーインターフェイス。
    >[!NOTE]
    >
-   >例えば、クリエイティブテストのクリエイティブテストのユースケースについては、アカウントチームにお問い合わせください。
+   >クリエイティブテストの使用例などについては、担当のAdobeアカウントチームにお問い合わせください。
 
 ## 手順 4:設定 [!DNL Analytics for Target] Analysis Workspace [!DNL Analytics]
 

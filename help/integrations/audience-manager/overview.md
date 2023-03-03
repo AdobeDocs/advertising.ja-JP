@@ -3,9 +3,9 @@ title: Adobe Audience ManagerとのAdobe広告の統合
 description: Adobe広告がAdobe Audience Managerとデータを交換する様々な方法について説明します。
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 [ユーザー ID からの顧客一致オーディエンス](https://support.google.com/google-ads/answer/9199250) は web サイトのタグベースのオーディエンスと同様に機能しますが、一意のオーディエンスメンバーには、標準の顧客一致や web サイトのタグベースのオーディエンスよりも明確なメリットを得るために、PII 以外の ID が割り当てられます。
 
-必要なユーザー ID を作成するには、Adobe広告 JavaScript タグを使用する必要があります <!-- with a user ID parameter -->を Web サイト上でクリックします。 お問い合わせ [!DNL Search] アカウントチームを参照してください。
+必要なユーザー ID を作成するには、Adobe広告 JavaScript タグを使用する必要があります <!-- with a user ID parameter -->を Web サイト上でクリックします。 詳しくは、Adobeアカウントチームにお問い合わせください。
 
 ![セグメント作成プロセス](/help/integrations/assets/ad_search_user_id_pic.png)
 
