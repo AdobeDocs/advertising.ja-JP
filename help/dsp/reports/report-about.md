@@ -3,9 +3,9 @@ title: カスタムレポートについて
 description: カスタムレポートを手動で作成するか、事前設定済みのレポートテンプレートを使用するかのオプションについて説明します。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ## クロスアカウントレポート {#cross-account-reporting}
 
-複数のDSPアカウントを持つ組織では、組織のニーズに応じて、オプションでカスタムレポートでクロスアカウントデータを有効にすることができます。 例えば、アカウント A にアカウント B のデータへのアクセス権を付与し、アカウント B にアカウント C のデータ（アカウント A のデータではなく）へのアクセス権を付与することができます。 この機能を有効にして設定するには、 [!DNL Adobe] アカウントチーム。
+複数のDSPアカウントを持つ組織では、組織のニーズに応じて、オプションでカスタムレポートでクロスアカウントデータを有効にすることができます。 例えば、アカウント A にアカウント B のデータへのアクセス権を付与し、アカウント B にアカウント C のデータ（アカウント A のデータではなく）へのアクセス権を付与することができます。 この機能を有効にして設定するには、担当のAdobeアカウントチームにお問い合わせください。
 
 この機能を組織で有効にした後、次の操作を実行できます。 [フィルター](report-settings.md) アカウント別に、次のいずれかのレポートタイプを選択します。  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]、および [!UICONTROL Conversion].
 

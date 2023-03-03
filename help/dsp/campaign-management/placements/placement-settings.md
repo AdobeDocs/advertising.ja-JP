@@ -3,9 +3,9 @@ title: 配置設定
 description: 使用可能な配置設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3417'
 ht-degree: 0%
 
 ---
@@ -319,7 +319,7 @@ ht-degree: 0%
    * 間隔を手動で選択するには、セル内をクリックし、必要に応じてドラッグして間隔を選択します。
 1. クリック **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** ( オプション、次の条件で構成された広告主が利用できます： [!DNL Comscore] および [!DNL Grapeshot] セグメント ) [!DNL Comscore] および [!DNL Grapeshot] をターゲットとして含めます。 この機能には追加料金が適用される場合があります。 この機能を有効化し、トピックセグメントを設定するには、 [!DNL Adobe] アカウントチーム。
+**[!UICONTROL Topic Targeting]:** ( オプション、次の条件で構成された広告主が利用できます： [!DNL Comscore] および [!DNL Grapeshot] セグメント ) [!DNL Comscore] および [!DNL Grapeshot] をターゲットとして含めます。 この機能には追加料金が適用される場合があります。 この機能を有効化し、トピックセグメントを設定するには、担当のAdobeアカウントチームにお問い合わせください。
 
 トピックのターゲット設定を指定するには：
 

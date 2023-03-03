@@ -3,9 +3,9 @@ title: ブランドの安全性とメディア品質
 description: ブランドの安全性とメディア品質の機能の詳細をご覧ください。
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: '1354'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ DSPは、広告の実行が安全でないと見なされる、グローバル�
 
 >[!NOTE]
 >
->オプションで、信頼できる非公開取引に添付された標準ディスプレイ広告に対して、グローバルブロックサイトリストをバイパスするには、「[!UICONTROL Allow unscreened sites]」オプションが [配置設定](/help/dsp/campaign-management/placements/placement-settings.md). 必要に応じて、 [!DNL Adobe] アカウントチームは、オプションで、契約のパブリッシャー設定で、公開（オークションレベル）契約のサイトブロックを無効にすることもできます。
+>オプションで、信頼できる非公開取引に添付された標準ディスプレイ広告に対して、グローバルブロックサイトリストをバイパスするには、「[!UICONTROL Allow unscreened sites]」オプションが [配置設定](/help/dsp/campaign-management/placements/placement-settings.md). 必要に応じて、Adobeアカウントチームは、契約のパブリッシャー設定で、公開（オークションレベル）契約のサイトブロックをオプションで無効にすることもできます。
 
 #### アカウントレベルのサイトリストと広告主レベルのブロック済みサイトリスト
 
@@ -104,7 +104,7 @@ DSPは、広告の実行が安全でないと見なされる、グローバル�
 
 各広告主に対して、デフォルトの入札前不正ブロック制御を設定できます<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->（オプション） [各配置の設定をカスタマイズ](/help/dsp/campaign-management/placements/placement-settings.md). この機能を使用する場合は、追加料金が適用される場合があります。
 
-機能の詳細については、ご希望のベンダーに直接お問い合わせいただくか、 [!DNL Adobe] アカウントチーム。
+機能の詳細については、ご希望のベンダーに直接お問い合わせいただくか、Adobeアカウントチームにお問い合わせください。
 
 ![Comscore ロゴ](/help/dsp/assets/comscore-logo.png) ![DoubleVerify ロゴ](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science ロゴ](/help/dsp/assets/ias-logo.png) ![Peer39 ロゴ](/help/dsp/assets/peer39-logo.png)
 
@@ -126,7 +126,7 @@ DSPトピックのターゲット設定では、業界をリードするコン�
 
 * を作成するには、以下を実行します。 [!DNL Comscore] アカウントを作成してカスタムセグメントを作成すると、 [!DNL Activation Segment Manager] 時刻 [https://agents.comscore.com](https://agents.comscore.com). 詳しくは、 [[!DNL Comscore] ヘルプセンター](https://comscoreactivation.zendesk.com/hc/) を参照してください。 カスタムセグメントの料金は、 [!DNL Segment Manager] 作成時に
 
-* を使い始めるには、以下を実行します。 [!DNL Oracle Data Cloud]，連絡先 [!DNL Oracle Data Cloud] または [!DNL Adobe] アカウントチーム。
+* を使い始めるには、以下を実行します。 [!DNL Oracle Data Cloud]，連絡先 [!DNL Oracle Data Cloud] またはAdobeアカウントチーム
 
 ![Comscore ロゴ](/help/dsp/assets/comscore-logo.png) ![Grapeshot ロゴ](/help/dsp/assets/oracle-grapeshot-logo.png)
 
@@ -138,7 +138,7 @@ DSPは [!DNL DoubleVerify] 申し出る [!DNL Authentic Brand Safety] ターゲ�
 
 次の項目を指定できます。 [!DNL DoubleVerify] 各広告主のセグメント ID<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) -->（オプション） [有効化または無効化 [!UICONTROL Authentic Brand Safety] 各配置に対して](/help/dsp/campaign-management/placements/placement-settings.md). DSPは、セグメント ID の使用を目的としてアカウントを請求します。
 
-機能について詳しくは、 [!DNL DoubleVerify] 直接、または [!DNL Adobe] アカウントチーム。
+機能について詳しくは、 [!DNL DoubleVerify] 直接アクセスするか、Adobeアカウントチームにお問い合わせください。
 
 ![DoubleVerify ロゴ](/help/dsp/assets/doubleverify-logo.png)
 

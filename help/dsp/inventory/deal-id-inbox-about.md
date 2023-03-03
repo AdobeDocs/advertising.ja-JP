@@ -3,9 +3,9 @@ title: について [!UICONTROL Deal ID Inbox]
 description: 詳しくは、 [!UICONTROL Deal ID inbox] 機能を使用すると、 [!DNL FreeWheel], [!DNL Google Authorized Buyers] ( 旧称： [!DNL AdX]), and [!DNL Magnite DV+] ( 以前の [!DNL Rubicon]) をクリックします。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ DSPは、米国東部標準時の午前 4 時 30 分に、すべての契約の�
 
 ## の実装 [!UICONTROL Deal ID Inbox]
 
-お客様の契約を [!UICONTROL Deal ID inbox]の場合、SSP アカウントは組織のDSPアカウントを SSP アカウントにマッピングする必要があります。 DSPは、組織のアカウント名を関連する SSP と共有します。 お問い合わせ [!DNL Adobe] アカウントチームを参照してください。
+お客様の契約を [!UICONTROL Deal ID inbox]の場合、SSP アカウントは組織のDSPアカウントを SSP アカウントにマッピングする必要があります。 DSPは、組織のアカウント名を関連する SSP と共有します。 手順については、Adobeアカウントチームにお問い合わせください。
 
 契約ネゴシエーション中に、親DSPアカウントではなく購入者に契約を送信するようにパブリッシャーに伝えます。 契約識別子は、SSP に応じて、名前または ID にすることができます。
 

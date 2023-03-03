@@ -3,9 +3,9 @@ title: クロスデバイス対応ソリューション
 description: クロスデバイス機能の詳細を説明します。
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -78,11 +78,11 @@ Advertising DSPとの統合 [!DNL LiveRamp] では、ブランドが追跡した
 
 *広告コンバージョントラッキングをAdobeにした広告主のみ*
 
-ユーザーベースのアトリビューションを使用すると、メディア視聴が発生したデバイスとは異なるデバイスで発生したコンバージョンをアトリビューションできます。 ユーザーベースのアトリビューション測定は、DSP全体で使用でき、 [!DNL Adobe Advertising Creative]、および [!DNL Adobe Advertising Search] サイトにAdobe広告コンバージョンピクセルを実装している広告主向け。
+ユーザーベースのアトリビューションを使用すると、メディア視聴回数が発生したデバイスとは異なるデバイスで発生したコンバージョンをアトリビューションできます。 ユーザーベースのアトリビューション測定は、DSP全体で使用でき、 [!DNL Adobe Advertising Creative]、および [!DNL Adobe Advertising Search] サイトにAdobe広告コンバージョンピクセルを実装している広告主向け。
 
 ### ユーザーベースのアトリビューション測定を有効にする
 
-クロスデバイスのアトリビューション測定を有効にする場合は、 [!DNL Adobe] アカウントチーム。
+クロスデバイスのアトリビューション測定を有効化する場合は、Adobeアカウントチームにお問い合わせください。
 
 ### クロスデバイスコンバージョンアトリビューションのコンバージョンレポートの設定
 

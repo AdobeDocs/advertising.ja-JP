@@ -3,9 +3,9 @@ title: Campaign Launch チェックリスト
 description: キャンペーンを開始する前に必要な操作について説明します。
 feature: DSP Placements, DSP Ads
 exl-id: 9a8c2b3e-233e-4401-8311-daffde6cda68
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## アカウント資金
 
-アカウントに、キャンペーン全体を実行するのに十分なクレジットがあることを確認します。 口座資金の確認および再入力は、 [!UICONTROL Settings] > [!UICONTROL Account] または [!DNL Adobe] アカウントチーム。
+アカウントに、キャンペーン全体を実行するのに十分なクレジットがあることを確認します。 口座資金の確認および再入力は、 [!UICONTROL Settings] > [!UICONTROL Account] または、Adobeアカウントチームに問い合わせてください。
 
 ## キャンペーンステータス
 

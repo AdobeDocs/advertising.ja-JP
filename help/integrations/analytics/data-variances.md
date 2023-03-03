@@ -3,9 +3,9 @@ title: A と B の間で予想されるデータの相違 [!DNL Analytics] お�
 description: A と B の間で予想されるデータの相違 [!DNL Analytics] およびAdobe広告
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3282'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->ベストプラクティスは、Adobe広告と [!DNL Analytics]. の使用 [!DNL Adobe] 必要に応じて、現在の設定を特定し、設定を同期させておくアカウントチーム。
+>ベストプラクティスは、Adobe広告と [!DNL Analytics]. 必要に応じて、Adobeアカウントチームと協力して、現在の設定を特定し、設定を同期させます。
 
 これらの同じ概念は、異なるルックバックウィンドウやアトリビューションモデルを使用する他のチャネルなどにも当てはまります。
 
@@ -88,8 +88,11 @@ Adobe広告との間のビュースルーコンバージョンを比較する際
 
 次のリストを参照： [!DNL Analytics] アトリビューションモデルとその定義 ( [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
 
-ログインしている場合 [!DNL Search]の場合、アトリビューションモデルのリストは、
-[https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm).
+ログインしている場合 [!DNL Search]を使用すると、リストを検索できます
+
+* （北米の利用者） [`https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
+
+* （その他すべてのユーザ） [`https://enterprise-intl.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-intl.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
 
 #### イベント広告におけるAdobe日属性
 
@@ -165,7 +168,7 @@ Adobe広告レポートでは、同様に、[!UICONTROL ef_id_instances]」指�
 Clicks to [EF ID Instances = (ef_id_instances / Clicks)
 ```
 
-AMO ID と EF ID の間で高い一致率が予想されますが、AMO ID と EF ID は基本的に異なるデータを追跡するので、100%のパリティは想定しないでください。この違いにより、合計の差がわずかに生じる可能性があります [!UICONTROL AMO ID Instances] および [!UICONTROL EF ID Instances]. 合計 [!UICONTROL AMO ID Instances] in [!DNL Analytics] ～とは異なる [!UICONTROL EF ID Instances] ただし、Adobe広告で 1%以上の割合で、 [!DNL Adobe] アカウントチームに問い合わせてください。
+AMO ID と EF ID の間で高い一致率が予想されますが、AMO ID と EF ID は基本的に異なるデータを追跡するので、100%のパリティは想定しないでください。この違いにより、合計の差がわずかに生じる可能性があります [!UICONTROL AMO ID Instances] および [!UICONTROL EF ID Instances]. 合計 [!UICONTROL AMO ID Instances] in [!DNL Analytics] ～とは異なる [!UICONTROL EF ID Instances] ただし、Adobe広告で 1%以上閲覧する場合は、担当のAdobeアカウントチームにお問い合わせください。
 
 AMO ID と EF ID について詳しくは、 [Analytics で使用されるAdobe広告 ID](ids.md).
 
@@ -195,7 +198,7 @@ EF ID は「`test_ef_id`」と入力し、AMO ID は「`test_amo_id#redirectAnch
 
 この例では、アンカータグを追加すると、AMO ID に予期しない文字が追加されるので、Analytics では値を認識できません。 この AMO ID は分類されず、関連付けられたコンバージョンは「[!UICONTROL unspecified]&quot;または&quot;[!UICONTROL none]」内 [!DNL Analytics] レポート。
 
-幸いにも、このような問題は一般的ですが、一般的には大きな相違は生じません。 ただし、 [!DNL Analytics] およびAdobe広告の EF ID、 [!DNL Adobe] アカウントチームに問い合わせてください。
+幸いにも、このような問題は一般的ですが、一般的には大きな相違は生じません。 ただし、 [!DNL Analytics] およびAdobe広告の EF ID については、担当のAdobeアカウントチームにお問い合わせください。
 
 ## その他の指標に関する考慮事項
 

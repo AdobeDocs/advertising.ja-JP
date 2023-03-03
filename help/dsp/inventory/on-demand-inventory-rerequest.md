@@ -3,9 +3,9 @@ title: 再リクエスト [!DNL On Demand] プレミアム在庫取引
 description: 再リクエスト方法を学ぶ [!DNL On Demand] 以前に拒否された契約。
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 再リクエストできます [!DNL On Demand] 拒否された在庫契約。購読したパブリッシャーの契約も含まれます。 新しいリクエストを送信する前に、該当するすべてのアカウント設定が正しいことを確認するには、次の手順に従います。
 
-契約を再リクエストした後、承認されない場合は、 [!DNL Adobe] アカウントチームを参照して、発行者が追加の制限を持っている場合に、アカウントによる契約へのアクセスを禁止しているかどうかを確認します。
+契約の再要求後に契約が承認されない場合は、Adobeのアカウントチームに連絡して、発行者が追加の制限を持っているかどうかを確認し、アカウントによる契約へのアクセスを禁止します。
 
 契約が成立したら [承認済み](/help/dsp/inventory/on-demand-inventory-view-status.md)に含まれる場合は、デフォルトで、すべてをターゲットとする新しい配置のターゲットとして、 [!DNL On Demand] 在庫。 新しい契約は、既存の配置のターゲットとしても使用できますが、配置設定を手動で編集して、契約をターゲットとして追加する必要があります。
 
-1. 次を使用して確定： [!DNL Adobe] アカウントチーム [!UICONTROL Account Type] 組織のDSPアカウントが正しいことを確認してください。
+1. Adobeアカウントチームに確認し、 [!UICONTROL Account Type] 組織のDSPアカウントが正しいことを確認してください。
 
 1. 該当する広告主アカウントの広告主カテゴリが正しいことを確認します。
 

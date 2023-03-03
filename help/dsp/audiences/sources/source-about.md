@@ -3,9 +3,9 @@ title: オーディエンスソースからの認証済みセグメントのア�
 description: 顧客データプラットフォームからファーストパーティセグメントを取り込む方法について説明します。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ In [!DNL Real-time CDP], *宛先* は、シームレスなデータアクティ�
 
 1. [の設定 [!DNL Real-Time CDP] Experience Platformの宛先接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
 
-その他のサポートについては、 [!DNL Adobe] アカウントチームまたは `adcloud-support@adobe.com`.
+その他のサポートについては、Adobeアカウントチームにお問い合わせください。 `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

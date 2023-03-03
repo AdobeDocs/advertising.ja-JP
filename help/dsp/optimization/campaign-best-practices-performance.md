@@ -3,9 +3,9 @@ title: パフォーマンスキャンペーンの設定のベストプラクテ�
 description: 最も低い CPA または最も高い ROAS 用に最適化された配置を含む、パフォーマンス重視のキャンペーンの設定に関するベストプラクティスを説明します。
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ CPA または ROAS の最適化は、パッケージレベルで設定します�
 
 * **[!UICONTROL Device Targeting]**:
    * 次を含む [!UICONTROL Computer], [!UICONTROL Mobile]、および [!UICONTROL Tablet].
-   * ターゲット設定しない [!UICONTROL Firefox] および [!UICONTROL Safari] ターゲティングと測定の制限があるので。 お問い合わせ [!DNL Adobe] 詳細はアカウントチーム [!DNL Adobe] ～の支援 [!DNL Safari ITP].
+   * ターゲット設定しない [!UICONTROL Firefox] および [!UICONTROL Safari] ターゲティングと測定の制限があるので。 詳しくは、Adobeアカウントチームにお問い合わせください。 [!DNL Adobe] ～の支援 [!DNL Safari ITP].
    * モバイル Web トラフィックをターゲットにする場合は、次を除くすべてのモバイルブラウザーを無効にします。 [!UICONTROL Chrome] および [!UICONTROL Edge].
 
 ### ブランドの安全性とメディア品質

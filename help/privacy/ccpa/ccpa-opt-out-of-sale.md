@@ -3,9 +3,9 @@ title: カリフォルニア州消費者プライバシー法に対するAdobe�
 description: 消費者のオプトアウトオブセールのリクエストをキャプチャするためのサポートについて説明します。
 feature: CCPA
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: cce2d73880fbc4b185b426f2e18c1b071dd511a1
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Adobe広告は、顧客がアカウントのオプトアウトオブセールの
 
 この機能は、 [!DNL Trafficking API]. 詳しくは、 [!DNL Trafficking API] を参照してください。
 
-組織が [!DNL Trafficking API] しかし、詳細に興味がある場合は、 [!DNL Adobe] アカウントチーム。
+組織が [!DNL Trafficking API] が詳細を知りたい場合は、Adobeアカウントチームにお問い合わせください。
 
 ## 付録：例 [!UICONTROL CCPA Opt-Out-of-Sale] Privacy ServiceAPI ユーザーのリクエスト
 

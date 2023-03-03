@@ -3,9 +3,9 @@ title: Advertising DSP Campaigns からクリックおよびインプレッシ�
 description: Audience Managerピクセルを使用して Advertising DSP広告から cookie ベースのインプレッションとクリックイベントをキャプチャする方法を説明します
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Audience Managerで、 [データソース](https://experienceleague.adobe.com/d
 
 ## 手順 2:Web ページにインプレッションとクリックイベントのピクセルを実装する {#implement-dsp-pixels}
 
-広告主は、自社のブランドのイベントタグを作成して実装できます。 必要に応じて、担当のAdobe Audience Managerコンサルタントまたは [!DNL Adobe] サポートのアカウントマネージャー。
+広告主は、自社のブランドのイベントタグを作成して実装できます。 必要に応じて、Adobe Audience ManagerのコンサルタントまたはAdobeアカウントチームに問い合わせてください。
 
 >[!NOTE]
 >

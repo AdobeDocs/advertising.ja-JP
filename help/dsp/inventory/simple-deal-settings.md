@@ -3,9 +3,9 @@ title: '''[!UICONTROL Simple Ad Serving] 契約設定`'
 description: 使用可能な設定の詳細 [!UICONTROL Simple Ad Serving] 契約
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 | パラメータ | 説明 |
 |-----------|-------------|
 | **[!UICONTROL Serving Type]** | この契約のメディアタイプ： *[!UICONTROL Video],* *[!UICONTROL Display],* または *[!UICONTROL Audio].* |
-| **[!UICONTROL Publisher Site Served On]** | この在庫を販売している発行者の名前。 名前の最初の 2 文字以上を入力して、投稿者を検索します。 リストに表示されていない投稿者を追加するには、 [!DNL Adobe] アカウントチーム。 |
+| **[!UICONTROL Publisher Site Served On]** | この在庫を販売している発行者の名前。 名前の最初の 2 文字以上を入力して、投稿者を検索します。 一覧に表示されていない投稿者を追加するには、担当のAdobeアカウントチームにお問い合わせください。 |
 | **[!UICONTROL Advertiser]** | この契約にアクセスできる、アカウント内の 1 人の広告主。 また、キャンペーンと、その契約が使用可能なパッケージ（オプション）も選択します。 |
 | **[!UICONTROL Media Quality Assessment?]** | （一部のユーザー）サードパーティの検証のために、別のDSPで広告を実行できるようにします。 <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
 | **[!UICONTROL Ad Source]** | 唯一のオプションは *[!UICONTROL Site Serve (Event Pixels)]*. |
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 | パラメータ | 説明 |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | 1,000 インプレッションあたりのコスト (CPM)。契約の料金カードに反映されます。 お問い合わせ [!DNL Adobe] この値のアカウントチーム。 <br><br>契約の通貨も指定します。 すべてのユーザーが USD を選択できます。SSP が追加の通貨をサポートしている場合は、DSPアカウントの通貨を選択できます。 |
+| **[!UICONTROL Media CPM]** | 1,000 インプレッションあたりのコスト (CPM)。契約の料金カードに反映されます。 この値については、Adobeアカウントチームにお問い合わせください。 <br><br>契約の通貨も指定します。 すべてのユーザーが USD を選択できます。SSP が追加の通貨をサポートしている場合は、DSPアカウントの通貨を選択できます。 |
 | **[!UICONTROL Third Party Billed Fees]** | （オプション）請求不可コストとして追跡される静的なサードパーティ料金と、契約の通貨。<br><br>すべてのユーザーが USD を選択できます。SSP が追加の通貨をサポートしている場合は、DSPアカウントの通貨を選択できます。 **注意：** 請求可能な料金は、 [!UICONTROL Net CPM] 指標。 |
 | **[!UICONTROL Third Party Fee Description]** | （オプション）サードパーティの料金の説明。 |
 | **[!UICONTROL Flight Dates]** | この契約を使用するトラフィックの開始日と終了日。 フライト日は、キャンペーンのフライト日に含める必要があります。 広告タグは、指定されたフライト中にのみ応答を返します。<br><br> 1 年間の期間を持つ個別のシンプルな広告配信キャンペーンを作成し、その中にトラッキングピクセルを作成することをお勧めします。 |

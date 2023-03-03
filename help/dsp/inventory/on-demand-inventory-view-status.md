@@ -3,9 +3,9 @@ title: ステータスの表示 [!DNL On Demand] 契約リクエストと購読
 description: のステータスを確認する方法を説明します [!DNL On Demand] リクエストと購読を処理します。
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    広告主ごとに要求が拒否された理由を確認するには、 ![拒否](/help/dsp/assets/denied.png). 拒否の理由が解決可能なものである場合は、 [契約を再要求する](/help/dsp/inventory/on-demand-inventory-rerequest.md).
 
-承認プロセスについてご質問がある場合は、 [!DNL Adobe] アカウントチーム。
+承認プロセスに関するご質問は、担当のAdobeアカウントチームにお問い合わせください。
 
 >[!MORELIKETHIS]
 >

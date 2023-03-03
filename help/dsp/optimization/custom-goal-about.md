@@ -3,9 +3,9 @@ title: カスタム目標について
 description: 最も低い CPA または最も高い ROAS 向けに最適化されたパッケージで成功イベントを定義するためのカスタム目標について説明します。
 feature: DSP Optimization
 exl-id: 806450b9-ce32-4f5c-a2ac-ba8e435ce36d
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* [!DNL Analytics] ディメンションとセグメントは、Adobe広告の最適化には使用できません。
->* DSPで Analytics イベントを使用するには、 [!DNL Adobe] アカウントチームを使用して、広告主レベルの統合を設定します。
+>* DSPで Analytics イベントを使用するには、Adobeアカウントチームと協力して、広告主レベルの統合を設定します。
 >* [!DNL Analytics] カスタムイベントは、次の命名規則に従います。 `custom_event_[*event #*]_[*Analytics report suite ID*]`. 例： `custom_event_16_examplersid`
 
 

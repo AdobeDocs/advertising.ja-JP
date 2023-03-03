@@ -3,9 +3,9 @@ title: の概要 [!DNL Analytics for Advertising]
 description: の概要 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 使用する [!DNL Analytics] 有料メディアレポートツールとして、組織はAnalysis Workspaceへのアクセス権を持つExperience Cloudログインが必要です。 Adobe広告チームが、Analysis Workspaceの個々のレポートスイートにAdobe広告データをマッピングするのを支援します。 Adobe広告データは任意のレポートスイートに送信できますが、Adobe広告にマッピングされたレポートスイートと、それまでにマッピングされていないレポートスイートについて認識しておく必要があります。レポートスイートに応じて、レポートされるデータが変わる場合があります。
 
-[Adobe広告 ID （内） [!DNL Analytics]](ids.md) は、他の eVar と同様に機能し、カスタムの永続的な有効期限が設定されます。 デフォルトでは、Adobe広告の実装時に、アトリビューションルックバックウィンドウは 60 日に設定されています。 この設定を変更するには、 [!DNL Adobe] アカウントチーム。
+[Adobe広告 ID （内） [!DNL Analytics]](ids.md) は、他の eVar と同様に機能し、カスタムの永続的な有効期限が設定されます。 デフォルトでは、Adobe広告の実装時に、アトリビューションルックバックウィンドウは 60 日に設定されています。 この設定を変更するには、担当のAdobeアカウントチームにご相談ください。
 
 Adobe広告ディメンションには、サフィックス「(AMO ID)」が付きます (「広告タイプ (AMO ID)」など )。 参照：[Analysis WorkspaceのAdobe広告指標](advertising-metrics-in-analytics.md)」をクリックします。
 

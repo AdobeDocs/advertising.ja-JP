@@ -3,9 +3,9 @@ title: 広告ターゲティング用のAdobe Audience Managerセグメントの
 description: インポート方法を学ぶ [!DNL Adobe] Adobe Audience Managerを使用して Advertising DSPと Search にオーディエンスを追加
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ Advertising DSP and [!DNL Advertising Search] は、すべての広告主や代�
 
 この [!DNL Adobe] アカウントおよびデータ操作チームは、次の手順を実行します。
 
-1. この [!DNL Adobe] アカウントチームは、広告主レベルの設定「 」を設定する必要があります。[!UICONTROL Adobe Analytics Cloud].&quot;
+1. Adobeアカウントチームは、広告主レベルの設定「[!UICONTROL Adobe Analytics Cloud].&quot;
 
-1. この [!DNL Adobe] アカウントチームはリクエストを送信する必要があります<!-- Submit a request as a JIRA task? --> データ運用チームに<!-- implementation team? --> :Advertising DSPのネイティブ API 統合を使用して、組織のAudience Managerセグメントを読み込みます。
+1. Adobeアカウントチームはリクエストを送信する必要があります<!-- Submit a request as a JIRA task? --> データ運用チームに<!-- implementation team? --> :Advertising DSPのネイティブ API 統合を使用して、組織のAudience Managerセグメントを読み込みます。
 
 ### どのような変更がAudience Managerに
 
@@ -76,7 +76,7 @@ API は自動的に以下をおこないます。
 
 [!DNL Adobe] の担当者は、次の手順のほとんどまたはすべてを実行します。
 
-1. この [!DNL Adobe] アカウントチームは、データ運用チームにリクエストを送信して、 [!DNL Search] とAudience Manager。 書き出し先のAudience Managerセグメントの名前を含めます [!DNL Search].
+1. Adobeアカウントチームは、データ運用チームにリクエストを送信して、 [!DNL Search] とAudience Manager。 書き出し先のAudience Managerセグメントの名前を含めます [!DNL Search].
 
 1. Audience Manager内で、 [!DNL Search]:
 

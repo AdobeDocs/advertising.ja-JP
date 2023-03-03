@@ -3,9 +3,9 @@ title: Adobe広告 ID が [!DNL Analytics]
 description: Adobe広告 ID が [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ AL!{userid}!{sid}
 * `{userid}` は、広告主に割り当てられる一意の数値AdobeID です。
 * `{sid}` は、Adobe広告が指定した広告ネットワークに使用する数値 ID です（例： ）。 `3` 対象 [!DNL Google Ads] または `10` 対象 [!DNL Microsoft Advertising].
 
-以下は、いくつかの広告ネットワークの完全な AMO ID 形式です。 その他の広告ネットワーク向けの AMO ID の形式については、 [!DNL Adobe] アカウントチーム。
+以下は、いくつかの広告ネットワークの完全な AMO ID 形式です。 その他の広告ネットワーク向けの AMO ID の形式については、担当のAdobeアカウントチームにお問い合わせください。
 
 の AMO ID フォーマット [!DNL Google Ads]:
 

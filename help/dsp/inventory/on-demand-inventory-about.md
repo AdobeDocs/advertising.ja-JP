@@ -3,9 +3,9 @@ title: について [!DNL On Demand] プレミアム在庫
 description: DSPがプレミアムパブリッシャーパートナーと事前にネゴシエートした契約について説明します。
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ DSP premium marketplace では、次のことが可能です。
 
 * 統合レポートを使用してパフォーマンスを追跡
 
-契約が承認されると、既存の配置のターゲットとして使用でき、すべてをターゲットとする新しい配置のターゲットとして自動的に含まれます [!DNL On Demand] 在庫。 契約リクエストが拒否された場合、 [!DNL Adobe] アカウントチームに問題を解決し、契約を再度リクエストしてください。
+契約が承認されると、既存の配置のターゲットとして使用でき、すべてをターゲットとする新しい配置のターゲットとして自動的に含まれます [!DNL On Demand] 在庫。 契約リクエストが拒否された場合は、Adobeのアカウントチームと協力して問題を解決し、契約を再度リクエストできます。
 
 ## オンデマンド表示
 

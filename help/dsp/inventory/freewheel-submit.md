@@ -3,7 +3,7 @@ title: PG 契約の広告をに提出 [!DNL FreeWheel]
 description: パブリッシャーとのプログラム的に保証された契約に対して、広告の承認をリクエストする方法を説明します。 [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
->Adobeアカウントチームと協力して、 [!DNL DSP] アカウントには、 [!DNL FreeWheel] プログラムで保証されたワークフロー。
+>Adobeアカウントチームと協力し、 [!DNL DSP] アカウントには、 [!DNL FreeWheel] プログラムで保証されたワークフロー。
 
 1. と共に使用する広告の広告キーをコピーします。 [!DNL Freewheel] 契約：
 

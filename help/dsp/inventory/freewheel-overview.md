@@ -3,9 +3,9 @@ title: での PG 契約の設定の概要 [!DNL Freewheel]
 description: の公開者とプログラム的に保証された取引のために広告を実行するために必要な前提条件と追加手順について説明します。 [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
->の使用 [!DNL Adobe] アカウントチームが [!DNL DSP] アカウントには次の権限があります。
+>Adobeアカウントチームと協力し、 [!DNL DSP] アカウントには次の権限があります。
 >
 >* を使用する権限 [!DNL FreeWheel] プログラム的に保証された契約に対して広告を送信するために必要な、プログラム的に保証されたワークフロー [!DNL FreeWheel].
 >

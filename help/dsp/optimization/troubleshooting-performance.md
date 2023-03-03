@@ -3,9 +3,9 @@ title: パフォーマンスのトラブルシューティング
 description: 一般的なパフォーマンスの問題を参照し、それらのトラブルシューティング方法を確認します。
 feature: DSP Optimization
 exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 | 配置に費やしない | プレースメントに広告が含まれていないか、広告がアクティブではありません。 | 予想されるすべての広告が配置に添付され、承認済みでアクティブであることを確認します。<br><br>また、配置にカスタム広告スケジュールが含まれているかどうかを確認します。これは、各広告の期間を制限する可能性があります。 配置ビューから配置の広告スケジュールを表示するには、  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]** 配置名の横に表示されます。 |
 |  | 影響を受ける日付は、設定されたフライト日付内ではありません。 | フライト日がキャンペーン、パッケージ、配置レベルで有効であることを確認しま&#x200B;す。 |
 |  | 予算の目標を満たした、または/または十分に高くない。 | キャンペーン、パッケージ、配置レベルで予算設定を確認します。 |
-|  | このアカウントには十分な資金がありません。 | お客様のアカウントが十分な資金を提供しているかどうかを確認するには、 **[!UICONTROL Settings]** > **[!UICONTROL Account]** そして、 [!UICONTROL Usable Funds]. 追加の資金が必要な場合は、 [!DNL Adobe] アカウントチーム。 |
+|  | このアカウントには十分な資金がありません。 | お客様のアカウントが十分な資金を提供しているかどうかを確認するには、 **[!UICONTROL Settings]** > **[!UICONTROL Account]** そして、 [!UICONTROL Usable Funds]. 追加資金が必要な場合は、Adobeアカウントチームにお問い合わせください。 |
 |  | 在庫がありません。 | 指定した在庫ソース ([!UICONTROL Public], [!UICONTROL Private]または [!UICONTROL On Demand]) は次のとおりです。<ul><li>を正しく設定します。</li><li>オークションを通じてアクティブで送信。</li><li>該当する広告およびプレースメントタイプとの互換性。</li></ul><br>在庫ソースがすべて有効で有効な場合は、可能な場合は追加またはすべての在庫ソースをターゲットにします。 |
 |  | 利用できるユーザーがありません。 | 指定したオーディエンスのターゲットに十分なアクティブユーザーが含まれていることを確認します。 表示されない場合は、オーディエンスを追加してターゲットを拡張します。 |
 | 配置に費やす費用が少ない | この [!UICONTROL Non Bids] 「配置の診断」レポートの「 」セクションに、配置が入札しなかった理由が表示されます。 | [以下を確認します。 [!UICONTROL Non Bids] レポート](/help/dsp/campaign-management/reports/placement-diagnostics.md) 配置が入札しなかった理由を理解するために  <!-- add link/edit text when file available: See the [in-depth guide to possible Non-Bid Reasons (NBR)](link) for more information. --> |

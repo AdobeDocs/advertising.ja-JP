@@ -3,9 +3,9 @@ title: オーディオ広告設定
 description: オーディオ広告で使用可能な広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final VAST Tag]:** （VAST タグを使用する広告のみ）必要な [Advertising DSPトラッキングマクロ](/help/dsp/campaign-management/macros.md) 挿入されています（該当する場合）。
 
-**[!UICONTROL Select Rate]:** （権限を持つユーザーのみ）Adobeを通じて請求される事前にネゴシエートされた料金、またはネゴシエートした料金の 1 つで、ベンダーを通じて請求されます。 料金を追加するには、 [!DNL Adobe] アカウントチーム。
+**[!UICONTROL Select Rate]:** （権限を持つユーザーのみ）Adobeを通じて請求される事前にネゴシエートされた料金、またはネゴシエートした料金の 1 つで、ベンダーを通じて請求されます。 料金を追加するには、担当のAdobeアカウントチームにお問い合わせください。
 
 ### ピクセル
 

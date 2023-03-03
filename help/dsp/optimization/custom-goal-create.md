@@ -3,9 +3,9 @@ title: カスタム目標の作成
 description: カスタム目標の作成
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 カスタム目標は、 *目標* 範囲 [!DNL Adobe Advertising Search].
 
-カスタム目標を作成するには、DSPアカウントを [!DNL Search] 内から同じAdobe Experience Cloud組織 ID を持つアカウント [!DNL Search] クライアント設定。 DSPアカウントが [!DNL Search] アカウント、 [!DNL Adobe] アカウントチーム。
+カスタム目標を作成するには、DSPアカウントを [!DNL Search] 内から同じAdobe Experience Cloud組織 ID を持つアカウント [!DNL Search] クライアント設定。 DSPアカウントが [!DNL Search] アカウントに問い合わせる場合は、Adobeアカウントチームにお問い合わせください。
 
 >[!TIP]
 >
 >詳しくは、 [カスタム目標の作成に関するベストプラクティス](custom-goal-best-practices.md) カスタム目標の設定方法に関するヒントを参照してください。
 
-1. ログイン [!DNL Adobe Advertising Search] （米国の会社）で [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) または（他のすべての国の会社） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. ログイン [!DNL Adobe Advertising Search] （北米のユーザー） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) または（他のすべてのユーザー） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. 目標に含める指標が追跡され、製品で利用できること、および表示名が含まれていることを確認します。
    1. メインメニューで、 **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
    1. 指標を見つけ、 **[!UICONTROL Show in UI and Reports]** は指標に対して有効になっています。
