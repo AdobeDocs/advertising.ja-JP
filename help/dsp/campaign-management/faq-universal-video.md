@@ -2,9 +2,9 @@
 title: ユニバーサルビデオに関する FAQ
 description: ユニバーサルビデオ広告の詳細を説明します。
 feature: DSP Placements, DSP Ads
-source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
+source-git-commit: 58cbb5b85a1dc790aaf762ba55fd2badeef6fe68
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,8 @@ ht-degree: 0%
 
 用途 **[!UICONTROL VAST]** 次のいずれかのシナリオの場合：
 
-* この配置は、接続された TV インベントリをターゲットにします。
-* この配置の対象となるのは、Google Ad Manager、Appnexus、SpotX または Freewheel です。 これらの SSP は、VPAID &amp; VAST ビデオ形式をサポートしていません。
+* 配置は、接続された TV 在庫をターゲットにします。
+* この配置の対象となるのは、Google Ad Manager、Appnexus、SpotX または Freewheel のビデオ在庫です。 これらの SSP は、VPAID &amp; VAST ビデオ形式をサポートしていません。
 
 ## 複数のユニバーサルビデオ広告を同じユニバーサルビデオ配置にアタッチすることは可能ですか？
 
