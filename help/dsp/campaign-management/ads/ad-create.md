@@ -3,9 +3,9 @@ title: 単一の広告の作成
 description: 単一のサードパーティ広告を作成する方法を説明します。
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4af30f6fa6a81ce7f1a6879244178c84580caa0f
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ ht-degree: 0%
 1. データテーブルの上にある **[!UICONTROL Create]**. 内 [!UICONTROL Ad Types] メニューの「 」セクションで、 [広告の種類](ad-about.md#ad-types).
 
 1. 以下の広告設定を指定します。 [オーディオ広告](ad-settings-audio.md), [接続された TV](ad-settings-connected-tv.md), [広告の表示](ad-settings-display.md), [モバイル広告](ad-settings-mobile.md), [ネイティブ広告](ad-settings-native.md), [プリロール広告](ad-settings-pre-roll.md)または [ユニバーサルビデオ広告](ad-settings-universal-video.md):
+
+   >[!NOTE]
+   >
+   >ユニバーサルビデオ広告は、ユニバーサルビデオ配置にのみ添付できます。
 
    1. の [!UICONTROL Insert Ad Tag] 画面に、認定されたサードパーティの広告配信パートナーからの広告に関する情報を入力し、 **[!UICONTROL Go]**.
 
@@ -50,4 +54,5 @@ ht-degree: 0%
 >* [複数のサードパーティ広告の作成](ad-create-multiple.md)
 >* [広告の編集](ad-edit.md)
 >* [広告の仕様](ad-specs.md)
+>* [ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 

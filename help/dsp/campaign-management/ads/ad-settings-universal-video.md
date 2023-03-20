@@ -3,9 +3,9 @@ title: ユニバーサルビデオ広告設定
 description: ユニバーサルビデオ広告で使用可能な広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0c9e9c8d2a3444c623568d25262421be53c0c846
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # ユニバーサルビデオ広告設定
 
 *ベータ版機能を開く*
+
+>[!NOTE]
+>
+>ユニバーサルビデオ広告は、ユニバーサルビデオ配置にのみ添付できます。
 
 ## [!UICONTROL Insert Ad Tag]
 
@@ -50,7 +54,7 @@ ht-degree: 0%
 
 **[!UICONTROL Video Format]:** 潜在的な在庫に関する広告プレーヤーの形式： *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]*&#x200B;または *[!UICONTROL VAST]*. の視認性は常に測定されます。 [!UICONTROL VPAID]ですが [!UICONTROL VPAID & VAST] には、視認性の測定を許可しない在庫が含まれています。 視認性指標がキャンペーンにとって重要な場合は、この違いを考慮します。
 
-用途 *[!UICONTROL VAST]* VAST 形式のみを厳密に必要とする接続済みの TV や在庫をターゲットにする場合 ( 通常、Google Ad Manager、Appnexus、SpotX、Freewheel などの供給元から ) は、視認性測定を許可しません。
+用途 [!UICONTROL VAST]VAST 形式のみを厳密に必要とする接続済みの TV や在庫をターゲットにする場合 ( 通常、Google Ad Manager、Appnexus、SpotX、Freewheel などの供給元から ) は、視認性測定を許可しません。 また、このオプションは、以前は Standard Pre-roll(VAST) または Phone + Tablet Standard Pre-roll(VAST) の配置/広告と互換性があった在庫にも使用します。
 
 **[!UICONTROL Clock Number]**:( 英国でのみ使用。（権限を持つユーザーのみが使用できます）正しい広告が確実にブロードキャストされるようにするために使用される一意の識別子。 この設定を適用できない場合は、空白のままにします。
 
@@ -72,6 +76,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
+>* [ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 >* [広告管理について](ad-about.md)
 >* [単一の広告の作成](ad-create.md)
 >* [広告に関連付けられた配置のリスト](/help/dsp/campaign-management/ads/ad-list-placements.md)

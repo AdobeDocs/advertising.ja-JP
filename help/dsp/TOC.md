@@ -8,9 +8,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: b90c8d391bfd90a844e4c6bad37da193fa226397
+source-git-commit: d44b3834240e13904718912ac62df7c8fdbee963
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '883'
 ht-degree: 6%
 
 ---
@@ -113,7 +113,8 @@ ht-degree: 6%
       + [ダウンロード/アップロード済みスプレッドシートの列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [DSPマクロ](/help/dsp/campaign-management/macros.md)
    + [キーボードショートカット](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [Campaign Managementに関する FAQ](/help/dsp/campaign-management/campaign-management-faq.md)
+   + [Campaign Managementに関する FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
+   + [ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 + 最適化 {#optimization}
    + [方法 [!DNL DSP] キャンペーンの最適化](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [最適化目標とその使用方法](/help/dsp/optimization/optimization-goals.md)
@@ -124,7 +125,7 @@ ht-degree: 6%
       + [カスタム目標の作成のベストプラクティス](/help/dsp/optimization/custom-goal-best-practices.md)
    + [パフォーマンスキャンペーンの設定のベストプラクティス](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [パフォーマンスのトラブルシューティング](/help/dsp/optimization/troubleshooting-performance.md)
-+ オーディエンス {#audiences}
++ Audiences {#audiences}
    + [Audience Management について](/help/dsp/audiences/audience-about.md)
    + セグメント {#segments}
       + [カスタムセグメントの作成と実装](/help/dsp/audiences/custom-segment-create.md)
@@ -136,7 +137,7 @@ ht-degree: 6%
       + [セグメントの共有または共有の停止](/help/dsp/audiences/segment-share.md)
       + [セグメントの表示追跡ピクセル](/help/dsp/audiences/segment-view-pixels.md)
       + [セグメントの削除](/help/dsp/audiences/segment-delete.md)
-   + オーディエンス {#reusable-audiences}
+   + Audiences {#reusable-audiences}
       + [再利用可能なオーディエンスを作成](/help/dsp/audiences/reusable-audience-create.md)
       + [再利用可能なオーディエンスを複製](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [再利用可能なオーディエンスを編集](/help/dsp/audiences/reusable-audience-edit.md)

@@ -3,9 +3,9 @@ title: 配置設定
 description: 使用可能な配置設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 251d6a0bed5b4f4b28afc5ecfe666a1e506cd7d5
 workflow-type: tm+mt
-source-wordcount: '3417'
+source-wordcount: '3421'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad specs for forecast]:** （ビデオ広告形式のみ）広告の期間や広告の仕様。右側の予測投影の計算に使用されます。 フィールドは広告タイプによって異なります。
 
-**[!UICONTROL Environment]:** （ユニバーサルビデオ広告形式のみ）配置にターゲットとして含めるデバイス環境（デスクトップ、モバイル、Connected TV）。
+**[!UICONTROL Environment]:** （ユニバーサルビデオ広告形式のみ）配置にターゲットとして含めるデバイス環境（デスクトップ、モバイル、Connected TV）。 少なくとも 1 つを指定してください。
 
 **[!UICONTROL Placement tags]:** （オプション）この配置を探すのに役立つキーワードまたはニックネーム。
 
@@ -468,5 +468,5 @@ ht-degree: 0%
 >* [配置の編集](placement-edit.md)
 >* [配置の変更ログの表示](placement-change-log.md)
 >* [キーボードショートカット](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Campaign Managementに関する FAQ](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [Campaign Managementに関する FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
 
