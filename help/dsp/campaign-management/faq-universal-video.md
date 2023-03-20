@@ -2,14 +2,14 @@
 title: ユニバーサルビデオに関する FAQ
 description: ユニバーサルビデオ広告の詳細を説明します。
 feature: DSP Placements, DSP Ads
-source-git-commit: 8e0237355e834f4ae2b9ef1ed211e047b41cafe7
+source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
-# #ユニバーサルビデオに関する FAQ
+# ユニバーサルビデオに関する FAQ
 
 ## ユニバーサルビデオ配置と広告は、どのようにして作成しますか？
 
@@ -23,7 +23,11 @@ ht-degree: 0%
 
 1. ユニバーサルビデオ配置と同じキャンペーン内で、 [単一のユニバーサルビデオ広告の作成](/help/dsp/campaign-management/ads/ad-create.md) または [複数のユニバーサルビデオ広告を作成する](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-   複数の広告を作成する場合は、必ず「[!UICONTROL Universal Video]&quot; [!UICONTROL Ad Type]. の場合 [!DNL Google] または [!DNL Flashtalking] 広告を開く際に、ファイルをアップロードした後、「[!UICONTROL Review ad types]」をクリックし、編集します。 他のタイプの広告タグの場合は、アップロードするスプレッドシートファイル内で広告のタイプを指定します。
+   複数の広告を作成する場合は、必ず「[!UICONTROL Universal Video]&quot; [!UICONTROL Ad Type]:
+
+   * の場合 [!DNL Google] または [!DNL Flashtalking] 広告：「[!UICONTROL Review ad types]」ファイルをアップロードした後、 **[!UICONTROL Ad Type]** フィールドと選択 **[!UICONTROL Universal Video]**.
+
+   * 他のタイプの広告タグの場合：アップロードするスプレッドシートファイル内で、各広告の「広告タイプ」フィールドに「 」と指定します。 **[!UICONTROL Universal Video]**.
 
 1. [広告設定を開く](/help/dsp/campaign-management/ads/ad-edit.md) 新しい広告ごとに、該当するビデオ形式を選択します。
 
