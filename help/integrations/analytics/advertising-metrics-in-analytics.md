@@ -3,9 +3,9 @@ title: Analysis WorkspaceのAdobe広告指標
 description: Analysis WorkspaceのAdobe広告指標
 feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 5dd3772de945660e76321dac935de5ebcab5979a
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 >
 >* Adobe広告がトラフィック指標およびディメンションをに渡します。 [!DNL Analytics] 毎日
 >* [!DNL Analytics] は、Adobe広告のクリックスルー数とビュースルー数をリアルタイムでキャプチャします。
+   > の場合 [!DNL Search, Social, & Commerce]の場合、この機能は、ほとんどの広告ネットワークとキャンペーンタイプでサポートされます。 詳しくは、 [!DNL Search, Social, & Commerce] ガイドを参照してください。<!-- add link when that's published in ExL -->
 
 
 ## Adobe広告のトラフィック指標
@@ -42,6 +43,32 @@ ht-degree: 0%
 | [!UICONTROL AMO Not Viewable Impressions] | 表示不可と判断されたインプレッションの数。 この値は ([!UICONTROL AMO Measurable Impressions] - [!UICONTROL AMO Viewable]) をクリックします。 |
 | [!UICONTROL AMO Measurable Impressions] | 視認性計測が正常に初期化された、提供されたインプレッション数。 この値は、 （計測されたインプレッション数 — 測定できないインプレッション数）として計算されます。 |
 
+## Adobe広告Dimension
+
+>[!NOTE]
+>
+>のすべてのAdobe広告ディメンション [!DNL Analytics] の後に「(AMO ID)」が続きます。
+
+| Dimension | 該当するAdobe広告データ | 説明 |
+| ----------- | ---------- | ---------- |
+| [!UICONTROL Ad Platform (AMO ID)] | [!DNL DSP] および [!DNL Search, Social, & Commerce] データ | Advertising DSPまたは検索エンジン名 |
+| [!UICONTROL Account (AMO ID] | [!DNL DSP] および [!DNL Search, Social, & Commerce] データ | アカウント名。 |
+| [!UICONTROL Network (AMO ID)] | [!DNL DSP] および [!DNL Search, Social, & Commerce] データ | RTB ([!DNL DSP]) または広告ネットワーク名 ([!DNL Search, Social, & Commerce]) |
+| [!UICONTROL Campaign (AMO ID)] | [!DNL DSP] および [!DNL Search, Social, & Commerce] データ | キャンペーン名。 |
+| [!UICONTROL Optimization (AMO ID)] | [!DNL DSP] および [!DNL Search, Social, & Commerce] データ | パッケージ ([!DNL DSP]) またはポートフォリオ ([!DNL Search, Social, & Commerce]) 名を入力します。 |
+| [!UICONTROL Placement (AMO ID)] | [!DNL DSP] データ | 配置名。 |
+| [!UICONTROL Ad Group (AMO ID)] | [!DNL Search, Social, & Commerce] データ | 広告グループ名。 |
+| [!UICONTROL Keyword (AMO ID)] | [!DNL Search, Social, & Commerce] データ | キーワード。 |
+| [!UICONTROL Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] データ | 検索一致タイプ。 |
+| [!UICONTROL Keyword Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] データ | キーワードと一致のタイプ。 |
+| [!UICONTROL Ad Type (AMO ID)] | [!DNL DSP] および [!DNL Search, Social, & Commerce] データ | 広告のタイプ（例： ） `text`, `video`, `display`または `native`. |
+| [!UICONTROL Ad Title (AMO ID)] | [!DNL DSP] および [!DNL Search, Social, & Commerce] データ | 広告タイプ ([!DNL DSP]) または広告タイトル ([!DNL Search, Social, & Commerce]) をクリックします。 |
+| [!UICONTROL Ad Description (AMO ID)] | [!DNL DSP] および [!DNL Search, Social, & Commerce] データ | 広告の説明 ([!DNL DSP]) または広告本文 ([!DNL Search, Social, & Commerce]) をクリックします。 |
+| [!UICONTROL Ad Display URL (AMO ID)] | [!DNL Search, Social, & Commerce] データ | 広告に表示される URL。 |
+| [!UICONTROL Ad Destination URL (AMO ID)] | [!DNL Search, Social, & Commerce] データ | 広告のリンク先 URL。 |
+| [!UICONTROL Landing Type (AMO ID)] | [!DNL DSP] および [!DNL Search, Social, & Commerce] データ | ランディングページのエントリがビュースルーかクリックスルーか。 |
+| [!UICONTROL Product Target (AMO ID)] | [!DNL Search, Social, & Commerce] データ | 製品リスト広告の製品ターゲット。 |
+
 ## Adobe広告に役立つカスタム計算指標
 
 Adobe広告データ用に次の指標を作成することを検討します。
@@ -51,32 +78,6 @@ Adobe広告データ用に次の指標を作成することを検討します。
 * 表示可能なインプレッション率 ([!UICONTROL AMO Viewable Impressions] / [!UICONTROL AMO Measureable Impressions] * 100)
 * ビュー単価 ([!UICONTROL AMO Cost] / [!UICONTROL AMO Views])
 * クリック単価 ([!UICONTROL AMO Cost] / [!UICONTROL AMO Clicks])
-
-## Adobe広告Dimension
-
->[!NOTE]
->
->のすべてのAdobe広告ディメンション [!DNL Analytics] の後に「(AMO ID)」が続きます。
-
-| Dimension | 該当するAdobe広告データ | 説明 |
-| ----------- | ---------- | ---------- |
-| [!UICONTROL Ad Platform (AMO ID)] | [!DNL DSP] および [!DNL Search] データ | Advertising DSPまたは検索エンジン名 |
-| [!UICONTROL Account (AMO ID] | [!DNL DSP] および [!DNL Search] データ | アカウント名。 |
-| [!UICONTROL Network (AMO ID)] | [!DNL DSP] および [!DNL Search] データ | RTB ([!DNL DSP]) または広告ネットワーク名 ([!DNL Search]) |
-| [!UICONTROL Campaign (AMO ID)] | [!DNL DSP] および [!DNL Search] データ | キャンペーン名。 |
-| [!UICONTROL Optimization (AMO ID)] | [!DNL DSP] および [!DNL Search] データ | パッケージ ([!DNL DSP]) またはポートフォリオ ([!DNL Search]) 名を入力します。 |
-| [!UICONTROL Placement (AMO ID)] | [!DNL DSP] データ | 配置名。 |
-| [!UICONTROL Ad Group (AMO ID)] | [!DNL Search] データ | 広告グループ名。 |
-| [!UICONTROL Keyword (AMO ID)] | [!DNL Search] データ | キーワード。 |
-| [!UICONTROL Match Type (AMO ID)] | [!DNL Search] データ | 検索一致タイプ。 |
-| [!UICONTROL Keyword Match Type (AMO ID)] | [!DNL Search] データ | キーワードと一致のタイプ。 |
-| [!UICONTROL Ad Type (AMO ID)] | [!DNL DSP] および [!DNL Search] データ | 広告のタイプ（例： ） `text`, `video`, `display`または `native`. |
-| [!UICONTROL Ad Title (AMO ID)] | [!DNL DSP] および [!DNL Search] データ | 広告タイプ ([!DNL DSP]) または広告タイトル ([!DNL Search]) をクリックします。 |
-| [!UICONTROL Ad Description (AMO ID)] | [!DNL DSP] および [!DNL Search] データ | 広告の説明 ([!DNL DSP]) または広告本文 ([!DNL Search]) をクリックします。 |
-| [!UICONTROL Ad Display URL (AMO ID)] | [!DNL Search] データ | 広告に表示される URL。 |
-| [!UICONTROL Ad Destination URL (AMO ID)] | [!DNL Search] データ | 広告のリンク先 URL。 |
-| [!UICONTROL Landing Type (AMO ID)] | [!DNL DSP] および [!DNL Search] データ | ランディングページのエントリがビュースルーかクリックスルーか。 |
-| [!UICONTROL Product Target (AMO ID)] | [!DNL Search] データ | 製品リスト広告の製品ターゲット。 |
 
 >[!MORELIKETHIS]
 >
