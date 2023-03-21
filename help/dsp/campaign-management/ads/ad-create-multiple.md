@@ -3,9 +3,9 @@ title: 複数のサードパーティ広告の作成
 description: 一度に複数のサードパーティ広告を作成する方法を説明します。
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: d072670b26e56e986df2a6690978df1e74237dad
+source-git-commit: 5139e6022cd5f5f11046d8f38bd0f1db91464928
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ ht-degree: 0%
 1. アップロードが完了したら、 **[!UICONTROL Start Building Ads]**.
 
 1. 各広告の詳細とステータスを確認します。
+
+   1. ( を使用するユニバーサルビデオ広告 [!DNL Google] または [!DNL Flashtalking] タグ ) をクリックし、 **[!UICONTROL Ad Type]** フィールドと選択 **[!UICONTROL Universal Video]**.
+
+   1. （ユニバーサルビデオ広告）新しい広告ごとに、 ![編集](/help/dsp/assets/edit.png)を選択し、 [適用可能なビデオ形式](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)をクリックし、 **保存**.
 
    1. 各広告のステータスを確認します。これは、アップロードされたタグに対する検証チェックに基づいています。
 
