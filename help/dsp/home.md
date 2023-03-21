@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
+source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023 年 3 月 21 日 | [!UICONTROL Campaigns] | オープンベータ版機能であるユニバーサルビデオ配置と広告についてお読みください。 | 参照：[ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 2023 年 2 月 16 日 | [!UICONTROL Campaigns] | 変更ログをグラフ形式で表示し、エントリにメモを追加するオプションは、ベータ版ではありません。 | 参照：[キャンペーンの変更ログの表示](/help/dsp/campaign-management/campaigns/campaign-change-log.md)」を参照してください。[パッケージの変更ログの表示](/help/dsp/campaign-management/packages/package-change-log.md)、」を参照し、「[配置の変更ログの表示](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023 年 2 月 3 日 | [!UICONTROL Campaigns] | （ベータ版機能）変更ログをグラフ形式で表示し、任意のエントリにメモを追加できるようになりました。 | 参照：[キャンペーンの変更ログの表示](/help/dsp/campaign-management/campaigns/campaign-change-log.md)」を参照してください。[パッケージの変更ログの表示](/help/dsp/campaign-management/packages/package-change-log.md)、」を参照し、「[配置の変更ログの表示](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023 年 1 月 26 日 | [!UICONTROL Deals] | 在庫/掘り出し物ビューの新しい「PG Impression Pacing」支出列は、保証された掘り出し物のペーシングをレポートします。 | 参照：[カスタム列表示の編集](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
@@ -49,7 +50,7 @@ ht-degree: 0%
 |  | [!DNL Freewheel] 計画的に保証された契約 | 広告を送信し、次の広告のステータスを確認できるようになりました： [!DNL Freewheel] ～からの計画的に保証された契約 [!UICONTROL Ads] 表示 以前は、 [!UICONTROL Deals] 表示 | 参照：[プログラム的に保証された契約の広告をに送信する [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] プログラム的に保証された取引](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 2021 年 10 月 8 日 | ヘルプ | すべて [DSPおよびその他のAdobe広告ドキュメント](https://experienceleague.adobe.com/docs/advertising.html) オン [!DNL Experience League] は、すべての使用可能な言語に機械翻訳されるようになりました。 表示言語を変更するには、ページの左下にある「言語を変更」メニューを使用します。<br>![言語を変更](/help/dsp/assets/change-language.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- older entries:
 

@@ -3,9 +3,9 @@ title: 配置設定
 description: 使用可能な配置設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 251d6a0bed5b4f4b28afc5ecfe666a1e506cd7d5
+source-git-commit: 0836206b41789749a92bd9557a984896e710ec3a
 workflow-type: tm+mt
-source-wordcount: '3421'
+source-wordcount: '3433'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ ht-degree: 0%
 **[!UICONTROL Ad specs for forecast]:** （ビデオ広告形式のみ）広告の期間や広告の仕様。右側の予測投影の計算に使用されます。 フィールドは広告タイプによって異なります。
 
 **[!UICONTROL Environment]:** （ユニバーサルビデオ広告形式のみ）配置にターゲットとして含めるデバイス環境（デスクトップ、モバイル、Connected TV）。 少なくとも 1 つを指定してください。
+
+カスタムレポートでは、配置レベルのディメンション「デバイス環境」は、ターゲット環境を示します。
 
 **[!UICONTROL Placement tags]:** （オプション）この配置を探すのに役立つキーワードまたはニックネーム。
 
