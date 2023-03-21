@@ -3,9 +3,9 @@ title: Advertising DSPの Ad Management について
 description: 広告管理について説明します。
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 9073400eb26957c63378bee90929009fcc82f78f
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ DSPは、様々な広告タイプのサードパーティの広告配信タグ (
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-広告を設定したら、各広告を配置に関連付ける必要があります。この配置には、キャンペーンの配信方法を制御するターゲティングパラメーター（地域、オーディエンス、デバイス、在庫のターゲティングなど）が含まれます。 1 つの広告を 1 つまたは複数のプレースメントに追加できます。
+広告を設定したら、各広告を配置に関連付けます。この配置には、キャンペーンの配信方法を制御するターゲティングパラメーター（地域、オーディエンス、デバイス、在庫のターゲティングなど）が含まれます。 1 つの広告を 1 つまたは複数のプレースメントに追加できます。
 
 ## 利用可能な広告タイプ {#ad-types}
 
@@ -37,7 +37,11 @@ DSPでは、次の広告タイプをすべて使用できます。 各広告タ�
 
 * **Connected TV Ads（サードパーティのみ）**:接続されたテレビ広告は、プレミアムテレビビデオコンテンツの前と中に表示されます。 接続されているすべての TV インベントリは TV デバイスで実行されます。つまり、ビデオは視聴者がスキップできないリーンバックのフルスクリーン環境で自動的に再生されます。 Connected TV は、テレビコマーシャルに最も近いデジタルビデオ形式です。 Connected TV の主要業績評価指標は次のとおりです。 [!UICONTROL Completion Rate].
 
-* **ユニバーサルビデオ広告（サードパーティのみ）**:ユニバーサルビデオ広告は、Connected TV、プリロールおよびモバイルプリロール広告（VAST および VPAID）のすべての機能を 1 つに組み合わせたもので、ビデオコンテンツの前後に表示されます。 ユニバーサルビデオ広告は、デスクトップ、モバイル、接続された TV 環境からビデオ在庫をターゲティングする場合に使用できるので、複数のビデオ広告を作成する必要がありません。 ユニバーサルビデオの主要業績評価指標は次のとおりです [!UICONTROL Completion Rate] および [!UICONTROL Viewability Rate].
+* **ユニバーサルビデオ広告（サードパーティのみ）**:ユニバーサルビデオ広告を使用すると、1 つのビデオの配置を使用して、VPAID および VAST インベントリ用のデスクトップ、モバイル、接続された TV 環境からビデオインベントリをターゲットに設定できます。 接続された TV、プリロール、モバイルのプリロール広告のすべての機能を組み合わせ、ビデオコンテンツの前後に表示されます。 ユニバーサルビデオの主要業績評価指標は次のとおりです [!UICONTROL Completion Rate] および [!UICONTROL Viewability Rate].
+
+   ユニバーサルビデオ広告は、ユニバーサルビデオ配置にのみ添付できます。
+
+   参照：[ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)」を参照してください。
 
 ## DSP Ad Approvals
 
