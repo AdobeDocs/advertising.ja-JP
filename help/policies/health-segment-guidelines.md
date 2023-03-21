@@ -3,7 +3,7 @@ title: Adobe広告が受け入れ可能なヘルスセグメント
 description: ヘルス関連のオーディエンスセグメントをターゲット設定する代替手段として使用する、許容可能なヘルス関連のオーディエンスセグメントおよび戦術に関するガイドラインを参照してください。
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe広告が受け入れ可能なヘルスセグメントのガイドライン
 
-*Adobe広告DSPの場合[!DNL Adobe Advertising Search]*
+*Adobe広告DSPの場合[!DNL Adobe Advertising Search, Social, & Commerce]*
 
 次のガイドラインは、受け入れがたい、許容可能なヘルス関連のオーディエンスセグメントの概要を示しています。 また、ヘルス関連のオーディエンスセグメントをターゲティングする代わりにとして使用する戦術をお勧めします。
 

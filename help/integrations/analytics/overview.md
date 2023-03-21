@@ -3,7 +3,7 @@ title: の概要 [!DNL Analytics for Advertising]
 description: の概要 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # の概要 [!DNL Analytics for Advertising]
 
-*Advertising DSPおよび[!DNL Advertising Search]*
+*Advertising DSPおよび[!DNL Advertising Search, Social, & Commerce]*
 
 [!DNL Analytics for Advertising] は、Adobe AnalyticsとAdobe広告を統合して、各製品の機能を拡張および強化します。
 
@@ -66,7 +66,7 @@ Adobe広告ディメンションには、サフィックス「(AMO ID)」が付�
 
    以下を使用できます。 [!DNL Analytics] でのファーストパーティサイトリターゲティングのためのセグメント [!DNL DSP] 有料検索広告。
 
-   ([!DNL Search] （専用） [!DNL Analytics] ただし、Audience Managerは、Google web サイトのタグベースのオーディエンス（リマーケティングリスト）や顧客一致オーディエンス（顧客リスト）を [!DNL Analytics] セグメントを共有するExperience Cloud。
+   ([!DNL Search, Social, & Commerce] （専用） [!DNL Analytics] ただし、Audience Managerは、Google web サイトのタグベースのオーディエンス（リマーケティングリスト）や顧客一致オーディエンス（顧客リスト）を [!DNL Analytics] セグメントを共有するExperience Cloud。
 
 ### 入札シグナルとしてのサイトコンバージョン指標
 
@@ -82,7 +82,7 @@ Adobe広告チームが、有料メディアのパフォーマンスに適した
 
 ### サイトリターゲティングのための Analytics セグメント
 
-Adobe広告が取り込み可能 [!DNL Analytics] Advertising DSPおよび [!DNL Search] 広告で、 [!DNL Analytics] とExperience Cloud。
+Adobe広告が取り込み可能 [!DNL Analytics] Advertising DSPおよび [!DNL Search, Social, & Commerce] 広告で、 [!DNL Analytics] とExperience Cloud。
 
 次の手順で [!DNL Analytics] セグメントの場合は、広告主アカウントに [Experience CloudID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html) 有効。 ID サービスが有効な場合、すべてのExperience Cloudセグメント ( [!DNL Analytics] Experience Cloudに公開されたセグメント、Adobe Audience Managerで作成されたセグメント、Experience Cloudで作成されたセグメント ( [!DNL People core service]や、Adobe Experience Platformで作成され、Audience Managerを介してAdobe広告に送信されたセグメントは、処理されるとすぐにAdobe広告内で使用できるようになります。
 

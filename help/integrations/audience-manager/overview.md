@@ -3,7 +3,7 @@ title: Adobe Audience ManagerとのAdobe広告の統合
 description: Adobe広告がAdobe Audience Managerとデータを交換する様々な方法について説明します。
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ## Audience Managerとその他の同期 [!DNL Adobe] 広告ターゲティングのセグメント
 
-[!DNL Search] とDSPは、すべての広告主や代理店のAudience Managerやその他の情報用に、メタデータ、階層データ、一意のオーディエンスデータを取り込むことができます [!DNL Adobe] オーディエンス。 この一意の接続は、Adobe広告を使用するマーケターのみが使用できます。 参照：[広告ターゲティング用のAdobe Audience Managerセグメントのインポート](/help/integrations/audience-manager/import-audiences.md).&quot;
+[!DNL Search, Social, & Commerce] とDSPは、すべての広告主や代理店のAudience Managerやその他の情報用に、メタデータ、階層データ、一意のオーディエンスデータを取り込むことができます [!DNL Adobe] オーディエンス。 この一意の接続は、Adobe広告を使用するマーケターのみが使用できます。 参照：[広告ターゲティング用のAdobe Audience Managerセグメントのインポート](/help/integrations/audience-manager/import-audiences.md).&quot;
 
 ### Audience Managerとその他を使用 [!DNL Adobe] 作成するセグメント [!DNL Google Ads Audiences] {#audience-manager-google-audiences}
 
-*次を使用してオプトインした広告主 [!DNL Advertising Search] のみ*
+*次を使用してオプトインした広告主 [!DNL Advertising Search, Social, & Commerce] のみ*
 
-内 [!DNL Search]、 [!DNL Google Ads] Googleの顧客一致オーディエンスを、 [!UICONTROL Adobe Media Optimizer (HTTP)] および [!UICONTROL Adobe Media Optimizer Batch Destination] を宛先として使用する場合。 ([!DNL Media Optimizer] は、 [!DNL Search].) これには、Adobe Experience Cloudに公開されたAdobe Analyticsセグメントや、Adobe Experience Cloudを使用して作成されたセグメントが含まれます [!DNL Audience Library]. 詳細については、 [!DNL Search].
+内 [!DNL Search, Social, & Commerce]、 [!DNL Google Ads] Googleの顧客一致オーディエンスを、 [!UICONTROL Adobe Media Optimizer (HTTP)] および [!UICONTROL Adobe Media Optimizer Batch Destination] を宛先として使用する場合。 ([!DNL Media Optimizer] は、 [!DNL Search, Social, & Commerce].) これには、Adobe Experience Cloudに公開されたAdobe Analyticsセグメントや、Adobe Experience Cloudを使用して作成されたセグメントが含まれます [!DNL Audience Library]. 詳細については、 [!DNL Search, Social, & Commerce].
 
 [ユーザー ID からの顧客一致オーディエンス](https://support.google.com/google-ads/answer/9199250) は web サイトのタグベースのオーディエンスと同様に機能しますが、一意のオーディエンスメンバーには、標準の顧客一致や web サイトのタグベースのオーディエンスよりも明確なメリットを得るために、PII 以外の ID が割り当てられます。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### Audience Managerとその他を使用 [!DNL Adobe] 広告のターゲティングまたは除外するセグメント {#audience-manager-targets}
 
-* ( 次を持つオプトイン広告主 [!DNL Search]) 任意の [!DNL Google Ads] オーディエンス [次を使用して作成 [!DNL Adobe] セグメント](#audience-manager-google-audiences) キャンペーンレベルまたは広告グループレベルのターゲットまたは除外として [!DNL Google Ads] キャンペーン。
+* ( 次を持つオプトイン広告主 [!DNL Search, Social, & Commerce]) 任意の [!DNL Google Ads] オーディエンス [次を使用して作成 [!DNL Adobe] セグメント](#audience-manager-google-audiences) キャンペーンレベルまたは広告グループレベルのターゲットまたは除外として [!DNL Google Ads] キャンペーン。
 
 * (DSPの広告主 ) 既存の [!DNL Adobe] セグメントを、広告プレースメントのターゲットとして使用します。 オプションで、セグメントを再利用可能なオーディエンスに含めることができます。このオーディエンスは、複数の配置のターゲットまたは除外として使用できます。
 

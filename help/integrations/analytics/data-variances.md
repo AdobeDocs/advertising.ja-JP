@@ -3,7 +3,7 @@ title: A と B の間で予想されるデータの相違 [!DNL Analytics] お�
 description: A と B の間で予想されるデータの相違 [!DNL Analytics] およびAdobe広告
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '3282'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 この [!DNL Analytics for Advertising] 統合では、2 つの変数（eVar または rVars \[reserved eVars]\）を使用して [EF ID と AMO ID](ids.md). これらの変数は、単一のルックバックウィンドウ（クリックスルーとビュースルーの属性が割り当てられる時間）とアトリビューションモデルを使用して設定されます。 特に指定のない限り、変数は、Adobe広告のデフォルトの広告主レベルのクリックルックバックウィンドウとアトリビューションモデルに一致するように設定されます。
 
-ただし、ルックバックウィンドウとアトリビューションモデルは、Analytics（eVar 経由）とAdobe広告の両方で設定できます。 また、Adobe広告では、アトリビューションモデルは広告主レベル（入札の最適化用）でのみならず、個々のデータビューおよびレポート内（レポート目的のみ）で設定できます。 例えば、最適化のために偶数配分アトリビューションモデルを使用し、Advertising DSPのレポートにラストタッチアトリビューションを使用したい場合や [!DNL Advertising Search]. アトリビューションモデルを変更すると、アトリビューションコンバージョンの数が変更されます。
+ただし、ルックバックウィンドウとアトリビューションモデルは、Analytics（eVar 経由）とAdobe広告の両方で設定できます。 また、Adobe広告では、アトリビューションモデルは広告主レベル（入札の最適化用）でのみならず、個々のデータビューおよびレポート内（レポート目的のみ）で設定できます。 例えば、最適化のために偶数配分アトリビューションモデルを使用し、Advertising DSPのレポートにラストタッチアトリビューションを使用したい場合や [!DNL Advertising Search, Social, & Commerce]. アトリビューションモデルを変更すると、アトリビューションコンバージョンの数が変更されます。
 
 レポートのルックバックウィンドウまたはアトリビューションモデルが 1 つのプロダクトで変更され、他のプロダクトでは変更されない場合、各システムと同じレポートに個別のデータが表示されます。
 
@@ -88,7 +88,7 @@ Adobe広告との間のビュースルーコンバージョンを比較する際
 
 次のリストを参照： [!DNL Analytics] アトリビューションモデルとその定義 ( [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
 
-ログインしている場合 [!DNL Search]を使用すると、リストを検索できます
+ログインしている場合 [!DNL Search, Social, & Commerce]を使用すると、リストを検索できます
 
 * （北米の利用者） [`https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
 
@@ -118,7 +118,7 @@ Adobe広告では、関連するクリック日/イベント日（クリック�
 
 ### での様々なチャネルアトリビューション [!DNL Marketing Channels]
 
-Adobe広告レポートは、Adobe広告 ( [!DNL Advertising Search] 広告、および Advertising DSP広告用のディスプレイ ) を表示するのに対して、 [!DNL Marketing Channels] レポートでは、すべてのデジタルチャネルを追跡できます。 これは、コンバージョンが属するチャネルに矛盾が生じる可能性があります。
+Adobe広告レポートは、Adobe広告 ( [!DNL Advertising Search, Social, & Commerce] 広告、および Advertising DSP広告用のディスプレイ ) を表示するのに対して、 [!DNL Marketing Channels] レポートでは、すべてのデジタルチャネルを追跡できます。 これは、コンバージョンが属するチャネルに矛盾が生じる可能性があります。
 
 例えば、有料検索や自然検索のチャネルは、多くの場合共生関係にあり、各チャネルが相互に支援します。 この [!DNL Marketing Channels] レポートでは、Adobe広告が自然検索を追跡しないので、自然検索のコンバージョンが一部のコンバージョンに当てはまると考えられます。
 
@@ -160,7 +160,7 @@ In [!DNL Analytics]（を検証する最も簡単な方法の 1 つ） [!DNL Ana
 Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
 ```
 
-[!UICONTROL AMO ID Instances] は、AMO ID の回数を表します (`s_kwcid` パラメーター ) は、サイト上で追跡されます。 広告がクリックされるたびに、 `s_kwcid` パラメーターがランディングページの URL に追加されます。 この [!UICONTROL AMO ID Instances]したがって、はクリック数に似ており、実際の広告クリックに対して検証できます。 のマッチ率は通常 80%です。 [!DNL Search] との 30%の一致率 [!DNL DSP] トラフィック（クリックスルーのみを含めるようにフィルタリングした場合） [!UICONTROL AMO ID Instances]) をクリックします。 検索と表示の期待値の違いは、予想されるトラフィック動作によって説明できます。 検索は目的をキャプチャし、そのため、ユーザーは通常、クエリの検索結果をクリックする予定です。 ただし、ディスプレイ広告やオンラインビデオ広告を見たユーザーは、意図せず広告をクリックした後、サイトからバウンスするか、ページアクティビティが追跡される前に読み込まれる新しいウィンドウを破棄する可能性が高くなります。
+[!UICONTROL AMO ID Instances] は、AMO ID の回数を表します (`s_kwcid` パラメーター ) は、サイト上で追跡されます。 広告がクリックされるたびに、 `s_kwcid` パラメーターがランディングページの URL に追加されます。 この [!UICONTROL AMO ID Instances]したがって、はクリック数に似ており、実際の広告クリックに対して検証できます。 のマッチ率は通常 80%です。 [!DNL Search, Social, & Commerce] との 30%の一致率 [!DNL DSP] トラフィック（クリックスルーのみを含めるようにフィルタリングした場合） [!UICONTROL AMO ID Instances]) をクリックします。 検索と表示の期待値の違いは、予想されるトラフィック動作によって説明できます。 検索は目的をキャプチャし、そのため、ユーザーは通常、クエリの検索結果をクリックする予定です。 ただし、ディスプレイ広告やオンラインビデオ広告を見たユーザーは、意図せず広告をクリックした後、サイトからバウンスするか、ページアクティビティが追跡される前に読み込まれる新しいウィンドウを破棄する可能性が高くなります。
 
 Adobe広告レポートでは、同様に、[!UICONTROL ef_id_instances]」指標 ( [!UICONTROL AMO ID Instances]:
 
@@ -234,7 +234,7 @@ EF ID は「`test_ef_id`」と入力し、AMO ID は「`test_amo_id#redirectAnch
 
 ### Adobe以外の広告Dimensionに対するAdobe広告トラフィック指標の使用
 
-Adobe広告は Analytics に [広告固有のトラフィック指標および関連ディメンション [!DNL DSP] および [!DNL Search]](advertising-metrics-in-analytics.md). Adobeの広告提供の指標は、指定されたAdobeの広告ディメンションにのみ適用され、データは、 [!DNL Analytics].
+Adobe広告は Analytics に [広告固有のトラフィック指標および関連ディメンション [!DNL DSP] および [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Adobeの広告提供の指標は、指定されたAdobeの広告ディメンションにのみ適用され、データは、 [!DNL Analytics].
 
 例えば、 [!UICONTROL AMO Clicks] および [!UICONTROL AMO Cost] 指標 (Adobe広告ディメンション ) をアカウント別に指定すると、合計が表示されます [!UICONTROL AMO Clicks] および [!UICONTROL AMO Cost] アカウント別。
 

@@ -1,15 +1,15 @@
 ---
 title: Adobe TargetでAdobe広告広告用の A/B テストを設定する
-description: で A/B テストを設定する方法を説明します。 [!DNL Target] (DSPおよび [!DNL Search] 広告。
+description: で A/B テストを設定する方法を説明します。 [!DNL Target] (DSPおよび [!DNL Search, Social, & Commerce] 広告。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 0%
 
 ---
 
-# Adobe Targetでの A/B テストの Advertising DSPおよび [!DNL Advertising Search] 広告
+# Adobe Targetでの A/B テストの Advertising DSPおよび [!DNL Advertising Search, Social, & Commerce] 広告
 
 <!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
 

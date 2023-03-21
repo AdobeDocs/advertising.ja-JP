@@ -3,7 +3,7 @@ title: Adobe広告 ID が [!DNL Analytics]
 description: Adobe広告 ID が [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Advertising とAdobe AnalyticsのAdobeの統合のみの広告主*
 
-*Advertising DSPおよび[!DNL Advertising Search]*
+*Advertising DSPおよび[!DNL Advertising Search, Social, & Commerce]*
 
 Adobe広告は、オンサイトパフォーマンストラッキングに 2 つの ID を使用します。の *EF ID* そして *AMO ID*.
 
@@ -23,7 +23,7 @@ Adobe広告は、オンサイトパフォーマンストラッキングに 2 つ
 Adobe広告は、次の条件を使用して、Web サイトへのクリックスルーエントリとビュースルーエントリを区別します。
 
 * ビュースルーエントリは、広告を表示した後、広告をクリックせずにユーザーがサイトを訪問した場合にキャプチャされます。 [!DNL Analytics] は、次の 2 つの条件を満たした場合にビュースルーを記録します。
-   * 訪問者には、 [!DNL DSP] または [!DNL Search] 広告 [ルックバックウィンドウをクリック](#lookback-a4adc).
+   * 訪問者には、 [!DNL DSP] または [!DNL Search, Social, & Commerce] 広告 [ルックバックウィンドウをクリック](#lookback-a4adc).
    * 訪問者が少なくとも 1 つを閲覧しました [!DNL DSP] 広告 [インプレッションのルックバックウィンドウ](#lookback-a4adc). 最後のインプレッションは、ビュースルーとして渡されます。
 * クリックスルーエントリは、サイト訪問者がサイトに入る前に広告をクリックするとキャプチャされます。 [!DNL Analytics] は、次のいずれかの条件が発生した場合にクリックスルーをキャプチャします。
    * この URL には、Adobe広告によってランディングページ URL に追加された EF ID と AMO ID が含まれます。
@@ -112,7 +112,7 @@ AMO ID は、 `s_kwcid`(「[!DNL the squid].&quot;
 * &lt;*チャネル ID*> は次のいずれかになります。
 
    * `AC` = Advertising DSP
-   * `AL` 対象 [!DNL Advertising Search]
+   * `AL` 対象 [!DNL Advertising Search, Social, & Commerce]
 
 * &lt;*広告 ID*> は、広告に対してAdobe広告で生成された一意の識別子を使用します。 AdobeAdvertising エンティティのメタデータを読み取り可能に変換するためのキーとして機能します [!DNL Analytics] ディメンション。
 
@@ -120,9 +120,9 @@ AMO ID は、 `s_kwcid`(「[!DNL the squid].&quot;
 
 AMO ID の例：AC!iIMvXqlOa6Nia2lDvtgw!GrV6o2oV2qQLjQiXLC7
 
-### の AMO ID フォーマット [!DNL Search]
+### の AMO ID フォーマット [!DNL Search, Social, & Commerce]
 
-の AMO ID [!DNL Search] 各検索エンジンで異なる形式に従います。 すべての検索エンジンの形式は、次のように始まります。
+の AMO ID [!DNL Search, Social, & Commerce] 各検索エンジンで異なる形式に従います。 すべての検索エンジンの形式は、次のように始まります。
 
 ```
 AL!{userid}!{sid}

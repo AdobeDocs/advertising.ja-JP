@@ -3,7 +3,7 @@ title: 広告ターゲティング用のAdobe Audience Managerセグメントの
 description: インポート方法を学ぶ [!DNL Adobe] Adobe Audience Managerを使用して Advertising DSPと Search にオーディエンスを追加
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 広告ターゲティング用のAdobe Audience Managerセグメントのインポート
 
-Advertising DSP and [!DNL Advertising Search] は、すべての広告主や代理店のメタデータ、階層データ、一意のオーディエンスデータを取り込むことができます [!DNL Adobe] audiences<!-- segments or audiences? Standardize terms per AAM's docs -->. これには、以下のデータが含まれます。
+Advertising DSP and [!DNL Advertising Search, Social, & Commerce] は、すべての広告主や代理店のメタデータ、階層データ、一意のオーディエンスデータを取り込むことができます [!DNL Adobe] audiences<!-- segments or audiences? Standardize terms per AAM's docs -->. これには、以下のデータが含まれます。
 
 * Adobe Audience Managerセグメント
 
@@ -22,7 +22,7 @@ Advertising DSP and [!DNL Advertising Search] は、すべての広告主や代�
 
 * Adobe Experience Platformで作成され、Audience Managerを介してAdobe広告に送信されるセグメント
 
-アクセスするには [!DNL Adobe] DSPまたは [!DNL Creative]の場合、オーディエンスをDSPにインポートする必要があります。 アクセスするには [!DNL Adobe] オーディエンス [!DNL Search]の場合、オーディエンスを [!DNL Search].
+アクセスするには [!DNL Adobe] DSPまたは [!DNL Creative]の場合、オーディエンスをDSPにインポートする必要があります。 アクセスするには [!DNL Adobe] オーディエンス [!DNL Search, Social, & Commerce]の場合、オーディエンスを [!DNL Search, Social, & Commerce].
 
 ## 前提条件
 
@@ -70,19 +70,19 @@ API は自動的に以下をおこないます。
 
    * AdobeAdCloud:411 ( 標準で、 [!DNL Identity Service] バージョン 2.0. [!DNL Identity Service] 2.0 より前のバージョンでは、このピクセルをAudience Managerコンテナに追加する必要があります。
 
-## Audience Managerオーディエンスのインポート先 [!DNL Search]
+## Audience Managerオーディエンスのインポート先 [!DNL Search, Social, & Commerce]
 
-### オーディエンスのインポート手順 [!DNL Search]
+### オーディエンスのインポート手順 [!DNL Search, Social, & Commerce]
 
 [!DNL Adobe] の担当者は、次の手順のほとんどまたはすべてを実行します。
 
-1. Adobeアカウントチームは、データ運用チームにリクエストを送信して、 [!DNL Search] とAudience Manager。 書き出し先のAudience Managerセグメントの名前を含めます [!DNL Search].
+1. Adobeアカウントチームは、データ運用チームにリクエストを送信して、 [!DNL Search, Social, & Commerce] とAudience Manager。 書き出し先のAudience Managerセグメントの名前を含めます [!DNL Search, Social, & Commerce].
 
-1. Audience Manager内で、 [!DNL Search]:
+1. Audience Manager内で、 [!DNL Search, Social, & Commerce]:
 
    1. 次の 2 つの新しい宛先を作成します。 `[!UICONTROL Adobe Media Optimizer (HTTP)]` および `[!UICONTROL Adobe Media Optimizer Batch Destination]`.
 
-      [!DNL Media Optimizer] は、 [!DNL Search].
+      [!DNL Media Optimizer] は、 [!DNL Search, Social, & Commerce].
 
    1. 各宛先のセグメントを指定します。
 
@@ -90,13 +90,13 @@ API は自動的に以下をおこないます。
 
       この [!UICONTROL Manually map segments] オプションを使用すると、バッチ保存先 (`[!UICONTROL Adobe Media Optimizer Batch Destination]`) をクリックします。 HTTP 宛先にセグメントを手動でマッピングする必要はありません。
 
-1. 内 [!DNL Search]、 [!DNL Search] 直接アクセスクライアントマネージャーの役割を持つ実装チームまたはユーザーは、 [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Audience Manager Setup].
+1. 内 [!DNL Search, Social, & Commerce]、 [!DNL Search, Social, & Commerce] 直接アクセスクライアントマネージャーの役割を持つ実装チームまたはユーザーは、 [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Audience Manager Setup].
 
    組織のExperience Cloudを入力する必要があります [!DNL Organization ID] ([!DNL IMS org ID]) をクリックします。 この ID は、組織の組織アカウントで使用される ID と同じである必要がありますAudience Manager。
 
 ### どのような変更がAudience Managerに
 
-組織には 2 つの [!DNL Search] Audience Manager内の宛先：
+組織には 2 つの [!DNL Search, Social, & Commerce] Audience Manager内の宛先：
 
 * **[!UICONTROL Adobe Media Optimizer (HTTP)]**
 * **[!UICONTROL Adobe Media Optimizer Batch Destination])**
@@ -124,7 +124,7 @@ Segment membership data is sent only after one of the following events occurs:
 
   * The segment is added to the [!DNL Adobe AdCloud Cross-Channel] batch and real-time destinations within the Audience Manager user interface.
 
-* (Advertisers with [!DNL Search]):
+* (Advertisers with [!DNL Search, Social, & Commerce]):
 
   * The segment is targeted in an Adobe Advertising search ad.
 
@@ -146,9 +146,9 @@ DSPでは、セグメント名はAudience Managerの分類別に整理され、�
 
 In [!DNL Creative]の場合、セグメントはターゲットノードのエクスペリエンス設定で使用できます。
 
-### In [!DNL Advertising Search]
+### In [!DNL Advertising Search, Social, & Commerce]
 
-In [!DNL Search]を使用する場合、セグメントは [!DNL Google] オーディエンスを [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]から [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
+In [!DNL Search, Social, & Commerce]を使用する場合、セグメントは [!DNL Google] オーディエンスを [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]から [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
 
 各 [!DNL Google] オーディエンスを作成します。 [!DNL Google] は、オーディエンスサイズを提供します。
 

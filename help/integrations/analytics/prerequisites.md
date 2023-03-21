@@ -3,7 +3,7 @@ title: 実装の前提条件と主な情報 [!DNL Analytics for Advertising]
 description: 実装の前提条件と主な情報 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 実装の前提条件と主な情報 [!DNL Analytics for Advertising]
 
-*Advertising DSPおよび[!DNL Advertising Search]*
+*Advertising DSPおよび[!DNL Advertising Search, Social, & Commerce]*
 
 Adobe AnalyticsとAdobe広告を統合する前に、次の情報を確認してください。
 

@@ -3,7 +3,7 @@ title: 使用例
 description: Advertising DSPのメディアデータをAudience Managerと共有する使用例について説明します
 feature: Integration with Adobe Audience Manager
 exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Audience Managerでインプレッションデータをキャプチャすると�
 
 キャンペーンのインプレッションとクリックデータがAudience Manager内で使用可能になったら、特定のキャンペーンまたは戦術にさらされた、または特定のキャンペーンや戦術に対してインタラクションがおこなわれたユーザーの特性およびセグメントを作成できます。 を使用 [[!DNL Audience Analytics] 統合](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)の場合、Audience Managerセグメントを [!DNL Analytics] を参照してください。 潜在的な使用例を次に示します。
 
-* **DSPと [!DNL Adobe Advertising Search] 広告：** 標準 [[!DNL Analytics for Advertising] 統合](/help/integrations/analytics/overview.md) では、DSPと [!DNL Search] どちらのチャネルも、AMO ID 属性ルールに従う AMO ID を使用するので、検索クリックで表示ビュースルーが上書きされます。 Audience ManagerでDSP露出セグメントを作成すると、 [!DNL Audience Analytics] DSPとの間の相互作用を分析するには [!DNL Search] 広告 [!DNL Analytics].
+* **DSPと [!DNL Advertising Search, Social, & Commerce] 広告：** 標準 [[!DNL Analytics for Advertising] 統合](/help/integrations/analytics/overview.md) では、DSPと [!DNL Search, Social, & Commerce] どちらのチャネルも、AMO ID 属性ルールに従う AMO ID を使用するので、検索クリックで表示ビュースルーが上書きされます。 Audience ManagerでDSP露出セグメントを作成すると、 [!DNL Audience Analytics] DSPとの間の相互作用を分析するには [!DNL Search, Social, & Commerce] 広告 [!DNL Analytics].
 
 * **頻度分析：** 特定の広告またはキャンペーンに対するAudience Managerの表示回数に基づいて、ユーザーでセグメントを作成できます。 その後、Analytics で様々な露出セグメントを分析し、DSPの露出数に応じてユーザーの行動がどのように変化するかを確認できます。
 

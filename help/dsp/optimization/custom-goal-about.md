@@ -3,7 +3,7 @@ title: カスタム目標について
 description: 最も低い CPA または最も高い ROAS 向けに最適化されたパッケージで成功イベントを定義するためのカスタム目標について説明します。
 feature: DSP Optimization
 exl-id: 806450b9-ce32-4f5c-a2ac-ba8e435ce36d
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # カスタム目標について
 
-カスタム目標は、広告主がビジネス目標を満たすために必要とする成功イベントを定義します。 最適化目標を使用する各パッケージ[!UICONTROL Highest ROAS - Custom Goal]&quot;または&quot;[!UICONTROL Lowest CPA - Custom Goal]「は、最適化全体の目標を達成するのに役立つカスタム目標を含む必要があります。 カスタム目標は、 *目標* in [!DNL Adobe Advertising Search].
+カスタム目標は、広告主がビジネス目標を満たすために必要とする成功イベントを定義します。 最適化目標を使用する各パッケージ[!UICONTROL Highest ROAS - Custom Goal]&quot;または&quot;[!UICONTROL Lowest CPA - Custom Goal]「は、最適化全体の目標を達成するのに役立つカスタム目標を含む必要があります。 カスタム目標は、 *目標* in [!DNL Advertising Search, Social, & Commerce].
 
 ![カスタム目標](/help/dsp/assets/objective-goals.png)
 

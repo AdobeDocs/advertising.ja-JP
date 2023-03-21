@@ -1,7 +1,7 @@
 ---
 title: 広告主アカウント設定
 description: 使用可能な広告主設定の説明を参照してください。
-source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 （オプション） DSPアカウントにリンクされた追加のExperience Cloud製品。 製品は、 [!UICONTROL Adobe IMS IDs] 」セクションに入力します。
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** ( [!DNL Adobe Advertising Search] または (Adobe広告コンバージョンピクセルを使用する ) A [!DNL Search] DSPがアトリビューションデータを交換するアカウント。
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** ( [!DNL Advertising Search, Social, & Commerce] または (Adobe広告コンバージョンピクセルを使用する ) A [!DNL Search, Social, & Commerce] DSPがアトリビューションデータを交換するアカウント。
 
 **[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Adobe Analyticsの広告主オプション；は、 [!DNL EF Redirect] およびトークンのみ ) 1 つ以上 [!DNL Analytics] パブリッシャーおよびサプライサイドのパートナーからDSPが収集したデータを送信するレポートスイート。 また、Analytics は、クライアントのサイトから収集したデータをDSPに送信します。
 
-データをレポートスイートに表示する場合は、 [!DNL Search] 広告主レベルの設定を[!UICONTROL Enable tracking for SAINT feeds]」を有効にする必要があります。 また、 [!DNL Analytics] アカウント広告からデータを受け取るようにアカウントをAdobeする必要があります。
+データをレポートスイートに表示する場合は、 [!DNL Search, Social, & Commerce] 広告主レベルの設定を[!UICONTROL Enable tracking for SAINT feeds]」を有効にする必要があります。 また、 [!DNL Analytics] アカウント広告からデータを受け取るようにアカウントをAdobeする必要があります。
 
 >[!WARNING]
 >
