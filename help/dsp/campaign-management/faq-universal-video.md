@@ -2,16 +2,16 @@
 title: ユニバーサルビデオに関する FAQ
 description: ユニバーサルビデオ広告の詳細を説明します。
 feature: DSP Placements, DSP Ads
-source-git-commit: 17a47e9d7ddb18b36da998d289f949e540beded8
+source-git-commit: 2caacfcbdb3c9d0d91ca26829de5829654f9ab8a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # ユニバーサルビデオに関する FAQ
 
-[ユニバーサルビデオ広告](/help/dsp/campaign-management/ads/ad-about.md) を使用すると、1 つのビデオを配置して、VPAID および VAST インベントリ用に、デスクトップ、モバイル、接続された TV 環境からビデオインベントリをターゲットに設定できます。
+[ユニバーサルビデオ広告](/help/dsp/campaign-management/ads/ad-about.md#ad-types) を使用すると、1 つのビデオを配置して、VPAID および VAST インベントリ用に、デスクトップ、モバイル、接続された TV 環境からビデオインベントリをターゲットに設定できます。
 
 ## ユニバーサルビデオ配置と広告は、どのようにして作成しますか？
 
