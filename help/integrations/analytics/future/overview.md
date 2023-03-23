@@ -3,9 +3,9 @@ title: Adobe AnalyticsとのAdobe広告の統合
 description: Adobe広告がAdobe Analyticsとデータを交換する方法、および検索、ソーシャル、コマース内でのデータの使用方法について説明します。
 feature: Integration with Adobe Analytics
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: def6a3a8d1de1f9f80dee6ecd1a18667afc79fd3
+source-git-commit: 06996ee9eb635fe204c0c3938e6937e8871c8a90
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 以下の方法で、Adobe広告を Analytics と統合できます。
 
-## 次の間でデータを交換 [!A分析] およびAdobe広告
+## 次の間でデータを交換 [!DNL Analytics] およびAdobe広告
 
-### プル [!A分析] データをAdobe広告に
+### プル [!DNL Analytics] データをAdobe広告に
 
 を使用 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md),[!DNL Search, Social, & Commerce] とDSPのプルイン：
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 * **[!DNL Analytics]サイトエンゲージメント指標**
 
-* **[!DNL Analytics]標準、カスタムおよび予約済みの指標**
+* **[!DNL Analytics]標準、カスタム、予約済みの指標**
 
-### にAdobe広告データを送信 [!A分析]
+### にAdobe広告データを送信 [!DNL Analytics]
 
 * **Adobe広告からのトラフィック指標**
 
