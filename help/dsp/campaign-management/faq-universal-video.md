@@ -2,20 +2,22 @@
 title: ユニバーサルビデオに関する FAQ
 description: ユニバーサルビデオ広告の詳細を説明します。
 feature: DSP Placements, DSP Ads
-source-git-commit: 1740c4ca3f70a0e3edb7e4ebaea0be3f0b731b16
+source-git-commit: 17a47e9d7ddb18b36da998d289f949e540beded8
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # ユニバーサルビデオに関する FAQ
 
+[ユニバーサルビデオ広告](/help/dsp/campaign-management/ads/ad-about.md) を使用すると、1 つのビデオを配置して、VPAID および VAST インベントリ用に、デスクトップ、モバイル、接続された TV 環境からビデオインベントリをターゲットに設定できます。
+
 ## ユニバーサルビデオ配置と広告は、どのようにして作成しますか？
 
 ユニバーサルビデオ配置には、ユニバーサルビデオ広告のみを含めることができ、ユニバーサルビデオ広告は、ユニバーサルビデオ配置にのみ添付することができます。
 
-他のタイプの配置やビデオの作成方法と同様に作成します。
+ユニバーサルビデオ配置と広告を、他のタイプの配置とビデオの作成方法と同様に作成します。
 
 1. 目的のキャンペーン内で、 [ユニバーサルビデオ配置の作成](/help/dsp/campaign-management/placements/placement-create.md)、選択 [!UICONTROL Placement Type] **[!UICONTROL Universal Video]**.
 
