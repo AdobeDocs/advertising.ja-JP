@@ -3,9 +3,9 @@ title: 用 JavaScript コード [!DNL Analytics for Advertising]
 description: 用 JavaScript コード [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 96b71e8c99ee30254b4bdc4ef0cb8af359f64c5e
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ JavaScript ライブラリは、 [!DNL Analytics] およびAdobe広告を使用�
 
 ### コードの配置場所
 
-この [!DNL Analytics for Advertising] 追加の ID(`SDID`) または `[!DNL StitchID]` を Analytics 呼び出しに含めることができます。
+この [!DNL Analytics for Advertising] JavaScript 関数は、Experience CloudID サービスの後、Analytics App Measurement コードの前に配置する必要があります。 これにより、追加の ID(`SDID`) または `[!DNL StitchID]` が Analytics 呼び出しに含まれます。
 
 ![コードの配置](/help/integrations/assets/a4adc-code-placement.png)
 

@@ -2,7 +2,7 @@
 title: アカウントレベルおよび広告主レベルのブロック済みサイトリストについて
 description: アカウントまたは広告主のブロック済みサイトリストの詳細を説明します。
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bd667a01a0579c1523dc975bffd3560ac2a056db
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 DSPアカウント全体に使用されるブロック済みサイトリストと、アカウント内の個々の広告主用の追加リストを編集できます。
 
-ブロックされたサイトリストは、配置に除外するターゲットのセットを定義します。 各リストは、トップレベルの Web サイトドメインと任意のレベルのサブドメイン（example.com、my.example.com、my.new.example.com など）と、モバイルアプリ ID またはパッケージ名（com.example.app123 など）で構成できます。
+ブロックされたサイトリストは、配置に除外するターゲットのセットを定義します。 各リストは、トップレベルの Web サイトドメインと、任意のレベルのサブドメイン（example.com、my.example.com、my.new.example.com など）およびモバイルアプリ ID またはパッケージ名（com.example.app123 など）で構成できます。
 
 広告主レベルのリストは、アカウントレベルのリストを上書きします。
 
