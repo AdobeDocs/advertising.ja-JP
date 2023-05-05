@@ -3,9 +3,9 @@ title: オーディエンスソースからの認証済みセグメントのア�
 description: 顧客データプラットフォームからファーストパーティセグメントを取り込む方法について説明します。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
+source-git-commit: 68095fc77659826fae43f2453d17022ef1880807
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # オーディエンスソースからの認証済みセグメントのアクティブ化について
 
 <!-- Doesn't specifically explain what you can do in our UI -->
-*ベータ版機能*
 
 DSPは、顧客データプラットフォーム (CDP) 内で作成された認証済みのシグナルで構成されるファーストパーティセグメントを取り込むことができます。 取り込んだセグメントを配置のターゲットとして使用できます。
 
@@ -26,8 +25,6 @@ In [!DNL Real-time CDP], *宛先* は、シームレスなデータアクティ�
 宛先について詳しくは、「Experience Platform [宛先ガイド](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)（製品の概要、手順を含む） [宛先ワークスペースの作成](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) および [宛先接続の作成](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)、および [宛先へのデータのアクティブ化](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
 ### とのDSP統合を使用する際のワークフロー [!DNL Real-time CDP] {#workflow-sources}
-
-<!-- Make sure that titles make the distinctions clear -- everything can't be "Activate XXX." -->
 
 1. [DSPによる顧客データセグメントの変換を許可 [!DNL LiveRamp RampIDs]](source-durable-id.md) 入札可能な環境で認識可能な<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your Adobe Account Team will perform this configuration. -->
 

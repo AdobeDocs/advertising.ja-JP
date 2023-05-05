@@ -3,16 +3,14 @@ title: Audience Source 設定
 description: オーディエンスソースの設定について説明します。
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
+source-git-commit: 4dbc2331570f6ab88a224e25a78532c10df9d311
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Audience Source 設定
-
-*ベータ版機能*
 
 **[!UICONTROL Data Visibility Level]:** アカウント (*[!UICONTROL Advertiser]*) またはアカウントへのアクセス権を持つすべての広告主 *[!UICONTROL Account]*.
 

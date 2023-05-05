@@ -3,16 +3,14 @@ title: オーディエンスソースを作成してファーストパーティ�
 description: オーディエンスをアカウントまたは広告主アカウントにインポートするソースを作成する方法を説明します。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 3347bfbaec92bb13428a39207954f895eb4f5d6d
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
 # オーディエンスソースを作成してファーストパーティオーディエンスをアクティブ化する
-
-*ベータ版機能*
 
 <!-- Will this remain for admin users/Adobe Account Team users only? -->
 
@@ -22,7 +20,7 @@ ht-degree: 0%
 >
 >ソースを作成した後、 [!DNL Real-Time CDP]を有効にするには、 [!DNL Real-Time CDP] 内のAdobeAdvertising DSPの宛先を通じてオーディエンス [!DNL Real-Time CDP] 読み込みを開始します。 詳しくは、 [アクティベーションワークフローの手順](source-about.md#workflow-sources).
 
-1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL Sources (BETA)].
+1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
 1. クリック [!UICONTROL Add Source].
 
