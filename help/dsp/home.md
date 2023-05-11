@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
+source-git-commit: f8523b9157eb13ea0999d10dd19e9645906c50d0
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023 年 3 月 | [!UICONTROL Reports] | 新しい [!UICONTROL Household Report] は、デバイス/cookie レベルではなく、IP アドレスに基づいた世帯レベルで、様々なディメンションにわたるインプレッション、リーチおよび頻度を表示します。 レポートには、次の 9 つのディメンションが含まれます。 [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length]、およびユーザー作成 [!UICONTROL Tags]. | 参照：[レポートについて](/help/dsp/reports/report-about.md),&quot; &quot;[レポート設定](/help/dsp/reports/report-settings.md),&quot;および&quot;[に関する FAQ [!UICONTROL Household] レポート](/help/dsp/reports/faq-household-report.md).&quot; |
 | 2023 年 3 月 21 日 | [!UICONTROL Campaigns] | オープンベータ版機能であるユニバーサルビデオ配置と広告についてお読みください。 | 参照：[ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 2023 年 2 月 16 日 | [!UICONTROL Campaigns] | 変更ログをグラフ形式で表示し、エントリにメモを追加するオプションは、ベータ版ではありません。 | 参照：[キャンペーンの変更ログの表示](/help/dsp/campaign-management/campaigns/campaign-change-log.md)」を参照してください。[パッケージの変更ログの表示](/help/dsp/campaign-management/packages/package-change-log.md)、」を参照し、「[配置の変更ログの表示](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023 年 2 月 3 日 | [!UICONTROL Campaigns] | （ベータ版機能）変更ログをグラフ形式で表示し、任意のエントリにメモを追加できるようになりました。 | 参照：[キャンペーンの変更ログの表示](/help/dsp/campaign-management/campaigns/campaign-change-log.md)」を参照してください。[パッケージの変更ログの表示](/help/dsp/campaign-management/packages/package-change-log.md)、」を参照し、「[配置の変更ログの表示](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |

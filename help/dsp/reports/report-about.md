@@ -3,9 +3,9 @@ title: カスタムレポートについて
 description: カスタムレポートを手動で作成するか、事前設定済みのレポートテンプレートを使用するかのオプションについて説明します。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 858b00ec28158ada1edfc70a2efc3540fa46a376
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,8 @@ ht-degree: 0%
 
    * **[!UICONTROL Site]:** デフォルトでは、には標準指標、メディアの総支出およびサイト別の合計請求可能な純支出が含まれます。
 
+   * **[!UICONTROL Household]:** このレポートを使用して、デバイスや cookie レベルではなく、IP アドレスに基づいた世帯レベルで、様々な広告フォーマットの単一のディメンションのインプレッション数、リーチおよび頻度を表示します。 インサイトを活用して、メディアミックスを最適化し、パフォーマンスを向上させ、リーチを増やす機会を特定します。 参照：[世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md)」を参照してください。
+
 ## クロスアカウントレポート {#cross-account-reporting}
 
 複数のDSPアカウントを持つ組織では、組織のニーズに応じて、オプションでカスタムレポートでクロスアカウントデータを有効にすることができます。 例えば、アカウント A にアカウント B のデータへのアクセス権を付与し、アカウント B にアカウント C のデータ（アカウント A のデータではなく）へのアクセス権を付与することができます。 この機能を有効にして設定するには、担当のAdobeアカウントチームにお問い合わせください。
@@ -87,6 +89,7 @@ ht-degree: 0%
 >
 >* [カスタムレポートの作成](/help/dsp/reports/report-create.md)
 >* [カスタムレポート設定](/help/dsp/reports/report-settings.md)
+>* [に関する FAQ [!UICONTROL Household] レポート](/help/dsp/reports/faq-household-report.md)
 >* [プラットフォーム内レポートについて](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [使用可能なレポート列](/help/dsp/reports/report-columns.md)
 >* [について [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

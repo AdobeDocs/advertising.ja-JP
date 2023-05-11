@@ -3,9 +3,9 @@ title: カスタムレポート設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 2e0240ff1b342d5a0564e01ebec3ee313b488b59
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]** レポート名。 最大長は 180 文字です。
 
-**[!UICONTROL Report Type]** レポートのタイプ： *[!UICONTROL Custom]* （利用可能な最も多くのオプションを含む） *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*&#x200B;または *[!UICONTROL Site]*.
+**[!UICONTROL Report Type]** レポートのタイプ： *[!UICONTROL Custom]* （利用可能な最も多くのオプションを含む） *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*&#x200B;または *[!UICONTROL Household]*.
 
 ## [!UICONTROL Apply Filters] セクション
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Last Calendar Month]:** 前月のデータが含まれます。
 
-**[!UICONTROL Add Filters]:** （オプション）ディメンションがレポートの列として含まれているかどうかに関わらず、データをフィルタリングする追加のディメンション： *[!UICONTROL Account]*,\* *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Placement]*, *[!UICONTROL Ad]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Video]*, *[!UICONTROL Video Duration]*, *[!UICONTROL Country]*、および *[!UICONTROL Package]*.
+**[!UICONTROL Add Filters]:** （オプション）ディメンションがレポートの列として含まれているかどうかに関わらず、データをフィルタリングする追加のディメンション。 使用可能なフィルターは、レポートタイプによって異なり、次のものが含まれます。 *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]*、および *[!UICONTROL Video Duration]*.
 
 \* *[!UICONTROL Account]* は、組織が [クロスアカウントレポート](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]、および [!UICONTROL Conversion]. クロスアカウントレポートの詳細については、Adobeのアカウントチームにお問い合わせください。
 
@@ -42,12 +42,25 @@ ht-degree: 0%
 
 ## [!UICONTROL Build Your Report] セクション
 
-**[!UICONTROL Select To Add As Report Headers]:**  レポートに含めるデータ列（ヘッダー）。 列を追加するには、カテゴリを展開し、列名の横にあるチェックボックスをオンにします。 使用できない指標はすべて無効になります。 使用可能なデータカテゴリは次のとおりです。
+**[!UICONTROL Select To Add As Report Headers]:**  レポートに含めるデータ列（ヘッダー）。 列を追加するには、カテゴリを展開し、列名の横にあるチェックボックスをオンにします。 使用可能な列はレポートによって異なり、使用できない指標はすべて無効になっています。 使用可能なデータカテゴリは次のとおりです。
 
 * [!UICONTROL Dimensions]
+
+   >[!NOTE]
+   >
+   > この [!UICONTROL Household] レポートに含めることができるディメンションは 1 つだけです。
+
 * [!UICONTROL Metrics]
+
+   >[!NOTE]
+   >
+   >この [!UICONTROL Household] レポートには、重複指標または重複しない指標のどちらか一方のみが含まれます。
+
 * [!UICONTROL Conversion Metrics] （広告主別に並べ替え）
+
 * [!UICONTROL Custom Goals] （広告主別に並べ替え）
+
+参照：[使用可能なレポート列](report-columns.md)」を参照してください。
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** 列ヘッダーの順序。 任意の列をドラッグ&amp;ドロップして順序をカスタマイズできます。
 
