@@ -1,9 +1,9 @@
 ---
 title: に関する FAQ [!UICONTROL Household] レポート
 description: 詳しくは、 [!UICONTROL Household] 他のレポートやトラブルシューティングとの違いを含む、レポート。
-source-git-commit: d88ea4ab2ad4a2ee54475346a24724b766b024fc
+source-git-commit: 95f81dafbe13f40487bad47f7dd41a6c80c589ee
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -34,15 +34,15 @@ ht-degree: 0%
 
 ## 重複指標と非重複指標の違いは何ですか？
 
-次の図は、3 つのキャンペーン (A、B、C) の 3 つの指標 ( 個別世帯、増分世帯、増分世帯（重複）) を示しています。
+次の図は、3 つのキャンペーン (A、B、C) の 3 つの指標 ( ユニーク世帯到達、増分世帯到達、増分世帯増分世帯（重複）) を示しています。
 
 ![世帯間重複指標の図](/help/dsp/assets/household-overlap-metrics-illustration.png "世帯間重複指標の図")
 
-* Unique Household Reached (Total) は、各キャンペーンが到達したユニーク世帯、または各サークルの合計領域を示します。 図では、A が達成したユニーク世帯= A + (A+C) + (A+B) +(A+B+C) が達成した増分世帯
+* Unique Household Reached (Total) は、各キャンペーンが到達したユニーク世帯、または各サークルの合計領域を示します。 図では、A が達成したユニーク世帯= A + (A+B) + (A+C) +(A+B+C) が達成した増分世帯
 
 * 「Incremental Household Reached」は、キャンペーンでのみ到達されたユニーク世帯です。 図では、A、B、C が到達した増分世帯は、それぞれ A、B、C が到達した増分世帯です。
 
-* 増分世帯（重複）は、キャンペーンまたはキャンペーンの組み合わせで到達した個別世帯です。 図では、A が到達した増分世帯、C は A+C です。
+* 増分世帯（重複）は、キャンペーンまたはキャンペーンの組み合わせで到達した個別世帯です。 図では、A が到達した増分世帯は、C は A+C です。
 
 ## ワークフロー
 
