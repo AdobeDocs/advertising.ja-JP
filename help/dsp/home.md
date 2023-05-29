@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 947b60c7c45a2994c1ab6020cd093780faa19864
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1331'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023 年 5 月 30 日 | [!UICONTROL Campaigns] | キャンペーン、パッケージおよび広告を一時停止またはアクティブ化できるようになりました。 既に配置を一時停止してアクティブ化していました。 | 参照：[キャンペーンの一時停止またはアクティブ化](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md),&quot; &quot;[パッケージの一時停止またはアクティブ化](/help/dsp/campaign-management/packages/package-pause-activate.md),&quot;および&quot;[広告の一時停止またはアクティブ化](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |
 | 2023 年 5 月 24 日 | [!UICONTROL Campaigns] | ユニバーサルビデオ配置と広告を一般に利用できるようになりました。 | 参照：[ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md),&quot; &quot;[ユニバーサルビデオ広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md),&quot;および&quot;[広告の作成](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | 2023 年 3 月 | [!UICONTROL Reports] | 新しい [!UICONTROL Household Report] は、デバイス/cookie レベルではなく、IP アドレスに基づいた世帯レベルで、様々なディメンションにわたるインプレッション、リーチおよび頻度を表示します。 レポートには、次の 9 つのディメンションが含まれます。 [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length]、およびユーザー作成 [!UICONTROL Tags]. | 参照：[レポートについて](/help/dsp/reports/report-about.md),&quot; &quot;[レポート設定](/help/dsp/reports/report-settings.md),&quot;および&quot;[に関する FAQ [!UICONTROL Household] レポート](/help/dsp/reports/faq-household-report.md).&quot; |
 | 2023 年 3 月 21 日 | [!UICONTROL Campaigns] | オープンベータ版機能であるユニバーサルビデオ配置と広告についてお読みください。 | 参照：[ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md).&quot; |

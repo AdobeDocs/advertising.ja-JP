@@ -3,9 +3,9 @@ title: 配置の編集
 description: プレースメントの編集方法を説明します。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 編集する各配置の横にあるチェックボックスをオンにします。
 
-1. メニューバーで、 **[!UICONTROL Edit]**.
+1. 一括操作メニューバーで、 **[!UICONTROL Edit]**.
 
 1. 変更する各設定に対して、次の操作を行います。
 

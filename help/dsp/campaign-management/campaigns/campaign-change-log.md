@@ -3,9 +3,9 @@ title: キャンペーンの変更ログの表示
 description: キャンペーンに加えられた変更を表示する方法を説明します。
 feature: DSP Campaigns
 exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
-source-git-commit: 7f8e4f2170e981a1ab8865be731faba2623fd97d
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,5 @@ ht-degree: 0%
 >* [キャンペーンの作成](campaign-create.md)
 >* [キャンペーンの編集](campaign-edit.md)
 >* [キャンペーン設定](campaign-settings.md)
+>* [キャンペーンの一時停止またはアクティブ化](campaign-pause-activate.md)
 

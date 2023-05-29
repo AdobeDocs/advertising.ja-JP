@@ -8,9 +8,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: ce26d622bde31f289466c581a85724b93e4eae62
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '902'
 ht-degree: 6%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 6%
       + [キャンペーンの編集](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [キャンペーンの複製](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
       + [キャンペーンの詳細レポートの表示](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+      + [キャンペーンの一時停止またはアクティブ化](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)
       + [キャンペーンのアーカイブまたはアーカイブ解除](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
       + [キャンペーンの変更ログの表示](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
@@ -56,6 +57,7 @@ ht-degree: 6%
       + [パッケージの編集](/help/dsp/campaign-management/packages/package-edit.md)
       + [パッケージの複製](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [パッケージに配置を添付する](/help/dsp/campaign-management/packages/package-attach-placement.md)
+      + [パッケージの一時停止またはアクティブ化](/help/dsp/campaign-management/packages/package-pause-activate.md)
       + [パッケージのアーカイブまたはアーカイブ解除](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
       + [パッケージの変更ログの表示](/help/dsp/campaign-management/packages/package-change-log.md)
       + [パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
@@ -83,6 +85,7 @@ ht-degree: 6%
       + [プレースメントへの広告の添付](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [広告に関連付けられた配置のリスト](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [広告の詳細レポートの表示](/help/dsp/campaign-management/ads/ad-view-report.md)
+      + [広告の一時停止またはアクティブ化](/help/dsp/campaign-management/ads/ad-pause-activate.md)
       + [広告のアーカイブまたはアーカイブ解除](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
       + 広告設定 {#ad-settings}
          + [オーディオ広告設定](/help/dsp/campaign-management/ads/ad-settings-audio.md)

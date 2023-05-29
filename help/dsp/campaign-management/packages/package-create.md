@@ -3,9 +3,9 @@ title: パッケージの作成
 description: パッケージの作成方法を説明します。
 feature: DSP Packages
 exl-id: 528c57f2-fa83-44d7-9ce4-509ca7565135
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 0%
 >* [パッケージの編集](package-edit.md)
 >* [パッケージに配置を添付する](package-attach-placement.md)
 >* [パッケージの変更ログの表示](package-change-log.md)
+>* [パッケージの一時停止またはアクティブ化](package-pause-activate.md)
 >* [パッケージ設定](package-settings.md)
 >* [ビデオ：パッケージの作成方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
 

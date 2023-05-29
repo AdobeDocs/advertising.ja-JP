@@ -3,9 +3,9 @@ title: キャンペーンの詳細レポートの表示
 description: 地域、デバイス、視認性、オーディエンスパフォーマンスのデータに関するセクションを含む、キャンペーンレベルのレポートを開く方法について説明します。
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,5 @@ ht-degree: 0%
 >* [プラットフォーム内レポートについて](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [カスタムレポートについて](/help/dsp/reports/report-about.md)
 >* [キャンペーンの変更ログの表示](campaign-change-log.md)
+>* [キャンペーンの一時停止またはアクティブ化](campaign-pause-activate.md)
 
