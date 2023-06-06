@@ -9,7 +9,7 @@ user-guide-description: このガイドでは、検索、ソーシャル、コ�
 breadcrumb-title: 広告検索、ソーシャル、コマースガイド
 index: false
 hide: true
-source-git-commit: cd8367fbae2234cfdb937c5da8f21f94a615e92a
+source-git-commit: c42ad5b5944f9595431786e05dbab670f1eab02e
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 0%
@@ -404,5 +404,5 @@ ht-degree: 0%
       + [広告主でトラッキングされているトランザクションプロパティの表示](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
       + [管理ビューとレポートで使用可能なトランザクションプロパティの変更](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)
       + [トランザクションプロパティの表示名を変更する](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md)
-   + [お問い合わせ](get-help.md)
-   + [用語集](glossary.md)
++ [お問い合わせ](get-help.md)
++ [用語集](glossary.md)
