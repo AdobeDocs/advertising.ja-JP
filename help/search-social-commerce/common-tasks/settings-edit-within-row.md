@@ -1,7 +1,7 @@
 ---
 title: 行内で直接設定を編集
 description: 行内の管理ビューでデータを編集する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: cd5d4acf2319c1a0e9f9f1ead6e219b42d163077
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -25,4 +25,5 @@ ht-degree: 0%
    * （自由形式の値）新しい値を入力し、 ![保存](/help/search-social-commerce/assets/select.png "保存") または **入力** キー。
    >[!MORELIKETHIS]
    >
-   >*[コピー&amp;ペーストを使用して、キャンペーンデータを一括で作成および編集する](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+   >* [コピー&amp;ペーストを使用して、キャンペーンデータを一括で作成および編集する](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+
