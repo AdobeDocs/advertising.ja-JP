@@ -1,9 +1,9 @@
 ---
 title: 基本レポートと高度なレポートのレポート列
 description: 基本レポートと高度なレポートで使用できるデータ列について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
 workflow-type: tm+mt
-source-wordcount: '3637'
+source-wordcount: '3640'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 0%
 | [!UICONTROL Estimated Impressions] | （キャンペーンのみを表示）検索、ソーシャル、コマースで追跡された広告インプレッションの推定数。 この値は、 [!UICONTROL Impressions] 列（使用可能な場合）：広告ネットワークによって提供される値を表示します。 |
 | [!UICONTROL Exclude (yes/no)] | 入札が除外されるかどうか (<i>[!UICONTROL Yes]</i>) または入札が許可されます (<i>[!UICONTROL No]</i>) を参照してください。 |
 | [!UICONTROL First Page CPC] | (Googleキャンペーンのみ ) 指定した日付範囲で検索結果の最初のページに表示される広告のクリック単価 (CPC)。 |
-| `GGL*`, `GGL_CT*`、および `GGL_XD_CT*` [[!DNL Google Ads] — 追跡されたコンバージョン/トランザクションプロパティ。 | ([!DNL Google Ads] 検索およびショッピングネットワーク上のキャンペーンアカウントに対して機能が有効になった日付以降のデータ ) [!DNL Google Ads] — トラッキングされたコンバージョン。各コンバージョンに最大 3 つの異なるトランザクションプロパティを持ちます。<ul><li>`GGL*` — （追跡する場合）「GGL」プレフィックスで始まる、キーワードのコンバージョン値の合計（GGL Purchase など）。</li><li>`GGL_CT*` — 「GGL_CT」プレフィックス（GGL_CT_Purchase など）で始まるコンバージョンの数（カウント）。</li><li>`GGL_XD_CT*` — （コンバージョンタイプで使用可能な場合、コンバージョンを追跡する際）クロスデバイスコンバージョンの数（数）。 [!DNL Google Ads] 「GGL_XD_CT_」プレフィックスで始まる (GGL_XD_CT_Purchase など )。</li></ul><br>各コンバージョンは、入札単位およびクリック日別に記録されます。イベントレベルでは使用できません。 検索、ソーシャル、コマースのデータを [!DNL Google Ads]を選択し、「[!UICONTROL Conversions by:  Click date]&quot; （トランザクションの日付ではありません）<br><br><b>注意：</b>前日のデータは毎日取り込まれ、09 日までに利用可能になります:00-10:広告主のタイムゾーンの 00。 [!DNL Google Ads] クリックが発生してから最大 30 日間、指標が引き続き更新されます。 詳しくは、 [!DNL Google Ads] — トラッキングされたコンバージョン：[トラッキングに関する FAQ](/help/search-social-commerce/tracking/faqs-tracking.md).&quot; |
+| `GGL*`, `GGL_CT*`、および `GGL_XD_CT*` [[!DNL Google Ads] — 追跡されたコンバージョン/トランザクションプロパティ。 | ([!DNL Google Ads] 検索およびショッピングネットワーク上のキャンペーンアカウントに対して機能が有効になった日付以降のデータ ) [!DNL Google Ads] — トラッキングされたコンバージョン。各コンバージョンに最大 3 つの異なるトランザクションプロパティを持ちます。<ul><li>`GGL*` — （追跡する場合）「GGL」プレフィックスで始まる、キーワードのコンバージョン値の合計（GGL Purchase など）。</li><li>`GGL_CT*` — 「GGL_CT」プレフィックス（GGL_CT_Purchase など）で始まるコンバージョンの数（カウント）。</li><li>`GGL_XD_CT*` — （コンバージョンタイプで使用可能な場合、コンバージョンを追跡する際）クロスデバイスコンバージョンの数（数）。 [!DNL Google Ads] 「GGL_XD_CT_」プレフィックスで始まる (GGL_XD_CT_Purchase など )。</li></ul><br>各コンバージョンは、入札単位およびクリック日別に記録されます。イベントレベルでは使用できません。 検索、ソーシャル、コマースのデータを [!DNL Google Ads]を選択し、「[!UICONTROL Conversions by:  Click date]&quot; （トランザクションの日付ではありません）<br><br><b>注意：</b>前日のデータは毎日取り込まれ、09 日までに利用可能になります:00-10:広告主のタイムゾーンの 00。 [!DNL Google Ads] クリックが発生してから最大 30 日間、指標が引き続き更新されます。 詳しくは、 [!DNL Google Ads] — トラッキングされたコンバージョン：[[!DNL Google Ads] 検索、ソーシャル、コマースのコンバージョンデータ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] （のみ）オーガニック検索結果の上の最初の広告として表示される広告インプレッションの割合。 |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] （のみ）オーガニック検索結果の上に表示される広告インプレッションの割合。 |
 | [!UICONTROL Impressions] | 指定した日付範囲での広告インプレッション数。 |
