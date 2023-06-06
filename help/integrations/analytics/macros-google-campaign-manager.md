@@ -3,7 +3,7 @@ title: 追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Google Campaig
 description: 理由と追加方法を説明します [!DNL Analytics for Advertising] マクロを [!DNL Google Campaign Manager 360] 広告タグ
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -41,10 +41,10 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 ```
 
 >[!NOTE]
->
->
 >* ランディングページの URL に一般的でないハッシュ記号 (#) が含まれている場合は、 `amo` パラメーターをハッシュ記号の前に追加します。
->* 他のパラメーターが `amo` パラメーターを追加し、その後にパラメーター（&amp;a=b など）を追加します。 例：`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
+
+>
+>* >他のパラメーターが `amo` パラメーターを追加し、その後にパラメーター（&amp;a=b など）を追加します。 例：`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 
 ### 広告主レベルのランディングページの URL サフィックスの設定
@@ -83,8 +83,7 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 ユーザーが広告をクリックしたとき、 [!DNL Google Campaign Manager 360] sees `%pamo` を指定し、 `amo` パラメーターを URL に追加します。
 
 >[!MORELIKETHIS]
->
->* [の概要 [!DNL Analytics for Advertising]](overview.md)
->* [Adobe広告 ID が [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Flashtalking] 広告タグ](macros-flashtalking.md)
+* [の概要 [!DNL Analytics for Advertising]](overview.md)
+* [Adobe広告 ID が [!DNL Analytics]](/help/integrations/analytics/ids.md)
+* [追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Flashtalking] 広告タグ](macros-flashtalking.md)
 

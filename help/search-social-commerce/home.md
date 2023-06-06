@@ -3,8 +3,8 @@ title: 新機能
 description: 広告検索、ソーシャル、コマースの最新の更新および新機能について説明します。
 cloud: Experience Cloud
 product: advertising cloud
-hide: true
-source-git-commit: d4cc25967f1e0738f7b7d74f33fe90eeabfeea1c
+index: false
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 1%
@@ -12,8 +12,6 @@ ht-degree: 1%
 ---
 
 # 新機能
-
-<!-- index: no -->
 
 以下の機能は、新しい機能または最近変更された機能です。
 

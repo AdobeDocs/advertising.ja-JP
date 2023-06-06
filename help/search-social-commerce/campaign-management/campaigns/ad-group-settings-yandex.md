@@ -1,0 +1,22 @@
+---
+title: '"[!DNL Yandex] 広告グループ設定'
+description: 次の設定を参照してください： [!DNL Yandex] 広告グループ。
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 0%
+
+---
+
+# [!DNL Yandex] 広告グループ設定
+
+## [!UICONTROL Ad Group Details]
+
+**[!UICONTROL Ad Group Name]:** キャンペーン内で一意の広告グループ名。
+
+**[!UICONTROL Status]:** 広告グループの表示ステータス： *アクティブ* または *一時停止*. 新しい広告グループのデフォルトはです。 *アクティブ*.
+
+>[!MORELIKETHIS]
+>
+>* [広告グループの管理](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+
