@@ -9,9 +9,9 @@ user-guide-description: このガイドでは、検索、ソーシャル、コ�
 breadcrumb-title: 広告検索、ソーシャル、コマースガイド
 index: false
 hide: true
-source-git-commit: f6ab84bc5caef1446bc30f53ec68bfd43cb5c030
+source-git-commit: cd8367fbae2234cfdb937c5da8f21f94a615e92a
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1694'
 ht-degree: 0%
 
 ---
@@ -27,14 +27,13 @@ ht-degree: 0%
    + [サポートされる在庫](/help/search-social-commerce/introduction/supported-inventory.md)
    + Adobe Experience Cloudとの統合 {#integrations}
       + [Adobe Experience Cloudソリューションおよびサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)
-      + [Adobe Audience Managerとの統合](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html)
-   + [消費者のプライバシーのサポート](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
-   + [ポリシーとガイドライン](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html)
+      + [Adobe [!DNL Analytics for Advertising] （リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)
+      + [Adobe Audience Managerとの統合（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html)
+   + [消費者のプライバシー（リンク）のサポート](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [ポリシーとガイドライン（リンク）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html)
 + はじめに {#getting-started}
    + [実装の概要](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [必要システム構成](/help/search-social-commerce/getting-started/system-requirements.md)
-   + [Web ページのコンバージョントラッキングの設定](/help/search-social-commerce/getting-started/conversion-tracking-setup.md)
    + [ログイン](/help/search-social-commerce/getting-started/log-in.md)
    + [ユーザーインターフェイスの編成方法](/help/search-social-commerce/getting-started/user-interface.md)
    + [ログアウト](/help/search-social-commerce/getting-started/log-out.md)
