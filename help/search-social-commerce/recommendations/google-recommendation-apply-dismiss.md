@@ -1,9 +1,9 @@
 ---
 title: を適用または解除 [!DNL Google Ads] recommendation
 description: 以下を表示する方法を学ぶ： [!DNL Google Ads] レコメンデーションを適用または却下する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 >
 >レコメンデーションはキャンペーンのパフォーマンス向上に役立ちますが、一部のユーザーはより広範な目標に合わない場合があります。 そのため、レコメンデーションを実装する前に、Adobeのアカウントチームに相談することをお勧めします。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations]**.
+1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
-1. 右上で、アカウントを選択します。
+1. 右上で、広告ネットワークとアカウントを選択します。
 
 1. （オプション）カテゴリとタイプでレコメンデーションをフィルタリングします。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [使用のベストプラクティス [!DNL Google Ads] 検索、ソーシャル、コマースのポートフォリオを含む recommendations](google-recommendation-best-practices.md)
->* [について [!DNL Google Ads] recommendations サポート](google-recommendation-support.md)
+>* [パブリッシャーのレコメンデーションおよびインサイトのサポートについて](recommendation-support.md)
 >* [のレコメンデーションログを表示 [!DNL Google Ads] アカウント](google-recommendation-view-log.md)
+>* [投稿のレコメンデーションとインサイトをポートフォリオで使用する際のベストプラクティス](recommendation-best-practices.md)
 

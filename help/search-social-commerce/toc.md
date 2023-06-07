@@ -9,9 +9,9 @@ user-guide-description: このガイドでは、検索、ソーシャル、コ�
 breadcrumb-title: 広告検索、ソーシャル、コマースガイド
 index: false
 hide: true
-source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
+source-git-commit: ba0604f0c8f07cad70aa1af66fe24db3ec8e541d
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1721'
 ht-degree: 0%
 
 ---
@@ -369,7 +369,11 @@ ht-degree: 0%
       + [カスタムアラートの表示](/help/search-social-commerce/alerts/alert-view.md)
       + [カスタムアラート用のデータのエクスポート](/help/search-social-commerce/alerts/alert-export-data.md)
    + [変更履歴レポートを表示する](/help/search-social-commerce/reports/change-history-view.md)
-   + Recommendations {#recommendations}
+   + Recommendationsと発行者のインサイト {#recommendations}
+      + [パブリッシャーのレコメンデーションおよびインサイトのサポートについて](/help/search-social-commerce/recommendations/recommendation-support.md)
+      + [のレコメンデーションログを表示 [!DNL Google Ads] アカウント](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [を適用または解除 [!DNL Google Ads] recommendation](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
+      + [投稿のレコメンデーションとインサイトをポートフォリオで使用する際のベストプラクティス](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + ツール {#tools}
    + [パスワードの変更](/help/search-social-commerce/tools/password-change.md)
    + トラッキングタグを作成およびデコードするツール{#tracking}
