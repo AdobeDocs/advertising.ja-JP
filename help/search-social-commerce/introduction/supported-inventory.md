@@ -1,7 +1,7 @@
 ---
 title: サポートされる在庫
 description: サポートされている広告ネットワーク、キャンペーンタイプ、広告タイプを参照します。
-source-git-commit: 95c7e67bb6f065567302f266959295ce8125c624
+source-git-commit: 2e16159c3d7d973a12a94128b41ebd05539b2f02
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 サポートされる広告ネットワーク、キャンペーンタイプ、広告タイプ、およびそれぞれで使用できる機能を次に示します。
 
 | ソース | ネットワーク | キャンペーンタイプ | 広告タイプ | 同期して表示 | 作成/編集 | 追跡[^1] | 最適化 | レポート[^2] | Adobe Analyticsサポート[^3] |
-|----|----|----|----|----|----|----|----|----|----|----|
+|----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu] | ネットワークを検索 | 手動 | テキスト | API を使用した自動 | 使用 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) および [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | はい | 手動 CPC 入札戦略のみを使用するキャンペーン | 広告レベルのデータ | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics への広告レベルのデータ |
 | [!DNL Google Ads] | すべて [!DNL Google] フィード | 検出（ベータ版機能） | 検出（単一イメージ広告）<br><br>検出カルーセル（複数画像カルーセル広告） | API を使用した自動 | — | はい | ハイブリッドポートフォリオの場合のみ<br><br>入札と入札戦略のターゲットは、最適化タイプに適したキャンペーン予算と共に、キャンペーンレベルで設定されます。 | 広告レベルのデータ | 検索、ソーシャル、コマースに対する広告レベルのデータ（アップグレードされたを使用） [s_kwcid トラッキングコード](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)[^4]<br><br>検索、ソーシャル、コマースから Analytics への広告レベルのデータ |
 |  | すべて | 標準パフォーマンスの最大値（ベータ版機能） | すべてのタイプ | API を使用した自動 | キャンペーンビューのキャンペーン設定で、キャンペーンを作成/編集し、広告アセットをアップロードします。<br><br>必要な設定のみを使用できます。 オプションの設定とグループのリストを表示する場合は、[!DNL [!DNL Google Ads] 広告エディター。 | はい | ハイブリッドポートフォリオの場合のみ<br><br>入札戦略のターゲットは、キャンペーン予算と共にキャンペーンレベルで設定されます。 | キャンペーンレベルのデータ<br><br>グループを一覧表示するためのデータは使用できず、広告ネットワークは広告レベルのデータを提供しません。 | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics に至る、キャンペーンレベルのデータ。 アップグレードが必要 [s_kwcid トラッキングコード](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). |
