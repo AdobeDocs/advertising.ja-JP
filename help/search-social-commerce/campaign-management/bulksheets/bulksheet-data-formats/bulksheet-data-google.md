@@ -1,9 +1,9 @@
 ---
 title: 次に必要なバルクシートデータ： [!DNL Google Ads] アカウント
 description: 次のバルクシートで、必須ヘッダーフィールドとデータフィールドを参照します： [!DNL Google Ads] アカウント。
-source-git-commit: 29d11545d9c3cb3e90efca4a51a39118dbf9cc1a
+source-git-commit: 05a3424b67d084dbb664321c7a6ada0f99a840b2
 workflow-type: tm+mt
-source-wordcount: '6276'
+source-wordcount: '6628'
 ht-degree: 0%
 
 ---
@@ -114,56 +114,33 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
 
-<!-- 
+## 各アカウントコンポーネントの作成、編集または削除に必要なフィールド
 
-## Fields required to create, edit, or delete each account component
+### Campaign フィールド
 
-### Campaign fields
+|アカウント名 |各行にエンティティの「AMO ID」が含まれていない場合は必須です。 | |キャンペーン名 |必須 |アカウントのキャンペーンを識別する一意の名前。 | |キャンペーン予算 |必須：作成<br><br>> オプション：編集または削除 |キャンペーンの 1 日の支出制限。通貨記号や句読点の有無は問いません。 この値は上書きされますが、アカウント予算を超えることはできません。 | |配信方法 |必須：作成<br><br>オプション：編集または削除 | |チャネルタイプ |必須：作成<br><br>オプション：編集または削除 | |ネットワーク |必須：作成<br><br>オプション：編集または削除 | | DSA ドメイン名 |必須：作成<br><br>オプション：編集または削除 | | DSA ドメイン言語 |必須：作成<br><br>オプション：編集または削除 | |キャンペーンの優先順位 |必須/オプション：作成<br><br>オプション/該当なし：編集または削除 | |マーチャント ID |必須/オプション：作成<br><br>オプション/該当なし：編集または削除 | |販売国 |必須/オプション：作成<br><br>オプション/該当なし：編集または削除 | |製品範囲フィルター |オプション | |言語 |オプション | |デバイスターゲット |オプション | | Device OS ターゲット (Google Adwords) |オプション | |携帯電話会社 (Google Adwords) |オプション | | Audience Target メソッド |該当なし | |ランディングページサフィックス | <p>オプション | |トラッキングテンプレート |オプション | |キャンペーンステータス |オプション：作成または編集<br><br>必須：削除 | | \[ 広告主固有のラベル分類\] |オプション | |制約 |オプション | |キャンペーン ID |行にキャンペーンの「AMO ID」が含まれていない限り、キャンペーン名を変更した場合にのみ必須です。 | | AMO ID |該当なし：作成<br><br>必須/任意：編集または削除 |
 
-| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
-| Campaign Name | Required | The unique name that identifies a campaign for an account. |
-| Campaign Budget | Required: Create<br><br>>Optional: Edit or delete | A daily spending limit for the campaign, with or without monetary symbols and punctuation. This value overrides but can't exceed the account budget. |
-| Delivery Method | Required: Create<br><br>Optional: Edit or delete |
-| Channel Type | Required: Create<br><br>Optional: Edit or delete |
-| Networks | Required: Create<br><br>Optional: Edit or delete |
-| DSA Domain Name | Required: Create<br><br>Optional: Edit or delete |
-| DSA Domain Language | Required: Create<br><br>Optional: Edit or delete |
-| Campaign Priority | Required/Optional: Create<br><br>Optional / n/a: Edit or delete  |
-| Merchant ID | Required/Optional: Create<br><br>Optional / n/a: Edit or delete |
-| Sales Country | Required/Optional: Create<br><br>Optional / n/a: Edit or delete |
-| Product Scope Filter | Optional |
-| Languages | Optional |
-| Device Targets | Optional |
-| Device OS Targets (Google Adwords) | Optional |
-| Mobile Carriers (Google Adwords) | Optional |
-| Audience Target Method | n/a |
-| Landing Page Suffix | <p>Optional |
-| Tracking Template | Optional |
-| Campaign Status | Optional: Create or edit<br><br>Required: Delete |
-| \[Advertiser-specific Label Classification\] | Optional |
-| Constraints | Optional |
-| Campaign ID | Required only when you change the campaign name, unless the row includes an &quot;AMO ID&quot; for the campaign. |
-| AMO ID | n/a: Create<br><br>Required/Optional: Edit or delete |
+### 広告グループフィールド
 
-### Ad group fields
-
-| Field | Required? |
+| フィールド | 必須？ |
 | ---- | ---- |
-| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
-| Campaign Name | Required |
-| Networks | n/a |
-| GDN Custom Bid Level | Optional |
-| Ad Group Name | Required  |
-| Ad Group Type | Required |
-| Max CPC | Optional |
-| Max Content CPC | Optional |
-| Audience Target Method | Required |
-| Tracking Template | Optional |
-| Ad Group Status  | Optional: Create or edit<br><br>Required: Delete |
-| \[Advertiser-specific Label Classification\] | Optional |
-| Constraints | Optional |
-| Ad Group ID | Required only when you change the campaign name, unless the row includes an &quot;AMO ID&quot; for the ad group. |
-| AMO ID | The AMO ID is required to edit or delete the data unless you include the entity ID and parent entity ID.<br><br>Search, Social, & Commerce uses the value to determine the correct identity to edit but doesn't post the ID to the ad network. |
+| アカウント名 | 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
+| キャンペーン名 | 必須 |
+| ネットワーク | 該当なし |
+| GDN カスタム入札レベル | オプション |
+| 広告グループ名 | 必須 |
+| 広告グループタイプ | 必須 |
+| 最大 CPC | オプション |
+| 最大コンテンツ CPC | オプション |
+| Audience Target メソッド | 必須 |
+| トラッキングテンプレート | オプション |
+| 広告グループのステータス | オプション：作成または編集<br><br>必須：削除 |
+| \[ 広告主固有のラベル分類\] | オプション |
+| 制約 | オプション |
+| 広告グループ ID | 行に広告グループの「AMO ID」が含まれていない限り、キャンペーン名を変更する場合にのみ必要です。 |
+| AMO ID | エンティティ ID と親エンティティ ID を含めない限り、AMO ID はデータを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
+
+<!-- 
 
 ### Keyword fields
 
