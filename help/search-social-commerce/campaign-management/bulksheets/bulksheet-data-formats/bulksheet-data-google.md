@@ -1,7 +1,7 @@
 ---
 title: 次に必要なバルクシートデータ： [!DNL Google Ads] アカウント
 description: 次のバルクシートで、必須ヘッダーフィールドとデータフィールドを参照します： [!DNL Google Ads] アカウント。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f7ac5c69f96582d7f9a442a05c333baecc2215df
 workflow-type: tm+mt
 source-wordcount: '6276'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
 
 | フィールド | 説明 |
-| ---- | ---- | ---- |
+| ---- | ---- |
 | Platform | （情報を提供するために生成された一括送信シートに含まれます）広告プラットフォーム。 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
 | アカウント名 | 広告ネットワークアカウントを識別する一意の名前。 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
 | キャンペーン名 | アカウントのキャンペーンを識別する一意の名前。 |
