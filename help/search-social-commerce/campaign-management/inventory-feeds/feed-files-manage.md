@@ -1,9 +1,9 @@
 ---
 title: 在庫データフィードファイルの管理
 description: フィードデータの処理方法を制御する設定の設定方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ shoes<TAB>Clarks<TAB>20
 
 詳細は、ご使用のブラウザのオンラインヘルプを参照してください。
 
-## フィードファイルの手動アップロード [#feed-file-upload]
+## フィードファイルの手動アップロード {#feed-file-upload}
 
 >[!NOTE]
 > テンプレートを手動でアップロードしたファイルに関連付け、同じ名前、ファイル拡張子、文法的な大文字と小文字を持つ別のファイルを FTP 経由でアップロードした場合、FTP ファイルは、テンプレートを介してデータを伝達する際に使用されます。 例えば、myfile.csv は myfile.csv に置き換えられますが、Myfile.CSV は置き換えられません。
