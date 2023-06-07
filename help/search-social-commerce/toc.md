@@ -9,9 +9,9 @@ user-guide-description: このガイドでは、検索、ソーシャル、コ�
 breadcrumb-title: 広告検索、ソーシャル、コマースガイド
 index: false
 hide: true
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1690'
 ht-degree: 0%
 
 ---
@@ -372,12 +372,11 @@ ht-degree: 0%
    + Recommendations {#recommendations}
 + ツール {#tools}
    + [パスワードの変更](/help/search-social-commerce/tools/password-change.md)
-   + タグを追跡するためのツール {#tracking}
-      + [ピクセルベースのトラッキングを作成およびデコードするツール]{#pixel}
-         + [トラッキングタグを作成およびデコードするツールについて](/help/search-social-commerce/tools/tracking-tools-about.md)
-         + [クリック追跡 URL を生成](/help/search-social-commerce/tools/click-tracking-url-generate.md)
-         + [クリック追跡 URL のデコード](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-         + [Adobe広告コンバージョンタグの生成](/help/search-social-commerce/tools/conversion-tag-generate.md)
+   + トラッキングタグを作成およびデコードするツール{#tracking}
+      + [トラッキングタグを作成およびデコードするツールについて](/help/search-social-commerce/tools/tracking-tools-about.md)
+      + [クリック追跡 URL を生成](/help/search-social-commerce/tools/click-tracking-url-generate.md)
+      + [クリック追跡 URL のデコード](/help/search-social-commerce/tools/click-tracking-url-decode.md)
+      + [Adobe広告コンバージョンタグの生成](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + 広告ネットワークへのコンバージョンデータのアップロード {#upload-ad-networks}
       + [コンバージョン指標のアップロード先 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [広告ネットワークへの目標のアップロードを有効にする](/help/search-social-commerce/tools/objective-upload-to-networks.md)
