@@ -1,9 +1,9 @@
 ---
 title: マーチャントアカウントの管理
 description: マーチャントセンターアカウントのアカウント詳細を設定および管理する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    1. 内 [!UICONTROL Product Source] メニューで、「マーチャントセンター」を選択します。
 
-   1. ( 必須 [!DNL Google Ads] アカウントオプション： [!DNL Microsoft Advertising] アカウント ) 検索、ソーシャル、コマースで、 [[!DNL OAuth] 認証プロトコル](http://tools.ietf.org/html/draft-ietf-oauth-v2-22):
+   1. ( 必須 [!DNL Google Ads] アカウントオプション： [!DNL Microsoft Advertising] アカウント ) 検索、ソーシャル、コマースで、 [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] アカウントのみ ) を選択します。 **[!UICONTROL oAuth]**.
 
@@ -98,13 +98,13 @@ ht-degree: 0%
 
 **[!UICONTROL Product Source]:** マーチャントネットワーク。 既存のアカウントの値は変更できません。
 
-**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] アカウントのみ ) [[!DNL OAuth] 認証プロトコル](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] アカウントのみ ) [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/).
 
 **[!UICONTROL Auth Type]:** ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] （のみ）次を使用して、アカウントへのログインを承認するかどうかを指定します。
 
 * *[!UICONTROL Client login]:* クライアントのログインを使用する場合。
 
-* *[!UICONTROL oAuth]* （デフォルト）:次の手順で [[!DNL OAuth] 認証プロトコル](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* （デフォルト）:次の手順で [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/).
 
 **[!UICONTROL Access Key]:** ([!DNL Microsoft Merchant Center] （のみ）使用する開発者アカウントのアクセスキー。
 
@@ -130,4 +130,3 @@ ht-degree: 0%
 >
 >* [広告ネットワークアカウントについて](ad-network-account-about.md)
 >* [広告ネットワークアカウントの管理](ad-network-account-manage.md)
-

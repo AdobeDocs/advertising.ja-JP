@@ -1,9 +1,9 @@
 ---
 title: クリック追跡 URL のオプションのトラッキングパラメーター
 description: オプションの検索、ソーシャル、コマースのトラッキングパラメーターと、クリックトラッキング URL に追加できるネットワーク固有のトラッキングパラメーターについて説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1219'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
    * Adobe広告パラメーターは半静的です。 Adobe広告は、ベース URL を広告ネットワークにアップロードする際に、データ値を挿入します。 例えば、 `campaign={ef_campaign}` をベース URL に追加すると、Adobe広告は `{ef_campaign}` を実際のキャンペーン名（「新学期のキャンペーン」など）に置き換えます。
 
-      **注意：** 値が挿入されても、値は静的なままです。 キーワードまたは広告を別の広告グループに移動したり、広告グループを別のキャンペーンに移動した場合、{ef_adgroup} または {ef_campaign} パラメーターは自動的に更新されないので、新しいリンク先 URL またはベース（最終）URL を手動で生成する必要があります。
+     **注意：** 値が挿入されても、値は静的なままです。 キーワードまたは広告を別の広告グループに移動したり、広告グループを別のキャンペーンに移動した場合、  {ef_adgroup} または {ef_campaign} パラメーターは自動的に更新されないので、新しい宛先 URL またはベース（最終）URL を手動で生成する必要があります。
 
-   * 広告のネットワーク固有のパラメーターは動的で、ユーザーが広告をクリックすると、検索エンジンはデータ値を挿入します。 例えば、 `{param1}` をベース URL に設定すると、エンドユーザーが広告をクリックすると、広告ネットワークによってその値が実際の {param1} 値に置き換えられます。
+   * 広告のネットワーク固有のパラメーターは動的で、ユーザーが広告をクリックすると、検索エンジンはデータ値を挿入します。 例えば、 `{param1}` をベース URL に追加すると、広告ネットワークは、それを実際の {param1} 値を返します。
 
 >[!NOTE]
 >
@@ -32,9 +32,7 @@ ht-degree: 0%
 >  * `=` は次の値で置き換えられます。 `%3D`
 >  * `?` は次の値で置き換えられます。 `%26`
 >  * 空のスペースは `%2B`
-
-   >  例えば、 `campaign={ef_campaign}` をキーワードのベース URL http://www.example.comに追加すると、そのキーワードのベース URL は `http://www.example.com/campaign%3D{ef_campaign}`.
-
+>  例えば、 `campaign={ef_campaign}` をキーワードのベース URL http://www.example.comに追加すると、そのキーワードのベース URL は `http://www.example.com/campaign%3D{ef_campaign}`.
 
 ## Search、Social および Commerce の静的トラッキングパラメーター
 
@@ -44,19 +42,19 @@ ht-degree: 0%
 
 | パラメータ | 説明 |
 | ---- | ---- |
-| {custom_code}</code> | アップロードしたバルクシートファイルの「カスタム URL パラメーター」列のデータをトラッキング URL に挿入する場合。 {custom_code} は、トラッキング URL の 1 つ以上のキーと値のペアの値の最後でのみ使用できます。 例：a={custom_code}</code>;a={ef_campaignid}{custom_code}</code>;a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>注意：</b> バルクシートファイルのカスタム値をトラッキング URL に挿入するには、「トラッキング URL を生成」オプションを使用してバルクシートファイルをアップロードします。 一括シートファイルの使用の詳細については、[バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).&quot; |
-| {ef_uniqueid}</code> | Adobe広告で作成された一意の ID を挿入する。 トラッキングメソッドが「EF Redirect」の場合に自動的に追加されます。 |
-| {ef_userid}</code> | 広告主に割り当てる一意のAdobeID を挿入する。 |
-| {ef_sid}</code> | Search、Social および Commerce が広告ネットワークに割り当てる数値 ID を挿入するには、次の手順を実行します。 <i>[!UICONTROL 3]</i> 対象 [!DNL Google Ads], <i>[!UICONTROL 10]</i> 対象 [!DNL Microsoft® Advertising], <i>[!UICONTROL 45]</i> 対象 [!DNL Meta], <i>[!UICONTROL 86]</i> 対象 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> 対象 [!DNL Naver], <i>[!UICONTROL 88]</i> 対象 [!DNL Baidu], <i>[!UICONTROL 90]</i> 対象 [!DNL Yandex], <i>[!UICONTROL 94]</i> 対象 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> 対象 [!DNL Yahoo Native] （非推奨）または <i>[!UICONTROL 106]</i> 対象 [!DNL Pinterest] （非推奨）。 |
-| {ef_searchengine}</code> | 広告ネットワーク名を挿入するには。 |
-| {ef_campaign}</code> | キャンペーン名を挿入します。 |
-| {ef_campaignid}</code> | キャンペーン ID を挿入します。 <b>注意：</b> 新しいキャンペーンの ID は、キャンペーンが広告ネットワークに投稿されるまで作成されません。 アカウントで「EF Redirect」および「AutoUpload」オプションが使用されている場合、Adobe広告はキャンペーン ID を関連する宛先 URL または翌日に最終 URL に自動的に挿入します。 アカウントで「EF Redirect」および「Auto Upload」オプションが使用されず、関連する宛先 URL または最終 URL にキャンペーン ID を挿入する場合は、キャンペーンを作成する必要があります。「トラッキング URL の生成」オプションを使用して、新しいキャンペーン用のバルクシートファイルをダウンロードし、そのファイルを広告ネットワークに投稿します。 |
-| {ef_adgroup}</code> | 広告グループ名を挿入するには： |
-| {ef_adgroupid}</code> | 広告グループ ID を挿入するには： <b>注意：</b> 新しい広告グループの ID は、広告グループが広告ネットワークに投稿されるまで作成されません。 アカウントで「EF Redirect」および「AutoUpload」オプションが使用されている場合、Adobe広告は、翌日に、関連するリンク先 URL または最終 URL に広告グループ ID を自動的に挿入します。 アカウントで「EF Redirect」および「Auto Upload」オプションが使用されず、関連する宛先 URL または最終 URL に広告グループ ID を挿入する場合は、広告グループを作成する必要があります。「トラッキング URL の生成」オプションを使用して、新しい広告グループ用のバルクシートファイルをダウンロードし、そのファイルを広告ネットワークに投稿します。 |
-| {ef_keyword}</code> | キーワードを挿入するには、次の手順に従います。 |
-| {ef_keywordid}</code> | キーワード ID を挿入するには、をクリックします。 <b>注意：</b> 新しいキーワードの ID は、そのキーワードが広告ネットワークに投稿されるまで作成されません。 アカウントで「EF Redirect」および「Auto Upload」オプションが使用されている場合、Adobe広告は、次の日に、関連する宛先 URL または最終 URL にキーワード ID を自動的に挿入します。 アカウントで「EF Redirect」および「Auto Upload」オプションが使用されず、関連する宛先 URL または最終 URL にキーワード ID を挿入する場合は、キーワードを作成する必要があります。「トラッキング URL の生成」オプションを使用して、新しいキーワードのバルクシートファイルをダウンロードし、そのファイルを広告ネットワークに投稿します。 |
-| {ef_matchtype}</code> | キーワード一致タイプを「部分一致」、「完全一致」または「フレーズ」として挿入するには、次のように指定します。 「EF Redirect」トラッキングメソッドを使用したGoogle Ads およびMicrosoft Advertising に対して自動的に含まれます。 |
-| {ef_adid}</code> | 広告 ID を挿入します。 <b>注意：</b> 新しい広告の ID は、広告が広告ネットワークに投稿されるまで作成されません。 アカウントで「EF Redirect」および「Auto Upload」オプションが使用されている場合、Adobe広告は、翌日に、関連する宛先 URL または最終 URL に広告 ID を自動的に挿入します。 アカウントで「EF Redirect」および「Auto Upload」オプションが使用されず、関連する宛先 URL または最終 URL に広告 ID を挿入する場合は、広告を作成する必要があります。「トラッキング URL の生成」オプションを使用して、新しい広告のバルクシートファイルをダウンロードし、そのファイルを広告ネットワークに投稿します。 |
+| <code>{custom_code}</code> | アップロードしたバルクシートファイルの「カスタム URL パラメーター」列のデータをトラッキング URL に挿入する場合。 {custom_code} は、トラッキング URL 内の 1 つ以上のキーと値のペアの値の最後でのみ使用できます。 例：  <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>注意：</b> バルクシートファイルのカスタム値をトラッキング URL に挿入するには、「トラッキング URL を生成」オプションを使用してバルクシートファイルをアップロードします。 一括シートファイルの使用の詳細については、[バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).&quot; |
+| <code>{ef_uniqueid}</code> | Adobe広告で作成された一意の ID を挿入する。 トラッキングメソッドが「EF Redirect」の場合に自動的に追加されます。 |
+| <code>{ef_userid}</code> | 広告主に割り当てる一意のAdobeID を挿入する。 |
+| <code>{ef_sid}</code> | Search、Social および Commerce が広告ネットワークに割り当てる数値 ID を挿入するには、次の手順を実行します。 <i>[!UICONTROL 3]</i> 対象 [!DNL Google Ads], <i>[!UICONTROL 10]</i> 対象 [!DNL Microsoft® Advertising], <i>[!UICONTROL 45]</i> 対象 [!DNL Meta], <i>[!UICONTROL 86]</i> 対象 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> 対象 [!DNL Naver], <i>[!UICONTROL 88]</i> 対象 [!DNL Baidu], <i>[!UICONTROL 90]</i> 対象 [!DNL Yandex], <i>[!UICONTROL 94]</i> 対象 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> 対象 [!DNL Yahoo Native] （非推奨）または <i>[!UICONTROL 106]</i> 対象 [!DNL Pinterest] （非推奨）。 |
+| <code>{ef_searchengine}</code> | 広告ネットワーク名を挿入するには。 |
+| <code>{ef_campaign}</code> | キャンペーン名を挿入します。 |
+| <code>{ef_campaignid}</code> | キャンペーン ID を挿入します。 <b>注意：</b> 新しいキャンペーンの ID は、キャンペーンが広告ネットワークに投稿されるまで作成されません。 アカウントで「EF Redirect」および「AutoUpload」オプションが使用されている場合、Adobe広告はキャンペーン ID を関連する宛先 URL または翌日に最終 URL に自動的に挿入します。 アカウントで「EF Redirect」および「Auto Upload」オプションが使用されず、関連する宛先 URL または最終 URL にキャンペーン ID を挿入する場合は、キャンペーンを作成する必要があります。「トラッキング URL の生成」オプションを使用して、新しいキャンペーン用のバルクシートファイルをダウンロードし、そのファイルを広告ネットワークに投稿します。 |
+| <code>{ef_adgroup}</code> | 広告グループ名を挿入するには： |
+| <code>{ef_adgroupid}</code> | 広告グループ ID を挿入するには： <b>注意：</b> 新しい広告グループの ID は、広告グループが広告ネットワークに投稿されるまで作成されません。 アカウントで「EF Redirect」および「AutoUpload」オプションが使用されている場合、Adobe広告は、翌日に、関連するリンク先 URL または最終 URL に広告グループ ID を自動的に挿入します。 アカウントで「EF Redirect」および「Auto Upload」オプションが使用されず、関連する宛先 URL または最終 URL に広告グループ ID を挿入する場合は、広告グループを作成する必要があります。「トラッキング URL の生成」オプションを使用して、新しい広告グループ用のバルクシートファイルをダウンロードし、そのファイルを広告ネットワークに投稿します。 |
+| <code>{ef_keyword}</code> | キーワードを挿入するには、次の手順に従います。 |
+| <code>{ef_keywordid}</code> | キーワード ID を挿入するには、をクリックします。 <b>注意：</b> 新しいキーワードの ID は、そのキーワードが広告ネットワークに投稿されるまで作成されません。 アカウントで「EF Redirect」および「Auto Upload」オプションが使用されている場合、Adobe広告は、次の日に、関連する宛先 URL または最終 URL にキーワード ID を自動的に挿入します。 アカウントで「EF Redirect」および「Auto Upload」オプションが使用されず、関連する宛先 URL または最終 URL にキーワード ID を挿入する場合は、キーワードを作成する必要があります。「トラッキング URL の生成」オプションを使用して、新しいキーワードのバルクシートファイルをダウンロードし、そのファイルを広告ネットワークに投稿します。 |
+| <code>{ef_matchtype}</code> | キーワード一致タイプを「部分一致」、「完全一致」または「フレーズ」として挿入するには、次のように指定します。 「EF Redirect」トラッキングメソッドを使用したGoogle Ads およびMicrosoft Advertising に対して自動的に含まれます。 |
+| <code>{ef_adid}</code> | 広告 ID を挿入します。 <b>注意：</b> 新しい広告の ID は、広告が広告ネットワークに投稿されるまで作成されません。 アカウントで「EF Redirect」および「Auto Upload」オプションが使用されている場合、Adobe広告は、翌日に、関連する宛先 URL または最終 URL に広告 ID を自動的に挿入します。 アカウントで「EF Redirect」および「Auto Upload」オプションが使用されず、関連する宛先 URL または最終 URL に広告 ID を挿入する場合は、広告を作成する必要があります。「トラッキング URL の生成」オプションを使用して、新しい広告のバルクシートファイルをダウンロードし、そのファイルを広告ネットワークに投稿します。 |
 
 ## Google Ads 動的トラッキングパラメーター
 
@@ -72,7 +70,7 @@ ht-degree: 0%
 
 ## Yahoo! Japan Ads 動的トラッキングパラメーター
 
-詳しくは、 [https://help.marketing.yahoo.co.jp/en/?p=115](https://help.marketing.yahoo.co.jp/en/?p=115).
+詳しくは、 [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## Yandex 動的トラッキングパラメーター
 
@@ -81,4 +79,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Adobe広告コンバージョントラッキングサービスのクリック追跡 URL の形式について](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
-

@@ -1,9 +1,9 @@
 ---
 title: 広告ネットワークアカウントの管理
 description: 広告ネットワークアカウントのアカウントの詳細を設定および管理する方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2080'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    1. 内 **[!UICONTROL Account Details]** 「 」セクションで、アカウントの詳細を入力します。
 
-      ログイン認証タイプ「 」を使用する広告ネットワークの場合[!UICONTROL oAuth]、「 [OAuth 認証プロトコル](http://tools.ietf.org/html/draft-ietf-oauth-v2-22):
+      ログイン認証タイプ「 」を使用する広告ネットワークの場合[!UICONTROL oAuth]、「 [OAuth 認証プロトコル](https://oauth.net/2/):
 
       1. 次を入力します。 **[!UICONTROL Login]** アカウントの値（オプション）、パスワードを入力し、 **[!UICONTROL Authenticate]**.
 
@@ -45,8 +45,8 @@ ht-degree: 0%
       1. 開いたポップアップウィンドウで認証文字列をコピーし、 **[!UICONTROL oAuth Token]** フィールドに入力します。
 
       1. 残りのアカウントの詳細を指定します。
-   1. クリック **[!UICONTROL Set Account Tracking]**、トラッキング設定を入力します。
 
+   1. クリック **[!UICONTROL Set Account Tracking]**、トラッキング設定を入力します。
 
 1. クリック **[!UICONTROL Post]**.
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 *エージェンシーアカウントマネージャー、Adobeアカウントマネージャー、管理者ユーザーの役割のみ*
 
-検索、ソーシャル、コマースで、 [OAuth 認証プロトコル](http://tools.ietf.org/html/draft-ietf-oauth-v2-22) およびアカウントの資格情報が変更された場合、または検索、ソーシャル、コマースの新機能をサポートするために追加のアクセス権が必要な場合は、そのアカウントの新しいアクセストークンを取得する必要があります。
+検索、ソーシャル、コマースで、 [OAuth 認証プロトコル](https://oauth.net/2/) およびアカウントの資格情報が変更された場合、または検索、ソーシャル、コマースの新機能をサポートするために追加のアクセス権が必要な場合は、そのアカウントの新しいアクセストークンを取得する必要があります。
 
 新しい機能に新しいトークンが必要な場合は、Adobeアカウントチームから通知が届きます。
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 **[!UICONTROL Login Details]:\[ ログインタイプ\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] （のみ）次を使用して、アカウントへのログインを承認するかどうかを指定します。
 
-* *[!UICONTROL oAuth]* （デフォルト）:次の手順で [[!DNL OAuth] 認証プロトコル](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* （デフォルト）:次の手順で [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/).
 
 * *[!UICONTROL Password]:* クライアントのパスワードを使用する場合。
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** ( 以下を除くすべての広告ネットワーク [!DNL Naver]) アカウントへの API アクセスを有効にするためのログイン名または ID。
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth] — 有効および以外のすべてのネットワーク [!DNL Baidu], [!DNL Meta]、および [!DNL Yandex]) [[!DNL OAuth] 認証プロトコル](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth] — 有効および以外のすべてのネットワーク [!DNL Baidu], [!DNL Meta]、および [!DNL Yandex]) [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/).
 
 **[!UICONTROL Login Details]: [!UICONTROL Password]:** ( 以下を除くすべての広告ネットワーク [!DNL Naver]) アカウントのパスワードです。 パスワードが有効なアカウントの場合： [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]、および [!DNL Yandex]の場合、このフィールドは必須です。 の場合 [!DNL oAuth]有効なアカウントの場合、このフィールドはオプションです。アカウントマネージャーが必要に応じてトークンを更新できるように、パスワードを暗号化して保存する場合に使用します。
 
@@ -172,7 +172,6 @@ Adobe広告のクリック追跡を使用するアカウントには、広告ネ
 >
 >* このフィールドは [!UICONTROL Auto Upload] トラッキング設定。
 >* 下位レベルでの最終的な URL サフィックスは、アカウントレベルのサフィックスよりも優先されます。 メンテナンスを容易にするために、個々のアカウントコンポーネントに対して別々の追跡が必要でない限り、アカウントレベルのサフィックスのみを使用します。 広告グループレベル以下でサフィックスを設定するには、広告ネットワークのエディターを使用します。
-
 
 **タイムゾーン：** ( を除くすべての広告ネットワーク [!DNL Baidu] および [!DNL Yahoo! Display Network]) 広告主のタイムゾーン。 このフィールドは編集可能で、新規の場合はオプションです [!DNL Naver] アカウント。 その他すべての検索ネットワークでは、レコードを保存すると、広告主の検索、ソーシャル、コマースアカウント用に設定されたタイムゾーンが値に自動的に入力されます。
 
@@ -200,7 +199,6 @@ Adobe広告のクリック追跡を使用するアカウントには、広告ネ
 >* の場合 [!DNL Google Ads]を使用する場合は、並列追跡を有効にするソースからのクリック数に代わられないマクロを使用しないでください。 広告主がマクロを使用する必要がある場合は、Adobeアカウントチームがカスタマーサポートまたは実装チームと連携してマクロを追加する必要があります。
 >* 最も精度の高いレベルのトラッキングテンプレートは、より高いレベルの値よりも優先されます。 例えば、アカウント設定とキーワード設定の両方に値が含まれる場合、そのキーワード値が適用されます。
 >* 広告、サイトリンク、またはキーワードレベルでトラッキングテンプレートを更新すると、関連する広告が再送信され、レビューが必要になります。 広告を承認用に再送信しなくても、アカウント、キャンペーンまたは広告グループレベルでトラッキングテンプレートを更新できます。
-
 
 **[!UICONTROL Master Account ID]:** ([!DNL Microsoft Advertising] アカウントのみ ) アカウントに関連付けられたエージェンシー/管理アカウントの ID。
 
@@ -259,4 +257,3 @@ Adobe広告のクリック追跡を使用するアカウントには、広告ネ
 >* [広告ネットワークアカウントについて](ad-network-account-about.md)
 >* [マーチャントセンターアカウントの管理](merchant-account-manage.md)
 >* [の s\_kwcid トラッキングコードを更新します。 [!DNL Google Ads] アカウント](update-skwcid-google.md)
-

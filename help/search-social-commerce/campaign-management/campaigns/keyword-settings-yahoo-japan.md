@@ -1,9 +1,9 @@
 ---
 title: '"[!DNL Yahoo! Japan Ads] キーワード設定'
 description: 次の設定を参照してください： [!DNL Yahoo! Japan Ads] キーワード。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 0%
 >* 除外キーワードは、 [!UICONTROL Keywords] > [!UICONTROL Negatives] 広告グループとキャンペーンの設定で「 」と「 」を表示します。
 >* Yahoo! 日本語のキーワードと一致タイプは可変です。つまり、既存のキーワードを削除せずに編集できます。
 
-
 **[!UICONTROL Status]:** キーワードの表示ステータス： *アクティブ* または *一時停止*. 新しいキーワードのデフォルトはです。 *アクティブ*.
 
 ## [!UICONTROL Bids]
@@ -32,9 +31,9 @@ ht-degree: 0%
 
 ## プレースホルダー
 
-**[!UICONTROL Param1]:** ベース URL またはトラッキングテンプレートに `{param1}` [カスタムパラメーター](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param1]:** ベース URL またはトラッキングテンプレートに `{param1}` [カスタムパラメーター](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
-**[!UICONTROL Param2]:** ベース URL またはトラッキングテンプレートに `{param2}` [カスタムパラメーター](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param2]:** ベース URL またはトラッキングテンプレートに `{param2}` [カスタムパラメーター](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
 ## URL オプション
 
@@ -49,4 +48,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-
