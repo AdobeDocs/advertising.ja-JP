@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Channel Assist Report]"
 description: 詳しくは、 [!UICONTROL Channel Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 次に、各レポートで使用できる列を示します。 デフォルトの列は、デフォルトで自動的に含まれます。 使用可能なカスタム列は、レポート設定の「列」セクションから追加できます。
 
 | 列 | デフォルト？ | 説明 |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Event] から [!UICONTROL 5th Event] | デフォルト | 広告主の [ルックバックウィンドウをクリック](/help/search-social-commerce/glossary.md#c-d) および [インプレッションのルックバックウィンドウ](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL Path Size] | デフォルト | 広告主の [ルックバックウィンドウをクリック](/help/search-social-commerce/glossary.md#c-d) および [インプレッションのルックバックウィンドウ](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Event Type] | デフォルト | コンバージョンパスの最初（最も古い）イベントのイベントタイプ。 |
@@ -47,4 +47,3 @@ ht-degree: 0%
 >* [この [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [レポート設定の支援](assist-report-settings.md)
 >* [アシストレポートの生成](assist-report-generate.md)
-

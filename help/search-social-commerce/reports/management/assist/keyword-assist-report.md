@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Keyword Assist Report]"
 description: 詳しくは、 [!UICONTROL Keyword Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 次に、各レポートで使用できる列を示します。 デフォルトの列は、デフォルトで自動的に含まれます。 使用可能なカスタム列は、レポート設定の「列」セクションから追加できます。
 
 | 列 | デフォルト？ | 説明 |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Keyword] から [!UICONTROL 5th Keyword] | デフォルト | 広告主の [ルックバックウィンドウをクリック](/help/search-social-commerce/glossary.md#c-d) および [インプレッションのルックバックウィンドウ](/help/search-social-commerce/glossary.md#i-j).<br><br><b>注意：</b> レポートに（キーワードを含まない）コンテンツ対応検索キャンペーンのプレースメントが含まれる場合、これらの列には、「(adgroup content) お使いの広告グループ名」など、該当する広告グループ名が表示されます。 |
 | [!UICONTROL Path Size] | デフォルト | 広告主の [ルックバックウィンドウをクリック](/help/search-social-commerce/glossary.md#c-d) および [インプレッションのルックバックウィンドウ](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Keyword] | デフォルト | コンバージョンパス内の最初のキーワードまたは配置。 |
@@ -51,4 +51,3 @@ ht-degree: 0%
 >* [この [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [レポート設定の支援](assist-report-settings.md)
 >* [アシストレポートの生成](assist-report-generate.md)
-

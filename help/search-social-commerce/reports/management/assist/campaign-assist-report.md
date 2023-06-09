@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Campaign Assist Report]"
 description: 詳しくは、 [!UICONTROL Campaign Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # この [!UICONTROL Campaign Assist Report]
 
-*検索、ソーシャル、コマースのクリック追跡およびAdobe広告、Adobe Analytics( [!DNL Analytics] 統合 )、またはトークン (`ef_id`) のみ*
+*検索、ソーシャル、コマースのクリック追跡およびAdobe Advertising、Adobe Analytics( [!DNL Analytics] 統合 )、またはトークン (`ef_id`) のみ*
 
 この [!UICONTROL Campaign Assist Report] どのキャンペーンがコンバージョンプロセスを支援したかを示します。 広告が 1 つ以上のコンバージョンにつながったキャンペーンの各パターンが、全体的なコンバージョンにどの程度貢献したかをレポートします。 例えば、ユーザーがキャンペーン A から広告を最初に表示し、キャンペーン B から広告をクリックしてから注文した後に、コンバージョンが何回発生したかを確認できます。 同様に、ユーザーが 10 を超えるキャンペーンの広告とやり取りした後に発生したコンバージョン数を確認できます。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 次に、各レポートで使用できる列を示します。 デフォルトの列は、デフォルトで自動的に含まれます。 使用可能なカスタム列は、レポート設定の「列」セクションから追加できます。
 
 | 列 | デフォルト？ | 説明 |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Campaign] から [!UICONTROL 5th Campaign] | デフォルト | 広告主の [ルックバックウィンドウをクリック](/help/search-social-commerce/glossary.md#c-d) および [インプレッションのルックバックウィンドウ](/help/search-social-commerce/glossary.md#i-j).<br><br>エンティティ名の後に広告ネットワーク、アカウント名、イベントタイプを示すレポートオプションを含めた場合、その情報はキャンペーン名の後に含まれます ( 例： `"<"campaign name> [Google] [Account1] [impression]`&quot;) です。 |
 | [!UICONTROL Path Size] | デフォルト | 広告主の [ルックバックウィンドウをクリック](/help/search-social-commerce/glossary.md#c-d) および [インプレッションのルックバックウィンドウ](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Campaign] | デフォルト | コンバージョンパスの最初のキャンペーン。 |
@@ -57,4 +57,3 @@ ht-degree: 0%
 >* [この [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [レポート設定の支援](assist-report-settings.md)
 >* [アシストレポートの生成](assist-report-generate.md)
-

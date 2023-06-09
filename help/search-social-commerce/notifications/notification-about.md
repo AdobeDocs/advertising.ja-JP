@@ -1,7 +1,7 @@
 ---
 title: 通知について
 description: 様々なタイプやカテゴリを含む通知について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 1b38a7cd20eb2f9b773d01dc0444f45761b99647
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 * から [!UICONTROL Notification Center] 開く web アプリケーション [!UICONTROL Notification Center] を使用して、Search、Social、および Commerce 以外の別のウィンドウに表示します。
 
-   アプリケーションは、通常のブラウザーバージョンよりも高速に読み込まれ、自動的に更新されます。 アプリケーションをインストールし、ブラウザーのアプリマネージャーを使用して管理できます。
+  アプリケーションは、通常のブラウザーバージョンよりも高速に読み込まれ、自動的に更新されます。 アプリケーションをインストールし、ブラウザーのアプリマネージャーを使用して管理できます。
 
 * プッシュ通知からブラウザーに送信します。
 
-   プッシュ通知を有効にすると、ブラウザーの通知規則に従って通知が表示されます。
+  プッシュ通知を有効にすると、ブラウザーの通知規則に従って通知が表示されます。
 
 通知の表示、通知の既読または未読としてのマーク、通知の削除を行うことができます。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**::通知 [!UICONTROL Landing Page Suffix] の値が正しくない、見つからない、または正しくない SKWCID テンプレートが含まれている。または、誤った値で下位レベルで上書きされます。
 
-   * **[!UICONTROL Manager Account Missing ]**:検索、ソーシャル、コマースに次の項目の資格情報がない場合の通知： [ad network manager アカウント](/help/search-social-commerce/admin/manager-accounts.md)：重要な関数を正しく設定するためのものです。
+   * **[!UICONTROL Manager Account Missing]**:検索、ソーシャル、コマースに次の項目の資格情報がない場合の通知： [ad network manager アカウント](/help/search-social-commerce/admin/manager-accounts.md)：重要な関数を正しく設定するためのものです。
 
 * [!UICONTROL Network Errors]
 
@@ -76,4 +76,3 @@ ht-degree: 0%
 >* [通知設定を編集](notification-edit.md)
 >* [次のプッシュ通知を有効/無効にする： [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [をインストールしてアンインストールします。 [!UICONTROL Notification Center] web アプリケーション](notification-app-install-uninstall.md)
-
