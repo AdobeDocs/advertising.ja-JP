@@ -1,9 +1,9 @@
 ---
 title: '"[!DNL Microsoft® Ads] 在庫フィード用のショッピング広告テンプレート設定»'
 description: 次の設定を参照してください： [!DNL Microsoft® Ads] 在庫フィード用の買い物広告テンプレート。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 次の文字は、テンプレート内の列名と修飾子名の指定用に予約されているため、すべての属性フィールドのテキストとして使用することはできません。  `[ ] < > `
-
 
 
 ## \[ すべてのタブの上\]
@@ -171,9 +170,7 @@ Adobe広告コンバージョントラッキングの場合、値を入力する
 >[!MORELIKETHIS]
 >
 >* [在庫フィードを使用した広告管理の自動化について](../inventory-feeds-about.md)
->* [在庫フィードを使用したキャンペーンデータ管理のワークフロー](../inventory-feeds-workflow.md)
 >* [修飾子の管理](../modifiers-manage.md)
 >* [在庫データフィードファイルの管理](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 >* [テンプレートを通じてフィードデータを伝達](../feed-data-propagate.md)
 >* [在庫フィードから広告ネットワークへのキャンペーンデータの投稿](../propagated-data-post.md)
-

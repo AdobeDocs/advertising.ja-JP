@@ -9,9 +9,9 @@ user-guide-description: このガイドでは、検索、ソーシャル、コ�
 breadcrumb-title: 広告検索、ソーシャル、コマースガイド
 index: false
 hide: true
-source-git-commit: 71ffe30ca09a2be0def70fc230a4bfa7616c7bfa
+source-git-commit: 72dd7a51e024057a1135fa0cc641b236254c28d8
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
@@ -222,7 +222,6 @@ ht-degree: 0%
             + [次に必要なバルクシートデータ： [!DNL Yandex] アカウント](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + 在庫フィードを使用したキャンペーンデータの自動化 {#inventory-feeds}
          + [在庫フィードを使用した広告管理の自動化について](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
-         + [在庫フィードを使用したキャンペーンデータ管理のワークフロー](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-workflow.md)
          + [アカウントコンポーネントは、いつ在庫フィードによって作成または削除されますか？](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
          + [フィードデータの設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
          + [フィードファイルの管理](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)

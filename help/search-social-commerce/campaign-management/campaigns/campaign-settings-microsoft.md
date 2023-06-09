@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Microsoft Advertising] キャンペーン設定"
 description: 次の設定を参照してください： [!DNL Microsoft Advertising] キャンペーン。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 0706f4dbc5f2a27e7d0cf43a6865d242865f9d36
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search and Display Network]:* 検索ネットワーク上のテキスト広告のみを表示します。
 
-* *[!UICONTROL Shopping Network]:* お使いの製品の製品広告とダッシュを表示します [!DNL Microsoft Merchant Center] 商品カタログ — ショッピングネットワーク上
+* *[!UICONTROL Shopping Network]:* お使いの製品の製品広告を表示します [!DNL Microsoft Merchant Center] 商品カタログ — ショッピングネットワーク上
 
 * *[!UICONTROL Audience]:* 上にネイティブ/ディスプレイ広告を表示 [!DNL Microsoft Audience Network]. (a) キャンペーンを [!UICONTROL Shopping Settings] セクションまたは b) テキストアセットとアップロードされた画像を使用してレスポンシブ広告を作成する。 どちらのオプションを使用する場合も、ユーザーターゲティングを持つ広告グループを作成する必要があります。
 
@@ -64,13 +64,13 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
 * *[!UICONTROL Target CPA]:* （検索ネットワーク上のキャンペーン）検索、ソーシャル、コマースではなく、広告ネットワークは、オプションのに基づいて入札を最適化します **[!UICONTROL Target CPA]** （獲得あたりのコスト）：獲得（コンバージョン）に対して支払う 30 日間の平均金額。 **注意：** このオプションは、支出戦略を除くハイブリッドポートフォリオのキャンペーン（標準のポートフォリオではない）に使用します。 [!UICONTROL Weekly] または [!UICONTROL Google Target CPA].
 
-   この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データを使用できません。
+  この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データを使用できません。
 
 * *[!UICONTROL Target Impression Share]:* （検索ネットワーク上のキャンペーン）検索、ソーシャル、コマースではなく、広告ネットワークは、ターゲットのインプレッション共有および広告の位置を達成するために、入札を最適化します。 必要に応じて、 **[!UICONTROL Target Impression Share]** パーセント **[!UICONTROL Target Ad Position]**、および **[!UICONTROL Max CPC]** （クリックあたりのコスト）。 **注意：** このオプションは、ハイブリッドポートフォリオではサポートされていません。
 
 * *[!UICONTROL Target Return on Ad Spend]:*  （検索およびショッピングネットワーク上のキャンペーン）検索、ソーシャル、コマースではなく、広告ネットワークは、ユーザーの **[!UICONTROL Target ROAS]** （広告費用対効果）。割合で指定します。 必要に応じて、 **[!UICONTROL Max CPC]** （クリックあたりのコスト）を使用して、広告ネットワークがクリックごとに特定の金額を超えないようにします。 **注意：** このオプションは、支出戦略を除くハイブリッドポートフォリオのキャンペーン（標準のポートフォリオではない）に使用します。 [!UICONTROL Weekly] または [!UICONTROL Google Target ROAS].
 
-   この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データを使用できません。
+  この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データを使用できません。
 
 ## [!UICONTROL Shopping Settings]
 
@@ -180,4 +180,3 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 >[!MORELIKETHIS]
 >
 >* [キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

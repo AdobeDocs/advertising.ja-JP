@@ -1,7 +1,7 @@
 ---
 title: 入札可能なキーワードの管理
 description: 検索広告グループの入札可能なキーワードを作成および管理する方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 77069de8ff3367a3ffa6f84583b4a69f37aab88b
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -22,8 +22,7 @@ ht-degree: 0%
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
-1. 
-   1. データテーブルの上にあるツールバーで、 ![作成](/help/search-social-commerce/assets/add.png "作成").
+1. データテーブルの上にあるツールバーで、 ![作成](/help/search-social-commerce/assets/add.png "作成").
 
 1. 広告ネットワーク、アカウント、キャンペーンおよび広告グループを選択し、 **[!UICONTROL Continue]**.
 
@@ -77,4 +76,3 @@ ht-degree: 0%
 >* [[!DNL Yandex] キーワード設定](keyword-settings-yandex.md)
 >* [除外キーワードの作成](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [キーワードと除外キーワードのステータスの変更](keyword-status-edit.md)
-

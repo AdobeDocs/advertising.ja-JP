@@ -1,9 +1,9 @@
 ---
 title: 在庫フィード用の広告テンプレートの管理
 description: アカウント構造を管理し、動的な広告を配信するために在庫データを処理できる広告テンプレートの管理について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ ht-degree: 0%
       1. コピーするテンプレートの横にあるチェックボックスをオンにします。
 
       1. データテーブルの上にあるツールバーで、 **[!UICONTROL Create/Clone]**&#x200B;をクリックし、該当する広告ネットワークを選択します。
-   * （既存のテンプレートを編集するには）テンプレート名の横にある ![設定を表示/編集](/help/search-social-commerce/assets/settings.png "設定を表示/編集").
 
+   * （既存のテンプレートを編集するには）テンプレート名の横にある ![設定を表示/編集](/help/search-social-commerce/assets/settings.png "設定を表示/編集").
 
 1. 次の項目の設定を指定します。 [テキスト広告テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] ショッピング広告テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)または [[!DNL Microsoft® Advertising] ショッピング広告テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
@@ -66,7 +66,6 @@ ht-degree: 0%
       >* 各広告グループには、最大 3 つの有効なレスポンシブ検索広告を含めることができます。
       >* 既存の標準テキスト広告バリエーションは編集できず、既存のテンプレートは標準テキスト広告を生成しなくなりました。
       >* 広告バリエーションテンプレートを変更すると、既存の広告が削除され、テンプレートを介してデータを伝達する際に新しい広告が作成される場合があります。 [広告タイプと広告ネットワークに応じて](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
-
 
       * 広告バリエーションを追加するには、以下の手順を実行します。
 
@@ -107,6 +106,7 @@ ht-degree: 0%
                >* 各広告コピーフィールドには、最大 4 つの代替を指定できます。
 
          * 広告のバリエーションを削除するには、 **[!UICONTROL Remove ETA Variation]** （拡張/拡張テキスト広告の場合）または **[!UICONTROL Remove RSA Variation]** （レスポンシブ検索広告の場合）をクリックし、該当する場合はその横に表示します。
+
    1. （買い物テンプレートのみ） **[!UICONTROL Product Groups]** 」タブをクリックし、ターゲットにする製品グループに関する情報を指定します。
 
    1. （オプション） **[!UICONTROL Feed Filters]** 」タブをクリックし、フィードファイル内のどの行を反映するかを指定します。
@@ -120,10 +120,6 @@ ht-degree: 0%
          1. クリック **[!UICONTROL Add Label Classification]**.
 
          1. ラベルの分類を選択し、既存の値を選択するか、新しい値を入力します。
-
-
-
-
 
 1. テンプレートを保存します。
 
@@ -158,9 +154,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [在庫フィードを使用した広告管理の自動化について](../inventory-feeds-about.md)
->* [在庫フィードを使用したキャンペーンデータ管理のワークフロー](../inventory-feeds-workflow.md)
 >* [テキスト広告とレスポンシブ検索広告テンプレートの設定](template-text-rsa.md)
 >* [[!DNL Google Ads] 買い物広告テンプレート設定](template-google-shopping.md)
 >* [[!DNL Microsoft® Advertising] 買い物広告テンプレート設定](template-microsoft-shopping.md)
 >* [テンプレートを通じてフィードデータを伝達](../feed-data-propagate.md)
-
