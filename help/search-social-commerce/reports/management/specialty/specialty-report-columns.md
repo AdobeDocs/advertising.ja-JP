@@ -1,7 +1,7 @@
 ---
 title: 特殊レポートのレポート列
 description: 特殊レポートで使用できるデータ列について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: c2a6e14fe97d46185094dd4df3e75db35a505925
 workflow-type: tm+mt
 source-wordcount: '1925'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] ただ、 [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report]、および [!UICONTROL Keyword Daily Impression Share Report]) オーガニック検索結果の上の最初の広告として表示される広告インプレッションの割合。 |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] ただ、 [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report]、および [!UICONTROL Keyword Daily Impression Share Report]) オーガニック検索結果の上に表示される広告インプレッションの割合。 |
 | [!UICONTROL Impressions] | 指定した日付範囲での広告インプレッション数。 |
-| [!UICONTROL Keyword] | キーワード。<br><br><b>注意：</i> レポートにコンテンツ対応検索キャンペーンの広告グループのデータが含まれる場合、この列には、該当する広告グループ名 (「(adgroup content) 広告グループ名」など ) が含まれます。 検索キャンペーンでのサイトターゲット配置の場合、この列に値は含まれません。 |
+| [!UICONTROL Keyword] | キーワード。<br><br><b>注意：</b> レポートにコンテンツ対応検索キャンペーンの広告グループのデータが含まれる場合、この列には、該当する広告グループ名 (「(adgroup content) 広告グループ名」など ) が含まれます。 検索キャンペーンでのサイトターゲット配置の場合、この列に値は含まれません。 |
 | [!UICONTROL Keyword ID] | Search、Social および Commerce がキーワードに割り当てる数値 ID。 |
 | [!UICONTROL Keyword Status] | 検索語句が一致したキーワードのステータス。 *[!UICONTROL Active]*, *[!UICONTROL Paused]*, [!UICONTROL Deleted]*または[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report]) ターゲット言語。 |
@@ -119,4 +119,3 @@ ht-degree: 0%
 >* [特殊レポートについて](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
 >* [特殊なレポートの生成](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
 >* [特殊レポート設定](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-
