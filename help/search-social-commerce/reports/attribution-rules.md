@@ -1,14 +1,14 @@
 ---
 title: アトリビューションルールの計算方法
 description: Adobe Advertisingがアトリビューションルールの各タイプを計算する方法を説明します。
-source-git-commit: 6436866ae7684a330f74c14e58ee30d365de80a1
+source-git-commit: d4237253af7110a3ed02595c466c01359f5601d4
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
 
-# Adobe広告のアトリビューションルールの計算方法
+# Adobe Advertisingの属性ルールの計算方法
 
 *Adobe広告コンバージョントラッキングのみを持つ広告主*
 
@@ -21,9 +21,9 @@ Advertising Search、Social、&amp; Commerce（検索、Social、&amp;Commerce�
 >[!NOTE]
 >
 >* アトリビューションルールは、任意のチャネルの有料広告でのクリック数、およびディスプレイ広告とソーシャル広告でのインプレッション数に適用されます。 有料検索広告のインプレッション数には適用されません。イベントレベルでは追跡できません。
->* Adobe Advertisingは、コンバージョンの前に、各 Web サーファーに対して常に次のイベントを保存します。a) 最初の有料クリックb) 各チャネル（検索、ソーシャルまたはディスプレイ）に対して、最初のクリックを含めて最大 10 回クリックする。(c) 最大 10 個のディスプレイインプレッション。 <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-* Advertising DSPとAdvertising Creativeでは、クロスデバイス定義は、選択されたアトリビューションルールからのイベントパスのみを考慮します。<!-- cross-device attribution via LiveRamp only -->
-* レポートおよび管理ビューでは、値の小数点以下の桁数は通貨によって異なりますが、Adobe Advertisingではより正確な値が格納されます。
+>* Adobe広告では、コンバージョンの前に、各 Web サーファーに対して常に次のイベントが保存されます。a) 最初の有料クリックb) 各チャネル（検索、ソーシャルまたはディスプレイ）に対して、最初のクリックを含めて最大 10 回クリックする。(c) 最大 10 個のディスプレイインプレッション。 <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
+* Advertising DSPと Advertising Creative では、クロスデバイス定義は、選択されたアトリビューションルールからのイベントパスのみを考慮します。<!-- cross-device attribution via LiveRamp only -->
+* レポートおよび管理ビューでは、値の小数点以下の桁数は通貨によって異なりますが、Adobe広告により正確な値が格納されます。
 
 ## 最後のイベント（デフォルト）
 
@@ -177,7 +177,7 @@ Advertising Search、Social、&amp; Commerce（検索、Social、&amp;Commerce�
 
 コンバージョンの前にインプレッション数のみがある場合、コンバージョンは *ビュースルー*：広告主の [ビュースルーの重み付け設定](/help/search-social-commerce/glossary.md#uv) 指定したとおり、レポート、ビュー、またはカスタムシミュレーションのパラメータで指定したビュースルー評価方法に従って、または。
 
-コンバージョンパスに有料クリック数とインプレッション数の両方が含まれる場合、インプレッションの扱いはAdobe広告製品によって異なります。
+コンバージョンパスに有料クリック数とインプレッション数の両方が含まれる場合、インプレッションの扱いはAdobe Advertising製品ごとに異なります。
 
 * 検索、ソーシャル、コマースで、 [インプレッションの上書きの重み](/help/search-social-commerce/glossary.md#i-j)  — 広告主のインプレッションの上書きの重み付け設定と、レポート、表示またはカスタムシミュレーションのパラメーターで指定される — は、まずインプレッションに適用されます。
 
@@ -209,7 +209,7 @@ Advertising Search、Social、&amp; Commerce（検索、Social、&amp;Commerce�
 
 属性：インプレッション 1 = 6 USD、クリック 1 = 54 USD、インプレッション 2 = 6 USD、クリック 2 = 54 USD（合計 120 USD）
 
-#### (Adobe広告DSPのみ ) インプレッションの上書きの重み付けを使用しない、または（検索、ソーシャル、コマースのみ）「インプレッションの上書きの重み付け」が 0%に設定されている
+#### (Adobe Advertising DSPのみ ) インプレッションの上書きの重み付けを使用しない、または（検索、ソーシャル、コマースのみ）「インプレッションの上書きの重み付け」が 0%に設定されている
 
 イベントシリーズにはインプレッション数とクリック数の両方が含まれているので、インプレッション数は無視されます。
 
@@ -301,7 +301,7 @@ Advertising Search、Social、&amp; Commerce（検索、Social、&amp;Commerce�
 
 * DSPでは、インプレッションは無視され、クリックのみが重み付けされます。 DSPでは、アトリビューションに対してインプレッションの上書きの重み付けは考慮されません。
 
-<!-- ![U-shaped attribution percentages](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U-shaped event attribution percentages") -->
+![U 字形アトリビューションの割合](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U 字形アトリビューションの割合")
 
 <!-- start examples as collapsible content -->
 
