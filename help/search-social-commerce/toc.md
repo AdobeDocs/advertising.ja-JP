@@ -7,9 +7,8 @@ archetype: end-user
 user-guide-title: 広告検索、ソーシャル、コマースガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマースの各広告キャンペーンを管理、最適化、およびレポートするために必要な主な機能、タスク、設定、その他のリソースについて説明します。
 breadcrumb-title: 広告検索、ソーシャル、コマースガイド
-index: false
-hide: true
-source-git-commit: 72dd7a51e024057a1135fa0cc641b236254c28d8
+index: true
+source-git-commit: 0f4fad34e1e381157b99467fca04c35501d1fb57
 workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 0%
