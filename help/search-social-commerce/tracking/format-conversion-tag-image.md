@@ -1,7 +1,7 @@
 ---
 title: 画像コンバージョントラッキングタグの形式
 description: 画像コンバージョントラッキングタグの形式を参照します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: b230c593d93dfa868b8f075939fc9940ea74fa13
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -16,15 +16,11 @@ ht-degree: 0%
 
 * HTTP を使用するサイトの非セキュアタグ：
 
-   ```
-   <img src="http://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>
-   ```
+  `<img src="http://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>`
 
 * HTTPS を使用するサイトのセキュアタグ：
 
-   ```
-   <img src="https://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>
-   ```
+  `<img src="https://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>`
 
 場所：
 
@@ -34,7 +30,7 @@ ht-degree: 0%
 
 * `<transid>` は、トランザクションを識別するために広告主が生成して渡す一意のトランザクション ID（実際の注文 ID など）です。 これは、[!UICONTROL Include unique transaction IDs]」オプションが選択されています。
 
-   検索、ソーシャル、コマースでは、トランザクション ID を使用して、同じトランザクション ID とプロパティ値を持つ重複トランザクションを排除します。 トランザクション ID は [!UICONTROL Transaction Report]：広告主のデータを含むAdobe広告内のデータを検証するために使用できます。 **注意：** 広告主のデータにトランザクションごとの一意の ID が含まれていない場合、検索、ソーシャル、コマースは引き続きトランザクション時間に基づいて ID を生成します。
+  検索、ソーシャル、コマースでは、トランザクション ID を使用して、同じトランザクション ID とプロパティ値を持つ重複トランザクションを排除します。 トランザクション ID は [!UICONTROL Transaction Report]：広告主のデータとのAdobe Advertising内でデータを検証するために使用できます。 **注意：** 広告主のデータにトランザクションごとの一意の ID が含まれていない場合、検索、ソーシャル、コマースは引き続きトランザクション時間に基づいて ID を生成します。
 
 <!-- add more links -->
 
@@ -45,4 +41,3 @@ ht-degree: 0%
 >* [コンバージョンおよびページビューのトラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [JavaScript コンバージョントラッキングタグバージョン 2 の形式](format-conversion-tag-jsv2.md)
 >* [JavaScript コンバージョントラッキングタグバージョン 3 の形式](format-conversion-tag-jsv3.md)
-

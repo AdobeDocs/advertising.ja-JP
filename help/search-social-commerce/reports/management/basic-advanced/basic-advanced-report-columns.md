@@ -1,9 +1,9 @@
 ---
 title: 基本レポートと高度なレポートのレポート列
 description: 基本レポートと高度なレポートで使用できるデータ列について説明します。
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 7327c91b92b6471fa8da8767fc764de4226b4f91
 workflow-type: tm+mt
-source-wordcount: '3640'
+source-wordcount: '3653'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Domain] | ([!UICONTROL Domain Referral Report], [!UICONTROL Keyword Report]) クリックの発生元のドメイン名。 |
 | [!UICONTROL eCPM] | 効果的な CPM、または指定した日付範囲での 1,000 件のインプレッションあたりの平均支払額。 eCPM の値は CPM キャンペーンまたは CPC キャンペーンで計算されます。 |
 | [!UICONTROL EF Campaign ID] | Search、Social および Commerce がキャンペーンに割り当てる数値 ID。 |
-| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Adobe広告コンバージョントラッキングサービスを持つ広告主、および[!UICONTROL EF Redirect]」トークンを使用したトラッキングメソッド ) クリックまたはコンバージョンのトークン。<ul><li>の場合 [!DNL Google Ads] 広告を検索する場合、EF ID は `{gclid}:G:s`:Googleクリック ID(GCLID) とネットワークタイプ（検索の場合は「s」）が含まれます。</li><li> の場合 [!DNL Microsoft Advertising] 広告を検索する場合、EF ID は `{msclkid}:G:s`:Microsoftクリック ID(MSCLKID) とネットワークタイプ（検索の場合は「s」）が含まれます。</li><li>他の広告ネットワーク上の検索広告の場合、EF ID にはサーファー ID、クリック時間、ネットワークタイプが含まれます。</li><li>ディスプレイ広告の場合、EF ID には、サーファー ID、クリックまたはインプレッション時間、ネットワークタイプが含まれます。</li></ul> |
+| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report])(Adobe Advertisingコンバージョントラッキングサービスを持つ広告主、および[!UICONTROL EF Redirect]」トークンを使用したトラッキングメソッド ) クリックまたはコンバージョンのトークン。<ul><li>の場合 [!DNL Google Ads] 広告を検索する場合、EF ID は `{gclid}:G:s`:Googleクリック ID(GCLID) とネットワークタイプ（検索の場合は「s」）が含まれます。</li><li> の場合 [!DNL Microsoft Advertising] 広告を検索する場合、EF ID は `{msclkid}:G:s`:Microsoftクリック ID(MSCLKID) とネットワークタイプ（検索の場合は「s」）が含まれます。</li><li>他の広告ネットワーク上の検索広告の場合、EF ID にはサーファー ID、クリック時間、ネットワークタイプが含まれます。</li><li>ディスプレイ広告の場合、EF ID には、サーファー ID、クリックまたはインプレッション時間、ネットワークタイプが含まれます。</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report];検索、ソーシャル、コマースでのみ使用 ) 地理的な場所の内部 ID です。データの標準化に使用されます。 |
 | [!UICONTROL EF Portfolio Group ID] | ポートフォリオが属するポートフォリオグループの数値 ID。 |
 | [!UICONTROL EF Search Engine ID] | Search、Social および Commerce が広告ネットワークに割り当てる数値 ID。  <i>[!UICONTROL 3]</i> 対象 [!DNL Google Ads], <i>[!UICONTROL 10]</i> 対象 [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> 対象 [!DNL Meta], <i>[!UICONTROL 86]</i> 対象 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> 対象 [!DNL Naver], <i>[!UICONTROL 88]</i> 対象 [!DNL Baidu], <i>[!UICONTROL 90]</i> 対象 [!DNL Yandex], <i>[!UICONTROL 94]</i> 対象 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> 対象 [!DNL Yahoo Native] （非推奨）または <i>[!UICONTROL 106]</i> 対象 [!DNL Pinterest] （非推奨）。 |
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | 指定した日付範囲での広告インプレッション数。 |
 | [!UICONTROL Interaction Rate] | （ビデオ広告）インタラクション数を広告の回数（ビデオおよびサムネールのインプレッション）で割った数です。 |
 | [!UICONTROL Interactions] | （ビデオ広告）ユーザーが広告を視聴した回数です。 |
-| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <!-- ?????? insert definition --> |
+| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i> ポートフォリオに [!UICONTROL Maximize Clicks] 入札戦略および <i>false</i> それ以外の場合は |
 | [!UICONTROL Keyword] | キーワード。<br><br><b>注意：</b> レポートにコンテンツ対応検索キャンペーンの広告グループのデータが含まれる場合、この列には、該当する広告グループ名 (「(adgroup content) 広告グループ名」など ) が含まれます。 検索キャンペーンでのサイトターゲット配置の場合、この列に値は含まれません。 |
 | [!UICONTROL Keyword ID] | Search、Social および Commerce がキーワードに割り当てる数値 ID。 |
 | [!UICONTROL Keyword Status] | 検索語句が一致したキーワードのステータス。 <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Deleted]</i>または <i>[!UICONTROL Disapproved]</i>. |
@@ -192,4 +192,3 @@ ht-degree: 0%
 >* [基本レポートと高度なレポートについて](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
 >* [基本レポートまたは高度なレポートの生成](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [基本レポート設定と詳細レポート設定](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
-

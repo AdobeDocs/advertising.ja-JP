@@ -1,7 +1,7 @@
 ---
 title: " [!DNL Google Ads] account"
 description: の最新の s\_kwcid トラッキングコードに切り替える方法を説明します。 [!DNL Google Ads] アカウント
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -58,5 +58,4 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >
 >* [広告ネットワークアカウントの管理](ad-network-account-manage.md)
 >* [s_kwcid トラッキングパラメーター](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
->* [の概要 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
-
+>* [の概要 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
