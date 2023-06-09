@@ -1,10 +1,10 @@
 ---
-title: Adobe TargetでAdobe広告広告用の A/B テストを設定する
+title: Adobe TargetでのAdobe Advertising広告の A/B テストの設定
 description: で A/B テストを設定する方法を説明します。 [!DNL Target] (DSPおよび [!DNL Search, Social, & Commerce] 広告。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 *Advertising DSPのみの広告主*
 
-Adobe広告とAdobe Targetを使用すると、マーケターは、有料メディアやオンサイトメッセージにわたって、パーソナライズされた接続されたエクスペリエンスをより簡単に提供できます。 製品間でシグナルを共有することで、次のことができます。
+Adobe AdvertisingとAdobe Targetを使用すると、マーケターは、有料メディアやオンサイトメッセージにわたって、パーソナライズされ、接続されたエクスペリエンスをより簡単に提供できます。 製品間でシグナルを共有することで、次のことができます。
 
 * 顧客の広告露出をDSPキャンペーンから自社のオンサイトエクスペリエンスにリンクすることで、サイトのフォールスルー率を低下させます。
 
@@ -85,11 +85,12 @@ Adobeアカウントチームと Advertising Solutions Group(aac-advertising-sol
 
    1. に移動します。 **Audience Manager** > **オーディエンスデータ** > **シグナル**&#x200B;をクリックし、 **検索** 」タブをクリックします。
 
-   1. 次を入力します。 **キー** および **値** を返します。 の使用 [サポートキー](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=en) に、Audience Managerインプレッションイベントピクセルに追加したマクロに対応する値を指定します。
+   1. 次を入力します。 **キー** および **値** を返します。 の使用 [サポートキー](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) に、Audience Managerインプレッションイベントピクセルに追加したマクロに対応する値を指定します。
 
       例えば、特定のプレースメントのユーザーをグループ化するには、 `d_placement` キー。 値には、DSPマクロでキャプチャされた実際の数値配置 ID( 上のスクリーンショットの2501853など ) を使用します `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
       「合計数」フィールドに、ピクセルが正しく配置され、データが流れていることを示すキーと値のペアのユーザー数が表示される場合は、次の手順に進むことができます。
+
    ![シグナルを検索](/help/integrations/assets/target-am-signals.png)
 
 1. [ルールベースの特性の作成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) (Audience Managerでのセグメント作成用 )
@@ -109,6 +110,7 @@ Adobeアカウントチームと Advertising Solutions Group(aac-advertising-sol
    1. セグメントに名前を付け、「 」を選択します。 `Ad Cloud` を **データソース**&#x200B;をクリックし、セグメントを保存します。
 
       Audience Managerは、セグメントを、標準のランディングページエクスペリエンスを受け取るコントロール母集団と、パーソナライズされたオンサイトエクスペリエンスを受け取るテストグループに自動的に分割します。
+
    ![テストセグメントのスクリーンショット](/help/integrations/assets/target-am-segment.png)
 
 ## 手順 3:Target での「A/B テスト」アクティビティの設定
@@ -164,6 +166,7 @@ Adobeアカウントチームと Advertising Solutions Group(aac-advertising-sol
    * エクスペリエンス A:パーソナライゼーションのないデフォルト/コントロールランディングページエクスペリエンスなので、編集しないでください。
 
    * エクスペリエンス B:以下を使用： [!DNL Target] テストに含まれるアセット（ヘッドライン、コピー、ボタンの配置、クリエイティブなど）に基づいてランディングページテンプレートをカスタマイズするユーザーインターフェイス。
+
    >[!NOTE]
    >
    >クリエイティブテストの使用例などについては、担当のAdobeアカウントチームにお問い合わせください。
@@ -182,11 +185,11 @@ Analysis Workspaceで、 [!DNL Analytics for Target panel] を分析するには
 
 #### 指標
 
-* テストを実行したAdobe広告キャンペーン、パッケージまたは配置に固有のパネルを、ワークスペース内に作成します。 概要ビジュアライゼーションを使用して、Adobe広告指標を Target テストパフォーマンスと同じレポートに表示します。
+* テストを実行したAdobe Advertisingキャンペーン、パッケージまたは配置に固有のパネルをワークスペース内に作成します。 概要ビジュアライゼーションを使用して、Target のテストAdobe Advertisingと同じレポートにパフォーマンス指標を表示します。
 
 * オンサイト指標（訪問回数、コンバージョン数など）を使用してパフォーマンスを測定することを優先します。
 
-* Adobe広告の集計メディア指標（インプレッション数、クリック数、コストなど）を Target 指標と一致させることはできません。
+* Adobe Advertising（インプレッション数、クリック数、コストなど）の集計メディア指標を Target 指標と一致させることはできません。
 
 #### Dimension
 
@@ -204,13 +207,13 @@ Analysis Workspace内で、アクティビティとエクスペリエンスの�
 
 * Target と Analytics の両方で同じ Supplemental Data ID(SDID) が使用されていることを確認します。 SDID の値は、 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) をクリックします。
 
-[Debugger での補足的なデータ ID(SDID) 値のAdobe](/help/integrations/assets/target-troubleshooting-sdid.png)
+[Adobe Debuggerの追加データ ID(SDID) 値](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* 同じランディングページで、a) ソリューション/ Target のAdobeデバッガーに表示されるホスト名が b) に表示されるトラッキングサーバーが一致することを確認します ( [!DNL Target] アクティビティの（目標と設定/レポート設定の下）を選択します。
+* 同じランディングページで、a) ソリューション/ Target の下のAdobe Debuggerに表示されるホスト名が b) に表示されるトラッキングサーバー ( [!DNL Target] アクティビティの（目標と設定/レポート設定の下）を選択します。
 
-   [!DNL Analytics For Target] にはが必要です [!DNL Analytics] からの呼び出しで送信されるトラッキングサーバー [!DNL Target] から [!DNL Modstats] Analytics のデータ収集サーバー。<!-- just "to Analytics?"-->
+  [!DNL Analytics For Target] にはが必要です [!DNL Analytics] からの呼び出しで送信されるトラッキングサーバー [!DNL Target] から [!DNL Modstats] Analytics のデータ収集サーバー。<!-- just "to Analytics?"-->
 
-[Debugger のホスト名値](/help/integrations/assets/target-troubleshooting-hostname.png)
+[ホスト名の値 (Adobe Debugger)](/help/integrations/assets/target-troubleshooting-hostname.png)
 
 [Target のトラッキングサーバー値](/help/integrations/assets/target-troubleshooting-tracking-server.png)
 

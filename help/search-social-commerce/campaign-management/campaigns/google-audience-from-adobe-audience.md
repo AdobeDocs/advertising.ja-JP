@@ -1,9 +1,9 @@
 ---
 title: 作成 [!DNL Google Ads] 次のオーディエンスをカスタマーマッチさせる [!DNL Adobe] audiences
 description: 作成方法を学ぶ [!DNL Google Ads] 既存のAdobe AnalyticsおよびAudience Managerオーディエンスのオーディエンスに一致する顧客。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]カスタマーマッチの条件を満たすアカウント*
 
-*AdobeAdvertising-Adobe Audience ManagerまたはAdobeAdvertising-Adobe Analyticsの統合のみを使用する広告主*
+*Adobe Advertising- Adobe Audience ManagerまたはAdobe Advertising- Adobe Analyticsの統合のみを使用する広告主*
 
 オプトインした広告主が [!DNL Google Ads] (a) のユーザー ID を使用したオーディエンスの顧客一致 [!DNL Analytics] Adobe Experience Cloudおよび b) 検索、ソーシャル、コマースを宛先として持つAudience Managerセグメント（を含む） [!DNL Analytics] Adobe Experience Cloudに公開されたセグメントと、Adobe Experience Cloud Audience Library を使用して作成されたセグメント。 検索、ソーシャル、コマースは、 [!DNL Google] 各 [!DNL Analytics] またはAudience Managerセグメントで [!DNL Google] オーディエンスを追跡できます。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    1. （ユーザー ID リマーケティングリストのオーディエンスを作成するには） [!DNL Adobe] 管理者ユーザーまたはアカウントマネージャーは、顧客一致オーディエンスを有効にする広告主レベルの設定を選択する必要があります。 設定は、Audience Managerの広告主と [!DNL Analytics] のみ。
 
-   1. の実装 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) バージョン 2.0 以降。
+   1. の実装 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) バージョン 2.0 以降。
 
    1. オーディエンスのトラッキング元となる広告主の Web ページに、できる限り高い位置に次のタグをデプロイします
 
@@ -80,11 +80,9 @@ ht-degree: 0%
 >
 >* 詳しくは、 [[!DNL Google Ads] カスタマーマッチの仕組みと制限に関するドキュメント](https://support.google.com/displayvideo/answer/9539301).
 
-
 >[!MORELIKETHIS]
 >
 >* [オーディエンスについて](audience-about.md)
 >* [の作成 [!DNL Google Ads] Adobe Campaign電子メールリストからの顧客一致オーディエンス](google-audience-from-campaign-email-list.md)
 >* [顧客データリストを使用した顧客一致オーディエンスの管理](audience-from-customer-data-list.md)
 >* [動的リマーケティングオーディエンスの管理](audience-dynamic-remarketing-manage.md)
-
