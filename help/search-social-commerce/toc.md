@@ -5,10 +5,10 @@ solution: Advertising
 product: advertising cloud
 archetype: end-user
 user-guide-title: 広告検索、ソーシャル、コマースガイド
-user-guide-description: このガイドでは、検索、ソーシャル、コマースの各広告キャンペーンを管理、最適化、およびレポートするために必要な主な機能、タスク、設定、その他のリソースについて説明します。
+user-guide-description: このガイドでは、検索、ソーシャル、コマースの各広告キャンペーンの管理、追跡、およびレポートに必要な主な機能、タスク、設定、その他のリソースについて説明します。
 breadcrumb-title: 広告検索、ソーシャル、コマースガイド
 index: true
-source-git-commit: b5ac81e04055c32cff02cc8528efb88e0d690f48
+source-git-commit: d28103d6788a1b0ee08663a5cc0393c373171860
 workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 0%
