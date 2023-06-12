@@ -2,7 +2,7 @@
 title: パッケージの一時停止またはアクティブ化
 description: パッケージを一時停止またはアクティブ化する方法を説明します。
 feature: DSP Packages
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 81f761e44b6f5a0bef9524468b57d97c021ef2b2
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -36,4 +36,3 @@ ht-degree: 0%
 >* [パッケージの編集](package-edit.md)
 >* [パッケージの変更ログの表示](package-change-log.md)
 >* [パッケージのアーカイブ](package-archive-unarchive.md)
-
