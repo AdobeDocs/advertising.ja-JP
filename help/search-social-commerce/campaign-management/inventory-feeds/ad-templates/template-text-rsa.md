@@ -236,7 +236,7 @@ Adobe広告コンバージョントラッキングの場合。これは、キャ
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] templates のみ ) タイトル、テキスト、表示 URL または最終 URL に `{Param3}` 動的置換文字列。 最大長は 70 文字ですが、使用する広告要素の最大長に注意してください（例えば、広告タイトルは最大 25 文字までです）。
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** 指定した一致タイプまたは広告タイプを持つ各キーワードの初期入札。
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** 指定した一致タイプまたは広告タイプを持つ各キーワードの初期入札。
 
 ## [!UICONTROL Ads]
 
