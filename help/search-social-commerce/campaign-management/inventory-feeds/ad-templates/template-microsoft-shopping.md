@@ -1,9 +1,9 @@
 ---
 title: '"[!DNL Microsoft® Ads] 在庫フィード用のショッピング広告テンプレート設定»'
 description: 次の設定を参照してください： [!DNL Microsoft® Ads] 在庫フィード用の買い物広告テンプレート。
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Adobe広告コンバージョントラッキングの場合、値を入力する
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** ( 子製品グループのない数量。（オプション）製品グループのトラッキングテンプレートです。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、ValueTrack パラメーターに最終的な URL を埋め込みます。 このテンプレートは、上位レベルのテンプレートを上書きします。
+**[!UICONTROL Tracking Template]:** ( 子製品グループのない数量。（オプション）製品グループのトラッキングテンプレートです。オフランディングドメインのリダイレクトとトラッキングパラメーターをすべて指定し、最終 URL を [!DNL ValueTrack] パラメーター。 このテンプレートは、上位レベルのテンプレートを上書きします。
 
 Adobe広告コンバージョントラッキングの場合、値を入力する必要はありません。 キャンペーンレベルの値で十分です。
 

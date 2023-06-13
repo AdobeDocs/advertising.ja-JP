@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -15,4 +15,4 @@ ht-degree: 0%
 
 * [!DNL Microsoft Advertising]: `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`
 
-例えば、Display Path 1 が「掘り出し物」で Display Path 2 が「local」の場合、表示 URL は次のようになります。 `<display URL>/deals/local`www.example.com/deals/localなど。
+例えば、 [!UICONTROL Display Path 1] は「契約」で、 [!UICONTROL Display Path 2] が「local」の場合、表示 URL は `<display URL>/deals/local`www.example.com/deals/localなど。

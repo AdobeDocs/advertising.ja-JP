@@ -1,9 +1,9 @@
 ---
 title: 次に必要なバルクシートデータ： [!DNL Google Ads] アカウント
 description: 次のバルクシートで、必須ヘッダーフィールドとデータフィールドを参照します： [!DNL Google Ads] アカウント。
-source-git-commit: 384515330bfb980e7549128a1aa890df8fa1c463
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '8406'
+source-wordcount: '7515'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 | ---- | ---- |
-| [!UICONTROL Platform] | （情報を提供するために生成された一括送信シートに含まれます）広告プラットフォーム。 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
-| [!UICONTROL Acct Name] | 広告ネットワークアカウントを識別する一意の名前。 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
+| [!UICONTROL Platform] | （情報を提供するために生成された一括送信シートに含まれます）広告プラットフォーム。 各行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Acct Name] | 広告ネットワークアカウントを識別する一意の名前。 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | アカウントのキャンペーンを識別する一意の名前。 |
 | [!UICONTROL Campaign Budget] | キャンペーンに対する 1 日の支出制限。通貨記号や句読点の有無は問いません。 この値は上書きされますが、アカウント予算を超えることはできません。 |
 | [!UICONTROL Delivery Method] | <p>キャンペーンの広告を 1 日に表示する速度：</p><ul><li><p><i>[!UICONTROL Standard (Distributed)]</i> （新規キャンペーンのデフォルト）:広告インプレッションを 1 日にわたって広める。</p></li><li><p><i>[!UICONTROL Accelerated]:</i> （2019 年 10 月に廃止）予算に達するまで、可能な限り頻繁に広告を表示します。 その結果、広告が 1 日後に表示されない場合があります。</p></li></ul> |
@@ -34,15 +34,15 @@ ht-degree: 0%
 | [!UICONTROL Merchant ID] | （マーチャントフィードにリンクされたショッピングキャンペーンおよびオーディエンスキャンペーンのみ）商品がキャンペーンに使用されるマーチャントアカウントの顧客 ID。 |  |
 | [!UICONTROL Sales Country] | ( 買い物キャンペーンのみ、既存のキャンペーンの読み取り専用 ) キャンペーンの製品が販売された国。 製品は対象国に関連付けられているので、この設定によってキャンペーンで広告される製品が決まります。 |
 | [!UICONTROL Product Scope Filter] | ( [!DNL Google Ads] （買い物ネットワークのみ） [!DNL Google Merchant Center] キャンペーン用にショッピング広告を作成できるアカウント。 dimension=attribute の形式を使用して、製品をフィルタリングする製品次元と属性の組み合わせを 7 つまで入力できます。 複数のフィルターは「>>」区切り文字で区切ります。 使用可能な製品ディメンションのリストについては、[買い物キャンペーンの製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).&quot;</p><p>例：&quot;CategoryL1=animals>>CategoryL2=pet supplies>>Brand=Acme Pet Supplies&quot;</p><p>既存の値を削除するには、 <span class="Code">[削除]</span> （括弧を含む）</p> |
-| [!UICONTROL Languages] | <p>（検索および表示ネットワークのみ）キャンペーンの広告のターゲット言語。</p><p>このフィールドまたは [!UICONTROL Geo Targeting] 新しいキャンペーンのフィールドで、アカウントに対して指定された通貨によってデフォルト言語が決まります。ただし、特定の言語にマッピングされていない通貨（EUR など）のキャンペーンはすべての言語をターゲットにします。 このフィールドに値を入力しない場合は、 [!UICONTROL Geo Targeting] 新しいキャンペーンのフィールド。デフォルトはです。 <span style="font-style: italic;"><i>すべて</i></span>. 既存のキャンペーンでこのフィールドを空白にした場合、既存の値が保持されます。</p><p>すべての言語をターゲットにするには、 <span style="font-style: italic;">&lt;i span=&quot;&quot; id=&quot;1&quot; translate=&quot;no&quot; />. [!UICONTROL >All]</i></span>特定の言語をターゲットにするには、次のいずれかを使用して、セミコロンで区切った値を入力します。 <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#languages" target="_blank">[!DNL Google Ads] 言語名</a> ( <span style="font-style: italic;"><i>英語；日本語</i></span>（正しい数値コードで置き換えられる）または数値コード ( <span style="font-style: italic;"><i>1000;1005</i></span>) をクリックします。 値では大文字と小文字が区別されません。</p> |
+| [!UICONTROL Languages] | <p>（検索および表示ネットワークのみ）キャンペーンの広告のターゲット言語。</p><p>このフィールドまたは [!UICONTROL Geo Targeting] 新しいキャンペーンのフィールドで、アカウントに対して指定された通貨によってデフォルト言語が決まります。ただし、特定の言語にマッピングされていない通貨（EUR など）のキャンペーンはすべての言語をターゲットにします。 このフィールドに値を入力しない場合は、 [!UICONTROL Geo Targeting] 新しいキャンペーンのフィールド。デフォルトはです。 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>. 既存のキャンペーンでこのフィールドを空白にした場合、既存の値が保持されます。</p><p>すべての言語をターゲットにするには、 <span style="font-style: italic;">&lt;i span=&quot;&quot; id=&quot;1&quot; translate=&quot;no&quot; />. [!UICONTROL >All]</i></span>特定の言語をターゲットにするには、次のいずれかを使用して、セミコロンで区切った値を入力します。 <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#languages" target="_blank">[!DNL Google Ads] 言語名</a> ( <span style="font-style: italic;"><i>英語；日本語</i></span>（正しい数値コードで置き換えられる）または数値コード ( <span style="font-style: italic;"><i>1000;1005</i></span>) をクリックします。 値では大文字と小文字が区別されません。</p> |
 | [!UICONTROL Location] | キャンペーンの広告を配置する、または広告を除外する地理的な場所。 このフィールドまたは新しいキャンペーンの「言語」フィールドに値を入力しない場合、特定の場所（EUR など）にマッピングされていない通貨を持つキャンペーンがすべての場所をターゲットにする点を除き、アカウントで指定された通貨がデフォルトの場所です。 このフィールドに値を入力しない場合は、 [!UICONTROL Languages] 新しいキャンペーンのフィールドを選択すると、デフォルトはになります。 <i>[!UICONTROL All]</i>. 既存のキャンペーンでこのフィールドを空白のままにした場合、既存の値が保持されます。</p><p>特定の場所をターゲットにするには、次のいずれかを使用します。 [[!DNL Google Ads] 場所名](https://developers.google.com/adwords/api/docs/appendix/geotargeting) （正しい数値コードで置き換えられる）または場所コード：</p><ul><li><p>国/地域：国名または地域名 ( 例： <span style="font-style: italic;"><i>米国；日本</i></span>) または数値コード ( <span style="font-style: italic;"><i>2840;2392</i></span>) をクリックします。</p></li><li><p>都道府県/地域：州/都道府県/地域の名前を、関連する国/地域の略語 ( <span style="font-style: italic;"><i>東京、JP；ニューヨーク、米国</i></span>) または数値コード ( <span style="font-style: italic;"><i>20636;21167</i></span>) をクリックします。</p></li><li><p>米国以外の都市：市区町村名、都道府県/地域名、国/地域の略語 ( 例： <span style="font-style: italic;"><i>足立，東京， JP；北，東京， JP</i></span>) または数値コード ( <span style="font-style: italic;"><i>1028850;1009293</i></span>)</p></li><li><p>米国の主要都市：市区町村名、都道府県名、国の略語 ( <span style="font-style: italic;"><i>バッファロー NY, US；ニューヨーク NY, US</i></span>) または数値コード ( <span style="font-style: italic;"><i>514;501</i></span>) をクリックします。</p></li></ul><p>場所を除外するには、場所名またはコードの前にマイナス記号 (`-`など ) <span style="font-style: italic;"><i> — 日本</i></span>.</p><p><b>注意：</b> 値では大文字と小文字が区別されません。</p> |
 | [!UICONTROL Location Type] | （場所を含める場合） [場所の種類](https://developers.google.com/google-ads/api/data/geotargets). |
 | [!UICONTROL Device] | キャンペーンまたは広告グループレベルで入札調整がおこなわれるデバイスタイプ。 <i>[!UICONTROL smartphone]</i>, <i>[!UICONTROL tablet]</i>または <i>[!UICONTROL desktop]</i>. |
-| [!UICONTROL Bid Adjustment] | <p>（Location、Device、または RLSA ターゲットを含める場合）特定の場所、特定のデバイスタイプ、または特定のオーディエンスターゲットのどちらで広告の入札を調整するかを指定します。</p><ul><li><p>キーワードレベルの入札（0%の差異）を使用するには、0 を入力します。 新しいターゲットの場合は、空白のままにすることもできます。</p></li><li><p>このターゲットに異なる入札を使用するには、入札を増減する割合を入力します。</p></li><ul><li><p>ロケーションおよび RLSA ターゲットの場合、有効な割合は —90 ～ 900 です。</p></li><li><p>デバイスの入札調整の場合、有効な割合は次のとおりです。</p></li><ul><li><p>（キャンペーン） —100（デバイスタイプで広告を入札しない）または —90～900。</p></li><li><p>（広告グループ） -100 （デバイスタイプに対して入札しない）、-90 ～ 900 （すべてのデバイスタイプに対して）。</p></li></ul></ul><li><p>（既存のキャンペーンおよび広告グループ）既存の入札調整を使用する場合は、これを空白のままにします。</p></li></ul> |
-| [!UICONTROL Adobe Rec Bid Adjustment] | （情報提供のために生成された一括送信シートに含まれます）Adobeがキャンペーンレベルのロケーションターゲットまたは RLSA に推奨する読み取り専用の入札調整。 これは、キャンペーンが重み付け売上高の目標（最大クリック数の目標ではなく）を持つポートフォリオに含まれ、過去 90 日間に 5 回以上のクリックまたは 5 USD のコストで、キャンペーンに 2 つ以上のロケーションターゲットまたは RLSA が含まれている場合にのみ計算されます。</p><p>ロケーションターゲットまたは RLSA を手動で編集して推奨値を使用する場合は、ロケーションターゲットまたは RLSA を作成して十分なデータ収集を可能にしてから 2 週間以上待ち、値を週に 1 回以上変更しないでください。 |
+| [!UICONTROL Bid Adjustment] | <p>( [!UICONTROL Location], [!UICONTROL Device]または [!UICONTROL RLSA] （ターゲット）特定の場所、特定のデバイスタイプ、または特定のオーディエンスターゲットのどちらで広告の入札を調整するかを指定します。</p><ul><li><p>キーワードレベルの入札（0%の差異）を使用するには、0 を入力します。 新しいターゲットの場合は、空白のままにすることもできます。</p></li><li><p>このターゲットに異なる入札を使用するには、入札を増減する割合を入力します。</p></li><ul><li><p>ロケーションおよび RLSA ターゲットの場合、有効な割合は —90 ～ 900 です。</p></li><li><p>デバイスの入札調整の場合、有効な割合は次のとおりです。</p></li><ul><li><p>（キャンペーン） —100（デバイスタイプで広告を入札しない）または —90～900。</p></li><li><p>（広告グループ） -100 （デバイスタイプに対して入札しない）、-90 ～ 900 （すべてのデバイスタイプに対して）。</p></li></ul></ul><li><p>（既存のキャンペーンおよび広告グループ）既存の入札調整を使用する場合は、これを空白のままにします。</p></li></ul> |
+| [!UICONTROL Adobe Rec Bid Adjustment] | （情報提供のために生成された一括送信シートに含まれます）Adobeがキャンペーンレベルのロケーションターゲットまたは RLSA に推奨する読み取り専用の入札調整。 キャンペーンが重み付けされた収益の目標 ( [!UICONTROL Maximize Clicks] 目的として )、およびキャンペーンに 2 つ以上のロケーションターゲットまたは RLSA が含まれている（過去 90 日間に 5 回以上のクリックまたは 5 USD のコストがかかる）場合。</p><p>ロケーションターゲットまたは RLSA を手動で編集して推奨値を使用する場合は、ロケーションターゲットまたは RLSA を作成して十分なデータ収集を可能にしてから 2 週間以上待ち、値を週に 1 回以上変更しないでください。 |
 | [!UICONTROL Device Targets] | <p>（従来のキャンペーンタイプのみ）広告が表示されるデバイス： <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL Computers]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL Smartphones]</i></span>または <span style="font-style: italic;"><i>[!UICONTROL Tablets]</i></span>. 新規キャンペーンの場合、デフォルトはです。 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>.</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | ( 従来のキャンペーンタイプのみ、デバイスターゲットに「スマートフォン」または「タブレット」が含まれる場合に適用 ) 広告が表示されるオペレーティングシステム： <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL Android]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL iOS]</i></span>または <span style="font-style: italic;"><i>[!UICONTROL Palm]</i></span>. 新規キャンペーンの場合、デフォルトはです。 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>.</p> |
-| [!UICONTROL Mobile Carriers (Google Adwords)] | <p>( 従来のキャンペーンタイプのみ、該当する場合 [!UICONTROL Device Targets] &quot;[!UICONTROL All]&quot;または&quot;[!UICONTROL Smartphones]（イ）スマートフォンが接続される携帯電話会社 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>または 1 つ以上の通信事業者で、 &lt;c span=&quot;&quot; id=&quot;4&quot; translate=&quot;no&quot; />キャリアコード</i></span>>,&lt;<span style="font-style: italic;"><i>国コード</i></span>>（T-Mobile、US など） <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">使用可能な通信事業者およびコード [!DNL Google Ads]</a>. <span style="font-style: italic;"><i>複数の通信事業者をセミコロンで区切ります（T-Mobile、US、T-Mobile、GB など）。 新規キャンペーンの場合、デフォルトはです。 <span style="font-style: italic;"><i>すべて</i></span>.</p> |
+| [!UICONTROL Mobile Carriers (Google Adwords)] | <p>( 従来のキャンペーンタイプのみ、該当する場合 [!UICONTROL Device Targets] &quot;[!UICONTROL All]&quot;または&quot;[!UICONTROL Smartphones]（イ）スマートフォンが接続される携帯電話会社 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>または 1 つ以上の通信事業者で、 &lt;c span=&quot;&quot; id=&quot;4&quot; translate=&quot;no&quot; />キャリアコード</i></span>>,&lt;<span style="font-style: italic;"><i>国コード</i></span>>（T-Mobile、US など） <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">使用可能な通信事業者およびコード [!DNL Google Ads]</a>. <span style="font-style: italic;"><i>複数の通信事業者をセミコロンで区切ります（T-Mobile、US、T-Mobile、GB など）。 新規キャンペーンの場合、デフォルトはです。 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>.</p> |
 | [!UICONTROL Ad Group Name] | <p>広告グループを識別する一意の名前。 最大長は 255 文字です。末尾の空白文字は保存されません（例えば、「Ad Group 1」は「Ad Group 1」として保存されます）。 このフィールドは、キャンペーンレベルのサイトリンクや、キャンペーンレベルのデバイスターゲットには適用されません。</p> |
 | [!UICONTROL Ad Group Type] | <p>広告グループのタイプ： <i>[!UICONTROL Discovery]</i> （検出キャンペーンのみ） <i>[!UICONTROL Display]</i> （ディスプレイキャンペーンの場合） <i>[!UICONTROL Search Dynamic]</i> （拡張された動的検索広告の場合） <i>[!UICONTROL Search Standard]</i> （検索広告の場合）、 <i>[!UICONTROL Shopping Product]</i> （買い物製品広告の場合） <i>[!UICONTROL Shopping Showcase]</i> （作成と編集はサポートされていません）、または <i>[!UICONTROL Unknown]</i>.</p> |
 | [!UICONTROL Max CPC] | <p>（CPC キャンペーンのみ）最大クリック単価 (CPC)。広告ネットワーク上での広告クリックに対して支払われる最高の金額で、通貨記号や句読点の有無は問いません。 広告グループとキーワード、製品グループ、動的検索ターゲットの値を設定できます。 新しいキーワードのデフォルトは、広告グループレベルから継承されます。 製品グループの場合は、最も低い製品グループ層の値を設定できます。新しい層のデフォルトは親層から継承されます。</p><p>最適化されたポートフォリオ内の既存の製品グループと動的検索ターゲットの場合、更新は 1 日のみ有効で、次の最適化サイクルで上書きされます。</p> |
@@ -54,63 +54,63 @@ ht-degree: 0%
 | [!UICONTROL Parent Product Groupings] | 親製品グループの階層。<br><br>例： `All Products>>ProductTypeL1=a>>ProductTypeL2=b` |
 | [!UICONTROL Product Grouping] | <p>製品グループ（「brand=acme」や「All Products」など）。</p><p><b>注意：</b></p><ul><li><p>指定した製品グループが [!UICONTROL Parent Product Groupings] 階層、検索、Social、およびコマースは、必要な階層の任意の部分を作成します。</p></li><li><p>検索、ソーシャル、コマースでは、「[!UICONTROL All Products]」グループとして表示されます。 [!DNL Google Ads] 広告グループのデフォルト入札に設定されたデフォルト入札を持つショッピングキャンペーン。 検索、ソーシャル、コマースでは、「[!UICONTROL Everything Else]「広告グループ階層の各レベルでの広告グループのデフォルト入札額を持つグループ。 これらのデフォルトグループを明示的に作成し、それらを除外したり、入札を変更したりできます。</p></li><li><p>各広告グループは、最大 8 層の製品グループ (「[!UICONTROL All Products]「それから他の七段。</p></li></ul> |
 | [!UICONTROL Partition Type] | 製品グループのパーティションタイプ： <i>小分け</i> （子製品グループがある場合）または <i>単位</i> （子製品グループがない場合）。 |
-| 一致タイプ | <p>動的検索のターゲットまたは製品グループの場合：動的検索ターゲットまたは製品グループのキーワード一致オプション： <i>Dynamic Ad Target</i> （新しい動的検索ターゲットのデフォルト） <i>製品グループ</i> （新しい製品グループのデフォルト）または <i>否定的な製品グループ</i> （製品グループを除外する場合）。</p><p>キーワードの場合：キーワードのキーワード一致オプション： <span style="font-style: italic;"><i>幅広</i></span>, <span style="font-style: italic;"><i>フレーズ</i></span>, <span style="font-style: italic;"><i>正確</i></span>または <span style="font-style: italic;"><i>ネガティブ</i></span> （ディスプレイネットワーク上のキーワードまたは配置を除外する場合）ショッピング広告で使用される製品グループは、 <span style="font-style: italic;"><i>製品グループ</i></span>. 次を使用する場合、 <span style="font-style: italic;"><i>ネガティブ</i></span>除外する一致タイプも含める必要があります（例：「除外するフレーズ」）。</p><p>新しいキーワードの場合、デフォルトはです。 <span style="font-style: italic;"><i>幅広</i></span>. 一致タイプまたはキーワード ID の値は、複数の一致タイプを持つキーワードを編集する場合にのみ必要です。</p><p><b>注意：</b></p><ul><li><p>一致タイプは、キーワードを使用しない拡張動的検索広告には適用できません。</p></li><li><p>の一致タイプの変更 [!DNL Google Ads] キーワードは、既存のキーワードを削除し、新しいキーワードを作成します。</p></li><li><p>ブロード一致修飾子の場合は、「ブロード」を選択し、クローズバリアントが必要なキーワード内の任意の単語の前に+を挿入します（例：「+red +shoes」は、「red」と「shoes」の両方のクローズバリアントを必要とします）。 <b>注意：</b> 一部の言語でのフレーズ一致と同じ一致動作がブロード一致修飾子になり、2021 年 7 月以降、新しいブロード一致修飾子キーワードを作成できなくなりました。 詳しくは、 [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/7042511) を参照してください。</p> |
-| 最初のページの入札 | （情報を提供するために生成された一括送信シートに含まれます）検索結果の最初のページに広告を配置するために必要な入札。 この値は広告ネットワークに投稿されません。 |
-| 品質スコア | （情報を得るために生成された一括送信シートに含まれます）検索エンジンによってキーワードに割り当てられた現在の品質スコア。 この値は広告ネットワークに投稿されません。) |
-| クリエイティブ優先デバイス | ( テキスト広告、動的検索広告の拡張、サイトリンクの拡張。（オプション）広告を表示するデバイスタイプ。 <span style="font-style: italic;"><i>すべて</i></span> （デフォルト）または <i>モバイル</i>. 条件 <i>モバイル</i> を指定すると、ネットワークはデスクトップユーザーやタブレットユーザーではなく、広告をモバイルデバイスユーザーに表示しようとします。 そうしないと、任意のデバイスタイプで広告が表示されます。</p><p><b>注意：</b></p><ul><li><p>管理者および [!DNL Adobe] アカウントマネージャーユーザーは、この設定を編集できます。</p></li><li><p>ネットワークでは、広告が優先デバイスタイプで表示されるとは限りません。</p></li><li><p>新しい拡張サイトリンクは、既存の拡張サイトリンクを含むキャンペーンでのみ作成できます。また、サイトリンクを含まないキャンペーンでも作成できます。</p></li></ul> |
-| 広告タイトル、広告タイトル 2-15 | （拡張テキスト広告およびレスポンシブ検索広告のみ）広告のヘッドライン ( 各広告が縦のパイプ ( | ) をクリックします。 各広告タイトルフィールドの最大の長さは、任意の動的テキスト（キーワードや広告のカスタマイザの値など）を含む 30 文字または 15 文字の 2 バイト文字です。</p><p>レスポンシブ検索広告の場合、広告タイトル、広告タイトル 2、広告タイトル 3 が必要です。その他の広告タイトルフィールドはすべてオプションです。 必須でないフィールドの既存の値を削除するには、 <code>[削除]</code> （括弧を含む）</p><p>レスポンシブ検索広告の場合、次の形式を使用して広告のカスタマイズを挿入します。 `{CUSTOMIZER.AdCustomizerName:DefaultText}`例： `{CUSTOMIZER.Discount:10%}`</p><p>拡張テキスト広告は、作成や編集はできませんが、削除や編集はできます。 [!DNL Google Ads] は 2022 年 6 月に非推奨（廃止予定）となりました。 |
-| 広告タイトル 1 ～ 15 の位置 | <p>（レスポンシブ検索広告のみ）（オプション）対応する広告タイトルを固定する位置： `[null]` （値なし。これにより、広告タイトルはすべての位置の資格を得ることができます）、 <i>1</i>, <i>2</i>または <i>3</i>. 例えば、広告タイトルの位置の値が 1 の場合、広告タイトルは位置 1 にのみ表示されます。 デフォルトでは、すべての広告タイトルは null です（値はありません）。</p><p>既存の値を削除するには、 <code>[削除]</code> （括弧を含む）</p><p><b>注意：</b> 複数の広告タイトルを同じ位置にピン留めできます。 広告ネットワークは、位置に固定された広告タイトルの 1 つを使用します。 位置 3 にピン留めされたタイトルは、広告と共に表示されない場合があります。</p> |
-| 明細 1-4 | <p>（拡張された動的検索広告、拡張テキスト広告、レスポンシブ検索広告のみ）広告の本文。 各説明フィールドの最大の長さは、任意の動的テキスト（キーワードや広告のカスタマイズ子の値など）を含む 90 文字または 45 文字の 2 バイト文字です。</p><p>レスポンシブ検索広告の場合、次の形式を使用して広告のカスタマイズを挿入します。 `{CUSTOMIZER.AdCustomizerName:DefaultText}`例： `{CUSTOMIZER.Discount:10%}`</p><p>拡張された動的検索広告に対しては、説明行 1 および説明行 2 のみを使用します。 <b>注意：</b> この広告タイプで広告のコピーを変更すると、既存の広告が削除され、新しい広告が作成されます。</p><p>拡張テキスト広告は、作成や編集はできませんが、削除や編集はできます。 [!DNL Google Ads] は 2022 年 6 月に非推奨（廃止予定）となりました。</p><p>レスポンシブ検索広告の場合、説明行 1 と説明行 2 が必要で、説明行 3 と説明行 4 はオプションです。 既存の値を削除するには、 <code>[削除]</code> （括弧を含む）</p> |
-| 明細 1-4 職階 | （レスポンシブ検索広告のみ）（オプション）対応する説明を固定する位置： `[null]` （値なし。すべての職階に対する適格な説明になります）。 <i>1</i>, <i>2</i>または <i>3</i>. たとえば、[ 説明 1 の位置 ] の値が 1 の場合、[ 説明 1] は [ 位置 1] にのみ表示されます。 デフォルトでは、説明は位置にピン留めされません。</p><p>既存の値を削除するには、 `[delete]` （括弧を含む）</p><p><b>注意：</b> 複数の説明を同じ位置にピン留めできます。 広告ネットワークは、位置に固定された説明の 1 つを使用します。 位置 2 に固定された説明は、広告と共に表示されない場合があります。 |
-| 表示 URL | 広告に含まれる URL。<br><br>拡張された動的検索広告の場合、 [!DNL Google Ads] は web サイトドメインから動的にこの値を生成するので、値を入力する必要はありません。<br><br>レスポンシブ検索広告の場合、値を入力する必要はありません。 表示 URL は、最終的な URL のドメインから自動的に抽出されます。 オプションで、「パス 1」フィールドと「パス 2」フィールドを使用して URL をカスタマイズできます。<br><br>拡張テキスト広告は、作成や編集はできませんが、削除や編集はできます。 [!DNL Google Ads] は 2022 年 6 月に非推奨（廃止予定）となりました。<br><br><b>注意：</b> （最終 URL を持つアカウント）表示 URL と最終 URL のドメイン名が一致する必要があります。</p> |
-| 表示パス 1 | <p>（拡張テキスト広告）<span> レスポンシブ検索広告</span> のみ )</p><p>（オプション）最終的な URL から自動的に抽出される、表示 URL に追加されるテキスト。 URL の前にスラッシュ (/) が付いています。 パスには、スラッシュ (/) や改行 (\n) 文字を含めることはできません。 最大長は 15 文字または 2 バイト文字 7 文字です。</p><p>広告カスタマイズ機能を挿入するには、次の形式を使用します。 `Default text` は、フィードファイルに有効な値が含まれていない場合に挿入するオプションの値です。&lt; `{CUSTOMIZER.AdCustomizerName:Default text}`例： `{CUSTOMIZER.Discount:10%}`</p><p>例えば、Display Path 1 が「掘り出し物」の場合、表示 URL は &lt;<i>表示 URL</i>>/deals(www.example.com/dealsなど )。</p><p>拡張テキスト広告は、作成や編集はできませんが、削除や編集はできます。 [!DNL Google Ads] は 2022 年 6 月に非推奨（廃止予定）となりました。</p> |
-| 表示パス 2 | 2 番目の表示パス「表示パス 1」のエントリを参照してください。<br><br>例：Display Path 1 が「掘り出し物」で Display Path 2 が「ローカル」の場合、表示 URL は &lt;<i>表示 URL</i>>/deals/local(www.example.com/deals/localなど )</p><p>拡張テキスト広告は、作成や編集はできませんが、削除や編集はできます。 [!DNL Google Ads] は 2022 年 6 月に非推奨（廃止予定）となりました。</p> |
-| プロモーションライン | （製品リスト広告のみ）検索結果の製品リストに含めるオプションのプロモーション行。 最大長は 45 文字です。</p><p>プロモーション行は、ページ上で広告が表示される場所に応じて、広告に関連した様々な場所（広告の下など）に表示される場合があります。 |
-| リンク名 | <p>サイトリンクのテキスト。 最大 25 文字まで含めることができます。</p><p>新しいサイトリンクの場合は、サイトリンク行内にキャンペーン名を含める必要があります。 広告グループレベルのサイトリンクの場合は、広告グループ名も含める必要があります。</p><p><b>注意：</b> 35 文字の既存のテキストは、デスクトップおよびタブレットの広告には表示されますが、モバイルデバイスには表示されません。</p> |
-| モバイルアプリプラットフォーム (Google Adwords) | （既存のアプリインストール広告のみ）モバイルアプリケーションが実行されるオペレーティングシステム： <i>Android™</i> または <i>ios</i>. |
-| モバイルアプリ ID (Google Adwords) | （既存のアプリインストール広告のみ） <p>アプリケーション ID またはパッケージ名。 |
-| モバイルアプリ名 (Google Adwords) | （既存のアプリインストール広告のみ）アプリケーションの名前。 |
-| 開始日 | <p>（拡張サイトリンクのみ）広告主のタイムゾーンと次のいずれかの形式で、サイトリンクに入札を配置できる最初の日付。 <span style="font-style: italic;"><i>m/d/yyyy</i></span>, <span style="font-style: italic;"><i>m/d/yy</i></span>, <span style="font-style: italic;"><i>m-d-yyyy</i></span>または <span style="font-style: italic;"><i>m-d-yy</i></span>. 新しい拡張サイトリンクのデフォルトは現在の日です。</p><p><b>注意：</b> 新しい拡張サイトリンクは、既存の拡張サイトリンクを含むキャンペーンでのみ作成できます。また、サイトリンクを含まないキャンペーンでも作成できます。</p> |
-| 終了日 | <p>（拡張サイトリンクのみ）広告主のタイムゾーンと次のいずれかの形式で、サイトリンクに入札を配置できる最後の日付。  <span style="font-style: italic;"><i>m/d/yyyy</i></span>, <span style="font-style: italic;"><i>m/d/yy</i></span>, <span style="font-style: italic;"><i>m-d-yyyy</i></span>または <span style="font-style: italic;"><i>m-d-yy</i></span>. デフォルトは「なし」（終了日なし）です。</p><p><b>注意：</b> 新しい拡張サイトリンクは、既存の拡張サイトリンクを含むキャンペーンでのみ作成できます。また、サイトリンクを含まないキャンペーンでも作成できます。</p> |
-| タブレットを除外 (Google Adwords) | （既存のアプリインストール広告のみ）</p><p>（オプション）を防ぎます。 [!DNL Google Ads] 広告の表示からタブレットユーザーへ。 値には、 <i>はい</i> および <i>いいえ</i>. |
-| ランディングページサフィックス | 情報を追跡するために、最終 URL の末尾に追加するパラメーター。 例： `param2=value1&param3=value2`<br><br>参照：[のクリック追跡形式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md).&quot;<br><br>下位レベルでの最終的な URL サフィックスは、アカウントレベルのサフィックスよりも優先されます。 メンテナンスを容易にするために、個々のアカウントコンポーネントに対して別々の追跡が必要でない限り、アカウントレベルのサフィックスのみを使用します。 広告グループレベル以下でサフィックスを設定するには、 [!DNL Google Ads] 編集者。 |
-| トラッキングテンプレート | トラッキングテンプレート。すべてのオフランディングドメインのリダイレクトおよびトラッキングパラメーターを指定し、ValueTrack パラメーターに最終的な URL を埋め込みます。 最も詳細なレベル（最も詳細なキーワードを含む）のトラッキングテンプレートは、より高いレベルのすべての値を上書きします。<br><br>Adobe広告コンバージョントラッキングの場合。キャンペーン設定に「EF Redirect」と「Auto Upload」が含まれる場合に適用され、検索、Social、および Commerce は、レコードを保存する際に、独自のリダイレクトおよびトラッキングコードを自動的に追加します。<br><br>サードパーティのリダイレクトとトラッキングの場合は、値を入力します。 トラッキングテンプレートの最終 URL を示す ValueTrack パラメーターのリストについては、 [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/2375447).<br><br>既存の値を削除するには、 `[delete]` （括弧を含む） |
-| ベース URL/最終 URL | 広告のクリック時に検索エンジンユーザーが使用するランディングページの URL。キャンペーンまたはアカウント用に設定された追加パラメーターが含まれます。 キーワードレベルのベース URL と最終 URL は、広告レベル以上の URL よりも優先されます。<br><br>既存の値を削除するには、 `[delete]` （括弧を含む） |
-| 宛先 URL | ( 情報を提供するために、生成された一括送信シートに含まれます。検索エンジンに投稿されない ) リンク先 URL のアカウントの場合、広告を広告主の Web サイト上のベース URL/ランディングページにリンクする URL です（クリックを追跡し、ユーザーをランディングページにリダイレクトする別のサイトを経由する場合もあります）。 検索、ソーシャル、コマースのキャンペーンまたはアカウント用に設定された追加パラメーターが含まれます。 トラッキング URL を生成した場合、これは、アカウント設定とキャンペーン設定のトラッキングパラメーターに基づいています。 検索エンジン固有のパラメーターを追加した場合は、Search、Social、および Commerce の同等のパラメーターに置き換えることができます。<br><br>最終 URL を持つアカウントの場合、この列には、ベース URL/最終 URL 列と同じ値が表示されます。 |
-| カスタム URL パラメーター | に代わるデータ `{custom_code}` 動的変数を設定できます。 トラッキング URL にカスタム値を挿入するには、「トラッキング URL を生成」オプションを使用してバルクシートファイルをアップロードする必要があります。 |
-| クリエイティブタイプ | 広告の形式は次のとおりです。 <i>テキスト広告</i>, <i>拡張テキスト広告</i>, <i>動的検索広告</i> （非推奨の広告タイプ）、 <i>拡張された動的検索広告</i>, <i>ディスプレイ広告</i>, <i>アプリインストール広告</i> （非推奨）、 <i>画像</i> <i>製品広告</i> （買い物広告）、または <i>レスポンシブ検索広告</i>. 新しい広告のデフォルトは、 <i>テキスト広告</i>.<br><br>製品広告のステータスを作成または編集するために必要です。 |
-| Param1 | <p>の数値 `{param1}` 広告パラメーター。bulksheet ファイル内の任意の広告の広告コピーまたは表示 URL に含めることができます。 最大長は 25 文字で、以下の nun-numeric 文字を含めることができます。</p><ul><li><p>値の前後に通貨記号やコードを付けることができます。 例： `£2.000,00` および `2000GBP` は有効です。</p></li><li><p>値にはコンマ (`,`) またはピリオド (`.`) を区切り文字として使用し、オプションのピリオド (`.`) またはコンマ (`,`) を使用します。 例： `1,000.00` および `2.000,10` は有効です。</p></li><li><p>値の前にはパーセント記号 (`%`)，プラス記号 (`+`) またはマイナス記号 (`- `) をクリックします。 例： `20%`, `208+`、および `-42.32` は有効です。</p></li><li><p>2 つの数字をフォワードスラッシュで埋め込むことができます。 例： `4/1` および `0.95/0.45` は有効です。</p></li></ul><p>既存の値を削除するには、 `[delete]` （括弧を含む）</p> |
-| Param2 | の数値 `{param2}` 広告パラメーター。bulksheet ファイル内の任意の広告の広告コピーまたは表示 URL に含めることができます。 詳しくは、 Param1 のエントリを参照してください。 |
-| 対象ユーザ | 検索広告 (RLSA) のリマーケティングリストは、キャンペーンまたは広告グループのターゲットオーディエンスまたは除外オーディエンスをターゲットにします。 「ターゲットタイプ」フィールドにターゲットか除外かを指定します。 |
-| ターゲットのタイプ | （オーディエンスが指定されている場合）指定されたオーディエンスが <i>含める</i> （ターゲット）または <i>除外</i>. |
-| キャンペーンステータス | キャンペーンの表示ステータス： <i>アクティブ</i>, <i>一時停止</i>, <i>終了</i> （編集不可）または <i>削除済み</i> （既存のキャンペーンのみ）。 新しいキャンペーンのデフォルトはです。 <i>アクティブ</i>. アクティブまたは一時停止したキャンペーンを削除するには、値を入力します <i>削除済み</i>. |
-| 広告グループのステータス | 広告グループの表示ステータス： <i>アクティブ</i>, <i>一時停止</i>または <i>削除済み</i> （既存の広告グループのみ）。 新しい広告グループのデフォルトはアクティブです。 アクティブな広告または一時停止した広告グループを削除するには、値を入力します `Deleted`. |
-| キーワードステータス | キーワードの表示ステータス： <i>アクティブ</i>, <i>一時停止</i>または <i>削除済み</i> （既存のキーワードのみ）。 新しいキーワードのデフォルトは「アクティブ」です。 アクティブまたは一時停止したキーワードを削除するには、値を入力します <i>削除済み</i>. |
-| 広告ステータス | 広告の表示ステータス： <i>アクティブ</i>, <i>削除済み</i> （既存の広告のみ）、 <i>未承認</i> （編集不可）または <i>一時停止</i>. 新しい広告のデフォルトはアクティブです。 アクティブな広告または一時停止した広告を削除するには、値を入力します <i>削除済み</i>. |
-| 配置ステータス | Web サイト配置のステータス： <span style="font-style: italic;"><i>アクティブ</i></span>, <span style="font-style: italic;"><i>一時停止</i></span>または <span style="font-style: italic;"><i>削除済み</i></span> （既存の広告のみ）。 新しい Web サイトのデフォルトはです。 <span style="font-style: italic;"><i>アクティブ。</i></span> アクティブなプレースメントまたは一時停止したプレースメントを削除するには、値を入力します <span style="font-style: italic;"><i>削除済み</i></span>. |
-| ターゲットのステータス | 動的検索ターゲットのステータス： <span style="font-style: italic;"><i>アクティブ</i></span>, <span style="font-style: italic;"><i>一時停止</i></span>または <span style="font-style: italic;"><i>削除済み</i></span> （既存のターゲットのみ）。 新しいターゲットのデフォルトはです。 <span style="font-style: italic;"><i>アクティブ。</i></span> アクティブなターゲットまたは一時停止したターゲットを削除するには、値を入力します <span style="font-style: italic;"><i>削除済み</i></span>. |
-| 製品グループのステータス | 製品グループの表示ステータス： <span style="font-style: italic;"><i>アクティブ</i></span> <span>または</span> <span style="font-style: italic;"><i>削除済み</i></span> （既存の製品グループのみ）。 新しい製品グループのデフォルトはです。 <span style="font-style: italic;"><i>アクティブ</i></span>. アクティブな製品グループを削除するには、値を入力します <span style="font-style: italic;"><i>削除済み</i></span>. |
-| サイトリンクのステータス | サイトリンクの表示ステータス： <span style="font-style: italic;"><i>アクティブまたは削除済み</i></span> （既存のサイトリンクのみ）。 新しいサイトリンクのデフォルトはです。 <span style="font-style: italic;"><i>アクティブ</i></span>. アクティブなサイトリンクを削除するには、値を入力します。 <span style="font-style: italic;"><i>削除済み</i></span>. |
-| ロケーションステータス | ロケーションターゲットのステータス： <i>アクティブ</i> または <i>削除済み</i> （既存の場所のみ）。 新しい場所のデフォルトはアクティブです。 アクティブな場所を削除するには、値を入力します <i>削除済み</i>. |
-| RLSA ターゲットのステータス | キャンペーンレベルまたは広告グループレベルの RLSA ターゲットまたは除外のステータス。 <span style="font-style: italic;"><i>アクティブまたは削除済み</i></span> （既存のターゲットのみ）。 新しいターゲットまたは除外のデフォルトは、 <span style="font-style: italic;"><i>アクティブ</i></span>. アクティブなターゲットまたは除外を削除するには、値を入力します <span style="font-style: italic;"><i>削除済み</i></span>. |
-| デバイスターゲットのステータス | <p>キャンペーンまたは広告グループレベルのデバイスターゲットのステータス： <span class="Option">アクティブ</span> または <span class="Option">削除済み</span>. 新しいキャンペーンおよび広告グループの場合、デフォルトはです。 <span class="Option">アクティブ</span>.</p> |
+| [!UICONTROL Match Type] | <p>動的検索のターゲットまたは製品グループの場合：動的検索ターゲットまたは製品グループのキーワード一致オプション： <i>[!UICONTROL Dynamic Ad Target]</i> （新しい動的検索ターゲットのデフォルト） <i>[!UICONTROL Product Group]</i> （新しい製品グループのデフォルト）または <i>[!UICONTROL Negative Product Group]</i> （製品グループを除外する場合）。</p><p>キーワードの場合：キーワードのキーワード一致オプション： <span style="font-style: italic;"><i>[!UICONTROL Broad]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL Phrase]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL Exact]</i></span>または <span style="font-style: italic;"><i>[!UICONTROL Negative]</i></span> （ディスプレイネットワーク上のキーワードまたは配置を除外する場合）ショッピング広告で使用される製品グループは、 <span style="font-style: italic;"><i>[!UICONTROL Product Group]</i></span>. 次を使用する場合、 <span style="font-style: italic;"><i>[!UICONTROL Negative]</i></span>除外する一致タイプも含める必要があります（例：「除外するフレーズ」）。</p><p>新しいキーワードの場合、デフォルトはです。 <span style="font-style: italic;"><i>[!UICONTROL Broad]</i></span>. 一致タイプまたはキーワード ID の値は、複数の一致タイプを持つキーワードを編集する場合にのみ必要です。</p><p><b>注意：</b></p><ul><li><p>一致タイプは、キーワードを使用しない拡張動的検索広告には適用できません。</p></li><li><p>の一致タイプの変更 [!DNL Google Ads] キーワードは、既存のキーワードを削除し、新しいキーワードを作成します。</p></li><li><p>ブロード一致修飾子の場合は、「ブロード」を選択し、クローズバリアントが必要なキーワード内の任意の単語の前に+を挿入します（例：「+red +shoes」は、「red」と「shoes」の両方のクローズバリアントを必要とします）。 <b>注意：</b> 一部の言語でのフレーズ一致と同じ一致動作がブロード一致修飾子になり、2021 年 7 月以降、新しいブロード一致修飾子キーワードを作成できなくなりました。 詳しくは、 [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/7042511) を参照してください。</p> |
+| [!UICONTROL First Page Bid] | （情報を提供するために生成された一括送信シートに含まれます）検索結果の最初のページに広告を配置するために必要な入札。 この値は広告ネットワークに投稿されません。 |
+| [!UICONTROL Quality Score] | （情報を得るために生成された一括送信シートに含まれます）検索エンジンによってキーワードに割り当てられた現在の品質スコア。 この値は広告ネットワークに投稿されません。) |
+| [!UICONTROL Creative Preferred Devices] | ( テキスト広告、動的検索広告の拡張、サイトリンクの拡張。（オプション）広告を表示するデバイスタイプ。 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span> （デフォルト）または <i>[!UICONTROL Mobile]</i>. 条件 <i>[!UICONTROL Mobile]</i> を指定すると、ネットワークはデスクトップユーザーやタブレットユーザーではなく、広告をモバイルデバイスユーザーに表示しようとします。 そうしないと、任意のデバイスタイプで広告が表示されます。</p><p><b>注意：</b></p><ul><li><p>管理者および [!DNL Adobe] アカウントマネージャーユーザーは、この設定を編集できます。</p></li><li><p>ネットワークでは、広告が優先デバイスタイプで表示されるとは限りません。</p></li><li><p>新しい拡張サイトリンクは、既存の拡張サイトリンクを含むキャンペーンでのみ作成できます。また、サイトリンクを含まないキャンペーンでも作成できます。</p></li></ul> |
+| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-15 | （拡張テキスト広告およびレスポンシブ検索広告のみ）広告のヘッドライン ( 各広告が縦のパイプ ( | ) をクリックします。 各広告タイトルフィールドの最大の長さは、任意の動的テキスト（キーワードや広告のカスタマイザの値など）を含む 30 文字または 15 文字の 2 バイト文字です。</p><p>レスポンシブ検索広告の場合、 [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]、および [!UICONTROL Ad Title 3] は必須で、その他の広告タイトルフィールドはすべてオプションです。 必須でないフィールドの既存の値を削除するには、 <code>[削除]</code> （括弧を含む）</p><p>レスポンシブ検索広告の場合、次の形式を使用して広告のカスタマイズを挿入します。 `{CUSTOMIZER.AdCustomizerName:DefaultText}`例： `{CUSTOMIZER.Discount:10%}`</p><p>拡張テキスト広告は、作成や編集はできませんが、削除や編集はできます。 [!DNL Google Ads] は 2022 年 6 月に非推奨（廃止予定）となりました。 |
+| [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | <p>（レスポンシブ検索広告のみ）（オプション）対応する広告タイトルを固定する位置： `[null]` （値なし。これにより、広告タイトルはすべての位置の資格を得ることができます）、 <i>1</i>, <i>2</i>または <i>3</i>. 例えば、 [!UICONTROL Ad Title Position] の値が 1 の場合、広告タイトルは位置 1 にのみ表示されます。 デフォルトでは、すべての広告タイトルは null です（値はありません）。</p><p>既存の値を削除するには、 <code>[削除]</code> （括弧を含む）</p><p><b>注意：</b> 複数の広告タイトルを同じ位置にピン留めできます。 広告ネットワークは、位置に固定された広告タイトルの 1 つを使用します。 位置 3 にピン留めされたタイトルは、広告と共に表示されない場合があります。</p> |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | <p>（拡張された動的検索広告、拡張テキスト広告、レスポンシブ検索広告のみ）広告の本文。 各説明フィールドの最大の長さは、任意の動的テキスト（キーワードや広告のカスタマイズ子の値など）を含む 90 文字または 45 文字の 2 バイト文字です。</p><p>レスポンシブ検索広告の場合、次の形式を使用して広告のカスタマイズを挿入します。 `{CUSTOMIZER.AdCustomizerName:DefaultText}`例： `{CUSTOMIZER.Discount:10%}`</p><p>拡張された動的検索広告に対して、 [!UICONTROL Description Line 1] および [!UICONTROL Description Line 2] のみ。 <b>注意：</b> この広告タイプで広告のコピーを変更すると、既存の広告が削除され、新しい広告が作成されます。</p><p>拡張テキスト広告は、作成や編集はできませんが、削除や編集はできます。 [!DNL Google Ads] は 2022 年 6 月に非推奨（廃止予定）となりました。</p><p>レスポンシブ検索広告の場合、 [!UICONTROL Description Line 1] および [!UICONTROL Description Line 2] が必要で、 [!UICONTROL Description Line 3] および [!UICONTROL Description Line 4] はオプションです。 既存の値を削除するには、 <code>[削除]</code> （括弧を含む）</p> |
+| [!UICONTROL Description Line 1 Position]-[!UICONTROL Description Line 4 Position] | （レスポンシブ検索広告のみ）（オプション）対応する説明を固定する位置： `[null]` （値なし。すべての職階に対する適格な説明になります）。 <i>1</i>, <i>2</i>または <i>3</i>. 例えば、 [!UICONTROL Description 1 Position] の値が 1 の場合、 [!UICONTROL Description 1] は、位置 1 にのみ表示されます。 デフォルトでは、説明は位置にピン留めされません。</p><p>既存の値を削除するには、 `[delete]` （括弧を含む）</p><p><b>注意：</b> 複数の説明を同じ位置にピン留めできます。 広告ネットワークは、位置に固定された説明の 1 つを使用します。 位置 2 に固定された説明は、広告と共に表示されない場合があります。 |
+| [!UICONTROL Display URL] | 広告に含まれる URL。<br><br>拡張された動的検索広告の場合、 [!DNL Google Ads] は web サイトドメインから動的にこの値を生成するので、値を入力する必要はありません。<br><br>レスポンシブ検索広告の場合、値を入力する必要はありません。 表示 URL は、最終的な URL のドメインから自動的に抽出されます。 オプションで、「パス 1」フィールドと「パス 2」フィールドを使用して URL をカスタマイズできます。<br><br>拡張テキスト広告は、作成や編集はできませんが、削除や編集はできます。 [!DNL Google Ads] は 2022 年 6 月に非推奨（廃止予定）となりました。<br><br><b>注意：</b> （最終 URL を持つアカウント）表示 URL と最終 URL のドメイン名が一致する必要があります。</p> |
+| [!UICONTROL Display Path 1] | <p>（拡張テキスト広告）<span> レスポンシブ検索広告</span> のみ )</p><p>（オプション）最終的な URL から自動的に抽出される、表示 URL に追加されるテキスト。 URL の前にスラッシュ (/) が付いています。 パスには、スラッシュ (/) や改行 (\n) 文字を含めることはできません。 最大長は 15 文字または 2 バイト文字 7 文字です。</p><p>広告カスタマイズ機能を挿入するには、次の形式を使用します。 `Default text` は、フィードファイルに有効な値が含まれていない場合に挿入するオプションの値です。&lt; `{CUSTOMIZER.AdCustomizerName:Default text}`例： `{CUSTOMIZER.Discount:10%}`</p><p>例えば、 [!UICONTROL Display Path 1] が「契約」の場合、表示 URL は &lt;<i>表示 URL</i>>/deals(www.example.com/dealsなど )。</p><p>拡張テキスト広告は、作成や編集はできませんが、削除や編集はできます。 [!DNL Google Ads] は 2022 年 6 月に非推奨（廃止予定）となりました。</p> |
+| [!UICONTROL Display Path 2] | 2 番目の表示パスエントリを見る [!UICONTROL Display Path 1].<br><br>例：If [!UICONTROL Display Path 1] は「契約」で、 [!UICONTROL Display Path 2] が「local」の場合、表示 URL は &lt;<i>表示 URL</i>>/deals/local(www.example.com/deals/localなど )</p><p>拡張テキスト広告は、作成や編集はできませんが、削除や編集はできます。 [!DNL Google Ads] は 2022 年 6 月に非推奨（廃止予定）となりました。</p> |
+| [!UICONTROL Promotion Line] | （製品リスト広告のみ）検索結果の製品リストに含めるオプションのプロモーション行。 最大長は 45 文字です。</p><p>プロモーション行は、ページ上で広告が表示される場所に応じて、広告に関連した様々な場所（広告の下など）に表示される場合があります。 |
+| [!UICONTROL Link Name] | <p>サイトリンクのテキスト。 最大 25 文字まで含めることができます。</p><p>新しいサイトリンクの場合は、サイトリンク行内にキャンペーン名を含める必要があります。 広告グループレベルのサイトリンクの場合は、広告グループ名も含める必要があります。</p><p><b>注意：</b> 35 文字の既存のテキストは、デスクトップおよびタブレットの広告には表示されますが、モバイルデバイスには表示されません。</p> |
+| [!UICONTROL Mobile App Platform (Google Adwords)] | （既存のアプリインストール広告のみ）モバイルアプリケーションが実行されるオペレーティングシステム： <i>Android™</i> または <i>ios</i>. |
+| [!UICONTROL Mobile App ID (Google Adwords)] | （既存のアプリインストール広告のみ） <p>アプリケーション ID またはパッケージ名。 |
+| [!UICONTROL Mobile App Name (Google Adwords)] | （既存のアプリインストール広告のみ）アプリケーションの名前。 |
+| [!UICONTROL Start Date] | <p>（拡張サイトリンクのみ）広告主のタイムゾーンと次のいずれかの形式で、サイトリンクに入札を配置できる最初の日付。 <span style="font-style: italic;"><i>m/d/yyyy</i></span>, <span style="font-style: italic;"><i>m/d/yy</i></span>, <span style="font-style: italic;"><i>m-d-yyyy</i></span>または <span style="font-style: italic;"><i>m-d-yy</i></span>. 新しい拡張サイトリンクのデフォルトは現在の日です。</p><p><b>注意：</b> 新しい拡張サイトリンクは、既存の拡張サイトリンクを含むキャンペーンでのみ作成できます。また、サイトリンクを含まないキャンペーンでも作成できます。</p> |
+| [!UICONTROL End Date] | <p>（拡張サイトリンクのみ）広告主のタイムゾーンと次のいずれかの形式で、サイトリンクに入札を配置できる最後の日付。  <span style="font-style: italic;"><i>m/d/yyyy</i></span>, <span style="font-style: italic;"><i>m/d/yy</i></span>, <span style="font-style: italic;"><i>m-d-yyyy</i></span>または <span style="font-style: italic;"><i>m-d-yy</i></span>. デフォルトは「なし」（終了日なし）です。</p><p><b>注意：</b> 新しい拡張サイトリンクは、既存の拡張サイトリンクを含むキャンペーンでのみ作成できます。また、サイトリンクを含まないキャンペーンでも作成できます。</p> |
+| [!UICONTROL Exclude Tablet (Google Adwords)] | （既存のアプリインストール広告のみ）</p><p>（オプション）を防ぎます。 [!DNL Google Ads] 広告の表示からタブレットユーザーへ。 値には、 <i>はい</i> および <i>いいえ</i>. |
+| [!UICONTROL Landing Page Suffix] | 情報を追跡するために、最終 URL の末尾に追加するパラメーター。 例： `param2=value1&param3=value2`<br><br>参照：[のクリック追跡形式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md).&quot;<br><br>下位レベルでの最終的な URL サフィックスは、アカウントレベルのサフィックスよりも優先されます。 メンテナンスを容易にするために、個々のアカウントコンポーネントに対して別々の追跡が必要でない限り、アカウントレベルのサフィックスのみを使用します。 広告グループレベル以下でサフィックスを設定するには、 [!DNL Google Ads] 編集者。 |
+| [!UICONTROL Tracking Template] | トラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終 URL を [!DNL ValueTrack] パラメーター。 最も詳細なレベル（最も詳細なキーワードを含む）のトラッキングテンプレートは、より高いレベルのすべての値を上書きします。<br><br>Adobe広告コンバージョントラッキングの場合。これは、キャンペーン設定で[!UICONTROL EF Redirect]&quot;および&quot;[!UICONTROL Auto Upload]、「検索、ソーシャル、コマースは、レコードを保存すると、独自のリダイレクトおよびトラッキングコードを自動的に追加します。<br><br>サードパーティのリダイレクトとトラッキングの場合は、値を入力します。 のリスト [!DNL ValueTrack] トラッキングテンプレートの最終 URL を示すパラメーターについては、「使用可能」の節の「トラッキングテンプレートのみ」パラメーターを参照してください。 [!DNL ValueTrack] パラメーター」( [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/2375447).<br><br>既存の値を削除するには、 `[delete]` （括弧を含む） |
+| [!UICONTROL Base URL/Final URL] | 広告のクリック時に検索エンジンユーザーが使用するランディングページの URL。キャンペーンまたはアカウント用に設定された追加パラメーターが含まれます。 キーワードレベルのベース URL と最終 URL は、広告レベル以上の URL よりも優先されます。<br><br>既存の値を削除するには、 `[delete]` （括弧を含む） |
+| [!UICONTROL Destination URL] | ( 情報を提供するために、生成された一括送信シートに含まれます。検索エンジンに投稿されない ) リンク先 URL のアカウントの場合、広告を広告主の Web サイト上のベース URL/ランディングページにリンクする URL です（クリックを追跡し、ユーザーをランディングページにリダイレクトする別のサイトを経由する場合もあります）。 検索、ソーシャル、コマースのキャンペーンまたはアカウント用に設定された追加パラメーターが含まれます。 トラッキング URL を生成した場合、これは、アカウント設定とキャンペーン設定のトラッキングパラメーターに基づいています。 検索エンジン固有のパラメーターを追加した場合は、Search、Social、および Commerce の同等のパラメーターに置き換えることができます。<br><br>最終 URL を持つアカウントの場合、この列には、ベース URL/最終 URL 列と同じ値が表示されます。 |
+| [!UICONTROL Custom URL Param] | に代わるデータ `{custom_code}` 動的変数を設定できます。 トラッキング URL にカスタム値を挿入するには、「トラッキング URL を生成」オプションを使用してバルクシートファイルをアップロードする必要があります。 |
+| [!UICONTROL Creative Type] | 広告の形式は次のとおりです。 <i>[!UICONTROL Text ad]</i>, <i>[!UICONTROL Expanded text ad]</i>, <i>[!UICONTROL Dynamic search ad]</i> （非推奨の広告タイプ）、 <i>[!UICONTROL Expanded Dynamic Search ad]</i>, &lt;[!UICONTROL i>Display ad]</i>, <i>[!UICONTROL App Install ad]</i> （非推奨）、 <i>[!UICONTROL Image]</i>, <i>[!UICONTROL Product ad<]/i> （買い物広告）または <i>[!UICONTROL Responsive search ad]</i>. 新しい広告のデフォルトは、 <i>[!UICONTROL Text ad]</i>.<br><br>製品広告のステータスを作成または編集するために必要です。 |
+| [!UICONTROL Param1] | <p>の数値 `{param1}` 広告パラメーター。bulksheet ファイル内の任意の広告の広告コピーまたは表示 URL に含めることができます。 最大長は 25 文字で、以下の nun-numeric 文字を含めることができます。</p><ul><li><p>値の前後に通貨記号やコードを付けることができます。 例： `£2.000,00` および `2000GBP` は有効です。</p></li><li><p>値にはコンマ (`,`) またはピリオド (`.`) を区切り文字として使用し、オプションのピリオド (`.`) またはコンマ (`,`) を使用します。 例： `1,000.00` および `2.000,10` は有効です。</p></li><li><p>値の前にはパーセント記号 (`%`)，プラス記号 (`+`) またはマイナス記号 (`- `) をクリックします。 例： `20%`, `208+`、および `-42.32` は有効です。</p></li><li><p>2 つの数字をフォワードスラッシュで埋め込むことができます。 例： `4/1` および `0.95/0.45` は有効です。</p></li></ul><p>既存の値を削除するには、 `[delete]` （括弧を含む）</p> |
+| [!UICONTROL Param2] | の数値 `{param2}` 広告パラメーター。bulksheet ファイル内の任意の広告の広告コピーまたは表示 URL に含めることができます。 詳しくは、 Param1 のエントリを参照してください。 |
+| [!UICONTROL Audience] | 検索広告 (RLSA) のリマーケティングリストは、キャンペーンまたは広告グループのターゲットオーディエンスまたは除外オーディエンスをターゲットにします。 「ターゲットタイプ」フィールドにターゲットか除外かを指定します。 |
+| [!UICONTROL Target Type] | （オーディエンスが指定されている場合）指定されたオーディエンスが <i>含める</i> （ターゲット）または <i>除外</i>. |
+| [!UICONTROL Campaign Status] | キャンペーンの表示ステータス： <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Ended]</i> （編集不可）または <i>[!UICONTROL Deleted]</i> （既存のキャンペーンのみ）。 新しいキャンペーンのデフォルトはです。 <i>[!UICONTROL Active]</i>. アクティブまたは一時停止したキャンペーンを削除するには、値を入力します <i>[!UICONTROL Deleted]</i>. |
+| [!UICONTROL Ad Group Status] | 広告グループの表示ステータス： <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>または <i>[!UICONTROL Deleted]</i> （既存の広告グループのみ）。 新しい広告グループのデフォルトはです。 [!UICONTROL Active]. アクティブな広告または一時停止した広告グループを削除するには、値を入力します `Deleted`. |
+| [!UICONTROL Keyword Status] | キーワードの表示ステータス： <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>または <i>[!UICONTROL Deleted]</i> （既存のキーワードのみ）。 新しいキーワードのデフォルトはです。 [!UICONTROL Active]. アクティブまたは一時停止したキーワードを削除するには、値を入力します <i>[!UICONTROL Deleted]</i>. |
+| [!UICONTROL Ad Status] | 広告の表示ステータス： <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Deleted]</i> （既存の広告のみ）、 <i>[!UICONTROL Disapproved]</i> （編集不可）または <i>[!UICONTROL Paused]</i>. 新しい広告のデフォルトは、 [!UICONTROL Active]. アクティブな広告または一時停止した広告を削除するには、値を入力します <i>[!UICONTROL Deleted]</i>. |
+| [!UICONTROL Placement Status] | Web サイト配置のステータス： <span style="font-style: italic;"><i>[!UICONTROL Active]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL Paused]</i></span>または <span style="font-style: italic;"><i>[!UICONTROL Deleted]</i></span> （既存の広告のみ）。 新しい Web サイトのデフォルトはです。 <span style="font-style: italic;"><i>アクティブ。</i></span> アクティブなプレースメントまたは一時停止したプレースメントを削除するには、値を入力します <span style="font-style: italic;"><i>[!UICONTROL Deleted]</i></span>. |
+| [!UICONTROL Target Status] | 動的検索ターゲットのステータス： <span style="font-style: italic;"><i>[!UICONTROL Active]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL Paused]</i></span>または <span style="font-style: italic;"><i>[!UICONTROL Deleted]</i></span> （既存のターゲットのみ）。 新しいターゲットのデフォルトはです。 <span style="font-style: italic;"><i>アクティブ。</i></span> アクティブなターゲットまたは一時停止したターゲットを削除するには、値を入力します <span style="font-style: italic;"><i>[!UICONTROL Deleted]</i></span>. |
+| [!UICONTROL Product Group Status] | 製品グループの表示ステータス： <span style="font-style: italic;"><i>[!UICONTROL Active]</i></span> <span>または</span> <span style="font-style: italic;"><i>[!UICONTROL Deleted]</i></span> （既存の製品グループのみ）。 新しい製品グループのデフォルトはです。 <span style="font-style: italic;"><i>[!UICONTROL Active]</i></span>. アクティブな製品グループを削除するには、値を入力します <span style="font-style: italic;"><i>[!UICONTROL Deleted]</i></span>. |
+| [!UICONTROL Sitelink Status] | サイトリンクの表示ステータス： <span style="font-style: italic;"><i>アクティブまたは削除済み</i></span> （既存のサイトリンクのみ）。 新しいサイトリンクのデフォルトはです。 <span style="font-style: italic;"><i>[!UICONTROL Active]</i></span>. アクティブなサイトリンクを削除するには、値を入力します。 <span style="font-style: italic;"><i>[!UICONTROL Deleted]</i></span>. |
+| [!UICONTROL Location Status] | ロケーションターゲットのステータス： <i>[!UICONTROL Active]</i> または <i>[!UICONTROL Deleted]</i> （既存の場所のみ）。 新しい場所のデフォルトはです。 [!UICONTROL Active]. アクティブな場所を削除するには、値を入力します <i>[!UICONTROL Deleted]</i>. |
+| [!UICONTROL RLSA Target Status] | キャンペーンレベルまたは広告グループレベルの RLSA ターゲットまたは除外のステータス。 <span style="font-style: italic;"><i>[!UICONTROL Active]</i> または [!UICONTROL Deleted]</i></span> （既存のターゲットのみ）。 新しいターゲットまたは除外のデフォルトは、 <span style="font-style: italic;"><i>[!UICONTROL Active]</i></span>. アクティブなターゲットまたは除外を削除するには、値を入力します <span style="font-style: italic;"><i>[!UICONTROL Deleted]</i></span>. |
+| [!UICONTROL Device Target Status] | <p>キャンペーンまたは広告グループレベルのデバイスターゲットのステータス： <i>[!UICONTROL Active]</i> または <i>[!UICONTROL Deleted]</i>. 新しいキャンペーンおよび広告グループの場合、デフォルトはです。 <i>[!UICONTROL Active]</i>.</p> |
 | \[ 広告主固有のラベル分類\] | （広告主固有のラベル分類用に名前付けされます。例えば、Color というラベル分類用の「色」）エンティティに関連付けられている、指定した分類の値です。 エンティティごとに 1 つの分類のみを含めることができます（キャンペーン A の「色」ラベル分類の「赤」など）。 最大長は 100 文字で、値には ASCII 文字と非 ASCII 文字を含めることができます。<br><br>ラベルの分類とそのラベル値は、すべての子コンポーネントに適用されます。後で追加される新しいコンポーネントは、ラベルに自動的に関連付けられます。 製品グループのラベル分類は、単位（最も精度の高い）レベルに適用されます。<br><br>分類名も分類値も、大文字と小文字を区別しません。 |
-| 制約 | エンティティに割り当てられる制約。 エンティティごとに 1 つの制約のみを割り当てることができます。<br><b>> 制約は子エンティティに継承されるので、継承された値を上書きする場合を除き、子エンティティの値を入力する必要はありません。 |
-| キャンペーン ID | 既存のキャンペーンを識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] 行にキャンペーンの「AMO ID」が含まれていない限り、キャンペーン名を変更する場合にのみ必要です。 |
-| 広告グループ ID | 既存の広告グループを識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] 行に広告グループの「AMO ID」が含まれていない限り、キャンペーン名を変更する場合にのみ必要です。 |
-| キーワード ID | 既存のキーワードを識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] 行にキーワードを識別するのに十分なプロパティ列 (b) または「AMO ID」を含む場合を除き、キーワードを変更する場合にのみ必須です。 |
-| 広告 ID | <p>既存の広告を識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] レスポンシブ検索広告の場合、広告データを編集または削除するには、広告 ID または AMO ID が必要です。 その他すべてのエンティティタイプの場合、広告 ID は、行に広告を識別するのに十分な広告プロパティ列または b)「AMO ID」が含まれている場合を除き、広告ステータスを変更した場合にのみ必要です。 ただし、Ad ID も AMO ID も含まず、広告プロパティの列が複数の広告に一致する場合、1 つの広告のステータスのみが変更されます。</p><p><b>注意：</b> a) 広告プロパティ列（既存の広告のステータス以外）、または b) レスポンシブ検索広告のデータを含めず、広告 ID も AMO ID も含めない場合、新しい広告が作成され、既存の広告は変更されません。</p> |
-| プレースメント ID | Web サイトの配置を識別する一意の ID。 配置を変更または削除する場合にのみ必要です ( 行に (a) 配置を識別するのに十分なプロパティ列、または b)「AMO ID」が含まれている場合を除く )。 |
-| ターゲット ID | 既存の自動ターゲットを識別する一意の ID。 行にターゲットの「AMO ID」が含まれている場合を除き、自動ターゲットを変更または削除する場合にのみ必須です。 |
-| 製品グループ ID | 既存の製品グループを識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] 行に a を除き、製品グループを変更または削除する場合にのみ必要です。) 製品グループを識別するのに十分なプロパティ列、または b)「AMO ID」。 |
-| サイトリンク ID | 既存のサイトリンクを識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] （行に a）サイトリンクを識別するのに十分なプロパティ列、または b)「AMO ID」を含む場合を除き、サイトリンクを変更または削除する場合にのみ必要です。 ただし、Sitelink Ad ID も AMO ID も含まず、プロパティ列が複数のサイトリンクと一致する場合、1 つのサイトリンクのステータスのみが変更されます。</p><p><b>注意：</b> 既存のサイトリンクのステータス以外のサイトリンクプロパティの列を編集し、サイトリンク ID も AMO ID も含めない場合、新しいサイトリンクが作成され、既存のサイトリンクは変更されません。 |
-| RLSA ターゲット ID | 既存のキャンペーンレベルまたは広告グループレベルの RLSA ターゲットまたは除外を識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] 行にターゲットの「AMO ID」が含まれていない限り、ターゲットまたは除外を変更または削除する場合にのみ必須です。 |
-| デバイスターゲット ID | <p>既存のキャンペーンレベルまたは広告グループレベルのデバイスターゲットまたは除外を識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] 行にターゲットの「AMO ID」が含まれている場合を除き、ターゲットを変更または削除する場合にのみ必須です。</p> |
-| AMO ID | （生成された一括送信シート内）同期されたAdobeに対してエンティティが生成した一意の識別子。 レスポンシブ検索広告の場合、広告 ID を含めない限り、広告を編集または削除するには AMO ID が必要です。 AMO ID を持つ他のすべてのエンティティタイプのデータを編集するには、エンティティ ID と親エンティティ ID を含めない限り、AMO ID はデータの編集または削除に必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
-| EF エラーメッセージ | （情報を提供するために、生成された一括送信シートに含まれます）行のデータに関する広告ネットワークからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは、EF Errors ファイルに含まれます。 この値は広告ネットワークに投稿されません。 |
-| SE エラーメッセージ | （情報を提供するために、生成された一括送信シートに含まれます）行のデータに関する広告ネットワークからのエラーメッセージを表示するためのプレースホルダー。エラー・メッセージは、SE Errors ファイルに含まれます。 この値は広告ネットワークに投稿されません。 |
-| 免除要求 | （情報を提供するために生成された一括送信シートに含まれます）任意の [!DNL Google Ads] 広告が違反する広告ポリシー。 |
-| 小売ハッシュ | (Advanced Campaign Managementを使用して生成されたバルクシートの情報用に含まれます )Advanced (ACM) ビューを使用してアイテムが生成されたことを示す英数字のハッシュコード (f9639f40cdf56524b541e5dacf55a991 など )。 |
+| [!UICONTROL Constraints] | エンティティに割り当てられる制約。 エンティティごとに 1 つの制約のみを割り当てることができます。<br><b>> 制約は子エンティティに継承されるので、継承された値を上書きする場合を除き、子エンティティの値を入力する必要はありません。 |
+| [!UICONTROL Campaign ID] | 既存のキャンペーンを識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] 行に「[!UICONTROL AMO ID]」と呼ばれます。 |
+| [!UICONTROL Ad Group ID] | 既存の広告グループを識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] 行に「[!UICONTROL AMO ID]」と表示されます。 |
+| [!UICONTROL Keyword ID] | 既存のキーワードを識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] キーワードを変更した場合にのみ必須です（行に a が含まれている場合を除く）キーワードを識別するのに十分なプロパティ列、または b)a &quot;[!UICONTROL AMO ID]&quot;.&quot; |
+| [!UICONTROL Ad ID] | <p>既存の広告を識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] レスポンシブ検索広告の場合、広告データを編集または削除するには、広告 ID または AMO ID が必要です。 その他すべてのエンティティタイプの場合、広告 ID は、行に a) 広告を識別するのに十分な広告プロパティ列、または b) または b)[!UICONTROL AMO ID]&quot;.&quot; ただし、 [!UICONTROL Ad ID] nor [!UICONTROL AMO ID]を検索し、広告プロパティの列が複数の広告に一致する場合、1 つの広告のステータスのみが変更されます。</p><p><b>注意：</b> a) 広告プロパティの列（既存の広告のステータスを除く）または b) レスポンシブ検索広告のデータを編集する場合、 [!UICONTROL Ad ID] nor [!UICONTROL AMO ID]をクリックした場合、新しい広告が作成され、既存の広告は変更されません。</p> |
+| [!UICONTROL Placement ID] | Web サイトの配置を識別する一意の ID。 配置を変更または削除する場合にのみ必須です（行に a を含む場合を除く）配置を識別するのに十分なプロパティ列、または b)「[!UICONTROL AMO ID]&quot;.&quot; |
+| [!UICONTROL Target ID] | 既存の自動ターゲットを識別する一意の ID。 行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Product Group ID] | 既存の製品グループを識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] 行に a が含まれている場合を除き、製品グループを変更または削除する場合にのみ必須です。a) 製品グループを識別するのに十分なプロパティ列、または b) および&quot;[!UICONTROL AMO ID]&quot;.&quot; |
+| [!UICONTROL Sitelink ID] | 既存のサイトリンクを識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] サイトリンクを識別するのに十分なプロパティ列（a を含む場合を除く）または b) および&quot;[!UICONTROL AMO ID]&quot;.&quot; ただし、 [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]、およびプロパティ列が複数のサイトリンクに一致する場合、1 つのサイトリンクのステータスのみが変更されます。</p><p><b>注意：</b> 既存のサイトリンクの「ステータス」以外のサイトリンクプロパティ列を編集し、 [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]をクリックした場合、新しいサイトリンクが作成され、既存のサイトリンクは変更されません。 |
+| [!UICONTROL RLSA Target ID] | 既存のキャンペーンレベルまたは広告グループレベルの RLSA ターゲットまたは除外を識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] ターゲットまたは除外を変更または削除する場合にのみ必須です ( 行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Device Target ID] | <p>既存のキャンペーンレベルまたは広告グループレベルのデバイスターゲットまたは除外を識別する一意の ID。 CSV ファイルおよび TSV ファイルでは、前に一重引用符 (&#39;) を付ける必要があります。[^1] ターゲットを変更または削除する場合にのみ必要です ( 行に「[!UICONTROL AMO ID]」と入力します。</p> |
+| [!UICONTROL AMO ID] | （生成された一括送信シート内）同期されたAdobeに対してエンティティが生成した一意の識別子。 レスポンシブ検索広告の場合、広告 ID を含めない限り、広告を編集または削除するには AMO ID が必要です。 AMO ID を持つ他のすべてのエンティティタイプのデータを編集するには、エンティティ ID と親エンティティ ID を含めない限り、AMO ID はデータの編集または削除に必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
+| [!UICONTROL EF Error Message] | （情報を提供するために、生成された一括送信シートに含まれます）行のデータに関する広告ネットワークからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは、 [!UICONTROL EF Errors] ファイル。 この値は広告ネットワークに投稿されません。 |
+| [!UICONTROL SE Error Message] | （情報を提供するために、生成された一括送信シートに含まれます）行のデータに関する広告ネットワークからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは、 [!UICONTROL SE Errors] ファイル。 この値は広告ネットワークに投稿されません。 |
+| [!UICONTROL Exemption Request] | （情報を提供するために生成された一括送信シートに含まれます）任意の [!DNL Google Ads] 広告が違反する広告ポリシー。 |
+| [!UICONTROL Retail Hash] | (Advanced Campaign Managementを使用して生成されたバルクシートの情報用に含まれます )Advanced (ACM) ビューを使用してアイテムが生成されたことを示す英数字のハッシュコード (f9639f40cdf56524b541e5dacf55a991 など )。 |
 
 <table style="table-layout:auto">
 
@@ -122,95 +122,95 @@ ht-degree: 0%
 
 | フィールド | 必須？ |
 | ---- | ---- |
-| アカウント名 | 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
-| キャンペーン名 | 必須 | アカウントのキャンペーンを識別する一意の名前。 |
-| キャンペーン予算 | キャンペーンを作成するために必要です。 | キャンペーンに対する 1 日の支出制限。通貨記号や句読点の有無は問いません。 この値は上書きされますが、アカウント予算を超えることはできません。 |
-| 配信方法 | キャンペーンを作成するために必要です。 |
-| チャネルタイプ | キャンペーンを作成するために必要です。 |
-| ネットワーク | キャンペーンを作成するために必要です。 |
-| DSA ドメイン名 | 動的な検索広告を含む検索ネットワーク上でキャンペーンを作成するために必要です。 |
-| DSA ドメイン言語 | 動的な検索広告を含む検索ネットワーク上でキャンペーンを作成するために必要です。 |
-| キャンペーンの優先順位 | 買い物キャンペーンを作成するために必要です。 |
-| マーチャント ID | 買い物キャンペーンを作成するために必要です。 |
-| 販売国 | 買い物キャンペーンを作成するために必要です。 |
-| 製品範囲フィルター | （買い物キャンペーン）オプション |
-| 言語 | オプション |
-| デバイスターゲット | オプション |
-| デバイス OS ターゲット (Google Adwords) | オプション |
-| 携帯電話会社 (Google Adwords) | オプション |
-| Audience Target メソッド | 該当なし |
-| ランディングページサフィックス | オプション |
-| トラッキングテンプレート | オプション |
-| キャンペーンステータス | キャンペーンを削除する場合にのみ必要です。 |
+| [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Campaign Name] | 必須 | アカウントのキャンペーンを識別する一意の名前。 |
+| [!UICONTROL Campaign Budget] | キャンペーンを作成するために必要です。 | キャンペーンに対する 1 日の支出制限。通貨記号や句読点の有無は問いません。 この値は上書きされますが、アカウント予算を超えることはできません。 |
+| [!UICONTROL Delivery Method] | キャンペーンを作成するために必要です。 |
+| [!UICONTROL Channel Type] | キャンペーンを作成するために必要です。 |
+| [!UICONTROL Networks] | キャンペーンを作成するために必要です。 |
+| [!UICONTROL DSA Domain Name] | 動的な検索広告を含む検索ネットワーク上でキャンペーンを作成するために必要です。 |
+| [!UICONTROL DSA Domain Language] | 動的な検索広告を含む検索ネットワーク上でキャンペーンを作成するために必要です。 |
+| [!UICONTROL Campaign Priority] | 買い物キャンペーンを作成するために必要です。 |
+| [!UICONTROL Merchant ID] | 買い物キャンペーンを作成するために必要です。 |
+| [!UICONTROL Sales Country] | 買い物キャンペーンを作成するために必要です。 |
+| [!UICONTROL Product Scope Filter] | （買い物キャンペーン）オプション |
+| [!UICONTROL Languages] | オプション |
+| [!UICONTROL Device Targets] | オプション |
+| [!UICONTROL Device Targets (Google Adwords)] | オプション |
+| [!UICONTROL Mobile Carriers (Google Adwords)] | オプション |
+| [!UICONTROL Audience Target Method] | 該当なし |
+| [!UICONTROL Landing Page Suffix] | オプション |
+| [!UICONTROL Tracking Template] | オプション |
+| [!UICONTROL Campaign Status] | キャンペーンを削除する場合にのみ必要です。 |
 | \[ 広告主固有のラベル分類\] | オプション |
-| 制約 | オプション |
-| キャンペーン ID | 行にキャンペーンの「AMO ID」が含まれていない限り、キャンペーン名を変更する場合にのみ必要です。 |
-| AMO ID | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
+| [!UICONTROL Constraints] | オプション |
+| [!UICONTROL Campaign ID] | 行に「[!UICONTROL AMO ID]」と呼ばれます。 |
+| [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### 広告グループフィールド
 
 | フィールド | 必須？ |
 | ---- | ---- |
-| アカウント名 | 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
-| キャンペーン名 | 必須 |
-| ネットワーク | 該当なし |
-| GDN カスタム入札レベル | オプション |
-| 広告グループ名 | 必須 |
-| 広告グループタイプ | 広告グループを作成するために必要です。 |
-| 最大 CPC | オプション |
-| 最大コンテンツ CPC | オプション |
-| Audience Target メソッド | 必須 |
-| トラッキングテンプレート | オプション |
-| 広告グループのステータス | 広告グループを削除する場合にのみ必要です。 |
+| [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Campaign Name] | 必須 |
+| [!UICONTROL Networks] | 該当なし |
+| [!UICONTROL GDN Custom Bid Level] | オプション |
+| [!UICONTROL Ad Group Name] | 必須 |
+| [!UICONTROL Ad Group Type] | 広告グループを作成するために必要です。 |
+| [!UICONTROL Max CPC] | オプション |
+| [!UICONTROL Max Content CPC] | オプション |
+| [!UICONTROL Audience Target Method] | 必須 |
+| [!UICONTROL Tracking Template] | オプション |
+| [!UICONTROL Ad Group Status] | 広告グループを削除する場合にのみ必要です。 |
 | \[ 広告主固有のラベル分類\] | オプション |
-| 制約 | オプション |
-| 広告グループ ID | 行に広告グループの「AMO ID」が含まれていない限り、広告グループ名を変更した場合にのみ必須です。 |
-| AMO ID | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
+| [!UICONTROL Constraints] | オプション |
+| [!UICONTROL Ad Group ID] | 行に「[!UICONTROL AMO ID]」と表示されます。 |
+| [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### キーワードフィールド
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
-| アカウント名 | 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
-| キャンペーン名 | 必須 |
-| 広告グループ名 | 必須 |
-| 最大 CPC | オプション |
-| キーワード | 必須 |
-| 一致タイプ | 複数の一致タイプを持つキーワードを編集または削除するには、一致タイプまたはキーワード ID の値が必要です。 |
-| トラッキングテンプレート | オプション |
-| ベース URL/最終 URL | オプション |
-| カスタム URL パラメーター | オプション |
-| Param1 | オプション |
-| Param2 | オプション |
-| キーワードステータス | キーワードを削除する場合にのみ必要です。 |
+| [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Campaign Name] | 必須 |
+| [!UICONTROL Ad Group Name] | 必須 |
+| [!UICONTROL Max CPC] | オプション |
+| [!UICONTROL Keyword] | 必須 |
+| [!UICONTROL Match Type] | 複数の一致タイプを持つキーワードを編集または削除するには、一致タイプまたはキーワード ID の値が必要です。 |
+| [!UICONTROL Tracking Template] | オプション |
+| [!UICONTROL Base URL/Final URL] | オプション |
+| [!UICONTROL Custom URL Param] | オプション |
+| [!UICONTROL Param1] | オプション |
+| [!UICONTROL Param2] | オプション |
+| [!UICONTROL Keyword Status] | キーワードを削除する場合にのみ必要です。 |
 | \[ 広告主固有のラベル分類\] | オプション |
-| 制約 | オプション |
-| キャンペーン ID | オプション |
-| 広告グループ ID | オプション |
-| キーワード ID | キーワードを編集または削除する場合にのみ必要です（ただし、行に a を含む場合を除く）キーワードを識別するのに十分なプロパティ列、または b)「AMO ID」。 |
-| AMO ID | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
+| [!UICONTROL Constraints] | オプション |
+| [!UICONTROL Campaign ID] | オプション |
+| [!UICONTROL Ad Group ID] | オプション |
+| [!UICONTROL Keyword ID] | キーワードを編集または削除する場合にのみ必須です（ただし、行に a が含まれている場合を除く）。キーワードを識別するのに十分なプロパティ列、または b)a &quot;[!UICONTROL AMO ID].&quot; |
+| [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### 配置フィールド
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
-| アカウント名 | 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
-| キャンペーン名 | 必須 |
-| 広告グループ名 | 必須 |
-| 最大配置 CPC (Google Adwords) | オプション |
-| 最大配置 CPM (Google Adwords) | オプション |
-| プレースメント | 必須 |
-| 一致タイプ | 必須 |
-| トラッキングテンプレート | オプション |
-| ベース URL/最終 URL | オプション |
-| カスタム URL パラメーター | オプション |
-| 配置ステータス | オプション：作成または編集<br><br>必須：削除 |
+| [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Campaign Name] | 必須 |
+| [!UICONTROL Ad Group Name] | 必須 |
+| [!UICONTROL Max Placement CPC (Google Adwords)] | オプション |
+| [!UICONTROL Max Placement CPM (Google Adwords)] | オプション |
+| [!UICONTROL Placement] | 必須 |
+| [!UICONTROL Match Type] | 必須 |
+| [!UICONTROL Tracking Template] | オプション |
+| [!UICONTROL Base URL/Final URL] | オプション |
+| [!UICONTROL Custom URL Param] | オプション |
+| [!UICONTROL Placement Status] | 配置を削除する場合にのみ必要です。 |
 | \[ 広告主固有のラベル分類\] | オプション |
-| 制約 | オプション |
-| キャンペーン ID | オプション |
-| 広告グループ ID | オプション |
-| プレースメント ID | 配置を編集または削除する場合にのみ必要です ( 行に (a) 配置を識別するのに十分なプロパティ列、または b)「AMO ID」が含まれている場合を除く )。 |
-| AMO ID | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
+| [!UICONTROL Constraints] | オプション |
+| [!UICONTROL Campaign ID] | オプション |
+| [!UICONTROL Ad Group ID] | オプション |
+| [!UICONTROL Placement ID] | 配置を編集または削除する場合にのみ必要です（行に a を含む場合を除く）配置を識別するのに十分なプロパティ列、または b)「[!UICONTROL AMO ID].&quot; |
+| [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### 拡張された動的検索広告
 
@@ -220,20 +220,20 @@ ht-degree: 0%
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
-| アカウント名 | 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
-| キャンペーン名 | 必須 |
-| 広告グループ名 | 必須 |
-| クリエイティブ優先デバイス | オプション |
-| 明細 1-2 | 広告の作成や説明の編集に必要です。 <b>注意：</b> この広告タイプで広告のコピーを変更すると、既存の広告が削除され、新しい広告が作成されます。 |
-| 表示 URL | 必須 |
-| トラッキングテンプレート | オプション |
-| クリエイティブタイプ | 製品広告のステータスを作成または編集するために必要です。 |
-| 広告ステータス | 広告を削除するために必要です。 |
+| [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Campaign Name] | 必須 |
+| [!UICONTROL Ad Group Name] | 必須 |
+| [!UICONTROL Creative Preferred Devices] | オプション |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] | 広告の作成や説明の編集に必要です。 <b>注意：</b> この広告タイプで広告のコピーを変更すると、既存の広告が削除され、新しい広告が作成されます。 |
+| [!UICONTROL Display URL] | 必須 |
+| [!UICONTROL Tracking Template] | オプション |
+| [!UICONTROL Creative Type] | 製品広告のステータスを作成または編集するために必要です。 |
+| [!UICONTROL Ad Status] | 広告を削除するために必要です。 |
 | \[ 広告主固有のラベル分類\] | オプション |
-| キャンペーン ID | オプション |
-| 広告グループ ID | オプション |
-| 広告 ID | 行に広告を識別するのに十分な広告プロパティ列が含まれている場合や、b)「AMO ID」を識別するのに十分な広告プロパティ列が含まれている場合を除き、広告ステータスを変更する場合にのみ必須です。 ただし、Ad ID も AMO ID も含まず、広告プロパティの列が複数の広告に一致する場合、1 つの広告のステータスのみが変更されます。 |
-| AMO ID | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
+| [!UICONTROL Campaign ID] | オプション |
+| [!UICONTROL Ad Group ID] | オプション |
+| [!UICONTROL Ad ID] | 行に広告を識別するのに十分な広告プロパティ列が含まれている場合を除き、広告のステータスを変更した場合にのみ必須です。b) または b)[!UICONTROL AMO ID].&quot; ただし、 [!UICONTROL Ad ID] nor [!UICONTROL AMO ID]を検索し、広告プロパティの列が複数の広告に一致する場合、1 つの広告のステータスのみが変更されます。 |
+| [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### 製品リスト/ショッピング広告フィールド
 
@@ -243,21 +243,21 @@ ht-degree: 0%
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
-| アカウント名 | 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
-| キャンペーン名 | 必須 |
-| 広告グループ名 | 必須 |
-| プロモーションライン | オプション |
-| トラッキングテンプレート | オプション |
-| ベース URL/最終 URL | オプション |
-| カスタム URL パラメーター | オプション |
-| クリエイティブタイプ | 製品広告のステータスを作成または編集するために必要です。 |
-| 広告ステータス | 広告を削除するために必要です。 |
+| [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Campaign Name] | 必須 |
+| [!UICONTROL Ad Group Name] | 必須 |
+| [!UICONTROL Promotion Line] | オプション |
+| [!UICONTROL Tracking Template] | オプション |
+| [!UICONTROL Base URL/Final URL] | オプション |
+| [!UICONTROL Custom URL Param] | オプション |
+| [!UICONTROL Creative Type] | 製品広告のステータスを作成または編集するために必要です。 |
+| [!UICONTROL Ad Status] | 広告を削除するために必要です。 |
 | \[ 広告主固有のラベル分類\] | オプション |
-| 制約 | オプション |
-| キャンペーン ID | オプション |
-| 広告グループ ID | オプション |
-| 広告 ID | 行に広告を識別するのに十分な広告プロパティ列が含まれている場合や、b)「AMO ID」を識別するのに十分な広告プロパティ列が含まれている場合を除き、広告ステータスを変更する場合にのみ必須です。 ただし、Ad ID も AMO ID も含まず、広告プロパティの列が複数の広告に一致する場合、1 つの広告のステータスのみが変更されます。 |
-| AMO ID | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
+| [!UICONTROL Constraints] | オプション |
+| [!UICONTROL Campaign ID] | オプション |
+| [!UICONTROL Ad Group ID] | オプション |
+| [!UICONTROL Ad ID] | 行に広告を識別するのに十分な広告プロパティ列が含まれている場合を除き、広告のステータスを変更した場合にのみ必須です。b) または b)[!UICONTROL AMO ID].&quot; ただし、 [!UICONTROL Ad ID] nor [!UICONTROL AMO ID]を検索し、広告プロパティの列が複数の広告に一致する場合、1 つの広告のステータスのみが変更されます。 |
+| [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### レスポンシブ検索広告フィールド
 
@@ -265,25 +265,25 @@ ht-degree: 0%
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
-| アカウント名 | 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
-| キャンペーン名 | 必須 |
-| 広告グループ名 | 必須 | |
-| 広告タイトル、広告タイトル 2-15 | レスポンシブ検索広告の場合、広告を作成するには、広告タイトル、広告タイトル 2、広告タイトル 3 が必要です。その他すべての広告タイトルフィールドはオプションです。 必須でないフィールドの既存の値を削除するには、 `[delete]` （括弧を含む） |
-| 広告タイトル 1 ～ 15 の位置 | オプション |
-| 明細 1-4 | レスポンシブ検索広告の場合、広告の作成には説明行 1 と説明行 2 が必要で、説明行 3 と説明行 4 はオプションです。 既存の値を削除するには、 `[delete]` （括弧を含む） |
-| 明細 1-4 職階 | オプション |
-| 表示パス 1 | オプション |
-| 表示パス 2 | オプション |
-| トラッキングテンプレート | オプション |
-| ベース URL/最終 URL | 広告を作成するために必要です。 |
-| カスタム URL パラメーター | オプション |
-| クリエイティブタイプ | オプション |
-| 広告ステータス | 広告を削除するために必要です。 |
+| [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Campaign Name] | 必須 |
+| [!UICONTROL Ad Group Name] | 必須 | |
+| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-15 | レスポンシブ検索広告の場合、 [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]、および [!UICONTROL Ad Title 3] 広告を作成するにはが必要です。その他の広告タイトルフィールドはすべてオプションです。 必須でないフィールドの既存の値を削除するには、 `[delete]` （括弧を含む） |
+| [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | オプション |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | レスポンシブ検索広告の場合、 [!UICONTROL Description Line 1] および [!UICONTROL Description Line 2] 広告を作成するにはが必要で、 [!UICONTROL Description Line 3] および [!UICONTROL Description Line 4] はオプションです。 既存の値を削除するには、 `[delete]` （括弧を含む） |
+| [!UICONTROL Description Line 1 Position]-[!UICONTROL Description Line 4 Position] | オプション |
+| [!UICONTROL Display Path 1] | オプション |
+| [!UICONTROL Display Path 2] | オプション |
+| [!UICONTROL Tracking Template] | オプション |
+| [!UICONTROL Base URL/Final URL] | 広告を作成するために必要です。 |
+| [!UICONTROL Custom URL Param] | オプション |
+| [!UICONTROL Creative Type] | オプション |
+| [!UICONTROL Ad Status] | 広告を削除するために必要です。 |
 | \[ 広告主固有のラベル分類\] | オプション |
-| キャンペーン ID | オプション |
-| 広告グループ ID | オプション |
-| 広告 ID | 行に「AMO ID」が含まれていない場合に、広告の編集または削除に必要です。 |
-| AMO ID | 広告 ID を含めない限り、広告の編集または削除に必要です。 |
+| [!UICONTROL Campaign ID] | オプション |
+| [!UICONTROL Ad Group ID] | オプション |
+| [!UICONTROL Ad ID] | 行に「[!UICONTROL AMO ID].&quot; |
+| [!UICONTROL AMO ID] | 広告 ID を含めない限り、広告の編集または削除に必要です。 |
 
 ### テキスト広告フィールド
 
@@ -295,128 +295,128 @@ ht-degree: 0%
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
-| アカウント名 | 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
-| キャンペーン名 | 必須 |
-| 広告グループ名 | 必須 |
-| クリエイティブ優先デバイス | 読み取り専用 |
-| 広告タイトル、広告タイトル 2-3 | 読み取り専用 |
-| 明細 1-2 | 読み取り専用 |
-| 表示 URL | 読み取り専用 |
-| 表示パス 1 | 読み取り専用 |
-| 表示パス 2 | 読み取り専用 |
-| トラッキングテンプレート | 読み取り専用 |
-| ベース URL/最終 URL | 読み取り専用 |
-| カスタム URL パラメーター | 読み取り専用 |
-| クリエイティブタイプ | オプション |
-| 広告ステータス | 必須 |
+| [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Campaign Name] | 必須 |
+| [!UICONTROL Ad Group Name] | 必須 |
+| [!UICONTROL Creative Preferred Devices] | 読み取り専用 |
+| [!UICONTROL Ad Title]，広告タイトル 2-3 | 読み取り専用 |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] 読み取り専用 |
+| [!UICONTROL Display URL] | 読み取り専用 |
+| [!UICONTROL Display Path 1] | 読み取り専用 |
+| [!UICONTROL Display Path 2] | 読み取り専用 |
+| [!UICONTROL Tracking Template] | 読み取り専用 |
+| [!UICONTROL Base URL/Final URL] | 読み取り専用 |
+| [!UICONTROL Custom URL Param] | 読み取り専用 |
+| [!UICONTROL Creative Type] | オプション |
+| [!UICONTROL Ad Status] | 必須 |
 | \[ 広告主固有のラベル分類\] | オプション |
-| キャンペーン ID | オプション |
-| 広告グループ ID | オプション |
-| 広告 ID | 行に広告を識別するのに十分な広告プロパティ列が含まれている場合や、b)「AMO ID」を識別するのに十分な広告プロパティ列が含まれている場合を除き、広告ステータスを変更する場合にのみ必須です。 ただし、Ad ID も AMO ID も含まず、広告プロパティの列が複数の広告に一致する場合、1 つの広告のステータスのみが変更されます。 |
-| AMO ID | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
+| [!UICONTROL Campaign ID] | オプション |
+| [!UICONTROL Ad Group ID] | オプション |
+| [!UICONTROL Ad ID] | 行に広告を識別するのに十分な広告プロパティ列が含まれている場合を除き、広告のステータスを変更した場合にのみ必須です。b) または b)[!UICONTROL AMO ID].&quot; ただし、 [!UICONTROL Ad ID] nor [!UICONTROL AMO ID]を検索し、広告プロパティの列が複数の広告に一致する場合、1 つの広告のステータスのみが変更されます。 |
+| [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### 動的検索ターゲット（自動ターゲット）フィールド
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
-| アカウント名 | 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
-| キャンペーン名 | 必須 |
-| 広告グループ名 | 必須 |
-| 最大 CPC | オプション |
-| 自動ターゲット式 | 「Web サイトのコンテンツを使用して広告をターゲットにする」キャンペーン設定が有効になっていない場合に必須です。それ以外の場合はオプションです。 |
-| 一致タイプ | オプション |
-| ターゲットのステータス | ターゲットの削除に必要 |
+| [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Campaign Name] | 必須 |
+| [!UICONTROL Ad Group Name] | 必須 |
+| [!UICONTROL Max CPC] | オプション |
+| [!UICONTROL Auto Target Expression] | キャンペーンの設定が「[!UICONTROL Use my website contents to target my ads]」が有効になっていません。 |
+| [!UICONTROL Match Type] | オプション |
+| [!UICONTROL Target Status] | ターゲットの削除に必要 |
 | \[ 広告主固有のラベル分類\] | オプション |
-| 制約 | オプション |
-| キャンペーン ID | オプション |
-| 広告グループ ID | オプション |
-| ターゲット ID | 行にターゲットの「AMO ID」が含まれている場合を除き、自動ターゲットを変更または削除する場合にのみ必須です。 |
-| AMO ID | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
+| [!UICONTROL Constraints] | オプション |
+| [!UICONTROL Campaign ID] | オプション |
+| [!UICONTROL Ad Group ID] | オプション |
+| [!UICONTROL Target ID] | 行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### 買い物製品グループのフィールド
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
-| アカウント名 | 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
-| キャンペーン名 | 必須 |
-| 広告グループ名 | 必須 |
-| 最大 CPC | 製品グループを作成するために必要です。 |
-| 親製品グループ | 必須 |
-| 製品のグループ化 | 必須 |
-| パーティションタイプ | 製品グループを作成するために必要です。 |
-| 一致タイプ | オプション |
-| トラッキングテンプレート | オプション |
-| ベース URL/最終 URL | 必須 |
-| 製品グループのステータス | 製品グループの削除にのみ必要です。 |
+| [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Campaign Name] | 必須 |
+| [!UICONTROL Ad Group Name] | 必須 |
+| [!UICONTROL Max CPC] | 製品グループを作成するために必要です。 |
+| [!UICONTROL Parent Product Groupings] | 必須 |
+| [!UICONTROL Product Grouping] | 必須 |
+| [!UICONTROL Partition Type] | 製品グループを作成するために必要です。 |
+| [!UICONTROL Match Type] | オプション |
+| [!UICONTROL Tracking Template] | オプション |
+| [!UICONTROL Base URL/Final URL] | 必須 |
+| [!UICONTROL Product Group Status] | 製品グループの削除にのみ必要です。 |
 | \[ 広告主固有のラベル分類\] | オプション |
-| 制約 | オプション |
-| キャンペーン ID | オプション |
-| 広告グループ ID | オプション |
-| 製品グループ ID | 行に a を除き、製品グループを変更または削除する場合にのみ必要です。) 製品グループを識別するのに十分なプロパティ列、または b)「AMO ID」。 |
-| AMO ID | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
+| [!UICONTROL Constraints] | オプション |
+| [!UICONTROL Campaign ID] | オプション |
+| [!UICONTROL Ad Group ID] | オプション |
+| [!UICONTROL Product Group ID] | 行に a が含まれている場合を除き、製品グループを変更または削除する場合にのみ必須です。a) 製品グループを識別するのに十分なプロパティ列、または b) および&quot;[!UICONTROL AMO ID].&quot; |
+| [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### キャンペーンレベルおよび広告グループレベルのサイトリンクフィールド
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
-| アカウント名 | 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
-| キャンペーン名 | 必須 |
-| 広告グループ名 | 広告グループレベルのサイトリンクの場合は必須です。 キャンペーンレベルのサイトリンクには適用されません。 |
-| クリエイティブ優先デバイス | オプション |
-| リンク名 | 必須 |
-| 開始日 | オプション |
-| 終了日 | オプション |
-| トラッキングテンプレート | オプション |
-| ベース URL/最終 URL | 必須 |
-| サイトリンクのステータス | サイトリンクを削除する場合にのみ必要です。 |
-| キャンペーン ID | オプション |
-| 広告グループ ID | オプション |
-| サイトリンク ID | （行に a）サイトリンクを識別するのに十分なプロパティ列、または b)「AMO ID」を含む場合を除き、サイトリンクを変更または削除する場合にのみ必要です。 ただし、サイトリンク広告 ID も AMO ID も含まず、プロパティ列が複数のサイトリンクと一致する場合は、1 つのサイトリンクのステータスのみが変更されます。<br><br><b>注意：</b> 既存のサイトリンクの「ステータス」以外のサイトリンクプロパティの列を編集し、サイトリンク ID も AMO ID も含めない場合、新しいサイトリンクが作成され、既存のサイトリンクは変更されません。 |
-| AMO ID | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
+| [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Campaign Name] | 必須 |
+| [!UICONTROL Ad Group Name] | 広告グループレベルのサイトリンクの場合は必須です。 キャンペーンレベルのサイトリンクには適用されません。 |
+| [!UICONTROL Creative Preferred Devices] | オプション |
+| [!UICONTROL Link Name] | 必須 |
+| [!UICONTROL Start Date] | オプション |
+| [!UICONTROL End Date] | オプション |
+| [!UICONTROL Tracking Template] | オプション |
+| [!UICONTROL Base URL/Final URL] | 必須 |
+| [!UICONTROL Sitelink Status] | サイトリンクを削除する場合にのみ必要です。 |
+| [!UICONTROL Campaign ID] | オプション |
+| [!UICONTROL Ad Group ID] | オプション |
+| [!UICONTROL Sitelink ID] | サイトリンクを識別するのに十分なプロパティ列（a を含む場合を除く）または b) および&quot;[!UICONTROL AMO ID].&quot; ただし、 [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]  およびプロパティ列が複数のサイトリンクに一致する場合、1 つのサイトリンクのステータスのみが変更されます。<br><br><b>注意：</b> サイトリンクプロパティの列を編集する場合、次の項目を除く [!UICONTROL Status] 既存のサイトリンクの場合、 [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]をクリックした場合、新しいサイトリンクが作成され、既存のサイトリンクは変更されません。 |
+| [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### 場所のターゲットフィールド
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
-| アカウント名 | 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
-| キャンペーン名 | 必須 |
-| 場所 | 必須 |
-| 場所のタイプ | オプション |
-| 入札の調整 | オプション |
-| ロケーションステータス | ロケーションターゲットを削除する場合にのみ必要です。 |
-| キャンペーン ID | オプション |
-| AMO ID | キャンペーン ID を含めない限り、データの編集または削除に必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
+| [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Campaign Name] | 必須 |
+| [!UICONTROL Location] | 必須 |
+| [!UICONTROL Location Type] | オプション |
+| [!UICONTROL Bid Adjustment] | オプション |
+| [!UICONTROL Location Status] | ロケーションターゲットを削除する場合にのみ必要です。 |
+| [!UICONTROL Campaign ID] | オプション |
+| [!UICONTROL AMO ID] | を含めない限り、データを編集または削除するために必要 [!UICONTROL Campaign ID].<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### キャンペーンレベルおよび広告グループレベルのデバイスターゲットフィールド
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
-| アカウント名 | 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
-| キャンペーン名 | 必須 |
-| デバイス | デバイスターゲットを作成または編集するために必要です。 |
-| 入札の調整 | オプション |
-| 広告グループ名 | 広告グループレベルのデバイスターゲットに必須です。 キャンペーンレベルのデバイスターゲットには適用されません。 |
-| デバイスターゲットのステータス | デバイスターゲットを削除する場合にのみ必要です。 |
-| キャンペーン ID | オプション |
-| 広告グループ ID | オプション広告グループレベルのデバイスターゲットにのみ適用できます。 |
-| デバイスターゲット ID | 行にターゲットの「AMO ID」が含まれている場合を除き、ターゲットを変更または削除する場合にのみ必須です。 |
-| AMO ID | デバイスターゲット ID を含めない限り、データの編集または削除に必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
+| [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Campaign Name] | 必須 |
+| [!UICONTROL Device] | デバイスターゲットを作成または編集するために必要です。 |
+| [!UICONTROL Bid Adjustment] | オプション |
+| [!UICONTROL Ad Group Name] | 広告グループレベルのデバイスターゲットに必須です。 キャンペーンレベルのデバイスターゲットには適用されません。 |
+| [!UICONTROL Device Target Status] | デバイスターゲットを削除する場合にのみ必要です。 |
+| [!UICONTROL Campaign ID] | オプション |
+| [!UICONTROL Ad Group ID] | オプション広告グループレベルのデバイスターゲットにのみ適用できます。 |
+| [!UICONTROL Device Target ID] | ターゲットを変更または削除する場合にのみ必要です ( 行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL AMO ID] | デバイスターゲット ID を含めない限り、データの編集または削除に必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### キャンペーンレベルおよび広告グループレベルの RLSA ターゲット/除外フィールド
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
-| アカウント名 | 各行にエンティティの「AMO ID」が含まれていない限り、必須です。 |
-| キャンペーン名 | 必須 |
-| 入札の調整 | オプション |
-| 広告グループ名 | 広告グループレベルのターゲットと除外に必須です。 キャンペーンレベルのターゲットおよび除外には適用されません。 |
-| 対象ユーザ | 新しいターゲットまたは除外を作成するために必要です。 |
-| ターゲットのタイプ | 新しいターゲットまたは除外を作成するために必要です。 |
-| RLSA ターゲットのステータス | ターゲットまたは除外を削除する場合にのみ必要です。 |
-| キャンペーン ID | オプション |
-| 広告グループ ID | オプション広告グループレベルのターゲットおよび除外にのみ適用できます。 |
-| RLSA ターゲット ID | 行にターゲットの「AMO ID」が含まれている場合を除き、ターゲットを変更または削除する場合にのみ必須です。 |
-| AMO ID | RLSA ターゲット ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
+| [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL Campaign Name] | 必須 |
+| [!UICONTROL Bid Adjustment] | オプション |
+| [!UICONTROL Ad Group Name] | 広告グループレベルのターゲットと除外に必須です。 キャンペーンレベルのターゲットおよび除外には適用されません。 |
+| [!UICONTROL Audience] | 新しいターゲットまたは除外を作成するために必要です。 |
+| [!UICONTROL Target Type] | 新しいターゲットまたは除外を作成するために必要です。 |
+| [!UICONTROL RLSA Target Status] | ターゲットまたは除外を削除する場合にのみ必要です。 |
+| [!UICONTROL Campaign ID] | オプション |
+| [!UICONTROL Ad Group ID] | オプション広告グループレベルのターゲットおよび除外にのみ適用できます。 |
+| [!UICONTROL RLSA Target ID] | ターゲットを変更または削除する場合にのみ必要です ( 行に「[!UICONTROL AMO ID]」と入力します。 |
+| [!UICONTROL AMO ID] | RLSA ターゲット ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 >[!MORELIKETHIS]
 >

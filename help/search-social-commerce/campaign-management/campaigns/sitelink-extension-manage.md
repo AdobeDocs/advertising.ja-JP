@@ -1,9 +1,9 @@
 ---
 title: 共有サイトリンクを管理
 description: 共有サイトリンク拡張機能を作成および管理する方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -92,12 +92,11 @@ ht-degree: 0%
 >* ([!DNL Google Ads]) キャンペーンまたは広告グループ内の各サイトリンクには一意のランディングページが必要で、各サイトリンクランディングページのコンテンツには約 80%の一意のコンテンツが必要です。 例えば、同じページ内に複数のアンカーへのリンクを含むサイトリンクを含めることはできません。
 >* ([!DNL Google Ads]) 並列追跡を有効にするソースからのクリック数に代わられないマクロの使用は避けてください。 広告主がマクロを使用する必要がある場合は、Adobeアカウントチームがカスタマーサポートまたは実装チームと連携してマクロを追加する必要があります。
 
-
 **[!UICONTROL Tracking Template]:** （オプション）すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終/ランディングページの URL をパラメーターに埋め込むトラッキングテンプレートまたはトラッキング URL。 例： `{lpurl}?source={network}&id=5` または `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` リダイレクトを含める。
 
-* Adobe広告コンバージョントラッキングの場合は、キャンペーン設定に「EF Redirect」と「Auto Upload」が含まれる場合に適用され、レコードを保存する際に、検索、Social、および Commerce によって、独自のクリック追跡コードが自動的に先頭に追加されます。
+* Adobe広告コンバージョントラッキングの場合。これは、キャンペーン設定で[!UICONTROL EF Redirect]「 」と「自動アップロード」を選択し、検索、ソーシャルおよびコマースでは、レコードを保存する際に、独自のクリック追跡コードが自動的に先頭に表示されます。
 
-* 最終的な URL を埋め込むためにサポートされているパラメーターについては、 ([!DNL Microsoft Advertising] のみ ) [[!DNL Microsoft Advertising] ドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799) または ([!DNL Google Ads] （専用） [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/6305348).
+* 最終的な URL を埋め込むためにサポートされているパラメーターについては、 ([!DNL Microsoft Advertising] のみ ) [[!DNL Microsoft Advertising] ドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799) または ([!DNL Google Ads] （のみ）「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーター [!DNL ValueTrack] パラメーター」( [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/6305348).
 
 * オプションとして、URL パラメーターと、キャンペーンに定義されているカスタムパラメーターを、アンパサンド (&amp;) で区切って含めることができます。例えば、 `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -111,9 +110,7 @@ ht-degree: 0%
 >* ([!DNL Microsoft Advertising]) 広告を承認用に再送信することなく、任意のレベルでトラッキングテンプレートを更新できます。
 >* の場合 [!DNL Google Ads]を使用する場合は、並列追跡を有効にするソースからのクリック数に代わられないマクロを使用しないでください。 広告主がマクロを使用する必要がある場合は、Adobeアカウントチームがカスタマーサポートまたは実装チームと連携してマクロを追加する必要があります。
 
-
 >[!MORELIKETHIS]
 >
 >* [sitelink の拡張について](sitelink-extension-about.md)
 >* [共有サイトリンクをアカウント、キャンペーンおよび広告グループに関連付ける](sitelink-extension-associate.md)
-

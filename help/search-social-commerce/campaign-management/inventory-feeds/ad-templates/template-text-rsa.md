@@ -1,9 +1,9 @@
 ---
 title: 在庫フィード用のテキスト広告およびレスポンシブ検索広告テンプレート設定
 description: 在庫フィードに対して、テキスト広告およびレスポンシブ検索広告テンプレートの設定を参照します。
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '3329'
+source-wordcount: '3317'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 * 最終 URL を埋め込むには：
 
-   * ([!DNL Google Ads] および [!DNL Microsoft® Advertising] のみ ) トラッキングテンプレートの最終 URL を示すパラメーターのリストについては、[!DNL Microsoft® Advertising] のみ ) [[!DNL Microsoft® Advertising] ドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799/2) または ([!DNL Google Ads] （専用） [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] および [!DNL Microsoft® Advertising] のみ ) トラッキングテンプレートの最終 URL を示すパラメーターのリストについては、[!DNL Microsoft® Advertising] のみ ) [[!DNL Microsoft® Advertising] ドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799/2) または ([!DNL Google Ads] （のみ）「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーター [!DNL ValueTrack] パラメーター」( [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] のみ ) パラメーターを使用する `!{unescapedurl}` をクリックして、ランディングページの URL を指定します。
 
@@ -134,13 +134,13 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]:** （最終/詳細 URL のアカウントのみ）すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終 URL をパラメーターに埋め込む広告グループレベルのトラッキングテンプレート。
 
-Adobe広告コンバージョントラッキングの場合。キャンペーン設定に「EF Redirect」と「Auto Upload」が含まれる場合に適用され、検索、Social、および Commerce は、レコードを保存する際に、リダイレクトおよびトラッキングコードを自動的に追加します。
+Adobe広告コンバージョントラッキングの場合。これは、キャンペーン設定で[!UICONTROL EF Redirect]&quot;および&quot;[!UICONTROL Auto Upload]、「検索、ソーシャル、コマースは、レコードを保存すると、リダイレクトおよびトラッキングコードを自動的に追加します。
 
 サードパーティのリダイレクトとトラッキングの場合は、値を入力します。 ランディングページの URL を指定するには：
 
 * Yahoo! Japan Ads アカウントでは、パラメーターを使用してください {lpurl}.
 
-* Microsoft® Advertising およびGoogle Ads のアカウントで使用できるパラメーターについては、 [[!DNL Microsoft® Advertising] ドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799) または、 [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/6305348).
+* Microsoft® Advertising およびGoogle Ads のアカウントで使用できるパラメーターについては、 [[!DNL Microsoft® Advertising] ドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799) または、「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーター [!DNL ValueTrack] パラメーター」( [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/6305348).
 
 この値は、アカウントレベルとキャンペーンレベルの設定より優先されますが、より詳細なレベル（最も詳細なキーワードを含む）でのトラッキングテンプレートは、この値よりも優先されます。
 
@@ -198,13 +198,13 @@ Adobe広告コンバージョントラッキングの場合。キャンペーン
 
 **[!UICONTROL Keyword Tracking Template]:** ( 最終/詳細 URL を持つアカウント（オプション）すべてのオフランディングドメインのリダイレクトおよびトラッキングパラメーターを指定し、最終 URL をパラメーターに埋め込むトラッキングテンプレート。 最も詳細なレベル（最も詳細なレベルのキーワードを含む）のトラッキングテンプレートは、他のすべてのレベルで値を上書きします。
 
-* Adobe広告コンバージョントラッキングの場合。キャンペーン設定に「EF Redirect」と「Auto Upload」が含まれる場合に適用され、検索、Social、および Commerce は、レコードを保存する際に、リダイレクトおよびトラッキングコードを自動的に追加します。
+* Adobe広告コンバージョントラッキングの場合。これは、キャンペーン設定で[!UICONTROL EF Redirect]&quot;および&quot;[!UICONTROL Auto Upload]、「検索、ソーシャル、コマースは、レコードを保存すると、リダイレクトおよびトラッキングコードを自動的に追加します。
 
 * オプションで、サードパーティのリダイレクトとトラッキングを入力できます。
 
 * ランディングページの URL を指定するには：
 
-   * ([!DNL Google Ads] および [!DNL Microsoft® Advertising] のみ ) トラッキングテンプレートの最終 URL を示すパラメーターのリストについては、[!DNL Microsoft® Advertising] のみ ) [[!DNL Microsoft® Advertising] ドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799) または ([!DNL Google Ads] （専用） [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] および [!DNL Microsoft® Advertising] のみ ) トラッキングテンプレートの最終 URL を示すパラメーターのリストについては、[!DNL Microsoft® Advertising] のみ ) [[!DNL Microsoft® Advertising] ドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799) または ([!DNL Google Ads] （のみ）「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーター [!DNL ValueTrack] パラメーター」( [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] のみ ) パラメーターを使用する `!{lpurl}` をクリックして、ランディングページの URL を指定します。
 
@@ -337,7 +337,7 @@ Adobe広告コンバージョントラッキングの場合。これは、キャ
 
 * Yahoo! Japan Ads アカウントでは、パラメーターを使用してください {lpurl}.
 
-* Microsoft® Advertising およびGoogle Ads のアカウントで使用できるパラメーターについては、 [[!DNL Microsoft® Advertising] ドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799) または、 [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/6305348).
+* Microsoft® Advertising およびGoogle Ads のアカウントで使用できるパラメーターについては、 [[!DNL Microsoft® Advertising] ドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799) または、「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーター [!DNL ValueTrack] パラメーター」( [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/6305348).
 
 **\[ 元の広告フィールドの下の代替広告フィールド\]:** （オプション）広告の代替広告コピー。元の広告コピーの行のいずれかが、伝播中に動的パラメーターにデータが入力された後で許容される最大長を超えた場合に使用できます。
 

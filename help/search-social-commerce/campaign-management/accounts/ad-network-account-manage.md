@@ -1,9 +1,9 @@
 ---
 title: 広告ネットワークアカウントの管理
 description: 広告ネットワークアカウントのアカウントの詳細を設定および管理する方法について説明します。
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ Adobe広告のクリック追跡を使用するアカウントには、広告ネ
 
 * 最終 URL を埋め込むには：
 
-   * ([!DNL Google Ads] および [!DNL Microsoft Advertising] のみ ) トラッキングテンプレートの最終 URL を示すパラメーターのリストについては、[!DNL Microsoft Advertising] のみ ) [[!DNL Microsoft Advertising] ドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799) または ([!DNL Google Ads] （専用） [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] および [!DNL Microsoft Advertising] のみ ) トラッキングテンプレートの最終 URL を示すパラメーターのリストについては、[!DNL Microsoft Advertising] のみ ) [[!DNL Microsoft Advertising] ドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799) または ([!DNL Google Ads] （のみ）「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーター [!DNL ValueTrack] パラメーター」( [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] のみ ) パラメーターを使用する `!{lpurl}` をクリックして、ランディングページの URL を指定します。
 
@@ -238,7 +238,7 @@ Adobe広告のクリック追跡を使用するアカウントには、広告ネ
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S\_kwcid 形式** - ( 既存 [!DNL Google Ads] AdobeAdvertising とAdobe Analyticsの統合を持ち、s\_kwcid がまだ移行されていない広告主のアカウント )
+* **S\_kwcid 形式** - ( 既存 [!DNL Google Ads] Adobe AdvertisingとAdobe Analyticsの統合をおこない、s\_kwcid がまだ移行されていない広告主のアカウント )
 
 このアカウントでは、s\_kwcid トラッキングコードの従来の形式を使用します。これにより、Adobe広告は、アカウントに関するデータをAdobe Analyticsと共有できます。 この [最新形式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) には、キャンペーン ID と広告グループ ID のパラメーターが含まれます。これらのパラメーターは、次のキャンペーンレベルと広告グループレベルで正確にレポートするために必要です。 [!DNL Google Ads] Analytics の最大キャンペーン数およびドラフト&amp;実験キャンペーン数：
 

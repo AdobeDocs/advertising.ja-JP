@@ -1,9 +1,9 @@
 ---
 title: のバルクシートデータ [!DNL Yahoo! Display Network] アカウント
 description: 次のフィールドについて、ダウンロードした一括送信シートのヘッダーフィールドとデータフィールドを参照します。 [!DNL Yahoo! Display Network] アカウント。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,10 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Ad Group ID] | 該当なし | 含まれる場合 | 含まれる場合 | 既存の広告グループを識別する一意の ID。 |
 | [!UICONTROL Keyword ID] | 該当なし | 該当なし | 含まれる場合 | 既存のキーワードを識別する一意の ID。 |
 | [!UICONTROL AMO ID] | 該当なし | 該当なし | 該当なし | （生成された一括送信シート内）同期されたAdobeに対してエンティティが生成した一意の識別子。 |
-| [!UICONTROL EF Error Message] | 該当なし | 該当なし | 該当なし | （情報を目的として生成された一括送信シートに含まれます）行のデータに関する検索、ソーシャル、コマースからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは、EF Errors ファイルに含まれます。 |
+| [!UICONTROL EF Error Message] | 該当なし | 該当なし | 該当なし | （情報を目的として生成された一括送信シートに含まれます）行のデータに関する検索、ソーシャル、コマースからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは、 [!UICONTROL EF Errors] ファイル。 |
 
 <table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >
 >* [バルクシートファイルのダウンロード/作成](../bulksheet-download.md)
-

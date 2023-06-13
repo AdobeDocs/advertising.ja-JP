@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Adobe広告コンバージョントラッキングの場合。これは、キャンペーン設定で[!UICONTROL EF Redirect]&quot;および&quot;[!UICONTROL Auto Upload]、「 Search, Social, &amp; Commerce では、レコードを保存する際に、自動的に独自のリダイレクトおよびトラッキングコードがプレフィックスとして付加されます。
 
-* 最終的な URL を埋め込むためにサポートされているパラメーターについては、 [[!DNL Google Ads] documentation for the supported [!DNL ValueTrack] 形式](https://support.google.com/google-ads/answer/6305348). （「利用可能な値追跡パラメーター」の節の「追跡テンプレートのみ」パラメーターに移動）。
+* 最終的な URL を埋め込むためにサポートされているパラメーターについては、 [[!DNL Google Ads] documentation for the supported [!DNL ValueTrack] 形式](https://support.google.com/google-ads/answer/6305348). （「利用可能」のセクションの「トラッキングテンプレートのみ」パラメーターに移動します） [!DNL ValueTrack] パラメーター」)
 
-* オプションとして、URL パラメーターと、キャンペーンに定義されているカスタムパラメーターを、アンパサンド (&amp;) で区切って含めることができます（例：{lpurl}?matchtype={matchtype}&amp;device={device}）。
+* オプションとして、URL パラメーターと、キャンペーンに定義されているカスタムパラメーターを、アンパサンド (&amp;) で区切って含めることができます。例えば、 {lpurl}?matchtype={matchtype}&amp;device={device}.
 
 * オプションで、サードパーティのリダイレクトとトラッキングを追加できます。
 
@@ -26,7 +26,6 @@ Adobe広告コンバージョントラッキングの場合。これは、キャ
 >* 並列追跡を有効にするソースからのクリック数に代わられないマクロの使用は避けてください。 広告主がマクロを使用する必要がある場合は、Adobeアカウントチームがカスタマーサポートまたは実装チームと連携してマクロを追加する必要があります。
 >* 最も精度の高いレベルのトラッキングテンプレートは、より高いレベルの値よりも優先されます。 例えば、アカウント設定とキーワード設定の両方に値が含まれる場合、そのキーワード値が適用されます。
 >* 広告、サイトリンク、またはキーワードレベルでトラッキングテンプレートを更新すると、関連する広告が再送信され、レビューが必要になります。 広告を承認用に再送信しなくても、アカウント、キャンペーンまたは広告グループレベルでトラッキングテンプレートを更新できます。
-
 
 ## Microsoft Advertising エンティティ用のトラッキングテンプレートフィールド {#tracking-template-microsoft}
 
@@ -38,7 +37,7 @@ Adobe広告コンバージョントラッキングの場合。これは、キャ
 
 * 最終的な URL を埋め込むためにサポートされているパラメーターについては、 [[!DNL Microsoft Advertising] 最終 URL を示すパラメーターに関するドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799).
 
-* オプションとして、URL パラメーターと、キャンペーンに定義されているカスタムパラメーターを、アンパサンド (&amp;) で区切って含めることができます（例：{lpurl}?matchtype={matchtype}&amp;device={device}）。
+* オプションとして、URL パラメーターと、キャンペーンに定義されているカスタムパラメーターを、アンパサンド (&amp;) で区切って含めることができます。例えば、 {lpurl}?matchtype={matchtype}&amp;device={device}.
 
 * オプションで、サードパーティのリダイレクトとトラッキングを追加できます。
 
@@ -48,7 +47,6 @@ Adobe広告コンバージョントラッキングの場合。これは、キャ
 >
 >* 最も精度の高いレベルのトラッキングテンプレートは、より高いレベルの値よりも優先されます。 例えば、アカウント設定とキーワード設定の両方に値が含まれる場合、そのキーワード値が適用されます。
 >* 広告を承認用に再送信することなく、任意のレベルでトラッキングテンプレートを更新できます。
-
 
 ## テキスト広告テンプレート — 動的パラメーターの挿入方法を説明する注意事項 {#inventory-feed-template-insert-dynamic-parameter}
 

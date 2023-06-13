@@ -1,9 +1,9 @@
 ---
 title: バルクシートエラー
 description: 各バルクシートエラーの潜在的な理由を参照してください。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1141'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ Search、Social、および Commerce は、バルクシート操作中に 2 種�
 
 ## [!UICONTROL EF Error] メッセージ
 
-次のエラーが [!UICONTROL EF Error] EF Errors ファイルの列
+次のエラーが [!UICONTROL EF Error] 列 [!UICONTROL EF Errors] ファイル。
 
 ### エラーのダウンロード/作成
 
 | カテゴリ | メッセージ | 説明 |
 |----|----|----|
 | 一般 | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | 未分類または未処理のエラーが発生したため、操作が完全に失敗しました。 問題が解決しない場合は、Adobeアカウントチームに連絡して原因を調べてください。 |
-|  | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Search, Social, &amp; Commerce は、バルクシートを作成する前に広告ネットワークと同期できなかったので、バルクシートは作成されませんでした。 問題が解決しない場合は、Adobeアカウントチームにお問い合わせください。 |
+| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Search, Social, &amp; Commerce は、バルクシートを作成する前に広告ネットワークと同期できなかったので、バルクシートは作成されませんでした。 問題が解決しない場合は、Adobeアカウントチームにお問い合わせください。 |
 
 ### アップロードエラー
 
@@ -42,8 +42,8 @@ Search、Social、および Commerce は、バルクシート操作中に 2 種�
 | 一般 | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | 操作が完全に失敗しました。 問題が解決しない場合は、Adobeアカウントチームにお問い合わせください。 |
 | すべてのエンティティ | [!UICONTROL Invalid Fields.] \[ 無効なフィールドとエラー\] | 指定したデータがないか、無効です。 |
 |  | [!UICONTROL Invalid Reference Given] | 広告ネットワーク上のエンティティの ID または親エンティティの ID（アカウント ID など）は、Search、Social、および Commerce のエンティティに対応していません。 これは、バルクシートの ID を編集したときに発生する可能性があります。 |
-|  | [!UICONTROL &lt;Entity> is deleted or expired] | エンティティは期限切れか、削除されたので、プロパティを変更できません。 エンティティは、誰かがステータスを手動で編集すると削除される場合があります。 |
-|  | [!UICONTROL &lt;Entity> status should be Active or Paused] | （新規エンティティ）新しいエンティティは、「アクティブ」または「一時停止」のみです。 |
+|  | [!UICONTROL <Entity> is deleted or expired] | エンティティは期限切れか、削除されたので、プロパティを変更できません。 エンティティは、誰かがステータスを手動で編集すると削除される場合があります。 |
+|  | [!UICONTROL <Entity> status should be Active or Paused] | （新規エンティティ）新しいエンティティは、「アクティブ」または「一時停止」のみです。 |
 |  | [!UICONTROL Duplicate Entries are present] | 同じエンティティに対して複数の行が含まれ、各行に異なる属性が設定されます。 変更を 1 行に統合します。 |
 |  | [!UICONTROL Invalid AMO ID given] | 行の AMO ID が存在しません。 これは、バルクシートで ID を編集した場合に発生する可能性があります。 |
 |  | [!UICONTROL Invalid row given] | この行には、エンティティタイプを判断するのに十分な情報が含まれていません。 行を編集して、エンティティタイプのすべての必須フィールドを含めます。 |
@@ -59,7 +59,7 @@ Search、Social、および Commerce は、バルクシート操作中に 2 種�
 | すべての広告グループコンポーネント | [!UICONTROL Adgroup creation failed] | 親広告グループが作成されなかったので、このエンティティを作成できませんでした。 これは、広告グループフィールドのエラーまたは親キャンペーンが失敗したためです。 すべての親エンティティに、すべての必須フィールドが含まれていることを確認します。 |
 |  | [!UICONTROL Adgroup Row Missing] | 指定された親広告グループが存在しないので、エンティティを作成できませんでした。 新しい行に親広告グループを作成します。 |
 |  | [!UICONTROL Cannot modify Tracking Template at Keyword / Creative / Site Link level until Account has been migrated to use Upgraded URLs. Please retry after migration] | 「[!UICONTROL Tracking Template]「 」フィールドは、最終/詳細 URL を使用するアカウントのみに使用します。 最終/詳細 URL を使用するアカウントを移行するまで、値を削除します。 |
-| 広告 | [!UICONTROL Cannot modify attributes other than status code and url for &lt;ad type>] | （テキスト、拡張テキスト、製品、アプリインストール、動的検索以外の広告タイプ）この広告タイプのステータスと URL のみを編集できます。 |
+| 広告 | [!UICONTROL Cannot modify attributes other than status code and url for <ad type>] | （テキスト、拡張テキスト、製品、アプリインストール、動的検索以外の広告タイプ）この広告タイプのステータスと URL のみを編集できます。 |
 |  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | 各広告グループには最大 50 個の広告を含めることができ、このバルクシートには 50 を超える広告を含めます。 広告の数を減らします。 |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | 広告は、期限切れまたは削除された親エンティティに含まれているので、編集できません。 |
 | キーワード | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | 親キャンペーンまたは広告グループは削除されたか、期限切れになっているので、エンティティを変更することはできません。 |
@@ -76,13 +76,13 @@ Search、Social、および Commerce は、バルクシート操作中に 2 種�
 
 ### エラーを投稿
 
-次のエラーは、EF Errors ファイルでのみ発生します。 ほとんどの投稿エラーは広告ネットワークから発生し、SE Errors ファイルに含まれます。
+次のエラーが [!UICONTROL EF Errors] ファイルのみ。 ほとんどの投稿エラーは広告ネットワークから発生し、SE Errors ファイルに含まれます。
 
 | カテゴリ | メッセージ | 説明 |
 |----|----|----|
 | 一般 | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | 操作が完全に失敗しました。 問題が解決しない場合は、Adobeアカウントチームにお問い合わせください。 |
 | すべてのエンティティ | [!UICONTROL Entity] は広告ネットワークに投稿されています | このエンティティは広告ネットワークに投稿されましたが、同時に Search、Social、および Commerce に同期されなかったので、エンティティデータは Search、Social、および Commerce ですぐに使用できません。 同期プロセスが自動的にトリガーされます。<br><br>大量のデータを同期した場合、数時間以上、そのデータが検索、ソーシャル、コマースで使用できない可能性があります。 |
-|  | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | 親エンティティを作成できなかったので、この子エンティティは作成されませんでした。 |
+| | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | 親エンティティを作成できなかったので、この子エンティティは作成されませんでした。 |
 
 >[!MORELIKETHIS]
 >
@@ -91,4 +91,3 @@ Search、Social、および Commerce は、バルクシート操作中に 2 種�
 >* [バルクシートファイル内のランディングページの検証](bulksheet-validate-landing-pages.md)
 >* [バルクシートファイルまたは修正済みエラーファイルのアップロード](bulksheet-upload.md)
 >* [バルクシートの投稿または修正されたエラーファイル](bulksheet-post.md)
-
