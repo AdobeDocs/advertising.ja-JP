@@ -8,9 +8,9 @@ user-guide-title: 広告検索、ソーシャル、コマースガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマースの各広告キャンペーンの管理、追跡、およびレポートに必要な主な機能、タスク、設定、その他のリソースについて説明します。
 breadcrumb-title: 広告検索、ソーシャル、コマースガイド
 index: true
-source-git-commit: d28103d6788a1b0ee08663a5cc0393c373171860
+source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
 workflow-type: tm+mt
-source-wordcount: '1714'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -314,6 +314,9 @@ ht-degree: 0%
                + [この [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
                + [この [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
                + [この [!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
+               + [この [!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)
+               + [この [!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-keyword-report.md)
+               + [この [!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-ad-report.md)
             + [特殊なレポートの生成](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
             + [特殊レポート設定](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
             + [特殊レポートのレポート列](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)

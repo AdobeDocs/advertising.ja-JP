@@ -1,7 +1,8 @@
 ---
 title: 基本レポートと高度なレポートのレポート列
 description: 基本レポートと高度なレポートで使用できるデータ列について説明します。
-source-git-commit: 7327c91b92b6471fa8da8767fc764de4226b4f91
+exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
+source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
 workflow-type: tm+mt
 source-wordcount: '3653'
 ht-degree: 0%
@@ -92,7 +93,7 @@ ht-degree: 0%
 | [!UICONTROL Domain] | ([!UICONTROL Domain Referral Report], [!UICONTROL Keyword Report]) クリックの発生元のドメイン名。 |
 | [!UICONTROL eCPM] | 効果的な CPM、または指定した日付範囲での 1,000 件のインプレッションあたりの平均支払額。 eCPM の値は CPM キャンペーンまたは CPC キャンペーンで計算されます。 |
 | [!UICONTROL EF Campaign ID] | Search、Social および Commerce がキャンペーンに割り当てる数値 ID。 |
-| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report])(Adobe Advertisingコンバージョントラッキングサービスを持つ広告主、および[!UICONTROL EF Redirect]」トークンを使用したトラッキングメソッド ) クリックまたはコンバージョンのトークン。<ul><li>の場合 [!DNL Google Ads] 広告を検索する場合、EF ID は `{gclid}:G:s`:Googleクリック ID(GCLID) とネットワークタイプ（検索の場合は「s」）が含まれます。</li><li> の場合 [!DNL Microsoft Advertising] 広告を検索する場合、EF ID は `{msclkid}:G:s`:Microsoftクリック ID(MSCLKID) とネットワークタイプ（検索の場合は「s」）が含まれます。</li><li>他の広告ネットワーク上の検索広告の場合、EF ID にはサーファー ID、クリック時間、ネットワークタイプが含まれます。</li><li>ディスプレイ広告の場合、EF ID には、サーファー ID、クリックまたはインプレッション時間、ネットワークタイプが含まれます。</li></ul> |
+| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Adobe広告コンバージョントラッキングサービスを持つ広告主、および[!UICONTROL EF Redirect]」トークンを使用したトラッキングメソッド ) クリックまたはコンバージョンのトークン。<ul><li>の場合 [!DNL Google Ads] 広告を検索する場合、EF ID は `{gclid}:G:s`:Googleクリック ID(GCLID) とネットワークタイプ（検索の場合は「s」）が含まれます。</li><li> の場合 [!DNL Microsoft Advertising] 広告を検索する場合、EF ID は `{msclkid}:G:s`:Microsoftクリック ID(MSCLKID) とネットワークタイプ（検索の場合は「s」）が含まれます。</li><li>他の広告ネットワーク上の検索広告の場合、EF ID にはサーファー ID、クリック時間、ネットワークタイプが含まれます。</li><li>ディスプレイ広告の場合、EF ID には、サーファー ID、クリックまたはインプレッション時間、ネットワークタイプが含まれます。</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report];検索、ソーシャル、コマースでのみ使用 ) 地理的な場所の内部 ID です。データの標準化に使用されます。 |
 | [!UICONTROL EF Portfolio Group ID] | ポートフォリオが属するポートフォリオグループの数値 ID。 |
 | [!UICONTROL EF Search Engine ID] | Search、Social および Commerce が広告ネットワークに割り当てる数値 ID。  <i>[!UICONTROL 3]</i> 対象 [!DNL Google Ads], <i>[!UICONTROL 10]</i> 対象 [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> 対象 [!DNL Meta], <i>[!UICONTROL 86]</i> 対象 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> 対象 [!DNL Naver], <i>[!UICONTROL 88]</i> 対象 [!DNL Baidu], <i>[!UICONTROL 90]</i> 対象 [!DNL Yandex], <i>[!UICONTROL 94]</i> 対象 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> 対象 [!DNL Yahoo Native] （非推奨）または <i>[!UICONTROL 106]</i> 対象 [!DNL Pinterest] （非推奨）。 |
@@ -171,17 +172,8 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) トランザクションを完了したユーザーの ID。 |
 | [!UICONTROL Through Plays] | ([!DNL Meta] ads) 広告全体を視聴した視聴回数。 |
 | [!UICONTROL Top of Page CPC] | (Googleキャンペーンのみ ) 指定した日付範囲で検索結果ページの先頭に表示される広告のクリック単価 (CPC)。 |
-| [!UICONTROL Tracking URL] | （検索ターゲットキーワードのみ）（該当する場合）検索、ソーシャル、コマースのトラッキングコードに埋め込まれた、トラッキングテンプレートまたはリンク先 URL。 |
-| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) トランザクションのクレジットが付与される広告主固有のトランザクションプロパティ。 |
-| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) 指定したトランザクションプロパティがクレジットされた時刻。 |
-| [!UICONTROL User Account Type] | 廃止 |
-| [!UICONTROL User SE Account ID] | Search、Social および Commerce が広告ネットワークに割り当てる数値 ID。 |
-| [!UICONTROL Video Average Play Time] | ([!DNL Meta] ads) 単一のインプレッションに対する、ビデオの再生に費やされた時間を含む、ビデオが再生された平均時間。 |
-| [!UICONTROL Video Plays] | ([!DNL Meta] ads) ビデオの再生が開始された回数（再生を除く）。 |
-| [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate]、および [!UICONTROL VideoQuartile100Rate] | （ビデオ広告）再生回数の 25%、50%、75%または 100%であったビデオの割合。 |
-| [!UICONTROL View Rate] | （ビデオ広告）視聴回数またはアクション数を、広告（ビデオおよびサムネールのインプレッション）が表示された回数で割った値です。 |
-| [!UICONTROL Views] | （ビデオ広告）ユーザーが広告を視聴した、または関与した回数です。 |
-| [!UICONTROL ViewThroughConversions] | (Ads on the audience network)1 つ以上のインプレッションに起因し、クリックは発生しなかったコンバージョンの数。 |
+
+| [!UICONTROL Tracking URL] | （検索ターゲットキーワードのみ）（該当する場合）検索、ソーシャルおよびコマースのトラッキングコードに埋め込まれた、トラッキングテンプレートまたはリンク先 URL。 | | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) トランザクションのクレジットが付与される広告主固有のトランザクションプロパティ。 | | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) 指定したトランザクションプロパティがクレジットされた時刻。 | | [!UICONTROL User Account Type] |廃止 | | [!UICONTROL User SE Account ID] | Search、Social および Commerce が広告ネットワークに割り当てる数値 ID。 | | [!UICONTROL Video Average Play Time] | ([!DNL Meta] ads) 単一のインプレッションに対する、ビデオの再生に費やされた時間を含む、ビデオが再生された平均時間。 | | [!UICONTROL Video Plays] | ([!DNL Meta] ads) ビデオの再生が開始された回数（再生を除く）。 | | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate]、および [!UICONTROL VideoQuartile100Rate] | （ビデオ広告）再生回数の 25%、50%、75%または 100%のビデオの割合。 | | [!UICONTROL View Rate] | （ビデオ広告）視聴回数またはアクション数を、広告（ビデオおよびサムネールのインプレッション）が表示された回数で割った値です。 | | [!UICONTROL Views] | （ビデオ広告）ユーザーが広告を視聴した、または関与した回数です。 | | [!UICONTROL ViewThroughConversions] | （Audience Network 上の広告）1 つ以上のインプレッションによるコンバージョンで、クリックがなかったコンバージョンの数。 |
 
 <table style="table-layout:auto">
 
