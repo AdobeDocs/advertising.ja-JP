@@ -2,9 +2,9 @@
 title: 特殊レポートのレポート列
 description: 特殊レポートで使用できるデータ列について説明します。
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
-source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
+source-git-commit: b6279bdf5f0cf3fbd144414f789a105af87040cc
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2280'
 ht-degree: 0%
 
 ---
@@ -96,8 +96,8 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | 指定した日付範囲での広告インプレッション数。 |
 | [!UICONTROL Keyword] | キーワード。<br><br><b>注意：</b> レポートにコンテンツ対応検索キャンペーンの広告グループのデータが含まれる場合、この列には、該当する広告グループ名 (「(adgroup content) 広告グループ名」など ) が含まれます。 検索キャンペーンでのサイトターゲット配置の場合、この列に値は含まれません。 |
 | [!UICONTROL Keyword ID] | Search、Social および Commerce がキーワードに割り当てる数値 ID。 |
-| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) 広告ネットワークによって割り当てられた広告拡張 ID。 |
-| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) 広告ネットワークによって割り当てられた広告拡張 ID。 |
+| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) 広告ネットワークが広告拡張に割り当てる数値 ID。 |
+| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) 広告拡張機能の version 属性。 |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report]) 広告拡張のタイプ。 |
 | [!UICONTROL Keyword Status] | 検索語句が一致したキーワードのステータス。 *[!UICONTROL Active]*, *[!UICONTROL Paused]*, [!UICONTROL Deleted]*または[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report]) ターゲット言語。 |

@@ -2,9 +2,9 @@
 title: 基本レポートと高度なレポートのレポート列
 description: 基本レポートと高度なレポートで使用できるデータ列について説明します。
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
-source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
+source-git-commit: e121445d39d50599c40a77996f5674b536d60ede
 workflow-type: tm+mt
-source-wordcount: '3653'
+source-wordcount: '3583'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
 | [!UICONTROL Domain] | ([!UICONTROL Domain Referral Report], [!UICONTROL Keyword Report]) クリックの発生元のドメイン名。 |
 | [!UICONTROL eCPM] | 効果的な CPM、または指定した日付範囲での 1,000 件のインプレッションあたりの平均支払額。 eCPM の値は CPM キャンペーンまたは CPC キャンペーンで計算されます。 |
 | [!UICONTROL EF Campaign ID] | Search、Social および Commerce がキャンペーンに割り当てる数値 ID。 |
-| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Adobe広告コンバージョントラッキングサービスを持つ広告主、および[!UICONTROL EF Redirect]」トークンを使用したトラッキングメソッド ) クリックまたはコンバージョンのトークン。<ul><li>の場合 [!DNL Google Ads] 広告を検索する場合、EF ID は `{gclid}:G:s`:Googleクリック ID(GCLID) とネットワークタイプ（検索の場合は「s」）が含まれます。</li><li> の場合 [!DNL Microsoft Advertising] 広告を検索する場合、EF ID は `{msclkid}:G:s`:Microsoftクリック ID(MSCLKID) とネットワークタイプ（検索の場合は「s」）が含まれます。</li><li>他の広告ネットワーク上の検索広告の場合、EF ID にはサーファー ID、クリック時間、ネットワークタイプが含まれます。</li><li>ディスプレイ広告の場合、EF ID には、サーファー ID、クリックまたはインプレッション時間、ネットワークタイプが含まれます。</li></ul> |
+| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report])(Adobe Advertisingコンバージョントラッキングサービスを持つ広告主、および[!UICONTROL EF Redirect]」トークンを使用したトラッキングメソッド ) クリックまたはコンバージョンのトークン。<ul><li>の場合 [!DNL Google Ads] 広告を検索する場合、EF ID は `{gclid}:G:s`:Googleクリック ID(GCLID) とネットワークタイプ（検索の場合は「s」）が含まれます。</li><li> の場合 [!DNL Microsoft Advertising] 広告を検索する場合、EF ID は `{msclkid}:G:s`:Microsoftクリック ID(MSCLKID) とネットワークタイプ（検索の場合は「s」）が含まれます。</li><li>他の広告ネットワーク上の検索広告の場合、EF ID にはサーファー ID、クリック時間、ネットワークタイプが含まれます。</li><li>ディスプレイ広告の場合、EF ID には、サーファー ID、クリックまたはインプレッション時間、ネットワークタイプが含まれます。</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report];検索、ソーシャル、コマースでのみ使用 ) 地理的な場所の内部 ID です。データの標準化に使用されます。 |
 | [!UICONTROL EF Portfolio Group ID] | ポートフォリオが属するポートフォリオグループの数値 ID。 |
 | [!UICONTROL EF Search Engine ID] | Search、Social および Commerce が広告ネットワークに割り当てる数値 ID。  <i>[!UICONTROL 3]</i> 対象 [!DNL Google Ads], <i>[!UICONTROL 10]</i> 対象 [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> 対象 [!DNL Meta], <i>[!UICONTROL 86]</i> 対象 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> 対象 [!DNL Naver], <i>[!UICONTROL 88]</i> 対象 [!DNL Baidu], <i>[!UICONTROL 90]</i> 対象 [!DNL Yandex], <i>[!UICONTROL 94]</i> 対象 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> 対象 [!DNL Yahoo Native] （非推奨）または <i>[!UICONTROL 106]</i> 対象 [!DNL Pinterest] （非推奨）。 |
@@ -105,7 +105,7 @@ ht-degree: 0%
 | [!UICONTROL Estimated Impressions] | （キャンペーンのみを表示）検索、ソーシャル、コマースで追跡された広告インプレッションの推定数。 この値は、 [!UICONTROL Impressions] 列（使用可能な場合）：広告ネットワークによって提供される値を表示します。 |
 | [!UICONTROL Exclude (yes/no)] | 入札が除外されるかどうか (<i>[!UICONTROL Yes]</i>) または入札が許可されます (<i>[!UICONTROL No]</i>) を参照してください。 |
 | [!UICONTROL First Page CPC] | (Googleキャンペーンのみ ) 指定した日付範囲で検索結果の最初のページに表示される広告のクリック単価 (CPC)。 |
-| `GGL*`, `GGL_CT*`、および `GGL_XD_CT*` [[!DNL Google Ads] — 追跡されたコンバージョン/トランザクションプロパティ。 | ([!DNL Google Ads] 検索およびショッピングネットワーク上のキャンペーンアカウントに対して機能が有効になった日付以降のデータ ) [!DNL Google Ads] — トラッキングされたコンバージョン。各コンバージョンに最大 3 つの異なるトランザクションプロパティを持ちます。<ul><li>`GGL*` — （追跡する場合）「GGL」プレフィックスで始まる、キーワードのコンバージョン値の合計（GGL Purchase など）。</li><li>`GGL_CT*` — 「GGL_CT」プレフィックス（GGL_CT_Purchase など）で始まるコンバージョンの数（カウント）。</li><li>`GGL_XD_CT*` — （コンバージョンタイプで使用可能な場合、コンバージョンを追跡する際）クロスデバイスコンバージョンの数（数）。 [!DNL Google Ads] 「GGL_XD_CT_」プレフィックスで始まる (GGL_XD_CT_Purchase など )。</li></ul><br>各コンバージョンは、入札単位およびクリック日別に記録されます。イベントレベルでは使用できません。 検索、ソーシャル、コマースのデータを [!DNL Google Ads]を選択し、「[!UICONTROL Conversions by:  Click date]&quot; （トランザクションの日付ではありません）<br><br><b>注意：</b>前日のデータは毎日取り込まれ、09 日までに利用可能になります:00-10:広告主のタイムゾーンの 00。 [!DNL Google Ads] クリックが発生してから最大 30 日間、指標が引き続き更新されます。 詳しくは、 [!DNL Google Ads] — トラッキングされたコンバージョン：[[!DNL Google Ads] 検索、ソーシャル、コマースのコンバージョンデータ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
+| `GGL*`, `GGL_CT*`、および `GGL_XD_CT*` [[!DNL Google Ads] — 追跡されたコンバージョン/トランザクションプロパティ。 | ([!DNL Google Ads] 検索およびショッピングネットワーク上のキャンペーン ) [!DNL Google Ads] — トラッキングされたコンバージョン。各コンバージョンに最大 3 つの異なるトランザクションプロパティを持ちます。<ul><li>`GGL*` — （追跡する場合）キーワードのコンバージョン値で、「GGL」プレフィックスで始まる値（GGL Purchase など）。</li><li>`GGL_CT*` — 「GGL_CT」プレフィックス（GGL_CT_Purchase など）で始まるコンバージョンの数（カウント）。</li><li>`GGL_XD_CT*` — （コンバージョンタイプで使用可能な場合、コンバージョンを追跡する際）クロスデバイスコンバージョンの数（数）。 [!DNL Google Ads] 「GGL_XD_CT_」プレフィックスで始まる (GGL_XD_CT_Purchase など )。</li></ul><br>各コンバージョンは、入札単位およびクリック日別に記録されます。イベントレベルでは使用できません。 詳しくは、 [!DNL Google Ads] — トラッキングされたコンバージョン：[[!DNL Google Ads] 検索、ソーシャル、コマースのコンバージョンデータ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] （のみ）オーガニック検索結果の上の最初の広告として表示される広告インプレッションの割合。 |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] （のみ）オーガニック検索結果の上に表示される広告インプレッションの割合。 |
 | [!UICONTROL Impressions] | 指定した日付範囲での広告インプレッション数。 |
