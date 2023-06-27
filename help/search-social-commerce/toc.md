@@ -1,23 +1,19 @@
 ---
-type: Documentation
-cloud: Experience Cloud
-solution: Advertising
-product: advertising cloud
-archetype: end-user
+role: User
 user-guide-title: 広告検索、ソーシャル、コマースガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマースの各広告キャンペーンの管理、追跡、およびレポートに必要な主な機能、タスク、設定、その他のリソースについて説明します。
 breadcrumb-title: 広告検索、ソーシャル、コマースガイド
 index: true
-source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
+source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
 
 # 広告検索、ソーシャル、コマースガイド {#search-social-commerce}
 
-<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
+<!-- When we  use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
 
 + [新機能](home.md)
 + [このガイドについて](help-about.md)
@@ -372,8 +368,9 @@ ht-degree: 0%
    + [変更履歴レポートを表示する](/help/search-social-commerce/reports/change-history-view.md)
    + Recommendationsと発行者のインサイト {#recommendations}
       + [パブリッシャーのレコメンデーションおよびインサイトのサポートについて](/help/search-social-commerce/recommendations/recommendation-support.md)
-      + [のレコメンデーションログを表示 [!DNL Google Ads] アカウント](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [パブリッシャーのレコメンデーションとパフォーマンスインサイトを表示](/help/search-social-commerce/recommendations/recommendation-view.md)
       + [を適用または解除 [!DNL Google Ads] recommendation](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
+      + [のレコメンデーションログを表示 [!DNL Google Ads] アカウント](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
       + [投稿のレコメンデーションとインサイトをポートフォリオで使用する際のベストプラクティス](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + ツール {#tools}
    + [パスワードの変更](/help/search-social-commerce/tools/password-change.md)

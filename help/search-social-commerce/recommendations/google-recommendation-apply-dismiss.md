@@ -1,9 +1,10 @@
 ---
 title: を適用または解除 [!DNL Google Ads] recommendation
 description: 以下を表示する方法を学ぶ： [!DNL Google Ads] レコメンデーションを適用または却下する方法を説明します。
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+exl-id: 7aab10bf-d5fc-4eb7-b1bb-9e61ba354a29
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -30,13 +31,13 @@ ht-degree: 0%
 
    * レコメンデーションを適用するには、 **[!UICONTROL Apply]**.
 
-      レコメンデーションの適用には、レコメンデーションのサイズに応じて、ミリ秒から数秒の間で時間がかかる場合があります。
+     レコメンデーションの適用には、レコメンデーションのサイズに応じて、ミリ秒から数秒の間で時間がかかる場合があります。
 
    * レコメンデーションを解除するには、 **[!UICONTROL Dismiss]**.
 
 >[!MORELIKETHIS]
 >
 >* [パブリッシャーのレコメンデーションおよびインサイトのサポートについて](recommendation-support.md)
+>* [パブリッシャーのレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
 >* [のレコメンデーションログを表示 [!DNL Google Ads] アカウント](google-recommendation-view-log.md)
 >* [投稿のレコメンデーションとインサイトをポートフォリオで使用する際のベストプラクティス](recommendation-best-practices.md)
-

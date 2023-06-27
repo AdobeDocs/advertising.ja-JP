@@ -1,32 +1,47 @@
 ---
 title: パブリッシャーのレコメンデーションおよびインサイトのサポートについて
 description: 投稿者のレコメンデーションとインサイトの表示と管理のサポートについて説明します。
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
+source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # パブリッシャーのレコメンデーションおよびインサイトのサポートについて
 
-[!DNL Google Ads] レコメンデーションは次の提案から提案されます： [!DNL Google Ads] キャンペーンのパフォーマンスと効率を向上させるのに役立ちます。 各レコメンデーションは、アカウントのパフォーマンス履歴、キャンペーン設定、全体のトレンドに基づいて、アセットの追加から予算の増加に至るまで、キャンペーンの様々なパフォーマンス面に関するカスタマイズされた提案を提供します [!DNL Google Ads].
+*[!DNL Google Ads]および [!DNL Microsoft® Advertising] アカウント*
+
+*のベータ版機能 [!DNL Microsoft® Advertising] アカウント*
+
+[!DNL Google Ads] 推奨事項 [!DNL Microsoft® Advertising] パフォーマンスインサイトは、キャンペーンのパフォーマンスと効率を向上させるために広告ネットワークから提案されるものです。
+
+* 各 [!DNL Google Ads] レコメンデーションでは、アカウントのパフォーマンス履歴、キャンペーン設定、全体のトレンドに基づいて、アセットの追加から予算の増加に至るまで、キャンペーンの様々なパフォーマンス面に関する提案をカスタマイズできます [!DNL Google Ads].
+
+* 各 [!DNL Microsoft® Advertising] パフォーマンスインサイトは、マネージャーアカウント、広告主アカウント、キャンペーンの大きな変動について警告します。考えられる原因を特定し、パフォーマンスを最適化するアクションを示します。
+
+## この [!UICONTROL Recommendations & Publisher Insights] 表示
 
 内 [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]を使用すると、次のことができます。
 
-* まだ対応していないサポートされているレコメンデーションの概要を確認する [!DNL Google Ads]<!-- or [Microsoft Advertising]--> アカウント 各レコメンデーションの情報には、レコメンデーションの詳細、レコメンデーションのタイプとカテゴリ、実際の指標およびレコメンデーション対象の指標が含まれます [!DNL Google Ads] は、レコメンデーションが適用されるかどうか、およびレコメンデーションが適用される場合に影響を受けるエンティティを予測します。 指標に対する予測された増加は、緑でハイライト表示されます。 任意のレコメンデーションに関する推奨アクションを表示できます。 オプションで、レコメンデーションのカテゴリとタイプでリストをフィルタリングすることもできます。
+* まだ対応していないサポートされているレコメンデーションの概要を確認する [!DNL Google Ads] 過去 30 日間に [Microsoft® Advertising] アカウント 各エントリの情報には、レコメンデーション/インサイトの詳細と影響を受けるエンティティが含まれます。 の場合 [!DNL Google Ads] 指標に対して予測された増加のアカウントは、緑色でハイライト表示されます。
 
   ![Recommendations UI](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations UI")
 
   データは、ビューを開いたときにリアルタイムで使用できます。 データを更新するには、 ![更新](/help/search-social-commerce/assets/refresh.png "更新") をクリックします。
 
-* アカウントのレコメンデーションを適用および却下します。
+* の場合 [!DNL Google Ads] アカウント：
 
-* アカウントに適用された各レコメンデーションのログを表示します。影響を受けるエンティティ、レコメンデーションを適用したユーザー、タイムスタンプなどが含まれます。
+   * レコメンデーションの詳細を表示し、レコメンデーションを直接適用または却下します。
+
+   * アカウントに適用された各レコメンデーションのログを表示します。影響を受けるエンティティ、レコメンデーションを適用したユーザー、タイムスタンプなどが含まれます。
+
+* の場合 [Microsoft® Advertising] アカウントを開く [!DNL Microsoft® Advertising] エディターを使用して、特定のインサイトに基づいて操作できます。
 
 >[!NOTE]
 >
->レコメンデーションはキャンペーンのパフォーマンス向上に役立ちますが、一部のユーザーはより広範な目標に合わない場合があります。 そのため、レコメンデーションを実装する前に、Adobeのアカウントチームに相談することをお勧めします。
+>広告ネットワークのレコメンデーションとパフォーマンスインサイトはキャンペーンのパフォーマンスを向上させるのに役立ちますが、一部のユーザーは、より広範な目標に合わない場合があります。 そのため、レコメンデーションやインサイトを実装する前に、Adobeのアカウントチームに相談することをお勧めします。
 
 ## 次の場合にサポートされるレコメンデーションタイプ [!DNL Google Ads]
 
@@ -60,6 +75,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [のレコメンデーションログを表示 [!DNL Google Ads] アカウント](google-recommendation-view-log.md)
+>* [パブリッシャーのレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
 >* [を適用または解除 [!DNL Google Ads] recommendation](google-recommendation-apply-dismiss.md)
+>* [のレコメンデーションログを表示 [!DNL Google Ads] アカウント](google-recommendation-view-log.md)
 >* [投稿のレコメンデーションとインサイトをポートフォリオで使用する際のベストプラクティス](recommendation-best-practices.md)
