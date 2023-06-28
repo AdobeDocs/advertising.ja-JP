@@ -1,8 +1,9 @@
 ---
 title: アカウントレベルまたは広告主レベルのブロック済みサイトリストの編集
 description: アカウントまたは広告主のブロックされたサイトリストを管理する方法を説明します。
+role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -26,6 +27,7 @@ ht-degree: 0%
       1. （無効な値が識別された場合） **サイトとアプリに貼り付け** タブで値を修正し、 **続行**.
 
       1. クリック **完了**.
+
    * （オプション）1 つ以上の値を削除するには、次のいずれかの操作を行います。
 
       * すべての値を削除するには、 **すべてクリア**. 確認メッセージで、 **OK**.
@@ -33,13 +35,11 @@ ht-degree: 0%
       * 1 つ以上の値を削除するには、各値の横にあるチェックボックスをオンにし、 **チェック済みを削除**.
 
       * 単一の値を削除するには、 **X** 値の横にある
+
    * （オプション）リストをMicrosoft Excel スプレッドシートにカンマ区切り値 (CV) 形式で書き出すには、 **書き出し**.
-
-
 
 >[!MORELIKETHIS]
 >
 >* [アカウントレベルおよび広告主レベルのブロック済みサイトリストについて](/help/dsp/admin/blocked-sites-list-about.md)
-   > [ブランドの安全性とメディア品質](/help/dsp/introduction/features/brand-safety-media-quality.md)
+> [ブランドの安全性とメディア品質](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [配置設定](/help/dsp/campaign-management/placements/placement-settings.md)
-

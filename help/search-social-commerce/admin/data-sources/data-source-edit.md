@@ -1,7 +1,9 @@
 ---
 title: の編集 [!DNL Google Analytics] データソース
 description: の設定を編集する方法を説明します。 [!DNL Google Analytics] データソース。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: a23444f7-8f4c-42ba-b5fe-a325fb18136d
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%
@@ -31,4 +33,3 @@ ht-degree: 1%
 >* [の再認証 [!DNL Google Analytics] データソース](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] データソース設定](data-source-settings.md)
 >* [付録 — 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)
-

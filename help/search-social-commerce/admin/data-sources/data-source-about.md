@@ -1,7 +1,9 @@
 ---
 title: 同期について [!DNL Google Analytics] コンバージョン指標
 description: 同期の詳細 [!DNL Google Analytics] 最適化およびレポート用のコンバージョン指標。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 0c263ced-3774-4d4b-9d61-65289cd74027
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -22,9 +24,9 @@ ht-degree: 0%
 
 1. [前提条件のタスクを実行します](data-source-prerequisites.md)
 
-   * Adobe広告トークン (`ef_id` クエリー文字列パラメーター ) を含める必要があります。
+   * Adobe Advertisingトークン (`ef_id` クエリー文字列パラメーター ) を含める必要があります。
 
-   * Adobe広告トークン (`ef_id` クエリー文字列パラメーター ) [!DNL Custom Dimension] in [!DNL Google Analytics].
+   * Adobe Advertisingトークン (`ef_id` クエリー文字列パラメーター ) [!DNL Custom Dimension] in [!DNL Google Analytics].
 
 1. ( 代理アカウント管理者、代理アカウント管理者 [!DNL Adobe] アカウントマネージャー、および管理者ユーザーのみ ) [次の時間ごとに 1 つのデータソースを作成 [!DNL Google Analytics] アカウント、プロパティ、ビューの組み合わせ](data-source-configure.md).
 
@@ -41,4 +43,3 @@ ht-degree: 0%
 >* [の再認証 [!DNL Google Analytics] データソース](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] データソース設定](data-source-settings.md)
 >* [付録 — 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)
-

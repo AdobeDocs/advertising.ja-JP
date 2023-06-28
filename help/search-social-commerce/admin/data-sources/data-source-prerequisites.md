@@ -1,7 +1,9 @@
 ---
 title: の設定の前提条件 [!DNL Google Analytics] データソース
 description: を設定する前に完了する必要がある手順について説明します。 [!DNL Google Analytics] データソース。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: cbb2ad6d-8494-4fa4-928c-238b25bda3a6
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -55,4 +57,3 @@ ef_id が含まれていない場合は、担当のAdobeアカウントチーム
 >* [の再認証 [!DNL Google Analytics] データソース](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] データソース設定](data-source-settings.md)
 >* [付録 — 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)
-

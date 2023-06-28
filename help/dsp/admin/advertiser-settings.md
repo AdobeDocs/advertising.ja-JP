@@ -1,7 +1,8 @@
 ---
 title: 広告主アカウント設定
 description: 使用可能な広告主設定の説明を参照してください。
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+role: User, Admin
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -38,11 +39,11 @@ ht-degree: 0%
 
 （オプション） DSPアカウントにリンクされた追加のExperience Cloud製品。 製品は、 [!UICONTROL Adobe IMS IDs] 」セクションに入力します。
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** ( [!DNL Advertising Search, Social, & Commerce] または (Adobe広告コンバージョンピクセルを使用する ) A [!DNL Search, Social, & Commerce] DSPがアトリビューションデータを交換するアカウント。
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** ( [!DNL Advertising Search, Social, & Commerce] またはAdobe Advertising変換ピクセルを使用するユーザー ) A [!DNL Search, Social, & Commerce] DSPがアトリビューションデータを交換するアカウント。
 
 **[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Adobe Analyticsの広告主オプション；は、 [!DNL EF Redirect] およびトークンのみ ) 1 つ以上 [!DNL Analytics] パブリッシャーおよびサプライサイドのパートナーからDSPが収集したデータを送信するレポートスイート。 また、Analytics は、クライアントのサイトから収集したデータをDSPに送信します。
 
-データをレポートスイートに表示する場合は、 [!DNL Search, Social, & Commerce] 広告主レベルの設定を[!UICONTROL Enable tracking for SAINT feeds]」を有効にする必要があります。 また、 [!DNL Analytics] アカウント広告からデータを受け取るようにアカウントをAdobeする必要があります。
+データをレポートスイートに表示する場合は、 [!DNL Search, Social, & Commerce] 広告主レベルの設定を[!UICONTROL Enable tracking for SAINT feeds]」を有効にする必要があります。 また、 [!DNL Analytics] Adobe Advertisingからデータを受け取るには、アカウントを設定する必要があります。
 
 >[!WARNING]
 >
@@ -55,7 +56,7 @@ ht-degree: 0%
 * Audience Managerセグメント
 * [!DNL Analytics] Adobe Experience Cloudに公開されたセグメント
 * Adobe Experience Cloud [!DNL Audience Library]
-* Adobe Experience Platformで作成され、Audience Managerを介してAdobe広告に送信されるセグメント
+* Adobe Experience Platformで作成され、Audience Manager経由でAdobe Advertisingに送信されたセグメント
 
 初期同期には約 24 時間かかります。 その後、データはリアルタイムで同期され、1～2 秒の遅延が発生します。
 <!-- I don't think this is true anymore:
@@ -144,6 +145,5 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 >[!MORELIKETHIS]
 >
 >* [広告主アカウントの作成](/help/dsp/admin/advertiser-create.md)
-
 
 <!-- >* [View the Advertiser List for the Account](/help/dsp/admin/advertiser-view.md) -->

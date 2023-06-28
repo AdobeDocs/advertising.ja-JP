@@ -1,7 +1,8 @@
 ---
 title: 広告主アカウントの作成
 description: 広告主アカウントの作成方法を説明します。
-source-git-commit: ace64d46a8e0394d460f3894fe8823b048c28dc0
+role: User, Admin
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
@@ -25,14 +26,13 @@ ht-degree: 1%
       1. 次を指定： [!UICONTROL General] 設定。
 
       1. （オプション）DSPと他のAdobe Experience Cloud製品との統合を設定するには、 [!UICONTROL Adobe IMS IDs] 」セクションに移動し、 [!UICONTROL Integrations] 」セクションに入力します。
+
    1. （オプション） [!UICONTROL Targeting] セクションで、新しい配置ごとにデフォルトのターゲットを指定します。
 
       作成した任意の配置のデフォルトのターゲットを上書きできます。
-
 
 1. クリック **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [広告主設定](/help/dsp/admin/advertiser-settings.md)
-

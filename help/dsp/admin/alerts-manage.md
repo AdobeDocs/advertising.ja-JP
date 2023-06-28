@@ -1,8 +1,9 @@
 ---
 title: アラート購読の管理
 description: 自動 E メールアラートを管理する方法を説明します。
+role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -67,7 +68,7 @@ ht-degree: 0%
 
 * 購読者を購読に追加するには、の下の入力フィールドに E メールアドレスを入力します **[!UICONTROL Subscribers]**.
 
-   複数のアドレスをスペースで区切ります。
+  複数のアドレスをスペースで区切ります。
 
 * サブスクリプションの購読者を削除するには、 **[!UICONTROL X]** の下のメールアドレスの横に **[!UICONTROL Subscribers]**.
 

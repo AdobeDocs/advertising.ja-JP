@@ -1,14 +1,10 @@
 ---
-type: Documentation
-role: User, Admin
-cloud: Experience Cloud
-solution: Advertising
-product: advertising cloud
+role: User
 user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 6%
@@ -28,7 +24,7 @@ ht-degree: 6%
 
 + [最新情報](/help/dsp/home.md)
 + はじめに {#introduction}
-   + [Adobe広告DSPの概要](/help/dsp/introduction/dsp-about.md)
+   + [Adobe Advertising DSPの概要](/help/dsp/introduction/dsp-about.md)
    + 主な特長 {#features}
       + [最適化](/help/dsp/introduction/features/optimization.md)
       + [ブランドの安全性とメディア品質](/help/dsp/introduction/features/brand-safety-media-quality.md)

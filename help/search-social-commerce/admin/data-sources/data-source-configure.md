@@ -1,7 +1,9 @@
 ---
 title: の設定 [!DNL Google Analytics] データソースとして表示
 description: データソースを [!DNL Google Analytics] 表示
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -36,7 +38,7 @@ ht-degree: 0%
 
          >[!TIP]
          >
-         >特定の [!DNL Google Analytics] プロパティとビューは、Adobe広告内で使用でき、プロパティとビューのみにアクセスできる電子メールアドレスを使用してログインします。
+         >特定の [!DNL Google Analytics] プロパティとビューは、Adobe Advertising内で使用できます。プロパティとビューにのみアクセスできる電子メールアドレスを使用してログインします。
 
          >[!NOTE]
          >
@@ -45,6 +47,7 @@ ht-degree: 0%
       1. 「 」チェックボックスを選択して、Adobe広告がアカウントの指標にアクセスすることを許可します。
 
       1. クリック **[!UICONTROL Authenticate]**.
+
    1. 内 [!UICONTROL Account Details] 「 」セクションで、インポートする指標のプロパティと表示を指定します。 また、「ef_id」クエリー文字列パラメーターの値を使用して設定されるカスタムディメンションを指定します。
 
    1. 内 [!UICONTROL Import Metrics] セクションで、フィードに含める指標を指定します。
@@ -56,7 +59,6 @@ ht-degree: 0%
       >[!DNL Google Analytics] では、1 つのデータフィードで最大 10 個の指標を許可します。 検索、ソーシャル、コマースでは、合計 20 個の指標を持つ最大 2 つのフィードをサポートできますが、2 番目のフィードを使用すると、 [!DNL Google Analytics]. 指標が多い場合は、最適化の目的で使用する指標のみを選択します。 詳しくは、 [への API リクエストのクォータと呼び出し制限 [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
    1. 内 [!UICONTROL Metric Tag] 「 」セクションで、データソースの各指標に追加するタグの名前を入力します。
-
 
 1. 右上で、 **[!UICONTROL Post]**.
 
@@ -75,4 +77,3 @@ ht-degree: 0%
 >* [の再認証 [!DNL Google Analytics] データソース](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] データソース設定](data-source-settings.md)
 >* [付録 — 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)
-

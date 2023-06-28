@@ -1,8 +1,9 @@
 ---
 title: 保留中のユーザーの招待状の再送信
 description: 保留中のユーザーの招待状を再送信する方法を説明します。
+role: User, Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -27,6 +28,5 @@ ht-degree: 0%
 >
 >* [組織アカウントへの新しいユーザーの招待](user-invite.md)
 >* [保留中のユーザーの招待解除](user-uninvite.md)
-
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

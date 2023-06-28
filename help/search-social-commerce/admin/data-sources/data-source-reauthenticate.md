@@ -1,7 +1,9 @@
 ---
 title: の再認証 [!DNL Google Analytics] データソース
 description: の再認証方法を説明します。 [!DNL Google Analytics] データソースを設定します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 9233e004-8607-444a-ba99-f63cb83a8b7a
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -29,10 +31,10 @@ ht-degree: 0%
          >[!TIP]
          >
          >特定の [!DNL Google Analytics] プロパティとビューは、Search、Social、および Commerce 内で使用でき、プロパティとビューのみにアクセスできる電子メールアドレスを使用してログインします。
+
    1. アカウントの指標にアクセスすることを許可する場合は、このチェックボックスを選択します。
 
    1. クリック **[!UICONTROL Re-Authenticate]**.
-
 
 1. クリック **[!UICONTROL Post]**.
 
@@ -45,4 +47,3 @@ ht-degree: 0%
 >* [データソースの同期を一時停止する](data-source-pause.md)
 >* [[!DNL Google Analytics] データソース設定](data-source-settings.md)
 >* [付録 — 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)
-
