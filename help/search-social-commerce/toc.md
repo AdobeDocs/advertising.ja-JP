@@ -1,17 +1,17 @@
 ---
 role: User
-user-guide-title: 広告検索、ソーシャル、コマースガイド
-user-guide-description: このガイドでは、検索、ソーシャル、コマースの各広告キャンペーンの管理、追跡、およびレポートに必要な主な機能、タスク、設定、その他のリソースについて説明します。
-breadcrumb-title: 広告検索、ソーシャル、コマースガイド
+user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
+user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
+breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
 source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
 workflow-type: tm+mt
 source-wordcount: '1724'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 広告検索、ソーシャル、コマースガイド {#search-social-commerce}
+# Adobe Advertising Search, Social &amp; Commerce ガイド {#search-social-commerce}
 
 <!-- When we  use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
 
