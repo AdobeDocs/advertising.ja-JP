@@ -4,9 +4,9 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
+source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -106,7 +106,8 @@ ht-degree: 2%
       + [検索、ソーシャル、コマースでのキャンペーン管理について](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
       + [広告ネットワークアカウントとキャンペーンの実装の概要](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
       + [広告ネットワークキャンペーンのパフォーマンスの監視と管理](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
-      + [Search、Social、および Commerce のGoogle Ads コンバージョンデータ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Google Ads] 検索、ソーシャル、コマースのコンバージョンデータ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Microsoft Advertising] 検索、ソーシャル、コマースのコンバージョンデータ](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
    + アカウントの設定 {#campaign-management-accounts}
       + 広告ネットワークアカウント {#ad-network-accounts}
          + [広告ネットワークアカウントについて](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
