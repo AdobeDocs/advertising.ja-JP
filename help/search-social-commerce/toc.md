@@ -4,10 +4,10 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
+source-git-commit: e9818b49ab4bd473ba7b17663c9dd1436915f667
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -254,6 +254,9 @@ ht-degree: 2%
       + [レポートを分析してキーワードやキャンペーンの設定を絞り込む](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [有効なテキスト広告コピーを書き込む](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
       + [Web サイトのランディングページの最適化](/help/search-social-commerce/campaign-management/best-practices/best-practices-optimize.md)
+   + 広告アセットの管理 {#assets}
+      + [について [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
+      + [アセットの作成とアップロード](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + [広告ネットワークアカウントあたりの最大オブジェクト数](/help/search-social-commerce/campaign-management/max-objects-per-ad-network.md)
    + [キャンペーン管理に関する FAQ](/help/search-social-commerce/campaign-management/faqs-campaigns.md)
 + インサイトとレポート {#insights-reports}
