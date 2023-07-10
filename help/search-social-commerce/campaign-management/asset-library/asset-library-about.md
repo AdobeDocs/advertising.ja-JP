@@ -1,9 +1,9 @@
 ---
 title: 「 [!UICONTROL Asset Library]"
 description: 広告アセットのアセットライブラリについて説明します。
-source-git-commit: 2b47ad8422a505a85f43d5954dc9a5bdd1242e57
+source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ In [!UICONTROL Campaigns] > [!UICONTROL Asset Library (Beta)]を使用すると�
 
 >[!MORELIKETHIS]
 >
->*[アセットの作成とアップロード](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
+>* [アセットの作成とアップロード](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
