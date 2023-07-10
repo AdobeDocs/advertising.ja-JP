@@ -1,7 +1,7 @@
 ---
 title: '[!DNL Microsoft Advertising] コンバージョンデータ'
 description: 次のタイプについて説明します。 [!DNL Microsoft Advertising] — 検索、ソーシャル、コマースで使用できるコンバージョンデータ。
-source-git-commit: f5788c483564e34129b1703638a07497b527fb11
+source-git-commit: f48706edc1ab25f7c2396159d420bc2cfa849bbb
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 同じコンバージョン名を持つ複数のアカウントがある場合、Adobe Advertisingに重複したコンバージョン名が表示されることがあります。 この場合、 [表示名を変更する](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) の指標が重複している場合は、 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. 2 つの異なる指標の名前が同じ場合、レポートは正確ではありません。
+>* 同じコンバージョン名を持つ複数のアカウントがある場合、Adobe広告に重複したコンバージョン名が表示されることがあります。 この場合、 [表示名を変更する](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) の指標が重複している場合は、 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. 2 つの異なる指標の名前が同じ場合、レポートは正確ではありません。
 >* 入札単位レベルのデータは、同じレベルの広告ネットワーク内のデータと一致します。 ただし、高いレベルの広告ネットワーク独自のコンバージョンデータには、子の入札単位に関連付けられない追加のコンバージョンが含まれる場合があります。 検索、ソーシャル、コマースのデータは、常に入札単位レベルからロールアップされるので、例えば、キャンペーンレベルのレポートは、広告ネットワークのキャンペーンレベルのレポートと同じ合計にならない場合があります。
 >* 通常、データの相違は、追加のコンバージョンがまだ同期されていない場合の、午前の同期後の方が、当日の後半よりも少なくなります。 データの検証は、午前中におこなうことをお勧めします。
 >* データは、オーディエンスまたは地理的な場所レベルでは使用できないので、RLSA や場所の入札調整を自動最適化するためには使用されません。
@@ -80,4 +80,4 @@ Social および Commerce の検索で、「表示」または「レポート」
 >
 >* [広告ネットワークアカウントとキャンペーンの実装の概要](campaign-implemention-overview.md)
 >* [広告ネットワークキャンペーンのパフォーマンスの監視と管理](monitor-performance-campaigns.md)
->* [広告主でトラッキングされているトランザクションプロパティの表示](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.html?lang=en)
+>* [広告主でトラッキングされているトランザクションプロパティの表示](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
