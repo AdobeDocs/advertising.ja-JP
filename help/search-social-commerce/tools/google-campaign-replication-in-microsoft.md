@@ -1,9 +1,10 @@
 ---
 title: 複製 [!DNL Google Ads] キャンペーン [!DNL Microsoft® Advertising]
 description: 同期したキャンペーンを [!DNL Google Ads] 直接同期されたにアカウント [!DNL Microsoft® Advertising] アカウント
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 * [!DNL Google Display Network] 広告画像を含むキャンペーンを [!DNL Microsoft® Advertising] Microsoft® Audience Network でのオーディエンスキャンペーン。
 
-   買い物フィードベースのディスプレイキャンペーンをレプリケートする場合は、まず [!DNL Google Merchant Center] 製品オファー [!DNL Microsoft® Merchant Center]. キャンペーンをレプリケートする場合は、 [!DNL Microsoft® Merchant Center] を保存して、フィードベースのオーディエンスキャンペーンにストアをリンクします。
+  買い物フィードベースのディスプレイキャンペーンをレプリケートする場合は、まず [!DNL Google Merchant Center] 製品オファー [!DNL Microsoft® Merchant Center]. キャンペーンをレプリケートする場合は、 [!DNL Microsoft® Merchant Center] を保存して、フィードベースのオーディエンスキャンペーンにストアをリンクします。
 
 * [!DNL Google Ads] パフォーマンス最大キャンペーン（ローカルの在庫広告を含む）を [!DNL Microsoft® Advertising] スマートショッピングキャンペーン。
 
@@ -58,7 +59,7 @@ ht-degree: 0%
 
 1. （オプション）検索、ソーシャル、コマースの追跡機能を [アカウント](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [広告グループ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)または [広告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 設定。
 
-## キャンペーンインポートジョブの詳細の編集
+## キャンペーンインポートジョブのスケジュール設定の編集
 
 詳しくは、 [何がインポートされたか [!DNL Google Ads] campaigns](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
@@ -66,15 +67,7 @@ ht-degree: 0%
 
 1. インポートジョブの横のチェックボックスを選択し、 ![編集](/help/search-social-commerce/assets/edit.png "編集").
 
-1. を編集します。 [読み込み設定](#campaign-import-settings).
-
-   1. 内 **[!UICONTROL Select accounts]** 「 」セクションで、ソースおよび宛先のアカウントと、 [!DNL Microsoft® Advertising] が必要です。
-
-   1. 内 **[!UICONTROL Select campaigns & ad groups]** 「 」セクションで、インポートするキャンペーンおよび広告グループを指定します。
-
-   1. 内 **[!UICONTROL Customize your import]** 「 」セクションで、読み込む項目のタイプを指定します。
-
-   1. 内 **[!UICONTROL Set schedule]** 「 」セクションで、インポートジョブを実行するタイミングを指定します。
+1. 内 **[!UICONTROL Set schedule]** セクションで、 [スケジュール設定](#campaign-import-settings).
 
 1. クリック **[!UICONTROL Post]**.
 
@@ -86,7 +79,7 @@ ht-degree: 0%
 
    * メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
-      デフォルトでは、ビューは [!UICONTROL List of Import Jobs] タブをクリックします。
+     デフォルトでは、ビューは [!UICONTROL List of Import Jobs] タブをクリックします。
 
    * 次の [[!UICONTROL Import Logs] タブ](#campaign-import-log)、 **[!UICONTROL List of Import Jobs]** タブをクリックします。
 
