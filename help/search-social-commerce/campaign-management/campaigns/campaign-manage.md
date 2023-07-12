@@ -1,7 +1,8 @@
 ---
 title: キャンペーンの管理
 description: 広告キャンペーンの作成および管理方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
+source-git-commit: 7c4f3b5b7745f846817c85364006a67fd644bd3b
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%
@@ -23,7 +24,6 @@ ht-degree: 0%
 >* キャンペーンを作成する前に、 [コンバージョントラッキングタグの実装](/help/search-social-commerce/tracking/conversion-tracking-about.md) 広告主の Web ページ内に表示されます。
 >* 一度に多数のキャンペーンを作成するには、 [コピーおよび貼り付け機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [キャンペーンバルクシート](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
 1. データテーブルの上にあるツールバーで、 ![作成](/help/search-social-commerce/assets/add.png "作成").
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 次を入力します。 [梅津](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)または [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) キャンペーン設定。
 
-   広告ネットワークに応じて、設定は次のようにグループ化されます。 [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options]、および [!UICONTROL (Google) DSA Options]. の設定を構成するには [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking]または [!UICONTROL Asset Groups] （利用可能な場合）、 **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**&#x200B;または **[!UICONTROL Manage Asset Groups]**、それぞれ。
+   広告ネットワークに応じて、設定は次のようにグループ化されます。 [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options]、および [!UICONTROL (Google) DSA Options]. の設定を構成するには [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking]または [!UICONTROL Asset Groups] （利用可能な場合）、 **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Set Campaign Goals]**&#x200B;または **[!UICONTROL Manage Asset Groups]**、それぞれ。
 
 1. クリック **[!UICONTROL Post]**.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
       * 各キャンペーンの横にあるチェックボックスをオンにします。
 
-         複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * データテーブルの上にあるツールバーで、 ![編集](/help/search-social-commerce/assets/edit.png "編集").
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    複数のキャンペーンの場合、設定は [!UICONTROL Campaign Details], [!UICONTROL Budget Options]、および [!UICONTROL URL Options]（広告ネットワークに応じて） 選択したすべてのキャンペーンに共通するフィールドのみを編集でき、選択したすべてのキャンペーンに変更が適用されます。 一部の英数字フィールドでは、既存の値を指定した値に変更したり、既存の文字列を指定した文字列に置き換えたり、各値の先頭に指定したプレフィックスを追加したり、各値の末尾にサフィックスを追加したりできます。 一部の金額フィールドでは、既存の値を指定した値に変更するか、指定した割合または金額で金額を上限に従って増減するかを選択できます。
 
-   単一のキャンペーンの場合、設定は [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options]、および [!UICONTROL (Google) DSA Options]. の設定を構成するには [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking]または [!UICONTROL Asset Groups] （利用可能な場合）、 **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**&#x200B;または **[!UICONTROL Manage Asset Groups]**、それぞれ。
+   単一のキャンペーンの場合、設定は [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options]、および [!UICONTROL (Google) DSA Options]. の設定を構成するには [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking]または [!UICONTROL Asset Groups] （利用可能な場合）、 **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Set Campaign Goals]**&#x200B;または **[!UICONTROL Manage Asset Groups]**、それぞれ。
 
 1. データを保存します。
 
@@ -105,4 +105,3 @@ ht-degree: 0%
 >* [Microsoft Advertising キャンペーンの設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
 >* [Yahoo! Japan Ads キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
 >* [Yandex キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
-

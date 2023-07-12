@@ -2,9 +2,9 @@
 title: 複製 [!DNL Google Ads] キャンペーン [!DNL Microsoft® Advertising]
 description: 同期したキャンペーンを [!DNL Google Ads] 直接同期されたにアカウント [!DNL Microsoft® Advertising] アカウント
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
-source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
+source-git-commit: 8d062e5c74c8f873ab5f2491659a32be47bb2afb
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,19 @@ ht-degree: 0%
 
 詳しくは、 [何がインポートされたか [!DNL Google Ads] campaigns](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. からの読み込み資格情報 ID の取得 [!DNL Microsoft® Advertising] を表す [!DNL Google Ads] 資格情報。
-
-   の自動生成 [!DNL Microsoft® Advertising] 次の理由により、インポートの資格情報を使用できません： [!DNL Microsoft® Advertising] API の制限。 AdobeのテクニカルサポートまたはAdobeのアカウントチームに問い合わせると、テクニカルサポートが資格情報を生成し、ID を渡します。
-
-   インポートジョブを設定するには、ID が必要です。
-
 1. 検索、ソーシャル、コマースのメインメニューで、 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. クリック **[!UICONTROL +Import]**.
 
 1. 次を指定： [読み込み設定](#campaign-import-settings):
 
-   1. 内 **[!UICONTROL Select accounts]** 「 」セクションで、ソースおよび宛先のアカウントと、 [!DNL Microsoft® Advertising] が必要です。
+   1. 内 **[!UICONTROL Select accounts]** セクション：
+
+      1. ソースおよび宛先アカウントを選択します。
+
+      1. クリック **[!UICONTROL Get Credential Id from MSA]**.
+
+      1. 宛先にログイン [!DNL Microsoft Advertising] アカウントを作成し、表示された秘密鍵証明書 ID をコピーして、 **[!UICONTROL Credential ID]** フィールドに入力します。
 
    1. 内 **[!UICONTROL Select campaigns & ad groups]** 「 」セクションで、インポートするキャンペーンおよび広告グループを指定します。
 
