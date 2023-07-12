@@ -1,9 +1,10 @@
 ---
-title: "[!DNL Microsoft Advertising] キャンペーン設定"
+title: '''[!DNL Microsoft Advertising] キャンペーン設定'
 description: 次の設定を参照してください： [!DNL Microsoft Advertising] キャンペーン。
-source-git-commit: 0706f4dbc5f2a27e7d0cf43a6865d242865f9d36
+exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
+source-git-commit: f2889bbafc1b3cd3c467d94abae2ad1a52d0eaed
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -176,6 +177,12 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 <!-- **[!UICONTROL Append Parameters]:** -->
 
 {{$include /help/_includes/append-parameters.md}}
+
+## [!UICONTROL Conversion Goals]
+
+**[!UICONTROL Conversion Goal]:** 次を実行するかどうか *[!UICONTROL Use account conversion goals for this campaign]* （デフォルト）または *[!UICONTROL Use campaign specific conversion goals]*. キャンペーンのコンバージョン目標を指定する場合は、使用可能なすべての目標のリストから目標を選択します。 **注意：** 目標は毎日同期されるので、過去 24 時間で作成した目標は一覧に表示されない場合があります。 リストを更新するには、次の手順に従います。 [広告ネットワークデータの手動同期](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+
+キャンペーンがポートフォリオに含まれている場合は、ポートフォリオの目的と同じコンバージョン目標を使用します。 異なるコンバージョン目標を使用すると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
 
 >[!MORELIKETHIS]
 >
