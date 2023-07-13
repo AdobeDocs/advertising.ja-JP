@@ -3,9 +3,9 @@ title: の概要 [!DNL Analytics for Advertising]
 description: の概要 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+source-git-commit: d4306553d4ad7379672be5bff1bc5cc6f74f70bf
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -90,13 +90,43 @@ Adobe Advertisingが取り込み可能 [!DNL Analytics] Advertising DSPおよび
 
 Audiences サービスについて詳しくは、「Experience Cloud」を参照してください。 [Experience Cloudオーディエンス](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
 
-## 統合の使用例
+## 統合の使用例 {#integration-examples}
 
 ### Analysis WorkspaceでのAdobe Advertisingデータの使用
 
 Analysis WorkspaceでAdobe Advertisingデータを使用して視覚的なレポートを作成する方法については、ビデオ「[Workspace とレポートの概要](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
 
-### Adobe Advertisingダッシュボードの作成
+#### レポートでの Connected TV ビュースルーコンバージョンの使用
+
+*Advertising DSPユーザーのみ*
+
+CTV デバイスでの広告露出をオンサイトコンバージョンにリンクすることで、接続された TV(CTV) キャンペーンの全ファネル効果を測定できます。 CTV ビュースルーコンバージョン指標を表示するには、Analysis Workspaceの配置ビューまたはマーケティングチャネルビューを使用します。
+
+配置ビューを使用する場合：
+
+1. レポート表示に CTV 支出配置を含める。
+
+1. 「インプレッション数」、「クリック数」など、目的の指標を含めます。
+
+1. 次のフィルターを適用します。
+
+   広告プラットフォーム： `Advertising Cloud DSP`
+
+   ランディングページ： `View-Through (CTV)`
+
+マーケティングチャネルビューを使用して、次の操作を行います。
+
+1. ディメンションを含める `Marketing Channel`.
+
+1. 「インプレッション数」、「クリック数」など、目的の指標を含めます。
+
+1. 次のフィルターを適用します。
+
+   広告プラットフォーム： `Advertising Cloud DSP`
+
+   ランディングページ： `View-Through (CTV)`
+
+### Adobe広告ダッシュボードの作成
 
 Analysis Workspaceで目標に合わせてAdobe Advertisingデータを追跡する方法については、ビデオ「[Adobe AnalyticsでのAdobe Advertisingダッシュボードの作成](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
 
