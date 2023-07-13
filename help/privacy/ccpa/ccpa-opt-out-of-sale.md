@@ -1,9 +1,10 @@
 ---
-title: カリフォルニア州消費者プライバシー法に対するAdobe広告のサポート：消費者のオプトアウトオブセールのサポート
+title: カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者のオプトアウトオブセールのサポート
 description: 消費者のオプトアウトオブセールのリクエストをキャプチャするためのサポートについて説明します。
 feature: CCPA
+role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # カリフォルニア州消費者プライバシー法に対するAdobe広告のサポート：消費者のオプトアウト（販売のサポート）
 
-*Adobe広告Demand Side Platform(DSP) 用*
+*Adobe AdvertisingDemand Side Platform(DSP)*
 
 >[!IMPORTANT]
 >
@@ -22,15 +23,15 @@ ht-degree: 0%
 
 お客様は、ビジネスとして、Adobe Experience Cloudに処理および保管を委任する個人データを決定します。
 
-Adobe広告は、Adobe広告の製品およびサービスの使用に適用される CCPA に基づく義務を果たすためのサポートを提供します。これには、個人情報のアクセスおよび削除に対する消費者要求の管理や、個人情報の販売をオプトアウトするための消費者要求の管理が含まれます。
+Adobe Advertisingは、サービスプロバイダーとして、個人情報に対する消費者のアクセスおよび削除要求の管理や、個人情報の販売をオプトアウトするための消費者要求の管理など、Adobe Advertising製品およびサービスの使用に適用される CCPA に基づく義務を果たすためのサポートを提供します。
 
-このドキュメントでは、Adobe広告Demand Side Platform(DSP) が、サービスプロバイダーとして、CCPA で定義される「個人情報」の「販売」をオプトアウトする消費者権利をどのようにサポートするかについて説明します。 Adobe広告に販売オプトアウトリクエストを伝える方法、および組織の販売オプトアウトリクエストのレポートを取得する方法に関する情報が含まれます。
+このドキュメントでは、Adobe AdvertisingDemand Side Platform(DSP) が、CCPA で定義される「個人情報の販売」の「オプトアウト」を消費者がサポートする方法について説明します。 Adobe Advertisingに販売オプトアウトリクエストを伝える方法や、組織の販売オプトアウトリクエストのレポートを取得する方法に関する情報が含まれています。
 
-詳しくは、 [!DNL Advertising Search, Social, & Commerce];Advertising Creative、および [!DNL Advertising DCO] 消費者の個人情報のアクセスおよび削除権をサポートします。詳しくは、 [カリフォルニア州消費者プライバシー法に対するAdobe広告のサポート：消費者データのアクセスと削除のサポート](/help/privacy/ccpa/ccpa-access-delete.md).
+詳しくは、 [!DNL Advertising Search, Social, & Commerce];Advertising Creative;および [!DNL Advertising DCO] 消費者の個人情報のアクセスおよび削除権をサポートします。詳しくは、 [カリフォルニア州消費者プライバシー法に対するAdobe広告のサポート：消費者データのアクセスと削除のサポート](/help/privacy/ccpa/ccpa-access-delete.md).
 
 CCPA のAdobeプライバシーサービスについて詳しくは、 [Adobeプライバシーセンター](https://www.adobe.com/privacy/ccpa.html).
 
-## 消費者のオプトアウトオブセールのリクエストをAdobe広告に伝える
+## 消費者のオプトアウトオブセールのリクエストについてAdobe Advertisingに伝える
 
 次のいずれかを使用して、消費者のオプトアウトオブセールのリクエストを伝えることができます。
 
@@ -54,30 +55,31 @@ CCPA のAdobeプライバシーサービスについて詳しくは、 [Adobeプ
 
    >[!IMPORTANT]
    >
-   >一部のAdobe Experience Cloudソリューションへのリクエストには JavaScript ライブラリは必要ありませんが、Adobe広告へのリクエストには必要です。
+   >一部のAdobe Experience Cloudソリューションへのリクエストには JavaScript ライブラリは必要ありませんが、Adobe Advertisingへのリクエストには必要です。
 
    ライブラリは、会社のプライバシーポータルなど、顧客が販売のオプトアウトリクエストを送信できる Web ページにデプロイする必要があります。 ライブラリを使用すると、AdobeCookie( 名前空間 ID: `gsurferID`) を使用して、Adobe Experience Platform Privacy Service API を介して販売のオプトアウトリクエストの一部としてこれらの id を送信できます。
 
-1. Experience Cloudの組織 ID を特定し、組織の Advertising アカウントにリンクされていることを確認します。
+1. Experience Cloud組織 ID を特定し、組織アカウントにリンクされていることを確認します。
 
    Experience Cloud組織 ID は、24 文字の英数字から成る文字列で、末尾に「@AdobeOrg」が付きます。 ほとんどのExperience Cloudのお客様には、組織 ID が割り当てられています。 マーケティングチームまたは内部Adobeシステム管理者が組織 ID を把握していない場合や、組織 ID がプロビジョニングされているかどうかが不明な場合は、Adobeカスタマーケア (gdprsupport@adobe.com) にお問い合わせください。 プライバシー API に要求を送信するには、組織 ID が、 `imsOrgID` 名前空間。
 
    >[!IMPORTANT]
    >
-   >貴社のAdobe広告担当者に連絡して、組織のすべてのAdobe広告アカウント ( [!DNL DSP] アカウントまたは広告主 [!DNL Search, Social, & Commerce] アカウントおよび [!DNL Creative] または [!DNL DCO] アカウント — がExperience Cloud組織 ID にリンクされている。
+   >貴社のAdobe Advertising担当者に問い合わせて、組織のAdobe Advertisingアカウント ( [!DNL DSP] アカウントまたは広告主 [!DNL Search, Social, & Commerce] アカウントおよび [!DNL Creative] または [!DNL DCO] アカウント — がExperience Cloud組織 ID にリンクされている。
 
-1. Adobe Experience Platform Privacy Service API を使用して、 [販売オプトアウトリクエストの送信](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) を使用して、消費者に代わって広告をAdobeし、既存のリクエストのステータスを確認します。
+1. Adobe Experience Platform Privacy Service API を使用して、 [販売オプトアウトリクエストの送信](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) を使用して、消費者に代わってAdobe Advertisingを設定し、既存のリクエストのステータスを確認できます。
 
    販売オプトアウトリクエストの例については、以下の付録を参照してください。
 
    >[!NOTE]
-   ビジネスに複数のExperience Cloud組織 ID がある場合は、それぞれに対して個別の API リクエストを送信する必要があります。 ただし、複数のAdobe広告サブソリューション ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]、および [!DNL DCO]) の代わりに、サブソリューションごとに 1 つのアカウントを使用します。
+   >
+   ビジネスに複数のExperience Cloud組織 ID がある場合は、それぞれに対して個別の API リクエストを送信する必要があります。 ただし、複数のAdobe Advertisingサブソリューション ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]、および [!DNL DCO]) の代わりに、サブソリューションごとに 1 つのアカウントを使用します。
 
-これらの手順はすべて、Adobe広告からサポートを受けるために必要です。 Adobe Experience Platform Privacy Serviceを使用して実行する必要があるこれらのタスクやその他の関連タスクの詳細、および必要な項目の見つけ方については、 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+これらの手順はすべて、Adobe Advertisingからサポートを受けるために必要です。 Adobe Experience Platform Privacy Serviceを使用して実行する必要があるこれらのタスクやその他の関連タスクの詳細、および必要な項目の見つけ方については、 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## 販売オプトアウトリクエストを送信した消費者のレポートの取得
 
-Adobe広告は、顧客がアカウントのオプトアウトオブセールのリクエストのために送信した ID の月別レポートを生成します。 各レポートは、GZIP 形式に圧縮されたタブ区切りテキストファイルとして使用できます。 このデータは、Advertising DSPで作成された CCPA オプトアウトオブセールセグメントと、Privacy ServiceAPI を介しておこなわれた送信を使用してキャプチャされたリクエストを統合します。 CCPA オプトアウトオブセールセグメントでキャプチャされたユーザー ID は、セグメントおよび広告主によって識別されます。 レポートは、前月の各月の最初に生成されます。 例えば、6 月の月別ユーザーリストは 7 月 1 日に公開されます。
+Adobe Advertisingは、顧客がアカウントのオプトアウトオブセールのリクエストのために送信した ID の月別レポートを生成します。 各レポートは、GZIP 形式に圧縮されたタブ区切りテキストファイルとして使用できます。 このデータは、Advertising DSPで作成された CCPA オプトアウトオブセールセグメントと、Privacy ServiceAPI を介しておこなわれた送信を使用してキャプチャされたリクエストを統合します。 CCPA オプトアウトオブセールセグメントでキャプチャされたユーザー ID は、セグメントおよび広告主によって識別されます。 レポートは、前月の各月の最初に生成されます。 例えば、6 月の月別ユーザーリストは 7 月 1 日に公開されます。
 
 過去 3 か月間に作成された月別レポートへのリンクは、Advertising DSP内から、または Advertising DSPを使用して取得できます [!DNL Trafficking API]. 各リンクは 7 日間有効ですが、顧客がリンクを取得しようとするたびに更新されます。
 
@@ -132,4 +134,4 @@ curl -X POST \
 場所：
 
 * `"namespace": "AdCloud"` は、 `AdCloud` Cookie 領域に含まれ、対応する値は、 `AdobePrivacy.js`
-* `"include": ["AdCloud"]` リクエストがAdobe広告に適用されることを示します
+* `"include": ["AdCloud"]` リクエストがAdobe Advertisingに適用されることを示します
