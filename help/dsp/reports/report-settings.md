@@ -3,9 +3,9 @@ title: カスタムレポート設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: b41c1ab857d37d21cf593a8e566b18f2769d47c0
+source-git-commit: 73fb309063066e52e4d8c23f5ce9ebb84159b253
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -70,38 +70,41 @@ ht-degree: 0%
 
 ## [!UICONTROL Multi-Touch Conversion Options] セクション
 
+**[!UICONTROL Attribution Rule Settings]** 設定は、レポートタイプによって異なります。
 
-### [!UICONTROL Attribution Rule Settings]
+* **\[ 属性タイプ\]:** ([!UICONTROL Household Conversion] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；(Adobe Advertisingコンバージョントラッキングのみ ) レポート内で、コンバージョンにつながる一連のイベント内のコンバージョンデータを関連付ける方法を次のように指定します。
 
-**\[ 属性タイプ\]:** ([!UICONTROL Household Conversion] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；(Adobe Advertisingコンバージョントラッキングのみ ) レポート内で、コンバージョンにつながる一連のイベント内のコンバージョンデータを関連付ける方法を次のように指定します。
+   * [!UICONTROL Unique]:（デフォルト）ディメンション値（デバイスや配置など）がコンバージョンへのパス上にあった回数をカウントします。
 
-* [!UICONTROL Unique]:（デフォルト）ディメンション値（デバイスや配置など）がコンバージョンへのパス上にあった回数をカウントします。
+   * [!UICONTROL Multi-Touch Attribution (MTA)]:コンバージョンへのパスでのディメンション値（デバイスや配置など）の発生頻度に基づいて、各コンバージョンのクレジットを配分します。 例えば、コンバージョン前に合計 10 件のインプレッションがあり、CTV で 8 件、モバイルで 2 件があった場合、クレジットの 80%(0.8) が CTV 画面に、0.2 がモバイルに割り当てられます。
 
-* [!UICONTROL Multi-Touch Attribution (MTA)]:コンバージョンへのパスでのディメンション値（デバイスや配置など）の発生頻度に基づいて、各コンバージョンのクレジットを配分します。 例えば、コンバージョン前に合計 10 件のインプレッションがあり、CTV で 8 件、モバイルで 2 件があった場合、クレジットの 80%(0.8) が CTV 画面に、0.2 がモバイルに割り当てられます。
+* **\[ ルールタイプ\]:** ( すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；Adobe Advertisingコンバージョントラッキングのみを使用する広告主 ) レポート内で、コンバージョンにつながる一連のイベントにコンバージョンデータを関連付ける方法を説明します。 ルール間の違いを比較する場合は、複数のルールを選択できます。
 
-**\[ ルールタイプ\]:** ( すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；Adobe Advertisingコンバージョントラッキングのみを使用する広告主 ) レポート内で、コンバージョンにつながる一連のイベントにコンバージョンデータを関連付ける方法を説明します。 ルール間の違いを比較する場合は、複数のルールを選択できます。
+  >[!NOTE]
+  >
+  >コンバージョンパスには、広告主のインプレッションまたはクリックのルックバックウィンドウ内のインプレッション数およびクリック数が含まれます。これらは、 [!DNL Advertising Search, Social, & Commerce]. コンバージョン属性中のインプレッション数よりも、クリック数の方が優先されます。 コンバージョンパス内のクリックは、アトリビューションルールに基づいてフルクレジットを受け取ります。 インプレッションは、コンバージョンパスでクリックが追跡されない場合にのみクレジットを受け取ります。
 
->[!NOTE]
->
->コンバージョンパスには、広告主のインプレッションまたはクリックのルックバックウィンドウ内のインプレッション数およびクリック数が含まれます。これらは、 [!DNL Advertising Search, Social, & Commerce]. コンバージョン属性中のインプレッション数よりも、クリック数の方が優先されます。 コンバージョンパス内のクリックは、アトリビューションルールに基づいてフルクレジットを受け取ります。 インプレッションは、コンバージョンパスでクリックが追跡されない場合にのみクレジットを受け取ります。
+   * *[!UICONTROL Last Event]:* コンバージョンパスの最後のクリックまたはインプレッションにコンバージョンを関連付けます。
 
-* *[!UICONTROL Last Event]:* コンバージョンパスの最後のクリックまたはインプレッションにコンバージョンを関連付けます。
+   * *[!UICONTROL Weight Last More]:* コンバージョンパス内のすべてのイベントに対してコンバージョンを属性付けますが、最後のイベントに対して最も大きな重み付けを与え、前のイベントに対する重み付けを徐々に小さくします。
 
-* *[!UICONTROL Weight Last More]:* コンバージョンパス内のすべてのイベントに対してコンバージョンを属性付けますが、最後のイベントに対して最も大きな重み付けを与え、前のイベントに対する重み付けを徐々に小さくします。
+   * *[!UICONTROL Even Distribution]:* コンバージョンを、コンバージョンパスの各イベントに等しく関連付けます。
 
-* *[!UICONTROL Even Distribution]:* コンバージョンを、コンバージョンパスの各イベントに等しく関連付けます。
+   * *[!UICONTROL Weight First More]:* コンバージョンパス内のすべてのイベントに対してコンバージョンを関連付けますが、最初のイベントに対して最も重み付けが適用され、次のイベントに対しては引き続き重み付けが少なくなります。
 
-* *[!UICONTROL Weight First More]:* コンバージョンパス内のすべてのイベントに対してコンバージョンを関連付けますが、最初のイベントに対して最も重み付けが適用され、次のイベントに対しては引き続き重み付けが少なくなります。
+   * *[!UICONTROL First Event]:* コンバージョンパスの最初のクリックまたはインプレッションにコンバージョンを関連付けます。
 
-* *[!UICONTROL First Event]:* コンバージョンパスの最初のクリックまたはインプレッションにコンバージョンを関連付けます。
+   * *[!UICONTROL U-shaped]:* コンバージョンパス内のすべてのイベントにコンバージョンをアトリビュートしますが、最初と最後のイベントに最も重み付けを適用し、コンバージョンパスの途中にあるイベントに対する重み付けを徐々に軽減します。
 
-* *[!UICONTROL U-shaped]:* コンバージョンパス内のすべてのイベントにコンバージョンをアトリビュートしますが、最初と最後のイベントに最も重み付けを適用し、コンバージョンパスの途中にあるイベントに対する重み付けを徐々に軽減します。
+   * *[!UICONTROL Display Only]:*  コンバージョンパスの最後のDSPクリックまたはインプレッションにコンバージョンを関連付けます。 これには、ビデオおよび接続されたテレビ広告が含まれ、クリック数は除外されます。 [!DNL Advertising Search, Social, & Commerce] 広告。
 
-* *[!UICONTROL Display Only]:*  コンバージョンパスの最後のDSPクリックまたはインプレッションにコンバージョンを関連付けます。 これには、ビデオおよび接続されたテレビ広告が含まれ、クリック数は除外されます。 [!DNL Advertising Search, Social, & Commerce] 広告。
+   * *[!UICONTROL Social Only]:* 廃止
 
-* *[!UICONTROL Social Only]:* 廃止
+  <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-<!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
+<!--
+* **Lookback:** ([!UICONTROL Household Conversion] reports with [!UICONTROL Conversion Metrics] or [!UICONTROL Custom Goals] columns; advertisers with Adobe Advertising conversion tracking only) Within the report, the number of days after a paid click in an event series occurs in which the click can be attributed to a conversion.
+-->
 
 **[!UICONTROL Paths as Columns]:**  ( すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列 ) 同じデバイスで以前のイベントが発生した場合にレポートするコンバージョンのタイプ。 最大 3 つのタイプを含めることができます。 選択したタイプごとに、各コンバージョン指標に対して個別の列が追加され、指定したサフィックス ([!UICONTROL (tl)], [!UICONTROL (ct)]または [!UICONTROL (vt)]):
 
