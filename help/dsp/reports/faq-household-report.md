@@ -1,10 +1,10 @@
 ---
 title: 世帯レポートに関する FAQ
-description: レポートデータに関する詳細情報 ( [!UICONTROL Household] レポートは他のレポートやトラブルシューティングとは異なります。
+description: 世帯レポートが他のレポートやトラブルシューティングとどのように異なるかなど、世帯のリーチ、頻度、コンバージョンデータについて詳しく説明します。
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: 05f7d9c7a120828bda46d4f79796dfb419cca242
+source-git-commit: e07038895e64a266f898619384c8b41024f71038
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
