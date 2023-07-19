@@ -3,7 +3,7 @@ title: の概要 [!DNL Analytics for Advertising]
 description: の概要 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: e1edbc29e9306afc68f805d198ef3e5ec7f25695
+source-git-commit: 232b253877195b0e0a1d47b0b28e6ed25a8b07d4
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 0%
@@ -100,9 +100,9 @@ Analysis WorkspaceでAdobe Advertisingデータを使用して視覚的なレポ
 
 *Advertising DSPユーザーのみ*
 
-CTV デバイスでの広告露出をオンサイトコンバージョンにリンクすることで、接続された TV(CTV) キャンペーンの全ファネル効果を測定できます。 CTV ビュースルーコンバージョン指標を表示するには、Analysis Workspaceの配置ビューまたはマーケティングチャネルビューを使用します。
+CTV デバイスでの広告露出をオンサイトコンバージョンにリンクすることで、接続された TV(CTV) キャンペーンの全ファネル効果を測定できます。 新しい [!UICONTROL Landing Type] フィルター&quot;[!UICONTROL View-through (CTV)]」はコンバージョンを別々の行に分割し、 [!UICONTROL Click Through], [!UICONTROL View Through]、および [!UICONTROL View Through (CTV)] 値。
 
-新しい [!UICONTROL Landing Type] フィルター&quot;[!UICONTROL View-through (CTV)]」はコンバージョンを別々の行に分割し、 [!UICONTROL Click Through], [!UICONTROL View Through]、および [!UICONTROL View Through (CTV)] 値。
+CTV ビュースルーコンバージョン指標を表示するには、Analysis Workspaceの配置ビューまたはマーケティングチャネルビューを使用します。
 
 配置ビューを使用する場合：
 
@@ -143,5 +143,5 @@ Analysis Workspaceで目標に合わせてAdobe Advertisingデータを追跡す
 >* [Analytics で使用されるAdobe AdvertisingID](ids.md)
 >* [広告用 Analytics の JavaScript コード](/help/integrations/analytics/javascript.md)
 >* [A と B の間で予想されるデータの相違 [!DNL Analytics] およびAdobe Advertising](data-variances.md)
->* [Analysis WorkspaceのAdobe広告指標](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [Analysis WorkspaceのAdobe Advertising指標](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] データのAdobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
