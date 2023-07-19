@@ -2,9 +2,9 @@
 title: 世帯レポートに関する FAQ
 description: 世帯レポートが他のレポートやトラブルシューティングとどのように異なるかなど、世帯のリーチ、頻度、コンバージョンデータについて詳しく説明します。
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: e07038895e64a266f898619384c8b41024f71038
+source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 ### 既に [!DNL Advanced Measurement Services]を使用する理由 [!UICONTROL Household Reach & Frequency] および [!UICONTROL Household Conversions] レポート？
 
-この [!UICONTROL Household Reach & Frequency] および [!UICONTROL Household Conversions] レポートを使用すると、クライアントは、それぞれリアルタイムで自律的に世帯レベルのリーチ指標、頻度指標、コンバージョン指標を引き出すことができます。
+この [!UICONTROL Household Reach & Frequency] および [!UICONTROL Household Conversions] レポートを使用すると、クライアントは、リアルタイムで家庭レベルのリーチ指標、頻度指標、コンバージョン指標をそれぞれ自律的に取り込むことができます。
 
 ### 両方を使用できますか？ [!UICONTROL Household Reach & Frequency] および [!UICONTROL Household Conversions] レポートと [!DNL Advanced Measurement Services]?
 
