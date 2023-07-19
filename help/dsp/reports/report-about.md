@@ -3,7 +3,7 @@ title: カスタムレポートについて
 description: カスタムレポートを手動で作成するか、事前設定済みのレポートテンプレートを使用するかのオプションについて説明します。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: b3c45f6ae5adcf7cd41060e4e724dbb8021c8c1b
+source-git-commit: ab892528a2fbc0ed5994938ead23cd8e33e8b45f
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Household Reach & Frequency]:** このレポートを使用して、デバイスや cookie レベルではなく、IP アドレスに基づいた世帯レベルで、様々な広告フォーマットの単一のディメンションのインプレッション数、リーチおよび頻度を表示します。 インサイトを活用して、メディアミックスを最適化し、パフォーマンスを向上させ、リーチを増やす機会を特定します。 参照：[世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md)」を参照してください。
 
-* **[!UICONTROL Household Conversions]:** このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルでビュースルーコンバージョンを確認します。 インサイトを使用して、キャンペーンのパフォーマンスを測定および最適化します。 参照：[世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md)」を参照してください。
+   * **[!UICONTROL Household Conversions]:** このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルでビュースルーコンバージョンを確認します。 インサイトを使用して、キャンペーンのパフォーマンスを測定および最適化します。 参照：[世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md)」を参照してください。
 
 ## クロスアカウントレポート {#cross-account-reporting}
 
