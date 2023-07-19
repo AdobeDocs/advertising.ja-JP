@@ -3,9 +3,9 @@ title: の概要 [!DNL Analytics for Advertising]
 description: の概要 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 562d6b4be50b5ba248ecfa12e8ff0b60556c326a
+source-git-commit: b9a126983556259aafddc73db8adcfd8f1cb86dd
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 [内のAdobe AdvertisingID [!DNL Analytics]](ids.md) は、他の eVar と同様に機能し、カスタムの永続的な有効期限が設定されます。 デフォルトでは、アトリビューションの実装中、アトリビューションルックバックウィンドウは 60 日にAdobe Advertisingされています。 この設定を変更するには、担当のAdobeアカウントチームにご相談ください。
 
-Adobe Advertisingディメンションには、サフィックス「(AMO ID)」が付きます (「広告タイプ (AMO ID)」など )。 参照：[Analysis WorkspaceのAdobe Advertising指標](advertising-metrics-in-analytics.md)」をクリックします。
+Adobe Advertisingディメンションには、サフィックス「(AMO ID)」が付きます (「広告タイプ (AMO ID)」など )。 参照：[Analysis WorkspaceのAdobe広告指標](advertising-metrics-in-analytics.md)」をクリックします。
 
 >[!NOTE]
 >
@@ -128,15 +128,11 @@ CTV ビュースルーコンバージョン指標を表示するには、Analysi
 
    ランディングページ： `View-Through (CTV)`
 
->[!NOTE]
->
-> また、CTV 配置のビュースルーコンバージョンは、 [DSP [!UICONTROL Household Conversions Report]](/help/dsp/reports/report-about.md).
-
-### Adobe広告ダッシュボードの作成
+### Adobe Advertisingダッシュボードの作成
 
 Analysis Workspaceで目標に合わせてAdobe Advertisingデータを追跡する方法については、ビデオ「[Adobe AnalyticsでのAdobe Advertisingダッシュボードの作成](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
 
-### サイト入口分析にAdobe AdvertisingID を使用する
+### サイト入口分析にAdobe広告 ID を使用する
 
 曜日、時間帯、ブラウザー、地理的な影響を監視するAdobe Advertisingサイトエントリレポートの作成方法については、ビデオを参照してください。[Adobe Advertisingサイト入口レポートの作成](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
 
