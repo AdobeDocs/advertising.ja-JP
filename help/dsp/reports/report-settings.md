@@ -3,7 +3,7 @@ title: カスタムレポート設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 2e0240ff1b342d5a0564e01ebec3ee313b488b59
+source-git-commit: 3faf43573cb073be828b0740f68f0e7d0612a1ef
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]** レポート名。 最大長は 180 文字です。
 
-**[!UICONTROL Report Type]** レポートのタイプ： *[!UICONTROL Custom]* （利用可能な最も多くのオプションを含む） *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*&#x200B;または *[!UICONTROL Household]*.
+**[!UICONTROL Report Type]** レポートのタイプ： *[!UICONTROL Custom]* （利用可能な最も多くのオプションを含む） *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*&#x200B;または *[!UICONTROL Household Conversions]*.
 
 ## [!UICONTROL Apply Filters] セクション
 
@@ -46,15 +46,15 @@ ht-degree: 0%
 
 * [!UICONTROL Dimensions]
 
-   >[!NOTE]
-   >
-   > この [!UICONTROL Household] レポートに含めることができるディメンションは 1 つだけです。
+  >[!NOTE]
+  >
+  > この [!UICONTROL Household Reach & Frequency] レポートに含めることができるディメンションは 1 つだけです。
 
 * [!UICONTROL Metrics]
 
-   >[!NOTE]
-   >
-   >この [!UICONTROL Household] レポートには、重複指標または重複しない指標のどちらか一方のみが含まれます。
+  >[!NOTE]
+  >
+  >この [!UICONTROL Household Reach & Frequency] レポートには、重複指標または重複しない指標のどちらか一方のみが含まれます。
 
 * [!UICONTROL Conversion Metrics] （広告主別に並べ替え）
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 **[!UICONTROL Report Headers]:** 次を実行するかどうか *[!UICONTROL Include]* または *[!UICONTROL Do Not Include]* 列ヘッダー。
 
-**[!UICONTROL Attribution Rule Settings]:** ( すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；Adobe広告コンバージョントラッキングのみを使用する広告主 ) レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータをどのようにアトリビュートするかを説明します。 ルール間の違いを比較する場合は、複数のルールを選択できます。
+**[!UICONTROL Attribution Rule Settings]:** ( すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；Adobe Advertisingコンバージョントラッキングのみを使用する広告主 ) レポート内で、コンバージョンにつながる一連のイベントにコンバージョンデータを関連付ける方法を説明します。 ルール間の違いを比較する場合は、複数のルールを選択できます。
 
 >[!NOTE]
 >
@@ -156,4 +156,3 @@ ht-degree: 0%
 >* [カスタムレポート設定](/help/dsp/reports/report-settings.md)
 >* [レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md)
 >* [使用可能なレポート列](/help/dsp/reports/report-columns.md)
-
