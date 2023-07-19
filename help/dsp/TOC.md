@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: b505a40d04fc57fce245d111f58a614bd6756c65
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 + [最新情報](/help/dsp/home.md)
 + はじめに {#introduction}
-   + [Adobe Advertising DSPの概要](/help/dsp/introduction/dsp-about.md)
+   + [Adobe広告DSPの概要](/help/dsp/introduction/dsp-about.md)
    + 主な特長 {#features}
       + [最適化](/help/dsp/introduction/features/optimization.md)
       + [ブランドの安全性とメディア品質](/help/dsp/introduction/features/brand-safety-media-quality.md)
@@ -207,7 +207,7 @@ ht-degree: 6%
    + [カスタムレポートの実行](/help/dsp/reports/report-run-now.md)
    + [カスタムレポート設定](/help/dsp/reports/report-settings.md)
    + [使用可能なレポート列](/help/dsp/reports/report-columns.md)
-   + [に関する FAQ [!UICONTROL Household] レポート](/help/dsp/reports/faq-household-report.md)
+   + [世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md)
    + レポートの宛先 {#report-destinations}
       + [について [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
       + [の作成 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)

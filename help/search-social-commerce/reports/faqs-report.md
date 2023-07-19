@@ -1,14 +1,15 @@
 ---
-title: レポートに関する FAQ
+title: カスタムレポートに関する FAQ
 description: データの問題のトラブルシューティングなど、パフォーマンスレポートに関するよくある質問への回答を説明します。
-source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
+exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '3917'
+source-wordcount: '3919'
 ht-degree: 0%
 
 ---
 
-# レポートに関する FAQ
+# カスタムレポートに関する FAQ
 
 ## 一般的な質問
 
@@ -208,7 +209,7 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 +++
 
 +++一部の高度なレポートには、広告主フィードが提供するコンバージョンデータが含まれていません。
-この [!UICONTROL Geo Distribution Report] および [!UICONTROL Domain Referral Report] コンバージョントラッキングサービスで取得したAdobe Advertisingを使用し、サービスを持つ広告主のみに対して生成できます。 レポートには、Adobe広告コンバージョントラッキングシステムの外部で追跡されるコンバージョンデータは含まれません。
+この [!UICONTROL Geo Distribution Report] および [!UICONTROL Domain Referral Report] コンバージョントラッキングサービスで取得したAdobe Advertisingを使用し、サービスを持つ広告主のみに対して生成できます。 レポートには、コンバージョントラッキングシステム以外で追跡されるコンバージョンAdobe Advertisingは含まれません。
 +++
 
 +++売上高データは、広告主独自の売上高データとは異なります。
@@ -311,7 +312,7 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 広告ネットワークは、売上高をキャンペーンの個々の広告に関連付けるのに必要な識別子を提供しません。 その結果、 [!UICONTROL Ads] 表示または [!UICONTROL Ad Variation Report]. キャンペーンの広告レベルの合計データとキャンペーンの合計データの間に相違が生じることを想定しています。
 +++
 
-+++ [!UICONTROL Transaction Report]、データフィードのトランザクションプロパティと、トランザクショントラッキングピクセルによって追跡されているトランザクションプロパティを知るには、どうすればよいですか。Adobe Advertisingトラッキングピクセルを使用して追跡を行います。
++++ [!UICONTROL Transaction Report]、データフィードのトランザクションプロパティと、AdobeAdvertising トラッキングピクセルによってトラッキングされているトランザクションプロパティを知るには、どうすればよいですか。
 トランザクションレポートで、カスタム列「[!UICONTROL Tracking URL].&quot; Adobe Advertisingトラッキングピクセルが「`http://pixel.everesttech.net`.&quot;
 +++
 

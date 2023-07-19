@@ -4,9 +4,9 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: 50c462fd58acd9cd36aace933ff56db43c2dbf48
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1720'
 ht-degree: 2%
 
 ---
@@ -349,7 +349,7 @@ ht-degree: 2%
             + [スプレッドシートレポートフィードの設定](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-settings.md)
          + [レポートへの FTP アクセス](/help/search-social-commerce/reports/automation/ftp-reports.md)
       + [アトリビューションルールの計算方法](/help/search-social-commerce/reports/attribution-rules.md)
-      + [レポートに関する FAQ](/help/search-social-commerce/reports/faqs-report.md)
+      + [カスタムレポートに関する FAQ](/help/search-social-commerce/reports/faqs-report.md)
    + 通知 {#notifications}
       + [通知について](/help/search-social-commerce/notifications/notification-about.md)
       + [通知を表示する](/help/search-social-commerce/notifications/notification-view.md)
