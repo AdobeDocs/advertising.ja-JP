@@ -3,9 +3,9 @@ title: の概要 [!DNL Analytics for Advertising]
 description: の概要 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: d4306553d4ad7379672be5bff1bc5cc6f74f70bf
+source-git-commit: e1edbc29e9306afc68f805d198ef3e5ec7f25695
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 [内のAdobe AdvertisingID [!DNL Analytics]](ids.md) は、他の eVar と同様に機能し、カスタムの永続的な有効期限が設定されます。 デフォルトでは、アトリビューションの実装中、アトリビューションルックバックウィンドウは 60 日にAdobe Advertisingされています。 この設定を変更するには、担当のAdobeアカウントチームにご相談ください。
 
-Adobe Advertisingディメンションには、サフィックス「(AMO ID)」が付きます (「広告タイプ (AMO ID)」など )。 参照：[Analysis WorkspaceのAdobe Advertising指標](advertising-metrics-in-analytics.md)」をクリックします。
+Adobe Advertisingディメンションには、サフィックス「(AMO ID)」が付きます (「広告タイプ (AMO ID)」など )。 参照：[Analysis WorkspaceのAdobe広告指標](advertising-metrics-in-analytics.md)」をクリックします。
 
 >[!NOTE]
 >
@@ -102,6 +102,8 @@ Analysis WorkspaceでAdobe Advertisingデータを使用して視覚的なレポ
 
 CTV デバイスでの広告露出をオンサイトコンバージョンにリンクすることで、接続された TV(CTV) キャンペーンの全ファネル効果を測定できます。 CTV ビュースルーコンバージョン指標を表示するには、Analysis Workspaceの配置ビューまたはマーケティングチャネルビューを使用します。
 
+新しい [!UICONTROL Landing Type] フィルター&quot;[!UICONTROL View-through (CTV)]」はコンバージョンを別々の行に分割し、 [!UICONTROL Click Through], [!UICONTROL View Through]、および [!UICONTROL View Through (CTV)] 値。
+
 配置ビューを使用する場合：
 
 1. レポート表示に CTV 支出配置を含める。
@@ -126,7 +128,7 @@ CTV デバイスでの広告露出をオンサイトコンバージョンにリ�
 
    ランディングページ： `View-Through (CTV)`
 
-### Adobe広告ダッシュボードの作成
+### Adobe Advertisingダッシュボードの作成
 
 Analysis Workspaceで目標に合わせてAdobe Advertisingデータを追跡する方法については、ビデオ「[Adobe AnalyticsでのAdobe Advertisingダッシュボードの作成](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
 
@@ -141,5 +143,5 @@ Analysis Workspaceで目標に合わせてAdobe Advertisingデータを追跡す
 >* [Analytics で使用されるAdobe AdvertisingID](ids.md)
 >* [広告用 Analytics の JavaScript コード](/help/integrations/analytics/javascript.md)
 >* [A と B の間で予想されるデータの相違 [!DNL Analytics] およびAdobe Advertising](data-variances.md)
->* [Analysis WorkspaceのAdobe Advertising指標](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [Analysis WorkspaceのAdobe広告指標](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] データのAdobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
