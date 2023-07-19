@@ -1,11 +1,11 @@
 ---
 title: Advertising DSPの新機能
-description: Advertising DSPの最新の更新と新機能について説明します。
+description: Adobe Advertising DSPの最新の更新と新機能について説明します。
 cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 430e9981aa77de2faa06ee55bf3a821474ed84db
+source-git-commit: d17d66c571dd810f98a870b3f8b10e9f8629af48
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
-| 2023 年 7 月 19 日 | レポート | ( ユーザーを [!DNL Analytics for Advertising]) 新しい [!UICONTROL Household Conversions Report]には、接続された TV(CTV) プレースメントのビュースルー変換が含まれます。 データはAdobe Analyticsでも利用できます。 | 参照：[レポートについて](/help/dsp/reports/report-about.md)&quot;および&quot;[世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md).&quot;<br><br>「[の概要 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
+| 2023 年 7 月 19 日 | レポート | ( ユーザーを [!DNL Analytics for Advertising]) 新しい [!UICONTROL Household Conversions Report] には、接続された TV(CTV) プレースメントのビュースルー変換が含まれます。 データはAdobe Analyticsでも利用できます。 | 参照：[レポートについて](/help/dsp/reports/report-about.md)&quot;および&quot;[世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md).&quot;<br><br>「[の概要 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
 | 2023 年 5 月 30 日 | [!UICONTROL Campaigns] | キャンペーン、パッケージおよび広告を一時停止またはアクティブ化できるようになりました。 既に配置を一時停止してアクティブ化していました。 | 参照：[キャンペーンの一時停止またはアクティブ化](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md),&quot; &quot;[パッケージの一時停止またはアクティブ化](/help/dsp/campaign-management/packages/package-pause-activate.md),&quot;および&quot;[広告の一時停止またはアクティブ化](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |
 | 2023 年 5 月 24 日 | [!UICONTROL Campaigns] | ユニバーサルビデオ配置と広告を一般に利用できるようになりました。 | 参照：[ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md),&quot; &quot;[ユニバーサルビデオ広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md),&quot;および&quot;[広告の作成](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | 2023 年 3 月 | [!UICONTROL Reports] | 新しい [!UICONTROL Household Report] は、デバイス/cookie レベルではなく、IP アドレスに基づいた世帯レベルで、様々なディメンションにわたるインプレッション、リーチおよび頻度を表示します。 レポートには、次の 9 つのディメンションが含まれます。 [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length]、およびユーザー作成 [!UICONTROL Tags]. | 参照：[レポートについて](/help/dsp/reports/report-about.md),&quot; &quot;[レポート設定](/help/dsp/reports/report-settings.md),&quot;および&quot;[世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md).&quot; |
@@ -52,7 +52,7 @@ ht-degree: 0%
 |  | [!UICONTROL Ads] | ( 以下を含める許可を有するユーザー [!DNL Clearcast] 広告内の時計番号 ) 別の広告に接続されている時計番号を使用すると、DSPでエラーが表示されなくなりました。 **注意：**  ベストプラクティスは、各ビデオ広告に一意の時計番号を使用することです。 そうしないと、パブリッシャーはすべての広告を承認しません。 | — |
 |  | [!UICONTROL Deal IDs] | この [!UICONTROL Deal ID] ユーザーインターフェイスの設定やその他の場所は、 [!DNL Magnite] SSP:<br><ul><li>SSP &quot;[!DNL Tremor]&quot; ([!DNL Telaria]) は現在&quot;[!DNL Magnite CTV].&quot;</li><li>今後数週間の間に [!DNL Rubicon]」が「[!DNL Magnite DV+],&quot;ここで [!DNL DV+] は、ディスプレイ、ビデオ、およびオーディオなどの他の形式を表します。</li></ul> | 参照：[SSP パートナー](/help/dsp/inventory/ssp-partners.md).&quot; |
 |  | [!DNL Freewheel] 計画的に保証された契約 | 広告を送信し、次の広告のステータスを確認できるようになりました： [!DNL Freewheel] ～からの計画的に保証された契約 [!UICONTROL Ads] 表示 以前は、 [!UICONTROL Deals] 表示 | 参照：[プログラム的に保証された契約の広告をに送信する [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] プログラム的に保証された取引](/help/dsp/inventory/freewheel-check-status.md).&quot; |
-| 2021 年 10 月 8 日 | ヘルプ | すべて [DSPおよびその他のAdobe広告ドキュメント](https://experienceleague.adobe.com/docs/advertising.html) オン [!DNL Experience League] は、すべての使用可能な言語に機械翻訳されるようになりました。 表示言語を変更するには、ページの左下にある「言語を変更」メニューを使用します。<br>![言語を変更](/help/dsp/assets/change-language.png) |
+| 2021 年 10 月 8 日 | ヘルプ | すべて [DSPおよびその他のAdobe Advertisingドキュメント](https://experienceleague.adobe.com/docs/advertising.html) オン [!DNL Experience League] は、すべての使用可能な言語に機械翻訳されるようになりました。 表示言語を変更するには、ページの左下にある「言語を変更」メニューを使用します。<br>![言語を変更](/help/dsp/assets/change-language.png) |
 
 {style="table-layout:auto"}
 
