@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 085e2c40ae65a5bb93c3d1a13036342d2670226b
+source-git-commit: 96e2fdd7137636947788eaed305152a905ebc0a0
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
-| 2023 年 7 月 19 日 | レポート | ( ユーザーを [!DNL Analytics for Advertising]) 接続された TV(CTV) プレースメントのビュースルー変換を、新しい [!UICONTROL Household Conversions Report]. 以前は、これらはAdobe Analytics内にのみ含まれていました。 | 参照：[世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md).&quot; |
 | 2023 年 7 月 14 日 | レポート | ( ユーザーを [!DNL Analytics for Advertising]) 接続された TV(CTV) 配置のビュースルー変換が、Adobe Analytics内で使用できるコンバージョンデータに含まれるようになりました。 | 「[の概要 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
 | 2022 年 11 月 1 日 | ヘルプ | 新しいドキュメントで、Advertising DSPとAdobe Targetの間でクリックスルーおよびビュースルーのシグナル共有を実装し、で A/B テストアクティビティを設定する方法を説明します。 [!DNL Target] DSP広告の設定と、テストデータを表示するAdobe Analytics Analysis Workspaceの設定方法について説明します。 | 参照：[Adobe TargetでDSP Ads 用に A/B テストを設定する](/help/integrations/target/overview-ab-tests.md).&quot; |
 | 2022 年 8 月 18 日 | ヘルプ | 新しい章では、Adobe AdvertisingがAdobe Audience Managerと統合されるすべての方法について説明します。 | 「[Adobe Audience ManagerとのAdobe Advertising統合](/help/integrations/audience-manager/overview.md).&quot; |
