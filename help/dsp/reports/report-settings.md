@@ -3,9 +3,9 @@ title: カスタムレポート設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 3faf43573cb073be828b0740f68f0e7d0612a1ef
+source-git-commit: b41c1ab857d37d21cf593a8e566b18f2769d47c0
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1123'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,22 @@ ht-degree: 0%
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** 列ヘッダーの順序。 任意の列をドラッグ&amp;ドロップして順序をカスタマイズできます。
 
-## [!UICONTROL Multi-Touch Conversion Options] セクション
-
 **[!UICONTROL Format]:** でレポートを生成するかどうか *[!UICONTROL CSV]* （コンマ区切り値）または *[!UICONTROL Tab]* （タブ区切り値）形式を使用します。
 
-**[!UICONTROL Report Headers]:** 次を実行するかどうか *[!UICONTROL Include]* または *[!UICONTROL Do Not Include]* 列ヘッダー。
+**[!UICONTROL Headers]:** 次を実行するかどうか *[!UICONTROL Include]* または *[!UICONTROL Do Not Include]* 列ヘッダー。
 
-**[!UICONTROL Attribution Rule Settings]:** ( すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；Adobe Advertisingコンバージョントラッキングのみを使用する広告主 ) レポート内で、コンバージョンにつながる一連のイベントにコンバージョンデータを関連付ける方法を説明します。 ルール間の違いを比較する場合は、複数のルールを選択できます。
+## [!UICONTROL Multi-Touch Conversion Options] セクション
+
+
+### [!UICONTROL Attribution Rule Settings]
+
+**\[ 属性タイプ\]:** ([!UICONTROL Household Conversion] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；(Adobe Advertisingコンバージョントラッキングのみ ) レポート内で、コンバージョンにつながる一連のイベント内のコンバージョンデータを関連付ける方法を次のように指定します。
+
+* [!UICONTROL Unique]:（デフォルト）ディメンション値（デバイスや配置など）がコンバージョンへのパス上にあった回数をカウントします。
+
+* [!UICONTROL Multi-Touch Attribution (MTA)]:コンバージョンへのパスでのディメンション値（デバイスや配置など）の発生頻度に基づいて、各コンバージョンのクレジットを配分します。 例えば、コンバージョン前に合計 10 件のインプレッションがあり、CTV で 8 件、モバイルで 2 件があった場合、クレジットの 80%(0.8) が CTV 画面に、0.2 がモバイルに割り当てられます。
+
+**\[ ルールタイプ\]:** ( すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；Adobe Advertisingコンバージョントラッキングのみを使用する広告主 ) レポート内で、コンバージョンにつながる一連のイベントにコンバージョンデータを関連付ける方法を説明します。 ルール間の違いを比較する場合は、複数のルールを選択できます。
 
 >[!NOTE]
 >
