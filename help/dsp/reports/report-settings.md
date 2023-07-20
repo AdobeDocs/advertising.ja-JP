@@ -3,9 +3,9 @@ title: カスタムレポート設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 73fb309063066e52e4d8c23f5ce9ebb84159b253
+source-git-commit: 781b0c8874d73d060bc7133bdd55d1ceffb63435
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -74,9 +74,9 @@ ht-degree: 0%
 
 * **\[ 属性タイプ\]:** ([!UICONTROL Household Conversion] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；(Adobe Advertisingコンバージョントラッキングのみ ) レポート内で、コンバージョンにつながる一連のイベント内のコンバージョンデータを関連付ける方法を次のように指定します。
 
-   * [!UICONTROL Unique]:（デフォルト）ディメンション値（デバイスや配置など）がコンバージョンへのパス上にあった回数をカウントします。
+   * *[!UICONTROL Unique]:* （デフォルト）ディメンション値（デバイスや配置など）がコンバージョンへのパス上にあった回数をカウントします。
 
-   * [!UICONTROL Multi-Touch Attribution (MTA)]:コンバージョンへのパスでのディメンション値（デバイスや配置など）の発生頻度に基づいて、各コンバージョンのクレジットを配分します。 例えば、コンバージョン前に合計 10 件のインプレッションがあり、CTV で 8 件、モバイルで 2 件があった場合、クレジットの 80%(0.8) が CTV 画面に、0.2 がモバイルに割り当てられます。
+   * *[!UICONTROL Multi-Touch Attribution (MTA)]:*  コンバージョンへのパスでのディメンション値（デバイスや配置など）の発生頻度に基づいて、各コンバージョンのクレジットを配分します。 例えば、コンバージョン前に合計 10 件のインプレッションがあり、CTV で 8 件、モバイルで 2 件があった場合、クレジットの 80%(0.8) が CTV 画面に、0.2 がモバイルに割り当てられます。
 
 * **\[ ルールタイプ\]:** ( すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；Adobe Advertisingコンバージョントラッキングのみを使用する広告主 ) レポート内で、コンバージョンにつながる一連のイベントにコンバージョンデータを関連付ける方法を説明します。 ルール間の違いを比較する場合は、複数のルールを選択できます。
 
@@ -102,9 +102,7 @@ ht-degree: 0%
 
   <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-<!--
-* **Lookback:** ([!UICONTROL Household Conversion] reports with [!UICONTROL Conversion Metrics] or [!UICONTROL Custom Goals] columns; advertisers with Adobe Advertising conversion tracking only) Within the report, the number of days after a paid click in an event series occurs in which the click can be attributed to a conversion.
--->
+* **ルックバック：** ([!UICONTROL Household Conversion] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；Adobe Advertisingコンバージョンを追跡している広告主のみ ) レポート内で、コンバージョンイベントを発生させるインプレッションイベントの後の最大日数。 デフォルトはです。 *[!UICONTROL 30 days]*&#x200B;の場合、最大の日数は 92 日です。
 
 **[!UICONTROL Paths as Columns]:**  ( すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列 ) 同じデバイスで以前のイベントが発生した場合にレポートするコンバージョンのタイプ。 最大 3 つのタイプを含めることができます。 選択したタイプごとに、各コンバージョン指標に対して個別の列が追加され、指定したサフィックス ([!UICONTROL (tl)], [!UICONTROL (ct)]または [!UICONTROL (vt)]):
 
