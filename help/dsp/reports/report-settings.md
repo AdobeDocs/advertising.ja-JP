@@ -3,9 +3,9 @@ title: カスタムレポート設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 781b0c8874d73d060bc7133bdd55d1ceffb63435
+source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Multi-Touch Conversion Options] セクション
 
-**[!UICONTROL Attribution Rule Settings]** 設定は、レポートタイプによって異なります。
+**[!UICONTROL Attribution Rule Settings]:** 設定は、レポートタイプによって異なります。
 
 * **\[ 属性タイプ\]:** ([!UICONTROL Household Conversion] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；(Adobe Advertisingコンバージョントラッキングのみ ) レポート内で、コンバージョンにつながる一連のイベント内のコンバージョンデータを関連付ける方法を次のように指定します。
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Save Report] セクション
 
-**[!UICONTROL Send & Save]:** レポートを送信するタイミング： *[!UICONTROL On Schedule]* または *[!UICONTROL Run Now]*. 予定レポートは、アカウントのタイムゾーンで 09:00 までに配信されます。
+**[!UICONTROL Send & Save]:** レポートを送信するタイミング： *[!UICONTROL On Schedule]* または *[!UICONTROL Run Now]*. 予定レポートは、アカウントのタイムゾーンで 09:00 に配信されます。
 
 >[!NOTE]
 >
