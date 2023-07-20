@@ -1,7 +1,7 @@
 ---
 title: 「 [!UICONTROL Asset Library]"
 description: 広告アセットのアセットライブラリについて説明します。
-source-git-commit: b0244cf2d56026493bc1902abebbdb660e07b1e2
+source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *ベータ版機能を開く*
 
-In [!UICONTROL Campaigns] > [!UICONTROL Asset Library (Beta)]を使用すると、再利用可能な画像、ビデオおよびテキストアセットを作成して、 [!DNL Google Ads] アカウントレベルのアセットライブラリ。
+In [!UICONTROL Campaigns] > [!UICONTROL Asset Library]を使用すると、再利用可能な画像、ビデオおよびテキストアセットを作成して、 [!DNL Google Ads] アカウントレベルのアセットライブラリ。
 
 広告にアセットを使用するには、 [!DNL Google Ads] 編集者。
 
