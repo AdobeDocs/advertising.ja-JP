@@ -1,9 +1,9 @@
 ---
 title: アセットの作成とアップロード
 description: 再利用可能な画像、ビデオ、テキストアセットを作成し、それらを [!DNL Google Ads] アカウントレベルのアセットライブラリ。
-source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
+source-git-commit: b0244cf2d56026493bc1902abebbdb660e07b1e2
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 *の場合 [!DNL Google Ads] アカウントのみ*
 
-*ベータ版機能*
+*ベータ版機能を開く*
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library (Beta)]**.
 
