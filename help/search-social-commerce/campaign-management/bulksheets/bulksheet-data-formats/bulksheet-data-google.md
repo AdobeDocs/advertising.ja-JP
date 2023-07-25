@@ -1,9 +1,10 @@
 ---
 title: 次に必要なバルクシートデータ： [!DNL Google Ads] アカウント
 description: 次のバルクシートで、必須ヘッダーフィールドとデータフィールドを参照します： [!DNL Google Ads] アカウント。
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
+source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
 workflow-type: tm+mt
-source-wordcount: '7515'
+source-wordcount: '7706'
 ht-degree: 0%
 
 ---
@@ -12,11 +13,22 @@ ht-degree: 0%
 
 作成および更新するには [!DNL Google Ads] キャンペーンデータを一括で使用する場合は、専用の形式の検索、ソーシャル、コマースのバルクシートファイルを使用できます。 [!DNL Google Ads] アカウント。 次のいずれかを実行できます。a) [既存のアカウントに対してバルクシートファイルを生成](../bulksheet-download.md) 必要なファイル形式で、または b) 手動で作成する ([サポートされるバルクシートファイル形式](bulksheet-file-formats.md)」を参照してください )。
 
-{{$include /help/_includes/bulksheet-appendices-intro.md}}
+各バルクシートには、ヘッダーフィールドと、 [実行する特定の操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) （広告の作成など）。 フィールドが必須でない場合は、ヘッダー行とデータ行から省略できます。 バルクシートファイルをアップロードすると、すべてのカスタム列が削除されます。
+
+以下に、使用可能なすべてのデータフィールドの表と、個々のエンティティ（キャンペーン、キーワードなど）のデータの追加、編集、削除に必要なフィールドを示す追加テーブルを示します。
 
 ## すべての使用可能なデータフィールド
 
-{{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+次の表に、使用可能なすべてのデータフィールドを示します。
+
+アカウントエンティティに関連するデータフィールドについては、[各アカウントコンポーネントの作成、編集または削除に必要なフィールド](#bulksheet-fields-per-component-google).
+
+>[!NOTE]
+>
+>* すべてのテキスト列の値では、大文字と小文字が区別されます。
+>* 新しいレコードを作成し、すべての必須データフィールドの値を含めない場合、これらのフィールドの一部には指定されたデフォルト値が割り当てられます。
+>* 以下に指定されていないフィールドの場合は、広告ネットワークのデフォルト値が使用されます。
+>* で使用可能な一括シート行のリスト [!UICONTROL Download Bulksheet] ダイアログは、[広告ネットワーク別のバルクシート行](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).&quot;
 
 | フィールド | 説明 |
 | ---- | ---- |
@@ -116,7 +128,11 @@ ht-degree: 0%
 
 [^1]: [!DNL Excel] は、ファイルを開くときに大きな数を科学的表記 (2115585666の 2.12E+09 など ) に変換します。 標準の表記で数字を表示するには、列内の任意のセルを選択し、数式バーの内側をクリックします。
 
-## 各アカウントコンポーネントの作成、編集または削除に必要なフィールド
+## 各アカウントコンポーネントの作成、編集または削除に必要なフィールド {#bulksheet-fields-per-component-google}
+
+>[!NOTE]
+>
+>1 つのフィールドをアクションに適用できない場合、そのフィールドに入力された値は無視されます。
 
 ### Campaign フィールド
 
