@@ -2,9 +2,9 @@
 title: 次に必要なバルクシートデータ： [!DNL Microsoft Advertising] アカウント
 description: 次のバルクシートで、必須ヘッダーフィールドとデータフィールドを参照します： [!DNL Microsoft Advertising] アカウント。
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 9cdfe415c9ec2d7e7b65d5a46d208329d66ca14a
 workflow-type: tm+mt
-source-wordcount: '6900'
+source-wordcount: '6888'
 ht-degree: 0%
 
 ---
@@ -181,8 +181,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 |
@@ -212,8 +212,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 |
@@ -237,8 +237,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 |
@@ -261,8 +261,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 |
@@ -287,8 +287,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 | |
@@ -319,8 +319,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 |
@@ -349,8 +349,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 |
@@ -370,8 +370,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 |
@@ -394,8 +394,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | 説明行 1 | オプション |
@@ -416,8 +416,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Location] | 必須 |
@@ -431,8 +431,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Device] | デバイスターゲットを削除するために必要です。 |
@@ -447,8 +447,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 広告グループレベルのターゲットの場合は必須です。 キャンペーンレベルのターゲットには適用されません。 |
