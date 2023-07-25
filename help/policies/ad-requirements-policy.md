@@ -1,22 +1,22 @@
 ---
-title: Adobe広告要件ポリシー
+title: Adobe Advertising広告要件ポリシー
 description: 広告要件のポリシーを参照してください。
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 04980842afb60870b2beb851e3e80431ae0b037d
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2070'
 ht-degree: 0%
 
 ---
 
-# Adobe広告要件ポリシー
+# Adobe Advertising広告要件ポリシー
 
-*最終更新日：2021 年 7 月 13 日*
+*最終更新日：2021 年 7 月 12 日（更新された製品名およびこのページの URL を除く）*
 
-*Adobe広告DSPおよびAdobe広告検索の場合*
+*Adobe Advertising DSPとAdobe Advertisingの検索、ソーシャル、コマース*
 
-この Ads Requirements Policy(「Policy」) は、Adobeの On-demand Services を通じて配信されるAdobe広告 (「Services」) の要件を規定します。 本ポリシーは、Adobeとお客様（「お客様」）との間で、オンデマンドサービスを使用する契約に基づいて組み込まれます。 本ポリシーで使用されるが、ここで定義されていない大文字の用語は、本契約に規定される意味を持ちます。
+この Ads Requirements Policy(「Policy」) は、Adobeの On-demand Services を通じて配信されるAdobe Advertising(「Services」) の要件を設定します。 本ポリシーは、Adobeとお客様（「お客様」）との間で、オンデマンドサービスを使用する契約に基づいて組み込まれます。 本ポリシーで使用されるが、ここで定義されていない大文字の用語は、本契約に規定される意味を持ちます。
 
 Adobeは、広告又は広告がリダイレクト又はリンク先のウェブサイトが本ポリシーの要件に違反するか否かを単独の判断で決定する権利を留保します。この場合、Adobeは、当該広告を拒否し、本サービスへのアクセスを停止又は停止します。
 
@@ -26,7 +26,7 @@ Adobeは、広告又は広告がリダイレクト又はリンク先のウェブ
 
 ### クリエイティブ要件
 
-オンデマンドサービスを通じて送信、保存、表示、配布、またはその他の方法で提供されるすべての広告は、Adobeの広告仕様に含まれる広告仕様と一致している必要があります。これは、時々Adobeによって変更されます。
+オンデマンドサービスを通じて送信、保存、表示、配布、またはその他の方法で提供されるすべての広告は、Adobe Advertisingの広告仕様に含まれる広告仕様と一致している必要があります。これは、時々Adobeによって変更されます。
 
 ### 禁止されている広告
 
@@ -128,4 +128,3 @@ Adobeは、広告又は広告がリダイレクト又はリンク先のウェブ
 >[!MORELIKETHIS]
 >
 >* [Acceptable Health Segment Guidelines](/help/policies/health-segment-guidelines.md)
-
