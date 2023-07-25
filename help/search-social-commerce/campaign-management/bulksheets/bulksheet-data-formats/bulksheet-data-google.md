@@ -2,9 +2,9 @@
 title: 次に必要なバルクシートデータ： [!DNL Google Ads] アカウント
 description: 次のバルクシートで、必須ヘッダーフィールドとデータフィールドを参照します： [!DNL Google Ads] アカウント。
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
+source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
 workflow-type: tm+mt
-source-wordcount: '7729'
+source-wordcount: '7884'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 次の表に、使用可能なすべてのデータフィールドを示します。
 
-アカウントエンティティに関連するデータフィールドについては、[各アカウントコンポーネントの作成、編集または削除に必要なフィールド](#bulksheet-fields-per-component-google).
+アカウントエンティティに関連するデータフィールドについては、[各アカウントコンポーネントの作成、編集または削除に必要なフィールド](#bulksheet-fields-per-component-google).&quot;
 
 >[!NOTE]
 >
@@ -132,13 +132,13 @@ ht-degree: 0%
 
 以下のセクションでは、特定のアカウントエンティティに関連するフィールドについて説明します。
 
-各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
-
 >[!NOTE]
 >
 >1 つのフィールドをアクションに適用できない場合、そのフィールドに入力された値は無視されます。
 
 ### Campaign フィールド
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
 | フィールド | 必須？ |
 | ---- | ---- |
@@ -169,6 +169,8 @@ ht-degree: 0%
 
 ### 広告グループフィールド
 
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
+
 | フィールド | 必須？ |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
@@ -188,6 +190,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### キーワードフィールド
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
@@ -211,6 +215,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### 配置フィールド
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
@@ -238,6 +244,8 @@ ht-degree: 0%
 
 この広告タイプでは、[!UICONTROL Creative (except RSA)]」行を [!UICONTROL Download Bulksheet] ダイアログ。
 
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
+
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
@@ -261,6 +269,8 @@ ht-degree: 0%
 
 この広告タイプでは、[!UICONTROL Creative (except RSA)]」行を [!UICONTROL Download Bulksheet] ダイアログ。
 
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
+
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
@@ -282,6 +292,8 @@ ht-degree: 0%
 ### レスポンシブ検索広告フィールド
 
 この広告タイプでは、[!UICONTROL Responsive Search Ad]」行を [!UICONTROL Download Bulksheet] ダイアログ。
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
@@ -308,6 +320,8 @@ ht-degree: 0%
 ### テキスト広告フィールド
 
 この広告タイプでは、[!UICONTROL Creative (except RSA)]」行を [!UICONTROL Download Bulksheet] ダイアログ。
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
 >[!NOTE]
 >
@@ -337,6 +351,8 @@ ht-degree: 0%
 
 ### 動的検索ターゲット（自動ターゲット）フィールド
 
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
+
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
@@ -354,6 +370,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### 買い物製品グループのフィールド
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
@@ -377,6 +395,8 @@ ht-degree: 0%
 
 ### キャンペーンレベルおよび広告グループレベルのサイトリンクフィールド
 
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
+
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
@@ -394,7 +414,9 @@ ht-degree: 0%
 | [!UICONTROL Sitelink ID] | サイトリンクを識別するのに十分なプロパティ列（a を含む場合を除く）または b) および&quot;[!UICONTROL AMO ID].&quot; ただし、 [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]  およびプロパティ列が複数のサイトリンクに一致する場合、1 つのサイトリンクのステータスのみが変更されます。<br><br><b>注意：</b> サイトリンクプロパティの列を編集する場合、次の項目を除く [!UICONTROL Status] 既存のサイトリンクの場合、 [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]をクリックした場合、新しいサイトリンクが作成され、既存のサイトリンクは変更されません。 |
 | [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
-### 場所のターゲットフィールド
+### 場所のターゲット
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
@@ -408,6 +430,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | を含めない限り、データを編集または削除するために必要 [!UICONTROL Campaign ID].<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### キャンペーンレベルおよび広告グループレベルのデバイスターゲットフィールド
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
@@ -423,6 +447,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | デバイスターゲット ID を含めない限り、データの編集または削除に必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### キャンペーンレベルおよび広告グループレベルの RLSA ターゲット/除外フィールド
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |

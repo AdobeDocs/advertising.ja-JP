@@ -2,9 +2,9 @@
 title: 次に必要なバルクシートデータ： [!DNL Microsoft Advertising] アカウント
 description: 次のバルクシートで、必須ヘッダーフィールドとデータフィールドを参照します： [!DNL Microsoft Advertising] アカウント。
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
+source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
 workflow-type: tm+mt
-source-wordcount: '6744'
+source-wordcount: '6900'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 次の表に、使用可能なすべてのデータフィールドを示します。
 
-アカウントエンティティに関連するデータフィールドについては、[各アカウントコンポーネントの作成、編集または削除に必要なフィールド](#bulksheet-fields-per-component-microsoft).
+アカウントエンティティに関連するデータフィールドについては、[各アカウントコンポーネントの作成、編集または削除に必要なフィールド](#bulksheet-fields-per-component-microsoft).&quot;
 
 | フィールド | 説明 |
 |----|----|
@@ -121,13 +121,13 @@ ht-degree: 0%
 
 以下のセクションでは、特定のアカウントエンティティに関連するフィールドについて説明します。
 
-各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
-
 >[!NOTE]
 >
 >1 つのフィールドをアクションに適用できない場合、そのフィールドに入力された値は無視されます。
 
 ### Campaign フィールド
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
 | フィールド | 必須？ |
 | ---- | ---- |
@@ -155,6 +155,8 @@ ht-degree: 0%
 
 ### 広告グループフィールド
 
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
+
 | フィールド | 必須？ |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
@@ -176,6 +178,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### キーワードフィールド
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
@@ -206,6 +210,8 @@ ht-degree: 0%
 
 この広告タイプでは、[!UICONTROL Creative (except RSA)]」行を [!UICONTROL Download Bulksheet] ダイアログ。
 
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
+
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
@@ -229,6 +235,8 @@ ht-degree: 0%
 
 この広告タイプでは、[!UICONTROL Creative (except RSA)]」行を [!UICONTROL Download Bulksheet] ダイアログ。
 
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
+
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
@@ -250,6 +258,8 @@ ht-degree: 0%
 ### レスポンシブ（マルチメディア）広告フィールド
 
 この広告タイプでは、[!UICONTROL Creative (except RSA)]」行を [!UICONTROL Download Bulksheet] ダイアログ。
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
@@ -274,6 +284,8 @@ ht-degree: 0%
 ### レスポンシブ検索広告フィールド
 
 この広告タイプでは、[!UICONTROL Responsive Search Ad]」行を [!UICONTROL Download Bulksheet] ダイアログ。
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
@@ -305,6 +317,8 @@ ht-degree: 0%
 >
 >拡張テキスト広告は非推奨になりました。 既存のテキスト広告のみを削除できます。
 
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
+
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
@@ -333,6 +347,8 @@ ht-degree: 0%
 >
 >サポートを作成できません。
 
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
+
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
@@ -351,6 +367,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### 買い物製品グループのフィールド
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
@@ -374,6 +392,8 @@ ht-degree: 0%
 
 ### キャンペーンレベルのサイトリンクフィールド
 
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
+
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
@@ -394,6 +414,8 @@ ht-degree: 0%
 
 ### 場所のターゲットフィールド
 
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
+
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
@@ -406,6 +428,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | キャンペーン ID を含めない限り、データの編集または削除に必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### キャンペーンレベルおよび広告グループレベルのデバイスターゲットフィールド
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
@@ -420,6 +444,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | デバイスターゲット ID を含めない限り、データの編集または削除に必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 
 ### キャンペーンレベルおよび広告グループレベルの RLSA ターゲットフィールド
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
 | フィールド | 必須？ | 説明 |
 | ---- | ---- | ---- |
