@@ -2,9 +2,9 @@
 title: 次に必要なバルクシートデータ： [!DNL Google Ads] アカウント
 description: 次のバルクシートで、必須ヘッダーフィールドとデータフィールドを参照します： [!DNL Google Ads] アカウント。
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 25f9deef6302065a6576a07fcb880e81470886e5
 workflow-type: tm+mt
-source-wordcount: '7884'
+source-wordcount: '7839'
 ht-degree: 0%
 
 ---
@@ -143,8 +143,8 @@ ht-degree: 0%
 | フィールド | 必須？ |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
-| [!UICONTROL Campaign Name] | 必須 | アカウントのキャンペーンを識別する一意の名前。 |
-| [!UICONTROL Campaign Budget] | キャンペーンを作成するために必要です。 | キャンペーンに対する 1 日の支出制限。通貨記号や句読点の有無は問いません。 この値は上書きされますが、アカウント予算を超えることはできません。 |
+| [!UICONTROL Campaign Name] | 必須 |
+| [!UICONTROL Campaign Budget] | キャンペーンを作成するために必要です。 |
 | [!UICONTROL Delivery Method] | キャンペーンを作成するために必要です。 |
 | [!UICONTROL Channel Type] | キャンペーンを作成するために必要です。 |
 | [!UICONTROL Networks] | キャンペーンを作成するために必要です。 |
@@ -193,8 +193,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 |
@@ -218,8 +218,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 |
@@ -246,8 +246,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 |
@@ -271,8 +271,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 |
@@ -295,8 +295,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 | |
@@ -327,8 +327,8 @@ ht-degree: 0%
 >
 >拡張テキスト広告は、2022 年 6 月に非推奨（廃止予定）となりました。 既存のテキスト広告のみを削除できます。
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 |
@@ -353,8 +353,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 |
@@ -373,8 +373,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 必須 |
@@ -397,8 +397,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Ad Group Name] | 広告グループレベルのサイトリンクの場合は必須です。 キャンペーンレベルのサイトリンクには適用されません。 |
@@ -418,8 +418,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Location] | 必須 |
@@ -433,8 +433,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Device] | デバイスターゲットを作成または編集するために必要です。 |
@@ -450,8 +450,8 @@ ht-degree: 0%
 
 各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-google).&quot;
 
-| フィールド | 必須？ | 説明 |
-| ---- | ---- | ---- |
+| フィールド | 必須？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 各行に「[!UICONTROL AMO ID]」と入力します。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Bid Adjustment] | オプション |
