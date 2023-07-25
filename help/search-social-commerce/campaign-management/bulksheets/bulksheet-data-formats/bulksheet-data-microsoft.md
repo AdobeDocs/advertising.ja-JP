@@ -2,9 +2,9 @@
 title: 次に必要なバルクシートデータ： [!DNL Microsoft Advertising] アカウント
 description: 次のバルクシートで、必須ヘッダーフィールドとデータフィールドを参照します： [!DNL Microsoft Advertising] アカウント。
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: e4901c1ac6e73f27886e315136c3fe9b865cdd48
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '6721'
+source-wordcount: '6744'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 以下に、使用可能なすべてのデータフィールドの表と、個々のエンティティ（キャンペーン、キーワードなど）のデータの追加、編集、削除に必要なフィールドを示す追加テーブルを示します。
 
-## すべての使用可能なデータフィールド
+## すべての使用可能なデータフィールド {#bulksheet-fields-all-microsoft}
 
 次の表に、使用可能なすべてのデータフィールドを示します。
 
@@ -118,6 +118,10 @@ ht-degree: 0%
 [^1]: [!DNL Excel] は、ファイルを開くときに大きな数を科学的表記 (2115585666の 2.12E+09 など ) に変換します。 標準の表記で数字を表示するには、列内の任意のセルを選択し、数式バーの内側をクリックします。
 
 ## 各アカウントコンポーネントの作成、編集または削除に必要なフィールド {#bulksheet-fields-per-component-microsoft}
+
+以下のセクションでは、特定のアカウントエンティティに関連するフィールドについて説明します。
+
+各データフィールドの説明については、[すべての使用可能なデータフィールド](#bulksheet-fields-all-microsoft).&quot;
 
 >[!NOTE]
 >
