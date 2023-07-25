@@ -54,7 +54,7 @@ ht-degree: 0%
 
 [^1]:ほとんどの広告ネットワークおよびキャンペーンタイプで、[!UICONTROL EF Redirect]&quot;および&quot;[!UICONTROL Auto Upload]「アクティブなキャンペーンのトラッキング設定（キャンペーンレベルで設定するか、アカウント設定から継承）は、広告グループコンポーネントのトラッキング URL を自動的に作成し、広告ネットワークにアップロードします。 それ以外の場合は、トラッキング URL を生成し、アカウント、キャンペーンまたはキャンペーンコンポーネントの設定に追加する必要があります。 参照：[広告ネットワークおよびオブジェクト別にクリック追跡 URL を生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 
-[^2]:検索、ソーシャル、コマースから利用できる最適化ガイドの「キャンペーン入札戦略別の適格なポートフォリオタイプ」を参照してください。
+[^2]:検索、ソーシャル、コマースから利用できる最適化ガイドの「キャンペーン入札戦略別の適格なポートフォリオタイプ」を参照してください。 &#x200B;
 
 [^3]:Adobe Analyticsとの統合が必要です。 参照：[Adobe Advertising向け Analytics の概要](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html).&quot;
 
