@@ -3,9 +3,9 @@ title: 基本レポートと高度なレポートのレポート列
 description: 基本レポートと高度なレポートで使用できるデータ列について説明します。
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: d0b5107363336d5c946f4011e56dc83d2165397d
 workflow-type: tm+mt
-source-wordcount: '3583'
+source-wordcount: '3606'
 ht-degree: 0%
 
 ---
@@ -134,6 +134,8 @@ ht-degree: 0%
 | [!UICONTROL Network Ad Group ID] | ネットワークによって割り当てられた広告グループ ID。 |
 | [!UICONTROL Network Campaign ID] | ネットワークによって割り当てられたキャンペーン ID。 |
 | [!UICONTROL Objective Name] | ポートフォリオの目的。 |
+| [!UICONTROL Objective Value] | ポートフォリオの現在の目標に従って計算された、合計加重コンバージョン。 参照：[目標値](/help/search-social-commerce/glossary.md#o-p).&quot; |
+| [!UICONTROL Objective Value Calculation] | 目標値の導き出しに使用される計算。 |
 | [!UICONTROL Outbound Clicks] | ([!DNL Meta] 広告 ) ユーザーを離脱させる広告内のリンクのクリック数 [!DNL Meta]-owned プロパティ。 |
 | [!UICONTROL Parent Product Groupings] | 親製品グループの完全な階層。 `>>` 層間 ( `All Products>>CategoryL1=Animals`) に書き込まれます。 |
 | [!UICONTROL Partition Type] | 製品グループのタイプ： <i>[!UICONTROL Sub-Division]</i> （親製品グループ）または <i>[!UICONTROL Unit]</i> （入札を持つ子製品グループの最下位レベル）。 |
@@ -173,8 +175,17 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) トランザクションを完了したユーザーの ID。 |
 | [!UICONTROL Through Plays] | ([!DNL Meta] ads) 広告全体を視聴した視聴回数。 |
 | [!UICONTROL Top of Page CPC] | (Googleキャンペーンのみ ) 指定した日付範囲で検索結果ページの先頭に表示される広告のクリック単価 (CPC)。 |
-
-| [!UICONTROL Tracking URL] | （検索ターゲットキーワードのみ）（該当する場合）検索、ソーシャル、コマースのトラッキングコードに埋め込まれた、トラッキングテンプレートまたはリンク先 URL。 | | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) トランザクションのクレジットが付与される広告主固有のトランザクションプロパティ。 | | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) 指定したトランザクションプロパティがクレジットされた時刻。 | | [!UICONTROL User Account Type] |旧式 | | [!UICONTROL User SE Account ID] | Search、Social および Commerce が広告ネットワークに割り当てる数値 ID。 | | [!UICONTROL Video Average Play Time] | ([!DNL Meta] ads) 単一のインプレッションに対する、ビデオの再生に費やされた時間を含む、ビデオが再生された平均時間。 | | [!UICONTROL Video Plays] | ([!DNL Meta] ads) ビデオの再生が開始された回数（再生を除く）。 | | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate]、および [!UICONTROL VideoQuartile100Rate] | （ビデオ広告）再生回数の 25%、50%、75%または 100%のビデオの割合。 | | [!UICONTROL View Rate] | （ビデオ広告）視聴回数またはアクション数を、広告（ビデオおよびサムネールのインプレッション）が表示された回数で割った値です。 | | [!UICONTROL Views] | （ビデオ広告）ユーザーが広告を視聴した、または関与した回数です。 | | [!UICONTROL ViewThroughConversions] | （Audience Network 上の広告）1 つ以上のインプレッションによるコンバージョンで、クリックがなかったコンバージョンの数。 |
+| [!UICONTROL Tracking URL] | （検索ターゲットキーワードのみ）（該当する場合）検索、ソーシャル、コマースのトラッキングコードに埋め込まれた、トラッキングテンプレートまたはリンク先 URL。 |
+| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) トランザクションのクレジットが付与される広告主固有のトランザクションプロパティ。 |
+| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) 指定したトランザクションプロパティがクレジットされた時刻。 |
+| [!UICONTROL User Account Type] | 廃止 |
+| [!UICONTROL User SE Account ID] | Search、Social および Commerce が広告ネットワークに割り当てる数値 ID。 |
+| [!UICONTROL Video Average Play Time] | ([!DNL Meta] ads) 単一のインプレッションに対する、ビデオの再生に費やされた時間を含む、ビデオが再生された平均時間。 |
+| [!UICONTROL Video Plays] | ([!DNL Meta] ads) ビデオの再生が開始された回数（再生を除く）。 |
+| [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate]、および [!UICONTROL VideoQuartile100Rate] | （ビデオ広告）再生回数の 25%、50%、75%または 100%であったビデオの割合。 |
+| [!UICONTROL View Rate] | （ビデオ広告）視聴回数またはアクション数を、広告（ビデオおよびサムネールのインプレッション）が表示された回数で割った値です。 |
+| [!UICONTROL Views] | （ビデオ広告）ユーザーが広告を視聴した、または関与した回数です。 |
+| [!UICONTROL ViewThroughConversions] | (Ads on the audience network)1 つ以上のインプレッションに起因し、クリックは発生しなかったコンバージョンの数。 |
 
 <table style="table-layout:auto">
 

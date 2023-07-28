@@ -3,9 +3,9 @@ title: 次に必要なバルクシートデータ： [!DNL Google Ads] アカウ
 description: 次のバルクシートで、必須ヘッダーフィールドとデータフィールドを参照します： [!DNL Google Ads] アカウント。
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: db4cde38d61fa86b52c86cd83fa9fc3b78b9abad
 workflow-type: tm+mt
-source-wordcount: '7839'
+source-wordcount: '7842'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 | [!UICONTROL Location Type] | （場所を含める場合） [場所の種類](https://developers.google.com/google-ads/api/data/geotargets). |
 | [!UICONTROL Device] | キャンペーンまたは広告グループレベルで入札の調整がおこなわれるデバイスタイプ。 <i>[!UICONTROL smartphone]</i>, <i>[!UICONTROL tablet]</i>または <i>[!UICONTROL desktop]</i>. |
 | [!UICONTROL Bid Adjustment] | <p>( [!UICONTROL Location], [!UICONTROL Device]または [!UICONTROL RLSA] （ターゲット）特定の場所、特定のデバイスタイプ、または特定のオーディエンスターゲットのどちらで広告の入札を調整するかを指定します。</p><ul><li><p>キーワードレベルの入札（0%の差異）を使用するには、0 を入力します。 新しいターゲットの場合は、空白のままにすることもできます。</p></li><li><p>このターゲットに異なる入札を使用するには、入札を増減する割合を入力します。</p></li><ul><li><p>ロケーションおよび RLSA ターゲットの場合、有効な割合は —90 ～ 900 です。</p></li><li><p>デバイスの入札調整の場合、有効な割合は次のとおりです。</p></li><ul><li><p>（キャンペーン） —100（デバイスタイプで広告を入札しない）または —90 ～ 900。</p></li><li><p>（広告グループ） -100 （デバイスタイプに対して入札しない）、-90 ～ 900 （すべてのデバイスタイプに対して）。</p></li></ul></ul><li><p>（既存のキャンペーンおよび広告グループ）既存の入札調整を使用する場合は、これを空白のままにします。</p></li></ul> |
-| [!UICONTROL Adobe Rec Bid Adjustment] | （情報提供のために生成された一括送信シートに含まれます）Adobeがキャンペーンレベルのロケーションターゲットまたは RLSA に推奨する読み取り専用の入札調整。 キャンペーンが重み付けされた収益の目標 ( [!UICONTROL Maximize Clicks] 目的として )、およびキャンペーンに 2 つ以上のロケーションターゲットまたは RLSA が含まれている（過去 90 日間に 5 回以上のクリックまたは 5 USD のコストがかかる）場合。</p><p>ロケーションターゲットまたは RLSA を手動で編集して推奨値を使用する場合は、ロケーションターゲットまたは RLSA を作成して十分なデータ収集を可能にしてから 2 週間以上待ち、値を週に 1 回以上変更しないでください。 |
+| [!UICONTROL Adobe Rec Bid Adjustment] | （情報提供のために生成された一括送信シートに含まれます）Adobeがキャンペーンレベルのロケーションターゲットまたは RLSA に推奨する読み取り専用の入札調整。 キャンペーンがポートフォリオ内にあり、重み付けされたコンバージョン指標を使用する ( [!UICONTROL Maximize Clicks] 目的として )、およびキャンペーンに 2 つ以上のロケーションターゲットまたは RLSA が含まれている（過去 90 日間に 5 回以上のクリックまたは 5 USD のコストがかかる）場合。</p><p>ロケーションターゲットまたは RLSA を手動で編集して推奨値を使用する場合は、ロケーションターゲットまたは RLSA を作成して十分なデータ収集を可能にしてから 2 週間以上待ち、値を週に 1 回以上変更しないでください。 |
 | [!UICONTROL Device Targets] | <p>（従来のキャンペーンタイプのみ）広告が表示されるデバイス： <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL Computers]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL Smartphones]</i></span>または <span style="font-style: italic;"><i>[!UICONTROL Tablets]</i></span>. 新しいキャンペーンの場合、デフォルトはです。 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>.</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | （従来のキャンペーンタイプのみ、デバイスターゲットに「スマートフォン」または「タブレット」が含まれる場合に適用）広告が表示されるオペレーティングシステム： <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL Android]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL iOS]</i></span>または <span style="font-style: italic;"><i>[!UICONTROL Palm]</i></span>. 新しいキャンペーンの場合、デフォルトはです。 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>.</p> |
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>( 従来のキャンペーンタイプのみ、 [!UICONTROL Device Targets] &quot;[!UICONTROL All]&quot;または&quot;[!UICONTROL Smartphones]（イ）スマートフォンが接続される携帯電話会社 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>または 1 つ以上の通信事業者で、 &lt;c span=&quot;&quot; id=&quot;4&quot; translate=&quot;no&quot; />キャリアコード</i></span>>,&lt;<span style="font-style: italic;"><i>国コード</i></span>>（T-Mobile、US など） <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">使用可能な通信事業者およびコード [!DNL Google Ads]</a>. <span style="font-style: italic;"><i>複数の通信事業者をセミコロンで区切ります（T-Mobile、US、T-Mobile、GB など）。 新しいキャンペーンの場合、デフォルトはです。 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>.</p> |
