@@ -2,7 +2,8 @@
 title: 投稿のレコメンデーションとインサイトをポートフォリオで使用する際のベストプラクティス
 description: を使用する際のベストプラクティスを学ぶ [!DNL Google Ads] recommendations を検索、ソーシャル、コマースのポートフォリオに追加します。
 exl-id: 8362a0e1-9a0d-4287-a1dd-b7ec77985744
-source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -30,4 +31,4 @@ ht-degree: 0%
 >* [パブリッシャーのレコメンデーションおよびインサイトのサポートについて](recommendation-support.md)
 >* [パブリッシャーのレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
 >* [を適用または解除 [!DNL Google Ads] recommendation](google-recommendation-apply-dismiss.md)
->* [のレコメンデーションログを表示 [!DNL Google Ads] アカウント](google-recommendation-view-log.md)
+>* [のレコメンデーションログを表示する [!DNL Google Ads] アカウント](google-recommendation-view-log.md)

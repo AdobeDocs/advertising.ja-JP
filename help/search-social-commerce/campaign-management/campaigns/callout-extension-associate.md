@@ -1,7 +1,9 @@
 ---
 title: 関連付け [!DNL Google Ads] キャンペーンまたは広告グループで共有された引き出し線拡張
 description: 割り当て方法を学ぶ [!DNL Google Ads] キャンペーンまたは広告グループへの共有引き出し線の拡張
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 17ee3de7-562e-4ed4-bf03-3b5e728d8a68
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -24,21 +26,20 @@ ht-degree: 0%
 
 1. キャンペーンまたは広告グループに引き出し線を割り当てます。
 
-   1. 内 [!UICONTROL Callouts] 「 」セクションで、ライブラリ内のすべての引き出し線のリストから適切な引き出し線を選択します。
+   1. Adobe Analytics の [!UICONTROL Callouts] 「 」セクションで、ライブラリ内のすべての引き出し線のリストから適切な引き出し線を選択します。
 
-   1. 内 [!UICONTROL Assignment] セクションで、選択した引き出し線が割り当てられるキャンペーンおよび広告グループを選択します。
+   1. Adobe Analytics の [!UICONTROL Assignment] セクションで、選択した引き出し線が割り当てられるキャンペーンおよび広告グループを選択します。
 
       * （オプション）キャンペーンを展開して、子の広告グループを表示するには、キャンペーン名をクリックします。
 
       * （オプション）名前に含まれるテキスト文字列でキャンペーンリストまたは広告グループリストをフィルタリングするには、 ![フィルター](/help/search-social-commerce/assets/filter.png "フィルター")をクリックし、テキスト文字列を入力フィールドに入力または貼り付けて、 **入力** キー。
 
       * エンティティを選択するには、エンティティの横にある円 (![選択](/help/search-social-commerce/assets/include.png "選択")) をクリックします。
-   1. クリック **[!UICONTROL Post]**.
 
+   1. クリック **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >
->* [について [!DNL Google Ads] 引き出し線拡張](callout-extension-about.md)
->* [管理 [!DNL Google Ads] 引き出し線拡張](callout-extension-manage.md)
+>* [について [!DNL Google Ads] 引き出し線の拡張](callout-extension-about.md)
+>* [管理 [!DNL Google Ads] 引き出し線の拡張](callout-extension-manage.md)
 >* [キャンペーンおよび広告グループに関連付けられた広告拡張の削除](/help/search-social-commerce/campaign-management/campaigns/ad-extension-association-delete.md)
-

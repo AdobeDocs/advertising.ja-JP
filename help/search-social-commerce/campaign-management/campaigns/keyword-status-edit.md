@@ -1,7 +1,9 @@
 ---
 title: キーワードと除外キーワードのステータスの変更
 description: キーワードと除外キーワードのステータスを変更する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c1562104-048e-486d-b20c-3c15f089324d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -28,11 +30,10 @@ ht-degree: 0%
 
    * （入札可能なキーワードのみ）行を一時停止するには、 ![一時停止](/help/search-social-commerce/assets/pause.png "一時停止").
 
-   * 行を削除するには、 ![詳細](/help/search-social-commerce/assets/more.png "詳細") を選択し、 **[!UICONTROL Delete]**. 確認メッセージで、 **[!UICONTROL Delete]**.
+   * 行を削除するには、 ![その他](/help/search-social-commerce/assets/more.png "その他") を選択し、 **[!UICONTROL Delete]**. 確認メッセージで、 **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
 >* [キーワードについて](keyword-about.md)
 >* [入札可能なキーワードの管理](keyword-manage.md)
 >* [除外キーワードの作成](keyword-negative-create.md)
-

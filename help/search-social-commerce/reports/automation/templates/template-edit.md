@@ -1,7 +1,9 @@
 ---
 title: レポートテンプレートの編集
 description: 再利用可能なレポートテンプレートの設定を編集する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8e195b60-8c58-460b-bc61-19dd2452d332
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -22,7 +24,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 設定を編集する際に、「[!UICONTROL Save as template]」 [!UICONTROL Scheduling and Delivery] 」セクションに入力します。 これにより、別の名前で新しいテンプレートを作成するよう求められます。
+   > 設定を編集する際に、「[!UICONTROL Save as template]」が [!UICONTROL Scheduling and Delivery] 」セクションに入力します。 これにより、別の名前で新しいテンプレートを作成するよう求められます。
 
 1. クリック **[!UICONTROL Update Template]**.
 
@@ -32,4 +34,3 @@ ht-degree: 0%
 >* [レポートテンプレートの作成](template-create.md)
 >* [レポートテンプレートの表示](template-view.md)
 >* [レポートテンプレートの削除](template-delete.md)
-

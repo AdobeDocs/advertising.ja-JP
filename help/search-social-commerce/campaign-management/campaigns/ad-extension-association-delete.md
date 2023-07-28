@@ -1,7 +1,9 @@
 ---
 title: キャンペーンおよび広告グループに関連付けられた広告拡張の削除
 description: キャンペーンと広告グループとの関連付けを解除する方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 89aa556b-65fa-43de-989a-f58f0bbcf1f2
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -20,13 +22,12 @@ ht-degree: 0%
 
    複数の行を選択する際のヒントは、「[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
-1. ツールバーで、 ![詳細](/help/search-social-commerce/assets/more.png "詳細") を選択し、 **[!UICONTROL Delete]**.
+1. ツールバーで、 ![その他](/help/search-social-commerce/assets/more.png "その他") を選択し、 **[!UICONTROL Delete]**.
 
 1. 確認メッセージで、 **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
->* [管理 [!DNL Google Ads] 引き出し線拡張](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
+>* [管理 [!DNL Google Ads] 引き出し線の拡張](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
 >* [場所の拡張を管理](location-extension-manage.md)
 >* [サイトリンク拡張の管理](sitelink-extension-manage.md)
-

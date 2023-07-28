@@ -1,7 +1,8 @@
 ---
 title: "[!UICONTROL MSA Ad Extension by Ad Report]"
 description: 詳しくは、 [!UICONTROL MSA Ad Extension by Ad Report].
-source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 このレポートは、各広告拡張機能の集計インプレッション数、クリック数、支出数、クリックあたりの平均コストを広告別に表示します。 このレポートを使用して、広告拡張機能の様々なバージョンのパフォーマンスを比較します。
 
-指標列のみでディメンションも含まないレポートを実行すると、生成されるレポートには 2 つの重複行が含まれます。1 つは集計データを持ち、もう 1 つはすべての指標を持ちます。<!-- all metrics? -->
+指標の列のみでディメンションがないレポートを実行すると、生成されるレポートには、2 つの重複した行が含まれます。1 つは集計データを持つ行、もう 1 つはすべての指標を持つ行です。<!-- all metrics? -->
 
-過去 180 日間のデータを表示できます。 Search, Social, &amp; Commerce がデータを取り込む [!DNL Microsoft Advertising] リアルタイムで生成され、データ量が大きいレポートの生成には数分かかる場合があります。
+過去 180 日間のデータを表示できます。 Search, Social, &amp; Commerce がデータを取得 [!DNL Microsoft Advertising] リアルタイムで生成され、データ量が大きいレポートの生成には数分かかる場合があります。
 
 >[!NOTE]
 >
@@ -47,4 +48,4 @@ ht-degree: 0%
 >
 >* [特殊レポートについて](specialty-report-about.md)
 >* [特殊なレポートの生成](specialty-report-generate.md)
->* [特殊レポート設定](specialty-report-settings.md)
+>* [特殊なレポート設定](specialty-report-settings.md)

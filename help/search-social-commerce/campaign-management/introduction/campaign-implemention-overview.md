@@ -1,7 +1,9 @@
 ---
 title: 広告ネットワークアカウントとキャンペーンの実装の概要
 description: 広告ネットワークアカウントの設定、同期、管理に関するタスクについて説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -43,32 +45,32 @@ Adobeは、各広告主と連携して、広告ネットワークアカウント
       * (Baidu、Google Ads、Microsoft Advertising、Yahoo! Japan Ads、および Yandex アカウントのみ ) のアップロード [bulksheet ファイル](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) アカウントに必要な数のデータを含み、それらを広告ネットワークに投稿します。
 
       * (Baidu、Google Ads、Microsoft Advertising、Yahoo! Japan Ads および Yandex アカウントのみ ) 個々のコンポーネントのデータを直接インターフェイスに入力します。 ほとんどのキャンペーンおよび広告タイプでは、キャンペーンレベル、広告グループレベル、個々のキーワード、配置、広告レベルでデータを作成できます。
-      ただし、一部のキャンペーンおよび広告タイプでは、一意のワークフローが必要です。 の設定手順を参照してください。 [[!DNL Microsoft Advertising] ショッピングキャンペーン](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md), [[!DNL Google Ads] 動的検索広告](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md), [[!DNL Google Ads] 最大パフォーマンスキャンペーン](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md)、および [[!DNL Google Ads] ショッピングキャンペーン](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md).
+
+      ただし、一部のキャンペーンおよび広告タイプでは、一意のワークフローが必要です。 の設定手順を参照してください。 [[!DNL Microsoft Advertising] 買い物キャンペーン](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md), [[!DNL Google Ads] 動的検索広告](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md), [[!DNL Google Ads] 最大パフォーマンスキャンペーン](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md)、および [[!DNL Google Ads] 買い物キャンペーン](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md).
 
    1. ([!DNL Naver] トラッキング専用アカウントのみ ) のアップロード [bulksheet ファイル](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) 検索、ソーシャル、コマースの既存のキャンペーン、広告グループ、キーワードをレプリケートするデータ（投稿先には送信しない） [!DNL Naver].
 
+1. Adobe Advertisingがコンバージョンを追跡するすべての広告に対して、トラッキングを設定します。
 
-1. Adobe広告がコンバージョンを追跡するすべての広告に対してトラッキングを設定します。
+   1. ( 必要に応じて、Adobe Advertisingコンバージョントラッキングサービスを利用する広告主 ) [クリックの追跡を設定する](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) 広告の場合、およびオプションで検索、Social、&amp; Commerce のクリック追跡 URL を生成してアップロードすることによって、キーワード、プレースメント、広告の拡張機能の場合に使用します。
 
-   1. ( 必要に応じて、Adobe広告コンバージョントラッキングサービスを使用する広告主 ) [クリックの追跡の設定](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) 広告の場合、およびオプションで検索、Social、&amp; Commerce のクリック追跡 URL を生成してアップロードすることによって、キーワード、プレースメント、広告の拡張機能の場合に使用します。
-
-      の場合 [!DNL Google Ads] パフォーマンス最大キャンペーン、すべてのトラッキングを [キャンペーンのトラッキング設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
+      の場合 [!DNL Google Ads] パフォーマンスの最大キャンペーン、すべてのトラッキングを [キャンペーンのトラッキング設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
 
 1. トラッキングのみのキャンペーンの場合は、一括送信シートを使用してリンク先 URL を生成し、その後、広告ネットワークのネイティブエディターを使用して、生成したリンク先 URL を関連エンティティに追加する必要があります。
 
    1. コンバージョントラッキングを設定します。 実装によっては、広告主の Web ページにコンバージョントラッキングタグを追加したり、広告主が別途収集したコンバージョンデータの日別フィードドロップを設定したりします。
 
-      Adobe広告コンバージョントラッキングサービスを使用する場合、コンバージョントラッキングタグを生成できます [検索、ソーシャル、コマース内](/help/search-social-commerce/tools/conversion-tag-generate.md) または [Adobe Experience Platformの使用](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
+      コンバージョントラッキングサービスを使用する場合は、Adobe Advertisingトラッキングタグを生成することができます。 [検索、ソーシャル、コマース内](/help/search-social-commerce/tools/conversion-tag-generate.md) または [Adobe Experience Platformの使用](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
 
    1. 追跡したデータを検証します。
 
    トラッキングの設定について詳しくは、「トラッキング」の章を参照してください。
 
-1. (Adobe Analytics広告主 ) [Adobe広告と Analytics の統合](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) データを交換できるように。
+1. (Adobe Analytics広告主 ) [Adobe Advertisingと Analytics の統合](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) データを交換できるように。
 
-1. ( 検索、ソーシャル、コマースで、入札およびキャンペーンの予算を最適化できるようにする。 [サポートされるキャンペーンタイプ](/help/search-social-commerce/introduction/supported-inventory.md) のみ ) [キャンペーンをポートフォリオに割り当て](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
+1. ( 検索、ソーシャル、コマースで、入札およびキャンペーンの予算を最適化できるようにする。 [サポートされるキャンペーンタイプ](/help/search-social-commerce/introduction/supported-inventory.md) のみ ) [キャンペーンをポートフォリオに割り当てる](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
-   ポートフォリオがまだ開始されていない場合（入札や予算の最適化）、最適化機能は、ポートフォリオを起動する前にコストと売上高モデルを構築できる十分なデータを収集できるようにします。
+   ポートフォリオがまだ開始されていない場合（入札や予算の最適化）、最適化機能は、ポートフォリオを起動する前にコストと売上高モデルを構築できる十分なデータを収集し、ポートフォリオのベースラインパフォーマンスを確立できます。
 
    ポートフォリオが既に起動されている場合は、ポートフォリオの学習を有効にします。 詳細は、「ポートフォリオ戦略の調整」を参照してください。 新しいキャンペーンを追加した後、ポートフォリオが揮発性であると想定し、最適化機能でキャンペーンの入札単位に関するデータを収集します。 入札は 1 ～ 3 週間以内に自動的に調整されます。
 
@@ -88,4 +90,3 @@ Adobeは、各広告主と連携して、広告ネットワークアカウント
 >* [広告ネットワークキャンペーンのパフォーマンスの監視と管理](monitor-performance-campaigns.md)
 >* [Search、Social、および Commerce のGoogle Ads コンバージョンデータ](google-conversion-data.md)
 >* [サポートされる在庫](/help/search-social-commerce/introduction/supported-inventory.md)
-

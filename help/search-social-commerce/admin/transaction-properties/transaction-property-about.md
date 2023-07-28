@@ -1,7 +1,9 @@
 ---
 title: 広告主のトランザクションプロパティの管理について
-description: 広告主用に Advertising がトラッキングするトランザクションプロパティをAdobeで使用する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: 広告主用にトラッキングするトランザクションプロパティをAdobe Advertisingが使用する方法を説明します。
+exl-id: e5e4dc8a-04b0-4423-be1d-18f89453d264
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 広告主のトランザクションプロパティの管理について
 
-この [トランザクションプロパティ](/help/search-social-commerce/glossary.md#s-t) Adobe広告が広告主のトラッキングを [Adobe Analyticsから同期したコンバージョンおよびサイトエンゲージメント指標](/help/integrations/analytics/analytics-data-in-advertising.md)は、Search、Social、&amp;Commerce および Advertising DSP全体で使用されます。
+The [トランザクションプロパティ](/help/search-social-commerce/glossary.md#s-t) そのAdobe Advertisingは、次を含む広告主のために追跡します。 [Adobe Analyticsから同期したコンバージョンおよびサイトエンゲージメント指標](/help/integrations/analytics/analytics-data-in-advertising.md)は、Search、Social、&amp;Commerce および Advertising DSP全体で使用されます。
 
 * Search、Social、および Commerce では、トランザクションプロパティを使用して目標を作成し、ポートフォリオの最適化に使用できます。 また、トランザクションプロパティのデータは、キャンペーンおよびポートフォリオ管理ビューの列とレポートに表示できます。
 
@@ -25,4 +27,3 @@ ht-degree: 0%
 >* [広告主でトラッキングされているトランザクションプロパティの表示](transaction-property-view-tracked.md)
 >* [管理ビューとレポートで使用可能なトランザクションプロパティの変更](transaction-property-edit-available.md)
 >* [トランザクションプロパティの表示名を変更する](transaction-property-edit-display-name.md)
-

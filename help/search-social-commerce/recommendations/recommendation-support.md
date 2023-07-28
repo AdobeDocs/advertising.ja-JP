@@ -2,7 +2,8 @@
 title: パブリッシャーのレコメンデーションおよびインサイトのサポートについて
 description: 投稿者のレコメンデーションとインサイトの表示と管理のサポートについて説明します。
 exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
-source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
@@ -15,17 +16,17 @@ ht-degree: 0%
 
 *のベータ版機能 [!DNL Microsoft® Advertising] アカウント*
 
-[!DNL Google Ads] 推奨事項 [!DNL Microsoft® Advertising] パフォーマンスインサイトは、キャンペーンのパフォーマンスと効率を向上させるために広告ネットワークから提案されるものです。
+[!DNL Google Ads] レコメンデーションと [!DNL Microsoft® Advertising] パフォーマンスインサイトは、キャンペーンのパフォーマンスと効率を向上させるために広告ネットワークから提案されるものです。
 
 * 各 [!DNL Google Ads] レコメンデーションでは、アカウントのパフォーマンス履歴、キャンペーン設定、全体のトレンドに基づいて、アセットの追加から予算の増加に至るまで、キャンペーンの様々なパフォーマンス面に関する提案をカスタマイズできます [!DNL Google Ads].
 
-* 各 [!DNL Microsoft® Advertising] パフォーマンスインサイトは、マネージャーアカウント、広告主アカウント、キャンペーンの大きな変動について警告します。考えられる原因を特定し、パフォーマンスを最適化するアクションを示します。
+* 各 [!DNL Microsoft® Advertising] パフォーマンスインサイトは、マネージャーアカウント、広告主アカウント、またはキャンペーンの大きな変動を警告し、考えられる原因を特定し、パフォーマンスを最適化するアクションを提案します。
 
-## この [!UICONTROL Recommendations & Publisher Insights] 表示
+## The [!UICONTROL Recommendations & Publisher Insights] 表示
 
-内 [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]を使用すると、次のことができます。
+Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]を使用すると、次のことができます。
 
-* まだ対応していないサポートされているレコメンデーションの概要を確認する [!DNL Google Ads] 過去 30 日間に [Microsoft® Advertising] アカウント 各エントリの情報には、レコメンデーション/インサイトの詳細と影響を受けるエンティティが含まれます。 の場合 [!DNL Google Ads] 指標に対して予測された増加のアカウントは、緑色でハイライト表示されます。
+* まだ対応していないサポートされているレコメンデーションの概要を確認する [!DNL Google Ads] 過去 30 日間に [Microsoft® Advertising] アカウント。 各エントリの情報には、レコメンデーション/インサイトの詳細と影響を受けるエンティティが含まれます。 の場合 [!DNL Google Ads] 指標に対して予測された増加のアカウントは、緑色でハイライト表示されます。
 
   ![Recommendations UI](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations UI")
 
@@ -65,17 +66,17 @@ ht-degree: 0%
 | | [!UICONTROL Maximize clicks opt in] | 入札条件 [!UICONTROL Maximize Clicks] |
 | | [!UICONTROL Maximize conversions opt in] | 入札条件 [!UICONTROL Maximize Conversions] |
 | | [!UICONTROL Move unused budget] | 未使用を制約付き予算に移動 |
-| | [!UICONTROL Raise Target CPA bid too low] | 次を [!UICONTROL Target CPA] コンバージョンが少なすぎる、または何もコンバージョンがない場合の推奨金額 |
+| | [!UICONTROL Raise Target CPA bid too low] | 次の条件を満たす [!UICONTROL Target CPA] コンバージョンが少なすぎる、または何もコンバージョンがない場合の推奨金額 |
 | | [!UICONTROL Target CPA opt in] | 入札条件 [!UICONTROL Target CPA] |
 | | [!UICONTROL Target ROAS opt in] | 入札条件 [!UICONTROL Target ROAS] |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | ディスプレイの拡張を使用するようにキャンペーンを更新してリーチを拡大する |
 | | [!UICONTROL Keyword] | 新しいキーワードを追加 |
-| | [!UICONTROL Search partners opt in] | リーチを拡大 [!DNL Google] 検索パートナー |
-| | [!UICONTROL Use broad match keyword] | 完全に自動化されたコンバージョンベースの入札を使用して、コンバージョンベースのキャンペーンに幅広い一致を適用する |
+| | [!UICONTROL Search partners opt in] | リーチを拡大する [!DNL Google] 検索パートナー |
+| | [!UICONTROL Use broad match keyword] | 完全に自動化されたコンバージョンベースの入札を使用して、コンバージョンベースのキャンペーンに幅広い一致を適用する。 |
 
 >[!MORELIKETHIS]
 >
 >* [パブリッシャーのレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
 >* [を適用または解除 [!DNL Google Ads] recommendation](google-recommendation-apply-dismiss.md)
->* [のレコメンデーションログを表示 [!DNL Google Ads] アカウント](google-recommendation-view-log.md)
+>* [のレコメンデーションログを表示する [!DNL Google Ads] アカウント](google-recommendation-view-log.md)
 >* [投稿のレコメンデーションとインサイトをポートフォリオで使用する際のベストプラクティス](recommendation-best-practices.md)

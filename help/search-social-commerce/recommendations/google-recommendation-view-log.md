@@ -1,17 +1,18 @@
 ---
-title: のレコメンデーションログを表示 [!DNL Google Ads] アカウント
-description: レコメンデーションのログを表示する方法を説明します。ログは、 [!DNL Google Ads] アカウント
+title: のレコメンデーションログを表示する [!DNL Google Ads] アカウント
+description: レコメンデーションのログを表示する方法を説明します。ログは、 [!DNL Google Ads] アカウント。
 exl-id: 97db1e9e-6cd8-406f-8fd5-fbb85315fdf6
-source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
 
 ---
 
-# のレコメンデーションログを表示 [!DNL Google Ads] アカウント
+# のレコメンデーションログを表示する [!DNL Google Ads] アカウント
 
-レコメンデーションのログを表示し、 [!DNL Google Ads] アカウント この情報には、レコメンデーションカテゴリ、レコメンデーションのタイプ、影響を受けるエンティティ、レコメンデーションを適用したユーザー、タイムスタンプが含まれます。
+レコメンデーションのログを表示し、 [!DNL Google Ads] アカウント。 この情報には、レコメンデーションカテゴリ、レコメンデーションのタイプ、影響を受けるエンティティ、レコメンデーションを適用したユーザー、タイムスタンプが含まれます。
 
 却下されたレコメンデーションは、広告ネットワークから使用できません。
 

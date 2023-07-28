@@ -1,7 +1,9 @@
 ---
 title: レポートへの FTP アクセス
 description: 読み取り専用の FTP の場所でレポートを受け取る方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 69850b68-0309-4f07-b4cb-c14488219a4b
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 * レポートにアクセスするための FTP アカウントを設定するには、担当のAdobeアカウントチームにお問い合わせください。
 
-   ユーザー名とパスワードがチームから提供されます。
+  ユーザー名とパスワードがチームから提供されます。
 
 ## FTP 配信用のレポートテンプレートの設定
 
@@ -39,6 +41,7 @@ ht-degree: 0%
       * `[SDATE]`  — レポートの日付範囲の開始日を含めます。
 
       * `[EDATE]`  — レポートの日付範囲の終了日を含める場合。
+
    * （オプション） `[CSV]` （大文字で角括弧で囲んで）デフォルトの TSV 形式ではなく CSV 形式のファイルを作成する場合。
 
    例： `[TODAY]-Portfolio-FTP-[SDATE]-[EDATE]-[CSV]` を使用して、202305051656-Portfolio-FTP-20230428-20110504.csv のようなファイルを作成します。
@@ -51,7 +54,6 @@ ht-degree: 0%
 >
 >* 完了したレポートを電子メールで送信するには、レポートまたはテンプレートを生成する際に、すべての電子メール受信者のアドレスを入力するだけです。
 >* レポートは、指定したスケジュールに従って実行され、完了後 1 時間以内に FTP アカウントに配信されます。
-
 
 ## FTP リポジトリでのレポートへのアクセス
 
@@ -68,4 +70,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [レポートテンプレートの作成](/help/search-social-commerce/reports/automation/templates/template-create.md)
-

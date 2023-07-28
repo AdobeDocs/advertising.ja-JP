@@ -2,7 +2,8 @@
 title: を適用または解除 [!DNL Google Ads] recommendation
 description: 以下を表示する方法を学ぶ： [!DNL Google Ads] レコメンデーションを適用または却下する方法を説明します。
 exl-id: 7aab10bf-d5fc-4eb7-b1bb-9e61ba354a29
-source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # を適用または解除 [!DNL Google Ads] recommendation
 
-の推奨されるアクションと、そのアクションが有益な理由の説明を表示します。 [!DNL Google Ads] レコメンデーション。 その後、レコメンデーションがビジネス目標に合致する場合に適用し、合致しない場合にレコメンデーションを解除できます。
+に関して、推奨されるアクションと、アクションが有益である理由の説明を表示します。 [!DNL Google Ads] レコメンデーション。 その後、レコメンデーションがビジネス目標に合致する場合に適用し、合致しない場合にレコメンデーションを解除できます。
 
 >[!NOTE]
 >
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 1. （オプション）カテゴリとタイプでレコメンデーションをフィルタリングします。
 
-1. 内 [!UICONTROL Actions] 列をクリックし、 **[!UICONTROL View]**.
+1. Adobe Analytics の [!UICONTROL Actions] 列をクリックし、 **[!UICONTROL View]**.
 
 1. (Recommendationsとサブレコメンデーション ) クリック **[!UICONTROL View]** サブレコメンデーションの横に表示されます。
 
@@ -39,5 +40,5 @@ ht-degree: 0%
 >
 >* [パブリッシャーのレコメンデーションおよびインサイトのサポートについて](recommendation-support.md)
 >* [パブリッシャーのレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
->* [のレコメンデーションログを表示 [!DNL Google Ads] アカウント](google-recommendation-view-log.md)
+>* [のレコメンデーションログを表示する [!DNL Google Ads] アカウント](google-recommendation-view-log.md)
 >* [投稿のレコメンデーションとインサイトをポートフォリオで使用する際のベストプラクティス](recommendation-best-practices.md)

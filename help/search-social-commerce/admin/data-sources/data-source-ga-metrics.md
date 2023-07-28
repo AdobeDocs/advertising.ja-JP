@@ -1,9 +1,10 @@
 ---
 title: 利用可能 [!DNL Google Analytics] 指標
-description: 参照先 [!DNL Google Analytics] 指標がデータソースで使用できる。
+description: 以下を参照してください。 [!DNL Google Analytics] 指標を使用できます。
 role: User, Admin
 exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -28,7 +29,7 @@ ht-degree: 0%
 | セッション | ga:uniqueDimensionCombinations | — |
 | 目標コンバージョン | — | — |
 | ページトラッキング | ga:entrices, ga:timeOnPage, ga:exits | — |
-| 内部検索 | — | 内部検索のすべての指標のわかりやすい名前の前には、値「InternalSearch:&quot; |
+| 内部検索 | — | 内部検索のすべての指標のわかりやすい名前の前には、値「InternalSearch:」が付きます。 |
 | イベント追跡 | — | — |
 | e コマース | — | — |
 | ソーシャルインタラクション | — | — |

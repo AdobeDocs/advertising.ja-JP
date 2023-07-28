@@ -1,7 +1,9 @@
 ---
 title: 共有サイトリンクをアカウント、キャンペーンおよび広告グループに関連付ける
 description: アカウント、キャンペーン、広告グループに共有サイトリンク拡張を割り当てる方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c7bd92ab-3768-4b6e-988a-32e644c3d583
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -24,17 +26,17 @@ ht-degree: 0%
 
 1. sitelink 拡張機能の設定を入力します。
 
-   1. 内 [!UICONTROL Sitelinks] セクションで、ライブラリ内のすべてのサイトリンクのリストから、該当するサイトリンクを選択します。
+   1. Adobe Analytics の [!UICONTROL Sitelinks] セクションで、ライブラリ内のすべてのサイトリンクのリストから、該当するサイトリンクを選択します。
+
    複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
-   1. 内 [!UICONTROL Assignment] セクションで、選択したサイトリンクを割り当てるアカウント、キャンペーン、広告グループを選択します。
+   1. Adobe Analytics の [!UICONTROL Assignment] セクションで、選択したサイトリンクを割り当てるアカウント、キャンペーン、広告グループを選択します。
+
    * （オプション）アカウントを展開してキャンペーンを表示するには、アカウント名をクリックします。 同様に、キャンペーンを展開してその子広告グループを表示するには、キャンペーン名をクリックします。
 
    * （オプション）名前に含まれるテキスト文字列でキャンペーンリストまたは広告グループリストをフィルタリングするには、 ![フィルター](/help/search-social-commerce/assets/filter.png "フィルター") をクリックし、テキスト文字列を入力フィールドに入力または貼り付けて、 **入力** キー。
 
-   * 円 (![選択](/help/search-social-commerce/assets/include.png "選択")) をクリックします。
-
-
+   * 円 (![選択](/help/search-social-commerce/assets/include.png "選択")) をクリックし、サイトリンクが割り当てられる各エンティティの横に表示されます。
 
 1. クリック **[!UICONTROL Post]**.
 
@@ -42,4 +44,3 @@ ht-degree: 0%
 >
 >* [sitelink の拡張について](sitelink-extension-about.md)
 >* [共有サイトリンク拡張の管理](sitelink-extension-manage.md)
-

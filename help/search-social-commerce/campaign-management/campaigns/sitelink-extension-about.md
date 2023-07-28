@@ -1,7 +1,9 @@
 ---
 title: sitelink の拡張について
 description: サイトリンクの拡張について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bf4ef112-7a9f-4e8a-8f04-06ed123c862a
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -16,11 +18,11 @@ ht-degree: 0%
 
 共有サイトリンクのテキストと設定（広告と共にサイトリンクを表示できる日付など）をアカウントレベルで作成します。
 
-## この [!UICONTROL Sitelinks] および [!UICONTROL Associations] ビュー
+## The [!UICONTROL Sitelinks] および [!UICONTROL Associations] ビュー
 
-この [!UICONTROL Extensions] > [!UICONTROL Sitelinks] ライブラリ [!UICONTROL Campaigns] > [!UICONTROL Campaigns] は、すべてのアカウントレベルのサイトリンクを一覧表示し、共有サイトリンクをそこで作成および管理できます。 広告ネットワークのヘルプを参照して、それぞれの広告の最大拡張数を確認してください [[!DNL Google Ads] アカウント](https://support.google.com/google-ads/answer/6372658) および [[!DNL Microsoft® Advertising] アカウント](https://help.ads.microsoft.com/#apex/3/en/52001). ライブラリ内のサイトリンクは、アカウントエンティティに割り当てるまで、広告で使用されません。
+The [!UICONTROL Extensions] > [!UICONTROL Sitelinks] ライブラリ内 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] は、すべてのアカウントレベルのサイトリンクを一覧表示し、共有サイトリンクをそこで作成および管理できます。 広告ネットワークのヘルプを参照して、それぞれの広告の最大拡張数を確認してください [[!DNL Google Ads] アカウント](https://support.google.com/google-ads/answer/6372658) および [[!DNL Microsoft® Advertising] アカウント](https://help.ads.microsoft.com/#apex/3/en/52001). ライブラリ内のサイトリンクは、アカウントエンティティに割り当てるまで、広告で使用されません。
 
-次の [!UICONTROL Extensions] > [!UICONTROL Associations] を表示する場合は、任意のサイトリンクを、アカウントレベルですべての広告に可能な限り割り当てることができます ([!DNL Google Ads] （のみ）、キャンペーンレベル、または広告グループレベル ([!DNL Google Ads] のみ )。
+次から： [!UICONTROL Extensions] > [!UICONTROL Associations] を表示する場合は、任意のサイトリンクを、アカウントレベルですべての広告に可能な限り割り当てることができます ([!DNL Google Ads] （のみ）、キャンペーンレベル、または広告グループレベル ([!DNL Google Ads] のみ )。
 
 ## サイトリンクのパフォーマンスデータ
 
@@ -32,4 +34,3 @@ In [!DNL Google Ads] および [!DNL Microsoft® Advertising]をクリックす�
 >
 >* [共有サイトリンク拡張の管理](sitelink-extension-manage.md)
 >* [キャンペーンまたは広告グループへの共有サイトリンク拡張の関連付け](sitelink-extension-associate.md)
-

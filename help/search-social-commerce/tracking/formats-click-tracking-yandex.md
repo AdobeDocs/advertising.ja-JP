@@ -1,7 +1,9 @@
 ---
 title: のクリック追跡形式 [!DNL Yandex]
 description: のクリック追跡形式について説明します。 [!DNL Yandex] アカウント。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -20,9 +22,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` は、広告主の広告内の一意の ID 用の変数です。Adobe広告内では一意の ID が使用されます。
+>* `<advertiser_ID>` は、Adobe Advertising内の広告主の一意の ID の変数です。
 >
->* この形式は、キャンペーンでトークンの受け渡しが有効（デフォルト）になっていることを示します。 トークンの受け渡しが無効な場合は、 `cq?` 後 `<advertiser_ID>` と `c?`.
+>* この形式は、キャンペーンでトークンの受け渡しが有効（デフォルト）になっていることを示します。 トークンの受け渡しが無効な場合は、 `cq?` 次より後 `<advertiser_ID>` 次を使用 `c?`.
 >
 >* `<the landing page>` は、エンドユーザーのリダイレクト先となるサイト上の URL を表す変数です。
 >
@@ -32,11 +34,9 @@ ht-degree: 0%
 >
 >* `position` は、ブロック内の広告の位置番号です。 検索以外のトラフィックの場合、値は「0」です。
 >
->* `position_type` は、広告が表示されたブロックです [!DNL Yandex]. 可能な値：「premium」（トップブロック）、「その他」（右ブロック）、「なし」（検索以外のトラフィック）のいずれかです。
-
+>* `position_type` は、広告が表示されたブロックです [!DNL Yandex]. 可能な値：「premium」（上部ブロック）、「その他」（右ブロック）、「なし」（検索トラフィック以外）。
 
 >[!MORELIKETHIS]
 >
->* [Adobe広告コンバージョントラッキングサービスのクリック追跡 URL の形式について](formats-click-tracking-about.md)
+>* [Adobe Advertisingコンバージョントラッキングサービスのクリック追跡 URL の形式について](formats-click-tracking-about.md)
 >* [s\_kwcid トラッキングコードの形式](skwcid-tracking-parameter.md)
-

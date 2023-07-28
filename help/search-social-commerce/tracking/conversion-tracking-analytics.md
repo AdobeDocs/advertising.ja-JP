@@ -1,7 +1,9 @@
 ---
 title: Adobe Analyticsコンバージョントラッキング
 description: Adobe AdvertisingでのキャンペーンにAdobe Analyticsコンバージョントラッキングを使用する方法について説明します。
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -10,9 +12,9 @@ ht-degree: 0%
 
 # Adobe Analyticsコンバージョントラッキング
 
-*AdobeAdvertising とAdobe Analyticsの統合のみの広告主*
+*Adobe AdvertisingとAdobe Analyticsの統合のみの広告主*
 
-Adobe AdvertisingとAdobe Analyticsを統合した広告主の場合、Advertising Cloudは、 [!DNL Analytics] トークンでリダイレクト (`ef_id` パラメーター ) を使用して、 [入札単位](/help/search-social-commerce/glossary.md#a-b). この [!DNL Analytics] データは、日別フィードファイル経由で自動的にAdvertising Cloudに送信されます。
+Adobe AdvertisingとAdobe Analyticsを統合した広告主の場合、Advertising Cloudは、 [!DNL Analytics] トークンでリダイレクトを使用する場合 (`ef_id` パラメーター ) を使用して、 [入札単位](/help/search-social-commerce/glossary.md#a-b). The [!DNL Analytics] データは、日別フィードファイル経由で自動的にAdvertising Cloudに送信されます。
 
 参照：[の概要 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}」を参照してください。
 

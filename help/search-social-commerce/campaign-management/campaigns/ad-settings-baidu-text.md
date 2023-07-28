@@ -1,7 +1,9 @@
 ---
-title: '"[!DNL Baidu] テキスト広告設定'
+title: '''[!DNL Baidu] テキスト広告設定'
 description: 次の設定を参照してください： [!DNL Baidu] テキスト広告。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 68165d1f-a7ef-4b2a-ae5d-36190fb49d77
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->広告コピーの変更 [!DNL Baidu] 広告は既存の広告を削除し、同じプロパティを持つ新しい広告を作成します。
+>の広告コピーの変更 [!DNL Baidu] 広告は、既存の広告を削除し、同じプロパティを持つ新しい広告を作成します。
 
 ## [!UICONTROL Text Ad]
 
@@ -44,4 +46,3 @@ ht-degree: 0%
 >
 >* [広告について](ad-about.md)
 >* [広告の管理](ad-manage.md)
-

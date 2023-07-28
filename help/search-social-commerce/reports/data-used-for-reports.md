@@ -2,7 +2,8 @@
 title: レポートに使用するデータ
 description: データビューとカスタムレポートで使用できる様々なタイプのデータについて説明します。
 exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
-source-git-commit: 3aad445fc1a5a0e2210209f181b9756047f44999
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 検索、ソーシャル、コマースには、クリックデータとコンバージョンデータに基づく、包括的なパフォーマンスレポートのセットが含まれます。 ポートフォリオまたは広告アカウントの様々なコンポーネントの基本的なパフォーマンスデータは、 [!UICONTROL Portfolios] および [!UICONTROL Campaigns] 表示を使用して、様々な基本レポートと詳細レポートを生成する方法も説明します。
 
-また、Adobe Advertisingコンバージョントラッキングサービスを使用する広告主は、参照元 Web サイトの地理的な場所またはドメイン名のクリック数、各チャネルの広告とコンバージョンにつながる様々なイベントが全体のコンバージョン率にどのように貢献し、コンバージョンを 1 つに分布 [取引財産](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) マーケティングチャネル別。 使用できるレポートは、ユーザーのアカウントタイプによって異なります。 Adobeアカウントチームは、すべてのレポートにアクセスできます。
+また、Adobe Advertisingコンバージョントラッキングサービスを使用する広告主は、参照元 Web サイトの地理的な場所またはドメイン名のクリック数、各チャネルの広告とコンバージョンにつながる様々なイベントが全体のコンバージョン率にどのように貢献し、コンバージョンを 1 つに分布します [取引財産](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) マーケティングチャネル別。 使用できるレポートは、ユーザーのアカウントタイプによって異なります。 Adobeアカウントチームは、すべてのレポートにアクセスできます。
 
 ほとんどのレポートは、表示する情報のみを表示するようにカスタマイズできます。 次の標準指標は、ほとんどのレポートで使用でき、広告レベルで計算されます。
 
@@ -23,9 +24,9 @@ ht-degree: 0%
 
    * **[!UICONTROL Clicks]:** 広告内のリンクがクリックされた回数の合計。
 
-   * **[!UICONTROL Cost]:** 広告の合計コスト。 クリック課金 (PPC) 広告のコストは、常にクリック数にクリック単価を掛けた値です。
+   * **[!UICONTROL Cost]:** 広告の合計コスト。 クリック課金 (PPC) 広告のコストは、常にクリック数にクリックあたりのコストを掛けた値です。
 
-   * **[!UICONTROL Cost per Click]:** 広告に対する 1 回のクリックに対する平均コストです。広告のコストを広告の合計クリック数で割ります。 例えば、広告インプレッションに 100 USD を費やし、広告が 10 回のクリックを生成した場合、クリックあたりのコストは 100 USD/10=10 USD になります。
+   * **[!UICONTROL Cost per Click]:** 広告に対する 1 回のクリックに対する平均コストです。これは、広告のコストを広告のクリック総数で割った値です。 例えば、広告インプレッションに 100 USD を費やし、広告が 10 回のクリックを生成した場合、クリックあたりのコストは 100 USD/10=10 USD になります。
 
    * **[!UICONTROL Average Position]:** （該当する場合）配置された広告の平均順位。インプレッション数で重み付けされます。
 
@@ -33,9 +34,9 @@ ht-degree: 0%
 
 * **コンバージョン指標：** 広告主の [トランザクションプロパティ](/help/search-social-commerce/glossary.md#s-t)、またはコンバージョンタイプに向けて追跡されたトランザクションデータ。 これには、Adobe Analyticsから同期される計算指標や高度な計算指標ではなく、コンバージョン指標やサイトエンゲージメント指標を含めることができます。
 
-  これには、 [[!DNL Google Ads]追跡されたコンバージョン](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) および [[!DNL Google Analytics]追跡されたコンバージョン](/help/search-social-commerce/admin/data-sources/data-source-about.md) 広告主アカウントに同期される
+  これには次も含まれます。 [[!DNL Google Ads]追跡されたコンバージョン](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) および [[!DNL Google Analytics]追跡されたコンバージョン](/help/search-social-commerce/admin/data-sources/data-source-about.md) 広告主アカウントに同期される
 
-* **カスタム指標：** 独自の指標。既存の指標（注文あたりのコストなど）に基づいて数式を作成することで得られます。
+* **カスタム指標：** 独自の指標。既存の指標（注文あたりのコストなど）に基づいて数式を作成することで導き出します。
 
 ## データの可用性
 
@@ -49,12 +50,12 @@ ht-degree: 0%
 | | その他すべて [!UICONTROL Basic Reports] | 過去 36 ヶ月。<br><br><b>例外：</b> 目立ち度の指標のデータは、2022 年 9 月 8 日より利用可能になります。 |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | 過去 45 日間。 |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | 過去 2 か月と現在の月を足した値。 |
-| [!UICONTROL Assist Reports] | すべて | 過去 18 ヶ月間 |
+| [!UICONTROL Assist Reports] | すべて | 過去 18 ヶ月間。 |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | 前年。 |
 | | [!UICONTROL RSA Assets Report] | 2022 年 8 月 10 日より。 |
 | | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report] | 過去 180 日間。 |
 | | その他すべて [!UICONTROL Specialty Reports] | 過去 2 か月。 |
-| [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | 過去 18 ヶ月間 |
+| [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | 過去 18 ヶ月間。 |
 | [!UICONTROL Change History Report] | — | 過去 31 日間。 |
 
 >[!MORELIKETHIS]

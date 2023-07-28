@@ -1,7 +1,9 @@
 ---
 title: スプレッドシートレポートフィードの削除
 description: スプレッドシートフィードを削除する方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fbe8a578-8bcb-4755-96d0-e82aab313e5e
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
-1. 削除する各フィードの横にあるチェックボックスを選択します。
+1. 削除する各フィードの横にあるチェックボックスをオンにします。
 
 1. データテーブルの上にあるツールバーで、 **[!UICONTROL Delete]**.
 
@@ -33,4 +35,3 @@ ht-degree: 0%
 >* [スプレッドシートレポートフィードの設定](spreadsheet-feed-settings.md)
 >* [スプレッドシートレポートフィードファイルの表示または保存](spreadsheet-feed-view-or-save.md)
 >* [スプレッドシートレポートフィードを手動で更新](spreadsheet-feed-refresh.md)
-

@@ -1,7 +1,9 @@
 ---
-title: '"[!DNL Microsoft® Ads] 在庫フィード用のショッピング広告テンプレート設定»'
+title: '''[!DNL Microsoft® Ads] 在庫フィード用の買い物広告テンプレート設定'
 description: 次の設定を参照してください： [!DNL Microsoft® Ads] 在庫フィード用の買い物広告テンプレート。
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 64d0092a-bd63-48f4-8e15-f5585f7a022a
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -57,11 +59,11 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]:** （クライアントフィードファイルのテンプレートのオプション）キャンペーンレベルのトラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終 URL をパラメーターに埋め込みます。 この値はアカウントレベルの設定より優先されますが、より詳細なレベル（最も詳細なキーワードを含む）でのトラッキングテンプレートは、この値よりも優先されます。
 
-* Adobe広告コンバージョントラッキングの場合。これは、キャンペーン設定で[!UICONTROL EF Redirect]&quot;および&quot;[!UICONTROL Auto Upload]、&quot;次のいずれかを実行します&quot;:
+* Adobe Advertisingコンバージョントラッキングの場合。これは、キャンペーン設定で「[!UICONTROL EF Redirect]&quot;および&quot;[!UICONTROL Auto Upload]、&quot;次のいずれかを実行します&quot;:
 
    * （推奨） [Microsoft®ショッピングキャンペーン用のトラッキングテンプレート形式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
 
-   * 代わりに、「[!DNL bingads_redirect]&quot;列 ( [正しい形式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)) をクリックして、パラメーターを入力します `{lpurl}`. オプションで、サードパーティのリダイレクトとトラッキングを `{lpurl}` パラメーター。
+   * 代わりに、「[!DNL bingads_redirect]」列 ( [正しい形式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)) をクリックして、パラメーターを入力します。 `{lpurl}`. オプションで、サードパーティのリダイレクトとトラッキングを `{lpurl}` パラメーター。
 
 * サードパーティのリダイレクトとトラッキングの場合は、値を入力します。
 
@@ -117,7 +119,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]:** （オプション）すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的な URL をパラメーターに埋め込む広告グループレベルのトラッキングテンプレート。 この値は、アカウントレベルとキャンペーンレベルの設定よりも優先されますが、より詳細なレベルでのトラッキングテンプレートは、この値よりも優先されます。
 
-Adobe広告コンバージョントラッキングの場合、値を入力する必要はありません。 キャンペーンレベルの値で十分です。
+Adobe Advertisingコンバージョントラッキングの場合、値を入力する必要はありません。 キャンペーンレベルの値で十分です。
 
 サードパーティのリダイレクトとトラッキングの場合は、値を入力します。
 
@@ -137,7 +139,7 @@ Adobe広告コンバージョントラッキングの場合、値を入力する
 
 ## [!UICONTROL Product Groups]
 
-**[!UICONTROL Tier 1]:** デフォルトの包括的な製品グループ「[!UICONTROL All products].&quot; この親製品グループは削除できませんが、すべての下位層がフィードにない場合、自動的に削除されます。
+**[!UICONTROL Tier 1]:** デフォルトの包括的な製品グループ「 」[!UICONTROL All products].&quot; この親製品グループは削除できませんが、すべての下位層がフィードにない場合、自動的に削除されます。
 
 <!-- **[!UICONTROL Tier 2 - Tier 8]:** -->
 
@@ -147,9 +149,9 @@ Adobe広告コンバージョントラッキングの場合、値を入力する
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** ( 子製品グループのない数量。（オプション）製品グループのトラッキングテンプレートです。オフランディングドメインのリダイレクトとトラッキングパラメーターをすべて指定し、最終 URL を [!DNL ValueTrack] パラメーター。 このテンプレートは、上位レベルのテンプレートを上書きします。
+**[!UICONTROL Tracking Template]:** （子製品グループのない単位、オプション）製品グループのトラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終 URL を [!DNL ValueTrack] パラメーター。 このテンプレートは、上位レベルのテンプレートを上書きします。
 
-Adobe広告コンバージョントラッキングの場合、値を入力する必要はありません。 キャンペーンレベルの値で十分です。
+Adobe Advertisingコンバージョントラッキングの場合、値を入力する必要はありません。 キャンペーンレベルの値で十分です。
 
 サードパーティのリダイレクトとトラッキングの場合は、値を入力します。
 

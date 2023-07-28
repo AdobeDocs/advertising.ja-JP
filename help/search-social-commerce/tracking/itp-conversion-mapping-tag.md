@@ -1,20 +1,22 @@
 ---
-title: Adobe広告コンバージョンマッピングタグ
-description: ITP 2.2 の JavaScript ベースのコンバージョンマッピングタグについて説明します。このタグを使用すると、Adobe広告で、ランディングページ以外のページで発生するコンバージョンイベントを追跡できます。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: Adobe Advertisingコンバージョンマッピングタグ
+description: ITP 2.2 の JavaScript ベースのコンバージョンマッピングタグについて説明します。このタグを使用すると、Adobe Advertisingは、ランディングページ以外のページで発生するコンバージョンイベントを追跡できます。
+exl-id: 6e2515da-2552-4f19-8344-1dee96cbf706
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
 
 ---
 
-# Adobe広告の JavaScript コンバージョンマッピングタグ
+# Adobe Advertisingの JavaScript コンバージョンマッピングタグ
 
-*Adobe広告コンバージョントラッキングのみを持つ広告主*
+*コンバージョントラッキングのAdobe Advertisingを持つ広告主のみ*
 
-Adobe広告 JavaScript ベースのコンバージョンマッピングタグは、Adobe広告 JavaScript v2 または v3 コンバージョントラッキングタグと共に使用すると、Adobe広告でランディングページ以外のページで発生するコンバージョンイベントを追跡できます。 ITP 2.2 ソリューションは、ユーザーの Cookie を広告主が所有する iFrame のローカルストレージに保存します。 その後、ローカルストレージは、クリック後のダウンストリームからコンバージョンページまで Cookie の値を保持できます。
+Adobe Advertisingの JavaScript ベースのコンバージョンマッピングタグは、Adobe Advertisingの JavaScript v2 または v3 コンバージョントラッキングタグと共に使用すると、Adobe Advertisingは、ランディングページ以外のページで発生するコンバージョンイベントを追跡できます。 ITP 2.2 ソリューションは、ユーザーの Cookie を広告主が所有する iFrame のローカルストレージに保存します。 その後、ローカルストレージは、クリック後のダウンストリームからコンバージョンページまで Cookie の値を保持できます。
 
-コンバージョンマッピングタグを使用して、Adobe広告でApple Safari および Mozilla Firefox ブラウザー内で発生したすべてのコンバージョンを追跡できるようにし、ファーストパーティ cookie の持続性を制限します。 <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
+Adobe AdvertisingがApple Safari および Mozilla Firefox ブラウザー内で発生したすべてのコンバージョンを確実に追跡できるように、ファーストパーティ cookie の持続性が制限されるようにするには、コンバージョンマッピングタグを使用します。 <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
 コンバージョンマッピングタグを使用するには：
 
@@ -32,15 +34,15 @@ Adobe広告 JavaScript ベースのコンバージョンマッピングタグは
 
 * 組織が単一の組織 ID を使用していて、その ID が Search、Social、&amp;Commerce のアカウントに使用されている場合は、次のタグを使用します。
 
-   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
+  `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
 
-   置換先 `{AMO User ID}` を検索、ソーシャル、コマースの各アカウントの一意のユーザー ID に置き換えます。
+  置き換える場所 `{AMO User ID}` を検索、ソーシャル、コマースの各アカウントの一意のユーザー ID に置き換えます。
 
 * 組織が複数の組織 ID を使用している場合は、次のタグを使用します。
 
-   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="{xxxxxx@AdobeOrg}" userid="{AMO User ID}"></script>`
+  `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="{xxxxxx@AdobeOrg}" userid="{AMO User ID}"></script>`
 
-   場所：
+  場所：
 
    * 値を置き換えます `{xxxxxx@AdobeOrg}` を、ページのコンバージョンを追跡する組織 ID に置き換えます。 すべてのコンバージョンページで同じ組織 ID を使用します。
 
@@ -48,30 +50,30 @@ Adobe広告 JavaScript ベースのコンバージョンマッピングタグは
 
 * を追加できないタグ管理システムを使用している場合、 `imsorgid` 変数をスクリプトタグに追加し、代わりに次のコードを使用します。
 
-   *組織が単一の組織 ID を使用している場合：
+  *組織が単一の組織 ID を使用している場合：
 
-   ```
-   <script>
-   window.ad_cloud = window.ad_cloud || {};
-   window.ad_cloud.userid = "{AMO User ID}"
-   </script>
-   <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-   ```
+  ```
+  <script>
+  window.ad_cloud = window.ad_cloud || {};
+  window.ad_cloud.userid = "{AMO User ID}"
+  </script>
+  <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+  ```
 
-   置換先 `{AMO User ID}` を検索、ソーシャル、コマースの各アカウントの一意のユーザー ID に置き換えます。
+  置き換える場所 `{AMO User ID}` を検索、ソーシャル、コマースの各アカウントの一意のユーザー ID に置き換えます。
 
    * 組織が複数の組織 ID を使用している場合：
 
-      ```
-      <script>
-      window.ad_cloud = window.ad_cloud || {};
-      window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-      window.ad_cloud.userid = "{AMO User ID}"
-      </script>
-      <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-      ```
+     ```
+     <script>
+     window.ad_cloud = window.ad_cloud || {};
+     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+     window.ad_cloud.userid = "{AMO User ID}"
+     </script>
+     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+     ```
 
-      場所：
+     場所：
 
       * 値を置き換えます `{xxxxxx@AdobeOrg}` を、ページのコンバージョンを追跡する組織 ID に置き換えます。 すべてのコンバージョンページで同じ組織 ID を使用します。
 
@@ -96,7 +98,7 @@ window.ad_cloud.userid = "99999"
 
 ### タグの追加場所
 
-検索クリックからランディングページになる可能性のある任意のページにタグを追加します（ランディングページは時間の経過と共に変化する可能性があるので、すべてのページで理想的です）。 これは、Adobe広告の JavaScript v3 コンバージョントラッキングタグの前に読み込む必要があります。
+検索クリックからランディングページになる可能性のある任意のページにタグを追加します（ランディングページは時間の経過と共に変化する可能性があるので、すべてのページで理想的です）。 JavaScript v3 コンバージョントラッキングタグの前にAdobe Advertisingする必要があります。
 
 iframe またはコンテナタグ内に配置されている場合は、次のようになります。
 

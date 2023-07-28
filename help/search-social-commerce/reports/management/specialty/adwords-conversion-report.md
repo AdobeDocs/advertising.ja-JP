@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL AdWords Conversion Report]"
+title: '[!UICONTROL AdWords Conversion Report]'
 description: 詳しくは、 [!UICONTROL AdWords Conversion Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5c9252fd-b791-421b-a5d2-1f6279d38c45
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -10,9 +12,9 @@ ht-degree: 0%
 
 # [!UICONTROL AdWords Conversion Report]
 
-*[!DNL Google Ads]アカウント [!DNL Google Ads] コンバージョンの最適化のみ*
+*[!DNL Google Ads]次のアカウント [!DNL Google Ads] コンバージョンの最適化のみ*
 
-この [!UICONTROL AdWords Conversion Report] コスト、クリック、インプレッションのデータが含まれます。コンバージョンタイプ別のコンバージョンデータ [!DNL Google Ads Conversion Optimizer];および（オプション）1 つ以上のアカウント、キャンペーン、広告グループ、広告またはキーワードの派生指標データ。 データは、 [!DNL Google Ads Conversion Optimizer] がキャンペーンの入札設定で有効になっている（したがって、検索、ソーシャル、コマースはキャンペーンの入札を最適化していません）。 デフォルトでは、データには、指定した日付範囲の各時間単位に対して、該当するキーワードごとに、コンバージョンごとに 1 つの行が含まれています。 行は、広告グループ名の昇順で、デフォルトではキーワードの昇順で表示されます。 レポートには、コスト、クリック、インプレッションのデータや、 [!DNL Adobe].
+The [!UICONTROL AdWords Conversion Report] コスト、クリック、インプレッションの各データが含まれ、コンバージョンタイプ別のコンバージョンデータが [!DNL Google Ads Conversion Optimizer]および（オプション）1 つ以上のアカウント、キャンペーン、広告グループ、広告、キーワードの派生指標データ。 データは、 [!DNL Google Ads Conversion Optimizer] がキャンペーンの入札設定で有効になっている（したがって、検索、ソーシャル、コマースはキャンペーンの入札を最適化していません）。 デフォルトでは、データには、指定した日付範囲の各時間単位に対して、該当するキーワードごとに、コンバージョンごとに 1 つの行が含まれています。 行は、広告グループ名の昇順で、デフォルトではキーワードの昇順で表示されます。 レポートには、コスト、クリック、インプレッションのデータや、 [!DNL Adobe].
 
 過去 2 か月間のデータを表示できます。
 
@@ -48,7 +50,7 @@ ht-degree: 0%
 * [!UICONTROL Google Converted Clicks]
 
 >[!MORELIKETHIS]
+>
 * [特殊レポートについて](specialty-report-about.md)
 * [特殊なレポートの生成](specialty-report-generate.md)
-* [特殊レポート設定](specialty-report-settings.md)
-
+* [特殊なレポート設定](specialty-report-settings.md)

@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Ad Group Report]"
+title: '[!UICONTROL Ad Group Report]'
 description: 詳しくは、 [!UICONTROL Ad Group Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7939c015-4828-49d4-8f7a-efd5992e088b
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Ad Group Report]
 
-この [!UICONTROL Ad Group Report] 1 つ以上の広告グループのコスト、クリック、（オプションで）コンバージョンのデータが含まれます。 デフォルトでは、データには、指定した日付範囲の時間単位ごとに、適用可能な広告グループごとに 1 つの行が含まれ、行は、広告グループ、キャンペーンの順に昇順で表示されます。
+The [!UICONTROL Ad Group Report] 1 つ以上の広告グループのコスト、クリック、（オプションで）コンバージョンのデータが含まれます。 デフォルトでは、データには、指定した日付範囲の時間単位ごとに、適用可能な広告グループごとに 1 つの行が含まれ、行は、広告グループ、キャンペーンの順に昇順で表示されます。
 
 オプションで、広告主固有のラベル分類を含めることができます。
 
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->広告グループレベルのデータは、 [!DNL Google Ads] 最大パフォーマンスキャンペーン パフォーマンスの最大キャンペーン数がある場合は、キャンペーンの広告グループレベルの合計データとキャンペーンの合計データとの間に相違が生じることを想定してください。
+>広告グループレベルのデータは、 [!DNL Google Ads] 最大パフォーマンスキャンペーン数 パフォーマンスの最大キャンペーン数がある場合は、キャンペーンの広告グループレベルの合計データとキャンペーンの合計データとの間に相違が生じることを想定してください。
 
 ## デフォルトの列
 
@@ -44,4 +46,3 @@ ht-degree: 0%
 >* [基本レポートと高度なレポートについて](basic-advanced-report-about.md)
 >* [基本レポートまたは高度なレポートの生成](basic-advanced-report-generate.md)
 >* [基本レポート設定と詳細レポート設定](basic-advanced-report-settings.md)
-

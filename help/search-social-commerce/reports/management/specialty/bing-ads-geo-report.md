@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Bing Ads Geo Report]"
+title: '[!UICONTROL Bing Ads Geo Report]'
 description: 詳しくは、 [!UICONTROL Bing Ads Geo Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b14e5039-4af6-43de-925c-429f537dad6a
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft® Advertising]アカウントのみ*
 
-この [!UICONTROL Bing Ads Geo Report] には、1 つ以上のアカウントの各広告グループの国/地域/メトロコード/市区町村の組み合わせに応じて、コスト、クリック、インプレッション、（オプションで）派生指標データが含まれます。 デフォルトでは、データには、指定した日付範囲の各時間単位に対して、少なくとも 1 つのインプレッションまたはクリックを受け取った国/地域/地域/市区町村コード/市区町村の組み合わせごとに 1 つの行が含まれます。 行は、デフォルトで、キャンペーン名、国、地域、大都市、市区町村、広告グループの順に昇順で表示されます。 レポートには、 [!DNL Microsoft Advertising] nor [!DNL Adobe].
+The [!UICONTROL Bing Ads Geo Report] には、1 つ以上のアカウントの各広告グループの国/地域/メトロコード/市区町村の組み合わせに応じて、コスト、クリック、インプレッション、（オプションで）派生指標データが含まれます。 デフォルトでは、データには、指定した日付範囲の各時間単位に対して、少なくとも 1 つのインプレッションまたはクリックを受け取った国/地域/地域/市区町村コード/市区町村の組み合わせごとに 1 つの行が含まれます。 行は、デフォルトで、キャンペーン名、国、地域、大都市、市区町村、広告グループの順に昇順で表示されます。 このレポートには、 [!DNL Microsoft Advertising] nor [!DNL Adobe].
 
 過去 2 か月間のデータを表示できます。
 
@@ -20,7 +22,6 @@ ht-degree: 0%
 >
 >* このレポートの合計は、 [!UICONTROL Geo Distribution Report] （検索、ソーシャル、コマースがコンパイルする）。地理的な場所を決定する際の様々なベンダーおよび方法です。
 >* このレポートのデータは、前日の各日の 23:00（午後 11:00）に取り込まれます。 例えば、6 月 18 日の 23:00 に、6 月 17 日のデータを取り込みます。 6 月 19 日の 09:00（6 月 18 日のデータが取り込まれる前）にレポートを実行した場合、6 月 17 日の 23:00 までのデータがレポートに含まれます。
-
 
 ## デフォルトの列
 
@@ -46,7 +47,7 @@ ht-degree: 0%
 * [!UICONTROL Ad Distribution]
 
 >[!MORELIKETHIS]
+>
 * [特殊レポートについて](specialty-report-about.md)
 * [特殊なレポートの生成](specialty-report-generate.md)
-* [特殊レポート設定](specialty-report-settings.md)
-
+* [特殊なレポート設定](specialty-report-settings.md)

@@ -1,18 +1,20 @@
 ---
-title: "[!UICONTROL Keyword Assist Report]"
+title: '[!UICONTROL Keyword Assist Report]'
 description: 詳しくは、 [!UICONTROL Keyword Assist Report].
-source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
+exl-id: 07de2880-111b-498f-9f7f-ec15f89230ae
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
-# この [!UICONTROL Keyword Assist Report]
+# The [!UICONTROL Keyword Assist Report]
 
-*検索、ソーシャル、コマースのクリック追跡およびAdobe広告、Adobe Analytics( [!DNL Analytics] 統合 )、またはトークン (`ef_id`) のみ*
+*検索、ソーシャル、コマースのクリック追跡およびAdobe Advertising、Adobe Analytics( [!DNL Analytics] 統合 )、またはトークン (`ef_id`) のみ*
 
-この [!UICONTROL Keyword Assist Report] クリックを引き起こすキーワードまたは配置を示します。 このレポートは、コンバージョンパスでクリックを受け取った有料検索キーワードまたはプレースメントの各パターンを示し、そのパターンが全体的なコンバージョンにどのように貢献したかを示します。 例えば、ユーザーがキーワード検索で広告を最初にクリックして「革靴」を検索し、次にキーワード検索で広告をクリックして「スエド靴」を検索し、次に広告を注文した場合に、コンバージョンが何回発生したかを確認できます。または、ユーザーが 10 個を超えるキーワードによる広告をクリックした後に発生したコンバージョンの数を確認できます。
+The [!UICONTROL Keyword Assist Report] クリックを引き起こすキーワードまたは配置を示します。 このレポートは、コンバージョンパスでクリックを受け取った有料検索キーワードまたはプレースメントの各パターンを示し、そのパターンが全体的なコンバージョンにどのように貢献したかを示します。 例えば、ユーザーがキーワード検索で「革靴」を検索した広告を最初にクリックし、キーワード検索で広告をクリックして注文した場合に、コンバージョンが何回発生したかを確認できます。
 
 レポートの結果には、広告主のクリックルックバックウィンドウとインプレッションのルックバックウィンドウ内で発生したコンバージョンパスでの最も早い有料検索キーワードまたは配置クリック数に関する集計データが含まれます。 例えば、パスサイズを 5(5) に選択した場合、レポートは、クリックを受け取った最も古い 5 つのキーワードまたはプレースメントを含むコンバージョンパスで構成され、クリックのパターンごとに 1 行が追跡されます。 各行には、（最後のキーワードが指定されたパスサイズの外にある場合でも）コンバージョンにつながった最後のキーワードまたは配置の最初のキーワードまたは配置が含まれます。 デフォルトでは、行はパス内のイベント数の昇順に表示されます。
 
@@ -47,7 +49,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [アシストレポートについて](assist-report-about.md)
->* [この [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
->* [この [!UICONTROL Channel Assist Report]](channel-assist-report.md)
+>* [The [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
+>* [The [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [レポート設定の支援](assist-report-settings.md)
 >* [アシストレポートの生成](assist-report-generate.md)

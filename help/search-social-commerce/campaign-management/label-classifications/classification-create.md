@@ -1,7 +1,9 @@
 ---
 title: ラベルの分類の作成
-description: アカウントコンポーネントをグループ化するためのラベル分類の作成方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: アカウントコンポーネントをグループ化するためのラベル分類を作成する方法を説明します。
+exl-id: a7f6ca43-e829-4295-96bc-27ce8858227a
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 1. 一意のラベル分類名を入力し、「 **[!UICONTROL Save]**.
 
-   名前は、広告主アカウントで一意である必要があり、で構成されます [ASCII 文字 32～126](https://www.asciitable.com/)の最大長は 27 文字です。 既存のレポート列または既存の Bulksheet 列の名前と同じ名前にすることはできません。 次のバルクシート列の名前を参照： [梅津](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft® Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [ネーバー](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! ネットワークを表示](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)、および [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+   名前は、広告主アカウントで一意である必要があり、で構成されます [ASCII 文字 32～126](https://www.asciitable.com/)の場合、最大長は 27 文字の 1 バイト文字です。 既存のレポート列または既存の Bulksheet 列の名前と同じ名前にすることはできません。 次のバルクシート列の名前を参照： [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft® Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [ネーバー](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! ネットワークを表示](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)、および [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
 ラベル分類を作成したら、分類に対する特定のラベル値を作成し、そのラベル値を [キャンペーン管理ビュー](classification-values-assign-campaign-management.md) または [bulksheets の使用](classification-values-assign-bulksheets.md).
 
@@ -30,4 +32,3 @@ ht-degree: 0%
 >* [顧客コンポーネントからラベル分類値を削除](classification-values-remove.md)
 >* [ラベル分類値の削除](classification-values-delete.md)
 >* [ラベルの分類を削除](classification-delete.md)
-

@@ -1,7 +1,9 @@
 ---
-title: '"[!DNL Microsoft Advertising] 広告グループ設定'
+title: '''[!DNL Microsoft Advertising] 広告グループ設定'
 description: 次の設定を参照してください： [!DNL Microsoft Advertising] 広告グループ。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5dfa766d-2a42-455d-a340-e72e11a38032
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -28,9 +30,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Networks]
 
-**[!UICONTROL Networks]:** 広告グループ内の広告の配置方法と場所：
+**[!UICONTROL Networks]:** 広告グループ内の広告を配置する方法と場所：
 
-* *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* （デフォルト）:検索ネットワーク上に広告の入札を配置する。
+* *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* （デフォルト）：検索ネットワーク上で広告の入札を配置します。
 
 * *[!UICONTROL Only Microsoft Advertising and Yahoo! syndicated search partners]:* シンジケートパートナーサイトに広告の入札を配置する。
 
@@ -62,7 +64,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/devices.md}}
 
-**[!UICONTROL Gender]:** ( オーディエンスの広告グループ。（オプション）ターゲットとして含める、または除外する特定のジェンダー： *[!UICONTROL Male]*, *[!UICONTROL Female]*、および *[!UICONTROL Unknown]*. デフォルトでは、すべてのジェンダーがターゲットになります。 除外は、常に含めるものを上書きします。
+**[!UICONTROL Gender]:** （オーディエンス広告グループ、オプション）ターゲットとして含める、または除外する特定のジェンダー： *[!UICONTROL Male]*, *[!UICONTROL Female]*、および *[!UICONTROL Unknown]*. デフォルトでは、すべてのジェンダーがターゲットになります。 除外は、常に含めるものを上書きします。
 
 * すべての値をターゲットにする場合は、値を選択しないでください。
 
@@ -70,7 +72,7 @@ ht-degree: 0%
 
 * 値を除外するには、値の横の円を 2 回クリックして、赤いチェックマーク (![除外](/help/search-social-commerce/assets/exclude.png "除外")) が表示されます。
 
-**[!UICONTROL Age]:** ( オーディエンスの広告グループ。（オプション）ターゲットとして含める、または除外する特定の年齢カテゴリ： *[!UICONTROL 18-24]*, *[!UICONTROL 25-34]*, *[!UICONTROL 35-49]*, *[!UICONTROL 50-64]*, *[!UICONTROL 65+]*、および *[!UICONTROL Unknown]*. デフォルトでは、すべての年齢がターゲットになっています。 除外は、常に含めるものを上書きします。
+**[!UICONTROL Age]:** （オーディエンス広告グループ、オプション）ターゲットとして含めるまたは除外する特定の年齢カテゴリ： *[!UICONTROL 18-24]*, *[!UICONTROL 25-34]*, *[!UICONTROL 35-49]*, *[!UICONTROL 50-64]*, *[!UICONTROL 65+]*、および *[!UICONTROL Unknown]*. デフォルトでは、すべての年齢がターゲットになっています。 除外は、常に含めるものを上書きします。
 
 * すべての値をターゲットにする場合は、値を選択しないでください。
 
@@ -78,7 +80,7 @@ ht-degree: 0%
 
 * 値を除外するには、値の横の円を 2 回クリックして、赤いチェックマーク (![除外](/help/search-social-commerce/assets/exclude.png "除外")) が表示されます。
 
-**[!UICONTROL Industry]:** ( オーディエンスの広告グループ。（オプション）ターゲットとして含める、または除外する特定の業種。 デフォルトでは、すべての業界がターゲットになっています。 除外は、常に含めるものを上書きします。
+**[!UICONTROL Industry]:** （オーディエンス広告グループ、オプション）ターゲットとして含めるまたは除外する特定の業種。 デフォルトでは、すべての業界がターゲットになっています。 除外は、常に含めるものを上書きします。
 
 * すべての値をターゲットにする場合は、値を選択しないでください。
 
@@ -86,7 +88,7 @@ ht-degree: 0%
 
 * 値を除外するには、値の横の円を 2 回クリックして、赤いチェックマーク (![除外](/help/search-social-commerce/assets/exclude.png "除外")) が表示されます。
 
-**[!UICONTROL Job Function Targets]:** ( オーディエンスの広告グループ。（オプション）ターゲットとして含めるまたは除外する特定のジョブ関数。 デフォルトでは、すべてのジョブ関数がターゲットになっています。 除外は、常に含めるものを上書きします。
+**[!UICONTROL Job Function Targets]:** （オーディエンス広告グループ、オプション）ターゲットとして含めるまたは除外する特定のジョブ機能。 デフォルトでは、すべてのジョブ関数がターゲットになっています。 除外は、常に含めるものを上書きします。
 
 * すべての値をターゲットにする場合は、値を選択しないでください。
 
@@ -116,11 +118,10 @@ ht-degree: 0%
 
 ## [!UICONTROL Negative Websites]
 
-**[!UICONTROL Negative Websites]:** ( ディスプレイ/ネイティブネットワーク上のキャンペーンのみ。（オプション）広告を表示したくないディスプレイネットワーク上のサイト。 有効な URL( 例： www.example.com) を入力します。 複数の文字列を指定するには、コンマで区切るか、複数の文字列を別々の行に入力します。
+**[!UICONTROL Negative Websites]:** （ディスプレイ/ネイティブネットワーク上のキャンペーンのみ、オプション）広告を表示したくないディスプレイネットワーク上のサイト。 有効な URL( 例： www.example.com ) を入力します。 複数の文字列を指定するには、コンマで区切るか、複数の文字列を別々の行に入力します。
 
 可用性について詳しくは、Microsoft Advertising ヘルプの[特定の Web サイトに広告が表示されないようにする](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [広告グループの管理](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-

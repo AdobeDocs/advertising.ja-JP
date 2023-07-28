@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Yandex] キャンペーン設定"
+title: '''[!DNL Yandex] キャンペーン設定'
 description: 次の設定を参照してください： [!DNL Yandex] キャンペーン。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 33e73b90-7a37-4be7-b96d-02ef8bfdb79e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -16,9 +18,9 @@ ht-degree: 0%
 
 * *[!UICONTROL Search Network Only]:* 検索ネットワーク上のテキスト広告を表示します。 広告グループごとにキーワードを指定する必要があります。
 
-* *[!UICONTROL Search and Display Network]:* 検索ネットワーク上のテキスト広告と [!DNL Yandex Advertising Network]. 検索広告の場合、各広告グループに検索キーワードを指定する必要があります。ディスプレイ広告の場合、広告グループごとに宣伝する web サイトのキーワードを指定する必要があります。
+* *[!UICONTROL Search and Display Network]:* 検索ネットワーク上のテキスト広告と [!DNL Yandex Advertising Network]. 検索広告の場合は、各広告グループに検索キーワードを指定する必要があります。ディスプレイ広告の場合は、各広告グループに広告を表示する Web サイトのキーワードを指定する必要があります。
 
-* *[!UICONTROL Display Network Only]:* テキスト広告を [!DNL Yandex Advertising Network]. 各広告グループに対して、宣伝する Web サイトのキーワードを指定する必要があります。
+* *[!UICONTROL Display Network Only]:* 次の場所にテキスト広告を表示： [!DNL Yandex Advertising Network]. 各広告グループに対して、宣伝する Web サイトのキーワードを指定する必要があります。
 
 ## [!UICONTROL Campaign Details]
 
@@ -77,4 +79,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

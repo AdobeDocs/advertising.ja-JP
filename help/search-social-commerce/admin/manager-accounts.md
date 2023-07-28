@@ -1,7 +1,9 @@
 ---
 title: Ad Network Manager アカウントの資格情報の管理
-description: の資格情報の入力方法を説明します [!DNL Google Ads] 管理者アカウント
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: の資格情報の入力方法を説明します [!DNL Google Ads] 管理者アカウント。
+exl-id: bde22f70-12a7-4eef-a141-dafeed9a7dc5
+feature: Search Admin
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -30,9 +32,9 @@ ht-degree: 1%
 
 1. マネージャーアカウントのログイン資格情報を入力します。
 
-   この **[!UICONTROL Manager Account ID]** および **[!UICONTROL Login Email]** が必要です。 検索、ソーシャル、コマースでは、認証に使用するアカウントトークンを自動的にキャプチャして保存します。
+   The **[!UICONTROL Manager Account ID]** および **[!UICONTROL Login Email]** が必要です。 検索、ソーシャル、コマースでは、認証に使用するアカウントトークンを自動的にキャプチャして保存します。
 
-   オプションで、 **[!UICONTROL MCC Account Name]** 検索、ソーシャル、コマースおよびアカウント内での識別 **[!UICONTROL Password]**. アカウントマネージャーが必要に応じてトークンを更新できるように、暗号化して保存するパスワードを入力します。
+   オプションで、 **[!UICONTROL MCC Account Name]** 検索、ソーシャル、コマースおよびアカウント内での識別用 **[!UICONTROL Password]**. アカウントマネージャーが必要に応じてトークンを更新できるように、暗号化して保存するパスワードを入力します。
 
 1. クリック **[!UICONTROL Authenticate]**.
 
@@ -48,9 +50,9 @@ ht-degree: 1%
 
 1. マネージャーアカウントのログイン資格情報を入力します。
 
-   この **[!UICONTROL Manager Account ID]** および **ログインメール** が必要です。 検索、ソーシャル、コマースでは、認証に使用するアカウントトークンを自動的にキャプチャして保存します。
+   The **[!UICONTROL Manager Account ID]** および **ログインメール** が必要です。 検索、ソーシャル、コマースでは、認証に使用するアカウントトークンを自動的にキャプチャして保存します。
 
-   オプションで、 **[!UICONTROL MCC Account Name]** 検索、ソーシャル、コマースおよびアカウント内での識別 **[!UICONTROL Password]**. アカウントマネージャーが必要に応じてトークンを更新できるように、暗号化して保存するパスワードを入力します。
+   オプションで、 **[!UICONTROL MCC Account Name]** 検索、ソーシャル、コマースおよびアカウント内での識別用 **[!UICONTROL Password]**. アカウントマネージャーが必要に応じてトークンを更新できるように、暗号化して保存するパスワードを入力します。
 
 1. クリック **[!UICONTROL Authenticate]**.
 
@@ -61,4 +63,3 @@ ht-degree: 1%
 >* [広告ネットワークへの目標のアップロードを有効にする](/help/search-social-commerce/tools/objective-upload-to-networks.md)
 >* [コンバージョン指標のアップロード先 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
 >* [通知設定を編集](/help/search-social-commerce/notifications/notification-edit.md)
-

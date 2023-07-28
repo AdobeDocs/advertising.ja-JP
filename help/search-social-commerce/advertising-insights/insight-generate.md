@@ -1,7 +1,9 @@
 ---
 title: を生成 [!DNL Advertising Insight]
 description: 以下を作成する方法を説明します。 [!DNL Advertising Insight].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 242095c9-25f0-4954-b1a8-5ea3db312afd
+feature: Search Advertising Insights
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 3. インサイト設定を指定します。
 
-   1. ( 一部の報告は、（オプション）インサイトの日付範囲を指定します。
+   1. （一部のレポート。オプション）インサイトの日付範囲を指定します。
 
    2. （ほとんどのインサイト）分析するポートフォリオを選択します。
 
@@ -29,42 +31,41 @@ ht-degree: 0%
       1. を選択します。 **[!UICONTROL Operation]**: *[!UICONTROL Extract events]* ( [!UICONTROL Channel Assist Report] または [!UICONTROL Campaign Assist Report] を参照して、ユーザーイベントを分析用に個別のグループに分類する ) または *[!UICONTROL Analyze classified events]* （イベントグループをアップロードし、それらを使用してインサイトを生成する場合）。
 
       1. クリック **[!UICONTROL Select]** XLSX および ZIP（圧縮 XLSX）形式のファイルを見つけるには、 **[!UICONTROL Upload]**.
+
    4. ([!UICONTROL Google Account Audit] insight のみ ) 次の操作を行います。
 
       1. 次を入力します。 **[!UICONTROL Advertiser Name]** および **[!UICONTROL Account Name]**.
 
       1. を選択します。 **[!UICONTROL Account Currency]**, **[!UICONTROL File Format Region]** (*[!UICONTROL United States]* または *[!UICONTROL United Kingdom]*)、および **[!UICONTROL Output Language]** (*[!UICONTROL English (USA)]*, *[!UICONTROL French]*&#x200B;または *[!UICONTROL German]*) をクリックします。
 
-      1. クリック **[!UICONTROL Select]** アカウントに関してダウンロードしたキャンペーン、キーワード、履歴レポートを [!DNL Google Ads] web ユーザーインターフェイスと、そのアカウント用にからダウンロードした一括送信シートファイル [!DNL Google Ads Editor] アプリケーション。 次に、 **[!UICONTROL Upload]**.
+      1. クリック **[!UICONTROL Select]** アカウントに関してダウンロードしたキャンペーン、キーワード、履歴レポートを [!DNL Google Ads] web ユーザーインターフェイスと、そのアカウント用にからダウンロードした一括送信シートファイル。 [!DNL Google Ads Editor] アプリケーション。 次に、「 **[!UICONTROL Upload]**.
 
          すべてのファイルは、CSV、TSV、TXT、ZIP（圧縮 CSV、TSV、TXT）形式である必要があります。
-   5. ([!UICONTROL Location Target Performance] インサイトのみ（オプション）データを概要ではなく毎日集計するには、「 **[!UICONTROL Time Aggregation]** / *[!UICONTROL Daily]*.
+
+   5. ([!UICONTROL Location Target Performance] インサイトのみ（オプション）概要ではなく毎日データを集計するには、 **[!UICONTROL Time Aggregation]** / *[!UICONTROL Daily]*.
 
    6. ([!UICONTROL Normalized Sim (Combined)] insight のみ ) 次の操作を行います。
 
-      1. 内 **[!UICONTROL Step]** 「 」フィールドで、インサイトに含める目標支出レベルまたはステップの数を指定します。 値は、3(3) ～ 100 の間で指定できます。
+      1. Adobe Analytics の **[!UICONTROL Step]** 「 」フィールドで、インサイトに含める目標支出レベルまたはステップの数を指定します。 値は、3(3) ～ 100 の間で指定できます。
 
-      1. 内 **[!UICONTROL Type]** 「 」フィールドで、シミュレーションタイプを選択します。
+      1. Adobe Analytics の **[!UICONTROL Type]** 「 」フィールドで、シミュレーションタイプを選択します。
 
-         * *[!UICONTROL Optimized Multi-portfolio]*:同じ目標と通貨を持つ複数のポートフォリオにわたって、単一のシミュレーションを生成します。
+         * *[!UICONTROL Optimized Multi-portfolio]*：同じ目標と通貨を持つ複数のポートフォリオをまたいだ単一のシミュレーションを生成します。
 
-         * *[!UICONTROL Individual Normalized]*:選択したポートフォリオごとに個別のシミュレーションを生成します。 ポートフォリオの目標と通貨が異なる場合があります。
+         * *[!UICONTROL Individual Normalized]*：選択したポートフォリオごとに個別のシミュレーションを生成します。 ポートフォリオの目標と通貨が異なる場合があります。
+
    7. ([!UICONTROL Portfolio Launch] インサイトのみ（オプション）将来のローンチ日を指定するには、 **[!UICONTROL Optional Date]** フィールドに入力します。
 
    8. ([!UICONTROL Quality Score] insight のみ ) 該当する広告ネットワークを選択します。
 
    9. ([!UICONTROL Query Cross Matching] インサイトのみ ) **[!UICONTROL Google Accounts]** メニューで、アカウントを選択します。
 
-
-
-
 4. クリック **[!UICONTROL Generate Insight]**.
 
-   ジョブが完了した場合、またはジョブが失敗した場合、 [通知設定の構成](/help/search-social-commerce/notifications/notification-edit.md) 対象 [!UICONTROL Advertising Insights].
+   ジョブが完了した場合、またはジョブが失敗した場合は、 [設定済みの通知設定](/help/search-social-commerce/notifications/notification-edit.md) 対象： [!UICONTROL Advertising Insights].
 
 >[!MORELIKETHIS]
 >
 >* [について [!UICONTROL Advertising Insights]](insight-about.md)
 >* [表示または保存 [!DNL Advertising Insight]](insight-view-save.md)
 >* [の削除 [!DNL Advertising Insight]](insight-delete.md)
-

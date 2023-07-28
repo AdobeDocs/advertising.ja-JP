@@ -1,7 +1,9 @@
 ---
 title: 管理 [!DNL Microsoft Advertising] 動的リマーケティングオーディエンス
 description: 作成および管理方法を学ぶ [!DNL Microsoft Advertising] 動的リマーケティングオーディエンス。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft Advertising]アカウントのみ*
 
-次の項目を作成できます。 [!DNL Microsoft Advertising] 動的リマーケティングオーディエンスを使用する必要があります。 各オーディエンスは、ユーザーがオーディエンスを構成する Web ページに含まれる指定したタグを使用して作成されます。 同じトラッキングタグで複数のオーディエンスを作成できます。 また、既存のオーディエンスの名前やデータソースを変更したり、既存のオーディエンスを削除したりすることもできます。
+次の項目を作成できます。 [!DNL Microsoft Advertising] 動的リマーケティングオーディエンスを使用する必要があります。 各オーディエンスは、ユーザーがオーディエンスを構成する Web ページに含まれる指定したタグを使用して作成されます。 同じトラッキングタグを使用して、複数のオーディエンスを作成できます。 また、既存のオーディエンスの名前やデータソースを変更したり、既存のオーディエンスを削除したりすることもできます。
 
 動的リマーケティングオーディエンスのオーディエンスタイプは「[!UICONTROL Dynamic Remarketing] \&lt;visitor type=&quot;&quot;>&quot; （「Dynamic Remarketing Past Buyers」など）
 
@@ -22,9 +24,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->の場合 [!DNL Microsoft Advertising] アカウントの場合、JavaScript タグに [製品 ID およびページタイプパラメーター](https://help.ads.microsoft.com/#apex/ads/en/56910/1/#exp85).
+>の場合 [!DNL Microsoft Advertising] アカウントの場合、JavaScript タグには [製品 ID およびページタイプパラメーター](https://help.ads.microsoft.com/#apex/ads/en/56910/1/#exp85).
 
-1. 名前を指定 [!DNL Microsoft Advertising] オーディエンスの作成元となる Web ページに含まれるユニバーサルイベントトラッキング (UET) タグ。
+1. 次の名前を指定： [!DNL Microsoft Advertising] オーディエンスの作成元となる Web ページに含まれるユニバーサルイベントトラッキング (UET) タグ。
 
    後の手順でタグ名が必要になります。
 
@@ -36,7 +38,7 @@ ht-degree: 0%
 
 1. オーディエンス情報を指定します。
 
-   1. 内 **[!UICONTROL Data Source]** メニュー、選択 **[!UICONTROL Dynamic Remarketing List]**.
+   1. Adobe Analytics の **[!UICONTROL Data Source]** メニュー、選択 **[!UICONTROL Dynamic Remarketing List]**.
 
    1. 次を入力します。 **[!UICONTROL Audience Name]**.
 
@@ -56,7 +58,7 @@ ht-degree: 0%
 
 ## 動的リマーケティングオーディエンスの編集
 
-名前とデータソースは [!DNL Microsoft Advertising] 動的リマーケティングオーディエンス。 この [!UICONTROL Membership Days] 設定。
+名前とデータソースは、 [!DNL Microsoft Advertising] 動的リマーケティングオーディエンス。 この [!UICONTROL Membership Days] 設定。
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
@@ -66,7 +68,7 @@ ht-degree: 0%
 
 1. オーディエンス情報を編集します。
 
-   1. 内 **[!UICONTROL Data Source]** セクションで、 ![編集](/help/search-social-commerce/assets/edit.png "編集").
+   1. Adobe Analytics の **[!UICONTROL Data Source]** セクションで、 ![編集](/help/search-social-commerce/assets/edit.png "編集").
 
    1. （オプション） **[!UICONTROL Audience Name]**.
 
@@ -94,4 +96,3 @@ ht-degree: 0%
 >* [作成 [!DNL Google Ads] 次のオーディエンスをカスタマーマッチさせる [!DNL Adobe] audiences](google-audience-from-adobe-audience.md)
 >* [の作成 [!DNL Google Ads] Adobe Campaign電子メールリストからの顧客一致オーディエンス](google-audience-from-campaign-email-list.md)
 >* [顧客データリストを使用した顧客一致オーディエンスの管理](audience-from-customer-data-list.md)
-

@@ -1,7 +1,9 @@
 ---
 title: 除外キーワードの作成
 description: 検索キャンペーンおよび広告グループの除外キーワードを作成する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 683e5395-cb65-4d7f-a981-7fc9f84d4192
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -26,7 +28,7 @@ ht-degree: 0%
 
 1. 広告ネットワーク、アカウント、キャンペーン、および（関連する場合）広告グループを選択し、「 **[!UICONTROL Continue]**.
 
-1. 除外キーワードを入力します。 マイナス記号 (`-`):
+1. 除外キーワードを入力します。 次の構文を、マイナス記号 (`-`):
 
    * 負の部分一致： `keyword` ( ではサポートされていません。 [!DNL Microsoft® Advertising])
 
@@ -36,14 +38,13 @@ ht-degree: 0%
 
    複数の値はコンマで区切るか、別々の行に入力します。 1 回の操作で 2,000 個までの除外キーワードを入力または貼り付けることができます。 次の要件および制限も参照してください。
 
-   * 最大文字数： [!DNL Baidu]:30 シングルバイトまたは 15 ダブルバイト。 [!DNL Microsoft® Advertising]:1 バイトまたは 2 バイトの 100 バイト、または 50 バイト。 [!DNL Google Ads] および [!DNL Yahoo! Japan Ads]:1 バイトの 80 文字、または 2 バイトの 40 文字。
+   * 最大文字数： [!DNL Baidu]:30 シングルバイトまたは 15 ダブルバイト。 [!DNL Microsoft® Advertising]:1 バイトまたは 2 バイトを 50 個指定します。 [!DNL Google Ads] および [!DNL Yahoo! Japan Ads]:80 シングルバイトまたは 40 ダブルバイト。
 
    * [!DNL Baidu] では、広告グループごとに 1 つのキーワードにつき 1 つの一致タイプのみを使用できます。 例えば、広告グループ 1 に `"keyword"` および `[keyword]`.
 
-   * [!DNL Google Ads]:各キーワードは 10 語以下で構成でき、文字、数字、次の特殊文字のみを含めることができます。space `# $ & _ - " [ ] ' + . / :`
+   * [!DNL Google Ads]：各キーワードは 10 語以下で構成でき、文字、数字、次の特殊文字のみを含めることができます。スペース `# $ & _ - " [ ] ' + . / :`
 
-   * [!DNL Yandex]:各キーワードは、ストップワードを除く最大 7 語まで指定できます。 各 [!DNL Yandex ad group] には最大 200 個のキーワードを含めることができます。
-
+   * [!DNL Yandex]：各キーワードは、停止語を除く最大 7 語まで指定できます。 各 [!DNL Yandex ad group] には最大 200 個のキーワードを含めることができます。
 
 1. クリック **[!UICONTROL Post]**.
 
@@ -52,4 +53,3 @@ ht-degree: 0%
 >* [キーワードについて](keyword-about.md)
 >* [入札可能なキーワードの管理](keyword-manage.md)
 >* [キーワードと除外キーワードのステータスの変更](keyword-status-edit.md)
-

@@ -1,14 +1,16 @@
 ---
-title: "[!UICONTROL Forecast Accuracy Report]"
+title: '[!UICONTROL Forecast Accuracy Report]'
 description: データ列を含む予測精度レポートの詳細を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
+feature: Search Reports, Search Model Accuracy Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
-# この [!UICONTROL Forecast Accuracy Report]
+# The [!UICONTROL Forecast Accuracy Report]
 
 このレポートは、指定したポートフォリオのコストと売上高のモデルの精度を日別に表示します。 デフォルトでは、各ポートフォリオに対する日別の予測および実際の売上高、コスト、クリック数、および予測の精度が含まれます。 ポートフォリオに現在マッピングされているキャンペーンのデータが含まれます。
 
@@ -24,7 +26,6 @@ ht-degree: 0%
 >
 >* ポートフォリオ内のキーワードが入札シフト制約に関連付けられている場合、ポートフォリオは入札シフトに起因する合計金額で過剰または過少使用します。 その結果、予測されたコスト列は、支出の増減によって目標支出から外れます。
 
-
 ## 使用可能な列
 
 次に、各レポートで使用できる列を示します。 デフォルトの列は、デフォルトで自動的に含まれます。 使用可能なカスタム列を [!UICONTROL Columns] 」セクションに表示されます。
@@ -38,12 +39,12 @@ ht-degree: 0%
 | [!UICONTROL Predicted Revenue] | デフォルト | ポートフォリオの予測売上高。 |
 | [!UICONTROL Revenue] | デフォルト | ポートフォリオの実際の売上高。 |
 | [!UICONTROL Revenue Accuracy] | デフォルト | 売上高予測の精度をパーセンテージで表します。 |
-| [!UICONTROL Predicted Cost] | デフォルト | ポートフォリオの予測コスト。 |
+| [!UICONTROL Predicted Cost] | デフォルト | ポートフォリオに対して予測されるコスト。 |
 | [!UICONTROL Cost] | デフォルト | ポートフォリオの実際のコスト。 |
 | [!UICONTROL Cost Accuracy] | デフォルト | コスト予測の精度（パーセンテージで表されます）。 |
 | [!UICONTROL Predicted Clicks] | デフォルト | ポートフォリオに対して予測されたクリック数。 |
 | [!UICONTROL Clicks] | デフォルト | ポートフォリオの実際のクリック数。 |
-| [!UICONTROL Click Accuracy] | デフォルト | クリック予測の精度（パーセンテージで表されます）。 |
+| [!UICONTROL Click Accuracy] | デフォルト | クリック予測の精度（パーセンテージで表される）。 |
 | [!UICONTROL EF Portfolio Group ID] | デフォルト | ポートフォリオが属するポートフォリオグループの数値 ID。 |
 | [!UICONTROL Portfolio Group Name] | デフォルト | ポートフォリオが属するポートフォリオグループの名前。 |
 | [!UICONTROL Portfolio ID] | デフォルト | 数値のポートフォリオ ID。 |
@@ -53,7 +54,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [モデル精度レポートについて](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
->* [この [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+>* [The [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [モデル精度レポートの生成](model-accuracy-report-generate.md)
 >* [モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
-

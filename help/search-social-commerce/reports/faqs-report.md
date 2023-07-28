@@ -2,7 +2,8 @@
 title: カスタムレポートに関する FAQ
 description: データの問題のトラブルシューティングなど、パフォーマンスレポートに関するよくある質問への回答を説明します。
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
-source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '3919'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 +++クリック日レポートとトランザクション日ベースレポートの違いは何ですか。
 トランザクション日別にコンバージョンをレポートする場合、データには、指定した期間にトランザクション日が発生したトランザクションが含まれます。 このオプションは、基本レポートおよび高度なレポートのデフォルト設定で、指定した期間内に獲得した売上高を示します。
 
-クリック日別にコンバージョンをレポートする場合、データには、指定した期間に発生したクリックに起因するトランザクションが含まれます。 ポートフォリオでクリック数とトランザクション数の間に大きな遅延が生じた場合、このタイプのレポートは、ポートフォリオのクリックあたりの過去の売上高を示し、時間の経過と共に予想される売上高行動を把握できます。
+クリック日別にコンバージョンをレポートする場合、データには、指定した期間に発生したクリックに起因するトランザクションが含まれます。 ポートフォリオでクリック数とトランザクション数の間に大きな遅れが生じた場合、このタイプのレポートは、ポートフォリオのクリックあたりの過去の売上高を示し、時間の経過と共に予想される売上高行動を把握できます。
 
 ![クリック日別のレポートとトランザクション日別のレポート](/help/search-social-commerce/assets/click-date-vs-txn-date.png "クリック日別のレポートとトランザクション日別のレポート")
 +++
@@ -34,13 +35,13 @@ ht-degree: 0%
 +++
 
 +++どのコンバージョンが [!DNL Google Ads] 広告の拡張または製品のリスト。
-どのコンバージョンが、 [!DNL Google Ads] 広告の拡張（広告自体ではなく）、または [!UICONTROL Transaction Report]. この [!UICONTROL Link Type] 列の値は、クリックされたリンクのタイプとタイトルを示します。
+どのコンバージョンがクリックによって生じたかを確認できます。 [!DNL Google Ads] 広告の拡張（広告自体ではなく）、または [!UICONTROL Transaction Report]. The [!UICONTROL Link Type] 列の値は、クリックされたリンクのタイプとタイトルを示します。
 
-* 製品リストは、次のように表示されます。 `pla:<product ID>`例： `pla:8525822`.
+* 製品リストは、次のように表示されます。 `pla:<product ID>`、例： `pla:8525822`.
 
-* サイトリンクは、 `sl:<Sitelink text>`例： `sl:See Current Offers`.
+* サイトリンクは、 `sl:<Sitelink text>`、例： `sl:See Current Offers`.
 
-  また、 [!UICONTROL Tracking URL] 」列に表示されます。 この [!UICONTROL Tracking URL] サイトリンクの場合、属性 `&ev_ltx=sl:<link-name>`.
+  また、 [!UICONTROL Tracking URL] 」列に表示されます。 The [!UICONTROL Tracking URL] サイトリンクの場合、属性 `&ev_ltx=sl:<link-name>`.
 
 >[!NOTE]
 >
@@ -48,7 +49,7 @@ ht-degree: 0%
 
 +++
 
-+++[!UICONTROL Keyword]&quot;レポートの列に値&quot;(adgroup content) &lt;*広告グループ名*>」
++++「[!UICONTROL Keyword]&quot;レポートの列に値&quot;(adgroup content) &lt;*広告グループ名*>.」
 行に、キーワードを含まないコンテンツ対応検索キャンペーン、ディスプレイキャンペーン、またはソーシャルキャンペーンのデータが含まれる場合、 [!UICONTROL Keyword] 列には、代わりに、該当する広告グループ名が表示されます。
 +++
 
@@ -76,7 +77,7 @@ ht-degree: 0%
 
 * クリック日ベースのデータは、指定した日付範囲外に含まれる場合があります。
 
-  レポートパラメーター「[!UICONTROL Conversions based on click date]」と入力すると、指定した日付範囲が、トランザクションの日付ではなく、クリックの日付に適用されます。 レポートでアトリビューションルール「最初のイベント」または「最後のイベント」も使用している場合、コンバージョンにつながった最初または最後のイベントが指定した日付範囲外になる可能性があります。 例えば、ユーザーが 4 月 30 日に Keyword_1 をクリックし、5 月 20 日に Keyword_2 をクリックし、5 月 21 日に Keyword_2 を変換したとします。 レポートで[!UICONTROL First Event]「属性ルールおよび 5 月 1 日から 21 日までの日付範囲の場合、最初のイベント（4 月 30 日のキーワード 1 のクリック）はレポートに含まれません。 同じ日付範囲で、[!UICONTROL Last Event]」アトリビューションルールを指定した場合、最後のクリックが指定した日付範囲内で発生したので、コンバージョンがレポートに含まれます。
+  レポートパラメーター「[!UICONTROL Conversions based on click date]」と入力すると、指定した日付範囲が、トランザクションの日付ではなく、クリックの日付に適用されます。 レポートでアトリビューションルール「最初のイベント」または「最後のイベント」も使用している場合、コンバージョンにつながった最初または最後のイベントが指定した日付範囲外になる可能性があります。 例えば、ユーザーが 4 月 30 日に Keyword_1 をクリックし、5 月 20 日に Keyword_2 をクリックして、5 月 21 日に変換したとします。 レポートで[!UICONTROL First Event]「属性ルールおよび 5 月 1 日から 21 日までの日付範囲の場合、最初のイベント（4 月 30 日のキーワード 1 のクリック）はレポートに含まれません。 同じ日付範囲で、[!UICONTROL Last Event]」アトリビューションルールを指定した場合、最後のクリックが指定した日付範囲内で発生したので、コンバージョンがレポートに含まれます。
 
 * ポートフォリオフィルターの選択では、コンバージョンにつながるイベントの一部が除外されます。
 
@@ -91,19 +92,19 @@ ht-degree: 0%
 +++個々のデータフィールドが正しくありませんが、合計は正しいです。
 この状況は、指標の形式で整数が使用されている場合に発生する可能性があります。
 
-* 次の場合、 [カスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) を *小数点を含む数値* （データを整数で表示）を含め、重み付けされたコンバージョンアトリビューションルール ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More]または [!UICONTROL Even Distribution]) の場合、出力は小数ではなく整数で表示されます。 この場合、個々のデータフィールドが正しくない可能性がありますが、合計は正しいです。 例えば、ある注文が 3 つのイベント間で等しく分割されている場合、（0.33 順序ではなく）1 つの注文が 3 つのイベントのそれぞれに関連付けられます。 問題を解決するには、 [指標の形式を変更する](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md) から *小数点第 2 位までの数値*.
+* 次の場合、 [カスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) の形式を使用 *小数点を含む数値* （データを整数で表示）を含め、重み付けされたコンバージョンアトリビューションルール ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More]または [!UICONTROL Even Distribution]) の場合、出力は小数ではなく整数で表示されます。 この場合、個々のデータフィールドが正しくない可能性がありますが、合計は正しくあります。 例えば、ある注文が 3 つのイベント間で等しく分割されている場合、（0.33 順序ではなく）1 つの注文が 3 つのイベントのそれぞれに関連付けられます。 問題を解決するには、 [指標の形式を変更する](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md) から *小数点第 2 位までの数値*.
 
 * 同様に、売上高指標が整数で送信される場合も、同じ問題が発生します。 （売上高フォーマットは、データを送信するコンバージョンタグによって制御されます）。 問題を解決するには、 [カスタム指標の作成](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) 売上高指標のみから成り、形式を持つ *小数点第 2 位までの数値*を作成し、元の指標ではなく、ビューやレポートに含めます。
 +++
 
 +++クリックまたは売上高データが見つからない場合、将来の入札に影響を与えないようにする方法を教えてください。
-Search、Social、および Commerce が広告ネットワークと同期していない場合、クリックデータの問題が発生します。 アカウントを手動で同期するには、Adobeアカウントチームにお問い合わせください。 1 日のクリックデータがない場合は、Adobeアカウントチームに連絡して、その日をコストモデルから除外するように依頼します。
+Search、Social、および Commerce が広告ネットワークと同期していない場合に、クリックデータの問題が発生します。 アカウントを手動で同期するには、Adobeアカウントチームにお問い合わせください。 1 日のクリックデータがない場合は、Adobeアカウントチームに連絡して、その日をコストモデルから除外するように依頼します。
 
-売上高データの問題は、トラッキングまたはフィードファイルの問題が原因で発生する可能性があります。 問題を調査するには、Adobeアカウントチームにお問い合わせください。 1 日の売上高データがない場合は、Adobeアカウントチームに問い合わせて、その日を売上高モデルから除外するよう依頼します。
+売上高データの問題は、トラッキングまたはフィードファイルの問題が原因で発生する可能性があります。 問題を調査するには、Adobeアカウントチームにお問い合わせください。 1 日の売上高データがない場合は、Adobeアカウントチームに問い合わせて、その日を売上高モデルから除外するように依頼します。
 +++
 
 +++金額データが誤った形式で表示されます。
-デフォルトでは、レポート内のすべての金額データは、米ドルの形式（1,000.00 など）で表示されます。 値を正しい通貨形式で（ただし、CSV 形式と TSV 形式の通貨記号を含まない）表示するには、[!UICONTROL Currency]」列に表示されます。 異なる通貨のアカウントのデータがレポートに含まれる場合、[!UICONTROL Total]「通貨の値は、通貨に関係なく、列内のすべての数値の合計に過ぎません。
+デフォルトでは、レポート内のすべての金額データは、米ドルの形式（1,000.00 など）で表示されます。 値を正しい通貨形式で（ただし、CSV 形式と TSV 形式の通貨記号を含まない）表示するには、[!UICONTROL Currency]」列に表示されます。 異なる通貨のアカウントのデータがレポートに含まれる場合は、[!UICONTROL Total]「通貨の値は、通貨に関係なく、列内のすべての数値の合計に過ぎません。
 +++
 
 +++トランザクションプロパティに、自然数（1、2 など）である必要がある 10 進数値が表示されるのはなぜですか？
@@ -111,7 +112,7 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 
 * コンバージョン属性ルールのパラメーターで、 [!UICONTROL Last Event] または [!UICONTROL First Event]に値を指定すると、売上高がコンバージョンパス内の複数のイベントに分割される場合があります。
 
-* 内 [!UICONTROL Transaction Report]複数の場合は [入札単位](/help/search-social-commerce/glossary.md#a-b) 一致タイプが異なる場合、同じトランザクション ID を持つので、トラッキング ID の売上高は、指定したクリック日のクリック数に応じて分割されます。
+* Adobe Analytics の [!UICONTROL Transaction Report]複数の場合は [入札単位](/help/search-social-commerce/glossary.md#a-b) 一致タイプが異なる場合、同じトランザクション ID を持つので、トラッキング ID の売上高は、指定したクリック日のクリック数に応じて分割されます。
 +++
 
 ## 標準的なパフォーマンス指標
@@ -121,7 +122,7 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 
 | 原因 | 検出/分析 | 解決策 |
 |---|---|---|
-| 広告アカウントからクリックデータを取得するプロセスが失敗しました。 | この問題を検出する体系的な方法はありませんが、広告アカウントがお金を使った場合でも、キャンペーンにコストやクリック情報が表示されないことに気付くかもしれません。 | カスタマーサポート ( &lt; ) にお問い合わせください。*検索、ソーシャル、コマースの各ユーザーアカウント*>@support\.efrontier\.com.<!-- Escaped periods and using HTML code for angle brackets --><br><br>データが 24 時間以上欠落している場合は、データが取得されるまで、原価予測からこれらの日付が除外されます。 Adobeアカウントチームが日付を除外できます。 |
+| 広告アカウントからクリックデータを取得するプロセスが失敗しました。 | この問題を検出する体系的な方法はありませんが、広告アカウントがお金を使った場合でも、キャンペーンにコストやクリック情報が表示されないことに気付くかもしれません。 | カスタマーサポート ( &lt; ) にお問い合わせください。*検索、ソーシャル、コマースの各ユーザーアカウント*>@support\.efrontier\.com。<!-- Escaped periods and using HTML code for angle brackets --><br><br>データが 24 時間以上欠落している場合は、データが取得されるまで、原価予測からこれらの日付が除外されます。 Adobeアカウントチームが日付を除外できます。 |
 | 広告主と広告ネットワークの間の請求の問題により、広告アカウントが使用できなくなります。 | この問題を検出する体系的な方法はありませんが、キャンペーンにコストやクリック情報が表示されないことに気付くかもしれません。 | 請求の問題が原因で広告アカウントが支出できなかったことがわかっている場合は、コスト予測からこれらの日付を除外します。 Adobeアカウントチームが日付を除外できます。 |
 +++
 
@@ -147,19 +148,19 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 
 ## コンバージョン指標
 
-+++レポートにコンバージョンデータが表示されない。
++++レポートにコンバージョンデータが表示されません。
 このレポートには、コンバージョンが発生したコンバージョン指標が含まれていない場合があります。
 +++
 
 +++レポートに売上高がありません。
 
-**Adobe広告コンバージョンタグを使用する広告主**
+**Adobe Advertisingコンバージョンタグを使用する広告主**
 
 *考えられる原因：*
 
 * 検索、ソーシャル、およびコマースのクリック追跡プレフィックスをトラッキングテンプレートまたはリンク先 URL の前に付けずにキーワードまたは広告が追加された、またはトラッキングプレフィックスが正しくありません。
 
-* 該当するすべての Web ページまたはが編集された場合、コンバージョントラッキングタグが正しく実装されていません。
+* 該当するすべての Web ページまたは編集されたに、コンバージョントラッキングタグが正しく実装されていない。
 
 * 検索、ソーシャル、コマースの各トラッキング対象のトランザクションプロパティは、レポートから除外されるので、表示されません。
 
@@ -169,9 +170,9 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 
 1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、自分またはAdobeアカウントチームが [トランザクションプロパティをレポートで使用できるようにする](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
-1. 該当するすべての Web ページに正しいコンバージョントラッキングタグが実装されていることを確認します。 必要に応じて、Adobeアカウントチームに、該当する各コンバージョントラッキングタグに対してテストトランザクションを作成し、トランザクションの詳細 ( `transactionid` Cookie からの詳細 ( `trackingid`, `clickid`など )。
+1. 該当するすべての Web ページに正しいコンバージョントラッキングタグが実装されていることを確認します。 必要に応じて、Adobeアカウントチームに、該当する各コンバージョントラッキングタグに対してテストトランザクションを作成し、トランザクションの詳細 ( `transactionid` Cookie から取得した詳細 ( `trackingid`, `clickid`など )。
 
-1. この [!UICONTROL Auto Upload] 「 」オプションはキャンペーンに対して無効になっており、キーワードや広告を追加している場合は、それぞれ検索、ソーシャル、コマースのクリックリダイレクト追跡を含むトラッキングテンプレートまたはリンク先 URL を生成していることを確認します。 Adobeアカウントチームが内部レポートを実行して、クリック追跡 URL（トラッキングテンプレートまたは宛先 URL）が見つからないか、正しくないかを確認できます。
+1. 次の場合、 [!UICONTROL Auto Upload] 「 」オプションはキャンペーンに対して無効になっており、キーワードや広告を追加している場合は、それぞれ検索、ソーシャル、コマースのクリックリダイレクト追跡を含むトラッキングテンプレートまたはリンク先 URL を生成していることを確認します。 Adobeアカウントチームが内部レポートを実行して、クリック追跡 URL（トラッキングテンプレートまたは宛先 URL）が見つからないか、正しくないかを確認できます。
 
    必要に応じて、正しい URL を持つバルクシートファイルを作成し、 **トラッキング URL の生成** オプション。
 
@@ -197,7 +198,7 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 
 1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、自分またはAdobeアカウントチームが [トランザクションプロパティをレポートで使用できるようにする](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
-1. を実行します。 [!UICONTROL Portfolio Report]. 値が空の場合は、 [!UICONTROL Campaign Report] および [!UICONTROL Search Engine Report] をクリックして、これらのレポートに売上高が表示されるかどうかを確認します。 割り当てられている場合、キャンペーンが適切なポートフォリオに割り当てられていない可能性があります。
+1. を実行します。 [!UICONTROL Portfolio Report]. 空の場合は、 [!UICONTROL Campaign Report] および [!UICONTROL Search Engine Report] をクリックして、これらのレポートに売上高が表示されるかどうかを確認します。 割り当てられている場合、キャンペーンが適切なポートフォリオに割り当てられていない可能性があります。
 
 1. ファイルが売上高サーバーに送信され、ファイルが以前のファイルと同じ形式および命名規則に従っていることを確認します。
 
@@ -209,7 +210,7 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 +++
 
 +++一部の高度なレポートには、広告主フィードが提供するコンバージョンデータが含まれていません。
-この [!UICONTROL Geo Distribution Report] および [!UICONTROL Domain Referral Report] コンバージョントラッキングサービスで取得したAdobe Advertisingを使用し、サービスを持つ広告主のみに対して生成できます。 レポートには、コンバージョントラッキングシステム以外で追跡されるコンバージョンAdobe Advertisingは含まれません。
+The [!UICONTROL Geo Distribution Report] および [!UICONTROL Domain Referral Report] コンバージョントラッキングサービスで取得したAdobe Advertisingを使用し、サービスを持つ広告主のみに対して生成できます。 レポートには、コンバージョントラッキングシステム以外で追跡されるコンバージョンAdobe Advertisingは含まれません。
 +++
 
 +++売上高データは、広告主独自の売上高データとは異なります。
@@ -222,15 +223,15 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 
 * 広告主のページへのトラフィックは、広告からではなく、ブックマークまたはオーガニック検索から来ています。
 
-* 該当するすべての Web ページまたはが編集された場合、コンバージョントラッキングタグが正しく実装されていません。
+* 該当するすべての Web ページまたは編集されたに、コンバージョントラッキングタグが正しく実装されていない。
 
 *考えられる解決策または回避策：*
 
-1. に移動します。 **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** および [!UICONTROL Transaction Report]. Search、Social、および Commerce が受け取ったトランザクションを広告主のデータと比較します。
+1. に移動します。 **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** を生成し、 [!UICONTROL Transaction Report]. Search、Social、および Commerce が受け取ったトランザクションを広告主のデータと比較します。
 
 1. 一部のトランザクションが正しくない場合や見つからない場合は、該当するすべての Web ページに関連するコンバージョントラッキングタグが実装され、編集されないようにしてください (Adobeアカウントチームから通知を受けた場合 )。 Web サイトが最近更新された場合、タグが見つからないか、変更される可能性があります。
 
-   検索、Social、および Commerce では、 `ef_transaction_properties` 変数と `src` 要素 `img` タグを使用します。
+   検索、Social、および Commerce では、 `ef_transaction_properties` 変数と `src` の要素 `img` タグを使用します。
 
 1. 問題を特定して解決できない場合は、 [カスタマーケアにお問い合わせください](/help/search-social-commerce/get-help.md).
 
@@ -252,7 +253,7 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 
 *考えられる解決策または回避策：*
 
-1. に移動します。 **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** および [!UICONTROL Transaction Report]. Search、Social、および Commerce が受け取ったトランザクションを広告主のフィードデータと比較します。
+1. に移動します。 **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** を生成し、 [!UICONTROL Transaction Report]. Search、Social、および Commerce が受け取ったトランザクションを広告主のフィードデータと比較します。
 
 1. フィードファイル内のトランザクションがレポートにない場合は、同じトランザクション ID（ピクセルを介して追跡）を持つオンライントランザクションが、オフラインコンバージョンの前に発生したかどうかを確認します。
 
@@ -282,7 +283,7 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 
 *考えられる解決策または回避策：*
 
-1. に移動します。 **[!UICONTROL Insights]&amp;[!UICONTROL Reports > Reports]** および [!UICONTROL Transaction Report]. Search、Social、および Commerce が受け取ったトランザクションを広告主のデータと比較します。
+1. に移動します。 **[!UICONTROL Insights]&amp;[!UICONTROL Reports > Reports]** を生成し、 [!UICONTROL Transaction Report]. Search、Social、および Commerce が受け取ったトランザクションを広告主のデータと比較します。
 
 1. 一部のトランザクションが正しくないか、見つからない場合は、a) 必要なトランザクション ID がすべてフィードファイルに含まれ、重複するトラッキング ID がないこと、b) トランザクション ID が一意で正しいことを確認します。
 
@@ -297,14 +298,14 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 ## 特定のレポート
 
 +++ [!UICONTROL Portfolio Report] ～と同じ数字を示す [!UICONTROL Portfolios] 表示
-この [!UICONTROL Portfolio Report] そして [!UICONTROL Portfolios] ビューとレポートのすべてのフィルター、レポートパラメーター、およびビューとレポートのデータ列が同じ場合は、同じデータが表示されます。 例えば、 [!UICONTROL Portfolios] 表示は、「[!UICONTROL All but inactive]&quot; （日付範囲）[!UICONTROL Last 7 days]」が表示され、デフォルトのデータ列のみが表示され、 [!UICONTROL Portfolio Report] デフォルトのパラメーターを使用すると、同じデータが表示されます。 レポートのパラメーターを変更した場合、または [!UICONTROL Portfolios] 表示する場合、データ値は異なる可能性があります。
+The [!UICONTROL Portfolio Report] そして [!UICONTROL Portfolios] ビューとレポートのすべてのフィルター、レポートパラメーター、およびビューとレポートのデータ列が同じ場合は、ビューに同じデータが表示されます。 例えば、 [!UICONTROL Portfolios] 表示は、「[!UICONTROL All but inactive]&quot; （日付範囲）[!UICONTROL Last 7 days]」が表示され、デフォルトのデータ列のみが表示され、 [!UICONTROL Portfolio Report] デフォルトのパラメーターを使用すると、同じデータが表示されます。 レポートのパラメーターを変更した場合、または [!UICONTROL Portfolios] 表示する場合、データ値は異なる可能性があります。
 +++
 
-+++ [!UICONTROL Portfolio Report] が [!UICONTROL Search Engine Report] または [!UICONTROL Search Engine Account Report].
-この [!UICONTROL Portfolio Report] 指定したポートフォリオに割り当てられたキャンペーンのデータのみを表示しますが、 [!UICONTROL Search Engine Report] および [!UICONTROL Search Engine Account Report] また、ポートフォリオに割り当てられていないキャンペーンのデータを含めることもできます。
++++データが [!UICONTROL Portfolio Report] のデータが一致しません [!UICONTROL Search Engine Report] または [!UICONTROL Search Engine Account Report].
+The [!UICONTROL Portfolio Report] 指定したポートフォリオに割り当てられたキャンペーンのデータのみを表示しますが、 [!UICONTROL Search Engine Report] および [!UICONTROL Search Engine Account Report] また、ポートフォリオに割り当てられていないキャンペーンのデータを含めることもできます。
 +++
 
-+++機能 [!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report] ポートフォリオレベルとは異なる [!UICONTROL Model Accuracy Report]?
++++はどのように [!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report] ポートフォリオレベルとは異なる [!UICONTROL Model Accuracy Report]?
 ( 代理店のアカウントマネージャー、Adobeのアカウントマネージャー、管理者のユーザーのみ ) [!UICONTROL Forecast Accuracy Report] 次の場所から利用可能： [!UICONTROL Reports] > [!UICONTROL Model Accuracy] は、ポートフォリオレベルと同じデータを提供します [!UICONTROL Model Accuracy Report] ただし、複数のポートフォリオにまたがって実行でき、アトリビューションルールを変更できる点が異なります。 また、カスタムパラメーターを使用してレポートを実行し、スケジュールを設定したり、それを使用してスプレッドシートフィードを作成したりすることもできます。 また、 [!UICONTROL Forecast Accuracy Report] は、現在の目標ではなくポートフォリオの目標履歴を使用して売上高の精度を評価し、適用されるタイムゾーンのデータをより正確に表すので、従来のポートフォリオレベルのレポートよりも正確です。
 +++
 
@@ -312,11 +313,11 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 広告ネットワークは、売上高をキャンペーンの個々の広告に関連付けるのに必要な識別子を提供しません。 その結果、 [!UICONTROL Ads] 表示または [!UICONTROL Ad Variation Report]. キャンペーンの広告レベルの合計データとキャンペーンの合計データの間に相違が生じることを想定しています。
 +++
 
-+++ [!UICONTROL Transaction Report]、データフィードのトランザクションプロパティと、AdobeAdvertising トラッキングピクセルによってトラッキングされているトランザクションプロパティを知るには、どうすればよいですか。
-トランザクションレポートで、カスタム列「[!UICONTROL Tracking URL].&quot; Adobe Advertisingトラッキングピクセルが「`http://pixel.everesttech.net`.&quot;
++++ [!UICONTROL Transaction Report]、データフィードのトランザクションプロパティと、トランザクショントラッキングピクセルによって追跡されているトランザクションプロパティを知るには、どうすればよいですか。Adobe Advertisingトラッキングピクセルを使用します。
+トランザクションレポートで、カスタム列「[!UICONTROL Tracking URL].&quot; Adobe Advertisingトラッキングピクセルが「 」で始まる URL のトラッキング`http://pixel.everesttech.net`.&quot;
 +++
 
-+++ [!UICONTROL Transaction Report] が [!UICONTROL Keyword Report].
++++データが [!UICONTROL Transaction Report] のデータが一致しません [!UICONTROL Keyword Report].
 ポートフォリオ別に両方のレポートを生成する場合、 [!UICONTROL Keyword Report] 現在のキャンペーンのデータを使用するのではなく、履歴データ（指定した日付のポートフォリオ設定に基づく）を使用します。 次の場合に [!UICONTROL Transaction Report] ポートフォリオ別に、ポートフォリオ内の現在のキャンペーンのデータが含まれます。
 +++
 
@@ -325,17 +326,17 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 +++レポート出力には、様々な日付範囲が含まれます。
 フィードが「[!UICONTROL Daily].&quot;
 
-この問題を解決するには、毎日集計したデータを含めるようにスプレッドシートフィードを更新します。 このタスクには、レポートテンプレートの更新、テンプレートを使用したレポートの生成、カスタムの作成が含まれます [!DNL Microsoft® Excel] テンプレートを作成し、フィード設定を更新して新しい Excel テンプレートを含めます。 詳しくは、[スプレッドシートレポートフィード設定の編集](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
+この問題を解決するには、毎日集計したデータを含めるようにスプレッドシートフィードを更新します。 このタスクには、レポートテンプレートの更新、テンプレートを使用したレポートの生成、カスタムの作成が含まれます。 [!DNL Microsoft® Excel] テンプレートを作成し、フィード設定を更新して新しい Excel テンプレートを含めます。 詳しくは、[スプレッドシートレポートフィード設定の編集](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++スプレッドシートフィードは内部エラーを引き起こします。
-このエラーは、レポートテンプレートの列を変更したが、 [!DNL Microsoft® Excel] 適切なテンプレート
+このエラーは、レポートテンプレートの列を変更したが、 [!DNL Microsoft® Excel] 適切にテンプレートを作成します。
 
-この問題を解決するには、スプレッドシートフィードを更新して新しい列を含めます。 このタスクには、レポートテンプレートの更新、テンプレートを使用したレポートの生成、カスタムの作成が含まれます [!DNL Excel] テンプレートを作成し、フィード設定を更新して新しい Excel テンプレートを含めます。 詳しくは、[スプレッドシートレポートフィード設定の編集](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
+この問題を解決するには、スプレッドシートフィードを更新して新しい列を含めます。 このタスクには、レポートテンプレートの更新、テンプレートを使用したレポートの生成、カスタムの作成が含まれます。 [!DNL Excel] テンプレートを作成し、フィード設定を更新して新しい Excel テンプレートを含めます。 詳しくは、[スプレッドシートレポートフィード設定の編集](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
-+++ [!DNL Excel], [!DNL Excel] は「読み取れないコンテンツ」エラーを報告し、復元されたコンテンツからデータが削除されます。
-次の場合に [!DNL Microsoft® Excel] template は開始日を昇順で並べ替えません。スプレッドシートフィードに空白行が含まれている場合があります。 特に [!DNL Excel] 「Excel で読み取り不能なコンテンツが「&lt;」で見つかりました」というエラーを報告します&#x200B;*レポート名*>.xlsx&#39; ワークブックの内容を復元しますか？ このブックのソースを信頼できる場合は、[ はい ] をクリックします。 「はい」をクリックすると、次のメッセージが表示されます。&quot;削除されたレコード：/xl/worksheets/sheet1.xmlの部分のセル情報、「」、およびスプレッドシートフィードに空白の行が含まれている。
++++でスプレッドシートフィードを開こうとしたとき [!DNL Excel], [!DNL Excel] は「読み取れないコンテンツ」エラーを報告し、復元されたコンテンツからデータが削除されます。
+次の場合に [!DNL Microsoft® Excel] template は開始日を昇順で並べ替えません。スプレッドシートフィードに空白行が含まれている場合があります。 特に [!DNL Excel] 「Excel で読み取り不能なコンテンツが「&lt;」で見つかりました」というエラーを報告します。*レポート名*>.xlsx&#39; ワークブックの内容を復元しますか？ このブックのソースを信頼できる場合は、[ はい ] をクリックします。 「はい」をクリックすると、「削除されたレコード： /xl/worksheets/sheet1.xml部分のセル情報」というメッセージが表示され、スプレッドシートのフィードに空白行が含まれます。
 
 問題を解決するには、 [!DNL Excel] データの並べ替えに使用するフィードに関連付けられたテンプレート [!DNL Start date in Ascending (Oldest to Newest) order]」をクリックし、更新したテンプレートをスプレッドシートフィード設定からアップロードします。 詳しくは、[スプレッドシートレポートフィードの編集](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++

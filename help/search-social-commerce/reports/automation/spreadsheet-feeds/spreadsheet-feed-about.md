@@ -1,7 +1,9 @@
 ---
 title: スプレッドシートレポートフィードについて
 description: 毎日のパフォーマンスデータを、カスタム形式のスプレッドシート形式で取得する方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e497e81f-3936-428c-8910-0c4dffddf060
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 フィードを設定して、過去 90 日間のデータを更新すると、以前のすべての既存のデータが残り、継続的に蓄積されます。
 
-この [!UICONTROL Spreadsheets Feeds] 「表示」には、作成したすべてのスプレッドシートフィードが表示されます。 この表示から、スプレッドシートフィードを作成したり、フィードを手動で更新したり、フィードを削除したりできます。
+The [!UICONTROL Spreadsheets Feeds] 「表示」には、作成したすべてのスプレッドシートフィードが表示されます。 この表示から、スプレッドシートフィードを作成したり、フィードを手動で更新したり、フィードを削除したりできます。
 
 >[!MORELIKETHIS]
 >

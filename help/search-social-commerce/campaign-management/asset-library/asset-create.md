@@ -1,7 +1,8 @@
 ---
 title: アセットの作成とアップロード
 description: 再利用可能な画像、ビデオ、テキストアセットを作成し、それらを [!DNL Google Ads] アカウントレベルのアセットライブラリ。
-source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%

@@ -1,7 +1,9 @@
 ---
 title: 一括送信シートを使用して、勘定科目コンポーネントに分類値を割り当てます。
 description: バルクシートを使用して分類値をアカウントコンポーネントに割り当てる方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9bb38f28-d6bc-41f4-9c28-b391d9b9e412
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 7%
@@ -10,7 +12,7 @@ ht-degree: 7%
 
 # 一括送信シートを使用して、勘定科目コンポーネントに分類値を割り当てます。
 
-バルクシートを使用して、次の検索エンティティの値にラベル分類を関連付けることができます。キャンペーン、広告グループ、キーワード、広告、プレースメント、ユニットレベルの製品グループ、動的検索ターゲット。 各ラベル分類には、最大 2,000 個の値を含めることができます。
+一括送信シートを使用して、ラベル分類を次の検索エンティティの値に関連付けることができます。キャンペーン、広告グループ、キーワード、広告、配置、単位レベルの製品グループ、動的検索ターゲット。 各ラベル分類には、最大 2,000 個の値を含めることができます。
 
 各エンティティは、分類ごとに 1 つのラベル値を持つことができます。 例えば、Shoes_Campaign のカラー値は「red」、地域値は「Los Angeles」にできますが、カラーまたは地域に複数の値を含めることはできません。
 
@@ -22,13 +24,13 @@ ht-degree: 7%
 
 1. [バルクシートのダウンロード](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) ラベル分類値を割り当てるエンティティが含まれる
 
-   * の [!UICONTROL Rows and Columns] タブ、展開 [!UICONTROL Campaign] リスト [!UICONTROL Bulksheet Columns] ウィンドウ
+   * 次の日： [!UICONTROL Rows and Columns] タブ、展開 [!UICONTROL Campaign] リスト [!UICONTROL Bulksheet Columns] ウィンドウ
 
    * を展開します。 [!UICONTROL Label Classification] リスト。
 
    * バルクシートファイルに列を含める各分類を選択します。
 
-      例えば、ラベル分類に「色」と「地域」を含めると、バルクシートに「色」と「地域」の列が含まれます。
+     例えば、ラベル分類に「色」と「地域」を含めると、バルクシートに「色」と「地域」の列が含まれます。
 
 1. ファイルをエディターで開き、関連付けるエンティティのラベル分類列にラベル値を追加します。 各値の最大長は 100 文字で、ASCII 文字と非 ASCII 文字を含めることができます。
 
@@ -46,15 +48,15 @@ ht-degree: 7%
 
 | アカウント | Campaign | 広告グループ | キーワード | 広告 | プレースメント | ラベル | カラー | 地域 |
 |---|---|---|---|---|---|---|---|---|
-| Acct1 | C1 |  |  |  |  |  | 緑 |  |
-| Acct1 | C1 | AG1 |  |  |  |  |  |  |
-| Acct1 | C1 | AG1 | K1 |  |  |  |  | 英国 |
-| Acct1 | C1 | AG1 | K2 |  |  |  | 赤 | AU |
-| Acct1 | C1 | AG1 | K3 |  |  |  | 青 | DE |
-| Acct1 | C1 | AG1 |  | A1 |  |  |  |  |
-| Acct1 | C1 | AG1 |  | A1 |  |  | 赤 |  |
-| Acct1 | C1 | AG1 |  |  | P1 |  | 赤 | AU |
-| Acct1 | C1 | AG1 |  |  | P2 |  | 青 | DE |
+| Acct1 | C1 | | | | | | 緑 | |
+| Acct1 | C1 | AG1 | | | | | | |
+| Acct1 | C1 | AG1 | K1 | | | | | 英国 |
+| Acct1 | C1 | AG1 | K2 | | | | 赤 | AU |
+| Acct1 | C1 | AG1 | K3 | | | | 青 | DE |
+| Acct1 | C1 | AG1 | | A1 | | | | |
+| Acct1 | C1 | AG1 | | A1 | | | 赤 | |
+| Acct1 | C1 | AG1 | | | P1 | | 赤 | AU |
+| Acct1 | C1 | AG1 | | | P2 | | 青 | DE |
 
 >[!MORELIKETHIS]
 >
@@ -64,4 +66,3 @@ ht-degree: 7%
 >* [顧客コンポーネントからラベル分類値を削除](classification-values-remove.md)
 >* [ラベル分類値の削除](classification-values-delete.md)
 >* [ラベルの分類を削除](classification-delete.md)
-

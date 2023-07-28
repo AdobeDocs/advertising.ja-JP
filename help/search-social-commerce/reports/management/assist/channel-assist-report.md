@@ -1,18 +1,20 @@
 ---
-title: "[!UICONTROL Channel Assist Report]"
+title: '[!UICONTROL Channel Assist Report]'
 description: 詳しくは、 [!UICONTROL Channel Assist Report].
-source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
+exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
 
 ---
 
-# この [!UICONTROL Channel Assist Report]
+# The [!UICONTROL Channel Assist Report]
 
-*検索、ソーシャル、コマースのクリック追跡およびAdobe広告、Adobe Analytics( [!DNL Analytics] 統合 )、またはトークン (`ef_id`) のみ*
+*検索、ソーシャル、コマースのクリック追跡およびAdobe Advertising、Adobe Analytics( [!DNL Analytics] 統合 )、またはトークン (`ef_id`) のみ*
 
-この [!UICONTROL Channel Assist Report] 様々なマーケティングチャネル（検索、Social、およびコマースからの検索またはソーシャル）を示すまたは Advertising DSPのディスプレイまたはビデオ ) は、変換プロセスを支援しました。 このレポートは、1 つ以上のコンバージョンにつながった各イベントタイプのパターンが、全体的なコンバージョンにどのように貢献したかを示します。 例えば、ユーザーが最初にディスプレイ広告のインプレッションを表示し、次に検索広告をクリックしてから注文したときに、コンバージョンが何回発生したかを確認できます。または、ユーザーが 10 を超える広告とやり取りした後に発生したコンバージョンの数を確認できます。 イベントタイプには、検索クリック数、表示インプレッション数とクリック数、ビデオインプレッション数とクリック数、その他のインプレッション数とその他のクリック数が含まれます。 <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
+The [!UICONTROL Channel Assist Report] 様々なマーケティングチャネル ( 検索、Social、およびコマースからの検索またはソーシャル、Advertising DSPからの表示またはビデオ ) がコンバージョンプロセスをどのように支援したかを示します。 このレポートは、1 つ以上のコンバージョンにつながった各イベントタイプのパターンが、全体的なコンバージョンにどのように貢献したかを示します。 例えば、ユーザーが最初にディスプレイ広告のインプレッションを見てから検索広告をクリックして注文したときにコンバージョンが何回発生したか、または、ユーザーが 10 回を超える広告とやり取りした後にコンバージョンが何回発生したかを確認できます。 イベントタイプには、検索クリック数、表示インプレッション数とクリック数、ビデオインプレッション数とクリック数、その他のインプレッション数とその他のクリック数が含まれます。 <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
 
 レポートの結果には、広告主の [ルックバックウィンドウをクリック](/help/search-social-commerce/glossary.md#c-d) および [インプレッションのルックバックウィンドウ](/help/search-social-commerce/glossary.md#i-j). 例えば、パスサイズを 5(5) に選択した場合、レポートには最も早い 5 つのイベントを含むコンバージョンパスが表示され、各イベントタイプのパターンに対して 1 行が追跡されます（「検索クリック」、「インプレッションを表示」など）。 各行には、（最後のイベントが指定されたパスサイズの外にある場合でも）パスの最初のイベントと、コンバージョンにつながった最後のイベントを含む、1 つのイベントパターンが表示されます。 デフォルトでは、行はパス内のイベント数の昇順に表示されます。
 
@@ -43,7 +45,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [アシストレポートについて](assist-report-about.md)
->* [この [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
->* [この [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
+>* [The [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
+>* [The [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [レポート設定の支援](assist-report-settings.md)
 >* [アシストレポートの生成](assist-report-generate.md)

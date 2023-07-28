@@ -1,7 +1,9 @@
 ---
-title: 管理 [!DNL Google Ads] 引き出し線拡張
-description: 作成および管理方法を学ぶ [!DNL Google Ads] 引き出し線の拡張
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: 管理 [!DNL Google Ads] 引き出し線の拡張
+description: 作成および管理方法を学ぶ [!DNL Google Ads] 引き出し線の拡張。
+exl-id: 5ac4ae56-6de6-4c35-aaf3-339011af16c5
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -50,7 +52,7 @@ ht-degree: 0%
 
    複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
-1. ツールバーで、 ![詳細](/help/search-social-commerce/assets/more.png "詳細") を選択し、 **[!UICONTROL Delete]**.
+1. ツールバーで、 ![その他](/help/search-social-commerce/assets/more.png "その他") を選択し、 **[!UICONTROL Delete]**.
 
 1. 確認メッセージで、 **[!UICONTROL Delete]**.
 
@@ -60,18 +62,17 @@ ht-degree: 0%
 
 **[!UICONTROL Callout Text]:** 表示するテキスト。 25 文字または 2 バイト文字を 12 文字まで含めることができます。 テキストの先頭に感嘆符や句読点を含めることはできません。
 
-**[!UICONTROL Start Date]:** （オプション）吹き出しが広告と共に表示される最初の日付。 新しい引き出し線のデフォルトは現在の日です。 将来の開始日を指定するには、MM/DD/YYYY または M/D/YYYY の形式で日付を入力するか、 ![カレンダー](/help/search-social-commerce/assets/calendar.png "カレンダー") 日付を選択します。
+**[!UICONTROL Start Date]:** （オプション）吹き出しが広告と共に表示される最初の日付。 新しい引き出し線のデフォルトは現在の日です。 将来の開始日を指定するには、MM/DD/YYYY または M/D/YYYY の形式で日付を入力するか、 ![カレンダー](/help/search-social-commerce/assets/calendar.png "カレンダー") をクリックし、日付を選択します。
 
-**[!UICONTROL End Date]:** （オプション）吹き出しが広告と共に表示される最後の日付。 デフォルトでは、吹き出しは無期限に表示される場合があります。 終了日を指定するには、MM/DD/YYYY または M/D/YYYY の形式で日付を入力するか、 ![カレンダー](/help/search-social-commerce/assets/calendar.png "カレンダー") 日付を選択します。
+**[!UICONTROL End Date]:** （オプション）吹き出しが広告と共に表示される最後の日付。 デフォルトでは、吹き出しは無期限に表示される場合があります。 終了日を指定するには、MM/DD/YYYY または M/D/YYYY の形式で日付を入力するか、 ![カレンダー](/help/search-social-commerce/assets/calendar.png "カレンダー") をクリックし、日付を選択します。
 
 **[!UICONTROL Mobile Preference]:** （オプション）許可 [!DNL Google Ads] を使用して、デスクトップユーザーやタブレットユーザーではなく、モバイルデバイスユーザーに広告を表示しようとします。 それ以外の場合（「オフ」の場合）、 [!DNL Google Ads] は、任意のデバイスタイプで広告を表示します。
 
 >[!NOTE]
 >
->[!DNL Google Ads] は、優先デバイスタイプで広告が表示されるとは保証しません。
+>[!DNL Google Ads] は、広告が優先デバイスタイプで表示されることを保証しません。
 
 >[!MORELIKETHIS]
 >
->* [について [!DNL Google Ads] 引き出し線拡張](callout-extension-about.md)
+>* [について [!DNL Google Ads] 引き出し線の拡張](callout-extension-about.md)
 >* [関連付け [!DNL Google Ads] キャンペーンまたは広告グループで共有された引き出し線拡張](callout-extension-associate.md)
-

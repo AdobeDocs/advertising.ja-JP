@@ -1,7 +1,9 @@
 ---
 title: レポートを分析してキーワードやキャンペーンの設定を絞り込む
 description: レポートを使用してキーワードやキャンペーンの設定を絞り込むためのベストプラクティスについて説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fe32561d-e910-40e0-8c37-889184b4e9c6
+feature: Search Best Practices
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -28,4 +30,3 @@ ht-degree: 0%
 >
 >* [有効なテキスト広告コピーを書き込む](best-practices-write.md)
 >* [Web サイトのランディングページの最適化](best-practices-optimize.md)
-

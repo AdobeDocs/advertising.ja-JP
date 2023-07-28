@@ -1,7 +1,9 @@
 ---
 title: カスタムアラートテンプレートの削除
 description: アラートテンプレートを削除する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7044ee80-ad90-4fad-8443-300f5ff0cee7
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -30,4 +32,3 @@ ht-degree: 0%
 >* [カスタムアラートテンプレート設定](alert-template-settings.md)
 >* [カスタムアラートの表示](alert-view.md)
 >* [カスタムアラート用のデータのエクスポート](alert-export-data.md)
-

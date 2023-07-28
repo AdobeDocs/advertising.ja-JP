@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL AdWords Search Query Report]"
+title: '[!UICONTROL AdWords Search Query Report]'
 description: 詳しくは、 [!UICONTROL AdWords Search Query Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 085f6a46-ce7e-4b68-b03d-edfbb6834284
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-この [!UICONTROL AdWords Search Query Report] 1 つ以上の広告グループのユーザー検索クエリ用語のコスト、クリック、インプレッション、（オプションで）派生指標データが含まれます。 デフォルトでは、データには指定した日付範囲の各時間単位に対してインプレッション数またはクリック数を導いた検索語句ごとに 1 行が含まれ、行は広告グループ名、検索語句の順に昇順で表示されます。 オプションで、検索語句が一致したキーワードを含めることができます。 レポートには、検索語句が一致したキーワードや、 [!DNL Adobe].
+The [!UICONTROL AdWords Search Query Report] 1 つ以上の広告グループのユーザー検索クエリ用語のコスト、クリック、インプレッション、（オプションで）派生指標データが含まれます。 デフォルトでは、データには指定した日付範囲の各時間単位に対してインプレッション数またはクリック数を導いた検索語句ごとに 1 行が含まれ、行は広告グループ名、検索語句の順に昇順で表示されます。 オプションで、検索語句が一致したキーワードを含めることができます。 レポートには、検索語句が一致したキーワードや、 [!DNL Adobe].
 
 >[!NOTE]
 >
@@ -37,7 +39,7 @@ ht-degree: 0%
 * [!UICONTROL CPC]
 
 >[!MORELIKETHIS]
+>
 * [特殊レポートについて](specialty-report-about.md)
 * [特殊なレポートの生成](specialty-report-generate.md)
-* [特殊レポート設定](specialty-report-settings.md)
-
+* [特殊なレポート設定](specialty-report-settings.md)

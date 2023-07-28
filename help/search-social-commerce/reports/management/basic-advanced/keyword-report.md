@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Keyword Report]"
+title: '[!UICONTROL Keyword Report]'
 description: 詳しくは、 [!UICONTROL Keyword Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e274e363-2ac5-4ba6-a2df-7786c3c3423f
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Keyword Report]
 
-この [!UICONTROL Keyword Report] 1 つ以上の広告グループ内でインプレッションを受け取ったキーワードのコスト、クリック、（オプションで）コンバージョンのデータが含まれます。 必要に応じて、データをフィルタリングして、特定のテキスト文字列を含むキーワードのみを含めることができます。 デフォルトでは、データには、指定した日付範囲の各時間単位にインプレッションを受け取った、該当するキーワードごとに 1 行と一致タイプの組み合わせが含まれます。 行は、最初に時間単位の開始日が昇順になり、次にデフォルトでコストが昇順になります。
+The [!UICONTROL Keyword Report] 1 つ以上の広告グループ内でインプレッションを受け取ったキーワードのコスト、クリック、（オプションで）コンバージョンのデータが含まれます。 必要に応じて、データをフィルタリングして、特定のテキスト文字列を含むキーワードのみを含めることができます。 デフォルトでは、データには、指定した日付範囲の各時間単位にインプレッションを受け取った、該当するキーワードごとに 1 行と一致タイプの組み合わせが含まれます。 行は、最初に時間単位の開始日が昇順になり、次にデフォルトでコストが昇順になります。
 
 オプションで、広告主固有のラベル分類を含めることができます。
 
@@ -48,4 +50,3 @@ ht-degree: 0%
 >* [基本レポートと高度なレポートについて](basic-advanced-report-about.md)
 >* [基本レポートまたは高度なレポートの生成](basic-advanced-report-generate.md)
 >* [基本レポート設定と詳細レポート設定](basic-advanced-report-settings.md)
-

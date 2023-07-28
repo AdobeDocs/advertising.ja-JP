@@ -1,7 +1,9 @@
 ---
 title: マーチャントアカウントの管理
 description: マーチャントセンターアカウントのアカウント詳細を設定および管理する方法を説明します。
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+exl-id: eca58f55-f056-46b3-b192-2849690e8bcc
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -28,15 +30,15 @@ ht-degree: 0%
 >
 >マーチャントネットワーク上に実際のアカウントを作成するには、ネットワークの Web サイトにアクセスします。
 
-1. メインメニューで、 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**&#x200B;は、 [!UICONTROL Accounts] タブをクリックします。
+1. メインメニューで、 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**（が開きます） [!UICONTROL Accounts] タブをクリックします。
 
 1. データテーブルの上にあるツールバーで、 **[!UICONTROL Create Account]**.
 
-1. 次を指定： [マーチャントアカウント設定](#merchant-account-settings):
+1. 次を指定します。 [マーチャントアカウント設定](#merchant-account-settings):
 
-   1. 内 [!UICONTROL Product Source] メニューで、「マーチャントセンター」を選択します。
+   1. Adobe Analytics の [!UICONTROL Product Source] メニューで、「マーチャントセンター」を選択します。
 
-   1. ( 必須 [!DNL Google Ads] アカウントオプション： [!DNL Microsoft Advertising] アカウント ) 検索、ソーシャル、コマースで、 [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/):
+   1. ( 必須 [!DNL Google Ads] アカウント；オプション [!DNL Microsoft Advertising] アカウント ) 検索、ソーシャル、コマースで、 [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] アカウントのみ ) を選択します。 **[!UICONTROL oAuth]**.
 
@@ -64,7 +66,7 @@ ht-degree: 0%
 >
 >マーチャントネットワーク上の実際のアカウントを編集するには、ネットワークの Web サイトに移動します。
 
-1. メインメニューで、 **[!UICONTROL Search]\> [!UICONTROL Campaigns] \>[!UICONTROL Products]**&#x200B;は、 [!UICONTROL Accounts] タブをクリックします。
+1. メインメニューで、 **[!UICONTROL Search]\> [!UICONTROL Campaigns] \>[!UICONTROL Products]**（が開きます） [!UICONTROL Accounts] タブをクリックします。
 
 1. アカウント名の横にある ![設定を表示/編集](/help/search-social-commerce/assets/settings.png "設定を表示/編集").
 
@@ -82,11 +84,11 @@ ht-degree: 0%
 
 マーチャントアカウントを無効にすると、Search、Social、および Commerce はアカウントにログインしないので、更新された製品データを取得しません。 アカウントの有効化中に収集されたデータは、引き続き保存され、製品データを使用して作成された既存の広告は、フィードテンプレートおよびフィードデータの設定に従って更新、一時停止、削除されません。
 
-1. メインメニューで、 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** は、 [!UICONTROL Accounts] タブをクリックします。
+1. メインメニューで、 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** （が開きます） [!UICONTROL Accounts] タブをクリックします。
 
 1. アカウント名の横にある ![設定を表示/編集](/help/search-social-commerce/assets/settings.png "設定を表示/編集").
 
-1. を [!UICONTROL EF Account Type] から **[!UICONTROL Disabled]**.
+1. 次を変更： [!UICONTROL EF Account Type] から **[!UICONTROL Disabled]**.
 
 1. クリック **[!UICONTROL Save]**.
 
@@ -94,7 +96,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->代理店のアカウントマネージャーのみ [!DNL Adobe] アカウントマネージャーおよび管理者ユーザーロールは、マーチャントアカウント設定を構成できます。
+>代理店のアカウントマネージャーのみ、 [!DNL Adobe] アカウントマネージャーおよび管理者ユーザーロールは、マーチャントアカウント設定を構成できます。
 
 **[!UICONTROL Product Source]:** マーチャントネットワーク。 既存のアカウントの値は変更できません。
 
@@ -104,7 +106,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Client login]:* クライアントのログインを使用する場合。
 
-* *[!UICONTROL oAuth]* （デフォルト）:次の手順で [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/).
+* *[!UICONTROL oAuth]* （デフォルト）: [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/).
 
 **[!UICONTROL Access Key]:** ([!DNL Microsoft Merchant Center] （のみ）使用する開発者アカウントのアクセスキー。
 

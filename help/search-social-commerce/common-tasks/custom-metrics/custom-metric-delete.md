@@ -1,7 +1,9 @@
 ---
 title: カスタム指標の削除
 description: 標準の指標から計算されるカスタム指標を削除する方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 531da1f7-6e20-4124-9e8c-e1816929c4d7
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -38,7 +40,7 @@ ht-degree: 0%
 
 1. 次をクリック： **[!UICONTROL Columns]** タブをクリックします。
 
-1. いずれかの [!UICONTROL Available Metrics] または [!UICONTROL Table Columns] リストを開き、をクリックします。 **[!UICONTROL Delete]** 」をクリックします。
+1. 次のいずれかの [!UICONTROL Available Metrics] または [!UICONTROL Table Columns] リストを開き、をクリックします。 **[!UICONTROL Delete]** 」をクリックします。
 
 1. 確認メッセージで、 **[!UICONTROL Yes]**.
 
@@ -48,4 +50,3 @@ ht-degree: 0%
 >* [カスタム指標の作成](custom-metric-create.md)
 >* [カスタム指標の編集](custom-metric-edit.md)
 >* [カスタム指標設定](custom-metric-settings.md)
-

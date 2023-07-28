@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] レスポンシブ広告設定"
+title: '''[!DNL Microsoft® Advertising] レスポンシブ広告設定'
 description: 次の設定を参照してください： [!DNL Microsoft® Advertising] レスポンシブ広告。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bbe06bdb-c765-4d30-a609-03f476c4ee54
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -52,4 +54,3 @@ ht-degree: 0%
 >* [[!DNL Microsoft® Advertising] マルチメディア広告設定](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft® Advertising] 製品広告設定](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] レスポンシブ検索広告設定](ad-settings-microsoft-rsa.md)
-

@@ -1,7 +1,9 @@
 ---
 title: s_kwcid トラッキングパラメーター
 description: Adobe AnalyticsとAdobe Advertisingデータを共有するために使用されるトラッキングパラメーターについて説明します。
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+exl-id: 3f739f1c-3cb7-40d0-86ab-cf66afe6a06f
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -18,9 +20,9 @@ Adobe Advertisingは、 `s_kwcid` ad channel および ad ネットワーク固�
 
 * （推奨）<!--; the only option for Advertising DSP-->) サーバー側 s_kwcid 機能が実装されている。
 
-  の場合 [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウント [!UICONTROL Auto Upload] アカウントまたはキャンペーンに対して有効に設定を指定すると、エンドユーザーが広告をクリックすると、ピクセルサーバーによってランディングページのサフィックスに s_kwcid パラメーターが自動的に追加されます <!-- click a search ad or views a display ad --> をAdobe Advertisingピクセル
+  の場合 [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントの [!UICONTROL Auto Upload] アカウントまたはキャンペーンに対して有効に設定を指定すると、エンドユーザーが広告をクリックすると、ピクセルサーバーによってランディングページのサフィックスに s_kwcid パラメーターが自動的に追加されます <!-- click a search ad or views a display ad --> をAdobe Advertisingピクセル
 
-  他の広告ネットワークの場合、または [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウント [!UICONTROL Auto Upload] を無効に設定した場合、アカウントレベルの追加パラメーターに手動でパラメーターを追加して、ベース URL に追加します。
+  他の広告ネットワークの場合、または [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントの [!UICONTROL Auto Upload] を無効に設定した場合、アカウントレベルの追加パラメーターに手動でパラメーターを追加して、ベース URL に追加します。
 
 * <!-- (Search, Social, & Commerce only) -->サーバー側の s_kwcid 機能が実装されていないので、s_kwcid パラメーターを ([!DNL Google Ads] および [!DNL Microsoft Advertising]) ランディングページのサフィックスや（その他の広告ネットワーク）アカウントレベルの追加パラメーターを追加できます。
 
@@ -46,7 +48,7 @@ Adobe Advertisingは、 `s_kwcid` ad channel および ad ネットワーク固�
 
 * `{userid}` は、広告主に割り当てられる一意のユーザー ID です。
 
-* `{sid}` は、広告主の広告ネットワークアカウントの数値 ID に置き換えられます。 *3* 対象 [!DNL Google Ads], *10* 対象 [!DNL Microsoft Advertising], *45* 対象 [!DNL Meta], *86* 対象 [!DNL Yahoo! Display Network], *87* 対象 [!DNL Naver], *88* 対象 [!DNL Baidu], *90* 対象 [!DNL Yandex], *94* 対象 [!DNL Yahoo! Japan Ads], *105* 対象 [!DNL Yahoo Native] （非推奨）または *106* 対象 [!DNL Pinterest] （非推奨）。
+* `{sid}` は、広告主の広告ネットワークアカウントの数値 ID に置き換えられます。 *3* 対象： [!DNL Google Ads], *10* 対象： [!DNL Microsoft Advertising], *45* 対象： [!DNL Meta], *86* 対象： [!DNL Yahoo! Display Network], *87* 対象： [!DNL Naver], *88* 対象： [!DNL Baidu], *90* 対象： [!DNL Yandex], *94* 対象： [!DNL Yahoo! Japan Ads], *105* 対象： [!DNL Yahoo Native] （非推奨）、または *106* 対象： [!DNL Pinterest] （非推奨）。
 
 ### [!DNL Baidu]
 

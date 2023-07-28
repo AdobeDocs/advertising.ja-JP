@@ -1,7 +1,9 @@
 ---
 title: EF ID フィードを使用したコンバージョントラッキング
 description: コンバージョントラッキングデータでの EF ID フィードの使用について説明します。
-source-git-commit: 46e918418bf2e5c412efa8825dda22bc1953e439
+exl-id: db722a54-a9bf-4a31-a285-a82e6d79c34a
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -32,7 +34,7 @@ ht-degree: 0%
 
 1. 広告主が、 [必要なコンバージョンデータ](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md) を指定したサーバーの場所に追加します。
 
-1. テクニカルサービスは、アップロードされたファイルのコンバージョンデータを解析し、そのデータをAdobe広告にアップロードします。 Adobe Advertisingは、個々のキーワード、広告およびプレースメントに対してデータを追跡し、それぞれの売上高予測を作成します。
+1. テクニカルサービスは、アップロードされたファイルの変換データを解析し、そのデータをAdobe Advertisingにアップロードします。 Adobe Advertisingは、個々のキーワード、広告およびプレースメントに対してデータを追跡し、それぞれの売上高予測を作成します。
 
 1. テクニカルサービスは、処理されたデータをフィードデータと照合して検証し、 [孤立トランザクション](/help/search-social-commerce/glossary.md#o-p).
 
@@ -40,5 +42,3 @@ ht-degree: 0%
 >
 >* [コンバージョンフィードファイルのファイル要件](feed-file-requirements.md)
 >* [EF ID を使用したデータフィードのデータ要件](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
-
-

@@ -1,7 +1,9 @@
 ---
 title: カレンダーを使用して日付を指定
 description: カレンダーを使用して日付を選択する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b07c0db5-4b7a-4b60-9383-ca07b99404de
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -25,4 +27,5 @@ ht-degree: 0%
    * （1 ヶ月前または 1 ヶ月前に進むには） **`<`** または **`>`**、それぞれ。
 
    * （別の月または年を選択する場合）月または年の名前をクリックし、月または年をクリックします。
+
    （現在の日付をハイライト表示するには） **[!UICONTROL Today]**.

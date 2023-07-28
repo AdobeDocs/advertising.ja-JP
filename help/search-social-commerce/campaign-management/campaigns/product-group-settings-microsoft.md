@@ -1,14 +1,16 @@
 ---
-title: '"[!DNL Microsoft® Advertising] 製品グループ設定'
+title: '''[!DNL Microsoft® Advertising] 製品グループの設定'
 description: 次の設定を参照してください： [!DNL Microsoft® Advertising] 買い物製品グループ。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a34511ef-f5bc-4d93-a56e-90348f670ad6
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] 製品グループ設定
+# [!DNL Microsoft® Advertising] 製品グループの設定
 
 ## 「すべての製品」製品グループ
 
@@ -30,7 +32,7 @@ ht-degree: 0%
 
 使用可能な製品ディメンションのリストについては、[買い物キャンペーンの製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).&quot; ディメンションのリストは、キャンペーンの [!UICONTROL Inventory Filter] 設定。
 
-**[!UICONTROL Excluded]:** （新しい製品グループの場合はオプション）既存の製品グループの読み取り専用 ) 一致する製品の広告の入札を除外します。
+**[!UICONTROL Excluded]:** （新しい製品グループの場合はオプション、既存の製品グループの場合は読み取り専用）一致する製品の広告の入札を除外します。
 
 **[!UICONTROL Bid]:** （製品グループのみを含む）最大クリック単価 (CPC)。広告クリックに対して支払われる金額の上限です。 この値は、子製品グループのない単位に対してのみ使用され、広告グループレベルの値の代わりに使用されます。
 
@@ -50,5 +52,4 @@ ht-degree: 0%
 >* [買い物製品グループについて](product-group-about.md)
 >* [買い物製品グループの管理](product-group-manage.md)
 >* [買い物キャンペーンの製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [実装方法 [!DNL Microsoft® Advertising] ショッピングキャンペーン](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
-
+>* [実装方法 [!DNL Microsoft® Advertising] 買い物キャンペーン](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)

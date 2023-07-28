@@ -1,7 +1,9 @@
 ---
 title: サポートされるバルクシートファイル形式
 description: 一括送信シートの一般的なファイル要件を参照してください。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b14aaf11-e2e9-4f7c-b6bc-831f668b93a6
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 * CSV （コンマ区切り値）
 * TSV（タブ区切り値）
 * TXT（Unicode テキスト）（コンマまたはタブで区切られる）
-* CSV 形式、TSV 形式、TXT 形式の 1 つのファイルを含む ZIP（圧縮）。コンマまたはタブで区切られます
+* CSV 形式、TSV 形式、TXT 形式の 1 つのファイルを含む ZIP（圧縮）。コンマまたはタブで区切られます。
 
 バルクシートを作成またはダウンロードすると、指定したファイル形式で作成され、関連するすべてのデータがファイルに含まれます。 次の情報を使用して、ファイル内のデータを編集するか、独自のバルクシートを手動で作成します。
 
@@ -45,7 +47,7 @@ ht-degree: 0%
 
 * 各レコードのフィールドはタブ文字で区切られます。 フィールドの値を省略する場合は、タブ文字のみを使用します。
 
-   例： `Cruises<TAB>5000<TAB>Caribbean<TAB><TAB><TAB>`
+  例： `Cruises<TAB>5000<TAB>Caribbean<TAB><TAB><TAB>`
 
 * フィールドにタブ文字を埋め込むことはできません。
 
@@ -55,28 +57,27 @@ CSV ファイルおよび TXT ファイル内のデータフィールドは、�
 
 * レコード内のフィールドはコンマで区切ります。 フィールドの値を省略する場合は、コンマのみを使用します。
 
-   例： `Cruises,5000,Caribbean,,,`
+  例： `Cruises,5000,Caribbean,,,`
 
 * 任意のフィールドを二重引用符 (`""`) をクリックします。
 
-   例：  `"Cruises","5000","Caribbean",`
+  例：  `"Cruises","5000","Caribbean",`
 
 * コンマが埋め込まれたフィールドは二重引用符 (`""`) をクリックします。
 
-   例： `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
+  例： `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
 
 * 二重引用符が埋め込まれているフィールドは、二重引用符 (`""`) をクリックします。
 
-   例： `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
+  例： `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
 
 * 先頭または末尾にスペースがあるフィールドは、二重引用符 (`""`) をクリックします。
 
-   例： `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
+  例： `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
 
 >[!MORELIKETHIS]
 >
 >* [バルクシートを使用したキャンペーンデータの管理について](../bulksheet-about.md)
 >* [バルクシートで実行できる操作](bulksheet-operations.md)
 >* [付録 — バルクシートエラー](../bulksheet-errors.md)
->* [バルクシートファイルのダウンロード/作成](../bulksheet-download.md)
-
+>* [バルクシートファイルをダウンロード/作成する](../bulksheet-download.md)

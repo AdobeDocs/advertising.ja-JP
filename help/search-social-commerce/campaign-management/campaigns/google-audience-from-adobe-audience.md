@@ -1,7 +1,9 @@
 ---
 title: 作成 [!DNL Google Ads] 次のオーディエンスをカスタマーマッチさせる [!DNL Adobe] audiences
 description: 作成方法を学ぶ [!DNL Google Ads] 既存のAdobe AnalyticsおよびAudience Managerオーディエンスのオーディエンスに一致する顧客。
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 *Adobe Advertising- Adobe Audience ManagerまたはAdobe Advertising- Adobe Analyticsの統合のみを使用する広告主*
 
-オプトインした広告主が [!DNL Google Ads] (a) のユーザー ID を使用したオーディエンスの顧客一致 [!DNL Analytics] Adobe Experience Cloudおよび b) 検索、ソーシャル、コマースを宛先として持つAudience Managerセグメント（を含む） [!DNL Analytics] Adobe Experience Cloudに公開されたセグメントと、Adobe Experience Cloud Audience Library を使用して作成されたセグメント。 検索、ソーシャル、コマースは、 [!DNL Google] 各 [!DNL Analytics] またはAudience Managerセグメントで [!DNL Google] オーディエンスを追跡できます。
+オプトインした広告主が [!DNL Google Ads] (a) のユーザー ID を使用したオーディエンスの顧客一致 [!DNL Analytics] Adobe Experience Cloudおよび b) 検索、ソーシャル、コマースを宛先として持つAudience Managerセグメント（を含む） [!DNL Analytics] Adobe Experience Cloudに公開されたセグメントと、Adobe Experience Cloud Audience Library を使用して作成されたセグメント。 検索、ソーシャル、コマースは、 [!DNL Google] 各に戻るトラッキング URL [!DNL Analytics] またはAudience Managerセグメントで [!DNL Google] オーディエンスを追跡できます。
 
 各 [!DNL Adobe] オーディエンスは 1 つにのみ使用できます [!DNL Google] オーディエンス。
 
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->リアルタイムセグメント化の場合は、Audience Managerが作成したオーディエンスを使用します。 で作成されたセグメント [!DNL Analytics] とは 1 日にしか同期されないので、Adobe Experience Cloudと同期された母集団は少ない場合があります。セグメントの対象となるサーファーは、次の日までセグメントに含まれない場合があります。 セグメント元 [!DNL Analytics] のデータソースは「report suite - 」です。
+>リアルタイムセグメント化の場合は、Audience Managerが作成したオーディエンスを使用します。 で作成されたセグメント [!DNL Analytics] とをAdobe Experience Cloudに同期した場合、母集団が日別に同期されるので、母集団が少なくなる可能性があります。セグメントに適合するサーファーは、翌日までセグメントに含まれない場合があります。 セグメントの元 [!DNL Analytics] のデータソースは「report suite - 」です。
 
 >[!NOTE]
 >
@@ -34,7 +36,7 @@ ht-degree: 0%
 
    1. の実装 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) バージョン 2.0 以降。
 
-   1. オーディエンスのトラッキング元となる広告主の Web ページに、できる限り高い位置に次のタグをデプロイします
+   1. オーディエンスのトラッキング元となる広告主の Web ページに、できる限り高い位置に次のタグをデプロイします。
 
       `<script src="//pixel.everesttech.net/rlsa/<Advertising_Cloud_UserID>" type="text/javascript"> </script>`
 
@@ -50,7 +52,7 @@ ht-degree: 0%
 
 1. オーディエンス情報を指定します。
 
-   1. 内 **[!UICONTROL Data Source]** メニュー、選択 **[!UICONTROL Adobe Audience]**.
+   1. Adobe Analytics の **[!UICONTROL Data Source]** メニュー、選択 **[!UICONTROL Adobe Audience]**.
 
    1. を選択します。 [!UICONTROL Adobe Audience] 基地となる [!DNL Google] オーディエンス。
 
@@ -64,13 +66,13 @@ ht-degree: 0%
 
    1. を選択します。 **[!UICONTROL Audience Type]** 次を作成します。 **[!UICONTROL Customer List_User ID]**.
 
-      広告主の [!DNL Google Ads] アカウントは [カスタムマッチの対象となる](https://support.google.com/adspolicy/answer/6299717) を選択し、 [ユーザー ID リマーケティング](https://support.google.com/google-ads/answer/9199250).
+      広告主の [!DNL Google Ads] アカウントは次の条件を満たす必要があります [カスタムマッチの条件を満たす](https://support.google.com/adspolicy/answer/6299717) をオプトインし、 [ユーザー ID リマーケティング](https://support.google.com/google-ads/answer/9199250).
 
-   1. 「 」チェックボックスを選択して、の利用条件に同意したことを示します [!DNL Adobe] および広告ネットワークのプライバシーポリシー。
+   1. 「 」チェックボックスを選択して、の利用条件に同意したことを示します。 [!DNL Adobe] および広告ネットワークのプライバシーポリシー。
 
    1. 次の数を指定： **[!UICONTROL Membership Days]**：ユーザーの Cookie がオーディエンスに残る日数です。
 
-      広告がユーザーに関連すると予想される時間の長さを使用します。 リマーケティングリストの期間は最大 540 日です。 顧客リストに最大期間がありません。cookie の有効期限が切れないことを示すには、「10000」と入力します。
+      広告がユーザーに関連すると予想される時間の長さを使用します。 リマーケティングリストの期間は最大 540 日です。 顧客リストには最大期間がありません。cookie の有効期限が切れないことを示すには、10000と入力します。
 
    1. クリック **[!UICONTROL Post]**.
 

@@ -1,22 +1,24 @@
 ---
-title: Adobe広告のコンバージョントラッキングタグについて
-description: Advertising conversion-tracking タグのAdobeについて説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: Adobe Advertisingのコンバージョントラッキングタグについて
+description: コンバージョントラッキングタグのAdobe Advertisingについて説明します。
+exl-id: 07403d60-6db2-47e7-977b-4b59c8797c3d
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
 
 ---
 
-# Adobe広告のコンバージョントラッキングタグについて
+# Adobe Advertisingのコンバージョントラッキングタグについて
 
-Adobe広告は、「成功」ページなど、コンバージョンイベントの発生時に開く Web ページに挿入されるAdobe広告コンバージョントラッキングタグを使用して、広告のクリックによるコンバージョンを追跡します。 タグには、トランザクションデータをAdobeの広告 Cookie と共にトラッキングサーバーに送信する埋め込み情報が含まれます。このトラッキングサーバーから、（広告主のコンバージョン属性設定ごとに）適切な広告クリックまたはインプレッションにトランザクションが付与されます。
+Adobe Advertisingは、「成功」ページなど、コンバージョンイベントの発生時に開く Web ページに挿入されるAdobe Advertisingコンバージョントラッキングタグを使用して、広告のクリックによるコンバージョンを追跡します。 タグには、トランザクションデータをユーザーのAdobe AdvertisingCookie と共にトラッキングサーバーに送信する埋め込み情報が含まれます。このトラッキングサーバーから、（広告主のコンバージョン属性設定ごとに）適切な広告クリックまたはインプレッションにトランザクションが付与されます。
 
 >[!NOTE]
 >
->ユーザーが有効な cookie を持っていない場合、Adobe広告はコンバージョンをレポートしません。
+>ユーザーが有効な cookie を持っていない場合、Adobe Advertisingはコンバージョンをレポートしません。
 
-追跡する一連のコンバージョン指標ごとに、個別のコンバージョンタグを作成する必要があります。 広告主または代理店に各タグを挿入する Web ページのリストを提供します。 次のいずれかのタイプのコンバージョンタグを生成できます。 参照：[Adobe広告コンバージョンタグの生成](/help/search-social-commerce/tools/conversion-tag-generate.md)」を参照してください。
+追跡する一連のコンバージョン指標ごとに、個別のコンバージョンタグを作成する必要があります。 広告主または代理店に各タグを挿入する Web ページのリストを提供します。 次のいずれかのタイプのコンバージョンタグを生成できます。 参照：[Adobe Advertisingコンバージョンタグの生成](/help/search-social-commerce/tools/conversion-tag-generate.md)」を参照してください。
 
 * （推奨）Web ページに表示されない JavaScript タグ（バージョン 3 またはバージョン 2）。
 
@@ -29,16 +31,15 @@ Adobe広告は、「成功」ページなど、コンバージョンイベント
 >* この機能では、画像タグや JavaScript タグは広告主の Web ページに追加されません。 タグは、Web ページを更新する際の広告主の通常の手順に従って追加する必要があります。
 >* タグの実装にかかる時間を必ず考慮してください。 会社の方針によっては、導入に数週間から数ヶ月かかる場合があります。
 
+## Adobe Advertisingのコンバージョントラッキングタグの機能
 
-## Adobe広告のコンバージョントラッキングタグの機能
-
-コンバージョントラッキングピクセルを使用すると、Adobe広告で次のことができます。
+コンバージョントラッキングピクセルを使用すると、Adobe Advertisingは次の操作を実行できます。
 
 * 検索キャンペーンのキーワードレベルでコンバージョンデータを追跡し、レポートします。
 
 * すべてのマーケティングチャネル（有料検索とディスプレイ）にわたって広告（クリエイティブ）レベルでコンバージョンデータを追跡およびレポートできるので、クリエイティブテストを容易におこなえます。
 
-* すべてのマーケティングチャネルにわたって、トランザクションレベルでコンバージョンデータを追跡し、レポートします。
+* すべてのマーケティングチャネルをまたいで、トランザクションレベルでコンバージョンデータを追跡し、レポートします。
 
 * コンバージョンが様々なマーケティングチャネルにどのように分布しているかを示し、最も効果的なマーケティングチャネルを確認できます。
 
@@ -53,10 +54,9 @@ Adobe広告は、「成功」ページなど、コンバージョンイベント
 >[!MORELIKETHIS]
 >
 >* [コンバージョントラッキングオプション](conversion-tracking-about.md)
->* [Adobe広告コンバージョンタグの生成](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Adobe Advertisingコンバージョンタグの生成](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [JavaScript コンバージョントラッキングタグバージョン 3 の形式](format-conversion-tag-jsv3.md)
 >* [JavaScript コンバージョントラッキングタグバージョン 2 の形式](format-conversion-tag-jsv2.md)
 >* [画像コンバージョントラッキングタグの形式](format-conversion-tag-image.md)
 >* [コンバージョンおよびページビューのトラッキングタグに関する FAQ](faqs-conversion-page-view-tracking-tags.md)
->* [Adobe広告の JavaScript コンバージョンマッピングタグ](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
-
+>* [Adobe Advertisingの JavaScript コンバージョンマッピングタグ](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)

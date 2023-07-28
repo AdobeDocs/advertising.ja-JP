@@ -1,7 +1,9 @@
 ---
 title: 広告グループの管理
 description: 広告グループを作成および管理する方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -28,9 +30,9 @@ ht-degree: 0%
 
 1. 広告ネットワーク、アカウント、キャンペーンを選択し、 **[!UICONTROL Continue]**.
 
-1. 次を入力します。 [梅津](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)または [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 広告グループの設定。
+1. 次を入力します。 [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)または [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 広告グループの設定。
 
-   広告ネットワークに応じて、設定は次のようにグループ化されます。 [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]、および [!UICONTROL URL Options]. の設定を構成するには [!UICONTROL Negative Keywords] または [!UICONTROL Negative Websites]を使用できる場合は、 **[!UICONTROL Add Negative Keywords]** または **[!UICONTROL Add Negative Websites]**、それぞれ。
+   広告ネットワークに応じて、設定は次のようにグループ化されます。 [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]、および [!UICONTROL URL Options]. の設定を構成するには [!UICONTROL Negative Keywords] または [!UICONTROL Negative Websites]を使用できる場合は、「 **[!UICONTROL Add Negative Keywords]** または **[!UICONTROL Add Negative Websites]**、それぞれ。
 
 1. クリック **[!UICONTROL Post]**.
 
@@ -54,15 +56,15 @@ ht-degree: 0%
 
       * 各広告グループの横にあるチェックボックスを選択します。
 
-         複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * データテーブルの上にあるツールバーで、 ![編集](/help/search-social-commerce/assets/edit.png "編集").
 
-1. を編集します。 [梅津](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)または [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 広告グループの設定。
+1. を編集します。 [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)または [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 広告グループの設定。
 
    複数の広告グループの場合、設定は [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]、および [!UICONTROL URL Options]（広告ネットワークに応じて） 選択したすべての広告グループに共通するフィールドのみを編集でき、変更は選択したすべての広告グループに適用されます。 一部の英数字フィールドでは、既存の値を指定した値に変更したり、既存の文字列を指定した文字列に置き換えたり、各値の先頭に指定したプレフィックスを追加したり、各値の末尾にサフィックスを追加したりできます。 一部の金額フィールドでは、既存の値を指定した値に変更するか、指定した割合または金額で金額を上限に従って増減するかを選択できます。
 
-   単一の広告グループの場合、設定は [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]、および [!UICONTROL URL Options]. の設定を構成するには [!UICONTROL Negative Keywords] または [!UICONTROL Negative Websites]を使用できる場合は、 **[!UICONTROL Add Negative Keywords]** または **[!UICONTROL Add Negative Websites]**、それぞれ。
+   単一の広告グループの場合、設定は [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]、および [!UICONTROL URL Options]. の設定を構成するには [!UICONTROL Negative Keywords] または [!UICONTROL Negative Websites]を使用できる場合は、「 **[!UICONTROL Add Negative Keywords]** または **[!UICONTROL Add Negative Websites]**、それぞれ。
 
 1. データを保存します。
 
@@ -89,13 +91,12 @@ ht-degree: 0%
 
    * 行を一時停止するには、 ![一時停止](/help/search-social-commerce/assets/pause.png "一時停止").
 
-   * 行を削除するには、 ![詳細](/help/search-social-commerce/assets/more.png "詳細") を選択し、 **[!UICONTROL Delete]**. 確認メッセージで、 **[!UICONTROL Delete]**.
+   * 行を削除するには、 ![その他](/help/search-social-commerce/assets/more.png "その他") を選択し、 **[!UICONTROL Delete]**. 確認メッセージで、 **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
 >* [Baidu 広告グループの設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
 >* [Google Ads 広告グループの設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
->* [Microsoft Advertising Ad Group 設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
+>* [Microsoft Advertising Ad Group の設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
 >* [Yahoo! Japan Ads 広告グループの設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
 >* [Yandex 広告グループの設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
-

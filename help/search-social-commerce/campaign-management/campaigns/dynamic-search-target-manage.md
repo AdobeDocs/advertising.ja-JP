@@ -1,7 +1,9 @@
 ---
 title: 管理 [!DNL Google Ads] 動的検索ターゲット
 description: 作成および管理方法を学ぶ [!DNL Google Ads] 動的検索ターゲット。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 85b1455a-dda1-4bb9-b4be-d6e0a837fd9d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -38,7 +40,7 @@ ht-degree: 0%
 
 1. 広告ネットワーク、アカウント、キャンペーンおよび広告グループを選択し、 **[!UICONTROL Continue]**.
 
-1. 次を指定： [動的検索ターゲット設定](#dynamic-search-target-settings).
+1. 次を指定します。 [動的検索ターゲット設定](#dynamic-search-target-settings).
 
 1. クリック **[!UICONTROL Post]**.
 
@@ -58,7 +60,7 @@ ht-degree: 0%
 
 1. データテーブルの上にあるツールバーで、 ![編集](/help/search-social-commerce/assets/edit.png "編集").
 
-1. 次を指定： [動的検索ターゲット設定](#dynamic-search-target-settings).
+1. 次を指定します。 [動的検索ターゲット設定](#dynamic-search-target-settings).
 
    複数のターゲットの場合、変更は選択したすべてのターゲットに適用されます。 の [!UICONTROL Bid field]に値を追加する場合は、既存の値を指定した値に変更するか、指定した割合または金額で金額を増減（制限あり）するかを選択できます。
 
@@ -84,21 +86,21 @@ ht-degree: 0%
 
    * 1 つ以上の動的ターゲットを削除するには、次の手順を実行します。
 
-      1. 削除する各動的ターゲットの横にあるチェックボックスを選択します。
-      複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+      1. 削除する各動的ターゲットの横にあるチェックボックスをオンにします。
 
-      1. ツールバーで、 ![詳細](/help/search-social-commerce/assets/more.png "詳細") を選択し、 **[!UICONTROL Delete]**.
+     複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+
+      1. ツールバーで、 ![その他](/help/search-social-commerce/assets/more.png "その他") を選択し、 **[!UICONTROL Delete]**.
 
       1. 確認メッセージで、 **[!UICONTROL Delete]**.
-
 
 ## [!DNL Google Ads] 動的検索ターゲット設定 {#dynamic-search-target-settings}
 
 ### [!UICONTROL Auto-Target Details]
 
-**[!UICONTROL Auto-targets]:** ( キャンペーンの [!UICONTROL DSA Options] セクション；既存のターゲットの読み取り専用 ) 広告グループの動的検索ターゲット：
+**[!UICONTROL Auto-targets]:** ( キャンペーンの [!UICONTROL DSA Options] セクション。既存のターゲットの場合は読み取り専用 ) 広告グループの動的検索ターゲット：
 
-* *[!UICONTROL All Targets]* （デフォルト）:インデックスで指定されたすべてのページをターゲットにします。
+* *[!UICONTROL All Targets]* （デフォルト）：インデックスで指定されたすべてのページをターゲットにします。
 
 * *\[ 特定のターゲット\]:* インデックスで指定されたページの最大 3 つの条件をターゲットに設定します。 これを選択する場合、広告をターゲットにする情報カテゴリと特定の値（例：「URL に shoes.example.com が含まれる」）を指定して、条件を指定する必要があります。 複数の条件を指定するには、 **[!UICONTROL + And]**. ターゲット条件には次のものが含まれます。
 
@@ -112,11 +114,11 @@ ht-degree: 0%
 
 **ステータス：** ターゲット設定のステータス：
 
-* *[!UICONTROL Active]* （デフォルト）:入札を有効にします。
+* *[!UICONTROL Active]* （デフォルト）：入札を有効にします。
 
 * *[!UICONTROL Paused]:* 入札を無効にします。
 
-* *[!UICONTROL Deleted]* （既存のターゲットのみ）:ターゲット設定を削除します。
+* *[!UICONTROL Deleted]* （既存のターゲットのみ）：ターゲット設定を削除します。
 
 ### [!UICONTROL Bids]
 
@@ -129,4 +131,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [について [!DNL Google Ads] 動的検索ターゲット](dynamic-search-target-about.md)
-

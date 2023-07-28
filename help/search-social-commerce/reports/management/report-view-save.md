@@ -1,7 +1,9 @@
 ---
 title: レポートの表示または保存
 description: 生成されたレポートを表示する方法、またはレポートをファイルとして保存する方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7e2e93f2-5c59-48e7-9acc-7b7ccf777f2e
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -10,13 +12,13 @@ ht-degree: 0%
 
 # レポートの表示または保存
 
-レポートは、Web ブラウザーで表示することも、 [!DNL Microsoft Excel] ワークブック、タブ区切り値 (TSV) ファイル、コンマ区切り値 (CSV) ファイル、または（一部のレポートタイプ） [!DNL Microsoft Excel] タブ化されたワークブック
+レポートは、Web ブラウザーで表示することも、レポートデータを [!DNL Microsoft Excel] ワークブック、タブ区切り値 (TSV) ファイル、コンマ区切り値 (CSV) ファイル、または（一部のレポートタイプ） [!DNL Microsoft Excel] タブ化されたワークブック。
 
 >[!NOTE]
 >
 >Adobeアカウントチームのメンバーと管理者ユーザーは、クライアントとエージェンシーの役割で作成されたレポートを表示できます。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;は、 **[!UICONTROL Latest Reports]** タブをクリックします。
+1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**（が開きます） **[!UICONTROL Latest Reports]** タブをクリックします。
 
 1. 次のいずれかの操作を行います。
 
@@ -26,7 +28,7 @@ ht-degree: 0%
 
       * **[!UICONTROL XLS]:**   の [!DNL Excel] ワークブックに単一のワークシート（XLSX 形式）が含まれている場合。 レポートの上部にパラメーターのラベルが付いた 1 つのワークシートが含まれ、コンポーネントのデータが使用可能な場合にレポートされる各コンポーネントに対して 1 行が表示されます。 データのない行は省略されます。
 
-         基本レポートには、各数値列の合計が含まれます。
+        基本レポートには、各数値列の合計が含まれます。
 
       * **[!UICONTROL TSV]:** TSV ファイルの場合。 レポートには、パラメーターと、レポートされる各コンポーネントに対して 1 行が含まれます。
 
@@ -42,4 +44,3 @@ ht-degree: 0%
 >* [テンプレートからのレポートの生成](/help/search-social-commerce/reports/management/report-generate-from-template.md)
 >* [既存のレポートからのレポートの作成](/help/search-social-commerce/reports/management/report-generate-from-existing.md)
 >* [レポートの削除](/help/search-social-commerce/reports/management/report-delete.md)
-

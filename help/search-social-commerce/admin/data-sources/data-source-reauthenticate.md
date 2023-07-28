@@ -3,7 +3,8 @@ title: の再認証 [!DNL Google Analytics] データソース
 description: の再認証方法を説明します。 [!DNL Google Analytics] データソースを設定します。
 role: User, Admin
 exl-id: 9233e004-8607-444a-ba99-f63cb83a8b7a
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -24,9 +25,9 @@ ht-degree: 0%
 
 1. を編集します。 [データソース設定](data-source-settings.md):
 
-   1. 内 [!UICONTROL Connect to Google Analytics] セクションで、以下の操作を実行します。
+   1. Adobe Analytics の [!UICONTROL Connect to Google Analytics] 「 」セクションで、以下の操作を実行します。
 
-      1. （必要に応じて）このデータソースのデータへのアクセスに使用する新しい電子メールアドレスを入力します。 電子メールアドレスを [!DNL Google] アカウントに追加し、 [!DNL Google Analytics] アカウント 詳しくは、 [でのユーザー権限の割り当て手順 [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).
+      1. （必要に応じて）このデータソースのデータへのアクセスに使用する新しい電子メールアドレスを入力します。 電子メールアドレスを [!DNL Google] アカウントに追加し、 [!DNL Google Analytics] アカウント。 詳しくは、 [でのユーザー権限の割り当て手順 [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).
 
          >[!TIP]
          >

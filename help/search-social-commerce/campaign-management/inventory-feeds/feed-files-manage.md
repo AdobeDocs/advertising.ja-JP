@@ -1,7 +1,9 @@
 ---
 title: 在庫データフィードファイルの管理
 description: フィードデータの処理方法を制御する設定の設定方法について説明します。
-source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
+exl-id: 73d372de-2673-4190-94cf-2f07f4ce2493
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -16,25 +18,25 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->マーチャントセンターのアカウントから直接データを使用している場合は、ファイルをアップロードしないでください。
+>マーチャントセンターアカウントから直接データを使用している場合は、ファイルをアップロードしないでください。
 
 データフィードファイルは、次のいずれかの方法でアップロードおよび処理できます。
 
-* **FTP を自動的に使用：** ファイルは FTP ディレクトリに直接アップロードできます。フィードサービスは、2 時間ごとに新しいファイルを確認します。 初めてファイルをアップロードした後、そのファイルを広告ネットワーク固有のテンプレートに関連付けることができます。 後で、同じ名前でアップロードしたすべてのファイルが、同じテンプレートに自動的に関連付けられます。 次の方法に応じて： [フィードデータの設定](feed-settings-manage.md)、検索、ソーシャル、コマースは、該当するすべてのテンプレートを通じてフィードデータを自動的に反映し、オプションで、結果のキャンペーンおよび広告データを関連する広告ネットワークに投稿します。
+* **FTP を自動的に使用：** ファイルを FTP ディレクトリに直接アップロードできます。フィードサービスは、2 時間ごとに新しいファイルをチェックします。 初めてファイルをアップロードした後、そのファイルを広告ネットワーク固有のテンプレートに関連付けることができます。 後で、同じ名前でアップロードしたすべてのファイルが、同じテンプレートに自動的に関連付けられます。 次の方法に応じて： [フィードデータの設定](feed-settings-manage.md)、検索、ソーシャル、コマースは、該当するすべてのテンプレートを通じてフィードデータを自動的に反映し、オプションで、結果のキャンペーンおよび広告データを関連する広告ネットワークに投稿します。
 
-   データファイルを自動的に預け入れて処理するための FTP ディレクトリを設定するには、担当のAdobeアカウントチームにお問い合わせください。
+  データファイルを自動的に預け入れて処理するための FTP ディレクトリを設定するには、担当のAdobeアカウントチームにお問い合わせください。
 
 * **手動処理：** 手動で [フィードファイルのアップロード](#feed-file-upload) から [!UICONTROL Advanced] (ACM) 表示。 フィードファイルを 1 つ以上の広告ネットワーク固有の [テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)を使用すると、 [テンプレートを使用したフィードデータの反映](feed-data-propagate.md) 次によると [フィードデータ設定](feed-settings-manage.md). オプションで、キャンペーン階層ビュー内で生成されたデータをプレビューしたり、レビュー用のバルクシートファイルを生成したり、広告ネットワークに即座に投稿するためのバルクシートファイルを生成したりできます。 すぐにデータを投稿しない場合、 [プレビュー](propagated-data-view.md) および [投稿する](propagated-data-post.md) 後で。 後で使用できます [既存のフィードファイルを新しいファイルで置き換える](#feed-file-replace) 既存のテンプレートの関連付けが失われることはありません。
 
-## フィードファイル要件
+## フィードファイルの要件
 
 個々のファイルには特定のデータフィールドは必要ありませんが、各ファイルには次の情報が必要です。
 
 * ファイルの最初の行には、列名 ( *headers*) に関連付けられています。 残りの行には、列名に対応するデータが含まれている必要があります。 各データ行（行）は、1 つのキャンペーンまたは 1 つの広告など、1 つのアカウントコンポーネントにのみ関係する必要があります。 すべての行の値は、タブまたはコンマで区切る必要があります。 詳しくは、 [CSV サンプルファイル](#example-csv-feed-file) および [TSV サンプルファイル](#example-tsv-feed-file) 下
 
-* ファイルには任意のサイズを指定できますが、次のファイル拡張子のいずれかを指定する必要があります。 `.tsv` （タブ区切り値の場合）、 `.txt` ( [!DNL Unicode] — 準拠の ASCII テキスト )、 `.csv` （コンマ区切り値の場合）または `.zip` （圧縮 ZIP 形式の単一ファイルの場合。TSV ファイルに解凍）。
+* ファイルには任意のサイズを指定できますが、次のファイル拡張子のいずれかを指定する必要があります。 `.tsv` （タブ区切り値の場合）、 `.txt` ( [!DNL Unicode] — 準拠の ASCII テキスト )、 `.csv` （コンマ区切り値の場合）または `.zip` （圧縮 ZIP 形式の単一ファイルの場合。TSV ファイルに解凍します）。
 
-* ファイル名では大文字と小文字が区別され、次の文字は使用できません。 `# % & * | \ : " < > . ? /`
+* ファイル名では大文字と小文字が区別され、次の文字は含めることができません。 `# % & * | \ : " < > . ? /`
 
 * FTP ディレクトリにファイルを配置する場合は、ファイルの各バージョンで同じファイル名を使用する必要があります。
 
@@ -80,7 +82,7 @@ shoes<TAB>Clarks<TAB>20
 
 手動または FTP を使用してアップロードされたフィードファイルを開く、またはダウンロードできます。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;は、 [!UICONTROL Templates] タブをクリックします。
+1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**（が開きます） [!UICONTROL Templates] タブをクリックします。
 
 1. フィードファイルを見つけます。
 
@@ -99,7 +101,7 @@ shoes<TAB>Clarks<TAB>20
 >[!NOTE]
 > テンプレートを手動でアップロードしたファイルに関連付け、同じ名前、ファイル拡張子、文法的な大文字と小文字を持つ別のファイルを FTP 経由でアップロードした場合、FTP ファイルは、テンプレートを介してデータを伝達する際に使用されます。 例えば、myfile.csv は myfile.csv に置き換えられますが、Myfile.CSV は置き換えられません。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;は、 [!UICONTROL Templates] タブをクリックします。
+1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**（が開きます） [!UICONTROL Templates] タブをクリックします。
 
 1. データテーブルの上にあるツールバーで、 **[!UICONTROL Feeds]**.
 
@@ -115,16 +117,17 @@ shoes<TAB>Clarks<TAB>20
 
 新しいファイルのファイル名や拡張子が異なる場合でも、フィードファイルを置き換えると、既存のテンプレートの関連付けはすべてそのまま残ります。 新しいファイルは、元々以前のファイルに関連付けられていたすべてのテンプレートにデータを伝達する際に使用されます。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;は、 [!UICONTROL Templates] タブをクリックします。
+1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**（が開きます） [!UICONTROL Templates] タブをクリックします。
 
 1. 次のいずれかの操作を行います。
 
-   * 内 [!UICONTROL Feed] 列をクリックし、 ![その他のオプション](/help/search-social-commerce/assets/options.png "その他のオプション") を選択し、 **[!UICONTROL Re-upload]**.
+   * Adobe Analytics の [!UICONTROL Feed] 列をクリックして、該当するテンプレートを選択します。 ![その他のオプション](/help/search-social-commerce/assets/options.png "その他のオプション") を選択し、 **[!UICONTROL Re-upload]**.
 
    * データテーブルの上にあるツールバーで、 **[!UICONTROL Feeds]**. フィードファイルのリストで、既存のファイル名の横にあるチェックボックスを選択します。 データテーブルの上にある **[!UICONTROL Upload]**.
+
    >[!NOTE]
    >
-   >フィードファイルのソース ([!UICONTROL FTP]&quot;または&quot;&amp;mdash&quot; （手動でアップロードしたファイル）は [!UICONTROL Source] 列。
+   >フィードファイルのソース ([!UICONTROL FTP]&quot;または&quot;&amp;mdash&quot; （手動でアップロードしたファイル）は、 [!UICONTROL Source] 列。
 
 1. アップロードするファイルを指定します。その際には、フルパスとファイル名を入力するか、 **[!UICONTROL Browse]** をクリックして、お使いのデバイスまたはネットワーク上でファイルを見つけます。
 
@@ -138,7 +141,7 @@ shoes<TAB>Clarks<TAB>20
 
 手動または FTP 経由でアップロードされたフィードファイルを削除できます。 フィードファイルを削除すると、そのフィードはどのテンプレートにも関連付けられなくなります。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;は、 [!UICONTROL Templates] タブをクリックします。
+1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**（が開きます） [!UICONTROL Templates] タブをクリックします。
 
 1. データテーブルの上にあるツールバーで、 **[!UICONTROL Feeds]**.
 
@@ -154,7 +157,6 @@ shoes<TAB>Clarks<TAB>20
 >* [テンプレートを通じてフィードデータを伝達](feed-data-propagate.md)
 >* [フィードから生成されたデータを表示](propagated-data-view.md)
 >* [フィードから生成されたデータを編集](propagated-data-edit.md)
->* [フィードから広告ネットワークに生成されたキャンペーンデータを投稿](propagated-data-post.md)
+>* [フィードから広告ネットワークに生成されたキャンペーンデータを投稿します](propagated-data-post.md)
 >* [在庫フィードデータの転記ジョブを停止します](stop-job.md)
 >* [フィードから生成されたデータのステータス](propagated-data-status.md)
-

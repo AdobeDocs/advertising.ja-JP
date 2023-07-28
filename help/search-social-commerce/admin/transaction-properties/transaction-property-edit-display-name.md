@@ -1,7 +1,9 @@
 ---
 title: トランザクションプロパティの表示名を変更する
 description: 管理ビューとレポートの列見出しに表示されるトランザクションプロパティ名を変更する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 322be2d5-0d66-4d0c-a17a-619a1f6c0644
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # トランザクションプロパティの表示名を変更する
 
-列見出しに表示される名前は、必要に応じて、 [取引財産](/help/search-social-commerce/glossary.md#s-t) が [キャンペーンおよびポートフォリオ管理のビューとレポートで使用可能](transaction-property-edit-available.md). 例えば、 *reg*&#x200B;をクリックした後、オプションで表示名を変更して、「登録」と表示されるように設定できます。
+列見出しに表示される名前は、必要に応じて、 [取引財産](/help/search-social-commerce/glossary.md#s-t) 次に該当 [キャンペーンおよびポートフォリオ管理のビューとレポートで使用可能](transaction-property-edit-available.md). 例えば、 *reg*&#x200B;をクリックした後、オプションで表示名を変更して、「登録」と表示されるように設定できます。
 
 既存の表示名は削除できません。
 
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
 
-1. 内 **[!UICONTROL Display Name]** 列で、セル内をクリックします。
+1. Adobe Analytics の **[!UICONTROL Display Name]** 列で、セル内をクリックします。
 
 1. 表示する名前を入力し、 **[!UICONTROL Apply]**.
 
@@ -31,4 +33,3 @@ ht-degree: 0%
 >* [広告主のトランザクションプロパティの管理について](transaction-property-about.md)
 >* [広告主でトラッキングされているトランザクションプロパティの表示](transaction-property-view-tracked.md)
 >* [管理ビューとレポートで使用可能なトランザクションプロパティの変更](transaction-property-edit-available.md)
-

@@ -1,7 +1,9 @@
 ---
 title: キャンペーンおよび広告グループのオーディエンスの除外の管理
-description: のオーディエンスの除外を設定および管理する方法について説明します [!DNL Google Ads] および [!DNL Microsoft® Advertising] キャンペーンと広告グループの両方に割り当てられます。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: のオーディエンスの除外を設定および管理する方法について説明します。 [!DNL Google Ads] および [!DNL Microsoft® Advertising] キャンペーンと広告グループの両方に割り当てられます。
+exl-id: 0b05d980-d736-4b44-8317-c90de687dbd4
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -70,4 +72,3 @@ ht-degree: 0%
 >
 >* [オーディエンスについて](audience-about.md)
 >* [キャンペーンおよび広告グループのオーディエンスターゲットの管理](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
-

@@ -1,7 +1,9 @@
 ---
 title: 顧客コンポーネントからラベル分類値を削除
 description: ラベル分類値とアカウントコンポーネント間の関連付けを削除する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0e7ef344-7f23-40bc-9841-dc0354ad7f07
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -26,17 +28,17 @@ ht-degree: 0%
 
       * 各行の横にあるチェックボックスをオンにします。
 
-         複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
-      * データテーブルの上にあるツールバーで、 ![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、 **[!UICONTROL Classification]**.
+      * データテーブルの上にあるツールバーで、 ![その他](/help/search-social-commerce/assets/more.png "その他")をクリックし、 **[!UICONTROL Classification]**.
 
-1. 内 [!UICONTROL Assignment Details]を選択します。 **[!UICONTROL Remove]**.
+1. Adobe Analytics の [!UICONTROL Assignment Details]を選択します。 **[!UICONTROL Remove]**.
 
-1. 削除する分類値ごとに、次の操作を行います。
+1. 削除する分類の値ごとに、次の操作を行います。
 
-   * 内 **[!UICONTROL Classification]** 列で、分類名をクリックして展開します。
+   * Adobe Analytics の **[!UICONTROL Classification]** 」列で、分類名をクリックして展開します。
 
-   * 内 **[!UICONTROL Value Name]** 列で、値の名前をクリックして選択します。
+   * Adobe Analytics の **[!UICONTROL Value Name]** 列で、値の名前をクリックして選択します。
 
 1. （オプション）追加の詳細を入力します。
 
@@ -54,4 +56,3 @@ ht-degree: 0%
 >* [一括送信シートを使用して、勘定科目コンポーネントに分類値を割り当てます。](classification-values-assign-bulksheets.md)
 >* [ラベル分類値の削除](classification-values-delete.md)
 >* [ラベルの分類を削除](classification-delete.md)
-

@@ -1,7 +1,9 @@
 ---
 title: ツールバーからのデータフィルターの適用
 description: ツールバーからページデータをフィルタリングする方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 922cc148-e6dc-428b-a7f3-1da3780df326
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -28,18 +30,18 @@ ht-degree: 0%
 
          * （入力フィールドを含むフィルター）2 番目のメニューから演算子を選択し、適切な値を入力します。
 
-            例えば、[!UICONTROL Clicks]」列をクリックし、100 回を超えるクリック数の行のみを返す場合は、 *[!UICONTROL greater than]*」と入力し、 `100` を入力フィールドに入力します。
+           例えば、[!UICONTROL Clicks]」列をクリックし、100 回を超えるクリック数の行のみを返したい場合は、 *[!UICONTROL greater than]*」と入力し、 `100` を入力フィールドに入力します。
 
-            データタイプに応じて、使用可能な演算子は次のとおりです。 *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]*&#x200B;または *[!UICONTROL no date].*
+           データタイプに応じて、使用可能な演算子は次のとおりです。 *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]*&#x200B;または *[!UICONTROL no date].*
 
-            **注意：** テキスト値では大文字と小文字が区別されません。 例えば、名前に「loan」が含まれるキャンペーンでフィルターする場合、結果には「Consumer Loans」と「loan applications」が含まれます。
+           **注意：** テキスト値では大文字と小文字が区別されません。 例えば、名前に「loan」が含まれるキャンペーンでフィルターする場合、結果には「Consumer Loans」と「loan applications」が含まれます。
 
-         * ([!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Product Groups], [!UICONTROL Placements]、および [!UICONTROL Auto Targets] 表示のみ（オプション）設定を「[!UICONTROL Include rows with performance data only].&quot;
+         * ([!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Product Groups], [!UICONTROL Placements]、および [!UICONTROL Auto Targets] 表示のみ（オプション）設定を&quot;に変更します。[!UICONTROL Include rows with performance data only].&quot;
 
-            **警告：** このオプションの選択を解除し、パフォーマンスデータを持たない多数のエンティティがビューに含まれている場合、データの表示に時間がかかります。
+           **警告：** このオプションの選択を解除し、パフォーマンスデータを持たない多数のエンティティがビューに含まれている場合、データの表示に時間がかかります。
+
    * 既存のフィルタを編集するには、フィルタをクリックし、フィルタ定義を変更して、 ![フィルターを更新](/help/search-social-commerce/assets/select.png "フィルターを更新").
 
-   * 既存のフィルターを削除するには、 **[!UICONTROL X]** をクリックします。
-
+   * 既存のフィルターを削除するには、 **[!UICONTROL X]** フィルター定義の横に表示されます。
 
 1. クリック **[!UICONTROL Apply]**.

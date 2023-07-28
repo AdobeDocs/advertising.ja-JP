@@ -1,8 +1,9 @@
 ---
 title: '[!DNL Google Ads] コンバージョンデータ'
-description: 次のタイプについて説明します。 [!DNL Google Ads] — 検索、ソーシャル、コマースで使用できるコンバージョンデータ。
+description: 次のタイプについて説明します。 [!DNL Google Ads] — 検索、ソーシャル、コマースで使用できる追跡されたコンバージョンデータ。
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
-source-git-commit: 29cda72cac949663cd2df822cf7223335a14504d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Google Ads] 検索、ソーシャル、コマースのコンバージョンデータ
 
-検索、ソーシャル、コマースは自動的に同期します [!DNL Google Ads]- [!DNL Google Ads] 検索およびショッピングネットワークを検索、ソーシャル、コマースに分割し、レポートと最適化を行います。
+検索、ソーシャル、コマースは自動的に同期します [!DNL Google Ads] — 追跡したコンバージョンデータを [!DNL Google Ads] 検索およびショッピングネットワークを検索、ソーシャル、コマースに分割し、レポートと最適化を行います。
 
 すべての指標は、キャンペーン管理ビューと基本レポートで自動的に使用でき、ポートフォリオ目標で使用して最適化することもできます。
 
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 検索、ソーシャル、コマースの各データを同期し、「[!DNL Include in 'Conversions']「 」オプションが有効になり、過去 35 日間のデータをプルした後、09 までに毎日データに変更をプルする:00-10:広告主のタイムゾーンの 00。 履歴データは、クリックごとに新しいコンバージョンが追跡されるので、日々変化する場合があります。
 
-それぞれに最大 3 つのトランザクションプロパティ [[!DNL Google Ads]追跡されたコンバージョン](https://support.google.com/google-ads/answer/4677036) ( [!DNL Google Ads]) は、検索、ソーシャル、コマースで、 [!DNL Google Ads]. 各コンバージョンのトランザクションプロパティには、次のものがあります。
+それぞれに最大 3 つのトランザクションプロパティ [[!DNL Google Ads] — 追跡されたコンバージョン](https://support.google.com/google-ads/answer/4677036) ( [!DNL Google Ads]) は、検索、ソーシャル、コマースで、 [!DNL Google Ads]. 各コンバージョンのトランザクションプロパティには、次のものがあります。
 
 * `GGL*` — （追跡する場合）キーワードのコンバージョン値で、「GGL」プレフィックスで始まる値（GGL Purchase など）。
 
@@ -31,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 同じコンバージョン名を持つ複数のアカウントがある場合、Adobe Advertisingに重複したコンバージョン名が表示されることがあります。 この場合、 [表示名を変更する](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) の指標が重複している場合は、 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. 2 つの異なる指標の名前が同じ場合、レポートは正確ではありません。
+>* 同じコンバージョン名を持つ複数のアカウントがある場合、Adobe Advertisingに重複したコンバージョン名が表示されることがあります。 これが発生した場合、 [表示名を変更する](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) の指標が重複している場合は、 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. 2 つの異なる指標の名前が同じ場合、レポートは正確ではありません。
 >* 入札単位レベルのデータは、 [!DNL Google Ads] 同じレベルで しかし、 [!DNL Google Ads]上位レベルの「独自のコンバージョンデータ」には、子入札単位に関連付けられない追加のコンバージョンが含まれる場合があります。 検索、ソーシャル、コマースのデータは、常に入札単位レベルからロールアップされるので、例えば、キャンペーンレベルのレポートは、Google Ads のキャンペーンレベルのレポートと同じ合計にならない場合があります。
 >* 通常、データの相違は、追加のコンバージョンがまだ同期されていない場合の、午前の同期後の方が、当日の後半よりも少なくなります。 データの検証は、午前中におこなうことをお勧めします。
 >* ではコンバージョンデータを使用できません [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App]、および [!DNL YouTube] 広告。 でデータを比較する際に、これらのタイプの広告を除外する [!DNL Google Ads] 検索、ソーシャル、コマースのデータを含む
@@ -73,17 +74,17 @@ Social および Commerce の検索で、「表示」または「レポート」
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-1. データテーブルの上にあるツールバーで、 **[!UICONTROL Create Report]**&#x200B;をクリックし、 **[!UICONTROL Basic Reports]**&#x200B;をクリックし、 **[!UICONTROL Search Engine Account Report]**.
+1. データテーブルの上にあるツールバーで、 **[!UICONTROL Create Report]**、カーソルを上に置きます。 **[!UICONTROL Basic Reports]**&#x200B;をクリックし、 **[!UICONTROL Search Engine Account Report]**.
 
-1. 内 [!UICONTROL Report Settings] ウィンドウで、次のレポート設定を指定します。
+1. Adobe Analytics の [!UICONTROL Report Settings] ウィンドウで、次のレポート設定を指定します。
 
-   1. 内 **[!UICONTROL Conversions Based]** 「 」セクションで、「 」を選択します。 **[!UICONTROL Click date]**.
+   1. Adobe Analytics の **[!UICONTROL Conversions Based]** 「 」セクションで、「 」を選択します。 **[!UICONTROL Click date]**.
 
    1. 次の期間に使用したのと同じ日付範囲を指定します： [!DNL Google Ads] レポート。
 
-   1. 内 **[!UICONTROL Search/Content]** セクション、選択 **[!UICONTROL Search Only]**.
+   1. Adobe Analytics の **[!UICONTROL Search/Content]** セクション、選択 **[!UICONTROL Search Only]**.
 
-   1. 内 **[!UICONTROL Search Engine Hierarchy]** セクションで、 [!UICONTROL Google Adwords] 」セクションでアカウントを選択します。
+   1. Adobe Analytics の **[!UICONTROL Search Engine Hierarchy]** セクションで、 [!UICONTROL Google Adwords] 」セクションでアカウントを選択します。
 
    1. を開きます。 [!UICONTROL Columns] タブをクリックし、 [!DNL Google Ads] （「GGL」で始まる）指標を比較します。
 

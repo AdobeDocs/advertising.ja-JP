@@ -1,7 +1,9 @@
 ---
 title: cookie ベースのクリック追跡の設定
 description: クリックトラッキングタグを設定および検証する方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 340aec08-a1a5-4aa5-b666-9c819c1709d0
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -34,7 +36,7 @@ ht-degree: 0%
 
    1. の [!UICONTROL Tracking Type] 設定、選択 **[!UICONTROL EF Redirect]**.
 
-   1. ( 検索、Social、およびコマースで、Adobe Analyticsとの間でデータのやり取りを許可したり、 [!DNL Apple Safari]) [!UICONTROL Redirect Type] オプション **[!UICONTROL Token]**.
+   1. ( 検索、Social、およびコマースで、Adobe Analyticsとの間でデータのやり取りを許可したり、 [!DNL Apple Safari]) を選択します。 [!UICONTROL Redirect Type] オプション **[!UICONTROL Token]**.
 
    1. （オプション） **[!UICONTROL Auto Upload]** 」オプションを使用します。 この値は、アカウント内のすべてのキャンペーンのデフォルトとして継承されますが、キャンペーンレベルで上書きできます。
 
@@ -48,7 +50,7 @@ ht-degree: 0%
 
    1. の [!UICONTROL Tracking Type] 設定、選択 **[!UICONTROL EF Redirect]**.
 
-   1. ( 検索、Social、およびコマースで、Adobe Analyticsとの間でデータのやり取りを許可したり、 [!DNL Apple Safari]) [!UICONTROL Redirect Type] オプション **[!UICONTROL Token]**.
+   1. ( 検索、Social、およびコマースで、Adobe Analyticsとの間でデータのやり取りを許可したり、 [!DNL Apple Safari]) を選択します。 [!UICONTROL Redirect Type] オプション **[!UICONTROL Token]**.
 
    1. （オプション） **[!UICONTROL Auto Upload]** 」オプションを使用します。 この値は、アカウント内のすべてのキャンペーンのデフォルトとして継承されますが、キャンペーンレベルで上書きできます。
 
@@ -86,4 +88,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [クリック追跡 URL を生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
-

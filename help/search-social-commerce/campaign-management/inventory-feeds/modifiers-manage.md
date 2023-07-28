@@ -1,7 +1,9 @@
 ---
 title: 修飾子の管理
 description: 在庫データフィード用の広告テンプレートの修飾子を設定および管理する方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ade1472d-10e3-454e-8095-c579b48cfc01
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 各モディファイヤグループには、必要な数のモディファイヤを含めることができます。 各テンプレートで使用できるモディファイヤグループは 1 つだけです。
 
-## 修飾子グループを作成する
+## モディファイアグループを作成する
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
@@ -32,13 +34,13 @@ ht-degree: 0%
 
 1. クリック **[!UICONTROL Save]**.
 
-## モディファイアグループの編集
+## モディファイアグループを編集する
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. データテーブルの上にあるツールバーで、 **[!UICONTROL Modifiers]**.
 
-1. モディファイアグループのリストで、モディファイアグループ名をクリックします。
+1. モディファイア・グループのリストで、モディファイア・グループ名をクリックします。
 
 1. モディファイヤグループの設定を編集します。
 
@@ -52,7 +54,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->モディファイヤグループを削除すると、そのモディファイヤグループのすべての変数 ( `<modifier_group_name>`) を既存のテンプレートのフィールドから削除します。 存在しない修飾子の変数を使用してテンプレートにデータを伝播しようとすると、ジョブが失敗します 1。
+>モディファイヤグループを削除すると、そのモディファイヤグループのすべての変数 ( `<modifier_group_name>`) を既存のテンプレートのフィールドから削除します。 存在しない修飾子の変数を使用してテンプレートにデータを伝播しようとすると、ジョブは fail1 になります。
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
@@ -70,4 +72,3 @@ ht-degree: 0%
 >
 >* [在庫フィードについて](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
 >* [広告テンプレートの管理](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
-

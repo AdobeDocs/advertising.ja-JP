@@ -1,7 +1,9 @@
 ---
-title: '"[!DNL Google Ads] 動的検索広告設定の拡張'
+title: '''[!DNL Google Ads] 動的検索広告設定の拡張'
 description: 次の設定を参照してください： [!DNL Google Ads] 動的検索広告を拡張しました。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e7b3a4c2-1cdb-45d7-bf87-ca26947dd1a4
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Expanded Dynamic Search Ad Details]
 
-**[!UICONTROL Description Line 1], [!UICONTROL Description Line 2]:** 広告の本文。 2 行目はオプションです。 最大長は 80 文字です。
+**[!UICONTROL Description Line 1], [!UICONTROL Description Line 2]:** 広告の本文。 2 行目はオプションです。 最大長の合計は 80 文字です。
 
 <!-- **[!UICONTROL Status]:** -->
 
@@ -38,4 +40,3 @@ ht-degree: 0%
 >* [広告の管理](ad-manage.md)
 >* [[!DNL Google Ads] 呼び出しのみの広告設定](ad-settings-google-call.md)
 >* [[!DNL Google Ads] レスポンシブ検索広告設定](ad-settings-google-rsa.md)
-

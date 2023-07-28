@@ -1,7 +1,9 @@
 ---
 title: カスタム指標の作成
 description: 標準指標から計算されるカスタム指標の設定方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 14a768f5-3c7f-4e8e-bcd0-66b176052a25
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 1%
@@ -20,7 +22,7 @@ ht-degree: 1%
 
 1. 開いた列リストの下で、 ![新しいカスタム指標の作成](/help/search-social-commerce/assets/add.png) **[!UICONTROL Create New Custom Metric]**.
 
-1. 次を指定： [カスタム指標設定](custom-metric-settings.md).
+1. 次を指定します。 [カスタム指標設定](custom-metric-settings.md).
 
 1. クリック **[!UICONTROL Save]**.
 
@@ -30,7 +32,7 @@ ht-degree: 1%
 
 1. 右側のセクションで、 **[!UICONTROL Create]**.
 
-1. 次を指定： [カスタム指標設定](custom-metric-settings.md).
+1. 次を指定します。 [カスタム指標設定](custom-metric-settings.md).
 
 1. クリック **[!UICONTROL Submit]**.
 
@@ -42,7 +44,7 @@ ht-degree: 1%
 
 1. 右側のセクションで、 **[!UICONTROL Create]**.
 
-1. 次を指定： [カスタム指標設定](custom-metric-settings.md).
+1. 次を指定します。 [カスタム指標設定](custom-metric-settings.md).
 
 1. クリック **[!UICONTROL Submit]**.
 
@@ -52,4 +54,3 @@ ht-degree: 1%
 >* [カスタム指標の編集](custom-metric-edit.md)
 >* [カスタム指標の削除](custom-metric-delete.md)
 >* [カスタム指標設定](custom-metric-settings.md)
-

@@ -1,7 +1,9 @@
 ---
 title: 入札可能なキーワードの管理
 description: 検索広告グループの入札可能なキーワードを作成および管理する方法について説明します。
-source-git-commit: 77069de8ff3367a3ffa6f84583b4a69f37aab88b
+exl-id: c52364bf-a55a-444e-bde8-88d46c2f4813
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Baidu], [!DNL Google Ads] および [!DNL Microsoft® Advertising]、および [!DNL Yahoo! Japan Ads]、および [!DNL Yandex] アカウントのみ*
 
-で検索広告グループのキーワードを作成および編集できます。 [サポートされるキャンペーンタイプ](/help/search-social-commerce/introduction/supported-inventory.md) の [同期済み広告ネットワークアカウント](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
+で検索広告グループのキーワードを作成および編集できます。 [サポートされるキャンペーンタイプ](/help/search-social-commerce/introduction/supported-inventory.md) 検索およびディスプレイ/ネイティブネットワークをターゲットにする [同期済み広告ネットワークアカウント](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
 ## キーワードの作成
 

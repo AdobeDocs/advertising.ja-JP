@@ -1,7 +1,9 @@
 ---
-title: '"[!DNL Microsoft® Advertising] マルチメディア広告設定'
+title: '''[!DNL Microsoft® Advertising] マルチメディア広告設定'
 description: 次の設定を参照してください： [!DNL Microsoft® Advertising] マルチメディア広告。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b7ce413c-ee7a-420a-8791-e2666cc33eba
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Microsoft® Advertising] マルチメディア広告設定
 
-マルチメディア広告は検索ネットワーク上で利用できます。 広告ネットワークは、広告要素の最も効果的な組み合わせを使用して、マルチメディア広告を動的に組み立てます。
+マルチメディア広告は検索ネットワークで使用できます。 広告ネットワークは、広告要素の最も効果的な組み合わせを使用して、マルチメディア広告を動的に組み立てます。
 
 ## レスポンシブ広告の詳細
 
@@ -56,4 +58,3 @@ ht-degree: 0%
 >* [[!DNL Microsoft® Advertising] 製品広告設定](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] レスポンシブ（オーディエンス）広告設定](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft® Advertising] レスポンシブ検索広告設定](ad-settings-microsoft-rsa.md)
-

@@ -1,7 +1,9 @@
 ---
-title: '"[!DNL Google Ads] キーワード設定'
+title: '''[!DNL Google Ads] キーワード設定'
 description: 次の設定を参照してください： [!DNL Google Ads] キーワード。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8834e852-214b-4b2c-9a95-4b1c802e800d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -19,7 +21,7 @@ ht-degree: 0%
 **[!UICONTROL Keywords]:** キーワード（任意を含む） [!DNL Google Ads] キーワードとプレースホルダーの構文を一致させます。 [!DNL Google Ads] アカウントには次の属性を持つキーワードが必要です。
 
 * 1 つのキーワードの最大長は 80 文字で、10 語以下です。
-* キーワードに含めることができるのは、文字、数字、および次の特殊文字のみです。space `# $ & _ - " [] ' + . / :`
+* キーワードには、文字、数字、および次の特殊文字のみを含めることができます：スペース `# $ & _ - " [] ' + . / :`
 
 最大 2000 個のキーワードを入力または貼り付けることができます。 複数のキーワードをコンマで区切るか、複数のキーワードを複数の行に入力します。
 
@@ -27,7 +29,6 @@ ht-degree: 0%
 >
 >* 除外キーワードは、 [!UICONTROL Keywords] > [!UICONTROL Negatives] 広告グループとキャンペーンの設定で「 」と「 」を表示します。
 >* の変更 [!DNL Google Ads] キーワードまたは一致タイプは、既存のキーワードを削除し、新しいキーワードを作成します。
-
 
 **[!UICONTROL Status]:** キーワードの表示ステータス： *アクティブ* または *一時停止*. 新しいキーワードのデフォルトはです。 *アクティブ*.
 
@@ -60,4 +61,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

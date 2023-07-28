@@ -1,7 +1,9 @@
 ---
-title: " [!DNL Google Ads] account"
-description: の最新の s\_kwcid トラッキングコードに切り替える方法を説明します。 [!DNL Google Ads] アカウント
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+title: の s kwcid トラッキングコードを更新します。 [!DNL Google Ads] アカウント
+description: の最新の s\_kwcid トラッキングコードに切り替える方法を説明します。 [!DNL Google Ads] アカウント。
+exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # の s\_kwcid トラッキングコードを更新します。 [!DNL Google Ads] アカウント
 
-*AdobeAdvertising とAdobe Analyticsの統合のみの広告主*
+*Adobe AdvertisingとAdobe Analyticsの統合のみの広告主*
 
 *[!DNL Google Ads]アカウントのみ*
 
@@ -22,7 +24,7 @@ ht-degree: 0%
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-既存のアカウントの一部またはすべてに対して、新しい形式に個別に変更できます。 最大パフォーマンスキャンペーンまたはドラフト&amp;エクスペリメントキャンペーンがない場合、新しい形式への移行は任意です。
+既存のアカウントの一部またはすべてに対して、新しい形式に個別に変更できます。 最大パフォーマンスのキャンペーンまたはドラフト&amp;エクスペリメントキャンペーンがない場合、新しい形式への移行は任意です。
 
 すべて新規 [!DNL Google Ads] アカウントは、新しい s\_kwcid 形式を自動的に使用します。
 
@@ -49,7 +51,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 1. 移行を開始したら、必要に応じて、ランディングページサフィックス設定（一部の広告ネットワークでは「最終 URL サフィックス」と呼ばれる）を更新します。
 
    * 次の場合に [!UICONTROL Auto Upload]「 」機能がトラッキング設定で有効になっている場合、検索、ソーシャル、コマースは、このアカウントとそのキャンペーンのランディングページサフィックスに含まれるトラッキングコードを自動的に更新します。 あなたは何もする必要はありません。
-   * 次の場合に [!UICONTROL Auto Upload]」機能が有効ではなく、サーバー側の s-kwcid を使用していない場合は、「ランディングページサフィックス」設定で s\_kwcid パラメーターを手動で更新する必要があります。 アカウントレベルとキャンペーンレベルのサフィックスは、アカウントとキャンペーンの設定で手動で変更するか、バルクシートに変更をアップロードすることで変更できます。 広告グループレベル以下でサフィックスを設定するには、 [!DNL Google Ads] 編集者。
+   * 次の場合に [!UICONTROL Auto Upload]」機能が有効になっておらず、サーバー側の s-kwcid を使用していない場合は、「ランディングページサフィックス」設定で s\_kwcid パラメーターを手動で更新する必要があります。 アカウントレベルとキャンペーンレベルのサフィックスは、アカウントとキャンペーンの設定で手動で変更するか、バルクシートに変更をアップロードすることで変更できます。 広告グループレベル以下でサフィックスを設定するには、 [!DNL Google Ads] 編集者です。
    * 任意のキャンペーンコンポーネントのベース URL 設定に s\_kwcid を含める場合は、関連する「ランディングページサフィックス」設定に移動します。
 
 1. （推奨）追加のアカウントを移行する前に、Analytics でこのアカウントのデータを確認します。

@@ -1,7 +1,9 @@
 ---
 title: テンプレートからのレポートの生成
 description: レポートテンプレートを使用してレポートを作成する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 353e2a88-a3fc-4a53-afd4-b18b776357db
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 1%
@@ -25,6 +27,5 @@ ht-degree: 1%
 >* [レポートについて](/help/search-social-commerce/reports/report-about.md)
 >* [基本レポート設定と詳細レポート設定](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
 >* [モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
->* [特殊レポート設定](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [特殊なレポート設定](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
 >* [レポートの削除](/help/search-social-commerce/reports/management/report-delete.md)
-

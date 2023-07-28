@@ -3,7 +3,8 @@ title: の編集 [!DNL Google Analytics] データソース
 description: の設定を編集する方法を説明します。 [!DNL Google Analytics] データソース。
 role: User, Admin
 exl-id: a23444f7-8f4c-42ba-b5fe-a325fb18136d
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%

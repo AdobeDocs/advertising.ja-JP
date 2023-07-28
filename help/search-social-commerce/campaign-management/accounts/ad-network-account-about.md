@@ -1,7 +1,9 @@
 ---
 title: 広告ネットワークアカウントについて
 description: 検索、ソーシャル、コマースの広告ネットワークアカウントについて説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -41,4 +43,3 @@ ht-degree: 0%
 >* [広告ネットワークアカウントの管理](ad-network-account-manage.md)
 >* [マーチャントセンターアカウントの管理](merchant-account-manage.md)
 >* [の s\_kwcid トラッキングコードを更新します。 [!DNL Google Ads] アカウント](update-skwcid-google.md)
-

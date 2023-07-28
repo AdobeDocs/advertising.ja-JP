@@ -1,7 +1,9 @@
 ---
 title: キャンペーンのパフォーマンスの監視と管理
 description: 各キャンペーンとポートフォリオのパフォーマンスを監視し、目標に合わせて変更を加える方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf3d015f-a171-45f2-be92-94f19b30e5ce
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -38,11 +40,10 @@ Adobeアカウントチーム、代理店チームまたは広告主（SLA の�
 
 * （該当する場合）パフォーマンスを向上させ、成長の機会を活用するために、ポートフォリオ戦略を調整する。
 
-   詳細については、Search、Social、および Commerce から利用できる最適化ガイドを参照してください。<!-- verify convention for referencing Optimization Guide here -->
+  詳細については、Search、Social、および Commerce から利用できる最適化ガイドを参照してください。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >
 >* [検索、ソーシャル、コマースでのキャンペーン管理について](campaign-management-about.md)
 >* [広告ネットワークアカウントとキャンペーンの実装の概要](campaign-implemention-overview.md)
 >* [Search、Social、および Commerce のGoogle Ads コンバージョンデータ](google-conversion-data.md)
-

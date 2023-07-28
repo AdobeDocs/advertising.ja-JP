@@ -1,7 +1,9 @@
 ---
-title: クリック追跡 URL を生成
+title: クリック追跡 URL の生成
 description: 検索、ソーシャル、コマースのクリック追跡 URL を手動で生成する方法を説明します。
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+feature: Search Tools, Search Tracking
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # トラッキング URL ツールを使用して、検索、ソーシャル、およびコマースのクリックトラッキング URL を生成します
 
-*Adobe広告コンバージョントラッキングのみを持つ広告主*
+*コンバージョントラッキングのAdobe Advertisingを持つ広告主のみ*
 
 クリック追跡 URL を手動で生成して実装する必要があるタイミングについて詳しくは、[クリック追跡 URL を生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 1. リストから広告ネットワークアカウントを選択します。
 
-   ([!DNL Google Ads] キーワード；テキスト、モバイルアプリのインストール、動的検索広告。配置；sitelinks;および製品グループ ) トラッキングテンプレートフィールドのトラッキングタグが表示されます。 アカウントレベルの追加パラメーターは含まれていません。 手順 4 に進みます。
+   ([!DNL Google Ads] キーワード、テキスト、モバイルアプリインストール、動的検索広告、プレースメント、サイトリンク、製品グループ ) トラッキングテンプレートフィールドのトラッキングタグが表示されます。 アカウントレベルの追加パラメーターは含まれていません。 手順 4 に進みます。
 
    その他のタグタイプの場合は、タグを生成するための情報を入力します。
 
@@ -36,7 +38,7 @@ ht-degree: 0%
 
            場所 `landing_page` は、有効なランディングページ URL またはベース URL です。
 
-           例：http://www.example.com/travel.html
+           例： http://www.example.com/travel.html
 
          * ([!DNL Microsoft® Advertising] sitelinks) `sitelink <tab> ** <tab> landing_page`
 
@@ -60,7 +62,7 @@ ht-degree: 0%
 
            場所 `landing_page` は、有効なランディングページ URL またはベース URL です。
 
-           例：http://www.example.com/travel.html
+           例： http://www.example.com/travel.html
 
          * ([!DNL Microsoft® Advertising] sitelinks) `sitelink**landing_page`
 
@@ -72,7 +74,7 @@ ht-degree: 0%
 
            場所 `product name` は製品名で、 `landing_page` は、有効なランディングページ URL またはベース URL です。
 
-           例：Acme PR208**http://www.example.com/travel.html
+           例： Acme PR208**http://www.example.com/travel.html
 
    1. クリック **[!UICONTROL Generate Tracking URLs]**.
 
@@ -80,7 +82,7 @@ ht-degree: 0%
 
 リンク先 URL のアカウントの場合は、該当する [!UICONTROL Base URL] フィールド。
 
-最終的な URL を持つアカウントの場合は、該当する [!UICONTROL Tracking Template] フィールドに入力します。 最終 URL の、 `&url=` パラメータ ( `{lpurl}`) をクリックします。 の場合 [!DNL Yahoo! Japan Ads] アカウントの場合は、パラメーターを使用します。 `{lpurl}`. のリスト [!DNL Google Ads] および [!DNL Microsoft® Advertising] トラッキングテンプレートの最終 URL を示すパラメーターについては、 [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/6305348) ( 使用可能 [!DNL ValueTrack] パラメータ」) および [[!DNL Microsoft® Advertising] ドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+最終的な URL を持つアカウントの場合は、該当する [!UICONTROL Tracking Template] フィールドに入力します。 最終 URL のパラメーターを、 `&url=` パラメーター ( `{lpurl}`) をクリックします。 の場合 [!DNL Yahoo! Japan Ads] アカウントの場合は、パラメーターを使用します。 `{lpurl}`. のリスト [!DNL Google Ads] および [!DNL Microsoft® Advertising] トラッキングテンプレートの最終 URL を示すパラメーターについては、 [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/6305348) (「使用可能」 [!DNL ValueTrack] パラメーター」) および [[!DNL Microsoft® Advertising] ドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

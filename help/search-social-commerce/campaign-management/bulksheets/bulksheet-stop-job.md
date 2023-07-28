@@ -1,7 +1,9 @@
 ---
 title: 進行中のバルクシートジョブを停止します
 description: バルクシートジョブの処理中に停止する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bfdc3c65-8dfc-4683-a39d-05d40078fd2d
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -28,4 +30,3 @@ ht-degree: 0%
 >
 >* [バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
 >* [アップロードしたバルクシートとエラーファイルを削除](bulksheet-delete.md)
-

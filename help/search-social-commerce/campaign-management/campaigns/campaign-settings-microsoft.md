@@ -2,7 +2,8 @@
 title: '''[!DNL Microsoft Advertising] キャンペーン設定'
 description: 次の設定を参照してください： [!DNL Microsoft Advertising] キャンペーン。
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
-source-git-commit: f2889bbafc1b3cd3c467d94abae2ad1a52d0eaed
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search and Display Network]:* 検索ネットワーク上のテキスト広告のみを表示します。
 
-* *[!UICONTROL Shopping Network]:* お使いの製品の製品広告を表示します [!DNL Microsoft Merchant Center] 商品カタログ — ショッピングネットワーク上
+* *[!UICONTROL Shopping Network]:* お使いの製品の製品広告を表示します。 [!DNL Microsoft Merchant Center] 商品カタログ — ショッピングネットワーク上
 
 * *[!UICONTROL Audience]:* 上にネイティブ/ディスプレイ広告を表示 [!DNL Microsoft Audience Network]. (a) キャンペーンを [!UICONTROL Shopping Settings] セクションまたは b) テキストアセットとアップロードされた画像を使用してレスポンシブ広告を作成する。 どちらのオプションを使用する場合も、ユーザーターゲティングを持つ広告グループを作成する必要があります。
 
@@ -49,11 +50,11 @@ ht-degree: 0%
 
 * *[!UICONTROL Enhanced CPC]:* （オーディエンス、検索、ショッピングネットワークに関するキャンペーン）広告ネットワークの拡張クリック単価 (eCPC) モデルを使用して、広告ネットワーク内のコンバージョン（検索、ソーシャル、コマースではなく）を使用し、平均 CPC を下に保つ最大 CPC。
 
-eCPC を持つキャンペーンを最適化された検索、ソーシャル、コマースのポートフォリオに追加すると、検索、ソーシャル、コマースがベース入札を最適化し、[!UICONTROL Auto adjust campaign budget limits]「 」オプションは有効です — キャンペーンの予算です。 広告ネットワークは、すべての入札調整を最適化し、独自のデータとインサイトに基づいて、ユーザークエリの実行時に検索、ソーシャル、コマースで生成された入札を変更する場合があります。 **注意：** ポートフォリオで eCPC キャンペーンを使用するのは、広告ネットワークで追跡される合計コンバージョンがポートフォリオの目標と一致する場合のみです。
+eCPC を持つキャンペーンを最適化された検索、ソーシャル、コマースのポートフォリオに追加すると、検索、ソーシャル、コマースがベース入札を最適化し、「[!UICONTROL Auto adjust campaign budget limits]「 」オプションは有効です — キャンペーンの予算です。 広告ネットワークは、すべての入札調整を最適化し、独自のデータとインサイトに基づいて、ユーザークエリの実行時に検索、ソーシャル、コマースで生成された入札を変更する場合があります。 **注意：** ポートフォリオで eCPC キャンペーンを使用するのは、広告ネットワークで追跡される合計コンバージョンがポートフォリオの目標と一致する場合のみです。
 
-* *[!UICONTROL Manual CPC]* （デフォルト）:( 非推奨： [!DNL Microsoft Advertising] （2021 年） CPC（コストパークリック）モデルを使用します。 オプションで、広告ネットワークにキャンペーンの入札の変更を許可できます。
+* *[!UICONTROL Manual CPC]* （デフォルト）: ( 非推奨： [!DNL Microsoft Advertising] （2021 年） CPC（コストパークリック）モデルを使用します。 オプションで、広告ネットワークにキャンペーンの入札の変更を許可できます。
 
-   * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）:これは、[!UICONTROL Enhanced CPC]&quot;オプション。
+   * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）：これは、[!UICONTROL Enhanced CPC]&quot;オプション。
 
 * *[!UICONTROL Manual CPM]* （オーディエンスネットワーク上のキャンペーンのみ）1,000 件のインプレッションに費やす費用 (CPM) モデルを使用します。CPM モデルでは、1,000 件のインプレッションにつき使用する費用を指定します。 この入札戦略を使用するキャンペーンがポートフォリオに含まれる場合、最適化されません。
 
@@ -67,7 +68,7 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
   この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データを使用できません。
 
-* *[!UICONTROL Target Impression Share]:* （検索ネットワーク上のキャンペーン）検索、ソーシャル、コマースではなく、広告ネットワークは、ターゲットのインプレッション共有および広告の位置を達成するために、入札を最適化します。 必要に応じて、 **[!UICONTROL Target Impression Share]** パーセント **[!UICONTROL Target Ad Position]**、および **[!UICONTROL Max CPC]** （クリックあたりのコスト）。 **注意：** このオプションは、ハイブリッドポートフォリオではサポートされていません。
+* *[!UICONTROL Target Impression Share]:* （検索ネットワーク上のキャンペーン）検索、ソーシャル、コマースではなく、広告ネットワークは、ターゲットのインプレッション共有および広告の位置を達成するために、入札を最適化します。 必要に応じて、 **[!UICONTROL Target Impression Share]** パーセント、 **[!UICONTROL Target Ad Position]**、および **[!UICONTROL Max CPC]** （クリックあたりのコスト）。 **注意：** このオプションは、ハイブリッドポートフォリオではサポートされていません。
 
 * *[!UICONTROL Target Return on Ad Spend]:*  （検索およびショッピングネットワーク上のキャンペーン）検索、ソーシャル、コマースではなく、広告ネットワークは、ユーザーの **[!UICONTROL Target ROAS]** （広告費用対効果）。割合で指定します。 必要に応じて、 **[!UICONTROL Max CPC]** （クリックあたりのコスト）を使用して、広告ネットワークがクリックごとに特定の金額を超えないようにします。 **注意：** このオプションは、支出戦略を除くハイブリッドポートフォリオのキャンペーン（標準のポートフォリオではない）に使用します。 [!UICONTROL Weekly] または [!UICONTROL Google Target ROAS].
 
@@ -75,11 +76,11 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
 ## [!UICONTROL Shopping Settings]
 
-**[!UICONTROL Sales Country]:** ( 買い物キャンペーンのみ、既存のキャンペーンの読み取り専用 ) キャンペーンの製品が販売された国。 製品は対象国に関連付けられているので、この設定によってキャンペーンで広告される製品が決まります。
+**[!UICONTROL Sales Country]:** （買い物キャンペーンのみ、既存のキャンペーンの読み取り専用）キャンペーンの製品が販売される国。 製品は対象国に関連付けられているので、この設定によってキャンペーンで広告される製品が決まります。
 
 <!-- **[!UICONTROL Campaign Priority]:** -->
 
-**[!UICONTROL Link with Microsoft Merchant Center]:** ( オーディエンスキャンペーンのみ、（オプション）レスポンシブ広告ではなく、フィードベースの自動広告を提供する、特定のマーチャントセンターストアとキャンペーンをリンクします。 このオプションを選択する場合、 [!UICONTROL Merchant ID] および [!UICONTROL Products]. キャンペーン用の広告グループを作成する必要がありますが、広告を作成する必要はありません。
+**[!UICONTROL Link with Microsoft Merchant Center]:** （オーディエンスキャンペーンのみ、オプション）レスポンシブ広告ではなく、フィードベースの自動広告用に、キャンペーンを特定のマーチャントセンターストアにリンクします。 このオプションを選択する場合、 [!UICONTROL Merchant ID] および [!UICONTROL Products]. キャンペーン用の広告グループを作成する必要がありますが、広告を作成する必要はありません。
 
 キャンペーンをストアにリンクし、設定を保存した後は、このオプションを変更できません。
 
@@ -142,7 +143,7 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
 ## [!UICONTROL Negative Websites]
 
-**[!UICONTROL Negative Websites]:** ( ディスプレイ/ネイティブネットワーク上のキャンペーンのみ。（オプション）広告を表示したくないディスプレイネットワーク上のサイト。 有効な URL( 例： www.example.com) を入力します。 複数の文字列を指定するには、コンマで区切るか、複数の文字列を別々の行に入力します。
+**[!UICONTROL Negative Websites]:** （ディスプレイ/ネイティブネットワーク上のキャンペーンのみ、オプション）広告を表示したくないディスプレイネットワーク上のサイト。 有効な URL( 例： www.example.com ) を入力します。 複数の文字列を指定するには、コンマで区切るか、複数の文字列を別々の行に入力します。
 
 可用性について詳しくは、 Microsoft Advertising のヘルプで[特定の Web サイトに広告が表示されないようにする](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
@@ -180,7 +181,7 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
 ## [!UICONTROL Conversion Goals]
 
-**[!UICONTROL Conversion Goal]:** 次を実行するかどうか *[!UICONTROL Use account conversion goals for this campaign]* （デフォルト）または *[!UICONTROL Use campaign specific conversion goals]*. キャンペーンのコンバージョン目標を指定する場合は、使用可能なすべての目標のリストから目標を選択します。 **注意：** 目標は毎日同期されるので、過去 24 時間で作成した目標は一覧に表示されない場合があります。 リストを更新するには、次の手順に従います。 [広告ネットワークデータの手動同期](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+**[!UICONTROL Conversion Goal]:** 次のどちらを実行するか *[!UICONTROL Use account conversion goals for this campaign]* （デフォルト）または *[!UICONTROL Use campaign specific conversion goals]*. キャンペーンのコンバージョン目標を指定する場合は、使用可能なすべての目標のリストから目標を選択します。 **注意：** 目標は毎日同期されるので、過去 24 時間で作成した目標は一覧に表示されない場合があります。 リストを更新するには、次の手順に従います。 [広告ネットワークデータの手動同期](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
 
 キャンペーンがポートフォリオに含まれている場合は、ポートフォリオの目的と同じコンバージョン目標を使用します。 異なるコンバージョン目標を使用すると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
 

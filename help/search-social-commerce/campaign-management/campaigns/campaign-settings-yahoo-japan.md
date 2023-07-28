@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Yahoo! Japan Ads] キャンペーン設定"
+title: '''[!DNL Yahoo! Japan Ads] キャンペーン設定'
 description: 次の設定を参照してください： [!DNL Yahoo! Japan Ads] キャンペーン。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f728a880-27d8-478a-8480-a00b0fcab293
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 ## \[ キャンペーン作成画面\]
 
-**[!UICONTROL Campaign Type]:** （キャンペーンの作成時のみ使用可能）広告の配置場所：唯一の選択肢は *[!UICONTROL Search Network Only]* 検索ネットワーク上にテキスト広告を表示する。
+**[!UICONTROL Campaign Type]:** （キャンペーン作成時のみ使用可能）広告の配置場所：唯一のオプションは、 *[!UICONTROL Search Network Only]* 検索ネットワーク上にテキスト広告を表示する。
 
 ## [!UICONTROL Campaign Details]
 
@@ -30,7 +32,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Budget Options]
 
-**[!UICONTROL Budget]:** 予算は、1 日に費やす金額の平均です。 最低 1 日の予算は 100 円です。
+**[!UICONTROL Budget]:** 予算は、1 日に費やす金額の平均です。 1 日の予算の最小額は 100 円です。
 
 キャンペーン予算の制限が自動的に調整されるポートフォリオにこのキャンペーンを割り当てた場合、検索条件に応じて、指定した期間に指定した予算より多い、または少ない予算を実際に使用する可能性があります。
 
@@ -93,4 +95,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

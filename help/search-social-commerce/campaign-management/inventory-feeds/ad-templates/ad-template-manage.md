@@ -1,7 +1,9 @@
 ---
 title: 在庫フィード用の広告テンプレートの管理
 description: アカウント構造を管理し、動的な広告を配信するために在庫データを処理できる広告テンプレートの管理について説明します。
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+exl-id: b26fc32a-76bc-470a-8ce5-fbaad4b3ca71
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1415'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] （アクションの削除のみ）および [!DNL Yandex] アカウントのみ*
 
-データをアップロードする前または後に、データを処理するための検索エンジン固有の広告テンプレートを作成できます。 テキスト広告および拡張テキスト広告用のテンプレートを作成できます。 [!DNL Google Ads] および [!DNL Microsoft® Advertising] レスポンシブ検索広告および [!DNL Google Ads] および [!DNL Microsoft® Advertising] ショッピング広告。
+データをアップロードする前または後に、データを処理するための検索エンジン固有の広告テンプレートを作成できます。 テキスト広告および拡張テキスト広告用のテンプレートを作成できます。 [!DNL Google Ads] および [!DNL Microsoft® Advertising] レスポンシブ検索広告および [!DNL Google Ads] および [!DNL Microsoft® Advertising] 買い物広告。
 
 各テンプレートを 1 つのフィードファイルに関連付けることができます。 [!DNL Google Merchant Center] アカウント、または [!DNL Microsoft® Merchant Center] アカウントに関連付け、複数のテンプレートを同じフィードファイルまたはアカウントに関連付けることができます。 広告テンプレートには、変数を含めることができます。変数は、アップロードされたファイルやアカウントの実際のデータ列に置き換えられます。 ほとんどの場合、変数には [修飾子グループ](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 検索、ソーシャル、コマースでを設定し、データファイルの該当する行ごとに、複数の広告、キーワード、キャンペーンまたは広告グループを作成します。 テンプレートオプションを使用すると、広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成したり、広告を既存のアカウント構造にマッピングしたりできます。
 
@@ -24,9 +26,9 @@ ht-degree: 0%
 
 ## フィードテンプレートの作成、複製、編集
 
-テキスト広告と拡張テキスト広告、レスポンシブ検索広告に対して別々のテンプレートを作成する。 [!DNL Google Ads] 買い物広告、 [!DNL Microsoft® Advertising] ショッピング広告。
+テキスト広告と拡張テキスト広告、レスポンシブ検索広告に対して別々のテンプレートを作成する。 [!DNL Google Ads] 買い物広告、および [!DNL Microsoft® Advertising] 買い物広告。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;は、 [!UICONTROL Templates] タブをクリックします。
+1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**（が開きます） [!UICONTROL Templates] タブをクリックします。
 
 1. 次のいずれかの操作を行います。
 
@@ -40,7 +42,7 @@ ht-degree: 0%
 
    * （既存のテンプレートを編集するには）テンプレート名の横にある ![設定を表示/編集](/help/search-social-commerce/assets/settings.png "設定を表示/編集").
 
-1. 次の項目の設定を指定します。 [テキスト広告テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] ショッピング広告テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)または [[!DNL Microsoft® Advertising] ショッピング広告テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
+1. 次の項目の設定を指定します。 [テキスト広告テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] 買い物広告テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)または [[!DNL Microsoft® Advertising] 買い物広告テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
    1. テンプレート設定ウィンドウの上部で、テンプレート名と適切なアカウントを指定します。
 
@@ -54,9 +56,9 @@ ht-degree: 0%
 
       選択したファイルまたはアカウントの列が表示されます。
 
-   1. の **[!UICONTROL Account Structure]** タブで、アカウント構造の設定を指定します。
+   1. 次の日： **[!UICONTROL Account Structure]** 「 」タブで、アカウント構造の設定を指定します。
 
-   1. （テキスト広告のみ） **[!UICONTROL Keywords]** 」タブで、キーワード設定を指定します。
+   1. （テキスト広告のみ） **[!UICONTROL Keywords]** 」タブをクリックし、キーワード設定を指定します。
 
    1. （テキストおよびレスポンシブ検索広告のみ） **[!UICONTROL Ads]** 」タブに移動し、次のいずれかの操作を行います。
 
@@ -79,11 +81,11 @@ ht-degree: 0%
 
          1. （オプション）すべての代替広告コピーフィールドに、元の広告コピーフィールドのテキストを事前入力するには、の横にあるチェックボックスをオンにします。 **[!UICONTROL Prefill]**.
 
-         1. （オプション）広告に別の広告コピーのセットを追加する場合は、伝播中に動的パラメーターがデータで置き換えられた後で、元の広告コピーの行のいずれかが最大長を超えた場合に、 **[!UICONTROL Add Alternate]**&#x200B;をクリックし、別の値を追加します。
+         1. （オプション）広告に別の広告コピーのセットを追加する場合は、伝播中に動的パラメーターがデータで置き換えられた後で、元の広告コピーの行のいずれかが最大長を超えた場合に使用できます。 **[!UICONTROL Add Alternate]**&#x200B;をクリックし、別の値を追加します。
 
             >[!NOTE]
             >
-            >* この [!UICONTROL Prefill] 「 」オプションを選択した場合、代替フィールドには元のフィールドが事前に入力され、必要に応じて編集できます。
+            >* 次の場合、 [!UICONTROL Prefill] 「 」オプションを選択した場合、代替フィールドには元のフィールドが事前に入力され、必要に応じて編集できます。
             >* 最大長を超える広告コピーフィールドのみが代替値に置き換えられます。 例えば、元のヘッドラインまたはタイトルのみが長すぎる場合、生成される広告バリエーションは、別のヘッドラインまたはタイトルと元の説明を使用します。 したがって、元の広告コピーと組み合わせると、代替広告コピーが意味を持つようにします。
             >* 元の広告コピーが検索エンジンの長さの要件を満たす場合、代替広告コピーは破棄されます。
             >* 各広告コピーフィールドには、最大 4 つの代替を指定できます。
@@ -96,11 +98,11 @@ ht-degree: 0%
 
             1. （オプション）すべての代替広告コピーフィールドに、元の広告コピーフィールドのテキストを事前入力するには、の横にあるチェックボックスをオンにします。 **[!UICONTROL Prefill]**.
 
-            1. （オプション）広告に別の広告コピーのセットを追加する場合は、伝播中に動的パラメーターがデータで置き換えられた後で、元の広告コピーの行のいずれかが最大長を超えた場合に、 **[!UICONTROL Add Alternate]**&#x200B;をクリックし、別の値を追加します。
+            1. （オプション）広告に別の広告コピーのセットを追加する場合は、伝播中に動的パラメーターがデータで置き換えられた後で、元の広告コピーの行のいずれかが最大長を超えた場合に使用できます。 **[!UICONTROL Add Alternate]**&#x200B;をクリックし、別の値を追加します。
 
                >[!NOTE]
                >
-               >* この [!UICONTROL Prefill] 「 」オプションを選択した場合、代替フィールドには元のフィールドが事前に入力され、必要に応じて編集できます。
+               >* 次の場合、 [!UICONTROL Prefill] 「 」オプションを選択した場合、代替フィールドには元のフィールドが事前に入力され、必要に応じて編集できます。
                >* 最大長を超える広告コピーフィールドのみが代替値に置き換えられます。 例えば、元のヘッドラインまたはタイトルのみが長すぎる場合、生成される広告バリエーションは、別のヘッドラインまたはタイトルと元の説明を使用します。 したがって、元の広告コピーと組み合わせると、代替広告コピーが意味を持つようにします。
                >* 元の広告コピーが検索エンジンの長さの要件を満たす場合、代替広告コピーは破棄されます。
                >* 各広告コピーフィールドには、最大 4 つの代替を指定できます。
@@ -135,7 +137,7 @@ ht-degree: 0%
 >
 >一時停止したテンプレートを介して手動でデータを伝達できますが、データは一時停止を介して自動的に伝達されるわけではありません。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;は、 [!UICONTROL Templates] タブをクリックします。
+1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**（が開きます） [!UICONTROL Templates] タブをクリックします。
 
 1. ステータスを変更する各テンプレートの横にあるチェックボックスをオンにします。
 
@@ -143,7 +145,7 @@ ht-degree: 0%
 
 ## フィードテンプレートを削除
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;は、 [!UICONTROL Templates] タブをクリックします。
+1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**（が開きます） [!UICONTROL Templates] タブをクリックします。
 
 1. 削除する各テンプレートの横にあるチェックボックスをオンにします。
 

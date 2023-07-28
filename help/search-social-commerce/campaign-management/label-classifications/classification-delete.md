@@ -1,7 +1,9 @@
 ---
 title: ラベルの分類を削除
-description: ラベル分類を削除する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: ラベルの分類を削除する方法を説明します。
+exl-id: 4d00bda7-e3a6-4558-b818-5ccd45d0eb5b
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->分類値をアカウントコンポーネントから単に関連付け解除するには、[キャンペーンコンポーネントから分類値を削除](classification-values-remove.md).&quot;
+>分類値をアカウントコンポーネントから単に関連付け解除するには、[キャンペーンコンポーネントから分類値を削除する](classification-values-remove.md).&quot;
 
 1. クリック **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 
@@ -38,4 +40,3 @@ ht-degree: 0%
 >* [一括送信シートを使用して、勘定科目コンポーネントに分類値を割り当てます。](classification-values-assign-bulksheets.md)
 >* [顧客コンポーネントからラベル分類値を削除](classification-values-remove.md)
 >* [ラベル分類値の削除](classification-values-delete.md)
-

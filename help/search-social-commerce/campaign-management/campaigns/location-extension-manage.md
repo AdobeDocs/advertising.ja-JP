@@ -1,7 +1,9 @@
 ---
 title: 管理 [!DNL Google Ads] 場所の拡張
 description: 作成および管理方法を学ぶ [!DNL Google Ads] 場所の拡張。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1a1aeb51-563e-453e-bd6f-ea1fa31b8f37
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 場所の拡張には、会社の住所、クリック可能な電話番号、およびテキスト広告を含むマップマーカーが表示されます。 モバイルデバイスに表示される広告には、ビジネスへの道筋とのリンクが含まれます。 [!DNL Google Ads] 場所の拡張機能は、の情報を使用します。 [リンク [!DNL Google My Business] アカウント](https://support.google.com/google-ads/answer/2404182).
 
-場所の拡張は、キャンペーンレベルと広告グループレベルの両方で作成できます。 キャンペーンまたは広告グループに複数の場所の拡張がある場合、広告ネットワークには、ユーザーに最も近い場所の拡張が表示されます。 オプションで、特定の [!DNL Google Ads] キャンペーンおよび広告グループを場所拡張設定から選択できます。
+場所の拡張は、キャンペーンレベルと広告グループレベルの両方で作成できます。 キャンペーンまたは広告グループに複数の場所の拡張がある場合、広告ネットワークには、ユーザーに最も近い場所の拡張が表示されます。 オプションで、特定ののすべての場所の拡張を無効にすることができます [!DNL Google Ads] キャンペーンおよび広告グループを場所拡張設定から選択できます。
 
 ## 場所の拡張のパフォーマンスデータ
 
@@ -28,11 +30,11 @@ ht-degree: 0%
 
 1. 広告ネットワークとアカウント名を選択し、 **[!UICONTROL Continue]**.
 
-1. 次を指定： [場所拡張の設定](#location-extension-settings):
+1. 次を指定します。 [場所拡張の設定](#location-extension-settings):
 
-   * 内 [!UICONTROL Location Settings] セクションで、場所を指定します。
+   * Adobe Analytics の [!UICONTROL Location Settings] 「 」セクションで、場所を指定します。
 
-   * 内 [!UICONTROL Assignment] セクションで、ロケーション設定を適用できるキャンペーンおよび広告グループを選択します。
+   * Adobe Analytics の [!UICONTROL Assignment] セクションで、ロケーション設定を適用できるキャンペーンおよび広告グループを選択します。
 
 1. クリック **[!UICONTROL Post]**.
 
@@ -44,11 +46,11 @@ ht-degree: 0%
 
 1. 広告ネットワークとアカウント名を選択し、 **[!UICONTROL Continue]**.
 
-1. 次を指定： [場所拡張の設定](#location-extension-settings):
+1. 次を指定します。 [場所拡張の設定](#location-extension-settings):
 
-   * 内 [!UICONTROL Location Settings] セクション、選択 **[!UICONTROL Disable Locations]**.
+   * Adobe Analytics の [!UICONTROL Location Settings] セクション、選択 **[!UICONTROL Disable Locations]**.
 
-   * 内 [!UICONTROL Assignment] セクションで、ロケーション設定を適用できるキャンペーンおよび広告グループを選択します。
+   * Adobe Analytics の [!UICONTROL Assignment] セクションで、ロケーション設定を適用できるキャンペーンおよび広告グループを選択します。
 
 1. クリック **[!UICONTROL Post]**.
 

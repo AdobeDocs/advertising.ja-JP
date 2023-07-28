@@ -1,7 +1,9 @@
 ---
 title: 必要システム構成
 description: ソフトウェアとアカウントの要件について説明します。
-source-git-commit: c7c1735f9459012ade5039e64e55d10343f8d0af
+exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -16,17 +18,17 @@ ht-degree: 0%
 
 * 次のブラウザーのいずれか。
 
-   * [!DNL Apple Safari] ( [!DNL Safari] 対象 [!DNL iOS]) 10 以降
+   * [!DNL Apple Safari] （次を含む） [!DNL Safari] 対象： [!DNL iOS]) 10 以降
 
    * [!DNL Google Chrome] 103 以降
 
    * [!DNL Microsoft Edge] 104 以降
 
-   * [!DNL Mozilla Firefox] 102 以降 [!DNL Mozilla Firefox Extended Support Release] 91.11 以降
+   * [!DNL Mozilla Firefox] 102 以上 [!DNL Mozilla Firefox Extended Support Release] 91.11 以降
 
 * （XLS 形式で書き出したファイルを表示するには） [!DNL Microsoft Excel] 推奨
 
-   次以外のアプリケーションを使用する場合： [!DNL Microsoft Excel] 書き出された XLS ファイルを表示するには、数値、日付、時刻、通貨の形式が正しくない場合があります。
+  次以外のアプリケーションを使用する場合： [!DNL Microsoft Excel] 書き出された XLS ファイルを表示するには、数値、日付、時刻、通貨の形式が正しくない場合があります。
 
 ## ユーザー名とパスワード
 

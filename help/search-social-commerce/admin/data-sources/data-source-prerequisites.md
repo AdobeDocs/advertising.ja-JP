@@ -3,7 +3,8 @@ title: の設定の前提条件 [!DNL Google Analytics] データソース
 description: を設定する前に完了する必要がある手順について説明します。 [!DNL Google Analytics] データソース。
 role: User, Admin
 exl-id: cbb2ad6d-8494-4fa4-928c-238b25bda3a6
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -12,37 +13,37 @@ ht-degree: 0%
 
 # の設定の前提条件 [!DNL Google Analytics] データソース
 
-事前に [!DNL Google Analytics] データソースを使用する場合は、データを渡す主キーとして、Search、Social および&amp; Commerce クエリー文字列パラメーター&quot;ef_id&quot;を設定する必要があります。 [!DNL Google Analytics] 検索、ソーシャル、コマースに追加します。 それぞれにプライマリキーを設定 [!DNL Google Analytics] 同期するデータのアカウントとプロパティの組み合わせ。 組織内の他のユーザーがこれらのタスクを完了する必要が生じる場合があります。詳しくは、以下を参照してください。
+事前に [!DNL Google Analytics] データソースを使用する場合は、データを渡す主キーとして、Search、Social および&amp; Commerce クエリー文字列パラメーター&quot;ef_id&quot;を設定する必要があります。 [!DNL Google Analytics] 検索、ソーシャル、コマースに追加します。 それぞれにプライマリキーを設定 [!DNL Google Analytics] 同期するデータのアカウントとプロパティの組み合わせ。 組織内の他のユーザーが、これらのタスクを完了する必要がある場合があります。詳しくは、以下を参照してください。
 
-広告やキーワードのランディングページ URL に検索、ソーシャル、コマースのリダイレクトが含まれていない場合は、最初に追加します。
+広告やキーワードのランディングページ URL に検索、ソーシャル、コマースのリダイレクトが含まれていない場合は、最初にそれらを追加します。
 
-## 前提条件 1:すべての適用可能な広告アカウント用のランディングページ URL に検索、ソーシャル、コマーストークン（「ef_id」クエリー文字列パラメーター）を実装する
+## 前提条件 1：すべての適用可能な広告アカウントのランディングページ URL に検索、ソーシャル、コマーストークン（「ef_id」クエリー文字列パラメーター）を実装する
 
-各有料検索で、関連するキャンペーンをクリックすると、 `ef_id` は、生成され、次のようなクエリ文字列としてランディングページ URL に追加される必要があります。 `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s`で、 `&ef_id=abcde:123456789:s` は追加記号で、 `ef_id` キーと `ef_id` の値です。 ef_id を含めるには、関連する広告ネットワークアカウントおよびキャンペーンに [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]「と [!UICONTROL Redirect Type] &quot;[!UICONTROL Token].&quot;
+各有料検索で、関連するキャンペーンをクリックすると、 `ef_id` は、生成され、次のようなクエリ文字列としてランディングページ URL に追加される必要があります。 `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s`です。 `&ef_id=abcde:123456789:s` は追加記号で、 `ef_id` キーと `ef_id` の値です。 ef_id を含めるには、関連する広告ネットワークアカウントおよびキャンペーンに [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]「と [!UICONTROL Redirect Type] &quot;[!UICONTROL Token].&quot;
 
 既存のアカウントおよびキャンペーンの場合、ef_id は既に実装されている可能性があります。
 
 ef_id が含まれていない場合は、担当のAdobeアカウントチームに質問してください。
 
-すべての前提条件が完了したら、 `ef_id` は、からデータを渡すためのプライマリキーとして使用されます [!DNL Google Analytics] 検索、ソーシャル、コマースに追加します。
+すべての前提条件が完了したら、 `ef_id` は、からデータを渡すためのプライマリキーとして使用されます。 [!DNL Google Analytics] 検索、ソーシャル、コマースに追加します。
 
-## 前提条件 2:各関連するカスタムディメンションに検索、ソーシャル、コマースのトークン（「ef_id」クエリー文字列パラメーター）を取り込む [!DNL Google Analytics] プロパティ
+## 前提条件 2：検索、ソーシャル、コマースの各トークン（「ef_id」クエリー文字列パラメーター）を、関連する各項目のカスタムディメンションに取り込む [!DNL Google Analytics] プロパティ
 
 それぞれに対して、次のタスクを繰り返します [!DNL Google Analytics] データを同期するアカウントとプロパティの組み合わせ。 詳しくは、 [[!DNL Google Analytics] カスタムディメンションの作成と実装に関するドキュメント](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article) を参照してください。
 
-1. In [!DNL Google Analytics]、「`ef_id`&quot;. ディメンションの範囲をに設定します。 [!DNL User]をクリックし、次元をアクティブに設定します。
+1. In [!DNL Google Analytics]、「 」という名前のカスタムディメンションを作成します。`ef_id`&quot;. ディメンションの範囲をに設定します。 [!DNL User]をクリックし、次元をアクティブに設定します。
 
    >[!NOTE]
    >
    >この前提条件では、関連するプロパティの編集権限が必要です。
 
-1. の更新 [!DNL Google Analytics] トラッキングコードを使用して、ef_id クエリー文字列パラメーターの値をランディングページの URL に存在する場合にその値を取り込み、ef_id カスタムディメンションに保存します。
+1. を更新します。 [!DNL Google Analytics] トラッキングコードを使用して、ef_id クエリー文字列パラメーターの値をランディングページの URL に存在する場合にその値を取り込み、ef_id カスタムディメンションに保存します。
 
    >[!NOTE]
    >
    >ef_id はランディングページの URL にのみ使用してください。
 
-   例えば、ランディングページの URL が `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`の場合は、 [!DNL Google Analytics] が `abcde:123456789:s`.
+   例えば、ランディングページの URL が `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`の場合は、ef_id ディメンションの値を [!DNL Google Analytics] 次に該当 `abcde:123456789:s`.
 
    >[!NOTE]
    >

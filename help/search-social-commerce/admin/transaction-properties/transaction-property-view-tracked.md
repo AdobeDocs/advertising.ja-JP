@@ -1,7 +1,9 @@
 ---
 title: 広告主でトラッキングされているトランザクションプロパティの表示
 description: 広告主でトラッキングされるトランザクションプロパティのリストを表示する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 56f5b480-9e75-47a0-8f88-8fa8fcfe23f9
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 広告主でトラッキングされているトランザクションプロパティの表示
 
-すべての [トランザクションプロパティ](/help/search-social-commerce/glossary.md#s-t) Adobe広告が広告主でトラッキングされている
+すべての [トランザクションプロパティ](/help/search-social-commerce/glossary.md#s-t) そのAdobe Advertisingは広告主で追跡されています。
 
 * メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
 
@@ -25,4 +27,3 @@ ht-degree: 0%
 >* [広告主のトランザクションプロパティの管理について](transaction-property-about.md)
 >* [管理ビューとレポートで使用可能なトランザクションプロパティの変更](transaction-property-edit-available.md)
 >* [トランザクションプロパティの表示名を変更する](transaction-property-edit-display-name.md)
-

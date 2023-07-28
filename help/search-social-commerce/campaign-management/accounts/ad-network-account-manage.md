@@ -1,7 +1,9 @@
 ---
 title: 広告ネットワークアカウントの管理
 description: 広告ネットワークアカウントのアカウントの詳細を設定および管理する方法について説明します。
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -26,17 +28,17 @@ ht-degree: 0%
 
 1. データテーブルの上にあるツールバーで、 ![作成](/help/search-social-commerce/assets/add.png "作成").
 
-1. 次を指定： [アカウント設定](#account-settings):
+1. 次を指定します。 [アカウント設定](#account-settings):
 
    1. 広告ネットワークの名前をクリックし、 **[!UICONTROL Next]**.
 
-   1. 内 **[!UICONTROL Account Details]** 「 」セクションで、アカウントの詳細を入力します。
+   1. Adobe Analytics の **[!UICONTROL Account Details]** 「 」セクションで、アカウントの詳細を入力します。
 
-      ログイン認証タイプ「 」を使用する広告ネットワークの場合[!UICONTROL oAuth]、「 [OAuth 認証プロトコル](https://oauth.net/2/):
+      ログイン認証タイプ「 」を使用する広告ネットワークの場合[!UICONTROL oAuth]」と表示された場合、「 [OAuth 認証プロトコル](https://oauth.net/2/):
 
-      1. 次を入力します。 **[!UICONTROL Login]** アカウントの値（オプション）、パスワードを入力し、 **[!UICONTROL Authenticate]**.
+      1. 次を入力します。 **[!UICONTROL Login]** アカウントの値（オプション）、パスワードを入力し、「 **[!UICONTROL Authenticate]**.
 
-         ベストプラクティスは、アカウントへの API アクセスにログインを使用することです。 パスワードを入力して保存し、必要に応じてAdobeアカウントチームがトークンを更新できるようにします。
+         ベストプラクティスは、アカウントへの API アクセスにログインを使用することです。 パスワードを暗号化して保存する場合は、パスワードを入力し、Adobeアカウントチームが必要に応じてトークンを更新できるようにします。
 
       1. （広告主のアカウントにログインしていない場合）広告主の広告アカウントにログインします。 ベストプラクティスは、アカウントへの API アクセスに資格情報を使用することです。
 
@@ -46,7 +48,7 @@ ht-degree: 0%
 
       1. 残りのアカウントの詳細を指定します。
 
-   1. クリック **[!UICONTROL Set Account Tracking]**、トラッキング設定を入力します。
+   1. クリック **[!UICONTROL Set Account Tracking]**&#x200B;をクリックし、トラッキング設定を入力します。
 
 1. クリック **[!UICONTROL Post]**.
 
@@ -64,7 +66,7 @@ ht-degree: 0%
 
 1. メインメニューで、 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
-1. アカウント名の上にカーソルを置き、 ![詳細](/help/search-social-commerce/assets/more-filters.png "詳細")を選択し、 **[!UICONTROL Edit]**.
+1. アカウント名の上にカーソルを置き、 ![その他](/help/search-social-commerce/assets/more-filters.png "その他")を選択し、 **[!UICONTROL Edit]**.
 
 1. を編集します。 [アカウント設定](#account-settings):
 
@@ -90,7 +92,7 @@ ht-degree: 0%
 
 1. メインメニューで、 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
-1. アカウント名の上にカーソルを置き、 ![詳細](/help/search-social-commerce/assets/more-filters.png "詳細")を選択し、 **[!UICONTROL Edit]**.
+1. アカウント名の上にカーソルを置き、 ![その他](/help/search-social-commerce/assets/more-filters.png "その他")を選択し、 **[!UICONTROL Edit]**.
 
 1. 新しいアクセストークンを取得する：
 
@@ -114,11 +116,11 @@ ht-degree: 0%
 
 1. 次のいずれかの操作を行います。
 
-   * （1 つのアカウントのステータスを変更する場合）アカウント名の上にカーソルを置いたまま、 ![詳細](/help/search-social-commerce/assets/more-filters.png "詳細")を選択し、 **[!UICONTROL Edit]**. を **[!UICONTROL Status]** から *有効* または *無効*&#x200B;をクリックし、 **[!UICONTROL Post]**.
+   * （1 つのアカウントのステータスを変更する場合）アカウント名の上にカーソルを置いたまま、 ![その他](/help/search-social-commerce/assets/more-filters.png "その他")を選択し、 **[!UICONTROL Edit]**. 次を変更： **[!UICONTROL Status]** から *有効* または *無効*&#x200B;をクリックし、 **[!UICONTROL Post]**.
 
    * （1 つ以上のアカウントのステータスを変更するには）次の操作を行います。
 
-      1. 各アカウントの横にあるチェックボックスを選択します。
+      1. 各アカウントの横にあるチェックボックスをオンにします。
 
          複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
@@ -128,11 +130,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->代理店のアカウントマネージャーのみ [!DNL Adobe] アカウントマネージャーおよび管理者ユーザーは、アカウント設定を構成できます。
+>代理店のアカウントマネージャーのみ、 [!DNL Adobe] アカウントマネージャーおよび管理者ユーザーは、アカウント設定を構成できます。
 
 ### アカウントの詳細
 
-**[!UICONTROL SE Account ID]:** ( 以下を除くすべてのアカウント [!DNL Naver] および [!DNL Yandex] アカウント新規アカウントのみ編集可能 ) 広告ネットワークによって割り当てられるアカウント ID。
+**[!UICONTROL SE Account ID]:** ( 以下を除くすべてのアカウント [!DNL Naver] および [!DNL Yandex] アカウント。新しいアカウントのみ編集可能 ) 広告ネットワークによって割り当てられるアカウント ID。
 
 >[!NOTE]
 >
@@ -144,9 +146,9 @@ ht-degree: 0%
 >
 >検索、ソーシャル、およびコマース — Adobe Analyticsの統合があり、検索アカウントの名前を変更した場合は、Adobeのアカウントチームに通知して、マッピングを更新できるようにします。
 
-**[!UICONTROL Login Details]:\[ ログインタイプ\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] （のみ）次を使用して、アカウントへのログインを承認するかどうかを指定します。
+**[!UICONTROL Login Details]: \[ ログインタイプ\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] （のみ）次を使用して、アカウントへのログインを承認するかどうかを指定します。
 
-* *[!UICONTROL oAuth]* （デフォルト）:次の手順で [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/).
+* *[!UICONTROL oAuth]* （デフォルト）: [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/).
 
 * *[!UICONTROL Password]:* クライアントのパスワードを使用する場合。
 
@@ -154,23 +156,23 @@ ht-degree: 0%
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** ( 以下を除くすべての広告ネットワーク [!DNL Naver]) アカウントへの API アクセスを有効にするためのログイン名または ID。
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth] — 有効および以外のすべてのネットワーク [!DNL Baidu], [!DNL Meta]、および [!DNL Yandex]) [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth] — 有効および以外のすべてのネットワーク [!DNL Baidu], [!DNL Meta]、および [!DNL Yandex]) を使用してログインを許可するアカウントのトークン ( [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** ( 以下を除くすべての広告ネットワーク [!DNL Naver]) アカウントのパスワードです。 パスワードが有効なアカウントの場合： [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]、および [!DNL Yandex]の場合、このフィールドは必須です。 の場合 [!DNL oAuth]有効なアカウントの場合、このフィールドはオプションです。アカウントマネージャーが必要に応じてトークンを更新できるように、パスワードを暗号化して保存する場合に使用します。
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** ( 以下を除くすべての広告ネットワーク [!DNL Naver]) アカウントのパスワードです。 パスワードが有効なアカウントの場合： [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]、および [!DNL Yandex]の場合、このフィールドは必須です。 の場合 [!DNL oAuth]有効なアカウントの場合、このフィールドはオプションです。アカウントマネージャーがトークンを必要に応じて更新できるように、パスワードを暗号化して保存する場合に使用します。
 
 **[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Baidu] および [!DNL Yandex] アカウントのみ ) 使用する開発者アカウントのアクセスキー。
 
 **[!UICONTROL Currency]:** アカウントに使用する通貨の略称です。 このフィールドは新規用に編集可能です [!DNL Naver] アカウント。 その他すべての検索ネットワークでは、レコードを保存すると、広告ネットワーク上のアカウントに設定されている通貨が値に自動的に入力されます。
 
-**[!UICONTROL Landing Page Suffix]** ([!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントのみ（オプション）情報を追跡するために最終 URL の末尾に追加するパラメーター。ビジネスで追跡する必要のあるすべてのパラメーターを含めます。
+**[!UICONTROL Landing Page Suffix]** ([!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントのみ、オプション ) 情報を追跡するために最終的な URL の末尾に追加するパラメーター。ビジネスで追跡する必要のあるすべてのパラメーターが含まれます。
 
 例： `param1=value1&param2=value2`
 
-Adobe広告のクリック追跡を使用するアカウントには、広告ネットワークのクリック識別子 (`msclkid` 対象 [!DNL Microsoft Advertising]; `gclid` (Googleの場合 ) をサフィックスに含めます。 Adobe Analytics統合のアカウントでは、 `s_kwcid` パラメーター。 アカウントにサーバー側の s\_kwcid 実装がある場合、ユーザーが広告をクリックすると、パラメーターが自動的に追加されます。それ以外の場合は、手動でここに追加する必要があります。 詳しくは、 [必要なサフィックス形式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) および [必要なサフィックス形式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Adobe Advertisingクリックの追跡を使用するアカウントには、広告ネットワークのクリック識別子 (`msclkid` 対象： [!DNL Microsoft Advertising]; `gclid` (Googleの場合 ) をサフィックスに含めます。 Adobe Analytics統合のアカウントでは、 `s_kwcid` パラメーター。 アカウントにサーバー側の s\_kwcid 実装がある場合、ユーザーが広告をクリックすると、パラメーターが自動的に追加されます。それ以外の場合は、ここに手動で追加する必要があります。 詳しくは、 [必要なサフィックス形式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) および [必要なサフィックス形式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
->* このフィールドは [!UICONTROL Auto Upload] トラッキング設定。
+>* このフィールドは、 [!UICONTROL Auto Upload] トラッキング設定。
 >* 下位レベルでの最終的な URL サフィックスは、アカウントレベルのサフィックスよりも優先されます。 メンテナンスを容易にするために、個々のアカウントコンポーネントに対して別々の追跡が必要でない限り、アカウントレベルのサフィックスのみを使用します。 広告グループレベル以下でサフィックスを設定するには、広告ネットワークのエディターを使用します。
 
 **タイムゾーン：** ( を除くすべての広告ネットワーク [!DNL Baidu] および [!DNL Yahoo! Display Network]) 広告主のタイムゾーン。 このフィールドは編集可能で、新規の場合はオプションです [!DNL Naver] アカウント。 その他すべての検索ネットワークでは、レコードを保存すると、広告主の検索、ソーシャル、コマースアカウント用に設定されたタイムゾーンが値に自動的に入力されます。
@@ -180,7 +182,7 @@ Adobe広告のクリック追跡を使用するアカウントには、広告ネ
 * *有効：* 検索、ソーシャル、コマースはキャンペーンデータをアカウントと同期し（サポートされている場合）、ポートフォリオ内のキャンペーンの自動入札やキャンペーン予算をプッシュします。
 * *無効：* Search、Social、および Commerce は、アカウント上のすべてのアクティビティを停止します。 アカウントがアクティブな間に収集されたデータは保存されますが、キャンペーン管理の表示とレポートには、アカウントが一時停止された期間のデータは含まれません。 後でアカウントを再アクティブ化して、アカウントでのアクティビティを再開できます。
 
-**トラッキングテンプレート** - ([!DNL Google Ads], [!DNL Microsoft Advertising]、および [!DNL Yahoo! Japan Ads] アカウントのみ（オプション）すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終/ランディングページの URL をパラメーターに埋め込む、アカウントのデフォルトのトラッキングテンプレート。 例： `{lpurl}?source={network}&id=5` または `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` リダイレクトを含める。
+**トラッキングテンプレート** - ([!DNL Google Ads], [!DNL Microsoft Advertising]、および [!DNL Yahoo! Japan Ads] アカウントのみ、オプション ) すべてのオフランディングドメインのリダイレクトおよびトラッキングパラメーターを指定し、最終/ランディングページの URL をパラメーターに埋め込む、アカウントのデフォルトのトラッキングテンプレート。 例： `{lpurl}?source={network}&id=5` または `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` リダイレクトを含める。
 
 * 最終 URL を埋め込むには：
 
@@ -198,17 +200,17 @@ Adobe広告のクリック追跡を使用するアカウントには、広告ネ
 >
 >* の場合 [!DNL Google Ads]を使用する場合は、並列追跡を有効にするソースからのクリック数に代わられないマクロを使用しないでください。 広告主がマクロを使用する必要がある場合は、Adobeアカウントチームがカスタマーサポートまたは実装チームと連携してマクロを追加する必要があります。
 >* 最も精度の高いレベルのトラッキングテンプレートは、より高いレベルの値よりも優先されます。 例えば、アカウント設定とキーワード設定の両方に値が含まれる場合、そのキーワード値が適用されます。
->* 広告、サイトリンク、またはキーワードレベルでトラッキングテンプレートを更新すると、関連する広告が再送信され、レビューが必要になります。 広告を承認用に再送信しなくても、アカウント、キャンペーンまたは広告グループレベルでトラッキングテンプレートを更新できます。
+>* 広告、サイトリンク、キーワードレベルでトラッキングテンプレートを更新すると、関連する広告が再送信され、レビューが必要になります。 広告を承認用に再送信しなくても、アカウント、キャンペーンまたは広告グループレベルでトラッキングテンプレートを更新できます。
 
 **[!UICONTROL Master Account ID]:** ([!DNL Microsoft Advertising] アカウントのみ ) アカウントに関連付けられたエージェンシー/管理アカウントの ID。
 
-**[!UICONTROL MCC Account]:** ([!DNL Yandex] アカウントのみ（オプション）アカウントに関連付けられたエージェンシー/管理アカウント。 既存の関連付けを削除するには、「[!UICONTROL No MCC Account].&quot;
+**[!UICONTROL MCC Account]:** ([!DNL Yandex] アカウントのみ（オプション）アカウントに関連付けられているエージェンシー/管理アカウント。 既存の関連付けを削除するには、「[!UICONTROL No MCC Account].&quot;
 
 **[!UICONTROL Application ID]:** ([!DNL Yandex] アカウントのみ ) アカウントに使用する開発者トークン。 すべてに同じトークンが使用されます [!DNL Yandex] アカウント。
 
-**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] [ 共有アカウント ] 設定が無効になっているアカウントのみ。（オプション）アカウント内のすべての広告キャンペーンの支払いに使用されるキャンペーンの数値 ID。
+**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] 「共有アカウント」設定が無効になっているアカウントのみ、オプション ) アカウント内のすべての広告キャンペーンの支払いに使用されるキャンペーンの数値 ID。
 
-**[!UICONTROL Finance Token]:** ([!DNL Yandex] [ 共有アカウント ] 設定が無効になっているアカウントのみ。（オプション）財務関連の API 呼び出しに使用する開発者トークン。ポートフォリオの最適化に必要に応じて、広告主のキャンペーンの間のウォレットから金額を再割り当てする場合などに使用します。
+**[!UICONTROL Finance Token]:** ([!DNL Yandex] [ 共有アカウント ] 設定が無効になっているアカウントのみ、オプション ) ポートフォリオの最適化に必要に応じて、広告主のキャンペーンの間のウォレットからお金を再割り当てする場合など、財務関連の API 呼び出しに使用する開発者トークン。
 
 ### アカウントトラッキング
 
@@ -240,7 +242,7 @@ Adobe広告のクリック追跡を使用するアカウントには、広告ネ
 
 * **S\_kwcid 形式** - ( 既存 [!DNL Google Ads] Adobe AdvertisingとAdobe Analyticsの統合をおこない、s\_kwcid がまだ移行されていない広告主のアカウント )
 
-このアカウントでは、s\_kwcid トラッキングコードの従来の形式を使用します。これにより、Adobe広告は、アカウントに関するデータをAdobe Analyticsと共有できます。 この [最新形式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) には、キャンペーン ID と広告グループ ID のパラメーターが含まれます。これらのパラメーターは、次のキャンペーンレベルと広告グループレベルで正確にレポートするために必要です。 [!DNL Google Ads] Analytics の最大キャンペーン数およびドラフト&amp;実験キャンペーン数：
+このアカウントでは、s\_kwcid トラッキングコードの従来の形式を使用します。これにより、Adobe Advertisingはアカウントに関するデータをAdobe Analyticsと共有できます。 The [最新形式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) には、キャンペーン ID と広告グループ ID のパラメーターが含まれます。これらのパラメーターは、次のキャンペーンレベルと広告グループレベルで正確にレポートするために必要です。 [!DNL Google Ads] Analytics の最大キャンペーン数およびドラフト&amp;実験キャンペーン数：
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -248,7 +250,7 @@ Adobe広告のクリック追跡を使用するアカウントには、広告ネ
 
 詳しい手順については、[の s\_kwcid トラッキングコードを更新します。 [!DNL Google Ads] アカウント](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
 
-**レポートスイート名** - ( トークンを使用した EF リダイレクトの場合のみ。広告主とAdobeAdvertising-Adobe Analyticsの統合；（オプション）検索、ソーシャル、コマースが広告ネットワークから収集したデータの送信先となる 1 つ以上の Analytics レポートスイート（エンティティの分類、アカウントのクリックデータなど）。 この機能は、サポートされている広告ネットワークでのみ使用できます。
+**レポートスイート名** - ( トークンを使用した EF リダイレクトの場合、Adobe AdvertisingとAdobe Analyticsの統合を使用する広告主、オプション ) Search、Social、&amp; Commerce が広告ネットワークから収集したデータの送信先となる 1 つ以上の Analytics レポートスイート。 この機能は、サポートされている広告ネットワークでのみ使用できます。
 
 データをレポートスイートに表示するには、(a) サーバー側の s\_kwcid をアカウント用に設定するか、(b) 広告主レベルの設定を「[!UICONTROL Enable tracking for SAINT feeds]」を有効にする必要があります。 さらに、検索、ソーシャル、コマースからデータを受け取るように広告主の Analytics アカウントを設定する必要があります。 詳しくは、担当のAdobeアカウントマネージャーにお問い合わせください。
 

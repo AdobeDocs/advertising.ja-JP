@@ -1,7 +1,9 @@
 ---
 title: カスタム指標の編集
 description: 標準の指標から計算されるカスタム指標を編集する方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7b0c18d3-e4ed-49ad-aef7-d05b2a67ba2e
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
@@ -24,9 +26,9 @@ ht-degree: 1%
 
    * クリック ![カスタム列](/help/search-social-commerce/assets/custom-columns.png "カスタム列") をクリックして、列の設定を開きます。
 
-1. 列名の上にカーソルを置き、 ![編集](/help/search-social-commerce/assets/edit.png "編集") をクリックします。
+1. 列名の上にカーソルを置き、 ![編集](/help/search-social-commerce/assets/edit.png "編集") 列名の横に表示されます。
 
-1. 次を指定： [カスタム指標設定](custom-metric-settings.md).
+1. 次を指定します。 [カスタム指標設定](custom-metric-settings.md).
 
 1. クリック **[!UICONTROL Save]**.
 
@@ -46,15 +48,15 @@ ht-degree: 1%
 
 1. 次をクリック： **[!UICONTROL Columns]** タブをクリックします。
 
-1. いずれかの [!UICONTROL Available Metrics] または [!UICONTROL Table Columns] リストを開き、をクリックします。 **[!UICONTROL Edit]** 」をクリックします。
+1. 次のいずれかの [!UICONTROL Available Metrics] または [!UICONTROL Table Columns] リストを開き、をクリックします。 **[!UICONTROL Edit]** 」をクリックします。
 
 1. を編集します。 [カスタム指標設定](custom-metric-settings.md).
 
 1. クリック **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
+>
 * [カスタム指標について](custom-metric-about.md)
 * [カスタム指標の作成](custom-metric-create.md)
 * [カスタム指標の削除](custom-metric-delete.md)
 * [カスタム指標設定](custom-metric-settings.md)
-

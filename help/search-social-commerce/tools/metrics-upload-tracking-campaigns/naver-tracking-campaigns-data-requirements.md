@@ -1,7 +1,9 @@
 ---
 title: のトラフィック指標とコンバージョン指標のデータ要件 [!DNL Naver] トラッキング専用アカウント
 description: 次のデータアップロード要件を参照します。 [!DNL Naver] トラッキング専用のアカウント。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6f79730b-f8d6-4a7f-9d31-f42fe63e6b5d
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 次の指標データ要件： [!DNL Naver] トラッキング専用アカウント
 
-以下は、 [!DNL Naver] トラッキング専用アカウントのトラフィック指標とコンバージョン指標。
+以下は、のデータ要件です。 [!DNL Naver] トラッキング専用アカウントのトラフィック指標とコンバージョン指標。
 
 データファイルは TSV、CSV、TXT 形式である必要があります。
 
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 | ヘッダーフィールド/列名 | タイプ | 説明 |
 | ---- | ---- | ---- |
-| 期間 | DateTime | データを適用する日付（形式） `YYYY.MM.DD.` ( `2019.11.15.`（日の後の期間） |
+| 期間 | DateTime | データを適用する日付（形式） `YYYY.MM.DD.` ( 例： `2019.11.15.`（日の後の期間） |
 | Campaign | 大文字と小文字を区別する文字列 | キャンペーン名。 |
 | Adgroup（1 語） | 大文字と小文字を区別する文字列 | 広告グループ名。 |
 | キーワード | 大文字と小文字を区別する文字列 | （キーワード広告）広告を生成したキーワード。 |
@@ -29,4 +31,3 @@ ht-degree: 0%
 >* [実装方法 [!DNL Naver] トラッキング専用アカウント](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [付録 — の必須バルクシートデータ [!DNL Naver] アカウント](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md))
 >* [次のトラフィック指標とコンバージョン指標をアップロード： [!DNL Naver] トラッキング専用アカウント](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
-

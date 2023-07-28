@@ -1,7 +1,9 @@
 ---
-title: '"[!DNL Microsoft Advertising] キーワード設定'
+title: '''[!DNL Microsoft Advertising] キーワード設定'
 description: 次の設定を参照してください： [!DNL Microsoft Advertising] キーワード。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 248f45c7-8b8c-46fe-a65a-66c50c630044
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -22,7 +24,6 @@ ht-degree: 0%
 >
 >* 除外キーワードは、 [!UICONTROL Keywords] > [!UICONTROL Negatives] 広告グループとキャンペーンの設定で「 」と「 」を表示します。
 >* の変更 [!DNL Microsoft Advertising] キーワードは、既存のキーワードを削除し、新しいキーワード ID を持つ新しいキーワードを作成します。 ただし、一致タイプを変更しても、既存のキーワードは削除されません。
-
 
 **[!UICONTROL Status]:** キーワードの表示ステータス： *アクティブ* または *一時停止*. 新しいキーワードのデフォルトはです。 *アクティブ*.
 
@@ -53,4 +54,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

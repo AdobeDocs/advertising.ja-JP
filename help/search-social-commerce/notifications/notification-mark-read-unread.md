@@ -1,7 +1,9 @@
 ---
 title: 通知を既読または未読としてマーク
 description: 通知を読んだか読まなかったかを示す方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 333173a0-7e3a-4fb6-a80c-a9a1f5714fbf
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *ベータ版機能*
 
-通知のマーク *読み取り* または *未読* に示す未読通知の数を変更します [!UICONTROL Notifications] 各ページの上部にあるリンク ( ![未読通知カウンター付きの通知アイコン](/help/search-social-commerce/assets/notifications-unread.png "未読通知カウンター付きの通知アイコン")) をクリックします。
+通知のマーク *読み取り* または *未読* に示す未読通知の数を変更します。 [!UICONTROL Notifications] 各ページの上部にあるリンク ( ![未読通知カウンター付きの通知アイコン](/help/search-social-commerce/assets/notifications-unread.png "未読通知カウンター付きの通知アイコン")) をクリックします。
 
 通知は次のマークが付いています： *読み取り* は薄い色のテキストですが、削除するまで使用できます。
 
@@ -30,4 +32,3 @@ ht-degree: 0%
 >* [通知設定を編集](notification-edit.md)
 >* [次のプッシュ通知を有効/無効にする： [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [をインストールしてアンインストールします。 [!UICONTROL Notification Center] web アプリケーション](notification-app-install-uninstall.md)
-

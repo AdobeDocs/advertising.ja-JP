@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Keyword Daily Impression Share Report]"
+title: '[!UICONTROL Keyword Daily Impression Share Report]'
 description: 詳しくは、 [!UICONTROL Keyword Daily Impression Share Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 177f7c9e-407f-4200-90a6-57b2fd569cf4
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]および [!DNL Microsoft® Advertising] アカウントのみ*
 
-この [!UICONTROL Keyword Daily Impression Share Report] には、各キーワードの日別インプレッション共有指標、対応する一致タイプ、1 つ以上の広告グループまたはキャンペーンに対応する対応するデバイスタイプが含まれます。 デフォルトでは、データには、指定した日付範囲の各日に該当する広告グループごとに、少なくとも 1 つのインプレッションまたはクリックを受け取った、キーワード、一致タイプおよびデバイスごとに 1 つの行が含まれます。 デフォルトでは、行は日付の昇順です。 オプションで、 [!DNL Adobe] 派生指標。
+The [!UICONTROL Keyword Daily Impression Share Report] には、各キーワードの日別インプレッション共有指標、対応する一致タイプ、1 つ以上の広告グループまたはキャンペーンに対応する対応するデバイスタイプが含まれます。 デフォルトでは、データには、指定した日付範囲の各日に該当する広告グループごとに、少なくとも 1 つのインプレッションまたはクリックを受け取った、キーワード、一致タイプおよびデバイスごとに 1 つの行が含まれます。 デフォルトでは、行は日付の昇順です。 オプションで、 [!DNL Adobe] および派生指標。
 
 インプレッション共有指標は、前日の広告主のタイムゾーンの 13:00 に利用できます。 過去 2 か月間のデータを表示できます。
 
@@ -48,5 +50,4 @@ ht-degree: 0%
 >
 >* [特殊レポートについて](specialty-report-about.md)
 >* [特殊なレポートの生成](specialty-report-generate.md)
->* [特殊レポート設定](specialty-report-settings.md)
-
+>* [特殊なレポート設定](specialty-report-settings.md)

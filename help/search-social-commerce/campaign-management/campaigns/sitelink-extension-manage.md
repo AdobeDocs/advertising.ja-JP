@@ -1,7 +1,9 @@
 ---
 title: 共有サイトリンクを管理
 description: 共有サイトリンク拡張機能を作成および管理する方法について説明します。
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
@@ -12,9 +14,9 @@ ht-degree: 0%
 
 *[!DNL Google Ads]および [!DNL Microsoft Advertising] のみ*
 
-同期されたすべてのアカウントレベルの共有サイトリンクを作成および管理 [!DNL Google Ads] または [!DNL Microsoft Advertising] アカウント [!UICONTROL Extensions] > [!UICONTROL Sitelinks] ライブラリ。
+同期されたすべてのアカウントレベルの共有サイトリンクを作成および管理します [!DNL Google Ads] または [!DNL Microsoft Advertising] からのアカウント [!UICONTROL Extensions] > [!UICONTROL Sitelinks] ライブラリ。
 
-## 共有サイトリンクを作成
+## 共有サイトリンクの作成
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
 
@@ -50,7 +52,7 @@ ht-degree: 0%
 
    複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
-1. ツールバーで、 ![詳細](/help/search-social-commerce/assets/more.png "詳細") を選択し、 **[!UICONTROL Delete]**.
+1. ツールバーで、 ![その他](/help/search-social-commerce/assets/more.png "その他") を選択し、 **[!UICONTROL Delete]**.
 
 1. 確認メッセージで、 **[!UICONTROL Delete]**.
 
@@ -60,7 +62,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Sitelink]
 
-**[!UICONTROL Link Name]:** リンクに表示するテキスト。 1 バイト文字または 2 バイト文字を 25 文字まで含めることができます。 リンクテキストは、アカウントまたはキャンペーン内で一意である必要があります。
+**[!UICONTROL Link Name]:** リンクに表示するテキストです。 1 バイト文字または 2 バイト文字を 25 文字まで含めることができます。 リンクテキストは、アカウントまたはキャンペーン内で一意である必要があります。
 
 >[!NOTE]
 >
@@ -70,9 +72,9 @@ ht-degree: 0%
 
 **[!UICONTROL Description Line 1], [!UICONTROL Description Line 2]:** リンクテキストの下に検索エンジンで表示される可能性のある追加のテキスト。 説明を含めるには、両方の説明フィールドに値を入力します。 各説明フィールドには、最大 35 文字の 1 バイト文字または 17 文字の 2 バイト文字を含めることができます。
 
-**[!UICONTROL Start Date]:** ( 既存の従来のサイトリンクを持つキャンペーン、またはサイトリンクのみを持たないキャンペーン。（オプション）キャンペーンで広告と共にサイトリンクを表示できる最初の日付。 新しいサイトリンクのデフォルトは現在の日です。 将来の開始日を指定するには、MM/DD/YYYY または M/D/YYYY の形式で日付を入力するか、「 」をクリックして日付を選択します。
+**[!UICONTROL Start Date]:** （既存の従来のサイトリンクを持つキャンペーン、またはサイトリンクのみを持たないキャンペーン、オプション）サイトリンクがキャンペーンの広告と共に表示される最初の日付。 新しいサイトリンクのデフォルトは現在の日です。 将来の開始日を指定するには、MM/DD/YYYY または M/D/YYYY の形式で日付を入力するか、「 」をクリックして日付を選択します。
 
-**[!UICONTROL End Date]:** （オプション）キャンペーンで広告と共にサイトリンクを表示できる最後の日付。 デフォルトでは、サイトリンクは無期限に表示される場合があります。 終了日を指定するには、MM/DD/YYYY または M/D/YYYY の形式で日付を入力するか、をクリックして日付を選択します。
+**[!UICONTROL End Date]:** （オプション）キャンペーンで広告と共にサイトリンクを表示できる最後の日付。 デフォルトでは、サイトリンクは無期限に表示される場合があります。 終了日を指定するには、MM/DD/YYYY または M/D/YYYY の形式で日付を入力するか、「 」をクリックして日付を選択します。
 
 **[!UICONTROL Mobile Preference]:** （オプション）デスクトップユーザーやタブレットユーザーではなく、モバイルデバイスユーザーに対して広告拡張機能を表示しようとすることを許可します。 デフォルトでは、このオプションは有効になっておらず、広告拡張はどのデバイスタイプにも表示されます。
 
@@ -94,7 +96,7 @@ ht-degree: 0%
 
 **[!UICONTROL Tracking Template]:** （オプション）すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終/ランディングページの URL をパラメーターに埋め込むトラッキングテンプレートまたはトラッキング URL。 例： `{lpurl}?source={network}&id=5` または `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` リダイレクトを含める。
 
-* Adobe広告コンバージョントラッキングの場合。これは、キャンペーン設定で[!UICONTROL EF Redirect]「 」と「自動アップロード」を選択し、検索、ソーシャルおよびコマースでは、レコードを保存する際に、独自のクリック追跡コードが自動的に先頭に表示されます。
+* Adobe Advertisingコンバージョントラッキングの場合。これは、キャンペーン設定で「[!UICONTROL EF Redirect]「 」と「自動アップロード」を選択し、検索、ソーシャルおよびコマースでは、レコードを保存する際に、独自のクリック追跡コードが自動的に先頭に表示されます。
 
 * 最終的な URL を埋め込むためにサポートされているパラメーターについては、 ([!DNL Microsoft Advertising] のみ ) [[!DNL Microsoft Advertising] ドキュメント](https://help.ads.microsoft.com/#apex/3/en/56799) または ([!DNL Google Ads] （のみ）「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーター [!DNL ValueTrack] パラメーター」( [[!DNL Google Ads] ドキュメント](https://support.google.com/google-ads/answer/6305348).
 

@@ -1,7 +1,9 @@
 ---
 title: 列セットを編集し、 [!UICONTROL Custom Columns] アイコン
 description: 列のカスタマイズを使用して、表示される列を変更する方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9b8ddb3d-c598-4393-85f2-0e586ebe0df3
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -28,11 +30,11 @@ ht-degree: 0%
 
    * （列の水平方向の位置を変更するには） [!UICONTROL Selected Columns & Ordering] リストで列名をクリックし、目的の位置までドラッグするか、 ![列を上に移動](/help/search-social-commerce/assets/chevron-up.png "列を上に移動") または ![列を下に移動](/help/search-social-commerce/assets/chevron-down.png "列を下に移動") そこに移動する
 
-      上の列の名前が左の列に表示されます。
+     上の列の名前が左の列に表示されます。
 
    * （列を削除するには） [!UICONTROL Selected Columns & Ordering] リストで列名をクリックし、次に、列名を [!UICONTROL Available Columns] リストまたはクリック ![削除](/help/search-social-commerce/assets/chevron-left.png "削除") そこに移動する
 
-   * （新しい売上高列が追加され、表示されていない場合は、列リストを更新するには） ![更新](/help/search-social-commerce/assets/refresh.png "更新") 」の横[!UICONTROL Available Columns].&quot;
+   * （新しい売上高列が追加され、表示されていない場合は、列リストを更新するには） ![更新](/help/search-social-commerce/assets/refresh.png "更新") 」の横に[!UICONTROL Available Columns].&quot;
 
 1. 並べ替えオプションを指定します。
 

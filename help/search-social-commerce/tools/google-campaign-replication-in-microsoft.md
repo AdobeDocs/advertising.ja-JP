@@ -1,8 +1,9 @@
 ---
 title: 複製 [!DNL Google Ads] キャンペーン [!DNL Microsoft® Advertising]
-description: 同期したキャンペーンを [!DNL Google Ads] 直接同期されたにアカウント [!DNL Microsoft® Advertising] アカウント
+description: 同期したキャンペーンを [!DNL Google Ads] 直接同期されたにアカウント [!DNL Microsoft® Advertising] アカウント。
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
-source-git-commit: 8d062e5c74c8f873ab5f2491659a32be47bb2afb
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 0%
@@ -11,21 +12,21 @@ ht-degree: 0%
 
 # 複製 [!DNL Google Ads] キャンペーン [!DNL Microsoft® Advertising]
 
-同期したキャンペーンを [!DNL Google Ads] 直接同期されたにアカウント [!DNL Microsoft® Advertising] アカウントを拡張 CPC(eCPC) キャンペーンとして使用する。 既存の入札とキャンペーンの予算がスケーリングされます。 既存の検索、ソーシャル、コマースの追跡はインポートされません。
+同期したキャンペーンを [!DNL Google Ads] 直接同期されたにアカウント [!DNL Microsoft® Advertising] アカウントを拡張 CPC(eCPC) キャンペーンとして使用します。 既存の入札とキャンペーンの予算がスケーリングされます。 既存の検索、ソーシャル、コマースの追跡はインポートされません。
 
 次のタイプのキャンペーンとそのキャンペーン構造をレプリケートできます。
 
-* [!DNL Google Ads] キャンペーンを次の場所で検索/表示 [!DNL Microsoft® Advertising] キャンペーンの検索と表示。
+* [!DNL Google Ads] キャンペーンを次の場所で検索/表示 [!DNL Microsoft® Advertising] キャンペーンの検索と表示を行います。
 
-* [!DNL Google Display Network] 広告画像を含むキャンペーンを [!DNL Microsoft® Advertising] Microsoft® Audience Network でのオーディエンスキャンペーン。
+* [!DNL Google Display Network] 広告画像を含むキャンペーンを [!DNL Microsoft® Advertising] Microsoft® Audience Network でのオーディエンスキャンペーンに関する情報です。
 
-  買い物フィードベースのディスプレイキャンペーンをレプリケートする場合は、まず [!DNL Google Merchant Center] 製品オファー [!DNL Microsoft® Merchant Center]. キャンペーンをレプリケートする場合は、 [!DNL Microsoft® Merchant Center] を保存して、フィードベースのオーディエンスキャンペーンにストアをリンクします。
+  買い物フィードベースのディスプレイキャンペーンをレプリケートする場合は、まず [!DNL Google Merchant Center] に対する製品オファー [!DNL Microsoft® Merchant Center]. キャンペーンをレプリケートする場合は、 [!DNL Microsoft® Merchant Center] を保存して、フィードベースのオーディエンスキャンペーンにストアをリンクします。
 
 * [!DNL Google Ads] パフォーマンス最大キャンペーン（ローカルの在庫広告を含む）を [!DNL Microsoft® Advertising] スマートショッピングキャンペーン。
 
-キャンペーンの更新は 1 回だけ選択できます。毎週、または毎月または [!DNL Microsoft® Advertising]推奨スケジュールです。 オプションで、インポートジョブが実行されたときや、エラーや変更が発生したときに、毎回通知を設定することができます。 キャンペーンをにインポートしたら、 [!DNL Microsoft® Advertising]を使用すると、インポートジョブのステータスの確認、エラーログの確認、インポートジョブの手動実行、インポートスケジュールの編集、一時停止、有効化、削除をおこなうことができます。
+キャンペーンを 1 回、毎日、毎週、毎月、または [!DNL Microsoft® Advertising]推奨スケジュールです。 オプションで、インポートジョブが実行されたときや、エラーや変更が発生したときに、毎回通知を設定することができます。 キャンペーンをにインポートしたら、 [!DNL Microsoft® Advertising]を使用すると、インポートジョブのステータスの確認、エラーログの確認、インポートジョブの手動実行、インポートスケジュールの編集、一時停止、有効化、削除をおこなうことができます。
 
-一部のキャンペーン情報がレプリケートされていないので、 [!DNL Microsoft® Advertising] キャンペーン。 読み込まれるデータの詳細については、 [!DNL Microsoft® Advertising] ヘルプ」[読み込み元 [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851).&quot; 検索、ソーシャル、コマースのトラッキングはインポートされないので、 [アカウント](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [広告グループ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)または [広告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 設定。
+一部のキャンペーン情報がレプリケートされていないので、 [!DNL Microsoft® Advertising] キャンペーン。 読み込まれるデータの詳細については、「 [!DNL Microsoft® Advertising] ヘルプ」[読み込み元 [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851).&quot; 検索、ソーシャル、コマースのトラッキングはインポートされないので、 [アカウント](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [広告グループ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)または [広告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 設定。
 
 ## 複製 [!DNL Google Ads] campaigns
 
@@ -39,9 +40,9 @@ ht-degree: 0%
 
 1. クリック **[!UICONTROL +Import]**.
 
-1. 次を指定： [読み込み設定](#campaign-import-settings):
+1. 次を指定します。 [読み込み設定](#campaign-import-settings):
 
-   1. 内 **[!UICONTROL Select accounts]** セクション：
+   1. Adobe Analytics の **[!UICONTROL Select accounts]** セクション：
 
       1. ソースおよび宛先アカウントを選択します。
 
@@ -49,15 +50,15 @@ ht-degree: 0%
 
       1. 宛先にログイン [!DNL Microsoft Advertising] アカウントを作成し、表示された秘密鍵証明書 ID をコピーして、 **[!UICONTROL Credential ID]** フィールドに入力します。
 
-   1. 内 **[!UICONTROL Select campaigns & ad groups]** 「 」セクションで、インポートするキャンペーンおよび広告グループを指定します。
+   1. Adobe Analytics の **[!UICONTROL Select campaigns & ad groups]** 「 」セクションで、インポートするキャンペーンおよび広告グループを指定します。
 
-   1. 内 **[!UICONTROL Customize your import]** 「 」セクションで、読み込む項目のタイプを指定します。
+   1. Adobe Analytics の **[!UICONTROL Customize your import]** 「 」セクションで、読み込む項目のタイプを指定します。
 
-   1. 内 **[!UICONTROL Set schedule]** 「 」セクションで、インポートジョブを実行するタイミングを指定します。
+   1. Adobe Analytics の **[!UICONTROL Set schedule]** 「 」セクションで、インポートジョブを実行するタイミングを指定します。
 
 1. クリック **[!UICONTROL Post]**.
 
-1. （オプション）検索、ソーシャル、コマースの追跡機能を [アカウント](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [広告グループ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)または [広告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 設定。
+1. （オプション）検索、ソーシャルおよびコマースの追跡機能を [アカウント](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [広告グループ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)または [広告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 設定。
 
 ## キャンペーンインポートジョブのスケジュール設定の編集
 
@@ -67,7 +68,7 @@ ht-degree: 0%
 
 1. インポートジョブの横のチェックボックスを選択し、 ![編集](/help/search-social-commerce/assets/edit.png "編集").
 
-1. 内 **[!UICONTROL Set schedule]** セクションで、 [スケジュール設定](#campaign-import-settings).
+1. Adobe Analytics の **[!UICONTROL Set schedule]** セクションで、 [スケジュール設定](#campaign-import-settings).
 
 1. クリック **[!UICONTROL Post]**.
 
@@ -81,7 +82,7 @@ ht-degree: 0%
 
      デフォルトでは、ビューは [!UICONTROL List of Import Jobs] タブをクリックします。
 
-   * 次の [[!UICONTROL Import Logs] タブ](#campaign-import-log)、 **[!UICONTROL List of Import Jobs]** タブをクリックします。
+   * 次から： [[!UICONTROL Import Logs] タブ](#campaign-import-log)をクリックし、 **[!UICONTROL List of Import Jobs]** タブをクリックします。
 
 ## キャンペーンインポートジョブの実行
 
@@ -89,11 +90,11 @@ ht-degree: 0%
 
 1. インポートジョブの横にあるチェックボックスを選択します。
 
-1. クリック ![実行](/help/search-social-commerce/assets/run.png "実行").
+1. クリック ![今すぐ実行](/help/search-social-commerce/assets/run.png "今すぐ実行").
 
-## キャンペーンインポートジョブのログを表示 {#campaign-import-log}
+## キャンペーンインポートジョブのログを表示します {#campaign-import-log}
 
-開始時刻やソースを含め、完了または失敗したすべてのインポートジョブをリストできます [!DNL Google Ads] アカウント、ターゲット [!DNL Microsoft® Advertising] アカウント、ジョブを作成したユーザー、成功した操作と失敗した操作の数、および各ジョブの通知を受け取った電子メールアドレス。 ターゲットに対する変更の詳細を表示できます [!DNL Microsoft® Advertising] 各ジョブで発生したアカウント ( 追加、同期、削除の項目数、アカウント内の各エンティティレベル（キャンペーンやキーワードなど）でエラーが発生した項目数を含む )。
+開始時刻やソースを含め、完了または失敗したすべてのインポートジョブをリストできます [!DNL Google Ads] アカウント、ターゲット [!DNL Microsoft® Advertising] アカウント、ジョブを作成したユーザー、成功した操作と失敗した操作の数、および各ジョブの通知を受け取った電子メールアドレス。 ターゲットに対する変更の詳細を表示できます [!DNL Microsoft® Advertising] 各ジョブで発生したアカウント ( 追加、同期、削除の項目数、およびアカウント内の各エンティティレベル（キャンペーンやキーワードなど）でエラーが発生した項目数を含む )。
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
@@ -107,11 +108,11 @@ ht-degree: 0%
 
 **[!UICONTROL Source Google Ads account]:** 同期済み [!DNL Google Ads] キャンペーンデータのエクスポート元のアカウント。
 
-**[!UICONTROL Credential ID]:** 次の ID [!DNL Microsoft® Advertising] は、 [!DNL Google Ads] 資格情報。
+**[!UICONTROL Credential ID]:** 次の ID [!DNL Microsoft® Advertising] は、 [!DNL Google Ads] 認証情報。
 
-の自動生成 [!DNL Microsoft® Advertising] 次の理由により、インポートの資格情報を使用できません： [!DNL Microsoft® Advertising] 制限事項 AdobeのテクニカルサポートまたはAdobeのアカウントチームに問い合わせると、テクニカルサポートが資格情報を生成し、ID を渡します。
+の自動生成 [!DNL Microsoft® Advertising] 次の理由により、インポートの資格情報を使用できません： [!DNL Microsoft® Advertising] 制限事項。 AdobeのテクニカルサポートまたはAdobeのアカウントチームに問い合わせると、テクニカルサポートが資格情報を生成し、ID を渡します。
 
-**[!UICONTROL Target Microsoft® Ads account]:** 同期済み [!DNL Microsoft® Advertising] アカウントを使用します。
+**[!UICONTROL Target Microsoft® Ads account]:** 同期済み [!DNL Microsoft® Advertising] アカウントを使用してキャンペーンデータをインポートします。
 
 ### [!UICONTROL Select campaigns & ad groups]
 
@@ -127,9 +128,9 @@ ht-degree: 0%
 
    * キャンペーンまたは広告グループを削除するには：
 
-      * 内 [!UICONTROL Campaigns] または [!UICONTROL Adgroups] 」列で、キャンペーンまたは広告グループの選択を解除して、チェックマークが消えるようにします。
+      * Adobe Analytics の [!UICONTROL Campaigns] または [!UICONTROL Adgroups] 」列で、キャンペーンまたは広告グループの選択を解除して、チェックマークが消えるようにします。
 
-      * 内 [!UICONTROL Selected] 列、クリック ![削除](/help/search-social-commerce/assets/delete.png "削除").
+      * Adobe Analytics の [!UICONTROL Selected] 列、クリック ![削除](/help/search-social-commerce/assets/delete.png "削除").
 
 ### [!UICONTROL Customize your import]
 
@@ -143,10 +144,10 @@ ht-degree: 0%
 
 ### [!UICONTROL Set schedule]
 
-**[!UICONTROL Import name]:** インポートジョブの名前。
+**[!UICONTROL Import name]:** 読み込みジョブの名前。
 
-**[!UICONTROL When]:** 指定したキャンペーンをインポートするタイミング： *自動* ( [!DNL Microsoft® Advertising] キャンペーンを最適化するためのスケジュールを設定する )、 *[!UICONTROL Now]* （ジョブ設定を投稿する際にジョブを実行する場合） *[!UICONTROL Once]* 指定された時間に *[!UICONTROL Daily]* 指定された時間に *[!UICONTROL Weekly]* 指定した時間に、または *[!UICONTROL Monthly]* 指定した時刻に。
+**[!UICONTROL When]:** 指定したキャンペーンをインポートするタイミング： *自動* ( [!DNL Microsoft® Advertising] キャンペーンを最適化するためのスケジュールを設定する )、 *[!UICONTROL Now]* （ジョブ設定を投稿する際にジョブを実行する場合） *[!UICONTROL Once]* 指定された時間に *[!UICONTROL Daily]* 指定された時間に *[!UICONTROL Weekly]* 指定した時刻に、または *[!UICONTROL Monthly]* 指定した時刻に。
 
 **[!UICONTROL Receive email notifications]:** インポートジョブに関する電子メール通知を送信する場合とタイミングは、「レポート送信先」フィールドの電子メールアドレスに設定します。
 
-**[!UICONTROL Send reports to]:** インポートジョブに関する通知を受け取る電子メールアドレス。 複数のアドレスはコンマ (`,`) をクリックします。
+**[!UICONTROL Send reports to]:** インポートジョブに関する通知を受け取る電子メールアドレス。 複数のアドレスを指定する場合はコンマ (`,`) をクリックします。

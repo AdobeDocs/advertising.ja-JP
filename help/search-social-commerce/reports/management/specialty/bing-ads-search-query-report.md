@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Bing Ads Search Query Report]"
+title: '[!UICONTROL Bing Ads Search Query Report]'
 description: 詳しくは、 [!UICONTROL Bing Ads Search Query Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5674577b-8f95-4f43-aca9-73fdd6bb8e33
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft® Advertising]アカウントのみ*
 
-この [!UICONTROL Bing Ads Search Query Report] 1 つ以上の広告グループのユーザー検索クエリ用語のコスト、クリック、インプレッション、（オプションで）派生指標データが含まれます。 デフォルトでは、データには検索語句ごとに 1 行が含まれ、指定した日付範囲の各時間単位に対して、該当する広告グループごとにインプレッション数またはクリック数が発生していました。 行は、広告グループ名の昇順で、デフォルトでは検索語句の順に並んでいます。 レポートには、検索語句が一致したキーワードや、 [!DNL Adobe].
+The [!UICONTROL Bing Ads Search Query Report] 1 つ以上の広告グループのユーザー検索クエリ用語のコスト、クリック、インプレッション、（オプションで）派生指標データが含まれます。 デフォルトでは、データには検索語句ごとに 1 行が含まれ、指定した日付範囲の各時間単位に対して、該当する広告グループごとにインプレッション数またはクリック数が発生していました。 行は、広告グループ名の昇順で、デフォルトでは検索語句の順に並んでいます。 レポートには、検索語句が一致したキーワードや、 [!DNL Adobe].
 
 >[!NOTE]
 >
@@ -38,7 +40,7 @@ ht-degree: 0%
 * [!UICONTROL CPC]
 
 >[!MORELIKETHIS]
+>
 * [特殊レポートについて](specialty-report-about.md)
 * [特殊なレポートの生成](specialty-report-generate.md)
-* [特殊レポート設定](specialty-report-settings.md)
-
+* [特殊なレポート設定](specialty-report-settings.md)

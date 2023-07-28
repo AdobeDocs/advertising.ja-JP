@@ -1,7 +1,9 @@
 ---
 title: カスタムアラートテンプレートのアクティブ化
 description: 一時停止したアラートテンプレートをアクティブにする方法を説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6cf9ef6b-9f71-462c-b81e-a604d33c4fb7
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -20,7 +22,7 @@ ht-degree: 0%
 
    * （1 つ以上のテンプレートをアクティブにする場合）アクティブにする各アラートテンプレートの横にあるチェックボックスをオンにします。 ツールバーで、 ![有効化](/help/search-social-commerce/assets/activate.png "有効化"). ダイアログボックスで、 **[!UICONTROL Activate]**.
 
-      複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+     複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
 >[!MORELIKETHIS]
 >
@@ -32,4 +34,3 @@ ht-degree: 0%
 >* [カスタムアラートテンプレート設定](alert-template-settings.md)
 >* [カスタムアラートの表示](alert-view.md)
 >* [カスタムアラート用のデータのエクスポート](alert-export-data.md)
-

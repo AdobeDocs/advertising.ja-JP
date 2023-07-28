@@ -1,7 +1,9 @@
 ---
-title: '"[!DNL Microsoft® Advertising] 動的検索広告設定の拡張'
+title: '''[!DNL Microsoft® Advertising] 動的検索広告設定の拡張'
 description: 次の設定を参照してください： [!DNL Microsoft® Advertising] 動的検索広告を拡張しました。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 73ac6cca-717e-46d2-a060-f1eafd754245
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -40,4 +42,3 @@ ht-degree: 0%
 >* [[!DNL Microsoft® Advertising] 製品広告設定](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] レスポンシブ（オーディエンス）広告設定](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft® Advertising] レスポンシブ検索広告設定](ad-settings-microsoft-rsa.md)
-

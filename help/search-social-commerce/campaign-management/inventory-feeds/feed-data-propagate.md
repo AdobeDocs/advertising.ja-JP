@@ -1,7 +1,9 @@
 ---
 title: テンプレートを使用して在庫フィードデータを伝達
 description: アカウント構造を管理し、動的な広告を配信するために、広告テンプレートを通じて在庫フィードからデータを伝播する方法について説明します。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 40de75e8-8440-48f4-9fa7-1aeb2ae392c5
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -20,21 +22,22 @@ ht-degree: 0%
 
 ## フィードファイルを [!UICONTROL Templates] タブ
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;は、 [!UICONTROL Templates] タブをクリックします。
+1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**（が開きます） [!UICONTROL Templates] タブをクリックします。
 
 1. 伝播するテンプレートの横にあるチェックボックスを選択します。
 
 1. ツールバーで、 **[!UICONTROL Propagate]**&#x200B;をクリックし、次のいずれかのオプションを選択します。
 
-   * **[!UICONTROL Propagate Only]:** 伝播されたデータを [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] タブ 後から [!UICONTROL Templates] タブをクリックします。
+   * **[!UICONTROL Propagate Only]:** 伝播されたデータを [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] タブ。 後から、 [!UICONTROL Templates] タブをクリックします。
 
-   * **[!UICONTROL Propagate and Preview]:** バルクシートファイル (「`<feed file name>_<template name>`&quot;) で、 [!UICONTROL Bulksheets] レビュー用に表示 ( ただし、 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] 」タブ ) を参照してください。 後で、 [!UICONTROL Bulksheets] 表示
+   * **[!UICONTROL Propagate and Preview]:** バルクシートファイル (「`<feed file name>_<template name>`&quot;) で使用できます。 [!UICONTROL Bulksheets] レビュー用に表示 ( ただし、 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] 」タブ ) を参照してください。 後で、 [!UICONTROL Bulksheets] 表示。
 
-      生成されるバルクシートファイルが 2 MB を超える場合、ファイルは ZIP 形式になります。 ファイルを解凍して投稿する必要はありません。
+     生成されるバルクシートファイルが 2 MB を超える場合、ファイルは ZIP 形式になります。 ファイルを解凍して投稿する必要はありません。
 
-   * **[!UICONTROL Propagate and Post to SE]:** バルクシートファイル (「`<feed file name>_<template name>`&quot;) 広告ネットワークへの投稿用のキューに入れられます。 bulksheet ファイルは [!UICONTROL Bulksheets] ビューには表示されますが、 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] タブ
+   * **[!UICONTROL Propagate and Post to SE]:** バルクシートファイル (「`<feed file name>_<template name>`&quot;) 広告ネットワークへの投稿用のキューに入れられます。 bulksheet ファイルは、 [!UICONTROL Bulksheets] ビューには表示されますが、 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] タブ。
 
-      生成されるバルクシートファイルが 2 MB を超える場合、ファイルは ZIP 形式になります。
+     生成されるバルクシートファイルが 2 MB を超える場合、ファイルは ZIP 形式になります。
+
    「最後の prop。 「ステータス」列には、該当するテンプレートのジョブステータスが表示されます。
 
    各伝播アクションが完了すると、伝播の要約が [!UICONTROL Propagations] タブに表示され、伝播に基づいて作成、一時停止または削除された各エンティティタイプの数を示します。 この推定には、広告ネットワーク独自の広告エディター内でおこなわれた変更は含まれません。
@@ -49,21 +52,21 @@ ht-degree: 0%
 
 1. データテーブルの上にある **[!UICONTROL Propagate/Post Feed Data]**&#x200B;をクリックし、次のいずれかのオプションを選択します。
 
-   * **[!UICONTROL Propagate Only]:** 伝播されたデータを [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] タブ 後から [!UICONTROL Templates] タブをクリックします。
+   * **[!UICONTROL Propagate Only]:** 伝播されたデータを [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] タブ。 後から、 [!UICONTROL Templates] タブをクリックします。
 
-   * **[!UICONTROL Propagate and Preview]:** バルクシートファイル (「`<feed file name>_<template name>`&quot;) で、 [!UICONTROL Bulksheets] レビュー用に表示 ( ただし、 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] 」タブ ) を参照してください。 後で、 [!UICONTROL Bulksheets] 表示
+   * **[!UICONTROL Propagate and Preview]:** バルクシートファイル (「`<feed file name>_<template name>`&quot;) で使用できます。 [!UICONTROL Bulksheets] レビュー用に表示 ( ただし、 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] 」タブ ) を参照してください。 後で、 [!UICONTROL Bulksheets] 表示。
 
-      生成されるバルクシートファイルが 2 MB を超える場合、ファイルは ZIP 形式になります。 ファイルを解凍して投稿する必要はありません。
+     生成されるバルクシートファイルが 2 MB を超える場合、ファイルは ZIP 形式になります。 ファイルを解凍して投稿する必要はありません。
 
-   * **[!UICONTROL Propagate and Post to SE]:** バルクシートファイル (「`<feed file name>_<template name>`&quot;) 広告ネットワークへの投稿用のキューに入れられます。 bulksheet ファイルは [!UICONTROL Bulksheets] ビューには表示されますが、 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] タブ
+   * **[!UICONTROL Propagate and Post to SE]:** バルクシートファイル (「`<feed file name>_<template name>`&quot;) 広告ネットワークへの投稿用のキューに入れられます。 bulksheet ファイルは、 [!UICONTROL Bulksheets] ビューには表示されますが、 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] タブ。
 
-      生成されるバルクシートファイルが 2 MB を超える場合、ファイルは ZIP 形式になります。
+     生成されるバルクシートファイルが 2 MB を超える場合、ファイルは ZIP 形式になります。
 
 1. ポップアップウィンドウで、フィードファイルからのデータの伝達に使用する各テンプレートの横にあるチェックボックスを選択し、 **[!UICONTROL Propagate Feed]**.
 
    そのファイルに関連するすべてのテンプレートが表示されます。
 
-この [!UICONTROL Templates] タブが開き、「[!UICONTROL Last Prop. Status]」列には、該当するテンプレートのジョブステータスが表示されます。
+The [!UICONTROL Templates] タブが開き、「[!UICONTROL Last Prop. Status]」列には、該当するテンプレートのジョブステータスが表示されます。
 
 各伝播アクションが完了すると、伝播の要約が [!UICONTROL Propagations] タブに表示され、伝播に基づいて作成、一時停止または削除された各エンティティタイプの数を示します。 この推定には、広告ネットワーク独自の広告エディター内でおこなわれた変更は含まれません。
 
@@ -79,7 +82,7 @@ ht-degree: 0%
 
 ジョブがキューに入れられている間に、在庫フィードデータの伝播ジョブを停止できます。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;は、 [!UICONTROL Templates] タブをクリックします。
+1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**（が開きます） [!UICONTROL Templates] タブをクリックします。
 
 1. 「[!UICONTROL Last Prop. Status]&quot;テンプレート名の横の列で、 **[!UICONTROL Cancel]**.
 
@@ -89,7 +92,6 @@ ht-degree: 0%
 >* [在庫フィード用の広告テンプレートの管理](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
 >* [フィードから生成されたデータを表示](propagated-data-view.md)
 >* [フィードから生成されたデータを編集](propagated-data-edit.md)
->* [フィードから広告ネットワークに生成されたキャンペーンデータを投稿](propagated-data-post.md)
+>* [フィードから広告ネットワークに生成されたキャンペーンデータを投稿します](propagated-data-post.md)
 >* [在庫フィードデータの転記ジョブを停止します](stop-job.md)
 >* [フィードから生成されたデータのステータス](propagated-data-status.md)
-
