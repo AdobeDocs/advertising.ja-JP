@@ -3,9 +3,9 @@ title: 基本レポートと高度なレポートのレポート列
 description: 基本レポートと高度なレポートで使用できるデータ列について説明します。
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: d0b5107363336d5c946f4011e56dc83d2165397d
+source-git-commit: 7ffdd97387815098994f85c4368e60b2b44838dd
 workflow-type: tm+mt
-source-wordcount: '3606'
+source-wordcount: '3603'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
 | [!UICONTROL Network Ad Group ID] | ネットワークによって割り当てられた広告グループ ID。 |
 | [!UICONTROL Network Campaign ID] | ネットワークによって割り当てられたキャンペーン ID。 |
 | [!UICONTROL Objective Name] | ポートフォリオの目的。 |
-| [!UICONTROL Objective Value] | ポートフォリオの現在の目標に従って計算された、合計加重コンバージョン。 参照：[目標値](/help/search-social-commerce/glossary.md#o-p).&quot; |
+| [!UICONTROL Objective Value] | ポートフォリオの現在の目標に従って計算された、合計加重コンバージョン。 |
 | [!UICONTROL Objective Value Calculation] | 目標値の導き出しに使用される計算。 |
 | [!UICONTROL Outbound Clicks] | ([!DNL Meta] 広告 ) ユーザーを離脱させる広告内のリンクのクリック数 [!DNL Meta]-owned プロパティ。 |
 | [!UICONTROL Parent Product Groupings] | 親製品グループの完全な階層。 `>>` 層間 ( `All Products>>CategoryL1=Animals`) に書き込まれます。 |
