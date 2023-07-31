@@ -2,7 +2,7 @@
 title: '[!DNL Microsoft Advertising] コンバージョンデータ'
 description: 次のタイプについて説明します。 [!DNL Microsoft Advertising] — 検索、ソーシャル、コマースで使用できる追跡されたコンバージョンデータ。
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -19,19 +19,19 @@ ht-degree: 0%
 
 検索、ソーシャル、コマースの各データを同期し、「[!DNL Include in 'Conversions']「 」オプションが有効になり、過去 35 日間のデータをプルした後、09 までに毎日データに変更をプルする:00-10:広告主のタイムゾーンの 00。 履歴データは、クリックごとに新しいコンバージョンが追跡されるので、日々変化する場合があります。
 
-それぞれに 2 つのトランザクションプロパティ [[!DNL Microsoft Advertising] — 追跡されたコンバージョン](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) ( [!DNL Microsoft Advertising]) は、検索、ソーシャル、コマースで、 [!DNL Microsoft Advertising]. 各コンバージョンのトランザクションプロパティには、次のものがあります。
+それぞれに 2 つの指標 [[!DNL Microsoft Advertising] — 追跡されたコンバージョン](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) ( [!DNL Microsoft Advertising]) は、検索、ソーシャル、コマースで、 [!DNL Microsoft Advertising]. 各コンバージョンの指標は次のとおりです。
 
 * `<conversion-name>`  — キーワードのコンバージョン値（Purchase など）。
 
   >[!TIP]
   >
-  >このタイプのプロパティを、ポートフォリオに含まれる [!DNL Microsoft Advertising] キャンペーンを作成し、最大コンバージョン値およびターゲット ROAS 入札戦略を使用できます。
+  >このタイプのコンバージョン指標を、 [!DNL Microsoft Advertising] キャンペーンを作成し、最大コンバージョン値およびターゲット ROAS 入札戦略を使用できます。
 
 * `CT_<conversion-name>` — 「CT_」プレフィックスで始まるコンバージョンの数（カウント）（CT_Purchase など）。
 
   >[!TIP]
   >
-  >このタイプのプロパティを、ポートフォリオに含まれる [!DNL Microsoft Advertising] キャンペーンを作成し、Max Conversions と Target CPA の入札戦略に従ってください。
+  >このタイプのコンバージョン指標を、 [!DNL Microsoft Advertising] キャンペーンを作成し、Max Conversions と Target CPA の入札戦略に従ってください。
 
 データは、クリック時間に基づき、アカウントで機能が有効になった日からのコンバージョン/トランザクション時間に基づいて使用できます。
 

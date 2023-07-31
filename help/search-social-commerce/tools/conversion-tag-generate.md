@@ -3,9 +3,9 @@ title: Adobe Advertisingコンバージョントラッキングタグの生成
 description: コンバージョンイベントを追跡するAdobe Advertisingコンバージョンタグを作成する方法を説明します。
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ ht-degree: 0%
 
 タグタイプの違いについて詳しくは、[Adobe Advertisingコンバージョンおよびページビュートラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot;
 
-**[!UICONTROL Tag Properties]:** コンバージョンタグを含むページをエンドユーザーが表示した際にトラッキングされる 1 つ以上のトランザクションプロパティ（指標）。 リストに指標を追加するには、「[!UICONTROL Add new property]「 」フィールドで、 **[!UICONTROL Add]**.
+**[!UICONTROL Tag Properties]:** コンバージョンタグを含むページをエンドユーザーが表示したときに追跡する 1 つ以上のコンバージョン指標。 リストに指標を追加するには、「[!UICONTROL Add new property]「 」フィールドで、 **[!UICONTROL Add]**.
 
 複数の指標が追跡されている場合、アンパサンド (`&`) をタグ内に含めることができます。例： `ev_Property1=<Property1>&ev_Property2=<Property2>`.
 
 >[!NOTE]
 >
->このリストに追加された指標は、どこにも保存されず、クライアントの [!UICONTROL Transaction Properties] リスト [!UICONTROL Admin] タブをクリックします。 ただし、指標はクライアントの [!UICONTROL Transaction Properties] リストは、Adobe Advertisingが指標のデータを実際に収集した後に自動的に作成されます。この処理は、コンバージョンタグがページに実装され、エンドユーザーがそのページを開くトランザクションを完了したときに発生します。
+>このリストに追加された指標は、どこにも保存されず、クライアントの [!UICONTROL Conversions] リスト [!UICONTROL Admin] タブをクリックします。 ただし、指標はクライアントの [!UICONTROL Conversions] リストは、Adobe Advertisingが指標のデータを実際に収集した後に自動的に作成されます。この処理は、コンバージョンタグがページに実装され、エンドユーザーがそのページを開くトランザクションを完了したときに発生します。
 
 **[!UICONTROL Include unique transaction IDs]:** （オプション）トランザクション ID プロパティ (`ev_transid=<transid>`) をタグ内に追加します。 このオプションはデフォルトで選択されています。
 

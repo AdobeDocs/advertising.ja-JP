@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] コンバージョンデータ'
 description: 次のタイプについて説明します。 [!DNL Google Ads] — 検索、ソーシャル、コマースで使用できる追跡されたコンバージョンデータ。
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 検索、ソーシャル、コマースの各データを同期し、「[!DNL Include in 'Conversions']「 」オプションが有効になり、過去 35 日間のデータをプルした後、09 までに毎日データに変更をプルする:00-10:広告主のタイムゾーンの 00。 履歴データは、クリックごとに新しいコンバージョンが追跡されるので、日々変化する場合があります。
 
-それぞれに最大 3 つのトランザクションプロパティ [[!DNL Google Ads] — 追跡されたコンバージョン](https://support.google.com/google-ads/answer/4677036) ( [!DNL Google Ads]) は、検索、ソーシャル、コマースで、 [!DNL Google Ads]. 各コンバージョンのトランザクションプロパティには、次のものがあります。
+それぞれ最大 3 つの指標 [[!DNL Google Ads] — 追跡されたコンバージョン](https://support.google.com/google-ads/answer/4677036) ( [!DNL Google Ads]) は、検索、ソーシャル、コマースで、 [!DNL Google Ads]. 各コンバージョンの指標は次のとおりです。
 
 * `GGL*` — （追跡する場合）キーワードのコンバージョン値で、「GGL」プレフィックスで始まる値（GGL Purchase など）。
 
