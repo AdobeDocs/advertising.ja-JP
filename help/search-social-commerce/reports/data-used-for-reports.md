@@ -3,7 +3,7 @@ title: レポートに使用するデータ
 description: データビューとカスタムレポートで使用できる様々なタイプのデータについて説明します。
 exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 検索、ソーシャル、コマースには、クリックデータとコンバージョンデータに基づく、包括的なパフォーマンスレポートのセットが含まれます。 ポートフォリオまたは広告アカウントの様々なコンポーネントの基本的なパフォーマンスデータは、 [!UICONTROL Portfolios] および [!UICONTROL Campaigns] 表示を使用して、様々な基本レポートと詳細レポートを生成する方法も説明します。
 
-また、Adobe Advertisingコンバージョントラッキングサービスを使用する広告主は、参照元 Web サイトの地理的な場所またはドメイン名のクリック数、各チャネルの広告とコンバージョンにつながる様々なイベントが全体のコンバージョン率にどのように貢献し、コンバージョンを 1 つに分布します [取引財産](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) マーケティングチャネル別。 使用できるレポートは、ユーザーのアカウントタイプによって異なります。 Adobeアカウントチームは、すべてのレポートにアクセスできます。
+また、Adobe Advertisingコンバージョントラッキングサービスを使用する広告主は、参照元 Web サイトの地理的な場所またはドメイン名のクリック数、各チャネルの広告とコンバージョンにつながる様々なイベントが全体のコンバージョン率にどのように貢献し、コンバージョンを 1 つに分布します [コンバージョン指標](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) マーケティングチャネル別。 使用できるレポートは、ユーザーのアカウントタイプによって異なります。 Adobeアカウントチームは、すべてのレポートにアクセスできます。
 
 ほとんどのレポートは、表示する情報のみを表示するようにカスタマイズできます。 次の標準指標は、ほとんどのレポートで使用でき、広告レベルで計算されます。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Estimated Clicks]:** (Adobe Advertisingコンバージョントラッキングサービスを使用する広告主向けの高度なレポートのみに含まれる ) 参照元 Web サイトの市区町村またはドメイン名に対する推定クリック数の合計です。 これには、広告主が広告アカウントを持たない広告ネットワークのデータが含まれる場合があります。
 
-* **コンバージョン指標：** 広告主の [トランザクションプロパティ](/help/search-social-commerce/glossary.md#s-t)、またはコンバージョンタイプに向けて追跡されたトランザクションデータ。 これには、Adobe Analyticsから同期される計算指標や高度な計算指標ではなく、コンバージョン指標やサイトエンゲージメント指標を含めることができます。
+* **コンバージョン指標：** 各広告主のコンバージョン指標、またはコンバージョン指標に向けて追跡されたトランザクションデータのコンバージョンの合計数。 これには、Adobe Analyticsから同期される計算指標や高度な計算指標ではなく、コンバージョン指標やサイトエンゲージメント指標を含めることができます。
 
   これには次も含まれます。 [[!DNL Google Ads]追跡されたコンバージョン](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) および [[!DNL Google Analytics]追跡されたコンバージョン](/help/search-social-commerce/admin/data-sources/data-source-about.md) 広告主アカウントに同期される
 

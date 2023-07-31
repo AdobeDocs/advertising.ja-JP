@@ -3,9 +3,9 @@ title: カスタムレポートに関する FAQ
 description: データの問題のトラブルシューティングなど、パフォーマンスレポートに関するよくある質問への回答を説明します。
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
-source-wordcount: '3919'
+source-wordcount: '3920'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 期間のデータが将来の入札にまったく影響を与えたくない場合は、モデルからそれらの日付を除外するように選択できます。 日付を除外するには、Adobeアカウントチームにお問い合わせください。
 +++
 
-+++特定のプロパティ指標 ( [!UICONTROL Device] または [!UICONTROL Objective Name]?
++++特定のアカウントプロパティ指標（例： ）に関するレポートを作成できますか。 [!UICONTROL Device] または [!UICONTROL Objective Name]?
 キャンペーンエンティティレポートの場合 ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report]、および [!UICONTROL Product Group Report]) の場合、指標データは、レポートに含めるプロパティ列によって動的に集計されます。 オプションで、レポートのキー列を削除し、データを集計するプロパティ列のみを含めることができます。
 
 例えば、 [!UICONTROL Keyword Report] を含む [!UICONTROL Ad Group] および  次に、デフォルトでは、デバイス列は、広告グループおよびデバイスタイプごとに各キーワードの指標を集計します。 ただし、 [!UICONTROL Keyword] 」列を使用してレポートを生成すると、デバイスタイプ別に指定した広告グループの指標がレポートで動的に生成されます。
@@ -107,7 +107,7 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 デフォルトでは、レポート内のすべての金額データは、米ドルの形式（1,000.00 など）で表示されます。 値を正しい通貨形式で（ただし、CSV 形式と TSV 形式の通貨記号を含まない）表示するには、[!UICONTROL Currency]」列に表示されます。 異なる通貨のアカウントのデータがレポートに含まれる場合は、[!UICONTROL Total]「通貨の値は、通貨に関係なく、列内のすべての数値の合計に過ぎません。
 +++
 
-+++トランザクションプロパティに、自然数（1、2 など）である必要がある 10 進数値が表示されるのはなぜですか？
++++コンバージョン指標に、自然数（1、2 など）である必要がある 10 進数値が表示されるのはなぜですか？
 次の場合、10 進数の値が表示されます。
 
 * コンバージョン属性ルールのパラメーターで、 [!UICONTROL Last Event] または [!UICONTROL First Event]に値を指定すると、売上高がコンバージョンパス内の複数のイベントに分割される場合があります。
@@ -162,13 +162,13 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 
 * 該当するすべての Web ページまたは編集されたに、コンバージョントラッキングタグが正しく実装されていない。
 
-* 検索、ソーシャル、コマースの各トラッキング対象のトランザクションプロパティは、レポートから除外されるので、表示されません。
+* Search、Social、および Commerce で追跡されるコンバージョン指標は、レポートから除外されるので、表示されません。
 
 * クライアントの収益パーサーが実装されませんでした。
 
 *考えられる解決策または回避策：*
 
-1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、自分またはAdobeアカウントチームが [トランザクションプロパティをレポートで使用できるようにする](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、自分またはAdobeアカウントチームが [コンバージョン指標をレポートで使用できるようにする](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. 該当するすべての Web ページに正しいコンバージョントラッキングタグが実装されていることを確認します。 必要に応じて、Adobeアカウントチームに、該当する各コンバージョントラッキングタグに対してテストトランザクションを作成し、トランザクションの詳細 ( `transactionid` Cookie から取得した詳細 ( `trackingid`, `clickid`など )。
 
@@ -188,7 +188,7 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 
 * フィードファイルが配信されなかったか、完全に解析されなかったか、フィードにオーファントランザクションが含まれていました。
 
-* 関連するトランザクションプロパティはレポートから除外されるので、表示されません。
+* 関連するコンバージョン指標はレポートから除外されるので、表示されません。
 
 >[!NOTE]
 >
@@ -196,7 +196,7 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 
 *考えられる解決策または回避策：*
 
-1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、自分またはAdobeアカウントチームが [トランザクションプロパティをレポートで使用できるようにする](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、自分またはAdobeアカウントチームが [コンバージョン指標をレポートで使用できるようにする](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. を実行します。 [!UICONTROL Portfolio Report]. 空の場合は、 [!UICONTROL Campaign Report] および [!UICONTROL Search Engine Report] をクリックして、これらのレポートに売上高が表示されるかどうかを確認します。 割り当てられている場合、キャンペーンが適切なポートフォリオに割り当てられていない可能性があります。
 
@@ -313,7 +313,7 @@ The [!UICONTROL Portfolio Report] 指定したポートフォリオに割り当�
 広告ネットワークは、売上高をキャンペーンの個々の広告に関連付けるのに必要な識別子を提供しません。 その結果、 [!UICONTROL Ads] 表示または [!UICONTROL Ad Variation Report]. キャンペーンの広告レベルの合計データとキャンペーンの合計データの間に相違が生じることを想定しています。
 +++
 
-+++ [!UICONTROL Transaction Report]、データフィードのトランザクションプロパティと、トランザクショントラッキングピクセルによって追跡されているトランザクションプロパティを知るには、どうすればよいですか。Adobe Advertisingトラッキングピクセルを使用します。
++++ [!UICONTROL Transaction Report]データフィードのコンバージョン指標とAdobe Advertisingトラッキングピクセルで追跡されているコンバージョン指標を確認するには、どうすればよいですか？
 トランザクションレポートで、カスタム列「[!UICONTROL Tracking URL].&quot; Adobe Advertisingトラッキングピクセルが「 」で始まる URL のトラッキング`http://pixel.everesttech.net`.&quot;
 +++
 

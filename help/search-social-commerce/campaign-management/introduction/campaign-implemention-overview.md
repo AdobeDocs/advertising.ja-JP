@@ -3,7 +3,7 @@ title: 広告ネットワークアカウントとキャンペーンの実装の�
 description: 広告ネットワークアカウントの設定、同期、管理に関するタスクについて説明します。
 exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%

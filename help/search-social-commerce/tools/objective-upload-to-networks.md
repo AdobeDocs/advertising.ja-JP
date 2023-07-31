@@ -3,7 +3,7 @@ title: 広告ネットワークへの目標のアップロードを有効にす�
 description: ハイブリッドポートフォリオの目標を次にアップロードする方法を説明します。 [!DNL Google Ads] および [!DNL Microsoft® Advertising].
 exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 広告主アカウントがハイブリッド最適化を使用するように設定されている場合、Adobe Advertisingは、オプションでアカウントのポートフォリオの目標を次にアップロードできます。 [!DNL Google Ads] および [!DNL Microsoft® Advertising] コンバージョンとして機能し、ハイブリッド最適化に使用できます。
 
-このオプションを有効にすると、スマート入札戦略を持つキャンペーンを含むポートフォリオ用に、自動的にトリガーおよびアップロードが行われます。 検索、ソーシャル、コマースは、広告ネットワーク上で、該当するポートフォリオと目標の組み合わせごとにコンバージョンを作成します。 各コンバージョンには `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`です。 `<portfolio_id>` は数値のポートフォリオ ID で、 `<se_acctid/conversion_manager_se_acctid>` は、広告ネットワークアカウントまたは広告マネージャーアカウントの数値 ID です。 コンバージョンは、目標のすべての重み付けトランザクションプロパティを表します。
+このオプションを有効にすると、スマート入札戦略を持つキャンペーンを含むポートフォリオ用に、自動的にトリガーおよびアップロードが行われます。 検索、ソーシャル、コマースは、広告ネットワーク上で、該当するポートフォリオと目標の組み合わせごとにコンバージョンを作成します。 各コンバージョンには `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`です。 `<portfolio_id>` は数値のポートフォリオ ID で、 `<se_acctid/conversion_manager_se_acctid>` は、広告ネットワークアカウントまたは広告マネージャーアカウントの数値 ID です。 コンバージョンは、目標のすべての重み付けされたコンバージョン指標を表します。
 
 アップロード先 [!DNL Google Ads] は、広告主のタイムゾーンの毎日 06:00 に発生します。 アップロード先 [!DNL Microsoft® Advertising] は、広告主のタイムゾーンの毎日 09:00 に発生します。
 

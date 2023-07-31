@@ -4,7 +4,7 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 + [新機能](home.md)
 + [このガイドについて](help-about.md)
 + はじめに {#intro}
-   + [Adobe広告検索、ソーシャル、コマースについて](/help/search-social-commerce/introduction/about.md)
+   + [Adobe Advertising検索、ソーシャル、コマースについて](/help/search-social-commerce/introduction/about.md)
    + [サポートされる在庫](/help/search-social-commerce/introduction/supported-inventory.md)
    + Adobe Experience Cloudとの統合 {#integrations}
       + [Adobe Experience Cloudソリューションおよびサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
@@ -38,7 +38,7 @@ ht-degree: 2%
    + データビューのカスタマイズ {#data-views}
       + [キャンペーン管理ビューでのデータのカスタマイズについて](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)
       + [デフォルトビューとカスタムビューの管理](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)
-      + アドホック表示設定 {#ad-hoc-settings}
+      + アドホック表示の設定 {#ad-hoc-settings}
          + [列見出しメニューから列セットを編集](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)
          + [列セットを編集し、 [!UICONTROL Custom Columns] アイコン](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
          + [キャンペーン表示での列設定のロックとロック解除](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)
@@ -60,7 +60,7 @@ ht-degree: 2%
       + [複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)
       + [カレンダーを使用して日付を指定](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)
       + [トレンドグラフの表示/非表示を切り替える](/help/search-social-commerce/common-tasks/navigation-editing-selection/trend-chard-show-hide.md)
-      + [管理ビューのデータを更新](/help/search-social-commerce/common-tasks/navigation-editing-selection/refresh.md)
+      + [管理ビューのデータを更新する](/help/search-social-commerce/common-tasks/navigation-editing-selection/refresh.md)
       + 管理ビューのデータのダウンロード {#download-data-views}
          + [キャンペーン管理ビューからのデータのダウンロード](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
          + [パフォーマンスデータレポートまたはバルクシートファイルを [!UICONTROL Downloads] メニュー](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
@@ -84,12 +84,12 @@ ht-degree: 2%
       + [s_kwcid トラッキングパラメーター](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + コンバージョントラッキング {#conversion-tracking}
       + [コンバージョントラッキングオプション](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe広告コンバージョントラッキング {#advertising-conversion-tracking}
-         + [Adobe広告のコンバージョントラッキングタグについて](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+      + Adobe Advertisingコンバージョンの追跡 {#advertising-conversion-tracking}
+         + [Adobe Advertisingのコンバージョントラッキングタグについて](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [JavaScript コンバージョントラッキングタグバージョン 3 の形式](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [JavaScript コンバージョントラッキングタグバージョン 2 の形式](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [画像コンバージョントラッキングタグの形式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
-         + [Adobe広告の JavaScript コンバージョンマッピングタグ](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+         + [Adobe Advertisingの JavaScript コンバージョンマッピングタグ](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
          + [コンバージョンおよびページビューのトラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
       + [Adobe Analyticsコンバージョントラッキング](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
       + フィードを使用した広告主がトラッキングしたコンバージョン{#conversion-feeds}
@@ -185,12 +185,12 @@ ht-degree: 2%
                   + [キャンペーンおよび広告グループのオーディエンスターゲットの管理](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
                   + [キャンペーンおよび広告グループのオーディエンスの除外の管理](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
          + 広告の拡張 {#ad-extensions}
-            + [!DNL Google Ads] 引き出し線拡張 {#callouts}
-               + [について [!DNL Google Ads] 引き出し線拡張](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
-               + [管理 [!DNL Google Ads] 引き出し線拡張](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
+            + [!DNL Google Ads] 引き出し線の拡張 {#callouts}
+               + [について [!DNL Google Ads] 引き出し線の拡張](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
+               + [管理 [!DNL Google Ads] 引き出し線の拡張](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
                + [関連付け [!DNL Google Ads] キャンペーンまたは広告グループで共有された引き出し線拡張](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
             + [管理 [!DNL Google Ads] 場所の拡張](/help/search-social-commerce/campaign-management/campaigns/location-extension-manage.md)
-            + Sitelink の拡張 {#sitelinks}
+            + Sitelink の拡張機能 {#sitelinks}
                + [sitelink の拡張について](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-about.md)
                + [共有サイトリンクを管理](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md)
                + [共有サイトリンクをアカウント、キャンペーンおよび広告グループに関連付ける](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-associate.md)
@@ -198,7 +198,7 @@ ht-degree: 2%
       + 一括シートを使用した一括データの管理 {#bulksheets}
          + [バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)
          + [バルクシートをアップロードするための FTP アカウントの設定](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)
-         + [バルクシートファイルのダウンロード/作成](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+         + [バルクシートファイルをダウンロード/作成する](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
          + [バルクシートファイル内のランディングページの検証](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)
          + [生成またはアップロードされたバルクシートファイルのエクスポート](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-export.md)
          + [バルクシートファイルまたは修正済みエラーファイルのアップロード](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)
@@ -231,17 +231,17 @@ ht-degree: 2%
          + フィードから作成されたキャンペーンデータの使用 {#propagated-data}
             + [フィードから生成されたデータを表示](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-view.md)
             + [フィードから生成されたデータを編集](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-edit.md)
-            + [フィードから広告ネットワークに生成されたキャンペーンデータを投稿](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-post.md)
+            + [フィードから広告ネットワークに生成されたキャンペーンデータを投稿します](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-post.md)
             + [在庫フィードデータの転記ジョブを停止します](/help/search-social-commerce/campaign-management/inventory-feeds/stop-job.md)
             + [フィードから生成されたデータのステータス](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-status.md)
       + 一意のワークフローを使用したキャンペーンと広告の実装{#special-campaign-types}
          + [実装方法 [!DNL Google Ads] 動的検索広告](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md)
          + [実装方法 [!DNL Google Ads] 最大パフォーマンスキャンペーン](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md)
-         + [実装方法 [!DNL Google Ads] ショッピングキャンペーン](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
-         + [実装方法 [!DNL Microsoft Advertising] ショッピングキャンペーン](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
-      + [広告ネットワークデータを手動で同期](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
+         + [実装方法 [!DNL Google Ads] 買い物キャンペーン](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
+         + [実装方法 [!DNL Microsoft Advertising] 買い物キャンペーン](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+      + [広告ネットワークデータを手動で同期する](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
    + [ポートフォリオにキャンペーンを割り当てる](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
-   + [ポートフォリオからキャンペーンを削除](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
+   + [ポートフォリオからキャンペーンを削除する](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
    + ラベル分類の管理 {#label-classifications}
       + [ラベルの分類について](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)
       + [ラベルの分類の作成](/help/search-social-commerce/campaign-management/label-classifications/classification-create.md)
@@ -273,58 +273,58 @@ ht-degree: 2%
          + 基本レポートと高度なレポート {#basic-advanced-reports}
             + [基本レポートと高度なレポートについて](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
             + 基本レポート形式 {#basic-report-formats}
-               + [この [!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)
-               + [この [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)
-               + [この [!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)
-               + [この [!UICONTROL Campaign Hourly Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-hourly-report.md)
-               + [この [!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)
-               + [この [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)
-               + [この [!UICONTROL Label Classification Report]](/help/search-social-commerce/reports/management/basic-advanced/label-classification-report.md)
-               + [この [!UICONTROL Label Value Report]](/help/search-social-commerce/reports/management/basic-advanced/label-value-report.md)
-               + [この [!UICONTROL Network Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/network-constraint-report.md)
-               + [この [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)
-               + [この [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md)
-               + [この [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)
-               + [この [!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)
+               + [The [!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)
+               + [The [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)
+               + [The [!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)
+               + [The [!UICONTROL Campaign Hourly Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-hourly-report.md)
+               + [The [!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)
+               + [The [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)
+               + [The [!UICONTROL Label Classification Report]](/help/search-social-commerce/reports/management/basic-advanced/label-classification-report.md)
+               + [The [!UICONTROL Label Value Report]](/help/search-social-commerce/reports/management/basic-advanced/label-value-report.md)
+               + [The [!UICONTROL Network Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/network-constraint-report.md)
+               + [The [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)
+               + [The [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md)
+               + [The [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)
+               + [The [!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)
             + 高度なレポート形式 {#advanced-report-formats}
-               + [この [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)
-               + [この [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)
-               + [この [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)
+               + [The [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)
+               + [The [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)
+               + [The [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)
             + [基本レポートまたは高度なレポートの生成](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
             + [基本レポート設定と詳細レポート設定](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
             + [基本レポートと高度なレポートのレポート列](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
          + アシストレポート {#assist-reports}
             + [アシストレポートについて](/help/search-social-commerce/reports/management/assist/assist-report-about.md)
             + アシストレポート形式 {#assist-report-formats}
-               + [この [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
-               + [この [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
-               + [この [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
+               + [The [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
+               + [The [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
+               + [The [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
             + [アシストレポートの生成](/help/search-social-commerce/reports/management/assist/assist-report-generate.md)
             + [レポート設定の支援](/help/search-social-commerce/reports/management/assist/assist-report-settings.md)
          + 特殊レポート {#specialty-reports}
             + [特殊レポートについて](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
             + 特殊なレポート形式 {#specialty-report-formats}
-               + [この [!UICONTROL AdWords and Bing Audience Target Report]](/help/search-social-commerce/reports/management/specialty/adwords-bing-audience-target-report.md)
-               + [この [!UICONTROL AdWords Conversion Report]](/help/search-social-commerce/reports/management/specialty/adwords-conversion-report.md)
-               + [この [!UICONTROL AdWords Geo Report]](/help/search-social-commerce/reports/management/specialty/adwords-geo-report.md)
-               + [この [!UICONTROL AdWords Search Query Report]](/help/search-social-commerce/reports/management/specialty/adwords-search-query-report.md)
-               + [この [!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/reports/management/specialty/adwords-shopping-performance-report.md)
-               + [この [!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-geo-report.md)
-               + [この [!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-search-query-report.md)
-               + [この [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
-               + [この [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
-               + [この [!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
-               + [この [!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)
-               + [この [!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-keyword-report.md)
-               + [この [!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-ad-report.md)
+               + [The [!UICONTROL AdWords and Bing Audience Target Report]](/help/search-social-commerce/reports/management/specialty/adwords-bing-audience-target-report.md)
+               + [The [!UICONTROL AdWords Conversion Report]](/help/search-social-commerce/reports/management/specialty/adwords-conversion-report.md)
+               + [The [!UICONTROL AdWords Geo Report]](/help/search-social-commerce/reports/management/specialty/adwords-geo-report.md)
+               + [The [!UICONTROL AdWords Search Query Report]](/help/search-social-commerce/reports/management/specialty/adwords-search-query-report.md)
+               + [The [!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/reports/management/specialty/adwords-shopping-performance-report.md)
+               + [The [!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-geo-report.md)
+               + [The [!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-search-query-report.md)
+               + [The [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
+               + [The [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
+               + [The [!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
+               + [The [!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)
+               + [The [!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-keyword-report.md)
+               + [The [!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-ad-report.md)
             + [特殊なレポートの生成](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
-            + [特殊レポート設定](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+            + [特殊なレポート設定](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
             + [特殊レポートのレポート列](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
          + モデル精度レポート {#model-accuracy-reports}
             + [モデル精度レポートについて](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
             + モデルの精度レポートの形式 {#assist-report-formats}
-               + [この [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/reports/management/model-accuracy/forecast-accuracy-report.md)
-               + [この [!UICONTROL Forecast Accuracy (Actuals) Report]](/help/search-social-commerce/reports/management/model-accuracy/forecast-accuracy-actuals-report.md)
+               + [The [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/reports/management/model-accuracy/forecast-accuracy-report.md)
+               + [The [!UICONTROL Forecast Accuracy (Actuals) Report]](/help/search-social-commerce/reports/management/model-accuracy/forecast-accuracy-actuals-report.md)
             + [モデル精度レポートの生成](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-generate.md)
             + [モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
          + [既存のレポートからのレポートの作成](/help/search-social-commerce/reports/management/report-generate-from-existing.md)
@@ -370,19 +370,19 @@ ht-degree: 2%
       + [カスタムアラートの表示](/help/search-social-commerce/alerts/alert-view.md)
       + [カスタムアラート用のデータのエクスポート](/help/search-social-commerce/alerts/alert-export-data.md)
    + [変更履歴レポートを表示する](/help/search-social-commerce/reports/change-history-view.md)
-   + Recommendationsと発行者のインサイト {#recommendations}
+   + Recommendationsとパブリッシャーのインサイト {#recommendations}
       + [パブリッシャーのレコメンデーションおよびインサイトのサポートについて](/help/search-social-commerce/recommendations/recommendation-support.md)
       + [パブリッシャーのレコメンデーションとパフォーマンスインサイトを表示](/help/search-social-commerce/recommendations/recommendation-view.md)
       + [を適用または解除 [!DNL Google Ads] recommendation](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
-      + [のレコメンデーションログを表示 [!DNL Google Ads] アカウント](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [のレコメンデーションログを表示する [!DNL Google Ads] アカウント](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
       + [投稿のレコメンデーションとインサイトをポートフォリオで使用する際のベストプラクティス](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + ツール {#tools}
    + [パスワードの変更](/help/search-social-commerce/tools/password-change.md)
    + トラッキングタグを作成およびデコードするツール{#tracking}
       + [トラッキングタグを作成およびデコードするツールについて](/help/search-social-commerce/tools/tracking-tools-about.md)
-      + [クリック追跡 URL を生成](/help/search-social-commerce/tools/click-tracking-url-generate.md)
+      + [クリック追跡 URL の生成](/help/search-social-commerce/tools/click-tracking-url-generate.md)
       + [クリック追跡 URL のデコード](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-      + [Adobe広告コンバージョンタグの生成](/help/search-social-commerce/tools/conversion-tag-generate.md)
+      + [Adobe Advertisingコンバージョンタグの生成](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + 広告ネットワークへのコンバージョンデータのアップロード {#upload-ad-networks}
       + [コンバージョン指標のアップロード先 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [広告ネットワークへの目標のアップロードを有効にする](/help/search-social-commerce/tools/objective-upload-to-networks.md)
