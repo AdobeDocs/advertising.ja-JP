@@ -3,7 +3,7 @@ title: のバルクシートデータ [!DNL Yahoo! Japan] アカウント
 description: 次のフィールドについて、ダウンロードした一括送信シートのヘッダーフィールドとデータフィールドを参照します。 [!DNL Yahoo! Japan] アカウント。
 exl-id: b68edbc1-0054-4dac-be3f-4df3c4e00ba9
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2581'
 ht-degree: 0%
@@ -68,8 +68,6 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 | [!UICONTROL AMO ID] | 該当なし：作成<br><br>オプション：編集または削除 | 該当なし：作成<br><br>オプション：編集または削除 | 該当なし：作成<br><br>オプション：編集または削除 | 該当なし：作成<br><br>オプション：編集または削除 | 該当なし | （生成されたバルクシート内） [!DNL Adobe] — 同期されたエンティティに対して生成された一意の識別子。 レスポンシブ検索広告の場合、 [!UICONTROL AMO ID] を含めない限り、広告を編集または削除するにはが必要です。 [!UICONTROL Ad ID]. を使用して他のすべてのエンティティタイプのデータを編集するには [!UICONTROL AMO ID]、 [!UICONTROL AMO ID] エンティティ ID と親エンティティ ID を含めない限り、はデータの編集または削除に必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 | [!UICONTROL EF Error Message] | 該当なし | 該当なし | 該当なし | 該当なし | 該当なし | （情報を提供するために生成された一括送信シートに含まれます）行のデータに関する検索、ソーシャル、コマースからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは、 [!UICONTROL EF Errors] ファイル。 この値は広告ネットワークに投稿されません。 |
 | [!UICONTROL SE Error Message] | 該当なし | 該当なし | 該当なし | 該当なし | 該当なし | （情報を提供するために生成された一括送信シートに含まれます）行のデータに関する広告ネットワークからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは、 [!UICONTROL SE Errors] ファイル。 この値は広告ネットワークに投稿されません。 |
-
-<table style="table-layout:auto">
 
 [^1]:Excel は、ファイルを開く際に大きな数値を科学的表記 (2115585666の 2.12E+09 など ) に変換します。 標準の表記で数字を表示するには、列内の任意のセルを選択し、数式バーの内側をクリックします。
 

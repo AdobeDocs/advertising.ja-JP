@@ -3,7 +3,7 @@ title: 次に必要なバルクシートデータ： [!DNL Naver] アカウン�
 description: 次のバルクシートで、必須ヘッダーフィールドとデータフィールドを参照します： [!DNL Naver] アカウント。
 exl-id: bd6e3dab-47b0-428a-825d-bd9c21494fb0
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 0%
@@ -50,8 +50,6 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Keyword,Base URL,Destination URL,
 | [!UICONTROL AMO ID] | 該当なし：作成<br>オプション：編集または削除 | 該当なし：作成<br>オプション：編集または削除 | 該当なし：作成<br>オプション：編集または削除 | （生成されたバルクシート内） [!DNL Adobe] — 同期されたエンティティに対して生成された一意の識別子。 レスポンシブ検索広告の場合、 [!UICONTROL Ad ID]. AMO ID を持つ他のすべてのエンティティタイプのデータを編集するには、エンティティ ID と親エンティティ ID を含めない限り、AMO ID はデータの編集または削除に必要です。<br><br>検索、ソーシャル、コマースは、値を使用して、編集する正しい ID を判断しますが、広告ネットワークには ID が投稿されません。 |
 | [!UICONTROL EF Error Message] | 該当なし | 該当なし | 該当なし | （情報を提供するために生成された一括送信シートに含まれます）行のデータに関する検索、ソーシャル、コマースからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは、 [!UICONTROL EF Errors] ファイル。 この値は広告ネットワークに投稿されません。 |
 | [!UICONTROL SE Error Message] | 該当なし | 該当なし | 該当なし | （情報を提供するために生成された一括送信シートに含まれます）行のデータに関する広告ネットワークからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは、 [!UICONTROL SE Errors] ファイル。 この値は広告ネットワークに投稿されません。 |
-
-<table style="table-layout:auto">
 
 [^1]:Excel は、ファイルを開く際に大きな数値を科学的表記 (2115585666の 2.12E+09 など ) に変換します。 標準の表記で数字を表示するには、列内の任意のセルを選択し、数式バーの内側をクリックします。
 

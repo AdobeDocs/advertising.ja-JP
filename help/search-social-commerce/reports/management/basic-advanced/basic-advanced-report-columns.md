@@ -3,7 +3,7 @@ title: 基本レポートと高度なレポートのレポート列
 description: 基本レポートと高度なレポートで使用できるデータ列について説明します。
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 7ffdd97387815098994f85c4368e60b2b44838dd
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '3603'
 ht-degree: 0%
@@ -186,8 +186,6 @@ ht-degree: 0%
 | [!UICONTROL View Rate] | （ビデオ広告）視聴回数またはアクション数を、広告（ビデオおよびサムネールのインプレッション）が表示された回数で割った値です。 |
 | [!UICONTROL Views] | （ビデオ広告）ユーザーが広告を視聴した、または関与した回数です。 |
 | [!UICONTROL ViewThroughConversions] | (Ads on the audience network)1 つ以上のインプレッションに起因し、クリックは発生しなかったコンバージョンの数。 |
-
-<table style="table-layout:auto">
 
 <!-- HOW IS MARKET TYPE DIFFERENT FROM CHANNEL TYPE? And what are all possible values for each? -->
 

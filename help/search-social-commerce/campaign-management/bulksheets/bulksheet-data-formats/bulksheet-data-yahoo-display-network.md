@@ -3,7 +3,7 @@ title: のバルクシートデータ [!DNL Yahoo! Display Network] アカウン
 description: 次のフィールドについて、ダウンロードした一括送信シートのヘッダーフィールドとデータフィールドを参照します。 [!DNL Yahoo! Display Network] アカウント。
 exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -52,8 +52,6 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Keyword ID] | 該当なし | 該当なし | 含まれる場合 | 既存のキーワードを識別する一意の ID。 |
 | [!UICONTROL AMO ID] | 該当なし | 該当なし | 該当なし | （生成された一括送信シート内）同期されたAdobeに対してエンティティが生成した一意の識別子。 |
 | [!UICONTROL EF Error Message] | 該当なし | 該当なし | 該当なし | （情報を提供するために生成された一括送信シートに含まれます）行のデータに関する検索、ソーシャル、コマースからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは、 [!UICONTROL EF Errors] ファイル。 |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

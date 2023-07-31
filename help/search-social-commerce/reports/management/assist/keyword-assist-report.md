@@ -3,7 +3,7 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: 詳しくは、 [!UICONTROL Keyword Assist Report].
 exl-id: 07de2880-111b-498f-9f7f-ec15f89230ae
 feature: Search Reports, Search Assist Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -43,8 +43,6 @@ The [!UICONTROL Keyword Assist Report] クリックを引き起こすキーワ�
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[ トランザクションプロパティ\] | 自動 | （レポート設定では使用できませんが、含まれる各トランザクションプロパティのレポート出力に自動的に含まれます）最初のイベント（最初のキーワードまたは配置）からコンバージョンまでの平均待ち時間（日数）。 |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[ トランザクションプロパティ\] | 自動 | （レポート設定では使用できませんが、レポート出力に自動的に含まれます）前回のイベント（最後のキーワードまたは配置）からコンバージョンまでの平均待ち時間（日数）。 |
 | [!UICONTROL Path Frequency] | カスタム | この行のパスが変換前に発生した回数。 |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

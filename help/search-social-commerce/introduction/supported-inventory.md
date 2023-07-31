@@ -3,7 +3,7 @@ title: サポートされる在庫
 description: サポートされている広告ネットワーク、キャンペーンタイプ、広告タイプを参照します。
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -50,8 +50,6 @@ ht-degree: 0%
 | [!DNL Yahoo Native] （同期のサポートは 2022 年に終了しました） | ネイティブネットワーク | ネイティブ | テキスト | —<br><br>2022 年 3 月 10 日までのレガシーアカウント情報は、読み取り専用として利用できます。 | — | — | — | —<br><br>2022 年 3 月 10 日までに同期されたレガシー広告レベルのデータ。 | Analytics のデータを検索、ソーシャル、コマースに（逆は）適用しない |
 | [!DNL Yandex] | ネットワークを検索 | 検索 | テキスト | API を使用した自動 | 使用 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、および [在庫管理フィード](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | はい | CPC 入札戦略のみのキャンペーン | 広告レベルのデータ | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics への広告レベルのデータ |
 | | ネットワークを表示 | 表示/コンテンツ | テキスト | API を使用した自動 | 使用 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、および [在庫管理フィード](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | はい | CPC 入札戦略のみのキャンペーン | 広告レベルのデータ | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics への広告レベルのデータ |
-
-<table style="table-layout:auto">
 
 [^1]：ほとんどの広告ネットワークおよびキャンペーンタイプで、[!UICONTROL EF Redirect]&quot;および&quot;[!UICONTROL Auto Upload]「アクティブなキャンペーンのトラッキング設定（キャンペーンレベルで設定するか、アカウント設定から継承）は、広告グループコンポーネントのトラッキング URL を自動的に作成し、広告ネットワークにアップロードします。 それ以外の場合は、トラッキング URL を生成し、アカウント、キャンペーンまたはキャンペーンコンポーネントの設定に追加する必要があります。 参照：[広告ネットワークおよびオブジェクト別にクリック追跡 URL を生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 

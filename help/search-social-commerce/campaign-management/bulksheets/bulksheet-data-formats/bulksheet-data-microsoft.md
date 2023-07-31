@@ -3,7 +3,7 @@ title: 次に必要なバルクシートデータ： [!DNL Microsoft Advertising
 description: 次のバルクシートで、必須ヘッダーフィールドとデータフィールドを参照します： [!DNL Microsoft Advertising] アカウント。
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '6888'
 ht-degree: 0%
@@ -113,8 +113,6 @@ ht-degree: 0%
 | [!UICONTROL SE Error Message] | （情報を提供するために生成された一括送信シートに含まれます）行のデータに関する広告ネットワークからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは、 [!UICONTROL SE Errors] ファイル。 この値は広告ネットワークに投稿されません。 |
 | [!UICONTROL Exemption Request] | （情報を提供するために生成された一括送信シートに含まれます）広告が違反するGoogle広告ポリシーの名前とテキストを表示するためのプレースホルダーです。 |
 | [!UICONTROL Retail Hash] | (Advanced Campaign Managementを使用して生成されたバルクシートの情報用に含まれます )Advanced (ACM) ビューを使用してアイテムが生成されたことを示す英数字のハッシュコード (f9639f40cdf56524b541e5dacf55a991 など )。 |
-
-<table style="table-layout:auto">
 
 [^1]: [!DNL Excel] は、ファイルを開くときに大きな数値を科学的表記 (2115585666の 2.12E+09 など ) に変換します。 標準の表記で数字を表示するには、列内の任意のセルを選択し、数式バーの内側をクリックします。
 

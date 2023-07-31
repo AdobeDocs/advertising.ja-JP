@@ -3,7 +3,7 @@ title: モデル精度レポート設定
 description: モデル精度レポートの必須設定とオプション設定について説明します。
 exl-id: 0d0e6ace-3cb3-4cf4-8cbf-3dd5a356f35e
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '1782'
 ht-degree: 0%
@@ -31,8 +31,6 @@ ht-degree: 0%
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | ( オプション。「[!UICONTROL Save as template]」オプションが選択されている場合 )、レポートを実行するタイミング： <i>[!UICONTROL Now]</i> （レポートを 1 回だけ実行する場合。デフォルト） <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [曜日]</i>または <i>[!UICONTROL Every Month] [日]</i>. を除くすべての期間 <i>[!UICONTROL Now]</i>」で、広告主のタイムゾーンの時間（午前 9 時から開始）を選択します。 |
 |  | [!UICONTROL Email Recipients] | <b>注意：</b>  この設定は、 [!UICONTROL Reports] が [内で有効 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>レポートの完了時またはエラーが原因でキャンセルされた際に通知を送信する、登録された検索、ソーシャルおよびコマースユーザーの電子メールアドレス。 デフォルトでは、ユーザーアカウントのアドレスが入力されます。 複数のアドレスを指定する場合は、コンマ、スペース、または改行で区切ります。 レポートの実行が繰り返し実行されるようにスケジュールされている場合は、レポートが完了するたびに通知が送信されます。 |
 |  | [!UICONTROL Email Notification] | <b>注意：</b>  この設定は、 [!UICONTROL Reports] が [内で有効 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(When [!UICONTROL Email Recipients] （が指定されている場合）指定したアドレスへの電子メール通知に含める内容：<ul><li><i>[!UICONTROL Notification Only]</i> （デフォルト）：レポートの完了または失敗の通知のみ（添付ファイルなし）を送信します。 通知には、すべてのレポート形式用の一時的なダウンロードリンクが含まれます。</li><li><i>[!UICONTROL XLS Attachment]:</i> ファイルが約 10 MB 未満の場合は、完成したレポートのコピーを XLS 形式で含めます。 1 MB を超えるファイルは圧縮されます。</li><li><i>[!UICONTROL TSV Attachment]:</i> ファイルが約 10 MB 未満の場合は、完了したレポートのコピーを TSV 形式で含めます。 1 MB を超えるファイルは圧縮されます。</li><li><i>[!UICONTROL CSV Attachment]:</i> ファイルが約 10 MB 未満の場合に、完了したレポートのコピーを CSV 形式で含める。 1 MB を超えるファイルは圧縮されます。 |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >
