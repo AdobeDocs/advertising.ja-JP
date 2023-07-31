@@ -3,7 +3,7 @@ title: キャンペーンに関する FAQ
 description: キャンペーン管理とキャンペーンデータビューに関する質問への回答を参照してください。
 exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 +++([!DNL Google Ads] campaigns) 自分の表示名の変更 [!DNL Google]-tracked conversions は元に戻されました。
 
-検索、ソーシャル、コマースでトランザクションプロパティの表示名を変更すると、変更内容が [!DNL Google Ads]. 内で名前を変更します。 [!DNL Google Ads].
+検索、ソーシャル、コマースでのコンバージョン指標の表示名を変更すると、変更内容が [!DNL Google Ads]. 内で名前を変更します。 [!DNL Google Ads].
 +++
 
 +++(Google Ads キャンペーン ) ポートフォリオ内のキャンペーンに共有予算を使用できますか。

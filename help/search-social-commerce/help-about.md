@@ -3,7 +3,7 @@ title: このガイドについて
 description: このガイドの各章で説明する内容について説明します。
 exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * 「ツール」では、パスワードの変更、クリックの追跡およびコンバージョンの追跡タグの生成、コンバージョン指標のアップロード、 [!DNL Google Ads] およびポートフォリオの目標をハイブリッド最適化用の広告ネットワークに追加し、トラッキングキャンペーン用の指標をアップロードして、 [!DNL Google Ads] キャンペーンを [!DNL Microsoft Advertising] アカウント。
 
-* 「管理」では、収集されたトランザクションプロパティや、ポートフォリオ予測から除外する日付など、広告主データの管理方法を説明し、コンバージョン指標を [!DNL Google Analytics] アカウント。広告主レベルの様々な設定を行い、（一部の役割）ユーザー、代理店、広告主のアカウントを管理します。
+* 「管理」では、収集されたコンバージョン指標や、ポートフォリオ予測から除外する日付など、広告主データの管理方法を説明し、コンバージョン指標を [!DNL Google Analytics] アカウント。広告主レベルの様々な設定を行い、（一部の役割）ユーザー、代理店、広告主のアカウントを管理します。
 
 >[!NOTE]
 >

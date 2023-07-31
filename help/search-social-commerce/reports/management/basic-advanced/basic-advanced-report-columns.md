@@ -3,9 +3,9 @@ title: 基本レポートと高度なレポートのレポート列
 description: 基本レポートと高度なレポートで使用できるデータ列について説明します。
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '3603'
+source-wordcount: '3598'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 0%
 | ---- | ---- |
 | \[ 広告主固有のカスタム（派生）指標\] | の値 [作成したカスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) これは既存の指標から計算されます。 |
 | \[ 広告主固有のラベルの分類\] | エンティティに現在適用されている、エンティティレベルのラベル分類。 複数のラベル分類はコンマ (,) で区切ります。 |
-| \[ 広告主固有のトランザクションプロパティ\] | 指定したトランザクションプロパティまたはサイトエンゲージメント指標に対するコンバージョンの数。 |
-| \[Google-tracked conversions/transaction properties\] | 「GGL\*、GGL_CT\*および GGL_XD_CT\*」のエントリを参照してください。 |
+| \[ 広告主固有のコンバージョン指標\] | 指定したコンバージョン指標またはサイトエンゲージメント指標に対するコンバージョンの数。 |
+| \[Google — トラッキングされたコンバージョン\] | 「GGL\*、GGL_CT\*および GGL_XD_CT\*」のエントリを参照してください。 |
 | [!UICONTROL 7-Day Click Accuracy] | ([!UICONTROL Portfolio Report]) 過去 7 日間の予測クリック数の平均精度（現在の日付を含まず、レポートの指定した日付範囲を含まない）をパーセンテージで表したもの。 |
 | [!UICONTROL 7-Day Cost Accuracy] | ([!UICONTROL Portfolio Report]) 過去 7 日間のコスト予測の平均精度 ( 現在の日付を含まない（レポートの指定した日付範囲を含まない）。パーセンテージで表されます。 |
 | [!UICONTROL 7-Day Revenue Accuracy] | ([!UICONTROL Portfolio Report]) 過去 7 日間の売上高予測の平均精度 ( 現在の日付を含まない（レポートの指定した日付範囲を含まない）。パーセンテージで表されます。 |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Estimated Impressions] | （キャンペーンのみを表示）検索、ソーシャル、コマースで追跡された広告インプレッション数の推定値。 この値は、 [!UICONTROL Impressions] 列（使用可能な場合）：広告ネットワークによって提供される値を表示します。 |
 | [!UICONTROL Exclude (yes/no)] | 入札が除外されるかどうか (<i>[!UICONTROL Yes]</i>) または入札が許可されます (<i>[!UICONTROL No]</i>) を参照してください。 |
 | [!UICONTROL First Page CPC] | (Googleキャンペーンのみ ) 指定した日付範囲で検索結果の最初のページに表示される広告のクリック単価 (CPC)。 |
-| `GGL*`, `GGL_CT*`、および `GGL_XD_CT*` [[!DNL Google Ads] — 追跡されたコンバージョン/トランザクションのプロパティ。 | ([!DNL Google Ads] 検索およびショッピングネットワーク上のキャンペーン ) [!DNL Google Ads] — トラッキングされたコンバージョン。各コンバージョンに最大 3 つの異なるトランザクションプロパティを持ちます。<ul><li>`GGL*` — （追跡する場合）キーワードのコンバージョン値で、「GGL」プレフィックスで始まる値（GGL Purchase など）。</li><li>`GGL_CT*` — 「GGL_CT」プレフィックス（GGL_CT_Purchase など）で始まるコンバージョンの数（カウント）。</li><li>`GGL_XD_CT*` — （コンバージョンタイプで使用可能な場合、コンバージョンを追跡する際）クロスデバイスコンバージョンの数（数）。 [!DNL Google Ads] 「GGL_XD_CT_」プレフィックスで始まる (GGL_XD_CT_Purchase など )。</li></ul><br>各コンバージョンは、入札単位およびクリック日別に記録されます。イベントレベルでは使用できません。 詳しくは、 [!DNL Google Ads] — トラッキングされたコンバージョン：[[!DNL Google Ads] 検索、ソーシャル、コマースのコンバージョンデータ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
+| `GGL*`, `GGL_CT*`、および `GGL_XD_CT*` [[!DNL Google Ads] — 追跡されたコンバージョン数 | ([!DNL Google Ads] 検索およびショッピングネットワーク上のキャンペーン ) [!DNL Google Ads] — トラッキングされたコンバージョン。各コンバージョンに最大 3 つの異なる指標があります。<ul><li>`GGL*` — （追跡する場合）キーワードのコンバージョン値で、「GGL」プレフィックスで始まる値（GGL Purchase など）。</li><li>`GGL_CT*` — 「GGL_CT」プレフィックス（GGL_CT_Purchase など）で始まるコンバージョンの数（カウント）。</li><li>`GGL_XD_CT*` — （コンバージョンタイプで使用可能な場合、コンバージョンを追跡する際）クロスデバイスコンバージョンの数（数）。 [!DNL Google Ads] 「GGL_XD_CT_」プレフィックスで始まる (GGL_XD_CT_Purchase など )。</li></ul><br>各コンバージョンは、入札単位およびクリック日別に記録されます。イベントレベルでは使用できません。 詳しくは、 [!DNL Google Ads] — トラッキングされたコンバージョン：[[!DNL Google Ads] 検索、ソーシャル、コマースのコンバージョンデータ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] （のみ）オーガニック検索結果の上の最初の広告として表示される広告インプレッションの割合。 |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] （のみ）オーガニック検索結果の上に表示される広告インプレッションの割合。 |
 | [!UICONTROL Impressions] | 指定した日付範囲での広告インプレッション数。 |
@@ -152,7 +152,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group ID] | 広告ネットワークが製品グループに割り当てる数値 ID。 |
 | [!UICONTROL Product Groupings] | 親製品グループ。 |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] 製品リスト広告 ) 広告と共に表示される製品の製品 ID。<br><br><b>注意：</b> この ID は、製品リストにトラッキングパラメーターが含まれている場合にのみ取り込まれます `ev_plx=<GMC product ID>`（内に追加する必要があります） [!DNL Google Merchant Center]. |
-| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) トランザクションプロパティの売上高（1 件の登録の場合は 1、12 米ドルの注文の場合は 12 など）。 複数の入札単位に同じトランザクション ID がある場合、トラッキング ID の売上高は、指定したクリック日（クリックデータが使用可能な場合）のクリック数に応じて分割されます。 |
+| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) コンバージョン指標の売上高（1 件の登録の場合は 1、12 米ドルの注文の場合は 12 など）。 複数の入札単位に同じトランザクション ID がある場合、トラッキング ID の売上高は、指定したクリック日（クリックデータが使用可能な場合）のクリック数に応じて分割されます。 |
 | [!UICONTROL Reach] | ([!DNL Meta] 広告 ) 少なくとも 1 回広告を閲覧した人の数です。 注意： [!DNL Meta] ユーザープロファイルのリーチの重複を毎日排除し、 [!DNL Meta] 検索、Social、および Commerce では異なる場合があります。 |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) インプレッションまたはクリックが発生した地域または米国/カナダの州。 ユーザーの IP アドレスから判断されます。 |
 | [!UICONTROL SE Creative ID] | ネットワークによって割り当てられた広告 ID。 |
@@ -176,8 +176,8 @@ ht-degree: 0%
 | [!UICONTROL Through Plays] | ([!DNL Meta] ads) 広告全体を視聴した視聴回数。 |
 | [!UICONTROL Top of Page CPC] | (Googleキャンペーンのみ ) 指定した日付範囲で検索結果ページの先頭に表示される広告のクリック単価 (CPC)。 |
 | [!UICONTROL Tracking URL] | （検索ターゲットキーワードのみ）（該当する場合）検索、ソーシャル、コマースのトラッキングコードに埋め込まれた、トラッキングテンプレートまたはリンク先 URL。 |
-| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) トランザクションのクレジットが付与される広告主固有のトランザクションプロパティ。 |
-| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) 指定したトランザクションプロパティがクレジットされた時刻。 |
+| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) トランザクションのクレジットが付与される広告主固有のコンバージョン指標。 |
+| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) 指定したコンバージョン指標が計上された時刻。 |
 | [!UICONTROL User Account Type] | 廃止 |
 | [!UICONTROL User SE Account ID] | Search、Social および Commerce が広告ネットワークに割り当てる数値 ID。 |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] ads) 単一のインプレッションに対する、ビデオの再生に費やされた時間を含む、ビデオが再生された平均時間。 |

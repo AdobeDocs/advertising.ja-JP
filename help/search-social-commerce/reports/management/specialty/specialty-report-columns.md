@@ -3,7 +3,7 @@ title: 特殊レポートのレポート列
 description: 特殊レポートで使用できるデータ列について説明します。
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 | 列 | 説明 |
 |----|----|
 | \[ 広告主固有のカスタム（派生）指標\] | 作成した、既存の指標から計算されたカスタム指標の値。 |
-| \[ 広告主固有のトランザクションプロパティ\] | 指定したトランザクションプロパティまたはサイトエンゲージメント指標に対するコンバージョンの数。 |
+| \[ 広告主固有のコンバージョン指標\] | 指定したコンバージョン指標またはサイトエンゲージメント指標に対するコンバージョンの数。 |
 | [!UICONTROL Account Name] | アカウント名。 |
 | [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] レポート ) 広告ネットワークによって割り当てられたアカウント識別子。 |
 | [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] レポート ) アカウントのステータス： *[!UICONTROL Active]*, *[!UICONTROL Paused]*&#x200B;または *[!UICONTROL Inactive]*. |

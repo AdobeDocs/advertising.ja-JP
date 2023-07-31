@@ -3,7 +3,7 @@ title: ユーザーインターフェイスの編成方法
 description: 様々な機能にアクセスする場所を説明します。
 exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Tools]**  — このメニューには、アカウントのパスワード変更、Web サイトページからのコンバージョンの追跡、クリック追跡 URL の生成とデコード、および検索追跡キャンペーン用の指標のアップロードを行うためのタグ生成のオプションが含まれています。
 
-* **[!UICONTROL Admin]** — [!UICONTROL Admin] メニューには、データテーブルとレポートでの広告主のトランザクションプロパティの表示名の変更、Adobe Audience Managerアカウントと同期する設定、特定の [!DNL Google Analytics] アカウント、プロパティ、ビューの組み合わせ。 役割に応じて、広告主アカウント、代理店アカウント、ユーザーの役割およびユーザーアカウントを管理できる場合があります。
+* **[!UICONTROL Admin]** — [!UICONTROL Admin] メニューには、データテーブルとレポートでの広告主のコンバージョン指標の表示名の変更、Adobe Audience Managerアカウントと同期する設定、特定の [!DNL Google Analytics] アカウント、プロパティ、ビューの組み合わせ。 役割に応じて、広告主アカウント、代理店アカウント、ユーザーの役割およびユーザーアカウントを管理できる場合があります。
 
 ## 右側のタスクや情報に基づくその他のメニュー
 

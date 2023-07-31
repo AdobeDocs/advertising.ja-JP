@@ -3,7 +3,7 @@ title: '[!UICONTROL Campaign Assist Report]'
 description: 詳しくは、 [!UICONTROL Campaign Assist Report].
 exl-id: 7fbc9c17-c77d-485b-8d51-5e5a153d7a2b
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -39,11 +39,11 @@ The [!UICONTROL Campaign Assist Report] どのキャンペーンがコンバー�
 | [!UICONTROL First Campaign] | デフォルト | コンバージョンパスの最初のキャンペーン。 |
 | [!UICONTROL Last Campaign] | デフォルト | コンバージョンにつながった最後のキャンペーン（最後のキーワードが指定されたパスサイズの外にある場合も含む）。<br><br>エンティティ名の後に広告ネットワーク、アカウント名、イベントタイプを示すレポートオプションを含めた場合、その情報はキャンペーン名の後に含まれます ( 例： `"<"campaign name> [Google] [Account1] [impression]`」) をクリックします。 |
 | \[ 広告主固有のカスタム（派生）指標\] | カスタム | 作成した、既存の指標から計算されたカスタム指標の値。 |
-| \[ 広告主固有のトランザクションプロパティ\] | カスタム | 指定したトランザクションプロパティまたはサイトエンゲージメント指標に対するコンバージョンの数。 |
-| [!UICONTROL % of Total] \[ トランザクションプロパティ\] | 自動 | （レポート設定では使用できませんが、含まれる各トランザクションプロパティのレポート出力に自動的に含まれます）キャンペーンパターンに起因する、指定したトランザクションプロパティのコンバージョン数。 |
+| \[ 広告主固有のコンバージョン指標\] | カスタム | 指定したコンバージョン指標またはサイトエンゲージメント指標に対するコンバージョンの数。 |
+| [!UICONTROL % of Total] \[ コンバージョン指標\] | 自動 | （レポート設定では使用できませんが、含まれる各コンバージョン指標のレポート出力に自動的に含まれます）指定したコンバージョン指標に対する、キャンペーンパターンによるコンバージョンの数。 |
 | [!UICONTROL 6th Campaign] から [!UICONTROL 20th Campaign] | カスタム | 広告主の [ルックバックウィンドウをクリック](/help/search-social-commerce/glossary.md#c-d) および [インプレッションのルックバックウィンドウ](/help/search-social-commerce/glossary.md#i-j).<br><br>エンティティ名の後に広告ネットワーク、アカウント名、イベントタイプを示すレポートオプションを含めた場合、その情報はキャンペーン名の後に含まれます ( 例： `"<"campaign name> [Baidu] [Account1] [click]`」) をクリックします。 |
-| [!UICONTROL Avg. Conv. Latency (First Campaign To Conversion)] \[ トランザクションプロパティ\] | 自動 | （レポート設定では使用できませんが、含まれる各トランザクションプロパティのレポート出力に自動的に含まれます）最初のイベント（最初のキャンペーン）からコンバージョンまでの平均待ち時間（日数）。 |
-| [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[ トランザクションプロパティ\] | 自動 | （レポート設定では使用できませんが、レポート出力に自動的に含まれます）前回のイベント（前回のキャンペーン）からコンバージョンまでの平均待ち時間（日数）。 |
+| [!UICONTROL Avg. Conv. Latency (First Campaign To Conversion)] \[ コンバージョン指標\] | 自動 | （レポート設定では使用できませんが、含まれる各コンバージョン指標のレポート出力に自動的に含まれます）最初のイベント（最初のキャンペーン）からコンバージョンまでの平均待ち時間（日数）。 |
+| [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[ コンバージョン指標\] | 自動 | （レポート設定では使用できませんが、レポート出力に自動的に含まれます）前回のイベント（前回のキャンペーン）からコンバージョンまでの平均待ち時間（日数）。 |
 | [!UICONTROL EF Campaign ID] | カスタム | Search、Social および Commerce がキャンペーンに割り当てる数値 ID。 |
 | [!UICONTROL EF Portfolio Group ID] | カスタム | ポートフォリオが属するポートフォリオグループの数値 ID。 |
 | [!UICONTROL EF Search Engine ID] | カスタム | Search、Social および Commerce が広告ネットワークに割り当てる数値 ID。 <i>[!UICONTROL 3]</i> 対象： [!DNL Google Ads], <i>[!UICONTROL 10]</i> 対象： [!DNL Microsoft® Advertising], <i>[!UICONTROL 45]</i> 対象： [!DNL Meta], <i>[!UICONTROL 86]</i> 対象： [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> 対象： [!DNL Naver], <i>[!UICONTROL 88]</i> 対象： [!DNL Baidu], <i>[!UICONTROL 90]</i> 対象： [!DNL Yandex], <i>[!UICONTROL 94]</i> 対象： [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> 対象： [!DNL Yahoo Native] （非推奨）、または <i>[!UICONTROL 106]</i> 対象： [!DNL Pinterest] （非推奨）。 |

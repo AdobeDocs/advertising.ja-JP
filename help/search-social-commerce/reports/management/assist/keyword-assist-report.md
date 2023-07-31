@@ -3,7 +3,7 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: 詳しくは、 [!UICONTROL Keyword Assist Report].
 exl-id: 07de2880-111b-498f-9f7f-ec15f89230ae
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -37,11 +37,11 @@ The [!UICONTROL Keyword Assist Report] クリックを引き起こすキーワ�
 | [!UICONTROL First Keyword] | デフォルト | コンバージョンパス内の最初のキーワードまたは配置。 |
 | [!UICONTROL Last Keyword] | デフォルト | （最後のキーワードが指定されたパスサイズの外にある場合でも）コンバージョンにつながった最後のキーワードまたは配置。 |
 | \[ 広告主固有のカスタム（派生）指標\] | カスタム | 作成した、既存の指標から計算されたカスタム指標の値。 |
-| \[ 広告主固有のトランザクションプロパティ\] | カスタム | 指定したトランザクションプロパティまたはサイトエンゲージメント指標に対するコンバージョンの数。 |
-| [!UICONTROL % of Total] \[ トランザクションプロパティ\] | 自動 | （レポート設定では使用できませんが、含まれる各トランザクションプロパティのレポート出力に自動的に含まれます）ポートフォリオ全体のコンバージョンのうち、キーワードや配置パターンに関連付けられた割合。 |
+| \[ 広告主固有のコンバージョン指標\] | カスタム | 指定したコンバージョン指標またはサイトエンゲージメント指標に対するコンバージョンの数。 |
+| [!UICONTROL % of Total] \[ コンバージョン指標\] | 自動 | （レポート設定では使用できませんが、含まれる各コンバージョン指標のレポート出力に自動的に含まれます）ポートフォリオ全体のコンバージョンのうち、キーワードや配置パターンに関連付けられた割合。 |
 | [!UICONTROL 6th Keyword] から [!UICONTROL 10th Keyword] | カスタム | 広告主の [ルックバックウィンドウをクリック](/help/search-social-commerce/glossary.md#c-d) および [インプレッションのルックバックウィンドウ](/help/search-social-commerce/glossary.md#i-j).<br><br><b>注意：</b> レポートに（キーワードを含まない）コンテンツ対応検索キャンペーンのプレースメントが含まれる場合、これらの列には、「(adgroup content) お使いの広告グループ名」など、該当する広告グループ名が表示されます。 |
-| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[ トランザクションプロパティ\] | 自動 | （レポート設定では使用できませんが、含まれる各トランザクションプロパティのレポート出力に自動的に含まれます）最初のイベント（最初のキーワードまたは配置）からコンバージョンまでの平均待ち時間（日数）。 |
-| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[ トランザクションプロパティ\] | 自動 | （レポート設定では使用できませんが、レポート出力に自動的に含まれます）前回のイベント（最後のキーワードまたは配置）からコンバージョンまでの平均待ち時間（日数）。 |
+| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[ コンバージョン指標\] | 自動 | （レポート設定では使用できませんが、含まれる各コンバージョン指標のレポート出力に自動的に含まれます）最初のイベント（最初のキーワードまたは配置）からコンバージョンまでの平均待ち時間（日数）。 |
+| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[ コンバージョン指標\] | 自動 | （レポート設定では使用できませんが、レポート出力に自動的に含まれます）前回のイベント（最後のキーワードまたは配置）からコンバージョンまでの平均待ち時間（日数）。 |
 | [!UICONTROL Path Frequency] | カスタム | この行のパスが変換前に発生した回数。 |
 
 >[!MORELIKETHIS]

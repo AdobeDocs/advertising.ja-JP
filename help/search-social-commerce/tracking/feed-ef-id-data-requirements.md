@@ -3,7 +3,7 @@ title: EF ID を使用したデータフィードのデータ要件
 description: EF ID を使用して、データフィードのデータ要件を参照します。
 exl-id: 15e76f3a-c376-4e7b-b3c8-ca76fd427002
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 例
 
-次のサンプルファイルには、2 つのトランザクションプロパティ（Product と Revenue）のデータが含まれています。
+次のサンプルファイルには、2 つのコンバージョン指標（製品と売上高）のデータが含まれています。
 
 ```
 EF ID,Client Transaction ID, Transaction Date,Product,Revenue
