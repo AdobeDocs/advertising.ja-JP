@@ -2,9 +2,9 @@
 title: Adobe TargetでのAdobe Advertising広告の A/B テストの設定
 description: で A/B テストを設定する方法を説明します。 [!DNL Target] DSP広告用。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: f68aa3a48ff9676fec8c38af920cff1c3a7d6caa
+source-git-commit: 7b5d8b20e7efa3178f9c43c806f37b85d8ae3f62
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -85,87 +85,71 @@ Adobeアカウントチームと Advertising Solutions Group(aac-advertising-sol
 
 1. DSPインプレッションAudience Managerからデータセグメントを設定します。
 
-   1. に移動します。 **Audience Manager** > **オーディエンスデータ** > **シグナル**&#x200B;をクリックし、 **検索** 」タブをクリックします。
+   1. セグメントデータが使用可能であることを確認します。
 
-   1. 次を入力します。 **キー** および **値** を返します。 の使用 [サポートキー](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) に、Audience Managerインプレッションイベントピクセルに追加したマクロに対応する値を指定します。
+      1. [シグナルを検索](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html) （の） [キー値ペア](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html) これにより、どのレベルでセグメントユーザーをグループ化するかが決まります。
 
-      例えば、特定のプレースメントのユーザーをグループ化するには、 `d_placement` キー。 値には、DSPマクロでキャプチャされた実際の数値配置 ID( 上のスクリーンショットの2501853など ) を使用します `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
+         の使用 [サポートキー](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) に、Audience Managerインプレッションイベントピクセルに追加したマクロに対応する値を指定します。
 
-      「合計数」フィールドに、ピクセルが正しく配置され、データが流れていることを示すキーと値のペアのユーザー数が表示される場合は、次の手順に進むことができます。
+         例えば、特定のプレースメントのユーザーをグループ化するには、 `d_placement` キー。 値には、DSPマクロで取り込まれた実際の数値配置 ID(2501853など ) を使用します `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
-   ![シグナルを検索](/help/integrations/assets/target-am-signals.png)
+         検索結果にキーと値のペアのユーザー数が表示される場合は、ピクセルが正しく配置され、データが流れていることを示し、次の手順に進みます。
 
-1. [ルールベースの特性の作成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) (Audience Managerでのセグメント作成用 )
+   1. [ルールベースの特性の作成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) (Audience Managerでのセグメント作成用 )
 
-   1. テストアクティビティ内で簡単に識別できるように、特性に名前を付けます。 目的のフォルダーに特性を保存します。
+      * テストアクティビティ内で簡単に識別できるように、特性に名前を付けます。 目的のフォルダーに特性を保存します。
 
-   1. 次から： **データソース** ドロップダウンメニューで、「 **Ad Cloud**.
+      * 選択 `Ad Cloud` として **データソース**.
 
-   1. 式ビルダー内で、 `d_event` 「キー」フィールドと `imp` （内） **値** フィールド、選択 **ルールを追加**&#x200B;をクリックし、特性を保存します。
+      * 特性の式には、 `d_event` として **キー** および `imp` として **値**.
 
-   ![ルールベースの特性のスクリーンショット](/help/integrations/assets/target-am-trait.png)
-
-1. 次のAudience Managerでテストセグメントを設定します。
-
-   1. ページの上部で、に移動します。 **オーディエンスデータ** > **特性** 完全な特性名を検索します。 特性名の横にあるチェックボックスを選択し、「 」をクリックします。 **セグメントを作成**.
-
-   1. セグメントに名前を付け、「 」を選択します。 `Ad Cloud` として **データソース**&#x200B;をクリックし、セグメントを保存します。
+   1. [テストセグメントの設定](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) Audience Managerの新しい特性の場合、「 `Ad Cloud` として **データソース**.
 
       Audience Managerは、セグメントを、標準のランディングページエクスペリエンスを受け取るコントロール母集団と、パーソナライズされたオンサイトエクスペリエンスを受け取るテストグループに自動的に分割します。
-
-   ![テストセグメントのスクリーンショット](/help/integrations/assets/target-am-segment.png)
 
 ## 手順 3:Target での「A/B テスト」アクティビティの設定
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-以下の手順は、DSPの使用例に関する情報をハイライトします。 詳しい手順については、[A/B テストの作成](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)&quot;.
+以下の手順は、DSPの使用例に関する情報をハイライトします。 詳細な手順については、「」を参照してください。
 
 1. [Adobe Targetにログイン](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
-1. 次から： **アクティビティ** リスト、クリック **アクティビティを作成** > **A/B テスト**.
+1. [A/B テストの作成](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
 
-   ![A/B テストアクティビティの作成](/help/integrations/assets/target-create-ab.png)
+   1. Adobe Analytics の **アクティビティ URL を入力** 「 」フィールドに、テストのランディングページ URL を入力します。
 
-1. Adobe Analytics の **アクティビティ URL を入力***フィールドに、テストのランディングページの URL を入力します。
+      >[!NOTE]
+      >
+      >複数の URL を使用して、ビュースルーサイトエントリをテストできます。 詳しくは、[複数ページアクティビティ](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; 上位のエントリをページ URL 別に簡単に識別するには、 [サイト入口レポート](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) Analytics で使用できます。
 
-   ![アクティビティ URL フィールドを入力](/help/integrations/assets/target-create-ab-url.png)
+   1. Adobe Analytics の **目標** 「 」フィールドに、テストの成功指標を入力します。
 
-   >[!NOTE]
-   >
-   >複数の URL を使用して、ビュースルーサイトエントリをテストできます。 詳しくは、[複数ページアクティビティ](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; 上位のエントリをページ URL 別に簡単に識別するには、 [サイト入口レポート](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) Analytics で使用できます。
+      >[!NOTE]
+      >
+      >次を確認します。 [!DNL Analytics] は、内のデータソースとして有効になります。 [!DNL Target]」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」) が正しいレポートスイートが選択されている。
 
-1. Adobe Analytics の **目標** 「 」フィールドに、テストの成功指標を入力します。
+   1. を設定します。 **優先度** から `High` または `999` を使用して、テストセグメント内のユーザーが誤ったオンサイトエクスペリエンスを受け取った場合の競合を防ぎます。
 
-   >[!NOTE]
-   >
-   >次を確認します。 [!DNL Analytics] は、内のデータソースとして有効になります。 [!DNL Target]」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」) が正しいレポートスイートが選択されている。
+   1. Within **レポート設定**&#x200B;を選択し、 **会社名** および **レポートスイート** DSPアカウントに接続しました。
 
-1. を設定します。 **優先度** から `High` または `999` を使用して、テストセグメント内のユーザーが誤ったオンサイトエクスペリエンスを受け取った場合の競合を防ぎます。
+      その他のレポートのヒントについては、[レポートのベストプラクティスとトラブルシューティング](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).&quot;
 
-1. Within **レポート設定**&#x200B;を選択し、 **会社名** および **レポートスイート** DSPアカウントに接続しました。
+   1. Adobe Analytics の **日付範囲** 「 」フィールドで、テストの適切な開始日と終了日を入力します。
 
-   その他のレポートのヒントについては、[レポートのベストプラクティスとトラブルシューティング](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).&quot;
+   1. オーディエンスをアクティビティに追加します。
 
-1. Adobe Analytics の **日付範囲** 「 」フィールドで、テストの適切な開始日と終了日を入力します。
+      1. を選択します。 [以前にAudience Managerで作成したセグメントで、ビュースルーオーディエンスをテストします。](#view-through-framework).
 
-1. オーディエンスをアクティビティに追加します。
+      1. 選択 **サイトのページ** > **ランディングページ** > **クエリ**&#x200B;をクリックし、DSPプレースメントキーを **値** フィールドを使用して、クリックスルーオーディエンスに Target クエリー文字列パラメーターを使用します。
 
-   1. を選択します。 [以前にAudience Managerで作成したセグメントで、ビュースルーオーディエンスをテストします。](#view-through-framework).
+   1. の **トラフィック配分方法**&#x200B;を選択します。 **手動（デフォルト）** オーディエンスを分割50/50た。
 
-      ![アクティビティにオーディエンスを追加](/help/integrations/assets/target-create-ab-audiences.png)
-
-   1. 選択 **サイトのページ** > **ランディングページ** > **クエリ**&#x200B;をクリックし、DSPプレースメントキーを **値** フィールドを使用して、クリックスルーオーディエンスに Target クエリー文字列パラメーターを使用します。
-
-      ![ターゲットクリックオーディエンスのスクリーンショット](/help/integrations/assets/target-click-audience.jpg)
-
-1. の **トラフィック配分方法**&#x200B;を選択します。 **手動（デフォルト）** オーディエンスを分割50/50た。
-
-1. アクティビティを保存します。
+   1. アクティビティを保存します。
 
 1. 用途 [!DNL Target] [Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) A/B テストのランディングページテンプレートをデザイン上で変更する場合。
 
-   * エクスペリエンス A：パーソナライゼーションがないデフォルト/コントロールランディングページエクスペリエンスなので、編集しないでください。
+   * エクスペリエンス A：パーソナライゼーションがないデフォルト/コントロールのランディングページエクスペリエンスなので、編集しないでください。
 
    * エクスペリエンス B: [!DNL Target] テストに含まれるアセット（ヘッドライン、コピー、ボタンの配置、クリエイティブなど）に基づいてランディングページテンプレートをカスタマイズするユーザーインターフェイス。
 
