@@ -3,9 +3,9 @@ title: プログラム的に保証された契約の設定
 description: パブリッシャーとネゴシエートした、プログラム的に保証された (PG) 取引を設定する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: b1a772acbd9b934f2b4679d1111d56e1059e0cca
+source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
