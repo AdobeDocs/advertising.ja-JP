@@ -3,9 +3,9 @@ title: Deal ID の詳細の手動作成
 description: Deal ID の詳細を手動で入力する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: 93600a6e5afe7e0ae3f22111c0adb0ccc3b5b4bb
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
       1. 使用可能な広告のリストから、契約に使用する各広告の横にあるチェックボックスを選択します。
 
-      1. パブリッシャーが管理する広告の場合、1 x 1 トラッキングピクセルは、広告主とキャンペーンが選択された後で自動的に適用されます。
+         パブリッシャーが管理する広告ごとに、広告主とキャンペーンを選択した後で、1 x 1 トラッキングピクセルが自動的に適用されます。
 
       1. クリック **[!UICONTROL Apply]**.
 
