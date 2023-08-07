@@ -3,9 +3,9 @@ title: プログラム的に保証された契約の設定
 description: パブリッシャーとネゴシエートした、プログラム的に保証された (PG) 取引を設定する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
+source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. [契約を承認](deal-id-inbox-accept.md).
 
-1. 契約を保存した後、その契約に使用する広告（またはパブリッシャーが管理する広告の場合は 1 x 1 トラッキングピクセル）を選択し、プロンプトに従って、プログラム的に保証された (PG) デフォルトの配置を作成します。
+1. 契約を保存した後、その契約に使用する広告（パブリッシャーが管理する広告の場合は 1 x 1 トラッキングピクセル）を選択し、指示に従って、プログラム的に保証された (PG) デフォルトの配置を作成します。
 
    購入の 100%を配信するには、契約のデフォルトの PG 配置を作成する必要があります。 このタイプの配置にはターゲティングがないので、DSPはパブリッシャーからのすべての入札リクエストに入札を返すことができます。
 

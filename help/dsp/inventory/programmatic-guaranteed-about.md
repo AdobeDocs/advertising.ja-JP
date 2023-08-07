@@ -3,9 +3,9 @@ title: プログラムで保証された契約について
 description: プログラムで保証された (PG) 取引と、提供の認定を受けている SSP について説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: 1a684a2fc2834b03e010eaaefaa5132c439796a3
+source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---

@@ -3,9 +3,9 @@ title: Deal ID の詳細の手動作成
 description: Deal ID の詳細を手動で入力する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
+source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    1. クリック **[!UICONTROL Save]**.
 
-1. （契約の保証のみ）契約に使用する広告（パブリッシャーが管理する広告の場合は 1 x 1 ピクセル）を選択し、デフォルトのプログラム保証 (PG) の配置を作成します。
+1. （契約の保証のみ）契約に使用する広告（パブリッシャーが管理する広告の場合は 1 x 1 ピクセル）を選択し、デフォルトのプログラム的保証 (PG) 配置を作成します。
 
    デフォルトの PG 配置により、契約が常に各入札リクエストの入札を返すようになります。 デフォルトの PG 配置を作成しない場合、その契約をターゲットとする配置は、正しく設定されていない限り入札されません。 常にデフォルトの PG 配置を作成する必要があります。 Adobe Analytics の [!UICONTROL Placements] ビュー、デフォルトの PG 配置には [!UICONTROL Sub-type] 列の値&quot;[!UICONTROL PG Default].&quot;
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
       1. 使用可能な広告のリストから、契約に使用する各広告の横にあるチェックボックスを選択します。
 
-      1. パブリッシャーが管理する広告の場合、広告主とキャンペーンが選択された後、1 x 1 トラッキングピクセルが自動的に適用されます。
+      1. パブリッシャーが管理する広告の場合、1 x 1 トラッキングピクセルは、広告主とキャンペーンが選択された後で自動的に適用されます。
 
       1. クリック **[!UICONTROL Apply]**.
 
