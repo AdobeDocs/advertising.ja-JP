@@ -1,15 +1,15 @@
 ---
-title: 広告主アカウント設定
+title: 広告主アカウントの設定
 description: 使用可能な広告主設定の説明を参照してください。
 role: User, Admin
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 201eb485e196dc0823dd6d592f67f62122c214b1
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
 
 ---
 
-# 広告主アカウント設定
+# 広告主アカウントの設定
 
 *読み取り専用ユーザーは利用できません*
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->次を選択した場合、 *[!UICONTROL Other]*&#x200B;そうしないと、広告主はDSPにアクセスできません [!DNL On Demand Inventory].
+>次を選択した場合、 *[!UICONTROL Other]*&#x200B;そうしないと、広告主はDSPにアクセスできなくなります [!DNL On Demand Inventory].
 
 **[!UICONTROL Advertiser URL]:** 広告主のホームページまたはメイン Web サイトの URL( `http://` または `https://`) をクリックします。
 
@@ -31,9 +31,9 @@ ht-degree: 0%
 
 追加のAdobe Experience Cloud製品を持つ広告主は、組織の一意の ID を使用して、一部の製品間でデータをExperience Cloudできます。 特定の製品統合は、 [!UICONTROL Integrations] 」セクションに入力します。
 
-**[!UICONTROL Account IMS org and ID]:** ( 複数のExperience Cloud主との広告アカウントを通じてライセンスを受けたExperience Cloud製品を持つ広告主。（オプション）広告主のExperience Cloud組織 ID。
+**[!UICONTROL Account IMS org and ID]:** ( 複数のExperience Cloud主を持つExperience Cloudアカウントを通じてライセンスを受けた追加の広告主。オプション ) 広告主のExperience Cloud組織 ID。
 
-**[!UICONTROL Advertiser IMS org and ID]:** ( 追加のExperience Cloud製品の直接ライセンスを有する広告主（オプション）広告主のExperience Cloud組織 ID。
+**[!UICONTROL Advertiser IMS org and ID]:** ( 追加のExperience Cloud製品の直接ライセンスを持つ広告主。オプション ) 広告主のExperience Cloud組織 ID。
 
 ### [!UICONTROL Integrations]
 
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** ( [!DNL Advertising Search, Social, & Commerce] またはAdobe Advertising変換ピクセルを使用するユーザー ) A [!DNL Search, Social, & Commerce] DSPがアトリビューションデータを交換するアカウント。
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Adobe Analyticsの広告主オプション；は、 [!DNL EF Redirect] およびトークンのみ ) 1 つ以上 [!DNL Analytics] パブリッシャーおよびサプライサイドのパートナーからDSPが収集したデータを送信するレポートスイート。 また、Analytics は、クライアントのサイトから収集したデータをDSPに送信します。
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Adobe Analyticsを使用する広告主、オプション。 [!DNL EF Redirect] およびトークンのみ ) 1 つ以上 [!DNL Analytics] パブリッシャーおよびサプライサイドのパートナーからDSPが収集したデータを送信するレポートスイート。 また、Analytics は、クライアントのサイトから収集したデータをDSPに送信します。
 
-データをレポートスイートに表示する場合は、 [!DNL Search, Social, & Commerce] 広告主レベルの設定を[!UICONTROL Enable tracking for SAINT feeds]」を有効にする必要があります。 また、 [!DNL Analytics] Adobe Advertisingからデータを受け取るには、アカウントを設定する必要があります。
+データをレポートスイートに表示するには、適切な [!DNL Search, Social, & Commerce] 広告主レベルの設定を有効にする必要があります。 また、 [!DNL Analytics] Adobe Advertisingからデータを受け取るには、アカウントを設定する必要があります。
 
 >[!WARNING]
 >
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 との統合について詳しくは、 [!DNL Analytics]を参照してください。[の概要 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
-**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Adobe Audience Manager又はAdobe Analyticsの広告主（オプション）Audience Managerまたは [!DNL Analytics] DSPがすべての広告主のAdobeオーディエンスのセグメントメタデータ、階層データおよび一意のオーディエンスデータを取り込むアカウント。 これには、以下のデータが含まれます。
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Adobe Audience ManagerまたはAdobe Analyticsの広告主。オプション )Audience Managerまたは [!DNL Analytics] DSPがすべての広告主のAdobeオーディエンスのセグメントメタデータ、階層データおよび一意のオーディエンスデータを取り込むアカウント。 これには、以下のデータが含まれます。
 
 * Audience Managerセグメント
 * [!DNL Analytics] Adobe Experience Cloudに公開されたセグメント
-* Adobe Experience Cloud [!DNL Audience Library]
+* Adobe Experience Cloudを使用して作成されたセグメント [!DNL Audience Library]
 * Adobe Experience Platformで作成され、Audience Manager経由でAdobe Advertisingに送信されたセグメント
 
 初期同期には約 24 時間かかります。 その後、データはリアルタイムで同期され、1～2 秒の遅延が発生します。
@@ -98,9 +98,9 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ##### [!UICONTROL Integral Ad Science] {#ias-context}
 
-**[!UICONTROL Adult Content]:** （オプション）デフォルトで広告をブロックする成人向けコンテンツの程度： *[!UICONTROL Do Not Block]* （デフォルト） *[!UICONTROL Standard]*&#x200B;または *[!UICONTROL Strict]*. 追加料金が適用される場合があります。
+**[!UICONTROL Adult Content]:** （オプション）デフォルトで広告をブロックする成人向けコンテンツの程度： *[!UICONTROL Do Not Block]* （デフォルト）、 *[!UICONTROL Standard]*&#x200B;または *[!UICONTROL Strict]*. 追加料金が適用される場合があります。
 
-**[!UICONTROL Alcohol Content]:** （オプション）デフォルトで広告をブロックするアルコールコンテンツの程度： *[!UICONTROL Do Not Block]* （デフォルト） *[!UICONTROL Standard]*&#x200B;または *[!UICONTROL Strict]*. 追加料金が適用される場合があります。
+**[!UICONTROL Alcohol Content]:** （オプション）デフォルトで広告をブロックするアルコールコンテンツの程度： *[!UICONTROL Do Not Block]* （デフォルト）、 *[!UICONTROL Standard]*&#x200B;または *[!UICONTROL Strict]*. 追加料金が適用される場合があります。
 
 #### [!UICONTROL Pre-Bid Fraud Blocking]
 
@@ -114,7 +114,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 
-**[!UICONTROL Block sites that are]:** （オプション）デフォルトでDSPが広告をブロックする 1 つ以上のタイプの詐欺。 *[!UICONTROL Fraud]* （詐欺行為を伴うすべてのサイトをブロックします）。 *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*、または *[!UICONTROL Fraud: Zero Ads]*. 追加料金が適用される場合があります。
+**[!UICONTROL Block sites that are]:** （オプション）デフォルトでDSPが広告をブロックする 1 つ以上のタイプの詐欺。 *[!UICONTROL Fraud]* （詐欺行為を伴うすべてのサイトをブロックします）。 *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*，および/または *[!UICONTROL Fraud: Zero Ads]*. 追加料金が適用される場合があります。
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
@@ -123,10 +123,10 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 #### [!UICONTROL Ads.text]
 
 **[!UICONTROL Ads.txt Filtering]:** デフォルトでは、 [[!DNL Ads.txt] 入札前フィルター](https://iabtechlab.com/ads-txt-about/) 各パブリッシャーの [!DNL Authorized Digital Sellers] リスト：
-* *[!UICONTROL Opt out of ads.txt (default)]*:すべての販売者から在庫を購入する。
-* *[!UICONTROL Ads.txt sellers + sites without ads.txt]*:ドメインの許可されたダイレクト販売者および再販売者からの在庫の購入を優先する。
-* *[!UICONTROL Ads.txt sellers only]*:ドメインの許可された直接販売者および再販売者からのみ在庫を購入する。
-* *[!UICONTROL Ads.txt sellers only]*:ドメインの許可されたダイレクトセラーからのみ在庫を購入する場合。
+* *[!UICONTROL Opt out of ads.txt (default)]*：すべての販売者から在庫を購入します。
+* *[!UICONTROL Ads.txt sellers + sites without ads.txt]*：ドメインの承認済みの直接販売者および再販売者からの在庫の購入を優先します。
+* *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済みの直接販売者および再販売者からのみ在庫を購入する場合。
+* *[!UICONTROL Ads.txt sellers only]*：ドメインの許可されたダイレクト販売者からのみ在庫を購入する場合。
 
 広告主レベルの設定は、 [配置レベル](/help/dsp/campaign-management/placements/placement-settings.md).
 
@@ -136,7 +136,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL DoubleVerify Authentic Brand Safety]
 
-**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] 顧客のみ（オプション）組織の [!DNL DoubleVerify] アカウント
+**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] のお客様のみ、オプション ) 組織の [!DNL DoubleVerify] アカウント。
 
 **[!UICONTROL Enable Authentic Brand Safety]:** （オプション）デフォルトでは、を有効にします。 [!DNL DoubleVerify] Authentic Brand Safety：指定したセグメント ID に対して設定されたカスタム Brand Safety ルールを使用して、入札後のインプレッションをブロックします。 DSPは、セグメント ID の使用を目的としてアカウントを請求します。
 
