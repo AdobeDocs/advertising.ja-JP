@@ -3,9 +3,9 @@ title: 検索、ソーシャル、コマースでのキャンペーン管理に�
 description: 検索、ソーシャル、コマースのキャンペーン管理機能について説明します。
 exl-id: e6fca48d-1f6c-4d36-a10d-e1a5db859a37
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: d23b5a3c56c35fc5abbeafde681b9f584bf1c905
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Adobe Advertisingコンバージョントラッキングサービスを使用す
 
 の場合 [サポートされる広告ネットワークとキャンペーンのタイプ](/help/search-social-commerce/introduction/supported-inventory.md)を使用すると、キャンペーンをポートフォリオにグループ化し、それぞれに特定のビジネス目標と特定の予算またはパフォーマンス目標を設定できます。 標準のポートフォリオでは、検索、ソーシャル、コマースで CPC キーワード入札とキャンペーン予算を最適化します。 ハイブリッドポートフォリオは、検索、ソーシャル、コマースおよび広告ネットワークの最適化テクノロジーを組み合わせたものです。
 
-使用可能なPortfolioオプションとポートフォリオの設定方法の詳細については、Search、Social、&amp;Commerce から利用できる「ポートフォリオの管理」の「最適化ガイド」の章を参照してください。<!-- verify convention for referencing Optimization Guide here -->
+使用可能なポートフォリオオプションとポートフォリオの設定方法の詳細については、Search、Social、&amp;Commerce から利用できる「Portfolio」の「最適化ガイド」の章を参照してください。<!-- verify convention for referencing Optimization Guide here -->
 
 ## キャンペーン管理ビュー
 

@@ -3,7 +3,7 @@ title: オーディエンスについて
 description: トラッキング、作成、管理のオプションについて説明します [!DNL Google Ads] および [!DNL Microsoft® Advertising] オーディエンス。
 exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 9f30518efbbe29f976298fe1fcd962182285679f
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    * (Audience Managerアカウントを持つ広告主 ) [!DNL Google Ads] 顧客は、検索、ソーシャル、コマースを宛先とするAudience Managerセグメントのユーザー ID を使用して、オーディエンスを照合します。 これには、Adobe Experience Cloudに公開されるAdobe Analyticsセグメントや、Adobe Experience Cloudオーディエンスライブラリを使用して作成されたセグメントが含まれる場合があります。
 
-  顧客一致オーディエンスを作成するには、 [!DNL Google Ads] アカウントは次の条件を満たす必要があります [カスタムマッチの条件を満たす](https://support.google.com/adspolicy/answer/6299717) をオプトインし、 [ユーザー ID セグメント](https://support.google.com/google-ads/answer/9199250). また、検索、ソーシャル、コマースの広告主アカウントは、顧客一致のオーディエンスを作成できるように設定する必要があります。<!-- For Analytics audiences: Analytics Only Integration. For Audience Manager, Enable CM/CRM option) -->
+  顧客一致オーディエンスを作成するには、 [!DNL Google Ads] アカウントは次の条件を満たす必要があります [カスタムマッチの条件を満たす](https://support.google.com/adspolicy/answer/6299717) をオプトインし、 [ユーザー ID セグメント](https://support.google.com/google-ads/answer/9199250). また、検索、ソーシャル、コマースの広告主アカウントは、顧客一致のオーディエンスを作成できるように設定する必要があります。
 
   [!DNL Adobe] 顧客データベースのオーディエンスのセグメントデータと cookie 同期ファイルは、 [!DNL Google Ads] 毎日。
 
