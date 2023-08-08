@@ -2,9 +2,9 @@
 title: 「Adobe Analyticsからのコンバージョン指標の作成 [!DNL eVars] および props
 description: 「次を使用してカスタム成功イベント指標を設定 [!DNL eVar] — および [!DNL prop] — レベルのデータ。」
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: f6f3e0b3cc867b817ce40c7ba06c76885948edbe
+source-git-commit: 71ffd021b31154a2ed2a522049f656a13d364d00
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 *Adobe AdvertisingとAdobe Analyticsの統合のみの広告主*
 
-成功イベント指標を使用すると、DSPの目標に最も適したAdobe Analyticsサイトデータに基づいて、Search、Social、および Commerce のパッケージとキャンペーンを最適化できます。 カスタム成功イベント指標は、 [既存の [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) および [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) 集めることで [!DNL eVar] — および [!DNL prop]-level データをイベントに追加します。 その他 [!DNL Analytics] 標準、カスタム、予約済みのコンバージョン指標およびトラフィック指標を含む指標は、DSPと Search、Social および Commerce で自動的に使用できます。
+成功イベント指標を使用すると、DSPの目標に最も適したAdobe Analyticsサイトデータに基づいて、Search、Social、および Commerce のパッケージとキャンペーンを最適化できます。 既存の [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) および [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) 集めることで [!DNL eVar] — および [!DNL prop]-level データをイベントに追加します。 その他 [!DNL Analytics] 標準、カスタム、予約済みのコンバージョン指標およびトラフィック指標を含む指標は、DSPと Search、Social および Commerce で自動的に使用できます。
 
 ![使用例](/help/integrations/assets/a4adc-conversion-evar-example.jpg "使用例")
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    ブランドの Web サイトに新しいイベントを実装する必要はありません。既に取り込まれた既存のデータを使用するからです。
 
-1. での処理ルールの作成 [!DNL Analytics]:
+1. での処理ルールの作成と検証 [!DNL Analytics]:
 
    >[!NOTE]
    >
