@@ -1,46 +1,45 @@
 ---
-title: '''[!DNL Analytics] Adobe広告のデータ'
-description: '''[!DNL Analytics] Adobe広告のデータ'
+title: '''[!DNL Analytics] Adobe Advertising''のデータ'
+description: '''[!DNL Analytics] Adobe Advertising''のデータ'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-source-git-commit: c6ed3277873f5c4a75fc19480b0ec77ab4110d7b
+source-git-commit: b382184072af88273570fc045d0bcebe24ed81fb
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
 
-# [!DNL Analytics] Adobe広告のデータ
+# [!DNL Analytics] データのAdobe Advertising
 
-*Advertising とAdobe AnalyticsのAdobeの統合のみの広告主*
+*Adobe AdvertisingとAdobe Analyticsの統合のみの広告主*
 
 ## Analytics セグメント
 
-で作成されたすべてのセグメント [!DNL Analytics] Experience Cloud
+で作成されたすべてのセグメント [!DNL Analytics] Experience Cloudに公開
 
-新しいセグメントがAdobe広告に表示されるまでに 24 ～ 48 時間かかります。 既存のセグメントの更新は、約 8 時間以内に同期されます。
+新しいセグメントがAdobe Advertisingに表示されるまでに 24 ～ 48 時間かかります。 既存のセグメントの更新は、約 8 時間以内に同期されます。
 
 <!-- I added "metric" to some of the links below, even though it looks redundant, because of syntax limitations: If you use [!DNL] or [!UICONTROL] as the sole text of a link (such as [[!UICONTROL Revenue]], the tag is included in the link text (such as "[!UICONTROL Revenue]") when it's published. -->
 
-## サイトエンゲージメント指標
+## サイトのエンゲージメント指標
 
 >[!NOTE]
 >
->* [!DNL Analytics] は EF ID イベントをAdobe広告に渡します。  デフォルトの統合では、計算指標または他のディメンション (eVar) のAdobe広告への送信はサポートされていません。 ただし、計算指標がカスタムイベントで完全にキャプチャできる場合は、Adobe広告でカスタムイベントを取り込むことができます。
->* [!DNL Analytics] は、時間ごとにAdobe広告にデータを渡します。
+>* [!DNL Analytics] は EF ID イベントをAdobe Advertisingに渡します。  デフォルトの統合では、計算指標または他のディメンション (eVar) のAdobe Advertisingへの送信はサポートされていません。 ただし、計算指標がカスタムイベントで完全に取り込める場合は、Adobe Advertisingはカスタムイベントを取り込むことができます。
+>* [!DNL Analytics] は 1 時間ごとにデータをAdobe Advertisingに渡します。
 
-
-* [!UICONTROL Timespent_secs_1stvisit]:訪問者の初回訪問時にサイトで費やした秒数。
-* [!UICONTROL Timespent_secs_total]:クリックのルックバックウィンドウ内のすべての訪問でサイトで費やした合計秒数。
-* [!UICONTROL Pageviews_1stvisit]:訪問者の初回訪問中のサイトでのページビュー数。
-* [!UICONTROL Pageviews_total]:クリックのルックバックウィンドウ内のすべての訪問における、サイトでのページビューの合計数。
+* [!UICONTROL Timespent_secs_1stvisit]：訪問者の初回訪問時にサイトで費やした秒数。
+* [!UICONTROL Timespent_secs_total]：クリックのルックバックウィンドウ内のすべての訪問で、サイトでの滞在時間（秒）の合計です。
+* [!UICONTROL Pageviews_1stvisit]：訪問者の初回訪問中のサイトでのページビュー数。
+* [!UICONTROL Pageviews_total]：クリックのルックバックウィンドウ内のすべての訪問におけるサイトでのページビューの合計数。
 * [[!UICONTROL Bounces] 指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
 * [[!UICONTROL Visits] 指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
-* [!UICONTROL ef_id_instances]:次の回数： [!DNL Analytics] 収集された [!UICONTROL EF ID].
+* [!UICONTROL ef_id_instances]: [!DNL Analytics] 収集された [!UICONTROL EF ID].
 
 ## コンバージョン指標
 
-[!DNL Analytics] はコンバージョン指標を毎日Adobe広告に渡します。
+[!DNL Analytics] では、コンバージョン指標が毎日Adobe Advertisingに渡されます。
 
 ### 標準コンバージョン指標
 
@@ -57,6 +56,10 @@ ht-degree: 0%
 
 これらの指標はレポートスイートに固有なので、利用できる指標は顧客とレポートスイートごとに異なります。
 
+### eVar および prop から作成されたカスタムコンバージョン指標
+
+使用可能な指標は、顧客ごとに異なります。 参照：[Adobe Analytics eVar および prop からのコンバージョン指標の作成](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot;
+
 ### 予約済みのコンバージョン指標
 
 これらの指標はレポートスイートに固有なので、利用できる指標は顧客とレポートスイートごとに異なります。
@@ -64,5 +67,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [の概要 [!DNL Analytics for Advertising]](overview.md)
->* [Analysis WorkspaceのAdobe広告指標](/help/integrations/analytics/advertising-metrics-in-analytics.md)
-
+>* [Analysis WorkspaceのAdobe Advertising指標](/help/integrations/analytics/advertising-metrics-in-analytics.md)
