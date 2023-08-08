@@ -3,9 +3,9 @@ title: '''[!DNL Analytics] Adobe Advertising''のデータ'
 description: '''[!DNL Analytics] Adobe Advertising''のデータ'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-source-git-commit: b382184072af88273570fc045d0bcebe24ed81fb
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* [!DNL Analytics] は EF ID イベントをAdobe Advertisingに渡します。  デフォルトの統合では、計算指標または他のディメンション (eVar) のAdobe Advertisingへの送信はサポートされていません。 ただし、計算指標がカスタムイベントで完全に取り込める場合は、Adobe Advertisingはカスタムイベントを取り込むことができます。
+>* [!DNL Analytics] は EF ID のイベントを渡します [!DNL eVar] Adobe Advertisingに  デフォルトの統合では、計算指標や他のディメンション ([!DNL eVars]) をAdobe Advertisingに追加します。 ただし、計算指標がカスタムイベントで完全に取り込める場合は、Adobe Advertisingはカスタムイベントを取り込むことができます。
 >* [!DNL Analytics] は 1 時間ごとにデータをAdobe Advertisingに渡します。
 
 * [!UICONTROL Timespent_secs_1stvisit]：訪問者の初回訪問時にサイトで費やした秒数。
@@ -56,9 +56,9 @@ ht-degree: 0%
 
 これらの指標はレポートスイートに固有なので、利用できる指標は顧客とレポートスイートごとに異なります。
 
-### eVar および prop から作成されたカスタムコンバージョン指標
+### から作成されたカスタムコンバージョン指標 [!DNL eVars] および [!DNL Props]
 
-使用可能な指標は、顧客ごとに異なります。 参照：[Adobe Analytics eVar および prop からのコンバージョン指標の作成](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot;
+使用可能な指標は、顧客ごとに異なります。 参照：[Adobe Analyticsでのコンバージョン指標の作成 [!DNL eVars] および [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot;
 
 ### 予約済みのコンバージョン指標
 

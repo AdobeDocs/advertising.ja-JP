@@ -4,9 +4,9 @@ user-guide-description: Advertising DSP および Advertising Search と他の A
 breadcrumb-title: Experience Cloud との統合
 role: User, Developer
 index: true
-source-git-commit: 6f486ac4664ff58813d55c9c09a2d59b6bd47473
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '203'
 ht-degree: 12%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 12%
       + [Adobe AdvertisingID を使用した作成 [!DNL Marketing Channels] 処理ルール](/help/integrations/analytics/marketing-channels/mc-ids.md)
       + [使用 [!DNL Marketing Channels] Adobe Advertisingデータ](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
       + [チャネルとの間でチャネルデータが異なる理由 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
-   + [Adobe Analytics eVar および prop からのコンバージョン指標の作成](/help/integrations/analytics/conversion-metrics-from-evars.md)
+   + [Adobe Analyticsでのコンバージョン指標の作成 [!DNL eVars] および [!DNL props]](/help/integrations/analytics/conversion-metrics-from-evars.md)
 + Adobe Audience Managerとの統合 {#audience-manager}
    + [Adobe Audience ManagerとのAdobe Advertising統合](/help/integrations/audience-manager/overview.md)
    + [Audience ManagerセグメントをAdobe Advertisingにインポート](/help/integrations/audience-manager/import-audiences.md)

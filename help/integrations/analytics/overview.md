@@ -3,9 +3,9 @@ title: の概要 [!DNL Analytics for Advertising]
 description: の概要 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,13 @@ ht-degree: 0%
 
 次を使用するには： [!DNL Analytics] 有料メディアレポートツールとして、組織はAnalysis Workspaceへのアクセス権を持つExperience Cloudログインが必要です。 Adobe Advertisingチームが、Analysis WorkspaceでAdobe Advertisingデータを個々のレポートスイートにマッピングするのに役立ちます。 Adobe Advertisingデータは任意のレポートスイートに送信できますが、Adobe Advertisingにマッピングされたレポートスイートと、それまでにマッピングされていないレポートスイートについて認識しておく必要があります。レポートスイートに応じて、レポートされるデータが変わる場合があります。
 
-[内のAdobe AdvertisingID [!DNL Analytics]](ids.md) は、他の eVar と同様に機能し、カスタムの永続的な有効期限が設定されます。 デフォルトでは、アトリビューションの実装中、アトリビューションルックバックウィンドウは 60 日にAdobe Advertisingされています。 この設定を変更するには、担当のAdobeアカウントチームにご相談ください。
+[内のAdobe AdvertisingID [!DNL Analytics]](ids.md) 他と同様に動作する [!DNL eVars]（カスタムの永続的な有効期限を含む） デフォルトでは、アトリビューションの実装中、アトリビューションルックバックウィンドウは 60 日にAdobe Advertisingされています。 この設定を変更するには、担当のAdobeアカウントチームにご相談ください。
 
 Adobe Advertisingディメンションには、サフィックス「(AMO ID)」が付きます (「広告タイプ (AMO ID)」など )。 参照：[Analysis WorkspaceのAdobe Advertising指標](advertising-metrics-in-analytics.md)」をクリックします。
 
 >[!NOTE]
 >
-> 内でAdobe Advertisingデータ（またはデータセット）を表示する場合 [!DNL Analytics]を使用する場合、指標とレポートは、 [!DNL Analytics]. データは、広告サーバーレポートなど、他のレポートシステム内に表示されるものとは異なる場合があります。 [!DNL DSP] レポート、または検索エンジンレポート。 のデータの違いを理解するには、以下を実行します。 [!DNL Analytics]を使用する場合は、eVarデータの有効期限、訪問の定義、ラストタッチアトリビューションと見なされるもの、永続アトリビューションの合計と見なされるもの、その他の要因を把握する必要があります。 詳しくは、 [A と B の間で予想されるデータの相違 [!DNL Analytics] およびAdobe Advertising](data-variances.md).
+> 内でAdobe Advertisingデータ（またはデータセット）を表示する場合 [!DNL Analytics]を使用する場合、指標とレポートは、 [!DNL Analytics]. データは、広告サーバーレポートなど、他のレポートシステム内に表示されるものとは異なる場合があります。 [!DNL DSP] レポート、または検索エンジンレポート。 のデータの違いを理解するには、以下を実行します。 [!DNL Analytics]、次のタイミングを知る必要があります [!DNL eVar] データの有効期限、訪問を定義する項目、ラストタッチ属性と見なされる項目、合計持続アトリビューションと見なされる項目、その他の要因について説明します。 詳しくは、 [A と B の間で予想されるデータの相違 [!DNL Analytics] およびAdobe Advertising](data-variances.md).
 
 ## Analytics を使用したAdobe AdvertisingキャンペーンおよびPortfolioの強化
 

@@ -3,9 +3,9 @@ title: Adobe Analyticsコンバージョントラッキング
 description: Adobe AdvertisingでのキャンペーンにAdobe Analyticsコンバージョントラッキングを使用する方法について説明します。
 exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Adobe AdvertisingとAdobe Analyticsを統合した広告主の場合、Advertisi
 
 1. In [!DNL Analytics]を変更した場合、Search、Social および Commerce の実装チームは各レポートスイートに対して次の設定を変更します。
 
-   * の有効期限 `ef_id` eVarは、Adobe Advertisingの広告主のクリックルックバックウィンドウに合わせて変更されます。
+   * の有効期限 `ef_id` [!DNL eVar] は、Adobe Advertisingの広告主のクリックルックバックウィンドウに合わせて変更されました。
 
    * Adobe Advertisingユーザー ID。
 

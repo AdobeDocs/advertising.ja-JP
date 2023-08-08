@@ -1,19 +1,19 @@
 ---
-title: Adobe Analytics eVar および prop からのコンバージョン指標の作成
-description: データレベルと prop レベルのeVarを使用して、カスタム成功イベント指標を設定します。
+title: 「Adobe Analyticsからのコンバージョン指標の作成 [!DNL eVars] および props
+description: 「次を使用してカスタム成功イベント指標を設定 [!DNL eVar] — および [!DNL prop] — レベルのデータ。」
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: d4f439ad23fc386bc85d95cc1291ec668ecf1cd2
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
-# Adobe Analytics eVar および prop からのコンバージョン指標の作成
+# Adobe Analyticsでのコンバージョン指標の作成 [!DNL eVars] および [!DNL props]
 
 *Adobe AdvertisingとAdobe Analyticsの統合のみの広告主*
 
-成功イベント指標を使用すると、DSPの目標に最も適したAdobe Analyticsサイトデータに基づいて、Search、Social、および Commerce のパッケージとキャンペーンを最適化できます。 既存の [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) および [prop](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) eVarレベルと prop レベルのデータをイベントに送信する。 その他 [!DNL Analytics] 標準、カスタム、予約済みのコンバージョン指標およびトラフィック指標を含む指標は、DSPと Search、Social および Commerce で自動的に使用できます。
+成功イベント指標を使用すると、DSPの目標に最も適したAdobe Analyticsサイトデータに基づいて、Search、Social、および Commerce のパッケージとキャンペーンを最適化できます。 カスタム成功イベント指標は、 [既存の [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) および [あなたの [!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) 集めることで [!DNL eVar] — および [!DNL prop]-level データをイベントに追加します。 その他 [!DNL Analytics] 標準、カスタム、予約済みのコンバージョン指標およびトラフィック指標を含む指標は、DSPと Search、Social および Commerce で自動的に使用できます。
 
 ![使用例](/help/integrations/assets/a4adc-conversion-evar-example.jpg "使用例")
 
@@ -43,17 +43,17 @@ ht-degree: 0%
 
    1. [処理ルールの作成](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en)（次の設定を使用）。
 
-      * 満たす必要がある条件の場合、必要な eVar または prop を指定します。
+      * 満たす必要がある条件に対して、必要なを指定します [!DNL eVars] または [!DNL props].
 
         必要に応じて、精度を追加のレベルで設定し、最も正確なイベントを確実に作成できます。
 
         >[!TIP]
         >
-        >ベストプラクティスは、1 つのeVarまたは prop のみを使用することです。
+        >ベストプラクティスは、1 つだけを使用することです [!DNL eVar] または [!DNL prop].
 
       * アクションに対して、「 」を選択します。 **イベントを設定** プレースホルダーイベントを選択します。
 
-   1. In [!DNL Analytics] [!DNL Analysis Workspace], [プロジェクトを作成する](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) をクリックし、新しいイベントをフリーフォームテーブルに取り込んで、eVarまたは prop 指標に対してデータが入力されるようにします。
+   1. In [!DNL Analytics] [!DNL Analysis Workspace], [プロジェクトを作成する](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) 新しいイベントをフリーフォームテーブルに取り込み、 [!DNL eVar] または [!DNL prop] 指標。
 
 1. 担当のAdobeアカウントチームに連絡して、新しい指標をAdobe Advertisingに同期させます。
 
