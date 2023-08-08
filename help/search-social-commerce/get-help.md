@@ -1,9 +1,10 @@
 ---
 title: お問い合わせ
 description: オンラインヘルプとコミュニティのリソースを表示する方法、およびテクニカルサポートを受ける方法について説明します。
-source-git-commit: 7ecba48f473e8d1c5f193327d9890759536c1d40
+exl-id: 956117ea-9e3e-4ee0-b6cf-67ee5f2bc77a
+source-git-commit: b310b4956973c730eb58ce20b5b3431309c44879
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 * ヘルプアイコン (![ヘルプアイコン](/help/search-social-commerce/assets/help-field.png "ヘルプアイコン") ) をクリックし、ヘルプアイコンの上にマウスポインターを置くか、ヘルプポップアップ内をクリックしてコンテンツをスクロールします。
 
-   ヘルプトピック内のリンクを開くには、使用する検索、ソーシャル、コマースサイトからのポップアップを許可するようにブラウザーを設定する必要がある場合があります ( 北米ユーザーの場合はhttps://enterprise-na.efrontier.com 、他のユーザーの場合はhttps://enterprise-intl.efrontier.comなど )。
+  ヘルプトピック内のリンクを開くには、使用する検索、ソーシャル、コマースサイトからのポップアップを許可するようにブラウザーを設定する必要がある場合があります ( 北米ユーザーの場合はhttps://enterprise-na.efrontier.com 、他のユーザーの場合はhttps://enterprise-intl.efrontier.comなど )。
 
 * すべての機能の使用方法を説明する完全なヘルプセットを開くには、ページ上部の次のリンクをクリックします。
 
@@ -24,18 +25,16 @@ ht-degree: 0%
 
    * ![ヘルプ](/help/search-social-commerce/assets/help-main-menu.png "ヘルプ") > **検索、ソーシャル、コマースの最適化ガイド**.
 
-## Adobe広告コミュニティで質問する
+## Adobe Advertisingコミュニティで質問
 
-質問に対する回答を、 [Adobe広告コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
+質問に対する回答を、 [Adobe Advertisingコミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
 
 ## 連絡先Adobe
 
-| 例： | お問い合わせ： |
+| 次の場合… | お問い合わせ： |
 | ---- | ---- |
-| 検索、ソーシャル、コマースの各アカウントに関する問題 | 担当のAdobeアカウントチームに連絡してください。 |
-|  | 重要でない問題の場合：Adobeアカウントチームに連絡するか、メールを `<Your Search, Social, & Commerce user account>@support.efrontier.com`. |
+| 検索、ソーシャル、コマースの製品またはアカウントに関する問題 | 担当のAdobeアカウントチームに連絡してください。 |
 | 検索、ソーシャル、コマースに関するフィードバック | 上部のメニューで、 ![ヘルプ](/help/search-social-commerce/assets/help-main-menu.png "ヘルプ") > **[!UICONTROL Provide Feedback]**&#x200B;をクリックし、メッセージを入力して、 **[!UICONTROL Send Feedback]**. |
-| ドキュメントに関するフィードバック | 担当のAdobeアカウントチームに連絡してください。 |
 
 ### アカウントの問題に含める情報
 
