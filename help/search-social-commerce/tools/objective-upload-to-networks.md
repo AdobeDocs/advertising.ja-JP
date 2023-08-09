@@ -3,7 +3,7 @@ title: 広告ネットワークへの目標のアップロードを有効にす�
 description: ハイブリッドポートフォリオの目標を次にアップロードする方法を説明します。 [!DNL Google Ads] および [!DNL Microsoft® Advertising].
 exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
 feature: Search Tools
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -36,5 +36,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [広告主のトランザクションプロパティの管理について](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
+>* [広告主のコンバージョン指標の管理について](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
 >* [コンバージョン指標のアップロード先 [!DNL Google Ads]](conversion-metrics-upload-to-google.md)

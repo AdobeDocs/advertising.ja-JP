@@ -3,7 +3,7 @@ title: Adobe Advertisingコンバージョントラッキングタグの生成
 description: コンバージョンイベントを追跡するAdobe Advertisingコンバージョンタグを作成する方法を説明します。
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新しいコンバージョンタグの各指標は、 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]実装されていない場合や、実装されている Web ページがクリックを受け取っていない場合でも、有効です。 この動作は、手動で作成されたタグや他の場所で作成されたタグ ( [!UICONTROL Admin] > [!UICONTROL Transaction Properties] そのウェブページの 1 つがクリックを受け取るまで。 ただし、どの場合でも、明示的に使用可能にするまで、各指標は最初はポートフォリオの目標、レポート、表示から除外されます。 ただし、ポートフォリオの目標に指標を追加する前に、まず指標を使用可能にし、それらの指標をレポートに追加して、いつクリックを受け取ったかを確認することを検討してください。
+>新しいコンバージョンタグの各指標は、 [!UICONTROL Admin] > [!UICONTROL Conversions]実装されていない場合や、実装されている Web ページがクリックを受け取っていない場合でも、有効です。 この動作は、手動で作成されたタグや他の場所で作成されたタグ ( [!UICONTROL Admin] > [!UICONTROL Conversions] そのウェブページの 1 つがクリックを受け取るまで。 ただし、どの場合でも、明示的に使用可能にするまで、各指標は最初はポートフォリオの目標、レポート、表示から除外されます。 ただし、ポートフォリオの目標に指標を追加する前に、まず指標を使用可能にし、それらの指標をレポートに追加して、いつクリックを受け取ったかを確認することを検討してください。
 
 ## Adobe Advertisingコンバージョンタグの設定 {#conversion-tag-settings}
 
@@ -81,4 +81,4 @@ ht-degree: 0%
 >* [JavaScript コンバージョントラッキングタグバージョン 2 の形式](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [画像コンバージョントラッキングタグの形式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 >* [Adobe Advertisingの JavaScript コンバージョンマッピングタグ](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
->* [広告主のトランザクションプロパティの管理について](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
+>* [広告主のコンバージョン指標の管理について](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)

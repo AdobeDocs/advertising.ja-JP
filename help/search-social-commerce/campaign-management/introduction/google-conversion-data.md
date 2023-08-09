@@ -2,10 +2,10 @@
 title: '[!DNL Google Ads] コンバージョンデータ'
 description: 次のタイプについて説明します。 [!DNL Google Ads] — 検索、ソーシャル、コマースで使用できる追跡されたコンバージョンデータ。
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
-feature: Search Campaign Management
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+feature: Search Campaign Management, Conversions
+source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,16 @@ ht-degree: 0%
 
 それぞれ最大 3 つの指標 [[!DNL Google Ads] — 追跡されたコンバージョン](https://support.google.com/google-ads/answer/4677036) ( [!DNL Google Ads]) は、検索、ソーシャル、コマースで、 [!DNL Google Ads]. 各コンバージョンの指標は次のとおりです。
 
+<!--
+
+* `<conversion-name>` &mdash; (When you track it) The conversion value for the keyword, beginning with the "GGL" prefix (such as GGL Purchase).
+
+`CT_<conversion-name>` &mdash; The number (count) of conversions, beginning with the "GGL_CT" prefix (such as GGL_CT_Purchase).
+
+* `XD_<conversion-name>` &mdash; (When available for the conversion type, when you track them) The number (count) of cross-device conversions, as measured by Google, beginning with the "GGL_XD_CT_" prefix (such as GGL_XD_CT_Purchase).
+
+-->
+
 * `GGL*` — （追跡する場合）キーワードのコンバージョン値で、「GGL」プレフィックスで始まる値（GGL Purchase など）。
 
 * `GGL_CT*` — 「GGL_CT」プレフィックス（GGL_CT_Purchase など）で始まるコンバージョンの数（カウント）。
@@ -32,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 同じコンバージョン名を持つ複数のアカウントがある場合、Adobe Advertisingに重複したコンバージョン名が表示されることがあります。 これが発生した場合、 [表示名を変更する](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) の指標が重複している場合は、 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. 2 つの異なる指標の名前が同じ場合、レポートは正確ではありません。
+>* 同じコンバージョン名を持つ複数のアカウントがある場合、Adobe Advertisingに重複したコンバージョン名が表示されることがあります。 これが発生した場合、 [表示名を変更する]( /help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md ) [!UICONTROL Admin] > [!UICONTROL Conversions]. 2 つの異なる指標の名前が同じ場合、レポートは正確ではありません。
 >* 入札単位レベルのデータは、 [!DNL Google Ads] 同じレベルで しかし、 [!DNL Google Ads]上位レベルの「独自のコンバージョンデータ」には、子入札単位に関連付けられない追加のコンバージョンが含まれる場合があります。 検索、ソーシャル、コマースのデータは、常に入札単位レベルからロールアップされるので、例えば、キャンペーンレベルのレポートは、Google Ads のキャンペーンレベルのレポートと同じ合計にならない場合があります。
 >* 通常、データの相違は、追加のコンバージョンがまだ同期されていない場合の、午前の同期後の方が、当日の後半よりも少なくなります。 データの検証は、午前中におこなうことをお勧めします。
 >* ではコンバージョンデータを使用できません [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App]、および [!DNL YouTube] 広告。 でデータを比較する際に、これらのタイプの広告を除外する [!DNL Google Ads] 検索、ソーシャル、コマースのデータを含む
@@ -94,4 +104,5 @@ Social および Commerce の検索で、「表示」または「レポート」
 >
 >* [広告ネットワークアカウントとキャンペーンの実装の概要](campaign-implemention-overview.md)
 >* [広告ネットワークキャンペーンのパフォーマンスの監視と管理](monitor-performance-campaigns.md)
->* [広告主でトラッキングされているトランザクションプロパティの表示](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
+>* [広告主で追跡されているコンバージョン指標を表示する](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
+>* [のコンバージョンタグを作成します。 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)

@@ -3,7 +3,7 @@ title: カスタムレポートに関する FAQ
 description: データの問題のトラブルシューティングなど、パフォーマンスレポートに関するよくある質問への回答を説明します。
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 68fb5d737b76e7b388f15a2fdd1f57ce9cd6a3e2
+source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
 workflow-type: tm+mt
 source-wordcount: '3912'
 ht-degree: 0%
@@ -168,7 +168,7 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 
 *考えられる解決策または回避策：*
 
-1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、自分またはAdobeアカウントチームが [コンバージョン指標をレポートで使用できるようにする](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、自分またはAdobeアカウントチームが [コンバージョン指標をレポートで使用できるようにする](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. 該当するすべての Web ページに正しいコンバージョントラッキングタグが実装されていることを確認します。 必要に応じて、Adobeアカウントチームに、該当する各コンバージョントラッキングタグに対してテストトランザクションを作成し、トランザクションの詳細 ( `transactionid` Cookie から取得した詳細 ( `trackingid`, `clickid`など )。
 
@@ -196,7 +196,7 @@ Search、Social、および Commerce が広告ネットワークと同期して�
 
 *考えられる解決策または回避策：*
 
-1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、自分またはAdobeアカウントチームが [コンバージョン指標をレポートで使用できるようにする](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、自分またはAdobeアカウントチームが [コンバージョン指標をレポートで使用できるようにする](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. を実行します。 [!UICONTROL Portfolio Report]. 空の場合は、 [!UICONTROL Campaign Report] および [!UICONTROL Search Engine Report] をクリックして、これらのレポートに売上高が表示されるかどうかを確認します。 割り当てられている場合、キャンペーンが適切なポートフォリオに割り当てられていない可能性があります。
 

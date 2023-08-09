@@ -3,7 +3,7 @@ title: Adobe Experience Cloudソリューションおよびサービスとの統
 description: Adobe Experience Cloudのソリューションおよびサービスとの Search、Social、および Commerce の統合について説明します。
 exl-id: e8b521f5-f426-4c50-9df4-361a047c9ff0
 feature: Search Introduction
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >デフォルトでは、 [!DNL Analytics] 指標は、検索、ソーシャル、コマースの各画面に表示されません。 明示的に [キャンペーン管理ビュー、ポートフォリオおよびレポートで指標を使用できるようにする](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) の後 [!DNL Adobe] 実装チームが、選択した標準イベントまたはカスタムイベントをAdobe Advertisingに渡すように設定しました。 オプションで、表示される指標の名前を変更できます ( [!DNL Analytics]) をクリックします。 UI で指標を表示可能にし、指標の名前を [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
+     >デフォルトでは、 [!DNL Analytics] 指標は、検索、ソーシャル、コマースの各画面に表示されません。 明示的に [キャンペーン管理ビュー、ポートフォリオおよびレポートで指標を使用できるようにする](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) の後 [!DNL Adobe] 実装チームが、選択した標準イベントまたはカスタムイベントをAdobe Advertisingに渡すように設定しました。 オプションで、表示される指標の名前を変更できます ( [!DNL Analytics]) をクリックします。 UI で指標を表示可能にし、指標の名前を [!UICONTROL Admin] > [!UICONTROL Conversions].
 
    * 次を持つ広告主 [!DNL Analytics] しかし、Audience Managerはできない [作成 [!DNL Google Ads] 顧客一致オーディエンス](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) から [!DNL Analytics] Adobe Experience Cloudと共有されるセグメント。 実施要件を満たすには、広告主が [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) をクリックし、Web サイトにタグをデプロイします。 その後、 [!DNL Google Ads] キャンペーンレベルまたは広告グループレベルとしてのキャンペーン [ターゲット](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) または [除外](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md).
 

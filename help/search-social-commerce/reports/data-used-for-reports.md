@@ -3,7 +3,7 @@ title: レポートに使用するデータ
 description: データビューとカスタムレポートで使用できる様々なタイプのデータについて説明します。
 exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 検索、ソーシャル、コマースには、クリックデータとコンバージョンデータに基づく、包括的なパフォーマンスレポートのセットが含まれます。 ポートフォリオまたは広告アカウントの様々なコンポーネントの基本的なパフォーマンスデータは、 [!UICONTROL Portfolios] および [!UICONTROL Campaigns] 表示を使用して、様々な基本レポートと詳細レポートを生成する方法も説明します。
 
-また、Adobe Advertisingコンバージョントラッキングサービスを使用する広告主は、参照元 Web サイトの地理的な場所またはドメイン名のクリック数、各チャネルの広告とコンバージョンにつながる様々なイベントが全体のコンバージョン率にどのように貢献し、コンバージョンを 1 つに分布します [コンバージョン指標](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) マーケティングチャネル別。 使用できるレポートは、ユーザーのアカウントタイプによって異なります。 Adobeアカウントチームは、すべてのレポートにアクセスできます。
+また、Adobe Advertisingコンバージョントラッキングサービスを使用する広告主は、参照元 Web サイトの地理的な場所またはドメイン名のクリック数、各チャネルの広告とコンバージョンにつながる様々なイベントが全体のコンバージョン率にどのように貢献し、コンバージョンを 1 つに分布します [コンバージョン指標](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) マーケティングチャネル別。 使用できるレポートは、ユーザーのアカウントタイプによって異なります。 Adobeアカウントチームは、すべてのレポートにアクセスできます。
 
 ほとんどのレポートは、表示する情報のみを表示するようにカスタマイズできます。 次の標準指標は、ほとんどのレポートで使用でき、広告レベルで計算されます。
 

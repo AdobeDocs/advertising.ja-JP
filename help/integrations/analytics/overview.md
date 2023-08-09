@@ -3,7 +3,7 @@ title: の概要 [!DNL Analytics for Advertising]
 description: の概要 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Adobe Advertisingディメンションには、サフィックス「(AMO ID)」�
 >
 > 以下から計算指標をマッピングすることはできません： [!DNL Analytics] Adobe Advertisingに
 
-Adobe Advertisingチームが、有料メディアのパフォーマンスに適したイベントを特定し、Adobe Advertising( [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
+Adobe Advertisingチームが、有料メディアのパフォーマンスに適したイベントを特定し、Adobe Advertising( [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
 
 参照：[Analytics の指標のAdobe Advertising](analytics-data-in-advertising.md)」をクリックします。
 

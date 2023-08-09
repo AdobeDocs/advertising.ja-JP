@@ -4,7 +4,7 @@ description: データソースを [!DNL Google Analytics] 表示。
 role: User, Admin
 exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
 feature: Search Admin, Search Data Sources
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    データソースの名前は「AccountName/PropertyName/ViewName」で、自動的にアクティブ化されます。 データソースを一時停止するには、[データソースからのフィードの一時停止](data-source-pause.md).&quot;
 
-   指標は、毎日のデータ同期が完了した翌日に使用できます。この日のデータ同期は、広告主のタイムゾーンの 05:00 に開始されます。 指標が使用可能になると、 [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). 新しいコンバージョン指標の名前は、それぞれ「`ga:backEndMetricName_propertyID_viewID`、「 」（「backEndMetricName」は API で使用される指標名） 新しい各コンバージョン指標の表示名は、「`friendlyMetricName_ga:MetricTag`(「friendlyMetricName」は、 [!DNL Google Analytics] また、「MetricTag」は [!UICONTROL Metric Tag] データソース設定で定義されます。
+   指標は、毎日のデータ同期が完了した翌日に使用できます。この日のデータ同期は、広告主のタイムゾーンの 05:00 に開始されます。 指標が使用可能になると、 [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md). 新しいコンバージョン指標の名前は、それぞれ「`ga:backEndMetricName_propertyID_viewID`、「 」（「backEndMetricName」は API で使用される指標名） 新しい各コンバージョン指標の表示名は、「`friendlyMetricName_ga:MetricTag`(「friendlyMetricName」は、 [!DNL Google Analytics] また、「MetricTag」は [!UICONTROL Metric Tag] データソース設定で定義されます。
 
    キャンペーン管理、ポートフォリオ管理のビュー、レポート、最適化の目標に指標を直接追加できます。
 

@@ -4,9 +4,9 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 8cb7e92d674466653b67ed5502883630ad633eb2
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -404,10 +404,12 @@ ht-degree: 2%
       + [の再認証 [!DNL Google Analytics] データソース](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [[!DNL Google Analytics] データソース設定](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
       + [付録 — 利用可能 [!DNL Google Analytics] 指標](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
-   + 広告主のトランザクションプロパティの管理{#transaction-properties}
-      + [広告主のトランザクションプロパティの管理について](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
-      + [広告主でトラッキングされているトランザクションプロパティの表示](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
-      + [管理ビューとレポートで使用可能なトランザクションプロパティの変更](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)
-      + [トランザクションプロパティの表示名を変更する](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md)
+   + 広告主のコンバージョン指標の管理{#conversion-metrics}
+      + [広告主のコンバージョン指標の管理について](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+      + [広告主で追跡されているコンバージョン指標を表示する](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
+      + [管理ビューおよびレポートで使用できるコンバージョン指標の変更](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
+      + [コンバージョン指標の表示名の変更](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
+      + コンバージョンタグの管理 {#conversion-tags}
+         + [のコンバージョンタグを作成します。 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
 + [お問い合わせ](get-help.md)
 + [用語集](glossary.md)

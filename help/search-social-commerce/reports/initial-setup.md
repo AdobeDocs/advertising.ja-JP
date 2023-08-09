@@ -3,9 +3,9 @@ title: レポートの初期設定タスク
 description: レポートで指標を使用できるようにする方法と、レポートを自動化する方法について説明します。
 exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 新規ユーザーは、次の初期設定タスクを実行する必要があります。
 
-* 広告主のためにAdobe Advertisingが追跡しているコンバージョン指標の作成 [レポートおよび他のビューで使用可能](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)（オプション） [任意のコンバージョン指標の名前を変更する](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) 列見出しに表示され、読みやすくなります。
+* 広告主のためにAdobe Advertisingが追跡しているコンバージョン指標の作成 [レポートおよび他のビューで使用可能](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)（オプション） [任意のコンバージョン指標の名前を変更する](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) を読みやすくするために、列見出しに表示されます。
 
   トランザクションプロパティは、特に使用可能にしない限り、レポートでは使用できません。
 

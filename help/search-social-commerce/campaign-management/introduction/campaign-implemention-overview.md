@@ -3,7 +3,7 @@ title: 広告ネットワークアカウントとキャンペーンの実装の�
 description: 広告ネットワークアカウントの設定、同期、管理に関するタスクについて説明します。
 exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
 feature: Search Campaign Management
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Adobeは、各広告主と連携して、広告ネットワークアカウント
 
    ポートフォリオの詳細については、Search、Social、および Commerce から利用できる『最適化ガイド』を参照してください。<!-- verify convention for referencing Optimization Guide here -->
 
-1. （広告主の新しいコンバージョンが追跡される場合） [コンバージョンを利用可能にする](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) レポート、キャンペーン管理ビュー、ポートフォリオの目標について説明します。
+1. （広告主の新しいコンバージョンが追跡される場合） [コンバージョンを利用可能にする](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) レポート、キャンペーン管理ビュー、ポートフォリオの目標について説明します。
 
 1. キャンペーンごとに、検索、ソーシャル、コマースが広告ネットワークからクリック数およびコスト数のデータを受け取っていることを確認し、広告主独自の売上高データを使用して検索、ソーシャル、コマースに表示される売上高データを検証します。
 
