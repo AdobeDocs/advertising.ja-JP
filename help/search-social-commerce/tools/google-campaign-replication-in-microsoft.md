@@ -3,9 +3,9 @@ title: 複製 [!DNL Google Ads] キャンペーン [!DNL Microsoft® Advertising
 description: 同期したキャンペーンを [!DNL Google Ads] 直接同期されたにアカウント [!DNL Microsoft® Advertising] アカウント。
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f857da54ff75ba7b8065b8c08d6d28eb54445b48
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 **[!UICONTROL Credential ID]:** 次の ID [!DNL Microsoft® Advertising] は、 [!DNL Google Ads] 認証情報。
 
-の自動生成 [!DNL Microsoft® Advertising] 次の理由により、インポートの資格情報を使用できません： [!DNL Microsoft® Advertising] 制限事項。 AdobeのテクニカルサポートまたはAdobeのアカウントチームに問い合わせると、テクニカルサポートが資格情報を生成し、ID を渡します。
+の自動生成 [!DNL Microsoft® Advertising] 次の理由により、インポートの資格情報を使用できません： [!DNL Microsoft® Advertising] 制限事項。 担当のAdobeアカウントチームに問い合わせると、資格情報が生成され、ID が提供されます。
 
 **[!UICONTROL Target Microsoft® Ads account]:** 同期済み [!DNL Microsoft® Advertising] アカウントを使用してキャンペーンデータをインポートします。
 
