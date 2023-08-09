@@ -2,9 +2,9 @@
 title: お問い合わせ
 description: オンラインヘルプとコミュニティのリソースを表示する方法、およびテクニカルサポートを受ける方法について説明します。
 exl-id: 956117ea-9e3e-4ee0-b6cf-67ee5f2bc77a
-source-git-commit: e0bcead14a3638ee013925336b38382ab205d69d
+source-git-commit: 56d6c890616c23ec64234705d84dddb41442eb87
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,14 @@ ht-degree: 0%
 
 質問に対する回答を、 [Adobe Advertisingコミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
 
-## 連絡先Adobe
+## 連絡先 [!DNL Adobe]
 
-| 次の場合… | お問い合わせ： |
-| ---- | ---- |
-| 検索、ソーシャル、コマースの製品またはアカウントに関する問題 | 担当のAdobeアカウントチームに連絡してください。 |
-| 検索、ソーシャル、コマースに関するフィードバック | 上部のメニューで、 ![ヘルプ](/help/search-social-commerce/assets/help-main-menu.png "ヘルプ") > **[!UICONTROL Provide Feedback]**&#x200B;をクリックし、メッセージを入力して、 **[!UICONTROL Send Feedback]**. |
+検索、ソーシャル、コマースの製品またはアカウントに関する問題の場合は、次のいずれかを実行します。
 
-### 製品の問題に関して含める情報
+* 担当のAdobeアカウントチームに連絡してください。
 
-問題を再現する詳細な手順、ブラウザー名とバージョン、関連するデータ、および実行した事前のトラブルシューティングに関する情報を提供します。
+* 上部のメニューで、 ![ヘルプ](/help/search-social-commerce/assets/help-main-menu.png "ヘルプ") > **[!UICONTROL Provide Feedback]**&#x200B;をクリックし、メッセージを入力して、 **[!UICONTROL Send Feedback]**. |
+
+問題を再現する詳細な手順、関連するデータ、および実行した事前のトラブルシューティングに関する情報を提供します。 問題をAdobeアカウントチームに報告する場合は、ブラウザ名とバージョンも含めます。
 
 レポートの問題を解決するには、レポートを削除せずに、レポート名と URL を指定します。
