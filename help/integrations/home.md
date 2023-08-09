@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 45e9e52f1eff2e60eb03b930b6902b97e2d452dc
+source-git-commit: e0044c5241b6a7a89fdce9d7ef9225a2fb0cc19f
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 | 2021 年 4 月 19 日 | [!DNL Analytics for Advertising] | マクロをに追加する理由と方法を説明します。 [!DNL Flashtalking] クリックデータをAdobe Analyticsに送信するための広告タグ。 | 参照：[追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Flashtalking] 広告タグ](/help/integrations/analytics/macros-flashtalking.md).&quot; |
 | 2021 年 10 月 27 日 | [!DNL Analytics for Advertising] | レガシーAdobe Analyticsの使用から切り替える場合 `visitorAPI.js` ライブラリを [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) ライブラリ (`alloy.js`) のデータ収集を行う場合、ID のステッチを有効にするには、いくつか変更を加える必要があります。 | 参照：[の使用 [!DNL Last Event Service] Adobe Experience Platformを使用した JavaScript ライブラリ [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md).&quot; |
 | 2021 年 5 月 27 日 | ヘルプ | チャプター「[!DNL Analytics for Advertising]」には、「 [!DNL Analytics Marketing Channels].&quot; | 参照：[マーケティングチャネルの基本](/help/integrations/analytics/marketing-channels/mc-overview.md),&quot; &quot;[Adobe AdvertisingID を使用した作成 [!DNL Analytics Marketing Channels] 処理ルール](/help/integrations/analytics/marketing-channels/mc-ids.md),&quot; &quot;[使用 [!DNL Analytics Marketing Channels] Adobe Advertisingデータ](/help/integrations/analytics/marketing-channels/mc-ac-data.md),&quot;および&quot;[チャネルとの間でチャネルデータが異なる理由 [!DNL Analytics Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md).&quot; |
-| 2021 年 5 月 27 日 | ヘルプ | 次に関するすべてのビデオチュートリアルへのリンク： [!DNL Analytics for Advertising] が追加されました。 | [Adobe Advertising統合に関するビデオチュートリアル](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html) |
+| 2021 年 5 月 27 日 | ヘルプ | 次に関するすべてのビデオチュートリアルへのリンク： [!DNL Analytics for Advertising] が追加されました。 | 参照：[Adobe Advertising統合に関するビデオチュートリアル](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html).&quot; |
 
 {style="table-layout:auto"}
 
