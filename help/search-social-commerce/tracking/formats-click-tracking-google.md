@@ -3,9 +3,9 @@ title: のクリック追跡形式 [!DNL Google Ads]
 description: のクリック追跡形式について説明します。 [!DNL Google Ads] アカウント。
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ Adobe Advertisingコンバージョントラッキングを使用するアカウ
 
 * 広告主がAdobe Analytics統合を使用する場合、サフィックスに次のいずれかを含める必要があります。
 
-   * [!DNL Google Ads] 最新の `s_kwcid` 形式：最大パフォーマンスキャンペーンおよびドラフト&amp;実験キャンペーンのキャンペーンおよび広告グループレベルのレポートをサポートします。
+   * [!DNL Google Ads] 最新の AMO ID 形式（で始まる）を使用するアカウント `s_kwcid`)：最大パフォーマンスキャンペーンおよびドラフト&amp;実験キャンペーンのキャンペーンおよび広告グループレベルのレポートをサポートします。
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     アカウントにサーバー側の s_kwcid 実装があり、アカウントまたはキャンペーン設定がある場合は、「[!UICONTROL Auto Upload]」が有効な場合、パラメーターは自動的に追加されます。 それ以外の場合は、手動で追加する必要があります。
+     アカウントにサーバー側 AMO ID 実装があり、アカウントまたはキャンペーン設定がある場合[!UICONTROL Auto Upload]」が有効な場合、パラメーターは自動的に追加されます。 それ以外の場合は、手動で追加する必要があります。
 
    * その他すべて [!DNL Google Ads] アカウント：
 
@@ -88,9 +88,9 @@ Adobe Advertisingコンバージョントラッキングを使用するアカウ
 >
 >* 下位レベルでのランディングページのサフィックスは、アカウントレベルのサフィックスよりも優先されます。 メンテナンスを容易にするために、個々のアカウントコンポーネントに対して別々の追跡が必要でない限り、アカウントレベルのサフィックスのみを使用します。 広告グループレベル以下でサフィックスを設定するには、広告ネットワークのエディターを使用します。
 >
->* ( 動的検索広告、Adobe Analyticsを使用し、サーバーサイドトラッキングを使用しない広告主 )Adobe Advertisingから Analytics への逆フィードのトラッキングを含める場合、 `s_kwcid` トラッキングコードをアカウントレベルのランディングページサフィックスの最後に追加します。
+>* ( 動的検索広告、Adobe Analyticsを使用し、サーバーサイドトラッキングを使用しない広告主 )Adobe Advertisingから Analytics への逆フィードのトラッキングを含める場合は、アカウントレベルのランディングページサフィックスの末尾に AMO ID トラッキングコードを追加します。
 
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertisingコンバージョントラッキングサービスのクリック追跡 URL の形式について](formats-click-tracking-about.md)
->* [s\_kwcid トラッキングコードの形式](skwcid-tracking-parameter.md)
+>* [AMO ID トラッキングコードの形式](skwcid-tracking-parameter.md)

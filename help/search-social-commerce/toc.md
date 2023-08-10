@@ -4,7 +4,7 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: 8cb7e92d674466653b67ed5502883630ad633eb2
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '1728'
 ht-degree: 2%
@@ -112,7 +112,7 @@ ht-degree: 2%
       + 広告ネットワークアカウント {#ad-network-accounts}
          + [広告ネットワークアカウントについて](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [広告ネットワークアカウントの管理](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [の s\_kwcid トラッキングコードを更新します。 [!DNL Google Ads] アカウント](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md)
+         + [の AMO ID トラッキングコードを更新します。 [!DNL Google Ads] アカウント](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [マーチャントセンターアカウントの管理](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
    + [実装方法 [!DNL Naver] トラッキング専用アカウント](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + キャンペーンの管理 {#management}

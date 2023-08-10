@@ -3,9 +3,9 @@ title: 広告ネットワークアカウントの管理
 description: 広告ネットワークアカウントのアカウントの詳細を設定および管理する方法について説明します。
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2085'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 例： `param1=value1&param2=value2`
 
-Adobe Advertisingクリックの追跡を使用するアカウントには、広告ネットワークのクリック識別子 (`msclkid` 対象： [!DNL Microsoft Advertising]; `gclid` (Googleの場合 ) をサフィックスに含めます。 Adobe Analytics統合のアカウントでは、 `s_kwcid` パラメーター。 アカウントにサーバー側の s\_kwcid 実装がある場合、ユーザーが広告をクリックすると、パラメーターが自動的に追加されます。それ以外の場合は、ここに手動で追加する必要があります。 詳しくは、 [必要なサフィックス形式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) および [必要なサフィックス形式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Adobe Advertisingクリックの追跡を使用するアカウントには、広告ネットワークのクリック識別子 (`msclkid` 対象： [!DNL Microsoft Advertising]; `gclid` (Googleの場合 ) をサフィックスに含めます。 Adobe Analytics統合のアカウントでは、AMO ID パラメーター（で始まる）を使用する必要があります `s_kwcid`) をクリックします。 アカウントにサーバー側 AMO ID 実装がある場合、ユーザーが広告をクリックすると、パラメーターが自動的に追加されます。それ以外の場合は、ここに手動で追加する必要があります。 詳しくは、 [必要なサフィックス形式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) および [必要なサフィックス形式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
@@ -240,15 +240,15 @@ Adobe Advertisingクリックの追跡を使用するアカウントには、広
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S\_kwcid 形式** - ( 既存 [!DNL Google Ads] Adobe AdvertisingとAdobe Analyticsの統合をおこない、s\_kwcid がまだ移行されていない広告主のアカウント )
+* **S\_kwcid 形式** - ( 既存 [!DNL Google Ads] Adobe AdvertisingとAdobe Analyticsの統合をおこない、AMO ID(s\_kwcid) がまだ移行されていない広告主のアカウント
 
-このアカウントでは、s\_kwcid トラッキングコードの従来の形式を使用します。これにより、Adobe Advertisingはアカウントに関するデータをAdobe Analyticsと共有できます。 The [最新形式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) には、キャンペーン ID と広告グループ ID のパラメーターが含まれます。これらのパラメーターは、次のキャンペーンレベルと広告グループレベルで正確にレポートするために必要です。 [!DNL Google Ads] Analytics の最大キャンペーン数およびドラフト&amp;実験キャンペーン数：
+このアカウントは、AMO ID トラッキングコードに従来の形式を使用します。Adobe Advertisingは、アカウントに関するデータをAdobe Analyticsと共有できます。 The [最新形式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) には、キャンペーン ID と広告グループ ID のパラメーターが含まれます。これらのパラメーターは、次のキャンペーンレベルと広告グループレベルで正確にレポートするために必要です。 [!DNL Google Ads] Analytics の最大キャンペーン数およびドラフト&amp;実験キャンペーン数：
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
 このアカウントがキャンペーンおよび広告グループレベルでレポートする必要がある場合は、 [!UICONTROL Edit] （鉛筆）アイコン **[!UICONTROL Migrate to new s\_kwcid format]** を新しい形式に変更します。 これらのキャンペーンタイプを含まないアカウントの場合、新しい形式への移行はオプションですが、お勧めします。
 
-詳しい手順については、[の s\_kwcid トラッキングコードを更新します。 [!DNL Google Ads] アカウント](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
+詳しい手順については、[の AMO ID トラッキングコードを更新します。 [!DNL Google Ads] アカウント](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot;
 
 **レポートスイート名** - ( トークンを使用した EF リダイレクトの場合、Adobe AdvertisingとAdobe Analyticsの統合を使用する広告主、オプション ) Search、Social、&amp; Commerce が広告ネットワークから収集したデータの送信先となる 1 つ以上の Analytics レポートスイート。 この機能は、サポートされている広告ネットワークでのみ使用できます。
 
@@ -258,4 +258,4 @@ Adobe Advertisingクリックの追跡を使用するアカウントには、広
 >
 >* [広告ネットワークアカウントについて](ad-network-account-about.md)
 >* [マーチャントセンターアカウントの管理](merchant-account-manage.md)
->* [の s\_kwcid トラッキングコードを更新します。 [!DNL Google Ads] アカウント](update-skwcid-google.md)
+>* [の s\_kwcid トラッキングコードを更新します。 [!DNL Google Ads] アカウント](update-amo-id-google.md)
