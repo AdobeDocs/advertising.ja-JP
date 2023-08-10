@@ -2,7 +2,7 @@
 title: のコンバージョンタグを作成します。 [!DNL Google Ads]
 description: を作成する方法を学ぶ [!DNL Google Ads] コンバージョンタグです。
 feature: Conversions
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+source-git-commit: 8f08151013ec63df14843733a0c83badcceba4c3
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Web サイトにタグを追加し、実行を開始すると、 [!DNL Google Ad
 
 **[!UICONTROL Conversion Name]:** コンバージョン指標の一意の名前。
 
-**\[ 目標カテゴリ\]:** コンバージョン目標。 使用可能な目標は、コンバージョンのタイプによって異なります。 の場合 *[!UICONTROL Calls to a phone number on your website]* および *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]」がデフォルトで選択されています。
+**\[ 目標カテゴリ\]:** コンバージョンカテゴリ。 使用可能なカテゴリは、コンバージョンタイプによって異なります。 の場合 *[!UICONTROL Calls to a phone number on your website]* および *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]」がデフォルトで選択されています。
 
 **\[ アクションタイプ\]:** 目標が *[!UICONTROL Primary action used for bidding optimization]* または *[!UICONTROL Secondary action not used for bidding optimization]*.
 
