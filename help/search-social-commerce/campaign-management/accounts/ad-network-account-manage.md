@@ -3,9 +3,9 @@ title: 広告ネットワークアカウントの管理
 description: 広告ネットワークアカウントのアカウントの詳細を設定および管理する方法について説明します。
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2086'
 ht-degree: 0%
 
 ---
@@ -240,22 +240,22 @@ Adobe Advertisingクリックの追跡を使用するアカウントには、広
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S\_kwcid 形式** - ( 既存 [!DNL Google Ads] Adobe AdvertisingとAdobe Analyticsの統合をおこない、AMO ID(s\_kwcid) がまだ移行されていない広告主のアカウント
+* **S_kwcid 形式** - ( 既存 [!DNL Google Ads] Adobe AdvertisingとAdobe Analyticsの統合をおこない、AMO ID(s_kwcid) がまだ移行されていない広告主のアカウント
 
 このアカウントは、AMO ID トラッキングコードに従来の形式を使用します。Adobe Advertisingは、アカウントに関するデータをAdobe Analyticsと共有できます。 The [最新形式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) には、キャンペーン ID と広告グループ ID のパラメーターが含まれます。これらのパラメーターは、次のキャンペーンレベルと広告グループレベルで正確にレポートするために必要です。 [!DNL Google Ads] Analytics の最大キャンペーン数およびドラフト&amp;実験キャンペーン数：
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-このアカウントがキャンペーンおよび広告グループレベルでレポートする必要がある場合は、 [!UICONTROL Edit] （鉛筆）アイコン **[!UICONTROL Migrate to new s\_kwcid format]** を新しい形式に変更します。 これらのキャンペーンタイプを含まないアカウントの場合、新しい形式への移行はオプションですが、お勧めします。
+このアカウントがキャンペーンおよび広告グループレベルでレポートする必要がある場合は、 [!UICONTROL Edit] （鉛筆）アイコン **[!UICONTROL Migrate to new s_kwcid format]** を新しい形式に変更します。 これらのキャンペーンタイプを含まないアカウントの場合、新しい形式への移行はオプションですが、お勧めします。
 
 詳しい手順については、[の AMO ID トラッキングコードを更新します。 [!DNL Google Ads] アカウント](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot;
 
 **レポートスイート名** - ( トークンを使用した EF リダイレクトの場合、Adobe AdvertisingとAdobe Analyticsの統合を使用する広告主、オプション ) Search、Social、&amp; Commerce が広告ネットワークから収集したデータの送信先となる 1 つ以上の Analytics レポートスイート。 この機能は、サポートされている広告ネットワークでのみ使用できます。
 
-データをレポートスイートに表示するには、(a) サーバー側の s\_kwcid をアカウント用に設定するか、(b) 広告主レベルの設定を「[!UICONTROL Enable tracking for SAINT feeds]」を有効にする必要があります。 さらに、検索、ソーシャル、コマースからデータを受け取るように広告主の Analytics アカウントを設定する必要があります。 詳しくは、担当のAdobeアカウントマネージャーにお問い合わせください。
+データをレポートスイートに表示するには、(a) アカウントに対してサーバー側 AMO ID 機能を設定するか、(b) 広告主レベルの設定を (&quot;[!UICONTROL Enable tracking for SAINT feeds]」を有効にする必要があります。 さらに、検索、ソーシャル、コマースからデータを受け取るように広告主の Analytics アカウントを設定する必要があります。 詳しくは、担当のAdobeアカウントマネージャーにお問い合わせください。
 
 >[!MORELIKETHIS]
 >
 >* [広告ネットワークアカウントについて](ad-network-account-about.md)
 >* [マーチャントセンターアカウントの管理](merchant-account-manage.md)
->* [の s\_kwcid トラッキングコードを更新します。 [!DNL Google Ads] アカウント](update-amo-id-google.md)
+>* [の s_kwcid トラッキングコードを更新します。 [!DNL Google Ads] アカウント](update-amo-id-google.md)

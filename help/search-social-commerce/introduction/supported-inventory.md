@@ -3,7 +3,7 @@ title: サポートされる在庫
 description: サポートされている広告ネットワーク、キャンペーンタイプ、広告タイプを参照します。
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
+source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 0%
@@ -57,4 +57,4 @@ ht-degree: 0%
 
 [^3]:Adobe Analyticsとの統合が必要です。 参照：[Adobe Advertising向け Analytics の概要](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html).&quot;
 
-[^4]: [!DNL Analytics] 通常アカウントで使用する AMO ID 形式に関係なく、アップグレードされた AMO ID トラッキングパラメーター (s_kwcid) を使用して、データが検索、ソーシャル、コマースに送信されます。 通常、古いバージョンの AMO ID を使用する場合、最適なエクスペリエンスを得るために、新しい AMO ID 形式にアップグレードすることをお勧めします。 ただし、異なる AMO ID を使用してクリック/コストデータと売上高データを追跡しても、両方のデータのセットが完全に分類され、同じキャンペーンとアカウントで集計されます。
+[^4]: [!DNL Analytics] アップグレードされた AMO ID トラッキングパラメーター ( `s_kwcid`) で始まります。 通常、古いバージョンの AMO ID を使用する場合、最適なエクスペリエンスを得るために、新しい AMO ID 形式にアップグレードすることをお勧めします。 ただし、異なる AMO ID を使用してクリック/コストデータと売上高データを追跡しても、両方のデータのセットが完全に分類され、同じキャンペーンとアカウントで集計されます。

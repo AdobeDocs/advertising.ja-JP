@@ -3,9 +3,9 @@ title: A と B の間で予想されるデータの相違 [!DNL Analytics] お�
 description: A と B の間で予想されるデータの相違 [!DNL Analytics] およびAdobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '3267'
+source-wordcount: '3268'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ In [!DNL Analytics]（を検証する最も簡単な方法の 1 つ） [!DNL Ana
 Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
 ```
 
-[!UICONTROL AMO ID Instances] は、AMO ID の回数を表します (`s_kwcid` パラメーター ) は、サイト上で追跡されます。 広告がクリックされるたびに、 `s_kwcid` パラメーターがランディングページの URL に追加されます。 次の数 [!UICONTROL AMO ID Instances]したがって、はクリック数に似ており、実際の広告クリックに対して検証できます。 のマッチ率は通常 80%です。 [!DNL Search, Social, & Commerce] との 30%の一致率 [!DNL DSP] トラフィック（クリックスルーのみを含めるようにフィルタリングした場合） [!UICONTROL AMO ID Instances]) をクリックします。 検索と表示の期待値の違いは、予想されるトラフィック動作によって説明できます。 検索は目的をキャプチャし、そのため、ユーザーは通常、クエリの検索結果をクリックする予定です。 ただし、ディスプレイ広告やオンラインビデオ広告を見たユーザーは、意図せず広告をクリックした後、サイトからバウンスするか、ページアクティビティが追跡される前に読み込まれる新しいウィンドウを破棄する可能性が高くなります。
+[!UICONTROL AMO ID Instances] の回数を表します [AMO ID](ids.md) がサイトで追跡されます。 広告がクリックされるたびに、AMO ID(`s_kwcid`) パラメーターがランディングページの URL に追加されました。 次の数 [!UICONTROL AMO ID Instances]したがって、はクリック数に似ており、実際の広告クリックに対して検証できます。 のマッチ率は通常 80%です。 [!DNL Search, Social, & Commerce] との 30%の一致率 [!DNL DSP] トラフィック（クリックスルーのみを含めるようにフィルタリングした場合） [!UICONTROL AMO ID Instances]) をクリックします。 検索と表示の期待値の違いは、予想されるトラフィック動作によって説明できます。 検索は目的をキャプチャし、そのため、ユーザーは通常、クエリの検索結果をクリックする予定です。 ただし、ディスプレイ広告やオンラインビデオ広告を見たユーザーは、意図せず広告をクリックした後、サイトからバウンスするか、ページアクティビティが追跡される前に読み込まれる新しいウィンドウを破棄する可能性が高くなります。
 
 Adobe Advertisingレポートでは、同様に、「[!UICONTROL ef_id_instances]「 」指標 ( [!UICONTROL AMO ID Instances]:
 
