@@ -1,34 +1,38 @@
 ---
-title: s_kwcid トラッキングパラメーター
+title: AMO ID(s_kwcid) トラッキングパラメーター
 description: Adobe AnalyticsとAdobe Advertisingデータを共有するために使用されるトラッキングパラメーターについて説明します。
 exl-id: 3f739f1c-3cb7-40d0-86ab-cf66afe6a06f
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 47cb00bc456601ef943c37de14a2047220f756f1
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
-# s_kwcid トラッキングパラメーター
+# AMO ID(s_kwcid) トラッキングパラメーター
 
 *Adobe AdvertisingとAdobe Analyticsの統合のみの広告主*
 
-<!-- Where should this go? It probably belongs in the Analytics integration chapter, but I'll need to fit it in/create context around it/explain more about implementation and how this works.  SPECIFICALLY, I'll need to update the second section that explains when/where to add the code for DSP clients. -->
+<!-- This should go in the Analytics integration chapter > IDs page, under "AMO IDs."  But I'll need to update with when/where to add the code for DSP clients. -->
 
-Adobe Advertisingは、 `s_kwcid` ad channel および ad ネットワーク固有の要素で構成される append パラメーター。 パラメーターは、次のいずれかの方法でトラッキング URL に追加されます。
+Adobe Advertisingは、AMO ID 追加パラメーター ( `s_kwcid` パラメーター。広告チャネルと広告ネットワーク固有の要素で構成されます。
 
-* （推奨）<!--; the only option for Advertising DSP-->) サーバー側 s_kwcid 機能が実装されている。
+<!-- add everything below to IDs page -->
 
-  の場合 [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントの [!UICONTROL Auto Upload] アカウントまたはキャンペーンに対して有効に設定を指定すると、エンドユーザーが広告をクリックすると、ピクセルサーバーによってランディングページのサフィックスに s_kwcid パラメーターが自動的に追加されます <!-- click a search ad or views a display ad --> をAdobe Advertisingピクセル
+パラメーターは、次のいずれかの方法でトラッキング URL に追加されます。
 
-  他の広告ネットワークの場合、または [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントの [!UICONTROL Auto Upload] を無効に設定した場合、アカウントレベルの追加パラメーターに手動でパラメーターを追加して、ベース URL に追加します。
+* （推奨）サーバー側挿入機能が実装されています。
 
-* <!-- (Search, Social, & Commerce only) -->サーバー側の s_kwcid 機能が実装されていないので、s_kwcid パラメーターを ([!DNL Google Ads] および [!DNL Microsoft Advertising]) ランディングページのサフィックスや（その他の広告ネットワーク）アカウントレベルの追加パラメーターを追加できます。
+  の場合 [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントの [!UICONTROL Auto Upload] アカウントまたはキャンペーンに対してを有効にすると、エンドユーザーが広告をクリックすると、ピクセルサーバーによって AMO ID パラメーターがランディングページのサフィックスに自動的に追加されます <!-- click a search ad or views a display ad --> をAdobe Advertisingピクセル
 
-サーバー側 s_kwcid 機能を実装する場合や、ビジネスに最適なオプションを決定する場合は、Adobeアカウントチームにお問い合わせください。
+  他の広告ネットワークの場合、または [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントの [!UICONTROL Auto Upload] 設定を無効にした場合、AMO ID パラメーターをアカウントレベルの追加パラメーターに手動で追加し、ベース URL に追加します。
 
-## Advertising DSP広告用の s_kwcid 形式
+* <!-- (Search, Social, & Commerce only) -->サーバー側挿入機能が実装されていないので、AMO ID パラメーターを ([!DNL Google Ads] および [!DNL Microsoft Advertising]) ランディングページのサフィックスや（その他の広告ネットワーク）アカウントレベルの追加パラメーターを追加できます。
+
+サーバー側挿入機能を実装する場合や、ビジネスに最適なオプションを決定する場合は、Adobeアカウントチームにお問い合わせください。
+
+## Advertising DSP広告用の AMO ID フォーマット
 
 `s_kwcid=AC!${TM_AD_ID}!${TM_PLACEMENT_ID}`
 
@@ -40,7 +44,7 @@ Adobe Advertisingは、 `s_kwcid` ad channel および ad ネットワーク固�
 
 * `{TM_PLACEMENT_ID}` は、英数字の配置キーです。
 
-## 検索、ソーシャル、コマースの広告の s_kwcid 形式
+## 検索、ソーシャル、コマース広告の AMO ID 形式
 
 パラメーターは広告ネットワークによって異なりますが、次のパラメーターはすべてに共通です。
 
@@ -58,7 +62,7 @@ Adobe Advertisingは、 `s_kwcid` ad channel および ad ネットワーク固�
 
 これには、 [!DNL Google Merchant Center].
 
-* 最新の s_kwcid 形式を使用するアカウント。パフォーマンスの最大キャンペーンおよびドラフトと実験キャンペーンのキャンペーンおよび広告グループレベルのレポートをサポートします。
+* 最新の AMO ID 形式を使用するアカウント。パフォーマンスの最大キャンペーンとドラフト&amp;実験キャンペーンのキャンペーンレベルおよび広告グループレベルのレポートをサポートします。
 
   `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -70,7 +74,7 @@ Adobe Advertisingは、 `s_kwcid` ad channel および ad ネットワーク固�
 >
 >* 動的検索広告の場合、 {keyword} が自動ターゲットに設定されている。
 >* のトラッキングを生成する際 [!DNL Google] 買い物広告、製品 ID パラメーター `{adwords_producttargetid}`の前に、が挿入されます。 製品 ID パラメーターが [!DNL Google Ads] アカウントレベルおよびキャンペーンレベルのトラッキングパラメーター。
->* 最新の s_kwcid トラッキングコードを使用するには、[の s_kwcid トラッキングコードを更新します。 [!DNL Google Ads] アカウント](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
+>* 最新の AMO ID トラッキングコードを使用するには、[の AMO ID トラッキングコードを更新します。 [!DNL Google Ads] アカウント](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot; <!-- Update terminology there too. -->
 
 <!--
 
