@@ -1,5 +1,5 @@
 ---
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 * （並列追跡を使用する広告ネットワーク）マクロの使用は避けます。マクロは、並列追跡を有効にするソースからのクリックに置き換えられません。 広告主がマクロを使用する必要がある場合は、Adobeアカウントチームがカスタマーサポートまたは実装チームと連携してマクロを追加する必要があります。
 
-* (Adobe AdvertisingとAdobe Analyticsの統合を使用する広告主 ) 検索、ソーシャル、コマースのデータをに送信するための AMO ID パラメーターを含めるには [!DNL Analytics]を参照し、 [広告ネットワーク固有の形式](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md). 次のパラメーターを手動で追加する必要はありません。 [!DNL Google Ads] および [!DNL Microsoft Advertising] サーバー側 AMO ID 実装を持つアカウント。
+* (Adobe AdvertisingとAdobe Analyticsの統合を使用する広告主 ) 検索、ソーシャル、コマースのデータをに送信するための AMO ID パラメーターを含めるには [!DNL Analytics]を参照し、 [広告ネットワーク固有の形式](/help/integrations/analytics/ids.md#amo-id-formats). 次のパラメーターを手動で追加する必要はありません。 [!DNL Google Ads] および [!DNL Microsoft Advertising] サーバー側 AMO ID 実装を持つアカウント。

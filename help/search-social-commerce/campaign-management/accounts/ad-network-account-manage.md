@@ -3,7 +3,7 @@ title: 広告ネットワークアカウントの管理
 description: 広告ネットワークアカウントのアカウントの詳細を設定および管理する方法について説明します。
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 0%
@@ -242,7 +242,7 @@ Adobe Advertisingクリックの追跡を使用するアカウントには、広
 
 * **S_kwcid 形式** - ( 既存 [!DNL Google Ads] Adobe AdvertisingとAdobe Analyticsの統合をおこない、AMO ID(s_kwcid) がまだ移行されていない広告主のアカウント
 
-このアカウントは、AMO ID トラッキングコードに従来の形式を使用します。Adobe Advertisingは、アカウントに関するデータをAdobe Analyticsと共有できます。 The [最新形式](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) には、キャンペーン ID と広告グループ ID のパラメーターが含まれます。これらのパラメーターは、次のキャンペーンレベルと広告グループレベルで正確にレポートするために必要です。 [!DNL Google Ads] Analytics の最大キャンペーン数およびドラフト&amp;実験キャンペーン数：
+このアカウントは、AMO ID トラッキングコードに従来の形式を使用します。Adobe Advertisingは、アカウントに関するデータをAdobe Analyticsと共有できます。 The [最新形式](/help/integrations/analytics/ids.md#amo-id-formats) には、キャンペーン ID と広告グループ ID のパラメーターが含まれます。これらのパラメーターは、次のキャンペーンレベルと広告グループレベルで正確にレポートするために必要です。 [!DNL Google Ads] Analytics の最大キャンペーン数およびドラフト&amp;実験キャンペーン数：
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

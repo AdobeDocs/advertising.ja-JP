@@ -3,9 +3,9 @@ title: Adobe AdvertisingID 使用者 [!DNL Analytics]
 description: Adobe AdvertisingID 使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -95,71 +95,135 @@ In [!DNL Analytics] レポートでは、EF ID データを検索するには、
 
 EF ID には、Analysis Workspaceでの 500,000 個の一意の ID 制限が適用されます。 500,000 個の値に達すると、すべての新しいトラッキングコードが 1 行項目のタイトル「[!UICONTROL Low Traffic].&quot; レポートの正確性が欠落する可能性があるので、EF ID は分類されず、でのセグメントやレポートに使用しないでください [!DNL Analytics].
 
-## Adobe AdvertisingAMO ID
+## Adobe AdvertisingAMO ID {#amo-id}
 
 AMO ID は、より詳細なレベルで一意の広告の組み合わせを追跡し、 [!DNL Analytics] 広告指標（インプレッション数、クリック数、コストなど）のデータ分類とAdobe Advertisingからの取り込み AMO ID は、 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) または rVar ディメンション (AMO ID)。でのレポートにのみ使用されます。 [!DNL Analytics].
 
 AMO ID は、 `s_kwcid`(「[!DNL the squid].&quot;
 
-### の AMO ID フォーマット [!DNL DSP]
+### AMO ID の形式 {#amo-id-formats}
 
-```
-<Channel ID>!<Ad ID>!<Placement ID>
-```
+#### の AMO ID フォーマット [!DNL DSP]
+
+`s_kwcid=AC!${TM_AD_ID}!${TM_PLACEMENT_ID}`
 
 場所：
 
-* &lt;*チャネル ID*> は次のいずれかになります。
+* `AC` ディスプレイチャネルを示します。
 
-   * `AC` = Advertising DSP
-   * `AL` 対象： [!DNL Advertising Search, Social, & Commerce]
+* `{TM_AD_ID}` は、Adobe Advertisingで生成される英数字の広告キーです。 広告の一意の識別子として使用され、広告エンティティのメタデータを読み取り可能なAdobe Advertisingに変換するためのキーとして機能します [!DNL Analytics] ディメンション。
 
-* &lt;*広告 ID*> は、広告に対してAdobe Advertising生成の一意の識別子を使用します。 Adobe Advertisingエンティティのメタデータを読み取り可能にするキーとして機能します [!DNL Analytics] ディメンション。
-
-* &lt;*プレースメント ID*> は、配置のAdobe Advertising生成の一意の識別子です。 Adobe Advertisingエンティティのメタデータを読み取り可能にするキーとして機能します [!DNL Analytics] ディメンション。
+* `{TM_PLACEMENT_ID}` は、Adobe Advertising生成の英数字配置キーです。 配置の一意の識別子として使用され、Adobe Advertisingエンティティのメタデータを読み取り可能に変換するためのキーとして機能します [!DNL Analytics] ディメンション。
 
 AMO ID の例： AC!iIMvXqlOa6Nia2lDvtgw!GrV6o2oV2qQLjQiXLC7
 
-### の AMO ID フォーマット [!DNL Search, Social, & Commerce]
+#### 検索、ソーシャル、コマース広告の AMO ID 形式
 
-の AMO ID [!DNL Search, Social, & Commerce] 各検索エンジンで異なる形式に従います。 すべての検索エンジンの形式は、次のように始まります。
+パラメーターは広告ネットワークによって異なりますが、次のパラメーターはすべてに共通です。
 
-```
-AL!{userid}!{sid}
-```
+* `AL` は、検索チャネルを示します。 <!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
+
+* `{userid}` は、広告主に割り当てられる一意のユーザー ID です。
+
+* `{sid}` は、広告主の広告ネットワークアカウントの数値 ID に置き換えられます。 *3* 対象： [!DNL Google Ads], *10* 対象： [!DNL Microsoft Advertising], *45* 対象： [!DNL Meta], *86* 対象： [!DNL Yahoo! Display Network], *87* 対象： [!DNL Naver], *88* 対象： [!DNL Baidu], *90* 対象： [!DNL Yandex], *94* 対象： [!DNL Yahoo! Japan Ads], *105* 対象： [!DNL Yahoo Native] （非推奨）、または *106* 対象： [!DNL Pinterest] （非推奨）。
+
+##### [!DNL Baidu]
+
+`s_kwcid=AL!{userid}!{sid}!{creative}!{placement}!{keywordid}`
+
+場所：
+
+* `{creative}` は、クリエイティブに対する広告ネットワークの一意の数値 ID です。
+* `{placement}` は、広告がクリックされた Web サイトです。
+* `{keywordid}` は、広告をトリガーしたキーワードに関する、広告ネットワークの一意の数値 ID です。
+
+##### [!DNL Google Ads]
+
+これには、 [!DNL Google Merchant Center].
+
+* 最新の AMO ID 形式を使用するアカウント。パフォーマンスの最大キャンペーンとドラフト&amp;実験キャンペーンのキャンペーンレベルおよび広告グループレベルのレポートをサポートします。
+
+  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+
+* その他すべてのアカウント：
+
+  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 場所：
 
-* `AL` は、広告ネットワークのチャネル ID です。
-* `{userid}` は、広告主に割り当てる一意の数値Adobe AdvertisingID です。
-* `{sid}` は、指定した広告ネットワークにAdobe Advertisingが使用する数値 ID です（例： ）。 `3` 対象： [!DNL Google Ads] または `10` 対象： [!DNL Microsoft Advertising].
-
-以下は、いくつかの広告ネットワークの完全な AMO ID 形式です。 その他の広告ネットワーク向けの AMO ID の形式については、担当のAdobeアカウントチームにお問い合わせください。
-
-の AMO ID フォーマット [!DNL Google Ads]:
-
-```
-AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
-```
-
-場所：
+<!-- VERIFY CREATIVE description. Also, are there more networks now (audience and shopping?) -->
 
 * `{creative}` が [!DNL Google Ads] クリエイティブの一意の数値 ID。
 * `{matchtype}` は、広告をトリガーしたキーワードの一致タイプです。 `e` 正確には `p` ( フレーズの場合は、 `b` 幅の広い
 * `{placement}` は、広告がクリックされた Web サイトのドメイン名です。 値は、配置ターゲットキャンペーンの広告と、コンテンツサイトに表示されるキーワードターゲットキャンペーンの広告で使用できます。
-* `{network}` クリックが発生したネットワークを示します。  `g` 対象： [!DNL Google] 検索（キーワードターゲット広告のみ） `s` 検索パートナー（キーワードターゲット広告のみ）の場合、または `d` ディスプレイネットワーク用（キーワードターゲット広告またはプレースメントターゲット広告用）。
+* `{network}` クリックが発生したネットワークを示します。 `g` 対象： [!DNL Google] 検索（キーワードターゲット広告のみ） `s` 検索パートナー（キーワードターゲット広告のみ）の場合、または `d` ディスプレイネットワーク用（キーワードターゲット広告またはプレースメントターゲット広告用）。
+* `{product_partition_id}` は、製品広告と共に使用される、広告ネットワークの一意の数値 ID です。
 * `{keyword}` は、（検索サイトで）広告をトリガーした特定のキーワードか、（コンテンツサイトで）最適なキーワードのどちらかです。
+* `{campaignid}` は、キャンペーンに関する広告ネットワークの一意の数値 ID です。
+* `{adgroupid}` は、広告グループに対する広告ネットワークの一意の数値 ID です。
 
-の AMO ID フォーマット [!DNL Microsoft Advertising]:
+>[!NOTE]
+>
+>* 動的検索広告の場合、 {keyword} が自動ターゲットに設定されている。
+>* のトラッキングを生成する際 [!DNL Google] 買い物広告、製品 ID パラメーター `{adwords_producttargetid}`の前に、が挿入されます。 製品 ID パラメーターが [!DNL Google Ads] アカウントレベルおよびキャンペーンレベルのトラッキングパラメーター。
+>* 最新の AMO ID トラッキングコードを使用するには、[の AMO ID トラッキングコードを更新します。 [!DNL Google Ads] アカウント](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot; <!-- Update terminology there too. -->
 
-```
-AL!{userid}!{sid}!{AdId}!{OrderItemId}
-```
+<!--
+
+##### [!DNL Meta]
+
+`s_kwcid=AL!{userid}!{sid}!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
+
+where:
+
+* `{{ad.id}}` is the unique numeric ID for the ad/creative.
+
+* `{{campaign.id}}` is the unique ID for the campaign.
+
+* `{{adset.id}}` is the unique ID for the ad set.
+
+-->
+
+##### [!DNL Microsoft Advertising]
+
+* キャンペーンの検索：
+
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+
+* 買い物キャンペーン ( [!DNL Microsoft Merchant Center]):
+
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+
+* オーディエンスネットワークキャンペーン：
+
+  `s_kwcid=AL!{userid}!{sid}!{AdId}`
 
 場所：
 
-* `{AdId}` が [!DNL Microsoft Advertising] クリエイティブの一意の数値 ID。
-* `{OrderItemId}` が [!DNL Microsoft Advertising] キーワードの数値 ID。
+* `{AdId}` は、クリエイティブに対する広告ネットワークの一意の数値 ID です。
+* `{OrderItemId}` は、キーワードに対する広告ネットワークの数値 ID です。
+* `{CriterionId}` は、製品広告と共に使用される製品グループに対する広告ネットワークの数値 ID です。
+
+##### [!DNL Yahoo! Japan Ads]
+
+`s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{network}!{keyword}`
+
+場所：
+
+* `{creative}` は、クリエイティブに対する広告ネットワークの一意の数値 ID です。
+* `{matchtype}` は、広告をトリガーしたキーワードの一致タイプです。 `be` 正確には `bp` ( フレーズの場合は、 `bb` 幅の広い
+* `{network}` クリックが発生したネットワークを示します。 `n` ネイティブまたは `s` を検索します。
+* `{keyword}` は、広告をトリガーしたキーワードです。
+
+##### [!DNL Yandex]
+
+`s_kwcid=AL!{userid}!{sid}!{ad_id}!{source_type}!!!{phrase_id}`
+
+場所：
+
+* `{ad_id}` は、クリエイティブに対する広告ネットワークの一意の数値 ID です。
+* `{source_type}` は、広告が表示されたサイトのタイプです。 *b* 検索には *c* ( コンテキスト（コンテンツ）の場合 )、または *ct* （カテゴリ用）
+* `{phrase_id}` は、キーワードに対する広告ネットワークの数値 ID です。
 
 ### AMO IDDimension（内） [!DNL Analytics]
 

@@ -3,7 +3,7 @@ title: 実装方法 [!DNL Google Ads] 動的検索広告
 description: 設定のワークフローについて説明します [!DNL Google Ads] 動的検索広告。
 exl-id: 4c806824-b582-46dc-8d88-85c73bfb0944
 feature: Search Campaign Management
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    1. （オプション）アカウントレベルのトラッキングテンプレートを上書きするが、下位レベルで上書きできる、キャンペーンレベルのトラッキングテンプレートを設定します。
 
-      ( サーバーサイドトラッキングを使用しないAdobe Analyticsの広告主 )Search、Social、および Commerce から Analytics へのリバースフィードのトラッキングを含める場合、AMO ID トラッキングコードをアカウントレベルの追加パラメーターに追加し、コードを最終 URL に追加します。 参照：[AMO ID トラッキングパラメーター](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md).&quot;
+      ( サーバーサイドトラッキングを使用しないAdobe Analyticsの広告主 )Search、Social、および Commerce から Analytics へのリバースフィードのトラッキングを含める場合、AMO ID トラッキングコードをアカウントレベルの追加パラメーターに追加し、コードを最終 URL に追加します。 参照：[Adobe AdvertisingID 使用者 [!DNL Analytics]](/help/integrations/analytics/ids.md).&quot;
 
 1. [広告グループの作成](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) 次の手順を含む、キャンペーン内の次の手順に従います。
 

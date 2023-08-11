@@ -3,7 +3,7 @@ title: 実装方法 [!DNL Google Ads] 最大パフォーマンスキャンペー
 description: 設定のワークフローについて説明します [!DNL Google Ads] 最大パフォーマンスキャンペーン数
 exl-id: afad96b2-d4a6-41ee-ad84-38aa1306d73e
 feature: Search Campaign Management
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 In [!DNL Google Ads] パフォーマンスの最大キャンペーン数に制限される場合は、広告グループ、広告、キーワードは設定されません。 代わりに、キャンペーン設定で、ヘッドライン、説明、アップロードされた画像、ロゴおよび [!DNL YouTube videos]. [!DNL Google Ads] チャネルに基づいて広告を提供するために、アセットを自動的に組み合わせます ( 例： [!DNL YouTube], [!DNL Gmail]または [!DNL Search]) をクリックします。
 
-既存のパフォーマンス最大キャンペーンを、テーブルおよびトレンドグラフ形式のパフォーマンスデータと共に、 [!DNL Campaigns] ビュー。低いレベルではデータを使用できません。 キャンペーンレベルのパフォーマンスデータは、レポートおよびAdobe Analytics( [Analytics の統合](/help/integrations/analytics/overview.md). で最大パフォーマンスキャンペーンのパフォーマンスデータを表示するには [!DNL Analytics]を使用する場合、キャンペーンは [アップグレードされた AMO ID トラッキングコード](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) （キャンペーン ID および広告グループ ID を追跡します）。
+既存のパフォーマンス最大キャンペーンを、テーブルおよびトレンドグラフ形式のパフォーマンスデータと共に、 [!DNL Campaigns] ビュー。低いレベルではデータを使用できません。 キャンペーンレベルのパフォーマンスデータは、レポートおよびAdobe Analytics( [Analytics の統合](/help/integrations/analytics/overview.md). で最大パフォーマンスキャンペーンのパフォーマンスデータを表示するには [!DNL Analytics]を使用する場合、キャンペーンは [アップグレードされた AMO ID トラッキングコード](/help/integrations/analytics/ids.md#amo-id-formats) （キャンペーン ID および広告グループ ID を追跡します）。
 
 >[!NOTE]
 >
