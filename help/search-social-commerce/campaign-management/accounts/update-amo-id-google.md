@@ -3,7 +3,7 @@ title: の AMO ID(s_kwcid) トラッキングコードを更新します。 [!DN
 description: の最新の AMO ID トラッキングコードに切り替える方法を説明します。 [!DNL Google Ads] アカウント。
 exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
 feature: Search Campaign Management
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-の従来の形式 [AMO ID トラッキングコード](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) ( 既存の [!DNL Google Ads] アカウントは、Analytics の一部の機能（例えば、次のキャンペーンレベルや広告グループレベルでのレポート）をサポートしていません。 [!DNL Google Ads] パフォーマンス最大キャンペーン、ドラフト&amp;実験キャンペーン、および同じ ad+keyword+match タイプの組み合わせが複数のキャンペーンに存在するその他の使用例。
+の従来の形式 [AMO ID トラッキングコード](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) ( 既存の [!DNL Google Ads] アカウントは、Analytics の一部の機能（例えば、次のキャンペーンレベルや広告グループレベルでのレポート）をサポートしていません。 [!DNL Google Ads] パフォーマンス最大キャンペーン、ドラフト&amp;実験キャンペーン、および同じ ad+keyword+match タイプの組み合わせが複数のキャンペーンに存在するその他の使用例。
 
 最新の形式には、キャンペーン ID と広告グループ ID のパラメーターが含まれます。
 
@@ -58,7 +58,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
    * 次の場合に [!UICONTROL Auto Upload]「 」機能がトラッキング設定で有効になっている場合、検索、ソーシャル、コマースは、このアカウントとそのキャンペーンのランディングページサフィックスに含まれるトラッキングコードを自動的に更新します。 あなたは何もする必要はありません。
 
-   * 次の場合に [!UICONTROL Auto Upload]」機能が有効になっていないので、 [サーバー側 AMO ID 機能](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)の場合は、「ランディングページサフィックス」設定の AMO ID パラメーターを手動で更新する必要があります。 アカウントレベルとキャンペーンレベルのサフィックスは、アカウントとキャンペーンの設定で手動で変更するか、バルクシートに変更をアップロードすることで変更できます。 広告グループレベル以下でサフィックスを設定するには、 [!DNL Google Ads] 編集者です。
+   * 次の場合に [!UICONTROL Auto Upload]」機能が有効になっていないので、 [サーバー側 AMO ID 機能](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)の場合は、「ランディングページサフィックス」設定の AMO ID パラメーターを手動で更新する必要があります。 アカウントレベルとキャンペーンレベルのサフィックスは、アカウントとキャンペーンの設定で手動で変更するか、バルクシートに変更をアップロードすることで変更できます。 広告グループレベル以下でサフィックスを設定するには、 [!DNL Google Ads] 編集者です。
 
    * 任意のキャンペーンコンポーネントのベース URL 設定に AMO ID を含める場合は、該当する「ランディングページサフィックス」設定に移動します。
 
@@ -67,5 +67,5 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >[!MORELIKETHIS]
 >
 >* [広告ネットワークアカウントの管理](ad-network-account-manage.md)
->* [AMO ID トラッキングパラメーター](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
+>* [AMO ID トラッキングパラメーター](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
 >* [の概要 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

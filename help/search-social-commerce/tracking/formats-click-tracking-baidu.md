@@ -3,7 +3,7 @@ title: のクリック追跡形式 [!DNL Baidu]
 description: のクリック追跡形式について説明します。 [!DNL Baidu] アカウント。
 exl-id: a57ff0cf-0bcf-4d55-9a86-7551db8a08e7
 feature: Search Tracking
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -33,4 +33,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertisingコンバージョントラッキングサービスのクリック追跡 URL の形式について](formats-click-tracking-about.md)
->* [AMO ID トラッキングコードの形式](skwcid-tracking-parameter.md)
+>* [AMO ID トラッキングコードの形式](amo-id-tracking-parameter.md)

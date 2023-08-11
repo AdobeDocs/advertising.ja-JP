@@ -3,7 +3,7 @@ title: のクリック追跡形式 [!DNL Google Ads]
 description: のクリック追跡形式について説明します。 [!DNL Google Ads] アカウント。
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
@@ -93,4 +93,4 @@ Adobe Advertisingコンバージョントラッキングを使用するアカウ
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertisingコンバージョントラッキングサービスのクリック追跡 URL の形式について](formats-click-tracking-about.md)
->* [AMO ID トラッキングコードの形式](skwcid-tracking-parameter.md)
+>* [AMO ID トラッキングコードの形式](amo-id-tracking-parameter.md)
