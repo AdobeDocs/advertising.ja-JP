@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] コンバージョンデータ'
 description: 次のタイプについて説明します。 [!DNL Google Ads] — 検索、ソーシャル、コマースで使用できる追跡されたコンバージョンデータ。
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
 feature: Search Campaign Management, Conversions
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+source-git-commit: dc5dc6c5770dd75c77c537c69e53a3b169a71efb
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 同じコンバージョン名を持つ複数のアカウントがある場合、Adobe Advertisingに重複したコンバージョン名が表示されることがあります。 これが発生した場合、 [表示名を変更する]( /help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md ) [!UICONTROL Admin] > [!UICONTROL Conversions]. 2 つの異なる指標の名前が同じ場合、レポートは正確ではありません。
+>* 同じコンバージョン名を持つ複数のアカウントがある場合、Adobe Advertisingに重複したコンバージョン名が表示されることがあります。 これが発生した場合、 [表示名を変更する](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) の指標が重複している場合は、 [!UICONTROL Admin] > [!UICONTROL Conversions]. 2 つの異なる指標の名前が同じ場合、レポートは正確ではありません。
 >* 入札単位レベルのデータは、 [!DNL Google Ads] 同じレベルで しかし、 [!DNL Google Ads]上位レベルの「独自のコンバージョンデータ」には、子入札単位に関連付けられない追加のコンバージョンが含まれる場合があります。 検索、ソーシャル、コマースのデータは、常に入札単位レベルからロールアップされるので、例えば、キャンペーンレベルのレポートは、Google Ads のキャンペーンレベルのレポートと同じ合計にならない場合があります。
 >* 通常、データの相違は、追加のコンバージョンがまだ同期されていない場合の、午前の同期後の方が、当日の後半よりも少なくなります。 データの検証は、午前中におこなうことをお勧めします。
 >* ではコンバージョンデータを使用できません [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App]、および [!DNL YouTube] 広告。 でデータを比較する際に、これらのタイプの広告を除外する [!DNL Google Ads] 検索、ソーシャル、コマースのデータを含む
