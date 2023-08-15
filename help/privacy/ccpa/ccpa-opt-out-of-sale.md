@@ -1,25 +1,25 @@
 ---
-title: カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者のオプトアウトオブセールのサポート
+title: カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者向けのオプトアウトオブセールスのサポート
 description: 消費者のオプトアウトオブセールのリクエストをキャプチャするためのサポートについて説明します。
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
 
-# カリフォルニア州消費者プライバシー法に対するAdobe広告のサポート：消費者のオプトアウト（販売のサポート）
+# カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者による販売のオプトアウトのサポート
 
-*Adobe AdvertisingDemand Side Platform(DSP)*
+*ADOBE ADVERTISINGDEMAND SIDE PLATFORM(DSP)*
 
 >[!IMPORTANT]
 >
 >このドキュメントの内容は法的な助言ではなく、その代用になるものでもありません。 カリフォルニア州消費者プライバシー法に関するアドバイスについては、弁護士に相談してください。
 
-カリフォルニア州消費者プライバシー法 (CCPA) は、2020 年 1 月 1 日に施行されるカリフォルニア州の新しいプライバシー法です。 CCPA は、カリフォルニア州の住民に対して個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスをおこなう特定の事業者に対してデータ保護の責任を課します。 CCPA は、消費者に対し、データにアクセスし削除する権利と、個人情報を第三者に「販売」すると見なされる特定の活動をオプトアウトする権利を提供します。
+カリフォルニア州消費者プライバシー法 (CCPA) は、2020 年 1 月 1 日に施行されるカリフォルニア州の新しいプライバシー法です。 CCPA は、カリフォルニア州の住民に対して個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスをおこなう特定の事業者に対してデータ保護の責任を課します。 CCPA は、消費者に対し、データにアクセスしたりデータを削除したりする権利と、第三者への個人情報の「販売」と見なされる特定の活動をオプトアウトする権利を提供します。
 
 お客様は、ビジネスとして、Adobe Experience Cloudに処理および保管を委任する個人データを決定します。
 
@@ -27,7 +27,7 @@ Adobe Advertisingは、サービスプロバイダーとして、個人情報に
 
 このドキュメントでは、Adobe AdvertisingDemand Side Platform(DSP) が、CCPA で定義される「個人情報の販売」の「オプトアウト」を消費者がサポートする方法について説明します。 Adobe Advertisingに販売オプトアウトリクエストを伝える方法や、組織の販売オプトアウトリクエストのレポートを取得する方法に関する情報が含まれています。
 
-詳しくは、 [!DNL Advertising Search, Social, & Commerce];Advertising Creative;および [!DNL Advertising DCO] 消費者の個人情報のアクセスおよび削除権をサポートします。詳しくは、 [カリフォルニア州消費者プライバシー法に対するAdobe広告のサポート：消費者データのアクセスと削除のサポート](/help/privacy/ccpa/ccpa-access-delete.md).
+詳しくは、 [!DNL Advertising Search, Social, & Commerce];Advertising Creative；および [!DNL Advertising DCO] 消費者の個人情報のアクセスおよび削除権をサポートします。詳しくは、 [カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者データのアクセスおよび削除のサポート](/help/privacy/ccpa/ccpa-access-delete.md).
 
 CCPA のAdobeプライバシーサービスについて詳しくは、 [Adobeプライバシーセンター](https://www.adobe.com/privacy/ccpa.html).
 
@@ -38,7 +38,7 @@ CCPA のAdobeプライバシーサービスについて詳しくは、 [Adobeプ
 * Advertising DSPで作成された CCPA オプトアウトオブセールセグメント
 * Adobe Experience Platform Privacy Service API
 
-### メソッド 1:を使用した CCPA オプトアウトオブセールの通知 [!UICONTROL CCPA Opt-Out-of-Sale] Advertising DSPのセグメント
+### 方法 1: [!UICONTROL CCPA Opt-Out-of-Sale] Advertising DSPのセグメント
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ CCPA のAdobeプライバシーサービスについて詳しくは、 [Adobeプ
 1. Advertising DSP( ) で広告主のアカウントにログインします。 [https://advertising.adobe.com/](https://advertising.adobe.com/).
 1. [CCPA オプトアウトオブセールセグメントを作成し、セグメントピクセルを実装してオプトアウトリクエストを取得する](/help/dsp/audiences/ccpa-opt-out-segment-create.md).
 
-### 方法 2:Adobe Experience Platform Privacy Service API を使用した CCPA オプトアウトオブセールの通信
+### 方法 2:Adobe Experience Platform Privacy Service API を使用して CCPA オプトアウトオブセールのリクエストを伝える
 
 *広告主がAdobe Experience Cloud組織 ID のみを割り当てた*
 
@@ -83,7 +83,7 @@ Adobe Advertisingは、顧客がアカウントのオプトアウトオブセー
 
 過去 3 か月間に作成された月別レポートへのリンクは、Advertising DSP内から、または Advertising DSPを使用して取得できます [!DNL Trafficking API]. 各リンクは 7 日間有効ですが、顧客がリンクを取得しようとするたびに更新されます。
 
-### メソッド 1:Advertising DSP内での消費者のオプトアウトオブセールレポートの取得
+### 方法 1:Advertising DSP内での消費者のオプトアウトオブセールレポートの取得
 
 1. Advertising DSP( ) で広告主のアカウントにログインします。 [https://advertising.adobe.com/](https://advertising.adobe.com/).
 1. [レポートの取得](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md).

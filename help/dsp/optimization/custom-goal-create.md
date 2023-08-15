@@ -3,9 +3,9 @@ title: カスタム目標の作成
 description: カスタム目標の作成
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >詳しくは、 [カスタム目標の作成に関するベストプラクティス](custom-goal-best-practices.md) カスタム目標の設定方法に関するヒントを参照してください。
 
-1. ログイン [!DNL Advertising Search, Social, & Commerce] at （北米のユーザー） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) または（他のすべてのユーザー） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. にログインします。 [!DNL Advertising Search, Social, & Commerce] at （北米のユーザー） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) または（他のすべてのユーザー） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. 目標に含める指標が追跡され、製品で利用できること、および表示名が含まれていることを確認します。
    1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
    1. 指標を見つけ、 **[!UICONTROL Show in UI and Reports]** は指標に対して有効になっています。

@@ -3,9 +3,9 @@ title: サポートされる在庫
 description: サポートされている広告ネットワーク、キャンペーンタイプ、広告タイプを参照します。
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: c3fa0318033c11a884ba0f8201af65c212b89ccf
 workflow-type: tm+mt
-source-wordcount: '2373'
+source-wordcount: '2374'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 | [!DNL Google Ads] | すべて [!DNL Google] フィード | 検出（ベータ版機能） | 検出（単一イメージ広告）<br><br>検出カルーセル（複数画像カルーセル広告） | API を使用した自動 | — | はい | ハイブリッドポートフォリオの場合のみ<br><br>入札と入札戦略のターゲットは、最適化タイプに適したキャンペーン予算と共に、キャンペーンレベルで設定されます。 | 広告レベルのデータ | 検索、ソーシャル、コマースに対する広告レベルのデータ [アップグレードされた AMO ID トラッキングコードの使用](/help/integrations/analytics/ids.md#amo-id-formats)[^4]<br><br>検索、ソーシャル、コマースから Analytics への広告レベルのデータ |
 | | すべて | 標準パフォーマンスの最大値（ベータ版機能） | すべてのタイプ | API を使用した自動 | キャンペーンビューのキャンペーン設定で、キャンペーンを作成/編集し、広告アセットをアップロードします。<br><br>必要な設定のみを使用できます。 オプションの設定とグループのリストを表示する場合は、[!DNL [!DNL Google Ads] 広告エディター。 | はい | ハイブリッドポートフォリオの場合のみ<br><br>入札戦略のターゲットは、キャンペーン予算と共にキャンペーンレベルで設定されます。 | キャンペーンレベルのデータ<br><br>グループを一覧表示するためのデータは使用できず、広告ネットワークは広告レベルのデータを提供しません。 | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics に至る、キャンペーンレベルのデータ。 アップグレードが必要 [AMO ID トラッキングコード](/help/integrations/analytics/ids.md#amo-id-formats). |
 | | ネットワークを表示 | 標準表示 | 画像 | API を使用した自動 | 次を使用してのみ URL とステータスを編集 [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | はい、広告ネットワーク内のトラッキングテンプレートにクリックトラッキングタグを手動で追加する場合に使用します | — | 広告レベルのデータ、ビュースルーデータなし | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics に広告レベルのデータを取得するが、ビュースルーデータは取得されない |
-| | [!DNL Gmail]/ネットワークを表示 | [!DNL Gmail] キャンペーン（非推奨） | [!DNL Gmail] | — | — | — | — | 従来のキャンペーンレベルのデータのみ | 検索、ソーシャル、コマースに対する従来の Analytics データ<br>検索、ソーシャル、コマースから Analytics に至る従来のキャンペーンレベルのデータ |
+| | [!DNL Gmail]/ネットワークを表示 | [!DNL Gmail] キャンペーン（非推奨） | [!DNL Gmail] | — | — | — | — | 従来のキャンペーンレベルのデータのみ | 検索、ソーシャル、コマースに対する従来の Analytics データ<br><br>検索、ソーシャル、コマースから Analytics に至る従来のキャンペーンレベルのデータ |
 | | ネットワークを検索 | 標準検索 | 通話のみ | API を使用した自動 | 使用 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) | はい。アカウントレベルのランディングページサフィックスとトラッキングテンプレートを使用するか、[!DNL [!DNL Google Ads] Ads] Manager | — | 広告ネットワークからの広告グループレベルのインプレッション数およびクリック数のみ。売上高はありません | — |
-| | ネットワークを検索 | 標準検索 | \[ 拡張\] 動的検索クリエイティブタイプ「Edsa」 | API を使用した自動 | 使用 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) および [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | はい | はい<br><br>キャンペーンが Web サイトドメインを指定したときの広告グループ。指定しなかった場合は、動的検索ターゲットの場合。 | キャンペーンおよび広告のグループレベルのデータ<br><br>広告ネットワークは広告レベルのデータを提供しません。 | 検索、ソーシャル、コマースの各キャンペーンに対する Analytics データと、検索、ソーシャル、コマースから Analytics に至るまでの広告グループレベルのデータ |
+| | ネットワークを検索 | 標準検索 | \[ 拡張\] 動的検索クリエイティブタイプ「Edsa」 | API を使用した自動 | 使用 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) および [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | はい | はい<br><br>キャンペーンが Web サイトドメインを指定したときの広告グループ。指定しなかった場合は、動的検索ターゲットの場合。 | キャンペーンおよび広告のグループレベルのデータ<br><br>広告ネットワークは広告レベルのデータを提供しません。 | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics に至る、Campaign レベルおよび広告グループレベルのデータ |
 | | ネットワークを検索 | 標準検索 | 拡張テキスト（2022 年 6 月に廃止） | API を使用した自動 | 次を使用した場合のみ削除 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、および [在庫管理フィード](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | はい | — | 広告レベルのデータ | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics への広告レベルのデータ |
 | | ネットワークを検索 | 標準検索 | レスポンシブ検索 | API を使用した自動 | 使用 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、および [在庫管理フィード](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | はい | はい | 使用可能なすべての広告要素の広告レベルのデータ<br><br><b>注意：</b> [!DNL [!DNL Google Ads] [Ads] は、広告として表示されたテキストの組み合わせに関するデータをネイティブエディター以外では提供しません。 各テキストの組み合わせのレポートについて詳しくは、 [[!DNL [!DNL Google Ads] Ads] ドキュメント](https://support.google.com/google-ads/answer/7684791). | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics への広告レベルのデータ |
 | | ネットワークを検索 | 標準検索（非推奨） | テキスト | API を使用した自動 | ステータスの変更は、 [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | はい | はい | 広告レベルのデータ | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics への広告レベルのデータ |

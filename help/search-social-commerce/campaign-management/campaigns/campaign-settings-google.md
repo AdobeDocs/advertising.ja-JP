@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] キャンペーン設定'
 description: 次の設定を参照してください： [!DNL Google Ads] キャンペーン。
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2025'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
   **メモ：**
 
-   * 必要な設定のみを使用できます。 オプション設定については、 [!DNL Google Ads] 編集者です。
+   * 必要な設定のみを使用できます。 オプション設定の場合は、 [!DNL Google Ads] 編集者です。
 
    * リンク先 [!DNL Google Merchant Center] 製品フィードはサポートされていません。
 
