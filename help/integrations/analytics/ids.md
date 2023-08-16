@@ -3,9 +3,9 @@ title: Adobe AdvertisingID 使用者 [!DNL Analytics]
 description: Adobe AdvertisingID 使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 38f94db19b94f4cb7a6965ccf5da6d83a31154af
+source-git-commit: 7433c2b0e0f61c2c72b27fb026202a76875c6b7e
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1693'
 ht-degree: 0%
 
 ---
@@ -122,13 +122,11 @@ AMO ID は、 `s_kwcid`(「[!DNL the squid].&quot;
 
 * サーバー側挿入機能は実装されていません。
 
-   * DSPのお客様：
+   * DSPのお客様： [JavaScript コード](javascript.md) は、クリックスルー数とビュースルー数を自動的に記録します。 ブラウザーがサードパーティ Cookie をサポートしていない場合でも、次の広告タイプのクリックベースのコンバージョンを追跡できます。
 
       * の場合 [!DNL Flashtalking] 広告タグ、「 」ごとに追加のマクロを手動で挿入[追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Flashtalking] 広告タグ](/help/integrations/analytics/macros-flashtalking.md).&quot;
 
       * の場合 [!DNL Google Campaign Manager 360] 広告タグ、「 」ごとに追加のマクロを手動で挿入[追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Google Campaign Manager 360] 広告タグ](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
-
-  <!--  * For all other ads, XXXX. -->
 
    * 検索、ソーシャル、コマースのお客様：
 
