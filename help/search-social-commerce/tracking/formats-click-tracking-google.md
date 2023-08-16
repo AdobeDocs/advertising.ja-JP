@@ -3,9 +3,9 @@ title: のクリック追跡形式 [!DNL Google Ads]
 description: のクリック追跡形式について説明します。 [!DNL Google Ads] アカウント。
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 0c2603303dd9401b2d6fad2893f5a84cb457ed3a
+source-git-commit: ceb2fc07eb5116b3a2bb01cf72fd779f78bba1f0
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Adobe Advertisingコンバージョントラッキングを使用するアカウ
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     アカウントにサーバー側 AMO ID 実装があり、アカウントまたはキャンペーン設定がある場合[!UICONTROL Auto Upload]」が有効な場合、パラメーターは自動的に追加されます。 それ以外の場合は、手動で追加する必要があります。 詳しくは、「 AMO ID を実装する方法」( ) を参照してください。[Adobe AdvertisingID 使用者 [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
+     アカウントにサーバー側 AMO ID 実装があり、アカウントまたはキャンペーン設定がある場合[!UICONTROL Auto Upload]」が有効な場合、パラメーターは自動的に追加されます。 それ以外の場合は、手動で追加する必要があります。 参照：[Adobe AdvertisingID 使用者 [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
    * その他すべて [!DNL Google Ads] アカウント：
 
