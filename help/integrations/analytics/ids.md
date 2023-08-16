@@ -3,7 +3,7 @@ title: Adobe AdvertisingID 使用者 [!DNL Analytics]
 description: Adobe AdvertisingID 使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: d5c894f4eaae5aaec72ca6f525ed625d08c9420d
+source-git-commit: 38f94db19b94f4cb7a6965ccf5da6d83a31154af
 workflow-type: tm+mt
 source-wordcount: '1667'
 ht-degree: 0%
@@ -106,7 +106,7 @@ AMO ID は、より詳細なレベルで一意の広告の組み合わせを追�
 
 AMO ID は、 `s_kwcid`(「[!DNL the squid].&quot;
 
-### AMO ID の実装方法
+### AMO ID の実装方法 {#amo-id-implement}
 
 パラメーターは、次のいずれかの方法でトラッキング URL に追加されます。
 

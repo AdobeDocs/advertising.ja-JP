@@ -3,9 +3,9 @@ title: のクリック追跡形式 [!DNL Google Ads]
 description: のクリック追跡形式について説明します。 [!DNL Google Ads] アカウント。
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 0c2603303dd9401b2d6fad2893f5a84cb457ed3a
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ Adobe Advertisingコンバージョントラッキングを使用するアカウ
 
 * 広告主がAdobe Analytics統合を使用する場合、サフィックスに次のいずれかを含める必要があります。
 
-   * [!DNL Google Ads] 最新の AMO ID 形式（で始まる）を使用するアカウント `s_kwcid`)：最大パフォーマンスキャンペーンおよびドラフト&amp;実験キャンペーンのキャンペーンおよび広告グループレベルのレポートをサポートします。
+   * [!DNL Google Ads] 最新の [AMO ID の形式](/help/integrations/analytics/ids.md#amo-id-formats) ( 次で始まる `s_kwcid`)：最大パフォーマンスキャンペーンおよびドラフト&amp;実験キャンペーンのキャンペーンおよび広告グループレベルのレポートをサポートします。
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     アカウントにサーバー側 AMO ID 実装があり、アカウントまたはキャンペーン設定がある場合[!UICONTROL Auto Upload]」が有効な場合、パラメーターは自動的に追加されます。 それ以外の場合は、手動で追加する必要があります。
+     アカウントにサーバー側 AMO ID 実装があり、アカウントまたはキャンペーン設定がある場合[!UICONTROL Auto Upload]」が有効な場合、パラメーターは自動的に追加されます。 それ以外の場合は、手動で追加する必要があります。 詳しくは、「 AMO ID を実装する方法」( ) を参照してください。[Adobe AdvertisingID 使用者 [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
    * その他すべて [!DNL Google Ads] アカウント：
 

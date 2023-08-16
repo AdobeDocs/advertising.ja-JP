@@ -3,7 +3,7 @@ title: 用語集
 description: 主な用語の定義を参照してください。
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **広告バリエーション：** 広告グループまたは広告戦略内の広告。
 
-**AMO ID:** Adobe Advertisingがキャンペーンに関するデータをAdobe Analyticsと共有できるようにするトラッキングコード。 これは次の日から始まります。 `s_kwcid=`.
+**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Adobe Advertisingがキャンペーンに関するデータをAdobe Analyticsと共有できるようにするトラッキングコード。 これは次の日から始まります。 `s_kwcid=`.
 
 **入札単位：** 入札が行われる単位を示す検索、ソーシャルおよびコマースの用語。 ほとんどのネットワーク上のほとんどのキャンペーンでは、検索またはコンテンツキャンペーン、買い物キャンペーンの単位レベルの製品グループ（下位レベルのサブディビジョン）、動的検索広告キャンペーンの動的検索ターゲットに対するキーワードと一致タイプです。 同じキーワードと一致タイプの組み合わせ、同じ製品グループ、または同じ動的検索ターゲットが 1 つのキャンペーンの複数の広告グループ内で発生した場合、すべてのインスタンスが同じ入札単位と見なされ、同じ入札額を持ちます。
 
