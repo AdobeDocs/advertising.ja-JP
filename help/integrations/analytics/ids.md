@@ -3,7 +3,7 @@ title: Adobe AdvertisingID 使用者 [!DNL Analytics]
 description: Adobe AdvertisingID 使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 336664e00f626a7841c328b53b8f5cea1444f3d7
+source-git-commit: d5c894f4eaae5aaec72ca6f525ed625d08c9420d
 workflow-type: tm+mt
 source-wordcount: '1667'
 ht-degree: 0%
@@ -118,7 +118,7 @@ AMO ID は、 `s_kwcid`(「[!DNL the squid].&quot;
 
       * の場合 [!DNL Google Ads] および [!DNL Microsoft® Advertising] アカウントの [!UICONTROL Auto Upload] アカウントまたはキャンペーンに対してを有効にすると、エンドユーザーがAdobe Advertisingピクセルを持つ広告をクリックすると、ピクセルサーバーによって s_kwcid パラメーターがランディングページのサフィックスに自動的に追加されます。
 
-      * 他の広告ネットワークの場合、または [!DNL Google Ads] および [!DNL Microsoft® Advertising] アカウントの [!UICONTROL Auto Upload] 無効に設定、手動 [アカウントレベルでパラメーターを追加し、パラメーターを追加します。](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}：をベース URL に追加します。
+      * 他の広告ネットワークの場合、または [!DNL Google Ads] および [!DNL Microsoft® Advertising] アカウントの [!UICONTROL Auto Upload] 無効に設定しています。パラメーターを [アカウントレベルの追加パラメーター](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}：をベース URL に追加します。
 
 * サーバー側挿入機能は実装されていません。
 
@@ -134,7 +134,7 @@ AMO ID は、 `s_kwcid`(「[!DNL the squid].&quot;
 
       * の場合 ([!DNL Google Ads] および [!DNL Microsoft® Advertising]) 広告を使用する場合は、ランディングページのサフィックスに AMO ID パラメーターを手動で追加します。可能であれば、 [アカウントレベル](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} 個々のアカウントコンポーネントに対して異なるトラッキングが必要な場合を除きます。
 
-      * その他すべての広告ネットワーク上の広告の場合は、手動で [AMO ID パラメーターをアカウントレベルで追加するパラメーター](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}：をベース URL に追加します。
+      * その他すべての広告ネットワーク上の広告の場合は、AMO ID パラメーターを [アカウントレベルの追加パラメーター](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}：をベース URL に追加します。
 
 サーバー側挿入機能を実装する場合や、ビジネスに最適なオプションを決定する場合は、Adobeアカウントチームにお問い合わせください。
 
