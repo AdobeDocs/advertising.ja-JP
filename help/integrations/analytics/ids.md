@@ -3,9 +3,9 @@ title: Adobe AdvertisingID 使用者 [!DNL Analytics]
 description: Adobe AdvertisingID 使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 426f6e25f0189221986cc42d186bfa60f5268ef1
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,20 @@ ht-degree: 0%
 
 Adobe Advertisingでは、オンサイトパフォーマンストラッキングに 2 つの ID( *EF ID* そして *AMO ID*.
 
-広告インプレッションが発生すると、Adobe Advertisingは AMO ID と EF ID の値を作成して保存します。 広告を閲覧した訪問者が広告をクリックせずにサイトに入ったとき、 [!DNL Analytics] は、を通じてこれらの値をAdobe Advertisingから呼び出します [!DNL Analytics for Advertising] JavaScript コード。 ビュースルートラフィックの場合、 [!DNL Analytics] は追加の ID(`SDID`) で始まり、EF ID と AMO ID をステッチするために使用されます。 [!DNL Analytics]. クリックスルートラフィックの場合、これらの ID は `s_kwcid` および `ef_id` クエリー文字列パラメーター。
+広告インプレッションが発生すると、Adobe Advertisingは AMO ID と EF ID の値を作成して保存します。 広告を閲覧した訪問者が広告をクリックせずにサイトに入ったとき、 [!DNL Analytics] は、を通じてこれらの値をAdobe Advertisingから呼び出します [!DNL Analytics for Advertising] JavaScript コード。 ビュースルートラフィックの場合、 [!DNL Analytics] は追加の ID(`SDID`) で始まり、EF ID と AMO ID をステッチするために使用されます。 [!DNL Analytics]. クリックスルートラフィックの場合、これらの ID は `ef_id` および `s_kwcid` （AMO ID の場合）クエリー文字列パラメーター。
 
 Adobe Advertisingは、次の条件を使用して、Web サイトへのクリックスルーエントリとビュースルーエントリを区別します。
 
 * ビュースルーエントリは、広告を表示した後、広告をクリックせずにユーザーがサイトを訪問した場合に取り込まれます。 [!DNL Analytics] は、次の 2 つの条件を満たした場合にビュースルーを記録します。
+
    * 訪問者には、 [!DNL DSP] または [!DNL Search, Social, & Commerce] 次の期間の広告 [ルックバックウィンドウをクリック](#lookback-a4adc).
+
    * 訪問者が少なくとも 1 つを閲覧しました [!DNL DSP] 次の期間の広告 [インプレッションのルックバックウィンドウ](#lookback-a4adc). 最後のインプレッションは、ビュースルーとして渡されます。
+
 * クリックスルーエントリは、サイト訪問者がサイトに入る前に広告をクリックするとキャプチャされます。 [!DNL Analytics] は、次のいずれかの条件が発生した場合にクリックスルーをキャプチャします。
+
    * URL には、Adobe Advertising別のランディングページ URL に追加された EF ID と AMO ID が含まれます。
+
    * URL にトラッキングコードは含まれていませんが、Adobe Advertisingの JavaScript コードが過去 2 分以内にクリックを検出しました。
 
 ![Adobe Advertisingビューベース [!DNL Analytics] 統合](/help/integrations/assets/a4adc-view-through-process.png)
@@ -100,6 +105,38 @@ EF ID には、Analysis Workspaceでの 500,000 個の一意の ID 制限が適�
 AMO ID は、より詳細なレベルで一意の広告の組み合わせを追跡し、 [!DNL Analytics] 広告指標（インプレッション数、クリック数、コストなど）のデータ分類とAdobe Advertisingからの取り込み AMO ID は、 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) または rVar ディメンション (AMO ID)。でのレポートにのみ使用されます。 [!DNL Analytics].
 
 AMO ID は、 `s_kwcid`(「[!DNL the squid].&quot;
+
+### AMO ID の実装方法
+
+パラメーターは、次のいずれかの方法でトラッキング URL に追加されます。
+
+* （推奨）サーバー側挿入機能が実装されています。
+
+   * DSPのお客様：ピクセルサーバーは、エンドユーザーがディスプレイ広告とAdobe Advertisingピクセルを表示すると、ランディングページのサフィックスに s_kwcid パラメーターを自動的に追加します。
+
+   * 検索、ソーシャル、コマースのお客様：
+
+      * の場合 [!DNL Google Ads] および [!DNL Microsoft® Advertising] アカウントの [!UICONTROL Auto Upload] アカウントまたはキャンペーンに対してを有効にすると、エンドユーザーがAdobe Advertisingピクセルを持つ広告をクリックすると、ピクセルサーバーによって s_kwcid パラメーターがランディングページのサフィックスに自動的に追加されます。
+
+      * 他の広告ネットワークの場合、または [!DNL Google Ads] および [!DNL Microsoft® Advertising] アカウントの [!UICONTROL Auto Upload] を無効に設定した場合、アカウントレベルの追加パラメーターに手動でパラメーターを追加して、ベース URL に追加します。
+
+* サーバー側挿入機能は実装されていません。
+
+   * DSPのお客様：
+
+      * の場合 [!DNL Flashtalking] 広告タグ、「 」ごとに追加のマクロを手動で挿入[追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Flashtalking] 広告タグ](/help/integrations/analytics/macros-flashtalking.md).&quot;
+
+      * の場合 [!DNL Google Campaign Manager 360] 広告タグ、「 」ごとに追加のマクロを手動で挿入[追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Google Campaign Manager 360] 広告タグ](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+
+  <!--  * For all other ads, XXXX. -->
+
+   * 検索、ソーシャル、コマースのお客様：
+
+      * の場合 ([!DNL Google Ads] および [!DNL Microsoft® Advertising]) 広告の場合は、ランディングページのサフィックスに AMO ID パラメーターを手動で追加します。
+
+      * その他すべての広告ネットワーク上の広告の場合は、AMO ID パラメーターをアカウントレベルの追加パラメーターに手動で追加し、ベース URL に追加します。
+
+サーバー側挿入機能を実装する場合や、ビジネスに最適なオプションを決定する場合は、Adobeアカウントチームにお問い合わせください。
 
 ### AMO ID の形式 {#amo-id-formats}
 
