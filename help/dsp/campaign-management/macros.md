@@ -3,16 +3,16 @@ title: Advertising DSPマクロ
 description: 一般的な追跡に使用可能なマクロを参照し、サードパーティのディスプレイ広告のクリックを追跡します。
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bb404dd1ff2fda5e37435ac892e2a0f6beba0b33
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
 
 # Advertising DSPマクロ
 
-マクロは、命令の短いコマンドまたは略記法で、通常は形式に従います `${MACRO_NAME}`. クリエイティブコードまたはクリックスルー URL に含まれるマクロは、広告サーバーが理解できる長いコード文字列に展開されます。 DSP広告サーバーは、広告が提供またはクリックされるとマクロを実行します。
+マクロは、命令の短いコマンドまたは略記法で、通常は形式に従います `${MACRO_NAME}`. クリエイティブコードまたはクリックスルー URL に含まれるマクロは、広告サーバーが理解できる長いコード文字列に展開されます。 DSP広告サーバーは、広告が提供またはクリックされると、マクロを実行します。
 
 広告サーバーマクロは、重要な情報をDSPまたはサードパーティの広告サーバーに渡すのに役立ちます。 マクロは、サードパーティとカスタムのクリエイティブコードまたはメタデータ（サードパーティのピクセルなど）のトラフィック指定時に最も一般的に使用されます。
 
@@ -34,19 +34,19 @@ ht-degree: 0%
 | ` ${TM_CLICK_URL_URLENC}` | エンコードされたリダイレクト URL。広告サーバーは、広告クリックの追跡とカウントを可能にします。 広告が提供される際に、ユーザーが広告をクリックすると、マクロが有効化され、クリックが記録され、レポート目的でカウントされます。 サードパーティの広告を作成し、ベンダーが URL エンコーディングを必要とする場合を除き、このマクロは使用しないでください。 | 文字列 |
 | `${TM_FEED_ID}` | メディア配置のキー (feedKey)。 | 文字列 |
 | `${TM_FEED_ID_NUM}` | メディア配置の ID。 | 整数 |
-| ` ${TM_MACRO_PLACEMENT_SITE_KEY` | プレースメントのサイトキー。 必須 [!DNL AppsFlyer] モバイルアプリインストール広告用のトラッカーをクリックします。<!-- should map to placement_site_key column of placement_site table --> | 文字列 |
+| ` ${TM_MACRO_PLACEMENT_SITE_KEY` | プレースメントのサイトキー。 必須 [!DNL AppsFlyer] モバイルアプリインストール広告の「トラッカー」をクリックします。<!-- should map to placement_site_key column of placement_site table --> | 文字列 |
 | `${TM_PLACEMENT_ID}` | 配置キー (cpKey)。 | 文字列 |
 | `${TM_PLACEMENT_ID_NUM}` | プレースメント ID。 | 整数 |
 | `${TM_RANDOM}` | Cachebuster:1 ～ 1000000の乱数。 | long |
 | `${TM_SESSION_ID}` | 広告タグの単一の取得に対応するセッションの ID。 | 文字列 |
-| `${TM_SITE_DOMAIN_URLENC}` | 入札リクエストの URL から解析されたページサブドメイン。URL エンコード済み。 バナー内、クリックトゥプレイ広告はサポートされていません。 | 文字列 |
-| ` ${TM_SITE_NAME}` | 配置のサイト名。 | 文字列 |
-| `${TM_SITE_URL_URLENC}` | 入札リクエストで渡された URL。URL エンコード済み。 バナー内、クリックトゥプレイ広告はサポートされていません。 | 文字列 |
+| `${TM_SITE_DOMAIN_URLENC}` | 入札リクエスト内の URL から解析されたページサブドメイン。URL エンコードされた。 バナー内、クリックトゥプレイ広告はサポートされていません。 | 文字列 |
+| ` ${TM_SITE_NAME}` | プレースメントのサイト名。 | 文字列 |
+| `${TM_SITE_URL_URLENC}` | 入札リクエストで渡された URL。URL エンコードされている。 バナー内、クリックトゥプレイ広告はサポートされていません。 | 文字列 |
 | `${TM_SITE_ID_NUM}` | プレースメントのサイト ID。 | 整数 |
 | `${TM_TIMESTAMP}` | 1970 年 1 月 1 日の午前 0 時 (00:00 UTC) 以降の経過秒数を示す Unix タイムスタンプ。 | long |
 | ` ${TM_VIDEO_DURATION}` | 広告ビデオの長さ（秒）。 | 整数 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- Removed because not found in code base:
 |` ${TM_MACRO_PROMOTED_AD_KEY}` | The promoted ad key for the placement. Required for [!DNL AppsFlyer] click trackers for mobile app install ads. | string |
@@ -62,21 +62,21 @@ ht-degree: 0%
 | `${NS_PLATFORM_ID}` | ([!DNL Nielsen]) デバイスのオペレーティングシステムに対応するプラットフォーム ID。<ul><li>`ios`= [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` プラットフォームが上記のいずれでもない場合</li></ul> | 文字列 |
 | `${NS_DEVICE_GROUPING}` | ([!DNL Nielsen]) 広告が閲覧されたデバイスのタイプ。<ul><li>`TAB` =タブレット</li><li>`PHN` =モバイル</li><li>`computer` =コンピュータ</li></ul> | 文字列 |
 | `${UOO}` | ([!DNL Nielsen]) ユーザーが広告トラッキングをオプトアウトしたかどうかを示します。<ul><li>`1` （DNT フラグ= 1） =ユーザーが広告トラッキングをオプトアウトしました</li><li>`0` （DNT フラグ= 0） =ユーザーが広告トラッキングをオプトインした</li></ul> | 整数 (`0` または `1`) |
-| `${TM_BUNDLE}` | この [!DNL iOS] または [!DNL Android] app store バンドル ID。 例：com.zynga.wwf2.free またはid804379658 | 文字列 |
-| `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}` 入札者が、入札リクエストが欧州連合 (EU) の起源から送信され、GDPR の実施を必要とすると判断するかどうかを示します。<ul><li>`1` = GDPR を適用する必要がある</li><li>`0` = GDPR は適用しない</li></ul>`gdpr_consent=${GDPR_CONSENT}` は、インバウンド入札リクエストで供給パートナーから渡される同意値です。<ul><li>ほとんどの場合、これは base64URL でエンコードされたコンセントストリング、または daisybit です ( 例：BN5lERiMYEdiAKAWXEND1HoSBE6CAFAApAMgBkIDIgM0AgOJxAnQA)</li><li>`0` =同意なし</li><li>`1` =同意</li></ul> | dasybit または integer |
+| `${TM_BUNDLE}` | The [!DNL iOS] または [!DNL Android] app store バンドル ID。 例： com.zynga.wwf2.free またはid804379658 | 文字列 |
+| `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}` 入札者が、入札リクエストが欧州連合 (EU) の起源から送信され、GDPR の実施を必要とすると判断するかどうかを示します。<ul><li>`1` = GDPR を適用する必要がある</li><li>`0` = GDPR は適用しない</li></ul>`gdpr_consent=${GDPR_CONSENT}` は、インバウンド入札リクエストで供給パートナーから渡される同意値です。<ul><li>ほとんどの場合、これは base64url エンコードされたコンセントストリングまたは daisybit です（例： BN5lERiMYEdiAKAWXEND1HoSBE6CAFApAMgBkIDIgM0AgOJxAn）。qa)</li><li>`0` =同意なし</li><li>`1` =同意</li></ul> | dasybit または integer |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## サードパーティのディスプレイ広告のマクロをクリックする
 
-サードパーティの表示タグを使用して広告のクリックを正確に追跡するには、DSPにディスプレイクリックマクロが必要です。 必要なマクロのバージョンは 1 つだけです。関連するマクロは、タグのタイプによって異なります。
+サードパーティの表示タグを使用して広告のクリックを正確に追跡するには、DSPにディスプレイクリックマクロが必要です。 必要なマクロのバージョンは 1 つだけです。関連するマクロは、タグの種類に応じて異なります。
 
 | マクロ | 置換の説明 | タイプ |
 | ----- | ----------------------- | ---- |
 | `${TM_CLICK_URL}` | 広告サーバーがプラットフォームで広告クリックを追跡し、カウントできるようにするリダイレクト URL です。 | 文字列 |
 | `${TM_CLICK_URL_URLENC}` | URL エンコーディングが必要な広告サーバーがプラットフォームでの広告クリックを追跡し、カウントできるようにするリダイレクト URL です。 | 文字列 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 DSPは、次の場合に、サードパーティの表示タグにディスプレイクリックマクロを自動的に挿入します。
 
@@ -84,6 +84,10 @@ DSPは、次の場合に、サードパーティの表示タグにディスプ�
 * バルクアップロード [!DNL Flashtalking] または [!DNL Google DoubleClick for Advertisers] DSPで直接タグを追加
 
 ディスプレイ広告の作成時にクリックマクロが見つからない場合は、DSPに警告メッセージが表示され、適切なディスプレイクリックマクロをタグの正しい領域に手動で挿入するよう求められます。
+
+## [!DNL Analytics for Advertising] マクロ
+
+特に [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) のお客様：[追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Flashtalking] 広告タグ](/help/integrations/analytics/macros-flashtalking.md)&quot;および&quot;[追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Google Campaign Manager 360] 広告タグ](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
 
 ## マクロエラーのトラブルシューティング
 
@@ -103,4 +107,3 @@ DSPは、次の場合に、サードパーティの表示タグにディスプ�
 >* [ネイティブ広告設定](/help/dsp/campaign-management/ads/ad-settings-native.md)
 >* [プリロール広告の設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 >* [ユニバーサルビデオ広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
-
