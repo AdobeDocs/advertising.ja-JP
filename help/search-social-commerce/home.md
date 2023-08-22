@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: cbbbd4260fc7545fb778b14d0b82cd4911e9a5a5
+source-git-commit: 846c85525059d1cbd2e61b6a494fb62f88db0096
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023 年 8 月 16 日 | コンバージョン指標 | [!UICONTROL Admin] > [!DNL Transaction Properties] 現在は、「[!UICONTROL Source]」列。これは、各指標のソースを示します。例： [!UICONTROL Adobe Advertising], [!UICONTROL Adobe Analytics], [!UICONTROL Google Ads]または [!UICONTROL Custom Feed]. | 参照：[広告主で追跡されているコンバージョン指標を表示する](conversion-metric-view-tracked.md).&quot; |
 | 2023 年 8 月 9 日 | コンバージョン指標 | [!UICONTROL Admin] > [!DNL Transaction Properties] は名前が変更されました [!UICONTROL Conversions]. | 参照：[広告主のコンバージョン指標の管理について](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).&quot; |
 |  | [!DNL Google] コンバージョントラッキングタグ | 作成する更新済みの画面 [!DNL Google] コンバージョントラッキングタグは、 [!UICONTROL Admin] > [!UICONTROL Conversions]. レガシー画面 ( ) [!UICONTROL Tools] > [!UICONTROL Google Ads Conversion Tags] は将来削除されます。 | 参照：[のコンバージョンタグを作成します。 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).&quot; |
 |  | [!DNL Google] コンバージョントラッキングタグ | を作成する際に、 [!DNL Google] コンバージョントラッキングタグで、追跡するコンバージョンカテゴリを指定できるようになりました。 | 参照：[のコンバージョンタグを作成します。 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).&quot; |

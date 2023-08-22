@@ -3,16 +3,16 @@ title: 広告主で追跡されているコンバージョン指標を表示す�
 description: 広告主で追跡されるコンバージョン指標のリストを表示する方法を説明します。
 feature: Conversions
 exl-id: 56f5b480-9e75-47a0-8f88-8fa8fcfe23f9
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+source-git-commit: f69075bfd49964d005271e882d27b4410b180915
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
 # 広告主で追跡されているコンバージョン指標を表示する
 
-すべての [コンバージョン](/help/search-social-commerce/glossary.md#c-d) 指標が含まれます。Adobe Advertisingが広告主で追跡した指標です。
+すべての [コンバージョン](/help/search-social-commerce/glossary.md#c-d) 指標が含まれます。Adobe Advertisingが広告主で追跡した指標です。 各指標行には、指標のソースが含まれます。
 
 * メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
 
