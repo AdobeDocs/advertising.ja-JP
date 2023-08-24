@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 095af9bbf0b4f69e626a44cf3afe35d50b3e0b81
+source-git-commit: 237b37a03664abab00c9fd4b68a564a0f57cdc5c
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023 年 8 月 23 日 | [!UICONTROL Placements] | キャンペーンのスプレッドシートファイルをダウンロードしたり、1 つ以上のプレースメントのためにファイルを編集し、新しい「[!UICONTROL Attached Ad ID]」列を編集して、編集したファイルをアップロードします。 配置に広告を追加するが、削除しない場合は、列を使用します。<br><br>広告名と関連する広告のリストをダウンロードするには [!UICONTROL Ad ID]s、に移動します。 [!UICONTROL Ads] を表示し、 [!UICONTROL ID] 指標を選択し、データをエクスポートします。 | 参照：[スプレッドシートでの配置設定のダウンロード](/help/dsp/campaign-management/qa/qa-sheet-download.md),&quot; &quot;[ダウンロード/アップロードされたスプレッドシートの配置設定列](/help/dsp/campaign-management/qa/qa-sheet-columns.md),&quot;および&quot;[スプレッドシートでの配置設定のアップロード](/help/dsp/campaign-management/qa/qa-sheet-upload.md).&quot;<br><br>関連項目：[Campaign Managementビューからのデータの書き出し](/help/dsp/campaign-management/reports/campaign-export-data.md).&quot; |
 | 2023 年 7 月 19 日 | 在庫 | パブリッシャー管理の広告を実行して、Google Authorized Buyers SSP でプログラム的に保証された取引を実行できるようになりました。 DSPではなく、パブリッシャーで直接広告をホストすることで、カスタムのリッチメディア広告形式を活用できます。 カスタム広告フォーマットは通常、直接予約を介して実行されるので、DSPでパブリッシャーが管理する広告を選択する機能も、直接予約予算をプログラム的なエコシステムに移行できます。 | 参照：[プログラムで保証された契約について](/help/dsp/inventory/programmatic-guaranteed-about.md)&quot;および&quot;[プログラム的に保証された契約の設定](/help/dsp/inventory/programmatic-guaranteed-set-up.md).&quot; |
 | 2023 年 7 月 19 日 | レポート | 新しい [!UICONTROL Household Conversions Report] は、デバイス/cookie レベルではなく、IP アドレスに基づいた世帯レベルでビュースルーコンバージョンを表示します。 | 参照：[レポートについて](/help/dsp/reports/report-about.md)&quot;および&quot;[世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md).&quot; |
 | 2023 年 5 月 30 日 | [!UICONTROL Campaigns] | キャンペーン、パッケージおよび広告を一時停止またはアクティブ化できるようになりました。 既に配置を一時停止してアクティブ化していました。 | 参照：[キャンペーンの一時停止またはアクティブ化](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md),&quot; &quot;[パッケージの一時停止またはアクティブ化](/help/dsp/campaign-management/packages/package-pause-activate.md),&quot;および&quot;[広告の一時停止またはアクティブ化](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |
