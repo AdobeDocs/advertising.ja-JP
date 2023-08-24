@@ -3,7 +3,7 @@ title: カスタムレポート設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
+source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -48,13 +48,13 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  > この [!UICONTROL Household Reach & Frequency] レポートに含めることができるディメンションは 1 つだけです。
+  > The [!UICONTROL Household Reach & Frequency] レポートに含めることができるディメンションは 1 つだけです。
 
 * [!UICONTROL Metrics]
 
   >[!NOTE]
   >
-  >この [!UICONTROL Household Reach & Frequency] レポートには、重複指標または重複しない指標のどちらか一方のみが含まれます。
+  >The [!UICONTROL Household Reach & Frequency] レポートには、重複指標または重複しない指標のどちらか一方のみが含まれます。
 
 * [!UICONTROL Conversion Metrics] （広告主別に並べ替え）
 
@@ -66,19 +66,19 @@ ht-degree: 0%
 
 **[!UICONTROL Format]:** でレポートを生成するかどうか *[!UICONTROL CSV]* （コンマ区切り値）または *[!UICONTROL Tab]* （タブ区切り値）形式を使用します。
 
-**[!UICONTROL Headers]:** 次を実行するかどうか *[!UICONTROL Include]* または *[!UICONTROL Do Not Include]* 列ヘッダー。
+**[!UICONTROL Headers]:** 次のどちらを実行するか *[!UICONTROL Include]* または *[!UICONTROL Do Not Include]* 列ヘッダー。
 
 ## [!UICONTROL Multi-Touch Conversion Options] セクション
 
 **[!UICONTROL Attribution Rule Settings]:** 設定は、レポートタイプによって異なります。
 
-* **\[ 属性タイプ\]:** ([!UICONTROL Household Conversion] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；(Adobe Advertisingコンバージョントラッキングのみ ) レポート内で、コンバージョンにつながる一連のイベント内のコンバージョンデータを関連付ける方法を次のように指定します。
+* **\[ 属性タイプ\]:** ([!UICONTROL Household Conversion] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列、Adobe Advertisingコンバージョントラッキングのみを持つ広告主 ) レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータをどのように属性付けるかを示します。
 
    * *[!UICONTROL Unique]:* （デフォルト）ディメンション値（デバイスや配置など）がコンバージョンへのパス上にあった回数をカウントします。
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:*  コンバージョンへのパスでのディメンション値（デバイスや配置など）の発生頻度に基づいて、各コンバージョンのクレジットを配分します。 例えば、コンバージョン前に合計 10 件のインプレッションがあり、CTV で 8 件、モバイルで 2 件があった場合、クレジットの 80%(0.8) が CTV 画面に、0.2 がモバイルに割り当てられます。
 
-* **\[ ルールタイプ\]:** ( すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；Adobe Advertisingコンバージョントラッキングのみを使用する広告主 ) レポート内で、コンバージョンにつながる一連のイベントにコンバージョンデータを関連付ける方法を説明します。 ルール間の違いを比較する場合は、複数のルールを選択できます。
+* **\[ ルールタイプ\]:** ( すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列、Adobe Advertisingコンバージョントラッキングのみを持つ広告主 ) レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータをどのように属性付けるかを示します。 ルール間の違いを比較する場合は、複数のルールを選択できます。
 
   >[!NOTE]
   >
@@ -88,7 +88,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Weight Last More]:* コンバージョンパス内のすべてのイベントに対してコンバージョンを属性付けますが、最後のイベントに対して最も大きな重み付けを与え、前のイベントに対する重み付けを徐々に小さくします。
 
-   * *[!UICONTROL Even Distribution]:* コンバージョンを、コンバージョンパスの各イベントに等しく関連付けます。
+   * *[!UICONTROL Even Distribution]:* コンバージョンを、コンバージョンパスの各イベントに等しく属性付けします。
 
    * *[!UICONTROL Weight First More]:* コンバージョンパス内のすべてのイベントに対してコンバージョンを関連付けますが、最初のイベントに対して最も重み付けが適用され、次のイベントに対しては引き続き重み付けが少なくなります。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
   <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-* **ルックバック：** ([!UICONTROL Household Conversion] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；Adobe Advertisingコンバージョンを追跡している広告主のみ ) レポート内で、コンバージョンイベントを発生させるインプレッションイベントの後の最大日数。 デフォルトはです。 *[!UICONTROL 30 days]*&#x200B;の場合、最大の日数は 92 日です。
+* **ルックバック：** ([!UICONTROL Household Conversion] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；Adobe Advertisingコンバージョントラッキングのみを持つ広告主 ) レポート内で、コンバージョンイベントを発生させるインプレッションイベントの後の最大日数。 デフォルトはです。 *[!UICONTROL 30 days]*&#x200B;の場合、最大の日数は 92 日です。
 
 **[!UICONTROL Paths as Columns]:**  ( すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列 ) 同じデバイスで以前のイベントが発生した場合にレポートするコンバージョンのタイプ。 最大 3 つのタイプを含めることができます。 選択したタイプごとに、各コンバージョン指標に対して個別の列が追加され、指定したサフィックス ([!UICONTROL (tl)], [!UICONTROL (ct)]または [!UICONTROL (vt)]):
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 * *[!UICONTROL S3]:* 完了したレポートを 1 つ以上のレポートに送信するには [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) の場所 ( **[!UICONTROL Destination Name]** フィールドに入力します。
 * *[!UICONTROL sFTP]:* 完了したレポートを 1 つ以上の SFTP の場所に送信する場合は、 **[!UICONTROL Destination Name]** フィールドに入力します。
-* *[!UICONTROL FTP]:* 完了したレポートを 1 つ以上の FTP の場所に送信する場合は、 **[!UICONTROL Destination Name]** フィールドに入力します。
+* *[!UICONTROL FTP]:* 完了したレポートを 1 つ以上の FTP の場所に送信する場合は、「 **[!UICONTROL Destination Name]** フィールドに入力します。
 * *[!UICONTROL FTP SSL]（現在ベータ版）:* 完了したレポートを 1 つ以上の FTP SSL の場所に送信する場合は、 **[!UICONTROL Destination Name]** フィールドに入力します。
 * *[!UICONTROL Email]:* エラーが原因でレポートがキャンセルされた場合に完了したレポートまたは通知を送信する電子メールアドレスを指定する。 複数のアドレスを指定する場合は、コンマまたはスペースで区切ります。
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
       これで、新しい宛先が既存の宛先のリストから使用できるようになり、オプションでレポートに追加できます。
 
-**[!UICONTROL Frequency]:** ( [!UICONTROL Destination Name] レポートを送信先に送信する頻度： *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*&#x200B;または *[!UICONTROL Monthly]*.
+**[!UICONTROL Frequency]:** ( 各 [!UICONTROL Destination Name]) レポートを送信先に送信する頻度： *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*&#x200B;または *[!UICONTROL Monthly]*.
 
 ## [!UICONTROL Save Report] セクション
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->以下が可能です。 [いつでもカスタムレポートを実行する](report-run-now.md) から [!UICONTROL Reports] 表示
+>以下が可能です。 [いつでもカスタムレポートを実行する](report-run-now.md) から [!UICONTROL Reports] 表示。
 
 >[!MORELIKETHIS]
 >

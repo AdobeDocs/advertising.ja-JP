@@ -3,9 +3,9 @@ title: 必要システム構成
 description: ソフトウェアとアカウントの要件について説明します。
 exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 2fc49a64366ee9fbf05b5eb4bbda37badcf9b763
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,13 @@ ht-degree: 0%
 
 ログインするには、ユーザー名とパスワードが必要です。 Adobeアカウントチームがユーザーアカウントを設定し、ユーザー名とパスワードを作成します。
 
-## コンピューターとブラウザーの言語設定
+## コンピューターとブラウザーの設定
+
+### ブラウザーサイトの設定
+
+一部の広告/アセットタイプの画像プレビューを表示するには、 `efrontier.com` ドメイン内で使用する必要があります。 お使いのブラウザーのサイトや Web サイトの設定、または（Firefox で）インストールした広告ブロッカーのブラウザー拡張機能の設定を編集することで、広告ブロッカーを管理します。
+
+### コンピューターとブラウザーの言語設定
 
 次の情報は、使用する文字セットと、数値、日付、時刻、通貨を表示する書式を決定します。
 
