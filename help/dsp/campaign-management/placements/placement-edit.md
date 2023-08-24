@@ -3,9 +3,9 @@ title: 配置の編集
 description: プレースメントの編集方法を説明します。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -64,15 +64,15 @@ ht-degree: 0%
 
       * **縮小** （既存の値を特定の金額だけ減らす場合）
 
-      * **増加** （既存の値を特定の量だけ増やす場合）
+      * **増やす** （既存の値を特定の量だけ増やす場合）
 
       * **上書き** （既存の値を新しい値に変更する場合）
 
       * **一時停止** （広告を一時停止するため）
 
       * **削除** （指定した値を削除する場合）
-   1. を編集します。 [配置設定](placement-settings.md).
 
+   1. を編集します。 [配置設定](placement-settings.md).
 
 1. クリック **[!UICONTROL Submit]**.
 
@@ -87,6 +87,5 @@ ht-degree: 0%
 >* [配置の変更ログの表示](placement-change-log.md)
 >* [配置設定](placement-settings.md)
 >* [キーボードショートカット](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [スプレッドシートを使用したキャンペーンの配置設定の修正について](/help/dsp/campaign-management/qa/qa-about.md)
+>* [スプレッドシートを使用した配置設定の修正について](/help/dsp/campaign-management/qa/qa-about.md)
 >* [ビデオ：一括編集ツールを使用した配置の編集方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
-

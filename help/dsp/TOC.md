@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: b505a40d04fc57fce245d111f58a614bd6756c65
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 6%
@@ -22,12 +22,12 @@ ht-degree: 6%
       +  [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-show-pixels.md)
 -->
 
-+ [最新情報](/help/dsp/home.md)
++ [新機能](/help/dsp/home.md)
 + はじめに {#introduction}
-   + [Adobe広告DSPの概要](/help/dsp/introduction/dsp-about.md)
+   + [Adobe Advertising DSPの概要](/help/dsp/introduction/dsp-about.md)
    + 主な特長 {#features}
       + [最適化](/help/dsp/introduction/features/optimization.md)
-      + [ブランドの安全性とメディア品質](/help/dsp/introduction/features/brand-safety-media-quality.md)
+      + [ブランドの安全性とメディアの品質](/help/dsp/introduction/features/brand-safety-media-quality.md)
       + [クロスデバイス対応ソリューション](/help/dsp/introduction/features/cross-device-solutions.md)
    + [アカウント資金](/help/dsp/introduction/billing/account-funding.md)
    + [サポートされる通貨](/help/dsp/currency.md)
@@ -75,12 +75,12 @@ ht-degree: 6%
       + [認定広告配信パートナー](/help/dsp/campaign-management/ads/certified-ad-servers.md)
       + [単一の広告の作成](/help/dsp/campaign-management/ads/ad-create.md)
       + [複数のサードパーティ広告の作成](/help/dsp/campaign-management/ads/ad-create-multiple.md)
-      + [で広告を作成 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [での広告の作成 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
       + [広告の複製](/help/dsp/campaign-management/ads/ad-duplicate.md)
       + [プレースメントへの広告の添付](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [広告に関連付けられた配置のリスト](/help/dsp/campaign-management/ads/ad-list-placements.md)
-      + [広告の詳細レポートの表示](/help/dsp/campaign-management/ads/ad-view-report.md)
+      + [広告に関する詳細レポートの表示](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [広告の一時停止またはアクティブ化](/help/dsp/campaign-management/ads/ad-pause-activate.md)
       + [広告のアーカイブまたはアーカイブ解除](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
       + 広告設定 {#ad-settings}
@@ -107,8 +107,8 @@ ht-degree: 6%
       + [データビジュアライゼーションの管理](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
    + スプレッドシートを使用した配置設定の修正 {#qa-spreadsheet}
       + [スプレッドシートを使用した配置設定の修正について](/help/dsp/campaign-management/qa/qa-about.md)
-      + [キャンペーンの配置設定のダウンロード](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [キャンペーンの配置設定のアップロード](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
+      + [スプレッドシートでの配置設定のダウンロード](/help/dsp/campaign-management/qa/qa-sheet-download.md)
+      + [スプレッドシートでの配置設定のアップロード](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [ダウンロード/アップロード済みスプレッドシートの列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [DSPマクロ](/help/dsp/campaign-management/macros.md)
    + [キーボードショートカット](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
@@ -137,7 +137,7 @@ ht-degree: 6%
       + [セグメントの表示追跡ピクセル](/help/dsp/audiences/segment-view-pixels.md)
       + [セグメントの削除](/help/dsp/audiences/segment-delete.md)
    + Audiences {#reusable-audiences}
-      + [再利用可能なオーディエンスを作成](/help/dsp/audiences/reusable-audience-create.md)
+      + [再利用可能なオーディエンスを作成する](/help/dsp/audiences/reusable-audience-create.md)
       + [再利用可能なオーディエンスを複製](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [再利用可能なオーディエンスを編集](/help/dsp/audiences/reusable-audience-edit.md)
       + [再利用可能なオーディエンスに関する詳細の表示](/help/dsp/audiences/reusable-audience-view-details.md)
@@ -166,7 +166,7 @@ ht-degree: 6%
          + [[!DNL On Demand] 北米の Premium Inventory Publishers](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
       + [購読してへのアクセスをリクエスト [!DNL On Demand] プレミアム在庫取引](/help/dsp/inventory/on-demand-inventory-subscribe.md)
       + [再リクエスト [!DNL On Demand] プレミアム在庫取引](/help/dsp/inventory/on-demand-inventory-rerequest.md)
-      + [ステータスの表示 [!DNL On Demand] 契約リクエストと購読](/help/dsp/inventory/on-demand-inventory-view-status.md)
+      + [のステータスを表示 [!DNL On Demand] 契約リクエストと購読](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + プライベート在庫 {#private-inventory}
       + [プライベート在庫について](/help/dsp/inventory/private-inventory-about.md)
       + 契約 ID {#deal-ids}
@@ -183,7 +183,7 @@ ht-degree: 6%
             + [!DNL FreeWheel] プログラム的に保証された取引 {#freewheel}
                + [プログラムで保証された取引の設定の概要 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
                + [プログラム的に保証された契約の広告をに送信する [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
-               + [次の広告のステータスの確認 [!DNL FreeWheel] プログラム的に保証された取引](/help/dsp/inventory/freewheel-check-status.md)
+               + [以下に対する広告のステータスの確認 [!DNL FreeWheel] プログラム的に保証された取引](/help/dsp/inventory/freewheel-check-status.md)
                + [FreeWheel 広告送信のエラーコード](/help/dsp/inventory/freewheel-error-codes.md)
       + [非公開契約設定の編集](/help/dsp/inventory/deal-id-edit.md)
       + [個人契約のプレースメントと広告の指定](/help/dsp/inventory/deal-id-attach-placements.md)

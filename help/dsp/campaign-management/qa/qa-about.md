@@ -1,18 +1,18 @@
 ---
-title: スプレッドシートを使用したキャンペーンの配置設定の修正について
-description: Excel QA スプレッドシートを使用して、キャンペーンの主要な配置設定を確認および編集する方法について説明します。
+title: スプレッドシートを使用した配置設定の修正について
+description: スプレッドシートを使用してキー配置設定を確認および編集する方法について説明します。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
-# スプレッドシートを使用したキャンペーンの配置設定の修正について
+# スプレッドシートを使用した配置設定の修正について
 
-QA スプレッドシート機能を使用すると、レビュー用にキャンペーンの配置設定を XLSX（Excel スプレッドシート）形式でダウンロードできます。 この機能を使用して、次のような詳細をすばやく確認します。
+1 つ以上の配置の設定をダウンロードしたり、キャンペーン内のすべての配置の設定を XLSX（Excel スプレッドシート）形式でダウンロードして確認したりできます。 この機能を使用して、次のような詳細をすばやく確認します。
 
 * キャンペーンのターゲットとなるオーディエンス。
 * 配置の配信が開始したときと停止するタイミング。
@@ -22,11 +22,10 @@ QA スプレッドシート機能を使用すると、レビュー用にキャ�
 
 >[!TIP]
 >
->配置設定をより詳細に変更するには、一括編集機能を使用します。<!-- add link once we have help on it -->
+>配置設定をより詳細に変更するには、 [一括編集機能](/help/dsp/campaign-management/placements/placement-edit.md).
 
 >[!MORELIKETHIS]
 >
->* [キャンペーンの配置設定のダウンロード](qa-sheet-download.md)
->* [キャンペーンの配置設定のアップロード](qa-sheet-upload.md)
+>* [スプレッドシートでの配置設定のダウンロード](qa-sheet-download.md)
+>* [スプレッドシートでの配置設定のアップロード](qa-sheet-upload.md)
 >* [ダウンロード/アップロード済みスプレッドシートの列](qa-sheet-columns.md)
-

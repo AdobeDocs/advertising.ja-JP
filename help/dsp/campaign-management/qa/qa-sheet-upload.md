@@ -1,22 +1,24 @@
 ---
-title: キャンペーンの配置設定のアップロード
-description: Excel QA スプレッドシートを使用して、キャンペーンのキー配置設定に変更をアップロードする方法を説明します。
+title: スプレッドシートでの配置設定のアップロード
+description: スプレッドシートを使用して、キャンペーンのキー配置設定に変更をアップロードする方法を説明します。
 feature: DSP Placements
 exl-id: 2ca7c019-ff5f-410d-b9c7-31ef1509f91e
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
 
-# キャンペーンの配置設定のアップロード
+# スプレッドシートでの配置設定のアップロード
 
-キャンペーンの一部のタイプの配置設定に変更を投稿するには、以前に作成したスプレッドシートをアップロードします [ダウンロード](qa-sheet-download.md) 編集済みです。 変更は、 [編集可能な列](qa-sheet-columns.md).
+キャンペーンの一部のタイプの配置設定に変更を投稿するには、以前に作成したスプレッドシートをアップロードします [ダウンロード済み](qa-sheet-download.md) 編集済みです。 変更は、 [編集可能な列](qa-sheet-columns.md).
 
 >[!TIP]
 >
->配置設定をより詳細に変更するには、一括編集機能を使用します。<!-- add link once we have help on it -->
+>配置設定をより詳細に変更するには、 [一括編集機能](/help/dsp/campaign-management/placements/placement-edit.md).
+
+## キャンペーンのすべての配置の設定をアップロード
 
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 
@@ -26,7 +28,27 @@ ht-degree: 0%
 
    * キャンペーン名をクリックして、キャンペーンの詳細を表示します。 右上で、 **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
-1. 内 [!UICONTROL Edit in Excel] ダイアログ：
+1. Adobe Analytics の [!UICONTROL Edit in Excel] ダイアログ：
+
+   1. ボックスにファイルをドラッグ&amp;ドロップするか、ボックス内をクリックしてデバイスまたはネットワークからファイルを選択します。
+
+   1. クリック **[!UICONTROL Upload]**.
+
+1. （オプション）更新が処理されたことを確認するには、 ![ジョブ](/help/dsp/assets/downloads.png) をクリックします。
+
+## 1 つ以上の配置の設定をアップロード
+
+1. メインメニューで、 **[!UICONTROL Campaigns]**.
+
+1. キャンペーンの名前をクリックします。
+
+1. サブメニューで、 **[!UICONTROL Placements]**.
+
+1. 設定をアップロードする各プレースメントの横にあるチェックボックスをオンにします。
+
+1. バルクアクションツールバーで、 **[!UICONTROL ...]** > **[!UICONTROL Upload Edit in Excel Sheet]**.
+
+1. Adobe Analytics の [!UICONTROL Edit in Excel] ダイアログ：
 
    1. ボックスにファイルをドラッグ&amp;ドロップするか、ボックス内をクリックしてデバイスまたはネットワークからファイルを選択します。
 
@@ -36,8 +58,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [スプレッドシートを使用したキャンペーンの配置設定の修正について](qa-about.md)
->* [キャンペーンの配置設定のダウンロード](qa-sheet-download.md)
+>* [スプレッドシートを使用した配置設定の修正について](qa-about.md)
+>* [スプレッドシートでの配置設定のダウンロード](qa-sheet-download.md)
 >* [ダウンロード/アップロード済みスプレッドシートの列](qa-sheet-columns.md)
+>* [配置の編集](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [配置設定](/help/dsp/campaign-management/placements/placement-settings.md)
-
