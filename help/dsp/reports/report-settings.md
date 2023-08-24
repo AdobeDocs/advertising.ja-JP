@@ -3,9 +3,9 @@ title: カスタムレポート設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
+source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -126,11 +126,13 @@ ht-degree: 0%
 * *[!UICONTROL sFTP]:* 完了したレポートを 1 つ以上の SFTP の場所に送信する場合は、 **[!UICONTROL Destination Name]** フィールドに入力します。
 * *[!UICONTROL FTP]:* 完了したレポートを 1 つ以上の FTP の場所に送信する場合は、「 **[!UICONTROL Destination Name]** フィールドに入力します。
 * *[!UICONTROL FTP SSL]（現在ベータ版）:* 完了したレポートを 1 つ以上の FTP SSL の場所に送信する場合は、 **[!UICONTROL Destination Name]** フィールドに入力します。
-* *[!UICONTROL Email]:* エラーが原因でレポートがキャンセルされた場合に完了したレポートまたは通知を送信する電子メールアドレスを指定する。 複数のアドレスを指定する場合は、コンマまたはスペースで区切ります。
+* *[!UICONTROL Email]:* エラーが原因でレポートがキャンセルされた場合に完了したレポートまたは通知を送信する電子メールアドレスを指定する。
 
 >[!NOTE]
 >
 > レポートを保存した後は、保存先のタイプを変更できません。
+
+**[!UICONTROL Email]:** （E メールの宛先タイプのみ）各アドレスについて、アドレスを入力し、 **+**.
 
 **[!UICONTROL Destination Name]:** （S3、FTP、SFTP、FTP SSL の宛先タイプのみ）カスタムレポートの送信先となるレポートの宛先の名前。
 
@@ -148,9 +150,13 @@ ht-degree: 0%
 
 **[!UICONTROL Frequency]:** ( 各 [!UICONTROL Destination Name]) レポートを送信先に送信する頻度： *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*&#x200B;または *[!UICONTROL Monthly]*.
 
+**[!UICONTROL Start Day]:** ( 各 [!UICONTROL Destination Name] と [!UICONTROL Frequency] / *[!UICONTROL Weekly]* または *[!UICONTROL Monthly]*) レポートを生成する日。 週別レポートの場合は、曜日を選択します。 月別レポートの場合は、月の日を数値で選択します。
+
 ## [!UICONTROL Save Report] セクション
 
-**[!UICONTROL Send & Save]:** レポートを送信するタイミング： *[!UICONTROL On Schedule]* または *[!UICONTROL Run Now]*. 予定レポートは、アカウントのタイムゾーンで 09:00 に配信されます。
+**[!UICONTROL When to Generate]:** レポートを生成するタイミング： *[!UICONTROL On Schedule]* または *[!UICONTROL Run Now]*. 予定レポートは、アカウントのタイムゾーンで 09:00 に配信されます。
+
+**[!UICONTROL End Date]:** レポートの有効期限（4 ヶ月先までかかります）。 レポートの有効期限が切れる前に、指定したすべての電子メール受信者に、有効期限の 7 日前と 1 日前に電子メールアラートが送信されます。 レポートの有効期限を長く保つには、レポート設定で有効期限を変更します。
 
 >[!NOTE]
 >
