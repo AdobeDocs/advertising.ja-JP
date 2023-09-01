@@ -3,9 +3,9 @@ title: 作成 [!DNL Google Ads] 次のオーディエンスをカスタマーマ
 description: 作成方法を学ぶ [!DNL Google Ads] 既存のAdobe AnalyticsおよびAudience Managerオーディエンスのオーディエンスに一致する顧客。
 exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aa913130d0f611c4164ef8bdca57983d8c6c0405
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 必要に応じて前提条件を満たします。
 
-   1. （ユーザー ID リマーケティングリストのオーディエンスを作成するには） [!DNL Adobe] 管理者ユーザーまたはアカウントマネージャーは、顧客一致オーディエンスを有効にする広告主レベルの設定を選択する必要があります。 設定は、Audience Managerの広告主と [!DNL Analytics] のみ。
+   1. （ユーザー ID リマーケティングリストのオーディエンスを作成するには） [!DNL Adobe] 管理者ユーザーまたはアカウントマネージャーは、顧客一致オーディエンスを有効にする広告主レベルの設定を選択する必要があります。
 
    1. の実装 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) バージョン 2.0 以降。
 
@@ -40,7 +40,9 @@ ht-degree: 0%
 
       `<script src="//pixel.everesttech.net/rlsa/<Advertising_Cloud_UserID>" type="text/javascript"> </script>`
 
-      場所 `Advertising_Cloud_UserID` は、広告主に割り当てられる一意のユーザー ID です。 例：  `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
+      場所 `Advertising_Cloud_UserID` は、広告主に割り当てられる一意の数値ユーザー ID です。
+
+      例： `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
    1. （まだ完了していない場合）許可されたユーザーは、次のように広告主のアカウントを設定する必要があります。 [Adobe Experience Cloudの広告主の組織アカウントとの同期](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
