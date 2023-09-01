@@ -3,9 +3,9 @@ title: 配置診断レポートの表示
 description: 配置の設定とペーシングに関する問題を診断する方法を説明します。
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 622d971a0c583cfde8610025f0a83481c4ae2188
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
       1. メインメニューで、 **[!UICONTROL Campaigns]**.
       1. キャンペーン名をクリックし、 **[!UICONTROL Placements]**.
       1. 配置名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
-   1. 右上で、 ![配置診断](/help/dsp/assets/placement-diagnostics.png) または **[!UICONTROL Diagnostic]**.
+   1. 右上で、 ![配置診断](/help/dsp/assets/placement-diagnostics.png).
 1. 次のいずれかの操作を行います。
    * 変更ログを表示するには、次の手順に従います。
       1. クリック **[!UICONTROL Change Log]**.
@@ -37,7 +37,7 @@ ht-degree: 0%
       1. 右上で、 **[!UICONTROL Ad Approvals]**.
       1. （オプション）広告を一時停止またはアクティブ化するには、ステータススイッチ (![ステータススイッチ](/help/dsp/assets/status-switch.png)) をクリックします )。
       1. （オプション）広告の設定を開くには、 **[!UICONTROL View Ad]** 広告の横に表示されます。
-   * DSPがプレースメントで入札しなかった理由を確認するには：
+   * DSPがプレースメントで入札しなかった理由を確認するには、以下を実行します。
       1. 右上で、 **[!UICONTROL Non Bids]**.
       1. （オプション）日付範囲を変更するには、日付フィールドをクリックして、別の日付または日付範囲を選択します。
 
@@ -46,5 +46,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [プラットフォーム内レポートについて](campaign-reports-about.md)
+>* [配置予測レポートの表示](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [配置設定](/help/dsp/campaign-management/placements/placement-settings.md)
-
