@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] キャンペーン設定'
 description: 次の設定を参照してください： [!DNL Google Ads] キャンペーン。
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
 feature: Search Campaign Management
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -254,43 +254,59 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
 **[!UICONTROL Final URL]:** アセットグループから作成されるすべての広告の最終 URL。 <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** 広告に対する最大 15 個の画像（以下のサイズを含む）:1) 正方形の画像が 3 つ以上、2) 横置きの画像が 3 つ以上、3) 少なくとも 1 つの縦置きの画像が 1 つ以上。 詳しくは、 [[!DNL Google Ads] 画像仕様](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 画像をアップロードするには：
+**[!UICONTROL Images]:** 広告に対する最大 15 個の画像（以下のサイズを含む）:1) 正方形の画像が 3 つ以上、2) 横置きの画像が 3 つ以上、3) 少なくとも 1 つの縦置きの画像が 1 つ以上。 詳しくは、 [[!DNL Google Ads] 画像仕様](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 画像をアップロードするか、 [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
 
-1. クリック **[!UICONTROL +]** お使いのデバイスまたはネットワークから画像を選択します。
+* 画像をアップロードするには：
 
-1. 各画像に対して、次の操作を実行します。
+   1. 次の日： [!UICONTROL Upload from computer] タブ、クリック **[!UICONTROL +]** お使いのデバイスまたはネットワークから画像を選択します。
 
-   1. 縦横比を選択します。
+   1. 各画像に対して、次の操作を実行します。
 
-   1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能な部分を選択し、可能な限り画像の表示可能な部分のサイズを変更します。
+      1. 縦横比を選択します。
 
-   1. （オプション）追加の縦横比を選択し、必要に応じて、選択した各縦横比に合わせて画像の位置を変更したりサイズを変更したりします。
+      1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能な部分を選択し、可能な限り画像の表示可能な部分のサイズを変更します。
 
-      選択した縦横比ごとに 1 つのアセットが作成されます。
+      1. （オプション）追加の縦横比を選択し、必要に応じて、選択した各縦横比に合わせて画像の位置を変更したりサイズを変更したりします。
 
-   1. クリック **[!UICONTROL Proceed]**.
+         選択した縦横比ごとに 1 つのアセットが作成されます。
 
-1. 画像の指定が完了したら、 **[!UICONTROL Upload]**.
+      1. クリック **[!UICONTROL Proceed]**.
 
-**[!UICONTROL Logos]:** 1 つ以上の正方形のロゴ(1:1)、1 つの横向きのロゴ(4:1)。 各サイズには最大 5 個を含めることができます。 詳しくは、 [[!DNL Google Ads] ロゴの仕様](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 画像をアップロードするには：
+   1. 画像の指定が完了したら、 **[!UICONTROL Upload]**.
 
-1. クリック **[!UICONTROL +]** お使いのデバイスまたはネットワークから画像を選択します。
+* 画像を [!UICONTROL Asset Library]をクリックし、 **[!UICONTROL Asset Library]** 画像を選択します。
 
-1. 各画像に対して、次の操作を実行します。
+**[!UICONTROL Logos]:** 1 つ以上の正方形のロゴ(1:1)、1 つの横向きのロゴ(4:1)。 各サイズには最大 5 個を含めることができます。 詳しくは、 [[!DNL Google Ads] ロゴの仕様](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 画像をアップロードするか、 [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
 
-   1. 縦横比を選択します。
+* 画像をアップロードするには：
 
-   1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能な部分を選択し、可能な限り画像の表示可能な部分のサイズを変更します。
+   1. 次の日： [!UICONTROL Upload from computer] タブ、クリック **[!UICONTROL +]** お使いのデバイスまたはネットワークから画像を選択します。
 
-   1. （オプション）追加の縦横比を選択し、必要に応じて、選択した各縦横比に合わせて画像の位置を変更したりサイズを変更したりします。
+   1. 各画像に対して、次の操作を実行します。
 
-      選択した縦横比ごとに 1 つのアセットが作成されます。
+      1. 縦横比を選択します。
 
-   1. クリック **[!UICONTROL Proceed]**.
+      1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能な部分を選択し、可能な限り画像の表示可能な部分のサイズを変更します。
 
-1. 画像の指定が完了したら、 **[!UICONTROL Upload]**.
+      1. （オプション）追加の縦横比を選択し、必要に応じて、選択した各縦横比に合わせて画像の位置を変更したりサイズを変更したりします。
 
-**[!UICONTROL Videos]:** （オプション）少なくとも 1 つ、最大 5 つのの URL。 [!DNL YouTube] ビデオの長さは 10 秒以上です。
+         選択した縦横比ごとに 1 つのアセットが作成されます。
+
+      1. クリック **[!UICONTROL Proceed]**.
+
+   1. 画像の指定が完了したら、 **[!UICONTROL Upload]**.
+
+* 画像を [!UICONTROL Asset Library]をクリックし、 **[!UICONTROL Asset Library]** 画像を選択します。
+
+**[!UICONTROL Videos]:** （オプション）少なくとも 1 つ、最大 5 つの [!DNL YouTube] 長さが 10 秒以上のビデオ。  URL を入力するか、 [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
+
+* URL を入力するには：
+
+   1. 次の日： [!UICONTROL Upload from computer] 「 」タブで、URL を入力します。
+
+   1. （オプション）別の URL を追加するには、 [!UICONTROL + Add]**」と入力し、URL を入力します。
+
+* 次の場所からビデオを選択するには： [!UICONTROL Asset Library]をクリックし、 **[!UICONTROL Asset Library]** をクリックし、ビデオを選択します。
 
 **[!UICONTROL Headlines]:** 少なくとも 3 つ、最大 5 つの短い見出し（それぞれ 30 文字まで）。 1 つ以上のヘッドラインは 15 文字以下にする必要があります。 最終的な URL 拡張を有効にするキャンペーンレベルのオプションが、 [!DNL Google Ads]を、 [!DNL Google Ads] この値を、ランディングページのコンテンツに基づくカスタムヘッドラインに置き換えます。
 
@@ -302,7 +318,24 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
 **[!UICONTROL Business Name]:** ビジネス名（最大 25 文字）。
 
+**[!UICONTROL Audience Signal]:** （オプション） [!DNL Google Ads] オーディエンスを選択し、キャンペーンのオーディエンスのシグナルとして使用します。 [!DNL Google Ads] 機械学習モデルでは、オーディエンスを使用して、ターゲットに設定する類似の web サーファーを見つけたり、シグナルとして指定されていないオーディエンスに広告を表示して、パフォーマンス目標の達成に役立てたりできます。 コンバージョンに至る可能性が最も高いオーディエンスを選択します。
+
+>[!NOTE]
+>オーディエンスのシグナルは、 [キャンペーンレベルおよび広告グループレベルのオーディエンスターゲット](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+
 **[!UICONTROL Add new asset group]:** 別のアセットグループを指定できます。
+
+## [!UICONTROL Conversion Goals]
+
+**[!UICONTROL Conversion Goal]:** 次のどちらを実行するか *[!UICONTROL Use account conversion goals for this campaign]* （デフォルト）または *[!UICONTROL Use campaign specific conversion goals]*. キャンペーンのコンバージョン目標を指定する場合は、標準目標を選択するか、キャンペーンのカスタム目標を作成します。
+
+目標は毎日同期されるので、過去 24 時間に作成した既存の目標は一覧に表示されない場合があります。 リストを更新するには、次の手順に従います。 [広告ネットワークデータの手動同期](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+
+カスタムコンバージョン目標を作成するには、 **[!UICONTROL + Add custom goal]**、カスタム目標名を入力し、 [コンバージョンアクション](https://support.google.com/google-ads/answer/6032150) カスタム目標に含めるには、をクリックします。 **[!UICONTROL Save]**. **注意：** 各キャンペーンに設定できるカスタム目標は 1 つだけです。
+
+>[!TIP]
+>
+>キャンペーンがポートフォリオに含まれている場合は、ポートフォリオの目的と同じコンバージョン目標を使用します。 異なるコンバージョン目標を使用すると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
 
 >[!MORELIKETHIS]
 >
