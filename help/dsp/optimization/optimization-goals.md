@@ -3,7 +3,7 @@ title: 最適化目標とその使用方法
 description: 利用可能な最適化目標を参照し、それらをいつ使用するかを確認します。
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: 900a8e876e99b3d826c8934a266a3c4e1b226a1c
+source-git-commit: 42f10200bb28f4509a04ac69d415e7254537b769
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -34,6 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Lowest vCPM (Moat - MRC)] | パッケージレベルの最適化では、予算配分は最も低い vCPM で配置を優先します。<br><br>オークション評価は vCPM を優先します。 支出目標が満たされている場合、DSPは CPM の低下と視認性の向上とのバランスを取ろうとします。 | キャンペーンタイプ：ブランディング<br><br>ベンチマーク：効率的な CPM と最高レベルの vCPM<br><br>広告タイプ：プリロール、表示<br><br><b>注意：</b> この目標を使用して、可能な限り最高の vCPM を達成します。<br><br>最大 CPM を保証するには、配置の最大入札額として使用します。<br><br>この設定は、 [!DNL Moat] がアルゴリズムに通知している。 この目標は、 [!DNL Moat] キャンペーンの統合。 |
 | [!UICONTROL Always Max Bid and Maximize Reach] | この目標は、常に配置レベルの最大入札額を使用して、所定のインプレッション数で世帯の最大リーチを達成しようと試みます。 支出目標が満たされている場合、DSPはより選択的になり、個別リーチを増分的に達成する機会がある場合にのみオークションに入札します。 | キャンペーンタイプ：ブランディング<br><br>Benchmark: Maximize Reach<br><br>広告タイプ：プリロール、ディスプレイ、CTV、ネイティブ、オーディオおよびユニバーサルビデオ |
 | [!UICONTROL Lowest Cost per Reach] | この目標は、所定の予算で、家計のリーチを最大限に高めることを目指しています。 支出目標が満たされている場合、DSPは、個別のリーチを増分的に達成する機会に応じて入札を変化させます。 | キャンペーンタイプ：ブランディング<br><br>ベンチマーク：リーチあたりの効率的なコスト<br><br>広告タイプ：プリロール、ディスプレイ、CTV、ネイティブ、オーディオおよびユニバーサルビデオ |
+
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
