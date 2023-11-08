@@ -1,17 +1,18 @@
 ---
 title: アセットの作成とアップロード
-description: 再利用可能な画像、ビデオ、テキストアセットを作成し、それらを [!DNL Google Ads] アカウントレベルのアセットライブラリ。
+description: 再利用可能な画像、ビデオ、テキストアセットを作成し、それらを [!DNL Google Ads] および [!DNL Microsoft® Advertising] アカウントレベルのアセットライブラリ。
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
+source-git-commit: 68c082131378974bf95534050b8ddf2db0ae394b
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # アセットの作成とアップロード
 
-*の場合 [!DNL Google Ads] アカウントのみ*
+*の場合 [!DNL Google Ads] および [!DNL Microsoft® Advertising] アカウントのみ*
 
 *ベータ版機能を開く*
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
         一度に最大 10 個のビデオ URL を投稿できます。
 
-      * テキストアセットの場合は、テキスト文字列を入力します。 別のテキストアセットを追加するには、 **+追加** 別の文字列を入力します。
+      * ([!DNL Google Ads] アカウントのみ ) テキストアセットの場合は、テキスト文字列を入力します。 別のテキストアセットを追加するには、 **+追加** 別の文字列を入力します。
 
         各テキストアセットには、最大 1000 文字まで指定できます。 一度にアップロードできるテキストアセットは最大 10 個です。
 
