@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Google Ads] キャンペーン設定'
 description: 次の設定を参照してください： [!DNL Google Ads] キャンペーン。
-exl-id: d16ef1a9-f943-494c-8655-975383707f3c
+exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
+source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Shopping Network]:* 製品広告を表示します。 [!DNL Google] は、の製品に基づいて自動的にを生成します。 [!DNL Google Merchant Center] オン [!DNL Google Shopping]（の隣の領域） [!DNL Google] 検索結果（テキスト広告とは別のもの）、および（オプションで）検索パートナー web サイト。 キャンペーン内の広告グループごとに、広告を提供する製品グループを指定できます。
 
-* *[!UICONTROL Display Network Only]:* ディスプレイネットワーク上に広告を表示します。 各広告グループに対して、プレースメントを指定し、必要に応じてキーワードを指定する必要があります。
+* *[!UICONTROL Display Network Only]:* ディスプレイネットワーク上に広告を表示します。 各広告グループに対して、プレースメントを指定し、必要に応じてキーワードを指定します。
 
 * *[!UICONTROL Performance Max]:* （ベータ版機能）を使用して、様々なチャネルの広告のコンバージョンを表示および最適化します。 [!DNL Google Ads] スマート入札。 キャンペーン設定では、1 つ以上のアセットグループを指定する必要があります。このグループには、画像、ロゴ、ヘッドライン、説明、オプションのビデオおよびオーディエンスシグナルが含まれます。 [!DNL Google Ads] チャネルに基づいて広告を提供するために、アセットを自動的に組み合わせます ( 例： [!DNL YouTube], [!DNL Gmail]または [!DNL Search]) をクリックします。
 
@@ -88,7 +88,7 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
   この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データを使用できません。
 
-  新しい検索キャンペーンの場合、 [!DNL Google Ads] は、この入札戦略を [!UICONTROL Maximize Conversions] 使用する戦略 [!UICONTROL Target CPA] の値です。 この方法で既存の検索キャンペーンを使用する場合は、ターゲット値の編集のみ可能で、その結果、戦略が [!UICONTROL Maximize Conversions] 指定した [!UICONTROL Target CPA] の値です。
+  新しい検索キャンペーンの場合、 [!DNL Google Ads] は、この入札戦略を [!UICONTROL Maximize Conversions] 使用する戦略 [!UICONTROL Target CPA] の値です。 この方法で既存の検索キャンペーンを使用する場合は、ターゲット値のみを編集でき、その結果、戦略が [!UICONTROL Maximize Conversions] 指定した [!UICONTROL Target CPA] の値です。
 
 * *[!UICONTROL Target Impression Share]:* （検索キャンペーン）検索、ソーシャル、コマースではなく、広告ネットワークによって、入札を最適化して、ターゲットのインプレッション共有と広告の位置を達成します。 必要に応じて、 **[!UICONTROL Target Impression Share]** パーセンテージでは、 **[!UICONTROL Target Ad Position]**、および **[!UICONTROL Max CPC]** （クリックあたりのコスト）。 **注意：** このオプションは、ポートフォリオではサポートされていません。
 
@@ -96,7 +96,7 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
   この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データを使用できません。
 
-  新しい検索キャンペーンの場合、 [!DNL Google Ads] は、この入札戦略を [!UICONTROL Maximize Conversion Value] 使用する戦略 [!UICONTROL Target Return on Ad Spend value]. この方法で既存の検索キャンペーンを使用する場合は、ターゲット値の編集のみ可能で、その結果、戦略が [!UICONTROL Maximize Conversion Value] 指定した [!UICONTROL Target Return on Ad Spend] の値です。
+  新しい検索キャンペーンの場合、 [!DNL Google Ads] は、この入札戦略を [!UICONTROL Maximize Conversion Value] 使用する戦略 [!UICONTROL Target Return on Ad Spend value]. この方法で既存の検索キャンペーンを使用する場合は、ターゲット値のみを編集でき、その結果、戦略が [!UICONTROL Maximize Conversion Value] 指定した [!UICONTROL Target Return on Ad Spend] の値です。
 
 * *[!UICONTROL Viewable CPM]:* （既存、読み取り専用） [!DNL Gmail] キャンペーンのみ ) 広告ネットワーク（検索、ソーシャル、コマースではなく）は、表示可能と測定された広告にのみ入札します。 **注意：** この戦略の最適化は、どの種類のポートフォリオでもサポートされていません。
 
@@ -254,11 +254,11 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
 **[!UICONTROL Final URL]:** アセットグループから作成されるすべての広告の最終 URL。 <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** 広告に対する最大 15 個の画像（以下のサイズを含む）:1) 正方形の画像が 3 つ以上、2) 横置きの画像が 3 つ以上、3) 少なくとも 1 つの縦置きの画像が 1 つ以上。 詳しくは、 [[!DNL Google Ads] 画像仕様](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 画像をアップロードするか、 [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
+**[!UICONTROL Images]:** 広告の画像（以下のサイズを含む） 15 個まで： 1) 正方形の画像を 3 つ以上、2) 横置きの画像を 3 つ以上、3) 少なくとも 1 つの縦置きの画像を含む。 詳しくは、 [[!DNL Google Ads] 画像仕様](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 画像をアップロードするか、 [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
 
 * 画像をアップロードするには：
 
-   1. 次の日： [!UICONTROL Upload from computer] タブ、クリック **[!UICONTROL +]** お使いのデバイスまたはネットワークから画像を選択します。
+   1. 次の日： [!UICONTROL Upload from Device] タブ、クリック **[!UICONTROL +]** お使いのデバイスまたはネットワークから画像を選択します。
 
    1. 各画像に対して、次の操作を実行します。
 
@@ -280,7 +280,7 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
 * 画像をアップロードするには：
 
-   1. 次の日： [!UICONTROL Upload from computer] タブ、クリック **[!UICONTROL +]** お使いのデバイスまたはネットワークから画像を選択します。
+   1. 次の日： [!UICONTROL Upload from Device] タブ、クリック **[!UICONTROL +]** お使いのデバイスまたはネットワークから画像を選択します。
 
    1. 各画像に対して、次の操作を実行します。
 
@@ -298,21 +298,47 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
 * 画像を [!UICONTROL Asset Library]をクリックし、 **[!UICONTROL Asset Library]** 画像を選択します。
 
-**[!UICONTROL Videos]:** （オプション）少なくとも 1 つ、最大 5 つの [!DNL YouTube] 長さが 10 秒以上のビデオ。  URL を入力するか、 [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
+**[!UICONTROL Videos]:** （オプション）少なくとも 1 つ、最大 5 つの [!DNL YouTube] 長さが 10 秒以上のビデオ。 URL を入力するか、 [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
 
 * URL を入力するには：
 
-   1. 次の日： [!UICONTROL Upload from computer] 「 」タブで、URL を入力します。
+   1. 次の日： [!UICONTROL Enter Video Url] 「 」タブで、URL を入力します。
 
-   1. （オプション）別の URL を追加するには、 [!UICONTROL + Add]**」と入力し、URL を入力します。
+   1. （オプション）別の URL を追加するには、 **[!UICONTROL + Add]** をクリックし、URL を入力します。
 
 * 次の場所からビデオを選択するには： [!UICONTROL Asset Library]をクリックし、 **[!UICONTROL Asset Library]** をクリックし、ビデオを選択します。
 
 **[!UICONTROL Headlines]:** 少なくとも 3 つ、最大 5 つの短い見出し（それぞれ 30 文字まで）。 1 つ以上のヘッドラインは 15 文字以下にする必要があります。 最終的な URL 拡張を有効にするキャンペーンレベルのオプションが、 [!DNL Google Ads]を、 [!DNL Google Ads] この値を、ランディングページのコンテンツに基づくカスタムヘッドラインに置き換えます。
 
-**[!UICONTROL Long Headlines]:** 少なくとも 1 つ、最大 5 つの長いヘッドライン（それぞれ最大 90 文字）。
+テキストを入力するか、アセットを [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
 
-**[!UICONTROL Descriptions]:** 少なくとも 2 つ、最大 4 つの説明で、それぞれ最大 90 文字です。 少なくとも 1 つの説明は 30 文字以下にする必要があります。
+* テキストを入力するには：
+
+   1. 次の日： [!UICONTROL Enter Text] 「 」タブに、テキストを入力します。
+
+   1. （オプション）別のテキスト文字列を追加するには、 **[!UICONTROL + Add]** をクリックし、文字列を入力します。
+
+* 次の場所からアセットを選択するには、 [!UICONTROL Asset Library]をクリックし、 **[!UICONTROL Asset Library]** をクリックし、アセットを選択します。
+
+**[!UICONTROL Long Headlines]:** 少なくとも 1 つ、最大 5 つの長いヘッドライン（それぞれ最大 90 文字）。 テキストを入力するか、アセットを [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
+
+* テキストを入力するには：
+
+   1. 次の日： [!UICONTROL Enter Text] 「 」タブに、テキストを入力します。
+
+   1. （オプション）別のテキスト文字列を追加するには、 **[!UICONTROL + Add]** をクリックし、文字列を入力します。
+
+* 次の場所からアセットを選択するには、 [!UICONTROL Asset Library]をクリックし、 **[!UICONTROL Asset Library]** をクリックし、アセットを選択します。
+
+**[!UICONTROL Descriptions]:** 少なくとも 2 つ、最大 4 つの説明で、それぞれ最大 90 文字です。 少なくとも 1 つの説明は 30 文字以下にする必要があります。 テキストを入力するか、アセットを [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
+
+* テキストを入力するには：
+
+   1. 次の日： [!UICONTROL Enter Text] 「 」タブに、テキストを入力します。
+
+   1. （オプション）別のテキスト文字列を追加するには、 **[!UICONTROL + Add]** をクリックし、文字列を入力します。
+
+* 次の場所からアセットを選択するには、 [!UICONTROL Asset Library]をクリックし、 **[!UICONTROL Asset Library]** をクリックし、アセットを選択します。
 
 **[!UICONTROL Call to Action]:** 広告に含めるコールトゥアクション。 デフォルトでは、 *[!UICONTROL Automated]* が選択され、 [!DNL Google Ads] コールトゥアクションを選択します。 必要に応じて、別のアクションを選択できます。
 
