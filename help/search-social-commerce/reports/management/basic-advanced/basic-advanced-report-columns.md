@@ -1,9 +1,9 @@
 ---
 title: 基本レポートと高度なレポートのレポート列
 description: 基本レポートと高度なレポートで使用できるデータ列について説明します。
-exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
+exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 0e82baca53d27dea4207cb2eef3f4be7a9f99fb5
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising]、および [!DNL Yahoo! Japan Ads] キャンペーン ) 現在のキャンペーンレベルのモバイル入札の調整。広告がモバイルデバイスに表示されたときの入札の調整方法を決定します。 |
 | [!UICONTROL Campaign Start Date] | キャンペーンの入札が行われた最初の日。 |
 | [!UICONTROL Campaign Status] | キャンペーンステータス： <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Ended]</i>または <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Campaign Type] | キャンペーンのタイプ（例： ） <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Discovery]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Video]</i>または <i>[!UICONTROL Others]</i>. |
+| [!UICONTROL Campaign Type] | キャンペーンのタイプ（例： ） <i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Video)]</i>, <i>[!UICONTROL Brand Shopping]</i>, <i>[!UICONTROL Discovery]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Store Ad]</i>, <i>[!UICONTROL Video]</i>または <i>[!UICONTROL Others]</i>. |
 | [!UICONTROL Channel Type] | マーケティングチャネルのタイプ： <i>[!UICONTROL Search]</i> または <i>[!UICONTROL Content]</i>. この列は、レポートの [!UICONTROL Search/Content] レポート設定では、「[!UICONTROL Combined].&quot; |
 | [!UICONTROL City] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Transaction Report]) クリックの発生元となった市区町村。 ユーザーの IP アドレスから判断されます。 |
 | [!UICONTROL Click Match Type] | クリックされた広告のキーワード一致タイプ。 これは、 [!UICONTROL Listing Match Type] ただし [!DNL Microsoft Advertising] 複数の一致タイプを持つキーワード。 の場合 [!DNL Microsoft Advertising] キーワード。実際にクリックされた一致タイプです。 |
