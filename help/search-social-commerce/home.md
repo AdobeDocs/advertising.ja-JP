@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: 9b103745ef8b09c46049a9a89b676825311db4f2
+source-git-commit: 8732cfc91b0caee9b7580c33048b889ff0373f4c
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
 | 2023 年 11 月 9 日 | [!UICONTROL Asset Library] | ( ベータ版機能を開く。 [!DNL Microsoft® Advertising] アカウント ) [!UICONTROL Campaigns] > [!UICONTROL Asset Library]を使用すると、再利用可能な画像およびビデオアセットを作成して、 [!DNL Microsoft® Advertising] アカウントレベルのアセットライブラリ。 アップロードしたアセットを、 [!DNL Microsoft® Advertising] 編集者です。 | 参照：[について [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)&quot;および&quot;[アセットの作成とアップロード](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).&quot; |
-| 2023 年 10 月 8 日 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | 2 つの新しい専門レポート [!DNL Microsoft Advertising] アカウントは、広告配信（検索またはオーディエンス）やネットワーク ( [!DNL Microsoft] サイトを選択し、トラフィックまたはオーディエンスを選択します。<ul><li>[!UICONTROL MSA Network Performance Report]：基本的なトラフィック指標（コスト、クリック数、インプレッション数）、コンバージョン数、売上高が含まれます。</li><li>[!UICONTROL MSA Network Impression Share Report]：インプレッション共有指標と基本的なトラフィック指標（コスト、クリック数、インプレッション数）が含まれます。</li></ul> | — |
+| 2023 年 10 月 8 日 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | 2 つの新しい専門レポート [!DNL Microsoft Advertising] アカウントは、広告配信（検索またはオーディエンス）やネットワーク ( [!DNL Microsoft] サイトを選択し、トラフィックまたはオーディエンスを選択します。<ul><li>[!UICONTROL MSA Network Performance Report]：基本的なトラフィック指標（コスト、クリック数、インプレッション数）、コンバージョン数、売上高が含まれます。</li><li>[!UICONTROL MSA Network Impression Share Report]：インプレッション共有指標と基本的なトラフィック指標（コスト、クリック数、インプレッション数）が含まれます。</li></ul> | 参照：[The [!UICONTROL MSA Network Impression Share Report]](/help/search-social-commerce/reports/management/specialty/msa-network-impression-share-report.md)&quot;および&quot;[The [!UICONTROL MSA Network Performance Report]](/help/search-social-commerce/reports/management/specialty/msa-network-performance-report.md).&quot; |
 | 2023 年 9 月 15 日 | [!UICONTROL Campaigns] | ([!DNL Google Ads] 最大パフォーマンスキャンペーン ) キャンペーンのアセットグループで、 [!UICONTROL Asset Library]. 新しいテキストアセットをアップロードすることもできます。 | 参照：[[!DNL Google Ads] キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | 2023 年 9 月 6 日 | キャンペーン | ([!DNL Google Ads] キャンペーン ) 利用可能なすべてのキャンペーンタイプで、キャンペーン設定内で既存のコンバージョン目標を選択したり、新しい目標を作成したりできるようになりました。</li> | 参照：[[!DNL Google Ads] キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | | キャンペーン | ([!DNL Google Ads] パフォーマンス最大キャンペーン ) 新機能には、次の機能が含まれます。<ul><li>前述のように、既存のコンバージョン目標を選択するか、キャンペーン用に新しいコンバージョン目標を作成します。</li><li>内の既存のアセットから選択 [!UICONTROL Asset Library] パフォーマンスの最大キャンペーン設定内の画像、ロゴ、ビデオの場合。 新しいアセットをアップロードすることもできます。</li><li>（オプション）選択して、パフォーマンスの最大アセットグループに対してオーディエンスシグナルを提供します。 [!DNL Google Ads] オーディエンス。 [!DNL Google Ads] 機械学習モデルでは、オーディエンスを使用して、ターゲットに設定する類似の web サーファーを見つけたり、シグナルとして指定されていないオーディエンスに広告を表示して、パフォーマンス目標の達成に役立てたりできます。 **注意：** オーディエンスのシグナルは、 [キャンペーンレベルおよび広告グループレベルのオーディエンスターゲット](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | 参照：[[!DNL Google Ads] キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
