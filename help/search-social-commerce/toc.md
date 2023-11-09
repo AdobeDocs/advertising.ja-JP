@@ -4,9 +4,9 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: 4fff88683c524b4844104102ed09c0a6b08e5701
+source-git-commit: fb95be48fae44a4ca365fe501253c185e76d64be
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1732'
 ht-degree: 2%
 
 ---
@@ -317,6 +317,8 @@ ht-degree: 2%
                + [The [!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)
                + [The [!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-keyword-report.md)
                + [The [!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-ad-report.md)
+               + [The [!UICONTROL MSA Network Impression Share Report]](/help/search-social-commerce/reports/management/specialty/msa-network-impression-share-report.md)
+               + [The [!UICONTROL MSA Network Performance Report]](/help/search-social-commerce/reports/management/specialty/msa-network-performance-report.md)
             + [特殊なレポートの生成](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
             + [特殊なレポート設定](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
             + [特殊レポートのレポート列](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)

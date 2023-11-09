@@ -1,9 +1,9 @@
 ---
 title: レポートに使用するデータ
 description: データビューとカスタムレポートで使用できる様々なタイプのデータについて説明します。
-exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
+exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: 840c7f6295b73a784725c301a78ae89c827fd45e
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
 | [!UICONTROL Assist Reports] | すべて | 過去 18 ヶ月間。 |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | 前年。 |
 | | [!UICONTROL RSA Assets Report] | 2022 年 8 月 10 日より。 |
-| | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report] | 過去 180 日間。 |
+| | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | 過去 180 日間。 |
 | | その他すべて [!UICONTROL Specialty Reports] | 過去 2 か月。 |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | 過去 18 ヶ月間。 |
 | [!UICONTROL Change History Report] | — | 過去 31 日間。 |

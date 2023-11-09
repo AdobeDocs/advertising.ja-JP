@@ -1,11 +1,11 @@
 ---
 title: 特殊レポートのレポート列
 description: 特殊レポートで使用できるデータ列について説明します。
-exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
+exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 0b6b3ac85b5f47986b9246dccddf0ad51c380dbe
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2607'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,14 @@ ht-degree: 0%
 |----|----|
 | \[ 広告主固有のカスタム（派生）指標\] | 作成した、既存の指標から計算されたカスタム指標の値。 |
 | \[ 広告主固有のコンバージョン指標\] | 指定したコンバージョン指標またはサイトエンゲージメント指標に対するコンバージョンの数。 |
+| [!UICONTROL Absolute Top Impression Rate Percent] | 検索結果の上部の最初の位置に表示された広告インプレッションの割合。 |
+| [!UICONTROL Absolute Top Impression Share Lost To Budget Percent] | 日次予算または月次予算が少なすぎるので、広告が検索結果の上部の最初の位置に表示されなかった推定時間の割合。 |
+| [!UICONTROL Absolute Top Impression Share Lost To Rank Percent] | 広告のランクが低いので、検索結果の一番上の最初の位置に広告が表示されなかった時間の割合。 |
+| [!UICONTROL Absolute Top Impression Share Percent] | 絶対的な上位の場所（オーガニック検索結果の最初の広告）で受け取ったインプレッション数を、上位の場所で受け取る資格のある推定インプレッション数で割った値です。 |
 | [!UICONTROL Account Name] | アカウント名。 |
 | [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] レポート ) 広告ネットワークによって割り当てられたアカウント識別子。 |
 | [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] レポート ) アカウントのステータス： *[!UICONTROL Active]*, *[!UICONTROL Paused]*&#x200B;または *[!UICONTROL Inactive]*. |
-| [!UICONTROL Ad Distribution] | ([!UICONTROL Bing Ads Geo Report]) 広告が配布された場所： *[!UICONTROL Search]* （検索結果ページ上）または *[!UICONTROL Content]* ( オン [!DNL Microsoft®] — 所有する Web サイトまたは参加するパートナー Web サイト )。 |
+| [!UICONTROL Ad Distribution] | ([!UICONTROL Bing Ads Geo Report], [!UICONTROL MSA Network Impression Share Report]、および [!UICONTROL MSA Network Performance Report]) 広告が配布された場所： *[!UICONTROL Audience]* （オーディエンスネットワーク上）*,[!UICONTROL Search]* （検索結果ページ上）または *[!UICONTROL Content]* ( オン [!DNL Microsoft®] — 所有する Web サイトまたは参加するパートナー Web サイト )。 |
 | [!UICONTROL Ad Extension ID] | ([!UICONTROL MSA Ad Extension] reports) 広告拡張機能の ID。 |
 | [!UICONTROL Ad Extension Number] | ([!UICONTROL MSA Ad Extension] reports) 広告拡張機能のバージョン属性。 |
 | [!UICONTROL Ad Extension Type] | ([!UICONTROL MSA Ad Extension] reports) 広告拡張のタイプ。 |
@@ -44,6 +48,9 @@ ht-degree: 0%
 | [!UICONTROL Assists] | ([!UICONTROL MSA Ad Extension] （レポート）あるエンティティが、別のエンティティに関連付けられたコンバージョンに貢献した回数。 |
 | [!UICONTROL Audience ID] | オーディエンス ID（数値）。 |
 | [!UICONTROL Audience Name] | オーディエンス。 利用可能なオーディエンスには、 [!DNL Google Ads] 顧客データベースの、市場での、類似したオーディエンスや、 [!DNL Microsoft® Advertising]] カスタム、カスタマーマッチ、動的リマーケティング、市場内、リマーケティング、同様のオーディエンス。 |
+| [!UICONTROL Audience Impression Lost To Budget Percent] | 日次または月次の予算が少なすぎるので、Microsoft Audience Network で失ったインプレッション共有の割合。 |
+| [!UICONTROL Audience Impression Lost To Rank Percent] | 広告ランクが低いためにMicrosoft Audience Network で失われたインプレッション共有の割合。 |
+| [!UICONTROL Audience Impression Share Percent] | インプレッション数の推定割合 ( [!DNL Microsoft Audience Network] 合計使用可能なインプレッション数で割ります。 |
 | [!UICONTROL Audience Status] | オーディエンスのステータス。 |
 | [!UICONTROL Average CPC] | クリックあたりの平均コスト。 |
 | [!UICONTROL Average Position], [!UICONTROL Avg Position] | 指定した日付範囲における広告の平均順位。<br><br>の場合 [!DNL Google Ads] および [!DNL Yahoo! Japan Ads] キャンペーンの場合、このデータは 2019 年 9 月までのみ利用できます。 の場合 [!DNL Microsoft® Advertising]の場合、このデータは 2021 年 1 月 22 日までのみ利用できます。 |
@@ -88,12 +95,15 @@ ht-degree: 0%
 | [!UICONTROL End Date] | 最終日が報告されました。 |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] レポート ) [拡張機能の表示名](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] reports) 広告拡張タイプの ID。 |
-| [!UICONTROL Goal] | ([!UICONTROL MSA Ad Extension] reports) コンバージョン目標の名前。 |
-| [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] レポート ) コンバージョン目標のタイプ。 |
+| [!UICONTROL Goal] | ([!UICONTROL MSA Ad ExtensionReport] レポート [!UICONTROL MSA Network Performance Report]) コンバージョン目標の名前。 |
+| [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] レポート [!UICONTROL MSA Network Performance Report]) コンバージョン目標のタイプ。 |
 | [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) が追跡したオンラインコンバージョンの数。 [の [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md). |
 | [!UICONTROL Google Converted Clicks] | ([!UICONTROL AdWords Conversion Report]; 2016 年に廃止 ) 1 つ以上のコンバージョンにつながったクリック数。 |
-| [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] ただ、 [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report]、および [!UICONTROL Keyword Daily Impression Share Report]) オーガニック検索結果の上の最初の広告として表示される広告インプレッションの割合。 |
+| [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] ただ、 [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report]、および [!UICONTROL Keyword Daily Impression Share Report]) オーガニック検索結果の上の最初の広告として表示された広告インプレッションの割合。 |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] ただ、 [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report]、および [!UICONTROL Keyword Daily Impression Share Report]) オーガニック検索結果の上に表示される広告インプレッションの割合。 |
+| [!UICONTROL Impression Lost To Budget Percent] | 日次予算または月次予算が少なすぎるので広告が表示されなかった推定時間の割合。 |
+| [!UICONTROL Impression Lost To Rank Percent] | 広告のランクが低いために広告が表示されなかった時間の割合。 |
+| [!UICONTROL Impression Share Percent] | 受け取ったインプレッション数を、受け取る資格のある推定インプレッション数で割った値です。 |
 | [!UICONTROL Impressions] | 指定した日付範囲での広告インプレッション数。 |
 | [!UICONTROL Keyword] | キーワード。<br><br><b>注意：</b> レポートにコンテンツ対応検索キャンペーンの広告グループのデータが含まれる場合、この列には、該当する広告グループ名 (「(adgroup content) 広告グループ名」など ) が含まれます。 検索キャンペーンでのサイトターゲット配置の場合、この列に値は含まれません。 |
 | [!UICONTROL Keyword ID] | Search、Social および Commerce がキーワードに割り当てる数値 ID。 |
@@ -121,7 +131,7 @@ ht-degree: 0%
 | [!UICONTROL Query Match Type] | （AdWords 検索クエリレポート）検索クエリのキーワード一致タイプ。 |
 | [!UICONTROL Region] | ([!UICONTROL AdWords Geo Report] および [!UICONTROL Bing Ads Geo Report]) インプレッションまたはクリックが発生した地域または米国/カナダの州。 ユーザーの IP アドレスから判断されます。 |
 | [!UICONTROL Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] レポート ) 合計売上高を支出で割った値 ( 割合で表されます。 |
-| [!UICONTROL Revenue] | ([!UICONTROL MSA Ad Extension] レポート ) 合計売上高。 |
+| [!UICONTROL Revenue] | ([!UICONTROL MSA Ad Extension] レポート [!UICONTROL MSA Network Performance Report]) 合計売上高。 |
 | [!UICONTROL Revenue per Assist] | ([!UICONTROL MSA Ad Extension] reports) アシストあたりの合計売上高。 |
 | [!UICONTROL Revenue per Conversion] | ([!UICONTROL MSA Ad Extension] レポート ) コンバージョンあたりの合計売上高。 |
 | [!UICONTROL SE Account Name] | 広告ネットワーク上のアカウント名。 |
@@ -150,6 +160,10 @@ ht-degree: 0%
 | [!UICONTROL title_part1] | ([!UICONTROL MSA Ad Extension by Ad Report])Web サイトにリンクする広告の最初の行。 |
 | [!UICONTROL title_part2] | ([!UICONTROL MSA Ad Extension by Ad Report])Web サイトにリンクする広告の 2 行目。 |
 | [!UICONTROL title_part3] | ([!UICONTROL MSA Ad Extension by Ad Report])Web サイトにリンクする広告の 3 行目。 |
+| [!UICONTROL Top Impression Rate Percent] | メインラインに表示された広告インプレッションの割合（検索結果の上の上位の広告配置）。 |
+| [!UICONTROL Top Impression Share Lost To Budget Percent] | 日次予算または月次予算が少なすぎるので、広告がメインライン（検索結果の上にある上位の広告配置）に表示されなかった推定時間の割合。 |
+| [!UICONTROL Top Impression Share Lost To Rank Percent] | 広告のランクが低いので、広告がメインライン（検索結果の上にある上位の広告プレースメント）に表示されなかった時間の割合。 |
+| [!UICONTROL Top Impression Share Percent] | メインラインで受け取ったインプレッション数（検索結果の上の上位の広告プレースメント）を、上位の場所で受け取る資格のある推定インプレッション数で割った値です。 |
 | [!UICONTROL Top vs. Other] | ([!UICONTROL MSA Ad Extension] reports) 検索結果ページでの広告の位置。 |
 | [!UICONTROL Total Clicks] | ([!UICONTROL MSA Ad Extension] （レポート）広告コピーに広告要素が存在した場合のクリック数。クリックされたかどうかに関わらず。 |
 | [!UICONTROL User SE Account ID] | Search、Social および Commerce が広告ネットワークに割り当てる数値 ID。 |
