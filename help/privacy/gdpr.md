@@ -4,16 +4,16 @@ description: サポートされるデータリクエストの種類、必須セ�
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
+source-git-commit: 1ae5b1c1d9742d877763b9efd09585da3a6d4e48
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
 
 # EU 一般データ保護規則のAdobe Advertisingサポート
 
-*の場合 [!DNL Adobe Advertising Search, Social, & Commerce];Adobe Advertising DSP;Adobe Advertising Creative;およびAdobe AdvertisingDCO*
+*の場合 [!DNL Adobe Advertising Search, Social, & Commerce];Adobe Advertising DSP、Adobe Advertising Creative、およびAdobe AdvertisingDCO*
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Adobe Experience Cloudは、顧客に代わって受信および保存する個人データのデータ処理者としての役割を果たします。 データ管理者であるお客様は、Adobe Experience Cloudに処理および保管を委任する個人データを決めます。
 
-このドキュメントでは、 [!DNL Advertising Search, Social, & Commerce];Advertising Creative;Advertising DSP (Demand Side Platform)および [!DNL Advertising DCO] は、Adobe Experience Platform Privacy Service API とPrivacy ServiceUI を使用して、データ主体の GDPR データアクセスおよび削除権をサポートします。
+このドキュメントでは、 [!DNL Advertising Search, Social, & Commerce];Advertising Creative; Advertising DSP (Demand Side Platform); [!DNL Advertising DCO] は、Adobe Experience Platform Privacy Service API とPrivacy ServiceUI を使用して、データ主体の GDPR データアクセスおよび削除権をサポートします。
 
 GDPR がお客様のビジネスに与える影響について詳しくは、 [GDPR とビジネス](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
@@ -32,14 +32,14 @@ GDPR がお客様のビジネスに与える影響について詳しくは、 [G
 Adobe Experience Platformは、企業が次のタスクを実行する機能を提供します。
 
 * 内で、データ主体の cookie レベルのデータまたはデバイス ID レベルのデータにアクセスする（モバイルアプリの広告の場合） [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]または [!DNL DCO].
-* に保存されている Cookie レベルのデータの削除 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]または [!DNL DCO] ブラウザーを使用するデータ主体の場合または、に保存されている ID レベルのデータを削除します。 [!DNL DSP] モバイルデバイスでアプリを使用するデータ主体向け
+* に保存されている Cookie レベルのデータの削除 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]または [!DNL DCO] ブラウザーを使用するデータ主体の場合、または [!DNL DSP] モバイルデバイスでアプリを使用するデータ主体向け
 * 1 つまたはすべての既存のリクエストのステータスを確認します。
 
 ## Adobe Advertisingのリクエストを送信するために必要な設定
 
 Adobe Advertising用にデータへのアクセスおよび削除をリクエストするには、次の操作が必要です。
 
-1. JavaScript ライブラリをデプロイして、データ主体の Cookie を取得および削除します。 同じライブラリ `AdobePrivacy.js`は、すべてのAdobe Experience Cloudソリューションで使用されます。
+1. JavaScript ライブラリを導入して、データ主体の Cookie を取得し、削除します。 同じライブラリ `AdobePrivacy.js`は、すべてのAdobe Experience Cloudソリューションで使用されます。
 
    >[!IMPORTANT]
    >
@@ -63,7 +63,7 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
 
 1. 次のいずれかを使用します。 [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （自動リクエストの場合）または [Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja) （アドホックリクエストの場合）データ主体に代わってAdobe Advertisingにアクセス要求および削除要求を送信し、既存の要求のステータスを確認することができます。
 
-   モバイルアプリを持つ広告主がデータ主体とやり取りし、DSPとキャンペーンを開始する場合、Experience Cloud用にプライバシー対応の Mobile SDK をダウンロードする必要があります。 Mobile SDK を使用すると、データ管理者はオプトアウトステータスフラグの設定、データ主体のデバイス ID( 名前空間 ID:deviceID) を使用し、要求をPrivacy ServiceAPI に送信します。 モバイルアプリには、SDK バージョン4.15.0以降が必要です。
+   モバイルアプリを持つ広告主がデータ主体とやり取りし、DSPとキャンペーンを開始する場合、Experience Cloud用にプライバシー対応の Mobile SDK をダウンロードする必要があります。 Mobile SDK を使用すると、データ管理者はオプトアウトステータスフラグの設定、データ主体のデバイス ID の取得（名前空間 ID:deviceID）、Privacy ServiceAPI へのリクエストの送信をおこなうことができます。 モバイルアプリには、SDK バージョン4.15.0以降が必要です。
 
    データ主体のアクセスリクエストを送信すると、Privacy ServiceAPI は指定された Cookie またはデバイス ID に基づいてデータ主体の情報を返します。その後、データ主体に戻る必要があります。
 
@@ -73,7 +73,7 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
    >
    会社に複数のExperience Cloud組織 ID がある場合は、それぞれに対して個別の API リクエストを送信する必要があります。 ただし、複数のAdobe Advertisingサブソリューション ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]、および [!DNL DCO]) の代わりに、サブソリューションごとに 1 つのアカウントを使用します。
 
-これらの手順はすべて、Adobe Advertisingに必要です。 Adobe Experience Platform Privacy Serviceを使用して実行する必要があるこれらのタスクやその他の関連タスクの詳細、および必要な項目の見つけ方については、 [プライバシーと GDPR](https://developer.adobe.com/client-sdks/documentation/privacy-and-gdpr/).
+これらの手順はすべて、Adobe Advertisingに必要です。 Adobe Experience Platform Privacy Serviceを使用して実行する必要があるこれらのタスクやその他の関連タスクの詳細、および必要な項目の見つけ方については、「[Privacy Serviceの概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)&quot;および&quot;[Privacy ServiceAPI ガイド](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html).&quot;
 
 ## Adobe AdvertisingJSON リクエストの必須フィールド値
 
