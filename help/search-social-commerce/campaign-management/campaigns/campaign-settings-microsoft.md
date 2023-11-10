@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] キャンペーン設定'
 description: 次の設定を参照してください： [!DNL Microsoft® Advertising] キャンペーン。
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
 feature: Search Campaign Management
-source-git-commit: 1a4f802c51f29b2d7811ff21a9c7f0f20feb30ba
+source-git-commit: 7ea5289ba3a6ef3306903d1cec56f81152433064
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Microsoft® Store Ads Campaign]:* （ベータ版機能）で使用可能なアプリやゲームをプロモーションします。 [!DNL Microsoft® Store]. キャンペーンの子広告グループ、製品グループおよびオプションの製品広告を作成できます。 [!DNL Microsoft® Advertising] は、製品グループの広告を自動的に作成します。
 
-* *[!UICONTROL Audience Video]:* （ベータ版機能）オーディエンスネットワーク上でビデオ広告を表示します。
+* *[!UICONTROL Audience Video]:* （ベータ版機能）オーディエンスネットワーク上の標準ビデオ広告を表示します。
 
 * *[!UICONTROL Audience Video]:* （ベータ版機能）オーディエンスネットワーク上で接続された TV(CTV) ビデオ広告を表示します。
 
