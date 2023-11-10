@@ -1,9 +1,9 @@
 ---
 title: 複製 [!DNL Google Ads] キャンペーン [!DNL Microsoft® Advertising]
 description: 同期したキャンペーンを [!DNL Google Ads] 直接同期されたにアカウント [!DNL Microsoft® Advertising] アカウント。
-exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: f857da54ff75ba7b8065b8c08d6d28eb54445b48
+source-git-commit: 877333330df84ff5c8bd7ee1bfc837de492877fb
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
   買い物フィードベースのディスプレイキャンペーンをレプリケートする場合は、まず [!DNL Google Merchant Center] に対する製品オファー [!DNL Microsoft® Merchant Center]. キャンペーンをレプリケートする場合は、 [!DNL Microsoft® Merchant Center] を保存して、フィードベースのオーディエンスキャンペーンにストアをリンクします。
 
-* [!DNL Google Ads] パフォーマンス最大キャンペーン（ローカルの在庫広告を含む）を [!DNL Microsoft® Advertising] スマートショッピングキャンペーン。
+* [!DNL Google Ads] パフォーマンス最大キャンペーン（ローカルの在庫広告を含む）を [!DNL Microsoft® Advertising] 最大パフォーマンスキャンペーン数
 
 キャンペーンを 1 回、毎日、毎週、毎月、または [!DNL Microsoft® Advertising]推奨スケジュールです。 オプションで、インポートジョブが実行されたときや、エラーや変更が発生したときに、毎回通知を設定することができます。 キャンペーンをにインポートしたら、 [!DNL Microsoft® Advertising]を使用すると、インポートジョブのステータスの確認、エラーログの確認、インポートジョブの手動実行、インポートスケジュールの編集、一時停止、有効化、削除をおこなうことができます。
 

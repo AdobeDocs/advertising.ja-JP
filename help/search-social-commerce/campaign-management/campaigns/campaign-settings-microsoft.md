@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] キャンペーン設定'
 description: 次の設定を参照してください： [!DNL Microsoft® Advertising] キャンペーン。
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
 feature: Search Campaign Management
-source-git-commit: c83663a65d5ec6d672c648c3fd59ae75ee3823d8
+source-git-commit: 1a4f802c51f29b2d7811ff21a9c7f0f20feb30ba
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]:* 上にネイティブ/ディスプレイ広告を表示 [!DNL Microsoft® Audience Network]. (a) キャンペーンを [!UICONTROL Shopping Settings] セクションまたは b) テキストアセットとアップロードされた画像を使用してレスポンシブ広告を作成する。 どちらのオプションを使用する場合も、ユーザーターゲティングを持つ広告グループを作成する必要があります。
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* （ベータ版機能）検索およびオーディエンスネットワークをまたいでリンクされた小売業者を通じて、製品をプロモーションします。 キャンペーンの子広告グループおよび製品グループ（昇格するアプリ）を作成し、 [!DNL Microsoft® Advertising] は、製品グループの広告を自動的に作成します。
+* *[!UICONTROL Shopping Campaigns for Brands]:* （ベータ版機能）検索およびオーディエンスネットワークをまたいでリンクされた小売業者を通じて、製品をプロモーションします。 キャンペーンの子広告グループと製品グループ（昇格するアプリ）およびオプションの製品広告を作成できます。 [!DNL Microsoft® Advertising] は、製品グループの広告を自動的に作成します。
 
-* *[!UICONTROL Microsoft® Store Ads Campaign]:* （ベータ版機能）で使用可能なアプリやゲームをプロモーションします。 [!DNL Microsoft® Store]. キャンペーンの子広告グループと製品グループを作成し、 [!DNL Microsoft® Advertising] は、製品グループの広告を自動的に作成します。
+* *[!UICONTROL Microsoft® Store Ads Campaign]:* （ベータ版機能）で使用可能なアプリやゲームをプロモーションします。 [!DNL Microsoft® Store]. キャンペーンの子広告グループ、製品グループおよびオプションの製品広告を作成できます。 [!DNL Microsoft® Advertising] は、製品グループの広告を自動的に作成します。
 
 * *[!UICONTROL Audience Video]:* （ベータ版機能）オーディエンスネットワーク上でビデオ広告を表示します。
 
 * *[!UICONTROL Audience Video]:* （ベータ版機能）オーディエンスネットワーク上で接続された TV(CTV) ビデオ広告を表示します。
 
-* *[!UICONTROL Performance Max]:* （ベータ版機能）すべてのネットワークにわたって複数の広告タイプを表示します。
+* *[!UICONTROL Performance Max]:* （ベータ版機能）すべてのネットワークにわたって複数の広告タイプを表示します。 内でアセットグループを個別に割り当てる [!DNL Microsoft® Advertising] 広告エディター。
 
 ## [!UICONTROL Campaign Details]
 
