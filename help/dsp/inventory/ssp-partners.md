@@ -3,7 +3,7 @@ title: SSP パートナー
 description: 利用可能なサプライサイドプラットフォーム (SSP) とオープン交換パートナーの一覧を参照してください。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 85fb7665ae2b6252c359ea254dbc783d73a4a078
+source-git-commit: 1c3698292d520ef380e44efc0da763a34737ea74
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -21,13 +21,13 @@ ht-degree: 0%
 | SSP リスト | 会社情報 | シート ID | プログラムで保証されたサポート | 地域 | サポートされる通貨 | ビデオデスクトップ | ビデオモバイル | ビデオ CTV | デスクトップを表示 | モバイルを表示 | ネイティブ表示 | オーディオデスクトップおよびモバイル |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | [!DNL Adap.tv] | [!DNL Verizon Media Group] | [!DNL TubeMogul] またはAdobe Advertising | いいえ | グローバル | USD | X | X | X |  |  |  |  |
-| [!DNL AdColony] ( 以前 [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | いいえ | グローバル | USD |  | x |  | x | x |  |  |
-| [!DNL AdsWizz] | [!DNL Sirius XM Pandora] | Adobe Advertising | はい | グローバル | USD, EUR, GBP |  |  |  |  |  |  | x |
+| [!DNL AdColony] ( 以前 [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | いいえ | グローバル | USD | x | x |  | x | x |  |  |
+| [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | いいえ | グローバル | USD, EUR, GBP |  |  |  |  |  |  | x |
 | [!DNL Ambient Digital] | 該当なし | [!DNL TubeMogul] | はい | SEA | USD |  | x |  | x |  |  | x |
 | [!DNL AppNexus] | [!DNL Xandr] | ビデオシート ID:9094<br>ディスプレイシート ID:3939 | いいえ | グローバル | USD | x | x | x | x | x |  |  |
-| [!DNL DailyMotion] | 該当なし | [!DNL TubeMogul] またはAdobe Advertising | いいえ | 米国+EMEA | USD、EUR | x | x | x |  |  |  |  |
+| [!DNL DailyMotion] | 該当なし | [!DNL TubeMogul] またはAdobe Advertising | いいえ | 米国+EMEA | USD、EUR | x | x | x | x | x |  |  |
 | [!DNL DistrictM] |  | Adobe | いいえ | US/CA | USD |  |  |  | x | x |  |  |
-| [!DNL EMX Digital] |  | Adobe Advertising | いいえ | US/CA | USD | x | x | x |  |  |  |  |
+| [!DNL EMX Digital] |  | Adobe Advertising | いいえ | US/CA | USD | x | x | x | x | x |  |  |
 | [!DNL Equativ] ( 以前の [!DNL SmartAdServer]) |  | [!DNL TubeMogul] またはAdobe Advertising | いいえ | グローバル | USD、EUR | x | x |  | x | x |  |  |
 | [!DNL FreeWheel] ( 以前の [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] またはAdobe Advertising | はい | グローバル | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | いいえ | グローバル | USD | x | x |  |  |  |  |  |
@@ -39,20 +39,19 @@ ht-degree: 0%
 | [!DNL MoPub] | [!DNL Twitter] | [!DNL TubeMogul] | いいえ | グローバル | USD |  | x |  |  |  |  |  |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] またはAdobe Advertising | はい | グローバル | USD | x |  |  | x | x |  |  |
 | [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] またはAdobe Advertising | いいえ | グローバル | USD | x | x | x | x | x |  |  |
-| [!DNL ShareThrough] |  | [!DNL TubeMogul] またはAdobe Advertising | いいえ | グローバル | USD | x | x |  | x | x | x |  |
-| [!DNL SmartClip] |  | Adobe Advertising | はい | EMEA | すべての通貨 | x | x | x | x | x |  |  |
+| [!DNL ShareThrough] |  | [!DNL TubeMogul] またはAdobe Advertising | いいえ | グローバル | USD | x | x | x | x | x | x |  |
+| [!DNL SmartClip] |  | Adobe Advertising | いいえ | EMEA | すべての通貨 | x | x | x | x | x |  |  |
 | [!DNL SmartStream] |  | Adobe Advertising | いいえ | EMEA | EUR、USD | x | x |  |  |  |  |  |
-| [!DNL Sortable] |  | Adobe Advertising | いいえ | CA | USD |  |  |  | x | x |  |  |
+| [!DNL Sortable] | [!DNL Freestar] | Adobe Advertising | いいえ | CA | USD |  |  |  | x | x |  |  |
 | [!DNL Soundcast] |  | Adobe Advertising | はい | グローバル | EUR、USD |  |  |  |  |  |  | x |
 | [!DNL SpotX] | [!DNL Magnite] ( 以前の [!DNL Telaria] および [!DNL Tremor]) | [!DNL TubeMogul] またはAdobe Advertising | はい | グローバル | USD | x | x | x |  |  |  |  |
 | [!DNL Stroer] |  | Adobe Advertising | いいえ | EMEA | USD | x | x |  | x | x |  |  |
 | [!DNL Taboola] |  | Adobe Advertising | いいえ | US/CA | USD | x | x |  |  |  |  |  |
 | [!DNL Teads] |  | [!DNL TubeMogul] またはAdobe Advertising | いいえ | Outstream ビデオ=グローバル<br>ディスプレイ= NA + EMEA | USD | x | x |  | x | x |  |  |
 | [!DNL TripleLift] |  | [!DNL TubeMogul] またはAdobe Advertising | いいえ | グローバル | USD |  |  |  |  |  | x |  |
-| [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] またはAdobe Advertising | いいえ | グローバル | USD | x | x |  | x | x |  |  |
+| [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] またはAdobe Advertising | いいえ | グローバル | USD | x | x | x | x | x |  |  |
 | [!DNL Triton] |  | Adobe Advertising | はい | グローバル | USD |  |  |  |  |  |  | x |
-| [!DNL Unruly] | [!DNL Tremor] | Adobe Advertising | いいえ | 米国+EMEA | USD | x | x |  |  |  |  |  |
-| [!DNL Yahoo] | [!DNL Verizon Media Group] | [!DNL TubeMogul] またはAdobe Advertising | いいえ | グローバル | USD |  |  |  | x | x |  |  |
+| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | いいえ | 米国+EMEA | USD | x | x | x |  |  |  |  |
 
 {style="table-layout:auto"}
 
