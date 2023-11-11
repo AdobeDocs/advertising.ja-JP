@@ -3,9 +3,9 @@ title: SSP パートナー
 description: 利用可能なサプライサイドプラットフォーム (SSP) とオープン交換パートナーの一覧を参照してください。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 1c3698292d520ef380e44efc0da763a34737ea74
+source-git-commit: 351350960ed4bc8ef500181b98a6d120035835fa
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 | [!DNL AppNexus] | [!DNL Xandr] | ビデオシート ID:9094<br>ディスプレイシート ID:3939 | いいえ | グローバル | USD | x | x | x | x | x |  |  |
 | [!DNL DailyMotion] | 該当なし | [!DNL TubeMogul] またはAdobe Advertising | いいえ | 米国+EMEA | USD、EUR | x | x | x | x | x |  |  |
 | [!DNL DistrictM] |  | Adobe | いいえ | US/CA | USD |  |  |  | x | x |  |  |
-| [!DNL EMX Digital] |  | Adobe Advertising | いいえ | US/CA | USD | x | x | x | x | x |  |  |
+| [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | いいえ | US/CA | USD | x | x | x | x | x |  |  |
 | [!DNL Equativ] ( 以前の [!DNL SmartAdServer]) |  | [!DNL TubeMogul] またはAdobe Advertising | いいえ | グローバル | USD、EUR | x | x |  | x | x |  |  |
 | [!DNL FreeWheel] ( 以前の [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] またはAdobe Advertising | はい | グローバル | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | いいえ | グローバル | USD | x | x |  |  |  |  |  |
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!DNL Magnite CTV] | [!DNL Magnite] ( 以前の [!DNL Telaria] および [!DNL Tremor]) | [!DNL TubeMogul] またはAdobe Advertising | はい | グローバル | AUD、USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] ( 以前の [!DNL Telaria] および [!DNL Tremor]) | [!DNL TubeMogul] またはAdobe Advertising | はい | グローバル | USD | x | x | x | x | x |  | x |
 | [!DNL MoPub] | [!DNL Twitter] | [!DNL TubeMogul] | いいえ | グローバル | USD |  | x |  |  |  |  |  |
-| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] またはAdobe Advertising | はい | グローバル | USD | x |  |  | x | x |  |  |
+| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] またはAdobe Advertising | はい | グローバル | USD | x | x | x | x | x |  |  |
 | [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] またはAdobe Advertising | いいえ | グローバル | USD | x | x | x | x | x |  |  |
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] またはAdobe Advertising | いいえ | グローバル | USD | x | x | x | x | x | x |  |
 | [!DNL SmartClip] |  | Adobe Advertising | いいえ | EMEA | すべての通貨 | x | x | x | x | x |  |  |
