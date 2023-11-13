@@ -1,9 +1,9 @@
 ---
 title: 保留中のユーザーの招待状の再送信
 description: 保留中のユーザーの招待状を再送信する方法を説明します。
-role: User, Admin
+role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    * メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;をクリックし、 **[!UICONTROL Edit users]**.
 
-1. 内 **招待** セクションで、 ![再送信](/help/dsp/assets/resend.png).
+1. Adobe Analytics の **招待** セクションで、 ![再送信](/help/dsp/assets/resend.png).
 
 >[!MORELIKETHIS]
 >

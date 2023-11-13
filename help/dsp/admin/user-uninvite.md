@@ -1,9 +1,9 @@
 ---
 title: 保留中のユーザーの招待解除
 description: 保留中のユーザーの招待を取り消す方法を説明します。
-role: User, Admin
+role: Admin
 exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    * メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;をクリックし、 **[!UICONTROL Edit users]**.
 
-1. 内 **[!UICONTROL Invitations]** セクションで、 **[!UICONTROL X]** をクリックします。
+1. Adobe Analytics の **[!UICONTROL Invitations]** セクションで、 **[!UICONTROL X]** をクリックします。
 
 >[!MORELIKETHIS]
 >

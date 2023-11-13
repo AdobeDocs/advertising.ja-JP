@@ -1,9 +1,9 @@
 ---
 title: 組織アカウントへの新しいユーザーの招待
 description: 新しいユーザーを招待してアカウントに参加させる方法を説明します。
-role: User, Admin
+role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 
    * メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;をクリックし、 **[!UICONTROL Edit users]**.
 
-1. 内 **[!UICONTROL Invitations]** セクションで、 **[!UICONTROL Send Invite]**.
+1. Adobe Analytics の **[!UICONTROL Invitations]** セクションで、 **[!UICONTROL Send Invite]**.
 
-1. 内 **[!UICONTROL User Email]** 「 」フィールドで、招待の送信先の電子メールアドレスを入力します。
+1. Adobe Analytics の **[!UICONTROL User Email]** 「 」フィールドで、招待メールの送信先の電子メールアドレスを入力します。
 
 1. クリック **[!UICONTROL Send Invite]**.
 
