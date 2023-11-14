@@ -3,7 +3,7 @@ title: の使用 [!DNL Last Event Service] を使用した JavaScript ライブ�
 description: を使用してから切り替える手順を説明します。 [!DNL Analytics] [!DNL visitorAPI] ライブラリを [!DNL Experience Platform] [!DNL Web SDK] のライブラリ [!DNL Analytics for Advertising] 実装。
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-source-git-commit: 687f146b27765d59f172284e4cff7ab5c0e57b50
+source-git-commit: 7501c1f8f6477a4ee6de64c64d52b1aafaf16994
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Adobe Analytics の [!DNL Analytics for Advertising] [!DNL Last Event Service] �
 ```
 <script>
      if("undefined" != typeof AdCloudEvent) 
-          stitchId = AdCloudEvent('IMS ORG Id''rsid').generateRandomId();
+          stitchId = AdCloudEvent('IMS ORG Id','rsid').generateRandomId();
 </script>
 ```
 
