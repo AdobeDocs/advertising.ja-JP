@@ -4,9 +4,9 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: fb95be48fae44a4ca365fe501253c185e76d64be
+source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1729'
 ht-degree: 2%
 
 ---
@@ -189,7 +189,6 @@ ht-degree: 2%
                + [について [!DNL Google Ads] 引き出し線の拡張](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
                + [管理 [!DNL Google Ads] 引き出し線の拡張](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
                + [関連付け [!DNL Google Ads] キャンペーンまたは広告グループで共有された引き出し線拡張](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
-            + [管理 [!DNL Google Ads] 場所の拡張](/help/search-social-commerce/campaign-management/campaigns/location-extension-manage.md)
             + Sitelink の拡張機能 {#sitelinks}
                + [sitelink の拡張について](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-about.md)
                + [共有サイトリンクを管理](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md)
