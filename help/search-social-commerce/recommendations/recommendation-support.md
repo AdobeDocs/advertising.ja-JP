@@ -3,9 +3,9 @@ title: パブリッシャーのレコメンデーションおよびインサイ�
 description: 投稿者のレコメンデーションとインサイトの表示と管理のサポートについて説明します。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 30d7aeb970380e528096bfff2964901781a4e221
+source-git-commit: 250e6c7aaeb64c811b3648ac1aee2a7bd0a6f753
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 | | [!UICONTROL Text ad] | 広告の提案の追加 |
 | [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | 動的検索広告をパフォーマンス最大キャンペーンに移行します。 |
 | | [!UICONTROL Dynamic image extension opt in] | アカウントの動的な画像拡張を有効にします。これにより、次のことが可能になります。 [!DNL Google Ads] 機械学習を使用して、広告のランディングページから最も関連性の高い画像を広告に自動的に追加できます。 |
-| | [!UICONTROL 最大広告強度パフォーマンスを向上 | パフォーマンス最大キャンペーンのアセットグループの強さを改善し、「優れた」評価を得る。 |
+| | [!UICONTROL Improve performance max ad strength] | パフォーマンス最大キャンペーンのアセットグループの強さを改善し、「優れた」評価を得る。 |
 | | [!UICONTROL Performance max opt in] | パフォーマンスの最大キャンペーンをオプトインします。 |
 | | [!UICONTROL Upgrade local campaign to performance max] | 従来のローカルキャンペーンをパフォーマンス最大キャンペーンにアップグレード |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | 従来のスマートショッピングキャンペーンをパフォーマンス最大キャンペーンにアップグレード |
