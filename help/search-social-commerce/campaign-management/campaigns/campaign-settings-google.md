@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] キャンペーン設定'
 description: 次の設定を参照してください： [!DNL Google Ads] キャンペーン。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
+source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,6 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
    * （住所の近くの場所、含まれるターゲットのみ）クリック **[!UICONTROL Radius Target]** (![半径ターゲット](/help/search-social-commerce/assets/radius-target.png "半径ターゲット")) をクリックし、次に「 **[!UICONTROL Address]**. 目標とする住所と住所の周囲の半径（マイルまたはキロメートル）を入力し、次に、 **[!UICONTROL Add]**.
 
    * （地理的座標の近くの位置、含まれるターゲットのみ）クリック **[!UICONTROL Radius Target]** (![半径ターゲット](/help/search-social-commerce/assets/radius-target.png "半径ターゲット")) をクリックし、次に「 **[!UICONTROL Coordinate]**. ターゲットとする位置の周囲の緯度と経度および半径をマイルまたはキロメートル単位で入力し、次に、 **[!UICONTROL Add]**.
-
-   * ( 近い場所 [!DNL My Business] 場所の拡張として使用できる場所（ターゲットのみを含む） **[!UICONTROL Location Group Target]** (![ロケーショングループ](/help/search-social-commerce/assets/location-group.png "ロケーショングループ"))。必要に応じて、国、都道府県、大都市、または市区町村を入力して、使用可能な場所のリストを下に矢印を付け、次のリストから 1 つ以上の場所を選択します。 [!DNL Google My Business] 場所。 ターゲットとする位置の周りの半径をマイルまたはキロメートル単位で指定し、 **[!UICONTROL Add]**.
 
 * （含まれるターゲット・ロケーションに入札調整を追加する手順は、次のとおりです）入札調整値を入力します。
 

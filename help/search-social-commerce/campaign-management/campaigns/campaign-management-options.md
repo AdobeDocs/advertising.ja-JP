@@ -1,11 +1,11 @@
 ---
 title: 広告ネットワークキャンペーン管理のオプション
 description: 広告ネットワークキャンペーンの様々なデータ管理方法について説明します。
-exl-id: 1e721870-b6ee-4054-ab3b-1b3be778d5b8
+exl-id: be5c9a48-a87d-4cee-9884-2ba36ac5f2ca
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 3e0c886d0275696a73b68f7c8126134bed010920
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 次のいずれかの方法で、広告ネットワークアカウントでサポートされるキャンペーン構造とキャンペーンコンポーネントデータを作成および編集できます。
 
-* オプション 1：個々のコンポーネントまたは複数のコンポーネントのデータを、 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. 作成、編集および削除できます [campaigns](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [広告グループ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md), [キーワード](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md), [広告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md), [[!DNL Google Ads] 配置](/help/search-social-commerce/campaign-management/campaigns/placement-manage.md), [!DNL Google Ads] および [!DNL Microsoft Advertising] [sitelink ライブラリ](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md) および [割り当て](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-associate.md), [!DNL Google Ads] [吹き出し拡張機能ライブラリ](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md) および [割り当て](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)、および [[!DNL Google Ads] 場所の拡張](/help/search-social-commerce/campaign-management/campaigns/location-extension-manage.md). また、ショッピングを管理することもできます。 [製品グループ](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), [動的検索ターゲット](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md), [[!DNL Google Ads] audiences](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) および [[!DNL Google Ads] and [!DNL Microsoft Advertising] audience targets](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md). また、 [コピーおよび貼り付け機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md). このオプションは、 [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]、および [!DNL Yandex] アカウント。
+* オプション 1：個々のコンポーネントまたは複数のコンポーネントのデータを、 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. 作成、編集および削除できます [campaigns](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [広告グループ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md), [キーワード](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md), [広告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md), [[!DNL Google Ads] 配置](/help/search-social-commerce/campaign-management/campaigns/placement-manage.md), [!DNL Google Ads] および [!DNL Microsoft Advertising] [sitelink ライブラリ](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md) および [割り当て](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-associate.md)、および [!DNL Google Ads] [吹き出し拡張機能ライブラリ](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md) および [割り当て](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md). また、ショッピングを管理することもできます。 [製品グループ](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), [動的検索ターゲット](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md), [[!DNL Google Ads] audiences](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) および [[!DNL Google Ads] および [!DNL Microsoft Advertising] audience targets](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md). また、 [コピーおよび貼り付け機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md). このオプションは、 [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]、および [!DNL Yandex] アカウント。
 
 * オプション 2：アップロード [bulksheet ファイル](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) からのアカウントに必要な量のデータを含む [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Bulksheets]. の場合 [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Naver]、および [!DNL Yandex] アカウントを使用する場合、データを広告ネットワークに投稿できます。 の場合 [!DNL Naver]を使用すると、検索、ソーシャル、コマースで使用するデータをアップロードできますが、広告ネットワークに投稿することはできません。
 
