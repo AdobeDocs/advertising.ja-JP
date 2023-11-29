@@ -3,16 +3,16 @@ title: サポートされる在庫
 description: サポートされている広告ネットワーク、キャンペーンタイプ、広告タイプを参照します。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: b42f4065b6fd346dbee2ddfa802ca6947772c963
+source-git-commit: 06a14b364e41ca37725abb279b40cfa79bd3fd23
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2712'
 ht-degree: 0%
 
 ---
 
 # サポートされる在庫
 
-サポートされる広告ネットワーク、キャンペーンタイプ、広告タイプ、およびそれぞれで使用できる機能を次に示します。
+サポートされる広告ネットワーク、キャンペーンタイプ、広告タイプ、および各広告タイプで使用できる機能を次に示します。
 
 >[!TIP]
 >
