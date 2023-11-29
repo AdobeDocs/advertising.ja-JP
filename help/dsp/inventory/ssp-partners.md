@@ -3,9 +3,9 @@ title: SSP パートナー
 description: 利用可能なサプライサイドプラットフォーム (SSP) とオープン交換パートナーの一覧を参照してください。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 4e4d5ac29b7da2a93788d6faba30d243e3442805
+source-git-commit: dda4a3dcd8d2cb35269ffcb6c600efdde57f2c90
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >すべての SSP パートナーシップは変更される場合があります。 このリストは、現在のパートナーシップを反映しています。
+
+>[!TIP]
+>
+>次の表は幅が広い。 表の下部にあるスクロールバーを使用して、すべての内容を表示します。
 
 | SSP リスト | 会社情報 | シート ID | プログラムで保証されたサポート | 地域 | サポートされる通貨 | ビデオデスクトップ | ビデオモバイル | ビデオ CTV | デスクトップを表示 | モバイルを表示 | ネイティブ表示 | オーディオデスクトップおよびモバイル |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
