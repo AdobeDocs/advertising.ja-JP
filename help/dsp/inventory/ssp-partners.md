@@ -3,9 +3,9 @@ title: SSP パートナー
 description: 利用可能なサプライサイドプラットフォーム (SSP) とオープン交換パートナーの一覧を参照してください。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: dda4a3dcd8d2cb35269ffcb6c600efdde57f2c90
+source-git-commit: 277ea1c216536138e1b08e451532dae1ab4b590d
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->次の表は幅が広い。 表の下部にあるスクロールバーを使用して、すべての内容を表示します。
+>次の表は幅が広い。 必要に応じて、テーブルの下部にあるスクロールバーを使用して、すべてのコンテンツを表示します。 また、オプションで、「 ![目次を非表示にする](/help/dsp/assets/hide-toc.png "目次を非表示にする") をクリックします。
 
 | SSP リスト | 会社情報 | シート ID | プログラムで保証されたサポート | 地域 | サポートされる通貨 | ビデオデスクトップ | ビデオモバイル | ビデオ CTV | デスクトップを表示 | モバイルを表示 | ネイティブ表示 | オーディオデスクトップおよびモバイル |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
