@@ -1,11 +1,11 @@
 ---
 title: のバルクシートデータ [!DNL Yahoo! Japan] アカウント
 description: 次のフィールドについて、ダウンロードした一括送信シートのヘッダーフィールドとデータフィールドを参照します。 [!DNL Yahoo! Japan] アカウント。
-exl-id: b68edbc1-0054-4dac-be3f-4df3c4e00ba9
+exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: 5583128ec1c93b3a6244afb040e94c3b539c9db4
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2629'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 -->
 
 ## 使用可能なデータフィールド
+
+>[!TIP]
+>
+>次の表は幅が広い。 必要に応じて、テーブルの下部にあるスクロールバーを使用して、すべてのコンテンツを表示します。 また、オプションで、「 ![目次を非表示にする](/help/search-social-commerce/assets/hide-toc.png "目次を非表示にする") をクリックします。
 
 | フィールド | Campaign | 広告グループ | キーワード | テキスト広告 | キャンペーンの場所のターゲット | 説明 |
 |----|----|----|----|----|----|----|

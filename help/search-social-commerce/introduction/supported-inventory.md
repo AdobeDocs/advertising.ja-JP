@@ -3,7 +3,7 @@ title: サポートされる在庫
 description: サポートされている広告ネットワーク、キャンペーンタイプ、広告タイプを参照します。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 8540bfad431c82c52f54e17d7d82c0ac94213663
+source-git-commit: b42f4065b6fd346dbee2ddfa802ca6947772c963
 workflow-type: tm+mt
 source-wordcount: '2710'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->次の表は幅が広い。 必要に応じて、テーブルの下部にあるスクロールバーを使用して、すべてのコンテンツを表示します。 また、オプションで、「 ![目次を非表示にする](/help/dsp/assets/hide-toc.png "目次を非表示にする") をクリックします。
+>次の表は幅が広い。 必要に応じて、テーブルの下部にあるスクロールバーを使用して、すべてのコンテンツを表示します。 また、オプションで、「 ![目次を非表示にする](/help/search-social-commerce/assets/hide-toc.png "目次を非表示にする") をクリックします。
 
 | ソース | ネットワーク | キャンペーンタイプ | 広告タイプ | 同期して表示 | 作成/編集 | 追跡[^1] | 最適化 | レポート[^2] | Adobe Analyticsサポート[^3] |
 |----|----|----|----|----|----|----|----|----|----|

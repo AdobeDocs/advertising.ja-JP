@@ -1,11 +1,11 @@
 ---
 title: 次に必要なバルクシートデータ： [!DNL Baidu] アカウント
 description: 次のバルクシートで、必須ヘッダーフィールドとデータフィールドを参照します： [!DNL Baidu] アカウント。
-exl-id: 9066f3d5-5de1-4efe-bd61-6c877e106920
+exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: 255bdcd1e14bd1204b3b0a73034029ba7f4ef965
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1930'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 ## 使用可能なデータフィールド
 
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+
+>[!TIP]
+>
+>次の表は幅が広い。 必要に応じて、テーブルの下部にあるスクロールバーを使用して、すべてのコンテンツを表示します。 また、オプションで、「 ![目次を非表示にする](/help/search-social-commerce/assets/hide-toc.png "目次を非表示にする") をクリックします。
 
 | フィールド | Campaign | 広告グループ | キーワード | テキスト広告 | 場所のターゲット | 説明 |
 |----|----|----|----|----|----|----|
