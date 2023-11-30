@@ -3,9 +3,9 @@ title: のバルクシートデータ [!DNL Yahoo! Japan] アカウント
 description: 次のフィールドについて、ダウンロードした一括送信シートのヘッダーフィールドとデータフィールドを参照します。 [!DNL Yahoo! Japan] アカウント。
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
+source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 >[!TIP]
 >
->次の表は幅が広い。 必要に応じて、テーブルの下部にあるスクロールバーを使用して、すべてのコンテンツを表示します。 また、オプションで、目次や右側のウィンドウを一時的に非表示にするには、 ![ウィンドウを非表示](/help/search-social-commerce/assets/hide-pane.png "ウィンドウを非表示") をクリックします。
+>次の表は幅が広い。 必要に応じて、テーブルの下部にあるスクロールバーを使用して、すべてのコンテンツを表示します。 また、オプションで、目次や右側のウィンドウを一時的に非表示にするには、 ![左側のウィンドウを非表示にする](/help/search-social-commerce/assets/hide-left-pane.png "左側のウィンドウを非表示にする") 左側のウィンドウの上部に、または ![右側のウィンドウを非表示にする](/help/search-social-commerce/assets/hide-right-pane.png "右側のウィンドウを非表示にする") をクリックします。
 
 | フィールド | Campaign | 広告グループ | キーワード | テキスト広告 | キャンペーンの場所のターゲット | 説明 |
 |----|----|----|----|----|----|----|

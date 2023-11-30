@@ -3,9 +3,9 @@ title: サポートされる在庫
 description: サポートされている広告ネットワーク、キャンペーンタイプ、広告タイプを参照します。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
+source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: '2728'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->次の表は幅が広い。 必要に応じて、テーブルの下部にあるスクロールバーを使用して、すべてのコンテンツを表示します。 また、オプションで、目次や右側のウィンドウを一時的に非表示にするには、 ![ウィンドウを非表示](/help/search-social-commerce/assets/hide-pane.png "ウィンドウを非表示") をクリックします。
+>次の表は幅が広い。 必要に応じて、テーブルの下部にあるスクロールバーを使用して、すべてのコンテンツを表示します。 また、オプションで、目次や右側のウィンドウを一時的に非表示にするには、 ![左側のウィンドウを非表示にする](/help/search-social-commerce/assets/hide-left-pane.png "左側のウィンドウを非表示にする") 左側のウィンドウの上部に、または ![右側のウィンドウを非表示にする](/help/search-social-commerce/assets/hide-right-pane.png "右側のウィンドウを非表示にする") をクリックします。
 
 | ソース | ネットワーク | キャンペーンタイプ | 広告タイプ | 同期して表示 | 作成/編集 | 追跡[^1] | 最適化 | レポート[^2] | Adobe Analyticsサポート[^3] |
 |----|----|----|----|----|----|----|----|----|----|
