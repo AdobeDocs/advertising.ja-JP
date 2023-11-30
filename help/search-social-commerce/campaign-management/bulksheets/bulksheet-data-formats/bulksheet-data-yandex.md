@@ -3,9 +3,9 @@ title: 次に必要なバルクシートデータ： [!DNL Yandex] アカウン�
 description: 次のバルクシートで、必須ヘッダーフィールドとデータフィールドを参照します： [!DNL Yandex] アカウント。
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 85a828367ebce0c9bdb851bd7b639cd2f870012a
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1907'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 
 >[!TIP]
 >
->次の表は幅が広い。 必要に応じて、テーブルの下部にあるスクロールバーを使用して、すべてのコンテンツを表示します。 また、オプションで、「 ![目次を非表示にする](/help/search-social-commerce/assets/hide-toc.png "目次を非表示にする") をクリックします。
+>次の表は幅が広い。 必要に応じて、テーブルの下部にあるスクロールバーを使用して、すべてのコンテンツを表示します。 また、オプションで、目次や右側のウィンドウを一時的に非表示にするには、 ![ウィンドウを非表示](/help/search-social-commerce/assets/hide-pane.png "ウィンドウを非表示") をクリックします。
 
 | フィールド | Campaign | 広告グループ | キーワード | テキスト広告 | Sitelink | 説明 |
 |----|----|-----|-----|----|----|----|
