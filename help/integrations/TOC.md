@@ -4,9 +4,9 @@ user-guide-description: Advertising DSP および Advertising Search と他の A
 breadcrumb-title: Experience Cloud との統合
 role: User, Developer
 index: true
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 676b7bb7303369a8e212a27cec99c0e1f88da9ae
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '198'
 ht-degree: 12%
 
 ---
@@ -45,5 +45,5 @@ ht-degree: 12%
       + [DSP Campaigns からインプレッションとクリックデータを収集](/help/integrations/audience-manager/media-data-integration/collect.md)
       + [使用例](/help/integrations/audience-manager/media-data-integration/use-cases.md)
    + [AdobeAudience Analytics（広告顧客向け）](/help/integrations/audience-manager/audience-analytics.md)
-+ [Adobe TargetでDSP Ads の A/B テストを設定する](/help/integrations/target/overview-ab-tests.md)
++ [Adobe TargetでDSP Ads の A/B テストを設定する](/help/integrations/target/ab-tests-dsp.md)
 + [ビデオTutorialsAdobe Advertising統合について](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
