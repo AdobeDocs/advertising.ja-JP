@@ -4,10 +4,10 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: 7d5f3028f3f8ff23a97274c182c37477a69c3f48
+source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '931'
+ht-degree: 3%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 6%
       + [カスタム目標の作成のベストプラクティス](/help/dsp/optimization/custom-goal-best-practices.md)
    + [パフォーマンスキャンペーンの設定のベストプラクティス](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [パフォーマンスのトラブルシューティング](/help/dsp/optimization/troubleshooting-performance.md)
-+ Audiences {#audiences}
++ オーディエンス {#audiences}
    + [Audience Management について](/help/dsp/audiences/audience-about.md)
    + セグメント {#segments}
       + [カスタムセグメントの作成と実装](/help/dsp/audiences/custom-segment-create.md)
@@ -137,7 +137,7 @@ ht-degree: 6%
       + [セグメントの共有または共有の停止](/help/dsp/audiences/segment-share.md)
       + [セグメントの表示追跡ピクセル](/help/dsp/audiences/segment-view-pixels.md)
       + [セグメントの削除](/help/dsp/audiences/segment-delete.md)
-   + Audiences {#reusable-audiences}
+   + オーディエンス {#reusable-audiences}
       + [再利用可能なオーディエンスを作成する](/help/dsp/audiences/reusable-audience-create.md)
       + [再利用可能なオーディエンスを複製](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [再利用可能なオーディエンスを編集](/help/dsp/audiences/reusable-audience-edit.md)
@@ -215,6 +215,15 @@ ht-degree: 6%
       + [の編集 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
       + [の削除 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] 設定](/help/dsp/reports/report-destinations/report-destination-settings.md)
++ プランナー {#planner}
+   + [DSP Planner ツールについて](/help/dsp/planner/planner-about.md)
+   + [接続済み TV リーチプランの作成](/help/dsp/planner/planner-create.md)
+   + [接続済み TV リーチプランの複製](/help/dsp/planner/planner-duplicate.md)
+   + [接続済み TV リーチプランの編集](/help/dsp/planner/planner-edit.md)
+   + [接続済み TV リーチプランの設定](/help/dsp/planner/planner-settings.md)
+   + [接続された TV リーチプランの予測のエクスポート](/help/dsp/planner/planner-export.md)
+   + [接続された TV リーチプランの予測を再生成する](/help/dsp/planner/planner-forecast.md)
+   + [接続された TV リーチプランをアーカイブ](/help/dsp/planner/planner-archive.md)
 + 管理 {#admin}
    + [プロファイルを編集](/help/dsp/admin/user-own-profile-edit.md)
    + ユーザー {#users}
@@ -227,6 +236,6 @@ ht-degree: 6%
    + 通知 {#notifications}
       + [アラート購読について](/help/dsp/admin/alerts-about.md)
       + [アラート購読の管理](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloud との統合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Adobe Experience Cloudとの統合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [カスタマーサポート](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
-+ [Adobe Experience Cloud のリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Adobe Experience Cloudリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
