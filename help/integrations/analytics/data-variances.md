@@ -3,9 +3,9 @@ title: A と B の間で予想されるデータの相違 [!DNL Analytics] お�
 description: A と B の間で予想されるデータの相違 [!DNL Analytics] およびAdobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
+source-git-commit: fb0634643e40b67e50461823f976a93129e2f038
 workflow-type: tm+mt
-source-wordcount: '3265'
+source-wordcount: '3217'
 ht-degree: 0%
 
 ---
@@ -246,7 +246,7 @@ Adobe Advertisingは、Analytics に [広告固有のトラフィック指標お
 
 ### 使用 [!UICONTROL AMO ID Instances] 非Adobe AdvertisingDimensionでのクリック数の代わりとして
 
-を使用できないので、 [!UICONTROL Adobe Advertising Clicks] オンサイトディメンションを使用すると、クリック数に相当するものを見つけることができます。 訪問回数を代わりに使用したいと考えるかもしれませんが、各訪問者が複数回訪問する場合があるので、これらは最適な選択肢ではありません。 (「[クリック数と訪問数の違い](#clicks-vs-visits).&quot; 代わりに、 [!UICONTROL AMO ID Instances]:AMO ID が取得された回数です。 While [!UICONTROL AMO ID Instances] 一致しない [!UICONTROL Adobe Advertising Clicks] 正確には、これらはサイトでのクリックトラフィックを測定する最適なオプションです。 詳しくは、[のデータ検証 [!DNL Analytics for Advertising]](#data-validation).&quot;
+を使用できないので、 [!UICONTROL AMO Clicks] オンサイトディメンションを使用すると、クリック数に相当するものを見つけることができます。 訪問回数を代わりに使用したいと考えるかもしれませんが、各訪問者が複数回訪問する場合があるので、これらは最適な選択肢ではありません。 (「[クリック数と訪問数の違い](#clicks-vs-visits).&quot; 代わりに、 [!UICONTROL AMO ID Instances]:AMO ID が取得された回数です。 While [!UICONTROL AMO ID Instances] 一致しない [!UICONTROL AMO Clicks] 正確には、これらはサイトでのクリックトラフィックを測定する最適なオプションです。 詳しくは、[次のクリックスルーデータ検証： [!DNL Analytics for Advertising]](#data-validation).&quot;
 
 ![の例 [!UICONTROL AMO ID Instances] の代わりに [!UICONTROL Adobe Advertising Clicks] サポートされていないディメンションの](/help/integrations/assets/a4adc-amo-id-instances.png)
 

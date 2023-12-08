@@ -3,9 +3,9 @@ title: Adobe AdvertisingID 使用者 [!DNL Analytics]
 description: Adobe AdvertisingID 使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
+source-git-commit: 3e6c90c1fc36ffc8fd404b5fe589f1f79f69a096
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1686'
 ht-degree: 0%
 
 ---
@@ -264,7 +264,7 @@ where:
 
 Analytics レポートでは、 [!UICONTROL AMO ID] ディメンションと使用 [!UICONTROL AMO ID Instances] 指標。 The [!UICONTROL AMO ID] ディメンションには、取得されたすべての AMO ID 値が格納されますが、 [!UICONTROL AMO ID Instances] 指標は、AMO ID 値がサイトによってキャプチャされた頻度を示します。 例えば、同じ検索広告が 4 回クリックされたが、Analytics が 7 つのサイトエントリを追跡した場合、 [!UICONTROL AMO ID Instances] 7(7) で [!UICONTROL Clicks] は 4(4) です。
 
-内の任意のレポートまたは監査 [!DNL Analytics]を使用する場合、ベストプラクティスは、AMO ID を対応するインスタンスと共に使用することです。 詳しくは、[のデータ検証 [!DNL Analytics for Advertising]](data-variances.md#data-validation)」(「 [!DNL Analytics] そしてAdobe Advertising」
+内の任意のレポートまたは監査 [!DNL Analytics]を使用する場合、ベストプラクティスは、AMO ID を対応するインスタンスと共に使用することです。 詳しくは、[次のクリックスルーデータ検証： [!DNL Analytics for Advertising]](data-variances.md#data-validation)」(「 [!DNL Analytics] そしてAdobe Advertising」
 
 ## Analytics 分類について
 
