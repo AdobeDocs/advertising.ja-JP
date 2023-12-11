@@ -3,22 +3,20 @@ title: 用 JavaScript コード [!DNL Analytics for Advertising]
 description: 用 JavaScript コード [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 8689bc2b5532b0e75ebf3cee14a42fa733d5ded5
+source-git-commit: 9158ed3fc8b35b5f79f217b619c2ff8e596895ab
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
 
 # 用 JavaScript コード [!DNL Analytics for Advertising]
 
-*Adobe AdvertisingとAdobe Analyticsの統合のみの広告主*
-
 *Advertising DSPのみの広告主*
 
-Advertising DSPの場合、 [!DNL Analytics for Advertising] 統合は、ビュースルーおよびクリックスルーサイトのインタラクションを追跡します。 クリックスルー訪問は、Web ページ上の標準のAdobe Analyticsコードで追跡されます。 [!DNL Analytics] コードはランディングページ URL に AMO ID および EF ID パラメーターをキャプチャし、それぞれの予約済み eVar で追跡します。 Web ページに JavaScript スニペットをデプロイすることで、ビュースルー訪問を追跡できます。
+Advertising DSPの場合、 [!DNL Analytics for Advertising] 統合は、ビュースルーおよびクリックスルーサイトのインタラクションを追跡します。 クリックスルー訪問は、Web ページ上の標準のAdobe Analyticsコードで追跡されます。 [!DNL Analytics] コードはランディングページ URL の AMO ID および EF ID パラメーターをキャプチャし、それぞれの予約済みので追跡します。 [!DNL eVars]. Web ページに JavaScript スニペットをデプロイすることで、ビュースルー訪問を追跡できます。
 
-サイトへの訪問の最初のページビューで、Adobe Advertisingの JavaScript コードは、訪問者が以前に広告を閲覧またはクリックしたかどうかを確認します。 ユーザーが以前にクリックスルーでサイトに入ったことがある場合や、広告を表示していない場合、訪問者は無視されます。 訪問者が広告を閲覧した後、 [ルックバックウィンドウをクリック](/help/integrations/analytics/prerequisites.md#lookback-a4adc) Adobe Advertising内で設定した場合、Adobe AdvertisingJavaScript コード a) は、 [Experience CloudID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html) 追加の ID(`SDID`) または b) Adobe Experience Platformを使用 [!DNL Web SDK] `generateRandomID` メソッドを使用して `[!DNL StitchID]`. どちらの ID も、データを訪問者から訪問者のAdobe AnalyticsヒットにAdobe Advertisingするために使用されます。 次に、Adobe Analyticsは、広告公開に関連付けられた AMO ID と EF ID に対するAdobe Advertisingをクエリします。 AMO ID と EF ID は、それぞれの eVar に入力されます。 これらの値は、指定された期間（デフォルトでは 60 日）保持されます。
+サイトへの訪問の最初のページビューで、Adobe Advertisingの JavaScript コードは、訪問者が以前に広告を閲覧またはクリックしたかどうかを確認します。 ユーザーが以前にクリックスルーでサイトに入ったことがある場合や、広告を表示していない場合、訪問者は無視されます。 訪問者が広告を閲覧した後、 [ルックバックウィンドウをクリック](/help/integrations/analytics/prerequisites.md#lookback-a4adc) Adobe Advertising内で設定した場合、Adobe AdvertisingJavaScript コード a) は、 [Experience CloudID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html) 追加の ID(`SDID`) または b) Adobe Experience Platformを使用 [!DNL Web SDK] `generateRandomID` メソッドを使用して `[!DNL StitchID]`. どちらの ID も、データを訪問者から訪問者のAdobe AnalyticsヒットにAdobe Advertisingするために使用されます。 次に、Adobe Analyticsは、広告公開に関連付けられた AMO ID と EF ID に対するAdobe Advertisingをクエリします。 AMO ID と EF ID は、それぞれの [!DNL eVars]. これらの値は、指定された期間（デフォルトでは 60 日）保持されます。
 
 [!DNL Analytics] サイトトラフィック指標（ページビュー数、訪問回数、滞在時間など）と [!DNL Analytics] EF ID をキーとして使用し、1 時間ごとにAdobe Advertisingを設定するカスタムイベントまたは標準イベント。 これら [!DNL Analytics] 次に、指標のアトリビューションシステムを実行して、Adobe Advertisingをクリック数および露出数の履歴に結び付けます。
 
@@ -107,8 +105,8 @@ The [!DNL Analytics for Advertising] JavaScript 関数は、Experience CloudID �
 1. を開きます。 [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) をホームページに追加します。
 1. 次に移動： [!UICONTROL Network] タブをクリックします。
 1. Adobe Analytics の [!UICONTROL Solutions Filter] ツールバー、クリック [!UICONTROL Adobe Advertising] および [!UICONTROL Analytics].
-1. Adobe Analytics の [!UICONTROL Request URL – Hostname] パラメータ行、を見つけます。 `lasteventf-tm.everesttech.net`.
-1. Adobe Analytics の [!UICONTROL Request – Parameters] 行で、「 」の手順 3 と同様に、生成されたシグナルを監査します。[を使用してコードを確認する方法 [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
+1. Adobe Analytics の [!UICONTROL Request URL - Hostname] パラメータ行、を見つけます。 `lasteventf-tm.everesttech.net`.
+1. Adobe Analytics の [!UICONTROL Request - Parameters] 行で、「 」の手順 3 と同様に、生成されたシグナルを監査します。[を使用してコードを確認する方法 [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
    * (Experience CloudID サービスを使用する実装 ) `visitorAPI.js` コード ) `Sdid` パラメーターは `Supplemental Data ID` ( Adobe Analyticsフィルター )
    * (EXPERIENCE PLATFORM [!DNL Web SDK] `alloy.js`コード ) `advertisingStitchID` パラメーターは `Sdid` をExperience PlatformEdge ネットワークに送信しました。
    * コードが生成されない場合は、Adobe AdvertisingCookie が [!UICONTROL Application] タブをクリックします。 削除したら、ページを更新し、処理を繰り返します。

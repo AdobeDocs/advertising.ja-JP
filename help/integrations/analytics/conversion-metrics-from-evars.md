@@ -1,10 +1,11 @@
 ---
-title: 「Adobe Analyticsからのコンバージョン指標の作成 [!DNL eVars] および props
-description: 「次を使用してカスタム成功イベント指標を設定 [!DNL eVar] — および [!DNL prop] — レベルのデータ。」
+title: Adobe Analyticsでのコンバージョン指標の作成 [!DNL eVars] および prop
+description: 次を使用したカスタム成功イベント指標の設定 [!DNL eVar] — および [!DNL prop] — レベルのデータ。
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: 71ffd021b31154a2ed2a522049f656a13d364d00
+exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
+source-git-commit: 686ca84a34117bcb4f4d5f295ed27bb308e6f287
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -64,6 +65,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [[!DNL Analytics] データのAdobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
-<!--
->* [](/help/search-social-commerce/admin/conversion-metrics/ ????????)
--->
+>* [広告主で追跡されているコンバージョン指標を表示する](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
