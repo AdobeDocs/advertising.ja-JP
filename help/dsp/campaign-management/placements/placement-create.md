@@ -3,10 +3,10 @@ title: 配置の作成
 description: プレースメントを作成する方法を説明します。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: c86493663b096854ab3ac2e07244619459ac004c
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 1%
+source-wordcount: '673'
+ht-degree: 0%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 1%
 >
 >* [配置管理について](placement-about.md)
 >* [配置の編集](placement-edit.md)
->* [プレースメントの広告スケジュールの編集](placement-edit-ad-schedule.md)
+>* [配置の広告スケジュールの編集](placement-edit-ad-schedule.md)
 >* [配置の一時停止またはアクティブ化](placement-pause-activate.md)
 >* [配置の変更ログの表示](placement-change-log.md)
 >* [配置設定](placement-settings.md)
