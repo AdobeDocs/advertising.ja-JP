@@ -3,16 +3,16 @@ title: カスタムセグメントの作成と実装
 description: Web ページを訪問した広告やユーザーにさらされるユーザーを追跡するカスタムセグメントを作成および実装する方法について説明します。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # カスタムセグメントの作成と実装
 
-カスタムDSPセグメントを作成して実装することで、独自のファーストパーティオーディエンスデータを収集できます。 セグメントを使用すると、a) デスクトップ、モバイル、CTV デバイスから広告を受けるユーザー、および b) 特定の Web ページを訪問するユーザーを追跡できます。 後で、セグメント内のユーザーを追加の広告で再ターゲット化したり、セグメント内のユーザーが追加の広告を受け取らないようにしたりできます。
+カスタムDSPセグメントを作成して実装することで、独自のファーストパーティオーディエンスデータを収集できます。 セグメントを使用して、a) デスクトップおよびモバイルデバイスから広告を受けるユーザー、および b) 特定の Web ページを訪問するユーザーを追跡できます。 後で、セグメント内のユーザーを追加の広告で再ターゲット化したり、セグメント内のユーザーが追加の広告を受け取らないようにしたりできます。
 
 >[!NOTE]
 >
@@ -47,12 +47,12 @@ ht-degree: 0%
          1. タグを、導入用の広告主または Web サイトの連絡先に提供します。
 
             広告主の IT 部門やその他のグループは、タグの導入をスケジュールしたり、通知を受けたりする必要がある場合があります。
-      * デスクトップ、モバイルまたは CTV デバイスで広告ユニットに公開されたユーザーを追跡するには：
+
+      * デスクトップまたはモバイルデバイスで広告ユニットに触れたユーザーを追跡するには：
 
          1. インプレッショントラッキングタグ (「[!UICONTROL Desktop or mobile ads].&quot;
 
-
-1. タグを [!UICONTROL Pixel] タブをクリックします。 [!UICONTROL Event Pixels] セクション [[!UICONTROL Tracking] 関連する各配置の設定](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+1. タグを [!UICONTROL Pixel] タブをクリックします。 [!UICONTROL Event Pixels] のセクション [[!UICONTROL Tracking] 関連する各配置の設定](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 トラッキングタグを実装すると、そのセグメントをオーディエンスのターゲットまたは除外で任意の配置に使用できます。
 
@@ -68,7 +68,6 @@ ht-degree: 0%
 >* [セグメントの表示追跡ピクセル](segment-view-pixels.md)
 >* [セグメントの共有または共有の停止](segment-share.md)
 >* [の作成と実装 [!UICONTROL CCPA Opt-Out-of-Sale] セグメント](ccpa-opt-out-segment-create.md)
->* [再利用可能なオーディエンスを作成](reusable-audience-create.md)
+>* [再利用可能なオーディエンスを作成する](reusable-audience-create.md)
 >* [利用可能なサードパーティデータプロバイダー](third-party-data-providers.md)
 >* [配置設定](/help/dsp/campaign-management/placements/placement-settings.md)
-
