@@ -1,24 +1,30 @@
 ---
 title: '''[!DNL Microsoft® Advertising] レスポンシブ広告設定'
 description: 次の設定を参照してください： [!DNL Microsoft® Advertising] レスポンシブ広告。
-exl-id: bbe06bdb-c765-4d30-a609-03f476c4ee54
+exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: dae8d3726b48240a2cad7d3e188694f72934295f
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft® Advertising] レスポンシブ（オーディエンス）広告設定
 
-レスポンシブ広告フォーマットは、 [!DNL Microsoft® Audience Network]. 広告ネットワークは、広告要素の最も効果的な組み合わせを使用して、レスポンシブ広告を動的に構築します。
+レスポンシブ広告形式は、 [!DNL Microsoft® Audience Network]. 広告ネットワークは、広告要素の最も効果的な組み合わせを使用して、レスポンシブ広告を動的に構築します。
+
+## [!UICONTROL Ad Settings] （ビデオ広告の場合）および [!UICONTROL Audience CTV Video Ad Details]
+
+**[!UICONTROL Videos]:** 1 つのビデオ広告の URL。
+
+**[!UICONTROL Status]:** 広告のステータス。
+
+## [!UICONTROL Responsive Ad Details] （イメージ広告の場合）
 
 >[!NOTE]
 >
 >広告ネットワークは、店舗の製品情報と広告グループレベルのユーザーターゲティングを使用して、マーチャントセンターの店舗にリンクされたオーディエンスキャンペーン用の広告を自動的に作成します。 広告を手動で作成する必要はありません。
-
-## [!UICONTROL Responsive Ad Details]
 
 **[!UICONTROL Images]:** 広告のJPEGまたは PNG 画像を最大 15 個まで。 縦横比が 1.91:1 の画像を少なくとも 1 つ含めます。 以下については、許可されている縦横比とサイズを参照してください。 [オーディエンス広告画像](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
 
