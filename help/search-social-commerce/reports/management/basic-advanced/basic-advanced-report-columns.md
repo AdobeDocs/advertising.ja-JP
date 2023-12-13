@@ -3,9 +3,9 @@ title: 基本レポートと高度なレポートのレポート列
 description: 基本レポートと高度なレポートで使用できるデータ列について説明します。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 0e82baca53d27dea4207cb2eef3f4be7a9f99fb5
+source-git-commit: 2a4920bc8a9b45061fb0b3773e5a90954ce2dff5
 workflow-type: tm+mt
-source-wordcount: '3598'
+source-wordcount: '3755'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 0%
 | [!UICONTROL Ad Group Type] | 広告グループのタイプ（例： ） <i>[!UICONTROL Audience]</i> （オーディエンスキャンペーンのみ） <i>[!UICONTROL Discovery]</i> （検出キャンペーンのみ） <i>[!UICONTROL Display]</i> （ディスプレイキャンペーンのみ） <i>[!UICONTROL Search Dynamic]</i> （動的検索広告のみ）、 <i>[!UICONTROL Search Standard]</i> （レスポンシブ検索広告および既存の拡張テキスト広告のみ） <i>[!UICONTROL Shopping Showcase]</i>, <i>[!UICONTROL Shopping Product]</i> （標準の買い物キャンペーンのみ）または <i>[!UICONTROL Shopping Smart]</i> （スマートショッピングキャンペーン用）。 キャンペーンタイプによっては、1 つのキャンペーンに複数の広告タイプを含めることができます。 |
 | [!UICONTROL Ad Groups] | ラベル値が割り当てられる広告グループの数。 |
 | [!UICONTROL AD Name] | 広告グループ名。 [!UICONTROL Ad Group]. |
+| [!UICONTROL Ad Recall Lift] | ([!DNL Meta] キャンペーンのみ ) 2 日以内に広告を記憶する推定人数。 |
+| [!UICONTROL Ad Recall Rate] | ([!DNL Meta] キャンペーンのみ ) 2 日以内に広告を記憶する推定人数を、到達した人数（パーセンテージ）で割った数です。 |
 | [!UICONTROL Ad Size] | 広告のディメンション。 |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] レスポンシブ検索広告 ) 広告の効果： <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i>または <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising]、および [!DNL Yahoo! Japan Ads] キャンペーン ) 現在の広告グループレベルのモバイル入札の調整。広告がモバイルデバイスに表示されたときの入札の調整方法を決定します。 |
@@ -46,6 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign] | キャンペーン。 |
 | [!UICONTROL Campaign Budget] | キャンペーンの予算。 |
 | [!UICONTROL Campaign MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising]、および [!DNL Yahoo! Japan Ads] キャンペーン ) 現在のキャンペーンレベルのモバイル入札の調整。広告がモバイルデバイスに表示されたときの入札の調整方法を決定します。 |
+| [!UICONTROL Campaign Product Scope Filter] | （ショッピングネットワークを使用するキャンペーンのみ）商品広告をキャンペーン用に作成できる商品アカウント内の製品。 |
 | [!UICONTROL Campaign Start Date] | キャンペーンの入札が行われた最初の日。 |
 | [!UICONTROL Campaign Status] | キャンペーンステータス： <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Ended]</i>または <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Campaign Type] | キャンペーンのタイプ（例： ） <i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Video)]</i>, <i>[!UICONTROL Brand Shopping]</i>, <i>[!UICONTROL Discovery]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Store Ad]</i>, <i>[!UICONTROL Video]</i>または <i>[!UICONTROL Others]</i>. |
@@ -106,6 +109,7 @@ ht-degree: 0%
 | [!UICONTROL Estimated Impressions] | （キャンペーンのみを表示）検索、ソーシャル、コマースで追跡された広告インプレッション数の推定値。 この値は、 [!UICONTROL Impressions] 列（使用可能な場合）：広告ネットワークによって提供される値を表示します。 |
 | [!UICONTROL Exclude (yes/no)] | 入札が除外されるかどうか (<i>[!UICONTROL Yes]</i>) または入札が許可されます (<i>[!UICONTROL No]</i>) を参照してください。 |
 | [!UICONTROL First Page CPC] | (Googleキャンペーンのみ ) 指定した日付範囲で検索結果の最初のページに表示される広告のクリック単価 (CPC)。 |
+| [!UICONTROL Frequency] | ([!DNL Meta] キャンペーンのみ ) 誰かが広告を閲覧した平均回数です。 |
 | `GGL*`, `GGL_CT*`、および `GGL_XD_CT*` [[!DNL Google Ads] — 追跡されたコンバージョン数 | ([!DNL Google Ads] 検索およびショッピングネットワーク上のキャンペーン ) [!DNL Google Ads] — トラッキングされたコンバージョン。各コンバージョンに最大 3 つの異なる指標があります。<ul><li>`GGL*` — （追跡する場合）キーワードのコンバージョン値で、「GGL」プレフィックスで始まる値（GGL Purchase など）。</li><li>`GGL_CT*` — 「GGL_CT」プレフィックス（GGL_CT_Purchase など）で始まるコンバージョンの数（カウント）。</li><li>`GGL_XD_CT*` — （コンバージョンタイプで使用可能な場合、コンバージョンを追跡する際）クロスデバイスコンバージョンの数（数）。 [!DNL Google Ads] 「GGL_XD_CT_」プレフィックスで始まる (GGL_XD_CT_Purchase など )。</li></ul><br>各コンバージョンは、入札単位およびクリック日別に記録されます。イベントレベルでは使用できません。 詳しくは、 [!DNL Google Ads] — トラッキングされたコンバージョン：[[!DNL Google Ads] 検索、ソーシャル、コマースのコンバージョンデータ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] （のみ）オーガニック検索結果の上の最初の広告として表示される広告インプレッションの割合。 |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] （のみ）オーガニック検索結果の上に表示される広告インプレッションの割合。 |
@@ -127,16 +131,17 @@ ht-degree: 0%
 | [!UICONTROL Market Type] | 市場タイプ：  <i>[!UICONTROL search]</i> または <i>[!UICONTROL social]</i> |
 | [!UICONTROL Max Spend % Target] | ( ポートフォリオ内の Campaign と [!UICONTROL ROI], [!UICONTROL CPT]または [!UICONTROL Marginal Cost per Transaction] 支出戦略 ) ポートフォリオの 1 日の最大予算ターゲットです。 |
 | [!UICONTROL Max Spend (%)] | ([!UICONTROL Network Constraint Report]) 広告ネットワークに対して設定された、ポートフォリオの支出の最大割合。 制約タイプ「 」を使用するポートフォリオの場合[!UICONTROL Min-Max]、これは [!UICONTROL Max %] の値です。 制約タイプ「 」を使用するポートフォリオの場合[!UICONTROL Target Spend]、これは [!UICONTROL Target Spend] の値です。 |
-| [!UICONTROL Method ID] | ([!UICONTROL Portfolio Report])  <!-- ???????? Insert value --> |
+| [!UICONTROL Method ID] | ([!UICONTROL Portfolio Report]) |
 | [!UICONTROL Metro Code] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) インプレッション数またはクリック数の発生元となった数値のメトロコード（Denver の us-751 など）。 検索ユーザーの IP アドレスから判断されます。 |
 | [!UICONTROL Min Spend (%)] | ([!UICONTROL Network Constraint Report]) 広告ネットワーク用に設定された、ポートフォリオの支出の最小割合。 制約タイプ「 」を使用するポートフォリオの場合[!UICONTROL Min-Max]、これは [!UICONTROL Min %] 値 ( [!UICONTROL Min %] が設定されている。 制約タイプ「 」を使用するポートフォリオの場合[!UICONTROL Target Spend]、これは [!UICONTROL Target Spend] の値です。 |
 | [!UICONTROL Network Account ID] | ネットワークによって割り当てられたアカウント ID。 |
 | [!UICONTROL Network Ad Group ID] | ネットワークによって割り当てられた広告グループ ID。 |
 | [!UICONTROL Network Campaign ID] | ネットワークによって割り当てられたキャンペーン ID。 |
+| [!UICONTROL Network Campaign Objective] | ([!DNL Meta] キャンペーンのみ ) キャンペーンの目的。 |
 | [!UICONTROL Objective Name] | ポートフォリオの目的。 |
 | [!UICONTROL Objective Value] | ポートフォリオの現在の目標に従って計算された、合計加重コンバージョン。 |
 | [!UICONTROL Objective Value Calculation] | 目標値の導き出しに使用される計算。 |
-| [!UICONTROL Outbound Clicks] | ([!DNL Meta] 広告 ) ユーザーを離脱させる広告内のリンクのクリック数 [!DNL Meta]-owned プロパティ。 |
+| [!UICONTROL Outbound Clicks] | ([!DNL Meta] キャンペーンのみ ) ユーザーを離脱させる広告内のリンクのクリック数 [!DNL Meta]-owned プロパティ。 |
 | [!UICONTROL Parent Product Groupings] | 親製品グループの完全な階層。 `>>` 層間 ( `All Products>>CategoryL1=Animals`) に書き込まれます。 |
 | [!UICONTROL Partition Type] | 製品グループのタイプ： <i>[!UICONTROL Sub-Division]</i> （親製品グループ）または <i>[!UICONTROL Unit]</i> （入札を持つ子製品グループの最下位レベル）。 |
 | [!UICONTROL Path Position] | ([!UICONTROL Transaction Report]) コンバージョンパス内でのイベントの位置。 |
@@ -150,10 +155,12 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Target] | ([!UICONTROL Portfolio Report]) ポートフォリオの支出戦略の日別ターゲット。 日別/月別および曜日/月別の戦略の場合は、現在の日のターゲットが表示されます。 |
 | [!UICONTROL Preferred Devices] | ([!DNL Google Ads], [!DNL Microsoft Advertising]、および [!DNL Yahoo! Japan Ads] キャンペーン ) 広告設定が <i>[!UICONTROL Mobile ads]</i> または <i>[!UICONTROL All ads]</i>. |
 | [!UICONTROL Product Group ID] | 広告ネットワークが製品グループに割り当てる数値 ID。 |
+| [!UICONTROL Product Group Name] | 製品グループの名前。 |
+| [!UICONTROL Product Group Status] | 製品グループのステータス。 |
 | [!UICONTROL Product Groupings] | 親製品グループ。 |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] 製品リスト広告 ) 広告と共に表示される製品の製品 ID。<br><br><b>注意：</b> この ID は、製品リストにトラッキングパラメーターが含まれている場合にのみ取り込まれます `ev_plx=<GMC product ID>`（内に追加する必要があります） [!DNL Google Merchant Center]. |
 | [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) コンバージョン指標の売上高（1 件の登録の場合は 1、12 米ドルの注文の場合は 12 など）。 複数の入札単位に同じトランザクション ID がある場合、トラッキング ID の売上高は、指定したクリック日（クリックデータが使用可能な場合）のクリック数に応じて分割されます。 |
-| [!UICONTROL Reach] | ([!DNL Meta] 広告 ) 少なくとも 1 回広告を閲覧した人の数です。 注意： [!DNL Meta] ユーザープロファイルのリーチの重複を毎日排除し、 [!DNL Meta] 検索、Social、および Commerce では異なる場合があります。 |
+| [!UICONTROL Reach] | ([!DNL Meta] キャンペーンのみ ) 少なくとも 1 回広告を閲覧した人の数です。 注意： [!DNL Meta] ユーザープロファイルのリーチの重複を毎日排除し、 [!DNL Meta] 検索、Social、および Commerce では異なる場合があります。 |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) インプレッションまたはクリックが発生した地域または米国/カナダの州。 ユーザーの IP アドレスから判断されます。 |
 | [!UICONTROL SE Creative ID] | ネットワークによって割り当てられた広告 ID。 |
 | [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] および [!DNL Microsoft Advertising]) 絶対的なトップの場所（オーガニック検索結果の最初の広告）で受け取ったインプレッション数を、トップの場所で受け取る資格のある推定インプレッション数で割った値です。 10%未満の割合は、「`<10%`&quot;または&quot;`0.0999`.&quot; |
@@ -173,15 +180,17 @@ ht-degree: 0%
 | [!UICONTROL Start Date] | 最初の日が報告されました。 |
 | [!UICONTROL State] | ( 地域配分レポート、 [!UICONTROL Keyword Report]) トランザクションの開始元の状態。 ユーザーの IP アドレスから判断されます。 |
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) トランザクションを完了したユーザーの ID。 |
-| [!UICONTROL Through Plays] | ([!DNL Meta] ads) 広告全体を視聴した視聴回数。 |
+| [!UICONTROL Thru Plays] | ([!DNL Meta] キャンペーンのみ ) 広告全体を視聴した表示数。 |
 | [!UICONTROL Top of Page CPC] | (Googleキャンペーンのみ ) 指定した日付範囲で検索結果ページの先頭に表示される広告のクリック単価 (CPC)。 |
 | [!UICONTROL Tracking URL] | （検索ターゲットキーワードのみ）（該当する場合）検索、ソーシャル、コマースのトラッキングコードに埋め込まれた、トラッキングテンプレートまたはリンク先 URL。 |
 | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) トランザクションのクレジットが付与される広告主固有のコンバージョン指標。 |
 | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) 指定したコンバージョン指標が計上された時刻。 |
+| [!UICONTROL Two Second Continuous Video Plays] | ([!DNL Meta] キャンペーンのみ ) ビデオが 2 秒間以上連続して再生された回数。 |
 | [!UICONTROL User Account Type] | 廃止 |
 | [!UICONTROL User SE Account ID] | Search、Social および Commerce が広告ネットワークに割り当てる数値 ID。 |
-| [!UICONTROL Video Average Play Time] | ([!DNL Meta] ads) 単一のインプレッションに対する、ビデオの再生に費やされた時間を含む、ビデオが再生された平均時間。 |
-| [!UICONTROL Video Plays] | ([!DNL Meta] ads) ビデオの再生が開始された回数（再生を除く）。 |
+| [!UICONTROL Video Average Play Time] | ([!DNL Meta] キャンペーンのみ ) 単一のインプレッションに対する、ビデオの再生に費やされた時間を含む、ビデオの平均再生時間。 |
+| [!UICONTROL Video Plays] | ([!DNL Meta] キャンペーンのみ ) ビデオの再生が開始された回数（再生を除く）。 |
+| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count]、および [!UICONTROLV100%のカウントで再生されたビデオ] | （ビデオ広告）再生回数の 25%、50%、75%または 100%が通過したビデオの数。 |
 | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate]、および [!UICONTROL VideoQuartile100Rate] | （ビデオ広告）再生回数の 25%、50%、75%または 100%であったビデオの割合。 |
 | [!UICONTROL View Rate] | （ビデオ広告）視聴回数またはアクション数を、広告（ビデオおよびサムネールのインプレッション）が表示された回数で割った値です。 |
 | [!UICONTROL Views] | （ビデオ広告）ユーザーが広告を視聴した、または関与した回数です。 |
