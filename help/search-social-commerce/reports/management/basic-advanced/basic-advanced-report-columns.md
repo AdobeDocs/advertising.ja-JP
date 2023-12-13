@@ -3,9 +3,9 @@ title: 基本レポートと高度なレポートのレポート列
 description: 基本レポートと高度なレポートで使用できるデータ列について説明します。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 2a4920bc8a9b45061fb0b3773e5a90954ce2dff5
+source-git-commit: 6b820606208b662eaa1f5c4d2e63bb08f1ac5885
 workflow-type: tm+mt
-source-wordcount: '3755'
+source-wordcount: '3749'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
 | [!UICONTROL User SE Account ID] | Search、Social および Commerce が広告ネットワークに割り当てる数値 ID。 |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] キャンペーンのみ ) 単一のインプレッションに対する、ビデオの再生に費やされた時間を含む、ビデオの平均再生時間。 |
 | [!UICONTROL Video Plays] | ([!DNL Meta] キャンペーンのみ ) ビデオの再生が開始された回数（再生を除く）。 |
-| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count]、および [!UICONTROLV100%のカウントで再生されたビデオ] | （ビデオ広告）再生回数の 25%、50%、75%または 100%が通過したビデオの数。 |
+| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count]、および [!UICONTROL Video Played at 100 Percent Count] | （ビデオ広告）再生回数の 25%、50%、75%または 100%が通過したビデオの数。 |
 | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate]、および [!UICONTROL VideoQuartile100Rate] | （ビデオ広告）再生回数の 25%、50%、75%または 100%であったビデオの割合。 |
 | [!UICONTROL View Rate] | （ビデオ広告）視聴回数またはアクション数を、広告（ビデオおよびサムネールのインプレッション）が表示された回数で割った値です。 |
 | [!UICONTROL Views] | （ビデオ広告）ユーザーが広告を視聴した、または関与した回数です。 |
