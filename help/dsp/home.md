@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: b01b1044e33743a7690c25a8294e35e5cd19ca07
+source-git-commit: ad0b60d3de4155330f7709701cf110cc760ec8ea
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1836'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 0%
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
 | 2023 年 12 月 6 日 | プランナー | （ベータ版機能）新しいプランナーツールを使用すると、指定した予算とターゲット条件に従って、接続された TV(CTV) プレースメントの世帯レベルのユニークリーチを予測できます。 複数のプランを評価した後、目的の結果に最適なパッケージおよび配置を実装できます。 | 参照：[DSP Planner ツールについて](/help/dsp/planner/planner-about.md).&quot; |
-| 2023 年 9 月 28 日 | 最適化 | 2 つの新しいリーチベースの最適化目標、 **[!UICONTROL Always Max Bid and Maximize Reach]** および **[!UICONTROL Lowest Cost per Reach]**&#x200B;では、それぞれ同じレベルのインプレッション数や支出を考慮して、できるだけ多くのユニークな世帯に到達できます。 両方の目標は、パッケージレベルと配置レベルの両方で使用できます。 | 参照：[最適化目標とその使用方法](/help/dsp/optimization/optimization-goals.md).&quot; |
+|  | 最適化 | すべてのユーザーが、2 つの新しいクリックベースの最適化目標を使用できます。 **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** および **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | 参照：[最適化目標とその使用方法](/help/dsp/optimization/optimization-goals.md)&quot;および&quot;[パフォーマンスキャンペーンの設定のベストプラクティス](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |
+| 2023 年 9 月 28 日 | 最適化 | 2 つの新しいリーチベースの最適化目標、 **[!UICONTROL Always Max Bid and Maximize Reach]** および **[!UICONTROL Lowest Cost per Reach]**&#x200B;では、それぞれ同じレベルのインプレッション数または支出を使用して、できるだけ多くのユニークな世帯に到達できます。 両方の目標は、パッケージレベルと配置レベルの両方で使用できます。 | 参照：[最適化目標とその使用方法](/help/dsp/optimization/optimization-goals.md).&quot; |
 | 2023 年 8 月 23 日 | [!UICONTROL Placements] | 新しいプレースメント予測ツールでは、特定のターゲティング戦略に対するインプレッション数、支出および最適な最大入札額の予測値が表示されます。 予測は、配置で使用できる在庫全体と、使用可能な個別ユーザーに基づいて計算されます。 | 参照：[配置予測レポートの表示](/help/dsp/campaign-management/reports/placement-forecast.md).&quot; |
 |  |  | キャンペーンのスプレッドシートファイルをダウンロードしたり、1 つ以上のプレースメントのためにファイルを編集し、新しい「[!UICONTROL Attached Ad ID]」列を編集して、編集したファイルをアップロードします。 配置に広告を追加するが、削除しない場合は、列を使用します。<br><br>広告名と関連する広告のリストをダウンロードするには [!UICONTROL Ad ID]s、に移動します。 [!UICONTROL Ads] を表示し、 [!UICONTROL ID] 指標を選択し、データをエクスポートします。 | 参照：[スプレッドシートでの配置設定のダウンロード](/help/dsp/campaign-management/qa/qa-sheet-download.md),&quot; &quot;[ダウンロード/アップロードされたスプレッドシートの配置設定列](/help/dsp/campaign-management/qa/qa-sheet-columns.md),&quot;および&quot;[スプレッドシートでの配置設定のアップロード](/help/dsp/campaign-management/qa/qa-sheet-upload.md).&quot;<br><br>関連項目：[Campaign Managementビューからのデータの書き出し](/help/dsp/campaign-management/reports/campaign-export-data.md).&quot; |
 |  | [!UICONTROL Custom Reports] | カスタムレポートに [!UICONTROL End Date]（4 ヶ月先まで） 既存のレポートの有効期限は 2023 年 9 月 24 日です。<br><br>レポートの有効期限が切れる前に、指定したすべての電子メール受信者に、有効期限の 7 日前と 1 日前に電子メールアラートが送信されます。 レポートの有効期限を長く保つには、レポート設定で有効期限を変更します。 | 参照：[カスタムレポートの編集](/help/dsp/reports/report-edit.md)&quot;および&quot;[カスタムレポート設定](/help/dsp/reports/report-settings.md).&quot; |
