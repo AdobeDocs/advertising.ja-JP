@@ -1,21 +1,15 @@
 ---
-title: Adobe TargetでのAdobe Advertising広告の A/B テストの設定
+title: Adobe TargetでのAdobe Advertising DSP広告の A/B テストの設定
 description: で A/B テストを設定する方法を説明します。 [!DNL Target] DSP広告用。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 48f755b6f3ac00a69086fe4c7ce69d320946635b
+source-git-commit: 7ffa5d3e9f1aae0f9d66d87c74807e491e818daa
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # Adobe TargetでDSP Ads 用に A/B テストを設定する
-
-<!-- In title and Heading1:  DSP and [!DNL Advertising Search, Social, & Commerce] Ads -->
-
-<!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
-
-<!-- Break into sub-files, or just leave as one? -->
 
 *Advertising DSPのみの広告主*
 
@@ -23,7 +17,7 @@ Adobe AdvertisingとAdobe Targetを使用すると、マーケターは、有料
 
 * 顧客の広告露出をDSPキャンペーンから自社のオンサイトエクスペリエンスにリンクすることで、サイトのフォールスルー率を低下させます。
 
-* Adobe Audience Managerの公開データを使用した広告メッセージでオンサイトエクスペリエンスをミラーリングし、Target のオーディエンスをクリックしてフィードすることで、A/B テストを確立します。
+* Adobe Audience Managerの公開データを使用した広告メッセージでオンサイトエクスペリエンスをミラーリングし、クリックしてフィードすることで、A/B テストを確立 [!DNL Target] オーディエンス。
 
 * Adobe Analyticsのシンプルなビジュアライゼーションを使用して、統合メッセージがオンサイトの目標上昇に与える影響を測定します。 [!DNL Target].
 
@@ -45,8 +39,6 @@ Adobe AdvertisingとAdobe Targetを使用すると、マーケターは、有料
 
 ## 手順 1：クリックスルーフレームワークの設定 {#click-through-framework}
 
-<!-- [If separate page, add "Adobe" before first-use of product names.] -->
-
 ![クリックスルーフレームワーク](/help/integrations/assets/target-ct-framework.png)
 
 クリックスルー URL にDSPマクロを追加する場合（ユーザーが広告をクリックしてランディングページに到達すると表示される URL）、DSPは配置キーを自動的に取り込みます ( `${TM_PLACEMENT_ID}` をクリックスルー URL に追加します。 このマクロは、数値配置 ID ではなく、英数字配置キーをキャプチャします。
@@ -66,8 +58,6 @@ FlashトーキングまたはGoogle Campaign Manager 360 内で、各広告の�
 Adobeアカウントチームと Advertising Solutions Group(aac-advertising-solutions-group@adobe.com) に連絡して、必要な配置キーを取得し、設定を完了し、各クリックスルー URL に配置キーが入力されていることを確認してください。
 
 ## 手順 2:Audience Managerを使用したビュースルーフレームワークの設定 {#view-through-framework}
-
-<!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
 ![ビュースルーフレームワーク](/help/integrations/assets/targetr-vt-framework.png)
 
@@ -99,55 +89,53 @@ Adobeアカウントチームと Advertising Solutions Group(aac-advertising-sol
 
       * テストアクティビティ内で簡単に識別できるように、特性に名前を付けます。 目的のフォルダーに特性を保存します。
 
-      * 選択 `Ad Cloud` として **データソース**.
+      * 選択 `Ad Cloud` として **[!UICONTROL Data Source]**.
 
-      * 特性の式には、 `d_event` として **キー** および `imp` として **値**.
+      * 特性の式には、 `d_event` として **[!UICONTROL Key]** および `imp` として **[!UICONTROL Value]**.
 
-   1. [テストセグメントの設定](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) Audience Managerの新しい特性の場合、「 `Ad Cloud` として **データソース**.
+   1. [テストセグメントの設定](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) Audience Managerの新しい特性の場合、「 `Ad Cloud` として **[!UICONTROL Data Source]**.
 
       Audience Managerは、セグメントを、標準のランディングページエクスペリエンスを受け取るコントロール母集団と、パーソナライズされたオンサイトエクスペリエンスを受け取るテストグループに自動的に分割します。
 
-## 手順 3:Target での「A/B テスト」アクティビティの設定
+## 手順 3：で A/B テストアクティビティを設定する [!DNL Target] (DSPの )
 
-<!-- [If separate page, add "Adobe" before first-use of product names.] -->
-
-以下の手順は、DSPの使用例に関する情報をハイライトします。 詳細な手順については、「」を参照してください。
+以下の手順は、DSPの使用例に関する情報をハイライトします。
 
 1. [Adobe Targetにログイン](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
 1. [A/B テストの作成](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
 
-   1. Adobe Analytics の **アクティビティ URL を入力** 「 」フィールドに、テストのランディングページ URL を入力します。
+   1. Adobe Analytics の **[!UICONTROL Enter Activity URL]** 「 」フィールドに、テストのランディングページ URL を入力します。
 
       >[!NOTE]
       >
       >複数の URL を使用して、ビュースルーサイトエントリをテストできます。 詳しくは、[複数ページアクティビティ](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; 上位のエントリをページ URL 別に簡単に識別するには、 [サイト入口レポート](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) Analytics で使用できます。
 
-   1. Adobe Analytics の **目標** 「 」フィールドに、テストの成功指標を入力します。
+   1. Adobe Analytics の **[!UICONTROL Goal]** 「 」フィールドに、テストの成功指標を入力します。
 
       >[!NOTE]
       >
       >次を確認します。 [!DNL Analytics] は、内のデータソースとして有効になります。 [!DNL Target]」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」、「 」) が正しいレポートスイートが選択されている。
 
-   1. を設定します。 **優先度** から `High` または `999` を使用して、テストセグメント内のユーザーが誤ったオンサイトエクスペリエンスを受け取った場合の競合を防ぎます。
+   1. を設定します。 **[!UICONTROL Priority]** から `High` または `999` を使用して、テストセグメント内のユーザーが誤ったオンサイトエクスペリエンスを受け取った場合の競合を防ぎます。
 
-   1. Within **レポート設定**&#x200B;を選択し、 **会社名** および **レポートスイート** DSPアカウントに接続しました。
+   1. Within **[!UICONTROL Reporting Settings]**&#x200B;を選択し、 **[!UICONTROL Company Name]** および **[!UICONTROL Report Suite]** DSPアカウントに接続しました。
 
       その他のレポートのヒントについては、[レポートのベストプラクティスとトラブルシューティング](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).&quot;
 
-   1. Adobe Analytics の **日付範囲** 「 」フィールドで、テストの適切な開始日と終了日を入力します。
+   1. Adobe Analytics の **[!UICONTROL Date Range]** 「 」フィールドで、テストの適切な開始日と終了日を入力します。
 
    1. オーディエンスをアクティビティに追加します。
 
       1. を選択します。 [以前にAudience Managerで作成したセグメントで、ビュースルーオーディエンスをテストします。](#view-through-framework).
 
-      1. 選択 **サイトのページ** > **ランディングページ** > **クエリ**&#x200B;をクリックし、DSPプレースメントキーを **値** フィールドを使用して、クリックスルーオーディエンスに Target クエリー文字列パラメーターを使用します。
+      1. 選択 **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**&#x200B;をクリックし、DSPプレースメントキーを **[!UICONTROL Value]** フィールドを使用して、クリックスルーオーディエンスに Target クエリー文字列パラメーターを使用します。
 
-   1. の **トラフィック配分方法**&#x200B;を選択します。 **手動（デフォルト）** オーディエンスを分割50/50た。
+   1. の **[!UICONTROL Traffic Allocation Method]**&#x200B;を選択します。 **[!UICONTROL Manual (Default)]** オーディエンスを分割50/50た。
 
    1. アクティビティを保存します。
 
-1. 用途 [!DNL Target] [Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) A/B テストのランディングページテンプレートをデザイン上で変更する場合。
+1. 用途 [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) A/B テストのランディングページテンプレートをデザイン上で変更する場合。
 
    * エクスペリエンス A：パーソナライゼーションがないデフォルト/コントロールのランディングページエクスペリエンスなので、編集しないでください。
 
@@ -171,31 +159,31 @@ Analysis Workspaceで、 [!DNL Analytics for Target panel] を分析するには
 
 #### 指標
 
-* テストを実行したAdobe Advertisingキャンペーン、パッケージまたは配置に固有のパネルをワークスペース内に作成します。 概要ビジュアライゼーションを使用して、Target のテストAdobe Advertisingと同じレポートにパフォーマンス指標を表示します。
+* テストを実行したAdobe Advertisingキャンペーン、パッケージまたは配置に固有のパネルをワークスペース内に作成します。 概要ビジュアライゼーションを使用して、Adobe Advertising指標を [!DNL Target] テストのパフォーマンス。
 
 * オンサイト指標（訪問回数、コンバージョン数など）を使用してパフォーマンスを測定することを優先します。
 
-* Adobe Advertising（インプレッション数、クリック数、コストなど）の集計メディア指標を Target 指標と一致させることはできないことを理解します。
+* Adobe Advertising（インプレッション数、クリック数、コストなど）の集計メディア指標を [!DNL Target] 指標。
 
 #### Dimension
 
 次のディメンションは、次に関係します。 [!DNL Analytics for Target]:
 
-* **Target アクティビティ**:A/B テストの名前
+* **[!UICONTROL Target Activities]**:A/B テストの名前
 
-* **Target エクスペリエンス**：アクティビティ内で使用されるランディングページエクスペリエンスの名前
+* **[!UICONTROL Target Experiences]**：アクティビティ内で使用されるランディングページエクスペリエンスの名前
 
-* **Target アクティビティ** > **エクスペリエンス**：同じ行のアクティビティ名とエクスペリエンス名
+* **[!UICONTROL Target Activity]** > **[!UICONTROL Experience]**：同じ行のアクティビティ名とエクスペリエンス名
 
 ### Analytics でのトラブルシューティング [!DNL Target] データ
 
 Analysis Workspace内で、アクティビティとエクスペリエンスのデータが最小限である、または入力されていないことに気付いた場合は、次の操作を行います。
 
-* Target と Analytics の両方で同じ Supplemental Data ID(SDID) が使用されていることを確認します。 SDID の値は、 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) をクリックします。
+* 同じ [!UICONTROL Supplemental Data ID] (SDID) は、 [!DNL Target] および [!DNL Analytics]. SDID の値は、 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) をクリックします。
 
 [Adobe Debuggerの追加データ ID(SDID) 値](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* 同じランディングページで、a) ソリューション/ Target の下のAdobe Debuggerに表示されるホスト名が b) に表示されるトラッキングサーバー ( [!DNL Target] アクティビティの（目標と設定/レポート設定の下）を選択します。
+* 同じランディングページで、「 [!UICONTROL Hostname] 下のAdobe Debuggerに示される [!UICONTROL Solutions] > [!UICONTROL Target] b) に一致 [!UICONTROL Tracking Server] 次に示す [!DNL Target] アクティビティ ( [!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]) をクリックします。
 
   [!DNL Analytics For Target] にはが必要です [!DNL Analytics] からの呼び出しで送信されるトラッキングサーバー [!DNL Target] から [!DNL Modstats] Analytics のデータ収集サーバー。<!-- just "to Analytics?"-->
 
@@ -205,14 +193,12 @@ Analysis Workspace内で、アクティビティとエクスペリエンスの�
 
 ## 参考情報
 
-* [Target と Analytics の統合](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html)- Analysis Workspaceで Target レポートを設定する方法を説明します。
+* [Target と Analytics の統合](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html)  — の設定方法を説明します。 [!DNL Target] Analysis Workspaceでのレポート
 * [A/B テストの概要](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - DSP広告で使用できる A/B テストアクティビティを表します。
 * [エクスペリエンスとオファー](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html)  — 説明 [!DNL Target] DSPのテストユーザーが公開されるオンサイトコンテンツを決定するためのツール。
 * [シグナル、特性、セグメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html) - DSPビュースルーテストに役立つAudience Managerツールの一部を定義します。
 * [広告用 Analytics の概要](/help/integrations/analytics/overview.md) - Analytics for Advertising を導入します。これにより、Analytics インスタンス内でのクリックスルーおよびビュースルーサイトでのインタラクションを追跡できます。
 
-<!-- 
 >[!MORELIKETHIS]
 >
->* 
--->
+>* [Adobe Targetで広告検索、ソーシャル、コマース広告用に A/B テストを設定する](ab-tests-search.md)
