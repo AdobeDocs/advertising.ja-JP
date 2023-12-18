@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: d8980d697c0a3a05af2ef2d5d947efe68c67e073
+source-git-commit: f6b23b79d2a7f8d743849efc9182198ef5b39b4a
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
-| 2023 年 12 月 11 日 | ヘルプ | 新しいドキュメントで、で A/B テストを設定する方法を説明しています。 [!DNL Target] 検索、ソーシャル、コマースの広告からのクリックスルートラフィックに加え、でテストを測定および視覚化する方法に関するヒント [!DNL Analytics]. | 参照：[検索、ソーシャル、コマース広告に対するAdobe Targetの A/B テストの設定](/help/integrations/target/ab-tests-search.md).&quot; |
+| 2023 年 12 月 16 日 | ヘルプ | 新しいドキュメントで、で A/B テストを設定する方法を説明しています。 [!DNL Target] 検索、ソーシャル、コマースの広告からのクリックスルートラフィックに加え、でテストを測定および視覚化する方法に関するヒント [!DNL Analytics]. | 参照：[検索、ソーシャル、コマース広告に対するAdobe Targetの A/B テストの設定](/help/integrations/target/ab-tests-search.md).&quot; |
 | 2023 年 8 月 8 日 | [!DNL Analytics for Advertising] | 一部 [!DNL Analytics] 成功イベント指標（標準、カスタム、予約済みのコンバージョン指標およびトラフィック指標を含む）は、DSPおよび Search、Social および Commerce で自動的に使用できます。 これで、既存の [!DNL Analytics] [!DNL eVars] および [!DNL props] 集めることで [!DNL eVar] — および [!DNL prop] — レベルのデータをカスタム成功イベントに変換します。 | 参照：[Adobe Analyticsでのコンバージョン指標の作成 [!DNL eVars] および [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot; |
 | 2023 年 7 月 14 日 | レポート | ( ユーザーを [!DNL Analytics for Advertising]) 接続された TV(CTV) 配置のビュースルー変換が、Adobe Analytics内で使用できるコンバージョンデータに含まれるようになりました。 | の「統合の使用方法の例」の節を参照してください。[の概要 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
 | 2022 年 11 月 1 日 | ヘルプ | 新しいドキュメントで、Advertising DSPとAdobe Targetの間でクリックスルーおよびビュースルーのシグナル共有を実装し、で A/B テストアクティビティを設定する方法を説明します。 [!DNL Target] DSP広告の設定と、テストデータを表示するAdobe Analytics Analysis Workspaceの設定方法について説明します。 | 参照：[Adobe TargetでDSP Ads 用に A/B テストを設定する](/help/integrations/target/ab-tests-dsp.md).&quot; |
