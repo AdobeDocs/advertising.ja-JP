@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: eb4db7c91d98cd14e9006f0647f964cdf054962f
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '949'
 ht-degree: 3%
 
 ---
@@ -150,7 +150,11 @@ ht-degree: 3%
       + [オーディエンスセグメントロジックの構文](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + ソース {#sources}
       + [オーディエンスソースからの認証済みセグメントのアクティブ化について](/help/dsp/audiences/sources/source-about.md)
-      + [永続 ID パートナーから認証済みセグメントをアクティブ化する](/help/dsp/audiences/sources/source-durable-id.md)
+      + 顧客データプラットフォーム別のワークフロー {#sources-workflows}
+         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
+            + [とのDSP統合を使用する際のワークフロー [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+            + [ユニバーサル ID パートナーからの認証済みセグメントのアクティブ化](/help/dsp/audiences/sources/source-universal-id.md)
+         + [とのDSP統合を使用する際のワークフロー [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
       + [オーディエンスソースを作成してファーストパーティオーディエンスをアクティブ化する](/help/dsp/audiences/sources/source-create.md)
       + [Audience Source 設定](/help/dsp/audiences/sources/source-settings.md)
    + [利用可能なサードパーティデータプロバイダー](/help/dsp/audiences/third-party-data-providers.md)

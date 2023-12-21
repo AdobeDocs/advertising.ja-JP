@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: e1ae2bb601bc00dad8c611a00cb6ba88c9c57dee
+source-git-commit: 6b2ed619b5f902207720b646693253244cd7b567
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1893'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023 年 12 月 21 日 | [!UICONTROL Audiences] | ファーストパーティデータを [!DNL Tealium] を使用したDSPでの顧客データプラットフォーム [!DNL Amazon Web Services]. セグメントに対してDSPの配置をターゲット設定するには、 [!DNL RampIDs]. 配置設定内で [!UICONTROL Audience Targeting]の場合、共有セグメントは [!UICONTROL First Party Segments] リスト。 | 参照：[オーディエンスソースからの認証済みセグメントのアクティブ化について](/help/dsp/audiences/sources/source-about.md)&quot;および&quot;[とのDSP統合を使用する際のワークフロー [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot; |
 | 2023 年 12 月 6 日 | プランナー | （ベータ版機能）新しいプランナーツールを使用すると、指定した予算とターゲット条件に従って、接続された TV(CTV) プレースメントの世帯レベルのユニークリーチを予測できます。 複数のプランを評価した後、目的の結果に最適なパッケージおよび配置を実装できます。 | 参照：[DSP Planner ツールについて](/help/dsp/planner/planner-about.md).&quot; |
 |  | 最適化 | すべてのユーザーが、2 つの新しいクリックベースの最適化目標を使用できます。 **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** および **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | 参照：[最適化目標とその使用方法](/help/dsp/optimization/optimization-goals.md)&quot;および&quot;[パフォーマンスキャンペーンの設定のベストプラクティス](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |
 | 2023 年 9 月 28 日 | 最適化 | 2 つの新しいリーチベースの最適化目標、 **[!UICONTROL Always Max Bid and Maximize Reach]** および **[!UICONTROL Lowest Cost per Reach]**&#x200B;では、それぞれ同じレベルのインプレッション数または支出を使用して、できるだけ多くのユニークな世帯に到達できます。 両方の目標は、パッケージレベルと配置レベルの両方で使用できます。 | 参照：[最適化目標とその使用方法](/help/dsp/optimization/optimization-goals.md).&quot; |

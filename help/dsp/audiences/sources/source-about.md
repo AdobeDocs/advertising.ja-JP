@@ -3,43 +3,45 @@ title: オーディエンスソースからの認証済みセグメントのア�
 description: 顧客データプラットフォームからファーストパーティセグメントを取り込む方法について説明します。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 68095fc77659826fae43f2453d17022ef1880807
+source-git-commit: e3e8753db31bc835c49eb2037fdcd7696a895a8c
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
 
 # オーディエンスソースからの認証済みセグメントのアクティブ化について
 
-<!-- Doesn't specifically explain what you can do in our UI -->
+DSPは、顧客データプラットフォーム (CDP) 内で構築された、ハッシュ化された電子メール ID またはユニバーサル ID で構成されるファーストパーティセグメントを取り込むことができます。 取り込んだセグメントを配置のターゲットとして使用できます。
 
-DSPは、顧客データプラットフォーム (CDP) 内で作成された認証済みのシグナルで構成されるファーストパーティセグメントを取り込むことができます。 取り込んだセグメントを配置のターゲットとして使用できます。
+次の CDP はコネクタを確立しましたが、DSPは、バッチ、ストリーミング、API ベースのデータ共有を使用して、任意の CDP に接続することもできます。 新しい CDP と統合するには、担当のAdobeアカウントチームにお問い合わせください。
 
-## [!DNL Adobe Real-Time Customer Data Profile]
+## [!DNL Adobe Real-Time Customer Data Platform]
 
-DSPは [の [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)(Adobe Experience Platformの一部 )
+DSPが [の [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)(Adobe Experience Platformの一部 )
 
-In [!DNL Real-time CDP], *宛先* は、シームレスなデータアクティベーションを可能にする、外部データプラットフォームへの接続です。 例えば、宛先を使用して、DSPでサポートされる複数のデジタル形式にわたるターゲット化した広告に関する既知の顧客関係（ハッシュ化された電子メールアドレスなど）をアクティブ化できます。
+In [!DNL Real-Time CDP], *宛先* は、シームレスなデータアクティベーションを可能にする、外部データプラットフォームへの接続です。 例えば、宛先を使用して、DSPでサポートされる複数のデジタル形式にわたるターゲット化した広告に関する既知の顧客関係（ハッシュ化された電子メールアドレスなど）をアクティブ化できます。 宛先について詳しくは、「Experience Platform [宛先ガイド](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)（製品の概要、手順を含む） [宛先ワークスペースの作成](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) および [宛先接続の作成](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)、および [宛先へのデータのアクティブ化](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
-宛先について詳しくは、「Experience Platform [宛先ガイド](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)（製品の概要、手順を含む） [宛先ワークスペースの作成](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) および [宛先接続の作成](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)、および [宛先へのデータのアクティブ化](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
+参照：[とのDSP統合を使用する際のワークフロー [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
 
-### とのDSP統合を使用する際のワークフロー [!DNL Real-time CDP] {#workflow-sources}
+## [!DNL ActionIQ]
 
-1. [DSPによる顧客データセグメントの変換を許可 [!DNL LiveRamp RampIDs]](source-durable-id.md) 入札可能な環境で認識可能な<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your Adobe Account Team will perform this configuration. -->
+組織のファーストパーティデータを [!DNL Action IQ] DSPを使用した顧客データプラットフォーム その後、次のコードを使用して、DSPの配置をセグメントにターゲット設定できます。 [!DNL RampIDs] または [!DNL Unified IDs 2.0].
 
-1. [オーディエンスソースの作成](source-create.md) オーディエンスをDSPアカウントまたは広告主アカウントにインポートする場合。
+この統合には、カスタマイズが必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
 
-1. [の設定 [!DNL Real-Time CDP] Experience Platformの宛先接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
+## [!DNL Tealium]
 
-その他のサポートについては、Adobeアカウントチームにお問い合わせください。 `adcloud-support@adobe.com`.
+組織のファーストパーティデータを [!DNL Tealium] を使用した顧客データプラットフォーム [!DNL Amazon Web Services]. その後、次のコードを使用して、DSPの配置をセグメントにターゲット設定できます。 [!DNL RampIDs]. 参照：[とのDSP統合を使用する際のワークフロー [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot;
 
 >[!MORELIKETHIS]
 >
->* [永続 ID パートナーから認証済みセグメントをアクティブ化](source-durable-id.md)
+>* [とのDSP統合を使用する際のワークフロー [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [とのDSP統合を使用する際のワークフロー [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
 >* [オーディエンスソースを作成してファーストパーティオーディエンスをアクティブ化する](source-create.md)
 >* [Audience Source 設定](source-settings.md)
->* [AdobeAdvertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Adobe Experience Platform [宛先カタログの概要](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [Audience Management について](/help/dsp/audiences/audience-about.md)
 
+<!--
+>* [Workflow for Using the DSP Integration with [!DNL ActionIQ]](/help/dsp/audiences/sources/source-actioniq.md)
+-->
