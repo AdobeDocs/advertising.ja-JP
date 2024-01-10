@@ -3,7 +3,7 @@ title: 配置の広告スケジュールの編集
 description: 配置に関連付けられた広告の広告スケジュールを変更する方法を説明します。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 042cd16591869668339a27fa36de57aa1825dd51
+source-git-commit: a001d7fbde6ef1346383925db9179d824eb7bb78
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -32,13 +32,13 @@ ht-degree: 0%
 
 1. ダウンロードしたファイルを開き、フライトに含める各広告行のフライト情報フィールドを編集し、更新したファイルを保存します。
 
-   **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** ( 例： [!UICONTROL Flight 1 Start Date] および [!UICONTROL Flight 1 End Date])：フライトの最初と最後の日付。 各日付には YYYY-MM-DD 形式を使用します。 フライト日フィールドが空の広告は、参加していない広告として扱われます。
+   * **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** ( 例： [!UICONTROL Flight 1 Start Date] および [!UICONTROL Flight 1 End Date])：フライトの最初と最後の日付。 各日付には YYYY-MM-DD 形式を使用します。 フライト日フィールドが空の広告は、参加していない広告として扱われます。
 
-   **[!UICONTROL Flight N Weight]** ( 例： [!UICONTROL Flight 1 Weight])：フライト用に広告を回転する方法。 値を入力：
+   * **[!UICONTROL Flight N Weight]** ( 例： [!UICONTROL Flight 1 Weight])：フライト用に広告を回転する方法。 値を入力：
 
-   * フライトの広告を均等に回転させるには、&quot;**[!UICONTROL Even]**&quot;.
+      * フライトの広告を均等に回転させるには、 `[!UICONTROL Even]`.
 
-   * フライトの広告を不均等に回転させるには、各広告を回転させる相対的な重みをパーセンテージで入力します。 フライトの重みの合計は 100 にする必要があります。
+      * フライトの広告を不均等に回転させるには、各広告を回転させる相対的な重みをパーセンテージで入力します。 フライトの重みの合計は 100 にする必要があります。
 
 1. 編集した広告スケジュールテンプレートをアップロードします。
 
