@@ -3,9 +3,9 @@ title: 配置の広告スケジュールの編集
 description: 配置に関連付けられた広告の広告スケジュールを変更する方法を説明します。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: a001d7fbde6ef1346383925db9179d824eb7bb78
+source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
       * フライトの広告を均等に回転させるには、 `[!UICONTROL Even]`.
 
-      * フライトの広告を不均等に回転させるには、各広告を回転させる相対的な重みをパーセンテージで入力します。 フライトの重みの合計は 100 にする必要があります。
+      * フライトの広告を不均等に回転させるには、各広告を回転させる相対的な重みをパーセンテージ ( `40` (40%)。 フライトの重みの合計は 100 にする必要があります。
 
 1. 編集した広告スケジュールテンプレートをアップロードします。
 
