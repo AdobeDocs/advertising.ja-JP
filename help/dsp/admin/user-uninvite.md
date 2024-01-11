@@ -3,18 +3,16 @@ title: 保留中のユーザーの招待解除
 description: 保留中のユーザーの招待を取り消す方法を説明します。
 role: Admin
 exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
-source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
+source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
 # 保留中のユーザーの招待解除
 
-*管理者ユーザーのみ*
-
-保留中の招待状を持つユーザーの招待を解除できます。 ユーザーを招待解除すると、指定した電子メールアドレスに送信された招待リンクのトークンが無効になります。
+管理者ユーザーは、保留中の招待状を持つユーザーの招待を取り消すことができます。 ユーザーを招待解除すると、指定した電子メールアドレスに送信された招待リンクのトークンが無効になります。
 
 1. 次のいずれかの操作を行います。
 
