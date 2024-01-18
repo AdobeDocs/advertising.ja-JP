@@ -1,11 +1,11 @@
 ---
 title: ユーザーインターフェイスの編成方法
 description: 様々な機能にアクセスする場所を説明します。
-exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
+exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: de3c12275d5a6f05e52a8c080c26d93e837d9f71
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 各ページの上部には、メインメニューと、その他のタスクおよび情報ベースのメニューが含まれます。
 
 ## メインメニュー
-
-トップレベルのメインメニューオプションは、利用可能な広告チャネルに基づいています。 自分に適用される広告チャネルのみが表示されます。
-
-* **[!UICONTROL DSP]** — (Adobe Advertising DSP(Demand Side Platform) にアクセスできる場合 ) ディスプレイと接続された TV 広告を管理します。 別の [DSPガイド](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) が使用可能です。
-
-* **[!UICONTROL Creative]** — (Adobe Advertising Creativeにアクセスできる場合 ) リアルタイムのパーソナライズされた広告エクスペリエンスを自動化し、クリエイティブエレメントレベルで広告を最適化します。 Creative 内からは別のヘルプを参照できます。
 
 * **[!UICONTROL Search]**  — 検索、ソーシャル、コマースで追跡しているが、入札していない広告ネットワークアカウントを含む、検索、ソーシャル、コマース内の広告ネットワークアカウントを管理します。
 
