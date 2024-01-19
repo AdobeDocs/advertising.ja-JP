@@ -1,18 +1,18 @@
 ---
 title: 除外キーワードの作成
 description: 検索キャンペーンおよび広告グループの除外キーワードを作成する方法を説明します。
-exl-id: 683e5395-cb65-4d7f-a981-7fc9f84d4192
+exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
 
 # 除外キーワードの作成
 
-*[!DNL Baidu], [!DNL Google Ads] および [!DNL Microsoft® Advertising]、および [!DNL Yahoo! Japan Ads] アカウントのみ*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads]、および既存 [!DNL Baidu] アカウントのみ*
 
 検索またはディスプレイ/ネイティブネットワークをターゲットにした検索広告グループまたはキャンペーンに対して、除外キーワードを作成できます。 除外キーワードは広告をトリガーしません。
 

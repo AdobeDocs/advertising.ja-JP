@@ -1,7 +1,8 @@
 ---
 title: Adobe TargetのAdobe Advertising検索、ソーシャル、コマース広告に対する A/B テストの設定
-description: A/B テストを [!DNL Target] の [!DNL Google Ads] および [!DNL Microsoft® Advertising] 広告が検索、ソーシャル、コマースに表示されます。」
-source-git-commit: 3e8290d85aba379ece4b6d488c01e4ddda2b554e
+description: で A/B テストを設定する方法を説明します。 [!DNL Target] の [!DNL Google Ads] および [!DNL Microsoft® Advertising] 広告が検索、ソーシャル、コマースに表示されます。
+exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
+source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%

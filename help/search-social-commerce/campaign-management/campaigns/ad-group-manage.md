@@ -1,18 +1,18 @@
 ---
 title: 広告グループの管理
 description: 広告グループを作成および管理する方法について説明します。
-exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # 広告グループの管理
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]、および [!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]、および既存 [!DNL Baidu] アカウントのみ*
 
 広告グループには、一連の広告とその関連キーワードが含まれます。 ディスプレイネットワークをターゲットにするキャンペーンの広告グループには、プレースメント（ディスプレイネットワーク上で広告を表示できる場所）を含めることもできます。 広告グループ設定は、広告グループのすべてのコンポーネントに適用され、広告ネットワークによって異なります。
 

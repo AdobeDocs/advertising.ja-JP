@@ -1,9 +1,9 @@
 ---
 title: キーワードについて
 description: 入札可能なキーワードと除外キーワードのオプションについて説明します。
-exl-id: f9216251-e0ab-43c1-81da-30503ee9f54e
+exl-id: d94c6f3f-0ea3-4792-8a6d-78f3a2af80e8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # キーワードについて
 
-*[!DNL Baidu], [!DNL Google Ads] および [!DNL Microsoft® Advertising]、および [!DNL Yahoo! Japan Ads]、および [!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads]および [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]、および既存 [!DNL Baidu] アカウントのみ*
 
 キーワードは、広告に関連付けられた単語またはフレーズです。 キーワード設定には、キーワードの一致タイプ、広告がキーワードによってトリガーされたときに使用される最大入札額、および（一部の広告ネットワーク）オプションのトラッキングパラメーターが含まれます。 キーワードレベルの設定は、広告グループまたはキャンペーンの設定よりも優先されます。
 

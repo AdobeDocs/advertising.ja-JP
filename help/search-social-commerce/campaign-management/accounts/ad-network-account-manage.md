@@ -1,11 +1,11 @@
 ---
 title: 広告ネットワークアカウントの管理
 description: 広告ネットワークアカウントのアカウントの詳細を設定および管理する方法について説明します。
-exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
+exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,18 @@ ht-degree: 0%
 
 広告ネットワークアカウントの詳細を作成および編集し、 [!DNL oAuth] アカウントのトークン、およびアカウントの無効化。
 
+各広告ネットワークで使用できる機能について詳しくは、[サポートされている在庫](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+
 ## 広告ネットワークアカウントの詳細の作成 {#create-account}
 
 *エージェンシーアカウントマネージャー、Adobeアカウントマネージャー、管理者ユーザーの役割のみ*
 
-アカウントの同期または追跡を有効にするには、アカウントアクセス資格情報とトラッキングオプション、およびステータスを含む対応するアカウントレコードを作成する必要があります *アクティブ*. 各広告ネットワークで使用できる機能について詳しくは、[サポートされている在庫](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+アカウントの同期または追跡を有効にするには、アカウントアクセス資格情報とトラッキングオプション、およびステータスを含む対応するアカウントレコードを作成する必要があります *アクティブ*.
 
 >[!NOTE]
 >
->広告ネットワーク上に実際のアカウントを作成するには、広告ネットワークの Web サイトにアクセスします。
+>* 新しいサポートは利用できません [!DNL Baidu] アカウント。
+>* 広告ネットワーク上に実際のアカウントを作成するには、広告ネットワークの Web サイトにアクセスします。
 
 1. メインメニューで、 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -156,11 +159,11 @@ ht-degree: 0%
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** ( 以下を除くすべての広告ネットワーク [!DNL Naver]) アカウントへの API アクセスを有効にするためのログイン名または ID。
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth] — 有効および以外のすべてのネットワーク [!DNL Baidu], [!DNL Meta]、および [!DNL Yandex]) を使用してログインを許可するアカウントのトークン ( [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth] — 有効および以外のすべてのネットワーク [!DNL Meta] および [!DNL Yandex]) を使用してログインを許可するアカウントのトークン ( [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** ( 以下を除くすべての広告ネットワーク [!DNL Naver]) アカウントのパスワードです。 パスワードが有効なアカウントの場合： [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]、および [!DNL Yandex]の場合、このフィールドは必須です。 の場合 [!DNL oAuth]有効なアカウントの場合、このフィールドはオプションです。アカウントマネージャーがトークンを必要に応じて更新できるように、パスワードを暗号化して保存する場合に使用します。
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** ( 以下を除くすべての広告ネットワーク [!DNL Naver]) アカウントのパスワードです。 パスワードが有効なアカウントの場合： [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]、および [!DNL Yandex]の場合、このフィールドは必須です。 の場合 [!DNL oAuth]有効なアカウントの場合、このフィールドはオプションです。アカウントマネージャーがトークンを必要に応じて更新できるように、パスワードを暗号化して保存する場合に使用します。
 
-**[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Baidu] および [!DNL Yandex] アカウントのみ ) 使用する開発者アカウントのアクセスキー。
+**[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Yandex] アカウントのみ ) 使用する開発者アカウントのアクセスキー。
 
 **[!UICONTROL Currency]:** アカウントに使用する通貨の略称です。 このフィールドは新規用に編集可能です [!DNL Naver] アカウント。 その他すべての検索ネットワークでは、レコードを保存すると、広告ネットワーク上のアカウントに設定されている通貨が値に自動的に入力されます。
 

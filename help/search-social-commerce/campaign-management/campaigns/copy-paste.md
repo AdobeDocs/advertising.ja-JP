@@ -1,18 +1,18 @@
 ---
 title: コピー&ペーストを使用して、キャンペーンデータを一括で作成および編集する
 description: コピー&ペースト機能を使用して、キャンペーンデータを一括管理する方法を説明します。
-exl-id: 09454f19-221b-43bb-ac74-f2c121329422
+exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
 
 # コピー&amp;ペーストを使用して、キャンペーンデータを一括で作成および編集する
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]、および [!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]、および既存 [!DNL Baidu] アカウントのみ*
 
 *[!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] ビュー*
 

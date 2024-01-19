@@ -1,18 +1,18 @@
 ---
 title: キャンペーンの管理
 description: 広告キャンペーンの作成および管理方法について説明します。
-exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
+exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 8521d686c9bd499dbe89b5acf27595c381041b44
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
 # キャンペーンの管理
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]、および [!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]、および既存 [!DNL Baidu] アカウントのみ*
 
 キャンペーンは、広告ネットワークアカウントの主要なコンポーネントです。 ほとんどのキャンペーンタイプでは、一連の広告グループまたは広告セットで構成されます。 キャンペーン設定には、キャンペーン予算パラメーター、広告ターゲット、キャンペーン内のすべての広告のオプションのトラッキングパラメーターが含まれます。 キャンペーンレベルのトラッキングパラメーターは、アカウントレベルのパラメーターより優先されますが、それ自体は低いレベルで上書きされる場合があります。
 

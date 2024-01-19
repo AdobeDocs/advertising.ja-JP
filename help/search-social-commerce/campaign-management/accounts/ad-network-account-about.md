@@ -1,11 +1,11 @@
 ---
 title: 広告ネットワークアカウントについて
 description: 検索、ソーシャル、コマースの広告ネットワークアカウントについて説明します。
-exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
+exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## API を介して同期されたアカウント
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising] ( 以前の [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads]、および [!DNL Yandex] アカウント*
+*[!DNL Google Ads], [!DNL Microsoft Advertising] ( 以前の [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex]、および既存 [!DNL Baidu] アカウント*
 
 検索、Social、およびコマースの同期 (*syncs*) をサポートする広告ネットワークアカウントと共に使用し、広告のパフォーマンスを追跡、レポートおよび視覚化できます。 を除くすべての広告ネットワークに対して [!DNL Yahoo! Display Network]を使用すると、検索、ソーシャル、コマースでアカウントのキャンペーンを任意で管理できます。 [!DNL Yahoo! Display Network]、キャンペーンは読み取り専用です。 すべての広告ネットワークについて、ポートフォリオに追加することで、管理されているアカウント内の広告に対する入札を最適化できます。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 *[!DNL Naver]アカウント*
 
-キャンペーントラッキングでは、広告ネットワークから直接購入した広告のパフォーマンスをトラッキング、レポートおよび視覚化できます。 検索、ソーシャル、コマースでは、広告ネットワークとデータを同期したり、アカウントの入札を配置したり、最適化やシミュレーションの種類を提供したりすることはできません。
+キャンペーントラッキングでは、広告ネットワークから直接購入した広告のパフォーマンスをトラッキング、レポートおよび視覚化できます。 検索、ソーシャル、コマースでは、広告ネットワークとデータを同期したり、アカウントの入札を配置したり、最適化やシミュレーションの種類を提供したりすることはありません。
 
 検索、ソーシャル、コマースでコンバージョンをクリック数に関連付けるには、アカウントレコードでトラッキングオプションを設定し、アカウントレコードを有効にします。 その後、一括送信シートを使用して、広告およびキーワードの追跡 URL を生成し、 [!DNL Naver] 広告マネージャー。
 

@@ -1,20 +1,20 @@
 ---
 title: 広告ネットワークデータを手動で同期する
 description: サポートされているトリガーネットワーク用に、キャンペーン構造とキャンペーンエンティティの同期を手動でサポートする方法を説明します。
-exl-id: da437f37-800a-4c56-b5c1-7c985ddd45c8
+exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # 広告ネットワークデータを手動で同期する
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising] ( 以前の [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads]、および [!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising] ( 以前の [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], [!DNL Yandex]、および既存 [!DNL Baidu] アカウントのみ*
 
-同期とは、Search、Social、および Commerce が、次の場所にある各広告主の広告ネットワークアカウントに関する更新された情報を収集するプロセスです。 [サポートされる広告ネットワーク](/help/search-social-commerce/introduction/supported-inventory.md). このデータには、広告主のキャンペーン構造とキャンペーンエンティティが含まれ、Search、Social、&amp;Commerce で管理またはレポートされるほとんどの属性も含まれます。 クリックデータや、検索、ソーシャル、コマースの外部で入力された入札修飾子や入札修飾子は含まれず、これらは個別に収集されます。
+同期とは、Search、Social、および Commerce が、次の場所で、各広告主の接続された広告ネットワークアカウントに関する更新された情報を収集するプロセスです。 [サポートされる広告ネットワーク](/help/search-social-commerce/introduction/supported-inventory.md). このデータには、広告主のキャンペーン構造とキャンペーンエンティティが含まれ、Search、Social、&amp;Commerce で管理またはレポートされるほとんどの属性も含まれます。 クリックデータや、検索、ソーシャル、コマースの外部で入力された入札修飾子や入札修飾子は含まれず、これらは個別に収集されます。
 
 Social および Commerce は、1 日 1 回、および広告ネットワークの 1 つで新しいキャンペーンを検出するたびに、広告ネットワークアカウントと自動的に同期（同期）します。 さらに、検索、ソーシャル、コマース内でおこなわれたキャンペーンデータに対するすべての変更が、直ちに広告ネットワークに送信されます。
 

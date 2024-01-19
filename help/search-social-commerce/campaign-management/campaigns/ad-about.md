@@ -1,18 +1,18 @@
 ---
 title: 広告の管理
 description: 利用可能な広告タイプを含む、検索、ソーシャル、コマースの広告について説明します。
-exl-id: 92ae631a-c35a-40ec-9d40-ebce13e3311b
+exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
 
 # 広告について
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads]、および [!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]、および既存 [!DNL Baidu] アカウントのみ*
 
 広告は、ターゲット Web サイト（コンテンツ、プレースメントターゲット、キャンペーン）に表示できます。ユーザーが広告グループ内のキーワードの 1 つを検索すると（検索キャンペーン用）、Web サイト上のコンテンツ ( 動的検索広告 [!DNL Google Ads] 検索のみのキャンペーン )、またはユーザーが [!DNL Google Merchant Center] または [!DNL Microsoft® Merchant Center] 製品フィード ( [!DNL Google Ads] または製品広告 [!DNL Microsoft® Advertising] キャンペーン )。
 

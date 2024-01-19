@@ -1,11 +1,11 @@
 ---
 title: 用語集
 description: 主な用語の定義を参照してください。
-exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## C-D {#c-d}
 
-**キャンペーン：** 予算、期間、ターゲティングおよびその他の設定を共有する、単一の広告アカウント内の広告グループのセット。 **注意：** [!DNL Baidu] はキャンペーンの概念を持ちませんが、Search、Social、および Commerce は、 [!DNL Baidu] Search、Social、および Commerce 内で同期される
+**キャンペーン：** 予算、期間、ターゲティングおよびその他の設定を共有する、単一の広告アカウント内の広告グループのセット。 **注意：** [!DNL Baidu] はキャンペーンの概念を持ちませんが、Search、Social、および Commerce は、既存の [!DNL Baidu] Search、Social、および Commerce 内で同期されたアカウント。
 
 **大文字と小文字を区別するフィールド：** 大文字と小文字を区別するフィールドまたはクエリでは、大文字（C など）と小文字（c など）の扱い方が異なります。 例えば、Car は car とは異なる値として扱われます。
 

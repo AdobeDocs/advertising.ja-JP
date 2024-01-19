@@ -1,8 +1,9 @@
 ---
-title: DSP統合を次と共に使用するためのワークフロー [!DNL Adobe] [!DNL Real-time CDP]"
-description: 「DSPが [!DNL Adobe] [!DNL Real-time CDP] ファーストパーティセグメント」と呼ばれます。
+title: とのDSP統合を使用する際のワークフロー [!DNL Adobe] [!DNL Real-time CDP]
+description: DSPが [!DNL Adobe] [!DNL Real-time CDP] ファーストパーティセグメント。
 feature: DSP Audiences
-source-git-commit: fb42e4aacaf0ea22890e0b4a46719725c99fffdc
+exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
+source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
