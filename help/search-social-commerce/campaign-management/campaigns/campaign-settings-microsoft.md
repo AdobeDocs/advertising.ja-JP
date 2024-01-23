@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] キャンペーン設定'
 description: 次の設定を参照してください： [!DNL Microsoft® Advertising] キャンペーン。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
+source-git-commit: 0b68db50d7f4c40eb2742c3906b79c5347c05f66
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Maximize Conversion Value]:* （検索/ショッピング/スマートショッピングネットワーク、パフォーマンス最大キャンペーン）検索、ソーシャル、コマースではなく、広告ネットワークは入札を最適化して、コンバージョン値を最大化します。 必要に応じて、 **[!UICONTROL Target Return on Ad Spend]** (ROAS) を割合で示します。 **注意：** このオプションは、ハイブリッドポートフォリオのキャンペーンで使用しますが、標準のポートフォリオでは使用しません。
 
-* *[!UICONTROL Maximize Conversions]:* ( 検索ネットワーク上のキャンペーン <!-- future: and audience network -->、パフォーマンス最大キャンペーン ) 広告ネットワーク（検索、ソーシャル、コマースではなく）は、入札を最適化してコンバージョンを最大化します。 必要に応じて、 **[!UICONTROL Target CPC]** （クリックあたりのコスト）<!-- future: ; for audience campaigns, you can also enter an optional [!UICONTROL Target CPA] (cost per acquisition) -->. **注意：** このオプションは、ハイブリッドポートフォリオのキャンペーンで使用しますが、標準のポートフォリオでは使用しません。
+* *[!UICONTROL Maximize Conversions]:* ( 検索ネットワークまたはオーディエンスネットワーク上での（オーディエンスビデオや接続された TV ではなく）パフォーマンスの最大キャンペーンおよびキャンペーン ) 広告ネットワークは、Search、Social、&amp;Commerce ではなく、入札を最適化してコンバージョンを最大化します。 必要に応じて、 **[!UICONTROL Target CPC]** （クリックあたりのコスト）。 オーディエンスキャンペーンの場合は、オプションの **[!UICONTROL Target CPA]** （獲得あたりのコスト）。 **注意：** このオプションは、ハイブリッドポートフォリオのキャンペーンで使用しますが、標準のポートフォリオでは使用しません。
 
 * *[!UICONTROL Target CPA]:* （検索ネットワーク上のキャンペーン）検索、ソーシャル、コマースではなく、広告ネットワークは、オプションのに基づいて入札を最適化します **[!UICONTROL Target CPA]** （獲得あたりのコスト）：獲得（コンバージョン）に対して支払う 30 日間の平均金額。 **注意：** このオプションは、支出戦略を除くハイブリッドポートフォリオのキャンペーン（標準のポートフォリオではない）に使用します。 [!UICONTROL Weekly] または [!UICONTROL Google Target CPA].
 
