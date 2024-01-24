@@ -3,9 +3,9 @@ title: 配置の編集
 description: プレースメントの編集方法を説明します。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,6 @@ ht-degree: 0%
    1. を選択します。 **[!UICONTROL Edit Mode]**.
 
       オプションは設定によって異なりますが、次のものが含まれる場合があります。
-
-      * **追加** （広告を付加するには）
 
       * **追加** （既存の値を保持し、新しい値を追加する場合）
 

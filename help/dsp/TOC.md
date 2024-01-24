@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: eb4db7c91d98cd14e9006f0647f964cdf054962f
+source-git-commit: 4e620124d066e048ffffd8025cb98058f46ff42a
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '945'
 ht-degree: 3%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 3%
       + [配置の編集](/help/dsp/campaign-management/placements/placement-edit.md)
       + [キー配置設定をすばやく編集](/help/dsp/campaign-management/placements/placement-quick-edit.md)
       + [配置の複製](/help/dsp/campaign-management/placements/placement-duplicate.md)
-      + [プレースメントへの広告の添付](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [配置への広告の付加](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
       + [配置の広告スケジュールの編集](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [配置の詳細レポートの表示](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [配置の変更ログの表示](/help/dsp/campaign-management/placements/placement-change-log.md)
@@ -78,7 +78,7 @@ ht-degree: 3%
       + [での広告の作成 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
       + [広告の複製](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [プレースメントへの広告の添付](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [配置への広告の付加](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [広告に関連付けられた配置のリスト](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [広告に関する詳細レポートの表示](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [広告の一時停止またはアクティブ化](/help/dsp/campaign-management/ads/ad-pause-activate.md)

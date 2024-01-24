@@ -1,132 +1,80 @@
 ---
-title: プレースメントへの広告の添付
-description: プレースメントに広告を添付する方法を説明します。
+title: 配置への広告の付加
+description: 配置に広告を付加する方法を説明します。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 796af195bf935fa6ad9d83d9aa17931b9a640855
+source-git-commit: 2690117dd4edb66a1bdbdca307bc4f91b0efc059
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
-# プレースメントへの広告の添付
+# 配置への広告の付加
 
 >[!NOTE]
 >
 >ユニバーサルビデオ広告は、ユニバーサルビデオ配置にのみ添付できます。
 
-## から新しい広告を添付する [!UICONTROL Ads] 表示
+## 配置への広告の付加 {#attach-ads-campaign}
 
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 
 1. キャンペーンの名前をクリックします。
 
-1. サブメニューで、 **[!UICONTROL Ads]**.
+1. を開きます。 [!UICONTROL Ad Tools] 次のいずれかの方法で表示します。
 
-1. 広告名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+   * ( [!UICONTROL Packages] , [!UICONTROL Placements]または [!UICONTROL Ads] 表示 ) 右上で、 **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-1. 広告を配置画面で、次のいずれかの操作をおこないます。
+   * ( [!UICONTROL Placements] ビュー ) 配置名の横にある、  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * 広告の新しいプレースメントを作成するには：
+   * ( [!UICONTROL Ads] ビュー ) 広告名の横にある、  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
-      1. クリック **[!UICONTROL Create New Placement]**.
+1. Adobe Analytics の [!UICONTROL Edit] サブビューで、配置に関連付ける広告の各グループに対して、以下の操作を実行します。
 
-      1. 次を入力します。 [配置設定](/help/dsp/campaign-management/placements/placement-settings.md)をクリックし、 **[!UICONTROL Create Placement]**.
+   1. （オプション）次のいずれかの方法で、特定の配置と広告を見つけます。
 
-   * 広告を 1 つ以上の既存のプレースメントに追加するには：
+      * テーブルの上にある「 ![フィルター](/help/dsp/assets/filter.png) 配置タイプ、配置ステータス、広告タイプまたは広告ステータス別にリストをフィルターします。
 
-      1. クリック **[!UICONTROL Select a Placement].**
+      * 左右のテーブルで、配置と広告名の特定のテキスト文字列を検索します。
 
-      1. 次のいずれかの操作を行います。
+   1. 左側の表で、広告を関連付ける各配置の横にあるチェックボックスを選択します。
 
-         * 一度に 1 つの広告を追加するには：
+   1. 右側の表で、選択した配置にアタッチする各広告の横にあるチェックボックスを選択します。
 
-            1. 広告名の横にある **[!UICONTROL Select].**
+      選択できるのは、配置タイプに適用でき、選択した配置にまだアタッチされていない広告のみです。
 
-            1. （オプション）添付する追加の広告ごとに、 **[!UICONTROL Attach to Other Placement]**. 広告名の横にある **[!UICONTROL Select].**
+   1. 右下で、  **[!UICONTROL Attach]**.
 
-         * 一度に最大 20 個のプレースメントに広告を添付するには：
+1. （オプション）キャンペーンの詳細表示に戻るには、 ![フォルダに戻る](/help/dsp/assets/breadcrumb-return.png "フォルダに戻る") 左に [!UICONTROL Ad Tools] キャンペーン名を選択します。
 
-            1. 「一括選択」の横にあるチェッ**ックボックスをオンにします。
+## 配置に添付された広告の表示 {#view-ads-campaign}
 
-            1. 広告を添付する各配置の横にあるチェックボックスを選択します。
-
-            1. クリック **[!UICONTROL Attach]**.
-
-      1. 「完了とレビュー」タブで、次のいずれかを選択します。
-
-         * 広告ビューに戻るには、 **[!UICONTROL I'm done for now]**.
-
-         * 広告を別のプレースメントに添付するには、 **[!UICONTROL Attach To Other Placement]**.
-
-## 新しい広告または既存の広告を [!UICONTROL Placements] 表示
+<!-- should be a separate page, combined with "List the Placements Associated with an Ad" (although that pertains to a single ad only), or maybe just rename this topic -->
 
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 
 1. キャンペーンの名前をクリックします。
 
-1. サブメニューで、 **[!UICONTROL Placements]**.
+1. を開きます。 [!UICONTROL Ad Tools] 次のいずれかの方法で表示します。
 
-1. 配置名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * ( [!UICONTROL Packages] , [!UICONTROL Placements]または [!UICONTROL Ads] 表示 ) 右上で、 **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-1. Adobe Analytics の [!UICONTROL Add Ad to Placement] 画面で、次のいずれかの操作を行います。
+   * （特定の配置に関連付けられた広告を表示するには）サブメニューで、 **[!UICONTROL Placements]**. 配置名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * 新しい広告を作成するには：
+   * （広告が関連付けられている、または広告が関連付けられている場所を確認するには）サブメニューで、 **[!UICONTROL Ads]**. 広告名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
-      1. クリック **[!UICONTROL Create a New Ad]**.
+1. 次に切り替え： **[!UICONTROL View]** 」オプションを使用して設定できます。
 
-      1. 次の広告設定を入力 [オーディオ広告](ad-settings-audio.md), [接続された TV](ad-settings-connected-tv.md), [広告の表示](ad-settings-display.md), [モバイル広告](ad-settings-mobile.md), [ネイティブ広告](ad-settings-native.md)または [プリロール広告](ad-settings-pre-roll.md).
+1. （オプション）必要に応じて、特定の配置と広告を見つけます。
 
-      1. クリック **[!UICONTROL Save & Submit for Review]**.
+   * 左の表の上で、配置タイプ、配置ステータス、広告タイプまたは広告ステータスでリストをフィルターします。
 
-         The [広告レビュー](ad-about.md) 新しい広告の場合は 24 ～ 48 時間がかかり、機密カテゴリのチェック、URL 機能のクリック、プレビューレンダリングが含まれます。 The [!UICONTROL Status] 列は、DSPが広告を承認したかどうかを示します。 壊れた広告のステータスが 24 ～ 48 時間以上保留になる場合があるので、却下される前にエラーを修正する時間があります。
+   * 左右のテーブルで、配置または広告名の特定のテキスト文字列を検索します。
 
-         >[!NOTE]
-         >
-         >広告は、DSPと SSP の両方がクリエイティブを承認した場合にのみ提供されます。 各 SSP には独自の承認要件とプロセスがあります。
+1. 左側の表の任意の配置行をクリックすると、関連付けられている広告が右側の表に表示されます。
 
-   * 既存の広告を選択するには：
-
-      1. クリック **[!UICONTROL Select an Ad].**
-
-      1. 広告を指定します。
-
-         * 一度に 1 つの広告を追加するには：
-
-            1. 広告名の横にある **[!UICONTROL Select].**
-
-            1. （オプション）添付する追加の広告ごとに、 **[!UICONTROL Add Another Ad]**. 広告名の横にある **[!UICONTROL Select].**
-
-         * 一度に最大 20 個の広告を追加するには：
-
-            1. の横のチェックボックスをオンにします。 **[!UICONTROL Bulk Select]**.&quot;
-
-            1. 追加する各広告の横にあるチェックボックスを選択します。
-
-            1. クリック **[!UICONTROL Attach]**.
-
-      1. （オプション）プレースメント内の特定の広告に対して、デフォルトのフライト期間と広告のローテーションを上書きするには、次の手順を実行します。
-
-         1. クリック **[!UICONTROL Custom Schedule Ads]**.
-
-         1. 次のいずれかの操作を行います。
-
-            * フライトを追加するには、 **[!UICONTROL Add Flight]**&#x200B;をクリックし、開始日と終了日を指定します。
-
-            * 広告に既存のフライトを追加するには、 **[!UICONTROL +]** （「flight」列の広告行）
-
-            * 広告から既存のフライトを削除するには、 **[!UICONTROL x]** （「flight」列の広告行）
-
-            * （複数の広告が同じフライトを持つ場合）広告を不均等に回転させるには、 **[!UICONTROL Even Rotation]** フライト情報を入力し、各広告を回転させる相対的な重みをパーセンテージで入力します。
-
-              重みの合計は 100 にする必要があります。
-
-         1. 右上で、 **[!UICONTROL Continue]**.
-
-         1. フライトの詳細を確認し、 **[!UICONTROL Save & Finish]**.
-
-      1. クリック **[!UICONTROL I'm done for now]**.
+1. （オプション）キャンペーンの配置に広告をさらに付加するには、 **[!UICONTROL Edit]** ビューを右上に表示します。 前述の手順の手順 4 を参照してください。[配置への広告の付加](#attach-ads-campaign)、」を参照してください。
 
 >[!MORELIKETHIS]
 >
