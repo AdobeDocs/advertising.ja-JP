@@ -3,9 +3,9 @@ title: Advertising DSPのCampaign Managementの概要
 description: キャンペーン管理の階層とコンポーネントについて説明します。
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,8 @@ DSPキャンペーンの階層は次のとおりです。
 
 * Campaign
    * パッケージ
-      * 配置
+      * プレースメント
          * 広告
-
 <!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
 In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
@@ -55,7 +54,6 @@ A [配置](/help/dsp/campaign-management/placements/placement-about.md) は、�
 >* [広告管理について](/help/dsp/campaign-management/ads/ad-about.md)
 >* [Campaign Launch チェックリスト](/help/dsp/campaign-management/campaign-launch-checklist.md)
 >* [パフォーマンスキャンペーンの設定のベストプラクティス](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [プラットフォーム内レポートについて](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [Campaign のデータビューについて](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
->* [ビデオ：DSPアカウント構造とユーザーインターフェイス](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
-
+>* [Campaign Management Views のパフォーマンスレポートについて](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [ビデオ：DSPアカウントの構造とユーザーインターフェイス](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

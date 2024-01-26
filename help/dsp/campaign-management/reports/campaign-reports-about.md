@@ -1,18 +1,17 @@
 ---
-title: プラットフォーム内レポートについて
+title: Campaign Management Views のパフォーマンスレポートについて
 description: キャンペーン管理ビューに含まれるレポートデータについて説明します。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 833e3d3a15546518ec627f859d601285e30381b7
+source-git-commit: 3f1095fe08e6bc6bf9c942b70295ac06d64ff852
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
-# プラットフォーム内レポートについて
+# Campaign Management Views のパフォーマンスレポートについて
 
-<!-- rename "About Performance Reports in Campaign Management Views?" -->
 キャンペーン管理ビューには、包括的なレポートデータが含まれます。 利用可能なレポートは、パフォーマンスの高いパッケージや配置、および注意を必要とするパッケージや配置を特定するのに役立ちます。 また、クイックアクションボタンを使用すると、生産性が向上します。
 
 ## すべてのキャンペーン表示
@@ -21,7 +20,7 @@ The [!UICONTROL Campaigns] [ 表示 ] をクリックすると、一連のパフ
 
 ### グラフ表示 {#chart-view}
 
-以下が可能です。 [時系列トレンドグラフのカスタマイズ](campaign-data-visualization-manage.md) がすべてのキャンペーンで使用され、3 つの指標が使用されます。 デフォルトでは、 [!UICONTROL Net Spend], [!UICONTROL Impressions]、および [!UICONTROL Net CPM] は別々のグラフ（トレリス図）に含まれます。 オプションで指標を変更できます。 時系列トレンドグラフの時間別データを有効にするには、日付の選択を 1 日に変更します ([!UICONTROL Today], [!UICONTROL Yesterday]、または特定の日 )。
+以下が可能です。 [時系列トレンドグラフのカスタマイズ](campaign-data-views-manage.md#data-visualizations-manage) がすべてのキャンペーンで使用され、3 つの指標が使用されます。 デフォルトでは、 [!UICONTROL Net Spend], [!UICONTROL Impressions]、および [!UICONTROL Net CPM] は別々のグラフ（トレリス図）に含まれます。 オプションで指標を変更できます。 時系列トレンドグラフの時間別データを有効にするには、日付の選択を 1 日に変更します ([!UICONTROL Today], [!UICONTROL Yesterday]、または特定の日 )。
 
 ![3 つの指標に関する個別のトレンドグラフ](/help/dsp/assets/trend-chart-separate.png)
 
@@ -33,9 +32,9 @@ The [!UICONTROL Campaigns] [ 表示 ] をクリックすると、一連のパフ
 
 ![キャンペーンリスト](/help/dsp/assets/campaigns-list.png)
 
-デフォルトでは、各キャンペーン行には、ペーシングと配信指標が含まれます。 ペーシング指標には以下が含まれます [!UICONTROL Gross Spend (Lifetime)]：キャンペーン内のすべてのパッケージでの実際の目標上の支出に対する予想される目標上の支出のゲージを含むので、効果の低いキャンペーンを一目で特定できます。 オプションで、 [列表示を変更する](column-view-change.md) または [カスタム列表示の作成](column-view-create.md).
+デフォルトでは、各キャンペーン行には、ペーシングと配信指標が含まれます。 ペーシング指標には以下が含まれます [!UICONTROL Gross Spend (Lifetime)]：キャンペーン内のすべてのパッケージでの実際の目標上の支出に対する予想される目標上の支出のゲージを含むので、効果の低いキャンペーンを一目で特定できます。 オプションで、 [列表示を変更する](campaign-data-views-manage.md#column-view-change) または [カスタム列表示の作成](campaign-data-views-manage.md#column-view-create).
 
-さらに詳しく [データテーブルのカスタマイズ](campaign-data-views-about.md) 追加の方法と [表示されるデータのフィルター](campaign-data-filter.md).
+さらに詳しく [データテーブルのカスタマイズ](campaign-data-views-manage.md#data-tables-manage) 追加の方法と [表示されるデータのフィルター](campaign-data-views-manage.md#filter-data-tables).
 
 <!--
 An "Alerts" column indicates when a campaign (or any child entity under it) has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
@@ -45,19 +44,19 @@ An "Alerts" column indicates when a campaign (or any child entity under it) has 
 
 ## 単一キャンペーンレポート {#single-campaign-reporting}
 
-キャンペーン内では、キャンペーンエンティティに基づいてデータをフィルタリングできます。 [!UICONTROL Packages], [!UICONTROL Placements]、および [!UICONTROL Ads]. さらに詳しく [表示されるデータのフィルター](campaign-data-filter.md) を使用して、表示するパッケージ、プレースメントまたは広告のみを含めます。
+キャンペーン内では、キャンペーンエンティティに基づいてデータをフィルタリングできます。 [!UICONTROL Packages], [!UICONTROL Placements]、および [!UICONTROL Ads]. さらに詳しく [表示されるデータのフィルター](campaign-data-views-manage.md#filter-data-tables) を使用して、表示するパッケージ、プレースメントまたは広告のみを含めます。
 
 ![キャンペーンエンティティタブ](/help/dsp/assets/campaign-subtabs.png)
 
 ### グラフ表示
 
-キャンペーンごとに、以下の操作を実行できます。 [時系列トレンドグラフのカスタマイズ](campaign-data-visualization-manage.md) と 3 つの指標を組み合わせ、各エンティティ表示で使用できます。 キャンペーンのすべてのトレンドグラフで、同じ指標が保持されます。
+キャンペーンごとに、以下の操作を実行できます。 [時系列トレンドグラフのカスタマイズ](campaign-data-views-manage.md#data-visualizations-manage) と 3 つの指標を組み合わせ、各エンティティ表示で使用できます。 キャンペーンのすべてのトレンドグラフで、同じ指標が保持されます。
 
 詳しくは、 [クロスキャンペーン指標に関する「グラフ表示」の節](#chart-view) を参照してください。
 
 ### テーブル表示
 
-各エンティティタブでは、デフォルトで、各行にペーシングと配信指標が含まれますが、 [列表示を変更する](column-view-change.md) または [カスタム列表示の作成](column-view-create.md) をクリックして、キャンペーンのすべてのサブタブに適用します。 さらに詳しく [データテーブルのカスタマイズ](campaign-data-views-about.md) その他の方法では。 各データテーブルには、 [!UICONTROL Subtotals] 行：表示されているすべての行の各指標の合計または平均値を表示します。
+各エンティティタブでは、デフォルトで、各行にペーシングと配信指標が含まれますが、 [列表示を変更する](campaign-data-views-manage.md#column-view-change) または [カスタム列表示の作成](campaign-data-views-manage.md#column-view-create) をクリックして、キャンペーンのすべてのサブタブに適用します。 さらに詳しく [データテーブルのカスタマイズ](campaign-data-views-manage.md#data-tables-manage) その他の方法では。 各データテーブルには、 [!UICONTROL Subtotals] 行：表示されているすべての行の各指標の合計または平均値を表示します。
 
 <!--
 An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
@@ -110,9 +109,6 @@ An "Alerts" column indicates when a package, placement, or ad &mdash; or any chi
 >[!MORELIKETHIS]
 >
 >* [プレースメントのサイト、広告、頻度の詳細を表示](placement-details-view.md)
->* [Campaign のデータビューについて](campaign-data-views-about.md)
->* [カスタム列表示の作成](column-view-create.md)
->* [列表示の変更](column-view-change.md)
->* [データビジュアライゼーションの管理](campaign-data-visualization-manage.md)
+>* [キャンペーンデータビューの管理](campaign-data-views-manage.md)
 >* [Campaign Managementビューからのデータの書き出し](campaign-export-data.md)
 >* [キャンペーンの詳細レポートの表示](/help/dsp/campaign-management/campaigns/campaign-view-report.md)

@@ -3,9 +3,9 @@ title: カスタムレポートについて
 description: カスタムレポートを手動で作成するか、事前設定済みのレポートテンプレートを使用するかのオプションについて説明します。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 085e2c40ae65a5bb93c3d1a13036342d2670226b
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 使用可能なレポートタイプ
 
-* **[!UICONTROL Custom]:** このレポートは、ほとんどのディメンションと指標を使用して独自のカスタムレポートを作成するのに使用できる空のテンプレートです。 [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo]、および [!UICONTROL Site] レポートは、このテンプレートのバリエーションで、それぞれの使用例に対して事前に選択された列とディメンションがあります。
+* **[!UICONTROL Custom]:** このレポートは、ほとんどのディメンションと指標を使用して独自のカスタムレポートを作成するのに使用できる空白のテンプレートです。 [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo]、および [!UICONTROL Site] レポートは、このテンプレートのバリエーションで、それぞれの使用例に対して事前に選択された列とディメンションがあります。
 
 * 事前設定済みレポートテンプレート
 
@@ -59,7 +59,7 @@ ht-degree: 0%
      >* データは 2018 年 11 月 16 日以降に利用可能になります。
      >* 一部のプライベートインベントリでは、パブリッシャーはデバイス識別子を渡さないので、頻度の追跡ができません。
 
-   * **[!UICONTROL Geo]**:この事前入力済みのテンプレートを使用して、地理的ディメンション別に主要指標を表示します。
+   * **[!UICONTROL Geo]**：この事前入力済みテンプレートを使用して、地理的ディメンション別に主要指標を表示します。
 
    * **[!UICONTROL Margin]:** このレポートを使用して、キャンペーン別またはプレースメント別の利益、利益、その他の支出指標などの主要指標を確認します。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
      >[!NOTE]
      >
      >* このレポートは、様々なターゲットセグメントのパフォーマンスを示すためのものです。 セグメントメンバーシップデータを使用します。 2 つ以上のターゲットセグメントに属する個人またはデバイスにインプレッションが提供された場合、このレポートには各セグメントに対して 1 つの行が含まれます。 このため、このレポートの合計は、実際の配信と一致しない場合があります。
-     >* セグメントのコンバージョン指標およびカスタム目標データは、2019 年 8 月 3 日以降で利用可能になります。 セグメントのその他すべてのデータは、2018 年 6 月 1 日以降に利用可能になります。
+     >* セグメントのコンバージョン指標およびカスタム目標データは、2019 年 8 月 3 日以降で利用できるようになります。 セグメントのその他すべてのデータは、2018 年 6 月 1 日以降に利用可能になります。
 
    * **[!UICONTROL Site]:** デフォルトでは、には標準指標、メディアの総支出およびサイト別の合計請求可能な純支出が含まれます。
 
@@ -89,6 +89,6 @@ ht-degree: 0%
 >* [カスタムレポートの作成](/help/dsp/reports/report-create.md)
 >* [カスタムレポート設定](/help/dsp/reports/report-settings.md)
 >* [世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md)
->* [プラットフォーム内レポートについて](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Campaign Management Views のパフォーマンスレポートについて](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [使用可能なレポート列](/help/dsp/reports/report-columns.md)
 >* [について [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

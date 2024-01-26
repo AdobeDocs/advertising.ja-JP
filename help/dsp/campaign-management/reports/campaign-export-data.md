@@ -3,9 +3,9 @@ title: Campaign Managementビューからのデータの書き出し
 description: 任意のタイプのキャンペーン管理ビューからスプレッドシートファイルにデータをエクスポートする方法を説明します。
 feature: DSP Campaign Data Views
 exl-id: 181b2648-5c8c-47e5-b4bc-5733dd7f47b7
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [プラットフォーム内レポートについて](campaign-reports-about.md)
->* [列表示の変更](column-view-change.md)
->* [キャンペーンデータをフィルタ](campaign-data-filter.md)
->* [データ列の並べ替え](campaign-data-sort.md)
-
+>* [Campaign Management Views のパフォーマンスレポートについて](campaign-reports-about.md)
+>* [キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: ec7c6fbced3ba1133da9212bedcb929410f0b6da
+source-git-commit: 6c117e57471d85fc044a7b814a231037ce89d90c
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '927'
 ht-degree: 3%
 
 ---
@@ -92,20 +92,13 @@ ht-degree: 3%
          + [プリロール広告の設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [ユニバーサルビデオ広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [サポートされる広告タイプの仕様](/help/dsp/campaign-management/ads/ad-specs.md)
-   + キャンペーンレポート {#campaign-reports}
-      + [プラットフォーム内レポートについて](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+   + Campaign Managementビューのパフォーマンスレポート {#campaign-reports}
+      + [Campaign Management Views のパフォーマンスレポートについて](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Campaign Managementビューからのデータの書き出し](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [プレースメントのサイト、広告、頻度の詳細を表示](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [配置予測レポートの表示](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [配置診断レポートの表示](/help/dsp/campaign-management/reports/placement-diagnostics.md)
-      + データビューの管理 {#data-views}
-         + [Campaign のデータビューについて](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
-         + [列表示の変更](/help/dsp/campaign-management/reports/column-view-change.md)
-         + [カスタム列表示の作成](/help/dsp/campaign-management/reports/column-view-create.md)
-         + [カスタム列表示の編集](/help/dsp/campaign-management/reports/column-view-edit.md)
-         + [キャンペーンデータをフィルタ](/help/dsp/campaign-management/reports/campaign-data-filter.md)
-         + [列の並べ替え](/help/dsp/campaign-management/reports/campaign-data-sort.md)
-      + [データビジュアライゼーションの管理](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
+      + [キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
    + スプレッドシートを使用した配置設定の修正 {#qa-spreadsheet}
       + [スプレッドシートを使用した配置設定の修正について](/help/dsp/campaign-management/qa/qa-about.md)
       + [スプレッドシートでの配置設定のダウンロード](/help/dsp/campaign-management/qa/qa-sheet-download.md)
