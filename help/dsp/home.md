@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: fc4be5168b90b835b1d880386f0cef532b82dbf2
+source-git-commit: 523bc488bf586901eb7302d9c03dda3cd1f98f2b
 workflow-type: tm+mt
 source-wordcount: '1967'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 | 2021 年 11 月 13 日 | [!UICONTROL Deal IDs] | Adobe Analytics の [!UICONTROL Deal ID] 設定， &quot;[!DNL Rubicon]」が「[!DNL Magnite DV+],&quot;ここで [!DNL DV+] は、ディスプレイ、ビデオ、およびオーディオなどのその他の形式を表します。 この名前は、 [!DNL Magnite] SSP。 **注意：** [!DNL Magnite DV+] は、「[!DNL Rubicon]」が [!UICONTROL Deal ID Inbox]. | 参照：[SSP パートナー](/help/dsp/inventory/ssp-partners.md).&quot; |
 | 2021 年 10 月 27 日 | カスタムレポート | 以下を作成および管理できます。 [!DNL Amazon S3] という名前の、FTP の配信場所の *[!DNL report destinations]*（カスタムレポート用） レポートの宛先を設定したら、新しいカスタムレポートをそれぞれ 1 つ以上の宛先タイプの場所に配信したり、電子メールの受信者に配信したりするように設定できます。 の更新 [!DNL Amazon S3] および FTP 資格情報によってレポートの配信が中断されることはありません。<br><br>既存のレポートは、指定した電子メール受信者に送信されます。 別のレポートの宛先への配信を設定するには、新しい宛先でレポートを作成します。 | 参照：[について [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md),&quot; &quot;[の作成 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md),&quot; &quot;[[!UICONTROL Report Destination] 設定](/help/dsp/reports/report-destinations/report-destination-settings.md),&quot;および&quot;[カスタムレポート設定](/help/dsp/reports/report-settings.md).&quot; |
 |  | [!UICONTROL Packages], [!UICONTROL Placements]、および [!UICONTROL Ads] ビュー | 1 日分のデータを表示する場合、トレンドグラフに時間別データが含まれるようになりました。 任意の時点にカーソルを置くと、その時間のデータが表示されます。 | 参照：[単一キャンペーンレポート](/help/dsp/campaign-management/reports/campaign-reports-about.md#single-campaign-reporting).&quot; |
-|  | [!UICONTROL Placements] | 配置 [!UICONTROL Inspector] にが含まれるようになりました [!UICONTROL Inventory] 」タブに移動します。このタブには、すべての契約と、その配置に関連する指標が表示されます。 この情報を使用すると、カスタムレポートを生成せずに、すばやく調整を行ったり、問題をトラブルシューティングしたりできます。 | 参照：[配置 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md#placement-inspector).&quot; |
+|  | [!UICONTROL Placements] | 配置 [!UICONTROL Inspector] にが含まれるようになりました [!UICONTROL Inventory] 」タブに移動します。このタブには、すべての契約と、その配置に関連する指標が表示されます。 この情報を使用すると、カスタムレポートを生成せずに、すばやく調整を行ったり、問題をトラブルシューティングしたりできます。 | 参照：[配置 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md#placement-inspector).&quot; |
 |  | [!UICONTROL Ads] | ( 以下を含める許可を有するユーザー [!DNL Clearcast] 広告内の時計番号 ) 別の広告に接続されている時計番号を使用すると、DSPでエラーが表示されなくなりました。 **注意：**  ベストプラクティスは、各ビデオ広告に一意の時計番号を使用することです。 そうしないと、パブリッシャーはすべての広告を承認しません。 | — |
 |  | [!UICONTROL Deal IDs] | The [!UICONTROL Deal ID] ユーザーインターフェイスの設定やその他の場所は、 [!DNL Magnite] SSP:<br><ul><li>SSP &quot;[!DNL Tremor]&quot; ([!DNL Telaria]) は現在は&quot;[!DNL Magnite CTV].&quot;</li><li>今後数週間の間に [!DNL Rubicon]」が「[!DNL Magnite DV+],&quot;ここで [!DNL DV+] は、ディスプレイ、ビデオ、およびオーディオなどのその他の形式を表します。</li></ul> | 参照：[SSP パートナー](/help/dsp/inventory/ssp-partners.md).&quot; |
 |  | [!DNL Freewheel] 計画的に保証された契約 | 広告を送信し、次の広告のステータスを確認できるようになりました： [!DNL Freewheel] ～からの計画的に保証された契約 [!UICONTROL Ads] 表示。 以前は、 [!UICONTROL Deals] 表示。 | 参照：[プログラム的に保証された契約の広告をに送信する [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] プログラム的に保証された取引](/help/dsp/inventory/freewheel-check-status.md).&quot; |
