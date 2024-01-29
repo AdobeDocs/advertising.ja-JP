@@ -3,9 +3,9 @@ title: 配置診断レポートの表示
 description: 配置の設定とペーシングに関する問題を診断する方法を説明します。
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management Views のパフォーマンスレポートについて](campaign-reports-about.md)
+>* [Campaign Managementビューでのパフォーマンスレポートのタイプ](campaign-reports-about.md)
 >* [配置予測レポートの表示](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [配置設定](/help/dsp/campaign-management/placements/placement-settings.md)

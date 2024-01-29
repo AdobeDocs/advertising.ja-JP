@@ -3,9 +3,9 @@ title: カスタムレポートについて
 description: カスタムレポートを手動で作成するか、事前設定済みのレポートテンプレートを使用するかのオプションについて説明します。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,6 @@ ht-degree: 0%
 >* [カスタムレポートの作成](/help/dsp/reports/report-create.md)
 >* [カスタムレポート設定](/help/dsp/reports/report-settings.md)
 >* [世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md)
->* [Campaign Management Views のパフォーマンスレポートについて](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Campaign Managementビューでのパフォーマンスレポートのタイプ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [使用可能なレポート列](/help/dsp/reports/report-columns.md)
 >* [について [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

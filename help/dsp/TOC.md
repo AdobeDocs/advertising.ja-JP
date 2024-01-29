@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: 6c117e57471d85fc044a7b814a231037ce89d90c
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '929'
 ht-degree: 3%
 
 ---
@@ -93,9 +93,9 @@ ht-degree: 3%
          + [ユニバーサルビデオ広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [サポートされる広告タイプの仕様](/help/dsp/campaign-management/ads/ad-specs.md)
    + Campaign Managementビューのパフォーマンスレポート {#campaign-reports}
-      + [Campaign Management Views のパフォーマンスレポートについて](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+      + [Campaign Managementビューでのパフォーマンスレポートのタイプ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Campaign Managementビューからのデータの書き出し](/help/dsp/campaign-management/reports/campaign-export-data.md)
-      + [プレースメントのサイト、広告、頻度の詳細を表示](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [プレースメントのサイト、広告、頻度および在庫の詳細を表示します](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [配置予測レポートの表示](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [配置診断レポートの表示](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

@@ -3,9 +3,9 @@ title: 配置予測レポートの表示
 description: 特定のターゲティング戦略に対するインプレッション数、支出数および最適な最大入札額をプレースメントに対して確認できます。
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management Views のパフォーマンスレポートについて](campaign-reports-about.md)
+>* [Campaign Managementビューでのパフォーマンスレポートのタイプ](campaign-reports-about.md)
 >* [配置診断レポートの表示](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [配置設定](/help/dsp/campaign-management/placements/placement-settings.md)

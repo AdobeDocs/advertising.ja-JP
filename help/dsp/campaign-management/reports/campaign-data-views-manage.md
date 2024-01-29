@@ -2,9 +2,9 @@
 title: キャンペーンデータビューの管理
 description: キャンペーン、パッケージ、プレースメントおよび広告のデータビューをカスタマイズする方法について説明します。
 feature: DSP Campaign Data Views
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ DSPでは、最新のビューがデフォルトのビューとして保存さ�
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management Views のパフォーマンスレポートについて](campaign-reports-about.md)
+>* [Campaign Managementビューでのパフォーマンスレポートのタイプ](campaign-reports-about.md)
 >* [プレースメントのサイト、広告、頻度の詳細を表示](placement-details-view.md)
 >* [配置予測レポートの表示](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [配置診断レポートの表示](placement-diagnostics.md)

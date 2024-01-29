@@ -3,9 +3,9 @@ title: 非公開契約のオークションインサイトの表示
 description: オークションのインサイトを使用して、個人契約の契約構成を分析する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -51,4 +51,4 @@ ht-degree: 0%
 >* [プライベート在庫について](private-inventory-about.md)
 >* [契約 ID のプレースメントと広告の指定](deal-id-attach-placements.md)
 >* [契約の詳細レポートの表示](deal-view-report.md)
->* [Campaign Management Views のパフォーマンスレポートについて](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Campaign Managementビューでのパフォーマンスレポートのタイプ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
