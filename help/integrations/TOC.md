@@ -4,9 +4,9 @@ user-guide-description: Advertising DSP および Advertising Search と他の A
 breadcrumb-title: Experience Cloud との統合
 role: User, Developer
 index: true
-source-git-commit: 5b72ac7dccfd72a1173347e91fe582a55d58fd7b
+source-git-commit: 41029d46df032a7fdf5b215df1c9413b4ae08a8c
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '216'
 ht-degree: 11%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 11%
    + [Adobe AdvertisingID 使用者 [!DNL Analytics]](/help/integrations/analytics/ids.md)
    + 実装の計画 {#planning}
       + [実装の前提条件と主な情報 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)
-      + [用 JavaScript コード [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
+      + [(DSP) の JavaScript コード [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
       + [の使用 [!DNL Last Event Service] Adobe Experience Platformを使用した JavaScript ライブラリ [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
-      + 広告タグのマクロ {#macros}
+      + (DSP) 広告タグ用マクロ {#macros}
          + [追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Flashtalking] 広告タグ](/help/integrations/analytics/macros-flashtalking.md)
          + [追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Google Campaign Manager 360] 広告タグ](/help/integrations/analytics/macros-google-campaign-manager.md)
    + 交換されたデータ {#data}

@@ -3,9 +3,9 @@ title: Adobe AdvertisingID 使用者 [!DNL Analytics]
 description: Adobe AdvertisingID 使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 3e6c90c1fc36ffc8fd404b5fe589f1f79f69a096
+source-git-commit: 0d48ceda77783cd8b5fd9e609da424dcfa94f278
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ AMO ID は、 `s_kwcid`(「[!DNL the squid].&quot;
 
 パラメーターは、次のいずれかの方法でトラッキング URL に追加されます。
 
-* （推奨）サーバー側挿入機能が実装されています。
+* （推奨）サーバー側挿入機能が実装されている場合。
 
    * DSPのお客様：ピクセルサーバーは、エンドユーザーがディスプレイ広告とAdobe Advertisingピクセルを表示すると、ランディングページのサフィックスに s_kwcid パラメーターを自動的に追加します。
 
@@ -120,7 +120,7 @@ AMO ID は、 `s_kwcid`(「[!DNL the squid].&quot;
 
       * 他の広告ネットワークの場合、または [!DNL Google Ads] および [!DNL Microsoft® Advertising] アカウントの [!UICONTROL Auto Upload] 無効に設定しています。パラメーターを [アカウントレベルの追加パラメーター](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}：をベース URL に追加します。
 
-* サーバー側挿入機能は実装されていません。
+* サーバー側挿入機能が実装されていない場合：
 
    * DSPのお客様： [JavaScript コード](javascript.md) は、クリックスルー数とビュースルー数を自動的に記録します。 ブラウザーがサードパーティ Cookie をサポートしていない場合でも、次の広告タイプのクリックベースのコンバージョンを追跡できます。
 
@@ -152,7 +152,7 @@ AMO ID は、 `s_kwcid`(「[!DNL the squid].&quot;
 
 AMO ID の例： AC!iIMvXqlOa6Nia2lDvtgw!GrV6o2oV2qQLjQiXLC7
 
-#### 検索、ソーシャル、コマース広告の AMO ID 形式
+#### 検索、ソーシャル、コマース広告の AMO ID 形式 {#amo-id-format-search}
 
 パラメーターは広告ネットワークによって異なりますが、次のパラメーターはすべてに共通です。
 

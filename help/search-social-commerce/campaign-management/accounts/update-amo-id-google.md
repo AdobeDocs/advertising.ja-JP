@@ -1,11 +1,11 @@
 ---
 title: の AMO ID(s_kwcid) トラッキングコードを更新します。 [!DNL Google Ads] アカウント
 description: の最新の AMO ID トラッキングコードに切り替える方法を説明します。 [!DNL Google Ads] アカウント。
-exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-の従来の形式 [AMO ID トラッキングコード](/help/integrations/analytics/ids.md#amo-id-formats) ( 既存の [!DNL Google Ads] アカウントは、Analytics の一部の機能（例えば、次のキャンペーンレベルや広告グループレベルでのレポート）をサポートしていません。 [!DNL Google Ads] パフォーマンス最大キャンペーン、ドラフト&amp;実験キャンペーン、および同じ ad+keyword+match タイプの組み合わせが複数のキャンペーンに存在するその他の使用例。
+のレガシー（2019 年 10 月以前）形式 [AMO ID トラッキングコード](/help/integrations/analytics/ids.md#amo-id-formats) ( 既存の [!DNL Google Ads] アカウントは、Analytics の一部の機能（例えば、次のキャンペーンレベルや広告グループレベルでのレポート）をサポートしていません。 [!DNL Google Ads] パフォーマンス最大キャンペーン、ドラフト&amp;実験キャンペーン、および同じ ad+keyword+match タイプの組み合わせが複数のキャンペーンに存在するその他の使用例。
 
-最新の形式には、キャンペーン ID と広告グループ ID のパラメーターが含まれます。
+現在の形式には、キャンペーン ID と広告グループ ID のパラメーターが含まれます。
 
 ```
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-既存のアカウントの一部またはすべてに対して、新しい形式に個別に変更できます。 最大パフォーマンスのキャンペーンまたはドラフト&amp;エクスペリメントキャンペーンがない場合、新しい形式への移行は任意です。
+既存のアカウントの一部またはすべてに対して、個別に現在の形式に変更できます。 最大パフォーマンスのキャンペーンまたはドラフト&amp;エクスペリメントキャンペーンがない場合、新しい形式への移行は任意です。
 
-すべて新規 [!DNL Google Ads] アカウントは、自動的に新しい AMO ID 形式を使用します。
+すべて新規 [!DNL Google Ads] アカウントは、現在の AMO ID 形式を自動的に使用します。
 
 >[!NOTE]
 >
