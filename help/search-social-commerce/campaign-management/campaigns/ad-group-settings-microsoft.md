@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Microsoft Advertising] 広告グループ設定'
 description: 次の設定を参照してください： [!DNL Microsoft Advertising] 広告グループ。
-exl-id: 5dfa766d-2a42-455d-a340-e72e11a38032
+exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: a31179383fa9c1c9f6eb697d0aa3dd3301d41823
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Status]:** 広告グループの表示ステータス： *アクティブ* または *一時停止*. 新しい広告グループのデフォルトはです。 *アクティブ*.
 
-**[!UICONTROL Ad Language]:** 広告のターゲット言語。<!-- Which campaign types? Not there for audience image-based ad groups. -->
+**[!UICONTROL Ad Language]:** （キャンペーン検索）広告のターゲット言語。
 
 <!-- **[!UICONTROL Start Date]:** -->
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Networks]
 
-**[!UICONTROL Networks]:** 広告グループ内の広告を配置する方法と場所：
+**[!UICONTROL Networks]:** （広告の検索）広告グループ内の広告を配置する方法と場所：
 
 * *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* （デフォルト）：検索ネットワーク上で広告の入札を配置します。
 
@@ -105,6 +105,8 @@ ht-degree: 0%
 <!-- **[!UICONTROL Custom Parameters]:** -->
 
 {{$include /help/_includes/custom-parameters.md}}
+
+**[!UICONTROL Adgroup Frequency Cap Settings]:** （オプション）顧客が広告グループから広告を提供する回数。 値を入力し、時間単位 (*[!UICONTROL Hour]*, *[!UICONTROL Day]*&#x200B;または *[!UICONTROL Week]*) をクリックします。
 
 ## [!UICONTROL Negative Keywords]
 
