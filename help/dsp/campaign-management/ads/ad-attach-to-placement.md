@@ -3,9 +3,9 @@ title: 配置への広告の付加
 description: 配置に広告を付加する方法を説明します。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 550ccbaf6844b9e9bb10ba5fef7a3cc4e5f2ad9b
+source-git-commit: 972284a41dda4a7d7948f1763ba3674413a22954
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. （オプション）次のいずれかの方法で、特定の配置と広告を見つけます。
 
-      * テーブルの上にある「 ![フィルター](/help/dsp/assets/filter.png) およびリストをパッケージ、配置タイプ、配置ステータス、広告タイプまたは広告ステータスでフィルターします。
+      * 左側のテーブルの上にある ![フィルター](/help/dsp/assets/filter.png) およびリストをパッケージ、配置タイプ、配置ステータス、広告タイプまたは広告ステータスでフィルターします。
 
       * 左右のテーブルで、配置と広告名の特定のテキスト文字列を検索します。
 
