@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 523bc488bf586901eb7302d9c03dda3cd1f98f2b
+source-git-commit: b0a8cf0784340ebe0fc495ef300aa40036455823
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024 年 2 月 8 日 | [!UICONTROL Placements] および [!UICONTROL Ads] | The [!UICONTROL Ads Tool] にパッケージフィルターが追加されました。 | 参照：[配置への広告の付加](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 | 2024 年 1 月 24 日 | [!UICONTROL Placements] および [!UICONTROL Ads] | 配置に広告を付加するワークフローが再設計されました。 | 参照：[配置への広告の付加](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 | 2024 年 1 月 11 日 | [!UICONTROL Placements] | スプレッドシートを使用して、複数の配置の広告スケジュールをすばやくカスタマイズできるようになりました。<ul><li>配置用の広告スケジュールテンプレートをダウンロードできます。 必要に応じて、ダウンロードしたファイルのフライト日と広告のローテーションを編集できます。</li><li>その後、編集した広告スケジュールテンプレートをアップロードできます。</li></ul> | 参照：[配置の広告スケジュールの編集](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md).&quot; |
 | 2023 年 12 月 21 日 | [!UICONTROL Audiences] | ファーストパーティデータを [!DNL Tealium] を使用したDSPでの顧客データプラットフォーム [!DNL Amazon Web Services]. セグメントに対してDSPの配置をターゲット設定するには、 [!DNL RampIDs]. 配置設定内で [!UICONTROL Audience Targeting]の場合、共有セグメントは [!UICONTROL First Party Segments] リスト。 | 参照：[オーディエンスソースからの認証済みセグメントのアクティブ化について](/help/dsp/audiences/sources/source-about.md)&quot;および&quot;[とのDSP統合を使用する際のワークフロー [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot; |
