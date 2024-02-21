@@ -3,9 +3,9 @@ title: Campaign Managementビューでのパフォーマンスレポートのタ
 description: キャンペーン管理ビューに含まれるレポートデータについて説明します。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: c7860d98edbf44b71d97c3800edf47a409606b74
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,13 @@ The [!UICONTROL Campaigns] [ 表示 ] をクリックすると、一連のパフ
 
 さらに詳しく [データテーブルのカスタマイズ](campaign-data-views-manage.md#data-tables-manage) 追加の方法と [表示されるデータのフィルター](campaign-data-views-manage.md#filter-data-tables).
 
-<!--
-An "Alerts" column indicates when a campaign (or any child entity under it) has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
--->
-
 キャンペーンの詳細を表示するには、キャンペーン名をクリックします。
+
+#### アラート指標
+
+*ベータ版機能*
+
+An &quot;[!UICONTROL Alerts]「 」列は、キャンペーンまたはその下にある子エンティティがいつ問題を抱えているかを示します。 A [!UICONTROL Pulse Panel] ツールバーの右側のアイコンは、リストされているエンティティに対してアラートが使用可能かどうかも示します。 参照：[アラートの表示](campaign-alerts.md)」を参照してください。
 
 ## 単一キャンペーンレポート {#single-campaign-reporting}
 
@@ -58,9 +60,11 @@ An "Alerts" column indicates when a campaign (or any child entity under it) has 
 
 各エンティティタブでは、デフォルトで、各行にペーシングと配信指標が含まれますが、 [列表示を変更する](campaign-data-views-manage.md#column-view-change) または [カスタム列表示の作成](campaign-data-views-manage.md#column-view-create) をクリックして、キャンペーンのすべてのサブタブに適用します。 さらに詳しく [データテーブルのカスタマイズ](campaign-data-views-manage.md#data-tables-manage) その他の方法では。 各データテーブルには、 [!UICONTROL Subtotals] 行：表示されているすべての行の各指標の合計または平均値を表示します。
 
-<!--
-An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
--->
+#### アラート指標
+
+*ベータ版機能*
+
+An &quot;[!UICONTROL Alerts]「 」列は、パッケージ、配置、広告、またはパッケージまたは配置下の子エンティティに問題がある場合を示します。 An &quot;[!UICONTROL Alerts]「 」列は、キャンペーンまたはその下にある子エンティティがいつ問題を抱えているかを示します。 A [!UICONTROL Pulse Panel] ツールバーの右側のアイコンは、リストされているエンティティに対してアラートが使用可能かどうかも示します。 参照：[アラートの表示](campaign-alerts.md)」を参照してください。
 
 ### その他のキャンペーンレベルのレポートタイプ
 
@@ -89,3 +93,4 @@ An "Alerts" column indicates when a package, placement, or ad &mdash; or any chi
 >* [キャンペーンデータビューの管理](campaign-data-views-manage.md)
 >* [Campaign Managementビューからのデータの書き出し](campaign-export-data.md)
 >* [キャンペーンの詳細レポートの表示](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [アラートの表示](campaign-alerts.md)

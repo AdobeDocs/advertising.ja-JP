@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1e5dee912a4c3cdbab5c389725b9d48a354d0b7d
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '931'
 ht-degree: 3%
 
 ---
@@ -98,6 +98,7 @@ ht-degree: 3%
       + [プレースメントのサイト、広告、頻度および在庫の詳細を表示します](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [配置予測レポートの表示](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [配置診断レポートの表示](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+      + [アラートの表示](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
    + スプレッドシートを使用した配置設定の修正 {#qa-spreadsheet}
       + [スプレッドシートを使用した配置設定の修正について](/help/dsp/campaign-management/qa/qa-about.md)

@@ -3,9 +3,9 @@ title: Advertising DSPのパッケージ管理について
 description: パッケージ管理について説明します。
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 2b0513691e5db2db28222d4cf7edf8bca2f014ca
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 パッケージは、手動で作成することも、既存のパッケージを複製することもできます。 また、任意のパッケージに配置を編集し、添付することもできます。
 
-## この [!UICONTROL Packages] ダッシュボード
+## The [!UICONTROL Packages] ダッシュボード
 
-この [!UICONTROL Packages] ダッシュボードは、すべてのパッケージ戦略にわたってパフォーマンスと経済のレポートを一元化し、指定した日付範囲でのパッケージのパフォーマンスをすばやくスナップショットできます。
+The [!UICONTROL Packages] ダッシュボードは、すべてのパッケージ戦略にわたってパフォーマンスと経済のレポートを一元化し、指定した日付範囲でのパッケージのパフォーマンスをすばやくスナップショットできます。
 
 ![パッケージダッシュボード](/help/dsp/assets/package-dashboard.png)
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >さらに、 [カスタムレポート](/help/dsp/reports/report-about.md).
 
-パッケージ内のすべての配置を表示するには、パッケージ名をクリックします。
+パッケージ内のすべての配置、およびパッケージのフライト日を確認するには、パッケージ名をクリックします。
 
 >[!MORELIKETHIS]
 >
@@ -39,4 +39,3 @@ ht-degree: 0%
 >* [パッケージに配置を添付する](package-attach-placement.md)
 >* [パッケージの変更ログの表示](package-change-log.md)
 >* [パッケージ設定](package-settings.md)
-
