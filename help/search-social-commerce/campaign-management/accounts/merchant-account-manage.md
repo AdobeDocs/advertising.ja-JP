@@ -1,11 +1,11 @@
 ---
 title: マーチャントアカウントの管理
 description: マーチャントセンターアカウントのアカウント詳細を設定および管理する方法を説明します。
-exl-id: eca58f55-f056-46b3-b192-2849690e8bcc
+exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 35a27d075d5de7c3526cd6522376671954b608db
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,14 @@ ht-degree: 0%
 1. 次を指定します。 [マーチャントアカウント設定](#merchant-account-settings):
 
    1. Adobe Analytics の [!UICONTROL Product Source] メニューで、「マーチャントセンター」を選択します。
+
+   <!--
+
+   1. ([!DNL Meta Ads] accounts only) Log in to the [!DNL Meta Ads] account.
+
+   And are there additional steps just for Meta? If so, create a separate procedure for it.
+   
+   -->
 
    1. ( 必須 [!DNL Google Ads] アカウント；オプション [!DNL Microsoft Advertising] アカウント ) 検索、ソーシャル、コマースで、 [[!DNL OAuth] 認証プロトコル](https://oauth.net/2/):
 
