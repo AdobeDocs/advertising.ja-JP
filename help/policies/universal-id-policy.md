@@ -4,7 +4,7 @@ description: ユニバーサル ID の使用に関するポリシーを参照し
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: e809a521efc35442b912375cda19516b6be7e90b
+source-git-commit: 90c4e8055b8438e7375968980f5344d7497fbc8f
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
