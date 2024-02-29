@@ -3,7 +3,7 @@ title: コンバージョン指標のアップロード先 [!DNL Google Ads]
 description: 検索、ソーシャル、コマースで追跡されたコンバージョン指標をにアップロードする方法について説明します。 [!DNL Google Ads].
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: a004f5025ee94c6a40c24124a9cb134a4e1668ce
+source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. の横のチェックボックスをオンにします。 **[!UICONTROL Upload Conversions to Google Ads]**.
 
-1. (EEA（ヨーロッパ経済圏）または英国（英国）でビジネスを行う広告主 )。広告目的でデータをアップロードする EEA および UK ユーザーの同意を得た場合は、の横にあるチェックボックスをオンにします。 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+1. (EEA（ヨーロッパ経済圏）または英国（英国）でビジネスをしている広告主。オプション )EEA および UK のユーザーから広告用にデータをアップロードする同意を収集している場合は、の横のチェックボックスをオンにします。 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
 1. クリック **[!UICONTROL Save]**.
 

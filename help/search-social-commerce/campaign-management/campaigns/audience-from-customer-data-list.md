@@ -3,7 +3,7 @@ title: 顧客データリストを使用した顧客一致オーディエンス�
 description: 作成および編集方法を学ぶ [!DNL Google Ads] および [!DNL Microsoft® Advertising] 顧客データリストからの顧客一致オーディエンス。
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 588b6b5887903e5912fc68a18ef142d908026870
+source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 
       1. 「 」チェックボックスを選択して、の利用条件に同意したことを示します。 [!DNL Adobe] および広告ネットワークのプライバシーポリシー。
 
-      1. ( 広告主の作成 [!DNL Google Ads] 欧州経済圏 (EEA) または英国 (UK) でビジネスを行うオーディエンス（オプション）EEA および UK ユーザーから広告用にデータをアップロードする同意を得ている場合は、の横のチェックボックスをオンにします。 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+      1. ( 広告主の作成 [!DNL Google Ads] 欧州経済圏 (EEA) または英国 (UK) でビジネスを行うオーディエンス（オプション）EEA および UK ユーザーから広告用にデータをアップロードする同意を収集している場合は、の横のチェックボックスをオンにします。 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
       [!DNL Google Ads] は、同意ステータスが未指定の EEA および UK ユーザーのデータをすべて無視します。 これは、データに相違が生じ、パフォーマンスに問題が生じる可能性があります。
 

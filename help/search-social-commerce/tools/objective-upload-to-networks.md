@@ -3,7 +3,7 @@ title: 広告ネットワークへの目標のアップロードを有効にす�
 description: ハイブリッドポートフォリオの目標を次にアップロードする方法を説明します。 [!DNL Google Ads] および [!DNL Microsoft® Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 0fb03410e67be28d24496c948b52399c8465e041
+source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
    このオプションは、広告主アカウントがハイブリッド最適化を使用するように設定されている場合にのみ使用できます。 ハイブリッド最適化を有効にするには、Adobeアカウントチームにお問い合わせください。
 
-1. ( [!DNL Google Ads] 欧州経済圏 (EEA) または英国 (UK) でビジネスを行うアカウント（オプション）EEA および UK ユーザーから広告用にデータをアップロードする同意を得ている場合は、の横のチェックボックスをオンにします。 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+1. ( [!DNL Google Ads] 欧州経済圏 (EEA) または英国 (UK) でビジネスをしているアカウント（オプション）EEA および UK ユーザーから広告用にデータをアップロードする同意を収集している場合は、の横のチェックボックスを選択します。 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
 1. クリック **[!UICONTROL Save]**.
 
