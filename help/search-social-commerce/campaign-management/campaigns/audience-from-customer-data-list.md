@@ -1,11 +1,11 @@
 ---
 title: 顧客データリストを使用した顧客一致オーディエンスの管理
 description: 作成および編集方法を学ぶ [!DNL Google Ads] および [!DNL Microsoft® Advertising] 顧客データリストからの顧客一致オーディエンス。
-exl-id: 734d8cb1-3915-410f-a0cc-0669d6575eab
+exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 588b6b5887903e5912fc68a18ef142d908026870
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,10 @@ ht-degree: 0%
       1. Adobe Analytics の [!UICONTROL Select File] 「 」フィールドで、「 **[!UICONTROL Choose File]** お使いのネットワークまたはデバイス上のファイルを選択します。
 
       1. 「 」チェックボックスを選択して、の利用条件に同意したことを示します。 [!DNL Adobe] および広告ネットワークのプライバシーポリシー。
+
+      1. ( 広告主の作成 [!DNL Google Ads] 欧州経済圏 (EEA) または英国 (UK) でビジネスを行うオーディエンス（オプション）EEA および UK ユーザーから広告用にデータをアップロードする同意を得ている場合は、の横のチェックボックスをオンにします。 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+
+      [!DNL Google Ads] は、同意ステータスが未指定の EEA および UK ユーザーのデータをすべて無視します。 これは、データに相違が生じ、パフォーマンスに問題が生じる可能性があります。
 
       1. クリック **[!UICONTROL Upload File]**.
 

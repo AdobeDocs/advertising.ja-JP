@@ -1,11 +1,11 @@
 ---
 title: キャンペーンに関する FAQ
 description: キャンペーン管理とキャンペーンデータビューに関する質問への回答を参照してください。
-exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 +++キャンペーンとコンポーネントを別のアカウントに移動させることはできますか？
 
-一意の ID を持つキャンペーンまたはキャンペーンコンポーネントを、別のアカウント ID を持つアカウントに移動またはコピーしないでください。 これを行うと、データエラーが発生します。
+一意の ID を持つキャンペーンまたはキャンペーンコンポーネントを、別のアカウント ID を持つアカウントに移動またはコピーしないでください。 これをおこなうと、データエラーが発生します。
 +++
 
 +++クリックデータは広告ネットワークからいつ更新されますか？
@@ -26,11 +26,11 @@ ht-degree: 0%
 さらに、 [!DNL Google Ads] 現在の日付の検索ネットワーク上のキャンペーンレベルのパフォーマンス指標は、広告主のタイムゾーンの 08:00 および 16:00 に取り込まれます。
 +++
 
-+++キーワードおよび広告が履歴を失う原因となるアクションは何ですか？
++++キーワードや広告の履歴が失われる原因となるアクションは何ですか？
 
 >[!NOTE]
 >
->（ポートフォリオを持つ広告主）新しいキーワードと一致タイプの組み合わせは、不安定なパフォーマンスを期待し、Search、Social、および Commerce でデータを収集して新しいモデルを作成します。
+>（ポートフォリオを持つ広告主）新しいキーワードと一致タイプの組み合わせは、不安定なパフォーマンスを期待し、Search、Social、および Commerce でデータが収集されてモデルが作成されます。
 
 **Adobe Analytics の [!UICONTROL Search] > [!UICONTROL Campaigns] 表示、一括送信シートの投稿プロセスおよび広告ネットワーク独自のエディターで：**
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 * ([!DNL Baidu], [!DNL Google Ads]、および [!DNL Yandex]) キーワード名を編集します。
 
-* ([!DNL Google Ads], [!DNL Microsoft Advertising]、および [!DNL Yandex]) キーワードの一致タイプを変更します。
+* ([!DNL Google Ads], [!DNL Microsoft® Advertising]、および [!DNL Yandex]) キーワードの一致タイプを変更します。
 
 * キーワードを広告グループ間で移動します。
 
-* ([!DNL Google Ads] 動的検索広告、 [!DNL Microsoft Advertising] 拡張テキスト広告と、他のサポートされている広告ネットワーク上のすべての広告タイプ ) 広告コピー（ヘッドライン/タイトルまたは説明）または広告イメージを編集します。
+* ([!DNL Google Ads] 動的検索広告、 [!DNL Microsoft® Advertising] 拡張テキスト広告と、他のサポートされている広告ネットワーク上のすべての広告タイプ ) 広告コピー（ヘッドライン/タイトルまたは説明）または広告イメージを編集します。
 
 * 広告を広告グループ間で移動します。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 +++(Google Ads キャンペーン ) ポートフォリオ内のキャンペーンに共有予算を使用できますか。
 
-最適な結果を得るには、を追加しないでください [!DNL Google Ads] キャンペーンの [!DNL Google Ads] 共有予算 (「[!UICONTROL Auto adjust campaign budget limits].&quot; もしそうなら [!DNL Google Ads] は、検索、ソーシャル、コマースに最適化されたキャンペーン予算を上書きします。これにより、入札の非効率性が高まる可能性があります。
+最適な結果を得るには、を追加しないでください [!DNL Google Ads] キャンペーンを [!DNL Google Ads] 共有予算 (「[!UICONTROL Auto adjust campaign budget limits].&quot; もしそうなら [!DNL Google Ads] は、検索、ソーシャル、コマースに最適化されたキャンペーン予算を上書きします。これにより、入札の非効率性が高まる可能性があります。
 +++
 
 +++([!DNL Google Ads] キャンペーン ) モバイルユーザーとモバイル以外のユーザーを異なるランディングページに送信することはできますか？
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 [!DNL Google Ads] 現在の日付の検索ネットワーク上のキャンペーンレベルのパフォーマンス指標は、広告主のタイムゾーンの 08:00 および 16:00 に取り込まれます。
 
-Adobe Analytics の [!UICONTROL Campaigns] タブ [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 表示と [!UICONTROL Optimization] > [!UICONTROL Portfolios] 表示、次の項目に関するレポートを作成する [!UICONTROL Today] または、現在の日付を含むカスタム日付範囲の場合、データには最近取り込まれたデータが含まれます。
+Adobe Analytics の [!UICONTROL Campaigns] タブ [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 表示と [!UICONTROL Optimization] > [!UICONTROL Portfolios] 表示、次の項目に関するレポートを作成する [!UICONTROL Today] または、現在の日付を含むカスタム日付範囲では、最新の同期済みデータがデータに含まれます。
 
 >[!NOTE]
 >
@@ -107,13 +107,21 @@ Adobe Analytics の [!UICONTROL Campaigns] タブ [!UICONTROL Search] > [!UICONT
 
 +++
 
-+++([!DNL Google Ads] および [!DNL Microsoft Advertising]) 検索、ソーシャル、コマースは、 [!DNL Google Ads] または [!DNL Microsoft Advertising]?
++++トラッキングテンプレートとランディングページサフィックスの違いは何ですか？
 
-並列トラッキングでは、顧客を広告から最終的な URL に直接送信し、トラッキングテンプレートの URL（クリック指標を使用）がバックグラウンドに読み込まれるので、ランディングページの読み込みがより迅速になります。
+ランディングページサフィックスは、並列トラッキングをサポートする広告ネットワークに対してのみ使用します。 Search、Social、および Commerce では、トラッキングテンプレートとランディングページのサフィックスの両方に広告ネットワークからのクリック識別子を含める必要がありますが、トラッキングテンプレートには追加のトラッキングパラメーターが含まれます。
 
-Search, Social, &amp; Commerce は、広告ネットワークのクリック識別子 (`msclkid` 対象： [!DNL Microsoft Advertising]; `gclid` 対象： [!DNL Google Ads]) をクリックします。 を使用します。 [アカウントレベル](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) または [キャンペーンレベル](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] ( 呼び出し名：[!DNL final URL suffix]」 （広告ネットワーク内）に追加され、並列追跡をサポートするブラウザーからの子広告のクリック数を追跡するためのランディングページ URL に追加されます。 詳しくは、 [必要なサフィックス形式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) および [必要なサフィックス形式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+次に関する FAQ を参照してください。 [並列トラッキングサポート](#parallel-tracking) ユーザーが広告をクリックしたときにトラッキングテンプレートとランディングページのサフィックスが読み込まれる方法について詳しくは、を参照してください。
 
-並列追跡をサポートしないブラウザーで広告を表示した場合、広告ネットワークは順次追跡を使用します。顧客は最初にトラッキングテンプレートの URL に送信され、顧客を最終的な URL にリダイレクトする前に中間トラッキングサーバーにリダイレクトできます。 広告ネットワークアカウントのすべてのトラッキングテンプレートに、 [!UICONTROL Landing Page Suffix]. 詳しくは、 [のトラッキングテンプレート形式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) そして [のトラッキングテンプレート形式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
++++
+
++++([!DNL Google Ads] および [!DNL Microsoft® Advertising]) 検索、ソーシャル、コマースは、 [!DNL Google Ads] または [!DNL Microsoft® Advertising]? {#parallel-tracking}
+
+並列追跡では、顧客を広告から最終 URL に直接送信します。この URL には、最終 URL サフィックスまたは「ランディングページのサフィックス」から追加されたパラメーターを含めることができます。 トラッキングテンプレート URL（クリック測定用の追加パラメーターを含む）は、バックグラウンドで別々に読み込まれるので、ランディングページの読み込みがより迅速になります。
+
+Search, Social, &amp; Commerce は、広告ネットワークのクリック識別子 (`msclkid` 対象： [!DNL Microsoft® Advertising]; `gclid` 対象： [!DNL Google Ads]) をクリックします。 を使用します。 [アカウントレベル](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) または [キャンペーンレベル](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] ( 呼び出し名：[!DNL final URL suffix]」 （広告ネットワーク内）に追加され、並列追跡をサポートするブラウザーからの子広告のクリック数を追跡するためのランディングページ URL に追加されます。 詳しくは、 [必要なサフィックス形式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) および [必要なサフィックス形式 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+
+並列追跡をサポートしていないブラウザーで広告を表示する場合、広告ネットワークは順次追跡を使用します。顧客は最初にトラッキングテンプレート URL に送信され、顧客を最終的な URL にリダイレクトする前に中間トラッキングサーバーにリダイレクトします。 広告ネットワークアカウントのすべてのトラッキングテンプレートに、 [!UICONTROL Landing Page Suffix]. 詳しくは、 [のトラッキングテンプレート形式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) そして [のトラッキングテンプレート形式 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++広告のトラッキング URL に「`&EV_HASH={<hash>}`?」
@@ -129,7 +137,7 @@ Search, Social, &amp; Commerce は、広告ネットワークのクリック識�
 
 広告を一時停止すると、同じ広告を再送信するか、在庫レベルが最小値を超えると、広告が再アクティブ化されます。 これにより、広告の履歴を保持できます。
 
-広告を削除して再送信すると、新しい広告が作成され、履歴データを蓄積する必要があります。 ただし、削除された広告を再送信しない場合は、履歴データを持つことは重要ではありません。
+広告を削除して再送信すると、新しい広告が作成され、新しい広告に対して履歴データを蓄積する必要があります。 ただし、削除された広告を再送信しない場合は、履歴データを持つことは重要ではありません。
 +++
 
 +++（製品在庫フィード）広告テンプレートを削除してから新しい同一のテンプレートを作成した場合、（フィードファイルの設定で一時停止された）次のフィードファイルに項目が見つかりませんか。
@@ -150,7 +158,7 @@ Search, Social, &amp; Commerce は、広告ネットワークのクリック識�
 
 +++在庫フィードから生成されたキャンペーンに、多くの孤立したトランザクションが含まれています。
 
-次の場合、 [フィードデータ設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) は、様々な状況で広告を削除するように設定され、広告のクリック後に発生する遅延コンバージョンは、 [孤立トランザクション](/help/search-social-commerce/glossary.md#o-p). 広告を削除する代わりに一時停止することをお勧めします。 長い期間も広告が売上高を受け取っていない場合は、バルクシートまたは広告管理ビューを使用して削除できます。
+次の場合、 [フィードデータ設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) は、様々な状況で広告を削除するように設定され、広告のクリック後に発生する遅延コンバージョンは、 [孤立トランザクション](/help/search-social-commerce/glossary.md#o-p). 広告を削除する代わりに一時停止することをお勧めします。 長い間広告が売上高を受け取っていない場合は、バルクシートまたは広告管理ビューを使用して削除できます。
 +++
 
 ## アカウントおよびキャンペーンに関するパフォーマンスの問題
