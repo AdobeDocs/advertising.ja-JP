@@ -3,9 +3,9 @@ title: ユニバーサル ID パートナーからの認証済みセグメント
 description: ユニバーサル ID ソリューションを使用して認証済みオーディエンスをアクティブ化する方法について説明します。
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: e9ff454428d0256402a2ef2fa74f8bd45bd7592f
+source-git-commit: 5d031fe746dc5051320e5d2092f9148b5a8a1bd5
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Advertising DSPのユニバーサル ID ソリューションを通じて認証�
 
 1. どちらのオプションの場合も、連絡先 `adcloud-support@adobe.com` を有効にして、DSPで次の設定を有効にします。これにより、DSPキャンペーンで認証済みのセグメントを 1 回ターゲットに設定できます。 [アクティベーションワークフローのすべての手順が完了します](source-adobe-rtcdp.md):
 
-   1. [!DNL LiveRamp] [!DNL RampID] セグメント共有の前のキャンペーンの設定 [!DNL Real-Time CDP].
+   * [!DNL LiveRamp] [!DNL RampID] セグメント共有の前のキャンペーン設定 [!DNL Real-Time CDP]
 
-   1. アカウントレベルの「[!UICONTROL LiveRamp segments]&quot;オプション。
+   * アカウントレベルの「[!UICONTROL LiveRamp segments]&quot;オプション
 
 1. ( ユーザーが手動で、認証済みのセグメントを [!DNL LiveRamp]) 次の手順 ( [!DNL LiveRamp] [!DNL Connect] ダッシュボード：
 
