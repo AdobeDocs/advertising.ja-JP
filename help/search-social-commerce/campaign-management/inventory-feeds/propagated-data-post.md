@@ -3,7 +3,7 @@ title: フィードから広告ネットワークに生成されたキャンペ�
 description: 在庫データフィードから生成されたデータを広告ネットワークに投稿する方法を説明します。
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
             * **[!UICONTROL End Time]:** 投稿された広告が、 [フィードデータ設定](feed-settings-manage.md#feed-data-settings) &quot;の[!UICONTROL When the Scheduled End Date is reached].&quot; デフォルトでは、終了時間は、今日から 30 日間、00:00（午前 12:00）です。 選択 **[!UICONTROL None]** 無期限に（またはテンプレートに新しいデータが反映されるまで）データをアクティブに保つ場合は、日時を指定します。
 
-              日付を指定するには、DD/MM/YYYY または D/M/YYYY の形式を使用するか、 [カレンダー](/help/search-social-commerce/assets/calendar.png "カレンダー") カレンダーを開き、 [日付を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). 時刻を変更するには、24 時間形式（HH/MM または H/M）で時刻を入力するか、リストから時刻を（30 分間隔で）選択します。
+              日付を指定するには、DD/MM/YYYY または D/M/YYYY の形式を使用するか、 ![カレンダー](/help/search-social-commerce/assets/calendar.png "カレンダー") カレンダーを開き、 [日付を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). 時刻を変更するには、24 時間形式（HH/MM または H/M）で時刻を入力するか、リストから時刻を（30 分間隔で）選択します。
 
          * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** から使用可能なバルクシートファイルを作成します。 [!UICONTROL Search] > [!UICONTROL Bulksheets] 表示。 必要に応じて、そこからファイルを投稿できます。
 
