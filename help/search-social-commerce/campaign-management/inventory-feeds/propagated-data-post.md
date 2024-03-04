@@ -1,11 +1,11 @@
 ---
 title: フィードから広告ネットワークに生成されたキャンペーンデータを投稿します
 description: 在庫データフィードから生成されたデータを広告ネットワークに投稿する方法を説明します。
-exl-id: 14ce377c-9b71-48ac-8ead-cada9c06d52f
+exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
               日付を指定するには、DD/MM/YYYY または D/M/YYYY の形式を使用するか、 [カレンダー](/help/search-social-commerce/assets/calendar.png "カレンダー") カレンダーを開き、 [日付を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). 時刻を変更するには、24 時間形式（HH/MM または H/M）で時刻を入力するか、リストから時刻を（30 分間隔で）選択します。
 
-         * *[!UICONTROL Preview in Bulksheet Management Area only, post later]:**から使用可能なバルクシートファイルを作成します。 [!UICONTROL Search] > [!UICONTROL Bulksheets] 表示。 必要に応じて、そこからファイルを投稿できます。
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** から使用可能なバルクシートファイルを作成します。 [!UICONTROL Search] > [!UICONTROL Bulksheets] 表示。 必要に応じて、そこからファイルを投稿できます。
 
            生成されるバルクシートファイルが 2 MB を超える場合、ファイルは ZIP 形式になります。 ファイルを解凍して投稿する必要はありません。
 
