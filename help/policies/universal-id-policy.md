@@ -4,7 +4,7 @@ description: ユニバーサル ID の使用に関するポリシーを参照し
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: b870d2cb7d8c6304016af0c7fbec1e56511bdac1
+source-git-commit: 2a77177ea7fb563835731fbbaa5447df94c211e9
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- In TOC, but hidden from TOC and both external and internal search -->
 
-最終更新日： 2024 年 3 月 2 日
+最終更新日： 2024 年 2 月 30 日
 
 このユニバーサル ID 要件ポリシー（「ポリシー」）では、を介して配布された広告に関連するユニバーサル ID の使用に関する要件を定めています。 [!DNL Adobe's] Adobe Advertising向けオンデマンドサービス（「サービス」）。 本方針は、次の間の協定に基づいて組み込まれます。 [!DNL Adobe] およびお客様（「あなた」）がオンデマンドサービスを使用している場合。 本ポリシーで使用されるが、ここで定義されていない大文字の用語は、本契約に規定される意味を持ちます。
 
