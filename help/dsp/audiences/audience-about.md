@@ -3,9 +3,9 @@ title: Advertising DSPの Audience Management について
 description: Audience Management 機能について説明します。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 0979032c6dff9cfe7b5fb7deb10f53114efffb7e
+source-git-commit: e2387f7e373e69c72e97ee83eff8f6a7ce9ceed5
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ DSPでは、オーディエンスセグメントとオーディエンスセッ�
 
 ## ファーストパーティおよびサードパーティのデータセグメントの読み込み
 
-DSPでは、必要に応じて、データ管理プラットフォーム (DMP) から独自のファーストパーティデータセグメントを読み込み、それらを任意の広告主セットに提供できます。
+DSPでは、cookie レスのターゲティング用にファーストパーティセグメントをユニバーサル ID に変換でき、任意の広告主やアカウントで利用できるようになります。 DSPは、次のためのコネクタを確立しました： [の [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html) およびその他の CDP 詳しくは、 [ソースセクション](/help/dsp/audiences/sources/source-about.md).
 
-DSPは、 [の [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)：認証済みのファーストパーティセグメントを承認済みの広告主やユーザーと共有して、キャンペーンをアクティベートできます。 Real-Time CDP統合について詳しくは、 [ソースセクション](/help/dsp/audiences/sources/source-about.md).
+DSPでは、他のファーストパーティデータセグメントをデータ管理プラットフォーム (DMP) から直接読み込み、必要に応じて任意の広告主に提供することもできます。
 
-DSPでは、サードパーティセグメントの複雑な組み合わせを含む、カスタムサードパーティセグメントを読み込むこともできます。 必要に応じて、任意の広告主セットにセグメントを提供できます。
+さらに、DSPは、サードパーティセグメントの複雑な組み合わせを含む、カスタムサードパーティセグメントを読み込むことができます。 必要に応じて、任意の広告主セットにセグメントを提供できます。
 
 詳しくは、Adobeアカウントチームにお問い合わせください。
 
