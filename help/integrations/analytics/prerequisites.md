@@ -3,9 +3,9 @@ title: 実装の前提条件と主な情報 [!DNL Analytics for Advertising]
 description: 実装の前提条件と主な情報 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: e7773c31c1834b05731b4711ae237cde481e5639
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Adobe AnalyticsとAdobe Advertisingを統合する前に、次の情報を確認
    * Experience CloudID サービス： `visitorAPI.js` バージョン 2.0 以降
 * Adobe Analyticsの任意のバージョン ( [!DNL Prime], [!DNL Premium]または [!DNL Ultimate])
 * ADOBE ANALYTICS: `appMeasurement.js` バージョン 2.1 以降
+* (Advertising DSPのお客様 ) An [Advertising DSP JavaScript スニペット](javascript.md) ビュースルーの訪問を追跡するために Web ページにデプロイされます。
 
 >[!TIP]
 >
@@ -89,7 +90,7 @@ The [!DNL Analytics for Advertising] JavaScript では、これらの設定を�
 
 * 統合が渡すのは [!DNL Analytics] 標準およびカスタムイベントを使用して、後続の有料メディアおよび広告活動の入札最適化にAdobe Advertising。 通り過ぎない [!DNL Analytics] セグメント、計算指標および [!DNL eVars] を入札の最適化用のAdobe Advertisingに追加します。
 
-* Adobe Advertisingが内で永続 ID を作成する [!DNL Analytics] ユーザーがサイトに入る前にクリックまたは表示された最後の広告に基づき、 [クリックおよびビュースルーのルックバックウィンドウ](#lookback-a4adc) Adobe Advertisingで設定。 サイト訪問者がプロファイル内で両方のタイプのサイトエントリインタラクションをおこなう場合で、クリックがルックバック期間内の場合、訪問者のクリックスルー ID は、サイトレポートのビュースルー ID よりも優先されます。
+* Adobe Advertisingが内で永続 ID を作成する [!DNL Analytics] ユーザーがサイトに入る前にクリックまたは表示された最後の広告に基づき、 [クリックおよびビュースルーのルックバックウィンドウ](#lookback-a4adc) Adobe Advertisingで設定。 サイト訪問者のプロファイル内で両方のタイプのサイトエントリインタラクションがおこなわれ、そのクリックがルックバック期間内の場合、訪問者のクリックスルー ID がサイトレポートのビュースルー ID よりも優先されます。
 
 * [!DNL Analytics for Advertising] Adobe Analyticsのコンバージョントラッキングでは、設定可能なトラッキングルックバックウィンドウが使用されます（デフォルトで 60 日間）。 Adobe Advertisingレポートは、このトラッキングルックバックウィンドウの終わりを通じてサイトのコンバージョンとエンゲージメントを反映しています。
 
