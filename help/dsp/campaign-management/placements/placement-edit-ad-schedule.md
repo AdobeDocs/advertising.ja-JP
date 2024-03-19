@@ -3,7 +3,7 @@ title: 配置の広告スケジュールの編集
 description: 配置に関連付けられた広告の広告スケジュールを変更する方法を説明します。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
+source-git-commit: 02a643662b00e2aed6dccf80cf8eeaf04d3d5c34
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -60,21 +60,21 @@ ht-degree: 0%
 
 1. 配置名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
-   1. 次のいずれかの操作を行います。
+1. 次のいずれかの操作を行います。
 
-      * フライトを追加するには、 **[!UICONTROL Add Flight]**&#x200B;をクリックし、開始日と終了日を指定します。
+   * フライトを追加するには、 **[!UICONTROL Add Flight]**&#x200B;をクリックし、開始日と終了日を指定します。
 
-      * 広告に既存のフライトを追加するには、 **[!UICONTROL +]** （「flight」列の広告行）
+   * 広告に既存のフライトを追加するには、 **[!UICONTROL +]** （「flight」列の広告行）
 
-      * 広告から既存のフライトを削除するには、 **[!UICONTROL x]** （「flight」列の広告行）
+   * 広告から既存のフライトを削除するには、 **[!UICONTROL x]** （「flight」列の広告行）
 
       * （複数の広告が同じフライトを持つ場合）広告を不均等に回転させるには、 **[!UICONTROL Even Rotation]** フライト情報を入力し、各広告を回転させる相対的な重みをパーセンテージで入力します。
 
         重みの合計は 100 にする必要があります。
 
-   1. 右上で、 **[!UICONTROL Continue]**.
+1. 右上で、 **[!UICONTROL Continue]**.
 
-   1. フライトの詳細を確認し、 **[!UICONTROL Save & Finish]**.
+1. フライトの詳細を確認し、 **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
