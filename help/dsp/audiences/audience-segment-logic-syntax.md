@@ -3,7 +3,7 @@ title: オーディエンスセグメントロジックの構文
 description: オーディエンスセグメントのロジックを定義する際に使用できる構文を参照します。
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -15,15 +15,14 @@ ht-degree: 0%
 再利用可能なオーディエンスを作成する場合、英数字のセグメント ID（キー）と次の構文を使用して、セグメントロジックを手動で定義できます。
 
 * ()：グループを示します。
-* `||` 対象 [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
+* `||` 対象： [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
 * &amp;&amp; for [!DNL AND]
-* ! 対象 [!DNL NOT] （除外）
+* ! 対象： [!DNL NOT] （除外）
 
 >[!NOTE]
 >
 >* 指定したセグメントグループは、前にが付いていない限り、すべて含まれます。 （これらを除く）。
 >* 以下が可能です。 [オーディエンスのセグメント ID を見つける](reusable-audience-clipboard.md) から [!UICONTROL Audiences] > [!UICONTROL All audiences].
-
 
 例えば、次のロジックがあるとします。
 
@@ -45,7 +44,6 @@ ht-degree: 0%
 >
 >* [再利用可能なオーディエンスのセグメントキーをクリップボードにコピーする](reusable-audience-clipboard.md)
 >* [Audience Management について](audience-about.md)
->* [再利用可能なオーディエンスを作成](reusable-audience-create.md)
+>* [再利用可能なオーディエンスを作成する](reusable-audience-create.md)
 >* [オーディエンス設定](audience-settings.md)
 >* [利用可能なサードパーティデータプロバイダー](third-party-data-providers.md)
-
