@@ -5,19 +5,20 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 0a8bf1a457ecfa84164fb5ee4ff75aa95487edd2
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '2221'
+source-wordcount: '2241'
 ht-degree: 0%
 
 ---
 
-# 新機能
+# 最新情報
 
 以下の機能は、新しい機能または最近変更された機能です。
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024 年 3 月 21 日 | プランナー | 新しいプランナーツールは、ベータモードではなくなりました。 | 参照：[DSP Planner ツールについて](/help/dsp/planner/planner-about.md).&quot; |
 | 2024 年 2 月 22 日 | [!UICONTROL Alerts] 対象： [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads]、および [!UICONTROL Deals] | A [!UICONTROL Pulse Panel] アイコン [!UICONTROL Campaigns], [!UICONTROL Packages] およびパッケージの詳細 [!UICONTROL Placements]、および [!UICONTROL Ads] ビューは、ビュー内の項目に対してアラートが使用可能かどうかを示します。 パネルを開いて各アラートを表示し、必要に応じて該当するビュー ( 例： [!UICONTROL Placements] 該当するプレースメントが一覧表示されて表示されている ) を確認し、必要に応じて設定を編集して問題を解決します。 オプションで任意のアラートを解除することもできます。<br><br>また、 [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements]、および [!UICONTROL Ads] ビューには「[!UICONTROL Alerts]」列には、項目またはそのコンポーネントのいずれかに問題が発生した日時が示されます。<br><br>アラートは、キャンペーン、パッケージ、プレースメント、広告、および契約レベルで使用できます。 | 参照：[アラートと通知の表示](/help/dsp/campaign-management/reports/campaign-alerts.md).&quot; |
 |  | [!UICONTROL Placements] | 新しい配置設定では、a) 十分な予算が利用可能な場合にパッケージレベルの予算配分を上書きする最小配置予算を指定できます。b) 少なくとも契約の固定価格と下限価格を入札する入札価格アルゴリズムを上書きします。<ul><li>パッケージに属する配置の設定で、パッケージ予算に対する最小予算の割合を指定できるようになりました。 この機能を使用するには、配置資金オプションを選択して、「[!UICONTROL Set a Fixed Minimum or Maximum Budget]&quot; ( 以前の&quot;[!UICONTROL Set a fixed budget cap]」) をクリックします。 引き続き、 [!UICONTROL Maximum Budget] USD（予算上限に対する以前の方法と同様）で指定し、 [!UICONTROL Minimum Budget] パッケージ予算のパーセンテージです。 既存の配置の場合、新しいフィールド名を使用して既存の設定が保持されます。</li><li>Adobe Analytics の [!UICONTROL Inventory Targeting] 設定、新しいオプション [!UICONTROL On Demand] インベントリとプライベートインベントリを使用すると、[!UICONTROL Ensure Fixed or Floor Price for the bid].&quot;</li></ul> | 参照：[配置設定](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2024 年 2 月 8 日 | [!UICONTROL Placements] および [!UICONTROL Ads] | The [!UICONTROL Ads Tool] にパッケージフィルターが追加されました。 | 参照：[配置への広告の付加](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |

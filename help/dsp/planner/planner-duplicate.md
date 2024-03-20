@@ -2,16 +2,15 @@
 title: 接続済み TV リーチプランの複製
 description: 既存のプランの設定を使用して、接続された TV リーチプランを作成する方法を説明します。
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
 # 接続済み TV リーチプランの複製
-
-*ベータ版機能*
 
 1. メインメニューで、 **[!UICONTROL Planner]**.
 

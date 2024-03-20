@@ -2,16 +2,15 @@
 title: 接続された TV リーチプランの予測のエクスポート
 description: 接続されたテレビリーチプランの予測を書き出す方法を説明します。
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: f4bad569-1b56-439a-8c41-92a24a710476
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
 
 # 接続された TV リーチプランの予測のエクスポート
-
-*ベータ版機能*
 
 次の項目を書き出すことができます。 [!UICONTROL Budget vs Reach] ～に予測する [!DNL Microsoft® Excel] スプレッドシート** [!UICONTROL Budget] および [!UICONTROL Reach] 列。
 

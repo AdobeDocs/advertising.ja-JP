@@ -2,16 +2,15 @@
 title: 接続済み TV リーチプランの編集
 description: 接続されたテレビのリーチプランの設定を編集する方法を説明します。
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: 675a09d1-9548-416d-bfa6-a6242149b255
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
 # 接続済み TV リーチプランの編集
-
-*ベータ版機能*
 
 プラン設定を編集すると、新しい予測が生成されます。
 
