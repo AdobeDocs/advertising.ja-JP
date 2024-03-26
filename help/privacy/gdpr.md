@@ -4,9 +4,9 @@ description: サポートされるデータリクエストの種類、必須セ�
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 1ae5b1c1d9742d877763b9efd09585da3a6d4e48
+source-git-commit: 40bd2cfb3d16e3c88679617ad95706e0a2ac971a
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,9 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
 
    >[!IMPORTANT]
    >
-   >一部のAdobe Experience Cloudソリューションへのリクエストには JavaScript ライブラリは必要ありませんが、Adobe Advertisingへのリクエストには必要です。
+   >一部のExperience Cloudソリューションへのリクエストには JavaScript ライブラリは必要ありませんが、Adobe Advertisingへのリクエストには必要です。
 
-   Web ページにライブラリをデプロイして、会社のプライバシーポータルなど、データ主体がアクセス要求や削除要求を送信できるようにする必要があります。 ライブラリを使用すると、AdobeCookie( 名前空間 ID: `gsurferID`) を使用して、Adobe Experience Platform Privacy Service API を介してこれらの id をアクセスリクエストや削除リクエストの一部として送信できるようにします。
+   データ主体がアクセス要求や削除要求を送信できる Web ページ（会社のプライバシーポータルなど）にライブラリをデプロイする必要があります。 ライブラリを使用すると、 [!DNL Adobe] cookies ( 名前空間 ID: `gsurferID`) を使用して、Adobe Experience Platform Privacy Service API を介してこれらの id をアクセスリクエストや削除リクエストの一部として送信できるようにします。
 
    データ主体が個人データの削除を要求すると、ライブラリはデータ主体のブラウザーからデータ主体の Cookie も削除します。
 
@@ -55,7 +55,7 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
 
 1. Experience Cloud組織 ID を特定し、組織アカウントにリンクされていることを確認します。
 
-   Experience Cloud組織 ID は、24 文字の英数字から成る文字列で、末尾に「@AdobeOrg」が付きます。 ほとんどのExperience Cloudのお客様には、組織 ID が割り当てられています。 マーケティングチームまたは内部Adobeシステム管理者が組織 ID を把握していない場合や、組織 ID がプロビジョニングされているかどうかが不明な場合は、Adobeカスタマーケア (gdprsupport@adobe.com) にお問い合わせください。 プライバシー API に要求を送信するには、組織 ID が、 `imsOrgID` 名前空間。
+   Experience Cloud組織 ID は、24 文字の英数字から成る文字列で、末尾に「@AdobeOrg」が付きます。 ほとんどのExperience Cloudのお客様には、組織 ID が割り当てられています。 マーケティングチームまたは社内の [!DNL Adobe] システム管理者が組織 ID を知らないか、プロビジョニングされているかどうかが不明な場合は、Adobeカスタマーケア (gdprsupport@adobe.com) にお問い合わせください。 プライバシー API に要求を送信するには、組織 ID が、 `imsOrgID` 名前空間。
 
    >[!IMPORTANT]
    >
@@ -63,7 +63,7 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
 
 1. 次のいずれかを使用します。 [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （自動リクエストの場合）または [Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja) （アドホックリクエストの場合）データ主体に代わってAdobe Advertisingにアクセス要求および削除要求を送信し、既存の要求のステータスを確認することができます。
 
-   モバイルアプリを持つ広告主がデータ主体とやり取りし、DSPとキャンペーンを開始する場合、Experience Cloud用にプライバシー対応の Mobile SDK をダウンロードする必要があります。 Mobile SDK を使用すると、データ管理者はオプトアウトステータスフラグの設定、データ主体のデバイス ID の取得（名前空間 ID:deviceID）、Privacy ServiceAPI へのリクエストの送信をおこなうことができます。 モバイルアプリには、SDK バージョン4.15.0以降が必要です。
+   モバイルアプリを持つ広告主がデータ主体とやり取りし、DSPとキャンペーンを開始する場合、Experience Cloud用にプライバシー対応の Mobile SDK をダウンロードする必要があります。 Mobile SDK を使用すると、データ管理者はオプトアウトステータスフラグの設定、データ主体のデバイス ID( 名前空間 ID: `deviceID`) をクリックし、リクエストをPrivacy ServiceAPI に送信します。 モバイルアプリには、SDK バージョン4.15.0以降が必要です。
 
    データ主体のアクセスリクエストを送信すると、Privacy ServiceAPI は指定された Cookie またはデバイス ID に基づいてデータ主体の情報を返します。その後、データ主体に戻る必要があります。
 
@@ -71,16 +71,16 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
 
    >[!NOTE]
    >
-   会社に複数のExperience Cloud組織 ID がある場合は、それぞれに対して個別の API リクエストを送信する必要があります。 ただし、複数のAdobe Advertisingサブソリューション ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]、および [!DNL DCO]) の代わりに、サブソリューションごとに 1 つのアカウントを使用します。
+   >会社に複数のExperience Cloud組織 ID がある場合は、それぞれに対して個別の API リクエストを送信する必要があります。 ただし、複数のAdobe Advertisingサブソリューション ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]、および [!DNL DCO]) の代わりに、サブソリューションごとに 1 つのアカウントを使用します。
 
-これらの手順はすべて、Adobe Advertisingに必要です。 Adobe Experience Platform Privacy Serviceを使用して実行する必要があるこれらのタスクやその他の関連タスクの詳細、および必要な項目の見つけ方については、「[Privacy Serviceの概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)&quot;および&quot;[Privacy ServiceAPI ガイド](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html).&quot;
+これらの手順はすべて、Adobe Advertisingに必要です。 Adobe Experience Platform Privacy Serviceを使用して実行する必要があるこれらのタスクやその他の関連タスクの詳細、および必要な項目の見つけ方については、「[Privacy Serviceの概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).&quot;
 
 ## Adobe AdvertisingJSON リクエストの必須フィールド値
 
-&quot;&quot;会社コンテキスト&quot;:
+`"company context":`
 
 * `"namespace": **imsOrgID**`
-* `"value":` &lt;*お使いの IMS Org ID 値*>
+* `"value":` &lt;*Experience Cloud組織 ID*>
 
 `"users":`
 
@@ -94,7 +94,7 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
 
    * `"value":` &lt;*から取得された実際のデータ主体の Cookie ID 値`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` ( リクエストに適用されるAdobe製品 )
+* `"include": **adCloud**` ( これは [!DNL Adobe] リクエストに適用される製品 )
 
 * `"regulation": **gdpr**` （リクエストに適用されるプライバシー規則）
 
@@ -126,7 +126,6 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
       "adCloud"
    ],
     "regulation":"gdpr"
-}
 }
 ```
 
