@@ -4,9 +4,9 @@ description: サポートされるデータリクエストの種類、必須セ�
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 40bd2cfb3d16e3c88679617ad95706e0a2ac971a
+source-git-commit: 403fdb9a54ea79390ae535f31287b327ebf71d5f
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,10 @@ GDPR がお客様のビジネスに与える影響について詳しくは、 [G
 
 Adobe Experience Platformは、企業が次のタスクを実行する機能を提供します。
 
-* 内で、データ主体の cookie レベルのデータまたはデバイス ID レベルのデータにアクセスする（モバイルアプリの広告の場合） [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]または [!DNL DCO].
-* に保存されている Cookie レベルのデータの削除 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]または [!DNL DCO] ブラウザーを使用するデータ主体の場合、または [!DNL DSP] モバイルデバイスでアプリを使用するデータ主体向け
+* 内のデータ主体の Cookie レベルのデータにアクセスする [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]または [!DNL DCO]；内のモバイルアプリにある広告のデバイス ID レベルのデータ [!DNL DSP]または、内の統合 ID 2.0 ID に関連付けられた電子メールレベルのデータ [!DNL DSP].
+
+* に保存されている Cookie レベルのデータの削除 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]または [!DNL DCO] ブラウザーを使用するデータ主体の場合、 [!DNL DSP] モバイルデバイスでアプリを使用するデータ主体の場合、または内に保存されている統合 ID 2.0 ID に関連付けられたハッシュ化された電子メールレベルのデータを削除する場合。 [!DNL DSP].<!-- stored within DSP? I thought we don't store the email addresses but dump them as soon as they're translated to a universal ID? -->
+
 * 1 つまたはすべての既存のリクエストのステータスを確認します。
 
 ## Adobe Advertisingのリクエストを送信するために必要な設定
@@ -67,7 +69,7 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
 
    データ主体のアクセスリクエストを送信すると、Privacy ServiceAPI は指定された Cookie またはデバイス ID に基づいてデータ主体の情報を返します。その後、データ主体に戻る必要があります。
 
-   データ主体の削除リクエストを送信すると、cookie ID またはデバイス ID と、その cookie に関連するすべてのコスト、クリック数、売上高のデータがサーバーから削除されます。
+   データ主体の削除リクエストを送信すると、Cookie ID またはデバイス ID がサーバーから削除されます。 次のリクエストがある場合： [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]、および [!DNL DCO]cookie ID に関連付けられているすべてのコスト、クリック数および売上高データもサーバーから削除されます。
 
    >[!NOTE]
    >
@@ -81,6 +83,11 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
 
 * `"namespace": **imsOrgID**`
 * `"value":` &lt;*Experience Cloud組織 ID*>
+  `"users":`  ここで、 [cookie ベースのリクエスト](#gdpr-request-fields-cookie) または [電子メールベースのリクエスト](#gdpr-request-fields-email)<!-- wording? -->.
+
+<!-- Complete this section -->
+
+### Cookie ベースのリクエスト {#gdpr-request-fields-cookie}<!-- Header? -->
 
 `"users":`
 
@@ -90,7 +97,7 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
 
 * `"user IDs":`
 
-   * `"namespace": **411**` ( これは、 [!DNL adcloud] cookie スペース )
+   * `"namespace": **411**` ( これは、 [!DNL adCloud] cookie スペース )&lt;!> — 数値は、https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix> ごとに、「名前空間」ではなく、「名前空間 ID」です。
 
    * `"value":` &lt;*から取得された実際のデータ主体の Cookie ID 値`AdobePrivacy.js`*>
 
@@ -98,15 +105,79 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
 
 * `"regulation": **gdpr**` （リクエストに適用されるプライバシー規則）
 
+## ハッシュ化された電子メールベースの要求 {#gdpr-request-fields-email}<!-- Header? -->
+
+`"users":`
+
+* `"key":` &lt;*通常、データ主体の名前*>
+
+* `"action":` どちらか `**access**` または `**delete**`
+
+* `"user IDs":`
+
+   * `"namespace": **Email_LC_SHA256**` （ハッシュ化された電子メール領域を示します）
+
+   * `"type": **standard**`
+
+   * `"value":` &lt;*SHA256 の実際のハッシュ化された電子メール値*>
+
+   * `"namespaceId": **411**` ( これは、 [!DNL adCloud] cookie スペース )&lt;!> — 数値は、https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix> ごとに、「名前空間」ではなく、「名前空間 ID」です。
+
+* `"include": **adCloud**` ( これは [!DNL Adobe] リクエストに適用される製品 )
+
+* `"regulation": **gdpr**` （リクエストに適用されるプライバシー規則）
+
 ## から取得したユーザー ID を使用してデータ主体から送信されたAdobe Advertisingのリクエストの例 `AdobePrivacy.js`
 
+次の例は、両方の Cookie ベースの情報（名前空間を持つ）に対する 1 つのアクセスリクエストを示しています `411`) とハッシュ化された電子メールベースの情報（名前空間を使用） `Email_LC_SHA256`) を 1 人のユーザーに対して設定します。
+
 ```
+...
+`{
+    "companyContexts": [
+      {
+        "namespace": "imsOrgID",
+        "value": "5AB13068374019BC@AdobeOrg"
+      }
+    ],
+    "users": [
+      {
+        "key": "John Doe",
+        "action": ["access"],
+        "userIDs": [
+          {
+            "namespace": "411",
+            "value": "Wqersioejr-wdg",
+            "type":"namespaceId",
+            "deletedClientSide":false
+          },
+          {
+            "namespace":"Email_LC_SHA256",
+            "value":"d78a276e7bb11a62d3c13ea58b9368ba70523cf1d834ffd5c629a1e93def3495",
+            "type":"standard",
+            "deletedClientSide":false
+          }
+        ]
+      },
+    ],
+    "include": ["adCloud"],
+    "regulation": "gdpr"
+}'
+```
+
+<!-- old format with just cookie-level data
+```
+
+{
+    "companyContexts": [
+      {
+        
 {
 "companyContexts":[
     {
         "namespace":"imsOrgID",
         "value":"5AB13068374019BC@AdobeOrg"
-      }
+    }
    ],
    "users": [
 {
@@ -118,6 +189,12 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
         "value":"Wqersioejr-wdg",
         "type":"namespaceId",
         "deletedClientSide":false
+      },
+      {
+        "namespace":"Email_LC_SHA256",
+        "value":"d78a276e7bb11a62d3c13ea58b9368ba70523cf1d834ffd5c629a1e93def3495",
+        "type":"standard",
+        "deletedClientSide":false
       }
    ]
 }
@@ -128,12 +205,76 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
     "regulation":"gdpr"
 }
 ```
+ -->
 
 ## アクセス要求に対して返されるデータフィールド
 
 次に、Adobe Advertisingのアクセス応答の例を示します。
 
 ```
+{
+    "jobId": "6fc09b53-c24f-4a6c-9ca2-c6076b0842b6",
+    "action":"access",
+    "product":"adCloud",
+    "status":"complete",
+    "results":{
+        "userIDs":[
+            {
+                "namespace": "411",
+                "userID":"Wqersioejr-wdg"
+            },
+            {
+                "namespace": "Email_LC_SHA256",
+                "type":"standard",
+                "value":"d78a276e7bb11a62d3c13ea58b9368ba70523cf1d834ffd5c629a1e93def3495",
+                "isDeletedClientSide":false
+            }
+        ],
+        "receiptData":{
+            "impressionCount":"100",
+            "clickCount":5,
+            "geo":[
+                "United States of America",
+                "San Francisco CA"
+            ],
+            "profile":[
+                {
+                    "pixelid":"111",
+                    "ut1":"abc",
+                    "ut2":"def",
+                    "ut3":"ghi",
+                    "ut4":"jkl",
+                    "ut5":"mno"
+                },
+                {
+                    "pixelid":"123",
+                    "ut1":"abc",
+                    "ut2":"def",
+                    "ut3":"ghi",
+                    "ut4":"jkl",
+                    "ut5":"mno"
+                }
+            ],
+            "matchingSegments":[
+                {
+                    "segmentName":"AP4 - Art/Culture - In-Market",
+                    "segmentID":"kV1mPa2aqPNWKSNtf325",
+                    "serviceProvider":"Adobe"
+                },
+                {
+                    "segmentName":"EMEA - UK - Health Food Buyers",
+                    "segmentID":"eP2oJ2UPsfsDVDhvlGewx",
+                    "serviceProvider":"BlueKai"
+                }
+            ]
+        }
+    }
+}
+```
+
+<!-- old format with just cookie-level data
+```
+...
 {
     "jobId":"12345AD43E",
     "action":"access",
@@ -187,3 +328,4 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
     }
 }
 ```
+-->

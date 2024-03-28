@@ -4,7 +4,7 @@ description: サポートされるデータリクエストの種類、必須セ�
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 5edcd810c86f3b3ae65ccc92748177fa8cd0765e
+source-git-commit: 2e2d95ab2a6add695c3852a06e256b6db980779d
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Adobe Experience Platformは、企業が次のタスクを実行する機能を�
 
 * `"user IDs":`
 
-   * `"namespace": **411**` ( これは、 [!DNL adcloud] cookie スペース )
+   * `"namespace": **411**` ( これは、 [!DNL adCloud] cookie スペース )
 
    * `"value":` &lt;*から取得された実際の顧客の Cookie ID 値`AdobePrivacy.js`*>
 
