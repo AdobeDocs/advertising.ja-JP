@@ -4,7 +4,7 @@ description: 消費者のオプトアウトオブセールのリクエストを�
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 158d3de4eeb534a374ddc2a037ac95c60ab56063
+source-git-commit: 7378ea6e6907aa4067bd3e73160a8e71c925ec9d
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%
@@ -121,7 +121,7 @@ curl -X POST \
             "type": "standard"
           },
           {
-            "namespace": "AdCloud",
+            "namespace": "adCloud",
             "type": "standard",
             "value":  "Wqersioejr-wdg",
           }
@@ -133,5 +133,5 @@ curl -X POST \
 
 場所：
 
-* `"namespace": "AdCloud"` は、 `AdCloud` Cookie 領域に含まれ、対応する値は、 `AdobePrivacy.js`
+* `"namespace": "adCloud"` は、 `adCloud` Cookie 領域に含まれ、対応する値は、 `AdobePrivacy.js`
 * `"include": ["adCloud"]` リクエストがAdobe Advertisingに適用されることを示します
