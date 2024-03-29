@@ -1,11 +1,11 @@
 ---
 title: 通知について
 description: 様々なタイプやカテゴリを含む通知について説明します。
-exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
+exl-id: 79495e1c-72ce-476f-83df-c4d95391f51c
 feature: Search Notifications
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 955f19647d49c31f70b8ec574734b44a9b490d52
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -44,25 +44,11 @@ ht-degree: 0%
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL UI Actions]**：バックグラウンドで実行されたジョブが完了した、または失敗したことを示す通知。 ジョブタイプには以下が含まれます。 [バルクシートジョブ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、データテーブル内のジョブ、またはユーザーインターフェイス内のツールバー、エンティティ割り当てジョブ、その他のアクション（広告ネットワークとの同期、行の貼り付け、エンティティの名前変更など）を使用して、ジョブを一括編集できます。 エンティティの割り当てには、 [ラベル分類値](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) 任意のエンティティに対して、キャンペーンをポートフォリオに割り当て、ポートフォリオに制約を割り当てたり、割り当てを解除したりします。<!--Link "constraint" to constraint-about.md if that file is ever public -->
-
    * **[!UICONTROL Bulksheets]**: [バルクシート操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) が完了したか、失敗しました。
 
-   * **[!UICONTROL Manager Account Missing]**:Search、Social、および Commerce に関する通知に、 [ad network manager アカウント](/help/search-social-commerce/admin/manager-accounts.md)：重要な関数を正しく設定するためのものです。
+   * **[!UICONTROL Manager Account Missing]**:Search、Social、および Commerce に関する通知に、 [ad network manager アカウント](/help/search-social-commerce/admin/manager-accounts.md)：重要な関数を正しく設定するために必要です。
 
-  <!--
-  * [!UICONTROL Setup Errors]
-  
-    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect [AMO ID template](/help/integrations/analytics/ids.md#amo-id-formats); or it's overridden at a lower level by an incorrect value.
-    
-    * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
-  -->
-
-   * [!UICONTROL Network Errors]
-
-      * **[!UICONTROL Manager Account Auth Error]**：検索、ソーシャル、コマースが [ad network manager アカウント](/help/search-social-commerce/admin/manager-accounts.md) 無効な資格情報、無効な認証トークン、または期限切れの認証トークンが原因です。
-
-      * **[!UICONTROL Account Auth Error]**：検索、ソーシャル、コマースで [広告ネットワークアカウント](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 無効な資格情報、無効な認証トークン、または期限切れの認証トークンが原因です。
+   * **[!UICONTROL UI Actions]**：バックグラウンドで実行されたジョブが完了した、または失敗したことを示す通知。 ジョブタイプには以下が含まれます。 [バルクシートジョブ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、データテーブル内のジョブ、またはユーザーインターフェイス内のツールバー、エンティティ割り当てジョブ、その他のアクション（広告ネットワークとの同期、行の貼り付け、エンティティの名前変更など）を使用して、ジョブを一括編集できます。 エンティティの割り当てには、 [ラベル分類値](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) 任意のエンティティに対して、キャンペーンをポートフォリオに割り当て、ポートフォリオに制約を割り当てたり、割り当てを解除したりします。<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
    * [!UICONTROL Data Upload]
 
@@ -70,22 +56,51 @@ ht-degree: 0%
 
       * **[!UICONTROL File Upload to Cloud Storage]**：クローズ済みベータ版に使用されます。
 
-<!--
-* [!UICONTROL Optimization]
--->
+   * [!UICONTROL Network Errors]
+
+      * **[!UICONTROL Account Auth Error]**：検索、ソーシャル、コマースで [広告ネットワークアカウント](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 無効な資格情報、無効な認証トークン、または期限切れの認証トークンが原因です。
+
+      * **[!UICONTROL Account Missing]**:Search、Social、および Commerce に関する通知に、 [広告ネットワークアカウント](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+
+      * **[!UICONTROL Manager Account Auth Error]**：検索、ソーシャル、コマースが [ad network manager アカウント](/help/search-social-commerce/admin/manager-accounts.md) 無効な資格情報、無効な認証トークン、または期限切れの認証トークンが原因です。
+
+  <!--
+  * [!UICONTROL Setup Errors]
+  
+    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect [AMO ID template](/help/integrations/analytics/ids.md#amo-id-formats); or it's overridden at a lower level by an incorrect value.
+    
+    * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are required for the correct setup of critical functions.
+  -->
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Custom Alerts]**：通知 [アラートインスタンス](/help/search-social-commerce/alerts/alert-about.md) は、アラートテンプレートに対してトリガーされました。
+   * **[!UICONTROL Advertising Insights]**：通知 [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) が完了したか、失敗しました。
 
-   * **[!UICONTROL Spreadsheet Feeds]**: [スプレッドシートフィード](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) が完了したか、失敗しました。
+   * **[!UICONTROL Custom Alerts]**：通知 [アラートインスタンス](/help/search-social-commerce/alerts/alert-about.md) は、アラートテンプレートに対してトリガーされました。
 
    * **[!UICONTROL Reports]**: [カスタムレポートまたは予定レポート](/help/search-social-commerce/reports/report-about.md) が完了したか、失敗しました。
 
-   * **[!UICONTROL Advertising Insights]**：通知 [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) が完了したか、失敗しました。
+   * **[!UICONTROL Spreadsheet Feeds]**: [スプレッドシートフィード](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) が完了したか、失敗しました。
+
+<!--
+* [!UICONTROL Optimization]
+
+  * **[!UICONTROL Accuracy]**: 
+
+-->
+
+<!--
+* [!UICONTROL Portfolio Management]
+
+  * **[!UICONTROL Simulation Report]**: 
+
+-->
 
 <!--
 * [!UICONTROL System]
+
+  * **[!UICONTROL Change Management]**: 
+
 -->
 
 >[!MORELIKETHIS]
