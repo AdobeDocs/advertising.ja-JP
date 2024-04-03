@@ -2,7 +2,7 @@
 title: 高度な測定ソリューション
 description: 高度な測定に使用できるソリューションの一覧を参照してください。
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: c06cbb80d9215ef7ce93d801520369ae8e316189
+source-git-commit: 06275b37fd5e9449cbf80bcff4f55aaaa8a99b55
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    * **Cross-ID People-Based Reach**
 
-     ID タイプ別に、cookie と RampID 間の一意のリーチと重複、および指標あたりのコストを数値化する。 デスクトップ、モバイル、ネイティブ、オーディオなど、複数のデジタル環境をまたいで、cookie ベースのセグメントに対する増分的なリーチを見つけ出す際の、RampID のテストの効果を検証します。
+     cookie と RampID 間の一意のリーチと重複、および ID タイプ別の指標あたりのコストを定量化する。 デスクトップ、モバイル、ネイティブ、オーディオなど、複数のデジタル環境をまたいで、cookie ベースのセグメントに対する増分的なリーチを見つけ出す際の、RampID のテストの効果を検証します。
 
 * **[!DNL Dynata]パネルベースの調査**
 
