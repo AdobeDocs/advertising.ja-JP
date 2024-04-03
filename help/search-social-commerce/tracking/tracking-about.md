@@ -1,11 +1,11 @@
 ---
 title: 検索、ソーシャル、コマースのトラッキングについて
 description: 検索、ソーシャル、コマースのトラッキングオプションについて説明します。
-exl-id: 0a26f67c-8b3b-4fa1-ac24-a8461624cfc5
+exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aeb5f9a903290926afc27fe32c32646561850cc1
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 ### クリック追跡タグ
 
-Search、Social、&amp;Commerce の導入チームが、同期した広告キャンペーンの広告、キーワード、プレースメント、製品グループ、サイトリンク拡張のトラッキングテンプレートと宛先 URL を更新して、一意のトラッキング ID 文字列とAdobe Advertisingリダイレクトを含め、クリック追跡を設定します。 また、のランドページのサフィックス（最終 URL のサフィックス）にトラッキングを追加します。 [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントとキャンペーン。
+Search、Social、&amp;Commerce の導入チームが、同期した広告キャンペーンの広告、キーワード、プレースメント、製品グループ、サイトリンク拡張のトラッキングテンプレートと宛先 URL を更新して、一意のトラッキング ID 文字列とAdobe Advertisingリダイレクトを含め、クリック追跡を設定します。 また、のランドページのサフィックス（最終 URL のサフィックス）にトラッキングを追加します。 [!DNL Google Ads] および [!DNL Microsoft® Advertising] アカウントとキャンペーン。
 
 トラッキングパラメーターを使用すると、Adobe Advertisingは個々のキーワードレベル（検索キャンペーン）または広告バリエーションレベル（コンテンツまたはサイトのターゲット設定を含む検索キャンペーン、表示キャンペーン、ソーシャルキャンペーン）でクリックを追跡できます。 Adobe Advertisingがディスプレイ/コンテンツ広告を表示したり、いずれかの広告をクリックしたりするたびに、広告ネットワークは、キーワードまたは広告に関連付けられたクリック追跡タグを使用して、イベントを広告ピクセルサーバーに送信します。 クリックの場合：
 
-* 並列追跡をサポートするブラウザー上のGoogle Ads とMicrosoft Advertising 広告の場合、広告ネットワークは最初に Web サイトにクリックを送信し、次にAdobe Advertisingピクセルサーバーに送信します。その後、ユーザーのコンピューターに cookie が存在しない場合は、そのコンピューターに配置します。
+* の場合 [!DNL Google Ads] および [!DNL Microsoft® Advertising] 並列追跡をサポートするブラウザーの広告では、広告ネットワークが最初にクリックを web サイトに送信し、次にAdobe Advertisingピクセルサーバーに送信します。その後、ユーザーのコンピューターに cookie が存在しない場合はその cookie を配置します。
 
 * その他すべての場合、広告ネットワークは、クリックをAdobe Advertisingピクセルサーバーに直接送信します。 ピクセルサーバーは、Cookie をユーザーのコンピューターに配置し（まだ存在しない場合）、Web サイト上の関連 URL にユーザーをリダイレクトします。 エンドユーザーの全体的なエクスペリエンスは、リダイレクトがない場合と同じです。
 

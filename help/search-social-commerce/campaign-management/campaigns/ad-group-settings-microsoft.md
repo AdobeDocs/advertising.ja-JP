@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft Advertising] 広告グループ設定'
-description: 次の設定を参照してください： [!DNL Microsoft Advertising] 広告グループ。
+title: '''[!DNL Microsoft® Advertising] 広告グループ設定'
+description: 次の設定を参照してください： [!DNL Microsoft® Advertising] 広告グループ。
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: a31179383fa9c1c9f6eb697d0aa3dd3301d41823
+source-git-commit: 29401370d18a5d1c7d5c28cb90a109ea5134ac00
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] 広告グループ設定
+# [!DNL Microsoft® Advertising] 広告グループ設定
 
 ## [!UICONTROL Adgroup Details]
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]:** （広告の検索）広告グループ内の広告を配置する方法と場所：
 
-* *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* （デフォルト）：検索ネットワーク上で広告の入札を配置します。
+* *[!UICONTROL Only Microsoft® Advertising and Yahoo! websites]* （デフォルト）：検索ネットワーク上で広告の入札を配置します。
 
-* *[!UICONTROL Only Microsoft Advertising and Yahoo! syndicated search partners]:* シンジケートパートナーサイトに広告の入札を配置する。
+* *[!UICONTROL Only Microsoft® Advertising and Yahoo! syndicated search partners]:* シンジケートパートナーサイトに広告の入札を配置する。
 
 * *[!UICONTROL Content network]:* 非推奨
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/location-targets.md}}
 
-の場合 [!DNL Microsoft Advertising] オーディエンスネットワークの広告グループで、場所のターゲットの入札修飾子が、標準のポートフォリオで「[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;設定中です。
+の場合 [!DNL Microsoft® Advertising] オーディエンスネットワークの広告グループで、場所のターゲットの入札修飾子が、標準のポートフォリオで「[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;設定中です。
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]:** （ディスプレイ/ネイティブネットワーク上のキャンペーンのみ、オプション）広告を表示したくないディスプレイネットワーク上のサイト。 有効な URL( 例： www.example.com ) を入力します。 複数の文字列を指定するには、コンマで区切るか、複数の文字列を別々の行に入力します。
 
-可用性について詳しくは、Microsoft Advertising ヘルプの[特定の Web サイトに広告が表示されないようにする](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+可用性について詳しくは、 [!DNL Microsoft® Advertising] 」をクリックします。[特定の Web サイトに広告が表示されないようにする](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 >[!MORELIKETHIS]
 >

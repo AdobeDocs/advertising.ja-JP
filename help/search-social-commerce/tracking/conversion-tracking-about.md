@@ -1,11 +1,11 @@
 ---
 title: 検索、ソーシャル、コマースのコンバージョントラッキングオプション
 description: 検索、ソーシャル、コマースのコンバージョントラッキングオプションについて説明します。
-exl-id: 098efaf8-6ffb-4811-8b20-41c7c85df812
+exl-id: 263da6a4-8d72-4882-8784-290a3be6f8fa
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: c23028701ff0064bae04135d9e7a70da4c85e937
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ ht-degree: 0%
 | Adobe Advertisingファーストパーティピクセル | 広告主は次の操作を実行します。 <ul><li>用の JavaScript ライブラリの実装 [Adobe Experience Cloud ID(ECID) サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) サイト全体を通じて</li><li>Adobe Advertisingを追加 [ITP マッピングを含む JavaScript タグ](itp-conversion-mapping-tag.md) を検索クリックからランディングページになる可能性のある任意のページにドラッグします（ランディングページは時間の経過と共に変化する可能性があるので、理想的にはすべてのページで）。 タグを使用すると、Adobe Advertisingは、大きな数値がランディングページの科学的表記に変換されるページで発生するコンバージョンイベントを追跡できます。</li><li>Adobe Advertisingを追加 [JavaScript コンバージョントラッキングタグ v3](format-conversion-tag-jsv3.md) をコンバージョンページに変換します。</li></ul> | <ul><li>[!DNL Safari] では、7 日間のコンバージョンルックバックのみを使用できます。これは、ルックバックウィンドウ中にサイトの再訪問時にリセットされます。</li><li>同様の制限を期待する [!DNL Chrome] 2022 年に。</li></ul> | [!DNL Safari] は、7 日間のルックバック中にコンバージョンを追跡します。 ルックバックウィンドウではサイトの再訪問時にルックバックがリセットされるので、この制限はすべてに影響を与えるわけではありません [!DNL Safari] ユーザー。 | いいえ |
 | EFID フィード | 広告主の検索アカウントは、Adobe Advertisingの一意の ID（トークン）を使用して宛先 URL/最終 URL を生成するように設定されています。 ユーザーが広告をクリックすると、Adobe Advertisingは一意の ID(`EFID`) の上にマウスポインターを置き、最終 URL の末尾に表示します。 広告主のクライアントシステムは、EFID をクリックによるコンバージョンの一意の識別子として取り込み、EFID、トランザクション日、コンバージョン指標を含む売上高フィードのAdobe Advertisingに送信します。 Adobe Advertisingは EFID を使用して、元のクリックへの変換を照合します。 | <ul><li>広告主は、EFID を取得し、自動フィードを毎日Adobe Advertisingに送信する方法が必要です。</li><li>コンバージョンは、(Adobe Advertisingごとに ) 最大 180 日間、または広告主のシステムの制限に従って追跡できます。</li></ul> | <ul><li>この方法ではファーストパーティコンバージョンデータを使用するので、サードパーティ Cookie の制限の影響を受けません。</li><li>オンラインとオフラインのコンバージョンを 1 つのフィードで送信できます。</li><li>サイトのコードの変更やタグは必要ありません。</li></ul> | はい |
 | トランザクション ID フィード [コンボフィード] | 広告主は、一意のAdobe AdvertisingID (`ev_transid=&lt;transid&gt;`) を Web ページに送信する際に、Adobe Advertisingは、ピクセルが実行されたときに作成される一意のトランザクション ID を取り込みます。 広告主のクライアントシステムも [!UICONTROL Transaction ID] とは、Adobe Advertisingに対し、一致する [!UICONTROL Transaction ID] 値 | <ul><li>広告主がレガシーピクセル ( [!DNL Safari] ブロックが実行されない場合、ID はキャプチャされず、オフラインデータに使用されます。</li><li>フィードは自動化されていません。</li></ul> | <ul><li>ファーストパーティピクセルを実装する場合、 [!UICONTROL Transaction ID] が [!DNL Safari].</li><li>オフライン/承認済みのコンバージョンイベントの追跡を提供します。</li></ul> | いいえ |
-| Google Conversions | でトラッキングされるコンバージョン [!DNL Google Analytics] タグは、API 接続を介してAdobe Advertisingに自動的に読み込まれます。 各コンバージョン名には、 `&quot;GGL_&quot;` プレフィックス。 | <ul><li>Googleは通常、オフラインデータを追跡しません。</li><li>Microsoft®広告コンバージョンは含まれていません。</li></ul> | Googleは機械学習を使用して「 」を推定する[モデル化された変換](https://support.google.com/google-ads/answer/10081327).&quot; | いいえ |
+| [!DNL Google] コンバージョン | でトラッキングされるコンバージョン [!DNL Google Analytics] タグは、API 接続を介してAdobe Advertisingに自動的に読み込まれます。 各コンバージョン名には、 `&quot;GGL_&quot;` プレフィックス。 | <ul><li>[!DNL Google] は、通常、オフラインデータを追跡しません。</li><li>[!DNL Microsoft® Advertising] コンバージョンは含まれていません。</li></ul> | [!DNL Google] は機械学習を使用して「 」を推定します。[モデル化された変換](https://support.google.com/google-ads/answer/10081327).&quot; | いいえ |
 
 <!--
-| Microsoft Advertising Conversions | Conversions tracked with Microsoft Advertising universal event tags (UET) are automatically imported to Adobe Advertising via an API connection. Each conversion name has a &quot;???&quot; prefix. | Microsoft Advertising typically doesn't track offline data. Google conversions aren't included. | ?? | No |
+| [!DNL Microsoft Advertising] Conversions | Conversions tracked with [!DNL Microsoft Advertising] universal event tags (UET) are automatically imported to Adobe Advertising via an API connection. Each conversion name has a &quot;???&quot; prefix. | [!DNL Microsoft Advertising] typically doesn't track offline data. [!DNL Google] conversions aren't included. | ?? | No |
 -->
 
 >[!MORELIKETHIS]

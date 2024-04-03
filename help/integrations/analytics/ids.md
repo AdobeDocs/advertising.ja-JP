@@ -3,9 +3,9 @@ title: Adobe AdvertisingID 使用者 [!DNL Analytics]
 description: Adobe AdvertisingID 使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 0d48ceda77783cd8b5fd9e609da424dcfa94f278
+source-git-commit: 9374f5ef6aaff1f638022bc878c7af190e31888f
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1686'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ EF ID は、アクティビティをオンラインクリックまたは広告�
 * `gclid` が [!DNL Google Click ID] (GCLID) を使用します。
 * `s` はネットワークタイプです（「s」は検索用）。
 
-#### Microsoft Advertising 検索広告
+#### [!DNL Microsoft Advertising] 広告を検索
 
 ```
 {msclkid}:G:s

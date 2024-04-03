@@ -4,9 +4,9 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
+source-git-commit: 198dc41ba0ae1cd55e18c34e04cd2ea2297aa127
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1698'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 <!-- When we  use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
 
-+ [新機能](home.md)
++ [最新情報](home.md)
 + [このガイドについて](help-about.md)
 + はじめに {#intro}
    + [Adobe Advertising検索、ソーシャル、コマースについて](/help/search-social-commerce/introduction/about.md)
@@ -163,8 +163,8 @@ ht-degree: 2%
          + 製品グループ {#product-groups}
             + [製品グループについて](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)
             + [製品グループの管理](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)
-            + [Google Ads 製品グループの設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
-            + [Microsoft Advertising 製品グループの設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
+            + [[!DNL Google Ads] 製品グループの設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
+            + [[!DNL Microsoft Advertising] 製品グループの設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
             + [買い物キャンペーンの製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
          + 配置 {#placements}
             + [配置について](/help/search-social-commerce/campaign-management/campaigns/placement-about.md)
@@ -175,7 +175,7 @@ ht-degree: 2%
             + [について [!DNL Google Ads] 動的検索ターゲット](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-about.md)
             + [管理 [!DNL Google Ads] 動的検索ターゲット](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)
          + オーディエンスとオーディエンスのターゲット {#audiences-and-targets}
-            + Audiences {#audiences}
+            + オーディエンス {#audiences}
                + [オーディエンスについて](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
                + [作成 [!DNL Google Ads] 次のオーディエンスをカスタマーマッチさせる [!DNL Adobe] audiences](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
                + [の作成 [!DNL Google Ads] Adobe Campaign電子メールリストからの顧客一致オーディエンス](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)

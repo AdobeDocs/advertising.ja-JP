@@ -1,41 +1,42 @@
 ---
-title: '[!DNL Microsoft Advertising] コンバージョンデータ'
-description: 次のタイプについて説明します。 [!DNL Microsoft Advertising] — 検索、ソーシャル、コマースで使用できる追跡されたコンバージョンデータ。
+title: '[!DNL Microsoft® Advertising] コンバージョンデータ'
+description: 次のタイプについて説明します。 [!DNL Microsoft® Advertising]-Search、Social および Commerce で使用できる追跡されたコンバージョンデータ。
 feature: Search Campaign Management, Conversions
-source-git-commit: c3d901e7cc2cf61b86f25c5942cbd116b5fca003
+exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
+source-git-commit: f119876669e226d75376535b801c57da9590ac72
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] 検索、ソーシャル、コマースのコンバージョンデータ
+# [!DNL Microsoft® Advertising] 検索、ソーシャル、コマースのコンバージョンデータ
 
-検索、ソーシャル、コマースは、 [Microsoft Advertising ユニバーサルイベントトラッキング (UET) タグ](https://about.ads.microsoft.com/solutions/tools/universal-event-tracking) 。ビュースルーコンバージョンを含む web サイトコンバージョンの場合は、レポートおよび最適化を行います。
+検索、ソーシャル、コマースは、 [[!DNL Microsoft® Advertising] ユニバーサルイベントトラッキング (UET) タグ](https://about.ads.microsoft.com/solutions/tools/universal-event-tracking) を参照してください。
 
-すべての指標は、キャンペーン管理ビューと基本レポートで自動的に使用でき、Microsoft Advertising キャンペーンの最適化のために、ポートフォリオ目標でも使用できます。
+すべての指標は、キャンペーン管理ビューと基本レポートで自動的に使用でき、ポートフォリオ目標で使用して、 [!DNL Microsoft® Advertising] キャンペーン。
 
 ## 使用可能なコンバージョンデータ
 
 検索、ソーシャル、コマースの各データを同期し、「[!DNL Include in 'Conversions']「 」オプションが有効になり、過去 35 日間のデータをプルした後、09 までに毎日データに変更をプルする:00-10:広告主のタイムゾーンの 00。 履歴データは、クリックごとに新しいコンバージョンが追跡されるので、日々変化する場合があります。
 
-それぞれに 2 つの指標 [[!DNL Microsoft Advertising] — 追跡されたコンバージョン](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) ( [!DNL Microsoft Advertising]) は、検索、ソーシャル、コマースで、 [!DNL Microsoft Advertising]. 各コンバージョンの指標は次のとおりです。
+それぞれに 2 つの指標 [[!DNL Microsoft® Advertising] — 追跡されたコンバージョン](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) ( [!DNL Microsoft® Advertising]) は、検索、ソーシャル、コマースで、 [!DNL Microsoft® Advertising]. 各コンバージョンの指標は次のとおりです。
 
 * `<conversion-name>`  — キーワードのコンバージョン値（Purchase など）。
 
   >[!TIP]
   >
-  >このタイプのコンバージョン指標を、 [!DNL Microsoft Advertising] キャンペーンを作成し、最大コンバージョン値およびターゲット ROAS 入札戦略を使用できます。
+  >このタイプのコンバージョン指標を、 [!DNL Microsoft® Advertising] キャンペーンを作成し、最大コンバージョン値およびターゲット ROAS 入札戦略を使用できます。
 
 * `CT_<conversion-name>` — 「CT_」プレフィックスで始まるコンバージョンの数（カウント）（CT_Purchase など）。
 
   >[!TIP]
   >
-  >このタイプのコンバージョン指標を、 [!DNL Microsoft Advertising] キャンペーンを作成し、Max Conversions と Target CPA の入札戦略に従ってください。
+  >このタイプのコンバージョン指標を、 [!DNL Microsoft® Advertising] キャンペーンを作成し、Max Conversions と Target CPA の入札戦略に従ってください。
 
 データは、クリック時間に基づき、アカウントで機能が有効になった日からのコンバージョン/トランザクション時間に基づいて使用できます。
 
-[!DNL Microsoft Advertising] は、各コンバージョンを次のように記録します。 [入札単位](/help/search-social-commerce/glossary.md#a-b)、デバイス、クリック日（コンバージョン日ではなく） アトリビューションは、 [!DNL Microsoft Advertising];Adobe Advertising属性は、クリックイベントレベルのデータを使用できないので、考慮されません。
+[!DNL Microsoft® Advertising] は、各コンバージョンを次のように記録します。 [入札単位](/help/search-social-commerce/glossary.md#a-b)、デバイス、クリック日（コンバージョン日ではなく） アトリビューションは、 [!DNL Microsoft® Advertising];Adobe Advertising属性は、クリックイベントレベルのデータを使用できないので、考慮されません。
 
 >[!NOTE]
 >
@@ -44,11 +45,11 @@ ht-degree: 0%
 >* 通常、データの相違は、追加のコンバージョンがまだ同期されていない場合の、午前の同期後の方が、当日の後半よりも少なくなります。 データの検証は、午前中におこなうことをお勧めします。
 >* データは、オーディエンスまたは地理的な場所レベルでは使用できないので、RLSA や場所の入札調整を自動最適化するためには使用されません。
 
-## でのコンバージョンデータの比較方法 [!DNL Microsoft Advertising] 検索、ソーシャル、コマースのデータを含む
+## でのコンバージョンデータの比較方法 [!DNL Microsoft® Advertising] 検索、ソーシャル、コマースのデータを含む
 
 次のレポート設定を使用して、同等のデータを検証します。
 
-### で使用するレポート設定 [!DNL Microsoft Advertising]
+### で使用するレポート設定 [!DNL Microsoft® Advertising]
 
 選択したコンバージョンアクションのレポートを日別に生成し、すべての広告ステータスのデータを含めます。
 
@@ -64,13 +65,13 @@ Social および Commerce の検索で、「表示」または「レポート」
 
    1. Adobe Analytics の **[!UICONTROL Conversions Based]** 「 」セクションで、「 」を選択します。 **[!UICONTROL Click date]**.
 
-   1. 次の期間に使用したのと同じ日付範囲を指定します： [!DNL Microsoft Advertising] レポート。
+   1. 次の期間に使用したのと同じ日付範囲を指定します： [!DNL Microsoft® Advertising] レポート。
 
    1. Adobe Analytics の **[!UICONTROL Search/Content]** セクション、選択 **[!UICONTROL Search Only]**.
 
-   1. Adobe Analytics の **[!UICONTROL Search Engine Hierarchy]** セクションで、 [!UICONTROL Microsoft Advertising] 」セクションでアカウントを選択します。
+   1. Adobe Analytics の **[!UICONTROL Search Engine Hierarchy]** セクションで、 [!UICONTROL Microsoft® Advertising] 」セクションでアカウントを選択します。
 
-   1. を開きます。 [!UICONTROL Columns] タブをクリックし、 [!DNL Microsoft Advertising] 指標を比較します。
+   1. を開きます。 [!UICONTROL Columns] タブをクリックし、 [!DNL Microsoft® Advertising] 指標を比較します。
 
 1. クリック **[!UICONTROL Create]**.
 
