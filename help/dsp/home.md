@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: fb0122a66e1ca840aac25d07b9833c4040322a6e
+source-git-commit: 67f54acc4a8bfdfda7f3614a9eaebf7d5aa1c143
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2569'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024 年 4 月 4 日 | 最適化 | 新規 `CPA` （獲得単価）および `ROAS` （広告費用対効果）パッケージ、配置および関連テーブル内の指標は、関連する目標を持つパッケージおよび配置の、より正確なパフォーマンストラッキングを提供します。 新しい CPA 指標では、獲得あたりのコストを計算する最終的なコンバージョンイベント（サインアップなど）のみが考慮され、従来のカスタム目標指標よりも正確な CPA の全体像が得られます。 同様に、新しい ROAS 指標では最終的な売上高イベント（購入値や購入値など）のみを考慮します。これは、パフォーマンスの追跡に関する従来のカスタム目標指標よりも信頼性が高くなります。<br><br>CPA または ROAS ベースの最適化目標を含むパッケージを設定する際には、最終的なコンバージョンまたは売上高イベントと、コンバージョンまたは売上高イベントを含むカスタム目標を指定する必要があります。<br><br>さらに、パフォーマンス重視の最適化目標を組み合わせて、シンプルにしました。<ul><li>新しい「[!UICONTROL Highest Return on Ad Spend (ROAS)]「 」ゴールは従来の「 」を置き換えます。[!UICONTROL Highest ROAS - Custom Goal]&quot;および&quot; [!UICONTROL Highest ROAS (click focused) - Custom Goal]」と表示され、レガシーシナリオを実現するオプションがあります。</li><li>新しい「[!UICONTROL Lowest Cost per Acquisition (CPA)]「 」ゴールは従来の「 」を置き換えます。[!UICONTROL Lowest CPA - Custom Goal]&quot;および&quot; [!UICONTROL Lowest CPA (click focused) - Custom Goal]」と表示され、レガシーシナリオを実現するオプションがあります。</li></ul>従来の目標を使用した既存のパッケージは、関連する設定で新しい目標に自動的に移行されました。手動で更新する必要はありません。 | 参照：[最適化目標とその使用方法](/help/dsp/optimization/optimization-goals.md),&quot; &quot;[パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md),&quot;および&quot;[パフォーマンスキャンペーンの設定のベストプラクティス](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |
 | 2024 年 3 月 21 日 | 配置の非入札理由 | 過少費用の問題のトラブルシューティングに役立つ主要データポイントである、実用的な非入札理由 (NBR) を、セルフサービスのお客様が利用できるようになりました。 以前は、セルフサービスユーザーは NBR への部分的なアクセス権しか持っていなかったので、トラブルシューティングに役立つアカウントマネージャーや取引アナリスト（管理者アクセス権を持つ）に頼る必要がありました。 | 詳しくは、 [!UICONTROL Non Bids] のセクション [配置診断レポート](/help/dsp/campaign-management/reports/placement-diagnostics.md). |
 | 2024 年 3 月 21 日 | プランナー | 新しいプランナーツールは、ベータモードではなくなりました。 | 参照：[DSP Planner ツールについて](/help/dsp/planner/planner-about.md).&quot; |
 | 2024 年 2 月 22 日 | [!UICONTROL Alerts] 対象： [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads]、および [!UICONTROL Deals] | A [!UICONTROL Pulse Panel] アイコン [!UICONTROL Campaigns], [!UICONTROL Packages] およびパッケージの詳細 [!UICONTROL Placements]、および [!UICONTROL Ads] ビューは、ビュー内の項目に対してアラートが使用可能かどうかを示します。 パネルを開いて各アラートを表示し、必要に応じて該当するビュー ( 例： [!UICONTROL Placements] 該当するプレースメントが一覧表示されて表示されている ) を確認し、必要に応じて設定を編集して問題を解決します。 オプションで任意のアラートを解除することもできます。<br><br>また、 [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements]、および [!UICONTROL Ads] ビューには「[!UICONTROL Alerts]」列には、項目またはそのコンポーネントのいずれかに問題が発生した日時が示されます。<br><br>アラートは、キャンペーン、パッケージ、プレースメント、広告、および契約レベルで使用できます。 | 参照：[アラートと通知の表示](/help/dsp/campaign-management/reports/campaign-alerts.md).&quot; |

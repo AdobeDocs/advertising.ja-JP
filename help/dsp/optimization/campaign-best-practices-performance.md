@@ -3,9 +3,9 @@ title: パフォーマンスキャンペーンの設定のベストプラクテ�
 description: 最も低い CPA または最も高い ROAS 用に最適化された配置を含む、パフォーマンス重視のキャンペーンの設定に関するベストプラクティスを説明します。
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: efd169f5e1e191f7635abf5b7a325e3483395165
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ DSPは、パフォーマンスに焦点を当てたキャンペーンを最適�
 
 ## 手順 1 — 目標の定義
 
-最高の ROAS や最低の CPA を達成するなど、キャンペーンの目標を理解することが重要です。 パフォーマンスキャンペーンには [最適化目標](/help/dsp/optimization/optimization-goals.md) 「」で終わる[!UICONTROL - Custom Goal]&quot; (&quot;[!UICONTROL Highest ROAS - Custom Goal]」) をクリックします。 キャンペーンの各パッケージに対して、それに応じて最適化目標を指定します。
+最高の ROAS や最低の CPA を達成するなど、キャンペーンの目標を理解することが重要です。 パフォーマンスキャンペーンには [最適化目標](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] または&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; キャンペーンの各パッケージに対して、それに応じて最適化目標を指定します。
 
 ![最適化目標](/help/dsp/assets/optimization-goals.png)
 
