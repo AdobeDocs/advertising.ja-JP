@@ -3,7 +3,7 @@ title: パフォーマンスキャンペーンの設定のベストプラクテ�
 description: 最も低い CPA または最も高い ROAS 用に最適化された配置を含む、パフォーマンス重視のキャンペーンの設定に関するベストプラクティスを説明します。
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
+source-git-commit: b3a03aa34bbdcf668a71d6810362d735c21961d7
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -75,7 +75,7 @@ DSPは、パフォーマンスに焦点を当てたキャンペーンを最適�
 
 * **予算：** DSPは、常に、パッケージ内のすべての配置間で、パッケージ予算の 100%を均等に割り当てようとします。 配置に費用が少ない場合や費用がない場合は、配置を制限して、より多くの予算をスケールのある配置に割り当てることができるようにすることをお勧めします。 予算の変更が調整されるまで 24 ～ 48 時間かかります。
 
-* **最適化目標：** 2 つのパフォーマンス最適化目標の 1 つを使用します。 *[!UICONTROL Highest ROAS]* または *[!UICONTROL Lowest CPA]*（パッケージの目標に応じて） これらの目標は、それぞれ Highest ROAS または Lowest CPA 配置に向けてパッケージを自動的に最適化します。
+* **最適化目標：** 2 つのパフォーマンス最適化目標の 1 つを使用します。 *[!UICONTROL Highest Return on Ad Spend]* または *[!UICONTROL Lowest Cost per Acquisition]*（パッケージの目標に応じて） これらの目標は、それぞれ Highest ROAS または Lowest CPA 配置に向けてパッケージを自動的に最適化します。
 
 * **カスタム目標：**
    * 新しいパッケージが既存のパッケージと同じ目標を持つ場合は、オプションで既存のパッケージをリンクして、アルゴリズムが既存の機械学習データを使用できるようにします。
