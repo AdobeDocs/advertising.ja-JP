@@ -3,9 +3,9 @@ title: SSP パートナー
 description: 利用可能なサプライサイドプラットフォーム (SSP) とオープン交換パートナーの一覧を参照してください。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: bb8e99e94a1425cf86afc848bae8f2f92b4d487d
+source-git-commit: c9ec713dbd95e9be717d957ebeac57eeeae02634
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] またはAdobe Advertising | いいえ | 米国+EMEA | USD、EUR | x | x | x | x | x |  |  |
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | いいえ | US/CA | USD | x | x | x | x | x |  |  |
 | [!DNL FreeWheel] ( 以前の [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] またはAdobe Advertising | はい | グローバル | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
-| [!DNL Google Authorized Buyers] ( 以前の [!DNL Google AdX]) | [!DNL Google] | AdobeNA - 44912714<br>AdobeEU - 94893418<br>AdobeAPAC - 89185975 | はい | グローバル | USD、BRL | x | x | x | x | x |  | x |
+| [!DNL Google Authorized Buyers] ( 以前の [!DNL Google AdX]) | [!DNL Google] | AdobeNA - 44912714<br>AdobeAPAC および EMEA-89185975 | はい | グローバル | USD、BRL | x | x | x | x | x |  | x |
 | [!DNL GumGum] |  | Adobe Advertising | いいえ | US/CA | USD | x | x |  | x | x |  |  |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | いいえ | グローバル | USD | x | x | x | x | x | | |
 | [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] ( 以前の [!DNL Telaria] および [!DNL Tremor]) | [!DNL TubeMogul] またはAdobe Advertising | はい | グローバル | AUD、USD | x | x | x |  |  |  |  |
