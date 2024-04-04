@@ -3,9 +3,9 @@ title: サポートされる在庫
 description: サポートされている広告ネットワーク、キャンペーンタイプ、広告タイプを参照します。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 1992d663542b1f33e54e72e59b21ffd9d7b5f812
+source-git-commit: 31ba2642e85ab69d91bf486aa7212b09a0fb9fcd
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 |  | Audience network | [!UICONTROL Audience CTV Video] | レスポンシブ | API を使用した自動 | 親キャンペーンおよび広告グループは、 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | はい | はい。拡張 CPC(eCPC) キャンペーン<br><br>CPM キャンペーンには使用できません | 広告レベルのデータ | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics への広告レベルのデータ |
 | | Audience network | 検索 | 「」を含む拡張テキスト広告[!DNL Prefer Audience Ad Format]&quot;件を選択済み | API を使用した自動 | 使用 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)<br><br>画像広告の拡張機能がサポートされていません | はい | はい | 広告レベルのデータ | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics への広告レベルのデータ |
 | | オーディエンスと検索ネットワーク | ブランドショッピング（検索、ソーシャル、コマースのベータ版機能） | 製品 | API を使用した自動 | 親キャンペーン、広告グループおよび製品グループは、 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | はい | はい | 製品グループレベルのデータ | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics への製品グループレベルのデータ |
-| | [!DNL Microsoft Store] | 広告を保存（検索、ソーシャル、コマースのベータ版機能） | 製品 | API 経由で自動 | 親キャンペーン、広告グループおよび製品グループは、 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | はい | はい（の場合） [!UICONTROL Manual CPC] キャンペーン。 <br><br>次の項目には使用できません： [!UICONTROL Manual CPA] キャンペーン。 | 製品グループレベルのデータ | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics への製品グループレベルのデータ |
+| | [!DNL Microsoft Store] | 広告を保存（検索、ソーシャル、コマースのベータ版機能） | 製品 | API を使用した自動 | 親キャンペーン、広告グループおよび製品グループは、 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | はい | はい（の場合） [!UICONTROL Manual CPC] キャンペーン。 <br><br>次の項目には使用できません： [!UICONTROL Manual CPA] キャンペーン。 | 製品グループレベルのデータ | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics への製品グループレベルのデータ |
 | | ネットワークを検索 | 検索 | \[ 拡張\] 動的検索 | API を使用した自動 | 使用 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) および [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | はい | はい | 広告レベルのデータ | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics への広告レベルのデータ |
 | | ネットワークを検索 | 検索 | 拡張テキスト（2023 年 2 月に廃止） | API を使用した自動 | 次を使用してのみ、既存の広告のステータスを編集 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、および [在庫管理フィード](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | はい | はい | 広告レベルのデータ | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics への広告レベルのデータ |
 | | ネットワークを検索 | 検索 | マルチメディア | API を使用した自動 | 使用 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). でのみ、ステータスと URL のサポートも編集できます。 [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | はい | はい | 広告レベルのデータ | 検索、ソーシャル、コマースに対する Analytics データ<br><br>検索、ソーシャル、コマースから Analytics への広告レベルのデータ |
