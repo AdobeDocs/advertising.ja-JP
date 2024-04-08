@@ -2,7 +2,7 @@
 title: カスタム目標
 description: 最低 CPA または最高 ROAS 用に最適化されたパッケージで成功イベントを定義するカスタム目標について説明します。
 feature: DSP Optimization
-source-git-commit: f05d0f909cda6248260eaafd2fd24a8eca7f47e5
+source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -57,11 +57,11 @@ ht-degree: 0%
       >* [!DNL Analytics] カスタムイベントは、次の命名規則に従います。 `custom_event_[*event #*]_[*Analytics report suite ID*]`. 例： `custom_event_16_examplersid`
       >* [!DNL Analytics] ディメンションとセグメントは、Adobe Advertisingの最適化には使用できません。
 
-（最適化目標「」を使用するパッケージのDSP パッケージ設定）[!UICONTROL Highest Return on Ad Spend (ROAS)"] または&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]」という目標名が [!UICONTROL Custom Goals] リスト。 目的をパッケージのカスタム目標として選択すると、次のようになります [!UICONTROL Conversion Metric] リストには、目的のすべての目標指標が含まれます。
+      >[!TIP]
+      >
+      >最適なパフォーマンスを得るには、カスタム目標（目標）の合計指標が、1 日に少なくとも 10 回のコンバージョンを満たす必要があります。 そうでない場合は、製品ページやアプリケーション開始など、追加のサポートコンバージョン指標を目的に追加することをお勧めします。 参照： [カスタム目標を作成するためのベストプラクティス](#custom-goal-best-practices) （ガイドライン用）。
 
->[!TIP]
->
->最適なパフォーマンスを得るには、カスタム目標（目標）の合計指標が、1 日に少なくとも 10 回のコンバージョンを満たす必要があります。 そうでない場合は、製品ページやアプリケーション開始など、追加のサポートコンバージョン指標を目的に追加することをお勧めします。 参照： [カスタム目標を作成するためのベストプラクティス](custom-goal-best-practices.md) （ガイドライン用）。
+（最適化目標「」を使用するパッケージのDSP パッケージ設定）[!UICONTROL Highest Return on Ad Spend (ROAS)"] または&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]」という目標名が [!UICONTROL Custom Goals] リスト。 目的をパッケージのカスタム目標として選択すると、次のようになります [!UICONTROL Conversion Metric] リストには、目的のすべての目標指標が含まれます。
 
 ## カスタム目標を作成するためのベストプラクティス [#custom-goal-best-practices]
 

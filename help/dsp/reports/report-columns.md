@@ -3,9 +3,9 @@ title: 使用可能なレポート列
 description: カスタムレポートで使用可能な列の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: cfc680030bb14c4a283735a4315fe11955c270e0
+source-git-commit: 4cb71ce992683afeaf24927f0883b7e110e70b5d
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -15,189 +15,189 @@ ht-degree: 0%
 | 指標タイプ | サブタイプ | 列名 | 説明 |
 |-----------|-------|-----------|-----------|
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad External ID] | 外部広告サーバーによって割り当てられた広告 ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad ID] | DSPでの広告の一意の識別子。 |
+| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad ID] | DSPの広告の一意の ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Name] | ユーザーによって割り当てられた広告の名前。 |
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Type] | 広告の形式。 |
-| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Status] | ユーザーによって変更された広告の分類、または日付で示された広告の分類は、次のように入力します。 *[!UICONTROL live]*, *[!UICONTROL scheduled]*, *[!UICONTROL completed]*&#x200B;または *[!UICONTROL archived]*. |
+| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Status] | ユーザーによって変更された、または日付入力で示される広告の分類： *[!UICONTROL live]*, *[!UICONTROL scheduled]*, *[!UICONTROL completed]*、または *[!UICONTROL archived]*. |
 | [!UICONTROL Dimension] | [!UICONTROL Advertiser] | [!UICONTROL Advertiser Name] | 広告主の名前。 |
-| [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Budget] | キャンペーンにユーザーが割り当てた合計予算です。 |
+| [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Budget] | キャンペーンに対してユーザーによって割り当てられた予算の合計。 |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign End Date] | キャンペーンの終了日。 |
-| [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign ID] | DSPでのキャンペーンの一意の ID。 |
+| [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign ID] | DSPのキャンペーンの一意の ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Name] | ユーザーによって割り当てられたキャンペーンの名前。 |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Start Date] | キャンペーンの最初の日付。 |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Day (YYYY-MM-DD)] | 年、月、日。 |
-| [!UICONTROL Dimension] | [!UICONTROL Date/Time] | 日 [!UICONTROL of Week] | 特定の日（例： ） [!UICONTROL Monday] または [!UICONTROL Tuesday]. |
+| [!UICONTROL Dimension] | [!UICONTROL Date/Time] | 日 [!UICONTROL of Week] | 特定の日（例：） [!UICONTROL Monday] または [!UICONTROL Tuesday]. |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Hour (YYYY-MM-DD HH)] | 年、月、日、時間。 |
-| [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Month (YYYY-MM)] | 月と年。 |
-| [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Time of Day] | 時間までの時間 (0 ～ 23)。 |
-| [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Week (YYYY-MM-DD to YYYY-MM-DD)] | 日曜日から土曜日までの該当する週の日付範囲。 例：2021-02-18から2021-03-07。 |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Vendor] | 広告が表示されたブラウザーのベンダー (Google、Mozilla など )。 |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Version] | 広告が表示されたブラウザーのバージョン ( 例： [!UICONTROL Safari 4.3] または [!UICONTROL Chrome 7.0]) をクリックします。 |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser] | 広告が表示されたブラウザー ( [!UICONTROL Chrome] または [!UICONTROL Firefox]) をクリックします。 |
+| [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Month (YYYY-MM)] | 月と年 |
+| [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Time of Day] | 0 から 23 までの時間。 |
+| [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Week (YYYY-MM-DD to YYYY-MM-DD)] | 該当する週の日曜日から土曜日の日付範囲。 例：2021-02-18 ～ 2021-03-07。 |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Vendor] | 広告が表示されたブラウザーのベンダー（Google、Mozilla など）。 |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Version] | 広告が表示されたブラウザーのバージョン（など） [!UICONTROL Safari 4.3] または [!UICONTROL Chrome 7.0]）に設定します。 |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser] | 広告が表示されたブラウザー（など） [!UICONTROL Chrome] または [!UICONTROL Firefox]）に設定します。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Environment] | 広告がに表示されたかどうか *[!UICONTROL sites]* または *[!UICONTROL Apps]*. |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Hardware] | 広告が表示されたデバイスのタイプ ( [!UICONTROL Set Top Box] または [!UICONTROL Mobile Phone]) をクリックします。 |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Manufacturer] | 広告が表示されたデバイスの製造元 ( 例： [!UICONTROL Samsung], [!UICONTROL Lenovo]または [!UICONTROL Apple]) をクリックします。 |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Model] | 広告が表示されたデバイスのモデル ( [!UICONTROL iPhone XS] または [!UICONTROL Galaxy Note 7]) をクリックします。 |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Vendor] | 広告が表示されたオペレーティングシステムのベンダー ( 例： [!UICONTROL Microsoft] または [!UICONTROL Apple]) をクリックします。 |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Version] | 広告が表示されたオペレーティングシステムのバージョン ( 例： [!UICONTROL Windows 10] または [!UICONTROL iOS Mojave]) |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System] | 広告が表示されたオペレーティングシステム ( 例： [!UICONTROL Apple iOS] または [!UICONTROL Android]) をクリックします。 |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Hardware] | 広告が表示されたデバイスのタイプ（など） [!UICONTROL Set Top Box] または [!UICONTROL Mobile Phone]）に設定します。 |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Manufacturer] | 広告が表示されたデバイスの製造元（など） [!UICONTROL Samsung], [!UICONTROL Lenovo]、または [!UICONTROL Apple]）に設定します。 |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Model] | 広告が表示されたデバイスのモデル（など） [!UICONTROL iPhone XS] または [!UICONTROL Galaxy Note 7]）に設定します。 |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Vendor] | 広告が表示されたオペレーティングシステムのベンダー（など） [!UICONTROL Microsoft] または [!UICONTROL Apple]）に設定します。 |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Version] | 広告が表示されたオペレーティングシステムのバージョン（例： [!UICONTROL Windows 10] または [!UICONTROL iOS Mojave]） |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System] | 広告が表示されたオペレーティングシステム（例： [!UICONTROL Apple iOS] または [!UICONTROL Android]）に設定します。 |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal ID] | 外部供給パートナーを通じて契約に割り当てられた一意の ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | DSPで入力された、契約にユーザーが割り当てた名前。 |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Source] | 在庫を提供するサプライサイドのパートナー。 これは通常、パブリッシャーですが、SSP でもかまいません。 |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | DSPに入力された、取引に対してユーザーが割り当てた名前。 |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Source] | 在庫を提供する供給側パートナー。 これは通常はパブリッシャーですが、SSP にすることもできます。 |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Inventory Type] | 在庫の分類： *[!UICONTROL Private],* *[!UICONTROL On Demand],* または *[!UICONTROL Public]*. |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL SSP] | メディアの属性を持つサプライサイドパートナー (SSP)。 |
-| [!UICONTROL Dimension] | [!UICONTROL Frequency] | [!UICONTROL Frequency] | 一意の cookie またはデバイス ID に基づいて、デバイスが広告を受信した回数。 |
-| [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL City] | レポートされるデータの属性の対象となる市区町村。 |
-| [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL Country] | レポートされるデータの属性の対象となる国。 |
-| [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL DMA] | レポートされるデータの属性を示す指定販売地域 (DMA)。 |
-| [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL State] | レポートされるデータの属性の対象となる状態。 |
-| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Audience] | オーディエンス。 このレポートでは、最大 10 人の個別オーディエンスをサポートします。 |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL SSP] | メディアが属する供給側パートナー（SSP）。 |
+| [!UICONTROL Dimension] | [!UICONTROL Frequency] | [!UICONTROL Frequency] | デバイスが広告を受け取った回数。一意の Cookie またはデバイス ID に基づきます。 |
+| [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL City] | レポートされたデータが関連付けられている市区町村。 |
+| [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL Country] | レポートされたデータの帰属先の国。 |
+| [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL DMA] | レポートされたデータの帰属先となる指定マーケットエリア（DMA）。 |
+| [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL State] | レポートされるデータの帰属先の状態。 |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Audience] | オーディエンス。 レポートでは、最大 10 個の一意のオーディエンスをサポートしています。 |
 | [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Campaign] | キャンペーン。 |
-| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Creative Length] | クリエイティブの長さ。 このレポートでは、最大 10 個のクリエイティブの長さをサポートします。 |
-| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Device] | デバイス。 このレポートでは、最大 10 台の個別デバイスをサポートします。 |
-| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Feed Type] | フィードのタイプ。 レポートでは、最大 10 個の個別フィードタイプをサポートします。 |
-| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Media Type] | メディアタイプ。 このレポートでは、最大 10 種類の個別メディアタイプをサポートします。 |
-| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Publisher] | 投稿者。 このレポートでは、最大 10 社の個別パブリッシャーをサポートします。 |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Creative Length] | クリエイティブの長さ。 このレポートは、最大 10 個の一意のクリエイティブ長をサポートします。 |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Device] | デバイス。 このレポートは、最大 10 台の一意のデバイスをサポートします。 |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Feed Type] | フィードのタイプ。 レポートでは、最大 10 個の一意のフィードタイプがサポートされます。 |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Media Type] | メディアタイプ。 レポートでは、最大 10 個の一意のメディアタイプをサポートします。 |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Publisher] | パブリッシャー。 レポートでは、最大 10 人の一意のパブリッシャーがサポートされます。 |
 | [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Package] | パッケージ。 <!-- Note: The Package dimensions include another dimension called Package Name. --> |
-| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Placement] | 配置。<!-- Note: The Placement dimensions include another dimension called Placement Name --> |
-| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Site/Apps] | 広告インプレッションが提供されたサイトまたはアプリ。 このレポートは、最大 10 個の個別サイトまたはアプリをサポートします。 |
-| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Tags] | 配置のカスタム識別子として使用される配置タグ。 このレポートでは、最大 10 個の一意の配置タグをサポートします。 <!-- Note: The Placement dimensions include another dimension called Placement Tags. --> |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Placement] | プレースメント。<!-- Note: The Placement dimensions include another dimension called Placement Name --> |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Site/Apps] | 広告インプレッションが提供されたサイトまたはアプリ。 レポートは、最大 10 個の一意のサイトまたはアプリをサポートします。 |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Tags] | プレースメントのカスタム識別子として使用されるプレースメント タグ。 このレポートでは、最大 10 個の一意のプレースメントタグがサポートされます。 <!-- Note: The Placement dimensions include another dimension called Placement Tags. --> |
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Audience] | オーディエンス。 |
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Campaign] | キャンペーン。 |
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Creative Length] | クリエイティブの長さ。 |
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Device] | デバイス。 （CTV、デスクトップなど） |
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Media Type] | メディアタイプ。 （ディスプレイ、オーディオなど） |
-| [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Publisher] | 投稿者。 |
-| [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Placement] | 配置。 |
+| [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Publisher] | パブリッシャー。 |
+| [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Placement] | プレースメント。 |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package End Date] | パッケージの終了日。 |
-| [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Goal Type] | パッケージのペーシング目標量。 この金額は、支出またはインプレッションのいずれかです。 |
-| [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package ID] | DSP内のパッケージの一意の識別子。 |
-| [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Name] | パッケージの名前 |
+| [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Goal Type] | パッケージのペーシング目標量。 この金額は支出またはインプレッション数のいずれかです。 |
+| [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package ID] | DSPのパッケージの一意の ID。 |
+| [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Name] | パッケージ名 |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Start Date] | パッケージの開始日。 |
-| [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Placement End Date] | 配置の終了日。 |
-| [!UICONTROL Dimension] | [!UICONTROL Pixel] | [!UICONTROL Conversion ID] | （廃止）DSPが従来の [!DNL TubeMogul] コンバージョンイベント。 |
-| [!UICONTROL Dimension] | [!UICONTROL Pixel] | [!UICONTROL Conversion Name] | （廃止）レガシーに割り当てられたコンバージョン名 [!DNL TubeMogul] コンバージョンイベント。 |
-| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement ID] | DSPでの配置の一意の ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Name] | ユーザーによって割り当てられた配置の名前。 |
-| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Budget] | 配置予算。 |
+| [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Placement End Date] | プレースメントの終了日。 |
+| [!UICONTROL Dimension] | [!UICONTROL Pixel] | [!UICONTROL Conversion ID] | （非推奨）DSPによって従来のに割り当てられたコンバージョン ID [!DNL TubeMogul] コンバージョンイベント。 |
+| [!UICONTROL Dimension] | [!UICONTROL Pixel] | [!UICONTROL Conversion Name] | （非推奨）レガシーに割り当てられたコンバージョン名 [!DNL TubeMogul] コンバージョンイベント。 |
+| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement ID] | DSPのプレースメントの一意の ID。 |
+| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Name] | ユーザーによって割り当てられたプレースメントの名前。 |
+| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Budget] | プレースメントの予算。 |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Max Bid] | プレースメントの最大入札額。 |
-| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Device Environment] | 配置のターゲットとなるデバイス環境：(*[!UICONTROL Desktop]*, *[!UICONTROL Mobile]*、または *[!UICONTROL Connected TV])*. |
-| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement End Date] | 配置の終了日。 |
-| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Start Date] | 配置の開始日。 |
-| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Tags] | 配置のカスタム識別子として使用される配置タグ。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Description] | 請求可能なセグメントに関連付けられた説明。 |
+| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Device Environment] | プレースメントがターゲットとするデバイス環境：（*[!UICONTROL Desktop]*, *[!UICONTROL Mobile]*、および/または *[!UICONTROL Connected TV]）*. |
+| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement End Date] | プレースメントの終了日。 |
+| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Start Date] | プレースメントの開始日。 |
+| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Tags] | プレースメントのカスタム識別子として使用されるプレースメント タグ。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Description] | 請求可能セグメントに関連付けられた説明。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Key] | 請求可能なセグメントに関連付けられた一意のキー。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Name] | 請求可能なセグメントの名前。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Description] | セグメントに関連付けられている説明。データプロバイダーから提供されます。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Name] | 請求可能セグメントの名前。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Description] | データプロバイダーによって提供される、セグメントに関連付けられた説明。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Key] | セグメントに関連付けられた一意のキー。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Name] | セグメントの名前。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Provider Name] | セグメントに関連付けられているデータプロバイダーの名前。 |
-| [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | DSPでのサイトまたはアプリの一意の識別子。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Provider Name] | セグメントに関連付けられたデータプロバイダーの名前。 |
+| [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | DSPのサイトまたはアプリの一意の ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | サイトの名前。 |
-| [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Duration] | ビデオの長さ。アップロード後に処理されます。 |
-| [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | DSPのビデオクリエイティブの一意の識別子。 |
+| [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Duration] | アップロード後に処理されるビデオの長さ。 |
+| [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | DSPのビデオクリエイティブの一意の ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Name] | ユーザーによって割り当てられたクリエイティブの名前。 |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL % Distinct Uniques] | この [!UICONTROL App/Site Distinct Uniques] ～で割られる [!UICONTROL App/Site Uniques]. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL App/Site Distinct Uniques] | このアプリでのみ到達されたデバイスの合計数。 複数のパブリッシャーで広告に公開されるビューアは、この値には含まれません。 |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Distinct Unique] | この [!UICONTROL Total Spend] ～で割られる [!UICONTROL App/Site Distinct Uniques]. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Unique] | この [!UICONTROL Total Spend] ～で割られる [!UICONTROL App/Site Uniques]. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated % Reached] | 露光を受けた、対象世帯の推定割合。 |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Average Frequency] | ユニーク訪問者に表示されたインプレッションの平均数。 一部のインベントリでは、パブリッシャーはデバイス識別子を渡さず、これらのインプレッションはこの値に含まれません。 同様の指標が [!UICONTROL Frequency (by App/Site)] レポートに含めることができますが、その指標は推定されません。 |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Impressions (Device/Browser)] | ( [!UICONTROL Frequency (by Impression)] レポート ) 特定の頻度ブレークアウトの推定インプレッション数。 DSPの推定は、インプレッションのサンプルに基づいておこなわれます。 一部のインベントリでは、パブリッシャーはデバイス識別子を渡さず、これらのインプレッションはこの値に含まれません。 同様の指標が [!UICONTROL Frequency (by App/Site)] レポートに含めることができますが、その指標は推定されません。 |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Uniques (Device/Browser)] | ( [!UICONTROL Frequency (by Impression)] （レポート）特定の頻度で記録された個別のブラウザーまたはデバイスの数。 DSPの推定は、インプレッションのサンプルに基づいておこなわれます。 一部の在庫では、デバイス識別子を渡さないでください。また、これらのインプレッションはこの値には含まれません。 同様の指標が [!UICONTROL Frequency (by App/Site)] レポートに含めることができますが、その指標は推定されません。 |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Universe] | 日付範囲内でDSP（オークション）が閲覧したユニーク世帯の合計です。 |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Extended Impressions] | ユーザーベースのクロスデバイスターゲティングでデバイスグラフを使用した結果として提供されたインプレッションの合計数です。 |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL % Distinct Uniques] | この [!UICONTROL App/Site Distinct Uniques] 次で割られる [!UICONTROL App/Site Uniques]. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL App/Site Distinct Uniques] | このアプリでのみ到達したデバイスの合計数。 複数のパブリッシャーの広告に公開されるビューアは、この値に含まれません。 |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Distinct Unique] | この [!UICONTROL Total Spend] 次で割られる [!UICONTROL App/Site Distinct Uniques]. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Unique] | この [!UICONTROL Total Spend] 次で割られる [!UICONTROL App/Site Uniques]. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated % Reached] | 被ばくを受け取ったターゲットの世帯宇宙の推定割合。 |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Average Frequency] | ユニークに表示されるインプレッションの平均数。 一部のインベントリでは、パブリッシャーはデバイス ID を渡さず、それらのインプレッションはこの値に含まれません。 にも同様の指標があります [!UICONTROL Frequency (by App/Site)] レポートされますが、その指標は推定されません。 |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Impressions (Device/Browser)] | （次に含まれる） [!UICONTROL Frequency (by Impression)] report）特定の頻度の内訳に関する推定インプレッション数。 DSPの見積もりは、インプレッション数のサンプルに基づいています。 一部のインベントリでは、パブリッシャーはデバイス ID を渡さず、それらのインプレッションはこの値に含まれません。 にも同様の指標があります [!UICONTROL Frequency (by App/Site)] レポートされますが、その指標は推定されません。 |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Uniques (Device/Browser)] | （次に含まれる） [!UICONTROL Frequency (by Impression)] （レポート）特定の頻度で記録された一意のブラウザーまたはデバイスの数。 DSPの見積もりは、インプレッション数のサンプルに基づいています。 一部の在庫では、デバイス識別子に沿ってを渡さないでください。それらのインプレッションはこの値には含まれません。 にも同様の指標があります [!UICONTROL Frequency (by App/Site)] レポートされますが、その指標は推定されません。 |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Universe] | DSP（オークション）が日付範囲内で閲覧した一意の世帯の合計。 |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Extended Impressions] | 人物ベースのクロスデバイスターゲティングにデバイスグラフを使用した結果として提供されたインプレッションの合計数。 |
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Frequency] | 世帯ごとのインプレッションの頻度。 |
-| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Frequency Overlap] | レポートされたディメンションのみによる世帯への到達頻度。ディメンションの最大 3 つの値の積集合を含みます。 例えば、 [!UICONTROL Placement] ディメンションを使用すると、個々の配置で到達した頻度、2 つの配置の組み合わせで到達した頻度、3 つの配置の組み合わせで到達した頻度を確認できます。 |
-| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Incremental Household Reached] | レポートされたディメンションのみがリーチした世帯数（次のように計算）。 <code>[レポートされたディメンションのみが到達した IP アドレス] - [他のディメンションで到達した IP アドレス]</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL % Incremental Household Reached] | レポートされたディメンションのみがリーチした世帯の割合（次のように計算）。 <code>[ディメンションで到達した IP アドレスの割合] - [他のディメンションで到達した IP アドレスの割合]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Frequency Overlap] | ディメンションの最大 3 つの値の交差を含め、レポートされたディメンションのみによって世帯に到達する頻度。 例えば、 [!UICONTROL Placement] ディメンションを使用すると、個々のプレースメントによって到達した頻度、2 つのプレースメントの組み合わせによって到達した頻度、および 3 つのプレースメントの組み合わせによって到達した頻度を確認できます。 |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Incremental Household Reached] | レポートされたディメンションのみによって到達した世帯数（次のように計算） <code>[報告されたディメンションのみによって到達した IP アドレス] - [他のいずれかのディメンションが到達した IP アドレス]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL % Incremental Household Reached] | レポートされたディメンションのみによって到達した世帯の割合（次のように計算） <code>[ディメンションが到達した IP アドレスの割合] - [他のディメンションが到達した IP アドレスの割合]</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Impressions] | 提供された広告インプレッションの合計数。 |
-| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Measurable Impressions] | 視認性を測定できたインプレッションの合計数。 |
-| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Measurable Impressions (Overlap)] | レポートされたディメンションによってのみ提供される測定可能なインプレッションの合計数。ディメンションの最大 3 つの値の積集合を含みます。 例えば、 [!UICONTROL Placement] ディメンションを使用すると、個々の配置によって到達した測定可能なインプレッション、2 つの配置の組み合わせによって到達した測定可能なインプレッション、3 つの配置の組み合わせによって到達した測定可能なインプレッションを表示できます。 |
-| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Total Media Spend] | 合計支出。 |
-| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Unique Household Reached] | 到達したユニーク世帯数（ユニーク IP アドレス）の合計。 |
-| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Unique Household (Overlap)] | レポートされたディメンションのみが到達したユニーク世帯（ユニーク IP アドレス）の合計（ディメンションの最大 3 つの値の積集合を含む）。 例えば、 [!UICONTROL Placement] ディメンションを編集すると、個々の配置で達成された個別の世帯、2 つの配置の組み合わせで達成された共通の世帯、3 つの配置の組み合わせで達成された共通の世帯を確認できます。 |
-| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Incremental HH] | 合計支出を、到達した増分的な世帯数で割った値です。 |
-| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Unique HH] | 合計支出をリーチしたユニーク世帯数で割った値。 |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Measurable Impressions] | ビューアビリティの測定が可能な、提供されたインプレッションの合計数。 |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Measurable Impressions (Overlap)] | ディメンションの最大 3 つの値の交差を含む、レポートされたディメンションによってのみ提供された測定可能インプレッションの合計数。 例えば、 [!UICONTROL Placement] ディメンションを設定すると、個々のプレースメントによって達成された測定可能なインプレッション数、2 つのプレースメントの組み合わせによって達成された測定可能なインプレッション数、および 3 つのプレースメントの組み合わせによって達成された測定可能なインプレッション数を確認できます。 |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Total Media Spend] | 総支出。 |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Unique Household Reached] | 一意の世帯の合計（個別の IP アドレス）に到達しました。 |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Unique Household (Overlap)] | ディメンションの最大 3 つの値の交差を含む、レポートされたディメンションのみが到達した一意の世帯の合計（個別の IP アドレス）。 例えば、 [!UICONTROL Placement] ディメンションを使用すると、個々のプレースメントによって到達した一意の世帯、2 つのプレースメントの組み合わせによって到達した一般的な世帯、3 つのプレースメントの組み合わせによって到達した一般的な世帯を確認できます。 |
+| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Incremental HH] | 総支出を世帯の増分支出で割って到達しました。 |
+| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Unique HH] | 総支出を、到達したユニーク世帯で割った値。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Frequency] | 世帯ごとのインプレッションの頻度。 |
-| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Incremental Household Reached] | レポートされたディメンションのみがリーチした世帯数（次のように計算）。 [レポートされたディメンションのみが到達した IP アドレス] - [他のディメンションで到達した IP アドレス]. |
-| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL % Incremental Household Reached] | レポートされたディメンションのみがリーチした世帯の割合（次のように計算）。 [ディメンションで到達した IP アドレスの割合] - [他のディメンションで到達した IP アドレスの割合]. |
+| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Incremental Household Reached] | レポートされたディメンションのみによって到達した世帯数（次のように計算） [報告されたディメンションのみによって到達した IP アドレス] - [他のいずれかのディメンションが到達した IP アドレス]. |
+| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL % Incremental Household Reached] | レポートされたディメンションのみによって到達した世帯の割合（次のように計算） [ディメンションが到達した IP アドレスの割合] - [他のディメンションが到達した IP アドレスの割合]. |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Impressions] | 提供された広告インプレッションの合計数。 |
-| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Measurable Impressions] | 視認性を測定できたインプレッションの合計数。 |
-| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Total Media Spend] | 合計支出。 |
-| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Unique Household Reached] | 到達したユニーク世帯数（ユニーク IP アドレス）の合計。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | 獲得あたりの平均総コスト ( <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | 広告クリックあたりの平均総コスト（で計算） <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | 完了したビデオビューあたりの平均コスト（で計算） <code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | 1,000 インプレッションあたりの平均コスト ( <code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] 1000 倍</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | ビデオビューあたりの平均コスト（で計算） <code>[!UICONTROL Gross Spend] / [!UICONTROL Views]</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | 表示可能なインプレッション 1,000 回あたりの平均コスト ( <code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] 1000 倍</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | 広告クリックあたりの平均純コスト（で計算） <code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | 完了したビデオ表示あたりの平均純コスト ( <code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | 1,000 インプレッションあたりの平均純コスト ( <code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] 1000 倍</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | ビデオ表示あたりの平均純コスト（で計算） <code>[!UICONTROL Net Spend] / [!UICONTROL Views]</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Data eCPM] | 1,000 インプレッションあたりの平均純データコスト ( <code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] 1000 倍</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Media CPM] | 1,000 インプレッションあたりの平均純メディアコスト ( <code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] 1000 倍</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Other eCPM] | 他の手数料のインプレッション数 1,000 回あたりの平均純コスト ( <code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] 1000 倍</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | 最大 CPM で入札された合計入札額の割合。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | プレースメントに対するDSPの入札のユニークユーザーの数。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | DSPを通じて請求されたオーディエンスセグメントデータ料金の合計純コストです。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Net Spend] | DSPを通じて請求される、技術費を含む請求可能なメディアの合計純コスト。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Net Spend] | DSPを通じて請求されるその他のサービス料（サードパーティの検証パートナー、広告配信など）の合計コスト。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Data] | サードパーティオーディエンスセグメントおよびデータサービスに対する推定税金。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | DSPでのメディアコストの再請求および技術費用サービスに適用される税を含む、メディアに対する推定税。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | DSPを通じて請求される他のサービス料（サードパーティの検証パートナー、トピックのターゲティングなどを含む）に対する推定税。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Margin %] | （利益管理が有効な場合）利益率。 <code>([!UICONTROL Gross Spend] - [!UICONTROL Net Spend]) / [!UICONTROL Gross Spend]</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Media Cost] | 請求不可および請求可能なメディアコストの合計（テクニカル費用なし）。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | 表示可能なインプレッション数 1,000 回あたりの平均純コスト ( <code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] 1000 倍</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Net Spend] | DSPを通じて請求されない、オーディエンスセグメントデータ料金の合計純コストです。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | DSPを通じて請求されない、技術費を含む、請求不可のメディアの合計純コスト。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | DSPを通じて請求されないその他のサービス料（サードパーティの検証パートナー、広告配信など）の合計コスト。 |
+| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Measurable Impressions] | ビューアビリティの測定が可能な、提供されたインプレッションの合計数。 |
+| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Total Media Spend] | 総支出。 |
+| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Unique Household Reached] | 一意の世帯の合計（個別の IP アドレス）に到達しました。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | 次の式で計算された、獲得あたりの平均総原価 <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | 広告クリックあたりの平均総コスト（次の式で計算） <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | 次の式で計算された、完了したビデオビューあたりの平均コスト <code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | インプレッション 1000 件あたりの平均コスト（次の式で計算） <code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] 1000 倍</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | 次の式で計算された、ビデオビューあたりの平均コスト <code>[!UICONTROL Gross Spend] / [!UICONTROL Views]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | 次の式で計算された、表示可能インプレッション 1000 件あたりの平均コスト <code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] 1000 倍</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | 広告クリックあたりの平均正味コスト（次の式で計算） <code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | 次の式で計算された、完了したビデオビューあたりの平均正味コスト <code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | インプレッション 1000 件あたりの平均正味コスト（次の式で計算） <code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] 1000 倍</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | ビデオビューあたりの平均正味コスト（次の式で計算） <code>[!UICONTROL Net Spend] / [!UICONTROL Views]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Data eCPM] | 次の式で計算された、1000 インプレッションあたりの平均正味データコスト <code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] 1000 倍</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Media CPM] | インプレッション 1000 件あたりの平均正味メディアコスト（次の式で計算） <code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] 1000 倍</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Other eCPM] | その他の料金の 1000 インプレッションあたりの平均正味費用（次の式で計算） <code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] 1000 倍</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Max CPM で入札された合計入札の割合。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | プレースメントに対してDSPが入札するユニークユーザーの数。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | DSPを通じて請求される、オーディエンスセグメントデータ料金の合計の正味費用。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Net Spend] | DSPを通じて請求される、技術料を含む請求可能なメディアの合計の正味費用。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Net Spend] | DSPを通じて請求されるその他のサービス料金（サードパーティの検証パートナー、広告サービスなど）の合計コスト。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Data] | サードパーティのオーディエンスセグメントとデータサービスに対する推定税額。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | DSPのメディアコストの再請求および技術料金サービスに適用される税を含む、メディアに対する推定税。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | DSPを通じて請求されるその他のサービス料金（サードパーティの検証パートナー、トピックターゲティングなどを含む）の推定税額。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Margin %] | （利益管理が有効化されている場合）次の式で計算される利益率 <code>（[!UICONTROL Gross Spend] - [!UICONTROL Net Spend]） / [!UICONTROL Gross Spend]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Media Cost] | テクニカル料金なしで請求および請求が可能なメディアコストの合計。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | 表示可能インプレッション 1000 件あたりの平均正味コスト（次の式で計算） <code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] 1000 倍</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Net Spend] | DSPを通じて請求されない、オーディエンスセグメントデータ料金の合計正味費用。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | DSPから請求されない、技術料を含む、請求不可メディアの合計ネットコスト。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | DSPを通じて請求されない、その他のサービス料金（サードパーティの検証パートナー、広告サービスなど）の合計コスト。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Net Spend] | オーディエンスセグメントデータフィードの合計純コスト。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Net Spend] | メディアの合計純コスト（技術費を含む）。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Net Spend] | オーディエンスセグメントデータ料金の正味合計。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Net Spend] | メディアの正味合計コスト （技術費を含む）。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Net Spend] | 合計 [!UICONTROL Net Spend (Media)], [!UICONTROL Net Spend (Data)]、および [!UICONTROL Net Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | 合計 [!UICONTROL Non-billable Spend (Media)], [!UICONTROL Non-billable Spend (Data)]、および [!UICONTROL Non-billable Spend (Other)]. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Net Spend] | その他のサービス料の合計純コスト（サードパーティの検証パートナー、広告配信など）。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Net Spend] | その他のサービス料金（サードパーティの検証パートナー、広告サービングなど）の純費用の合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | 合計 [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)]、および [!UICONTROL Billable Spend (Other)]. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | 広告全体を視聴した視聴の割合。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | 広告全体を視聴した表示数。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | 広告全体を視聴した表示可能なインプレッションの割合。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completion Rate] | 広告の 1/4 以上を視聴した視聴の割合。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completions] | 広告の 1/4 以上を視聴した視聴回数。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 50% Completion Rate] | 広告の少なくとも 2 四分位数を視聴した視聴の割合。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 50% Completions] | 広告の少なくとも 2 四分位数を視聴した表示数。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 50% Viewable Completion (%)] | 広告の 2 分位数以上を視聴した表示可能なインプレッションの割合。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 75% Completion Rate] | 広告の少なくとも 3 四分位数を視聴した視聴の割合。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 75% Completions] | 広告の少なくとも 3 四分位数を視聴した表示数。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Avg Percent Viewed] | 広告が最後まで視聴された平均割合（すべての表示を考慮）。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Banner and Overlay Clicks] | 広告オーバーレイおよびバナーのクリック数。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Click Through Rate] | クリック数を広告インプレッション数で割った割合。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Clicks Per View Rate] | クリック数をビデオ視聴数で割った割合です。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | 広告全体を視聴したビューの割合。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | 広告全体を視聴したビューの数。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | 広告全体を視聴したビューアブルインプレッションの割合。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completion Rate] | 広告の少なくとも 1 四分位数を視聴したビューの割合。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completions] | 広告の少なくとも 1 四分位数を視聴したビューの数。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 50% Completion Rate] | 広告の 4 分の 2 以上を視聴したビューの割合。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 50% Completions] | 広告の四分の一以上を視聴したビューの数。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 50% Viewable Completion (%)] | 広告の 4 分の 2 以上を視聴したビューアブルインプレッションの割合。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 75% Completion Rate] | 広告の少なくとも 3 四分の 1 を視聴したビューの割合。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 75% Completions] | 広告の四分の三以上を視聴したビューの数。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Avg Percent Viewed] | すべてのビューを考慮した、広告が完了まで視聴された平均割合。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Banner and Overlay Clicks] | 広告オーバーレイとバナーのクリック数。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Click Through Rate] | クリックの割合を広告インプレッション数で割った値。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Clicks Per View Rate] | クリックの割合をビデオビューで割った値。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Companion Clicks] | コンパニオンバナーのクリック数。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Companion CTR] | クリック数をコンパニオンバナーのインプレッション数で割った割合です。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Companion Impressions] | コンパニオンバナーのインプレッション数。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Connection] | 広告の表示に使用されたインターネット接続のタイプ（Wifi、4g LTE など）。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Companion CTR] | クリックの割合をコンパニオンバナーのインプレッションで割った値。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Companion Impressions] | コンパニオンバナーのインプレッションの数。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Connection] | 広告の表示に使用されたインターネット接続のタイプ （Wifi や 4g LTE など）。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagements] | 提供された広告でのインタラクションの数。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Impressions] | 広告インプレッションの合計数。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Play Rate] | ビデオ視聴につながったインプレッションの割合。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Play Rate] | ビデオビューにつながったインプレッション数の割合。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Playtime per View] | ビデオビューの平均時間（秒単位）。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Total Ad Clicks] | 広告のすべてのクリック数の合計。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Total Ad Clicks] | 広告のすべてのクリックの合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Viewed Minutes] | ビデオ広告が表示された合計時間（分）。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Views] | ビデオ広告視聴の合計数。 |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Avg. Player Width x Height] | プレーヤーの平均の幅と高さです。 |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Measurable Impressions] | 視認性を測定できたインプレッションの合計数。 |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | 視認性を測定できた、提供されたインプレッション数の割合 ( <code>[!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - iFrame (%)] | 互換性のない iFrame が原因で、インプレッションの表示性が測定できない割合。 |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - Not Supported (%)] | 広告ユニットでのビューアビリティの追跡がサポートされていないので、ビューアビリティで測定できないインプレッションの数。 |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - Other (%)] | その他の理由により、インプレッションの視認性が測定できない割合。 |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Impressions] | 広告インプレッション数は、視認性に対して測定できません。 |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Rate (%)] | 広告インプレッションの割合は、視認性を測定できません。 |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable rate (Not supported)] | この広告ユニットでのビューアビリティトラッキングがサポートされていないので、ビューアビリティに関してインプレッションの測定不能率。 |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | すべての測定可能なインプレッションのうち、表示可能なインプレッションの割合 ( <code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | 表示可能と見なされる広告インプレッションの数。 |
-| [!UICONTROL Conversion Metrics] | [レポート設定の広告主別にグループ化] | [広告主固有のコンバージョン] | 指定した広告主固有のコンバージョン指標またはAdobe Analyticsイベントの合計。 |
-| [!UICONTROL Custom Goals] | [レポート設定の広告主別にグループ化] | [広告主固有のカスタム目標] | 指定した [カスタム目標](/help/dsp/optimization/custom-goal-about.md). |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Views] | ビデオ広告ビューの合計数。 |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Avg. Player Width x Height] | プレーヤーの平均の幅と高さ。 |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Measurable Impressions] | ビューアビリティの測定が可能な、提供されたインプレッションの合計数。 |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | ビューアビリティの測定が可能な、提供されたインプレッションの割合（次のように計算） <code>[!UICONTROL Measurable Impressions] 1000 倍/ [!UICONTROL Impressions]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - iFrame (%)] | 互換性のない iFrame が原因で、ビューアビリティで測定できないインプレッションの割合。 |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - Not Supported (%)] | 広告ユニットでビューアビリティのトラッキングがサポートされていないので、ビューアビリティのインプレッション数を測定できません。 |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - Other (%)] | その他の理由により、ビューアビリティで測定できないインプレッション数の割合。 |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Impressions] | ビューアビリティでは測定できない広告インプレッションの数。 |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Rate (%)] | ビューアビリティでは測定できない広告インプレッションの割合。 |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable rate (Not supported)] | この広告ユニットでサポートされていないビューアビリティ追跡が原因で、ビューアビリティについて測定できないインプレッションの割合です。 |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | 測定可能なすべてのインプレッションの中で表示可能なインプレッションの割合。次のように計算されます <code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | ビューアブルと見なされる広告インプレッションの数。 |
+| [!UICONTROL Conversion Metrics] | [レポート設定で広告主別にグループ化] | [広告主固有のコンバージョン] | 指定した広告主固有のコンバージョン指標またはAdobe Analytics イベントの合計。 |
+| [!UICONTROL Custom Goals] | [レポート設定で広告主別にグループ化] | [広告主固有のカスタム目標] | 指定されたに含まれるすべてのコンバージョンの加重合計 [カスタム目標](/help/dsp/optimization/custom-goal.md). |
 
 {style="table-layout:auto"}
 
@@ -210,4 +210,4 @@ ht-degree: 0%
 >* [カスタムレポートの作成](/help/dsp/reports/report-create.md)
 >* [カスタムレポートの複製](/help/dsp/reports/report-copy.md)
 >* [カスタムレポートの編集](/help/dsp/reports/report-edit.md)
->* [カスタムレポート設定](/help/dsp/reports/report-settings.md)
+>* [カスタムレポートの設定](/help/dsp/reports/report-settings.md)
