@@ -2,9 +2,9 @@
 title: カスタム目標
 description: 最低 CPA または最高 ROAS 用に最適化されたパッケージで成功イベントを定義するカスタム目標について説明します。
 feature: DSP Optimization
-source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
+source-git-commit: 6dba85185789c365bd72787eb0fa16ef90bf6b9e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 （最適化目標「」を使用するパッケージのDSP パッケージ設定）[!UICONTROL Highest Return on Ad Spend (ROAS)"] または&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]」という目標名が [!UICONTROL Custom Goals] リスト。 目的をパッケージのカスタム目標として選択すると、次のようになります [!UICONTROL Conversion Metric] リストには、目的のすべての目標指標が含まれます。
 
-## カスタム目標を作成するためのベストプラクティス [#custom-goal-best-practices]
+## カスタム目標を作成するためのベストプラクティス {#custom-goal-best-practices}
 
 ### 単一の指標を使用したカスタム目標
 
