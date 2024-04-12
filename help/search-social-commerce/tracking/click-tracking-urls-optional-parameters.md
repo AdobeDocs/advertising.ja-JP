@@ -3,7 +3,7 @@ title: クリックトラッキング URL 用のオプションのトラッキ�
 description: クリックの追跡 URL に追加できる、オプションの検索、ソーシャル、Commerceのトラッキングパラメーターと広告ネットワーク固有のトラッキングパラメーターについて説明します。
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: cc312009303f86a2f9eddcc98f33d7e2c22fcb85
+source-git-commit: c750d9872dc15d541883f397d88a4c3c4d4aeaf0
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # クリックトラッキング URL 用のオプションのトラッキングパラメーター
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo Native], [!DNL Yahoo! Japan]、および [!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan]、および [!DNL Yandex] アカウントのみ*
 
 最終的な URL または宛先 URL に標準のトラッキングパラメーターのみを使用する代わりに、広告ネットワークアカウントの特定のデータを追跡するパラメーターを追加できます。 アカウント設定またはキャンペーン設定で、次のパラメーターの任意の組み合わせを追加できます。
 
