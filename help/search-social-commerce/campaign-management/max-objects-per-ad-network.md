@@ -1,27 +1,25 @@
 ---
 title: 広告ネットワークアカウントあたりの最大オブジェクト数
 description: 広告ネットワークアカウントあたりの最大オブジェクト数を確認する場所を参照してください。
-exl-id: 2db46e03-6023-4efb-b30b-24d99795a27d
+exl-id: 64463f56-0972-4acb-867e-d216f09bbc2d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b14b290afd6b13b1b9d1ac03c94c758e007dfc48
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
 # 広告ネットワークアカウントあたりの最大オブジェクト数
 
-現在のオブジェクトの制限については、広告ネットワークのドキュメントを参照してください。例えば、アカウントあたりのキャンペーンの最大数、キャンペーンあたりの広告グループの最大数などです。
+アカウントあたりの最大キャンペーン数、キャンペーンあたりの最大広告グループ数など、現在のオブジェクト制限については、広告ネットワークのドキュメントを参照してください。
 
-* **[!DNL Baidu]:** 各 [!DNL Baidu] アカウントには、最大 100 個のキャンペーン、1 キャンペーンあたり 1000 個の広告グループ、1 広告グループあたり 5000 個のキーワード、1 広告グループあたり 50 個の広告を含めることができます。
+* **[!DNL Baidu]:** Each [!DNL Baidu] アカウントには、最大 100 個のキャンペーン、1 つのキャンペーンに 1000 個の広告グループ、1 つの広告グループに 5000 個のキーワード、1 つの広告グループに 50 個の広告を含めることができます。
 
-* **[!DNL Microsoft Advertising]:** 次のページの「アカウント、キャンペーン、広告グループの制限」を参照してください。 [https://help.ads.microsoft.com/#apex/ads/en/52001](https://help.ads.microsoft.com/#apex/ads/en/52001).
+* **[!DNL Microsoft Advertising]:** で「アカウント、キャンペーン、広告グループの制限」を参照してください [https://help.ads.microsoft.com/#apex/ads/en/52001](https://help.ads.microsoft.com/#apex/ads/en/52001).
 
-* **[!DNL Google Ads]:** 詳しくは、 [https://support.google.com/google-ads/answer/6372658](https://support.google.com/google-ads/answer/6372658).
+* **[!DNL Google Ads]:** 参照： [https://support.google.com/google-ads/answer/6372658](https://support.google.com/google-ads/answer/6372658).
 
-* **[!DNL Yahoo Native]:** 「オブジェクト表現」>「制限」( ) を参照してください。 [https://developer.yahooinc.com/native/guide/objects.html](https://developer.yahooinc.com/native/guide/objects.html).
+* **[!DNL Yahoo! Japan Ads]:** 参照： [https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html](https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html).
 
-* **[!DNL Yahoo! Japan Ads]:** 詳しくは、 [https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html](https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html).
-
-* **[!DNL Yandex]:** 詳しくは、 [https://yandex.com/support/direct/troubleshooting/interface_limitations.xml](https://yandex.com/support/direct/troubleshooting/interface_limitations.xml).
+* **[!DNL Yandex]:** 参照： [https://yandex.com/support/direct/troubleshooting/interface_limitations.xml](https://yandex.com/support/direct/troubleshooting/interface_limitations.xml).
