@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: 1b58c38858532dc41a467fd86a6a28e3383386be
+source-git-commit: 79de03696624146d7c82e8658229d19059dc1713
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 3%
@@ -118,16 +118,6 @@ ht-degree: 3%
    + [トラブルシューティングのパフォーマンス](/help/dsp/optimization/troubleshooting-performance.md)
 + オーディエンス {#audiences}
    + [Audience Management について](/help/dsp/audiences/audience-about.md)
-   + セグメント {#segments}
-      + [カスタムセグメントの作成と実装](/help/dsp/audiences/custom-segment-create.md)
-      + [!UICONTROL CCPA Opt-out-of-Sale] セグメント {#ccpa-opt-out-of-sale-segments}
-         + [について [!UICONTROL CCPA Opt-out-of-Sale] セグメント](/help/dsp/audiences/ccpa-opt-out-about.md)
-         + [の作成と実装 [!UICONTROL CCPA Opt-out-of-Sale] セグメント](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
-         + [取得 [!UICONTROL Consumer Opt-Out-of-Sale] 報告書](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
-      + [セグメント情報の編集](/help/dsp/audiences/segment-edit.md)
-      + [セグメントの共有または共有の停止](/help/dsp/audiences/segment-share.md)
-      + [セグメントのトラッキングピクセルの表示](/help/dsp/audiences/segment-view-pixels.md)
-      + [セグメントの削除](/help/dsp/audiences/segment-delete.md)
    + オーディエンス {#reusable-audiences}
       + [再利用可能なオーディエンスを作成](/help/dsp/audiences/reusable-audience-create.md)
       + [再利用可能なオーディエンスを複製](/help/dsp/audiences/reusable-audience-duplicate.md)
@@ -139,6 +129,16 @@ ht-degree: 3%
       + [再利用可能なオーディエンスを削除](/help/dsp/audiences/reusable-audience-delete.md)
       + [オーディエンス設定](/help/dsp/audiences/audience-settings.md)
       + [オーディエンスセグメントロジックの構文](/help/dsp/audiences/audience-segment-logic-syntax.md)
+   + セグメント {#segments}
+      + [カスタムセグメントの作成と実装](/help/dsp/audiences/custom-segment-create.md)
+      + [!UICONTROL CCPA Opt-out-of-Sale] セグメント {#ccpa-opt-out-of-sale-segments}
+         + [について [!UICONTROL CCPA Opt-out-of-Sale] セグメント](/help/dsp/audiences/ccpa-opt-out-about.md)
+         + [の作成と実装 [!UICONTROL CCPA Opt-out-of-Sale] セグメント](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
+         + [取得 [!UICONTROL Consumer Opt-Out-of-Sale] 報告書](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
+      + [セグメント情報の編集](/help/dsp/audiences/segment-edit.md)
+      + [セグメントの共有または共有の停止](/help/dsp/audiences/segment-share.md)
+      + [セグメントのトラッキングピクセルの表示](/help/dsp/audiences/segment-view-pixels.md)
+      + [セグメントの削除](/help/dsp/audiences/segment-delete.md)
    + ソース {#sources}
       + [オーディエンスソースからの認証済みセグメントのアクティブ化について](/help/dsp/audiences/sources/source-about.md)
       + 顧客データプラットフォーム別ワークフロー {#sources-workflows}
