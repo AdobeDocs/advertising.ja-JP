@@ -3,9 +3,9 @@ title: クリックトラッキング URL 用のオプションのトラッキ�
 description: クリックの追跡 URL に追加できる、オプションの検索、ソーシャル、Commerceのトラッキングパラメーターと広告ネットワーク固有のトラッキングパラメーターについて説明します。
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: c750d9872dc15d541883f397d88a4c3c4d4aeaf0
+source-git-commit: c743e0dec75578d739a704ef94f96dd7be4f982e
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -66,16 +66,8 @@ ht-degree: 0%
 
 参照： [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; アップストリームを更新
-## [!DNL Yahoo Native] 動的トラッキングパラメーター
-
-参照： [https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters](https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters).
-
-## [!DNL Yahoo! Japan Ads] 動的トラッキングパラメーター
-=======
 ## Yahoo! 日本広告の動的トラッキングパラメーター
->>>>>>>>>>ハッシュ化された変更
-> 
+
 参照： [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## [!DNL Yandex] 動的トラッキングパラメーター
@@ -84,4 +76,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-* [Adobe Advertisingコンバージョントラッキングサービスのクリックトラッキング URL 形式について](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+>* [Adobe Advertisingコンバージョントラッキングサービスのクリックトラッキング URL 形式について](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
