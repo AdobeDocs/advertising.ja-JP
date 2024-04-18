@@ -2,7 +2,7 @@
 title: プレースメントの入札乗数の管理
 description: 指定したプレースメント ターゲットの入札乗数を作成および編集する方法を説明します。
 feature: DSP Placements
-source-git-commit: 7a794394d9338cb2608ce3d89c90b122f8eee9dc
+source-git-commit: 6994a15af080057889607c0e28dd519a1ddb28de
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 プレースメントの選択したターゲットを変更するには、「」を参照してください[プレースメントの編集](/help/dsp/campaign-management/placements/placement-edit.md).」と入力します。
 
-<!--  
+<!-- 
 ## Manage the Bid Multipliers for a Single Placement
 -->
 
