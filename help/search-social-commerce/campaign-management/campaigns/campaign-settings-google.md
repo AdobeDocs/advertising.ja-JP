@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Google Ads] キャンペーン設定'
-description: 次の設定を参照してください： [!DNL Google Ads] キャンペーン。
+description: の設定を参照します [!DNL Google Ads] キャンペーン。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
+source-git-commit: 66f6f659e46d2a08e0f7b958be8f60ba5e9720b3
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '2378'
 ht-degree: 0%
 
 ---
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 ## \[ キャンペーン作成画面\]
 
-**[!UICONTROL Campaign Type]:** （キャンペーンの作成時のみ使用可能）広告を配置する場所と、キャンペーンに含めることのできる広告タイプ：
+**[!UICONTROL Campaign Type]:** （キャンペーンの作成時にのみ使用できます）広告の配置場所と、キャンペーンに含めることができる広告タイプは次のとおりです。
 
-* *[!UICONTROL Search Network Only]:* 検索ネットワーク上に広告を表示します（以下を含む） [!DNL Google] 検索結果、およびオプションでパートナーサイトを検索します。 広告グループごとにキーワードを指定する必要があります。
+* *[!UICONTROL Search Network Only]:* 検索ネットワーク上の広告を表示します。次のものが含まれます [!DNL Google] 検索結果と、オプションでパートナーサイトを検索できます。 各広告グループにキーワードを指定する必要があります。
 
-* *[!UICONTROL Search with Display Select]:* 検索ネットワーク上の広告を表示します ( [!DNL Google] 検索結果、および（オプションで検索パートナーサイト）、ディスプレイネットワークサイトに広告を表示する場合もあります。 ディスプレイネットワーク上で、 [!DNL Google Ads] キャンペーンの入札戦略に関係なく、自動入札を使用して広告を選択的に表示します。 検索広告の場合は、各広告グループのキーワードを指定します。ディスプレイ広告の場合は、プレースメントを指定し、必要に応じて各広告グループのキーワードを指定します。
+* *[!UICONTROL Search with Display Select]:* 検索ネットワーク上の広告を表示します（次を含む） [!DNL Google] 検索結果と（オプションでパートナーサイトを検索）、潜在的に表示ネットワークサイトに広告を表示します。 ディスプレイネットワークで、 [!DNL Google Ads] は、キャンペーンの入札戦略に関係なく、自動入札を使用して広告を選択的に表示します。 検索広告の場合は、広告グループごとにキーワードを指定します。表示広告の場合は、プレースメントを指定し、オプションで広告グループごとにキーワードを指定します。
 
-* *[!UICONTROL Shopping Network]:* 製品広告を表示します。 [!DNL Google] は、の製品に基づいて自動的にを生成します。 [!DNL Google Merchant Center] オン [!DNL Google Shopping]（の隣の領域） [!DNL Google] 検索結果（テキスト広告とは別のもの）、および（オプションで）検索パートナー web サイト。 キャンペーン内の広告グループごとに、広告を提供する製品グループを指定できます。
+* *[!UICONTROL Shopping Network]:* 製品広告を表示し、 [!DNL Google] では、の製品に基づいて自動的にを生成します [!DNL Google Merchant Center] 日付： [!DNL Google Shopping]、の隣の領域 [!DNL Google] 検索結果（テキスト広告とは別）および（オプションで）パートナー web サイトを検索します。 キャンペーンの広告グループごとに、広告する製品グループを指定できます。
 
-* *[!UICONTROL Display Network Only]:* ディスプレイネットワーク上に広告を表示します。 各広告グループに対して、プレースメントを指定し、必要に応じてキーワードを指定します。
+* *[!UICONTROL Display Network Only]:* ディスプレイ ネットワーク上の広告を表示します。 広告グループごとに、プレースメントを指定する必要があり、オプションでキーワードを指定することもできます。
 
-* *[!UICONTROL Performance Max]:* （ベータ版機能）を使用して、様々なチャネルの広告のコンバージョンを表示および最適化します。 [!DNL Google Ads] スマート入札。 キャンペーン設定では、1 つ以上のアセットグループを指定する必要があります。このグループには、画像、ロゴ、ヘッドライン、説明、オプションのビデオおよびオーディエンスシグナルが含まれます。 [!DNL Google Ads] チャネルに基づいて広告を提供するために、アセットを自動的に組み合わせます ( 例： [!DNL YouTube], [!DNL Gmail]または [!DNL Search]) をクリックします。
+* *[!UICONTROL Performance Max]:* （ベータ版機能）を使用して、チャネルをまたいで広告のコンバージョンを表示および最適化します [!DNL Google Ads] スマート入札。 キャンペーン設定内で、1 つ以上のアセットグループ（画像、ロゴ、ヘッドライン、説明、オプションビデオ、オーディエンスシグナルを含む）を指定する必要があります。 [!DNL Google Ads] では、アセットを自動的に組み合わせ、チャネルに基づいて広告を提供します（例： [!DNL YouTube], [!DNL Gmail]、または [!DNL Search]）に設定します。
 
   **メモ：**
 
-   * 必要な設定のみを使用できます。 オプション設定の場合は、 [!DNL Google Ads] 編集者です。
+   * 必要な設定のみ使用できます。 オプションの設定については、にログインしてください [!DNL Google Ads] 編集者。
 
    * リンク先 [!DNL Google Merchant Center] 製品フィードはサポートされていません。
 
-   * リストグループのサポートは利用できません。 リストグループのデータを管理および表示するには、 [!DNL Google Ads] 編集者です。
+   * グループの一覧表示はサポートされていません。 グループをリストするデータを管理および表示するには、にログインします [!DNL Google Ads] 編集者。
 
-   * ハイブリッドの最適化がサポートされています。 入札戦略のターゲットとキャンペーンの予算は、キャンペーンレベルで設定します。
+   * ハイブリッド最適化がサポートされています。 入札戦略のターゲットとキャンペーンの予算は、キャンペーンレベルで設定します。
 
 ## [!UICONTROL Campaign Details]
 
@@ -44,19 +44,19 @@ ht-degree: 0%
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Audience Target Method]:**（既存の、読み取り専用の Gmail キャンペーンのみ）次のいずれを実行するかを指定します。
+**[!UICONTROL Audience Target Method]:**（既存の読み取り専用 Gmail キャンペーンのみ）次のどちらを実行するか：
 
-* *[!UICONTROL Target and Bid]* 広告グループの他のターゲットも満たすターゲットオーディエンスに関連付けられたユーザーに対してのみ広告を表示する。
+* *[!UICONTROL Target and Bid]* ターゲットオーディエンスに関連付けられているユーザーで、その広告グループに対する他のターゲットも満たしているユーザーにのみ広告を表示する。
 
-* *[!UICONTROL Bid Only]:*  ターゲットオーディエンスに関連付けられていないユーザーが他の広告グループレベルのターゲットを満たしている限り、広告を表示する。 ただし、特定のオーディエンスに対して広告が表示される可能性を高めるには、それらのオーディエンスの入札額を高く設定します。
+* *[!UICONTROL Bid Only]:*  ターゲットオーディエンスに関連付けられていない人物であっても、他の広告グループレベルのターゲットを満たす限り、広告を表示する。 ただし、特定のオーディエンスに対してより高い入札を設定すると、それらのオーディエンスに広告が表示される可能性が高くなります。
 
-**[!UICONTROL Status]:** キャンペーンの表示ステータス： *アクティブ* または *一時停止*. 新しい広告キャンペーンのデフォルトは、 *アクティブ*.
+**[!UICONTROL Status]:** キャンペーンの表示ステータス： *アクティブ* または *一時停止*. 新規広告キャンペーンのデフォルトはです。 *アクティブ*.
 
 <!-- **[!UICONTROL End Date]:** -->
 
 {{$include /help/_includes/end-date.md}}
 
-**[!UICONTROL Search Partners]:** ( 検索ネットワークのみをターゲットにするキャンペーン（ショッピングキャンペーンを含む）広告ネットワークの検索パートナーネットワークに広告を表示します。 デフォルトでは、このオプションは *[!UICONTROL Off]*.
+**[!UICONTROL Search Partners]:** （ショッピングキャンペーンを含む、検索ネットワークのみをターゲットとするキャンペーン）広告ネットワークの検索パートナーネットワーク上の広告を表示します。 デフォルトでは、このオプションは *[!UICONTROL Off]*.
 
 ## [!UICONTROL Budget Options]
 
@@ -70,39 +70,39 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** キャンペーンの入札戦略：
 
-* *[!UICONTROL Enhanced CPC]:* （パフォーマンスの最大値または既存値は読み取り専用では使用できません） [!DNL Gmail] キャンペーン ) は、広告ネットワークの拡張クリック単価 (eCPC) モデルを使用します。これにより、広告ネットワーク内で指定されたコンバージョン（検索、ソーシャル、コマースではなく）を使用して、コンバージョンを最大化します。
+* *[!UICONTROL Enhanced CPC]:* （Performance max または既存では使用できません。読み取り専用です [!DNL Gmail] キャンペーン）広告ネットワークの拡張コストパークリック（eCPC）モデルを使用します。これにより、広告ネットワークは、平均 CPC を最大 CPC 未満に保ちながら、広告ネットワーク（検索、ソーシャル、Commerceではない）内で指定されたコンバージョンを使用して、コンバージョンを最大化するために、各オークションのコストパークリック（CPC）入札を自動的に変更できます。
 
-eCPC を持つキャンペーンを最適化された検索、ソーシャル、コマースのポートフォリオに追加すると、検索、ソーシャル、コマースがベース入札を最適化し、「[!UICONTROL Auto adjust campaign budget limits]「 」オプションは有効です — キャンペーンの予算です。 広告ネットワークは、すべての入札調整を最適化し、独自のデータとインサイトに基づいて、ユーザークエリの実行時に検索、ソーシャル、コマースで生成された入札を変更する場合があります。 **注意：** ポートフォリオで eCPC キャンペーンを使用するのは、広告ネットワークで追跡される合計コンバージョンがポートフォリオの目標と一致する場合のみです。 <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
+eCPC を使用してキャンペーンを最適化された検索、ソーシャル、Commerce ポートフォリオに追加すると、検索、ソーシャル、Commerceによってベース入札が最適化され、「[!UICONTROL Auto adjust campaign budget limits]「」オプションが有効になっています – キャンペーンの予算。 アドネットワークは、すべての入札調整を最適化し、独自のデータとインサイトに基づいて、ユーザークエリ時に検索、ソーシャル、Commerceで生成された入札を変更する可能性があります。 **注意：** ポートフォリオで eCPC キャンペーンを使用するのは、広告ネットワークで追跡されるコンバージョンの合計がポートフォリオの目的と合致する場合のみです。 <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
 
-* *[!UICONTROL Manual CPC]* （デフォルト）: （パフォーマンスの最大キャンペーンでは使用できません）クリック単価 (CPC) モデルを使用します。 オプションで、広告ネットワークにキャンペーンの入札の変更を許可できます。
+* *[!UICONTROL Manual CPC]* （デフォルト）: （パフォーマンス最大化キャンペーンでは使用できません）クリック単価（CPC）モデルを使用します。 オプションで、広告ネットワークにキャンペーンの入札の変更を許可できます。
 
-   * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）：これは、[!UICONTROL Enhanced CPC]&quot;オプション。
+   * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）：これは「」の使用と同じです[!UICONTROL Enhanced CPC]」オプションを選択します。
 
-* *[!UICONTROL Maximize Clicks]:* （検索、表示、およびショッピングキャンペーン）検索、ソーシャル、コマースではなく、広告ネットワークは、入札を最適化して、クリック数を最大化します。 必要に応じて、 **[!UICONTROL Max CPC]** （クリックあたりのコスト）を使用して、広告ネットワークが各クリックに対して特定の金額を超えないようにします。 **注意：** この戦略を持つキャンペーンをポートフォリオに追加すると、入札は、ポートフォリオの目的ではなく、クリックの重み付けによって駆動されます。
+* *[!UICONTROL Maximize Clicks]:* （検索、ディスプレイ、ショッピングキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、クリック数を最大化するように入札を最適化します。 オプションで、 **[!UICONTROL Max CPC]** （クリックあたりのコスト）広告ネットワークがクリックごとに特定の金額以上を支払わないようにします。 **注意：** この戦略を使用してキャンペーンをポートフォリオに追加すると、入札はポートフォリオの目的ではなく、クリックの重み付けで決まります。
 
-* *[!UICONTROL Maximize Conversion Value]:* （検索、パフォーマンス最大、スマートショッピングキャンペーン）検索、ソーシャル、コマースではなく、広告ネットワークが、入札を最適化して、コンバージョン値を最大化します。 必要に応じて、 **[!UICONTROL Target Return on Ad Spend]** (ROAS) を割合で示します。 **注意：** このオプションは、ハイブリッドポートフォリオのキャンペーンで使用しますが、標準のポートフォリオでは使用しません。
+* *[!UICONTROL Maximize Conversion Value]:* （検索、パフォーマンス最大化、スマートショッピングキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、コンバージョン値を最大化するように入札を最適化します。 必要に応じて、 **[!UICONTROL Target Return on Ad Spend]** （ROAS）をパーセンテージで表示します。 **注意：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。
 
-* *[!UICONTROL Maximize Conversions]:* （検索、表示、パフォーマンスの最大キャンペーン）広告ネットワーク（検索、ソーシャル、コマースではなく）は、入札を最適化して、コンバージョンを最大化します。 必要に応じて、 **[!UICONTROL Target CPA]** （獲得あたりのコスト）。 **注意：** このオプションは、ハイブリッドポートフォリオのキャンペーンで使用しますが、標準のポートフォリオでは使用しません。
+* *[!UICONTROL Maximize Conversions]:* （検索、ディスプレイ、Performance MAX キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、コンバージョンを最大化するように入札を最適化します。 必要に応じて、 **[!UICONTROL Target CPA]** （取得あたりのコスト）。 **注意：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。
 
-* *[!UICONTROL Target CPA]:* （ディスプレイキャンペーン、既存の検索キャンペーン）広告ネットワーク（検索、ソーシャル、コマースではなく）は、オプションのに基づいて入札を最適化します **[!UICONTROL Target CPA]** （獲得あたりのコスト）：獲得（コンバージョン）に対して支払う 30 日間の平均金額。 **注意：** このオプションは、支出戦略を除くハイブリッドポートフォリオのキャンペーン（標準のポートフォリオではない）に使用します。 [!UICONTROL Weekly] または [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]:* （ディスプレイキャンペーン、既存の検索キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、オプションに基づいて入札を最適化します **[!UICONTROL Target CPA]** （1 購入あたりのコスト）獲得（コンバージョン）の支払いに対して支払う 30 日間の平均金額。 **注意：** このオプションは、次を除く任意の支出戦略を持つハイブリッドポートフォリオ（ただし、標準ポートフォリオは除く）のキャンペーンに使用します [!UICONTROL Weekly] または [!UICONTROL Google Target CPA].
 
-  この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データを使用できません。
+  この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データは利用できません。
 
-  新しい検索キャンペーンの場合、 [!DNL Google Ads] は、この入札戦略を [!UICONTROL Maximize Conversions] 使用する戦略 [!UICONTROL Target CPA] の値です。 この方法で既存の検索キャンペーンを使用する場合は、ターゲット値のみを編集でき、その結果、戦略が [!UICONTROL Maximize Conversions] 指定した [!UICONTROL Target CPA] の値です。
+  新しい検索キャンペーンの場合、 [!DNL Google Ads] 様はこの入札戦略をに置き換えました [!UICONTROL Maximize Conversions] を使用した戦略 [!UICONTROL Target CPA] の値。 この戦略を使用している既存の検索キャンペーンの場合は、ターゲット値のみを編集でき、編集すると戦略がに変更されます。 [!UICONTROL Maximize Conversions] 指定されたを使用した戦略 [!UICONTROL Target CPA] の値。
 
-* *[!UICONTROL Target Impression Share]:* （検索キャンペーン）検索、ソーシャル、コマースではなく、広告ネットワークによって、入札を最適化して、ターゲットのインプレッション共有と広告の位置を達成します。 必要に応じて、 **[!UICONTROL Target Impression Share]** パーセンテージでは、 **[!UICONTROL Target Ad Position]**、および **[!UICONTROL Max CPC]** （クリックあたりのコスト）。 **注意：** このオプションは、ポートフォリオではサポートされていません。
+* *[!UICONTROL Target Impression Share]:* （検索キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークを使用すると、ターゲットインプレッションシェアと広告掲載順位を達成するように入札を最適化できます。 オプションで、 **[!UICONTROL Target Impression Share]** 割合で、 **[!UICONTROL Target Ad Position]**、および **[!UICONTROL Max CPC]** （クリック単価）。 **注意：** このオプションは、ポートフォリオではサポートされていません。
 
-* *[!UICONTROL Target Return on Ad Spend]:*  （ディスプレイ広告およびショッピングキャンペーン、既存の検索キャンペーン）広告ネットワーク（検索、ソーシャル、コマースではなく）は、指定した値に基づいて入札を最適化します **[!UICONTROL Target ROAS]** （広告費用対効果）。割合で指定します。 **注意：** このオプションは、支出戦略を除くハイブリッドポートフォリオのキャンペーン（標準のポートフォリオではない）に使用します。 [!UICONTROL Weekly] または [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:*  （ディスプレイおよびショッピングキャンペーン、既存の検索キャンペーン）広告ネットワーク（検索、ソーシャル、Commerceではない）は、指定されたに基づいて入札を最適化します **[!UICONTROL Target ROAS]** （広告費用対効果）。パーセンテージで指定します。 **注意：** このオプションは、次を除く任意の支出戦略を持つハイブリッドポートフォリオ（ただし、標準ポートフォリオは除く）のキャンペーンに使用します [!UICONTROL Weekly] または [!UICONTROL Google Target ROAS].
 
-  この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データを使用できません。
+  この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データは利用できません。
 
-  新しい検索キャンペーンの場合、 [!DNL Google Ads] は、この入札戦略を [!UICONTROL Maximize Conversion Value] 使用する戦略 [!UICONTROL Target Return on Ad Spend value]. この方法で既存の検索キャンペーンを使用する場合は、ターゲット値のみを編集でき、その結果、戦略が [!UICONTROL Maximize Conversion Value] 指定した [!UICONTROL Target Return on Ad Spend] の値です。
+  新しい検索キャンペーンの場合、 [!DNL Google Ads] 様はこの入札戦略をに置き換えました [!UICONTROL Maximize Conversion Value] を使用した戦略 [!UICONTROL Target Return on Ad Spend value]. この戦略を使用している既存の検索キャンペーンの場合は、ターゲット値のみを編集でき、編集すると戦略がに変更されます。 [!UICONTROL Maximize Conversion Value] 指定されたを使用した戦略 [!UICONTROL Target Return on Ad Spend] の値。
 
-* *[!UICONTROL Viewable CPM]:* （既存、読み取り専用） [!DNL Gmail] キャンペーンのみ ) 広告ネットワーク（検索、ソーシャル、コマースではなく）は、表示可能と測定された広告にのみ入札します。 **注意：** この戦略の最適化は、どの種類のポートフォリオでもサポートされていません。
+* *[!UICONTROL Viewable CPM]:* （Existing, read-only [!DNL Gmail] キャンペーンのみ）広告ネットワーク（検索、ソーシャル、Commerceは除く）は、ビューアブルとして測定された広告のみを入札します。 **注意：** この戦略の最適化は、どのタイプのポートフォリオでもサポートされていません。
 
 ## [!UICONTROL Shopping Settings]
 
-**[!UICONTROL Sales Country]:** （買い物キャンペーンのみ、既存のキャンペーンの読み取り専用）キャンペーンの製品が販売される国。 製品は対象国に関連付けられているので、この設定によってキャンペーンで広告される製品が決まります。
+**[!UICONTROL Sales Country]:** （ショッピングキャンペーンのみ。既存のキャンペーンの場合は読み取り専用）キャンペーンの商品が販売される国。 製品はターゲット国に関連付けられているので、この設定によってキャンペーンで広告する製品が決まります。
 
 <!-- **[!UICONTROL Campaign Priority]:** -->
 
@@ -112,11 +112,11 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
 {{$include /help/_includes/merchant-id.md}}
 
-**[!UICONTROL Local Inventory Ads]:** ( 買い物キャンペーンのみ。既にローカルのショッピングプログラムに参加している広告主 [!DNL Google Merchant Center] 米国、英国、DE、FR、JP、AU に店舗（オプション）許可 [!DNL Google Ads] Google.comのショッピング広告にローカルの在庫情報を自動的に追加する。
+**[!UICONTROL Local Inventory Ads]:** （ショッピングキャンペーンのみ。既にローカルショッピングプログラムに参加している広告主 [!DNL Google Merchant Center] 米国、英国、DE、FR、JP、AU の店舗（オプション） [!DNL Google Ads] でローカルの在庫情報をショッピング広告に自動的に追加するにはGoogle.com。
 
-**ヒント：** この設定を使用する場合、 [!UICONTROL Inventory Filter] 設定。
+**ヒント：** この設定を使用する場合は、でローカル広告を除外しないでください [!UICONTROL Inventory Filter] の設定値。
 
-**注意：** ローカルの在庫広告には、次の操作を行うための追加のフィードが 2 つ必要です。 [!DNL Google Merchant Center] —1 つはローカルの製品データで、もう 1 つはローカルの製品在庫です。 詳しくは、 [!DNL Google Ads] 詳細に関するドキュメント [ローカルショッピング広告](https://www.google.com/retail/local-inventory-ads/).
+**注意：** ローカルの在庫広告には、に 2 つの追加フィードが必要です。 [!DNL Google Merchant Center] — 1 つはローカルの製品データを使用し、もう 1 つはローカルの製品インベントリを使用します。 を参照してください。 [!DNL Google Ads] の詳細情報に関するドキュメント [ローカルショッピング広告](https://www.google.com/retail/local-inventory-ads/).
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 
@@ -124,43 +124,43 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
 ## [!UICONTROL Campaign Targeting]
 
-**[!UICONTROL Languages]:** （検索および表示ネットワークのみ）キャンペーン内の広告の 1 つ以上のターゲット言語。
+**[!UICONTROL Languages]:** （ネットワークの検索と表示のみ） キャンペーンの広告の 1 つ以上のターゲット言語。
 
-[!DNL Google Ads] は、ユーザーの [!DNL Google] 言語設定、検索クエリの言語、現在のページ、または [!DNL Google Display Network].
+[!DNL Google Ads] ユーザーの言語をユーザーの言語から決定します [!DNL Google] 検索クエリ、現在のページ、または最近表示されたページの言語設定または言語 [!DNL Google Display Network].
 
-**[!UICONTROL Location Targets]:** ターゲットとして含めるまたは除外する特定のユーザーの地理的な場所。 デフォルトでは、すべてのロケーションがターゲットになっています。 任意の場所の組み合わせに対して、ユーザーを含めたり除外したりできます。 除外は、常に含めるものを上書きします。
+**[!UICONTROL Location Targets]:** ターゲットとして含めるか除外する特定のユーザー地理的ロケーション。 デフォルトでは、すべての場所がターゲットになります。 任意の場所の組み合わせにユーザーを含めたり、除外したりできます。 除外は、常に包含を上書きします。
 
-* すべての場所をターゲットにする場合は、どの場所も選択しないでください。
+* すべての場所を対象にするには、どの場所も選択しないでください。
 
-* 特定の場所をターゲットにする、または除外するには：
+* 特定の場所をターゲットまたは除外するには：
 
-   * （国、都道府県、大都市、市区町村）クリック **[!UICONTROL Location Target]** (![場所のターゲット](/help/search-social-commerce/assets/location-target.png "場所のターゲット")) をクリックし、以下を含めて除外する場所を特定します。
+   * （国、都道府県、大都市圏、または市区町村）をクリックします。 **[!UICONTROL Location Target]** （![場所のターゲット](/help/search-social-commerce/assets/location-target.png "場所のターゲット")）を選択し、含める場所と除外する場所を見つけます。
 
-      * 場所とその子の場所を含めるには、その横の円を 1 回クリックして、青いチェックマーク (![次を含む](/help/search-social-commerce/assets/include.png "次を含む")) が表示されます。
+      * 場所とその子場所を含めるには、その横にある円を 1 回クリックして、青いチェックマーク（![次を含める](/help/search-social-commerce/assets/include.png "次を含める")）が表示されます。
 
-      * 場所を除外するには、その場所の横にある円を 2 回クリックして、赤いチェックマーク (![除外](/help/search-social-commerce/assets/exclude.png "除外")) が表示されます。
+      * 場所を除外するには、その場所の横にある円を 2 回クリックして、赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されます。
 
-      * 場所をそのサブコンポーネント（米国の州、大都市地域、市区町村など）に展開するには、場所名をクリックします。
+      * 場所をサブコンポーネント（米国の州、大都市圏、都市など）に展開するには、場所名をクリックします。
 
-      * 場所を検索するには、その場所の最初の 3 文字以上を入力フィールドに入力または貼り付けます。 検索結果で、 **[!UICONTROL Include]** 含める場所の横または **[!UICONTROL Exclude]** をクリックします。
+      * 場所を検索するには、入力フィールドに場所の最初の 3 文字以上を入力するか貼り付けます。 検索結果で、 **[!UICONTROL Include]** 含める場所または含める場所の横 **[!UICONTROL Exclude]** 除外する場所の横。
 
-   * （住所の近くの場所、含まれるターゲットのみ）クリック **[!UICONTROL Radius Target]** (![半径ターゲット](/help/search-social-commerce/assets/radius-target.png "半径ターゲット")) をクリックし、次に「 **[!UICONTROL Address]**. 目標とする住所と住所の周囲の半径（マイルまたはキロメートル）を入力し、次に、 **[!UICONTROL Add]**.
+   * （所在地に近い場所。ターゲットのみ含む）クリック **[!UICONTROL Radius Target]** （![半径ターゲット](/help/search-social-commerce/assets/radius-target.png "半径ターゲット")）を選択し、 **[!UICONTROL Address]**. ターゲットとするアドレスとその周囲の半径（マイルまたはキロメートル）を入力し、 **[!UICONTROL Add]**.
 
-   * （地理的座標の近くの位置、含まれるターゲットのみ）クリック **[!UICONTROL Radius Target]** (![半径ターゲット](/help/search-social-commerce/assets/radius-target.png "半径ターゲット")) をクリックし、次に「 **[!UICONTROL Coordinate]**. ターゲットとする位置の周囲の緯度と経度および半径をマイルまたはキロメートル単位で入力し、次に、 **[!UICONTROL Add]**.
+   * （地理的座標に近い場所。含まれるターゲットのみ）をクリック **[!UICONTROL Radius Target]** （![半径ターゲット](/help/search-social-commerce/assets/radius-target.png "半径ターゲット")）を選択し、 **[!UICONTROL Coordinate]**. ターゲットとする位置の周りの緯度と経度、および半径（マイルまたはキロメートル単位）を入力し、 **[!UICONTROL Add]**.
 
-* （含まれるターゲット・ロケーションに入札調整を追加する手順は、次のとおりです）入札調整値を入力します。
+* （組み込み対象事業所に対する入札調整を追加する手順は、次のとおりです）入札調整値を入力します。
 
-* 0%：この場所の広告の入札を調整しない。
+* 0%：この場所の広告の入札を調整しません。
 
-* \[ その他の値 (-90% ～ 300%)\]：この場所での広告の入札額を増減させます。
+* \[Other values from -90% to 300%\]：この場所の広告の入札額を増減させます。
 
 **注意：**
 
-* 検索、ソーシャル、コマースでは、以下の場所のターゲットに対して自動調整された入札調整は行われません。これは、 [!DNL Google Ads] は、サーファーの場所を場所のターゲットにマッピングします。
+* 検索、ソーシャル、Commerceでは、データに制限があるため、次の場所目標に対して自動調整された入札調整を提供しません [!DNL Google Ads] では、サーファーの場所を場所ターゲットにマッピングできます。
 
-   * 半径のターゲット。
+   * 半径ターゲット。
 
-   * 都道府県/地域/郡/都道府県レベル以下の一部の場所。 [!DNL Google Ads] では、空港や米国議会の地区を含む親の場所をサーファーの URL に送信しません。
+   * 州/都道府県/地域/郡/県レベルの下に次の一部の場所があります [!DNL Google Ads] は、空港や米国議会選挙区を含め、サーファーの URL に親の場所を送信しません。
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -168,9 +168,9 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
 ## [!UICONTROL Advanced Device Options]
 
-**[!UICONTROL Mobile Carriers]:** （ディスプレイネットワークのみ）ターゲットとする特定の携帯電話会社。通信事業者は国別に並べ替えられます。 何も選択しない場合、すべてのターゲットが設定されます。
+**[!UICONTROL Mobile Carriers]:** （ディスプレイネットワークのみ）ターゲットとする特定の携帯電話会社。通信会社は国別に分類されます。 何も選択しない場合は、すべてがターゲットになります。
 
-**[!UICONTROL Mobile Carriers]:** （ディスプレイネットワークのみ）ターゲットとする特定のオペレーティングシステム。 何も選択しない場合、すべてのターゲットが設定されます。
+**[!UICONTROL Mobile Carriers]:** （ネットワークのみを表示）ターゲットにする特定のオペレーティングシステム。 何も選択しない場合は、すべてがターゲットになります。
 
 ## [!UICONTROL URL Options]
 
@@ -238,128 +238,128 @@ eCPC を持つキャンペーンを最適化された検索、ソーシャル、
 
 {{$include /help/_includes/tracking-level.md}}
 
-**[!UICONTROL Track Product Group]:** ( の [!UICONTROL EF Redirect] （のみ）実装されていません
+**[!UICONTROL Track Product Group]:** （用 [!UICONTROL EF Redirect] のみ）実装されていません
 
 <!-- **[!UICONTROL Append Parameters]:** -->
 
 {{$include /help/_includes/append-parameters.md}}
 
-## [!UICONTROL Asset Groups] （アセットグループごと）
+## [!UICONTROL Asset Groups] （アセットグループあたり）
 
 **[!UICONTROL Asset Group Name]:** アセットグループの名前。 リンク先 [!DNL Google Merchant Center] 製品フィードはサポートされていません。
 
 **[!UICONTROL Asset Group Status]:** アセットグループのステータス： *[!UICONTROL Active]* または *[!UICONTROL Paused]*.
 
-**[!UICONTROL Final URL]:** アセットグループから作成されるすべての広告の最終 URL。 <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
+**[!UICONTROL Final URL]:** アセットグループから作成されたすべての広告の最終的な URL。 <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** 広告の画像（以下のサイズを含む） 15 個まで： 1) 正方形の画像を 3 つ以上、2) 横置きの画像を 3 つ以上、3) 少なくとも 1 つの縦置きの画像を含む。 詳しくは、 [[!DNL Google Ads] 画像仕様](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 画像をアップロードするか、 [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
+**[!UICONTROL Images]:** 広告の最大 15 枚の画像（次のサイズを含む）: 1） 3 つ以上の正方形画像、2） 3 つ以上の横長画像、3） 1 つ以上の縦長画像。 を参照してください。 [[!DNL Google Ads] 画像仕様](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 画像をアップロードするか、から選択できます [!UICONTROL Asset Library]  – ただし、同じ操作で両方が同時に実行されるわけではありません。
 
 * 画像をアップロードするには：
 
-   1. 次の日： [!UICONTROL Upload from Device] タブ、クリック **[!UICONTROL +]** お使いのデバイスまたはネットワークから画像を選択します。
+   1. 日 [!UICONTROL Upload from Device] タブ、クリック **[!UICONTROL +]** さらに、デバイスまたはネットワークから画像を選択します。
 
-   1. 各画像に対して、次の操作を実行します。
+   1. 各画像に対して、次の手順を実行します。
 
-      1. 縦横比を選択します。
+      1. アスペクト比を選択します。
 
-      1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能な部分を選択し、可能な限り画像の表示可能な部分のサイズを変更します。
+      1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能部分を選択します。また、可能な場合は、画像の表示可能部分のサイズを必要に応じて変更します。
 
-      1. （オプション）追加の縦横比を選択し、必要に応じて、選択した各縦横比に合わせて画像の位置を変更したりサイズを変更したりします。
+      1. （オプション）追加の縦横比を選択し、オプションで、選択した縦横比ごとに必要に応じて画像の位置とサイズを変更します。
 
          選択した縦横比ごとに 1 つのアセットが作成されます。
 
       1. クリック **[!UICONTROL Proceed]**.
 
-   1. 画像の指定が完了したら、 **[!UICONTROL Upload]**.
+   1. 画像の指定が終了したら、 **[!UICONTROL Upload]**.
 
-* 画像を [!UICONTROL Asset Library]をクリックし、 **[!UICONTROL Asset Library]** 画像を選択します。
+* から画像を選択するには [!UICONTROL Asset Library]を選択し、 **[!UICONTROL Asset Library]** 画像を選択します。
 
-**[!UICONTROL Logos]:** 1 つ以上の正方形のロゴ(1:1)、1 つの横向きのロゴ(4:1)。 各サイズには最大 5 個を含めることができます。 詳しくは、 [[!DNL Google Ads] ロゴの仕様](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 画像をアップロードするか、 [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
+**[!UICONTROL Logos]:** 正方形（1:1）のロゴと横（4:1）のロゴが 1 つ以上。 各サイズを最大 5 つ含めることができます。 を参照してください。 [[!DNL Google Ads] ロゴの仕様](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 画像をアップロードするか、から選択できます [!UICONTROL Asset Library]  – ただし、同じ操作で両方が同時に実行されるわけではありません。
 
 * 画像をアップロードするには：
 
-   1. 次の日： [!UICONTROL Upload from Device] タブ、クリック **[!UICONTROL +]** お使いのデバイスまたはネットワークから画像を選択します。
+   1. 日 [!UICONTROL Upload from Device] タブ、クリック **[!UICONTROL +]** さらに、デバイスまたはネットワークから画像を選択します。
 
-   1. 各画像に対して、次の操作を実行します。
+   1. 各画像に対して、次の手順を実行します。
 
-      1. 縦横比を選択します。
+      1. アスペクト比を選択します。
 
-      1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能な部分を選択し、可能な限り画像の表示可能な部分のサイズを変更します。
+      1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能部分を選択します。また、可能な場合は、画像の表示可能部分のサイズを必要に応じて変更します。
 
-      1. （オプション）追加の縦横比を選択し、必要に応じて、選択した各縦横比に合わせて画像の位置を変更したりサイズを変更したりします。
+      1. （オプション）追加の縦横比を選択し、オプションで、選択した縦横比ごとに必要に応じて画像の位置とサイズを変更します。
 
          選択した縦横比ごとに 1 つのアセットが作成されます。
 
       1. クリック **[!UICONTROL Proceed]**.
 
-   1. 画像の指定が完了したら、 **[!UICONTROL Upload]**.
+   1. 画像の指定が終了したら、 **[!UICONTROL Upload]**.
 
-* 画像を [!UICONTROL Asset Library]をクリックし、 **[!UICONTROL Asset Library]** 画像を選択します。
+* から画像を選択するには [!UICONTROL Asset Library]を選択し、 **[!UICONTROL Asset Library]** 画像を選択します。
 
-**[!UICONTROL Videos]:** （オプション）少なくとも 1 つ、最大 5 つの [!DNL YouTube] 長さが 10 秒以上のビデオ。 URL を入力するか、 [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
+**[!UICONTROL Videos]:** （オプション）少なくとも 1 つ、最大 5 つ [!DNL YouTube] 10 秒以上の長さのビデオ。 URL を入力するか、 [!UICONTROL Asset Library]  – ただし、同じ操作で両方が同時に実行されるわけではありません。
 
 * URL を入力するには：
 
-   1. 次の日： [!UICONTROL Enter Video Url] 「 」タブで、URL を入力します。
+   1. 日 [!UICONTROL Enter Video Url] タブで、URL を入力します。
 
-   1. （オプション）別の URL を追加するには、 **[!UICONTROL + Add]** をクリックし、URL を入力します。
+   1. （任意）別の URL を追加するには、次をクリックします： **[!UICONTROL + Add]** URL を入力します。
 
-* 次の場所からビデオを選択するには： [!UICONTROL Asset Library]をクリックし、 **[!UICONTROL Asset Library]** をクリックし、ビデオを選択します。
+* からビデオを選択するには [!UICONTROL Asset Library]を選択し、 **[!UICONTROL Asset Library]** ビデオを選択します。
 
-**[!UICONTROL Headlines]:** 少なくとも 3 つ、最大 5 つの短い見出し（それぞれ 30 文字まで）。 1 つ以上のヘッドラインは 15 文字以下にする必要があります。 最終的な URL 拡張を有効にするキャンペーンレベルのオプションが、 [!DNL Google Ads]を、 [!DNL Google Ads] この値を、ランディングページのコンテンツに基づくカスタムヘッドラインに置き換えます。
+**[!UICONTROL Headlines]:** 少なくとも 3 つの最大 5 つの短いヘッドライン（それぞれ最大 30 文字）。 少なくとも 1 つのヘッドラインは 15 文字以下である必要があります。 最終的な URL 拡張を有効にするキャンペーンレベルのオプションが内で設定されている場合 [!DNL Google Ads]、次に [!DNL Google Ads] は、この値を、ランディングページのコンテンツに基づくカスタムのヘッドラインに置き換えます。
 
-テキストを入力するか、アセットを [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
-
-* テキストを入力するには：
-
-   1. 次の日： [!UICONTROL Enter Text] 「 」タブに、テキストを入力します。
-
-   1. （オプション）別のテキスト文字列を追加するには、 **[!UICONTROL + Add]** をクリックし、文字列を入力します。
-
-* 次の場所からアセットを選択するには、 [!UICONTROL Asset Library]をクリックし、 **[!UICONTROL Asset Library]** をクリックし、アセットを選択します。
-
-**[!UICONTROL Long Headlines]:** 少なくとも 1 つ、最大 5 つの長いヘッドライン（それぞれ最大 90 文字）。 テキストを入力するか、アセットを [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
+テキストを入力するか、からアセットを選択できます [!UICONTROL Asset Library]  – ただし、同じ操作で両方が同時に実行されるわけではありません。
 
 * テキストを入力するには：
 
-   1. 次の日： [!UICONTROL Enter Text] 「 」タブに、テキストを入力します。
+   1. 日 [!UICONTROL Enter Text] タブで、テキストを入力します。
 
-   1. （オプション）別のテキスト文字列を追加するには、 **[!UICONTROL + Add]** をクリックし、文字列を入力します。
+   1. （オプション）別のテキスト文字列を追加するには、 **[!UICONTROL + Add]** と文字列を入力します。
 
-* 次の場所からアセットを選択するには、 [!UICONTROL Asset Library]をクリックし、 **[!UICONTROL Asset Library]** をクリックし、アセットを選択します。
+* からアセットを選択するには [!UICONTROL Asset Library]を選択し、 **[!UICONTROL Asset Library]** アセットを選択します。
 
-**[!UICONTROL Descriptions]:** 少なくとも 2 つ、最大 4 つの説明で、それぞれ最大 90 文字です。 少なくとも 1 つの説明は 30 文字以下にする必要があります。 テキストを入力するか、アセットを [!UICONTROL Asset Library]  — でも、両方とも同じ操作ではありません。
+**[!UICONTROL Long Headlines]:** それぞれ最大 90 文字の長い見出しを 1 つ以上、最大 5 つ含める。 テキストを入力するか、からアセットを選択できます [!UICONTROL Asset Library]  – ただし、同じ操作で両方が同時に実行されるわけではありません。
 
 * テキストを入力するには：
 
-   1. 次の日： [!UICONTROL Enter Text] 「 」タブに、テキストを入力します。
+   1. 日 [!UICONTROL Enter Text] タブで、テキストを入力します。
 
-   1. （オプション）別のテキスト文字列を追加するには、 **[!UICONTROL + Add]** をクリックし、文字列を入力します。
+   1. （オプション）別のテキスト文字列を追加するには、 **[!UICONTROL + Add]** と文字列を入力します。
 
-* 次の場所からアセットを選択するには、 [!UICONTROL Asset Library]をクリックし、 **[!UICONTROL Asset Library]** をクリックし、アセットを選択します。
+* からアセットを選択するには [!UICONTROL Asset Library]を選択し、 **[!UICONTROL Asset Library]** アセットを選択します。
 
-**[!UICONTROL Call to Action]:** 広告に含めるコールトゥアクション。 デフォルトでは、 *[!UICONTROL Automated]* が選択され、 [!DNL Google Ads] コールトゥアクションを選択します。 必要に応じて、別のアクションを選択できます。
+**[!UICONTROL Descriptions]:** 少なくとも 2 つ、最大 4 つの説明（それぞれ最大 90 文字）。 少なくとも 1 つの説明は、30 文字以下にする必要があります。 テキストを入力するか、からアセットを選択できます [!UICONTROL Asset Library]  – ただし、同じ操作で両方が同時に実行されるわけではありません。
+
+* テキストを入力するには：
+
+   1. 日 [!UICONTROL Enter Text] タブで、テキストを入力します。
+
+   1. （オプション）別のテキスト文字列を追加するには、 **[!UICONTROL + Add]** と文字列を入力します。
+
+* からアセットを選択するには [!UICONTROL Asset Library]を選択し、 **[!UICONTROL Asset Library]** アセットを選択します。
+
+**[!UICONTROL Call to Action]:** 広告に含めるコールトゥアクション。 デフォルトでは *[!UICONTROL Automated]* が選択され、 [!DNL Google Ads] コールトゥアクションを選択します。 オプションで、別のアクションを選択できます。
 
 **[!UICONTROL Business Name]:** ビジネス名（最大 25 文字）。
 
-**[!UICONTROL Audience Signal]:** （オプション） [!DNL Google Ads] オーディエンスを選択し、キャンペーンのオーディエンスのシグナルとして使用します。 [!DNL Google Ads] 機械学習モデルでは、オーディエンスを使用して、ターゲットに設定する類似の web サーファーを見つけたり、シグナルとして指定されていないオーディエンスに広告を表示して、パフォーマンス目標の達成に役立てたりできます。 コンバージョンに至る可能性が最も高いオーディエンスを選択します。
+**[!UICONTROL Audience Signal]:** （オプション） [!DNL Google Ads] キャンペーンのオーディエンスシグナルとして使用するオーディエンス。 [!DNL Google Ads] 機械学習モデルでは、オーディエンスを使用して、ターゲットとする類似の web サーファーを見つけます。また、パフォーマンス目標の達成に役立つシグナルとして指定されていないオーディエンスに広告を表示することもできます。 コンバージョンする可能性が最も高いオーディエンスを選択します。
 
 >[!NOTE]
->オーディエンスのシグナルは、 [キャンペーンレベルおよび広告グループレベルのオーディエンスターゲット](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+>オーディエンスシグナルは、とは異なります [キャンペーンレベルおよび広告グループレベルのオーディエンスターゲット](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
 
 **[!UICONTROL Add new asset group]:** 別のアセットグループを指定できます。
 
 ## [!UICONTROL Conversion Goals]
 
-**[!UICONTROL Conversion Goal]:** 次のどちらを実行するか *[!UICONTROL Use account conversion goals for this campaign]* （デフォルト）または *[!UICONTROL Use campaign specific conversion goals]*. キャンペーンのコンバージョン目標を指定する場合は、標準目標を選択するか、キャンペーンのカスタム目標を作成します。
+**[!UICONTROL Conversion Goal]:** 対象 *[!UICONTROL Use account conversion goals for this campaign]* （デフォルト）または *[!UICONTROL Use campaign specific conversion goals]*. キャンペーンのコンバージョン目標を指定する場合は、「標準目標」を選択するか、キャンペーンのカスタム目標を作成します。
 
-目標は毎日同期されるので、過去 24 時間に作成した既存の目標は一覧に表示されない場合があります。 リストを更新するには、次の手順に従います。 [広告ネットワークデータの手動同期](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+目標は毎日同期されるので、過去 24 時間に作成された既存の目標はリストされない場合があります。 リストを更新するには、 [広告ネットワークデータを手動で同期](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
 
-カスタムコンバージョン目標を作成するには、 **[!UICONTROL + Add custom goal]**、カスタム目標名を入力し、 [コンバージョンアクション](https://support.google.com/google-ads/answer/6032150) カスタム目標に含めるには、をクリックします。 **[!UICONTROL Save]**. **注意：** 各キャンペーンに設定できるカスタム目標は 1 つだけです。
+カスタムコンバージョン目標を作成するには、をクリックします。 **[!UICONTROL + Add custom goal]**&#x200B;を入力し、カスタム目標名を入力して、 [コンバージョンアクション](https://support.google.com/google-ads/answer/6032150) をカスタム目標に含めて、 **[!UICONTROL Save]**. **注意：** 各キャンペーンには、1 つのカスタム目標のみを設定できます。
 
 >[!TIP]
 >
->キャンペーンがポートフォリオに含まれている場合は、ポートフォリオの目的と同じコンバージョン目標を使用します。 異なるコンバージョン目標を使用すると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
+>キャンペーンがポートフォリオの一部である場合は、ポートフォリオの目標と同じコンバージョン目標を使用します。 異なるコンバージョン目標を使用すると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
 
 >[!MORELIKETHIS]
 >

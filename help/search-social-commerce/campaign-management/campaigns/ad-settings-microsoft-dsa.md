@@ -1,28 +1,28 @@
 ---
-title: '''[!DNL Microsoft® Advertising] 動的検索広告設定の拡張'
-description: 次の設定を参照してください： [!DNL Microsoft® Advertising] 動的検索広告を拡張しました。
-exl-id: 73ac6cca-717e-46d2-a060-f1eafd754245
+title: '''[!DNL Microsoft® Advertising] 「拡張動的検索広告設定」'
+description: の設定を参照します [!DNL Microsoft® Advertising] 動的検索広告を拡張しました。
+exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: bb3c366d702cdf2604388720313a7d23938d902a
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] 拡張された動的検索広告設定
+# [!DNL Microsoft® Advertising] 動的検索広告設定を拡張しました
 
-拡張された動的検索広告 (eDSA) は、検索ネットワーク上のキャンペーンの動的広告グループでのみ使用できます。 広告ネットワークは、ヘッドラインを動的に生成し、動的検索広告のランディングページを選択した後、最終的な URL を自動的に生成します。
+拡張動的検索広告（eDSA）は、検索ネットワーク上のキャンペーンの動的広告グループでのみ使用できます。 広告ネットワークは、ヘッドラインを動的に生成し、動的検索広告のランディングページを選択してから、最終的な URL を自動的に生成します。
 
 ## [!UICONTROL Expanded Dynamic Search Ad Details]
 
-**[!UICONTROL Description Line 1]:** 広告の本文。 最大長は、1 バイト文字 90 文字または 2 バイト文字 45 文字です。
+**[!UICONTROL Description Line 1]:** 広告の本文。 最大長は 90 個のシングルバイト文字または 45 個のダブルバイト文字です。
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 
-**[!UICONTROL Description Line 2]:** （オプション）広告の 2 行目。 最大長は、1 バイト文字 90 文字または 2 バイト文字 45 文字です。
-
 {{$include /help/_includes/display-path1-2.md}}
+
+**[!UICONTROL Description Line 2]:** （任意）広告の 2 行目。 最大長は 90 個のシングルバイト文字または 45 個のダブルバイト文字です。
 
 <!-- **[!UICONTROL Status]:** -->
 
