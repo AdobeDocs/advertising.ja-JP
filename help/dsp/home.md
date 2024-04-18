@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 3c839c8603bd0099b9a086484453fad74a46a880
+source-git-commit: 6c6108dfe91f16a48408d027d379a91d71ba5ca6
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2689'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024 年 4 月 18 日（Pt） | Placements | プレースメントの指定されたターゲットタイプに対して、入札を乗算して入札を増減させる入札修飾子を作成および管理できるようになりました。 デフォルトの入札修飾子は 1.00 で、増減はありません。値の範囲は 0.10 ～ 10.00 です。例えば、入札修飾子が 0.50 の場合、6 米ドルの入札は 3 米ドル（0.50 x 6）に減ります。 オークションが複数の入札モディファイアに該当する場合、適用可能な入札モディファイアがすべて乗算されます。 入札修飾子は、最大入札値を超えて入札を増加させることはありません。 | 参照先」[プレースメントの入札乗数の管理](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).」と入力します。 |
 | 2024 年 4 月 3 日（Pt） | 在庫パートナー | Adobe Advertisingの EU 加盟国向け座席 [!DNL Google Authorized Buyers] は既存の APAC シートと統合されました。 | 参照先」[SSP パートナー](/help/dsp/inventory/ssp-partners.md).」と入力します。 |
 |   | 最適化 | 新規 `CPA` （取得あたりのコスト）と `ROAS` パッケージ、プレースメントおよび関連するテーブルの（広告費用対効果）指標は、関連する目標を持つパッケージおよびプレースメントに対して、より正確なパフォーマンストラッキングを提供します。 新しい CPA 指標は、獲得あたりのコストを計算するための最終的なコンバージョンイベント（サインアップなど）のみを考慮します。これにより、計算に上位ファネルイベント（ページ訪問数や買い物かごへの追加など）も含まれた従来のカスタム目標指標よりも実際の CPA を正確に把握できます。 同様に、新しい ROAS 指標は最終的な収益イベント（購入や購入値など）のみを考慮し、パフォーマンスの追跡に関して、従来のカスタム目標指標よりも信頼性が高くなります。<br><br>CPA または ROAS ベースの最適化目標でパッケージを設定する場合、最終的なコンバージョンまたは収益イベントと、コンバージョンまたは収益イベントを含むカスタム目標を指定する必要があります。カスタム目標には、パッケージ最適化のための CPA または ROAS 指標に加えて、使用する追加の重み付き上位ファネルイベント（ページ訪問数や買い物かごの追加など）をオプション含めることができます。<br><br>さらに、パフォーマンスに焦点を当てた最適化目標を組み合わせて、シンプルにしました。<ul><li>新しい「[!UICONTROL Highest Return on Ad Spend (ROAS)]「従来の目標に代わる目標」[!UICONTROL Highest ROAS - Custom Goal]``と [!UICONTROL Highest ROAS (click focused) - Custom Goal]、」オプションを使用して、どちらのレガシーシナリオも実現できます。</li><li>新しい「[!UICONTROL Lowest Cost per Acquisition (CPA)]「従来の目標に代わる目標」[!UICONTROL Lowest CPA - Custom Goal]``と [!UICONTROL Lowest CPA (click focused) - Custom Goal]、」オプションを使用して、どちらのレガシーシナリオも実現できます。</li></ul>従来の目標を使用していた既存のパッケージは、関連する設定で新しい目標に自動的に移行され、手動で更新する必要はありません。 | 参照先」[最適化目標とその使用方法](/help/dsp/optimization/optimization-goals.md),&quot; &quot;[パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)、」および「[パフォーマンスキャンペーンの設定のベストプラクティス](/help/dsp/optimization/campaign-best-practices-performance.md).」と入力します。 |
 | 2024 年 3 月 20 日（Pt） | プレースメントの非入札理由 | 低支出の問題のトラブルシューティングに役立つ重要なデータポイントである、すべての実用的な非入札理由（NBR）が、セルフサービスのお客様が利用できるようになりました。 以前は、セルフサービスのユーザーは NBR に対する部分的なアクセスしか持たず、トラブルシューティングの手助けをするためにはアカウントマネージャーまたは取引アナリスト（管理者アクセス権を持つ）に依存する必要がありました。 | を参照してください。 [!UICONTROL Non Bids] の節 [プレースメント診断レポート](/help/dsp/campaign-management/reports/placement-diagnostics.md). |
