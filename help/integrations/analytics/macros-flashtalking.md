@@ -1,55 +1,67 @@
 ---
-title: 追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Flashtalking] 広告タグ
-description: 理由と追加方法を説明します。 [!DNL Analytics for Advertising] マクロを [!DNL Flashtalking] 広告タグ
+title: Append [!DNL Analytics for Advertising] マクロ先 [!DNL Flashtalking] 広告タグ
+description: 追加の理由と方法を説明します [!DNL Analytics for Advertising] に対するマクロ [!DNL Flashtalking] 広告タグ
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca8260e643f24787f7918249906f3f38f3bbef6d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-# 追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Flashtalking] 広告タグ
+# Append [!DNL Analytics for Advertising] マクロ先 [!DNL Flashtalking] 広告タグ
 
-*Adobe AdvertisingとAdobe Analyticsの統合のみの広告主*
+*Adobe AdvertisingとAdobe Analyticsの統合のみを持つ広告主*
 
-*Advertising DSPのみに適用*
+*Advertising DSPにのみ適用されます*
 
-の広告タグを使用する場合 [!DNL Flashtalking] Advertising DSP広告の場合、ランディングページの URL に Advertising 用の Analytics パラメーターを追加します。 パラメーターレコード AMO ID (`s_kwcid`) および `ef_id` ランディングページ URL のクエリー文字列パラメーター。Adobe Advertisingは、広告のクリックデータをAdobe Analyticsに送信できます。
+から広告タグを使用する場合 [!DNL Flashtalking] advertising DSP広告の場合、ランディングページ URL に Analytics for Advertising パラメーターを追加します。 パラメーターのレコード AMO ID （`s_kwcid`）および `ef_id` ランディングページ URL のクエリ文字列パラメーターで、Adobe Advertisingが広告のクリックデータをAdobe Analyticsに送信できるようにします。
 
-マクロの使用対象 [!DNL Flashtalking] 次のタイプのディスプレイ広告とビデオ広告 [!DNL Analytics for Advertising] 実装：
+にマクロを使用する [!DNL Flashtalking] 次のタイプのディスプレイおよびビデオ広告 [!DNL Analytics for Advertising] 実装：
 
-* **次を持つ広告主 [!DNL Adobe] [!DNL Analytics for Advertising] Web サイトに実装された JavaScript コード**: JavaScript コードは既に AMO ID(`s_kwcid`) および `ef_id` クエリー文字列パラメーター。 ただし、マクロを使用すると、サードパーティ cookie がサポートされていない場合に、クリックベースのコンバージョンを追跡に含めるようになります。 ベストプラクティスは、JavaScript コードで取り込まれていない追加のクリックスルーデータを取り込むために、以降のセクションのマクロを広告タグに追加することです。
+* **を使用した広告主 [!DNL Adobe] [!DNL Analytics for Advertising] Web サイトに実装されている JavaScript コード**:JavaScript コードは既に AMO ID （`s_kwcid`）および `ef_id` クエリ文字列パラメーター。 ただし、サードパーティ cookie がサポートされていない場合に、マクロを使用すると、トラッキングが拡張されて、クリックベースの変換が含まれます。 ベストプラクティスは、JavaScript コードでは取得できない追加のクリックスルーデータを取得するために、広告タグに次のセクションのマクロを追加することです。
 
 >[!NOTE]
 >
->JavaScript コードは、cookie が引き続き使用可能な間にのみクリック追跡をおこなうためのソリューションです。 Cookie が廃止されたら、次のマクロの実装が必要になります。
+>JavaScript コードは、Cookie が使用可能な場合にのみクリックを追跡するソリューションです。 Cookie が廃止されると、次のマクロの実装が必要になります。
 
-* **Web サイトが [!DNL Analytics for Advertising] JavaScript コードを使用し、代わりにを使用します。 [!DNL Analytics] クリックスルーデータ専用のサーバー側転送** （ビュースルーデータを含まない）:Adobe Advertisingで購入した広告に基づくオンサイトクリックアクティビティをレポートするには、次のマクロが必要です。
+* **Web サイトでを使用しない広告主 [!DNL Analytics for Advertising] JavaScript コードを使用し、代わりにに依存します [!DNL Analytics] クリックスルーデータのみのサーバーサイド転送** （ビュースルーデータなし）:Adobe Advertisingで購入した広告に基づくオンサイトクリックアクティビティをレポートするには、次のマクロが必要です。
 
-## ディスプレイ広告タグ
+## 広告タグの表示
 
-内 [!DNL Flashtalking] 広告タグ設定で、のクリックスルー URL の末尾に次のマクロを追加します。 `Clicktag` フィールド：
+内 [!DNL Flashtalking] タグ設定を追加するには、のクリックスルー URL の末尾に次のマクロを追加します。 `Clicktag` フィールド :
 
-```html
-?[ftqs:[AdobeAMO]]
+```
+[ftqs:[AdobeAMO]]
 ```
 
-例：  `https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+これはベース URL の後の最初または唯一のクエリ文字列で、次のようにベース URL から分離します `?`. ベース URL に複数のクエリ文字列が含まれる場合は、最初の文字列をで始めます `?` 後続の各文字列にはが付いています。 `&`.
+
+例：
+
+`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## ビデオ広告タグ
 
-内 [!DNL Flashtalking] 広告タグ設定で、のクリックスルー URL の末尾に次のマクロを追加します。 `Clicktag` フィールド：
+内 [!DNL Flashtalking] タグ設定を追加するには、のクリックスルー URL の末尾に次のマクロを追加します。 `Clicktag` フィールド :
 
-```html
-?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
+```
+[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-例：  `https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+これはベース URL の後の最初または唯一のクエリ文字列で、次のようにベース URL から分離します `?`. ベース URL に複数のクエリ文字列が含まれる場合は、最初の文字列をで始めます `?` 後続の各文字列にはが付いています。 `&`.
+
+例：
+
+`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >
->* [の概要 [!DNL Analytics for Advertising]](overview.md)
->* [Adobe AdvertisingID 使用者 [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [追加 [!DNL Analytics for Advertising] マクロ先 [!DNL Google Campaign Manager 360] 広告タグ](/help/integrations/analytics/macros-google-campaign-manager.md)
+>* [概要 [!DNL Analytics for Advertising]](overview.md)
+>* [が使用するAdobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Append [!DNL Analytics for Advertising] マクロ先 [!DNL Google Campaign Manager 360] 広告タグ](/help/integrations/analytics/macros-google-campaign-manager.md)
