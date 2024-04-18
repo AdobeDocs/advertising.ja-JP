@@ -1,26 +1,26 @@
 ---
-title: 配置の編集
+title: プレースメントの編集
 description: プレースメントの編集方法を説明します。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
-# 配置の編集
+# プレースメントの編集
 
-1 つの配置または複数の配置の設定を一度に編集できます。
+1 つのプレースメントまたは複数のプレースメントの設定を一度に編集できます。
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
-## 単一の配置を編集
+## 単一プレースメントの編集
 
 >[!TIP]
 >
-> プレースメント名、ステータス、最大入札額および予算のみを編集するには、[キー配置設定をすばやく編集](/help/dsp/campaign-management/placements/placement-quick-edit.md).&quot;
+> プレースメント名、ステータス、最大入札額、予算のみを編集するには、「」を参照してください[キー配置設定をすばやく編集する](/help/dsp/campaign-management/placements/placement-quick-edit.md).」と入力します。
 
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 
@@ -28,15 +28,15 @@ ht-degree: 0%
 
 1. サブメニューで、 **[!UICONTROL Placements]**.
 
-1. 配置名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. プレースメント名の横にある「」をクリックします  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. を編集します。 [配置設定](placement-settings.md).
+1. を編集する [プレースメント設定](placement-settings.md).
 
 1. クリック **[!UICONTROL Update placement]**.
 
-## 複数の配置の編集 {#edit-multiple-placements}
+## 複数のプレースメントを編集 {#edit-multiple-placements}
 
-このオプションは、選択したすべての配置に同じ変更を適用する場合にのみ使用します。
+このオプションは、選択したすべてのプレースメントに同じ変更を適用する場合にのみ使用します。
 
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 
@@ -44,47 +44,48 @@ ht-degree: 0%
 
 1. サブメニューで、 **[!UICONTROL Placements]**.
 
-1. 編集する各配置の横にあるチェックボックスをオンにします。
+1. 編集する各プレースメントの横にあるチェックボックスをオンにします。
 
 1. 一括操作メニューバーで、 **[!UICONTROL Edit]**.
 
-1. 変更する各設定に対して、次の操作を行います。
+1. 変更する設定ごとに、次の操作を行います。
 
    1. リストから設定を選択します。
 
-   1. を選択します。 **[!UICONTROL Edit Mode]**.
+   1. 「」を選択します **[!UICONTROL Edit Mode]**.
 
-      オプションは設定によって異なりますが、次のものが含まれる場合があります。
+      オプションは設定によって異なりますが、次のようなものがあります。
 
-      * **追加** （既存の値を保持し、新しい値を追加する場合）
+      * **Append** （既存の値を保持して新しい値を追加するには）
 
-      * **クリア** （既存の値をすべて削除）
+      * **消去** （既存の値をすべて削除する場合）
 
-      * **縮小** （既存の値を特定の金額だけ減らす場合）
+      * **減らす** （指定金額による既存価額の減額）
 
-      * **増やす** （既存の値を特定の量だけ増やす場合）
+      * **増やす** （既存価値の特定増額）
 
-      * **上書き** （既存の値を新しい値に変更する場合）
+      * **上書き** （既存の値を新しい値に変更するには）
 
-      * **一時停止** （広告を一時停止するため）
+      * **一時停止** （広告を一時停止するには）
 
-      * **削除** （指定した値を削除する場合）
+      * **削除** （指定した値を削除するには）
 
-   1. を編集します。 [配置設定](placement-settings.md).
+   1. を編集する [プレースメント設定](placement-settings.md).
 
 1. クリック **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
 >
->* [配置管理について](placement-about.md)
->* [キー配置設定をすばやく編集](placement-quick-edit.md)
->* [配置の作成](placement-create.md)
->* [配置の複製](placement-duplicate.md)
->* [配置の広告スケジュールの編集](placement-edit-ad-schedule.md)
->* [配置の一時停止またはアクティブ化](placement-pause-activate.md)
->* [配置の変更ログの表示](placement-change-log.md)
->* [配置設定](placement-settings.md)
+>* [プレースメント管理について](placement-about.md)
+>* [キー配置設定をすばやく編集する](placement-quick-edit.md)
+>* [プレースメントの作成](placement-create.md)
+>* [プレースメントの複製](placement-duplicate.md)
+>* [プレースメントの入札乗数の管理](placement-manage-bid-multipliers.md)
+>* [プレースメントの広告スケジュールの編集](placement-edit-ad-schedule.md)
+>* [プレースメントの一時停止またはアクティブ化](placement-pause-activate.md)
+>* [プレースメントの変更ログの表示](placement-change-log.md)
+>* [プレースメント設定](placement-settings.md)
 >* [配置予測レポートの表示](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [キーボードショートカット](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+>* [ショートカットキー](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [スプレッドシートを使用した配置設定の修正について](/help/dsp/campaign-management/qa/qa-about.md)
->* [ビデオ：一括編集ツールを使用した配置の編集方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [ビデオ：一括編集ツールを使用してプレースメントを編集する方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

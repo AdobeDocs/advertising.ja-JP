@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: 79de03696624146d7c82e8658229d19059dc1713
+source-git-commit: c5f26fba0dcf26e0017d881b5ccd9101f98ff43f
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '923'
 ht-degree: 3%
 
 ---
@@ -63,6 +63,7 @@ ht-degree: 3%
       + [プレースメントの編集](/help/dsp/campaign-management/placements/placement-edit.md)
       + [キー配置設定をすばやく編集する](/help/dsp/campaign-management/placements/placement-quick-edit.md)
       + [プレースメントの複製](/help/dsp/campaign-management/placements/placement-duplicate.md)
+      + [プレースメントの入札乗数の管理](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [プレースメントに広告を添付](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
       + [プレースメントの広告スケジュールの編集](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [プレースメントの詳細レポートの表示](/help/dsp/campaign-management/placements/placement-view-report.md)
