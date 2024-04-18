@@ -2,7 +2,7 @@
 title: プレースメントの入札乗数の管理
 description: 指定したプレースメント ターゲットの入札乗数を作成および編集する方法を説明します。
 feature: DSP Placements
-source-git-commit: be52d56554f40babae1da683d436b821ef190e09
+source-git-commit: b3932c066e0ecd29e57152f0654ee4b0d9e0dda1
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 3%
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 * **オーディエンスターゲット :** セグメント、視聴時間帯、およびトピック
 
-* **ads.txt ターゲット：** （すべての販売者から在庫を購入できる ads.txt をオプトアウトする場合） ads.txt seller only、ads.txt direct seller、および ads.txt seller plus sites without ads.txt <!-- bid multipliers for the different subsets of inventory -->
+* **ads.txt ターゲット：** （すべての販売者から在庫を購入できる ads.txt をオプトアウトする場合） ads.txt seller only、ads.txt direct seller、および ads.txt seller plus sites without ads.txt <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
 
 ## ターゲットタイプ別の最大入札乗数 {#bid-multiplier-limits-by-target}
 
