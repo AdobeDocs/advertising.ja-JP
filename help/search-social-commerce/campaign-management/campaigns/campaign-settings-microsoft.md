@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] キャンペーン設定'
 description: の設定を参照します [!DNL Microsoft® Advertising] キャンペーン。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 96ff5244c5baedf009c1bac05b609611607bd867
+source-git-commit: cfac578e173e82ffeffcbd5094304c1132b5f177
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]:* （ベータ版機能）オーディエンスネットワーク上の標準ビデオ広告を表示します。
 
-* *[!UICONTROL Performance Max]:* （ベータ版機能）を使用して、すべてのネットワークにわたって複数の広告タイプを表示します [!DNL Microsoft Advertising] スマート入札。 キャンペーンの設定内で、1 つ以上のアセットグループを指定する必要があります。このグループには、画像、ロゴ、ヘッドライン、説明、オプションのコールトゥアクション、オーディエンスシグナルが含まれます。 広告ネットワークは、アセットを自動的に組み合わせて、チャネルに基づいて広告を提供します。
+* *[!UICONTROL Performance Max]:* （ベータ版機能）を使用して、すべてのネットワークにわたって複数の広告タイプを表示します [!DNL Microsoft® Advertising] スマート入札。 キャンペーンの設定内で、1 つ以上のアセットグループを指定する必要があります。このグループには、画像、ロゴ、ヘッドライン、説明、オプションのコールトゥアクション、オーディエンスシグナルが含まれます。 広告ネットワークは、アセットを自動的に組み合わせて、チャネルに基づいて広告を提供します。
 
 ## [!UICONTROL Campaign Details]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** キャンペーンの入札戦略：
 
-* *[!UICONTROL Cost per Sale]:* （ショッピングキャンペーンのみ）広告ネットワーク（検索、ソーシャル、Commerceは除く）は、 **[!UICONTROL Target CPS]** （1 販売あたりのコスト）。 お支払いは、商品の広告をクリックした結果、24 時間以内にセールが成立した場合に限ります。 **注意：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。<!-- Verify all -->
+* *[!UICONTROL Cost per Sale]:* （ショッピングキャンペーンのみ）広告ネットワーク（検索、ソーシャル、Commerceは除く）は、 **[!UICONTROL Target CPS]** （1 販売あたりのコスト）。 お支払いは、商品の広告をクリックした結果、24 時間以内にセールが成立した場合に限ります。 **注意：** この入札戦略のキャンペーンをポートフォリオに含めないでください。 この入札戦略を使用するキャンペーンでは、検索、ソーシャル、Commerceの最適化は利用できません。
 
   この入札戦略を使用してブランドのショッピングキャンペーンを保存すると、入札戦略を変更できなくなります。 他のショッピングキャンペーンタイプの場合、この戦略は新規キャンペーンでのみ使用できます。
 
@@ -68,15 +68,15 @@ ht-degree: 0%
 
   eCPC を使用してキャンペーンを最適化された検索、ソーシャル、Commerce ポートフォリオに追加すると、検索、ソーシャル、Commerceによってベース入札が最適化され、「[!UICONTROL Auto adjust campaign budget limits]「」オプションが有効になっています – キャンペーンの予算。 アドネットワークは、すべての入札調整を最適化し、独自のデータとインサイトに基づいて、ユーザークエリ時に検索、ソーシャル、Commerceで生成された入札を変更する可能性があります。 **注意：** ポートフォリオで eCPC キャンペーンを使用するのは、広告ネットワークで追跡されるコンバージョンの合計がポートフォリオの目的と合致する場合のみです。
 
-* *[!UICONTROL Manual CPC]*: （ブランドのショッピングキャンペーン； [!DNL Microsoft Store Ads] キャンペーン、廃止者 [!DNL Microsoft® Advertising] 2021 年（その他のキャンペーンタイプの場合） クリック単価（CPC）モデルを使用します。 一部の広告タイプでは、オプションで、広告ネットワークにキャンペーンの入札の変更を許可できます。
+* *[!UICONTROL Manual CPC]*: （ブランドのショッピングキャンペーン； [!DNL Microsoft® Store Ads] キャンペーン、廃止者 [!DNL Microsoft® Advertising] 2021 年（その他のキャンペーンタイプの場合） クリック単価（CPC）モデルを使用します。 一部の広告タイプでは、オプションで、広告ネットワークにキャンペーンの入札の変更を許可できます。
 
-   * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）：これは「」の使用と同じです[!UICONTROL Enhanced CPC]」オプションを選択します。
+   * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）：このオプションは、「」を使用した場合と同じです[!UICONTROL Enhanced CPC]」オプションを選択します。
 
-* *[!UICONTROL Manual CPA]:* （[!DNL Microsoft Store Ads] キャンペーン）獲得あたりのコスト（CPA）モデルを使用します。
+* *[!UICONTROL Manual CPA]:* （[!DNL Microsoft® Store Ads] キャンペーン）獲得あたりのコスト（CPA）モデルを使用します。
 
 * *[!UICONTROL Manual CPM]* （オーディエンスキャンペーンおよびオーディエンスビデオキャンペーンのみ） 1,000 回の表示インプレッションごとに使用する費用を指定する、1,000 インプレッションあたりのコスト（CPM） モデルを使用します。 この入札戦略を使用したキャンペーンは、ポートフォリオに含まれている場合、最適化されません。
 
-* *[!UICONTROL Maximize Clicks]:* （検索およびショッピングキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、入札を最適化してクリック数を最大化します。 オプションで、 **[!UICONTROL Max CPC]** （クリックあたりのコスト）広告ネットワークがクリックごとに特定の金額以上を支払わないようにします。 **注意：** この戦略を使用してキャンペーンをポートフォリオに追加すると、入札はポートフォリオの目的ではなく、クリックの重み付けで決まります。
+* *[!UICONTROL Maximize Clicks]:* （検索およびショッピングキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、入札を最適化してクリック数を最大化します。 オプションで、 **[!UICONTROL Max CPC]** （クリックあたりのコスト）広告ネットワークがクリックごとに特定の金額以上を支払わないようにします。 **注意：** この戦略を使用してキャンペーンをポートフォリオに追加すると、（ポートフォリオ目標ではなく）クリックの重みが入札を促進します。
 
 * *[!UICONTROL Maximize Conversion Value]:* （検索およびショッピング/スマートショッピングネットワーク、パフォーマンス最大化キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、コンバージョン値を最大化するように入札を最適化します。 必要に応じて、 **[!UICONTROL Target Return on Ad Spend]** （ROAS）をパーセントで表したもの。 **注意：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Target Impression Share]:* （検索ネットワーク上のキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、目標インプレッションシェアと広告掲載順位を達成するように入札を最適化します。 オプションで、 **[!UICONTROL Target Impression Share]** パーセントで指定すると、 **[!UICONTROL Target Ad Position]**、および **[!UICONTROL Max CPC]** （クリック単価）。 **注意：** このオプションは、ハイブリッドポートフォリオではサポートされていません。
 
-* *[!UICONTROL Target Return on Ad Spend]:*  （検索およびショッピングネットワーク上のキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、ユーザーの状況に基づいて入札を最適化します **[!UICONTROL Target ROAS]** （広告費用対効果）。パーセンテージで指定します。 オプションで、 **[!UICONTROL Max CPC]** （クリックあたりのコスト）広告ネットワークがクリックごとに特定の金額以上を支払わないようにします。 **注意：** このオプションは、次を除く任意の支出戦略を持つハイブリッドポートフォリオ（ただし、標準ポートフォリオは除く）のキャンペーンに使用します [!UICONTROL Weekly] または [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:* （検索およびショッピングネットワーク上のキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、ユーザーの状況に基づいて入札を最適化します **[!UICONTROL Target ROAS]** （広告費用対効果）。パーセンテージで指定します。 オプションで、 **[!UICONTROL Max CPC]** （クリックあたりのコスト）広告ネットワークがクリックごとに特定の金額以上を支払わないようにします。 **注意：** このオプションは、次を除く任意の支出戦略を持つハイブリッドポートフォリオ（ただし、標準ポートフォリオは除く）のキャンペーンに使用します [!UICONTROL Weekly] または [!UICONTROL Google Target ROAS].
 
   この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データは利用できません。
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Targeting]
 
-**[!UICONTROL Languages]:** （Performance MAX キャンペーンのみ）広告の言語。広告が表示されるサイトの言語と一致する必要があります。 [!DNL Microsoft Advertising] ユーザーのクエリ、発行者の国、ユーザーの言語設定など、様々なシグナルからユーザーの言語を決定します。
+**[!UICONTROL Languages]:** （Performance MAX キャンペーンのみ）広告の言語。広告が表示されるサイトの言語と一致する必要があります。 [!DNL Microsoft® Advertising] ユーザーのクエリ、発行者の国、ユーザーの言語設定など、様々なシグナルからユーザーの言語を決定します。
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]:** アセットグループから作成されたすべての広告の最終的な URL。
 
-**[!UICONTROL Images]:** 少なくとも 1 つの正方形の画像と 1 つの横の画像を含む、広告の最大 20 の画像。 を参照してください。 [[!DNL Microsoft Advertising] 画像のガイドライン](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 画像をアップロードするか、から選択できます [!UICONTROL Asset Library]  – ただし、同じ操作で両方が同時に実行されるわけではありません。
+**[!UICONTROL Images]:** 少なくとも 1 つの正方形の画像と 1 つの横の画像を含む、広告の最大 20 の画像。 を参照してください。 [[!DNL Microsoft® Advertising] 画像のガイドライン](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 画像をアップロードするか、から選択できます [!UICONTROL Asset Library]  – ただし、同じ操作で両方が同時に実行されるわけではありません。
 
 * 画像をアップロードするには：
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 
 * から画像を選択するには [!UICONTROL Asset Library]を選択し、 **[!UICONTROL Asset Library]** 画像を選択します。
 
-**[!UICONTROL Logos]:** 少なくとも 1 つのロゴ。 最大 5 つを含めることができます。 を参照してください。 [[!DNL Microsoft Advertising] アセットガイドライン](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 画像をアップロードするか、から選択できます [!UICONTROL Asset Library]  – ただし、同じ操作で両方が同時に実行されるわけではありません。
+**[!UICONTROL Logos]:** 少なくとも 1 つのロゴ。 最大 5 つを含めることができます。 を参照してください。 [[!DNL Microsoft® Advertising] アセットガイドライン](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 画像をアップロードするか、から選択できます [!UICONTROL Asset Library]  – ただし、同じ操作で両方が同時に実行されるわけではありません。
 
 * 画像をアップロードするには：
 
@@ -284,7 +284,7 @@ ht-degree: 0%
 
 **[!UICONTROL Business Name]:** ビジネス名（最大 25 文字）。 スクリプト、HTML、またはその他のマークアップ言語を含めることはできません。
 
-**[!UICONTROL Audience Signal]:** （オプション） [!DNL Microsoft Advertising] キャンペーンのオーディエンスシグナルとして使用するオーディエンス。 [!DNL Microsoft Advertising] 機械学習モデルでは、オーディエンスを使用して、ターゲットとする類似の web サーファーを見つけます。また、パフォーマンス目標の達成に役立つシグナルとして指定されていないオーディエンスに広告を表示することもできます。 コンバージョンする可能性が最も高いオーディエンスを選択します。
+**[!UICONTROL Audience Signal]:** （オプション） [!DNL Microsoft® Advertising] キャンペーンのオーディエンスシグナルとして使用するオーディエンス。 [!DNL Microsoft® Advertising] 機械学習モデルでは、オーディエンスを使用して、ターゲットとする類似の web サーファーを見つけます。また、パフォーマンス目標の達成に役立つシグナルとして指定されていないオーディエンスに広告を表示することもできます。 コンバージョンする可能性が最も高いオーディエンスを選択します。
 
 >[!NOTE]
 >オーディエンスシグナルは、とは異なります [広告グループレベルのオーディエンスターゲット](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
