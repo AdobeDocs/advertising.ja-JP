@@ -1,73 +1,124 @@
 ---
 title: カスタムセグメントの作成と実装
-description: Web ページを訪問した広告やユーザーにさらされるユーザーを追跡するカスタムセグメントを作成および実装する方法について説明します。
+description: カスタムセグメントを作成および実装して、広告にさらされたユーザーまたは web ページを訪問したユーザーを追跡する方法について説明します。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
+source-git-commit: 9fc4c123fb682bbc2aee0ae72931c63d31f020be
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
 
 # カスタムセグメントの作成と実装
 
-カスタムDSPセグメントを作成して実装することで、独自のファーストパーティオーディエンスデータを収集できます。 セグメントを使用して、a) デスクトップおよびモバイルデバイスから広告を受けるユーザー、および b) 特定の Web ページを訪問するユーザーを追跡できます。 後で、セグメント内のユーザーを追加の広告で再ターゲット化したり、セグメント内のユーザーが追加の広告を受け取らないようにしたりできます。
+カスタム DSP セグメントを作成して実装することで、独自のファーストパーティオーディエンスデータを収集できます。 セグメントを使用して、a） デスクトップやモバイルデバイスから広告にさらされたユーザー、および b）特定の web ページを訪問したユーザーを追跡できます。 後で、追加の広告を使用してセグメント内のユーザーを再ターゲットしたり、セグメント内のユーザーが追加の広告を受け取らないようにしたりできます。
 
 >[!NOTE]
 >
->カリフォルニア州消費者プライバシー法 (CCPA) に従って、Web サイト上の消費者オプトアウトオブセールスリクエストからのユーザー ID を追跡するには、 [CCPA オプトアウトオブセールセグメント](ccpa-opt-out-segment-create.md).
+>Web サイト上の消費者の販売オプトアウトリクエストからユーザー ID を追跡するには、カリフォルニア州消費者プライバシー法（CCPA）に従って、 [CCPA の販売オプトアウトセグメント](ccpa-opt-out-segment-create.md).
 
-1. セグメントの作成：
+## セグメントで ID5 ID を追跡するための前提条件
+
+*ベータ版機能*
+
+* ID5 ID に関連付けられたユーザーを追跡するセグメントを生成する前に、との契約に署名する必要があります。 [!DNL ID5] 組織のパートナー ID を取得します。 手順については、Adobeアカウントチームにお問い合わせください。
+
+* Adobe Analyticsでの測定の場合、次の操作を行う必要があります。
+
+   1. すべて完了 [実装の前提条件 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) および [トラッキング URL の AMO ID と EF ID](/help/integrations/analytics/ids.md).
+
+   1. Web ページの前または内に、次のパラメーターを追加します [に必要な JavaScript コード [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)  – 最後のイベント サービスが初期化される前の任意の場所。
+
+      `window.id5PartnerId=Your_ID5_PartnerID;`
+
+      例：
+
+      ```
+      <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
+      <script>
+        window.id5PartnerId=Your_ID5_PartnerID;
+             if("undefined" != typeof AdCloudEvent)
+                 AdCloudEvent('IMS ORG Id','rsid');
+      </script>
+      ```
+
+## カスタムセグメントの作成と実装
+
+1. セグメントを作成します。
 
    1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
-   1. データテーブルの上にある **[!UICONTROL Create]**.
+   1. データ テーブルの上で、 **[!UICONTROL Create]**.
 
-   1. 一意の **[!UICONTROL Segment Name]**.
+   1. 一意のを入力 **[!UICONTROL Segment Name]**.
 
-   1. の **[!UICONTROL Segment Type]**&#x200B;を選択します。 *[!UICONTROL Custom]*.
+   1. の場合 **[!UICONTROL Segment Type]**&#x200B;を選択 *[!UICONTROL Custom]*.
 
-   1. 次を入力します。 **[!UICONTROL Segment Window]**：ユーザーの Cookie がセグメントに残る日数です。
+   1. を入力 **[!UICONTROL Lookback Window]**：ユーザーの cookie がセグメントに残る日数です。
 
-      デフォルトの期間は 45 日です。 1 ～ 365 の値を入力します。
+      デフォルトウィンドウは 45 日です。 1 から 365 までの値を入力します。
+
+   1. クリック **[!UICONTROL Advanced]** 詳細設定を展開して、セグメントタグで追跡するユーザー識別子のタイプを選択するには、次の手順を実行します。
+
+      * *[!UICONTROL Cookies]:* （デフォルト）セグメントタグは cookie を追跡します。
+
+      * [!UICONTROL Universal IDs (Beta)]:
+
+         * *[!UICONTROL ID5]:* セグメントタグは次を追跡します [!DNL ID5] ID。 ユニバーサル ID に配信されるインプレッションには料金は発生しません。
+
+        **[!UICONTROL Terms of Service]:** ユニバーサル ID を使用するためのサービス利用規約。 ユニバーサル ID を新しい ID タイプに使用するには、DSP アカウントの別のユーザーが条件に 1 回同意する必要があります。 マネージドサービス契約を締結しているお客様の場合、Adobeアカウントチームがお客様の同意を得て、組織に代わって条項に同意します。 用語を読むには、 **>**. 条件に同意するには、条件の下部までスクロールし、をクリックします **[!UICONTROL Accept]**.
 
    1. クリック **[!UICONTROL Save]**.
 
 1. 必要に応じて、タグをコピーして実装し、セグメントを追跡します。
 
-   1. 戻る **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+   1. に戻る **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
-   1. セグメント行の上にカーソルを置き、 **[!UICONTROL Get Pixel]**.
+   1. セグメント行の上にカーソルを置き、クリックします **[!UICONTROL Get Pixel]**.
 
-      * Web ページのデスクトップ訪問者とモバイル訪問者を追跡するには：
+      * Web ページへのデスクトップおよびモバイル訪問者を追跡するには：
 
-         1. ページビュートラッキングタグ (「[!UICONTROL Desktop or mobile websites].&quot;
+         1. 「」というラベルの付いたページビュートラッキングタグをコピーします[!UICONTROL Desktop or mobile websites].」と入力します。
 
-         1. タグを、導入用の広告主または Web サイトの連絡先に提供します。
+         1. デプロイメント用に、タグを広告主または web サイトの連絡先に提供します。
 
-            広告主の IT 部門やその他のグループは、タグの導入をスケジュールしたり、通知を受けたりする必要がある場合があります。
+            広告主の IT 部門またはその他のグループは、タグのデプロイメントをスケジュールするか、知らせる必要がある場合があります。
 
-      * デスクトップまたはモバイルデバイスで広告ユニットに触れたユーザーを追跡するには：
+      * デスクトップまたはモバイルデバイスで広告ユニットに公開されたユーザーを追跡するには：
 
-         1. インプレッショントラッキングタグ (「[!UICONTROL Desktop or mobile ads].&quot;
+         1. 「」というラベルの付いたインプレッショントラッキングタグをコピーします[!UICONTROL Desktop or mobile ads].」と入力します。
 
-1. タグを [!UICONTROL Pixel] タブをクリックします。 [!UICONTROL Event Pixels] のセクション [[!UICONTROL Tracking] 関連する各配置の設定](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+   1. （追跡するセグメントのタグ） [!DNL ID5] Web ページへのデスクトップおよびモバイル訪問者向け ID）コピーされたタグで、 `ID5_PARTNER_ID` パートナー ID が [!DNL ID5] を組織に割り当てました。
 
-トラッキングタグを実装すると、そのセグメントをオーディエンスのターゲットまたは除外で任意の配置に使用できます。
+   例えば、ID5 のパートナー ID がの場合 `abcde` 生成されるセグメントタグはです。
+
+   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+   その後、を置換 `ID5_PARTNER_ID` （を使用） `abcde` タグ内で次の情報を取得できます。
+
+   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+   組織がと契約を締結したときに、パートナー ID を受け取りました [!DNL ID5]. パートナー ID がわからない場合は、Adobeアカウントチームにお問い合わせください。
+
+   この手順は、タグでトラッキングする必要はありません [!DNL ID5] デスクトップまたはモバイルデバイスで広告ユニットに公開されるユーザーの ID。
+
+1. タグをのどちらかに追加します。 [!UICONTROL Pixel] 関連する各広告またはに対するタブ [!UICONTROL Event Pixels] の節 [[!UICONTROL Tracking] 関連するプレースメントごとの設定](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+
+トラッキングタグが実装されると、任意のプレースメントに対してオーディエンスターゲットまたは除外のセグメントを使用できます。
 
 >[!TIP]
 >
->ユーザーが追跡されるたびに、セグメントのサイズを追跡します。
+>ユーザーが追跡されるたびに、セグメントサイズを追跡します。
 
 >[!MORELIKETHIS]
 >
 >* [Audience Management について](audience-about.md)
 >* [セグメント情報の編集](segment-edit.md)
 >* [セグメントの削除](segment-delete.md)
->* [セグメントの表示追跡ピクセル](segment-view-pixels.md)
+>* [セグメントのトラッキングピクセルの表示](segment-view-pixels.md)
 >* [セグメントの共有または共有の停止](segment-share.md)
 >* [の作成と実装 [!UICONTROL CCPA Opt-Out-of-Sale] セグメント](ccpa-opt-out-segment-create.md)
->* [再利用可能なオーディエンスを作成する](reusable-audience-create.md)
+>* [再利用可能なオーディエンスを作成](reusable-audience-create.md)
 >* [利用可能なサードパーティデータプロバイダー](third-party-data-providers.md)
->* [配置設定](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)
