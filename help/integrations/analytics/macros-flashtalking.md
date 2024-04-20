@@ -3,7 +3,7 @@ title: Append [!DNL Analytics for Advertising] マクロ先 [!DNL Flashtalking] 
 description: 追加の理由と方法を説明します [!DNL Analytics for Advertising] に対するマクロ [!DNL Flashtalking] 広告タグ
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: ca8260e643f24787f7918249906f3f38f3bbef6d
+source-git-commit: 7b31fb7939f44aa99826bea3f183897683189eae
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -65,3 +65,4 @@ ht-degree: 0%
 >* [概要 [!DNL Analytics for Advertising]](overview.md)
 >* [が使用するAdobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
 >* [Append [!DNL Analytics for Advertising] マクロ先 [!DNL Google Campaign Manager 360] 広告タグ](/help/integrations/analytics/macros-google-campaign-manager.md)
+

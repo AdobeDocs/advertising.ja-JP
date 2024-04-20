@@ -3,7 +3,7 @@ title: '''[!DNL Google Ads] キャンペーン設定'
 description: の設定を参照します [!DNL Google Ads] キャンペーン。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 66f6f659e46d2a08e0f7b958be8f60ba5e9720b3
+source-git-commit: 7b31fb7939f44aa99826bea3f183897683189eae
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 0%
@@ -364,3 +364,4 @@ eCPC を使用してキャンペーンを最適化された検索、ソーシャ
 >[!MORELIKETHIS]
 >
 >* [キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+
