@@ -3,7 +3,7 @@ title: Append [!DNL Analytics for Advertising] マクロ先 [!DNL Flashtalking] 
 description: 追加の理由と方法を説明します [!DNL Analytics for Advertising] に対するマクロ [!DNL Flashtalking] 広告タグ
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 2a124481f98a5b5f17d613becacb0bdfa6935836
+source-git-commit: c6a7d99875d54d7ff807f94b8fdd7a903c05b6e5
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 [ftqs:[AdobeAMO]]
 ```
 
-これはベース URL の後の最初または唯一のクエリ文字列で、次のようにベース URL から分離します `?`. ベース URL に複数のクエリ文字列が含まれる場合は、最初の文字列をで始めます `?` 後続の各文字列にはが付いています。 `&`.
+それがベース URL の後の最初または唯一のクエリ文字列である場合は、でベース URL から分離します `?`. ベース URL に複数のクエリ文字列が含まれる場合は、最初の文字列をで始めます `?` 後続の各文字列にはが付いています。 `&`.
 
 例：
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 [%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-これはベース URL の後の最初または唯一のクエリ文字列で、次のようにベース URL から分離します `?`. ベース URL に複数のクエリ文字列が含まれる場合は、最初の文字列をで始めます `?` 後続の各文字列にはが付いています。 `&`.
+それがベース URL の後の最初または唯一のクエリ文字列である場合は、でベース URL から分離します `?`. ベース URL に複数のクエリ文字列が含まれる場合は、最初の文字列をで始めます `?` 後続の各文字列にはが付いています。 `&`.
 
 例：
 
