@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] キャンペーン設定'
 description: の設定を参照します [!DNL Microsoft® Advertising] キャンペーン。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: 8d1ff29322799ff7905ee808703e00f5190ae8af
 workflow-type: tm+mt
 source-wordcount: '1912'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** キャンペーンの入札戦略：
 
-* *[!UICONTROL Cost per Sale]:* （ショッピングキャンペーンのみ）広告ネットワーク（検索、ソーシャル、Commerceは除く）は、 **[!UICONTROL Target CPS]** （1 販売あたりのコスト）。 お支払いは、商品の広告をクリックした結果、24 時間以内にセールが成立した場合に限ります。 **注意：** この入札戦略のキャンペーンをポートフォリオに含めないでください。 この入札戦略を使用するキャンペーンでは、検索、ソーシャル、Commerceの最適化は利用できません。
+* *[!UICONTROL Cost per Sale]:* （ショッピングキャンペーンのみ）広告ネットワーク（検索、ソーシャル、Commerceは除く）は、 [!UICONTROL Target CPS] （1 販売あたりのコスト）。 お支払いは、商品の広告をクリックした結果、24 時間以内にセールが成立した場合に限ります。 **注意：** この入札戦略のキャンペーンをポートフォリオに含めないでください。 この入札戦略を使用するキャンペーンでは、検索、ソーシャル、Commerceの最適化は利用できません。
 
   この入札戦略を使用してブランドのショッピングキャンペーンを保存すると、入札戦略を変更できなくなります。 他のショッピングキャンペーンタイプの場合、この戦略は新規キャンペーンでのみ使用できます。
 
