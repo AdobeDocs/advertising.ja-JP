@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] 広告グループ設定'
 description: の設定を参照します [!DNL Microsoft® Advertising] 広告グループ。
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 7339af39250f0328bc6e8d530a2d7f04286132e5
+source-git-commit: 2407d29fb4061e6b3181b86c335c52a8384c4ca3
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 の場合 [!DNL Microsoft® Advertising] オーディエンスネットワークの広告グループ、ロケーションターゲットの入札修飾子は、「[!UICONTROL Auto-optimize Bid Adjustment Values]」設定です。
 
-**[!UICONTROL Genre]:** （の広告グループ [!UICONTROL Audience CTV Video] キャンペーン：米国、CA、BR、MX、UK、DE、ES、FR、IT、AU、MY および TH で使用可能<!-- should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->）ターゲットジャンル。広告を表示する番組とチャネルを決定します。
+**[!UICONTROL Genre]:** （の広告グループ [!UICONTROL Audience CTV Video] キャンペーン：米国、CA、BR、MX、UK、DE、ES、FR、IT、AU、MY および TH で使用可能<!-- Should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->）ターゲットジャンル。広告を表示する番組とチャネルを決定します。
 
 * *[!UICONTROL All genres]:* （既定値）すべてのジャンルをターゲットにします。
 
