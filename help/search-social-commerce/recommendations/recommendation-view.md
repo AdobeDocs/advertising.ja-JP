@@ -1,37 +1,48 @@
 ---
-title: パブリッシャーのレコメンデーションとパフォーマンスインサイトの表示
-description: 以下を表示する方法を学ぶ： [!DNL Google Ads] レコメンデーションと [!DNL Microsoft® Advertising] 広告ネットワークアカウントのパフォーマンスインサイト。
+title: パブリッシャーの推奨事項とパフォーマンスインサイトの表示
+description: を表示する方法を学ぶ [!DNL Google Ads] 推奨事項と [!DNL Microsoft® Advertising] 広告ネットワークアカウントのパフォーマンスインサイト。
 feature: Search Recommendations
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
+source-git-commit: 55417f743378a4407542482b8009687d5a7191e7
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
 
-# パブリッシャーのレコメンデーションとパフォーマンスインサイトを表示
+# パブリッシャーの推奨事項とパフォーマンスインサイトを表示する
 
 *[!DNL Google Ads]および [!DNL Microsoft® Advertising] アカウント*
 
 *のベータ版機能 [!DNL Microsoft® Advertising] アカウント*
 
+## パブリッシャーのお勧めを表示
+
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. 右上で、広告ネットワークとアカウントを選択します。
 
-1. 推奨されるアクションを表示します。
+   の場合 [!DNL Microsoft® Advertising] アカウント、 [!UICONTROL Recommendations] のアカウントはデフォルトで表示されます。
 
-   * ([!DNL Google Ads] アカウント ) [!UICONTROL Actions] 列で、 **[!UICONTROL View]**. レコメンデーションにサブレコメンデーションがある場合は、「 **[!UICONTROL View]** サブレコメンデーションの横に表示されます。
+1. が含まれる [!UICONTROL Actions] 行の列、をクリックします。 **[!UICONTROL View]**. レコメンデーションにサブレコメンデーションがある場合は、 **[!UICONTROL View]** サブレコメンデーションの横にあります。
 
-     オプションで、 [適用または却下](google-recommendation-apply-dismiss.md) 広告ネットワークの推奨事項。
+   オプションで、次のことが可能です [適用または解除](recommendation-apply-dismiss.md) 広告ネットワークの推奨事項。
 
-   * ([!DNL Microsoft® Advertising] アカウント ) [!UICONTROL Actions] 行の列にアクションが含まれる場合は、 **[!UICONTROL Click here]** 開く [!DNL Microsoft® Advertising] エディターを使用して、インサイトに基づいて操作できます。
+## を表示 [!DNL Microsoft® Advertising] パフォーマンスインサイト
 
-     ログインしていない場合、 [!DNL Microsoft® Advertising] エディターに移動した場合は、最初にログイン画面が表示されます。
+1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+
+1. 右上で、広告ネットワークとアカウントを選択します。
+
+1. クリック **[!UICONTROL Insights]** データテーブルの上。
+
+1. いつ [!UICONTROL Actions] 行の列にアクションが含まれる場合は、オプションで、をクリックできます。 **[!UICONTROL Click here]** を開きます [!DNL Microsoft® Advertising] インサイトで行動できるエディター。
+
+   にログインしていない場合 [!DNL Microsoft® Advertising] エディターで、最初にログイン画面が表示されます。
 
 >[!MORELIKETHIS]
 >
->* [パブリッシャーのレコメンデーションおよびインサイトのサポートについて](recommendation-support.md)
->* [を適用または解除 [!DNL Google Ads] recommendation](google-recommendation-apply-dismiss.md)
->* [のレコメンデーションログを表示する [!DNL Google Ads] アカウント](google-recommendation-view-log.md)
->* [投稿のレコメンデーションとインサイトをポートフォリオで使用する際のベストプラクティス](recommendation-best-practices.md)
+>* [パブリッシャーの推奨事項とインサイトのサポートについて](recommendation-support.md)
+>* [パブリッシャーのレコメンデーションの適用または解除](recommendation-apply-dismiss.md)
+>* [アカウントの公開者レコメンデーションログの表示](recommendation-view-log.md)
+>* [パブリッシャーのレコメンデーションをポートフォリオで使用する際のベストプラクティス](recommendation-best-practices.md)
