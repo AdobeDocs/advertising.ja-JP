@@ -3,7 +3,7 @@ title: パブリッシャーのレコメンデーションの適用または解�
 description: パブリッシャーのレコメンデーションを表示、適用、解除する方法を説明します。
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
+source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
