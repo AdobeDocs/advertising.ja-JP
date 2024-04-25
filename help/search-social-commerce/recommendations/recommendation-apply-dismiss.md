@@ -3,7 +3,7 @@ title: パブリッシャーのレコメンデーションの適用または解�
 description: パブリッシャーのレコメンデーションを表示、適用、解除する方法を説明します。
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -48,3 +48,4 @@ ht-degree: 0%
 >* [パブリッシャーの推奨事項とパフォーマンスインサイトを表示する](recommendation-view.md)
 >* [アカウントの公開者レコメンデーションログの表示](recommendation-view-log.md)
 >* [パブリッシャーのレコメンデーションをポートフォリオで使用する際のベストプラクティス](recommendation-best-practices.md)
+
