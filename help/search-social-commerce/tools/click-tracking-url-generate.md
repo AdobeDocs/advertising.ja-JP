@@ -3,9 +3,9 @@ title: クリックの追跡 URL の生成
 description: 検索、ソーシャル、Commerceのクリックトラッキング URL を手動で生成する方法を説明します。
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
+source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
            ファイルには、最大 10,000 行を含めることができます。
 
-         * （[!DNL Google Merchant Center] 製品グループと [DNL Microsoft® Advertising] 製品広告） `product name <tab> ** <tab> landing_page`
+         * （[!DNL Google Merchant Center] 製品グループと [!DNL Microsoft® Advertising] 製品広告） `product name <tab> ** <tab> landing_page`
 
            ここで、 `product name` は製品名で、 `landing_page` は、有効なランディングページの URL またはベース URL です。
 
