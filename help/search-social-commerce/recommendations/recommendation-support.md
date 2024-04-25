@@ -3,7 +3,7 @@ title: パブリッシャーの推奨事項とインサイトのサポートに�
 description: パブリッシャーのレコメンデーションとインサイトの表示と管理のサポートについて説明します。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 331b11620d99f9e43b9eb69db04aac4e1149d64f
+source-git-commit: d6808281dc3ba26a48ae33079c2f411705f43ddd
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
