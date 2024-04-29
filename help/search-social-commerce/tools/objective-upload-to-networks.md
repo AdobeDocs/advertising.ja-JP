@@ -3,9 +3,9 @@ title: 広告ネットワークへの目標のアップロードを有効にす�
 description: ハイブリッドポートフォリオの目標をにアップロードする方法を説明します [!DNL Google Ads] および [!DNL Microsoft® Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 7b857f2f75f05685d0776c710a442088a72f590c
+source-git-commit: a61bdd9c68420a16a01057d8a3ac03d659d2ad3f
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,33 @@ ht-degree: 0%
 
 *ハイブリッド最適化のみ有効な広告主*
 
-広告主アカウントがハイブリッド最適化を使用するように設定されている場合、Adobe Advertisingはオプションとして、アカウントのポートフォリオの目標をにアップロードできます [!DNL Google Ads] および [!DNL Microsoft® Advertising] をコンバージョンとして使用することで、ハイブリッド最適化に使用できます。
+検索、ソーシャルおよびCommerceでは、広告主アカウントのポートフォリオの目標をにアップロードできます [!DNL Google Ads] および [!DNL Microsoft® Advertising] そのため、ハイブリッド最適化に使用できます。 アップロードした目標は、アカウントレベルとキャンペーンレベルのカスタムコンバージョン目標のコンバージョンアクションとして使用できます。
 
-このオプションを有効にすると、スマート入札戦略を使用したキャンペーンを含んだポートフォリオのアップロードが自動的にトリガー付けされます。 検索、ソーシャル、Commerceを行うと、該当するポートフォリオと目標の組み合わせごとに広告ネットワーク上でコンバージョンが作成されます。 各コンバージョンには名前があります `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`、ここで `<portfolio_id>` は数値ポートフォリオ ID で、 `<se_acctid/conversion_manager_se_acctid>` は、広告ネットワークアカウントまたはマネージャーアカウントの数値 ID です。 コンバージョンは、目標内のすべての重み付けされたコンバージョン指標を表します。
+このオプションを有効にすると、スマート入札戦略を使用したキャンペーンを含んだポートフォリオ内の目標のアップロードが自動的にトリガー付けされます。 検索、ソーシャル、Commerceを行うと、該当する目的ごとに広告ネットワーク上にコンバージョンが作成されます。 コンバージョンは、目標内のすべての重み付けされたコンバージョン指標を表します。 各コンバージョンには、次のいずれかの名前が付けられます。
+
+* `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
+
+  ここで、 `<network_ID>` は、検索、ソーシャル、Commerceが広告ネットワークに使用する数値 ID です。 `<objective_id>` は数値目標 ID で、 `<network_account_ID>` は、広告ネットワークアカウントまたはマネージャーアカウントの数値 ID です。
+
+* （今後非推奨となる古い形式） `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`
+
+  ここで、 `<portfolio_id>` は数値ポートフォリオ ID で、 `<se_acctid/conversion_manager_se_acctid>` は、広告ネットワークアカウントまたはマネージャーアカウントの数値 ID です。
+
+  Adobeアカウントチームは、古いフォーマットが廃止される前に、アドネットワーク内の既存のコンバージョンアクション名を移行するためにお客様と協力します。 移行期間中は、古い形式と新しい形式の両方のアップロードが並行して実行されます。 新しいコンバージョンアクションは最初に「セカンダリ」（最適化されていない）ステータスで、90 日間のバックフィルデータで表示されるので、モデリングと最適化は影響を受けません。
 
 へのアップロード [!DNL Google Ads] 毎日 06:00 に広告主のタイムゾーンで発生します。 へのアップロード [!DNL Microsoft® Advertising] 広告主のタイムゾーンで毎日 09:00 に発生します。
 
-<!-- Note to self: Conversions tracked by Google Ads and by the Microsoft Advertising universal event tracking (UET) tag aren't re-uploaded to the ad networks. -->
+>[!IMPORTANT]
+>
+>Google Ads およびMicrosoft Advertising Universal Event Tracking （UET）タグで追跡されたコンバージョンは、広告ネットワークには再アップロードされません。 目標内に含める場合は、広告ネットワークのエディター内のキャンペーンの目標に追加します。
+
+<!--
+>[!IMPORTANT]
+>
+>Objectives for hybrid portfolios may include conversion goals from multiple ad networks and other types of conversion metrics. However, the individual campaigns in the portfolio can't include conversion goals that aren't included in the portfolio's objective; using additional conversion goals may impact portfolio performance.
+-->
+
+<!-- Can conversions from events triggered on other ad networks be included in the portfolio (and just be ignored)? -->
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
@@ -33,6 +53,8 @@ ht-degree: 0%
 1. クリック **[!UICONTROL Save]**.
 
 1. （コンバージョンが管理者アカウントレベルで追跡されている場合） [マネージャーアカウントの資格情報の追加](/help/search-social-commerce/admin/manager-accounts.md) 時刻 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+
+毎日のアップロードが完了したら、変換アクションが広告ネットワークに表示されることを確認できます。
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] キャンペーン設定'
 description: の設定を参照します [!DNL Google Ads] キャンペーン。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: ce17567bbf1a409cc2894e48188235b7473b914c
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2431'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,13 @@ eCPC を使用してキャンペーンを最適化された検索、ソーシャ
 
 >[!TIP]
 >
->キャンペーンがポートフォリオの一部である場合は、ポートフォリオの目標と同じコンバージョン目標を使用します。 異なるコンバージョン目標を使用すると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
+>広告ネットワークに目標をアップロードするハイブリッドポートフォリオのキャンペーンの場合、ベストプラクティスは、ポートフォリオの目標のコンバージョン目標に一致するキャンペーンレベルの目標を使用することです。 ただし、キャンペーンの目標に次が含まれる場合 [!DNL Google]でトラッキングされたコンバージョンを、内で追加する [!DNL Google Ads] エディターの理由は、これが目的の場合に広告ネットワークに再度アップロードされないからです。 さらに、内で [!DNL Google Ads] 編集者が、キャンペーンのコンバージョンアクションをプライマリ目標ではなくセカンダリ目標としてマークし、アカウントのデフォルト目標として削除する。
+
+<!-- Check on this:
+>If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>
+>The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
+-->
 
 >[!MORELIKETHIS]
 >

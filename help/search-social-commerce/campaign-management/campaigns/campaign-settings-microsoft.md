@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] キャンペーン設定'
 description: の設定を参照します [!DNL Microsoft® Advertising] キャンペーン。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 8d1ff29322799ff7905ee808703e00f5190ae8af
+source-git-commit: ce17567bbf1a409cc2894e48188235b7473b914c
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1967'
 ht-degree: 0%
 
 ---
@@ -299,7 +299,15 @@ ht-degree: 0%
 
 **[!UICONTROL Conversion Goal]:** 対象 *[!UICONTROL Use account conversion goals for this campaign]* （デフォルト）または *[!UICONTROL Use campaign specific conversion goals]*. キャンペーンのコンバージョン目標を指定する場合は、使用可能なすべての目標のリストから目標を選択します。 **注意：** 目標は毎日同期されるので、過去 24 時間に作成された目標はリストされない場合があります。 リストを更新するには、 [広告ネットワークデータを手動で同期](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
 
-キャンペーンがポートフォリオの一部である場合は、ポートフォリオの目標と同じコンバージョン目標を使用します。 異なるコンバージョン目標を使用すると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
+>[!TIP]
+>
+>目標を広告ネットワークにアップロードするハイブリッドポートフォリオの場合、ベストプラクティスは、ポートフォリオの目標のコンバージョン目標に一致するキャンペーンレベルの目標を使用することです。 ただし、キャンペーンの目標に、によって追跡されるコンバージョンが含まれる場合は [!DNL Microsoft Advertising] ユニバーサルイベントトラッキング（UET）タグを追加してから、 [!DNL Microsoft Advertising] エディターの理由は、これが目的の場合に広告ネットワークに再度アップロードされないからです。 さらに、内で [!DNL Microsoft Advertising] エディターで、「コンバージョンに含める」の選択を解除し、キャンペーンのコンバージョンアクションをアカウントのデフォルトの目標として削除します。
+
+<!-- Check on this:
+>If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>
+>The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
+-->
 
 >[!MORELIKETHIS]
 >
