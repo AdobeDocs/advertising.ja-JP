@@ -2,9 +2,9 @@
 title: スプレッドシートを使用した広告設定の確認
 description: スプレッドシートを使用して広告設定を確認する方法を説明します。
 feature: DSP Ads
-source-git-commit: c67e0c83ba8836462ce83fad24721cd1b27de318
+source-git-commit: ba940f8476463a6804f024b1597be74ffc5a6c0c
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -43,5 +43,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
->* [広告設定](/help/dsp/campaign-management/ads/ad-settings.md)
 >* [プレースメントに広告を添付](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
