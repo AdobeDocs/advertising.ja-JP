@@ -3,9 +3,9 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: caab8c3163a7ffdbc0b5ef28176b2ee73f83b6e8
 workflow-type: tm+mt
-source-wordcount: '3516'
+source-wordcount: '3540'
 ht-degree: 0%
 
 ---
@@ -309,6 +309,7 @@ ht-degree: 0%
 
 * 既存のオーディエンスを選択するには、をクリックします。 ![を選択](/help/dsp/assets/chevron-down.png) 次の [!UICONTROL Excluded Audiences]次に、オーディエンスを選択します。
 * オーディエンスを作成するには、をクリックします。 ![を選択](/help/dsp/assets/chevron-down.png) 次の [!UICONTROL Excluded Audiences]を選択してから、 **+ オーディエンスを作成**. 手順については、を参照してください [再利用可能なオーディエンスを作成](/help/dsp/audiences/reusable-audience-create.md)（手順 3 から開始）。
+* 特定のオーディエンスセグメントを選択するには、をクリックします。 **[!UICONTROL Select segments for this placement only]**. セグメントロジックを選択します。手順については、「」の手順 6 を参照してください[再利用可能なオーディエンスを作成](/help/dsp/audiences/reusable-audience-create.md).」と入力します。 完了したら、 **保存**.
 
 **[!UICONTROL Cross Device Targeting]:** （少なくとも 1 つのセグメントまたはオーディエンスと [campaign は、ユーザーベースのクロスデバイスターゲティング用に設定されます](/help/dsp/campaign-management/campaigns/campaign-settings.md). を使用すると、指定されたセグメントに含まれていないデバイスも含め、個人の既知のすべてのデバイス（キャンペーン設定で指定されたデバイスグラフごと）にターゲティングを拡張できます。 キャンペーンに指定されたグラフによって料金が発生する場合があります。 デバイスグラフデータは、北米でのみ使用できます。
 
