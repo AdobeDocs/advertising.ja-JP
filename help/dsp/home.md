@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 21ccaa24d65a6942507c4b5cf2eb7d0a1721fff7
+source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2746'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 |  | 最適化 | 2 つの新しいクリックベースの最適化目標を、すべてのユーザーが利用できます。 **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** および **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | 参照先」[最適化目標とその使用方法](/help/dsp/optimization/optimization-goals.md)「」と「」に対して検査する値[パフォーマンスキャンペーンの設定のベストプラクティス](/help/dsp/optimization/campaign-best-practices-performance.md).」と入力します。 |
 | 2023 年 9 月 27 日（Pt） | 最適化 | 2 つの新しいリーチベースの最適化目標 **[!UICONTROL Always Max Bid and Maximize Reach]** および **[!UICONTROL Lowest Cost per Reach]**、それぞれ同じレベルのインプレッションや支出を使用して、できるだけ多くのユニークな世帯に到達するのに役立ちます。 どちらの目標も、パッケージレベルとプレースメントレベルの両方で使用できます。 | 参照先」[最適化目標とその使用方法](/help/dsp/optimization/optimization-goals.md).」と入力します。 |
 | 2023 年 8 月 23 日（Pt） | [!UICONTROL Placements] | 新しいプレースメント予測ツールは、特定のターゲティング戦略に対するインプレッション数、支出および最適な最大入札額の予測値を表示します。 予測は、プレースメントで使用可能な在庫全体と使用可能な一意のユーザーに基づいて計算されます。 | 参照先」[配置予測レポートの表示](/help/dsp/campaign-management/reports/placement-forecast.md).」と入力します。 |
-|  |  | キャンペーンまたは 1 つ以上のプレースメントのスプレッドシートファイルをダウンロードし、新しい「」に値を含めるようにファイルを編集することで、複数の広告をプレースメントにすばやく関連付けられるようになりました[!UICONTROL Attached Ad ID]」列に移動し、編集したファイルをアップロードします。 列を使用して、プレースメントに広告を追加するが、削除しない。<br><br>広告名と関連するのリストをダウンロードするには [!UICONTROL Ad ID]s、に移動 [!UICONTROL Ads] 表示する、以下を含むカスタムビューを作成する [!UICONTROL ID] を選択してから、データを書き出します。 | 参照先」[スプレッドシートでのプレースメント設定のダウンロード](/help/dsp/campaign-management/qa/qa-sheet-download.md),&quot; &quot;[ダウンロード/アップロードしたスプレッドシートのプレースメント設定列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)、」および「[スプレッドシートへのプレースメント設定のアップロード](/help/dsp/campaign-management/qa/qa-sheet-upload.md).」と入力します。<br><br>関連トピック「[Campaign Management ビューからのデータの書き出し](/help/dsp/campaign-management/reports/campaign-export-data.md).」と入力します。 |
+|  |  | キャンペーンまたは 1 つ以上のプレースメントのスプレッドシートファイルをダウンロードし、新しい「」に値を含めるようにファイルを編集することで、複数の広告をプレースメントにすばやく関連付けられるようになりました[!UICONTROL Attached Ad ID]」列に移動し、編集したファイルをアップロードします。 列を使用して、プレースメントに広告を追加するが、削除しない。<br><br>広告名と関連するのリストをダウンロードするには [!UICONTROL Ad ID]s、に移動 [!UICONTROL Ads] 表示する、以下を含むカスタムビューを作成する [!UICONTROL ID] を選択してから、データを書き出します。 | 参照先」[スプレッドシートで配置設定を確認および修正する](/help/dsp/campaign-management/placements/placement-qa.md).」と入力します。<br><br>関連トピック「[Campaign Management ビューからのデータの書き出し](/help/dsp/campaign-management/reports/campaign-export-data.md).」と入力します。 |
 |  | [!UICONTROL Custom Reports] | カスタムレポートに次が含まれるようになりました [!UICONTROL End Date]、これは最大 4 か月後に実行できます。 既存のレポートの場合、有効期限は 2023 年 9 月 24 日（PT）です。<br><br>レポートの有効期限が切れる前に、指定したすべてのメール受信者は、有効期限の 7 日前と 1 日前にメールアラートを受け取ります。 レポートを長く保持するには、レポート設定で有効期限を変更します。 | 参照先」[カスタムレポートの編集](/help/dsp/reports/report-edit.md)「」と「」に対して検査する値[カスタムレポートの設定](/help/dsp/reports/report-settings.md).」と入力します。 |
 | 2023 年 7 月 19 日（Pt） | 在庫 | Google認定購入者 SSP とのプログラムで保証された取引に対して、公開者が管理する広告を実行できるようになりました。 DSPではなくパブリッシャーで広告を直接ホストすることで、カスタムのリッチメディア広告フォーマットを活用できます。 カスタムの広告フォーマットは通常、直接予約経由で実行されるため、DSPでパブリッシャーが管理する広告を選択する機能により、直接予約予算をプログラムによるエコシステムにシフトすることもできます。 | 参照先」[プログラムで保証された取引について](/help/dsp/inventory/programmatic-guaranteed-about.md)「」と「」に対して検査する値[プログラムで保証された取引の設定](/help/dsp/inventory/programmatic-guaranteed-set-up.md).」と入力します。 |
 | 2023 年 7 月 19 日（Pt） | 報告書 | 新しい [!UICONTROL Household Conversions Report] は、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルでのビュースルーコンバージョンを表示します。 | 参照先」[レポートについて](/help/dsp/reports/report-about.md)「」と「」に対して検査する値[世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md).」と入力します。 |
@@ -54,7 +54,7 @@ ht-degree: 0%
 | 2022 年 11 月 23 日（Pt） | 契約 | この [!UICONTROL Inventory] > [!UICONTROL Deals] ビューに「」が含まれるようになりました[!UICONTROL Deal Health]「列」には、各プライベート契約の健全性ステータスが示されます。」[!UICONTROL Success],&quot; &quot;[!UICONTROL Warning],&quot; &quot;[!UICONTROL Critical]、」または「」[!UICONTROL Unavailable].」と入力します。 ステータスをクリックすると、契約が期待どおりに行われていない理由や支出が予想どおりに進んでいない理由、潜在的な問題のトラブルシューティング手順など、詳細を確認できます。 | — |
 | 2022 年 10 月 27 日（Pt） | [!UICONTROL Campaigns] | 選択した日付範囲で行われた変更を示す変更ログが、パッケージとプレースメントごとに使用できるようになりました。 | 参照先」[パッケージの変更ログの表示](/help/dsp/campaign-management/packages/package-change-log.md)「」と「」に対して検査する値[プレースメントの変更ログの表示](/help/dsp/campaign-management/placements/placement-change-log.md).」と入力します。 |
 |  |  | 次を変更できます [!UICONTROL Intraday Pacing] 複数のプレースメントの設定を同時に行う。 | 参照先」[プレースメントの編集](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)「」と「」に対して検査する値[プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md).」と入力します。 |
-|  |  | アン &quot;[!UICONTROL Intraday Pacing]」列は Excel QA スプレッドシートで使用できます。 | 参照先」[ダウンロード/アップロードされたスプレッドシートの列](/help/dsp/campaign-management/qa/qa-sheet-columns.md).」と入力します。 |
+|  |  | アン &quot;[!UICONTROL Intraday Pacing]」列は Excel QA スプレッドシートで使用できます。 | 参照先」[ダウンロード/アップロードされたスプレッドシートの列](/help/dsp/campaign-management/placements/placement-qa.md#qa-sheet-columns).」と入力します。 |
 |  |  | アン &quot;[!UICONTROL Intraday Pacing]「」列はキャンペーン ビューで使用できます。 | 参照先」[カスタム列ビューの作成](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)「」と「」に対して検査する値[カスタム列表示の編集](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit).」と入力します。 |
 |  |  | パッケージおよびプレースメントのビューは、次の項目でフィルタリングできます [!UICONTROL Intraday Pacing] の設定値。 | 参照先」[キャンペーンデータのフィルタリング](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#filter-data-tables).」と入力します。 |
 | 2022 年 10 月 6 日（Pt） | キャンペーン | Campaigns ビュー：「昨日の OTS」（目標支出）、「昨日の配信」、「昨日の目標」、「今日の OTS」（目標支出）、「今日の配信」および「今日の目標」で新しいペーシング関連指標列を使用できます。 | 参照先」[カスタム列ビューの作成](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)「」と「」に対して検査する値[カスタム列表示の編集](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit).」と入力します。 |

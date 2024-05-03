@@ -3,9 +3,9 @@ title: プレースメントの編集
 description: プレースメントの編集方法を説明します。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,24 @@ ht-degree: 0%
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
+## キー配置設定をすばやく編集する {#placement-quick-edit}
+
+<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
+完全なプレースメント設定を開かなくても、プレースメント名、ステータス、最大入札額および予算を編集できます。
+
+1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. キャンペーンの名前をクリックします。
+1. サブメニューで、 **[!UICONTROL Placements]**.
+1. プレースメント名の横にある「」をクリックします  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. 利用可能なを編集します [プレースメント設定](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**、および **[!UICONTROL Budget]**.
+1. クリック **[!UICONTROL Apply]**.
+
 ## 単一プレースメントの編集
 
 >[!TIP]
 >
-> プレースメント名、ステータス、最大入札額、予算のみを編集するには、「」を参照してください[キー配置設定をすばやく編集する](/help/dsp/campaign-management/placements/placement-quick-edit.md).」と入力します。
+> プレースメント名、ステータス、最大入札額、予算のみを編集するには、「」を参照してください[キー配置設定をすばやく編集する](#placement-quick-edit).」と入力します。
 
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 
@@ -77,7 +90,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [プレースメント管理について](placement-about.md)
->* [キー配置設定をすばやく編集する](placement-quick-edit.md)
+>* [スプレッドシートを使用した配置設定の確認と修正](placement-qa.md)
 >* [プレースメントの作成](placement-create.md)
 >* [プレースメントの複製](placement-duplicate.md)
 >* [プレースメントの入札乗数の管理](placement-manage-bid-multipliers.md)
@@ -87,5 +100,4 @@ ht-degree: 0%
 >* [プレースメント設定](placement-settings.md)
 >* [配置予測レポートの表示](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [ショートカットキー](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [スプレッドシートを使用した配置設定の修正について](/help/dsp/campaign-management/qa/qa-about.md)
 >* [ビデオ：一括編集ツールを使用してプレースメントを編集する方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

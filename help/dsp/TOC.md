@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: c5f26fba0dcf26e0017d881b5ccd9101f98ff43f
+source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '897'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 3%
       + [プレースメント管理について](/help/dsp/campaign-management/placements/placement-about.md)
       + [プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)
       + [プレースメントの編集](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [キー配置設定をすばやく編集する](/help/dsp/campaign-management/placements/placement-quick-edit.md)
+      + [スプレッドシートを使用した配置設定の確認と修正](/help/dsp/campaign-management/placements/placement-qa.md)
       + [プレースメントの複製](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [プレースメントの入札乗数の管理](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [プレースメントに広告を添付](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -101,11 +101,6 @@ ht-degree: 3%
       + [プレースメント診断レポートの表示](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [アラートの表示](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + スプレッドシートを使用して配置設定を修正する {#qa-spreadsheet}
-      + [スプレッドシートを使用した配置設定の修正について](/help/dsp/campaign-management/qa/qa-about.md)
-      + [スプレッドシートでのプレースメント設定のダウンロード](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [スプレッドシートへのプレースメント設定のアップロード](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
-      + [ダウンロード/アップロードされたスプレッドシートの列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [DSP マクロ](/help/dsp/campaign-management/macros.md)
    + [ショートカットキー](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
    + [Campaign Managementに関する FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
