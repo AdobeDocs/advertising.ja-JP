@@ -3,9 +3,9 @@ title: プレースメントの編集
 description: プレースメントの編集方法を説明します。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
+source-git-commit: df89207a61235ccf83d2c4b898ac60598f8e2877
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # プレースメントの編集
 
 1 つのプレースメントまたは複数のプレースメントの設定を一度に編集できます。
+
+>[!NOTE]
+>
+>また、1 つ以上のプレースメントまたはキャンペーン内のすべてのプレースメントの設定を XLSX （Excel スプレッドシート）形式でダウンロードし、フィールドのサブセットを変更して、一度にDSPにアップロードして戻すこともできます。 参照先」[スプレッドシートを使用した配置設定の確認と修正](placement-qa.md).」と入力します。
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
