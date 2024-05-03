@@ -1,16 +1,16 @@
 ---
-title: プレースメントの編集
+title: プレースメントを編集
 description: プレースメントの編集方法を説明します。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: e794f6ee4731479cd1961201ac479d66216a3200
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-# プレースメントの編集
+# プレースメントを編集
 
 1 つのプレースメントまたは複数のプレースメントの設定を一度に編集できます。
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、1 つ以上のプレースメントまたはキャンペーン内のすべてのプレースメントの設定を XLSX （Excel スプレッドシート）形式でダウンロードし、キーフィールドの限られたサブセットを変更して、一度にDSPにアップロードすることもできます。 参照先」[スプレッドシートを使用した配置設定の確認と修正](placement-qa.md).」と入力します。
+>また、1 つ以上のプレースメントまたはキャンペーン内のすべてのプレースメントの設定を XLSX （Excel スプレッドシート）形式でダウンロードし、キーフィールドの限られたサブセットを変更して、一度にDSPにアップロードすることもできます。 参照先」[スプレッドシートを使用した配置設定の確認と編集](placement-qa.md).」と入力します。
 
 ## キー配置設定をすばやく編集する {#placement-quick-edit}
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [プレースメント管理について](placement-about.md)
->* [スプレッドシートを使用した配置設定の確認と修正](placement-qa.md)
+>* [スプレッドシートを使用した配置設定の確認と編集](placement-qa.md)
 >* [プレースメントの作成](placement-create.md)
 >* [プレースメントの複製](placement-duplicate.md)
 >* [プレースメントの入札乗数の管理](placement-manage-bid-multipliers.md)

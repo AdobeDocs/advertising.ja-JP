@@ -1,16 +1,16 @@
 ---
-title: スプレッドシートを使用した配置設定の確認と修正
+title: スプレッドシートを使用した配置設定の確認と編集
 description: スプレッドシートを使用して主要なプレースメント設定を確認および編集する方法について説明します。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
-# スプレッドシートを使用した配置設定の確認と修正
+# スプレッドシートを使用した配置設定の確認と編集
 
 レビュー用に 1 つ以上のプレースメントまたはキャンペーン内のすべてのプレースメントの設定を XLSX （Excel スプレッドシート）形式でダウンロードできます。 この機能を使用すると、次のような詳細をすばやく確認できます。
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->プレースメント設定をより広範に変更するには、 [一括編集機能](/help/dsp/campaign-management/placements/placement-edit.md).
+>1 つ以上のプレースメントの複数のフィールドを編集するには、「」を参照してください[プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md).」と入力します。
 
 ## キャンペーン内のすべてのプレースメントの設定をダウンロード
 
@@ -193,5 +193,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [プレースメントの編集](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)

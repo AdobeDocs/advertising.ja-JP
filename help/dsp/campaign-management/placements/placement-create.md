@@ -3,9 +3,9 @@ title: プレースメントの作成
 description: プレースメントの作成方法を説明します。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [プレースメント管理について](placement-about.md)
->* [プレースメントの編集](placement-edit.md)
+>* [プレースメントを編集](placement-edit.md)
 >* [プレースメントの入札乗数の管理](placement-manage-bid-multipliers.md)
 >* [プレースメントの広告スケジュールの編集](placement-edit-ad-schedule.md)
 >* [プレースメントの一時停止またはアクティブ化](placement-pause-activate.md)

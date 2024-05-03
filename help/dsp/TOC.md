@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '901'
 ht-degree: 3%
 
 ---
@@ -60,8 +60,8 @@ ht-degree: 3%
    + Placements {#placements}
       + [プレースメント管理について](/help/dsp/campaign-management/placements/placement-about.md)
       + [プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)
-      + [プレースメントの編集](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [スプレッドシートを使用した配置設定の確認と修正](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [スプレッドシートを使用した配置設定の確認と編集](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)
       + [プレースメントの複製](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [プレースメントの入札乗数の管理](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [プレースメントに広告を添付](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -77,6 +77,7 @@ ht-degree: 3%
       + [単一の広告を作成](/help/dsp/campaign-management/ads/ad-create.md)
       + [複数のサードパーティ広告の作成](/help/dsp/campaign-management/ads/ad-create-multiple.md)
       + [広告の作成 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [スプレッドシートを使用した広告設定の確認](/help/dsp/campaign-management/ads/ad-qa.md)
       + [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
       + [広告の複製](/help/dsp/campaign-management/ads/ad-duplicate.md)
       + [プレースメントに広告を添付](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->

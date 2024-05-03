@@ -3,9 +3,9 @@ title: キー配置設定をすばやく編集する
 description: キー配置設定をすばやく変更する方法を説明します。
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> プレースメント設定を編集するには、「」を参照してください[プレースメントの編集](/help/dsp/campaign-management/placements/placement-edit.md).」と入力します。
+> プレースメント設定を編集するには、「」を参照してください[プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md).」と入力します。
 
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 1. キャンペーンの名前をクリックします。
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >* [プレースメント管理について](placement-about.md)
 >* [プレースメントの作成](placement-create.md)
->* [プレースメントの編集](placement-edit.md)
+>* [プレースメントを編集](placement-edit.md)
 >* [プレースメントの複製](placement-duplicate.md)
 >* [プレースメントの入札乗数の管理](placement-manage-bid-multipliers.md)
 >* [プレースメントの広告スケジュールの編集](placement-edit-ad-schedule.md)

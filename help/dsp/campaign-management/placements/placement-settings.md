@@ -3,9 +3,9 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 9586b743df5af61db81f781224bed28b02e0c4a8
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '3540'
+source-wordcount: '3539'
 ht-degree: 0%
 
 ---
@@ -477,7 +477,7 @@ ht-degree: 0%
 >
 >* [プレースメント管理について](placement-about.md)
 >* [プレースメントの作成](placement-create.md)
->* [プレースメントの編集](placement-edit.md)
+>* [プレースメントを編集](placement-edit.md)
 >* [プレースメントの入札乗数の管理](placement-manage-bid-multipliers.md)
 >* [プレースメントの変更ログの表示](placement-change-log.md)
 >* [ショートカットキー](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
