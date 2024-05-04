@@ -2,7 +2,8 @@
 title: スプレッドシートを使用した広告の詳細のレビュー
 description: スプレッドシートを使用して、広告設定や関連するプレースメントなど、広告の詳細を確認する方法を説明します。
 feature: DSP Ads
-source-git-commit: fd197543d9f96bfb29784402a4510bd200888b60
+exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
+source-git-commit: 64a1d623bd505764d1fb320e95706e0f702b1d23
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # スプレッドシートを使用した広告の詳細のレビュー
 
-キャンペーン内のすべての広告に関する詳細を XLSX （Excel スプレッドシート）形式でダウンロードして確認できます。 詳細には、広告設定および関連するプレースメントが含まれます。<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
+キャンペーン内のすべての広告に関する詳細を XLSX （Excel スプレッドシート）形式でダウンロードして確認できます。 詳細には、広告設定および関連するプレースメントが含まれます。<!-- Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
 
 >[!NOTE]
 >
