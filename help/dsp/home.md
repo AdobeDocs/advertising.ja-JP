@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 17635ae4b61913d631ccb2a875ee550602831178
+source-git-commit: 01cc40d455b0f1b95d3cfe4b93e862627e2025d3
 workflow-type: tm+mt
 source-wordcount: '2771'
 ht-degree: 0%
@@ -15,10 +15,7 @@ ht-degree: 0%
 # 最新情報
 
 次の機能は、新規または最近変更された機能です。
-<!--
-|  | Ads, Pixels |  |  | 
--->
->>
+
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
 | 2024 年 5 月 2 日（Pt） | 広告、ピクセル | キャンペーン内のすべての広告の設定を XLSX （Excel スプレッドシート）形式でダウンロードして、確認できます。 [!UICONTROL Ad Tools] 表示。 | 参照先」[スプレッドシートを使用した広告設定の確認](/help/dsp/campaign-management/ads/ad-qa.md).」と入力します。 |
