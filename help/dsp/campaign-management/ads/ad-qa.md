@@ -2,7 +2,7 @@
 title: スプレッドシートを使用した広告の詳細のレビュー
 description: スプレッドシートを使用して、広告設定や関連するプレースメントなど、広告の詳細を確認する方法を説明します。
 feature: DSP Ads
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: fd197543d9f96bfb29784402a4510bd200888b60
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
