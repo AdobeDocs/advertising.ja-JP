@@ -3,9 +3,9 @@ title: モバイル広告設定
 description: モバイル広告に使用できる広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Pixel]
 
-プレースメントの既存のイベントトラッキングピクセルはすべて自動的に添付されます。 個々の広告のトラッキングのニーズに基づいて、既存のピクセルを分離し、必要に応じて新しいピクセルを作成できます。
+プレースメントの既存のイベントトラッキングピクセルはすべて自動的に添付されます。 個々の広告のトラッキングのニーズに基づいて、既存のピクセルを分離し、必要に応じて新しいピクセルを作成できます。 **ヒント：** を使用して、プレースメント内の複数の広告に対するサードパーティトラッキングピクセルを一度に編集するには [!UICONTROL Ad Tools] 表示、「」を参照[プレースメントの広告にサードパーティのトラッキングピクセルを添付](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).」と入力します。
 
 次の設定は、作成または編集する各ピクセルに適用されます。
 

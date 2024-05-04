@@ -3,9 +3,9 @@ title: オーディオ広告設定
 description: オーディオ広告に使用可能な広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ ht-degree: 0%
 
 **[!UICONTROL Select Rate]:** （権限を持つユーザーのみ） ベンダーを通じて請求される事前交渉されたレート、またはAdobeを通じて交渉し、請求されるレートの 1 つ。 料金を追加するには、Adobeアカウントチームにお問い合わせください。
 
-### ピクセル
+### [!UICONTROL Pixel]
 
-プレースメントの既存のイベントトラッキングピクセルはすべて自動的に添付されます。 個々の広告のトラッキングのニーズに基づいて、既存のピクセルを分離し、必要に応じて新しいピクセルを作成できます。
+プレースメントの既存のイベントトラッキングピクセルはすべて自動的に添付されます。 個々の広告のトラッキングのニーズに基づいて、既存のピクセルを分離し、必要に応じて新しいピクセルを作成できます。 **ヒント：** を使用して、プレースメント内の複数の広告に対するサードパーティトラッキングピクセルを一度に編集するには [!UICONTROL Ad Tools] 表示、「」を参照[プレースメントの広告にサードパーティのトラッキングピクセルを添付](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).」と入力します。
 
 次の設定は、作成または編集する各ピクセルに適用されます。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 **[!UICONTROL Pixel Name]:** ピクセル名。 ピクセルを識別しやすい名前を使用します。
 
-**[!UICONTROL Pixel Provider]:** ピクセルプロバイダー：*[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*、または *[!UICONTROL IAS]*..
+**[!UICONTROL Pixel Provider]:** ピクセルプロバイダー：*[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*、または *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
