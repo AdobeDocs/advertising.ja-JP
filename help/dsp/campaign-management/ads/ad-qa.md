@@ -1,17 +1,17 @@
 ---
-title: スプレッドシートを使用した広告設定の確認
-description: スプレッドシートを使用して広告設定を確認する方法を説明します。
+title: スプレッドシートを使用した広告の詳細のレビュー
+description: スプレッドシートを使用して、広告設定や関連するプレースメントなど、広告の詳細を確認する方法を説明します。
 feature: DSP Ads
-source-git-commit: 24e6339d7217c02c993702e203acda362c25fd0e
+source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# スプレッドシートを使用した広告設定の確認
+# スプレッドシートを使用した広告の詳細のレビュー
 
-キャンペーン内のすべての広告の設定を XLSX （Excel スプレッドシート）形式でダウンロードして確認できます。<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? And does it include all possible settings, or just a subset?  -->
+キャンペーン内のすべての広告に関する詳細を XLSX （Excel スプレッドシート）形式でダウンロードして確認できます。 詳細には、広告設定および関連するプレースメントが含まれます。<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
 
 >[!NOTE]
 >

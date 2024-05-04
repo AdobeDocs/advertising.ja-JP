@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 3%
@@ -77,7 +77,7 @@ ht-degree: 3%
       + [単一の広告を作成](/help/dsp/campaign-management/ads/ad-create.md)
       + [複数のサードパーティ広告の作成](/help/dsp/campaign-management/ads/ad-create-multiple.md)
       + [広告の作成 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
-      + [スプレッドシートを使用した広告設定の確認](/help/dsp/campaign-management/ads/ad-qa.md)
+      + [スプレッドシートを使用した広告の詳細のレビュー](/help/dsp/campaign-management/ads/ad-qa.md)
       + [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
       + [広告の複製](/help/dsp/campaign-management/ads/ad-duplicate.md)
       + [プレースメントに広告を添付](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->

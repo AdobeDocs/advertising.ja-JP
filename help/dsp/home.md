@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 01cc40d455b0f1b95d3cfe4b93e862627e2025d3
+source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024 年 5 月 2 日（Pt） | 広告、ピクセル | キャンペーン内のすべての広告の設定を XLSX （Excel スプレッドシート）形式でダウンロードして、確認できます。 [!UICONTROL Ad Tools] 表示。 | 参照先」[スプレッドシートを使用した広告設定の確認](/help/dsp/campaign-management/ads/ad-qa.md).」と入力します。 |
+| 2024 年 5 月 2 日（Pt） | 広告、ピクセル | キャンペーン内のすべての広告に関する広告設定とプレースメントの関連付けは、XLSX （Excel スプレッドシート）形式でダウンロードし、レビューできます。 [!UICONTROL Ad Tools] 表示。 | 参照先」[スプレッドシートを使用した広告の詳細のレビュー](/help/dsp/campaign-management/ads/ad-qa.md).」と入力します。 |
 | |  | この [!UICONTROL Ad Tools] 表示 > [!UICONTROL Attach Pixels] タブには、広告に付加されるサードパーティトラッキングピクセルが表示されます。このピクセルは、1 つ以上の広告にピクセルを付加し、既存のピクセルを分離する新しいワークフローを提供します。 | 参照先」[プレースメントに広告を添付](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).」と入力します。 |
 |  | プレースメント、オーディエンス | 一括編集ツールまたはプレースメントエディターを使用して、プレースメントから個々のオーディエンスセグメントまたは再利用可能でないオーディエンスを除外できるようになりました。 | 参照先」[プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)「」と「」に対して検査する値[プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md).」と入力します。 |
 | 2024 年 4 月 18 日（Pt） | Placements | プレースメントの指定されたターゲットタイプに対して、入札を乗算して入札を増減させる入札修飾子を作成および管理できるようになりました。 デフォルトの入札修飾子は 1.00 で、増減はありません。値の範囲は 0.10 ～ 10.00 です。例えば、入札修飾子が 0.50 の場合、6 米ドルの入札は 3 米ドル（0.50 x 6）に減ります。 オークションが複数の入札モディファイアに該当する場合、適用可能なすべての入札モディファイアが乗算されます。 入札修飾子は、最大入札値を超えて入札を増加させることはありません。 | 参照先」[プレースメントの入札乗数の管理](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).」と入力します。 |
