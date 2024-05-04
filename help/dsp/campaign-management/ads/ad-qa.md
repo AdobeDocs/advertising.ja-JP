@@ -2,9 +2,9 @@
 title: スプレッドシートを使用した広告設定の確認
 description: スプレッドシートを使用して広告設定を確認する方法を説明します。
 feature: DSP Ads
-source-git-commit: ba940f8476463a6804f024b1597be74ffc5a6c0c
+source-git-commit: 24e6339d7217c02c993702e203acda362c25fd0e
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 キャンペーン内のすべての広告の設定を XLSX （Excel スプレッドシート）形式でダウンロードして確認できます。<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? And does it include all possible settings, or just a subset?  -->
 
->[!TIP]
+>[!NOTE]
 >
->*広告設定を編集するには、を使用します [一括編集機能](/help/dsp/campaign-management/ads/ad-edit.md).
+>*広告設定を編集するには、を参照してください [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md).
 >*複数の広告に対するサードパーティトラッキングピクセルを一度に変更する場合、またはプレースメントに広告を添付する場合は、「」を参照してください[プレースメントに広告を添付](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).」と入力します。
 
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
