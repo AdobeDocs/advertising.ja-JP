@@ -1,166 +1,166 @@
 ---
-title: カスタムレポート設定
+title: カスタムレポートの設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
 
-# カスタムレポート設定
+# カスタムレポートの設定
 
 **[!UICONTROL Name]** レポート名。 最大長は 180 文字です。
 
-**[!UICONTROL Report Type]** レポートのタイプ： *[!UICONTROL Custom]* （利用可能な最も多くのオプションを含む） *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*&#x200B;または *[!UICONTROL Household Conversions]*.
+**[!UICONTROL Report Type]** レポートのタイプ： *[!UICONTROL Custom]* （利用可能なオプションのほとんどが含まれます）。 *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*、または *[!UICONTROL Household Conversions]*.
 
 ## [!UICONTROL Apply Filters] セクション
 
 **[!UICONTROL Timezone]:** レポートのタイムゾーン。
 
-**[!UICONTROL Observe Daylight Savings Time]:** 報告された時間で夏時間を考慮します。
+**[!UICONTROL Observe Daylight Savings Time]:** レポートされた時間に夏時間を考慮します。
 
-**\[ 日付範囲\]:** データを生成する日付範囲。 使用できる日数は、レポートおよび選択したディメンションによって異なります。 次のいずれかを選択します。
+**\[ 日付範囲\]:** データを生成する日付範囲。 使用可能な日数は、レポートや選択したディメンションによって異なります。 次のいずれかを選択します。
 
-* **[!UICONTROL Previous N days]:** 今日までの特定の日数のデータが含まれます。
+* **[!UICONTROL Previous N days]:** 今日より前の特定の日数のデータが含まれます。
 
-* **[!UICONTROL Custom]:** 特定の開始日と終了日の間のデータが含まれます。 前日までのデータをレポートする場合は、 **[!UICONTROL Present]**.
+* **[!UICONTROL Custom]:** 特定の開始日と終了日の間のデータを含めます。 前日までのデータをレポートするには、次のオプションを選択します： **[!UICONTROL Present]**.
 
-* **[!UICONTROL Last Calendar Month]:** 前月のデータが含まれます。
+* **[!UICONTROL Last Calendar Month]:** 先月のデータが含まれます。
 
-**[!UICONTROL Add Filters]:** （オプション）ディメンションがレポートの列として含まれているかどうかに関わらず、データをフィルタリングする追加のディメンション。 使用可能なフィルターは、レポートタイプによって異なり、次のものが含まれます。 *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]*、および *[!UICONTROL Video Duration]*.
+**[!UICONTROL Add Filters]:** （オプション）ディメンションがレポートに列として含まれているかどうかに関わらず、データをフィルタリングするための追加のディメンション。 使用可能なフィルターは、レポートタイプによって異なり、次のものが含まれる場合があります。 *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]*、および *[!UICONTROL Video Duration]*.
 
-\* *[!UICONTROL Account]* は、組織が [クロスアカウントレポート](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]、および [!UICONTROL Conversion]. クロスアカウントレポートの詳細については、Adobeのアカウントチームにお問い合わせください。
+\* *[!UICONTROL Account]* は、組織が用に設定されている場合にのみ、次のレポートタイプで使用できます [クロスアカウントレポート](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]、および [!UICONTROL Conversion]. クロスアカウントレポートについて詳しくは、Adobeアカウントチームにお問い合わせください。
 
 1 つ以上のフィルターを適用するには、次の手順を実行します。
 
-* ディメンションを選択し、演算子 (*次と等しい* または *等しくない*) をクリックし、適用可能な値を選択します。 例えば、プリロール広告のデータのみを返すには、「[!UICONTROL Ad Type equals Preroll].&quot;
-* （オプション）フィルターに条件を追加します。
-* （オプション）フィルターを追加し、それぞれに 1 つ以上の条件を設定します。
+* ディメンションを選択し、演算子（*等しい* または *次と等しくない*）を選択してから、該当する値を選択します。 例えば、プリロール広告のみのデータを返すには、「」と指定します[!UICONTROL Ad Type equals Preroll].」と入力します。
+* （任意）フィルターに条件を追加します。
+* （任意）さらにフィルターを追加し、各フィルターに 1 つ以上の条件を指定します。
 
 ## [!UICONTROL Build Your Report] セクション
 
-**[!UICONTROL Select To Add As Report Headers]:**  レポートに含めるデータ列（ヘッダー）。 列を追加するには、カテゴリを展開し、列名の横にあるチェックボックスをオンにします。 使用可能な列はレポートによって異なり、使用できない指標はすべて無効になっています。 使用可能なデータカテゴリは次のとおりです。
+**[!UICONTROL Select To Add As Report Headers]:**  レポートに含めるデータ列またはヘッダー。 列を追加するには、カテゴリを展開し、列名の横にあるチェックボックスをオンにします。 使用可能な列はレポートによって異なり、使用できない指標はすべて無効になります。 使用可能なデータカテゴリを次に示します。
 
 * [!UICONTROL Dimensions]
 
   >[!NOTE]
   >
-  > The [!UICONTROL Household Reach & Frequency] レポートに含めることができるディメンションは 1 つだけです。
+  > この [!UICONTROL Household Reach & Frequency] レポートに含めることができるディメンションは 1 つだけです。
 
 * [!UICONTROL Metrics]
 
   >[!NOTE]
   >
-  >The [!UICONTROL Household Reach & Frequency] レポートには、重複指標または重複しない指標のどちらか一方のみが含まれます。
+  >この [!UICONTROL Household Reach & Frequency] レポートには、重複指標または重複以外の指標のいずれかを含めることができますが、両方を含めることはできません。
 
-* [!UICONTROL Conversion Metrics] （広告主別に並べ替え）
+* [!UICONTROL Conversion Metrics] （広告主順）
 
-* [!UICONTROL Custom Goals] （広告主別に並べ替え）
+* [!UICONTROL Custom Goals] （広告主順）
 
-参照：[使用可能なレポート列](report-columns.md)」を参照してください。
+参照先」[使用可能なレポート列](report-columns.md)」と表示されます（すべてのオプションの説明）。
 
-**[!UICONTROL Drag to Re-Order Report Headers Below]:** 列ヘッダーの順序。 任意の列をドラッグ&amp;ドロップして順序をカスタマイズできます。
+**[!UICONTROL Drag to Re-Order Report Headers Below]:** 列ヘッダーの順序。 任意の列をドラッグ&amp;ドロップして、順序をカスタマイズできます。
 
-**[!UICONTROL Format]:** でレポートを生成するかどうか *[!UICONTROL CSV]* （コンマ区切り値）または *[!UICONTROL Tab]* （タブ区切り値）形式を使用します。
+**[!UICONTROL Format]:** でレポートを生成するかどうか *[!UICONTROL CSV]* （コンマ区切り値）または *[!UICONTROL Tab]* （タブ区切り値）の形式。
 
-**[!UICONTROL Headers]:** 次のどちらを実行するか *[!UICONTROL Include]* または *[!UICONTROL Do Not Include]* 列ヘッダー。
+**[!UICONTROL Headers]:** 対象 *[!UICONTROL Include]* または *[!UICONTROL Do Not Include]* 列ヘッダー。
 
 ## [!UICONTROL Multi-Touch Conversion Options] セクション
 
 **[!UICONTROL Attribution Rule Settings]:** 設定は、レポートタイプによって異なります。
 
-* **\[ 属性タイプ\]:** ([!UICONTROL Household Conversion] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列、Adobe Advertisingコンバージョントラッキングのみを持つ広告主 ) レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータをどのように属性付けるかを示します。
+* **\[ 属性タイプ\]:** （[!UICONTROL Household Conversion] を使用したレポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列：Adobe Advertisingコンバージョントラッキングを使用している広告主のみ）レポート内で、コンバージョンにつながる一連のイベントでコンバージョンデータを関連付ける方法を示します。
 
    * *[!UICONTROL Unique]:* （デフォルト）ディメンション値（デバイスや配置など）がコンバージョンへのパス上にあった回数をカウントします。
 
-   * *[!UICONTROL Multi-Touch Attribution (MTA)]:*  コンバージョンへのパスでのディメンション値（デバイスや配置など）の発生頻度に基づいて、各コンバージョンのクレジットを配分します。 例えば、コンバージョン前に合計 10 件のインプレッションがあり、CTV で 8 件、モバイルで 2 件があった場合、クレジットの 80%(0.8) が CTV 画面に、0.2 がモバイルに割り当てられます。
+   * *[!UICONTROL Multi-Touch Attribution (MTA)]:*  コンバージョンへのパス上でのディメンション値（デバイスや配置など）の発生頻度に基づいて、各コンバージョンのクレジットを配分します。 例えば、コンバージョン前に合計 10 件のインプレッションがあり、CTV に 8 件、モバイルに 2 件あった場合、クレジットの 80% （0.8）が CTV 画面に、0.2 がモバイルに与えられます。
 
-* **\[ ルールタイプ\]:** ( すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列、Adobe Advertisingコンバージョントラッキングのみを持つ広告主 ) レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータをどのように属性付けるかを示します。 ルール間の違いを比較する場合は、複数のルールを選択できます。
+* **\[ 規則の種類\]:** （すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] を使用したレポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列：Adobe Advertisingコンバージョントラッキングを使用している広告主のみ）レポート内で、コンバージョンにつながる一連のイベントでコンバージョンデータを関連付ける方法を示します。 ルール間の違いを比較する場合は、複数のルールを選択できます。
 
   >[!NOTE]
   >
-  >コンバージョンパスには、広告主のインプレッションまたはクリックのルックバックウィンドウ内のインプレッション数およびクリック数が含まれます。これらは、 [!DNL Advertising Search, Social, & Commerce]. コンバージョン属性中のインプレッション数よりも、クリック数の方が優先されます。 コンバージョンパス内のクリックは、アトリビューションルールに基づいてフルクレジットを受け取ります。 インプレッションは、コンバージョンパスでクリックが追跡されない場合にのみクレジットを受け取ります。
+  >コンバージョンパスには、広告主のインプレッションまたはクリックルックバックウィンドウ内のインプレッションとクリックが含まれます。このウィンドウの設定は、 [!DNL Advertising Search, Social, & Commerce]. クリック数は、コンバージョンアトリビューション中にインプレッション数より優先されます。 コンバージョンパスでのクリックは、アトリビューションルールに基づいて完全なクレジットを受け取ります。 インプレッションは、コンバージョンパスでクリックが追跡されなかった場合にのみクレジットを受け取ります。
 
-   * *[!UICONTROL Last Event]:* コンバージョンパスの最後のクリックまたはインプレッションにコンバージョンを関連付けます。
+   * *[!UICONTROL Last Event]:* コンバージョンパス内の最後のクリックまたはインプレッションに対するコンバージョンを属性に設定します。
 
-   * *[!UICONTROL Weight Last More]:* コンバージョンパス内のすべてのイベントに対してコンバージョンを属性付けますが、最後のイベントに対して最も大きな重み付けを与え、前のイベントに対する重み付けを徐々に小さくします。
+   * *[!UICONTROL Weight Last More]:* コンバージョンパス内のすべてのイベントへのコンバージョンを属性に設定しますが、最後のイベントに最も重みを与え、先行するイベントに連続的に重みを減らします。
 
-   * *[!UICONTROL Even Distribution]:* コンバージョンを、コンバージョンパスの各イベントに等しく属性付けします。
+   * *[!UICONTROL Even Distribution]:* コンバージョンパス内の各イベントへのコンバージョンを均等に属性にします。
 
-   * *[!UICONTROL Weight First More]:* コンバージョンパス内のすべてのイベントに対してコンバージョンを関連付けますが、最初のイベントに対して最も重み付けが適用され、次のイベントに対しては引き続き重み付けが少なくなります。
+   * *[!UICONTROL Weight First More]:* コンバージョンパス内のすべてのイベントへのコンバージョンを属性に設定しますが、最初のイベントに最も多くの重み付けを行い、後続のイベントに対しては順に少ない重み付けを行います。
 
-   * *[!UICONTROL First Event]:* コンバージョンパスの最初のクリックまたはインプレッションにコンバージョンを関連付けます。
+   * *[!UICONTROL First Event]:* コンバージョンパスの最初のクリックまたはインプレッションへのコンバージョンを属性に設定します。
 
-   * *[!UICONTROL U-shaped]:* コンバージョンパス内のすべてのイベントにコンバージョンをアトリビュートしますが、最初と最後のイベントに最も重み付けを適用し、コンバージョンパスの途中にあるイベントに対する重み付けを徐々に軽減します。
+   * *[!UICONTROL U-shaped]:* コンバージョンパス内のすべてのイベントにコンバージョンが関連付けられますが、最初と最後のイベントに最も重みを与え、コンバージョンパスの途中のイベントには順に少ない重みを与えます。
 
-   * *[!UICONTROL Display Only]:*  コンバージョンパスの最後のDSPクリックまたはインプレッションにコンバージョンを関連付けます。 これには、ビデオおよび接続されたテレビ広告が含まれ、クリック数は除外されます。 [!DNL Advertising Search, Social, & Commerce] 広告。
+   * *[!UICONTROL Display Only]:*  コンバージョンパス内の最後のDSP クリックまたはインプレッションへのコンバージョンを属性に設定します。 これには、ビデオおよび接続されたテレビ広告が含まれ、のクリックは含まれません [!DNL Advertising Search, Social, & Commerce] 広告。
 
    * *[!UICONTROL Social Only]:* 廃止
 
   <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-* **ルックバック：** ([!UICONTROL Household Conversion] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列；Adobe Advertisingコンバージョントラッキングのみを持つ広告主 ) レポート内で、コンバージョンイベントを発生させるインプレッションイベントの後の最大日数。 デフォルトはです。 *[!UICONTROL 30 days]*&#x200B;の場合、最大の日数は 92 日です。
+* **ルックバック :** （[!UICONTROL Household Conversion] を使用したレポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列：Adobe Advertisingのコンバージョントラッキングを使用している広告主のみ）レポート内で、コンバージョンイベントの属性をインプレッションイベントから取得できる最大日数です。 デフォルトはです *[!UICONTROL 30 days]*、最大 92 日です。
 
-**[!UICONTROL Paths as Columns]:**  ( すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] レポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列 ) 同じデバイスで以前のイベントが発生した場合にレポートするコンバージョンのタイプ。 最大 3 つのタイプを含めることができます。 選択したタイプごとに、各コンバージョン指標に対して個別の列が追加され、指定したサフィックス ([!UICONTROL (tl)], [!UICONTROL (ct)]または [!UICONTROL (vt)]):
+**[!UICONTROL Paths as Columns]:**  （すべて [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]、および [!UICONTROL Site] を使用したレポート [!UICONTROL Conversion Metrics] または [!UICONTROL Custom Goals] 列）同じデバイスで以前のイベントが発生した場合にレポートするコンバージョンのタイプ。 最大 3 つのタイプを含めることができます。 選択したタイプごとに、コンバージョン指標ごとに個別の列が含まれ、指定したサフィックス（[!UICONTROL (tl)], [!UICONTROL (ct)]、または [!UICONTROL (vt)]）:
 
-* *[!UICONTROL Total (TL) = CT + VT \* VT weight]:* クリック数（クリックスルーの場合は CT）とインプレッション数（ビュースルーの場合は VT）に起因するコンバージョンが含まれます。 インプレッションに属するコンバージョンに、指定したビュースルーの重み付けを掛けます。 デフォルトのビュースルーの重み付けは 100%です。つまり、インプレッションに起因するコンバージョンは、クリックに起因するコンバージョンの値の 100%とカウントされます。
+* *[!UICONTROL Total (TL) = CT + VT \* VT weight]:* クリック数（クリックスルーの CT）およびインプレッション数（ビュースルーの VT）に起因するコンバージョンを含みます。 インプレッション数に起因するコンバージョンは、指定されたビュースルーの重み付けで乗算されます。 デフォルトのビュースルーの重み付けは 100% です。つまり、インプレッションに起因するコンバージョンは、クリックに起因するコンバージョンの値の 100% としてカウントされます。
 
-* *[!UICONTROL With Clicks (CT)]:* クリックに起因するコンバージョンのみが含まれます。
+* *[!UICONTROL With Clicks (CT)]:* クリックに起因するコンバージョンのみを含める。
 
-* *[!UICONTROL Impressions Only (VT)]:* コンバージョンパスでクリックが追跡されなかったので、インプレッションに起因するコンバージョンのみが含まれます。
+* *[!UICONTROL Impressions Only (VT)]:* コンバージョンパスでクリックが追跡されなかったことが原因でインプレッション数に関連付けられたコンバージョンのみを含めます。
 
 **[!UICONTROL Conversion Reporting Based On]:**  コンバージョンデータのレポート方法：
 
-* *[!UICONTROL Conversion Timestamp]:* （デフォルト）コンバージョンは、コンバージョン日に関連付けられます。
+* *[!UICONTROL Conversion Timestamp]:* （デフォルト）コンバージョンはコンバージョン日に関連付けられます。
 
-* *[!UICONTROL Event Timestamp]:* コンバージョンは、指定した [!UICONTROL Attribution Rule Settings].
+* *[!UICONTROL Event Timestamp]:* コンバージョンは、コンバージョンの原因となったインプレッションまたはクリックの日付に基づいて、指定によって決定されてレポートされます [!UICONTROL Attribution Rule Settings].
 
 ## [!UICONTROL Add Report Destinations] セクション
 
 **[!UICONTROL Destination Type]:** 次のいずれかの宛先タイプを選択します。
 
-* *[!UICONTROL S3]:* 完了したレポートを 1 つ以上のレポートに送信するには [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) の場所 ( **[!UICONTROL Destination Name]** フィールドに入力します。
-* *[!UICONTROL sFTP]:* 完了したレポートを 1 つ以上の SFTP の場所に送信する場合は、 **[!UICONTROL Destination Name]** フィールドに入力します。
-* *[!UICONTROL FTP]:* 完了したレポートを 1 つ以上の FTP の場所に送信する場合は、「 **[!UICONTROL Destination Name]** フィールドに入力します。
-* *[!UICONTROL FTP SSL]（現在ベータ版）:* 完了したレポートを 1 つ以上の FTP SSL の場所に送信する場合は、 **[!UICONTROL Destination Name]** フィールドに入力します。
-* *[!UICONTROL Email]:* エラーが原因でレポートがキャンセルされた場合に完了したレポートまたは通知を送信する電子メールアドレスを指定する。
+* *[!UICONTROL S3]:* 完成したレポートを 1 つ以上のユーザーに送信するには [!DNL Amazon Simple Storage Service] （[!DNL Amazon S3]）の場所を使用します。 **[!UICONTROL Destination Name]** フィールド。
+* *[!UICONTROL sFTP]:* 完成したレポートを 1 つ以上の SFTP ロケーションに送信するには、で指定します。 **[!UICONTROL Destination Name]** フィールド。
+* *[!UICONTROL FTP]:* 完成したレポートを 1 つ以上の FTP ロケーションに送信するには、で指定します。 **[!UICONTROL Destination Name]** フィールド。
+* *[!UICONTROL FTP SSL]（現在はベータ版）:* 完成したレポートを 1 つ以上の FTP SSL 場所に送信するには、で指定します。 **[!UICONTROL Destination Name]** フィールド。
+* *[!UICONTROL Email]:* 完了したレポートまたはエラーが原因でレポートがキャンセルされた場合に通知を送信する電子メールアドレスを指定する
 
 >[!NOTE]
 >
-> レポートを保存した後は、保存先のタイプを変更できません。
+> レポートを保存した後は、宛先のタイプを変更できません。
 
-**[!UICONTROL Email]:** （E メールの宛先タイプのみ）各アドレスについて、アドレスを入力し、 **+**.
+**[!UICONTROL Email]:** （メールの宛先のタイプのみ）アドレスごとに、アドレスを入力し、 **+**.
 
-**[!UICONTROL Destination Name]:** （S3、FTP、SFTP、FTP SSL の宛先タイプのみ）カスタムレポートの送信先となるレポートの宛先の名前。
+**[!UICONTROL Destination Name]:** （S3、FTP、sFTP および FTP SSL の宛先タイプのみ）カスタムレポートが送信されるレポート宛先の名前。
 
 * 既存の宛先を指定するには、リストから宛先名を選択します。 複数の宛先名を個別に選択できます。
 
 * 新しい宛先を作成するには：
 
-   1. クリック **新しい宛先の追加**.
+   1. クリック **新しい宛先を追加**.
 
-   1. 次を入力します。 [レポートの宛先設定](/help/dsp/reports/report-destinations/report-destination-settings.md)をクリックし、 **保存**.
+   1. を入力 [レポートの宛先設定](/help/dsp/reports/report-destinations/report-destination-settings.md)を選択し、 **保存**.
 
-   1. レポート設定に戻り、 **宛先名を更新します。**
+   1. レポート設定に戻り、 **宛先名の更新。**
 
-      これで、新しい宛先が既存の宛先のリストから使用できるようになり、オプションでレポートに追加できます。
+      これで、既存の宛先のリストから新しい宛先を使用できるようになり、オプションでレポートに追加できます。
 
-**[!UICONTROL Frequency]:** ( 各 [!UICONTROL Destination Name]) レポートを送信先に送信する頻度： *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*&#x200B;または *[!UICONTROL Monthly]*.
+**[!UICONTROL Frequency]:** （各 [!UICONTROL Destination Name]）レポートを宛先に送信する頻度： *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*、または *[!UICONTROL Monthly]*.
 
-**[!UICONTROL Start Day]:** ( 各 [!UICONTROL Destination Name] と [!UICONTROL Frequency] / *[!UICONTROL Weekly]* または *[!UICONTROL Monthly]*) レポートを生成する日。 週別レポートの場合は、曜日を選択します。 月別レポートの場合は、月の日を数値で選択します。
+**[!UICONTROL Start Day]:** （各 [!UICONTROL Destination Name] （を使用） [!UICONTROL Frequency] 件中 *[!UICONTROL Weekly]* または *[!UICONTROL Monthly]*）レポートを生成する日。 週別レポートの場合は、曜日を選択します。 月次レポートの場合は、月の特定の日付を選択します。
 
 ## [!UICONTROL Save Report] セクション
 
-**[!UICONTROL When to Generate]:** レポートを生成するタイミング： *[!UICONTROL On Schedule]* または *[!UICONTROL Run Now]*. 予定レポートは、アカウントのタイムゾーンで 09:00 に配信されます。
+**[!UICONTROL When to Generate]:** レポートを生成するタイミング： *[!UICONTROL On Schedule]* または *[!UICONTROL Run Now]*. 予定レポートは、アカウントのタイムゾーンで 09:00 までに配信されます。
 
-**[!UICONTROL End Date]:** レポートの有効期限（4 ヶ月先までかかります）。 レポートの有効期限が切れる前に、指定したすべての電子メール受信者に、有効期限の 7 日前と 1 日前に電子メールアラートが送信されます。 レポートの有効期限を長く保つには、レポート設定で有効期限を変更します。
+**[!UICONTROL End Date]:** レポートの有効期限（最大 4 か月後まで可能）。 レポートの有効期限が切れる前に、指定したすべてのメール受信者は、有効期限の 7 日前と 1 日前にメールアラートを受け取ります。 レポートを長く保持するには、レポート設定で有効期限を変更します。
 
 >[!NOTE]
 >
->以下が可能です。 [いつでもカスタムレポートを実行する](report-run-now.md) から [!UICONTROL Reports] 表示。
+>次のことができます [カスタムレポートはいつでも実行できます](report-run-now.md) から [!UICONTROL Reports] 表示。
 
 >[!MORELIKETHIS]
 >
@@ -169,6 +169,6 @@ ht-degree: 0%
 >* [カスタムレポートの複製](/help/dsp/reports/report-copy.md)
 >* [カスタムレポートの編集](/help/dsp/reports/report-edit.md)
 >* [カスタムレポートの実行](/help/dsp/reports/report-run-now.md)
->* [カスタムレポート設定](/help/dsp/reports/report-settings.md)
+>* [カスタムレポートの設定](/help/dsp/reports/report-settings.md)
 >* [レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md)
 >* [使用可能なレポート列](/help/dsp/reports/report-columns.md)

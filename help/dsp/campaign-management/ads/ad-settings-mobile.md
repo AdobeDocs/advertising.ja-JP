@@ -3,9 +3,9 @@ title: モバイル広告設定
 description: モバイル広告に使用できる広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **\[ 広告ソース\]**: （読み取り専用） *[!UICONTROL 3rd party]*.
 
-**[!UICONTROL Display Code]:** サードパーティのクリエイティブアセットの URL。 任意 [timestamp] および [[timestamp]] パラメーターは実際の値に置き換えられます。
+**[!UICONTROL Display Code]:** サードパーティのクリエイティブアセットの URL。 任意 [timestamp] および [[timestamp]] パラメーターが実際の値に置き換えられます。
 
 **[!UICONTROL Final Display Code]:** 必要に応じて、サードパーティのクリエイティブアセットの URL [Advertising DSP トラッキングマクロ](/help/dsp/campaign-management/macros.md) 挿入（該当する場合）。
 

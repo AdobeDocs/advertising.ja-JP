@@ -1,73 +1,73 @@
 ---
-title: Deal ID の詳細の手動作成
-description: Deal ID の詳細を手動で入力する方法を説明します。
+title: 取引 ID の詳細の手動作成
+description: 取引 ID の詳細を手動で入力する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 93600a6e5afe7e0ae3f22111c0adb0ccc3b5b4bb
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
-# Deal ID の詳細の手動作成
+# 取引 ID の詳細の手動作成
 
 1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. データテーブルの上にある **[!UICONTROL Create]**&#x200B;を選択し、 **[!UICONTROL Deal ID]**.
+1. データ テーブルの上で、 **[!UICONTROL Create]**&#x200B;を選択してから、 **[!UICONTROL Deal ID]**.
 
-1. 次を入力します。 [取引設定](deal-id-settings.md):
+1. を入力 [取引設定](deal-id-settings.md):
 
-   1. Adobe Analytics の [!UICONTROL Deal ID basics] 「 」セクションで、契約の詳細と、契約にアクセスできる広告主を指定します。 保証された契約の場合は、トラッキングの目的でのみ、計画されたフライト日と推定インプレッション数も指定する必要があります。
+   1. が含まれる [!UICONTROL Deal ID basics] セクションでは、取引の詳細と、取引にアクセスできる広告主を指定します。 保証された取引の場合は、トラッキング目的でのみ、予定フライト日と推定インプレッション数も指定する必要があります。
 
-      「在庫/掘り出し物」ビューに「PG Impression Pacing」支出列を含めることで、保証された掘り出し物のペーシングを追跡できます。
+      在庫/取引ビューの「PG インプレッションペーシング」支出列を含めることで、保証された取引のペーシングを追跡できます。
 
-   1. （管理者ユーザーのみ、オプション） [!UICONTROL Technical] 「 」セクションで、必要に応じてデフォルト設定を編集します。
+   1. （管理者ユーザーのみ。オプション）で、 [!UICONTROL Technical] セクションで、必要に応じてデフォルト設定を編集します。
 
    1. クリック **[!UICONTROL Save]**.
 
-1. （契約の保証のみ）契約に使用する広告（パブリッシャーが管理する広告の場合は 1 x 1 ピクセル）を選択し、デフォルトのプログラム的保証 (PG) 配置を作成します。
+1. （保証された取引のみ）取引に使用する広告（またはパブリッシャーが管理する広告の 1x1 ピクセル）を選択し、デフォルトのプログラム保証（PG）プレースメントを作成します。
 
-   デフォルトの PG 配置により、契約が常に各入札リクエストの入札を返すようになります。 デフォルトの PG 配置を作成しない場合、その契約をターゲットとする配置は、正しく設定されていない限り入札されません。 常にデフォルトの PG 配置を作成する必要があります。 Adobe Analytics の [!UICONTROL Placements] ビュー、デフォルトの PG 配置には [!UICONTROL Sub-type] 列の値&quot;[!UICONTROL PG Default].&quot;
+   デフォルトの PG 配置では、取引が常に各入札要求の入札を返すようにします。 デフォルトの PG プレースメントを作成しない場合、取引をターゲットとするプレースメントは、正しく設定されていない限り入札を行いません。 常にデフォルトの PG プレースメントを作成する必要があります。 が含まれる [!UICONTROL Placements] ビュー、デフォルトの PG 配置にはがあります [!UICONTROL Sub-type] 列の値[!UICONTROL PG Default].」と入力します。
 
-   オプションで、追加の配置でこの契約を在庫ターゲットとして使用できますが、入札をおこなうには正しく設定する必要があります。
+   オプションで、追加のプレースメントで取引を在庫ターゲットとして使用できますが、入札を行うには正しく設定する必要があります。
 
-   1. Adobe Analytics の [!UICONTROL Ad & Campaign Selection] 設定で、契約に使用する広告を選択します。
+   1. が含まれる [!UICONTROL Ad & Campaign Selection] 設定を選択し、取引に使用する広告を選択します。
 
-      1. 広告主、キャンペーン、広告のタイプを選択します。 オプションで、広告のフィルターに使用する広告ステータスを選択します。
+      1. 広告主、キャンペーンおよび広告タイプを選択します。 必要に応じて、広告をフィルタリングするための広告ステータスを選択します。
 
-      1. 使用可能な広告のリストから、契約に使用する各広告の横にあるチェックボックスを選択します。
+      1. 使用可能な広告のリストから、取引に使用する各広告の横にあるチェックボックスを選択します。
 
-         パブリッシャーが管理する広告ごとに、広告主とキャンペーンを選択した後で、1 x 1 トラッキングピクセルが自動的に適用されます。
+         パブリッシャーが管理する各広告に対して、広告主およびキャンペーンが選択された後、1x1 のトラッキングピクセルが自動的に適用されます。
 
       1. クリック **[!UICONTROL Apply]**.
 
-   1. 配置設定画面で、次の操作をおこないます。
+   1. プレースメント設定画面で、次の操作を行います。
 
       1. 配置名を入力します。
 
-      1. （オプション） [配置設定](/help/dsp/campaign-management/placements/placement-settings.md)デフォルトの入札額の上書き、契約の CPM 値が自動的に入力される、日付範囲の変更、広告の付加を含む。
+      1. （オプション）を編集します [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)（デフォルトの入札の上書き（契約の CPM 値が自動的に入力される）、日付範囲の変更、広告の添付など）。
 
-      この契約は、「在庫ターゲット」セクションで自動的にターゲットになります。 その他のすべてのターゲット設定オプションは適用できません。
+      取引は「在庫ターゲット」セクションで自動的にターゲットされます。 その他のターゲティングオプションはすべて適用されません。
 
       1. クリック **[!UICONTROL Create placement]**.
 
-契約を作成した後は、その契約を複数の配置の在庫ターゲットとして使用できます。
+取引を作成した後、その取引を複数のプレースメントの在庫ターゲットとして使用できます。
 
 >[!NOTE]
 >
-> 契約タグを発行者に送信して検証する必要はありません。
+> 検証のために契約タグをパブリッシャーに送信する必要はありません。
 
 >[!TIP]
 >
->* Adobe Analytics の [!UICONTROL Inventory] > [!UICONTROL Deals] ビュー、 [!UICONTROL Pacing & Budget] 列には、指定したフライト日とインプレッション目標に対する契約のペーシングが示されます。
+>* が含まれる [!UICONTROL Inventory] > [!UICONTROL Deals] 表示、 [!UICONTROL Pacing & Budget] 列には、指定されたフライト日とインプレッション目標に対する契約のペースが表示されます。
 >
->* 配信のペーシングが不十分または過剰な場合は、パブリッシャーに連絡して、契約を通じて送信するボリュームを調整します。
+>* 配信のペースがアンダーペーシングまたはオーバーペーシングの場合は、パブリッシャーに連絡して、契約を通じて送信される量を調整してください。
 
 >[!MORELIKETHIS]
 >
->* [手動の Deal ID 設定](deal-id-settings.md)
->* [プログラム的に保証された契約の設定](programmatic-guaranteed-set-up.md)
->* [プログラム的に保証された取引に対する広告の送信 [!DNL FreeWheel]](freewheel-submit.md)
->* [プログラムで保証された契約について](programmatic-guaranteed-about.md)
+>* [手動の取引 ID 設定](deal-id-settings.md)
+>* [プログラムで保証された取引の設定](programmatic-guaranteed-set-up.md)
+>* [プログラムで保証された取引の広告を送信する [!DNL FreeWheel]](freewheel-submit.md)
+>* [プログラムで保証された取引について](programmatic-guaranteed-about.md)
 <!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->

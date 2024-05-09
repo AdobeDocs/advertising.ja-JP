@@ -3,9 +3,9 @@ title: 広告設定を表示
 description: ディスプレイ広告に使用できる広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 **[!UICONTROL Certified Vendors]:** （サードパーティ製の拡張可能なバナー広告のみ）広告が利用可能な認定ベンダー： *[!UICONTROL DCM]* （[!DNL Google DoubleClick for Advertisers]）、 *[!UICONTROL Flashtalking]*, *[!UICONTROL Sizmek]*、または *[!UICONTROL Jivox]*.
 
-**[!UICONTROL Display Code]:** （サードパーティ広告のみ）サードパーティのクリエイティブアセットの URL。 任意 [timestamp] および [[timestamp]] パラメーターは実際の値に置き換えられます。
+**[!UICONTROL Display Code]:** （サードパーティ広告のみ）サードパーティのクリエイティブアセットの URL。 任意 [timestamp] および [[timestamp]] パラメーターが実際の値に置き換えられます。
 
 **[!UICONTROL Final Display Code]:** （サードパーティ広告のみ）サードパーティのクリエイティブアセットの URL （必要な場合） [Advertising DSP トラッキングマクロ](/help/dsp/campaign-management/macros.md) 挿入（該当する場合）。
 

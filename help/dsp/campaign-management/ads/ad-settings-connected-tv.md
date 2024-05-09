@@ -3,9 +3,9 @@ title: 接続されたテレビ広告設定
 description: 接続されたテレビ広告に使用できる広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL]**：広大なタグ URL。
 
-**[!UICONTROL Title]**：広告ビューおよびレポートで使用されるファイルの名前。
+**[!UICONTROL Title]**：ファイルの名前。広告ビューおよびレポートで使用されます。
 
 >[!TIP]
 >

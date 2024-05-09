@@ -2,9 +2,9 @@
 title: プレースメントの入札乗数の管理
 description: 指定したプレースメント ターゲットの入札乗数を作成および編集する方法を説明します。
 feature: DSP Placements
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ See if any of these procedures are implemented; may need to be edited and/or re-
 
    * 入札乗数の値を手動で調整するには、ターゲット固有の各タブ（[!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience]、および[!UICONTROL Brand Safety]）を選択して、プレースメントターゲットの既存の値を編集します。
 
-   選択したすべてのプレースメントに対して同じ変更が行われます。
+   同じ変更が、選択したすべてのプレースメントに適用されます。
 
    * 入札乗数の値が既存の値を上書きする CSV ファイルをアップロードするには：
 

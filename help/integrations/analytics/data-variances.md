@@ -3,9 +3,9 @@ title: 間で予期されるデータの相違 [!DNL Analytics] とAdobe Adverti
 description: 間で予期されるデータの相違 [!DNL Analytics] とAdobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3212'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Adobe Advertisingでは、アトリビューションはクリック数とイン
 
 ![で起因するビュースルーコンバージョンの例 [!DNL Analytics] ただし、Adobe Advertisingではありません](/help/integrations/assets/a4adc-viewthrough-example.png)
 
-その他の不一致の原因として、Adobe Advertisingでは、ビュースルーコンバージョンをカスタムに割り当てることができることがあります *ビュースルーの重み付け* これは、クリックベースのコンバージョンに起因する重み付けに対する相対的な関係です。 デフォルトのビュースルーの重み付けは 40% です。つまり、ビュースルーのコンバージョンは、クリックベースのコンバージョンの値の 40% としてカウントされます。 [!DNL Analytics] ビュースルーコンバージョンのそのような重み付けを提供しません。 例えば、100 米ドルの売上高の注文は次の場所でキャプチャされます。 [!DNL Analytics] デフォルトのビュースルーの重み付けを使用している場合、Adobe Advertisingで 40 USD に割引されます（60 USD の差）。
+その他の不一致の原因として、Adobe Advertisingでは、ビュースルーコンバージョンをカスタムに割り当てることができることがあります *ビュースルーの重み付け* これは、クリックベースのコンバージョンに起因する重み付けに対する相対的な関係です。 デフォルトのビュースルーの重み付けは 40% です。つまり、ビュースルーのコンバージョンは、クリックベースのコンバージョンの値の 40% としてカウントされます。 [!DNL Analytics] ビュースルーコンバージョンのそのような重み付けを提供しません。 例えば、100 米ドルの売上高の注文は次の場所でキャプチャされます。 [!DNL Analytics] デフォルトのビュースルーの重み付けを使用している場合、のAdobe Advertisingでは 40 USD に割引されます。この差は 60 USD です。
 
 Adobe Advertisingとの間のビュースルーコンバージョンを比較する際は、次の違いを考慮してください [!DNL Analytics] レポート。
 
@@ -96,7 +96,7 @@ Adobe Advertisingとの間のビュースルーコンバージョンを比較す
 
 #### Adobe Advertisingでのイベント日付の属性
 
-Adobe Advertisingとして、コンバージョンデータは、関連するクリック日/イベント日（クリックまたはインプレッションイベントの日付）または取引日（コンバージョン日）のいずれかでレポートできます。 クリック/イベント日付レポートの概念は、に存在しません [!DNL Analytics]。で追跡されたすべてのコンバージョン [!DNL Analytics] トランザクション日別にレポートされます。 その結果、同じコンバージョンが、Adobe Advertisingが異なる日付でレポートされる場合や、 [!DNL Analytics]. 例えば、1 月 1 日に広告をクリックし、1 月 5 日にコンバージョンを行ったユーザーについて考えます。 コンバージョンデータをイベント日別にAdobe Advertisingで表示している場合は、クリックが発生した 1 月 1 日にコンバージョンがレポートされます。 対象： [!DNL Analytics]の場合は、1 月 5 日にも同じコンバージョンが報告されます。
+Adobe Advertisingとして、コンバージョンデータは、関連するクリック日/イベント日（クリックまたはインプレッションイベントの日付）または取引日（コンバージョン日）のいずれかでレポートできます。 クリック/イベント日付レポートの概念は、に存在しません [!DNL Analytics]。で追跡されたすべてのコンバージョン [!DNL Analytics] トランザクション日別にレポートされます。 その結果、同じコンバージョンが、Adobe Advertisingが異なる日付でレポートされる場合や、 [!DNL Analytics]. 例えば、1 月 1 日に広告をクリックし、1 月 5 日にコンバージョンを行ったユーザーについて考えます。 コンバージョンデータをイベント日別にAdobe Advertisingで表示している場合は、クリックが発生した 1 月 1 日にコンバージョンがレポートされます。 対象： [!DNL Analytics]、1 月 5 日も同じコンバージョンが報告されています。
 
 ![異なる日付に起因するコンバージョンの例](/help/integrations/assets/a4adc-conversions-based-on.png)
 
@@ -240,7 +240,7 @@ Adobe Advertisingは Analytics に次を提供します [広告固有のトラ�
 
 ![Adobe Advertisingディメンションを使用したレポートのAdobe Advertising指標の例](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-ただし、を表示した場合は、 [!UICONTROL Adobe Advertising Clicks] および [!UICONTROL Adobe Advertising Cost] オンページディメンション（ページなど）別の指標で、Adobe Advertisingがデータを提供しない場合、次に [!UICONTROL Adobe Advertising Clicks] および [!UICONTROL Adobe Advertising Cost] 各ページはゼロ（0）になります。
+ただし、を表示した場合は、 [!UICONTROL Adobe Advertising Clicks] および [!UICONTROL Adobe Advertising Cost] オンページディメンション（ページなど）別の指標で、Adobe Advertisingがデータを提供しない場合、次に [!UICONTROL Adobe Advertising Clicks] および [!UICONTROL Adobe Advertising Cost] 各ページの値はゼロ（0）になります。
 
 ![サポートされていないディメンションを使用したレポートのAdobe Advertising指標の例](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 
