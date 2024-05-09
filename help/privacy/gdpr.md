@@ -1,81 +1,81 @@
 ---
-title: EU 一般データ保護規則のAdobe Advertisingサポート
-description: サポートされるデータリクエストの種類、必須セットアップとフィールド値、および従来の製品 ID と返されたデータフィールドを使用した API アクセスリクエストの例について説明します
+title: EU 一般データ保護規則（GDPR）のAdobe Advertisingサポート
+description: サポートされるデータリクエストタイプ、必須の設定およびフィールド値、従来の製品 ID と返されたデータフィールドを使用した API アクセスリクエストの例について説明します
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 80072930c0506a017a927ce53eaad900a2642e92
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
 
-# EU 一般データ保護規則のAdobe Advertisingサポート
+# EU 一般データ保護規則（GDPR）のAdobe Advertisingサポート
 
-*の場合 [!DNL Adobe Advertising Search, Social, & Commerce];Adobe Advertising DSP、Adobe Advertising Creative、およびAdobe AdvertisingDCO*
+*の場合 [!DNL Adobe Advertising Search, Social, & Commerce]、Adobe Advertising DSP、Adobe Advertising Creative、Adobe AdvertisingDCO*
 
 >[!IMPORTANT]
 >
->このドキュメントの内容は法的な助言ではなく、その代用になるものでもありません。 EU 一般データ保護規則に関するアドバイスについては、弁護士に相談してください。
+>このドキュメントの内容は法的な助言ではなく、その代用になるものでもありません。 EU 一般データ保護規則（GDPR）に関するアドバイスについては、法務担当者にお問い合わせください。
 
-2018 年 5 月 25 日施行の法律である GDPR（EU 一般データ保護規則）は、EU 圏内にあるすべての個人（データ主体）に対して個人データを制御し、国際ビジネスの規制環境を簡素化します。 この法律は、データ管理者の事業所に関係なく、個人データの処理時に EU 圏内の個人に対して商品やサービスを提供し、行動を監視し、個人データを収集するすべての企業（データ管理者）に適用されます。
+2018 年 5 月 25 日に施行された法律である一般データ保護規則（GDPR）は、欧州連合（EU）の境界内のすべての個人（データ主体）に個人データの管理を提供し、国際的なビジネスのための規制環境を簡素化します。 この法律は、個人データが処理される時点で、データ管理者の事業拠点に関係なく、EU の境界内の個人に対して商品またはサービスを提供、行動を監視、または個人データを収集するすべての企業（データ管理者）に適用されます。
 
-Adobe Experience Cloudは、顧客に代わって受信および保存する個人データのデータ処理者としての役割を果たします。 データ管理者であるお客様は、Adobe Experience Cloudに処理および保管を委任する個人データを決めます。
+Adobe Experience Cloudは、お客様に代わって受け取り、保存する個人データのデータ処理者として機能します。 データ管理者は、お客様に代わってAdobe Experience Cloudが処理および保存する個人データを決定します。
 
-このドキュメントでは、 [!DNL Advertising Search, Social, & Commerce];Advertising Creative; Advertising DSP (Demand Side Platform); [!DNL Advertising DCO] は、Adobe Experience Platform Privacy Service API とPrivacy ServiceUI を使用して、データ主体の GDPR データアクセスおよび削除権をサポートします。
+このドキュメントでは、その方法を説明します [!DNL Advertising Search, Social, & Commerce]、Advertising Creative、Advertising DSP（Demand Side Platform）、および [!DNL Advertising DCO] Adobe Experience Platform Privacy Service API とPrivacy ServiceUI を使用して、データ主体の GDPR データアクセスおよび削除権をサポートします。
 
-GDPR がお客様のビジネスに与える影響について詳しくは、 [GDPR とビジネス](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+GDPR がお客様のビジネスに与える影響について詳しくは、以下を参照してください。 [GDPR とビジネス](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Adobe Advertisingでサポートされているデータリクエストタイプ
+## Adobe Advertisingでサポートされるデータリクエストタイプ
 
-Adobe Experience Platformは、企業が次のタスクを実行する機能を提供します。
+Adobe Experience Platformには、企業が次のタスクを実行する機能が用意されています。
 
-* 内で、データ主体の cookie レベルのデータまたはデバイス ID レベルのデータにアクセスする（モバイルアプリの広告の場合） [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]または [!DNL DCO].
-* に保存されている Cookie レベルのデータの削除 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]または [!DNL DCO] ブラウザーを使用するデータ主体の場合、または [!DNL DSP] モバイルデバイスでアプリを使用するデータ主体向け
+* 内で、データ主体の cookie レベルのデータまたはデバイス ID レベルのデータ（モバイルアプリの広告用）にアクセスします [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]、または [!DNL DCO].
+* 内に保存された cookie レベルのデータの削除 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]、または [!DNL DCO] ブラウザーを使用してデータ主体の場合、または内に保存された ID レベルのデータを削除します [!DNL DSP] モバイルデバイスでアプリを使用するデータ主体。
 * 1 つまたはすべての既存のリクエストのステータスを確認します。
 
-## Adobe Advertisingのリクエストを送信するために必要な設定
+## Adobe Advertisingリクエストを送信するために必要な設定
 
-Adobe Advertising用にデータへのアクセスおよび削除をリクエストするには、次の操作が必要です。
+Adobe Advertising用のデータへのアクセスおよび削除をリクエストするには、次の操作が必要です。
 
-1. JavaScript ライブラリを導入して、データ主体の Cookie を取得し、削除します。 同じライブラリ `AdobePrivacy.js`は、すべてのAdobe Experience Cloudソリューションで使用されます。
+1. JavaScript ライブラリをデプロイして、データ主体の Cookie を取得および削除します。 同じライブラリ、 `AdobePrivacy.js`は、すべてのAdobe Experience Cloud ソリューションで使用されます。
 
    >[!IMPORTANT]
    >
    >一部のExperience Cloudソリューションへのリクエストには JavaScript ライブラリは必要ありませんが、Adobe Advertisingへのリクエストには必要です。
 
-   データ主体がアクセス要求や削除要求を送信できる Web ページ（会社のプライバシーポータルなど）にライブラリをデプロイする必要があります。 ライブラリを使用すると、 [!DNL Adobe] cookies ( 名前空間 ID: `gsurferID`) を使用して、Adobe Experience Platform Privacy Service API を介してこれらの id をアクセスリクエストや削除リクエストの一部として送信できるようにします。
+   ライブラリは、データ主体がアクセス要求および削除要求（会社のプライバシーポータルなど）を送信できる Web ページにデプロイする必要があります。 ライブラリは次の情報を取得するのに役立ちます [!DNL Adobe] cookie （名前空間 ID: `gsurferID`）を設定できるので、Adobe Experience Platform Privacy Service API 経由でのアクセスリクエストおよび削除リクエストの一環として、これらの ID を送信できます。
 
-   データ主体が個人データの削除を要求すると、ライブラリはデータ主体のブラウザーからデータ主体の Cookie も削除します。
+   データ主体が個人データの削除を要求すると、ライブラリはデータ主体のブラウザーからもデータ主体の Cookie を削除します。
 
    >[!NOTE]
    >
-   >個人データの削除は、オーディエンスセグメントを持つエンドユーザーのターゲティングを停止するオプトアウトとは異なります。 ただし、データ主体が次の場所から個人データの削除を要求した場合は、 [!DNL Creative], [!DNL DSP]または [!DNL DCO]また、ライブラリは、セグメントのターゲティングからデータ主体をオプトアウトするためのリクエストをAdobe Advertisingに送信します。 を持つ広告主の場合 [!DNL Search, Social, & Commerce]を使用する場合は、データ主体にリンクを設定することをお勧めします。 [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html)：オーディエンスセグメントターゲティングをオプトアウトする方法を説明します。
+   >個人データの削除は、オーディエンスセグメントを持つエンドユーザーのターゲティングを停止するオプトアウトとは異なります。 ただし、データ主体がから個人データを削除するように求めた場合は、 [!DNL Creative], [!DNL DSP]、または [!DNL DCO]また、ライブラリは、データ主体をセグメントターゲティングからオプトアウトするリクエストをAdobe Advertisingに送信します。 を使用する広告主向け [!DNL Search, Social, & Commerce]データ主体は、次へのリンクを指定することをお勧めします [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html)オーディエンスセグメントのターゲティングをオプトアウトする方法を説明します。
 
-1. Experience Cloud組織 ID を特定し、組織アカウントにリンクされていることを確認します。
+1. Experience Cloud組織 ID を特定し、Adobe Advertisingアカウントにリンクされていることを確認します。
 
-   Experience Cloud組織 ID は、24 文字の英数字から成る文字列で、末尾に「@AdobeOrg」が付きます。 ほとんどのExperience Cloudのお客様には、組織 ID が割り当てられています。 マーケティングチームまたは社内の [!DNL Adobe] システム管理者が組織 ID を知らないか、プロビジョニングされているかどうかが不明な場合は、Adobeカスタマーケア (gdprsupport@adobe.com) にお問い合わせください。 プライバシー API に要求を送信するには、組織 ID が、 `imsOrgID` 名前空間。
+   Experience Cloud組織 ID は、24 文字の英数字から成る文字列の後に「@AdobeOrg」を付けたものです。 ほとんどのExperience Cloudのお客様には、組織 ID が割り当てられています。 マーケティングチームまたは社内の場合 [!DNL Adobe] システム管理者が組織 ID を把握できないか、組織 ID がプロビジョニングされているかどうかわからない場合は、Adobeカスタマーケア（gdprsupport@adobe.com）にお問い合わせください。 を使用してプライバシー API にリクエストを送信するには、組織 ID が必要です。 `imsOrgID` 名前空間。
 
    >[!IMPORTANT]
    >
-   >貴社のAdobe Advertising担当者に問い合わせて、組織のAdobe Advertisingアカウント ( [!DNL DSP] アカウントまたは広告主 [!DNL Search, Social, & Commerce] アカウントおよび [!DNL Creative] または [!DNL DCO] アカウント — がExperience Cloud組織 ID にリンクされている。
+   >以下を含む組織のすべてのAdobe Advertisingアカウントを確認するには、Adobe Advertising担当者にお問い合わせください [!DNL DSP] アカウントまたは広告主、 [!DNL Search, Social, & Commerce] アカウント、 [!DNL Creative] または [!DNL DCO] アカウント — Experience Cloud組織 ID にリンクされています。
 
-1. 次のいずれかを使用します。 [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （自動リクエストの場合）または [Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja) （アドホックリクエストの場合）データ主体に代わってAdobe Advertisingにアクセス要求および削除要求を送信し、既存の要求のステータスを確認することができます。
+1. 次のいずれかを使用します [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （自動リクエストの場合）または [PRIVACY SERVICEUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja) （アドホックリクエストの場合）データ主体に代わってAdobe Advertisingにアクセスリクエストと削除リクエストを送信し、既存のリクエストのステータスを確認します。
 
-   モバイルアプリを持つ広告主がデータ主体とやり取りし、DSPとキャンペーンを開始する場合、Experience Cloud用にプライバシー対応の Mobile SDK をダウンロードする必要があります。 Mobile SDK を使用すると、データ管理者はオプトアウトステータスフラグの設定、データ主体のデバイス ID( 名前空間 ID: `deviceID`) をクリックし、リクエストをPrivacy ServiceAPI に送信します。 モバイルアプリには、SDK バージョン4.15.0以降が必要です。
+   モバイルアプリを使用してデータ主体とやり取りし、DSPでキャンペーンを開始する広告主の場合は、プライバシーに対応した Mobile SDK をダウンロードしてExperience Cloudする必要があります。 Mobile SDK を使用すると、データ管理者はオプトアウトステータスフラグを設定し、データ主体のデバイス ID （名前空間 ID）を取得できます。 `deviceID`）、Privacy ServiceAPI にリクエストを送信します。 モバイルアプリには、SDK バージョン 4.15.0 以降が必要です。
 
-   データ主体のアクセスリクエストを送信すると、Privacy ServiceAPI は指定された Cookie またはデバイス ID に基づいてデータ主体の情報を返します。その後、データ主体に戻る必要があります。
+   データ主体のアクセスリクエストを送信すると、Privacy ServiceAPI は、指定された cookie またはデバイス ID に基づいてデータ主体の情報を返します。その後、データ主体に戻る必要があります。
 
    データ主体の削除リクエストを送信すると、cookie ID またはデバイス ID と、その cookie に関連するすべてのコスト、クリック数、売上高のデータがサーバーから削除されます。
 
    >[!NOTE]
    >
-   >会社に複数のExperience Cloud組織 ID がある場合は、それぞれに対して個別の API リクエストを送信する必要があります。 ただし、複数のAdobe Advertisingサブソリューション ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]、および [!DNL DCO]) の代わりに、サブソリューションごとに 1 つのアカウントを使用します。
+   >会社に複数のExperience Cloud組織 ID がある場合、それぞれに個別の API リクエストを送信する必要があります。 ただし、複数のAdobe Advertisingサブソリューション（[!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]、および [!DNL DCO]）、サブソリューションごとに 1 つのアカウントを使用します。
 
-これらの手順はすべて、Adobe Advertisingに必要です。 Adobe Experience Platform Privacy Serviceを使用して実行する必要があるこれらのタスクやその他の関連タスクの詳細、および必要な項目の見つけ方については、「[Privacy Serviceの概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).&quot;
+これらすべての手順はAdobe Advertisingに必要です。 Adobe Experience Platform Privacy Serviceを使用して行う必要のあるこれらのタスクやその他の関連タスクの詳細、および必要な項目の場所については、「」を参照してください[Privacy Serviceの概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).」と入力します。
 
-## Adobe AdvertisingJSON リクエストの必須フィールド値
+## Adobe Advertisingの JSON リクエストの必須フィールド値
 
 `"company context":`
 
@@ -86,19 +86,19 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
 
 * `"key":` &lt;*通常、データ主体の名前*>
 
-* `"action":` どちらか `**access**` または `**delete**`
+* `"action":` 次のいずれか `**access**` または `**delete**`
 
 * `"user IDs":`
 
-   * `"namespace": **411**` ( これは、 [!DNL adcloud] cookie スペース )
+   * `"namespace": **411**` （これは、 [!DNL adcloud] cookie 領域）
 
    * `"value":` &lt;*から取得された実際のデータ主体の Cookie ID 値`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` ( これは [!DNL Adobe] リクエストに適用される製品 )
+* `"include": **adCloud**` （これはです [!DNL Adobe] （該当する商品）
 
-* `"regulation": **gdpr**` （リクエストに適用されるプライバシー規則）
+* `"regulation": **gdpr**` （リクエストに適用されるプライバシー規制です）
 
-## から取得したユーザー ID を使用してデータ主体から送信されたAdobe Advertisingのリクエストの例 `AdobePrivacy.js`
+## から取得したAdobe Advertisingユーザー ID を使用してデータ主体が送信したリクエストの例 `AdobePrivacy.js`
 
 ```
 {
@@ -129,9 +129,9 @@ Adobe Advertising用にデータへのアクセスおよび削除をリクエス
 }
 ```
 
-## アクセス要求に対して返されるデータフィールド
+## アクセスリクエストに対して返されるデータフィールド
 
-次に、Adobe Advertisingのアクセス応答の例を示します。
+次に、Adobe Advertisingに対するアクセス応答の例を示します。
 
 ```
 {

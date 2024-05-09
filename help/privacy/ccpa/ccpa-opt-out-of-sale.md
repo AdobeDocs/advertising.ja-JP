@@ -1,98 +1,98 @@
 ---
-title: カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者向けのオプトアウトオブセールスのサポート
-description: 消費者のオプトアウトオブセールのリクエストをキャプチャするためのサポートについて説明します。
+title: カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者の販売オプトアウトのサポート
+description: 消費者の販売オプトアウトリクエストをキャプチャするためのサポートについて説明します。
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7378ea6e6907aa4067bd3e73160a8e71c925ec9d
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者による販売のオプトアウトのサポート
+# カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者の販売オプトアウトサポート
 
-*ADOBE ADVERTISINGDEMAND SIDE PLATFORM(DSP)*
+*Adobe AdvertisingDemand Side Platform（DSP）の場合*
 
 >[!IMPORTANT]
 >
->このドキュメントの内容は法的な助言ではなく、その代用になるものでもありません。 カリフォルニア州消費者プライバシー法に関するアドバイスについては、弁護士に相談してください。
+>このドキュメントの内容は法的な助言ではなく、その代用になるものでもありません。 カリフォルニア州消費者プライバシー法に関するアドバイスについては、法務担当者にお問い合わせください。
 
-カリフォルニア州消費者プライバシー法 (CCPA) は、2020 年 1 月 1 日に施行されるカリフォルニア州の新しいプライバシー法です。 CCPA は、カリフォルニア州の住民に対して個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスをおこなう特定の事業者に対してデータ保護の責任を課します。 CCPA は、消費者に対し、データにアクセスしたりデータを削除したりする権利と、第三者への個人情報の「販売」と見なされる特定の活動をオプトアウトする権利を提供します。
+カリフォルニア州消費者プライバシー法（CCPA）は、2020 年 1 月 1 日に施行されるカリフォルニア州の新しいプライバシー法です。 CCPA は、カリフォルニア州の居住者に個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスを行う特定の事業者に対してデータ保護の責任を課します。 CCPA は、消費者に対し、データにアクセスする権利およびデータを削除する権利、ならびに個人情報を第三者に「販売」する特定の活動をオプトアウトする権利を提供します。
 
-お客様は、ビジネスとして、Adobe Experience Cloudに処理および保管を委任する個人データを決定します。
+お客様は会社として、Adobe Experience Cloudが処理および保存するお客様の代わりになる個人情報を決定します。
 
-Adobe Advertisingは、サービスプロバイダーとして、個人情報に対する消費者のアクセスおよび削除要求の管理や、個人情報の販売をオプトアウトするための消費者要求の管理など、Adobe Advertising製品およびサービスの使用に適用される CCPA に基づく義務を果たすためのサポートを提供します。
+Adobe Advertisingは、お客様のサービスプロバイダーとして、お客様の個人情報へのアクセスおよび削除のリクエストの管理、個人情報のAdobe Advertisingのオプトアウトのリクエストの管理など、お客様の事業が CCPA の定める個人情報およびサービスの利用に適用される義務を履行するためのサポートを提供します。
 
-このドキュメントでは、Adobe AdvertisingDemand Side Platform(DSP) が、CCPA で定義される「個人情報の販売」の「オプトアウト」を消費者がサポートする方法について説明します。 Adobe Advertisingに販売オプトアウトリクエストを伝える方法や、組織の販売オプトアウトリクエストのレポートを取得する方法に関する情報が含まれています。
+このドキュメントでは、Adobe AdvertisingDemand Side Platform（DSP）が、サービスプロバイダーとして、CCPA によって定義される各用語において、「個人情報」の「販売」をオプトアウトする消費者の権利をどのようにサポートするかについて説明します。 Adobe Advertisingに販売のオプトアウトリクエストを通知する方法と、組織の販売のオプトアウトリクエストに関するレポートを取得する方法について説明します。
 
-詳しくは、 [!DNL Advertising Search, Social, & Commerce];Advertising Creative；および [!DNL Advertising DCO] 消費者の個人情報のアクセスおよび削除権をサポートします。詳しくは、 [カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者データのアクセスおよび削除のサポート](/help/privacy/ccpa/ccpa-access-delete.md).
+方法について [!DNL Advertising Search, Social, & Commerce]、Advertising Creative、および [!DNL Advertising DCO] 消費者の個人情報へのアクセスと削除の権利をサポートする。を参照してください。 [カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者データのアクセスと削除のサポート](/help/privacy/ccpa/ccpa-access-delete.md).
 
-CCPA のAdobeプライバシーサービスについて詳しくは、 [Adobeプライバシーセンター](https://www.adobe.com/privacy/ccpa.html).
+CCPA のAdobe プライバシーサービスの詳細については、次を参照してください。 [Adobe プライバシーセンター](https://www.adobe.com/privacy/ccpa.html).
 
-## 消費者のオプトアウトオブセールのリクエストについてAdobe Advertisingに伝える
+## Adobe Advertisingへの消費者の販売オプトアウトリクエストの伝達
 
-次のいずれかを使用して、消費者のオプトアウトオブセールのリクエストを伝えることができます。
+次のいずれかを使用して、消費者の販売のオプトアウトリクエストを伝えることができます。
 
-* Advertising DSPで作成された CCPA オプトアウトオブセールセグメント
-* Adobe Experience Platform Privacy Service API
+* advertising DSPで作成された CCPA の販売オプトアウトセグメント
+* ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API
 
-### 方法 1: [!UICONTROL CCPA Opt-Out-of-Sale] Advertising DSPのセグメント
+### 方法 1：を使用して CCPA の販売オプトアウト要求を伝える [!UICONTROL CCPA Opt-Out-of-Sale] Advertising DSPのセグメント
 
 >[!NOTE]
 >
->ユーザーは、無期限に CCPA オプトアウトオブセールセグメントに残ります。
+>ユーザーは、CCPA の販売のオプトアウトセグメントに無期限に残ります。
 
-1. Advertising DSP( ) で広告主のアカウントにログインします。 [https://advertising.adobe.com/](https://advertising.adobe.com/).
-1. [CCPA オプトアウトオブセールセグメントを作成し、セグメントピクセルを実装してオプトアウトリクエストを取得する](/help/dsp/audiences/ccpa-opt-out-segment-create.md).
+1. Advertising DSPの広告主のアカウント（）にログインします。 [https://advertising.adobe.com/](https://advertising.adobe.com/).
+1. [CCPA の販売オプトアウトセグメントを作成し、セグメントピクセルを実装してオプトアウトリクエストをキャプチャします](/help/dsp/audiences/ccpa-opt-out-segment-create.md).
 
-### 方法 2:Adobe Experience Platform Privacy Service API を使用して CCPA オプトアウトオブセールのリクエストを伝える
+### 方法 2:Adobe Experience Platform Privacy Service API を使用して CCPA の販売のオプトアウトリクエストを伝える
 
-*広告主がAdobe Experience Cloud組織 ID のみを割り当てた*
+*Adobe Experience Cloud組織 ID のみを割り当てられた広告主*
 
-1. JavaScript ライブラリをデプロイして、顧客の Cookie を取得します。 同じライブラリ `AdobePrivacy.js`は、すべてのAdobe Experience Cloudソリューションで使用されます。
-
-   >[!IMPORTANT]
-   >
-   >一部のAdobe Experience Cloudソリューションへのリクエストには JavaScript ライブラリは必要ありませんが、Adobe Advertisingへのリクエストには必要です。
-
-   ライブラリは、会社のプライバシーポータルなど、顧客が販売のオプトアウトリクエストを送信できる Web ページにデプロイする必要があります。 ライブラリを使用すると、AdobeCookie( 名前空間 ID: `gsurferID`) を使用して、Adobe Experience Platform Privacy Service API を介して販売のオプトアウトリクエストの一部としてこれらの id を送信できます。
-
-1. Experience Cloud組織 ID を特定し、組織アカウントにリンクされていることを確認します。
-
-   Experience Cloud組織 ID は、24 文字の英数字から成る文字列で、末尾に「@AdobeOrg」が付きます。 ほとんどのExperience Cloudのお客様には、組織 ID が割り当てられています。 マーケティングチームまたは内部Adobeシステム管理者が組織 ID を把握していない場合や、組織 ID がプロビジョニングされているかどうかが不明な場合は、Adobeアカウントチームにお問い合わせください。 プライバシー API に要求を送信するには、組織 ID が、 `imsOrgID` 名前空間。
+1. JavaScript ライブラリをデプロイして、顧客の Cookie を取得します。 同じライブラリ、 `AdobePrivacy.js`は、すべてのAdobe Experience Cloud ソリューションで使用されます。
 
    >[!IMPORTANT]
    >
-   >貴社のAdobe Advertising担当者に問い合わせて、組織のAdobe Advertisingアカウント ( [!DNL DSP] アカウントまたは広告主 [!DNL Search, Social, & Commerce] アカウントおよび [!DNL Creative] または [!DNL DCO] アカウント — がExperience Cloud組織 ID にリンクされている。
+   >一部のAdobe Experience Cloud ソリューションへのリクエストには JavaScript ライブラリは必要ありませんが、Adobe Advertisingへのリクエストには必要です。
 
-1. Adobe Experience Platform Privacy Service API を使用して、 [販売オプトアウトリクエストの送信](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) を使用して、消費者に代わってAdobe Advertisingを設定し、既存のリクエストのステータスを確認できます。
+   ライブラリは、会社のプライバシーポータルなど、顧客が販売のオプトアウトリクエストを送信できる Web ページにデプロイする必要があります。 ライブラリを使用すると、Adobe Cookie （名前空間 ID: `gsurferID`）に設定しておき、Adobe Experience Platform Privacy Service API 経由の販売のオプトアウトリクエストの一部としてこれらの ID を送信できるようにします。
 
-   販売オプトアウトリクエストの例については、以下の付録を参照してください。
+1. Experience Cloud組織 ID を特定し、その ID がAdobe Advertisingアカウントにリンクされていることを確認します。
+
+   Experience Cloud組織 ID は、24 文字の英数字から成る文字列の後に「@AdobeOrg」を付けたものです。 ほとんどのExperience Cloudのお客様には、組織 ID が割り当てられています。 マーケティングチームまたは社内のAdobeシステム管理者が組織 ID を知らない場合、または組織 ID がプロビジョニングされているかどうかわからない場合は、Adobeアカウントチームにお問い合わせください。 を使用してプライバシー API にリクエストを送信するには、組織 ID が必要です。 `imsOrgID` 名前空間。
+
+   >[!IMPORTANT]
+   >
+   >以下を含む組織のすべてのAdobe Advertisingアカウントを確認するには、Adobe Advertising担当者にお問い合わせください [!DNL DSP] アカウントまたは広告主、 [!DNL Search, Social, & Commerce] アカウント、 [!DNL Creative] または [!DNL DCO] アカウント — Experience Cloud組織 ID にリンクされています。
+
+1. Adobe Experience Platform Privacy Service API を使用して、次のことができます [販売のオプトアウトリクエストの送信](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) を使用して、コンシューマーの代わりにAdobe Advertisingを実行し、既存のリクエストのステータスを確認できます。
+
+   販売のオプトアウトリクエストの例については、以下の付録を参照してください。
 
    >[!NOTE]
    >
-   >ビジネスに複数のExperience Cloud組織 ID がある場合は、それぞれに対して個別の API リクエストを送信する必要があります。 ただし、複数のAdobe Advertisingサブソリューション ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]、および [!DNL DCO]) の代わりに、サブソリューションごとに 1 つのアカウントを使用します。
+   >ビジネスに複数のExperience Cloud組織 ID がある場合は、それぞれに個別の API リクエストを送信する必要があります。 ただし、複数のAdobe Advertisingサブソリューション（[!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]、および [!DNL DCO]）、サブソリューションごとに 1 つのアカウントを使用します。
 
-これらの手順はすべて、Adobe Advertisingからサポートを受けるために必要です。 Adobe Experience Platform Privacy Serviceを使用して実行する必要があるこれらのタスクやその他の関連タスクの詳細、および必要な項目の見つけ方については、 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Adobe Advertisingのサポートを受けるには、これらすべての手順が必要です。 Adobe Experience Platform Privacy Serviceを使用して行う必要のあるこれらのタスクやその他の関連タスクの詳細、および必要な情報については、を参照してください。 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
-## 販売オプトアウトリクエストを送信した消費者のレポートの取得
+## 販売のオプトアウトリクエストを送信した消費者のレポートを取得します
 
-Adobe Advertisingは、顧客がアカウントのオプトアウトオブセールのリクエストのために送信した ID の月別レポートを生成します。 各レポートは、GZIP 形式に圧縮されたタブ区切りテキストファイルとして使用できます。 このデータは、Advertising DSPで作成された CCPA オプトアウトオブセールセグメントと、Privacy ServiceAPI を介しておこなわれた送信を使用してキャプチャされたリクエストを統合します。 CCPA オプトアウトオブセールセグメントでキャプチャされたユーザー ID は、セグメントおよび広告主によって識別されます。 レポートは、前月の各月の最初に生成されます。 例えば、6 月の月別ユーザーリストは 7 月 1 日に公開されます。
+Adobe Advertisingは、アカウントの販売オプトアウトリクエスト用に顧客が送信した ID の月間レポートを生成します。 各レポートは、タブ区切りのテキストファイルとして、GZIP 形式に圧縮して利用できます。 データは、Advertising DSPで作成された CCPA の販売オプトアウトセグメントと、Privacy ServiceAPI を介して行われた送信を使用してキャプチャされたリクエストを統合します。 CCPA の販売オプトアウトセグメントで取得されたユーザー ID は、セグメント別および広告主別に識別されます。 レポートは、前月の各月の最初に生成されます。 例えば、6 月の月次ユーザーリストは 7 月 1 日に利用できます。
 
-過去 3 か月間に作成された月別レポートへのリンクは、Advertising DSP内から、または Advertising DSPを使用して取得できます [!DNL Trafficking API]. 各リンクは 7 日間有効ですが、顧客がリンクを取得しようとするたびに更新されます。
+過去 3 か月間に作成された月次レポートへのリンクを、Advertising DSP内から、または Advertising DSPを使用して取得できます [!DNL Trafficking API]. 各リンクは 7 日間有効ですが、顧客がリンクを取得しようとするたびに更新されます。
 
-### 方法 1:Advertising DSP内での消費者のオプトアウトオブセールレポートの取得
+### 方法 1:Advertising DSP内の消費者の販売オプトアウトレポートの取得
 
-1. Advertising DSP( ) で広告主のアカウントにログインします。 [https://advertising.adobe.com/](https://advertising.adobe.com/).
+1. Advertising DSPの広告主のアカウント（）にログインします。 [https://advertising.adobe.com/](https://advertising.adobe.com/).
 1. [レポートの取得](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md).
 
-### 方法 2:Advertising DSPを使用した消費者のオプトアウトオブセールレポートの取得 [!DNL Trafficking API]
+### 方法 2:Advertising DSPを使用した消費者の販売オプトアウトレポートの取得 [!DNL Trafficking API]
 
-この機能は、 [!DNL Trafficking API]. 詳しくは、 [!DNL Trafficking API] を参照してください。<!-- Add link to API doc once it's published. -->
+この機能は、 [!DNL Trafficking API]. のドキュメントを参照してください [!DNL Trafficking API] を参照してください。<!-- Add link to API doc once it's published. -->
 
-組織が [!DNL Trafficking API] が詳細を知りたい場合は、Adobeアカウントチームにお問い合わせください。
+組織がを使用していない場合 [!DNL Trafficking API] 詳細については、Adobeアカウントチームにお問い合わせください。
 
 ## 付録：例 [!UICONTROL CCPA Opt-Out-of-Sale] Privacy ServiceAPI ユーザーのリクエスト
 
@@ -131,7 +131,7 @@ curl -X POST \
 }'
 ```
 
-場所：
+ここで、
 
-* `"namespace": "adCloud"` は、 `adCloud` Cookie 領域に含まれ、対応する値は、 `AdobePrivacy.js`
+* `"namespace": "adCloud"` は、 `adCloud` cookie 領域。対応する値は、から取得された顧客の cookie ID です。 `AdobePrivacy.js`
 * `"include": ["adCloud"]` リクエストがAdobe Advertisingに適用されることを示します
