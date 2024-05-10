@@ -2,9 +2,9 @@
 title: 広告主アカウント設定
 description: 使用可能な広告主設定の説明を参照してください。
 role: User, Admin
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe Experience Cloud商品を追加してExperience Cloudする広告主は、
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** （広告主 [!DNL Advertising Search, Social, & Commerce] またはAdobe Advertisingコンバージョンピクセルを使用するユーザー） A [!DNL Search, Social, & Commerce] DSPがアトリビューションデータを交換するアカウント。
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** （Adobe Analyticsを使用する広告主。オプション。Adobe Advertisingコンバージョントラッキングタグを使用して収集された、 [!DNL EF Redirect] およびトークンのみ） 1 つ以上 [!DNL Analytics] DSPがパブリッシャーおよびサプライサイドパートナーから収集するデータの送信先となるレポートスイート。 また、Analytics は、収集したデータをクライアントのサイトからDSPに送信します。
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** （Adobe Analyticsを使用する広告主。オプション。Adobe Advertisingコンバージョントラッキングタグを使用して収集された、 [!DNL EF Redirect] およびトークンのみ） 1 つ以上 [!DNL Analytics] DSPがパブリッシャーおよびサプライサイドパートナーから収集するデータを送信するレポートスイート。 また、Analytics は、収集したデータをクライアントのサイトからDSPに送信します。
 
 レポートスイートに表示されるデータに適したもの [!DNL Search, Social, & Commerce] 広告主レベルの設定を有効にする必要があります。 また、広告主のです [!DNL Analytics] Adobe Advertisingからデータを受け取るようにアカウントを設定する必要があります。
 
@@ -51,7 +51,7 @@ Adobe Experience Cloud商品を追加してExperience Cloudする広告主は、
 
 との統合に関する詳細情報 [!DNL Analytics]を参照してください。[概要 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).」と入力します。
 
-**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** （Adobe Audience ManagerまたはAdobe Analyticsを使用する広告主。オプション）Audience Manager [!DNL Analytics] DSPがセグメントメタデータ、Adobeデータ、すべての広告主の階層オーディエンスの一意のオーディエンスデータを取り込むアカウント。 これには、次のデータが含まれます。
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** （Adobe Audience ManagerまたはAdobe Analyticsを使用する広告主。オプション）Audience Manager [!DNL Analytics] DSPがセグメントメタデータ、Adobeデータおよび広告主のすべての階層オーディエンスの一意のオーディエンスデータを取り込むアカウント。 これには、次のデータが含まれます。
 
 * Audience Managerセグメント
 * [!DNL Analytics] Adobe Experience Cloudに公開されるセグメント
@@ -110,15 +110,15 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** デフォルトでは、は、新しいプレースメントに対して、ハイジャックされたデバイス上のトラフィックを含む 100% 無効なトラフィックをすべてブロックします。 追加料金がかかる場合があります。
 
-**[!UICONTROL Also block sites with]:** （任意）追加のレベルの不正と無効なトラフィックにより、DSPがデフォルトで広告をブロックする場合があります。  *[!UICONTROL None]* （デフォルト。追加のトラフィックをブロックしません）、 *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]*、または *[!UICONTROL >25% Average Fraud/IVT levels]*. 追加料金がかかる場合があります。
+**[!UICONTROL Also block sites with]:** （任意）DSPがデフォルトで広告をブロックする原因となる、さらに高レベルの不正トラフィックおよび無効なトラフィック。  *[!UICONTROL None]* （デフォルト。追加のトラフィックをブロックしません）、 *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]*、または *[!UICONTROL >25% Average Fraud/IVT levels]*. 追加料金がかかる場合があります。
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 
-**[!UICONTROL Block sites that are]:** （任意）DSPがデフォルトで広告をブロックする原因となる 1 つ以上の種類の不正。 *[!UICONTROL Fraud]* （すべてのサイトを不正でブロックします）、 *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*、および/または *[!UICONTROL Fraud: Zero Ads]*. 追加料金がかかる場合があります。
+**[!UICONTROL Block sites that are]:** （任意）DSPがデフォルトで広告をブロックする原因となる 1 つ以上の種類の詐欺。 *[!UICONTROL Fraud]* （すべてのサイトを不正でブロックします）、 *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*、および/または *[!UICONTROL Fraud: Zero Ads]*. 追加料金がかかる場合があります。
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
-**[!UICONTROL Block sites that are]:** （オプション）DSPがデフォルトで広告をブロックする原因となる、疑わしい web サイトまたはアプリアクティビティの種類。 *[!UICONTROL None]* （デフォルト。疑わしいアクティビティに基づく広告をブロックしません）、 *[!UICONTROL Suspicious Activity - High Risk]*、または *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 追加料金がかかる場合があります。
+**[!UICONTROL Block sites that are]:** （オプション）DSPがデフォルトで広告をブロックする原因となる、疑わしい web サイトまたはアプリアクティビティの一種。 *[!UICONTROL None]* （デフォルト。疑わしいアクティビティに基づく広告をブロックしません）、 *[!UICONTROL Suspicious Activity - High Risk]*、または *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 追加料金がかかる場合があります。
 
 #### [!UICONTROL Ads.text]
 

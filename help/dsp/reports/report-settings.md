@@ -3,9 +3,9 @@ title: カスタムレポートの設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -122,10 +122,10 @@ ht-degree: 0%
 
 **[!UICONTROL Destination Type]:** 次のいずれかの宛先タイプを選択します。
 
-* *[!UICONTROL S3]:* 完成したレポートを 1 つ以上のユーザーに送信するには [!DNL Amazon Simple Storage Service] （[!DNL Amazon S3]）の場所を使用します。 **[!UICONTROL Destination Name]** フィールド。
-* *[!UICONTROL sFTP]:* 完成したレポートを 1 つ以上の SFTP ロケーションに送信するには、で指定します。 **[!UICONTROL Destination Name]** フィールド。
-* *[!UICONTROL FTP]:* 完成したレポートを 1 つ以上の FTP ロケーションに送信するには、で指定します。 **[!UICONTROL Destination Name]** フィールド。
-* *[!UICONTROL FTP SSL]（現在はベータ版）:* 完成したレポートを 1 つ以上の FTP SSL 場所に送信するには、で指定します。 **[!UICONTROL Destination Name]** フィールド。
+* *[!UICONTROL S3]:* 完成したレポートを 1 つ以上のユーザーに送信するには [!DNL Amazon Simple Storage Service] （[!DNL Amazon S3]）に設定する必要があります。 **[!UICONTROL Destination Name]** フィールド。
+* *[!UICONTROL sFTP]:* 完成したレポートを 1 つ以上の SFTP ロケーションに送信するには、で指定する必要があります。 **[!UICONTROL Destination Name]** フィールド。
+* *[!UICONTROL FTP]:* 完成したレポートを 1 つ以上の FTP ロケーションに送信するには、で指定する必要があります。 **[!UICONTROL Destination Name]** フィールド。
+* *[!UICONTROL FTP SSL]（現在はベータ版）:* 完成したレポートを 1 つ以上の FTP SSL 場所に送信するには、で指定する必要があります。 **[!UICONTROL Destination Name]** フィールド。
 * *[!UICONTROL Email]:* 完了したレポートまたはエラーが原因でレポートがキャンセルされた場合に通知を送信する電子メールアドレスを指定する
 
 >[!NOTE]

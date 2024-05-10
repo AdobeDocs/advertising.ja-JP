@@ -2,7 +2,7 @@
 title: プレースメントの入札乗数の管理
 description: 指定したプレースメント ターゲットの入札乗数を作成および編集する方法を説明します。
 feature: DSP Placements
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -46,7 +46,7 @@ See if any of these procedures are implemented; may need to be edited and/or re-
 
      >[!NOTE]
      >
-     >フィールドを空のままにすると、そのターゲットタイプのすべての値が削除されます。<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there will be only one data row applicable for all. -->
+     >フィールドを空のままにすると、そのターゲットタイプのすべての値が削除されます。<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there only one data row is applicable for all. -->
 
       1. クリック **[!UICONTROL CSV Edit]** 右上
 

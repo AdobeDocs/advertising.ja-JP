@@ -1,109 +1,109 @@
 ---
-title: 広告ターゲティング用のAdobe Audience Managerセグメントのインポート
-description: インポート方法を学ぶ [!DNL Adobe] Adobe Audience Managerを使用して Advertising DSPと Search にオーディエンスを追加
+title: 広告ターゲティング用のAdobe Audience Manager セグメントのインポート
+description: を読み込む方法を学ぶ [!DNL Adobe] Adobe Audience Managerを使用した Advertising DSPおよび検索へのオーディエンス
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
 
-# 広告ターゲティング用のAdobe Audience Managerセグメントのインポート
+# 広告ターゲティング用のAdobe Audience Manager セグメントのインポート
 
-Advertising DSP and [!DNL Advertising Search, Social, & Commerce] は、すべての広告主や代理店のメタデータ、階層データ、一意のオーディエンスデータを取り込むことができます [!DNL Adobe] audiences<!-- segments or audiences? Standardize terms per AAM's docs -->. これには、以下のデータが含まれます。
+Advertising DSPと [!DNL Advertising Search, Social, & Commerce] それぞれが、広告主または代理店のすべてのメタデータ、階層データおよび一意のオーディエンスデータを取り込むことができます [!DNL Adobe] オーディエンス<!-- segments or audiences? Standardize terms per AAM's docs -->. これには、次のデータが含まれます。
 
-* Adobe Audience Managerセグメント
+* Adobe Audience Manager セグメント
 
-* Adobe Experience Cloudに公開されたAdobe Analyticsセグメント
+* Adobe Experience Cloudに公開されるAdobe Analytics セグメント
 
-* Adobe Experience Cloud [!DNL Audience Library]
+* Adobe Experience Cloudで作成されたセグメント [!DNL Audience Library]
 
-* Adobe Experience Platformで作成され、Audience Managerを介してAdobe広告に送信されるセグメント
+* Adobe Experience Platformで作成され、Audience Managerを介してAdobe Advertisingに送信されるセグメント
 
-アクセスするには [!DNL Adobe] DSPまたは [!DNL Creative]の場合、オーディエンスをDSPにインポートする必要があります。 アクセスするには [!DNL Adobe] オーディエンス [!DNL Search, Social, & Commerce]の場合、オーディエンスを [!DNL Search, Social, & Commerce].
+アクセス対象 [!DNL Adobe] DSPまたは内のオーディエンス [!DNL Creative]オーディエンスをDSPに読み込む必要があります。 アクセス対象 [!DNL Adobe] のオーディエンス [!DNL Search, Social, & Commerce]オーディエンスをに読み込む必要があります。 [!DNL Search, Social, & Commerce].
 
 ## 前提条件
 
-* 広告主は、 [の [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) バージョン 2.0 以降。 この [!DNL Identity Service] は、Experience Cloudのすべてのソリューションにわたって訪問者を識別する、普遍的、永続的な ID を提供します。
+* 広告主は、を実装する必要があります [この [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) バージョン 2.0 以降。 この [!DNL Identity Service] は、Experience Cloudのすべてのソリューションで訪問者を特定する永続的な汎用 ID を提供します。
 
-   実装には、 [!DNL Identity service] コードを広告主のサイトの各 web ページに追加します。
+  実装には、の追加が含まれます [!DNL Identity service] 広告主のサイトの各 web ページにコードを追加します。
 
-* 組織は [Experience Cloudサービス](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html) そしてExperience Cloud [!DNL Organization ID] ( 以前の [!DNL IMS org ID]) をクリックします。
+* 組織は、 [Experience Cloudサービスに対して有効](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html) そしてExperience Cloudがあります [!DNL Organization ID] （以前の名称： [!DNL IMS org ID]）に設定します。
 
-   この [!UICONTROL Organization ID] を使用すると、複数のAdobe Experience Cloud製品を持つ組織が一部の製品でデータを共有できます。
+  この [!UICONTROL Organization ID] を使用すると、複数のAdobe Experience Cloud製品を持つ組織が一部の製品間でデータを共有できます。
 
-* ( [!DNL Analytics]) 広告主は [実装する [!DNL Analytics] using `appMeasurement.js`](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) バージョン 1.6.4 以降。
+* （広告主 [!DNL Analytics]）を選択する必要があります [実装方法 [!DNL Analytics] 使用 `appMeasurement.js`](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) バージョン 1.6.4 以降。
 
-* 広告主の Web サイトの訪問者数が多くを含んでいない [!DNL Apple Safari] ユーザー。
+* 広告主の web サイト訪問者には、大量の [!DNL Apple Safari] ユーザー。
 
-* ( 広告主がAudience Managerと [!DNL Analytics]) 各 Web ページへの呼び出しを減らすには、既存のAudience Managerを削除します [!DNL Data Integration Library] データ収集用のコードと、各 [!DNL Analytics] レポートスイートを使用します。 詳しくは、[サーバー側転送の概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+* （Audience Manager主が広告と [!DNL Analytics]）を使用して各 web ページへの呼び出しを減らすには、既存のAudience Managerを削除します [!DNL Data Integration Library] データ収集のコードと、それぞれのサーバーサイド転送の有効化 [!DNL Analytics] 代わりにレポートスイートを使用します。 詳しくは、「」を参照してください[サーバーサイド転送の概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
-* （推奨）一致率を高めるには、ファーストパーティの Web サイトデータのみをAdobe広告に送信します。 広告主が顧客関係管理システムのサードパーティのデータやオフラインのデータをバンドルする場合、データの漏洩によって一致率が低下する可能性があります。
+* （推奨）一致率を高めるには、ファーストパーティの web サイトデータのみをAdobe Advertisingに送信します。 広告主が顧客関係管理システムからサードパーティデータやオフラインデータをバンドルすると、データ漏洩によりマッチ率が低下する可能性があります。
 
-## Audience ManagerオーディエンスをDSPにインポート
+## DSPへのAudience Managerオーディエンスの読み込み
 
 ### オーディエンスをDSPにインポートする手順
 
-この [!DNL Adobe] アカウントおよびデータ操作チームは、次の手順を実行します。
+この [!DNL Adobe] アカウントチームとデータ運用チームは、次の手順を実行します。
 
-1. Adobeアカウントチームは、広告主レベルの設定「[!UICONTROL Adobe Analytics Cloud].&quot;
+1. Adobeアカウントチームは、広告主レベルの設定を行う必要があります」[!UICONTROL Adobe Analytics Cloud].」と入力します。
 
-1. Adobeアカウントチームはリクエストを送信する必要があります<!-- Submit a request as a JIRA task? --> データ運用チームに<!-- implementation team? --> :Advertising DSPのネイティブ API 統合を使用して、組織のAudience Managerセグメントを読み込みます。
+1. Adobeアカウントチームからリクエストが送信される<!-- Submit a request as a JIRA task? --> データ運用チーム向け<!-- implementation team? --> advertising DSP ネイティブ API 統合を使用して組織のAudience Managerセグメントを読み込みます。
 
-### どのような変更がAudience Managerに
+### Audience Managerに至る変化
 
-API は自動的に以下をおこないます。
+API による自動アクセス：
 
-* 次の 2 つのDSPの宛先をAudience Managerに作成します。
+* Audience Managerに 2 つのDSP宛先を作成します。
 
    * **[!UICONTROL Adobe Ad Cloud Cross-Channel (real-time)]**
 
-   * **[!UICONTROL Adobe AdCloud Cross-Channel (batch)])**
+   * **[!UICONTROL Adobe AdCloud Cross-Channel (batch)]）**
 
-* 2 つの宛先をすべてのAudience Managerセグメントにマッピングし、Audience Managerは、同じExperience Cloudに関連付けられているDSP広告主アカウントとセグメントを共有できます [!DNL Organization ID] Audience Managerに使用 <!-- Verify -->
+* 2 つの宛先をすべてのAudience Managerセグメントにマッピングして、Audience Managerが同じExperience Cloudに関連付けられているDSP広告主アカウントとセグメントを共有できるようにします [!DNL Organization ID] Audience Managerに使用します。 <!-- Verify -->
 
-   組織は、必要のないセグメントをオプションで、Audience Manager内の宛先から削除できます。
+  Audience Managerでは、オプションで、宛先内から不要なセグメントを削除できます。
 
-* 顧客キャンペーンのリーチを向上させるために、組織のAudience Managerコンテナに次の exchange cookie-sync ピクセルを追加します。
+* カスタマーキャンペーンのリーチを向上させるために、組織のAudience Managerコンテナに次の exchange cookie-sync ピクセルを追加します。
 
-   * AdobeAdCloud:411 ( 標準で、 [!DNL Identity Service] バージョン 2.0. [!DNL Identity Service] 2.0 より前のバージョンでは、このピクセルをAudience Managerコンテナに追加する必要があります。
+   * Adobe AdCloud:411 （標準で、の一部として自動で提供 [!DNL Identity Service] バージョン 2.0。組織と [!DNL Identity Service] バージョン 2.0 より前のバージョンでは、このピクセルがAudience Managerコンテナに追加されます。
 
-## Audience Managerオーディエンスのインポート先 [!DNL Search, Social, & Commerce]
+## Audience Managerオーディエンスの読み込み先 [!DNL Search, Social, & Commerce]
 
-### オーディエンスのインポート手順 [!DNL Search, Social, & Commerce]
+### オーディエンスをにインポートする手順 [!DNL Search, Social, & Commerce]
 
-[!DNL Adobe] の担当者は、次の手順のほとんどまたはすべてを実行します。
+[!DNL Adobe] 担当者は、次の手順の大部分またはすべてを実行します。
 
-1. Adobeアカウントチームは、データ運用チームにリクエストを送信して、 [!DNL Search, Social, & Commerce] とAudience Manager。 書き出し先のAudience Managerセグメントの名前を含めます [!DNL Search, Social, & Commerce].
+1. Adobeアカウントチームは、データ操作チームにリクエストを送信して、 [!DNL Search, Social, & Commerce] とAudience Manager。 書き出し先のAudience Managerセグメントの名前を含めます [!DNL Search, Social, & Commerce].
 
-1. Audience Manager内で、 [!DNL Search, Social, & Commerce]:
+1. Audience Manager内での宛先の設定 [!DNL Search, Social, & Commerce]:
 
    1. 次の 2 つの新しい宛先を作成します。 `[!UICONTROL Adobe Media Optimizer (HTTP)]` および `[!UICONTROL Adobe Media Optimizer Batch Destination]`.
 
-      [!DNL Media Optimizer] は、 [!DNL Search, Social, & Commerce].
+      [!DNL Media Optimizer] は、の旧称です [!DNL Search, Social, & Commerce].
 
-   1. 各宛先のセグメントを指定します。
+   1. 各宛先に対してセグメントを指定します。
 
-      を使用 [!UICONTROL Automatically map all current and future segments] 」オプションを使用すると、すべてのセグメントが毎日マッピングおよび同期されます。
+      （を使用） [!UICONTROL Automatically map all current and future segments] オプションを選択すると、すべてのセグメントが毎日マッピングされ、同期されます。
 
-      この [!UICONTROL Manually map segments] オプションを使用すると、バッチ保存先 (`[!UICONTROL Adobe Media Optimizer Batch Destination]`) をクリックします。 HTTP 宛先にセグメントを手動でマッピングする必要はありません。
+      この [!UICONTROL Manually map segments] オプションを使用すると、セグメントを手動でマッピングして、バッチ宛先（`[!UICONTROL Adobe Media Optimizer Batch Destination]`）に設定します。 セグメントを HTTP 宛先に手動でマッピングする必要はありません。
 
-1. 内 [!DNL Search, Social, & Commerce]、 [!DNL Search, Social, & Commerce] 直接アクセスクライアントマネージャーの役割を持つ実装チームまたはユーザーは、 [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Audience Manager Setup].
+1. 内 [!DNL Search, Social, & Commerce]、次のいずれか [!DNL Search, Social, & Commerce] 実装チームまたは direct access client manager の役割を持つユーザーが、からインポートを開始する必要があります。 [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Audience Manager Setup].
 
-   組織のExperience Cloudを入力する必要があります [!DNL Organization ID] ([!DNL IMS org ID]) をクリックします。 この ID は、組織の組織アカウントで使用される ID と同じである必要がありますAudience Manager。
+   組織のExperience Cloudを入力してください [!DNL Organization ID] （[!DNL IMS org ID]）に設定します。 ID は、組織のAudience Managerアカウントに使用されているものと同じにする必要があります。
 
-### どのような変更がAudience Managerに
+### Audience Managerに至る変化
 
-組織には 2 つの [!DNL Search, Social, & Commerce] Audience Manager内の宛先：
+2 [!DNL Search, Social, & Commerce] 宛先は、Audience Managerの組織で使用できるようになります。
 
 * **[!UICONTROL Adobe Media Optimizer (HTTP)]**
-* **[!UICONTROL Adobe Media Optimizer Batch Destination])**
+* **[!UICONTROL Adobe Media Optimizer Batch Destination]）**
 
-## データの同期
+## データ同期
 
-最初の読み込みには約 24 時間かかります。 最初のインポートの後、データはリアルタイムで同期され、1～2 秒の遅延が生じます。
+最初の読み込みには約 24 時間かかります。 最初の読み込み後、データは 1 秒から 2 秒の遅延でリアルタイムに同期されます。
 
 <!--
 ### How DSP Syncs the Data
@@ -132,27 +132,26 @@ Segment membership data is sent only after one of the following events occurs:
  -->
 <!-- Is membership data/whatever available in Creative? If so, does it show the same as DSP? -->
 
-## 同期されたセグメントの場所
+## 同期したセグメントの場所
 
 ### DSP内
 
-DSPでは、セグメント名はAudience Managerの分類別に整理され、で対応するセグメントメンバーシップカウントと共に使用できます。
+DSPでは、セグメント名はAudience Manager分類によって整理され、次の場所で対応するセグメントメンバーシップの数で使用できます。
 
-* [配置設定](/help/dsp/campaign-management/placements/placement-settings.md#audience-targeting):の [!UICONTROL Adobe Segments] タブ [!UICONTROL Audience Targeting] 」セクションに入力します。
+* [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md#audience-targeting)：の [!UICONTROL Adobe Segments] タブ [!UICONTROL Audience Targeting] セクション。
 
-* In [オーディエンス設定](/help/dsp/audiences/audience-settings.md):の [!UICONTROL Adobe Segments] タブをクリックします。
+* 対象： [オーディエンス設定](/help/dsp/audiences/audience-settings.md)：の [!UICONTROL Adobe Segments] タブ。
 
-### Advertising Creative 内
+### Advertising Creative内
 
-In [!DNL Creative]の場合、セグメントはターゲットノードのエクスペリエンス設定で使用できます。
+対象： [!DNL Creative]セグメントは、target ノードのエクスペリエンス設定で使用できます。
 
-### In [!DNL Advertising Search, Social, & Commerce]
+### 対象： [!DNL Advertising Search, Social, & Commerce]
 
-In [!DNL Search, Social, & Commerce]を使用する場合、セグメントは [!DNL Google] オーディエンスを [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]から [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
+対象： [!DNL Search, Social, & Commerce]セグメントは、の作成時に使用できます。 [!DNL Google] を使用したオーディエンス [!UICONTROL Data Source] “[!UICONTROL Adobe Audience]から [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
 
-各 [!DNL Google] オーディエンスを作成します。 [!DNL Google] は、オーディエンスサイズを提供します。
+それぞれに対して [!DNL Google] 作成するオーディエンス、 [!DNL Google] オーディエンスサイズを指定します。
 
 >[!MORELIKETHIS]
 >
->* [Adobe Audience ManagerとのAdobe広告の統合](/help/integrations/audience-manager/overview.md)
-
+>* [Adobe Audience ManagerとのAdobe Advertising統合](/help/integrations/audience-manager/overview.md)

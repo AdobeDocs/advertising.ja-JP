@@ -3,9 +3,9 @@ title: 実装の前提条件と主な情報 [!DNL Analytics for Advertising]
 description: 実装の前提条件と主な情報 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Adobe Advertising導入チームに以下を提供します。
 
 ## 実装する前に知っておくべきこと
 
-* Adobe Advertising導入チームが連携をセットアップします。
+* Adobe Advertising導入チームが連携を設定します。
 
 * この統合に追加のコストは請求されず、サーバーコールによって追加のコストが発生することもありません [!DNL Analytics] またはAdobe Advertising料。
 

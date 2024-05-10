@@ -3,9 +3,9 @@ title: 間で予期されるデータの相違 [!DNL Analytics] とAdobe Adverti
 description: 間で予期されるデータの相違 [!DNL Analytics] とAdobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3212'
+source-wordcount: '3205'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ ht-degree: 0%
 
 * **様々なルックバックウィンドウによって発生する不一致の例：**
 
-  Adobe Advertisingに 60 日間のクリックのルックバックウィンドウがあり、 [!DNL Analytics] には、30 日間のルックバックウィンドウがあります。 あるユーザーが、Adobe Advertisingが追跡した広告を通じてサイトを訪問し、離脱した後、45 日目に戻り、コンバージョンを行ったとします。 Adobe Advertisingでは、コンバージョンが 60 日間のルックバックウィンドウ内で発生したため、コンバージョンは最初の訪問に関連付けられます。 [!DNL Analytics]ただし、は、コンバージョンが 30 日のルックバックウィンドウの有効期限が切れた後に発生したため、コンバージョンを最初の訪問に関連付けることはできません。 この例では、Adobe Advertisingは、次よりも多くのコンバージョン数をレポートします [!DNL Analytics] 可能性あり。
+  Adobe Advertisingに 60 日間のクリックのルックバックウィンドウがあり、 [!DNL Analytics] には、30 日間のルックバックウィンドウがあります。 あるユーザーが、Adobe Advertisingが追跡した広告を通じてサイトを訪問し、離脱した後、45 日目に戻り、コンバージョンを行ったとします。 Adobe Advertisingでは、コンバージョンが 60 日間のルックバックウィンドウ内で発生したため、最初の訪問へのコンバージョンが属性化されます。 [!DNL Analytics]ただし、は、コンバージョンが 30 日のルックバックウィンドウの有効期限が切れた後に発生したため、コンバージョンを最初の訪問に関連付けることはできません。 この例では、Adobe Advertisingは、よりも多くのコンバージョン数をレポートします [!DNL Analytics] 実行する。
 
   ![Adobe Advertisingは起因するが起因しないコンバージョンの例 [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
 * **様々なアトリビューションモデルによって生じる不一致の例：**
 
-  ユーザーがコンバージョンする前に、売上高をコンバージョンタイプとして、3 つの異なるAdobe Advertising広告を操作したとします。 Adobe Advertisingレポートでアトリビューションに偶数配分モデルを使用する場合、売上高はすべての広告に均等に関連付けられます。 次の場合 [!DNL Analytics] はラストタッチ アトリビューションモデルを使用しますが、売上高は最後の広告に関連付けられます。 次の例では、3 つのAdobe Advertisingのそれぞれに取り込まれた売上高 30 USD のうち 10 USD までがの属性となります [!DNL Analytics] ユーザーが閲覧した最後の広告までのすべての 30 USD の売上高を属性にします。 Adobe Advertisingのレポートとを比較する場合 [!DNL Analytics]アトリビューションの違いの影響を確認できると思います。
+  ユーザーがコンバージョンする前に、売上高をコンバージョンタイプとして、3 つの異なるAdobe Advertising広告を操作したとします。 Adobe Advertisingレポートでアトリビューションに偶数配分モデルを使用する場合、売上高はすべての広告に均等に関連付けられます。 次の場合 [!DNL Analytics] ただし、ラストタッチ アトリビューションモデルを使用し、売上高を最後の広告に関連付けます。 次の例では、3 つのAdobe Advertisingのそれぞれに取り込まれた売上高 30 USD のうち 10 USD までがの属性となります [!DNL Analytics] ユーザーが閲覧した最後の広告までのすべての 30 USD の売上高を属性にします。 Adobe Advertisingのレポートとを比較する場合 [!DNL Analytics]アトリビューションの違いの影響を確認できると思います。
 
   ![Adobe Advertisingとに起因する異なる収益 [!DNL Analytics] 様々なアトリビューションモデルに基づく](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -110,7 +110,7 @@ Adobe Advertisingとして、コンバージョンデータは、関連するク
 
 ### で異なる可能性があるアトリビューションモデル [!DNL Marketing Channels]
 
-Most [!DNL Marketing Channels] レポートは次の機能で設定されています [!UICONTROL Last Touch] 前回マーケティングチャネルが検出されたアトリビューションには、コンバージョン値の 100% が割り当てられます。 用の様々なアトリビューションモデルの使用 [!DNL Marketing Channels] レポートとAdobe Advertisingレポートは、アトリビューションコンバージョンで不一致が生じます。
+Most [!DNL Marketing Channels] レポートは次の機能で設定されています [!UICONTROL Last Touch] 前回マーケティングチャネルが検出されたアトリビューションには、コンバージョン値の 100% が割り当てられます。 用の様々なアトリビューションモデルの使用 [!DNL Marketing Channels] レポートとAdobe Advertisingレポートを使用すると、アトリビューションコンバージョンで不一致が発生する。
 
 ### での潜在的に異なるルックバックウィンドウ [!DNL Marketing Channels]
 
@@ -230,13 +230,13 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 また、モバイルデバイスに読み込まれるサイトは、帯域幅や利用可能な処理能力が低いため、クリックスルーが発生する可能性が低く、ランディングページの読み込みに時間がかかります。 クリックの 50～70% がクリックスルーに至らないことは珍しくありません。 モバイル環境では、ブラウザーの速度が低下し、ユーザーがページ内をスクロールしたり広告を閉じようとしたりしているときに、誤って広告をクリックする可能性が高くなるので、90% も違いが生じる可能性があります。
 
-クリックデータは、現在のトラッキングメカニズムではクリックスルーを記録できない環境（モバイルアプリに着信する、またはモバイルアプリから発信するクリックなど）や、広告主が 1 つのトラッキングアプローチのみをデプロイした環境（例えば、ビュースルー JavaScript アプローチでは、サードパーティ cookie をブロックするブラウザーはクリックを追跡しますが、クリックスルーは追跡しません）にも記録される場合があります。 Adobe クリック URL トラッキングとビュースルー JavaScript トラッキングの両方のアプローチをデプロイすることをお勧めする主な理由は、トラッキング可能なクリックスルーの範囲を最大限に広げることです。
+クリックデータは、現在のトラッキングメカニズムでのクリックスルーを記録できない環境（モバイルアプリに着信するクリックや、モバイルアプリからのクリックなど）や、広告主が 1 つのトラッキングアプローチのみをデプロイした環境（例えば、ビュースルー JavaScript アプローチでは、サードパーティ cookie がクリックを追跡するが、クリックスルーはブロックしないブラウザー）にも記録される場合があります。 Adobe クリック URL トラッキングとビュースルー JavaScript トラッキングの両方のアプローチをデプロイすることをお勧めする主な理由は、トラッキング可能なクリックスルーの範囲を最大限に広げることです。
 
 ### 非Adobe AdvertisingDimensionに対するAdobe Advertisingトラフィック指標の使用
 
 Adobe Advertisingは Analytics に次を提供します [広告固有のトラフィック指標と関連するディメンション [!DNL DSP] および [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Adobe Advertising提供の指標は指定されたAdobe Advertisingディメンションにのみ適用され、データはの他のディメンションでは使用できません [!DNL Analytics].
 
-例えば、 [!UICONTROL Adobe Advertising Clicks] および [!UICONTROL Adobe Advertising Cost] Adobe Advertisingディメンションであるアカウント別指標に合計が表示されます [!UICONTROL Adobe Advertising Clicks] および [!UICONTROL Adobe Advertising Cost] アカウント別。
+例えば、 [!UICONTROL Adobe Advertising Clicks] および [!UICONTROL Adobe Advertising Cost] Adobe Advertisingディメンションである勘定科目別指標から合計を計算します [!UICONTROL Adobe Advertising Clicks] および [!UICONTROL Adobe Advertising Cost] は、アカウント別に表示されます。
 
 ![Adobe Advertisingディメンションを使用したレポートのAdobe Advertising指標の例](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 

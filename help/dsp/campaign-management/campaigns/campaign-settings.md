@@ -3,9 +3,9 @@ title: キャンペーン設定
 description: 使用可能なキャンペーン設定の説明を参照してください。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> フリークエンシーキャップは、キャンペーン、パッケージ、プレースメントの各レベルで設定できます。 DSPでは、キャンペーン階層で最も厳格なフリークエンシーキャップを適用します。
+> フリークエンシーキャップは、キャンペーン、パッケージ、プレースメントの各レベルで設定できます。 DSPは、キャンペーン階層内で最も厳格なフリークエンシーキャップに従います。
 
 **[!UICONTROL Packages]:** この [パッケージ](/help/dsp/campaign-management/packages/package-about.md) をキャンペーンに含めます。 既存のパッケージを選択するか、含めるパッケージを作成します。 パッケージを作成する場合は、の説明を参照してください [パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md) を参照してください。
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Target Age]:** ターゲットにする年齢の範囲。 必要に応じて、左右のスライダーを使用して範囲を狭めます。
 
-* **[!UICONTROL Target Country]:** （任意）ターゲットにする国。 [!DNL Nielsen] は、サポート対象の国でのみ提供されるインプレッションを測定します。
+* **[!UICONTROL Target Country]:** （任意）ターゲットにする国。 [!DNL Nielsen] サポート対象の国でのみ提供されたインプレッションを測定します。
 
 **[!UICONTROL comScore vCE]:** （オプション）有効 [!DNL Comscore validated Campaign Essentials (vCE)] 指定された設定を使用した、オーディエンス検証の測定とレポート。 追加料金がかかります。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Target Age]:** ターゲットにする年齢の範囲。 必要に応じて、左右のスライダーを使用して範囲を狭めます。
 
-* **[!UICONTROL Target Country]:** （任意）ターゲットにする国。 [!DNL Comscore] は、サポート対象の国でのみ提供されるインプレッションを測定します。
+* **[!UICONTROL Target Country]:** （任意）ターゲットにする国。 [!DNL Comscore] サポート対象の国でのみ提供されたインプレッションを測定します。
 
 ### [!UICONTROL 1st Party Metrics]
 

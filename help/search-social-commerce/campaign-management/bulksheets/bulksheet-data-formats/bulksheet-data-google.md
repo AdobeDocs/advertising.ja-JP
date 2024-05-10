@@ -3,9 +3,9 @@ title: に必要なバルクシート データ [!DNL Google Ads] アカウン�
 description: のバルクシートの必須のヘッダーフィールドおよびデータフィールドを参照します。 [!DNL Google Ads] アカウント。
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '7860'
+source-wordcount: '7855'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,8 @@ ht-degree: 0%
 | [!UICONTROL Delivery Method] | キャンペーンの作成に必要です。 |
 | [!UICONTROL Channel Type] | キャンペーンの作成に必要です。 |
 | [!UICONTROL Networks] | キャンペーンの作成に必要です。 |
-| [!UICONTROL DSA Domain Name] | 動的検索広告を含む検索ネットワーク上のキャンペーンを作成するために必要です。 |
-| [!UICONTROL DSA Domain Language] | 動的検索広告を含む検索ネットワーク上のキャンペーンを作成するために必要です。 |
+| [!UICONTROL DSA Domain Name] | 検索ネットワーク上に動的検索広告を含むキャンペーンを作成する際に必要です。 |
+| [!UICONTROL DSA Domain Language] | 検索ネットワーク上に動的検索広告を含むキャンペーンを作成する際に必要です。 |
 | [!UICONTROL Campaign Priority] | 買い物キャンペーンを作成するために必要です。 |
 | [!UICONTROL Merchant ID] | 買い物キャンペーンを作成するために必要です。 |
 | [!UICONTROL Sales Country] | 買い物キャンペーンを作成するために必要です。 |
@@ -410,7 +410,7 @@ ht-degree: 0%
 | [!UICONTROL Sitelink Status] | サイトリンクを削除する場合にのみ必要です。 |
 | [!UICONTROL Campaign ID] | オプション |
 | [!UICONTROL Ad Group ID] | オプション |
-| [!UICONTROL Sitelink ID] | 行に a） サイトリンクを識別するのに十分なプロパティ列、または b） &#39;&#39;が含まれていない限り、サイトリンクを変更または削除する場合にのみ必要です。[!UICONTROL AMO ID].」と入力します。 ただし、どちらも含めない場合は、 [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]  プロパティ列が複数のサイトリンクに一致する場合、1 つのサイトリンクのステータスのみが変更されます。<br><br><b>注意：</b> 次の場合を除き、サイトリンクプロパティの列を編集します [!UICONTROL Status] 既存のサイトリンクに対して、にも含めない [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]を選択すると、新しいサイトリンクが作成され、既存のサイトリンクは変更されません。 |
+| [!UICONTROL Sitelink ID] | 行に a） サイトリンクを識別するのに十分なプロパティ列、または b） &#39;&#39;が含まれていない限り、サイトリンクを変更または削除する場合にのみ必要です。[!UICONTROL AMO ID].」と入力します。 ただし、どちらも含めない場合は、 [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]  プロパティ列が複数のサイトリンクと一致する場合は、1 つのサイトリンクのステータスのみが変更されます。<br><br><b>注意：</b> 次の場合を除き、サイトリンクプロパティの列を編集します [!UICONTROL Status] 既存のサイトリンクに対して、にも含めない [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]を選択すると、新しいサイトリンクが作成され、既存のサイトリンクは変更されません。 |
 | [!UICONTROL AMO ID] | エンティティ ID と親エンティティ ID を含めない場合は、データを編集または削除する必要があります。<br><br>検索、ソーシャル、Commerceは、値を使用して編集する正しい ID を判断しますが、ID は広告ネットワークに投稿しません。 |
 
 ### 場所のターゲット

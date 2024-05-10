@@ -3,9 +3,9 @@ title: カスタムセグメントの作成と実装
 description: カスタムセグメントを作成および実装して、広告にさらされたユーザーまたは web ページを訪問したユーザーを追跡する方法について説明します。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: fcce2b2ba7ab9717e83b05ddf8f22399f6b2e28e
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -59,13 +59,13 @@ ht-degree: 0%
 
       デフォルトウィンドウは 45 日です。 1 から 365 までの値を入力します。
 
-   1. クリック **[!UICONTROL Advanced]** 詳細設定を展開して、セグメントタグで追跡するユーザー識別子のタイプを選択するには、次の手順を実行します。
+   1. クリック **[!UICONTROL Advanced]** 詳細設定を展開して、セグメントタグが追跡するユーザー識別子のタイプを選択するには、次の手順を実行します。
 
       * *[!UICONTROL Cookies]:* （デフォルト）セグメントタグは cookie を追跡します。
 
       * [!UICONTROL Universal IDs (Beta)]:
 
-         * *[!UICONTROL ID5]:* セグメントタグは次を追跡します [!DNL ID5] ID。 ユニバーサル ID に配信されるインプレッションには料金は発生しません。
+         * *[!UICONTROL ID5]:* セグメントタグが追跡する [!DNL ID5] ID。 ユニバーサル ID に配信されるインプレッションには料金は発生しません。
 
         **[!UICONTROL Terms of Service]:** ユニバーサル ID を使用するためのサービス利用規約。 ユニバーサル ID を新しい ID タイプに使用するには、DSP アカウントの別のユーザーが条件に 1 回同意する必要があります。 マネージドサービス契約を締結しているお客様の場合、Adobeアカウントチームがお客様の同意を得て、組織に代わって条項に同意します。 用語を読むには、 **>**. 条件に同意するには、条件の下部までスクロールし、をクリックします **[!UICONTROL Accept]**.
 

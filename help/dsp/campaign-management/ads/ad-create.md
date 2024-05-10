@@ -3,7 +3,7 @@ title: 単一の広告を作成
 description: 単一のサードパーティ広告を作成する方法を説明します。
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >広告は、DSPと SSP の両方がクリエイティブを承認した場合にのみ提供されます。 各 SSP には、独自の承認要件とプロセスがあります。
+   >広告は、DSPと SSP の両方がクリエイティブを承認した場合にのみ提供できます。 各 SSP には、独自の承認要件とプロセスがあります。
 
 >[!MORELIKETHIS]
 >

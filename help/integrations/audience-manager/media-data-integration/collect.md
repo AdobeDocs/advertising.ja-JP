@@ -3,9 +3,9 @@ title: Advertising DSP キャンペーンからクリックとインプレッシ
 description: Audience Managerピクセルを使用して Advertising DSP広告から cookie ベースのインプレッションとクリックイベントをキャプチャする方法を説明します
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Audience Managerーで、 [データソース](https://experienceleague.adobe.co
 
 * `[Audience Manager customer domain]` は、インプレッションまたはクリックイベントを送信するドメイン名です。 [!DNL Adobe].
 
-* `[source id]` は、の ID です。 [データソース](#set-up-data-source) ここでは、DSP インプレッションを追跡し、データをクリックします。
+* `[source id]` は、の ID です。 [データソース](#set-up-data-source) でDSP インプレッションをトラッキングし、データをクリックします。
 
 * `[redirect URL]` はダブルエンコードされたリダイレクト URL です。 www.urlencoder.orgなどのオンラインエンコーディングツールを使用している場合は、エンコーダーを介して文字列を実行し、結果を再エンコードします。
 
@@ -112,7 +112,7 @@ Audience Managerがクリックイベントピクセルでサポートするマ�
 
 ## 手順 3：実装後のタスク
 
-イベントタグが実装されると、データはAudience Managerデータ収集サーバーに送られます。 レポートでデータを使用する前に、次のタスクを完了してください。
+イベント・タグが実装されると、データはAudience Managerデータ収集サーバに送られます。 レポートでデータを使用する前に、次のタスクを完了してください。
 
 ### を作成 [!DNL Amazon S3] バケットとデータソース
 
@@ -120,7 +120,7 @@ Audience Managerがクリックイベントピクセルでサポートするマ�
 
 ### Audience Managerの特性とセグメントの作成
 
-イベントデータは、次のようにAudience Managerに送られます。 [未使用のシグナル](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). 手動で作成 [ルールベースの特性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) を作成します [セグメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) レポートでデータを使用する前に、これらの特性を使用します。
+イベントデータは、次のようにAudience Managerに送られます [未使用のシグナル](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). 手動で作成 [ルールベースの特性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) を作成します [セグメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) レポートでデータを使用する前に、これらの特性を使用します。
 
 DSPで特定のクリエイティブに公開されたユーザーにユーザーレベルのデータを入力する特性の例は次のとおりです。
 

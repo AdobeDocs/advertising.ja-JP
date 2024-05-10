@@ -1,9 +1,9 @@
 ---
 title: について [!UICONTROL Deal ID Inbox]
-description: 詳しくは、 [!UICONTROL Deal ID inbox] 機能を使用すると、 [!DNL FreeWheel], [!DNL Google Authorized Buyers] ( 旧称： [!DNL AdX]), and [!DNL Magnite DV+] ( 以前の [!DNL Rubicon]) をクリックします。
+description: について説明します [!UICONTROL Deal ID inbox] この機能により、既にパブリッシャーとネゴシエートしたプライベートな取引を受け入れることができます [!DNL FreeWheel], [!DNL Google Authorized Buyers] （旧称： [!DNL AdX]), and [!DNL Magnite DV+] （formerly [!DNL Rubicon]）に設定します。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # について [!UICONTROL Deal ID Inbox]
 
-Advertising DSP [!UICONTROL Deal ID inbox] では、DSPがサプライサイドプラットフォーム (SSP) を通じてパブリッシャーからインポートした契約をすばやく設定できるので、各契約を手動で設定する必要がありません。 既にパブリッシャーと交渉した保証付きの、保証されていない非保証のプライベートインベントリ取引を受け入れることができます。 [!DNL FreeWheel], [!DNL Google Authorized Buyers] ( 旧称： [!DNL AdX]) および [!DNL Magnite DV+] ( 以前の [!DNL Rubicon]) を [!UICONTROL Deal ID inbox].
+広告DSP [!UICONTROL Deal ID inbox] では、DSPが SSP （Supply Side Platform）を通じてパブリッシャーからインポートした取引をすばやく設定できるので、各取引を手動で設定する必要はありません。 既にパブリッシャーと交渉した、保証されている/保証されていないプライベート在庫取引を受け入れることができます [!DNL FreeWheel], [!DNL Google Authorized Buyers] （旧称： [!DNL AdX]）、および [!DNL Magnite DV+] （formerly [!DNL Rubicon]）から [!UICONTROL Deal ID inbox].
 
 >[!NOTE]
 >
->Advertising DSPは、 [!DNL FreeWheel] API
+>Advertising DSPは、と統合された最初のDSPです [!DNL FreeWheel] API です。
 
-内 [!UICONTROL Deal ID inbox]を使用すると、パブリッシャーが契約を確認したときに契約の詳細を表示し、契約の設定を迅速化し、手動入力エラーを回避できます。
+が含まれる [!UICONTROL Deal ID inbox]を使用すると、パブリッシャーが表示する取引の詳細を確認し、取引の設定を迅速化し、手動入力エラーを回避できます。
 
 <!-- 
 Accepting a deal automatically pre-populates a new Deal ID record with details from the publisher, and you need to enter only the publisher [always? or just in some cases?], the media type, who can access the deal, and any attribute labels to apply to the deal so it's easy to find. [Are labels a dimension you can report on?]
@@ -30,49 +30,48 @@ You can accept any available deal or move an incorrect deal to the Ignored Deals
 For each deal, you can select one publisher and one media type (Desktop Video, Mobile Video, Connected TV, Display, or Audio), and you can share the deal with specific advertisers and with all advertisers for a specific account.
  -->
 
-DSPは、米国東部標準時の午前 4 時 30 分に、すべての契約の詳細を自動的に更新します。 また、すべての [!DNL FreeWheel] 既存の契約の契約と更新 [!DNL Google] および [!DNL Magnite DV+] 1 時間ごと。 また、契約の詳細を手動で更新して、新しい契約をいつでも作成できます。
+DSPは、毎日午前 4 時 30 分（EST）にすべての取引詳細を自動更新します。 また、すべての [!DNL FreeWheel] の取引と既存の取引の更新 [!DNL Google] および [!DNL Magnite DV+] 毎時。 また、取引詳細を手動で更新して、いつでも新しい取引を入力することもできます。
 
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
 >[!NOTE]
 >
->を通じてプログラムで保証された取引の場合 [!DNL Google Authorized Buyers]を使用する場合、予算の 90%以上を配信する必要があります。配信しないと、アカウントが [!DNL Google] 契約 [!UICONTROL Deal ID inbox].
+>を介したプログラムで保証された取引の場合 [!DNL Google Authorized Buyers]、予算の 90% 以上でを配信する必要があります。そうでない場合、アカウントがへのアクセスを失います [!DNL Google] 次の項目を取引 [!UICONTROL Deal ID inbox].
 
 ## の実装 [!UICONTROL Deal ID Inbox]
 
-お客様の契約を [!UICONTROL Deal ID inbox]の場合、SSP アカウントは組織のDSPアカウントを SSP アカウントにマッピングする必要があります。 DSPは、組織のアカウント名を関連する SSP と共有します。 手順については、Adobeアカウントチームにお問い合わせください。
+お得な情報を [!UICONTROL Deal ID inbox]を入力します。SSP アカウントは、組織のDSP アカウントを SSP アカウントにマッピングする必要があります。 DSPは、組織のアカウント名を関連する SSP と共有できます。 手順については、Adobeアカウントチームにお問い合わせください。
 
-契約ネゴシエーション中に、親DSPアカウントではなく購入者に契約を送信するようにパブリッシャーに伝えます。 契約識別子は、SSP に応じて、名前または ID にすることができます。
+取引ネゴシエーション中に、親DSPアカウントではなくバイヤーに取引を送付するようにパブリッシャに伝えます。 取引識別子は、SSP に応じて名前または ID にすることができます。
 
-## 契約に対して実行できるアクション
+## 取引に対して実行できるアクション
 
-* **契約のレビュー** SSP が正しい発行者、フライト日、CPM、その他の契約の詳細を送信したことを確認する。 パブリッシャーが間違いを犯した場合は、DSPの外部で問い合わせて、契約を修正し、再送信できるようにします。
+* **契約のレビュー** ssp が正しいパブリッシャー、フライト日、CPM、その他の契約の詳細を送信したことを確認します。 パブリッシャーが誤った場合は、DSP外のユーザーに連絡して、取引を修正し再送信してもらいます。
 
-* **契約の承認** 確認後、これらは [!UICONTROL Deal ID inbox]. 受け入れられた契約は、 [!UICONTROL Inventory] > [!UICONTROL Deals] 広告主の配置内でターゲティングする準備が整っている。
+* **取引の承認** 確認すると、に表示されなくなります [!UICONTROL Deal ID inbox]. 受け入れられた取引のリストは、次のとおりです。 [!UICONTROL Inventory] > [!UICONTROL Deals] 広告主のプレースメント内をターゲットにする準備ができています。
 
-* **契約を無視** 不要なものや迷惑をかけているものを除き、 無視された契約は、 [!UICONTROL Ignored Deals] タブ内の [!UICONTROL Deal ID inbox]：アーカイブとして機能します。 契約を無視した場合、DSPは SSP および発行者に警告を出しません。
+* **契約を無視** 不要または一方的です。 無視された取引はに移動されます [!UICONTROL Ignored Deals] 内のタブ [!UICONTROL Deal ID inbox]アーカイブとして機能します。 契約を無視しても、DSPは SSP やパブリッシャーに警告しません。
 
-* **既に承諾済みの契約の詳細を変更** から [!UICONTROL Inventory] > [!UICONTROL Deals] ( [!UICONTROL Deal ID inbox]) をクリックします。 同様に、パブリッシャーが契約に変更を送信する場合、広告主は、 [!UICONTROL Inventory] > [!UICONTROL Deals] なぜなら [!UICONTROL Deal ID inbox] は、契約の設定後に SSP からの変更を同期しません。
+* **既に承認済みの取引の詳細を変更** から [!UICONTROL Inventory] > [!UICONTROL Deals] （次に含まれない [!UICONTROL Deal ID inbox]）に設定します。 同様に、パブリッシャーが契約に変更を送信する場合、広告主は [!UICONTROL Inventory] > [!UICONTROL Deals] なぜなら [!UICONTROL Deal ID inbox] は、取引が設定された後に SSP からの変更を同期しません。
 
-## 受け入れられない契約のタイプは何ですか？
+## どのような種類の取引を受け入れることができますか？
 
-契約リストに ![確定](/help/dsp/assets/accept.png) アイコンまたは [!UICONTROL Accept] ボタンをクリックした場合、 [!UICONTROL Deal ID inbox]. 代わりに、 [契約 ID の詳細を手動で作成する](/help/dsp/inventory/deal-id-create.md).
+取引リストに ![承諾](/help/dsp/assets/accept.png) アイコンまたは [!UICONTROL Accept] ボタンを使用します。このボタンは、 [!UICONTROL Deal ID inbox]. 代わりに、次のことができます [取引 ID の詳細の手動作成](/help/dsp/inventory/deal-id-create.md).
 
-次の種類の契約は受け入れられません。
+以下のタイプの取引は受け付けられません。
 
-* [!DNL Google] の契約です。
+* [!DNL Google] 米ドル以外の契約。
 
-* [!DNL Magnite DV+] 米ドル以外の取引
+* [!DNL Magnite DV+] 米ドル以外の契約
 
-* [!DNL FreeWheel] 取引先責任者の口座通貨に含まれていない取引先責任者。
+* [!DNL FreeWheel] お使いのアカウントの通貨に含まれていない取引。
 
-* 今日より前の終了日を持つ契約。
+* 今日より前に終了日がある取引。
 
-* 古い [!DNL Magnite DV+] 「複数のメディアタイプ」というラベルの付いた契約。
+* 旧 [!DNL Magnite DV+] 「複数のメディアタイプ」というラベルが付けられた取引。
 
-契約の詳細には、契約を承認できない理由が含まれます。
+契約の詳細には、契約が受け入れられないという理由が含まれています。
 
 >[!MORELIKETHIS]
 >
->* [Deal ID インボックスでの契約の承認](deal-id-inbox-accept.md)
->* [在庫機能の概要](inventory-overview.md)
-
+>* [取引 ID インボックスでの取引の承認](deal-id-inbox-accept.md)
+>* [インベントリ機能の概要](inventory-overview.md)

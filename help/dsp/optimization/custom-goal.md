@@ -2,16 +2,17 @@
 title: カスタム目標
 description: 最低 CPA または最高 ROAS 用に最適化されたパッケージで成功イベントを定義するカスタム目標について説明します。
 feature: DSP Optimization
-source-git-commit: 7b9926d0bbba12728ed6a42e56115e8df708587b
+exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
 
 # カスタム目標
 
-カスタム目標は、広告主がビジネス目標を達成するために必要な成功イベントを定義します。 最適化目標「」を使用する各パッケージ[!UICONTROL Highest Return on Ad Spend (ROAS)"] または&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]「」には、全体的な最適化目標を達成するのに役立つカスタム目標を含める必要があります。 カスタムの目標は、次のように作成できます *目標* 。対象： [!DNL Advertising Search, Social, & Commerce].
+カスタム目標は、広告主がビジネス目標を達成するために必要な成功イベントを定義します。 最適化目標「」を使用する各パッケージ[!UICONTROL Highest Return on Ad Spend (ROAS)"] または&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]「全体的な最適化目標を達成するのに役立つカスタム目標を含める必要があります。 カスタムの目標は、次のように作成できます *目標* 。対象： [!DNL Advertising Search, Social, & Commerce].
 
 <!-- update image or omit it
 
@@ -103,7 +104,7 @@ ht-degree: 0%
 
 カスタム目標で複数の指標を使用する場合は、次の 2 つのシナリオがあります。
 
-* キャンペーンの目標には複数の成功イベントがあります。 例えば、複数のオンサイトアクション（PDFのダウンロード、お問い合わせ、電子メールのサインアップ）を広告している場合、すべてのアクションが CPA 目標に貢献します。 目標に 3 つの異なる指標が含まれ、それぞれに 1 つのモバイルおよびモバイル以外の重み付けが含まれる場合、 [!DNL Adobe Sensei] アルゴリズムは、各指標とユーザーデバイスタイプを同じ重要度で処理します。 指標やデバイスタイプによってコストや重要度が異なる場合は、それに応じて相対的な重み付けを調整します。
+* キャンペーンの目標には複数の成功イベントがあります。 例えば、複数のオンサイトアクション（PDFのダウンロード、お問い合わせ、電子メールのサインアップ）を広告している場合、すべてのアクションが CPA 目標に貢献します。 目標に 3 つの異なる指標が含まれ、それぞれに 1 つのモバイルおよびモバイル以外の重み付けが含まれる場合、次のようになります [!DNL Adobe Sensei] アルゴリズムでは、各指標とユーザーデバイスタイプが同じ重要度で処理されます。 指標やデバイスタイプによってコストや重要度が異なる場合は、それに応じて相対的な重み付けを調整します。
 
 <!-- update image or delete it and adjust the wording above
 

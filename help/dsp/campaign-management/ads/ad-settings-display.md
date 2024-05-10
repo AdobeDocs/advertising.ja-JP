@@ -3,9 +3,9 @@ title: 広告設定を表示
 description: ディスプレイ広告に使用できる広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final Display Code]:** （サードパーティ広告のみ）サードパーティのクリエイティブアセットの URL （必要な場合） [Advertising DSP トラッキングマクロ](/help/dsp/campaign-management/macros.md) 挿入（該当する場合）。
 
-**[!UICONTROL Ad Size]:** 広告の幅と高さ。 必ず [サポートされる標準表示広告サイズ](ad-specs.md). 広告をアップロードする前または広告を入力する前に、広告サイズを手動で入力できます [!UICONTROL Display Code]. 広告サイズを入力しない場合、アップロードされた広告または広告タグの寸法は自動的に読み取り専用として入力されます。 サイズが標準ディスプレイに含まれていない場合（例：広告サイズ 300 x 250 ではなく 301 x 250）、ディスプレイ広告は保存されません。
+**[!UICONTROL Ad Size]:** 広告の幅と高さ。 必ず [サポートされる標準表示広告サイズ](ad-specs.md). 広告をアップロードする前または広告を入力する前に、広告サイズを手動で入力できます [!UICONTROL Display Code]. 広告サイズを入力しない場合、アップロードされた広告または広告タグの寸法は自動的に読み取り専用として入力されます。
 
 >[!IMPORTANT]
 >

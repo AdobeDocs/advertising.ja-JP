@@ -3,9 +3,9 @@ title: の JavaScript コード [!DNL Analytics for Advertising]
 description: の JavaScript コード [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ JavaScript ライブラリは、 [!DNL Analytics] お互いにコミュニケー
    | Analytics レポートスイート | 次の後の値 `/b/ss/` | | `_les_rsid` |
    | Experience Cloud訪問者 ID | mid |  | `_les_mid` |
 
-   ID 値が一致する場合、JavaScript 実装が確認されます。 Adobe Advertisingは、 [!DNL Analytics] サーバークリックスルーまたはビュースルートラッキングの詳細（存在する場合）。
+   ID 値が一致する場合、JavaScript 実装が確認されます。 Adobe Advertisingがを送信 [!DNL Analytics] サーバークリックスルーまたはビュースルートラッキングの詳細（存在する場合）。
 
 #### でコードを確認する方法 [!DNL Adobe Experience Cloud Debugger]
 

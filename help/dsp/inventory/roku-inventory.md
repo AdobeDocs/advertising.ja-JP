@@ -1,86 +1,85 @@
 ---
 title: 使用 [!DNL Roku] 在庫
-description: とのDSPパートナーシップについて学ぶ [!DNL Roku]（在庫オプション、承認されたサードパーティトラッキングベンダー、および以下のベストプラクティスを含む） [!DNL Roku] — 特定の配置。
+description: とのDSP パートナーシップについて [!DNL Roku]（在庫オプション、承認済みのサードパーティトラッキングベンダー、のベストプラクティスを含む） [!DNL Roku]固有のプレースメント。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
 # 使用 [!DNL Roku] 在庫
 
-Advertising DSPは、 [!DNL Roku].
+Advertising DSPは、での広告に独自の機能を提供します [!DNL Roku].
 
-## DSPと [!DNL Roku] パートナーシップ
+## DSPと [!DNL Roku] 提携
 
-Roku とDSPは、お客様の [!DNL DSP] オーディエンス [!DNL Roku] での 1:1 決定論的オーディエンスのターゲティングのための ID [!DNL Roku] 在庫。
+Roku とDSPには、に合った独自のパートナーシップがあります [!DNL DSP] オーディエンスの対象 [!DNL Roku] に対する 1 対 1 の決定論的オーディエンスターゲティングの ID [!DNL Roku] 在庫。
 
-Roku 独自のDSP(OneView) 以外では、Advertising DSPはこれらのターゲティング機能にのみアクセスできます。 また、測定権限を持つDSPは Advertising DSPのみです [!DNL Roku] 他のすべての接続済みテレビ (CTV) 在庫の横にある供給。 理由： [!DNL Roku] では、すべての標準的な RTB とインプレッションピクセル信号を共有するわけではなく、Roku が販売する CTV サプライ全体を対象にしたり測定したりできるDSPは他にありません。
+Roku 独自のDSP（OneView）以外では、Advertising DSPはこれらのターゲティング機能にのみアクセスできます。 Advertising DSPも、測定権限を持つ唯一のDSPです [!DNL Roku] 他のすべての接続された TV （CTV）インベントリの横にある電源を供給します。 なぜなら [!DNL Roku] では、標準の RTB およびインプレッションピクセル信号をすべて共有しているわけではありません。他のDSPでは、Roku が販売する CTV 製品全体を対象または測定することはできません。
 
 ## [!DNL Roku] 在庫オプション
 
-(a) を使用して直接個人契約 ID を設定するか、 [!DNL Roku] 次に、契約 ID データをDSPに入力するか、b) [!DNL On Demand] 購読するギャラリー [!DNL Roku] プロファイル：
+a）で直接民間取引 ID を設定できます。 [!DNL Roku] 次に、取引 ID データをDSPに入力します。または、b）にアクセスします。 [!DNL On Demand] 購読するギャラリー [!DNL Roku] プロファイル：
 
 >[!NOTE]
 >
->[!DNL Roku] オープンなマーケットプレイスやエクスチェンジでは、在庫を利用できません。
+>[!DNL Roku] 在庫は、オープンなマーケットプレイスおよび取引所では利用できません。
 
-* 個人的な取引の場合 [DSPでの契約 ID に関する情報の設定](/help/dsp/inventory/deal-id-create.md) その後、[!UICONTROL Roku Network – Audience]&quot;および&quot;[!UICONTROL The Roku Channel – Audience]」内 [!DNL Roku] 配置。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals will show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* プライベートな取引では、 [DSPでの取引 ID に関する情報の設定](/help/dsp/inventory/deal-id-create.md) 次に、をターゲットにします」[!UICONTROL Roku Network – Audience]「」と「」に対して検査する値[!UICONTROL The Roku Channel – Audience]内に [!DNL Roku] プレースメント。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
-* 以下が可能です。 [以下を購読する [!DNL Roku] 内の在庫 [!DNL On Demand] ギャラリー](/help/dsp/inventory/on-demand-inventory-subscribe.md)をクリックし、内で承認済みの契約のターゲットを設定します。 [!DNL Roku] 配置：
+* 次のことができます [以下を購読 [!DNL Roku] 内の在庫 [!DNL On Demand] ギャラリー](/help/dsp/inventory/on-demand-inventory-subscribe.md)を選択し、内の承認済み取引のいずれかをターゲットにします [!DNL Roku] プレースメント :
 
-   * &quot;[!UICONTROL Roku Network – Audience]&#39;&#39;全体のインベントリに対して [!DNL Roku] プレミアムコンテンツパートナーを持つエコシステム： [!DNL The CW], [!DNL ABC]、および [!DNL ESPN].
-   * &quot;[!UICONTROL The Roku Channel – Audience]」 [!DNL Roku] 所有および運用 (O&amp;O) アプリコンテンツ。
+   * “[!UICONTROL Roku Network – Audience]」に移動します [!DNL Roku] 次のようなプレミアムコンテンツパートナーとのエコシステム [!DNL The CW], [!DNL ABC]、および [!DNL ESPN].
+   * “[!UICONTROL The Roku Channel – Audience]の場合 [!DNL Roku] 所有および運用（O&amp;O）アプリコンテンツ。
 
-### を使用したプライベートマーケットプレースのカスタマイズの利点 [!DNL Roku]
+### を使用してプライベートマーケットプレイスをカスタマイズする場合の利点 [!DNL Roku]
 
-プライベート契約では、ニーズに応じて契約パラメーターをカスタマイズできます。
+プライベート取引では、必要に応じて取引パラメーターをカスタマイズできます。
 
-* **ネゴシエートされた価格：** の操作 [!DNL Roku] セールスチームが交渉し、キャンペーンのニーズを満たす契約を構築する。
+* **交渉済み価格：** の操作 [!DNL Roku] セールス・チームは、お客様のキャンペーン・ニーズを満たす案件の交渉と構築を行います。
 
-* **スケールの優先度：** プライベートマーケットプレイス (PMP) は、常時取引 ( [!DNL On Demand] 契約 )。
+* **スケールの優先度：** プライベートマーケットプレイス（PMP）は、常に成立する取引よりも優先度が高くなります（例： [!DNL On Demand] 契約）。
 
-* **頻度管理：** この [!DNL Roku] デフォルトの頻度キャップは、1 人のユーザーにつき 1(1)、30 分ごとに 1 ですが、この上限は時間、日、週、月、または全期間ごとにカスタマイズできます。<!-- Within the DSP placement settings? NO - you negotiate this with Roku, but Christine to confirm with Amanda whether you should be able to edit this in placement. -->
+* **頻度管理：** この [!DNL Roku] デフォルトのフリークエンシーキャップは、ユーザーあたり 30 分あたり 1 広告ですが、時間、日、週、月またはフライト期間全体でキャップをカスタマイズできます。<!-- Within the DSP placement settings? NO - you negotiate this with Roku, but Christine to confirm with Amanda whether you should be able to edit this in placement. -->
 
-* **[!DNL Roku]データのターゲティング：** [!DNL Roku] オーディエンスは [!DNL Roku] デバイスとテレビ信号、 [!DNL The Roku Channel] （TV ジャンルの親和性、ストリーミング TV の行動、ケーブル購読のステータスなど）および [!DNL Roku] 顧客関係管理 (CRM) システム。
+* **[!DNL Roku]データターゲティング：** [!DNL Roku] オーディエンスは、次の要素から構成されます [!DNL Roku] デバイスとテレビ信号、追跡対象のデータ [!DNL The Roku Channel] （テレビのジャンル親和性、ストリーミング TV の動作、ケーブル購読ステータスなど）、 [!DNL Roku] 顧客関係管理（CRM）システム。
 
-* **[!DNL Roku]コンテンツのターゲット設定：** プライベート契約では、ジャンル別、アプリのの適用ブロックリスト別、季節別、テンポレイアントイベント別、および [!DNL The Roku Channel] のみ。
+* **[!DNL Roku]コンテンツのターゲティング：** ブロックリストに加える プライベート契約では、ジャンル、アプリの用途、季節的およびテントポールイベント、および内の番組ごとにアプリをターゲットにすることができます [!DNL The Roku Channel] のみ。
 
-## [!DNL Roku] 配置
+## [!DNL Roku] Placements
 
-DSPキャンペーンで、 [作成 [!DNL Roku] — 特定の配置](/help/dsp/campaign-management/placements/placement-create.md) 配置タイプ&quot;[!UICONTROL Connected TV (Roku)].&quot; 次を含む [!DNL Roku] 配置 [!DNL Roku] — 定義された目標を含む特定のパッケージ。
+DSP キャンペーンでは、 [作成 [!DNL Roku]-specific placements](/help/dsp/campaign-management/placements/placement-create.md) プレースメント タイプの使用」[!UICONTROL Connected TV (Roku)].」と入力します。 次を含める [!DNL Roku] プレースメント [!DNL Roku]目標が定義された固有のパッケージ。
 
-各 [!DNL Roku] 配置は少なくとも 1 つをターゲットにする必要があります [!DNL Roku] 契約またはソース。 次と一致するDSPの一意のオーディエンスを使用するには： [!DNL Roku]の場合、 [!DNL Roku] （オプトイン）決定論的データセット。
+Each [!DNL Roku] プレースメントは、少なくとも 1 つをターゲットにする必要があります [!DNL Roku] 取引またはソース。 でDSPの一意のオーディエンスマッチングを使用するには [!DNL Roku]、と照合できる 1 つ以上のオーディエンスセグメントを含めます [!DNL Roku] （オプトイン）決定論的データセット。
 
-### [!DNL Roku] — 承認済みのサードパーティ追跡ベンダー
+### [!DNL Roku] – 承認されたサードパーティトラッキングベンダー
 
-[!DNL Roku] 配置には、次のベンダーのサードパーティイベントピクセルとコンバージョンピクセルを含めることができます。  [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk]、および [!DNL Research Now].
+[!DNL Roku] プレースメントには、次のベンダーのサードパーティイベントピクセルとコンバージョンピクセルを含めることができます。  [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk]、および [!DNL Research Now].
 
-### 配置戦略別のベストプラクティス
+### プレースメント戦略別のベストプラクティス
 
-次に、 [!DNL Roku] — 特定の配置。
+の推奨プラクティスを次に示します [!DNL Roku]固有のプレースメント。
 
 増分リーチを最大化するには：
 
-* 次の公開されたオーディエンスを抑制： [!DNL Roku O&O] 既に次を使用して到達済みのオーディエンスを除外する [!DNL The Roku Channel].
+* で公開されるオーディエンスを抑制 [!DNL Roku O&O] を使用して既に到達したオーディエンスを除外する [!DNL The Roku Channel].
 
-* 次の公開されたオーディエンスを抑制： [!DNL All Roku] を除外するために、 [!DNL Roku] プラットフォーム。
+* で公開されるオーディエンスを抑制 [!DNL All Roku] に既に到達したオーディエンスを除外する [!DNL Roku] プラットフォーム。
 
-最も速いセットアップのために：
+最速のセットアップを実現：
 
-* の既存の、常時オンの契約のターゲット設定 [!DNL The Roku Channel] in [[!DNL On Demand] 在庫](/help/dsp/inventory/on-demand-inventory-subscribe.md) 素早くアクセスする [!DNL Roku] 所有および運用される在庫
-* の既存の、常時オンの契約のターゲット設定 [!DNL Roku Network] in [[!DNL On Demand] 在庫](/help/dsp/inventory/on-demand-inventory-subscribe.md) 大きさを早く達成する [!DNL Roku] プラットフォーム。
+* 既存の常時稼動の契約のターゲット [!DNL The Roku Channel] 。対象： [[!DNL On Demand] 在庫](/help/dsp/inventory/on-demand-inventory-subscribe.md) すばやくアクセスする [!DNL Roku] 所有済み及び運用済み在庫。
+* 既存の常時稼動の契約のターゲット [!DNL Roku Network] 。対象： [[!DNL On Demand] 在庫](/help/dsp/inventory/on-demand-inventory-subscribe.md) を横断して迅速にスケールを達成する [!DNL Roku] プラットフォーム。
 
-最大スケールに対して：
+最大スケールに設定：
 
-* のカスタマイズ [!DNL Roku] ～へのアクセスを優先する民間市場 [!DNL Roku] 交渉価格での供給。
+* のカスタマイズ [!DNL Roku] 優先的に利用できる民間市場 [!DNL Roku] 交渉価格で供給すること。
 
 >[!MORELIKETHIS]
 >
->* [Deal ID の詳細の手動作成](/help/dsp/inventory/deal-id-create.md)
-> * [購読してへのアクセスをリクエスト [!DNL On Demand] プレミアム在庫取引](/help/dsp/inventory/on-demand-inventory-subscribe.md)
->* [配置の作成](/help/dsp/campaign-management/placements/placement-create.md)
-
+>* [取引 ID の詳細の手動作成](/help/dsp/inventory/deal-id-create.md)
+> * [購読して次へのアクセスをリクエスト： [!DNL On Demand] プレミアム在庫取引](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+>* [プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)
