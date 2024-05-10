@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] 広告グループ設定'
-description: の設定を参照します [!DNL Microsoft® Advertising] 広告グループ。
+title: '''[!DNL Microsoft Advertising] 広告グループ設定'
+description: の設定を参照します [!DNL Microsoft Advertising] 広告グループ。
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] 広告グループ設定
+# [!DNL Microsoft Advertising] 広告グループ設定
 
 ## [!UICONTROL Adgroup Details]
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]:** （広告を検索）広告グループ内に広告を配置する方法と場所：
 
-* *[!UICONTROL Only Microsoft® Advertising and Yahoo! websites]* （デフォルト）：広告の入札を検索ネットワークに配置します。
+* *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* （デフォルト）：広告の入札を検索ネットワークに配置します。
 
-* *[!UICONTROL Only Microsoft® Advertising and Yahoo! syndicated search partners]:* 同時配信されるパートナーサイトに広告の入札を行う。
+* *[!UICONTROL Only Microsoft Advertising and Yahoo! syndicated search partners]:* 同時配信されるパートナーサイトに広告の入札を行う。
 
 * *[!UICONTROL Content network]:* 非推奨
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/location-targets.md}}
 
-の場合 [!DNL Microsoft® Advertising] オーディエンスネットワークの広告グループ、ロケーションターゲットの入札修飾子は、「[!UICONTROL Auto-optimize Bid Adjustment Values]」設定です。
+の場合 [!DNL Microsoft Advertising] オーディエンスネットワークの広告グループ、ロケーションターゲットの入札修飾子は、「[!UICONTROL Auto-optimize Bid Adjustment Values]」設定です。
 
 **[!UICONTROL Genre]:** （の広告グループ [!UICONTROL Audience CTV Video] キャンペーン：米国、CA、BR、MX、UK、DE、ES、FR、IT、AU、MY および TH で使用可能<!-- Should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->）ターゲットジャンル。広告を表示する番組とチャネルを決定します。
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]:** （ディスプレイ/ネイティブネットワーク上のキャンペーンのみ。オプション）広告を表示しないディスプレイネットワーク上のサイト。 www.example.comのように、有効な URL を入力します。 複数の文字列を指定する場合は、コンマで区切るか、別の行に入力します。
 
-可用性の詳細については、を参照してください [!DNL Microsoft® Advertising] ヘルプ対象&#39;&#39;[特定の web サイトに広告が表示されないようにする](https://help.ads.microsoft.com/#apex/bae/en/14061/0).」と入力します。
+可用性の詳細については、を参照してください [!DNL Microsoft Advertising] ヘルプ対象&#39;&#39;[特定の web サイトに広告が表示されないようにする](https://help.ads.microsoft.com/#apex/bae/en/14061/0).」と入力します。
 
 >[!MORELIKETHIS]
 >

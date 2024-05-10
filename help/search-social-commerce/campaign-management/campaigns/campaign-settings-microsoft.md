@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] キャンペーン設定'
-description: の設定を参照します [!DNL Microsoft® Advertising] キャンペーン。
+title: '''[!DNL Microsoft Advertising] キャンペーン設定'
+description: の設定を参照します [!DNL Microsoft Advertising] キャンペーン。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1966'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] キャンペーン設定
+# [!DNL Microsoft Advertising] キャンペーン設定
 
 ## \[ キャンペーン作成画面\]
 
@@ -18,19 +18,19 @@ ht-degree: 0%
 
 * *[!UICONTROL Search]:* 検索ネットワークのテキスト広告を表示します。
 
-* *[!UICONTROL Shopping Network]:* 製品の広告を表示します – に含まれる製品の [!DNL Microsoft® Merchant Center] 製品カタログ：ショッピング・ネットワーク上。
+* *[!UICONTROL Shopping Network]:* 製品の広告を表示します – に含まれる製品の [!DNL Microsoft Merchant Center] 製品カタログ：ショッピング・ネットワーク上。
 
-* *[!UICONTROL Audience]:* のネイティブ/ディスプレイ広告を表示 [!DNL Microsoft® Audience Network]. a） キャンペーンを次のマーチャントセンターストアにリンクすることで、フィードベースの広告を自動的に生成できます [!UICONTROL Shopping Settings] セクションまたは b） テキストアセットとアップロードした画像を使用してレスポンシブ広告を作成します。 どちらのオプションでも、ユーザーターゲティングを使用して広告グループを作成する必要があります。
+* *[!UICONTROL Audience]:* のネイティブ/ディスプレイ広告を表示 [!DNL Microsoft Audience Network]. a） キャンペーンを次のマーチャントセンターストアにリンクすることで、フィードベースの広告を自動的に生成できます [!UICONTROL Shopping Settings] セクションまたは b） テキストアセットとアップロードした画像を使用してレスポンシブ広告を作成します。 どちらのオプションでも、ユーザーターゲティングを使用して広告グループを作成する必要があります。
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* （ベータ版機能）検索およびオーディエンスネットワーク全体でリンクされた小売業者を通じて製品を宣伝します。 キャンペーンの子広告グループと製品グループ（昇格するアプリ）、およびオプションの製品広告を作成できます。 [!DNL Microsoft® Advertising] 製品グループの広告を自動的に作成します。 ブランドのショッピングキャンペーンの場合は、入札戦略を使用します [!UICONTROL Manual CPC]; ブランドのショッピングプロモーションの場合は、入札戦略を使用します [!UICONTROL Cost per Sale].
+* *[!UICONTROL Shopping Campaigns for Brands]:* （ベータ版機能）検索およびオーディエンスネットワーク全体でリンクされた小売業者を通じて製品を宣伝します。 キャンペーンの子広告グループと製品グループ（昇格するアプリ）、およびオプションの製品広告を作成できます。 [!DNL Microsoft Advertising] 製品グループの広告を自動的に作成します。 ブランドのショッピングキャンペーンの場合は、入札戦略を使用します [!UICONTROL Manual CPC]; ブランドのショッピングプロモーションの場合は、入札戦略を使用します [!UICONTROL Cost per Sale].
 
-* *[!UICONTROL Microsoft® Store Ads Campaign]:* （ベータ版機能）で利用可能なアプリやゲームを昇格します。 [!DNL Microsoft® Store]. キャンペーンの子広告グループ、製品グループおよびオプションの製品広告を作成できます。 [!DNL Microsoft® Advertising] 製品グループの広告を自動的に作成します。
+* *[!UICONTROL Microsoft Store Ads Campaign]:* （ベータ版機能）で利用可能なアプリやゲームを昇格します。 [!DNL Microsoft Store]. キャンペーンの子広告グループ、製品グループおよびオプションの製品広告を作成できます。 [!DNL Microsoft Advertising] 製品グループの広告を自動的に作成します。
 
 * *[!UICONTROL Audience CTV Video]:* （ベータ版機能）接続された TV （CTV）ビデオ広告をオーディエンスネットワークで表示します。
 
 * *[!UICONTROL Audience Video]:* （ベータ版機能）オーディエンスネットワーク上の標準ビデオ広告を表示します。
 
-* *[!UICONTROL Performance Max]:* （ベータ版機能）を使用して、すべてのネットワークにわたって複数の広告タイプを表示します [!DNL Microsoft® Advertising] スマート入札。 キャンペーンの設定内で、1 つ以上のアセットグループを指定する必要があります。このグループには、画像、ロゴ、ヘッドライン、説明、オプションのコールトゥアクション、オーディエンスシグナルが含まれます。 広告ネットワークは、アセットを自動的に組み合わせて、チャネルに基づいて広告を提供します。
+* *[!UICONTROL Performance Max]:* （ベータ版機能）を使用して、すべてのネットワークにわたって複数の広告タイプを表示します [!DNL Microsoft Advertising] スマート入札。 キャンペーンの設定内で、1 つ以上のアセットグループを指定する必要があります。このグループには、画像、ロゴ、ヘッドライン、説明、オプションのコールトゥアクション、オーディエンスシグナルが含まれます。 広告ネットワークは、アセットを自動的に組み合わせて、チャネルに基づいて広告を提供します。
 
 ## [!UICONTROL Campaign Details]
 
@@ -68,11 +68,11 @@ ht-degree: 0%
 
   eCPC を使用してキャンペーンを最適化された検索、ソーシャル、Commerce ポートフォリオに追加すると、検索、ソーシャル、Commerceによってベース入札が最適化され、「[!UICONTROL Auto adjust campaign budget limits]「」オプションが有効になっています – キャンペーンの予算。 アドネットワークは、すべての入札調整を最適化し、独自のデータとインサイトに基づいて、ユーザークエリ時に検索、ソーシャル、Commerceで生成された入札を変更する可能性があります。 **注意：** ポートフォリオで eCPC キャンペーンを使用するのは、広告ネットワークで追跡されるコンバージョンの合計がポートフォリオの目的と合致する場合のみです。
 
-* *[!UICONTROL Manual CPC]*: （ブランドのショッピングキャンペーン； [!DNL Microsoft® Store Ads] キャンペーン、廃止者 [!DNL Microsoft® Advertising] 2021 年（その他のキャンペーンタイプの場合） クリック単価（CPC）モデルを使用します。 一部の広告タイプでは、オプションで、広告ネットワークにキャンペーンの入札の変更を許可できます。
+* *[!UICONTROL Manual CPC]*: （ブランドのショッピングキャンペーン； [!DNL Microsoft Store Ads] キャンペーン、廃止者 [!DNL Microsoft Advertising] 2021 年（その他のキャンペーンタイプの場合） クリック単価（CPC）モデルを使用します。 一部の広告タイプでは、オプションで、広告ネットワークにキャンペーンの入札の変更を許可できます。
 
    * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）：このオプションは、「」を使用した場合と同じです[!UICONTROL Enhanced CPC]」オプションを選択します。
 
-* *[!UICONTROL Manual CPA]:* （[!DNL Microsoft® Store Ads] キャンペーン）獲得あたりのコスト（CPA）モデルを使用します。
+* *[!UICONTROL Manual CPA]:* （[!DNL Microsoft Store Ads] キャンペーン）獲得あたりのコスト（CPA）モデルを使用します。
 
 * *[!UICONTROL Manual CPM]* （オーディエンスキャンペーンおよびオーディエンスビデオキャンペーンのみ） 1,000 回の表示インプレッションごとに使用する費用を指定する、1,000 インプレッションあたりのコスト（CPM） モデルを使用します。 この入札戦略を使用したキャンペーンは、ポートフォリオに含まれている場合、最適化されません。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 <!-- **[!UICONTROL Campaign Priority]:** -->
 
-**[!UICONTROL Link with Microsoft® Merchant Center]:** （オーディエンスキャンペーンのみ。オプション）レスポンシブ広告ではなく、自動化されたフィードベース広告のために、キャンペーンを特定のマーチャントセンターストアにリンクします。 このオプションを選択した場合は、 [!UICONTROL Merchant ID] および [!UICONTROL Products]. キャンペーンの広告グループを作成する必要がありますが、広告を作成する必要はありません。
+**[!UICONTROL Link with Microsoft Merchant Center]:** （オーディエンスキャンペーンのみ。オプション）レスポンシブ広告ではなく、自動化されたフィードベース広告のために、キャンペーンを特定のマーチャントセンターストアにリンクします。 このオプションを選択した場合は、 [!UICONTROL Merchant ID] および [!UICONTROL Products]. キャンペーンの広告グループを作成する必要がありますが、広告を作成する必要はありません。
 
 キャンペーンをストアにリンクして設定を保存すると、このオプションを変更できなくなります。
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Targeting]
 
-**[!UICONTROL Languages]:** （Performance MAX キャンペーンのみ）広告の言語。広告が表示されるサイトの言語と一致する必要があります。 [!DNL Microsoft® Advertising] ユーザーのクエリ、発行者の国、ユーザーの言語設定など、様々なシグナルからユーザーの言語を決定します。
+**[!UICONTROL Languages]:** （Performance MAX キャンペーンのみ）広告の言語。広告が表示されるサイトの言語と一致する必要があります。 [!DNL Microsoft Advertising] ユーザーのクエリ、発行者の国、ユーザーの言語設定など、様々なシグナルからユーザーの言語を決定します。
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]:** （ディスプレイ/ネイティブネットワーク上のキャンペーンのみ。オプション）広告を表示しないディスプレイネットワーク上のサイト。 www.example.comのように、有効な URL を入力します。 複数の文字列を指定する場合は、コンマで区切るか、別の行に入力します。
 
-提供状況について詳しくは、Microsoft® Advertising ヘルプを参照してください。[特定の web サイトに広告が表示されないようにする](https://help.ads.microsoft.com/#apex/bae/en/14061/0).」と入力します。
+提供状況について詳しくは、Microsoft Advertising ヘルプを参照してください。[特定の web サイトに広告が表示されないようにする](https://help.ads.microsoft.com/#apex/bae/en/14061/0).」と入力します。
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]:** アセットグループから作成されたすべての広告の最終的な URL。
 
-**[!UICONTROL Images]:** 少なくとも 1 つの正方形の画像と 1 つの横の画像を含む、広告の最大 20 の画像。 を参照してください。 [[!DNL Microsoft® Advertising] 画像のガイドライン](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 画像をアップロードするか、から選択できます [!UICONTROL Asset Library]  – ただし、同じ操作で両方が同時に実行されるわけではありません。
+**[!UICONTROL Images]:** 少なくとも 1 つの正方形の画像と 1 つの横の画像を含む、広告の最大 20 の画像。 を参照してください。 [[!DNL Microsoft Advertising] 画像のガイドライン](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 画像をアップロードするか、から選択できます [!UICONTROL Asset Library]  – ただし、同じ操作で両方が同時に実行されるわけではありません。
 
 * 画像をアップロードするには：
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 
 * から画像を選択するには [!UICONTROL Asset Library]を選択し、 **[!UICONTROL Asset Library]** 画像を選択します。
 
-**[!UICONTROL Logos]:** 少なくとも 1 つのロゴ。 最大 5 つを含めることができます。 を参照してください。 [[!DNL Microsoft® Advertising] アセットガイドライン](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 画像をアップロードするか、から選択できます [!UICONTROL Asset Library]  – ただし、同じ操作で両方が同時に実行されるわけではありません。
+**[!UICONTROL Logos]:** 少なくとも 1 つのロゴ。 最大 5 つを含めることができます。 を参照してください。 [[!DNL Microsoft Advertising] アセットガイドライン](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 画像をアップロードするか、から選択できます [!UICONTROL Asset Library]  – ただし、同じ操作で両方が同時に実行されるわけではありません。
 
 * 画像をアップロードするには：
 
@@ -284,7 +284,7 @@ ht-degree: 0%
 
 **[!UICONTROL Business Name]:** ビジネス名（最大 25 文字）。 スクリプト、HTML、またはその他のマークアップ言語を含めることはできません。
 
-**[!UICONTROL Audience Signal]:** （オプション） [!DNL Microsoft® Advertising] キャンペーンのオーディエンスシグナルとして使用するオーディエンス。 [!DNL Microsoft® Advertising] 機械学習モデルでは、オーディエンスを使用して、ターゲットとする類似の web サーファーを見つけます。また、パフォーマンス目標の達成に役立つシグナルとして指定されていないオーディエンスに広告を表示することもできます。 コンバージョンする可能性が最も高いオーディエンスを選択します。
+**[!UICONTROL Audience Signal]:** （オプション） [!DNL Microsoft Advertising] キャンペーンのオーディエンスシグナルとして使用するオーディエンス。 [!DNL Microsoft Advertising] 機械学習モデルでは、オーディエンスを使用して、ターゲットとする類似の web サーファーを見つけます。また、パフォーマンス目標の達成に役立つシグナルとして指定されていないオーディエンスに広告を表示することもできます。 コンバージョンする可能性が最も高いオーディエンスを選択します。
 
 >[!NOTE]
 >オーディエンスシグナルは、とは異なります [広告グループレベルのオーディエンスターゲット](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).

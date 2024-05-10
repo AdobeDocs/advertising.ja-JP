@@ -3,7 +3,7 @@ title: 在庫フィードの広告テンプレートの管理
 description: アカウント構造を管理し、動的広告を配信するためにインベントリデータを処理できる広告テンプレートの管理について説明します。
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 在庫フィードの広告テンプレートの管理
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] （削除アクションのみ）、 [!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] （削除アクションのみ）、 [!DNL Yandex] アカウントのみ*
 
-データをアップロードする前または後に、データを処理できる検索エンジン固有の広告テンプレートを作成できます。 テキスト広告や拡張テキスト広告のテンプレートを作成できます。 [!DNL Google Ads] および [!DNL Microsoft® Advertising] レスポンシブ検索広告と [!DNL Google Ads] および [!DNL Microsoft® Advertising] ショッピング広告。
+データをアップロードする前または後に、データを処理できる検索エンジン固有の広告テンプレートを作成できます。 テキスト広告や拡張テキスト広告のテンプレートを作成できます。 [!DNL Google Ads] および [!DNL Microsoft Advertising] レスポンシブ検索広告と [!DNL Google Ads] および [!DNL Microsoft Advertising] ショッピング広告。
 
-各テンプレートを 1 つのフィードファイル、 [!DNL Google Merchant Center] account、または [!DNL Microsoft® Merchant Center] 複数のテンプレートを同じフィードファイルまたはアカウントに関連付けることができます。 広告テンプレートには、アップロードされたファイルまたはアカウントの実際のデータ列で置き換えられた変数を含めることができます。 ほとんどの場合、変数には次の値も含まれます [修飾子グループ](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 検索、ソーシャル、Commerceでを設定して、データファイル内の該当する行ごとに複数の広告、キーワード、キャンペーンまたは広告グループを作成します。 テンプレートオプションを使用すると、広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成したり、広告を既存のアカウント構造にマッピングしたりできます。
+各テンプレートを 1 つのフィードファイル、 [!DNL Google Merchant Center] account、または [!DNL Microsoft Merchant Center] 複数のテンプレートを同じフィードファイルまたはアカウントに関連付けることができます。 広告テンプレートには、アップロードされたファイルまたはアカウントの実際のデータ列で置き換えられた変数を含めることができます。 ほとんどの場合、変数には次の値も含まれます [修飾子グループ](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 検索、ソーシャル、Commerceでを設定して、データファイル内の該当する行ごとに複数の広告、キーワード、キャンペーンまたは広告グループを作成します。 テンプレートオプションを使用すると、広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成したり、広告を既存のアカウント構造にマッピングしたりできます。
 
 新しいテンプレートをゼロから作成する以外にも、既存のテンプレートを複製して新しいテンプレートを作成したり、既存のテンプレートを編集したりできます。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## フィードテンプレートの作成、クローンまたは編集
 
-テキスト広告と拡張/テキスト広告、レスポンシブ検索広告に対して個別のテンプレートを作成します。 [!DNL Google Ads] ショッピング広告 [!DNL Microsoft® Advertising] ショッピング広告。
+テキスト広告と拡張/テキスト広告、レスポンシブ検索広告に対して個別のテンプレートを作成します。 [!DNL Google Ads] ショッピング広告 [!DNL Microsoft Advertising] ショッピング広告。
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;が開き、が表示されます。 [!UICONTROL Templates] タブ。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * （既存のテンプレートを編集するには）テンプレート名の横にある ![設定の表示/編集](/help/search-social-commerce/assets/settings.png "設定の表示/編集").
 
-1. の設定を指定します [テキスト広告テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] ショッピング広告テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)、または [[!DNL Microsoft® Advertising] ショッピング広告テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
+1. の設定を指定します [テキスト広告テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] ショッピング広告テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)、または [[!DNL Microsoft Advertising] ショッピング広告テンプレート](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
    1. テンプレート設定ウィンドウの上部で、テンプレート名と該当するアカウントを指定します。
 
@@ -158,5 +158,5 @@ ht-degree: 0%
 >* [在庫フィードを使用した広告管理の自動化について](../inventory-feeds-about.md)
 >* [テキスト広告とレスポンシブ検索広告テンプレートの設定](template-text-rsa.md)
 >* [[!DNL Google Ads] 買い物とテンプレートの設定](template-google-shopping.md)
->* [[!DNL Microsoft® Advertising] 買い物とテンプレートの設定](template-microsoft-shopping.md)
+>* [[!DNL Microsoft Advertising] 買い物とテンプレートの設定](template-microsoft-shopping.md)
 >* [テンプレートを使用したフィードデータの伝播](../feed-data-propagate.md)

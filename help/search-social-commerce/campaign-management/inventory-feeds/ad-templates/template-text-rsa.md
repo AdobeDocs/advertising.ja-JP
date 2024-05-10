@@ -3,7 +3,7 @@ title: 在庫フィードのテキスト広告とレスポンシブ検索広告�
 description: 在庫フィードのテキスト広告およびレスポンシブ検索広告テンプレートの設定を参照してください。
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3325'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # 在庫フィードのテキスト広告とレスポンシブ検索広告テンプレート設定
 
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] （削除アクションのみ）、 [!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] （削除アクションのみ）、 [!DNL Yandex] アカウントのみ*
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 * 最終的な URL を埋め込むには：
 
-   * （[!DNL Google Ads] および [!DNL Microsoft® Advertising] のみ）トラッキングテンプレートで最終的な URL を示すパラメーターのリストについては、（[!DNL Microsoft® Advertising] のみ） [[!DNL Microsoft® Advertising] 詳細を見る](https://help.ads.microsoft.com/#apex/3/en/56799/2) または（[!DNL Google Ads] のみ）「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーター [!DNL ValueTrack] のパラメーター [[!DNL Google Ads] 詳細を見る](https://support.google.com/google-ads/answer/6305348).
+   * （[!DNL Google Ads] および [!DNL Microsoft Advertising] のみ）トラッキングテンプレートで最終的な URL を示すパラメーターのリストについては、（[!DNL Microsoft Advertising] のみ） [[!DNL Microsoft Advertising] 詳細を見る](https://help.ads.microsoft.com/#apex/3/en/56799/2) または（[!DNL Google Ads] のみ）「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーター [!DNL ValueTrack] のパラメーター [[!DNL Google Ads] 詳細を見る](https://support.google.com/google-ads/answer/6305348).
 
    * （[!DNL Yahoo! Japan Ads] のみ） パラメーターを使用します `!{unescapedurl}` ランディングページの URL を指定します。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 * Yahoo！の場合 日本広告アカウント、パラメーターを使用 {lpurl}.
 
-* Microsoft® Advertising およびGoogle Ads アカウントで使用できるパラメーターについては、を参照してください。 [[!DNL Microsoft® Advertising] 詳細を見る](https://help.ads.microsoft.com/#apex/3/en/56799) または「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーター [!DNL ValueTrack] のパラメーター [[!DNL Google Ads] 詳細を見る](https://support.google.com/google-ads/answer/6305348).
+* Microsoft Advertising およびGoogle Ads アカウントで使用できるパラメーターについては、を参照してください。 [[!DNL Microsoft Advertising] 詳細を見る](https://help.ads.microsoft.com/#apex/3/en/56799) または「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーター [!DNL ValueTrack] のパラメーター [[!DNL Google Ads] 詳細を見る](https://support.google.com/google-ads/answer/6305348).
 
 この値は、アカウントレベルおよびキャンペーンレベルの設定を上書きしますが、より詳細なレベルでのトラッキングテンプレート（キーワードを最も詳細なレベルとして）はこの値を上書きします。
 
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 列名またはモディファイヤ グループを動的パラメータとして挿入するには、入力フィールドをクリックし、列リストまたは列の名前をクリックします [モディファイヤ名](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) [ モディファイヤ ] リストで、次の操作を行います。 同じキーワードに対して複数のキーワードまたは複数の一致タイプを指定するには、別々の行に入力します。 キーワード一致タイプを指定するには、列名の前後に次の一致タイプ構文を使用します。
 
-* の場合 [!DNL Google Ads], [!DNL Microsoft® Advertising]、および [!DNL Yahoo! Japan Ads] テンプレート：
+* の場合 [!DNL Google Ads], [!DNL Microsoft Advertising]、および [!DNL Yahoo! Japan Ads] テンプレート：
 
    * 動的パラメーターの場合：部分一致= `[keyword]`、最初の語句の部分一致の修飾子。 [!UICONTROL Keyword] 列（+青いスエードの靴など） = `+[keyword]`、キーワード列の各用語の部分一致の修飾子（+blue +suede +shoes など） = `+[keyword]+`、フレーズ一致= `"[keyword]"`、完全一致= `[[keyword]]`
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 * ランディングページの URL を指定するには：
 
-   * （[!DNL Google Ads] および [!DNL Microsoft® Advertising] のみ）トラッキングテンプレートで最終的な URL を示すパラメーターのリストについては、（[!DNL Microsoft® Advertising] のみ） [[!DNL Microsoft® Advertising] 詳細を見る](https://help.ads.microsoft.com/#apex/3/en/56799) または（[!DNL Google Ads] のみ）「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーター [!DNL ValueTrack] のパラメーター [[!DNL Google Ads] 詳細を見る](https://support.google.com/google-ads/answer/6305348).
+   * （[!DNL Google Ads] および [!DNL Microsoft Advertising] のみ）トラッキングテンプレートで最終的な URL を示すパラメーターのリストについては、（[!DNL Microsoft Advertising] のみ） [[!DNL Microsoft Advertising] 詳細を見る](https://help.ads.microsoft.com/#apex/3/en/56799) または（[!DNL Google Ads] のみ）「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーター [!DNL ValueTrack] のパラメーター [[!DNL Google Ads] 詳細を見る](https://support.google.com/google-ads/answer/6305348).
 
    * （[!DNL Yahoo! Japan Ads] のみ） パラメーターを使用します `!{lpurl}` ランディングページの URL を指定します。
 
@@ -234,15 +234,15 @@ ht-degree: 0%
 
    * 2 つの数値をスラッシュで埋め込むことができます。 例えば、4/1 と 0.95/0.45 は有効です。
 
-**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] テンプレート\]:** （[!DNL Microsoft® Advertising] （テンプレートのみ）タイトル、テキスト、表示 URL または最終 URL に次の値が含まれる場合に、広告の置換値として使用する文字列 `{Param2}` 動的置換文字列。 最大長は 70 文字ですが、これを使用する広告要素の最大長には注意が必要です（例えば、広告のタイトルには最大 25 文字まで含めることができます）。
+**[!UICONTROL Param 2]\[[!DNL Microsoft Advertising] テンプレート\]:** （[!DNL Microsoft Advertising] （テンプレートのみ）タイトル、テキスト、表示 URL または最終 URL に次の値が含まれる場合に、広告の置換値として使用する文字列 `{Param2}` 動的置換文字列。 最大長は 70 文字ですが、これを使用する広告要素の最大長には注意が必要です（例えば、広告のタイトルには最大 25 文字まで含めることができます）。
 
-**[!UICONTROL Param 3]:** （[!DNL Microsoft® Advertising] （テンプレートのみ）タイトル、テキスト、表示 URL または最終 URL に次の値が含まれる場合に、広告の置換値として使用する文字列 `{Param3}` 動的置換文字列。 最大長は 70 文字ですが、これを使用する広告要素の最大長には注意が必要です（例えば、広告のタイトルには最大 25 文字まで含めることができます）。
+**[!UICONTROL Param 3]:** （[!DNL Microsoft Advertising] （テンプレートのみ）タイトル、テキスト、表示 URL または最終 URL に次の値が含まれる場合に、広告の置換値として使用する文字列 `{Param3}` 動的置換文字列。 最大長は 70 文字ですが、これを使用する広告要素の最大長には注意が必要です（例えば、広告のタイトルには最大 25 文字まで含めることができます）。
 
 **[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** 指定した一致タイプまたは広告タイプの各キーワードの初期入札。
 
 ## [!UICONTROL Ads]
 
-**[!UICONTROL Ad Type]:** （[!DNL Google Ads] および [!DNL Microsoft® Advertising] キャンペーンのみ）広告のタイプ： *[!UICONTROL Expanded Search Ads]* または *[!UICONTROL Responsive Search Ads]*.
+**[!UICONTROL Ad Type]:** （[!DNL Google Ads] および [!DNL Microsoft Advertising] キャンペーンのみ）広告のタイプ： *[!UICONTROL Expanded Search Ads]* または *[!UICONTROL Responsive Search Ads]*.
 
 **[!UICONTROL Prefill]:** （オプション）すべての代替広告コピーフィールドに、元の広告コピーフィールドからのテキストを事前に入力します。
 
@@ -258,7 +258,7 @@ ht-degree: 0%
 
 {{inventory-feed-template-insert-ad-customizer}}
 
-**[!UICONTROL Ad Title]:** （既存のMicrosoft®Advertising 標準テキスト広告のみ。読み取り専用）広告のタイトルまたは最初の行。 Microsoft® Advertising では、標準テキスト広告の作成と編集を廃止しました。
+**[!UICONTROL Ad Title]:** （既存のMicrosoft Advertising 標準テキスト広告のみ。読み取り専用）広告のタイトルまたは最初の行。 Microsoft Advertising では、標準テキスト広告の作成と編集を廃止しました。
 
 **[!UICONTROL Headline 1]**, **[!UICONTROL Headline 2]:** （[!DNL Google Ads] および [!DNL Yahoo! Japan Ads] 拡張/拡張テキスト広告テンプレートのみ）広告のヘッドライン。 動的パラメーターを置き換えた後の各行の最大長は、30 文字または 15 個のダブルバイト文字です。
 
@@ -270,13 +270,13 @@ ht-degree: 0%
 
 **[!UICONTROL Title]:** （[!DNL Yandex] のみ）広告のタイトル、または最初の行。 最大 33 文字です。
 
-**[!UICONTROL Title Part 1]**, **[!UICONTROL Title Part 2]:** （Microsoft®Advertising 拡張テキスト広告のみ）広告のヘッドライン。 動的パラメーターを置き換えた後の各行の最大長は、30 文字または 15 個のダブルバイト文字です。
+**[!UICONTROL Title Part 1]**, **[!UICONTROL Title Part 2]:** （Microsoft Advertising 拡張テキスト広告のみ）広告のヘッドライン。 動的パラメーターを置き換えた後の各行の最大長は、30 文字または 15 個のダブルバイト文字です。
 
 <!-- using a snippet for the note instead of an include because this is used multiple times on the page, which ExL doesn't support for includes -->
 
 {{inventory-feed-template-insert-dynamic-parameter}}
 
-**[!UICONTROL Ad Text]:** （Microsoft®Advertising 拡張テキスト広告のみ）広告の本文。 動的パラメーターを置き換えた後の最大長は、80 文字または 40 文字の 2 バイト文字（中国語、日本語、韓国語など）です。
+**[!UICONTROL Ad Text]:** （Microsoft Advertising 拡張テキスト広告のみ）広告の本文。 動的パラメーターを置き換えた後の最大長は、80 文字または 40 文字の 2 バイト文字（中国語、日本語、韓国語など）です。
 
 ### [!UICONTROL Descriptions]
 
@@ -312,11 +312,11 @@ ht-degree: 0%
 
 * [!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}`（例：） `{CUSTOMIZER.Discount:10%}`
 
-* [!DNL Microsoft® Advertising]: `{CUSTOMIZER.Attribute name:Default text}`（例：） `{CUSTOMIZER.Discount:10%}`
+* [!DNL Microsoft Advertising]: `{CUSTOMIZER.Attribute name:Default text}`（例：） `{CUSTOMIZER.Discount:10%}`
 
-**[!UICONTROL Display URL]:** （既存 [!DNL Microsoft® Advertising] および [!DNL Yahoo! Japan Ads] 標準テキスト広告のみ。読み取り専用）広告に表示される URL。
+**[!UICONTROL Display URL]:** （既存 [!DNL Microsoft Advertising] および [!DNL Yahoo! Japan Ads] 標準テキスト広告のみ。読み取り専用）広告に表示される URL。
 
-[!DNL Microsoft® Advertising] および [!DNL Yahoo! Japan Ads] 標準テキスト広告の作成と編集を非推奨（廃止予定）にしました。
+[!DNL Microsoft Advertising] および [!DNL Yahoo! Japan Ads] 標準テキスト広告の作成と編集を非推奨（廃止予定）にしました。
 
 **[!UICONTROL Base URL]:** （宛先 URL を持つアカウントのみ）ユーザーが取得されるページ。 サードパーティのリダイレクトやトラッキングコードを含めることができます。 Adobe Advertisingコンバージョントラッキングサービスを使用する場合、およびキャンペーン設定に以下の使用が含まれる場合： [!UICONTROL EF Redirect] 広告レベルでトラッキングを追加すると、検索、ソーシャル、Commerceでは、独自のリダイレクトとトラッキングコードが広告に自動的に追加されます。
 
@@ -339,7 +339,7 @@ ht-degree: 0%
 
 * Yahoo！の場合 日本広告アカウント、パラメーターを使用 {lpurl}.
 
-* Microsoft® Advertising およびGoogle Ads アカウントで使用できるパラメーターについては、を参照してください。 [[!DNL Microsoft® Advertising] 詳細を見る](https://help.ads.microsoft.com/#apex/3/en/56799) または「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーター [!DNL ValueTrack] のパラメーター [[!DNL Google Ads] 詳細を見る](https://support.google.com/google-ads/answer/6305348).
+* Microsoft Advertising およびGoogle Ads アカウントで使用できるパラメーターについては、を参照してください。 [[!DNL Microsoft Advertising] 詳細を見る](https://help.ads.microsoft.com/#apex/3/en/56799) または「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーター [!DNL ValueTrack] のパラメーター [[!DNL Google Ads] 詳細を見る](https://support.google.com/google-ads/answer/6305348).
 
 **\[ 元の広告フィールドの下の代替広告フィールド\]:** （オプション）広告の広告コピーの代替セット。元の広告コピーのいずれかの行が、伝播中に動的パラメーターがデータに入力された後に許可される最大長を超える場合に使用できます。
 

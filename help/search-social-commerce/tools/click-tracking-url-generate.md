@@ -3,7 +3,7 @@ title: クリックの追跡 URL の生成
 description: 検索、ソーシャル、Commerceのクリックトラッキング URL を手動で生成する方法を説明します。
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
            例：http://www.example.com/travel.html
 
-         * （[!DNL Microsoft® Advertising] sitelinks） `sitelink <tab> ** <tab> landing_page`
+         * （[!DNL Microsoft Advertising] sitelinks） `sitelink <tab> ** <tab> landing_page`
 
            ここで、 `sitelink` はサイトリンク名で、 `landing_page` は、有効なランディングページの URL またはベース URL です。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
            ファイルには、最大 10,000 行を含めることができます。
 
-         * （[!DNL Google Merchant Center] 製品グループと [!DNL Microsoft® Advertising] 製品広告） `product name <tab> ** <tab> landing_page`
+         * （[!DNL Google Merchant Center] 製品グループと [!DNL Microsoft Advertising] 製品広告） `product name <tab> ** <tab> landing_page`
 
            ここで、 `product name` は製品名で、 `landing_page` は、有効なランディングページの URL またはベース URL です。
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
            例：http://www.example.com/travel.html
 
-         * （[!DNL Microsoft® Advertising] sitelinks） `sitelink**landing_page`
+         * （[!DNL Microsoft Advertising] sitelinks） `sitelink**landing_page`
 
            ここで、 `sitelink` はサイトリンク名で、 `landing_page` は、有効なランディングページの URL またはベース URL です。
 
            例： `Careers**http://www.example.com/careers.html`
 
-         * （[!DNL Google Merchant Center] 製品グループと [!DNL Microsoft® Advertising] 製品広告） `product name**landing_page`
+         * （[!DNL Google Merchant Center] 製品グループと [!DNL Microsoft Advertising] 製品広告） `product name**landing_page`
 
            ここで、 `product name` は製品名で、 `landing_page` は、有効なランディングページの URL またはベース URL です。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 宛先 URL を持つアカウントの場合、適切な値を入力します [!UICONTROL Base URL] フィールド。
 
-最終的な URL を持つアカウントの場合は、画面上の適切な値を入力します [!UICONTROL Tracking Template] フィールド。 の後に最終 URL のパラメーターを追加する必要があります `&url=` パラメーター（例： `{lpurl}`）に設定します。 の場合 [!DNL Yahoo! Japan Ads] アカウント、パラメーターを使用します `{lpurl}`. のリスト用 [!DNL Google Ads] および [!DNL Microsoft® Advertising] トラッキングテンプレートで最終的な URL を示すパラメーターについては、を参照してください。 [[!DNL Google Ads] 詳細を見る](https://support.google.com/google-ads/answer/6305348) （「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーターを参照。 [!DNL ValueTrack] パラメーター&quot;）と [[!DNL Microsoft® Advertising] 詳細を見る](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+最終的な URL を持つアカウントの場合は、画面上の適切な値を入力します [!UICONTROL Tracking Template] フィールド。 の後に最終 URL のパラメーターを追加する必要があります `&url=` パラメーター（例： `{lpurl}`）に設定します。 の場合 [!DNL Yahoo! Japan Ads] アカウント、パラメーターを使用します `{lpurl}`. のリスト用 [!DNL Google Ads] および [!DNL Microsoft Advertising] トラッキングテンプレートで最終的な URL を示すパラメーターについては、を参照してください。 [[!DNL Google Ads] 詳細を見る](https://support.google.com/google-ads/answer/6305348) （「使用可能」のセクションの「トラッキングテンプレートのみ」パラメーターを参照。 [!DNL ValueTrack] パラメーター&quot;）と [[!DNL Microsoft Advertising] 詳細を見る](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

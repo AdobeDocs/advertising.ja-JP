@@ -1,18 +1,18 @@
 ---
 title: キャンペーンおよび広告グループのオーディエンス除外の管理
-description: のオーディエンス除外を設定および管理する方法を説明します [!DNL Google Ads] および [!DNL Microsoft® Advertising] キャンペーンと広告グループ。
+description: のオーディエンス除外を設定および管理する方法を説明します [!DNL Google Ads] および [!DNL Microsoft Advertising] キャンペーンと広告グループ。
 exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-# のオーディエンス除外の管理 [!DNL Google Ads] および [!DNL Microsoft® Advertising] キャンペーンと広告グループ
+# のオーディエンス除外の管理 [!DNL Google Ads] および [!DNL Microsoft Advertising] キャンペーンと広告グループ
 
-*[!DNL Google Ads]および [!DNL Microsoft® Advertising] のみ*
+*[!DNL Google Ads]および [!DNL Microsoft Advertising] のみ*
 
 特定の広告グループやキャンペーンのターゲットとして、特定のオーディエンスを除外できます。 オーディエンスを除外すると、指定された広告グループやキャンペーンで広告が届かなくなります。
 

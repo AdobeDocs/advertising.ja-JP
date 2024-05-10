@@ -3,7 +3,7 @@ title: '[!UICONTROL Label Classification Report]'
 description: について説明します [!UICONTROL Label Classification Report].
 exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 広告レベルのラベル分類によるレポートは、では使用できません [!DNL Microsoft® Advertising] 動的検索広告（DSA）キャンペーン。
+>* 広告レベルのラベル分類によるレポートは、では使用できません [!DNL Microsoft Advertising] 動的検索広告（DSA）キャンペーン。
 >* 複数のラベル分類が同じエンティティに適用される場合があるので、各指標の合計は、エンティティの実際の合計よりも多くなる場合があります。 例えば、「suede shoes」というキーワードに「suede」と「footwear」という 2 つのラベル値があり、キーワードが 100 クリックを受け取ったとします。 クリック数の列には、これらの各ラベル値が「100」と表示されるので、両方の行の合計は「200」になります。
 * ラベル分類に対する変更や、エンティティの子ラベル値は、約 1 時間で表示されます。
 

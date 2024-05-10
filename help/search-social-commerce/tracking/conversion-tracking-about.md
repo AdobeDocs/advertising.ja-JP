@@ -1,39 +1,39 @@
 ---
-title: 検索、ソーシャル、コマースのコンバージョントラッキングオプション
-description: 検索、ソーシャル、コマースのコンバージョントラッキングオプションについて説明します。
+title: 検索、ソーシャル、Commerceのコンバージョントラッキングオプション
+description: 検索、ソーシャル、Commerceのコンバージョントラッキングオプションについて説明します。
 exl-id: 263da6a4-8d72-4882-8784-290a3be6f8fa
 feature: Search Tracking
-source-git-commit: c23028701ff0064bae04135d9e7a70da4c85e937
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
 
 ---
 
-# 検索、ソーシャル、コマースのコンバージョントラッキングオプション
+# 検索、ソーシャル、Commerceのコンバージョントラッキングオプション
 
-検索、ソーシャル、コマースでは、次の方法で追跡されているコンバージョンデータを使用できます。
+検索、ソーシャル、Commerceでは、次の方法でトラッキングされるコンバージョンデータを使用できます。
 
-* **Adobe Advertisingで追跡したコンバージョン：** 広告主は、各コンバージョンページにAdobe Advertisingconversion-tracking タグを挿入します。 タグは、コンバージョンデータをトラッキングサーバーに送信します。 従来のサードパーティピクセルか、新しいファーストパーティピクセルのどちらかを使用できます。 参照：[各コンバージョントラッキングメソッドの比較](#conversion-tracking-comparison).&quot;
+* **Adobe Advertising追跡コンバージョン：** 広告主は、各コンバージョンページにAdobe Advertisingコンバージョントラッキングタグを挿入する。 タグは、変換データをトラッキングサーバーに送信します。 従来のサードパーティピクセルまたは新しいファーストパーティピクセルのいずれかを使用できます。 参照先」[各コンバージョントラッキング方法の比較](#conversion-tracking-comparison).」と入力します。
 
-* **Adobe Analyticsコンバージョン：** 広告主は、すべてのコンバージョンでAdobe Analyticsトラッキングを使用します。 このオプションを使用するには、Adobe AdvertisingとAdobe Analyticsの統合が必要です。 参照：[Adobe Analyticsコンバージョントラッキング](conversion-tracking-analytics.md)」を参照してください。
+* **Adobe Analytics変換：** 広告主は、すべてのコンバージョンにAdobe Analyticsのトラッキングを使用します。 このオプションを使用するには、Adobe AdvertisingとAdobe Analyticsの統合が必要です。 参照先」[Adobe Analyticsのコンバージョントラッキング](conversion-tracking-analytics.md)」を参照してください。
 
-* **[!DNL Google Analytics]コンバージョン：** 広告主が [!DNL Google Analytics] タグで、すべてのコンバージョンを追跡できます。 参照：[[!DNL Google Ads] 検索、ソーシャル、コマースのコンバージョンデータ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)」を参照してください。
+* **[!DNL Google Analytics]コンバージョン :** 広告主はを使用します [!DNL Google Analytics] タグを付けてすべてのコンバージョンを追跡します。 参照先」[[!DNL Google Ads] 検索、ソーシャル、Commerceのコンバージョンデータ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)自動的に同期されるコンバージョンについて詳しくは、「」を参照してください。
 
-* **広告主がトラッキングしたコンバージョン：** （Search、Social、および Commerce のクライアントのみ）広告主は、オンラインとオフラインのコンバージョンデータを任意に組み合わせたフィードファイルを Search、Social、および Commerce に提供します。 参照：[EF ID フィードを使用したコンバージョントラッキング](feed-efid.md)&quot;および&quot;[トランザクション ID フィードを使用したコンバージョントラッキング](feed-transaction-id.md).&quot;
+* **広告主が追跡したコンバージョン：** （検索、ソーシャル、Commerceのクライアントのみ）広告主は、オンラインとオフラインのコンバージョンデータを任意に組み合わせたフィードファイルとして、検索、ソーシャル、Commerceを提供します。 参照先」[EF ID フィードを使用したコンバージョントラッキング](feed-efid.md)「」と「」に対して検査する値[トランザクション ID フィードを使用したコンバージョントラッキング](feed-transaction-id.md).」と入力します。
 
-## 各コンバージョントラッキングメソッドの比較 {#conversion-tracking-comparison}
+## 各コンバージョントラッキング方法の比較 {#conversion-tracking-comparison}
 
-ブラウザーの Cookie ポリシーが厳しくなり続けるにつれ、現在のトラッキング機能を理解し、長期的に最適なオプションを特定することが重要です。
+ブラウザーの cookie ポリシーは引き続き厳しくなるので、現在のトラッキング機能を理解し、長期的に最適なオプションを特定することが重要です。
 
-| トラッキングメソッド | 説明 | 制限事項 | メリット | お勧め？ |
+| トラッキング方法 | 説明 | 制限事項 | 利点 | 推奨しますか？ |
 |----|----|----|----|----|
-| Adobe Analytics | 次を持つ広告主 [Adobe Analytics for Advertising](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) 自動的にインポート [!DNL Analytics] 標準およびカスタムイベントをAdobe Advertisingに追加し、レポートおよび最適化をおこないました。 | <ul><li>[!DNL Safari] では、7 日間のコンバージョンルックバックのみを使用できます。これは、ルックバックウィンドウ中にサイトの再訪問時にリセットされます。</li><li> 同様の制限を期待する [!DNL Chrome] 2024 年に。</li></ul> | <ul><li>とのシームレスな統合 [!DNL Analytics]</li> <li>で有料検索データを確認する [!DNL Analytics] Analysis Workspace</li><li>有料検索以外のメリット</li></ul> | はい |
-| レガシーAdobe Advertisingピクセル | 広告主は、コンバージョンページに従来のAdobe Advertising画像または JavaScript ピクセルを追加します。 ピクセルは、広告をクリックしたユーザーがページに到達すると実行されます。 この方法は、サードパーティ Cookie に依存しています。 | <ul><li>[!DNL Safari] は、このメソッドを使用するすべてのコンバージョントラッキングをブロックします。</li><li>同様の制限を期待する [!DNL Chrome] 2024 年に。</li></ul> | ピクセルは既に実装されています。 しかし、まだ [追加の ITP マッピングタグの実装](itp-conversion-mapping-tag.md).<br><br>レコメンデーション：ファーストパーティピクセルに切り替えます。 | いいえ |
-| Adobe Advertisingファーストパーティピクセル | 広告主は次の操作を実行します。 <ul><li>用の JavaScript ライブラリの実装 [Adobe Experience Cloud ID(ECID) サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) サイト全体を通じて</li><li>Adobe Advertisingを追加 [ITP マッピングを含む JavaScript タグ](itp-conversion-mapping-tag.md) を検索クリックからランディングページになる可能性のある任意のページにドラッグします（ランディングページは時間の経過と共に変化する可能性があるので、理想的にはすべてのページで）。 タグを使用すると、Adobe Advertisingは、大きな数値がランディングページの科学的表記に変換されるページで発生するコンバージョンイベントを追跡できます。</li><li>Adobe Advertisingを追加 [JavaScript コンバージョントラッキングタグ v3](format-conversion-tag-jsv3.md) をコンバージョンページに変換します。</li></ul> | <ul><li>[!DNL Safari] では、7 日間のコンバージョンルックバックのみを使用できます。これは、ルックバックウィンドウ中にサイトの再訪問時にリセットされます。</li><li>同様の制限を期待する [!DNL Chrome] 2022 年に。</li></ul> | [!DNL Safari] は、7 日間のルックバック中にコンバージョンを追跡します。 ルックバックウィンドウではサイトの再訪問時にルックバックがリセットされるので、この制限はすべてに影響を与えるわけではありません [!DNL Safari] ユーザー。 | いいえ |
-| EFID フィード | 広告主の検索アカウントは、Adobe Advertisingの一意の ID（トークン）を使用して宛先 URL/最終 URL を生成するように設定されています。 ユーザーが広告をクリックすると、Adobe Advertisingは一意の ID(`EFID`) の上にマウスポインターを置き、最終 URL の末尾に表示します。 広告主のクライアントシステムは、EFID をクリックによるコンバージョンの一意の識別子として取り込み、EFID、トランザクション日、コンバージョン指標を含む売上高フィードのAdobe Advertisingに送信します。 Adobe Advertisingは EFID を使用して、元のクリックへの変換を照合します。 | <ul><li>広告主は、EFID を取得し、自動フィードを毎日Adobe Advertisingに送信する方法が必要です。</li><li>コンバージョンは、(Adobe Advertisingごとに ) 最大 180 日間、または広告主のシステムの制限に従って追跡できます。</li></ul> | <ul><li>この方法ではファーストパーティコンバージョンデータを使用するので、サードパーティ Cookie の制限の影響を受けません。</li><li>オンラインとオフラインのコンバージョンを 1 つのフィードで送信できます。</li><li>サイトのコードの変更やタグは必要ありません。</li></ul> | はい |
-| トランザクション ID フィード [コンボフィード] | 広告主は、一意のAdobe AdvertisingID (`ev_transid=&lt;transid&gt;`) を Web ページに送信する際に、Adobe Advertisingは、ピクセルが実行されたときに作成される一意のトランザクション ID を取り込みます。 広告主のクライアントシステムも [!UICONTROL Transaction ID] とは、Adobe Advertisingに対し、一致する [!UICONTROL Transaction ID] 値 | <ul><li>広告主がレガシーピクセル ( [!DNL Safari] ブロックが実行されない場合、ID はキャプチャされず、オフラインデータに使用されます。</li><li>フィードは自動化されていません。</li></ul> | <ul><li>ファーストパーティピクセルを実装する場合、 [!UICONTROL Transaction ID] が [!DNL Safari].</li><li>オフライン/承認済みのコンバージョンイベントの追跡を提供します。</li></ul> | いいえ |
-| [!DNL Google] コンバージョン | でトラッキングされるコンバージョン [!DNL Google Analytics] タグは、API 接続を介してAdobe Advertisingに自動的に読み込まれます。 各コンバージョン名には、 `&quot;GGL_&quot;` プレフィックス。 | <ul><li>[!DNL Google] は、通常、オフラインデータを追跡しません。</li><li>[!DNL Microsoft® Advertising] コンバージョンは含まれていません。</li></ul> | [!DNL Google] は機械学習を使用して「 」を推定します。[モデル化された変換](https://support.google.com/google-ads/answer/10081327).&quot; | いいえ |
+| Adobe Analytics | を使用した広告主 [広告用Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) 自動的にインポート [!DNL Analytics] レポートおよび最適化のための標準およびカスタムイベントをAdobe Advertisingに送信する。 | <ul><li>[!DNL Safari] では 7 日間のコンバージョンルックバックのみが許可されます。これは、ルックバックウィンドウ中の繰り返しサイト訪問でリセットされます。</li><li> でも同様の制限が想定されます [!DNL Chrome] （2024 年）。</li></ul> | <ul><li>とのシームレスな統合 [!DNL Analytics]</li> <li>での有料検索データの参照 [!DNL Analytics] Analysis Workspace</li><li>有料検索を超えるメリット</li></ul> | はい |
+| 従来のAdobe Advertisingピクセル | 広告主は、従来のAdobe Advertising画像や JavaScript ピクセルをコンバージョンページに追加します。 ピクセルが呼び出されるのは、広告をクリックしたユーザーがページに到達したときです。 この方法は、サードパーティ cookie に依存します。 | <ul><li>[!DNL Safari] は、このメソッドを使用するすべてのコンバージョントラッキングをブロックします。</li><li>でも同様の制限が想定されます [!DNL Chrome] （2024 年）。</li></ul> | ピクセルは既に実装されています。 ただし、引き続きその必要があります [追加の ITP マッピングタグの実装](itp-conversion-mapping-tag.md).<br><br>推奨事項：ファーストパーティのピクセルに切り替えます。 | 不可 |
+| Adobe Advertisingファーストパーティピクセル | 広告主は次の操作を行います。 <ul><li>用の JavaScript ライブラリの実装 [Adobe Experience Cloud ID （ECID）サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) サイト全体で。</li><li>Adobe Advertisingを追加 [ITP マッピングを使用した JavaScript タグ](itp-conversion-mapping-tag.md) 検索からランディングページである可能性のある任意のページに移動します（ランディングページは時間の経過と共に変化する可能性があるので、理想的にはすべてのページで行います）。 タグを使用すると、Adobe Advertisingは、大きな数値をランディングページの科学表記に変換するページで発生するコンバージョンイベントを追跡できます。</li><li>Adobe Advertisingを追加 [JavaScript コンバージョントラッキングタグ v3](format-conversion-tag-jsv3.md) を変換ページに追加します。</li></ul> | <ul><li>[!DNL Safari] では 7 日間のコンバージョンルックバックのみが許可されます。これは、ルックバックウィンドウ中の繰り返しサイト訪問でリセットされます。</li><li>でも同様の制限が想定されます [!DNL Chrome] （2022 年）。</li></ul> | [!DNL Safari] は、7 日間のルックバック中にコンバージョンを追跡します。 ルックバックウィンドウ中の繰り返しサイト訪問でルックバックがリセットされるので、制限は一部に影響しません [!DNL Safari] ユーザー。 | 不可 |
+| EFID フィード | 広告主の検索アカウントは、宛先の URL や最終的な URL をAdobe Advertisingの一意の ID （トークン）で生成するように設定されています。 ユーザーが広告をクリックすると、Adobe Advertisingは一意の ID （`EFID`）を選択し、最終的な URL の末尾に表示します。 広告主のクライアントシステムは、クリックによって生じたコンバージョンの一意の ID として EFID をキャプチャし、EFID、取引日、コンバージョン指標を含む売上高フィードでAdobe Advertisingに送信します。 次に、Adobe Advertisingは EFID を使用して、元のクリックに対するコンバージョンを照合します。 | <ul><li>広告主は、EFID をキャプチャし、自動フィードを毎日Adobe Advertisingに送信する手段を持つ必要があります。</li><li>コンバージョンは、最大 180 日間（Adobe Advertisingあたり）または広告主のシステムの制限に従ってトラッキングできます。</li></ul> | <ul><li>この方法では、ファーストパーティのコンバージョンデータを使用するので、サードパーティ cookie の制限の影響を受けません。</li><li>オンラインおよびオフラインのコンバージョンは、1 つのフィードで送信できます。</li><li>このサイトでは、コードの変更やタグは必要ありません。</li></ul> | はい |
+| トランザクション ID フィード [コンボフィード] | Adobe Advertising広告主は、一意のトランザクション ID （`ev_transid=&lt;transid&gt;`）を選択します。Adobe Advertisingはピクセルが実行されたときに作成された一意のトランザクション ID をキャプチャします。 広告主のクライアントシステムでも、 [!UICONTROL Transaction ID] 一致するオフラインコンバージョンの売上高フィードをAdobe Advertisingに送信します [!UICONTROL Transaction ID] 値 | <ul><li>広告主が従来のピクセルを使用している場合、次のようになります [!DNL Safari] が実行をブロックした場合、その ID はキャプチャされず、オフラインデータに使用されません。</li><li>フィードは自動化されません。</li></ul> | <ul><li>ファーストパーティのピクセルを実装する場合は、 [!UICONTROL Transaction ID] はでキャプチャされます。 [!DNL Safari].</li><li>オフラインまたは承認済みのコンバージョンイベントをトラッキングできます。</li></ul> | 不可 |
+| [!DNL Google] コンバージョン | で追跡されたコンバージョン [!DNL Google Analytics] タグは、API 接続を介してAdobe Advertisingに自動的に読み込まれます。 各コンバージョン名には、 `&quot;GGL_&quot;` プレフィックス。 | <ul><li>[!DNL Google] は通常、オフラインデータを追跡しません。</li><li>[!DNL Microsoft Advertising] コンバージョンは含まれません。</li></ul> | [!DNL Google] では、機械学習を使用して「」を推定します[モデル化コンバージョン](https://support.google.com/google-ads/answer/10081327).」と入力します。 | 不可 |
 
 <!--
 | [!DNL Microsoft Advertising] Conversions | Conversions tracked with [!DNL Microsoft Advertising] universal event tags (UET) are automatically imported to Adobe Advertising via an API connection. Each conversion name has a &quot;???&quot; prefix. | [!DNL Microsoft Advertising] typically doesn't track offline data. [!DNL Google] conversions aren't included. | ?? | No |
@@ -42,6 +42,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertisingのコンバージョントラッキングタグについて](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Adobe Analyticsコンバージョントラッキング](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
+>* [Adobe Analyticsのコンバージョントラッキング](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
 >* [EF ID フィードを使用したコンバージョントラッキング](/help/search-social-commerce/tracking/feed-efid.md)
 >* [トランザクション ID フィードを使用したコンバージョントラッキング](/help/search-social-commerce/tracking/feed-transaction-id.md)

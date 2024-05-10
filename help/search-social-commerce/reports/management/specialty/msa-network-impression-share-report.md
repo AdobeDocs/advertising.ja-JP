@@ -1,32 +1,32 @@
 ---
-title: The [!UICONTROL MSA Network Impression Share Report]
-description: 詳しくは、 [!UICONTROL MSA Network Impression Share Report].
+title: この [!UICONTROL MSA Network Impression Share Report]
+description: について説明します [!UICONTROL MSA Network Impression Share Report].
 feature: Search Reports, Search Specialty Reports
 exl-id: 274f7bac-5eea-4e21-bcdb-ebf6250c4959
-source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-# The [!UICONTROL MSA Network Impression Share Report]
+# この [!UICONTROL MSA Network Impression Share Report]
 
-*[!DNL Microsoft® Advertising]アカウントのみ*
+*[!DNL Microsoft Advertising]アカウントのみ*
 
-このレポートは、キャンペーンレベルのインプレッション共有指標と、広告配信（検索またはオーディエンス）およびネットワーク ( [!DNL Microsoft] サイトを選択してトラフィックまたはオーディエンスを選択し、特定の [!DNL Microsoft® Advertising] アカウント。
+このレポートは、キャンペーンレベルのインプレッション共有指標と基本トラフィック指標（コスト、クリック数、インプレッション数）を、広告配信（検索またはオーディエンス）およびネットワーク（など）別に表示します [!DNL Microsoft] 指定したのサイトおよび選択されたトラフィックまたはオーディエンス） [!DNL Microsoft Advertising] アカウント。
 
-指標の列のみでディメンションがないレポートを実行すると、生成されるレポートには、2 つの重複した行が含まれます。1 つは集計データを持つ行、もう 1 つはすべての指標を持つ行です。
+指標列のみを使用し、ディメンションを含まないレポートを実行すると、生成されたレポートには、集計データを含む行と、すべての指標を含む行の 2 つの重複行が含まれます。
 
-過去 180 日間のデータを表示できます。 Search, Social, &amp; Commerce がデータを取得 [!DNL Microsoft Advertising] リアルタイムで生成され、データ量が大きいレポートの生成には数分かかる場合があります。
+過去 180 日間のデータを表示できます。 検索、ソーシャル、Commerceでのデータの取り込み元 [!DNL Microsoft Advertising] リアルタイムでは、データ量が多いレポートを生成するのに数分かかる場合があります。
 
 >[!NOTE]
 >
->レポートに大量のデータが含まれている場合、そのレポートは失敗する可能性があります。 この場合は、より短い時間間隔でレポートを実行します。
+>レポートに大量のデータが含まれていると、レポートが失敗する場合があります。 この場合は、より短い時間間隔でレポートを実行します。
 
 ## デフォルトの列
 
-すべてのデフォルト列とカスタム列の説明については、[特殊レポートのレポート列](specialty-report-columns.md).&quot;
+デフォルト列とカスタム列については、「」を参照してください[専門レポートのレポート列](specialty-report-columns.md).」と入力します。
 
 * [!UICONTROL SE Account Name]
 * [!UICONTROL Campaign Name]
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [特殊レポートについて](specialty-report-about.md)
->* [特殊なレポートの生成](specialty-report-generate.md)
->* [特殊なレポート設定](specialty-report-settings.md)
->* [特殊レポートのレポート列](specialty-report-columns.md)
+>* [専門レポートについて](specialty-report-about.md)
+>* [専門レポートの生成](specialty-report-generate.md)
+>* [専門レポートの設定](specialty-report-settings.md)
+>* [専門レポートのレポート列](specialty-report-columns.md)

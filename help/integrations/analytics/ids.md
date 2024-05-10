@@ -3,7 +3,7 @@ title: が使用するAdobe Advertising ID [!DNL Analytics]
 description: が使用するAdobe Advertising ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 0%
@@ -116,9 +116,9 @@ AMO ID は `s_kwcid`（場合によっては「」と発音されます）[!DNL 
 
    * 検索、ソーシャル、Commerceのお客様：
 
-      * の場合 [!DNL Google Ads] および [!DNL Microsoft® Advertising] のアカウント [!UICONTROL Auto Upload] アカウントまたはキャンペーンに対して有効な設定では、エンドユーザーがAdobe Advertisingピクセルで広告をクリックすると、ピクセルサーバーによってランディングページのサフィックスに s_kwcid パラメーターが自動的に追加されます。
+      * の場合 [!DNL Google Ads] および [!DNL Microsoft Advertising] のアカウント [!UICONTROL Auto Upload] アカウントまたはキャンペーンに対して有効な設定では、エンドユーザーがAdobe Advertisingピクセルで広告をクリックすると、ピクセルサーバーによってランディングページのサフィックスに s_kwcid パラメーターが自動的に追加されます。
 
-      * その他の広告ネットワークの場合 [!DNL Google Ads] および [!DNL Microsoft® Advertising] のアカウント [!UICONTROL Auto Upload] 無効の場合、パラメーターをに手動で追加 [勘定科目レベル追加パラメータ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}：ベース URL に追加します。
+      * その他の広告ネットワークの場合 [!DNL Google Ads] および [!DNL Microsoft Advertising] のアカウント [!UICONTROL Auto Upload] 無効の場合、パラメーターをに手動で追加 [勘定科目レベル追加パラメータ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}：ベース URL に追加します。
 
 * サーバーサイド挿入機能が実装されていない場合：
 
@@ -130,7 +130,7 @@ AMO ID は `s_kwcid`（場合によっては「」と発音されます）[!DNL 
 
    * 検索、ソーシャル、Commerceのお客様：
 
-      * （用）[!DNL Google Ads] および [!DNL Microsoft® Advertising]）を使用する場合は、ランディングページのサフィックスに AMO ID パラメーターを手動で追加します（理想的には、 [アカウントレベル](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} 個々のアカウントコンポーネントに対して異なるトラッキングが必要な場合を除きます。
+      * （用）[!DNL Google Ads] および [!DNL Microsoft Advertising]）を使用する場合は、ランディングページのサフィックスに AMO ID パラメーターを手動で追加します（理想的には、 [アカウントレベル](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} 個々のアカウントコンポーネントに対して異なるトラッキングが必要な場合を除きます。
 
       * その他のすべての広告ネットワークの広告の場合、AMO ID パラメーターを手動で [勘定科目レベル追加パラメータ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}：ベース URL に追加します。
 

@@ -3,7 +3,7 @@ title: パブリッシャーの推奨事項とインサイトのサポートに�
 description: パブリッシャーのレコメンデーションとインサイトの表示と管理のサポートについて説明します。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d6808281dc3ba26a48ae33079c2f411705f43ddd
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # パブリッシャーの推奨事項とインサイトのサポートについて
 
-*[!DNL Google Ads]および [!DNL Microsoft® Advertising] アカウント*
+*[!DNL Google Ads]および [!DNL Microsoft Advertising] アカウント*
 
-*のベータ版機能 [!DNL Microsoft® Advertising] アカウント*
+*のベータ版機能 [!DNL Microsoft Advertising] アカウント*
 
-[!DNL Google Ads] および [!DNL Microsoft® Advertising] recommendations と insights は、キャンペーンのパフォーマンスと効率を向上させるのに役立つ、広告ネットワークからの提案です。
+[!DNL Google Ads] および [!DNL Microsoft Advertising] recommendations と insights は、キャンペーンのパフォーマンスと効率を向上させるのに役立つ、広告ネットワークからの提案です。
 
 * Each [!DNL Google Ads] レコメンデーションでは、アカウントのパフォーマンス履歴、キャンペーン設定、キャンペーン全体のトレンドに基づいて、アセットの追加から予算の増加まで、キャンペーンの様々なパフォーマンス面に関するカスタマイズされた提案を提供します [!DNL Google Ads].
 
-* Each [!DNL Microsoft® Advertising] パフォーマンスインサイトとレコメンデーションでは、機械学習アルゴリズムとベストプラクティスに基づいて、キャンペーンのパフォーマンスを最適化するための変更点を提案します。
+* Each [!DNL Microsoft Advertising] パフォーマンスインサイトとレコメンデーションでは、機械学習アルゴリズムとベストプラクティスに基づいて、キャンペーンのパフォーマンスを最適化するための変更点を提案します。
 
 ## この [!UICONTROL Recommendations & Publisher Insights] 表示
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
   ビューを開くと、データをリアルタイムで使用できます。 データを更新するには、 ![更新](/help/search-social-commerce/assets/refresh.png "更新") ページの左下
 
-* の場合 [!DNL Microsoft® Advertising] アカウント。過去 30 日間に生成された各パフォーマンスインサイトを一目で確認できます。 [!DNL Microsoft® Advertising] アカウント。 インサイトは、レコメンデーションと同様の情報を提供しますが、形式が異なります。 各インサイトには、日付、イシューの説明、影響を受けるエンティティ、根本原因（詳細へのリンクを含んでいる場合もあります）、および推奨アクションと、を開くためのリンクが含まれています [!DNL Microsoft® Advertising] 特定のインサイトに基づいて行動できるエディター。
+* の場合 [!DNL Microsoft Advertising] アカウント。過去 30 日間に生成された各パフォーマンスインサイトを一目で確認できます。 [!DNL Microsoft Advertising] アカウント。 インサイトは、レコメンデーションと同様の情報を提供しますが、形式が異なります。 各インサイトには、日付、イシューの説明、影響を受けるエンティティ、根本原因（詳細へのリンクを含んでいる場合もあります）、および推奨アクションと、を開くためのリンクが含まれています [!DNL Microsoft Advertising] 特定のインサイトに基づいて行動できるエディター。
 
 * レコメンデーションに関する詳細を表示し、レコメンデーションを直接適用または却下します。
 

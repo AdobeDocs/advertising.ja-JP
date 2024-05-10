@@ -1,26 +1,26 @@
 ---
 title: '[!UICONTROL Campaign Daily Impression Share Report]'
-description: 詳しくは、 [!UICONTROL Campaign Daily Impression Share Report].
-exl-id: 85243fd0-0c39-4e73-b798-48710f887985
+description: について説明します [!UICONTROL Campaign Daily Impression Share Report].
+exl-id: 0c77277f-e4a8-4c4b-83e8-0ad83402d81f
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Campaign Daily Impression Share Report]
 
-*[!DNL Google Ads]および [!DNL Microsoft® Advertising] アカウントのみ*
+*[!DNL Google Ads]および [!DNL Microsoft Advertising] アカウントのみ*
 
-The [!UICONTROL Campaign Daily Impression Share Report] 1 つ以上のキャンペーンに対して、デバイスタイプ別の日別インプレッション共有指標が含まれます。 デフォルトでは、データには、指定した日付範囲で 1 日に 1 つ以上のインプレッションまたはクリックを受け取ったキャンペーンごとに 1 つの行が含まれ、行は日付の昇順で表示されます。 オプションで、 [!DNL Adobe] および派生指標。
+この [!UICONTROL Campaign Daily Impression Share Report] 1 つ以上のキャンペーンに対する、デバイスタイプ別の毎日のインプレッション共有指標を含みます。 デフォルトでは、データには、指定された日付範囲の各日に少なくとも 1 つのインプレッションまたはクリックを受け取ったキャンペーンごとに 1 つの行が含まれ、行は日付の昇順です。 レポートには、オプションで、次の方法で追跡されたデータを含めることができます [!DNL Adobe] および派生指標。
 
-インプレッション共有指標は、前日の広告主のタイムゾーンの 13:00 に利用できます。 過去 2 か月間のデータを表示できます。
+インプレッション共有指標は、前日の広告主のタイムゾーンの 13:00 から利用できます。 過去 2 か月のデータを表示できます。
 
 ## デフォルトの列
 
-すべてのデフォルト列とカスタム列の説明については、[特殊レポートのレポート列](specialty-report-columns.md).&quot;
+デフォルト列とカスタム列については、「」を参照してください[専門レポートのレポート列](specialty-report-columns.md).」と入力します。
 
 * [!UICONTROL Start Date]
 * [!UICONTROL End Date]
@@ -43,6 +43,6 @@ The [!UICONTROL Campaign Daily Impression Share Report] 1 つ以上のキャン�
 
 >[!MORELIKETHIS]
 >
->* [特殊レポートについて](specialty-report-about.md)
->* [特殊なレポートの生成](specialty-report-generate.md)
->* [特殊なレポート設定](specialty-report-settings.md)
+>* [専門レポートについて](specialty-report-about.md)
+>* [専門レポートの生成](specialty-report-generate.md)
+>* [専門レポートの設定](specialty-report-settings.md)

@@ -1,32 +1,32 @@
 ---
-title: キャンペーンおよび広告グループに関連付けられた広告拡張の削除
-description: キャンペーンと広告グループとの関連付けを解除する方法について説明します。
+title: キャンペーンおよび広告グループとの広告拡張機能の関連付けの削除
+description: 広告拡張機能とキャンペーンおよび広告グループとの関連付けを解除する方法について説明します。
 exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
-source-git-commit: bd7d7ed571ef281f534ab45dc92f20be9445b055
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
 
 ---
 
-# キャンペーンおよび広告グループに関連付けられた広告拡張の削除
+# キャンペーンおよび広告グループとの広告拡張機能の関連付けの削除
 
-*[!DNL Google Ads]および [!DNL Microsoft® Advertising] のみ*
+*[!DNL Google Ads]および [!DNL Microsoft Advertising] のみ*
 
-任意の場所、電話、サイトリンク拡張に対するキャンペーンレベルおよび広告グループレベルの関連付けを削除できます。
+任意の場所、電話、サイトリンクの拡張機能に対する、キャンペーンレベルおよび広告グループレベルの関連付けを削除できます。
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
-1. 削除する各関連付けの横にあるチェックボックスをオンにします。
+1. 削除する各関連付けの横にあるチェック ボックスをオンにします。
 
-   複数の行を選択する際のヒントは、「[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   複数行の選択に関するヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).」と入力します。
 
-1. ツールバーで、 ![その他](/help/search-social-commerce/assets/more.png "その他") を選択し、 **[!UICONTROL Delete]**.
+1. ツールバーで、 ![詳細](/help/search-social-commerce/assets/more.png "詳細") を選択して、 **[!UICONTROL Delete]**.
 
 1. 確認メッセージで、 **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
->* [管理 [!DNL Google Ads] 引き出し線の拡張](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
->* [サイトリンク拡張の管理](sitelink-extension-manage.md)
+>* [管理 [!DNL Google Ads] コールアウト拡張機能](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
+>* [サイトリンク拡張機能の管理](sitelink-extension-manage.md)

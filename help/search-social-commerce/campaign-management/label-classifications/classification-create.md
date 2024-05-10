@@ -1,34 +1,34 @@
 ---
-title: ラベルの分類の作成
-description: アカウントコンポーネントをグループ化するためのラベル分類を作成する方法を説明します。
-exl-id: a7f6ca43-e829-4295-96bc-27ce8858227a
+title: ラベル分類を作成
+description: ラベル分類を作成してアカウントコンポーネントをグループ化する方法を説明します。
+exl-id: 227f44d7-c422-4baa-94ff-6deafcddf920
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
 
-# ラベルの分類の作成
+# ラベル分類を作成
 
-各広告主は、最大 30 個のラベル分類を持つことができます。
+各広告主には、最大 30 個のラベル分類を設定できます。
 
 1. クリック **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 
-1. データテーブルの上にあるツールバーで、 ![作成](/help/search-social-commerce/assets/add.png "作成").
+1. データ テーブルの上にあるツールバーで、 ![作成](/help/search-social-commerce/assets/add.png "作成").
 
-1. 一意のラベル分類名を入力し、「 **[!UICONTROL Save]**.
+1. 一意のラベル分類名を入力し、 **[!UICONTROL Save]**.
 
-   名前は、広告主アカウントで一意である必要があり、で構成されます [ASCII 文字 32～126](https://www.asciitable.com/)の場合、最大長は 27 文字の 1 バイト文字です。 既存のレポート列または既存の Bulksheet 列の名前と同じ名前にすることはできません。 次のバルクシート列の名前を参照： [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft® Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [ネーバー](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! ネットワークを表示](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)、および [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+   名前は、広告主アカウントに対して一意である必要があり、以下で構成されている必要があります [ASCII 文字 32 ～ 126](https://www.asciitable.com/)、最大長は 27 個のシングルバイト文字です。 既存のレポート列または既存のバルクシート列の名前と同じ名前を指定することはできません。 のバルクシート列の名前を参照してください [バイドゥ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google広告](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [ネイバー](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! 日本広告](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! ネットワークを表示](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)、および [ヤンデックス](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
-ラベル分類を作成したら、分類に対する特定のラベル値を作成し、そのラベル値を [キャンペーン管理ビュー](classification-values-assign-campaign-management.md) または [bulksheets の使用](classification-values-assign-bulksheets.md).
+ラベル分類を作成したら、分類の特定のラベル値を作成し、からアカウントエンティティにラベル値を割り当てることができます [キャンペーン管理ビュー](classification-values-assign-campaign-management.md) または [バルクシートの使用](classification-values-assign-bulksheets.md).
 
 >[!MORELIKETHIS]
 >
 >* [ラベルの分類について](classification-about.md)
->* [分類値をキャンペーン管理ビューからアカウントコンポーネントに割り当てる](classification-values-assign-campaign-management.md)
->* [一括送信シートを使用して、勘定科目コンポーネントに分類値を割り当てます。](classification-values-assign-bulksheets.md)
->* [顧客コンポーネントからラベル分類値を削除](classification-values-remove.md)
->* [ラベル分類値の削除](classification-values-delete.md)
+>* [キャンペーン管理ビューからのアカウントコンポーネントへの分類値の割り当て](classification-values-assign-campaign-management.md)
+>* [バルクシートを使用したアカウントコンポーネントへの分類値の割り当て](classification-values-assign-bulksheets.md)
+>* [アカウントコンポーネントからラベル分類値を削除](classification-values-remove.md)
+>* [ラベル分類値を削除](classification-values-delete.md)
 >* [ラベルの分類を削除](classification-delete.md)

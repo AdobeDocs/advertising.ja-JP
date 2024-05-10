@@ -1,70 +1,70 @@
 ---
-title: をインストールしてアンインストールします。 [!UICONTROL Notification Center] web アプリケーション
+title: をインストールしてアンインストールします [!UICONTROL Notification Center] web アプリケーション
 description: をインストールしてアンインストールする方法を説明します。 [!UICONTROL Notification Center] web アプリケーション。
-exl-id: e1afc7c0-4bbb-44d6-9871-924580648fa9
+exl-id: e0a72907-3b5e-4678-b08b-95ed099f2dab
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
 
-# をインストールしてアンインストールします。 [!UICONTROL Notification Center] web アプリケーション
+# をインストールしてアンインストールします [!UICONTROL Notification Center] web アプリケーション
 
 *ベータ版機能*
 
-通知は、ブラウザー以外で、 [!UICONTROL Notification Center] web アプリケーション。 アプリケーションは同じように見え、と同じ機能を備えています。 [!UICONTROL Notification Center] 検索、ソーシャル、コマース内。 アプリケーションは次の用途で使用できます。 [!DNL Google Chrome] 40 以降 [!DNL Microsoft® Edge] 17 以降。
+をインストールすると、ブラウザー外で通知を受信および管理できます。 [!UICONTROL Notification Center] web アプリケーション。 アプリケーションは、と同じように見え、同じ機能を持っています。 [!UICONTROL Notification Center] 検索、ソーシャル、Commerce内。 アプリケーションの利用対象 [!DNL Google Chrome] 40 以上 [!DNL Microsoft Edge] 17 以上。
 
-インストール後、 [!UICONTROL Notification Center] アプリケーションの場合は、ブラウザーのアプリケーションマネージャーで自動的に有効になり、別のウィンドウとして読み込まれます。このウィンドウのレイアウトは、ウィンドウサイズに基づいて動的に配置されます。 ブラウザーのアプリケーションマネージャーからアプリケーションを開いて閉じたり、オペレーティングシステムのタスクバーやドックに固定したりできます。 アプリケーションが自動的に更新されます。
+をインストールしたら [!UICONTROL Notification Center] アプリケーションは、ブラウザーのアプリケーションマネージャーで自動的に有効になり、別個のウィンドウとして読み込まれ、ウィンドウサイズに基づいてレイアウトが動的に配置されます。 ブラウザのアプリケーション マネージャからアプリケーションを開いたり閉じたりするか、オペレーティング システムのタスク バーまたはドッキングに固定することができます。 アプリケーションが自動的に更新されます。
 
-![Microsoft® Windows タスクバーの通知センターアイコン](/help/search-social-commerce/assets/windows-taskbar.png "Microsoft® Windows タスクバーの通知センターアイコン")
+![Microsoft Windows タスクバーの通知センターアイコン](/help/search-social-commerce/assets/windows-taskbar.png "Microsoft Windows タスクバーの通知センターアイコン")
 
-ブラウザーのアプリケーションマネージャーで、アプリケーションを無効にしたりアンインストールしたりできます。 Web アプリケーションの管理の詳細については、ブラウザのヘルプを参照してください。
+ブラウザーのアプリケーションマネージャーからアプリケーションを無効またはアンインストールできます。 Web アプリケーションの管理の詳細については、ブラウザのヘルプを参照してください。
 
-## をインストールします。 [!UICONTROL Notification Center] の Web アプリケーション [!DNL Google Chrome]
+## のインストール [!UICONTROL Notification Center] の web アプリケーション [!DNL Google Chrome]
 
 1. メインメニューで、 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
-1. 右下で、 ![Notification Center Web アプリのインストール](/help/search-social-commerce/assets/notifications-install-app.png "Notification Center Web アプリのインストール").
+1. 右下のをクリックします。 ![通知センター Web アプリのインストール](/help/search-social-commerce/assets/notifications-install-app.png "通知センター Web アプリのインストール").
 
 1. 確認メッセージで、 **[!UICONTROL Add]**.
 
-1. インストールアプリで メッセージ、クリック **[!UICONTROL Install]**.
+1. インストールアプリで、 メッセージ、クリック **[!UICONTROL Install]**.
 
-## をインストールします。 [!UICONTROL Notification Center] の Web アプリケーション [!DNL Microsoft® Edge]
+## のインストール [!UICONTROL Notification Center] の web アプリケーション [!DNL Microsoft Edge]
 
-* 検索、ソーシャル、コマース内から：
+* 検索、ソーシャル、Commerceから：
 
    1. メインメニューで、 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
-   1. 右下で、 ![Notification Center Web アプリのインストール](/help/search-social-commerce/assets/notifications-install-app.png "Notification Center Web アプリのインストール").
+   1. 右下のをクリックします。 ![通知センター Web アプリのインストール](/help/search-social-commerce/assets/notifications-install-app.png "通知センター Web アプリのインストール").
 
    1. 確認メッセージで、 **[!UICONTROL Add]**.
 
-   1. Adobe Analytics の [!UICONTROL Install Notification Center] アプリメッセージ、クリック **[!UICONTROL Install]**.
+   1. が含まれる [!UICONTROL Install Notification Center] アプリ メッセージ、クリック **[!UICONTROL Install]**.
 
-* 次から： [!DNL Edge] メインメニュー：
+* から [!DNL Edge] メインメニュー：
 
-   1. ブラウザーのツールバーで、 **...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**.
+   1. ブラウザーツールバーで、をクリックします **...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**.
 
-   1. Adobe Analytics の [!UICONTROL Install Notification Center] アプリメッセージ、クリック **[!UICONTROL Install]**.
+   1. が含まれる [!UICONTROL Install Notification Center] アプリ メッセージ、クリック **[!UICONTROL Install]**.
 
-## をアンインストールします。 [!UICONTROL Notification Center] の Web アプリケーション [!DNL Google Chrome]
+## をアンインストール [!UICONTROL Notification Center] の web アプリケーション [!DNL Google Chrome]
 
-* In [!DNL Chrome]に移動します。 `chrome://apps`、右クリック **[!UICONTROL notification-center]**&#x200B;をクリックし、 **[!UICONTROL Remove from Chrome]**.
+* 対象： [!DNL Chrome]に移動します。 `chrome://apps`、右クリック **[!UICONTROL notification-center]**&#x200B;を選択し、 **[!UICONTROL Remove from Chrome]**.
 
-## をアンインストールします。 [!UICONTROL Notification Center] の Web アプリケーション [!DNL Microsoft® Edge]
+## をアンインストール [!UICONTROL Notification Center] の web アプリケーション [!DNL Microsoft Edge]
 
-1. Adobe Analytics の [!DNL Edge] ブラウザのツールバーで、 **...** > **[!UICONTROL Apps]** > **[!UICONTROL Manage apps]**. または、に進みます。 `edge://apps`.
+1. が含まれる [!DNL Edge] ブラウザーツールバー、クリック **...** > **[!UICONTROL Apps]** > **[!UICONTROL Manage apps]**. または、に移動します。 `edge://apps`.
 
-1. 右クリック **[!UICONTROL Notification Center]** をクリックします。 **[!UICONTROL Uninstall]**.
+1. 右クリック **[!UICONTROL Notification Center]** をクリックして、 **[!UICONTROL Uninstall]**.
 
 >[!MORELIKETHIS]
 >
 >* [通知について](/help/search-social-commerce/notifications/notification-about.md)
->* [通知を表示する](notification-view.md)
->* [通知を既読または未読としてマーク](notification-mark-read-unread.md)
+>* [通知の表示](notification-view.md)
+>* [通知を既読または未読にする](notification-mark-read-unread.md)
 >* [通知の削除](notification-delete.md)
->* [通知設定を編集](notification-edit.md)
->* [次のプッシュ通知を有効/無効にする： [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
+>* [通知設定の編集](notification-edit.md)
+>* [からのプッシュ通知の有効化と無効化 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
