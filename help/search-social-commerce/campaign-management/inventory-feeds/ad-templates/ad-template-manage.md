@@ -3,9 +3,9 @@ title: 在庫フィードの広告テンプレートの管理
 description: アカウント構造を管理し、動的広告を配信するためにインベントリデータを処理できる広告テンプレートの管理について説明します。
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 0%
                >* 元の広告コピーが検索エンジンの長さの要件を満たしている場合、代替広告コピーは破棄されます。
                >* 各広告コピーフィールドに最大 4 つの代替を指定できます。
 
-         * 広告バリエーションを削除するには、をクリックします **[!UICONTROL Remove ETA Variation]** （拡張/拡張テキスト広告の場合）または **[!UICONTROL Remove RSA Variation]** （レスポンシブ検索広告の場合）該当する場合は、その横に表示されます。
+         * 広告バリエーションを削除するには、をクリックします **[!UICONTROL Remove ETA Variation]** （拡張/拡張テキスト広告の場合）または **[!UICONTROL Remove RSA Variation]** （レスポンシブ検索広告の場合）必要に応じて広告バリエーションの横に表示されます。
 
    1. （ショッピングテンプレートのみ）をクリックします **[!UICONTROL Product Groups]** タブをクリックし、ターゲットにする製品グループに関する情報を指定します。
 

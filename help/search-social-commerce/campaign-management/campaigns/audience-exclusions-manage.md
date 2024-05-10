@@ -1,70 +1,70 @@
 ---
-title: キャンペーンおよび広告グループのオーディエンスの除外の管理
-description: のオーディエンスの除外を設定および管理する方法について説明します。 [!DNL Google Ads] および [!DNL Microsoft® Advertising] キャンペーンと広告グループの両方に割り当てられます。
-exl-id: 0b05d980-d736-4b44-8317-c90de687dbd4
+title: キャンペーンおよび広告グループのオーディエンス除外の管理
+description: のオーディエンス除外を設定および管理する方法を説明します [!DNL Google Ads] および [!DNL Microsoft® Advertising] キャンペーンと広告グループ。
+exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-# のオーディエンスの除外を管理 [!DNL Google Ads] および [!DNL Microsoft® Advertising] キャンペーンと広告グループ
+# のオーディエンス除外の管理 [!DNL Google Ads] および [!DNL Microsoft® Advertising] キャンペーンと広告グループ
 
 *[!DNL Google Ads]および [!DNL Microsoft® Advertising] のみ*
 
-特定のオーディエンスを、特定の広告グループやキャンペーンのターゲットとして除外できます。 オーディエンスを除外すると、指定した広告グループやキャンペーンで広告を受け取らなくなります。
+特定の広告グループやキャンペーンのターゲットとして、特定のオーディエンスを除外できます。 オーディエンスを除外すると、指定された広告グループやキャンペーンで広告が届かなくなります。
 
-の場合 [!DNL Google Ads] アカウントを使用すると、任意のオーディエンスタイプを除外できます。 の場合 [!DNL Microsoft Advertising] アカウントを使用する場合、動的なリマーケティングオーディエンスのみを除外できます。
+の場合 [!DNL Google Ads] アカウントの場合は、任意のオーディエンスタイプを除外できます。 の場合 [!DNL Microsoft Advertising] アカウントの場合、除外できるのは動的なリマーケティングオーディエンスのみです。
 
 >[!NOTE]
 >
->除外は、常に含める/ターゲットを上書きします。
+>除外は、常に包含/ターゲットを上書きします。
 
-オーディエンスの除外も削除できます。
+オーディエンスの除外を削除することもできます。
 
 ## オーディエンスの除外の設定
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]**.
 
-1. データテーブルの上にあるツールバーで、 ![作成](/help/search-social-commerce/assets/add.png "作成").
+1. データ テーブルの上にあるツールバーで、 ![作成](/help/search-social-commerce/assets/add.png "作成").
 
 1. 広告ネットワークとアカウント名を選択し、 **[!UICONTROL Continue]**.
 
-1. 特定のキャンペーンおよび広告グループに対するオーディエンスの除外を設定します。
+1. 特定のキャンペーンおよび広告グループのオーディエンス除外を設定します。
 
    1. 該当するオーディエンスを選択します。
 
-      オプションで、3 文字以上の特定のテキスト文字列を含むオーディエンスを検索できます。 一致するオーディエンスの場合、 **[!UICONTROL Include]** をクリックして除外対象として選択します。
+      オプションで、3 文字以上の特定のテキスト文字列を含むオーディエンスを検索できます。 一致するオーディエンスを検索するには、 **[!UICONTROL Include]** をクリックして除外するように選択します。
 
-      **注意：** [!DNL Google Ads] 顧客一致オーディエンスは、検索キャンペーンと買い物キャンペーンでのみ使用できます。
+      **注意：** [!DNL Google Ads] 顧客一致オーディエンスは、検索キャンペーンとショッピングキャンペーンでのみ使用できます。
 
    1. 除外するオーディエンスを指定します。
 
-      1. （オプション）キャンペーンを展開して、子の広告グループを表示するには、キャンペーン名をクリックします。
+      1. （オプション）キャンペーンを展開してその子広告グループを表示するには、キャンペーン名をクリックします。
 
-      1. （オプション）名前に含まれるテキスト文字列でキャンペーンリストまたは広告グループリストをフィルタリングするには、 ![フィルター](/help/search-social-commerce/assets/filter.png "フィルター")をクリックし、テキスト文字列を入力フィールドに入力または貼り付けて、 [!UICONTROL Enter] キー。
+      1. （オプション）名前に含まれているテキスト文字列でキャンペーンリストまたは広告グループリストをフィルタリングするには、 ![フィルター](/help/search-social-commerce/assets/filter.png "フィルター")を選択し、テキスト文字列を入力フィールドに入力または貼り付けて、 [!UICONTROL Enter] キー。
 
-      1. 次のいずれかの操作を行います。
+      1. 次のいずれかの操作をおこないます。
 
-         * 各広告グループの除外を指定するには、広告の横の円をクリックして、赤いチェックマーク (![除外](/help/search-social-commerce/assets/exclude.png "除外")) が表示されます。
+         * 赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されます。
 
-         * 各キャンペーンの除外を指定するには、キャンペーンの横の円をクリックして、赤いチェックマーク (![除外](/help/search-social-commerce/assets/exclude.png "除外")) が表示されます。
+         * 赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されます。
 
 1. クリック **[!UICONTROL Post]**.
 
-## オーディエンスの除外の削除
+## オーディエンスの除外を削除
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]**.
 
-1. （オプション）リストをフィルタリングして、特定のオーディエンスの除外を含めます。
+1. （任意）特定のオーディエンスの除外を含めるようにリストをフィルタリングします。
 
-1. ステータスを変更する各オーディエンスの除外の横にあるチェックボックスをオンにします。
+1. ステータスを変更する各オーディエンス除外の横にあるチェックボックスを選択します。
 
-   複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   複数の行を選択する際のヒントについては、「」を参照してください[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).」と入力します。
 
-1. ツールバーで、 ![その他のアクション](/help/search-social-commerce/assets/more.png "その他のアクション") を選択し、 **[!UICONTROL Delete]**.
+1. ツールバーで、 ![その他のアクション](/help/search-social-commerce/assets/more.png "その他のアクション") を選択して、 **[!UICONTROL Delete]**.
 
 1. 確認メッセージで、 **[!UICONTROL Delete]**.
 

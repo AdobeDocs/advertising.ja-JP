@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] 広告グループ設定'
 description: の設定を参照します [!DNL Microsoft® Advertising] 広告グループ。
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -76,33 +76,33 @@ ht-degree: 0%
 
 * すべての値をターゲットにするには、どの値も選択しません。
 
-* 値を含めるには、その値の横にある円を 1 回クリックし、青いチェックマーク（![次を含める](/help/search-social-commerce/assets/include.png "次を含める")）が表示されます。 オプションで、ターゲットとなる性別ごとに指定した割合で入札を増減できます。
+* 値を含めるには、隣の円を 1 回クリックして、青いチェックマーク（![次を含める](/help/search-social-commerce/assets/include.png "次を含める")）が表示されます。 オプションで、ターゲットとなる性別ごとに指定した割合で入札を増減できます。
 
-* 値を除外するには、その値の横にある円を 2 回クリックして、赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されます。
+* 値を除外するには、隣の円を 2 回クリックして、赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されます。
 
 **[!UICONTROL Age]:** （オーディエンス広告グループ。オプション）ターゲットとして含める、または除外する特定の年齢カテゴリ： *[!UICONTROL 18-24]*, *[!UICONTROL 25-34]*, *[!UICONTROL 35-49]*, *[!UICONTROL 50-64]*, *[!UICONTROL 65+]*、および *[!UICONTROL Unknown]*. デフォルトでは、すべてのページがターゲットになっています。 除外は、常に包含を上書きします。
 
 * すべての値をターゲットにするには、どの値も選択しません。
 
-* 値を含めるには、その値の横にある円を 1 回クリックし、青いチェックマーク（![次を含める](/help/search-social-commerce/assets/include.png "次を含める")）が表示されます。 必要に応じて、ターゲットとする各年齢に指定の割合で入札を増減できます。
+* 値を含めるには、隣の円を 1 回クリックして、青いチェックマーク（![次を含める](/help/search-social-commerce/assets/include.png "次を含める")）が表示されます。 必要に応じて、ターゲットとする各年齢に指定の割合で入札を増減できます。
 
-* 値を除外するには、その値の横にある円を 2 回クリックして、赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されます。
+* 値を除外するには、隣の円を 2 回クリックして、赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されます。
 
 **[!UICONTROL Industry]:** （オーディエンス広告グループ。任意）ターゲットとして含める、または除外する特定の業界。 デフォルトでは、すべての業界がターゲットになります。 除外は、常に包含を上書きします。
 
 * すべての値をターゲットにするには、どの値も選択しません。
 
-* 値を含めるには、その値の横にある円を 1 回クリックし、青いチェックマーク（![次を含める](/help/search-social-commerce/assets/include.png "次を含める")）が表示されます。 オプションで、ターゲットとする業界ごとに指定した割合で入札を増減できます。
+* 値を含めるには、隣の円を 1 回クリックして、青いチェックマーク（![次を含める](/help/search-social-commerce/assets/include.png "次を含める")）が表示されます。 オプションで、ターゲットとする業界ごとに指定した割合で入札を増減できます。
 
-* 値を除外するには、その値の横にある円を 2 回クリックして、赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されます。
+* 値を除外するには、隣の円を 2 回クリックして、赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されます。
 
 **[!UICONTROL Job Function Targets]:** （オーディエンス広告グループ。オプション）ターゲットとして含めたり除外したりする特定の職種。 デフォルトでは、すべてのジョブ機能がターゲットになります。 除外は、常に包含を上書きします。
 
 * すべての値をターゲットにするには、どの値も選択しません。
 
-* 値を含めるには、その値の横にある円を 1 回クリックし、青いチェックマーク（![次を含める](/help/search-social-commerce/assets/include.png "次を含める")）が表示されます。 必要に応じて、ターゲットとする各役職機能に対して指定したパーセントで入札を増減できます。
+* 値を含めるには、隣の円を 1 回クリックして、青いチェックマーク（![次を含める](/help/search-social-commerce/assets/include.png "次を含める")）が表示されます。 必要に応じて、ターゲットとする各役職機能に対して指定したパーセントで入札を増減できます。
 
-* 値を除外するには、その値の横にある円を 2 回クリックして、赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されます。
+* 値を除外するには、隣の円を 2 回クリックして、赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されます。
 
 ## [!UICONTROL URL Options]
 

@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] キャンペーン設定'
 description: の設定を参照します [!DNL Google Ads] キャンペーン。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2426'
 ht-degree: 0%
 
 ---
@@ -136,9 +136,9 @@ eCPC を使用してキャンペーンを最適化された検索、ソーシャ
 
    * （国、都道府県、大都市圏、または市区町村）をクリックします。 **[!UICONTROL Location Target]** （![場所のターゲット](/help/search-social-commerce/assets/location-target.png "場所のターゲット")）を選択し、含める場所と除外する場所を見つけます。
 
-      * 場所とその子場所を含めるには、その横にある円を 1 回クリックして、青いチェックマーク（![次を含める](/help/search-social-commerce/assets/include.png "次を含める")）が表示されます。
+      * 位置とその子位置を含めるには、隣の円を 1 回クリックして、青いチェックマーク（![次を含める](/help/search-social-commerce/assets/include.png "次を含める")）が表示されます。
 
-      * 場所を除外するには、その場所の横にある円を 2 回クリックして、赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されます。
+      * 位置を除外するには、隣の円を 2 回クリックして、赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されます。
 
       * 場所をサブコンポーネント（米国の州、大都市圏、都市など）に展開するには、場所名をクリックします。
 

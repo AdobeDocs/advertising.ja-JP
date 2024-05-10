@@ -3,9 +3,9 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3535'
 ht-degree: 0%
 
 ---
@@ -258,7 +258,7 @@ ht-degree: 0%
       1. クリック **[!UICONTROL Search]**.
       1. キーワードを入力するか、サイト層を選択するか、サイト カテゴリを選択します。
       1. 検索結果で、除外するサイトを選択します。
-         * 個々のサイトを除外するには、そのサイトの横にあるチェックボックスをオンにします。
+         * 個々のサイトを除外するには、隣のチェックボックスをオンにします。
          * （50 を超える結果がある場合）最初の 50 件の結果を除外するには、をクリックします **[!UICONTROL Exclude these 50]**. すべての検索結果を除外するには、 **[!UICONTROL Exclude these \<*NN *\>]**.
    * ドメイン名を入力するには：
       1. クリック **[!UICONTROL Paste]**.
@@ -289,7 +289,7 @@ ht-degree: 0%
       1. クリック **[!UICONTROL Search]**.
       1. キーワードを入力するか、サイト層を選択するか、サイト カテゴリを選択します。
       1. 検索結果で、含めるサイトを選択します。
-         * 個々のサイトを除外するには、そのサイトの横にあるチェックボックスをオンにします。
+         * 個々のサイトを除外するには、隣のチェックボックスをオンにします。
          * （50 を超える結果がある場合）最初の 50 件の結果を含めるには、 **[!UICONTROL Include these 50]**. すべての検索結果を含めるには、 **[!UICONTROL Include these \<*NN *\>]**.
    * ドメイン名を入力するには：
       1. click **[!UICONTROL Paste]**.

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6b4dd1b8912703a5d45ffa872fe0231716cfb9a5
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 * すべての場所を対象にするには、どの場所も選択しないでください。
 
-* 場所とその子場所を含めるには、その横にある円を 1 回クリックして、青いチェックマーク（![次を含める](/help/search-social-commerce/assets/include.png "次を含める")）が表示されます。 必要に応じて、ターゲットとする場所ごとに指定した割合で入札を増減できます。
+* 位置とその子位置を含めるには、隣の円を 1 回クリックして、青いチェックマーク（![次を含める](/help/search-social-commerce/assets/include.png "次を含める")）が表示されます。 必要に応じて、ターゲットとする場所ごとに指定した割合で入札を増減できます。
 
-* 場所を除外するには、その場所の横にある円を 2 回クリックして、赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されます。
+* 位置を除外するには、隣の円を 2 回クリックして、赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されます。
 
 * 場所をサブコンポーネント（都道府県、地域、市区町村など）に展開するには、場所の名前をクリックします。
 
