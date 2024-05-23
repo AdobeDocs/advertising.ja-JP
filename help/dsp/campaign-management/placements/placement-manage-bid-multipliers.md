@@ -1,24 +1,24 @@
 ---
 title: プレースメントの入札乗数の管理
-description: 指定したプレースメント ターゲットの入札乗数を作成および編集する方法を説明します。
+description: プレースメント ターゲットの入札乗数を作成および編集する方法を説明します。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 3%
+source-wordcount: '554'
+ht-degree: 2%
 
 ---
 
 # プレースメントの入札乗数の管理
 
-この機能を使用して、既存のプレースメントターゲットの入札乗数を変更できます。 入札乗数は、一度に 1 つのプレースメントについて管理できます。<!-- remove that line once we can edit multiple -->
+以下の既存のプレースメント ターゲットに対して、入札に乗算して入札を増減させる入札乗数を作成および管理できます [適格なターゲットタイプ](#bid-multiplier-by-target). 入札乗数の値を手動で編集することも、値を含むスプレッドシートをアップロードすることもできます。
 
-プレースメントの選択したターゲットを変更するには、「」を参照してください[プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md).」と入力します。
+デフォルトでは、ターゲットの入札乗数は 1.00 です。つまり、そのターゲットに対する入札は調整されません。 値の範囲は 0.10 ～ 10.00 です。例えば、入札修飾子が 0.5 の場合、6 米ドルの入札は 3 米ドル（0.5 x 6）に減ります。 オークションが複数の入札モディファイアに該当する場合、適用可能な入札モディファイアがすべて乗算されます。 入札修飾子は、最大入札値を超えて入札を増加させることはありません。
 
-<!-- 
-## Manage the Bid Multipliers for a Single Placement
--->
+に入札乗数（1.00 以外の値）を設定できます。 [限られたターゲット数](#bid-multiplier-limits-by-target).
+
+この機能は、既存のプレースメントターゲットで機能します。 プレースメントの選択したターゲットを変更するには、「」を参照してください[プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md).」と入力します。
 
 1. メインメニューで、 **[!UICONTROL Campaigns]**.
 
@@ -28,15 +28,19 @@ ht-degree: 3%
 
 1. プレースメント名の横にある「」をクリックします  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. それぞれへ移動 [ターゲット固有のタブ](#bid-multiplier-by-target) （[!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience]、および [!UICONTROL Brand Safety]）を選択して、プレースメントターゲットの既存の値を編集します。 ほとんどのターゲットカテゴリには、左側にサブカテゴリが一覧表示されます。 該当する場合は、サブカテゴリをクリックし、そのサブカテゴリの入札乗数を管理します。
+1. 適格なターゲットの入札乗数を手動で調整するか、ターゲット値を含む CSV ファイルをアップロードして調整します。
 
-   デフォルトでは、ターゲットの入札乗数は 1.00 です。つまり、そのターゲットに対する入札は調整されません。 値の範囲は 0.10 ～ 10.00 です。例えば、入札修飾子が 0.5 の場合、6 米ドルの入札は 3 米ドル（0.5 x 6）に減ります。 入札修飾子は、最大入札値を超えて入札を増加させることはありません。
+   * 入札乗数の値を手動で調整するには、それぞれに移動します [ターゲット固有のタブ](#bid-multiplier-by-target) （[!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience]、および [!UICONTROL Brand Safety]）を選択して、プレースメントターゲットの既存の値を編集します。 ほとんどのターゲットカテゴリには、左側にサブカテゴリが一覧表示されます。 該当する場合は、サブカテゴリをクリックし、そのサブカテゴリの入札乗数を管理します。
 
-   オークションが複数の入札モディファイアに該当する場合、適用可能な入札モディファイアがすべて乗算されます。
+   * 入札乗数の値を含む CSV ファイルをアップロードして、既存の値を上書きするには：
 
-   に入札乗数（1.00 以外の値）を設定できます。 [限られたターゲット数](#bid-multiplier-limits-by-target).
+      1. クリック **[!UICONTROL CSV File Edit]** 右上
 
-1. 右上のをクリック **[!UICONTROL Save]**.
+      1. a） クリック **[!UICONTROL Download Template]** ユーザーインターフェイスに表示されているのと同じ構文を使用してターゲットを入力し、対応する入札乗数の値を入力します。または、b）以前にダウンロードしたテンプレートを同じ情報で編集します。 編集したファイルをデバイスまたはネットワークに保存します。
+
+      1. クリック **[!UICONTROL Next]** に移動します [!UICONTROL Upload File] セクションと a）編集したファイルをボックスにドラッグ&amp;ドロップするか、b）ボックス内をクリックしてデバイスまたはネットワークからファイルを選択します。
+
+      1. にアップロードされたデータを検証します。 [!UICONTROL Review & Submit] セクションを選択し、 **[!UICONTROL Save]**.
 
 ## 入札乗数に適格なターゲット・タイプ {#bid-multiplier-by-target}
 
