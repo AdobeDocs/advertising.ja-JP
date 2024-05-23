@@ -3,9 +3,9 @@ title: プレースメントの入札乗数の管理
 description: プレースメント ターゲットの入札乗数を作成および編集する方法を説明します。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
+source-git-commit: c23da6494c6d4ce89735f3f63f89f5320ca02a40
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '543'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,11 @@ ht-degree: 2%
 
 1. プレースメント名の横にある「」をクリックします  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. 適格なターゲットの入札乗数を手動で調整するか、ターゲット値を含む CSV ファイルをアップロードして調整します。
+1. 適格なターゲットの入札乗数を調整します。
 
-   * 入札乗数の値を手動で調整するには、それぞれに移動します [ターゲット固有のタブ](#bid-multiplier-by-target) （[!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience]、および [!UICONTROL Brand Safety]）を選択して、プレースメントターゲットの既存の値を編集します。 ほとんどのターゲットカテゴリには、左側にサブカテゴリが一覧表示されます。 該当する場合は、サブカテゴリをクリックし、そのサブカテゴリの入札乗数を管理します。
+   * 入札乗数の値を手動で調整するには、それぞれに移動します [ターゲット固有のタブ](#bid-multiplier-by-target) （[!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience]、および [!UICONTROL Brand Safety]）を選択して、プレースメントターゲットの既存の値を編集します。
+
+     ほとんどのターゲットカテゴリには、左側にサブカテゴリが一覧表示されます。 該当する場合は、サブカテゴリをクリックして、そのサブカテゴリの入札乗数を管理します。
 
    * 入札乗数の値を含む CSV ファイルをアップロードして、既存の値を上書きするには：
 
