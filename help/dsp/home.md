@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 0d96c6dcdc498e9c96e7c13b24c805bf5c3bdcae
+source-git-commit: 3ffd3fdbe61d66a7c3a181e07559727b5db83a7e
 workflow-type: tm+mt
-source-wordcount: '2857'
+source-wordcount: '2912'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024 年 5 月 20 日（Pt） | 接続された TV 広告、ピクセル、リターゲティングセグメント | （オープンベータ版、米国および AUS でのみ使用可能） CTV キャンペーンに公開されたオーディエンスセグメントを、追加の広告を使用して再ターゲットし、クロスチャネル広告を強化できるようになりました。<ul><li>広告露出セグメントを設定し、インプレッショントラッキングタグを目的の CTV 配置または広告にコピーして、セグメントのトラッキングを開始します。</li><li>リターゲティングプレースメントで、の CTV 露出セグメントを選択します [!UICONTROL Audience Targeting] セクション。</li></ul> | 参照先」[カスタムセグメントの作成と実装](/help/dsp/audiences/custom-segment-create.md)「」と「」に対して検査する値[プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md).」と入力します。 |
+| 2024 年 5 月 22 日（Pt） | CTV パッケージの最適化 | 「最低の CPA」と「最高の ROAS」の最適化目標を持つパッケージでは、接続された TV 広告のパフォーマンスモデルが、コンバージョンパスの複数のタッチポイントのデータを使用して、より迅速で堅牢な機械学習を実現するようになりました。 既存のパッケージは、マルチタッチ最適化を使用するようにアップグレードされるので、アクションは必要ありません。 | — |
+| 2024 年 5 月 20 日（Pt） | 接続された TV 広告、ピクセル、リターゲティングセグメント | （オープンベータ版、米国および AUS でのみ使用可能） CTV キャンペーンに公開されたオーディエンスセグメントを、追加の広告を使用して再ターゲットし、クロスチャネル広告を強化できるようになりました。<ol><li>広告露出セグメントを設定し、インプレッショントラッキングタグを目的の CTV 配置または広告にコピーして、セグメントのトラッキングを開始します。</li><li>リターゲティングプレースメントで、の CTV 露出セグメントを選択します [!UICONTROL Audience Targeting] セクション。</li></ol> | 参照先」[カスタムセグメントの作成と実装](/help/dsp/audiences/custom-segment-create.md)「」と「」に対して検査する値[プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md).」と入力します。 |
 | 2024 年 5 月 2 日（Pt） | 広告、ピクセル | キャンペーン内のすべての広告に関する広告設定とプレースメントの関連付けは、XLSX （Excel スプレッドシート）形式でダウンロードし、レビューできます。 [!UICONTROL Ad Tools] 表示。 | 参照先」[スプレッドシートを使用した広告の詳細のレビュー](/help/dsp/campaign-management/ads/ad-qa.md).」と入力します。 |
 | |  | この [!UICONTROL Ad Tools] 表示 > [!UICONTROL Attach Pixels] タブには、広告に付加されるサードパーティトラッキングピクセルが表示されます。このピクセルは、1 つ以上の広告にピクセルを付加し、既存のピクセルを分離する新しいワークフローを提供します。 | 参照先」[プレースメントに広告を添付](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).」と入力します。 |
 |  | プレースメント、オーディエンス | 一括編集ツールまたはプレースメントエディターを使用して、プレースメントから個々のオーディエンスセグメントまたは再利用可能でないオーディエンスを除外できるようになりました。 | 参照先」[プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)「」と「」に対して検査する値[プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md).」と入力します。 |
