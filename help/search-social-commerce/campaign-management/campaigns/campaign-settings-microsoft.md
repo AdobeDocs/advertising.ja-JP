@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft Advertising] キャンペーン設定'
 description: の設定を参照します [!DNL Microsoft Advertising] キャンペーン。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
   eCPC を使用してキャンペーンを最適化された検索、ソーシャル、Commerce ポートフォリオに追加すると、検索、ソーシャル、Commerceによってベース入札が最適化され、「[!UICONTROL Auto adjust campaign budget limits]「」オプションが有効になっています – キャンペーンの予算。 アドネットワークは、すべての入札調整を最適化し、独自のデータとインサイトに基づいて、ユーザークエリ時に検索、ソーシャル、Commerceで生成された入札を変更する可能性があります。 **注意：** ポートフォリオで eCPC キャンペーンを使用するのは、広告ネットワークで追跡されるコンバージョンの合計がポートフォリオの目的と合致する場合のみです。
 
-* *[!UICONTROL Manual CPC]*: （ブランドのショッピングキャンペーン； [!DNL Microsoft Store Ads] キャンペーン、廃止者 [!DNL Microsoft Advertising] 2021 年（その他のキャンペーンタイプの場合） クリック単価（CPC）モデルを使用します。 一部の広告タイプでは、オプションで、広告ネットワークにキャンペーンの入札の変更を許可できます。
+* *[!UICONTROL Manual CPC]*: （ブランドのショッピングキャンペーン； [!DNL Microsoft Store Ads] キャンペーン（他のキャンペーンタイプでは非推奨）クリック単価（CPC）モデルを使用します。 一部の広告タイプでは、オプションで、広告ネットワークにキャンペーンの入札の変更を許可できます。
 
    * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）：このオプションは、「」を使用した場合と同じです[!UICONTROL Enhanced CPC]」オプションを選択します。
 
