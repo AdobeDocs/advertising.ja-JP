@@ -3,9 +3,9 @@ title: カスタムセグメントの作成と実装
 description: カスタムセグメントを作成および実装して、広告にさらされたユーザーまたは web ページを訪問したユーザーを追跡する方法について説明します。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
+source-git-commit: 99091cd673fd064908fec4a89e28d2ddb448e9a8
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,20 @@ ht-degree: 0%
 
          1. 「」というラベルの付いたページビュートラッキングタグをコピーします[!UICONTROL Desktop or mobile websites].」と入力します。
 
+         1. （追跡するセグメントのタグ） [!DNL ID5] ID）コピーしたタグで、 `ID5_PARTNER_ID` パートナー ID が [!DNL ID5] を組織に割り当てました。
+
+            例えば、ID5 のパートナー ID がの場合 `abcde` 生成されるセグメントタグはです。
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            その後、を置換 `ID5_PARTNER_ID` （を使用） `abcde` タグ内で次の情報を取得できます。
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            組織がと契約を締結したときに、パートナー ID を受け取りました [!DNL ID5]. パートナー ID がわからない場合は、Adobeアカウントチームにお問い合わせください。
+
+            この手順は、タグでトラッキングする必要はありません [!DNL ID5] デスクトップまたはモバイルデバイスで広告ユニットに公開されるユーザーの ID。
+
          1. デプロイメント用に、タグを広告主または web サイトの連絡先に提供します。
 
             広告主の IT 部門またはその他のグループは、タグのデプロイメントをスケジュールするか、知らせる必要がある場合があります。
@@ -89,21 +103,7 @@ ht-degree: 0%
 
          1. 「」というラベルの付いたインプレッショントラッキングタグをコピーします[!UICONTROL Desktop or mobile ads].」と入力します。
 
-   1. （追跡するセグメントのタグ） [!DNL ID5] Web ページへのデスクトップおよびモバイル訪問者向け ID）コピーされたタグで、 `ID5_PARTNER_ID` パートナー ID が [!DNL ID5] を組織に割り当てました。
-
-   例えば、ID5 のパートナー ID がの場合 `abcde` 生成されるセグメントタグはです。
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   その後、を置換 `ID5_PARTNER_ID` （を使用） `abcde` タグ内で次の情報を取得できます。
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   組織がと契約を締結したときに、パートナー ID を受け取りました [!DNL ID5]. パートナー ID がわからない場合は、Adobeアカウントチームにお問い合わせください。
-
-   この手順は、タグでトラッキングする必要はありません [!DNL ID5] デスクトップまたはモバイルデバイスで広告ユニットに公開されるユーザーの ID。
-
-1. タグをのどちらかに追加します。 [!UICONTROL Pixel] 関連する各広告またはに対するタブ [!UICONTROL Event Pixels] の節 [[!UICONTROL Tracking] 関連するプレースメントごとの設定](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. タグをのどちらかに追加します。 [!UICONTROL Pixel] 関連する各広告またはに対するタブ [!UICONTROL Event Pixels] の節 [[!UICONTROL Tracking] 関連するプレースメントごとの設定](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 トラッキングタグが実装されると、任意のプレースメントに対してオーディエンスターゲットまたは除外のセグメントを使用できます。
 
