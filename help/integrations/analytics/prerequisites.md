@@ -3,9 +3,9 @@ title: 実装の前提条件と主な情報 [!DNL Analytics for Advertising]
 description: 実装の前提条件と主な情報 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 63b91d84118c6b84fe72ae1c3ac1a9f68d7201fc
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,9 @@ Adobe AdvertisingをAdobe Analyticsと統合する前に、次の情報を確認
 * あらゆるバージョンのAdobe Analytics（以下を含む） [!DNL Prime], [!DNL Premium]、または [!DNL Ultimate]）
 * Adobe Analytics: `appMeasurement.js` バージョン 2.1 以降
 * （Advertising DSPのお客様） [Advertising DSP JavaScript スニペット](javascript.md) web ページにデプロイして、ビュースルー訪問を追跡します。
+* 広告のトラッキング URL の AMO ID パラメーター。
+
+  状況によっては、トラッキング URL にパラメーターが自動的に追加されますが、手動で追加する必要がある場合があります。 「が使用するAdobe Advertising ID [!DNL Analytics]/help/integrations/analytics/ids.md,&quot;&quot; &quot;を参照[AMO ID を実装する方法](/help/integrations/analytics/ids.md#amo-id-implement).」と入力します。
 
 >[!TIP]
 >
