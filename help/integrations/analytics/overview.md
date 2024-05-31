@@ -3,9 +3,9 @@ title: 概要 [!DNL Analytics for Advertising]
 description: 概要 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: a0a3bb1e74ffc687118d0336a03dcc6164b67226
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 使用目的 [!DNL Analytics] 有料メディアレポートツールを使用する場合は、Analysis WorkspaceにアクセスできるExperience Cloudログインが必要です。 Adobe Advertisingチームは、Analysis WorkspaceでAdobe Advertisingデータを個々のレポートスイートにマッピングするのに役立ちます。 Adobe Advertisingデータは任意のレポートスイートに送信できますが、Adobe Advertisingにマッピングされたレポートスイートとマッピングされていないレポートスイートには注意する必要があります。レポートスイートによっては、これによりレポートされるデータが変更される場合があります。
 
-[内のAdobe AdvertisingID [!DNL Analytics]](ids.md) 他と同様に機能 [!DNL eVars]（カスタムの永続的な有効期限を使用）。 デフォルトでは、Adobe Advertising実装時のアトリビューションのルックバックウィンドウは 60 日に設定されています。 この設定を変更するには、Adobeアカウント チームに依頼してください。
+[内のAdobe AdvertisingID [!DNL Analytics]](ids.md) 他と同じように働く [!DNL eVars]（カスタムの永続的な有効期限を使用）。 デフォルトでは、Adobe Advertising実装時のアトリビューションのルックバックウィンドウは 60 日に設定されています。 この設定を変更するには、Adobeアカウント チームに依頼してください。
 
 Adobe Advertisingディメンションには、サフィックス「（AMO ID）」（「広告タイプ （AMO ID）」など）が付加されます。 参照先」[Analysis WorkspaceのAdobe Advertising指標](advertising-metrics-in-analytics.md)」を選択して使用可能なディメンションのリストを表示します。
 
@@ -84,7 +84,7 @@ Adobe Advertisingチームは、有料メディアのパフォーマンスに適
 
 Adobe Advertisingによる取り込み可能 [!DNL Analytics] advertising DSPおよび用のリマーケティング目的のセグメント [!DNL Search, Social, & Commerce] とのネイティブExperience Cloudオーディエンス統合を使用した広告 [!DNL Analytics] とExperience Cloud。
 
-にアクセスするには [!DNL Analytics] セグメント、広告主アカウントにはが必要です [Experience CloudID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html) 有効。 ID サービスが有効な場合、（で作成されたセグメントを含む）すべてのExperience Cloudセグメント [!DNL Analytics] を使用して、Experience Cloudに公開、Adobe Audience Managerで作成されたセグメント、Experience Cloudで作成されたセグメントに公開する [!DNL People core service]、およびAdobe Experience Platformで作成され、Audience Managerを介してAdobe Advertisingに送信されたセグメントは、処理されるとすぐにAdobe Advertising内で使用できるようになります。
+にアクセスするには [!DNL Analytics] セグメント。広告主アカウントでを有効にする必要があります [Experience CloudID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html). ID サービスが有効な場合、（で作成されたセグメントを含む）すべてのExperience Cloudセグメント [!DNL Analytics] を使用して、Experience Cloudに公開、Adobe Audience Managerで作成されたセグメント、Experience Cloudで作成されたセグメントに公開する [!DNL People core service]、およびAdobe Experience Platformで作成され、Audience Managerを介してAdobe Advertisingに送信されたセグメントは、処理されるとすぐにAdobe Advertising内で使用できるようになります。
 
 [!DNL Analytics] セグメントは 24 時間以内に利用可能になり、毎日更新されます。
 
@@ -135,6 +135,10 @@ Analysis Workspaceで目標に照らしてAdobe Advertisingデータを追跡す
 ### Adobe Advertising ID をサイトの利用状況分析に使用する
 
 Adobe Advertisingサイト入口レポートを作成して、曜日、時間帯、ブラウザー、地理的な影響を監視する方法については、ビデオ「」を参照してください[Adobe Advertisingサイト入口レポートの作成](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).」と入力します。
+
+## の開始方法 [!DNL Analytics for Advertising] 実装
+
+Adobeアカウントチームにお問い合わせください。このチームが開始に必要な初期設定を行い、組織のニーズに基づいて実装とデータ使用の計画を支援します。
 
 >[!MORELIKETHIS]
 >
