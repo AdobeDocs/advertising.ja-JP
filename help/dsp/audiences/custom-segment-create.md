@@ -3,9 +3,9 @@ title: カスタムセグメントの作成と実装
 description: カスタムセグメントを作成および実装して、広告にさらされたユーザーまたは web ページを訪問したユーザーを追跡する方法について説明します。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * Adobe Analyticsでの測定の場合、次の操作を行う必要があります。
 
-   1. すべて完了 [実装の前提条件 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) および [トラッキング URL の AMO ID と EF ID](/help/integrations/analytics/ids.md).
+   1. すべて完了 [実装の前提条件 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)を実行し、必ずを [AMO ID と EF ID](/help/integrations/analytics/ids.md) はトラッキング URL に入力されています。
 
    1. Web ページの前または内に、次のパラメーターを追加します [に必要な JavaScript コード [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)  – 最後のイベント サービスが初期化される前の任意の場所。
 
