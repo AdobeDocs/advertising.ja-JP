@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: b579c0413400b0af697f06c272878c46cce8003e
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,8 @@ ht-degree: 3%
    + [トラブルシューティングのパフォーマンス](/help/dsp/optimization/troubleshooting-performance.md)
 + オーディエンス {#audiences}
    + [Audience Management について](/help/dsp/audiences/audience-about.md)
-   + オーディエンス {#reusable-audiences}
+   + [ユニバーサル ID の有効化のサポート](/help/dsp/audiences/universal-ids.md)
+   + 再利用可能なオーディエンス {#reusable-audiences}
       + [再利用可能なオーディエンスを作成](/help/dsp/audiences/reusable-audience-create.md)
       + [再利用可能なオーディエンスを複製](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [再利用可能なオーディエンスを編集](/help/dsp/audiences/reusable-audience-edit.md)
@@ -137,14 +138,13 @@ ht-degree: 3%
       + [セグメントのトラッキングピクセルの表示](/help/dsp/audiences/segment-view-pixels.md)
       + [セグメントの削除](/help/dsp/audiences/segment-delete.md)
    + ソース {#sources}
-      + [オーディエンスソースからの認証済みセグメントのアクティブ化について](/help/dsp/audiences/sources/source-about.md)
+      + [ファーストパーティオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
       + 顧客データプラットフォーム別ワークフロー {#sources-workflows}
-         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
-            + [とのDSP統合を使用する際のワークフロー [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
-            + [ユニバーサル ID パートナーからの認証済みセグメントの有効化](/help/dsp/audiences/sources/source-universal-id.md)
-         + [とのDSP統合を使用する際のワークフロー [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
-      + [オーディエンスソースを作成してファーストパーティオーディエンスをアクティベート](/help/dsp/audiences/sources/source-create.md)
+         + [からのユーザー ID の変換 [!DNL Adobe Real-Time CDP] ユニバーサル ID に](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [からのユーザー ID の変換 [!DNL Tealium] ユニバーサル ID に](/help/dsp/audiences/sources/source-tealium.md)
+      + [オーディエンスソースを作成してユニバーサル ID オーディエンスを有効化](/help/dsp/audiences/sources/source-create.md)
       + [オーディエンスソース設定](/help/dsp/audiences/sources/source-settings.md)
+   + [認証済みセグメントの手動インポート： [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [利用可能なサードパーティデータプロバイダー](/help/dsp/audiences/third-party-data-providers.md)
 + 在庫 {#inventory}
    + [インベントリ機能の概要](/help/dsp/inventory/inventory-overview.md)

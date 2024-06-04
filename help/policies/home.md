@@ -1,13 +1,13 @@
 ---
 title: Adobe Advertising のポリシーとガイドライン
-description: Advertising DSPと Advertising Search のポリシーとガイドラインについて説明します。
+description: Advertising DSPおよび Advertising Search のポリシーとガイドラインについて説明します。
 index: true
 cloud: Experience Cloud
 product: advertising cloud
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 3d495d07a1f030d7c0c3a9752f405cbd73b26b3e
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 23%
+source-wordcount: '46'
+ht-degree: 21%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 23%
 
 Advertising DSPおよび Advertising Search のポリシーとガイドラインについて説明します。
 
-* [広告要件ポリシー](/help/policies/ad-requirements-policy.md)
-* [Acceptable Health Segment Guidelines](/help/policies/health-segment-guidelines.md)
-* [DSP Data Usage Guidelines](/help/policies/data-usage-guidelines.md)
++ [広告要件ポリシー](/help/policies/ad-requirements-policy.md)
++ [ユニバーサル ID の要件ポリシー](/help/policies/universal-id-policy.md)
++ [許容可能なヘルスセグメントガイドライン](/help/policies/health-segment-guidelines.md)
++ [[!DNL DSP] データ使用ガイドライン](/help/policies/data-usage-guidelines.md)

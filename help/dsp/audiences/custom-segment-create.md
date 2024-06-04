@@ -3,9 +3,9 @@ title: カスタムセグメントの作成と実装
 description: カスタムセグメントを作成および実装して、広告にさらされたユーザーまたは web ページを訪問したユーザーを追跡する方法について説明します。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 99091cd673fd064908fec4a89e28d2ddb448e9a8
+source-git-commit: 2fe54fbcd9711e714246f074ede086910b538b80
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 *ベータ版機能*
 
-* ID5 ID に関連付けられたユーザーを追跡するセグメントを生成する前に、との契約に署名する必要があります。 [!DNL ID5] 組織のパートナー ID を取得します。 手順については、Adobeアカウントチームにお問い合わせください。
+* ID5 ID に関連付けられたユーザーを追跡するセグメントを生成する前に、と契約書に署名します。 [!DNL ID5] 組織のパートナー ID を取得します。 手順については、Adobeアカウントチームにお問い合わせください。
 
 * Adobe Analyticsでの測定の場合、次の操作を行う必要があります。
 
@@ -42,6 +42,8 @@ ht-degree: 0%
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
       ```
+
+   1. 任意のブラウザーデバッグツールを使用して、各呼び出しがドメインに対して開始されていることを確認します `lasteventf-tm.everesttech.net` およびは、パラメーターを含みます `_les_id5` 値として暗号化された ID5 ID を使用します。
 
 ## カスタムセグメントの作成と実装
 

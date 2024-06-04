@@ -1,19 +1,21 @@
 ---
-title: DSP統合を次と共に使用するためのワークフロー [!DNL ActionIQ]"
-description: 「DSPが [!DNL ActionIQ] ファーストパーティセグメント」と呼ばれます。
+title: '"ユーザー ID を次から変換 [!DNL ActionIQ] ユニバーサル ID へ」'
+description: DSPでのデータの取り込みを有効にする方法を説明します [!DNL ActionIQ] ファーストパーティセグメント」を参照してください。
 feature: DSP Audiences
-source-git-commit: c672eb593b40de8a49f052ed1d45200d55a1bd1c
+source-git-commit: ecab6e81575128718156bb0bde1a5ea33a21d5f0
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
-# とのDSP統合を使用する際のワークフロー [!DNL ActionIQ]
+# からのユーザー ID の変換 [!DNL ActionIQ] ユニバーサル ID に
 
-組織のファーストパーティデータを [!DNL ActionIQ] ...........を使用した顧客データプラットフォーム <!-- fill in -->
+*ベータ版機能*
 
-次のものがあります。 <!-- NN --> からデータを共有する手順 [!DNL ActionIQ] DSP:
+とのDSP統合の使用 [!DNL ActionIQ] 顧客データプラットフォーム：ターゲット広告のために、ハッシュ化されたメールアドレスをユニバーサル ID に変換します。
+
+次のものがあります <!-- NN --> からのデータ共有手順 [!DNL ActionIQ] DSPを使用する場合：
 
 1. [DSPでのオーディエンスソースの作成](#source-create).
 
@@ -21,15 +23,25 @@ ht-degree: 0%
 
 ## 手順 1:DSPでのオーディエンスソースの作成 {#source-create}
 
-* [オーディエンスソースの作成](source-create.md) オーディエンスをDSPアカウントまたは広告主アカウントにインポートし、ソースコードキーを [!DNL Tealium] ユーザー。
+1. [オーディエンスソースの作成](source-create.md) を指定して、オーディエンスをDSP アカウントまたは広告主アカウントにインポートします。 [ユニバーサル ID 形式](source-about.md) にユーザー識別情報を変換します。
+
+1. オーディエンスソースを作成したら、ソースコードキーをと共有します。 [!DNL ActionIQ] ユーザー。
+
+1. すべての手順を完了したら、オーディエンスライブラリ（からオーディエンスを作成または編集する際に使用可能）で検証します。 [!UICONTROL Audiences] > [!UICONTROL All Audiences] またはプレースメント設定内）を選択した場合、24 時間以内にセグメントが入力されます。 ユニバーサル ID の数と、元のハッシュ化されたメールアドレスの数を比較します。
+
+   ハッシュ化されたメールアドレスのユニバーサル ID への翻訳率は、90% を超える必要があります。 例えば、顧客データプラットフォームからハッシュ化されたメールアドレスを 100 個送信する場合は、90 個を超えるユニバーサル ID に翻訳する必要があります。 90% 以下の翻訳率が課題です。 セグメント数の変化について詳しくは、「」を参照してください[メール ID とユニバーサル ID のデータの相違の原因](#universal-ids-data-variances).」と入力します。
+
+   トラブルシューティングのサポートについては、Adobeアカウントチームまたは `adcloud-support@adobe.com`.
+
+セグメントは 24 時間ごとに更新されます。
 
 ## 手順 2:
 
 >[!MORELIKETHIS]
 >
->* [オーディエンスソースからの認証済みセグメントのアクティブ化について](/help/dsp/audiences/sources/source-about.md)
->* [オーディエンスソースを作成してファーストパーティオーディエンスをアクティブ化する](source-create.md)
->* [Audience Source 設定](source-settings.md)
->* [とのDSP統合を使用する際のワークフロー [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [とのDSP統合を使用する際のワークフロー [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
+>* [ファーストパーティオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
+>* [オーディエンスソースを作成してユニバーサル ID オーディエンスを有効化](source-create.md)
+>* [オーディエンスソース設定](source-settings.md)
+>* [からのユーザー ID の変換 [!DNL Adobe Real-Time CDP] ユニバーサル ID に](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [からのユーザー ID の変換 [!DNL Tealium] ユニバーサル ID に](/help/dsp/audiences/sources/source-tealium.md)
 >* [Audience Management について](/help/dsp/audiences/audience-about.md)

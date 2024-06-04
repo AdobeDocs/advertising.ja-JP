@@ -1,11 +1,11 @@
 ---
 title: 再利用可能なオーディエンスに関する詳細の表示
-description: 再利用可能なオーディエンスの設定とオーディエンスサイズを表示する方法を説明します。
+description: 再利用可能なオーディエンスの設定とオーディエンスサイズを表示する方法について説明します。
 feature: DSP Audiences
 exl-id: b7ef5af5-0b82-474b-b769-135f80ba5460
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 5f96a9b1097137a337733be4f1df9bd6b9670626
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. オーディエンス行にカーソルを置き、 **[!UICONTROL View Details]**.
+1. オーディエンスの行の上にカーソルを置いてクリックします **[!UICONTROL View Details]**.
 
-1. （オプション）デバイスタイプ別のアクティブなオーディエンスメンバー数または合計オーディエンスメンバー数を確認するには、 ![デバイスの分類](/help/dsp/assets/device-breakdown.png) の横 **[!UICONTROL Active]** または **[!UICONTROL Total]** オーディエンスのサイズ。
+1. （オプション）デバイスタイプ（cookie ベースの ID の場合）およびユニバーサル ID タイプ別にアクティブなオーディエンスメンバーの数または合計を表示するには、次のボタンをクリックします ![医療機器の分類](/help/dsp/assets/device-breakdown.png) 「」の横 **[!UICONTROL Active]** または **[!UICONTROL Total]** オーディエンスサイズ。
 
-1. （オプション）オーディエンス設定を編集するには、 **[!UICONTROL Edit Audience]** および [オーディエンスの名前と設定を編集](reusable-audience-edit.md).
+1. （オプション）オーディエンス設定を編集するには、次をクリックします。 **[!UICONTROL Edit Audience]** および [オーディエンス名と設定を編集](reusable-audience-edit.md).
 
 >[!MORELIKETHIS]
 >
@@ -27,10 +27,9 @@ ht-degree: 0%
 >* [再利用可能なオーディエンスを複製](reusable-audience-duplicate.md)
 >* [再利用可能なオーディエンスを編集](reusable-audience-edit.md)
 >* [再利用可能なオーディエンスの共有](reusable-audience-share.md)
->* [再利用可能なオーディエンスのエクスポート](reusable-audience-export.md)
->* [再利用可能なオーディエンスのセグメントキーをクリップボードにコピーする](reusable-audience-clipboard.md)
->* [再利用可能なオーディエンスの削除](reusable-audience-delete.md)
+>* [再利用可能なオーディエンスの書き出し](reusable-audience-export.md)
+>* [再利用可能なオーディエンスのセグメントキーをクリップボードにコピー](reusable-audience-clipboard.md)
+>* [再利用可能なオーディエンスを削除](reusable-audience-delete.md)
 >* [オーディエンス設定](audience-settings.md)
 >* [オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
 >* [利用可能なサードパーティデータプロバイダー](third-party-data-providers.md)
-

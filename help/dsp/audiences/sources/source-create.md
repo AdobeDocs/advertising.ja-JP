@@ -1,34 +1,34 @@
 ---
-title: オーディエンスソースを作成してファーストパーティオーディエンスをアクティベート
-description: ソースを作成して、オーディエンスをアカウントまたは広告主アカウントにインポートする方法を説明します。
+title: オーディエンスソースを作成してユニバーサル ID オーディエンスを有効化
+description: ソースを作成して、オーディエンスを顧客データプラットフォームから読み込み、ユニバーサル ID を含むセグメントに変換する方法を説明します。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 16a796e02150b00c77c825d7f54c6e390c85214a
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
-# オーディエンスソースを作成してファーストパーティオーディエンスをアクティベート
+# オーディエンスソースを作成してユニバーサル ID オーディエンスを有効化
 
-<!-- Will this remain for admin users/Adobe Account Team users only? -->
+*ベータ版機能*
 
-DSPでソースを作成して、ファーストパーティオーディエンスをDSP アカウントまたは広告主アカウントに読み込みます。
+DSPで、顧客データプラットフォーム内のファーストパーティオーディエンスごとに、指定したユニバーサル ID タイプを含むセグメントに変換するソースを作成します。 セグメントは、組織のDSP アカウントまたは広告主アカウントに読み込むことができます。 データ料金は、選択したユニバーサル ID タイプに基づいて適用されます。
 
-特定の顧客データプラットフォームからセグメントを取り込むために必要な、その他の手順については、以下を参照してください [オーディエンス固有のアクティベーションワークフロー](source-about.md)
+各顧客データプラットフォームからオーディエンスを取り込むには、追加の手順が必要です。 手順の最後のメモを参照してください。
 
 1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
 1. クリック **[!UICONTROL Add Source]**.
 
-1. が含まれる [!UICONTROL Select a Type] メニューで、ソースタイプを選択します。
+1. が含まれる [!UICONTROL Select a Type] メニューで、顧客データプラットフォームを選択します。
 
    * *[!UICONTROL RT-CDP]*: [この [!DNL Adobe Real-Time Customer Data Platform]](source-about.md).
 
-   <!-- * *[!UICONTROL ActionIQ]*: The [[!DNL ActionIQ] customer data platform](source-about.md). -->
+   * *[!UICONTROL ActionIQ]*：です [[!DNL ActionIQ] 顧客データプラットフォーム](source-about.md).
 
-   * *[!UICONTROL Tealium CDP]*：です [[!DNL Tealium] 顧客データプラットフォーム](source-about.md).
+   * *[!UICONTROL Tealium CDP]*: （設定されたユーザーのみ）次の [[!DNL Tealium] 顧客データプラットフォーム](source-about.md).
 
 1. を指定 [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* または *[!UICONTROL Account]*.
 
@@ -40,12 +40,11 @@ DSPでソースを作成して、ファーストパーティオーディエン�
 
 >[!NOTE]
 >
->顧客データプラットフォームのソースを作成したら、追加の手順を完了する必要があります。 を参照してください。 [のアクティベーションワークフロー [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> および [のアクティベーションワークフロー [!DNL Tealium]](source-tealium.md).
+>顧客データプラットフォームのソースを作成したら、追加の手順を完了する必要があります。 を参照してください。 [オーディエンスをから読み込むワークフロー [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> および [オーディエンスをから読み込むワークフロー [!DNL Tealium]](source-tealium.md).
 
 >[!MORELIKETHIS]
 >
 >* [オーディエンスソース設定](source-settings.md)
->* [オーディエンスソースからの認証済みセグメントのアクティブ化について](source-about.md)
->* [ユニバーサル ID パートナーからの認証済みセグメントの有効化](source-universal-id.md)<!-- title?-->
+>* [ファーストパーティオーディエンスソースについて](source-about.md)
 >* [Adobe Advertising Cloud DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Audience Management について](/help/dsp/audiences/audience-about.md)

@@ -3,9 +3,9 @@ title: 使用可能なレポート列
 description: カスタムレポートで使用可能な列の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 4cb71ce992683afeaf24927f0883b7e110e70b5d
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2228'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | DSPのビデオクリエイティブの一意の ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Name] | ユーザーによって割り当てられたクリエイティブの名前。 |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL % Distinct Uniques] | この [!UICONTROL App/Site Distinct Uniques] 次で割られる [!UICONTROL App/Site Uniques]. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL App/Site Distinct Uniques] | このアプリでのみ到達したデバイスの合計数。 複数のパブリッシャーの広告に公開されるビューアは、この値に含まれません。 |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL App/Site Distinct Uniques] | このアプリでのみ到達したデバイスの合計数。 複数のパブリッシャーの広告に公開されるビューアは、この値に含まれません。 |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Distinct Unique] | この [!UICONTROL Total Spend] 次で割られる [!UICONTROL App/Site Distinct Uniques]. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Unique] | この [!UICONTROL Total Spend] 次で割られる [!UICONTROL App/Site Uniques]. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated % Reached] | 被ばくを受け取ったターゲットの世帯宇宙の推定割合。 |
@@ -126,6 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Measurable Impressions] | ビューアビリティの測定が可能な、提供されたインプレッションの合計数。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Total Media Spend] | 総支出。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Unique Household Reached] | 一意の世帯の合計（個別の IP アドレス）に到達しました。 |
+| [!UICONTROL Metric] | [!UICONTROL Identifier] | [!UICONTROL Identifier Type] | ターゲットとする ID のタイプ。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | 次の式で計算された、獲得あたりの平均総原価 <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | 広告クリックあたりの平均総コスト（次の式で計算） <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | 次の式で計算された、完了したビデオビューあたりの平均コスト <code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]</code>。 |

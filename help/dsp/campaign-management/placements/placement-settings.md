@@ -3,9 +3,9 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '3535'
+source-wordcount: '3789'
 ht-degree: 0%
 
 ---
@@ -311,11 +311,25 @@ ht-degree: 0%
 
 * オーディエンスを作成するには、をクリックします。 ![を選択](/help/dsp/assets/chevron-down.png) 次の [!UICONTROL Excluded Audiences]を選択してから、 **+ オーディエンスを作成**. 手順については、を参照してください [再利用可能なオーディエンスを作成](/help/dsp/audiences/reusable-audience-create.md)（手順 3 から開始）。
 
-* 特定のオーディエンスセグメントを選択するには、をクリックします。 **[!UICONTROL Select segments for this placement only]**. セグメントロジックを選択します。手順については、「」の手順 6 を参照してください[再利用可能なオーディエンスを作成](/help/dsp/audiences/reusable-audience-create.md).」と入力します。 完了したら、 **保存**.
+**[!UICONTROL Targeting]:** ターゲットとするユーザー ID のタイプ。 プレースメントがライブになった後（つまり、フライトが開始された後）は、この設定を変更できません。
 
-**[!UICONTROL Cross Device Targeting]:** （少なくとも 1 つのセグメントまたはオーディエンスと [campaign は、ユーザーベースのクロスデバイスターゲティング用に設定されます](/help/dsp/campaign-management/campaigns/campaign-settings.md). を使用すると、指定されたセグメントに含まれていないデバイスも含め、個人の既知のすべてのデバイス（キャンペーン設定で指定されたデバイスグラフごと）にターゲティングを拡張できます。 キャンペーンに指定されたグラフによって料金が発生する場合があります。 デバイスグラフデータは、北米でのみ使用できます。
+レガシー ID とユニバーサル ID の両方を選択する場合、入札の環境設定がユニバーサル ID に指定されます。
 
-**[!UICONTROL Placement Cap]:** （任意）一意のデバイスまたはユーザーの回数（指定された回数による） [!UICONTROL Cross Device Level] キャンペーンの場合）がプレースメントから広告が提供されます。 次のようなオプションがあります *[!UICONTROL Unlimited]* または、1 日、1 週間または 1 か月あたりの特定の金額。
+* *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*:（デフォルト） Cookie、モバイル広告 ID または接続テレビ（CTV） ID に基づいてユーザーをターゲットに設定します。 ID は、ブラウザー、アプリ内または CTV インベントリに基づいて選択されます。
+
+* *[!UICONTROL Universal ID Beta]*：ユーザープライバシーに焦点を当てた ID をターゲットにします。ID タイプを 1 つ選択します。 使用できるオプションは、で選択した地理的ターゲットによって決まります [!UICONTROL Geo-Targeting] セクション。 での使用 [[!DNL RampID] DSPに直接読み込まれたセグメント](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [DSPが PII をユニバーサル ID に変換するセグメント](/help/dsp/audiences/sources/source-about.md)、または [ユニバーサル ID を追跡するカスタムセグメント](/help/dsp/audiences/custom-segment-create.md).
+
+   * *[!UICONTROL ID5]*：ターゲット [!DNL ID5] メールアドレスやその他のシグナルから確率的に作成された ID。<!-- What countries/geos are these available for? Everywhere?--> ID5 ID は無料でご利用いただけます。 **注意：** のサードパーティセグメント [!DNL Eyeota] ID5 ID が含まれる場合があります。
+
+   * *[!UICONTROL RampID]*：ターゲット [!DNL LiveRamp] [!DNL RampIDs] （メールアドレスを使用してサイトにログインしたユーザーの）<!-- Verify --> [!DNL RampIDs] は、北米、オーストラリア、ニュージーランドのユーザーが利用できます。
+
+   * *[!UICONTROL Unified ID2.0]*：ターゲット [!DNL Unified ID2.0] （UID2）メールアドレスを使用してサイトにログインしたユーザーの ID。<!-- Verify -->[!DNL UID2 IDs] は、欧州経済地域および一部の国のユーザーは使用できません。 を参照してください。 [禁止国のリスト](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+
+  **[!UICONTROL Terms of service]**：ユニバーサル ID を使用するためのサービス契約の条件。 データを新しい ID タイプに変換するには、DSP アカウントの別のユーザーが条件に 1 回同意する必要があります。 マネージドサービス契約を締結しているお客様の場合、Adobeアカウントチームがお客様の同意を得て、組織に代わって条項に同意します。 用語を読むには、 **>**. 条件に同意するには、条件の下部までスクロールし、をクリックします **[!UICONTROL Accept]**.
+
+**[!UICONTROL Cross Device Targeting]:** （次の場合に使用可能 [campaign は、ユーザーベースのクロスデバイスターゲティング用に設定されます](/help/dsp/campaign-management/campaigns/campaign-settings.md)を選択した場合は、従来の ID のみをターゲットにし（ユニバーサル ID はターゲットにしません）、少なくとも 1 つのセグメントまたはオーディエンスを選択します。 を使用すると、指定されたセグメントに含まれていないデバイスも含め、個人の既知のすべてのデバイス（キャンペーン設定で指定されたデバイスグラフごと）にターゲティングを拡張できます。 キャンペーンに指定されたグラフによって料金が発生する場合があります。 デバイスグラフデータは、北米でのみ使用できます。
+
+**[!UICONTROL Placement Cap]:** （任意）一意のデバイス、ユニバーサル ID またはユーザーの回数（指定に応じて異なります） [!UICONTROL Cross Device Level] キャンペーンとプレースメントの [!UICONTROL Targeting] 設定）を使用して、プレースメントから広告を配信できます。 次のようなオプションがあります *[!UICONTROL Unlimited]* または、1 日、1 週間または 1 か月あたりの特定の金額。
 
 >[!NOTE]
 >
