@@ -2,7 +2,7 @@
 title: ユニバーサル ID の有効化のサポート
 description: ユニバーサル ID セグメントを読み込むサポート、ユニバーサル ID を追跡するカスタムセグメントの作成、ファーストパーティセグメントの他のユーザー識別子をユニバーサル ID に変換してクッキーなしのターゲティングを行うサポートについて説明します。
 feature: DSP Audiences
-source-git-commit: 56489cd226d4a46fa3b1548492b4a9c6fd7e0528
+source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 0%
@@ -133,3 +133,7 @@ DSPは、DSPでサポートされているデジタル形式をまたいで、�
 >* [認証済みセグメントの手動インポート： [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Audience Management について](/help/dsp/audiences/audience-about.md)
 >* [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)
+
+<!--
+>* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
+-->

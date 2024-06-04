@@ -3,7 +3,7 @@ title: ファーストパーティオーディエンスソースについて
 description: ファーストパーティセグメントの他のユーザー識別子をユニバーサル ID に変換して、クッキーなしのターゲティングを実現する方法を説明します。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 16a796e02150b00c77c825d7f54c6e390c85214a
+source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
@@ -95,3 +95,7 @@ DSPでのデータの取り込みを有効にするには [!DNL Adobe] [!DNL Rea
 >* [ユニバーサル ID の有効化のサポート](/help/dsp/audiences/universal-ids.md)
 >* [Audience Management について](/help/dsp/audiences/audience-about.md)
 >* [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)
+
+<!--
+>* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
+-->
