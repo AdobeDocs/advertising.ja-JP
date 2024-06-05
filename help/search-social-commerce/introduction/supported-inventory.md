@@ -3,9 +3,9 @@ title: サポートされるインベントリ
 description: サポートされる広告ネットワーク、キャンペーンのタイプ、広告のタイプを参照します。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 4b240c698bfa8928f2ac3137e00a7e9739a6a9be
+source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2736'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 |----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu]: *検索、ソーシャル、Commerceの既存アカウントのみをサポート* | ネットワークの検索 | 手動 | テキスト | API を使用した自動 | 使用 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) および [バルクシート](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | はい | 手動 CPC 入札戦略のみを使用するキャンペーン | 広告レベルのデータ | 検索、ソーシャル、Commerceへの Analytics データ<br><br>検索、ソーシャル、Commerceから Analytics までの広告レベルのデータ |
 | [!DNL Google Ads] | すべて [!DNL Google] フィード | 検出（ベータ版機能） | 検出（単一画像広告）<br><br>ディスカバリーカルーセル（マルチ画像カルーセル広告） | API を使用した自動 | — | はい | ハイブリッドポートフォリオのみ<br><br>入札と入札戦略のターゲットは、最適化タイプの該当に応じて、キャンペーン予算と共にキャンペーンレベルで設定されます。 | 広告レベルのデータ | 検索、ソーシャル、Commerceへの広告レベルのデータ [アップグレードされた AMO ID トラッキングコードの使用](/help/integrations/analytics/ids.md#amo-id-formats)[^4]<br><br>検索、ソーシャル、Commerceから Analytics までの広告レベルのデータ |
-| [!DNL Google Ads] | すべて | Standard performance max （ベータ版機能） | すべてのタイプ | API を使用した自動 | のキャンペーン設定内でのキャンペーンの作成/編集および広告アセットのアップロード [!UICONTROL Campaigns] > [!UICONTROL Campaigns]<br><br>必要な設定のみ使用できます。 オプションの設定およびグループのリストについては、[!DNL [!DNL Google Ads] Ads] エディタ。 | はい | ハイブリッドポートフォリオのみ<br><br>入札戦略のターゲットは、キャンペーンの予算と共にキャンペーンレベルで設定されます。 | キャンペーンレベルのデータ<br><br>グループを一覧表示するデータは使用できず、広告ネットワークは広告レベルのデータを提供しません。 | 検索、ソーシャル、Commerceへの Analytics データ<br><br>検索、ソーシャル、Commerceから Analytics に至る、キャンペーンレベルのデータ。 アップグレードが必要です [AMO ID トラッキングコード](/help/integrations/analytics/ids.md#amo-id-formats). |
+| [!DNL Google Ads] | すべて | 標準パフォーマンスの上限 | すべてのタイプ | API を使用した自動 | のキャンペーン設定内でのキャンペーンの作成/編集および広告アセットのアップロード [!UICONTROL Campaigns] > [!UICONTROL Campaigns]<br><br>必要な設定のみ使用できます。 オプションの設定およびグループのリストについては、[!DNL [!DNL Google Ads] Ads] エディタ。 | はい | ハイブリッドポートフォリオのみ<br><br>入札戦略のターゲットは、キャンペーンの予算と共にキャンペーンレベルで設定されます。 | キャンペーンレベルのデータ<br><br>グループを一覧表示するデータは使用できず、広告ネットワークは広告レベルのデータを提供しません。 | 検索、ソーシャル、Commerceへの Analytics データ<br><br>検索、ソーシャル、Commerceから Analytics に至る、キャンペーンレベルのデータ。 アップグレードが必要です [AMO ID トラッキングコード](/help/integrations/analytics/ids.md#amo-id-formats). |
 | [!DNL Google Ads] | ネットワークを表示 | 標準ディスプレイ | 画像 | API を使用した自動 | 次を使用してのみ URL とステータスを編集 [バルクシート](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | はい。広告ネットワーク内のトラッキングテンプレートにクリックトラッキングタグを手動で追加したとき | — | 広告レベルのデータ（ビュースルーデータなし） | 検索、ソーシャル、Commerceへの Analytics データ<br><br>検索、ソーシャル、Commerceから Analytics に至る広告レベルのデータ（ビュースルーデータなし） |
 | [!DNL Google Ads] | [!DNL Gmail]/ネットワークを表示する | [!DNL Gmail] キャンペーン （非推奨） | [!DNL Gmail] | — | — | — | — | 従来のキャンペーンレベルのデータのみ | 検索、ソーシャル、Commerceへの従来の Analytics データ<br><br>検索、ソーシャル、Commerceから Analytics に至る、従来のキャンペーンレベルのデータ |
 | [!DNL Google Ads] | ネットワークの検索 | 標準検索 | 呼び出しのみ | API を使用した自動 | 使用 [キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) | はい、アカウントレベルのランディングページサフィックスとトラッキングテンプレートを使用するか、[!DNL] 内の広告レベルで手動で追加します [!DNL Google Ads] 広告 ] マネージャ | — | 広告ネットワークからの広告グループレベルのインプレッション数およびクリック数のみ（売上高は含まない） | — |

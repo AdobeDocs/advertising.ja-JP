@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] キャンペーン設定'
 description: の設定を参照します [!DNL Google Ads] キャンペーン。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2424'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Display Network Only]:* ディスプレイ ネットワーク上の広告を表示します。 広告グループごとに、プレースメントを指定する必要があり、オプションでキーワードを指定することもできます。
 
-* *[!UICONTROL Performance Max]:* （ベータ版機能）を使用して、チャネルをまたいで広告のコンバージョンを表示および最適化します [!DNL Google Ads] スマート入札。 キャンペーン設定内で、1 つ以上のアセットグループ（画像、ロゴ、ヘッドライン、説明、オプションビデオ、オーディエンスシグナルを含む）を指定する必要があります。 [!DNL Google Ads] では、アセットを自動的に組み合わせ、チャネルに基づいて広告を提供します（例： [!DNL YouTube], [!DNL Gmail]、または [!DNL Search]）に設定します。
+* *[!UICONTROL Performance Max]:* を使用して、チャネルをまたいだ広告のコンバージョンを表示および最適化します。 [!DNL Google Ads] スマート入札。 キャンペーン設定内で、1 つ以上のアセットグループ（画像、ロゴ、ヘッドライン、説明、オプションビデオ、オーディエンスシグナルを含む）を指定する必要があります。 [!DNL Google Ads] では、アセットを自動的に組み合わせ、チャネルに基づいて広告を提供します（例： [!DNL YouTube], [!DNL Gmail]、または [!DNL Search]）に設定します。
 
   **メモ：**
 
