@@ -3,7 +3,7 @@ title: ユニバーサル ID の有効化のサポート
 description: ユニバーサル ID セグメントを読み込むサポート、ユニバーサル ID を追跡するカスタムセグメントの作成、ファーストパーティセグメントの他のユーザー識別子をユニバーサル ID に変換してクッキーなしのターゲティングを行うサポートについて説明します。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 503b1efbf95ac242a2c9e3db0764dc7b228137e0
+source-git-commit: c1f4df1d5c3f6b32597f59285f25bf0b9da5fb91
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 0%
@@ -25,11 +25,6 @@ DSPは、DSPでサポートされているデジタル形式をまたいで、�
 * デスクトップやモバイルデバイスからの広告に晒され、特定の web ページを訪問するユーザーを対象として、ID5 ユニバーサル ID に関連付けられたユーザーを追跡するカスタムセグメントを作成できます。 ID5 は、確率的モデルを使用して、様々なユーザー信号およびブラウザー信号から派生した ID を割り当てます。 手順については、「」を参照してください[カスタムセグメントの作成と実装](/help/dsp/audiences/custom-segment-create.md).」と入力します。
 
 * のサードパーティセグメント [!DNL Eyeota] また、他の一部のベンダーでは、Cookie やデバイス ID で追跡されるユーザーに加えて、ID5 ID が自動的に含まれる場合があります。 セグメントの詳細には、各タイプのサイズが含まれます。 セグメント名の横に記載されている各セグメントの通常の使用料金が適用されます。ID5 ID に対して追加料金は発生しません。
-
-<!-- Make above statement more generic when other ID types are available 
-
-* Some third-party segment vendors have started including universal IDs in their segments, and you can use them in saved audiences and as placement targets without any extra steps or extra fees.
--->
 
 ## ユニバーサル ID タイプ別のレポート
 
