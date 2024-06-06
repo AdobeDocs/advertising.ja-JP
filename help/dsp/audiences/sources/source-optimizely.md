@@ -2,9 +2,9 @@
 title: からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル ID に
 description: DSPでのデータの取り込みを有効にする方法を説明します [!DNL Optimizely] ファーストパーティセグメント。
 feature: DSP Audiences
-source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
+source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,6 @@ ht-degree: 0%
 >
 >* [ファーストパーティオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
 >* [オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化](source-manage.md)
->* [オーディエンスソース設定](source-settings.md)
 >* [からのユーザー ID の変換 [!DNL Adobe Real-Time CDP] ユニバーサル ID に](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [からのユーザー ID の変換 [!DNL Tealium] ユニバーサル ID に](/help/dsp/audiences/sources/source-tealium.md)
 >* [Audience Management について](/help/dsp/audiences/audience-about.md)

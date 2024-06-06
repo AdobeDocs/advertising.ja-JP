@@ -1,16 +1,16 @@
 ---
-title: オーディエンスソースを作成および管理してユニバーサル ID オーディエンスをアクティブ化
+title: オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化
 description: ソースを作成および管理して、顧客データプラットフォームからオーディエンスを読み込み、ユニバーサル ID を含むセグメントに変換する方法を説明します。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
-# オーディエンスソースを作成してユニバーサル ID オーディエンスを有効化
+# オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化
 
 *ベータ版機能*
 
@@ -18,7 +18,17 @@ DSPで、顧客データプラットフォーム内のファーストパーテ�
 
 各顧客データプラットフォームからオーディエンスを取り込むには、追加の手順が必要です。 手順の最後のメモを参照してください。
 
+後でソースオーディエンスの翻訳先のユニバーサル ID タイプを変更し、変更のログを確認できます。
+
+ソースを削除することもできます。
+
 ## オーディエンスソースの作成
+
+<!-- Not sure about this
+
+You can create one source for each combination of universal ID partner and data visibility level.
+
+-->
 
 1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
@@ -45,6 +55,15 @@ DSPで、顧客データプラットフォーム内のファーストパーテ�
 >顧客データプラットフォームのソースを作成したら、追加の手順を完了する必要があります。 を参照してください。 [オーディエンスをから読み込むワークフロー [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> および [オーディエンスをから読み込むワークフロー [!DNL Tealium]](source-tealium.md).
 
 ## オーディエンスソースの ID タイプの変更
+
+<!-- Clarify this:
+All changes to universal IDs translated from the source are applied after you save the the source record. For example, if a new ID is added, any hashed email addresses shared before making the changes aren't converted. Similarly, if an ID is removed, we don't delete any historical data from the segments shared through the source.
+
+OR 
+
+All changes to universal IDs translated from the source are applied after you save the the source record. For example, if you add a new ID type, then we convert hashed email addresses shared before making the changes to the new ID type. Similarly, if you remove an ID type, then we delete any historical IDs of that type from the segments shared through the source.
+
+-->
 
 1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
@@ -82,9 +101,38 @@ DSPで、顧客データプラットフォーム内のファーストパーテ�
 
 1. （オプション）ログをより詳細な画面で開くには、ソース行の上にカーソルを置いてクリックします **[!UICONTROL View Details]**.
 
+## オーディエンスソース設定
+
+**[!UICONTROL Data Visibility Level]:** アカウントへのアクセス権を持つ単一の広告主がセグメントを使用できるかどうか（*[!UICONTROL Advertiser]*）または、アカウントにアクセスできるすべての広告主に送信します。 *[!UICONTROL Account]*.
+
+**[!UICONTROL Advertiser]:** （広告主レベルの表示のみ）セグメントを利用できる広告主。 アカウントにアクセスできる広告主のリストから 1 つ選択します。
+
+**[!UICONTROL Enter IMS Org Id]:** （[!DNL Real-Time CDP] （ソースのみ）のAdobe Experience Cloud組織 ID [!DNL Adobe Experience Platform] アカウント。
+
+**[!UICONTROL Convert PII to the following IDs]:** 個人情報（PII）の変換先の ID タイプ。 複数のタイプを選択した場合、生成されたセグメントには、選択した各 ID タイプの値（など）が入力されます。 [!DNL RampID] および [!DNL Unified ID2.0] （メールアドレスごとに）。 データ料金はそれに応じて適用されます。
+
+の場合 [!DNL RampID] および [!DNL Unified ID2.0]を使用すると、ベンダーは各メールアドレスを検索して ID が既に存在するかどうかを確認し、可能な場合はアドレスを一致する ID に変換します。 アドレスの ID が存在しない場合は、新しい ID が作成されます。
+
+>[!NOTE]
+>
+>1 つのプレースメントでターゲットにできる ID のタイプは 1 つだけです。 ID タイプでパフォーマンスをテストするには、次の手順に従います。 [別のプレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md) （セグメントの各 ID タイプ）。
+
+* *[!DNL RampID]:* PII をに変換するには [!DNL RampID]. 次を使用できます [!DNL RampIDs] リターゲティング：ログインユーザーおよびの [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) 測定。
+
+* *[!DNL Unified ID2.0]（ベータ版）:* PII をに変換するには [統合 ID 2.0](https://unifiedid.com) ログインユーザーをリターゲティングするための ID。
+
+<!-- Later
+* *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
+
+-->
+
+**[!UICONTROL Terms of Service]:** PII をユニバーサル ID に変換するためのサービス契約の条件。 データを新しい ID タイプに変換するには、DSP アカウントの別のユーザーが条件に 1 回同意する必要があります。 マネージドサービス契約を締結しているお客様の場合、Adobeアカウントチームがお客様の同意を得て、組織に代わって条項に同意します。 用語を読むには、 **>**. 条件に同意するには、条件の下部までスクロールし、をクリックします **[!UICONTROL Accept]**.
+
+**[!UICONTROL Source Key]:** （読み取り専用、自動生成）オーディエンスを Advertising DSPにプッシュするカスタマーデータプラットフォームで宛先接続を作成する際に使用できるソースキー。 値をクリップボードにコピーして、宛先接続設定またはファイルに貼り付けることができます。
+
 >[!MORELIKETHIS]
 >
->* [オーディエンスソース設定](source-settings.md)
 >* [ファーストパーティオーディエンスソースについて](source-about.md)
->* [Adobe Advertising Cloud DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [認証済みセグメントの手動インポート： [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Audience Management について](/help/dsp/audiences/audience-about.md)

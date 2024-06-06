@@ -3,9 +3,9 @@ title: とのDSP統合の使用 [!DNL Adobe] [!DNL Real-time CDP]
 description: DSPでのデータの取り込みを有効にする方法を説明します [!DNL Adobe] [!DNL Real-time CDP] ファーストパーティセグメント。
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
+source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化](source-manage.md)
->* [オーディエンスソース設定](source-settings.md)
 >* [Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* Adobe Experience Platform [宛先カタログの概要](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [認証済みセグメントの手動インポート： [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
