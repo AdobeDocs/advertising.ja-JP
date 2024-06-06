@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 048752e0f9a5d95c22bd9acb4b70034b5f833494
 workflow-type: tm+mt
-source-wordcount: '2915'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024 年 6 月 5 日（Pt） | Placements | スプレッドシートを使用して、複数のプレースメントの入札乗数を一度に管理できるようになりました。 | 参照先」[プレースメントの入札乗数の管理](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).」と入力します。 |
+|  | オーディエンスソース | ソースオーディエンスの翻訳先のユニバーサル ID タイプを変更し、変更のログを確認できるようになりました。 | 参照先」[オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化](/help/dsp/audiences/sources/source-manage.md).」と入力します。 |
 | 2024 年 5 月 22 日（Pt） | 最適化、コネクテッド TV 広告 | 「最低の CPA」と「最高の ROAS」の最適化目標を持つパッケージでは、接続された TV 広告のパフォーマンスモデルが、コンバージョンパスの複数のタッチポイントのデータを使用して、より迅速で堅牢な機械学習を実現するようになりました。 既存のパッケージは、マルチタッチ最適化を使用するようにアップグレードされるので、アクションは必要ありません。 | — |
 | 2024 年 5 月 20 日（Pt） | 接続された TV 広告、ピクセル、リターゲティングセグメント | （オープンベータ版、米国および AUS でのみ利用可能）追加の広告を使用して、接続された TV キャンペーンに公開されたオーディエンスセグメントを再ターゲットして、クロスチャネル広告を強化できるようになりました。<ol><li>広告露出セグメントを設定し、インプレッショントラッキングタグを目的の接続された TV 配置または広告にコピーして、セグメントのトラッキングを開始します。</li><li>リターゲティング プレースメントで、で接続された TV 露出セグメントを選択します [!UICONTROL Audience Targeting] セクション。</li></ol> | 参照先」[カスタムセグメントの作成と実装](/help/dsp/audiences/custom-segment-create.md)「」と「」に対して検査する値[プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md).」と入力します。 |
 | 2024 年 5 月 2 日（Pt） | 広告、ピクセル | キャンペーン内のすべての広告に関する広告設定とプレースメントの関連付けは、XLSX （Excel スプレッドシート）形式でダウンロードし、レビューできます。 [!UICONTROL Ad Tools] 表示。 | 参照先」[スプレッドシートを使用した広告の詳細のレビュー](/help/dsp/campaign-management/ads/ad-qa.md).」と入力します。 |
