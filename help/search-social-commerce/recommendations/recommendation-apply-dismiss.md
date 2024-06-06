@@ -3,7 +3,7 @@ title: パブリッシャーのレコメンデーションの適用または解�
 description: パブリッシャーのレコメンデーションを表示、適用、解除する方法を説明します。
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
+source-git-commit: bd0c158ca27258fa7600553462bf4fedbabc9089
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # パブリッシャーのレコメンデーションの適用または解除
 
-*[!DNL Google Ads]および [!DNL Microsoft® Advertising] アカウント*
+*[!DNL Google Ads]および [!DNL Microsoft Advertising] アカウント*
 
-*のベータ版機能 [!DNL Microsoft® Advertising] アカウント*
+*のベータ版機能 [!DNL Microsoft Advertising] アカウント*
 
 パブリッシャーのレコメンデーションについて、推奨されるアクションと、そのアクションが有益である理由の説明を表示します。 その後、ビジネス目標に合致する場合はレコメンデーションを適用し、合致しない場合はレコメンデーションを解除できます。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 右上で、広告ネットワークとアカウントを選択します。
 
-   の場合 [!DNL Microsoft® Advertising] アカウント、 [!UICONTROL Recommendations] のアカウントはデフォルトで表示されます。
+   の場合 [!DNL Microsoft Advertising] アカウント、 [!UICONTROL Recommendations] のアカウントはデフォルトで表示されます。
 
 1. （任意）カテゴリおよびタイプでレコメンデーションをフィルタリングします。
 
