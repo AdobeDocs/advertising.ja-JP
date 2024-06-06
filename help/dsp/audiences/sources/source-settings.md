@@ -3,9 +3,9 @@ title: オーディエンスソース設定
 description: オーディエンスソースの設定について説明します。
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: 16a796e02150b00c77c825d7f54c6e390c85214a
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [オーディエンスソースを作成してユニバーサル ID オーディエンスを有効化](source-create.md)
+>* [オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化](source-manage.md)
 >* [ファーストパーティオーディエンスソースについて](source-about.md)
 >* [認証済みセグメントの手動インポート： [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)

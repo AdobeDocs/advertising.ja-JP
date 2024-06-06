@@ -3,9 +3,9 @@ title: ユニバーサル ID の有効化のサポート
 description: ユニバーサル ID セグメントを読み込むサポート、ユニバーサル ID を追跡するカスタムセグメントの作成、ファーストパーティセグメントの他のユーザー識別子をユニバーサル ID に変換してクッキーなしのターゲティングを行うサポートについて説明します。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: c1f4df1d5c3f6b32597f59285f25bf0b9da5fb91
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ DSPは、DSPでサポートされているデジタル形式をまたいで、�
 
 >[!MORELIKETHIS]
 >
->* [オーディエンスソースを作成してユニバーサル ID オーディエンスを有効化](/help/dsp/audiences/sources/source-create.md)
+>* [オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化](/help/dsp/audiences/sources/source-manage.md)
 >* [からのユーザー ID の変換 [!DNL Adobe Real-Time CDP] ユニバーサル ID に](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [からのユーザー ID の変換 [!DNL Tealium] ユニバーサル ID に](/help/dsp/audiences/sources/source-tealium.md)
 >* [カスタムセグメントの作成と実装](/help/dsp/audiences/custom-segment-create.md)
