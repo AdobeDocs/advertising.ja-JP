@@ -3,7 +3,7 @@ title: ユニバーサル ID の有効化のサポート
 description: ユニバーサル ID セグメントを読み込むサポート、ユニバーサル ID を追跡するカスタムセグメントの作成、ファーストパーティセグメントの他のユーザー識別子をユニバーサル ID に変換してクッキーなしのターゲティングを行うサポートについて説明します。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -118,7 +118,7 @@ DSPは、DSPでサポートされているデジタル形式をまたいで、�
 
 * オンサイトのイベントと広告漏洩を照合するために、正しいユニバーサル ID パートナー固有のコードが Web サイトに実装されていることを確認します。 の操作 [!DNL LiveRamp] または [!DNL ID5] 必要に応じて担当者に依頼します。
 
-* （用 [!DNL RampIDs] および [!DNL UID 2.0] ID）を使用している [DSP データソースが正しく設定されている](/help/dsp/audiences/sources/source-settings.md)、およびそのユーザー数が、生成されたオーディエンスセグメントに対して入力されます。
+* （用 [!DNL RampIDs] および [!DNL UID 2.0] ID）を使用している [DSP データソースが正しく設定されている](/help/dsp/audiences/sources/source-manage.md#source-settings)、およびそのユーザー数が、生成されたオーディエンスセグメントに対して入力されます。
 
 * リーチが予想を下回る場合は、オーディエンスセグメントロジックが精度が高すぎないことを確認します。
 

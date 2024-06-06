@@ -3,7 +3,7 @@ title: オーディエンスソースを管理してユニバーサル ID オー
 description: ソースを作成および管理して、顧客データプラットフォームからオーディエンスを読み込み、ユニバーサル ID を含むセグメントに変換する方法を説明します。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -44,7 +44,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. を指定 [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* または *[!UICONTROL Account]*.
 
-1. 残りを入力 [ソース設定](source-settings.md).
+1. 残りを入力 [ソース設定](#source-settings).
 
    のコピーを保持 [!UICONTROL Source Key] が生成されます。 値は後で必要になります。
 
@@ -69,7 +69,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. カーソルをソース行の上に置き、クリックします **[!UICONTROL Edit]**.
 
-1. 変更： [ソースに対して選択された ID](source-settings.md).
+1. 変更： [ソースに対して選択された ID](#source-settings).
 
 1. クリック **[!UICONTROL Save]**.
 
@@ -101,7 +101,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. （オプション）ログをより詳細な画面で開くには、ソース行の上にカーソルを置いてクリックします **[!UICONTROL View Details]**.
 
-## オーディエンスソース設定
+## オーディエンスソース設定 {#source-settings}
 
 **[!UICONTROL Data Visibility Level]:** アカウントへのアクセス権を持つ単一の広告主がセグメントを使用できるかどうか（*[!UICONTROL Advertiser]*）または、アカウントにアクセスできるすべての広告主に送信します。 *[!UICONTROL Account]*.
 
