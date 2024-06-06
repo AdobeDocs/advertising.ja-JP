@@ -2,7 +2,7 @@
 title: からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル ID に
 description: DSPでのデータの取り込みを有効にする方法を説明します [!DNL Optimizely] ファーストパーティセグメント。
 feature: DSP Audiences
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 手順 2:DSPでのオーディエンスソースの作成 {#source-create}
 
-1. [オーディエンスソースの作成](source-create.md) オーディエンスをDSP アカウントまたは広告主アカウントに読み込みます。 ユーザー識別子を任意のに変換することもできます [使用可能なユニバーサル ID 形式](source-about.md).
+1. [オーディエンスソースの作成](source-manage.md) オーディエンスをDSP アカウントまたは広告主アカウントに読み込みます。 ユーザー識別子を任意のに変換することもできます [使用可能なユニバーサル ID 形式](source-about.md).
 
    ソース設定には、自動生成されたソースキーが含まれ、セグメントデータのプッシュに使用されます。
 
