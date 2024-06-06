@@ -3,7 +3,7 @@ title: オーディエンスソースを管理してユニバーサル ID オー
 description: ソースを作成および管理して、顧客データプラットフォームからオーディエンスを読み込み、ユニバーサル ID を含むセグメントに変換する方法を説明します。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 9411089703ce0b9502c1c2522cce999c3a5fafbf
+source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -32,13 +32,13 @@ You can create one source for each combination of universal ID partner and data 
 
 1. クリック **[!UICONTROL Add Source]**.
 
-1. が含まれる [!UICONTROL Select a Type] メニューで、顧客データプラットフォームを選択します。
+1. が含まれる [!UICONTROL Select a Type] メニューで、 [顧客データプラットフォーム](source-about.md):
 
-   * *[!UICONTROL RT-CDP]*: [この [!DNL Adobe Real-Time Customer Data Platform]](source-about.md).
+   * *[!UICONTROL RT-CDP]*：です [!DNL Adobe Real-Time Customer Data Platform].
 
-   * *[!UICONTROL ActionIQ]*：です [[!DNL ActionIQ] 顧客データプラットフォーム](source-about.md).
+   * *[!UICONTROL ActionIQ]*：です [!DNL ActionIQ] 顧客データプラットフォーム。
 
-   * *[!UICONTROL Tealium CDP]*: （設定されたユーザーのみ）次の [[!DNL Tealium] 顧客データプラットフォーム](source-about.md).
+   * *[!UICONTROL Tealium CDP]*: （設定されたユーザーのみ）次の [!DNL Tealium] 顧客データプラットフォーム。
 
 1. を指定 [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* または *[!UICONTROL Account]*.
 
