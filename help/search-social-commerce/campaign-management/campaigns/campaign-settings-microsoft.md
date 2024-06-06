@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft Advertising] キャンペーン設定'
 description: の設定を参照します [!DNL Microsoft Advertising] キャンペーン。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
+source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]:* のネイティブ/ディスプレイ広告を表示 [!DNL Microsoft Audience Network]. a） キャンペーンを次のマーチャントセンターストアにリンクすることで、フィードベースの広告を自動的に生成できます [!UICONTROL Shopping Settings] セクションまたは b） テキストアセットとアップロードした画像を使用してレスポンシブ広告を作成します。 どちらのオプションでも、ユーザーターゲティングを使用して広告グループを作成する必要があります。
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* （ベータ版機能）検索およびオーディエンスネットワーク全体でリンクされた小売業者を通じて製品を宣伝します。 キャンペーンの子広告グループと製品グループ（昇格するアプリ）、およびオプションの製品広告を作成できます。 [!DNL Microsoft Advertising] 製品グループの広告を自動的に作成します。 ブランドのショッピングキャンペーンの場合は、入札戦略を使用します [!UICONTROL Manual CPC]; ブランドのショッピングプロモーションの場合は、入札戦略を使用します [!UICONTROL Cost per Sale].
+* *[!UICONTROL Shopping Campaigns for Brands]:* 検索およびオーディエンスネットワーク全体でリンクされた小売業者を通じて製品をプロモーションします。 キャンペーンの子広告グループと製品グループ（昇格するアプリ）、およびオプションの製品広告を作成できます。 [!DNL Microsoft Advertising] 製品グループの広告を自動的に作成します。 ブランドのショッピングキャンペーンの場合は、入札戦略を使用します [!UICONTROL Manual CPC]; ブランドのショッピングプロモーションの場合は、入札戦略を使用します [!UICONTROL Cost per Sale].
 
-* *[!UICONTROL Microsoft Store Ads Campaign]:* （ベータ版機能）で利用可能なアプリやゲームを昇格します。 [!DNL Microsoft Store]. キャンペーンの子広告グループ、製品グループおよびオプションの製品広告を作成できます。 [!DNL Microsoft Advertising] 製品グループの広告を自動的に作成します。
+* *[!UICONTROL Microsoft Store Ads Campaign]:* で利用可能なアプリやゲームを昇格します。 [!DNL Microsoft Store]. キャンペーンの子広告グループ、製品グループおよびオプションの製品広告を作成できます。 [!DNL Microsoft Advertising] 製品グループの広告を自動的に作成します。
 
-* *[!UICONTROL Audience CTV Video]:* （ベータ版機能）接続された TV （CTV）ビデオ広告をオーディエンスネットワークで表示します。
+* *[!UICONTROL Audience CTV Video]:* 視聴者ネットワーク上の接続されたテレビ （CTV） ビデオ広告を表示します。
 
-* *[!UICONTROL Audience Video]:* （ベータ版機能）オーディエンスネットワーク上の標準ビデオ広告を表示します。
+* *[!UICONTROL Audience Video]:* オーディエンスネットワーク上の標準ビデオ広告を表示します。
 
-* *[!UICONTROL Performance Max]:* （ベータ版機能）を使用して、すべてのネットワークにわたって複数の広告タイプを表示します [!DNL Microsoft Advertising] スマート入札。 キャンペーンの設定内で、1 つ以上のアセットグループを指定する必要があります。このグループには、画像、ロゴ、ヘッドライン、説明、オプションのコールトゥアクション、オーディエンスシグナルが含まれます。 広告ネットワークは、アセットを自動的に組み合わせて、チャネルに基づいて広告を提供します。
+* *[!UICONTROL Performance Max]:* を使用して、すべてのネットワークにわたって複数の広告タイプを表示します [!DNL Microsoft Advertising] スマート入札。 キャンペーンの設定内で、1 つ以上のアセットグループを指定する必要があります。このグループには、画像、ロゴ、ヘッドライン、説明、オプションのコールトゥアクション、オーディエンスシグナルが含まれます。 広告ネットワークは、アセットを自動的に組み合わせて、チャネルに基づいて広告を提供します。
 
 ## [!UICONTROL Campaign Details]
 
