@@ -3,9 +3,9 @@ title: アカウントの公開者レコメンデーションログの表示
 description: に適用された各レコメンデーションのログを表示する方法を説明します [!DNL Google Ads] または [!DNL Microsoft Advertising] アカウント。
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: d12b4905218b7c1057e7987f1a49a8691557455d
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # アカウントの公開者レコメンデーションの表示
 
 *[!DNL Google Ads]および [!DNL Microsoft Advertising] アカウント*
-
-*のベータ版機能 [!DNL Microsoft Advertising] アカウント*
 
 に適用された各レコメンデーションのログを確認できます [!DNL Google Ads] または [!DNL Microsoft Advertising] アカウント。 情報には、レコメンデーションカテゴリ、レコメンデーションタイプ、影響を受けるエンティティ、レコメンデーションを適用したユーザー、タイムスタンプが含まれます。
 

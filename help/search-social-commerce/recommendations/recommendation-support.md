@@ -3,9 +3,9 @@ title: パブリッシャーの推奨事項とインサイトのサポートに�
 description: パブリッシャーのレコメンデーションとインサイトの表示と管理のサポートについて説明します。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # パブリッシャーの推奨事項とインサイトのサポートについて
 
 *[!DNL Google Ads]および [!DNL Microsoft Advertising] アカウント*
-
-*のベータ版機能 [!DNL Microsoft Advertising] アカウント*
 
 [!DNL Google Ads] および [!DNL Microsoft Advertising] recommendations と insights は、キャンペーンのパフォーマンスと効率を向上させるのに役立つ、広告ネットワークからの提案です。
 

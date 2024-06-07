@@ -3,9 +3,9 @@ title: アセットの作成とアップロード
 description: 再利用可能な画像、ビデオ、テキストアセットを作成して、にアップロードする方法を説明します [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントレベルのアセットライブラリ。
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # アセットの作成とアップロード
 
 *の場合 [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントのみ*
-
-*オープンベータ版機能*
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
 
