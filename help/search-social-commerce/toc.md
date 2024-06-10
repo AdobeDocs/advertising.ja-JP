@@ -4,9 +4,9 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1694'
 ht-degree: 2%
 
 ---
@@ -249,9 +249,7 @@ ht-degree: 2%
       + [アカウントコンポーネントからラベル分類値を削除](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
       + [ラベル分類値を削除](/help/search-social-commerce/campaign-management/label-classifications/classification-values-delete.md)
       + [ラベルの分類を削除](/help/search-social-commerce/campaign-management/label-classifications/classification-delete.md)
-   + 広告アセットの管理 {#assets}
-      + [について [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
-      + [アセットの作成とアップロード](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
+   + [広告アセットの表示と作成](/help/search-social-commerce/campaign-management/asset-view-create.md)
    + 検索キャンペーンのベストプラクティス {#best-practices-search}
       + [レポートの分析によるキーワードとキャンペーン設定の絞り込み](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [有効なテキストとコピーを書き込む](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
