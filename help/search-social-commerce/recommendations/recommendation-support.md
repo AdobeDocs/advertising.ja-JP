@@ -3,9 +3,9 @@ title: パブリッシャーの推奨事項とインサイトのサポートに�
 description: パブリッシャーのレコメンデーションとインサイトの表示と管理のサポートについて説明します。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d5f9bdf69bb68f302bc40d94413397ccd13357cc
+source-git-commit: 73cc45da72a48b844b4baa426331822b4e857245
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -42,18 +42,6 @@ ht-degree: 0%
 
 ## でサポートされるレコメンデーションタイプ [!DNL Google Ads]
 
-<!--
-
--- Add to "Bidding and budget" section of table
-
-| | [!UICONTROL Forecasting set Target CPA] | Set a target CPA for campaigns without one before a seasonal event that's forecasted to increase traffic |
-
-| | [!UICONTROL Set Target CPA] | Set a target CPA for campaigns without one |
-
-| | [!UICONTROL Set ROAS Target] | Set a target ROAS for campaigns without one |
-
--->
-
 | 推奨カテゴリ | レコメンデーションタイプ | 説明 |
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] （現在は「」[!DNL Ads and assets]」に含まれます [!DNL Google Ads]） | [!UICONTROL Call extension] | キャンペーンへの呼び出し拡張機能の追加 |
@@ -74,6 +62,7 @@ ht-degree: 0%
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 現在、予算によって制限されているキャンペーンの推奨予算 |
 | | [!UICONTROL Enhanced CPC opt in] | 入札の相手 [!UICONTROL Enhanced CPC] |
 | | [!UICONTROL Forecasting campaign budget] | 今後、予算によって制限されると予想されるキャンペーンの推奨予算 |
+| | [!UICONTROL Forecasting set Target CPA] | トラフィックの増加が予測される季節的なイベントの前に、イベントを実施しないキャンペーンのターゲット CPA を設定します |
 | | [!UICONTROL Forecasting set Target ROAS] | トラフィックの増加が予測される季節的なイベントの前に予算を引き上げ、入札戦略をから変更します [!UICONTROL Maximize Conversion Value] 対象： [!UICONTROL Target ROAS] |
 | | [!UICONTROL Marginal ROI campaign budget] | ROI を向上させるためのキャンペーン予算の調整 |
 | | [!UICONTROL Maximize clicks opt in] | をに変更します。 [!UICONTROL Maximize Clicks] 入札戦略 |
@@ -81,6 +70,8 @@ ht-degree: 0%
 | | [!UICONTROL Maximize conversions opt in] | をに変更します。 [!UICONTROL Maximize Conversions] 入札戦略 |
 | | [!UICONTROL Move unused budget] | 未使用の予算を制約付き予算に移動 |
 | | [!UICONTROL Raise Target CPA bid too low] | を上げる [!UICONTROL Target CPA] 推奨される金額（低すぎてコンバージョン数が少ない、またはまったくない場合） |
+| | [!UICONTROL Set Target CPA] | 1 つを使用しないキャンペーンに対するターゲット CPA の設定 |
+| | [!UICONTROL Set Target ROAS] | 1 つを使用しないキャンペーンのターゲット ROAS の設定 |
 | | [!UICONTROL Target CPA opt in] | をに変更します。 [!UICONTROL Target CPA] 入札戦略 |
 | | [!UICONTROL Target CPA raising] | を上げる [!UICONTROL Target CPA] 基準： [!DNL Google Ads] 過去のコンバージョンから計算された予測 |
 | | [!UICONTROL Target ROAS lowering] | を下げる [!UICONTROL Target ROAS] 基準： [!DNL Google Ads] 過去のコンバージョンから計算された予測 |
