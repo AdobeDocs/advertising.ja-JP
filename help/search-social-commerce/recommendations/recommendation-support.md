@@ -3,9 +3,9 @@ title: パブリッシャーの推奨事項とインサイトのサポートに�
 description: パブリッシャーのレコメンデーションとインサイトの表示と管理のサポートについて説明します。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d5f9bdf69bb68f302bc40d94413397ccd13357cc
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,18 @@ ht-degree: 0%
 
 ## でサポートされるレコメンデーションタイプ [!DNL Google Ads]
 
+<!--
+
+-- Add to "Bidding and budget" section of table
+
+| | [!UICONTROL Forecasting set Target CPA] | Set a target CPA for campaigns without one before a seasonal event that's forecasted to increase traffic |
+
+| | [!UICONTROL Set Target CPA] | Set a target CPA for campaigns without one |
+
+| | [!UICONTROL Set ROAS Target] | Set a target ROAS for campaigns without one |
+
+-->
+
 | 推奨カテゴリ | レコメンデーションタイプ | 説明 |
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] （現在は「」[!DNL Ads and assets]」に含まれます [!DNL Google Ads]） | [!UICONTROL Call extension] | キャンペーンへの呼び出し拡張機能の追加 |
@@ -51,26 +63,28 @@ ht-degree: 0%
 | | [!UICONTROL Responsive search ad asset] | 広告へのレスポンシブ検索広告アセットの追加 |
 | | [!UICONTROL Responsive search improve ad strength] | レスポンシブ検索広告の広告効果を向上させるための提案 |
 | | [!UICONTROL Sitelink extension] | キャンペーンへのサイトリンク拡張機能の追加 |
-| | [!UICONTROL Text ad] | 広告の提案を追加 |
-| [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | 動的検索広告のパフォーマンス最大化キャンペーンへの移行。 |
-| | [!UICONTROL Dynamic image extension opt in] | アカウントの動的画像拡張機能を有効にする（次が可能） [!DNL Google Ads] 機械学習：最も関連性の高い画像を広告のランディングページから広告に自動的に追加します。 |
-| | [!UICONTROL Improve performance max ad strength] | 「優れた」評価を得られるように、Performance MAX キャンペーンのアセットグループの有効性を高めます。 |
-| | [!UICONTROL Performance max opt in] | Performance MAX キャンペーンをオプトインします。 |
+| | [!UICONTROL Text ad] | 新しいテキスト広告を追加 |
+| [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | 動的検索広告のパフォーマンス最大化キャンペーンへの移行 |
+| | [!UICONTROL Dynamic image extension opt in] | アカウントの動的画像拡張機能を有効にする（次が可能） [!DNL Google Ads] 機械学習：最も関連性の高い画像を広告のランディングページから広告に自動的に追加します |
+| | [!UICONTROL Improve performance max ad strength] | Performance MAX キャンペーンのアセットグループのパフォーマンスを「優れた」評価に向上 |
+| | [!UICONTROL Performance max final URL opt in] | Performance MAX キャンペーンの最終的な URL 拡張を有効にする |
+| | [!UICONTROL Performance max opt in] | パフォーマンス最大化キャンペーンのオプトイン |
 | | [!UICONTROL Upgrade local campaign to performance max] | 従来のローカルキャンペーンをパフォーマンス最大化キャンペーンにアップグレード |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | 従来のスマートショッピングキャンペーンをパフォーマンス最大化キャンペーンにアップグレード |
-| [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 予算によって制限されているキャンペーンの修正 |
+| [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 現在、予算によって制限されているキャンペーンの推奨予算 |
 | | [!UICONTROL Enhanced CPC opt in] | 入札の相手 [!UICONTROL Enhanced CPC] |
-| | [!UICONTROL Forecasting campaign budget] | 将来的に予算によって制限されると予想されるキャンペーンを修正 |
+| | [!UICONTROL Forecasting campaign budget] | 今後、予算によって制限されると予想されるキャンペーンの推奨予算 |
 | | [!UICONTROL Forecasting set Target ROAS] | トラフィックの増加が予測される季節的なイベントの前に予算を引き上げ、入札戦略をから変更します [!UICONTROL Maximize Conversion Value] 対象： [!UICONTROL Target ROAS] |
 | | [!UICONTROL Marginal ROI campaign budget] | ROI を向上させるためのキャンペーン予算の調整 |
-| | [!UICONTROL Maximize clicks opt in] | 入札の相手 [!UICONTROL Maximize Clicks] |
-| | [!UICONTROL Maximize conversions opt in] | 入札の相手 [!UICONTROL Maximize Conversions] |
-| | [!UICONTROL Move unused budget] | 未使用の制約付き予算への移動 |
+| | [!UICONTROL Maximize clicks opt in] | をに変更します。 [!UICONTROL Maximize Clicks] 入札戦略 |
+| | [!UICONTROL Maximize conversion value opt in] | コンバージョン値の最大化入札戦略に変更します |
+| | [!UICONTROL Maximize conversions opt in] | をに変更します。 [!UICONTROL Maximize Conversions] 入札戦略 |
+| | [!UICONTROL Move unused budget] | 未使用の予算を制約付き予算に移動 |
 | | [!UICONTROL Raise Target CPA bid too low] | を上げる [!UICONTROL Target CPA] 推奨される金額（低すぎてコンバージョン数が少ない、またはまったくない場合） |
-| | [!UICONTROL Target CPA opt in] | 入札の相手 [!UICONTROL Target CPA] |
-| | [!UICONTROL Target CPA raising] | を上げる [!UICONTROL Target CPA] 基準： [!DNL Google Ads] 過去のコンバージョンから計算された予測。 |
-| | [!UICONTROL Target ROAS lowering] | を下げる [!UICONTROL Target ROAS] 基準： [!DNL Google Ads] 過去のコンバージョンから計算された予測。 |
-| | [!UICONTROL Target ROAS opt in] | 入札の相手 [!UICONTROL Target ROAS] |
+| | [!UICONTROL Target CPA opt in] | をに変更します。 [!UICONTROL Target CPA] 入札戦略 |
+| | [!UICONTROL Target CPA raising] | を上げる [!UICONTROL Target CPA] 基準： [!DNL Google Ads] 過去のコンバージョンから計算された予測 |
+| | [!UICONTROL Target ROAS lowering] | を下げる [!UICONTROL Target ROAS] 基準： [!DNL Google Ads] 過去のコンバージョンから計算された予測 |
+| | [!UICONTROL Target ROAS opt in] | をに変更します。 [!UICONTROL Target ROAS] 入札戦略 |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | ディスプレイ拡張を使用するようにキャンペーンを更新してリーチを拡大 |
 | | [!UICONTROL Keyword] | 新しいキーワードを追加 |
 | | [!UICONTROL Search partners opt in] | ～とのリーチを拡大する [!DNL Google] パートナーを検索 |
