@@ -2,9 +2,9 @@
 title: 高度な計測ソリューション
 description: 高度な測定に使用できるソリューションのリストを参照してください。
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 226b9a78b00f547da840c27663241f91dfca92d3
+source-git-commit: f1d657960beb667001341e191daaddbe03d931b0
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 0%
 
    * クロス ID 世帯リーチ、頻度、コンバージョン（クックレス）
 
-      * 接続された TV （CTV）やデジタル（デスクトップ、モバイル、ネイティブ、オーディオ）など、複数の環境をまたいで、クックレス ID タイプ（RampID、ID5）によって、世帯レベルでユニーク/増分リーチ、重複、コンバージョンを定量化します。
+     <!-- Hide for now * Quantify unique/incremental reach, overlap, and conversions at a household level by cookieless ID type (RampID, ID5) across multiple environments, including connected TV (CTV) and digital (desktop, mobile, native, and audio). -->
 
-      * Cookie ベースのセグメントに対する増分リーチを見つけることで、クッキーレス ID のテストの有効性を証明します。
+     <!-- Hide for now * Prove the effectiveness of testing cookieless IDs in finding incremental reach relative to cookie-based segments. -->
 
    * コンバージョンまでの平均時間
 
@@ -51,9 +51,9 @@ ht-degree: 0%
 
   デスクトップ、モバイル、ネイティブ、オーディオなどの複数のデジタル環境にまたがる曝露を含め、オーディエンスと戦術が個人レベルでどのように重複するかを理解します。
 
-   * **クロス ID 人物ベースのリーチ**
+  <!-- Hide for now * **Cross-ID People-Based Reach**
 
-     Cookie と RampID の間のユニークなリーチと重複、および ID タイプ別の指標あたりのコストを定量化します。 デスクトップ、モバイル、ネイティブ、オーディオなどの複数のデジタル環境をまたいで、cookie ベースのセグメントに対する増分的なリーチを見つけるための RampID のテストの有効性を証明します。
+      Quantify the unique reach and overlap between cookies and RampIDs, as well as the cost per metric by ID type. Prove the effectiveness of testing RampIDs in finding incremental reach relative to cookie-based segments across multiple digital environments, such as desktop, mobile, native, and audio. -->
 
 * **検索レポートへのハロー効果**
 
