@@ -3,9 +3,9 @@ title: ユニバーサル ID の有効化のサポート
 description: ユニバーサル ID セグメントを読み込むサポート、ユニバーサル ID を追跡するカスタムセグメントの作成、ファーストパーティセグメントの他のユーザー識別子をユニバーサル ID に変換してクッキーなしのターゲティングを行うサポートについて説明します。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 4b8dc6e691516d87e391802b54664b96ad603b75
+source-git-commit: d3991123110617968ce858fd76c12fa039acc2d6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
