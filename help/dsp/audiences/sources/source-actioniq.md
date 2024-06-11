@@ -2,7 +2,7 @@
 title: '"ユーザー ID を次から変換 [!DNL ActionIQ] ユニバーサル ID へ」'
 description: DSPでのデータの取り込みを有効にする方法を説明します [!DNL ActionIQ] ファーストパーティセグメント」を参照してください。
 feature: DSP Audiences
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 87080d8152ccf3aa9249a88379ecc9f919c0854d
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -44,7 +44,3 @@ ht-degree: 0%
 >* [からのユーザー ID の変換 [!DNL Adobe Real-Time CDP] ユニバーサル ID に](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [からのユーザー ID の変換 [!DNL Tealium] ユニバーサル ID に](/help/dsp/audiences/sources/source-tealium.md)
 >* [Audience Management について](/help/dsp/audiences/audience-about.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

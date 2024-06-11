@@ -3,9 +3,9 @@ title: ファーストパーティオーディエンスソースについて
 description: ファーストパーティセグメントの他のユーザー識別子をユニバーサル ID に変換して、クッキーなしのターゲティングを実現する方法を説明します。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,15 @@ DSPでのデータの取り込みを有効にするには [!DNL Adobe] [!DNL Rea
 
 ### [!DNL ActionIQ]
 
-から組織のファーストパーティデータを共有できます [!DNL Action IQ] DSPを使用した customer data platform：ハッシュ化されたメールアドレスをユニバーサル ID に変換して、DSPでのターゲット広告を実現します。 この統合にはカスタマイズが必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+から組織のファーストパーティデータを共有できます [!DNL ActionIQ] DSPを使用した customer data platform：ハッシュ化されたメールアドレスをユニバーサル ID に変換して、DSPでのターゲット広告を実現します。 この統合にはカスタマイズが必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+
+### [!DNL Amperity]
+
+から組織のファーストパーティデータを共有できます [!DNL Amperity] DSPを使用した customer data platform：ハッシュ化されたメールアドレスをユニバーサル ID に変換して、DSPでのターゲット広告を実現します。 詳しくは、「」を参照してください[からのユーザー ID の変換 [!DNL Amperity] ユニバーサル ID に](/help/dsp/audiences/sources/source-amperity.md).」と入力します。
+
+### [!DNL Optimizely]
+
+から組織のファーストパーティデータを共有できます [!DNL Optimizely] DSPを使用した customer data platform：ハッシュ化されたメールアドレスをユニバーサル ID に変換して、DSPでのターゲット広告を実現します。 詳しくは、「」を参照してください[からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル ID に](/help/dsp/audiences/sources/source-optimizely.md).」と入力します。
 
 ### [!DNL Tealium]
 
@@ -88,13 +96,11 @@ DSPでのデータの取り込みを有効にするには [!DNL Adobe] [!DNL Rea
 
 >[!MORELIKETHIS]
 >
->* [からのユーザー ID の変換 [!DNL Adobe Real-Time CDP] ユニバーサル ID に](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [からのユーザー ID の変換 [!DNL Tealium] ユニバーサル ID に](/help/dsp/audiences/sources/source-tealium.md)
 >* [オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化](source-manage.md)
 >* [ユニバーサル ID の有効化のサポート](/help/dsp/audiences/universal-ids.md)
+>* [からのユーザー ID の変換 [!DNL Adobe Real-Time CDP] ユニバーサル ID に](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [からのユーザー ID の変換 [!DNL Amperity] ユニバーサル ID に](/help/dsp/audiences/sources/source-amperity.md)
+>* [からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル ID に](/help/dsp/audiences/sources/source-optimizely.md)
+>* [からのユーザー ID の変換 [!DNL Tealium] ユニバーサル ID に](/help/dsp/audiences/sources/source-tealium.md)
 >* [Audience Management について](/help/dsp/audiences/audience-about.md)
 >* [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

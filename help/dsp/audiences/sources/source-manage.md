@@ -3,9 +3,9 @@ title: オーディエンスソースを管理してユニバーサル ID オー
 description: ソースを作成および管理して、顧客データプラットフォームからオーディエンスを読み込み、ユニバーサル ID を含むセグメントに変換する方法を説明します。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
+source-git-commit: 78b1a8a8e0567afb0c172c7bef1a639ab5b47bab
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL ActionIQ]*：です [!DNL ActionIQ] 顧客データプラットフォーム。
 
+   * *[!UICONTROL Amperity]*：です [!DNL Amperity] 顧客データプラットフォーム。
+
+   * *[!UICONTROL Optimizely]*：です [!DNL Optimizely]：です [!DNL Amperity] 顧客データプラットフォーム。
+
    * *[!UICONTROL Tealium CDP]*: （設定されたユーザーのみ）次の [!DNL Tealium] 顧客データプラットフォーム。
 
 1. を指定 [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* または *[!UICONTROL Account]*.
@@ -50,7 +54,7 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->顧客データプラットフォームのソースを作成したら、追加の手順を完了する必要があります。 を参照してください。 [オーディエンスをから読み込むワークフロー [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> および [オーディエンスをから読み込むワークフロー [!DNL Tealium]](source-tealium.md).
+>顧客データプラットフォームのソースを作成したら、オーディエンスをインポートするための追加の手順を完了する必要があります。 を参照してください。 [のワークフロー [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> この [のワークフロー [!DNL Amperity]](source-amperity.md), [のワークフロー [!DNL Optimizely]](source-optimizely.md)、および [のワークフロー [!DNL Tealium]](source-tealium.md).
 
 ## オーディエンスソースの ID タイプの変更
 
@@ -131,6 +135,9 @@ All changes to universal IDs translated from the source are applied after you sa
 >[!MORELIKETHIS]
 >
 >* [ファーストパーティオーディエンスソースについて](source-about.md)
->* [認証済みセグメントの手動インポート： [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [ユニバーサル ID の有効化のサポート](/help/dsp/audiences/universal-ids.md)
+>* [からのユーザー ID の変換 [!DNL Adobe Real-Time CDP] ユニバーサル ID に](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [からのユーザー ID の変換 [!DNL Amperity] ユニバーサル ID に](/help/dsp/audiences/sources/source-amperity.md)
+>* [からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル ID に](/help/dsp/audiences/sources/source-optimizely.md)
+>* [からのユーザー ID の変換 [!DNL Tealium] ユニバーサル ID に](/help/dsp/audiences/sources/source-tealium.md)
 >* [Audience Management について](/help/dsp/audiences/audience-about.md)

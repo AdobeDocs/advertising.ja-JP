@@ -1,23 +1,25 @@
 ---
-title: からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル ID に
-description: DSPでのデータの取り込みを有効にする方法を説明します [!DNL Optimizely] ファーストパーティセグメント。
+title: からのユーザー ID の変換 [!DNL Amperity] ユニバーサル ID に
+description: DSPでのデータの取り込みを有効にする方法を説明します [!DNL Amperity] ファーストパーティセグメント。
 feature: DSP Audiences
-source-git-commit: 9b784b99051e33330ee7fbc736a9edbdf22066ca
+source-git-commit: 29fd744ba993e65b43cdf24a49b57208f0b06177
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル ID に
+# からのユーザー ID の変換 [!DNL Amperity] ユニバーサル ID に
 
-とのDSP統合の使用 [!DNL Optimizely] 顧客データプラットフォーム：組織のファーストパーティのハッシュ化されたメールアドレスをターゲット広告のためにユニバーサル ID に変換します。
+とのDSP統合の使用 [!DNL Amperity] 顧客データプラットフォーム：組織のファーストパーティのハッシュ化されたメールアドレスをターゲット広告のためにユニバーサル ID に変換します。
 
 1. （メールアドレスを変換： [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->、を使用する広告主 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)） [有効化するトラッキングの設定 [!DNL Analytics] 測定](#analytics-tracking).
 
 1. [DSPでのオーディエンスソースの作成](#source-create).
 
-1. [セグメントデータの準備とプッシュ](#push-data).
+1. [セグメントマッピングデータの準備と共有](#map-data).
+
+1. [からのデータプッシュをリクエスト [!DNL Amperity] DSPへ](#push-data).
 
 1. [ユニバーサル ID の数とハッシュ化されたメールアドレスの数の比較](#compare-id-count).
 
@@ -39,27 +41,39 @@ ht-degree: 0%
 
    ソース設定には、自動生成されたソースキーが含まれ、セグメントデータのプッシュに使用されます。
 
-1. オーディエンスソースを作成したら、ソースコードキーをと共有します。 [!DNL Optimizely] ユーザー。
+1. オーディエンスソースを作成したら、ソースコードキーをと共有します。 [!DNL Amperity] ユーザー。
 
-## 手順 3：セグメントデータの準備とプッシュ {#push-data}
+## 手順 3：セグメントマッピングデータの準備と共有 {#map-data}
 
-広告主は、次の方法でデータを準備し、プッシュする必要があります [!DNL Optimizely] 代表者。
+広告主は、セグメントマッピングデータを準備して共有する必要があります。
 
-1. 内 [!DNL Optimizely Data Platform]は、SHA-256 アルゴリズムを使用して、広告主のオーディエンスのメール ID をハッシュ化します。
+1. 内 [!DNL Amperity]は、SHA-256 アルゴリズムを使用してオーディエンスのメール ID をハッシュ化します。
 
-1. 広告主に連絡 [!DNL Optimizely] セグメントをDSPにプッシュする手順の担当者。 セグメントをプッシュする際には、次の情報を含めます。
+1. DSPでセグメントを作成するには、広告主がセグメントマッピングデータをAdobeアカウントチームに提供する必要があります。 コンマ区切り値ファイルで、次の列名と値を使用します。
 
-   * **ソースキー：** これは、で作成されたソースキーです。 [手順 2](#source-create).
+   * **外部セグメントキー：** この [!DNL Amperity] セグメントに関連付けられたセグメントキー。
 
-   * **アカウント コード：** これは、DSP内の次の場所にある、英数字のDSP アカウントコードです。 [!UICONTROL Settings] > [!UICONTROL Account].
+   * **セグメント名：** セグメント名。
 
-セグメントは、24 時間以内にDSPで使用可能になり、広告主に設定されたとおりに更新されます。 セグメントの更新頻度に関係なく、プライバシーコンプライアンスを確保するためにセグメントへの追加の有効期限が 30 日後に切れるので、オーディエンスをから再プッシュしてオーディエンスを更新します。 [!DNL Optimizely] 30 日以内に 1 回。
+   * **セグメントの説明：** セグメントの目的、ルール、またはその両方。
 
-<!--
-Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]
--->
+   * **親 ID :** 空白のままにする
 
-## 手順 4：ユニバーサル ID の数とハッシュ化されたメールアドレスの数の比較 {#compare-id-count}
+   * **ビデオ CPM:** 0
+
+   * **CPM を表示：** 0
+
+   * **セグメントウィンドウ：** セグメントの有効期間。
+
+## 手順 4：からのデータプッシュをリクエストする [!DNL Amperity] DSPへ {#push-data}
+
+1. DSP内でセグメントがマッピングされたら、広告主は自分で作業する必要があります [!DNL Amperity] セグメントデータをDSPに配信する担当者。
+
+1. 次に、広告主は、セグメントデータが受信されたことをAdobeアカウントチームに確認する必要があります。
+
+セグメントは、24 時間以内にDSPで使用可能になり、広告主に設定されたとおりに更新されます。 セグメントの更新頻度に関係なく、プライバシーコンプライアンスを確保するためにセグメントへの追加の有効期限が 30 日後に切れるので、オーディエンスをから再プッシュしてオーディエンスを更新します。 [!DNL Amperity] 30 日以内に 1 回。
+
+## 手順 5：ユニバーサル ID の数とハッシュ化されたメールアドレスの数の比較 {#compare-id-count}
 
 すべての手順を完了したら、オーディエンスライブラリ（からオーディエンスを作成または編集する際に使用可能）で検証します。 [!UICONTROL Audiences] > [!UICONTROL All Audiences] またはプレースメント設定内）を選択した場合、セグメントが使用可能になり、24 時間以内に入力されます。 ユニバーサル ID の数と、元のハッシュ化されたメールアドレスの数を比較します。
 

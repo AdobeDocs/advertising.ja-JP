@@ -3,9 +3,9 @@ title: からのユーザー ID の変換 [!DNL Tealium] ユニバーサル ID �
 description: DSPでのデータの取り込みを有効にする方法を説明します [!DNL Tealium] ファーストパーティセグメント。
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -52,31 +52,31 @@ ht-degree: 0%
 
 ## 手順 3：セグメントマッピングデータの準備と共有 {#map-data}
 
-1. 広告主は、セグメントマッピングデータを準備して共有する必要があります。
+広告主は、セグメントマッピングデータを準備して共有する必要があります。
 
-   1. 広告主は、内でデータを準備する必要があります [!DNL Tealium]:
+1. 広告主は、内でデータを準備する必要があります [!DNL Tealium]:
 
-      1. SHA-256 アルゴリズムを使用して、広告主のオーディエンスのメール ID をハッシュ化します。
+   1. SHA-256 アルゴリズムを使用して、広告主のオーディエンスのメール ID をハッシュ化します。
 
-      1. ハッシュ化されたメール ID を含む列を、訪問者 ID タイプの属性にマッピングします。
+   1. ハッシュ化されたメール ID を含む列を、訪問者 ID タイプの属性にマッピングします。
 
-      1. を使用したオーディエンスの作成 `Tealium_visitor_id` 属性。 適切なエンリッチメントを適用して、オーディエンスをトリガーに設定します。 を参照してください。 [[!DNL Tealium] 訪問者 ID 属性に関するドキュメント](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
+   1. を使用したオーディエンスの作成 `Tealium_visitor_id` 属性。 適切なエンリッチメントを適用して、オーディエンスをトリガーに設定します。 を参照してください。 [[!DNL Tealium] 訪問者 ID 属性に関するドキュメント](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
 
-   1. DSPでセグメントを作成するには、広告主がセグメントマッピングデータをAdobeアカウントチームに提供する必要があります。 コンマ区切り値ファイルで、次の列名と値を使用します。
+1. DSPでセグメントを作成するには、広告主がセグメントマッピングデータをAdobeアカウントチームに提供する必要があります。 コンマ区切り値ファイルで、次の列名と値を使用します。
 
-      * **外部セグメントキー：** 外部セグメントキー（後で、のコネクタのアクション設定で指定します） [!DNL Tealium]. 推奨される命名規則は「」です`<DSP source key>_<Tealium segment name>`例えば、「57bf424dc10_coffee-drinkers」などです。 DSP ソースキーには、を使用します [!UICONTROL Source Key] DSP オーディエンスソースの設定から。
+   * **外部セグメントキー：** 外部セグメントキー（後で、のコネクタのアクション設定で指定します） [!DNL Tealium]. 推奨される命名規則は「」です`<DSP source key>_<Tealium segment name>`例えば、「57bf424dc10_coffee-drinkers」などです。 DSP ソースキーには、を使用します [!UICONTROL Source Key] DSP オーディエンスソースの設定から。
 
-      * **セグメント名：** セグメント名。
+   * **セグメント名：** セグメント名。
 
-      * **セグメントの説明：** セグメントの目的、ルール、またはその両方。
+   * **セグメントの説明：** セグメントの目的、ルール、またはその両方。
 
-      * **親 ID :** 空白のままにする
+   * **親 ID :** 空白のままにする
 
-      * **ビデオ CPM:** 0
+   * **ビデオ CPM:** 0
 
-      * **CPM を表示：** 0
+   * **CPM を表示：** 0
 
-      * **セグメントウィンドウ：** セグメントの有効期間。
+   * **セグメントウィンドウ：** セグメントの有効期間。
 
 ## 手順 4：でのコネクタの作成 [!DNL Tealium] セグメントデータを共有するには {#tealium-connector}
 
@@ -154,9 +154,5 @@ ht-degree: 0%
 >
 >* [ファーストパーティオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
 >* [オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化](source-manage.md)
->* [からのユーザー ID の変換 [!DNL Adobe Real-Time CDP] ユニバーサル ID に](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [ユニバーサル ID の有効化のサポート](/help/dsp/audiences/universal-ids.md)
 >* [Audience Management について](/help/dsp/audiences/audience-about.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->
