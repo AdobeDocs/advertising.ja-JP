@@ -3,9 +3,9 @@ title: からのユーザー ID の変換 [!DNL Tealium] ユニバーサル ID �
 description: DSPでのデータの取り込みを有効にする方法を説明します [!DNL Tealium] ファーストパーティセグメント。
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
+source-git-commit: 2d045640b5bdf8dfba70d0f7da3ac012fd86e82e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 0%
 1. [内の既存のコネクタを複製 [!DNL Tealium] セグメントの共有を続行するには](#duplicate-connector).
 
 1. [ユニバーサル ID の数とハッシュ化されたメールアドレスの数の比較](#compare-id-count).
-
-セグメントは、24 時間以内にDSPで使用可能になり、24 時間ごとに更新されます。
 
 ## 手順 1：のトラッキングの設定 [!DNL Analytics] 測定 {#analytics-tracking}
 
@@ -142,7 +140,7 @@ ht-degree: 0%
 
 ## 手順 6：ユニバーサル ID の数とハッシュ化されたメールアドレスの数の比較 {#compare-id-count}
 
-すべての手順を完了したら、オーディエンスライブラリ（からオーディエンスを作成または編集する際に使用可能）で検証します。 [!UICONTROL Audiences] > [!UICONTROL All Audiences] またはプレースメント設定内）を選択した場合、24 時間以内にセグメントが入力されます。 ユニバーサル ID の数と、元のハッシュ化されたメールアドレスの数を比較します。
+すべての手順を完了すると、セグメントは 24 時間以内にDSPで使用可能になります。 オーディエンスライブラリでの検証（オーディエンスの作成または編集時に使用できます） [!UICONTROL Audiences] > [!UICONTROL All Audiences] またはプレースメント設定内）を選択した場合、24 時間以内にセグメントが入力されます。 ユニバーサル ID の数と、元のハッシュ化されたメールアドレスの数を比較します。
 
 ハッシュ化されたメールアドレスのユニバーサル ID への翻訳率は、90% を超える必要があります。 例えば、顧客データプラットフォームからハッシュ化されたメールアドレスを 100 個送信する場合は、90 個を超えるユニバーサル ID に翻訳する必要があります。 90% 以下の翻訳率が課題です。 セグメント数の変化について詳しくは、「」を参照してください[メール ID とユニバーサル ID のデータの相違の原因](#universal-ids-data-variances).」と入力します。
 

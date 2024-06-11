@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 048752e0f9a5d95c22bd9acb4b70034b5f833494
+source-git-commit: 8374fbedf8c209b6b2638cd16aa21b79e251486d
 workflow-type: tm+mt
-source-wordcount: '2973'
+source-wordcount: '3035'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024 年 6 月 10 日（Pt） | [!UICONTROL Audiences] | （ベータ版機能）からファーストパーティセグメントを変換できるようになりました [!DNL Amperity] および [!DNL Optimizely] [[!DNL LiveRamp] [!DNL RampIDs]] または [!DNL Unified ID 2.0 (UID2.0)] ID。 オーディエンスターゲット設定のプレースメント設定内で、共有セグメントは「ファーストパーティセグメント」リストで使用できます。 | 参照先」[からのユーザー ID の変換 [!DNL Amperity] ユニバーサル ID に](/help/dsp/audiences/sources/source-amperity.md),&quot; &quot;[からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル ID に](/help/dsp/audiences/sources/source-optimizely.md)、」および「[ユニバーサル ID の有効化のサポート](/help/dsp/audiences/universal-ids.md).」と入力します。 |
 | 2024 年 6 月 5 日（Pt） | Placements | スプレッドシートを使用して、複数のプレースメントの入札乗数を一度に管理できるようになりました。 | 参照先」[プレースメントの入札乗数の管理](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).」と入力します。 |
 |  | オーディエンスソース | ソースオーディエンスの翻訳先のユニバーサル ID タイプを変更し、変更のログを確認できるようになりました。 | 参照先」[オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化](/help/dsp/audiences/sources/source-manage.md).」と入力します。 |
 | 2024 年 5 月 22 日（Pt） | 最適化、コネクテッド TV 広告 | 「最低の CPA」と「最高の ROAS」の最適化目標を持つパッケージでは、接続された TV 広告のパフォーマンスモデルが、コンバージョンパスの複数のタッチポイントのデータを使用して、より迅速で堅牢な機械学習を実現するようになりました。 既存のパッケージは、マルチタッチ最適化を使用するようにアップグレードされるので、アクションは必要ありません。 | — |
