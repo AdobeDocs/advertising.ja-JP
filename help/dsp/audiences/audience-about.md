@@ -3,7 +3,7 @@ title: Advertising DSPの Audience Management について
 description: Audience Management の機能について説明します。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: f6c562a02cdca5eda8c0b8ec692e55e7ea656bb0
+source-git-commit: ac3ceaf0e1d9f1708896d17ab413d23f366c4b36
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
@@ -149,7 +149,7 @@ DSP ユーザーインターフェイスを使用したり、カスタムイン�
 >* [カスタムセグメントの作成と実装](custom-segment-create.md)
 >* [の作成と実装 [!UICONTROL CCPA Opt-Out-of-Sale] セグメント](ccpa-opt-out-segment-create.md)
 >* [ファーストパーティオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
->* [オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化](source-manage.md)
+>* [オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化](/help/dsp/audiences/sources/source-manage.md)
 >* [認証済みセグメントの手動インポート： [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [利用可能なサードパーティデータプロバイダー](third-party-data-providers.md)
 >* [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)
