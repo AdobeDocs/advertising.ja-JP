@@ -3,9 +3,9 @@ title: パフォーマンスキャンペーンの設定のベストプラクテ�
 description: 最低 CPA または最高 ROAS に最適化されたプレースメントを含む、パフォーマンスに焦点を当てたキャンペーンを設定するためのベストプラクティスについて説明します。
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 802c75920bb11f262cbe0d76d2554971aaf35831
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,7 @@ DSPでは、パフォーマンスに焦点を当てたキャンペーンを最�
 
 ![最適化目標](/help/dsp/assets/optimization-goals.png)
 
-また、全体的な目標につながる成功イベントを決定し、それに応じてカスタム目標を作成する必要があります。 パッケージごとに、を使用したレポートおよびアルゴリズム最適化の全体的な最適化目標と共に使用されるカスタム目標を指定します [!DNL Adobe Sensei]. カスタム目標の作成について詳しくは、 [カスタム目標を作成するためのベストプラクティス](custom-goal.md#custom-goal-best-practices).
-
-![カスタム目標](/help/dsp/assets/objective-goals.png)
+また、全体的な目標につながる成功イベントを決定し、それに応じてカスタム目標を作成する必要があります。 パッケージごとに、を使用したレポートおよびアルゴリズム最適化の全体的な最適化目標と共に使用されるカスタム目標を指定します [!DNL Adobe Sensei]. ベストプラクティスを含むカスタム目標の作成について詳しくは、を参照してください。 [カスタム目標](custom-goal.md).
 
 ## 手順 2 – 戦略の定義
 
