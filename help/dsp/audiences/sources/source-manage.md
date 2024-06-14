@@ -3,9 +3,9 @@ title: オーディエンスソースを管理してユニバーサル ID オー
 description: ソースを作成および管理して、顧客データプラットフォームからオーディエンスを読み込み、ユニバーサル ID を含むセグメントに変換する方法を説明します。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 78b1a8a8e0567afb0c172c7bef1a639ab5b47bab
+source-git-commit: 02ed538a48a4ba0323f9b75938ee6b007c6e0fd7
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL Amperity]*：です [!DNL Amperity] 顧客データプラットフォーム。
 
-   * *[!UICONTROL Optimizely]*：です [!DNL Optimizely]：です [!DNL Amperity] 顧客データプラットフォーム。
+   * *[!UICONTROL Optimizely]*：です [!DNL Optimizely] 顧客データプラットフォーム。
 
    * *[!UICONTROL Tealium CDP]*: （設定されたユーザーのみ）次の [!DNL Tealium] 顧客データプラットフォーム。
 
