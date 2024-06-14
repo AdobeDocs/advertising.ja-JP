@@ -2,9 +2,9 @@
 title: からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル ID に
 description: DSPでのデータの取り込みを有効にする方法を説明します [!DNL Optimizely] ファーストパーティセグメント。
 feature: DSP Audiences
-source-git-commit: 23d4dc50d1c6bf966148dab772e0e770087ac869
+source-git-commit: f51f07c1e057eb09c2cad292b2c8062f7d993166
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
    * **アカウント コード：** これは、DSP内の次の場所にある、英数字のDSP アカウントコードです。 [!UICONTROL Settings] > [!UICONTROL Account].
 
-セグメントは、24 時間以内にDSPで使用可能になり、広告主に設定されたとおりに更新されます。 セグメントの更新頻度に関係なく、プライバシーコンプライアンスを確保するためにセグメントへの追加の有効期限が 30 日後に切れるので、オーディエンスをから再プッシュしてオーディエンスを更新します。 [!DNL Optimizely] 30 日以内に 1 回。
+セグメントは、24 時間以内にDSPで使用可能になり、広告主に設定されたとおりに更新されます。 セグメントの更新頻度に関係なく、セグメントへの追加は、デフォルトで 30 日後、または顧客が指定した有効期限が切れた後に期限切れになります。 から再プッシュしてセグメントを更新 [!DNL Optimizely] 有効期限の前。 カスタムセグメントの有効期限をリクエストするには、Adobeアカウントチームにお問い合わせください。
 
 <!--
 Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]

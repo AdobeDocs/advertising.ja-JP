@@ -3,9 +3,9 @@ title: とのDSP統合の使用 [!DNL Adobe] [!DNL Real-time CDP]
 description: DSPでのデータの取り込みを有効にする方法を説明します [!DNL Adobe] [!DNL Real-time CDP] ファーストパーティセグメント。
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 33766fc210da032102bdc07a0db4ce348b12fe92
+source-git-commit: 7963623d20686553629e2aa7ad76b4fd48403555
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    トラブルシューティングのサポートについては、Adobeアカウントチームまたは `adcloud-support@adobe.com`.
 
-セグメントは 24 時間ごとに更新されます。 ただし、セグメントへの追加は、プライバシーコンプライアンスを確保するために 30 日後に有効期限が切れるので、30 日以下ごとにReal-Time CDPから再プッシュしてオーディエンスを更新します。
+セグメントは 24 時間ごとに更新されます。 ただし、セグメントへの追加は、デフォルトで 30 日後、または顧客が指定した有効期限が切れた後に有効期限が切れます。 有効期限が切れる前にReal-Time CDPからセグメントを再プッシュして、セグメントを更新します。 カスタムセグメントの有効期限をリクエストするには、Adobeアカウントチームにお問い合わせください。
 
 >[!MORELIKETHIS]
 >
