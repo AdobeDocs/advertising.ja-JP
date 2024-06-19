@@ -3,9 +3,9 @@ title: キャンペーン設定
 description: 使用可能なキャンペーン設定の説明を参照してください。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: e231afad3153d8861adf2510a6a2039d781ee1a5
+source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 #### オーディエンスの検証
 
-**[!UICONTROL comScore Campaign Ratings]:** （任意）指定した設定を使用して、[!DNL Comscore 検証済みキャンペーンのレーティング測定とオーディエンス検証のレポートを有効にします。 追加料金がかかります。
+**[!UICONTROL comScore Campaign Ratings]:** （オプション）有効 [!DNL Comscore] 検証済み [!DNL Campaign Ratings] 指定された設定を使用した、オーディエンス検証の測定とレポート。 追加料金がかかります。
 
 * **[!UICONTROL Target Gender]:** ターゲットにする性別： *[!UICONTROL Both]* （デフォルト）、 *[!UICONTROL Male]*、または *[!UICONTROL Female]*
 
@@ -130,9 +130,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Target Country]:** （任意）ターゲットにする国。 [!DNL Comscore] サポート対象の国でのみ提供されたインプレッションを測定します。
 
-### [!UICONTROL Attention Measurement]
+### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]:** プレースメントレベルのトラッキングを有効にします [!UICONTROL Attention Score] 指標（インプレッション間の加重平均注意単位数） [!DNL Adelaide]. 指標は、以下のプレースメントタイプ以外のすべてのプレースメントタイプで使用できます [!DNL Roku] ポッドキャストではないコネクテッド テレビ、VPAID-only プレロール、およびオーディオ。 DSPは、関連するすべてのクリエイティブに JavaScript タグを自動的に付加します。 [!DNL Adelaide] では、漏洩データを追跡し、毎日DSPに送信します。 この日付を使用して、より注意スコアの高いプレースメント戦術に向けて手動で支出を最適化できます。
+**[!UICONTROL Adelaide]:** プレースメントレベルのトラッキングを有効にします [!UICONTROL Attention Score] 指標（加重平均数 [!DNL Adelaide] “[!DNL Attention Units]「（インプレッション間）」 指標は、以下のプレースメントタイプ以外のすべてのプレースメントタイプで使用できます [!DNL Roku] ポッドキャストではないコネクテッド テレビ、VPAID-only プレロール、およびオーディオ。 DSPは、関連するすべてのクリエイティブに JavaScript タグを自動的に付加します。 [!DNL Adelaide] では、漏洩データを追跡し、毎日DSPに送信します。 この日付を使用して、より注意スコアの高いプレースメント戦術に向けて手動で支出を最適化できます。
 
 この [!UICONTROL Attention Score] フィールドは [!UICONTROL Metrics] レポートのセクション（内） [!UICONTROL Campaigns], [!UICONTROL Packages]、および [!UICONTROL Placements] 表示および [!UICONTROL Sites], [!UICONTROL Ads]、および [!UICONTROL Inventory] タブ： [プレースメントの詳細表示](/help/dsp/campaign-management/reports/placement-details-view.md).
 

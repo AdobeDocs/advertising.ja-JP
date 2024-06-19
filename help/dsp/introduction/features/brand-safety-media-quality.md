@@ -3,9 +3,9 @@ title: ブランドセーフティとメディア品質
 description: ブランドセーフティとメディア品質機能の詳細をご覧ください。
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
+source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1425'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,16 @@ DSPは、広告を実行することが安全でないと見なされるサイ�
 各広告主に対して、デフォルトのビューアビリティフィルターを設定できます<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) -->、オプションで [各プレースメントの設定のカスタマイズ](/help/dsp/campaign-management/placements/placement-settings.md). この機能を使用すると、追加料金が発生する場合があります。
 
 ![DoubleVerify ロゴ](/help/dsp/assets/doubleverify-logo.png) ![Oracle Advertising ロゴ](/help/dsp/assets/oracle-advertising-logo.png) ![統合広告サイエンスロゴ](/help/dsp/assets/ias-logo.png)
+
+### アテンションのターゲティングと測定
+
+[!DNL Adobe's] ～との提携 [!DNL Adelaide] 広告主向けに「アデレード」指標のサポートを提供します[!DNL Attention Units]目の追跡、露出および結果データに基づいてメディアの品質を測定します。
+
+[プレースメントレベルの入札前のアテンションターゲティング](/help/dsp/campaign-management/placements/placement-settings.md) を使用すると、広告主は特定の注目レベルをターゲットにして、顧客エンゲージメントを向上させることができます。
+
+さらに、広告主は以下を有効にできます [プレースメントレベルのトラッキング [!UICONTROL Attention Score] 指標](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) （加重平均数 [!DNL Attention Units] インプレッション間）を使用して、どのプレースメント戦術が最適なビジネス成果を生み出すかを把握します。
+
+各機能に対して追加料金が発生します。
 
 ### トピックのターゲティング
 
