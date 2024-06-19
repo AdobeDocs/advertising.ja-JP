@@ -3,9 +3,9 @@ title: キャンペーン設定
 description: 使用可能なキャンペーン設定の説明を参照してください。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: e231afad3153d8861adf2510a6a2039d781ee1a5
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -122,21 +122,27 @@ ht-degree: 0%
 
 #### オーディエンスの検証
 
-**[!UICONTROL Nielsen]:** （オプション）有効 [!DNL Nielsen] 指定された設定を使用した、オーディエンス検証の測定とレポート。 追加料金がかかります。
-
-* **[!UICONTROL Target Gender]:** ターゲットにする性別： *[!UICONTROL Both]* （デフォルト）、 *[!UICONTROL Male]*、または *[!UICONTROL Female]*
-
-* **[!UICONTROL Target Age]:** ターゲットにする年齢の範囲。 必要に応じて、左右のスライダーを使用して範囲を狭めます。
-
-* **[!UICONTROL Target Country]:** （任意）ターゲットにする国。 [!DNL Nielsen] サポート対象の国でのみ提供されたインプレッションを測定します。
-
-**[!UICONTROL comScore vCE]:** （オプション）有効 [!DNL Comscore validated Campaign Essentials (vCE)] 指定された設定を使用した、オーディエンス検証の測定とレポート。 追加料金がかかります。
+**[!UICONTROL comScore Campaign Ratings]:** （任意）指定した設定を使用して、[!DNL Comscore 検証済みキャンペーンのレーティング測定とオーディエンス検証のレポートを有効にします。 追加料金がかかります。
 
 * **[!UICONTROL Target Gender]:** ターゲットにする性別： *[!UICONTROL Both]* （デフォルト）、 *[!UICONTROL Male]*、または *[!UICONTROL Female]*
 
 * **[!UICONTROL Target Age]:** ターゲットにする年齢の範囲。 必要に応じて、左右のスライダーを使用して範囲を狭めます。
 
 * **[!UICONTROL Target Country]:** （任意）ターゲットにする国。 [!DNL Comscore] サポート対象の国でのみ提供されたインプレッションを測定します。
+
+### [!UICONTROL Attention Measurement]
+
+**[!UICONTROL Adelaide]:** プレースメントレベルのトラッキングを有効にします [!UICONTROL Attention Score] 指標（インプレッション間の加重平均注意単位数） [!DNL Adelaide]. 指標は、以下のプレースメントタイプ以外のすべてのプレースメントタイプで使用できます [!DNL Roku] ポッドキャストではないコネクテッド テレビ、VPAID-only プレロール、およびオーディオ。 DSPは、関連するすべてのクリエイティブに JavaScript タグを自動的に付加します。 [!DNL Adelaide] では、漏洩データを追跡し、毎日DSPに送信します。 この日付を使用して、より注意スコアの高いプレースメント戦術に向けて手動で支出を最適化できます。
+
+この [!UICONTROL Attention Score] フィールドは [!UICONTROL Metrics] レポートのセクション（内） [!UICONTROL Campaigns], [!UICONTROL Packages]、および [!UICONTROL Placements] 表示および [!UICONTROL Sites], [!UICONTROL Ads]、および [!UICONTROL Inventory] タブ： [プレースメントの詳細表示](/help/dsp/campaign-management/reports/placement-details-view.md).
+
+使用 [!DNL Adelaide] 測定のセグメントには、で広告から配信されるインプレッションごとに CPM 料金が発生します。 [!DNL Adelaide] 測定タグ。 この料金は～の料金とは別だ [プレースメントレベルのアテンションターゲティング](/help/dsp/campaign-management/placements/placement-settings.md).
+
+<!--
+Example JavaScript tag:
+
+`<script src="https://www.example.com/aam?asid=0123456789&ad=${TM_AD_ID_NUM}&adv=${TM_ADVERTISER_ID}&ca=${TM_CAMPAIGN_ID_NUM}&df=${NS_PLATFORM_ID}&dt=${NS_DEVICE_GROUPING}&pl=${TM_PLACEMENT_ID_NUM}&ra=${TM_RANDOM}&st=${TM_SITE_URL_URLENC}"></script>`
+-->
 
 ### [!UICONTROL 1st Party Metrics]
 

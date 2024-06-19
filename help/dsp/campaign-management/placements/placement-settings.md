@@ -3,9 +3,9 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 74b7ccc97339663c8baba633ff2baedfb13cba80
+source-git-commit: 80b584c124e247e97e8a21153abf30072c361c42
 workflow-type: tm+mt
-source-wordcount: '3789'
+source-wordcount: '3857'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ ht-degree: 0%
 
 **[!UICONTROL Traffic type]:** ターゲットにするトラフィックのタイプ。 次のようなオプションがあります **[!UICONTROL Websites]** および **[!UICONTROL Apps]**.
 
-**[!UICONTROL Site tier]:** （次の場合に使用可能： **[!UICONTROL Paste list of targeted sites]** 等しい *[!UICONTROL Off]*）ターゲットとするサイトの品質。 Tier 1～3 はすべてブランドセーフであり、DSP マッピングチームによって審査および承認されています。
+**[!UICONTROL Site tier]:** （次の場合に使用可能： **[!UICONTROL Paste list of targeted sites]** 等しい *[!UICONTROL Off]*）ターゲットとするサイトの品質。 階層 1～3 はすべてブランドセーフであり、DSP マッピングチームによって承認されています。
 
 * *[!UICONTROL Tier 1]:* 全国的に認識できるプレミアムサイトとアプリケーション。
 
@@ -346,7 +346,7 @@ ht-degree: 0%
    * 間隔を手動で選択するには、セル内をクリックし、必要に応じてドラッグして間隔を選択します。
 1. クリック **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** （オプション。で設定された広告主が使用できます [!DNL Proximic by Comscore] および [!DNL Grapeshot] セグメント）から特定のセグメント名または ID [!DNL Proximic by Comscore] および [!DNL Grapeshot] をターゲットとして含めます。 この機能には追加料金が発生する場合があります。 この機能をアクティブにしてトピックセグメントを設定するには、Adobeアカウントチームにお問い合わせください。
+**[!UICONTROL Topic Targeting]:** （オプション。で設定された広告主が使用できます [!DNL Proximic by Comscore] および [!DNL Oracle Data Cloud] セグメント）から特定のセグメント名または ID [!DNL Proximic by Comscore] および [!DNL Oracle Data Cloud] （formerly [!DNL Grapeshot]）を選択して、ターゲットとして含めます。 この機能には追加料金が発生する場合があります。 この機能をアクティブにしてトピックセグメントを設定するには、Adobeアカウントチームにお問い合わせください。
 
 トピックのターゲティングを指定するには：
 
@@ -361,7 +361,7 @@ ht-degree: 0%
 >
 >* トピックターゲティングは、プレースメントが入札できる在庫を制限するので、全体の購入のごく一部に対してのみトピックターゲティングを使用します。
 >
->* 次の場合は、セグメント内でのネガティブターゲティングの設定 [!DNL Proximic by Comscore] または [!DNL Grapeshot].
+>* 次の場合は、セグメント内でのネガティブターゲティングの設定 [!DNL Proximic by Comscore] または [!DNL Oracle Data Cloud].
 
 **[!UICONTROL Device Targeting]:** （任意）デバイスの種類、製造元、オペレーティングシステム、ブラウザー、接続の種類など、特定のデバイス情報。ターゲットに含めたりターゲットから除外したりできます。 デバイスのターゲティングを指定するには：
 
@@ -435,6 +435,8 @@ ht-degree: 0%
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*：ドメインの承認済みダイレクトセラーおよびリセラーからの購入在庫を優先順位付けする。
 * *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済みダイレクトセラーおよびリセラーからのみ在庫を購入できます。
 * *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済みダイレクトセラーからのみ在庫を購入する場合。
+
+**[!UICONTROL Attention Targeting]:** （ディスプレイ、ビデオ、モバイルおよび標準の接続された TV 配置）ターゲット [!DNL Adelaide] 指定したサイト、形式、広告サイズに基づいて、特定の注意レベル（高、中、低）でセグメントを事前入札します。 セグメントは毎週更新されます。 **注意：** 使用 [!DNL Adelaide] ターゲティングのセグメントには、が配信するインプレッションごとに CPM 料金が発生します [!DNL Adelaide] 注意のターゲティング。この料金は、次の料金とは別です [注意力測定](/help/dsp/campaign-management/campaigns/campaign-settings.md). インタラクティブなプレロールプレースメントの場合、膨大なインプレッションに対してのみ請求されます。
 
 **[!UICONTROL DoubleVerify Authentic Brand Safety]:** （を設定した広告主） [!UICONTROL DoubleVerify Authentic Brand Safety] （オプション）有効 [!DNL DoubleVerify Authentic Brand Safety]：指定したセグメント ID に設定されたカスタムブランドセーフティルールを使用して、入札後のインプレッションをブロックします。 DSPは、広告主設定で指定されたセグメント ID の使用に対してアカウントに請求します。
 
