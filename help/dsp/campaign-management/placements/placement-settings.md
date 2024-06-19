@@ -3,7 +3,7 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 74b7ccc97339663c8baba633ff2baedfb13cba80
 workflow-type: tm+mt
 source-wordcount: '3789'
 ht-degree: 0%
@@ -346,7 +346,7 @@ ht-degree: 0%
    * 間隔を手動で選択するには、セル内をクリックし、必要に応じてドラッグして間隔を選択します。
 1. クリック **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** （オプション。で設定された広告主が使用できます [!DNL Comscore] および [!DNL Grapeshot] セグメント）から特定のセグメント名または ID [!DNL Comscore] および [!DNL Grapeshot] をターゲットとして含めます。 この機能には追加料金が発生する場合があります。 この機能をアクティブにしてトピックセグメントを設定するには、Adobeアカウントチームにお問い合わせください。
+**[!UICONTROL Topic Targeting]:** （オプション。で設定された広告主が使用できます [!DNL Proximic by Comscore] および [!DNL Grapeshot] セグメント）から特定のセグメント名または ID [!DNL Proximic by Comscore] および [!DNL Grapeshot] をターゲットとして含めます。 この機能には追加料金が発生する場合があります。 この機能をアクティブにしてトピックセグメントを設定するには、Adobeアカウントチームにお問い合わせください。
 
 トピックのターゲティングを指定するには：
 
@@ -361,7 +361,7 @@ ht-degree: 0%
 >
 >* トピックターゲティングは、プレースメントが入札できる在庫を制限するので、全体の購入のごく一部に対してのみトピックターゲティングを使用します。
 >
->* 次の場合は、セグメント内でのネガティブターゲティングの設定 [!DNL Comscore] または [!DNL Grapeshot].
+>* 次の場合は、セグメント内でのネガティブターゲティングの設定 [!DNL Proximic by Comscore] または [!DNL Grapeshot].
 
 **[!UICONTROL Device Targeting]:** （任意）デバイスの種類、製造元、オペレーティングシステム、ブラウザー、接続の種類など、特定のデバイス情報。ターゲットに含めたりターゲットから除外したりできます。 デバイスのターゲティングを指定するには：
 

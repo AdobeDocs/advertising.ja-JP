@@ -3,9 +3,9 @@ title: ブランドセーフティとメディア品質
 description: ブランドセーフティとメディア品質機能の詳細をご覧ください。
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -118,9 +118,9 @@ DSPは、広告を実行することが安全でないと見なされるサイ�
 
 ### トピックのターゲティング
 
-DSP トピックのターゲット設定では、業界をリードするアドビのコンテキストパートナーを活用して、キーワードリストをターゲット設定したりブロックしたりできます [!DNL Comscore] および [!DNL Oracle Data Cloud] （[!DNL Grapeshot]）に設定します。 トピックのターゲティングは、有害なコンテンツのブロックや、より大きな結果を確実にするコンテキストでの費用の確保など、ブランドに合致した環境で広告を常に提供するのに役立ちます。
+DSP トピックのターゲット設定では、業界をリードするアドビのコンテキストパートナーを活用して、キーワードリストをターゲット設定したりブロックしたりできます [!DNL Comscore] および [!DNL Oracle Data Cloud] （formerly [!DNL Grapeshot]）に設定します。 トピックのターゲティングは、有害なコンテンツのブロックや、より大きな結果を確実にするコンテキストでの費用の確保など、ブランドに合致した環境で広告を常に提供するのに役立ちます。
 
-トピックのターゲティングでは、で直接カスタムトピックセグメントを作成する必要があります [!DNL Comscore] または [!DNL Grapeshot] （使用 [!DNL Oracle Data Cloud]）に設定します。 パートナープラットフォームでこれらを作成すると、次のことが可能になります [でのセグメント ID のターゲット設定または除外 [!UICONTROL Audience Targeting] プレースメントごとのセクション](/help/dsp/campaign-management/placements/placement-settings.md). この機能には追加料金が発生する場合があります。
+トピックのターゲティングでは、パートナープラットフォームと直接カスタムトピックセグメントを作成する必要があります。 セグメントの作成後、次の操作を実行できます [でのセグメント ID のターゲット設定または除外 [!UICONTROL Audience Targeting] プレースメントごとのセクション](/help/dsp/campaign-management/placements/placement-settings.md). この機能には追加料金が発生する場合があります。
 
 カスタムトピックセグメントを作成するには：
 

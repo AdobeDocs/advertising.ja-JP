@@ -3,7 +3,7 @@ title: Advertising DSPの Audience Management について
 description: Audience Management の機能について説明します。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: ac3ceaf0e1d9f1708896d17ab413d23f366c4b36
+source-git-commit: 31f20bcfb79265326f515218a02d8a4fa3efd586
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
@@ -70,7 +70,7 @@ DSP ユーザーインターフェイスを使用したり、カスタムイン�
 
 * 読み込まれたすべてのカスタムのサードパーティデータセグメント。
 
-* （Placements targeting the U.S. only） [30 を超えるプロバイダーのDSPのお客様が使用できるすべてのサードパーティデータセグメント](/help/dsp/audiences/third-party-data-providers.md)を含む [!DNL Acxiom], [!DNL Datalogix], [!DNL eXelate] （[!DNL Nielsen]）、 [!DNL Lotame], [!DNL Oracle], [!DNL Quantcast]、その他多数。
+* （Placements targeting the U.S. only） [30 を超えるプロバイダーのDSPのお客様が使用できるすべてのサードパーティデータセグメント](/help/dsp/audiences/third-party-data-providers.md)を含む [!DNL eXelate], （[!DNL Eyeota]）, （[!DNL LiveRamp]）、[!DNL Lotame], [!DNL Neustar]、その他多数。
 
   特定のセグメントをターゲット設定できます。このセグメントは、オーディエンスデータに基づいてユーザーをターゲット設定します（例えば、特定の人口統計、興味や意図、行動プロファイルを持つユーザー）。 データプロバイダーとカテゴリで参照したり、名前またはセグメント ID でセグメントを検索したり、データプロバイダー、合計セグメントサイズ、web ブラウザー数、デバイス数で結果をフィルタリングしたりできます。
 
