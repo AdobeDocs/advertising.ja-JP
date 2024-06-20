@@ -3,7 +3,7 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: e2eca3b77882716c15fc3cde331d211efcd3fb8a
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '3858'
 ht-degree: 0%
@@ -444,7 +444,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->（[!DNL Roku] プレースメント）サードパーティのトラッキングベンダーの承認 [!DNL Roku] 次を含める [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk]、および [!DNL Research Now].
+>（[!DNL Roku] プレースメント）サードパーティのトラッキングベンダーの承認 [!DNL Roku] 次を含める [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk]、および [!DNL Research Now].
 
 **[!UICONTROL Event Pixels]:** （任意）サードパーティのイベントトラッキングピクセル。デフォルトでプレースメント内のすべての新規広告に添付されます。 イベントのピクセルを指定するには：
 

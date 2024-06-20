@@ -3,7 +3,7 @@ title: 使用 [!DNL Roku] 在庫
 description: とのDSP パートナーシップについて [!DNL Roku]（在庫オプション、承認済みのサードパーティトラッキングベンダー、のベストプラクティスを含む） [!DNL Roku]固有のプレースメント。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Each [!DNL Roku] プレースメントは、少なくとも 1 つをターゲッ
 
 ### [!DNL Roku] – 承認されたサードパーティトラッキングベンダー
 
-[!DNL Roku] プレースメントには、次のベンダーのサードパーティイベントピクセルとコンバージョンピクセルを含めることができます。  [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk]、および [!DNL Research Now].
+[!DNL Roku] プレースメントには、次のベンダーのサードパーティイベントピクセルとコンバージョンピクセルを含めることができます。  [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk]、および [!DNL Research Now].
 
 ### プレースメント戦略別のベストプラクティス
 

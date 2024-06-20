@@ -3,7 +3,7 @@ title: キャンペーン設定
 description: 使用可能なキャンペーン設定の説明を参照してください。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 0%
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 #### オーディエンスの検証
 
-**[!UICONTROL comScore Campaign Ratings]:** （オプション）有効 [!DNL Comscore] 検証済み [!DNL Campaign Ratings] 指定された設定を使用した、オーディエンス検証の測定とレポート。 追加料金がかかります。
+**[!UICONTROL Comscore Campaign Ratings]:** （オプション）有効 [!DNL Comscore] 検証済み [!DNL Campaign Ratings] 指定された設定を使用した、オーディエンス検証の測定とレポート。 追加料金がかかります。
 
 * **[!UICONTROL Target Gender]:** ターゲットにする性別： *[!UICONTROL Both]* （デフォルト）、 *[!UICONTROL Male]*、または *[!UICONTROL Female]*
 
