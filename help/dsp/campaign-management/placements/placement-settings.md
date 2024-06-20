@@ -3,9 +3,9 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 80b584c124e247e97e8a21153abf30072c361c42
+source-git-commit: e2eca3b77882716c15fc3cde331d211efcd3fb8a
 workflow-type: tm+mt
-source-wordcount: '3857'
+source-wordcount: '3858'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ ht-degree: 0%
 >
 >* トピックターゲティングは、プレースメントが入札できる在庫を制限するので、全体の購入のごく一部に対してのみトピックターゲティングを使用します。
 >
->* 次の場合は、セグメント内でのネガティブターゲティングの設定 [!DNL Proximic by Comscore] または [!DNL Oracle Data Cloud].
+>* 次の場合は、セグメント内でのネガティブターゲティングの設定 [!DNL Proximic by Comscore] または [!DNL Oracle Data Cloud] （formerly [!DNL Grapeshot]）に設定します。
 
 **[!UICONTROL Device Targeting]:** （任意）デバイスの種類、製造元、オペレーティングシステム、ブラウザー、接続の種類など、特定のデバイス情報。ターゲットに含めたりターゲットから除外したりできます。 デバイスのターゲティングを指定するには：
 

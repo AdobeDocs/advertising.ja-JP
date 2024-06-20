@@ -3,9 +3,9 @@ title: ブランドセーフティとメディア品質
 description: ブランドセーフティとメディア品質機能の詳細をご覧ください。
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
+source-git-commit: e8cb734e313b6aecfb75dfcbf70347efe83254a5
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -100,13 +100,13 @@ DSPは、広告を実行することが安全でないと見なされるサイ�
 
 ### 入札前の不正ブロック
 
-とのサードパーティ統合の活用 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science]、および [!DNL Peer39] キャンペーンからの人間以外のトラフィックをブロックする。 これらの統合により、業界をリードする入札前ブロック機能が提供され、キャンペーンで一般的および高度な無効トラフィック（GIVT および SIVT）の両方を最小限に抑えることができます。
+とのサードパーティ統合の活用 [!DNL DoubleVerify], [!DNL Integral Ad Science]、および [!DNL Peer39] キャンペーンからの人間以外のトラフィックをブロックする。 これらの統合により、業界をリードする入札前ブロック機能が提供され、キャンペーンで一般的および高度な無効トラフィック（GIVT および SIVT）の両方を最小限に抑えることができます。
 
 各広告主に対して、デフォルトの入札前不正防止コントロールを設定できます<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->、オプションで [各プレースメントの設定のカスタマイズ](/help/dsp/campaign-management/placements/placement-settings.md). この機能を使用すると、追加料金が発生する場合があります。
 
 機能について詳しくは、ご希望のベンダーに直接問い合わせるか、Adobeアカウントチームにお問い合わせください。
 
-![Comscore ロゴ](/help/dsp/assets/comscore-logo.png) ![DoubleVerify ロゴ](/help/dsp/assets/doubleverify-logo.png) ![統合広告サイエンスロゴ](/help/dsp/assets/ias-logo.png) ![Peer39 ロゴ](/help/dsp/assets/peer39-logo.png)
+![DoubleVerify ロゴ](/help/dsp/assets/doubleverify-logo.png) ![統合広告サイエンスロゴ](/help/dsp/assets/ias-logo.png) ![Peer39 ロゴ](/help/dsp/assets/peer39-logo.png)
 
 ### Pre-Bid Viewability {#pre-bid-viewability}
 
