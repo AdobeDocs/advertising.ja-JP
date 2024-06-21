@@ -1,57 +1,56 @@
 ---
-title: DSP Media Exposure データのAdobe Audience Managerへの送信の概要
-description: Advertising DSPキャンペーンからAudience Managerイベントピクセルを使用してインプレッションレベルおよびクリックレベルのデータをキャプチャする方法を説明します
+title: DSP Media のAdobe Audience Managerへの公開データ送信の概要
+description: Audience Managerイベントピクセルを使用して、Advertising DSP キャンペーンからインプレッションレベルおよびクリックレベルのデータを取り込む方法を説明します
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 49f7225840ddaf26a37376ffaf7b93207f3ff2f7
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
 
-# DSP Media Exposure データのAdobe Audience Managerへの送信の概要
+# DSP Media のAdobe Audience Managerへの公開データ送信の概要
 
-*Advertising DSPのみの広告主*
+*Advertising DSPのみを使用する広告主*
 
-*Advertising とAdobe Audience ManagerのAdobeの統合のみの広告主*
+*Adobe AdvertisingとAdobe Audience Managerの統合のみを持つ広告主*
 
-Adobe Audience Managerを使用した Advertising DSPのお客様は、Audience Managerイベントピクセルを使用して、DSPキャンペーンからインプレッションレベルのデータとクリックレベルのデータをキャプチャできます。 イベントピクセルは、データをアクションにつながるシグナルとしてAudience Managerに送信します。 これらのシグナルにより、より高度なセグメント化、頻度管理、マーケティング分析、レポートインサイトなど、様々なDSPのユースケースが可能になります。
+Adobe Audience Managerを使用する Advertising DSPのお客様は、Audience Managerイベントピクセルを使用して、DSP キャンペーンからインプレッションレベルのデータとクリックレベルのデータを取り込むことができます。 イベントピクセルは、アクションにつながるシグナルとしてデータをAudience Managerに送ります。 これらのシグナルにより、より高度なセグメント化、頻度管理、マーケティング分析、レポートインサイトなど、様々なDSP ユースケースが可能になります。
 
-DSPでは、これらのシグナルのAudience Managerへの送信に料金はかかりません。 ただし、サーバーコールに基づいて、Audience Manager契約ごとに標準的なAudience Manager取り込みコストを支払います。 Audience Managerは、2 つの異なる方法で追跡される重複イベントを削除し、各イベントが 1 回のみ課金されるようにします。
+DSPは、これらのシグナルをAudience Managerに送信するのに課金しません。 ただし、標準のAudience Manager取得コストは、Audience Managerの契約に従ってサーバーの呼び出しに基づいて支払います。 Audience Managerは、2 つの異なる方法でトラッキングされる重複イベントを削除して、各イベントが 1 回だけ請求されるようにします。
 
 >[!NOTE]
 >
-> Audience Managerは、広告サーバーログファイルからのデータのキャプチャもサポートしているので、柔軟性が低くなります。 このプロセスは、このドキュメントでは扱っていません。
+> また、Audience Managerは ad server ログファイルからのデータのキャプチャもサポートしているので、柔軟性が低くなります。 このプロセスについては、このドキュメントでは説明しません。
 
 ## プライマリの利点
 
-* DSP campaign のデータは、リアルタイムにAudience Managerに送られ、それを使用して、セグメントの定義に使用するルールベースの特性を作成できます。
+* DSP campaign のデータはリアルタイムでAudience Managerに送られ、セグメントの定義に使用するルールベースの特性を作成するために使用できます。
 
-* セグメントは、ユーザーの特性およびセグメントの認定の直後にターゲティングに使用でき、リアルタイムのターゲティング作業を強化します。
+* セグメントは、ユーザー特性とセグメントの選定の直後にターゲティングに使用できるので、リアルタイムターゲティングの取り組みを強化します。
 
-* クリエイティブ全体での頻度キャップ、以前のキャンペーンに触れたリターゲティングユーザー、ダウンストリームサイトの行動やエントリポイントの分析など、キャンペーンデータを活用できます。
+* クリエイティブのフリークエンシーキャップ、以前のキャンペーンで使用したユーザーのリターゲティング、ダウンストリームサイトの行動とエントリポイントの分析などのユースケースでキャンペーンデータを活用できます。
 
-* 集計データを使用すると、キャンペーンのパフォーマンスを一元的に把握し、カスタムコンバージョンパスを特定し、Audience Managerを通じてコンバージョンにつながるイベントのシーケンスを改善できます [!DNL Audience Optimization Reports] または、 [[!DNL Audience Analytics] Adobe Analyticsとの統合](/help/integrations/audience-manager/audience-analytics.md).
+* 集計データを使用すると、キャンペーンパフォーマンスの表示を統一したり、カスタムコンバージョンパスを特定したりできます。また、Audience Managerを通じたコンバージョンにつながるイベントのシーケンスを改善するために使用することもできます [!DNL Audience Optimization Reports] または [[!DNL Audience Analytics] Adobe Analyticsとの統合](/help/integrations/audience-manager/audience-analytics.md).
 
 ## データの追跡方法
 
-Audience Managerインプレッションとクリックイベントのピクセルは cookie ベースです。 ピクセルは、モバイルアプリや接続された TV(CTV) など、cookie がない環境で発生するイベントをキャプチャしません。
+Audience Managerインプレッションとクリックイベントのピクセルは cookie ベースです。 ピクセルでは、モバイルアプリやコネクテッド テレビ（CTV）など、cookie のない環境で発生するイベントはキャプチャされません。<!-- Verify if this is still correct. -->
 
-### Impression-Tracking ピクセル
+### インプレッショントラッキングのピクセル
 
-Audience Managerは、広告に 1xl ピクセルの透過イベントトラッキングピクセルをアタッチした場合に、広告のインプレッションデータを追跡します。 イベントピクセルは、広告がユーザーに提供され、Web ブラウザーによって読み込まれるたびに読み込まれます。 ピクセルは、 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html):Audience Managerの従来のドメインで、パラメーターをキー値ペアとして含みます。 イベント呼び出しはインプレッションとコンバージョンのデータを収集し、Audience Managerのデータ収集サーバーに送信します。
+Audience Managerは、広告に 1 xl ピクセルの透明なイベントトラッキングピクセルを付加すると、広告のインプレッションデータをトラッキングします。 イベントピクセルは、広告がユーザーに提供され、web ブラウザーによって読み込まれるたびに読み込まれます。 ピクセルは、のクライアント固有のサブドメインから読み込まれます。 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)（Audience Managerのレガシードメインで、キーと値のペアとしてパラメーターが含まれます）。 イベント呼び出しは、インプレッションおよびコンバージョンデータを収集し、Audience Managerデータ収集サーバーに送信します。
 
 ### クリック追跡ピクセル
 
-Audience Managerは、インプレッションと同様にクリックを追跡しますが、広告が提供されるたびに透明なイベントピクセルを読み込まない点が異なります。 代わりに、クリックデータは広告のクリックスルー URL で追跡されます。 広告は、次のクライアント固有のサブドメインを指します： [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)：ドメインデータ収集サーバーで処理するためのAudience Managerの従来のAudience Managerです。 次に、サーバーは、意図したランディングページにユーザーをリダイレクトします。 この URL には、パラメーターがキー値ペアとして含まれています。
+Audience Managerは、インプレッションと同様にクリック数を追跡しますが、広告が配信されるたびに透明なイベントピクセルを読み込まない点が異なります。 代わりに、クリックデータが広告のクリックスルー URL でトラッキングされます。 広告は、のクライアント固有のサブドメインを指します。 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html):Audience Manager用の従来のドメインであり、Audience Managerの Data Collection Server によって処理されます。 次に、サーバーは目的のランディングページにユーザーをリダイレクトします。 URL には、パラメーターがキーと値のペアとして含まれています。
 
 >[!NOTE]
 >
->組織が [!DNL Analytics] をトラッキングする場合、Audience Managerクリックの追跡が不要な場合があります。 Adobe Analyticsはクリックシグナルをキャプチャし、を通じてAudience Managerに送信できます。 [サーバー側転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>組織がを使用している場合 [!DNL Analytics] トラッキングの場合、Audience Managerのクリックのトラッキングは不要な場合があります。 Adobe Analyticsは、クリック信号をキャプチャし、次の経路でAudience Managerに送信できます [サーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 >[!MORELIKETHIS]
 >
->* [Advertising DSP Campaigns からクリックおよびインプレッションデータを収集](collect.md)
->* [使用例](use-cases.md)
-
+>* [Advertising DSP キャンペーンからクリックとインプレッションのデータを収集](collect.md)
+>* [ユースケース](use-cases.md)
