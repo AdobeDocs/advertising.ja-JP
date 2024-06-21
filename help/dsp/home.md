@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 644758257529c83fb2a7d9b31194e481ead501aa
+source-git-commit: 8c3ad4adb9edc2c3e21972ef18734317c3571458
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3283'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024 年 6 月 20 日（Pt） |  | Oracleは、2024 年 9 月 30 日までに広告事業を廃止する予定です。 すべてのサービスが無効になります [!DNL BlueKai], [!DNL Oracle Data Cloud] （formerly [!DNL Grapeshot]）、および [!DNL MOAT]. 既に次の代替手段が使用可能です。<ul><li>標準のサードパーティセグメントとカスタムセグメント： [!DNL eXelate], [!DNL Eyeota], [!DNL LiveRamp], [!DNL Lotame], [!DNL Neustar]、およびその他の利用可能なサードパーティデータパートナー</li><li>を使用したキャンペーンレベルのブランドの安全性とビューアビリティの測定 [!DNL Integral Ad Science]</li><li>を使用したプレースメントレベルの Pre-bid viewability [!DNL DoubleVerify] および [!DNL Integral Ad Science]</li><li>によるプレースメントレベルのトピックターゲティング [!DNL Proximic by Comscore]</li></ul>サードパーティセグメントの CPM 価格は、 [!UICONTROL Audience Library]また、サービスの CPM 価格はで入手できます。 [!UICONTROL Settings] > [!UICONTROL Fees]. | 参照先」[利用可能なサードパーティデータプロバイダー](/help/dsp/audiences/third-party-data-providers.md),&quot; &quot;[ブランドセーフティとメディア品質](/help/dsp/introduction/features/brand-safety-media-quality.md),&quot; &quot;[キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)、」および「[プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md).」と入力します。 |
 | 2024 年 6 月 19 日（Pt） | [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] | が含まれる [!UICONTROL Campaigns], [!UICONTROL Packages]、および [!UICONTROL Placements] 表示：<ul><li>トレンドグラフに、次のオプション指標を含めることができるようになりました。</li><ul><li>**日ペーシング：** 「昨日のペーシング」指標の経時的なトレンドを示します。</li><li>**前方/後方へのフライト ペース：** （経過時間に対する）累積ペーシングのトレンドの推移を表示します。</li></ul>![新しいペーシング指標](/help/dsp/assets/trend-chart-pacing-metrics.png "新しいペーシング指標")<li>データテーブルには、オプションで、新しいペーシング関連の指標列を含めることができます。</li><ul><li>**昨日の必要費用：** フライトの残りの部分を通じて残りの予算を均等に配分するために昨日費やされた金額。</li><li>**昨日のペーシング：** 昨日の支出を昨日の必要支出に対する割合。 これは、非推奨（廃止予定）になった「今日の OTS」の改良版です。 今日のペーシングが一貫して 100% 未満である場合、パッケージまたはプレースメントは予算の配信に苦労しています。</li><li>**今日の必要経費：** 残りのフライトを通じて残りの予算を均一に分配するために今日費やす必要がある金額。</li><li>**今日のペース：** 今日の支出を今日の必要な支出のパーセンテージで表したもの。値は 30 分ごとに更新されます。 これは、現在非推奨となっている「昨日の OTS」の改善バージョンです。 昨日のペーシングが一貫して 100% 未満である場合、パッケージまたはプレースメントは予算の配信に苦労しています。</li></ul><li>データテーブルでは、「昨日の目標」列と「今日の目標」列の名前は「昨日の目標支出」および「今日の目標支出」に変更されます。</li></ul> | 参照先」[カスタム列ビューの作成](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)「」と「」に対して検査する値[カスタム列表示の編集](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit).」と入力します。 |
 | 2024 年 6 月 10 日（Pt） | [!UICONTROL Audiences] | （ベータ版機能）からファーストパーティセグメントを変換できるようになりました [!DNL Amperity] および [!DNL Optimizely] [[!DNL LiveRamp] [!DNL RampIDs]] または [!DNL Unified ID 2.0 (UID2.0)] ID。 オーディエンスターゲット設定のプレースメント設定内で、共有セグメントは「ファーストパーティセグメント」リストで使用できます。 | 参照先」[からのユーザー ID の変換 [!DNL Amperity] ユニバーサル ID に](/help/dsp/audiences/sources/source-amperity.md),&quot; &quot;[からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル ID に](/help/dsp/audiences/sources/source-optimizely.md)、」および「[ユニバーサル ID の有効化のサポート](/help/dsp/audiences/universal-ids.md).」と入力します。 |
 |  |  | Cookie のないターゲット設定のための、人物ベースのユニバーサル ID のDSP ベータ版機能に関するドキュメントが利用可能です。 | 参照先」[ユニバーサル ID の有効化のサポート](/help/dsp/audiences/universal-ids.md).」と入力します。 |
