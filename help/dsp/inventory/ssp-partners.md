@@ -3,9 +3,9 @@ title: SSP パートナー
 description: 使用可能な SSP （サプライ・サイド・プラットフォーム）とオープン Exchange パートナーのリストを参照してください。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 417d88b1d21d450e0b77e561ba9547bb41a68a4c
+source-git-commit: fc58392d060e97f99b12ef41b96c09a0e3fb9aa1
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | 不可 | 米国/カナダ | USD | x | x | x | x | x |  |  |
 | [!DNL FreeWheel] （formerly [!DNL StickyAds]） | [!DNL Comcast] | [!DNL TubeMogul] またはAdobe Advertising | はい | グローバル | USD、EUR、AUD、GBP | x | x | x |  |  |  |  |
 | [!DNL Google Authorized Buyers] （formerly [!DNL Google AdX]） | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC および EU - 89185975 | はい | グローバル | USD、BRL | x | x | x | x | x |  | x |
-| [!DNL GumGum] |  | Adobe Advertising | 不可 | グローバル | USD | x | x |  | x | x |  |  |
+| [!DNL GumGum] |  | Adobe Advertising | 不可 | グローバル | USD | x | x |  | x | x |  | スロット内ハングタイム：21x21、スロット内ハングタイム モバイルビデオ：22x22、スロット内ハングタイムデスクトップ：24x24、スロット内ホバーボード：25x25、スロット内速度：26x26、スーパースキン：29x29、画面内拡張可能コーナー：20x20 |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | 不可 | グローバル | USD | x | x | x | x | x | | |
 | [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] （formerly [!DNL Telaria] および [!DNL Tremor]） | [!DNL TubeMogul] またはAdobe Advertising | はい | グローバル | AUD、USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] （formerly [!DNL Telaria] および [!DNL Tremor]） | [!DNL TubeMogul] またはAdobe Advertising | はい | グローバル | USD | x | x | x | x | x |  | x |
