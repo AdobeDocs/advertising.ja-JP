@@ -3,9 +3,9 @@ title: 認定広告サービングパートナー
 description: すべての認定広告サーバーと広告ユニットを表示します。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 8dc79126a63f2c20f8fdaa666c0197ec6583b78e
+source-git-commit: 1c9c7ff2340d4abf4c64f015172b5e0a33b3e1fe
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!DNL Eyereturn] | | X | | | |
 | [!DNL Flashtalking] | X | X | | X | |
 | [!DNL Frequency] | X | | | | |
-| [!DNL Gum Gum] | | | X | | |
+| [!DNL GumGum] | | | X | | スロット内ハングタイム：21x21、スロット内ハングタイム モバイルビデオ：22x22、スロット内ハングタイムデスクトップ：24x24、スロット内ホバーボード：25x25、スロット内速度：26x26、スーパースキン：29x29、画面内拡張可能コーナー：20x20 |
 | [!DNL HUMAN] （Formerly [!DNL White Ops]） | X | X | | X | |
 | [!DNL IAS] | X | X | | X | |
 | [!DNL IBM] | | X | | X | |
