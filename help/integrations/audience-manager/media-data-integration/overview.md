@@ -3,9 +3,9 @@ title: DSP Media のAdobe Audience Managerへの公開データ送信の概要
 description: Audience Managerイベントピクセルを使用して、Advertising DSP キャンペーンからインプレッションレベルおよびクリックレベルのデータを取り込む方法を説明します
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: 49f7225840ddaf26a37376ffaf7b93207f3ff2f7
+source-git-commit: aec57b49e636d63fc6967af8764ed62f239f31bb
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ DSPは、これらのシグナルをAudience Managerに送信するのに課金�
 
 ## データの追跡方法
 
-Audience Managerインプレッションとクリックイベントのピクセルは cookie ベースです。 ピクセルでは、モバイルアプリやコネクテッド テレビ（CTV）など、cookie のない環境で発生するイベントはキャプチャされません。<!-- Verify if this is still correct. -->
+Audience Managerインプレッションとクリックイベントのピクセルは cookie ベースです。 ピクセルは、モバイルアプリなどの cookie のない環境で発生するイベントをキャプチャしません。<!-- Verify if this is still correct. -->
 
 ### インプレッショントラッキングのピクセル
 
