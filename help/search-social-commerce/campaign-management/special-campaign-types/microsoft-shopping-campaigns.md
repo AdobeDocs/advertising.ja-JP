@@ -3,7 +3,7 @@ title: 実装方法 [!DNL Microsoft Advertising] 買い物キャンペーン
 description: 設定のワークフローについて説明します [!DNL Microsoft Advertising] ショッピングキャンペーン。
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d5d4dee4356d941ea9cae74b9385add00e0480c3
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. [広告グループの作成](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) キャンペーン内で、すべての広告のデフォルト入札を設定します。
 
-個々の製品グループのデフォルト入札を上書きできます。
+   個々の製品グループのデフォルト入札を上書きできます。
 
 1. 広告グループの製品グループを作成します。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    1. 作成 [製品広告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) （を使用） [各ショッピング広告に含める可能性のあるプロモーション明細行](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md) 広告グループ内。
 
-      Microsoft Advertising は、各広告の広告コピーとランディングページ URL を動的に生成します。
+      Microsoft Advertisingは、各広告の広告コピーとランディングページ URL を動的に生成します。
 
       >[!NOTE]
       >
