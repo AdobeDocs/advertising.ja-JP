@@ -1,24 +1,22 @@
 ---
 title: 使用 [!DNL Roku] 在庫
-description: とのDSP パートナーシップについて [!DNL Roku]（在庫オプション、承認済みのサードパーティトラッキングベンダー、のベストプラクティスを含む） [!DNL Roku]固有のプレースメント。
+description: とのDSP パートナーシップのについて学ぶ [!DNL Roku]（在庫オプション、承認済みのサードパーティトラッキングベンダー、のベストプラクティスを含む） [!DNL Roku]固有のプレースメント。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 5427b476d8475c1f6863d5227df45685c39da297
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # 使用 [!DNL Roku] 在庫
 
-Advertising DSPは、での広告に独自の機能を提供します [!DNL Roku].
+Advertising DSPは、での広告用の機能を提供します。 [!DNL Roku].
 
 ## DSPと [!DNL Roku] 提携
 
-Roku とDSPには、に合った独自のパートナーシップがあります [!DNL DSP] オーディエンスの対象 [!DNL Roku] に対する 1 対 1 の決定論的オーディエンスターゲティングの ID [!DNL Roku] 在庫。
-
-Roku 独自のDSP（OneView）以外では、Advertising DSPはこれらのターゲティング機能にのみアクセスできます。 Advertising DSPも、測定権限を持つ唯一のDSPです [!DNL Roku] 他のすべての接続された TV （CTV）インベントリの横にある電源を供給します。 なぜなら [!DNL Roku] では、標準の RTB およびインプレッションピクセル信号をすべて共有しているわけではありません。他のDSPでは、Roku が販売する CTV 製品全体を対象または測定することはできません。
+この [!DNL Roku] とDSP パートナーシップは次と一致します [!DNL DSP] オーディエンスの対象 [!DNL Roku] に対する 1 対 1 の決定論的オーディエンスターゲティングの ID [!DNL Roku] 在庫。
 
 ## [!DNL Roku] 在庫オプション
 
@@ -53,7 +51,7 @@ a）で直接民間取引 ID を設定できます。 [!DNL Roku] 次に、取�
 
 DSP キャンペーンでは、 [作成 [!DNL Roku]-specific placements](/help/dsp/campaign-management/placements/placement-create.md) プレースメント タイプの使用」[!UICONTROL Connected TV (Roku)].」と入力します。 次を含める [!DNL Roku] プレースメント [!DNL Roku]目標が定義された固有のパッケージ。
 
-Each [!DNL Roku] プレースメントは、少なくとも 1 つをターゲットにする必要があります [!DNL Roku] 取引またはソース。 でDSPの一意のオーディエンスマッチングを使用するには [!DNL Roku]、と照合できる 1 つ以上のオーディエンスセグメントを含めます [!DNL Roku] （オプトイン）決定論的データセット。
+Each [!DNL Roku] プレースメントは、少なくとも 1 つをターゲットにする必要があります [!DNL Roku] 取引またはソース。 でのDSP オーディエンスマッチングを使用するには [!DNL Roku]、と照合できる 1 つ以上のオーディエンスセグメントを含めます [!DNL Roku] （オプトイン）決定論的データセット。
 
 ### [!DNL Roku] – 承認されたサードパーティトラッキングベンダー
 
