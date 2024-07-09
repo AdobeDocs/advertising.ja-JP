@@ -3,9 +3,9 @@ title: パッケージ設定
 description: 使用可能なパッケージ設定の説明を参照してください。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 6e4416f7a46c6d7e9a4c680c850f81ef836f9f7a
+source-git-commit: 1ae55a0c4750e25429c954c406352b2235805016
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -115,13 +115,17 @@ ht-degree: 0%
 
 （パッケージレベルのペーシングと「」を使用したパッケージ[!UICONTROL Activate Custom Flighting]``有効）全体的なカスタムフライト期間 [!UICONTROL Flight Dates] で指定 [!UICONTROL Goals & Budget] セクション。
 
-各フライトに対して、開始日、終了日およびターゲットインプレッション数を入力します。 別のフライトを追加するには、をクリックします **[!UICONTROL Add Flight]**.
+各フライトに対して、開始日、終了日、ターゲット費用目標を入力します。 別のフライトを追加するには、をクリックします **[!UICONTROL Add Flight]**.
+
+既存のパッケージの場合、オプションで、に値を入力できます [!UICONTROL Rollover] 潜在的な未支出予算を次のフライトに追加するためのすべてのフライトの列。 の見込み値 [!UICONTROL Adjusted Goal (Goal + Rollover)] それに応じて列が変更されます。<!-- clarify usage -->
 
 >[!MORELIKETHIS]
->
->* [パッケージ管理について](package-about.md)
+
+e の場合
+>>
+* [パッケージ管理について](package-about.md)
 >* [パッケージを作成](package-create.md)
->* [パッケージを編集](package-edit.md)
->* [パッケージへのプレースメントの添付](package-attach-placement.md)
->* [パッケージの変更ログの表示](package-change-log.md)
->* [Campaign Managementに関する FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
+* [パッケージを編集](package-edit.md)
+* [パッケージへのプレースメントの添付](package-attach-placement.md)
+* [パッケージの変更ログの表示](package-change-log.md)
+* [Campaign Managementに関する FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
