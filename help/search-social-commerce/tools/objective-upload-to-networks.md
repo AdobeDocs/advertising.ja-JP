@@ -1,24 +1,26 @@
 ---
 title: 広告ネットワークへの目標のアップロードを有効にする
-description: ハイブリッドポートフォリオの目標を [!DNL Google Ads]  [!DNL Microsoft Advertising]にアップロードする方法について説明します。
+description: ハイブリッドポートフォリオの目標をにアップロードする方法を説明します [!DNL Google Ads] および [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: d703b0d0134dbd16b2672b13d2ea63e4f102e105
+source-git-commit: 39936c6834012432447d3216d8463937996b0017
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
 
 # 広告ネットワークへの目標のアップロードを有効にする
 
-*[!DNL Google Ads] アカウントと [!DNL Microsoft Advertising] アカウントのみを持つ広告主*
+*を使用した広告主 [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントのみ*
 
-*ハイブリッド最適化のみが有効になっている広告主*
+*ハイブリッド最適化のみ有効な広告主*
 
-Search、Social、コマースは、広告主 アカウントポートフォリオの目標をアップロードして [!DNL Google Ads] し、 [!DNL Microsoft Advertising] してハイブリッド最適化に使用できます。 アップロードした目標は、アカウントレベルおよびキャンペーンレベルのカスタムコンバージョン目標のコンバージョンアクションとして使用できます。
+検索、ソーシャルおよびCommerceでは、広告主アカウントのポートフォリオの目標をにアップロードできます [!DNL Google Ads] および [!DNL Microsoft Advertising] そのため、ハイブリッド最適化に使用できます。 アップロードした目標は、アカウントレベルとキャンペーンレベルのカスタムコンバージョン目標のコンバージョンアクションとして使用できます。
 
-このオプションを有効にすると、スマート自動入札戦略を使用するキャンペーンを含むポートフォリオの目的に対してアップロードが自動的にトリガーされます。 Search、Social、およびコマースは、該当する各目的の広告ネットワークにコンバージョンを作成します。 コンバージョンは、目標内のすべての加重コンバージョン指標を EF ID(クリック ID)レベルで表します。 各コンバージョンには、次のいずれかの名前が付けられます。
+このオプションを有効にすると、スマート入札戦略を使用したキャンペーンを含んだポートフォリオ内の目標のアップロードが自動的にトリガー付けされます。 検索、ソーシャル、Commerceを行うと、該当する目的ごとに広告ネットワーク上にコンバージョンが作成されます。 コンバージョンは、目標内の EF ID （クリック ID）レベルの重み付けされたコンバージョン指標をすべて表します。 の場合 [!DNL Google Ads] クリックすると、EF ID はになります [!DNL Google Ads] `gclid`; [!DNL Microsoft Advertising] クリックすると、EF ID はになります [!DNL Microsoft Advertising] `msclkid`. このクリック ID により、コンバージョンデータを特定のキーワードとクリック時間にマッピングできます。
+
+アップロードされた各コンバージョンには、以下のいずれかの名前が付けられます。
 
 * `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
 
@@ -34,41 +36,33 @@ Search、Social、コマースは、広告主 アカウントポートフォリ�
 
 >[!IMPORTANT]
 >
->Google Ads およびMicrosoft Advertising ユニバーサルイベントトラッキング（UET）タグで追跡されたコンバージョンは、広告ネットワークに再アップロードされません。 目標内に含める場合は、広告ネットワークのエディター内のキャンペーンの目標に追加します。
-
-<!--
->[!IMPORTANT]
->
->Objectives for hybrid portfolios may include conversion goals from multiple ad networks and other types of conversion metrics. However, the individual campaigns in the portfolio can't include conversion goals that aren't included in the portfolio's objective; using additional conversion goals may impact portfolio performance.
--->
-
-<!-- Can conversions from events triggered on other ad networks be included in the portfolio (and just be ignored)? -->
+>Google Ads およびMicrosoft Advertising ユニバーサルイベントトラッキング（UET）タグで追跡されたコンバージョンは、広告ネットワークに再アップロードされません。 目標内に含める場合は、広告ネットワークのエディター内のキャンペーンの目標に追加する必要があります。
 
 1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
 1. の横にあるチェックボックスをオンにします。 **[!UICONTROL Enable Objective Upload]**.
 
-1. (欧州経済領域(EEA)または英国(UK)でビジネスを行う [!DNL Google Ads] アカウントを持つ広告主様、省略可) EEAおよび英国のユーザーから、広告目的でデータアップロードことに同意した場合は、[ **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+1. （広告主 [!DNL Google Ads] 欧州経済地域（EEA）または英国（UK）でビジネスを行うアカウント。任意） EEA および英国のユーザーから、広告目的でデータをアップロードすることに対する同意を収集した場合は、の横にあるチェックボックスを選択します **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
-1. [ **[!UICONTROL Save]**] をクリックします。
+1. クリック **[!UICONTROL Save]**.
 
-1. (コンバージョンがマネージャー アカウント レベルでトラッキングされている場合) [マネージャーの資格情報追加 アカウント](/help/search-social-commerce/admin/manager-accounts.md) **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**。
+1. （コンバージョンが管理者アカウントレベルで追跡されている場合） [マネージャーアカウントの資格情報の追加](/help/search-social-commerce/admin/manager-accounts.md) 時刻 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
-1. `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` という名前の各目標が 2 日以内に広告ネットワークに表示されることを確認します。
+1. 各目的が、次の名前であることを確認します。 `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` — 2 日以内に広告ネットワークに表示されます。
 
-   [!DNL Google Ads] 編集者で、[コンバージョンアクションを調べます](https://support.google.com/google-ads/answer/11461796)。が含まれる [!DNL Microsoft Advertising] エディター、検索する [コンバージョン目標](https://help.ads.microsoft.com/#apex/ads/en/56709).
+   が含まれる [!DNL Google Ads] エディター、検索する [コンバージョンアクション](https://support.google.com/google-ads/answer/11461796). が含まれる [!DNL Microsoft Advertising] エディター、検索する [コンバージョン目標](https://help.ads.microsoft.com/#apex/ads/en/56709).
 
-   必要に応じて、アップロード日付が含まれるように日付範囲を更新します。
+   必要に応じて、アップロード日を含めるように日付範囲を更新します。
 
-## 重み付けされた目標の計算方法
+## 加重目標の計算方法
 
-広告ネットワークに渡される加重目標は、 [!DNL Google Ads] または [!DNL Microsoft Advertising] ユニバーサルイベント トラッキング(UET)タグによってトラッキングされたコンバージョンを除き、収集されたすべての指標値の合計です。
+広告ネットワークに渡される重み付け目標は、で追跡されたコンバージョンを除く、収集されたすべての指標値の合計です [!DNL Google Ads] または [!DNL Microsoft Advertising] ユニバーサルイベントトラッキング（UET）タグ。
 
-たとえば、目標の目標指標が重み付け 25 の「買い物かごへの追加」で、アシスト指標に重みが 1 の「GGL_Lead」と「売上高」、重み付けが 0.5 の「ダウンロード」が含まれているとします。
+例えば、目標の目標指標が買い物かごへの追加（重み付け 25）で、アシスト指標には、GGL_Lead と売上高（重み付け 1）およびダウンロード（重み付け 0.5）が含まれているとします。
 
-![重み付けされた目標の例](/help/search-social-commerce/assets/objective-example.png "重み付けされた目標の例")
+![加重目標の例](/help/search-social-commerce/assets/objective-example.png "加重目標の例")
 
-あるキーワードによって、そのポートフォリオに対して次のアクションがおこなわれたとします。
+キーワードの結果、ポートフォリオの次のアクションが発生したとします。
 
 * 買い物かごへの 10 件の追加
 * 500 ドルの収益
@@ -85,11 +79,11 @@ Google Ads で追跡される指標なので、GGL_Lead は計算/アップロ�
 
    * の資格情報を確認する [!DNL Google Ads] manager account provided at **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. 必要に応じて、 [マネージャーアカウントの資格情報を追加](/help/search-social-commerce/admin/manager-accounts.md).
 
-   * 広告ネットワーク アカウントに既に同じ指標名が含まれているかどうかを確認します。 その場合は、正しいマネージャレベルのプロパティを作成できるように指標名前を変更します。
+   * 広告ネットワークアカウントに同じ指標名が既に含まれているかどうかを確認します。 含まれる場合は、適切なマネージャーレベルのプロパティを作成できるように、指標の名前を変更します。
 
-* ポートフォリオの「ハイブリッド」オプションが選択されていることと、目標に有効な売上高があることを確認します。
+* ポートフォリオの「ハイブリッド」オプションが選択され、目標に有効な売上高があることを確認します。
 
 >[!MORELIKETHIS]
 >
->* [広告主コンバージョン指標の管理について](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
->* [コンバージョン指標のアップロード先 [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
+>* [広告主のコンバージョン指標の管理について](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+>* [へのコンバージョン指標のアップロード [!DNL Google Ads]](conversion-metrics-upload-to-google.md)

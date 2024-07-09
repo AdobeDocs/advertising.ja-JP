@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft Advertising] キャンペーン設定'
 description: の設定を参照します [!DNL Microsoft Advertising] キャンペーン。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
+source-git-commit: 096271a2e9daddc20f7f5f4e0063fda21974c8a1
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '2001'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
   この入札戦略を使用してブランドのショッピングキャンペーンを保存すると、入札戦略を変更できなくなります。 他のショッピングキャンペーンタイプの場合、この戦略は新規キャンペーンでのみ使用できます。
 
-* *[!UICONTROL CPV]* （オーディエンス CTV ビデオキャンペーンのみ）表示単価（CPV）モデルを使用します。 <!-- Campaigns with this bid strategy aren't optimized when they're included in portfolios. -->
+* *[!UICONTROL CPV]* （オーディエンス CTV ビデオキャンペーンのみ）表示単価（CPV）モデルを使用します。 検索、ソーシャル、Commerceでは、ポートフォリオに含まれているこの入札戦略を使用したキャンペーンの最適化は提供されません。
 
 * *[!UICONTROL Enhanced CPC]:* （オーディエンス、検索、ショッピングネットワーク上のキャンペーン）広告ネットワークの拡張コストパークリック（eCPC）モデルを使用します。これにより、広告ネットワークは各オークションのコストパークリック（CPC）入札を自動的に変更し、コンバージョンを最大化しながら、広告ネットワーク内で指定されたコンバージョン（検索、ソーシャル、Commerceではない）を使用して、平均 CPC を最大 CPC 未満に保つことができます。
 
@@ -301,13 +301,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
->目標を広告ネットワークにアップロードするハイブリッドポートフォリオの場合、ベストプラクティスは、ポートフォリオの目標のコンバージョン目標に一致するキャンペーンレベルの目標を使用することです。 ただし、キャンペーンの目標に、によって追跡されるコンバージョンが含まれる場合は [!DNL Microsoft Advertising] ユニバーサルイベントトラッキング（UET）タグを追加してから、 [!DNL Microsoft Advertising] エディターの理由は、これらが目的で広告ネットワークに再度アップロードされないからです。 さらに、内で [!DNL Microsoft Advertising] エディターで、「コンバージョンに含める」の選択を解除し、キャンペーンのコンバージョンアクションをアカウントのデフォルトの目標として削除します。
-
-<!-- Check on this:
->If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>キャンペーンがハイブリッドポートフォリオの一部である場合は、ポートフォリオの目的のコンバージョン目標に一致するキャンペーンレベルの目標を使用することがベストプラクティスです。追加のコンバージョン目標を含めると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
 >
->The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
--->
+> ただし、次の条件を満たすハイブリッドポートフォリオ内のキャンペーンの場合： [広告ネットワークへの目標のアップロード](/help/search-social-commerce/tools/objective-upload-to-networks.md)a） アップロードした検索、ソーシャル、Commerceの各ポートフォリオ目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョン目標として追加し、b） [!DNL Microsoft Advertising] 広告ネットワークで追跡される指標は、目的に沿って広告ネットワークにアップロードされないので、ユニバーサルイベントトラッキング（UET）タグが付きます。
 
 >[!MORELIKETHIS]
 >
