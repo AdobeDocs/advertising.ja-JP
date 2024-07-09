@@ -3,7 +3,7 @@ title: パッケージ設定
 description: 使用可能なパッケージ設定の説明を参照してください。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 78b8f6cd689e5faf4b0cbd2b41983b00663448a4
+source-git-commit: 644847918f6f6dd86dec80ad89128c31a0c0284b
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 **[!UICONTROL 3rd Party Billed Fees]:** （任意）請求不可コストとして追跡される静的なサードパーティ料金：
 
+* **[!UICONTROL CPM]:** 1000 インプレッション数（CPM）あたりのコスト。
+
+* **[!UICONTROL Description]:** CPM 料金の説明。
+
 >[!NOTE]
 >
 >請求可能な料金は次に反映されます [!UICONTROL Net CPM] 指標。
->
-* **[!UICONTROL CPM]:** 1000 インプレッション数（CPM）あたりのコスト。
-
-* **[!UICONTROL CPM Description]:** CPM 料金の説明。
 
 パッケージレベルの設定は、 [プレースメントレベル](/help/dsp/campaign-management/placements/placement-settings.md).
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 >* このパッケージに割り当てられているすべてのプレースメントのフライト日付は、これらの日付内に含める必要があります。
 > * カスタム光源が有効な場合、パッケージの開始日は編集できません。
 
-**[!UICONTROL Activate Custom Flighting]:** でパッケージの偶数でないペーシングフライトを作成できます。 [!UICONTROL Flighting] セクションを下にします。 カスタムライティングを有効にしてパッケージを保存すると、カスタムライティングを無効にしたり、パッケージの開始日を編集したりできなくなります。
+**[!UICONTROL *Activate Custom Flighting]:** でパッケージの偶数でないペーシングフライトを作成できます。 [!UICONTROL Flighting] セクションを下にします。 カスタムライティングを有効にしてパッケージを保存すると、カスタムライティングを無効にしたり、パッケージの開始日を編集したりできなくなります。
 
 **[!UICONTROL Budget]:** （パッケージレベルのペーシングを使用したパッケージのみ）総予算の上限と予算間隔。
 
