@@ -3,9 +3,9 @@ title: パッケージ設定
 description: 使用可能なパッケージ設定の説明を参照してください。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 1ae55a0c4750e25429c954c406352b2235805016
+source-git-commit: 5a173c53bdd0a5673c968b1ebc6348a40e99c80c
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -120,12 +120,10 @@ ht-degree: 0%
 既存のパッケージの場合、オプションで、に値を入力できます [!UICONTROL Rollover] 潜在的な未支出予算を次のフライトに追加するためのすべてのフライトの列。 の見込み値 [!UICONTROL Adjusted Goal (Goal + Rollover)] それに応じて列が変更されます。<!-- clarify usage -->
 
 >[!MORELIKETHIS]
-
-e の場合
->>
-* [パッケージ管理について](package-about.md)
+>
+>* [パッケージ管理について](package-about.md)
 >* [パッケージを作成](package-create.md)
-* [パッケージを編集](package-edit.md)
-* [パッケージへのプレースメントの添付](package-attach-placement.md)
-* [パッケージの変更ログの表示](package-change-log.md)
-* [Campaign Managementに関する FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [パッケージを編集](package-edit.md)
+>* [パッケージへのプレースメントの添付](package-attach-placement.md)
+>* [パッケージの変更ログの表示](package-change-log.md)
+>* [Campaign Managementに関する FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
