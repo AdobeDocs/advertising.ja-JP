@@ -3,9 +3,9 @@ title: パッケージ設定
 description: 使用可能なパッケージ設定の説明を参照してください。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: a8227e42c49e30d6b73daf51e4f62da05f6508f3
+source-git-commit: c2de7424ecae0ad30792eaa459c8d9bfd3ff3b7c
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Flighting]
 
-（パッケージレベルのペーシングと「」を使用したパッケージ[!UICONTROL Activate Custom Flighting]``有効）全体的なカスタムフライト期間 [!UICONTROL Flight Dates] で指定 [!UICONTROL Goals & Budget] セクション。
+（パッケージレベルのペーシングが適用されたパッケージ）パッケージのフライト期間（全体的なカスタムフライト期間を含む）。 [!UICONTROL Flight Dates] パッケージ用。 カスタム便を設定できるのは、 [!UICONTROL Activate Custom Flighting] オプションは、 [!UICONTROL Goals & Budget] セクション。
 
-各フライトに対して、開始日、終了日、ターゲット費用目標を入力します。 別のフライトを追加するには、をクリックします **[!UICONTROL Add Flight]**.
+**[DNL フライト N]:** （次の場合にのみ使用可能： [!UICONTROL Activate Custom Flighting] オプションを有効にする）フライトごとに、開始日、終了日、ターゲットの支出目標を指定します。 別のフライトを追加するには、をクリックします **[!UICONTROL Add Flight]**.
 
 既存のパッケージの場合、オプションで、に値を入力できます [!UICONTROL Rollover] 潜在的な未支出予算を次のフライトに追加するためのすべてのフライトの列。 の見込み値 [!UICONTROL Adjusted Goal (Goal + Rollover)] それに応じて列が変更されます。<!-- clarify usage -->
 
