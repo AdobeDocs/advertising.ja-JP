@@ -3,9 +3,9 @@ title: からのユーザー ID の変換 [!DNL Amperity] ユニバーサル ID 
 description: DSPでのデータの取り込みを有効にする方法を説明します [!DNL Amperity] ファーストパーティセグメント。
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -80,11 +80,15 @@ ht-degree: 0%
 
 ## 手順 5：ユニバーサル ID の数とハッシュ化されたメールアドレスの数の比較 {#compare-id-count}
 
-DSPがセグメントデータを受信したら、オーディエンス数は 9 時間以内に表示されます。 オーディエンスライブラリで（オーディエンスを作成または編集する際に使用できます） [!UICONTROL Audiences] > [!UICONTROL All Audiences] またはプレースメント設定内）で、ユニバーサル ID の数と元のハッシュ化されたメールアドレスの数を比較します。
+DSPがセグメントデータを受信したら、オーディエンス数は 9 時間以内に表示されます。
 
-許容可能な ID 翻訳率と、セグメント数が変化する理由について詳しくは、「」を参照してください。[メール ID とユニバーサル ID のデータの相違](#universal-ids-data-variances).」と入力します。
+オーディエンスライブラリで（オーディエンスを作成または編集する際に使用できます） [!UICONTROL Audiences] > [!UICONTROL All Audiences] またはプレースメント設定内）で、ユニバーサル ID の数と元のハッシュ化されたメールアドレスの数を比較します。 許容可能な ID 翻訳率と、セグメント数が変化する理由について詳しくは、「」を参照してください。[メール ID とユニバーサル ID のデータの相違](#universal-ids-data-variances).」と入力します。
 
-トラブルシューティングのサポートについては、Adobeアカウントチームまたは `adcloud-support@adobe.com`.
+## トラブルシューティング
+
+翻訳率とユーザー数の問題のトラブルシューティングについては、「」を参照してください。[ユニバーサル ID の有効化のサポート](/help/dsp/audiences/universal-ids.md).」と入力します。
+
+コンバージョン手順に関する問題のトラブルシューティングについては、Adobeアカウントチームまたは `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
