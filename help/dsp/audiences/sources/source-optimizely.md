@@ -3,9 +3,9 @@ title: からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル I
 description: DSPでのデータの取り込みを有効にする方法を説明します [!DNL Optimizely] ファーストパーティセグメント。
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 49902a99b78f867dd71c0cd15b97342a70abbc97
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 オーディエンスライブラリでの検証（オーディエンスの作成または編集時に使用できます） [!UICONTROL Audiences] > [!UICONTROL All Audiences] またはプレースメント設定内）を使用して、セグメントを使用可能で設定済みの汎用 ID の数を、元のハッシュ化されたメールアドレスの数と比較します。
 
-ハッシュ化されたメールアドレスのユニバーサル ID への翻訳率は、90% を超える必要があります。この翻訳率は [!DNL RampIDs] ハッシュ化されたメールアドレスがすべて一意の場合、特に 95% である必要があります。 例えば、ハッシュ化されたメールアドレスが 100 個ある場合は、少なくとも 95 個に翻訳する必要があります [!DNL RampIDs] または、90 を超えるその他のタイプのユニバーサル ID。 翻訳率の低下が問題です。 セグメント数の変化について詳しくは、「」を参照してください[メール ID とユニバーサル ID のデータの相違の原因](#universal-ids-data-variances).」と入力します。
+許容可能な ID 翻訳率と、セグメント数が変化する理由について詳しくは、「」を参照してください。[メール ID とユニバーサル ID のデータの相違](#universal-ids-data-variances).」と入力します。
 
 トラブルシューティングのサポートについては、Adobeアカウントチームまたは `adcloud-support@adobe.com`.
 

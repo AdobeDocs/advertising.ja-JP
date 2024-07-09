@@ -3,9 +3,9 @@ title: とのDSP統合の使用 [!DNL Adobe] [!DNL Real-time CDP]
 description: DSPでのデータの取り込みを有効にする方法を説明します [!DNL Adobe] [!DNL Real-time CDP] ファーストパーティセグメント。
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 5d4dfa7976b1500bf65105cf8fcc6dc5d3e1ec65
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    セグメントは、24 時間以内にDSPで使用可能になります。 DSPがセグメントデータを受信したら、オーディエンス数は 9 時間以内に表示されます。
 
-   ハッシュ化されたメールアドレスのユニバーサル ID への翻訳率は、90% を超える必要があります。この翻訳率は [!DNL RampIDs] ハッシュ化されたメールアドレスがすべて一意の場合、特に 95% である必要があります。 例えば、ハッシュ化されたメールアドレスが 100 個ある場合は、少なくとも 95 個に翻訳する必要があります [!DNL RampIDs] または、90 を超えるその他のタイプのユニバーサル ID。 翻訳率の低下が問題です。 セグメント数の変化について詳しくは、「」を参照してください[メール ID とユニバーサル ID のデータの相違の原因](#universal-ids-data-variances).」と入力します。
+   許容可能な ID 翻訳率と、セグメント数が変化する理由について詳しくは、「」を参照してください。[メール ID とユニバーサル ID のデータの相違](#universal-ids-data-variances).」と入力します。
 
    トラブルシューティングのサポートについては、Adobeアカウントチームまたは `adcloud-support@adobe.com`.
 
