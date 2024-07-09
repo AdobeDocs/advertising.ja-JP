@@ -3,9 +3,9 @@ title: 使用 [!DNL Roku] 在庫
 description: とのDSP パートナーシップのについて学ぶ [!DNL Roku]（在庫オプション、承認済みのサードパーティトラッキングベンダー、のベストプラクティスを含む） [!DNL Roku]固有のプレースメント。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 5427b476d8475c1f6863d5227df45685c39da297
+source-git-commit: f3099c84fe2d6b1610ddf4ca07d59b119718afee
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Advertising DSPは、での広告用の機能を提供します。 [!DNL Roku].
 
-## DSPと [!DNL Roku] 提携
+## オーディエンスのマッチング
 
 この [!DNL Roku] とDSP パートナーシップは次と一致します [!DNL DSP] オーディエンスの対象 [!DNL Roku] に対する 1 対 1 の決定論的オーディエンスターゲティングの ID [!DNL Roku] 在庫。
 
@@ -26,12 +26,12 @@ a）で直接民間取引 ID を設定できます。 [!DNL Roku] 次に、取�
 >
 >[!DNL Roku] 在庫は、オープンなマーケットプレイスおよび取引所では利用できません。
 
-* プライベートな取引では、 [DSPでの取引 ID に関する情報の設定](/help/dsp/inventory/deal-id-create.md) 次に、をターゲットにします」[!UICONTROL Roku Network – Audience]「」と「」に対して検査する値[!UICONTROL The Roku Channel – Audience]内に [!DNL Roku] プレースメント。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* プライベートな取引では、 [DSPでの取引 ID に関する情報の設定](/help/dsp/inventory/deal-id-create.md) 次に、をターゲットにします」[!UICONTROL Roku Network - Audience]「」と「」に対して検査する値[!UICONTROL The Roku Channel - Audience]内に [!DNL Roku] プレースメント。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
 * 次のことができます [以下を購読 [!DNL Roku] 内の在庫 [!DNL On Demand] ギャラリー](/help/dsp/inventory/on-demand-inventory-subscribe.md)を選択し、内の承認済み取引のいずれかをターゲットにします [!DNL Roku] プレースメント :
 
-   * “[!UICONTROL Roku Network – Audience]」に移動します [!DNL Roku] 次のようなプレミアムコンテンツパートナーとのエコシステム [!DNL The CW], [!DNL ABC]、および [!DNL ESPN].
-   * “[!UICONTROL The Roku Channel – Audience]の場合 [!DNL Roku] 所有および運用（O&amp;O）アプリコンテンツ。
+   * “[!UICONTROL Roku Network - Audience]」に移動します [!DNL Roku] 次のようなプレミアムコンテンツパートナーとのエコシステム [!DNL The CW], [!DNL ABC]、および [!DNL ESPN].
+   * “[!UICONTROL The Roku Channel - Audience]の場合 [!DNL Roku] 所有および運用（O&amp;O）アプリコンテンツ。
 
 ### を使用してプライベートマーケットプレイスをカスタマイズする場合の利点 [!DNL Roku]
 
