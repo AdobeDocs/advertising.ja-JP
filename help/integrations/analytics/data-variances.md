@@ -3,9 +3,9 @@ title: 間で予期されるデータの相違 [!DNL Analytics] とAdobe Adverti
 description: 間で予期されるデータの相違 [!DNL Analytics] とAdobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1f27738d383c8c420155d6d12c98c646bba7d7b4
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ ht-degree: 0%
 
 この [!DNL Analytics for Advertising] の統合には、次の 2 つの変数を使用します（[!DNL eVars] または [!DNL rVars] \[ 予約済み [!DNL eVars]]\）を使用して、 [EF ID と AMO ID](ids.md). これらの変数は、単一のルックバックウィンドウ（クリックスルーとビュースルーが関連付けられる期間）とアトリビューションモデルを使用して設定されます。 特に指定がない限り、変数は、Adobe Advertisingのデフォルトの広告主レベルのクリックルックバックウィンドウとアトリビューションモデルに一致するように設定されます。
 
-ただし、ルックバックウィンドウとアトリビューションモデルは、 [!DNL eVars]）と入力し、Adobe Advertisingで指定します。 さらに、Adobe Advertisingすると、アトリビューションモデルは、広告主レベル（入札最適化の場合）だけでなく、個々のデータビューおよびレポート（レポート目的の場合のみ）でも設定できます。 例えば、ある組織が最適化のために偶数分布アトリビューションモデルを使用し、Advertising DSPまたは [!DNL Advertising Search, Social, & Commerce]. アトリビューションモデルを変更すると、アトリビューションコンバージョンの数が変更されます。
+ただし、ルックバックウィンドウとアトリビューションモデルは、 [!DNL eVars]）と入力し、Adobe Advertisingで指定します。 さらに、Adobe Advertisingすると、アトリビューションモデルは、広告主レベル（入札最適化の場合）だけでなく、個々のデータビューおよびレポート（レポート目的の場合のみ）でも設定できます。 例えば、ある組織が最適化のために偶数分布アトリビューションモデルを使用し、Advertising DSPのまたはレポートにはラストタッチアトリビューションを使用する場合があります [!DNL Advertising Search, Social, & Commerce]. アトリビューションモデルを変更すると、アトリビューションコンバージョンの数が変更されます。
 
 レポートルックバックウィンドウまたはアトリビューションモデルが一方の製品で変更され、もう一方の製品では変更されていない場合、各システムの同じレポートに異なるデータが表示されます。
 
 * **様々なルックバックウィンドウによって発生する不一致の例：**
 
-  Adobe Advertisingに 60 日間のクリックのルックバックウィンドウがあり、 [!DNL Analytics] には、30 日間のルックバックウィンドウがあります。 あるユーザーが、Adobe Advertisingが追跡した広告を通じてサイトを訪問し、離脱した後、45 日目に戻り、コンバージョンを行ったとします。 Adobe Advertisingでは、コンバージョンが 60 日間のルックバックウィンドウ内で発生したため、最初の訪問へのコンバージョンが属性化されます。 [!DNL Analytics]ただし、は、コンバージョンが 30 日のルックバックウィンドウの有効期限が切れた後に発生したため、コンバージョンを最初の訪問に関連付けることはできません。 この例では、Adobe Advertisingは、よりも多くのコンバージョン数をレポートします [!DNL Analytics] 実行する。
+  Adobe Advertisingに 60 日間のクリックのルックバックウィンドウがあり、 [!DNL Analytics] には、30 日間のルックバックウィンドウがあります。 あるユーザーが、Adobe Advertisingが追跡した広告を通じてサイトを訪問し、離脱した後、45 日目に戻り、コンバージョンを行ったとします。 Adobe Advertisingでは、コンバージョンが 60 日間のルックバックウィンドウ内で発生したため、最初の訪問へのコンバージョンが属性化されます。 [!DNL Analytics]ただし、は、30 日のルックバックウィンドウの有効期限が切れた後にコンバージョンが発生したので、コンバージョンを最初の訪問に関連付けることはできません。 この例では、Adobe Advertisingは、よりも多くのコンバージョン数をレポートします [!DNL Analytics] 実行する。
 
   ![Adobe Advertisingは起因するが起因しないコンバージョンの例 [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
@@ -50,11 +50,11 @@ ht-degree: 0%
 
 #### ビュースルートラッキング用の異なるルックバックウィンドウ {#impression-lookback}
 
-Adobe Advertisingでは、アトリビューションはクリック数とインプレッション数に基づいており、クリック数とインプレッション数に異なるルックバックウィンドウを設定できます。 対象： [!DNL Analytics]ただし、アトリビューションはクリックスルーとビュースルーに基づいているので、クリックスルーとビュースルーに異なるアトリビューションウィンドウを設定するオプションはありません。それぞれのトラッキングは、最初のサイト訪問の際に開始されます。 インプレッションは、ビュースルーが発生する同じ日または数日前に発生する可能性があり、これは、各システムのアトリビューションウィンドウの開始位置に影響を与える可能性があります。
+Adobe Advertisingでは、アトリビューションはクリック数とインプレッション数に基づいており、クリック数とインプレッション数に異なるルックバックウィンドウを設定できます。 対象： [!DNL Analytics]ただし、アトリビューションはクリックスルーとビュースルーに基づいているので、クリックスルーとビュースルーに異なるアトリビューションウィンドウを設定するオプションはありません。それぞれのトラッキングは、最初のサイト訪問の際に開始されます。 インプレッションは、ビュースルーが発生する同じ日または数日前に発生する可能性があり、タイミングは、各システムのアトリビューションウィンドウの開始位置に影響を与える可能性があります。
 
 通常、ビュースルーコンバージョンの大部分は、両方のシステムがクレジットを属性にするのに十分な速さで発生します。 ただし、一部のコンバージョンは、Adobe Advertisingインプレッションのルックバックウィンドウ以外で、 [!DNL Analytics] ルックバックウィンドウ。このようなコンバージョンはでのビュースルーに関連付けられます。 [!DNL Analytics] しかし、Adobe Advertisingの印象にはありません。
 
-次の例では、訪問者が 1 日目に広告を受け取り、2 日目にビュースルー訪問（つまり、以前に広告をクリックせずに広告のランディングページを訪問）を実行し、45 日目にコンバージョンを行ったとします。 この場合、Adobe Advertisingは 1～14 日目からユーザーを追跡します（14 日間のルックバックを使用）。 [!DNL Analytics] は、2～61 日目からユーザーを（60 日間のルックバックを使用して）追跡し、45 日目のコンバージョンは内の広告に関連付けられます [!DNL Analytics] ただし、Adobe Advertising内ではありません。
+次の例では、訪問者に 1 日目に広告が配信され、2 日目にビュースルー訪問（つまり、以前に広告をクリックせずに広告のランディングページを訪問）を実行し、45 日目にコンバージョンが行われたとします。 この場合、Adobe Advertisingは 1～14 日目からユーザーを追跡します（14 日間のルックバックを使用）。 [!DNL Analytics] は、2～61 日目からユーザーを（60 日間のルックバックを使用して）追跡し、45 日目のコンバージョンは内の広告に関連付けられます [!DNL Analytics] ただし、Adobe Advertising内ではありません。
 
 ![で起因するビュースルーコンバージョンの例 [!DNL Analytics] ただし、Adobe Advertisingではありません](/help/integrations/assets/a4adc-viewthrough-example.png)
 
@@ -118,7 +118,7 @@ Most [!DNL Marketing Channels] レポートは次の機能で設定されてい�
 
 ### での異なるチャネルアトリビューション [!DNL Marketing Channels]
 
-Adobe Advertisingレポートでは、Adobe Advertisingを通じてトラフィックされた有料メディアのみを取り込みます（有料検索： [!DNL Advertising Search, Social, & Commerce] 広告（および Advertising DSP広告用のディスプレイ）とは対照的に、 [!DNL Marketing Channels] レポートでは、すべてのデジタルチャネルをトラッキングできます。 そのため、コンバージョンが関連付けられるチャネルに不一致が生じる可能性があります。
+Adobe Advertisingレポートでは、Adobe Advertisingを通じてトラフィックされた有料メディアのみを取り込みます（有料検索： [!DNL Advertising Search, Social, & Commerce] Advertising DSP広告の場合は表示）を使用し、 [!DNL Marketing Channels] レポートでは、すべてのデジタルチャネルをトラッキングできます。 そのため、コンバージョンが関連付けられるチャネルに不一致が生じる可能性があります。
 
 例えば、有料検索チャネルと自然検索チャネルは共生関係にあることが多く、各チャネルが互いに支援し合っています。 この [!DNL Marketing Channels] レポートでは、自然検索を追跡しないため、Adobe Advertisingで追跡できない自然検索へのコンバージョンが一部あります。
 
@@ -154,31 +154,60 @@ Adobe Advertisingレポートでは、Adobe Advertisingを通じてトラフィ�
 
 統合では、クリックスルーデータを検証して、サイト上のすべてのページがクリックスルーを適切にトラッキングしていることを確認する必要があります。
 
-対象： [!DNL Analytics]、を検証する最も簡単な方法の 1 つ [!DNL Analytics for Advertising] トラッキングでは、「クリック数」を使用して、クリック数をインスタンスと比較します [!UICONTROL AMO ID Instances]計算指標」と表示されます。計算指標は次のように計算されます。
+対象： [!DNL Analytics]、を検証する最も簡単な方法の 1 つ [!DNL Analytics for Advertising] トラッキングとは、「AMO ID インスタンスとAdobe Advertisingクリック数」の計算指標を使用してインスタンスとクリック数を比較することです。計算指標は次のように計算されます。
 
 ```
-Clicks to [!UICONTROL AMO ID Instances] = ([!UICONTROL AMO ID Instances] / Adobe Advertising Clicks)
+AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
-[!UICONTROL AMO ID Instances] は、の回数を表します [AMO ID](ids.md) サイト上で追跡されます。 広告がクリックされるたびに、AMO ID （`s_kwcid`） パラメーターがランディングページの URL に追加されます。 次の数 [!UICONTROL AMO ID Instances]そのため、はクリック数に似ており、実際の広告クリックに対して検証できます。 通常、の一致率は 80% と表示されます。 [!DNL Search, Social, & Commerce] に対して 30% の一致率 [!DNL DSP] トラフィック（クリックスルーのみを含めるようにフィルタリングする場合） [!UICONTROL AMO ID Instances]）に設定します。 検索と表示の期待値の違いは、期待されるトラフィック動作によって説明できます。 検索は目的をキャプチャし、そのため、ユーザーは通常、クエリから検索結果をクリックしようとします。 ただし、ディスプレイやオンラインのビデオ広告を表示したユーザーが、意図せずに広告をクリックした後にサイトからバウンスしたり、ページアクティビティがトラッキングされる前に読み込まれる新しいウィンドウを放棄したりする可能性が高くなります。
+[!UICONTROL AMO ID Instances] は、の回数を表します [AMO ID](ids.md) サイト上で追跡されます。 広告がクリックされるたびに、AMO ID （`s_kwcid`） パラメーターがランディングページの URL に追加されます。 次の数 [!UICONTROL AMO ID Instances]そのため、はクリック数に似ており、実際の広告クリックに対して検証できます。 通常、の一致率は 85% と表示されます [!DNL Search, Social, & Commerce] に対して 30% の一致率 [!DNL DSP] トラフィック（クリックスルーのみを含めるようにフィルタリングする場合） [!UICONTROL AMO ID Instances]）に設定します。 検索と表示の期待値の違いは、期待されるトラフィック動作によって説明できます。 検索は目的をキャプチャし、そのため、ユーザーは通常、クエリから検索結果をクリックしようとします。 ただし、ディスプレイやオンラインのビデオ広告を表示したユーザーが、意図せずに広告をクリックした後にサイトからバウンスしたり、ページアクティビティがトラッキングされる前に読み込まれる新しいウィンドウを放棄したりする可能性が高くなります。
 
-Adobe Advertisingレポートでは、「」を使用して、クリックをインスタンスと同様に比較できます[!UICONTROL ef_id_instances]の代わりに「指標」 [!UICONTROL AMO ID Instances]:
+Adobe Advertisingレポートでは、「」を使用して、インスタンスとクリックを同様に比較できます[!UICONTROL EF ID Instances]の代わりに「指標」 [!UICONTROL AMO ID Instances]:
 
 ```
-Clicks to [EF ID Instances = (ef_id_instances / Clicks)
+EF ID Instances to Adobe Advertising Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 AMO ID と EF ID の間の一致率は高いと想定すべきですが、AMO ID と EF ID は基本的に異なるデータを追跡するので、100% のパリティは期待しないでください。この違いにより、合計にわずかな違いが生じる可能性があります [!UICONTROL AMO ID Instances] および [!UICONTROL EF ID Instances]. 合計 [!UICONTROL AMO ID Instances] 。対象： [!DNL Analytics] ～と異なる [!UICONTROL EF ID Instances] ただし、Adobe Advertisingが 1% を超える場合は、Adobeアカウントチームにお問い合わせください。
 
 AMO ID と EF ID について詳しくは、を参照してください。 [Analytics が使用するAdobe Advertising ID](ids.md).
 
-以下は、インスタンスに対するクリックを追跡するワークスペースの例です。
+<!--  Need to create a new report to show tracking instances to clicks, instead of clicks to instances as shown, and replace this screenshot.
 
-![インスタンスへのクリックを追跡するワークスペースの例](/help/integrations/assets/a4adc-clicks-to-instances-example.png)
+The following is an example of a workspace to track clicks to instances.
+
+![Example of a workspace to track clicks to instances to clicks](/help/integrations/assets/a4adc-clicks-to-instances-example.png)
+-->
+
+### クリックとインスタンス間の不一致のトラブルシューティング
+
+次の場合 [!UICONTROL EF ID Instances]-to-[!UICONTROL Adobe Advertising Clicks] 比率が 85% を下回っている場合は、次の点を確認してください。
+
+* アカウントまたは任意のサブレベルのクリック追跡が欠落していないか、重複しているクリック追跡はありますか（例えば、アカウントレベルとキャンペーンレベルの両方で）?
+
+  検索、ソーシャル、Commerce [バルクシートのダウンロード](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) アカウントがトラッキング URL を確認できるようにします。
+
+  また、で [!DNL Analytics]を使用すると、AMO ID と EF IF が一貫して「[!DNL AMO ID] 対象： [!DNL EF ID]計算指標」と表示されます。計算指標は次のように計算されます。
+
+  ```
+  [!DNL AMO ID] to [!DNL EF ID] = ([!UICONTROL AMO ID] / [!DNL EF ID])
+  ```
+
+  100% を超える値は、欠落している EF ID が AMO ID よりも多いことを示します。
+
+* ランディングページに読み込みの問題があるので、AMO ID と EF ID は取り込まれていませんか？
+
+* ランディングページ URL は、AMO ID と EF ID が失われるようにリダイレクトされますか？
+
+* 設定済みのレポートスイートは、すべてのランディングページで使用されますか？
+
+>[!NOTE]
+>
+>理論上、1 つのインスタンスが複数のクリックを持つ可能性があります。 様々なデバイス（デスクトップ、モバイル、タブレットなど）でのクリックを確認します。
 
 ## のデータセットの比較 [!DNL Analytics for Advertising] とAdobe Advertising内
 
-この [AMO ID](ids.md) （s_kwcid クエリ文字列パラメーター）は、でレポートに使用されます [!DNL Analytics]、および [EF ID](ids.md) は、Adobe Advertisingでのレポートに使用されます。 これらは個別の値なので、ある値が破損しているか、ランディングページに追加されない可能性があります。
+この [AMO ID](ids.md) （s_kwcid クエリ文字列パラメーター）は、でレポートに使用されます [!DNL Analytics]、および [EF ID](ids.md) （ef_id クエリ文字列パラメーター）は、Adobe Advertisingでのレポートに使用されます。 これらは個別の値なので、ある値が破損しているか、ランディングページに追加されない可能性があります。
 
 例えば、次のランディングページがあるとします。
 
@@ -208,7 +237,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 * **クリック：** [!DNL DSP] または、検索エンジンが、訪問者が発行者の web サイト上の広告をクリックした際のクリックを記録します。
 
-* **アクセス：** [!DNL Analytics] は、 [訪問](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) ユーザーによる一連のページビューとして、いくつかの条件（30 分間無操作状態など）のいずれかに従って終了します。
+* **アクセス：** [!DNL Analytics] は、 [訪問](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) ユーザーによる一連のページビューとして、30 分間無操作状態など、いくつかの条件のいずれかに従って終了します。
 
 定義として、クリックは複数の訪問につながる可能性があります。
 
@@ -230,7 +259,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 また、モバイルデバイスに読み込まれるサイトは、帯域幅や利用可能な処理能力が低いため、クリックスルーが発生する可能性が低く、ランディングページの読み込みに時間がかかります。 クリックの 50～70% がクリックスルーに至らないことは珍しくありません。 モバイル環境では、ブラウザーの速度が低下し、ユーザーがページ内をスクロールしたり広告を閉じようとしたりしているときに、誤って広告をクリックする可能性が高くなるので、90% も違いが生じる可能性があります。
 
-クリックデータは、現在のトラッキングメカニズムでのクリックスルーを記録できない環境（モバイルアプリに着信するクリックや、モバイルアプリからのクリックなど）や、広告主が 1 つのトラッキングアプローチのみをデプロイした環境（例えば、ビュースルー JavaScript アプローチでは、サードパーティ cookie がクリックを追跡するが、クリックスルーはブロックしないブラウザー）にも記録される場合があります。 Adobe クリック URL トラッキングとビュースルー JavaScript トラッキングの両方のアプローチをデプロイすることをお勧めする主な理由は、トラッキング可能なクリックスルーの範囲を最大限に広げることです。
+また、クリックデータは、現在のトラッキングメカニズムでのクリックスルーを記録できない環境（モバイルアプリに着信するクリックや、モバイルアプリからのクリックなど）や、広告主が 1 つのトラッキングアプローチのみをデプロイした環境（例えば、ビュースルーJavaScript アプローチでは、サードパーティ cookie がクリックを追跡するが、クリックスルーは追跡しないブラウザー）に記録される場合もあります。 Adobeがクリック URL トラッキングとビュースルーJavaScript トラッキングアプローチの両方をデプロイすることをお勧めする主な理由は、トラッキング可能なクリックスルーの範囲を最大限に広げることです。
 
 ### 非Adobe AdvertisingDimensionに対するAdobe Advertisingトラフィック指標の使用
 
@@ -240,7 +269,7 @@ Adobe Advertisingは Analytics に次を提供します [広告固有のトラ�
 
 ![Adobe Advertisingディメンションを使用したレポートのAdobe Advertising指標の例](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-ただし、を表示した場合は、 [!UICONTROL Adobe Advertising Clicks] および [!UICONTROL Adobe Advertising Cost] オンページディメンション（ページなど）別の指標で、Adobe Advertisingがデータを提供しない場合、次に [!UICONTROL Adobe Advertising Clicks] および [!UICONTROL Adobe Advertising Cost] 各ページの値はゼロ（0）になります。
+ただし、を表示した場合は、 [!UICONTROL Adobe Advertising Clicks] および [!UICONTROL Adobe Advertising Cost] オンページディメンション（ページなど）別の指標で、Adobe Advertisingがデータを提供しない場合は、次のようになります [!UICONTROL Adobe Advertising Clicks] および [!UICONTROL Adobe Advertising Cost] 各ページの値はゼロ（0）になります。
 
 ![サポートされていないディメンションを使用したレポートのAdobe Advertising指標の例](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 
