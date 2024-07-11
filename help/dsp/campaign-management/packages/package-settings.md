@@ -3,7 +3,7 @@ title: パッケージ設定
 description: 使用可能なパッケージ設定の説明を参照してください。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 9a7d73a281dba1331f00dd9ff75fafdc057413d0
+source-git-commit: ab3118901b7cd88776f7c0ce8038b928118a7555
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 >* このパッケージに割り当てられているすべてのプレースメントのフライト日付は、これらの日付内に含める必要があります。
 > * カスタム光源が有効な場合、パッケージの開始日は編集できません。
 
-**[!UICONTROL *Activate Custom Flighting]:** でパッケージの偶数でないペーシングフライトを作成できます。 [!UICONTROL Flighting] セクションを下にします。 カスタムライティングを有効にしてパッケージを保存すると、カスタムライティングを無効にしたり、パッケージの開始日を編集したりできなくなります。
+**[!UICONTROL Activate Custom Flighting]:** でパッケージの偶数でないペーシングフライトを作成できます。 [!UICONTROL Flighting] セクションを下にします。 カスタムライティングを有効にしてパッケージを保存すると、カスタムライティングを無効にしたり、パッケージの開始日を編集したりできなくなります。
 
 **[!UICONTROL Budget]:** （パッケージレベルのペーシングを使用したパッケージのみ）総予算の上限と予算間隔。
 
