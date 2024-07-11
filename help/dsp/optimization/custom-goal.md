@@ -3,23 +3,23 @@ title: カスタム目標
 description: 最低 CPA または最高 ROAS 用に最適化されたパッケージで成功イベントを定義するカスタム目標について説明します。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: ef732108b248995a6b321e991fa122caaa40e2fe
+source-git-commit: 42fca0c829c708281703a6a1ea59c42dc7ac9f0d
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
 
 # カスタム目標
 
-カスタム目標は、広告主がビジネス目標を達成するために必要な成功イベントを定義します。 最適化目標「」を使用する各パッケージ[!UICONTROL Highest Return on Ad Spend (ROAS)"] または&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]「全体的な最適化目標を達成するのに役立つカスタム目標を含める必要があります。 カスタムの目標は、次のように作成できます *目標* 。対象： [!DNL Advertising Search, Social, & Commerce].
+カスタム目標は、広告主がビジネス目標を達成するために必要な成功イベントを定義します。 最適化目標「」を使用する各パッケージ[!UICONTROL Highest Return on Ad Spend (ROAS)"] または&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]「全体的な最適化目標を達成するのに役立つカスタム目標を含める必要があります。 カスタムの目標は、次のように作成できます *目標* 。対象： [!DNL Advertising Search, Social, & Commerce]. DSPの各目標の名前には、「ADSP_」というプレフィックスを付ける必要があります。
 
 <!-- update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-各カスタム目標（目標）は、1 つ以上のコンバージョン指標と、それらの指標の相対的な重み付けで構成されます。 DSPのカスタム目標には、モバイル以外の重み付けのみが考慮されます。 使用可能なコンバージョン指標には、Adobe Advertisingコンバージョンピクセルを使用してAdobe Analyticsを通じてトラッキングされるすべての指標が含まれます。
+各カスタム目標（目標）は、1 つ以上のコンバージョン指標と、それらの指標の相対的な重み付けで構成されます。 使用可能なコンバージョン指標には、Adobe Advertisingコンバージョンピクセルを使用してAdobe Analyticsを通じてトラッキングされるすべての指標が含まれます。 DSPのカスタム目標にはモバイル以外の重み付けが考慮されますが、すべての広告タイプで使用されます。
 
 例えば、あるキャンペーンの特定のパッケージに関連する 3 つのコンバージョン指標（20 USD の「PDFのダウンロード」、30 USD の「電子メールのサインアップ」、40 USD の「注文確認」）があるとします。 顧客アクションの 1 回限りの金銭的価値に応じて重みを付ける場合、指標の相対的な重みは 1、1.5、2 になります。
 
