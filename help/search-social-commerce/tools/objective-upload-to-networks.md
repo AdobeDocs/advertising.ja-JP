@@ -3,9 +3,9 @@ title: 広告ネットワークへの目標のアップロードを有効にす�
 description: ハイブリッドポートフォリオの目標をにアップロードする方法を説明します [!DNL Google Ads] および [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 39936c6834012432447d3216d8463937996b0017
+source-git-commit: aaad3eb6cd33f4342c46ffb244227a00fbcb4e44
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 このオプションを有効にすると、スマート入札戦略を使用したキャンペーンを含んだポートフォリオ内の目標のアップロードが自動的にトリガー付けされます。 検索、ソーシャル、Commerceを行うと、該当する目的ごとに広告ネットワーク上にコンバージョンが作成されます。 コンバージョンは、目標内の EF ID （クリック ID）レベルの重み付けされたコンバージョン指標をすべて表します。 の場合 [!DNL Google Ads] クリックすると、EF ID はになります [!DNL Google Ads] `gclid`; [!DNL Microsoft Advertising] クリックすると、EF ID はになります [!DNL Microsoft Advertising] `msclkid`. このクリック ID により、コンバージョンデータを特定のキーワードとクリック時間にマッピングできます。
 
-アップロードされた各コンバージョンには、以下のいずれかの名前が付けられます。
+アップロードされる各コンバージョンには、以下のいずれかの名前が付けられます。
 
 * `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 加重目標の計算方法
 
-広告ネットワークに渡される重み付け目標は、で追跡されたコンバージョンを除く、収集されたすべての指標値の合計です [!DNL Google Ads] または [!DNL Microsoft Advertising] ユニバーサルイベントトラッキング（UET）タグ。
+広告ネットワークに渡される重み付け目標は、で追跡されたコンバージョンを除く、収集されたすべての指標値の合計です [!DNL Google Ads] または [!DNL Microsoft Advertising] ユニバーサルイベントトラッキング（UET）タグ。 値は、広告主の検索、ソーシャル、Commerce アカウントに設定されたアトリビューションメソッドを使用して計算されます。
 
 例えば、目標の目標指標が買い物かごへの追加（重み付け 25）で、アシスト指標には、GGL_Lead と売上高（重み付け 1）およびダウンロード（重み付け 0.5）が含まれているとします。
 
@@ -70,6 +70,12 @@ ht-degree: 0%
 * 5 GGL_Lead
 
 Google Ads で追跡される指標なので、GGL_Lead は計算/アップロードに含まれません。 したがって、加重目標値は（（10 x 25） + （500 x 1） + （50 x 0.5））=775 として算出されます。
+
+>[!TIP]
+>
+>広告ネットワークのレポート内で、Adobe Advertisingの重み付け売上高のデータを表示できます。 ベストプラクティスとして、重み付けされた売上高をと比較します [!DNL Google Ads] 「すべての変換 （conv. time）」指標または [!DNL Microsoft Advertising] 指標「すべての conv. 売上高」を O_ACS_OBJ*指標にセグメント化しました。<!--clarify -->
+
+広告ネットワークのエディター内
 
 ## 目標が見つからない場合のトラブルシューティング
 
