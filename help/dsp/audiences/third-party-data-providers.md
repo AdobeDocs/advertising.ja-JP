@@ -3,9 +3,9 @@ title: Advertising DSPで利用可能なサードパーティデータプロバ�
 description: 使用可能なすべてのサードパーティデータプロバイダーのリストを確認する。
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 95da7e35150a8f6e55e33539e04804c1f2ac4fb4
+source-git-commit: 8921023b03865e73f71f49d320e092070035ecce
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 各セグメントの使用料金は、プレースメント設定および保存されたオーディエンス設定のセグメント名の横に表示されます。
 
 * [!DNL Adsquare]
-* [!DNL Audiences by Oracle (BlueKai)]
+* [!DNL Audiences by Oracle (BlueKai)] （2024 年 9 月 30 日（PT）に日没予定）
 * [!DNL digitalAudience]
 * [!DNL DLX Mobile]
 * [!DNL eXelate] （[!DNL Nielsen]）
@@ -37,7 +37,6 @@ ht-degree: 0%
 * [!DNL TailTarget]
 * [!DNL Tapfwd]
 * [!DNL TruSignal]
-* [!DNL TubeMogul Performance Audiences]
 * [!DNL Weborama]
 * [!DNL Zeotap]
 
@@ -45,6 +44,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Audience Management について](audience-about.md)
->* [再利用可能なオーディエンスを作成](reusable-audience-create.md)
->* [オーディエンス設定](audience-settings.md)
+>* [Audience Management について ](audience-about.md)
+>* [ 再利用可能なオーディエンスを作成 ](reusable-audience-create.md)
+>* [ オーディエンス設定 ](audience-settings.md)
