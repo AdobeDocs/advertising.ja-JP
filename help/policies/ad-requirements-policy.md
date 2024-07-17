@@ -3,16 +3,16 @@ title: Adobe Advertising広告要件ポリシー
 description: 広告要件については、ポリシーを参照してください。
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 1136589913b2648dd33fa2f6aae6d1aa13f94289
+source-git-commit: 703031baac908e2024d877f031ff164370528383
 workflow-type: tm+mt
-source-wordcount: '2190'
+source-wordcount: '2191'
 ht-degree: 0%
 
 ---
 
 # Adobe Advertising広告要件ポリシー
 
-*最終更新日：2024 年 7 月 17 日<!-- (except for formatting changes unrelated to content)-->*
+*ポリシーの最終更新日：2024 年 7 月 17 日<!-- (except for formatting changes unrelated to content)-->*
 
 *Adobe Advertising DSPおよびAdobe Advertising検索、ソーシャル、Commerceの場合*
 
