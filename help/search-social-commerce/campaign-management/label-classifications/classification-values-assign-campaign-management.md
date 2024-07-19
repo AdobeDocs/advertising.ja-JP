@@ -1,88 +1,88 @@
 ---
-title: 分類値をキャンペーン管理ビューからアカウントコンポーネントに割り当てる
+title: キャンペーン管理ビューからのアカウントコンポーネントへの分類値の割り当て
 description: アカウントコンポーネントに分類値を割り当てる方法を説明します。
-exl-id: 7e55d7d8-5e12-409b-ad5d-c53cbf24c7c9
+exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
 
-# 分類値をキャンペーン管理ビューからアカウントコンポーネントに割り当てる
+# キャンペーン管理ビューからのアカウントコンポーネントへの分類値の割り当て
 
-キャンペーン管理ビューから、キャンペーン、広告グループ、キーワード、広告、配置、単位レベルの製品グループ、動的検索ターゲットの各検索エンティティの分類値を割り当てたり、削除したりできます。 必要に応じて、割り当てプロセス中に分類および分類値を作成できます。 各ラベル分類には、最大 2,000 個の値を含めることができます。
+キャンペーン管理ビューで、キャンペーン、広告グループ、キーワード、広告、プレースメント、単位レベルの製品グループ、動的検索ターゲットの検索エンティティに対する分類値を割り当て、削除できます。 必要に応じて、割り当てプロセス中に分類と分類値を作成できます。 各ラベル分類には、最大 2000 個の値を設定できます。
 
-各エンティティは、分類ごとに 1 つのラベル値を持つことができます。 例えば、Shoes_Campaign のカラー値は「red」、地域値は「Los Angeles」にできますが、カラーまたは地域に複数の値を含めることはできません。
+各エンティティには、分類ごとに 1 つのラベル値を設定できます。 例えば、Shoes_Campaign では、カラー値が「red」、地域値が「Los Angeles」に設定できますが、カラーと地域に複数の値を設定することはできません。
 
-ラベル値は子エンティティに継承されるので、継承された値を上書きする場合を除き、子エンティティの値を入力しないでください。
+ラベル値は子エンティティによって継承されるため、継承された値を上書きする場合を除き、子エンティティの値を入力しないでください。
 
 >[!NOTE]
 >
->一部の広告ネットワークおよびキャンペーンタイプのキーワードおよび広告コピーは、次のとおりです [不変](/help/search-social-commerce/campaign-management/faqs-campaigns.md)を編集すると、既存のエンティティが削除され、新しいエンティティが作成されます。 この方法で既存のエンティティを削除した場合、ラベルの分類は新しいエンティティに割り当てられません。
+>一部の広告ネットワークおよびキャンペーンタイプのキーワードと広告コピーは [ 不変 ](/help/search-social-commerce/campaign-management/faqs-campaigns.md) です。つまり、それらを編集すると、既存のエンティティが削除され、新しいエンティティが作成されます。 この方法で既存の図形を削除すると、ラベル分類は新しい図形に割り当てられません。
 
-1. クリック **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックし、次にアカウントコンポーネントビューを選択します。
+1. **[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックし、アカウントコンポーネント表示を選択します。
 
-1. 次のいずれかの操作を行います。
+1. 次のいずれかの操作をおこないます。
 
-   * （単一のエンティティに値を割り当てる場合）エンティティ名の上にカーソルを置いたまま、 ![メニューボタン](/help/search-social-commerce/assets/arrow-dropdown-menu.png "メニューボタン")を選択し、 **[!UICONTROL Classification]**.
+   * （単一の図形に値を割り当てるには）図形名の上にカーソルを置き、![ メニューボタン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューボタン ") をクリックして、**[!UICONTROL Classification]** を選択します。
 
    * （1 つ以上のエンティティに値を割り当てるには）次の手順を実行します。
 
-      * 各関連行の横にあるチェックボックスをオンにします。
+      * 関連する各行の横にあるチェックボックスをオンにします。
 
-        複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-      * データテーブルの上にあるツールバーで、 ![その他](/help/search-social-commerce/assets/more.png "その他")をクリックし、 **[!UICONTROL Classification]**.
+      * データ テーブルの上にあるツールバーで、[![ その他 ](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Classification]**] をクリックします。
 
-1. Adobe Analytics の [!UICONTROL Assignment Details]、次のいずれかの操作を行います。
+1. [!UICONTROL Assignment Details] で、次のいずれかの操作を行います。
 
-   * 既存の分類値を新しい値に変更するには、 **[!UICONTROL Set To]**.
+   * 既存の分類の値を新しい値に変更するには、「**[!UICONTROL Set To]**」を選択します。
 
      各値の最大長は 100 文字で、ASCII 文字と非 ASCII 文字を含めることができます。
 
-   * 既存の値を削除せずに、指定した分類値を割り当てるには、 **[!UICONTROL Assign]**.
+   * 既存の値を削除せずに、指定した分類値を割り当てるには、[**[!UICONTROL Assign]**] を選択します。
 
-   * 現在割り当てられている特定の分類値を削除するには、「 」を選択します。 **[!UICONTROL Remove]**.
+   * 現在割り当てられている特定の分類値を削除するには、「**[!UICONTROL Remove]**」を選択します。
 
-     分類値を削除すると、その値のレポートデータは、指定したアカウントコンポーネントでは使用できなくなります。
+     分類値を削除すると、その値のレポートデータは、指定したアカウントコンポーネントで使用できなくなります。
 
-   * 指定した分類値を削除するには、「 **[!UICONTROL Delete]**.
+   * 指定した分類値を削除するには、「**[!UICONTROL Delete]**」を選択します。
 
-     分類値を削除すると、今後使用できなくなり、その値でレポートデータを使用できなくなります。 値と特定のアカウントコンポーネント間の割り当てはすべて削除されますが、アカウントコンポーネントは削除されません。
+     分類値を削除すると、その値は今後使用できなくなり、レポートデータはその値では使用できなくなります。 値と特定の勘定科目コンポーネント間のすべての割当ては削除されますが、勘定科目コンポーネントは削除されません。
 
-1. 該当する分類値ごとに、次の操作を行います。
+1. 該当する各分類値に対して、次の手順を実行します。
 
-   1. Adobe Analytics の **[!UICONTROL Classification]** 列に、分類名を指定します。
+   1. **[!UICONTROL Classification]** 列で、分類名を指定します。
 
       * 既存の分類を使用するには、分類名をクリックして展開します。
 
-      * 分類を作成するには、 [!UICONTROL +]. 入力フィールドに分類名を入力し、「 ![保存](/help/search-social-commerce/assets/select.png "保存") 」と入力して、分類を直ちに保存します。
+      * 分類を作成するには、「分 [!UICONTROL +]」をクリックします。 入力フィールドに分類名を入力し、![ 保存 ](/help/search-social-commerce/assets/select.png " 保存 ") をクリックして、分類をすぐに保存します。
 
-        名前は次の要素で構成する必要があります： [ASCII 文字 32～126](https://www.asciitable.com/)の場合、最大長は 27 文字の 1 バイト文字です。
+        名前は [ASCII 文字 32 ～ 126](https://www.asciitable.com/) で構成する必要があり、最大長は 27 個のシングルバイト文字です。
 
-   1. Adobe Analytics の **[!UICONTROL Value Name]** 列に、値の名前を指定します。
+   1. **[!UICONTROL Value Name]** 列で、値の名前を指定します。
 
       * 既存の値を使用するには、値の名前をクリックして選択します。
 
-      * 値を作成するには、 [!UICONTROL +]. 入力フィールドに値を入力し、「 ![保存](/help/search-social-commerce/assets/select.png "保存") をクリックして、値を直ちに保存します。
+      * 値を作成するには、「[!UICONTROL +]」をクリックします。 入力フィールドに値を入力し、![ 保存 ](/help/search-social-commerce/assets/select.png " 保存 ") をクリックして、すぐに値を保存します。
 
         最大長は 100 文字で、ASCII 文字と非 ASCII 文字を含めることができます。
 
 1. （オプション）追加の詳細を入力します。
 
-   1. 次の隣 **[!UICONTROL Additional Details]**&#x200B;をクリックし、 ![開く](/help/search-social-commerce/assets/chevron-up.png "開く") をクリックして詳細を展開します。
+   1. 「**[!UICONTROL Additional Details]**」の横にある「![ 開く ](/help/search-social-commerce/assets/chevron-up.png " 開く ") をクリックして、詳細を展開します。
 
-   1. オプションを入力 **[!UICONTROL Project Name]** および/またはオプション **[!UICONTROL Description]**.
+   1. オプションの **[!UICONTROL Project Name]** や **[!UICONTROL Description]** を入力します。
 
-1. クリック **[!UICONTROL Save]**.
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ラベルの分類について](classification-about.md)
->* [ラベルの分類の作成](classification-create.md)
->* [一括送信シートを使用して、勘定科目コンポーネントに分類値を割り当てます。](classification-values-assign-bulksheets.md)
->* [顧客コンポーネントからラベル分類値を削除](classification-values-remove.md)
->* [ラベル分類値の削除](classification-values-delete.md)
->* [ラベルの分類を削除](classification-delete.md)
+>* [ ラベル分類について ](classification-about.md)
+>* [ ラベル分類の作成 ](classification-create.md)
+>* [ バルクシートを使用した勘定科目コンポーネントへの分類値の割当て ](classification-values-assign-bulksheets.md)
+>* [ アカウントコンポーネントからラベル分類値を削除する ](classification-values-remove.md)
+>* [ ラベル分類値を削除 ](classification-values-delete.md)
+>* [ ラベル分類を削除 ](classification-delete.md)

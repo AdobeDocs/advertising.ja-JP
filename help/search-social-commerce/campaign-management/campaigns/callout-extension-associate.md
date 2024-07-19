@@ -1,6 +1,6 @@
 ---
-title: 関連付け [!DNL Google Ads] キャンペーンまたは広告グループと共有されたコールアウト拡張機能
-description: 割り当て方法を学ぶ [!DNL Google Ads] キャンペーンまたは広告グループに共有されたコールアウト拡張機能。
+title: 共有コ  [!DNL Google Ads]  ルアウト拡張機能をキャンペーンまたは広告グループに関連付ける
+description: 共有コールアウト拡張機能をキャンペ  [!DNL Google Ads]  ンまたは広告グループに割り当てる方法を説明します。
 exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
 source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
@@ -10,36 +10,36 @@ ht-degree: 0%
 
 ---
 
-# 関連付け [!DNL Google Ads] キャンペーンまたは広告グループと共有されたコールアウト拡張機能
+# 共有コールアウト拡張機能 [!DNL Google Ads] キャンペーンまたは広告グループに関連付ける
 
 *[!DNL Google Ads]アカウントのみ*
 
-吹き出し拡張機能を作成して割り当てることができます [サポート対象 [!DNL Google Ads] キャンペーンまたは広告グループ](/help/search-social-commerce/introduction/supported-inventory.md) 内の検索ネットワーク上 [同期 [!DNL Google Ads] アカウント](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+コールアウト拡張機能を作成し、[ 同期  [!DNL Google Ads]  アカウント  [!DNL Google Ads]  内の検索ネットワーク上の任意の [ サポート対象 ](/help/search-social-commerce/introduction/supported-inventory.md) キャンペーンまたは広告グループ ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) に割り当てることができます。
 
 コールアウトを使用して広告を表示するには、キャンペーンまたは広告グループごとに少なくとも 2 つのコールアウトを割り当てます。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]** をクリックします。
 
-1. データ テーブルの上にあるツールバーで、 ![作成](/help/search-social-commerce/assets/add.png "作成")を選択してから、 **[!UICONTROL Callout]**.
+1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックし、[**[!UICONTROL Callout]**] を選択します。
 
-1. 広告ネットワークとアカウント名を選択し、 **[!UICONTROL Continue]**.
+1. 広告ネットワークとアカウント名を選択し、「**[!UICONTROL Continue]**」をクリックします。
 
 1. キャンペーンまたは広告グループに引き出し線を割り当てる：
 
-   1. が含まれる [!UICONTROL Callouts] 「」セクションで、ライブラリ内のすべてのコールアウトのリストから該当するコールアウトを選択します。
+   1. 「[!UICONTROL Callouts]」セクションで、ライブラリ内のすべてのコールアウトのリストから該当するコールアウトを選択します。
 
-   1. が含まれる [!UICONTROL Assignment] 「」セクションで、選択したコールアウトが割り当てられるキャンペーンと広告グループを選択します。
+   1. 「[!UICONTROL Assignment]」セクションで、選択したコールアウトが割り当てられるキャンペーンと広告グループを選択します。
 
       * （オプション）キャンペーンを展開してその子広告グループを表示するには、キャンペーン名をクリックします。
 
-      * （オプション）名前に含まれているテキスト文字列でキャンペーンリストまたは広告グループリストをフィルタリングするには、 ![フィルター](/help/search-social-commerce/assets/filter.png "フィルター")を選択し、テキスト文字列を入力フィールドに入力または貼り付けて、 **Enter** キー。
+      * （オプション）名前に含まれているテキスト文字列でキャンペーンリストまたは広告グループリストをフィルタリングするには、「![ フィルター ](/help/search-social-commerce/assets/filter.png " フィルター ")」をクリックして、テキスト文字列を入力または貼り付けて、**Enter** キーを押します。
 
-      * エンティティを選択するには、隣の円（![を選択](/help/search-social-commerce/assets/include.png "を選択")）に設定します。
+      * エンティティを選択するには、隣接する円をクリックします（![ 選択 ](/help/search-social-commerce/assets/include.png " 選択 ")）。
 
-   1. クリック **[!UICONTROL Post]**.
+   1. 「**[!UICONTROL Post]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [について [!DNL Google Ads] コールアウト拡張機能](callout-extension-about.md)
->* [管理 [!DNL Google Ads] コールアウト拡張機能](callout-extension-manage.md)
->* [キャンペーンおよび広告グループとの広告拡張機能の関連付けの削除](/help/search-social-commerce/campaign-management/campaigns/ad-extension-association-delete.md)
+>* [About [!DNL Google Ads] callout extensions](callout-extension-about.md)
+>* [Manage [!DNL Google Ads] callout 拡張機能 ](callout-extension-manage.md)
+>* [ キャンペーンおよび広告グループとの広告拡張機能の関連付けの削除 ](/help/search-social-commerce/campaign-management/campaigns/ad-extension-association-delete.md)

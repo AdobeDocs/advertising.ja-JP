@@ -1,80 +1,80 @@
 ---
-title: の設定 [!DNL Google Analytics] データソースとして表示
-description: データソースを [!DNL Google Analytics] 表示。
+title: データソ  [!DNL Google Analytics]  スとしてのビューの設定
+description: ' [!DNL Google Analytics]  ビューからデータソースを設定する方法を説明します。'
 role: User, Admin
-exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
+exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
 
-# の設定 [!DNL Google Analytics] データソースとして表示
+# [!DNL Google Analytics] ビューをデータソースとして設定する
 
-*代理店管理者、代理店のアカウントマネージャ、Adobeのアカウントマネージャ、および管理者のみ*
+*代理店管理者、代理店口座管理者、Adobe口座管理者、管理者専用*
 
-次の時間ごとに 1 つのデータソースを作成できます [!DNL Google Analytics] アカウント、プロパティ、ビューの組み合わせ。
+アカウント、プロパティ、ビューの組み合わせ [!DNL Google Analytics] とに 1 つのデータソースを作成できます。
 
-単一のプロパティに対して複数のプロパティの指標や複数の表示の指標を統合するには、それぞれに対して個別のデータソースを設定します。
+複数のプロパティまたは単一のプロパティの複数のビューの指標を統合するには、それぞれに個別のデータソースを設定します。
 
-1. [の統合に関するすべての前提条件を実行します。 [!DNL Google Analytics] アカウント](data-source-prerequisites.md).
+1. [ アカウントの統合に必要なすべての前提条件  [!DNL Google Analytics]  実行します ](data-source-prerequisites.md)。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Data Source Setup]** をクリックします。
 
-1. データテーブルの上にあるツールバーで、 ![作成](/help/search-social-commerce/assets/add.png "作成").
+1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
-1. Adobe Analytics の [!UICONTROL Deployment Prerequisites] ダイアログで、必要なカスタム寸法「ef_id」が [!DNL Google Analytics] アカウントを選択し、「 **[!UICONTROL Continue]**.
+1. [!UICONTROL Deployment Prerequisites] ダイアログで、必要なカスタムディメンション「ef_id」が [!DNL Google Analytics] アカウントに実装されていることを確認するチェックボックスを選択し、「**[!UICONTROL Continue]**」をクリックします。
 
-   一部の前提条件が、組織の他の役割によって実行されている可能性があります。 前提条件についてご質問がある場合は、Adobeアカウントチームにお問い合わせください。
+   組織の他の役割によって、いくつかの前提条件が実行されている可能性があります。 前提条件について質問がある場合は、Adobeアカウントチームにお問い合わせください。
 
-1. 次を入力します。 [データソース設定](data-source-settings.md):
+1. [ データソース設定 ](data-source-settings.md) を入力します。
 
-   1. Adobe Analytics の **[!UICONTROL Connect to [!DNL Google Analytics]]** 「 」セクションで、以下の操作を実行します。
+   1. **[!UICONTROL Connect to [!DNL Google Analytics]]** セクションで、次の操作を行います。
 
-      1. の数値 ID を入力します。 [!DNL Google Analytics] アカウント。
+      1. [!DNL Google Analytics] アカウントの数値 ID を入力します。
 
-      1. このデータソースのデータへのアクセスに使用する電子メールアドレスを入力します。 電子メールアドレスを [!DNL Google] アカウントに追加し、 [!DNL Google Analytics] アカウント。 詳しくは、 [でのユーザー権限の割り当て手順 [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).
+      1. このデータ ソースのデータへのアクセスに使用する電子メール アドレスを入力します。 メールアドレスは、[!DNL Google] アカウントに登録され、[!DNL Google Analytics] アカウントの「読み取りと分析」権限を持っている必要があります。 [ のユーザー権限の割り当て手順  [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587) を参照してください。
 
          >[!TIP]
          >
-         >特定の [!DNL Google Analytics] プロパティとビューは、Adobe Advertising内で使用できます。プロパティとビューにのみアクセスできる電子メールアドレスを使用してログインします。
+         >Adobe Advertising内で特定の [!DNL Google Analytics] プロパティおよびビューのみを使用できるようにするには、これらのプロパティおよびビューにのみアクセスできるメールアドレスを使用してログインします。
 
          >[!NOTE]
          >
-         >後でこの電子メールアカウントのパスワードを変更すると、電子メールアカウントへのオープン接続はすべて閉じられます。 データの同期を再開するには、このページに戻り、 [再認証](data-source-reauthenticate.md).
+         >このメールアカウントのパスワードを後で変更した場合、そのメールアカウントへの開いているすべての接続は閉じられます。 データの同期を再開するには、このページに戻って [ 再認証 ](data-source-reauthenticate.md) してください。
 
-      1. アカウントの指標へのアクセスをAdobe Advertisingに許可する場合は、「 」チェックボックスを選択します。
+      1. チェックボックスをオンにして、Adobe Advertisingがアカウントの指標にアクセスすることを許可します。
 
-      1. クリック **[!UICONTROL Authenticate]**.
+      1. 「**[!UICONTROL Authenticate]**」をクリックします。
 
-   1. Adobe Analytics の [!UICONTROL Account Details] 「 」セクションで、インポートする指標のプロパティと表示を指定します。 また、「ef_id」クエリー文字列パラメーターの値を使用して設定されるカスタムディメンションを指定します。
+   1. 「[!UICONTROL Account Details]」セクションで、インポートする指標のプロパティとビューを指定します。 さらに、「ef_id」クエリ文字列パラメーターの値が入力されたカスタムディメンションを指定します。
 
-   1. Adobe Analytics の [!UICONTROL Import Metrics] 「 」セクションで、フィードに含める指標を指定します。
+   1. 「[!UICONTROL Import Metrics]」セクションで、フィードに含める指標を指定します。
 
-      削除できません [!UICONTROL Pageviews], [!UICONTROL Sessions], [!UICONTROL Bounces]または [!UICONTROL Session Duration]：自動的に含まれます。 データを含まない有効な指標または指標は、最大 16 個追加できます。
+      自動的に含まれる [!UICONTROL Pageviews]、[!UICONTROL Sessions]、[!UICONTROL Bounces]、[!UICONTROL Session Duration] は削除できません。 データを使用せずに、最大 16 個の有効な指標または指標を追加できます。
 
       >[!WARNING]
       >
-      >[!DNL Google Analytics] では、1 つのデータフィードで最大 10 個の指標を許可します。 検索、ソーシャル、コマースでは、合計 20 個の指標を持つ最大 2 つのフィードをサポートできますが、2 番目のフィードを使用すると、API 呼び出しを [!DNL Google Analytics]. 指標が多い場合は、最適化の目的で使用する指標のみを選択します。 詳しくは、 [への API リクエストのクォータと呼び出し制限 [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
+      >[!DNL Google Analytics] では、1 つのデータフィードに最大 10 個の指標を使用できます。 検索、ソーシャル、Commerceでは、合計 20 個の指標を持つ最大 2 つのフィードをサポートできますが、2 番目のフィードを使用すると、[!DNL Google Analytics] への API 呼び出しが 2 倍になります。 指標が多数ある場合は、最適化の目標で使用する指標のみを選択します。 [ への API リクエストの割り当て量と呼び出し制限  [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas) の詳細を参照してください。
 
-   1. Adobe Analytics の [!UICONTROL Metric Tag] 「 」セクションで、データソースの各指標に追加するタグの名前を入力します。
+   1. 「[!UICONTROL Metric Tag]」セクションで、データソースの各指標に追加するタグの名前を入力します。
 
-1. 右上で、 **[!UICONTROL Post]**.
+1. 右上で、「**[!UICONTROL Post]**」をクリックします。
 
-   データソースの名前は「AccountName/PropertyName/ViewName」で、自動的にアクティブ化されます。 データソースを一時停止するには、[データソースからのフィードの一時停止](data-source-pause.md).&quot;
+   データソースの名前は「AccountName/PropertyName/ViewName」で、自動的にアクティベートされます。 データソースを一時停止するには、「[Data Sourceからのフィードの一時停止 ](data-source-pause.md) を参照してください。
 
-   指標は、毎日のデータ同期が完了した翌日に使用できます。この日のデータ同期は、広告主のタイムゾーンの 05:00 に開始されます。 指標が使用可能になると、 [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md). 新しいコンバージョン指標の名前は、それぞれ「`ga:backEndMetricName_propertyID_viewID`、「 」（「backEndMetricName」は API で使用される指標名） 新しい各コンバージョン指標の表示名は、「`friendlyMetricName_ga:MetricTag`(「friendlyMetricName」は、 [!DNL Google Analytics] また、「MetricTag」は [!UICONTROL Metric Tag] データソース設定で定義されます。
+   指標は、毎日のデータ同期が完了した翌日（広告主のタイムゾーンの 05:00 から開始）に利用できます。 指標が使用可能になると、[[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) に表示されます。 新しいコンバージョン指標の名前はそれぞれ「`ga:backEndMetricName_propertyID_viewID`」です。ここで、「backEndMetricName」は API で使用される指標名です。 新しい各コンバージョン指標の表示名は「`friendlyMetricName_ga:MetricTag`」です。「friendlyMetricName」は [!DNL Google Analytics] に表示される指標名で、「MetricTag」はデータソース設定で定義された [!UICONTROL Metric Tag] です。
 
-   キャンペーン管理、ポートフォリオ管理のビュー、レポート、最適化の目標に指標を直接追加できます。
+   指標を、キャンペーン管理およびポートフォリオ管理のビュー、レポート、最適化の目標に直接追加できます。
 
 >[!MORELIKETHIS]
 >
->* [同期について [!DNL Google Analytics] コンバージョン指標](data-source-about.md)
->* [の設定の前提条件 [!DNL Google Analytics] データソース](data-source-prerequisites.md)
->* [の編集 [!DNL Google Analytics] データソース](data-source-edit.md)
->* [データソースの同期を一時停止する](data-source-pause.md)
->* [の再認証 [!DNL Google Analytics] データソース](data-source-reauthenticate.md)
->* [[!DNL Google Analytics] データソース設定](data-source-settings.md)
->* [付録 — 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)
+>* [ 同期  [!DNL Google Analytics]  コンバージョン指標について ](data-source-about.md)
+>* [ データソースを設定するため  [!DNL Google Analytics]  前提条件 ](data-source-prerequisites.md)
+>* [ データソース  [!DNL Google Analytics]  編集 ](data-source-edit.md)
+>* [ データソースの同期の一時停止 ](data-source-pause.md)
+>* [ データソース  [!DNL Google Analytics]  再認証 ](data-source-reauthenticate.md)
+>* [[!DNL Google Analytics]  データソース設定 ](data-source-settings.md)
+>* [ 付録 – 利用可能  [!DNL Google Analytics]  指標 ](data-source-ga-metrics.md)

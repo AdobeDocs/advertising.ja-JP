@@ -16,25 +16,25 @@ ht-degree: 0%
 
 再利用可能なオーディエンス（オーディエンスセグメントのグループや、複数のプレースメントのターゲットまたは除外として使用できる他の保存済みオーディエンスでさえグループ）を保存および管理できます。
 
-1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
+1. メインメニューで、**[!UICONTROL Audiences]**/**[!UICONTROL All Audiences]** をクリックします。
 
-1. データ テーブルの上で、 **[!UICONTROL Create]**.
+1. データ テーブルの上にある [**[!UICONTROL Create]**] をクリックします。
 
-1. 一意のを入力 **[!UICONTROL Audience Name]**.
+1. 一意の **[!UICONTROL Audience Name]** を入力します。
 
-1. （オプション）次のオプションを選択解除します **[!UICONTROL Share with all advertisers in my account]**.
+1. （オプション） **[!UICONTROL Share with all advertisers in my account]** すオプションの選択を解除します。
 
-   オーディエンスを共有すると、アカウント内のすべての広告主に対するターゲットまたは除外として、オーディエンスを使用できるようになります。 ただし、オーディエンスの個々のセグメントは、そのセグメントが共有されているユーザーのみが使用できます。 例えば、Adobe Analytics セグメントを含むオーディエンスを、同じ広告主にマッピングされていない広告主と共有する場合です [!DNL Analytics] アカウントに追加された場合、そのセグメントは、そのオーディエンスでその広告主向けにプレビューされません。 その広告主が使用できるセグメントのみがオーディエンスでプレビューされます。
+   オーディエンスを共有すると、アカウント内のすべての広告主に対するターゲットまたは除外として、オーディエンスを使用できるようになります。 ただし、オーディエンスの個々のセグメントは、そのセグメントが共有されているユーザーのみが使用できます。 例えば、同じ [!DNL Analytics] アカウントにマッピングされていない広告主とAdobe Analytics セグメントを含むオーディエンスを共有した場合、その広告主に対してそのオーディエンスでセグメントがプレビューされません。 その広告主が使用できるセグメントのみがオーディエンスでプレビューされます。
 
-1. クリック **[!UICONTROL Save]**.
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 1. オーディエンスを作成します。
 
    >[!NOTE]
    >
-   >オーディエンスを作成する際の詳細 [オーディエンスサイズデータ](audience-about.md) 右側のパネルで更新済み
+   >オーディエンスを作成すると、右側のパネルで詳細な [ オーディエンスサイズデータ ](audience-about.md) が更新されます
 
-   * で使用可能なセグメントを使用して、セグメントロジックを手動で作成するには [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments]、および [!UICONTROL Saved Audiences] タブ](audience-settings.md)、次の手順を実行します。
+   * 「[[!UICONTROL Third Party Segments]」、「[!UICONTROL First Party Segments]」、「[!UICONTROL Adobe Segments]」、「[!UICONTROL Custom Segments]」および「[!UICONTROL Saved Audiences]」タブで使用可能なセグメントを使用してセグメントロジックを手動で作成するには ](audience-settings.md) 次の手順を実行します。
 
       * 最初のセグメントを追加するには、左側のパネルでセグメントを見つけ、セグメント名の横にあるチェックボックスをオンにします。
 
@@ -42,9 +42,9 @@ ht-degree: 0%
 
          1. 右側のパネルでセグメントグループをクリックします。
 
-         1. （オプション）グループロジックをに変更します *[!UICONTROL Include Any]*, *[!UICONTROL Include All]*、または *[!UICONTROL Exclude All]*、必要に応じて。
+         1. （オプション）必要に応じて、グループロジックを *[!UICONTROL Include Any]*、*[!UICONTROL Include All]* または *[!UICONTROL Exclude All]* に変更します。
 
-            *[!UICONTROL Exclude All]* 最初のセグメントグループには使用できません。 除外のみを含むオーディエンスの場合、このオーディエンスをとして作成します *[!UICONTROL Include Any]* 次に、プレースメント内の除外オーディエンス メニューからオーディエンスを選択します。
+            最初のセグメントグループには *[!UICONTROL Exclude All]* は使用できません。 除外のみを含むオーディエンスの場合、このオーディエンスを *[!UICONTROL Include Any]* のように作成し、プレースメント内で除外オーディエンス メニューからオーディエンスを選択します。
 
          1. 左側のパネルで新しいセグメントを見つけ、セグメント名の横にあるチェックボックスをオンにします。
 
@@ -52,38 +52,38 @@ ht-degree: 0%
 
       * 新しいセグメントグループを追加するには：
 
-         1. クリック **[!UICONTROL + New Group]** 右側のパネルに表示されます。
+         1. 右側のパネルで「**[!UICONTROL + New Group]**」をクリックします。
 
-         1. （オプション）前のグループと新しいグループの間のロジックをに変更します *[!UICONTROL And]* または *[!UICONTROL Or]*、必要に応じて。
+         1. （オプション）必要に応じて、前のグループと新しいグループの間のロジックを *[!UICONTROL And]* または *[!UICONTROL Or]* に変更します。
 
          1. 左側のパネルで新しいグループのセグメントを見つけ、セグメント名の横にあるチェックボックスをオンにします。
 
-         1. （オプション）グループロジックをに変更します *[!UICONTROL Include Any]*, *[!UICONTROL Include All]*、または *[!UICONTROL Exclude All]*、必要に応じて。
+         1. （オプション）必要に応じて、グループロジックを *[!UICONTROL Include Any]*、*[!UICONTROL Include All]* または *[!UICONTROL Exclude All]* に変更します。
 
    * 既存のオーディエンスからセグメントロジックを使用するには：
 
       1. 次のいずれかの方法で、既存のオーディエンスからセグメントロジックをコピーします。
 
-         * すべてのオーディエンス ビューで、オーディエンス行の上にカーソルを置いてをクリックします **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+         * すべてのオーディエンス ビューで、オーディエンス行の上にカーソルを置き、**[!UICONTROL More]**/**[!UICONTROL Copy to Clipboard]** をクリックします。
 
-         * 既存オーディエンスの設定のセグメント論理パネルの上部で、をクリックします **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+         * 既存オーディエンスの設定のセグメント論理パネルの上部で、**[!UICONTROL More]**/**[!UICONTROL Copy to Clipboard]** をクリックします。
 
-         * テキストエディターで、英数字のセグメント ID とを使用して、セグメントロジックを手動で作成します。 [ブール構文](audience-segment-logic-syntax.md)を開き、クリップボードにコピーします。
+         * テキストエディターで、英数字のセグメント ID と [ ブール構文 ](audience-segment-logic-syntax.md) を使用してセグメントロジックを手動で作成し、クリップボードにコピーします。
 
-      1. クリック **[!UICONTROL paste in an audience rule to begin building]**&#x200B;をクリックし、既存のセグメントロジックを入力フィールドに貼り付けて、 **[!UICONTROL Apply]**.
+      1. 「**[!UICONTROL paste in an audience rule to begin building]**」をクリックし、既存のセグメントロジックを入力フィールドに貼り付けて、「**[!UICONTROL Apply]**」をクリックします。
 
          >[!NOTE]
          >
          >オーディエンスに既にセグメントロジックが含まれている場合、新しいセグメントロジックを貼り付けると、既存のロジックが上書きされます。
 
-1. クリック **[!UICONTROL Create]**.
+1. 「**[!UICONTROL Create]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [Audience Management について](audience-about.md)
->* [オーディエンス設定](audience-settings.md)
->* [オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
->* [利用可能なサードパーティデータプロバイダー](third-party-data-providers.md)
->* [カスタムセグメントの作成と実装](custom-segment-create.md)
->* [の作成と実装 [!UICONTROL CCPA Opt-Out-of-Sale] セグメント](ccpa-opt-out-segment-create.md)
->* [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Audience Management について ](audience-about.md)
+>* [ オーディエンス設定 ](audience-settings.md)
+>* [ オーディエンスセグメントロジックの構文 ](audience-segment-logic-syntax.md)
+>* [ 利用可能なサードパーティデータプロバイダー ](third-party-data-providers.md)
+>* [ カスタムセグメントの作成と実装 ](custom-segment-create.md)
+>* [[!UICONTROL CCPA Opt-Out-of-Sale] セグメントの作成と実装 ](ccpa-opt-out-segment-create.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)

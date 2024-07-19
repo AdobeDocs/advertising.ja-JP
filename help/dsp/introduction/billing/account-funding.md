@@ -1,33 +1,32 @@
 ---
-title: アカウント資金
-description: DSPのアカウント資金について説明します。
+title: 口座資金
+description: DSPのアカウント資金調達について説明します。
 feature: DSP Introduction
 exl-id: 95e1fd75-ed38-41e3-a464-afe5e23c1c22
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
-# Advertising DSP Account Funding
+# Advertising DSPアカウントの資金調達
 
-DSPファンドクライアントは、次の 2 つの方法のいずれかで、メディアおよびサービスの購入に対してアカウントを設定します。
+DSP funds クライアントは、次の 2 つの方法のいずれかでメディアおよびサービスの購入に対応します。
 
-* 顧客は前払い金額を提出し、その金額からゼロ残高に達するまで、サービスやメディアに使用されます。
-* Adobeは、評価済みの信用枠を提供します。
+* クライアントは事前に支払われた金額を提出し、そこからゼロ残高に達するまで資金がサービスやメディアに使用されます。
+* Adobeは評価済みの信用枠を提供します。
 
-すべての顧客は、Adobe・クレジット・チームによる契約の実行時に評価され、割り当てられます。 DSPは、支払前に配信されていない限り、割り当てられたクレジット・レベルに対する資金調達クライアント・アカウントをデフォルトにします。 アカウントの作成後 24 時間以内に資金が調達されます。
+すべてのクライアントは、契約締結時にAdobe・クレジット・チームによって評価され、クレジットが割り当てられます。 前払いが行われない限り、DSPはデフォルトで、クライアント口座に割り当てられたクレジットレベルを提供します。 アカウントの作成から 24 時間以内にアカウントへの入金が行われます。
 
-顧客がクレジットや前払いに対して支出を行うと、メディア・サービスの資金は、ゼロ残高に達するまで支出に応じて減少する。 請求書の支払いに応じてクレジットが調整されます。 未処理のAdobe請求書は、DSPの資金調達に影響を与える可能性があります。 すべての請求書のタイムリーな支払いは、お客様の責任でAdobeします。 使用可能な残高を超える資金が必要な場合は、DSPと連携して作業してください [!DNL Client Services] チーム。
+顧客がクレジットまたは前払いに対して支出すると、メディアおよびサービスの資金は、ゼロ残高に達するまで支出に応じて減少します。 請求書の支払い時にクレジットが調整されます。 未処理のAdobe請求書は、DSPの資金調達に影響を与える可能性があります。 すべてのAdobe請求書のタイムリーな支払いに責任があります。 使用可能な残高を超える資金が必要な場合は、DSP [!DNL Client Services] チームにお問い合わせください。
 
-クライアントアカウントの資金は、 [!DNL DSP]. 使用可能な残高を表示するには、「[!UICONTROL Usable Funds]」アカウントの購入通貨で、 [!UICONTROL Settings] > [!UICONTROL Account]. DSPユーザーのみ [!UICONTROL General] および [!UICONTROL Admin] ユーザーの役割では、 [!UICONTROL Usable Funds].
+クライアントアカウントの資金は、[!DNL DSP] でほぼリアルタイムで更新されます。 使用可能な残高を表示するには、アカウントの購買通貨で「[!UICONTROL Usable Funds]」と表示され、[!UICONTROL Settings]/[!UICONTROL Account] に移動します。 [!UICONTROL General] と [!UICONTROL Admin] のユーザーの役割を持つDSP ユーザーのみが [!UICONTROL Usable Funds] を表示できます。
 
-![勘定の使用可能な資金](/help/dsp/assets/account-usable-funds.png)
+![ 口座の利用可能資金等 ](/help/dsp/assets/account-usable-funds.png)
 
-Adobeは、DSPの違反を含む理由で、DSPへのアカウントの支出をブロックする権利を留保します [広告要件ポリシー](/help/policies/ad-requirements-policy.md) またはプライバシー条件。 Adobeがアカウントをブロックした場合、アカウント設定にブロックされた通知が含まれます。 DSPの操作 [!DNL Client Services] 代表者：ブロックの理由とエラーの修正方法を決定します。
+Adobeは、DSP [ad requirements policy](/help/policies/ad-requirements-policy.md) またはプライバシー条件に違反する理由を含め、アカウントがDSPに使用することをブロックする権利を留保します。 Adobeがアカウントをブロックする場合、アカウント設定にブロック通知が含まれます。 DSP [!DNL Client Services] 担当者と協力して、ブロックの理由とエラーの修正方法を判断します。
 
 >[!MORELIKETHIS]
 >
->* [サポートされる通貨](/help/dsp/currency.md)
-
+>* [ サポートされる通貨 ](/help/dsp/currency.md)

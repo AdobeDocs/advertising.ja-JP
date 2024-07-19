@@ -1,6 +1,6 @@
 ---
-title: 再リクエスト [!DNL On Demand] プレミアム在庫取引
-description: 再リクエスト方法を学ぶ [!DNL On Demand] 以前に拒否された契約。
+title: プレミアム在庫取引  [!DNL On Demand]  再要求
+description: 以前に拒否された取引を再リクエ  [!DNL On Demand]  トする方法を説明します。
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
@@ -10,53 +10,52 @@ ht-degree: 0%
 
 ---
 
-# 再リクエスト [!DNL On Demand] プレミアム在庫取引
+# [!DNL On Demand] Premium 在庫取引の再リクエスト
 
-*アカウントタイプを持つユーザーは利用できません [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension]、および [!UICONTROL Other];カテゴリを持つ広告主 [!UICONTROL Other];および販売者*
+*アカウントタイプが [!UICONTROL Ad Network]、[!UICONTROL Publisher Audience Extension]、[!UICONTROL Other] のユーザー、カテゴリが [!UICONTROL Other] の広告主、販売者は利用できません*
 
-再リクエストできます [!DNL On Demand] 拒否された在庫契約。購読したパブリッシャーの契約も含まれます。 新しいリクエストを送信する前に、該当するすべてのアカウント設定が正しいことを確認するには、次の手順に従います。
+購読しているパブリッシャーの取引 [!DNL On Demand] 含め、拒否された在庫取引を再度要求できます。 新しいリクエストを送信する前に、次の手順に従って、適用可能なすべてのアカウント設定が正しいことを確認します。
 
-契約の再要求後に契約が承認されない場合は、Adobeのアカウントチームに連絡して、発行者が追加の制限を持っているかどうかを確認し、アカウントによる契約へのアクセスを禁止します。
+契約を再度要求しても承認されない場合は、Adobeアカウントチームに問い合わせて、お客様のアカウントが契約にアクセスできないようにする追加の制限がパブリッシャーにあるかどうかを確認してください。
 
-契約が成立したら [承認済み](/help/dsp/inventory/on-demand-inventory-view-status.md)に含まれる場合は、デフォルトで、すべてをターゲットとする新しい配置のターゲットとして、 [!DNL On Demand] 在庫。 新しい契約は、既存の配置のターゲットとしても使用できますが、配置設定を手動で編集して、契約をターゲットとして追加する必要があります。
+契約が [ 承認 ](/help/dsp/inventory/on-demand-inventory-view-status.md) されると、すべての在庫をターゲットにする新しいプレースメントのターゲットとして、デフォルトで含ま [!DNL On Demand] ます。 新しい契約は、既存のプレースメントのターゲットとしても使用できますが、契約をターゲットとして追加するには、プレースメント設定を手動で編集する必要があります。
 
-1. Adobeアカウントチームに確認し、 [!UICONTROL Account Type] 組織のDSPアカウントが正しいことを確認してください。
+1. 組織のDSP アカウントの [!UICONTROL Account Type] が正しいことをAdobeアカウントチームに確認します。
 
 1. 該当する広告主アカウントの広告主カテゴリが正しいことを確認します。
 
-   1. メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Advertisers].**
+   1. メインメニューで、**[!UICONTROL Settings]**/**[!UICONTROL Advertisers].** をクリックします。
 
-   1. 広告主の行の上にカーソルを置き、 **[!UICONTROL Edit]**.
+   1. 広告主行の上にカーソルを置き、**[!UICONTROL Edit]** をクリックします。
 
-   1. 選択したカテゴリを選択します。
+   1. 選択したカテゴリを確認します。
 
-      「[!UICONTROL Other]」は次の条件を満たしていません。 [!UICONTROL On Demand] 在庫。 カテゴリが[!UICONTROL Other]」をクリックし、別のカテゴリを選択します。<!-- [category](/help/dsp/admin/advertiser-settings.md) -->.
+      「[!UICONTROL Other]」に分類された広告主は、[!UICONTROL On Demand] の在庫の対象外となります。 カテゴリが「[!UICONTROL Other]」で、他のカテゴリにする必要がある場合は、適切なカテゴリを選択します <!-- [category](/help/dsp/admin/advertiser-settings.md) -->。
 
-1. 在庫を再リクエスト：
+1. インベントリを再要求します。
 
-   1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
+   1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL On Demand]** をクリックします。
 
-   1. 利用可能な契約をフィルタリングして、リクエストした契約 (**[!UICONTROL Currently subscribed to]**)**。
+   1. 利用可能な取引をフィルタリングし、リクエストした取引を含めます（**[!UICONTROL Currently subscribed to]**）**。
 
-   1. （オプション） [!UICONTROL Subscription] 表示。フィルターに基づくすべての発行者のロゴと [!UICONTROL Deal] 「 」をクリックし、フィルターに基づいて各パブリッシャーのすべての契約が一覧表示されます。 **[!UICONTROL Subscription view]** および **[!UICONTROL Deal view]**&#x200B;必要に応じて。
+   1. （任意）必要に応じて、「**[!UICONTROL Subscription view]**」および「**[!UICONTROL Deal view]**」をクリックして、フィルターに基づくすべてのパブリッシャーのロゴを表示する [!UICONTROL Subscription] ビューと、フィルターに基づいて各パブリッシャーのすべての取引を一覧表示する [!UICONTROL Deal] ビューを切り替えます。
 
-   1. 個々の契約を再リクエストします。
-   * 次の [!UICONTROL Deal] 表示、クリック **[!UICONTROL Rerequest]** 内 [!UICONTROL Action] 」列をクリックします。
+   1. 個々の取引を再リクエストします。
 
-   * 次の [!UICONTROL Subscription] 表示：
+   * [!UICONTROL Deal] ビューで、関連する行の [!UICONTROL Action] 列の **[!UICONTROL Rerequest]** をクリックします。
 
-      1. 発行者のロゴの上にカーソルを置き、 **[!UICONTROL See Deals]**.
+   * [!UICONTROL Subscription] ビューで、次の操作を行います。
 
-      1. クリック **[!UICONTROL Rerequest]** 内 [!UICONTROL Action] 」列をクリックします。
+      1. 発行元のロゴの上にカーソルを置き、[**[!UICONTROL See Deals]**] をクリックします。
 
+      1. 該当する行の [!UICONTROL Action] 列の「**[!UICONTROL Rerequest]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [について [!DNL On Demand] プレミアム在庫](on-demand-inventory-about.md)
->* [ステータスの表示 [!DNL On Demand] 契約リクエストと購読](on-demand-inventory-view-status.md)
->* [購読してへのアクセスをリクエスト [!DNL On Demand] プレミアム在庫](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] アジア太平洋地域の Premium Inventory Publishers](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] オーストラリアとニュージーランドの Premium Inventory Publishers](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] ヨーロッパ、中東、アフリカの Premium Inventory Publishers](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] 北米の Premium Inventory Publishers](on-demand-inventory-publishers-na.md)
-
+>* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
+>* [ 取引リクエストと購読  [!DNL On Demand]  ステータスの表示 ](on-demand-inventory-view-status.md)
+>* [Premium インベントリのサブスクライブとアクセス  [!DNL On Demand]  リクエスト ](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand]  アジア太平洋のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-na.md)

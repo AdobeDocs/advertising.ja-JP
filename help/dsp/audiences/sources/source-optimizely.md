@@ -1,6 +1,6 @@
 ---
-title: からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル ID に
-description: DSPでのデータの取り込みを有効にする方法を説明します [!DNL Optimizely] ファーストパーティセグメント。
+title: ユーザー ID をユニバーサル ID [!DNL Optimizely]  からユニバーサル ID に変換
+description: DSPでファーストパーティセグメントを取り込む方法  [!DNL Optimizely]  説明します。
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
 source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
@@ -10,69 +10,69 @@ ht-degree: 0%
 
 ---
 
-# からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル ID に
+# ユーザー ID を [!DNL Optimizely] からユニバーサル ID に変換
 
 *Beta機能*
 
-とのDSP統合の使用 [!DNL Optimizely] 顧客データプラットフォーム：組織のファーストパーティのハッシュ化されたメールアドレスをターゲット広告のためにユニバーサル ID に変換します。
+DSPと [!DNL Optimizely] customer data platform の統合を使用すると、組織のファーストパーティのハッシュ化されたメールアドレスを、ターゲット広告のためのユニバーサル ID に変換できます。
 
-1. （メールアドレスを変換： [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->、を使用する広告主 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)） [有効化するトラッキングの設定 [!DNL Analytics] 測定](#analytics-tracking).
+1. （メールアドレスを [!DNL RampIDs]<!-- or [!DNL ID5] IDs --> に変換するには：[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) を使用する広告主） [ トラッキングを設定して有効  [!DNL Analytics]  測定 ](#analytics-tracking) します。
 
-1. [DSPでのオーディエンスソースの作成](#source-create).
+1. [DSPでオーディエンスソースを作成 ](#source-create) します。
 
-1. [セグメントデータの準備とプッシュ](#push-data).
+1. [ セグメントデータの準備とプッシュ ](#push-data)。
 
-1. [ユニバーサル ID の数とハッシュ化されたメールアドレスの数の比較](#compare-id-count).
+1. [ ユニバーサル ID の数とハッシュ化されたメールアドレスの数を比較 ](#compare-id-count)。
 
-## 手順 1：のトラッキングの設定 [!DNL Analytics] 測定 {#analytics-tracking}
+## 手順 1:[!DNL Analytics] 測定のトラッキングの設定 {#analytics-tracking}
 
-*を使用した広告主 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)）*
+*[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) を使用する広告主）*
 
-メールアドレスをに変換するには [!DNL RampIDs] または [!DNL ID5] ID に関しては、次の手順を実行する必要があります。
+メールアドレスを [!DNL RampIDs] ID または [!DNL ID5] ID に変換するには、次の手順を実行する必要があります。
 
-1. （まだ完了していない場合）すべて完了 [実装の前提条件 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) また、次のことを確認します [AMO ID と EF ID](/help/integrations/analytics/ids.md) はトラッキング URL に入力されています。
+1. （まだ行っていない場合）すべての [ 実装の前提条件  [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) を完了し、[AMO ID と EF ID](/help/integrations/analytics/ids.md) がトラッキング URL に入力されていることを確認します。
 
 1. ユニバーサル ID パートナーに登録し、Web ページにユニバーサル ID 固有のコードをデプロイして、デスクトップおよびモバイル Web ブラウザーの ID からビュースルーへのコンバージョンに一致させます（モバイルアプリは除く）。
 
-   * **の場合 [!DNL RampIDs]:** デスクトップブラウザーとモバイル web ブラウザー（モバイルアプリではない）の ID からビュースルーへのコンバージョンに一致させるために、web ページに追加のJavaScript タグをデプロイする必要があります。 Adobeアカウントチームにお問い合わせください。チームからは、に登録するための手順が示されます [!DNL LiveRamp] [!DNL LaunchPad] tag from [!DNL LiveRamp] 認証トラフィックソリューション。 登録は無料ですが、契約書に署名する必要があります。 登録後、Adobeアカウントチームは、組織が web ページに実装するための一意のタグを生成し、提供します。
+   * **[!DNL RampIDs]:** デスクトップおよびモバイル web ブラウザーの ID からビュースルーへのコンバージョンに一致するように、web ページに追加のJavaScript タグをデプロイする必要があります（モバイルアプリは除く）。 Adobeアカウントチームに問い合わせてください。このチームには、[!DNL LiveRamp] Authentication Traffic Solutions の [!DNL LiveRamp] [!DNL LaunchPad] タグを登録する手順が記載されています。 登録は無料ですが、契約書に署名する必要があります。 登録後、Adobeアカウントチームは、組織が web ページに実装するための一意のタグを生成し、提供します。
 
 ## 手順 2:DSPでのオーディエンスソースの作成 {#source-create}
 
-1. [オーディエンスソースの作成](source-manage.md) オーディエンスをDSP アカウントまたは広告主アカウントに読み込みます。 ユーザー識別子を任意のに変換することもできます [使用可能なユニバーサル ID 形式](source-about.md).
+1. [ オーディエンスソースを作成 ](source-manage.md) して、オーディエンスをDSP アカウントまたは広告主アカウントにインポートします。 ユーザー識別子を任意の [ 使用可能なユニバーサル ID 形式 ](source-about.md) に変換するよう選択できます。
 
    ソース設定には、自動生成されたソースキーが含まれ、セグメントデータのプッシュに使用されます。
 
-1. オーディエンスソースを作成したら、ソースコードキーをと共有します。 [!DNL Optimizely] ユーザー。
+1. オーディエンスソースを作成したら、[!DNL Optimizely] ユーザーとソースコードキーを共有します。
 
 ## 手順 3：セグメントデータの準備とプッシュ {#push-data}
 
-広告主は、 [!DNL Optimizely Data Platform]. プロセスに関するご質問については、にお問い合わせください [!DNL Optimizely] 代表者。
+広告主は、[!DNL Optimizely Data Platform] を使用してデータを準備し、プッシュする必要があります。 プロセスに関するご質問については、[!DNL Optimizely] 担当者にお問い合わせください。
 
-1. 内 [!DNL Optimizely Data Platform]は、SHA-256 アルゴリズムを使用してオーディエンスのメール ID をハッシュ化します。
+1. [!DNL Optimizely Data Platform] 内で、SHA-256 アルゴリズムを使用して、オーディエンスのメール ID をハッシュ化します。
 
-1. フォロー`s [[!DNL Optimizely's] セグメントをDSPにプッシュする手順](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads). 統合を有効にするには、以下の情報を含めます。
+1. の [[!DNL Optimizely's]  手順に従って、セグメントをDSPにプッシュします ](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads)。 統合を有効にするには、以下の情報を含めます。
 
-   * **Source キー：** これは、で作成されたソースキーです。 [手順 2](#source-create).
+   * **Source キー：** これは、[ 手順 2](#source-create) で作成されたソースキーです。
 
-   * **アカウント コード：** これは、DSP内の次の場所にある、英数字のDSP アカウントコードです。 [!UICONTROL Settings] > [!UICONTROL Account].
+   * **アカウントコード：** 英数字のDSP アカウントコードで、DSPの [!UICONTROL Settings]/[!UICONTROL Account] にあります。
 
-セグメントは、広告主の設定に従って更新されます。 セグメントの更新頻度に関係なく、セグメントへの追加は、デフォルトで 30 日後、または顧客が指定した有効期限が切れた後に期限切れになります。 から再プッシュしてセグメントを更新 [!DNL Optimizely] 有効期限の前。 カスタムセグメントの有効期限をリクエストするには、Adobeアカウントチームにお問い合わせください。
+セグメントは、広告主の設定に従って更新されます。 セグメントの更新頻度に関係なく、セグメントへの追加は、デフォルトで 30 日後、または顧客が指定した有効期限が切れた後に期限切れになります。 有効期限が切れる前に [!DNL Optimizely] からセグメントを再プッシュして、セグメントを更新します。 カスタムセグメントの有効期限をリクエストするには、Adobeアカウントチームにお問い合わせください。
 
 ## 手順 4：ユニバーサル ID の数とハッシュ化されたメールアドレスの数の比較 {#compare-id-count}
 
 セグメントは、24 時間以内にDSPで使用可能になります。 DSPがセグメントデータを受信したら、オーディエンス数は 9 時間以内に表示されます。
 
-オーディエンスライブラリでの検証（オーディエンスの作成または編集時に使用できます） [!UICONTROL Audiences] > [!UICONTROL All Audiences] またはプレースメント設定内）を使用して、セグメントを使用可能で設定済みの汎用 ID の数を、元のハッシュ化されたメールアドレスの数と比較します。 許容可能な ID 翻訳率と、セグメント数が変化する理由について詳しくは、「」を参照してください。[メール ID とユニバーサル ID のデータの相違](#universal-ids-data-variances).」と入力します。
+オーディエンスライブラリ（[!UICONTROL Audiences]/[!UICONTROL All Audiences] またはプレースメント設定内でオーディエンスを作成または編集する場合に使用できます）で、セグメントが使用可能であり、入力されていることを確認し、ユニバーサル ID の数を元のハッシュ化されたメールアドレスの数と比較します。 許容可能な ID 翻訳率と、セグメント数が変化する理由について詳しくは、「[ メール ID とユニバーサル ID の間のデータの相違 ](#universal-ids-data-variances) を参照してください。
 
 ## トラブルシューティング
 
-翻訳率とユーザー数の問題のトラブルシューティングについては、「」を参照してください。[ユニバーサル ID の有効化のサポート](/help/dsp/audiences/universal-ids.md).」と入力します。
+翻訳率とユーザー数の問題のトラブルシューティングについては、「[ ユニバーサル ID のアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)」を参照してください。
 
-コンバージョン手順に関する問題のトラブルシューティングについては、Adobeアカウントチームまたは `adcloud-support@adobe.com`.
+コンバージョン手順に関する問題のトラブルシューティングについては、Adobeアカウントチームまたは `adcloud-support@adobe.com` に問い合わせてください。
 
 >[!MORELIKETHIS]
 >
->* [ファーストパーティオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
->* [オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化](source-manage.md)
->* [ユニバーサル ID の有効化のサポート](/help/dsp/audiences/universal-ids.md)
->* [Audience Management について](/help/dsp/audiences/audience-about.md)
+>* [ ファーストパーティオーディエンスソースについて ](/help/dsp/audiences/sources/source-about.md)
+>* [ ユニバーサル ID オーディエンスをアクティブ化するためのオーディエンスソースの管理 ](source-manage.md)
+>* [ ユニバーサル ID のアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)
+>* [Audience Management について ](/help/dsp/audiences/audience-about.md)

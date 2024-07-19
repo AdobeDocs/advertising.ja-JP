@@ -1,33 +1,33 @@
 ---
-title: '''[!DNL Baidu] キャンペーン設定'
-description: 次の設定を参照してください： [!DNL Baidu] キャンペーン。
-exl-id: 842df637-e7dc-4493-bcdb-a29b478cd350
+title: '[!DNL Baidu] キャンペーン設定'
+description: キャンペーンの設定  [!DNL Baidu]  参照します。
+exl-id: bc8ec4e2-4b40-4c9d-8223-29143fe63784
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
-# [!DNL Baidu] キャンペーン設定
+# [!DNL Baidu] キャンペーンの設定
 
 ## \[ キャンペーン作成画面\]
 
-**[!UICONTROL Campaign Type]:** （キャンペーンの作成時のみ使用可能）広告の配置場所。 以下のみが該当します。 *ネットワークのみを検索*.
+**[!UICONTROL Campaign Type]:** （キャンペーンの作成時にのみ使用可能）広告の配置場所。 唯一のは *ネットワークを検索のみ* です。
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** アカウント内で一意のキャンペーン名。 最大の長さは 15 の 2 バイト文字です。
+**[!UICONTROL Campaign Name]:** アカウント内で一意のキャンペーン名。 最大長は 15 文字の 2 バイト文字です。
 
 **[!UICONTROL Ad Serving]:**
-検索エンジンが広告グループ内のお互いに関連してアクティブな広告を配信する頻度はどれくらいですか。
+検索エンジンが広告グループ内でアクティブな広告を相互に関連させて配信する頻度：
 
-* *[!UICONTROL Rotate]* （新しいキャンペーンのデフォルト）：各広告は、広告オークションに入る確率が同じです。
+* *[!UICONTROL Rotate]* （新しいキャンペーンのデフォルト）：各広告の広告オークションへのエントリ確率は同じです。
 
-* *[!UICONTROL Optimize]:*  広告ネットワークは、パフォーマンスの高い広告を優先します。 これは、ビジネス目標や最適化目標と一致しない場合があります。
+* *[!UICONTROL Optimize]:* 広告ネットワークは、より良いパフォーマンスの広告を好みます。 これは、ビジネス目標や最適化目標と一致しない場合があります。
 
-**[!UICONTROL Status]:** キャンペーンの表示ステータス： *アクティブ* または *一時停止*. 新しい広告キャンペーンのデフォルトは、 *アクティブ*.
+**[!UICONTROL Status]:** キャンペーンの表示ステータス：*アクティブ* または *一時停止*。 新しい広告キャンペーンのデフォルトは *アクティブ* です。
 
 ## [!UICONTROL Budget Options]
 
@@ -83,4 +83,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [ キャンペーンの管理 ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)

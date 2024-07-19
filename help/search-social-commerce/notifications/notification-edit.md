@@ -1,48 +1,48 @@
 ---
-title: 通知設定を編集
+title: 通知設定の編集
 description: 通知の設定を編集する方法を説明します。
-exl-id: bcfbecf4-ed1d-4afe-a42d-e584d6837db8
+exl-id: b60d3abe-10ec-4fc0-8c91-6b329a3e9ecc
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# 通知設定を編集
+# 通知設定の編集
 
-*ベータ版機能*
+*Beta機能*
 
-オプションで、アカウント認証エラーに関する電子メールおよび Web 通知、トリガーされるすべてのカスタムアラートおよび [!UICONTROL Advertising Insights] 生成する
+オプションで、アカウント認証エラー、トリガーされるすべてのカスタムアラート、および生成する [!UICONTROL Advertising Insights] ールの完了に関するメールおよび web 通知を購読または購読解除できます。
 
 1. 次のいずれかの方法で通知設定を開きます。
 
-   * ページの右上にある、 ![通知](/help/search-social-commerce/assets/notifications-panel.png "通知") 開く [!UICONTROL Notifications] パネル。 右上で、 ![設定](/help/search-social-commerce/assets/settings-nc.png "設定").
+   * ページの右上で、「![ 通知 ](/help/search-social-commerce/assets/notifications-panel.png " 通知 ")」をクリックして、[!UICONTROL Notifications] のパネルを開きます。 右上で、「![設定](/help/search-social-commerce/assets/settings-nc.png "設定")」をクリックします。
 
-   * メインメニューで、 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**. 左側のメニューで、 ![設定](/help/search-social-commerce/assets/settings-nc.png "設定").
+   * メインメニューで、**[!UICONTROL Search]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。 左側のメニューで、![ 設定 ](/help/search-social-commerce/assets/settings-nc.png " 設定 ") をクリックします。
 
-1. の設定を変更します。 [通知カテゴリ](notification-about.md):
+1. 任意の [ 通知カテゴリ ](notification-about.md) の設定を変更します。
 
-   * 通知を購読または購読解除するには、 [!UICONTROL Subscribe] 列：
+   * 通知を購読または購読解除するには、[!UICONTROL Subscribe] 列のスライダーを移動します。
 
-      * すべての通知タイプを購読解除するには、スライダーを左に動かします（無効）。
+      * すべての通知タイプの購読を解除するには、スライダーを左に移動します（無効）。
 
-      * 1 つ以上の通知タイプを購読するには、スライダーを右に動かします（有効）。
+      * 1 つ以上の通知タイプを購読するには、スライダーを右に移動（有効）します。
 
-   * (When [!UICONTROL Subscribe] が有効になっている ) 電子メール通知を購読するには、 **[!UICONTROL Email]** 列。
+   * （[!UICONTROL Subscribe] が有効な場合）メール通知を購読するには、「**[!UICONTROL Email]**」列のチェックボックスをオンにします。
 
-   * (When [!UICONTROL Subscribe] が無効 ) 検索、ソーシャル、コマース、プッシュ通知内で Web 通知を購読する（ブラウザーで有効になっている場合）に、その通知のチェックボックスをオンにします。 **[!UICONTROL Web]** 列。
+   * （[!UICONTROL Subscribe] が無効の場合）ブラウザーで有効になっている場合に検索、ソーシャル、Commerce内の web 通知およびプッシュ通知を購読するには、「**[!UICONTROL Web]**」列のチェックボックスをオンにします。
 
-     Web 通知は、次の場合にのみ配信されます。 [プッシュ通知を有効にする](notifications-push-enable-disable.md) をブラウザーに追加します。
+     Web 通知は、ブラウザーに [ プッシュ通知を有効にする ](notifications-push-enable-disable.md) 場合にのみ配信されます。
 
-1. クリック **[!UICONTROL Save]**.
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [通知について](/help/search-social-commerce/notifications/notification-about.md)
->* [通知を表示する](notification-view.md)
->* [通知を既読または未読としてマーク](notification-mark-read-unread.md)
->* [通知の削除](notification-delete.md)
->* [次のプッシュ通知を有効/無効にする： [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
->* [をインストールしてアンインストールします。 [!UICONTROL Notification Center] web アプリケーション](notification-app-install-uninstall.md)
+>* [ 通知について ](/help/search-social-commerce/notifications/notification-about.md)
+>* [ 通知の表示 ](notification-view.md)
+>* [ 通知を既読または未読としてマーク ](notification-mark-read-unread.md)
+>* [ 通知の削除 ](notification-delete.md)
+>* [[!UICONTROL Notification Center]](notifications-push-enable-disable.md) からのプッシュ通知の有効化と無効化
+>* [[!UICONTROL Notification Center] Web アプリケーションをインストールしてアンインストールする ](notification-app-install-uninstall.md)

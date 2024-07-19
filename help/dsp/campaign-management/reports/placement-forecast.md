@@ -27,7 +27,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Summary]:**
 
-   * **[!UICONTROL Estimated CPM]:** ターゲティング設定が到達すると予想される、インプレッション数 1000 人当たりの推定コスト（eCPM）。
+   * **[!UICONTROL Estimated CPM]:** ターゲット設定が到達すると予想される、1,000 件のインプレッション数（eCPM）あたりの推定コスト。
 
    * **[!UICONTROL Budget]:** ターゲティング設定の推定予算。
 
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 ## プレースメント予測レポートを開きます
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
-1. キャンペーンの名前をクリックし、 **[!UICONTROL Placements]**.
+1. キャンペーンの名前をクリックし、「**[!UICONTROL Placements]**」をクリックします。
 
-1. プレースメント名の横にある「」をクリックします  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Edit]** をクリックします。
 
-1. を見つけます。 **[!UICONTROL Forecast]** 右上の「」セクション 必要に応じて、 ![予測](/help/dsp/assets/placement-forecast.png).
+1. 右上の **[!UICONTROL Forecast]** セクションを見つけます。 必要に応じて、「![Forecast](/help/dsp/assets/placement-forecast.png)」をクリックします。
 
    >[!NOTE]
    >
@@ -81,6 +81,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management ビューでのパフォーマンスレポートのタイプ](campaign-reports-about.md)
->* [プレースメント診断レポートの表示](/help/dsp/campaign-management/reports/placement-diagnostics.md)
->* [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ ](campaign-reports-about.md)
+>* [ プレースメント診断レポートの表示 ](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)

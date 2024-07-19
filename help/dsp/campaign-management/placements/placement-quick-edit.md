@@ -18,24 +18,24 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> プレースメント設定を編集するには、「」を参照してください[プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md).」と入力します。
+> プレースメント設定を編集するには、「[ プレースメントの編集 ](/help/dsp/campaign-management/placements/placement-edit.md) を参照してください。
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 1. キャンペーンの名前をクリックします。
-1. サブメニューで、 **[!UICONTROL Placements]**.
-1. プレースメント名の横にある「」をクリックします  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
-1. 利用可能なを編集します [プレースメント設定](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**、および **[!UICONTROL Budget]**.
-1. クリック **[!UICONTROL Apply]**.
+1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
+1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Quick Edit]** をクリックします。
+1. 使用可能な [ プレースメント設定 ](placement-settings.md)**[!UICONTROL Placement Name]**、**[!UICONTROL Status]**、**[!UICONTROL Max Bid]**、**[!UICONTROL Budget]** のいずれかを編集します。
+1. 「**[!UICONTROL Apply]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [プレースメント管理について](placement-about.md)
->* [プレースメントの作成](placement-create.md)
->* [プレースメントを編集](placement-edit.md)
->* [プレースメントの複製](placement-duplicate.md)
->* [プレースメントの入札乗数の管理](placement-manage-bid-multipliers.md)
->* [プレースメントの広告スケジュールの編集](placement-edit-ad-schedule.md)
->* [プレースメントの一時停止またはアクティブ化](placement-pause-activate.md)
->* [プレースメントの変更ログの表示](placement-change-log.md)
->* [プレースメント設定](placement-settings.md)
->* [ビデオ：一括編集ツールを使用してプレースメントを編集する方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [ プレースメント管理について ](placement-about.md)
+>* [ プレースメントの作成 ](placement-create.md)
+>* [ プレースメントを編集 ](placement-edit.md)
+>* [ プレースメントの複製 ](placement-duplicate.md)
+>* [ プレースメントの入札乗数の管理 ](placement-manage-bid-multipliers.md)
+>* [ プレースメントの広告スケジュールの編集 ](placement-edit-ad-schedule.md)
+>* [ プレースメントの一時停止またはアクティブ化 ](placement-pause-activate.md)
+>* [ プレースメントの変更ログを表示 ](placement-change-log.md)
+>* [ プレースメント設定 ](placement-settings.md)
+>* [ ビデオ：一括編集ツールを使用してプレースメントを編集する方法 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

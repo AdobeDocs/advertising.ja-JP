@@ -20,30 +20,30 @@ ht-degree: 0%
 >
 >レコメンデーションはキャンペーンのパフォーマンスの向上に役立ちますが、より広い目標に合致しない場合があります。 そのため、レコメンデーションを導入する前に、Adobeアカウントチームに相談することをお勧めします。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Recommendations & Publisher Insights]** をクリックします。
 
 1. 右上で、広告ネットワークとアカウントを選択します。
 
-   の場合 [!DNL Microsoft Advertising] アカウント、 [!UICONTROL Recommendations] のアカウントはデフォルトで表示されます。
+   [!DNL Microsoft Advertising] アカウントの場合、そのアカウントの [!UICONTROL Recommendations] がデフォルトで表示されます。
 
 1. （任意）カテゴリおよびタイプでレコメンデーションをフィルタリングします。
 
-1. が含まれる [!UICONTROL Actions] 列「recommendation」または「insight」行で、 **[!UICONTROL View]**.
+1. レコメンデーションまたはインサイト行の [!UICONTROL Actions] 列で、「**[!UICONTROL View]**」をクリックします。
 
-1. （サブレコメンデーションを含むRecommendations）クリック **[!UICONTROL View]** サブレコメンデーションの横にあります。
+1. （サブレコメンデーションのあるRecommendations）サブレコメンデーションの横にある「**[!UICONTROL View]**」をクリックします。
 
 1. （オプション）次のいずれかの操作をおこないます。
 
-   * レコメンデーションを適用するには、 **[!UICONTROL Apply]**.
+   * レコメンデーションを適用するには、「**[!UICONTROL Apply]**」をクリックします。
 
      レコメンデーションの適用には、レコメンデーションのサイズに応じて、ミリ秒から数秒かかる場合があります。
 
-   * レコメンデーションを解除するには、をクリックします **[!UICONTROL Dismiss]**.
+   * レコメンデーションを解除するには、「**[!UICONTROL Dismiss]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [パブリッシャーの推奨事項とインサイトのサポートについて](recommendation-support.md)
->* [パブリッシャーの推奨事項とパフォーマンスインサイトを表示する](recommendation-view.md)
->* [アカウントの公開者レコメンデーションログの表示](recommendation-view-log.md)
->* [パブリッシャーのレコメンデーションをポートフォリオで使用する際のベストプラクティス](recommendation-best-practices.md)
+>* [ パブリッシャーのレコメンデーションとインサイトのサポートについて ](recommendation-support.md)
+>* [ パブリッシャーの推奨事項とパフォーマンスインサイトを表示する ](recommendation-view.md)
+>* [ アカウントの公開者レコメンデーションログの表示 ](recommendation-view-log.md)
+>* [ パブリッシャーのレコメンデーションをポートフォリオで使用する際のベストプラクティス ](recommendation-best-practices.md)
 

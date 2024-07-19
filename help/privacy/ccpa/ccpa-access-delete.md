@@ -1,5 +1,5 @@
 ---
-title: カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者データのアクセスと削除のサポート
+title: California Consumer Privacy Act &#58; Consumer Data Access and Delete のサポートのAdobe Advertisingサポート
 description: サポートされるデータリクエストタイプ、必須の設定およびフィールド値、従来の製品 ID と返されたデータフィールドを使用した API アクセスリクエストの例について説明します。
 feature: CCPA
 role: User, Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者データのアクセスと削除のサポート
 
-*の場合 [!DNL Adobe Advertising Search, Social, & Commerce]、Adobe Advertising DSP、Adobe Advertising Creative、Adobe AdvertisingDCO*
+*[!DNL Adobe Advertising Search, Social, & Commerce]:Adobe Advertising DSP、Adobe Advertising Creative、Adobe AdvertisingDCO*
 
 >[!IMPORTANT]
 >
@@ -25,49 +25,49 @@ ht-degree: 0%
 
 Adobe Advertisingは、お客様のサービスプロバイダーとして、個人情報へのアクセスおよび削除要求の管理、個人情報のAdobe Advertisingのオプトアウト要求の管理など、お客様のビジネスが CCPA に基づく個人情報およびサービスの使用に適用される義務を履行するためのサポートを提供します。
 
-このドキュメントでは、その方法を説明します [!DNL Advertising Search, Social, & Commerce]、Advertising Creative、Advertising DSP（Demand Side Platform）、および [!DNL Advertising DCO]  – サービスプロバイダーとして – Adobeを使用して、個人情報へのアクセスおよび削除に関する消費者の権利をサポートします [!DNL Experience Platform Privacy Service API] および [!DNL Privacy Service UI].
+このドキュメントでは、[!DNL Advertising Search, Social, & Commerce]、Advertising Creative、Advertising DSP（Demand Side Platform）、および [!DNL Advertising DCO] （サービスプロバイダー）が、Adobe[!DNL Experience Platform Privacy Service API] および [!DNL Privacy Service UI] を使用して、個人情報にアクセスおよび削除する消費者の権利をサポートする方法について説明します。
 
-Advertising DSPが個人情報の販売をオプトアウトする消費者の権利をサポートする方法について詳しくは、以下を参照してください。 [カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者オプトアウトサポート](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+Advertising DSPがどのように個人情報の販売をオプトアウトする消費者権利をサポートするかについては、[California Consumer Privacy Act: Consumer Opt-out Support のAdobe Advertising サポート ](/help/privacy/ccpa/ccpa-opt-out-of-sale.md) を参照してください。
 
-CCPA のAdobe プライバシーサービスの詳細については、次を参照してください。 [Adobe プライバシーセンター](https://www.adobe.com/privacy/ccpa.html).
+CCPA のAdobe プライバシーサービスの詳細については、[Adobe プライバシーセンター ](https://www.adobe.com/privacy/ccpa.html) を参照してください。
 
 ## Adobe Advertisingでサポートされるデータリクエストタイプ
 
 Adobe Experience Platformには、企業が次のタスクを実行する機能が用意されています。
 
-* 内で消費者の cookie レベルのデータまたはデバイス ID レベルのデータ（モバイルアプリの広告用）にアクセスします [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]、または [!DNL DCO].
-* 内に保存された cookie レベルのデータの削除 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]、または [!DNL DCO] ブラウザーを使用しているコンシューマーの場合、または内に保存されている ID レベルのデータを削除する場合 [!DNL DSP] モバイルデバイスでアプリを使用する消費者の場合。
+* [!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP] または [!DNL DCO] 内で、消費者の cookie レベルのデータまたはデバイス ID レベルのデータ（モバイルアプリの広告の場合）にアクセスします。
+* ブラウザーを使用しているコンシューマー向けに、[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP] または [!DNL DCO] に保存された cookie レベルのデータを削除します。または、モバイルデバイス上のアプリを使用しているコンシューマー向けに、[!DNL DSP] に保存された ID レベルのデータを削除します。
 * 1 つまたはすべての既存のリクエストのステータスを確認します。
 
 ## Adobe Advertisingリクエストを送信するために必要な設定
 
 Adobe Advertisingから消費者の個人情報へのアクセスおよび削除をリクエストするには、次の操作が必要です。
 
-1. JavaScript ライブラリをデプロイして、顧客の Cookie を取得および削除します。 同じライブラリ、 `AdobePrivacy.js`は、すべてのAdobe Experience Cloud ソリューションで使用されます。
+1. JavaScript ライブラリをデプロイして、顧客の Cookie を取得および削除します。 同じライブラリ `AdobePrivacy.js` は、すべてのAdobe Experience Cloud ソリューションで使用されます。
 
    >[!IMPORTANT]
    >
-   >一部のExperience Cloudソリューションへのリクエストには JavaScript ライブラリは必要ありませんが、Adobe Advertisingへのリクエストには必要です。
+   >一部のExperience CloudソリューションへのリクエストにはJavaScript ライブラリは必要ありませんが、Adobe Advertisingへのリクエストには必要です。
 
-   会社のプライバシーポータルなど、顧客がアクセスリクエストや削除リクエストを送信できる web ページにライブラリをデプロイする必要があります。 ライブラリを使用すると、Adobe Cookie （名前空間 ID: `gsurferID`を使用して、これらの ID をアクセスリクエストおよび削除リクエストの一部として送信できるように [!DNL Adobe Experience Platform Privacy Service API].
+   会社のプライバシーポータルなど、顧客がアクセスリクエストや削除リクエストを送信できる web ページにライブラリをデプロイする必要があります。 ライブラリは、Adobe Cookie （名前空間 ID:`gsurferID`）を取得するのに役立ち、[!DNL Adobe Experience Platform Privacy Service API] を介したアクセスリクエストや削除リクエストの一部としてこれらの ID を送信できます。
 
    お客様から個人データの削除を求められると、ライブラリはお客様のブラウザーからお客様の Cookie も削除します。
 
    >[!NOTE]
    >
-   >個人データの削除は、オプトアウトとは異なります。オプトアウトすると、オーディエンスセグメントを使用したエンドユーザーのターゲティングが停止します。 ただし、消費者がから個人データを削除するように求めた場合は、 [!DNL Creative], [!DNL DSP]、または [!DNL DCO]また、ライブラリは、セグメントターゲティングからAdobe Advertisingをオプトアウトするリクエストを顧客に送信します。 を使用する広告主向け [!DNL Search, Social, & Commerce]の場合は、次へのリンクを顧客に提供することをお勧めします [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse)オーディエンスセグメントのターゲティングをオプトアウトする方法を説明します。
+   >個人データの削除は、オプトアウトとは異なります。オプトアウトすると、オーディエンスセグメントを使用したエンドユーザーのターゲティングが停止します。 ただし、消費者が [!DNL Creative]、[!DNL DSP]、[!DNL DCO] から個人データを削除するように要求すると、ライブラリはセグメントターゲティングからAdobe Advertisingをオプトアウトするリクエストも送信します。 [!DNL Search, Social, & Commerce] を使用している広告主の場合は、オーディエンスセグメントターゲティングをオプトアウトする方法を説明したリンク [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse) を顧客に提供することをお勧めします。
 
 1. Experience Cloud組織 ID を特定し、その ID がAdobe Advertisingアカウントにリンクされていることを確認します。
 
-   Experience Cloud組織 ID は、24 文字の英数字から成る文字列の後に「@AdobeOrg」を付けたものです。 ほとんどのExperience Cloudのお客様には、組織 ID が割り当てられています。 マーケティングチームまたは社内の場合 [!DNL Adobe] システム管理者が組織 ID を把握していないか、プロビジョニングされているかどうかわからない場合は、Adobeアカウントチームにお問い合わせください。 を使用してプライバシー API にリクエストを送信するには、組織 ID が必要です。 `imsOrgID` 名前空間。
+   Experience Cloud組織 ID は、24 文字の英数字から成る文字列の後に「@AdobeOrg」を付けたものです。 ほとんどのExperience Cloudのお客様には、組織 ID が割り当てられています。 マーケティングチームまたは社内の [!DNL Adobe] システム管理者が組織 ID を把握していない場合や、組織 ID がプロビジョニングされているかどうかわからない場合は、Adobeアカウントチームにお問い合わせください。 `imsOrgID` 名前空間を使用して Privacy API にリクエストを送信するには、組織 ID が必要です。
 
    >[!IMPORTANT]
    >
-   >以下を含む組織のすべてのAdobe Advertisingアカウントを確認するには、Adobe Advertising担当者にお問い合わせください [!DNL DSP] アカウントまたは広告主、 [!DNL Search, Social, & Commerce] アカウント、 [!DNL Creative] または [!DNL DCO] アカウント — Experience Cloud組織 ID にリンクされています。
+   >会社のAdobe Advertising担当者に問い合わせて、組織のすべてのAdobe Advertisingアカウント（[!DNL DSP] アカウントまたは広告主、[!DNL Search, Social, & Commerce] アカウント、[!DNL Creative] アカウントまたは [!DNL DCO] アカウントを含む）がExperience Cloud組織 ID にリンクされていることを確認します。
 
-1. 次のいずれかを使用します [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （自動リクエストの場合）または [PRIVACY SERVICEUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja) （アドホックリクエストの場合）消費者の代わりにAdobe Advertisingに対して個人情報へのアクセスおよび削除要求を送信し、既存の要求のステータスを確認します。
+1. [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （自動リクエストの場合）または [Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja) （アドホックリクエストの場合）を使用して、コンシューマーの代わりにAdobe Advertisingに個人情報へのアクセスおよび削除リクエストを送信したり、既存のリクエストのステータスを確認したりします。
 
-   モバイルアプリを使用して顧客とやり取りし、でキャンペーンを開始する広告主の場合 [!DNL DSP]の場合、Experience Cloud用にプライバシー対応の Mobile SDK をダウンロードする必要があります。 Mobile SDK を使用すると、企業は、オプトアウトステータスフラグを設定し、消費者のデバイス ID （名前空間 ID: `deviceID`）、Privacy ServiceAPI にリクエストを送信します。 モバイルアプリには、SDK バージョン 4.15.0 以降が必要です。
+   モバイルアプリを使用して顧客とやり取りし、[!DNL DSP] でキャンペーンを開始する広告主の場合は、Experience Cloud用にプライバシー対応の Mobile SDK をダウンロードする必要があります。 Mobile SDK を使用すると、企業は、オプトアウトステータスフラグの設定、消費者のデバイス ID （名前空間 ID:`deviceID`）の取得、Privacy ServiceAPI へのリクエストの送信をおこなうことができます。 モバイルアプリには、SDK バージョン 4.15.0 以降が必要です。
 
    コンシューマーアクセスリクエストを送信すると、Privacy ServiceAPI は、指定された cookie またはデバイス ID に基づいてコンシューマーに関する情報を返します。この情報は、コンシューマーに返す必要があります。
 
@@ -75,9 +75,9 @@ Adobe Advertisingから消費者の個人情報へのアクセスおよび削除
 
    >[!NOTE]
    >
-   >ビジネスに複数のExperience Cloud組織 ID がある場合は、それぞれに個別の API リクエストを送信する必要があります。 ただし、複数のAdobe Advertisingサブソリューション（[!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]、および [!DNL DCO]）、サブソリューションごとに 1 つのアカウントを使用します。
+   >ビジネスに複数のExperience Cloud組織 ID がある場合は、それぞれに個別の API リクエストを送信する必要があります。 ただし、サブソリューションごとに 1 つのアカウントを使用して、複数のAdobe Advertisingサブソリューション（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]、[!DNL DCO]）に対して 1 つの API リクエストを行うことができます。
 
-Adobe Advertisingのサポートを受けるには、これらすべての手順が必要です。 Adobe Experience Platform Privacy Serviceを使用して行う必要のあるこれらのタスクやその他の関連タスクの詳細、および必要な情報については、を参照してください。 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Adobe Advertisingのサポートを受けるには、これらすべての手順が必要です。 Adobe Experience Platform Privacy Serviceを使用して行う必要のあるこれらのタスクやその他の関連タスクの詳細、および必要な項目の場所については、[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) を参照してください。
 
 ## Adobe Advertisingの JSON リクエストの必須フィールド値
 
@@ -88,19 +88,19 @@ Adobe Advertisingのサポートを受けるには、これらすべての手順
 
 「ユーザー」:
 
-* `"key":` &lt;*通常、顧客の名前*>
+* `"key":`&lt;*通常、顧客の名前*>
 
-* `"action":` 次のいずれか `**access**` または `**delete**`
+* `**access**` または `**delete**` のいずれかを `"action":` します
 
 * `"user IDs":`
 
-   * `"namespace": **411**` （これは、 [!DNL adCloud] cookie 領域）
+   * `"namespace": **411**` （[!DNL adCloud] の cookie 領域を示します）
 
-   * `"value":` &lt;*から取得された、実際の顧客の Cookie ID 値`AdobePrivacy.js`*>
+   * `"value":` &lt;*`AdobePrivacy.js`* から取得した実際の顧客の Cookie ID 値 >
 
-* `"include": **adCloud**` （これはです [!DNL Adobe] （該当する商品）
+* `"include": **adCloud**` （リクエストに適用される [!DNL Adobe] 製品）
 
-* `"regulation": **ccpa**` （リクエストに適用されるプライバシー規制です）
+* `"regulation": **ccpa**` （リクエストに適用されるプライバシー規制）
 
 ## AdobePrivacy.js から取得したAdobe Advertisingユーザー ID を使用して消費者によって送信されたリクエストの例
 

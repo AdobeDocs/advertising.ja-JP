@@ -1,6 +1,6 @@
 ---
-title: 広告ネットワークキャンペーン管理のオプション
-description: 広告ネットワークキャンペーンの様々なデータ管理方法について説明します。
+title: 広告ネットワークキャンペーンを管理するためのオプション
+description: 広告ネットワークキャンペーンのデータを管理する様々な方法について説明します。
 exl-id: be5c9a48-a87d-4cee-9884-2ba36ac5f2ca
 feature: Search Campaign Management
 source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
@@ -10,16 +10,17 @@ ht-degree: 0%
 
 ---
 
-# 広告ネットワークキャンペーン管理のオプション
+# 広告ネットワークキャンペーンを管理するためのオプション
 
-次のいずれかの方法で、広告ネットワークアカウントでサポートされるキャンペーン構造とキャンペーンコンポーネントデータを作成および編集できます。
+サポートされるキャンペーン構造とキャンペーンコンポーネントデータを作成および編集できます
+次のいずれかの方法で、広告ネットワークアカウントの場合：
 
-* オプション 1：個々のコンポーネントまたは複数のコンポーネントのデータを、 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. 作成、編集および削除できます [campaigns](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [広告グループ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md), [キーワード](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md), [広告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md), [[!DNL Google Ads] 配置](/help/search-social-commerce/campaign-management/campaigns/placement-manage.md), [!DNL Google Ads] および [!DNL Microsoft Advertising] [sitelink ライブラリ](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md) および [割り当て](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-associate.md)、および [!DNL Google Ads] [吹き出し拡張機能ライブラリ](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md) および [割り当て](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md). また、ショッピングを管理することもできます。 [製品グループ](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), [動的検索ターゲット](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md), [[!DNL Google Ads] audiences](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) および [[!DNL Google Ads] および [!DNL Microsoft Advertising] audience targets](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md). また、 [コピーおよび貼り付け機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md). このオプションは、 [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]、および既存 [!DNL Baidu] アカウントのみ*です。
+* オプション 1：個別または複数のコンポーネントのデータを、[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] の Campaign コンポーネントリストビューに直接入力します。 [campaigns](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[ 広告グループ ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)、[ キーワード ](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)、[ 広告 ](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)、[[!DNL Google Ads]  プレースメント ](/help/search-social-commerce/campaign-management/campaigns/placement-manage.md)、[!DNL Google Ads] および [!DNL Microsoft Advertising] [ サイトリンクライブラリ ](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md) および [ 割り当て ](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-associate.md)、[!DNL Google Ads] [ コールアウト拡張機能ライブラリ ](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md) および [](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md) 割り当てを作成、編集、削除できます。 また、ショッピング [ 製品グループ ](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)、[ 動的検索ターゲット ](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)、[[!DNL Google Ads]  オーディエンス ](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) および [[!DNL Google Ads]  オーディエンス  [!DNL Microsoft Advertising]  ターゲット ](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) を管理することもできます。 [ コピー&amp;ペースト機能 ](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) を使用して、複数のキャンペーン、広告グループ、キーワードおよび広告を同時に作成および編集することもできます。 このオプションは、[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex] および既存の [!DNL Baidu] アカウントでのみ使用できます*。
 
-* オプション 2：アップロード [bulksheet ファイル](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) からのアカウントに必要な量のデータを含む [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Bulksheets]. の場合 [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Naver], [!DNL Yandex]、および既存 [!DNL Baidu] アカウントを使用する場合、データを広告ネットワークに投稿できます。 の場合 [!DNL Naver]を使用すると、検索、ソーシャル、コマースで使用するデータをアップロードできますが、広告ネットワークに投稿することはできません。
+* オプション 2:[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Bulksheets] から、アカウントに必要な量のデータを含む [ バルクシートファイル ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) をアップロードします。 [!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Naver]、[!DNL Yandex] および既存の [!DNL Baidu] アカウントの場合、データを広告ネットワークに投稿できます。 [!DNL Naver]：検索、ソーシャル、Commerce内で使用するデータをアップロードできますが、広告ネットワークに投稿することはできません。
 
-  既存のデータを含むバルクシートファイルを、オプションでダウンロード（アップロードまたは投稿はできません）できます [!DNL Pinterest], [!DNL Yahoo Native]、および [!DNL Yahoo! Display Network] アカウント。
+  既存の [!DNL Pinterest]、[!DNL Yahoo Native] および [!DNL Yahoo! Display Network] アカウントのデータを含んだバルクシートファイルは、オプションでダウンロードできますが、アップロードや投稿はできません。
 
-* オプション 3：自動処理を次のように設定します。 [在庫内の各品目をターゲットとするアカウント構造と動的な広告およびキーワードを作成します。](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) 作成元の広告ネットワーク固有の広告テンプレートに従って [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL  Advanced (ACM)]. 手動でアップロードする在庫データファイルの内容、FTP の場所、または [!DNL Google Merchant Center] または [!DNL Microsoft Merchant Center] アカウント。 データを作成後すぐに自動的に投稿するように設定したり、レビュー後に広告ネットワークに手動で投稿したりできます。 このオプションは、 [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]、および [!DNL Yandex] アカウント。
+* オプション 3:[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL  Advanced (ACM)] から作成する広告ネットワーク固有の広告テンプレートに従って、[ インベントリ内の各項目をターゲットとしたアカウント構造と動的広告およびキーワードを作成 ](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) するための自動プロセスを設定します。 手動または FTP の場所にアップロードしたインベントリデータファイルの内容や、[!DNL Google Merchant Center] または [!DNL Microsoft Merchant Center] アカウントの内容に基づいて、テンプレートを作成します。 データが作成されるとすぐに自動的に投稿されるように設定したり、確認後に手動で広告ネットワークに投稿するように設定したりできます。 このオプションは、[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] および [!DNL Yandex] アカウントで使用できます。
 
-  この方法を使用して配置を作成することはできません。
+  このメソッドを使用してプレースメントを作成することはできません。

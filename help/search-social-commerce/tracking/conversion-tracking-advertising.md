@@ -18,17 +18,17 @@ Adobe Advertisingは、「成功」ページなど、コンバージョンイベ
 >
 >ユーザーが有効な Cookie を持っていない場合、Adobe Advertisingはコンバージョンをレポートしません。
 
-追跡するコンバージョン指標のセットごとに、個別のコンバージョンタグを作成する必要があります。 広告主または代理店に、それぞれ挿入する web ページのリストをタグに提供します。 次のいずれかのタイプのコンバージョンタグを生成できます。 参照先」[Adobe Advertisingコンバージョンタグを生成](/help/search-social-commerce/tools/conversion-tag-generate.md)」を参照してください。
+追跡するコンバージョン指標のセットごとに、個別のコンバージョンタグを作成する必要があります。 広告主または代理店に、それぞれ挿入する web ページのリストをタグに提供します。 次のいずれかのタイプのコンバージョンタグを生成できます。 手順については、「[Adobe Advertisingコンバージョンタグを生成 ](/help/search-social-commerce/tools/conversion-tag-generate.md)」を参照してください。
 
-* （推奨） JavaScript タグ（バージョン 3 またはバージョン 2）が web ページに表示されない。
+* （推奨）JavaScript タグ（バージョン 3 またはバージョン 2）が web ページに表示されない。
 
-* HTMLイメージタグを使用すると、エンドユーザーには表示されない 1 ピクセル x 1 ピクセルの透明な画像（ピクセル）を web ページに表示できます。 画像タグは、会社が JavaScript タグの使用に対するポリシーを持っている場合にのみ使用します。
+* HTMLイメージタグを使用すると、エンドユーザーには表示されない 1 ピクセル x 1 ピクセルの透明な画像（ピクセル）を web ページに表示できます。 画像タグの使用は、会社がJavaScript タグの使用に対するポリシーを持っている場合にのみ行います。
 
-タグタイプの違いについて詳しくは、「」を参照してください[Advertising Cloudのコンバージョントラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).」と入力します。
+タグタイプの違いについて詳しくは、「[Advertising Cloud コンバージョントラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)」を参照してください。
 
 >[!NOTE]
 >
->* この機能では、広告主の web ページに画像タグや JavaScript タグを追加しません。 Web ページを更新する際は、広告主の通常の手順に従ってタグを追加する必要があります。
+>* この機能では、広告主の web ページに画像タグやJavaScript タグを追加しません。 Web ページを更新する際は、広告主の通常の手順に従ってタグを追加する必要があります。
 >* タグの実装に要する時間を必ず考慮してください。 会社のポリシーによっては、実装に数週間または数か月かかる場合があります。
 
 ## Adobe Advertisingのコンバージョントラッキングタグの機能
@@ -53,10 +53,10 @@ Adobe Advertisingは、「成功」ページなど、コンバージョンイベ
 
 >[!MORELIKETHIS]
 >
->* [コンバージョントラッキングオプション](conversion-tracking-about.md)
->* [Adobe Advertisingコンバージョンタグを生成](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [JavaScript コンバージョントラッキングタグバージョン 3 の形式](format-conversion-tag-jsv3.md)
->* [JavaScript コンバージョントラッキングタグバージョン 2 の形式](format-conversion-tag-jsv2.md)
->* [画像変換トラッキングタグの形式](format-conversion-tag-image.md)
->* [コンバージョンおよびページビューのトラッキングタグに関する FAQ](faqs-conversion-page-view-tracking-tags.md)
->* [Adobe Advertising JavaScript conversion mapping tag](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+>* [ コンバージョントラッキングオプション ](conversion-tracking-about.md)
+>* [Adobe Advertisingコンバージョンタグを生成 ](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [JavaScript コンバージョントラッキングタグバージョン 3 の形式 ](format-conversion-tag-jsv3.md)
+>* [JavaScript コンバージョントラッキングタグバージョン 2 の形式 ](format-conversion-tag-jsv2.md)
+>* [ 画像変換トラッキングタグの形式 ](format-conversion-tag-image.md)
+>* [ コンバージョンおよびページビューのトラッキングタグに関する FAQ](faqs-conversion-page-view-tracking-tags.md)
+>* [JavaScript コンバージョンマッピングタグのAdobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)

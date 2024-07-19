@@ -1,44 +1,44 @@
 ---
-title: ラベル分類値の削除
-description: ラベル分類の値を削除する方法について説明します。
-exl-id: 97c07598-4740-4e55-85e9-ef4e4e46daeb
+title: ラベル分類値を削除
+description: ラベル分類の値を削除する方法を説明します。
+exl-id: 1b404c6d-a6db-485b-9438-b102786eb65d
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
 
-# ラベル分類値の削除
+# ラベル分類値を削除
 
-ラベルの分類値を削除すると、将来使用できなくなり、レポートのデータは値に使用できなくなります。 値とその親ラベルの分類と特定のアカウントコンポーネント間の割り当てはすべて削除されますが、親ラベルの分類とキャンペーンのコンポーネントは削除されません。
+ラベル分類値を削除すると、その値は今後使用できなくなり、値に対するレポートデータも使用できなくなります。 値とその親ラベル分類および特定のアカウントコンポーネント間のすべての割り当ては削除されますが、親ラベル分類とキャンペーンコンポーネントは削除されません。
 
 >[!NOTE]
 >
->分類値をアカウントコンポーネントから単に関連付け解除するには、[キャンペーンコンポーネントから分類値を削除する](classification-values-remove.md).&quot;
+>アカウントコンポーネントとの分類値の関連付けを簡単に解除するには、「[ キャンペーンコンポーネントからの分類値の削除 ](classification-values-remove.md)」を参照してください。
 
-1. クリック **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
+1. **[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Label Classifications]** をクリックします。
 
-1. サブメニューで、 **[!UICONTROL Label Values]**.
+1. サブメニューで「**[!UICONTROL Label Values]**」を選択します。
 
 1. （オプション）特定のラベル値を含めるようにリストをフィルタリングします。
 
-1. 削除する各ラベル値の横にあるチェックボックスをオンにします。
+1. 削除する各ラベル値の横にあるチェック ボックスをオンにします。
 
    一度に 200 行まで削除できます。
 
-   複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-1. データテーブルの上にあるツールバーで、 ![削除](/help/search-social-commerce/assets/delete.png "削除").
+1. データ テーブルの上にあるツールバーで、[![ 削除 ](/help/search-social-commerce/assets/delete.png " 削除 ")] をクリックします。
 
-1. 確認メッセージで、 **[!UICONTROL Delete]**.
+1. 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ラベルの分類について](classification-about.md)
->* [ラベルの分類の作成](classification-create.md)
->* [分類値をキャンペーン管理ビューからアカウントコンポーネントに割り当てる](classification-values-assign-campaign-management.md)
->* [一括送信シートを使用して、勘定科目コンポーネントに分類値を割り当てます。](classification-values-assign-bulksheets.md)
->* [顧客コンポーネントからラベル分類値を削除](classification-values-remove.md)
->* [ラベルの分類を削除](classification-delete.md)
+>* [ ラベル分類について ](classification-about.md)
+>* [ ラベル分類の作成 ](classification-create.md)
+>* [ キャンペーン管理ビューからアカウントコンポーネントへの分類値の割り当て ](classification-values-assign-campaign-management.md)
+>* [ バルクシートを使用した勘定科目コンポーネントへの分類値の割当て ](classification-values-assign-bulksheets.md)
+>* [ アカウントコンポーネントからラベル分類値を削除する ](classification-values-remove.md)
+>* [ ラベル分類を削除 ](classification-delete.md)

@@ -1,6 +1,6 @@
 ---
-title: をインストールしてアンインストールします [!UICONTROL Notification Center] web アプリケーション
-description: をインストールしてアンインストールする方法を説明します。 [!UICONTROL Notification Center] web アプリケーション。
+title: '[!UICONTROL Notification Center] Web アプリケーションをインストールしてアンインストールします。'
+description: '[!UICONTROL Notification Center] web アプリケーションをインストールおよびアンインストールする方法を説明します。'
 exl-id: e0a72907-3b5e-4678-b08b-95ed099f2dab
 feature: Search Notifications
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,61 +10,61 @@ ht-degree: 0%
 
 ---
 
-# をインストールしてアンインストールします [!UICONTROL Notification Center] web アプリケーション
+# [!UICONTROL Notification Center] Web アプリケーションをインストールしてアンインストールします。
 
-*ベータ版機能*
+*Beta機能*
 
-をインストールすると、ブラウザー外で通知を受信および管理できます。 [!UICONTROL Notification Center] web アプリケーション。 アプリケーションは、と同じように見え、同じ機能を持っています。 [!UICONTROL Notification Center] 検索、ソーシャル、Commerce内。 アプリケーションの利用対象 [!DNL Google Chrome] 40 以上 [!DNL Microsoft Edge] 17 以上。
+[!UICONTROL Notification Center] web アプリケーションをインストールすることで、ブラウザー外で通知を受信および管理できます。 検索、ソーシャル、Commerce内の [!UICONTROL Notification Center] と同じように見え、同じ機能を持ちます。 このアプリケーションは、[!DNL Google Chrome] 40 以降または [!DNL Microsoft Edge] 17 以降で使用できます。
 
-をインストールしたら [!UICONTROL Notification Center] アプリケーションは、ブラウザーのアプリケーションマネージャーで自動的に有効になり、別個のウィンドウとして読み込まれ、ウィンドウサイズに基づいてレイアウトが動的に配置されます。 ブラウザのアプリケーション マネージャからアプリケーションを開いたり閉じたりするか、オペレーティング システムのタスク バーまたはドッキングに固定することができます。 アプリケーションが自動的に更新されます。
+[!UICONTROL Notification Center] アプリケーションをインストールすると、ブラウザーのアプリケーションマネージャーで自動的に有効になり、別のウィンドウとして読み込まれ、ウィンドウサイズに基づいてレイアウトが動的に配置されます。 ブラウザのアプリケーション マネージャからアプリケーションを開いたり閉じたりするか、オペレーティング システムのタスク バーまたはドッキングに固定することができます。 アプリケーションが自動的に更新されます。
 
-![Microsoft Windows タスクバーの通知センターアイコン](/help/search-social-commerce/assets/windows-taskbar.png "Microsoft Windows タスクバーの通知センターアイコン")
+![Microsoft Windows タスクバーの通知センターアイコン ](/help/search-social-commerce/assets/windows-taskbar.png "Microsoft Windows タスクバーの通知センターアイコン ")
 
 ブラウザーのアプリケーションマネージャーからアプリケーションを無効またはアンインストールできます。 Web アプリケーションの管理の詳細については、ブラウザのヘルプを参照してください。
 
-## のインストール [!UICONTROL Notification Center] の web アプリケーション [!DNL Google Chrome]
+## [!DNL Google Chrome] 用の [!UICONTROL Notification Center] web アプリケーションのインストール
 
-1. メインメニューで、 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+1. メインメニューで、**[!UICONTROL Search]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。
 
-1. 右下のをクリックします。 ![通知センター Web アプリのインストール](/help/search-social-commerce/assets/notifications-install-app.png "通知センター Web アプリのインストール").
+1. 右下の [![Notification Center Web App のインストール ](/help/search-social-commerce/assets/notifications-install-app.png "Notification Center Web App のインストール ")] をクリックします。
 
-1. 確認メッセージで、 **[!UICONTROL Add]**.
+1. 確認メッセージで、「**[!UICONTROL Add]**」をクリックします。
 
-1. インストールアプリで、 メッセージ、クリック **[!UICONTROL Install]**.
+1. インストールアプリで、 メッセージが表示されたら、「**[!UICONTROL Install]**」をクリックします。
 
-## のインストール [!UICONTROL Notification Center] の web アプリケーション [!DNL Microsoft Edge]
+## [!DNL Microsoft Edge] 用の [!UICONTROL Notification Center] web アプリケーションのインストール
 
 * 検索、ソーシャル、Commerceから：
 
-   1. メインメニューで、 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+   1. メインメニューで、**[!UICONTROL Search]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。
 
-   1. 右下のをクリックします。 ![通知センター Web アプリのインストール](/help/search-social-commerce/assets/notifications-install-app.png "通知センター Web アプリのインストール").
+   1. 右下の [![Notification Center Web App のインストール ](/help/search-social-commerce/assets/notifications-install-app.png "Notification Center Web App のインストール ")] をクリックします。
 
-   1. 確認メッセージで、 **[!UICONTROL Add]**.
+   1. 確認メッセージで、「**[!UICONTROL Add]**」をクリックします。
 
-   1. が含まれる [!UICONTROL Install Notification Center] アプリ メッセージ、クリック **[!UICONTROL Install]**.
+   1. [!UICONTROL Install Notification Center] アプリのメッセージで、「**[!UICONTROL Install]**」をクリックします。
 
-* から [!DNL Edge] メインメニュー：
+* [!DNL Edge] のメインメニューから：
 
-   1. ブラウザーツールバーで、をクリックします **...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**.
+   1. ブラウザーツールバーで、**...**/**[!UICONTROL Apps]**/**[!UICONTROL Install Notification Center]** をクリックします。
 
-   1. が含まれる [!UICONTROL Install Notification Center] アプリ メッセージ、クリック **[!UICONTROL Install]**.
+   1. [!UICONTROL Install Notification Center] アプリのメッセージで、「**[!UICONTROL Install]**」をクリックします。
 
-## をアンインストール [!UICONTROL Notification Center] の web アプリケーション [!DNL Google Chrome]
+## [!DNL Google Chrome] 用の [!UICONTROL Notification Center] web アプリケーションをアンインストールします
 
-* 対象： [!DNL Chrome]に移動します。 `chrome://apps`、右クリック **[!UICONTROL notification-center]**&#x200B;を選択し、 **[!UICONTROL Remove from Chrome]**.
+* [!DNL Chrome] で `chrome://apps` に移動し、[**[!UICONTROL notification-center]**] を右クリックし、[**[!UICONTROL Remove from Chrome]**] をクリックします。
 
-## をアンインストール [!UICONTROL Notification Center] の web アプリケーション [!DNL Microsoft Edge]
+## [!DNL Microsoft Edge] 用の [!UICONTROL Notification Center] web アプリケーションをアンインストールします
 
-1. が含まれる [!DNL Edge] ブラウザーツールバー、クリック **...** > **[!UICONTROL Apps]** > **[!UICONTROL Manage apps]**. または、に移動します。 `edge://apps`.
+1. [!DNL Edge] ブラウザーツールバーで、**...**/**[!UICONTROL Apps]**/**[!UICONTROL Manage apps]** をクリックします。 または、`edge://apps` に移動します。
 
-1. 右クリック **[!UICONTROL Notification Center]** をクリックして、 **[!UICONTROL Uninstall]**.
+1. **[!UICONTROL Notification Center]** を右クリックし、[**[!UICONTROL Uninstall]**] をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [通知について](/help/search-social-commerce/notifications/notification-about.md)
->* [通知の表示](notification-view.md)
->* [通知を既読または未読にする](notification-mark-read-unread.md)
->* [通知の削除](notification-delete.md)
->* [通知設定の編集](notification-edit.md)
->* [からのプッシュ通知の有効化と無効化 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
+>* [ 通知について ](/help/search-social-commerce/notifications/notification-about.md)
+>* [ 通知の表示 ](notification-view.md)
+>* [ 通知を既読または未読としてマーク ](notification-mark-read-unread.md)
+>* [ 通知の削除 ](notification-delete.md)
+>* [ 通知設定の編集 ](notification-edit.md)
+>* [[!UICONTROL Notification Center]](notifications-push-enable-disable.md) からのプッシュ通知の有効化と無効化

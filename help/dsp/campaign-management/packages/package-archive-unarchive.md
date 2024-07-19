@@ -12,31 +12,30 @@ ht-degree: 0%
 
 # パッケージのアーカイブまたはアーカイブ解除
 
-アーカイブして使用されていないパッケージを非表示にします。 アーカイブ済みパッケージに対して実行できるアクションは、アーカイブを解除することだけです。 アーカイブしたパッケージは、デフォルトでは表示されませんが、レポートでは引き続き使用できます。
+アーカイブで使用されていないパッケージを非表示にします。 アーカイブしたパッケージに対して実行できるアクションは、パッケージのアーカイブを解除することです。 アーカイブ済みパッケージはデフォルトでは表示されませんが、引き続きレポートに使用できます。
 
-パッケージのアーカイブを解除して、いつでも以前のステータスを復元できます。
+パッケージのアーカイブを解除すると、いつでも以前のステータスを復元できます。
 
 ## パッケージのアーカイブ
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
-1. キャンペーン名をクリックして、 [!UICONTROL Packages] 表示
-1. パッケージ名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. 確認メッセージで、 **[!UICONTROL Archive]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
+1. キャンペーンの名前をクリックして、キャン [!UICONTROL Packages] ーン表示を開きます。
+1. パッケージ名の横で、**[!UICONTROL ...]**/**[!UICONTROL Archive]** をクリックします。
+1. 確認メッセージで、「**[!UICONTROL Archive]**」をクリックします。
 
 >[!NOTE]
 >
->アーカイブ済みパッケージを表示するには、 [!UICONTROL Packages] 表示：クリック ![フィルターボタン](/help/dsp/assets/filter.png)をクリックし、 **[!UICONTROL Package status]** を選択し、 **[!UICONTROL Archived]**&#x200B;をクリックし、 **[!UICONTROL Apply].**
+>アーカイブしたパッケージを表示するには、[!UICONTROL Packages] 表示をフィルターします。![ フィルターボタン ](/help/dsp/assets/filter.png) をクリックし、「**[!UICONTROL Package status]**」をクリックして **[!UICONTROL Archived]** を選択し、「**[!UICONTROL Apply]」をクリックします。**
 
 ## パッケージのアーカイブ解除
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
-1. キャンペーン名をクリックして、 [!UICONTROL Packages] 表示
-1. パッケージ名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. 確認メッセージで、 **[!UICONTROL Unarchive]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
+1. キャンペーンの名前をクリックして、キャン [!UICONTROL Packages] ーン表示を開きます。
+1. パッケージ名の横で、**[!UICONTROL ...]**/**[!UICONTROL Unarchive]** をクリックします。
+1. 確認メッセージで、「**[!UICONTROL Unarchive]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [パッケージの編集](package-edit.md)
->* [パッケージの変更ログの表示](package-change-log.md)
->* [パッケージの一時停止またはアクティブ化](package-pause-activate.md)
-
+>* [ パッケージの編集 ](package-edit.md)
+>* [ パッケージの変更ログを表示する ](package-change-log.md)
+>* [ パッケージの一時停止またはアクティブ化 ](package-pause-activate.md)

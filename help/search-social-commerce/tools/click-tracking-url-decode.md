@@ -1,38 +1,38 @@
 ---
-title: クリック追跡 URL のデコード
-description: 検索、ソーシャル、コマースのクリック追跡コードをベース URL から削除する方法を説明します。
-exl-id: e6567cfa-317f-405f-92fc-61ac9274a317
+title: クリックの追跡 URL のデコード
+description: ベース URL から検索、ソーシャル、Commerceのクリック追跡コードを削除する方法を説明します。
+exl-id: 2f40f6a9-afc9-4e9d-9233-40e29a7f50d8
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
-# 検索、ソーシャル、コマースのクリック追跡 URL のデコード
+# 検索、ソーシャル、Commerceのクリックトラッキング URL のデコード
 
-*コンバージョントラッキングのAdobe Advertisingを持つ広告主のみ*
+*Adobe Advertisingコンバージョントラッキングのみを使用する広告主*
 
-検索、ソーシャル、コマースのクリック追跡コードをベース URL から削除すると、リンク先 URL が実際にユーザーを送信している場所を確認できます。
+ベース URL から検索、ソーシャル、Commerceのクリックのトラッキングコードを削除することで、宛先 URL が実際にユーザーを送っている場所を確認できます。
 
 >[!NOTE]
 >
 >* この機能は、宛先 URL を持つアカウントにのみ適用されます。
 >
->* この機能では、関連する広告アカウントのベース URL のパスは変更されません。
+>* この機能によって、関連する広告アカウントのベース URL のパスが変更されることはありません。
 >
->* 一度にデコードできる URL の数は、必要な数だけですが、パフォーマンスは使用するブラウザーによって異なります。
+>* 必要な数の URL を一度にデコードできますが、パフォーマンスは使用するブラウザーによって異なります。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Tools]/[!UICONTROL Decode Tracking URLs]** をクリックします。
 
-1. 入力フィールドに、検索、ソーシャルおよびコマースのトラッキングコードを含む各 URL を入力します。
+1. 入力フィールドに、検索、ソーシャル、Commerceのトラッキングコードを含む各 URL を入力します。
 
-   複数の URL をデコードするには、それぞれを別々の行に入力します。
+   複数の URL をデコードするには、それぞれを別の行に入力します。
 
-1. クリック **[!UICONTROL Decode the URL(s)]**.
+1. 「**[!UICONTROL Decode the URL(s)]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [トラッキングタグを作成およびデコードするツールについて](tracking-tools-about.md)
->* [トラッキング URL ツールを使用して、検索、ソーシャル、およびコマースのクリックトラッキング URL を生成します](click-tracking-url-generate.md)
+>* [ トラッキングタグを作成およびデコードするツールについて ](tracking-tools-about.md)
+>* [URL トラッキング ツールを使用した、検索、ソーシャル、Commerceのクリックトラッキング URL の生成 ](click-tracking-url-generate.md)

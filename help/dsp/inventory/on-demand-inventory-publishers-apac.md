@@ -1,35 +1,35 @@
 ---
-title: '[!DNL On Demand] アジア太平洋地域のプレミアムインベントリパブリッシャー'
-description: 利用可能な [!DNL On Demand] アジア太平洋地域のプレミアム在庫発行者。
+title: 'アジア太平洋の [!DNL On Demand] Premium 在庫パブリッシャー'
+description: アジア太平洋地域で利用可能な  [!DNL On Demand] premium の在庫パブリッシャーを参照してください。
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] アジア太平洋地域の Premium Inventory Publishers{#on-demand-inventory-publishers-apac}
+# アジア太平洋地域の [!DNL On Demand] Premium Inventory Publishers{#on-demand-inventory-publishers-apac}
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| 発行者 | 地域 |
+| 公開者 | 地域 |
 |-----------------------------|---------------|
-| [!DNL BBC] | 中国大 |
-| [!DNL Bloomberg] | 中国大 |
-| [!DNL CBS Interactive] | 中国大 |
-| [!DNL CNN International] | 中国大 |
-| [!DNL Conde Nast] | 中国大 |
-| [!DNL EA] | 中国大 |
-| [!DNL Gameloft] | 中国大 |
-| [!DNL MSN] | 中国大 |
-| [!DNL Tripadvisor] | 中国大 |
-| [!DNL U.S. News] | 中国大 |
-| [!DNL UDN] | 中国大 |
-| [!DNL Vidol.tv] | 中国大 |
-| [!DNL Vungle] | 中国大 |
-| [!DNL Yahoo! Taiwan] | 中国大 |
+| [!DNL BBC] | グレーターチャイナ |
+| [!DNL Bloomberg] | グレーターチャイナ |
+| [!DNL CBS Interactive] | グレーターチャイナ |
+| [!DNL CNN International] | グレーターチャイナ |
+| [!DNL Conde Nast] | グレーターチャイナ |
+| [!DNL EA] | グレーターチャイナ |
+| [!DNL Gameloft] | グレーターチャイナ |
+| [!DNL MSN] | グレーターチャイナ |
+| [!DNL Tripadvisor] | グレーターチャイナ |
+| [!DNL U.S. News] | グレーターチャイナ |
+| [!DNL UDN] | グレーターチャイナ |
+| [!DNL Vidol.tv] | グレーターチャイナ |
+| [!DNL Vungle] | グレーターチャイナ |
+| [!DNL Yahoo! Taiwan] | グレーターチャイナ |
 | [!DNL BBC] | 香港 |
 | [!DNL Bloomberg] | 香港 |
 | [!DNL CBS Interactive] | 香港 |
@@ -113,7 +113,7 @@ ht-degree: 0%
 | [!DNL BuzzFeed] | 日本 |
 | [!DNL CNN International] | 日本 |
 | [!DNL Conde Nast] | 日本 |
-| [!DNL DAZN] ([!DNL Perform Media]) | 日本 |
+| [!DNL DAZN] （[!DNL Perform Media]） | 日本 |
 | [!DNL Discovery] | 日本 |
 | [!DNL EA] | 日本 |
 | [!DNL Gameloft] | 日本 |
@@ -138,7 +138,7 @@ ht-degree: 0%
 | [!DNL CNBC] | マレーシア |
 | [!DNL CNN International] | マレーシア |
 | [!DNL Conde Nast] | マレーシア |
-| [!DNL DAZN] ([!DNL Perform Media]) | マレーシア |
+| [!DNL DAZN] （[!DNL Perform Media]） | マレーシア |
 | [!DNL Digital Trends] | マレーシア |
 | [!DNL EA] | マレーシア |
 | [!DNL Gameloft] | マレーシア |
@@ -146,7 +146,7 @@ ht-degree: 0%
 | [!DNL Investopedia] | マレーシア |
 | [!DNL Malay Mail Online] | マレーシア |
 | [!DNL Malaysiakini] | マレーシア |
-| [!DNL Media Prima]グループ | マレーシア |
+| [!DNL Media Prima] グループ | マレーシア |
 | [!DNL The Asian Parent - Malaysia] | マレーシア |
 | [!DNL Thomson Reuters] | マレーシア |
 | [!DNL Time Inc] | マレーシア |
@@ -181,88 +181,88 @@ ht-degree: 0%
 | [!DNL VIKI] | フィリピン |
 | [!DNL WeGo] | フィリピン |
 | [!DNL Yahoo] | フィリピン |
-| [!DNL 24H] | SEA |
-| [!DNL ABS CBN] | SEA |
-| [!DNL Astro] | SEA |
-| [!DNL Astro Gempak] | SEA |
-| [!DNL Bangkok Post] | SEA |
-| [!DNL BBC] | SEA |
-| [!DNL BBTV] | SEA |
-| [!DNL Bloomberg] | SEA |
-| [!DNL Bola] | SEA |
-| [!DNL Brilio] | SEA |
-| [!DNL Carousell] | SEA |
-| [!DNL CBS Interactive] | SEA |
-| [!DNL China Press] | SEA |
-| [!DNL CNBC] | SEA |
-| [!DNL CNN International] | SEA |
-| [!DNL Coconuts] | SEA |
-| [!DNL Conde Nast] | SEA |
-| [!DNL DAZN] ([!DNL Perform Media]) | SEA |
-| [!DNL Dek-D] | SEA |
-| [!DNL Detik] | SEA |
-| [!DNL Doisongphapluat] | SEA |
-| [!DNL Dream] | SEA |
-| [!DNL EA] | SEA |
-| [!DNL Gameloft] | SEA |
-| [!DNL HOOQ] | SEA |
-| [!DNL Idntimes] | SEA |
-| [!DNL iFlix] | SEA |
-| [!DNL Investopedia] | SEA |
-| [!DNL Jakarta Post] | SEA |
-| [!DNL Kapanlagi] | SEA |
-| [!DNL Kapook] | SEA |
-| [!DNL Kaskus] | SEA |
-| [!DNL Kompas] | SEA |
-| [!DNL Line Today] | SEA |
-| [!DNL Line TV] | SEA |
-| [!DNL Liputan6] | SEA |
-| [!DNL Malay Mail Online] | SEA |
-| [!DNL Malaysiakini] | SEA |
-| [!DNL Media Prima] | SEA |
-| [!DNL Merdeka] | SEA |
-| [!DNL MSN] | SEA |
-| [!DNL Mthai] | SEA |
-| [!DNL New York Times] | SEA |
-| [!DNL Oona] | SEA |
-| [!DNL PPTV TH] | SEA |
-| [!DNL Rappler] | SEA |
-| [!DNL Sanook] | SEA |
-| [!DNL SethLui] | SEA |
-| [!DNL Siam Sport] | SEA |
-| [!DNL Sinar Harian] | SEA |
-| [!DNL SMX] | SEA |
-| [!DNL Spin.ph] | SEA |
-| [!DNL Spotify] | SEA |
-| [!DNL Star Media Group] | SEA |
-| [!DNL Tempo.co] | SEA |
-| [!DNL The Asian Parent - Malaysia] | SEA |
-| [!DNL The Inquirer] | SEA |
-| [!DNL The Philippine Star] | SEA |
-| [!DNL The Straits Times] | SEA |
-| [!DNL The Thao] | SEA |
-| [!DNL Thomson Reuters] | SEA |
-| [!DNL Time Inc] | SEA |
-| [!DNL TimeOut] | SEA |
-| [!DNL Tonton] | SEA |
-| [!DNL Tribun News] | SEA |
-| [!DNL Tripadvisor] | SEA |
-| [!DNL TrueID] | SEA |
-| [!DNL TVB Anywhere+] | SEA |
-| [!DNL Twitch] | SEA |
-| [!DNL U.S. News] | SEA |
-| [!DNL Vidio] | SEA |
-| [!DNL VIKI] | SEA |
-| [!DNL VIU] | SEA |
-| [!DNL Viva.co.id] | SEA |
-| [!DNL VNExpress] | SEA |
-| [!DNL VNG] | SEA |
-| [!DNL WeGo] | SEA |
-| [!DNL Wow Keren] | SEA |
-| [!DNL Yahoo] | SEA |
-| [!DNL Yan.vn] | SEA |
-| [!DNL Zalora] | SEA |
-| [!DNL Zing.vn] | SEA |
+| [!DNL 24H] | 海 |
+| [!DNL ABS CBN] | 海 |
+| [!DNL Astro] | 海 |
+| [!DNL Astro Gempak] | 海 |
+| [!DNL Bangkok Post] | 海 |
+| [!DNL BBC] | 海 |
+| [!DNL BBTV] | 海 |
+| [!DNL Bloomberg] | 海 |
+| [!DNL Bola] | 海 |
+| [!DNL Brilio] | 海 |
+| [!DNL Carousell] | 海 |
+| [!DNL CBS Interactive] | 海 |
+| [!DNL China Press] | 海 |
+| [!DNL CNBC] | 海 |
+| [!DNL CNN International] | 海 |
+| [!DNL Coconuts] | 海 |
+| [!DNL Conde Nast] | 海 |
+| [!DNL DAZN] （[!DNL Perform Media]） | 海 |
+| [!DNL Dek-D] | 海 |
+| [!DNL Detik] | 海 |
+| [!DNL Doisongphapluat] | 海 |
+| [!DNL Dream] | 海 |
+| [!DNL EA] | 海 |
+| [!DNL Gameloft] | 海 |
+| [!DNL HOOQ] | 海 |
+| [!DNL Idntimes] | 海 |
+| [!DNL iFlix] | 海 |
+| [!DNL Investopedia] | 海 |
+| [!DNL Jakarta Post] | 海 |
+| [!DNL Kapanlagi] | 海 |
+| [!DNL Kapook] | 海 |
+| [!DNL Kaskus] | 海 |
+| [!DNL Kompas] | 海 |
+| [!DNL Line Today] | 海 |
+| [!DNL Line TV] | 海 |
+| [!DNL Liputan6] | 海 |
+| [!DNL Malay Mail Online] | 海 |
+| [!DNL Malaysiakini] | 海 |
+| [!DNL Media Prima] | 海 |
+| [!DNL Merdeka] | 海 |
+| [!DNL MSN] | 海 |
+| [!DNL Mthai] | 海 |
+| [!DNL New York Times] | 海 |
+| [!DNL Oona] | 海 |
+| [!DNL PPTV TH] | 海 |
+| [!DNL Rappler] | 海 |
+| [!DNL Sanook] | 海 |
+| [!DNL SethLui] | 海 |
+| [!DNL Siam Sport] | 海 |
+| [!DNL Sinar Harian] | 海 |
+| [!DNL SMX] | 海 |
+| [!DNL Spin.ph] | 海 |
+| [!DNL Spotify] | 海 |
+| [!DNL Star Media Group] | 海 |
+| [!DNL Tempo.co] | 海 |
+| [!DNL The Asian Parent - Malaysia] | 海 |
+| [!DNL The Inquirer] | 海 |
+| [!DNL The Philippine Star] | 海 |
+| [!DNL The Straits Times] | 海 |
+| [!DNL The Thao] | 海 |
+| [!DNL Thomson Reuters] | 海 |
+| [!DNL Time Inc] | 海 |
+| [!DNL TimeOut] | 海 |
+| [!DNL Tonton] | 海 |
+| [!DNL Tribun News] | 海 |
+| [!DNL Tripadvisor] | 海 |
+| [!DNL TrueID] | 海 |
+| [!DNL TVB Anywhere+] | 海 |
+| [!DNL Twitch] | 海 |
+| [!DNL U.S. News] | 海 |
+| [!DNL Vidio] | 海 |
+| [!DNL VIKI] | 海 |
+| [!DNL VIU] | 海 |
+| [!DNL Viva.co.id] | 海 |
+| [!DNL VNExpress] | 海 |
+| [!DNL VNG] | 海 |
+| [!DNL WeGo] | 海 |
+| [!DNL Wow Keren] | 海 |
+| [!DNL Yahoo] | 海 |
+| [!DNL Yan.vn] | 海 |
+| [!DNL Zalora] | 海 |
+| [!DNL Zing.vn] | 海 |
 | [!DNL BBC] | シンガポール |
 | [!DNL Bloomberg] | シンガポール |
 | [!DNL Carousell] | シンガポール |
@@ -270,7 +270,7 @@ ht-degree: 0%
 | [!DNL CNBC] | シンガポール |
 | [!DNL CNN International] | シンガポール |
 | [!DNL Conde Nast] | シンガポール |
-| [!DNL DAZN] ([!DNL Perform Media]) | シンガポール |
+| [!DNL DAZN] （[!DNL Perform Media]） | シンガポール |
 | [!DNL EA] | シンガポール |
 | [!DNL Gameloft] | シンガポール |
 | [!DNL Investopedia] | シンガポール |
@@ -367,13 +367,12 @@ ht-degree: 0%
 | [!DNL Yan.vn] | ベトナム |
 | [!DNL Zing.vn] | ベトナム |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [について [!DNL On Demand] プレミアム在庫](on-demand-inventory-about.md)
->* [購読してへのアクセスをリクエスト [!DNL On Demand] プレミアム在庫](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] オーストラリアとニュージーランドの Premium Inventory Publishers](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] ヨーロッパ、中東、アフリカの Premium Inventory Publishers](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand Premium] 北米の在庫発行者](on-demand-inventory-publishers-na.md)
-
+>* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
+>* [Premium インベントリのサブスクライブとアクセス  [!DNL On Demand]  リクエスト ](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand Premium]  北米のインベントリパブリッシャー ](on-demand-inventory-publishers-na.md)

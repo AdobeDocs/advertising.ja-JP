@@ -1,53 +1,53 @@
 ---
 title: サポートされる通貨
-description: サポートされる通貨の一覧を参照してください。
+description: サポートされている通貨のリストを参照してください。
 feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# 通貨広告でサポートされるAdobe
+# Adobe Advertisingでサポートされる通貨
 
-Adobe広告は、次の通貨をサポートしています。
+Adobe Advertisingでは、次の通貨をサポートしています。
 
 
 >[!NOTE]
 >
->Adobe Analyticsサポート [より多くの通貨](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
+>Adobe Analyticsは [ より大きな通貨のセット ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) をサポートしています。
 
-## DSPと Creative
+## DSPとクリエイティブ
 
 | コード | 通貨名 |
 | ------ | -------------- |
-| AUD | オーストラリアドル |
-| BRL | ブラジルレアル |
-| CAD | カナダドル |
-| CLP | チリペソ |
-| CNY | 中国人民幣 |
-| DKK | デンマーククローネ |
+| AUD | ドル （オーストラリア） |
+| BRL | レアル （ブラジル） |
+| CAD | ドル （カナダ） |
+| CLP | ペソ （チリ） |
+| CNY | 元（中国） |
+| DK | デンマーク クローネ |
 | EUR | ユーロ |
-| GBP | 英国ポンド |
-| HKD | 香港ドル |
-| INR | インドルピー |
-| JPY | 日本円 |
-| MXN | メキシコペソ |
-| MYR | マレーシアリンギット |
-| NZD | ニュージーランドドル |
-| RUB | ロシアルーブル |
-| SGD | シンガポールドル |
-| THB | タイバーツ |
-| TRY | トルコリラ |
-| USD | 米ドル |
+| gbp | 英国ポンド |
+| HKD | ドル （香港） |
+| INR | ルピー（インド） |
+| JPY | 円（日本） |
+| MXN | ペソ （メキシコ） |
+| MY | マレーシア リンギ |
+| NZ | ドル （ニュージーランド） |
+| 摩擦 | ロシアルーブル |
+| SGD | ドル （シンガポール） |
+| THB | バーツ （タイ） |
+| TRY | リラ （トルコ） |
+| USD | ドル （米国） |
 
 >[!NOTE]
 >
-> [!DNL DSP] は次の通貨でのみ請求を提供します。CAD、DKK、EUR、GBP、HKD、JPY、NZD、SGD、および USD。
+> [!DNL DSP] は、CAD、DKK、EUR、GBP、HKD、JPY、NZD、SGD、USD の通貨でのみ請求を提供します。
 
 ## [!DNL Adobe Advertising Search, Social, & Commerce]
 
-サポートされている検索エンジンでサポートされるすべての通貨。 これはと同じです。 [～に支持されている人々 [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
+サポートされている検索エンジンでサポートされているすべての通貨。 これは [ でサポートされている  [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes) と同じです。
 

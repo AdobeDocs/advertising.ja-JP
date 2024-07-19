@@ -1,35 +1,35 @@
 ---
-title: について [!DNL Google Ads] 配置
-description: 入札可能なプレースメントとネガティブなプレースメントのオプションについて説明します。 [!DNL Google Ads].
-exl-id: 2f390a39-99e9-4b0d-8576-e724882185ef
+title: About [!DNL Google Ads] placements
+description: ' [!DNL Google Ads] の入札可能プレースメントとネガティブプレースメントのオプションについて説明します。'
+exl-id: c0a2d888-8afa-47c8-a89e-da4de527e6ea
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
-# について [!DNL Google Ads] 配置
+# プレースメント [!DNL Google Ads] ついて
 
 *[!DNL Google Ads]アカウントのみ*
 
-配置は、広告を表示できるディスプレイネットワーク上の場所です。 配置設定には、最大入札額とオプションのトラッキングパラメーターが含まれます。 プレースメントレベルの設定は、広告グループまたはキャンペーンの設定に優先します。
+プレースメントは、広告を表示できるディスプレイネットワーク上の場所です。 プレースメント設定には、最大入札額とオプションのトラッキングパラメーターが含まれます。 プレースメントレベルの設定は、広告グループまたはキャンペーンの設定よりも優先されます。
 
-配置は、 [サポート [!DNL Google Ads] キャンペーンタイプ](/help/search-social-commerce/introduction/supported-inventory.md) が、 [同期検索エンジンアカウント](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+[ 同期された検索エンジンアカウント ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 内の表示ネットワークをターゲットとする ](/help/search-social-commerce/introduction/supported-inventory.md) サポート  [!DNL Google Ads]  キャンペーンタイプ [ の任意の広告グループのプレースメントを作成できます。
 
-## The [!UICONTROL Placements] ビュー
+## [!UICONTROL Placements] ビュー
 
-The [!UICONTROL Placements] > [!UICONTROL Placements] 表示には、すべての配置が一覧表示され、 [!UICONTROL Placements] > [!UICONTROL Negatives] 「表示」には、広告が表示されない、すべてのネガティブな配置が表示されます。
+[!UICONTROL Placements]/[!UICONTROL Placements] ビューには、すべてのプレースメントがリストされ、[!UICONTROL Placements]/[!UICONTROL Negatives] ビューには、広告が表示されない負のプレースメントがすべてリストされます。
 
-広告グループのプレースメントは、 [!UICONTROL Placements] > [!UICONTROL Placements] 表示。 任意の広告グループまたはキャンペーンに対して、除外キーワードを [!UICONTROL Placements] > [!UICONTROL Negatives] キャンペーンおよび広告グループの設定を表示するか、または設定から参照します。  また、アクティブな配置と一時停止した配置のステータスを編集および変更したり、負の配置を削除したりすることもできます。
+広告グループのプレースメントは、[!UICONTROL Placements] > [!UICONTROL Placements] ビューで作成できます。 [!UICONTROL Placements]/[!UICONTROL Negatives] 表示またはキャンペーンと広告グループの設定から、任意の広告グループまたはキャンペーンに対してネガティブキーワードを作成できます。  アクティブなプレースメントと一時停止されたプレースメントのステータスを編集および変更したり、負のプレースメントを削除したりすることもできます。
 
 >[!NOTE]
 >
->[!DNL Google Ads] では、配置の広告レベルのパフォーマンスデータを提供しません。
+>[!DNL Google Ads] は、プレースメントの広告レベルのパフォーマンスデータを提供しません。
 
 >[!MORELIKETHIS]
 >
->* [入札可能な配置の管理](placement-manage.md)
->* [ネガティブな配置の作成](placement-negative-create.md)
->* [配置と負の配置のステータスの変更](placement-status-edit.md)
+>* [ 入札可能プレースメントの管理 ](placement-manage.md)
+>* [ ネガティブプレースメントの作成 ](placement-negative-create.md)
+>* [ プレースメントとネガティブプレースメントのステータスの変更 ](placement-status-edit.md)

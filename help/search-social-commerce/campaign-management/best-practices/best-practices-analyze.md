@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * コンテンツや市場の変化により、サイトのトラフィックの価値が急速に変化する可能性があるので、キャンペーンから web サイトを除外する際は慎重に行ってください。
 
-キーワードとキャンペーンの設定の調整について詳しくは、最適化ガイドのPortfolioの節にある「ポートフォリオ戦略の調整」を参照してください。このガイドは、検索、ソーシャル、Commerce内から利用できます。<!-- verify convention for referencing Optimization Guide here -->
+キーワードとキャンペーンの設定を調整する方法について詳しくは、最適化ガイドのPortfolioに関する節にある「ポートフォリオ戦略の調整」を参照してください。このガイドは、検索、ソーシャル、Commerceから利用できます。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!TIP]
 >
@@ -28,5 +28,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [有効なテキストとコピーを書き込む](best-practices-write.md)
->* [Web サイトのランディングページの最適化](best-practices-optimize.md)
+>* [ 有効なテキストとコピーを書き込む ](best-practices-write.md)
+>* [Web サイトのランディングページの最適化 ](best-practices-optimize.md)

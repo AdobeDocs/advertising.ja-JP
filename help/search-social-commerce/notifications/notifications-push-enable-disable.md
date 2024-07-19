@@ -1,6 +1,6 @@
 ---
-title: からのプッシュ通知の有効化と無効化 [!UICONTROL Notification Center]
-description: からプッシュ通知を有効または無効にする方法を説明します [!UICONTROL Notification Center].
+title: '[!UICONTROL Notification Center] からのプッシュ通知を有効または無効にします'
+description: '[!UICONTROL Notification Center] からのプッシュ通知を有効または無効にする方法について説明します。'
 exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# からのプッシュ通知の有効化と無効化 [!UICONTROL Notification Center]
+# [!UICONTROL Notification Center] からのプッシュ通知を有効または無効にします
 
-*ベータ版機能*
+*Beta機能*
 
-検索、ソーシャル、Commerce内で通知を有効にできます。この場合、通知はブラウザーの通知規則に従って表示されます。 を使用するデバイス上 [!DNL Microsoft Windows]画面右下（システムトレイ）に通知が表示されます。 日付： [!DNL Apple Mac] デバイス、通知は右側のメニューに表示されます。
+検索、ソーシャル、Commerce内で通知を有効にできます。この場合、通知はブラウザーの通知規則に従って表示されます。 [!DNL Microsoft Windows] を使用するデバイスでは、通知が画面の右下（システムトレイ）に表示されます。 デバ [!DNL Apple Mac] スでは、通知が右側のメニューに表示されます。
 
 プッシュ通知は、次のブラウザーで使用できます。
 
@@ -28,31 +28,31 @@ ht-degree: 0%
 
 ## プッシュ通知を有効にする
 
-1. メインメニューで、 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+1. メインメニューで、**[!UICONTROL Search]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。
 
-2. 右下のをクリックします。 ![プッシュ通知を有効にする](/help/search-social-commerce/assets/notifications-push.png "プッシュ通知を有効にする").
+2. 右下で、「![ プッシュ通知を有効にする ](/help/search-social-commerce/assets/notifications-push.png " プッシュ通知を有効にする ") をクリックします。
 
-3. 確認メッセージで、 **[!UICONTROL Enable]**.
+3. 確認メッセージで、「**[!UICONTROL Enable]**」をクリックします。
 
-4. からの通知を許可するようにブラウザーを設定する [!UICONTROL Notification Center] 時刻`https://alert-center-ui-na.efrontier.com`.
+4. [!UICONTROL Notification Center] at`https://alert-center-ui-na.efrontier.com` からの通知を許可するようにブラウザーを設定します。
 
-   デフォルトの通知設定はブラウザーによって異なります。いずれかの方法で、から通知を許可するオプションが自動的に表示されます [!UICONTROL Notification Center] または b）通知設定を手動で管理する必要がある。 例： [!DNL Microsoft Edge]の場合、次から通知を許可できます [!UICONTROL Notification Center] ブラウザーツールバーから。 詳しくは、ブラウザーのヘルプを参照してください。
+   デフォルトの通知設定はブラウザーによって異なります。次のいずれかになります。a） [!UICONTROL Notification Center] からの通知を許可するオプションが自動的に表示される、b）通知設定を手動で管理する必要がある。 例えば、[!DNL Microsoft Edge] では、ブラウザーツールバーから [!UICONTROL Notification Center] からの通知を許可できます。 詳しくは、ブラウザーのヘルプを参照してください。
 
-   ![Microsoft Edge で通知設定を管理する場所](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Microsoft Edge で通知設定を管理する場所")
+   ![Microsoft Edgeで通知設定を管理する場所 ](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Microsoft Edgeで通知設定を管理する場所 ")
 
-5. あなたの [通知設定](notification-edit.md)、有効にする [!UICONTROL Web] プッシュするアラート・タイプの通知。
+5. [ 通知設定 ](notification-edit.md) で、プッシュす [!UICONTROL Web] アラートタイプの通知を有効にします。
 
 ## プッシュ通知を無効にする
 
-からの通知の削除 `https://alert-center-ui-na.efrontier.com` ブラウザーの通知マネージャー内。 例： [!DNL Google Chrome]で指定したサイトから通知を削除またはブロックできます。 `chrome://settings/content/notifications`.
+ブラウザーの通知マネージャー内の `https://alert-center-ui-na.efrontier.com` から通知を削除します。 例えば、[!DNL Google Chrome] では、指定したサイトから `chrome://settings/content/notifications` で通知を削除またはブロックできます。
 
 詳しくは、ブラウザーのヘルプを参照してください。
 
 >[!MORELIKETHIS]
 >
->* [通知について](/help/search-social-commerce/notifications/notification-about.md)
->* [通知の表示](notification-view.md)
->* [通知を既読または未読にする](notification-mark-read-unread.md)
->* [通知の削除](notification-delete.md)
->* [通知設定の編集](notification-edit.md)
->* [をインストールしてアンインストールします [!UICONTROL Notification Center] web アプリケーション](notification-app-install-uninstall.md)
+>* [ 通知について ](/help/search-social-commerce/notifications/notification-about.md)
+>* [ 通知の表示 ](notification-view.md)
+>* [ 通知を既読または未読としてマーク ](notification-mark-read-unread.md)
+>* [ 通知の削除 ](notification-delete.md)
+>* [ 通知設定の編集 ](notification-edit.md)
+>* [[!UICONTROL Notification Center] Web アプリケーションをインストールしてアンインストールする ](notification-app-install-uninstall.md)

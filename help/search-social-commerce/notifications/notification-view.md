@@ -1,68 +1,68 @@
 ---
-title: 通知を表示する
+title: 通知の表示
 description: 通知を表示する様々な方法について説明します。
-exl-id: 01226827-661d-4125-ab64-874fe7dcaf3a
+exl-id: d449937a-02cf-4f4c-8171-da89c914c119
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# 通知を表示する
+# 通知の表示
 
-*ベータ版機能*
+*Beta機能*
 
-次の場合、 [通知を購読済み](notification-edit.md) アカウント認証エラー、トリガーされるカスタムアラートおよびについて [!UICONTROL Advertising Insights] 生成された通知は、 [!UICONTROL Notifications] パネルまたは [!UICONTROL Notification Center].
+アカウント認証エラー、トリガーされるカスタムアラートおよび生成される [!UICONTROL Advertising Insights] ールについて [ 通知を購読 ](notification-edit.md) している場合、[!UICONTROL Notifications] ントロールパネルまたは [!UICONTROL Notification Center] のいずれかで通知を表示できます。
 
-## 通知を表示する [!UICONTROL Notifications] パネル
+## [!UICONTROL Notifications] パネル内での通知の表示
 
-1. ページの右上にある、 ![通知](/help/search-social-commerce/assets/notifications-panel.png "通知").
+1. ページの右上にある「![ 通知 ](/help/search-social-commerce/assets/notifications-panel.png " 通知 ")」をクリックします。
 
-1. （オプション）次のいずれかの操作を行います。
-
-   * 通知の詳細を表示するには、通知名をクリックします。
-
-     一部の通知では、 [!UICONTROL Action Recommended] セクションには、影響を受けるエンティティや、責任を持つエンティティのフィルター表示を開くリンクを含めることができます。
-
-   * 通知を次のようにマークするには *読み取り* または *未読*、アラート名の上にカーソルを置き、 ![既読または未読としてマーク](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク").
-
-     通知は次のマークが付いています： *読み取り* は薄い色のテキストですが、削除するまで使用できます。
-
-   ![既読および未読の通知](/help/search-social-commerce/assets/notifications-read-vs-unread.png "既読および未読の通知")
-
-   * 通知タイプの購読設定を変更するには、 ![設定](/help/search-social-commerce/assets/settings-nc.png "設定") 通知の横の設定を変更し、 **[!UICONTROL Save]**.
-
-   * 通知を削除するには、 ![削除](/help/search-social-commerce/assets/delete.png "削除") 通知の横に表示されます。
-
-   * 開くには [!UICONTROL Notification Center]をクリックし、 **[!UICONTROL View All]**.
-
-## 内の通知を表示 [!UICONTROL Notification Center]
-
-1. （検索、ソーシャル、コマース内から）メインメニューで、 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
-
-1. （オプション）通知をタイプでフィルターするには、 *[!UICONTROL Notices], [!UICONTROL Recommendations], [!UICONTROL Warnings]または[!UICONTROL Issues]*.
-
-1. （オプション）次のいずれかの操作を行います。
+1. （オプション）次のいずれかの操作をおこないます。
 
    * 通知の詳細を表示するには、通知名をクリックします。
 
-     一部の通知では、 [!UICONTROL Action Recommended] セクションには、影響を受けるエンティティや、責任を持つエンティティのフィルター表示を開くリンクを含めることができます。
+     通知によっては、「[!UICONTROL Action Recommended]」セクションに、影響を受けたまたは責任を持つエンティティのフィルター済みビューを開くリンクが含まれる場合があります。
 
-   * 通知を次のようにマークするには *読み取り* または *未読*、アラート名の上にカーソルを置き、 ![既読または未読としてマーク](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク").
+   * 通知を *既読* または *未読* としてマークするには、アラート名の上にカーソルを置き、![ 既読または未読としてマーク ](/help/search-social-commerce/assets/notifications-read-unread.png " 既読または未読としてマーク ") をクリックします。
 
-     通知は次のマークが付いています： *読み取り* は薄い色のテキストですが、削除するまで使用できます。
+     *読み取り* とマークされた通知は、薄い色のテキストで表示されますが、削除されるまで使用可能です。
 
-   * 通知タイプの購読設定を変更するには、 ![設定](/help/search-social-commerce/assets/settings-nc.png "設定")  通知の横の設定を変更し、 **[!UICONTROL Save]**.
+   ![ 既読および未読の通知 ](/help/search-social-commerce/assets/notifications-read-vs-unread.png " 既読および未読の通知 ")
 
-   * 通知を削除するには、 ![削除](/help/search-social-commerce/assets/delete.png "削除") 通知の横に表示されます。
+   * 通知タイプの購読設定を変更するには、通知の横の ![ 設定 ](/help/search-social-commerce/assets/settings-nc.png " 設定 ") をクリックし、設定を変更して、「**[!UICONTROL Save]**」をクリックします。
+
+   * 通知を削除するには、通知の横にある ![ 削除 ](/help/search-social-commerce/assets/delete.png " 削除 ") をクリックします。
+
+   * [!UICONTROL Notification Center] を開くには、「**[!UICONTROL View All]**」をクリックします。
+
+## [!UICONTROL Notification Center] 内の通知の表示
+
+1. （検索、ソーシャル、Commerce内から）メインメニューで、**[!UICONTROL Search]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。
+
+1. （オプション）通知をタイプでフィルタリングするには、[*[!UICONTROL Notices]]、[[!UICONTROL Recommendations]]、[[!UICONTROL Warnings]]、または [[!UICONTROL Issues]*] をクリックします。
+
+1. （オプション）次のいずれかの操作をおこないます。
+
+   * 通知の詳細を表示するには、通知名をクリックします。
+
+     通知によっては、「[!UICONTROL Action Recommended]」セクションに、影響を受けたまたは責任を持つエンティティのフィルター済みビューを開くリンクが含まれる場合があります。
+
+   * 通知を *既読* または *未読* としてマークするには、アラート名の上にカーソルを置き、![ 既読または未読としてマーク ](/help/search-social-commerce/assets/notifications-read-unread.png " 既読または未読としてマーク ") をクリックします。
+
+     *読み取り* とマークされた通知は、薄い色のテキストで表示されますが、削除されるまで使用可能です。
+
+   * 通知タイプの購読設定を変更するには、通知の横の ![ 設定 ](/help/search-social-commerce/assets/settings-nc.png " 設定 ") をクリックし、設定を変更して、「**[!UICONTROL Save]**」をクリックします。
+
+   * 通知を削除するには、通知の横にある ![ 削除 ](/help/search-social-commerce/assets/delete.png " 削除 ") をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [通知について](/help/search-social-commerce/notifications/notification-about.md)
->* [通知を既読または未読としてマーク](notification-mark-read-unread.md)
->* [通知の削除](notification-delete.md)
->* [通知設定を編集](notification-edit.md)
->* [次のプッシュ通知を有効/無効にする： [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
->* [をインストールしてアンインストールします。 [!UICONTROL Notification Center] web アプリケーション](notification-app-install-uninstall.md)
+>* [ 通知について ](/help/search-social-commerce/notifications/notification-about.md)
+>* [ 通知を既読または未読としてマーク ](notification-mark-read-unread.md)
+>* [ 通知の削除 ](notification-delete.md)
+>* [ 通知設定の編集 ](notification-edit.md)
+>* [[!UICONTROL Notification Center]](notifications-push-enable-disable.md) からのプッシュ通知の有効化と無効化
+>* [[!UICONTROL Notification Center] Web アプリケーションをインストールしてアンインストールする ](notification-app-install-uninstall.md)

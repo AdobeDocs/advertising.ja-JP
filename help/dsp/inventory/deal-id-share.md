@@ -1,6 +1,6 @@
 ---
-title: 個人契約へのアクセス権を持つアカウントの編集
-description: 様々なアカウントとの個人取引の共有を停止する方法を説明します。
+title: プライベート取引へのアクセス権を持つアカウントの編集
+description: 様々なアカウントとのプライベート取引の共有を共有および停止する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,41 +10,40 @@ ht-degree: 0%
 
 ---
 
-# 個人契約へのアクセス権を持つアカウントの編集
+# プライベート取引へのアクセス権を持つアカウントの編集
 
-複数のアカウントで 1 つの契約 ID を共有できます。 この契約は、指定したアカウント内のすべての広告主と共有されるので、これらのアカウントのすべてのユーザーが契約を編集したり、配置のターゲットとして使用したりできます。
+1 つの取引 ID を複数のアカウントと共有できます。 契約は、指定したアカウント内のすべての広告主と共有されるので、これらのアカウント内のすべてのユーザーは、契約を編集したり、プレースメントのターゲットとして使用したりできます。
 
-アカウントとの契約の共有を停止して、編集機能やターゲティング機能を削除できますが、レポート表示では、これらのアカウントに対してフィードが表示されたままになります。
+アカウントとの取引の共有を停止して編集およびターゲティング機能を削除できますが、フィードはレポートビューでそれらのアカウントに対して表示されたままになります。
 
 >[!NOTE]
 >
-> また、 [アカウントへのアクセス権を持つ個々の広告主を編集](deal-id-edit-advertisers.md).
+> また、[ アカウントにアクセスできる個々の広告主を編集 ](deal-id-edit-advertisers.md) することもできます。
 
-## アカウントとの契約 ID の共有
+## アカウントとの取引 ID の共有
 
-1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals]** をクリックします。
 
-1. 契約行で、「 **[!UICONTROL ...]** > **[!UICONTROL Share]**.
+1. 取引行で、**[!UICONTROL ...]**/**[!UICONTROL Share]** をクリックします。
 
-1. 共有する各アカウントについて：
+1. 共有するアカウントごとに、以下を行います。
 
-   1. 次を入力します。 **[!UICONTROL Email Address]** 契約へのアクセス権を持つアカウントの
+   1. 取引にアクセスできるアカウントの **[!UICONTROL Email Address]** を入力します。
 
-   1. クリック **[!UICONTROL Share]**.
+   1. 「**[!UICONTROL Share]**」をクリックします。
 
-## アカウントとの契約 ID の共有を停止する
+## アカウントとの取引 ID の共有の停止
 
-1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals]** をクリックします。
 
-1. 契約行で、「 **[!UICONTROL ...]** > **[!UICONTROL Share]**.
+1. 取引行で、**[!UICONTROL ...]**/**[!UICONTROL Share]** をクリックします。
 
-1. 次の [!UICONTROL Account Email] 値を入力し、 **[!UICONTROL Unshare].**
+1. [!UICONTROL Account Email] 値の横にある「**[!UICONTROL Unshare].**」をクリックします。
 
-1. クリック **[!UICONTROL Cancel]** をクリックしてウィンドウを閉じます。
+1. 「**[!UICONTROL Cancel]**」をクリックしてウィンドウを閉じます。
 
 >[!MORELIKETHIS]
 >
->* [プライベート在庫について](private-inventory-about.md)
->* [契約 ID へのアクセス権を持つ広告主の編集](/help/dsp/inventory/deal-id-edit-advertisers.md)
->* [手動の Deal ID 設定](deal-id-settings.md)
-
+>* [ プライベートインベントリについて ](private-inventory-about.md)
+>* [ 取引 ID へのアクセス権を持つ広告主の編集 ](/help/dsp/inventory/deal-id-edit-advertisers.md)
+>* [ 手動の取引 ID 設定 ](deal-id-settings.md)

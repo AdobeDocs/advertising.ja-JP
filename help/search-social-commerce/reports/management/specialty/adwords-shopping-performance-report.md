@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL AdWords Shopping Performance Report]'
-description: 詳しくは、 [!UICONTROL AdWords Shopping Performance Report].
-exl-id: 5884efb5-d34f-47fd-82ad-93a5f4064110
+description: '[!UICONTROL AdWords Shopping Performance Report] について説明します。'
+exl-id: 891c8940-bf92-455c-a6f3-92e2a0122b4a
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-The [!UICONTROL AdWords Shopping Performance Report] コスト、クリック、インプレッションの各データが含まれます。変換後のクリックおよびコンバージョンのデータは、 [!DNL Google Ads Conversion Optimizer]；および（オプションで） [!DNL Adobe] および派生指標データは、買い物キャンペーンの 1 つ以上の広告グループの製品 ID レベルで集計されます。 デフォルトでは、データには、指定した日付範囲の各時間単位に対して、広告グループごとに製品 ID と製品カテゴリごとに 1 つの行が含まれます。 行は、デフォルトでは、アカウント名、キャンペーン名、広告グループ名の順に昇順に表示されます。
+[!UICONTROL AdWords Shopping Performance Report] には、コスト、クリック、インプレッションデータ、コンバージョン済みクリックおよびコンバージョンデータ、[!DNL Google Ads Conversion Optimizer] で追跡されたコンバージョンデータ、および（任意で）コンバージョンで追跡された [!DNL Adobe] ンバージョンデータと、ショッピングキャンペーンの 1 つ以上の広告グループの製品 ID レベルで集計された派生指標データが含まれます。 デフォルトでは、指定した日付範囲の時間単位ごとに、製品 ID と製品カテゴリが広告グループごとに 1 行ずつデータに含まれます。 行は、アカウント名、キャンペーン名、広告グループ名の昇順（デフォルト）になっています。
 
-過去 2 か月間のデータを表示できます。 2018 年 9 月 21 日より前のデータは、1 行（コストとクリックのデータを含む）と、1 行 (Adobeでトラッキングされるコンバージョンデータを含む ) の 2 つの行に表示されます。 後続のデータは、1 行に表示されます。
+過去 2 か月のデータを表示できます。 2018 年 9 月 21 日（PT）より前のデータは、2 行で表示される場合があります。1 行にコストとクリックデータ、1 行にAdobeが追跡したコンバージョンデータです。 後続のデータは 1 行に表示されます。
 
 >[!NOTE]
 >
->* 製品に [!UICONTROL Product Category] 列、製品が複数のカテゴリに表示される場合、製品は複数の行に表示され、コンバージョン数は適用可能な各行に複製されます。 コンバージョンデータの合計は正確ではないので、カテゴリ別にデータを並べ替え、コンバージョンがカテゴリ別のトレンドを示す一般的な理解を得る必要があります。
->* このレポートのデータは、前日の各日の 23:00（午後 11:00）に取り込まれます。 例えば、6 月 18 日の 23:00 に、6 月 17 日のデータを取り込みます。 6 月 19 日の 09:00（6 月 18 日のデータが取り込まれる前）にレポートを実行した場合、6 月 17 日の 23:00 までのデータがレポートに含まれます。
+>* 製品に「[!UICONTROL Product Category]」列が含まれ、1 つの製品が複数のカテゴリに表示される場合、その製品は複数の行に表示され、該当する各行でコンバージョン数が重複します。 コンバージョンデータの合計は正確ではないため、カテゴリ別にデータを並べ替えるのは、コンバージョンのカテゴリ別のトレンドを把握する場合に限られます。
+>* このレポートのデータは、前日の午後 23 時（午後 11 時）に取り込まれます。 例えば、6 月 18 日の 23:00 に、6 月 17 日のデータを取り込みます。 6 月 19 日の 09:00 にレポートを実行した場合（6 月 18 日のデータが取り込まれる前）、レポートには 6 月 17 日の 23:00 までのデータが含まれます。
 
 ## デフォルトの列
 
-すべてのデフォルト列とカスタム列の説明については、[特殊レポートのレポート列](specialty-report-columns.md).&quot;
+すべてのデフォルト列およびカスタム列の説明は、[ 専門レポートのレポート列 ](specialty-report-columns.md) を参照してください。
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Campaign Name]
@@ -45,6 +45,6 @@ The [!UICONTROL AdWords Shopping Performance Report] コスト、クリック、
 
 >[!MORELIKETHIS]
 >
-* [特殊レポートについて](specialty-report-about.md)
-* [特殊なレポートの生成](specialty-report-generate.md)
-* [特殊なレポート設定](specialty-report-settings.md)
+>* [ 専門レポートについて ](specialty-report-about.md)
+>* [ 専門レポートの生成 ](specialty-report-generate.md)
+>* [ 専門レポートの設定 ](specialty-report-settings.md)

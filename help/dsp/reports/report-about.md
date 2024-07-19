@@ -17,7 +17,7 @@ ht-degree: 0%
 * キャンペーンのパフォーマンスレポートを詳細なレベルで完全に設定します。
 * 事前設定済みのレポートテンプレートから選択し、オプションでさらにカスタマイズします。
 
-レポートを 1 回生成することも、指定したタイムゾーンの 03:00 に毎日、毎週または毎月レポートを生成するようにスケジュールすることもできます。 レポートが生成されると、指定した各メール受信者またはリンク先に配信されます [レポートの宛先](/help/dsp/reports/report-destinations/report-destination-about.md) 次のタイプのうち、
+レポートを 1 回生成することも、指定したタイムゾーンの 03:00 に毎日、毎週または毎月レポートを生成するようにスケジュールすることもできます。 レポートが生成されると、指定した各メール受信者または次のタイプのリンクされた [ レポートの宛先 ](/help/dsp/reports/report-destinations/report-destination-about.md) に配信されます。
 
 * [!DNL Amazon Simple Storage Service] （[!DNL S3]）
 * FTP
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、キャンペーンのすべてのレベル（キャンペーン、パッケージ、プレースメント、広告）でオンデマンドデータを表示することもできます [関連するキャンペーン管理ビュー内](/help/dsp/campaign-management/reports/campaign-reports-about.md).
+>また、キャンペーンのすべてのレベル（キャンペーン、パッケージ、プレースメント、広告）のオンデマンドデータを [ 関連するキャンペーン管理ビュー内 ](/help/dsp/campaign-management/reports/campaign-reports-about.md) 表示することもできます。
 
 ## 使用可能なレポートタイプ
 
-* **[!UICONTROL Custom]:** このレポートは空白テンプレートであり、ほとんどのディメンションと指標を使用して独自のカスタムレポートを作成するために使用できます。 [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo]、および [!UICONTROL Site] レポートは、それぞれのユースケースに合わせて事前に選択された列とディメンションを含んだ、このテンプレートのバリエーションです。
+* **[!UICONTROL Custom]:** このレポートは、ほとんどのディメンションと指標を使用して独自のカスタムレポートを作成するために使用できる空のテンプレートです。 [!UICONTROL Conversion]、[!UICONTROL Device]、[!UICONTROL Geo] および [!UICONTROL Site] レポートは、それぞれのユースケースに合わせて事前に選択された列とディメンションを含む、このテンプレートのバリエーションです。
 
 * 事前設定済みのレポートテンプレート
 
@@ -42,9 +42,9 @@ ht-degree: 0%
 
    * **[!UICONTROL Conversion]:** このレポートを使用すると、Adobe Advertisingのコンバージョントラッキングで取得したコンバージョン指標に基づいて、キャンペーンのパフォーマンスを把握できます。 このレポートには、マルチタッチ属性が含まれています。
 
-   * **[!UICONTROL Device]:** この事前入力されたテンプレートを使用して、デバイス関連のディメンション別に主要指標を表示します。
+   * **[!UICONTROL Device]:** この事前入力済みテンプレートを使用して、デバイス関連のディメンション別に主要指標を表示します。
 
-   * **[!UICONTROL Frequency (by Impression)]:** このレポートを使用して、ユニークビューアに表示されるインプレッションの分布を把握します（例えば、1 つのインプレッション、2 つのインプレッション、3 つのインプレッションを閲覧したユニークビューアの数など）。 データは、プレースメントまたはキャンペーンで使用できます。
+   * **[!UICONTROL Frequency (by Impression)]:** このレポートを使用して、ユニークビューアに表示されるインプレッション数の分布を把握します（1 つのインプレッション数、2 つのインプレッション数、3 つのインプレッション数など）。 データは、プレースメントまたはキャンペーンで使用できます。
 
      >[!NOTE]
      >
@@ -52,7 +52,7 @@ ht-degree: 0%
      >* 周波数は、データのサンプリングに基づいて推定される。
      >* 一部のインベントリでは、パブリッシャーがデバイス識別子に沿って渡さないので、頻度トラッキングが妨げられます。 このレポートには、デバイス識別子が使用可能だったインプレッションのみが含まれます。
 
-   * **[!UICONTROL Frequency (by App/Site)]:** このレポートを使用して、アプリまたはサイトから到達したユニークユーザーの数を把握します。 また、特定のアプリまたはサイトのみを介して到達したユニークユーザーの数を確認することもできます（「ユニークユーザー数」）。
+   * **[!UICONTROL Frequency (by App/Site)]:** このレポートを使用して、アプリまたはサイトから到達したユニーク ユーザーの数を把握します。 また、特定のアプリまたはサイトのみを介して到達したユニークユーザーの数を確認することもできます（「ユニークユーザー数」）。
 
      >[!NOTE]
      >
@@ -61,9 +61,9 @@ ht-degree: 0%
 
    * **[!UICONTROL Geo]**：この事前入力済みテンプレートを使用して、地理的ディメンション別に主要指標を表示します。
 
-   * **[!UICONTROL Margin]:** このレポートを使用して、キャンペーン別またはプレースメント別に、マージン、利益、その他の支出指標などの主要指標を確認します。 ユニバーサル ID をターゲットとするプレースメントには、データを使用できません。
+   * **[!UICONTROL Margin]:** このレポートを使用して、キャンペーンまたはプレースメント別のマージン、利益、その他の支出指標などの主要指標を確認します。 ユニバーサル ID をターゲットとするプレースメントには、データを使用できません。
 
-   * **[!UICONTROL Segment]:** この事前入力されたテンプレートを使用して、セグメント別の主要指標を表示します。
+   * **[!UICONTROL Segment]:** この事前入力済みテンプレートを使用して、セグメント別の主要指標を表示します。
 
      >[!NOTE]
      >
@@ -72,23 +72,23 @@ ht-degree: 0%
 
    * **[!UICONTROL Site]:** デフォルトでは、には、標準指標、メディア純支出の合計、サイト別の請求可能な純支出の合計が含まれています。
 
-   * **[!UICONTROL Household Reach & Frequency]:** このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルで、広告形式をまたいだ単一のディメンションのインプレッション数、リーチ、頻度を確認します。 インサイトを使用して、メディアミックスを最適化し、パフォーマンスを向上し、増分リーチの機会を特定します。 参照先」[世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md)」を参照してください。 ユニバーサル ID をターゲットとするプレースメントには、データを使用できません。
+   * **[!UICONTROL Household Reach & Frequency]:** このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルで、広告形式をまたいだ単一のディメンションのインプレッション数、リーチ、頻度を確認します。 インサイトを使用して、メディアミックスを最適化し、パフォーマンスを向上し、増分リーチの機会を特定します。 詳しくは、「世帯レポートに関する FAQ[ を参照 ](/help/dsp/reports/faq-household-report.md) てください。 ユニバーサル ID をターゲットとするプレースメントには、データを使用できません。
 
-   * **[!UICONTROL Household Conversions]:** このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルでのビュースルーコンバージョンを確認します。 インサイトを使用して、キャンペーンのパフォーマンスを測定および最適化します。 参照先」[世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md)」を参照してください。 ユニバーサル ID をターゲットとするプレースメントには、データを使用できません。
+   * **[!UICONTROL Household Conversions]:** このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルでビュースルー変換を確認します。 インサイトを使用して、キャンペーンのパフォーマンスを測定および最適化します。 詳しくは、「世帯レポートに関する FAQ[ を参照 ](/help/dsp/reports/faq-household-report.md) てください。 ユニバーサル ID をターゲットとするプレースメントには、データを使用できません。
 
 ## クロスアカウントレポート {#cross-account-reporting}
 
 複数のDSP アカウントを持つ組織では、組織のニーズに応じて、カスタムレポートでクロスアカウントデータをオプションで有効にできます。 例えば、アカウント A にアカウント B のデータへのアクセス権を付与し、アカウント B にアカウント C の（アカウント A の）データへのアクセス権を付与することができます。 この機能を有効にして設定するには、Adobeアカウントチームにお問い合わせください。
 
-組織でこの機能を有効にすると、次のことが可能になります [フィルター](report-settings.md) アカウント別の次のレポートタイプ。  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]、および [!UICONTROL Conversion].
+組織でこの機能を有効にすると、アカウント別に次のいずれかのレポートタイプを [ フィルタリング ](report-settings.md) できます。[!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)] および [!UICONTROL Conversion]。
 
-アカウント設定： [!UICONTROL Settings] > [!UICONTROL Account] a） データが自分のアカウントで使用できる他のアカウント、および b） アカウントのデータにアクセスできる他のアカウントを示します。
+[!UICONTROL Settings] > [!UICONTROL Account] のアカウント設定は、a） データがアカウントで使用可能な他のアカウント、および b） アカウントのデータにアクセスできる他のアカウントを示します。
 
 >[!MORELIKETHIS]
 >
->* [カスタムレポートの作成](/help/dsp/reports/report-create.md)
->* [カスタムレポートの設定](/help/dsp/reports/report-settings.md)
->* [世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md)
->* [Campaign Management ビューでのパフォーマンスレポートのタイプ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [使用可能なレポート列](/help/dsp/reports/report-columns.md)
->* [について [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
+>* [ 世帯レポートに関するよくある質問 ](/help/dsp/reports/faq-household-report.md)
+>* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)
+>* [[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md) について

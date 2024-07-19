@@ -1,40 +1,39 @@
 ---
-title: について [!UICONTROL Simple Ad Serving]
-description: 詳細 [!UICONTROL Simple Ad Serving] は、イベント追跡ピクセルを使用します。
+title: '[!UICONTROL Simple Ad Serving] について'
+description: イベント追跡ピクセルを使用した [!UICONTROL Simple Ad Serving] 取引について説明します。
 feature: DSP Simple Ad Serving
 exl-id: 327a2c93-d729-42e1-856f-f0e05efab7ca
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
 
-# について [!UICONTROL Simple Ad Serving]
+# [!UICONTROL Simple Ad Serving] について
 
-[!UICONTROL Simple Ad Serving] は、1 つの専用の配置を使用して、指定したパブリッシャーと単一の広告タイプに対して、決定されない保証された広告配信およびレポートを提供します。 用途 [!DNL Simple Ad Serving] パブリッシャーが deal ID を使用して契約を実行できない場合に発生します。 すべてのターゲティング、予算のペーシングと上限、頻度キャップは、投稿者が処理します。 イベント追跡ピクセルを使用して、これらの取引を実行します。
+[!UICONTROL Simple Ad Serving] は、1 つの専用プレースメントを使用して、指定されたパブリッシャーおよび 1 つの広告タイプに対して、保証された、決定されていない広告の配信およびレポートを提供します。 パブリッシャーが取引 ID を使用して取引を実行できない場合は、[!DNL Simple Ad Serving] を使用します。 すべてのターゲティング、予算ペーシングとキャッピング、フリークエンシーキャップは、パブリッシャーが処理します。 これらの取引をイベントトラッキングピクセルで実行します。
 
-を使用 [!UICONTROL Simple Ad Serving]各広告はパブリッシャー（サイト提供）によって直接提供され、DSPは、パブリッシャーに送信するイベントトラッキングピクセルを提供します。このピクセルは、DSP広告を実装してトラフィックを伝える必要があります。 インベントリタイプに応じて、イベントピクセルはインプレッション、クリックスルー、ビデオ再生の各イベントを測定します。
+[!UICONTROL Simple Ad Serving] では、各広告はパブリッシャー（サイトサーバー）から直接提供され、DSPはイベントトラッキングピクセルを提供してパブリッシャーに送信します。パブリッシャーはピクセルを実装し、DSP広告をトラフィック処理する必要があります。 在庫タイプに応じて、イベントピクセルは、インプレッション、クリックスルーおよびビデオ再生イベントを測定します。
 
 次の広告タイプを使用できます。
 
-* desktop standard プリロール
-* タブレットおよびモバイル標準プリロール
+* デスクトップ標準プリロール
+* タブレットおよびモバイルの標準プリロール
 * 接続された TV 標準プリロール
 * 表示
-* オーディオ
+* 音声
 
-次の項目を作成できます。 [!UICONTROL Simple Ad Serving] 取り扱う [!UICONTROL Inventory] > [!UICONTROL Deals] 表示 DSPは、サブタイプ「[!DNL Simple ad serving]」を追加しました。 プレースメントは、契約をターゲットにしますが、追加のターゲティング、予算、頻度制限は許可されません。 契約名、CPM、インプレッション、フライト日など、一部の契約設定のみを編集できます。<!-- If you need multiple tracking tags for a [!UICONTROL Simple Ad Serving] deal, create a duplicate deal. -->
+[!UICONTROL Inventory]/[!UICONTROL Deals] ビューで [!UICONTROL Simple Ad Serving] しい取引を作成できます。 DSPは、広告のサブタイプ「[!DNL Simple ad serving]」を持つプレースメントを自動的に生成します。 プレースメントは契約をターゲットにしますが、追加のターゲティング、予算、フリークエンシーキャップは許可しません。 取引名、CPM、インプレッション数、フライト日など、一部の取引設定のみを編集できます。<!-- If you need multiple tracking tags for a [!UICONTROL Simple Ad Serving] deal, create a duplicate deal. -->
 
-[!UICONTROL Simple Ad Serving] 配置は、アカウントの使用可能な資金、またはキャンペーンとパッケージの予算に従っていません。 ただし、支出は追跡され、その予算に対してカウントされます。 CPM が$0 の場合でも、イベントデータは常に追跡されます。
+[!UICONTROL Simple Ad Serving] のプレースメントは、アカウントの使用可能な資金や、キャンペーンおよびパッケージの予算に準拠していません。 ただし、費用は追跡され、これらの予算にカウントされます。 CPM が$0 の場合でも、イベントデータは常に追跡されます。
 
 >[!MORELIKETHIS]
 >
->* [の作成 [!UICONTROL Simple Ad Serving] 契約](simple-deal-create.md)
->* [編集 [!UICONTROL Simple Ad Serving] 契約設定](simple-deal-edit.md)
->* [[!UICONTROL Simple Ad Serving] 設定](simple-deal-settings.md)
->* [契約の詳細レポートの表示](/help/dsp/inventory/deal-view-report.md)
-
+>* [[!UICONTROL Simple Ad Serving] しい取引の作成 ](simple-deal-create.md)
+>* [ 契約設定 [!UICONTROL Simple Ad Serving] 編集 ](simple-deal-edit.md)
+>* [[!UICONTROL Simple Ad Serving] Settings](simple-deal-settings.md)
+>* [ 取引の詳細レポートの表示 ](/help/dsp/inventory/deal-view-report.md)
 
 <!-- add back when reimplemented:
 >* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)

@@ -12,18 +12,18 @@ ht-degree: 1%
 
 # ショートカットキー
 
-プレースメント設定内では、キーボードショートカットを使用して素早く移動できます<!-- and to create ads and placements -->.
+プレースメント設定内では、キーボードショートカットを使用して <!-- and to create ads and placements --> をすばやく移動できます。
 
 | 適用可能なページ | ショートカット | 説明 |
 | ---------------| ----------- | ---------------------- |
-| プレースメント設定 | o | に移動します。 [!UICONTROL Goals] 設定 |
-| プレースメント設定 | g | に移動します。 [!UICONTROL Geos] 設定 |
-| プレースメント設定 | i | に移動します。 [!UICONTROL Inventory] 設定 |
-| プレースメント設定 | 秒 | に移動します。 [!UICONTROL Sites] 設定 |
-| プレースメント設定 | a | に移動します。 [!UICONTROL Audience] 設定 |
-| プレースメント設定 | b | に移動します。 [!UICONTROL Brand Safety] 設定 |
-| プレースメント設定 | t | に移動します。 [!UICONTROL Tracking] 設定 |
-| プレースメント設定 | l | に移動します。 [!UICONTROL Adobe Labs] 設定 |
+| プレースメント設定 | o | [!UICONTROL Goals] 設定に移動します |
+| プレースメント設定 | g | [!UICONTROL Geos] 設定に移動します |
+| プレースメント設定 | i | [!UICONTROL Inventory] 設定に移動します |
+| プレースメント設定 | 秒 | [!UICONTROL Sites] 設定に移動します |
+| プレースメント設定 | a | [!UICONTROL Audience] 設定に移動します |
+| プレースメント設定 | b | [!UICONTROL Brand Safety] 設定に移動します |
+| プレースメント設定 | t | [!UICONTROL Tracking] 設定に移動します |
+| プレースメント設定 | l | [!UICONTROL Adobe Labs] 設定に移動します |
 
 {style="table-layout:auto"}
 
@@ -34,6 +34,6 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)
->* [プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)
->* [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ プレースメントの作成 ](/help/dsp/campaign-management/placements/placement-create.md)
+>* [ プレースメントを編集 ](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)

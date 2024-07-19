@@ -1,67 +1,66 @@
 ---
-title: '''[!DNL Adobe] [!DNL Audience Analytics] (Adobe広告のお客様向け )'
-description: 使用方法を学ぶ [!DNL Adobe] [!DNL Audience Analytics] 広告のユースケース
+title: '[!DNL Adobe] [!DNL Audience Analytics] Adobe Advertisingカスタマー向け」'
+description: 広告のユースケースに  [!DNL Adobe] [!DNL Audience Analytics] の使用方法を学ぶ
 feature: Integration with Adobe Audience Manager
 exl-id: 457d4335-2762-4aab-94b8-12f8a79d109b
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe] [!DNL Audience Analytics] (Adobe広告のお客様向け )
+# Adobe Advertising版のお客様向けの [!DNL Adobe] [!DNL Audience Analytics]
 
-[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) は、Adobe Audience ManagerとAdobe Analyticsの統合で、Audience Managerのお客様がにセグメントを送信できるようにします。 [!DNL Analytics] サイトアクティビティに関するインサイトを強化します。
+[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) は、Adobe Audience ManagerとAdobe Analyticsの統合で、Audience Managerのお客様はセグメントを [!DNL Analytics] に送信して、サイトアクティビティに関するエンリッチメントされたインサイトを得ることができます。
 
-Adobe広告のお客様が [!DNL Audience Analytics]. 統合により、次のことが可能になります。
+Adobe Advertisingのお客様は、[!DNL Audience Analytics] を使用することでメリットを得ることができます。 この統合により、次のことが可能になります。
 
-* Adobe広告の露出データをに直接送信 [!DNL Analytics] 上部ファネルアクティビティが下流のサイトアクティビティに与える影響を判断するため。
+* Adobe Advertisingの漏洩データを [!DNL Analytics] に直接送信して、上位ファネルアクティビティがダウンストリームサイトアクティビティに与える影響を判断します。
 
-* 上位ファネル露出広告からマーケティングチャネルとサイトエントリポイントを決定します。
+* 上位ファネル暴露広告からマーケティングチャネルとサイトエントリポイントを決定します。
 
-* との統合をレイヤー化する [!DNL Analytics for Advertising] ～からサードパーティの人口統計セグメントを組み込む [Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html) と [!DNL Analytics for Advertising] データを参照してください。
+* [!DNL Analytics for Advertising] との統合を強化し、[Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html) のサードパーティの人口統計セグメントと [!DNL Analytics for Advertising] データを組み込んで、ユーザープロファイルに関するより多くのインサイトを得ることができます。
 
-   [!DNL Audience Marketplace] では、「Activation」サブスクリプションモデルを使用してサードパーティデータフィードにアクセスでき、購入者はこのモデルを使用して宛先にデータを送信できます。 データが [!DNL Analytics] の宛先に設定されている場合、アクティベーション料は適用されません。
+  [!DNL Audience Marketplace] では、購入者が宛先にデータを送信できる「アクティベーション」サブスクリプションモデルを使用して、サードパーティのデータフィードにアクセスできます。 データが [!DNL Analytics] の宛先内で使用されている場合、アクティベーション料金は適用されません。
 
-* (Advertising DSPを使用した広告主 ) 総合的なジャーニー管理のインサイトのために、公開セグメントを追加します。
+* （Advertising DSPを使用する広告主）包括的なジャーニー管理のインサイトを得るために、さらに公開セグメントを追加します。
 
-   Advertising DSPは、Adobe Experience PlatformまたはAudience Managerインプレッショントラッキングピクセルの実装を通じて、露出データを実用的なシグナルとしてAudience Managerに送信できます。 同じデータの転送先 [!DNL Analytics] アドバンスデータ分析を有効にします。 参照：[Adobe Audience ManagerとのAdobeAdvertising Media データの統合の概要](/help/integrations/audience-manager/media-data-integration/overview.md)」を参照してください。
+  Advertising DSPは、Adobe Experience PlatformまたはAudience Managerのインプレッショントラッキング画素の実装を通じて、曝露データを実用的なシグナルとしてAudience Managerに送信できます。 同じデータを [!DNL Analytics] に転送すると、高度なデータ分析が可能になります。 詳しくは、[Adobe Audience Managerを使用したAdobe Advertisingメディアデータ統合の概要」 ](/help/integrations/audience-manager/media-data-integration/overview.md) 参照してください。
 
-詳しくは、 [!DNL Audience Analytics]（前提条件とワークフローを含む）。[Audience Analyticsの概要](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html).&quot;
+前提条件やワークフローなど、[!DNL Audience Analytics] について詳しくは、「[Audience Analyticsの概要 ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)」を参照してください。
 
-## 使用例 [!DNL Audience Analytics] データとAdobe広告データ
+## Adobe Advertisingデータを含む [!DNL Audience Analytics] データの使用例
 
-次に、 [!DNL Analytics] [!DNL Analysis Workspace].
+[!DNL Analysis Workspace] 内で結合されたデータの使用例を次 [!DNL Analytics] 示します。
 
-### 上部ファネルアクティビティがダウンストリームアクティビティに与える影響を確認する
+### 上位ファネルアクティビティがダウンストリームアクティビティに与える影響を確認
 
-Audience Manager露出セグメントを使用して、上部ファネルサイトのアクティビティがダウンストリームサイトのアクティビティに与える影響を確認します。 トラッキングピクセルにAdobe広告またはサードパーティマクロ ID を含めて、キャンペーンレベルからユーザーに公開されたサイトのレベルまで、詳細レベルへの影響を追跡します。
+Audience Manager曝露セグメントを使用して、上位ファネルサイトのアクティビティがダウンストリームサイトのアクティビティに与える影響を確認します。 Adobe Advertisingまたはサードパーティのマクロ ID をトラッキングピクセルに含めて、キャンペーンレベルからユーザーが公開されたサイトのレベルに至るまで、詳細レベルでの影響をトラッキングします。
 
 主なメリット：
 
-* ファネル/広告タイプ別に露出を追跡し、を使用する [!DNL Audience Analytics] を使用して、カスタマージャーニーの次のフェーズとの入口率と重複を判断します。
+* ファネル/広告タイプ別にエクスポージャーを追跡し、[!DNL Audience Analytics] れを使用してエントリレートを決定し、カスタマージャーニーの次のフェーズと重複させます。
 
-* 上部ファネルアクティビティが下流のサイトアクティビティに与える影響を判断します。
+* 上位ファネルアクティビティがダウンストリームサイトアクティビティに与える影響を決定します。
 
-* 接続 [!DNL Analytics for Advertising]<!-- which doesn't include the last exposure event --> および [!DNL Audience Analytics] データ <!-- (which includes the user's last exposure event) --> をクリックして、サイトへの全体的なジャーニーを判断します。
+* [!DNL Analytics for Advertising]<!-- which doesn't include the last exposure event --> と [!DNL Audience Analytics] データ <!-- (which includes the user's last exposure event) --> ースを接続して、サイトへの全体的なジャーニーを決定します。
 
-次に、 [!DNL Analysis Workspace].
+[!DNL Analysis Workspace] で作成できるレポートの例を次に示します。
 
-![上部ファネルアクティビティがダウンストリームサイトのアクティビティに与える影響を確認する](/help/integrations/assets/audience-analytics-upper-funnel-exposure.png)
+![ 上位ファネルアクティビティがダウンストリームサイトアクティビティに与える影響を確認 ](/help/integrations/assets/audience-analytics-upper-funnel-exposure.png)
 
-### 用途 [!DNL Audience Analytics] ユーザープロファイル分析用のサードパーティセグメントデータ
+### ユーザープロファイル [!DNL Audience Analytics] 分析にサードパーティセグメントデータを使用する
 
-サードパーティのAudience Managerセグメントを使用して、ユーザーがサイトとどのようにやり取りしているかをより深く分析できます。 この情報を使用して、メディアをアクティブ化する新しいサードパーティオーディエンスを、サードパーティセグメントのプロファイルがメディアキャンペーンのサイトの主要業績評価指標とどのように関わっているかに基づいて決定できます。
+サードパーティのAudience Managerセグメントを使用すると、ユーザーによるサイトの操作を詳細に分析できます。 情報を使用して、サードパーティのセグメントのプロファイルがメディアキャンペーンのサイトの主要パフォーマンス指標とどのように関わるかに基づいて、メディアをアクティブ化する新しいサードパーティオーディエンスを決定できます。
 
 >[!TIP]
-> Audience Manager `Audiences ID` および `Audiences Name` 寸法 [!DNL Analytics]他のディメンションと同様に [!DNL Analytics] を収集します。
+> 収集される他のディメンションと同様に、[!DNL Analytics] 全体でAudience Manager`Audiences ID` および `Audiences Name` のディメンションを使用 [!DNL Analytics] ます。
 
-次に、 [!DNL Analysis Workspace].
+[!DNL Analysis Workspace] で作成できるレポートの例を次に示します。
 
-![サードパーティセグメントを使用したユーザープロファイル分析の強化](/help/integrations/assets/audience-analytics-third-party-report.png)
+![ サードパーティセグメントを使用したユーザープロファイル分析のエンリッチメント ](/help/integrations/assets/audience-analytics-third-party-report.png)
 
 >[!MORELIKETHIS]
 >
->* [Adobe Audience ManagerとのAdobe広告の統合](/help/integrations/audience-manager/overview.md)
-
+>* [Adobe Audience ManagerとのAdobe Advertising統合 ](/help/integrations/audience-manager/overview.md)

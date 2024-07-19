@@ -1,17 +1,17 @@
 ---
-title: ロールについて
-description: ユーザーの役割について説明します。
-exl-id: 54e17b15-59b2-413b-9670-feb31ba8b3ef
+title: 役割について
+description: ユーザーの役割の詳細情報。
+exl-id: 5ce22392-fead-4a98-ac6a-1655e2ac062a
 feature: Search Admin
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 0%
 
 ---
 
-# ロールについて
+# 役割について
 
-役割は、ユーザータイプが実行できる権限を決定します。 各ユーザーは役割に割り当てられ、役割が許可するすべてのアクティビティを実行できます。
+ロールは、ユーザータイプが実行できる権限を決定します。 各ユーザーは役割に割り当てられ、その役割が許可するすべてのアクティビティを実行できます。
 
-次の条件を持つユーザーのみ： [!DNL Adobe] アカウントマネージャーと管理者の役割は、ユーザーに役割を割り当てることができます。
+アカウントマネージャーと管理者 [!DNL Adobe] 役割を持つユーザーのみがユーザーに役割を割り当てることができます。

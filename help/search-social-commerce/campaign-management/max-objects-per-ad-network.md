@@ -14,12 +14,12 @@ ht-degree: 0%
 
 アカウントあたりの最大キャンペーン数、キャンペーンあたりの最大広告グループ数など、現在のオブジェクト制限については、広告ネットワークのドキュメントを参照してください。
 
-* **[!DNL Baidu]:** Each [!DNL Baidu] アカウントには、最大 100 個のキャンペーン、1 つのキャンペーンに 1000 個の広告グループ、1 つの広告グループに 5000 個のキーワード、1 つの広告グループに 50 個の広告を含めることができます。
+* **[!DNL Baidu]:** 各 [!DNL Baidu] アカウントには、最大 100 個のキャンペーン、1 つのキャンペーンにつき 1000 個の広告グループ、1 つの広告グループにつき 5000 個のキーワード、1 つの広告グループにつき 50 個の広告を含めることができます。
 
-* **[!DNL Microsoft Advertising]:** で「アカウント、キャンペーン、広告グループの制限」を参照してください [https://help.ads.microsoft.com/#apex/ads/en/52001](https://help.ads.microsoft.com/#apex/ads/en/52001).
+* **[!DNL Microsoft Advertising]:** [https://help.ads.microsoft.com/#apex/ads/en/52001](https://help.ads.microsoft.com/#apex/ads/en/52001) の「アカウント、キャンペーン、広告グループの制限」を参照してください。
 
-* **[!DNL Google Ads]:** 参照： [https://support.google.com/google-ads/answer/6372658](https://support.google.com/google-ads/answer/6372658).
+* **[!DNL Google Ads]:** [https://support.google.com/google-ads/answer/6372658](https://support.google.com/google-ads/answer/6372658) を参照。
 
-* **[!DNL Yahoo! Japan Ads]:** 参照： [https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html](https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html).
+* **[!DNL Yahoo! Japan Ads]:** [https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html](https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html) を参照。
 
-* **[!DNL Yandex]:** 参照： [https://yandex.com/support/direct/troubleshooting/interface_limitations.xml](https://yandex.com/support/direct/troubleshooting/interface_limitations.xml).
+* **[!DNL Yandex]:** [https://yandex.com/support/direct/troubleshooting/interface_limitations.xml](https://yandex.com/support/direct/troubleshooting/interface_limitations.xml) を参照。

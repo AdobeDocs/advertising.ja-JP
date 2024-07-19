@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # Adobe Analyticsのコンバージョントラッキング
 
-*Adobe AdvertisingとAdobe Analyticsの統合のみを持つ広告主*
+*Adobe AdvertisingとAdobe Analyticsの統合のみを行う広告主*
 
-Adobe AdvertisingとAdobe Analyticsの統合を利用する広告主の場合、Advertising Cloudでは、広告のクリック数とインプレッション数を、で追跡されたサイトエンゲージメントおよびコンバージョン指標と結び付けることができます [!DNL Analytics] トークンでリダイレクトを使用する場合（`ef_id` パラメーター）を設定する必要があります [入札単位](/help/search-social-commerce/glossary.md#a-b). この [!DNL Analytics] データは、毎日のフィードファイルを介してAdvertising Cloudに自動送信されます。
+Adobe AdvertisingとAdobe Analyticsの統合を利用する広告主の場合、Advertising Cloudは、[ 入札単位 ](/help/search-social-commerce/glossary.md#a-b) のクリックトラッキング URL でトークン（`ef_id` パラメーター）を使用してリダイレクトを使用する際に、[!DNL Analytics] が追跡するサイトエンゲージメントおよびコンバージョン指標に、広告のクリック数およびインプレッション数を結び付けることができます。 [!DNL Analytics] データは、毎日のフィードファイルを介してAdvertising Cloudに自動的に送信されます。
 
-参照先」[概要 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}」を参照してください。
+統合について詳しくは、「[ の概要  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}」を参照してください。
 
 >[!PREREQUISITES]
 >
-> 検索、ソーシャル、Commerce広告主アカウントのタイムゾーン [!DNL Analytics] レポートスイートと広告ネットワークアカウントが一致する必要があります。 一致しない場合、データの相違はシステム全体で発生します。
+> 検索、ソーシャル、Commerce広告主アカウントのタイムゾーン、[!DNL Analytics] レポートスイートおよび広告ネットワークアカウントは一致する必要があります。 一致しない場合、データの相違はシステム全体で発生します。
 
 ## 実装の概要
 
-1. 対象： [!DNL Analytics]検索、ソーシャル、Commerce実装チームは、各レポートスイートに対して、次の設定を変更します。
+1. 検索、ソーシャル、Commerceの導入チームは、[!DNL Analytics] で各レポートスイートに対して次の設定を変更します。
 
-   * の有効期限 `ef_id` [!DNL eVar] は、Adobe Advertising主の広告のクリックルックバックウィンドウに一致するように変更されます。
+   * `ef_id` [!DNL eVar] の有効期限は、広告主のAdobe Advertisingのクリックルックバックウィンドウに一致するように変更されます。
 
    * Adobe Advertisingユーザー ID。
 
@@ -36,12 +36,12 @@ Adobe AdvertisingとAdobe Analyticsの統合を利用する広告主の場合、
 
    1. 既存の広告ネットワークアカウント階層を検索、ソーシャルおよびCommerceに同期します。
 
-   1. 「」を使用してリダイレクトを追加`ef_id`「トークンはトラッキング URL に渡され、広告ネットワークに投稿されます。
+   1. トラッキング URL に渡される「`ef_id`」トークンを使用してリダイレクトを追加し、広告ネットワークに投稿します。
 
-   この手順により、Adobe Advertisingトラッキングサーバーへのリダイレクトが追加されます（を除く） [!DNL Google Ads] および [!DNL Microsoft Advertising] 並列トラッキングをサポートするブラウザーの広告）を渡し、広告クリック時に、動的に入力された「ef_id」パラメーターを URL に追加します。 並列トラッキングが適用されると、エンドユーザーが広告から最終的な URL に直接送信され、トラッキングテンプレート URL （クリック測定を含む）がバックグラウンドで読み込まれます。
+   この手順により、Adobe Advertisingトラッキングサーバーへのリダイレクトが追加され（パラレルトラッキングをサポートするブラウザーの [!DNL Google Ads] および [!DNL Microsoft Advertising] 広告を除く）、広告クリック時に、動的に入力された「ef_id」パラメーターが URL に追加されます。 並列トラッキングが適用されると、エンドユーザーが広告から最終的な URL に直接送信され、トラッキングテンプレート URL （クリック測定を含む）がバックグラウンドで読み込まれます。
 
-統合が完了すると、検索、ソーシャル、Commerceはで追跡されているすべてのオンページイベントデータを自動的に受け取ります [!DNL Analytics] 設定されたレポートスイート用。
+統合が完了すると、検索、ソーシャル、Commerceは、設定されたレポートスイートについて [!DNL Analytics] で追跡されたすべてのオンページイベントデータを自動的に受け取ります。
 
 >[!MORELIKETHIS]
 >
->* [コンバージョントラッキングオプション](conversion-tracking-about.md)
+>* [ コンバージョントラッキングオプション ](conversion-tracking-about.md)

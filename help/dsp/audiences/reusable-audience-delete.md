@@ -14,28 +14,28 @@ ht-degree: 0%
 
 プレースメントや他の再利用可能なオーディエンスで使用されていないオーディエンスを削除できます。
 
-オーディエンスが現在使用されている場合は、を書き出すことができます。 [!DNL Microsoft Excel] オーディエンスを使用するすべてのプレースメントとオーディエンスを示すワークシート。
+現在オーディエンスを使用している場合は、そのオーディエンスを使用するすべてのプレースメントとオーディエンスを示す [!DNL Microsoft Excel] ワークシートを書き出すことができます。
 
-1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
+1. メインメニューで、**[!UICONTROL Audiences]**/**[!UICONTROL All audiences]** をクリックします。
 
-1. オーディエンスの行の上にカーソルを置いてクリックします **[!UICONTROL Delete]**.
+1. オーディエンスの行の上にカーソルを置き、**[!UICONTROL Delete]** をクリックします。
 
-1. （オーディエンスが任意のプレースメントや他の再利用可能なオーディエンスで使用されている場合。任意）をクリックします **[!UICONTROL Export XLS]** ブラウザの通常の手順に従ってワークシートファイル（XLSX 形式）をダウンロードします。
+1. （オーディエンスが任意のプレースメントや他の再利用可能なオーディエンスで使用されている場合。オプション）「**[!UICONTROL Export XLS]**」をクリックして、ブラウザーの通常の手順に従って（XLSX 形式の）ワークシートファイルをダウンロードします。
 
    ファイル名には、オーディエンスの名前と日付が含まれます。
 
-1. （オーディエンスを削除できる場合）確認メッセージで、 **[!UICONTROL Continue]**.
+1. （オーディエンスを削除できる場合）確認メッセージで「削除」をクリック **[!UICONTROL Continue]** ます。
 
 >[!MORELIKETHIS]
 >
->* [Audience Management について](audience-about.md)
->* [再利用可能なオーディエンスを作成](reusable-audience-create.md)
->* [再利用可能なオーディエンスを複製](reusable-audience-duplicate.md)
->* [再利用可能なオーディエンスを編集](reusable-audience-edit.md)
->* [再利用可能なオーディエンスに関する詳細の表示](reusable-audience-view-details.md)
->* [再利用可能なオーディエンスの共有](reusable-audience-share.md)
->* [再利用可能なオーディエンスの書き出し](reusable-audience-export.md)
->* [再利用可能なオーディエンスのセグメントキーをクリップボードにコピー](reusable-audience-clipboard.md)
->* [オーディエンス設定](audience-settings.md)
->* [オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
->* [利用可能なサードパーティデータプロバイダー](third-party-data-providers.md)
+>* [Audience Management について ](audience-about.md)
+>* [ 再利用可能なオーディエンスを作成 ](reusable-audience-create.md)
+>* [ 再利用可能なオーディエンスを複製 ](reusable-audience-duplicate.md)
+>* [ 再利用可能なオーディエンスの編集 ](reusable-audience-edit.md)
+>* [ 再利用可能なオーディエンスに関する詳細の表示 ](reusable-audience-view-details.md)
+>* [ 再利用可能なオーディエンスの共有 ](reusable-audience-share.md)
+>* [ 再利用可能なオーディエンスの書き出し ](reusable-audience-export.md)
+>* [ 再利用可能なオーディエンスのセグメントキーをクリップボードにコピー ](reusable-audience-clipboard.md)
+>* [ オーディエンス設定 ](audience-settings.md)
+>* [ オーディエンスセグメントロジックの構文 ](audience-segment-logic-syntax.md)
+>* [ 利用可能なサードパーティデータプロバイダー ](third-party-data-providers.md)

@@ -16,21 +16,21 @@ ht-degree: 0%
 
 ## コスト、クリックおよびインプレッションデータ
 
-検索、ソーシャル、Commerceでは、からインプレッション、クリック、コストのデータを直接取得します [サポートされる広告ネットワーク](/help/search-social-commerce/introduction/supported-inventory.md) 毎日。 さらに、検索、ソーシャル、Commerceでは、トラッキングテンプレートおよびリンク先 URL に一意のクリック追跡コード（トラッキングサーバーへのリダイレクトを含む）を追加して、表示/コンテンツのインプレッション数、クリック数およびコストを追跡し、後でイベントをコンバージョンに結び付けることができます。
+検索、ソーシャル、Commerceでは、[ サポートされている広告ネットワーク ](/help/search-social-commerce/introduction/supported-inventory.md) からインプレッション、クリック、コストのデータを毎日直接取得します。 さらに、検索、ソーシャル、Commerceでは、トラッキングテンプレートおよびリンク先 URL に一意のクリック追跡コード（トラッキングサーバーへのリダイレクトを含む）を追加して、表示/コンテンツのインプレッション数、クリック数およびコストを追跡し、後でイベントをコンバージョンに結び付けることができます。
 
 検索、ソーシャル、Commerceでデータが同期されない広告ネットワーク上のキャンペーンをトラッキングする場合は、インプレッション、クリック、コストのデータを含んだ毎日のフィードファイルを送信して、これらのキャンペーンのデータを提供する必要があります。
 
 ### クリックトラッキングタグ
 
-検索、ソーシャル、Commerceの導入チームは、同期されたAdobe Advertisingキャンペーン内の広告、キーワード、プレースメント、商品グループ、サイトリンク拡張機能のトラッキングテンプレートと宛先 URL を更新し、一意のトラッキング ID 文字列と広告リダイレクトを含めることで、クリックの追跡を設定します。 また、のランドページサフィックス（最終的な URL サフィックス）へのトラッキングも追加されます [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントとキャンペーン。
+検索、ソーシャル、Commerceの導入チームは、同期されたAdobe Advertisingキャンペーン内の広告、キーワード、プレースメント、商品グループ、サイトリンク拡張機能のトラッキングテンプレートと宛先 URL を更新し、一意のトラッキング ID 文字列と広告リダイレクトを含めることで、クリックの追跡を設定します。 また、[!DNL Google Ads] ーザーや [!DNL Microsoft Advertising] ーザーのアカウントおよびキャンペーンのランドページサフィックス（最終的な URL サフィックス）にトラッキングを追加します。
 
 トラッキングパラメーターを使用すると、Adobe Advertisingは個々のキーワードレベル（検索キャンペーン）または広告バリエーションレベル（コンテンツまたはサイトターゲティングを使用した検索キャンペーン、ディスプレイキャンペーン、ソーシャルキャンペーン）でクリックをトラッキングできます。 ユーザーがディスプレイ/コンテンツ広告を閲覧したり、広告の 1 つをクリックしたりするたびに、広告ネットワークは、キーワードまたは広告に関連付けられたクリック追跡タグを使用して、Adobe Advertisingピクセルサーバーにイベントを送信します。 クリックの場合：
 
-* の場合 [!DNL Google Ads] および [!DNL Microsoft Advertising] 広告パラレルトラッキングをサポートしているブラウザーでは、広告ネットワークは、最初にクリックを web サイトに送信し、次にAdobe Advertisingピクセルサーバーに送信します。ユーザーのコンピューターにまだ cookie が存在しない場合は、そのコンピューターに cookie を配置します。
+* パラレルトラッキングをサポートしているブラウザー上の [!DNL Google Ads] および [!DNL Microsoft Advertising] 広告の場合、広告ネットワークはまずクリックを Web サイトに送信し、次にAdobe Advertisingピクセルサーバーに送信します。ユーザーのコンピューターにまだ cookie が存在しない場合は、そのサーバーに cookie が配置されます。
 
 * それ以外の場合は、アドネットワークからAdobe Advertisingピクセルサーバーに直接クリックが送られます。 Pixel サーバーは、ユーザーのコンピューターに cookie を配置し（まだ存在しない場合）、ユーザーを web サイト上の関連する URL にリダイレクトします。 エンドユーザーの全体的なエクスペリエンスは、リダイレクトがない場合と同じです。
 
-Cookie は [!DNL Adobe] ドメイン （`everesttech.net`）に設定する必要があります。 リダイレクト後、ユーザーは広告主のドメインにアクセスし、その Cookie はサードパーティ Cookie として扱われます。 Adobe Advertising cookie の詳細については、「」を参照してください[Adobe Advertisingーの cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html).」と入力します。
+この cookie は、[!DNL Adobe] ドメイン（`everesttech.net`）にファーストパーティ cookie として設定されます。 リダイレクト後、ユーザーは広告主のドメインにアクセスし、その Cookie はサードパーティ Cookie として扱われます。 Adobe Advertising Cookie について詳しくは、「[Adobe Advertising Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)」を参照してください。
 
 ## コンバージョンデータ
 
@@ -40,10 +40,10 @@ Cookie は [!DNL Adobe] ドメイン （`everesttech.net`）に設定する必�
 
 ### コンバージョントラッキングタグ
 
-次を使用できます [様々なベンダーからのコンバージョンタグ](/help/search-social-commerce/tracking/conversion-tracking-about.md).
+[ さまざまなベンダーのコンバージョンタグ ](/help/search-social-commerce/tracking/conversion-tracking-about.md) を使用できます。
 
 Adobe Advertisingコンバージョンタグを使用し、ユーザーが正常に取引を完了して「成功」ページに移動すると、Adobe Advertisingピクセルサーバーは、クリックリダイレクト時に設定された cookie がユーザーのコンピューターに存在するかどうかを確認します。 Cookie が見つかると、トランザクションイベントに関する情報は ef_transid パラメーターを使用して渡され、そのトランザクションは変換と認識されて、前の広告クリックまたは表示インプレッションにクレジットされます。
 
-ユーザーが複数の広告をクリックした場合、ユーザーが特に指定しない限り、Adobe Advertisingはトランザクションを最終的な広告クリックまたは（ディスプレイまたはビデオキャンペーンの場合）最終的な広告インプレッションにクレジットします。 あなたの [クリックルックバックウィンドウ](/help/search-social-commerce/glossary.md#c-d) および [インプレッションルックバックウィンドウ](/help/search-social-commerce/glossary.md#i-j) イベントをコンバージョンに関連付けることができる、有料クリックまたはディスプレイ/ビデオインプレッションが（それぞれ）発生してから後の日数を決定します。
+ユーザーが複数の広告をクリックした場合、ユーザーが特に指定しない限り、Adobe Advertisingはトランザクションを最終的な広告クリックまたは（ディスプレイまたはビデオキャンペーンの場合）最終的な広告インプレッションにクレジットします。 [ クリックルックバックウィンドウ ](/help/search-social-commerce/glossary.md#c-d) および [ インプレッションルックバックウィンドウ ](/help/search-social-commerce/glossary.md#i-j) は、イベントをコンバージョンに関連付けることができる有料クリックまたはディスプレイ/ビデオインプレッションが（それぞれ）発生した後の日数を決定します。
 
 Adobe Advertising導入チームは広告主と協力して、広告主が実装する必要があるコンバージョンタグのフォーマットを判断し、各コンバージョンタグを挿入する Web ページを特定してから、実装するコンバージョンタグを提供します。

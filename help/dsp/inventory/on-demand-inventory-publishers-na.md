@@ -1,20 +1,20 @@
 ---
-title: '''[!DNL On Demand] 北米のプレミアム在庫発行者'
-description: 利用可能な [!DNL On Demand] 北米のプレミアム在庫発行者。
+title: '北米の [!DNL On Demand] Premium Inventory Publishers'
+description: 北米で利用可能な  [!DNL On Demand] premium の在庫公開者を参照してください。
 feature: DSP On Demand Inventory
 exl-id: f1805fe0-5687-4e32-809f-c584acee3676
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] 北米の Premium Inventory Publishers
+# 北米の [!DNL On Demand] Premium Inventory Publishers
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| 発行者 | 地域 |
+| 公開者 | 地域 |
 |---------------------------------------------|--------|
 | [!DNL AccuRadio] | カナダ |
 | [!DNL BBC] | カナダ |
@@ -29,8 +29,8 @@ ht-degree: 0%
 | [!DNL Crucial Interactive] | カナダ |
 | [!DNL Cue Digital Media] | カナダ |
 | [!DNL DAX] | カナダ |
-| [!DNL DAZN] ([!DNL Perform Media]) | カナダ |
-| [!DNL Dotdash] ( 以前の [!DNL About.com]) | カナダ |
+| [!DNL DAZN] （[!DNL Perform Media]） | カナダ |
+| [!DNL Dotdash] （formerly [!DNL About.com]） | カナダ |
 | [!DNL EA] | カナダ |
 | [!DNL evite] | カナダ |
 | [!DNL Expedia] | カナダ |
@@ -76,7 +76,7 @@ ht-degree: 0%
 | [!DNL BBC] | U.S. |
 | [!DNL Billboard] | U.S. |
 | [!DNL Bloomberg] | U.S. |
-| [!DNL Broadcasters on Hulu] ([!DNL Discovery], [!DNL NBC Universal], [!DNL FOX]) | U.S. |
+| [!DNL Broadcasters on Hulu] （[!DNL Discovery]、[!DNL NBC Universal]、[!DNL FOX]） | U.S. |
 | [!DNL Business Insider] | U.S. |
 | [!DNL Buzzfeed] | U.S. |
 | [!DNL CBS Interactive] | U.S. |
@@ -87,10 +87,10 @@ ht-degree: 0%
 | [!DNL Conde Nast] | U.S. |
 | [!DNL Crackle] | U.S. |
 | [!DNL Cumulus Media] | U.S. |
-| [!DNL DAZN] ([!DNL Perform Media]) | U.S. |
+| [!DNL DAZN] （[!DNL Perform Media]） | U.S. |
 | [!DNL Discovery] | U.S. |
 | [!DNL Disney Digital Network] | U.S. |
-| [!DNL Dotdash] ( 以前の [!DNL About.com]) | U.S. |
+| [!DNL Dotdash] （formerly [!DNL About.com]） | U.S. |
 | [!DNL EA] | U.S. |
 | [!DNL ebay] | U.S. |
 | [!DNL ESI Media] | U.S. |
@@ -173,13 +173,12 @@ ht-degree: 0%
 | [!DNL World Surf League] | U.S. |
 | [!DNL Yahoo] | U.S. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [について [!DNL On Demand] プレミアム在庫](on-demand-inventory-about.md)
->* [購読してへのアクセスをリクエスト [!DNL On Demand] プレミアム在庫](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] アジア太平洋地域の Premium Inventory Publishers](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] オーストラリアとニュージーランドの Premium Inventory Publishers](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] ヨーロッパ、中東、アフリカの Premium Inventory Publishers](on-demand-inventory-publishers-emea.md)
-
+>* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
+>* [Premium インベントリのサブスクライブとアクセス  [!DNL On Demand]  リクエスト ](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand]  アジア太平洋のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-emea.md)

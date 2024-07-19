@@ -1,6 +1,6 @@
 ---
-title: の基本 [!DNL Marketing Channels]
-description: 以下に関する主な情報を学ぶ： [!DNL Analytics Marketing Channels] その [!DNL Analytics for Advertising] ユーザーは理解する必要があります。
+title: の基本  [!DNL Marketing Channels]
+description: ユーザーが理解する必要  [!DNL Analytics Marketing Channels]  ある主  [!DNL Analytics for Advertising]  情報を説明します。
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
 source-git-commit: 29b49e8fa54580d7cdd62f9a10fd2616def4694b
@@ -10,38 +10,38 @@ ht-degree: 0%
 
 ---
 
-# の基本 [!DNL Analytics Marketing Channels]
+# [!DNL Analytics Marketing Channels] の基本
 
-このページでは、 [!DNL Analytics Marketing Channels] その [!DNL Analytics for Advertising] ユーザーは理解する必要があります。
+このページでは、ユーザーが理解する必要のある [!DNL Analytics Marketing Channels] に関 [!DNL Analytics for Advertising] る主な情報を説明します。
 
-に関する完全なドキュメントについては、 [!DNL Marketing Channels]を参照してください。[使用の手引き [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html).&quot;
+[!DNL Marketing Channels] の完全なドキュメントについては、「[ 基本を学ぶ  [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html) を参照してください。
 
-## の概要 [!DNL Marketing Channels]
+## [!DNL Marketing Channels] の概要
 
-[!DNL Marketing Channels] はAdobe Analyticsの主要機能です。 [!DNL Marketing Channels] レポートは、レポートウィンドウを使用して顧客が web サイトに到達した方法と、各チャネルが売上高やオンサイト行動に与える影響を示します。
+[!DNL Marketing Channels] は、Adobe Analyticsの主な機能です。 レポート [!DNL Marketing Channels]、レポートウィンドウを通じて顧客が web サイトに到達する方法と、各チャネルが売上高やオンサイト行動にどのように影響するかを示します。
 
-次に、クロス訪問のジャーニーの例を示します。 Web サイトへの各訪問は、訪問者が訪問したマーケティングチャネルによって示されます。 最初の訪問は、ファーストタッチチャネルとも呼ばれ、電子メールです。 訪問時に表示 2 は参加チャネルで、自然検索はラストタッチチャネルと見なされます。 次を使用する場合、 [!UICONTROL Last Touch Attribution] 範囲 [!UICONTROL Attribution IQ]に値を指定しない場合、自然検索は 250 ドルのコンバージョンイベントのフルクレジットを受け取ります。 Experience CloudID サービスを使用すると、これらの個々の訪問を結び付けて、1 人の訪問者が 1 つのジャーニーを示すことができます。
+次のクロス訪問ジャーニーの例について考えてみます。 Web サイトへの各訪問は、訪問者がエントリしたマーケティングチャネルで示されます。 最初の訪問はメールで、ファーストタッチチャネルとも呼ばれます。 訪問 2 の表示は参加チャネルであり、自然検索はラストタッチチャネルと見なされます。 [!UICONTROL Attribution IQ] 内で [!UICONTROL Last Touch Attribution] を使用すると、Natural Search は$250 のコンバージョンイベントに対してフルクレジットを受け取ります。 Experience CloudID サービスを使用すると、これらの個々の訪問を結び付けて、1 人の訪問者による 1 つのジャーニーを表示できます。
 
-![マーケティングチャネルでのクロス訪問コンバージョンジャーニーの例](/help/integrations/assets/a4adc-mc-sample-journey.png)
+![ マーケティングチャネルでのクロス訪問コンバージョンジャーニーの例 ](/help/integrations/assets/a4adc-mc-sample-journey.png)
 
-次を使用： [!UICONTROL Marketing Channels] 処理ルールでは、トラフィックを促すチャネルを決定する一連のロジックを作成し、ユーザーがサイトに来訪したときに各チャネルを追跡することができます。 例えば、 [!UICONTROL Email] チャネルは、Adobe Analyticsが訪問の分類に使用し、クリック時に生成される一意のトラッキングコードによって示されます。このコードが電子メールマーケティングキャンペーンからの訪問として分類されます。
+処理ルール [!UICONTROL Marketing Channels] 使用すると、一連のロジックを作成して、トラフィックを推進するチャネルを決定し、ユーザーがサイトにアクセスするたびに各チャネルを追跡できます。 例えば、[!UICONTROL Email] チャネルは、クリック時に生成される一意のトラッキングコードで示され、Adobe Analyticsがログに記録される際に、訪問がメールマーケティングキャンペーンからの訪問として分類されます。
 
 ## 処理ルールとマーケティングチャネルの設定方法
 
-ユーザーが Web サイトにアクセスするたびに、URL を使用して、アドレスバーをクリックするか直接入力します。 ユーザーが Web サイトに入ると、 [!DNL Analytics] は、訪問の原因となったチャネルを判断するために使用できる情報を追跡します。
+ユーザーは、web サイトにアクセスするたびに、URL をクリックするか、アドレスバーに直接入力します。 ユーザーが web サイトに入ると、[!DNL Analytics] は、訪問の原因となったチャネルを特定するために使用できる情報を追跡します。
 
-多くの場合、マーケターは、チャネルがサイトに与える影響を追跡するのに役立つクエリー文字列パラメーターのトラッキングコードをチャネル URL に追加します。 次の項目を設定できます。 [!DNL Marketing Channels] 処理ルールを使用して、特定のトラッキングパラメーターと値をリッスンし、追加のトラッキングをおこなわずにチャネルを決定します。 例えば、すべての電子メールキャンペーン URL が次のフォーマットに従っている場合、 `www.adobe.com?cid=email…` （URL にはクエリー文字列パラメーターと値が含まれます） `cid=email`) が含まれている場合、このトラッキングコードをリッスンし、で訪問をグループ化するルールを作成できます。 [!UICONTROL Email] チャネル。
+多くの場合、マーケターは、チャネルの URL にクエリ文字列パラメーターのトラッキングコードを付加して、サイトに対するチャネルの影響を追跡します。 特定 [!DNL Marketing Channels] トラッキングパラメーターおよび値をリッスンするように処理ルールを設定することにより、追加のトラッキングを行わずにチャネルを決定することができます。 例えば、すべてのメールキャンペーン URL が `www.adobe.com?cid=email…` 形式（URL にはクエリ文字列パラメーターと値 `cid=email` が含まれる）に従う場合、このトラッキングコードをリッスンし、[!UICONTROL Email] チャネルに訪問をバケット化するルールを作成できます。
 
-その他のチャネルには追跡可能な URL パスがないので、識別にさらにロジックが必要です。 例： [!UICONTROL Earned Social]は、ユーザーがソーシャルネットワーク上で別のユーザーが有機的に共有したリンクをクリックすることを、追跡するための重要なチャネルです。 ただし、マーケターは、共有されている URL にクエリー文字列パラメータートラッキングコードを追加する方法はありません。 この場合、関心のあるソーシャルネットワークの参照ドメインと有料トラッキングコードの不在をリッスンしてチャネルを決定する処理ルールを作成できます。 これらの要件を満たす訪問は、マーケティングチャネルレポート内で獲得ソーシャルとして追跡されます。
+その他のチャネルには追跡可能な URL パスがなく、識別のためにさらにロジックが必要な場合。 例えば、ユーザーがソーシャルネットワーク上で有機的に共有されているリンクをクリックした [!UICONTROL Earned Social] は、追跡する重要なチャネルです。 ただし、マーケターが、共有される URL にクエリ文字列パラメーターのトラッキングコードを追加する方法はありません。 この場合、対象となるソーシャルネットワークの参照ドメインと、チャネルを決定する有料のトラッキングコードがないかどうかをリッスンする処理ルールを作成できます。 これらの要件を満たす訪問は、マーケティングチャネルレポート内で獲得したソーシャルとして追跡されます。
 
-Adobeは、Analytics チームと協力して、 [!DNL Marketing Channels] 処理ルールを使用して、ビジネスに関連するすべてのチャネルを追跡します。 これにより、強力なアトリビューションレポートを作成できます。
+Adobeでは、分析チームと協力して、ビジネスに関連するすべてのチャネルをトラッキングするための包括的な [!DNL Marketing Channels] 処理ルールのセットを作成することをお勧めします。 これにより、強力なアトリビューションレポートを作成できます。
 
-Adobe Advertisingが、カスタムマーケティングチャネルの作成に必要なシグナルにどのように貢献できるかを理解するには、[広告 ID を使用した作成 [!DNL Marketing Channels] ルール](mc-ids.md).&quot;
+カスタムマーケティングチャネルの作成に必要なシグナルにAdobe Advertisingがどのように関与するかを理解するには、「[Advertising ID を使用した  [!DNL Marketing Channels]  ルールの作成 ](mc-ids.md) を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [Adobe AdvertisingID を使用した作成 [!DNL Marketing Channels] 処理ルール](mc-ids.md)
->* [チャネルとの間でチャネルデータが異なる理由 [!DNL Marketing Channels]](mc-data-variances.md)
->* [使用 [!DNL Analytics Marketing Channels] Adobe Advertisingデータ](mc-ac-data.md)
->* [ビデオ：の使用 [!DNL Marketing Channels] (Adobe Advertisingレポート用 )](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
->* [の概要 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
+>* [Adobe Advertising ID を使用した処理ルール  [!DNL Marketing Channels]  作成 ](mc-ids.md)
+>* [ チャネルデータがAdobe Advertisingによって異なる理由  [!DNL Marketing Channels]](mc-data-variances.md)
+>* [Adobe Advertisingデ  [!DNL Analytics Marketing Channels]  タの使用 ](mc-ac-data.md)
+>* [ ビデオ：Adobe Advertisingレポート  [!DNL Marketing Channels]  使用 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [ 概要  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

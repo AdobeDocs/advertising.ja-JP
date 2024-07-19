@@ -1,31 +1,31 @@
 ---
-title: 行内で直接設定を編集
+title: 行内で設定を直接編集する
 description: 行内の管理ビューでデータを編集する方法を説明します。
-exl-id: 54625fc5-0e7d-4474-9789-61e04ffbb44f
+exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
-# 行内で直接設定を編集
+# 行内で設定を直接編集する
 
 >[!NOTE]
 >
->行内で編集できない広告アカウントやポートフォリオの設定もあります。
+>行内では、すべての広告アカウントとポートフォリオの設定を編集できるわけではありません。
 
-1. セル内をクリックしてアクティブにします。
+1. セルの内側をクリックして、アクティブにします。
 
-1. 値の変更：
+1. 値を変更します。
 
    * （リストのオプション）リストから新しいオプションを選択します。
 
-   * （日付）新しい日付を入力するか、 ![カレンダー](/help/search-social-commerce/assets/calendar.png "カレンダー") カレンダーを開き、 [新しい日付を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
+   * （日付）新しい日付を入力するか、![ カレンダー ](/help/search-social-commerce/assets/calendar.png " カレンダー ") をクリックしてカレンダーを開き [ 新しい日付を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md) します。
 
-   * （自由形式の値）新しい値を入力し、 ![保存](/help/search-social-commerce/assets/select.png "保存") または **入力** キー。
+   * （自由形式の値）新しい値を入力し、![ 保存 ](/help/search-social-commerce/assets/select.png " 保存 ") をクリックするか、**Enter** キーを押します。
 
    >[!MORELIKETHIS]
    >
-   >* [コピー&amp;ペーストを使用して、キャンペーンデータを一括で作成および編集する](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+   >* [ コピー&amp;ペーストを使用したキャンペーンデータの一括作成と編集 ](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)

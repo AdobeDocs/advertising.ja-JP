@@ -14,23 +14,23 @@ ht-degree: 0%
 
 同じキャンペーン内で広告を複製できます。
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
 1. キャンペーンの名前をクリックします。
 
-1. サブメニューで、 **[!UICONTROL Ads]**.
+1. サブメニューで、**[!UICONTROL Ads]** をクリックします。
 
-1. 広告名の横にある「」をクリックします。  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
+1. 広告名の横で、**[!UICONTROL ...]**/**[!UICONTROL Duplicate]** をクリックします。
 
 1. 新しい広告設定を指定します。
 
-   1. （オプション）デフォルトの広告名を変更します。 デフォルトでは、新しい広告は「Copy of \&lt;*元の広告名*\>.&quot;
+   1. （オプション）デフォルトの広告名を変更します。 デフォルトでは、新しい広告の名前は「Copy of \&lt;*original ad name*\>」です。
 
-   1. （任意）の広告設定を変更します [オーディオ広告](ad-settings-audio.md), [接続された TV](ad-settings-connected-tv.md), [広告の表示](ad-settings-display.md), [モバイル広告](ad-settings-mobile.md), [ネイティブ広告](ad-settings-native.md), [プリロール広告](ad-settings-pre-roll.md)、または [ユニバーサルビデオ広告](ad-settings-universal-video.md).
+   1. （任意） [ オーディオ広告 ](ad-settings-audio.md)、[ 接続テレビ ](ad-settings-connected-tv.md)、[ ディスプレイ広告 ](ad-settings-display.md)、[ モバイル広告 ](ad-settings-mobile.md)、[ ネイティブ広告 ](ad-settings-native.md)、[ プリロール広告 ](ad-settings-pre-roll.md) または [ ユニバーサルビデオ広告 ](ad-settings-universal-video.md) の広告設定を変更します。
 
-1. クリック **[!UICONTROL Save & Submit for Review]**.
+1. 「**[!UICONTROL Save & Submit for Review]**」をクリックします。
 
-   この [広告レビュー](ad-about.md) の場合、新しい広告には 24～48 時間かかり、機密カテゴリのチェック、クリック URL 機能、プレビューレンダリングが含まれています。 この [!UICONTROL Status] 列は、DSPが広告を承認したかどうかを示します。 破損した広告のステータスは、24～48 時間を超えて保留中になる場合があるので、拒否される前にエラーを修正する時間があります。
+   新しい広告の [ 広告レビュー ](ad-about.md) には 24～48 時間かかり、機密カテゴリのチェック、クリック URL 機能、プレビューレンダリングが含まれます。 [!UICONTROL Status] の列は、DSPが広告を承認したかどうかを示します。 破損した広告のステータスは、24～48 時間を超えて保留中になる場合があるので、拒否される前にエラーを修正する時間があります。
 
    >[!NOTE]
    >
@@ -38,8 +38,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Ad Management について](ad-about.md)
->* [単一の広告を作成](ad-create.md)
->* [複数のサードパーティ広告の作成](ad-create-multiple.md)
->* [広告の編集](ad-edit.md)
->* [広告仕様](ad-specs.md)
+>* [Ad Management について ](ad-about.md)
+>* [ 単一の広告の作成 ](ad-create.md)
+>* [ 複数のサードパーティ広告の作成 ](ad-create-multiple.md)
+>* [ 広告の編集 ](ad-edit.md)
+>* [ 広告仕様 ](ad-specs.md)

@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Keyword Daily Impression Share Report]'
-description: について説明します [!UICONTROL Keyword Daily Impression Share Report].
+description: '[!UICONTROL Keyword Daily Impression Share Report] について説明します。'
 exl-id: 761864db-a6ef-4155-8959-6c2c90f14a6b
 feature: Search Reports, Search Specialty Reports
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *[!DNL Google Ads]および [!DNL Microsoft Advertising] アカウントのみ*
 
-この [!UICONTROL Keyword Daily Impression Share Report] 1 つ以上の広告グループまたはキャンペーンに対して、各キーワード、対応する一致タイプ、対応するデバイスタイプの毎日のインプレッション共有指標を含みます。 デフォルトでは、指定した日付範囲の各日に、該当する広告グループごとに少なくとも 1 つのインプレッションまたはクリックを受け取ったキーワード、一致タイプおよびデバイスごとに 1 つの行がデータに含まれます。 デフォルトでは、行は日付の昇順です。 レポートには、オプションで、次の方法で追跡されたデータを含めることができます [!DNL Adobe] および派生指標。
+[!UICONTROL Keyword Daily Impression Share Report] には、各キーワードの毎日のインプレッション共有指標、対応する一致タイプ、1 つ以上の広告グループまたはキャンペーンの対応するデバイスタイプが含まれます。 デフォルトでは、指定した日付範囲の各日に、該当する広告グループごとに少なくとも 1 つのインプレッションまたはクリックを受け取ったキーワード、一致タイプおよびデバイスごとに 1 つの行がデータに含まれます。 デフォルトでは、行は日付の昇順です。 このレポートには、オプションで、[!DNL Adobe] および派生指標で追跡されたデータを含めることができます。
 
 インプレッション共有指標は、前日の広告主のタイムゾーンの 13:00 から利用できます。 過去 2 か月のデータを表示できます。
 
 ## デフォルトの列
 
-デフォルト列とカスタム列については、「」を参照してください[専門レポートのレポート列](specialty-report-columns.md).」と入力します。
+すべてのデフォルト列およびカスタム列の説明は、[ 専門レポートのレポート列 ](specialty-report-columns.md) を参照してください。
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Keyword Status]
@@ -48,6 +48,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [専門レポートについて](specialty-report-about.md)
->* [専門レポートの生成](specialty-report-generate.md)
->* [専門レポートの設定](specialty-report-settings.md)
+>* [ 専門レポートについて ](specialty-report-about.md)
+>* [ 専門レポートの生成 ](specialty-report-generate.md)
+>* [ 専門レポートの設定 ](specialty-report-settings.md)

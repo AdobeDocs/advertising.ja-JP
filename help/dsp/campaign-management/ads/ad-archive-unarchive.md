@@ -12,33 +12,32 @@ ht-degree: 0%
 
 # 広告のアーカイブまたはアーカイブ解除
 
-アーカイブして使用されていない広告を非表示にします。 アーカイブした広告は、デフォルトでは表示されませんが、レポートには引き続き使用できます。
+アーカイブで使用されていない広告を非表示にします。 アーカイブされた広告はデフォルトでは表示されませんが、レポートには引き続き使用できます。
 
-広告のアーカイブを解除して、いつでも以前のステータスに復元できます。
+広告のアーカイブを解除すると、いつでも以前のステータスに戻すことができます。
 
 ## 広告のアーカイブ
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 1. キャンペーンの名前をクリックします。
-1. サブメニューで、 **[!UICONTROL Ads]**.
-1. 広告名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. 確認メッセージで、 **[!UICONTROL Archive]**.
+1. サブメニューで、**[!UICONTROL Ads]** をクリックします。
+1. 広告名の横で、**[!UICONTROL ...]**/**[!UICONTROL Archive]** をクリックします。
+1. 確認メッセージで、「**[!UICONTROL Archive]**」をクリックします。
 
 >[!NOTE]
 >
->アーカイブした広告を表示するには、 [!UICONTROL Ads] 表示：クリック ![[!UICONTROL Filter] ボタン](/help/dsp/assets/filter.png)をクリックし、 **[!UICONTROL Ad status]** を選択し、 **[!UICONTROL Archived]**&#x200B;をクリックし、 **[!UICONTROL Apply].**
+>アーカイブした広告を表示するには、[!UICONTROL Ads] 表示をフィルタリングします。![[!UICONTROL Filter] のボタン ](/help/dsp/assets/filter.png) 「**[!UICONTROL Ad status]**」をクリックし、**[!UICONTROL Archived]** を選択して、「**[!UICONTROL Apply]」をクリックします。**
 
 ## 広告のアーカイブ解除
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 1. キャンペーンの名前をクリックします。
-1. サブメニューで、 **[!UICONTROL Ads]**.
-1. 広告名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. 確認メッセージで、 **[!UICONTROL Unarchive]**.
+1. サブメニューで、**[!UICONTROL Ads]** をクリックします。
+1. 広告名の横で、**[!UICONTROL ...]**/**[!UICONTROL Unarchive]** をクリックします。
+1. 確認メッセージで、「**[!UICONTROL Unarchive]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [単一の広告の作成](ad-create.md)
->* [複数のサードパーティ広告の作成](ad-create-multiple.md)
->* [広告の編集](ad-edit.md)
-
+>* [ 単一の広告の作成 ](ad-create.md)
+>* [ 複数のサードパーティ広告の作成 ](ad-create-multiple.md)
+>* [ 広告の編集 ](ad-edit.md)

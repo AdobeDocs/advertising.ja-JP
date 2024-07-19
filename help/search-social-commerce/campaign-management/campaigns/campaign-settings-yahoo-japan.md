@@ -1,20 +1,20 @@
 ---
-title: '''[!DNL Yahoo! Japan Ads] キャンペーン設定'
-description: 次の設定を参照してください： [!DNL Yahoo! Japan Ads] キャンペーン。
-exl-id: f728a880-27d8-478a-8480-a00b0fcab293
+title: '[!DNL Yahoo! Japan Ads] キャンペーン設定'
+description: キャンペーンの設定  [!DNL Yahoo! Japan Ads]  参照します。
+exl-id: 29acde0f-13f6-422d-b611-23ebb2ee70d9
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads] キャンペーン設定
+# [!DNL Yahoo! Japan Ads] キャンペーンの設定
 
 ## \[ キャンペーン作成画面\]
 
-**[!UICONTROL Campaign Type]:** （キャンペーン作成時のみ使用可能）広告の配置場所：唯一のオプションは、 *[!UICONTROL Search Network Only]* 検索ネットワーク上にテキスト広告を表示する。
+**[!UICONTROL Campaign Type]:** （キャンペーンの作成時にのみ使用可能）広告の配置場所：検索ネットワーク上にテキスト広告を表示する唯一のオプションが *[!UICONTROL Search Network Only]* ります。
 
 ## [!UICONTROL Campaign Details]
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Status]:** キャンペーンの表示ステータス： *アクティブ* または *一時停止*. 新しい広告キャンペーンのデフォルトは、 *アクティブ*.
+**[!UICONTROL Status]:** キャンペーンの表示ステータス：*アクティブ* または *一時停止*。 新しい広告キャンペーンのデフォルトは *アクティブ* です。
 
 <!-- **[!UICONTROL End date]:** -->
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Budget Options]
 
-**[!UICONTROL Budget]:** 予算は、1 日に費やす金額の平均です。 1 日の予算の最小額は 100 円です。
+**[!UICONTROL Budget]:** 予算は、毎日の平均支払額です。 1 日の最低予算は 100 円です。
 
-キャンペーン予算の制限が自動的に調整されるポートフォリオにこのキャンペーンを割り当てた場合、検索条件に応じて、指定した期間に指定した予算より多い、または少ない予算を実際に使用する可能性があります。
+このキャンペーンを、キャンペーン予算の上限が自動的に調整されるポートフォリオに割り当てると、検索条件によっては、特定の期間に指定した予算よりも多く、または少ない費用を実際に費やすことができます。
 
 <!-- **[!UICONTROL Delivery Method]:** -->
 
@@ -94,4 +94,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [ キャンペーンの管理 ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)

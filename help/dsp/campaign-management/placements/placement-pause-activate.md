@@ -16,20 +16,20 @@ ht-degree: 0%
 
 ## ライブのプレースメントを一時停止
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 1. キャンペーンの名前をクリックします。
-1. サブメニューで、 **[!UICONTROL Placements]**.
-1. プレースメント名の横にある「」をクリックします  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
+1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Pause]** をクリックします。
 
 ## 一時停止したプレースメントのアクティベート
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 1. キャンペーンの名前をクリックします。
-1. サブメニューで、 **[!UICONTROL Placements]**.
-1. プレースメント名の横にある「」をクリックします  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
+1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Activate]** をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [プレースメントのアーカイブまたはアーカイブ解除](placement-archive-unarchive.md)
->* [プレースメントを編集](placement-edit.md)
->* [プレースメントの変更ログの表示](placement-change-log.md)
+>* [ プレースメントのアーカイブまたはアーカイブ解除 ](placement-archive-unarchive.md)
+>* [ プレースメントを編集 ](placement-edit.md)
+>* [ プレースメントの変更ログを表示 ](placement-change-log.md)

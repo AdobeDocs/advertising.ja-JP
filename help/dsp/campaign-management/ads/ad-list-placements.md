@@ -14,16 +14,16 @@ ht-degree: 0%
 
 広告に関連付けられたプレースメントのリストを表示して、プレースメント別のパフォーマンスデータを確認し、必要に応じてプレースメント設定を編集します。
 
-関連トピック「[プレースメントに添付された広告を表示](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign).」と入力します。
+「[ プレースメントに添付された広告を表示 ](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign)」も参照してください。
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 1. キャンペーンの名前をクリックします。
-1. サブメニューで、 **[!UICONTROL Ads]**.
-1. 広告名の横にある「」をクリックします。  **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
+1. サブメニューで、**[!UICONTROL Ads]** をクリックします。
+1. 広告名の横で、**[!UICONTROL ...]**/**[!UICONTROL See placements]** をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [Ad Management について](ad-about.md)
->* [広告の編集](ad-edit.md)
->* [プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)
->* [プレースメントの詳細レポートの表示](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Ad Management について ](ad-about.md)
+>* [ 広告の編集 ](ad-edit.md)
+>* [ プレースメントを編集 ](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [ プレースメントの詳細レポートの表示 ](/help/dsp/campaign-management/placements/placement-view-report.md)

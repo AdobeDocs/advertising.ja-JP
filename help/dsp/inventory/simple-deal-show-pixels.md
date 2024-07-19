@@ -1,6 +1,6 @@
 ---
-title: のイベントピクセルの表示 [!UICONTROL Simple Ad Serving] 契約
-description: イベント追跡ピクセルのコピーを取得する方法を説明します。 [!UICONTROL Simple Ad Serving] 契約
+title: '[!UICONTROL Simple Ad Serving] 取引のイベントピクセルの表示'
+description: '[!UICONTROL Simple Ad Serving] しい取引のイベントトラッキングピクセルのコピーを取得する方法を説明します。'
 feature: DSP Simple Ad Serving
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
@@ -9,23 +9,22 @@ ht-degree: 0%
 
 ---
 
-# イベント追跡ピクセルの表示 [!UICONTROL Simple Ad Serving] 契約
+# [!UICONTROL Simple Ad Serving] しい取引のイベントトラッキングのピクセルを表示します
 
-イベント追跡ピクセルのコピーを取得できます。 [!UICONTROL Simple Ad Serving] 実装のためにパブリッシャーに送信する契約。 ピクセルは、ディールによって生成された配置内のすべての広告に適用されます。
+[!UICONTROL Simple Ad Serving] しい取引のイベントトラッキングピクセルのコピーを取得し、実装のためにパブリッシャーに送信できます。 ピクセルは、取引で生成されたプレースメントのすべての広告に適用されます。
 
-イベントピクセルには、 [!UICONTROL Clickthrough] ピクセルと [!UICONTROL Impression] ピクセル。 ビデオおよびオーディオ広告には、四分位数ごとに ( [!UICONTROL 25% Complete] から [!UICONTROL 100% Complete]) をクリックします。
+イベントピクセルは、[!UICONTROL Clickthrough] 画素および [!UICONTROL Impression] 画素を含む。 ビデオおよびオーディオ広告には、四分位数によるイベントピクセルも含まれます（[!UICONTROL 25% Complete] から [!UICONTROL 100% Complete]）。
 
-1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals]** をクリックします。
 
-1. 契約行で、「 ![オプションメニュー](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
+1. 取引行で、![ オプションメニュー ](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]** をクリックします。
 
-1. イベント追跡ピクセルをコピーし、投稿者に提供します。
+1. イベントトラッキングのピクセルをコピーして、公開者に提供します。
 
 >[!MORELIKETHIS]
 >
->* [について [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
->* [の作成 [!UICONTROL Simple Ad Serving] 契約](simple-deal-create.md)
->* [編集 [!UICONTROL Simple Ad Serving] 契約設定](simple-deal-edit.md)
->* [[!UICONTROL Simple Ad Serving] 設定](simple-deal-settings.md)
->* [契約の詳細レポートの表示](/help/dsp/inventory/deal-view-report.md)
-
+>* [[!UICONTROL Simple Ad Serving]](simple-deal-about.md) について
+>* [[!UICONTROL Simple Ad Serving] しい取引の作成 ](simple-deal-create.md)
+>* [ 契約設定 [!UICONTROL Simple Ad Serving] 編集 ](simple-deal-edit.md)
+>* [[!UICONTROL Simple Ad Serving] Settings](simple-deal-settings.md)
+>* [ 取引の詳細レポートの表示 ](/help/dsp/inventory/deal-view-report.md)

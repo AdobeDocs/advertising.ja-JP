@@ -1,11 +1,11 @@
 ---
-title: '''[!DNL Baidu] 広告グループ設定'
-description: 次の設定を参照してください： [!DNL Baidu] 広告グループ。
-exl-id: 940c5d62-8646-4686-ad34-1fbabe69e1b3
+title: '[!DNL Baidu] 広告グループの設定'
+description: 広告グループの設定  [!DNL Baidu]  参照します。
+exl-id: 1d480339-a8c8-4874-ad8e-d8973660682c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]:** キャンペーン内で一意の広告グループ名。 最大の長さは 15 の 2 バイト文字です。
+**[!UICONTROL Ad Group Name]:** キャンペーン内で一意の広告グループ名。 最大長は 15 文字の 2 バイト文字です。
 
-**[!UICONTROL Status]:** 広告グループの表示ステータス： *アクティブ* または *一時停止*. 新しい広告グループのデフォルトはです。 *アクティブ*.
+**[!UICONTROL Status]:** 広告グループの表示ステータス：*アクティブ* または *一時停止*。 新しい広告グループのデフォルトは *アクティブ* です。
 
 ## [!UICONTROL Budget Options]
 
@@ -36,4 +36,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [広告グループの管理](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [ 広告グループの管理 ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)

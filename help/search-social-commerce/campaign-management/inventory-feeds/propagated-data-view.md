@@ -12,34 +12,34 @@ ht-degree: 0%
 
 # フィードから生成されたデータを表示
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] （削除アクションのみ）、 [!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除アクションのみ）および [!DNL Yandex] アカウントのみ*
 
-フィード データを広告ネットワークに同時に投稿せずに伝達する場合は、次のいずれかの方法でデータをプレビューできます。 後で必要に応じて実行できます [データを投稿](propagated-data-post.md) どちらかの場所から関連する広告ネットワーク。
+フィード データを広告ネットワークに同時に投稿せずに伝達する場合は、次のいずれかの方法でデータをプレビューできます。 後で必要に応じて、いずれかの場所から関連する広告ネットワークに [ データを投稿 ](propagated-data-post.md) することもできます。
 
-* オプションを使用して「[!UICONTROL Propagate and Preview]作成したバルクシート（「」という名前）を表示します。`<feed file name>_<template name>```）から [!UICONTROL Bulksheets] 表示。 にはデータは含まれていません [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] タブ。 このオプションを使用すると、次のことができます [ランディングページの検証](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) データを投稿する前に、広告とキーワードに関連付けられます。
+* オプションを「[!UICONTROL Propagate and Preview]」に設定した場合は、生成されたバルクシート （「`<feed file name>_<template name>`」という名前）を [!UICONTROL Bulksheets] ビューから表示します。 「[!UICONTROL Campaigns]」、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」、「[!UICONTROL Ads]」の各タブには、データは含まれていません。 このオプションを使用すると、データを投稿する前に、広告およびキーワードに関連付けられた [ ランディングページの検証 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) を行うことができます。
 
-* オプションを使用して「[!UICONTROL Propagate only]」に移動したら、からキャンペーン階層内で生成されたデータを表示します。 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] タブ。
+* オプションを「[!UICONTROL Propagate only]」に使用した場合は、キャンペーン階層ビュー内の生成されたデータを「[!UICONTROL Campaigns]」、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」および「[!UICONTROL Ads]」タブから表示します。
 
   キャンペーン階層ビューには、フィードファイルから生成されたデータのみが表示され、既存のアカウントコンポーネントは表示されません。 コンポーネントとそのすべてのサブコンポーネントのデータが広告ネットワークに投稿されると、キャンペーン階層ビューにそのデータが表示されなくなります。
 
-   1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;が開き、が表示されます。 [!UICONTROL Templates] タブ。
+   1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
 
    1. （任意）特定のテンプレート用に作成されたキャンペーンコンポーネントのみを表示するには、次の手順を実行します。
 
       1. テンプレート名をクリックします。
 
-      1. が含まれる [!UICONTROL Accounts] メニュー左側のナビゲーションウィンドウで、ad network ノード、ad network account ノードの順に展開し、テンプレート名の横にあるチェックボックスをオンにします。
+      1. 左側のナビゲーション ウィンドウの [!UICONTROL Accounts] メニューで、[ 広告ネットワーク ] ノードと [ 広告ネットワーク アカウント ] ノードを展開し、テンプレート名の横にあるチェック ボックスをオンにします。
 
-   1. 「」をクリックします **[!UICONTROL Campaigns]**, **[!UICONTROL Ad Groups]**, **[!UICONTROL Keywords]**、または **[!UICONTROL Ads]** タブをクリックします（表示するコンポーネントによって異なります）。
+   1. 表示するコンポーネントに応じて、「**[!UICONTROL Campaigns]**」、「**[!UICONTROL Ad Groups]**」、「**[!UICONTROL Keywords]**」または「**[!UICONTROL Ads]**」タブをクリックします。
 
       >[!NOTE]
       >
-      >* 特定のテンプレートのデータを表示しない限り、 [!UICONTROL Ad Groups], [!UICONTROL Keywords]、および [!UICONTROL Ads] タブには、すべてのテンプレートおよびフィードファイルから作成されたすべての広告グループ、キーワード、および広告が一覧表示されます。 使用される製品グループ [!DNL Google Ads] ショッピング広告のリスト [!UICONTROL Keywords] タブ。
-      >* 特定のキャンペーンのサブコンポーネントのみを表示するには、最初に以下を表示します。 [!UICONTROL Campaigns] タブ。 同様に、特定の広告グループのサブコンポーネントのみを表示するには、まず次の項目を表示します [!UICONTROL Ad Groups] タブ。
+      >* 特定のテンプレートのデータを表示しない場合、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」および「[!UICONTROL Ads]」タブには、すべてのテンプレートおよびフィードファイルから作成されたすべての広告グループ、キーワードおよび広告が一覧表示されます。 買い物かごに使用される製品グループ [!DNL Google Ads]、「[!UICONTROL Keywords]」タブに表示されます。
+      >* 特定のキャンペーンのサブコンポーネントのみを表示するには、まず「[!UICONTROL Campaigns]」タブを表示します。 同様に、特定の広告グループのサブコンポーネントのみを表示するには、まず「[!UICONTROL Ad Groups]」タブを表示します。
 
    1. （オプション）詳細情報を表示するには、次のいずれかの操作を行います。
 
-      * キャンペーン、広告グループ、キーワードまたは広告の設定を表示するには、 [設定を表示/編集アイコン](/help/search-social-commerce/assets/settings.png "設定を表示/編集アイコン") 名前の隣。
+      * キャンペーン、広告グループ、キーワードまたは広告の設定を表示するには、名前の横にある [ 設定を表示/編集アイコン ](/help/search-social-commerce/assets/settings.png "設定を表示/編集アイコン") をクリックします。
 
       * キャンペーンまたは広告グループのサブコンポーネントを表示するには、次の手順を実行します。
 
@@ -47,12 +47,12 @@ ht-degree: 0%
 
          * 広告グループ内のすべてのキーワードまたは製品ターゲットをリストするには、広告グループ名をクリックします。
 
-         * 広告グループ内のすべての広告を一覧表示するには、広告グループ名をクリックし、 [!UICONTROL Ads] タブ。
+         * 広告グループ内のすべての広告を一覧表示するには、広告グループ名をクリックし、[[!UICONTROL Ads]] タブをクリックします。
 
 >[!MORELIKETHIS]
 >
->* [在庫フィードについて](inventory-feeds-about.md)
->* [フィードから生成されたデータを編集](propagated-data-edit.md)
->* [フィードから広告ネットワークにキャンペーン データを投稿](propagated-data-post.md)
->* [在庫フィード データの転記ジョブを停止します](stop-job.md)
->* [フィードから生成されたデータのステータス](propagated-data-status.md)
+>* [ 在庫フィードについて ](inventory-feeds-about.md)
+>* [ フィードから生成されたデータを編集 ](propagated-data-edit.md)
+>* [ フィードから広告ネットワークにキャンペーンデータを投稿する ](propagated-data-post.md)
+>* [ 在庫フィード データの転記ジョブを停止 ](stop-job.md)
+>* [ フィードから生成されたデータのステータス ](propagated-data-status.md)

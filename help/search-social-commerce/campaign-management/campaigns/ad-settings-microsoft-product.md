@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Advertising] 製品広告設定'
-description: の設定を参照します [!DNL Microsoft Advertising] 製品広告。
+title: '[!DNL Microsoft Advertising] 製品広告設定'
+description: 製品広告の設定  [!DNL Microsoft Advertising]  参照します。
 exl-id: 93601b75-1de8-4f97-8f5e-5ab442510827
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # [!DNL Microsoft Advertising] 製品広告設定
 
-広告の本文は、の製品情報から自動的に作成されます。 [!DNL Microsoft Merchant Center]：広告グループのターゲットとなる製品グループに基づいています。 オプションで、プロモーション明細行を作成して、ショッピング ネットワークを使用するキャンペーンの製品広告に含めることができます。
+広告の本文は、広告グループのターゲットとなる製品グループに基づいて、[!DNL Microsoft Merchant Center] の製品情報から自動的に作成されます。 オプションで、プロモーション明細行を作成して、ショッピング ネットワークを使用するキャンペーンの製品広告に含めることができます。
 
-詳しくは、 [!DNL Microsoft Advertising] 製品広告については、 [Microsoft Advertising ドキュメント](https://help.ads.microsoft.com/#apex/3/en/51082).
+[!DNL Microsoft Advertising] 製品広告について詳しくは、[Microsoft Advertising ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/51082) を参照してください。
 
 ## [!UICONTROL Product Ad]
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [広告について](ad-about.md)
->* [広告の管理](ad-manage.md)
->* [[!DNL Microsoft Advertising] 動的検索広告設定を拡張しました](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft Advertising] マルチメディア広告設定](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft Advertising] レスポンシブ（オーディエンス）広告設定](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft Advertising] レスポンシブ検索広告設定](ad-settings-microsoft-rsa.md)
+>* [ 広告について ](ad-about.md)
+>* [ 広告の管理 ](ad-manage.md)
+>* [[!DNL Microsoft Advertising]  拡張された動的検索広告設定 ](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising]  マルチメディア広告設定 ](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising]  レスポンシブ（オーディエンス）広告設定 ](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising]  レスポンシブ検索広告設定 ](ad-settings-microsoft-rsa.md)

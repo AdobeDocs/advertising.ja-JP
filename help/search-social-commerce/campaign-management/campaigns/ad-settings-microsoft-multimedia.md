@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Advertising] マルチメディア広告設定'
-description: の設定を参照します [!DNL Microsoft Advertising] マルチメディア広告。
+title: '[!DNL Microsoft Advertising] マルチメディア広告設定'
+description: マルチメディア広告の設定  [!DNL Microsoft Advertising]  参照します。
 exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ## レスポンシブ広告の詳細
 
-**[!UICONTROL Images]:** 次のサイズを含む、JPEG、JPGまたは PNG の広告画像（最大 15 個）。
+**[!UICONTROL Images]:** 次のサイズを含む、最大 15 個のJPEG、JPGまたは PNG の広告画像。
 
 * 1.91:1 の縦横比の画像が少なくとも 1 つ表示されます。
 
 * 1 つ以上の正方形（1:1）画像。
 
-許可されている縦横比および寸法を参照してください [マルチメディア広告](https://help.ads.microsoft.com/#apex/ads/en/60107/0).
+[ マルチメディア広告 ](https://help.ads.microsoft.com/#apex/ads/en/60107/0) に対して許可されているアスペクト比とサイズを参照してください。
 
 <!-- Instructions -->
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 **[!UICONTROL Business Name]:** ビジネス名（最大 25 文字）。
 
-**[!UICONTROL Short Headlines]:** 少なくとも 3 つの 15 文字の短いヘッドラインで、それぞれ少なくとも 1 つの単語と最大 30 文字を使用します。
+**[!UICONTROL Short Headlines]:** 少なくとも 3 つの短い見出し（最大 15 文字）で、それぞれ 1 つの単語と最大 30 文字を使用します。
 
-**[!UICONTROL Long Headlines]:** それぞれ最大 90 文字の、少なくとも 3 つの最大 5 つの長い見出し。
+**[!UICONTROL Long Headlines]:** 少なくとも 3 つ、最大 5 つの長い見出しがあり、それぞれ最大 90 文字です。
 
-**[!UICONTROL Ad Text]:** 少なくとも 2 つ、最大 4 つの説明（少なくとも 1 つの単語とそれぞれ最大 90 文字）。
+**[!UICONTROL Ad Text]:** 少なくとも 2 つ、最大 4 つの説明。少なくとも 1 つの単語と、それぞれ最大 90 文字の説明。
 
 **[!UICONTROL Call to Action]:** 広告に含めるコールトゥアクション。 デフォルトでは、「自動」が選択されており、広告ネットワークがコールトゥアクションを選択します。 オプションで、別のアクションを選択できます。
 
@@ -52,9 +52,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [広告について](ad-about.md)
->* [広告の管理](ad-manage.md)
->* [[!DNL Microsoft Advertising] 動的検索広告設定を拡張しました](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft Advertising] 製品広告設定](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising] レスポンシブ（オーディエンス）広告設定](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft Advertising] レスポンシブ検索広告設定](ad-settings-microsoft-rsa.md)
+>* [ 広告について ](ad-about.md)
+>* [ 広告の管理 ](ad-manage.md)
+>* [[!DNL Microsoft Advertising]  拡張された動的検索広告設定 ](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising]  製品広告設定 ](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising]  レスポンシブ（オーディエンス）広告設定 ](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising]  レスポンシブ検索広告設定 ](ad-settings-microsoft-rsa.md)

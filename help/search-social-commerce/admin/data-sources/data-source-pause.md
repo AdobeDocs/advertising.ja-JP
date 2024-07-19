@@ -1,36 +1,36 @@
 ---
-title: データソースの同期を一時停止する
-description: 同期を停止するためにデータソースを一時停止する方法を説明します。
+title: データソースの同期を一時停止
+description: データソースを一時停止して同期を停止する方法を説明します。
 role: User, Admin
-exl-id: 5495ea13-8700-4e8a-9325-062c9ed8f4f4
+exl-id: 93ac22c8-e1e7-490e-8b00-86cac8a2d00c
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
-# データソースの同期を一時停止する
+# データソースの同期を一時停止
 
-*代理店管理者（基本ロール）、Adobeアカウントマネージャ、および管理者のみ*
+*代理店管理者（基本役割）、Adobeアカウント管理者、管理者のみ*
 
-データソースを一時停止すると、データソースとの今後の同期が停止します。 フィードが現在同期中の場合、プロセスは最初に完了し、Adobe Advertising内のデータが最新の状態になります。
+データソースを一時停止すると、その後のデータソースとの同期が停止されます。 フィードが現在同期されている場合は、Adobe Advertising内のデータが最新になるように、プロセスが最初に完了します。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Data Source Setup]** をクリックします。
 
-1. 一時停止するデータソースの横にあるチェックボックスをオンにします。
+1. 一時停止するデータソースの横にあるチェックボックスを選択します。
 
-1. データテーブルの上にあるツールバーで、 ![一時停止](/help/search-social-commerce/assets/pause.png "一時停止").
+1. データ テーブルの上にあるツールバーで、[![ 一時停止 ](/help/search-social-commerce/assets/pause.png " 一時停止 ")] をクリックします。
 
-1. 確認メッセージで、 **[!UICONTROL Pause]**.
+1. 確認メッセージで、「**[!UICONTROL Pause]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [同期について [!DNL Google Analytics] コンバージョン指標](data-source-about.md)
->* [の設定の前提条件 [!DNL Google Analytics] データソース](data-source-prerequisites.md)
->* [の設定 [!DNL Google Analytics] データソースとして表示](data-source-configure.md)
->* [の編集 [!DNL Google Analytics] データソース](data-source-edit.md)
->* [の再認証 [!DNL Google Analytics] データソース](data-source-reauthenticate.md)
->* [[!DNL Google Analytics] データソース設定](data-source-settings.md)
->* [付録 — 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)
+>* [ 同期  [!DNL Google Analytics]  コンバージョン指標について ](data-source-about.md)
+>* [ データソースを設定するため  [!DNL Google Analytics]  前提条件 ](data-source-prerequisites.md)
+>* [ データソースとして  [!DNL Google Analytics]  ビューを設定する ](data-source-configure.md)
+>* [ データソース  [!DNL Google Analytics]  編集 ](data-source-edit.md)
+>* [ データソース  [!DNL Google Analytics]  再認証 ](data-source-reauthenticate.md)
+>* [[!DNL Google Analytics]  データソース設定 ](data-source-settings.md)
+>* [ 付録 – 利用可能  [!DNL Google Analytics]  指標 ](data-source-ga-metrics.md)

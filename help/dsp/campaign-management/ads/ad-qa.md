@@ -16,32 +16,32 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->*広告設定を編集するには、を参照してください [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md).
->*複数の広告に対するサードパーティトラッキングピクセルを一度に変更する場合、またはプレースメントに広告を添付する場合は、「」を参照してください[プレースメントに広告を添付](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).」と入力します。
+>*広告設定を編集するには、[ 広告の編集 ](/help/dsp/campaign-management/ads/ad-edit.md) を参照してください。
+>*複数の広告に対するサードパーティトラッキングピクセルを一度に変更する場合、またはプレースメントに広告を添付する場合は、「[ プレースメントに広告を添付 ](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)」を参照してください。
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
 1. キャンペーンの名前をクリックします。
 
-1. を開きます [!UICONTROL Ad Tools] 次のいずれかの方法で表示します。
+1. 次のいずれかの方法で [!UICONTROL Ad Tools] ビューを開きます。
 
-   * （から [!UICONTROL Packages] , [!UICONTROL Placements]、または [!UICONTROL Ads] 表示）をクリックします。 **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
+   * （[!UICONTROL Packages]、[!UICONTROL Placements] または [!UICONTROL Ads] ビューから）右上の **[!UICONTROL ...]**/**[!UICONTROL Ad Tools]** をクリックします。
 
-   * （から [!UICONTROL Placements] 表示）をクリックします。 **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * （[!UICONTROL Placements] ビューから）プレースメント名の横にある **[!UICONTROL ...]** > **[!UICONTROL Attach Ads]をクリックします。**
 
-   * （から [!UICONTROL Ads] 表示）をクリックします。  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+   * （[!UICONTROL Ads] ビューから）広告名の横で、**[!UICONTROL ...]**/**[!UICONTROL Add to Placements]** をクリックします。
 
-1. 右上のをクリック **[!UICONTROL ...]** > **[!UICONTROL Download Ads QA].**
+1. 右上で、**[!UICONTROL ...]**/**[!UICONTROL Download Ads QA].** をクリックします。
 
 1. ファイルをダウンロードします。
 
-   1. 上部のメニューバーの右側で、 ![ジョブ](/help/dsp/assets/downloads.png).
+   1. 上部のメニューバーの右側にある「![ ジョブ ](/help/dsp/assets/downloads.png)」をクリックします。
 
-   1. ジョブが完了し、ファイルが使用可能になったら、 **[!UICONTROL Download]** ジョブの隣。
+   1. ジョブが完了し、ファイルが使用可能になったら、ジョブの横の「**[!UICONTROL Download]**」をクリックします。
 
       ファイルは、ブラウザーの通常の手順に従って、ワークシートファイル（XLSX 形式）として保存されます。
 
 >[!MORELIKETHIS]
 >
->* [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
->* [プレースメントに広告を添付](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+>* [ 広告の編集 ](/help/dsp/campaign-management/ads/ad-edit.md)
+>* [ プレースメントへの広告の添付 ](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)

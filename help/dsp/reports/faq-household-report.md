@@ -1,110 +1,110 @@
 ---
 title: 世帯レポートに関する FAQ
-description: 世帯レポートが他のレポートやトラブルシューティングとどのように異なるかなど、世帯のリーチ、頻度、コンバージョンデータについて詳しく説明します。
-exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: bd925c41f7b949c56402edd4e2dc393f0c5bed57
+description: 世帯のリーチ、頻度、コンバージョンデータについて、世帯のレポートと他のレポートとの違いやトラブルシューティングなどを説明します。
+exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
 
 # 世帯レポートに関する FAQ
 
-## この [!UICONTROL Household Reach & Frequency] レポート
+## [!UICONTROL Household Reach & Frequency] レポート
 
-### 機能 [!UICONTROL Household Reach & Frequency] 他のカスタムレポートとは異なるレポートを表示するか。
+### [!UICONTROL Household Reach & Frequency] レポートと他のカスタムレポートの違いは何ですか？
 
-この [!UICONTROL Household Reach & Frequency] レポートは、IP アドレスに基づいて、世帯レベルで、様々なディメンションにわたるリーチ、インプレッション、頻度を測定します。 その他のカスタムレポートは、デバイスまたは cookie レベルで生成されます。
+[!UICONTROL Household Reach & Frequency] のレポートでは、IP アドレスに基づいて、様々なディメンションをまたいだリーチ、インプレッションおよび頻度を世帯レベルで測定します。 その他のカスタムレポートは、デバイスレベルまたは cookie レベルで生成されます。
 
-例えば、1 つのインプレッションが 1 世帯内の 3 つのデバイスに提供された場合でも、ユニーク世帯到達指標は 1 です。
+例えば、1 つのインプレッションが 1 つの家庭内の 3 つのデバイスに提供された場合でも、到達した世帯のユニーク数指標は 1 です。
 
 #### サポートされるDimension
 
-この [!UICONTROL Household Reach & Frequency] レポートは [次の寸法](/help/dsp/reports/report-columns.md):&quot;[!UICONTROL Campaign],&quot; &quot;[!UICONTROL Package],&quot; &quot;[!UICONTROL Placement],&quot; &quot;[!UICONTROL Site/Apps]」（重複指標へのアクセスを提供しない）[!UICONTROL Media Type],&quot; &quot;[!UICONTROL Feed Type],&quot; &quot;[!UICONTROL Device],&quot; &quot;[!UICONTROL Publisher],&quot; &quot;[!UICONTROL Audience],&quot; &quot;[!UICONTROL Creative Length],」およびユーザー作成の配置&quot;[!UICONTROL Tags].&quot; |
+[!UICONTROL Household Reach & Frequency] レポートは、[[!UICONTROL Campaign]」、「[!UICONTROL Package]」、「[!UICONTROL Placement]」、「[!UICONTROL Site/Apps]」（重複指標へのアクセスを提供しない）、「[!UICONTROL Media Type]」、「[!UICONTROL Feed Type]」、「[!UICONTROL Device]」、「[!UICONTROL Publisher]」、「[!UICONTROL Audience]」、「[!UICONTROL Creative Length]」およびユーザー作成のプレースメント「[!UICONTROL Tags]」をサポートします ](/help/dsp/reports/report-columns.md)。 |
 
 #### サポートされる指標
 
-この [利用可能な指標](/help/dsp/reports/report-columns.md) 次を含む：
+[ 使用可能な指標 ](/help/dsp/reports/report-columns.md) は次のとおりです。
 
-* 重複指標： [!UICONTROL Frequency Overlap], [!UICONTROL Measurable Impressions (Overlap)]、および [!UICONTROL Unique Household (Overlap)].
+* 重複指標：[!UICONTROL Frequency Overlap]、[!UICONTROL Measurable Impressions (Overlap)]、[!UICONTROL Unique Household (Overlap)]。
 
-  重複指標は、レポートされたディメンションまたはディメンションの組み合わせに対してのみ発生する値で、他のディメンションに対して発生する値ではありません。 <!-- For example, it might show the ?? -->
+  重複指標とは、レポートされたディメンションまたはディメンションの組み合わせに対してのみ発生し、他のディメンションに対しては発生しない値のことです。<!-- For example, it might show the ?? -->
 
-* 重複しない指標： [!UICONTROL Frequency], [!UICONTROL Incremental Household Reached], [!UICONTROL % Incremental Household Reached], [!UICONTROL Impressions], [!UICONTROL Measurable Impressions]、および [!UICONTROL Unique Household Reached]
+* 重複以外の指標：[!UICONTROL Frequency]、[!UICONTROL Incremental Household Reached]、[!UICONTROL % Incremental Household Reached]、[!UICONTROL Impressions]、[!UICONTROL Measurable Impressions] および [!UICONTROL Unique Household Reached]
 
 コンバージョン指標とカスタム目標はサポートされていません。
 
-### 重複指標と非重複指標の違いは何ですか？
+### 重複指標と重複以外の指標の違いは何ですか？
 
-次の図は、3 つのキャンペーン (A、B、C) の 3 つの指標 ( ユニーク世帯到達、増分世帯到達、増分世帯増分世帯（重複）) を示しています。
+次の図は、3 つのキャンペーン（A、B、C）の 3 つの指標（ユニーク世帯、達した世帯の増分、世帯の増分（重複））を示しています。
 
-![世帯間重複指標の図](/help/dsp/assets/household-overlap-metrics-illustration.png "世帯間重複指標の図")
+![ 世帯オーバーラップ指標の図 ](/help/dsp/assets/household-overlap-metrics-illustration.png " 世帯オーバーラップ指標の図 ")
 
-* Unique Household Reached (Total) は、各キャンペーンが到達したユニーク世帯、または各サークルの合計領域を示します。 図では、A が達成したユニーク世帯= A + (A+B) + (A+C) +(A+B+C) が達成した増分世帯
+* ユニーク世帯リーチ（合計）は、各キャンペーンでリーチしたユニーク世帯または各サークルの合計面積を提供します。 次の図では、A によって達成された一意の世帯=A + （A+B） + （A+C） + （A+B+C）によって達成された増分世帯
 
-* 「Incremental Household Reached」は、キャンペーンでのみ到達されたユニーク世帯です。 図では、A、B、C が到達した増分世帯は、それぞれ A、B、C が到達した増分世帯です。
+* 到達した世帯の増分は、キャンペーンによってのみ到達した一意の世帯です。 図の A、B、C の累乗世帯は、それぞれ A、B、C の累乗世帯です。
 
-* 増分世帯（重複）は、キャンペーンまたはキャンペーンの組み合わせで到達した個別世帯です。 図では、A が到達した増分世帯は、C は A+C です。
+* 増分世帯（重複）は、キャンペーンまたはキャンペーンの組み合わせによって達成された一意の世帯です。 図では、A、C によって達成された増分世帯は A+C です。
 
 ### ワークフロー
 
-通常の手順に従って、 [カスタムレポートの作成](report-create.md).
+通常の手順に従って [ カスタムレポートを作成 ](report-create.md) します。
 
-この [!UICONTROL Household Reach & Frequency] レポートに含めることができるディメンションは 1 つだけです。 また、a) サイト/アプリを除く任意のディメンションによる重複指標または b) 重複しない指標のどちらかを含めることもできますが、両方を含めることはできません。
+[!UICONTROL Household Reach & Frequency] レポートには、ディメンションを 1 つだけ含めることができます。 また、a） サイト/アプリを除く任意のディメンションによる重複指標、または b）重複以外の指標を含めることもできますが、両方を含めることはできません。
 
-### のいくつかの制限事項 [!UICONTROL Household Reach & Frequency] レポート？
+### [!UICONTROL Household Reach & Frequency] レポートの制限事項は何ですか。
 
-重複指標を持つレポートは、最大 3 つの値の交差を出力します。 例えば、 [!UICONTROL Unique Household (Overlap)] 10 個の配置の場合、個々の配置で達した個別の世帯、2 つの配置の組み合わせで達した共通の世帯、3 つの配置の組み合わせで達した共通の世帯が表示されます。 4 つ以上の配置によってリーチされた一般的な世帯は表示されません。
+重複指標を持つレポートでは、最大 3 つの値の交差が出力されます。 例えば、10 個のプレースメントに対して指標 [!UICONTROL Unique Household (Overlap)] を使用すると、個々のプレースメントによって到達した一意の世帯、2 つのプレースメントの組み合わせによって到達した一般的な世帯、3 つのプレースメントの組み合わせによって到達した一般的な世帯を確認できます。 4 つ以上のプレースメントによって到達した一般的な世帯は表示されません。
 
-キャンペーン、パッケージ、配置以外のディメンションの場合、レポートは各ディメンションで最大 10 個の値をサポートします。 例えば、 [!UICONTROL Unique Household Reached] レポート [!UICONTROL Audience] ディメンションに値を指定する場合、一意のオーディエンスの数は 10 以下にする必要があります。 10 を超える個別オーディエンスを含めると、空のレポートが生成されます。
+キャンペーン、パッケージまたは配置以外のディメンションの場合、レポートでは各ディメンションで最大 10 個の値がサポートされます。 例えば、[!UICONTROL Audience] ディメンションの [!UICONTROL Unique Household Reached] レポートを生成するには、ユニークオーディエンスの数を 10 以下にする必要があります。 10 を超える一意のオーディエンスを含める場合は、空のレポートが生成されます。
 
-### 頻度とユニークリーチの値が [!UICONTROL Custom] レポートおよび [!UICONTROL Household Reach & Frequency] レポート？
+### [!UICONTROL Custom] レポートと [!UICONTROL Household Reach & Frequency] レポートで頻度とユニークなリーチ値が異なるのはなぜですか？
 
-以下の指標： [!UICONTROL Household] レポートは、実際の IP アドレス数を使用して計算されますが、 [!UICONTROL Custom] レポートでは、モデルを使用して計算された推定数値が使用されます。 しかし、食い違いは 10%未満であるはずです。
+これらのレポートの指標は、実際の IP アドレス数を使用して計算されます。一方、[!UICONTROL Household] のレポートの指標は、モデルを使用して計算された推定数を使用 [!UICONTROL Custom] ます。 ただし、その不一致は 10% 未満にする必要があります。
 
-### レポートを [!UICONTROL Placement Tags] ディメンション？
+### [!UICONTROL Placement Tags] ディメンションのレポートを設定するにはどうすればよいですか？
 
-配置のタグを作成するには、次の手順を実行します。 [配置設定を開く](/help/dsp/campaign-management/placements/placement-edit.md) 値を [配置タグフィールド](/help/dsp/campaign-management/placements/placement-settings.md).
+プレースメントのタグを作成するには、[ プレースメント設定を開き ](/help/dsp/campaign-management/placements/placement-edit.md)[ プレースメント タグ フィールド ](/help/dsp/campaign-management/placements/placement-settings.md) に値を入力します。
 
-配置に複数のタグが含まれる場合、レポートは文字列全体を 1 つのタグと見なします。 レポートには、一意の文字列ごとに 1 行が含まれます。
+プレースメントに複数のタグが含まれる場合、レポートは文字列全体を 1 つのタグと見なします。 レポートには、一意の文字列ごとに 1 行が含まれます。
 
-## この [!UICONTROL Household Conversions] レポート
+## [!UICONTROL Household Conversions] レポート
 
-### でサポートされているアトリビューションメソッドのタイプは何ですか。 [!UICONTROL Household Conversions] レポート？
+### レポートでサポートされているアトリビューションメソッドのタイプ [!UICONTROL Household Conversions] 教えてください。
 
 次の 2 種類のアトリビューションメソッドがサポートされています。
 
-* [!UICONTROL Unique]:ディメンション値（デバイスや配置など）がコンバージョンへのパス上にあった回数をカウントします。
+* [!UICONTROL Unique]：ディメンション値（デバイスや配置など）がコンバージョンへのパス上にあった回数をカウントします。
 
-* [!UICONTROL Multi-Touch Attribution (MTA)]:コンバージョンへのパスでのディメンション値（デバイスや配置など）の発生頻度に基づいて、各コンバージョンのクレジットを配分します。 例えば、コンバージョン前に合計 10 件のインプレッションがあり、CTV で 8 件、モバイルで 2 件があった場合、クレジットの 80%(0.8) が CTV 画面に、0.2 がモバイルに割り当てられます。
+* [!UICONTROL Multi-Touch Attribution (MTA)]：コンバージョンへのパス上でのディメンション値（デバイスや配置など）の発生頻度に基づいて、各コンバージョンのクレジットを配分します。 例えば、コンバージョン前に合計 10 件のインプレッションがあり、CTV に 8 件、モバイルに 2 件あった場合、クレジットの 80% （0.8）が CTV 画面に、0.2 がモバイルに与えられます。
 
-### 家計コンバージョンレポートは、Adobe Analyticsの CTV ビュースルーレポートとどのように異なりますか。
+### 世帯コンバージョンレポートとAdobe Analyticsの CTV ビュースルーレポートの違い
 
-での CTV ビュースルーデータ [!DNL Analytics] は電源が入っています [!DNL Analytics] トラッキングおよび世帯コンバージョンデータは、Adobe Advertisingコンバージョントラッキングを使用して収集されたデータを使用します。 また、DSPのアトリビューションロジック ( [!DNL Analytics] は最後のイベントのみを使用しますが、世帯コンバージョンレポートは 2 つの異なるアトリビューション方法をサポートします。一意と MTA。
+[!DNL Analytics] の CTV ビュースルーデータはトラッキングを [!DNL Analytics] 用しており、家庭用コンバージョンデータはAdobe Advertisingコンバージョントラッキングを使用して収集されたデータを使用します。 さらに、[!DNL Analytics] のDSP アトリビューションロジックでは最後のイベントのみが使用されますが、世帯コンバージョンレポートでは、ユニークと MTA という 2 つの異なるアトリビューションメソッドがサポートされます。
 
-### CTV ビュースルーデータを [!DNL Analytics for Advertising] カスタムレポートで
+### CTV ビュースルーデータを [!DNL Analytics for Advertising] とカスタムレポートの両方で表示できますか？
 
-広告主（なし） [!DNL Analytics for Advertising] は、世帯コンバージョンレポートに対してのみ世帯コンバージョンレポートを使用できます。
+[!DNL Analytics for Advertising] を持たない広告主は、家事変換レポートに対してのみ家事変換レポートを使用できます。
 
-組織が [!DNL Analytics for Advertising]を使用する場合は、両方のタイプのレポートを一緒に使用します。 CTV のビュースルーレポートは、幅広いチャネル分析やサイトでの行動などに適していますが、カスタムレポートでは、コンバージョン率を引き起こす要因を示す詳細な情報（メディアタイプ、発行者などで分類されたデータ）が得られます。
+組織に [!DNL Analytics for Advertising] がある場合は、両方のタイプのレポートを一緒に使用します。 CTV ビュースルーレポートは、幅広いチャネル分析やサイト行動などに適していますが、カスタムレポートは、コンバージョン率を促す要因を示す（データをメディアタイプ、公開者などで分類した）詳細なビューを提供します。
 
-## [!UICONTROL Household Reach & Frequency] および [!UICONTROL Household Conversions] レポートとデータの比較 [!DNL Advanced Measurement Services]
+## [!UICONTROL Household Reach & Frequency] および [!UICONTROL Household Conversions] レポートと [!DNL Advanced Measurement Services] のデータの比較
 
-世帯ベースのリーチと頻度またはコンバージョンに関する高度なレポートについては、 [[!DNL Strategic Advertising Consulting] チーム](/help/dsp/introduction/advanced-measurement-services.md) では、高度にカスタマイズ可能なレポートを包括的な戦略的推奨事項と共に提供できます。 詳しくは、 [!DNL Advanced Measurement Services]の担当者は、Adobeアカウントチームにお問い合わせください。
+世帯ベースのリーチと頻度またはコンバージョンに関する高度なレポートについて、[[!DNL Strategic Advertising Consulting]  チーム ](/help/dsp/introduction/advanced-measurement-services.md) は、全体的な戦略的レコメンデーションに加えて、カスタマイズ性の高いレポートを提供できます。 [!DNL Advanced Measurement Services] について詳しくは、Adobeアカウントチームにお問い合わせください。
 
-### 既に [!DNL Advanced Measurement Services]を使用する理由 [!UICONTROL Household Reach & Frequency] および [!UICONTROL Household Conversions] レポート？
+### 既に [!DNL Advanced Measurement Services] を使用している場合、[!UICONTROL Household Reach & Frequency] レポートと [!UICONTROL Household Conversions] レポートを使用する必要があるのはなぜですか？
 
-この [!UICONTROL Household Reach & Frequency] および [!UICONTROL Household Conversions] レポートを使用すると、クライアントは、リアルタイムで家庭レベルのリーチ指標、頻度指標、コンバージョン指標をそれぞれ自律的に取り込むことができます。
+[!UICONTROL Household Reach & Frequency] レポートと [!UICONTROL Household Conversions] レポートを使用すると、クライアントは、世帯レベルのリーチ、頻度、コンバージョン指標をそれぞれ自律的にリアルタイムで取り込むことができます。
 
-### 両方を使用できますか？ [!UICONTROL Household Reach & Frequency] および [!UICONTROL Household Conversions] レポートと [!DNL Advanced Measurement Services]?
+### [!UICONTROL Household Reach & Frequency] と [!UICONTROL Household Conversions] の両方のレポートと [!DNL Advanced Measurement Services] を使用できますか？
 
-理想的な使用例は、 [!UICONTROL Household] レポートおよび [!DNL Advanced Measurement Services] レポートとコンサルティングサービスを一緒に使用する。 次の点を考慮してください。 [!UICONTROL Household] トランザクションとしてレポートし、日々の最適化を導き出し、 [!DNL Advanced Measurement Services] より戦略的で、包括的なビジネス目標に結び付いた総合的な知識と留意点を伝えることを目的としています。
+理想的なユースケースは、[!UICONTROL Household] レポートと、[!DNL Advanced Measurement Services] のレポートサービスおよびコンサルティングサービスの両方を一緒に使用することです。 [!UICONTROL Household] レポートをトランザクションとして考え、日々の最適化に情報を提供することを目的とし、より戦略的な [!DNL Advanced Measurement Services] めに、包括的なビジネス目標に関連する総合的な知識や留意点を提供することを目的としています。
 
 >[!MORELIKETHIS]
 >
->* [カスタムレポートについて](/help/dsp/reports/report-about.md)
->* [カスタムレポートの作成](/help/dsp/reports/report-create.md)
->* [カスタムレポートの編集](/help/dsp/reports/report-edit.md)
->* [カスタムレポート設定](/help/dsp/reports/report-settings.md)
->* [使用可能なレポート列](/help/dsp/reports/report-columns.md)
+>* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
+>* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートの編集 ](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
+>* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)

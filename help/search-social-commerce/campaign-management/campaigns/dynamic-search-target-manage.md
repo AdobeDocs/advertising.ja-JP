@@ -1,16 +1,16 @@
 ---
-title: 管理 [!DNL Google Ads] 動的検索ターゲット
-description: 作成および管理方法を学ぶ [!DNL Google Ads] 動的検索ターゲット。
-exl-id: 85b1455a-dda1-4bb9-b4be-d6e0a837fd9d
+title: 動的検索タ  [!DNL Google Ads]  ゲットの管理
+description: 動的検索ターゲットを作成および管理する方法  [!DNL Google Ads]  ついて説明します。
+exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
 
-# 管理 [!DNL Google Ads] 動的検索ターゲット
+# 動的検索タ [!DNL Google Ads] ゲットの管理
 
 *[!DNL Google Ads]アカウントのみ*
 
@@ -18,99 +18,99 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->一度に大量のターゲットデータを作成および編集するには、 [bulksheet ファイル](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) 広告ネットワークに投稿します。
+>[ バルクシート ファイル ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) をアップロードして広告ネットワークに投稿することで、大量のターゲットデータを一度に作成および編集できます。
 
-## の作成 [!DNL Google Ads] 動的検索ターゲット
+## [!DNL Google Ads] の動的検索ターゲットの作成
 
-動的検索ターゲットを作成して、同じ広告グループ内の動的検索広告をターゲットにするコンテンツが使用される Web サイト（つまり、広告の表示 URL で使用されるドメイン）のページを定義できます。
+動的検索ターゲットを作成して、同じ広告グループ内の動的検索広告をターゲットするためにコンテンツが使用される web サイトのページ（つまり、広告のディスプレイ URL で使用されるドメイン）を定義できます。
 
-すべての条件をターゲットにするか、最大 3 つの個々の条件をターゲットにすることができます。
+すべての条件、または最大 3 つの個別の条件をターゲットにすることができます。
 
 >[!NOTE]
 >
->パフォーマンスを最も高く追跡するには、[!UICONTROL All Targets]&quot;キャンペーンごとに 1 つの広告グループのみのターゲット。
+>パフォーマンスを最適に追跡するには、キャンペーンあたり 1 つの広告グループに対してのみ「[!UICONTROL All Targets]」ターゲットを作成します。
 
 >[!TIP]
 >
->一度に多数のアカウントコンポーネントを作成するには、 [キャンペーンバルクシート](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>一度に多くのアカウントコンポーネントを作成するには、[campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Auto Targets]** をクリックします。
 
-1. データテーブルの上にあるツールバーで、 ![作成](/help/search-social-commerce/assets/add.png "作成").
+1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
-1. 広告ネットワーク、アカウント、キャンペーンおよび広告グループを選択し、 **[!UICONTROL Continue]**.
+1. 広告ネットワーク、アカウント、キャンペーン、広告グループを選択し、「**[!UICONTROL Continue]**」をクリックします。
 
-1. 次を指定します。 [動的検索ターゲット設定](#dynamic-search-target-settings).
+1. [ 動的検索ターゲット設定 ](#dynamic-search-target-settings) を指定します。
 
-1. クリック **[!UICONTROL Post]**.
+1. 「**[!UICONTROL Post]**」をクリックします。
 
-## 編集 [!DNL Google Ads] 動的検索ターゲット設定
+## 動的検索ターゲット設定 [!DNL Google Ads] 編集
 
-のステータスまたは最大入札額を編集できます [!DNL Google Ads] 動的検索ターゲット。 ターゲットとなる条件は変更できません。
+[!DNL Google Ads] の動的検索ターゲットのステータスまたは最大入札額を編集できます。 対象となる条件は変更できません。
 
 >[!TIP]
 >
->大量のデータを一度に編集するには、 [キャンペーンバルクシート](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>一度に大量のデータを編集するには、[campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Auto Targets]** をクリックします。
 
 1. 編集する各行の横にあるチェックボックスをオンにします。
 
-   複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-1. データテーブルの上にあるツールバーで、 ![編集](/help/search-social-commerce/assets/edit.png "編集").
+1. データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")] をクリックします。
 
-1. 次を指定します。 [動的検索ターゲット設定](#dynamic-search-target-settings).
+1. [ 動的検索ターゲット設定 ](#dynamic-search-target-settings) を指定します。
 
-   複数のターゲットの場合、変更は選択したすべてのターゲットに適用されます。 の [!UICONTROL Bid field]に値を追加する場合は、既存の値を指定した値に変更するか、指定した割合または金額で金額を増減（制限あり）するかを選択できます。
+   複数のターゲットの場合、変更は選択したすべてのターゲットに適用されます。 [!UICONTROL Bid field] の場合は、既存の値を指定の値に変更するか、制限を設けて、指定の割合または金額で金額を増減するオプションがあります。
 
 1. データを保存します。
 
-   * （単一のターゲット）クリック **[!UICONTROL Post]**.
+   * （単一ターゲット） **[!UICONTROL Post]** をクリックします。
 
-   * （複数の広告グループ）クリック **[!UICONTROL Post Now]**.
+   * （複数の広告グループ）「**[!UICONTROL Post Now]**」をクリックします。
 
-## ステータスの変更 [!DNL Google Ads] 動的検索ターゲット
+## 動的検索ターゲット [!DNL Google Ads] ステータスの変更
 
-サポートされるキャンペーンタイプのアクティブな動的検索ターゲットを一時停止して、同じ広告グループ内の動的検索広告に対する使用を停止できます。 後で広告のステータスをアクティブに戻すことで、ターゲットとして使用できます。
+サポートされているキャンペーンタイプでアクティブな動的検索ターゲットを一時停止して、同じ広告グループ内の動的検索広告に対するアクティブな動的検索ターゲットの使用を停止できます。 後で広告のステータスをアクティブに戻すことで、これらをターゲットとして使用できます。
 
 また、任意の動的ターゲットを削除することもできます。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Auto Targets]** をクリックします。
 
-1. （オプション）リストをフィルタリングして、特定の動的ターゲットを含めます。
+1. （任意）特定の動的ターゲットを含めるようにリストをフィルタリングします。
 
-1. 次のいずれかの操作を行います。
+1. 次のいずれかの操作をおこないます。
 
-   * 1 つの動的ターゲットのステータスを変更するには、 **[!UICONTROL Status]** 列を編集して、ステータスを変更します。
+   * 1 つの動的ターゲットのステータスを変更するには、**[!UICONTROL Status]** 列内をクリックしてステータスを変更します。
 
    * 1 つ以上の動的ターゲットを削除するには、次の手順を実行します。
 
       1. 削除する各動的ターゲットの横にあるチェックボックスをオンにします。
 
-     複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+     複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-      1. ツールバーで、 ![その他](/help/search-social-commerce/assets/more.png "その他") を選択し、 **[!UICONTROL Delete]**.
+      1. ツールバーの ![ その他 ") をクリックし ](/help/search-social-commerce/assets/more.png " 選択 **[!UICONTROL Delete]** ます。
 
-      1. 確認メッセージで、 **[!UICONTROL Delete]**.
+      1. 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 
-## [!DNL Google Ads] 動的検索ターゲット設定 {#dynamic-search-target-settings}
+## 動的検索のターゲット設定の [!DNL Google Ads] 定 {#dynamic-search-target-settings}
 
 ### [!UICONTROL Auto-Target Details]
 
-**[!UICONTROL Auto-targets]:** ( キャンペーンの [!UICONTROL DSA Options] セクション。既存のターゲットの場合は読み取り専用 ) 広告グループの動的検索ターゲット：
+**[!UICONTROL Auto-targets]:** （キャンペーンの「[!UICONTROL DSA Options]」セクションで web サイトのドメインと言語を指定しない場合に必要。既存のターゲットの場合は読み取り専用）広告グループの動的検索ターゲット：
 
-* *[!UICONTROL All Targets]* （デフォルト）：インデックスで指定されたすべてのページをターゲットにします。
+* *[!UICONTROL All Targets]* （デフォルト）：すべてのインデックス付きページをターゲットにします。
 
-* *\[ 特定のターゲット\]:* インデックスで指定されたページの最大 3 つの条件をターゲットに設定します。 これを選択する場合、広告をターゲットにする情報カテゴリと特定の値（例：「URL に shoes.example.com が含まれる」）を指定して、条件を指定する必要があります。 複数の条件を指定するには、 **[!UICONTROL + And]**. ターゲット条件には次のものが含まれます。
+* *\[Specific Targets\]:* インデックス付きページに対して最大 3 つの条件をターゲットにします。 これを選択する場合は、広告のターゲットとなる情報カテゴリと特定の値を指定して条件を指定する必要があります（「URL contains shoes.example.com」など）。 複数の条件を指定するには、[**[!UICONTROL + And]**] をクリックします。 ターゲット条件は次のとおりです。
 
-   * *[!UICONTROL Category]:* 特定の [!DNL Google Ads] コンテンツカテゴリ。
+   * *[!UICONTROL Category]:* 特定の [!DNL Google Ads] コンテンツカテゴリでインデックス付けされたページの広告を表示します。
 
-   * *[!UICONTROL URL]:* 特定の URL を持つインデックス付きページの広告を表示する場合。URL 内の任意の場所に値を含めることができます。
+   * *[!UICONTROL URL]:* 特定の URL を持つインデックス付きページの広告を表示します。この場合、値は URL 内の任意の場所に含めることができます。
 
-   * *[!UICONTROL Page Title]:* ページタイトルに特定のテキストを含むインデックス付きページの広告を表示する。
+   * *[!UICONTROL Page Title]:* ページタイトルに特定のテキストを含む、インデックス付きのページの広告を表示します。
 
-   * *[!UICONTROL Page Content]:* 特定のコンテンツを含むインデックス付きページの広告を表示する。
+   * *[!UICONTROL Page Content]:* 特定のコンテンツを含むインデックス付きページの広告を表示します。
 
 **ステータス：** ターゲット設定のステータス：
 
@@ -122,12 +122,12 @@ ht-degree: 0%
 
 ### [!UICONTROL Bids]
 
-**[!UICONTROL Bid]:** 広告の最大クリック単価 (CPC) または広告の 1,000 インプレッションあたりのコスト (CPM)。広告ネットワークとキャンペーンの価格モデルで使用できます。 この値は、広告グループレベルの値よりも優先されます。
+**[!UICONTROL Bid]:** 広告の最大クリック単価（CPC）または広告の 1000 インプレッション単価（CPM）は、広告ネットワークおよびキャンペーン価格モデルの場合に適用されます。 この値は、広告グループレベルの値を上書きします。
 
 >[!NOTE]
 >
->ターゲットが最適化されたポートフォリオにある場合、指定された CPC 入札が 1 日に適用されます。 その後、最適化機能によって、入札は独自の計算に従って配置されます。
+>ターゲットが最適化されたポートフォリオ内にある場合、指定された CPC 入札は 1 日適用されます。 その後、最適化機能は独自の計算に従って入札を行います。
 
 >[!MORELIKETHIS]
 >
->* [について [!DNL Google Ads] 動的検索ターゲット](dynamic-search-target-about.md)
+>* [ 動的検索ターゲット  [!DNL Google Ads]  ついて ](dynamic-search-target-about.md)

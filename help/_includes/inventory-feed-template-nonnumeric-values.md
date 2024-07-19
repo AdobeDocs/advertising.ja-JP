@@ -5,6 +5,6 @@ source-wordcount: '39'
 ht-degree: 0%
 
 ---
-# テキスト広告テンプレート — この列には数値以外の値が含まれます
+# テキストとテンプレート – この列には数値以外の値が含まれています
 
-**[!UICONTROL This column has non-numeric values]:**（オプション）指定した列には数値以外の値が含まれます。 例えば、[!UICONTROL Availability]」列 [!DNL Google Merchant Center] フィードの場合、値は数値以外 ( 例：[!DNL in stock]&quot;および&quot;[!DNL out of stock].&quot; **注意：** テキストベースの値では、大文字と小文字が区別されません。
+**[!UICONTROL This column has non-numeric values]:** （オプション）指定された列には数値以外の値が含まれています。 例えば、[!DNL Google Merchant Center] フィードで「[!UICONTROL Availability]」列を使用する場合、値は「[!DNL in stock]」や「[!DNL out of stock]」など、数値以外の値になります。 **メモ：** テキストベースの値では、大文字と小文字が区別されません。

@@ -1,9 +1,9 @@
 ---
 title: モデル精度レポートについて
-description: 入札の最適化に使用されるコストと売上高モデルの精度を示すレポートについて説明します。
-exl-id: 8aeb2308-8775-4a6d-9d25-ba5378490344
+description: 入札の最適化に使用されるコストおよび収益モデルの精度を示すレポートについて説明します。
+exl-id: 2f655db6-8f4f-4eae-9f18-cc04acad3c5c
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # モデル精度レポートについて
 
-モデルの精度レポートは、入札の最適化に使用されるコストと売上高のモデルの精度を示します。
+モデル精度レポートは、入札の最適化に使用される費用モデルと収益モデルの精度を示します。
 
-不正確な値は、パフォーマンスの問題を示す場合があり、その結果、ポートフォリオ設定の調整が必要になる場合があります。 予測の不正確さのトラブルシューティングの詳細については、Search、Social、および Commerce から利用できる最適化ガイドの「Portfolio」セクションの「Portfolioに関する FAQ」を参照してください。<!-- verify convention for referencing Optimization Guide here -->
+不正確さは、パフォーマンスの問題を示す可能性があり、その結果、ポートフォリオ設定を調整する必要が生じる場合があります。 不正確な予測値のトラブルシューティングについて詳しくは、Portfolioガイドの最適化に関する節の「Portfolioに関する FAQ」（検索、ソーシャル、Commerceから使用可能）を参照してください。<!-- verify convention for referencing Optimization Guide here -->
 
 ## モデル精度レポートのタイプ
 
-* [The [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+* [[!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
 
-* [The [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+* [[!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 
 >[!MORELIKETHIS]
 >
->* [The [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
->* [The [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [モデル精度レポートの生成](model-accuracy-report-generate.md)
->* [モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
->* [レポートについて](/help/search-social-commerce/reports/report-about.md)
+>* [[!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+>* [[!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+>* [ モデル精度レポートの生成 ](model-accuracy-report-generate.md)
+>* [ モデル精度レポートの設定 ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [ レポートについて ](/help/search-social-commerce/reports/report-about.md)

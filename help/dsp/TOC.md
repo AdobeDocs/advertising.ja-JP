@@ -23,7 +23,7 @@ ht-degree: 3%
 -->
 
 + [新機能](/help/dsp/home.md)
-+ はじめに {#introduction}
++ 概要 {#introduction}
    + [Adobe Advertising DSPの概要](/help/dsp/introduction/dsp-about.md)
    + 主な機能 {#features}
       + [最適化](/help/dsp/introduction/features/optimization.md)
@@ -31,12 +31,12 @@ ht-degree: 3%
       + [クロスデバイスソリューション](/help/dsp/introduction/features/cross-device-solutions.md)
    + [口座資金](/help/dsp/introduction/billing/account-funding.md)
    + [サポートされる通貨](/help/dsp/currency.md)
-   + [消費者プライバシーのサポート](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [ポリシーとガイドライン](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [ 消費者プライバシーの支援 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [ 施策及び指針 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [高度な計測ソリューション](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Campaign Managementの構造の概要](/help/dsp/campaign-management/campaign-management-overview.md)
-   + キャンペーン {#campaigns}
+   + Campaigns {#campaigns}
       + [Campaign Managementについて](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [キャンペーンの作成](/help/dsp/campaign-management/campaigns/campaign-create.md)
       + [キャンペーンの編集](/help/dsp/campaign-management/campaigns/campaign-edit.md)
@@ -76,11 +76,11 @@ ht-degree: 3%
       + [認定広告サービングパートナー](/help/dsp/campaign-management/ads/certified-ad-servers.md)
       + [単一の広告を作成](/help/dsp/campaign-management/ads/ad-create.md)
       + [複数のサードパーティ広告の作成](/help/dsp/campaign-management/ads/ad-create-multiple.md)
-      + [広告の作成 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [ [!DNL Flashtalking] を使用した広告の作成](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [スプレッドシートを使用した広告の詳細のレビュー](/help/dsp/campaign-management/ads/ad-qa.md)
       + [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
       + [広告の複製](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [プレースメントに広告を添付](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [ プレースメントへの広告の添付 ](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [広告に関連付けられたプレースメントのリスト](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [広告の詳細レポートの表示](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [広告の一時停止またはアクティブ化](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -94,7 +94,7 @@ ht-degree: 3%
          + [プリロール広告設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [ユニバーサルビデオ広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [サポートされる広告タイプの仕様](/help/dsp/campaign-management/ads/ad-specs.md)
-   + Campaign Management ビューのパフォーマンスレポート {#campaign-reports}
+   + Campaign Management ビュー {#campaign-reports} ージのパフォーマンスレポート
       + [Campaign Management ビューでのパフォーマンスレポートのタイプ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Campaign Management ビューからのデータの書き出し](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [プレースメントのサイト、広告、頻度、在庫の詳細を表示する](/help/dsp/campaign-management/reports/placement-details-view.md)
@@ -107,13 +107,13 @@ ht-degree: 3%
    + [Campaign Managementに関する FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
    + [ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 + 最適化 {#optimization}
-   + [方法 [!DNL DSP] キャンペーンの最適化](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+   + [キャンペ  [!DNL DSP]  ンの最適化方法](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [最適化目標とその使用方法](/help/dsp/optimization/optimization-goals.md)
    + [プレースメントレベルの事前入札フィルターとその使用方法](/help/dsp/optimization/optimization-pre-bid-filters.md)
    + [カスタム目標](/help/dsp/optimization/custom-goal.md)
    + [パフォーマンスキャンペーンの設定のベストプラクティス](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [トラブルシューティングのパフォーマンス](/help/dsp/optimization/troubleshooting-performance.md)
-+ オーディエンス {#audiences}
++ Audiences {#audiences}
    + [Audience Management について](/help/dsp/audiences/audience-about.md)
    + [ユニバーサル ID の有効化のサポート](/help/dsp/audiences/universal-ids.md)
    + 再利用可能なオーディエンス {#reusable-audiences}
@@ -129,55 +129,55 @@ ht-degree: 3%
       + [オーディエンスセグメントロジックの構文](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + セグメント {#segments}
       + [カスタムセグメントの作成と実装](/help/dsp/audiences/custom-segment-create.md)
-      + [!UICONTROL CCPA Opt-out-of-Sale] セグメント {#ccpa-opt-out-of-sale-segments}
-         + [について [!UICONTROL CCPA Opt-out-of-Sale] セグメント](/help/dsp/audiences/ccpa-opt-out-about.md)
-         + [の作成と実装 [!UICONTROL CCPA Opt-out-of-Sale] セグメント](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
-         + [取得 [!UICONTROL Consumer Opt-Out-of-Sale] 報告書](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
+      + [!UICONTROL CCPA Opt-out-of-Sale] Segments {#ccpa-opt-out-of-sale-segments}
+         + [[!UICONTROL CCPA Opt-out-of-Sale] セグメントについて](/help/dsp/audiences/ccpa-opt-out-about.md)
+         + [[!UICONTROL CCPA Opt-out-of-Sale] セグメントの作成と実装](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
+         + [[!UICONTROL Consumer Opt-Out-of-Sale] レポートの取得](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
       + [セグメント情報の編集](/help/dsp/audiences/segment-edit.md)
       + [セグメントの共有または共有の停止](/help/dsp/audiences/segment-share.md)
       + [セグメントのトラッキングピクセルの表示](/help/dsp/audiences/segment-view-pixels.md)
       + [セグメントの削除](/help/dsp/audiences/segment-delete.md)
    + ソース {#sources}
       + [ファーストパーティオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
-      + 顧客データプラットフォーム別ワークフロー {#sources-workflows}
-         + [からのユーザー ID の変換 [!DNL Adobe Real-Time CDP] ユニバーサル ID に](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
-         + [からのユーザー ID の変換 [!DNL Amperity] ユニバーサル ID に](/help/dsp/audiences/sources/source-amperity.md)
-         + [からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル ID に](/help/dsp/audiences/sources/source-optimizely.md)
-         + [からのユーザー ID の変換 [!DNL Tealium] ユニバーサル ID に](/help/dsp/audiences/sources/source-tealium.md)
+      + Customer Data Platform {#sources-workflows} 別のワークフロー
+         + [ユーザー ID をユニバーサル ID [!DNL Adobe Real-Time CDP]  からユニバーサル ID に変換](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [ユーザー ID をユニバーサル ID [!DNL Amperity]  からユニバーサル ID に変換](/help/dsp/audiences/sources/source-amperity.md)
+         + [ユーザー ID をユニバーサル ID [!DNL Optimizely]  からユニバーサル ID に変換](/help/dsp/audiences/sources/source-optimizely.md)
+         + [ユーザー ID をユニバーサル ID [!DNL Tealium]  からユニバーサル ID に変換](/help/dsp/audiences/sources/source-tealium.md)
       + [オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化](/help/dsp/audiences/sources/source-manage.md)
-   + [認証済みセグメントの手動インポート： [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+   + [認証済みセグメントの手動インポート  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [利用可能なサードパーティデータプロバイダー](/help/dsp/audiences/third-party-data-providers.md)
 + 在庫 {#inventory}
    + [インベントリ機能の概要](/help/dsp/inventory/inventory-overview.md)
-   + [使用 [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
+   + [使用  [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
    + [SSP パートナー](/help/dsp/inventory/ssp-partners.md)
-   + [!DNL On Demand] 在庫 {#on-demand}
-      + [について [!DNL On Demand] プレミアム在庫](/help/dsp/inventory/on-demand-inventory-about.md)
-      + 利用可能 [!DNL On Demand] プレミアム在庫パブリッシャー {#publishers}
-         + [[!DNL On Demand] アジア太平洋地域のプレミアム在庫パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
-         + [[!DNL On Demand] オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
-         + [[!DNL On Demand] ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
-         + [[!DNL On Demand] 北米のプレミアム在庫パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
-      + [購読して次へのアクセスをリクエスト： [!DNL On Demand] プレミアム在庫取引](/help/dsp/inventory/on-demand-inventory-subscribe.md)
-      + [再リクエスト [!DNL On Demand] プレミアム在庫取引](/help/dsp/inventory/on-demand-inventory-rerequest.md)
-      + [のステータスの表示 [!DNL On Demand] 取引リクエストと購読](/help/dsp/inventory/on-demand-inventory-view-status.md)
-   + プライベートインベントリ {#private-inventory}
+   + [!DNL On Demand] Inventory {#on-demand}
+      + [About [!DNL On Demand] Premium Inventory](/help/dsp/inventory/on-demand-inventory-about.md)
+      + Premium Inventory Publishers {#publishers} ージ [!DNL On Demand] 使用できます。
+         + [アジア太平洋地域の [!DNL On Demand] Premium Inventory Publishers](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
+         + [オーストラリアおよびニュージーランドの [!DNL On Demand] Premium Inventory パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
+         + [ヨーロッパ、中東、アフリカの [!DNL On Demand] Premium Inventory パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
+         + [北米の [!DNL On Demand] Premium Inventory Publishers](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
+      + [ [!DNL On Demand] Premium の在庫取引を購入してアクセスをリクエスト](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+      + [Premium 在庫取引  [!DNL On Demand]  再要求](/help/dsp/inventory/on-demand-inventory-rerequest.md)
+      + [取引リクエストと購読  [!DNL On Demand]  ステータスの表示](/help/dsp/inventory/on-demand-inventory-view-status.md)
+   + プライベート在庫 {#private-inventory}
       + [プライベートインベントリについて](/help/dsp/inventory/private-inventory-about.md)
-      + 取引 ID {#deal-ids}
+      + の取引 ID {#deal-ids}
          + [!UICONTROL Deal ID Inbox] {#inbox}
-            + [について [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
-            + [契約を受け入れる [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-accept.md)
+            + [[!UICONTROL Deal ID Inbox] について](/help/dsp/inventory/deal-id-inbox-about.md)
+            + [[!UICONTROL Deal ID Inbox] で取引を受け入れる](/help/dsp/inventory/deal-id-inbox-accept.md)
          + 手動で入力された取引 ID {#manual}
-            + [手動で作成 [!UICONTROL Deal ID] 詳細](/help/dsp/inventory/deal-id-create.md)
-            + [手動 [!UICONTROL Deal ID] 設定](/help/dsp/inventory/deal-id-settings.md)
+            + [[!UICONTROL Deal ID] の詳細を手動で作成](/help/dsp/inventory/deal-id-create.md)
+            + [Manual [!UICONTROL Deal ID] Settings](/help/dsp/inventory/deal-id-settings.md)
          + プログラムで保証された取引 {#programmatic-guaranteed-deal}
             + [プログラムで保証された取引の概要](/help/dsp/inventory/programmatic-guaranteed-about.md)
             + [プログラムで保証された取引を交渉するためのヒント](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [プログラムで保証された取引の設定](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel] プログラムで保証された取引 {#freewheel}
-               + [でのプログラムで保証された取引の設定の概要 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
-               + [プログラムで保証された取引の広告をに送信する [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
-               + [の広告のステータスを確認 [!DNL FreeWheel] プログラムで保証された取引](/help/dsp/inventory/freewheel-check-status.md)
+               + [でプログラムで保証された取引の設定の概要  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
+               + [プログラムで保証された取引の広告を  [!DNL FreeWheel] に送信します。](/help/dsp/inventory/freewheel-submit.md)
+               + [プログラムで保証された取引の広告  [!DNL FreeWheel]  ステータスの確認](/help/dsp/inventory/freewheel-check-status.md)
                + [FreeWheel 広告送信のエラーコード](/help/dsp/inventory/freewheel-error-codes.md)
       + [プライベート取引設定の編集](/help/dsp/inventory/deal-id-edit.md)
       + [プライベート取引のプレースメントと広告の指定](/help/dsp/inventory/deal-id-attach-placements.md)
@@ -186,13 +186,13 @@ ht-degree: 3%
       + [プライベート取引のオークションインサイトの表示](/help/dsp/inventory/private-deal-auction-insights.md)
       + [プライベート取引のプレースメントと広告のリスト](/help/dsp/inventory/private-deal-view-placements.md)
       + [プライベート取引のアーカイブまたはアーカイブ解除](/help/dsp/inventory/private-deal-archive-unarchive.md)
-   + [!UICONTROL Simple Ad Serving] 契約 {#sas}
-      + [について [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-about.md)
-      + [を作成 [!UICONTROL Simple Ad Serving] 取引](/help/dsp/inventory/simple-deal-create.md)
-      + [編集 [!UICONTROL Simple Ad Serving] 取引設定](/help/dsp/inventory/simple-deal-edit.md)
-      + [[!UICONTROL Simple Ad Serving] 取引設定](/help/dsp/inventory/simple-deal-settings.md)
+   + [!UICONTROL Simple Ad Serving] Deals {#sas}
+      + [[!UICONTROL Simple Ad Serving] について](/help/dsp/inventory/simple-deal-about.md)
+      + [[!UICONTROL Simple Ad Serving] しい取引の作成](/help/dsp/inventory/simple-deal-create.md)
+      + [[!UICONTROL Simple Ad Serving] 契約設定の編集](/help/dsp/inventory/simple-deal-edit.md)
+      + [[!UICONTROL Simple Ad Serving] Deal Settings](/help/dsp/inventory/simple-deal-settings.md)
    + [取引の詳細レポートの表示](/help/dsp/inventory/deal-view-report.md)
-+ カスタムレポート {#custom-reports}
++ Custom Reports {#custom-reports}
    + [カスタムレポートについて](/help/dsp/reports/report-about.md)
    + [カスタムレポートの作成](/help/dsp/reports/report-create.md)
    + [カスタムレポートの複製](/help/dsp/reports/report-copy.md)
@@ -203,12 +203,12 @@ ht-degree: 3%
    + [使用可能なレポート列](/help/dsp/reports/report-columns.md)
    + [世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md)
    + レポートの宛先 {#report-destinations}
-      + [について [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
-      + [を作成 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
-      + [を編集 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
-      + [を削除 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-      + [[!UICONTROL Report Destination] 設定](/help/dsp/reports/report-destinations/report-destination-settings.md)
-+ 計画担当者 {#planner}
+      + [[!UICONTROL Report Destinations] について](/help/dsp/reports/report-destinations/report-destination-about.md)
+      + [[!UICONTROL Report Destination] の作成](/help/dsp/reports/report-destinations/report-destination-create.md)
+      + [[!UICONTROL Report Destination] の編集](/help/dsp/reports/report-destinations/report-destination-edit.md)
+      + [[!UICONTROL Report Destination] の削除](/help/dsp/reports/report-destinations/report-destination-delete.md)
+      + [[!UICONTROL Report Destination] Settings](/help/dsp/reports/report-destinations/report-destination-settings.md)
++ プランナー {#planner}
    + [DSP プランナーツールについて](/help/dsp/planner/planner-about.md)
    + [接続されたテレビのリーチ プランを作成する](/help/dsp/planner/planner-create.md)
    + [接続されたテレビのリーチ プランを複製する](/help/dsp/planner/planner-duplicate.md)
@@ -219,16 +219,16 @@ ht-degree: 3%
    + [接続されたテレビのリーチ プランをアーカイブする](/help/dsp/planner/planner-archive.md)
 + 管理 {#admin}
    + [プロファイルを編集](/help/dsp/admin/user-own-profile-edit.md)
-   + ユーザー {#users}
+   + Users {#users}
       + [新しいユーザーを招待](/help/dsp/admin/user-invite.md)
       + [保留中のユーザー招待状を再送信する](/help/dsp/admin/user-resend-invite.md)
       + [保留中のユーザーを登録解除](/help/dsp/admin/user-uninvite.md)
-   + ブロックされたサイト {#sites}
+   + Blocked Sites {#sites}
       + [アカウントレベルと広告主レベルのブロックされたサイトリストについて](/help/dsp/admin/blocked-sites-list-about.md)
       + [アカウントレベルまたは広告主レベルのブロックされたサイトリストの編集](/help/dsp/admin/blocked-sites-list-edit.md)
    + 通知 {#notifications}
       + [アラート配信登録について](/help/dsp/admin/alerts-about.md)
       + [アラート配信登録の管理](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloudとの統合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-+ [カスタマーサポート](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
-+ [Adobe Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Adobe Experience Cloudとの統合 ](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [ カスタマーサポート ](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
++ [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

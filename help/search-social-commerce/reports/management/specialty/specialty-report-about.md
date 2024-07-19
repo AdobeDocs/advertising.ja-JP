@@ -12,46 +12,46 @@ ht-degree: 0%
 
 # 専門レポートについて
 
-ほとんどの専門レポートは、広告ネットワークによって収集されたデータのみで構成されています。 この [!UICONTROL Google Ads Shopping Performance Report], [!UICONTROL Keyword Impression Share Report]、および [!UICONTROL Campaign Impression Share Report]ただし、には、によって収集された売上高データを含めることができます [!DNL Adobe]. 専門レポートは、すべてのユーザーが利用できます。
+ほとんどの専門レポートは、広告ネットワークによって収集されたデータのみで構成されています。 ただし、[!UICONTROL Google Ads Shopping Performance Report]、[!UICONTROL Keyword Impression Share Report]、[!UICONTROL Campaign Impression Share Report] には、[!DNL Adobe] で収集された売上高データを含めることができます。 専門レポートは、すべてのユーザーが利用できます。
 
 >[!NOTE]
 >
->ほとんどの専門レポートでは、前日の午後 23 時（11 時）にデータが取り込まれます。 例えば、6 月 18 日の 23:00 に、6 月 17 日のデータを取り込みます。 6 月 19 日の 09:00 にレポートを実行した場合（6 月 18 日のデータが取り込まれる前）、レポートには 6 月 17 日の 23:00 までのデータが含まれます。 このデータ同期は、すべてに適用されます [!DNL Google Ads] 専門レポートと [!UICONTROL Bing Ads Geo Report] および [!UICONTROL Bing Ads Search Query Report].
+>ほとんどの専門レポートでは、前日の午後 23 時（11 時）にデータが取り込まれます。 例えば、6 月 18 日の 23:00 に、6 月 17 日のデータを取り込みます。 6 月 19 日の 09:00 にレポートを実行した場合（6 月 18 日のデータが取り込まれる前）、レポートには 6 月 17 日の 23:00 までのデータが含まれます。 このデータ同期は、[!DNL Google Ads] のすべての専門レポートと、[!UICONTROL Bing Ads Geo Report] および [!UICONTROL Bing Ads Search Query Report] に適用されます。
 
 ## 専門レポートのタイプ
 
-* [この [!UICONTROL AdWords and Bing Audience Target Report]](/help/search-social-commerce/reports/management/specialty/adwords-bing-audience-target-report.md)
+* [[!UICONTROL AdWords and Bing Audience Target Report]](/help/search-social-commerce/reports/management/specialty/adwords-bing-audience-target-report.md)
 
-* [この [!UICONTROL AdWords Conversion Report]](/help/search-social-commerce/reports/management/specialty/adwords-conversion-report.md)
+* [[!UICONTROL AdWords Conversion Report]](/help/search-social-commerce/reports/management/specialty/adwords-conversion-report.md)
 
-* [この [!UICONTROL AdWords Geo Report]](/help/search-social-commerce/reports/management/specialty/adwords-geo-report.md)
+* [[!UICONTROL AdWords Geo Report]](/help/search-social-commerce/reports/management/specialty/adwords-geo-report.md)
 
-* [この [!UICONTROL AdWords Search Query Report]](/help/search-social-commerce/reports/management/specialty/adwords-search-query-report.md)
+* [[!UICONTROL AdWords Search Query Report]](/help/search-social-commerce/reports/management/specialty/adwords-search-query-report.md)
 
-* [この [!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/reports/management/specialty/adwords-shopping-performance-report.md)
+* [[!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/reports/management/specialty/adwords-shopping-performance-report.md)
 
-* [この [!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-geo-report.md)
+* [[!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-geo-report.md)
 
-* [この [!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-search-query-report.md)
+* [[!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-search-query-report.md)
 
-* [この [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
+* [[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
 
-* [この [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
+* [[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
 
-* [この [!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
+* [[!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
 
-* [この [!UICONTROL MSA Ad Extension by Ad Report]](msa-ad-extension-detail-report.md)
+* [[!UICONTROL MSA Ad Extension by Ad Report]](msa-ad-extension-detail-report.md)
 
-* [この [!UICONTROL MSA Ad Extension by Keyword Report]](msa-ad-extension-by-keyword-report.md)
+* [[!UICONTROL MSA Ad Extension by Keyword Report]](msa-ad-extension-by-keyword-report.md)
 
-* [この [!UICONTROL MSA Ad Extension Detail Report]](msa-ad-extension-by-ad-report.md)
+* [[!UICONTROL MSA Ad Extension Detail Report]](msa-ad-extension-by-ad-report.md)
 
-* [この [!UICONTROL MSA Network Performance Report]](msa-network-performance-report.md)
+* [[!UICONTROL MSA Network Performance Report]](msa-network-performance-report.md)
 
-* [この [!UICONTROL MSA Network Impression Share Report]](msa-network-impression-share-report.md)
+* [[!UICONTROL MSA Network Impression Share Report]](msa-network-impression-share-report.md)
 
 >[!MORELIKETHIS]
 >
->* [専門レポートの生成](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [専門レポートの設定](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
->* [専門レポートのレポート列](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
+>* [ 専門レポートの生成 ](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
+>* [ 専門レポートの設定 ](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [ 専門レポートのレポート列 ](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)

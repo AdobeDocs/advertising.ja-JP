@@ -5,6 +5,6 @@ source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# テキスト広告テンプレート — 新しいキャンペーンの設定を管理
+# テキスト広告テンプレート – 新しいキャンペーンの設定を管理します
 
-**[!UICONTROL Manage Settings for NEW Campaigns]:**（オプション）作成されるすべてのキャンペーンの設定を指定できます。
+**[!UICONTROL Manage Settings for NEW Campaigns]:** （任意）作成したキャンペーンの設定を指定できます。

@@ -5,11 +5,12 @@ source-wordcount: '86'
 ht-degree: 0%
 
 ---
-# GGL および MS ショッピングキャンペーン設定の「在庫フィルター」フィールド
+# GGL および MS ショッピング・キャンペーン設定の在庫フィルタ・フィールド
 
-**[!UICONTROL Inventory Filter]:** ( 買い物キャンペーンのみ、（オプション）キャンペーン用に広告を提供する特定の属性を持つ製品。 在庫フィルターを指定しない場合、広告ネットワークはストア内の製品を宣伝する可能性があります。
+**[!UICONTROL Inventory Filter]:** （ショッピングキャンペーンのみ。オプション）キャンペーンに広告する特定の属性を持つ製品。 在庫フィルターを指定しない場合、広告ネットワークはストア内の製品を広告する場合があります。
 
-フォーマットを使用して、製品をフィルタリングする製品次元と属性の組み合わせを 7 つまで入力できます `dimension=attribute`. 複数のフィルターを「`>>`&quot;区切り文字。 使用可能な製品ディメンションのリストについては、[買い物キャンペーンの製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).&quot;
+フォーマット `dimension=attribute` を使用して、製品をフィルタする製品ディメンションと属性の組合せを最大 7 つ入力できます。 複数のフィルターを分離
+「`>>`」区切り文字を使用します。 使用可能な製品ディメンションのリストについては、「[ ショッピングキャンペーン製品フィルター ](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。
 
 次の例は、Acme のペット用品の広告を示しています。
 

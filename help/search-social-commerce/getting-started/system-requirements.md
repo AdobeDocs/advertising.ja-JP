@@ -1,11 +1,11 @@
 ---
 title: 必要システム構成
-description: ソフトウェアとアカウントの要件について説明します。
-exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
+description: ソフトウェアおよびアカウント要件について説明します。
+exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-source-git-commit: 2fc49a64366ee9fbf05b5eb4bbda37badcf9b763
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 ## ソフトウェア
 
-* 次のブラウザーのいずれか。
+* 次のいずれかのブラウザー：
 
-   * [!DNL Apple Safari] （次を含む） [!DNL Safari] 対象： [!DNL iOS]) 10 以降
+   * [!DNL Apple Safari] （[!DNL iOS] の場合は [!DNL Safari] を含む） 10 以上
 
-   * [!DNL Google Chrome] 103 以降
+   * [!DNL Google Chrome] 103 以上
 
-   * [!DNL Microsoft Edge] 104 以降
+   * [!DNL Microsoft Edge] 104 以上
 
-   * [!DNL Mozilla Firefox] 102 以上 [!DNL Mozilla Firefox Extended Support Release] 91.11 以降
+   * [!DNL Mozilla Firefox] 102 以上、[!DNL Mozilla Firefox Extended Support Release] 91.11 以上
 
-* （XLS 形式で書き出したファイルを表示するには） [!DNL Microsoft Excel] 推奨
+* （書き出されたファイルを XLS 形式で表示する場合） [!DNL Microsoft Excel] 推奨
 
-  次以外のアプリケーションを使用する場合： [!DNL Microsoft Excel] 書き出された XLS ファイルを表示するには、数値、日付、時刻、通貨の形式が正しくない場合があります。
+  [!DNL Microsoft Excel] 以外のアプリケーションを使用して書き出した XLS ファイルを表示すると、数値、日付、時刻、通貨が正しい形式でない場合があります。
 
 ## ユーザー名とパスワード
 
@@ -38,14 +38,14 @@ ht-degree: 0%
 
 ### ブラウザーサイトの設定
 
-一部の広告/アセットタイプの画像プレビューを表示するには、 `efrontier.com` ドメイン内で使用する必要があります。 お使いのブラウザーのサイトや Web サイトの設定、または（Firefox で）インストールした広告ブロッカーのブラウザー拡張機能の設定を編集することで、広告ブロッカーを管理します。
+一部の広告/アセットタイプの画像プレビューを表示するには、`efrontier.com` ドメインの広告ブロッカー/コンテンツブロッカーを無効にして、サイトの例外を許可します。 ブラウザーのサイトや web サイトの設定、または（Firefox の場合は）インストールした広告ブロッカーブラウザー拡張機能の設定を編集して、広告ブロッカーを管理します。
 
 ### コンピューターとブラウザーの言語設定
 
-次の情報は、使用する文字セットと、数値、日付、時刻、通貨を表示する書式を決定します。
+次の情報は、使用する文字セットと、数値、日付、時刻、および通貨の表示に使用する書式を決定します。
 
 * コンピュータの地域設定です。
 
-* ブラウザーの言語設定です。
+* ブラウザーの言語設定。
 
-必要な形式で情報が表示されるようにするには、コンピュータとブラウザの両方で正しい言語設定を使用していることを確認してください。 使用しているコンピューターとブラウザーのオンラインヘルプを参照してください。
+目的の形式で情報が表示されるようにするには、コンピューターとブラウザーの両方で正しい言語設定が使用されていることを確認します。 手順については、お使いのコンピュータとブラウザのオンライン ヘルプを参照してください。

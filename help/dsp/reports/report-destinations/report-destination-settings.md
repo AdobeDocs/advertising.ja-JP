@@ -22,11 +22,11 @@ ht-degree: 0%
 
 **[!UICONTROL Name]:** 宛先を識別するのに役立つ名前。
 
-**[!UICONTROL S3 Bucket URL]:** 上のフォルダーのフルパス [!DNL Amazon Simple Storage Service] （S3）レポートのアップロード先のバケット。 例： `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]:** 報告書のアップロード先の [!DNL Amazon Simple Storage Service] （S3） バケットのフォルダーへのフル パス。 例：`s3://dsp_account/reports`
 
-**[!UICONTROL Access Key ID]:** へのアクセスキー ID （[!DNL Amazon S3]） バケット（提供者 [!DNL Amazon]）に設定します。
+**[!UICONTROL Access Key ID]:** （[!DNL Amazon S3]） バケットへのアクセスキー ID （[!DNL Amazon] によって提供）。
 
-**[!UICONTROL Secret Access Key]:** の秘密アクセスキー（[!DNL Amazon S3]） バケット（提供者 [!DNL Amazon]）に設定します。
+**[!UICONTROL Secret Access Key]:** （[!DNL Amazon S3]） バケットへの秘密アクセスキー（[!DNL Amazon] によって提供）。
 
 ## [!UICONTROL FTP]
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 **[!UICONTROL Server]:** サーバーのホスト名。
 
-**[!UICONTROL Port]:** サーバーで使用するポート番号。 デフォルトはです *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** サーバーで使用するポート番号。 デフォルトは *[!UICONTROL 21]* です。
 
 **[!UICONTROL Username]:** サーバーにログインするためのユーザー名。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 **[!UICONTROL Server]:** サーバーのホスト名。
 
-**[!UICONTROL Port]:** サーバーで使用するポート番号。 デフォルトはです *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** サーバーで使用するポート番号。 デフォルトは *[!UICONTROL 21]* です。
 
 **[!UICONTROL Username]:** サーバーにログインするためのユーザー名。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 **[!UICONTROL Server]:** サーバーのホスト名。
 
-**[!UICONTROL Port]:** サーバーで使用するポート番号。 デフォルトはです *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** サーバーで使用するポート番号。 デフォルトは *[!UICONTROL 21]* です。
 
 **[!UICONTROL Username]:** サーバーにログインするためのユーザー名。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [について [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [を作成 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [を編集 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [を削除 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md) について
+>* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md) の作成
+>* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md) の編集
+>* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md) ージの削除

@@ -5,28 +5,28 @@ source-wordcount: '313'
 ht-degree: 0%
 
 ---
-# テキスト広告テンプレート — キャンペーンレベルの除外キーワード設定
+# テキスト広告テンプレート – キャンペーンレベルのネガティブキーワードの設定
 
-**[!UICONTROL Delete negative keywords when omitted from list]:** (Yandex を除くすべての広告ネットワーク。（オプション）以下のリストで指定されていないテンプレートを使用して以前に作成した、既存のキャンペーンレベルの除外キーワードを削除します。 **注意：** 他の方法（プレーンバルクシートの場合など）を使用して作成された除外キーワード [!UICONTROL Campaigns] 表示や広告ネットワークの広告エディターで ) は、テンプレートを使用して削除されることはありません。
+**[!UICONTROL Delete negative keywords when omitted from list]:** （Yandex を除くすべての広告ネットワーク。オプション）以下のリストで指定されていないテンプレートを使用して以前に作成した既存のキャンペーンレベルのネガティブキーワードを削除します。 **メモ：** 他の手段（プレーンバルクシート、[!UICONTROL Campaigns] ビュー、広告ネットワークの広告エディターなど）で作成されたネガティブキーワードが、テンプレートを使用して削除されることはありません。
 
-**[!UICONTROL Set negative keywords by campaign name condition]:** (Yandex を除くすべての広告ネットワーク。（オプション）指定した文字列を名前に含むキャンペーンの除外キーワードを指定できます。 このオプションを選択すると、最大 3 つのキャンペーン名文字列と、対応するキーワードを追加できます。
+**[!UICONTROL Set negative keywords by campaign name condition]:** （Yandex；オプションを除くすべての広告ネットワーク）名前に指定の文字列が含まれるキャンペーンの負のキーワードを指定できます。 このオプションを選択した場合は、最大 3 つのキャンペーン名文字列と対応するキーワードを追加できます。
 
-各文字列に対して、 **[!UICONTROL Add (Up to 3)]** 次の情報を入力します。
+各文字列に対して「**[!UICONTROL Add (Up to 3)]**」をクリックし、次の情報を入力します。
 
-* **[!UICONTROL If campaign name contains]:**  キャンペーン名内の任意の場所を検索するテキスト文字列。 クエリでは大文字と小文字が区別されます（例： ）。[!DNL Car]&quot;キャンペーン名&quot;に一致[!DNL Car Parts]&quot;は、&quot;[!DNL INTERIOR CAR ACCESSORIES]&quot;) です。
+* **[!UICONTROL If campaign name contains]:** キャンペーン名の中で検索するテキスト文字列。 クエリでは大文字と小文字が区別されます（例えば、「[!DNL Car]」はキャンペーン名「[!DNL Car Parts]」に一致しますが、「[!DNL INTERIOR CAR ACCESSORIES]」には一致しません）。
 
-* **[!UICONTROL Apply these negatives]:**  指定した文字列を名前に含むキャンペーンに追加する、静的なキャンペーンレベルの除外キーワード。 同じキーワードに複数のキーワードまたは複数の一致タイプを指定するには、それぞれを別々の行に入力します。 マイナス記号を付けずに、次の構文を使用します。
+* **[!UICONTROL Apply these negatives]:** 名前に指定した文字列が含まれるキャンペーンに追加する、静的なキャンペーンレベルのネガティブキーワード。 同じキーワードに対して複数のキーワードまたは複数の一致タイプを指定するには、別々の行に入力します。 マイナス記号を使用せずに、次の構文を使用します。
 
-   * 負の部分一致： `keyword` ( ではサポートされていません。 [!DNL Microsoft Advertising])
-   * 否定的なフレーズ一致： `"keyword"`
-   * 負の完全一致： `[keyword]`
+   * 負の部分一致：`keyword` （[!DNL Microsoft Advertising] ではサポートされていません）
+   * 負の語句の一致：`"keyword"`
+   * 完全一致が負の数：`[keyword]`
 
-フレーズおよび完全一致タイプの通常の構文は、フィードデータをテンプレートを介して伝達する際に生成されるバルクシートで使用されます。 **注意：** 除外キーワードは [!UICONTROL Keywords] タブまたは [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 表示
+フレーズと完全一致のタイプの慣習的な構文は、テンプレートを通じてフィードデータを伝播する際に生成されるバルクシートで使用されます。 **メモ：** 負のキーワードは、「[!UICONTROL Keywords]」タブまたは [!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] 表示には表示されません。
 
-**[!UICONTROL All other campaigns: Apply these negatives]:** ( 以下を除くすべての広告ネットワーク [!DNL Yandex];（オプション）名前が指定の文字列と一致しないキャンペーンに追加する、静的なキャンペーンレベルの除外キーワード。 同じキーワードに複数のキーワードまたは複数の一致タイプを指定するには、それぞれを別々の行に入力します。 マイナス記号を付けずに、次の構文を使用します。
+**[!UICONTROL All other campaigns: Apply these negatives]:** （[!DNL Yandex] を除くすべての広告ネットワーク。オプション）名前が指定した文字列に一致しないキャンペーンに追加する、静的なキャンペーンレベルのネガティブキーワード。 同じキーワードに対して複数のキーワードまたは複数の一致タイプを指定するには、別々の行に入力します。 マイナス記号を使用せずに、次の構文を使用します。
 
-* 負の部分一致： `keyword` ( ではサポートされていません。 [!DNL Microsoft Advertising])
-* 否定的なフレーズ一致： `"keyword"`
-* 負の完全一致： `[keyword]`
+* 負の部分一致：`keyword` （[!DNL Microsoft Advertising] ではサポートされていません）
+* 負の語句の一致：`"keyword"`
+* 完全一致が負の数：`[keyword]`
 
-フレーズおよび完全一致タイプの通常の構文は、フィードデータをテンプレートを介して伝達する際に生成されるバルクシートで使用されます。 **注意：** 除外キーワードは [!UICONTROL Keywords] タブまたは [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 表示
+フレーズと完全一致のタイプの慣習的な構文は、テンプレートを通じてフィードデータを伝播する際に生成されるバルクシートで使用されます。 **メモ：** 負のキーワードは、「[!UICONTROL Keywords]」タブまたは [!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] 表示には表示されません。

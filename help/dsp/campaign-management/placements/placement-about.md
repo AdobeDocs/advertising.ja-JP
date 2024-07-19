@@ -28,26 +28,26 @@ ht-degree: 0%
 * 接続された TV
 * ユニバーサルビデオ
 
-## この [!UICONTROL Placements] Dashboard
+## [!UICONTROL Placements] ダッシュボード
 
-この [!UICONTROL Placements] ダッシュボードは、すべてのプレースメントにわたってパフォーマンスと経済的なレポートを一元化し、指定した日付範囲でプレースメントがどのように実行されたかを示すクイックスナップショットを提供します。
+[!UICONTROL Placements] ダッシュボードは、すべてのプレースメントにわたってパフォーマンスと経済的なレポートを一元化し、指定した日付範囲でプレースメントがどのように実行されたかを示すクイックスナップショットを提供します。
 
-![プレースメントダッシュボード](/help/dsp/assets/placement-dashboard.png)
+![ プレースメントダッシュボード ](/help/dsp/assets/placement-dashboard.png)
 
 ダッシュボードには、3 つの指標を持つ、カスタマイズ可能な高レベルのトレンドグラフが含まれています。
 
 また、ダッシュボードには、デフォルトで、プレースメント別のペーシングおよび配信指標も表示されます。 オプションで、プレースメントのパフォーマンス指標を表示し、カスタム列セットを作成できます。 データテーブル全体を XLSM （マクロ対応 Excel スプレッドシート）形式のレポートとして、ブラウザーのデフォルトのダウンロードフォルダーにダウンロードできます。
 
-各プレースメントに対して、詳細ビュー（[この [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md)）に含まれます。これには、パフォーマンス指標、ペーシングおよび配信指標、サイト別、広告別、在庫別のカスタム列セットおよび頻度指標も含まれます。 また、サイトの除外、広告の一時停止、取引の編集など、含まれているサイト、広告、在庫に対してクイックアクションを実行することもできます。 インスペクタを開くには、配置行の上にカーソルを置き、クリックします **[!UICONTROL More]**&#x200B;を選択し、 **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** または **[!UICONTROL Inventory]**. に関するデータを書き出すことができます [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency]、または [!UICONTROL Inventory]  tab キーを押すと、XLSM 形式のレポートとしてブラウザーのデフォルトのダウンロードフォルダーに移動します。
+各プレースメントについて、パフォーマンス指標、ペーシングおよび配信指標、サイト別、広告別、在庫別のカスタム列セットや頻度指標を含む詳細ビュー（[ ジ [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md) ーニー）を開くことができます。 また、サイトの除外、広告の一時停止、取引の編集など、含まれているサイト、広告、在庫に対してクイックアクションを実行することもできます。 インスペクタを開くには、カーソルを配置行の上に置き、**[!UICONTROL More]** をクリックしてから、**[!UICONTROL Sites]**、**[!UICONTROL Ads]**、**[!UICONTROL Frequency]**、または **[!UICONTROL Inventory]** をクリックします。 [!UICONTROL Sites]、[!UICONTROL Ads]、[!UICONTROL Frequency] または [!UICONTROL Inventory] タブのデータを、XLSM 形式のレポートとして、ブラウザーのデフォルトのダウンロードフォルダーに書き出すことができます。
 
 >[!NOTE]
 >
->を介してプレースメントレポートのコンテンツと配信をさらにカスタマイズできます [カスタムレポート](/help/dsp/reports/report-about.md).
+>[ カスタムレポート ](/help/dsp/reports/report-about.md) を使用して、プレースメントレポートの内容と配信をさらにカスタマイズできます。
 
 >[!MORELIKETHIS]
 >
->* [プレースメントの作成](placement-create.md)
->* [プレースメントの入札乗数の管理](placement-manage-bid-multipliers.md)
->* [プレースメントの変更ログの表示](placement-change-log.md)
->* [プレースメント設定](placement-settings.md)
->* [トラブルシューティングのパフォーマンス](/help/dsp/optimization/troubleshooting-performance.md)
+>* [ プレースメントの作成 ](placement-create.md)
+>* [ プレースメントの入札乗数の管理 ](placement-manage-bid-multipliers.md)
+>* [ プレースメントの変更ログを表示 ](placement-change-log.md)
+>* [ プレースメント設定 ](placement-settings.md)
+>* [ パフォーマンスのトラブルシューティング ](/help/dsp/optimization/troubleshooting-performance.md)

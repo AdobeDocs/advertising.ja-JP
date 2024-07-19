@@ -1,90 +1,90 @@
 ---
-title: cookie ベースのクリック追跡の設定
+title: cookie ベースのクリックの追跡の設定
 description: クリックトラッキングタグを設定および検証する方法について説明します。
-exl-id: 340aec08-a1a5-4aa5-b666-9c819c1709d0
+exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
 
-# cookie ベースのクリック追跡の設定
+# cookie ベースのクリックの追跡の設定
 
-検索、ソーシャル、コマースでクリックを追跡するには、次の要素を設定および検証する必要があります。
+検索、ソーシャル、Commerceでクリックをトラッキングするには、次の要素を設定し検証する必要があります。
 
-1. (Adobeアカウントチーム ) ピクセルを使用する顧客として広告主を設定します。
+1. （Adobeアカウントチーム）広告主をピクセルカスタマーとして設定します。
 
-1. [広告主の広告ネットワークアカウントとキャンペーンごとに、適切なトラッキングオプションを指定します](#set-up-click-tracking-options).
+1. [ 広告主の広告ネットワークアカウントおよびキャンペーンごとに正しいトラッキングオプションを指定します ](#set-up-click-tracking-options)。
 
-1. 必要に応じて、 [トラッキング URL を生成してアップロードする](#generate-upload-tracking-urls) （一部のキャンペーン要素）
+1. 必要に応じて、一部のキャンペーン要素に対して [ トラッキング URL を生成してアップロード ](#generate-upload-tracking-urls) します。
 
-1. [いくつかのクリック追跡 URL の形式を検証し、それらをテストして、正しいランディングページが開くことを検証します。](#validate-tracking-urls).
+1. [ いくつかのクリックトラッキング URL の形式を検証し、テストして正しいランディングページが開いていることを検証します ](#validate-tracking-urls)。
 
-## 広告ネットワークアカウントとキャンペーンのトラッキングオプションを設定します {#set-up-click-tracking-options}
+## 広告ネットワークアカウントおよびキャンペーンのトラッキングオプションの設定 {#set-up-click-tracking-options}
 
-*代理店のアカウントマネージャー [!DNL Adobe] アカウントマネージャー、管理者ユーザーロールのみ*
+*エージェンシーアカウントマネージャー、[!DNL Adobe] アカウントマネージャー、管理者ユーザーの役割のみ*
 
-1. 各広告ネットワークアカウントに対して、次の操作を行います。
+1. 各広告ネットワークアカウントに対して、次の手順を実行します。
 
-   1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]>[!UICONTROL Accounts]**.
+   1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Accounts]** をクリックします。
 
-   1. アカウント名の上にカーソルを置き、 ![メニューアイコン](/help/search-social-commerce/assets/arrow-dropdown-menu.png "メニューアイコン")を選択し、 **[!UICONTROL Edit]**.
+   1. アカウント名の上にカーソルを置き、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ") をクリックして、**[!UICONTROL Edit]** を選択します。
 
-   1. クリック **[!UICONTROL Set Account Tracking]**.
+   1. 「**[!UICONTROL Set Account Tracking]**」をクリックします。
 
-   1. の [!UICONTROL Tracking Type] 設定、選択 **[!UICONTROL EF Redirect]**.
+   1. [!UICONTROL Tracking Type] 設定で、「**[!UICONTROL EF Redirect]**」を選択します。
 
-   1. ( 検索、Social、およびコマースで、Adobe Analyticsとの間でデータのやり取りを許可したり、 [!DNL Apple Safari]) を選択します。 [!UICONTROL Redirect Type] オプション **[!UICONTROL Token]**.
+   1. （検索、ソーシャル、CommerceでAdobe Analyticsとデータを交換したり、[!DNL Apple Safari] で発生したコンバージョンを追跡したりできるようにするには、[!UICONTROL Redirect Type] オプションの **[!UICONTROL Token]** を選択します）。
 
-   1. （オプション） **[!UICONTROL Auto Upload]** 」オプションを使用します。 この値は、アカウント内のすべてのキャンペーンのデフォルトとして継承されますが、キャンペーンレベルで上書きできます。
+   1. （オプション）「**[!UICONTROL Auto Upload]**」オプションをオンにすると、次回の検索、ソーシャル、Commerce同期時に新しいトラッキング URL を広告ネットワークに自動的にアップロードできます。 この値は、アカウント内のすべてのキャンペーンのデフォルトとして継承されますが、キャンペーンレベルで上書きできます。
 
-1. キャンペーンごとに、以下の手順を実行します。
+1. キャンペーンごとに、次の操作を行います。
 
-   1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+   1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
 
-   1. キャンペーン名の上にカーソルを置いて、 ![メニューアイコン](/help/search-social-commerce/assets/arrow-dropdown-menu.png "メニューアイコン")を選択し、 **[!UICONTROL Edit]**.
+   1. キャンペーン名の上にカーソルを置き、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ") をクリックして、**[!UICONTROL Edit]** を選択します。
 
-   1. クリック **[!UICONTROL Set Campaign Tracking]**. 次に、次のオプションを選択します。 **[!UICONTROL Override Account Tracking]**.
+   1. 「**[!UICONTROL Set Campaign Tracking]**」をクリックします。 次に、**[!UICONTROL Override Account Tracking]** すオプションを選択します。
 
-   1. の [!UICONTROL Tracking Type] 設定、選択 **[!UICONTROL EF Redirect]**.
+   1. [!UICONTROL Tracking Type] 設定で、「**[!UICONTROL EF Redirect]**」を選択します。
 
-   1. ( 検索、Social、およびコマースで、Adobe Analyticsとの間でデータのやり取りを許可したり、 [!DNL Apple Safari]) を選択します。 [!UICONTROL Redirect Type] オプション **[!UICONTROL Token]**.
+   1. （検索、ソーシャル、CommerceでAdobe Analyticsとデータを交換したり、[!DNL Apple Safari] で発生したコンバージョンを追跡したりできるようにするには、[!UICONTROL Redirect Type] オプションの **[!UICONTROL Token]** を選択します）。
 
-   1. （オプション） **[!UICONTROL Auto Upload]** 」オプションを使用します。 この値は、アカウント内のすべてのキャンペーンのデフォルトとして継承されますが、キャンペーンレベルで上書きできます。
+   1. （オプション）「**[!UICONTROL Auto Upload]**」オプションをオンにすると、次回の検索、ソーシャル、Commerce同期時に新しいトラッキング URL を広告ネットワークに自動的にアップロードできます。 この値は、アカウント内のすべてのキャンペーンのデフォルトとして継承されますが、キャンペーンレベルで上書きできます。
 
 ## トラッキング URL の生成とアップロード {#generate-upload-tracking-urls}
 
-参照：[クリック追跡 URL を生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
+[ クリックトラッキング URL を生成するタイミングと方法 ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) を参照してください。
 
-### クリック追跡 URL の形式のテスト {#validate-tracking-urls}
+### クリックの追跡 URL の形式をテスト {#validate-tracking-urls}
 
-クリック追跡 URL に対して正しいランディングページが開いていることを検証します。
+クリックトラッキング URL に対して正しいランディングページが開いていることを確認します。
 
-1. 広告主のステージング環境にトラフィックを送信して、広告クリックを模倣できます。
+1. 広告主のステージング環境にトラフィックを送信して、広告クリックを模倣します。
 
-   1. テキストエディターにクリック追跡 URL を貼り付け、ランディングページの URL を広告主のステージング環境内の同じページを指すように変更して、新しい URL をブラウザーのアドレスバーに貼り付けて、 **[!DNL Enter]** キー。
+   1. テキストエディターで、クリックトラッキング URL を貼り付け、ランディングページの URL を広告主のステージング環境内の同じページを指すように変更し、ブラウザーのアドレスバーに新しい URL を貼り付けて、**[!DNL Enter]** キーを押します。
 
-   1. ブラウザーに保存されている cookie で cookie を探します。
+   1. ブラウザーに保存されている Cookie で Cookie を検索します。
 
-   1. ステージングサイトでトランザクションを完了し、成功ページで正しいピクセルが実行されることを確認します。 ピクセルで追跡される実際のパラメーターは、広告主とトラッキング URL によって異なります。 次の例では、広告主は、新しいアプリの数と新しい売上高を追跡します。
+   1. ステージングサイトでトランザクションを完了し、成功ページで正しいピクセルが実行されていることを確認します。 ピクセルがトラッキングする実際のパラメーターは、広告主とトラッキング URL によって異なります。 次の例では、広告主は新規申込数と新規売上高をトラッキングしたいと考えています。
 
-      新しいエンドユーザー（新しい Cookie を持つ）の場合、次のピクセルを実行する必要があります。
+      （新しい cookie を使用する）新規エンドユーザーの場合、次のピクセルを起動する必要があります。
 
       `< img width="1" height="1" src="http://pixel-user-everesttech.net/<Advertising_Cloud_UserID>/p?ev_transid=<applicationid>&ev_new_application=1&ev_new_amount=<loanamount>" / >`
 
-      cookie が新しくない場合は、次のピクセルを実行する必要があります。
+      cookie が新しくない場合は、次のピクセルを呼び出す必要があります。
 
       `< img width="1"height="1" src="http://pixel-user-everesttech.net/<Advertising_Cloud_UserID>/p?ev_transid=<applicationid>&ev_previous_application=1&ev_new_amount=<loanamount>" / >`
 
 
-1. ドメイン内の複数のクリック追跡 URL に対して繰り返します。
+1. ドメイン内の複数のクリックトラッキング URL に対して繰り返します。
 
 1. ドメインごとに異なるランディングページを使用して、手順 1 を繰り返します。
 
-1. 必要に応じて、Search、Social、および Commerce がトランザクション ID(`ev_transid`) がテスト中に生成されました。
+1. 必要に応じて、検索、ソーシャル、Commerceで、テスト中に生成されたトランザクション ID （`ev_transid`）のピクセルを確認できます。
 
 >[!MORELIKETHIS]
 >
->* [クリック追跡 URL を生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
+>* [ クリックトラッキング URL を生成するタイミングと方法 ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)

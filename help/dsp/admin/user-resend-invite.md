@@ -1,6 +1,6 @@
 ---
-title: 保留中のユーザーの招待状の再送信
-description: 保留中のユーザーの招待状を再送信する方法を説明します。
+title: 保留中のユーザー招待状を再送信する
+description: 保留中のユーザー招待を再送信する方法を説明します。
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
 source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
@@ -10,21 +10,21 @@ ht-degree: 0%
 
 ---
 
-# 保留中のユーザーの招待状の再送信
+# 保留中のユーザー招待状を再送信する
 
-管理者ユーザーは、組織アカウントへの保留中の招待状を持つユーザーに招待状を再送信できます。
+管理者ユーザーは、組織アカウントの招待状が保留されているユーザーに招待状を再送できます。
 
-1. 次のいずれかの操作を行います。
+1. 次のいずれかの操作をおこないます。
 
-   * メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * メインメニューで、**[!UICONTROL Settings]**/**[!UICONTROL Users]** をクリックします。
 
-   * メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;をクリックし、 **[!UICONTROL Edit users]**.
+   * メインメニューで、**[!UICONTROL Settings]**/**[!UICONTROL Account]** をクリックし、**[!UICONTROL Edit users]** をクリックします。
 
-1. Adobe Analytics の **招待** セクションで、 ![再送信](/help/dsp/assets/resend.png).
+1. 「**招待状**」セクションで、「![ 再送信 ](/help/dsp/assets/resend.png)」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [組織アカウントへの新しいユーザーの招待](user-invite.md)
->* [保留中のユーザーの招待解除](user-uninvite.md)
+>* [ 組織アカウントの新しいユーザーを招待 ](user-invite.md)
+>* [ 保留中のユーザーを登録解除 ](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

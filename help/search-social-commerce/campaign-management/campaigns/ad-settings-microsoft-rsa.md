@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Advertising] レスポンシブ検索広告設定'
-description: の設定を参照します [!DNL Microsoft Advertising] レスポンシブ検索広告。
+title: '[!DNL Microsoft Advertising] レスポンシブ検索広告設定'
+description: レスポンシブ検索広告の設定  [!DNL Microsoft Advertising]  参照してください。
 exl-id: 470008e1-7c7d-49a6-b542-fe384c473c97
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -49,9 +49,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [広告について](ad-about.md)
->* [広告の管理](ad-manage.md)
->* [[!DNL Microsoft Advertising] 動的検索広告設定を拡張しました](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft Advertising] マルチメディア広告設定](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft Advertising] 製品広告設定](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising] レスポンシブ（オーディエンス）広告設定](ad-settings-microsoft-responsive.md)
+>* [ 広告について ](ad-about.md)
+>* [ 広告の管理 ](ad-manage.md)
+>* [[!DNL Microsoft Advertising]  拡張された動的検索広告設定 ](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising]  マルチメディア広告設定 ](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising]  製品広告設定 ](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising]  レスポンシブ（オーディエンス）広告設定 ](ad-settings-microsoft-responsive.md)

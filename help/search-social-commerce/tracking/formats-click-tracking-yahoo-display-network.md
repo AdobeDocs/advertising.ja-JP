@@ -1,18 +1,18 @@
 ---
-title: のクリック追跡形式 [!DNL Yahoo! Display Network]
-description: のクリック追跡形式について説明します。 [!DNL Yahoo! Display Network] アカウント。
-exl-id: 62ea592c-9138-4a8e-9616-c8f2475fea26
+title: ' [!DNL Yahoo! Display Network] のクリック追跡形式'
+description: アカウントのクリック追跡形式について説明  [!DNL Yahoo! Display Network]  ます。
+exl-id: ee6642b3-fb84-4604-91cc-da1213835be8
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# 以下のスポンサー付き広告のクリック追跡形式： [!DNL Yahoo! Display Network]
+# [!DNL Yahoo! Display Network] でのスポンサー付き広告のクリック追跡形式
 
-以下のベースリンク先 URL 形式は、スポンサー付き広告に適用されます。
+スポンサー付き広告には、次のベース宛先 UR 形式が適用されます。
 
 `http://pixel.everesttech.net/<advertiser_ID>/cq?ev_sid=86&ev_cl={ef_uniqueid}&url=<the landing page>`
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>` は、Adobe Advertising内の広告主の一意の ID の変数です。
 >
->* この形式は、キャンペーンでトークンの受け渡しが有効（デフォルト）になっていることを示します。 トークンの受け渡しが無効な場合は、 `cq?` 次より後 `<advertiser_ID>` 次を使用 `c?`.
+>* この形式は、キャンペーンに対してトークン受け渡しが有効になっている（デフォルト）ことを示します。 トークン受け渡しが無効な場合、`<advertiser_ID>` の後に `cq?` を `c?` で置き換えます。
 >
->* `<the landing page>` は、エンドユーザーのリダイレクト先となるサイト上の URL を表す変数です。
+>* `<the landing page>` は、エンドユーザーが誘導されるサイト上の URL を表す変数です。
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertisingコンバージョントラッキングサービスのクリック追跡 URL の形式について](formats-click-tracking-about.md)
->* [AMO ID の形式](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Adobe Advertisingコンバージョントラッキングサービスのクリックトラッキング URL 形式について ](formats-click-tracking-about.md)
+>* [AMO ID 形式 ](/help/integrations/analytics/ids.md#amo-id-formats)

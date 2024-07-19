@@ -14,30 +14,30 @@ ht-degree: 0%
 
 ## サードパーティセグメント
 
-（オプション）Adobe Advertisingのサードパーティのデータ分類を通じて利用でき、オーディエンス設定に含める標準セグメント。
+（オプション）Adobe Advertisingのサードパーティデータ分類を通じて使用できる、オーディエンス設定に含める標準セグメント。
 
 ## ファーストパーティセグメント
 
-（オプション）アカウント用にインポートされたファーストパーティセグメントや、カスタムセグメントをオーディエンス設定に含めるためのもの。
+（任意）オーディエンス設定に含める、読み込まれたファーストパーティセグメントおよび/またはアカウント用に読み込まれたカスタムセグメント。
 
 ## Adobeセグメント
 
-（オプション）任意 [!DNL Adobe Real-Time Customer Data Platform]オーディエンス設定に含めるAdobe AnalyticsまたはAdobe Audience Managerセグメント。
+（任意） オーディエンス設定に含める [!DNL Adobe Real-Time Customer Data Platform]、Adobe AnalyticsまたはAdobe Audience Managerの任意のセグメント。
 
 ## カスタムセグメント
 
-（オプション）カスタムのDSPセグメントピクセルを使用して取り込まれ、オーディエンス設定に含めるユーザー作成セグメント。 これには、標準のカスタムセグメントと CCPA オプトアウトオブセールセグメントが含まれます。
+（任意）カスタム DSP セグメントピクセルを使用してキャプチャされたユーザー作成のセグメントを、オーディエンス設定に含めることができます。 これには、標準のカスタムセグメントや、CCPA の販売オプトアウトセグメントが含まれます。
 
-## 保存済みオーディエンス
+## 保存されたオーディエンス
 
-（オプション）オーディエンスライブラリに組み込まれ、オーディエンス設定に含める既存のオーディエンス。
+（オプション）オーディエンス設定に含める、オーディエンスライブラリで作成された既存のオーディエンス。
 
 >[!MORELIKETHIS]
 >
->* [Audience Management について](audience-about.md)
->* [再利用可能なオーディエンスを作成する](reusable-audience-create.md)
->* [利用可能なサードパーティデータプロバイダー](third-party-data-providers.md)
->* [オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
->* [カスタムセグメントの作成と実装](custom-segment-create.md)
->* [の作成と実装 [!UICONTROL CCPA Opt-Out-of-Sale] セグメント](ccpa-opt-out-segment-create.md)
->* [配置設定](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Audience Management について ](audience-about.md)
+>* [ 再利用可能なオーディエンスを作成 ](reusable-audience-create.md)
+>* [ 利用可能なサードパーティデータプロバイダー ](third-party-data-providers.md)
+>* [ オーディエンスセグメントロジックの構文 ](audience-segment-logic-syntax.md)
+>* [ カスタムセグメントの作成と実装 ](custom-segment-create.md)
+>* [[!UICONTROL CCPA Opt-Out-of-Sale] セグメントの作成と実装 ](ccpa-opt-out-segment-create.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)

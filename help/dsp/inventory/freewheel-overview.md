@@ -1,48 +1,46 @@
 ---
-title: での PG 契約の設定の概要 [!DNL Freewheel]
-description: の公開者とプログラム的に保証された取引のために広告を実行するために必要な前提条件と追加手順について説明します。 [!DNL Freewheel].
+title: での PG 取引の設定の概要  [!DNL Freewheel]
+description: ' [!DNL Freewheel] でパブリッシャーとのプログラムで保証された取引の広告を実行するために必要な前提条件と追加手順について説明します。'
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# プログラムで保証された取引の設定の概要 [!DNL Freewheel]
+# [!DNL Freewheel] でのプログラムで保証された取引の設定の概要
 
-の発行者とのプログラム的な保証契約の設定 [!DNL Freewheel] には、追加の権限と手順が必要です。
+プログラムで保証された取引を [!DNL Freewheel] で設定するには、追加の権限と手順が必要です。
 
 >[!PREREQUISITES]
 >
->Adobeアカウントチームと協力し、 [!DNL DSP] アカウントには次の権限があります。
+>Adobeアカウントチームと協力して、[!DNL DSP] アカウントに次の権限があることを確認します。
 >
->* を使用する権限 [!DNL FreeWheel] プログラム的に保証された契約に対して広告を送信するために必要な、プログラム的に保証されたワークフロー [!DNL FreeWheel].
+>* [!DNL FreeWheel] プログラムで保証されたワークフローを使用するための権限。プログラムで保証された取引の広告を [!DNL FreeWheel] に送信するために必要です。
 >
->* ( 英国のパブリッシャー ( [!DNL Clearcast] 各広告のクロック番号 ) 広告にクロック番号を含める権限です。
-
+>* （各広告に [!DNL Clearcast] しい時計番号が必要な英国の出版社と協力する場合）広告に時計番号を含める権限。
 
 ## ワークフロー
 
-1. 契約で指定されたメディアタイプで広告を作成します。
+1. 取引で指定されたメディアタイプを使用して広告を作成します。
 
-   一部の英国のパブリッシャーの場合、 [!DNL Clearcast] 広告の時刻番号。
+   英国の一部の出版社では、広告に [!DNL Clearcast] 時計番号を含める必要があります。
 
-1. [契約 ID を承認](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) あなたが既に～の出版社と交渉している [!DNL Freewheel] Deal ID インボックスを使用します。
+1. [ 取引 ID を承認 ](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) します。取引 ID インボックスを使用して、[!DNL Freewheel] 上のパブリッシャーと既にネゴシエート済みです。
 
-   契約を承認したら、プロンプトに従って 1) 契約に使用する広告を選択し、2) 広告を提供するプログラム的に保証されたデフォルトの配置を作成します。
+   契約を承認したら、プロンプトに従って、1）契約に使用する広告を選択し、2）広告を提供するためにプログラムで保証されたデフォルトのプレースメントを作成します。
 
-1. [広告をに送信 [!DNL Freewheel]](freewheel-submit.md)
+1. [広告を  [!DNL Freewheel] の場所に送信します。](freewheel-submit.md)
 
-   広告を実行する前に、送信して承認する必要があります。
+   広告は、実行する前に送信し承認する必要があります。
 
-1. [広告送信ステータスの確認](freewheel-check-status.md).
+1. [ 広告送信ステータスを確認します ](freewheel-check-status.md)。
 
 >[!MORELIKETHIS]
 >
->* [Deal ID インボックスでの契約の承認](deal-id-inbox-accept.md)
->* [プログラム的に保証された契約の広告をに送信する [!DNL Freewheel]](freewheel-submit.md)
->* [次の広告のステータスの確認 [!DNL FreeWheel] プログラム的に保証された取引](freewheel-check-status.md)
->* [のエラーコード [!DNL Freewheel] 広告送信](freewheel-error-codes.md)
-
+>* [ 取引 ID インボックスでの取引の承認 ](deal-id-inbox-accept.md)
+>* [ プログラムで保証された取引の広告の送信先  [!DNL Freewheel]](freewheel-submit.md)
+>* [ プログラムで保証された取引の広告  [!DNL FreeWheel]  ステータスの確認 ](freewheel-check-status.md)
+>* [ 広告送信  [!DNL Freewheel]  エラーコード ](freewheel-error-codes.md)

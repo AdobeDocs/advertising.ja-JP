@@ -1,15 +1,15 @@
 ---
-title: 複数行を選択
+title: 複数の行を選択
 description: キャンペーン管理ビューでデータを更新する方法を説明します。
-exl-id: 63ce1753-3bfb-454d-ac18-ef67bf95eabc
+exl-id: b1103f02-89cf-4cdb-9077-03685e61778c
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '27'
 ht-degree: 0%
 
 ---
 
-# 管理ビューのデータを更新する
+# 管理ビューのデータの更新
 
-* データテーブルの下部で、 ![更新](/help/search-social-commerce/assets/refresh.png).
+* データ テーブルの下部にある [![ 更新 ](/help/search-social-commerce/assets/refresh.png)] をクリックします。

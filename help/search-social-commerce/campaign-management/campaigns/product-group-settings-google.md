@@ -1,40 +1,40 @@
 ---
-title: '''[!DNL Google Ads] 製品グループの設定'
-description: 次の設定を参照してください： [!DNL Google Ads] 買い物製品グループ。
-exl-id: 3bf33d78-0ad5-43c7-970a-2f2d2e591802
+title: '[!DNL Google Ads] 製品グループ設定'
+description: 商品グループを買い物するため  [!DNL Google Ads]  設定を参照します。
+exl-id: 2cfef9de-b265-4fa5-b1bd-84e6cba79914
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] 製品グループの設定
+# [!DNL Google Ads] 製品グループ設定
 
 ## 「すべての製品」製品グループ
 
 **[!UICONTROL Condition]:** （読み取り専用）すべての製品
 
-**[!UICONTROL Bid]:** （製品グループのみを含む）最大クリック単価 (CPC)。広告クリックに対して支払われる金額の上限です。 この値は、子製品グループのない単位に対してのみ使用され、広告グループレベルの値の代わりに使用されます。
+**[!UICONTROL Bid]:** （製品グループを含む場合のみ）広告クリックの支払いに最も高いクリック単価（CPC）。 この値は、子製品グループを持たないユニットにのみ使用され、広告グループレベルの値の代わりに使用されます。
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
 {{$include /help/_includes/tracking-template-google.md}}
 
-このテンプレートは、上位レベルのテンプレートを上書きし、子製品グループのない単位に対してのみ使用されます。
+このテンプレートは、上位レベルのテンプレートをオーバーライドし、子製品グループを持たないユニットにのみ使用されます。
 
-## その他のすべての製品グループ
+## その他すべての製品グループ
 
-**[!UICONTROL Condition/Value]:** （既存の製品グループの場合は読み取り専用）ターゲットにする製品ディメンション。 新しい製品グループの場合、製品をターゲットにするディメンションと、選択した情報カテゴリの資格属性（ブランドでターゲット設定する場合は「Acme」、条件でターゲット設定する場合は「新規」など）を入力します。
+**[!UICONTROL Condition/Value]:** （既存の製品グループの場合は読み取り専用）ターゲットにする製品分析コード。 新製品グループの場合、製品のターゲットとするディメンション、および選択した情報カテゴリの選定属性（ブランド別のターゲット設定を行う場合は「Acme」、条件でターゲット設定を行う場合は「新規」など）を入力します。
 
-特定の製品ディメンション（「すべての製品」ではなく）の製品グループを作成すると、検索、ソーシャル、コマースは「その他すべて」の製品グループを自動的に作成します。
+特定の商品ディメンション（「すべての商品」ではない）の商品グループを作成したら、検索、ソーシャルおよびCommerceは、「その他すべて」の商品グループを自動的に作成します。
 
-使用可能な製品ディメンションのリストについては、[買い物キャンペーンの製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).&quot; ディメンションのリストは、キャンペーンの [!UICONTROL Inventory Filter] 設定。
+使用可能な製品ディメンションのリストについては、「[ ショッピングキャンペーン製品フィルター ](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。 ディメンションのリストは、キャンペーンの [!UICONTROL Inventory Filter] 設定に基づいて制限される場合があります。
 
 **[!UICONTROL Excluded]:** （新しい製品グループの場合はオプション、既存の製品グループの場合は読み取り専用）一致する製品の広告の入札を除外します。
 
-**[!UICONTROL Bid]:** （製品グループのみを含む）最大クリック単価 (CPC)。広告クリックに対して支払われる金額の上限です。 この値は、子製品グループのない単位に対してのみ使用され、広告グループレベルの値の代わりに使用されます。
+**[!UICONTROL Bid]:** （製品グループを含む場合のみ）広告クリックの支払いに最も高いクリック単価（CPC）。 この値は、子製品グループを持たないユニットにのみ使用され、広告グループレベルの値の代わりに使用されます。
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
@@ -45,11 +45,11 @@ ht-degree: 0%
 
 {{tracking-template-google}}
 
-このテンプレートは、上位レベルのテンプレートを上書きし、子製品グループのない単位に対してのみ使用されます。
+このテンプレートは、上位レベルのテンプレートをオーバーライドし、子製品グループを持たないユニットにのみ使用されます。
 
 >[!MORELIKETHIS]
 >
->* [買い物製品グループについて](product-group-about.md)
->* [買い物製品グループの管理](product-group-manage.md)
->* [買い物キャンペーンの製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [実装方法 [!DNL Google Ads] 買い物キャンペーン](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
+>* [ ショッピング商品グループについて ](product-group-about.md)
+>* [ ショッピング商品グループの管理 ](product-group-manage.md)
+>* [ 買い物キャンペーン製品フィルター ](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
+>* [ 買い物キャンペ  [!DNL Google Ads]  ンの実装 ](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)

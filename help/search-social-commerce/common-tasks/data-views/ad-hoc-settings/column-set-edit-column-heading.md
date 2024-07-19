@@ -1,24 +1,24 @@
 ---
-title: 列見出しメニューから列セットを編集
-description: 列見出しの列を表示または非表示にする方法を説明します。
-exl-id: 3c9099cb-9a27-41b0-9e21-089226cc7c4d
+title: 列見出しメニューから列セットを編集する
+description: 列見出しに列を表示する方法と非表示にする方法を説明します。
+exl-id: ebcf5759-f3a0-4816-8095-5679a642f862
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
 
 ---
 
-# 列見出しメニューから列セットを編集
+# 列見出しメニューから列セットを編集する
 
-ビュー内の任意の列見出しから、任意のビューに含まれる列を一時的に表示/非表示にすることができます。 変更は、ビューを終了するか、別の広告主のデータを表示するまでの間のみ適用されます。
+ビューの任意の列見出しから、任意のビューに含まれる列を一時的に表示したり非表示にしたりできます。 変更は、ビューを離れるか、別の広告主向けのデータを表示するまで適用されません。
 
 >[!NOTE]
 >
->* また、ビューの列を一時的に変更し、並べ替え順を変更することもできます [から [!UICONTROL Columns] アイコン](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) をクリックします。
->* デフォルトのビューを編集するか、 [カスタムビューの作成](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
+>* また、ビューの列を一時的に変更したり、ツールバーの右側にある [!UICONTROL Columns] のアイコンから [ 並べ替え順を変更 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) ることもできます。
+>* デフォルトのビューを編集するか、[ カスタムビューを作成 ](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view) して、特定の広告主に含める列を変更できます。
 
-* （すべての広告主に特定の列を表示するには）列見出しの右側で、 ![下向き矢印](/help/search-social-commerce/assets/arrow-down-expand.png "下向き矢印")，ハイライト **[!UICONTROL Select Columns]**&#x200B;をクリックし、含める各列の横にあるチェックボックスをオンにして、 **[!UICONTROL Apply]**.
+* （すべての広告主に対して特定の列を表示するには）列見出しの右側にある ![ 下向き矢印 ](/help/search-social-commerce/assets/arrow-down-expand.png " 下向き矢印 ") をクリックし、**[!UICONTROL Select Columns]** をハイライト表示して、表示する各列の横にあるチェック ボックスをオンにし、[**[!UICONTROL Apply]**] をクリックします。
 
-* （すべての広告主の特定の列を非表示にするには）列の見出しの右側で、 (/help/search-social-commerce/assets/arrow-down-expand.png &quot;下向き矢印&quot;，ハイライト表示 **[!UICONTROL Select Columns]**&#x200B;をクリックし、除外する各列の横にあるチェックボックスをオフにして、 **[!UICONTROL Apply]**.
+* （すべての広告主に対して特定の列を非表示にするには）列見出しの右側にある [ （/help/search-social-commerce/assets/arrow-down-expand.png &quot;Down arrow&quot;] をクリックし、**[!UICONTROL Select Columns]** をハイライト表示して、除外する各列の横にあるチェック ボックスをオフにし、[**[!UICONTROL Apply]**] をクリックします。

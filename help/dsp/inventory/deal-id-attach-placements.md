@@ -12,39 +12,39 @@ ht-degree: 0%
 
 # プライベート取引のプレースメントと広告の指定
 
-保証されていない取引の場合、から新しいプレースメントの在庫ターゲットとして取引を指定できます [!UICONTROL Placements] 表示。
+保証されていない取引の場合、[!UICONTROL Placements] 表示から新しいプレースメントの在庫ターゲットとして取引を指定できます。
 
-プログラム保証（PG）取引の場合は、から指定された広告を使用してプレースメントを作成できます [!UICONTROL Deals] 表示。
+プログラムで保証された（PG）取引の場合、[!UICONTROL Deals] 表示から指定された広告を使用してプレースメントを作成できます。
 
-以下の手順でも可能です [プレースメントに広告を添付](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) pg および保証されていない取引にいつでも関連付けられます。
+また、PG や保証されていない取引に関連付けられた [ プレースメントに広告を添付 ](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) することもいつでも可能です。
 
 ## プレースメントの在庫ターゲットとしての保証されていない取引の指定
 
-* [からプレースメントを作成 [!UICONTROL Placements] 表示](/help/dsp/campaign-management/placements/placement-create.md). が含まれる [!UICONTROL Inventory Targeting] 設定で、プライベート取引を選択します。
+* [[!UICONTROL Placements] ビューからプレースメントを作成します ](/help/dsp/campaign-management/placements/placement-create.md)。 [!UICONTROL Inventory Targeting] 設定で、プライベート取引を選択します。
 
 ## PG 取引へのプレースメントと広告の添付
 
-1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
+1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals].** をクリックします。
 
-1. 取引行で、  **[!UICONTROL ...]** > **[!UICONTROL Attach New Placement]**.
+1. 取引行で、**[!UICONTROL ...]**/**[!UICONTROL Attach New Placement]** をクリックします。
 
-1. が含まれる [!UICONTROL Ad & Campaign Selection] 設定で、プレースメントに使用する広告を選択します。
+1. [!UICONTROL Ad & Campaign Selection] の設定で、プレースメントに使用する広告を選択します。
 
        1.広告主、キャンペーンおよび広告タイプを選択します。 必要に応じて、広告をフィルタリングするための広告ステータスを選択します。
        
-       1. 使用可能な広告のリストから、取引に使用する各広告の横にあるチェックボックスを選択します。
+       1。 使用可能な広告のリストから、取引に使用する各広告の横にあるチェックボックスを選択します。
        
-       1. Click **[!UICONTROL Apply]**。
-   
+       1。 「**[!UICONTROL Apply]**.
+」をクリックします。   
    1. プレースメント設定画面で、次の操作を行います。
 
       1. 配置名を入力します。
 
-      1. （オプション）を編集します [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)（デフォルトの入札の上書き（契約の CPM 値が自動的に入力される）、日付範囲の変更、広告の添付など）。
+      1. （オプション）デフォルトの入札を上書きする [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md) の編集（契約の CPM 値が自動的に入力される）、日付範囲を変更する、広告を追加するなど）。
 
       取引は「在庫ターゲット」セクションで自動的にターゲットされます。 その他のターゲティングオプションはすべて適用されません。
 
-      1. クリック **[!UICONTROL Create placement]**.
+      1. 「**[!UICONTROL Create placement]**」をクリックします。
 
 パブリッシャーが PG 取引 ID をアクティベートすると、プレースメントの実行が開始されます。
 
@@ -54,8 +54,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [プライベートインベントリについて](private-inventory-about.md)
->* [プライベート取引のプレースメントと広告のリスト](/help/dsp/inventory/private-deal-view-placements.md)
->* [取引 ID の詳細の手動作成](deal-id-create.md)
->* [手動の取引 ID 設定](deal-id-settings.md)
->* [プログラムで保証された取引の設定](programmatic-guaranteed-set-up.md)
+>* [ プライベートインベントリについて ](private-inventory-about.md)
+>* [ プライベート取引のプレースメントと広告のリスト ](/help/dsp/inventory/private-deal-view-placements.md)
+>* [ 取引 ID の詳細の手動作成 ](deal-id-create.md)
+>* [ 手動の取引 ID 設定 ](deal-id-settings.md)
+>* [ プログラムで保証された取引の設定 ](programmatic-guaranteed-set-up.md)

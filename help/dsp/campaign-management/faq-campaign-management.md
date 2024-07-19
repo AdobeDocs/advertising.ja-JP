@@ -40,10 +40,10 @@ ht-degree: 0%
 
 * フライトの最終日のパッケージペーシングはどのように変化しますか？
 
-  フライトの最終日は、パッケージ予算を超えないように、24 時間から 23 時間に短縮されます。 また、パッケージのペーシングフィル戦略は自動的に「」に変更されます[!UICONTROL Frontload]」に設定されている場合でも「」[!UICONTROL even].」と入力します。 つまり、1 日の予算の 65% を東部標準時の午前 11 時 30 分までに配分する必要があります。
+  フライトの最終日は、パッケージ予算を超えないように、24 時間から 23 時間に短縮されます。 また、パッケージのペーシングフィル戦略は、「[!UICONTROL even]」に設定されている場合でも、自動的に「[!UICONTROL Frontload]」に変更されます。 つまり、1 日の予算の 65% を東部標準時の午前 11 時 30 分までに配分する必要があります。
 
 >[!MORELIKETHIS]
 >
->* [パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
->* [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)
->* [パフォーマンスキャンペーンの設定のベストプラクティス](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ パフォーマンスキャンペーンの設定に関するベストプラクティス ](/help/dsp/optimization/campaign-best-practices-performance.md)

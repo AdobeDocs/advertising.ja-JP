@@ -1,6 +1,6 @@
 ---
 title: キャンペーンの管理
-description: 広告キャンペーンの作成および管理方法について説明します。
+description: 広告キャンペーンを作成および管理する方法について説明します。
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
 source-git-commit: 813b2a100df7381bdcea1c44a37f86e65ee5794f
@@ -12,97 +12,97 @@ ht-degree: 0%
 
 # キャンペーンの管理
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]、および既存 [!DNL Baidu] アカウントのみ*
+*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex] および既存の [!DNL Baidu] アカウントのみ*
 
-キャンペーンは、広告ネットワークアカウントの主要なコンポーネントです。 ほとんどのキャンペーンタイプでは、一連の広告グループまたは広告セットで構成されます。 キャンペーン設定には、キャンペーン予算パラメーター、広告ターゲット、キャンペーン内のすべての広告のオプションのトラッキングパラメーターが含まれます。 キャンペーンレベルのトラッキングパラメーターは、アカウントレベルのパラメーターより優先されますが、それ自体は低いレベルで上書きされる場合があります。
+キャンペーンは、広告ネットワークアカウントの主要なコンポーネントです。 ほとんどのキャンペーンタイプでは、広告グループまたは広告セットのセットで構成されます。 キャンペーン設定には、キャンペーン予算パラメーター、広告ターゲット、キャンペーン内のすべての広告のオプションのトラッキングパラメーターが含まれます。 キャンペーンレベルのトラッキングパラメーターは、アカウントレベルのパラメーターよりも優先されますが、それ自体は下位レベルで上書きできます。
 
-一度 [広告ネットワークアカウントをアクセス可能にする](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) 検索、ソーシャル、コマースがアカウントデータを広告ネットワークと同期しました。 [サポートされるキャンペーンタイプ](/help/search-social-commerce/introduction/supported-inventory.md). また、キャンペーンのステータスを編集および変更することもできます。
+[ 広告ネットワークアカウントをアクセス可能にする ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) と、検索、ソーシャル、Commerceがアカウントデータを広告ネットワークと同期したら、[ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md) で新しいキャンペーンを作成できます。 また、キャンペーンのステータスを編集および変更することもできます。
 
 ## キャンペーンの作成
 
 >[!NOTE]
 >
->* キャンペーンを作成する前に、 [コンバージョントラッキングタグの実装](/help/search-social-commerce/tracking/conversion-tracking-about.md) 広告主の Web ページ内に表示されます。
->* 一度に多数のキャンペーンを作成するには、 [コピーおよび貼り付け機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [キャンペーンバルクシート](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>* キャンペーンを作成する前に、広告主の web ページで [ コンバージョントラッキングタグの実装 ](/help/search-social-commerce/tracking/conversion-tracking-about.md) を行います。
+>* 一度に多数のキャンペーンを作成するには、[ コピーと貼り付け機能 ](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
 
-1. データテーブルの上にあるツールバーで、 ![作成](/help/search-social-commerce/assets/add.png "作成").
+1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
-1. 広告ネットワーク、アカウント、およびキャンペーンのタイプを選択し、 **[!UICONTROL Continue]**.
+1. 広告ネットワーク、アカウント、キャンペーンの種類を選択し、「**[!UICONTROL Continue]**」をクリックします。
 
-   各キャンペーンタイプについて詳しくは、 [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)または [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) キャンペーンの設定。
+   各キャンペーンタイプの説明については、[Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google広告 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[MicrosoftAdvertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)、Yahoo！の各キャンペーンタイプの説明を参照し [ ください。 日本広告 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、または [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) キャンペーン設定。
 
-1. 次を入力します。 [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)または [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) キャンペーンの設定。
+1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google広告 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[MicrosoftAdvertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)、[Yahoo! 日本広告 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、または [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) キャンペーン設定。
 
-   広告ネットワークに応じて、設定は次のようにグループ化されます。 [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options]、および [!UICONTROL (Google) DSA Options]. 次の追加の設定を（利用可能な場合）構成するには： [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups]または [!UICONTROL Campaign Goals]をクリックし、 **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]**&#x200B;または **[!UICONTROL Set Campaign Goals]**、それぞれ。
+   広告ネットワークに応じて、設定は [!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Shopping Settings]、[!UICONTROL Campaign Targeting]、[!UICONTROL Conversion Goals]、[!UICONTROL Advanced Device Options]、[!UICONTROL URL Options] および [!UICONTROL (Google) DSA Options] にグループ化される場合があります。 [!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]、[!UICONTROL Campaign Tracking]、[!UICONTROL Asset Groups]、[!UICONTROL Campaign Goals] などの追加設定を可能な場合に構成するには、それぞれ **[!UICONTROL Add Negative Keywords]**、**[!UICONTROL Add Negative Websites]**、**[!UICONTROL Set Campaign Tracking]**、**[!UICONTROL Manage Asset Groups]**、**[!UICONTROL Set Campaign Goals]** をクリックします。
 
-1. クリック **[!UICONTROL Post]**.
+1. 「**[!UICONTROL Post]**」をクリックします。
 
-キャンペーンが作成された広告ネットワークに応じて、キャンペーンが広告ネットワークにプッシュされる前に、関連する広告グループと広告を作成する必要が生じる場合があります。
+キャンペーンを作成した広告ネットワークによっては、キャンペーンを広告ネットワークにプッシュする前に、関連付けられた広告グループと広告を作成する必要がある場合があります。
 
 ## キャンペーン設定を編集
 
-個々のキャンペーンの設定を編集できます。 また、選択したすべてのキャンペーンに共通するキャンペーンの詳細、予算オプション、URL オプションなど、複数のキャンペーンのフィールドを一度に編集することもできます。
+個々のキャンペーンの設定を編集できます。 また、選択したすべてのキャンペーンに共通するキャンペーン詳細、予算オプション、URL オプションなど、複数のキャンペーン用の一部のフィールドを一度に編集することもできます。
 
 >[!TIP]
 >
->コピー&amp;ペースト機能またはキャンペーン一括送信シートを使用して、データを一括編集することもできます。
+>また、コピーと貼り付け機能や Campaign バルクシートを使用して、データを一括編集することもできます。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
 
-1. 次のいずれかの操作を行います。
+1. 次のいずれかの操作をおこないます。
 
-   1. （1 つのキャンペーンの設定を編集する場合）エンティティ名の上にカーソルを置いたまま、 ![メニューアイコン](/help/search-social-commerce/assets/arrow-dropdown-menu.png "メニューアイコン")を選択し、 **[!UICONTROL Edit]**.
+   1. （単一のキャンペーンの設定を編集するには）エンティティ名の上にカーソルを置き、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ") をクリックしてから、「**[!UICONTROL Edit]**」を選択します。
 
-   1. （1 つ以上のキャンペーンの設定を編集するには）次の操作を行います。
+   1. （1 つ以上のキャンペーンの設定を編集するには）次の手順を実行します。
 
       * 各キャンペーンの横にあるチェックボックスをオンにします。
 
-        複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-      * データテーブルの上にあるツールバーで、 ![編集](/help/search-social-commerce/assets/edit.png "編集").
+      * データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")] をクリックします。
 
-1. を編集します。 [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)または [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) キャンペーンの設定。
+1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google広告 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[MicrosoftAdvertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)、[Yahoo! 日本広告 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、または [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) キャンペーン設定。
 
-   複数のキャンペーンの場合、設定は [!UICONTROL Campaign Details], [!UICONTROL Budget Options]、および [!UICONTROL URL Options]（広告ネットワークに応じて）。 選択したすべてのキャンペーンに共通するフィールドのみを編集でき、選択したすべてのキャンペーンに変更が適用されます。 一部の英数字フィールドでは、既存の値を指定した値に変更したり、既存の文字列を指定した文字列に置き換えたり、各値の先頭に指定したプレフィックスを追加したり、各値の末尾にサフィックスを追加したりできます。 一部の金額フィールドでは、既存の値を指定した値に変更するか、指定した割合または金額で金額を上限に従って増減するかを選択できます。
+   複数のキャンペーンの場合、広告ネットワークに応じて、設定を [!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL URL Options] にグループ化できます。 編集できるのは、選択したすべてのキャンペーンに共通のフィールドのみで、変更は選択したすべてのキャンペーンに適用されます。 一部の英数字フィールドでは、既存の値を指定の値に変更する、既存の文字列を指定の文字列に置き換える、各値の先頭に指定のプレフィックスを追加する、各値の末尾にサフィックスを追加する、などのオプションがあります。 一部の通貨フィールドでは、既存の値を指定の値に変更するか、制限を設けて、指定の割合または金額で金額を増減するオプションがあります。
 
-   単一のキャンペーンの場合、設定は [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options]、および [!UICONTROL (Google) DSA Options]. 次の追加の設定を（利用可能な場合）構成するには： [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups]または [!UICONTROL Campaign Goals]をクリックし、 **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]**&#x200B;または **[!UICONTROL Set Campaign Goals]**、それぞれ。
+   単一のキャンペーンの場合、設定は、[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Shopping Settings]、[!UICONTROL Campaign Targeting]、[!UICONTROL Conversion Goals]、[!UICONTROL Advanced Device Options]、[!UICONTROL URL Options] および [!UICONTROL (Google) DSA Options] にグループ化されます。 [!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]、[!UICONTROL Campaign Tracking]、[!UICONTROL Asset Groups]、[!UICONTROL Campaign Goals] などの追加設定を可能な場合に構成するには、それぞれ **[!UICONTROL Add Negative Keywords]**、**[!UICONTROL Add Negative Websites]**、**[!UICONTROL Set Campaign Tracking]**、**[!UICONTROL Manage Asset Groups]**、**[!UICONTROL Set Campaign Goals]** をクリックします。
 
 1. データを保存します。
 
-   * （単一キャンペーン）クリック **[!UICONTROL Post]**.
+   * （単一のキャンペーン） **[!UICONTROL Post]** クリックします。
 
-   * （複数のキャンペーン）クリック **[!UICONTROL Post Now]**.
+   * （複数のキャンペーン） **[!UICONTROL Post Now]** クリックします。
 
-キャンペーンが作成された広告ネットワークによっては、広告が広告ネットワークにプッシュされる前に、キャンペーンに広告グループと広告が含まれる必要が生じる場合があります。
+キャンペーンを作成した広告ネットワークに応じて、キャンペーンを広告ネットワークにプッシュする前に、キャンペーンに広告グループと広告を含める必要がある場合があります。
 
 ## キャンペーンのステータスの変更
 
-サポートされている広告ネットワーク上の任意のアクティブな検索キャンペーンを一時停止して、そのキャンペーンでの入札を無効にすることができます。 ステータスを「アクティブ」に戻すと、後で入札を再開できます。
+サポートされている広告ネットワークでアクティブな検索キャンペーンを一時停止して、入札を無効にすることができます。 後でステータスをアクティブに戻すことで、入札を再開できます。
 
-アクティブまたは一時停止した任意の検索キャンペーンも削除できます。 削除されたキャンペーンは広告ネットワークから削除されます。 データフィルターに含めると、これらは引き続き表示されますが、変更することはできません。
+アクティブな検索キャンペーンや一時停止した検索キャンペーンを削除することもできます。 削除されたキャンペーンは広告ネットワークから削除されます。 これらは、データフィルターに含めると引き続き表示されますが、変更することはできません。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
 
-1. （オプション）リストをフィルタリングして、特定のキャンペーンを含めます。
+1. （任意）リストをフィルタリングして、特定のキャンペーンを含めます。
 
 1. ステータスを変更する各キャンペーンの横にあるチェックボックスをオンにします。
 
-   複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-1. ツールバーで、ステータスボタンをクリックします。
+1. ツールバーの「ステータス」ボタンをクリックします。
 
-   * 行をアクティブにするには、 ![有効化](/help/search-social-commerce/assets/activate.png "有効化").
+   * 行をアクティブにするには、「![ アクティブ化 ](/help/search-social-commerce/assets/activate.png " アクティブ化 ")」をクリックします。
 
-   * 行を一時停止するには、 ![一時停止](/help/search-social-commerce/assets/pause.png "一時停止").
+   * 行を一時停止するには、「![ 一時停止 ](/help/search-social-commerce/assets/pause.png " 一時停止 ")」をクリックします。
 
-   * 行を削除するには、 ![その他](/help/search-social-commerce/assets/more.png "その他") を選択し、 **[!UICONTROL Delete]**. 確認メッセージで、 **[!UICONTROL Delete]**.
+   * 行を削除するには、「![ その他 ")」をクリックし ](/help/search-social-commerce/assets/more.png " 「**[!UICONTROL Delete]**」を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Baidu] キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
->* [[!DNL Google Ads] キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
->* [[!DNL Microsoft Advertising] キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
->* [[!DNL Yahoo! Japan Ads] キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
->* [[!DNL Yandex] キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
+>* [[!DNL Baidu]  キャンペーン設定 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
+>* [[!DNL Google Ads]  キャンペーン設定 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+>* [[!DNL Microsoft Advertising]  キャンペーン設定 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
+>* [[!DNL Yahoo! Japan Ads]  キャンペーン設定 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+>* [[!DNL Yandex]  キャンペーン設定 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)

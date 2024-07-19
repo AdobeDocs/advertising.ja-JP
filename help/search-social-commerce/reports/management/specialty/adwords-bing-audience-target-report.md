@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL AdWords and Bing Audience Target Report]'
-description: について説明します [!UICONTROL AdWords and Bing Audience Target Report].
+description: '[!UICONTROL AdWords and Bing Audience Target Report] について説明します。'
 exl-id: 083a5316-e4ec-45f5-a9ae-901cf5eecef4
 feature: Search Reports, Search Specialty Reports
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 *[!DNL Google Ads]および [!DNL Microsoft Advertising] アカウントのみ*
 
-この [!UICONTROL AdWords and Bing Audience Target Report] コスト、クリック、インプレッションおよび（オプションで）オーディエンスターゲット別の派生指標データを含みます（[!DNL Google Ads] 顧客データベース、市場内、および類似のオーディエンスと [!DNL Microsoft Advertising] 1 つ以上の広告グループまたはキャンペーン向けのリマーケティング、カスタム、顧客一致、類似および市場内オーディエンス）。 デフォルトでは、データには、指定された日付範囲の時間単位ごとに、該当する広告グループごとに少なくとも 1 つのインプレッションまたはクリックを受信したオーディエンスごとに 1 つの行が含まれます。 行は、広告グループ名で昇順に、デフォルトではオーディエンスで並べられます。 レポートには、で追跡されたコンバージョンデータが含まれます。 [!DNL Adobe] リマーケティングリストターゲットの場合のみ。
+[!UICONTROL AdWords and Bing Audience Target Report] には、1 つ以上の広告グループまたはキャンペーンのオーディエンスターゲット（カスタマーデータベース、市場内、類似のオーディエンスおよび [!DNL Microsoft Advertising] リマーケティング、カスタム、カスタマーマッチ、類似のオーディエンス、市場内オーディエンスな [!DNL Google Ads]）別のコスト、クリック、インプレッションおよび（オプションで）派生指標データが含まれます。 デフォルトでは、データには、指定された日付範囲の時間単位ごとに、該当する広告グループごとに少なくとも 1 つのインプレッションまたはクリックを受信したオーディエンスごとに 1 つの行が含まれます。 行は、広告グループ名で昇順に、デフォルトではオーディエンスで並べられます。 このレポートには、リマーケティングリストターゲットに関してのみ、[!DNL Adobe] で追跡されたコンバージョンデータが含まれています。
 
 前年までのデータを表示できます。
 
 >[!NOTE]
 >
->* [!DNL Google Ads] では、市場内オーディエンスの売上高データを追跡する手段は提供されません。
+>* [!DNL Google Ads] は、市場内オーディエンスの売上高データを追跡する手段を提供していません。
 >* このレポートのデータは、前日の午後 23 時（午後 11 時）に取り込まれます。 例えば、6 月 18 日の 23:00 に、6 月 17 日のデータを取り込みます。 6 月 19 日の 09:00 にレポートを実行した場合（6 月 18 日のデータが取り込まれる前）、レポートには 6 月 17 日の 23:00 までのデータが含まれます。
 
 ## デフォルトの列
 
-デフォルト列とカスタム列については、「」を参照してください[専門レポートのレポート列](specialty-report-columns.md).」と入力します。
+すべてのデフォルト列およびカスタム列の説明は、[ 専門レポートのレポート列 ](specialty-report-columns.md) を参照してください。
 
 * [!UICONTROL Start Date]
 * [!UICONTROL End Date]
@@ -42,6 +42,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [専門レポートについて](specialty-report-about.md)
->* [専門レポートの生成](specialty-report-generate.md)
->* [専門レポートの設定](specialty-report-settings.md)
+>* [ 専門レポートについて ](specialty-report-about.md)
+>* [ 専門レポートの生成 ](specialty-report-generate.md)
+>* [ 専門レポートの設定 ](specialty-report-settings.md)

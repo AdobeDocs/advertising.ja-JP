@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Advertising] 製品グループ設定'
-description: の設定を参照します [!DNL Microsoft Advertising] 商品グループの買い物。
+title: '[!DNL Microsoft Advertising] 製品グループ設定'
+description: 商品グループを買い物するため  [!DNL Microsoft Advertising]  設定を参照します。
 exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 特定の商品ディメンション（「すべての商品」ではない）の商品グループを作成したら、検索、ソーシャルおよびCommerceは、「その他すべて」の商品グループを自動的に作成します。
 
-使用可能な製品ディメンションのリストについては、「」を参照してください[買い物キャンペーン製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).」と入力します。 ディメンションのリストは、キャンペーンのに基づいて制限される場合があります [!UICONTROL Inventory Filter] の設定値。
+使用可能な製品ディメンションのリストについては、「[ ショッピングキャンペーン製品フィルター ](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。 ディメンションのリストは、キャンペーンの [!UICONTROL Inventory Filter] 設定に基づいて制限される場合があります。
 
 **[!UICONTROL Excluded]:** （新しい製品グループの場合はオプション、既存の製品グループの場合は読み取り専用）一致する製品の広告の入札を除外します。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ショッピング製品グループについて](product-group-about.md)
->* [ショッピング商品グループの管理](product-group-manage.md)
->* [買い物キャンペーン製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [実装方法 [!DNL Microsoft Advertising] 買い物キャンペーン](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [ ショッピング商品グループについて ](product-group-about.md)
+>* [ ショッピング商品グループの管理 ](product-group-manage.md)
+>* [ 買い物キャンペーン製品フィルター ](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
+>* [ 買い物キャンペ  [!DNL Microsoft Advertising]  ンの実装 ](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)

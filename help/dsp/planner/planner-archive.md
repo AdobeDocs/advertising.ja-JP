@@ -1,6 +1,6 @@
 ---
-title: 接続された TV リーチプランをアーカイブ
-description: 接続された TV リーチプランをアーカイブする方法を説明します。
+title: 接続されたテレビのリーチ プランをアーカイブする
+description: 接続されたテレビのリーチプランをアーカイブする方法を説明します。
 feature: DSP Planner
 exl-id: 335db881-51e6-412d-9346-216c6a70a6de
 source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
@@ -10,20 +10,20 @@ ht-degree: 0%
 
 ---
 
-# 接続された TV リーチプランをアーカイブ
+# 接続されたテレビのリーチ プランをアーカイブする
 
-プランをアーカイブすると、そのプランはデフォルトから削除されます [!UICONTROL Planner] 表示。<!-- You can still view it by including the [!UICONTROL Status] "[!UICONTROL Archived]" in the view filter. -->
+プランをアーカイブすると、デフォルトの [!UICONTROL Planner] ビューから削除されます。<!-- You can still view it by including the [!UICONTROL Status] "[!UICONTROL Archived]" in the view filter. -->
 
-1. メインメニューで、 **[!UICONTROL Planner]**.
+1. メインメニューで、「**[!UICONTROL Planner]**」をクリックします。
 
-1. プラン行にカーソルを置き、 **[!UICONTROL More]** > **[!UICONTROL Archive]**.
+1. カーソルを計画行の上に置き、**[!UICONTROL More]**/**[!UICONTROL Archive]** をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [DSP Planner ツールについて](planner-about.md)
->* [接続済み TV リーチプランの作成](planner-create.md)
->* [接続済み TV リーチプランの複製](planner-duplicate.md)
->* [接続済み TV リーチプランの編集](planner-edit.md)
->* [接続済み TV リーチプランの書き出し](planner-export.md)
->* [接続された TV リーチプランの予測を再生成する](planner-forecast.md)
->* [接続済み TV リーチプランの設定](planner-settings.md)
+>* [DSP プランナーツールについて ](planner-about.md)
+>* [ 接続されたテレビのリーチプランを作成 ](planner-create.md)
+>* [ 接続されたテレビのリーチ プランを複製 ](planner-duplicate.md)
+>* [ 接続されたテレビのリーチ プランを編集する ](planner-edit.md)
+>* [ 接続されたテレビのリーチ プランのエクスポート ](planner-export.md)
+>* [Connected TV Reach Plan の Forecast の再生成 ](planner-forecast.md)
+>* [ 接続されたテレビのリーチ プランの設定 ](planner-settings.md)

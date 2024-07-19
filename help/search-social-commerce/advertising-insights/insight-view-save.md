@@ -1,33 +1,33 @@
 ---
-title: 表示または保存 [!DNL Advertising Insight]
-description: 以下を表示する方法を学ぶ： [!DNL Advertising Insight] ファイルに保存します。
-exl-id: 165a6036-c911-4c56-a820-c9d172e47ea4
+title: ' [!DNL Advertising Insight] を表示または保存します。'
+description: を表示してファイル  [!DNL Advertising Insight]  保存する方法を説明します。
+exl-id: 4baf24eb-5ebf-41d9-8b3b-6af1672ad030
 feature: Search Advertising Insights
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
 
 ---
 
-# 表示または保存 [!DNL Advertising Insight]
+# ア [!DNL Advertising Insight] ットの表示または保存
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Advertising Insights]** をクリックします。
 
-2. 左側のメニューで、 ![レポート](/help/search-social-commerce/assets/insight-reports.png "レポート").
+2. 左側のメニューで、「![ レポート ](/help/search-social-commerce/assets/insight-reports.png " レポート ")」をクリックします。
 
-3. Adobe Analytics の [!UICONTROL Generated Insights] パネルで、次のいずれかの操作を行います。
+3. [!UICONTROL Generated Insights] パネルで、次のいずれかの操作を行います。
 
    * レポートインスタンスをクリックします。
 
-   * レポートインスタンス上にカーソルを置き、 ![ダウンロード](/help/search-social-commerce/assets/insight-download.png "ダウンロード").
+   * レポートインスタンスの上にカーソルを置き、「![ ダウンロード ](/help/search-social-commerce/assets/insight-download.png " ダウンロード ")」をクリックします。
 
 4. ブラウザーの通常の手順に従って、ファイルを開くか保存します。
 
-   ファイルが圧縮されている場合は、表示する前に個々のファイルをフォルダーに抽出します。
+   ファイルが圧縮されている場合は、表示する前に個々のファイルをフォルダに抽出します。
 
 >[!MORELIKETHIS]
 >
->* [について [!UICONTROL Advertising Insights]](insight-about.md)
->* [を生成 [!DNL Advertising Insight]](insight-generate.md)
->* [の削除 [!DNL Advertising Insight]](insight-delete.md)
+>* [[!UICONTROL Advertising Insights]](insight-about.md) について
+>* [ 生成  [!DNL Advertising Insight]](insight-generate.md)
+>* [ を削除  [!DNL Advertising Insight]](insight-delete.md)

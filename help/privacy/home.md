@@ -1,6 +1,6 @@
 ---
-title: Adobe Advertising 消費者プライバシーサポート
-description: Adobe広告は、広告主の顧客が消費者のプライバシーに関する法律を遵守するのに役立つセキュリティとプライバシーに関する制御を提供します。
+title: Adobe Advertising の消費者プライバシーのサポート
+description: Adobe Advertisingは、広告主のお客様が消費者のプライバシー法を遵守できるよう、セキュリティとプライバシーの制御を提供します。
 cloud: Experience Cloud
 product: advertising cloud
 index: true
@@ -12,10 +12,10 @@ ht-degree: 20%
 
 ---
 
-# Adobe Advertising 消費者プライバシーサポート
+# Adobe Advertising の消費者プライバシーのサポート
 
-Adobe広告は、広告主の顧客が次の消費者プライバシー法を遵守するのに役立つセキュリティとプライバシーの制御を提供します。
+Adobe Advertisingは、広告主のお客様が以下の消費者プライバシー法を遵守できるよう、セキュリティとプライバシーの制御を提供します。
 
-* 一般データ保護規則 (GDPR)
+* EU 一般データ保護規則（GDPR）
 
-* カリフォルニア州消費者プライバシー法 (CCPA)
+* カリフォルニア州消費者プライバシー法（CCPA）

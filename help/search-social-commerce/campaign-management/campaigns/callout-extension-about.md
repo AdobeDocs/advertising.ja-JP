@@ -1,36 +1,36 @@
 ---
-title: について [!DNL Google Ads] 引き出し線の拡張
-description: 詳細 [!DNL Google Ads] 検索、ソーシャル、コマースの引き出し線の拡張。
-exl-id: 3d0d864b-35ea-48aa-a812-bba96359eb29
+title: コールアウト拡張機能  [!DNL Google Ads]  ついて
+description: 検索  [!DNL Google Ads]  ソーシャル、Commerceのコールアウト拡張機能について説明します。
+exl-id: d821067f-7ec6-4cd3-a6eb-e1e194cea0df
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-# について [!DNL Google Ads] 引き出し線の拡張
+# 吹き出し [!DNL Google Ads] 拡張機能について
 
 *[!DNL Google Ads]アカウントのみ*
 
-引き出し線拡張は、サイトが提供する製品、サービス、プロモーションなどの情報テキストで、テキスト広告と共に表示できます。 広告ネットワークは、広告を使用して 2 つから 4 つの引き出し線を表示する場合があります。
+吹き出し拡張機能は、テキスト広告と共に表示できる、サイトが提供する製品、サービス、プロモーションなどの情報テキストです。 広告ネットワークは、広告を含む 2 つのコールアウトと 4 つのコールアウトの間に表示される場合があります。
 
-共有の引き出し線テキストと設定（広告で引き出し線を表示できる日付など）を、アカウントレベルで作成します。
+コールアウトのテキストと設定（コールアウトが広告と共に表示される日付を含む）を、アカウントレベルで共有して作成します。
 
-## The [!UICONTROL Callouts] および [!UICONTROL Associations] ビュー
+## [!UICONTROL Callouts] ビューと [!UICONTROL Associations] ビュー
 
-The [!UICONTROL Extensions] > [!UICONTROL Callout] ライブラリ内 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] アカウントレベルの引き出し線の一覧を表示し、共有引き出し線を作成して管理できます。 詳しくは、広告ネットワークのヘルプを参照してください。 [各広告の最大拡張数 [!DNL Google Ads] アカウント](https://support.google.com/google-ads/answer/6372658?hl=en).
+[!UICONTROL Campaigns]/[!UICONTROL Campaigns] の [!UICONTROL Extensions]/[!UICONTROL Callout] ライブラリに、アカウントレベルのコールアウトがすべて一覧表示され、そこで共有コールアウトを作成および管理できます。 [ アカウントあたりの広告拡張機能の最大数 ](https://support.google.com/google-ads/answer/6372658?hl=en) については、広告ネットワークのヘルプを参照し  [!DNL Google Ads]  ください。
 
-ライブラリ内の引き出し線は、キャンペーンまたは広告グループに割り当てるまで、広告では使用されません。 次から： [!UICONTROL Extensions] > [!UICONTROL Associations] 表示では、キャンペーンレベルまたは広告グループレベルで、すべての広告に任意の引き出し線を可能な限り拡張として割り当てることができます。 広告が引き出し線と共に表示されるようにするには、キャンペーンまたは広告グループごとに少なくとも 2 つの引き出し線を割り当てる必要があります。 広告グループレベルの引き出し線は、キャンペーンレベルで引き出し線を上書きします。
+ライブラリ内の引き出し線は、キャンペーンまたは広告グループに割り当てるまで、広告で使用されません。 [!UICONTROL Extensions]/[!UICONTROL Associations] ビューでは、キャンペーンレベルまたは広告グループレベルで、あらゆるコールアウトを可能な限り拡張機能として、すべての広告に割り当てることができます。 コールアウトを使用して広告を表示するには、キャンペーンまたは広告グループごとに少なくとも 2 つのコールアウトを割り当てる必要があります。 広告グループレベルのコールアウトが、キャンペーンレベルのコールアウトを上書きします。
 
 ## 引き出し線のパフォーマンスデータ
 
-検索、Social、および Commerce は、広告拡張機能のクリック数と、結果のコンバージョンを、拡張機能が含まれる広告に関連付けられたキーワードにマッピングします。 検索、ソーシャル、コマースで、拡張機能レベルのコストやクリックデータは使用できません。
+検索、ソーシャルおよびCommerceは、広告拡張機能のクリック数と、その拡張機能が含まれている広告に関連付けられたキーワードへのコンバージョン結果をマップします。 検索、ソーシャル、Commerceでは、拡張機能レベルでのコストデータやクリックデータを利用できません。
 
-In [!DNL Google Ads]をクリックすると、 [!UICONTROL Campaigns] タブ/ [!UICONTROL Ad Extensions] タブをクリックします。
+[!DNL Google Ads] では、[[!UICONTROL Campaigns]] タブ > [[!UICONTROL Ad Extensions]] タブでコストを表示し、データをクリックできます。
 
 >[!MORELIKETHIS]
 >
->* [管理 [!DNL Google Ads] 引き出し線の拡張](callout-extension-manage.md)
->* [関連付け [!DNL Google Ads] キャンペーンまたは広告グループで共有された引き出し線拡張](callout-extension-associate.md)
+>* [Manage [!DNL Google Ads] callout 拡張機能 ](callout-extension-manage.md)
+>* [ 共有コ  [!DNL Google Ads]  ルアウト拡張機能のキャンペーンまたは広告グループへの関連付け ](callout-extension-associate.md)

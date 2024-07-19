@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # 一部のキャンペーン設定と MS 広告グループ設定の「終了日」フィールド
 
-**[!UICONTROL End date]:** 入札を行う最終日。 デフォルトはです。 *終了日なし*. 指定した日付まで入札を行うには、MM/DD/YYYY の形式で日付を入力するか、 ![カレンダー](/help/search-social-commerce/assets/calendar.png) 日付を選択します。
+**[!UICONTROL End date]:** 入札が行われる最終日付。 デフォルトは *終了日なし* です。 指定した日付まで入札を行うには、MM/DD/YYYY の形式で日付を入力するか、![ カレンダー ](/help/search-social-commerce/assets/calendar.png) をクリックして日付を選択します。

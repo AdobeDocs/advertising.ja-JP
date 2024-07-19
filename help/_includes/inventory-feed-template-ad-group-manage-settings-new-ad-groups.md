@@ -5,6 +5,6 @@ source-wordcount: '22'
 ht-degree: 0%
 
 ---
-# テキスト広告テンプレート — 新しい広告グループの設定の管理
+# テキスト広告テンプレート – 新規広告グループの設定を管理します
 
-**[!UICONTROL Manage Settings for NEW Ad Groups]:**（オプション）作成されるすべての広告グループの設定を構成できます。
+**[!UICONTROL Manage Settings for NEW Ad Groups]:** （オプション）作成した広告グループの設定を指定できます。

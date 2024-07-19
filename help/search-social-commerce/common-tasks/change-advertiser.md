@@ -1,9 +1,9 @@
 ---
 title: 別の広告主のデータを表示
-description: 別の広告主のデータを表示する方法を説明します。
-exl-id: 823689b3-7c74-4927-8973-c6ce9fc79729
+description: 別の広告主向けのデータを表示する方法を説明します。
+exl-id: 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 0%
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 # 別の広告主のデータを表示
 
-*代理店のアカウントマネージャー [!DNL Adobe] アカウントマネージャー、管理者ユーザーロールのみ*
+*エージェンシーアカウントマネージャー、[!DNL Adobe] アカウントマネージャー、管理者ユーザーの役割のみ*
 
-*複数の広告主アカウントのみを管理するユーザー*
+*複数の広告主アカウントを管理するユーザーのみ*
 
 * ページの右上にある広告主リストで、広告主を選択します。

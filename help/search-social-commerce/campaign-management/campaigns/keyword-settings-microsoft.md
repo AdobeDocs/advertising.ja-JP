@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Advertising] キーワード設定'
-description: の設定を参照します [!DNL Microsoft Advertising] キーワード。
+title: '[!DNL Microsoft Advertising] キーワード設定'
+description: キーワードの設定  [!DNL Microsoft Advertising]  参照します。
 exl-id: 82eee01f-db4b-4d1a-ae24-1ef65f8c6953
 feature: Search Campaign Management
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -10,22 +10,22 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] キーワード設定
+# [!DNL Microsoft Advertising] キーワードの設定
 
 検索および表示ネットワークを使用するキャンペーンのキーワードを作成できます。
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** キーワード （いずれか） [!DNL Microsoft Advertising] 構文とプレースホルダーを一致させます。 キーワードごとの最大長は 100 文字です。
+**[!UICONTROL Keywords]:**[!DNL Microsoft Advertising] 一致の構文とプレースホルダーを含むキーワード。 キーワードごとの最大長は 100 文字です。
 
 最大 2000 個のキーワードを入力または貼り付けできます。 複数のキーワードをコンマで区切るか、別々の行に入力します。
 
 >[!NOTE]
 >
->* からネガティブキーワードを作成できます [!UICONTROL Keywords] > [!UICONTROL Negatives] 広告グループとキャンペーンの設定にとを表示します。
->* 変更， [!DNL Microsoft Advertising] keyword 既存のキーワードを削除し、新しいキーワード ID で新しいキーワードを作成します。 ただし、一致タイプを変更しても、既存のキーワードは削除されません。
+>* ネガティブキーワードは、[!UICONTROL Keywords] / [!UICONTROL Negatives] ビューや、広告グループおよびキャンペーン設定で作成できます。
+>* [!DNL Microsoft Advertising] キーワードを変更すると、既存のキーワードが削除され、新しいキーワード ID で新しいキーワードが作成されます。 ただし、一致タイプを変更しても、既存のキーワードは削除されません。
 
-**[!UICONTROL Status]:** キーワードの表示ステータス： *アクティブ* または *一時停止*. 新しいキーワードのデフォルトは *アクティブ*.
+**[!UICONTROL Status]:** キーワードの表示ステータス：*アクティブ* または *一時停止*。 新しいキーワードのデフォルトは *アクティブ* です。
 
 ## [!UICONTROL Bids]
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 
 ## プレースホルダ
 
-**[!UICONTROL Param2]:** キーワードのベース URL または広告のタイトル、説明、ベース URL に「」が含まれる場合に、置換値として使用する文字列 [この `{Param2}` 動的置換文字列](https://help.bingads.microsoft.com/#apex/3/en/53079/0). 最大長は 70 文字ですが、これを使用する広告要素の最大長には注意が必要です（例えば、タイトル 1 とタイトル 2 を組み合わせると、最大 76 文字になる場合があります）。
+**[!UICONTROL Param2]:** キーワードのベース URL または広告のタイトル、説明、またはベース URL に [`{Param2}` 動的な置換文字列 ](https://help.bingads.microsoft.com/#apex/3/en/53079/0) が含まれる場合に、置換値として使用する文字列。 最大長は 70 文字ですが、これを使用する広告要素の最大長には注意が必要です（例えば、タイトル 1 とタイトル 2 を組み合わせると、最大 76 文字になる場合があります）。
 
-**[!UICONTROL Param3]:** キーワードのベース URL または広告のタイトル、説明、ベース URL に「」が含まれる場合に、置換値として使用する文字列 [この `{Param3}` 動的置換文字列](https://help.bingads.microsoft.com/#apex/3/en/53079/0). 最大長は 70 文字ですが、これを使用する広告要素の最大長には注意が必要です（例えば、タイトル 1 とタイトル 2 を組み合わせると、最大 76 文字になる場合があります）。
+**[!UICONTROL Param3]:** キーワードのベース URL または広告のタイトル、説明、またはベース URL に [`{Param3}` 動的な置換文字列 ](https://help.bingads.microsoft.com/#apex/3/en/53079/0) が含まれる場合に、置換値として使用する文字列。 最大長は 70 文字ですが、これを使用する広告要素の最大長には注意が必要です（例えば、タイトル 1 とタイトル 2 を組み合わせると、最大 76 文字になる場合があります）。
 
 ## URL オプション
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/base-url-keyword-ad-sitelink.md}}
 
-このフィールドには、オプションで `{Param2}` および `{Param3}` 動的代替変数。
+このフィールドには、オプションで `{Param2}` および `{Param3}` の動的置換変数を含めることができます。
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
@@ -53,4 +53,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [ キーワードの管理 ](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

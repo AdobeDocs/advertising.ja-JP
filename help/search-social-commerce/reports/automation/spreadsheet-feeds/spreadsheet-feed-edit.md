@@ -14,33 +14,33 @@ ht-degree: 0%
 
 *基本レポートおよびモデル精度レポートのみ*
 
-使用するレポートテンプレートは変更できます。 [!DNL Microsoft Excel] スプレッドシートフィードには、テンプレートおよびその他のパラメーターが使用されます。
+スプレッドシートフィードに使用するレポートテンプレート [!DNL Microsoft Excel] テンプレート、その他のパラメーターを変更できます。
 
 >[!NOTE]
 >
-> レポートテンプレートの列を編集する場合、または新規または更新されたレポートテンプレートを使用する場合は、 [!DNL Excel] 必要に応じてテンプレートを作成し、もう一度アップロードします。
+> レポートテンプレートの列を編集する場合、または新しいレポートテンプレートや更新されたレポートテンプレートを使用する場合は、それに応じて [!DNL Excel] テンプレートを更新し、再度アップロードする必要があります。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Spreadsheet Feeds]** をクリックします。
 
-1. （任意）レポートテンプレートまたは [!DNL Excel] スプレッドシートフィードに使用するテンプレート：
+1. （オプション）スプレッドシートフィードに使用するレポートテンプレートまたは [!DNL Excel] テンプレートを更新するには、次の手順に従います。
 
-   * （任意）別のレポートテンプレートまたは更新されたレポートテンプレートをフィードに使用するには、 [新しいを作成 [!DNL Excel] レポートテンプレートのテンプレート](spreadsheet-feed-create-excel-template.md).
+   * （任意）フィードに別のレポートテンプレートまたは更新されたレポートテンプレートを使用するには、[ レポートテンプレート用に新しい  [!DNL Excel]  テンプレートを作成 ](spreadsheet-feed-create-excel-template.md) します。
 
-     レポートテンプレートと新しいの両方をアップロードする必要があります [!DNL Excel] 次の手順で、ファイルを開きます。
+     次の手順では、レポートテンプレートと新しい [!DNL Excel] ファイルの両方をアップロードする必要があります。
 
-   * （オプション）カスタム列をに追加するだけ [!DNL Excel] 次に、レポートテンプレートの列の右側に列を挿入し、ファイルをとして保存します [!DNL Excel] .XLSX 形式のスプレッドシート。 新しいをアップロードしてください [!DNL Excel] 次の手順で、ファイルを開きます。
+   * （オプション） [!DNL Excel] テンプレートにカスタム列を追加するには、レポートテンプレートの列の右側に列を挿入し、.XLSX 形式の [!DNL Excel] スプレッドシートとしてファイルを保存します。 次の手順で、新しい [!DNL Excel] ファイルをアップロードする必要があります。
 
 1. スプレッドシートフィードの設定を変更します。
 
-   * メインメニューで、 **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
+   * メインメニューで、**[!UICONTROL Reports]/[!UICONTROL Spreadsheet Feeds]** をクリックします。
 
-   * スプレッドシートフィード名の横にある、 ![設定を表示/編集ボタン](/help/search-social-commerce/assets/settings.png "設定を表示/編集ボタン").
+   * スプレッドシートフィード名の横にある ![ 設定を表示/編集ボタン ](/help/search-social-commerce/assets/settings.png " 設定を表示/編集ボタン ") をクリックします。
 
-   * が含まれる [!UICONTROL Edit Spreadsheet Feed] ダイアログ、を変更 [スプレッドシートフィードの設定](spreadsheet-feed-settings.md).
+   * [!UICONTROL Edit Spreadsheet Feed] ダイアログで、[ スプレッドシートフィード設定 ](spreadsheet-feed-settings.md) を変更します。
 
-   * クリック **[!UICONTROL Submit]**.
+   * 「**[!UICONTROL Submit]**」をクリックします。
 
-   * （任意）フィードの [!UICONTROL Update Status] 等しい *[!UICONTROL Finished]*&#x200B;を選択し、 **[!UICONTROL XLSX]** フィードの横で、ブラウザーの通常の手順に従ってファイルを開くか保存します。
+   * （オプション）フィードの [!UICONTROL Update Status] が *[!UICONTROL Finished]* 定されたら、フィードの横にある「**[!UICONTROL XLSX]**」をクリックし、ブラウザーの通常の手順に従ってファイルを開くか保存します。
 
      >[!NOTE]
      >
@@ -50,10 +50,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [スプレッドシートレポートフィードについて](spreadsheet-feed-about.md)
->* [スプレッドシートレポートフィードの作成](spreadsheet-feed-create.md)
->* [を作成 [!DNL Excel] スプレッドシートレポートフィードのテンプレート](spreadsheet-feed-create-excel-template.md)
->* [スプレッドシートレポートフィード設定の編集](spreadsheet-feed-edit.md)
->* [スプレッドシートレポートフィードの設定](spreadsheet-feed-settings.md)
->* [スプレッドシート レポート フィード ファイルの表示または保存](spreadsheet-feed-view-or-save.md)
->* [スプレッドシートレポートフィードを手動で更新](spreadsheet-feed-refresh.md)
+>* [ スプレッドシートレポートフィードについて ](spreadsheet-feed-about.md)
+>* [ スプレッドシートレポートフィードの作成 ](spreadsheet-feed-create.md)
+>* [ スプレッドシートレポ  [!DNL Excel]  トフィード用のテンプレートの作成 ](spreadsheet-feed-create-excel-template.md)
+>* [ スプレッドシートレポートフィード設定の編集 ](spreadsheet-feed-edit.md)
+>* [ スプレッドシートレポートフィードの設定 ](spreadsheet-feed-settings.md)
+>* [ スプレッドシートレポートフィードファイルの表示または保存 ](spreadsheet-feed-view-or-save.md)
+>* [ スプレッドシートレポートフィードを手動で更新 ](spreadsheet-feed-refresh.md)

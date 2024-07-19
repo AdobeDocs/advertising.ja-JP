@@ -12,37 +12,37 @@ ht-degree: 0%
 
 # プレースメントに広告を添付
 
-の使用 [!UICONTROL Ad Tools] 表示して、プレースメントに広告をアタッチし、広告にサードパーティのトラッキングピクセルをアタッチし、広告から既存のサードパーティのトラッキングピクセルを分離します。
+[!UICONTROL Ad Tools] ビューを使用して、プレースメントに広告を添付し、広告にサードパーティのトラッキングピクセルを添付し、広告から既存のサードパーティのトラッキングピクセルを分離します。
 
 >[!NOTE]
 >
 >ユニバーサルビデオ広告は、ユニバーサルビデオプレースメントにのみ添付できます。
 
-## を開きます [!UICONTROL Ad Tools] 表示 {#ad-tools-open}
+## [!UICONTROL Ad Tools] ビューを開く {#ad-tools-open}
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
 1. キャンペーンの名前をクリックします。
 
-1. を開きます [!UICONTROL Ad Tools] 次のいずれかの方法で表示します。
+1. 次のいずれかの方法で [!UICONTROL Ad Tools] ビューを開きます。
 
-   * （から [!UICONTROL Packages] , [!UICONTROL Placements]、または [!UICONTROL Ads] 表示）をクリックします。 **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
+   * （[!UICONTROL Packages]、[!UICONTROL Placements] または [!UICONTROL Ads] ビューから）右上の **[!UICONTROL ...]**/**[!UICONTROL Ad Tools]** をクリックします。
 
-   * （から [!UICONTROL Placements] 表示）をクリックします。 **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * （[!UICONTROL Placements] ビューから）プレースメント名の横にある **[!UICONTROL ...]** > **[!UICONTROL Attach Ads]をクリックします。**
 
-   * （から [!UICONTROL Ads] 表示）をクリックします。  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+   * （[!UICONTROL Ads] ビューから）広告名の横で、**[!UICONTROL ...]**/**[!UICONTROL Add to Placements]** をクリックします。
 
-   この [!UICONTROL Attach Ads] タブはデフォルトで選択されています。
+   「[!UICONTROL Attach Ads]」タブがデフォルトで選択されています。
 
 ## プレースメントに広告を添付 {#attach-ads-campaign}
 
-1. [を開きます [!UICONTROL Ad Tools] 表示](#ad-tools-open).
+1. [[!UICONTROL Ad Tools] ビューを開きます ](#ad-tools-open)。
 
-1. が含まれる [!UICONTROL Edit] サブビューで、プレースメントに添付する広告のグループごとに次の操作を行います。
+1. [!UICONTROL Edit] サブビューで、プレースメントに添付する広告のグループごとに次の操作を行います。
 
    1. （任意）次のいずれかの方法で、特定のプレースメントおよび広告を見つけます。
 
-      * 左側のテーブルの上で、 ![フィルター](/help/dsp/assets/filter.png) さらに、パッケージ、プレースメントのタイプ、プレースメントのステータス、広告のタイプ、広告のステータスでリストをフィルタリングできます。
+      * 左側のテーブルの上にある ![ フィルター ](/help/dsp/assets/filter.png) をクリックして、パッケージ、プレースメントのタイプ、プレースメントのステータス、広告のタイプ、広告のステータスでリストをフィルタリングします。
 
       * 左右のテーブルの上で、プレースメント名と広告名に含まれる特定のテキスト文字列を検索します。
 
@@ -52,59 +52,59 @@ ht-degree: 0%
 
       プレースメントタイプに適用可能で、選択したプレースメントにまだ添付されていない広告のみを選択できます。
 
-   1. 右下のをクリックします。 **[!UICONTROL Attach]**.
+   1. 右下の [**[!UICONTROL Attach]**] をクリックします。
 
-1. （オプション）キャンペーンの詳細ビューに戻るには、以下をクリックします ![フォルダーに戻る](/help/dsp/assets/breadcrumb-return.png "フォルダーに戻る") 左に [!UICONTROL Ad Tools] キャンペーン名を選択します。
+1. （任意）キャンペーンの詳細ビューに戻るには、[!UICONTROL Ad Tools] の左側にある ![ フォルダーに戻る ](/help/dsp/assets/breadcrumb-return.png " フォルダーに戻る ") をクリックし、キャンペーン名を選択します。
 
 ## プレースメントに添付された広告を表示 {#view-ads-campaign}
 
 <!-- should be a separate page, combined with "List the Placements Associated with an Ad" (although that pertains to a single ad only), or maybe just rename this topic -->
 
-1. [を開きます [!UICONTROL Ad Tools] 表示](#ad-tools-open).
+1. [[!UICONTROL Ad Tools] ビューを開きます ](#ad-tools-open)。
 
-1. に切り替え **[!UICONTROL View]** 右上の「」オプション。
+1. 右上の「**[!UICONTROL View]**」オプションに切り替えます。
 
 1. （オプション）必要に応じて、特定のプレースメントと広告を見つけます。
 
-   * 左側のテーブルの上で、 ![フィルター](/help/dsp/assets/filter.png) さらに、パッケージ、プレースメントのタイプ、プレースメントのステータス、広告のタイプ、広告のステータスでリストをフィルタリングできます。
+   * 左側のテーブルの上にある ![ フィルター ](/help/dsp/assets/filter.png) をクリックして、パッケージ、プレースメントのタイプ、プレースメントのステータス、広告のタイプ、広告のステータスでリストをフィルタリングします。
 
    * 左右のテーブルで、プレースメントまたは広告名に含まれる特定のテキスト文字列を検索します。
 
 1. 左側のテーブルの任意の配置行をクリックして、右側のテーブルに添付された広告を表示します。
 
-1. （任意）キャンペーンのプレースメントにさらに広告を添付するには、を切り替えます **[!UICONTROL Edit]** 右上に表示されます。 前の手順のステップ 2 を参照してください。[プレースメントに広告を添付](#attach-ads-campaign)、」を参照してください。
+1. （任意）キャンペーンのプレースメントにさらに広告を添付するには、右上の **[!UICONTROL Edit]** ビューに切り替えます。 手順については、前の手順の手順 2 「[ プレースメントに広告を添付 ](#attach-ads-campaign)」を参照してください。
 
 ## プレースメントの広告にサードパーティのトラッキングピクセルを添付 {#attach-pixels-ads}
 
-1. [を開きます [!UICONTROL Ad Tools] 表示](#ad-tools-open).
+1. [[!UICONTROL Ad Tools] ビューを開きます ](#ad-tools-open)。
 
-1. 「」をクリックします **[!UICONTROL Attach Pixels]** タブ。
+1. 「**[!UICONTROL Attach Pixels]**」タブをクリックします。
 
-1. が含まれる [!UICONTROL Edit] サブビュー：
+1. [!UICONTROL Edit] サブビューで：
 
    1. （オプション）次のいずれかの方法で、広告とサードパーティのピクセルを見つけます。
 
-      * 左側のテーブルの上で、 ![フィルター](/help/dsp/assets/filter.png) さらに、広告ステータス、広告タイプ、ピクセル統合イベントまたはピクセルタイプでリストをフィルタリングできます。
+      * 左側のテーブルの上にある「![ フィルター ](/help/dsp/assets/filter.png)」をクリックし、広告ステータス、広告タイプ、ピクセル統合イベント、ピクセルタイプでリストをフィルタリングします。
 
       * 左右のテーブルの上で、広告名とピクセル名に含まれる特定のテキスト文字列を検索します。
 
    1. （キャンペーンにサードパーティのトラッキングピクセルが存在しない場合）ピクセルを作成します。
 
-      1. 右側のテーブルで、 **[!UICONTROL Create pixel]**.
+      1. 右側のテーブルで、「**[!UICONTROL Create pixel]**」をクリックします。
 
       1. 次の設定を指定します。
 
-         **[!UICONTROL Integration Event]:** 発生するピクセルにトリガーを設定するイベント（例：） *[!UICONTROL Impression]* または *[!UICONTROL Click-through]*.
+         **[!UICONTROL Integration Event]:** *[!UICONTROL Impression]* や *[!UICONTROL Click-through]* など、実行するピクセルをトリガーするイベント。
 
-         **[!UICONTROL Pixel Type]:** ピクセルが *[!UICONTROL IMG URL]* （1x1 ピクセルの画像ファイル）、 *[!UICONTROL HTML]*、または *[!UICONTROL JavaScript URL]*.
+         **[!UICONTROL Pixel Type]:** ピクセルが *[!UICONTROL IMG URL]* （1x1 ピクセルの画像ファイル）、*[!UICONTROL HTML]*、*[!UICONTROL JavaScript URL]* のどれであるかを示します。
 
-         **[!UICONTROL Pixel URL or Code]:** 指定したピクセルタイプに適した形式のピクセル画像の URL。
+         **[!UICONTROL Pixel URL or Code]:** ピクセル画像の URL。指定したピクセルタイプに適した形式です。
 
          **[!UICONTROL Pixel Name]:** ピクセル名。 ピクセルを識別しやすい名前を使用します。
 
-         **[!UICONTROL Pixel Provider]:** ピクセルプロバイダー： *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*、または *[!UICONTROL IAS]*.
+         **[!UICONTROL Pixel Provider]:** ピクセルプロバイダー：*[!UICONTROL None]*、*[!UICONTROL Comscore]*、*[!UICONTROL WhiteOps]* または *[!UICONTROL IAS]*。
 
-      1. クリック **[!UICONTROL Save]**.
+      1. 「**[!UICONTROL Save]**」をクリックします。
 
    1. 左側の表で、サードパーティのトラッキングピクセルを添付する各広告の横にあるチェックボックスを選択します。
 
@@ -112,21 +112,21 @@ ht-degree: 0%
 
       選択した広告にまだ関連付けられていないピクセルのみを選択できます。
 
-   1. 右下のをクリックします。 **[!UICONTROL Attach]**.
+   1. 右下の [**[!UICONTROL Attach]**] をクリックします。
 
-1. （オプション）キャンペーンの詳細ビューに戻るには、以下をクリックします ![フォルダーに戻る](/help/dsp/assets/breadcrumb-return.png "フォルダーに戻る") 左に [!UICONTROL Ad Tools] キャンペーン名を選択します。
+1. （任意）キャンペーンの詳細ビューに戻るには、[!UICONTROL Ad Tools] の左側にある ![ フォルダーに戻る ](/help/dsp/assets/breadcrumb-return.png " フォルダーに戻る ") をクリックし、キャンペーン名を選択します。
 
 ## プレースメントの広告からサードパーティのトラッキングピクセルを分離 {#detach-pixels-ads}
 
-1. [を開きます [!UICONTROL Ad Tools] 表示](#ad-tools-open).
+1. [[!UICONTROL Ad Tools] ビューを開きます ](#ad-tools-open)。
 
-1. 「」をクリックします **[!UICONTROL Attach Pixels]** タブ。
+1. 「**[!UICONTROL Attach Pixels]**」タブをクリックします。
 
-1. が含まれる [!UICONTROL Edit] サブビュー：
+1. [!UICONTROL Edit] サブビューで：
 
    1. （オプション）次のいずれかの方法で、広告とサードパーティのピクセルを見つけます。
 
-      * 左側のテーブルの上で、 ![フィルター](/help/dsp/assets/filter.png) さらに、広告ステータス、広告タイプ、ピクセル統合イベントまたはピクセルタイプでリストをフィルタリングできます。
+      * 左側のテーブルの上にある「![ フィルター ](/help/dsp/assets/filter.png)」をクリックし、広告ステータス、広告タイプ、ピクセル統合イベント、ピクセルタイプでリストをフィルタリングします。
 
       * 左右のテーブルの上で、広告名とピクセル名に含まれる特定のテキスト文字列を検索します。
 
@@ -136,34 +136,34 @@ ht-degree: 0%
 
       選択したすべての広告に関連付けられているピクセルのみを選択できます。
 
-   1. 右下のをクリックします。 **[!UICONTROL Detach]**.
+   1. 右下の [**[!UICONTROL Detach]**] をクリックします。
 
-1. （オプション）キャンペーンの詳細ビューに戻るには、以下をクリックします ![フォルダーに戻る](/help/dsp/assets/breadcrumb-return.png "フォルダーに戻る") 左に [!UICONTROL Ad Tools] キャンペーン名を選択します。
+1. （任意）キャンペーンの詳細ビューに戻るには、[!UICONTROL Ad Tools] の左側にある ![ フォルダーに戻る ](/help/dsp/assets/breadcrumb-return.png " フォルダーに戻る ") をクリックし、キャンペーン名を選択します。
 
 ## 広告に添付されたピクセルを表示 {#view-pixels-ads}
 
-1. [を開きます [!UICONTROL Ad Tools] 表示](#ad-tools-open).
+1. [[!UICONTROL Ad Tools] ビューを開きます ](#ad-tools-open)。
 
-1. 「」をクリックします **[!UICONTROL Attach Pixels]** タブ。
+1. 「**[!UICONTROL Attach Pixels]**」タブをクリックします。
 
-1. に切り替え **[!UICONTROL View]** 右上の「」オプション。
+1. 右上の「**[!UICONTROL View]**」オプションに切り替えます。
 
 1. （オプション）必要に応じて、広告とサードパーティのピクセルを見つけます。
 
-   * 左側のテーブルの上で、 ![フィルター](/help/dsp/assets/filter.png) さらに、広告ステータス、広告タイプ、ピクセル統合イベントまたはピクセルタイプでリストをフィルタリングできます。
+   * 左側のテーブルの上にある「![ フィルター ](/help/dsp/assets/filter.png)」をクリックし、広告ステータス、広告タイプ、ピクセル統合イベント、ピクセルタイプでリストをフィルタリングします。
 
    * 左右のテーブルの上で、広告名とピクセル名に含まれる特定のテキスト文字列を検索します。
 
 1. 左側の表の任意の広告行をクリックして、右側の表に添付されているピクセルを確認します。
 
-1. （オプション）広告にさらにピクセルを添付するには、を切り替えます **[!UICONTROL Edit]** 右上に表示されます。 前述の手順のステップ 3 を参照してください。[プレースメントの広告にサードパーティのトラッキングピクセルを添付](#attach-pixels-ads)、」を参照してください。
+1. （オプション）広告にピクセルを追加するには、右上の **[!UICONTROL Edit]** ビューに切り替えます。 手順については、前の手順「[ プレースメントの広告にサードパーティのトラッキングピクセルを添付する ](#attach-pixels-ads)」の手順 3 を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [Ad Management について](ad-about.md)
->* [単一の広告を作成](ad-create.md)
->* [複数のサードパーティ広告の作成](ad-create-multiple.md)
->* [広告の編集](ad-edit.md)
->* [広告に関連付けられたプレースメントのリスト](ad-list-placements.md)
->* [プレースメントの広告スケジュールの編集](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
->* [ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Ad Management について ](ad-about.md)
+>* [ 単一の広告の作成 ](ad-create.md)
+>* [ 複数のサードパーティ広告の作成 ](ad-create-multiple.md)
+>* [ 広告の編集 ](ad-edit.md)
+>* [ 広告に関連付けられたプレースメントのリスト ](ad-list-placements.md)
+>* [ プレースメントの広告スケジュールの編集 ](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [ ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)

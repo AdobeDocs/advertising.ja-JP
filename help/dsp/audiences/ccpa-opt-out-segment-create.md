@@ -18,30 +18,30 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* Adobe Experience Platform Privacy Service API を使用して CCPA の販売オプトアウトリクエストをAdobe Advertisingに通知する方法について詳しくは、以下を参照してください。 [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
->* CCPA の販売オプトアウトイベントのトラッキングに関連しない目的で web ページにアクセスするユーザーや、デスクトップ、モバイルおよび CTV デバイスから広告に公開されるユーザーをトラッキングするには、次を作成します [カスタムセグメント](/help/dsp/audiences/custom-segment-create.md).
+>* Adobe Experience Platform Privacy Service API を使用して CCPA の販売オプトアウトリクエストをAdobe Advertisingに送信する方法について詳しくは、[https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html) を参照してください。
+>* CCPA の販売オプトアウトイベントのトラッキングに関連しない目的で web ページにアクセスするユーザーや、デスクトップ、モバイルおよび CTV デバイスから広告に公開されるユーザーをトラッキングするには、[ カスタムセグメント ](/help/dsp/audiences/custom-segment-create.md) を作成します。
 
 1. セグメントを作成します。
 
-   1. メインメニューで、 **オーディエンス / セグメント**.
+   1. メインメニューで、**オーディエンス/セグメント** をクリックします。
 
-   1. データ テーブルの上で、 **[!UICONTROL Create]**.
+   1. データ テーブルの上にある [**[!UICONTROL Create]**] をクリックします。
 
-   1. 一意のを入力 **[!UICONTROL Segment Name]**.
+   1. 一意の **[!UICONTROL Segment Name]** を入力します。
 
-      推奨されるセグメント名：「&lt;*広告主名*> - CCPA の販売のオプトアウト」（「Acme - CCPA の販売のオプトアウト」など）
+      推奨セグメント名：「&lt;*広告主名*> - CCPA の販売オプトアウト」（「Acme - CCPA の販売オプトアウト」など）
 
-   1. の場合 [!UICONTROL Segment Type]を選択 **[!UICONTROL CCPA Opt-out of sale]**.
+   1. [!UICONTROL Segment Type] に「**[!UICONTROL CCPA Opt-out of sale]**」を選択します。
 
-   1. クリック **[!UICONTROL Save]**.
+   1. 「**[!UICONTROL Save]**」をクリックします。
 
 1. セグメントを追跡するピクセルタグをコピーして実装します。
 
-   1. に戻る **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+   1. **[!UICONTROL Audiences]**/**[!UICONTROL Segments]** に戻ります。
 
-   1. セグメント行で、新しいセグメントの上にカーソルを置いてクリックします **[!UICONTROL Get pixel]**.
+   1. セグメント行で、新しいセグメントの上にカーソルを置き、**[!UICONTROL Get pixel]** をクリックします。
 
-   1. 画像ピクセル（で始まる）をコピーします `<img src="https://rtd-tm.everesttech.net"`）を使用して、web ページへのデスクトップおよびモバイル訪問者のユーザー ID を収集します。
+   1. 画像ピクセル（`<img src="https://rtd-tm.everesttech.net"` で始まる）をコピーして、web ページへのデスクトップおよびモバイル訪問者のユーザー ID を収集します。
 
    1. 会社が CCPA の販売オプトアウトリクエストを追跡するために使用するメカニズム（同意管理プラットフォームの使用など）を使用して、デプロイメント用にタグを広告主または web サイトの連絡先に提供します。
 
@@ -56,12 +56,12 @@ ht-degree: 0%
       1. 消費者には、広告主が機能するサービスプロバイダーのリストが表示されます。
       1. 消費者はチェックボックスをオンにして、Adobe Advertisingへのデータの販売をオプトアウトします。
 
-         このアクションにより、トリガーするピクセルと、指定された「」内での消費者の Cookie ID を収集するピクセルがトリガーされます[!UICONTROL CCPA Opt-out of sale]「セグメント。
+         このアクションにより、トリガーするピクセルと、指定された「[!UICONTROL CCPA Opt-out of sale]」セグメント内での消費者の Cookie ID を収集するピクセルがトリガーされます。
 
 >[!MORELIKETHIS]
 >
->* [カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者オプトアウトサポート](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [について [!UICONTROL CCPA Opt-out-of-Sale] セグメントとレポート](ccpa-opt-out-about.md)
->* [消費者の販売オプトアウトレポートの取得](ccpa-opt-out-segment-report-retrieve.md)
->* [カスタムセグメントの作成と実装](custom-segment-create.md)
->* [Audience Management について](audience-about.md)
+>* [ カリフォルニア州消費者プライバシー法のAdobe Advertisingサポート：消費者オプトアウトサポート ](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [ セグメントとレポ [!UICONTROL CCPA Opt-out-of-Sale] トについて ](ccpa-opt-out-about.md)
+>* [ 消費者の販売オプトアウトレポートの取得 ](ccpa-opt-out-segment-report-retrieve.md)
+>* [ カスタムセグメントの作成と実装 ](custom-segment-create.md)
+>* [Audience Management について ](audience-about.md)

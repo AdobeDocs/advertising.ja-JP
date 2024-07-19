@@ -1,20 +1,20 @@
 ---
-title: '[!DNL On Demand] ヨーロッパ、中東、アフリカのプレミアムインベントリ出版社'
-description: '[!DNL On Demand] ヨーロッパ、中東、アフリカのプレミアムインベントリ出版社'
+title: '[!DNL On Demand] Premium Inventory Publishers in Europe, Middle East and Africa'
+description: '[!DNL On Demand] Premium Inventory Publishers in Europe, Middle East and Africa'
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] ヨーロッパ、中東、アフリカの Premium Inventory Publishers
+# ヨーロッパ、中東、アフリカの [!DNL On Demand] Premium Inventory パブリッシャー
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| 発行者 | 地域 |
+| 公開者 | 地域 |
 |-------------------------|-------------|
 | [!DNL Aufeminin] | フランス |
 | [!DNL BBC] | フランス |
@@ -178,7 +178,7 @@ ht-degree: 0%
 | [!DNL Conde Nast] | 英国 |
 | [!DNL DailyMail] | 英国 |
 | [!DNL Daily Star] | 英国 |
-| [!DNL DAZN] ([!DNL Perform Media]) | 英国 |
+| [!DNL DAZN] （[!DNL Perform Media]） | 英国 |
 | [!DNL Dennis Publishing] | 英国 |
 | [!DNL Digiteka] | 英国 |
 | [!DNL ebay] | 英国 |
@@ -223,13 +223,12 @@ ht-degree: 0%
 | [!DNL Vungle] | 英国 |
 | [!DNL Yahoo] | 英国 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [について [!DNL On Demand] プレミアム在庫](on-demand-inventory-about.md)
->* [購読してへのアクセスをリクエスト [!DNL On Demand] プレミアム在庫](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] アジア太平洋地域の Premium Inventory Publishers](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] オーストラリアとニュージーランドの Premium Inventory Publishers](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] 北米の Premium Inventory Publishers](on-demand-inventory-publishers-na.md)
-
+>* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
+>* [Premium インベントリのサブスクライブとアクセス  [!DNL On Demand]  リクエスト ](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand]  アジア太平洋のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-na.md)

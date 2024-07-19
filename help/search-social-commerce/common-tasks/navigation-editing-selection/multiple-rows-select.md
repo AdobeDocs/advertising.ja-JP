@@ -1,38 +1,38 @@
 ---
-title: 複数行を選択
-description: 複数の行を選択して、すべての行に対して同じアクションを実行する方法を説明します。
-exl-id: 297877bf-2174-4dbf-8b1f-a2a45d7531fd
+title: 複数の行を選択
+description: 複数の行を選択して、それらすべてに対して同じアクションを実行する方法を説明します。
+exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
-# 複数行を選択
+# 複数の行を選択
 
-複数の行を [!UICONTROL Search] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications]、および [!UICONTROL Optimization] > [!UICONTROL Constraints] は次の方法で表示されます。
+[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Search > Label Classifications]/[!UICONTROL Optimization]/[!UICONTROL Constraints] ビューでは、次の方法で複数の行を選択できます。
 
-* キーボードショートカット：
+* ショートカットキー：
 
-   * **[!DNL Shift+Click]**：複数の連続した行を選択するには、最初の行をクリックし、 **[!DNL Shift]** 最後の 1 つをクリックする間に
+   * **[!DNL Shift+Click]**：連続した複数の行を選択するには、最初の行をクリックし、**[!DNL Shift]** キーを押しながら最後の行をクリックします。
 
-   * **[!DNL Ctrl+Click]**：複数の連続しない行を選択するには、最初の行をクリックし、 **[!DNL Ctrl]** をクリックします。
+   * **[!DNL Ctrl+Click]**：連続していない複数の行を選択するには、最初の行をクリックし、**[!DNL Ctrl]** キーを押しながら追加の各行をクリックします。
 
-* グローバルチェックボックス (![チェックボックス](/help/search-social-commerce/assets/check-box.png) 「チェックボックス」) を左上の列見出しに次のように設定します。
+* 左上隅の列見出しのグローバル チェック ボックス （![ チェック ボックス ](/help/search-social-commerce/assets/check-box.png)&quot;チェック ボックス&quot;）:
 
-   * 現在のページのすべての行を選択する場合。25 行、50 行、100 行、200 行、または [!UICONTROL Continuous Scroll]  — グローバルチェックボックスをオンにします。
+   * 現在のページのすべての行（25 行、50 行、100 行、200 行、または [!UICONTROL Continuous Scroll] を表示しているかどうかに基づいて、適用されたフィルタで使用可能な一部またはすべての行を含む）を選択するには、「グローバル」チェック・ボックスを選択します。
 
-     ページですべての行を選択した場合、個々の行の選択を解除できます。
+     ページ上のすべての行を選択する場合、個々の行の選択を解除できます。
 
-   * 適用されたフィルターで使用可能なすべての行を選択するには、グローバルチェックボックスをオンにし、 **[!DNL Select all N records?]**&#x200B;です。 *N* は、使用可能なレコードの数です。
+   * 適用されたフィルタで使用可能なすべての行を選択するには、[ グローバル ] チェック ボックスをオンにし、[**[!DNL Select all N records?]**] をクリックします。ここで、*N* は使用可能なレコードの数です。
 
      使用可能なすべての行を選択した場合、個々の行の選択を解除することはできません。
 
 >[!MORELIKETHIS]
 >
->* [列見出しメニューからのデータフィルタの適用](../data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
->* [ツールバーからのデータフィルターの適用](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
->* [日付範囲でのデータのフィルタリング](../data-views/ad-hoc-settings/date-filter.md)
->* [フィルターの削除](../data-views/ad-hoc-settings/column-filter-remove.md)
+>* [ 列見出しメニューからのデータフィルターの適用 ](../data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
+>* [ ツールバーからのデータフィルターの適用 ](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [ 日付範囲でデータをフィルタリング ](../data-views/ad-hoc-settings/date-filter.md)
+>* [ フィルターの削除 ](../data-views/ad-hoc-settings/column-filter-remove.md)

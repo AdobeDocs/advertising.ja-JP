@@ -1,6 +1,6 @@
 ---
-title: 組織アカウントへの新しいユーザーの招待
-description: 新しいユーザーを招待してアカウントに参加させる方法を説明します。
+title: 組織アカウントの新規ユーザーを招待
+description: 新しいユーザーをアカウントに招待する方法を説明します。
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
 source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
@@ -10,27 +10,27 @@ ht-degree: 0%
 
 ---
 
-# 組織アカウントへの新しいユーザーの招待
+# 組織アカウントの新規ユーザーを招待
 
-管理者ユーザーは、アカウントの新しいユーザーを招待できます。 ユーザーが招待を受け入れると、アカウントのすべての広告主にアクセスできます。 新しいユーザーは、デフォルトで読み取り専用アクセス権を持っています。
+管理者ユーザーは、アカウントの新しいユーザーを招待できます。 ユーザーが招待を承諾すると、そのアカウントのすべての広告主にアクセスできるようになります。 新規ユーザーは、デフォルトで読み取り専用アクセス権があります。
 
-必要に応じて、保留中の招待状を持つユーザーの招待を解除できます。
+必要に応じて、招待状が保留されているユーザーの招待を取り消すことができます。
 
-1. 次のいずれかの操作を行います。
+1. 次のいずれかの操作をおこないます。
 
-   * メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * メインメニューで、**[!UICONTROL Settings]**/**[!UICONTROL Users]** をクリックします。
 
-   * メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;をクリックし、 **[!UICONTROL Edit users]**.
+   * メインメニューで、**[!UICONTROL Settings]**/**[!UICONTROL Account]** をクリックし、**[!UICONTROL Edit users]** をクリックします。
 
-1. Adobe Analytics の **[!UICONTROL Invitations]** セクションで、 **[!UICONTROL Send Invite]**.
+1. 「**[!UICONTROL Invitations]**」セクションで、「**[!UICONTROL Send Invite]**」をクリックします。
 
-1. Adobe Analytics の **[!UICONTROL User Email]** 「 」フィールドで、招待メールの送信先の電子メールアドレスを入力します。
+1. 「**[!UICONTROL User Email]**」フィールドに、招待を送信するメールアドレスを入力します。
 
-1. クリック **[!UICONTROL Send Invite]**.
+1. 「**[!UICONTROL Send Invite]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [保留中のユーザーの招待状の再送信](user-resend-invite.md)
->* [保留中のユーザーの招待解除](user-uninvite.md)
+>* [ 保留中のユーザー招待を再送信する ](user-resend-invite.md)
+>* [ 保留中のユーザーを登録解除 ](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

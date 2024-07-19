@@ -5,8 +5,8 @@ source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# Advertising DSP Documentation
+# Advertising DSP ドキュメント
 
-これはDSPヘルプドキュメントのフォルダーです。
+これは、DSP ヘルプドキュメントのフォルダーです。
 
-**注意：このページは、お客様向けドキュメントには公開されていません。**
+**メモ：このページは、顧客向けドキュメントでは公開されていません。**

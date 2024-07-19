@@ -1,50 +1,50 @@
 ---
-title: の再認証 [!DNL Google Analytics] データソース
-description: の再認証方法を説明します。 [!DNL Google Analytics] データソースを設定します。
+title: データソース  [!DNL Google Analytics]  再認証
+description: 関連付けられたパスワードを変更した場合や証明書の有効期限が切れた場合に、データ  [!DNL Google Analytics]  ースを再認証する方法について説明します。
 role: User, Admin
-exl-id: 9233e004-8607-444a-ba99-f63cb83a8b7a
+exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
 
-# の再認証 [!DNL Google Analytics] データソース
+# [!DNL Google Analytics] データソースの再認証
 
-*代理店管理者、代理店のアカウントマネージャ、Adobeのアカウントマネージャ、および管理者のみ*
+*代理店管理者、代理店口座管理者、Adobe口座管理者、管理者専用*
 
-データソースに使用される電子メールアカウントのパスワードを変更した場合、または [!DNL OAuth] アカウントの証明書の有効期限が切れた後、電子メールアカウントへのオープン接続がすべて閉じられます。データの同期を再開するには、再認証が必要です。
+データソースに使用されているメールアカウントのパスワードを変更した場合、またはアカウントの [!DNL OAuth] 証明書が期限切れになった場合、メールアカウントへのすべての開いている接続は閉じられるので、データの同期を再開するには再認証する必要があります。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Data Source Setup]** をクリックします。
 
 1. 再認証するデータソースの横にあるチェックボックスをオンにします。
 
-1. データテーブルの上にあるツールバーで、 ![編集](/help/search-social-commerce/assets/edit.png "編集").
+1. データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")] をクリックします。
 
-1. を編集します。 [データソース設定](data-source-settings.md):
+1. [ データソース設定 ](data-source-settings.md) を編集します。
 
-   1. Adobe Analytics の [!UICONTROL Connect to Google Analytics] 「 」セクションで、以下の操作を実行します。
+   1. [!UICONTROL Connect to Google Analytics] セクションで、次の操作を行います。
 
-      1. （必要に応じて）このデータソースのデータへのアクセスに使用する新しい電子メールアドレスを入力します。 電子メールアドレスを [!DNL Google] アカウントに追加し、 [!DNL Google Analytics] アカウント。 詳しくは、 [でのユーザー権限の割り当て手順 [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).
+      1. （必要な場合）このデータソースのデータへのアクセスに使用する新しいメールアドレスを入力します。 メールアドレスは、[!DNL Google] アカウントに登録され、[!DNL Google Analytics] アカウントの「読み取りと分析」権限を持っている必要があります。 [ のユーザー権限の割り当て手順  [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587) を参照してください。
 
          >[!TIP]
          >
-         >特定の [!DNL Google Analytics] プロパティとビューは、Search、Social、および Commerce 内で使用でき、プロパティとビューのみにアクセスできる電子メールアドレスを使用してログインします。
+         >検索、ソーシャル、Commerce内で特定の [!DNL Google Analytics] プロパティおよびビューのみを使用できるようにするには、これらのプロパティおよびビューにのみアクセスできるメールアドレスを使用してログインします。
 
-   1. アカウントの指標にアクセスすることを許可する場合は、このチェックボックスを選択します。
+   1. チェックボックスをオンにして、「検索」、「ソーシャル」、「Commerce」を認証し、アカウントの指標へのアクセスを許可します。
 
-   1. クリック **[!UICONTROL Re-Authenticate]**.
+   1. 「**[!UICONTROL Re-Authenticate]**」をクリックします。
 
-1. クリック **[!UICONTROL Post]**.
+1. 「**[!UICONTROL Post]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [同期について [!DNL Google Analytics] コンバージョン指標](data-source-about.md)
->* [の設定の前提条件 [!DNL Google Analytics] データソース](data-source-prerequisites.md)
->* [の設定 [!DNL Google Analytics] データソースとして表示](data-source-configure.md)
->* [の編集 [!DNL Google Analytics] データソース](data-source-edit.md)
->* [データソースの同期を一時停止する](data-source-pause.md)
->* [[!DNL Google Analytics] データソース設定](data-source-settings.md)
->* [付録 — 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)
+>* [ 同期  [!DNL Google Analytics]  コンバージョン指標について ](data-source-about.md)
+>* [ データソースを設定するため  [!DNL Google Analytics]  前提条件 ](data-source-prerequisites.md)
+>* [ データソースとして  [!DNL Google Analytics]  ビューを設定する ](data-source-configure.md)
+>* [ データソース  [!DNL Google Analytics]  編集 ](data-source-edit.md)
+>* [ データソースの同期の一時停止 ](data-source-pause.md)
+>* [[!DNL Google Analytics]  データソース設定 ](data-source-settings.md)
+>* [ 付録 – 利用可能  [!DNL Google Analytics]  指標 ](data-source-ga-metrics.md)

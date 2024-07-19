@@ -1,6 +1,6 @@
 ---
-title: が使用するAdobe Advertising ID [!DNL Analytics]
-description: が使用するAdobe Advertising ID [!DNL Analytics]
+title: 使用するAdobe AdvertisingID [!DNL Analytics]
+description: 使用するAdobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,49 +10,49 @@ ht-degree: 0%
 
 ---
 
-# が使用するAdobe Advertising ID [!DNL Analytics]
+# [!DNL Analytics] が使用するAdobe AdvertisingID
 
-*Adobe AdvertisingとAdobe Analyticsの統合のみを持つ広告主*
+*Adobe AdvertisingとAdobe Analyticsの統合のみを行う広告主*
 
-*Advertising DSPおよび[!DNL Advertising Search, Social, & Commerce]*
+*Advertising DSPおよび[!DNL Advertising Search, Social, & Commerce]* に適用
 
-Adobe Advertisingでは、オンサイトのパフォーマンストラッキングに 2 つの ID を使用します。 *EF ID* および *AMO ID*.
+Adobe Advertisingでは、オンサイトのパフォーマンストラッキングに *EF ID* と *AMO ID* の 2 つの ID を使用します。
 
-広告インプレッションが発生すると、Adobe Advertisingは AMO ID と EF ID の値を作成して保存します。 広告を見た訪問者が広告をクリックせずにサイトに入ると、 [!DNL Analytics] では、これらの値をAdobe Advertisingから次を使用して呼び出します [!DNL Analytics for Advertising] JavaScript コード。 ビュースルートラフィックの場合、 [!DNL Analytics] 追加の ID （`SDID`）。EF ID と AMO ID をにステッチするために使用されます。 [!DNL Analytics]. クリックスルートラフィックの場合、これらの ID は次を使用してランディングページ URL に含まれます `ef_id` および `s_kwcid` （AMO ID の場合） クエリ文字列パラメーター。
+広告インプレッションが発生すると、Adobe Advertisingは AMO ID と EF ID の値を作成して保存します。 広告を見た訪問者が広告をクリックせずにサイトに入ると、[!DNL Analytics] では、[!DNL Analytics for Advertising] JavaScript コードを通じてAdobe Advertisingからこれらの値を呼び出します。 ビュースルートラフィックの場合、[!DNL Analytics] は追加の ID （`SDID`）を生成します。これは、EF ID と AMO ID を [!DNL Analytics] にステッチするために使用されます。 クリックスルートラフィックの場合、これらの ID は、`ef_id` および `s_kwcid` （AMO ID の）クエリ文字列パラメーターを使用して、ランディングページ URL に含まれます。
 
 Adobe Advertisingは、次の条件を使用して、web サイトに対するクリックスルーまたはビュースルーエントリを区別します。
 
 * ビュースルーエントリは、ユーザーが広告を表示したがクリックしなかった後にサイトを訪問した際に取得されます。 [!DNL Analytics] は、次の 2 つの条件を満たした場合にビュースルーを記録します。
 
-   * 訪問者にはに対するクリックスルーがありません [!DNL DSP] または [!DNL Search, Social, & Commerce] 次の期間の広告 [クリックルックバックウィンドウ](#lookback-a4adc).
+   * [ クリックルックバックウィンドウ ](#lookback-a4adc) の間、訪問者が [!DNL DSP] または [!DNL Search, Social, & Commerce] 広告のクリックスルーを行うことはありません。
 
-   * 訪問者に 1 人以上が表示されている [!DNL DSP] 次の期間の広告 [インプレッションルックバックウィンドウ](#lookback-a4adc). 最後のインプレッションがビュースルーとして渡されます。
+   * 訪問者は、[ インプレッションルックバックウィンドウ ](#lookback-a4adc) 中に少なくとも 1 つの [!DNL DSP] 広告を確認しました。 最後のインプレッションがビュースルーとして渡されます。
 
-* クリックスルーのエントリは、サイト訪問者がサイトに入る前に広告をクリックした際にキャプチャされます。 [!DNL Analytics] 次のいずれかの状況が発生した場合、クリックスルーをキャプチャします。
+* クリックスルーのエントリは、サイト訪問者がサイトに入る前に広告をクリックした際にキャプチャされます。 [!DNL Analytics] は、次のいずれかの状況が発生した場合にクリックスルーをキャプチャします。
 
    * URL には、Adobe Advertisingによってランディングページ URL に追加された EF ID と AMO ID が含まれます。
 
    * URL にはトラッキングコードが含まれていませんが、Adobe Advertising JavaScript コードが過去 2 分以内にクリックを検出します。
 
-![Adobe Advertisingビューベース [!DNL Analytics] 統合](/help/integrations/assets/a4adc-view-through-process.png)
+![Adobe Advertisingビューベースの [!DNL Analytics] 統合 ](/help/integrations/assets/a4adc-view-through-process.png)
 
-*図 1: Adobe Advertisingビューベース [!DNL Analytics] 統合*
+*図 1:Adobe Advertisingビューベースの [!DNL Analytics] 統合*
 
-![Adobe Advertisingクリックの URL ベース [!DNL Analytics] 統合](/help/integrations/assets/a4adc-click-through-process.png)
+![Adobe Advertisingが URL ベースの [!DNL Analytics] 統合をクリック ](/help/integrations/assets/a4adc-click-through-process.png)
 
-*図 2:Adobe Advertisingクリックの URL ベース [!DNL Analytics] 統合*
+*図 2:Adobe Advertisingのクリックの URL ベースの [!DNL Analytics] 統合*
 
 ## Adobe Advertisingの EF ID
 
-EF ID は、Adobe Advertisingがアクティビティをオンラインクリックまたは広告漏洩に関連付けるために使用する一意のトークンです。 EF ID は次の場所に保存されます。 [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) または [!DNL rVar] （予約済み [!DNL eVar]）のディメンション（Adobe Advertisingの EF ID）を設定し、個々のブラウザーまたはデバイスレベルで各広告のクリックまたは露出をトラッキングします。 EF ID は、主に送信用のキーとして機能します [!DNL Analytics] Adobe Advertising内でのレポート作成と入札最適化のためのデータをAdobe Advertisingに送信します。
+EF ID は、Adobe Advertisingがアクティビティをオンラインクリックまたは広告漏洩に関連付けるために使用する一意のトークンです。 EF ID は、[an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) または [!DNL rVar] （予約済み [!DNL eVar]）ディメンション（Adobe AdvertisingEF ID）に格納され、個々のブラウザーまたはデバイスレベルで各広告のクリックまたは露出をトラッキングします。 EF ID は、主にAdobe Advertising内のレポートおよび入札最適化のためにAdobe Advertisingに [!DNL Analytics] データを送信するためのキーとして機能します。
 
 ### EF ID フォーマット
 
 >[!NOTE]
 >
->EF ID では大文字と小文字が区別されます。 次の場合： [!DNL Analytics] を実装すると、URL トラッキングが小文字に変換され、Adobe Advertisingで EF ID が認識されません。 これは、Adobe Advertisingの入札とレポートに影響しますが、内のAdobe Advertisingレポートには影響しません [!DNL Analytics].
+>EF ID では大文字と小文字が区別されます。 [!DNL Analytics] 実装によって URL トラッキングが強制的に小文字に変換される場合、Adobe Advertisingは EF ID を認識しません。 これは、Adobe Advertisingの入札とレポートに影響しますが、[!DNL Analytics] 内のAdobe Advertisingレポートには影響しません。
 
-#### [!DNL Google Ads] 広告を検索
+#### [!DNL Google Ads] 検索広告
 
 ```
 {gclid}:G:s
@@ -60,10 +60,10 @@ EF ID は、Adobe Advertisingがアクティビティをオンラインクリッ
 
 ここで、
 
-* `gclid` が [!DNL Google Click ID] （GCLID）。
-* `s` はネットワークタイプ（検索用は「s」）です。
+* `gclid` は [!DNL Google Click ID] （GCLID）です。
+* `s` はネットワークの種類（検索用は&quot;s&quot;）です。
 
-#### [!DNL Microsoft Advertising] 広告を検索
+#### [!DNL Microsoft Advertising] 検索広告
 
 ```
 {msclkid}:G:s
@@ -71,8 +71,8 @@ EF ID は、Adobe Advertisingがアクティビティをオンラインクリッ
 
 ここで、
 
-* `msclkid` が [!DNL Microsoft Click ID] （MSCLKID）。
-* `s` はネットワークタイプ（検索用は「s」）です。
+* `msclkid` は [!DNL Microsoft Click ID] （MSCLKID）です。
+* `s` はネットワークの種類（検索用は&quot;s&quot;）です。
 
 #### 他の検索エンジンでの広告および検索広告の表示
 
@@ -82,29 +82,29 @@ EF ID は、Adobe Advertisingがアクティビティをオンラインクリッ
 
 ここで、
 
-* &lt;*Adobe Advertising訪問者 ID*> は、訪問者ごとの一意の ID （UhKVaAABCkJ0mDt など）。 「the」とも呼ばれる *サーファー ID*.
+* &lt;*Adobe Advertising訪問者 ID*> は、訪問者ごとの一意の ID です（UhKVaAABCkJ0mDt など）。 「*surfer ID*」とも呼ばれる。
 
-* &lt;*timestamp*> は、YYYYMMDDHHMMSS 形式の時間（2019 年、08 月、21 日、19 日の 20190821192533 など）:25:33）。
+* &lt;*timestamp*> は、YYYYMMDDHHMMSS 形式の時刻（2019 年、08 月、21 日、19:25:33 日の 20190821192533 など）です。
 
-* &lt;*チャネルタイプ*> は、クリックまたは露出を行うチャネルのタイプです。
+* &lt;*channel type*> は、クリックまたは露出を行うチャネルのタイプです。
 
-   * `d` DSP ディスプレイ広告をクリックした場合（表示のクリックスルー）
-   * `i` DSP ディスプレイ広告のインプレッションの場合（ビュースルーの表示）
-   * `s` 検索広告をクリックしてください（検索クリックスルー）。
+   * DSP ディスプレイ広告のクリックを `d` す（表示クリックスルー）
+   * DSP ディスプレイ広告のインプレッションを表 `i` （ビュースルーの表示）
+   * 検索広告を `s` リックします（検索クリックスルー）。
 
 例 `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
 
-### の EF IDDimension [!DNL Analytics]
+### [!DNL Analytics] の EF IDDimension
 
-対象： [!DNL Analytics] レポートを検索すると、EF ID データを見つけることができます。 [!UICONTROL EF ID] のディメンション設定と使用 [!UICONTROL EF ID Instance] 指標。
+[!DNL Analytics] レポートでは、[!UICONTROL EF ID] ディメンションを検索して [!UICONTROL EF ID Instance] 指標を使用することで、EF ID データを見つけることができます。
 
-EF ID は、Analysis Workspaceで 500,000 個の ID 制限の対象となります。 500,000 個の値に達すると、すべての新しいトラッキングコードが 1 行項目のタイトルの下にレポートされます」[!UICONTROL Low Traffic].」と入力します。 レポートの忠実性が失われる可能性があるので、EF ID は分類されず、のセグメントやレポートに使用しないでください [!DNL Analytics].
+EF ID は、Analysis Workspaceで 500,000 個の ID 制限の対象となります。 500,000 の値に達すると、すべての新しいトラッキングコードが、1 行項目タイトル「[!UICONTROL Low Traffic]」の下にレポートされます。 レポートの忠実性が失われる可能性があるため、EF ID は分類されず、セグメントや [!DNL Analytics] でのレポートに使用しないでください。
 
 ## ADOBE ADVERTISING AMO ID {#amo-id}
 
-AMO ID は、一意の各広告の組み合わせをあまり詳細でないレベルでトラッキングし、次の目的に使用されます [!DNL Analytics] Adobe Advertisingからの広告指標（インプレッション数、クリック数、コストなど）のデータの分類と取り込み。 AMO ID は [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) または変数ディメンション（AMO ID）で、のレポートにのみ使用されます。 [!DNL Analytics].
+AMO ID は、一意の各広告の組み合わせをそれほど詳細でないレベルで追跡し、データのクラス分けや、Adobe Advertisingからの広告指標（インプレッション数、クリック数、コストなど）の取り込みを [!DNL Analytics] すために使用されます。 AMO ID は、[!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) または rVar ディメンション（AMO ID）に格納され、[!DNL Analytics] でのレポートにのみ使用されます。
 
-AMO ID は `s_kwcid`（場合によっては「」と発音されます）[!DNL the squid].」と入力します。
+AMO ID は `s_kwcid` とも呼ばれ、「[!DNL the squid]」と発音されることがあります。
 
 ### AMO ID を実装する方法 {#amo-id-implement}
 
@@ -116,39 +116,39 @@ AMO ID は `s_kwcid`（場合によっては「」と発音されます）[!DNL 
 
    * 検索、ソーシャル、Commerceのお客様：
 
-      * の場合 [!DNL Google Ads] および [!DNL Microsoft Advertising] のアカウント [!UICONTROL Auto Upload] アカウントまたはキャンペーンに対して有効な設定では、エンドユーザーがAdobe Advertisingピクセルで広告をクリックすると、ピクセルサーバーによってランディングページのサフィックスに s_kwcid パラメーターが自動的に追加されます。
+      * アカウントまたはキャンペーンに対して [!UICONTROL Auto Upload] 設定が有効な [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントの場合、エンドユーザーがAdobe Advertisingピクセルで広告をクリックすると、ピクセルサーバーは s_kwcid パラメーターをランディングページサフィックスに自動的に追加します。
 
-      * その他の広告ネットワークの場合 [!DNL Google Ads] および [!DNL Microsoft Advertising] のアカウント [!UICONTROL Auto Upload] 無効の場合、パラメーターをに手動で追加 [勘定科目レベル追加パラメータ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}：ベース URL に追加します。
+      * 他の広告ネットワーク、または [!UICONTROL Auto Upload] 設定が無効の [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントの場合は、[ アカウントレベルの追加パラメーター ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} にパラメーターを手動で追加して、ベース URL に追加します。
 
 * サーバーサイド挿入機能が実装されていない場合：
 
-   * DSPのお客様： [JavaScript コード](javascript.md) は、クリックスルーとビュースルーを自動的に記録します。 ブラウザーがサードパーティ cookie をサポートしていない場合でも、次の広告タイプのクリックベースのコンバージョンを追跡できます。
+   * DSPのお客様：[JavaScript コード ](javascript.md) は、クリックスルーとビュースルーを自動的に記録します。 ブラウザーがサードパーティ cookie をサポートしていない場合でも、次の広告タイプのクリックベースのコンバージョンを追跡できます。
 
-      * の場合 [!DNL Flashtalking] タグを追加し、「」ごとに手動で追加マクロを挿入する[Append [!DNL Analytics for Advertising] マクロ先 [!DNL Flashtalking] 広告タグ](/help/integrations/analytics/macros-flashtalking.md).」と入力します。
+      * [!DNL Flashtalking] の広告タグの場合は、「[ 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Flashtalking]  広告タグに ](/help/integrations/analytics/macros-flashtalking.md)」ごとに手動で追加マクロを挿入します。
 
-      * の場合 [!DNL Google Campaign Manager 360] タグを追加し、「」ごとに手動で追加マクロを挿入する[Append [!DNL Analytics for Advertising] マクロ先 [!DNL Google Campaign Manager 360] 広告タグ](/help/integrations/analytics/macros-google-campaign-manager.md).」と入力します。
+      * [!DNL Google Campaign Manager 360] の広告タグの場合は、「[ 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Google Campaign Manager 360]  広告タグに ](/help/integrations/analytics/macros-google-campaign-manager.md)」ごとに手動で追加マクロを挿入します。
 
    * 検索、ソーシャル、Commerceのお客様：
 
-      * （用）[!DNL Google Ads] および [!DNL Microsoft Advertising]）を使用する場合は、ランディングページのサフィックスに AMO ID パラメーターを手動で追加します（理想的には、 [アカウントレベル](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} 個々のアカウントコンポーネントに対して異なるトラッキングが必要な場合を除きます。
+      * （[!DNL Google Ads] および [!DNL Microsoft Advertising]）広告の場合、個々のアカウントコンポーネントに異なるトラッキングが必要な場合を除き、ランディングページのサフィックスに AMO ID パラメーターを手動で（理想的には [ アカウントレベル ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} 追加します。
 
-      * その他のすべての広告ネットワークの広告の場合、AMO ID パラメーターを手動で [勘定科目レベル追加パラメータ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}：ベース URL に追加します。
+      * その他のすべての広告ネットワークの広告の場合は、AMO ID パラメーターを [ アカウントレベルの追加パラメーター ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} に手動で追加し、ベース URL に追加します。
 
 サーバーサイドの挿入機能を実装する、またはお客様のビジネスに最適なオプションを判断するには、Adobeアカウントチームにお問い合わせください。
 
 ### AMO ID 形式 {#amo-id-formats}
 
-#### の AMO ID 形式 [!DNL DSP]
+#### [!DNL DSP] の AMO ID 形式
 
 `s_kwcid=AC!${TM_AD_ID}!${TM_PLACEMENT_ID}`
 
 ここで、
 
-* `AC` ディスプレイチャネルを示します。
+* `AC` はディスプレイチャネルを示します。
 
-* `{TM_AD_ID}` は、Adobe Advertisingで生成された英数字の広告キーです。 Adobe Advertisingの一意の ID として使用され、広告エンティティメタデータを読み取り可能に変換するためのキーとして機能します [!DNL Analytics] ディメンション。
+* `{TM_AD_ID}` は、Adobe Advertisingで生成された英数字の広告キーです。 Adobe Advertisingの一意の ID として使用され、広告エンティティメタデータを読み取り可能な [!DNL Analytics] ディメンションに変換するためのキーとして機能します。
 
-* `{TM_PLACEMENT_ID}` は、Adobe Advertisingで生成される英数字のプレースメントキーです。 プレースメントの一意の ID として使用され、Adobe Advertisingエンティティのメタデータを読み取り可能に変換するためのキーとして機能します [!DNL Analytics] ディメンション。
+* `{TM_PLACEMENT_ID}` は、Adobe Advertisingで生成される英数字のプレースメントキーです。 プレースメントの一意の ID として使用され、Adobe Advertisingエンティティのメタデータを読み取り可能な [!DNL Analytics] ディメンションに変換するためのキーとして機能します。
 
 AMO ID の例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
@@ -156,11 +156,11 @@ AMO ID の例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 パラメーターは広告ネットワークによって異なりますが、次のパラメーターはすべてのユーザーに共通です。
 
-* `AL` 検索チャネルを示します。 <!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
+* `AL` は検索チャネルを示します。<!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
 
 * `{userid}` は、広告主に割り当てられた一意のユーザー ID です。
 
-* `{sid}` は、広告主の広告ネットワークアカウントの数値 ID に置き換えられます。 *3* （用） [!DNL Google Ads], *10* （用） [!DNL Microsoft Advertising], *45* （用） [!DNL Meta], *86* （用） [!DNL Yahoo! Display Network], *87* （用） [!DNL Naver], *88* （用） [!DNL Baidu], *90* （用） [!DNL Yandex], *94* （用） [!DNL Yahoo! Japan Ads], *105* （用） [!DNL Yahoo Native] （非推奨）、または *106* （用） [!DNL Pinterest] （非推奨）。
+* `{sid}` は、広告主の広告ネットワークアカウントの数値 ID に置き換えられます。[!DNL Google Ads] の場合は *3*、[!DNL Microsoft Advertising] の場合は *10*、[!DNL Meta] の場合は *45*、[!DNL Yahoo! Display Network] の場合は *86*、[!DNL Naver] の場合は *87*、[!DNL Baidu] の場合は *88*、*900 の場合は*[!DNL Yandex] ** [!DNL Yahoo! Japan Ads] ** [!DNL Yahoo Native] ** [!DNL Pinterest] 90588885 （廃止予定）。
 
 ##### [!DNL Baidu]
 
@@ -174,7 +174,7 @@ AMO ID の例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 ##### [!DNL Google Ads]
 
-これには、を使用したショッピングキャンペーンが含まれます [!DNL Google Merchant Center].
+これには、[!DNL Google Merchant Center] を使用したショッピングキャンペーンが含まれます。
 
 * 最新の AMO ID 形式を使用するアカウント。この形式は、Performance MAX キャンペーンおよびドラフト/実験キャンペーンに関するキャンペーンレベルおよび広告グループレベルのレポートをサポートします。
 
@@ -188,20 +188,20 @@ AMO ID の例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 <!-- VERIFY CREATIVE description. Also, are there more networks now (audience and shopping?) -->
 
-* `{creative}` が [!DNL Google Ads] クリエイティブの一意の数値 ID。
-* `{matchtype}` は、広告をトリガーしたキーワードのマッチタイプです。 `e` exact の場合、 `p` フレーズ用、または `b` 広い。
+* `{creative}` は、クリエイティブの [!DNL Google Ads] 一の一意の数値 ID です。
+* `{matchtype}` は、広告をトリガーしたキーワードのマッチタイプです（正確は `e`、フレーズは `p`、幅広は `b`）。
 * `{placement}` は、広告がクリックされた web サイトのドメイン名です。 値は、プレースメントターゲットキャンペーンの広告と、コンテンツサイトに表示されるキーワードターゲットキャンペーンの広告で使用できます。
-* `{network}` クリックが発生したネットワークを示します。 `g` （用） [!DNL Google] 検索（キーワードターゲット広告のみ） `s` 検索パートナー（キーワードターゲット広告の場合のみ）または `d` ディスプレイネットワークの場合（キーワードターゲット広告またはプレースメントターゲット広告のいずれか）。
+* `{network}` は、クリックが発生したネットワークを示します。[!DNL Google] 検索の場合は `g` （キーワードターゲット広告の場合のみ）、検索パートナーの場合は `s` （キーワードターゲット広告の場合のみ）、表示ネットワークの場合は `d` （キーワードターゲット広告またはプレースメントターゲット広告の場合）。
 * `{product_partition_id}` は、製品広告で使用される製品グループの広告ネットワークの一意の数値 ID です。
 * `{keyword}` は、広告をトリガーした特定のキーワード（検索サイトの場合）または最も一致したキーワード（コンテンツサイトの場合）です。
-* `{campaignid}` は、キャンペーンにおける広告ネットワークの一意の数値 ID です。
+* `{campaignid}` は、広告ネットワークにおけるキャンペーンの一意の数値 ID です。
 * `{adgroupid}` は、広告グループの広告ネットワークの一意の数値 ID です。
 
 >[!NOTE]
 >
->* 動的検索広告の場合、 {keyword} には、自動ターゲットが設定されます。
->* のトラッキングを生成する場合 [!DNL Google] ショッピング広告、製品 ID パラメーター、 `{adwords_producttargetid}`、がキーワードパラメーターの前に挿入されます。 製品 ID パラメーターがに表示されません [!DNL Google Ads] アカウントレベルとキャンペーンレベルのトラッキングパラメーター。
->* 最新の AMO ID トラッキングコードを使用するには、「」を参照してください[の AMO ID トラッキングコードの更新 [!DNL Google Ads] アカウント](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).」と入力します。 <!-- Update terminology there too. -->
+>* 動的検索広告の場合は、自動ターゲット {keyword} 設定されます。
+>* [!DNL Google] のショッピング広告のトラッキングを生成すると、製品 ID パラメーター `{adwords_producttargetid}` がキーワードパラメーターの前に挿入されます。 製品 ID パラメーターは、[!DNL Google Ads] アカウントレベルとキャンペーンレベルのトラッキングパラメーターには表示されません。
+>* 最新の AMO ID トラッキングコードを使用するには、「[ アカウントの AMO ID トラッキングコードの更新  [!DNL Google Ads]  を参照してください。](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md) <!-- Update terminology there too. -->
 
 <!--
 
@@ -225,7 +225,7 @@ where:
 
   `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
 
-* ショッピングキャンペーン （使用 [!DNL Microsoft Merchant Center]）:
+* ショッピングキャンペーン（[!DNL Microsoft Merchant Center] を使用）:
 
   `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
 
@@ -236,7 +236,7 @@ where:
 ここで、
 
 * `{AdId}` は、クリエイティブの広告ネットワークの一意の数値 ID です。
-* `{OrderItemId}` は、広告ネットワークのキーワードに対する数値 ID です。
+* `{OrderItemId}` は、広告ネットワークのキーワードの数値 ID です。
 * `{CriterionId}` は、製品広告で使用される製品グループの広告ネットワークの数値 ID です。
 
 ##### [!DNL Yahoo! Japan Ads]
@@ -246,8 +246,8 @@ where:
 ここで、
 
 * `{creative}` は、クリエイティブの広告ネットワークの一意の数値 ID です。
-* `{matchtype}` は、広告をトリガーしたキーワードのマッチタイプです。 `be` exact の場合、 `bp` フレーズ用、または `bb` 広い。
-* `{network}` クリックが発生したネットワークを示します。 `n` ネイティブまたは `s` を検索します。
+* `{matchtype}` は、広告をトリガーしたキーワードのマッチタイプです（正確は `be`、フレーズは `bp`、幅広は `bb`）。
+* `{network}` は、クリックが発生したネットワーク（ネイティブの場合は `n`、検索の場合は `s`）を示します。
 * `{keyword}` は、広告をトリガーしたキーワードです。
 
 ##### [!DNL Yandex]
@@ -257,20 +257,20 @@ where:
 ここで、
 
 * `{ad_id}` は、クリエイティブの広告ネットワークの一意の数値 ID です。
-* `{source_type}` は、広告が表示されたサイトのタイプです。 *b* 検索の場合、 *c* コンテキスト（コンテンツ）の場合 *ct* カテゴリの場合。
-* `{phrase_id}` は、広告ネットワークのキーワードに対する数値 ID です。
+* 広告 `{source_type}` 表示されたサイトのタイプです。検索の場合は *b*、コンテキスト （コンテンツ）の場合は *c*、カテゴリの場合は *ct* です。
+* `{phrase_id}` は、広告ネットワークのキーワードの数値 ID です。
 
-### での AMO IDDimension [!DNL Analytics]
+### [!DNL Analytics] での AMO IDDimension
 
-Analytics レポートでは、を検索することで AMO ID データを見つけることができます [!UICONTROL AMO ID] のディメンション設定と使用 [!UICONTROL AMO ID Instances] 指標。 この [!UICONTROL AMO ID] ディメンションには、取り込まれたすべての AMO ID 値が格納されますが、 [!UICONTROL AMO ID Instances] 指標は、AMO ID 値がサイトによってキャプチャされた頻度を示します。 例えば、同じ検索広告を 4 回クリックした後に Analytics が 7 つのサイトエントリをトラッキングした場合、次のようになります。 [!UICONTROL AMO ID Instances] は 7 で、 [!UICONTROL Clicks] は 4 になります。
+Analytics レポートでは、[!UICONTROL AMO ID] ディメンションを検索して [!UICONTROL AMO ID Instances] 指標を使用することで、AMO ID データを見つけることができます。 [!UICONTROL AMO ID] ディメンションには、取得したすべての AMO ID 値が格納されます。[!UICONTROL AMO ID Instances] 指標は、AMO ID 値がサイトによって取得された頻度を示します。 例えば、同じ検索広告を 4 回クリックしても、Analytics で 7 つのサイトエントリをトラッキングした場合、[!UICONTROL AMO ID Instances] は 7 回、[!UICONTROL Clicks] は 4 回になります。
 
-内でのレポートや監査のために [!DNL Analytics]を使用する場合、ベストプラクティスは、AMO ID を対応するインスタンスと共に使用することです。 詳しくは、「」を参照してください[のクリックスルーのデータ検証 [!DNL Analytics for Advertising]](data-variances.md#data-validation)の間で予期されるデータの相違で [!DNL Analytics] とAdobe Advertising。」
+[!DNL Analytics] 内のレポートや監査の場合、ベストプラクティスは AMO ID を対応するインスタンスと共に使用することです。 詳しくは、「[!DNL Analytics] とAdobe Advertisingの間で予想されるデータの相違」の [ のクリックスルー  [!DNL Analytics for Advertising]](data-variances.md#data-validation) データの検証」を参照してください。
 
 ## Analytics 分類について
 
-対象： [!DNL Analytics], a [分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) は、アカウント、キャンペーン、広告などの特定のトラッキングコードのメタデータです。 Adobe Advertisingでは、レポートの生成時に様々な方法（広告タイプ別やキャンペーン別など）でデータを表示できるように、分類を使用して生のAdobe Advertisingデータを分類します。 分類は、のAdobe Advertisingレポートの基盤となります。 [!DNL Analytics] また、次のような AMO 指標と併用できます [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions]、および [!UICONTROL AMO Clicks]に加えて、のようなカスタムおよび標準のオンサイトイベント機能を備えています [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders]、および [!UICONTROL Revenue].
+[!DNL Analytics] えば、[ 分類 ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) は、アカウント、キャンペーン、広告などの特定のトラッキングコードのメタデータの一部です。 Adobe Advertisingでは、レポートの生成時に様々な方法（広告タイプ別やキャンペーン別など）でデータを表示できるように、分類を使用して生のAdobe Advertisingデータを分類します。 分類は、[!DNL Analytics] でのAdobe Advertisingレポートの基礎となるもので、[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]、[!UICONTROL AMO Clicks] などの AMO 指標や、[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]、[!UICONTROL Revenue] などのカスタムおよび標準のオンサイトイベントで使用できます。
 
 >[!MORELIKETHIS]
 >
->* [概要 [!DNL Analytics for Advertising]](overview.md)
->* [間で予期されるデータの相違 [!DNL Analytics] とAdobe Advertising](data-variances.md)
+>* [ 概要  [!DNL Analytics for Advertising]](overview.md)
+>* [ とAdobe Advertisingの間で予期されるデータ  [!DNL Analytics]  相違 ](data-variances.md)

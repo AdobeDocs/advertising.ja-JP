@@ -15,14 +15,14 @@ ht-degree: 0%
 再利用可能なオーディエンスを作成する場合、英数字のセグメント ID （キー）と次の構文を使用して、セグメントロジックを手動で定義できます。
 
 * （） グループを示す
-* `||` （用） [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
-* &amp;および [!DNL AND]
-* ! （用） [!DNL NOT] （除外）
+* [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table --> の `||`
+* [!DNL AND] の&amp;&amp;
+* ! [!DNL NOT] の場合（除外）
 
 >[!NOTE]
 >
 >* 先頭にが付いていない限り、指定したセグメントグループがすべて含まれます。 （これらのプロパティは除外されます）。
->* 次のことができます [オーディエンスのセグメント ID の検索](reusable-audience-clipboard.md) から [!UICONTROL Audiences] > [!UICONTROL All audiences].
+>* [!UICONTROL Audiences]/[!UICONTROL All audiences] から [ オーディエンスのセグメント ID を検索 ](reusable-audience-clipboard.md) できます。
 
 例えば、次のようなロジックがあります。
 
@@ -42,8 +42,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [再利用可能なオーディエンスのセグメントキーをクリップボードにコピー](reusable-audience-clipboard.md)
->* [Audience Management について](audience-about.md)
->* [再利用可能なオーディエンスを作成](reusable-audience-create.md)
->* [オーディエンス設定](audience-settings.md)
->* [利用可能なサードパーティデータプロバイダー](third-party-data-providers.md)
+>* [ 再利用可能なオーディエンスのセグメントキーをクリップボードにコピー ](reusable-audience-clipboard.md)
+>* [Audience Management について ](audience-about.md)
+>* [ 再利用可能なオーディエンスを作成 ](reusable-audience-create.md)
+>* [ オーディエンス設定 ](audience-settings.md)
+>* [ 利用可能なサードパーティデータプロバイダー ](third-party-data-providers.md)

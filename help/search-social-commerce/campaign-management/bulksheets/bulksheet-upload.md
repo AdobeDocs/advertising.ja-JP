@@ -1,6 +1,6 @@
 ---
-title: バルクシートまたは修正済みエラーファイルのアップロード
-description: バルクシートファイルを手動でアップロードする方法、または修正されたランディングページ検証エラーファイルをアップロードする方法について説明します。
+title: バルクシートまたは修正されたエラーファイルのアップロード
+description: バルクシートファイルまたは修正されたランディングページ検証エラーファイルを手動でアップロードする方法を説明します。
 exl-id: 44c76ca3-1d3e-43c2-868a-4868157d32b0
 feature: Search Bulksheets
 source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
@@ -10,41 +10,41 @@ ht-degree: 0%
 
 ---
 
-# バルクシートまたは修正済みエラーファイルのアップロード
+# バルクシートまたは修正されたエラーファイルのアップロード
 
-バルクシートファイル、修正済みのランディングページ検証エラーファイル、およびその他の修正済みのエラーファイルを、次の用途でお使いのデバイスまたはネットワークからアップロードできます。 [サポートされる広告ネットワーク](bulksheet-about.md#bulksheet-functionality-by-network). ファイル内のカスタム列は、ファイルをアップロードすると削除されます。
+[ サポートされている広告ネットワーク ](bulksheet-about.md#bulksheet-functionality-by-network) 用に、バルクシートファイル、修正されたランディングページ検証エラーファイル、その他の修正されたエラーファイルを、デバイスまたはネットワークからアップロードできます。 ファイルをアップロードすると、ファイル内のカスタム列はすべて削除されます。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Bulksheets]** をクリックします。
 
-1. データテーブルの上にあるツールバーで、 **[!UICONTROL Upload Bulksheet]**.
+1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Upload Bulksheet]**] をクリックします。
 
-1. 情報を [[!UICONTROL Upload Bulksheet] 設定](#bulksheet-upload-settings).
+1. [[!UICONTROL Upload Bulksheet] 設定 ](#bulksheet-upload-settings) で情報を入力または選択します。
 
-1. クリック **[!UICONTROL Apply]**.
+1. 「**[!UICONTROL Apply]**」をクリックします。
 
-タスクが開始されると、ファイルが [!UICONTROL Bulksheets] 表示。 ファイルが完成すると、そのファイルへのリンクが記載された電子メール通知が送信されます。 コンパイルされたデータの量に応じて、電子メール通知には数分以上かかる場合があります。 ただし、ファイルの生成に失敗した場合は、エラーファイルが [!UICONTROL Bulksheets] 表示すると、エラーファイルへのリンクが記載された電子メール通知が送信されます。
+タスクが開始されると、ファイルが [!UICONTROL Bulksheets] ビューに一覧表示されます。 ファイルが完成すると、ファイルへのリンクが記載されたメール通知が送信されます。 コンパイルされたデータの量に応じて、メール通知は数分以上かかる場合があります。 ただし、ファイルの生成に失敗した場合は、エラーファイルが [!UICONTROL Bulksheets] ビューに一覧表示され、エラーファイルへのリンクを含むメール通知が送信されます。
 
 >[!NOTE]
 >
->一括送信シートデータを広告ネットワークに投稿する場合は、 [!UICONTROL Progress] 列の [!UICONTROL Bulksheets] 表示。 大量のデータの投稿には時間がかかります。
+>バルクシート データを広告ネットワークに投稿すると、[!UICONTROL Bulksheets] ビューの [!UICONTROL Progress] 列でファイルの進行状況を追跡できます。 大量のデータがポストされるまでに時間がかかる。
 
-## バルクシートの設定をアップロードし、修正されたエラーファイルをアップロードします {#bulksheet-upload-settings}
+## バルクシートおよび修正されたエラーファイルの設定のアップロード {#bulksheet-upload-settings}
 
 | パラメーター | 説明 |
 |----|----|
-| [!UICONTROL File to Upload] | アップロードするファイル。 フルパスとファイル名を入力するか、「 <b>[!UICONTROL Browse]</b> をクリックして、お使いのデバイスまたはネットワーク上でファイルを見つけます。<br><br>バルクシートファイルは、最大 2.5 GB（約 250 万行）で、次のファイル拡張子のいずれかを持つ必要があります。 <i>[!UICONTROL .tsv]</i> （タブ区切り値の場合）、 <i>[!UICONTROL .txt]</i> （Unicode 準拠の ASCII テキストの場合）、 <i>[!UICONTROL .csv]</i> （コンマ区切り値の場合）または <i>[!UICONTROL .zip]</i> （圧縮 ZIP 形式の場合。TSV ファイルに解凍します）。 ファイル名に次の文字を含めることはできません： `# % &amp; * | \ : &quot; &lt; &gt; . ? /`<br><br><b>ヒント：</b> 国際文字を含むデータの場合は、TSV 形式または TXT 形式のファイルを使用します。 |
-| [!UICONTROL Single Account] | ファイルを 1 つのアカウントに適用するかどうか： <i>[!UICONTROL Yes]</i> （1 件のアカウントの場合）または <i>[!UICONTROL No]</i>（複数のアカウントの場合）。 |
-| [!UICONTROL Account (Search Engine)] | （ファイルが単一のアカウントに適用される場合）データのアップロード先のアカウント。 |
-| [!UICONTROL Search Engine] | （ファイルが複数のアカウントに適用される場合）データのアップロード先の広告ネットワーク。 |
-| [!UICONTROL Scheduling] | 指定した広告ネットワークにファイルを投稿するタイミングまたは場合：<ul><li><i>[!UICONTROL Post to ad network now]</i> （デフォルト）：データの投稿を直ちに開始します。</li><li><i>[!UICONTROL Post to ad network on \[specified date\] \[specified time\]]:</i> 指定した日時にデータの投稿を開始します。デフォルトは明日の 02:00（午前 2 時）です。 日付を変更するには、DD/MM/YYYY または D/M/YYYY の形式で日付を入力するか、 ![カレンダー](/help/search-social-commerce/assets/calendar.png "カレンダー") カレンダーを開き、 [日付を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). 時間を変更するには、HH/MM または H/M の形式で時間を入力するか、（15 分間隔で）リストから時間を選択します。</li><li><i>[!UICONTROL Preview only]:</i> データを広告ネットワークに投稿せずに Search、Social、および Commerce にファイルをアップロードする場合は、後でファイルを投稿することができます。 バルクシートファイルが 10 MB を超え、2 GB 未満の場合、ファイルは ZIP 形式になるので、投稿するためにファイルを解凍する必要はありません。</li></ul> |
-| [!UICONTROL Generate Tracking URLs] | トラッキングテンプレートを使用するアカウントに（適用可能な広告ネットワークに対して）トラッキングテンプレートとランディングページのサフィックスを含めるか、すべてのキーワード、広告、プレースメント、サイトリンク、 [!DNL Google Ads] 掲示中の製品グループ： <i>[!UICONTROL Yes]</i> （デフォルト）または <i>[!UICONTROL No]</i>. 入札単位がポートフォリオに含まれているかどうかは関係ありません。<br><br>次を選択した場合、 <i>[!UICONTROL Yes]</i>を指定した場合、 [!UICONTROL Tracking Methods] 」セクションに追加します。 デフォルトでは、トラッキング URL が存在する場合、新しい URL が必要な場合（キーワードの一致タイプ、広告テキスト、関連するアカウントのトラッキングパラメーターが変更された場合など）を除き、再生成されません。<br><br>次を選択した場合、 <i>[!UICONTROL No]</i>その場合でも、アップロードしたファイルを手動で投稿することで、後でトラッキング URL を生成できます。<br><br><b>注意：</b> 広告主がAdobe Advertisingコンバージョントラッキングを使用し、ベース URL が変更された場合、トラッキング URL を自動的に生成してアップロードするようにアカウントが設定されていない限り、新しいトラッキング URL を生成する必要があります。 |
-| [!UICONTROL Enable budget changes on optimized campaigns] | 投稿されたデータに基づいて最適化されたポートフォリオのキャンペーンに予算の変更を許可します。 デフォルトでは、このオプションは選択されていません。 このオプションを選択した場合、指定したキャンペーン予算の変更は、最適化機能が予算を（通常は次の入札サイクルで）再割り当てする必要があると判断するまで、適用されます。<br><br><b>注意：</b> 最適化されていないポートフォリオのキャンペーンの転記済データに起因する予算の変更は、ファイルの転記時に発生します。 変更は翌日にキャンペーン管理ビューに表示されます。 |
-| [!UICONTROL Enable bidding on ads within portfolios] | 含まれるキャンペーンコンポーネントが最適化されたポートフォリオにある場合、この機能は最適化戦略を上書きし、指定された終了日まで、バルクシート内のデータに基づいて入札の変更を許可します。 このオプションを選択した場合は、「 **[!UICONTROL Hold bulksheet bids until]** フィールドに入力します。 |
+| [!UICONTROL File to Upload] | アップロードするファイル。 フルパスとファイル名を入力するか、「<b>[!UICONTROL Browse]</b>」をクリックしてデバイスまたはネットワーク上のファイルを探し、ファイルを指定します。<br><br> バルクシートファイルの拡張子は、最大 2.5 GB （約 2.5 万行）で、<i>[!UICONTROL .tsv]</i> （タブ区切り値の場合）、<i>[!UICONTROL .txt]</i> （Unicode 準拠の ASCII テキストの場合）、<i>[!UICONTROL .csv]</i> （コンマ区切り値の場合）、<i>[!UICONTROL .zip]</i> （圧縮された ZIP 形式の場合、TSV ファイルに解凍）のいずれかである必要があります。 ファイル名に次の文字を含めることはできません：`# % &amp; * | \ : &quot; &lt; &gt; . ? /`<br><br><b> ヒント：</b> 国際文字を含むデータの場合は、TSV または TXT 形式のファイルを使用します。 |
+| [!UICONTROL Single Account] | ファイルが 1 つのアカウントに適用されるかどうか：<i>[!UICONTROL Yes]</i> （1 つのアカウントの場合）または <i>[!UICONTROL No]</i> （複数のアカウントの場合）。 |
+| [!UICONTROL Account (Search Engine)] | （ファイルが 1 つのアカウントに適用される場合） データのアップロード先のアカウント。 |
+| [!UICONTROL Search Engine] | （ファイルが複数のアカウントに適用される場合） データのアップロード先の広告ネットワーク。 |
+| [!UICONTROL Scheduling] | 指定した広告ネットワークにファイルを POST する場合または POST する場合：<ul><li><i>[!UICONTROL Post to ad network now]</i> （デフォルト）：データの投稿を直ちに開始します。</li><li><i>[!UICONTROL Post to ad network on \[specified date\] \[specified time\]]:</i> 指定した日時にデータの投稿を開始します。デフォルトは明日の午前 2 時です。 日付を変更するには、DD/MM/YYYY または D/M/YYYY の形式で日付を入力するか、「![ カレンダー ](/help/search-social-commerce/assets/calendar.png " カレンダー ")」をクリックしてカレンダーを開き、[ 日付を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md) します。 時間を変更するには、HH/MM または H/M の形式で時間を入力するか、リストから時間（15 分間隔）を選択します。</li><li><i>[!UICONTROL Preview only]:</i> 広告ネットワークにデータを投稿せずに、検索、ソーシャル、Commerceにファイルをアップロードするには、後でファイルを投稿できます。 バルクシートファイルが 10 MB を超えて 2 GB 未満の場合、ファイルは ZIP 形式です。投稿するためにファイルを解凍する必要はありません。</li></ul> |
+| [!UICONTROL Generate Tracking URLs] | トラッキングテンプレートを使用するアカウントにトラッキングテンプレートおよびランディングページのサフィックス（該当する広告ネットワークの場合）を含めるか、宛先 URL を使用するアカウントにトラッキングコードが埋め込まれた宛先 URL を含めるか（すべてのキーワード、広告、プレースメント、サイトリンク、[!DNL Google Ads] 製品グループの場合）、<i>[!UICONTROL Yes]</i> （デフォルト）または <i>[!UICONTROL No]</i>。 入札単位がポートフォリオ内にあるかどうかは関係ありません。<br><br> 「<i>[!UICONTROL Yes]</i>」を選択すると、関連するアカウント設定またはキャンペーン設定の「[!UICONTROL Tracking Methods]」セクションのパラメーターに従って URL が生成されます。 デフォルトでは、トラッキング URL が存在する場合、新しい URL が必要でない限り（キーワード一致タイプ、広告テキスト、関連するアカウントのトラッキングパラメーターが変更された場合など）、トラッキング URL は再生成されません。<br><br> 「<i>[!UICONTROL No]</i>」を選択した場合でも、アップロードされたファイルを手動で投稿することで、後でトラッキング URL を生成できます。<br><br><b> メモ：</b> 広告主がAdobe Advertisingコンバージョントラッキングを使用し、ベース URL が変更された場合、トラッキング URL を自動生成してアップロードするようにアカウントが設定されていない限り、新しいトラッキング URL を生成する必要があります。 |
+| [!UICONTROL Enable budget changes on optimized campaigns] | 投稿されたデータに基づいて、最適化されたポートフォリオのキャンペーンに対して予算を変更できます。 デフォルトでは、このオプションは選択されていません。 このオプションを選択した場合、最適化機能によって予算を再割り当てする必要があると判断されるまで（通常は次の入札サイクルで）、指定したキャンペーン予算の変更がすべて適用されます。<br><br><b> 注意：</b> 最適化されていないポートフォリオのキャンペーンの投稿データに起因する予算の変更は、ファイルの投稿時に発生します。 翌日、キャンペーン管理ビューに変更が表示されます。 |
+| [!UICONTROL Enable bidding on ads within portfolios] | 含まれているキャンペーンコンポーネントが最適化されたポートフォリオにある場合、この機能は最適化戦略を上書きし、指定された終了日まで、バルクシートのデータに基づいた入札変更を許可します。 このオプションを選択した場合は、「終了日」フィールドに 1～7 日の間 **[!UICONTROL Hold bulksheet bids until]** 終了日を指定します。 |
 
 >[!MORELIKETHIS]
 >
->* [バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
->* [バルクシートファイルをダウンロード/作成する](bulksheet-download.md)
->* [バルクシートの投稿または修正されたエラーファイル](bulksheet-post.md)
->* [バルクシートファイル内のランディングページの検証](bulksheet-validate-landing-pages.md)
->* [生成またはアップロードされたバルクシートファイルのエクスポート](bulksheet-export.md)
+>* [ バルクシートを使用した Campaign データの管理について ](bulksheet-about.md)
+>* [ バルクシートファイルのダウンロード/作成 ](bulksheet-download.md)
+>* [ ポストバルクシートまたは修正されたエラーファイル ](bulksheet-post.md)
+>* [ バルクシートファイル内のランディングページの検証 ](bulksheet-validate-landing-pages.md)
+>* [ 生成またはアップロードされたバルクシートファイルのエクスポート ](bulksheet-export.md)

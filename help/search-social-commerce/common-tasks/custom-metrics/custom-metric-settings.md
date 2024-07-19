@@ -1,40 +1,40 @@
 ---
 title: カスタム指標設定
-description: 標準の指標から計算されるカスタム指標の設定を参照します。
-exl-id: f4b8c44e-ecb3-46dc-9a68-c079188e1d75
+description: 標準指標から計算される、カスタム指標の設定を参照します。
+exl-id: b9e8434d-5ea2-47cd-9d63-705a6337c34c
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
 
 # カスタム指標設定
 
-カスタム指標設定は、インターフェイスの各部で少し異なります。
+カスタム指標設定は、インターフェイスの様々な部分で若干異なります。
 
 ## キャンペーン管理ビューのカスタム指標設定
 
-| パラメータ/セクション | 説明 |
+| パラメーター/セクション | 説明 |
 |----|----|
-| カスタム指標名 | 指標の名前。列名として表示されます。 <b>ヒント：</b> 意味のある指標名を使用しますが、長い名前を使用すると列の幅が広くなると考えます。 |
-| 指標の挿入 | 新しい指標の計算に使用する数式 ( [コスト]/[登録]:<ul><li>トラフィック指標と売上高指標のリストから指標を挿入するには、指標を挿入する場所にカーソルを置き、リストから指標を選択するか、手動で指標を入力して角括弧で囲みます ( 例： `[CPC]`) をクリックします。</li><li>演算子を挿入するには、演算子を挿入する位置にカーソルを置き、ボタンをクリックするか、手動で記号を入力します。 使用可能な演算子は次のとおりです。 `+ - * / ( ) ()`</li></ul><b>注意：</b> 複雑なカスタム指標の計算に時間がかかり、それらを含むレポートと表示（特にクリックスルーとビュースルーのコンバージョン用に別々の列を含む場合）の生成に時間がかかります。 |
-| 形式 | この指標のデータを表示する方法： *[!UICONTROL Currency]* （金額） *[!UICONTROL Number to 2 Decimal Points]*, *[!UICONTROL Number to 3 Decimal Points]*, *[!UICONTROL Number w/out Decimal Points]*&#x200B;または *[!UICONTROL Percentage]* （小数点が 2 つある割合）。<br><br><b>注意：</b> の形式で派生指標を作成する場合 [!UICONTROL Number w/out Decimal Points] （データを整数で表示）を含め、重み付けされたコンバージョンアトリビューションルール ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More]または [!UICONTROL Even Distribution]) の場合、出力は小数ではなく整数で表示されます。 その結果、合計が正しいにもかかわらず、個々のデータフィールドが正しくない可能性があります。 例えば、ある注文が 3 つのイベント間で等しく分割されている場合、（0.33 順序ではなく）1 つの注文が 3 つのイベントのそれぞれに関連付けられます。 この問題を回避するには、指標の形式を使用します [!UICONTROL Number to 2 Decimal Points]. |
+| カスタム指標名 | 列の名前として表示される指標の名前。 <b> ヒント：</b> 意味のある指標名を使用しますが、名前が長いと列が広くなると考えてください。 |
+| 指標の挿入 | 新しい指標の計算に使用する数式（[ コスト ]/[ 登録など ]:<ul><li>トラフィック指標および売上高指標のリストから指標を挿入するには、指標を挿入する場所にカーソルを置き、リストから指標を選択するか、手動で指標を角括弧で囲んで入力します（例：`[CPC]`）。</li><li>演算子を挿入するには、演算子を挿入する位置にカーソルを置き、ボタンをクリックするか、記号を手動で入力します。 使用可能な数学演算子：`+ - * / ( ) ()`</li></ul><b> メモ：</b> 複雑なカスタム指標は、計算に時間がかかり、それらを含むレポートとビュー（特に、クリックスルーおよびビュースルーコンバージョン用に別々の列が含まれている場合）の生成にも時間がかかります。 |
+| 形式 | この指標のデータを表示する方法：*[!UICONTROL Currency]* （金額）、*[!UICONTROL Number to 2 Decimal Points]*、*[!UICONTROL Number to 3 Decimal Points]*、*[!UICONTROL Number w/out Decimal Points]* または *[!UICONTROL Percentage]* （小数点 2 つ分のパーセンテージ）。<br><br><b> 注意：</b> 形式 [!UICONTROL Number w/out Decimal Points] （データを整数として表示）で派生指標を作成し、重み付けコンバージョンアトリビューションルール（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More] または [!UICONTROL Even Distribution]）を使用するビューまたはレポートに含めた場合、出力は小数ではなく整数で表示されます。 その結果、合計が正しくても、個々のデータフィールドが正しくない場合があります。 例えば、1 つの注文が 3 つのイベント間で均等に分割されている場合、3 つのイベントのそれぞれに 0.33 の注文ではなく 1 つの注文が関連付けられます。 この問題を回避するには、指標形式 [!UICONTROL Number to 2 Decimal Points] を使用します。 |
 
-## レポートおよびレポートテンプレートと [!UICONTROL Portfolios] ビュー
+## レポートおよびレポートテンプレートと [!UICONTROL Portfolios] ビューのカスタム指標設定
 
-| パラメータ/セクション | 説明 |
+| パラメーター/セクション | 説明 |
 |----|----|
-| カスタム指標名 | 指標の名前。列名として表示されます。 <b>ヒント：</b> 意味のある指標名を使用しますが、長い名前を使用すると列の幅が広くなると考えます。 |
-| 形式 | この指標のデータを表示する方法： *[!UICONTROL Currency]* （金額） *[!UICONTROL Number to 2 Decimal Points]*, *[!UICONTROL Number to 3 Decimal Points]*, *[!UICONTROL Number w/out Decimal Points]*&#x200B;または *[!UICONTROL Percentage]* （小数点が 2 つある割合）。<br><br><b>注意：</b> の形式で派生指標を作成する場合 [!UICONTROL Number w/out Decimal Points] （データを整数で表示）を含め、重み付けされたコンバージョンアトリビューションルール ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More]または [!UICONTROL Even Distribution]) の場合、出力は小数ではなく整数で表示されます。 その結果、合計が正しいにもかかわらず、個々のデータフィールドが正しくない可能性があります。 例えば、ある注文が 3 つのイベント間で等しく分割されている場合、（0.33 順序ではなく）1 つの注文が 3 つのイベントのそれぞれに関連付けられます。 この問題を回避するには、指標の形式を使用します [!UICONTROL Number to 2 Decimal Points]. |
-| 指標の挿入 | 数式を作成できる既存の指標のリスト。<br><br>数式の入力フィールドに指標を挿入するには、指標を挿入する位置にカーソルを置き、リストから指標を選択するか、手動で指標を入力して角括弧で囲みます ( 例： `[CPC]`) をクリックします。 |
-| 演算子の挿入 | 使用可能な演算子は次のとおりです。 `+ - x / ( )`<br><br>数式の入力フィールドに演算子を挿入するには、演算子を挿入する位置にカーソルを置き、ボタンをクリックするか、記号を手動で入力します。 |
-| [指標の数式入力フィールド] | 1 つ以上の既存のプロパティまたは標準指標 ( `[Cost]/[Registrations]`. 指標と演算子の任意の組み合わせを含めることができます。<br><br><b>注意：</b> 複雑なカスタム指標の計算に時間がかかり、それらを含むレポートと表示（特にクリックスルーとビュースルーのコンバージョン用に別々の列を含む場合）の生成に時間がかかります。 |
+| カスタム指標名 | 列の名前として表示される指標の名前。 <b> ヒント：</b> 意味のある指標名を使用しますが、名前が長いと列が広くなると考えてください。 |
+| 形式 | この指標のデータを表示する方法：*[!UICONTROL Currency]* （金額）、*[!UICONTROL Number to 2 Decimal Points]*、*[!UICONTROL Number to 3 Decimal Points]*、*[!UICONTROL Number w/out Decimal Points]* または *[!UICONTROL Percentage]* （小数点 2 つ分のパーセンテージ）。<br><br><b> 注意：</b> 形式 [!UICONTROL Number w/out Decimal Points] （データを整数として表示）で派生指標を作成し、重み付けコンバージョンアトリビューションルール（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More] または [!UICONTROL Even Distribution]）を使用するビューまたはレポートに含めた場合、出力は小数ではなく整数で表示されます。 その結果、合計が正しくても、個々のデータフィールドが正しくない場合があります。 例えば、1 つの注文が 3 つのイベント間で均等に分割されている場合、3 つのイベントのそれぞれに 0.33 の注文ではなく 1 つの注文が関連付けられます。 この問題を回避するには、指標形式 [!UICONTROL Number to 2 Decimal Points] を使用します。 |
+| 指標の挿入 | 式を作成できる既存の指標のリスト。<br><br> 数式入力フィールドに指標を挿入するには、指標を挿入する位置にカーソルを置き、リストから指標を選択するか、手動で指標を角括弧で囲んで入力します（例：`[CPC]`）。 |
+| 演算子を挿入 | 使用可能な数学演算子：`+ - x / ( )`<br><br> 数式入力フィールドに演算子を挿入するには、演算子を挿入する位置にカーソルを置き、ボタンをクリックするか、記号を手動で入力します。 |
+| [ 指標の数式入力フィールド ] | 1 つ以上の既存のプロパティまたは標準指標（`[Cost]/[Registrations]` など）に基づいて新しい指標を計算するために使用される数式。 指標と演算子を任意に組み合わせることができます。<br><br><b> メモ：</b> 複雑なカスタム指標は、計算に時間がかかり、それらを含むレポートとビュー（特に、クリックスルーおよびビュースルーコンバージョン用に別々の列が含まれている場合）の生成にも時間がかかります。 |
 
 >[!MORELIKETHIS]
 >
->* [カスタム指標について](custom-metric-about.md)
->* [カスタム指標の作成](custom-metric-create.md)
->* [カスタム指標の編集](custom-metric-edit.md)
->* [カスタム指標の削除](custom-metric-delete.md)
+>* [ カスタム指標について ](custom-metric-about.md)
+>* [ カスタム指標の作成 ](custom-metric-create.md)
+>* [ カスタム指標の編集 ](custom-metric-edit.md)
+>* [ カスタム指標の削除 ](custom-metric-delete.md)

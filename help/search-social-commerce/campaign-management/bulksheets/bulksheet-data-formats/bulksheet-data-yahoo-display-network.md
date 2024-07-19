@@ -1,22 +1,22 @@
 ---
-title: のバルクシートデータ [!DNL Yahoo! Display Network] アカウント
-description: 次のフィールドについて、ダウンロードした一括送信シートのヘッダーフィールドとデータフィールドを参照します。 [!DNL Yahoo! Display Network] アカウント。
-exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
+title: アカウントのバルクシ  [!DNL Yahoo! Display Network]  ト データ
+description: ダウンロードしたアカウント用バルクシートのヘッダーフィールド  [!DNL Yahoo! Display Network]  データフィールドを参照します。
+exl-id: 8d938009-6edc-4420-8863-21ed241616f8
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
-# 付録 — のバルクシートデータ [!DNL Yahoo! Display Network] アカウント
+# 付録 – [!DNL Yahoo! Display Network] アカウントのバルクシート データ
 
 <!-- 
 [Re-add "Required" to title, file name, and TOC if you add the ability to create/edit campaigns using YDN bulksheets. Then will also need to add more text below, like for the other SEs.]
 -->
 
-のデータをダウンロードできます。 [!DNL Yahoo! Display Network] アカウントを一括でアップロードしているものの、広告ネットワークにバルクシートをアップロードまたは投稿できない。
+[!DNL Yahoo! Display Network] アカウントのデータを一括でダウンロードできますが、広告ネットワークにバルクシートをアップロードまたは投稿することはできません。
 
 <!-- Hiding because this is probably too long a list to be useful.
 
@@ -30,29 +30,29 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 
 ## 使用可能なデータフィールド
 
-| フィールド | Campaign | 広告グループ | 広告 | 説明 |
+| フィールド | キャンペーン | 広告グループ | 広告 | 説明 |
 |----|----|----|----|----|
-| [!UICONTROL Platform] | 該当なし | 該当なし | 該当なし | （情報を提供するために生成された一括送信シートに含まれます）広告プラットフォーム。 |
-| [!UICONTROL Acct  Name] | 含まれる場合 | 含まれる場合 | 含まれる場合 | 広告ネットワークアカウントを識別する一意の名前。 |
-| [!UICONTROL Campaign Name] | 含まれる場合 | 含まれる場合 | 含まれる場合 | アカウントのキャンペーンを識別する一意の名前。 |
-| [!UICONTROL Ad Group Name] | 該当なし | 含まれる場合 | 含まれる場合 | 広告グループを識別する一意の名前。 |
-| [!UICONTROL Ad Name] | 該当なし | 該当なし | 含まれる場合 | 広告グループ内の広告を識別する一意の名前。 最大長は 50 文字です。 |
-| [!UICONTROL Ad Title] | 該当なし | 該当なし | 含まれる場合 | 広告のヘッドライン。 |
-| [!UICONTROL Description Line 1] | 該当なし | 該当なし | 含まれる場合 | 広告の本文の最初の行。 |
-| [!UICONTROL Description Line 2] | 該当なし | 該当なし | 含まれる場合 | 広告の本文の 2 行目。 |
-| [!UICONTROL Base URL/Final URL] | 該当なし | 該当なし | 含まれる場合 | 広告のクリック時に表示されるランディングページの URL。キャンペーンまたはアカウント用に設定された追加パラメーターが含まれます。 キーワードレベルのベース/最終 URL は、広告レベル以上の URL に優先します。 |
-| [!UICONTROL Destination URL] | 該当なし | 該当なし | 該当なし | （広告ネットワークに投稿されない、情報を目的として生成された一括送信シートに含まれます）宛先 URL のアカウントの場合、この値は広告主の Web サイト上のベース URL/ランディングページに広告をリンクする URL です（クリックを追跡し、ユーザーをランディングページにリダイレクトする別のサイト経由）。 検索、ソーシャル、コマースのキャンペーンまたはアカウント用に設定された追加パラメーターが含まれます。 トラッキング URL を生成した場合、この値は、アカウント設定とキャンペーン設定のトラッキングパラメーターに基づきます。 広告のネットワーク固有のパラメーターを追加した場合は、Search、Social、および Commerce の同等のパラメーターに置き換えることができます。 |
-| \[ 広告主固有のラベル分類\] | 含まれる場合 | 含まれる場合 | 含まれる場合 | （広告主固有のラベル分類用に名前付けされます。例えば、Color というラベル分類用の「色」）エンティティに関連付けられている、指定した分類の値です。 |
-| [!UICONTROL Constraints] | 含まれる場合 | 含まれる場合 | 該当なし | エンティティに割り当てられる制約。 |
-| [!UICONTROL Campaign Status] | 含まれる場合 | 該当なし | 該当なし | キャンペーンの表示ステータス： <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>または <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Ad Group Status] | 該当なし | 含まれる場合 | 該当なし | 広告グループの表示ステータス： <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>または <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Keyword Status] | 該当なし | 該当なし | 含まれる場合 | キーワードの表示ステータス： <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>または <i>[!UICONTROL Deleted]</i> （既存のキーワードのみ）。 |
-| [!UICONTROL Campaign ID] | 含まれる場合 | 含まれる場合 | 含まれる場合 | 既存のキャンペーンを識別する一意の ID。 |
-| [!UICONTROL Ad Group ID] | 該当なし | 含まれる場合 | 含まれる場合 | 既存の広告グループを識別する一意の ID。 |
-| [!UICONTROL Keyword ID] | 該当なし | 該当なし | 含まれる場合 | 既存のキーワードを識別する一意の ID。 |
-| [!UICONTROL AMO ID] | 該当なし | 該当なし | 該当なし | （生成された一括送信シート内）同期されたAdobeに対してエンティティが生成した一意の識別子。 |
-| [!UICONTROL EF Error Message] | 該当なし | 該当なし | 該当なし | （情報を提供するために生成された一括送信シートに含まれます）行のデータに関する検索、ソーシャル、コマースからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは、 [!UICONTROL EF Errors] ファイル。 |
+| [!UICONTROL Platform] | 該当なし | 該当なし | 該当なし | （情報提供のために生成されたバルクシートに含まれる）広告プラットフォーム。 |
+| [!UICONTROL Acct  Name] | 含める場合 | 含める場合 | 含める場合 | 広告ネットワークアカウントを識別する一意の名前。 |
+| [!UICONTROL Campaign Name] | 含める場合 | 含める場合 | 含める場合 | アカウントのキャンペーンを識別する一意の名前。 |
+| [!UICONTROL Ad Group Name] | 該当なし | 含める場合 | 含める場合 | 広告グループを識別する一意の名前。 |
+| [!UICONTROL Ad Name] | 該当なし | 該当なし | 含める場合 | 広告グループ内の広告を識別する一意の名前。 最大長は 50 文字です。 |
+| [!UICONTROL Ad Title] | 該当なし | 該当なし | 含める場合 | 広告の見出し。 |
+| [!UICONTROL Description Line 1] | 該当なし | 該当なし | 含める場合 | 広告の本文の最初のライン。 |
+| [!UICONTROL Description Line 2] | 該当なし | 該当なし | 含める場合 | 広告の本文の 2 行目。 |
+| [!UICONTROL Base URL/Final URL] | 該当なし | 該当なし | 含める場合 | エンドユーザーが広告をクリックした際に取得されるランディングページの URL （キャンペーンまたはアカウントに設定された追加パラメーターを含む）。 キーワードレベルのベース/最終 URL は、広告レベル以降の URL を上書きします。 |
+| [!UICONTROL Destination URL] | 該当なし | 該当なし | 該当なし | （情報目的で生成されたバルクシートに含まれ、広告ネットワークに投稿されない）宛先 URL を持つアカウントの場合、この値は、広告を広告主の web サイトのベース URL/ランディングページにリンクする URL です（クリックを追跡し、ユーザーをランディングページにリダイレクトする別のサイトを経由する場合もあります）。 これには、検索、ソーシャル、Commerceのキャンペーンまたはアカウント用に設定された追加パラメーターが含まれます。 トラッキング URL を生成した場合、この値は、アカウント設定およびキャンペーン設定のトラッキングパラメーターに基づきます。 広告ネットワーク固有のパラメーターを追加した場合は、検索、ソーシャル、Commerceの同等のパラメーターに置き換えることができます。 |
+| \[ 広告主固有のラベル分類\] | 含める場合 | 含める場合 | 含める場合 | （広告主固有のラベル分類に対して名前が付けられます。例えば、色と呼ばれるラベル分類の「色」など） エンティティに関連付けられている、指定された分類の値。 |
+| [!UICONTROL Constraints] | 含める場合 | 含める場合 | 該当なし | エンティティに割り当てられている制約。 |
+| [!UICONTROL Campaign Status] | 含める場合 | 該当なし | 該当なし | キャンペーンの表示ステータス：<i>[!UICONTROL Active]</i>、<i>[!UICONTROL Paused]</i>、<i>[!UICONTROL Deleted]</i>。 |
+| [!UICONTROL Ad Group Status] | 該当なし | 含める場合 | 該当なし | 広告グループの表示ステータス：<i>[!UICONTROL Active]</i>、<i>[!UICONTROL Paused]</i>、<i>[!UICONTROL Deleted]</i>。 |
+| [!UICONTROL Keyword Status] | 該当なし | 該当なし | 含める場合 | キーワードの表示ステータス：<i>[!UICONTROL Active]</i>、<i>[!UICONTROL Paused]</i>、<i>[!UICONTROL Deleted]</i> （既存のキーワードのみ）。 |
+| [!UICONTROL Campaign ID] | 含める場合 | 含める場合 | 含める場合 | 既存のキャンペーンを識別する一意の ID。 |
+| [!UICONTROL Ad Group ID] | 該当なし | 含める場合 | 含める場合 | 既存の広告グループを識別する一意の ID。 |
+| [!UICONTROL Keyword ID] | 該当なし | 該当なし | 含める場合 | 既存のキーワードを識別する一意の ID。 |
+| [!UICONTROL AMO ID] | 該当なし | 該当なし | 該当なし | （生成されたバルクシート内）同期されたエンティティに対してAdobeが生成した一意の ID。 |
+| [!UICONTROL EF Error Message] | 該当なし | 該当なし | 該当なし | （情報提供のために生成されたバルクシートに含まれる）行のデータに関する検索、ソーシャル、Commerceのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは [!UICONTROL EF Errors] ファイルに含まれます。 |
 
 >[!MORELIKETHIS]
 >
->* [バルクシートファイルをダウンロード/作成する](../bulksheet-download.md)
+>* [ バルクシートファイルのダウンロード/作成 ](../bulksheet-download.md)

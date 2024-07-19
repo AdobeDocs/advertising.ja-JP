@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # プレースメントの入札乗数の管理
 
-以下の既存のプレースメントターゲットに対して、アルゴリズムに計算された入札を乗算して入札を増減する入札乗数を作成および管理できます [適格なターゲットタイプ](#bid-multiplier-by-target). 1 つのプレースメントの入札乗数の値を手動で編集するか、1 つ以上のプレースメントの値を含むスプレッドシートをアップロードできます。
+[ 適格なターゲット・タイプ ](#bid-multiplier-by-target) の既存のプレースメント・ターゲットに対して、アルゴリズムで計算された入札を乗算して入札を増減させる入札乗数を作成および管理できます。 1 つのプレースメントの入札乗数の値を手動で編集するか、1 つ以上のプレースメントの値を含むスプレッドシートをアップロードできます。
 
 デフォルトでは、ターゲットの入札乗数は 1.00 です。つまり、そのターゲットに対する入札は調整されません。 値の範囲は 0.10 ～ 10.00 です。例えば、入札乗数が 0.5 の場合、6 米ドルの入札は 3 米ドル（0.5 x 6）に減ります。 オークションが複数の入札修飾子に該当する場合、該当するすべての入札乗数が乗算されます。 例えば、カリフォルニアの入札乗数が 2 で、サンフランシスコの入札乗数が 3 の場合、サンフランシスコで実行される広告の最終的な入札乗数は 6 です。
 
@@ -20,33 +20,33 @@ ht-degree: 1%
 >
 >入札乗数が最大入札以上に入札を増加させることはありません。
 
-に入札乗数（1.00 以外の値）を設定できます。 [限られたターゲット数](#bid-multiplier-limits-by-target).
+入札乗数（1.00 以外の値）は、[ 限られたターゲット数 ](#bid-multiplier-limits-by-target) に設定できます。
 
-この機能は、既存のプレースメントターゲットで機能します。 プレースメントの選択したターゲットを変更するには、「」を参照してください[プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md).」と入力します。
+この機能は、既存のプレースメントターゲットで機能します。 プレースメントに対して選択したターゲットを変更するには、「[ プレースメントの編集 ](/help/dsp/campaign-management/placements/placement-edit.md) を参照してください。
 
 ## 単一プレースメントの入札乗数の管理
 
 値を手動で編集するか、1 つのプレースメント用のスプレッドシートをアップロードできます。
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
 1. キャンペーンの名前をクリックします。
 
-1. サブメニューで、 **[!UICONTROL Placements]**.
+1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
 
-1. プレースメント名の横にある「」をクリックします  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
+1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Bid Multiplier]** をクリックします。
 
 1. 適格なターゲットの入札乗数を調整します。
 
-   * 入札乗数の値を手動で調整するには、それぞれに移動します [ターゲット固有のタブ](#bid-multiplier-by-target) （[!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience]、および [!UICONTROL Brand Safety]）を選択して、プレースメントターゲットの既存の値を編集します。
+   * 入札乗数の値を手動で調整するには、各 [ ターゲット固有のタブ ](#bid-multiplier-by-target) （[!UICONTROL Geo]、[!UICONTROL Inventory]、[!UICONTROL Sites]、[!UICONTROL Audience]、[!UICONTROL Brand Safety]）に移動し、プレースメントのターゲットの既存の値を編集します。
 
      ほとんどのターゲットカテゴリには、左側にサブカテゴリが一覧表示されます。 該当する場合は、サブカテゴリをクリックして、そのサブカテゴリの入札乗数を管理します。
 
    * 入札乗数の値を含む CSV ファイルをアップロードして、既存の値をすべて上書きするには：
 
-      1. クリック **[!UICONTROL CSV File Edit]** 右上
+      1. 右上の「**[!UICONTROL CSV File Edit]**」をクリックします。
 
-      1. a） クリック **[!UICONTROL Download Template]** ファイルを編集するか、b）以前にダウンロードしたテンプレートを編集します。 編集したファイルをデバイスまたはネットワークに保存します。
+      1. a） **[!UICONTROL Download Template]** をクリックしてファイルを編集するか、または b）以前にダウンロードしたテンプレートを編集します。 編集したファイルをデバイスまたはネットワークに保存します。
 
          ダウンロードしたスプレッドシートには、ターゲットタイプ（国、ソース、サイトカテゴリなど）ごとに 1 つのシートが含まれます。 値が 1.0 未満または 1.0 を超える既存の入札乗数のみが含まれます。
 
@@ -54,29 +54,29 @@ ht-degree: 1%
 
          * 入札モディファイアを削除するには、入札乗数の値を 1.0 に設定するか、行のすべての情報を削除します。
 
-         ![入札乗数スプレッドシートファイルの行の例](/help/dsp/assets/bid-multiplier-spreadsheet.png "入札乗数スプレッドシートファイルの行の例")
+         ![ 入札乗数スプレッドシートファイルの行の例 ](/help/dsp/assets/bid-multiplier-spreadsheet.png " 入札乗数スプレッドシートファイルの行の例 ")
 
-      1. クリック **[!UICONTROL Next]** に移動します [!UICONTROL Upload File] セクションと a）編集したファイルをボックスにドラッグ&amp;ドロップするか、b）ボックス内をクリックしてデバイスまたはネットワークからファイルを選択します。
+      1. **[!UICONTROL Next]** をクリックして [!UICONTROL Upload File] セクションに移動し、a）編集したファイルをボックスにドラッグ&amp;ドロップするか、b）ボックス内をクリックしてデバイスまたはネットワークからファイルを選択します。
 
-      1. にアップロードされたデータを検証します。 [!UICONTROL Review & Submit] セクションを選択し、 **[!UICONTROL Save]**.
+      1. [!UICONTROL Review & Submit] セクションでアップロードされたデータを確認し、「**[!UICONTROL Save]**」をクリックします。
 
 ## 1 つ以上のプレースメントの入札乗数のアップロード
 
 スプレッドシートをアップロードして、選択したすべてのプレースメントに同じ値を適用します。
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
 1. キャンペーンの名前をクリックします。
 
-1. サブメニューで、 **[!UICONTROL Placements]**.
+1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
 
 1. 入札乗数を管理する各プレースメントの横にあるチェックボックスをオンにします。
 
-1. 一括アクションツールバーで、 **[!UICONTROL ...]** > **[!UICONTROL Upload Bid Multiplier Excel Sheet]**.
+1. 一括アクションツールバーで、**[!UICONTROL ...]**/**[!UICONTROL Upload Bid Multiplier Excel Sheet]** をクリックします。
 
 1. 入札乗数の値を含んだ CSV ファイルをアップロードして、選択したすべてのプレースメントの既存の値をすべて上書きします。
 
-   1. a） クリック **[!UICONTROL Download Template]** ファイルを編集するか、b）以前にダウンロードしたテンプレートを編集します。 編集したファイルをデバイスまたはネットワークに保存します。
+   1. a） **[!UICONTROL Download Template]** をクリックしてファイルを編集するか、または b）以前にダウンロードしたテンプレートを編集します。 編集したファイルをデバイスまたはネットワークに保存します。
 
       ダウンロードしたスプレッドシートには、ターゲットタイプ（国、ソース、サイトカテゴリなど）ごとに 1 つのシートが含まれます。 値が 1.0 未満または 1.0 を超える既存の入札乗数のみが含まれます。
 
@@ -84,11 +84,11 @@ ht-degree: 1%
 
       * 入札モディファイアを削除するには、入札乗数の値を 1.0 に設定するか、行のすべての情報を削除します。
 
-      ![入札乗数スプレッドシートファイルの行の例](/help/dsp/assets/bid-multiplier-spreadsheet.png "入札乗数スプレッドシートファイルの行の例")
+      ![ 入札乗数スプレッドシートファイルの行の例 ](/help/dsp/assets/bid-multiplier-spreadsheet.png " 入札乗数スプレッドシートファイルの行の例 ")
 
-   1. クリック **[!UICONTROL Next]** に移動します [!UICONTROL Upload File] セクションと a）編集したファイルをボックスにドラッグ&amp;ドロップするか、b）ボックス内をクリックしてデバイスまたはネットワークからファイルを選択します。
+   1. **[!UICONTROL Next]** をクリックして [!UICONTROL Upload File] セクションに移動し、a）編集したファイルをボックスにドラッグ&amp;ドロップするか、b）ボックス内をクリックしてデバイスまたはネットワークからファイルを選択します。
 
-   1. にアップロードされたデータを検証します。 [!UICONTROL Review & Submit] セクションを選択し、 **[!UICONTROL Save]**.
+   1. [!UICONTROL Review & Submit] セクションでアップロードされたデータを確認し、「**[!UICONTROL Save]**」をクリックします。
 
 ## 入札乗数に適格なターゲット・タイプ {#bid-multiplier-by-target}
 
@@ -96,13 +96,13 @@ ht-degree: 1%
 
 * **ジオターゲット**：地域（国、州、都市）、郵便番号、DMA
 
-* **在庫ターゲット**：公開インベントリおよび用のソースとフィード [!UICONTROL On Demand] 在庫
+* **在庫ターゲット**：公開在庫および [!UICONTROL On Demand] 用在庫のソースとフィード
 
-* **サイトのターゲット：** ターゲット（ただし除外はしない）サイト/アプリ、サイトカテゴリ
+* **サイトターゲット：** ターゲット（ただし除外はしない）サイト/アプリ、サイトカテゴリ
 
-* **オーディエンスターゲット :** セグメント、視聴時間帯、およびトピック
+* **オーディエンスターゲット：** セグメント、視聴時間帯、トピック
 
-* **ads.txt ターゲット：** （すべての販売者から在庫を購入できる ads.txt をオプトアウトする場合） ads.txt seller only、ads.txt direct seller、および ads.txt seller plus sites without ads.txt <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
+* **ads.txt targets:** （すべてのセラーから在庫を購入できる ads.txt をオプトアウトする場合） ads.txt seller only、ads.txt direct seller、および ads.txt seller plus sites without ads.txt <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
 
 ## ターゲットタイプ別の最大入札乗数 {#bid-multiplier-limits-by-target}
 
@@ -125,7 +125,7 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [プレースメント管理について](placement-about.md)
->* [プレースメントを編集](placement-edit.md)
->* [プレースメントの変更ログの表示](placement-change-log.md)
->* [プレースメント設定](placement-settings.md)
+>* [ プレースメント管理について ](placement-about.md)
+>* [ プレースメントを編集 ](placement-edit.md)
+>* [ プレースメントの変更ログを表示 ](placement-change-log.md)
+>* [ プレースメント設定 ](placement-settings.md)

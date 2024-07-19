@@ -5,8 +5,8 @@ source-wordcount: '28'
 ht-degree: 0%
 
 ---
-# テキスト広告テンプレート — ステータス
+# テキスト広告テンプレート – ステータス
 
-**[!UICONTROL Status]:** テンプレートのステータス： *[!UICONTROL Active]*, *[!UICONTROL Paused]*&#x200B;または *[!UICONTROL Deleted]*.
+**[!UICONTROL Status]:** テンプレートのステータス：*[!UICONTROL Active]*、*[!UICONTROL Paused]* または *[!UICONTROL Deleted]*。
 
-フィードデータは、アクティブなテンプレートにのみ自動的に反映されます。 ただし、一時停止したテンプレートを介してデータを手動で伝達することはできます。
+フィードデータは、アクティブなテンプレートを介してのみ自動的に伝播できます。 ただし、一時停止されたテンプレートを使用して手動でデータを伝えることはできます。

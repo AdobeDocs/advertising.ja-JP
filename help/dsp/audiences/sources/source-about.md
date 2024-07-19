@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # ファーストパーティオーディエンスソースについて
 
-*ベータ版機能*
+*Beta機能*
 
-DSPは、Customer Data Platform （CDP）内で作成されたハッシュ化されたメール ID で構成されるファーストパーティセグメントを取り込み、ユニバーサル ID で構成されるセグメントに変換できます。 結果の各 ID は人物ベースであり、広告のフリークエンシーキャップは ID レベルで適用されます<!-- Move that info. to somewhere else? -->.
+DSPは、Customer Data Platform （CDP）内で作成されたハッシュ化されたメール ID で構成されるファーストパーティセグメントを取り込み、ユニバーサル ID で構成されるセグメントに変換できます。 結果として得られる各 ID は人物ベースであり、広告のフリークエンシーキャップは ID レベル <!-- Move that info. to somewhere else? --> で適用されます。
 
 セグメントの詳細には、各ユニバーサル ID タイプのサイズと、Cookie またはデバイス ID によって追跡される各デバイスタイプのサイズが含まれます。
 
@@ -38,13 +38,13 @@ Using your first-party data, you can create segments with IDs from the following
 
      料金は、配信されたディスプレイ広告インプレッションあたり 0.15 ドル、配信されたビデオ広告インプレッションあたり 0.25 ドルです。
 
-   * を使用した測定 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
+   * [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) を使用した測定に。
 
 * [[!DNL Unified ID 2.0 (UID2.0)] ID](https://unifiedid.com):
 
    * ログインしたユーザーをリターゲティングする場合。
 
-     [!DNL UID2 IDs] は、欧州経済地域および一部の国のユーザーは使用できません。 を参照してください。 [禁止国のリスト](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+     [!DNL UID2 IDs] は、欧州経済地域および一部の国のユーザーは利用できません。 [ 禁止国のリスト ](/help/policies/universal-id-policy.md#prohibited-countries-uid2) をご覧ください。
 
      料金は、配信されたディスプレイ広告インプレッションあたり 0.15 ドル、配信されたビデオ広告インプレッションあたり 0.25 ドルです。
 
@@ -72,35 +72,35 @@ DSPは、バッチ、ストリーミング、または API ベースのデータ
 
 ### [!DNL Adobe Real-Time Customer Data Platform]
 
-DSPはの統合 *宛先* （用） [この [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)（Adobe Experience Platformの一部）
+DSPは、Adobe Experience Platformの一部である [the [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html) の統合 *宛先* です。
 
-対象： [!DNL Real-Time CDP]の宛先は、シームレスなデータのアクティベーションを可能にする外部データプラットフォームへの接続です。 宛先を使用して、DSPでのターゲット広告用にハッシュ化されたメールアドレスをアクティブ化できます。 宛先について詳しくは、Experience Platformを参照してください [宛先ガイド](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)製品の概要、説明を含む [宛先ワークスペースの作成](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) および [宛先接続の作成](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)、および [宛先へのデータのアクティブ化](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
+ま [!DNL Real-Time CDP]、宛先は、シームレスなデータのアクティベーションを可能にする外部データプラットフォームへの接続です。 宛先を使用して、DSPでのターゲット広告用にハッシュ化されたメールアドレスをアクティブ化できます。 宛先について詳しくは、Experience Platformの概要、[ 宛先ワークスペースの作成 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html) および [ 宛先接続の作成 [ の手順 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) 宛先へのデータのアクティベート ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) など、製品 [ 宛先ガイド ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html) を参照してください。
 
-DSPでのデータの取り込みを有効にするには [!DNL Adobe] [!DNL Real-time CDP] ファーストパーティセグメントを変換し、ハッシュ化されたメールアドレスをユニバーサル ID に変換します。詳しくは、「[からのユーザー ID の変換 [!DNL Adobe Real-Time CDP] ユニバーサル ID に](/help/dsp/audiences/sources/source-adobe-rtcdp.md).」と入力します。
+DSPが [!DNL Adobe] ーザーをファーストパーティセグメント [!DNL Real-time CDP] 取り込み、ハッシュ化されたメールアドレスをユニバーサル ID に変換できるようにするには、「[ ユーザー ID を  [!DNL Adobe Real-Time CDP]  ユニバーサル ID から変換 ](/help/dsp/audiences/sources/source-adobe-rtcdp.md) を参照してください。
 
 ### [!DNL ActionIQ]
 
-から組織のファーストパーティデータを共有できます [!DNL ActionIQ] DSPを使用した customer data platform：ハッシュ化されたメールアドレスをユニバーサル ID に変換して、DSPでのターゲット広告を実現します。 この統合にはカスタマイズが必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+組織のファーストパーティデータを [!DNL ActionIQ] Customer Data Platform からDSPと共有して、DSPでターゲット広告を行うために、ハッシュ化されたメールアドレスをユニバーサル ID に変換できます。 この統合にはカスタマイズが必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
 
 ### [!DNL Amperity]
 
-から組織のファーストパーティデータを共有できます [!DNL Amperity] DSPを使用した customer data platform：ハッシュ化されたメールアドレスをユニバーサル ID に変換して、DSPでのターゲット広告を実現します。 詳しくは、「」を参照してください[からのユーザー ID の変換 [!DNL Amperity] ユニバーサル ID に](/help/dsp/audiences/sources/source-amperity.md).」と入力します。
+組織のファーストパーティデータを [!DNL Amperity] Customer Data Platform からDSPと共有して、DSPでターゲット広告を行うために、ハッシュ化されたメールアドレスをユニバーサル ID に変換できます。 詳しくは、[ ユーザー ID をユニバーサル ID から  [!DNL Amperity]  ユニバーサル ID に変換 ](/help/dsp/audiences/sources/source-amperity.md) を参照してください。
 
 ### [!DNL Optimizely]
 
-から組織のファーストパーティデータを共有できます [!DNL Optimizely] DSPを使用した customer data platform：ハッシュ化されたメールアドレスをユニバーサル ID に変換して、DSPでのターゲット広告を実現します。 詳しくは、「」を参照してください[からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル ID に](/help/dsp/audiences/sources/source-optimizely.md).」と入力します。
+組織のファーストパーティデータを [!DNL Optimizely] Customer Data Platform からDSPと共有して、DSPでターゲット広告を行うために、ハッシュ化されたメールアドレスをユニバーサル ID に変換できます。 詳しくは、[ ユーザー ID をユニバーサル ID から  [!DNL Optimizely]  ユニバーサル ID に変換 ](/help/dsp/audiences/sources/source-optimizely.md) を参照してください。
 
 ### [!DNL Tealium]
 
-から組織のファーストパーティデータを共有できます [!DNL Tealium] を使用した顧客データプラットフォーム [!DNL Amazon Web Services]. DSPでのターゲット広告用にハッシュ化されたメールアドレスをユニバーサル ID に変換する方法について詳しくは、「」を参照してください[からのユーザー ID の変換 [!DNL Tealium] ユニバーサル ID に](/help/dsp/audiences/sources/source-tealium.md).」と入力します。
+[!DNL Amazon Web Services] を使用して、組織のファーストパーティデータを [!DNL Tealium] 顧客データプラットフォームから共有できます。 DSPでのターゲット広告のためにハッシュ化されたメールアドレスをユニバーサル ID に変換する方法について詳しくは、「[ ユーザー ID をユニバーサル ID から  [!DNL Tealium]  ユニバーサル ID に変換 ](/help/dsp/audiences/sources/source-tealium.md)」を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化](source-manage.md)
->* [ユニバーサル ID の有効化のサポート](/help/dsp/audiences/universal-ids.md)
->* [からのユーザー ID の変換 [!DNL Adobe Real-Time CDP] ユニバーサル ID に](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [からのユーザー ID の変換 [!DNL Amperity] ユニバーサル ID に](/help/dsp/audiences/sources/source-amperity.md)
->* [からのユーザー ID の変換 [!DNL Optimizely] ユニバーサル ID に](/help/dsp/audiences/sources/source-optimizely.md)
->* [からのユーザー ID の変換 [!DNL Tealium] ユニバーサル ID に](/help/dsp/audiences/sources/source-tealium.md)
->* [Audience Management について](/help/dsp/audiences/audience-about.md)
->* [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ ユニバーサル ID オーディエンスをアクティブ化するためのオーディエンスソースの管理 ](source-manage.md)
+>* [ ユニバーサル ID のアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)
+>* [ ユーザー ID をユニバーサル ID から  [!DNL Adobe Real-Time CDP]  ユニバーサル ID に変換 ](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [ ユーザー ID をユニバーサル ID から  [!DNL Amperity]  ユニバーサル ID に変換 ](/help/dsp/audiences/sources/source-amperity.md)
+>* [ ユーザー ID をユニバーサル ID から  [!DNL Optimizely]  ユニバーサル ID に変換 ](/help/dsp/audiences/sources/source-optimizely.md)
+>* [ ユーザー ID をユニバーサル ID から  [!DNL Tealium]  ユニバーサル ID に変換 ](/help/dsp/audiences/sources/source-tealium.md)
+>* [Audience Management について ](/help/dsp/audiences/audience-about.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)

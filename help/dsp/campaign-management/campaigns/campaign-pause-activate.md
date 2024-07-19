@@ -18,8 +18,8 @@ ht-degree: 0%
 
 ## キャンペーンの一時停止
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
-1. キャンペーン名の横にある、  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
+1. キャンペーン名の横で、**[!UICONTROL ...]**/**[!UICONTROL Pause]** をクリックします。
 
 >[!NOTE]
 >
@@ -27,10 +27,10 @@ ht-degree: 0%
 
 ## キャンペーンのアクティブ化
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
-1. キャンペーン名の横にある、  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
+1. キャンペーン名の横で、**[!UICONTROL ...]**/**[!UICONTROL Activate]** をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [キャンペーンの編集](campaign-edit.md)
->* [キャンペーンのアーカイブ](campaign-archive-unarchive.md)
+>* [ キャンペーンの編集 ](campaign-edit.md)
+>* [ キャンペーンのアーカイブ ](campaign-archive-unarchive.md)

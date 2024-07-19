@@ -1,36 +1,36 @@
 ---
-title: の編集 [!DNL Google Analytics] データソース
-description: の設定を編集する方法を説明します。 [!DNL Google Analytics] データソース。
+title: データソース  [!DNL Google Analytics]  編集
+description: データソースの設定を編集する方法  [!DNL Google Analytics]  説明します。
 role: User, Admin
-exl-id: a23444f7-8f4c-42ba-b5fe-a325fb18136d
+exl-id: d3c6c8d6-d427-4a2d-8260-850e61d3cd4d
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# の編集 [!DNL Google Analytics] データソース
+# [!DNL Google Analytics] データソースの編集
 
-*代理店管理者（基本ロール）、Adobeアカウントマネージャ、および管理者のみ*
+*代理店管理者（基本役割）、Adobeアカウント管理者、管理者のみ*
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Data Source Setup]** をクリックします。
 
 1. 編集するデータソースの横にあるチェックボックスをオンにします。
 
-1. データテーブルの上にあるツールバーで、 ![編集](/help/search-social-commerce/assets/edit.png "編集").
+1. データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")] をクリックします。
 
-1. を編集します。 [データソース設定](data-source-settings.md).
+1. [ データソース設定 ](data-source-settings.md) を編集します。
 
-1. クリック **[!UICONTROL Post]**.
+1. 「**[!UICONTROL Post]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [同期について [!DNL Google Analytics] コンバージョン指標](data-source-about.md)
->* [の設定の前提条件 [!DNL Google Analytics] データソース](data-source-prerequisites.md)
->* [の設定 [!DNL Google Analytics] データソースとして表示](data-source-configure.md)
->* [データソースの同期を一時停止する](data-source-pause.md)
->* [の再認証 [!DNL Google Analytics] データソース](data-source-reauthenticate.md)
->* [[!DNL Google Analytics] データソース設定](data-source-settings.md)
->* [付録 — 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)
+>* [ 同期  [!DNL Google Analytics]  コンバージョン指標について ](data-source-about.md)
+>* [ データソースを設定するため  [!DNL Google Analytics]  前提条件 ](data-source-prerequisites.md)
+>* [ データソースとして  [!DNL Google Analytics]  ビューを設定する ](data-source-configure.md)
+>* [ データソースの同期の一時停止 ](data-source-pause.md)
+>* [ データソース  [!DNL Google Analytics]  再認証 ](data-source-reauthenticate.md)
+>* [[!DNL Google Analytics]  データソース設定 ](data-source-settings.md)
+>* [ 付録 – 利用可能  [!DNL Google Analytics]  指標 ](data-source-ga-metrics.md)

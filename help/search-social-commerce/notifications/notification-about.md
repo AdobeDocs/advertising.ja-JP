@@ -1,6 +1,6 @@
 ---
 title: 通知について
-description: 様々なタイプやカテゴリを含む通知について説明します。
+description: 様々なタイプやカテゴリなど、通知について説明します。
 exl-id: 79495e1c-72ce-476f-83df-c4d95391f51c
 feature: Search Notifications
 source-git-commit: 49dc6a4a18966bbf68402d70aec9574ed11e1886
@@ -12,57 +12,57 @@ ht-degree: 0%
 
 # 通知について
 
-*ベータ版機能*
+*Beta機能*
 
-異なる種類のアラートを購読または購読解除するように、通知設定を構成できます。 通知は、次のいずれかの方法で表示できます。
+様々なタイプのアラートを購読または購読解除するように、通知設定を設定できます。 通知は、次のいずれかの方法で表示できます。
 
-* 次から： [!UICONTROL Notifications] パネル（のメインメニューから利用可能） ![通知](/help/search-social-commerce/assets/notifications-panel.png "通知").
+* ![ 通知 ](/help/search-social-commerce/assets/notifications-panel.png " 通知 ") のメインメニューから使用できる [!UICONTROL Notifications] パネルから。
 
-* 送信者 [!UICONTROL Insights & Reports] > [!UICONTROL Notification Center Beta].
+* [!UICONTROL Insights & Reports]/[!UICONTROL Notification Center Beta] から。
 
-* から [!UICONTROL Notification Center] 開く web アプリケーション [!UICONTROL Notification Center] を使用して、Search、Social、および Commerce 以外の別のウィンドウに表示します。
+* 検索、ソーシャル、Commerce以外の別のウィンドウで [!UICONTROL Notification Center] を開く [!UICONTROL Notification Center] Web アプリケーションから。
 
-  アプリケーションは、通常のブラウザーバージョンよりも高速に読み込まれ、自動的に更新されます。 アプリケーションをインストールし、ブラウザーのアプリマネージャーを使用して管理できます。
+  このアプリケーションは、通常のブラウザーバージョンよりも高速に読み込まれ、自動的に更新されます。 アプリケーションをインストールし、ブラウザーのアプリマネージャーを使用して管理できます。
 
-* プッシュ通知からブラウザーに送信します。
+* プッシュ通知からブラウザーへ。
 
-  プッシュ通知を有効にすると、ブラウザーの通知規則に従って通知が表示されます。
+  プッシュ通知を有効にすると、ブラウザーの通知規則に従って表示されます。
 
-通知の表示、通知の既読または未読としてのマーク、通知の削除を行うことができます。
+通知を表示したり、通知を既読または未読としてマークしたり、通知を削除したりできます。
 
 ## 通知タイプ
 
-* **[!UICONTROL Notices]**：リリース、ダウンタイム、その他の変更管理に関する注意事項。
+* **[!UICONTROL Notices]**: リリース、ダウンタイムおよびその他の変更管理通知。
 
-* **[!UICONTROL Recommendations]**：パフォーマンスを向上させ、ベストプラクティスを実装するために特定されたオポチュニティ。
+* **[!UICONTROL Recommendations]**：パフォーマンスの向上、ベストプラクティスの実装などを目的とした機会が特定されました。
 
-* **[!UICONTROL Warnings]**：注意が必要ですが、最適化や管理にとって重要でない問題。
+* **[!UICONTROL Warnings]**：注意が必要だが、最適化や管理にとって重要ではない問題。
 
-* **[!UICONTROL Issues]**：すぐに対処する必要がある重要な問題。 アカウント認証エラー通知が含まれます。
+* **[!UICONTROL Issues]**：即時対応が必要な重大な問題。 アカウント認証エラー通知が含まれています。
 
 ## 通知カテゴリ
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**: [バルクシート操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) が完了したか、失敗しました。
+   * **[!UICONTROL Bulksheets]**: [ バルクシート操作 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) が完了または失敗したことを示す通知。
 
-   * **[!UICONTROL Manager Account Missing]**:Search、Social、および Commerce に関する通知に、 [ad network manager アカウント](/help/search-social-commerce/admin/manager-accounts.md)：重要な関数を正しく設定するために必要です。
+   * **[!UICONTROL Manager Account Missing]**：検索、ソーシャル、Commerceに、重要な機能を正しく設定するために必要な [ad network manager アカウント ](/help/search-social-commerce/admin/manager-accounts.md) の資格情報が欠落しているという通知。
 
-   * **[!UICONTROL UI Actions]**：バックグラウンドで実行されたジョブが完了した、または失敗したことを示す通知。 ジョブタイプには以下が含まれます。 [バルクシートジョブ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、データテーブル内のジョブ、またはユーザーインターフェイス内のツールバー、エンティティ割り当てジョブ、その他のアクション（広告ネットワークとの同期、行の貼り付け、エンティティの名前変更など）を使用して、ジョブを一括編集できます。 エンティティの割り当てには、 [ラベル分類値](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) 任意のエンティティに対して、キャンペーンをポートフォリオに割り当て、ポートフォリオに制約を割り当てたり、割り当てを解除したりします。<!--Link "constraint" to constraint-about.md if that file is ever public -->
+   * **[!UICONTROL UI Actions]**：バックグラウンドで実行されるジョブが完了または失敗したことを示す通知。 ジョブタイプには、[ バルクシートジョブ ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、データテーブル内の一括編集ジョブ、ツールバーを使用した一括編集ジョブ、エンティティ割り当てジョブ、ユーザーインターフェイス内のその他のアクション（広告ネットワークとの同期、行の貼り付け、エンティティの名前変更など）が含まれます。 エンティティの割り当てには、任意のエンティティへの [ ラベル分類値 ](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) の割り当てまたは割り当て解除、ポートフォリオへのキャンペーンの割り当て、ポートフォリオへの制約の割り当てまたは割り当て解除が含まれます。<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
    * [!UICONTROL Data Upload]
 
-      * **[!UICONTROL Direct File Upload]**：クローズ済みベータ版に使用されます。
+      * **[!UICONTROL Direct File Upload]**：クローズドベータ版に使用
 
-      * **[!UICONTROL File Upload to Cloud Storage]**：クローズ済みベータ版に使用されます。
+      * **[!UICONTROL File Upload to Cloud Storage]**：クローズドベータ版に使用
 
    * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Account Auth Error]**：検索、ソーシャル、コマースで [広告ネットワークアカウント](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 無効な資格情報、無効な認証トークン、または期限切れの認証トークンが原因です。
+      * **[!UICONTROL Account Auth Error]**：資格情報が無効であるか、認証トークンが無効または期限切れのため、検索、ソーシャル、Commerceが ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)ad network account[ にアクセスできなかったことを示す通知。
 
-      * **[!UICONTROL Account Missing]**:Search、Social、および Commerce に関する通知に、 [広告ネットワークアカウント](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+      * **[!UICONTROL Account Missing]**：検索、ソーシャル、Commerceに [ad ネットワークアカウント ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) の資格情報がないという通知。
 
-      * **[!UICONTROL Manager Account Auth Error]**：検索、ソーシャル、コマースが [ad network manager アカウント](/help/search-social-commerce/admin/manager-accounts.md) 無効な資格情報、無効な認証トークン、または期限切れの認証トークンが原因です。
+      * **[!UICONTROL Manager Account Auth Error]**：資格情報が無効であるか、認証トークンが無効または期限切れのため、検索、ソーシャル、Commerceが ](/help/search-social-commerce/admin/manager-accounts.md)ad network manager アカウント [ と同期できなかったことを示す通知。
 
   <!--
   * [!UICONTROL Setup Errors]
@@ -74,13 +74,13 @@ ht-degree: 0%
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Advertising Insights]**：通知 [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) が完了したか、失敗しました。
+   * **[!UICONTROL Advertising Insights]**: [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) が完了または失敗した通知。
 
-   * **[!UICONTROL Custom Alerts]**：通知 [アラートインスタンス](/help/search-social-commerce/alerts/alert-about.md) は、アラートテンプレートに対してトリガーされました。
+   * **[!UICONTROL Custom Alerts]**：アラートテンプレートに対して [ アラートインスタンス ](/help/search-social-commerce/alerts/alert-about.md) がトリガーされた通知。
 
-   * **[!UICONTROL Reports]**: [カスタムレポートまたは予定レポート](/help/search-social-commerce/reports/report-about.md) が完了したか、失敗しました。
+   * **[!UICONTROL Reports]**: [ カスタムレポートまたは予定レポート ](/help/search-social-commerce/reports/report-about.md) が完了または失敗したことを示す通知。
 
-   * **[!UICONTROL Spreadsheet Feeds]**: [スプレッドシートフィード](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) が完了したか、失敗しました。
+   * **[!UICONTROL Spreadsheet Feeds]**: [ スプレッドシートフィード ](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) が完了または失敗したことを示す通知。
 
 <!--
 * [!UICONTROL Optimization]
@@ -105,9 +105,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [通知を表示する](notification-view.md)
->* [通知を既読または未読としてマーク](notification-mark-read-unread.md)
->* [通知の削除](notification-delete.md)
->* [通知設定を編集](notification-edit.md)
->* [次のプッシュ通知を有効/無効にする： [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
->* [をインストールしてアンインストールします。 [!UICONTROL Notification Center] web アプリケーション](notification-app-install-uninstall.md)
+>* [ 通知の表示 ](notification-view.md)
+>* [ 通知を既読または未読としてマーク ](notification-mark-read-unread.md)
+>* [ 通知の削除 ](notification-delete.md)
+>* [ 通知設定の編集 ](notification-edit.md)
+>* [[!UICONTROL Notification Center]](notifications-push-enable-disable.md) からのプッシュ通知の有効化と無効化
+>* [[!UICONTROL Notification Center] Web アプリケーションをインストールしてアンインストールする ](notification-app-install-uninstall.md)

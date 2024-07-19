@@ -1,30 +1,30 @@
 ---
 title: 列見出しメニューからのデータフィルターの適用
-description: 列見出しメニューからページデータをフィルタリングする方法を説明します。
-exl-id: ad745599-fd98-4f34-b181-085070adb685
+description: 列見出しメニューのからページデータをフィルタリングする方法を説明します。
+exl-id: 508f254a-d859-4155-9bbd-84e0442f01d5
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
 # 列見出しメニューからのデータフィルターの適用
 
-1 つの列に対して、必要な数のフィルターを 1 つずつ適用できます。 すべてのフィルターは、AND 演算子を使用して結合されます。 利用可能なすべての指標を使用して一度に複数のフィルターを追加するには、「[ツールバーからのデータフィルターの適用](column-filter-apply-from-toolbar.md).&quot;
+1 つの列に必要な数だけフィルターを適用できます。 すべてのフィルターは、AND 演算子を使用して結合されます。 使用可能なすべての指標を使用して一度に複数のフィルターを追加するには、「[ ツールバーからのデータフィルターの適用 ](column-filter-apply-from-toolbar.md) を参照してください。
 
-1. 列見出しの右側で、 ![下向き矢印](/help/search-social-commerce/assets/arrow-down-dropdown.png "下向き矢印")をクリックし、 **[!UICONTROL Add Filter]**.
+1. 列見出しの右側にある ![ 下向き矢印 ](/help/search-social-commerce/assets/arrow-down-dropdown.png " 下向き矢印 ") をクリックし、[**[!UICONTROL Add Filter]**] をクリックします。
 
-1. 列でフィルターを定義します。
+1. 列のフィルターを定義：
 
-   * （入力フィールドを含まないフィルター）含める各値の横にあるチェックボックスをオンにし、 ![フィルターを更新](/help/search-social-commerce/assets/select.png "フィルターを更新").
+   * （入力フィールドを含まないフィルター）含める各値の横にあるチェックボックスをオンにして、「![ フィルターを更新 ](/help/search-social-commerce/assets/select.png " フィルターを更新 ")」をクリックします。
 
-   * （入力フィールドを含むフィルター）2 番目のメニューから演算子を選択し、適切な値を入力して、 ![フィルターを更新](/help/search-social-commerce/assets/select.png "フィルターを更新").
+   * （入力フィールド付きのフィルター） 2 番目のメニューから演算子を選択し、適切な値を入力して、![ フィルターを更新 ](/help/search-social-commerce/assets/select.png " フィルターを更新 ") をクリックします。
 
-     例えば、[!UICONTROL Clicks]」列をクリックし、100 回を超えるクリック数の行のみを返したい場合は、 *[!UICONTROL greater than]*」と入力し、 `100` 入力フィールド：データタイプに応じて、使用可能な演算子には次のものが含まれます。 *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]*&#x200B;または *[!UICONTROL no date].*
+     例えば、「[!UICONTROL Clicks]」列を選択して、100 回を超えるクリックがある行のみを返す場合は、「*[!UICONTROL greater than]*」を選択し、入力フィールドに「`100`」と入力します。データ型に応じて、使用可能な演算子には *[!UICONTROL greater than]*、*[!UICONTROL less than]*、*[!UICONTROL equals]*、*[!UICONTROL contains]*、*[!UICONTROL doesn't contain]*、*[!UICONTROL starts with]*、*[!UICONTROL ends with]*、*[!UICONTROL no value]*、*[!UICONTROL has value]*、*[!UICONTROL before]*、*[!UICONTROL after]* または *[!UICONTROL no date]が含まれます。*
 
      >[!NOTE]
      >
-     >* テキスト値では大文字と小文字が区別されません。 例えば、名前に「loan」が含まれるキャンペーンでフィルターする場合、結果には「Consumer Loans」と「loan applications」が含まれます。
-     >* 適用できる単純な数値フィルターは 1 つだけです ( 例： [!UICONTROL Impressions] \> 100) を返します。
+     >* テキスト値では、大文字と小文字が区別されません。 例えば、名前に「loan」が含まれるキャンペーンでフィルタリングした場合、結果には「Consumer Loans」と「loan applications」が含まれます。
+     >* 単純な数値フィルター（[!UICONTROL Impressions] \> 100 など）は、1 列につき 1 つだけ適用できます。

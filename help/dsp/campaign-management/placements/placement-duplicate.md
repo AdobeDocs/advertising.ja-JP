@@ -21,29 +21,29 @@ ht-degree: 0%
 * （元のキャンペーン内でプレースメントが重複している場合）オプションで、元の広告を複製します
 * 新しいプレースメントのステータスとフライト日を変更する
 
-参照先」[重複していない点](#placement-not-duplicated)重複していないプレースメント設定のリストの場合。
+重複しないプレースメント設定のリストについては ](#placement-not-duplicated) 重複していないもの [ を参照してください。
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
 1. キャンペーンの名前をクリックします。
 
-1. サブメニューで、 **[!UICONTROL Placements]**.
+1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
 
 1. 次のいずれかの操作をおこないます。
 
-   * 1 つのプレースメントを複製するには、をクリックします  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** パッケージ名の隣。
+   * 1 つのプレースメントを複製するには、パッケージ名の横にある **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** をクリックします。
 
    * 複数のプレースメントを複製するには：
 
       1. 複製する各プレースメントの横にあるチェックボックスをオンにします。
 
-      1. 一括アクションツールバーで、 **[!UICONTROL Duplicate]**.
+      1. 一括アクションツールバーで、「**[!UICONTROL Duplicate]**」をクリックします。
 
 1. 新しい配置設定を指定します。
 
    1. （単一プレースメント）新しいプレースメント名を入力します。
 
-   1. が含まれる **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**のいずれかを選択します[!UICONTROL No package]*.
+   1. **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**[!UICONTROL No package]*を選択します。
 
    1. （任意）デフォルト設定を変更します。
 
@@ -51,9 +51,9 @@ ht-degree: 0%
 
    デフォルトでは、新しいプレースメントは元の広告タイプ用であり、元の広告主とキャンペーンに割り当てられ、当日に開始するフライトスケジュールがあり、一時停止されており、元の広告は含まれません。
 
-   複数のプレースメントを作成する場合、新しいプレースメント名には、規則 &lt; を使用して順番に数字が追加されます&#x200B;*original_placement_name #N*> （「マイプレースメント#2」など）。
+   複数のプレースメントを作成する場合、「My Placement #2」などの規則 &lt;*original_placement_name #N*> に従って、新しいプレースメント名に数字が順番に追加されます。
 
-1. クリック **[!UICONTROL Submit]**.
+1. 「**[!UICONTROL Submit]**」をクリックします。
 
 ## 重複していない点 {#placement-not-duplicated}
 
@@ -62,17 +62,17 @@ ht-degree: 0%
 * 実験設定
 * （フライトの日付を変更する場合）カスタム広告スケジュール
 * （広告を添付しない場合）カスタム広告の重み付けとスケジュール
-* プログラム保証（PG）取引およびプレースメントのデフォルトのプレースメント [!UICONTROL Simple Ad Serving] 契約
+* プログラム保証（PG）取引のデフォルトのプレースメントと [!UICONTROL Simple Ad Serving] の取引のプレースメント
 * （プレースメントを別のキャンペーンにコピーする場合）:
    * ジオターゲット
    * イベントピクセル
    * 広告
-   * プレースメントレベル [!DNL DoubleVerify Authentic Brand Safety] セグメント（広告主レベルのセグメントを上書きします）
+   * プレースメントレベルの [!DNL DoubleVerify Authentic Brand Safety] セグメント（広告主レベルのセグメントを上書きします）
 
 >[!MORELIKETHIS]
 >
->* [プレースメント管理について](placement-about.md)
->* [プレースメントの作成](placement-create.md)
->* [プレースメントを編集](placement-edit.md)
->* [プレースメントの変更ログの表示](placement-change-log.md)
->* [プレースメント設定](placement-settings.md)
+>* [ プレースメント管理について ](placement-about.md)
+>* [ プレースメントの作成 ](placement-create.md)
+>* [ プレースメントを編集 ](placement-edit.md)
+>* [ プレースメントの変更ログを表示 ](placement-change-log.md)
+>* [ プレースメント設定 ](placement-settings.md)

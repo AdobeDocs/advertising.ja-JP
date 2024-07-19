@@ -1,46 +1,46 @@
 ---
-title: 同期について [!DNL Google Analytics] コンバージョン指標
-description: 同期の詳細 [!DNL Google Analytics] 最適化およびレポート用のコンバージョン指標。
+title: 同期  [!DNL Google Analytics]  コンバージョン指標について
+description: 最適化およびレポートのための同期  [!DNL Google Analytics]  コンバージョン指標について説明します。
 role: User, Admin
-exl-id: 0c263ced-3774-4d4b-9d61-65289cd74027
+exl-id: 32d0ba22-5c27-4f50-9886-1c09d2da952c
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
 
-# 同期について [!DNL Google Analytics] コンバージョン指標
+# コンバージョン指標 [!DNL Google Analytics] 同期について
 
-検索、ソーシャル、コマースで、特定の [!DNL Google Analytics] 最適化とレポートのためのアカウント、プロパティ、およびビューの組み合わせ。 [ページビュー数](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=page_tracking&amp;jump=ga_pageviews), [セッション](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=session&amp;jump=ga_sessions), [バウンス率](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=session&amp;jump=ga_bouncerate) （バウンス/セッションとして計算） [セッション時間](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=session&amp;jump=ga_sessionduration) が自動的に含まれます。 1 つのデータソースにつき最大 16 個の指標を追加できます。
+検索、ソーシャルおよびCommerceでは、特定の [!DNL Google Analytics] アカウント、プロパティ、ビューの組み合わせのコンバージョン指標を同期して、最適化とレポートを実現できます。 [ ページビュー数 ](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=page_tracking&amp;jump=ga_pageviews)、[ セッション数 ](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=session&amp;jump=ga_sessions)、[ バウンス率 ](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=session&amp;jump=ga_bouncerate) （バウンス/セッションとして計算）、[ セッション時間 ](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=session&amp;jump=ga_sessionduration) が自動的に含まれます。 データソースごとに最大 16 個の追加指標を含めることができます。
 
 >[!NOTE]
 >
->Advertising DSPユーザーは、コンバージョン指標をカスタム目標として、またレポートで使用できます。
+>Advertising DSP ユーザーは、コンバージョン指標をカスタム目標およびレポートとして使用できます。
 
-データ転送のすべての API 使用状況は、該当する [!DNL Google Analytics] アカウント。 このプロジェクトのクォータは、で表示できます。 [の [!DNL Google API Console]](https://console.developers.google.com/apis/api/analytics-json.googleapis.com/quotas). 詳しくは、 [!DNL Google Analytics] 詳細に関するドキュメント [レポート API リクエストの割り当てと呼び出し制限](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
+データ転送のすべての API 使用状況は、該当する [!DNL Google Analytics] アカウントのプロジェクトに対して評価されます。 このプロジェクトの割り当て量は、[the [!DNL Google API Console]](https://console.developers.google.com/apis/api/analytics-json.googleapis.com/quotas) で確認できます。 [ レポート API リクエストのクォータと呼び出し制限 ](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas) について詳しくは、[!DNL Google Analytics] のドキュメントを参照してください。
 
-以下の手順は、からコンバージョンデータを同期するプロセスの概要を示しています。 [!DNL Google Analytics].
+次の手順は、[!DNL Google Analytics] からコンバージョンデータを同期するプロセスの概要を示しています。
 
-1. [前提条件のタスクを実行します](data-source-prerequisites.md)
+1. [前提条件タスクの実行](data-source-prerequisites.md)
 
-   * Adobe Advertisingトークン (`ef_id` クエリー文字列パラメーター ) を含める必要があります。
+   * 該当するすべて `ef_id` 広告アカウントのランディングページ URL にAdobe Advertisingトークン（クエリ文字列パラメーター）を実装します。
 
-   * Adobe Advertisingトークン (`ef_id` クエリー文字列パラメーター ) [!DNL Custom Dimension] in [!DNL Google Analytics].
+   * [!DNL Google Analytics] の [!DNL Custom Dimension] にAdobe Advertisingトークン（クエリ文字列パラメーター `ef_id`）を取り込みます。
 
-1. （代理アカウント管理者、代理アカウント管理者） [!DNL Adobe] アカウントマネージャー、および管理者ユーザーのみ ) [次の時間ごとに 1 つのデータソースを作成 [!DNL Google Analytics] アカウント、プロパティ、ビューの組み合わせ](data-source-configure.md).
+1. （代理店アカウント管理者、代理店アカウントマネージャー、[!DNL Adobe] ーザーアカウントマネージャー、管理者ユーザーのみ） [ アカウント、プロパティ  [!DNL Google Analytics]  ビューの組み合わせごとに 1 つのデータソースを作成 ](data-source-configure.md) ます。
 
-   単一のプロパティに対して複数のプロパティの指標や複数の表示の指標を統合するには、それぞれに対して個別のデータソースを設定します。
+   複数のプロパティまたは単一のプロパティの複数のビューの指標を統合するには、それぞれに個別のデータソースを設定します。
 
-   データソースが設定されると、Search、Social、&amp; Commerce は、広告主のタイムゾーンの 05:00 から毎日データを取り込みます。 指標が使用可能になったら、必要に応じて、キャンペーンおよびポートフォリオ管理ビューとレポートに含め、最適化目標に使用できます。
+   データソースが設定されると、検索、ソーシャルおよびCommerceは、広告主のタイムゾーンの 05:00 から毎日データを取り込みます。 指標が使用可能になったら、必要に応じて、キャンペーン管理ビューやポートフォリオ管理ビューおよびレポートに指標を含め、最適化目標で使用できます。
 
 >[!MORELIKETHIS]
 >
->* [の設定の前提条件 [!DNL Google Analytics] データソース](data-source-prerequisites.md)
->* [の設定 [!DNL Google Analytics] データソースとして表示](data-source-configure.md)
->* [の編集 [!DNL Google Analytics] データソース](data-source-edit.md)
->* [データソースの同期を一時停止する](data-source-pause.md)
->* [の再認証 [!DNL Google Analytics] データソース](data-source-reauthenticate.md)
->* [[!DNL Google Analytics] データソース設定](data-source-settings.md)
->* [付録 — 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)
+>* [ データソースを設定するため  [!DNL Google Analytics]  前提条件 ](data-source-prerequisites.md)
+>* [ データソースとして  [!DNL Google Analytics]  ビューを設定する ](data-source-configure.md)
+>* [ データソース  [!DNL Google Analytics]  編集 ](data-source-edit.md)
+>* [ データソースの同期の一時停止 ](data-source-pause.md)
+>* [ データソース  [!DNL Google Analytics]  再認証 ](data-source-reauthenticate.md)
+>* [[!DNL Google Analytics]  データソース設定 ](data-source-settings.md)
+>* [ 付録 – 利用可能  [!DNL Google Analytics]  指標 ](data-source-ga-metrics.md)

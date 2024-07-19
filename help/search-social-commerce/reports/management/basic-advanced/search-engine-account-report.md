@@ -1,24 +1,24 @@
 ---
 title: '[!UICONTROL Search Engine Account Report]'
-description: 詳しくは、 [!UICONTROL Search Engine Account Report].
-exl-id: 33866770-4ad4-40fa-9db4-3c686e33b1d4
+description: '[!UICONTROL Search Engine Account Report] について説明します。'
+exl-id: 83f3c42e-8488-48e5-8b47-199b52deb2dd
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Search Engine Account Report]
 
-The [!UICONTROL Search Engine Account Report] キャンペーンを使用する 1 つ以上の広告ネットワークアカウントのコスト、クリック、（オプションで）コンバージョンのデータが含まれます。 デフォルトでは、データには、指定した日付範囲の各時間単位に対して適用可能なアカウントごとに 1 つの行が含まれ、行は、広告ネットワークで最初に、次にアカウントで昇順に表示されます。
+[!UICONTROL Search Engine Account Report] には、キャンペーンを使用する 1 つ以上の広告ネットワークアカウントのコスト、クリック数および（オプションで）コンバージョンデータが含まれます。 デフォルトでは、指定した日付範囲の時間単位ごとに、該当するアカウントごとに 1 つの行がデータに含まれています。行は最初に広告ネットワークで、次にアカウントで昇順になっています。
 
-過去 36 ヶ月のデータを表示できます。
+過去 36 か月のデータを表示できます。
 
 ## デフォルトの列
 
-すべてのデフォルト列とカスタム列の説明については、[基本レポートと高度なレポートのレポート列](basic-advanced-report-columns.md).&quot;
+すべてのデフォルト列およびカスタム列の説明は、[ 基本および詳細レポートのレポート列 ](basic-advanced-report-columns.md) を参照してください。
 
 * [!UICONTROL Account]
 * [!UICONTROL Search Engine]
@@ -35,6 +35,6 @@ The [!UICONTROL Search Engine Account Report] キャンペーンを使用する 
 
 >[!MORELIKETHIS]
 >
->* [基本レポートと高度なレポートについて](basic-advanced-report-about.md)
->* [基本レポートまたは高度なレポートの生成](basic-advanced-report-generate.md)
->* [基本レポート設定と詳細レポート設定](basic-advanced-report-settings.md)
+>* [ 基本レポートと高度なレポートについて ](basic-advanced-report-about.md)
+>* [ 基本レポートまたは詳細レポートの生成 ](basic-advanced-report-generate.md)
+>* [ 基本および詳細レポートの設定 ](basic-advanced-report-settings.md)

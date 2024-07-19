@@ -1,6 +1,6 @@
 ---
-title: 非公開契約のオークションインサイトの表示
-description: オークションのインサイトを使用して、個人契約の契約構成を分析する方法を説明します。
+title: プライベート取引のオークションインサイトの表示
+description: オークションインサイトを使用して、プライベート取引の取引構成を分析する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
 source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
@@ -10,37 +10,37 @@ ht-degree: 0%
 
 ---
 
-# 非公開契約のオークションインサイトの表示
+# プライベート取引のオークションインサイトの表示
 
-オークションインサイトは、保証済みの契約と保証されていないプライベート契約の両方の契約構成を分析できるトラブルシューティングツールです。 このツールは、データのビジュアライゼーションを使用して、 [キーオークション属性](#auction-attributes) 指定した期間内。
+オークションインサイトは、保証されている非公開取引と保証されていない非公開取引の両方の取引構成を分析できるトラブルシューティングツールです。 このツールでは、データのビジュアライゼーションを使用して、特定の期間内に [ 主要なオークション属性値 ](#auction-attributes) に対して受け取った値のトレンドと相対比率を表示します。
 
-1. メインメニューで、 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
+1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals].** をクリックします。
 
-1. ディール行で、「  **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
+1. 取引行で、**[!UICONTROL ...]**/**[!UICONTROL Auction Insights]** をクリックします。
 
 >[!NOTE]
 >
->オークションインサイトは、配置を通じても利用できます [!UICONTROL Inspector] ツールを使用します。 彼らを開くには [配置を開く [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) から [!UICONTROL Inventory tab]をクリックし、 **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** を選択します。
+>オークションインサイトは、プレースメント [!UICONTROL Inspector] 定ツールからも使用できます。 セグメントを開くには、[[!UICONTROL Inventory tab] ージのプレースメント [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) を開き、取引行で **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** をクリックします。
 
 ## オークション属性 {#auction-attributes}
 
 面グラフは、次のオークション属性で使用できます。
 
-* **広告タイプ：** オークションでリクエストされた広告タイプ（「表示」や「オーディオ」など）。
+* **広告タイプ：** オークションでリクエストされた広告タイプ（ディスプレイやオーディオなど）。
 
-* **ブラウザー：** オークションの元となったブラウザー（Chrome や Firefox など）。
+* **ブラウザー：** オークションの元となったブラウザー（Chrome、Firefox など）。
 
-* **OS:** オークションの開始元となるオペレーティングシステム (OS)(Android やiOSなど )。
+* **OS:** オークションの元となったオペレーティングシステム（OS）（Android、iOSなど）。
 
-* **デバイスタイプ：** オークションの開始元となるデバイス（携帯電話、デスクトップなど）。
+* **デバイスタイプ：** オークション元のデバイス（携帯電話、デスクトップなど）。
 
-* **広告期間：** オークションで要求された最大広告期間（15 秒、30 秒など）。
+* **広告期間：** オークションでリクエストされた最大広告期間（15 秒、30 秒など）。
 
-* **セキュア：** オークションにセキュアな HTTPS URL クリエイティブアセットが必要かどうかを示します。 値： <i>セキュア</i> または <i>非セキュア</i>.
+* **セキュア：** オークションにセキュア HTTPS URL クリエイティブアセットが必要かどうかを示します。 値：<i> セキュア </i> または <i> 非セキュア </i>。
 
-* **MIME タイプ：** オークションでリクエストされた広告クリエイティブの MIME タイプ（mp4 や mov など）。
+* **MIME タイプ：** オークションでリクエストされた広告クリエイティブ MIME タイプ（mp4 や mov など）。
 
-![競売インサイト](/help/dsp/assets/auction-insights.png)
+![ オークションのインサイト ](/help/dsp/assets/auction-insights.png)
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [プライベート在庫について](private-inventory-about.md)
->* [契約 ID のプレースメントと広告の指定](deal-id-attach-placements.md)
->* [契約の詳細レポートの表示](deal-view-report.md)
->* [Campaign Managementビューでのパフォーマンスレポートのタイプ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [ プライベートインベントリについて ](private-inventory-about.md)
+>* [ 取引 ID のプレースメントと広告の指定 ](deal-id-attach-placements.md)
+>* [ 取引の詳細レポートの表示 ](deal-view-report.md)
+>* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)

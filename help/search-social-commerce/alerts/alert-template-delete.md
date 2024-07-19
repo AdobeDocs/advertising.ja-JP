@@ -1,9 +1,9 @@
 ---
 title: カスタムアラートテンプレートの削除
-description: アラートテンプレートを削除する方法を説明します。
-exl-id: 7044ee80-ad90-4fad-8443-300f5ff0cee7
+description: アラートテンプレートの削除方法を説明します。
+exl-id: be77f74f-f293-46f1-a5dc-317e828682b4
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # カスタムアラートテンプレートの削除
 
-削除できるのは、自分で作成したアラートテンプレートだけです。
+削除できるのは、自分が作成したアラートテンプレートのみです。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**:[Alert Templates] ビューが開きます。
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Custom Alerts]** をクリックし、アラートテンプレート ビューを開きます。
 
 1. 削除する各アラートテンプレートの横にあるチェックボックスをオンにします。
 
-1. ツールバーで、 ![削除](/help/search-social-commerce/assets/delete.png "削除").
+1. ツールバーの「![ 削除 ](/help/search-social-commerce/assets/delete.png " 削除 ")」をクリックします。
 
-1. ダイアログボックスで、 **[!UICONTROL Delete]**.
+1. ダイアログボックスで、「**[!UICONTROL Delete]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [Custom Alerts について](alert-about.md)
->* [カスタムアラートテンプレートの作成](alert-template-create.md)
->* [カスタムアラートテンプレートの編集](alert-template-edit.md)
->* [カスタムアラートテンプレートの一時停止](alert-template-pause.md)
->* [カスタムアラートテンプレートのアクティブ化](alert-template-activate.md)
->* [カスタムアラートテンプレート設定](alert-template-settings.md)
->* [カスタムアラートの表示](alert-view.md)
->* [カスタムアラート用のデータのエクスポート](alert-export-data.md)
+>* [ カスタムアラートについて ](alert-about.md)
+>* [ カスタムアラートテンプレートの作成 ](alert-template-create.md)
+>* [ カスタムアラートテンプレートの編集 ](alert-template-edit.md)
+>* [ カスタムアラートテンプレートの一時停止 ](alert-template-pause.md)
+>* [ カスタムアラートテンプレートのアクティブ化 ](alert-template-activate.md)
+>* [ カスタムアラートテンプレートの設定 ](alert-template-settings.md)
+>* [ カスタムアラートの表示 ](alert-view.md)
+>* [ カスタムアラートのデータのエクスポート ](alert-export-data.md)

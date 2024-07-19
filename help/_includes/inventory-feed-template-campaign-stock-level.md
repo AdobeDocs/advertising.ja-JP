@@ -5,8 +5,8 @@ source-wordcount: '83'
 ht-degree: 0%
 
 ---
-# テキスト広告テンプレート — 在庫レベル
+# テキスト広告テンプレート – 在庫レベル
 
-**[!UICONTROL Stock Level]:** （オプション）指定したファイル内の、製品またはサービスの在庫レベルを表す数値またはテキストベースの列です。 指定したフィードファイルがテンプレートを通じて伝播されると、列名が実際のデータに置き換えられます。 値を挿入するには、入力フィールドをクリックし、列リストで列名をクリックします。
+**[!UICONTROL Stock Level]:** （任意）製品またはサービスの在庫レベルを表す、指定したファイル内の数値またはテキストベースの列。 指定したフィードファイルがテンプレートを通じて伝播される際に、列名が実際のデータに置き換えられます。 値を挿入するには、入力フィールドをクリックし、列リストの列名をクリックします。
 
-在庫切れ品目の広告を一時停止するか削除するかは、 [フィードデータ設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) &quot;[!UICONTROL When a numeric stock level reaches N units, or where a text-based value is 'out of stock.']&quot;
+[ フィードデータ設定 ](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) 「[!UICONTROL When a numeric stock level reaches N units, or where a text-based value is 'out of stock.']」を使用して、在庫切れ項目の在庫の広告を一時停止または削除するかどうかを制御できます

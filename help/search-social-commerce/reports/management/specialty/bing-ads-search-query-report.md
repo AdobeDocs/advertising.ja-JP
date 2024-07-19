@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Bing Ads Search Query Report]'
-description: について説明します [!UICONTROL Bing Ads Search Query Report].
+description: '[!UICONTROL Bing Ads Search Query Report] について説明します。'
 exl-id: 0207cfe7-a789-409f-af1b-a9579f2abe1e
 feature: Search Reports, Search Specialty Reports
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft Advertising]アカウントのみ*
 
-この [!UICONTROL Bing Ads Search Query Report] 1 つ以上の広告グループに対するユーザー検索クエリ用語について、コスト、クリック、インプレッションおよび（オプションで）派生指標データを含みます。 デフォルトでは、データには各検索語句に対して 1 行が含まれており、指定された日付範囲の時間単位ごとに、該当する各広告グループのインプレッション数またはクリック数が発生します。 行は、広告グループ名で昇順に並べ、デフォルトでは検索語句で並べられます。 レポートには、検索語句が一致したキーワードも、で追跡されたコンバージョンデータも含まれていません [!DNL Adobe].
+[!UICONTROL Bing Ads Search Query Report] には、コスト、クリック数、インプレッションおよび（オプションで） 1 つ以上の広告グループに関するユーザー検索クエリ用語の派生指標データが含まれます。 デフォルトでは、データには各検索語句に対して 1 行が含まれており、指定された日付範囲の時間単位ごとに、該当する各広告グループのインプレッション数またはクリック数が発生します。 行は、広告グループ名で昇順に並べ、デフォルトでは検索語句で並べられます。 レポートには、検索語句が一致したキーワードも、[!DNL Adobe] で追跡されたコンバージョンデータも含まれていません。
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## デフォルトの列
 
-デフォルト列とカスタム列については、「」を参照してください[専門レポートのレポート列](specialty-report-columns.md).」と入力します。
+すべてのデフォルト列およびカスタム列の説明は、[ 専門レポートのレポート列 ](specialty-report-columns.md) を参照してください。
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -41,6 +41,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [専門レポートについて](specialty-report-about.md)
->* [専門レポートの生成](specialty-report-generate.md)
->* [専門レポートの設定](specialty-report-settings.md)
+>* [ 専門レポートについて ](specialty-report-about.md)
+>* [ 専門レポートの生成 ](specialty-report-generate.md)
+>* [ 専門レポートの設定 ](specialty-report-settings.md)

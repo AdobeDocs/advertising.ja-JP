@@ -1,39 +1,39 @@
 ---
-title: 配置と負の配置のステータスの変更
-description: 配置とネガティブな配置のステータスを変更する方法を説明します。 [!DNL Google Ads].
-exl-id: 7f025ba2-e71f-40bf-9057-f7d7abbea5da
+title: プレースメントとネガティブプレースメントのステータスの変更
+description: ' [!DNL Google Ads] のプレースメントとネガティブプレースメントのステータスを変更する方法を説明します。'
+exl-id: 3c54a80e-6f4c-4936-97b1-67ac8de24830
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
 
 ---
 
-# ステータスの変更 [!DNL Google Ads] 配置と負の配置
+# プレースメントのステータス [!DNL Google Ads] 負のプレースメントのステータスの変更
 
-アクティブで入札可能な配置を一時停止して、その配置の入札を無効にできます。 ステータスを「アクティブ」に戻すと、後で入札を再開できます。
+アクティブで入札可能なプレースメントを一時停止して、入札を無効にすることができます。 後でステータスをアクティブに戻すことで、入札を再開できます。
 
-また、アクティブな配置や一時停止した配置、または負の配置を削除することもできます。 削除されたプレースメントや負のプレースメントは、広告ネットワークから削除されます。 まだ見えますが、変更はできません。
+アクティブまたは一時停止のプレースメントや負のプレースメントを削除することもできます。 削除されたプレースメント/負のプレースメントは広告ネットワークから削除されます。 これらは表示されたままですが、変更できません。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| [!UICONTROL Negatives]\]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| [!UICONTROL Negatives]\]** をクリックします。
 
-1. （オプション）特定の配置を含めるか、負の配置を含めるかをリストにフィルターします。
+1. （任意）特定のプレースメントまたは負のプレースメントを含めるようにリストをフィルタリングします。
 
-1. ステータスを変更する各入札可能な配置またはネガティブな配置の横にあるチェックボックスをオンにします。
+1. ステータスを変更する入札可能プレースメントまたはネガティブプレースメントの横にあるチェックボックスをオンにします。
 
-   複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-1. ツールバーで、ステータスボタンをクリックします。
+1. ツールバーの「ステータス」ボタンをクリックします。
 
-   * （入札可能な配置のみ）行をアクティブにするには、 ![有効化](/help/search-social-commerce/assets/activate.png "有効化").
+   * （入札可能プレースメントのみ）行をアクティブ化するには、「![ アクティブ化 ](/help/search-social-commerce/assets/activate.png " アクティブ化 ")」をクリックします。
 
-   * （入札可能な配置のみ）行を一時停止するには、 ![一時停止](/help/search-social-commerce/assets/pause.png "一時停止").
+   * （入札可能なプレースメントのみ）行を一時停止するには、「![ 一時停止 ](/help/search-social-commerce/assets/pause.png " 一時停止 ")」をクリックします。
 
-   * 行を削除するには、 ![その他](/help/search-social-commerce/assets/more.png "その他") を選択し、 **[!UICONTROL Delete]**. 確認メッセージで、 **[!UICONTROL Delete]**.
+   * 行を削除するには、「![ その他 ")」をクリックし ](/help/search-social-commerce/assets/more.png " 「**[!UICONTROL Delete]**」を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [配置について](placement-about.md)
->* [入札可能な配置の管理](placement-manage.md)
->* [ネガティブな配置の作成](placement-negative-create.md)
+>* [ プレースメントについて ](placement-about.md)
+>* [ 入札可能プレースメントの管理 ](placement-manage.md)
+>* [ ネガティブプレースメントの作成 ](placement-negative-create.md)

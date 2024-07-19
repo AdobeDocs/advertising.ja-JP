@@ -1,40 +1,39 @@
 ---
-title: Advertising DSPの在庫機能の概要
-description: 使用可能な在庫機能について説明します。
+title: Advertising DSPのインベントリ機能の概要
+description: 利用可能なインベントリ機能について説明します。
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: e55b9276-0d13-436e-9c09-968de963d551
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
-# Advertising DSPの在庫機能の概要
+# Advertising DSPのインベントリ機能の概要
 
-DSPは、パブリックインベントリでスケールを検索する場合でも、 [!DNL On Demand]または、パブリッシャーとの 1:1 のプライベートマーケットプレイス (PMP) 取引を設定して、特定のオーディエンスまたはサイトに対してアクティブ化します。 キャンペーンの目標は、キャンペーンのパフォーマンスニーズに最も適した在庫のタイプを指定するのに役立ちます。 トップサプライサイドプラットフォーム (SSP) との統合により、PMP のシームレスなセットアップとアクティブ化が可能になります。
+DSPは、公開在庫を使用して規模を見つける場合、[!DNL On Demand] を使用してプレミアムパブリッシャー間で規模を見つける場合、パブリッシャーと 1:1 のプライベートマーケットプレイス（PMP）取引を設定して特定のオーディエンスまたはサイトに対してアクティブ化する場合など、在庫ニーズをサポートできます。 キャンペーンの目標は、キャンペーンのパフォーマンスニーズに最適な在庫タイプを決定するのに役立ちます。 トップサプライサイドプラットフォーム（SSP）との統合により、PMP のシームレスなセットアップとアクティベーションが可能になります。
 
-DSPで在庫契約にアクセスしたり、特定したりしたら、それらをキャンペーンの配置ターゲットとして使用できます。
+DSPで在庫取引にアクセスしたり、在庫取引を特定したりしたら、それらをキャンペーンのプレースメントターゲットとして使用できます。
 
-使用可能な在庫タイプは次のとおりです。
+利用可能な在庫タイプは次のとおりです。
 
-* **[!DNL On Demand]在庫：** Adobeがプレミアムパブリッシャーパートナーとキュレーションした、事前にネゴシエートされた、保証されていない契約を調べます。
+* **[!DNL On Demand]Inventory:** Adobeがプレミアムパブリッシャーパートナーとキュレートした、事前に交渉された保証されていない取引を調べます。
 
-* **プライベート在庫 [!DNL Deal IDs]:** パブリッシャーと直接 1:1 でネゴシエートしたプライベートマーケットプレイス契約 (PMP) を設定および管理します。
+* **プライベート在庫 [!DNL Deal IDs]:** パブリッシャーと直接交渉したプライベートマーケットプレイスの取引（PMP）を設定および管理します。
 
-* **[!DNL Simple Ad Serving]:** 合理化されたテクノロジーを使用して、保証された、決定されない広告配信と、パブリッシャーが取引 ID を介して契約を実行できない場合にレポートを作成できます。
+* **[!DNL Simple Ad Serving]:** 合理化されたテクノロジーを使用して、パブリッシャーが取引 ID で取引を実行できない場合に、確実で意思決定されていない広告の配信とレポートを行います。
 
-## 「Deals」ビュー
+## 契約ビュー
 
-お客様は、 [!UICONTROL Inventory] > [!UICONTROL Deals] 表示 さらに、フィルターの適用、表示される列のカスタマイズ、オプションでカスタムビューの保存、列の並べ替え、データをグラフとして表示することで、既存の取引データの表示方法をカスタマイズできます。
+既存の取引はすべて [!UICONTROL Inventory]/[!UICONTROL Deals] 表示で確認できます。 フィルターの適用、表示される列のカスタマイズ、オプションでカスタム表示の保存、列の並べ替え、データのグラフ表示を行うことで、既存の取引データの表示方法をさらにカスタマイズできます。
 
-また、個人契約の設定を作成および管理し、 [!DNL Simple Ad Serving] からの契約 [!UICONTROL Deals] 表示 表示および管理するには [!DNL On Demand] 在庫、移動 [!UICONTROL Inventory] > [!UICONTROL On Demand].
+また、[!UICONTROL Deals] ビューからプライベート取引設定や [!DNL Simple Ad Serving] ース取引を作成および管理することもできます。 在庫を表示および管理 [!DNL On Demand] るには、[!UICONTROL Inventory]/[!UICONTROL On Demand] に移動します。
 
 >[!MORELIKETHIS]
 >
->* [オンデマンド在庫について](on-demand-inventory-about.md)
->* [Deal ID インボックスについて](deal-id-inbox-about.md)
->* [プログラムで保証された契約について](programmatic-guaranteed-about.md)
->* [SSP パートナー](ssp-partners.md)
->* [プライベート在庫について](private-inventory-about.md)
-
+>* [ オンデマンド在庫について ](on-demand-inventory-about.md)
+>* [ 取引 ID インボックスについて ](deal-id-inbox-about.md)
+>* [ プログラムで保証された取引について ](programmatic-guaranteed-about.md)
+>* [SSP パートナー ](ssp-partners.md)
+>* [ プライベートインベントリについて ](private-inventory-about.md)

@@ -1,66 +1,65 @@
 ---
-title: パッケージに配置を添付する
-description: パッケージに配置を添付する方法を説明します。
+title: パッケージへのプレースメントの添付
+description: パッケージにプレースメントを添付する方法を説明します。
 feature: DSP Packages
 exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '206'
+ht-degree: 0%
 
 ---
 
-# パッケージに配置を添付する
+# パッケージへのプレースメントの添付
 
-## 新しい配置を [!UICONTROL Placements] 表示
+## [!UICONTROL Placements] ビューから新しい配置をアタッチする
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
 1. パッケージを作成するキャンペーンの名前をクリックし、パッケージ名をクリックします。
 
-1. 右上で、 **[!UICONTROL Create]** 配置タイプを選択します。
+1. 右上で「**[!UICONTROL Create]**」をクリックし、配置タイプを選択します。
 
-   配置設定で、選択したパッケージが自動的に選択されます。
+   選択したパッケージがプレースメント設定で自動的に選択されます。
 
-1. 残りの [配置設定](/help/dsp/campaign-management/placements/placement-settings.md)をクリックし、 **[!UICONTROL Create Placement]**.
+1. 残りの [ 配置設定 ](/help/dsp/campaign-management/placements/placement-settings.md) を入力し、[**[!UICONTROL Create Placement]**] をクリックします。
 
-## 新規または既存の配置を [!UICONTROL Packages] 表示
+## [!UICONTROL Packages] ビューから新規または既存の配置をアタッチする
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
-1. キャンペーン名をクリックして、 [!UICONTROL Packages] 表示
+1. キャンペーンの名前をクリックして、キャン [!UICONTROL Packages] ーン表示を開きます。
 
-1. パッケージ名の横にある  **[!UICONTROL ...]** > **[!UICONTROL Attach a Placement].**
+1. パッケージ名の横で、**[!UICONTROL ...]**/**[!UICONTROL Attach a Placement].** をクリックします。
 
-1. 次のいずれかの操作を行います。
+1. 次のいずれかの操作をおこないます。
 
-   * 新しい配置を作成するには：
+   * 新しいプレースメントを作成するには：
 
-      1. クリック **[!UICONTROL Create New Placement]**.
+      1. 「**[!UICONTROL Create New Placement]**」をクリックします。
 
-      1. 配置の広告タイプを選択し、「 **[!UICONTROL Build this placement]**.
+      1. プレースメントの広告タイプを選択し、「**[!UICONTROL Build this placement]**」をクリックします。
 
-      1. 次を入力します。 [配置設定](/help/dsp/campaign-management/placements/placement-settings.md)をクリックし、 **[!UICONTROL Create Placement]**.
-   * キャンペーンに既存の配置を添付するには：
+      1. [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md) を入力し、「**[!UICONTROL Create Placement]**」をクリックします。
 
-      >[!NOTE]
-      >
-      >各配置は、1 つのパッケージにのみ指定できます。 パッケージにまだ含まれていない配置のみが表示されます。
+   * キャンペーンに既存のプレースメントを添付するには：
 
-      1. クリック **[!UICONTROL Select a Placement].**
+     >[!NOTE]
+     >
+     >各プレースメントは、1 つのパッケージにのみ含めることができます。 パッケージにまだ含まれていないプレースメントのみが表示されます。
 
-      1. 配置名の横にある **[!UICONTROL Select].**
+      1. 「**[!UICONTROL Select a Placement].**」をクリックします。
 
-      1. （オプション）添付する追加の配置ごとに、 **[!UICONTROL Attach Another Placement]**&#x200B;をクリックし、手順 1 ～ 2 を繰り返します。
+      1. プレースメント名の横にある「**[!UICONTROL Select].**」をクリックします。
 
-      1. クリック **[!UICONTROL I'm done for now]**.
+      1. （オプション）添付するプレースメントごとに「**[!UICONTROL Attach Another Placement]**」をクリックし、手順 1 ～ 2 を繰り返します。
 
+      1. 「**[!UICONTROL I'm done for now]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [パッケージ管理について](package-about.md)
->* [パッケージの作成](package-create.md)
->* [パッケージの変更ログの表示](package-change-log.md)
->* [パッケージ設定](package-settings.md)
->* [配置設定](/help/dsp/campaign-management/placements/placement-settings.md)
-
+>* [ パッケージ管理について ](package-about.md)
+>* [ パッケージの作成 ](package-create.md)
+>* [ パッケージの変更ログを表示する ](package-change-log.md)
+>* [ パッケージ設定 ](package-settings.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)

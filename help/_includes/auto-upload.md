@@ -1,12 +1,12 @@
 ---
 source-git-commit: bef353542ee73d32b8ac53e6abd3265528be154f
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
-# アカウント設定とキャンペーン設定の「自動アップロード」フィールド
+# アカウント設定とキャンペーン設定の自動アップロードフィールド
 
-**[!UICONTROL Auto Upload]:** （と同期したキャンペーンの場合） [!UICONTROL EF Redirect] ) 次回検索で、Social、&amp;Commerce が広告ネットワークに自動的にアップロードします。(a) トラッキングテンプレートと最終 URL に追加された同じパラメーター、(b) 検索、Social、&amp;Commerce トラッキングコードに埋め込まれた新しい宛先 URL 用の検索、Social、およびコマース。 次の条件を満たす広告主の場合： [Adobe AdvertisingとAdobe Analyticsの統合](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) およびサーバー側 AMO ID(s_kwcid) 設定の場合、アップロードには [AMO ID パラメーター](/help/integrations/analytics/ids.md#amo-id) の [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウント。 デフォルトのアカウントレベルの設定は、広告主のトラッキング設定から継承されます。 キャンペーンレベルでアカウントレベルの設定を上書きできます。
+**[!UICONTROL Auto Upload]:** （同期されたキャンペーンで [!UICONTROL EF Redirect] のみを使用する場合）次回の検索、ソーシャルおよびCommerceの同期時に、次のものを広告ネットワークに自動的にアップロードします。（a）トラッキングテンプレートの検索、ソーシャルおよびCommerceトラッキングパラメーターと、最終 URL に追加された同じパラメーター、または（b）検索、ソーシャルおよびCommerceのトラッキングコードを埋め込んだ新しい宛先 URL。 [Adobe AdvertisingとAdobe Analyticsの統合 ](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) およびサーバーサイドの AMO ID （s_kwcid）設定を持つ広告主の場合、アップロードには [!DNL Google Ads] アカウントと [!DNL Microsoft Advertising] アカウントの [AMO ID パラメーター ](/help/integrations/analytics/ids.md#amo-id) も含まれます。 デフォルトのアカウントレベルの設定は、広告主のトラッキング設定から継承されます。 アカウントレベルの設定は、キャンペーンレベルで上書きできます。
 
-**注意：** トラッキング URL は、同期されていないエンティティ（つまり、追加された新しいエンティティや、プロパティが変更された既存のエンティティ）に対してのみ、毎日更新されます。 したがって、この設定を無効から既存の広告主、アカウント、キャンペーンに対して有効に変更した場合、既に同期している既存のエンティティのトラッキング URL は更新されません。 既存の同期内エンティティの URL にトラッキングを追加するには、担当のAdobeアカウントチームに連絡して、1 回限りの手動同期プロセスをリクエストします。 自動アップロードプロセスでは、今後の変更を処理します。
+**メモ：** トラッキング URL は、同期していないエンティティ（追加された新しいエンティティと、プロパティが変更された既存のエンティティ）でのみ毎日更新されます。 したがって、既存の広告主/アカウント/キャンペーンに対してこの設定を無効から有効に変更した場合、既に同期している既存のエンティティのトラッキング URL は更新されません。 既存の同期内エンティティの URL にトラッキングを追加するには、Adobeアカウントチームに連絡して、1 回限りの手動による同期プロセスをリクエストします。 自動アップロードプロセスは、今後の変更に対応します。

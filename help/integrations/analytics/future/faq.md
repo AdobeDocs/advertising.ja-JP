@@ -12,13 +12,15 @@ ht-degree: 0%
 
 ## タイトル
 
-https://adobeadcloud.zendesk.com/agent/tickets/14214 デフォルトでは、Adobe Analyticsは、すべてのレポートで取り込まれたすべてのイベントをレポートします。 “[!UICONTROL Unspecified]「イベントは、Adobe Advertisingに接続されなかったフォーム完了イベントを表します。 例えば、広告プラットフォームレポートでは、オーガニックコンバージョンまたはメールキャンペーンによるコンバージョンは、「未指定」に分類されます。
+https://adobeadcloud.zendesk.com/agent/tickets/14214
+デフォルトでは、Adobe Analyticsは、すべてのレポートで取り込まれたすべてのイベントをレポートします。 「[!UICONTROL Unspecified]」イベントは、Adobe Advertisingに接続されなかったフォーム完了イベントを表します。 例えば、広告プラットフォームレポートでは、オーガニックコンバージョンまたはメールキャンペーンによるコンバージョンは、「未指定」に分類されます。
 
-このフィルターを使用して「未指定（なし）を含める」オプションのチェックマークを削除すると、レポートから未指定のイベントを削除できます。 <!-- Not sure if this is in DSP or in Analytics Workspace -->
+このフィルターを使用して「未指定（なし）を含める」オプションのチェックマークを削除すると、レポートから未指定のイベントを削除できます。<!-- Not sure if this is in DSP or in Analytics Workspace -->
 
 ## タイトル
 
-https://adobeadcloud.zendesk.com/agent/tickets/24323 Analytics イベントタグを、Ad Cloud ピクセルと同じ場所に配置して、XXX が一致することを確認します。
+https://adobeadcloud.zendesk.com/agent/tickets/24323
+Analytics イベントタグをAd Cloud ピクセルと同じ場所に配置して、XXX が一致することを確認します。
 
 ## タイトル
 

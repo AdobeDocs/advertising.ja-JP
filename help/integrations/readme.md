@@ -5,8 +5,8 @@ source-wordcount: '31'
 ht-degree: 0%
 
 ---
-# Adobe Experience CloudとのAdobe広告統合に関するドキュメント
+# Adobe Experience CloudとのAdobe Advertising統合に関するドキュメント
 
-このフォルダーは、他のAdobe製品とのAdobe広告の統合に関するドキュメント用です。
+このフォルダーは、他のAdobeとのAdobe Advertising統合に関するドキュメント用です。
 
-**注意：このページは、お客様向けドキュメントには公開されていません。**
+**メモ：このページは、顧客向けドキュメントでは公開されていません。**

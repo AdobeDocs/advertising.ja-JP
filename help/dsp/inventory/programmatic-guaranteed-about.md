@@ -1,6 +1,6 @@
 ---
-title: プログラムで保証された契約について
-description: プログラムで保証された (PG) 取引と、提供の認定を受けている SSP について説明します。
+title: プログラムで保証された取引について
+description: プログラム保証（PG）取引と、それらを提供することが認定されている SSP について説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
 source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
@@ -10,36 +10,36 @@ ht-degree: 0%
 
 ---
 
-# プログラムで保証された契約について
+# プログラムで保証された取引について
 
-プログラム的に保証された (PG) 取引は、広告サーバータグを介するのではなく、取引 ID を介して発行者と直接購入する保証があります。 PG は、お客様および発行者が管理する柔軟性が高く、通常のタグの購入よりも透明性が高くなります。 請求とレポートはDSPを通じて統合され、時間を節約できます。
+プログラム保証（PG）取引は、（広告サーバタグではなく）取引 ID を使用して、パブリッシャーと直接行う保証された購入です。 PG は、ユーザーとパブリッシャーにとって管理する柔軟性が高く、通常のタグ購入よりも透明性が高くなります。 請求とレポートはDSPによって統合されるので、時間を節約できます。
 
-## PG 契約の機能
+## PG 取引の機能
 
 * 契約は常にDSPを通じて請求されます。
-* 契約は定価と数量を持っている。
-* パブリッシャーまたはサプライサイドプラットフォーム (SSP) は、予算のペーシング、予算の上限、および任意のターゲティングをすべて処理します。
-* 通常、パブリッシャーの広告サーバーでは、この契約の優先順位が高くなります。
-* 入札リクエストは、1 つの契約または購入者に限定されません。
-* 1 つの契約 ID で複数のタイプのビデオがサポートされます。
-* パブリッシャーが管理する広告は、 [!DNL Google Authorized Buyers] SSP。
-* SSP とパブリッシャーは配信 SLA を持っています。
+* 契約には固定価格と数量があります。
+* パブリッシャーまたは供給側プラットフォーム（SSP）は、すべての予算ペーシング、予算キャッピング、あらゆるターゲティングを処理します。
+* 通常、パブリッシャーの広告サーバーでは、契約の優先度が高くなります。
+* 入札リクエストは、1 つの取引や購入者に限定されません。
+* 1 つの取引 ID で複数のタイプのビデオがサポートされます。
+* パブリッシャーが管理する広告は、[!DNL Google Authorized Buyers] SSP を介して受け付けます。
+* SSP とパブリッシャーには配信 SLA があります。
 
-PG 取引では、DSPが各入札リクエストにリクエストを返し、SSP を使用した配信 SLA を満たすために、PG のデフォルト配置と広告（またはパブリッシャーが管理する広告の場合は 1 x 1 ピクセル）が必要です。 必須の PG デフォルトの配置を設定したら、他の配置でも PG 契約のターゲットを設定できます。
+DSPが各入札要求にリクエストを返し、SSP の配信 SLA を満たすことができるように、PG の取引には PG のデフォルトの配置と広告（公開者管理広告の場合は 1 x 1 ピクセル）が必要です。 必須の PG デフォルト配置を設定したら、他の配置で PG 取引をターゲットに設定することもできます。
 
-## DSPの PG 契約で認定された SSP
+## DSPでの PG 取引に関して認定された SSP
 
 * [!DNL Ambient Digital]
 * [!DNL FreeWheel]
 * [!DNL Google Authorized Buyers]
-* [!DNL Magnite CTV] ( 以前の [!DNL Telaria])
-* [!DNL Magnite DV+] ( 以前の [!DNL Rubicon])
+* [!DNL Magnite CTV] （formerly [!DNL Telaria]）
+* [!DNL Magnite DV+] （formerly [!DNL Rubicon]）
 * [!DNL OpenX]
 * [!DNL SpotX]
 
 >[!MORELIKETHIS]
 >
->* [プログラム的に保証された契約の交渉に関するヒント](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [プログラム的に保証された契約の設定](programmatic-guaranteed-set-up.md)
->* [SSP パートナー](ssp-partners.md)
->* [在庫機能の概要](inventory-overview.md)
+>* [ プログラムで保証された取引の交渉に関するヒント ](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [ プログラムで保証された取引の設定 ](programmatic-guaranteed-set-up.md)
+>* [SSP パートナー ](ssp-partners.md)
+>* [ インベントリ機能の概要 ](inventory-overview.md)

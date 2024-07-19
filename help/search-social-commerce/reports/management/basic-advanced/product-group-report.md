@@ -1,26 +1,26 @@
 ---
 title: '[!UICONTROL Product Group Report]'
-description: 詳しくは、 [!UICONTROL Product Group Report].
-exl-id: cda775bb-3b86-4315-9b46-bf5f488a9fe8
+description: '[!UICONTROL Product Group Report] について説明します。'
+exl-id: 4e310d06-11fe-4c5a-b9a3-59ee099aeaef
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Product Group Report]
 
-The [!UICONTROL Product Group Report] 製品グループ別のコスト、クリック、（オプションで）コンバージョンのデータ、アカウント、キャンペーンまたは広告グループ全体で集計したデータが含まれます。 必要に応じて、ラベルでデータをフィルタリングできます。 デフォルトでは、データには、指定した日付範囲の各時間単位にインプレッションを受け取った製品リスト広告の、該当する製品ターゲットごとに 1 行が含まれます。 行は、最初に時間単位の開始日が昇順になり、次にデフォルトで製品のターゲットが昇順になります。
+[!UICONTROL Product Group Report] には、アカウント、キャンペーン、広告グループをまたいで集計された、製品グループ別のコスト、クリック数および（オプションで）コンバージョンデータが含まれます。 オプションで、ラベルでデータをフィルタリングできます。 デフォルトでは、データには、指定された日付範囲で時間単位ごとにインプレッションを受け取った製品リスト広告について、該当する製品ターゲットごとに 1 行が含まれます。 行は、最初に時間単位の開始日、次にデフォルトで製品ターゲットの昇順になっています。
 
 オプションで、広告主固有のラベル分類を含めることができます。
 
-過去 2 か月間のクリックデータを表示し、過去 18 か月間の検索、ソーシャル、コマース、Adobe Analyticsの統合におけるすべての広告ネットワークのクリック後データを表示できます。
+過去 2 か月間のクリックデータと、過去 18 か月間の検索、ソーシャル、CommerceおよびAdobe Analytics統合によるすべての広告ネットワークのクリックデータを表示できます。
 
 ## デフォルトの列
 
-すべてのデフォルト列とカスタム列の説明については、[基本レポートと高度なレポートのレポート列](basic-advanced-report-columns.md).&quot;
+すべてのデフォルト列およびカスタム列の説明は、[ 基本および詳細レポートのレポート列 ](basic-advanced-report-columns.md) を参照してください。
 
 * [!UICONTROL Product Groupings]
 * [!UICONTROL Parent Product Groupings]
@@ -40,6 +40,6 @@ The [!UICONTROL Product Group Report] 製品グループ別のコスト、クリ
 
 >[!MORELIKETHIS]
 >
->* [基本レポートと高度なレポートについて](basic-advanced-report-about.md)
->* [基本レポートまたは高度なレポートの生成](basic-advanced-report-generate.md)
->* [基本レポート設定と詳細レポート設定](basic-advanced-report-settings.md)
+>* [ 基本レポートと高度なレポートについて ](basic-advanced-report-about.md)
+>* [ 基本レポートまたは詳細レポートの生成 ](basic-advanced-report-generate.md)
+>* [ 基本および詳細レポートの設定 ](basic-advanced-report-settings.md)

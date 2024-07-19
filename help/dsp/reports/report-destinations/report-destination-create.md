@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # レポートの宛先の作成
 
-1. メインメニューで、 **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
+1. メインメニューで、**[!UICONTROL Reports]**/**[!UICONTROL Report Destinations]** をクリックします。
 
-1. クリック **[!UICONTROL Add Destination]**.
+1. 「**[!UICONTROL Add Destination]**」をクリックします。
 
-1. を指定 [レポートの宛先設定](/help/dsp/reports/report-destinations/report-destination-settings.md)（宛先タイプによって異なります）。
+1. 宛先タイプによって異なる [ レポート宛先設定 ](/help/dsp/reports/report-destinations/report-destination-settings.md) を指定します。
 
-1. クリック **[!UICONTROL Save]**.
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!NOTE]
 >
-> レポートが任意のタイプの FTP に配信するように設定されている場合、または [!DNL Amazon S3] 場所。エラーが原因でレポートがキャンセルされた場合は、通知を受け取りません。 必要なレポートが届かない場合は、Adobeアカウントチームにお問い合わせいただき、その理由を確認してください。
+> レポートを任意のタイプの FTP または [!DNL Amazon S3] の場所に配信するように設定している場合、エラーが原因でレポートがキャンセルされても、通知は受信されません。 必要なレポートが届かない場合は、Adobeアカウントチームにお問い合わせいただき、その理由を確認してください。
 
 >[!MORELIKETHIS]
 >
->* [について [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [[!UICONTROL Report Destination] 設定](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [を編集 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [を削除 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md) について
+>* [[!UICONTROL Report Destination] Settings](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md) の編集
+>* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md) ージの削除

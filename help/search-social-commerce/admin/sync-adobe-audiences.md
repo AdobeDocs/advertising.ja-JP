@@ -1,40 +1,40 @@
 ---
-title: 同期 [!DNL Adobe] audiences
-description: のメタデータ、階層データ、一意のオーディエンスデータを同期する方法を説明します [!DNL Adobe] オーディエンス。
-exl-id: 7d4a3c66-5013-412f-8937-d64c336751e3
+title: Sync [!DNL Adobe] audiences
+description: オーディエンスのメタデータ、階層データおよび一意のオーディエンスデータを同期する方法  [!DNL Adobe]  説明します。
+exl-id: 8b8c3aa0-2aa9-4ad7-a4c0-1b7ba881acd3
 feature: Search Admin
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# 同期 [!DNL Adobe] audiences
+# オーディエンス [!DNL Adobe] 同期
 
-*[!DNL Direct Access]クライアントマネージャーおよび管理者のみ*
+クライアント管理者および管理者専用の *[!DNL Direct Access]ール*
 
-*Adobe Advertising- Adobe Audience ManagerまたはAdobe Advertising- Adobe Analyticsの統合のみを使用する広告主*
+*Adobe AdvertisingとAdobe Audience ManagerまたはAdobe AdvertisingとAdobe Analyticsの統合のみを使用する広告主*
 
-検索、ソーシャル、コマースで、すべての広告主や代理店のメタデータ、階層データ、一意のオーディエンスデータを取り込むことを許可できます。 [!DNL Adobe] オーディエンスから [!UICONTROL Campaigns] > [!UICONTROL Audiences] ビュー。 この情報には、次のデータが含まれます。
+検索、ソーシャルおよびCommerceを使用して、すべての広告主または代理店の [!DNL Adobe] オーディエンスのすべてのメタデータ、階層データおよび一意のオーディエンスデータを、[!UICONTROL Campaigns]/[!UICONTROL Audiences] ビューに取り込むことができます。 この情報には、次のデータが含まれます。
 
-* Adobe Audience Managerセグメント
+* Adobe Audience Manager セグメント
 
-* Adobe Experience Cloudに公開されたAdobe Analyticsセグメント
+* Adobe Experience Cloudに公開されるAdobe Analytics セグメント
 
-* Adobe Experience Cloudを使用して作成されたセグメント [!DNL Audience Library]
+* Adobe Experience Cloud [!DNL Audience Library] を使用して作成されたセグメント
 
-実施要件を満たすには、広告主または代理店が [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) また、組織 ID( 以前の [!DNL IMS Org ID]) をクリックします。
+条件を満たすには、広告主または代理店が [Adobe Experience Platform ID サービスを実装し ](https://experienceleague.adobe.com/docs/id-service/using/home.html) その組織 ID （旧称：[!DNL IMS Org ID]）を提供する必要があります。
 
-初期同期には約 24 時間かかります。 その後、データはリアルタイムで同期され、1～2 秒の遅延が発生します。
+最初の同期には約 24 時間かかります。 その後、データは 1 秒から 2 秒の遅延でリアルタイムに同期されます。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Audience Manager Setup]** をクリックします。
 
-1. 広告主のAdobe Experience Cloudアカウントに一意の組織 ID を入力し、 **[!UICONTROL Submit]**.
+1. 広告主のAdobe Experience Cloud アカウントの一意の組織 ID を入力し、「**[!UICONTROL Submit]**」をクリックします。
 
-   広告主の組織 ID がわからない場合は、 **[!UICONTROL IMS Org ID]** 次の広告主の設定のフィールド： [!UICONTROL Admin] > [!UICONTROL Manage Client].
+   広告主の組織 ID がわからない場合は、[!UICONTROL Admin] > [!UICONTROL Manage Client] の広告主の設定の「**[!UICONTROL IMS Org ID]**」フィールドで検索します。
 
 >[!MORELIKETHIS]
 >
->* [オーディエンスについて](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
->* [Adobe Experience Cloudソリューションおよびサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
+>* [ オーディエンスについて ](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
+>* [Adobe Experience Cloud ソリューションおよびサービスとの統合 ](/help/search-social-commerce/introduction/integrations.md)

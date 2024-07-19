@@ -14,7 +14,7 @@ ht-degree: 0%
 
 新規ユーザーは、次の初期設定タスクを実行する必要があります。
 
-* 広告主がAdobe Advertisingでトラッキングしているコンバージョン指標を作成します [レポートおよび他のビューで使用可能](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)、および（オプション） [いずれかのコンバージョン指標の名前を変更します]（読みやすくするために列見出しに表示される/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md。
+* Adobe Advertisingが広告主に対してトラッキングしているコンバージョン指標 [ レポートやその他のビューで使用できます ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) を設定し、必要に応じて、列見出しに表示されている [ 任意のコンバージョン指標の名前を変更 ] （/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md）を読みやすくします。
 
   トランザクションプロパティは、特に指定しない限り、レポートでは使用できません。
 
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 * （オプション）レポート生成の自動化：
 
-   * レポートデータを、特定の時間だけ定期的に生成する場合（例：） [!UICONTROL Campaign Report] 過去 1 週間または過去 30 日間は、以下を設定できます [レポートテンプレート](/help/search-social-commerce/reports/automation/templates/template-about.md) また、毎日または特定の曜日または月に実行するようにスケジュール設定できます。 レポートの実行がスケジュールされるたびに、新しいレポートが生成されます。 に基づいて、レポートが完了したら、特定の検索、ソーシャル、Commerce ユーザーのメールアドレスに通知するオプションがあります [で設定された通知設定 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md).
+   * 先週や過去 30 日間の [!UICONTROL Campaign Report] など、特定の増分で定期的にレポートデータを生成する場合は、[ レポートテンプレート ](/help/search-social-commerce/reports/automation/templates/template-about.md) を設定し、毎日または週や月の特定の日に実行するようにスケジュールできます。 レポートの実行がスケジュールされるたびに、新しいレポートが生成されます。 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md) で設定された [notification 設定に基づいて、レポートが完了したら、特定の検索、ソーシャル、Commerceのユーザーのメールアドレスに通知することができます。
 
-   * ピボット・テーブルおよび追加の列を含むかどうかにかかわらず、カスタム書式のスプレッドシートで最新の日次レポート・データを表示する場合は、さらに計算を実行する必要があります [スプレッドシートフィード](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md). スプレッドシートフィードは、最新のパフォーマンスデータで毎日更新され、以前の日付のデータが引き続き保持されます。 スプレッドシートフィードを設定するには、まず、でカスタマイズされたスプレッドシートテンプレートを作成する必要があります [!DNL Microsoft Excel]. に基づいて、フィードファイルが使用可能な場合、特定の検索、ソーシャル、Commerceユーザーのメールアドレスに通知するオプションがあります [で設定された通知設定 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md).
+   * カスタム・フォーマットのスプレッドシートに最新の日次レポート・データを表示する場合、ピボット・テーブルおよび追加の列の有無にかかわらず、さらに計算を実行する必要がある場合は、日次 [ スプレッドシート・フィード ](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) を設定できます。 スプレッドシートフィードは、最新のパフォーマンスデータで毎日更新され、以前の日付のデータが引き続き保持されます。 スプレッドシートフィードを設定するには、まず [!DNL Microsoft Excel] でカスタマイズされたスプレッドシートテンプレートを作成する必要があります。 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md) で設定された [notification 設定に基づいて、フィードファイルが使用可能な場合、特定の検索、ソーシャル、Commerceユーザーのメールアドレスに通知するオプションがあります。
 
-   * FTP の場所で基本レポートや高度なレポートを受信する場合は、次のように設定できます [基本レポートおよび高度なレポートへの FTP アクセス](/help/search-social-commerce/reports/automation/ftp-reports.md) ftp アカウントを要求し、特定の命名規則を使用してレポートテンプレートを設定する
+   * FTP の場所で基本レポートや高度なレポートを受信する場合は、FTP アカウントを要求し、特定の命名規則を使用してレポートテンプレートを設定することで、基本レポートや高度なレポートへの [FTP アクセス ](/help/search-social-commerce/reports/automation/ftp-reports.md) を設定できます。
 
 >[!MORELIKETHIS]
 >
->* [レポートについて](report-about.md)
->* [レポートに使用するデータ](data-used-for-reports.md)
+>* [ レポートについて ](report-about.md)
+>* [ 報告書に用いるデータ ](data-used-for-reports.md)

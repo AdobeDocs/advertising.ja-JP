@@ -12,22 +12,22 @@ ht-degree: 0%
 
 # 在庫フィード データの転記ジョブを停止します
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] （削除アクションのみ）、 [!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除アクションのみ）および [!DNL Yandex] アカウントのみ*
 
 フィードから生成されたキャンペーンデータの投稿は、次の方法で停止できます。
 
 * データの伝播の継続中は、伝播ジョブを停止し、データを POST できないようにします。
 
-   1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;が開き、が表示されます。 [!UICONTROL Templates] タブ。
+   1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
 
-   1. が「[!UICONTROL Last Prop. Status]テンプレート名の横にある「列」をクリックし、 **[!UICONTROL Cancel]**.
+   1. テンプレート名の横にある「[!UICONTROL Last Prop. Status]」列で、「**[!UICONTROL Cancel]**」をクリックします。
 
-* データが既に反映されている場合は、 [から転記ジョブをキャンセルします [!UICONTROL Bulksheets] 表示](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md).
+* データが既に反映されている場合は、[[!UICONTROL Bulksheets] ビューから投稿ジョブをキャンセル ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md) します。
 
 >[!MORELIKETHIS]
 >
->* [在庫フィードについて](inventory-feeds-about.md)
->* [フィードから生成されたデータを表示](propagated-data-view.md)
->* [フィードから生成されたデータを編集](propagated-data-edit.md)
->* [フィードから広告ネットワークにキャンペーン データを投稿](propagated-data-post.md)
->* [フィードから生成されたデータのステータス](propagated-data-status.md)
+>* [ 在庫フィードについて ](inventory-feeds-about.md)
+>* [ フィードから生成されたデータを表示 ](propagated-data-view.md)
+>* [ フィードから生成されたデータを編集 ](propagated-data-edit.md)
+>* [ フィードから広告ネットワークにキャンペーンデータを投稿する ](propagated-data-post.md)
+>* [ フィードから生成されたデータのステータス ](propagated-data-status.md)

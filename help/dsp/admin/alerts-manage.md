@@ -1,87 +1,87 @@
 ---
-title: アラート購読の管理
-description: 自動 E メールアラートを管理する方法を説明します。
+title: アラート配信登録の管理
+description: 自動メールアラートを管理する方法を説明します。
 role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
 source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
-# アラート購読の管理
+# アラート配信登録の管理
 
 ## 購読を追加
 
-1. メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Notifications]**.
+1. メインメニューで、**[!UICONTROL Settings]**/**[!UICONTROL Notifications]** をクリックします。
 
-1. 「通知」リストの上部で、 **[!UICONTROL Add Subscription]**.
+1. 通知リストの上部で、「**[!UICONTROL Add Subscription]**」をクリックします。
 
-1. 一意の *配信登録名** （アラート用）
+1. アラートの一意の *登録名**を入力します。
 
-1. 内 **[!UICONTROL Add Alerts]** セクション：
+1. **[!UICONTROL Add Alerts]** のセクションで以下を実行します。
 
    1. 最初のアラートタイプを選択します。
 
-   1. アラートのパラメーターを入力します。
+   1. アラート・パラメータを入力します。
 
       設定は、アラートタイプによって異なります。
 
-   1. （オプション）すぐにアラートを実行するには、 **[!UICONTROL Alert immediately]**. デフォルトでは、アラートはアカウントのタイムゾーンの 08:00 に実行されます。
+   1. （オプション）アラートをすぐに実行するには、「**[!UICONTROL Alert immediately]**」を選択します。 デフォルトでは、アラートはアカウントのタイムゾーンの 08:00 に実行されます。
 
-   1. （オプション）購読にアラートを追加するには、 **[!UICONTROL Add Alert]** アラートを作成します。
+   1. （オプション）購読にアラートを追加するには、「**[!UICONTROL Add Alert]**」をクリックしてアラートを作成します。
 
-1. 内 **[!UICONTROL Add Subscriber Email Addresses]** [!DNL Analytics] フィールドで、アラートを受信する各メールアドレスを入力し、 **[!UICONTROL Enter]** キー。
+1. 「**[!UICONTROL Add Subscriber Email Addresses]**」フィールドに、アラートを受信する各メールアドレスを入力し、**[!UICONTROL Enter]** キーを押します。
 
-1. クリック **保存**.
+1. **保存** をクリックします。
 
-## 配信登録に関するアラートの管理
+## 購読のアラートの管理
 
-* 配信登録にアラートを追加するには：
+* 購読にアラートを追加するには：
 
-   1. 購読名の右側で、 **[!UICONTROL + Add Alert]**.
+   1. サブスクリプション名の右側にある [**[!UICONTROL + Add Alert]**] をクリックします。
 
-   1. アラートのタイプを選択します。
+   1. アラートタイプを選択します。
 
-   1. アラートのパラメーターを入力します。
+   1. アラート・パラメータを入力します。
 
       設定は、アラートタイプによって異なります。
 
-   1. （オプション）すぐにアラートを実行するには、 **[!UICONTROL Alert immediately]**. デフォルトでは、アラートは実行されます <!-- at what time? -->.
+   1. （オプション）アラートをすぐに実行するには、「**[!UICONTROL Alert immediately]**」を選択します。 デフォルトでは、アラートは <!-- at what time? --> 実行されます。
 
-   1. クリック **[!UICONTROL Save]**.
+   1. 「**[!UICONTROL Save]**」をクリックします。
 
 * 購読のアラートを編集するには：
 
-   1. 購読名の右側で、 ![編集](/help/dsp/assets/edit.png).
+   1. サブスクリプション名の右側にある ![ 編集 ](/help/dsp/assets/edit.png) をクリックします。
 
-   1. アラートのパラメーターを編集します。
+   1. アラートパラメーターを編集します。
 
-   1. （オプション）すぐにアラートを実行するには、 **[!UICONTROL Alert immediately]**. デフォルトでは、アラートは実行されます <!-- at what time? -->.
+   1. （オプション）アラートをすぐに実行するには、「**[!UICONTROL Alert immediately]**」を選択します。 デフォルトでは、アラートは <!-- at what time? --> 実行されます。
 
-   1. クリック **[!UICONTROL Save]**.
+   1. 「**[!UICONTROL Save]**」をクリックします。
 
-* 配信登録からアラートを削除するには、 **[!UICONTROL X]** をクリックします。
+* 購読からアラートを削除するには、アラート名の右側にある「**[!UICONTROL X]**」をクリックします。
 
-## 購読登録者の管理
+## 購読の購読者の管理
 
-* 購読者を購読に追加するには、の下の入力フィールドに E メールアドレスを入力します **[!UICONTROL Subscribers]**.
+* サブスクリプションにサブスクライバーを追加するには、**[!UICONTROL Subscribers]** の下の入力フィールドにメールアドレスを入力します。
 
-  複数のアドレスをスペースで区切ります。
+  複数のアドレスはスペースで区切ります。
 
-* サブスクリプションの購読者を削除するには、 **[!UICONTROL X]** の下のメールアドレスの横に **[!UICONTROL Subscribers]**.
+* サブスクリプションの購読者を削除するには、**[!UICONTROL Subscribers]** の下のメールアドレスの横にある「**[!UICONTROL X]**」をクリックします。
 
-## 配信登録の無効化または有効化
+## サブスクリプションを無効または有効にする
 
-* 購読名の左側で、切り替えを左に移動して購読を無効にするか、右に移動して購読を有効にします。
+* 購読名の左側で、切替スイッチを左に移動して購読を無効にするか、右に移動して購読を有効にします。
 
-## 購読の削除
+## 購読を削除
 
-1. 購読名の右側で、 **[!UICONTROL X]**.
+1. サブスクリプション名の右側にある [**[!UICONTROL X]**] をクリックします。
 
-1. 確認メッセージで、 **[!UICONTROL yes]**.
+1. 確認メッセージで、「**[!UICONTROL yes]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->[アラート購読について](alerts-about.md)
+>[ アラート購読について ](alerts-about.md)

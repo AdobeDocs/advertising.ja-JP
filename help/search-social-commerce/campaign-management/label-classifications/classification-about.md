@@ -1,38 +1,38 @@
 ---
 title: ラベルの分類について
-description: ラベル分類を使用してアカウントコンポーネントをグループ化する方法について説明します。
-exl-id: a4777e7a-50c7-4521-a849-fb4661d94602
+description: ラベル分類を使用したアカウントコンポーネントのグループ化について説明します。
+exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
 
 # ラベルの分類について
 
-ラベルの分類は、アカウントコンポーネントを意味のあるセットにグループ化するのに役立ちます。 例えば、「地域」という親ラベル分類を作成し、分類内の地理的地域ごとに異なるラベル値（「英国」や「日本」など）を作成して、ラベル値を [入札単位](/help/search-social-commerce/glossary.md#a-b) または親キャンペーン。 その後、任意のラベル値をビューとレポートの個別の列として含め、様々な分類グループと値に関するレポートをサブピボットできます。
+ラベル分類は、アカウントコンポーネントを意味のあるセットにグループ化するのに役立ちます。 例えば、「地域」という親ラベル分類を作成し、分類内の各地理的地域（「英国」や「日本」など）に異なるラベル値を作成して、[ 入札単位 ](/help/search-social-commerce/glossary.md#a-b) または親キャンペーンにラベル値を割り当てることができます。 その後、任意のラベル値を個別の列としてビューやレポートに含め、異なる分類グループや値に基づいてレポートをサブピボットできます。
 
 ## ラベルの分類
 
-各広告主は、最上位レベルのカテゴリである、最大 30 個のラベル分類を持つことができます。
+各広告主には、最大 30 個のラベル分類を指定できます。これは最上位レベルのカテゴリです。
 
-## ラベル値
+## ラベルの値
 
-各ラベル分類には、最大 2,000 個の値を含めることができます。 分類に特定のラベル値を作成したら、キャンペーン、広告グループ、キーワード、広告、プレースメントおよび製品グループに割り当てることができます [キャンペーン管理ビューから](classification-values-assign-campaign-management.md) または [bulksheets の使用](classification-values-assign-bulksheets.md).
+各ラベル分類には、最大 2000 個の値を設定できます。 分類に特定のラベル値を作成したら、それらをキャンペーン、広告グループ、キーワード、広告、配置、製品グループに [ キャンペーン管理ビューまたは [ バルクシートの使用 ](classification-values-assign-campaign-management.md) から ](classification-values-assign-bulksheets.md) 割り当てることができます。
 
-各適格なエンティティは、複数の分類に対してラベル値を持つことができますが、分類ごとに 1 つのラベル値のみを持つことができます。 ラベル値は子エンティティに継承されますが、上書きできます。 最下位レベルで割り当てられた値は、常に親レベルで割り当てられた値を上書きします。
+各適格エンティティは、複数の分類のラベル値を持つことができますが、分類ごとに 1 つのラベル値のみを持つことができます。 ラベル値は、子エンティティに継承されますが、上書きできます。 最下位レベルで割り当てられた値は、常に親レベルで割り当てられた値を上書きします。
 
 ## ラベルの分類ビュー
 
-The [!UICONTROL Labels Classifications] 内のビュー [!UICONTROL Search] > [!UICONTROL Campaigns] メニューの含まれる [!UICONTROL Classifications] および [!UICONTROL Label Values] サブビュー。 ラベル分類のデータを表示できます。 [作成](classification-create.md) および [削除](classification-delete.md) ラベルの分類を作成し、ラベル分類値のデータを表示します。 デフォルトでは、キーワードレベルのラベルの分類と値に関するデータが表示されますが、オプションで広告レベルの分類と値に関するデータを表示することもできます。
+[!UICONTROL Search] > [!UICONTROL Campaigns] メニュー内の [!UICONTROL Labels Classifications] ビューには、[!UICONTROL Classifications] と [!UICONTROL Label Values] のサブビューが含まれます。 ラベル分類のデータを表示したり、ラベル分類を [ 作成 ](classification-create.md) および [ 削除 ](classification-delete.md) したり、ラベル分類値のデータを表示することができます。 デフォルトでは、キーワードレベルのラベルの分類と値のデータが表示されますが、オプションで、広告レベルの分類と値のデータを表示することもできます。
 
 >[!MORELIKETHIS]
 >
->* [ラベルの分類の作成](classification-create.md)
->* [分類値をキャンペーン管理ビューからアカウントコンポーネントに割り当てる](classification-values-assign-campaign-management.md)
->* [一括送信シートを使用して、勘定科目コンポーネントに分類値を割り当てます。](classification-values-assign-bulksheets.md)
->* [顧客コンポーネントからラベル分類値を削除](classification-values-remove.md)
->* [ラベル分類値の削除](classification-values-delete.md)
->* [ラベルの分類を削除](classification-delete.md)
+>* [ ラベル分類の作成 ](classification-create.md)
+>* [ キャンペーン管理ビューからアカウントコンポーネントへの分類値の割り当て ](classification-values-assign-campaign-management.md)
+>* [ バルクシートを使用した勘定科目コンポーネントへの分類値の割当て ](classification-values-assign-bulksheets.md)
+>* [ アカウントコンポーネントからラベル分類値を削除する ](classification-values-remove.md)
+>* [ ラベル分類値を削除 ](classification-values-delete.md)
+>* [ ラベル分類を削除 ](classification-delete.md)

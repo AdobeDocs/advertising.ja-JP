@@ -1,19 +1,19 @@
 ---
-title: 利用可能 [!DNL Google Analytics] 指標
-description: 以下を参照してください。 [!DNL Google Analytics] 指標を使用できます。
+title: Available [!DNL Google Analytics] metrics
+description: データソースで使用可能な  [!DNL Google Analytics]  指標を参照します。
 role: User, Admin
-exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
+exl-id: 434c569d-7869-4874-90a5-5af18bc8157e
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-# 付録 — 利用可能 [!DNL Google Analytics] 指標
+# 付録 – 使用可能な [!DNL Google Analytics] 指標
 
-以下の指標は、特に記載の除外を除き、 [!DNL Google Analytics].
+次の指標は、[!DNL Google Analytics] でお客様の実装で有効になっている場合は、記載されている除外を除いて使用できます。
 
 <!-- Notes as FYI to self:
 >[!NOTE]
@@ -24,24 +24,24 @@ ht-degree: 0%
 
 | カテゴリ | 除外済み | コメント |
 | ---- | ---- | ---- |
-| \[ すべて\] | データタイプが「PERCENT」の指標 | 割合として表示される指標は、常に除外されます。 |
-| ユーザー | ga:1dayUsers, ga:7dayUsers, ga:14dayUsers, ga:28dayUsers, ga:sessionsPerUser | — |
-| セッション | ga:uniqueDimensionCombinations | — |
+| \[ すべて\] | データタイプが「PERCENT」の指標 | パーセンテージとして表示される指標は、常に除外されます。 |
+| ユーザー | ga:1dayUsers、ga:7dayUsers、ga:14dayUsers、ga:28dayUsers、ga:sessionsPerUser | — |
+| Session | ga:uniqueDimensionCombinations | — |
 | 目標コンバージョン | — | — |
-| ページトラッキング | ga:entrices, ga:timeOnPage, ga:exits | — |
-| 内部検索 | — | 内部検索のすべての指標のわかりやすい名前の前には、値「InternalSearch:」が付きます。 |
-| イベント追跡 | — | — |
-| e コマース | — | — |
+| ページトラッキング | ga：エントリ，ga:timeOnPage, ga:exits | — |
+| 内部検索 | — | 内部検索のすべての指標のわかりやすい名前の前には、「InternalSearch:」という値が追加されます。 |
+| イベントの追跡 | — | — |
+| E コマース | — | — |
 | ソーシャルインタラクション | — | — |
 | 例外 | — | — |
 | カスタム変数または列 | ga:calcMetric_* | 計算指標は常に除外されます。 |
 
 >[!MORELIKETHIS]
 >
->* [同期について [!DNL Google Analytics] コンバージョン指標](data-source-about.md)
->* [の設定の前提条件 [!DNL Google Analytics] データソース](data-source-prerequisites.md)
->* [の設定 [!DNL Google Analytics] データソースとして表示](data-source-configure.md)
->* [の編集 [!DNL Google Analytics] データソース](data-source-edit.md)
->* [データソースの同期を一時停止する](data-source-pause.md)
->* [の再認証 [!DNL Google Analytics] データソース](data-source-reauthenticate.md)
->* [[!DNL Google Analytics] データソース設定](data-source-settings.md)
+>* [ 同期  [!DNL Google Analytics]  コンバージョン指標について ](data-source-about.md)
+>* [ データソースを設定するため  [!DNL Google Analytics]  前提条件 ](data-source-prerequisites.md)
+>* [ データソースとして  [!DNL Google Analytics]  ビューを設定する ](data-source-configure.md)
+>* [ データソース  [!DNL Google Analytics]  編集 ](data-source-edit.md)
+>* [ データソースの同期の一時停止 ](data-source-pause.md)
+>* [ データソース  [!DNL Google Analytics]  再認証 ](data-source-reauthenticate.md)
+>* [[!DNL Google Analytics]  データソース設定 ](data-source-settings.md)

@@ -1,9 +1,9 @@
 ---
-title: '''[!DNL Yahoo! Japan Ads] 広告グループ設定'
-description: 次の設定を参照してください： [!DNL Yahoo! Japan Ads] 広告グループ。
-exl-id: 987c9627-06b3-447a-aa1b-a4040f4f5a0c
+title: '[!DNL Yahoo! Japan Ads] 広告グループの設定'
+description: 広告グループの設定  [!DNL Yahoo! Japan Ads]  参照します。
+exl-id: 1afacb94-bf07-45df-ab79-13cb7f876288
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Name]:** キャンペーン内で一意の広告グループ名。
 
-**[!UICONTROL Status]:** 広告グループの表示ステータス： *アクティブ* または *一時停止*. 新しい広告グループのデフォルトはです。 *アクティブ*.
+**[!UICONTROL Status]:** 広告グループの表示ステータス：*アクティブ* または *一時停止*。 新しい広告グループのデフォルトは *アクティブ* です。
 
 ## [!UICONTROL Budget Options]
 
@@ -42,4 +42,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [広告グループの管理](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [ 広告グループの管理 ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)

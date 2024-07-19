@@ -1,39 +1,39 @@
 ---
-title: キーワードと除外キーワードのステータスの変更
-description: キーワードと除外キーワードのステータスを変更する方法を説明します。
-exl-id: c1562104-048e-486d-b20c-3c15f089324d
+title: キーワードとネガティブキーワードのステータスの変更
+description: キーワードとネガティブキーワードのステータスを変更する方法を説明します。
+exl-id: 46b000af-14a0-4f00-8f3c-c3ef2c93fd19
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
 
 ---
 
-# キーワードと除外キーワードのステータスの変更
+# キーワードとネガティブキーワードのステータスの変更
 
-アクティブで入札可能な検索キーワードを一時停止して、そのキーワードに対する入札を無効にできます。 ステータスを「アクティブ」に戻すと、後で入札を再開できます。
+アクティブで入札可能な検索キーワードを一時停止して、その検索キーワードへの入札を無効にすることができます。 後でステータスをアクティブに戻すことで、入札を再開できます。
 
-また、アクティブまたは一時停止した検索キーワードや除外キーワードを削除することもできます。 削除されたキーワードまたは除外キーワードは、広告ネットワークから削除されます。 まだ見えますが、変更はできません。
+アクティブまたは一時停止した検索キーワードやネガティブキーワードを削除することもできます。 削除されたキーワード/負のキーワードは広告ネットワークから削除されます。 これらは表示されたままですが、変更できません。
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. サブメニューで、 **[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]** をクリックします。
 
-1. （オプション）特定のキーワードまたは除外キーワードを含めるようにリストをフィルターします。
+1. （任意）特定のキーワードまたは負のキーワードを含めるようにリストをフィルタリングします。
 
-1. ステータスを変更する各入札可能キーワードまたは除外キーワードの横にあるチェックボックスをオンにします。
+1. ステータスを変更する入札可能キーワードまたは負のキーワードの横にあるチェック ボックスをオンにします。
 
-   複数行を選択する際のヒントについては、[複数行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-1. ツールバーで、ステータスボタンをクリックします。
+1. ツールバーの「ステータス」ボタンをクリックします。
 
-   * （入札可能なキーワードのみ）行をアクティブにするには、 ![有効化](/help/search-social-commerce/assets/activate.png "有効化").
+   * （入札キーワードのみ）行をアクティブにするには、「![ アクティブ化 ](/help/search-social-commerce/assets/activate.png " アクティブ化 ")」をクリックします。
 
-   * （入札可能なキーワードのみ）行を一時停止するには、 ![一時停止](/help/search-social-commerce/assets/pause.png "一時停止").
+   * （入札キーワードのみ）行を一時停止するには、「![ 一時停止 ](/help/search-social-commerce/assets/pause.png " 一時停止 ")」をクリックします。
 
-   * 行を削除するには、 ![その他](/help/search-social-commerce/assets/more.png "その他") を選択し、 **[!UICONTROL Delete]**. 確認メッセージで、 **[!UICONTROL Delete]**.
+   * 行を削除するには、「![ その他 ")」をクリックし ](/help/search-social-commerce/assets/more.png " 「**[!UICONTROL Delete]**」を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [キーワードについて](keyword-about.md)
->* [入札可能なキーワードの管理](keyword-manage.md)
->* [除外キーワードの作成](keyword-negative-create.md)
+>* [ キーワードについて ](keyword-about.md)
+>* [ 入札可能キーワードの管理 ](keyword-manage.md)
+>* [ ネガティブキーワードの作成 ](keyword-negative-create.md)

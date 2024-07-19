@@ -12,22 +12,22 @@ ht-degree: 0%
 
 # セグメントのトラッキングピクセルの表示
 
-1. メインメニューで、 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+1. メインメニューで、**[!UICONTROL Audiences]**/**[!UICONTROL Segments]** をクリックします。
 
-1. セグメント行の上にカーソルを置き、クリックします **[!UICONTROL Get Pixel]**.
+1. セグメント行の上にカーソルを置き、**[!UICONTROL Get Pixel]** をクリックします。
 
-   * Web ページへのデスクトップおよびモバイル訪問者を追跡するページビュートラッキングタグには、「」というラベルが付いています[!UICONTROL Desktop or mobile websites].」と入力します。 追跡するセグメントの場合 [!DNL ID5] ID、置換 `ID5_PARTNER_ID` コピーされたタグ内のパートナー ID が [!DNL ID5] と契約を締結したときに組織に割り当てられた [!DNL ID5]. パートナー ID がわからない場合は、Adobeアカウントチームにお問い合わせください。
+   * Web ページへのデスクトップおよびモバイル訪問者を追跡するページビュートラッキングタグには、「[!UICONTROL Desktop or mobile websites]」というラベルが付いています。 [!DNL ID5] ID を追跡するセグメントの場合は、コピーしたタグの `ID5_PARTNER_ID` を、[!DNL ID5] との契約に署名し [!DNL ID5] 際に組織に割り当てられたパートナー ID に置き換えます。 パートナー ID がわからない場合は、Adobeアカウントチームにお問い合わせください。
 
      ビューをトラッキングするページにタグを追加します。
 
-   * （カスタムセグメントのみ） インプレッショントラッキングタグは、デスクトップ、モバイルまたは CTV デバイス上の広告ユニットに公開されたユーザーを追跡するもので、「」というラベルが付いています[!UICONTROL Desktop or mobile ads].」と入力します。 ビューを追跡する広告にタグを追加します。オプションで、タグをプレースメントに追加して、プレースメントに関連付けられたすべての広告にデフォルトでタグを添付できます。
+   * （カスタムセグメントのみ） インプレッショントラッキングタグは、デスクトップ、モバイルまたは CTV デバイス上の広告ユニットに公開されたユーザーを追跡するもので、「[!UICONTROL Desktop or mobile ads]」というラベルが付いています。 ビューを追跡する広告にタグを追加します。オプションで、タグをプレースメントに追加して、プレースメントに関連付けられたすべての広告にデフォルトでタグを添付できます。
 
 トラッキングタグが実装されると、任意のプレースメントに対してオーディエンスターゲットまたは除外のセグメントを使用できます。
 
 >[!MORELIKETHIS]
 >
->* [Audience Management について](audience-about.md)
->* [カスタムセグメントの作成](custom-segment-create.md)
->* [セグメント情報の編集](segment-edit.md)
->* [セグメントの削除](segment-delete.md)
->* [セグメントの共有または共有の停止](segment-share.md)
+>* [Audience Management について ](audience-about.md)
+>* [ カスタムセグメントの作成 ](custom-segment-create.md)
+>* [ セグメント情報の編集 ](segment-edit.md)
+>* [ セグメントの削除 ](segment-delete.md)
+>* [ セグメントの共有または共有の停止 ](segment-share.md)

@@ -24,13 +24,13 @@ ht-degree: 0%
 
 ## 広告ネットワークによる機能
 
-* **ダウンロード、アップロード、投稿：**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising]、および [!DNL Yandex] アカウント
+* **ダウンロード、アップロード、投稿：** [!DNL Baidu]、[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex] アカウント
 
 * **ダウンロードとアップロードのみ：** [!DNL Naver] アカウント
 
-  アップロードできます [!DNL Naver] 検索、ソーシャル、Commerce内で使用するデータですが、広告ネットワークに投稿できません。 また、既存の（非同期の）データをダウンロードすることもできます。
+  検索、ソーシャル、Commerce内で使用する [!DNL Naver] データをアップロードできますが、広告ネットワークに投稿することはできません。 また、既存の（非同期の）データをダウンロードすることもできます。
 
-* **データのみをダウンロード：**  [!DNL Pinterest], [!DNL Yahoo Native]、および [!DNL Yahoo! Display Network] アカウント
+* **データのみをダウンロード：** [!DNL Pinterest]、[!DNL Yahoo Native] および [!DNL Yahoo! Display Network] アカウント
 
   既存の（非同期の）データをダウンロードできます。
 
@@ -42,17 +42,17 @@ ht-degree: 0%
   [EDIT/RECREATE FILE to replace "search engine"]
 -->
 
-1. [1 つ以上のアカウント、キャンペーンまたは広告グループのデータをバルクシートファイルにダウンロードする](bulksheet-download.md). オプションとして、広告ネットワーク固有のバルクシートに手動で入力し、ファイルをアップロードできます。
+1. [1 つ以上のアカウント、キャンペーンまたは広告グループのデータをバルクシートファイルにダウンロードします ](bulksheet-download.md)。 オプションとして、広告ネットワーク固有のバルクシートに手動で入力し、ファイルをアップロードできます。
 
-1. [ランディングページの検証](bulksheet-validate-landing-pages.md) ファイル内のベース（最終的な） URL または宛先 URL で指定します。
+1. ファイル内のベース（最終的な） URL または宛先 URL で [ ランディングページを検証 ](bulksheet-validate-landing-pages.md) します。
 
 1. データを追加したり修正したりする必要がある場合：
 
-   1. [ファイルをエクスポートします](bulksheet-export.md) デスクトップに追加して、で編集する [!DNL Microsoft Excel].
+   1. [ ファイルを書き出す ](bulksheet-export.md) をデスクトップに追加し、[!DNL Microsoft Excel] で編集します。
 
-   1. [編集したファイルを手動でアップロード](bulksheet-upload.md) 検索、ソーシャル、Commerceまたは [指定した FTP アカウントにファイルをアップロードします](bulksheet-ftp-account.md) 自動転記の場合。
+   1. [ 編集したファイルを手動でアップロード ](bulksheet-upload.md) して、検索、ソーシャル、Commerceにアップロードするか、[ 指定した FTP アカウントにファイルをアップロード ](bulksheet-ftp-account.md) して自動投稿します。
 
-1. （手動でアップロードしたファイル用） [ファイルを投稿](bulksheet-post.md) をアップロード時または後で広告ネットワークに接続します。
+1. （手動でアップロードしたファイルの場合） [ ファイルを投稿 ](bulksheet-post.md) は、アップロード時または後で広告ネットワークに送信します。
 
 1. （必要な場合）新しいエラーファイルをダウンロードし、行を修正して、ファイルを再投稿します。
 
@@ -62,13 +62,13 @@ ht-degree: 0%
 
 バルクシートの操作中にエラーが発生すると、次の 2 種類のエラーファイルのいずれかが生成されます。
 
-* **[!UICONTROL EF Errors]:**  ファイルまたはファイル内の個々の行をアップロードまたは処理できない場合、というエラーファイルが表示されます。 `<uploaded file name>_ef_errors.<extension used for the bulksheet>` が作成されました。 問題が個々の行にある場合は、修正できるように、各エラーの説明とともに、それらの行が含まれます。
+* **[!UICONTROL EF Errors]:** ファイルまたはファイル内の個々の行をアップロードまたは処理できない場合、`<uploaded file name>_ef_errors.<extension used for the bulksheet>` というエラーファイルが作成されます。 問題が個々の行にある場合は、修正できるように、各エラーの説明とともに、それらの行が含まれます。
 
-* **[!UICONTROL SE Errors]:**  ファイルが投稿されても、広告ネットワークが一部またはすべてのデータを受け入れない場合、エラーファイルが呼び出されます。 `<uploaded file name>_se_errors.<extension used for the bulksheet>` が作成されました。 すべての行ではなく一部の行が受け入れられると、エラーファイルに投稿されなかった行と各エラーの説明が表示され、修正できます。 エラーメッセージは、各行の最後の 3 列に表示されます。
+* **[!UICONTROL SE Errors]:** ファイルが投稿されても、広告ネットワークがデータの一部または全部を受け入れない場合、`<uploaded file name>_se_errors.<extension used for the bulksheet>` というエラーファイルが作成されます。 すべての行ではなく一部の行が受け入れられると、エラーファイルに投稿されなかった行と各エラーの説明が表示され、修正できます。 エラーメッセージは、各行の最後の 3 列に表示されます。
 
 >[!NOTE]
 >
->投稿する場合 [!DNL Google Ads] 広告ネットワークの広告ポリシーに違反する広告であっても、免除対象となる可能性がある場合、それらの広告は自動的に免除要求で再投稿されます。 除外リクエストが失敗した場合、違反に関する情報がエラーファイルに含まれます。
+>広告ネットワークの広告ポリシーに違反する [!DNL Google Ads] 広告を投稿しても、免除対象となる可能性がある場合、それらの広告は自動的に免除要求で再投稿されます。 除外リクエストが失敗した場合、違反に関する情報がエラーファイルに含まれます。
 
 どちらのタイプのエラーファイルでもダウンロードでき、行に直接修正を加えてから、ファイルを再度アップロードして POST できます。
 
@@ -76,13 +76,13 @@ ht-degree: 0%
 
 ## 各ファイルの情報
 
-すべてのダウンロード済みデータファイル、アップロード済みファイル、エラーファイルは、 [!UICONTROL Search] > [!UICONTROL Bulksheets].
+ダウンロードされたすべてのデータファイル、アップロードされたファイル、エラーファイルは、[!UICONTROL Search] / [!UICONTROL Bulksheets] から入手できます。
 
 各ファイルの情報には、現在のタスクのステータスと完了したタスクの割合、タスクが作成された日付、指定された広告ネットワークにタスクが投稿された、または投稿される日付（該当する場合）、予定されている削除日、タスクを開始したユーザーのログイン名が含まれます。
 
 >[!MORELIKETHIS]
 >
->* [バルクシートファイルのダウンロードと作成](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
->* [バルクシートまたは修正されたエラーファイルのアップロード](bulksheet-upload.md)
->* [バルクシートまたは修正されたエラーファイルの投稿](bulksheet-post.md)
->* [生成またはアップロードされたバルクシートファイルのエクスポート](bulksheet-export.md)
+>* [ バルクシートファイルのダウンロード/作成 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+>* [ バルクシートまたは修正されたエラーファイルのアップロード ](bulksheet-upload.md)
+>* [ ポストバルクシートまたは修正されたエラーファイル ](bulksheet-post.md)
+>* [ 生成またはアップロードされたバルクシートファイルのエクスポート ](bulksheet-export.md)

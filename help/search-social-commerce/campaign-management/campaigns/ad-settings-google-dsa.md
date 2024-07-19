@@ -1,24 +1,24 @@
 ---
-title: '''[!DNL Google Ads] 動的検索広告設定の拡張'
-description: 次の設定を参照してください： [!DNL Google Ads] 動的検索広告を拡張しました。
-exl-id: e7b3a4c2-1cdb-45d7-bf87-ca26947dd1a4
+title: '[!DNL Google Ads] 拡張された動的検索広告設定'
+description: 展開された動的検索広告  [!DNL Google Ads]  設定を参照します。
+exl-id: 62142e37-c7c6-42d8-883b-f288a2903f44
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Ads] 拡張された動的検索広告設定
 
-動的検索広告 (DSA) は、 [!DNL Google Ads] 検索専用キャンペーンで動的な広告グループを検索します。 広告ネットワークはヘッドラインを動的に生成し、動的検索広告のランディングページと表示 URL を選択し、最終的な URL を自動的に生成します。
+動的検索広告（DSA）は、検索専用キャンペーンの [!DNL Google Ads] の検索動的広告グループでのみ使用できます。 広告ネットワークは、ヘッドラインを動的に生成し、動的検索広告のランディングページと表示 URL を選択してから、最終的な URL を自動的に生成します。
 
-詳しくは、 Google Ads ヘルプを参照してください。 [アカウントごとの広告制限](https://support.google.com/google-ads/answer/6372658?hl=en).
+[ アカウントごとの広告制限 ](https://support.google.com/google-ads/answer/6372658?hl=en) については、Google Ads のヘルプを参照してください。
 
 >[!NOTE]
 >
->広告のコピーを変更すると、既存の広告が削除され、同じプロパティを持つ新しい広告が作成されます。
+>広告コピーを変更すると、既存の広告が削除され、同じプロパティを持つ新しい広告が作成されます。
 
 ## [!UICONTROL Expanded Dynamic Search Ad Details]
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [広告について](ad-about.md)
->* [広告の管理](ad-manage.md)
->* [[!DNL Google Ads] 呼び出しのみの広告設定](ad-settings-google-call.md)
->* [[!DNL Google Ads] レスポンシブ検索広告設定](ad-settings-google-rsa.md)
+>* [ 広告について ](ad-about.md)
+>* [ 広告の管理 ](ad-manage.md)
+>* [[!DNL Google Ads]  呼び出し専用広告設定 ](ad-settings-google-call.md)
+>* [[!DNL Google Ads]  レスポンシブ検索広告設定 ](ad-settings-google-rsa.md)

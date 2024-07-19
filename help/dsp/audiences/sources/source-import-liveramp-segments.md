@@ -1,6 +1,6 @@
 ---
-title: 認証済みセグメントの手動インポート： [!DNL LiveRamp]
-description: を使用した、認証済みオーディエンスのアクティブ化について説明します [!DNL LiveRamp].
+title: 認証済みセグメントの手動インポート  [!DNL LiveRamp]
+description: ' [!DNL LiveRamp] を使用した認証済みオーディエンスのアクティブ化について説明します。'
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
 source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# 認証済みセグメントの手動インポート： [!DNL LiveRamp]
+# 認証済みセグメントの [!DNL LiveRamp] からの手動インポート
 
-*ベータ版機能*
+*Beta機能*
 
-認証済みを手動で送信できます [!DNL LiveRamp] を使用したDSPへのセグメント [!DNL LiveRamp] [!DNL Connect] ダッシュボード。 読み込んだセグメントをプレースメントのターゲティングに使用できます。 ファーストパーティセグメントの場合、料金は配信されたディスプレイ広告インプレッションあたり 0.15 ドル、ビデオ広告インプレッションあたり 0.25 ドルです。
+[!DNL LiveRamp] [!DNL Connect] ダッシュボードを使用すると、認証済み [!DNL LiveRamp] セグメントを手動でDSPに送信できます。 読み込んだセグメントをプレースメントのターゲティングに使用できます。 ファーストパーティセグメントの場合、料金は配信されたディスプレイ広告インプレッションあたり 0.15 ドル、ビデオ広告インプレッションあたり 0.25 ドルです。
 
 各インポートジョブのセグメントマッピングとアップロードには、最大 7 日間かかる場合があります。
 
@@ -28,21 +28,21 @@ ht-degree: 0%
 
  -->
 
-1. で次の手順を実行します [!DNL Connect] ダッシュボード：
+1. [!DNL Connect] ダッシュボードで次の手順を実行します。
 
-   1. 宛先タイルのアクティブ化 **[!DNL AAC API 1P Onboarding]**.
+   1. 宛先タイル **[!DNL AAC API 1P Onboarding]** をアクティブ化します。
 
-   1. を設定 [!DNL Identifier Settings] 対象： **[!DNL Ramp ID]** のみ。
+   1. [!DNL Identifier Settings] を **[!DNL Ramp ID]** のみに設定します。
 
-      ![識別子の設定](/help/dsp/assets/liveramp-tile-settings.png)
+      ![ 識別子の設定 ](/help/dsp/assets/liveramp-tile-settings.png)
 
-   1. （オプション） cookie ベースの識別子を引き続き受け取る場合は、2 つ目のを作成します [!DNL AAC API 1P Onboarding] 宛先タイル （「」付き）[!DNL Cookies],&quot; &quot;[!DNL IDFA]、」および「[!DNL AAID]が選択されました。
+   1. （任意） cookie ベースの識別子を引き続き受け取る場合は、「[!DNL Cookies]」、「[!DNL IDFA]」、「[!DNL AAID]」を選択して、2 つ目の [!DNL AAC API 1P Onboarding] 宛先タイルを作成します。
 
-   1. オーディエンスライブラリでの検証（オーディエンスの作成または編集時に使用できます） [!UICONTROL Audiences] > [!UICONTROL All Audiences] またはプレースメント設定内）を選択して、セグメント数全体が読み込まれました。
+   1. オーディエンスライブラリ（[!UICONTROL Audiences]/[!UICONTROL All Audiences] またはプレースメント設定内でオーディエンスを作成または編集する場合に使用できます）で、セグメント数全体が読み込まれていることを確認します。
 
 >[!MORELIKETHIS]
 >
->* [ファーストパーティオーディエンスソースについて](source-about.md)
->* [オーディエンスソースを管理してユニバーサル ID オーディエンスを有効化](source-manage.md)
->* [Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* [Audience Management について](/help/dsp/audiences/audience-about.md)
+>* [ ファーストパーティオーディエンスソースについて ](source-about.md)
+>* [ ユニバーサル ID オーディエンスをアクティブ化するためのオーディエンスソースの管理 ](source-manage.md)
+>* [Adobe Advertising DSP接続 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Audience Management について ](/help/dsp/audiences/audience-about.md)

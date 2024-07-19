@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Advertising DSPによるキャンペーンの最適化方法
 
-ここでは、を利用したDSP最適化エンジンの概要を説明します [!DNL Adobe Sensei]は、キャンペーンでパッケージを最適化します。 キャンペーンを手動で最適化する方法に関するヒントやコツについては、Adobeアカウントチームにお問い合わせください。 <!-- add link to trading playbook if we add it to help -->
+ここでは、[!DNL Adobe Sensei] を利用したDSP最適化エンジンが、キャンペーン内のパッケージをどのように最適化するかについて説明します。 キャンペーンを手動で最適化する方法に関するヒントやコツについては、Adobeアカウントチームにお問い合わせください。<!-- add link to trading playbook if we add it to help -->
 
 パッケージの最適化目標は、次の 2 つのレベルで動作します。
 
@@ -32,17 +32,17 @@ DSPでは、2 つの基本的な方法で配信を最適化できます。具体
 
 * コスト効率とパフォーマンス率のバランスを優先する
 
-参照： [最適化目標とその使用方法](optimization-goals.md) どの最適化目標が KPI の達成に役立つかを判断する。
+KPI の達成に役立つ最適化目標を決定するには [ 最適化目標とその使用方法 ](optimization-goals.md) を参照してください。
 
 ### パフォーマンス率を優先するパッケージ
 
-パフォーマンス率を優先する最適化目標の場合、DSPは各オークションのパフォーマンスを予測し、常に最大入札額で入札を行います。 該当する最適化目標の例を次に示します [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate]など。
+パフォーマンス率を優先する最適化目標の場合、DSPは各オークションのパフォーマンスを予測し、常に最大入札額で入札を行います。 該当する最適化目標の例としては、[!UICONTROL Highest Viewability Rate] や [!UICONTROL Highest Clickthrough Rate] などがあります。
 
 この最適化モードは、次の場合に適しています。
 
 * 有効で許容可能な CPM レベル（過去のベンチマークなど）は既にわかっています。
 
-* を手動で調整してもかまいません [!UICONTROL Max Bid] スケーリングに関する課題が発生した場合の、各プレースメントに対する権限。
+* スケーリングに問題が生じた場合は、プレースメントごとに手動で [!UICONTROL Max Bid] を調整してもかまいません。
 
 * 効率よりもスケールを優先します。
 
@@ -58,15 +58,15 @@ DSPでは、2 つの基本的な方法で配信を最適化できます。具体
 
 ### コスト効率とパフォーマンス率のバランスを優先するパッケージ
 
-一部の最適化目標では、DSPが各オークションのパフォーマンスを予測し、プレースメントを超えることなく入札価格を自動的に調整します [!UICONTROL Max Bid]. 該当する最適化目標の例を次に示します [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click]など。
+一部の最適化目標では、DSPが各オークションのパフォーマンスを予測し、プレースメントの [!UICONTROL Max Bid] を超えることなく入札価格を自動的に調整します。 該当する最適化目標の例としては、[!UICONTROL Lowest CPM]、[!UICONTROL Lowest CPA]、[!UICONTROL Lowest Cost per View]、[!UICONTROL Lowest Cost per Click] などがあります。
 
 #### ペーシングロジック {#pacing-logic-balanced}
 
 * 支出がペースに乗っている場合、DSPは価格に敏感になり、より低い額を入札すると、成功率がペーシングプランとトレードオフされます。
 
-* パフォーマンス指標のバランスも取られている場合（を除くすべての目標） [!UICONTROL Lowest CPM]）に設定されている場合は、予測 KPI が入札額にブレンドされます。 したがって、「1 回あたりのコスト」ベースでよりパフォーマンスが高いと予測されるオークションに対して、より高い入札を行います。
+* パフォーマンス指標のバランス（[!UICONTROL Lowest CPM] 以外のすべての目標）も取られている場合は、予測された KPI が入札の金額にブレンドされます。 したがって、「1 回あたりのコスト」ベースでよりパフォーマンスが高いと予測されるオークションに対して、より高い入札を行います。
 
-* 支出のペースが遅れている場合、DSPは価格に対する感受性が低くなり、 [!UICONTROL Max Bid]：ペーシングプランとの勝率のトレードオフを行います。
+* 支出がペースに遅れている場合、DSPは価格に敏感ではなくなり、[!UICONTROL Max Bid] まで高い金額を入札して、成功率をペーシングプランとトレードオフします。
 
 #### 価格/入札の変動の決済 {#clearing-price-balanced}
 
@@ -80,12 +80,12 @@ DSPでは、2 つの基本的な方法で配信を最適化できます。具体
 >
 >使用可能な事前入札フィルターは、広告タイプによって異なります。 例えば、標準の表示配置の場合、完了率ではなく、クリックスルー率とビューアビリティでフィルタリングできます。
 
-参照： [プレースメントレベルの事前入札フィルターとその使用方法](optimization-pre-bid-filters.md) どの入札前フィルターが KPI の達成に役立つかを判断します。
+[ プレースメントレベルの事前入札フィルターとその使用方法 ](optimization-pre-bid-filters.md) を参照して、KPI の達成に役立つ事前入札フィルターを決定します。
 
 >[!MORELIKETHIS]
 >
->* [パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
->* [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)
->* [最適化目標とその使用方法](optimization-goals.md)
->* [プレースメントレベルの事前入札フィルターとその使用方法](optimization-pre-bid-filters.md)
->* [トラブルシューティングのパフォーマンス](/help/dsp/optimization/troubleshooting-performance.md)
+>* [ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ 最適化目標とその使用方法 ](optimization-goals.md)
+>* [ プレースメントレベルの Pre-Bid フィルターとその使用方法 ](optimization-pre-bid-filters.md)
+>* [ パフォーマンスのトラブルシューティング ](/help/dsp/optimization/troubleshooting-performance.md)

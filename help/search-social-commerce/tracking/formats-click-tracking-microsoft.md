@@ -1,6 +1,6 @@
 ---
-title: のクリック追跡形式 [!DNL Microsoft Advertising]
-description: のクリック追跡形式について説明します [!DNL Microsoft Advertising] アカウント。
+title: ' [!DNL Microsoft Advertising] のクリック追跡形式'
+description: アカウントのクリック追跡形式について説明  [!DNL Microsoft Advertising]  ます。
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# のクリック追跡形式 [!DNL Microsoft Advertising]
+# [!DNL Microsoft Advertising] のクリック追跡形式
 
-検索、ソーシャル、Commerceで必要となる、基本トラッキングテンプレートとランディングページのサフィックス（最終的な URL サフィックス）の形式は次のとおりです [!DNL Microsoft Advertising].
+検索、ソーシャル、Commerceでア [!DNL Microsoft Advertising] ットに必要な基本トラッキングテンプレートとランディングページのサフィックス（最終的な URL のサフィックス）の形式は次のとおりです。
 
 ## トラッキングテンプレート形式
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>` は、Adobe Advertising内の広告主の一意の ID の変数です。
 >
->* この形式は、キャンペーンに対してトークン受け渡しが有効になっている（デフォルト）ことを示します。 トークン受け渡しが無効な場合、を置き換える `cq?` 後 `<advertiser_ID>` （を使用） `c?`.
+>* この形式は、キャンペーンに対してトークン受け渡しが有効になっている（デフォルト）ことを示します。 トークン受け渡しが無効な場合、`<advertiser_ID>` の後に `cq?` を `c?` で置き換えます。
 >
->* `{TargetId}` a）キーワードまたは b）広告をトリガーしたキーワードおよびリマーケティングリスト（オーディエンス） （例えば、キーワードとリマーケティングリストの両方で「kwd-123:aud-456」、キーワードのみの場合は「kwd-123」）の ID を表します。
+>* `{TargetId}` は、a）キーワードまたは b）広告をトリガーしたキーワードおよびリマーケティングリスト（オーディエンス）（例えば、キーワードとリマーケティングリストの両方で「kwd-123:aud-456」、キーワードのみの場合は「kwd-123」）の ID を表します。
 
 ### Sitelinks
 
@@ -46,13 +46,13 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>` は、Adobe Advertising内の広告主の一意の ID の変数です。
 >
->* この形式は、キャンペーンに対してトークン受け渡しが有効になっている（デフォルト）ことを示します。 トークン受け渡しが無効な場合、を置き換える `cq?` 後 `<advertiser_ID>` （を使用） `c?`.
+>* この形式は、キャンペーンに対してトークン受け渡しが有効になっている（デフォルト）ことを示します。 トークン受け渡しが無効な場合、`<advertiser_ID>` の後に `cq?` を `c?` で置き換えます。
 >
->* `{TargetId}` a）キーワードまたは b）広告をトリガーしたキーワードおよびリマーケティングリスト（オーディエンス） （例えば、キーワードとリマーケティングリストの両方で「kwd-123:aud-456」、キーワードのみの場合は「kwd-123」）の ID を表します。
+>* `{TargetId}` は、a）キーワードまたは b）広告をトリガーしたキーワードおよびリマーケティングリスト（オーディエンス）（例えば、キーワードとリマーケティングリストの両方で「kwd-123:aud-456」、キーワードのみの場合は「kwd-123」）の ID を表します。
 >
->* `{adextensionid}` が未使用である。
+>* `{adextensionid}` は未使用です。
 >
->* （サイトリンク）サイトリンクをクリックした結果のコンバージョンを、次のコードを生成することで確認できます。 [!UICONTROL Transaction Report]. この [!UICONTROL Link Type] サイトリンクの列の値は `sl:<Sitelink text>`（例：） `sl:See Current Offers`.
+>* （サイトリンク） [!UICONTROL Transaction Report] ータを生成することで、サイトリンクのクリックによって生じたコンバージョンを確認できます。 サイトリンクの [!UICONTROL Link Type] 列の値は `sl:<Sitelink text>` です（例：`sl:See Current Offers`）。
 
 ### ショッピングネットワーク
 
@@ -68,11 +68,11 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>` は、Adobe Advertising内の広告主の一意の ID の変数です。
 >
->* この形式は、キャンペーンに対してトークン受け渡しが有効になっている（デフォルト）ことを示します。 トークン受け渡しが無効な場合、を置き換える `cq?` 後 `<advertiser_ID>` （を使用） `c?`.
+>* この形式は、キャンペーンに対してトークン受け渡しが有効になっている（デフォルト）ことを示します。 トークン受け渡しが無効な場合、`<advertiser_ID>` の後に `cq?` を `c?` で置き換えます。
 >
->* `{TargetId}` a）キーワードまたは b）広告をトリガーしたキーワードおよびリマーケティングリスト（オーディエンス） （例えば、キーワードとリマーケティングリストの両方で「kwd-123:aud-456」、キーワードのみの場合は「kwd-123」）の ID を表します。
+>* `{TargetId}` は、a）キーワードまたは b）広告をトリガーしたキーワードおよびリマーケティングリスト（オーディエンス）（例えば、キーワードとリマーケティングリストの両方で「kwd-123:aud-456」、キーワードのみの場合は「kwd-123」）の ID を表します。
 >
->* （任意）アカウント、キャンペーン、広告グループ、製品グループの各レベルでトラッキングテンプレートを入力する代わりに、内の製品データにトラッキング URL を追加できます。 [!DNL Microsoft Merchant Center] アカウント。 これをおこなうには、トラッキング URL を値とともに「」に含めます`link`「または」`mobile_link`「フィールド（必要に応じて、カスタム列で）」[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)製品フィード内。 「」の値`bingads_redirect`「」フィールドは「」の値を置き換えます`link`「」と「」に対して検査する値`mobile_link`」フィールドに入力します。 この方法で生成される URL には、検索、ソーシャル、Commerceの各アカウントまたはキャンペーン設定で指定されたトラッキングパラメーターは含まれません。
+>* （任意）アカウントレベル、キャンペーンレベル、広告グループレベルまたは製品グループレベルでトラッキングテンプレートを入力する代わりに、トラッキング URL を [!DNL Microsoft Merchant Center] アカウント内の製品データに追加できます。 これを行うには、トラッキング URL を、必要に応じて「`link`」または「`mobile_link`」フィールドの値と共に、製品フィード内のカスタム列「[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)」に含めます。 「`bingads_redirect`」フィールドの値は、「`link`」および「`mobile_link`」フィールドの値を置き換えます。 この方法で生成される URL には、検索、ソーシャル、Commerceの各アカウントまたはキャンペーン設定で指定されたトラッキングパラメーターは含まれません。
 
 ## ランディングページのサフィックス（最終的な URL のサフィックス）の形式
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ### 検索とオーディエンスネットワーク
 
-Adobe Advertisingコンバージョントラッキングを使用するアカウントには、広告ネットワークのクリック識別情報（`msclkid` （用） [!DNL Microsoft Advertising]）を使用する必要があります。
+Adobe Advertisingコンバージョントラッキングを使用するアカウントの場合は、アドネットワークのクリック識別子（[!DNL Microsoft Advertising] の `msclkid`）をサフィックスに含める必要があります。
 
 * 広告主がAdobe Analytics統合を使用する場合、サフィックスには次を含める必要があります。
 
@@ -94,7 +94,7 @@ Adobe Advertisingコンバージョントラッキングを使用するアカウ
 
 ### ショッピングネットワーク
 
-Adobe Advertisingコンバージョントラッキングを使用するアカウントには、広告ネットワークのクリック識別情報（`msclkid` （用） [!DNL Microsoft Advertising]）を使用する必要があります。
+Adobe Advertisingコンバージョントラッキングを使用するアカウントの場合は、アドネットワークのクリック識別子（[!DNL Microsoft Advertising] の `msclkid`）をサフィックスに含める必要があります。
 
 * 広告主がAdobe Analytics統合を使用する場合、サフィックスには次を含める必要があります。
 
@@ -106,5 +106,5 @@ Adobe Advertisingコンバージョントラッキングを使用するアカウ
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertisingコンバージョントラッキングサービスのクリックトラッキング URL 形式について](formats-click-tracking-about.md)
->* [AMO ID 形式](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Adobe Advertisingコンバージョントラッキングサービスのクリックトラッキング URL 形式について ](formats-click-tracking-about.md)
+>* [AMO ID 形式 ](/help/integrations/analytics/ids.md#amo-id-formats)

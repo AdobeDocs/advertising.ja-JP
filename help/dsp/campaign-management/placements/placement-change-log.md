@@ -16,29 +16,29 @@ ht-degree: 0%
 
 データは、「タイプ」、「変更者」または「変更日」列で並べ替えることができます。
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
 1. キャンペーンの名前をクリックします。
 
-1. サブメニューで、 **[!UICONTROL Placements]**.
+1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
 
-1. プレースメント名の横にある「」をクリックします  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Change logs]** をクリックします。
 
 1. （オプション）次のいずれかの操作をおこないます。
 
-   * データの表示をテーブル形式のみと、テーブル形式とグラフ形式の両方で切り替えるには、以下をクリックします。 ![テーブルおよびグラフ表示](/help/dsp/assets/table-plus-chart-view.png "テーブルおよびグラフ表示") または ![テーブル表示](/help/dsp/assets/table-view.png "テーブル表示") 右上のツールバーに表示されます。
+   * データの表示を、テーブル形式のみと、テーブル形式とグラフ形式の両方で切り替えるには、![ テーブルとグラフの表示 ](/help/dsp/assets/table-plus-chart-view.png " テーブルとグラフの表示 ")、または右上のツールバーにある ![テーブル表示](/help/dsp/assets/table-view.png "テーブル表示") をクリックします。
 
-   * エントリに注記を追加するには、 [!UICONTROL Notes] 行の列を選択し、をクリックする **[!UICONTROL Add Notes]**. 入力フィールドにテキストを入力し、 **[!UICONTROL Save]**.
+   * エントリにメモを追加するには、行の [!UICONTROL Notes] 列にカーソルを置き、[**[!UICONTROL Add Notes]**] をクリックします。 入力フィールドにテキストを入力し、「**[!UICONTROL Save]**」をクリックします。
 
-   * ポップアップウィンドウでエントリの詳細を表示するには、 [!UICONTROL Notes] 行の列を選択し、をクリックする **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * ポップアップウィンドウでエントリの詳細を表示するには、行の [!UICONTROL Notes] 列にカーソルを置いて、**[!UICONTROL More]>[!UICONTROL View Details]** をクリックします。
 
 
 >[!MORELIKETHIS]
 >
->* [プレースメント管理について](placement-about.md)
->* [プレースメントの作成](placement-create.md)
->* [プレースメントを編集](placement-edit.md)
->* [プレースメントの複製](placement-duplicate.md)
->* [プレースメントの広告スケジュールの編集](placement-edit-ad-schedule.md)
->* [プレースメントの一時停止またはアクティブ化](placement-pause-activate.md)
->* [プレースメント設定](placement-settings.md)
+>* [ プレースメント管理について ](placement-about.md)
+>* [ プレースメントの作成 ](placement-create.md)
+>* [ プレースメントを編集 ](placement-edit.md)
+>* [ プレースメントの複製 ](placement-duplicate.md)
+>* [ プレースメントの広告スケジュールの編集 ](placement-edit-ad-schedule.md)
+>* [ プレースメントの一時停止またはアクティブ化 ](placement-pause-activate.md)
+>* [ プレースメント設定 ](placement-settings.md)

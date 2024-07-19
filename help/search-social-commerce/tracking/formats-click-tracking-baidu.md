@@ -1,18 +1,18 @@
 ---
-title: のクリック追跡形式 [!DNL Baidu]
-description: のクリック追跡形式について説明します。 [!DNL Baidu] アカウント。
-exl-id: a57ff0cf-0bcf-4d55-9a86-7551db8a08e7
+title: ' [!DNL Baidu] のクリック追跡形式'
+description: アカウントのクリック追跡形式について説明  [!DNL Baidu]  ます。
+exl-id: 4f4ed518-aa25-4a29-b263-c01f78b69b92
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
 
 ---
 
-# 以下のスポンサー付き広告のクリック追跡形式： [!DNL Baidu]
+# [!DNL Baidu] でのスポンサー付き広告のクリック追跡形式
 
-以下のベースリンク先 URL 形式は、スポンサー付き広告に適用されます。
+スポンサー付き広告には、次のベース宛先 UR 形式が適用されます。
 
 `http://pixel.everesttech.net/<advertiser_ID>/cq?ev_sid=<ad network ID>&ev_cmpid=<campaignID>&&ev_lx={keywordid}&ev_crx={creative}&ev_pl={placement}&url=<the landing page>`
 
@@ -24,13 +24,13 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>` は、Adobe Advertising内の広告主の一意の ID の変数です。
 >
->* この形式は、キャンペーンでトークンの受け渡しが有効（デフォルト）になっていることを示します。 トークンの受け渡しが無効な場合は、 `cq?` 次より後 `<advertiser_ID>` 次を使用 `c?`.
+>* この形式は、キャンペーンに対してトークン受け渡しが有効になっている（デフォルト）ことを示します。 トークン受け渡しが無効な場合、`<advertiser_ID>` の後に `cq?` を `c?` で置き換えます。
 >
->* `<campaignID>` は、数値のキャンペーン ID の変数です。
+>* `<campaignID>` は、数値キャンペーン ID の変数です。
 >
->* `<the landing page>` は、エンドユーザーのリダイレクト先となるサイト上の URL を表す変数です。
+>* `<the landing page>` は、エンドユーザーが誘導されるサイト上の URL を表す変数です。
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertisingコンバージョントラッキングサービスのクリック追跡 URL の形式について](formats-click-tracking-about.md)
->* [AMO ID の形式](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Adobe Advertisingコンバージョントラッキングサービスのクリックトラッキング URL 形式について ](formats-click-tracking-about.md)
+>* [AMO ID 形式 ](/help/integrations/analytics/ids.md#amo-id-formats)

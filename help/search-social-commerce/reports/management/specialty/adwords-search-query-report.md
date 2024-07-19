@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL AdWords Search Query Report]'
-description: 詳しくは、 [!UICONTROL AdWords Search Query Report].
-exl-id: 085f6a46-ce7e-4b68-b03d-edfbb6834284
+description: '[!UICONTROL AdWords Search Query Report] について説明します。'
+exl-id: cf472731-f9e5-4878-9a83-59f5c022ec69
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-The [!UICONTROL AdWords Search Query Report] 1 つ以上の広告グループのユーザー検索クエリ用語のコスト、クリック、インプレッション、（オプションで）派生指標データが含まれます。 デフォルトでは、データには指定した日付範囲の各時間単位に対してインプレッション数またはクリック数を導いた検索語句ごとに 1 行が含まれ、行は広告グループ名、検索語句の順に昇順で表示されます。 オプションで、検索語句が一致したキーワードを含めることができます。 レポートには、検索語句が一致したキーワードや、 [!DNL Adobe].
+[!UICONTROL AdWords Search Query Report] には、コスト、クリック数、インプレッションおよび（オプションで） 1 つ以上の広告グループに関するユーザー検索クエリ用語の派生指標データが含まれます。 デフォルトでは、データには検索語句ごとに 1 行が含まれ、指定された日付範囲の時間単位ごとに該当する広告グループごとのインプレッション数またはクリック数が生じます。行は広告グループ名で昇順となり、その後に検索語句で並べられます。 必要に応じて、検索語句と一致するキーワードを含めることができます。 レポートには、検索語句が一致したキーワードも、[!DNL Adobe] で追跡されたコンバージョンデータも含まれていません。
 
 >[!NOTE]
 >
->このレポートのデータは、前日の各日の 23:00（午後 11:00）に取り込まれます。 例えば、6 月 18 日の 23:00 に、6 月 17 日のデータを取り込みます。 6 月 19 日の 09:00（6 月 18 日のデータが取り込まれる前）にレポートを実行した場合、6 月 17 日の 23:00 までのデータがレポートに含まれます。
+>このレポートのデータは、前日の午後 23 時（午後 11 時）に取り込まれます。 例えば、6 月 18 日の 23:00 に、6 月 17 日のデータを取り込みます。 6 月 19 日の 09:00 にレポートを実行した場合（6 月 18 日のデータが取り込まれる前）、レポートには 6 月 17 日の 23:00 までのデータが含まれます。
 
 ## デフォルトの列
 
-すべてのデフォルト列とカスタム列の説明については、[特殊レポートのレポート列](specialty-report-columns.md).&quot;
+すべてのデフォルト列およびカスタム列の説明は、[ 専門レポートのレポート列 ](specialty-report-columns.md) を参照してください。
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -40,6 +40,6 @@ The [!UICONTROL AdWords Search Query Report] 1 つ以上の広告グループの
 
 >[!MORELIKETHIS]
 >
-* [特殊レポートについて](specialty-report-about.md)
-* [特殊なレポートの生成](specialty-report-generate.md)
-* [特殊なレポート設定](specialty-report-settings.md)
+>* [ 専門レポートについて ](specialty-report-about.md)
+>* [ 専門レポートの生成 ](specialty-report-generate.md)
+>* [ 専門レポートの設定 ](specialty-report-settings.md)

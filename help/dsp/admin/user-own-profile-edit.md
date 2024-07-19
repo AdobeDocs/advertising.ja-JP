@@ -1,69 +1,68 @@
 ---
-title: ユーザープロファイルを編集
+title: ユーザープロファイルを編集する
 description: ユーザープロファイルの編集方法を説明します。
 exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
-# ユーザープロファイルを編集
+# ユーザープロファイルを編集する
 
-アカウントプロファイルには、ログイン資格情報などの情報が含まれます。 また、一部のユーザーの役割では、組織のアカウントに関する情報を表示し、追加のユーザーを招待して組織のアカウントにユーザーアカウントを作成することもできます。
+アカウントプロファイルには、ログイン資格情報やその他の情報が含まれます。 一部のユーザーの役割では、組織のアカウントに関する情報を表示したり、組織のアカウントにユーザーアカウントを作成するユーザーを追加で招待したりすることもできます。
 
-1. メインメニューで、 **[!UICONTROL Settings]** > **[!UICONTROL Account].**
+1. メインメニューで、**[!UICONTROL Settings]**/**[!UICONTROL Account].** をクリックします。
 
 1. プロファイル設定を編集します。
 
-   * ユーザーアカウントの電子メールアドレスを編集するには：
+   * ユーザーアカウントのメールアドレスを編集するには：
 
-      1. 既存の **[!UICONTROL Email address]**&#x200B;をクリックし、 **[!UICONTROL Edit]**.
+      1. 既存の **[!UICONTROL Email address]** の横にある「**[!UICONTROL Edit]**」をクリックします。
 
-      1. 新しい電子メールアドレスと、ユーザーアカウントの既存のパスワードを入力します。
+      1. ユーザーアカウントの新しいメールアドレスと既存のパスワードを入力します。
 
-      1. クリック **[!UICONTROL Continue]**.
-   * ユーザーアカウントのパスワードを編集するには、次の手順に従います。
+      1. 「**[!UICONTROL Continue]**」をクリックします。
 
-      1. 既存の **[!UICONTROL Password]**&#x200B;をクリックし、 **[!UICONTROL Change]**.
+   * ユーザーアカウントのパスワードを編集するには：
+
+      1. 既存の **[!UICONTROL Password]** の横にある「**[!UICONTROL Change]**」をクリックします。
 
       1. 新しいパスワードを 2 回入力します。
 
-      1. クリック **[!UICONTROL Continue]**.
-   * ユーザーアカウントのセキュリティの質問を編集するには、次の手順に従います。
+      1. 「**[!UICONTROL Continue]**」をクリックします。
 
-      1. 既存の **[!UICONTROL Security Question]**&#x200B;をクリックし、 **[!UICONTROL Change]**.
+   * ユーザーアカウントのセキュリティの質問を編集するには：
 
-      1. を選択します。 **[!UICONTROL Secret Question]** を入力し、 **[!UICONTROL Secret Question Answer]**.
+      1. 既存の **[!UICONTROL Security Question]** の横にある「**[!UICONTROL Change]**」をクリックします。
 
-      1. クリック **[!UICONTROL Continue]**.
-   * ユーザーアカウントのデフォルトタイムゾーンを編集するには：
+      1. **[!UICONTROL Secret Question]** を選択し、**[!UICONTROL Secret Question Answer]** を入力します。
 
-      1. 既存の **[!UICONTROL Default Timezone]**&#x200B;をクリックし、 **[!UICONTROL Change]**.
+      1. 「**[!UICONTROL Continue]**」をクリックします。
 
-      1. 新しいタイムゾーンを選択します。
+   * ユーザーアカウントのデフォルトのタイムゾーンを編集するには：
 
-      1. （オプション）報告された時間で夏時間を考慮するには、 **[!UICONTROL Observe Daylight Savings Time]**.
+      1. 既存の **[!UICONTROL Default Timezone]** の横にある「**[!UICONTROL Change]**」をクリックします。
 
-      1. クリック **[!UICONTROL Continue]**.
-   * ( のプライベートシートを使用したい利用者 [!DNL Google Authorized Buyers]) 非公開を編集するには [!DNL Google Authorized Buyers] ユーザーアカウントのシート。すべてのキャンペーンにデフォルトで使用されます。
+      1. 新規タイムゾーンを選択します。
 
-      1. 既存の **[!UICONTROL Google AdEx ID]**&#x200B;をクリックし、 **[!UICONTROL Change]**.
+      1. （任意）レポートされた時間に夏時間を考慮するには、[**[!UICONTROL Observe Daylight Savings Time]**] を選択します。
 
-      1. 新しい **[!UICONTROL Ad Group ID]**.
+      1. 「**[!UICONTROL Continue]**」をクリックします。
 
-      1. クリック **[!UICONTROL Save]**.
+   * （[!DNL Google Authorized Buyers] でプライベートシートを使用するユーザー）すべてのキャンペーンでデフォルトで使用されるユーザーアカウントのプライベート [!DNL Google Authorized Buyers] ートシートを編集するには、次の手順を実行します。
 
+      1. 既存の **[!UICONTROL Google AdEx ID]** の横にある「**[!UICONTROL Change]**」をクリックします。
 
+      1. 新しい **[!UICONTROL Ad Group ID]** を入力します。
 
+      1. 「**[!UICONTROL Save]**」をクリックします。
 
-
-1. クリック **[!UICONTROL Save]**.
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [組織アカウントへの新しいユーザーの招待](user-invite.md)
-
+>* [ 組織アカウントの新しいユーザーを招待 ](user-invite.md)
 
 <!-- >* [User Profile and Organization Account Settings](user-and-account-settings.md) -->

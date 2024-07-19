@@ -20,26 +20,26 @@ ht-degree: 0%
 
 ## プレースメントのアーカイブ
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 1. キャンペーンの名前をクリックします。
-1. サブメニューで、 **[!UICONTROL Placements]**.
-1. プレースメント名の横にある「」をクリックします  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. 確認メッセージで、 **[!UICONTROL Archive]**.
+1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
+1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Archive]** をクリックします。
+1. 確認メッセージで、「**[!UICONTROL Archive]**」をクリックします。
 
 >[!NOTE]
 >
->アーカイブしたプレースメントを表示するには、をフィルタリングします [!UICONTROL Placements] 表示：クリック ![フィルターボタン](/help/dsp/assets/filter.png)を選択し、 **[!UICONTROL Placement status]** を選択して、 **[!UICONTROL Archived]**&#x200B;を選択し、 **[!UICONTROL Apply].**
+>アーカイブしたプレースメントを表示するには、[!UICONTROL Placements] ビューをフィルタリングします。![ フィルターボタン ](/help/dsp/assets/filter.png) をクリックし、「**[!UICONTROL Placement status]**」をクリックして **[!UICONTROL Archived]** を選択し、「**[!UICONTROL Apply]」をクリックします。**
 
 ## プレースメントのアーカイブ解除
 
-1. メインメニューで、 **[!UICONTROL Campaigns]**.
+1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 1. キャンペーンの名前をクリックします。
-1. サブメニューで、 **[!UICONTROL Placements]**.
-1. プレースメント名の横にある「」をクリックします  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. 確認メッセージで、 **[!UICONTROL Unarchive]**.
+1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
+1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Unarchive]** をクリックします。
+1. 確認メッセージで、「**[!UICONTROL Unarchive]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [プレースメントの一時停止またはアクティブ化](placement-pause-activate.md)
->* [プレースメントを編集](placement-edit.md)
->* [プレースメントの変更ログの表示](placement-change-log.md)
+>* [ プレースメントの一時停止またはアクティブ化 ](placement-pause-activate.md)
+>* [ プレースメントを編集 ](placement-edit.md)
+>* [ プレースメントの変更ログを表示 ](placement-change-log.md)

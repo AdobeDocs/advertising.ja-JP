@@ -1,6 +1,6 @@
 ---
 title: パブリッシャーの推奨事項とパフォーマンスインサイトの表示
-description: を表示する方法を学ぶ [!DNL Google Ads] 推奨事項と [!DNL Microsoft Advertising] 広告ネットワークアカウントのパフォーマンスインサイト。
+description: 広告ネットワークアカウントの  [!DNL Google Ads] recommendations および  [!DNL Microsoft Advertising] performance insights を表示する方法を説明します。
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
 source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
@@ -16,31 +16,31 @@ ht-degree: 0%
 
 ## パブリッシャーのお勧めを表示
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Recommendations & Publisher Insights]** をクリックします。
 
 1. 右上で、広告ネットワークとアカウントを選択します。
 
-   の場合 [!DNL Microsoft Advertising] アカウント、 [!UICONTROL Recommendations] のアカウントはデフォルトで表示されます。
+   [!DNL Microsoft Advertising] アカウントの場合、そのアカウントの [!UICONTROL Recommendations] がデフォルトで表示されます。
 
-1. が含まれる [!UICONTROL Actions] 行の列、をクリックします。 **[!UICONTROL View]**. レコメンデーションにサブレコメンデーションがある場合は、 **[!UICONTROL View]** サブレコメンデーションの横にあります。
+1. 行の [!UICONTROL Actions] 列で、「**[!UICONTROL View]**」をクリックします。 レコメンデーションにサブレコメンデーションがある場合は、サブレコメンデーションの横にある「**[!UICONTROL View]**」をクリックします。
 
-   オプションで、次のことが可能です [適用または解除](recommendation-apply-dismiss.md) 広告ネットワークの推奨事項。
+   オプションで、広告ネットワークのレコメンデーションを [ 適用または解除 ](recommendation-apply-dismiss.md) できます。
 
-## を表示 [!DNL Microsoft Advertising] パフォーマンスインサイト
+## [!DNL Microsoft Advertising] のパフォーマンスインサイトを表示
 
-1. メインメニューで、 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Recommendations & Publisher Insights]** をクリックします。
 
 1. 右上で、広告ネットワークとアカウントを選択します。
 
-1. クリック **[!UICONTROL Insights]** データテーブルの上。
+1. データテーブルの上にある「**[!UICONTROL Insights]**」をクリックします。
 
-1. いつ [!UICONTROL Actions] 行の列にアクションが含まれる場合は、オプションで、をクリックできます。 **[!UICONTROL Click here]** を開きます [!DNL Microsoft Advertising] インサイトで行動できるエディター。
+1. 行の「[!UICONTROL Actions]」列にアクションが含まれている場合は、必要に応じて「**[!UICONTROL Click here]**」をクリックして [!DNL Microsoft Advertising] エディターを開き、インサイトに対してアクションを実行できます。
 
-   にログインしていない場合 [!DNL Microsoft Advertising] エディターで、最初にログイン画面が表示されます。
+   [!DNL Microsoft Advertising] エディターにログインしていない場合は、まずログイン画面が表示されます。
 
 >[!MORELIKETHIS]
 >
->* [パブリッシャーの推奨事項とインサイトのサポートについて](recommendation-support.md)
->* [パブリッシャーのレコメンデーションの適用または解除](recommendation-apply-dismiss.md)
->* [アカウントの公開者レコメンデーションログの表示](recommendation-view-log.md)
->* [パブリッシャーのレコメンデーションをポートフォリオで使用する際のベストプラクティス](recommendation-best-practices.md)
+>* [ パブリッシャーのレコメンデーションとインサイトのサポートについて ](recommendation-support.md)
+>* [ パブリッシャーのレコメンデーションの適用または解除 ](recommendation-apply-dismiss.md)
+>* [ アカウントの公開者レコメンデーションログの表示 ](recommendation-view-log.md)
+>* [ パブリッシャーのレコメンデーションをポートフォリオで使用する際のベストプラクティス ](recommendation-best-practices.md)

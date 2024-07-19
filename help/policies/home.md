@@ -1,6 +1,6 @@
 ---
 title: Adobe Advertising のポリシーとガイドライン
-description: Advertising DSPおよび Advertising Search のポリシーとガイドラインについて説明します。
+description: Advertising DSPおよびAdvertising検索のポリシーとガイドラインについて説明します。
 index: true
 cloud: Experience Cloud
 product: advertising cloud
@@ -13,7 +13,7 @@ ht-degree: 21%
 
 # Adobe Advertising のポリシーとガイドライン
 
-Advertising DSPおよび Advertising Search のポリシーとガイドラインについて説明します。
+Advertising DSPとAdvertising検索のポリシーとガイドラインについて説明します。
 
 + [広告要件ポリシー](/help/policies/ad-requirements-policy.md)
 + [ユニバーサル ID の要件ポリシー](/help/policies/universal-id-policy.md)

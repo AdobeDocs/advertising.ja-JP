@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # 接続されたテレビのリーチ計画の予測のエクスポート
 
-を書き出すことができます [!UICONTROL Budget vs Reach] a に対する予測 [!DNL Microsoft Excel] スプレッドシート** [!UICONTROL Budget] および [!UICONTROL Reach] 列。
+[!UICONTROL Budget] 列と [!UICONTROL Reach] 列を使用して**[!UICONTROL Budget vs Reach] 予測を [!DNL Microsoft Excel] スプレッドシートに書き出すことができます。
 
-* 生成された予測で、 **[!UICONTROL ...]** > **[!UICONTROL Export]** 右上
+* 生成された予測で、右上の **[!UICONTROL ...]** > **[!UICONTROL Export]** をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [DSP プランナーツールについて](planner-about.md)
->* [接続されたテレビのリーチ プランを作成する](planner-create.md)
->* [接続されたテレビのリーチ プランを複製する](planner-duplicate.md)
->* [接続されたテレビのリーチ プランを編集する](planner-edit.md)
->* [接続された TV リーチ計画の予測を再生成します](planner-forecast.md)
->* [接続されたテレビのリーチ プランをアーカイブする](planner-archive.md)
->* [接続されたテレビのリーチ プランの設定](planner-settings.md)
+>* [DSP プランナーツールについて ](planner-about.md)
+>* [ 接続されたテレビのリーチプランを作成 ](planner-create.md)
+>* [ 接続されたテレビのリーチ プランを複製 ](planner-duplicate.md)
+>* [ 接続されたテレビのリーチ プランを編集する ](planner-edit.md)
+>* [Connected TV Reach Plan の Forecast の再生成 ](planner-forecast.md)
+>* [ 接続されたテレビのリーチ プランをアーカイブする ](planner-archive.md)
+>* [ 接続されたテレビのリーチ プランの設定 ](planner-settings.md)
