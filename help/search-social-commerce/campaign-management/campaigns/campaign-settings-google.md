@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] キャンペーン設定'
 description: キャンペーンの設定  [!DNL Google Ads]  参照します。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 977314f07d1299d9b94680861b046161bb444228
+source-git-commit: 760d46182a61588748cfd5031168266ba53c9dcc
 workflow-type: tm+mt
-source-wordcount: '2450'
+source-wordcount: '2425'
 ht-degree: 0%
 
 ---
@@ -82,23 +82,19 @@ eCPC を使用してキャンペーンを最適化された検索、ソーシャ
 
 * *[!UICONTROL Maximize Clicks]:* （検索、ディスプレイ、ショッピングキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、クリック数を最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Max CPC]** （クリック単価）を入力し、広告ネットワークがクリックごとに特定の金額以上を支払わないようにします。 **注意：** この戦略を使用してキャンペーンをポートフォリオに追加すると、入札はポートフォリオの目的ではなく、クリックの重み付けで行われます。
 
-* *[!UICONTROL Maximize Conversion Value]:* （検索、パフォーマンス最大化、スマートショッピングキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、コンバージョン値を最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Target Return on Ad Spend]** （ROAS）をパーセンテージで入力します。 **メモ：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。
+* *[!UICONTROL Maximize Conversion Value]:* （検索、パフォーマンス最大化、スマートショッピングキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、コンバージョン値を最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Target Return on Ad Spend]** （ROAS）をパーセンテージで入力します。 **メモ：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceを使用すると、キャンペーンレベルまたは（利用可能な場合は）広告グループレベルの Target ROAS を最適化できます。
 
-* *[!UICONTROL Maximize Conversions]:* （検索、表示、Performance MAX キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、コンバージョンを最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Target CPA]** （取得原価）を入力します。 **メモ：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。
+* *[!UICONTROL Maximize Conversions]:* （検索、表示、Performance MAX キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、コンバージョンを最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Target CPA]** （取得原価）を入力します。 **メモ：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceを使用すると、キャンペーンレベルまたは（利用可能な場合は）広告グループレベルの Target CPA を最適化できます。
 
-* *[!UICONTROL Target CPA]:* （ディスプレイキャンペーン、既存の検索キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークは、オプションの **[!UICONTROL Target CPA]** （獲得あたりのコスト）に基づいて入札を最適化します。これは、獲得（コンバージョン）に対して支払う 30 日間の平均額です。 **メモ：** このオプションは、[!UICONTROL Weekly] または [!UICONTROL Google Target CPA] を除く任意の支出戦略を持つハイブリッドポートフォリオ（ただし、標準ポートフォリオは除く）のキャンペーンに使用します。
+* *[!UICONTROL Target CPA]:* （ディスプレイキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークは、オプションの **[!UICONTROL Target CPA]** （獲得 1 件あたりのコスト）に基づいて入札を最適化します。これは、獲得（コンバージョン）に対して支払う 30 日間の平均額です。 **メモ：** このオプションは、[!UICONTROL Weekly] または [!UICONTROL Google Target CPA] を除く任意の支出戦略を持つハイブリッドポートフォリオ（ただし、標準ポートフォリオは除く）のキャンペーンに使用します。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceを使用すると、キャンペーンレベルまたは（利用可能な場合は）広告グループレベルの Target CPA を最適化できます。
 
   この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データは利用できません。
-
-  新しい検索キャンペーンの場合、[!DNL Google Ads] はこの入札戦略を [!UICONTROL Target CPA] 値を使用する [!UICONTROL Maximize Conversions] 戦略に置き換えました。 この戦略を使用する既存の検索キャンペーンの場合は、ターゲット値のみを編集でき、これにより、指定されたター [!UICONTROL Target CPA] ット値を使用して戦略がター [!UICONTROL Maximize Conversions] ット戦略に変更されます。
 
 * *[!UICONTROL Target Impression Share]:* （検索キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、目標インプレッションシェアと広告掲載順位を達成するように入札を最適化します。 必要に応じて、**[!UICONTROL Target Impression Share]** をパーセント、**[!UICONTROL Target Ad Position]** および **[!UICONTROL Max CPC]** （クリック単価）で入力します。 **メモ：** このオプションは、ポートフォリオではサポートされていません。
 
-* *[!UICONTROL Target Return on Ad Spend]:* （ディスプレイおよびショッピングキャンペーン、既存の検索キャンペーン）検索、ソーシャル、Commerce以外の広告ネットワークでは、指定された **[!UICONTROL Target ROAS]** （広告費用対効果）に基づいて、割合で指定して入札を最適化します。 **メモ：** このオプションは、[!UICONTROL Weekly] または [!UICONTROL Google Target ROAS] を除く任意の支出戦略を持つハイブリッドポートフォリオ（ただし、標準ポートフォリオは除く）のキャンペーンに使用します。
+* *[!UICONTROL Target Return on Ad Spend]:* （ディスプレイおよびショッピングキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークは、指定された **[!UICONTROL Target ROAS]** （広告費用対効果）に基づいて割合として入札を最適化します。 **メモ：** このオプションは、[!UICONTROL Weekly] または [!UICONTROL Google Target ROAS] を除く任意の支出戦略を持つハイブリッドポートフォリオ（ただし、標準ポートフォリオは除く）のキャンペーンに使用します。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceを使用すると、キャンペーンレベルまたは（利用可能な場合は）広告グループレベルの Target ROAS を最適化できます。
 
   この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データは利用できません。
-
-  新しい検索キャンペーンの場合、[!DNL Google Ads] はこの入札戦略を [!UICONTROL Target Return on Ad Spend value] を使用した [!UICONTROL Maximize Conversion Value] の戦略に置き換えました。 この戦略を使用する既存の検索キャンペーンの場合は、ターゲット値のみを編集でき、これにより、指定されたター [!UICONTROL Target Return on Ad Spend] ット値を使用して戦略がター [!UICONTROL Maximize Conversion Value] ット戦略に変更されます。
 
 * *[!UICONTROL Viewable CPM]:* （既存の読み取り専用 [!DNL Gmail] キャンペーンのみ）広告ネットワーク（検索、ソーシャル、Commerceは除く）は、ビューアブルとして測定された広告にのみ入札します。 **メモ：この戦略の** 最適化は、どのタイプのポートフォリオでもサポートされていません。
 
