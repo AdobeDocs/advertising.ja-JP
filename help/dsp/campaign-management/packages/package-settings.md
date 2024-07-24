@@ -3,9 +3,9 @@ title: パッケージ設定
 description: 使用可能なパッケージ設定の説明を参照してください。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: ab3118901b7cd88776f7c0ce8038b928118a7555
+source-git-commit: 5ca730f519ab8273cd6aaf910b5b09487ed4d77e
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -115,9 +115,13 @@ ht-degree: 0%
 
 （パッケージレベルのペーシングを使用したパッケージ） パッケージのフライト期間（パッケージの全体 [!UICONTROL Flight Dates] 内のカスタムフライト期間を含む）。 カスタム フライトを設定できるのは、[!UICONTROL Goals & Budget] のセクションで [!UICONTROL Activate Custom Flighting] オプションが有効になっている場合だけです。
 
+**[!UICONTROL Automatically rollover remaining flight budget to next flight]:** （「[!UICONTROL Activate Custom Flighting]」オプションが有効な場合のみ使用可能）前のフライトの残りの予算を、次のフライトの既存の予算に自動的に追加します。
+
+[!UICONTROL Packages] ビューと [!DNL Package Name] > [!UICONTROL Flights] ビューでは、現在のフライト目標を示す [!UICONTROL Interval Goal] フィールドにロールオーバー予算が含まれています。
+
 **[!DNL Flight N]:** （「[!UICONTROL Activate Custom Flighting]」オプションが有効な場合にのみ使用可能）各フライトに対して、開始日、終了日および目標支出目標を指定します。 別のフライトを追加するには、[**[!UICONTROL Add Flight]**] をクリックします。
 
-既存のパッケージの場合は、任意のフライトの「[!UICONTROL Rollover]」列に値を入力して、潜在的な未使用予算を次のフライトに追加できます。 [!UICONTROL Adjusted Goal (Goal + Rollover)] 列の予測値は、それに応じて変更されます。<!-- clarify usage -->
+「[!UICONTROL Automatically rollover remaining flight budget to next flight]」オプションが有効になっていない既存のパッケージの場合、オプションで設定を再度開き、任意のフライトの **[!UICONTROL Rollover]** 列に値を入力して、潜在的な未使用予算を次のフライトに追加できます。
 
 >[!MORELIKETHIS]
 >
