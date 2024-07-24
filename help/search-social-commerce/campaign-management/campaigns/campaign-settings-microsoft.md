@@ -3,9 +3,9 @@ title: '[!DNL Microsoft Advertising] キャンペーン設定'
 description: キャンペーンの設定  [!DNL Microsoft Advertising]  参照します。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 096271a2e9daddc20f7f5f4e0063fda21974c8a1
+source-git-commit: b8aa2461d261af50e1bf66c4ae29e4e453dfd182
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '2041'
 ht-degree: 0%
 
 ---
@@ -79,17 +79,17 @@ ht-degree: 0%
 
 * *[!UICONTROL Maximize Clicks]:* （検索およびショッピングキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、クリック数を最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Max CPC]** （クリック単価）を入力し、広告ネットワークがクリックごとに特定の金額以上を支払わないようにします。 **注意：** この戦略を使用してキャンペーンをポートフォリオに追加すると、クリックの重み（ポートフォリオ目標ではありません）が入札を促進します。
 
-* *[!UICONTROL Maximize Conversion Value]:* （検索およびショッピング/スマートショッピングネットワーク、パフォーマンス最大化キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、コンバージョン値を最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Target Return on Ad Spend]** （ROAS）をパーセントで入力します。 **メモ：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。
+* *[!UICONTROL Maximize Conversion Value]:* （検索およびショッピング/スマートショッピングネットワーク、パフォーマンス最大化キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、コンバージョン値を最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Target Return on Ad Spend]** （ROAS）をパーセントで入力します。 **メモ：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceが Target ROAS を最適化します。
 
-* *[!UICONTROL Maximize Conversions]:* （検索ネットワークまたはオーディエンスネットワーク（オーディエンスビデオまたは接続された TV を除く）上の Performance MAX のキャンペーンおよびキャンペーン）広告ネットワーク（検索、ソーシャル、Commerceを除く）は、コンバージョンを最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Target CPC]** （クリック単価）を入力します。 オーディエンスキャンペーンの場合は、オプションで **[!UICONTROL Target CPA]** （獲得あたりのコスト）を入力することもできます。 **メモ：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。
+* *[!UICONTROL Maximize Conversions]:* （検索ネットワークまたはオーディエンスネットワーク（オーディエンスビデオまたは接続された TV を除く）上の Performance MAX のキャンペーンおよびキャンペーン）広告ネットワーク（検索、ソーシャル、Commerceを除く）は、コンバージョンを最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Target CPC]** （クリック単価）を入力します。 オーディエンスキャンペーンの場合は、オプションで **[!UICONTROL Target CPA]** （獲得あたりのコスト）を入力することもできます。 **メモ：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceが Target CPA を最適化します。
 
-* *[!UICONTROL Target CPA]:* （検索ネットワーク上のキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークは、オプションの **[!UICONTROL Target CPA]** （獲得あたりのコスト）に基づいて入札を最適化します。これは、獲得（コンバージョン）に対して支払う 30 日間の平均金額です。 **メモ：** このオプションは、[!UICONTROL Weekly] または [!UICONTROL Google Target CPA] を除く任意の支出戦略を持つハイブリッドポートフォリオ（ただし、標準ポートフォリオは除く）のキャンペーンに使用します。
+* *[!UICONTROL Target CPA]:* （検索ネットワーク上のキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークは、オプションの **[!UICONTROL Target CPA]** （獲得あたりのコスト）に基づいて入札を最適化します。これは、獲得（コンバージョン）に対して支払う 30 日間の平均金額です。 **メモ：** このオプションは、[!UICONTROL Weekly] または [!UICONTROL Google Target CPA] を除く任意の支出戦略を持つハイブリッドポートフォリオ（ただし、標準ポートフォリオは除く）のキャンペーンに使用します。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceが Target CPA を最適化します。
 
   この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データは利用できません。
 
 * *[!UICONTROL Target Impression Share]:* （検索ネットワーク上のキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、目標インプレッションシェアと広告掲載順位を達成するように入札を最適化します。 必要に応じて、**[!UICONTROL Target Impression Share]** をパーセント、**[!UICONTROL Target Ad Position]** および **[!UICONTROL Max CPC]** （クリック単価）で入力します。 **メモ：** このオプションは、ハイブリッドポートフォリオではサポートされていません。
 
-* *[!UICONTROL Target Return on Ad Spend]:* （検索およびショッピングネットワーク上のキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、パーセン **[!UICONTROL Target ROAS]** ー（広告費用対効果）に基づいて入札を最適化します（割合で指定）。 必要に応じて、**[!UICONTROL Max CPC]** （クリック単価）を入力し、広告ネットワークがクリックごとに特定の金額以上を支払わないようにします。 **メモ：** このオプションは、[!UICONTROL Weekly] または [!UICONTROL Google Target ROAS] を除く任意の支出戦略を持つハイブリッドポートフォリオ（ただし、標準ポートフォリオは除く）のキャンペーンに使用します。
+* *[!UICONTROL Target Return on Ad Spend]:* （検索およびショッピングネットワーク上のキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、パーセン **[!UICONTROL Target ROAS]** ー（広告費用対効果）に基づいて入札を最適化します（割合で指定）。 必要に応じて、**[!UICONTROL Max CPC]** （クリック単価）を入力し、広告ネットワークがクリックごとに特定の金額以上を支払わないようにします。 **メモ：** このオプションは、[!UICONTROL Weekly] または [!UICONTROL Google Target ROAS] を除く任意の支出戦略を持つハイブリッドポートフォリオ（ただし、標準ポートフォリオは除く）のキャンペーンに使用します。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceが Target ROAS を最適化します。
 
   この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データは利用できません。
 

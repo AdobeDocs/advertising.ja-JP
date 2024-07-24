@@ -3,9 +3,9 @@ title: Adobe Advertising ID を使用したルール  [!DNL Marketing Channels] 
 description: Adobe Advertising ID を使用して、 [!DNL Analytics Marketing Channels] の処理ルールを作成する方法を説明します。
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+source-git-commit: 96a0add168c7fb7a6d80cf1b81ef4b315fbba89f
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -35,16 +35,17 @@ AMO ID 内の動的な値は、トラッキングされたマーケティング�
 
 | [!UICONTROL AMO ID] | チャネル | ルールロジック |
 |--------|---------|--------------------|
-| アル！ （プレフィックス） | [!UICONTROL Paid Search] | 次で始まる |
-| AC! （プレフィックス） | [!UICONTROL DSP] | 次で始まる |
+| !ctv （サフィックス） | [!UICONTROL DSP Connected TV View-through] | 次で終わる |
+| !d! （本文） | [!UICONTROL Display Network] | 次を含む |
 | !g! （本文） | [!UICONTROL Google Search] | 次を含む |
 | !s! （本文） | [!UICONTROL Search Partner] | 次を含む |
-| !d! （本文） | [!UICONTROL Display Network] | 次を含む |
 | !u! （本文） | [!UICONTROL Smart Shopping Campaign] | 次を含む |
 | !ytv! （本文） | [!UICONTROL YouTube Video Ad] | 次を含む |
 | ！はい！ （本文） | [!UICONTROL YouTube Search Ad] | 次を含む |
 | !vp! （本文） | [!UICONTROL Google Video Partners] | 次を含む |
 | !vt （サフィックス） | [!UICONTROL DSP View-through] | 次で終わる |
+| アル！ （プレフィックス） | [!UICONTROL Paid Search] | 次で始まる |
+| AC! （プレフィックス） | [!UICONTROL DSP] | 次で始まる |
 
 ### AMO ID を使用する処理ルールの例
 
