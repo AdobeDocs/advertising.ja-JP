@@ -3,9 +3,9 @@ title: 専門レポートのレポート列
 description: 専門レポートで使用可能なデータ列について説明します。
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Extension Number] | （[!UICONTROL MSA Ad Extension] レポート）広告拡張機能のバージョン属性。 |
 | [!UICONTROL Ad Extension Type] | （[!UICONTROL MSA Ad Extension] レポート）広告拡張機能のタイプ。 |
 | [!UICONTROL Ad Group] | 広告グループ。 |
-| [!UICONTROL Ad Group ID] | 検索、ソーシャルおよびCommerceが広告グループに割り当てる数値 ID。 |
+| [!UICONTROL Ad Group ID] | 既存の広告グループを識別する一意の ID。 |
 | [!UICONTROL Ad Group Name] | 広告グループ。 |
 | [!UICONTROL Ad Group Status] | 広告グループのステータス：*[!UICONTROL Active]*、*[!UICONTROL Paused]*、*[!UICONTROL Deleted]*。 |
 | [!UICONTROL Ad Title] | （[!UICONTROL MSA Ad Extension] レポート）広告のタイトル。 |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Impression Share Percent] | 受信したインプレッション数を、インプレッションを受け取る資格のある推定インプレッション数で割った値です。 |
 | [!UICONTROL Impressions] | 指定した日付範囲内の広告インプレッション数。 |
 | [!UICONTROL Keyword] | キーワード。<br><br><b> メモ：</b> レポートにコンテンツ対応の検索キャンペーンの広告グループのデータが含まれる場合、この列には「（広告グループコンテンツ）広告グループ名」などの該当する広告グループ名が含まれます。 検索キャンペーンでサイトをターゲットにしたプレースメントの場合、この列には値がありません。 |
-| [!UICONTROL Keyword ID] | 検索、ソーシャルおよびCommerceがキーワードに割り当てる数値 ID。 |
+| [!UICONTROL Keyword ID] | 既存のキーワードを識別する一意の ID。 |
 | [!UICONTROL Keyword Extension ID] | （[!UICONTROL MSA Ad Extension by Keyword Report]）広告ネットワークが広告拡張機能に割り当てる数値 ID。 |
 | [!UICONTROL Keyword Extension Number] | （[!UICONTROL MSA Ad Extension by Keyword Report]）広告拡張機能のバージョン属性。 |
 | [!UICONTROL Keyword Extension Type] | （[!UICONTROL MSA Ad Extension by Keyword Report]）広告拡張タイプ。 |

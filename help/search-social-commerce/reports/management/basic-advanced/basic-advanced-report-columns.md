@@ -3,9 +3,9 @@ title: 基本レポートと高度なレポートのレポート列
 description: 基本レポートと高度なレポートで使用可能なデータ列について説明します。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '3747'
+source-wordcount: '3741'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Active Campaigns] | アクティブなキャンペーンの数。 |
 | [!UICONTROL Active Keywords] | アクティブなキーワードの数。 |
 | [!UICONTROL Ad Group] | 広告グループ。 |
-| [!UICONTROL Ad Group ID] | 検索、ソーシャルおよびCommerceが広告グループに割り当てる数値 ID。 |
+| [!UICONTROL Ad Group ID] | 既存の広告グループを識別する一意の ID。 |
 | [!UICONTROL Ad Group Status] | 広告グループのステータス：<i>[!UICONTROL Active]</i>、<i>[!UICONTROL Paused]</i>、<i>[!UICONTROL Deleted]</i>。 |
 | [!UICONTROL Ad Group Type] | 広告グループタイプ。<i>[!UICONTROL Audience]</i> （オーディエンスキャンペーンのみ）、<i>[!UICONTROL Discovery]</i> （ディスカバリーキャンペーンのみ）、<i>[!UICONTROL Display]</i> （ディスプレイキャンペーンのみ）、<i>[!UICONTROL Search Dynamic]</i> （動的検索広告のみ）、<i>[!UICONTROL Search Standard]</i> （レスポンシブ検索広告および既存の拡張テキスト広告のみ）、<i>[!UICONTROL Shopping Showcase]</i>、<i>[!UICONTROL Shopping Product]</i> （標準ショッピングキャンペーンのみ）、<i>[!UICONTROL Shopping Smart]</i> （スマートショッピングキャンペーンのみ）などがあります。 一部のキャンペーンタイプでは、1 つのキャンペーンに複数の広告タイプを含めることができます。 |
 | [!UICONTROL Ad Groups] | ラベル値が割り当てられる広告グループの数。 |
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Interactions] | （ビデオ広告）訪問者が広告を視聴した回数。 |
 | [!UICONTROL Is_Click_Objectives] | （[!UICONTROL Portfolio Report]） <i>true</i>[!UICONTROL Maximize Clicks] に設定した入札戦略を持つキャンペーンがポートフォリオに含まれている場合）、および <i>false</i> に設定されていない場合。 |
 | [!UICONTROL Keyword] | キーワード。<br><br><b> メモ：</b> レポートにコンテンツ対応の検索キャンペーンの広告グループのデータが含まれる場合、この列には「（広告グループコンテンツ）広告グループ名」などの該当する広告グループ名が含まれます。 検索キャンペーンでサイトをターゲットにしたプレースメントの場合、この列には値がありません。 |
-| [!UICONTROL Keyword ID] | 検索、ソーシャルおよびCommerceがキーワードに割り当てる数値 ID。 |
+| [!UICONTROL Keyword ID] | 既存のキーワードを識別する一意の ID。 |
 | [!UICONTROL Keyword Status] | 検索語句が一致したキーワードのステータス：<i>[!UICONTROL Active]</i>、<i>[!UICONTROL Paused]</i>、<i>[!UICONTROL Deleted]</i>、<i>[!UICONTROL Disapproved]</i>。 |
 | [!UICONTROL Label Classification] | （[!UICONTROL Label Classification Report] および [!UICONTROL Label Value Report]） ラベルの分類。 |
 | [!UICONTROL Label Value] | （[!UICONTROL Label Classification Report] および [!UICONTROL Label Value Report]） ラベル分類の値。 |
