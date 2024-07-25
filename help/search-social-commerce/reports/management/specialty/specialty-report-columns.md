@@ -3,9 +3,9 @@ title: 専門レポートのレポート列
 description: 専門レポートで使用可能なデータ列について説明します。
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
+source-git-commit: 13b1ca84571c33e4369b67ace24f39a23ad5fe24
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2639'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL All Return on Ad Spend] | （[!UICONTROL MSA Ad Extension] レポート）総収益を支出で割ったパーセンテージ。 |
 | [!UICONTROL All Revenue Per Conversion] | （[!UICONTROL MSA Ad Extension] レポート）コンバージョンあたりの売上高。 |
 | [!UICONTROL Asset] | （[!UICONTROL RSA Asset Report]）アセット。 |
-| [!UICONTROL Asset ID] | （[!UICONTROL RSA Asset Report]）検索、ソーシャル、Commerceによってアセットに割り当てられる数値 ID。 |
+| [!UICONTROL Asset ID] | （[!UICONTROL RSA Asset Report]）既存のアセットを識別する一意の ID。 |
 | [!UICONTROL Asset Performance Label] | （[!UICONTROL RSA Asset Report]）資産の [[!DNL Google Ads]  業績評価 ](https://support.google.com/google-ads/answer/9564897)。 |
 | [!UICONTROL Asset Status] | （[!UICONTROL RSA Asset Report]）アセットのステータス：*[!UICONTROL Enabled]* または *[!UICONTROL Enabled]* （削除済み）。 |
 | [!UICONTROL Asset Type] | （[!UICONTROL RSA Asset Report]）資産タイプ：*[!UICONTROL Creative Title]* または *[!UICONTROL Description]*。 |
