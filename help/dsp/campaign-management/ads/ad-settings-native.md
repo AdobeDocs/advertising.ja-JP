@@ -3,9 +3,9 @@ title: ネイティブのディスプレイ広告設定
 description: ネイティブディスプレイ広告に使用できる広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 152ba89baa17264a74a1a2498e0140972a0470eb
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 次の設定は、作成または編集する各ピクセルに適用されます。
 
-**[!UICONTROL Integration Event]:** 発生するピクセルをトリガーするイベント。 この広告タイプでは、オプションは *[!UICONTROL Impression]* のみです。
+**[!UICONTROL Integration Event]:** 発生するピクセルをトリガーするイベント。
 
 **[!UICONTROL Pixel Type]:** ピクセルが *[!UICONTROL IMG URL]* （1x1 ピクセルの画像ファイル）、*[!UICONTROL HTML]*、*[!UICONTROL JavaScript URL]* のどれであるかを示します。
 
