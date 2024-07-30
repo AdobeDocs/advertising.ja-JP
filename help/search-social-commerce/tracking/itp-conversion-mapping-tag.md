@@ -3,7 +3,7 @@ title: Adobe Advertisingコンバージョンマッピングタグ
 description: ランディングページ以外のページで発生したコンバージョンイベントをAdobe Advertisingがトラッキングできる、ITP 2.2 のJavaScript ベースのコンバージョンマッピングタグについて説明します。
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -79,7 +79,7 @@ JavaScript ベースのAdobe Advertisingコンバージョンマッピングタ�
 
       * `{AMO User ID}` を検索、ソーシャル、Commerceの各アカウントの一意のユーザー ID に置き換えます。
 
-AdobeID や検索、ソーシャル、Commerceのユーザー ID の値が不明な場合は、組織のアカウントマネージャーにお問い合わせください。
+組織 ID や検索、ソーシャル、Commerceのユーザー ID の値が不明な場合は、Adobeアカウントチームにお問い合わせください。
 
 ### 例
 
