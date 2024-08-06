@@ -3,9 +3,9 @@ title: サポートされるインベントリ
 description: サポートされる広告ネットワーク、キャンペーンのタイプ、広告のタイプを参照します。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: a27e5bf805f198a9f3896da4970e922bb629953b
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2720'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->次の表は幅が広いです。 必要に応じて、テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示します。 オプションで、左側のウィンドウの上部にある ![ 左側のウィンドウを非表示にする ](/help/search-social-commerce/assets/hide-left-pane.png " 左側のウィンドウを非表示にする ") または右側のウィンドウの上部にある ![右側のウィンドウを非表示](/help/search-social-commerce/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次または右側のウィンドウを一時的に非表示にすることもできます。
+>次の表は幅が広いです。 表示領域を拡大するには、左側のウィンドウの上部にある ![ 左側のウィンドウ枠を非表示にする ](/help/dsp/assets/hide-left-pane.png " 左側のウィンドウ枠を非表示にする ") をクリックし、右側のウィンドウ枠の上部にある ![右側のウィンドウを非表示](/help/dsp/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次と右側のウィンドウ枠を一時的に非表示にします。 テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示することもできます。
 
 | Source | ネットワーク | キャンペーンタイプ | 広告タイプ | 同期と表示 | 作成/編集 | 追跡 [^1] | 最適化 | レポート [^2] | Adobe Analytics サポート [^3] |
 |----|----|----|----|----|----|----|----|----|----|
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 [^1]：ほとんどの広告ネットワークおよびキャンペーンタイプでは、アクティブなキャンペーンの「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」トラッキング設定（キャンペーンレベルで設定されるか、アカウント設定から継承）を有効にすると、検索、ソーシャルおよびCommerceは、同期されるたびに広告グループコンポーネントのトラッキング URL を自動的に作成し、広告ネットワークにアップロードします。 それ以外の場合は、トラッキング URL を生成して、アカウント、キャンペーンまたはキャンペーンコンポーネントの設定に追加する必要があります。 [ 広告ネットワークとオブジェクトでクリックトラッキング URL を生成するタイミングと方法 ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) を参照してください。
 
-[^2]：検索、ソーシャル、Commerce内から利用できる最適化ガイドの「キャンペーン入札戦略別の適格なポートフォリオタイプ」を参照してください。 &#x200B;
+[^2]：検索、ソーシャル、Commerce内から利用できる最適化ガイドの「キャンペーン入札戦略別の適格なポートフォリオタイプ」を参照してください。
 
 [^3]: Adobe Analyticsとの統合が必要です。 [Analytics forAdobe Advertisingの概要 ](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) を参照してください。
 

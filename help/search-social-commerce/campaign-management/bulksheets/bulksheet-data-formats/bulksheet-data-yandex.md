@@ -3,9 +3,9 @@ title: アカウントに必須のバルクシート デ  [!DNL Yandex]  タ
 description: アカウントのバルクシートで、必須のヘッダーフィールドとデータフィ  [!DNL Yandex]  ルドを参照します。
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1940'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 
 >[!TIP]
 >
->次の表は幅が広いです。 必要に応じて、テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示します。 オプションで、左側のウィンドウの上部にある ![ 左側のウィンドウを非表示にする ](/help/search-social-commerce/assets/hide-left-pane.png " 左側のウィンドウを非表示にする ") または右側のウィンドウの上部にある ![右側のウィンドウを非表示](/help/search-social-commerce/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次または右側のウィンドウを一時的に非表示にすることもできます。
+>次の表は幅が広いです。 表示領域を拡大するには、左側のウィンドウの上部にある ![ 左側のウィンドウ枠を非表示にする ](/help/dsp/assets/hide-left-pane.png " 左側のウィンドウ枠を非表示にする ") をクリックし、右側のウィンドウ枠の上部にある ![右側のウィンドウを非表示](/help/dsp/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次と右側のウィンドウ枠を一時的に非表示にします。 テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示することもできます。
 
 | フィールド | キャンペーン | 広告グループ | キーワード | テキスト広告 | Sitelink | 説明 |
 |----|----|-----|-----|----|----|----|
