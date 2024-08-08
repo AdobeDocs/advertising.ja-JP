@@ -3,9 +3,9 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 07ecb613c49e27e1a1e82d7082b1715040b82610
+source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
 workflow-type: tm+mt
-source-wordcount: '3915'
+source-wordcount: '3921'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ ht-degree: 0%
 
    * *[!UICONTROL RampID]*：メールアドレス [!DNL LiveRamp] 使用してサイトにログインしたユーザーの [!DNL RampIDs] をターゲットに設定します。<!-- Verify --> [!DNL RampIDs] は、北米、オーストラリア、ニュージーランドのユーザーが利用できます。
 
-   * *[!UICONTROL Unified ID2.0]*：メールアドレス [!DNL Unified ID2.0] 使用してサイトにログインしたユーザーの ID をターゲットに設定（UID2）。<!-- Verify -->[!DNL UID2 IDs] は、欧州経済地域および一部の国のユーザーは利用できません。 [ 禁止国のリスト ](/help/policies/universal-id-policy.md#prohibited-countries-uid2) をご覧ください。
+   * *[!UICONTROL Unified ID2.0]*：メールアドレスを使用してサイトにログインしたユーザーの ID をター [!DNL Unified ID2.0] ット（UID2）でターゲットに設定します。<!-- Verify -->[!DNL UID2 IDs] は、欧州経済地域および一部の国のユーザーは利用できません。 [ 禁止国のリスト ](/help/policies/universal-id-policy.md#prohibited-countries-uid2) をご覧ください。
 
   **[!UICONTROL Terms of service]**：ユニバーサル ID を使用するためのサービス利用契約の条件。 データを新しい ID タイプに変換するには、DSP アカウントの別のユーザーが条件に 1 回同意する必要があります。 マネージドサービス契約を締結しているお客様の場合、Adobeアカウントチームがお客様の同意を得て、組織に代わって条項に同意します。 用語を読むには、「**>**」をクリックします。 条件に同意するには、条件の下部までスクロールし、「**[!UICONTROL Accept]**」をクリックします。
 
@@ -365,7 +365,7 @@ ht-degree: 0%
 >
 >* [!DNL Proximic by Comscore] または [!DNL Oracle Data Cloud] （旧称 [!DNL Grapeshot]）のセグメント内で負のターゲティングを設定します。
 
-**[!UICONTROL Device Targeting]:** （任意）デバイスの種類、製造元、オペレーティングシステム、ブラウザー、接続の種類などの特定のデバイス情報。ターゲットとして含めたり除外したりできます。 デバイスのターゲティングを指定するには：
+**[!UICONTROL Device Targeting]:** （任意）デバイスの種類、製造元、オペレーティングシステム、ブラウザー、接続の種類などの特定のデバイス情報。ターゲットとして含めたり除外したりできます。 タイプは、プレースメントのタイプによって異なります。 デバイスのターゲティングを指定するには：
 
 1. ![ 編集 ](/help/dsp/assets/edit.png) をクリックします。
 1. 含めるおよび除外するデバイスの詳細を指定します：
