@@ -3,7 +3,7 @@ title: SSP パートナー
 description: 使用可能な SSP （サプライ・サイド・プラットフォーム）とオープン Exchange パートナーのリストを参照してください。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 96a8080a134bc3bdff597d8a26bfbc4cd40bc545
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] またはAdobe Advertising | 不可 | グローバル | USD | x | x | x | x | x |  |  |
 | [!DNL Triton] |  | Adobe Advertising | はい | グローバル | USD |  |  |  |  |  |  | x |
 | [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | 不可 | 米国+ EMEA | USD | x | x | x |  |  |  |  |
-| [!DNL Yahoo] | [!DNL TubeMogul] またはAdobe Advertising | 不可 | グローバル | USD | x | x | x | x | x |  |  |
+| [!DNL Yahoo] |  | [!DNL TubeMogul] またはAdobe Advertising | 不可 | グローバル | USD | x | x | x | x | x |  |  |
 
 {style="table-layout:auto"}
 
