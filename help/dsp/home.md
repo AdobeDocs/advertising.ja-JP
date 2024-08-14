@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 5a967894f2aa9e26dde981c771dce10b5d9e84f7
+source-git-commit: 20c2001ff66a75c64364450c0f0841cb8403d326
 workflow-type: tm+mt
-source-wordcount: '3822'
+source-wordcount: '3849'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024 年 8 月 14 日（Pt） | [!UICONTROL Placements] | DSPは、9 月下旬に日没になる [!DNL Audiences by Oracle (BlueKai)] セグメントのセグメントカウントを更新しなくなり、すべてのカウントが徐々にゼロ（0）に減ります。 | — |
 | 2024 年 7 月 30 日（Pt） | [!UICONTROL Placements] | 8 月 14 日（PT）より、DSPは [!DNL Audiences by Oracle (BlueKai)] セグメントのセグメントカウントの更新を停止します。これは 9 月下旬に廃止され、すべてのカウントが徐々にゼロ（0）に減ります。 | — |
 | | [!UICONTROL Packages] | [!UICONTROL Activate Custom Flighting] オプションが有効な場合、パッケージ設定に「[!UICONTROL Automatically rollover remaining flight budget to next flight]」へのオプションが含まれるようになりました。 このオプションを有効にすると、前のフライトの残りの予算が次のフライトの既存の予算に自動的に追加されます。 自動ロールオーバーオプションが選択されている場合、[!UICONTROL Rollover] の列を手動で編集することはできません。<br><br>[!UICONTROL Packages] ビューと [ パッケージ名 ]/[!UICONTROL Flights] ビューでは、現在のフライト目標を示す「[!UICONTROL Interval Goal]」列にロールオーバー予算が含まれています。 | 「[ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)」を参照してください。 |
 | 2024 年 7 月 12 日（Pt） | [!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements] | [!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements] の各ビューでは、一部の指標の名前がフィードバックに基づいて変更されました。<ul><li>トレンドグラフでは、「必要な支出」が「支出ベンチマーク」に、「ターゲット支出」が「支出目標」に変更されました。</li><li>データテーブルで：<ul><li>「昨日の必要支出」および「今日の必要支出」は、「昨日の支出基準」および「今日の支出基準」に名称が変更されました。</li><li>ツールチップ「昨日のペーシング % および「今日のペーシング %」は「昨日の総支出を昨日の支出基準の %」および「今日の総支出を昨日の支出基準の %」に変更されました。</li><li>「昨日の目標支出」および「今日の目標支出」は「昨日の支出目標」および「今日の支出目標」に名称が変更されました。</li></ul></li><ul> | [ カスタム列表示の作成 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)」および「[ カスタム列表示の編集 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)」を参照してください。 |
