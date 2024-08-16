@@ -3,9 +3,9 @@ title: 実装の前提条件と主な情報  [!DNL Analytics for Advertising]
 description: 実装の前提条件と主な情報  [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 8481227a8ccb1f1e6e715e34e14732967110c168
+source-git-commit: 1559c2cb83e32d90f4b2fe959d07c4e588d9becf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Adobe Advertising導入チームに以下を提供します。
 
 * Adobe Analyticsのコンバージョントラッキング [!DNL Analytics for Advertising]、設定可能なトラッキングルックバックウィンドウ（デフォルトでは 60 日）を使用します。 Adobe Advertisingレポートは、このトラッキングルックバックウィンドウの最後までのサイトコンバージョンとエンゲージメントを反映します。
 
-* すべての広告タイプがサポートされています。 ただし、すべての広告環境がサポートされているわけではありません。
+* すべての広告タイプがサポートされています。<!--Clarify what this might include. It used to include CTV, but not anymore: However, not all ad environments are supported. -->
 
 * [!DNL Analytics] コンバージョンは現在追跡されており、同じデバイス上の 1 人の訪問者にのみ関連付けられています。
 
