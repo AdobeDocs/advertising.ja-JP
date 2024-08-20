@@ -3,7 +3,7 @@ title: カスタムレポートについて
 description: カスタムレポートを手動で作成するオプションと、事前設定済みのレポートテンプレートを使用するオプションについて説明します。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 1d8f7c8a365b53a0345ef4155802802acbf3f027
+source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%

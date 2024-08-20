@@ -3,7 +3,7 @@ title: カスタムレポートの設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
 workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 0%
