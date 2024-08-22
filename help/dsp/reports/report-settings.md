@@ -3,7 +3,7 @@ title: カスタムレポートの設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 9313b20b4bcdb001138f30d8fa82d2b22be19831
+source-git-commit: 4fb843e66edddd4585d4a9b142eb9a7750152d27
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # カスタムレポートの設定
 
-**[!UICONTROL Name]** レポート名。 最大長は 180 文字です。
+**[!UICONTROL Name]:** レポート名。 最大長は 180 文字です。
 
-**[!UICONTROL Report Type]** レポートのタイプ：*[!UICONTROL Custom]* （利用可能な最も多くのオプションを含む）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]* または *[!UICONTROL Household Conversions]*。
+**[!UICONTROL Report Type]:** レポートのタイプ。*[!UICONTROL Custom]* （利用可能な最も多くのオプションを含む）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]*、*[!UICONTROL Household Conversions]* です。
 
-## [!UICONTROL Report range] セクション
+## [!UICONTROL Report Range] セクション
 
 このセクションは、レポートに含めるデータを決定します。 レポートスケジュールの日付を設定するには、「[!UICONTROL Report run schedule]」の節を参照してください。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Custom Range]:** 特定の開始日と終了日の間のデータが含まれます。 前日までのデータをレポートするには、「**[!UICONTROL Present]**」を選択します。
 
-## [!UICONTROL Report run schedule] セクション
+## [!UICONTROL Report Run schedule] セクション
 
 このセクションは、レポートが実行される日付を決定します。 レポートデータを含める日付を設定するには、「[!UICONTROL Report range]」の節を参照してください。
 
