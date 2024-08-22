@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ec9bf9bb6e12255548d4d8c869b87a78226bbf1e
+source-git-commit: 6264132ebeacc960548e818d023dc232a293abc1
 workflow-type: tm+mt
 source-wordcount: '3906'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024 年 8 月 22 日（Pt） | [!UICONTROL Packages] | 1 つ以上のパッケージの設定を XLSX （[!DNL Microsoft Excel] スプレッドシート）形式でダウンロードして確認できるようになりました。 スプレッドシートには、フライト情報を含む別のタブが含まれています。 その後、両方のタブのフィールドを選択して変更を加え、それらを一度にDSPにアップロードできます。 | [ スプレッドシートを使用したパッケージ設定の確認と編集 ](/help/dsp/campaign-management/packages/package-qa.md) を参照してください。 |
+| 2024 年 8 月 22 日（Pt） | [!UICONTROL Packages] | 1 つ以上のパッケージの設定を XLSX （[!DNL Microsoft Excel] スプレッドシート）形式でダウンロードして確認できるようになりました。 スプレッドシートには、フライト情報を含む別のタブが含まれています。 その後、両方のタブのほとんどのフィールドに変更を加え、それらを一度にDSPにアップロードして戻すことができます。 | [ スプレッドシートを使用したパッケージ設定の確認と編集 ](/help/dsp/campaign-management/packages/package-qa.md) を参照してください。 |
 | 2024 年 8 月 14 日（Pt） | [!UICONTROL Placements] | DSPは、9 月下旬に日没になる [!DNL Audiences by Oracle (BlueKai)] セグメントのセグメントカウントを更新しなくなり、すべてのカウントが徐々にゼロ（0）に減ります。 | — |
 | 2024 年 7 月 30 日（Pt） | [!UICONTROL Placements] | 8 月 14 日（PT）より、DSPは [!DNL Audiences by Oracle (BlueKai)] セグメントのセグメントカウントの更新を停止します。これは 9 月下旬に廃止され、すべてのカウントが徐々にゼロ（0）に減ります。 | — |
 | | [!UICONTROL Packages] | [!UICONTROL Activate Custom Flighting] オプションが有効な場合、パッケージ設定に「[!UICONTROL Automatically rollover remaining flight budget to next flight]」へのオプションが含まれるようになりました。 このオプションを有効にすると、前のフライトの残りの予算が次のフライトの既存の予算に自動的に追加されます。 自動ロールオーバーオプションが選択されている場合、[!UICONTROL Rollover] の列を手動で編集することはできません。<br><br>[!UICONTROL Packages] ビューと [ パッケージ名 ]/[!UICONTROL Flights] ビューでは、現在のフライト目標を示す「[!UICONTROL Interval Goal]」列にロールオーバー予算が含まれています。 | 「[ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)」を参照してください。 |
