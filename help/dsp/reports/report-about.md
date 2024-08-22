@@ -3,9 +3,9 @@ title: カスタムレポートについて
 description: カスタムレポートを手動で作成するオプションと、事前設定済みのレポートテンプレートを使用するオプションについて説明します。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: 44f7f9b31afbe6b863acd389df641057b1e6dea1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,15 @@ ht-degree: 0%
 カスタムレポートを使用すると、キャンペーンディメンション（広告主、プレースメント、サイト、ジオロケーションなど）と最も重要な指標を使用して、レポートデータの内容と配信をカスタマイズできます。 次のいずれかを実行できます。
 
 * キャンペーンのパフォーマンスレポートを詳細なレベルで完全に設定します。
+
 * 事前設定済みのレポートテンプレートから選択し、オプションでさらにカスタマイズします。
 
-レポートを 1 回生成することも、指定したタイムゾーンの 03:00 に毎日、毎週または毎月レポートを生成するようにスケジュールすることもできます。 レポートが生成されると、指定した各メール受信者または次のタイプのリンクされた [ レポートの宛先 ](/help/dsp/reports/report-destinations/report-destination-about.md) に配信されます。
+レポートを 1 回生成することも、指定した基準（15 日ごと、毎月 1 日など）に従って指定したタイムゾーンで毎日、毎週、毎月 3 時に生成されるようにスケジュールすることもできます。 レポートが生成されたら、[!UICONTROL Reports] / [!UICONTROL Custom Reports] または次のタイプのリンクされた [ レポートの宛先 ](/help/dsp/reports/report-destinations/report-destination-about.md) からダウンロードできます。
 
 * [!DNL Amazon Simple Storage Service] （[!DNL S3]）
 * FTP
+* FTP SSL <!-- (in beta) -->
 * SFTP
-* FTP SSL （ベータ版）
 
 >[!NOTE]
 >
@@ -84,9 +85,30 @@ ht-degree: 0%
 
 [!UICONTROL Settings] > [!UICONTROL Account] のアカウント設定は、a） データがアカウントで使用可能な他のアカウント、および b） アカウントのデータにアクセスできる他のアカウントを示します。
 
+## [!UICONTROL Custom Reports] ビュー
+
+[!UICONTROL Reports] > [!UICONTROL Custom Reports] には、生成されたレポート、今後の生成が予定されているレポート、失敗したレポートなど、既存のレポートがリストされます。 「[!UICONTROL Report Run]」列には、2024 年 8 月 22 日（PT）以降にレポートがトリガーされた日付が表示されます。 デフォルトでは、ユーザーが作成したアーカイブされていないすべてのレポートが一覧表示され、最新のレポートが一番上に表示されます。 リストは、ステータス、レポートが定期か 1 回限り、レポートのタイプ、宛先のタイプ、レポートの作成者などでフィルタリングすることもできます。
+
+新しいカスタムレポートを作成したり、既存のレポートを編集または複製して新しいレポートを作成したり、レポートをすぐに実行したり、過去 4 か月のレポートインスタンスをダウンロードしたり、レポートを削除したりできます。
+
+## レポートのステータス {#custom-report-status}
+
+* **[!UICONTROL Yet to start]:** レポートは実行されていません。
+
+* **[!UICONTROL Report generating]:** レポートは現在作成中です。
+
+* **[!UICONTROL Ready to download]:** （繰り返しレポートのみ） 1 つ以上のレポートインスタンスをダウンロードでき、予定されているレポートインスタンスがあります。
+
+* **[!UICONTROL Failed]:** レポート ジョブが失敗しました。 レポートトウで個々のレポートインスタンスが失敗した理由を確認するには、[!UICONTROL Download] の横にある ![ 下向き矢印 ](/help/dsp/assets/chevron-down.png " 下向き矢印 ") をクリックします。 失敗したレポートジョブには、エラーアイコン（![エラー指標](/help/dsp/assets/indicator-critical.png "エラー指標")）が表示されます。 エラーの説明を表示するには、エラーアイコンの上にカーソルを置きます。
+
+* **[!UICONTROL Completed]:** 繰り返し発生しないレポートの場合、レポートは完了します。 繰り返しレポートの場合、すべてのレポートインスタンスが完了します。 過去 4 か月以内に完了したすべてのレポートをダウンロードできます。
+
+* **[!UICONTROL Archived]:** レポートはアーカイブされており、実行できません。 このステータスは、レポートの生成が 1 つのレポートに対して複数回失敗した場合に設定されます。 現在、このステータスはユーザーインターフェイスから設定できません。
+
 >[!MORELIKETHIS]
 >
 >* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートのダウンロード ](/help/dsp/reports/report-download.md)
 >* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
 >* [ 世帯レポートに関するよくある質問 ](/help/dsp/reports/faq-household-report.md)
 >* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)

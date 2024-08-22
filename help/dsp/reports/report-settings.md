@@ -3,9 +3,9 @@ title: カスタムレポートの設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: a4ab8bdeea2d15f14a7ef84c1055888ecc77014b
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,51 @@ ht-degree: 0%
 
 **[!UICONTROL Report Type]** レポートのタイプ：*[!UICONTROL Custom]* （利用可能な最も多くのオプションを含む）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]* または *[!UICONTROL Household Conversions]*。
 
-## [!UICONTROL Apply Filters] セクション
+## [!UICONTROL Report range] セクション
+
+このセクションは、レポートに含めるデータを決定します。 レポートスケジュールの日付を設定するには、「[!UICONTROL Report run schedule]」の節を参照してください。
 
 **[!UICONTROL Timezone]:** レポートのタイムゾーン。
 
 **[!UICONTROL Observe Daylight Savings Time]:** レポートされた時間に夏時間を考慮します。
 
-**\[ 日付範囲\]:** データを生成する日付範囲。 使用可能な日数は、レポートや選択したディメンションによって異なります。 次のいずれかを選択します。
+**範囲：** データを生成する日付範囲。 使用可能な日数は、レポートや選択したディメンションによって異なります。 次のいずれかを選択します。
 
-* **[!UICONTROL Previous N days]:** 今日より前の特定の日数のデータが含まれます。
-
-* **[!UICONTROL Custom]:** 特定の開始日と終了日の間のデータが含まれます。 前日までのデータをレポートするには、「**[!UICONTROL Present]**」を選択します。
+* **[!UICONTROL Last Calendar Week]:** 前のカレンダー週のデータが含まれます。
 
 * **[!UICONTROL Last Calendar Month]:** 前月のデータが含まれます。
+
+* **[!UICONTROL Custom Range]:** 特定の開始日と終了日の間のデータが含まれます。 前日までのデータをレポートするには、「**[!UICONTROL Present]**」を選択します。
+
+## [!UICONTROL Report run schedule] セクション
+
+このセクションは、レポートが実行される日付を決定します。 レポートデータを含める日付を設定するには、「[!UICONTROL Report range]」の節を参照してください。
+
+**\[ スケジュール\]:** レポートを生成するタイミング：
+
+* *[!UICONTROL Immediately]*：直ちにレポートをレポートキューに追加します。
+
+  >[!NOTE]
+  >
+  >また、[!UICONTROL Reports] ビューから [ いつでもカスタムレポートを実行 ](report-run-now.md) することもできます。
+
+* *[!UICONTROL On]\&lt;Date\>:* 指定した完了日に、アカウントのタイムゾーンで 09:00 までにレポートを実行します。
+
+* *[!UICONTROL Recurring]:* 指定した期間のスケジュールに従ってレポートを実行します。
+
+   * **\[Schedule\]:** レポートの実行頻度：
+
+      * *毎日*:N 日ごとにレポートを実行します。 例えば、レポートを 2 週間（14 日）ごとに実行するには、このオプションを選択して「**14**」と入力します。
+
+      * *毎週*：指定した曜日にレポートを実行します。 たとえば、レポートを毎週月曜日と金曜日に実行する場合は、このオプションを選択し、**月曜日** および **金曜日** の横にあるチェック ボックスをオンにします。
+
+      * *毎月* 1 日から 30 日の特定の数値日にレポートを実行します。 例えば、毎月 1 日にレポートを実行する場合は、このオプションを選択して「**1**」と入力します。
+
+   * **開始日**: レポートを実行できる最初の日付。 指定したスケジュールに応じて、この日付以降に最初のレポートインスタンスが実行される場合があります。
+
+   * **期限**: レポートの有効期限。最大 4 か月先の日付を指定できます。 レポートの有効期限が切れる前に、指定したすべてのメール宛先に、有効期限の 7 日前と 1 日前にメールアラートが届きます。 レポートの期間を延長するには、この日付を変更します。
+
+## [!UICONTROL Apply Filters] セクション
 
 **[!UICONTROL Add Filters]:** （オプション）ディメンションがレポートに列として含まれているかどうかに関わらず、データをフィルタリングするための追加のディメンション。 使用可能なフィルターは、レポートタイプによって異なり、*[!UICONTROL Account]*\*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、* *[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]* および *[!UICONTROL Video Duration]* などがあります。
 
@@ -120,17 +152,23 @@ ht-degree: 0%
 
 ## [!UICONTROL Add Report Destinations] セクション
 
-**[!UICONTROL Destination Type]:** 次のいずれかの宛先タイプを選択します。
-
-* *[!UICONTROL S3]:* 完成したレポートを 1 つ以上の [!DNL Amazon Simple Storage Service] （[!DNL Amazon S3]）の場所に送信するには、**[!UICONTROL Destination Name]** フィールドで指定する必要があります。
-* *[!UICONTROL sFTP]:* 完成したレポートを 1 つ以上の SFTP の場所に送信するには、**[!UICONTROL Destination Name]** のフィールドにレポートを指定する必要があります。
-* *[!UICONTROL FTP]:* 完成したレポートを 1 つ以上の FTP ロケーションに送信するには、**[!UICONTROL Destination Name]** のフィールドにレポートを指定する必要があります。
-* *[!UICONTROL FTP SSL]（現在はBetaにあります）:* 完成したレポートを 1 つ以上の FTP SSL 場所に送信するには、**[!UICONTROL Destination Name]** フィールドに指定する必要があります。
-* *[!UICONTROL Email]:* 完了したレポートまたはエラーが原因でレポートがキャンセルされた場合に通知を送信する電子メール アドレスを指定します。
+**[!UICONTROL Destination Type]:** 完了したレポートとエラー通知の配信先。 レポートを保存した後は、宛先のタイプを変更できません。
 
 >[!NOTE]
 >
-> レポートを保存した後は、宛先のタイプを変更できません。
+>完了したレポートは、[!UICONTROL Reports] / [!UICONTROL Custom Reports] ビューからいつでもダウンロードできます。
+
+* *[!UICONTROL None]:* レポートまたは通知を配信しない。
+
+* *[!UICONTROL S3]:* 完成したレポートを 1 つ以上の [!DNL Amazon Simple Storage Service] （[!DNL Amazon S3]）の場所に送信するには、**[!UICONTROL Destination Name]** フィールドで選択する必要があります。
+
+* *[!UICONTROL sFTP]:* 完成したレポートを 1 つ以上の SFTP ロケーションに送信するには、**[!UICONTROL Destination Name]** フィールドで選択する必要があります。
+
+* *[!UICONTROL FTP]:* 完成したレポートを 1 つ以上の FTP ロケーションに送信するには、**[!UICONTROL Destination Name]** フィールドで選択する必要があります。
+
+* *[!UICONTROL FTP SSL]（現在はBetaにあります）:* 完成したレポートを 1 つ以上の FTP SSL ロケーションに送信するには、「**[!UICONTROL Destination Name]**」フィールドを選択する必要があります。
+
+* *[!UICONTROL Email]:* 完了したレポートまたはエラーが原因でレポートがキャンセルされた場合に通知を送信する電子メール アドレスを指定します。
 
 **[!UICONTROL Email]:** （電子メールの宛先タイプのみ）各アドレスに対して、アドレスを入力し、**+** をクリックします。
 
@@ -148,26 +186,13 @@ ht-degree: 0%
 
       これで、既存の宛先のリストから新しい宛先を使用できるようになり、オプションでレポートに追加できます。
 
-**[!UICONTROL Frequency]:** （各 [!UICONTROL Destination Name] に対して）レポートを宛先に送信する頻度：*[!UICONTROL Once]*、*[!UICONTROL Daily]*、*[!UICONTROL Weekly]* または *[!UICONTROL Monthly]*。
-
-**[!UICONTROL Start Day]:** （[!UICONTROL Frequency] が *[!UICONTROL Weekly]* または *[!UICONTROL Monthly]* の各 [!UICONTROL Destination Name] について） レポートを生成する日。 週別レポートの場合は、曜日を選択します。 月次レポートの場合は、月の特定の日付を選択します。
-
-## [!UICONTROL Save Report] セクション
-
-**[!UICONTROL When to Generate]:** レポートを生成するタイミング：*[!UICONTROL On Schedule]* または *[!UICONTROL Run Now]*。 予定レポートは、アカウントのタイムゾーンで 09:00 までに配信されます。
-
-**[!UICONTROL End Date]:** レポートの有効期限。4 か月以内で設定できます。 レポートの有効期限が切れる前に、指定したすべてのメール受信者は、有効期限の 7 日前と 1 日前にメールアラートを受け取ります。 レポートを長く保持するには、レポート設定で有効期限を変更します。
-
->[!NOTE]
->
->[!UICONTROL Reports] ビューから [ いつでもカスタムレポートを実行 ](report-run-now.md) できます。
-
 >[!MORELIKETHIS]
 >
 >* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
 >* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
 >* [ カスタムレポートの複製 ](/help/dsp/reports/report-copy.md)
 >* [ カスタムレポートの編集 ](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポートのダウンロード ](/help/dsp/reports/report-download.md)
 >* [ カスタムレポートの実行 ](/help/dsp/reports/report-run-now.md)
 >* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
 >* [ レポートの宛先について ](/help/dsp/reports/report-destinations/report-destination-about.md)
