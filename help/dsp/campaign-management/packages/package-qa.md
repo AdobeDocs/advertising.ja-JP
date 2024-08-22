@@ -2,9 +2,9 @@
 title: スプレッドシートを使用したパッケージ設定の確認と編集
 description: スプレッドシートを使用して主要なパッケージ設定を確認および編集する方法を説明します。
 feature: DSP Packages
-source-git-commit: 230a169611aa3094365a877476f2e5e1c6b3cb9b
+source-git-commit: ad00092c4ef5d44c364ab0593826220054f715c3
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 | [!UICONTROL Goals & Budget] | [!UICONTROL Optimization Target] | 目標のターゲット値。 | はい |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Custom Goal Name] | （「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標を持つパッケージのみ） [ カスタム目標 ](/help/dsp/optimization/custom-goal.md)。CPA または ROAS 指標の計算に使用される収益またはコンバージョンイベントが含まれます。 | はい |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Conversion Metric Name] | （オプション、「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標を持つパッケージのみ）広告費用対効果または獲得あたりのコストの計算に使用する最終的なコンバージョンイベントまたは収益イベント/販売額。 | はい |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Package Goal Type] | （カスタムの最適化目標を持つパッケージのみ） パッケージの目的。パッケージの最適化方法（*[!UICONTROL Prospecting]*、*[!UICONTROL Retargeting]*、*[!UICONTROL Other]*）を決定するのに役立ちます。 | — |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Package Goal Type] | （カスタムの最適化目標を持つパッケージのみ） パッケージの目的。パッケージの最適化方法（*[!UICONTROL Prospecting]*、*[!UICONTROL Retargeting]*、*[!UICONTROL Other]*）を決定するのに役立ちます。 | はい |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Linked Package id for learning carryover] | （カスタム最適化目標を持つパッケージのみ）履歴データがパッケージを最適化するための入力として使用される、別のパッケージのパッケージ ID。 | はい |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Linked Package Name for learning carryover] | （カスタム最適化目標を持つパッケージのみ）パッケージを最適化するための入力として履歴データが使用される別のパッケージ。 | — |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Pace on] | パッケージが *[!UICONTROL budget]* または *[!UICONTROL primary_goal]* に向かってペーシングされているかどうか（インプレッション数）。 | — |
@@ -102,10 +102,10 @@ ht-degree: 0%
 |---------|--------|-------------|-----------|
 | [!UICONTROL Flight Details] | [!UICONTROL Package ID] | パッケージの数値 ID。 | — |
 | [!UICONTROL Flight details] | [!UICONTROL Flight ID] | フライトの数値 ID。 | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight Start Date] | フライトの最初の日付。 | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight End Date] | フライトの最終日。 | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight Budget] | フライトのターゲット支出目標。 | — |
-| [!UICONTROL Flight details] | [!UICONTROL Rollover] | （「[!UICONTROL Automatically rollover remaining flight budget to next flight]」オプションが有効になっていない既存のパッケージ）次のフライトに追加する、費やされていない可能性のある予算。 | — |
+| [!UICONTROL Flight details] | [!UICONTROL Flight Start Date] | フライトの最初の日付。 | はい |
+| [!UICONTROL Flight details] | [!UICONTROL Flight End Date] | フライトの最終日。 | はい |
+| [!UICONTROL Flight details] | [!UICONTROL Flight Budget] | フライトのターゲット支出目標。 | はい |
+| [!UICONTROL Flight details] | [!UICONTROL Rollover] | （「[!UICONTROL Automatically rollover remaining flight budget to next flight]」オプションが有効になっていない既存のパッケージ）次のフライトに追加する、費やされていない可能性のある予算。 | はい |
 
 >[!MORELIKETHIS]
 >
