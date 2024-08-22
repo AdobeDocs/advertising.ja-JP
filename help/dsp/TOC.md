@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: b89da28d56cb80d105fd8bebd9c734dd5230c4c3
+source-git-commit: ad95e76ff5f2418a76ffad04b7d2bd176ceea726
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '920'
 ht-degree: 3%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 3%
    + パッケージ {#packages}
       + [パッケージ管理について](/help/dsp/campaign-management/packages/package-about.md)
       + [パッケージを作成](/help/dsp/campaign-management/packages/package-create.md)
+      + [スプレッドシートを使用したパッケージ設定の確認と編集](/help/dsp/campaign-management/packages/package-qa.md)
       + [パッケージを編集](/help/dsp/campaign-management/packages/package-edit.md)
       + [パッケージの複製](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [パッケージへのプレースメントの添付](/help/dsp/campaign-management/packages/package-attach-placement.md)
