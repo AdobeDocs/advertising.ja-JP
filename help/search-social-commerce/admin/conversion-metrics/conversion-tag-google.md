@@ -3,9 +3,9 @@ title: ' [!DNL Google Ads] のコンバージョンタグを作成します。'
 description: コンバージョンタグの作成方法  [!DNL Google Ads]  説明します。
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Web サイトにタグを追加し、そのタグが実行を開始すると、[
 
 **[!UICONTROL View Through Conversion Window]:** ユーザーが広告を表示してから、ビュースルーコンバージョンが記録されるまでの最大日数。 検索、ディスプレイ、ショッピングキャンペーンの場合、ウィンドウは 1～90 日です。 数値を選択するか、**[!UICONTROL Custom]** を選択して数値を入力します。
 
-**[!UICONTROL Attribution Model]:** [ 各広告インタラクションが受け取るクレジットの量 ](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138):*[!UICONTROL Data driven]*、*[!UICONTROL Last click]*、*[!UICONTROL First click]*、*[!UICONTROL Linear]*、*[!UICONTROL Time decay]*、*[!UICONTROL Position based]*。
+**[!UICONTROL Attribution Model]:** [ 各広告インタラクションのクレジットの取得額 ](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138):*[!UICONTROL Data driven]* または *[!UICONTROL Last click]*。 **メモ：** 以前、サポートされなくなった *[!UICONTROL First click]*、*[!UICONTROL Linear]*、*[!UICONTROL Time decay]* または *[!UICONTROL Position based]* モデルを使用していたコンバージョンアクションでは、*[!UICONTROL Data driven]* モデルを使用するようになりました。
 
 >[!MORELIKETHIS]
 >
