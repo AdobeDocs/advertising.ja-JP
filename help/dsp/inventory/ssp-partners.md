@@ -3,9 +3,9 @@ title: SSP パートナー
 description: 使用可能な SSP （サプライ・サイド・プラットフォーム）とオープン Exchange パートナーのリストを参照してください。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: e9001913f7b5a18ad625f32230199ee7209e1a64
+source-git-commit: 311200b84c4f2d037ecc9cc17ba49495bd523464
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 | [!DNL TripleLift] |  | [!DNL TubeMogul] またはAdobe Advertising | — | グローバル | USD | ネイティブディスプレイ |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] またはAdobe Advertising | — | グローバル | USD | デスクトップおよびモバイルの表示 <br><br> ビデオデスクトップ、モバイルおよび CTV |
 | [!DNL Triton] |  | Adobe Advertising | PG サポート | グローバル | USD | オーディオデスクトップとモバイル |
-| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | 米国+ EMEA | USD | ビデオデスクトップ、モバイル、CTV |
+| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | 米国+ EMEA | USD | デスクトップおよびモバイルの表示 <br><br> ビデオデスクトップ、モバイルおよび CTV |
 | [!DNL Yahoo] |  | [!DNL TubeMogul] またはAdobe Advertising | — | グローバル | USD | デスクトップおよびモバイルの表示 <br><br> ビデオデスクトップ、モバイルおよび CTV |
 
 >[!MORELIKETHIS]
