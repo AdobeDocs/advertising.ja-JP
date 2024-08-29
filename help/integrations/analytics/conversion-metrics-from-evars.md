@@ -3,9 +3,9 @@ title: Adobe Analyticsおよび prop からのコンバージョン指標  [!DNL
 description: ' [!DNL eVar] レベルおよび  [!DNL prop] レベルのデータを使用して、カスタム成功イベント指標を設定します。'
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: a0d5bc1791f5d05e2cbdeab58e1943f4d494b53f
+source-git-commit: db815958b039508b005f4be60561ddc4656da86e
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 次のタスクのほとんどは、[!DNL Analytics] 管理者または他のユーザーが実行する必要があります。 サポートが必要な場合は、（DSP ユーザー）DSP テクニカルサポートチーム （`adcloud_support@adobe.com` または（検索、ソーシャル、Commerce ユーザー）Adobeアカウントチーム）にお問い合わせください。
 
-1. [!DNL Analytics] では、[ プレースホルダー成功イベントを作成 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event.html?lang=en) します。
+1. [!DNL Analytics] では、[ プレースホルダー成功イベントを作成 ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event) します。
 
    以下の追加パラメーターを使用します。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 指標が使用可能になったら、それを使用して目的を作成し、検索、ソーシャル、Commerceのポートフォリオに割り当てたり、DSP パッケージの [ カスタム目標 ](/help/dsp/optimization/custom-goal.md) として使用したりできます。
 
-目標の作成について詳しくは、「目標」に関する最適化ガイドの章を参照してください。この章は、検索、ソーシャル、Commerce内から利用できます。
+検索、ソーシャル、Commerce内から利用できる、「目標」に関する最適化ガイドの章を参照してください
 
 >[!MORELIKETHIS]
 >
