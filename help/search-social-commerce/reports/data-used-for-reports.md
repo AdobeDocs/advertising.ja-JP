@@ -3,9 +3,9 @@ title: レポートに使用するデータ
 description: データビューとカスタムレポートで使用できる様々なタイプのデータについて説明します。
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: 840c7f6295b73a784725c301a78ae89c827fd45e
+source-git-commit: f357d9a9ec0f8b38fbc43726265521e6fd77c7d0
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -45,15 +45,16 @@ ht-degree: 0%
 レポートに指定したアトリビューションルールに応じて、次の日付の各レポートタイプのデータを使用できます。
 
 | 報告書グループ | 報告書 | データを利用できる日付 |
-|---|---|---|
+| --- | --- | --- |
 | [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 2021 年 5 月 15 日より。<br><br><b> 例外：</b> 知名度の指標データは、2022 年 9 月 8 日（PT）から利用できるようになります。 |
 | | その他すべての [!UICONTROL Basic Reports] | 過去 36 か月。<br><br><b> 例外：</b> 知名度の指標データは、2022 年 9 月 8 日（PT）から利用できるようになります。 |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | 過去 45 日間。 |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | 過去 2 か月と現在の月の合計。 |
 | [!UICONTROL Assist Reports] | すべて | 過去 18 か月。 |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | 前年。 |
-| | [!UICONTROL RSA Assets Report] | 2022 年 8 月 10 日より。 |
+| | [!UICONTROL Google Asset Group Performance Report] | 制限なし |
 | | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | 過去 180 日間。 |
+| | [!UICONTROL RSA Assets Report] | 2022 年 8 月 10 日より。 |
 | | その他すべての [!UICONTROL Specialty Reports] | 過去 2 か月。 |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | 過去 18 か月。 |
 | [!UICONTROL Change History Report] | — | 過去 31 日間。 |

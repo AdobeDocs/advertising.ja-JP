@@ -3,21 +3,21 @@ title: '[!DNL Google Ads] キャンペーン設定'
 description: キャンペーンの設定  [!DNL Google Ads]  参照します。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 760d46182a61588748cfd5031168266ba53c9dcc
+source-git-commit: c4fa1ffa1dd21b2889ea18cb6a1a7cdec477bcfe
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2503'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Ads] キャンペーンの設定
 
-## \[ キャンペーン作成画面\]
+## \[キャンペーン 作成画面\]
 
-**[!UICONTROL Campaign Type]:** （キャンペーンの作成時にのみ使用可能）広告の配置場所と広告タイプ
-キャンペーンには、次の内容が含まれる場合があります。
+**[!UICONTROL Campaign Type]:** (キャンペーン作成時のみ使用可能)広告を配置する場所と広告タイプ
+キャンペーンには次のものを含めることができます。
 
-* *[!UICONTROL Search Network Only]:* 検索ネットワーク上の広告を表示します。この広告には、検索結果と、オプションで検索パートナーサイト [!DNL Google] 含まれます。 各広告グループにキーワードを指定する必要があります。
+* *[!UICONTROL Search Network Only]:* 検索 ネットワーク上の広告を表示します。この広告には検索結果 [!DNL Google] 検索ほか、オプションで検索 パートナー サイトも含まれます。 キーワードは広告グループごとに指定する必要があります。
 
 * *[!UICONTROL Search with Display Select]:* 検索ネットワーク上の広告を表示し（検索結果 [!DNL Google] 表示し、必要に応じて検索パートナーサイトも表示）、表示ネットワークサイト上の広告を表示する場合があります。 ディスプレイネットワークで [!DNL Google Ads]、キャンペーンの入札戦略に関係なく、自動入札を使用して広告を選択的に表示します。 検索広告の場合は、広告グループごとにキーワードを指定します。表示広告の場合は、プレースメントを指定し、オプションで広告グループごとにキーワードを指定します。
 
@@ -84,7 +84,7 @@ eCPC を使用してキャンペーンを最適化された検索、ソーシャ
 
 * *[!UICONTROL Maximize Conversion Value]:* （検索、パフォーマンス最大化、スマートショッピングキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、コンバージョン値を最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Target Return on Ad Spend]** （ROAS）をパーセンテージで入力します。 **メモ：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceを使用すると、キャンペーンレベルまたは（利用可能な場合は）広告グループレベルの Target ROAS を最適化できます。
 
-* *[!UICONTROL Maximize Conversions]:* （検索、表示、Performance MAX キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、コンバージョンを最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Target CPA]** （取得原価）を入力します。 **メモ：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceを使用すると、キャンペーンレベルまたは（利用可能な場合は）広告グループレベルの Target CPA を最適化できます。
+* *[!UICONTROL Maximize Conversions]:* （検索、表示、Performance MAX キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、コンバージョンを最大化するように入札を最適化します。 必要に応じて、 **[!UICONTROL Target CPA]** (獲得あたりのコスト)を入力します。 **注意:** このオプションは、標準ポートフォリオではなく、ハイブリッド ポートフォリオのキャンペーンに使用します。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceを使用すると、キャンペーンレベルまたは（利用可能な場合は）広告グループレベルの Target CPA を最適化できます。
 
 * *[!UICONTROL Target CPA]:* （ディスプレイキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークは、オプションの **[!UICONTROL Target CPA]** （獲得 1 件あたりのコスト）に基づいて入札を最適化します。これは、獲得（コンバージョン）に対して支払う 30 日間の平均額です。 **メモ：** このオプションは、[!UICONTROL Weekly] または [!UICONTROL Google Target CPA] を除く任意の支出戦略を持つハイブリッドポートフォリオ（ただし、標準ポートフォリオは除く）のキャンペーンに使用します。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceを使用すると、キャンペーンレベルまたは（利用可能な場合は）広告グループレベルの Target CPA を最適化できます。
 
@@ -123,25 +123,25 @@ eCPC を使用してキャンペーンを最適化された検索、ソーシャ
 
 ## [!UICONTROL Campaign Targeting]
 
-**[!UICONTROL Languages]:** （ネットワークの検索と表示のみ） キャンペーンの広告の 1 つ以上のターゲット言語。
+**[!UICONTROL Languages]:** (Search およびディスプレイ ネットワークの場合のみ)キャンペーン広告に使用する 1 つ以上のターゲット言語。
 
-ユーザーの言語 [!DNL Google Ads]、ユーザーの [!DNL Google] 言語設定または検索クエリの言語、現在のページ、[!DNL Google Display Network] ージ上で最近閲覧されたページなどから特定されます。
+[!DNL Google Ads] ユーザー [!DNL Google] 言語設定、または検索クエリーの言語、現在のページ、または [!DNL Google Display Network]で最近表示したページから、ユーザーの言語を決定します。
 
-**[!UICONTROL Location Targets]:** ターゲットとして含めるか除外する特定のユーザー地理的ロケーション。 デフォルトでは、すべての場所がターゲットになります。 任意の場所の組み合わせにユーザーを含めたり、除外したりできます。 除外は、常に包含を上書きします。
+**[!UICONTROL Location Targets]:** ターゲットとして含める、または除外する特定のユーザー地理的な場所。 デフォルトでは、すべての地域がターゲットに設定されています。 任意の場所の組み合わせにユーザーを含めたり、除外したりできます。 除外は常にインクルージョンよりも優先されます。
 
 * すべての場所を対象にするには、どの場所も選択しないでください。
 
 * 特定の場所をターゲットまたは除外するには：
 
-   * （国、州、大都市圏、都市） **[!UICONTROL Location Target]** ージ（![Location Target](/help/search-social-commerce/assets/location-target.png "Location Target")）をクリックし、含めて除外する場所を探します。
+   * (国、州、大都市圏、または市区町村)[ **[!UICONTROL Location Target]** ] (![場所 Target](/help/search-social-commerce/assets/location-target.png "場所 Target")) をクリックし、含める場所と除外する場所を探します。
 
-      * 場所とその子場所を含めるには、隣の円を 1 回クリックすると、青いチェックマーク（![ 含める ](/help/search-social-commerce/assets/include.png " 含める ")）が表示されます。
+      * 場所とその子の場所を含めるには、隣接する円を 1 回クリックして、青いチェックマーク (![含める](/help/search-social-commerce/assets/include.png "を含める")) を表示します。
 
-      * 場所を除外するには、隣接する円を 2 回クリックして、赤いチェックマーク（![ 除外 ](/help/search-social-commerce/assets/exclude.png " 除外 ")）を表示します。
+      * 場所を除外するには、隣接する円を 2 回クリックして、赤いチェックマーク (![除外](/help/search-social-commerce/assets/exclude.png "除外")) を表示します。
 
-      * 場所をサブコンポーネント（米国の州、大都市圏、都市など）に展開するには、場所名をクリックします。
+      * 場所をサブコンポーネント (米国の州、大都市圏、市区町村など) に展開するには、場所名をクリックします。
 
-      * 場所を検索するには、入力フィールドに場所の最初の 3 文字以上を入力するか貼り付けます。 検索結果で、含める場所の横にある **[!UICONTROL Include]** をクリックするか、除外する場所の横に **[!UICONTROL Exclude]** をクリックします。
+      * 場所検索には、場所の最初の 3 文字以上を入力フィールドに入力または貼り付けます。 検索結果で、含める場所の横にある **[!UICONTROL Include]** をクリックするか、除外する場所の横に **[!UICONTROL Exclude]** をクリックします。
 
    * （アドレスの近くの場所。含まれるターゲットのみ） **[!UICONTROL Radius Target]** （![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")）をクリックし、「**[!UICONTROL Address]**」をクリックします。 ターゲットとするアドレスとその周囲の半径（マイルまたはキロメートル）を入力し、[**[!UICONTROL Add]**] をクリックします。
 
@@ -306,9 +306,9 @@ eCPC を使用してキャンペーンを最適化された検索、ソーシャ
 
 * [!UICONTROL Asset Library] ージからビデオを選択するには、「選 **[!UICONTROL Asset Library]**」をクリックしてビデオを選択します。
 
-**[!UICONTROL Headlines]:** 少なくとも 3 つの短い見出し（最大 5 つまで）。各見出しは最大 30 文字です。 少なくとも 1 つのヘッドラインは 15 文字以下である必要があります。 最終的な URL 拡張を有効にするキャンペーンレベルのオプションが [!DNL Google Ads] 内に設定されている場合、[!DNL Google Ads] はこの値を、ランディングページのコンテンツに基づくカスタムのヘッドラインに置き換えます。
+**[!UICONTROL Headlines]:** 3 つ以上、5 つまでの短い見出しで、それぞれ最大 30 文字。 1つ以上の見出しは15文字以内にする必要があります。 最終URL拡張を有効にするキャンペーンレベルのオプションが [!DNL Google Ads] 以内に設定されている場合、この値はランディングページ 内容に基づくカスタム広告見出しに置き換えられ [!DNL Google Ads] 。
 
-テキストを入力するか、[!UICONTROL Asset Library] ージからアセットを選択できますが、同じ操作で両方を選択することはできません。
+テキストを入力するか、 [!UICONTROL Asset Library] からアセットを選択できますが、両方を同じ操作で使用することはできません。
 
 * テキストを入力するには：
 
@@ -318,13 +318,13 @@ eCPC を使用してキャンペーンを最適化された検索、ソーシャ
 
 * [!UICONTROL Asset Library] ージからアセットを選択するには、「選 **[!UICONTROL Asset Library]**」をクリックしてアセットを選択します。
 
-**[!UICONTROL Long Headlines]:** 少なくとも 1 つ、最大 5 つの長い見出し（それぞれ最大 90 文字）。 テキストを入力するか、[!UICONTROL Asset Library] ージからアセットを選択できますが、同じ操作で両方を選択することはできません。
+**[!UICONTROL Long Headlines]:** 1 つ以上、5 つまでの長い見出し、それぞれ最大 90 文字。 テキストを入力するか、 [!UICONTROL Asset Library] からアセットを選択できますが、両方を同じ操作で使用することはできません。
 
-* テキストを入力するには：
+* テキストを入力するには:
 
-   1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
+   1. [!UICONTROL Enter Text] タブにテキストを入力します。
 
-   1. （オプション）別のテキスト文字列を追加するには、「**[!UICONTROL + Add]**」をクリックして文字列を入力します。
+   1. (オプション)別のテキスト文字列を追加するには、[ **[!UICONTROL + Add]** ] をクリックして文字列を入力します。
 
 * [!UICONTROL Asset Library] ージからアセットを選択するには、「選 **[!UICONTROL Asset Library]**」をクリックしてアセットを選択します。
 
@@ -347,7 +347,9 @@ eCPC を使用してキャンペーンを最適化された検索、ソーシャ
 >[!NOTE]
 >オーディエンスシグナルは、[ キャンペーンレベルと広告グループレベルのオーディエンスターゲット ](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) とは異なります。
 
-**[!UICONTROL Add new asset group]:** 別のアセットグループを指定できます。
+**[!UICONTROL Primary Status]:** （Performance MAX キャンペーンの既存のアセットグループの読み取り専用フィールド）アセットグループがフルキャパシティで提供されている、または提供されていない理由。 アセットグループのステータスに加え、ポリシーや品質の承認などの他のシグナルも考慮されます。 値には、*ELIGIBLE、**LIMITED、**NOT_ELIGIBLE、**PAUSED、**PENDING、**REMOVED、**UNKNOWN、**UNSPECIFIED*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. --> などがあります。
+
+**[!UICONTROL Primary Status Reason]:** （Performance MAX キャンペーンの既存のアセットグループの読み取り専用フィールド）アセットグループのプライマリステータスに関する追加の詳細。 値には、*ASSET_GROUP_DISAPPROVED、* *ASSET_GROUP_LIMITED、* *ASSET_GROUP_PAUSED、* *ASSET_GROUP_REMOVED、* *ASSET_GROUP_UNDER_REVIEW、* *CAMPAIGN_ENDED、* *CAMPAIGN_PAUSED、* *CAMPAIGN_PENDING、* *CAMPAIGN_REMOVED、* *UNKNOWN、* **、または UNSPECIFIED.UNSPECIFIED。
 
 ## [!UICONTROL Conversion Goals]
 
