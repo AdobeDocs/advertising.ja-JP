@@ -3,9 +3,9 @@ title: ad network manager アカウントの資格情報の管理
 description: 管理者アカウントの資格情報を指定する方法  [!DNL Google Ads]  説明します。
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 4cf04fc7ea22e50b5f56cd278ad9a1aac724edf7
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -59,5 +59,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [ 広告ネットワークへの目標のアップロードを有効にする ](/help/search-social-commerce/tools/objective-upload-to-networks.md)
->* [ コンバージョン指標のアップロード先  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+>* [ 検索、ソーシャル、Commerceで追跡されるコンバージョン指標のへのアップロード  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
 >* [ 通知設定の編集 ](/help/search-social-commerce/notifications/notification-edit.md)

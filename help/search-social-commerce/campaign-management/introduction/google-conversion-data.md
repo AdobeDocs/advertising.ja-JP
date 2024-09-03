@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] コンバージョンデータ'
 description: 検索、ソーシャル  [!DNL Google Ads] よびCommerceで使用できるトラッキング対象コンバージョンデータのタイプについて説明します。
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -106,3 +106,4 @@ ht-degree: 0%
 >* [ 広告ネットワークキャンペーンのパフォーマンスの監視と管理 ](monitor-performance-campaigns.md)
 >* [ 広告主について追跡されたコンバージョン指標の表示 ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
 >* [ のコンバージョンタグの作成  [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
+>* [ オフラインのコンバージョンデータをアップロードしてコンバージョンを強化 ](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)

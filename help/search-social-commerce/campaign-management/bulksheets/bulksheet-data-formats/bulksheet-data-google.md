@@ -3,7 +3,7 @@ title: アカウントに必須のバルクシート デ  [!DNL Google Ads]  タ
 description: アカウントのバルクシートで、必須のヘッダーフィールドとデータフィ  [!DNL Google Ads]  ルドを参照します。
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '7855'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign Name] | アカウントのキャンペーンを識別する一意の名前。 |
 | [!UICONTROL Campaign Budget] | キャンペーンの 1 日あたりの支出制限（金銭記号および句読点の有無は問わない）。 この値は上書きされますが、アカウント予算を超えることはできません。 |
 | [!UICONTROL Delivery Method] | <p>キャンペーンの広告を毎日表示する速度：</p><ul><li><p><i>[!UICONTROL Standard (Distributed)]</i> （新しいキャンペーンのデフォルト）：広告インプレッションを 1 日に配分します。</p></li><li><p><i>[!UICONTROL Accelerated]:</i> （2019 年 10 月に非推奨）予算に達するまでできるだけ頻繁に広告を表示します。 その結果、広告がその日の後半に表示されない場合があります。</p></li></ul> |
-| [!UICONTROL Channel Type] | <p>広告を配置するチャネル。 1 つ以上のオプションを指定します。</p><ul><li><p><i>[!UICONTROL Search]</i> （新しいキャンペーンのデフォルト）：広告を [!DNL Google Ads] 検索ネットワーク（[!DNL Google Ads] 検索および検索パートナーの web サイトを含む）およびオプションで [!DNL Google Ads] ディスプレイネットワークに配置します。 <b> 注意：</b> 検索ネットワークとディスプレイネットワークの両方をターゲットとするキャンペーンは、入札最適化のためにポートフォリオに追加することはできません。</p></li><li><p><i>[!UICONTROL Display]</i>：広告を [!DNL Google Ads] ディスプレイネットワークにのみ配置する場合。</p></li><li><p><i>[!UICONTROL Shopping]</i>: ショッピング広告を [!DNL Google Ads] のショッピング・ネットワーク（一部の国）および [!DNL Google Ads] の検索ネットワーク（[!DNL Google Ads] の検索および検索パートナー Web サイトを含む）に配置します。 買い物広告を作成するには、[!DNL Google Merchant Center] アカウントに商品があり、[ 検索、ソーシャル、Commerceがアカウントからデータをダウンロードできるようにする ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md) 必要があります。 ショッピング広告を作成するプロセスについて詳しくは ](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md) 「[ ショッピングキャンペーンの実装  [!DNL Google Ads] 」を参照してください。</p></li></ul> |
+| [!UICONTROL Channel Type] | <p>広告を配置するチャネル。 1 つ以上のオプションを指定します。</p><ul><li><p><i>[!UICONTROL Search]</i> （新しいキャンペーンのデフォルト）：広告を [!DNL Google Ads] 検索ネットワーク（[!DNL Google Ads] 検索および検索パートナーの web サイトを含む）およびオプションで [!DNL Google Ads] ディスプレイネットワークに配置します。 <b> 注意：</b> 検索ネットワークとディスプレイネットワークの両方をターゲットとするキャンペーンは、入札最適化のためにポートフォリオに追加することはできません。</p></li><li><p><i>[!UICONTROL Display]</i>：広告を [!DNL Google Ads] ディスプレイネットワークにのみ配置する場合。</p></li><li><p><i>[!UICONTROL Shopping]</i>: ショッピング広告を [!DNL Google Ads] のショッピング・ネットワーク（一部の国）および [!DNL Google Ads] の検索ネットワーク（[!DNL Google Ads] の検索および検索パートナー Web サイトを含む）に配置します。 買い物広告を作成するには、[!DNL Google Merchant Center] アカウントに商品があり、[ 検索、ソーシャル、Commerceがアカウントからデータをダウンロードできるようにする ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md) 必要があります。 ショッピング広告を作成するプロセスについて詳しくは ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md) 「[ ショッピングキャンペーンの実装  [!DNL Google Ads] 」を参照してください。</p></li></ul> |
 | [!UICONTROL Networks] | <p>広告の配置場所。 1 つ以上のオプションを指定します。</p><ul><li><p><i>[!UICONTROL Google Search]</i>:Google Search Network 専用のスポンサー付き検索リスト。</p></li><li><p><i>[!UICONTROL Search Partners]</i>:Googleの検索パートナーのスポンサー付き検索リスト。</p></li><li><p><i>[!UICONTROL Content]</i>: ネットワーク一覧を表示する入札を配置します。</p></li><li><p><i>[!UICONTROL All]</i> （新しいキャンペーンのデフォルト）:Google検索、検索パートナーおよびコンテンツをターゲットにします。</p></li></ul> |
 | [!UICONTROL DSA Domain Name] | <p>（検索ネットワークのみ。拡張された動的検索広告にのみ適用されます）。広告ネットワークが動的検索広告のターゲットとして使用するコンテンツの Web サイトのルートドメイン（example.comなど）またはサブドメイン（shoes.example.comなど）。<br><br><b> 注：</b></p><ul><li><p>動的検索広告をキーワードではなく web サイトコンテンツをターゲットに拡張しました。</p></li><li><p>ターゲットにするドメインは、広告ネットワークのオーガニック検索インデックスでインデックス化する必要があります。</p></li><li><p>ドメインを指定しない場合は、動的な検索ターゲットを作成する必要があります。このターゲットは、広告グループごとに、すべての web サイトページまたはサブセットをターゲットにします。</p></li></ul> |
 | [!UICONTROL DSA Domain Language] | （検索ネットワークのみ。展開された動的検索広告にのみ適用）指定した web サイトドメインの言語。 <b> メモ：</b> ドメインに複数の言語のページが含まれ、すべてのページをターゲットにする場合は、言語ごとに個別のキャンペーンを作成します。 |
@@ -239,7 +239,7 @@ ht-degree: 0%
 
 ### 動的検索広告を拡張しました
 
-この広告タイプは、[!DNL Google Ads] では「動的検索広告」と呼ばれるようになりました。 動的検索広告の作成について詳しくは、「[ 動的検索広告の実装  [!DNL Google Ads]  を参照してください ](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html)。
+この広告タイプは、[!DNL Google Ads] では「動的検索広告」と呼ばれるようになりました。 動的検索広告の作成について詳しくは、「[ 動的検索広告の実装  [!DNL Google Ads]  を参照してください ](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)。
 
 この広告タイプの場合は、[!UICONTROL Download Bulksheet] ダイアログの「[!UICONTROL Creative (except RSA)]」行を使用します。
 
@@ -264,7 +264,7 @@ ht-degree: 0%
 
 ### 商品リスト / ショッピング広告フィールド
 
-ショッピング広告の作成の詳細は、「[ ショッピング・キャンペーン  [!DNL Google Ads]  実装 ](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html)」を参照してください。
+ショッピング広告の作成の詳細は、「[ ショッピング・キャンペーン  [!DNL Google Ads]  実装 ](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)」を参照してください。
 
 この広告タイプの場合は、[!UICONTROL Download Bulksheet] ダイアログの「[!UICONTROL Creative (except RSA)]」行を使用します。
 

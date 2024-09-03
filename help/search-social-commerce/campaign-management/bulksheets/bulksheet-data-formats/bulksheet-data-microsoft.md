@@ -3,7 +3,7 @@ title: アカウントに必須のバルクシート デ  [!DNL Microsoft Advert
 description: アカウントのバルクシートで、必須のヘッダーフィールドとデータフィ  [!DNL Microsoft Advertising]  ルドを参照します。
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '6928'
 ht-degree: 0%
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 ### 製品（買い物）広告フィールド
 
-ショッピング広告の作成の詳細は、「[ ショッピング・キャンペーン  [!DNL Microsoft Advertising]  実装 ](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/microsoft-shopping-campaigns.html)」を参照してください。
+ショッピング広告の作成の詳細は、「[ ショッピング・キャンペーン  [!DNL Microsoft Advertising]  実装 ](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)」を参照してください。
 
 この広告タイプの場合は、[!UICONTROL Download Bulksheet] ダイアログの「[!UICONTROL Creative (except RSA)]」行を使用します。
 

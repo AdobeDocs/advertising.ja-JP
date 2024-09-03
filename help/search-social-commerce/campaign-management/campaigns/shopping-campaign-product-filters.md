@@ -3,7 +3,7 @@ title: 買い物キャンペーン製品フィルター
 description: ショッピング製品グループに使用可能な製品フィルターを参照します。
 exl-id: 91695fa8-6e5e-42a7-a84a-0b46b9f4dfcc
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -27,8 +27,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 買い物キャンペ  [!DNL Google Ads]  ンの実装 ](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
->* [ 買い物キャンペ  [!DNL Microsoft Advertising]  ンの実装 ](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [ 買い物キャンペ  [!DNL Google Ads]  ンの実装 ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [ 買い物キャンペ  [!DNL Microsoft Advertising]  ンの実装 ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
 >* [ ショッピング商品グループについて ](product-group-about.md)
 >* [ ショッピング商品グループの管理 ](product-group-manage.md)
 >* [[!DNL Google Ads]  製品グループ設定 ](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)

@@ -3,9 +3,9 @@ title: 広告ネットワークへの目標のアップロードを有効にす�
 description: ' [!DNL Google Ads] and [!DNL Microsoft Advertising] にハイブリッドポートフォリオの目標をアップロードする方法を説明します。'
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: f491537c2dd56716abe0ab4fa8c26b8558dca664
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -84,4 +84,4 @@ Google Ads で追跡される指標なので、GGL_Lead は計算/アップロ�
 >[!MORELIKETHIS]
 >
 >* [ 広告主のコンバージョン指標の管理について ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
->* [ コンバージョン指標のアップロード先  [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
+>* [ 検索、ソーシャル、Commerceで追跡されるコンバージョン指標のへのアップロード  [!DNL Google Ads]](conversion-metrics-upload-to-google.md)

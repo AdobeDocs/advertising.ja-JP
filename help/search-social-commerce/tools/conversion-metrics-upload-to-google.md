@@ -1,18 +1,18 @@
 ---
-title: コンバージョン指標のアップロード先  [!DNL Google Ads]
+title: 検索、ソーシャル、Commerceで追跡されるコンバージョン指標の  [!DNL Google Ads] へのアップロード
 description: 検索、ソーシャル、Commerceで追跡するコンバージョン指標を  [!DNL Google Ads] にアップロードする方法を説明します。
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] へのコンバージョン指標のアップロード
+# 検索、ソーシャル、Commerceで追跡されるコンバージョン指標の [!DNL Google Ads] へのアップロード
 
-*[!DNL Google Ads] アカウントのみを有する広告主*
+*[!DNL Google Ads] アカウントとAdobe Advertisingコンバージョントラッキングのみを使用する広告主*
 
 検索、ソーシャル、Commerceは、オプションで、Adobe Advertisingコンバージョントラッキングサービスを使用するキャンペーンで追跡するすべてのコンバージョン指標を [!DNL Google Ads] にアップロードで [!DNL Google Ads] ます。 このオプションでは、コンバージョンをハイブリッド最適化で使用することはできません。 Adobeコンバージョンをハイブリッド最適化に使用する場合は、「[ 広告ネットワークへの目標のアップロードの有効化 ](objective-upload-to-networks.md) を参照してください。
 

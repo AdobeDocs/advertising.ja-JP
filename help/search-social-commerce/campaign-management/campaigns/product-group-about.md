@@ -3,7 +3,7 @@ title: ショッピング製品グループについて
 description: 買い物キャンペーンでの買い物かご商品グループについて説明します。
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 同じ製品が複数のキャンペーンに含まれる場合、広告ネットワークでは最初にキャンペーンの優先度を使用して、広告オークションに適格なキャンペーン（および関連入札）を決定します。 すべてのキャンペーンの優先度が同じ場合は、入札額が最も高いキャンペーンが実施要件を満たします。
 
-[!DNL Google] のショッピングキャンペーンおよび広告について詳しくは、「[ ショッピングキャンペーンの実装  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)」および [Google広告のドキュメント ](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1) を参照してください。 [!DNL Microsoft] 買い物キャンペーンについて詳しくは、「[ 買い物キャンペーンの実装  [!DNL Microsoft Advertising]  ](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)」および [[!DNL Microsoft Advertising]  ドキュメント ](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500) を参照してください。
+[!DNL Google] のショッピングキャンペーンおよび広告について詳しくは、「[ ショッピングキャンペーンの実装  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)」および [Google広告のドキュメント ](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1) を参照してください。 [!DNL Microsoft] 買い物キャンペーンについて詳しくは、「[ 買い物キャンペーンの実装  [!DNL Microsoft Advertising]  ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)」および [[!DNL Microsoft Advertising]  ドキュメント ](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500) を参照してください。
 
 >[!NOTE]
 >
@@ -58,6 +58,6 @@ ht-degree: 0%
 >
 >* [ ショッピング商品グループの管理 ](product-group-manage.md)
 >* [[!DNL Google Ads]  製品グループ設定 ](product-group-settings-google.md)
->* [ 買い物キャンペ  [!DNL Google Ads]  ンの実装 ](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
+>* [ 買い物キャンペ  [!DNL Google Ads]  ンの実装 ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
 >* [[!DNL Microsoft Advertising]  製品グループ設定 ](product-group-settings-microsoft.md)
->* [ 買い物キャンペ  [!DNL Microsoft Advertising]  ンの実装 ](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [ 買い物キャンペ  [!DNL Microsoft Advertising]  ンの実装 ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

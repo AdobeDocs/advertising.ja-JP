@@ -3,7 +3,7 @@ title: '[!DNL Google Ads] 製品グループ設定'
 description: 商品グループを買い物するため  [!DNL Google Ads]  設定を参照します。
 exl-id: 2cfef9de-b265-4fa5-b1bd-84e6cba79914
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -52,4 +52,4 @@ ht-degree: 0%
 >* [ ショッピング商品グループについて ](product-group-about.md)
 >* [ ショッピング商品グループの管理 ](product-group-manage.md)
 >* [ 買い物キャンペーン製品フィルター ](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [ 買い物キャンペ  [!DNL Google Ads]  ンの実装 ](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
+>* [ 買い物キャンペ  [!DNL Google Ads]  ンの実装 ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)

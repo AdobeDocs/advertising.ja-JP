@@ -3,7 +3,7 @@ title: 広告の管理
 description: 利用可能な広告タイプなど、検索、ソーシャル、Commerceの広告について説明します。
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
   [!DNL Microsoft Advertising] のショッピング広告で表示する製品を制御するには、広告グループに対して製品グループを個別に設定します（[!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] ビューを使用）。
 
-  製品/ショッピング広告のワークフローについて詳しくは、「[ ショッピングキャンペーンの実装  [!DNL Microsoft Advertising]  を参照 ](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md) てください。  製品広告について詳しくは、[Microsoft Advertising ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/51082) を参照してください。
+  製品/ショッピング広告のワークフローについて詳しくは、「[ ショッピングキャンペーンの実装  [!DNL Microsoft Advertising]  を参照 ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md) てください。  製品広告について詳しくは、[Microsoft Advertising ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/51082) を参照してください。
 
 * 検索ネットワーク上の [!DNL Google Ads] および [!DNL Microsoft Advertising] キャンペーンのレスポンシブ検索広告。 広告ネットワークは、一連の広告タイトルと説明からテキストベースのレスポンシブ検索広告を動的に組み立て、うまく連携する組み合わせを好みます。 この広告には、最大 3 つのヘッドライン、2 つの説明、ベース URL からのカスタマイズ可能な URL、オプションの path1 フィールドと path2 フィールドが含まれます。 必要に応じて、広告タイトルと説明を特定の位置にピン留めできます。
 

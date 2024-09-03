@@ -3,7 +3,7 @@ title: 広告ネットワークアカウントとキャンペーンの実装の�
 description: 広告ネットワークアカウントの設定、同期および管理に関連するタスクについて説明します。
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Adobeは各広告主と連携して、広告ネットワークアカウントと
 
       * （Baidu、Google広告、MicrosoftAdvertising、Yahoo! 日本広告、Yandex アカウントのみ）個々のコンポーネントのデータをインターフェイスに直接入力します。 ほとんどのキャンペーンタイプと広告タイプでは、キャンペーンレベル、広告グループレベル、個々のキーワード、プレースメント、広告レベルでデータを作成できます。
 
-      ただし、一部のキャンペーンタイプや広告タイプでは一意のワークフローが必要です。 [[!DNL Microsoft Advertising]  ショッピングキャンペーン ](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)、[[!DNL Google Ads]  動的検索広告 ](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md)、[[!DNL Google Ads]  パフォーマンス最大化キャンペーン ](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md) および [[!DNL Google Ads]  ショッピングキャンペーン ](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md) の設定手順を参照してください。
+      ただし、一部のキャンペーンタイプや広告タイプでは一意のワークフローが必要です。 [[!DNL Microsoft Advertising]  ショッピングキャンペーン ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)、[[!DNL Google Ads]  動的検索広告 ](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)、[[!DNL Google Ads]  パフォーマンス最大化キャンペーン ](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md) および [[!DNL Google Ads]  ショッピングキャンペーン ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md) の設定手順を参照してください。
 
    1. （[!DNL Naver] トラッキング専用アカウントの場合のみ）既存のキャンペーン、広告グループおよびキーワードを [!DNL Naver] に投稿せずに検索、ソーシャル、Commerceにレプリケートするには、データを含んだ [ バルクシートファイル ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) をアップロードします。
 

@@ -3,9 +3,9 @@ title: ' [!DNL Google Ads] のコンバージョンタグを作成します。'
 description: コンバージョンタグの作成方法  [!DNL Google Ads]  説明します。
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
+source-git-commit: 2c20d2138ee797b6ed2f27d9baa9eda7d413da8d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 既存のコンバージョンのコンバージョンタグを生成するには、広告ネットワークのエディターを使用します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Conversions]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]** をクリックすると、「**[!UICONTROL Summary]**」タブが開きます。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
@@ -42,7 +42,7 @@ Web サイトにタグを追加し、そのタグが実行を開始すると、[
 
 **[!UICONTROL Select an Account]:** 該当するGoogle広告アカウント。
 
-**[!UICONTROL Type of Conversion]:** 追跡するコンバージョンのタイプ。*[!UICONTROL Click on a webpage element]*、*[!UICONTROL Calls to a phone number on your website]* または *[!UICONTROL Clicks to your number on your mobile website]*。
+**[!UICONTROL Type of Conversion]:** 追跡するコンバージョンのタイプ。*[!UICONTROL Click on a webpage element]*、*[!UICONTROL Calls to a phone number on your website]* または *[!UICONTROL Clicks to your number on your mobile website]*。 **メモ：** *[!UICONTROL Import conversion]* は別の目的で使用されます。「[ リードの拡張コンバージョン用のコンバージョンアクション  [!DNL Google Ads]  作成 ](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) を参照してください。
 
 **[!UICONTROL Conversion Name]:** コンバージョン指標の一意の名前。
 
@@ -68,4 +68,5 @@ Web サイトにタグを追加し、そのタグが実行を開始すると、[
 
 >[!MORELIKETHIS]
 >
+>* [ オフラインのコンバージョンデータをアップロードしてコンバージョンを強化 ](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 >* [[!DNL Google Ads]  検索、ソーシャル、Commerceのコンバージョンデータ ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
