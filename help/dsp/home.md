@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: eec7bdce1a91094fe78a839084253a3dbb8a72a2
+source-git-commit: d880ad2416b2c14f6e7e5f72f46201cd4d702e9e
 workflow-type: tm+mt
-source-wordcount: '4093'
+source-wordcount: '4182'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024 年 9 月 4 日（Pt） | [!UICONTROL Packages] と [!UICONTROL Placements] | 「Always Max Bid &amp; Maximize Reach」および「Lowest Cost per Reach」の最適化目標を使用したパッケージおよびプレースメントには、次の機能強化を使用できます。<ul><li>個別のプレースメントレベルではなくパッケージレベルで集計されたユニークリーチデータを使用して、入札最適化と予算割り当てを使用した最大増分リーチを駆動できるようになりました。</li><li>新しいパッケージ設定「増分リーチ最適化のための PG 配置をリンク」を使用して、増分リーチを最適化するために、キャンペーンにすべてのプログラム保証（PG）配置からの世帯リーチデータを含めることができます。</li></ul> | 「[ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)」を参照してください。 |
 | 2024 年 8 月 22 日（Pt） | [!UICONTROL Custom Reports] | 次のカスタムレポート機能および機能強化がリリースされました。<ul><li>[!UICONTROL Reports] > [!UICONTROL Custom Reports] ビューのデザインを一新：<ul><li>列には、「[!UICONTROL Status]」、「[!UICONTROL Report Run]」（レポートが 2024 年 8 月 22 日に開始された日付を示します）、「[!UICONTROL Recurrence]」、「[!UICONTROL Created By]」、「[!UICONTROL Download Report]」（「[!UICONTROL Download]」ボタンを使用）が含まれるようになりました。これにより、過去 4 か月のレポートインスタンスを直ちにダウンロードできます。</li><li>リストは、ステータス、レポートが定期か 1 回限り、レポートのタイプ、宛先のタイプ、レポートの作成者でフィルタリングできます。 デフォルトでは、ユーザーが作成したアーカイブされていないすべてのレポートが一覧表示され、最新のレポートが一番上に表示されます。</li><li>各レポートのクイックアクションボタン（[!UICONTROL Copy] や [!UICONTROL Delete] など）を、レポート名の横にある「**[!UICONTROL …]**」をクリックして使用できるようになりました。</li></ul><li>レポートのスケジュールオプションが、個々の宛先レベルではなく、レポートレベルで使用できるようになりました。 レポート設定で、「[!UICONTROL Report run schedule]」セクションの上部付近でスケジュール設定を使用できるようになりました。 個々の宛先に対して異なる既存のスケジュールがある古いレポートを編集すると、スケジュールを設定するよう求められ、スケジュールが既存のすべての宛先の既存のスケジュールを置き換えることが通知されます。</li></ul> | 「[ レポートについて ](/help/dsp/reports/report-about.md)」、「[ カスタムレポートのダウンロード ](/help/dsp/reports/report-download.md)」および「[ レポート設定 ](/help/dsp/reports/report-settings.md)」を参照してください。 |
 | 2024 年 8 月 22 日（Pt） | [!UICONTROL Packages] | 1 つ以上のパッケージの設定を XLSX （[!DNL Microsoft Excel] スプレッドシート）形式でダウンロードして確認できるようになりました。 スプレッドシートには、フライト情報を含む別のタブが含まれています。 その後、両方のタブのほとんどのフィールドに変更を加え、それらを一度にDSPにアップロードして戻すことができます。 | [ スプレッドシートを使用したパッケージ設定の確認と編集 ](/help/dsp/campaign-management/packages/package-qa.md) を参照してください。 |
 | 2024 年 8 月 14 日（Pt） | [!UICONTROL Placements] | DSPは、9 月下旬に日没になる [!DNL Audiences by Oracle (BlueKai)] セグメントのセグメントカウントを更新しなくなり、すべてのカウントが徐々にゼロ（0）に減ります。 | — |
