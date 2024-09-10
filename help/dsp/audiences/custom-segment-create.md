@@ -3,9 +3,9 @@ title: カスタムセグメントの作成と実装
 description: カスタムセグメントを作成および実装して、広告にさらされたユーザーまたは web ページを訪問したユーザーを追跡する方法について説明します。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 2fe54fbcd9711e714246f074ede086910b538b80
+source-git-commit: 3774da55139fd9f70162c931dd7708e8e258ad83
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ ht-degree: 0%
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
       ```
+
+      完全なタグフォーマットについては、「[JavaScript コンバージョントラッキングタグバージョン 3 のフォーマット ](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)」および「[JavaScript コンバージョントラッキングタグバージョン 2 のフォーマット ](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)」を参照してください。
 
    1. 任意のブラウザーデバッグツールを使用して、各呼び出しがドメイン `lasteventf-tm.everesttech.net` に対して開始され、暗号化された ID5 ID を値として持つパラメーター `_les_id5` が含まれていることを確認します。
 

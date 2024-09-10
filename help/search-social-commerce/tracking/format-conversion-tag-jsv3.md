@@ -3,9 +3,9 @@ title: JavaScript コンバージョントラッキングタグバージョン 3
 description: JavaScript コンバージョントラッキングタグバージョン 3 のフォーマットを参照します。
 exl-id: 9fc6bb15-d880-4353-a8c5-260b7932ab34
 feature: Search Tracking
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 8bed8f22c112abcff67727456ef4aad3b38d0ca6
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ HTTPS を使用するサイトの場合は、次の形式になります。 HTTP
                         , allow3rdPartyPixels: 1});
               EF.main();
         };
+        window.id5PartnerId=<Your_ID5_PartnerID>
         window.EF = window.EF || {};
         if (window.EF.main) {
             f();
@@ -54,6 +55,8 @@ HTTPS を使用するサイトの場合は、次の形式になります。 HTTP
 ここで、
 
 * `<ef-userid>` は、検索、ソーシャルおよびCommerceが広告主に割り当てる一意の数値ユーザー ID です。
+
+* `<Your_ID5_PartnerID>` は、組織が [!DNL ID5] と契約を締結した後に受け取る、組織の ID5 パートナー ID です。 組織がDSPを使用し、[ID5 ユニバーサル ID に関連付けられたユーザーを追跡するカスタムセグメント ](/help/dsp/audiences/universal-ids.md) を持つ場合にのみ、この変数を含めます。
 
 * `<propertyname>` は、追跡するコンバージョンです。 例えば、「登録」と呼ばれるコンバージョンをトラッキングする場合、タグにはパラメーター `ev_registration=<registration>` が含まれ、各トランザクションの実際の売上高（`ev_registration=1` など）を渡す必要があります。 複数のプロパティがトラッキングされる場合、それらのプロパティは、`ev_registration=<registration>&ev_sale=<sale>` などのアンパサンド（`&`）で結合されます（例：`ev_registration=1&ev_sale=12.99`）。 **注意：** プロパティ名に特殊文字を含めることはできません。
 
