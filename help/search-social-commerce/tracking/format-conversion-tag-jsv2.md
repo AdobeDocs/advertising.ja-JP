@@ -3,7 +3,7 @@ title: JavaScript コンバージョントラッキングタグバージョン 2
 description: JavaScript コンバージョントラッキングタグバージョン 2 のフォーマットを参照します。
 exl-id: 75e96f97-a3f0-4f5b-8bbb-4b1e8986f01a
 feature: Search Tracking
-source-git-commit: f73e91c54fb58cbd165ddf4ca652033435fbbede
+source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -21,7 +21,7 @@ HTTPS を使用するサイトの場合は、次の形式になります。 HTTP
 ```
 <script language="javascript" src="https://www.everestjs.net/static/st.v2.js"></script>
 <script language="javascript">
-window.id5PartnerId=<Your_ID5_PartnerID>
+window.id5PartnerId=<ID5_PartnerID>
 var ef_event_type="transaction";
 var ef_transaction_properties = "ev_property name=<property name>&ev_transid=<transid>";
 /*
@@ -42,7 +42,7 @@ effp();
 
 * `<ef-userid>` は、検索、ソーシャルおよびCommerceが広告主に割り当てる一意の数値ユーザー ID です。
 
-* `<Your_ID5_PartnerID>` は、組織が [!DNL ID5] と契約を締結した後に受け取る、組織の ID5 パートナー ID です。 組織がDSPを使用し、[ID5 ユニバーサル ID に関連付けられたユーザーを追跡するカスタムセグメント ](/help/dsp/audiences/universal-ids.md) を持つ場合にのみ、この変数を含めます。
+* `<ID5_PartnerID>` は、組織が [!DNL ID5] と契約を締結した後に受け取る、組織の ID5 パートナー ID です。 組織がDSPを使用し、[ID5 ユニバーサル ID に関連付けられたユーザーを追跡するカスタムセグメント ](/help/dsp/audiences/universal-ids.md) を持つ場合にのみ、この変数を含めます。
 
 * `<propertyname>` は、追跡するコンバージョンです。 例えば、「登録」と呼ばれるコンバージョンをトラッキングする場合、タグにはパラメーター `ev_registration=<registration>` が含まれ、各トランザクションの実際の売上高（`ev_registration=1` など）を渡す必要があります。 複数のプロパティがトラッキングされる場合、それらのプロパティは、`ev_registration=<registration>&ev_sale=<sale>` などのアンパサンド（`&`）で結合されます（例：`ev_registration=1&ev_sale=12.99`）。 **注意：** プロパティ名に特殊文字を含めることはできません。
 

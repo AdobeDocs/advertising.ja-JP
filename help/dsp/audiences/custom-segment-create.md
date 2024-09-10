@@ -3,7 +3,7 @@ title: カスタムセグメントの作成と実装
 description: カスタムセグメントを作成および実装して、広告にさらされたユーザーまたは web ページを訪問したユーザーを追跡する方法について説明します。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 3774da55139fd9f70162c931dd7708e8e258ad83
+source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -30,14 +30,14 @@ ht-degree: 0%
 
    1. 次のパラメーターを、[ に必要なJavaScript コードの前または中  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)、最後のイベントサービスが初期化される前の任意の場所で、Web ページに追加します。
 
-      ```window.id5PartnerId=Your_ID5_PartnerID;```
+      ```window.id5PartnerId=ID5_PartnerID;```
 
       例：
 
       ```
       <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
       <script>
-        window.id5PartnerId=Your_ID5_PartnerID;
+        window.id5PartnerId=ID5_PartnerID;
              if("undefined" != typeof AdCloudEvent)
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
