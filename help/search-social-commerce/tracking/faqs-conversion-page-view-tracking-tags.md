@@ -3,9 +3,9 @@ title: Adobe Advertisingコンバージョンおよびページビュートラ�
 description: Adobe Advertisingコンバージョンタグとページビュートラッキングタグの比較を参照してください。
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: e9d55ba2f4b3ce8b1ac19c06fe8759a2f862c480
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 | ---- | ---- | ---- | ---- | ---- |
 | 別の JS バージョンと同じ web ページで使用できます | — | — | — | 該当なし |
 | 同じ web ページ上で、同じ広告主ユーザー ID を持つ複数のタグを使用できるようにします | はい | はい | はい | — |
-| 同じ web ページ上で、異なる広告主ユーザー ID を持つ複数のタグを使用できるようにします | はい | はい | 不可 | 不可 |
+| 同じ web ページ上で、異なる広告主ユーザー ID を持つ複数のタグを使用できるようにします | はい | はい | — | — |
 | Adobe Experience PlatformのAdobe Advertising拡張機能で使用され、Experience Platformを使用して生成された他のタグと互換性があります | はい | はい | — | — |
 | Adobe AdvertisingのJavaScript コンバージョンマッピングタグで使用される場合、[!DNL Apple Safari] および [!DNL Mozilla Firefox] から発生するすべてのコンバージョンを追跡できます | はい | はい | はい | — |
 
