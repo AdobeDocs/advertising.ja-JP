@@ -3,9 +3,9 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '3921'
+source-wordcount: '3887'
 ht-degree: 0%
 
 ---
@@ -346,15 +346,13 @@ ht-degree: 0%
    * 間隔を手動で選択するには、セル内をクリックし、必要に応じてドラッグして間隔を選択します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-**[!UICONTROL Topic Targeting]:** （任意。[!DNL Proximic by Comscore] および [!DNL Oracle Data Cloud] セグメントで設定された広告主が使用できます） [!DNL Proximic by Comscore] および [!DNL Oracle Data Cloud] （旧称 [!DNL Grapeshot]）の特定のセグメント名または ID をターゲットとして含めます。 この機能には追加料金が発生する場合があります。 この機能をアクティブにしてトピックセグメントを設定するには、Adobeアカウントチームにお問い合わせください。
-
-**注：** [!DNL Oracle] は、2024 年 9 月 30 日までに、[!DNL Oracle Data Cloud] （旧 [!DNL Grapeshot]）の全サービスを含む広告事業を廃止する予定です。
+**[!UICONTROL Topic Targeting]:** （任意。[!DNL Proximic by Comscore] セグメントで設定された広告主が使用できます） ターゲットとして含める [!DNL Proximic by Comscore] の特定のセグメント名または ID。 この機能には追加料金が発生する場合があります。 この機能をアクティブにしてトピックセグメントを設定するには、Adobeアカウントチームにお問い合わせください。
 
 トピックのターゲティングを指定するには：
 
 1. ![ 編集 ](/help/dsp/assets/edit.png) をクリックします。
 1. ターゲットにするセグメントを指定します。
-   1. 左の列で、パートナー（*[!UICONTROL Comscore]* または *[!UICONTROL Grapeshot]*）を選択します。
+   1. 左の列で、パートナー（*[!UICONTROL Comscore]* を選択します。
    1. 入力フィールドに、セグメント名またはセグメント ID を入力します。
 1. （オプション）トピック情報を含んだ CSV ファイルをブラウザーのダウンロード場所にダウンロードするには、「**[!UICONTROL Export]**」をクリックします。
 1. 「**[!UICONTROL Save]**」をクリックします。
@@ -363,7 +361,7 @@ ht-degree: 0%
 >
 >* トピックターゲティングは、プレースメントが入札できる在庫を制限するので、全体の購入のごく一部に対してのみトピックターゲティングを使用します。
 >
->* [!DNL Proximic by Comscore] または [!DNL Oracle Data Cloud] （旧称 [!DNL Grapeshot]）のセグメント内で負のターゲティングを設定します。
+>* [!DNL Proximic by Comscore] のセグメント内で負のターゲティングを設定します。
 
 **[!UICONTROL Device Targeting]:** （任意）デバイスの種類、製造元、オペレーティングシステム、ブラウザー、接続の種類などの特定のデバイス情報。ターゲットとして含めたり除外したりできます。 タイプは、プレースメントのタイプによって異なります。 デバイスのターゲティングを指定するには：
 
@@ -431,11 +429,7 @@ ht-degree: 0%
 
 **[!UICONTROL Pre-bid viewability]:**
 
-プレースメントに適用する [!DNL DoubleVerify]、[!DNL Oracle Advertising] （[!DNL Moat]）、[!DNL Integral Ad Science] でフィルターする pre-bid viewability。 新しいプレースメントには広告主レベルのデフォルトが選択されますが、設定は変更できます。 追加料金がかかる場合があります。
-
->[!NOTE]
->
->[!DNL Oracle] は、2024 年 9 月 30 日（PT）までに、[!DNL MOAT] の全サービスを含む広告事業を廃止する予定です。
+プレースメントに適用する、[!DNL DoubleVerify] および [!DNL Integral Ad Science] でフィルターする pre-bid viewability。 新しいプレースメントには広告主レベルのデフォルトが選択されますが、設定は変更できます。 追加料金がかかる場合があります。
 
 **[!UICONTROL Ads.txt filtering]:**
 

@@ -3,9 +3,9 @@ title: Advertising DSPで利用可能なサードパーティデータプロバ�
 description: 使用可能なすべてのサードパーティデータプロバイダーのリストを確認する。
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 8921023b03865e73f71f49d320e092070035ecce
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 0%
 各セグメントの使用料金は、プレースメント設定および保存されたオーディエンス設定のセグメント名の横に表示されます。
 
 * [!DNL Adsquare]
-* [!DNL Audiences by Oracle (BlueKai)] （2024 年 9 月 30 日（PT）に日没予定）
 * [!DNL digitalAudience]
 * [!DNL DLX Mobile]
 * [!DNL eXelate] （[!DNL Nielsen]）

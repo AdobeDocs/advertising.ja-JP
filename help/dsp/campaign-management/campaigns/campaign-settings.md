@@ -3,9 +3,9 @@ title: キャンペーン設定
 description: 使用可能なキャンペーン設定の説明を参照してください。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 0fbdc7e38026d71483c2de1406a4110066690130
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -117,8 +117,6 @@ ht-degree: 0%
 * **[!UICONTROL IAS Account ID (AnID)]:** （独自の [!DNL IAS] アカウントを持つ広告主。オプション）組織の [!DNL IAS] アカウント ID。[!DNL IAS] が使用状況について直接請求します。
 
 * **[!UICONTROL IAS Team ID]:** （独自の [!DNL IAS] アカウントを持つ広告主。オプション）組織の [!DNL IAS] アカウントのチーム ID。[!DNL IAS] が使用料を直接請求します。<!-- verify -->
-
-**[!UICONTROL MOAT]:** （任意）ビューアビリティ、詐欺、ブランドセーフティ、オーディエンス検証の [!DNL MOAT] しい測定とレポートを有効にします。 追加料金がかかります。 **注：** [!DNL Oracle] は、2024 年 9 月 30 日までに、[!DNL MOAT] からのサービスを含め、広告事業を廃止する予定です。
 
 #### オーディエンスの検証
 

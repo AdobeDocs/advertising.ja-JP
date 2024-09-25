@@ -3,9 +3,9 @@ title: ブランドセーフティとメディア品質
 description: ブランドセーフティとメディア品質機能の詳細をご覧ください。
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: a927c073fd27e0b2c84bd1929eb4d6d233a29cb5
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Advertising DSPは、各キャンペーンがブランドセーフな環境で�
 
 アドビの不正監視チームは、[!DNL Interactive Advertising Bureau]、[!DNL Trust and Accountability Group] [!DNL (TAG)]、[!DNL WhiteOps] など業界をリードするパートナーと緊密に連携して、プラットフォーム上の在庫を慎重にキュレーションします。 DSPは、アドビの供給をプロアクティブに管理し、プラットフォーム全体のすべての広告主が人以外のトラフィック（ボット、クローラー、データセンタートラフィック、不正）から保護され、ブランドセーフなコンテキストでのみ配信されるようにします。
 
-当社は、中央品質管理を提供するだけでなく、広告主がブランドに合致した管理を設計できるようにすることを信じています。 DSPは、[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science]、[!DNL Oracle Data Cloud] および [!DNL Peer39] との統合を提供し、各広告主が望ましいレベルの不正対策、コンテキストフィルタリングおよびキーワードターゲティングを選択できるようにします。
+当社は、中央品質管理を提供するだけでなく、広告主がブランドに合致した管理を設計できるようにすることを信じています。 DSPは、[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science] および [!DNL Peer39] との統合を提供し、各広告主が望ましいレベルの不正対策、コンテキストフィルタリングおよびキーワードターゲティングを選択できるようにします。
 
 ## 品質イニシアティブ
 
@@ -110,15 +110,11 @@ DSPは、広告を実行することが安全でないと見なされるサイ�
 
 ### Pre-Bid Viewability {#pre-bid-viewability}
 
-アドビの業界をリードするパートナーである [!DNL DoubleVerify]、[!DNL Oracle Advertising] （[!DNL Moat]）および [!DNL Integral Ad Science] を活用した Pre-bid Viewability フィルターにより、広告主は、ビデオおよびディスプレイの在庫全体で、キャンペーンが望ましいビューアビリティパフォーマンス目標を満たしていることを確認できます。
-
->[!NOTE]
->
->[!DNL Oracle] は、2024 年 9 月 30 日（PT）までに、[!DNL MOAT] の全サービスを含む広告事業を廃止する予定です。
+業界をリードするパートナー [!DNL DoubleVerify] と [!DNL Integral Ad Science] を活用した Pre-bid viewability フィルターを使用すると、広告主は、ビデオやディスプレイの在庫全体で、キャンペーンが望ましいビューアビリティパフォーマンス目標を満たしていることを確認できます。
 
 各広告主に対してデフォルトのビューアビリティフィルターを設定し <!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) --> その後でオプションで [ 各プレースメントの設定をカスタマイズ ](/help/dsp/campaign-management/placements/placement-settings.md) できます。 この機能を使用すると、追加料金が発生する場合があります。
 
-![DoubleVerify ロゴ ](/help/dsp/assets/doubleverify-logo.png) ![OracleAdvertising ロゴ ](/help/dsp/assets/oracle-advertising-logo.png) ![Integral Ad Science ロゴ ](/help/dsp/assets/ias-logo.png)
+![DoubleVerify ロゴ ](/help/dsp/assets/doubleverify-logo.png)![ 統合広告サイエンスロゴ ](/help/dsp/assets/ias-logo.png)
 
 ### アテンションのターゲティングと測定
 
@@ -132,17 +128,13 @@ DSPは、広告を実行することが安全でないと見なされるサイ�
 
 ### トピックのターゲティング
 
-DSP トピックのターゲット設定を使用すると、業界をリードするアドビのコンテキストパートナー [!DNL Comscore] and [!DNL Oracle Data Cloud] （旧称 [!DNL Grapeshot]）を活用して、キーワードリストをターゲット設定したりブロックしたりできます。 トピックのターゲティングは、有害なコンテンツのブロックや、より大きな結果を確実にするコンテキストでの費用の確保など、ブランドに合致した環境で広告を常に提供するのに役立ちます。
-
->[!NOTE]
->
->[!DNL Oracle] は、2024 年 9 月 30 日（PT）までに、[!DNL Oracle Data Cloud] （旧 [!DNL Grapeshot]）のすべてのサービスを含む広告事業を廃止する予定です。
+DSPのトピックのターゲット設定では、業界をリードするコンテクスト [!DNL Comscore] ールなパートナーを活用して、キーワードリストをターゲット設定したりブロックしたりできます。 トピックのターゲティングは、有害なコンテンツのブロックや、より大きな結果を確実にするコンテキストでの費用の確保など、ブランドに合致した環境で広告を常に提供するのに役立ちます。
 
 トピックのターゲティングでは、パートナープラットフォームと直接カスタムトピックセグメントを作成する必要があります。 セグメントを作成したら、[ 各プレースメントの「[!UICONTROL Audience Targeting]」セクションでセグメント ID をターゲット設定または除外 ](/help/dsp/campaign-management/placements/placement-settings.md) できます。 この機能には追加料金が発生する場合があります。
 
 [!DNL Comscore] アカウントを作成し、カスタムトピックセグメントを作成するには、[https://agents.comscore.com](https://agents.comscore.com) で [!DNL Activation Segment Manager] のログインをリクエストします。 カスタムセグメントの設定手順について詳しくは、[[!DNL Comscore]  ヘルプセンター ](https://comscoreactivation.zendesk.com/hc/) を参照してください。 カスタムセグメントの料金は、カスタムセグメントの作成時に [!DNL Segment Manager] に表示されます。
 
-![Comscore ロゴ ](/help/dsp/assets/comscore-logo.png)![Grapeshot ロゴ ](/help/dsp/assets/oracle-grapeshot-logo.png)
+![Comscore ロゴ ](/help/dsp/assets/comscore-logo.png)
 
 ### [!DNL DoubleVerify Authentic Brand Safety]
 

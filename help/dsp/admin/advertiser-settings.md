@@ -2,9 +2,9 @@
 title: 広告主アカウント設定
 description: 使用可能な広告主設定の説明を参照してください。
 role: User, Admin
-source-git-commit: 55190d02a2cdf74c39968ccd91abfecc2ce5539d
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -122,11 +122,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL Pre-Bid Viewability]
 
-オプションの pre-bid viewability では、プレースメントに適用する [!DNL DoubleVerify]、[!DNL Oracle Advertising] （[!DNL Moat]）、[!DNL Integral Ad Science] 別にフィルターされます。 新しいプレースメントには、広告主レベルのデフォルトが選択されます。 広告主レベルの設定は、[ プレースメントレベル ](/help/dsp/campaign-management/placements/placement-settings.md) で上書きできます。
-
->[!NOTE]
->
->[!DNL Oracle] は、2024 年 9 月 30 日（PT）までに、[!DNL MOAT] の全サービスを含む広告事業を廃止する予定です。
+オプションの pre-bid viewability では、プレースメントに適用する [!DNL DoubleVerify] と [!DNL Integral Ad Science] でフィルターします。 新しいプレースメントには、広告主レベルのデフォルトが選択されます。 広告主レベルの設定は、[ プレースメントレベル ](/help/dsp/campaign-management/placements/placement-settings.md) で上書きできます。
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-viewability}
 
@@ -155,10 +151,6 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 ##### [!UICONTROL Integral Ad Science] {#ias-viewability}
 
 オプションの **[!UICONTROL Video Viewability Targets]** フィルターとオプションの **[!UICONTROL Display Viewability Targets]** フィルター。 追加料金がかかる場合があります。
-
-##### [!UICONTROL Moat] {#moat-viewability}
-
-オプションの **[!UICONTROL Video Viewability Standard]** フィルターとオプションの **[!UICONTROL Display Viewability Standard]** フィルター。 追加料金がかかる場合があります。
 
 #### [!UICONTROL Ads.text]
 
