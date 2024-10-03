@@ -3,7 +3,7 @@ title: '[!DNL Microsoft Advertising] コンバージョンデータ'
 description: 検索、ソーシャルおよびCommerceで使用できる  [!DNL Microsoft Advertising] 追跡されたコンバージョンデータのタイプについて説明します。
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: b8a34f3d85947536eb92ee481966f84694250f29
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 検索、ソーシャル、Commerceでの [!DNL Microsoft Advertising] コンバージョンデータ
 
-検索、ソーシャル、Commerceでは、Web サイトのコンバージョン（ビュースルーコンバージョンを含む）について、レポートや最適化を目的として [[!DNL Microsoft Advertising]  ユニバーサルイベントトラッキング（UET）タグ ](https://about.ads.microsoft.com/solutions/tools/universal-event-tracking) で追跡されたすべてのコンバージョンを自動的に同期します。
+検索、ソーシャル、Commerceでは、Web サイトのコンバージョン（ビュースルーコンバージョンを含む）について、レポートや最適化を目的として [[!DNL Microsoft Advertising]  ユニバーサルイベントトラッキング（UET）タグ ](https://help.ads.microsoft.com/#apex/ads/en/53056) で追跡されたすべてのコンバージョンを自動的に同期します。
 
 すべての指標は、キャンペーン管理ビューや基本レポートで自動的に使用できるほか、ポートフォリオ目標でも使用してキャンペーンの最適化を行うこと [!DNL Microsoft Advertising] できます。
 

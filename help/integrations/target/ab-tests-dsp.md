@@ -2,7 +2,7 @@
 title: Adobe TargetでのAdobe Advertising DSP広告の A/B テストの設定
 description: DSP広告に A/B テストを設定する方法  [!DNL Target]  説明します。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7ffa5d3e9f1aae0f9d66d87c74807e491e818daa
+source-git-commit: 964246bb2c8bfa442f2d4f981c9e02de35c69ed5
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -109,7 +109,7 @@ AdobeアカウントチームとAdvertising ソリューショングループ（
 
       >[!NOTE]
       >
-      >複数の URL を使用して、ビュースルーサイトのエントリをテストできます。 詳しくは、「複数ページアクティビティ [ を参照 ](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html) てください。 Analytics で [ サイトエントリレポート ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) を作成すると、ページ URL 別にトップエントリを簡単に識別できます。
+      >複数の URL を使用して、ビュースルーサイトのエントリをテストできます。 詳しくは、「複数ページアクティビティ [ を参照 ](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html) てください。 Analytics で [ サイトエントリレポート ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports) を作成すると、ページ URL 別にトップエントリを簡単に識別できます。
 
    1. 「**[!UICONTROL Goal]**」フィールドに、テストの成功指標を入力します。
 

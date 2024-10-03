@@ -3,16 +3,14 @@ title: アラートの表示
 description: キャンペーンおよびキャンペーンコンポーネントのアラートと推奨される解決策を表示する方法について説明します。
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 5b07096e5f07c60a3efcbf4213b3bc2f061f36a4
+source-git-commit: 3e227bcd39b3928898e764cace1fea91f61d58d5
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # アラートの表示
-
-*Beta機能*
 
 DSPは、キャンペーンやキャンペーンコンポーネントに問題が発生したタイミングを特定するのに役立ちます。 DSPは問題ごとに、タイムスタンプと問題を解決するための推奨アクションを含むアラートを作成します。 アラートの理由には、設定の問題（広告がプレースメントに添付されていない場合や契約の設定が正しくない場合など）、広告の拒否、キャンペーンの正常性の問題（広告の配信やパフォーマンスの低下など）が含まれます。 アラートは、キャンペーンレベル、パッケージレベル、プレースメント レベル、広告レベルおよび取引レベルで使用できます。
 

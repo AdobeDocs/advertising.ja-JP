@@ -3,9 +3,9 @@ title: Campaign Management ビューでのパフォーマンスレポートの�
 description: キャンペーン管理ビューに含まれるレポートデータについて説明します。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
+source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ ht-degree: 0%
 
 #### アラート指標
 
-*Beta機能*
-
 「[!UICONTROL Alerts]」列は、キャンペーンまたはその下の子エンティティに問題があることを示します。 ツールバーの右側にある [!UICONTROL Pulse Panel] アイコンは、リストされているエンティティでアラートが使用できるかどうかも示します。 詳しくは、「[ アラートの表示 ](campaign-alerts.md)」を参照してください。
 
 ## 単一キャンペーンレポート {#single-campaign-reporting}
@@ -61,8 +59,6 @@ ht-degree: 0%
 各エンティティタブでは、デフォルトで各行にペーシング指標と配信指標が含まれていますが、キャンペーンのすべてのサブタブにそれらの指標を適用するには、[ 列表示を変更 ](campaign-data-views-manage.md#column-view-change) または [ カスタム列表示を作成 ](campaign-data-views-manage.md#column-view-create) を実行します。 追加の方法で [ データテーブルをカスタマイズ ](campaign-data-views-manage.md#data-tables-manage) することもできます。 各データテーブルには、表示可能なすべての行にわたる各指標の合計または平均値を表示する [!UICONTROL Subtotals] 行が含まれます。
 
 #### アラート指標
-
-*Beta機能*
 
 「[!UICONTROL Alerts]」列は、パッケージ、プレースメント、広告、またはパッケージやプレースメントの下の子エンティティに問題があることを示します。 「[!UICONTROL Alerts]」列は、キャンペーンまたはその下の子エンティティに問題があることを示します。 ツールバーの右側にある [!UICONTROL Pulse Panel] アイコンは、リストされているエンティティでアラートが使用できるかどうかも示します。 詳しくは、「[ アラートの表示 ](campaign-alerts.md)」を参照してください。
 
