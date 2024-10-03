@@ -3,9 +3,9 @@ title: Adobe Analyticsおよび prop からのコンバージョン指標  [!DNL
 description: ' [!DNL eVar] レベルおよび  [!DNL prop] レベルのデータを使用して、カスタム成功イベント指標を設定します。'
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: db815958b039508b005f4be60561ddc4656da86e
+source-git-commit: 91e8435ff00feca804dfa2f4c323f88ee31813ab
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 指標が使用可能になったら、それを使用して目的を作成し、検索、ソーシャル、Commerceのポートフォリオに割り当てたり、DSP パッケージの [ カスタム目標 ](/help/dsp/optimization/custom-goal.md) として使用したりできます。
 
-検索、ソーシャル、Commerce内から利用できる、「目標」に関する最適化ガイドの章を参照してください
+目標の作成について詳しくは、「目標」に関する最適化ガイドの章を参照してください。この章は、検索、ソーシャル、Commerce内から利用できます
 
 >[!MORELIKETHIS]
 >
