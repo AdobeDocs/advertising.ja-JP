@@ -3,16 +3,16 @@ title: 保留中のユーザー招待状を再送信する
 description: 保留中のユーザー招待を再送信する方法を説明します。
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
+source-git-commit: a8ee699137d683986264e841b03bc292ce7b7843
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
 # 保留中のユーザー招待状を再送信する
 
-管理者ユーザーは、組織アカウントの招待状が保留されているユーザーに招待状を再送できます。
+管理者ユーザーは、組織アカウントの招待状が保留されているユーザーに招待状を再送できます。 招待リンクは 24 時間以内に期限が切れます。
 
 1. 次のいずれかの操作をおこないます。
 
