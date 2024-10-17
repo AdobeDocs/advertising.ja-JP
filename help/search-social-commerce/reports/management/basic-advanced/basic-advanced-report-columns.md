@@ -3,9 +3,9 @@ title: 基本レポートと高度なレポートのレポート列
 description: 基本レポートと高度なレポートで使用可能なデータ列について説明します。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '3741'
+source-wordcount: '3743'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Group Name] | ポートフォリオが属しているポートフォリオグループの名前。 |
 | [!UICONTROL Portfolio ID] | 数値ポートフォリオ ID。 |
 | [!UICONTROL Portfolio Spend Strategy] | （[!UICONTROL Portfolio Report]） ポートフォリオの支出戦略：<i>[!UICONTROL Daily]</i>、<i>[!UICONTROL Weekly]</i>、<i>[!UICONTROL Monthly]</i>、<i>[!UICONTROL ROI]</i>、<i>[!UICONTROL Day of week]</i>、<i>[!UICONTROL Day of month]</i>、<i>[!UICONTROL CPT]</i>、<i>[!UICONTROL Marginal CPT]</i>、<i>[!UICONTROL Google Target CPA]</i> または <i>[!UICONTROL Google Target ROAS]</i>。 |
-| [!UICONTROL Portfolio Status] | ポートフォリオの状態：<ul><li><i>[!UICONTROL Optimize]:</i> 最適化機能は、関連するキャンペーンのクリック数および売上高データの収集、入札を最適化するためのデータのモデリング、（最適化タイプとキャンペーン入札戦略に応じて）入札やキャンペーン予算の最適化を行います。</li><li><i>[!UICONTROL Active]:</i> 最適化機能は、関連するキャンペーンのクリック数と売上高のデータを収集しており、データをモデリングしていますが、入札やキャンペーン予算を最適化していません。</li><li><i>[!UICONTROL Inactive]:</i> 最適化機能は、レポート目的で関連するキャンペーンのクリックデータを収集していますが、データのモデリングや、入札またはキャンペーン予算の最適化は行っていません。</li></ul> |
+| [!UICONTROL Portfolio Status] | ポートフォリオの状態：<ul><li><i>[!UICONTROL Optimize]:</i> 最適化機能は、関連するキャンペーンのクリック数および売上高データを収集し、最適化に使用されるデータをモデリングして、最適化のタイプと入札戦略に応じて、入札、キャンペーン予算およびキャンペーン入札戦略のターゲットを最適化します。</li><li><i>[!UICONTROL Active]:</i> 最適化機能は、関連するキャンペーンのクリック数と売上高のデータを収集しており、データをモデリングしていますが、入札やキャンペーン予算を最適化していません。</li><li><i>[!UICONTROL Inactive]:</i> 最適化機能は、レポート目的で関連するキャンペーンのクリックデータを収集していますが、データのモデリングや、入札またはキャンペーン予算の最適化は行っていません。</li></ul> |
 | [!UICONTROL Portfolio Target] | （[!UICONTROL Portfolio Report]）ポートフォリオの支出戦略の日別目標。 毎日/毎月および曜日/月の戦略の場合、現在の日付のターゲットが表示されます。 |
 | [!UICONTROL Preferred Devices] | （[!DNL Google Ads]、[!DNL Microsoft Advertising] および [!DNL Yahoo! Japan Ads] キャンペーン）広告設定で <i>[!UICONTROL Mobile ads]</i> が優先されるか、<i>[!UICONTROL All ads]</i> が優先されるか。 |
 | [!UICONTROL Product Group ID] | 広告ネットワークが製品グループに割り当てる数値 ID。 |

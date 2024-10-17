@@ -3,7 +3,7 @@ title: 検索、ソーシャル、Commerceの実装の概要
 description: 学ぶ
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -72,7 +72,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >ポートフォリオに割り当てられていないキャンペーンのデータは、検索、ソーシャル、Commerceで引き続き追跡およびレポートされますが、キャンペーンの入札は最適化されません。
+      >ポートフォリオに割り当てられていないキャンペーンのデータは、検索、ソーシャル、Commerceで引き続き追跡およびレポートされますが、最適化は行われません。
 
    1. ベースラインを作成するのに十分なデータが得られたら、チームはポートフォリオを起動できます。検索、ソーシャル、Commerceを使用して、最適化のタイプに基づいて、ポートフォリオの入札や予算を最適化できます。
 

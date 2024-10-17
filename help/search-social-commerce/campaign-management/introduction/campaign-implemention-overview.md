@@ -3,9 +3,9 @@ title: 広告ネットワークアカウントとキャンペーンの実装の�
 description: 広告ネットワークアカウントの設定、同期および管理に関連するタスクについて説明します。
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Adobeは各広告主と連携して、広告ネットワークアカウントと
 
 1. （Adobe Analyticsを使用する広告主） [Adobe Advertisingと Analytics を統合して ](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) データを交換できるようにします。
 
-1. （検索、ソーシャル、Commerceで入札やキャンペーン予算を最適化できるようにするには、[ サポートされているキャンペーンタイプのみ ](/help/search-social-commerce/introduction/supported-inventory.md)） [ キャンペーンをポートフォリオに割り当てます ](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
+1. （検索、ソーシャル、Commerceで入札、キャンペーン予算、キャンペーン入札戦略ターゲットを最適化できるようにする場合。[ サポートされているキャンペーンタイプのみ ](/help/search-social-commerce/introduction/supported-inventory.md)） [ キャンペーンをポートフォリオに割り当てる ](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
 
    ポートフォリオがまだ開始されていない場合（入札や予算の最適化）、最適化機能でコストと収益のモデルを構築できるだけの十分なデータを収集させて、ポートフォリオを開始する前にポートフォリオのベースラインパフォーマンスを確立できます。
 

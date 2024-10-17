@@ -3,16 +3,16 @@ title: ポートフォリオへのキャンペーンの割り当て
 description: 最適化のためにキャンペーンをポートフォリオに含める方法を説明します。
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # ポートフォリオへのキャンペーンの割り当て
 
-キャンペーンを最適化されたポートフォリオに割り当てると、検索、ソーシャルおよびCommerceで、キャンペーンのキーワードと広告の入札とキャンペーン予算を最適化できます。 キャンペーンをポートフォリオに割り当てるには、[!UICONTROL Campaigns] ビューでポートフォリオを作成するか、ポートフォリオの設定を編集します。
+キャンペーンを最適化されたポートフォリオに割り当てると、検索、ソーシャルおよびCommerceで、キャンペーンのキーワードおよび広告の入札、キャンペーン予算および入札戦略のターゲットを最適化できます。 キャンペーンをポートフォリオに割り当てるには、[!UICONTROL Campaigns] ビューでポートフォリオを作成するか、ポートフォリオの設定を編集します。
 
 すべてのキャンペーンタイプと広告ネットワークが最適化の対象となるわけではありません。ポートフォリオに含めることができる [ サポートされるキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md) のリストを参照してください。 また、検索、ソーシャル、Commerceからアクセスできる「Portfolio」の最適化ガイドの章で「キャンペーン入札戦略別の適格なPortfolioの種類」を参照して、各キャンペーン入札戦略の最適化サポートを確 <!-- verify convention for referencing Optimization Guide here --> します。
 

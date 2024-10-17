@@ -3,16 +3,16 @@ title: ポートフォリオからキャンペーンを削除
 description: ポートフォリオからキャンペーンを削除する方法を説明します。
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
 
 # ポートフォリオからキャンペーンを削除
 
-ポートフォリオからキャンペーンを削除すると、検索、ソーシャルおよびCommerceで、そのキャンペーンのキーワードおよび広告の入札と予算を最適化できません。
+ポートフォリオからキャンペーンを削除すると、検索、ソーシャルおよびCommerceで、そのキャンペーンの入札、キャンペーン予算および入札戦略目標を最適化できません。
 
 アクションはポートフォリオの変更履歴に記録されます。
 

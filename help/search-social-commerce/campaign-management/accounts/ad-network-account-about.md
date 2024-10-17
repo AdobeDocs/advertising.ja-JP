@@ -3,9 +3,9 @@ title: 広告ネットワークアカウントについて
 description: 広告ネットワークアカウントについては、検索、ソーシャル、Commerceを参照してください。
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]、[!DNL Microsoft Advertising] （旧称 [!DNL Bing Ads]）、[!DNL Yahoo! Display Network]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex] および既存の [!DNL Baidu] アカウント*
 
-検索、ソーシャル、Commerceは、サポートされている広告ネットワークアカウントと（*syncs*）同期するので、広告のパフォーマンスを追跡、レポート、視覚化できます。 [!DNL Yahoo! Display Network] を除くすべての広告ネットワークで、オプションで検索、ソーシャル、Commerceのアカウントのキャンペーンを管理できます。[!DNL Yahoo! Display Network] の場合、キャンペーンは読み取り専用です。 すべての広告ネットワークで、最適化機能を使用して、ポートフォリオに追加することで、管理対象アカウントの広告に対する入札を最適化できます。
+検索、ソーシャル、Commerceは、サポートされている広告ネットワークアカウントと（*syncs*）同期するので、広告のパフォーマンスを追跡、レポート、視覚化できます。 [!DNL Yahoo! Display Network] を除くすべての広告ネットワークで、オプションで検索、ソーシャル、Commerceのアカウントのキャンペーンを管理できます。[!DNL Yahoo! Display Network] の場合、キャンペーンは読み取り専用です。 すべての広告ネットワークで、最適化機能を使用して、キャンペーンをポートフォリオに追加することで、管理アカウントのキャンペーンの入札、キャンペーン予算およびキャンペーン入札戦略ターゲットを最適化できます。
 
 アカウントの同期を有効にするには、アカウントレコードにアカウントアクセス資格情報が含まれ、有効（アクティブ）になっている必要があります。
 

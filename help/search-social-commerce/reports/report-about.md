@@ -3,9 +3,9 @@ title: レポートについて
 description: 使用可能な様々なレポートタイプやレポートの自動化方法など、パフォーマンスレポートについて説明します。
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Advanced Reports] | [ 詳細レポート ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) は、広告設定に関する追加のインサイトを提供し、地理的ターゲティングやネットワーク設定を変更することでメリットが得られる場所を特定するのに役立ちます。 また、キャンペーンおよびポートフォリオ管理ビューでコンバージョンデータを検証し、広告主の内部コンバージョントラッキングデータに対してレポートを作成するのにも役立ちます。 |
 | [!UICONTROL Assist Reports] | [ アシストレポート ](/help/search-social-commerce/reports/management/assist/assist-report-about.md) は、広告主のすべてのキーワードと広告のコンバージョンパスに関するインサイトを提供します。 Adobe Advertisingコンバージョントラッキングサービスを通じて取得したデータを使用し、サービスを利用する広告主に対してのみ生成できます。 |
 | [!UICONTROL Specialty Reports] | [ 専門レポート ](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md) は、（Adobe Advertisingトラッキングではなく）広告ネットワークによって収集されたデータで構成されます。 |
-| [!UICONTROL Model Accuracy Reports] | [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、入札の最適化に使用される費用モデルと収益モデルの精度を示します。 |
+| [!UICONTROL Model Accuracy Reports] | [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、ポートフォリオの入札、キャンペーン予算および入札戦略目標の最適化に使用されるコストおよび収益モデルの精度を示します。 |
 
 ## レポートの自動処理
 

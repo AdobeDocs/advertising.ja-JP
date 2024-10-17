@@ -3,9 +3,9 @@ title: 広告の管理
 description: 広告を作成および管理する方法について説明します。
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 次の広告タイプは *可変* です。つまり、広告コピーまたは画像を変更して、同じ広告 ID を保持できます。動的検索広告を除くすべての [!DNL Google Ads] 広告タイプと、拡張テキスト広告 [!DNL Microsoft Advertising] あります。
->* サポートされているその他の広告はすべて *不変* です。つまり、広告コピーまたは画像を変更すると、既存の広告が削除され、新しい広告が作成されます。 検索、ソーシャル、Commerceで入札を最適化するために十分なデータを収集するのに対して、新規広告のパフォーマンスは数週間と不安定になる可能性があります。
+>* サポートされているその他の広告はすべて *不変* です。つまり、広告コピーまたは画像を変更すると、既存の広告が削除され、新しい広告が作成されます。 検索、ソーシャル、Commerceで最適化に必要なデータが十分に収集されるなか、新規広告のパフォーマンスが数週間と不安定になる可能性があります。
 >* [!DNL Microsoft Advertising] の製品広告のプロモーションラインを除き、製品広告のコンテンツを編集することはできません。 ただし、広告を一時停止または削除することはできます。
 
 >[!TIP]
