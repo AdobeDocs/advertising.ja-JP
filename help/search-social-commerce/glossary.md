@@ -3,9 +3,9 @@ title: 用語集
 description: 主要用語の定義を参照してください。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 56eaa534c1ee61f399b1ab2cd53d9e10ac9b5386
+source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2240'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **コンバージョントラッキング：** コンバージョントラッキングでは、a）広告ネットワーク上の広告主の広告のクリック、b）広告主の web サイトでの結果のトランザクションを追跡するために cookie を使用します。
 
-**コスト精度：** （ポートフォリオを持つ広告主）ポートフォリオの実際の費用を、予測費用で割った値です。 [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、最適化に使用する費用モデルの精度を示します。
+**コスト精度：** （ポートフォリオを持つ広告主）ポートフォリオの実際の費用を、予測費用で割った値です。 [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、最適化に使用されるコストモデルの精度を示します。[[!UICONTROL Model Accuracy] インサイト ](/help/search-social-commerce/advertising-insights/insight-about.md) には、モデルの精度を向上させるための推奨事項に加えて、より詳細な情報が含まれます。
 
 **コストモデル：** （ポートフォリオを持つ広告主）履歴データや数学的予測手法を用いて、コスト量、各ポジションやプレースメントを獲得するために必要な入札、各入札単位の CPC （検索）または CPM （表示）を予測する検索、ソーシャル、Commerceのテクノロジー。
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 **最小入札額：** 1）インプレッションあたり、または 1000 インプレッションごとに支払う最小額。 2）検索キーワードの場合、品質スコアに基づいた特定のキーワードに必要な最小入札額。 最小入札額は、通常、キーワードに広告を表示するためにクリックごとに支払うことができる最小額です。
 
-**モデル精度：** （ポートフォリオを使用する広告主）ポートフォリオの入札、予算および目標の最適化に使用するコストモデルと収益モデルの精度の割合。 「コストモデル」、「コスト精度」、「収益モデル」、「収益精度」を参照してください。  [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、費用モデルと収益モデルの精度を示します。
+**モデル精度：** （ポートフォリオを使用する広告主）ポートフォリオの入札、キャンペーン予算および入札戦略のターゲットの最適化に使用するコストモデルと収益モデルの精度の割合。 「コストモデル」、「コスト精度」、「収益モデル」、「収益精度」を参照してください。  [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、費用モデルと収益モデルの精度を示します。
 
 ## O-P {#o-p}
 
