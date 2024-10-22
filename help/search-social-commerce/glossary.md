@@ -3,9 +3,9 @@ title: 用語集
 description: 主要用語の定義を参照してください。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
+source-git-commit: 128446e8fad1e2c973a62042933cc52bb556a71d
 workflow-type: tm+mt
-source-wordcount: '2240'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 **最小入札額：** 1）インプレッションあたり、または 1000 インプレッションごとに支払う最小額。 2）検索キーワードの場合、品質スコアに基づいた特定のキーワードに必要な最小入札額。 最小入札額は、通常、キーワードに広告を表示するためにクリックごとに支払うことができる最小額です。
 
-**モデル精度：** （ポートフォリオを使用する広告主）ポートフォリオの入札、キャンペーン予算および入札戦略のターゲットの最適化に使用するコストモデルと収益モデルの精度の割合。 「コストモデル」、「コスト精度」、「収益モデル」、「収益精度」を参照してください。  [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、費用モデルと収益モデルの精度を示します。
+**モデル精度：** （ポートフォリオを使用する広告主）ポートフォリオの入札、キャンペーン予算および入札戦略のターゲットの最適化に使用するコストモデルと収益モデルの精度の割合。 「コストモデル」、「コスト精度」、「収益モデル」、「収益精度」を参照してください。
 
 ## O-P {#o-p}
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 **ROI:** （ROI）収益からコストを引いた値。
 
-**売上高精度：** （ポートフォリオを持つ広告主）ポートフォリオの実収益を予測収益で割った値。 [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、最適化に使用する収益モデルの精度を示します。
+**売上高精度：** （ポートフォリオを持つ広告主）ポートフォリオの実収益を予測収益で割った値。 [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、最適化に使用される収益モデルの精度を示し、[[!UICONTROL Model Accuracy] インサイト ](/help/search-social-commerce/advertising-insights/insight-about.md) には、モデルの精度を向上させるための推奨事項に加えて、より詳細な情報が含まれています。
 
 **売上高モデル：** （ポートフォリオを有する広告主）クリック数（検索とソーシャル）またはインプレッション数（ディスプレイ）と広告主のコンバージョン数に基づいて、各入札単位のコンバージョン率と推定利回りを予測する検索、ソーシャル、Commerceのテクノロジー。
 
