@@ -3,9 +3,9 @@ title: カスタムレポートの設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: be229b54dcdaa3386c7c3c658dd8f2434b51e5e8
+source-git-commit: 0e91fa93e8de53edda81dd5321eeca4682ad0c13
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 \* *[!UICONTROL Account]* は、組織が [ クロスアカウントレポート ](report-about.md#cross-account-reporting) 用に設定されている場合にのみ使用できます：[!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)] および [!UICONTROL Conversion]。 クロスアカウントレポートについて詳しくは、Adobeアカウントチームにお問い合わせください。
 
-**[!UICONTROL Include data from Adobe Advertising SSC]:** （「コンバージョンまでのパス」、「コンバージョンまでのパスの長さ」および「コンバージョンまでの時間」レポートのみ）Advertising Search、Social、およびCommerceからの検索広告のクリック数に関するデータが含まれます。 このオプションを選択した場合は、含める検索、ソーシャル、Commerceのキャンペーンを選択します。
+**[!UICONTROL Include data from Adobe Advertising SSC]:** （「コンバージョンまでのパス」、「コンバージョンまでのパス長」および「コンバージョンまでの時間」レポートのみ）指定したAdvertising検索、ソーシャルおよびCommerceの各キャンペーンに対する検索広告のクリック数に関するデータが含まれます。 このオプションを選択する場合は、**フィルターを使用して検索、ソーシャル、Commerceのアカウント[!UICONTROL SSC Account]** 選択します。 次に、**フィルターを使用してキャンペーン[!UICONTROL SSC Campaign]** 選択します。 複数のキャンペーンを選択するには、2 回目以降のキャンペーンの **[!UICONTROL Add Criteria]** をクリックします。
 
 ## [!UICONTROL Build Your Report] セクション
 
