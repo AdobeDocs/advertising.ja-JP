@@ -3,9 +3,9 @@ title: カスタムレポートについて
 description: カスタムレポートを手動で作成するオプションと、事前設定済みのレポートテンプレートを使用するオプションについて説明します。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 44f7f9b31afbe6b863acd389df641057b1e6dea1
+source-git-commit: 42d4c7e34766b9f75d0f278520f162671684c2db
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、キャンペーンのすべてのレベル（キャンペーン、パッケージ、プレースメント、広告）のオンデマンドデータを [ 関連するキャンペーン管理ビュー内 ](/help/dsp/campaign-management/reports/campaign-reports-about.md) 表示することもできます。
+>また、キャンペーンのすべてのレベル (キャンペーン、パッケージ、配置、または広告) [関連するキャンペーン管理表示内 ](/help/dsp/campaign-management/reports/campaign-reports-about.md)) でオンデマンドデータを表示することもできます。
 
 ## 使用可能なレポートタイプ
 
@@ -77,6 +77,26 @@ ht-degree: 0%
 
    * **[!UICONTROL Household Conversions]:** このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルでビュースルー変換を確認します。 インサイトを使用して、キャンペーンのパフォーマンスを測定および最適化します。 詳しくは、「世帯レポートに関する FAQ[ を参照 ](/help/dsp/reports/faq-household-report.md) てください。 ユニバーサル ID をターゲットとするプレースメントには、データを使用できません。
 
+   * **[!UICONTROL Path to Conversion Beta]:** （Beta機能）このレポートを使用すると、最初のインタラクションとコンバージョンの間に指定されたルックバック期間を使用して、指定されたデータ範囲で選択された各コンバージョン指標につながる、同じ世帯におけるインタラクションポイントのシーケンスを確認できます。 レポートには、次の 1 つのディメンションを含めることができます。
+
+      * [!UICONTROL Channel Assist Type]：次のマーケティングチャネルがコンバージョンプロセスをどの程度支援したかを示します：[!UICONTROL Audio Impression]、[!UICONTROL CTV Impression]、[!UICONTROL Display Click]、[!UICONTROL Display Impression]、[!UICONTROL Native Click]、[!UICONTROL Native Impression]、[!UICONTROL Search Click]、[!UICONTROL Video Click] または [!UICONTROL Video Impression]。
+
+      * [!UICONTROL Campaign ID] または [!UICONTROL Campaign Name]：どのキャンペーンがコンバージョンプロセスを支援したかを表示します。
+
+      * [!UICONTROL Ad ID] または [!UICONTROL Ad Name] は、コンバージョンに至ったDSP広告を示します。
+
+      * [!UICONTROL Ad ID & Paid Keyword (SSC)] または [!UICONTROL Ad Name & Paid Keyword (SSC)] は、コンバージョンに至った検索、ソーシャル、Commerceのキーワードを示します。
+
+     レポートの列には、「[!UICONTROL Event #1]」から「[!UICONTROL Event #10]」、「[!UICONTROL Path Length]」、「% \&lt; コンバージョン指標名 1\>」、「% \&lt; コンバージョン指標名 2\>」などがあります。
+
+     最新のインタラクションポイントは最大 10 個まで含まれます。 パス行は、コンバージョン数で並べ替えられます。
+
+   * **[!UICONTROL Path Length Beta]:** （Beta機能）このレポートを使用して、ユーザーが 1 つの広告インタラクション、2 つの広告インタラクションなどを経て発生したコンバージョン数をパス長（インタラクションポイント）別に確認できます。 レポートには複数のコンバージョン指標のデータを含めることができ、最初のインタラクションとコンバージョンの間に指定されたルックバック期間を使用します。 レポートの列には、「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt; コンバージョン指標名 1\>」、「% \&lt; コンバージョン指標名 1\>」、「\&lt; コンバージョン指標名 2\>」、「% \&lt; コンバージョン指標名 2\>」などがあります。
+
+     10 までのパス長ごとにデータが表示されます。10 より長いパス長のデータはグループ化されます。
+
+   * **[!UICONTROL Time to Conversion Beta]:** （Beta機能）このレポートを使用して、最後のインタラクション（広告の露出またはクリック）からコンバージョンまでの日数の長さ別にコンバージョン数を確認します。 レポートには複数のコンバージョン指標のデータを含めることができ、最初のインタラクションとコンバージョンの間に指定されたルックバック期間を使用します。 レポートの列には、「[!UICONTROL Time Taken (in days)]」、「[!UICONTROL Number of] \&lt; コンバージョン指標名 1\>」、「% \&lt; コンバージョン指標名 1\>」、「\&lt; コンバージョン指標名 2\>」、「% \&lt; コンバージョン指標名 2\>」などがあります。 ルックバック期間より長くかかるコンバージョンは、1 行にグループ化されます（例えば、レポートで 30 日のルックバック期間を使用している場合、発生するまでに 30 日を超えるコンバージョンはすべて、「[!UICONTROL Time Taken (in days)]」値「30+」の行にグループ化されます）。
+
 ## クロスアカウントレポート {#cross-account-reporting}
 
 複数のDSP アカウントを持つ組織では、組織のニーズに応じて、カスタムレポートでクロスアカウントデータをオプションで有効にできます。 例えば、アカウント A にアカウント B のデータへのアクセス権を付与し、アカウント B にアカウント C の（アカウント A の）データへのアクセス権を付与することができます。 この機能を有効にして設定するには、Adobeアカウントチームにお問い合わせください。
@@ -99,9 +119,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Ready to download]:** （繰り返しレポートのみ） 1 つ以上のレポートインスタンスをダウンロードでき、予定されているレポートインスタンスがあります。
 
-* **[!UICONTROL Failed]:** レポート ジョブが失敗しました。 レポートトウで個々のレポートインスタンスが失敗した理由を確認するには、[!UICONTROL Download] の横にある ![ 下向き矢印 ](/help/dsp/assets/chevron-down.png " 下向き矢印 ") をクリックします。 失敗したレポートジョブには、エラーアイコン（![エラー指標](/help/dsp/assets/indicator-critical.png "エラー指標")）が表示されます。 エラーの説明を表示するには、エラーアイコンの上にカーソルを置きます。
+* **[!UICONTROL Failed]:** レポート ジョブが失敗しました。 レポートトウで個人レポートインスタンスが失敗した理由を確認するには、[!UICONTROL Download]の横にある![下矢印](/help/dsp/assets/chevron-down.png "下矢印")をクリックします。失敗レポートジョブは、エラーアイコン(![エラー指標](/help/dsp/assets/indicator-critical.png "エラー指標"))で示されます。 エラーアイコンの上にカーソルを移動すると、エラーの説明が表示されます。
 
-* **[!UICONTROL Completed]:** 繰り返し発生しないレポートの場合、レポートは完了します。 繰り返しレポートの場合、すべてのレポートインスタンスが完了します。 過去 4 か月以内に完了したすべてのレポートをダウンロードできます。
+* **[!UICONTROL Completed]:** 非定期レポートの場合、レポートは完成します。 繰り返しレポートの場合、すべてのレポートインスタンスが完了します。 過去 4 か月以内に完了したすべてのレポートをダウンロードできます。
 
 * **[!UICONTROL Archived]:** レポートはアーカイブされており、実行できません。 このステータスは、レポートの生成が 1 つのレポートに対して複数回失敗した場合に設定されます。 現在、このステータスはユーザーインターフェイスから設定できません。
 
