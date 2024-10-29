@@ -3,7 +3,7 @@ title: キャンペーンの管理
 description: 広告キャンペーンを作成および管理する方法について説明します。
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 813b2a100df7381bdcea1c44a37f86e65ee5794f
+source-git-commit: 3af579ad61dd05f0d2b1e565c5b1532cebaeebe1
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google広告 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[MicrosoftAdvertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)、[Yahoo! 日本広告 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、または [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) キャンペーン設定。
 
-   広告ネットワークに応じて、設定は [!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Shopping Settings]、[!UICONTROL Campaign Targeting]、[!UICONTROL Conversion Goals]、[!UICONTROL Advanced Device Options]、[!UICONTROL URL Options] および [!UICONTROL (Google) DSA Options] にグループ化される場合があります。 [!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]、[!UICONTROL Campaign Tracking]、[!UICONTROL Asset Groups]、[!UICONTROL Campaign Goals] などの追加設定を可能な場合に構成するには、それぞれ **[!UICONTROL Add Negative Keywords]**、**[!UICONTROL Add Negative Websites]**、**[!UICONTROL Set Campaign Tracking]**、**[!UICONTROL Manage Asset Groups]**、**[!UICONTROL Set Campaign Goals]** をクリックします。
+   広告ネットワークに応じて、設定は [!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Shopping Settings]、[!UICONTROL Campaign Targeting]、[!UICONTROL Conversion Goals]、[!UICONTROL Advanced Device Options]、[!UICONTROL URL Options]、（[!DNL Google Ads]） [!UICONTROL DSA Options]、（[!DNL Google Ads]） [!UICONTROL Customer Acquisition Goals] にグループ化される場合があります。 [!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]、[!UICONTROL Campaign Tracking]、[!UICONTROL Asset Groups]、[!UICONTROL Campaign Goals] などの追加設定を可能な場合に構成するには、それぞれ **[!UICONTROL Add Negative Keywords]**、**[!UICONTROL Add Negative Websites]**、**[!UICONTROL Set Campaign Tracking]**、**[!UICONTROL Manage Asset Groups]**、**[!UICONTROL Set Campaign Goals]** をクリックします。
 
 1. 「**[!UICONTROL Post]**」をクリックします。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    複数のキャンペーンの場合、広告ネットワークに応じて、設定を [!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL URL Options] にグループ化できます。 編集できるのは、選択したすべてのキャンペーンに共通のフィールドのみで、変更は選択したすべてのキャンペーンに適用されます。 一部の英数字フィールドでは、既存の値を指定の値に変更する、既存の文字列を指定の文字列に置き換える、各値の先頭に指定のプレフィックスを追加する、各値の末尾にサフィックスを追加する、などのオプションがあります。 一部の通貨フィールドでは、既存の値を指定の値に変更するか、制限を設けて、指定の割合または金額で金額を増減するオプションがあります。
 
-   単一のキャンペーンの場合、設定は、[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Shopping Settings]、[!UICONTROL Campaign Targeting]、[!UICONTROL Conversion Goals]、[!UICONTROL Advanced Device Options]、[!UICONTROL URL Options] および [!UICONTROL (Google) DSA Options] にグループ化されます。 [!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]、[!UICONTROL Campaign Tracking]、[!UICONTROL Asset Groups]、[!UICONTROL Campaign Goals] などの追加設定を可能な場合に構成するには、それぞれ **[!UICONTROL Add Negative Keywords]**、**[!UICONTROL Add Negative Websites]**、**[!UICONTROL Set Campaign Tracking]**、**[!UICONTROL Manage Asset Groups]**、**[!UICONTROL Set Campaign Goals]** をクリックします。
+   単一のキャンペーンの場合、設定は、[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Shopping Settings]、[!UICONTROL Campaign Targeting]、[!UICONTROL Conversion Goals]、[!UICONTROL Advanced Device Options]、[!UICONTROL URL Options]、[!UICONTROL (Google) DSA Options] および（[!DNL Google Ads]） [!UICONTROL Customer Acquisition Goals] にグループ化されます。 [!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]、[!UICONTROL Campaign Tracking]、[!UICONTROL Asset Groups]、[!UICONTROL Campaign Goals] などの追加設定を可能な場合に構成するには、それぞれ **[!UICONTROL Add Negative Keywords]**、**[!UICONTROL Add Negative Websites]**、**[!UICONTROL Set Campaign Tracking]**、**[!UICONTROL Manage Asset Groups]**、**[!UICONTROL Set Campaign Goals]** をクリックします。
 
 1. データを保存します。
 
