@@ -3,9 +3,9 @@ title: プレースメント診断レポートの表示
 description: プレースメントの設定とペーシングに関する問題を診断する方法を説明します。
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1f8fd9d267aba0858b18c0b5a9b4a693e2b62468
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,8 @@ ht-degree: 0%
    * DSPがプレースメントに入札しなかった理由を確認するには、次の手順を実行します。
 
       1. 右上で、「**[!UICONTROL Non Bids]**」をクリックします。
+
+      1. （任意）特定のプライベート取引ターゲットでプレースメントをフィルタリングするには、取引を選択します。<!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
       1. （オプション）日付範囲を変更するには、日付フィールドをクリックして、別の日付または日付範囲を選択します。
 

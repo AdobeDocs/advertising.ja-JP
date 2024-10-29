@@ -4,7 +4,7 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: 2729e7575f9950eb59b181d542dea7cb3b34cfa7
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 2%
@@ -61,7 +61,7 @@ ht-degree: 2%
       + [カレンダーを使用して日付を指定](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)
       + [トレンドグラフの表示/非表示](/help/search-social-commerce/common-tasks/navigation-editing-selection/trend-chard-show-hide.md)
       + [管理ビューのデータの更新](/help/search-social-commerce/common-tasks/navigation-editing-selection/refresh.md)
-      + 管理ビューのデータのダウンロ {#download-data-views} ド
+      + 管理ビュー {#download-data-views} でのデータのダウンロード
          + [キャンペーン管理ビューからのデータのダウンロード](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
          + [[!UICONTROL Downloads] メニューからパフォーマンス データ レポートまたはバルクシート ファイルを削除する](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 + Tracking {#tracking}

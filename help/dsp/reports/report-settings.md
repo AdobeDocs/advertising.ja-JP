@@ -3,9 +3,9 @@ title: カスタムレポートの設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 4fb843e66edddd4585d4a9b142eb9a7750152d27
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]:** レポート名。 最大長は 180 文字です。
 
-**[!UICONTROL Report Type]:** レポートのタイプ。*[!UICONTROL Custom]* （利用可能な最も多くのオプションを含む）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]*、*[!UICONTROL Household Conversions]* です。
+**[!UICONTROL Report Type]:** レポートのタイプ。*[!UICONTROL Custom]* （利用可能な最も多くのオプションを含む）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]*、*[!UICONTROL Household Conversions]*、*[!UICONTROL Path to Conversions Beta]*、*[!UICONTROL Path Length Beta]* または *[!UICONTROL Time to Conversion Beta]*。
 
 ## [!UICONTROL Report Range] セクション
 
@@ -62,9 +62,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Apply Filters] セクション
 
-**[!UICONTROL Add Filters]:** （オプション）ディメンションがレポートに列として含まれているかどうかに関わらず、データをフィルタリングするための追加のディメンション。 使用可能なフィルターは、レポートタイプによって異なり、*[!UICONTROL Account]*\*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、* *[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]* および *[!UICONTROL Video Duration]* などがあります。
-
-\* *[!UICONTROL Account]* は、組織が [ クロスアカウントレポート ](report-about.md#cross-account-reporting) 用に設定されている場合にのみ使用できます：[!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)] および [!UICONTROL Conversion]。 クロスアカウントレポートについて詳しくは、Adobeアカウントチームにお問い合わせください。
+**[!UICONTROL Filter by]:** （オプション）ディメンションがレポートに列として含まれているかどうかに関わらず、データをフィルタリングするための追加のディメンション。 使用可能なフィルターは、レポートタイプによって異なり、*[!UICONTROL Account]*\*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、* *[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]* および *[!UICONTROL Video Duration]* などがあります。
 
 1 つ以上のフィルターを適用するには、次の手順を実行します。
 
@@ -72,15 +70,20 @@ ht-degree: 0%
 * （任意）フィルターに条件を追加します。
 * （任意）さらにフィルターを追加し、各フィルターに 1 つ以上の条件を指定します。
 
+\* *[!UICONTROL Account]* は、組織が [ クロスアカウントレポート ](report-about.md#cross-account-reporting) 用に設定されている場合にのみ使用できます：[!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)] および [!UICONTROL Conversion]。 クロスアカウントレポートについて詳しくは、Adobeアカウントチームにお問い合わせください。
+
+**[!UICONTROL Include data from Adobe Advertising SSC]:** （「コンバージョンまでのパス」、「コンバージョンまでのパスの長さ」および「コンバージョンまでの時間」レポートのみ）Advertising Search、Social、およびCommerceからの検索広告のクリック数に関するデータが含まれます。
+
 ## [!UICONTROL Build Your Report] セクション
 
-**[!UICONTROL Select To Add As Report Headers]:** レポートに含めるデータ列（ヘッダー）。 列を追加するには、カテゴリを展開し、列名の横にあるチェックボックスをオンにします。 使用可能な列はレポートによって異なり、使用できない指標はすべて無効になります。 使用可能なデータカテゴリを次に示します。
+**[!UICONTROL Select To Add As Report Headers]:** レポートに含めるデータ列（ヘッダー）。 列を追加するには、カテゴリを展開し、列名の横にあるチェックボックスをオンにします。 使用可能な列はレポートによって異なり、使用できない指標はすべて無効になります。 利用可能なデータカテゴリには、次のものが含まれます。
 
 * [!UICONTROL Dimensions]
 
   >[!NOTE]
   >
-  > [!UICONTROL Household Reach & Frequency] レポートには、ディメンションを 1 つだけ含めることができます。
+  > [!UICONTROL Household Reach & Frequency] および [!UICONTROL Path to Conversion] レポートには、ディメンションを 1 つだけ含めることができます。
+  > [!UICONTROL Path Length] と [!UICONTROL Time to Conversion] のレポートには、ディメンションは含まれていません。
 
 * [!UICONTROL Metrics]
 
@@ -132,9 +135,9 @@ ht-degree: 0%
 
    * *[!UICONTROL Social Only]:* 古い
 
-  <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
+「[Adobe Advertisingに関するアトリビューションルールの計算方法 ](/help/search-social-commerce/reports/attribution-rules.md)」も参照してください。
 
-* **ルックバック：** （[!UICONTROL Conversion Metrics] 列または [!UICONTROL Custom Goals] 列の [!UICONTROL Household Conversion] レポート。Adobe Advertisingのコンバージョントラッキングのみを使用する広告主）レポート内で、コンバージョンイベントの属性をインプレッションイベントから取得できる最大日数。 デフォルトは *[!UICONTROL 30 days]* で、最大 92 日です。
+* **ルックバック：** （[!UICONTROL Conversion Metrics] 列または [!UICONTROL Custom Goals] 列を含む [!UICONTROL Household Conversion] レポートおよび [!UICONTROL Conversion Metrics] 列のみを含む [!UICONTROL Path to Conversion]、[!UICONTROL Path Length] または [!UICONTROL Time to Conversion] レポート。Adobe Advertisingのコンバージョントラッキングのみを含む広告主）レポート内で、コンバージョンイベントの属性となるインプレッションイベント <!-- VERIFY THIS:  or click event for [!UICONTROL Path to Conversion], [!UICONTROL Path Length], or [!UICONTROL Time to Conversion] reports --> 後の最大日数。 デフォルトは *[!UICONTROL 30 days]* で、最大 92 日です。
 
 **[!UICONTROL Paths as Columns]:** （すべての [!UICONTROL Custom]、[!UICONTROL Conversion]、[!UICONTROL Device]、[!UICONTROL Geo]、[!UICONTROL Segment] および [!UICONTROL Site] レポート（[!UICONTROL Conversion Metrics] 列または [!UICONTROL Custom Goals] 列）同じデバイスで以前のイベントが発生した場合にレポートするコンバージョンのタイプ。 最大 3 つのタイプを含めることができます。 選択したタイプごとに、コンバージョン指標ごとに個別の列が含まれ、指定したサフィックス（[!UICONTROL (tl)]、[!UICONTROL (ct)] または [!UICONTROL (vt)]）が追加されます。
 
