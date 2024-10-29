@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: 281ab6a76b34b718281e5e656e4b29ecaf608bd3
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '932'
 ht-degree: 3%
 
 ---
@@ -46,11 +46,12 @@ ht-degree: 3%
       + [キャンペーンのアーカイブまたはアーカイブ解除](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
       + [キャンペーンの変更ログの表示](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+      + [バルクシートを使用した Campaign コンポーネント設定のレビューと編集](/help/dsp/campaign-management/campaign-components-review-edit.md)
       + [Campaign Launch チェックリスト](/help/dsp/campaign-management/campaign-launch-checklist.md)
    + パッケージ {#packages}
       + [パッケージ管理について](/help/dsp/campaign-management/packages/package-about.md)
       + [パッケージを作成](/help/dsp/campaign-management/packages/package-create.md)
-      + [スプレッドシートを使用したパッケージ設定の確認と編集](/help/dsp/campaign-management/packages/package-qa.md)
+      + [バルクシートを使用したパッケージ設定のレビューと編集](/help/dsp/campaign-management/packages/package-qa.md)
       + [パッケージを編集](/help/dsp/campaign-management/packages/package-edit.md)
       + [パッケージの複製](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [パッケージへのプレースメントの添付](/help/dsp/campaign-management/packages/package-attach-placement.md)
@@ -61,7 +62,7 @@ ht-degree: 3%
    + Placements {#placements}
       + [プレースメント管理について](/help/dsp/campaign-management/placements/placement-about.md)
       + [プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)
-      + [スプレッドシートを使用した配置設定の確認と編集](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [バルクシートを使用して配置設定を確認、編集する](/help/dsp/campaign-management/placements/placement-qa.md)
       + [プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)
       + [プレースメントの複製](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [プレースメントの入札乗数の管理](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
@@ -203,7 +204,7 @@ ht-degree: 3%
    + [カスタムレポートのダウンロード](/help/dsp/reports/report-download.md)
    + [カスタムレポートの設定](/help/dsp/reports/report-settings.md)
    + [使用可能なレポート列](/help/dsp/reports/report-columns.md)
-   + [世帯レポートに関する FAQ](/help/dsp/reports/faq-household-report.md)
+   + [世帯レポートに関する FAQ](/help/dsp/reports/faq-reports.md)
    + レポートの宛先 {#report-destinations}
       + [[!UICONTROL Report Destinations] について](/help/dsp/reports/report-destinations/report-destination-about.md)
       + [[!UICONTROL Report Destination] の作成](/help/dsp/reports/report-destinations/report-destination-create.md)

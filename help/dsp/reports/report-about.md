@@ -3,7 +3,7 @@ title: カスタムレポートについて
 description: カスタムレポートを手動で作成するオプションと、事前設定済みのレポートテンプレートを使用するオプションについて説明します。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 691c0097a81ee5066448fc411dc3de8f853e9bbd
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 0%
@@ -73,9 +73,9 @@ ht-degree: 0%
 
    * **[!UICONTROL Site]:** デフォルトでは、には、標準指標、メディア純支出の合計、サイト別の請求可能な純支出の合計が含まれています。
 
-   * **[!UICONTROL Household Reach & Frequency]:** このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルで、広告形式をまたいだ単一のディメンションのインプレッション数、リーチ、頻度を確認します。 インサイトを使用して、メディアミックスを最適化し、パフォーマンスを向上し、増分リーチの機会を特定します。 詳しくは、「世帯レポートに関する FAQ[ を参照 ](/help/dsp/reports/faq-household-report.md) てください。 ユニバーサル ID をターゲットとするプレースメントには、データを使用できません。
+   * **[!UICONTROL Household Reach & Frequency]:** このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルで、広告形式をまたいだ単一のディメンションのインプレッション数、リーチ、頻度を確認します。 インサイトを使用して、メディアミックスを最適化し、パフォーマンスを向上し、増分リーチの機会を特定します。 詳しくは、「世帯レポートに関する FAQ[ を参照 ](/help/dsp/reports/faq-reports.md) てください。 ユニバーサル ID をターゲットとするプレースメントには、データを使用できません。
 
-   * **[!UICONTROL Household Conversions]:** このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルでビュースルー変換を確認します。 インサイトを使用して、キャンペーンのパフォーマンスを測定および最適化します。 詳しくは、「世帯レポートに関する FAQ[ を参照 ](/help/dsp/reports/faq-household-report.md) てください。 ユニバーサル ID をターゲットとするプレースメントには、データを使用できません。
+   * **[!UICONTROL Household Conversions]:** このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルでビュースルー変換を確認します。 インサイトを使用して、キャンペーンのパフォーマンスを測定および最適化します。 詳しくは、「世帯レポートに関する FAQ[ を参照 ](/help/dsp/reports/faq-reports.md) てください。 ユニバーサル ID をターゲットとするプレースメントには、データを使用できません。
 
    * **[!UICONTROL Path to Conversion Beta]:** （Beta機能）このレポートを使用して、予算を最適化し、最もパフォーマンスの高い広告インタラクションシーケンスに基づいて広告をパーソナライズする方法を特定します。 レポートには、指定したデータ範囲内で選択した各コンバージョン指標につながる、同じ世帯におけるインタラクションポイントのシーケンスが表示されます。 レポートでは、最初のインタラクションとコンバージョンの間に指定されたルックバック期間を使用し、1 つのディメンションを含めることができます。
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 >* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
 >* [ カスタムレポートのダウンロード ](/help/dsp/reports/report-download.md)
 >* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
->* [ 世帯レポートに関するよくある質問 ](/help/dsp/reports/faq-household-report.md)
+>* [ 世帯レポートに関するよくある質問 ](/help/dsp/reports/faq-reports.md)
 >* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)
 >* [[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md) について
