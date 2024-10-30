@@ -3,9 +3,9 @@ title: プライベート取引のプレースメントと広告のリスト
 description: プライベート取引に関連付けられたプレースメントと広告のリストを開く方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: a820c5b8162953c34978e79e1ce9efe51f4063d4
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 
 1. （オプション）次のいずれかの操作をおこないます。
 
+   * プレースメントがプライベート取引で入札できない理由を確認するには、プレースメント行の上にカーソルを置いて、「**[!UICONTROL Non bid reasons]**」をクリックします。
+
    * プレースメントの設定を編集するには、プレースメント行の上にカーソルを置いて「**[!UICONTROL Edit]**」をクリックします。 [ プレースメント設定を編集 ](/help/dsp/campaign-management/placements/placement-settings.md) し、「**[!UICONTROL Update placement]**」をクリックします。
 
    * プレースメントの在庫ターゲットから取引を削除するには、プレースメント行の上にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Detach Placement]** をクリックします。 確認メッセージで、「**[!UICONTROL Yes]**」をクリックします。
@@ -35,3 +37,4 @@ ht-degree: 0%
 >* [ プライベートインベントリについて ](private-inventory-about.md)
 >* [ 取引 ID のプレースメントと広告の指定 ](deal-id-attach-placements.md)
 >* [ 取引の詳細レポートの表示 ](deal-view-report.md)
+>* [ プレースメント診断レポートの表示 ](/help/dsp/campaign-management/reports/placement-diagnostics.md)
