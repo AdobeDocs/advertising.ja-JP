@@ -3,7 +3,7 @@ title: とAdobe Advertisingの間で予期されるデータ  [!DNL Analytics]  
 description: とAdobe Advertisingの間で予期されるデータ  [!DNL Analytics]  相違
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e1c1d43c7fe5f44e34ada7dee09afd77f1b3f305
+source-git-commit: 6470ed471c60477bf19cf9b125f0250136f31511
 workflow-type: tm+mt
 source-wordcount: '3358'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Adobe Advertisingレポートと [!DNL Analytics] レポートレポートのビ
 >
 >混乱を防ぐため、[!DNL Analytics] では、レポートインターフェイスで履歴データを使用できないようにしています。 [!DNL eVar] ータを初期配分設定に戻すと、履歴データを表示できますが、履歴データにアクセスするためだけに配分設定 [!DNL eVar] 変更しないでください。 Adobeでは、大量の履歴データが既にある [!DNL eVar] ータの配分設定を変更するのではなく、既に記録されているデータに新しい配分設定を適用する場合に新しい [!DNL eVar] を使用することをお勧めします。
 
-[!DNL Analytics] アトリビューションモデルとその定義のリストについては、[https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html) を参照してください。
+[!DNL Analytics] アトリビューションモデルとその定義のリストについては、[https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models) を参照してください。
 
 [!DNL Search, Social, & Commerce] にログインしている場合は、次のリストを見つけることができます
 
