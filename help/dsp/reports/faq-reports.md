@@ -2,9 +2,9 @@
 title: カスタムレポートに関する FAQ
 description: 世帯レポートやコンバージョンパス分析レポートなどのカスタムレポートについて詳しく説明します。
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,9 @@ ht-degree: 0%
 
 ## コンバージョンパス分析レポート
 
-### コンバージョンレポートのパスは、[!DNL Advanced Measurement Services] およびAdobe Analyticsで作成されたレポートと比較してどうですか？
+### コンバージョンレポートのパスは、[!DNL Advanced Measurement Services] およびAdobe Analytics Analysis Workspaceで作成されたレポートと比較してどうですか？
 
-| | コンバージョンレポートのパス | 検索レポートに対する Advanced Measurement Services のハロー効果 | Adobe Analytics Workspace レポート |
+| | コンバージョンレポートのパス | 検索レポートに対する Advanced Measurement Services のハロー効果 | Analysis Workspaceのレポート |
 | --- | --- | --- |---|
 | 顧客価値 | セルフサービスのカスタムレポートを生成して、広告ジャーニーのどのパスが最適化を高めるためにより多くのコンバージョンにつながったかを把握します | 検索クリックに対するコネクテッド TV （CTV）戦術の影響を理解します | 検索クリックに対する総合的なAdobe Advertising投資が、他のマーケティングチャネルと共に与える影響を理解します |
 | 世帯レベル | はい | はい | 不可 |
