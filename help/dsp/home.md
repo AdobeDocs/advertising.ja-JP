@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 43e72ae59ef7b91df6d5a490df2d15b79bda71ce
+source-git-commit: e061d8006064a0f8ef0446d8c51474c99797994f
 workflow-type: tm+mt
-source-wordcount: '4622'
+source-wordcount: '4748'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024 年 11 月 13 日（Pt） | [!DNL Analytics for Advertising] | （[!DNL Analytics for Advertising] およびAdobe Customer Journey Analyticsを使用する広告主）予約変数を使用して AMO ID および EF ID をキャプチャする場合は、AMO ID および EF ID の予約変数を可能な限り早く標準 [!DNL eVars] にコピーすることで、Adobe AdvertisingとAdobe Customer Journey Analyticsの将来の統合に備えることができます。 これにより、タスクが完了するとすぐに AMO ID と EF ID の履歴データを収集でき、履歴データは今後の使用のために利用できるようになります。 予約済みの変数を使用していて、このタスクを完了する必要がある場合は、Adobeアカウントチームからお知らせします。 | [Adobe Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データの収集 ](/help/integrations/analytics/rvars-to-evars.md) を参照してください。 |
 | 2024 年 10 月 29 日（Pt） | [!UICONTROL Custom Reports] | （Beta機能） 3 つの新しいレポートにより、コンバージョンにつながる広告インタラクションパスに関する深いインサイトが提供されます。<ul><li>[!UICONTROL Path to Conversion Beta]：指定したデータ範囲内で選択した各コンバージョン指標につながる、同じ世帯におけるインタラクションポイントのシーケンスを表示します。</li><li> [!UICONTROL Path Length Beta]：パスの長さ（インタラクションポイント）別にコンバージョン数を表示します。例えば、ユーザーの広告インタラクションが 1 回のみ、広告インタラクションが 2 回などになった後に発生したコンバージョン数などを表示します。</li><li>コンバージョン数 [!UICONTROL Time to Conversion Beta]、最後のインタラクション（広告の露出またはクリック）からコンバージョンまでの日数で表示されます。</li></ul> | 「[ カスタムレポートについて ](/help/dsp/reports/report-about.md)」および「[ カスタムレポートに関する FAQ](/help/dsp/reports/faq-reports.md)」を参照してください。 |
 | | [!UICONTROL Packages]、[!UICONTROL Placements]、[!UICONTROL Ads] | 1 つのスプレッドシート内で、キャンペーン内のすべてのパッケージ、プレースメント、広告の設定を確認できるようになりました。 選択したキャンペーンコンポーネントタイプ（パッケージ、プレースメント、プレースメント広告スケジュール、プレースメント入札乗数、広告、ピクセルを含めることができる）の既存の設定を含む QA シートをレビュー用にダウンロードできます。 設定を追加または編集するには、空のバルクシートテンプレートをダウンロードし、QA シートからバルクシートテンプレートにキャンペーンのコンポーネントデータを入力または貼り付け、入力したバルクシートをアップロードします。<br><br> さらに、特定のパッケージおよびプレースメントの設定をダウンロードするためのコマンド名が「[!UICONTROL Download Bulksheet]」になりました。 右上の [!UICONTROL ...] > &quot;[!UICONTROL Upload Bulksheet]&quot; オプションから、特定のパッケージおよびプレースメントの設定をアップロードできます。 | [ バルクシートを使用した Campaign コンポーネント設定の確認と編集 ](/help/dsp/campaign-management/campaign-components-review-edit.md) を参照してください。<br><br> 「[ バルクシートを使用したパッケージ設定のレビューと編集 ](/help/dsp/campaign-management/packages/package-qa.md)」および「[ バルクシートを使用したプレースメント設定のレビューと編集 ](/help/dsp/campaign-management/placements/placement-qa.md)」も参照してください。 |
 | | [!UICONTROL Placements]、プライベート・インベントリ、[!UICONTROL Non Bid Reasons] | プレースメントのターゲットとなる特定のプライベート取引で、プレースメントの非入札理由のリストをフィルタリングできるようになりました。 この機能は、すべてのプライベートインベントリをターゲットとするプレースメントには使用できません。<br><br> また、[!UICONTROL Inventory] > [!UICONTROL Deals] にリストされているプライベート取引の [!UICONTROL Placements and Ads] 表示には、各行に「[!UICONTROL Non bid reasons]」オプションが含まれるようになりました。 このオプションをクリックすると、プレースメント診断レポートが「非入札」タブに開き、プライベート取引でフィルタリングされます。 | 「[ プレースメント診断レポートの表示 ](/help/dsp/campaign-management/reports/placement-diagnostics.md)」および「[ プライベート取引のプレースメントおよび広告のリスト ](/help/dsp/inventory/private-deal-view-placements.md)」を参照してください。 |
