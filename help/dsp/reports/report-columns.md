@@ -3,7 +3,7 @@ title: 使用可能なレポート列
 description: カスタムレポートで使用可能な列の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 6afc297fee8ebf94605c5bc1fceafe4a903387a5
 workflow-type: tm+mt
 source-wordcount: '2228'
 ht-degree: 0%
@@ -155,12 +155,12 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | DSPから請求されない、技術料を含む、請求不可メディアの合計ネットコスト。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | DSPを通じて請求されない、その他のサービス料金（サードパーティの検証パートナー、広告サービスなど）の合計コスト。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | [!UICONTROL Billable Spend (Media)]、[!UICONTROL Billable Spend (Data)]、[!UICONTROL Billable Spend (Other)] の合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Net Spend] | オーディエンスセグメントデータ料金の正味合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Net Spend] | メディアの正味合計コスト （技術費を含む）。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Net Spend] | [!UICONTROL Net Spend (Media)]、[!UICONTROL Net Spend (Data)]、[!UICONTROL Net Spend (Other)] の合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | [!UICONTROL Non-billable Spend (Media)]、[!UICONTROL Non-billable Spend (Data)]、[!UICONTROL Non-billable Spend (Other)] の合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Net Spend] | その他のサービス料金（サードパーティの検証パートナー、広告サービングなど）の純費用の合計。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | [!UICONTROL Billable Spend (Media)]、[!UICONTROL Billable Spend (Data)]、[!UICONTROL Billable Spend (Other)] の合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | 広告全体を視聴したビューの割合。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | 広告全体を視聴したビューの数。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | 広告全体を視聴したビューアブルインプレッションの割合。 |
