@@ -3,7 +3,7 @@ title: 使用可能なレポート列
 description: カスタムレポートで使用可能な列の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 6afc297fee8ebf94605c5bc1fceafe4a903387a5
+source-git-commit: 15ce5490ae12fd0c50e4a178f8cb642078c4e847
 workflow-type: tm+mt
 source-wordcount: '2228'
 ht-degree: 0%
@@ -137,9 +137,6 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | <code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions] で計算された、完了したビデオビューあたりの平均正味コスト</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | <code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000 で計算された、1000 インプレッションあたりの平均正味コスト</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | <code>[!UICONTROL Net Spend] / [!UICONTROL Views] で計算された、ビデオビューあたりの平均正味コスト</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Data eCPM] | インプレッション 1000 件あたりの平均正味データコスト（<code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000 で計算）</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Media CPM] | インプレッション 1000 件あたりの平均正味メディアコスト（<code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000 で計算）</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Other eCPM] | その他の料金の 1000 インプレッションあたりの平均正味費用（<code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000 で計算）</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Max CPM で入札された合計入札の割合。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | プレースメントに対してDSPが入札するユニークユーザーの数。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | DSPを通じて請求される、オーディエンスセグメントデータ料金の合計の正味費用。 |
@@ -156,10 +153,13 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | DSPを通じて請求されない、その他のサービス料金（サードパーティの検証パートナー、広告サービスなど）の合計コスト。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | [!UICONTROL Billable Spend (Media)]、[!UICONTROL Billable Spend (Data)]、[!UICONTROL Billable Spend (Other)] の合計。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data eCPM] | インプレッション 1000 件あたりの平均正味データコスト（<code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000 で計算）</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Net Spend] | オーディエンスセグメントデータ料金の正味合計。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media CPM] | インプレッション 1000 件あたりの平均正味メディアコスト（<code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000 で計算）</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Net Spend] | メディアの正味合計コスト （技術費を含む）。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Net Spend] | [!UICONTROL Net Spend (Media)]、[!UICONTROL Net Spend (Data)]、[!UICONTROL Net Spend (Other)] の合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | [!UICONTROL Non-billable Spend (Media)]、[!UICONTROL Non-billable Spend (Data)]、[!UICONTROL Non-billable Spend (Other)] の合計。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | その他の料金の 1000 インプレッションあたりの平均正味費用（<code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000 で計算）</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Net Spend] | その他のサービス料金（サードパーティの検証パートナー、広告サービングなど）の純費用の合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | 広告全体を視聴したビューの割合。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | 広告全体を視聴したビューの数。 |
