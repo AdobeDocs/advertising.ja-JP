@@ -2,7 +2,7 @@
 title: 広告主アカウントの作成
 description: 広告主アカウントを作成する方法を説明します。
 role: User, Admin
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: bd29bf822385670a3420cf5dac346cecdecabf3d
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 # 広告主アカウントの作成
 
 *読み取り専用ユーザーは使用できません*
+
+<!-- Not published -->
 
 広告主は、組織アカウントのすべてのユーザーが利用できます。
 

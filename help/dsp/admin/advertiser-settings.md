@@ -2,9 +2,9 @@
 title: 広告主アカウント設定
 description: 使用可能な広告主設定の説明を参照してください。
 role: User, Admin
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,8 @@ ht-degree: 0%
 # 広告主アカウント設定
 
 *読み取り専用ユーザーは使用できません*
+
+<!-- Not published -->
 
 ## [!UICONTROL General] Settings
 
@@ -166,11 +168,11 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 **[!UICONTROL Enable Site Safety Block]:** デフォルトでは、はリアルタイムの入札後フィルターを有効にして、広告主がターゲティングしているサイトに広告が配信されるようにします。<!-- Can remove this: Users can enable or disable the feature for each placement. I don't see this option, but I should probably verify. If this can't be edited at placement level, then remove "By default." If it can, say that you can override at placement level. -->
 
-#### [!UICONTROL DoubleVerify Authentic Brand Safety]
+#### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
 **[!UICONTROL DoubleVerify Account]:** （[!DNL DoubleVerify] のお客様のみ。オプション）組織の [!DNL DoubleVerify] アカウントに関連付けられたブランドセーフティセグメント ID。
 
-**[!UICONTROL Enable Authentic Brand Safety]:** （オプション）デフォルトでは、[!DNL DoubleVerify] Authentic Brand Safety が有効になっており、指定されたセグメント ID に設定されたカスタムブランドセーフティルールを使用して、入札後のインプレッションをブロックします。 DSPは、セグメント ID の使用に対してアカウントに請求します。
+**[!UICONTROL Enable Authentic Brand Suitability]:** （任意）デフォルトでは、[!DNL DoubleVerify Authentic Brand Safety] が有効になっています。これにより、指定したセグメント ID に設定されたカスタムブランドセーフティルールを使用して、入札後のインプレッションがブロックされます。 DSPは、セグメント ID の使用に対してアカウントに請求します。
 
 広告主レベルの設定は、プレースメントレベルで上書きできます。
 

@@ -3,7 +3,7 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 0%
@@ -215,11 +215,11 @@ ht-degree: 0%
 
 アウトストリーム広告は、通常、ビデオプレーヤーの通常のビデオ広告ではなく、ポップアップとして、またはコンテンツに詰め込まれた（ネイティブエクスペリエンスの）コンテンツ上に表示されます。
 
-## [!UICONTROL Site Targeting]
+## [!UICONTROL Site and App Targeting]
 
 **[!UICONTROL Traffic type]:** ターゲットにするトラフィックのタイプ。 オプションには、**[!UICONTROL Websites]** と **[!UICONTROL Apps]** があります。
 
-**[!UICONTROL Site tier]:** （**[!UICONTROL Paste list of targeted sites]** が *[!UICONTROL Off]* の場合に使用可能）ターゲットとするサイトの品質。 階層 1～3 はすべてブランドセーフであり、DSP マッピングチームによって承認されています。
+**[!UICONTROL Tier]:** （**[!UICONTROL Paste list of targeted sites]** が *[!UICONTROL Off]* の場合に使用可能）ターゲットにするトラフィックの品質。 階層 1～3 はすべてブランドセーフであり、DSP マッピングチームによって承認されています。
 
 * *[!UICONTROL Tier 1]:* 全国的に認識できる Premium サイトおよびアプリケーション。
 
@@ -227,7 +227,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Tier 3]:* ターゲット階層 1～2 に加えて、ニッチなオーディエンスに対応する、正当でブランドに安全なサイトとアプリケーション。 リーチまたはデータターゲティング購入には階層 3 を使用します。
 
-* *[!UICONTROL All Sites]:* ターゲット階層 1～3 およびスクリーニングまたは分類されていない新規在庫で、リーチに使用できます。
+* *[!UICONTROL All Sites or Apps]:* ターゲット階層 1～3 およびスクリーニングまたは分類されていない新規在庫で、リーチに使用できます。
 
 >[!NOTE]
 >
@@ -237,7 +237,7 @@ ht-degree: 0%
 >
 >パフォーマンスキャンペーンの場合、ベストプラクティスは *[!UICONTROL All Sites]* を選択することです。
 
-**[!UICONTROL Site Categories]:** （オプション。**[!UICONTROL Paste list of targeted sites]** が *[!UICONTROL Off]* の場合に使用可能）選択したサイト階層内のサイト カテゴリをターゲットとして含めるか除外（両方ではない）します。 件名に基づいてDSPがマッピングした垂直方向のサイトリストから選択します。
+**[!UICONTROL Site or App Categories]:** （オプション。**[!UICONTROL Paste list of targeted sites]** が *[!UICONTROL Off]* の場合に使用可能）選択したサイト階層内のサイト カテゴリをターゲットとして含めるか除外（両方ではない）します。 件名に基づいてDSPがマッピングした垂直方向のサイトリストから選択します。
 
 1. ![ 編集 ](/help/dsp/assets/edit.png) をクリックします。
 1. 含めるか除外するサイト カテゴリを指定します。
@@ -250,7 +250,7 @@ ht-degree: 0%
 1. （オプション）ターゲット情報を含んだ CSV ファイルをブラウザーのダウンロード場所にダウンロードするには、「**[!UICONTROL Export]**」をクリックします。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-**[!UICONTROL Exclude Sites]:** （オプション。**[!UICONTROL Paste list of targeted sites]** が *[!UICONTROL Off]* の場合に使用可能）除外するサイト。 サイトを検索して選択するか、ドメイン名を入力または貼り付けることができます。
+**[!UICONTROL Exclude Sites or Apps]:** （オプション。**[!UICONTROL Paste list of targeted sites]** が *[!UICONTROL Off]* の場合に使用可能）除外するサイト。 サイトを検索して選択するか、ドメイン名を入力または貼り付けることができます。
 
 1. ![ 編集 ](/help/dsp/assets/edit.png) をクリックします。
 1. サイトを指定します。
@@ -273,7 +273,7 @@ ht-degree: 0%
 
 **[!UICONTROL Language]:** （任意）ターゲットとする単一の言語。
 
-**[!UICONTROL Site List Preview]:** （読み取り専用）プレースメントのすべてのターゲットサイトとブロックサイト。
+**[!UICONTROL Site or App List Preview]:** （読み取り専用）プレースメントのすべてのターゲットサイトとブロックサイト。
 
 オプションで、ターゲットサイトとブロックされたサイトのリストをコンマ区切り値（CSV）ファイルとして書き出すことができます。 リストをエクスポートするには、[**[!UICONTROL Export full site list]**] をクリックし、ブラウザの通常の手順に従ってファイルを開くか保存します。
 
@@ -389,7 +389,7 @@ ht-degree: 0%
 1. （オプション） ISP のターゲット情報が記載された CSV ファイルをブラウザーのダウンロード場所にダウンロードするには、「**[!UICONTROL Export]**」をクリックします。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-## [!UICONTROL Brand Safety and Media Targeting]
+## [!UICONTROL Brand Safety and Media Quality]
 
 **[!UICONTROL Contextual filtering]:** 適用する [!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science] および [!DNL Peer39] コンテキストフィルターのタイプ。 新しいプレースメントには広告主レベルのデフォルトが選択されますが、設定は変更できます。
 
