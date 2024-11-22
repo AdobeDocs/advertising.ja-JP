@@ -3,7 +3,7 @@ title: オーディエンスソースを管理してユニバーサル ID オー
 description: ソースを作成および管理して、顧客データプラットフォームからオーディエンスを読み込み、ユニバーサル ID を含むセグメントに変換する方法を説明します。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 02ed538a48a4ba0323f9b75938ee6b007c6e0fd7
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%
@@ -34,7 +34,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. [!UICONTROL Select a Type] メニューで、[ 顧客データプラットフォーム ](source-about.md) を選択します。
 
-   * *[!UICONTROL RT-CDP]*:[!DNL Adobe Real-Time Customer Data Platform]。
+   * *[!UICONTROL RT-CDP]*:[!DNL Adobe Real-Time CDP]。
 
    * *[!UICONTROL ActionIQ]*:[!DNL ActionIQ] 顧客データプラットフォーム。
 

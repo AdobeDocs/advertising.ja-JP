@@ -3,7 +3,7 @@ title: ' [!DNL Adobe] [!DNL Real-time CDP] の機能を備えたDSP統合の使�
 description: DSPでファーストパーティセグメントを取り込む方法  [!DNL Adobe] [!DNL Real-time CDP] ついて説明します。
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta機能*
 
-Adobe Experience Platformの一部である [the [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html) とのDSP統合を使用して、ハッシュ化されたメールアドレスをターゲット広告のユニバーサル ID に変換します。
+Adobe Experience Platformの一部である [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html) とのDSP統合を使用して、ハッシュ化されたメールアドレスをターゲット広告のユニバーサル ID に変換します。
 
 1. （メールアドレスを [!DNL RampIDs]<!-- or [!DNL ID5] IDs --> に変換するには：[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) を使用する広告主） [!DNL Analytics] 測定のトラッキングを設定します。
 

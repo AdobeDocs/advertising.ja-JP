@@ -3,7 +3,7 @@ title: ファーストパーティオーディエンスソースについて
 description: ファーストパーティセグメントの他のユーザー識別子をユニバーサル ID に変換して、クッキーなしのターゲティングを実現する方法を説明します。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -70,9 +70,9 @@ DSPは、ファーストパーティセグメントをすばやく取り込む�
 
 DSPは、バッチ、ストリーミング、または API ベースのデータ共有を使用して、追加の CDP にも接続できます。 新しい CDP と統合する場合は、Adobeアカウントチームにお問い合わせください。
 
-### [!DNL Adobe Real-Time Customer Data Platform]
+### [!DNL Adobe Real-Time CDP]
 
-DSPは、Adobe Experience Platformの一部である [the [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html) の統合 *宛先* です。
+DSPは、Adobe Experience Platformの一部である [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html) の統合 *宛先* です。
 
 ま [!DNL Real-Time CDP]、宛先は、シームレスなデータのアクティベーションを可能にする外部データプラットフォームへの接続です。 宛先を使用して、DSPでのターゲット広告用にハッシュ化されたメールアドレスをアクティブ化できます。 宛先について詳しくは、Experience Platformの概要、[ 宛先ワークスペースの作成 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html) および [ 宛先接続の作成 [ の手順 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) 宛先へのデータのアクティベート ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) など、製品 [ 宛先ガイド ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html) を参照してください。
 
