@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: d17a2ebc90d95daf2f159099c5603a7e1be19cdd
+source-git-commit: b6182274a03d508868b1e333ec865266ea738ccc
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2662'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| リリース日：2024 年 10 月 29 日（Pt） | [!DNL Adobe Analytics for Advertising] | （[!DNL Adobe Analytics for Advertising] および [!DNL Microsoft Advertising] の Performance MAX キャンペーンを使用する広告主）広告およびキーワードを含まない Performance MAX キャンペーンのトラッキング URL に新しい AMO ID （[!DNL s_kwcid]）パラメーターを実装した際に、Performance MAX キャンペーンのアセットグループレベルのデータがAdobe Analyticsで使用できるようになりました。 ほとんどの Performance MAX キャンペーンのトラッキングは、既に新しいフォーマットに移行されています。 ただし、[!UICONTROL Auto Upload] トラッキングオプションを持たず、新しいフォーマットに移行されなかった Performance MAX キャンペーンの場合は、各ランディングページのサフィックスを手動で更新して、次の AMO ID フォーマットを含める必要があります。<br><br>`AL!%(userid)d!%(sid)d!%(creativeref)s!!!%(termid/orderid)d!!!%(campaignid)!%(adref)`<br><br>Performance MAX キャンペーンのAdobe Analytics データは、検索、ソーシャル、Commerceでも入手できます。 | 新しい [AMO ID フォーマット ] （（/help/integrations/analytics/ids.md #amo-id-format-search）および [ トラッキング URL にパラメーターを追加するタイミングと方法 ](/help/integrations/analytics/ids.md#amo-id-implement) を参照してください。 |
 | 2024 年 10 月 29 日（Pt） | [!UICONTROL Campaigns] | Performance MAX と検索キャンペーンごとに、新規顧客に対する入札を高く設定するか、新規顧客に対する入札のみを行うか、新規顧客と既存顧客に対する入札を均等に行うか [!DNL Google Ads] うかを選択できるようになりました。 新規顧客に対して高い入札率を割り当てるには、まず [!DNL Google Ads] を使用して、[!DNL Google Ads] のアカウントまたはマネージャーアカウントの新規顧客獲得目標をアクティブ化する必要があります。 目標定義には、適格な既存の顧客リストと、新規顧客に対する追加のコンバージョン値が含まれます。 | 「[[!DNL Google Ads]  キャンペーン設定 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)」を参照してください。<br><br> [!DNL Google Ads] のヘルプ「[ 新しい顧客獲得目標について ](https://support.google.com/google-ads/answer/12080169)」および「[ 新しい顧客獲得目標のアクティベート ](https://support.google.com/google-ads/answer/14007601)」の手順 1～2 も参照してください。 |
 | 2024 年 9 月 3 日（Pt） | [!DNL Google Ads] コンバージョン | リードの [!DNL Google Ads] Enhanced コンバージョンで次のサポートが利用できるようになりました。このサポートは、web サイトのリードから生じる電話販売の追跡など、クリック ID （`gclid` 値）を使用できないオフラインコンバージョンイベントに使用できます。<ul><li>検索、ソーシャル、Commerceでは、リードの既存の強化されたコンバージョンを同期して、レポートや最適化に使用できます。 データは毎日、05:00 に広告主のタイムゾーンで同期されます。</li><li>リードの拡張コンバージョンに対するコンバージョンアクションを作成できます。</li><li>リードの拡張コンバージョンにマッピングされたファーストパーティのオフラインコンバージョンデータをアップロードできます。</li></li></ul>リードの拡張コンバージョンのコンバージョンタグをGoogle内で別途作成し、実装する必要があります。 | ワークフローの概要については、「[ リードのコンバージョンの実装  [!DNL Google Ads]  拡張 ](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)」、「[ リードの拡張コンバージョンのコンバージョンアクションの作成  [!DNL Google Ads] 」および「[ 拡張コンバージョンのオフラインコンバージョンデータのアップロード ](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)」を参照し ](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md) ください。 |
 | | [!UICONTROL Campaigns]<br>[!UICONTROL Reports] | （[!DNL Google Ads] パフォーマンス最大化キャンペーン）新機能により、アセットグループの情報とデータが提供されます。<ul><li>各 performance max キャンペーンの既存のアセットグループの設定では、次の 2 つの読み取り専用情報フィールドを使用できます。<ul><li>**[!UICONTROL Primary Status]:** アセットグループがフルキャパシティで提供されている、または提供されていない理由。 アセットグループのステータスに加え、ポリシーや品質の承認などの他のシグナルも考慮されます。</li><li>**[!UICONTROL Primary Status Reason]:** アセットグループのプライマリステータスに関する追加の詳細。</li></ul></li><li>新しい専門レポート [!UICONTROL Google Asset Group Performance Report] は、指定されたアカウント内の performance max キャンペーンでアセットグループのパフォーマンスデータを提供します。 レポートには、含まれる各アセットグループのプライマリステータスおよびステータス理由が含まれます。</li></ul> | 「[[!DNL Google Ads]  キャンペーン設定 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)」、「[ キャン [!UICONTROL Google Asset Group Performance Report]](/help/search-social-commerce/reports/management/specialty/google-asset-group-performance-report.md) ーン」および「[ 専門レポート設定 ](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)」を参照してください。 |
