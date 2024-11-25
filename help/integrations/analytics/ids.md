@@ -3,9 +3,9 @@ title: 使用するAdobe AdvertisingID [!DNL Analytics]
 description: 使用するAdobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 0f55d98a5abfa75b4ef5dc18ad2cfb22b9e24e78
+source-git-commit: 33a27faa14cbd1fa3248364cc7a3bf9c0cd94c76
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1737'
 ht-degree: 0%
 
 ---
@@ -221,27 +221,26 @@ where:
 
 ##### [!DNL Microsoft Advertising]
 
-* 検索キャンペーン：
+* すべてのキャンペーンタイプ：
 
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
-
-* パフォーマンス最大キャンペーン数
-
-  `s_kwcid=AL!%(userid)d!{sid}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
-
-* ショッピングキャンペーン（[!DNL Microsoft Merchant Center] を使用）:
-
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
-
-* オーディエンスネットワークキャンペーン：
-
-  `s_kwcid=AL!{userid}!{sid}!{AdId}`
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 
 ここで、
 
 * `{AdId}` は、クリエイティブの広告ネットワークの一意の数値 ID です。
 * `{OrderItemId}` は、広告ネットワークのキーワードの数値 ID です。
-* `{CriterionId}` は、製品広告で使用される製品グループの広告ネットワークの数値 ID です。
+* `{CampaignId}` は、広告ネットワークにおけるキャンペーンの一意の数値 ID です。
+* `{AdGroupId}` は、広告グループの広告ネットワークの一意の数値 ID です。
+
+>[!NOTE]
+>
+>パフォーマンスキャンペーンを含むすべてのアカウントが、上記の形式に移行されました。 他のキャンペーンタイプを使用するアカウントの場合、ランディングページのサフィックスは、2025 年初頭までに新しい s_kwcid 形式を使用するように移行されます。 それまでの間、次のような従来の形式も引き続き機能します。
+>* 検索キャンペーン：
+>  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>* ショッピングキャンペーン（[!DNL Microsoft Merchant Center] を使用）:
+>  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+>* オーディエンスネットワークキャンペーン：
+>  `s_kwcid=AL!{userid}!{sid}!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
