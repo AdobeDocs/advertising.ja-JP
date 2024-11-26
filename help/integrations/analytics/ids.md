@@ -3,9 +3,9 @@ title: 使用するAdobe AdvertisingID [!DNL Analytics]
 description: 使用するAdobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 33a27faa14cbd1fa3248364cc7a3bf9c0cd94c76
+source-git-commit: 7d10ab34b804f96d621c351d9f8049c924019ba1
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1738'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,7 @@ where:
 
 >[!NOTE]
 >
->パフォーマンスキャンペーンを含むすべてのアカウントが、上記の形式に移行されました。 他のキャンペーンタイプを使用するアカウントの場合、ランディングページのサフィックスは、2025 年初頭までに新しい s_kwcid 形式を使用するように移行されます。 それまでの間、次のような従来の形式も引き続き機能します。
+>Performance MAX キャンペーンを使用するすべてのアカウントが上記の形式に移行されました。 他のキャンペーンタイプを使用するアカウントの場合、ランディングページのサフィックスは、2025 年初頭までに新しい s_kwcid 形式を使用するように移行されます。 それまでの間、次のような従来の形式も引き続き機能します。
 >* 検索キャンペーン：
 >  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* ショッピングキャンペーン（[!DNL Microsoft Merchant Center] を使用）:
