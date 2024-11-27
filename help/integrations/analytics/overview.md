@@ -3,9 +3,9 @@ title: 概要  [!DNL Analytics for Advertising]
 description: 概要  [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 2575b737926cfd681fd744401d5f4555402fbee2
+source-git-commit: 8911f6ea16878bede96151f004e6de2717484140
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,8 @@ Adobe Advertisingディメンションには、サフィックス「（AMO ID）
 ### 入札シグナルとしてのサイトコンバージョン指標
 
 [!DNL Analytics] の標準イベントとカスタムイベントを使用して、Adobe Advertisingの重み付けされた目標を作成できます。 目標は、[!DNL DSP] パッケージと検索、ソーシャル、Commerce ポートフォリオの入札に関する意思決定に役立ちます。
+
+検索、ソーシャル、Commerceのハイブリッドポートフォリオにおける [!DNL Google Ads] および [!DNL Google Microsoft Advertising] キャンペーンの場合は、必要に応じて、目標内の [!DNL Analytics] イベントを含む目標を広告ネットワークに直接アップロードできます。広告ネットワークでは、アカウントレベルおよびキャンペーンレベルのカスタムコンバージョン目標のコンバージョンアクションとして使用できます。
 
 >[!NOTE]
 >
