@@ -3,9 +3,9 @@ title: アカウントの AMO ID （s_kwcid） トラッキングコード  [!DN
 description: アカウントの最新の AMO ID トラッキングコードに切り替える方法  [!DNL Google Ads]  説明します。
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: edb46265c6977a1e2c1b352f41fedcfc3a9e3bbf
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,13 @@ ht-degree: 0%
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-既存のアカウントの一部またはすべてについて、現在の形式に個別に変更できます。 Performance MAX キャンペーンまたはドラフトと実験キャンペーンがない場合は、新しい形式への移行はオプションです。
+従来の形式を使用する既存のアカウントの場合は、現在の形式に変更できます。 Performance MAX キャンペーンまたはドラフトと実験キャンペーンがない場合は、新しい形式への移行はオプションです。
 
 すべての新しい [!DNL Google Ads] アカウントで、現在の AMO ID 形式が自動的に使用されます。
 
 >[!NOTE]
+>
+>このオプションは、現在の形式を使用していないアカウントでのみ使用できます。
 >
 >アカウントの移行後、すべてのクリック、コスト、インプレッションのデータは変更後に正しくレポートされますが、移行前に発生したクリックスルーは引き続き古い AMO ID 形式に基づくコンバージョンデータに関連付けられます。
 
@@ -40,7 +42,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
 1. 移行を開始します。
 
-   1. 「**[!UICONTROL S_KWCID FORMAT]**」の横の「**[!UICONTROL LEGACY S_KWCID FORMAT]**」をクリックします。
+   1. [!UICONTROL Account Tracking] 設定の「**[!UICONTROL S_KWCID FORMAT]**」の横にある「**[!UICONTROL LEGACY S_KWCID FORMAT]**」をクリックします。
 
    1. 「**[!UICONTROL Migrate to new s_kwcid format]**」をクリックします。
 
@@ -58,7 +60,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
    * トラッキング設定で「[!UICONTROL Auto Upload]」機能が有効になっている場合、検索、ソーシャルおよびCommerceは、このアカウントおよびそのキャンペーンのランディングページサフィックスのトラッキングコードを自動的に更新します。 何もする必要はありません。
 
-   * [!UICONTROL Auto Upload]」機能が有効ではなく、[ サーバーサイド AMO ID 機能 ](/help/integrations/analytics/ids.md#amo-id-formats) を使用しない場合、ランディングページのサフィックス設定の AMO ID パラメーターを手動で更新する必要があります。 アカウントレベルとキャンペーンレベルのサフィックスは、アカウント設定とキャンペーン設定で手動で変更することも、バルクシートに変更をアップロードして変更することもできます。 広告グループレベル以下にサフィックスを設定するには、[!DNL Google Ads] エディターを使用します。
+   * [!UICONTROL Auto Upload]」機能が有効ではなく、[ サーバーサイド AMO ID 機能 ](/help/integrations/analytics/ids.md#amo-id-formats) を使用しない場合、ランディングページのサフィックス設定の AMO ID パラメーターを手動で更新する必要があります。 アカウントレベルとキャンペーンレベルのサフィックスは、[ アカウント設定 ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) および [ キャンペーン設定 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) または [ バルクシートに変更内容をアップロード ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) することで手動で変更できます。 広告グループレベル以下にサフィックスを設定するには、[!DNL Google Ads] エディターを使用します。
 
    * キャンペーンコンポーネントのベース URL 設定に AMO ID を含める場合は、関連するランディングページのサフィックス設定に移動します。
 
