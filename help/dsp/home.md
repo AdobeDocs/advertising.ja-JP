@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: feb31bf2408d2e6045c410e5750854bd0cbd2113
+source-git-commit: dd359c91b97d5aea3d1d01d19ef585bc24d9e266
 workflow-type: tm+mt
 source-wordcount: '4622'
 ht-degree: 0%
@@ -94,4 +94,4 @@ ht-degree: 0%
 |  | [!UICONTROL Ads] | （広告に [!DNL Clearcast] 時計番号を含める権限を持つユーザー）別の広告に添付されている時計番号を使用しても、DSPでエラーが表示されなくなりました。 **注意：** ベストプラクティスは、各ビデオ広告に一意の時計番号を使用することです。 そうしないと、出版社はすべての広告を承認しません。 | — |
 |  | [!UICONTROL Deal IDs] | [!UICONTROL Deal ID] の設定およびユーザーインターフェイスのその他の場所は、[!DNL Magnite] の SSP の新しいブランディングを反映しています。<br><ul><li>SSP 「[!DNL Tremor]」（[!DNL Telaria]）は「[!DNL Magnite CTV]」になりました。</li><li>今後数週間で、「[!DNL Rubicon]」は「[!DNL Magnite DV+]」に変更されます。[!DNL DV+] はディスプレイ、ビデオ、およびその他の形式（オーディオなど）を表します。</li></ul> | 「[SSP パートナー ](/help/dsp/inventory/ssp-partners.md)」を参照してください。 |
 |  | プログラムで保証された取引の [!DNL Freewheel] | 広告を送信し、プログラムで保証された取引の広告のステータス [!DNL Freewheel] ジ [!UICONTROL Ads] ーニー表示から確認できるようになりました。 以前は、両方を [!UICONTROL Deals] ビューからのみ実行できました。 | [ プログラムで保証された取引に対する広告の送信  [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel]  プログラムで保証された取引 ](/help/dsp/inventory/freewheel-check-status.md)」を参照してください。 |
-| 2021 年 10 月 7 日（Pt） | ヘルプ | [!DNL Experience League] のすべての [DSPおよびその他のAdobe Advertisingドキュメント ](https://experienceleague.adobe.com/docs/advertising.html) は、利用可能なすべての言語に機械翻訳されるようになりました。 表示言語を変更するには、ページの左下にある「言語を変更」メニューを使用します。<br>![ 言語を変更 ](/help/dsp/assets/change-language.png) |
+| 2021 年 10 月 7 日（Pt） | ヘルプ | [!DNL Experience League] のすべての [DSPおよびその他のAdobe Advertisingドキュメント ](https://experienceleague.adobe.com/en/docs/advertising) は、利用可能なすべての言語に機械翻訳されるようになりました。 表示言語を変更するには、ページの左下にある「言語を変更」メニューを使用します。<br>![ 言語を変更 ](/help/dsp/assets/change-language.png) |
