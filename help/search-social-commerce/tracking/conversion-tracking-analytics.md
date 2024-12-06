@@ -3,7 +3,7 @@ title: Adobe Analyticsのコンバージョントラッキング
 description: Adobe AdvertisingのキャンペーンにAdobe Analytics コンバージョントラッキングを使用する方法を説明します。
 exl-id: c72cc988-5b51-4e1a-8cb6-6c3ca2a0226b
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 8deabf2c98901d706acdd035221e8c24e4a1d20d
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Adobe AdvertisingとAdobe Analyticsの統合を利用する広告主の場合、Advertising Cloudは、[ 入札単位 ](/help/search-social-commerce/glossary.md#a-b) のクリックトラッキング URL でトークン（`ef_id` パラメーター）を使用してリダイレクトを使用する際に、[!DNL Analytics] が追跡するサイトエンゲージメントおよびコンバージョン指標に、広告のクリック数およびインプレッション数を結び付けることができます。 [!DNL Analytics] データは、毎日のフィードファイルを介してAdvertising Cloudに自動的に送信されます。
 
-統合について詳しくは、「[ の概要  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}」を参照してください。
+統合について詳しくは、「[ の概要  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/dsp/integrations/analytics/overview.html){target="_blank"}」を参照してください。
 
 >[!PREREQUISITES]
 >
