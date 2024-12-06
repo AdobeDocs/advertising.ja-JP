@@ -3,9 +3,9 @@ title: リードのコ  [!DNL Google Ads]  バージョンの実装と強化
 description: リードの拡張コンバージョンを設定するためのワークフロー  [!DNL Google Ads]  ついて説明します。
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
-source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
+source-git-commit: e0b1a65e3eddc41bed73817dabb6e38b1ef881b5
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,13 @@ ht-degree: 0%
 
    1. 変換タグの作成に [!DNL Google] タグを使用するか、[!DNL Google Tag Manager] を使用するかを選択します。
 
-
-1. コンバージョンアクションの [!DNL Google] タグを設定して実装します。
+1. コンバージョンアクションを追跡するタグを設定して実装します。
 
    手順については、リードの拡張コンバージョン用のタグを作成するための [!DNL Google Ads] ヘルプ [using a [!DNL Google] tag](https://support.google.com/google-ads/answer/11021502) または [using [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292) を参照してください。
 
 1. [ 検索、ソーシャル、Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) または [Google広告 ](https://support.google.com/google-ads/answer/12216226) 内で、リードの拡張コンバージョンのコンバージョンアクションを作成します。
 
-   **コンバージョンのタイプ** で、*コンバージョンをインポート* または *インポート* を選択します。
+   検索、ソーシャル、Commerce内でコンバージョンアクションを作成する場合、**コンバージョンのタイプ** を *コンバージョンをインポート* または *インポート* として指定します。
 
 1. 必要に応じて、ハッシュ化されたメールアドレスや電話番号などのファーストパーティデータを、指定したアカウントのコンバージョンに関連付けるためにアップロードします。 この手順は、[ 検索、ソーシャル、Commerce](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md) 内または [!DNL Google Data Manager] を使用して実行できます。
 

@@ -4,9 +4,9 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 4fe931a07246920eeef8ce08e3a38c5fd6534bd4
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1738'
 ht-degree: 2%
 
 ---
@@ -238,6 +238,7 @@ ht-degree: 2%
          + [動的検索広告  [!DNL Google Ads]  実装](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
          + [パフォ  [!DNL Google Ads]  マンス最大化キャンペーンの実装](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
          + [買い物キャ  [!DNL Google Ads]  ペーンの実装](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+         + [オフライ  [!DNL Microsoft Advertising]  コンバージョン用の拡張コンバージョンの実装](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
          + [買い物キャ  [!DNL Microsoft Advertising]  ペーンの実装](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
       + [広告ネットワークデータの手動同期](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
    + [ポートフォリオへのキャンペーンの割り当て](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
@@ -410,9 +411,9 @@ ht-degree: 2%
       + [広告主について追跡されたコンバージョン指標の表示](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
       + [管理ビューおよびレポートで使用可能なコンバージョン指標の変更](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
       + [コンバージョン指標の表示名の変更](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
-      + 広告ネットワーク固有のコンバージョンタグとコンバージョンアクションの管理 {#network-conversions}
+      + 広告ネットワーク固有のコンバージョンタグとコンバージョンアクション/目標 {#network-conversions} 定の管理
          + [ [!DNL Google Ads] のコンバージョンタグを作成します。](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
-         + のコンバージョンアクション {#conversion-actions} 管理
+         + コンバージョンアクションと目標 {#conversion-actions} 定の管理
             + [リードの拡張コンバージョン用  [!DNL Google Ads]  コンバージョンアクションの作成](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
             + [オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [ヘルプを表示](get-help.md)
