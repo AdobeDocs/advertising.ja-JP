@@ -3,9 +3,9 @@ title: Advertising DSPの Ad Management について
 description: 広告管理について説明します。
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ DSPでは、様々な広告タイプ向けのサードパーティの広告サ�
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-広告を設定したら、各広告をプレースメントに添付します。このプレースメントには、キャンペーンの配信方法を制御するターゲティングパラメーター（地域、オーディエンス、デバイス、在庫のターゲティングなど）が含まれます。 1 つの広告を 1 つまたは複数のプレースメントに添付できます。
+広告を設定したら、各広告を 1 つ以上のプレースメントに添付します。このプレースメントには、キャンペーンの配信方法を制御するターゲティングパラメーター（ジオターゲティング、オーディエンス、デバイス、在庫ターゲティングなど）が含まれます。 広告の実行を開始するには、広告をプレースメントに添付する必要があります。
 
 ## 利用可能な広告タイプ {#ad-types}
 
