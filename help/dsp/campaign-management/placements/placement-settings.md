@@ -3,9 +3,9 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
+source-git-commit: cbefed8dcf59038d57e145d511f2491dd928a788
 workflow-type: tm+mt
-source-wordcount: '3887'
+source-wordcount: '3967'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,15 @@ ht-degree: 0%
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
+**[!UICONTROL DoubleVerify ABS segment ID]:** （オプション。[!DNL DoubleVerify] 顧客のみ。デスクトッププリロール、標準およびクリックトゥプレイのディスプレイ、ネイティブのディスプレイおよびビデオのプレースメントでのみ使用できます。[ 契約に対するプログラムによるデフォルトの保証されたプレースメント ](/help/dsp/inventory/programmatic-guaranteed-about.md)）ではサポートされていません。プレースメントに使用する組織の [!DNL DoubleVerify] アカウントに関連付けられた [!DNL DoubleVerify Authentic Brand Safety] セグメント ID。 ID を指定すると、指定したセグメント ID に設定されたカスタムブランドセーフティルールを使用して、入札後のインプレッションがブロックされます。 DSPは、セグメント ID の使用に対してアカウントに請求します。
+
+ID は「51」で始まり、8 桁で構成する必要があります。 デフォルトでは、広告主アカウント設定でセグメント ID が指定されている場合、広告主レベルの ID が入力されますが、別のセグメントを使用するように ID を変更したり、ID を削除して機能を無効にしたりできます。
+
 **[!UICONTROL Contextual filtering]:** 適用する [!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science] および [!DNL Peer39] コンテキストフィルターのタイプ。 新しいプレースメントには広告主レベルのデフォルトが選択されますが、設定は変更できます。
+
+<!-- Looks like we didn't rename this:
+**[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
+-->
 
 * [!UICONTROL DoubleVerify]:
 
@@ -441,8 +449,6 @@ ht-degree: 0%
 * *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済ダイレクト・セラーからのみ在庫を購入する場合。
 
 **[!UICONTROL Attention Targeting]:** （ディスプレイ、ビデオ、モバイルおよび標準で接続されたテレビ [!DNL Adelaide] プレースメント）指定されたサイト、形式、広告サイズに基づいて、特定の注意レベル（高、中、低）で事前入札セグメントのターゲット。 セグメントは毎週更新されます。 **注意：**[!DNL Adelaide] セグメントをターゲティングに使用すると、[!DNL Adelaide] 注意ターゲティングで配信されるインプレッションごとに CPM 料金が発生します。この料金は、[ 注意力測定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md) の料金とは別のものです。 インタラクティブなプレロールプレースメントの場合、膨大なインプレッションに対してのみ請求されます。
-
-**[!UICONTROL DoubleVerify Authentic Brand Safety]:** （[!UICONTROL DoubleVerify Authentic Brand Safety] オプションで設定された広告主） [!DNL DoubleVerify Authentic Brand Safety] を有効にします。これにより、指定したセグメント ID に設定されたカスタムブランドセーフティルールを使用して、入札後にインプレッションをブロックします。 DSPは、広告主設定で指定されたセグメント ID の使用に対してアカウントに請求します。
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 

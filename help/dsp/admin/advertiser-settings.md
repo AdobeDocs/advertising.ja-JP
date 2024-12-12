@@ -2,9 +2,9 @@
 title: 広告主アカウント設定
 description: 使用可能な広告主設定の説明を参照してください。
 role: User, Admin
-source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
+source-git-commit: 20f69d2e8d5d289015c911f153609c0805307f0a
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -170,11 +170,9 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]:** （[!DNL DoubleVerify] のお客様のみ。オプション）組織の [!DNL DoubleVerify] アカウントに関連付けられたブランドセーフティセグメント ID。
+**[!UICONTROL DoubleVerify Account]:** （[!DNL DoubleVerify] 顧客のみ。オプション）すべてのプレースメントに対してデフォルトで使用する、組織の [!DNL DoubleVerify] アカウントに関連付けられた [!DNL DoubleVerify Authentic Brand Safety] 定のセグメント ID。 ID を指定すると、指定したセグメント ID に設定されたカスタムブランドセーフティルールを使用して、入札後のインプレッションがブロックされます。 DSPは、セグメント ID の使用に対してアカウントに請求します。
 
-**[!UICONTROL Enable Authentic Brand Suitability]:** （任意）デフォルトでは、[!DNL DoubleVerify Authentic Brand Safety] が有効になっています。これにより、指定したセグメント ID に設定されたカスタムブランドセーフティルールを使用して、入札後のインプレッションがブロックされます。 DSPは、セグメント ID の使用に対してアカウントに請求します。
-
-広告主レベルの設定は、プレースメントレベルで上書きできます。
+ID は「51」で始まり、8 桁で構成する必要があります。 広告主レベルの ID は、プレースメントレベルで変更または削除できます。
 
 >[!MORELIKETHIS]
 >
