@@ -1,9 +1,9 @@
 ---
-title: '[!DNL Yahoo! Japan Ads] キーワード設定'
+title: '[!DNL Yahoo! Japan Ads] キーワードの設定'
 description: キーワードの設定  [!DNL Yahoo! Japan Ads]  参照します。
 exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cfb7cf030d91ed6b2b31832fd8ab8c97135477f3
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** キーワード。 キーワードの最大長は 80 文字で、任意の [[!DNL Yahoo! Japan Ads]  一致タイプの構文 ](https://ads-help.yahoo.co.jp/yahooads/ss/articledetail?lan=en&amp;aid=27) を含みます。
+**[!UICONTROL Keywords]:** キーワード。 キーワードの最大長は 80 文字で、任意の [[!DNL Yahoo! Japan Ads]  一致タイプの構文 ](https://ads-help.yahoo-net.jp/s/article/H000044997) を含みます。
 
 最大 2000 個のキーワードを入力または貼り付けできます。 複数のキーワードをコンマで区切るか、別々の行に入力します。
 
