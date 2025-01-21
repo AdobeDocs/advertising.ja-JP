@@ -3,7 +3,7 @@ title: 広告ネットワークデータの手動同期
 description: サポートされる広告ネットワークのキャンペーン構造とキャンペーンエンティティの同期を手動でトリガーする方法について説明します。
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c4600e6ef41193f09722052ef9b16fe5d07bdaaf
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 同期する各アカウントまたはキャンペーンの横にあるチェックボックスを選択します。 一度に 50 件までのキャンペーンを同期できます。 一度に 5 つを超えるアカウントを同期する場合、ジョブは最大 5 つのアカウントのバッチに分割されます。
 
-1. ツールバーの **![その他")** をクリックし ](/help/search-social-commerce/assets/more.png "、**[!UICONTROL Sync]** を選択します。
+1. ツールバーの ![**その他 ") をクリックし**](/help/search-social-commerce/assets/more.png "、**[!UICONTROL Sync]** を選択します。
 
 同期ジョブのステータスは、[!UICONTROL Workspace] 表示で確認できます。 仕事にかかる時間は
 1 時間以上表示される。
