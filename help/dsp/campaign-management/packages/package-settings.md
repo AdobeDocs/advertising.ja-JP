@@ -3,9 +3,9 @@ title: パッケージ設定
 description: 使用可能なパッケージ設定の説明を参照してください。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: c1967636a762379f1daafb52cfe57dd0122b0748
+source-git-commit: 26c9c553dbd4086aa114b97dabdf4d9be10cdebe
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 **[!UICONTROL 3rd Party Billed Fees]:** （任意）請求不可コストとして追跡される静的なサードパーティ料金。
 
-* **[!UICONTROL CPM]:** 1000 インプレッション数（CPM）あたりのコスト。
+* **[!UICONTROL CPM]:** インプレッション数 1000 件あたりのコスト（CPM）。
 
-* **[!UICONTROL Description]:** CPM 料金の説明。
+* **[!UICONTROL Description]:** CPM手数料の説明。
 
 >[!NOTE]
 >
@@ -58,11 +58,11 @@ ht-degree: 0%
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** （パッケージレベルのペーシングを使用し、「[!UICONTROL Always Max Bid & Maximize Reach]」および「[!UICONTROL Lowest Cost per Reach]」の最適化目標を設定したパッケージのみ）キャンペーンでプログラムで保証されたすべてのプレースメントの世帯リーチデータを使用して、増分リーチを最適化します。
 
-**[!UICONTROL Custom Goal for Model Learning]:** （「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標を持つパッケージのみ） [ カスタム目標 ](/help/dsp/optimization/custom-goal.md) CPA または ROAS 指標の計算に使用される収益またはコンバージョンイベントを含む）。 カスタム目標には、パッケージ最適化の CPA または ROAS 指標に加えて、追加の重み付けされた上位ファネルイベント（ページ訪問数や買い物かごへの追加など）をオプションで含めることができます。 カスタム目標とそれを使用するキャンペーンを作成する際のベストプラクティスなど、カスタム目標の詳細については、「[ カスタム目標 ](/help/dsp/optimization/custom-goal.md)」および「[ パフォーマンスキャンペーンの設定のベストプラクティス ](/help/dsp/optimization/campaign-best-practices-performance.md)」を参照してください <!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]:** （「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標を持つパッケージのみ） [ カスタム目標 ](/help/dsp/optimization/custom-goal.md) CPA または ROAS 指標の計算に使用される収益またはコンバージョンイベントを含む）。 カスタム目標には、パッケージ最適化の CPA または ROAS 指標に加えて、使用する追加の重み付けされた上位ファネルイベント（ページ訪問数や買い物かごへの追加など）を含める必要があります。 カスタム目標とそれを使用するキャンペーンを作成する際のベストプラクティスなど、カスタム目標の詳細については、「[ カスタム目標 ](/help/dsp/optimization/custom-goal.md)」および「[ パフォーマンスキャンペーンの設定のベストプラクティス ](/help/dsp/optimization/campaign-best-practices-performance.md)」を参照してください <!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** （オプション。「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標を持つパッケージのみ）クリックベースのコンバージョンからのみ学習するように最適化モデルに指示します。 そうでない場合、最適化モデルは、クリックベースおよびインプレッションベースのコンバージョンの両方から学習します。
 
-**[!UICONTROL Conversion Metric]:** （「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標を持つパッケージのみ）広告費用対効果または獲得あたりのコストを計算するために使用する最終コンバージョンイベント （サインアップなど）または収益イベント/販売額（購入および購入値など）。 選択したカスタム目標にマッピングされたすべてのプライマリイベント（「目標指標」）のリストから選択します。 リストに何も表示されない場合は、カスタム目標を編集して、基になるイベントの少なくとも 1 つを目標指標として含めます。
+**[!UICONTROL Conversion Metric]:** （「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標を持つパッケージのみ）広告費用対効果または獲得あたりのコストの計算に使用する最終コンバージョンイベント （サインアップなど）または収益イベント/販売額（購入および購入値など）。 選択したカスタム目標にマッピングされたすべてのプライマリイベント（「目標指標」）のリストから選択します。 リストに何も表示されない場合は、カスタム目標を編集して、基になるイベントの少なくとも 1 つを目標指標として含めます。
 
 **[!UICONTROL Package Goal Type]:** （カスタム最適化目標を持つパッケージのみ） パッケージの目的。 この設定は、パッケージの最適化方法を決定するのに役立ちます。
 

@@ -3,7 +3,7 @@ title: 広告ネットワークアカウントの管理
 description: 広告ネットワークアカウントのアカウント詳細を設定および管理する方法について説明します。
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 68efad8ad3bc2985ac75a0f9437a2eafb194e4b6
+source-git-commit: 5a9c2eabc3fe03da0868aefb79c4f71d6029c384
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -261,7 +261,7 @@ Adobe Advertisingのクリックの追跡を使用するアカウントでは、
 
 **レポートスイート名：** （トークンによる EF リダイレクトのみ。Adobe AdvertisingとAdobe Analyticsの統合を使用する広告主。オプション）検索、ソーシャル、Commerceが広告ネットワークから収集する 1 つ以上の Analytics レポートスイート。これには、アカウントのエンティティ分類やクリックデータが含まれます。 この機能は、サポートされている広告ネットワークでのみ使用できます。
 
-レポートスイートにデータを表示するには、（a） アカウントに対してサーバーサイド AMO ID 機能を設定するか、（b）広告主レベルの「[!UICONTROL Enable tracking for SAINT feeds]」設定を有効にする必要があります。 さらに、検索、ソーシャル、Commerceからデータを受信するように広告主の Analytics アカウントを設定する必要があります。 詳しくは、Adobeアカウントチームにお問い合わせください。
+レポートスイートにデータを表示するには、（a） アカウントに対してサーバーサイド AMO ID 機能を設定するか、（b）広告主レベルの「[!UICONTROL Enable Advertising reporting in Analytics]」設定を有効にする必要があります。 さらに、検索、ソーシャル、Commerceからデータを受信するように広告主の Analytics アカウントを設定する必要があります。 詳しくは、Adobeアカウントチームにお問い合わせください。
 
 >[!MORELIKETHIS]
 >
