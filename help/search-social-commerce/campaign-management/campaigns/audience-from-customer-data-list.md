@@ -3,9 +3,9 @@ title: 顧客データリストを使用したカスタマーマッチオーデ�
 description: 顧客データリストからオーディエンスを作成および編集  [!DNL Google Ads]  お  [!DNL Microsoft Advertising]  び顧客一致させる方法を説明します。
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 46d736c3e14bf407c513c5cb6a153a578aa65121
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 顧客データを含んだファイルを必要な形式で生成します。
 
-   姓名、メールアドレスおよび電話番号は、SHA-256 アルゴリズムを使用してハッシュ化する必要があります。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads] オーディエンスの場合、許可された連絡先情報のフィールドと要件のリストについては、「[ ハッシュ化されたデータをアップロードするためのフォーマットガイドライン ](https://support.google.com/google-ads/answer/7476159)」に関する [!DNL Google Ads] のドキュメントを参照してください。 [!DNL Microsoft Advertising] オーディエンスについては、[ 顧客一致リストの準備 ] （https://help.ads.microsoft.com/#apex/ads/en/56921）に関する [!DNL Microsoft Advertising] ドキュメントを参照してください。 必要に応じて、連絡先情報の [!DNL Microsoft Excel] テンプレートをダウンロードできます。
+   姓名、メールアドレスおよび電話番号は、SHA-256 アルゴリズムを使用してハッシュ化する必要があります。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads] オーディエンスの場合、許可された連絡先情報のフィールドと要件のリストについては、「[ ハッシュ化されたデータをアップロードするためのフォーマットガイドライン ](https://support.google.com/google-ads/answer/7476159)」に関する [!DNL Google Ads] のドキュメントを参照してください。 [!DNL Microsoft Advertising] のオーディエンスについては、[!DNL Microsoft Advertising] 顧客一致リストの準備 [ に関するドキュメントを参照してください ](https://help.ads.microsoft.com/#apex/ads/en/56921)。 必要に応じて、連絡先情報の [!DNL Microsoft Excel] テンプレートをダウンロードできます。
 
 1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
 
@@ -54,11 +54,11 @@ ht-degree: 0%
 
          * （[!DNL Android™] apps） [!DNL Google Play] 内の [!DNL Android™] パッケージ名。「`id=<package_name>`」で識別されます。
 
-           例えば、https://play.google.com/store/apps/details?id=com.example.gameでは、パッケージ名は com.example.game です。
+           例えば、`https://play.google.com/store/apps/details?id=com.example.game` では、パッケージ名は com.example.game です。
 
          * （[!DNL iOS] アプリ） [!DNL iTunes App Store] 内のアプリケーション ID。URL の末尾に「`<idNNNNNNNNN>`」が付きます。 また、[!DNL iOS Developer Console] でも利用できます。
 
-           例えば、https://itunes.apple.com/us/app/id284882215では、ID は id284882215 です。
+           例えば、`https://itunes.apple.com/us/app/id284882215` では、ID は id284882215 です。
 
          開発チームが、関連するプラットフォームの [!UICONTROL App ID] にアクセスできます。
 
