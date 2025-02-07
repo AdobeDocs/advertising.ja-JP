@@ -1,0 +1,100 @@
+---
+title: ライブエクスペリエンス用の広告エクスペリエンスタグの書き出しと実装
+description: 広告エクスペリエンスタグをエクスポートし、オプションでAdvertising DSP キャンペーンにアップロードする方法を説明します。
+feature: Creative Experiences
+source-git-commit: fc2cd07944026badc0722c1449aa9aaf2c94bfd7
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 0%
+
+---
+
+# ライブエクスペリエンス用の広告エクスペリエンスタグの書き出しと実装
+
+*クローズドベータ版*
+
+クリエイティブサイズの広告タグを [ ライブ ](experience-about.md#experience-statuses) エクスペリエンスで使用できるようになったら、JavaScriptおよび iframe 形式でタグを生成してコピーし、Advertising DSPまたは他のDSPに実装できます。 DSPのタグには、DSPに必要なすべてのマクロが含まれます。
+
+Advertising DSPを使用する広告主は、オプションで、タグを広告としてAdvertising DSP キャンペーンに直接アップロードできます。
+
+>[!NOTE]
+>
+>* デシジョンツリーのターゲット設定を使用してエクスペリエンスを作成すると、該当するクリエイティブサイズごとに広告タグが自動的に作成さ [!DNL Creative] ます。
+>* デシジョンツリーのターゲティングを使用せずにエクスペリエンスを作成する場合は、該当するクリエイティブサイズごとに [ 広告タグを手動で作成 ](experience-tag-create-manually.md) する必要があります。
+>* エクスペリエンスタグは動的です。 エクスペリエンスを編集する場合、タグを更新する必要はありません。
+
+## デシジョンツリーのターゲット設定を使用したエクスペリエンスの広告タグの書き出し
+
+1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
+
+1. 次のいずれかの操作を行います。<!-- I see multiselect, but it's not actually working for me as of 2/3 so I don't know how exporting multiple tags works.-->
+
+   * カード表示で、エクスペリエンス名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Tag Manager]**」をクリックします。
+
+   * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします
+
+1. 該当する広告タグの行の上にカーソルを置き、![ 広告タグの書き出し ](/help/creative/assets/export.png " 広告タグの書き出し ")**[!UICONTROL Export ad tags]** または**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]** のいずれかをクリックします。
+
+<!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
+
+1. （オプション）「[!UICONTROL Macros]」タブで、タグに含めるカスタムマクロを最大 5 つ指定します。 含めるマクロごとに、次の操作を行います。
+
+   1. チェックボックスをオンにします。<!-- Explain more -->
+
+   1. カスタムマクロを入力します。<!-- Explain more -->
+
+1. 右上の「**[!UICONTROL Next]**」をクリックするか、左側のメニューの「**[!UICONTROL Generate ad tags]**」をクリックします。
+
+1. タグの種類を** *JavaScript<!-- sic -->* **または** *IFRAME* ** <!-- sic --> から選択します。
+
+1. [!UICONTROL Destinations] リストで、エクスペリエンスの広告を作成する場所を選択します。
+
+   * *Adobe Advertising:* 広告については、Advertising DSPで作成します。
+
+   * *汎用：* 他のDSPで作成する広告の場合。 **メモ：** 必要に応じて、追加のマクロを手動で含める必要がある場合があります。
+
+1. 「**[!UICONTROL Generate tags]**」をクリックします。
+
+1. タグをコピーまたはダウンロードします。
+
+   * 1 つの広告サイズでタグをコピーするには、タグ行を展開し、行の上にカーソルを置いて ![ コピー ](/help/creative/assets/copy.png " コピー ") **[!UICONTROL Copy]**.<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? --> をクリックします
+
+   * 生成されたすべてのタグをファイルとしてブラウザーのデフォルトのダウンロード場所にダウンロードするには、「![ タグをダウンロード ](/help/creative/assets/download.png " タグをダウンロード ")」をクリックします。
+
+   ファイルをテキストエディターで開いて、各タグをコピーできます。 JavaScript タグの場合、タグは `<script></script>` および `<noscript></noscript>`tags で囲まれます。 iframe タグの場合、タグは `<iframe></iframe>` タグで囲まれます。
+
+1. 関連するDSPのタグを実装します。
+
+   * Advertising DSP以外のDSPの場合は、DSP内で広告を作成するユーザーにタグを提供します。
+
+   * Advertising DSP用：
+
+      1. 右上の「**[!UICONTROL Next]**」をクリックするか、左側のメニューの「**[!UICONTROL DSP link]**」をクリックします。
+
+      1. 広告タグを使用できるキャンペーンを選択します。
+
+      1. 「**[!UICONTROL Assign Tags]**」をクリックします。
+
+         DSPが開き、選択したキャンペーンの [!UICONTROL Ads] ビューが表示されます。
+
+      1. [!UICONTROL Create ads] ビューで、広告タグを確認し、広告を作成する各タグを選択して、[**[!UICONTROL Create]**] をクリックします。
+
+         [!UICONTROL Ads] ビューには、[!DNL Creative] の広告タグと同じ名前の新しい広告が含まれるようになりました。 キャンペーン内の任意のプレースメントに [ 広告を添付 ](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) できます。
+
+<!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
+
+<!-- Add this info, with descriptions:
+
+## Ad tag formats
+
+### JavaScript
+
+### Iframe
+
+-->
+
+>[!MORELIKETHIS]
+>
+>* [ 該当するクリエイティブサイズの広告タグを手動で作成 ](experience-tag-create-manually.md)
+>* [ ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て ](experience-tag-assign-creatives.md)
+>* [ 広告タグの名前を変更 ](experience-tag-rename.md)
