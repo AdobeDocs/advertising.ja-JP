@@ -3,9 +3,9 @@ title: Advertising DSP マクロ
 description: 一般的なトラッキングと、サードパーティのディスプレイ広告でのクリックの追跡に使用できるマクロを参照します。
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---

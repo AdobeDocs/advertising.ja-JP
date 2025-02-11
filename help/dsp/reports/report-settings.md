@@ -3,7 +3,7 @@ title: カスタムレポートの設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 73641f1a3cd1729ccb978739e9888cf2ff58d16f
+source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 **範囲：** データを生成する日付範囲。 使用可能な日数は、レポートや選択したディメンションによって異なります。 次のいずれかを選択します。
 
-* **[!UICONTROL Last Calendar Week]:** 前のカレンダー週のデータが含まれます。
+* **[!UICONTROL Previous Calendar Week]:** 前のカレンダー週のデータが含まれます。
 
-* **[!UICONTROL Last Calendar Month]:** 前月のデータが含まれます。
+* **[!UICONTROL Previous Calendar Month]:** 前月のデータが含まれます。
 
 * **[!UICONTROL Custom Range]:** 特定の開始日と終了日の間のデータが含まれます。 前日までのデータをレポートするには、「**[!UICONTROL Present]**」を選択します。
 

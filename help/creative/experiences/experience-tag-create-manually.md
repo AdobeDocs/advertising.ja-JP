@@ -2,9 +2,10 @@
 title: 該当するクリエイティブサイズの広告タグを手動で作成
 description: 特定のクリエイティブサイズの広告タグを作成する方法を説明します。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,8 @@ ht-degree: 0%
    同じクリエイティブサイズに対して複数のタグを作成できます。<!-- What are the implications? -->
 
 1. 「**[!UICONTROL Create]**」をクリックします。
+
+   タグ行を展開すると、含まれているクリエイティブを確認できます。
 
 >[!MORELIKETHIS]
 >

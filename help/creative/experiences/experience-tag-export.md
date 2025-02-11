@@ -2,9 +2,10 @@
 title: ライブエクスペリエンス用の広告エクスペリエンスタグの書き出しと実装
 description: 広告エクスペリエンスタグをエクスポートし、オプションでAdvertising DSP キャンペーンにアップロードする方法を説明します。
 feature: Creative Experiences
-source-git-commit: fc2cd07944026badc0722c1449aa9aaf2c94bfd7
+exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,6 @@ Advertising DSPを使用する広告主は、オプションで、タグを広�
 >* デシジョンツリーのターゲット設定を使用してエクスペリエンスを作成すると、該当するクリエイティブサイズごとに広告タグが自動的に作成さ [!DNL Creative] ます。
 >* デシジョンツリーのターゲティングを使用せずにエクスペリエンスを作成する場合は、該当するクリエイティブサイズごとに [ 広告タグを手動で作成 ](experience-tag-create-manually.md) する必要があります。
 >* エクスペリエンスタグは動的です。 エクスペリエンスを編集する場合、タグを更新する必要はありません。
-
-## デシジョンツリーのターゲット設定を使用したエクスペリエンスの広告タグの書き出し
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
 
