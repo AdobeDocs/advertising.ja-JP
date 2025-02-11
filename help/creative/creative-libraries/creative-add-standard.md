@@ -2,9 +2,10 @@
 title: クリエイティブライブラリへの標準クリエイティブの追加
 description: クリエイティブライブラリに標準（非ダイナミック）クリエイティブを追加する方法を説明します。
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 >
 > ユーザーのターゲットが定義されていない広告エクスペリエンスに、個々のクリエイティブを直接含めることができます。 また、クリエイティブを [ バンドル ](bundle-manage.md) にグループ化して、ターゲット設定された広告エクスペリエンスに含めることもできます。
 
-## クリエイティブライブラリへのフレキシブルHTML広告の追加 {#flexible-creative-add}
+## クリエイティブライブラリへの柔軟なHTML広告の追加 {#flexible-creative-add}
 
 <!-- Later:
 You can do either of the following: 
@@ -32,7 +33,7 @@ You can do either of the following:
 
 -->
 
-複数の柔軟なクリエイティブユニットをアップロードできます。 柔軟なクリエイティブは、ZIP 形式で、最大 2 MB にする必要があります。 ファイル要件については、[HTML 5 クリエイティブの仕様 ](html5-creative-specification.md) を参照してください。
+複数の柔軟なクリエイティブユニットをアップロードできます。 柔軟なクリエイティブは、ZIP 形式で、最大 2 MB にする必要があります。 ファイル要件については、[HTML5 クリエイティブの仕様 ](html5-creative-specification.md) を参照してください。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
@@ -58,7 +59,7 @@ You can do either of the following:
 
    * ファイルを削除するには、横にあるチェックボックスの選択を解除します。
 
-1. [ フレキシブルHTML5 広告の設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) を指定します。
+1. [ フレキシブル HTML5 広告の設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) を指定します。
 
    デフォルトでは、アップロードしたばかりのクリエイティブがすべて選択されます。 値が 1 つだけの設定は、選択したすべてのクリエイティブに適用されます。一部の設定では、個々の値を指定できます。 特定のクリエイティブの設定を入力するには、適用できない各クリエイティブの横にあるチェックボックスの選択を解除します。
 
@@ -111,7 +112,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 >[!NOTE]
 >
->また、[ 柔軟なHTML5 クリエイティブを追加 ](#flexible-creative-add) することもできます。これは、すべての属性を標準のHTMLタグとして持つHTML5 クリエイティブで、[!DNL Creative] 内で直接編集できます。
+>また、[ 柔軟なHTML5 クリエイティブを追加 ](#flexible-creative-add) することもできます。これは、[!DNL Creative] 内で直接編集できる標準のHTML タグとしてすべての属性を持つHTML5 クリエイティブです。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
@@ -139,7 +140,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    [HTML5 広告の仕様 ](/help/creative/creative-libraries/html5-creative-specification.md) を参照してください。
 
-1. [HTML5 の広告設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) を指定してください。
+1. [HTML5 広告の設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) を指定してください。
 
 デフォルトでは、アップロードしたばかりのクリエイティブがすべて選択されます。 値が 1 つだけの設定は、選択したすべてのクリエイティブに適用されます。一部の設定では、個々の値を指定できます。 特定のクリエイティブの設定を入力するには、適用できない各クリエイティブの横にあるチェックボックスの選択を解除します。
 
@@ -175,7 +176,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. **[!UICONTROL Create]** をクリック
 
-## クリエイティブライブラリへのサードパーティクリエイティブの追加
+## クリエイティブライブラリへのサードパーティクリエイティブの追加 {#creative-add-third-party}
 
 [!DNL Creative] は、ほとんどのサードパーティの広告サーバーでホストされているクリエイティブに対してJavaScriptのトラッキングタグをサポートしています。
 
@@ -187,9 +188,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. **[!UICONTROL Create]**/**[!UICONTROL Creative]**/**[!UICONTROL 3rd Party]** をクリックします。
 
-1. [ サードパーティのクリエイティブ設定 ] で、JavaScript タグとその他のクリエイティブ設定を指定します。
+1. [ サードパーティのクリエイティブ設定 ](#creative-settings-third-party) で、JavaScript タグとその他のクリエイティブ設定を指定します。
 
-   使用可能なマクロのいずれかをコピーして、JavaScriptのタグに貼り付けることができます。
+   任意の [ 使用可能なマクロ ](/help/creative/creative-macros.md) をコピーして、JavaScriptのタグに貼り付けることができます。
 
 1. **[!UICONTROL Create]** をクリック
 
@@ -197,6 +198,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 >
 >* [ 標準クリエイティブを編集 ](/help/creative/creative-libraries/creative-edit-standard.md)
 >* [ 標準のクリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md)
+>* [URL をトラッキングするために使用可能なマクロ ](/help/creative/creative-macros.md)
 >* [ サポートされるクリエイティブサイズ ](/help/creative/creative-libraries/creative-sizes.md)
 >* [ クリエイティブのプレビュー ](/help/creative/creative-libraries/creative-preview.md)
 >* [ クリエイティブをバンドルに添付して分離する ](/help/creative/creative-libraries/creative-attach-detach-bundles.md)

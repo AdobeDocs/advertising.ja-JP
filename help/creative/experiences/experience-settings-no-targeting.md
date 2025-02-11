@@ -2,9 +2,10 @@
 title: ターゲット以外のエクスペリエンスの設定
 description: デシジョンツリーのターゲット設定を使用しない広告エクスペリエンスのすべての設定の説明を参照してください。
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: aeeca035-8ae2-4173-827a-b8690d228549
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -49,7 +50,7 @@ ht-degree: 0%
 
 **データパス：** （Dynamic Ads を使用したエクスペリエンスのみ。オプション） DSP、パブリッシャー、パートナーがインプレッションでリアルタイムに渡す特定のキーと値のペアに基づいてユーザーをターゲットに設定します。 最大 5 つのデータパスキー（パラメーター）を指定できます。<!-- May move this to just within the decision tree. -->
 
-後で特定のクリエイティブサイズの広告エクスペリエンスタグを作成すると、このフィールドで指定された各キーがタグのマクロとして追加されます。 DSPでタグを広告として実装する前に、タグ内の各キーと値のペアに値を入力する必要があります。
+後で特定のクリエイティブサイズの広告エクスペリエンスタグを作成すると、このフィールドで指定された各キーがタグのマクロとして追加されます。 DSPでタグを広告として実装する前に、タグ内のキーと値のペアごとに値を入力する必要があります。
 
 **半径：** （動的広告を使用したエクスペリエンスのみ。オプション）ターゲットにするユーザー半径。 0 マイルから 200 マイルまでの半径を選択します。<!-- Does this end up in the ad tag parameters? -->
 
@@ -67,7 +68,7 @@ ht-degree: 0%
 
 **[!UICONTROL Impression Tracking URL]:** （任意）エクスペリエンスから作成された広告のランディングページ URL に追加するサードパーティのインプレッショントラッキング URL。 最大 5 つの URL を含めることができます。 追加の URL を追加するには、![ アイコン ](/help/creative/assets/create.png) **[!UICONTROL Add More] をクリックして URL を入力します。
 
-URL を入力すると、使用可能なすべてのマクロと、それらを置き換えるデータが、ページの下部に表示されます。 URL 内にマクロの 1 つを挿入するには、マクロの説明の上にカーソルを置き、![ クリップボードにコピー ](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー ") をクリックし、必要な場所にマクロを URL フィールドに貼り付けます。
+URL を入力すると、すべての [ 使用可能なマクロ ](/help/creative/creative-macros.md) とそれらを置き換えるデータが、ページの下部に表示されます。 URL 内にマクロの 1 つを挿入するには、マクロの説明の上にカーソルを置き、![ クリップボードにコピー ](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー ") をクリックし、必要な場所にマクロを URL フィールドに貼り付けます。
 
 >[!NOTE]
 >
@@ -77,7 +78,7 @@ URL を入力すると、使用可能なすべてのマクロと、それらを�
 
 **[!UICONTROL Click Tracking URL]:** （任意）（任意）ランディングページ URL に追加するサードパーティのクリックトラッキング URL。 最大 5 つの URL を含めることができます。 追加の URL を追加するには、![ アイコン ](/help/creative/assets/create.png) **[!UICONTROL Add More]** をクリックして URL を入力します。
 
-URL を入力すると、使用可能なすべてのマクロと、それらを置き換えるデータが、ページの下部に表示されます。 URL 内にマクロの 1 つを挿入するには、マクロの説明の上にカーソルを置き、![ クリップボードにコピー ](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー ") をクリックし、必要な場所にマクロを URL フィールドに貼り付けます。
+URL を入力すると、すべての [ 使用可能なマクロ ](/help/creative/creative-macros.md) とそれらを置き換えるデータが、ページの下部に表示されます。 URL 内にマクロの 1 つを挿入するには、マクロの説明の上にカーソルを置き、![ クリップボードにコピー ](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー ") をクリックし、必要な場所にマクロを URL フィールドに貼り付けます。
 
 >[!NOTE]
 >
@@ -94,6 +95,7 @@ URL を入力すると、使用可能なすべてのマクロと、それらを�
 >
 >* [ デシジョンツリーのターゲット設定を使用しないエクスペリエンスの作成 ](experience-create-no-targeting.md)
 >* [ デシジョンツリーのターゲット設定を使用しないエクスペリエンスの編集 ](experience-edit-no-targeting.md)
+>* [URL をトラッキングするために使用可能なマクロ ](/help/creative/creative-macros.md)
 >* [ 該当するクリエイティブサイズの広告タグを手動で作成 ](experience-tag-create-manually.md)
 >* [ ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て ](experience-tag-assign-creatives.md)
 >* [ ターゲット設定を行わないエクスペリエンス用のトラッキング URL のカスタマイズ ](experience-tracking-urls-no-targeting.md)
