@@ -2,7 +2,8 @@
 title: URL を追跡するために使用可能なマクロ
 description: ランディングページの URL のトラッキング URL およびサードパーティのクリエイティブに追加できるマクロを参照します。
 feature: Creative Experiences, Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
+source-git-commit: 926d2a0db933a19f5ebef056eca2089f2de6ca64
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -38,14 +39,14 @@ ht-degree: 0%
 -->
 
 | マクロ | 説明 | Advertising DSPの Experience Tags で自動的に実行しますか？ |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | `${TM_CAMPAIGN_ID_NUM}` | DSPからキャンペーン ID をトラッキングしレポートします | はい |
 | `${TM_SITE_ID_NUM}` | DSPからサイト ID をトラッキングしレポートします | はい |
-| `${TM_PLACEMENT_ID_NUM}` | DSPからプレースメント ID を追跡およびレポートします | はい |
-| `${TM_AD_ID_NUM}` | DSPからの広告 ID を追跡してレポートします | はい |
+| `${TM_PLACEMENT_ID_NUM}` | DSPからプレースメント ID をトラッキングしレポートします | はい |
+| `${TM_AD_ID_NUM}` | DSPから広告 ID を追跡してレポートします | はい |
 | `${TM_CREATIVE_ID_NUM}` | DSPからクリエイティブ ID をトラッキングしレポートします | 該当なし |
-| `${TM_SESSION_ID}` | DSPからインプレッション ID をトラッキングしレポートします。 値が返されない場合、Advertising Creativeによって値が生成されます。 | はい |
-| `${TM_ACC_EXPERIENCE_ID}` | Advertising Creativeエクスペリエンス ID をトラッキングしレポートします | — |
+| `${TM_SESSION_ID}` | DSPからインプレッション ID をトラッキングしレポートします。 値が返されない場合、Advertising Creativeは値を生成します。 | はい |
+| `${TM_ACC_EXPERIENCE_ID}` | Advertising Creative Experience ID を追跡してレポートします | — |
 | `${TM_ACC_CREATIVE_ID}` | Advertising Creativeのクリエイティブ ID をトラッキングしレポートします | — |
 | `${TM_RANDOM}` | 1 ～ 1000000 の乱数 | — |
 | `${TM_TIMESTAMP}` | Unix タイムスタンプ （秒） | — |

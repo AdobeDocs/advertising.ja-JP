@@ -2,9 +2,10 @@
 title: リターゲティングピクセルの管理
 description: 広告エクスペリエンスのターゲットとして使用するリターゲティングピクセルを作成および実装する方法について説明します。
 feature: Creative Pixels
-source-git-commit: 91edc406401cbdae44932a2c70f7daf12d8d7b4e
+exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
+source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> * [!DNL Creative] は現在、Advertising DSPのユニバーサル ID のみをサポートしています。 今後のリリースでは、サードパーティのDSP.<!-- Clarify this and reword as needed --> 用のユニバーサル ID がサポートされます。
+> * [!DNL Creative] は現在、Advertising DSPのユニバーサル ID のみをサポートしています。 今後のリリースでは、サードパーティ DSP 用のユニバーサル ID がサポートされる予定です。<!-- Clarify this and reword as needed -->
 >* また、Adobe Audience ManagerとAdobe Analyticsのファーストパーティオーディエンスを [ エクスペリエンスのクリエイティブターゲット ](/help/creative/experiences/experience-settings-targeting.md) として使用することもできます。
 >* Advertising DSP プレースメント内で広告としてエクスペリエンスを使用する場合、DSPで使用可能なすべてのオーディエンスをターゲットに配置できます。 また、[ カスタムオーディエンスセグメントタグを作成 ](/help/dsp/audiences/custom-segment-create.md) して、特定のランディングページへのすべての訪問者をトラッキングし、それらのセグメントをプレースメントのクリエイティブターゲットとして使用することもできます。
 >* 広告ターゲティングのトラッキングをオプトアウトした web サイト訪問者は、オーディエンスセグメントまたはリターゲティングプロファイルに基づいてパーソナライズされたクリエイティブコンテンツを含む広告を受信しません。
@@ -78,7 +79,7 @@ ht-degree: 0%
 
    属性を手動で追加する場合は、URL エンコーディングを含める必要があります。
 
-   例えば、属性「category」、「color」、「size」を含み、ID5 のユニバーサル ID を取り込んだ場合、ピクセルタグにはパラメーター `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` および `&id5pid=--Insert ID5_PARTNER_ID--` が含まれます。 例えば、サイズ 10 の赤いサンダルを選択するユーザーをターゲットするには、画像タグとスクリプトタグの両方のパラメーターを `&ut1=--sandals--&ut2=--red--&ut3=--10--` に変更し、スクリプトタグに ID5 のパートナー ID （`&id5pid=--0123456789--` など）を入力します。&lt;! – 最終的な構文を確認します。*ut1=sandals&amp;ut2=10&amp;ut2=red のようにする必要がありますか。—>
+   例えば、属性「category」、「color」、「size」を含み、ID5 のユニバーサル ID を取り込んだ場合、ピクセルタグにはパラメーター `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` および `&id5pid=--Insert ID5_PARTNER_ID--` が含まれます。 例えば、サイズ 10 の赤いサンダルを選択するユーザーをターゲットするには、画像タグとスクリプトタグの両方のパラメーターを `&ut1=sandals&ut2=red&ut3=10` に変更し、スクリプトタグに ID5 のパートナー ID （`&id5pid=0123456789` など）を入力します。
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -116,7 +117,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Ramp ID]:* ピクセルタグは [!DNL Ramp IDs] を追跡します。 ユニバーサル ID に配信されるインプレッションには料金は発生しません。
 
-この機能を使用するには、ユニバーサル ID を新しい ID タイプに使用する前に、DSP アカウントの別のユーザーがユニバーサル ID 使用に関するサービス利用規約に 1 回だけ同意する必要があります。 マネージドサービス契約を締結しているお客様の場合、Adobeアカウントチームがお客様の同意を得て、組織に代わって条項に同意します。 用語を読むには、[**[!UICONTROL Terms of Service]**] をクリックします。 条件に同意するには、条件の下部までスクロールし、「**[!UICONTROL Accept]**」をクリックします。
+この機能を使用するには、ユニバーサル ID を新しい ID タイプに使用する前に、DSP アカウントの別のユーザーがユニバーサル ID 使用に関するサービス利用規約に 1 回同意する必要があります。 マネージドサービス契約を締結しているお客様の場合、Adobeアカウントチームがお客様の同意を得て、組織に代わって条項に同意します。 用語を読むには、[**[!UICONTROL Terms of Service]**] をクリックします。 条件に同意するには、条件の下部までスクロールし、「**[!UICONTROL Accept]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
