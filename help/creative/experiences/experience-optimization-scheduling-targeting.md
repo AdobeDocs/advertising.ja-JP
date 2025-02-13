@@ -2,9 +2,10 @@
 title: エクスペリエンスのクリエイティブの最適化とスケジュールのカスタマイズ
 description: 方法を学ぶ
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
+source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -30,11 +31,11 @@ ht-degree: 0%
 
 1. クリエイティブローテーションのタイプを選択します。
 
-   * ***重み付け* ** – 相対の重みに従って、各バンドル内のクリエイティブを手動で回転します。 各バンドルの重みをパーセントで入力します。 すべてのバンドルの重みは、最大 100 を加算する必要があります。
+   * &amp;ast;&amp;ast; *Weighted* &amp;ast;&amp;ast; – 各バンドルのクリエイティブを、相対的な重みに従って手動で回転します。 各バンドルの重みをパーセントで入力します。 すべてのバンドルの重みは、最大 100 を加算する必要があります。
 
-   * ***アルゴリズム* ** – 指定した最適化目標に従って、各バンドルのクリエイティブをアルゴリズムで回転させます。
+   * &amp;ast;&amp;ast;&amp;Algorithmic *&amp;* amp;&amp;ast; – 指定した最適化目標に従って、各バンドルのクリエイティブをアルゴリズムによって回転させます。
 
-   * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
+      * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -56,11 +57,11 @@ ht-degree: 0%
 
    1. クリエイティブローテーションのタイプを選択します。
 
-      * ***重み付け* ** – 相対の重みに従って、各バンドル内のクリエイティブを手動で回転します。 各バンドルの重みをパーセントで入力します。 選択したすべてのバンドルの重みは、最大 100 を加算する必要があります。
+      * &amp;ast;&amp;ast; *Weighted* &amp;ast;&amp;ast; – 各バンドルのクリエイティブを、相対的な重みに従って手動で回転します。 各バンドルの重みをパーセントで入力します。 選択したすべてのバンドルの重みは、最大 100 を加算する必要があります。
 
-      * ***アルゴリズム* ** – 指定した最適化目標に従って、各バンドルのクリエイティブをアルゴリズムで回転させます。
+      * &amp;ast;&amp;ast;&amp;Algorithmic *&amp;* amp;&amp;ast; – 指定した最適化目標に従って、各バンドルのクリエイティブをアルゴリズムによって回転させます。
 
-      * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
+         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
 
 1. 追加のスケジュールごとに、次の手順を実行します。
 
@@ -72,11 +73,11 @@ ht-degree: 0%
 
    1. クリエイティブローテーションのタイプを選択します。
 
-      * ***重み付け* ** – 相対の重みに従って、各バンドル内のクリエイティブを手動で回転します。 各バンドルの重みをパーセントで入力します。 選択したすべてのバンドルの重みは、最大 100 を加算する必要があります。
+      * &amp;ast;&amp;ast; *Weighted* &amp;ast;&amp;ast; – 各バンドルのクリエイティブを、相対的な重みに従って手動で回転します。 各バンドルの重みをパーセントで入力します。 選択したすべてのバンドルの重みは、最大 100 を加算する必要があります。
 
-      * ***アルゴリズム* ** – 指定した最適化目標に従って、各バンドルのクリエイティブをアルゴリズムで回転させます。
+      * &amp;ast;&amp;ast;&amp;Algorithmic *&amp;* amp;&amp;ast; – 指定した最適化目標に従って、各バンドルのクリエイティブをアルゴリズムによって回転させます。
 
-      * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
+         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
