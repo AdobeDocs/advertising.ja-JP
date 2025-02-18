@@ -3,9 +3,9 @@ title: エクスペリエンスのクリエイティブの最適化とスケジ�
 description: 方法を学ぶ
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
+source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ ht-degree: 0%
 
 1. クリエイティブローテーションのタイプを選択します。
 
-   * &amp;ast;&amp;ast;&amp;Weighted *&amp;ast;&amp;* ast;— クリエイティブを相対的な重みに従って手動で回転します。 各クリエイティブの重みをパーセンテージで入力します。 選択したすべてのクリエイティブの重みは、最大 100 を加算する必要があります。
+   * *[!UICONTROL Weighted]:* 相対的な重みに従って手動でクリエイティブを回転します。 各クリエイティブの重みをパーセンテージで入力します。 選択したすべてのクリエイティブの重みは、最大 100 を加算する必要があります。
 
-   * &amp;ast;&amp;ast;&amp;Algorithmic *&amp;* amp;&amp;ast; – 指定した最適化目標に従って、クリエイティブをアルゴリズムで回転します。
+   * *[!UICONTROL Algorithmic]:* 指定した最適化目標に従って、クリエイティブをアルゴリズムによって回転させます。
 
       * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
 
@@ -69,9 +69,9 @@ ht-degree: 0%
 
    1. クリエイティブローテーションのタイプを選択します。
 
-      * &amp;ast;&amp;ast;&amp;Weighted *&amp;ast;&amp;* ast;— クリエイティブを相対的な重みに従って手動で回転します。 各クリエイティブの重みをパーセンテージで入力します。 選択したすべてのクリエイティブの重みは、最大 100 を加算する必要があります。
+      * *[!UICONTROL Weighted]:* 相対的な重みに従って手動でクリエイティブを回転します。 各クリエイティブの重みをパーセンテージで入力します。 選択したすべてのクリエイティブの重みは、最大 100 を加算する必要があります。
 
-      * &amp;ast;&amp;ast;&amp;Algorithmic *&amp;* amp;&amp;ast; – 指定した最適化目標に従って、クリエイティブをアルゴリズムで回転します。
+      * *[!UICONTROL Algorithmic]:* 指定した最適化目標に従って、クリエイティブをアルゴリズムによって回転させます。
 
          * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
 
@@ -85,9 +85,9 @@ ht-degree: 0%
 
    1. クリエイティブローテーションのタイプを選択します。
 
-      * &amp;ast;&amp;ast;&amp;Weighted *&amp;ast;&amp;* ast;— クリエイティブを相対的な重みに従って手動で回転します。 各クリエイティブの重みをパーセンテージで入力します。 選択したすべてのクリエイティブの重みは、最大 100 を加算する必要があります。
+      * *[!UICONTROL Weighted]:* 相対的な重みに従って手動でクリエイティブを回転します。 各クリエイティブの重みをパーセンテージで入力します。 選択したすべてのクリエイティブの重みは、最大 100 を加算する必要があります。
 
-      * &amp;ast;&amp;ast;&amp;Algorithmic *&amp;* amp;&amp;ast; – 指定した最適化目標に従って、クリエイティブをアルゴリズムで回転します。
+      * *[!UICONTROL Algorithmic]:* 指定した最適化目標に従って、クリエイティブをアルゴリズムによって回転させます。
 
          * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
 
