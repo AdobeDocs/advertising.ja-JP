@@ -3,7 +3,7 @@ title: '[!UICONTROL Deal ID Inbox] について'
 description: 公開者と既に交渉したプライベートな取引を  [!DNL FreeWheel], [!DNL Google Authorized Buyers]  （旧称  [!DNL AdX]), and [!DNL Magnite DV+]  （旧称  [!DNL Rubicon]）で受け入れることができる [!UICONTROL Deal ID inbox] 機能について説明します。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 394a281c9b9d7eeab939f4c58508ec1f34eba67c
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Deal ID Inbox] について
 
-Advertising DSP [!UICONTROL Deal ID inbox] を使用すると、DSPが SSP （Supply Side Platform）を通じてパブリッシャーからインポートした取引をすばやく設定できるので、各取引を手動で設定する必要はありません。 [!DNL FreeWheel]、[!DNL Google Authorized Buyers] （旧称 [!DNL AdX]）、[!DNL Magnite DV+] （旧称 [!DNL Rubicon]）のパブリッシャーと既に交渉した、保証されている場合と保証されていない場合のプライベートインベントリの取引は、[!UICONTROL Deal ID inbox] から受け入れることができます。
+Advertising DSP [!UICONTROL Deal ID inbox] を使用すると、DSPがサプライサイドプラットフォーム（SSP）を通じてパブリッシャーから読み込んだ取引をすばやく設定できるので、各取引を手動で設定する必要はありません。 [!DNL FreeWheel]、[!DNL Google Authorized Buyers] （旧称 [!DNL AdX]）、[!DNL Magnite DV+] （旧称 [!DNL Rubicon]）のパブリッシャーと既に交渉した、保証されている場合と保証されていない場合のプライベートインベントリの取引は、[!UICONTROL Deal ID inbox] から受け入れることができます。
 
 >[!NOTE]
 >
@@ -33,19 +33,20 @@ For each deal, you can select one publisher and one media type (Desktop Video, M
 DSPは、毎日午前 4 時 30 分（EST）にすべての取引詳細を自動更新します。 また、すべての [!DNL FreeWheel] の取引を更新し、[!DNL Google] 時および [!DNL Magnite DV+] 時から既存の取引を更新します。 また、取引詳細を手動で更新して、いつでも新しい取引を入力することもできます。
 
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
+
 >[!NOTE]
 >
 >[!DNL Google Authorized Buyers] を通じてプログラムで保証された取引の場合、予算の 90% 以上を引き渡す必要があります。そうでない場合、アカウントが [!UICONTROL Deal ID inbox] の [!DNL Google] の取引へのアクセス権を失います。
 
 ## [!UICONTROL Deal ID Inbox] の実装
 
-[!UICONTROL Deal ID inbox] で取引を受け取るには、SSP アカウントで組織のDSP アカウントを SSP アカウントにマッピングする必要があります。 DSPは、組織のアカウント名を関連する SSP と共有できます。 手順については、Adobeアカウントチームにお問い合わせください。
+[!UICONTROL Deal ID inbox] で取引を受け取るには、SSP アカウントで組織のDSP アカウントを SSP アカウントにマッピングする必要があります。 DSPは、組織のアカウント名を関連する SSP と共有できます。 手順については、Adobe アカウントチームにお問い合わせください。
 
-取引ネゴシエーション中に、親DSPアカウントではなくバイヤーに取引を送付するようにパブリッシャに伝えます。 取引識別子は、SSP に応じて名前または ID にすることができます。
+取引ネゴシエーション中に、親のDSPアカウントではなく、バイヤーに取引を送付するようにパブリッシャに伝えます。 取引識別子は、SSP に応じて名前または ID にすることができます。
 
 ## 取引に対して実行できるアクション
 
-* **契約のレビュー**:SSP が正しいパブリッシャー、フライト日、CPM、その他の契約の詳細を送信したことを確認します。 パブリッシャーが誤った場合は、DSP外のユーザーに連絡して、取引を修正し再送信してもらいます。
+* **契約を確認** して、SSP が正しいパブリッシャー、フライト日、CPM、その他の契約の詳細を送信したことを確認します。 パブリッシャーが誤った場合は、DSP外のユーザーに連絡して、取引を修正し再送信してもらいます。
 
 * **契約を承認** 確認すると、[!UICONTROL Deal ID inbox] ージに表示されなくなります。 受け入れられた取引は [!UICONTROL Inventory]/[!UICONTROL Deals] にリストされ、広告主のプレースメント内でターゲットにする準備が整います。
 
