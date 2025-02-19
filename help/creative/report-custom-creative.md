@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: クロスエクスペリエンス [!UICONTROL Custom Creative Report] ークフローを生成する方法を説明します。
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 7e355e7574a9fb6f3fdd4073ad7a4eae3f0cf0d1
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1915'
 ht-degree: 0%
 
 ---
@@ -107,13 +107,13 @@ ht-degree: 0%
 
 **[!UICONTROL Attribution Rule Settings]:** 設定はレポートタイプによって異なります。
 
-* **\[Attribution Type\]:** （Adobe Advertisingコンバージョントラッキングを使用する広告主のみ）レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータを属性化する方法を示します。
+* **\[Attribution Type\]:** （Adobe Advertising コンバージョントラッキングを使用する広告主のみ）レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータを属性化する方法を示します。
 
    * *[!UICONTROL Unique]:* （デフォルト）ディメンション値（デバイスや配置など）が変換されるパス上にあった回数をカウントします。
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:* コンバージョンへのパス上でのディメンション値（デバイスや配置など）の発生頻度に基づいて、各コンバージョンのクレジットを配分します。 例えば、コンバージョン前に合計 10 件のインプレッションがあり、CTV に 8 件、モバイルに 2 件あった場合、クレジットの 80% （0.8）が CTV 画面に、0.2 がモバイルに与えられます。
 
-* **\[Rule Type\]:** （Adobe Advertisingコンバージョントラッキングを使用した広告主のみ）レポート内で、コンバージョンにつながる一連のイベントにおけるコンバージョンデータの属性化方法。 ルール間の違いを比較する場合は、複数のルールを選択できます。
+* **\[Rule Type\]:** （Adobe Advertising コンバージョントラッキングを使用した広告主のみ）レポート内で、コンバージョンにつながる一連のイベントにおけるコンバージョンデータの属性化方法。 ルール間の違いを比較する場合は、複数のルールを選択できます。
 
   >[!NOTE]
   >
@@ -131,11 +131,11 @@ ht-degree: 0%
 
    * *[!UICONTROL U-shaped]:* コンバージョンパス内のすべてのイベントにコンバージョンの属性を設定しますが、最初と最後のイベントに最も重みを与え、コンバージョンパスの途中のイベントには順次少ない重みを与えます。
 
-   * *[!UICONTROL Display Only]:* コンバージョンパス内の最後のDSP クリックまたはインプレッションに対する属性のコンバージョン。 これには、ビデオ広告や接続されたテレビ広告が含まれ、[!DNL Advertising Search, Social, & Commerce] 広告のクリックは含まれません。
+   * *[!UICONTROL Display Only]:* コンバージョンパス内の最後のDSPのクリックまたはインプレッションに対する属性の変換。 これには、ビデオ広告や接続されたテレビ広告が含まれ、[!DNL Advertising Search, Social, & Commerce] 広告のクリックは含まれません。
 
    * *[!UICONTROL Social Only]:* 古い
 
-「[Adobe Advertisingに関するアトリビューションルールの計算方法 ](/help/search-social-commerce/reports/attribution-rules.md)」も参照してください。
+「[Adobe Advertisingのアトリビューションルールの計算方法 ](/help/search-social-commerce/reports/attribution-rules.md) も参照してください。
 
 **[!UICONTROL Paths as Columns]:** 同じデバイスで以前のイベントが発生した場合にレポートするコンバージョンのタイプ。 最大 3 つのタイプを含めることができます。 選択したタイプごとに、コンバージョン指標ごとに個別の列が含まれ、指定したサフィックス（[!UICONTROL (tl)]、[!UICONTROL (ct)] または [!UICONTROL (vt)]）が追加されます。
 
@@ -251,7 +251,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | 製品で提供された広告の合計売上高。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | 提供済み広告の合計売上高。 |
 | [!UICONTROL Conversion Metrics] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のコンバージョン ] | 指定した広告主固有のコンバージョン指標またはAdobe Analytics イベントの合計。 |
-| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のカスタム目標 ] | 指定した [ カスタム目標 ](/help/dsp/optimization/custom-goal.md) に含まれるすべてのコンバージョンの重み付き合計。 |
+| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のカスタム目標 ] | 指定された [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md) に含まれるすべてのコンバージョンの重み付き合計。 |
 
 {style="table-layout:auto"}
 

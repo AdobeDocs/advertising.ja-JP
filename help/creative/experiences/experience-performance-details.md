@@ -3,9 +3,9 @@ title: エクスペリエンスレベルのパフォーマンスレポート
 description: エクスペリエンスレベルのパフォーマンスレポートを表示する方法について説明します。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 137f334eec778499f263e26c125e97ffe37d6112
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 0%
 
    * （オプション）レポートされたコンバージョンを変更するには、![ 設定 ](/help/creative/assets/settings.png) をクリックし、**[!UICONTROL Conversions]** メニューでコンバージョン名を選択します。&lt;!—1 つまたは複数のどちらですか。 これらの値の表示方法を確認する – 複数のコンバージョンが既に設定されている広告主を確認する必要があります – >
 
-     使用可能なコンバージョン列には、検索、ソーシャル、Commerceのユーザーであるかどうかに関わらず、Advertising検索、ソーシャル、Commerceで使用可能なコンバージョンが含まれます。 これには、Adobe Analyticsから同期されたコンバージョン指標とサイトエンゲージメント指標が含まれます。 <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> 収集したコンバージョンをレポートに含める方法について詳しくは、「検索、ソーシャル、Commerceガイド」のトピック「[ 広告主のコンバージョン指標の管理について ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) を参照してください。
+     使用可能なコンバージョン列には、検索、ソーシャル、Commerceのユーザーであるかどうかに関わらず、Advertising検索、ソーシャル、Commerceで使用可能なコンバージョンが含まれます。 これには、広告主が [ 統合 ](/help/integrations/analytics/overview.md) した際にAdobe Analyticsから同期されたコンバージョン指標とサイトエンゲージメント指標が含  [!DNL Adobe Analytics for Advertising]  れます。 <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> 収集したコンバージョンをレポートに含める方法について詳しくは、「検索、ソーシャル、Commerceガイド」のトピック「[ 広告主のコンバージョン指標の管理について ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) を参照してください。
 
 1. （[[!UICONTROL Overview]] タブ）:
 
