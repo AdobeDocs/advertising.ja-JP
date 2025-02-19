@@ -4,9 +4,9 @@ user-guide-title: Advertising Creative ガイド
 user-guide-description: Advertising Creativeの使用に必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: クリエイティブガイド
 hide: true
-source-git-commit: f13f2b3e9bed34acbe1c3c07adbca2b7a61ac76c
+source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 0%
       + [デシジョンツリーのレイアウト](/help/creative/experiences/experience-decision-tree.md)
       + [ターゲティングを使用したエクスペリエンスの作成](/help/creative/experiences/experience-create-targeting.md)
       + [ターゲティングを使用したエクスペリエンスの編集](/help/creative/experiences/experience-edit-targeting.md)
+      + [ターゲットエクスペリエンス設定](/help/creative/experiences/experience-settings-targeting.md)
       + エクスペリエンスの作成および編集のサブタスク {#subtasks}
          + ターゲットノード {#nodes}
             + [最終レベルへのターゲットノードの追加](/help/creative/experiences/experience-target-node-add-final.md)
@@ -53,12 +54,11 @@ ht-degree: 0%
             + [最終ノードへのクリエイティブバンドルの割り当てと割り当て解除](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [クリエイティブ用のトラッキング URL のカスタマイズ](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [クリエイティブの最適化とスケジュールのカスタマイズ](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-      + [ターゲットエクスペリエンス設定](/help/creative/experiences/experience-settings-targeting.md)
    + ターゲティングを使用しないエクスペリ {#experience-nontargeted} ンス
       + [ターゲティングを使用しないエクスペリエンスの作成](/help/creative/experiences/experience-create-no-targeting.md)
       + [ターゲティングを使用しないエクスペリエンスの編集](/help/creative/experiences/experience-edit-no-targeting.md)
       + [非ターゲットエクスペリエンス設定](/help/creative/experiences/experience-settings-no-targeting.md)
-      + クリエイティブ {#non-targeted-creatives}
+      + 広告タグとクリエイティブ {#non-targeted-creatives}
          + [該当するクリエイティブサイズの広告タグを手動で作成](/help/creative/experiences/experience-tag-create-manually.md)
          + [ターゲティングを使用しないエクスペリエンスの広告タグへのクリエイティブの割り当て](/help/creative/experiences/experience-tag-assign-creatives.md)
          + [ターゲティングを使用しないエクスペリエンス用のトラッキング URL のカスタマイズ](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
