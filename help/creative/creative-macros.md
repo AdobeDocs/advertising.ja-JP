@@ -1,11 +1,11 @@
 ---
 title: URL を追跡するために使用可能なマクロ
-description: ランディングページの URL のトラッキング URL およびサードパーティのクリエイティブに追加できるマクロを参照します。
+description: ランディングページの URL、トラッキング URL およびサードパーティクリエイティブに追加できるマクロを参照します。
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,12 @@ ht-degree: 0%
 | `${TM_ACC_EXPERIENCE_ID}` | Advertising Creative Experience ID を追跡してレポートします | — |
 | `${TM_ACC_CREATIVE_ID}` | Advertising Creativeのクリエイティブ ID をトラッキングしレポートします | — |
 | `${TM_RANDOM}` | 1 ～ 1000000 の乱数 | — |
-| `${TM_TIMESTAMP}` | Unix タイムスタンプ （秒） | — |
-| `${TM_CLICK_URL_URLENC}` | （URL エンコーディングを必要とするベンダーからのサードパーティ広告の場合） エンコードされたクリックリダイレクト URL を使用すると、広告サーバーは広告のクリックを追跡およびカウントできます。 広告が配信され、ユーザーが広告をクリックすると、マクロがアクティブ化され、クリックが記録され、レポート目的でカウントされます。 | はい |
+| `${TM_TIMESTAMP}` | UNIX® タイムスタンプ（秒単位） | — |
+| `${TM_CLICK_URL_URLENC}` | （URL エンコーディングを必要とするベンダーからのサードパーティ広告の場合） エンコードされたクリックリダイレクト URL を使用すると、広告サーバーは広告のクリックを追跡およびカウントできます。 ユーザーが広告をクリックすると、マクロがアクティブ化され、クリックが記録され、レポート目的でカウントされます。 | はい |
 
 >[!MORELIKETHIS]
 >
 >* [ クリエイティブライブラリへの標準クリエイティブの追加 ](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [ 標準のクリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* 
+>* [ ターゲット設定エクスペリエンス設定 ](/help/creative/experiences/experience-settings-targeting.md)
+>*[ 非ターゲットエクスペリエンス設定 ](/help/creative/experiences/experience-settings-no-targeting.md)

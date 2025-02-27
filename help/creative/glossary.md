@@ -2,9 +2,9 @@
 title: 用語集
 description: 主要用語の定義を参照してください。
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+source-git-commit: 4e61ce32862411a7a83c66773e41d032770ad861
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,11 @@ ht-degree: 0%
 
 例えば、女性でセグメント 1234 を閲覧者とする 1 人以上の可能性のあるクリエイティブをターゲットにするには、ターゲットノードのデータパスターゲット `gender=female` と `segment=1234` を設定します。 インプレッションを提供するDSPがタグに性別とセグメント情報を入力し、指定された要件を満たす訪問者は、関連するクリエイティブの 1 つに表示されます。
 
-**エンゲージメントスルー：** コンバージョンにつながる広告エンゲージメント（ビデオの視聴や広告の展開など）。
+**エンゲージメントスルー：** コンバージョンにつながる広告エンゲージメント（カルーセル広告のスクロールや広告の展開など）。 このタイプのイベントは、ランディングページやランディングページ上のイベントに到達するための広告のクリックとは別のものです。
 
-<!-- or flexible html5 creative variation? -->
-**フレキシブルHTML5 クリエイティブのバリエーション：** コンテン [!UICONTROL Creative Libraries] 内のフレキシブルHTML5 クリエイティブアセットの派生。クリエイティブをエクスペリエンスに割り当て、エクスペリエンス内のデフォルト属性を変更した場合に生成されます。
+<!-- or flexible html5 creative variation? Not sure we need to mention this since there's no place to view the different variations per se:
 
-<!-- Not sure if this will be implemented, and how:
-You can view all derived creatives, including not only the base creatives you've added but also each child creative derivation, in the card view in [!UICONTROL Creative] > [!UICONTROL Libraries]. In the toolbar, click __?__ , and then select Derived Creatives. [Clarify how to tell which have variations. I can't find any now.]
+**variation of a flexible HTML5 creative:** A derivation of a flexible HTML5 creative asset in your [!UICONTROL Creative Libraries], which is generated when you assign the creative to an experience and change any of the default attributes within the experience.
 -->
 
 **ビュースルー：** 広告インプレッション、またはインプレッションの文字列。ユーザーが広告をクリックしなくてもコンバージョンが発生します。
