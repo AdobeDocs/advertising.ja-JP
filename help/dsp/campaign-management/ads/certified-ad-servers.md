@@ -3,9 +3,9 @@ title: 認定広告サービングパートナー
 description: すべての認定広告サーバーと広告ユニットを表示します。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 8ae5e4fc84ace4dc4e8b637545e95f5e0cff912c
+source-git-commit: dcaa41b3fba971bdf95f4e884861f318db18f146
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X | | X | |
 | [!DNL Inskin] | | | X | | インスキンのインベントリネットワーク全体で、180x150 のディスプレイ取引 ID からハイインパクトのスキン（Cavai 会話広告を含む）を提供する必要があります。 |
 | [!DNL Jivox] | | X | | | |
-| [!DNL Kargo] | | X | | X | 320x50 Anchor, BYOC, Hover, Breakout, Breakaway, Runway, and Sidekick; 300x250 Outstream, HighRise; Standard Desktop Display （特定の広告プラグイン ID は必要ありません）; ビデオアンカー（VAST のみ）; CTV via [!DNL Pubmatic]</br></br> 広告ユニットの設定については、Adobeアカウントチームにお問い合わせください。 |
+| [!DNL Kargo] | | X | | X | 320x50 Anchor, BYOC, Hover, Breakout, Breakaway, Runway, and Sidekick; 300x250 Outstream, HighRise; Standard Desktop Display （特定の広告プラグイン ID は必要ありません）; ビデオアンカー（VAST のみ）; CTV via [!DNL Pubmatic]</br></br> 広告ユニットの設定については、Adobe アカウントチームにお問い合わせください。 |
 | [!DNL Linkstorm] | | | X | | |
 | [!DNL mCanvas] | | | X | | |
 | [!DNL Medialets] | | X | | | |
@@ -53,6 +53,7 @@ ht-degree: 0%
 | [!DNL Pubmatic] | | | | X | VAST Only |
 | [!DNL RevJet] | | | | X | VAST Only |
 | [!DNL Seedtag] | | X | X | | |
+| [!DNL SeenThis] | | X | | | ディスプレイの認定には、バナー内のビデオタグが含まれます |
 | [!DNL Sharethrough] | | | | | CTV、ネイティブおよびアウトストリームのみ |
 | [!DNL Sizmek] | X | X | | X | OLV および CTV</br></br> タグを UI でレンダリングするには、タグを `<a>` のタグ（先頭と末尾）で囲みます。 以下のサンプルタグを参照してください。</br></br>`<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>` |
 | [!DNL Spaceback] | | X | | | |
@@ -61,7 +62,7 @@ ht-degree: 0%
 | [!DNL SundaySky] | | | | X | |
 | [!DNL Teads] | | X | | | アウトストリームの VPAID インベントリはサポートされていません。 |
 | [!DNL Trueffect] | | X | | | |
-| [!DNL Undertone] | | | X | | DSPで 180x150 としてアップロードされたカスタムページグラバー広告ユニット </br></br>Index Exchange が 180x150 オークションを通過し、DSPがオークションに入札してインプレッションを提供すると、クリエイティブはフルページのディスプレイ広告に拡張されます。</br></br> ページグラバー、展開可能な粘着力、スクリーンシフト広告ユニットの認定を最初に受けています。 これは、プロセス用にマークされた手順で、再認証する必要があります。 |
+| [!DNL Undertone] | | | X | | DSPで 180x150 としてアップロードされたカスタムページグラバー広告ユニット </br></br>Index Exchange が 180x150 オークションを通過し、DSPがオークションに入札して印象を与えると、クリエイティブはフルページのディスプレイ広告に拡大します。</br></br> ページグラバー、展開可能な粘着力、スクリーンシフト広告ユニットの認定を最初に受けています。 これは、プロセス用にマークされた手順で、再認証する必要があります。 |
 | [!DNL Vox] | | | X | | [!DNL Athena] 広告ユニット |
 | [!DNL Wunderkind] | | X | | | |
 
