@@ -3,9 +3,9 @@ title: Adobe Customer Journey Analyticsで使用する AMO ID および EF ID �
 description: Adobe Customer Journey Analyticsで今後使用するために、Adobe Analyticsで予約済み変数の履歴データを収集する方法について説明します
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-source-git-commit: fa3065d12d5c8828eaaeaca52deeadfec7b0e318
+source-git-commit: 6bf9647910aa7b1f74cf2bd726f8de27a8641b38
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -48,16 +48,16 @@ Adobe AdvertisingはCustomer Journey Analyticsとの将来の実装を計画し�
       * `AMO ID` の場合：
 
          1. 「**の値を上書き**」を選択します。
-         1. 「*\&lt; 新規/未使用のeVar\>*」を選択します。
+         1. *\&lt; 新規/未使用のeVar\>* を選択します。
          1. **クエリ文字列パラメーター** を選択します。
          1. `s_kwcid` と入力します。
 
-        例：クエリ文字列パラメーター `s_kwcid` を使用して `rVar10` の値を上書き
+        例：「&#39;クエリ文字列パラメーター&#39;s_kwcid&#39;を使用して `rVar10` の値を上書き&quot;」
 
       * `EF ID` の場合：
 
          1. 「**の値を上書き**」を選択します。
-         1. 「*\&lt; 新規/未使用のeVar\>*」を選択します。
+         1. *\&lt; 新規/未使用のeVar\>* を選択します。
          1. **クエリ文字列パラメーター** を選択します。
          1. `ef_id` と入力します。
 
