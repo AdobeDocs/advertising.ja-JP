@@ -2,9 +2,10 @@
 title: クリエイティブバンドルの管理
 description: xxxx について説明します。
 feature: Creative Bundles
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-バンドルは、1 つのユニットとしてエクスペリエンスに追加できるクリエイティブのグループです。 バンドルコンテナを作成した後、バンドルにクリエイティブを添付できます。 標準バンドルには標準広告のみを含めることができ、動的バンドルには動的広告のみを含めることができます。 エクスペリエンスの決定ツリー内からエクスペリエンスに割り当てられたバンドル内のすべてのクリエイティブのランディングページ、インプレッショントラッキングタグ、クリック追跡タグを、基本クリエイティブに影響を与えることなく上書きできます。
+バンドルは、1 つのユニットとしてエクスペリエンスに追加できるクリエイティブのグループです。 バンドルコンテナを作成した後、バンドルにクリエイティブを添付できます。 標準バンドルには標準広告のみを含めることができ、動的バンドルには動的広告のみを含めることができます。 基本クリエイティブに影響を与えることなく、エクスペリエンスの決定ツリー内からエクスペリエンスに割り当てられたバンドル内のすべてのクリエイティブについて、ランディングページ、インプレッショントラッキングタグ、クリック追跡タグを上書きできます。
 
 [!DNL Creative] は、バンドルが割り当てられている各エクスペリエンスに対して指定されたとおりに、バンドル内のクリエイティブを循環します。 オプションで、Adobe Senseiを活用し [!DNL Creative] アルゴリズム広告ローテーションを使用して、パフォーマンスに基づいて任意のエクスペリエンスの広告要素を最適化できるようにできます。
 
@@ -105,9 +106,11 @@ ht-degree: 0%
 
 [ 既存の標準クリエイティブ ](/help/creative/creative-libraries/creative-libraries-about.md) を標準バンドルに添付し、既存の動的クリエイティブ <!-- [existing dynamic creatives](creative-dynamic-manage.md) --> を動的バンドルに添付できます。 クリエイティブをバンドルに添付すると、バンドルが割り当てられているすべてのエクスペリエンスでクリエイティブが使用できるようになります。 各バンドルには、各\[creative size + language\] の組み合わせをそれぞれ 1 つだけ含めることができます。
 
+<!--
 >[!NOTE]
 >
->また、[ 標準広告ビューと動的広告ビューからバンドルにクリエイティブを添付 ](creative-attach-detach-bundles.md) することもできます。
+>You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
+-->
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
@@ -218,7 +221,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## バンドルを削除
 
-ライブエクスペリエンスに割り当てられていないバンドルを削除できます。<!-- Add an x-ref?  --> ライブのエクスペリエンスにバンドルが割り当てられている場合は、続行する前に <!-- add x-ref --> エクスペリエンスのデシジョンツリーからバンドルを削除します。
+[ ライブ ](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないバンドルを削除できます。 バンドルがライブエクスペリエンスに割り当てられている場合は、続行する前に、エクスペリエンスの [ デシジョンツリーからバンドルを削除 ](/help/creative/experiences/experience-target-node-delete.md) します。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
@@ -250,5 +253,6 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 >[!MORELIKETHIS]
 >
 >* [ エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除 ](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [ クリエイティブライブラリへの標準クリエイティブの追加 ](/help/creative/creative-libraries/creative-add-standard.md)
 >* [ クリエイティブライブラリの管理 ](/help/creative/creative-libraries/creative-library-manage.md)
 >* [ クリエイティブライブラリについて ](/help/creative/creative-libraries/creative-libraries-about.md)

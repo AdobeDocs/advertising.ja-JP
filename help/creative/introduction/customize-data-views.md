@@ -2,7 +2,8 @@
 title: データビューのカスタマイズ
 description: 使用可能な各ビュー内でデータをカスタマイズする方法を説明します。
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -83,7 +84,7 @@ Refresh the pane to see any changes that other users have made.
 
 * [!UICONTROL Creative Libraries]:[!UICONTROL Library Name]、作成日（[!UICONTROL Created On]）または最終更新日（[!UICONTROL Modified On]）で並べ替えます。
 
-* クリエイティブライブラリ/[!UICONTROL Standard Ads]:[!UICONTROL Creative Name]、作成日（[!UICONTROL Created On]）または最終更新日（[!UICONTROL Modified On]）で並べ替えます。
+* Creative ライブラリ/[!UICONTROL Standard Ads]:[!UICONTROL Creative Name]、作成日（[!UICONTROL Created On]）または最終更新日（[!UICONTROL Modified On]）で並べ替えます。
 
 * [!UICONTROL Experiences]：開始日（[!UICONTROL Experience Name]）または終了日（[!UICONTROL End On]）で並べ替えます [!UICONTROL Start On]
 

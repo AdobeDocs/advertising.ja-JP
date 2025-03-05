@@ -3,7 +3,7 @@ title: ターゲット以外のエクスペリエンスの設定
 description: デシジョンツリーのターゲット設定を使用しない広告エクスペリエンスのすべての設定の説明を参照してください。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f4d83da98f89313624e038fd1d8f0fedcf802cc4
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **\[ 指定されたデフォルトのクリエイティブ ]:** ブラウザーがJavaScriptに対応していない場合や、遅延が原因で広告サーバーが広告をパーソナライズできない場合など、エクスペリエンスに割り当てられたクリエイティブをブラウザーで表示できない場合に使用するデフォルトの画像クリエイティブです。 エクスペリエンスが適用される広告サイズごとに 1 つの画像クリエイティブを含めます。 選択肢によって、エクスペリエンスに使用できるクリエイティブのサイズが決まります。<!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
 
-デシジョンツリーのターゲット設定を使用しないエクスペリエンスの場合、デフォルトのクリエイティブを [!UICONTROL Tag Manager].<!-- verify --> 内で同じサイズのクリエイティブに上書きできます。
+デシジョンツリーのターゲット設定を使用しないエクスペリエンスの場合、デフォルトのクリエイティブを [!UICONTROL Tag Manager] 内で同じサイズのクリエイティブに上書きできます。
 
 * 異なるサイズの既定のクリエイティブを追加するには、[**[!UICONTROL + Add Sizes]**] をクリックし、追加する各クリエイティブの横にあるチェック ボックスを右側のウィンドウから選択して、[**[!UICONTROL Add Creatives]**] をクリックします。
 

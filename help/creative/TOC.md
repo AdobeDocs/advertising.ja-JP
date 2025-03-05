@@ -2,11 +2,11 @@
 role: User
 user-guide-title: Advertising Creative ガイド
 user-guide-description: Advertising Creativeの使用に必要な主要機能、タスク、設定およびその他のリソースについて説明します。
-breadcrumb-title: クリエイティブガイド
+breadcrumb-title: Creative ガイド
 hide: true
-source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
    + [データビューのカスタマイズ](/help/creative/introduction/customize-data-views.md)
    + [ 消費者プライバシーの支援 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [ 施策及び指針 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-+ クリエイティブライブラリ {#creative-libraries}
++ Creative ライブラリ {#creative-libraries}
    + [クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
    + [サポートされるクリエイティブのサイズ](/help/creative/creative-libraries/creative-sizes.md)
    + [クリエイティブライブラリの管理](/help/creative/creative-libraries/creative-library-manage.md)
@@ -30,7 +30,7 @@ ht-degree: 0%
          + [標準のクリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md)
          + [HTML5 クリエイティブの仕様](/help/creative/creative-libraries/html5-creative-specification.md)
       + [クリエイティブのプレビュー](/help/creative/creative-libraries/creative-preview.md)
-      + [クリエイティブのバンドルへの添付とバンドルからの分離](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
+      + [バンドルへのクリエイティブの添付](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [クリエイティブの複製](/help/creative/creative-libraries/creative-duplicate.md)
       + [クリエイティブをダウンロード](/help/creative/creative-libraries/creative-download.md)
       + [クリエイティブを削除](/help/creative/creative-libraries/creative-delete.md)

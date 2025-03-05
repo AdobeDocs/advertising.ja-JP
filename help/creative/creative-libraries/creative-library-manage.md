@@ -2,9 +2,10 @@
 title: クリエイティブライブラリの管理
 description: クリエイティブライブラリを作成、名前変更、削除する方法について説明します。
 feature: Creative Libraries
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *クローズドベータ版*
 
-各広告主に対して複数のクリエイティブライブラリを作成できます。 後から、各ライブラリに [ 標準クリエイティブ ](creative-add-standard.md)<!-- , dynamic creatives, --> および [ クリエイティブバンドル ](bundle-manage.md) を入力できます。 また、Adobeアカウントチームが動的なクリエイティブをライブラリに追加する場合もあります。
+各広告主に対して複数のクリエイティブライブラリを作成できます。 後から、各ライブラリに [ 標準クリエイティブ ](creative-add-standard.md)<!-- , dynamic creatives, --> と [ クリエイティブバンドル ](bundle-manage.md) を入力できます。 Adobe アカウントチームは、ライブラリに動的なクリエイティブを追加する場合もあります。
 
 ## クリエイティブライブラリの作成
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
 ## クリエイティブライブラリの削除
 
-ライブエクスペリエンスに割り当てられていないクリエイティブやバンドルを含むライブラリを削除できます。<!-- Add an x-ref?  --> 続行する前に、エクスペリエンスのデシジョンツリーから <!-- add x-ref --> ライブエクスペリエンスに割り当てられているクリエイティブまたはバンドルを削除します。
+[ ライブ ](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないクリエイティブやバンドルを含むライブラリを削除できます。 ライブターゲットのエクスペリエンスの場合は、続行する前に、[ デシジョンツリーからクリエイティブやバンドルを削除 ](/help/creative/experiences/experience-target-node-delete.md) して、エクスペリエンスを表示します。<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
@@ -65,7 +66,7 @@ ht-degree: 0%
 
       * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Delete]** をクリックします。
 
-   * 1 つまたは複数のライブラリを削除するには、削除する各ライブラリのチェック ボックスをオンにします。 一括アクションツールバーで、「**[!UICONTROL Delete]」をクリックします。
+   * 1 つまたは複数のライブラリを削除するには、削除する各ライブラリのチェック ボックスをオンにします。 一括アクションツールバーで、「**[!UICONTROL Delete]**」をクリックします。
 
      すべての行を選択するには、左上の「グローバル」チェック・ボックスを選択します。
 

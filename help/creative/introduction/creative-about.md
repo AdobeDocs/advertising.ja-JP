@@ -2,9 +2,9 @@
 title: Adobe Advertising Creativeについて
 description: 詳細情報  [!DNL Creative].
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 <!-- verify all and rewrite to include new stuff -->
 
-Adobe Advertisingの一環として、Advertising Creativeは、パーソナライズされたリアルタイムの広告エクスペリエンスを自動化し、オプションでクリエイティブ要素レベルで広告を最適化するためのセルフサービスプラットフォームです。
+Adobe Advertisingの一部であるAdvertising Creativeは、パーソナライズされたリアルタイムの広告エクスペリエンスを自動化し、オプションでクリエイティブ要素レベルで広告を最適化するためのセルフサービスプラットフォームです。
 
 ## 再利用可能なクリエイティブのカスタムクリエイティブライブラリ
 
-クリエイティブライブラリを使用すると、広告エクスペリエンスで使用するすべてのクリエイティブを管理できます。 複数のライブラリを作成でき、それぞれに個別のクリエイティブとクリエイティブグループ（*バンドル* と呼ばれます）を含めることができます。 広告エクスペリエンスにクリエイティブバンドルを追加します。
+Creative ライブラリを使用すると、広告エクスペリエンスで使用するクリエイティブを管理できます。 複数のライブラリを作成でき、それぞれに個別のクリエイティブとクリエイティブグループ（*バンドル* と呼ばれます）を含めることができます。 広告エクスペリエンスにクリエイティブバンドルを追加します。
 
 ## ルールベースのエクスペリエンス
 
@@ -40,11 +40,11 @@ Advertiser should be able to target all segments which are available in DSP for 
 
 ## リターゲティングピクセル
 
-リターゲティングピクセルを作成して、広告エクスペリエンス内のクリエイティブのターゲットとして使用できます。これにより、特定の web ページを以前訪問した特定の属性を持つユーザーにのみ広告を表示できます。
+リターゲティングピクセルを作成して、広告エクスペリエンス内のクリエイティブのターゲットとして使用できます。 ターゲットは、特定の web ページを以前に訪問した、指定した属性を持つユーザーにのみ広告を表示します。
 
 ## インプレッション、クリックおよびコンバージョントラッキング
 
-[!DNL Creative] は、エクスペリエンスから提供される広告のすべてのインプレッション数およびクリック数を自動的に追跡します。 また、オプションで、クリエイティブライブラリのクリエイティブに対するサードパーティのインプレッショントラッキング URL とクリックトラッキング URL およびエクスペリエンスのカスタムトラッキング URL を追加できます。
+[!DNL Creative] は、エクスペリエンスから提供される広告のすべてのインプレッション数およびクリック数を自動的に追跡します。 また、オプションで、Creative ライブラリのクリエイティブやエクスペリエンスのカスタムトラッキング URL にサードパーティのインプレッショントラッキング URL やクリックトラッキング URL を追加できます。
 
 [!DNL Creative] た、広告エクスペリエンスから作成された提供済み広告からのコンバージョンも追跡します。<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optoinal?  -->
 
@@ -57,7 +57,7 @@ to the DSP.
 
 クリエイティブ / エクスペリエンスで、詳細なエクスペリエンスレベルのパフォーマンスレポートを表示できます。
 
-レポート/カスタムレポートでカスタムクリエイティブレポートを作成して、エクスペリエンスをまたいでエクスペリエンスレベルのパフォーマンスを監視することもできます。 DSP キャンペーン内の広告として [!DNL Creative] エクスペリエンスを使用する場合、他のDSP広告のデータと同様に、それらの広告のパフォーマンスデータは、追加のカスタムレポートで利用できます。<!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
+レポート/カスタムレポートでカスタム Creative レポートを作成し、エクスペリエンスをまたいでエクスペリエンスレベルのパフォーマンスを監視することもできます。 DSP キャンペーン内の広告として [!DNL Creative] エクスペリエンスを使用する場合、他のDSP広告のデータと同様に、それらの広告のパフォーマンスデータは、追加のカスタムレポートで利用できます。<!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
 
 オプションで、指定した [ レポートの宛先 ](/help/dsp/reports/report-destinations/report-destination-about.md) にカスタムレポートを配信できます。
 

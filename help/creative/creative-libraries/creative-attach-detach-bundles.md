@@ -2,26 +2,35 @@
 title: クリエイティブバンドルへのクリエイティブの添付
 description: クリエイティブをクリエイティブバンドルに添付する方法を説明します。
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# クリエイティブをクリエイティブバンドルに添付して分離します
+# 添付 <!-- and detach --> クリエイティブバンドルへのクリエイティブ
 
 *クローズドベータ版*
 
+<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available. -->
+
 標準クリエイティブを標準バンドルに、動的クリエイティブを動的バンドルに添付して、[ 広告エクスペリエンス ](/help/creative/experiences/experience-about.md) に追加できます。 各バンドルには、各\[creative size + language\] の組み合わせをそれぞれ 1 つだけ含めることができます。
 
-また、クリエイティブをバンドルから分離して、2 つの間の関連付けを削除し、バンドルをターゲットとするエクスペリエンスにクリエイティブが使用されないようにすることもできます。 バンドルからクリエイティブを分離しても、クリエイティブライブラリの「クリエイティブ」タブからクリエイティブが削除されるわけではありません。
+<!--
+You can also detach a creative from a bundle to remove the association between the two, so that the creative is no longer used for experiences that target the bundle. Detaching a creative from the bundle doesn't delete the creative from the Creatives tab in your creative library.
+-->
 
 >[!NOTE]
 >
->また、[ クリエイティブをバンドルに添付したり、バンドル ビューからバンドルからクリエイティブを分離 ](/help/creative/creative-libraries/bundle-manage.md) することもできます。
+><!-- also --> のことができます。 [ クリエイティブをバンドルに添付し、バンドル ビューからクリエイティブをバンドルに分離します ](/help/creative/creative-libraries/bundle-manage.md)。
 
-## クリエイティブバンドルへのクリエイティブの添付
+<!-- Hide header until second procedure is available:
+
+## Attach creatives to creative bundles
+
+-->
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
@@ -39,29 +48,29 @@ ht-degree: 0%
 
 1. 右側のフレームで、クリエイティブを添付する各バンドルの横にあるチェックボックスをオンにして、「**[!UICONTROL Attach Creative to Bundle]**」をクリックします。
 
-## クリエイティブバンドルからクリエイティブを分離
+<!-- Verify and edit all of the following, including the command names and where they're available -- not in UI yet as of 1/17. I'm not sure what the UI will really look like.
 
-**これが UI に実装された後で、どのように実装されるかを確認する必要があります**
+## Detach creatives from a creative bundle
 
-<!-- Verify and edit all of the following, including the command names and where they're available -- not in UI yet as of 1/17. I'm not sure what the UI will really look like. -->
+1. In the main menu, click **[!UICONTROL Creative]**3/4> **[!UICONTROL Creative Libraries]**.
 
-1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
+1. (Optional) [Customize the view](/help/creative/introduction/customize-data-views.md) to include specific libraries.
 
-1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+1. Click the library name.
 
-1. ライブラリ名をクリックします。
+1. Click the **[!UICONTROL Standard Ads]** or **[!UICONTROL Dynamic Ads]** tab.
 
-1. 「**[!UICONTROL Standard Ads]**」タブまたは「**[!UICONTROL Dynamic Ads]**」タブをクリックします。
+1. Select the creative:
 
-1. クリエイティブを選択：
+   * In card view, click **[!UICONTROL ...]** next to the creative name, and then click **[!UICONTROL Attach/Detach from Bundle]**.
+     
+   * In table view, hold the cursor over the row and click **[!UICONTROL Attach/Detach from Bundle]**.
 
-   * カード表示で、クリエイティブ名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Attach/Detach from Bundle]**」をクリックします。
+   Each bundle that's eligible for the creative type is listed in the right frame. For bundles to which the creative is already attached, the check box is selected. To detach the creative for a bundle, deselect the check box.
 
-   * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Attach/Detach from Bundle]** をクリックします。
+1. In the right frame, deselect the check box next to each bundle from which to remove the creative, and then click **[!UICONTROL Attach Creatives to Bundle]**.
 
-   クリエイティブタイプに適格な各バンドルが右側のフレームに表示されます。 クリエイティブが既に添付されているバンドルの場合、チェックボックスが選択されます。 バンドルのクリエイティブを分離するには、チェックボックスの選択を解除します。
-
-1. 右側のフレームで、クリエイティブを削除する各バンドルの横にあるチェックボックスの選択を解除し、「削 **[!UICONTROL Attach Creatives to Bundle]**」をクリックします。
+-->
 
 <!-- What this should be like, but I don't think this will be implemented:
 

@@ -3,9 +3,9 @@ title: リターゲティングピクセルの管理
 description: 広告エクスペリエンスのターゲットとして使用するリターゲティングピクセルを作成および実装する方法について説明します。
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    属性を手動で追加する場合は、URL エンコーディングを含める必要があります。
 
-   例えば、属性「category」、「color」、「size」を含み、ID5 のユニバーサル ID を取り込んだ場合、ピクセルタグにはパラメーター `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` および `&id5pid=--Insert ID5_PARTNER_ID--` が含まれます。 例えば、サイズ 10 の赤いサンダルを選択するユーザーをターゲットするには、画像タグとスクリプトタグの両方のパラメーターを `&ut1=sandals&ut2=red&ut3=10` に変更し、スクリプトタグに ID5 のパートナー ID （`&id5pid=0123456789` など）を入力します。
+   例えば、属性「category」、「color」および「size」を含み、ID5 のユニバーサル ID を取り込んだ場合、ピクセルタグには次のパラメーターが含まれます。`&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` および `&id5pid=--Insert ID5_PARTNER_ID--`。 例えば、サイズ 10 の赤いサンダルを選択するユーザーをターゲットにするには、画像タグとスクリプトタグの両方のパラメーターを `&ut1=sandals&ut2=red&ut3=10` に変更し、スクリプトタグに ID5 のパートナー ID （`&id5pid=0123456789` など）を入力します。
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -99,17 +99,17 @@ ht-degree: 0%
 
 ## リターゲティングピクセル設定 {#retargeting-pixel-settings}
 
-**[!UICONTROL Pixel Name]:** ピクセルの名前。 **注意：** ピクセルタグには、ピクセル名ではなく、ピクセル ID （`pxId=<ID>`）が含まれます。
+**[!UICONTROL Pixel Name]:** ピクセルの名前。 **注意：** ピクセルタグには、ピクセル名ではなくピクセル ID （`pxId=<ID>`）が含まれます。
 
 **[!UICONTROL Advertiser]:** （既存のピクセルの場合は読み取り専用）ピクセルがトラッキングされる広告主。
 
 **[!UICONTROL Attribute 1]:** 「SKU」、「カテゴリ」、「サイズ」など、ページまたはページに表示される製品のピクセルタグに含める属性。 関連する web ページに挿入する前に、ピクセルタグで属性の値を指定します。
 
-ピクセルに公開されたユーザーに対して広告エクスペリエンスをターゲット設定する場合、ターゲット設定では、クリエイティブを表示するために存在する必要がある属性値を指定します。
+ピクセルに公開されたユーザーに対して広告エクスペリエンスをターゲット設定する場合、クリエイティブを表示するために存在する必要がある属性値をターゲット設定で指定します。
 
 **[!UICONTROL Attribute 2]**、**[!UICONTROL Attribute 3]**、**[!UICONTROL Attribute 4]**、**[!UICONTROL Attribute 5]:** （任意） pixel タグに含める追加の属性。 関連する web ページに挿入する前に、ピクセルタグ内の各追加属性の値を指定します。
 
-ピクセルに公開されたユーザーに対して広告エクスペリエンスをターゲット設定する場合、ターゲット設定では、クリエイティブを表示するために存在する必要がある属性値を指定します。
+ピクセルに公開されたユーザーに対して広告エクスペリエンスをターゲット設定する場合、クリエイティブを表示するために存在する必要がある属性値をターゲット設定で指定します。
 
 **[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** （Beta機能、新しいピクセルのみ、オプション）トラッキングするピクセルタグのユニバーサル ID のタイプ：
 

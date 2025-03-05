@@ -3,9 +3,9 @@ title: クリエイティブライブラリへの標準クリエイティブの�
 description: クリエイティブライブラリに標準（非ダイナミック）クリエイティブを追加する方法を説明します。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 ## クリエイティブライブラリへのHTML5 クリエイティブの追加
 
-<!-- verify -->一度に 1 つのタイプ（シンプルまたは静的）の複数のHTML5 クリエイティブを追加できます。
+一度に 1 つのタイプ（シンプルまたは静的）の複数のHTML5 クリエイティブを追加できます。
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -122,7 +122,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. **[!UICONTROL Create]**/**[!UICONTROL Creative]**/**[!UICONTROL HTML5]** をクリックします。
 
-<!-- Doesn't seem to be an option as of 11/27/24:
+<!-- Not an option as of 3/4:
 
 1. (Optional) To download a sample HTML5 creative as a ZIP file, click **Sample HTML5 Creatives**.
 
@@ -202,8 +202,5 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 >* [ サポートされるクリエイティブサイズ ](/help/creative/creative-libraries/creative-sizes.md)
 >* [ クリエイティブのプレビュー ](/help/creative/creative-libraries/creative-preview.md)
 >* [ クリエイティブをバンドルに添付して分離する ](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
->* [ 重複クリエイティブ ](/help/creative/creative-libraries/creative-duplicate.md)
->* [ クリエイティブをダウンロード ](/help/creative/creative-libraries/creative-download.md)
->* [ クリエイティブを削除 ](/help/creative/creative-libraries/creative-delete.md)
 >* [ クリエイティブライブラリについて ](/help/creative/creative-libraries/creative-libraries-about.md)
 >* [ クリエイティブライブラリの管理 ](/help/creative/creative-libraries/creative-library-manage.md)

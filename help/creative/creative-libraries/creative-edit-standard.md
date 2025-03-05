@@ -2,9 +2,10 @@
 title: クリエイティブライブラリでの標準クリエイティブの編集
 description: クリエイティブライブラリで標準（非ダイナミック）クリエイティブの設定を変更する方法を説明します。
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -13,11 +14,11 @@ ht-degree: 0%
 
 *クローズドベータ版*
 
-標準クリエイティブのタイプごとに、いくつかの設定を編集できます。 同じクリエイティブタイプの複数のクリエイティブ（ランディングページが 1 つだけのシンプルなHTML5、複数のランディングページがある静的HTML5、フレキシブルHTML5、画像、サードパーティ <!-- , or dynamic -->）の <!-- or creative variations --> のみを編集できます。
+標準クリエイティブのタイプごとに、いくつかの設定を編集できます。 同じクリエイティブタイプの複数のクリエイティブ <!-- or creative variations --> 同じランディングページを持つ単純なHTML5、複数のランディングページを持つ静的なHTML5、柔軟なHTML5、画像、サードパーティ <!-- , or dynamic -->）のみを編集できます。
 
-フレキシブルHTML5 と静的HTML5 のクリエイティブの場合、レイアウトは異なるものの属性名が同じ新しいテンプレートファイルをアップロードできます。 シンプルなHTML5 のクリエイティブの場合、新しい属性または画像を含む新しいテンプレートをアップロードすることで、任意の属性を編集したり、画像を追加したりできます。 すべての場合、テンプレートは、最大 2 MB の ZIP 形式のローカルファイルである必要があります。
+柔軟なHTML5 および静的なHTML5 クリエイティブの場合は、レイアウトは異なるものの、属性名のセットは同じである新しいテンプレートファイルをアップロードできます。 シンプルなHTML5 のクリエイティブの場合、新しい属性または画像を含む新しいテンプレートをアップロードすることで、任意の属性を編集したり、画像を追加したりできます。 すべての場合、テンプレートは、最大 2 MB の ZIP 形式のローカルファイルである必要があります。
 
-バンドルに含まれるクリエイティブ <!-- or creative variation --> ージを編集すると、変更内容はバンドルを含むすべてのエクスペリエンスに自動的に適用されます。ただし、エクスペリエンスレベルで指定されたカスタムランディングページとトラッキング URL は、そのエクスペリエンスに添付されたバンドルにも引き続き適用されます。
+バンドルに含まれるクリエイティブを編集すると <!-- or creative variation --> 変更はバンドルを含むすべてのエクスペリエンスに自動的に適用されます。ただし、エクスペリエンスレベルで指定されたカスタムランディングページとトラッキング URL は、そのエクスペリエンスに添付されるバンドルにも引き続き適用されます。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
@@ -39,7 +40,7 @@ ht-degree: 0%
 
      すべての行を選択するには、左上の「グローバル」チェック・ボックスを選択します。
 
-1. [ 画像クリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)、[HTML5 クリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)、[ フレキシブルHTML5 クリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) または [ サードパーティクリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party) を編集します。<!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
+1. [ 画像クリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)、[HTML5 クリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)、[ フレキシブル HTML5 クリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) または [ サードパーティクリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party) を編集します。<!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
 
    複数のクリエイティブを同時に編集する場合：
 
@@ -49,7 +50,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >* （フレキシブルHTML5 のクリエイティブのみ） 1 つのクリエイティブの属性のみを編集できます。<!-- Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
+   >* （柔軟なHTML5 クリエイティブのみ）属性を編集できるのは、1 つのクリエイティブに対してのみです。<!-- May never be implemented: Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
 
 <!-- Not there as of 1/16/25. If we do add it, verify the applicable ad types:   
 1. (Flexible HTML5 [or third-party should be possible, but not so] creatives; optional) Once you've made your changes, click ![]() to preview the new creative. 
@@ -66,5 +67,3 @@ ht-degree: 0%
 >* [ クリエイティブライブラリへの標準クリエイティブの追加 ](creative-add-standard.md)
 >* [ 標準のクリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [ クリエイティブのプレビュー ](/help/creative/creative-libraries/creative-preview.md)
->* [ 重複クリエイティブ ](/help/creative/creative-libraries/creative-duplicate.md)
->* [ クリエイティブを削除 ](/help/creative/creative-libraries/creative-delete.md)

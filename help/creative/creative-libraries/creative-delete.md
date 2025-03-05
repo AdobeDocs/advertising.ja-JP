@@ -2,9 +2,10 @@
 title: クリエイティブを削除
 description: クリエイティブライブラリでクリエイティブを削除する方法を説明します。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5dc197dc-c4bb-489a-8395-b7c8efa47ea1
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,11 @@ ht-degree: 0%
 
 *クローズドベータ版*
 
-ライブエクスペリエンスまたはドラフトエクスペリエンスに割り当てられたバンドルに含まれていないクリエイティブを削除できます。<!-- verify if we can have child creative variations anymore:  , and that doesn't have child creative variations in a bundle that's assigned to a live or draft experience  -->.<!-- Add an x-ref to experience statuses, or an about page??  --> <!-- add with an x-ref once this feature is added:  If a creative is assigned to a live experience, then remove it from the experience before you continue. -->
+削除できます
+
+* [ ライブまたはドラフト ](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) ターゲット設定されたエクスペリエンス ](/help/creative/experiences/experience-about.md) に割り当てられているバンドルに [ らないクリエイティブ。
+
+* ライブまたはドラフトの広告タグに割り当てられていないクリエイティブ [ ターゲット設定されていないエクスペリエンス ](/help/creative/experiences/experience-about.md)。
 
 >[!NOTE]
 >
