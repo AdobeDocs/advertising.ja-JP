@@ -3,7 +3,7 @@ title: クリエイティブバンドルへのクリエイティブの添付
 description: クリエイティブをクリエイティブバンドルに添付する方法を説明します。
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *クローズドベータ版*
 
-<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available. -->
+<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
 標準クリエイティブを標準バンドルに、動的クリエイティブを動的バンドルに添付して、[ 広告エクスペリエンス ](/help/creative/experiences/experience-about.md) に追加できます。 各バンドルには、各\[creative size + language\] の組み合わせをそれぞれ 1 つだけ含めることができます。
 

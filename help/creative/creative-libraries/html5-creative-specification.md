@@ -3,7 +3,7 @@ title: HTML5 クリエイティブの仕様
 description: Advertising CreativeのHTML5 クリエイティブの仕様を参照します。
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Advertising CreativeのHTML5 クリエイティブの仕様
 
-このドキュメントでは、[!DNL Creative] 内のHTML5 クリエイティブの要件と API サポートの概要を説明します。 API を使用すると、クリエイティブの配信時に属性を設定できるHTML5 クリエイティブを開発できます。
+このドキュメントでは、[!DNL Creative] 内のHTML5 クリエイティブの要件と API サポートの概要を説明します。 API は、クリエイティブの配信時に属性を設定できるHTML5 クリエイティブの開発をサポートしています。
 
 ## 対象範囲
 

@@ -3,7 +3,7 @@ title: 認定広告サービングパートナー
 description: すべての認定広告サーバーと広告ユニットを表示します。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%

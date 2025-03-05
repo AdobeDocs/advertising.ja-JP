@@ -3,7 +3,7 @@ title: リターゲティングピクセルの管理
 description: 広告エクスペリエンスのターゲットとして使用するリターゲティングピクセルを作成および実装する方法について説明します。
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> * [!DNL Creative] は現在、Advertising DSPのユニバーサル ID のみをサポートしています。 今後のリリースでは、サードパーティ DSP 用のユニバーサル ID がサポートされる予定です。<!-- Clarify this and reword as needed -->
+> * [!DNL Creative] は現在、Advertising DSPのユニバーサル ID のみをサポートしています。 今後のリリースでは、サードパーティ DSP 用のユニバーサル ID がサポートされる予定です。<!-- Clarify this and reword as needed  -->
 >* また、Adobe Audience ManagerとAdobe Analyticsのファーストパーティオーディエンスを [ エクスペリエンスのクリエイティブターゲット ](/help/creative/experiences/experience-settings-targeting.md) として使用することもできます。
 >* Advertising DSP プレースメント内で広告としてエクスペリエンスを使用する場合、DSPで使用可能なすべてのオーディエンスをターゲットに配置できます。 また、[ カスタムオーディエンスセグメントタグを作成 ](/help/dsp/audiences/custom-segment-create.md) して、特定のランディングページへのすべての訪問者をトラッキングし、それらのセグメントをプレースメントのクリエイティブターゲットとして使用することもできます。
 >* 広告ターゲティングのトラッキングをオプトアウトした web サイト訪問者は、オーディエンスセグメントまたはリターゲティングプロファイルに基づいてパーソナライズされたクリエイティブコンテンツを含む広告を受信しません。

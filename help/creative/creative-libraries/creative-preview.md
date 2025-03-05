@@ -2,7 +2,8 @@
 title: クリエイティブのプレビュー
 description: クリエイティブのプレビューを開く方法を説明します。
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 *標準クリエイティブのみ*
 *クローズドベータ版*
 
-ハイパーリンクを含む、ビューアで表示されるクリエイティブをプレビューできます。
+ハイパーリンクを含むクリエイティブは、ビューアに表示されるとおりにプレビューできます。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
