@@ -3,7 +3,7 @@ title: カスタムレポートについて
 description: カスタムレポートを手動で作成するオプションと、事前設定済みのレポートテンプレートを使用するオプションについて説明します。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 5ddfcba2e1ceac6a98dc0b865a09f535e6621fa0
+source-git-commit: 49e254ca954389b1ea13ac571de55f404ed7ba7c
 workflow-type: tm+mt
 source-wordcount: '1498'
 ht-degree: 0%
@@ -42,6 +42,10 @@ ht-degree: 0%
      >このレポートには、請求セグメントに関するデータが含まれています。 ユーザーまたはデバイスが複数のセグメントに属するインプレッションを受け取った場合、請求可能な 1 つのセグメントのみがインプレッションでクレジットされます。
 
    * **[!UICONTROL Conversion]:** このレポートを使用すると、Adobe Advertisingのコンバージョントラッキングで取得したコンバージョン指標に基づいて、キャンペーンのパフォーマンスを把握できます。 このレポートには、マルチタッチ属性が含まれています。
+
+  <!--
+    * **[!UICONTROL Custom Creative Report Beta]:** (Beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
+    -->
 
    * **[!UICONTROL Device]:** この事前入力済みテンプレートを使用して、デバイス関連のディメンション別に主要指標を表示します。
 
@@ -91,7 +95,7 @@ ht-degree: 0%
 
      最新のインタラクションポイントは最大 10 個まで含まれます。 パス行は、コンバージョン数で並べ替えられます。
 
-     このレポートと [!DNL Advanced Measurement Services] およびAdobe分析で作成されたレポートの比較については、「[ カスタム・レポートに関する FAQ](/help/dsp/reports/faq-reports.md)」を参照してください。
+     このレポートと [!DNL Advanced Measurement Services] およびAdobe Analytics で作成されたレポートの比較については、「[ カスタムレポートに関する FAQ](/help/dsp/reports/faq-reports.md)」を参照してください。
 
    * **[!UICONTROL Path Length Beta]:** （Beta機能）このレポートを使用して、次の操作を行います      コンバージョンに必要なユーザーインタラクションポイントの数を経時的に追跡して、最適な広告頻度を選択できます。 このレポートには、パスの長さ（インタラクションポイント）別にコンバージョン数が表示されます。例えば、ユーザーが 1 つの広告インタラクション、2 つの広告インタラクションのみを受け取った後に発生したコンバージョン数などがあります。 レポートには複数のコンバージョン指標のデータを含めることができ、最初のインタラクションとコンバージョンの間に指定されたルックバック期間を使用します。 レポートの列には、「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt; コンバージョン指標名 1\>」、「% \&lt; コンバージョン指標名 1\>」、「\&lt; コンバージョン指標名 2\>」、「% \&lt; コンバージョン指標名 2\>」などがあります。
 
@@ -101,7 +105,7 @@ ht-degree: 0%
 
 ## クロスアカウントレポート {#cross-account-reporting}
 
-複数のDSP アカウントを持つ組織では、組織のニーズに応じて、カスタムレポートでクロスアカウントデータをオプションで有効にできます。 例えば、アカウント A にアカウント B のデータへのアクセス権を付与し、アカウント B にアカウント C の（アカウント A の）データへのアクセス権を付与することができます。 この機能を有効にして設定するには、Adobeアカウントチームにお問い合わせください。
+複数のDSP アカウントを持つ組織では、組織のニーズに応じて、カスタムレポートでクロスアカウントデータをオプションで有効にできます。 例えば、アカウント A にアカウント B のデータへのアクセス権を付与し、アカウント B にアカウント C の（アカウント A の）データへのアクセス権を付与することができます。 この機能を有効にして設定する場合は、Adobe アカウントチームにお問い合わせください。
 
 組織でこの機能を有効にすると、アカウント別に次のいずれかのレポートタイプを [ フィルタリング ](report-settings.md) できます。[!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)] および [!UICONTROL Conversion]。
 
@@ -133,6 +137,6 @@ ht-degree: 0%
 >* [ カスタムレポートのダウンロード ](/help/dsp/reports/report-download.md)
 >* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
 >* [ 世帯レポートに関するよくある質問 ](/help/dsp/reports/faq-reports.md)
->* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [ キャンペーン管理ビューでのパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)
 >* [[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md) について

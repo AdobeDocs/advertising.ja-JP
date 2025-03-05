@@ -3,7 +3,7 @@ title: Advertising Creativeのエクスペリエンスについて
 description: パーソナライズされた広告エクスペリエンスを設定し、パフォーマンスに基づいて広告要素を最適化する方法を説明します。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: e2b88275f2ebbc69f769cf905a0d20859bf0af3b
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## エクスペリエンスのパフォーマンスデータ
 
-[!UICONTROL Experiences] ビューで「[!UICONTROL Metrics]」オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。
+[!UICONTROL Creative]/[!UICONTROL Experiences] ビューで「[!UICONTROL Metrics]」オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。
 
 ![ 指標オプション ](/help/creative/assets/metrics-option.png " 指標オプション ")
 
@@ -59,11 +59,9 @@ ht-degree: 0%
 
 <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
-[!UICONTROL Creative]/[!UICONTROL Experiences] ビューから、任意のエクスペリエンスの詳細なパフォーマンスデータを表示できます。 エクスペリエンス全体のパフォーマンスを監視するには、[!UICONTROL Custom Creative Report] を作成します。
+[!UICONTROL Experiences] ビューから [ 任意のエクスペリエンスの詳細なパフォーマンスデータを表示 ](experience-performance-details.md) できます。
 
-<!--
-You can [view detailed performance data for any experience](experience-performance-details.md) from the Creative > Experiences view. To monitor performance across your experiences, [create custom reports](/help/dsp/reports/report-create.md).
--->
+エクスペリエンス全体のパフォーマンスを監視するには、[!UICONTROL Custom Creative Report](/help/creative/report-custom-creative.md) を作成します。
 
 ## エクスペリエンスのステータス {#experience-statuses}
 
