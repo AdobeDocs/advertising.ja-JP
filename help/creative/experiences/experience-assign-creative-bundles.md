@@ -2,9 +2,10 @@
 title: エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除
 description: 広告エクスペリエンスの各ターゲットにクリエイティブを割り当てる方法を説明します。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -20,9 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->各最終ノードに 1 つ以上のクリエイティブバンドルを割り当てない場合、（エクスペリエンスを保存 [ する際に、未割り当ての各ノードに対してデフォルトのクリエイティブを使用することを選択でき ](experience-create-targeting.md) す。 公開するには、エクスペリエンスにバンドルを割り当てるか、エクスペリエンスから作成されたすべての広告でデフォルトのクリエイティブを使用する必要があります。
-
-<!-- The optimization and ad scheduling features and tracking URLs customization are in a different place now -- include here or in separate procedures? -->
+>各最終ノードに 1 つ以上のクリエイティブバンドルを割り当てない場合、（エクスペリエンスを保存 [ する際に、未割り当ての各ノードに対してデフォルトのクリエイティブを使用することを選択でき ](experience-create-targeting.md) す。 エクスペリエンスを公開するには、バンドルを割り当てるか、最終ノードごとにデフォルトのクリエイティブを使用する必要があります。
 
 <!-- 1. [ways to get to the decision tree] -->
 

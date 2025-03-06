@@ -3,7 +3,7 @@ title: エクスペリエンスのクリエイティブの最適化とスケジ�
 description: 方法を学ぶ
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
+source-git-commit: 4abb83d08a6633c36aa47b5acd67df3d4cc0923b
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 *既存のクリエイティブを持つターゲットノードのみ*
 *クローズドベータ版*
 
-デフォルトでは、エクスペリエンスのクリエイティブローテーションは、全体的なクリックスルー率を最適化するためにアルゴリズムによって決定され、クリエイティブの最適化設定は、割り当てられたすべてのバンドルに適用されます。 クリエイティブローテーションをカスタマイズし、相対ウェイトに従って各バンドルにクリエイティブを手動で実行したり、指定したAdvertising DSPのカスタム目標に合わせてアルゴリズムで最適化したりできます。 <!-- verify --> 特定のクリエイティブバンドルを指定した期間に連続して実行するようにスケジュールし、各スケジュールにカスタムのクリエイティブローテーション設定を適用することもできます。
+デフォルトでは、エクスペリエンスのクリエイティブローテーションは、全体的なクリックスルー率を最適化するためにアルゴリズムによって決定され、クリエイティブの最適化設定は、割り当てられたすべてのバンドルに適用されます。 クリエイティブローテーションをカスタマイズし、相対ウェイトに従って各バンドルにクリエイティブを手動で実行したり、指定したAdvertising DSPのカスタム目標に合わせてアルゴリズムで最適化したりできます。 特定のクリエイティブバンドルを指定した期間に連続して実行するようにスケジュールし、各スケジュールにカスタムのクリエイティブローテーション設定を適用することもできます。
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Algorithmic]:* 指定した最適化目標に従って、各バンドル内のクリエイティブをアルゴリズムによって回転させます。
 
-      * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
+      * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md)」を選択します。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
       * *[!UICONTROL Algorithmic]:* 指定した最適化目標に従って、各バンドル内のクリエイティブをアルゴリズムによって回転させます。
 
-         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
+         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md)」を選択します。
 
 1. 追加のスケジュールごとに、次の手順を実行します。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
       * *[!UICONTROL Algorithmic]:* 指定した最適化目標に従って、各バンドル内のクリエイティブをアルゴリズムによって回転させます。
 
-         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
+         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md)」を選択します。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 

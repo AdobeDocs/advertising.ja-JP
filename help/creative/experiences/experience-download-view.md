@@ -2,9 +2,10 @@
 title: '[!UICONTROL Experiences] ビューからのデータのダウンロード'
 description: 方法を学ぶ
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -24,3 +25,6 @@ ht-degree: 0%
 1. 右上のツールバーで、「![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
 
    ファイルは、ブラウザーのデフォルトのダウンロードフォルダーに保存されます。
+
+>[!MORELIKETHIS]
+>* [Advertising Creativeでのエクスペリエンスについて ](/help/creative/experiences/experience-about.md)
