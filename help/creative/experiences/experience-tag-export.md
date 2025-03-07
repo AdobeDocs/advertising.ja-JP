@@ -3,7 +3,7 @@ title: ライブエクスペリエンス用の広告エクスペリエンスタ�
 description: 広告エクスペリエンスタグをエクスポートし、オプションでAdvertising DSP キャンペーンにアップロードする方法を説明します。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *クローズドベータ版*
 
-クリエイティブサイズの広告タグを [ ライブ ](experience-about.md#experience-statuses) エクスペリエンスで使用できるようになったら、JavaScriptおよび iframe 形式でタグを生成してコピーし、Advertising DSPまたは他のDSPに実装できます。 DSPのタグには、DSPに必要なすべてのマクロが含まれます。
+クリエイティブのサイズに応じた広告タグを [ ライブ ](experience-about.md#experience-statuses) エクスペリエンスで使用できるようになったら、JavaScriptおよび iframe 形式でタグを生成してコピーし、Advertising DSPまたは他の DSP に実装できます。 DSPのタグには、DSPに必要なすべてのマクロが含まれます。
 
 Advertising DSPを使用する広告主は、オプションで、タグを広告としてAdvertising DSP キャンペーンに直接アップロードできます。
 
@@ -50,7 +50,7 @@ Advertising DSPを使用する広告主は、オプションで、タグを広�
 
    * *Adobe Advertising:* 広告については、Advertising DSPで作成します。
 
-   * *汎用：* 他のDSPで作成する広告の場合。 **メモ：** 必要に応じて、追加のマクロを手動で含める必要がある場合があります。
+   * *汎用：* 他の DSP で作成する広告の場合。 **メモ：** 必要に応じて、追加のマクロを手動で含める必要がある場合があります。
 
 1. 「**[!UICONTROL Generate tags]**」をクリックします。
 
@@ -64,13 +64,13 @@ Advertising DSPを使用する広告主は、オプションで、タグを広�
 
 1. 関連するDSPのタグを実装します。
 
-   * Advertising DSP以外のDSPの場合は、DSP内で広告を作成するユーザーにタグを提供します。
+   * Advertising DSP以外の DSP の場合は、DSP内で広告を作成するユーザーにタグを提供します。
 
    * Advertising DSP用：
 
       1. 右上の「**[!UICONTROL Next]**」をクリックするか、左側のメニューの「**[!UICONTROL DSP link]**」をクリックします。
 
-      1. 広告タグを使用できるキャンペーンを選択します。
+      1. 広告タグをアップロードするキャンペーンを選択します。
 
       1. 「**[!UICONTROL Assign Tags]**」をクリックします。
 

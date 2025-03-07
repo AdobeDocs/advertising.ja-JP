@@ -2,9 +2,10 @@
 title: エクスペリエンスのデモ URL の共有
 description: エクスペリエンスのデモ URL を共有する方法について説明します。
 feature: Creative Experiences
-source-git-commit: 14d972044d485ead5101f1c383d2726bb6fd9d25
+exl-id: 0d523270-e6b2-4d7b-a39c-749f3cc94561
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -28,3 +29,7 @@ ht-degree: 0%
 1. プレビューの右上にある「![ 共有 ](/help/creative/assets/share.png " 共有 ")」をクリックします。
 
 1. [!UICONTROL Share Demo URL] ダイアログで、「**[!UICONTROL Copy]**」をクリックして URL をクリップボードにコピーし、他のユーザーと共有できるようにします。
+
+>[!MORELIKETHIS]
+>
+>* [ エクスペリエンスのプレビュー ](/help/creative/experiences/experience-preview.md)

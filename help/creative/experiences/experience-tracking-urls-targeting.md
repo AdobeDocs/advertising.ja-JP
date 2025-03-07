@@ -2,9 +2,10 @@
 title: エクスペリエンスのトラッキング URL のカスタマイズ
 description: 意思決定ツリーターゲティングを使用したエクスペリエンスで各クリエイティブのトラッキング URL をカスタマイズする方法を説明します。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,13 @@ ht-degree: 0%
 *既存のクリエイティブを持つターゲットノードのみ*
 *クローズドベータ版*
 
-決定ツリーターゲティングを使用したエクスペリエンスの場合、決定ツリー内から、エクスペリエンスに使用するクリエイティブごとに最大 5 つのカスタムインプレッショントラッキング URL、5 つのカスタムクリックトラッキング URL、1 つのカスタムランディングページ URL を作成できます。
+意思決定ツリーターゲティングを使用したエクスペリエンスの場合、エクスペリエンスに使用する個々のクリエイティブごとに、最大 5 つのカスタムインプレッショントラッキング URL、5 つのカスタムクリックトラッキング URL、1 つのカスタムランディングページ URL を作成できます。 決定ツリー内からトラッキング URL をカスタマイズできます。
 
 カスタム URL は、エクスペリエンスから作成された広告にのみ使用され、[!UICONTROL Creative Libraries] のベースのクリエイティブ設定には保存されません。
 
 1. ターゲットノードの下にあるクリエイティブバンドルリーフ/フォルダーの上にカーソルを置き、**[!UICONTROL ...]**/**[!UICONTROL Edit Tracking URLs]** をクリックします。
 
-   「[!UICONTROL Click Tracking URLs]」、「[!UICONTROL Impression Tracking URLs]」および「[!UICONTROL Landing URLs]」タブには、割り当てられたバンドル内の該当するサイズのすべてのクリエイティブの名前が一覧表示されます。 適用可能なサイズは、エクスペリエンスのデフォルト画像クリエイティブのサイズによって決まります。<!-- There's no distinct "Creative Sizes" setting. -->
+   「[!UICONTROL Click Tracking URLs]」、「[!UICONTROL Impression Tracking URLs]」および「[!UICONTROL Landing URLs]」タブには、割り当てられたバンドル内の該当するサイズのすべてのクリエイティブの名前が一覧表示されます。 エクスペリエンスのデフォルトの画像クリエイティブのサイズによって、使用可能なサイズが決まります。<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. 「**[!UICONTROL Click Tracking URLs]**」、「**[!UICONTROL Impression Tracking URLs]**」、「**[!UICONTROL Landing URLs]**」の各タブで、必要に応じてクリエイティブごとに次の操作を行います。
 

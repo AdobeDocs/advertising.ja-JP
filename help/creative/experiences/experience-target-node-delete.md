@@ -2,9 +2,10 @@
 title: エクスペリエンスでのターゲットノードまたはクリエイティブリーフノードの削除
 description: エクスペリエンス内のノードを削除する方法を説明します。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 <!-- 1. [ways to get to the decision tree] -->
 
-1. ターゲットノードまたはクリエイティブリーフノードの上にカーソルを置き、**[!UICONTROL ...]**/**[!UICONTROL Delete]** をクリックします。
+1. ターゲットノードまたはクリエイティブリーフノードの上にカーソルを置き、**[!UICONTROL ...]** > **[!UICONTROL Delete]** をクリックします。
 
 1. 確認メッセージで、「**[!UICONTROL Delete Node]**」をクリックします。
 

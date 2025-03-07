@@ -3,9 +3,9 @@ title: 該当するクリエイティブサイズの広告タグを手動で作�
 description: 特定のクリエイティブサイズの広告タグを作成する方法を説明します。
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 一意の **[!UICONTROL Tag name]** を入力し、**[!UICONTROL Tag size]** を選択します。
 
-   使用可能なクリエイティブのサイズは、エクスペリエンスのデフォルト画像クリエイティブのサイズによって決まります。
+   エクスペリエンスのデフォルトの画像クリエイティブのサイズによって、使用可能なクリエイティブのサイズが決まります。
 
    同じクリエイティブサイズに対して複数のタグを作成できます。<!-- What are the implications? -->
 

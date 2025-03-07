@@ -3,9 +3,9 @@ title: エクスペリエンスレベルのパフォーマンスレポート
 description: エクスペリエンスレベルのパフォーマンスレポートを表示する方法について説明します。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-   * **デフォルト率**: （決定ツリーのターゲット設定を使用したエクスペリエンスのみ）ターゲットクリエイティブ、ターゲットを設定していない汎用クリエイティブまたは「その他すべてのユーザー」をターゲットにした汎用クリエイティブおよびエクスペリエンスのデフォルトのクリエイティブによるインプレッション数。
+   * **デフォルト率**: （決定ツリーのターゲット設定を使用したエクスペリエンスのみ）ターゲットクリエイティブ、ターゲットを設定していない汎用クリエイティブまたは「その他すべてのユーザー」をターゲットにした汎用クリエイティブおよびエクスペリエンスのデフォルトクリエイティブによるインプレッション数。
 
      <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
@@ -52,7 +52,7 @@ ht-degree: 0%
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **デバイスのパフォーマンス：** デバイスタイプ、オペレーティングシステムおよびブラウザー別の個々の指標。 必要に応じて、任意のデバイスカテゴリの値をクリックして、その条件を満たす上位 <!-- NN --> 件のクリエイティブのリストを表示します。
+      * **デバイスのパフォーマンス：** デバイスタイプ、オペレーティングシステムおよびブラウザー別の個々の指標。 必要に応じて、任意のデバイスカテゴリの値をクリックして <!-- NN --> その条件を提供した上位のクリエイティブのリストを表示します。
 
         <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
@@ -112,13 +112,15 @@ ht-degree: 0%
 
       * プリセットの期間を指定するには、レポート（*[!UICONTROL Last Month-to-date]、* *[!UICONTROL Last 7 days]、* *[!UICONTROL Last 30 days]、* *[!UICONTROL Last 7 days]、* *[!UICONTROL Last 30 days]、* *[!UICONTROL Today]、* または *[!UICONTROL Yesterday]*）を選択します。
 
-      * カスタムの日付範囲を指定するには、開始日と終了日の <!-- in the format MM/DD/YYYY or M/D/YYYY,--> を指定するか、フィールドの横にある ![ カレンダーアイコン ](/help/search-social-commerce/assets/calendar.png) をクリックして、日付を選択します。
+      * カスタムの日付範囲を指定するには、開始日と終了日を指定するか <!-- in the format MM/DD/YYYY or M/D/YYYY,--> フィールドの横にある ![ カレンダーアイコン ](/help/search-social-commerce/assets/calendar.png) をクリックして日付を選択します。
 
    * （任意）コンバージョンにつながる一連のイベント内のコンバージョンデータを属性化するためのルールを変更するには、![ 設定 ](/help/creative/assets/settings.png) をクリックして **[!UICONTROL Attribution Rule]** を変更します。
 
-   * （オプション）レポートされたコンバージョンを変更するには、![ 設定 ](/help/creative/assets/settings.png) をクリックし、**[!UICONTROL Conversions]** メニューでコンバージョン名を選択します。&lt;!—1 つまたは複数のどちらですか。 これらの値の表示方法を確認する – 複数のコンバージョンが既に設定されている広告主を確認する必要があります – >
+     アトリビューションルールについて詳しくは、[ アトリビューションルールの計算方法 ](/help/search-social-commerce/reports/attribution-rules.md) を参照してください。
 
-     使用可能なコンバージョン列には、検索、ソーシャル、Commerceのユーザーであるかどうかに関わらず、Advertising検索、ソーシャル、Commerceで使用可能なコンバージョンが含まれます。 これには、広告主が [ 統合 ](/help/integrations/analytics/overview.md) した際にAdobe Analyticsから同期されたコンバージョン指標とサイトエンゲージメント指標が含  [!DNL Adobe Analytics for Advertising]  れます。 <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> 収集したコンバージョンをレポートに含める方法について詳しくは、「検索、ソーシャル、Commerceガイド」のトピック「[ 広告主のコンバージョン指標の管理について ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) を参照してください。
+   * （オプション）レポートされたコンバージョンを変更するには、![ 設定 ](/help/creative/assets/settings.png) をクリックし、**[!UICONTROL Conversions]** メニューでコンバージョン名を選択します。&lt;!—1 つまたは複数のどちらですか。 これらの指標がどのように表示されるかを確認します。複数のコンバージョンが既に設定されている広告主を確認する必要があります。 3/6 の時点では、「すべてを選択」しか表示されません。—>
+
+     使用可能なコンバージョン列には、検索、ソーシャル、Commerceのユーザーであるかどうかに関わらず、Advertising検索、ソーシャル、Commerceで使用可能なコンバージョンが含まれます。 このリストには、広告主が [an [!DNL Adobe Analytics for Advertising] integration](/help/integrations/analytics/overview.md) を実行した際にAdobe Analyticsから同期されたコンバージョン指標とサイトエンゲージメント指標を含めることができます。 <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> 収集したコンバージョンをレポートに含める方法について詳しくは、「検索、ソーシャル、Commerceガイド」のトピック「[ 広告主のコンバージョン指標の管理について ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) を参照してください。
 
 1. （[[!UICONTROL Overview]] タブ）:
 
@@ -136,7 +138,7 @@ ht-degree: 0%
 
       * 任意のデバイスカテゴリの値にカーソルを合わせると、その条件のデータが表示されます。
 
-      * 任意のデバイスカテゴリの値をクリックすると、その条件を満たす上位 <!-- NN--> 件のクリエイティブのリストが表示されます。
+      * 任意のデバイスカテゴリの値をクリックすると、その条件を満たす上位のクリエイティブ <!-- NN--> リストが表示されます。
 
 1. （オプション）クリエイティブ別、バンドル別または広告タグ別にデータを表示するには、「**[!UICONTROL Creative Performance]**」タブをクリックします。
 
@@ -148,7 +150,7 @@ ht-degree: 0%
 
       * （デシジョンツリーのターゲット設定を使用したエクスペリエンスのみ。オプション）適用された各広告ターゲットのパフォーマンスを分割するには、**[!UICONTROL Split targeting]** を有効にします。
 
-1. バンドル（デシジョンツリーターゲティングを使用したエクスペリエンス）または広告タグ（デシジョンツリーターゲティングを使用しないエクスペリエンス）別にデータを表示するには、「**[!UICONTROL Bundles]**」サブタブをクリックします。 次のいずれかの操作を行うことができます。
+1. バンドル（デシジョンツリーターゲティングを使用したエクスペリエンス）または広告タグ（デシジョンツリーターゲティングを使用しないエクスペリエンス）でデータを表示するには、「**[!UICONTROL Bundles]**」サブタブをクリックします。 次のいずれかの操作を行うことができます。
 
    * （オプション）グラフ表示とグリッド表示を切り替えるには、「![ グラフ ](/help/creative/assets/chart-view-button.png " グラフ ")」および「![グリッド](/help/creative/assets/table-view-button.png "グリッド")」をそれぞれクリックします。
 
@@ -163,3 +165,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [ カスタムクリエイティブレポート ](/help/creative/report-custom-creative.md)
+>* [ ビュー内のすべてのエクスペリエンスをダウンロード ](/help/creative/experiences/experience-download-view.md)
+>* [Advertising Creativeでのエクスペリエンスについて ](/help/creative/experiences/experience-about.md)
