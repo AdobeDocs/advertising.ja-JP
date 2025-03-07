@@ -3,9 +3,9 @@ title: ターゲット以外のエクスペリエンスの設定
 description: デシジョンツリーのターゲット設定を使用しない広告エクスペリエンスのすべての設定の説明を参照してください。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 **半径：** （動的広告を使用したエクスペリエンスのみ。オプション）フィードファイルで指定されている米国の郵便番号からターゲットまでの半径。0 マイルから 200 マイルまでの半径を選択します。 エクスペリエンスの動的広告の作成に使用するフィードファイルには <!-- or a user-named column mapped to a ZIP column --> ファイル内の各製品行の値を持つ [!UICONTROL ZIP] 列を含める必要があります。 例えば、半径が 10 マイルの場合、95110 で利用可能な製品の広告を、95110 から 10 マイル以内のユーザーに表示できます（ユーザーの IP アドレスによって決定されます）。
 
-**RT Pixel:** （動的広告を含むエクスペリエンスのみ。オプション）潜在的にターゲットにする [!UICONTROL Creative] リターゲティングピクセル。 デシジョンツリー内でターゲティングを設定する場合、1 レベルの RT ピクセルターゲットノードを含めることができます。 各ノードには、ターゲットとするピクセルと、割り当てられたクリエイティブバンドル内のクリエイティブを表示するために必要なピクセルの属性の値を指定します。 このフィールドでピクセルを指定しない場合でも、デシジョンツリー内でピクセルを指定できます。&lt;!— R から：「RT ピクセルは、動的広告設定のコンテンツ選択を使用する必要があります」 – 明確にします。 動的広告設定に「Datapass」（1 語）は表示されますが、その設定とこのエクスペリエンスレベルの設定がどのように連携するかわかりません。—>
+**RT Pixel:** （動的広告を含むエクスペリエンスのみ。オプション）潜在的にターゲットにする [!UICONTROL Creative] リターゲティングピクセル。 デシジョンツリー内でターゲティングを設定する場合、1 レベルの RT ピクセルターゲットノードを含めることができます。 各ノードには、ターゲットとするピクセルと、割り当てられたクリエイティブバンドル内のクリエイティブを表示するために必要なピクセルの属性の値を指定します。 このフィールドでピクセルを指定しない場合でも、デシジョンツリー内でピクセルを指定できます。<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
 **[!UICONTROL Label]:**<!-- should be "Labels" --> （任意）エクスペリエンスに適用する [!DNL Creative] 固有のラベル。 エクスペリエンス <!-- sic --> ビューで、ラベル別にエクスペリエンスをフィルタリングできます。
 
