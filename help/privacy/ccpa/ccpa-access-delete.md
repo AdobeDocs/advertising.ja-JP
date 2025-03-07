@@ -4,9 +4,9 @@ description: サポートされるデータリクエストタイプ、必須の�
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: a3e39ca4fa89f84ddc2669662c34bccb4425a2bb
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -94,11 +94,11 @@ Adobe Advertisingからサポートを受けるにはすべての手順が必要
 
 * `"user IDs":`
 
-   * `"namespace": **411**` （[!DNL adCloud] の cookie 領域を示します）
+   * `"namespace": **411**` （[[!DNL AdCloud] cookie 領域 ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix) を示します）
 
    * `"value":` &lt;*`AdobePrivacy.js`* から取得した実際の顧客の Cookie ID 値 >
 
-* `"include": **adCloud**` （リクエストに適用される [!DNL Adobe] 製品）
+* `"include": **adCloud**` （リクエストに適用される [[!DNL Adobe] product](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix) です）
 
 * `"regulation": **ccpa**` （リクエストに適用されるプライバシー規制）
 
