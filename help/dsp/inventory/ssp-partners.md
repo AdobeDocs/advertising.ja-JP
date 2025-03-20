@@ -3,9 +3,9 @@ title: SSP パートナー
 description: 使用可能な SSP （サプライ・サイド・プラットフォーム）とオープン Exchange パートナーのリストを参照してください。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 311200b84c4f2d037ecc9cc17ba49495bd523464
+source-git-commit: 9bdd7eda97fc7794210a71aceb49d9570a3ad8fb
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ ht-degree: 0%
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] またはAdobe Advertising | — | グローバル | USD | ディスプレイのデスクトップとモバイル <br><br> ネイティブなディスプレイ <br><br> ビデオデスクトップ、モバイル、CTV |
 | [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | すべての通貨 | デスクトップおよびモバイルの表示 <br><br> ビデオデスクトップ、モバイルおよび CTV |
 | [!DNL SmartStream] |  | Adobe Advertising | — | EMEA | EUR、USD | ビデオデスクトップとモバイル |
-| [!DNL Sortable] | [!DNL Freestar] | Adobe Advertising | — | CA | USD | デスクトップとモバイルの表示 |
 | [!DNL Taboola] |  | Adobe Advertising | — | 米国/カナダ | USD | ビデオデスクトップとモバイル |
 | [!DNL Teads] |  | [!DNL TubeMogul] またはAdobe Advertising | — | アウトストリームビデオ = グローバル <br> ディスプレイ = NA + EMEA | USD | デスクトップとモバイルの表示 <br><br> ビデオのデスクトップとモバイル |
 | [!DNL TripleLift] |  | [!DNL TubeMogul] またはAdobe Advertising | — | グローバル | USD | ネイティブディスプレイ |
