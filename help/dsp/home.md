@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 020b0ec7ae2417a9b9da93c3740c084f4c7b5323
+source-git-commit: 28d80b9e312793a6c96d9cf741f31198d73a1a7f
 workflow-type: tm+mt
-source-wordcount: '4950'
+source-wordcount: '4946'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
-| リリース日：2025 年 3 月 10 日（Pt） | プライバシー | Digital Advertising Alliance （DAA）とのパートナーシップに [!DNL Adobe's] り、エンドユーザーは、「Adobe Marketing Cloud - Advertising サービス」（DSP + Audience Manager Cookie を含むAdobe Experience Cloudの従来の名前）のハッシュ化されたメールアドレスに基づくすべての行動ターゲティングをオプトアウトできるようになりました。 以前は、DSPでは、cookie とモバイル ID のみのオプトアウトをサポートしていました。<br><br> エンドユーザーが行動ターゲティングをオプトアウトすると、DSPは、エンドユーザーの Cookie、モバイル ID またはハッシュ化されたメールアドレス（DSPが [!DNL Unified ID 2.0 (UID2.0)] ID または [!DNL LiveRamp] [!DNL RampID] と関連付ける場合があります）を取得します。 次に、DSPは、エンドユーザーがオプトアウト cookie （5 年間有効）を保持している限り、そのエンドユーザーに対する広告インプレッションの行動のターゲティングを除外します。<br><br> エンドユーザーは、a\） [https://optout.aboutads.info](https://optout.aboutads.info) または b\）からブラウザーの広告をオプトアウト、ブラウザー、アプリ、または [https://youradchoices.com/control](https://youradchoices.com/control) からのトークン識別子を使用して、広告をオプトアウトできます。<br><br> 広告主の方は作業を行う必要はありません。 | 「[Adobe プライバシーポリシー ](https://www.adobe.com/privacy/policy.html)」を参照してください。 |
+| リリース日：2025 年 3 月 10 日（Pt） | プライバシー | Digital Advertising Alliance （DAA）とのパートナーシップに [!DNL Adobe's] り、エンドユーザーは、「Adobe Marketing Cloud - Advertising サービス」（DSP + Audience Manager Cookie を含むAdobe Experience Cloudの従来の名前）のハッシュ化されたメールアドレスに基づくすべての行動ターゲティングをオプトアウトできるようになりました。 以前は、DSPは、cookie ベースのオプトアウトのみをサポートしていました。<br><br> エンドユーザーが行動ターゲティングをオプトアウトすると、DSPは、エンドユーザーの Cookie、モバイル ID またはハッシュ化されたメールアドレス（DSPが [!DNL Unified ID 2.0 (UID2.0)] ID または [!DNL LiveRamp] [!DNL RampID] と関連付ける場合があります）を取得します。 次に、DSPは、エンドユーザーがオプトアウト cookie （5 年間有効）を保持している限り、そのエンドユーザーに対する広告インプレッションの行動のターゲティングを除外します。<br><br> エンドユーザーは、a\） [https://optout.aboutads.info](https://optout.aboutads.info) または b\）からブラウザーの広告をオプトアウト、ブラウザー、アプリ、または [https://youradchoices.com/control](https://youradchoices.com/control) からのトークン識別子を使用して、広告をオプトアウトできます。<br><br> 広告主の方は作業を行う必要はありません。 | 「[Adobe プライバシーポリシー ](https://www.adobe.com/privacy/policy.html)」を参照してください。 |
 | 2025 年 2 月 3 日（Pt） | [!UICONTROL Packages] | [!UICONTROL Highest Return on Ad Spend] と [!UICONTROL Lowest Cost per Acquisition] の最適化目標を持つパッケージの場合、[!UICONTROL Conversion Metric] 設定が必要になりました。 以前は、オプションでした。<br><br> [!UICONTROL Conversion Metric] は、広告費用対効果または獲得あたりのコストの計算に使用する最終的なコンバージョンイベント（サインアップなど）または収益イベント/販売額（購入や購入値など）です。 | 「[ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)」を参照してください。 |
 | 2024 年 12 月 12 日（Pt） | [!UICONTROL Placements]、ブランドセーフティ | プレースメントレベルでセグメント ID[!DNL DoubleVerify Authentic Brand Safety] ターゲットにできるようになりました。 以前は、広告主レベルでのみターゲットを設定できました。<br><br> デフォルトでは、広告主アカウント設定でセグメント ID が指定されている場合、広告主レベルの ID がプレースメント設定に入力されますが、別のセグメントを使用するように ID を変更したり、ID を削除して機能を無効にしたりできます。<br><br> 広告主レベルの設定内で、機能を有効にするオプションが削除されました。セグメント ID を指定すると、機能が有効になります。 既存の広告主の 1 つに対してこの機能が無効になった場合、セグメント ID フィールドが空白になります。 ユーザーによるアクションは必要ありません。 | 「[ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)」を参照してください。 |
 | 2024 年 10 月 29 日（Pt） | [!UICONTROL Custom Reports] | （Beta機能） 3 つの新しいレポートにより、コンバージョンにつながる広告インタラクションパスに関する深いインサイトが提供されます。<ul><li>[!UICONTROL Path to Conversion Beta]：指定したデータ範囲内で選択した各コンバージョン指標につながる、同じ世帯におけるインタラクションポイントのシーケンスを表示します。</li><li> [!UICONTROL Path Length Beta]：パスの長さ（インタラクションポイント）別にコンバージョン数を表示します。例えば、ユーザーの広告インタラクションが 1 回のみ、広告インタラクションが 2 回などになった後に発生したコンバージョン数などを表示します。</li><li>コンバージョン数 [!UICONTROL Time to Conversion Beta]、最後のインタラクション（広告の露出またはクリック）からコンバージョンまでの日数で表示されます。</li></ul> | 「[ カスタムレポートについて ](/help/dsp/reports/report-about.md)」および「[ カスタムレポートに関する FAQ](/help/dsp/reports/faq-reports.md)」を参照してください。 |
