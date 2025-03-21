@@ -3,9 +3,9 @@ title: SSP パートナー
 description: 使用可能な SSP （サプライ・サイド・プラットフォーム）とオープン Exchange パートナーのリストを参照してください。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 9bdd7eda97fc7794210a71aceb49d9570a3ad8fb
+source-git-commit: bbc6549b55bdbefda7f421fe609c54d737ffe570
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,6 @@ ht-degree: 0%
 
 | SSP が一覧表示されました | 会社 | シート ID | プログラムで保証されたサポート | 地域 | サポートされる通貨 | サポートされているインベントリ |
 | --- | --- | --- | --- | --- | --- | --- |
-| [!DNL AdColony] （以前は [!DNL Opera]） | [!DNL Digital Turbine] | [!DNL TubeMogul] | — | グローバル | USD | デスクトップとモバイルの表示 <br><br> ビデオのデスクトップとモバイル |
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | PG サポート | グローバル | USD、EUR、GBP | オーディオデスクトップとモバイル |
 | [!DNL AppNexus] | [!DNL Xandr] | ビデオシート ID: 9094<br> ディスプレイシート ID: 3939 | — | グローバル | USD | デスクトップおよびモバイルの表示 <br><br> ビデオデスクトップ、モバイルおよび CTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] またはAdobe Advertising | — | 米国+ EMEA | USD、EUR | デスクトップおよびモバイルの表示 <br><br> ビデオデスクトップ、モバイルおよび CTV |
