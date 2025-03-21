@@ -3,9 +3,9 @@ title: 基本レポートと高度なレポートのレポート列
 description: 基本レポートと高度なレポートで使用可能なデータ列について説明します。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: af7f2dbb2b53b6f61b848a75a081c402341df979
 workflow-type: tm+mt
-source-wordcount: '3743'
+source-wordcount: '3745'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 | \[ 広告主固有のカスタム （派生）指標\] | 既存の指標から計算された [ 作成したカスタム指標 ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) の値。 |
 | \[ 広告主固有のラベル分類\] | エンティティ レベルでエンティティに現在適用されているラベル分類。 複数のラベルの分類は、コンマ（,）で区切ります。 |
 | \[ 広告主固有のコンバージョン指標\] | 指定したコンバージョン指標またはサイトエンゲージメント指標のコンバージョン数。 |
-| \[Googleでトラッキングされたコンバージョン\] | 「GGL\*、GGL_CT\*、GGL_XD_CT\*」のエントリを参照してください。 |
+| \[Googleでトラッキングされたコンバージョン\] | 「GGL\*、GGL_CT\*、GGL_XD_CT\*」の項を参照してください。 |
 | [!UICONTROL 7-Day Click Accuracy] | （[!UICONTROL Portfolio Report]）現在の日付を含まない過去 7 日間（レポートで指定された日付範囲を除く）のクリック数予測の平均精度をパーセントで表したもの。 |
 | [!UICONTROL 7-Day Cost Accuracy] | （[!UICONTROL Portfolio Report]）現在の日付を含まない過去 7 日間（レポートで指定した日付範囲を除く）の原価予測の平均精度をパーセントで表したもの。 |
 | [!UICONTROL 7-Day Revenue Accuracy] | （[!UICONTROL Portfolio Report]）現在の日付を含まない過去 7 日間（レポートで指定された日付範囲を除く）の収益予測の平均精度をパーセントで表したもの。 |
@@ -30,7 +30,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Group] | 広告グループ。 |
 | [!UICONTROL Ad Group ID] | 既存の広告グループを識別する一意の ID。 |
 | [!UICONTROL Ad Group Status] | 広告グループのステータス：<i>[!UICONTROL Active]</i>、<i>[!UICONTROL Paused]</i>、<i>[!UICONTROL Deleted]</i>。 |
-| [!UICONTROL Ad Group Type] | 広告グループタイプ。<i>[!UICONTROL Audience]</i> （オーディエンスキャンペーンのみ）、<i>[!UICONTROL Discovery]</i> （ディスカバリーキャンペーンのみ）、<i>[!UICONTROL Display]</i> （ディスプレイキャンペーンのみ）、<i>[!UICONTROL Search Dynamic]</i> （動的検索広告のみ）、<i>[!UICONTROL Search Standard]</i> （レスポンシブ検索広告および既存の拡張テキスト広告のみ）、<i>[!UICONTROL Shopping Showcase]</i>、<i>[!UICONTROL Shopping Product]</i> （標準ショッピングキャンペーンのみ）、<i>[!UICONTROL Shopping Smart]</i> （スマートショッピングキャンペーンのみ）などがあります。 一部のキャンペーンタイプでは、1 つのキャンペーンに複数の広告タイプを含めることができます。 |
+| [!UICONTROL Ad Group Type] | 広告グループタイプ。<i>[!UICONTROL Audience]</i> （オーディエンスキャンペーンのみ）、<i>[!UICONTROL Demand Gen]</i> （需要生成キャンペーンのみ）、<i>[!UICONTROL Display]</i> （ディスプレイキャンペーンのみ）、<i>[!UICONTROL Search Dynamic]</i> （動的検索広告のみ）、<i>[!UICONTROL Search Standard]</i> （レスポンシブ検索広告および既存の拡張テキスト広告のみ）、<i>[!UICONTROL Shopping Showcase]</i>、<i>[!UICONTROL Shopping Product]</i> （標準ショッピングキャンペーンのみ）、<i>[!UICONTROL Shopping Smart]</i> （スマートショッピングキャンペーンのみ）などがあります。 一部のキャンペーンタイプでは、1 つのキャンペーンに複数の広告タイプを含めることができます。 |
 | [!UICONTROL Ad Groups] | ラベル値が割り当てられる広告グループの数。 |
 | [!UICONTROL AD Name] | 広告グループ名。[!UICONTROL Ad Group] と同じ値。 |
 | [!UICONTROL Ad Recall Lift] | （[!DNL Meta] キャンペーンのみ） 2 日以内に広告を覚えている推定ユーザー数。 |
@@ -51,7 +51,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign Product Scope Filter] | （ショッピングネットワークを使用したキャンペーンのみ）キャンペーンに対して商品広告を作成できる、マーチャントアカウント内の商品。 |
 | [!UICONTROL Campaign Start Date] | キャンペーンの入札が行われた/または行われた最初の日。 |
 | [!UICONTROL Campaign Status] | キャンペーンステータス：<i>[!UICONTROL Active]</i>、<i>[!UICONTROL Paused]</i>、<i>[!UICONTROL Ended]</i>、<i>[!UICONTROL Deleted]</i>。 |
-| [!UICONTROL Campaign Type] | キャンペーンのタイプ（<i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>、<i>[!UICONTROL Audience (Image)]</i>、<i>[!UICONTROL Audience (Video)]</i>、<i>[!UICONTROL Brand Shopping]</i>、<i>[!UICONTROL Discovery]</i>、<i>[!UICONTROL Search and Display]</i>、<i>[!UICONTROL Standard Display]</i>、<i>[!UICONTROL Standard Performance Max]</i>、<i>[!UICONTROL Standard Search]</i>、<i>[!UICONTROL Standard Shopping]</i>、<i>[!UICONTROL Store Ad]</i>、<i>[!UICONTROL Video]</i>、<i>[!UICONTROL Others]</i> など）。 |
+| [!UICONTROL Campaign Type] | キャンペーンのタイプ（<i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>、<i>[!UICONTROL Audience (Image)]</i>、<i>[!UICONTROL Audience (Video)]</i>、<i>[!UICONTROL Brand Shopping]</i>、<i>[!UICONTROL Demand Gen]</i>、<i>[!UICONTROL Search and Display]</i>、<i>[!UICONTROL Standard Display]</i>、<i>[!UICONTROL Standard Performance Max]</i>、<i>[!UICONTROL Standard Search]</i>、<i>[!UICONTROL Standard Shopping]</i>、<i>[!UICONTROL Store Ad]</i>、<i>[!UICONTROL Video]</i>、<i>[!UICONTROL Others]</i> など）。 |
 | [!UICONTROL Channel Type] | マーケティングチャネルのタイプ：<i>[!UICONTROL Search]</i> または <i>[!UICONTROL Content]</i>。 レポート設定のレポート [!UICONTROL Search/Content] 設定が「[!UICONTROL Combined]」の場合、この列は含まれません。 |
 | [!UICONTROL City] | （[!UICONTROL Geo Distribution Report]、[!UICONTROL Transaction Report]） クリックが発生した都市。 これは、ユーザーの IP アドレスから決定されます。 |
 | [!UICONTROL Click Match Type] | クリックされた広告のキーワード一致タイプ。 これは、複数の一致タイプを持つ [!DNL Microsoft Advertising] キーワードを除き、[!UICONTROL Listing Match Type] と同じです。 [!DNL Microsoft Advertising] のキーワードの場合、これは、実際にクリックされた一致タイプです。 |
@@ -79,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Name] | （[!DNL Yahoo! Japan] のみ）広告イメージ名。 |
 | [!UICONTROL Creative Title]、[!UICONTROL Creative Title2] - [!UICONTROL Creative Title3] | 広告のタイトルまたはヘッドライン。 必須タイトル行とオプションタイトル行の数はクリエイティブタイプによって異なります。 [!DNL Microsoft Advertising] のレスポンシブ広告またはマルチメディア広告で [!UICONTROL Creative Title4] 以上の列を表示するには、レポート設定に「[!UICONTROL Creative Titles]」列を含めます。 |
 | [!UICONTROL Creative Titles] | （マルチメディアおよびレスポンシブ検索広告のみ）広告の短いヘッドラインごとに列を追加します（「[!UICONTROL Creative Title]」から「[!UICONTROL Creative Title15]」）。 この列を含める場合、他の [!UICONTROL Creative Title] の列を含める必要はありませんが、[!UICONTROL Creative Title] ではなく [!UICONTROL Creative Titles] で並べ替えるように [!UICONTROL Order Results/Limit Rows By] セクションを編集します。 |
-| [!UICONTROL Creative Type] | 広告の形式。 <i>[!UICONTROL App Install Ad]</i>、<i>[!UICONTROL Call Only Ad]</i>、<i>[!UICONTROL Discovery Ad (single-image ads)]</i>、<i>[!UICONTROL Discovery Carousel Ad]</i> （マルチ画像カルーセル広告）、<i>[!UICONTROL Display Ad]</i>、<i>[!UICONTROL Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Text Ad]</i>、<i>[!UICONTROL Legacy Text Ad]</i>、<i>[!UICONTROL Multimedia Ad]</i>、<i>[!UICONTROL Product Ad]</i>、<i>[!UICONTROL Responsive Ad]</i>、<i>[!UICONTROL Responsive Search Ad]</i>、<i>[!UICONTROL Text Ad]</i> のいずれかの値を使用できます。 |
+| [!UICONTROL Creative Type] | 広告の形式。 <i>[!UICONTROL App Install Ad]</i>、<i>[!UICONTROL Call Only Ad]</i>、<i>[!UICONTROL Demand Gen Carousel Ad]</i> （マルチ画像カルーセル広告）、<i>[!UICONTROL Demand Gen Image Ad (single-image ads)]</i>、<i>[!UICONTROL Demand Gen Product Ad]</i>、<i>[!UICONTROL Demand Gen Video Ad]</i>、<i>[!UICONTROL Display Ad]</i>、<i>[!UICONTROL Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Text Ad]</i>、<i>[!UICONTROL Legacy Text Ad]</i>、<i>[!UICONTROL Multimedia Ad]</i>、<i>[!UICONTROL Product Ad]</i>、<i>[!UICONTROL Responsive Ad]</i>、<i>[!UICONTROL Responsive Search Ad]</i>、<i>[!UICONTROL Text Ad]</i> などの値を使用できます。 |
 | [!UICONTROL CTR] | クリックスルー率（クリック数を、含まれる広告のインプレッション数で割った値）。 |
 | [!UICONTROL Currency] | 該当する通貨タイプ（「USD」や「GBP」など）。<br><br><b> 注意：</b> 異なる通貨を使用する勘定科目のデータがレポートに含まれる場合、通貨に関係なく、金額の「[!UICONTROL Total]」値は単に列のすべての数値の合計になります。 |
 | [!UICONTROL Current Bid] | ターゲットに対する現在の入札。 |
@@ -95,9 +95,9 @@ ht-degree: 0%
 | [!UICONTROL Display URL] | 広告の表示 URL （エンドユーザーに表示される URL）。 |
 | [!UICONTROL DMA] | （[!UICONTROL Geo Distribution Report]、[!UICONTROL Keyword Report]）クリックが発生した、数値で指定されたマーケットエリア（Denver の場合は 751 など）。 これは、ユーザーの IP アドレスから決定されます。 |
 | [!UICONTROL Domain] | （[!UICONTROL Domain Referral Report]、[!UICONTROL Keyword Report]）クリックが発生したドメイン名。 |
-| [!UICONTROL eCPM] | 有効 CPM、つまり指定した日付範囲内の 1000 インプレッションあたり支払われた平均費用。 eCPM の値は、CPM または CPC キャンペーンに対して計算されます。 |
+| [!UICONTROL eCPM] | 有効なCPM、または指定した日付範囲内のインプレッション 1000 件あたりの平均支払額。 eCPM の値は、CPMまたは CPC キャンペーンに対して計算されます。 |
 | [!UICONTROL EF Campaign ID] | 検索、ソーシャルおよびCommerceがキャンペーンに割り当てる数値 ID。 |
-| [!UICONTROL EF ID] | （[!UICONTROL Transaction Report]）（Adobe Advertisingコンバージョントラッキングサービスを利用する広告主及びトークンを利用する「[!UICONTROL EF Redirect]」トラッキング方式） クリック又はコンバージョンのトークン。<ul><li>[!DNL Google Ads] 検索広告の場合、EF ID は `{gclid}:G:s` です。これには、Googleのクリック ID （GCLID）とネットワークタイプ（検索用の「s」）が含まれます。</li><li> [!DNL Microsoft Advertising] 検索広告の場合、EF ID は `{msclkid}:G:s` です。これには、Microsoftのクリック ID （MSCLKID）とネットワークタイプ（検索用は「s」）が含まれます。</li><li>他の広告ネットワークでの検索広告の場合、EF ID にはサーファー ID、クリック時間、ネットワークタイプが含まれます。</li><li>ディスプレイ広告の場合、EF ID にはサーファー ID、クリックまたはインプレッション時間、ネットワークタイプが含まれます。</li></ul> |
+| [!UICONTROL EF ID] | （[!UICONTROL Transaction Report]）（Adobe Advertising コンバージョントラッキングサービスを使用する広告主と、トークンを使用する「[!UICONTROL EF Redirect]」トラッキング方法） クリックまたはコンバージョンのトークン。<ul><li>[!DNL Google Ads] 検索広告の場合、EF ID は `{gclid}:G:s` です。これには、Googleのクリック ID （GCLID）とネットワークタイプ（検索用の「s」）が含まれます。</li><li> [!DNL Microsoft Advertising] 検索広告の場合、EF ID は `{msclkid}:G:s` です。これには、Microsoftのクリック ID （MSCLKID）とネットワークタイプ（検索用は「s」）が含まれます。</li><li>他の広告ネットワークでの検索広告の場合、EF ID にはサーファー ID、クリック時間、ネットワークタイプが含まれます。</li><li>ディスプレイ広告の場合、EF ID にはサーファー ID、クリックまたはインプレッション時間、ネットワークタイプが含まれます。</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | （[!UICONTROL Geo Distribution Report]：検索、ソーシャル、Commerceでの使用のみ）地理的な場所の内部 ID。データの正規化に使用されます。 |
 | [!UICONTROL EF Portfolio Group ID] | ポートフォリオが属しているポートフォリオグループの数値 ID。 |
 | [!UICONTROL EF Search Engine ID] | 検索、ソーシャル、およびCommerceによって広告ネットワークに割り当てられる数値 ID。[!DNL Google Ads] の場合は <i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising] の場合は <i>[!UICONTROL 10]</i>、[!DNL Meta] の場合は <i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]<i>[!UICONTROL 87]</i> の場合は <i>[!UICONTROL 86]</i>、[!DNL Naver] の場合は <i>[!UICONTROL 88]</i>、[!DNL Baidu] の場合は <i>[!UICONTROL 90]</i> [!DNL Yandex]、[!DNL Yahoo! Japan Ads] の場合は <i>[!UICONTROL 94]</i>、[!DNL Yahoo Native] の場合は <i>[!UICONTROL 105]</i>、[!DNL Pinterest] の場合は <i>[!UICONTROL 106]</i> （非推奨）です。 |
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL Exclude (yes/no)] | 一致する製品の広告に入札を除外するか（<i>[!UICONTROL Yes]</i>）、または入札を許可するか（<i>[!UICONTROL No]</i>）を指定します。 |
 | [!UICONTROL First Page CPC] | （Google キャンペーンのみ）指定した日付範囲に検索結果の最初のページに表示される広告のクリック単価（CPC）。 |
 | [!UICONTROL Frequency] | （[!DNL Meta] キャンペーンのみ）訪問者が広告を表示した平均回数。 |
-| `GGL*`、`GGL_CT*`、`GGL_XD_CT*` [[!DNL Google Ads]-tracked conversions] | （検索およびショッピングネットワーク上のキャンペーンを [!DNL Google Ads] 照） [!DNL Google Ads] 追跡コンバージョンと、各コンバージョンに対する最大 3 つの個別の指標：<ul><li>`GGL*` — （追跡する場合）「GGL」プレフィックスで始まるキーワードのコンバージョン値（GGL 購入など）。</li><li>`GGL_CT*` — 「GGL_CT」プレフィックス（GGL_CT_Purchase など）で始まるコンバージョンの数（カウント）。</li><li>`GGL_XD_CT*` — （コンバージョンタイプに使用可能な場合は、追跡時） クロスデバイスコンバージョンの数（カウント）。「GGL_XD_CT_」プレフィックス （GGL_XD_CT_Purchase など）で始ま [!DNL Google Ads] て測定されます。</li></ul><br> 各コンバージョンは入札単位とクリック日で記録されます。イベントレベルでは使用できません。 [!DNL Google Ads] でトラッキングされるコンバージョンについて詳しくは、「[[!DNL Google Ads]  検索、ソーシャル、Commerceのコンバージョンデータ ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)」を参照してください。 |
+| `GGL*`、`GGL_CT*`、`GGL_XD_CT*` [[!DNL Google Ads]-tracked conversions] | （検索およびショッピングネットワーク上のキャンペーンを [!DNL Google Ads] 照） [!DNL Google Ads] 追跡コンバージョンと、各コンバージョンに対する最大 3 つの個別の指標：<ul><li>`GGL*` — （追跡する場合）「GGL」プレフィックスで始まるキーワードのコンバージョン値（GGL 購入など）。</li><li>`GGL_CT*` — 「GGL_CT」プレフィックス（GGL_CT_Purchase など）で始まるコンバージョンの数（カウント）。</li><li>`GGL_XD_CT*` — （コンバージョンタイプに使用可能な場合は、トラッキング時）クロスデバイスコンバージョンの数（カウント）。「GGL_XD_CT_」プレフィックス （GGL_XD_CT_Purchase など）で始ま [!DNL Google Ads] て測定されます。</li></ul><br> 各コンバージョンは入札単位とクリック日で記録されます。イベントレベルでは使用できません。 [!DNL Google Ads] でトラッキングされるコンバージョンについて詳しくは、「[[!DNL Google Ads]  検索、ソーシャル、Commerceのコンバージョンデータ ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)」を参照してください。 |
 | [!UICONTROL Impr. (Abs. Top) %] | （[!DNL Google Ads] のみ）オーガニック検索結果の上に最初の広告として表示される広告インプレッションの割合。 |
 | [!UICONTROL Impr. (Top) %] | （[!DNL Google Ads] のみ）オーガニック検索結果の上に表示される広告インプレッションの割合。 |
 | [!UICONTROL Impressions] | 指定した日付範囲内の広告インプレッション数。 |

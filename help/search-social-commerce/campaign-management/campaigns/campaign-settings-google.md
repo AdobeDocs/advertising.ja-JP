@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Google Ads] キャンペーン設定'
+title: '[!DNL Google Ads] キャンペーンの設定'
 description: キャンペーンの設定  [!DNL Google Ads]  参照します。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: ae98579b6b2edb54de5753e84891987a88184515
+source-git-commit: f5e453975f693777e5717924d471b9de9f1f651b
 workflow-type: tm+mt
-source-wordcount: '2576'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
@@ -71,13 +71,11 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** キャンペーンの入札戦略：
 
-* *[!UICONTROL Enhanced CPC]:* （パフォーマンス最大または既存の読み取り専用 [!DNL Gmail] キャンペーンでは利用できません）広告ネットワークの拡張コストパークリック （eCPC） モデルを使用します。これにより、広告ネットワークは、コンバージョンを最大化するために各オークションのコストパークリック （CPC）入札を自動的に変更でき、平均 CPC を最大 CPC 未満に保ちながら、広告ネットワーク （検索、ソーシャル、Commerceではない）内で指定されます。
-
-eCPC を使用してキャンペーンを最適化された検索、ソーシャル、Commerceの各ポートフォリオに追加すると、検索、ソーシャル、Commerceによってベース入札が最適化され、「[!UICONTROL Auto adjust campaign budget limits]」オプションが有効になっている場合はキャンペーン予算が最適化されます。 アドネットワークは、すべての入札調整を最適化し、独自のデータとインサイトに基づいて、ユーザークエリ時に検索、ソーシャル、Commerceで生成された入札を変更する可能性があります。 **注意：** ポートフォリオで eCPC キャンペーンを使用するのは、広告ネットワークで追跡されるコンバージョンの合計がポートフォリオの目的と一致する場合のみです。<!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
+* *[!UICONTROL Enhanced CPC]:* 非推奨（廃止予定）。 2025 年 3 月 15 日（PT） [!DNL Google Ads]、既存の [ 拡張 CPC 入札戦略 ](https://support.google.com/google-ads/answer/2464964) を手動 CPC に自動的に変更し始めました。
 
 * *[!UICONTROL Manual CPC]* （デフォルト）: （Performance MAX キャンペーンでは使用できません）クリック単価（CPC）モデルを使用します。 オプションで、広告ネットワークにキャンペーンの入札の変更を許可できます。
 
-   * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）:「[!UICONTROL Enhanced CPC]」オプションを使用する場合と同じです。
+   * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）：これは、非推奨の「[!UICONTROL Enhanced CPC]」オプションを使用する場合と同じです。 2025 年 3 月 15 日（PT） [!DNL Google Ads]、既存の [ 拡張 CPC 入札戦略 ](https://support.google.com/google-ads/answer/2464964) を手動 CPC に自動的に変更し始めました。
 
 * *[!UICONTROL Maximize Clicks]:* （検索、ディスプレイ、ショッピングキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、クリック数を最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Max CPC]** （クリック単価）を入力し、広告ネットワークがクリックごとに特定の金額以上を支払わないようにします。 **注意：** この戦略を使用してキャンペーンをポートフォリオに追加すると、入札はポートフォリオの目的ではなく、クリックの重み付けで行われます。
 

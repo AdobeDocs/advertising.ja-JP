@@ -3,9 +3,9 @@ title: アカウントに必須のバルクシート デ  [!DNL Google Ads]  タ
 description: アカウントのバルクシートで、必須のヘッダーフィールドとデータフィ  [!DNL Google Ads]  ルドを参照します。
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 6063d7fac0df863e4d4e06ce23603a5f678073e1
 workflow-type: tm+mt
-source-wordcount: '7855'
+source-wordcount: '7860'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Device OS Targets (Google Adwords)] | （従来のキャンペーンタイプのみ。デバイスターゲットに「スマートフォン」または「タブレット」が含まれる場合に適用されます）広告が表示されるオペレーティングシステムには、<i>[!UICONTROL All]</i>、<i>[!UICONTROL Android]</i>、<i>[!UICONTROL iOS]</i> または <i>[!UICONTROL Palm]</i> があります。 新規キャンペーンの場合、デフォルトは <i>[!UICONTROL All]</i> です。</p> |
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>（従来のキャンペーンタイプのみ。「[!UICONTROL All]」または「[!UICONTROL Smartphones]」が [!UICONTROL Device Targets] に含まれる場合に適用されます） スマートフォンが接続される可能性のある携帯電話会社：<i>[!UICONTROL All]</i>、または &lt;c<i>carrier code</i>>、&lt;<i>country code</i>> で示される 1 つ以上の携帯電話会社（T-Mobile、US など） <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank"> 利用可能な携帯電話会社および [!DNL Google Ads]</a> 用コードのリストを使用しています。 複数のキャリアをセミコロンで区切ります（T-Mobile、US;T-Mobile、GB など）。 新規キャンペーンの場合、デフォルトは <i>[!UICONTROL All]</i> です。</p> |
 | [!UICONTROL Ad Group Name] | <p>広告グループを識別する一意の名前。 最大長は 255 文字です。末尾の空白文字は保存されません（例えば、「広告グループ 1」は「広告グループ 1」として保存されます）。 このフィールドは、キャンペーンレベルのサイトリンクまたはキャンペーンレベルのデバイスターゲットには適用されません。</p> |
-| [!UICONTROL Ad Group Type] | <p>広告グループタイプ：<i>[!UICONTROL Discovery]</i> （ディスカバリーキャンペーンのみ）、<i>[!UICONTROL Display]</i> （ディスプレイキャンペーンの場合）、<i>[!UICONTROL Search Dynamic]</i> （展開された動的検索広告の場合）、<i>[!UICONTROL Search Standard]</i> （検索広告の場合）、<i>[!UICONTROL Shopping Product]</i> （ショッピング製品広告の場合）、<i>[!UICONTROL Shopping Showcase]</i> （作成および編集はサポートされていません）、<i>[!UICONTROL Unknown]</i>。</p> |
+| [!UICONTROL Ad Group Type] | <p>広告グループタイプ：<i>[!UICONTROL Demand Gen]</i> （需要生成キャンペーンのみ）、<i>[!UICONTROL Display]</i> （ディスプレイキャンペーンの場合）、<i>[!UICONTROL Search Dynamic]</i> （展開された動的検索広告の場合）、<i>[!UICONTROL Search Standard]</i> （検索広告の場合）、<i>[!UICONTROL Shopping Product]</i> （ショッピング製品広告の場合）、<i>[!UICONTROL Shopping Showcase]</i> （作成および編集はサポートされていません）、<i>[!UICONTROL Unknown]</i>。</p> |
 | [!UICONTROL Max CPC] | <p>（CPC キャンペーンのみ）最大クリック単価（CPC）。これは、金銭的記号や句読点の有無にかかわらず、広告ネットワーク上の広告クリックに対して支払う最高額です。 広告グループとキーワード、製品グループおよび動的検索ターゲットの値を設定できます。 新しいキーワードのデフォルトは、広告グループレベルから継承されます。 製品グループの場合、製品グループの最下位層の値を設定できます。新規層のデフォルトは、親層から継承されます。</p><p>最適化されたポートフォリオ内の既存の製品グループと動的検索ターゲットの場合、更新は 1 日のみ有効であり、次の最適化サイクルで上書きされます。</p> |
 | [!UICONTROL Max Content CPC] | <p>（CPC キャンペーンのみ） 1 クリックあたりの最大コンテンツコスト（CPC）。これは、金銭的な記号や句読点の有無にかかわらず、ディスプレイネットワークサイトから広告クリックに対して支払う最高額です。 プレースメントに基づいていないキャンペーンの広告グループレベルで、値を設定および編集できます。</p> |
 | [!UICONTROL Audience Target Method] | <p>（検索ネットワーク上のみのキャンペーンおよび表示ネットワーク上の既存の読み取り専用 [!DNL Gmail] キャンペーン）次のようにします。</p><ul><li><p><i>[!UICONTROL Target and Bid]</i>：ターゲットオーディエンスに関連付けられているユーザーで、その広告グループの他のターゲットも満たしているユーザーにのみ広告を表示します。</p></li><li><p><i>[!UICONTROL Bid Only]</i>：他の広告グループレベルのターゲットを満たす限り、ターゲットオーディエンスに関連付けられていない人物にも広告を表示します。</p><p>ただし、特定のオーディエンスに対してより高い入札を設定すると、それらのオーディエンスに広告が表示される可能性が高くなります。</p></li></ul> |
@@ -91,7 +91,7 @@ ht-degree: 0%
 | [!UICONTROL Base URL/Final URL] | 広告をクリックした際に検索エンジンユーザーが取得されるランディングページの URL （キャンペーンまたはアカウントに設定されている追加パラメーターを含む）。 キーワードレベルのベース URL/最終 URL が、広告レベル以降の URL を上書きします。<br><br> 既存の値を削除するには、値 `[delete]` （角括弧を含む）を使用します。 |
 | [!UICONTROL Destination URL] | （情報目的で生成されたバルクシートに含まれ、検索エンジンに投稿されない）宛先 URL を持つアカウントの場合、これは、広告を広告主の web サイトのベース URL/ランディングページにリンクする URL です（クリックを追跡し、ユーザーをランディングページにリダイレクトする別のサイトを経由する場合もあります）。 これには、検索、ソーシャル、Commerceのキャンペーンまたはアカウント用に設定された追加パラメーターが含まれます。 トラッキング URL を生成した場合、これは、アカウント設定とキャンペーン設定のトラッキングパラメーターに基づきます。 検索エンジン固有のパラメーターを追加した場合は、検索、ソーシャル、Commerceの同等のパラメーターに置き換えることができます。<br><br> 最終 URL を持つアカウントの場合、この列には「ベース URL/最終 URL」列と同じ値が表示されます。 |
 | [!UICONTROL Custom URL Param] | 検索アカウントまたはキャンペーン設定のトラッキングパラメーターに変数が含まれる場合、`{custom_code}` の動的変数に置き換わるデータです。 トラッキング URL にカスタム値を挿入するには、「トラッキング URL を生成」オプションを使用してバルクシートファイルをアップロードする必要があります。 |
-| [!UICONTROL Creative Type] | 広告の形式：<i>[!UICONTROL Text ad]</i>、<i>[!UICONTROL Expanded text ad]</i>、<i>[!UICONTROL Dynamic search ad]</i> （非推奨の広告タイプ）、<i>[!UICONTROL Expanded Dynamic Search ad]</i>、&lt;[!UICONTROL i>Display ad]</i>、<i>[!UICONTROL App Install ad]</i> （非推奨）、<i>[!UICONTROL Image]</i>、<i>[!UICONTROL Product ad<]/i> （ショッピング広告）、<i>[!UICONTROL Responsive search ad]</i>。 新規広告のデフォルトは <i>[!UICONTROL Text ad]</i> です。<br><br> 製品広告のステータスを作成または編集するために必要です。 |
+| [!UICONTROL Creative Type] | 広告の形式：<i>[!UICONTROL Text ad]</i>、<i>[!UICONTROL Expanded text ad]</i>、<i>[!UICONTROL Demand Gen Carousel Ad]</i> （マルチ画像カルーセル広告）、<i>[!UICONTROL Demand Gen Image Ad (single-image ads)]</i>、<i>[!UICONTROL Demand Gen Product Ad]</i>、<i>[!UICONTROL Demand Gen Video Ad]</i>、<i>[!UICONTROL Dynamic search ad]</i> （非推奨の広告タイプ）、<i>[!UICONTROL Expanded Dynamic Search ad]</i>、&lt;[!UICONTROL i>Display ad]</i>、<i>[!UICONTROL App Install ad]</i> （非推奨）、<i>[!UICONTROL Image]</i>、<i>[!UICONTROL Product ad<]/i> （ショッピング広告）、<i>[!UICONTROL Responsive search ad]</i>。 新規広告のデフォルトは <i>[!UICONTROL Text ad]</i> です。<br><br> 製品広告のステータスを作成または編集するために必要です。 |
 | [!UICONTROL Param1] | <p>`{param1}` 広告パラメーターの数値。バルクシートファイル内の任意の広告の広告コピーまたは表示 URL に含めることができます。 最大長は 25 文字で、次のヌン数字を含めることができます。</p><ul><li><p>値の先頭または末尾に通貨記号またはコードを付けることができます。 例えば、`£2.000,00` と `2000GBP` は有効です。</p></li><li><p>値には、区切り文字としてコンマ（`,`）またはピリオド（`.`）を使用でき、オプションとしてピリオド（`.`）または分数値のコンマ（`,`）を使用できます。 例えば、`1,000.00` と `2.000,10` は有効です。</p></li><li><p>値の前には、パーセント記号（`%`）、プラス記号（`+`）、マイナス記号（`- `）を付けることができます。 例えば、`20%`、`208+` および `-42.32` は有効です。</p></li><li><p>2 つの数値をスラッシュで埋め込むことができます。 例えば、`4/1` と `0.95/0.45` は有効です。</p></li></ul><p>既存の値を削除するには、値 `[delete]` （角括弧を含む）を使用します。</p> |
 | [!UICONTROL Param2] | `{param2}` 広告パラメーターの数値。バルクシートファイル内の任意の広告の広告コピーまたは表示 URL に含めることができます。 詳しくは、Param1 のエントリを参照してください。 |
 | [!UICONTROL Audience] | 検索広告（RLSA）のリマーケティングリストは、キャンペーンまたは広告グループのターゲットオーディエンスまたは除外オーディエンスをターゲットにします。 「ターゲットタイプ」フィールドで、ターゲットか除外かを指定します。 |
@@ -123,7 +123,7 @@ ht-degree: 0%
 | [!UICONTROL EF Error Message] | （情報提供のために生成されたバルクシートに含まれる）行内のデータに関する広告ネットワークのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは [!UICONTROL EF Errors] ファイルに含まれます。 この値は広告ネットワークに投稿されません。 |
 | [!UICONTROL SE Error Message] | （情報提供のために生成されたバルクシートに含まれる）行内のデータに関する広告ネットワークのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは [!UICONTROL SE Errors] ファイルに含まれます。 この値は広告ネットワークに投稿されません。 |
 | [!UICONTROL Exemption Request] | （情報提供のために生成されたバルクシートに含まれる）広告が違反した [!DNL Google Ads] の広告ポリシーの名前とテキストを表示するプレースホルダー。 |
-| [!UICONTROL Retail Hash] | （詳細Campaign Managementを使用して生成されたバルクシートに含まれる）項目が詳細（ACM）ビューを使用して生成されたことを示す英数字のハッシュコード（f9639f40cdf56524b541e5dacf55a991 など）。 |
+| [!UICONTROL Retail Hash] | （詳細キャンペーン管理を使用して生成されたバルクシートに含まれる、情報提供の目的で）項目が詳細（ACM）ビューを使用して生成されたことを示す英数字のハッシュコード（f9639f40cdf56524b541e5dacf55a991 など）。 |
 
 [^1]:[!DNL Excel] は、ファイルを開いたときに、大きな数値を指数表記（2115585666 の場合は 2.12E+09 など）に変換します。 標準の表記で数字を表示するには、列の任意のセルを選択して、式バーの内側をクリックします。
 
