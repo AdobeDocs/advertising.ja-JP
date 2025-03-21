@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Google Ads] 広告グループの設定'
+title: '[!DNL Google Ads] 広告グループ設定'
 description: 広告グループの設定  [!DNL Google Ads]  参照します。
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Use campaign setting]* （新しい広告グループのデフォルト）：既存のキャンペーンレベルの広告ローテーション設定を使用します。 **メモ：** キャンペーンレベルの設定は、検索、ソーシャル、Commerceには表示されません。
 
-キャンペーンでスマート入札入札戦略（[!UICONTROL Target CPA]、[!UICONTROL Target ROAS]、[!UICONTROL Enhanced CPC] など）を使用する場合、[!DNL Google Ads] はオプションを自動的に「[!UICONTROL Optimize]」に設定します。
+キャンペーンでスマート入札入札戦略（[!UICONTROL Target CPA]、[!UICONTROL Target ROAS] など）を使用する場合、[!DNL Google Ads] はオプションを自動的に「[!UICONTROL Optimize]」に設定します。
 
 **[!UICONTROL Custom Bid Level]:** （ディスプレイネットワークをターゲットとするキャンペーンのみ）入札方法：*[!UICONTROL Ad Group]* （デフォルト）、*[!UICONTROL Age]*、*[!UICONTROL Gender]*、*[!UICONTROL Interest and List]* （Google Ads の興味とリマーケティング）、*[!UICONTROL Keyword]*、*[!UICONTROL Placement]* （web サイト）、*[!UICONTROL Unknown]*、*[!UICONTROL Vertical]*。
 

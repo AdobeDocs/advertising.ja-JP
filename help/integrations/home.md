@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 19f2c502ab8046b8f869116687b82d636e0b391c
+source-git-commit: d933613a46dfde7529623d0b0ab62e01006cb53c
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
-| リリース日：2024 年 10 月 29 日（Pt） | [!DNL Adobe Analytics for Advertising] | （[!DNL Adobe Analytics for Advertising] および [!DNL Microsoft Advertising] の Performance MAX キャンペーンを使用する広告主）広告およびキーワードを含まない Performance MAX キャンペーンのトラッキング URL に新しい AMO ID （[!DNL s_kwcid]）パラメーターを実装した際に、Performance MAX キャンペーンのアセットグループレベルのデータがAdobe Analyticsで使用できるようになりました。 Performance MAX キャンペーンを使用するほとんどのアカウントのトラッキングは、既に新しいフォーマットに移行されています。 ただし、[!UICONTROL Auto Upload] トラッキングオプションを持たず、新しい形式に移行されていない Performance MAX キャンペーンのアカウントの場合、次の AMO ID 形式を含めるように、各ランディングページのサフィックスを手動で更新する必要があります：<br><br>`AL!%(userid)d!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`。<br><br>Performance MAX キャンペーンのAdobe Analytics データは、検索、ソーシャル、Commerceでも利用できます。 | 新しい [AMO ID 形式 ](/help/integrations/analytics/ids.md#amo-id-formats) および [ トラッキング URL にパラメーターを追加するタイミングと方法 ](/help/integrations/analytics/ids.md#amo-id-implement) を参照してください。 |
+| リリース日：2024 年 10 月 29 日（Pt） | [!DNL Adobe Analytics for Advertising] | （[!DNL Adobe Analytics for Advertising] および [!DNL Microsoft Advertising] の Performance MAX キャンペーンを使用する広告主）広告およびキーワードを含まない Performance MAX キャンペーンのトラッキング URL に新しい AMO ID （[!DNL s_kwcid]）パラメーターを実装した際に、Performance MAX キャンペーンのアセットグループレベルのデータがAdobe Analyticsで使用できるようになりました。 Performance MAX キャンペーンを使用するほとんどのアカウントのトラッキングは、既に新しいフォーマットに移行されています。 ただし、[!UICONTROL Auto Upload] トラッキングオプションを持たず、新しい形式に移行されていない performance max キャンペーンのアカウントの場合、新しい AMO ID 形式を含めるには、各ランディングページのサフィックスを手動で更新する必要があります。<br><br>Performance MAX キャンペーンのAdobe Analytics データは、検索、ソーシャル、Commerceでも利用できます。 | 新しい [AMO ID 形式 ](/help/integrations/analytics/ids.md#amo-id-formats) および [ トラッキング URL にパラメーターを追加するタイミングと方法 ](/help/integrations/analytics/ids.md#amo-id-implement) を参照してください。 |
 | 2024 年 11 月 13 日（Pt） | [!DNL Analytics for Advertising] | （[!DNL Analytics for Advertising] およびAdobe Customer Journey Analyticsを使用する広告主）予約変数を使用して AMO ID および EF ID を取得する場合は、AMO ID および EF ID の予約変数を可能な限り早く標準 [!DNL eVars] にコピーすることで、Adobe AdvertisingとAdobe Customer Journey Analyticsの間で今後の統合に備えることができます。 これにより、タスクが完了するとすぐに AMO ID と EF ID の履歴データを収集でき、履歴データは今後の使用のために利用できるようになります。 予約変数を使用していて、このタスクを実行する必要がある場合は、Adobe アカウントチームからお知らせします。 | [Adobe Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データの収集 ](/help/integrations/analytics/rvars-to-evars.md) を参照してください。 |
 | 2023 年 12 月 16 日（Pt） | ヘルプ | 新しいドキュメントでは、検索、ソーシャル、Commerceの広告からのクリックスルートラフィックに対して [!DNL Target] で A/B テストを設定する方法と、[!DNL Analytics] でテストを測定および視覚化する方法に関するヒントを説明します。 | 詳しくは、「[ 検索、ソーシャル、Commerce広告用のAdobe Targetでの A/B テストの設定 ](/help/integrations/target/ab-tests-search.md) を参照してください。 |
 | 2023 年 8 月 8 日（Pt） | [!DNL Analytics for Advertising] | 標準、カスタムおよび予約済みのコンバージョン指標やトラフィック指標など、一部の [!DNL Analytics] スタムサクセスイベント指標は、DSPや、検索、ソーシャル、Commerceで自動的に使用できます。 現在は、[!DNL eVar] レベルおよび [!DNL prop] レベルのデータをカスタムの成功イベントに送ることで、既存の [!DNL Analytics] [!DNL eVars] と [!DNL props] に基づいて独自の成功指標を設定することもできます。 | [Adobe Analyticsからのコンバージョン指標の作成  [!DNL eVars]  および  [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md)」を参照してください。 |

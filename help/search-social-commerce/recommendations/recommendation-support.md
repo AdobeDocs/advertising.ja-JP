@@ -3,9 +3,9 @@ title: パブリッシャーの推奨事項とインサイトのサポートに�
 description: パブリッシャーのレコメンデーションとインサイトの表示と管理のサポートについて説明します。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 73cc45da72a48b844b4baa426331822b4e857245
+source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->広告ネットワークのレコメンデーションとパフォーマンスインサイトはキャンペーンのパフォーマンスを向上させるのに役立ちますが、より広範な目標と合致しない場合もあります。 そのため、推奨事項やインサイトを実装する前に、Adobeアカウントチームに相談することをお勧めします。
+>広告ネットワークのレコメンデーションとパフォーマンスインサイトはキャンペーンのパフォーマンスを向上させるのに役立ちますが、より広範な目標と合致しない場合もあります。 そのため、推奨事項やインサイトを実装する前に、Adobe アカウントチームに相談することをお勧めします。
 
 ## [!DNL Google Ads] でサポートされるレコメンデーションタイプ
 
@@ -60,7 +60,6 @@ ht-degree: 0%
 | | [!UICONTROL Upgrade local campaign to performance max] | 従来のローカルキャンペーンをパフォーマンス最大化キャンペーンにアップグレード |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | 従来のスマートショッピングキャンペーンをパフォーマンス最大化キャンペーンにアップグレード |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 現在、予算によって制限されているキャンペーンの推奨予算 |
-| | [!UICONTROL Enhanced CPC opt in] | [!UICONTROL Enhanced CPC] を使用して入札 |
 | | [!UICONTROL Forecasting campaign budget] | 今後、予算によって制限されると予想されるキャンペーンの推奨予算 |
 | | [!UICONTROL Forecasting set Target CPA] | トラフィックの増加が予測される季節的なイベントの前に、イベントを実施しないキャンペーンのターゲット CPA を設定します |
 | | [!UICONTROL Forecasting set Target ROAS] | トラフィックの増加が予測される季節的なイベントの前に予算を引き上げ、入札戦略を [!UICONTROL Maximize Conversion Value] から [!UICONTROL Target ROAS] に変更します |
