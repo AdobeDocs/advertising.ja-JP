@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: 5a667f353d436870e6d22422f64ae16f886d7bc8
+source-git-commit: edb62b97e6b03efbabc051c8ec2d7326b291e085
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '938'
 ht-degree: 3%
 
 ---
@@ -23,8 +23,9 @@ ht-degree: 3%
 -->
 
 + [新機能](/help/dsp/home.md)
++ [Adobe Advertising DSPへのログイン](/help/dsp/introduction/sign-in.md)
 + 概要 {#introduction}
-   + [Adobe Advertising DSPの概要](/help/dsp/introduction/dsp-about.md)
+   + [Adobe Advertising DSPについて](/help/dsp/introduction/dsp-about.md)
    + 主な機能 {#features}
       + [最適化](/help/dsp/introduction/features/optimization.md)
       + [ブランドセーフティとメディア品質](/help/dsp/introduction/features/brand-safety-media-quality.md)
@@ -35,9 +36,9 @@ ht-degree: 3%
    + [ 施策及び指針 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [高度な計測ソリューション](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
-   + [Campaign Managementの構造の概要](/help/dsp/campaign-management/campaign-management-overview.md)
+   + [Campaign 管理構造の概要](/help/dsp/campaign-management/campaign-management-overview.md)
    + Campaigns {#campaigns}
-      + [Campaign Managementについて](/help/dsp/campaign-management/campaigns/campaign-about.md)
+      + [キャンペーン管理について](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [キャンペーンの作成](/help/dsp/campaign-management/campaigns/campaign-create.md)
       + [キャンペーンの編集](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [キャンペーンの複製](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
@@ -96,9 +97,9 @@ ht-degree: 3%
          + [プリロール広告設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [ユニバーサルビデオ広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [サポートされる広告タイプの仕様](/help/dsp/campaign-management/ads/ad-specs.md)
-   + Campaign Management ビュー {#campaign-reports} ージのパフォーマンスレポート
-      + [Campaign Management ビューでのパフォーマンスレポートのタイプ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
-      + [Campaign Management ビューからのデータの書き出し](/help/dsp/campaign-management/reports/campaign-export-data.md)
+   + キャンペーン管理ビュー {#campaign-reports} ージのパフォーマンスレポート
+      + [キャンペーン管理ビューでのパフォーマンスレポートのタイプ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+      + [キャンペーン管理ビューからのデータのエクスポート](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [プレースメントのサイト、広告、頻度、在庫の詳細を表示する](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [配置予測レポートの表示](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [プレースメント診断レポートの表示](/help/dsp/campaign-management/reports/placement-diagnostics.md)
@@ -106,7 +107,7 @@ ht-degree: 3%
       + [キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
    + [DSP マクロ](/help/dsp/campaign-management/macros.md)
    + [ショートカットキー](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [Campaign Managementに関する FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
+   + [Campaign 管理に関する FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
    + [ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 + 最適化 {#optimization}
    + [キャンペ  [!DNL DSP]  ンの最適化方法](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
@@ -212,7 +213,7 @@ ht-degree: 3%
       + [[!UICONTROL Report Destination] の削除](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] Settings](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + プランナー {#planner}
-   + [DSP プランナーツールについて](/help/dsp/planner/planner-about.md)
+   + [DSP Planner ツールについて](/help/dsp/planner/planner-about.md)
    + [接続されたテレビのリーチ プランを作成する](/help/dsp/planner/planner-create.md)
    + [接続されたテレビのリーチ プランを複製する](/help/dsp/planner/planner-duplicate.md)
    + [接続されたテレビのリーチ プランを編集する](/help/dsp/planner/planner-edit.md)
