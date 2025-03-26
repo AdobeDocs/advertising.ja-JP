@@ -2,9 +2,9 @@
 title: DSPへのログイン
 description: DSPへのログイン方法を説明します。
 feature: DSP Introduction
-source-git-commit: d90270666dfc587097088e94a2ee4f0c353c9c70
+source-git-commit: b3393c6b0cf3df707793a91aa6a3e8c844f75fb2
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Adobe Advertising DSPは、ログイン認証のためにAdobe Identity Manageme
 
 その間、ユーザーは従来のDSP資格情報を引き続き使用できます。
 
-#### Adobe IMSアカウントを使用してログインした後は、adobe.advertising.comにリダイレクトされません。
+#### Adobe IMSアカウントを使用してログインすると、adobe.advertising.comのログインページにリダイレクトされます。
 
 使用しているメールが IMS 組織に追加されたことを IMS 組織の管理者に確認します。 IMS 組織に追加されたことを管理者が確認した場合は、Adobe アカウントチームに依頼して、DSPを使用するためにアカウントをプロビジョニングします。
 
