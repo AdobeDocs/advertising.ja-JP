@@ -3,7 +3,7 @@ title: プレースメントを編集
 description: プレースメントの編集方法を説明します。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、1 つ以上のプレースメントまたはキャンペーン内のすべてのプレースメントの設定を XLSX （Excel スプレッドシート）形式でダウンロードし、キーフィールドの限られたサブセットを変更して、一度にDSPにアップロードすることもできます。 [ バルクシートを使用したプレースメント設定のレビューと編集 ](placement-qa.md)」を参照してください。
+>また、1 つ以上のプレースメントまたはキャンペーン内のすべてのプレースメントの設定を XLSX （Excel スプレッドシート）形式でダウンロードし、ほとんどのフィールドを変更して、一度にDSPにアップロードして戻すこともできます。 [ バルクシートを使用したプレースメント設定のレビューと編集 ](placement-qa.md)」を参照してください。
 
 ## キー配置設定をすばやく編集する {#placement-quick-edit}
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Update placement]**」をクリックします。
 
-## 複数のプレースメントを編集 {#edit-multiple-placements}
+## 複数のプレースメントに対して同じ変更を行う {#edit-multiple-placements}
 
 このオプションは、選択したすべてのプレースメントに同じ変更を適用する場合にのみ使用します。
 
