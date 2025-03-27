@@ -3,9 +3,9 @@ title: 使用するAdobe Advertising ID [!DNL Analytics]
 description: 使用するAdobe Advertising ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 6afd0b726cde0770d4d063c2c55bb632956aaf51
+source-git-commit: 474eff3bd7704d79bbaf372480676207252a74c4
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,6 @@ where:
 
 >[!NOTE]
 >
->Performance MAX キャンペーンと [!UICONTROL Auto Upload] トラッキングオプションを使用するすべてのアカウントの場合、ランディングページのサフィックスは上記の形式に移行されました。 [!UICONTROL Auto Upload] トラッキングオプションを使用するその他のキャンペーンタイプの場合、ランディングページのサフィックスは、2025 年初頭までに、上記の s_kwcid 形式を使用するように移行されます。
 > [!UICONTROL Auto Upload] トラッキングオプションのないキャンペーンで、まだ新しい形式に移行されていないアカウントの場合、上記の形式を含めるように各ランディングページのサフィックスを手動で更新します。
 >それまでの間、次のような従来の形式も引き続き機能します。
 >* 検索キャンペーン：

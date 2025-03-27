@@ -5,20 +5,21 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: 7a4b295bdf26eeaa123db246bc4eeb64174ca326
+source-git-commit: e7f90880858f646507874bdf5f8f9f1e310cf599
 workflow-type: tm+mt
-source-wordcount: '2856'
+source-wordcount: '2951'
 ht-degree: 0%
 
 ---
 
-# 最新情報
+# 検索、ソーシャル、Commerceの新機能
 
 次の機能は、新規または最近変更された機能です。
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
-| 2025 年 2 月リリース | [!UICONTROL Campaign Management] | 検索、ソーシャル、Commerceで、[!DNL Google Ads] demand gen キャンペーン（旧称：ディスカバリーキャンペーン）の商品広告とビデオ広告が同期されるようになりました。 検索、ソーシャル、CommerceおよびAdobe Analytics（[!DNL Adobe Analytics for Advertising] を使用する広告主向け）のレポートに、利用可能なすべての広告タイプに関する広告レベルのパフォーマンスと支出データが含まれるようになりました。  [!UICONTROL Ads] ビューおよび [!UICONTROL Ad Variation Report] では、[!UICONTROL Creative Type] 列をフィルタリングして、[!UICONTROL Demand Gen Image Ad]、[!UICONTROL Demand Gen Carousel Ad]、[!UICONTROL Demand Gen Product Ad] および [!UICONTROL Demand Gen Video Ad] を含めることができます。<br><br> 目標のアップロードは、サポート対象のすべての広告タイプでサポートされています。 需要創出キャンペーンの最適化はまだ利用できません。 | 詳しくは、「サポート対象インベントリ [ を参照 ](/help/search-social-commerce/introduction/supported-inventory.md) てください。 |
+| 2026 年 3 月 26 日（Pt） | [!UICONTROL Tracking], [!DNL Adobe Analytics for Advertising] | （[!DNL Adobe Analytics for Advertising] アカウントおよび [!DNL Microsoft Advertising] アカウントを使用する広告主） [!UICONTROL Auto Upload] トラッキングオプションを使用するアカウントの場合、すべてのキャンペーンタイプのランディングページサフィックスの AMO ID パラメーターの形式が最新の形式に更新されました。 以前は、ほとんどのアカウントのパフォーマンス最大化キャンペーンは、新しいフォーマットに移行されていました。<br><br> ただし、[!UICONTROL Auto Upload] トラッキングオプションを持たないアカウントで、新しい形式にまだ移行されていない場合、新しい AMO ID 形式を含めるには、各ランディングページのサフィックスを手動で更新する必要があります。<br><br> 現在の形式：`s_kwcid=AL!{userid}!{sid}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}` | [ 概要  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)」および [AMO ID 形式 ](/help/integrations/analytics/ids.md#amo-id-formats)」を参照してください。 |
+| 2025 年 2 月リリース | [!UICONTROL Campaign Management] | 検索、ソーシャル、Commerceで、[!DNL Google Ads] demand gen キャンペーン（旧称：ディスカバリーキャンペーン）の商品広告とビデオ広告が同期されるようになりました。 検索、ソーシャル、CommerceおよびAdobe Analytics（[!DNL Adobe Analytics for Advertising] を使用する広告主向け）のレポートに、利用可能なすべての広告タイプに関する広告レベルのパフォーマンスと支出データが含まれるようになりました。  [!UICONTROL Ads] ビューおよび [!UICONTROL Ad Variation Report] では、[!UICONTROL Creative Type] 列をフィルタリングして、[!UICONTROL Demand Gen Image Ad]、[!UICONTROL Demand Gen Carousel Ad]、[!UICONTROL Demand Gen Product Ad] および [!UICONTROL Demand Gen Video Ad] を含めることができます。<br><br> 目標のアップロードは、サポート対象のすべての広告タイプでサポートされています。 製品広告およびビデオ広告の最適化は、まだ完全にはサポートされていません。 | 詳しくは、「サポート対象インベントリ [ を参照 ](/help/search-social-commerce/introduction/supported-inventory.md) てください。 |
 | 2024 年 12 月 5 日（Pt） | [!DNL Microsoft Advertising] オフラインコンバージョン | オフラインコンバージョンの [!DNL Microsoft Advertising] Enhanced Conversions で、web サイトのリードから生じる電話による販売など、クリック ID を使用せずにコンバージョンイベントに使用できる次のサポートが追加されました。<ul><li>検索、ソーシャル、Commerceでは、オフラインコンバージョンの既存の強化されたコンバージョン目標が同期されるので、レポートや最適化に使用できます。 データは毎日、05:00 に広告主のタイムゾーンで同期されます。</li><li>既存の拡張コンバージョンの目標にマッピングされたファーストパーティのオフラインコンバージョンデータをアップロードできます。</li></li></ul>[!DNL Microsoft Advertising] 内のリードに対して、強化されたコンバージョン目標を作成します。 | ワークフローの概要については「[ オフラインコンバージョン用のオフライン変換の実装  [!DNL Microsoft Advertising]  拡張コンバージョン ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)」および「[ 拡張コンバージョン用のオフライン変換データのアップロード ](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)」を参照してください。 |
 | リリース日：2024 年 10 月 29 日（Pt） | [!DNL Adobe Analytics for Advertising] | （[!DNL Adobe Analytics for Advertising] および [!DNL Microsoft Advertising] の Performance MAX キャンペーンを使用する広告主）広告およびキーワードを含まない Performance MAX キャンペーンのトラッキング URL に新しい AMO ID （[!DNL s_kwcid]）パラメーターを実装した際に、Performance MAX キャンペーンのアセットグループレベルのデータがAdobe Analyticsで使用できるようになりました。 Performance MAX キャンペーンを使用するほとんどのアカウントのトラッキングは、既に新しいフォーマットに移行されています。 ただし、[!UICONTROL Auto Upload] トラッキングオプションを持たず、新しい形式に移行されていない performance max キャンペーンのアカウントの場合、新しい AMO ID 形式を含めるには、各ランディングページのサフィックスを手動で更新する必要があります。<br><br>Performance MAX キャンペーンのAdobe Analytics データは、検索、ソーシャル、Commerceでも利用できます。 | 新しい [AMO ID 形式 ](/help/integrations/analytics/ids.md#amo-id-formats) および [ トラッキング URL にパラメーターを追加するタイミングと方法 ](/help/integrations/analytics/ids.md#amo-id-implement) を参照してください。 |
 | | [!UICONTROL Campaigns] | Performance MAX と検索キャンペーンごとに、新規顧客に対する入札を高く設定するか、新規顧客に対する入札のみを行うか、新規顧客と既存顧客に対する入札を均等に行うか [!DNL Google Ads] うかを選択できるようになりました。 新規顧客に対して高い入札率を割り当てるには、まず [!DNL Google Ads] を使用して、[!DNL Google Ads] のアカウントまたはマネージャーアカウントの新規顧客獲得目標をアクティブ化する必要があります。 目標定義には、適格な既存の顧客リストと、新規顧客に対する追加のコンバージョン値が含まれます。 | 「[[!DNL Google Ads]  キャンペーン設定 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)」を参照してください。<br><br> [!DNL Google Ads] のヘルプ「[ 新しい顧客獲得目標について ](https://support.google.com/google-ads/answer/12080169)」および「[ 新しい顧客獲得目標のアクティベート ](https://support.google.com/google-ads/answer/14007601)」の手順 1～2 も参照してください。 |
