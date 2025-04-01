@@ -3,7 +3,7 @@ title: ' [!DNL Microsoft Advertising] のクリック追跡形式'
 description: アカウントのクリック追跡形式について説明  [!DNL Microsoft Advertising]  ます。
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` は、Adobe Advertising内の広告主の一意の ID の変数です。
+>* `<advertiser_ID>` は、Adobe Advertising内での広告主の一意の ID の変数です。
 >
 >* この形式は、キャンペーンに対してトークン受け渡しが有効になっている（デフォルト）ことを示します。 トークン受け渡しが無効な場合、`<advertiser_ID>` の後に `cq?` を `c?` で置き換えます。
 >
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` は、Adobe Advertising内の広告主の一意の ID の変数です。
+>* `<advertiser_ID>` は、Adobe Advertising内での広告主の一意の ID の変数です。
 >
 >* この形式は、キャンペーンに対してトークン受け渡しが有効になっている（デフォルト）ことを示します。 トークン受け渡しが無効な場合、`<advertiser_ID>` の後に `cq?` を `c?` で置き換えます。
 >
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` は、Adobe Advertising内の広告主の一意の ID の変数です。
+>* `<advertiser_ID>` は、Adobe Advertising内での広告主の一意の ID の変数です。
 >
 >* この形式は、キャンペーンに対してトークン受け渡しが有効になっている（デフォルト）ことを示します。 トークン受け渡しが無効な場合、`<advertiser_ID>` の後に `cq?` を `c?` で置き換えます。
 >
@@ -82,11 +82,11 @@ ht-degree: 0%
 
 ### 検索とオーディエンスネットワーク
 
-Adobe Advertisingコンバージョントラッキングを使用するアカウントの場合は、アドネットワークのクリック識別子（[!DNL Microsoft Advertising] の `msclkid`）をサフィックスに含める必要があります。
+Adobe Advertising コンバージョントラッキングを使用するアカウントの場合は、アドネットワークのクリック識別子（[!DNL Microsoft Advertising] の `msclkid`）をサフィックスに含める必要があります。
 
 * 広告主がAdobe Analytics統合を使用する場合、サフィックスには次を含める必要があります。
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}`
 
 * 広告主がAdobe Analytics統合を持っていない場合、サフィックスには次を含める必要があります。
 
@@ -94,11 +94,11 @@ Adobe Advertisingコンバージョントラッキングを使用するアカウ
 
 ### ショッピングネットワーク
 
-Adobe Advertisingコンバージョントラッキングを使用するアカウントの場合は、アドネットワークのクリック識別子（[!DNL Microsoft Advertising] の `msclkid`）をサフィックスに含める必要があります。
+Adobe Advertising コンバージョントラッキングを使用するアカウントの場合は、アドネットワークのクリック識別子（[!DNL Microsoft Advertising] の `msclkid`）をサフィックスに含める必要があります。
 
 * 広告主がAdobe Analytics統合を使用する場合、サフィックスには次を含める必要があります。
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 
 * 広告主がAdobe Analytics統合を持っていない場合、サフィックスには次を含める必要があります。
 
@@ -106,5 +106,5 @@ Adobe Advertisingコンバージョントラッキングを使用するアカウ
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertisingコンバージョントラッキングサービスのクリックトラッキング URL 形式について ](formats-click-tracking-about.md)
+>* [Adobe Advertising コンバージョントラッキングサービスのクリックトラッキング URL 形式について ](formats-click-tracking-about.md)
 >* [AMO ID 形式 ](/help/integrations/analytics/ids.md#amo-id-formats)

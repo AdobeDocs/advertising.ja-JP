@@ -3,7 +3,7 @@ title: ' [!DNL Google Ads] のクリック追跡形式'
 description: アカウントのクリック追跡形式について説明  [!DNL Google Ads]  ます。
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` は、Adobe Advertising内の広告主の一意の ID の変数です。
+>* `<advertiser_ID>` は、Adobe Advertising内での広告主の一意の ID の変数です。
 >
 >* この形式は、キャンペーンに対してトークン受け渡しが有効になっている（デフォルト）ことを示します。 トークン受け渡しが無効な場合、`<advertiser_ID>` の後に `cq?` を `c?` で置き換えます。
 >
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` は、Adobe Advertising内の広告主の一意の ID の変数です。
+>* `<advertiser_ID>` は、Adobe Advertising内での広告主の一意の ID の変数です。
 >
 >* この形式は、キャンペーンに対してトークン受け渡しが有効になっている（デフォルト）ことを示します。 トークン受け渡しが無効な場合、`<advertiser_ID>` の後に `cq?` を `c?` で置き換えます。
 >
@@ -66,19 +66,19 @@ ht-degree: 0%
 
 ## ランディングページのサフィックス（最終的な URL のサフィックス）の形式
 
-Adobe Advertisingコンバージョントラッキングを使用するアカウントの場合は、アドネットワークのクリック識別子（[!DNL Google Ads] の `gclid`）をサフィックスに含める必要があります。
+Adobe Advertising コンバージョントラッキングを使用するアカウントの場合は、アドネットワークのクリック識別子（[!DNL Google Ads] の `gclid`）をサフィックスに含める必要があります。
 
 * 広告主がAdobe Analytics統合を使用する場合、サフィックスには次のいずれかを含める必要があります。
 
    * 最新の [AMO ID 形式 ](/help/integrations/analytics/ids.md#amo-id-formats) （`s_kwcid` で始まる）を使用する [!DNL Google Ads] アカウントで、パフォーマンス最大化キャンペーンおよびドラフト/実験キャンペーンに関するキャンペーンおよび広告グループレベルのレポートをサポートします。
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     アカウントにサーバーサイド AMO ID 実装があり、アカウントまたはキャンペーン設定の「[!UICONTROL Auto Upload]」が有効になっている場合、パラメーターは自動的に追加されます。 そうでない場合は、手動で追加する必要があります。 「[ が使用するAdobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)」を参照してください。
+     アカウントにサーバーサイド AMO ID 実装があり、アカウントまたはキャンペーン設定の「[!UICONTROL Auto Upload]」が有効になっている場合、パラメーターは自動的に追加されます。 そうでない場合は、手動で追加する必要があります。 「[ ユーザーのAdobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)」を参照してください。
 
    * その他すべての [!DNL Google Ads] アカウント：
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * 広告主がAdobe Analytics統合を持っていない場合、サフィックスには次を含める必要があります。
 
@@ -92,5 +92,5 @@ Adobe Advertisingコンバージョントラッキングを使用するアカウ
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertisingコンバージョントラッキングサービスのクリックトラッキング URL 形式について ](formats-click-tracking-about.md)
+>* [Adobe Advertising コンバージョントラッキングサービスのクリックトラッキング URL 形式について ](formats-click-tracking-about.md)
 >* [AMO ID 形式 ](/help/integrations/analytics/ids.md#amo-id-formats)
