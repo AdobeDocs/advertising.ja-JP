@@ -3,9 +3,9 @@ title: 使用するAdobe Advertising ID [!DNL Analytics]
 description: 使用するAdobe Advertising ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 8128a29a044623d5161e4893fbc52cca626b8fe4
+source-git-commit: e8c8316418acf4a8c62beabcae2c1b7388dbc297
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ AMO ID は `s_kwcid` とも呼ばれ、「[!DNL squid]」と発音されるこ�
 
    * DSPのお客様：[JavaScript コード ](javascript.md) は、クリックスルーとビュースルーを自動的に記録します。 ブラウザーがサードパーティ cookie をサポートしていない場合でも、次の広告タイプのクリックベースのコンバージョンを追跡できます。
 
-      * [!DNL Flashtalking] の広告タグの場合は、「[ 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Flashtalking]  広告タグに ](/help/integrations/analytics/macros-flashtalking.md)」ごとに手動で追加マクロを挿入します。
+      * [!DNL Flashtalking] の広告タグの場合は、「[ 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Flashtalking]  広告タグに ](/help/integrations/analytics/macros-flashtalking.md)」ごとに手動で追加マクロを挿入します。 **注意：** 組織が [!DNL Flashtalking] と直接関係があり、`https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros` にある [!DNL Flashtalking] サポートドキュメントに従ってデータパスマクロを使用してクリックデータを収集する場合、この手順は必要ありません。
 
       * [!DNL Google Campaign Manager 360] の広告タグの場合は、「[ 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Google Campaign Manager 360]  広告タグに ](/help/integrations/analytics/macros-google-campaign-manager.md)」ごとに手動で追加マクロを挿入します。
 
