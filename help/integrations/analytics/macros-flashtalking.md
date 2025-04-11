@@ -3,28 +3,34 @@ title: タグに追加  [!DNL Analytics for Advertising]  マクロ  [!DNL Flash
 description: 広告タグにマクロを追加する理由  [!DNL Analytics for Advertising]  方法  [!DNL Flashtalking]  説明します
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c4db5727def6125b65fb2146666b988ae3b0db27
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
 # [!DNL Flashtalking] Ad タグへの [!DNL Analytics for Advertising] マクロの追加
 
-*Adobe AdvertisingとAdobe Analyticsの統合のみを行う広告主*
+*Adobe AdvertisingとAdobe Analyticsの統合のみを利用する広告主*
+
+*[!DNL Flashtalking] と直接の提携を行っていない団体のみ*
 
 *Advertising DSPにのみ適用*
 
-Advertising DSP広告に [!DNL Flashtalking] の広告タグを使用する場合は、ランディングページの URL に Analytics for Advertising パラメーターを追加します。 パラメーターは、AMO ID （`s_kwcid`）および `ef_id` クエリ文字列パラメーターをランディングページの URL に記録するので、Adobe Advertisingは、広告のクリックデータをAdobe Analyticsに送信できます。
+Advertising DSP広告に [!DNL Flashtalking] の広告タグを使用する場合は、ランディングページの URL にトラッキングパラメーターを追加する必要があります。 Advertising DSPと [!DNL Flashtalking] のパートナーシップを使用するには、ランディングページの URL に Analytics for Advertisingのパラメーターを追加します。 パラメーターは、AMO ID （`s_kwcid`）および `ef_id` クエリ文字列パラメーターをランディングページの URL に記録するので、Adobe Advertisingが広告のクリックデータをAdobe Analyticsに送信できます。
+
+>[!NOTE]
+>
+>組織が [!DNL Flashtalking] と直接パートナーシップを結んでいる場合、この手順は必要ありません。 代わりに、[!DNL Flashtalking] アカウントにログインし、[!DNL Flashtalking] サポートドキュメントに従って、`https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros` でデータパスマクロにアクセスします。
 
 次のタイプの [!DNL Analytics for Advertising] 実装 [!DNL Flashtalking] ディスプレイ広告とビデオ広告にマクロを使用します。
 
 * **Web サイトに実装された [!DNL Adobe] [!DNL Analytics for Advertising] JavaScript コードを持つ広告主**:JavaScript コードは既に AMO ID （`s_kwcid`）とクエリ文字列パラメーター `ef_id` 記録しています。 ただし、サードパーティ cookie がサポートされていない場合に、マクロを使用すると、トラッキングが拡張されて、クリックベースの変換が含まれます。 ベストプラクティスは、JavaScript コードを通じて取得されないクリックスルーのデータをさらに取得するために、次のセクションのマクロを広告タグに追加することです。
 
->[!NOTE]
->
->JavaScript コードは、cookie が使用可能な状態でのクリックの追跡にのみ使用できるソリューションです。 Cookie が廃止されると、次のマクロの実装が必要になります。
+  >[!NOTE]
+  >
+  >JavaScript コードは、cookie が使用可能な状態でのクリックの追跡にのみ使用できるソリューションです。 Cookie が廃止されると、次のマクロの実装が必要になります。
 
 * **Web サイトで [!DNL Analytics for Advertising] JavaScript コードを使用せず、代わりにクリックスルーデータのみの [!DNL Analytics] サーバーサイド転送に依存している広告主** （ビュースルーデータがない）:Adobe Advertisingで購入した広告から発生するオンサイトクリックアクティビティをレポートするには、次のマクロが必要です。
 
@@ -63,6 +69,6 @@ Advertising DSP広告に [!DNL Flashtalking] の広告タグを使用する場�
 >[!MORELIKETHIS]
 >
 >* [ 概要  [!DNL Analytics for Advertising]](overview.md)
->* [ 使用Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [ 使用するAdobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
 >* [Append [!DNL Analytics for Advertising] Macros to [!DNL Google Campaign Manager 360] Ad タグ ](/help/integrations/analytics/macros-google-campaign-manager.md)
 
