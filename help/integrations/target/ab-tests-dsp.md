@@ -2,9 +2,9 @@
 title: Adobe TargetでのAdobe Advertising DSP Ads の A/B テストの設定
 description: DSP広告に A/B テストを設定する方法  [!DNL Target]  説明します。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: bbb5feaf96a9be28e112544e34f11fc8f7015946
+source-git-commit: 34ada7c1f299f76988ee3ba533c47b76ade7d9ec
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ DSP マクロをクリックスルー URL （広告をクリックしてラン�
 
 <!-- If we ever write instructions for ads on other ad servers (such as Sizmek ads in DCO), then work that into the following section. -->
 
-Flash Talking またはGoogle Campaign Manager 360 内で、各広告のクリックスルー URL を手動で更新して、AMO ID 変数のキャプチャに必要なマクロを含めます。 AMO ID 変数は、クリックデータをAdobe Analyticsに送信したり、A/B テストのプレースメントキーを共有したりするために使用されます。 手順については、次のページを参照してください。
+[!DNL Flashtalking] またはGoogle Campaign Manager 360 内で、各広告のクリックスルー URL を手動で更新して、AMO ID 変数のキャプチャに必要なマクロを含めます。 AMO ID 変数は、クリックデータをAdobe Analyticsに送信したり、A/B テストのプレースメントキーを共有したりするために使用されます。 手順については、次のページを参照してください。
 
-* [Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad Tags](/help/integrations/analytics/macros-flashtalking.md)。 **注意：** 組織が [!DNL Flashtalking] と直接関係があり、`https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros` にある [!DNL Flashtalking] サポートドキュメントに従ってデータパスマクロを使用してクリックデータを収集する場合、この手順は必要ありません。
+* [[[!DNL Flashtalking] Ad タグに [!DNL Analytics for Advertising] マクロを追加 ](/help/integrations/analytics/macros-flashtalking.md) します。 **注意：** 組織が [!DNL Flashtalking] と直接関係があり、`https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros` にある [!DNL Flashtalking] サポートドキュメントに従ってデータパスマクロを使用してクリックデータを収集する場合、この手順は必要ありません。
 
 * [タグに追加  [!DNL Analytics for Advertising]  マクロ  [!DNL Google Campaign Manager 360]  追加](/help/integrations/analytics/macros-google-campaign-manager.md)
 
