@@ -1,11 +1,11 @@
 ---
-title: 使用するAdobe Advertising ID [!DNL Analytics]
-description: 使用するAdobe Advertising ID [!DNL Analytics]
+title: Adobe Systems 広告 ID 使用者 [!DNL Analytics]
+description: Adobe Systems 広告 ID 使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: c3fcaab7e378617bb42a2412250ded7b22ff17c3
+source-git-commit: 8d9bd2aeed8fa7c6d34be9dbb813b35205ba72b4
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1760'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Adobe Advertisingは、次の条件を使用して、web サイトに対する�
 
    * [ クリックルックバックウィンドウ ](#lookback-a4adc) の間、訪問者が [!DNL DSP] または [!DNL Search, Social, & Commerce] 広告のクリックスルーを行うことはありません。
 
-   * 訪問者は、[ インプレッションルックバックウィンドウ ](#lookback-a4adc) 中に少なくとも 1 つの [!DNL DSP] 広告を確認しました。 最後のインプレッションがビュースルーとして渡されます。
+   * 訪問者は、[ インプレッションルックバックウィンドウ ](#lookback-a4adc) 中に少なくとも 1 つの [!DNL DSP] 広告を確認しました。 最後のインプレッションが表示スルーとして渡されます。
 
-* クリックスルーのエントリは、サイト訪問者がサイトに入る前に広告をクリックした際にキャプチャされます。 [!DNL Analytics] は、次のいずれかの状況が発生した場合にクリックスルーをキャプチャします。
+* クリックスルーエントリは、サイト訪問者がサイトに入る前に広告をクリックしたときにキャプチャされます。 [!DNL Analytics] は、次のいずれかの条件に該当するときにクリックスルーを取得します。
 
-   * URL には、Adobe Advertisingによってランディングページ URL に追加された EF ID と AMO ID が含まれます。
+   * URLには、Adobe Systems Advertising によって ランディングページ URLに追加される EF ID と AMO ID が含まれます。
 
    * URL にはトラッキングコードが含まれていませんが、Adobe Advertising JavaScript コードは過去 2 分以内にクリックを検出します。
 
@@ -89,12 +89,12 @@ EF ID は、Adobe Advertisingがアクティビティをオンラインクリッ
 * &lt;*channel type*> は、クリックまたは露出を行うチャネルのタイプです。
 
    * DSP ディスプレイ広告のクリックを `d` す（表示のクリックスルー）
-   * DSP ディスプレイ広告のインプレッションの `i` ール（ビュースルーの表示）
-   * 検索広告を `s` リックします（検索クリックスルー）。
+   * `i` DSPディスプレイ広告のインプレッションの場合(表示スルー表示)
+   * `s` をクリックして、Search広告のクリック(クリックスルー検索)。
 
 例 `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
 
-### [!DNL Analytics] の EF ID Dimension
+### EF ID は次のDimension [!DNL Analytics]
 
 [!DNL Analytics] レポートでは、[!UICONTROL EF ID] ディメンションを検索して [!UICONTROL EF ID Instance] 指標を使用することで、EF ID データを見つけることができます。
 
@@ -118,13 +118,13 @@ AMO ID は `s_kwcid` とも呼ばれ、「[!DNL squid]」と発音されるこ�
 
       * アカウントまたはキャンペーンに対して [!UICONTROL Auto Upload] 設定が有効な [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントの場合、エンドユーザーがAdobe Advertising ピクセルで広告をクリックすると、ピクセルサーバーは s_kwcid パラメーターをランディングページサフィックスに自動的に追加します。
 
-      * 他の広告ネットワーク、または [!UICONTROL Auto Upload] 設定が無効の [!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントの場合は、[ アカウントレベルの追加パラメーター ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} にパラメーターを手動で追加して、ベース URL に追加します。
+      * 他の 広告 ネットワーク、または[!UICONTROL Auto Upload]設定が無効になっている [!DNL Google Ads] アカウントと [!DNL Microsoft Advertising] アカウントの場合は、[アカウント レベルの追加パラメーターにパラメーターを手動で追加し](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}ベース URL に追加します。
 
-* サーバーサイド挿入機能が実装されていない場合：
+* サーバーサイド挿入機能が実装されていない場合:
 
-   * DSPのお客様：[JavaScript コード ](javascript.md) は、クリックスルーとビュースルーを自動的に記録します。 ブラウザーがサードパーティ cookie をサポートしていない場合でも、次の広告タイプのクリックベースのコンバージョンを追跡できます。
+   * DSP顧客: [JavaScriptコード](javascript.md) は、クリックスルーと表示スルーを自動的に記録します。 ブラウザーで Cookie サードパーティサポートされていない場合でも、次の広告タイプのクリックベースのコンバージョンをトラッキングできます。
 
-      * [!DNL Flashtalking] の広告タグの場合は、「[ 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Flashtalking]  広告タグに ](/help/integrations/analytics/macros-flashtalking.md)」ごとに手動で追加マクロを挿入します。 **注意：** 組織が [!DNL Flashtalking] と直接関係があり、`https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros` にある [!DNL Flashtalking] サポートドキュメントに従ってデータパスマクロを使用してクリックデータを収集する場合、この手順は必要ありません。
+      * [!DNL Flashtalking]広告タグについては、「[Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad タグ](/help/integrations/analytics/macros-flashtalking.md)」に従って追加のマクロを手動で挿入します。**注意：** 組織が [!DNL Flashtalking] と直接関係があり、`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros` の [!DNL Flashtalking] サポートドキュメントに従ってデータパスマクロを使用して `s_kwcid` および `ef_id` トラッキングパラメーターを追跡する場合、この手順は必要ありません。
 
       * [!DNL Google Campaign Manager 360] の広告タグの場合は、「[ 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Google Campaign Manager 360]  広告タグに ](/help/integrations/analytics/macros-google-campaign-manager.md)」ごとに手動で追加マクロを挿入します。
 
@@ -148,13 +148,13 @@ AMO ID は `s_kwcid` とも呼ばれ、「[!DNL squid]」と発音されるこ�
 
 * `{TM_AD_ID}` は、Adobe Advertisingで生成された英数字の広告キーです。 広告の一意の ID として使用され、Adobe Advertisingのエンティティメタデータを読み取り可能な [!DNL Analytics] ディメンションに変換するためのキーとして機能します。
 
-* `{TM_PLACEMENT_ID}` は、Adobe Advertisingで生成される英数字のプレースメントキーです。 プレースメントの一意の ID として使用され、Adobe Advertisingのエンティティメタデータを読み取り可能な [!DNL Analytics] ディメンションに変換するためのキーとして機能します。
+* `{TM_PLACEMENT_ID}` は、Adobe Systems Advertising によって生成された英数字の配置キーです。 これは配置の一意の識別子として使用され、広告エンティティメタデータAdobe Systems読み取り可能な [!DNL Analytics] ディメンションに変換するためのキーとして機能します。
 
-AMO ID の例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
+AMO ID の例:AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-#### 検索、ソーシャル、Commerce広告の AMO ID 形式 {#amo-id-format-search}
+#### Search、Social、コマース広告用の AMO ID 形式 {#amo-id-format-search}
 
-パラメーターは広告ネットワークによって異なりますが、次のパラメーターはすべてのユーザーに共通です。
+パラメーターは広告ネットワークによって異なりますが、次のパラメーターはすべてに共通です。
 
 * `AL` は検索チャネルを示します。<!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
 
@@ -260,13 +260,13 @@ where:
 
 ここで、
 
-* `{ad_id}` は、クリエイティブの広告ネットワークの一意の数値 ID です。
-* 広告 `{source_type}` 表示されたサイトのタイプです。検索の場合は *b*、コンテキスト （コンテンツ）の場合は *c*、カテゴリの場合は *ct* です。
-* `{phrase_id}` は、広告ネットワークのキーワードの数値 ID です。
+* `{ad_id}` は、クリエイティブに対する広告ネットワークの一意の数値 ID です。
+* `{source_type}` は、広告が表示されているサイトのタイプです。検索の場合は *b* 、コンテキスト (内容) の場合は *c* 、カテゴリの場合は *ct* 。
+* `{phrase_id}` はキーワードに対する広告ネットワークの数値 ID です。
 
-### [!DNL Analytics] での AMO ID Dimension
+### AMO ID Dimension [!DNL Analytics]
 
-Analytics レポートでは、[!UICONTROL AMO ID] ディメンションを検索して [!UICONTROL AMO ID Instances] 指標を使用することで、AMO ID データを見つけることができます。 [!UICONTROL AMO ID] ディメンションには、取得したすべての AMO ID 値が格納されます。[!UICONTROL AMO ID Instances] 指標は、AMO ID 値がサイトによって取得された頻度を示します。 例えば、同じ検索広告を 4 回クリックしても、Analytics で 7 つのサイトエントリをトラッキングした場合、[!UICONTROL AMO ID Instances] は 7 回、[!UICONTROL Clicks] は 4 回になります。
+Analyticsレポートでは、 [!UICONTROL AMO ID] ディメンションを検索し、 [!UICONTROL AMO ID Instances] 指標を使用することで、AMO ID データを見つけることができます。 [!UICONTROL AMO ID] ディメンションには、取得したすべての AMO ID 値が格納されます。[!UICONTROL AMO ID Instances] 指標は、AMO ID 値がサイトによって取得された頻度を示します。 例えば、同じ検索広告を 4 回クリックしても、Analytics で 7 つのサイトエントリをトラッキングした場合、[!UICONTROL AMO ID Instances] は 7 回、[!UICONTROL Clicks] は 4 回になります。
 
 [!DNL Analytics] 内のレポートや監査の場合、ベストプラクティスは AMO ID を対応するインスタンスと共に使用することです。 詳しくは、「[!DNL Analytics] とAdobe Advertisingの間で予想されるデータの相違」の [ のクリックスルー  [!DNL Analytics for Advertising]](data-variances.md#data-validation) データの検証」を参照してください。
 

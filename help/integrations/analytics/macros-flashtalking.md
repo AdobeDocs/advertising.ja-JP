@@ -3,9 +3,9 @@ title: タグに追加  [!DNL Analytics for Advertising]  マクロ  [!DNL Flash
 description: 広告タグにマクロを追加する理由  [!DNL Analytics for Advertising]  方法  [!DNL Flashtalking]  説明します
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 181a22c83b77dabbd949d9e47d0a7cadf1e68c18
+source-git-commit: 8d9bd2aeed8fa7c6d34be9dbb813b35205ba72b4
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Advertising DSP広告に [!DNL Flashtalking] の広告タグを使用する場�
 
 >[!NOTE]
 >
->組織が [!DNL Flashtalking] と直接パートナーシップを結んでいる場合、この手順は必要ありません。 代わりに、[!DNL Flashtalking] アカウントにログインし、[!DNL Flashtalking] サポートのドキュメントに従って、`https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros` でデータパスマクロを使用してクリックデータを収集します。
+>組織が [!DNL Flashtalking] と直接パートナーシップを結んでいる場合、この手順は必要ありません。 代わりに、[!DNL Flashtalking] アカウントにログインし、`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros` にある [!DNL Flashtalking] サポートドキュメントに従って、データパスマクロを使用して `s_kwcid` ータを追跡し、トラッキングパラメーターを追 `ef_id` します。
 
 次のタイプの [!DNL Analytics for Advertising] 実装 [!DNL Flashtalking] ディスプレイ広告とビデオ広告にマクロを使用します。
 
