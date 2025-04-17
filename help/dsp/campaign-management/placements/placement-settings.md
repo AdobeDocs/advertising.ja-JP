@@ -3,9 +3,9 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 17d2f802e77709636ef9654ad154e14c5d53c477
+source-git-commit: 6c4e5c3b114684dc360c1c2a35c90f07a8df11bc
 workflow-type: tm+mt
-source-wordcount: '3966'
+source-wordcount: '4039'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 **[!UICONTROL Inventory Sources]:** ターゲットとして含めるか除外する在庫ソース。 ほとんどのプレースメント タイプでは、すべての在庫タイプと各タイプのすべてのソースがデフォルトで含まれます。 プレースメント [!DNL Roku] 場合、在庫タイプとソースを指定する必要があります。 次のタイプの在庫から選択できます。
 
-* [!UICONTROL Public]:（Roku を除くすべてのプレースメント タイプ）DSPがアクセスできるすべてのオープンな交換在庫。 公開在庫を含めたり除外したりできます。
+* [!UICONTROL Public]: （Roku を除くすべてのプレースメント タイプ）DSPがアクセスできるすべてのオープンな交換在庫。 公開在庫を含めたり除外したりできます。
 
   このリストは、ソース別またはフィード別に表示できます。 フィード別にリストを表示する場合は、フィード名、フィードキー、または選択した特性タグで検索できます。
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 
 **[!UICONTROL Traffic type]:** ターゲットにするトラフィックのタイプ。 オプションには、**[!UICONTROL Websites]** と **[!UICONTROL Apps]** があります。
 
-**[!UICONTROL Tier]:** （**[!UICONTROL Paste list of targeted sites]** が *[!UICONTROL Off]* の場合に使用可能）ターゲットにするトラフィックの品質。 階層 1～3 はすべてブランドセーフであり、DSP マッピングチームによって承認されています。
+**[!UICONTROL Tier]:** （**[!UICONTROL Paste list of targeted sites]** が *[!UICONTROL Off]* の場合に使用可能）ターゲットにするトラフィックの品質。 階層 1～3 はすべてブランドセーフであり、DSPマッピングチームによって承認されています。
 
 * *[!UICONTROL Tier 1]:* 全国的に認識できる Premium サイトおよびアプリケーション。
 
@@ -299,13 +299,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Audience Targeting]
 
-**[!UICONTROL Included Audiences]:** [ サードパーティセグメント、ファーストパーティセグメント、Adobeセグメント、カスタムセグメント、保存済みオーディエンス ](/help/dsp/audiences/audience-settings.md) など、プレースメントの任意のオーディエンスターゲット。 選択したすべてのセグメントと保存されたオーディエンスにわたる、重複排除されたアクティブなオーディエンスの合計サイズも表示されます。 既存のオーディエンスを選択し、後で再利用できるオーディエンスを作成するか、特定のオーディエンスセグメントを選択できます。
+**[!UICONTROL Included Audiences]:** [ サードパーティセグメント、ファーストパーティセグメント、Adobe セグメント、カスタムセグメント、保存済みオーディエンス ](/help/dsp/audiences/audience-settings.md) など、プレースメントの任意のオーディエンスターゲット。 選択したすべてのセグメントと保存されたオーディエンスにわたる、重複排除されたアクティブなオーディエンスの合計サイズも表示されます。 既存のオーディエンスを選択し、後で再利用できるオーディエンスを作成するか、特定のオーディエンスセグメントを選択できます。
 
 * 既存のオーディエンスを選択するには、「[!UICONTROL Included Audiences]」の横にある ![ 選択 ](/help/dsp/assets/chevron-down.png) をクリックし、オーディエンスを選択します。
 * オーディエンスを作成するには、「オーディエンス」の横にある ![ 選択 ](/help/dsp/assets/chevron-down.png) をクリックし、「[!UICONTROL Included Audiences]」を選択し **[!UICONTROL + Create Audience]** す。 手順については、手順 3 から [ 再利用可能なオーディエンスの作成 ](/help/dsp/audiences/reusable-audience-create.md) を参照してください。
 * 特定のオーディエンスセグメントを選択するには、「選 **[!UICONTROL Select segments for this placement only]**」をクリックします。 セグメントロジックを選択します。手順については、「[ 再利用可能なオーディエンスの作成 ](/help/dsp/audiences/reusable-audience-create.md) の手順 6 を参照してください。 完了したら、「**保存**」をクリックします。
 
-**[!UICONTROL Excluded Audiences]:** プレースメントに対して除外するオーディエンス。例えば、[ サードパーティセグメント、ファーストパーティセグメント、Adobeセグメント、カスタムセグメント、保存済みオーディエンス ](/help/dsp/audiences/audience-settings.md) のオーディエンスです。 除外されたすべてのオーディエンスの合計およびアクティブな重複排除されたオーディエンスサイズも表示されます。 既存のオーディエンスを選択するか、新しいオーディエンスを作成して後で再利用できます。
+**[!UICONTROL Excluded Audiences]:** プレースメント用に除外するオーディエンス。例えば、[ サードパーティセグメント、ファーストパーティセグメント、Adobe セグメント、カスタムセグメント、保存済みオーディエンス ](/help/dsp/audiences/audience-settings.md) を含みます。 除外されたすべてのオーディエンスの合計およびアクティブな重複排除されたオーディエンスサイズも表示されます。 既存のオーディエンスを選択するか、新しいオーディエンスを作成して後で再利用できます。
 
 * 既存のオーディエンスを選択するには、「[!UICONTROL Excluded Audiences]」の横にある ![ 選択 ](/help/dsp/assets/chevron-down.png) をクリックし、オーディエンスを選択します。
 
@@ -346,7 +346,7 @@ ht-degree: 0%
    * 間隔を手動で選択するには、セル内をクリックし、必要に応じてドラッグして間隔を選択します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-**[!UICONTROL Topic Targeting]:** （任意。[!DNL Proximic by Comscore] セグメントで設定された広告主が使用できます） ターゲットとして含める [!DNL Proximic by Comscore] の特定のセグメント名または ID。 この機能には追加料金が発生する場合があります。 この機能をアクティブにしてトピックセグメントを設定するには、Adobeアカウントチームにお問い合わせください。
+**[!UICONTROL Topic Targeting]:** （任意。[!DNL Proximic by Comscore] セグメントで設定された広告主が使用できます） ターゲットとして含める [!DNL Proximic by Comscore] の特定のセグメント名または ID。 この機能には追加料金が発生する場合があります。 この機能をアクティベートしてトピックセグメントを設定するには、Adobe アカウントチームにお問い合わせください。
 
 トピックのターゲティングを指定するには：
 
@@ -395,7 +395,7 @@ ht-degree: 0%
 
 ID は「51」で始まり、8 桁で構成する必要があります。 デフォルトでは、広告主アカウント設定でセグメント ID が指定されている場合、広告主レベルの ID が入力されますが、別のセグメントを使用するように ID を変更したり、ID を削除して機能を無効にしたりできます。
 
-**[!UICONTROL Contextual filtering]:** 適用する [!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science] および [!DNL Peer39] コンテキストフィルターのタイプ。 新しいプレースメントには広告主レベルのデフォルトが選択されますが、設定は変更できます。
+**[!UICONTROL Contextual filtering]:** （デスクトップおよびモバイル web ディスプレイ、ネイティブおよびビデオ広告に適用）適用する [!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science] および [!DNL Peer39] のコンテキストフィルターのタイプ。 新しいプレースメントには広告主レベルのデフォルトが選択されますが、設定は変更できます。
 
 <!-- Looks like we didn't rename this:
 **[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
@@ -421,34 +421,30 @@ ID は「51」で始まり、8 桁で構成する必要があります。 デフ
 
 **[!UICONTROL Pre-bid fraud blocking]:** [!DNL DoubleVerify]、[!DNL Integral Ad Science]、[!DNL Peer39] を通じて測定された不正なトラフィックや疑わしいアクティビティに基づいてブロックされるサイトのタイプ。 新しいプレースメントには広告主レベルのデフォルトが選択されますが、設定は変更できます。
 
-* [!UICONTROL DoubleVerify]:
+* [!UICONTROL DoubleVerify]: （デスクトップおよびモバイル web ディスプレイ、ネイティブおよびビデオ広告に適用）
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** デフォルトでは、は、新しいプレースメントに対して、ハイジャックされたデバイス上のトラフィックを含むすべての 100% 無効なトラフィックをブロックします。 追加料金がかかる場合があります。
 
-   * **[!UICONTROL Also block sites with]:** （任意）DSPがデフォルトで広告をブロックする原因となる、追加の不正トラフィックおよび無効なトラフィックのレベル。*[!UICONTROL None]* （デフォルト。追加のトラフィックをブロックしません）、*[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*、*[!UICONTROL >4% Average Fraud/IVT levels]*、*[!UICONTROL >6% Average Fraud/IVT levels]*、*[!UICONTROL >10% Average Fraud/IVT levels]* または *[!UICONTROL >25% Average Fraud/IVT levels]*。 追加料金がかかる場合があります。
+   * **[!UICONTROL Also block sites with]:** （任意）DSPがデフォルトで広告をブロックする原因となる、追加の不正トラフィックおよび無効なトラフィックのレベル。*[!UICONTROL None]* （デフォルト。追加のトラフィックをブロックしません）、*[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*、*[!UICONTROL >4% Average Fraud/IVT levels]*、*[!UICONTROL >6% Average Fraud/IVT levels]*、*[!UICONTROL >10% Average Fraud/IVT levels]* または *[!UICONTROL >25% Average Fraud/IVT levels]* です。 追加料金がかかる場合があります。
 
-* [!UICONTROL Peer 39]:
+* [!UICONTROL Peer 39]: （デスクトップおよびモバイル web ディスプレイ、ネイティブおよびビデオ広告に適用）
 
-   * **[!UICONTROL Block sites that are]:** （任意）DSPがデフォルトで広告をブロックする原因となる 1 つ以上の不正。*[!UICONTROL Fraud]* （不正を使用するすべてのサイトをブロックする）、*[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*、*[!UICONTROL Fraud: Zero Ads]* のいずれかです。 追加料金がかかる場合があります。
+   * **[!UICONTROL Block sites that are]:** （任意）DSPがデフォルトで広告をブロックする原因となる 1 つ以上の不正。*[!UICONTROL Fraud]* （不正を行うすべてのサイトをブロックする）、*[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*、*[!UICONTROL Fraud: Zero Ads]* のいずれかです。 追加料金がかかる場合があります。
 
-* [!UICONTROL Integral Ad Science]:
+* [!UICONTROL Integral Ad Science]: （デスクトップおよびモバイル web ディスプレイ、ネイティブおよびビデオ広告に適用）
 
-   * **[!UICONTROL Block sites that are]:** （任意）DSPがデフォルトで広告をブロックする原因となる、疑わしい web サイトまたはアプリアクティビティの種類。*[!UICONTROL None]* （デフォルト。疑わしいアクティビティに基づく広告をブロックしません）、*[!UICONTROL Suspicious Activity - High Risk]*、*[!UICONTROL Suspicious Activity - High or Moderate Risk]* のいずれかです。 追加料金がかかる場合があります。
+   * **[!UICONTROL Block sites that are]:** （任意）DSPがデフォルトで広告をブロックする原因となる、疑わしい web サイトまたはアプリアクティビティの一種。*[!UICONTROL None]* （デフォルト。疑わしいアクティビティに基づく広告をブロックしません）、*[!UICONTROL Suspicious Activity - High Risk]*、*[!UICONTROL Suspicious Activity - High or Moderate Risk]* のいずれかです。 追加料金がかかる場合があります。
 
-**[!UICONTROL Pre-bid viewability]:**
+**[!UICONTROL Pre-bid viewability]:** （デスクトップおよびモバイルの web ディスプレイ、ネイティブおよびビデオ広告に適用） [!DNL DoubleVerify] ーザーごとに事前入札ビューアビリティがフィルターされ、プレースメントに適用で [!DNL Integral Ad Science] ます。 新しいプレースメントには広告主レベルのデフォルトが選択されますが、設定は変更できます。 追加料金がかかる場合があります。
 
-プレースメントに適用する、[!DNL DoubleVerify] および [!DNL Integral Ad Science] でフィルターする pre-bid viewability。 新しいプレースメントには広告主レベルのデフォルトが選択されますが、設定は変更できます。 追加料金がかかる場合があります。
-
-**[!UICONTROL Ads.txt filtering]:**
-
-各パブリッシャーの承認済みデジタルセラーのリストを適用して、使用する [Ads.txt](https://iabtechlab.com/ads-txt-about/) 事前入札フィルタリングのレベル。 新しいプレースメントには広告主レベルのデフォルトが選択されますが、設定は変更できます。
+**[!UICONTROL Ads.txt filtering]:** （デスクトップおよびモバイルの Web ディスプレイ、ネイティブ、ビデオ、オーディオ広告に適用可能）各パブリッシャーの認定デジタルセラーのリストを適用して使用する [Ads.txt](https://iabtechlab.com/ads-txt-about/) 事前入札フィルタリングのレベル。 新しいプレースメントには広告主レベルのデフォルトが選択されますが、設定は変更できます。
 
 * *[!UICONTROL Opt out of ads.txt (default)]*：すべてのセラーから在庫を購入する場合。
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*：ドメインの承認済み直販業者および再販業者からの購買在庫を優先順位付けする手順です。
 * *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済み直販業者および再販業者からのみ在庫を購入する場合。
 * *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済ダイレクト・セラーからのみ在庫を購入する場合。
 
-**[!UICONTROL Attention Targeting]:** （ディスプレイ、ビデオ、標準で接続されたテレビ [!DNL Adelaide] プレースメント）指定されたサイト、形式、広告サイズに基づいて、特定の注意レベル（高、中、低）で事前入札セグメントのターゲット。 セグメントは毎週更新されます。 **注意：**[!DNL Adelaide] セグメントをターゲティングに使用すると、[!DNL Adelaide] のアテンションターゲティングで配信されるインプレッションごとにCPM料金が発生します。この料金は、[ アテンション測定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md) の料金とは別です。 インタラクティブなプレロールプレースメントの場合、膨大なインプレッションに対してのみ請求されます。
+**[!UICONTROL Attention Targeting]:** （デスクトップおよびモバイルの web ディスプレイ、ビデオ、標準で接続されたテレビ広告に適用）指定されたサイト、形式、広告サイズに基づいて、特定の注意レベル（高、中、低）でセグメントの事前入札を [!DNL Adelaide] うターゲット。 セグメントは毎週更新されます。 **注意：**[!DNL Adelaide] セグメントをターゲティングに使用すると、[!DNL Adelaide] のアテンションターゲティングで配信されるインプレッションごとにCPM料金が発生します。この料金は、[ アテンション測定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md) の料金とは別です。 インタラクティブなプレロールプレースメントの場合、膨大なインプレッションに対してのみ請求されます。
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
@@ -507,4 +503,4 @@ ID は「51」で始まり、8 桁で構成する必要があります。 デフ
 >* [ プレースメントの入札乗数の管理 ](placement-manage-bid-multipliers.md)
 >* [ プレースメントの変更ログを表示 ](placement-change-log.md)
 >* [ ショートカットキー ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Campaign Managementに関する FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [Campaign 管理に関する FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
