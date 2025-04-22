@@ -2,9 +2,9 @@
 title: Performance Insights について
 description: キャンペーンのパフォーマンスインサイトについて説明します。
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
+source-git-commit: b1e9d022894c638dae6c48482d98059d9540e1c4
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 どのinsightでも、ビジュアライゼーションなしでMicrosoft Excel スプレッドシート（XLSX）形式でレポートをダウンロードできます。
 
-## 「[!UICONTROL Home]」タブ
+## インサイトのタイプ
+
+### 「[!UICONTROL Home]」タブ
 
 「[!UICONTROL Home]」タブには、広告主のすべてのキャンペーンをまたぐ主要な標準、パフォーマンス、ビューアビリティの指標が表示され <!-- active only? --> す。 デフォルトでは、クロスキャンペーンデータが表示されます。 オプションで、フィルターを設定して、異なる広告主のデータや、特定のキャンペーン <!-- active only? -->、パッケージ <!-- active only? -->、カスタム目標、プレースメントのデータのみを表示 <!-- active only? --> きます。 インサイトには次のものが含まれます。
 
@@ -27,7 +29,7 @@ ht-degree: 0%
 
 * キャンペーン別、公開者別、メディアタイプ別など、顧客が指定した 3 つのディメンションによる、特定の指標のデータの分類。 ディメンションの分類ごとに、異なる指標を選択できます。
 
-## 「[!UICONTROL Household Reach]」タブ
+### 「[!UICONTROL Household Reach]」タブ
 
 「[!UICONTROL Household Reach]」タブには、広告主のすべてのキャンペーン全体で世帯のリーチ指標が表示され <!-- active only? --> す。 デフォルトでは、クロスキャンペーンデータが表示されます。 オプションで、別の広告主のデータや特定のキャンペーンのデータのみを表示するフィルターを設定 <!-- active only? --> きます。 インサイトには次のものが含まれます。
 

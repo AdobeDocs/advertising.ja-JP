@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: 148917239a2179b651b04418e53038d29856c649
+source-git-commit: 2d8785ed0f9be576d7c5437ac5793a46d787b954
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 3%
@@ -97,8 +97,8 @@ ht-degree: 3%
          + [プリロール広告設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [ユニバーサルビデオ広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [サポートされる広告タイプの仕様](/help/dsp/campaign-management/ads/ad-specs.md)
-+ クロスキャンペーンのパフォーマンスインサイト {#insights}
-   + [Performance Insights について](/help/dsp/campaign-management/insights/insights-about.md)
+   + クロスキャンペーンのパフォーマンスインサイト {#insights}
+      + [Performance Insights について](/help/dsp/campaign-management/insights/insights-about.md)
    + キャンペーン管理ビューのパフォーマンスレポート {#campaign-reports}
       + [キャンペーン管理ビューでのパフォーマンスレポートのタイプ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [キャンペーン管理ビューからのデータのエクスポート](/help/dsp/campaign-management/reports/campaign-export-data.md)
