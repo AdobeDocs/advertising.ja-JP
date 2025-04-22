@@ -2,9 +2,10 @@
 title: Performance Insights について
 description: キャンペーンのパフォーマンスインサイトについて説明します。
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: b1e9d022894c638dae6c48482d98059d9540e1c4
+exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
+source-git-commit: be84bea53ec6c5378102aa510b9d58b1d0004b4b
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -15,9 +16,19 @@ ht-degree: 0%
 
 <!-- Edit title and metadata as necessary -->
 
-ビジュアライゼーションを使用した高レベルのパフォーマンスインサイトは、キャンペーンを効率的に最適化し、パフォーマンスを拡張する新しい機会を見つけるために必要な情報を提供します。
+ビジュアライゼーションを使用した高レベルのパフォーマンスインサイトは、キャンペーンを効率的に最適化し、パフォーマンスを拡張する新しい機会を見つけるために必要な情報を提供します。 キャンペーン全体のデータを表示したり、下位レベルにドリルダウンしたりできます。
 
-どのinsightでも、ビジュアライゼーションなしでMicrosoft Excel スプレッドシート（XLSX）形式でレポートをダウンロードできます。
+パフォーマンスインサイトを使用して、次のことを行います。
+
+* 戦略的計画および十分な情報に基づいた意思決定のための長期的なトレンドを追跡します。
+
+* より良い結果を得るための機会を特定する。
+
+* 生データの取得から実用的なインサイトの獲得までの時間を短縮することで、効率を向上させます。
+
+Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼーションを使用せずに、タブのすべてのビジュアライゼーションをPDF ファイルに書き出したり、特定のinsightのデータをダウンロードしたりできます。
+
+また、キャンペーン管理ビューの場合と同様に [ ビューを設定し、カスタムビューとして保存 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) することもできます。
 
 ## インサイトのタイプ
 
@@ -35,13 +46,15 @@ ht-degree: 0%
 
 * 顧客が指定した 3 つの指標（デフォルトでは、[!UICONTROL Net Spend]、[!UICONTROL Unique Reach] および [!UICONTROL Net CPM]）について日別または週別にトレンド・グラフを作成します。
 
-* [!UICONTROL Media Type]、[!UICONTROL Device Type] または [!UICONTROL Inventory Type] による世帯のリーチの増分の円グラフ。 世帯の増分到達は、単一のメディア、デバイスまたは在庫タイプを排他的に通過する世帯と定義されます。
+* [!UICONTROL Media Type]、[!UICONTROL Device Type]、[!UICONTROL Inventory Type] による世帯の増分的なリーチを示すドーナツグラフ。 世帯の増分到達は、単一のメディア、デバイスまたは在庫タイプを排他的に通過する世帯と定義されます。
 
-* [!UICONTROL Media Type]、[!UICONTROL Device Type] または [!UICONTROL Inventory Type] で [!UICONTROL Unique Reach] を表示する棒グラフ。 **注：** 複数のメディア、デバイスまたは在庫タイプで到達した世帯は、重複していると見なされます。
+* 世帯のリーチの増分と、[!UICONTROL Media Type]、[!UICONTROL Device Type]、[!UICONTROL Inventory Type] による重複の世帯のリーチの比較。
 
-* 支出の多いキャンペーン、プレースメント、パッケージ、パブリッシャー、サイト/アプリ、メディアタイプ、在庫タイプ、デバイスタイプのリスト。 指標には、[!UICONTROL Unique Reach]、[!UICONTROL Net Spend]、[!UICONTROL Cost per Reach] があります。
+  世帯の増分到達は、単一のメディア、デバイスまたは在庫タイプを排他的に通過する世帯と定義されます。 複数のメディア、デバイスまたは在庫タイプが到達する世帯は、重複していると見なされます。
 
-* パッケージ、パブリッシャー、サイト/アプリ別の [!UICONTROL Cost per Reach] と [!UICONTROL Net Spend] の <!-- ???? --> グラフ。
+* 最もパフォーマンスの高いキャンペーン、プレースメント、パッケージ、公開者、サイト/アプリ、メディアタイプ、在庫タイプ、デバイスタイプ （[!UICONTROL Unique Reach]、[!UICONTROL Net Spend]、[!UICONTROL Cost per Reach] 別）。
+
+* パッケージ、パブリッシャー、サイト/アプリ別の [!UICONTROL Cost per Reach] と [!UICONTROL Net Spend]。 このinsightを使用して、どのパッケージ、パブリッシャー、またはサイト/アプリが大幅な増分リーチの可能性を示しているかを確認します。
 
 ## パフォーマンスインサイトを開く
 
@@ -72,7 +85,13 @@ ht-degree: 0%
 
 1. 指標を選択し、「**[!UICONTROL Apply]**」をクリックします。
 
-## insightのダウンロード
+## タブのすべてのビジュアライゼーションをPDF ファイルにエクスポート
+
+* タブの上で、**[!UICONTROL ...]**/**[!UICONTROL Export]** をクリックします。
+
+  ファイルは、ブラウザーのデフォルトのダウンロードフォルダーに保存されます。
+
+## XLSX ファイルへの特定のInsightのダウンロード
 
 * insightの右上にある「![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
 
