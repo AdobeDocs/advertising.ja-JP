@@ -2,9 +2,9 @@
 title: Performance Insights について
 description: キャンペーンのパフォーマンスインサイトについて説明します。
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f76b0aad77b896bb84a898779e457a0893913024
+source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -41,24 +41,40 @@ ht-degree: 0%
 
 * パッケージ、パブリッシャー、サイト/アプリ別の [!UICONTROL Cost per Reach] と [!UICONTROL Net Spend] の <!-- ???? --> グラフ。
 
+## パフォーマンスインサイトを開く
+
+* （すべてのキャンペーンのインサイトを開くには）メインメニューで「**[インサイトBETA]**」をクリックします。
+
+* （特定のキャンペーン、パッケージまたはプレースメントのインサイトを開くには） [!UICONTROL Campaigns]、[!UICONTROL Packages] または [!UICONTROL Placements] ビューで、エンティティ名の横にある **[!UICONTROL ...]**/**[!UICONTROL Insights]** をクリックします。
+
+## タブへのフィルターの適用
+
+1. タブ上部のツールバーで、
+![ フィルターボタン ](/help/dsp/assets/filter.png) をクリックします。
+
+1. 必要に応じて、左側の列でディメンションを選択したあと、右側の列で 1 つ以上の値を選択します。
+
+   一度に選択できる広告主は 1 人のみです。
+
+1. 「**[!UICONTROL Apply]**」をクリックします。
+
+1. （オプション）データをさらに絞り込むには、ツールバーでエンティティタイプを選択して、特定のエンティティ値（単一のキャンペーン、パッケージまたはプレースメント）を選択します。
+
+## insightについてレポートされるDimensionの変更
+
+* insightの左上にあるドロップダウンメニューから、寸法を選択します。
+
+## insightについてレポートされる指標の変更
+
+1. insightの右上にある ![ 指標設定 ](/help/dsp/assets/metric-settings.png " 指標設定 ") をクリックします。
+
+1. 指標を選択し、「**[!UICONTROL Apply]**」をクリックします。
+
 ## insightのダウンロード
 
-* insightの上にある「![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
+* insightの右上にある「![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
 
   ファイルは、ブラウザーのデフォルトのダウンロードフォルダーに保存されます。
-
-<!--
-## Apply Filters
-
-to whole tab, I think
-
-Filter icon + drop-down menu
--->
-
-<!--
-## Change the Metrics and Dimensions for an Insight
-
--->
 
 >[!MORELIKETHIS]
 >
