@@ -2,14 +2,14 @@
 title: Performance Insights について
 description: キャンペーンのパフォーマンスインサイトについて説明します。
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: 16d3e9411cf7366a697399b85e7895fec5c6e47a
+source-git-commit: f76b0aad77b896bb84a898779e457a0893913024
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
-# パフォーマンスインサイトについて &lt;!— タイトル？—?>
+# Performance Insights について
 
 *Beta機能*
 
@@ -60,4 +60,8 @@ Filter icon + drop-down menu
 
 -->
 
-
+>[!MORELIKETHIS]
+>
+>* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
+>* [ キャンペーン管理ビューでのパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)
