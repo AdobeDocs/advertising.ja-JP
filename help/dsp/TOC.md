@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: edb62b97e6b03efbabc051c8ec2d7326b291e085
+source-git-commit: 148917239a2179b651b04418e53038d29856c649
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '944'
 ht-degree: 3%
 
 ---
@@ -35,9 +35,9 @@ ht-degree: 3%
    + [ 消費者プライバシーの支援 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [ 施策及び指針 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [高度な計測ソリューション](/help/dsp/introduction/advanced-measurement-services.md)
-+ Campaign Management {#campaign-management}
++ キャンペーン管理 {#campaign-management}
    + [Campaign 管理構造の概要](/help/dsp/campaign-management/campaign-management-overview.md)
-   + Campaigns {#campaigns}
+   + キャンペーン {#campaigns}
       + [キャンペーン管理について](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [キャンペーンの作成](/help/dsp/campaign-management/campaigns/campaign-create.md)
       + [キャンペーンの編集](/help/dsp/campaign-management/campaigns/campaign-edit.md)
@@ -97,7 +97,9 @@ ht-degree: 3%
          + [プリロール広告設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [ユニバーサルビデオ広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [サポートされる広告タイプの仕様](/help/dsp/campaign-management/ads/ad-specs.md)
-   + キャンペーン管理ビュー {#campaign-reports} ージのパフォーマンスレポート
++ クロスキャンペーンのパフォーマンスインサイト {#insights}
+   + [Performance Insights について](/help/dsp/campaign-management/insights/insights-about.md)
+   + キャンペーン管理ビューのパフォーマンスレポート {#campaign-reports}
       + [キャンペーン管理ビューでのパフォーマンスレポートのタイプ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [キャンペーン管理ビューからのデータのエクスポート](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [プレースメントのサイト、広告、頻度、在庫の詳細を表示する](/help/dsp/campaign-management/reports/placement-details-view.md)
@@ -116,7 +118,7 @@ ht-degree: 3%
    + [カスタム目標](/help/dsp/optimization/custom-goal.md)
    + [パフォーマンスキャンペーンの設定のベストプラクティス](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [トラブルシューティングのパフォーマンス](/help/dsp/optimization/troubleshooting-performance.md)
-+ Audiences {#audiences}
++ オーディエンス {#audiences}
    + [Audience Management について](/help/dsp/audiences/audience-about.md)
    + [ユニバーサル ID の有効化のサポート](/help/dsp/audiences/universal-ids.md)
    + 再利用可能なオーディエンス {#reusable-audiences}
@@ -132,7 +134,7 @@ ht-degree: 3%
       + [オーディエンスセグメントロジックの構文](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + セグメント {#segments}
       + [カスタムセグメントの作成と実装](/help/dsp/audiences/custom-segment-create.md)
-      + [!UICONTROL CCPA Opt-out-of-Sale] Segments {#ccpa-opt-out-of-sale-segments}
+      + [!UICONTROL CCPA Opt-out-of-Sale] セグメント {#ccpa-opt-out-of-sale-segments}
          + [[!UICONTROL CCPA Opt-out-of-Sale] セグメントについて](/help/dsp/audiences/ccpa-opt-out-about.md)
          + [[!UICONTROL CCPA Opt-out-of-Sale] セグメントの作成と実装](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
          + [[!UICONTROL Consumer Opt-Out-of-Sale] レポートの取得](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
@@ -142,7 +144,7 @@ ht-degree: 3%
       + [セグメントの削除](/help/dsp/audiences/segment-delete.md)
    + ソース {#sources}
       + [ファーストパーティオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
-      + Customer Data Platform {#sources-workflows} 別のワークフロー
+      + 顧客データプラットフォーム別ワークフロー {#sources-workflows}
          + [ユーザー ID をユニバーサル ID [!DNL Adobe Real-Time CDP]  からユニバーサル ID に変換](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
          + [ユーザー ID をユニバーサル ID [!DNL Amperity]  からユニバーサル ID に変換](/help/dsp/audiences/sources/source-amperity.md)
          + [ユーザー ID をユニバーサル ID [!DNL Optimizely]  からユニバーサル ID に変換](/help/dsp/audiences/sources/source-optimizely.md)
@@ -156,7 +158,7 @@ ht-degree: 3%
    + [SSP パートナー](/help/dsp/inventory/ssp-partners.md)
    + [!DNL On Demand] Inventory {#on-demand}
       + [About [!DNL On Demand] Premium Inventory](/help/dsp/inventory/on-demand-inventory-about.md)
-      + Premium Inventory Publishers {#publishers} ージ [!DNL On Demand] 使用できます。
+      + Premium Inventory Publishers[!DNL On Demand] 利用可能 {#publishers}
          + [アジア太平洋地域の [!DNL On Demand] Premium Inventory Publishers](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
          + [オーストラリアおよびニュージーランドの [!DNL On Demand] Premium Inventory パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
          + [ヨーロッパ、中東、アフリカの [!DNL On Demand] Premium Inventory パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
@@ -164,9 +166,9 @@ ht-degree: 3%
       + [ [!DNL On Demand] Premium の在庫取引を購入してアクセスをリクエスト](/help/dsp/inventory/on-demand-inventory-subscribe.md)
       + [Premium 在庫取引  [!DNL On Demand]  再要求](/help/dsp/inventory/on-demand-inventory-rerequest.md)
       + [取引リクエストと購読  [!DNL On Demand]  ステータスの表示](/help/dsp/inventory/on-demand-inventory-view-status.md)
-   + プライベート在庫 {#private-inventory}
+   + プライベートインベントリ {#private-inventory}
       + [プライベートインベントリについて](/help/dsp/inventory/private-inventory-about.md)
-      + の取引 ID {#deal-ids}
+      + 取引 ID {#deal-ids}
          + [!UICONTROL Deal ID Inbox] {#inbox}
             + [[!UICONTROL Deal ID Inbox] について](/help/dsp/inventory/deal-id-inbox-about.md)
             + [[!UICONTROL Deal ID Inbox] で取引を受け入れる](/help/dsp/inventory/deal-id-inbox-accept.md)
@@ -177,7 +179,7 @@ ht-degree: 3%
             + [プログラムで保証された取引の概要](/help/dsp/inventory/programmatic-guaranteed-about.md)
             + [プログラムで保証された取引を交渉するためのヒント](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [プログラムで保証された取引の設定](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
-            + [!DNL FreeWheel] プログラムで保証された取引 {#freewheel}
+            + プログラムで保証された取引の [!DNL FreeWheel] {#freewheel}
                + [でプログラムで保証された取引の設定の概要  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
                + [プログラムで保証された取引の広告を  [!DNL FreeWheel] に送信します。](/help/dsp/inventory/freewheel-submit.md)
                + [プログラムで保証された取引の広告  [!DNL FreeWheel]  ステータスの確認](/help/dsp/inventory/freewheel-check-status.md)
@@ -189,13 +191,13 @@ ht-degree: 3%
       + [プライベート取引のオークションインサイトの表示](/help/dsp/inventory/private-deal-auction-insights.md)
       + [プライベート取引のプレースメントと広告のリスト](/help/dsp/inventory/private-deal-view-placements.md)
       + [プライベート取引のアーカイブまたはアーカイブ解除](/help/dsp/inventory/private-deal-archive-unarchive.md)
-   + [!UICONTROL Simple Ad Serving] Deals {#sas}
+   + [!UICONTROL Simple Ad Serving] 件の取引 {#sas}
       + [[!UICONTROL Simple Ad Serving] について](/help/dsp/inventory/simple-deal-about.md)
       + [[!UICONTROL Simple Ad Serving] しい取引の作成](/help/dsp/inventory/simple-deal-create.md)
       + [[!UICONTROL Simple Ad Serving] 契約設定の編集](/help/dsp/inventory/simple-deal-edit.md)
       + [[!UICONTROL Simple Ad Serving] Deal Settings](/help/dsp/inventory/simple-deal-settings.md)
    + [取引の詳細レポートの表示](/help/dsp/inventory/deal-view-report.md)
-+ Custom Reports {#custom-reports}
++ カスタムレポート {#custom-reports}
    + [カスタムレポートについて](/help/dsp/reports/report-about.md)
    + [カスタムレポートの作成](/help/dsp/reports/report-create.md)
    + [カスタムレポートの複製](/help/dsp/reports/report-copy.md)
@@ -212,7 +214,7 @@ ht-degree: 3%
       + [[!UICONTROL Report Destination] の編集](/help/dsp/reports/report-destinations/report-destination-edit.md)
       + [[!UICONTROL Report Destination] の削除](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] Settings](/help/dsp/reports/report-destinations/report-destination-settings.md)
-+ プランナー {#planner}
++ 計画担当者 {#planner}
    + [DSP Planner ツールについて](/help/dsp/planner/planner-about.md)
    + [接続されたテレビのリーチ プランを作成する](/help/dsp/planner/planner-create.md)
    + [接続されたテレビのリーチ プランを複製する](/help/dsp/planner/planner-duplicate.md)
@@ -223,11 +225,11 @@ ht-degree: 3%
    + [接続されたテレビのリーチ プランをアーカイブする](/help/dsp/planner/planner-archive.md)
 + 管理 {#admin}
    + [プロファイルを編集](/help/dsp/admin/user-own-profile-edit.md)
-   + Users {#users}
+   + ユーザー {#users}
       + [新しいユーザーを招待](/help/dsp/admin/user-invite.md)
       + [保留中のユーザー招待状を再送信する](/help/dsp/admin/user-resend-invite.md)
       + [保留中のユーザーを登録解除](/help/dsp/admin/user-uninvite.md)
-   + Blocked Sites {#sites}
+   + ブロックされたサイト {#sites}
       + [アカウントレベルと広告主レベルのブロックされたサイトリストについて](/help/dsp/admin/blocked-sites-list-about.md)
       + [アカウントレベルまたは広告主レベルのブロックされたサイトリストの編集](/help/dsp/admin/blocked-sites-list-edit.md)
    + 通知 {#notifications}
