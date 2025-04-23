@@ -3,9 +3,9 @@ title: Performance Insights について
 description: ビジュアライゼーションを使用したパフォーマンスインサイトについて説明します。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 04858fdbe884c30ebec3e1dff0d9c4d2622a16a1
+source-git-commit: e0e44a0be283f27d2dd1c1ae0c5f0c00c08edddc
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼ
 
 ## パフォーマンスインサイトを開く
 
-* （すべてのキャンペーンのインサイトを開くには）メインメニューで **[UICONTROL インサイトBETA]**」をクリックします。
+* （すべてのキャンペーンのインサイトを開くには）メインメニューで「イン **[!UICONTROL Insights BETA]** イト」をクリックします。
 
 * （特定のキャンペーン、パッケージまたはプレースメントのインサイトを開くには） [!UICONTROL Campaigns]、[!UICONTROL Packages] または [!UICONTROL Placements] ビューで、エンティティ名の横にある **[!UICONTROL ...]**/**[!UICONTROL Insights]** をクリックします。
 
