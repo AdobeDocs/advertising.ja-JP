@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 44506653ef24dfe73396143a5bbe131f41caedda
+source-git-commit: caf0916147c02d4f8addc544f2470cfc527d1fd8
 workflow-type: tm+mt
-source-wordcount: '5228'
+source-wordcount: '5226'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
-| 2025 年 4 月 23 日（Pt） | パフォーマンス [UICONTROL Insights] | （Beta機能）ビジュアライゼーションを使用した高レベルのパフォーマンスインサイトは、キャンペーンを効率的に最適化し、パフォーマンスを拡張する新しい機会を見つけるために必要な情報を提供します。 キャンペーン全体のデータを表示したり、下位レベルにドリルダウンしたりできます。 | [Performance Insights について ](/help/dsp/campaign-management/insights/insights-about.md) を参照してください。 |
+| 2025 年 4 月 23 日（Pt） | パフォーマンス [!UICONTROL Insights] | （Beta機能）ビジュアライゼーションを使用した高レベルのパフォーマンスインサイトは、キャンペーンを効率的に最適化し、パフォーマンスを拡張する新しい機会を見つけるために必要な情報を提供します。 キャンペーン全体のデータを表示したり、下位レベルにドリルダウンしたりできます。 | [Performance Insights について ](/help/dsp/campaign-management/insights/insights-about.md) を参照してください。 |
 | 2025 年 3 月 26 日（Pt） | ログイン | DSPは、ログイン認証のためにAdobe Identity Management サービス（IMS）に移行しています。 IMS を使用すると、Real-Time Customer Data Platform、Customer Journey Analytics、Target、Analytics など、IMS をサポートするすべての [!DNL Adobe] 製品にシングルサインオン（SSO）でアクセスできます。 1 つの [!DNL Adobe ID] を使用して、Experience Cloudのログインページまたは従来のDSPのログインページから、[!DNL Adobe] つの製品をまたいでログインできるようになりました。 現在のDSP資格情報は 90 日間アクティブなままなので、変更に備えることができます。 | [Adobe Advertising DSPへのログイン ](/help/dsp/introduction/sign-in.md) を参照してください。<br><br> ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)」を参照してください。 |
 | | [!UICONTROL Packages]、[!UICONTROL Placements]、[!UICONTROL Ads] | 次の一括編集機能が使用できるようになりました。<ul><li>キャンペーンのパッケージ、プレースメントおよび広告の設定を含むキャンペーンレベルのスプレッドシートを直接編集し、再アップロードできます。 以前は、テンプレートファイルをダウンロードし、アップロードする変更内容を手動で入力する必要がありました。</li><li>ファイルは、「QA シート」ではなく *[!UICONTROL Campaigns] ビュー全体で「* bulksheets」と呼ばれ、「[!UICONTROL Download Bulksheet]」および「[!UICONTROL Upload Bulksheet]」のオプションを選択します。</li><li>ほとんどの配置設定は、バルクシートで使用できるようになりました。</li></ul> | [ バルクシートを使用した Campaign コンポーネント設定の確認と編集 ](/help/dsp/campaign-management/campaign-components-review-edit.md) を参照してください。<br><br> 「[ バルクシートを使用したパッケージ設定のレビューと編集 ](/help/dsp/campaign-management/packages/package-qa.md)」および「[ バルクシートを使用したプレースメント設定のレビューと編集 ](/help/dsp/campaign-management/placements/placement-qa.md)」も参照してください。 |
 | リリース日：2025 年 3 月 10 日（Pt） | プライバシー | Digital Advertising Alliance （DAA）とのパートナーシップに [!DNL Adobe's] り、エンドユーザーは、「Adobe Marketing Cloud - Advertising サービス」（DSP + Audience Manager Cookie を含むAdobe Experience Cloudの従来の名前）のハッシュ化されたメールアドレスに基づくすべての行動ターゲティングをオプトアウトできるようになりました。 以前は、DSPは、cookie ベースのオプトアウトのみをサポートしていました。<br><br> エンドユーザーが行動ターゲティングをオプトアウトすると、DSPは、エンドユーザーの Cookie、モバイル ID またはハッシュ化されたメールアドレス（DSPが [!DNL Unified ID 2.0 (UID2.0)] ID または [!DNL LiveRamp] [!DNL RampID] と関連付ける場合があります）を取得します。 次に、DSPは、エンドユーザーがオプトアウト cookie （5 年間有効）を保持している限り、そのエンドユーザーに対する広告インプレッションの行動のターゲティングを除外します。<br><br> エンドユーザーは、a\） [https://optout.aboutads.info](https://optout.aboutads.info) または b\）からブラウザーの広告をオプトアウト、ブラウザー、アプリ、または [https://youradchoices.com/control](https://youradchoices.com/control) からのトークン識別子を使用して、広告をオプトアウトできます。<br><br> 広告主の方は作業を行う必要はありません。 | 「[Adobe プライバシーポリシー ](https://www.adobe.com/privacy/policy.html)」を参照してください。 |
