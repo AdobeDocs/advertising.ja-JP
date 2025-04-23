@@ -3,9 +3,9 @@ title: クリエイティブライブラリについて
 description: 広告エクスペリエンスのクリエイティブの管理について説明します。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 731728964eef89aa1299c02fd90c805e13a0b163
+source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *クローズドベータ版機能*
 
-クリエイティブ ライブラリを使用すると、広告エクスペリエンスで使用するクリエイティブを管理できます。 クリエイティブのセットと *クリエイティブバンドル*(1 つのユニットとしてエクスペリエンスに追加できるクリエイティブのグループ)を含む複数のライブラリを作成できます。
+クリエイティブライブラリを使用すると、広告エクスペリエンスで使用するクリエイティブを管理できます。 複数のライブラリを作成できます。各ライブラリには、一連のクリエイティブと、1 つのユニットとしてエクスペリエンスに追加できるクリエイティブのグループである *クリエイティブバンドル* が含まれます。
 
-ライブラリには次のものを含めることができます。
+ライブラリには、次のものが含まれます。
 
-* **個々のクリエイティブ:** ターゲットが定義されていない広告エクスペリエンス内に個人クリエイティブを直接含めユーザー。 また、クリエイティブを使用してバンドルを作成し、ターゲットを絞った [広告エクスペリエンスに含めることもできます](/help/creative/experiences/experience-about.md)。
+* **個々のクリエイティブ：** ユーザーのターゲットを定義していない広告エクスペリエンスに個々のクリエイティブを直接含めることができます。 また、クリエイティブを使用してバンドルを作成し、ターゲット設定した [ 広告エクスペリエンス ](/help/creative/experiences/experience-about.md) に含めることもできます。
 
-   * **クリエイティブ標準:** クリエイティブを [さまざまなフォーマット](#creative-creative-formats)でアップロードして管理できます。 クリエイティブごとに、クリエイティブを関連付ける各広告の既定の言語、クリエイティブを含む広告をユーザーがクリックしたときに開く既定のランディングページ、および [!DNL Creative]内のさまざまなビューでフィルターとして使用するオプションのラベルを指定します。
+   * **標準クリエイティブ：** クリエイティブは [ 様々な形式 ](#creative-creative-formats) でアップロードおよび管理できます。 各クリエイティブに対して、クリエイティブに関連付ける各広告のデフォルトの言語、ユーザーがクリエイティブを含む広告をクリックすると開くデフォルトのランディングページ、[!DNL Creative] 内の様々なビューでフィルターとして使用するオプションのラベルを指定します。
 
    * **動的クリエイティブ：** （既存のAdobe Advertising DCO のお客様のみ）管理者ユーザーは、広告テンプレート内の動的変数をフィードファイル内の値にマッピングすることで、動的に生成されたクリエイティブを作成できます。 すべてのユーザーは、既存の動的広告をプレビュー、複製および削除できます。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 柔軟なHTML5 クリエイティブは、HTML5 のすべての画像とその他の属性を標準のHTML タグとして持つクリエイティブで、クリエイティブライブラリ内または個々のエクスペリエンス内で [!DNL Creative] 内で直接編集できます（元のクリエイティブのバリエーションを作成します）。 柔軟なHTML5 クリエイティブは、Interactive Advertising Bureau （IAB）テクノロジーラボラトリーの標準である [ 広告ポートフォリオ ](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed --> を使用します。広告フォーマットのサイズは（固定ではなく）柔軟で、広告の縦横比とサイズ範囲に基づいており、デバイスやパブリッシャーサイトをまたいで解像度を維持する広告です。
 
-柔軟な HTML5 クリエイティブを ZIP ファイルとしてアップロード<!-- either --><!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->。詳しくは、[ フレキシブル HTML5 クリエイティブの仕様 ](html5-creative-specification.md) を参照してください。
+柔軟なHTML5 クリエイティブ <!-- either -->ZIP ファイルとしてアップロードできま <!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->。 詳しくは、[ フレキシブル HTML5 クリエイティブの仕様 ](html5-creative-specification.md) を参照してください。
 
 <!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
@@ -58,15 +58,15 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 #### HTML5 クリエイティブ
 
-すべての属性と画像を指定したシンプルまたは静的なHTML5 クリエイティブを ZIP ファイルとしてアップロードできます。 属性を編集したり、画像を追加したりすることはできません。代わりに、新しい ZIP ファイルをアップロードして、新しいクリエイティブを追加してください。 シンプルな HTML5 クリエイティブと静的クリエイティブの [仕様](html5-creative-specification.md)をご覧ください。
+すべての属性と画像を指定したシンプルまたは静的なHTML5 クリエイティブを ZIP ファイルとしてアップロードできます。 属性を編集したり、画像を追加したりすることはできません。代わりに、新しい ZIP ファイルをアップロードして、新しいクリエイティブを追加してください。 [ シンプルで静的なHTML5 クリエイティブの仕様 ](html5-creative-specification.md) を参照してください。
 
-#### クリエイティブ画像
+#### 画像クリエイティブ
 
-イメージ クリエイティブは、GIF、JPEG、JPG または PNG 形式 に含めることができます。 デバイスまたはネットワークから画像をアップロード<!--LATER:   images from your Adobe Experience Manager accounts or --> できます。
+GIF、JPEG、JPG、PNG 形式の画像クリエイティブを含めることができます。 Adobe Experience Manager アカウントから画像をアップロードすることも、デバイスやネットワークから画像をアップロードすることもできます。
 
-各広告エクスペリエンスには、エクスペリエンスに割り当てられた各クリエイティブサイズに応じたデフォルトの画像クリエイティブが必要です。
+各広告エクスペリエンスには、エクスペリエンスに割り当てられるクリエイティブサイズごとにデフォルトの画像クリエイティブが必要です。
 
-#### 第三者クリエイティブ
+#### サードパーティクリエイティブ
 
 サードパーティの広告サーバーでホストされているクリエイティブのJavaScript トラッキングタグを入力します。 スクリプトは広告サーバーによって異なります。次に例を示します。
 
@@ -90,7 +90,7 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 * ライブラリの新規作成
 
-* クリエイティブライブラリごとに、次の操作を行います。
+* クリエイティブライブラリごとに、次の手順を実行します。
 
    * ライブラリ名を編集
 
@@ -102,7 +102,7 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 #### [!UICONTROL Standard Ads]
 
-「[!UICONTROL Standard Ads]」タブには、作成したすべての標準クリエイティブが表示されます。 各クリエイティブのデータには、クリエイティブサイズ、クリエイティブタイプおよび作成日が含まれます。 テーブルモードには、デフォルト言語の列とデフォルトのランディングページの列も含まれます。
+「[!UICONTROL Standard Ads]」タブには、作成したすべての標準クリエイティブが表示されます。 各クリエイティブのデータには、クリエイティブサイズ、クリエイティブタイプ、作成日が含まれます。 テーブルモードには、デフォルト言語の列とデフォルトのランディングページの列も含まれます。
 
 ##### 使用可能なアクション
 
@@ -130,11 +130,11 @@ add or remove labels, regenerate thumbnails for your creatives. When a creative 
 
 「[!UICONTROL Dynamic Ads]」タブには、クリエイティブカタログに対して動的に作成されたすべての動的クリエイティブが表示されます。ただし、「[!UICONTROL Dynamic Ads]」タブから [ 手動で削除 ](creative-delete.md) した動的クリエイティブは表示されません。 カタログが最後に処理されて以降の動的なクリエイティブを [ 手動で複製 ](creative-duplicate.md) した場合、そのカタログのクリエイティブのリストには重複したクリエイティブも含まれます。
 
-各クリエイティブのデータには、クリエイティブタイプ、クリエイティブサイズ、クリエイティブが属するカタログの数、および作成日が含まれます。 テーブルモードには、クリエイティブの生成に使用されたテンプレートの列とオファーカウントも含まれます。
+各クリエイティブのデータには、クリエイティブタイプ、クリエイティブサイズ、クリエイティブが属するカタログの数、作成日が含まれます。 テーブルモードには、クリエイティブの生成時に使用したテンプレートの列とオファー数も含まれます。
 
 >[!NOTE]
 >
->カタログが処理されるたびに、そのカタログの既存のダイナミック クリエイティブのデータが更新されます。
+>カタログが処理されるたびに、そのカタログの既存の動的クリエイティブのデータが更新されます。
 
 ##### 使用可能なアクション
 
@@ -142,17 +142,17 @@ add or remove labels, regenerate thumbnails for your creatives. When a creative 
 
 * [動的クリエイティブのプレビュー](creative-preview.md)
 
-* [ダイナミック クリエイティブをダイナミック バンドルに追加し、ダイナミック バンドルからダイナミック クリエイティブを削除する](creative-attach-detach-bundles.md)
+* [ダイナミックバンドルにダイナミッククリエイティブを追加し、ダイナミックバンドルからダイナミッククリエイティブを削除](creative-attach-detach-bundles.md)
 
-* [ダイナミック クリエイティブ複製](creative-duplicate.md)
+* [動的クリエイティブの複製](creative-duplicate.md)
 
-* [ダイナミック クリエイティブ削除](creative-delete.md)
+* [動的クリエイティブの削除](creative-delete.md)
 
 <!-- Later:  Dynamic creatives are generated automatically when you save a catalog, but can regenerate the catalog using the contents of an updated asset file [using the Run Now option]. -->
 
-### [!UICONTROL Creative Libraries] > [!UICONTROL Bundles]表示
+### [!UICONTROL Creative Libraries]/[!UICONTROL Bundles] ビュー
 
-[!UICONTROL Bundles]表示には、すべての標準バンドルコンテナと動的バンドルコンテナが表示されます。各バンドルに含まれるクリエイティブのクリエイティブ名、クリエイティブサイズ、言語を確認できます。
+[!UICONTROL Bundles] ビューには、標準および動的バンドルコンテナがすべて表示されます。 各バンドルに含まれているクリエイティブの名前、クリエイティブのサイズ、言語を確認できます。
 
 #### 使用可能なアクション
 

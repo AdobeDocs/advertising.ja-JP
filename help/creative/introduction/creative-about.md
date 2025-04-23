@@ -2,7 +2,7 @@
 title: Adobe Advertising Creativeについて
 description: 詳細情報  [!DNL Creative].
 feature: Creative Introduction
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -25,11 +25,21 @@ Creative ライブラリを使用すると、広告エクスペリエンスで�
 
 [!DNL Creative] を使用すると、ルールベースのデシジョンツリーモデルを使用してストーリーを構築できます。オーディエンスに関する知識に基づいてリアルタイムにカスタマイズされ、異なる web サイトに移動した場合でも顧客に従う、振り付けられた広告の文字列を展開しま <!-- verify if that's true without Adobe CDP -->。 例えば、ストーリーは、顧客の行動、地域、人口統計、リターゲティング、カスタマージャーニーでの位置などに基づいて変更されます。
 
+<!-- Add when available:
+
+## [!DNL Adobe] content and data integrations
+
+[!DNL Creative] has direct integrations with Adobe Experience Manager, allowing you to easily upload the [!DNL Adobe] assets that your design team creates and use them for real-time storyboarding and editing of ad experiences.
+
+You also can use your first-party audience segments from Adobe Audience Manager and Adobe Analytics &mdash; as well as audience segments you create in Advertising Cloud DSP
+or retargeting pixels you create using [!DNL Creative] &mdash; as targets for specific creatives in an ad experience.
+-->
+
 ### 広告としてのエクスペリエンスの実装
 
 エクスペリエンスを作成したら、エクスペリエンス用のJavaScriptまたは iframe タグを生成し、そのタグをAdvertising DSPまたは他のDSPのサードパーティ広告として実装できます。<!-- Add any more info about integration with DSP? -->
 
-<!-- Maybe add a subsection "Audience targeting options" with info about types of creative-level REtargeting and placement-level targeting within your DSP.  Need to clarify if any placement-level targeting might contradict/override creative-level targeting, or if they're completely different.
+<!-- Maybe add a subsection "Audience targeting options" with info about types of creative-level Retargeting and placement-level targeting within your DSP.  Need to clarify if any placement-level targeting might contradict/override creative-level targeting, or if they're completely different.
 
 Advertiser should be able to target all segments which are available in DSP for targeting
 -->
@@ -46,7 +56,7 @@ Advertiser should be able to target all segments which are available in DSP for 
 
 [!DNL Creative] は、エクスペリエンスから提供される広告のすべてのインプレッション数およびクリック数を自動的に追跡します。 また、オプションで、Creative ライブラリのクリエイティブやエクスペリエンスのカスタムトラッキング URL にサードパーティのインプレッショントラッキング URL やクリックトラッキング URL を追加できます。
 
-[!DNL Creative] た、広告エクスペリエンスから作成された提供済み広告からのコンバージョンも追跡します。<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optoinal?  -->
+[!DNL Creative] た、広告エクスペリエンスから作成された提供済み広告からのコンバージョンも追跡します。<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optional?  -->
 
 <!--
  [Don't need to mention] When an ad is served, the DSP that buys the ad first tracks the impression, and then passes the impression information to [!DNL Creative]. [!DNL Creative] first tracks a click on an ad, and it then passes the click information
