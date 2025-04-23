@@ -3,9 +3,9 @@ title: Performance Insights について
 description: ビジュアライゼーションを使用したパフォーマンスインサイトについて説明します。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
+source-git-commit: 04858fdbe884c30ebec3e1dff0d9c4d2622a16a1
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼーションを使用せずに、タブのすべてのビジュアライゼーションをPDF ファイルに書き出したり、特定のinsightのデータをダウンロードしたりできます。
 
-また、キャンペーン管理ビューの場合と同様に、[ 日付範囲の変更、ビューの設定 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) カスタムビューの保存を行うこともできます。
+また、キャンペーン管理ビューの場合と同様に、[ 日付範囲の変更、ビューの設定 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} カスタムビューの保存を行うこともできます。
 
 ## インサイトのタイプ
 
@@ -58,7 +58,7 @@ Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼ
 
 ## パフォーマンスインサイトを開く
 
-* （すべてのキャンペーンのインサイトを開くには）メインメニューで「**[インサイトBETA]**」をクリックします。
+* （すべてのキャンペーンのインサイトを開くには）メインメニューで **[UICONTROL インサイトBETA]**」をクリックします。
 
 * （特定のキャンペーン、パッケージまたはプレースメントのインサイトを開くには） [!UICONTROL Campaigns]、[!UICONTROL Packages] または [!UICONTROL Placements] ビューで、エンティティ名の横にある **[!UICONTROL ...]**/**[!UICONTROL Insights]** をクリックします。
 
