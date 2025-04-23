@@ -3,9 +3,9 @@ title: Performance Insights について
 description: ビジュアライゼーションを使用したパフォーマンスインサイトについて説明します。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: e0e44a0be283f27d2dd1c1ae0c5f0c00c08edddc
+source-git-commit: ca531db43b9e07dc767da3d0e866bfc85add7ee9
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼ
 
 * 顧客が指定した 3 つの指標（デフォルトでは、[!UICONTROL Net Spend]、[!UICONTROL Unique Reach] および [!UICONTROL Net CPM]）について日別または週別にトレンド・グラフを作成します。
 
-* [!UICONTROL Media Type]、[!UICONTROL Device Type]、[!UICONTROL Inventory Type] による世帯の増分的なリーチを示すドーナツグラフ。 世帯の増分到達は、単一のメディア、デバイスまたは在庫タイプを排他的に通過する世帯と定義されます。
+* [!UICONTROL Media Type]、[!UICONTROL Device Type]、[!UICONTROL Inventory Type] による世帯の増分的なリーチを示すドーナツグラフ。 *増分世帯リーチ* は、単一のメディア、デバイスまたは在庫タイプを排他的に通じて到達した世帯として定義されます。
 
 * 世帯のリーチの増分と、[!UICONTROL Media Type]、[!UICONTROL Device Type]、[!UICONTROL Inventory Type] による重複の世帯のリーチの比較。
 
-  世帯の増分到達は、単一のメディア、デバイスまたは在庫タイプを排他的に通過する世帯と定義されます。 複数のメディア、デバイスまたは在庫タイプで到達する世帯は、重複していると見なされます。
+  *増分世帯リーチ* は、単一のメディア、デバイスまたは在庫タイプを排他的に通じて到達した世帯として定義されます。 *重複する世帯リーチ* は、複数のメディア、デバイスまたは在庫タイプが到達する世帯と定義されます。
 
 * 最もパフォーマンスの高いキャンペーン、プレースメント、パッケージ、公開者、サイト/アプリ、メディアタイプ、在庫タイプ、デバイスタイプ （[!UICONTROL Unique Reach]、[!UICONTROL Net Spend]、[!UICONTROL Cost per Reach] 別）。
 
@@ -64,8 +64,7 @@ Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼ
 
 ## タブへのフィルターの適用
 
-1. タブ上部のツールバーで、
-![ フィルターボタン ](/help/dsp/assets/filter.png) をクリックします。
+1. タブ上部のツールバーで、「![ フィルターボタン ](/help/dsp/assets/filter.png)」をクリックします。
 
 1. 必要に応じて、左側の列でディメンションを選択したあと、右側の列で 1 つ以上の値を選択します。
 
