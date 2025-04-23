@@ -1,9 +1,9 @@
 ---
 title: Performance Insights について
-description: キャンペーンのパフォーマンスインサイトについて説明します。
-feature: DSP Packages, DSP Placements, DSP Ads
+description: ビジュアライゼーションを使用したパフォーマンスインサイトについて説明します。
+feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
+source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼーションを使用せずに、タブのすべてのビジュアライゼーションをPDF ファイルに書き出したり、特定のinsightのデータをダウンロードしたりできます。
 
-また、キャンペーン管理ビューの場合と同様に、[ 日付範囲の変更、ビューの設定 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) カスタムビューの保存）を行うこともできます。
+また、キャンペーン管理ビューの場合と同様に、[ 日付範囲の変更、ビューの設定 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) カスタムビューの保存を行うこともできます。
 
 ## インサイトのタイプ
 
@@ -50,7 +50,7 @@ Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼ
 
 * 世帯のリーチの増分と、[!UICONTROL Media Type]、[!UICONTROL Device Type]、[!UICONTROL Inventory Type] による重複の世帯のリーチの比較。
 
-  世帯の増分到達は、単一のメディア、デバイスまたは在庫タイプを排他的に通過する世帯と定義されます。 複数のメディア、デバイスまたは在庫タイプが到達する世帯は、重複していると見なされます。
+  世帯の増分到達は、単一のメディア、デバイスまたは在庫タイプを排他的に通過する世帯と定義されます。 複数のメディア、デバイスまたは在庫タイプで到達する世帯は、重複していると見なされます。
 
 * 最もパフォーマンスの高いキャンペーン、プレースメント、パッケージ、公開者、サイト/アプリ、メディアタイプ、在庫タイプ、デバイスタイプ （[!UICONTROL Unique Reach]、[!UICONTROL Net Spend]、[!UICONTROL Cost per Reach] 別）。
 
