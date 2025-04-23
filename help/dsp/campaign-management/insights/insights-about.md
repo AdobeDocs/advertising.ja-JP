@@ -3,9 +3,9 @@ title: Performance Insights について
 description: キャンペーンのパフォーマンスインサイトについて説明します。
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: be84bea53ec6c5378102aa510b9d58b1d0004b4b
+source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼーションを使用せずに、タブのすべてのビジュアライゼーションをPDF ファイルに書き出したり、特定のinsightのデータをダウンロードしたりできます。
 
-また、キャンペーン管理ビューの場合と同様に [ ビューを設定し、カスタムビューとして保存 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) することもできます。
+また、キャンペーン管理ビューの場合と同様に、[ 日付範囲の変更、ビューの設定 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) カスタムビューの保存）を行うこともできます。
 
 ## インサイトのタイプ
 
@@ -102,3 +102,4 @@ Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼ
 >* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
 >* [ キャンペーン管理ビューでのパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)
+>* [ キャンペーンデータビューの管理 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
