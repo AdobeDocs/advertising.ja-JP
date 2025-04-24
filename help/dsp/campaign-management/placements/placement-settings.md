@@ -3,9 +3,9 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 479c8e169469e1e56831e017f150eb6fa499e784
+source-git-commit: 3224adf97a1b32ee7b7abcbb1c6e7792bfed5c49
 workflow-type: tm+mt
-source-wordcount: '4042'
+source-wordcount: '4039'
 ht-degree: 0%
 
 ---
@@ -421,7 +421,7 @@ ID は「51」で始まり、8 桁で構成する必要があります。 デフ
 
 **[!UICONTROL Pre-bid fraud blocking]:** [!DNL DoubleVerify]、[!DNL Integral Ad Science]、[!DNL Peer39] を通じて測定された不正なトラフィックや疑わしいアクティビティに基づいてブロックされるサイトのタイプ。 新しいプレースメントには広告主レベルのデフォルトが選択されますが、設定は変更できます。
 
-* [!UICONTROL DoubleVerify]: （デスクトップおよびモバイル web ディスプレイ、ネイティブ、ビデオ、標準の接続された TV 広告に適用）
+* [!UICONTROL DoubleVerify]: （デスクトップおよびモバイル web ディスプレイ、ネイティブおよびビデオ広告に適用） <!-- native, video, and standard connected TV ads -->
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** デフォルトでは、は、新しいプレースメントに対して、ハイジャックされたデバイス上のトラフィックを含むすべての 100% 無効なトラフィックをブロックします。 追加料金がかかる場合があります。
 
