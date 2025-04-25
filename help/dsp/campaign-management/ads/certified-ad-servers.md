@@ -3,9 +3,9 @@ title: 認定広告サービングパートナー
 description: すべての認定広告サーバーと広告ユニットを表示します。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: 75d4efbf5028b0d3ceeee247d1ee3616ae49d683
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!DNL Spirable] | | X | | | |
 | [!DNL SUBLIME] | | | X | | |
 | [!DNL SundaySky] | | | | X | |
-| [!DNL Teads] | | X | | | アウトストリームの VPAID インベントリはサポートされていません。 |
+| [!DNL Teads] | | X | | | ネイティブの表示が含まれます。 アウトストリームの VPAID インベントリはサポートされていません。 |
 | [!DNL Trueffect] | | X | | | |
 | [!DNL Undertone] | | | X | | DSPで 180x150 としてアップロードされたカスタムページグラバー広告ユニット </br></br>Index Exchange が 180x150 オークションを通過し、DSPがオークションに入札して印象を与えると、クリエイティブはフルページのディスプレイ広告に拡大します。</br></br> ページグラバー、展開可能な粘着力、スクリーンシフト広告ユニットの認定を最初に受けています。 これは、プロセス用にマークされた手順で、再認証する必要があります。 |
 | [!DNL Vox] | | | X | | [!DNL Athena] 広告ユニット |
