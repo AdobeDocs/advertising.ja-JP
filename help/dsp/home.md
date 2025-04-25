@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ccdc71ccef37650d6f2cc830e96ab3882a7d52b4
+source-git-commit: b103a2ac8834fa559428e7b3cd1947a0cd3ed33b
 workflow-type: tm+mt
-source-wordcount: '5225'
+source-wordcount: '5277'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025 年 4 月 25 日（Pt） | [!UICONTROL Placements]、ブランドセーフティ、メディア品質 | DSPでは、標準のコネクテッド TV プレースメント [!DNL DoubleVerify] 対して、入札前詐欺ブロッキングのサポートを提供するようになりました。 新しいプレースメントは、広告主レベルの不正ブロッキング設定を自動的に継承します。 継承された設定を除外するには、手動で削除します。<br><br> ユニバーサルビデオプレースメントのサポートは、今後のリリースで利用できるようになります。 | 「[ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md#prebid-fraud-blocking)」を参照してください。 |
 | 2025 年 4 月 24 日（Pt） | パフォーマンス [!UICONTROL Insights] | （Beta機能）ビジュアライゼーションを使用した高レベルのパフォーマンスインサイトは、キャンペーンを効率的に最適化し、パフォーマンスを拡張する新しい機会を見つけるために必要な情報を提供します。 キャンペーン全体のデータを表示したり、下位レベルにドリルダウンしたりできます。 | [Performance Insights について ](/help/dsp/campaign-management/insights/insights-about.md) を参照してください。 |
 | 2025 年 3 月 26 日（Pt） | ログイン | DSPは、ログイン認証のためにAdobe Identity Management サービス（IMS）に移行しています。 IMS を使用すると、Real-Time Customer Data Platform、Customer Journey Analytics、Target、Analytics など、IMS をサポートするすべての [!DNL Adobe] 製品にシングルサインオン（SSO）でアクセスできます。 1 つの [!DNL Adobe ID] を使用して、Experience Cloudのログインページまたは従来のDSPのログインページから、[!DNL Adobe] つの製品をまたいでログインできるようになりました。 現在のDSP資格情報は 90 日間アクティブなままなので、変更に備えることができます。 | [Adobe Advertising DSPへのログイン ](/help/dsp/introduction/sign-in.md) を参照してください。<br><br> ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)」を参照してください。 |
 | | [!UICONTROL Packages]、[!UICONTROL Placements]、[!UICONTROL Ads] | 次の一括編集機能が使用できるようになりました。<ul><li>キャンペーンのパッケージ、プレースメントおよび広告の設定を含むキャンペーンレベルのスプレッドシートを直接編集し、再アップロードできます。 以前は、テンプレートファイルをダウンロードし、アップロードする変更内容を手動で入力する必要がありました。</li><li>ファイルは、「QA シート」ではなく *[!UICONTROL Campaigns] ビュー全体で「* bulksheets」と呼ばれ、「[!UICONTROL Download Bulksheet]」および「[!UICONTROL Upload Bulksheet]」のオプションを選択します。</li><li>ほとんどの配置設定は、バルクシートで使用できるようになりました。</li></ul> | [ バルクシートを使用した Campaign コンポーネント設定の確認と編集 ](/help/dsp/campaign-management/campaign-components-review-edit.md) を参照してください。<br><br> 「[ バルクシートを使用したパッケージ設定のレビューと編集 ](/help/dsp/campaign-management/packages/package-qa.md)」および「[ バルクシートを使用したプレースメント設定のレビューと編集 ](/help/dsp/campaign-management/placements/placement-qa.md)」も参照してください。 |
