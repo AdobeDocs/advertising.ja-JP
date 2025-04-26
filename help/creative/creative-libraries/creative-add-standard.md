@@ -3,9 +3,9 @@ title: クリエイティブライブラリへの標準クリエイティブの�
 description: クリエイティブライブラリに標準（非ダイナミック）クリエイティブを追加する方法を説明します。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
+source-git-commit: d68c8c31a047c4615224e9ab19654e56b5e8c8f9
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -158,15 +158,21 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. **[!UICONTROL Create]**/**[!UICONTROL Creative]**/**[!UICONTROL Image]** をクリックします。
 
-1. 次のいずれかの方法でファイルを指定します。
+1. 画像を指定します。
 
-   * デバイスまたはネットワーク上のファイルをボックスにドラッグ&amp;ドロップします。
+   * ローカル画像アセットの場合は、次のいずれかの操作を行います。
 
-   * **[!UICONTROL select a file]** をクリックして、デバイスまたはネットワーク上のファイルを探します。
-<!--  Verify wording and workflow and add when available:
+      * デバイスまたはネットワーク上のファイルをボックスにドラッグ&amp;ドロップします。
 
-   * Click **[!UICONTROL AEM Asset Library]** to locate a file in your Adobe Experience Manager library.
--->
+      * [**[!UICONTROL select a file]**] をクリックして、デバイスまたはネットワーク上のファイルを検索します。
+
+   * Adobe Experience Manager ライブラリ内の画像の場合、次の操作を行います。
+
+      1. 「**[!UICONTROL AEM Asset Library]**」をクリックします。
+
+      1. Experience Manager アカウントにログインします。
+
+      1. [!UICONTROL Assets] ビューまたは [!UICONTROL Collections] ビューでファイルを見つけて選択し、右上の [**[!UICONTROL Select]**] をクリックします。
 
 1. 画像の追加または削除：
 
