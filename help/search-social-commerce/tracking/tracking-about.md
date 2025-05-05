@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * それ以外の場合は、アドネットワークからAdobe Advertisingピクセルサーバーに直接クリックが送られます。 Pixel サーバーは、ユーザーのコンピューターに cookie を配置し（まだ存在しない場合）、ユーザーを web サイト上の関連する URL にリダイレクトします。 エンドユーザーの全体的なエクスペリエンスは、リダイレクトがない場合と同じです。
 
-この cookie は、[!DNL Adobe] ドメイン（`everesttech.net`）にファーストパーティ cookie として設定されます。 リダイレクト後、ユーザーは広告主のドメインにアクセスし、その Cookie はサードパーティ Cookie として扱われます。 Adobe Advertising Cookie について詳しくは、「[Adobe Advertising Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)」を参照してください。
+この cookie は、[!DNL Adobe] ドメイン（`everesttech.net`）にファーストパーティ cookie として設定されます。 リダイレクト後、ユーザーは広告主のドメインにアクセスし、その Cookie はサードパーティ Cookie として扱われます。 Adobe Advertising Cookie について詳しくは、「[Adobe Advertising Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ja)」を参照してください。
 
 ## コンバージョンデータ
 

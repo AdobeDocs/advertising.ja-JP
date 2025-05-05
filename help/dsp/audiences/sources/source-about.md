@@ -72,9 +72,9 @@ DSPは、バッチ、ストリーミング、または API ベースのデータ
 
 ### [!DNL Adobe Real-Time CDP]
 
-DSPは、Adobe Experience Platformの一部である [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html) の統合 *宛先* です。
+DSPは、Adobe Experience Platformの一部である [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja) の統合 *宛先* です。
 
-ま [!DNL Real-Time CDP]、宛先は、シームレスなデータのアクティベーションを可能にする外部データプラットフォームへの接続です。 宛先を使用して、DSPでのターゲット広告用にハッシュ化されたメールアドレスをアクティブ化できます。 宛先について詳しくは、Experience Platformの概要、[ 宛先ワークスペースの作成 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html) および [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) 宛先接続の作成 [ の手順 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) 宛先へのデータのアクティベート  など、製品 [ 宛先ガイド ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html) を参照してください。
+ま [!DNL Real-Time CDP]、宛先は、シームレスなデータのアクティベーションを可能にする外部データプラットフォームへの接続です。 宛先を使用して、DSPでのターゲット広告用にハッシュ化されたメールアドレスをアクティブ化できます。 宛先について詳しくは、Experience Platformの概要、[ 宛先ワークスペースの作成 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja) および [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=ja) 宛先接続の作成 [ の手順 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=ja) 宛先へのデータのアクティベート  など、製品 [ 宛先ガイド ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=ja) を参照してください。
 
 DSPが [!DNL Adobe] ーザーをファーストパーティセグメント [!DNL Real-time CDP] 取り込み、ハッシュ化されたメールアドレスをユニバーサル ID に変換できるようにするには、「[ ユーザー ID を  [!DNL Adobe Real-Time CDP]  ユニバーサル ID から変換 ](/help/dsp/audiences/sources/source-adobe-rtcdp.md) を参照してください。
 

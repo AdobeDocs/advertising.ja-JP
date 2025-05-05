@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Adobe AdvertisingとAdobe Analyticsの統合のみを行う広告主*
 
-組織がデータ収集に従来のAdobe Analytics `visitorAPI.js` ライブラリを使用している場合は、必要に応じて、[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) ライブラリ（`alloy.js`）の使用に切り替えることができます。これにより、[!DNL Edge Network] を通じて様々なExperience Cloudサービスを操作できます。
+組織がデータ収集に従来のAdobe Analytics `visitorAPI.js` ライブラリを使用している場合は、必要に応じて、[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) ライブラリ（`alloy.js`）の使用に切り替えることができます。これにより、[!DNL Edge Network] を通じて様々なExperience Cloudサービスを操作できます。
 
 [!DNL Analytics for Advertising] [!DNL Last Event Service] JavaScript ライブラリは、そのまま、ビュースルーイベントとクリックスルーイベントを記録し、追加の ID （`SDID`）を使用して関連コンバージョンにステッチします。 ただし、[!DNL Web SDK] ライブラリは [!DNL stitch ID] を提供しません。 [!DNL Analytics for Advertising] に [!DNL Web SDK] を使用するには、1） Web ページで使用する [!DNL Last Event Service] タグと、2） [!DNL Web SDK] `sendEvent` コマンドを適宜変更する必要があります。
 

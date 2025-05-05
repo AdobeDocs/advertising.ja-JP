@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## Adobe Advertising コミュニティに質問する
 
-[Adobe Advertising コミュニティフォーラム ](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community) で、ご質問に対する回答を探します。
+[Adobe Advertising コミュニティフォーラム ](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=ja) で、ご質問に対する回答を探します。
 
 ## 連絡先 [!DNL Adobe]
 

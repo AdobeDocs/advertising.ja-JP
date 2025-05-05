@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Audience ManagerおよびExperience Cloud[!DNL Audience Library] ーザーインターフェイスでのオーディエンスの作成方法、および様々なオーディエンスタイプの一般的なユースケースについて詳しくは、「[ オーディエンス作成オプション ](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)」を参照してください。
+>Audience ManagerおよびExperience Cloud[!DNL Audience Library] ーザーインターフェイスでのオーディエンスの作成方法、および様々なオーディエンスタイプの一般的なユースケースについて詳しくは、「[ オーディエンス作成オプション ](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja)」を参照してください。
 
 ## DSP Media の漏洩データをAudience Managerに送信
 
@@ -54,6 +54,6 @@ Adobe Audience Managerを使用するDSPのお客様は、Audience Managerへの
 
 ## Audience Analyticsを使用したサイトアクティビティに関する豊富なインサイトの取得
 
-[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) を使用しているAdobe Advertisingのお客様は、Adobe Advertisingが追跡したデータとAudience Managerセグメントの両方を [!DNL Analytics] に送信して、サイトアクティビティに関する有益なインサイトを得ることができます。
+[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja) を使用しているAdobe Advertisingのお客様は、Adobe Advertisingが追跡したデータとAudience Managerセグメントの両方を [!DNL Analytics] に送信して、サイトアクティビティに関する有益なインサイトを得ることができます。
 
 詳しくは、「Adobe Advertisingのお客様向け [[!DNL Adobe Audience Analytics]  を参照してくだ ](/help/integrations/audience-manager/audience-analytics.md) い。

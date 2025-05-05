@@ -34,7 +34,7 @@ Adobe Analytics[!DNL Analytics for Advertising]Adobe Advertisingを統合し、�
 
 >[!TIP]
 >
-> [ の概要ビデオ  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics) をご覧ください。
+> [ の概要ビデオ  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=ja#analytics) をご覧ください。
 
 ## Analytics for Paid メディアレポートの使用
 
@@ -86,17 +86,17 @@ Adobe Advertisingチームは、有料メディアパフォーマンスに適用
 
 Adobe Advertisingは、[!DNL Analytics] とExperience Cloudの間のネイティブExperience Cloudオーディエンス統合を使用して、Advertising DSPおよび [!DNL Search, Social, & Commerce] 広告のリマーケティング目的で [!DNL Analytics] のセグメントを取り込むことができます。
 
-[!DNL Analytics] セグメントにアクセスするには、広告主アカウントで [Experience CloudID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html) を有効にする必要があります。 ID サービスを有効にすると、すべてのExperience Cloudセグメント（[!DNL Analytics] で作成され、Experience Cloudに公開されたセグメント、Adobe Audience Managerで作成されたセグメント、[!DNL People core service] を使用してExperience Cloudで作成されたセグメント、Adobe Experience Platformで作成され、Audience Managerを介してAdobe Advertisingに送信されたセグメントを含む）が、処理され次第、Adobe Advertising内で使用できるようになります。
+[!DNL Analytics] セグメントにアクセスするには、広告主アカウントで [Experience CloudID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) を有効にする必要があります。 ID サービスを有効にすると、すべてのExperience Cloudセグメント（[!DNL Analytics] で作成され、Experience Cloudに公開されたセグメント、Adobe Audience Managerで作成されたセグメント、[!DNL People core service] を使用してExperience Cloudで作成されたセグメント、Adobe Experience Platformで作成され、Audience Managerを介してAdobe Advertisingに送信されたセグメントを含む）が、処理され次第、Adobe Advertising内で使用できるようになります。
 
 [!DNL Analytics] セグメントは 24 時間以内に使用可能になり、毎日更新されます。
 
-Experience Cloud Audiences サービスについて詳しくは、[Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) を参照してください。
+Experience Cloud Audiences サービスについて詳しくは、[Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja) を参照してください。
 
 ## 統合の使用例 {#integration-examples}
 
 ### Analysis WorkspaceでのAdobe Advertisingデータの使用
 
-Adobe Advertisingデータを使用してAnalysis Workspaceでビジュアルレポートを作成する方法については、ビデオ「[Workspaceとレポートの概要 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html) を参照してください。
+Adobe Advertisingデータを使用してAnalysis Workspaceでビジュアルレポートを作成する方法については、ビデオ「[Workspaceとレポートの概要 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=ja) を参照してください。
 
 #### レポートでの接続された TV ビュースルー変換の使用
 
@@ -132,11 +132,11 @@ CTV ビュースルーコンバージョン指標を表示するには、Analysi
 
 ### Adobe Advertisingダッシュボードの作成
 
-Adobe Analyticsで目標に照らしてAdobe Advertisingデータを追跡する方法については、「[Analysis WorkspaceでAdobe Advertisingダッシュボードを作成する ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html) のビデオを参照してください。
+Adobe Analyticsで目標に照らしてAdobe Advertisingデータを追跡する方法については、「[Analysis WorkspaceでAdobe Advertisingダッシュボードを作成する ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=ja) のビデオを参照してください。
 
 ### Adobe Advertising ID をサイトの利用状況分析に使用する
 
-曜日、時間帯、ブラウザーおよび地理的な影響を監視するAdobe Advertisingサイト入口レポートの作成方法については、ビデオ「[Adobe Advertisingサイト入口レポートの作成 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html)」を参照してください。
+曜日、時間帯、ブラウザーおよび地理的な影響を監視するAdobe Advertisingサイト入口レポートの作成方法については、ビデオ「[Adobe Advertisingサイト入口レポートの作成 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=ja)」を参照してください。
 
 ## [!DNL Analytics for Advertising] 実装の開始方法
 
@@ -144,7 +144,7 @@ Adobeアカウントチームにお問い合わせください。このチーム
 
 >[!MORELIKETHIS]
 >
->* [ ビデオ：の概要  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
+>* [ ビデオ：の概要  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=ja)
 >* [ 実装の前提条件と主な情報  [!DNL Analytics for Advertising]](prerequisites.md)
 >* [Analytics で使用されるAdobe AdvertisingID](ids.md)
 >* [Analytics for AdvertisingのJavaScript コード ](/help/integrations/analytics/javascript.md)

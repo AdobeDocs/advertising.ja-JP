@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta機能*
 
-Adobe Experience Platformの一部である [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html) とのDSP統合を使用して、ハッシュ化されたメールアドレスをターゲット広告のユニバーサル ID に変換します。
+Adobe Experience Platformの一部である [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja) とのDSP統合を使用して、ハッシュ化されたメールアドレスをターゲット広告のユニバーサル ID に変換します。
 
 1. （メールアドレスを [!DNL RampIDs]<!-- or [!DNL ID5] IDs --> に変換するには：[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) を使用する広告主） [!DNL Analytics] 測定のトラッキングを設定します。
 
@@ -30,7 +30,7 @@ Adobe Experience Platformの一部である [the [!DNL Adobe Real-Time CDP]](htt
 
 1. Adobe Experience Platformで、DSP ソース設定で生成された [!UICONTROL Source Key] を使用して、Advertising DSP宛先接続を設定します。
 
-   DSP宛先接続のアクティブ化、セグメントの選択および制御権限へのアクセス手順については、「[Adobe Advertising Cloud DSP connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)」を参照してください。
+   DSP宛先接続のアクティブ化、セグメントの選択および制御権限へのアクセス手順については、「[Adobe Advertising Cloud DSP connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)」を参照してください。
 
    ソースメールアドレスは、SHA-256 アルゴリズムを使用してハッシュ化する必要があります。
 
@@ -50,7 +50,7 @@ Adobe Experience Platformの一部である [the [!DNL Adobe Real-Time CDP]](htt
 >
 >* [ ファーストパーティオーディエンスソースについて ](/help/dsp/audiences/sources/source-about.md)
 >* [ ユニバーサル ID オーディエンスをアクティブ化するためのオーディエンスソースの管理 ](source-manage.md)
->* [Adobe Advertising DSP接続 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Adobe Experience Platform[ 宛先カタログの概要 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Adobe Advertising DSP接続 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)
+>* Adobe Experience Platform[ 宛先カタログの概要 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ja)
 >* [ ユニバーサル ID のアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)
 >* [Audience Management について ](/help/dsp/audiences/audience-about.md)

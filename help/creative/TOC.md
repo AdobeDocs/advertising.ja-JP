@@ -17,8 +17,8 @@ ht-degree: 0%
 + [最新情報](/help/creative/home.md)
 + 概要 {#introduction}
    + [データビューのカスタマイズ](/help/creative/introduction/customize-data-views.md)
-   + [ 消費者プライバシーの支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [ 施策及び指針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [ 消費者プライバシーの支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [ 施策及び指針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative ライブラリ {#creative-libraries}
    + [クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
    + [サポートされるクリエイティブのサイズ](/help/creative/creative-libraries/creative-sizes.md)
@@ -75,5 +75,5 @@ ht-degree: 0%
    + [カスタムクリエイティブレポート](/help/creative/report-custom-creative.md)
 + [リターゲティングピクセル](/help/creative/pixels/retargeting-pixel-manage.md)
 + [URL を追跡するために使用可能なマクロ](/help/creative/creative-macros.md)
-+ [ カスタマーサポート](https://experienceleague.adobe.com/home?support-tab=home#support){target="_blank"}
-+ [Adobe Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
++ [ カスタマーサポート](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support){target="_blank"}
++ [Adobe Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target="_blank"}

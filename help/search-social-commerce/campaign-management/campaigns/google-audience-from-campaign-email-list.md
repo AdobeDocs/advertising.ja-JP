@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. [!DNL Campaign] で、Advertising検索、ソーシャル、Commerceへのメールリストの配信を設定します。
 
-   1. [ 外部アカウント ](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html) を作成して、検索、ソーシャル、Commerceで提供される SFTP アカウントにリンクします。
+   1. [ 外部アカウント ](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html?lang=ja) を作成して、検索、ソーシャル、Commerceで提供される SFTP アカウントにリンクします。
 
       1. 左側のメニューから **\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]** に移動します。
 

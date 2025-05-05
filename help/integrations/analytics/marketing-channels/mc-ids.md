@@ -18,7 +18,7 @@ Adobe AdvertisingID （[AMO ID および EF ID](../ids.md)）を使用して、A
 
 ## 処理ルールの AMO ID
 
-AMO ID は、[!DNL Analytics] 内でAdobe Advertisingデータのレポートに使用されるプライマリトラッキングコードです。 AMO ID は、Adobeが管理する動的な値を連結したもので、[!DNL Analytics] 内で詳細なレポートを提供します。 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) または rVar ディメンション（AMO ID）に保存されます。 AMO ID は、次の 2 つの方法で [!DNL Analytics] で設定できます。
+AMO ID は、[!DNL Analytics] 内でAdobe Advertisingデータのレポートに使用されるプライマリトラッキングコードです。 AMO ID は、Adobeが管理する動的な値を連結したもので、[!DNL Analytics] 内で詳細なレポートを提供します。 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja) または rVar ディメンション（AMO ID）に保存されます。 AMO ID は、次の 2 つの方法で [!DNL Analytics] で設定できます。
 
 * クリックスルーのトラッキング：Adobe Advertisingは、リンクに `s_kwcid` のクエリ文字列パラメーターを設定 [!DNL Analytics]、クリックスルーが発生するとランディングページ URL からパラメーターを取得します。
 * ビュースルートラッキング （[!DNL DSP] のみ）: Last Event Service は、サーバーサイドでビュースルーを検出し、AMO ID を [!DNL Analytics] に送信します。 この場合、URL には `s_kwcid` パラメーターは含まれません。
@@ -94,5 +94,5 @@ EF ID ディメンションは、[!DNL Analytics] のレポートでは直接使
 >* [ の基本  [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [ チャネルデータがAdobe Advertisingによって異なる理由  [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Adobe Advertisingデ  [!DNL Analytics Marketing Channels]  タの使用 ](mc-ac-data.md)
->* [ ビデオ：Adobe Advertisingレポート  [!DNL Marketing Channels]  使用 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [ ビデオ：Adobe Advertisingレポート  [!DNL Marketing Channels]  使用 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ja)
 >* [ 使用Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md)

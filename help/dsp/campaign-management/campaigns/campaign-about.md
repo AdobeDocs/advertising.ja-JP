@@ -35,4 +35,4 @@ ht-degree: 0%
 >
 >* [ キャンペーンの作成 ](campaign-create.md)
 >* [ キャンペーン設定 ](campaign-settings.md)
->* [ ビデオ：DSP アカウント構造とユーザーインターフェイス ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [ ビデオ：DSP アカウント構造とユーザーインターフェイス ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ja)

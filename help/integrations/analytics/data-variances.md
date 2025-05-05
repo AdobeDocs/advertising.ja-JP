@@ -86,7 +86,7 @@ Adobe Advertisingレポートと [!DNL Analytics] レポートレポートのビ
 >
 >混乱を防ぐため、[!DNL Analytics] では、レポートインターフェイスで履歴データを使用できないようにしています。 [!DNL eVar] ータを初期配分設定に戻すと、履歴データを表示できますが、履歴データにアクセスするためだけに配分設定 [!DNL eVar] 変更しないでください。 Adobeでは、大量の履歴データが既にある [!DNL eVar] ータの配分設定を変更するのではなく、既に記録されているデータに新しい配分設定を適用する場合に新しい [!DNL eVar] を使用することをお勧めします。
 
-[!DNL Analytics] アトリビューションモデルとその定義のリストについては、[https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models) を参照してください。
+[!DNL Analytics] アトリビューションモデルとその定義のリストについては、[https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/attribution/models) を参照してください。
 
 [!DNL Search, Social, & Commerce] にログインしている場合は、次のリストを見つけることができます
 
@@ -102,11 +102,11 @@ Adobe Advertisingとして、コンバージョンデータは、関連するク
 
 ## [!DNL Analytics Marketing Channels] のアトリビューション
 
-[[!DNL Analytics Marketing Channels]  レポート ](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html) を使用すると、ヒット情報の異なる側面に基づいて様々なマーケティングチャネルを識別するルールを設定できます。 `ef_id` のクエリ文字列パラメーターを使用してチャンネルを特定することで、Adobe Advertisingがトラッキングするチャンネル（[!UICONTROL Display Click Through]、[!UICONTROL Display View Through]、[!UICONTROL Paid Search]）を [!DNL Marketing Channels] のようにトラッキングできます。 <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> ただし、[!DNL Marketing Channels] レポートではAdobe Advertisingチャネルをトラッキングできますが、いくつかの理由で、データがAdobe Advertisingレポートと一致しない場合があります。 詳しくは、次の節を参照してください。
+[[!DNL Analytics Marketing Channels]  レポート ](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=ja) を使用すると、ヒット情報の異なる側面に基づいて様々なマーケティングチャネルを識別するルールを設定できます。 `ef_id` のクエリ文字列パラメーターを使用してチャンネルを特定することで、Adobe Advertisingがトラッキングするチャンネル（[!UICONTROL Display Click Through]、[!UICONTROL Display View Through]、[!UICONTROL Paid Search]）を [!DNL Marketing Channels] のようにトラッキングできます。 <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> ただし、[!DNL Marketing Channels] レポートではAdobe Advertisingチャネルをトラッキングできますが、いくつかの理由で、データがAdobe Advertisingレポートと一致しない場合があります。 詳しくは、次の節を参照してください。
 
 >[!NOTE]
 >
-> 次の中心概念は、[`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html) 変数（「トラッキングコード」ディメンションまたは「[!DNL eVar] 0」とも呼ばれます）やカスタムトラッ [!DNL eVar] ングなど、Adobe Advertisingでトラッキングされないキャンペーンを含むマルチチャネルトラッキングにも当てはまります。
+> 次の中心概念は、[`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html?lang=ja) 変数（「トラッキングコード」ディメンションまたは「[!DNL eVar] 0」とも呼ばれます）やカスタムトラッ [!DNL eVar] ングなど、Adobe Advertisingでトラッキングされないキャンペーンを含むマルチチャネルトラッキングにも当てはまります。
 
 ### [!DNL Marketing Channels] で異なる可能性があるアトリビューションモデル
 
@@ -130,7 +130,7 @@ Adobe Advertisingレポートは、Adobe Advertising（[!DNL Advertising Search,
 
 ## Adobe Analytics [!DNL Paid Search Detection] におけるデータの違い
 
-[!DNL Analytics] の [ レガシー  [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html) 機能を使用すると、企業は指定した検索エンジンの [ 有料検索トラフィックとオーガニック検索トラフィックを追跡するルールを定義 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html) できます。 [!DNL Paid Search Detection] ルールでは、クエリ文字列と参照ドメインの両方を使用して、有料検索トラフィックと自然検索トラフィックを識別します。 [!DNL Paid Search Detection] レポートは、多数の [ 検索方法 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html) レポートの一部であり、指定したイベント（買い物かごのチェックアウトなど）が発生するか、訪問が終了すると有効期限が切れます。
+[!DNL Analytics] の [ レガシー  [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=ja) 機能を使用すると、企業は指定した検索エンジンの [ 有料検索トラフィックとオーガニック検索トラフィックを追跡するルールを定義 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=ja) できます。 [!DNL Paid Search Detection] ルールでは、クエリ文字列と参照ドメインの両方を使用して、有料検索トラフィックと自然検索トラフィックを識別します。 [!DNL Paid Search Detection] レポートは、多数の [ 検索方法 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=ja) レポートの一部であり、指定したイベント（買い物かごのチェックアウトなど）が発生するか、訪問が終了すると有効期限が切れます。
 
 [!DNL Paid Search Detection] しいルールセットを作成するためのインターフェイスを次に示します。
 
@@ -148,7 +148,7 @@ Adobe Advertisingレポートは、Adobe Advertising（[!DNL Advertising Search,
 
 ### [!DNL Paid Search Detection] を設定する理由
 
-[!DNL Paid Search Detection] レポートを使用すると、[[!DNL Analytics Marketing Channels] reports](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html) 内の自然な検索トラフィックを識別できます。 有料検索トラフィックと自然検索トラフィックを分離することは、自然検索がマーケティングエコシステム全体にもたらす価値を理解するための優れた方法です。
+[!DNL Paid Search Detection] レポートを使用すると、[[!DNL Analytics Marketing Channels] reports](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=ja) 内の自然な検索トラフィックを識別できます。 有料検索トラフィックと自然検索トラフィックを分離することは、自然検索がマーケティングエコシステム全体にもたらす価値を理解するための優れた方法です。
 
 ## [!DNL Analytics for Advertising] のクリックスルーのデータ検証 {#data-validation}
 
@@ -237,7 +237,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 * **クリック：** [!DNL DSP] または検索エンジンは、訪問者がパブリッシャーの web サイト上の広告をクリックした際のクリックを記録します。
 
-* **訪問：** [!DNL Analytics] は、ユーザーによる一連のページビューとして [ 訪問 ](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) を定義し、30 分間無操作状態など、いくつかの条件のいずれかに従って終了します。
+* **訪問：** [!DNL Analytics] は、ユーザーによる一連のページビューとして [ 訪問 ](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=ja) を定義し、30 分間無操作状態など、いくつかの条件のいずれかに従って終了します。
 
 定義として、クリックは複数の訪問につながる可能性があります。
 

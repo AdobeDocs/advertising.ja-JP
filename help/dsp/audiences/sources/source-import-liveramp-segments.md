@@ -44,5 +44,5 @@ ht-degree: 0%
 >
 >* [ ファーストパーティオーディエンスソースについて ](source-about.md)
 >* [ ユニバーサル ID オーディエンスをアクティブ化するためのオーディエンスソースの管理 ](source-manage.md)
->* [Adobe Advertising DSP接続 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising DSP接続 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)
 >* [Audience Management について ](/help/dsp/audiences/audience-about.md)

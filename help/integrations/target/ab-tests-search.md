@@ -21,7 +21,7 @@ Adobe AdvertisingとAdobe Targetを使用すると、次の操作を行うこと
 
 * 広告に関連する、よりパーソナライズされたランディングページのエクスペリエンスを提供します（例えば、画像/ビデオクリエイティブ、コピー、キーワードまたはランディングページに対するその他の広告信号との一致）。
 
-また、Adobe Analyticsに統合されているネイティブの [[!DNL Analytics] for Advertising](/help/integrations/analytics/overview.md) 統合レポートディメンションと [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) 統合レポートディメンションを組み合わせて、テストデータを測定し、[!DNL Analytics] の指標と成功イベントで視覚化することもできます。
+また、Adobe Analyticsに統合されているネイティブの [[!DNL Analytics] for Advertising](/help/integrations/analytics/overview.md) 統合レポートディメンションと [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja) 統合レポートディメンションを組み合わせて、テストデータを測定し、[!DNL Analytics] の指標と成功イベントで視覚化することもできます。
 
 前提条件、検索、ソーシャル、Commerceの広告からのクリックスルートラフィックに [!DNL Target] して A/B テストを設定する手順、[!DNL Analytics] でテストを測定および視覚化する方法に関するヒントについては、次の節を参照してください。
 
@@ -38,15 +38,15 @@ Adobe AdvertisingとAdobe Targetを使用すると、次の操作を行うこと
 
 * [[!DNL Analytics] Advertisingの場合 ](/help/integrations/analytics/overview.md)integration<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
-* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) 統合
+* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja) 統合
 
 ## 手順 1:[!DNL Target] で検索、ソーシャル、Commerce用の A/B テストアクティビティを作成する
 
 以下の手順では、検索、ソーシャル、Commerceのユースケースに関する情報を重点的に説明しています。
 
-1. [Adobe Targetにログインします ](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html)。
+1. [Adobe Targetにログインします ](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=ja)。
 
-1. [A/B テストの作成 ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
+1. [A/B テストの作成 ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ja):
 
    1. 「**[!UICONTROL Enter Activity URL]**」フィールドに、テストのランディングページ URL を入力します。
 
@@ -61,7 +61,7 @@ Adobe AdvertisingとAdobe Targetを使用すると、次の操作を行うこと
 
    1. **[!UICONTROL Reporting Settings]** 内で **[!UICONTROL Company Name]** を選択し、検索、ソーシャル、Commerce アカウントに接続してくださ **[!UICONTROL Report Suite]**。
 
-      その他のレポートに関するヒントについては、[ レポートのベストプラクティスとトラブルシューティング ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html) を参照してください。
+      その他のレポートに関するヒントについては、[ レポートのベストプラクティスとトラブルシューティング ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=ja) を参照してください。
 
    1. 「**[!UICONTROL Date Range]**」フィールドに、テストの適切な開始日と終了日を入力します。
 
@@ -77,7 +77,7 @@ Adobe AdvertisingとAdobe Targetを使用すると、次の操作を行うこと
 
    1. アクティビティを保存します。
 
-1. [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) を使用して、A/B テストのランディングページテンプレートのデザインを変更します。
+1. [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ja) を使用して、A/B テストのランディングページテンプレートのデザインを変更します。
 
    * エクスペリエンス A：編集しないでください。パーソナライゼーションなしのデフォルト/コントロールランディングページエクスペリエンスです。
 
@@ -91,7 +91,7 @@ Adobe AdvertisingとAdobe Targetを使用すると、次の操作を行うこと
 
 [!DNL Analytics for Target] （A4T）は、広告主がコンバージョン指標とオーディエンスセグメントに基づいて [!DNL Target] アクティビティを作成し、レポートソースとして [!DNL Analytics] を使用して結果を測定でき [!DNL Analytics] クロスソリューション統合環境です。 そのアクティビティのレポートとセグメント化はすべて、データ収集 [!DNL Analytics] 基づいています。
 
-実装手順へのリンクなど、[!DNL Analytics for Target] について詳しくは、「Adobe Target （A4T）のレポートソースとしての [Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)」を参照してください。
+実装手順へのリンクなど、[!DNL Analytics for Target] について詳しくは、「Adobe Target （A4T）のレポートソースとしての [Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)」を参照してください。
 
 ### [!DNL Analytics for Target] パネルの設定
 
@@ -119,7 +119,7 @@ Analysis Workspaceで、[!DNL Target] アクティビティとエクスペリエ
 
 Analysis Workspace内でアクティビティとエクスペリエンスのデータが最小限である、またはデータが入力されていないことに気付いた場合は、次の操作を行います。
 
-* [!DNL Target] と [!DNL Analytics] の両方で同じ [!UICONTROL Supplemental Data ID] （SDID）が使用されていることを確認します。 SDID 値を検証するには、キャンペーンがユーザーを誘導するランディングページで [&#128279;](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html)0&rbrace;Adobe Experience Cloud Debugger&rbrace; を使用します。
+* [!DNL Target] と [!DNL Analytics] の両方で同じ [!UICONTROL Supplemental Data ID] （SDID）が使用されていることを確認します。 SDID 値を検証するには、キャンペーンがユーザーを誘導するランディングページで [&#128279;](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=ja)0&rbrace;Adobe Experience Cloud Debugger&rbrace; を使用します。
 
 [Adobe Debuggerの追加データ ID （SDID）値](/help/integrations/assets/target-troubleshooting-sdid.png)
 
@@ -133,8 +133,8 @@ Analysis Workspace内でアクティビティとエクスペリエンスのデ�
 
 ## 参考情報
 
-* [Target とAnalysis Workspaceの統合 ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Analytics で [!DNL Target] レポートを設定する方法について説明します。
-* [A/B テストの概要 ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - A/B テストアクティビティについて説明します。検索、ソーシャルおよびCommerce広告で使用できます。
+* [Target とAnalysis Workspaceの統合 ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=ja) - Analytics で [!DNL Target] レポートを設定する方法について説明します。
+* [A/B テストの概要 ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=ja) - A/B テストアクティビティについて説明します。検索、ソーシャルおよびCommerce広告で使用できます。
 * [Analytics for Advertisingの概要 ](/help/integrations/analytics/overview.md) - Analytics for Advertisingについて説明します。この機能を使用すると、Analytics インスタンスでのクリックスルーおよびビュースルーサイトインタラクションをトラッキングできます。
 
 >[!MORELIKETHIS]

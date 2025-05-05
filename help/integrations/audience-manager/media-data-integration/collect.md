@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 手順 1:Audience Managerでの Data Sourceの設定 {#set-up-data-source}
 
-Audience Managerで、DSP インプレッション用の [ データソース ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) を作成し、「データ」をクリックします。 追跡されたすべてのイベントがデータソースに関連付けられるように [&#128279;](#implement-dsp-pixels) 各イベントタグにデータソース ID を含めます。
+Audience Managerで、DSP インプレッション用の [ データソース ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=ja) を作成し、「データ」をクリックします。 追跡されたすべてのイベントがデータソースに関連付けられるように [&#128279;](#implement-dsp-pixels) 各イベントタグにデータソース ID を含めます。
 
 >[!NOTE]
 > 1 つのデータソース内の複数のDSPで実行されている広告キャンペーンに対して、すべてのインプレッションおよびクリックデータを収集できます。
@@ -33,7 +33,7 @@ Audience Managerで、DSP インプレッション用の [ データソース ](
 
 >[!NOTE]
 >
->組織で [!DNL Analytics] トラッキングを使用している場合は、Audience Managerのクリックのトラッキングは不要な場合があります。 Adobe Analyticsは、クリック信号をキャプチャし、[ サーバーサイド転送 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) を介してAudience Managerに送信できます。
+>組織で [!DNL Analytics] トラッキングを使用している場合は、Audience Managerのクリックのトラッキングは不要な場合があります。 Adobe Analyticsは、クリック信号をキャプチャし、[ サーバーサイド転送 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja) を介してAudience Managerに送信できます。
 
 ### ピクセル構文
 
@@ -79,9 +79,9 @@ Audience Managerで、DSP インプレッション用の [ データソース ](
 
 このキーと値のペアでは、値変数は、ハードコードされた ID または *マクロ* のどちらかです。これは、キャンペーンおよびユーザートラッキングのために広告タグが読み込まれるときに、対応する値に動的に置き換えられる、自己完結型の小さなユニットです。 キャンペーン関連のパラメーターの場合、Audience Managerマクロの代わりに [DSP マクロを使用して ](/help/dsp/campaign-management/macros.md) キャンペーン属性を対応するインプレッションまたはクリックデータと共に、すべての広告にわたって 1 つのピクセルを使用してAudience Managerに送信できます。 イベントピクセルに挿入するDSP マクロは、ピクセル内に含めるキーと値のペアに適した値である必要があります。 例えば、`d_placement` キーの場合、DSP マクロ `${TM_PLACEMENT_ID_NUM}` を値として使用して、Adobe Advertisingマクロで生成されたプレースメント ID を取得します。
 
-Audience Managerがインプレッションイベントピクセルでサポートするマクロのリストについては、「[ ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs)」を参照してください。
+Audience Managerがインプレッションイベントピクセルでサポートするマクロのリストについては、「[ ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=ja#supported-key-value-pairs)」を参照してください。
 
-Audience Managerがクリックイベントピクセルでサポートするマクロのリストについては、「[ ピクセル呼び出しを使用したキャンペーンクリックデータのキャプチャ ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html)」を参照してください。
+Audience Managerがクリックイベントピクセルでサポートするマクロのリストについては、「[ ピクセル呼び出しを使用したキャンペーンクリックデータのキャプチャ ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html?lang=ja)」を参照してください。
 
 >[!TIP]
 >
@@ -116,11 +116,11 @@ Audience Managerがクリックイベントピクセルでサポートするマ�
 
 ### [!DNL Amazon S3] バケットとデータSourceの作成
 
-データがAudience Managerサーバーに送信されたら、[!DNL Amazon Simple Storage Service] （[!DNL Amazon S3]）バケットを作成した後、すべてのピクセルデータが送信されるデータソースを作成する必要があります。 サポートが必要な場合は、担当のAudience Managerコンサルタントまたは [ カスタマーケア ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html) にお問い合わせください。
+データがAudience Managerサーバーに送信されたら、[!DNL Amazon Simple Storage Service] （[!DNL Amazon S3]）バケットを作成した後、すべてのピクセルデータが送信されるデータソースを作成する必要があります。 サポートが必要な場合は、担当のAudience Managerコンサルタントまたは [ カスタマーケア ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html?lang=ja) にお問い合わせください。
 
 ### Audience Managerの特性とセグメントの作成
 
-イベントデータは、[ 未使用のシグナル ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html) としてAudience Managerに送られます。 取り込んだデータから [ ルールベースの特性 ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) を手動で作成し、その特性を使用して [ セグメント ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) を作成してから、レポートでデータを使用できます。
+イベントデータは、[ 未使用のシグナル ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=ja) としてAudience Managerに送られます。 取り込んだデータから [ ルールベースの特性 ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=ja) を手動で作成し、その特性を使用して [ セグメント ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=ja) を作成してから、レポートでデータを使用できます。
 
 DSPで特定のクリエイティブに公開されたユーザーにユーザーレベルのデータを入力する特性の例は次のとおりです。
 

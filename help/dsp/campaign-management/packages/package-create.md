@@ -32,4 +32,4 @@ ht-degree: 0%
 >* [ パッケージの変更ログを表示する ](package-change-log.md)
 >* [ パッケージの一時停止またはアクティブ化 ](package-pause-activate.md)
 >* [ パッケージ設定 ](package-settings.md)
->* [ ビデオ：パッケージの作成方法 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
+>* [ ビデオ：パッケージの作成方法 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=ja)
