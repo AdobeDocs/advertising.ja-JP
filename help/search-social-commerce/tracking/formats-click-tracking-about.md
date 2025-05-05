@@ -28,7 +28,7 @@ Adobe Advertisingコンバージョントラッキングサービスを使用す
 
    * `c?` または `r` は、トークン受け渡しが無効であることを示します。
 
-* 指定した広告ネットワークの数値 ID の変数 `<ad network ID>` す。例えば、[!DNL Google Ads] の場合は *3*、[!DNL Microsoft Advertising] の場合は *10*、[!DNL Meta] の場合は *45*、[!DNL Yahoo! Display Network] の場合は *86*、[!DNL Naver] の場合は *87*、[!DNL Baidu] の場合は *88*、** [!DNL Yandex] ** [!DNL Yahoo! Japan Ads] ** [!DNL Yahoo Native] ** [!DNL Pinterest] 9000 for
+* 指定した広告ネットワークの数値 ID の変数 `<ad network ID>` す。例えば、[!DNL Google Ads] の場合は *3*、[!DNL Microsoft Advertising] の場合は *10*、[!DNL Meta] の場合は *45*、[!DNL Yahoo! Display Network] の場合は *86*、[!DNL Naver] の場合は *87*、[!DNL Baidu] の場合は *88*、**&#x200B; [!DNL Yandex] &#x200B;** [!DNL Yahoo! Japan Ads] **&#x200B; [!DNL Yahoo Native] &#x200B;** [!DNL Pinterest] 9000 for
 
 * `<tracking ID>` は、アカウント内で一意のキーワード、広告またはプレースメントを識別する、システム生成トラッキング ID 文字列の変数です。 文字列は広告ネットワークによって異なります。
 

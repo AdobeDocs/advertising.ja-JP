@@ -34,7 +34,7 @@ ht-degree: 0%
 
         複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-      * データ テーブルの上にあるツールバーで、[![ その他 ](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Classification]**] をクリックします。
+      * データ テーブルの上にあるツールバーで、&lbrack;![ その他 ](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Classification]**] をクリックします。
 
 1. [!UICONTROL Assignment Details] で、次のいずれかの操作を行います。
 

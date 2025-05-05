@@ -16,6 +16,6 @@ ht-degree: 56%
 
 + [消費者プライバシーに対するAdobe Advertisingのサポートについて](/help/privacy/home.md)
 + [GDPR のサポート](/help/privacy/gdpr.md)
-+ CCPA {#ccpa} のサポート
++ CCPA のサポート {#ccpa}
    + [CCPA のサポート：消費者データのアクセスと削除](/help/privacy/ccpa/ccpa-access-delete.md)
    + [（DSPのみ） CCPA のサポート：消費者による販売のオプトアウト](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)

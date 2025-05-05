@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. カーソルを計画行の上に置き、**[!UICONTROL Forecast]** をクリックします。
 
-1. （オプション） [!UICONTROL Budget vs Reach] 予測を [!DNL Microsoft Excel] スプレッドシートにエクスポートするには**右上の [**[!UICONTROL ...]**] をクリックし、[**[!UICONTROL Export]**] をクリックします。
+1. （オプション） [!UICONTROL Budget vs Reach] 予測を [!DNL Microsoft Excel] スプレッドシートにエクスポートするには&#x200B;**右上の [**&#x200B;[!UICONTROL ...]&#x200B;**] をクリックし、[**&#x200B;[!UICONTROL Export]**] をクリックします。
 
 >[!MORELIKETHIS]
 >

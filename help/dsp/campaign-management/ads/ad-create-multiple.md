@@ -54,7 +54,7 @@ ht-degree: 0%
 
       * 広告を削除するには、広告行の **[!UICONTROL X]** をクリックします。
 
-1. **[!UICONTROL Create *N *Ad （s）]**をクリックします。
+1. **[!UICONTROL Create *N *Ad （s）]**&#x200B;をクリックします。
 
 1. 次のいずれかの操作を行います。
 

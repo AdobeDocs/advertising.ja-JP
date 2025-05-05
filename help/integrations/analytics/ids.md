@@ -160,7 +160,7 @@ AMO ID の例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 * `{userid}` は、広告主に割り当てられた一意のユーザー ID です。
 
-* `{sid}` は、広告主の広告ネットワークアカウントの数値 ID に置き換えられます。[!DNL Google Ads] の場合は *3*、[!DNL Microsoft Advertising] の場合は *10*、[!DNL Meta] の場合は *45*、[!DNL Yahoo! Display Network] の場合は *86*、[!DNL Naver] の場合は *87*、[!DNL Baidu] の場合は *88*、*900 の場合は*[!DNL Yandex] ** [!DNL Yahoo! Japan Ads] ** [!DNL Yahoo Native] ** [!DNL Pinterest] 90588885 （廃止予定）。
+* `{sid}` は、広告主の広告ネットワークアカウントの数値 ID に置き換えられます。[!DNL Google Ads] の場合は *3*、[!DNL Microsoft Advertising] の場合は *10*、[!DNL Meta] の場合は *45*、[!DNL Yahoo! Display Network] の場合は *86*、[!DNL Naver] の場合は *87*、[!DNL Baidu] の場合は *88*、*900 の場合は*[!DNL Yandex] **&#x200B; [!DNL Yahoo! Japan Ads] &#x200B;** [!DNL Yahoo Native] ** [!DNL Pinterest] 90588885 （廃止予定）。
 
 ##### [!DNL Baidu]
 

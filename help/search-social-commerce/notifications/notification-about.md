@@ -58,11 +58,11 @@ ht-degree: 0%
 
    * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Account Auth Error]**：資格情報が無効であるか、認証トークンが無効または期限切れのため、検索、ソーシャル、Commerceが ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)ad network account[ にアクセスできなかったことを示す通知。
+      * **[!UICONTROL Account Auth Error]**：資格情報が無効であるか、認証トークンが無効または期限切れのため、検索、ソーシャル、Commerceが [&#128279;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)ad network account にアクセスできなかったことを示す通知。
 
       * **[!UICONTROL Account Missing]**：検索、ソーシャル、Commerceに [ad ネットワークアカウント ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) の資格情報がないという通知。
 
-      * **[!UICONTROL Manager Account Auth Error]**：資格情報が無効であるか、認証トークンが無効または期限切れのため、検索、ソーシャル、Commerceが ](/help/search-social-commerce/admin/manager-accounts.md)ad network manager アカウント [ と同期できなかったことを示す通知。
+      * **[!UICONTROL Manager Account Auth Error]**：資格情報が無効であるか、認証トークンが無効または期限切れのため、検索、ソーシャル、Commerceが [&#128279;](/help/search-social-commerce/admin/manager-accounts.md)ad network manager アカウント  と同期できなかったことを示す通知。
 
   <!--
   * [!UICONTROL Setup Errors]

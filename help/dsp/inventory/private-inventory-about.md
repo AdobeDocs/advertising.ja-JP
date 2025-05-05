@@ -26,7 +26,7 @@ RTB を超えて検索する広告主は、プライベートインベントリ�
 
 * （アクティブ化が必要なオプション機能） [!UICONTROL Deal ID Inbox] から、[!DNL FreeWheel]、[!DNL Google Authorized Buyers] （旧称 [!DNL AdX]）、[!DNL Magnite DV+] （旧称 [!DNL Rubicon]）の各サプライサイドプラットフォーム（SSP）のパブリッシャーから、合意に基づく保証されている非公開在庫取引と保証されていない非公開在庫取引を確認し、すぐに受け入れることができます。[!UICONTROL Deal ID inbox].
 
-  詳細は、「[!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md) ーザーについて [ を参照してください。
+  詳細は、「[!UICONTROL Deal ID Inbox][&#128279;](deal-id-inbox-about.md) ーザーについて  を参照してください。
 
 * 既に交渉したプライベート取引に関する情報を手動で設定できます。
 

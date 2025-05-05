@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Optimization]** – このメニューには、ビジネス目標の管理、ビジネス目標に基づくポートフォリオの管理、ポートフォリオのパフォーマンスの監視、ポートフォリオ間の [!UICONTROL Spend Recommendation Report] 合の生成、入札制約の管理、[!DNL Google Ads] コンバージョン値ルールの表示と管理（一部のユーザー）を行うオプションがあります。
 
-  これらの機能に関する別のドキュメントは、[!UICONTROL Help] ルプメニュー（[ ヘルプ ] メニュー ](/help/search-social-commerce/assets/help-main-menu.png "[ ヘルプ ] メニュー ![）から利用 ") きます。
+  これらの機能に関する別のドキュメントは、[!UICONTROL Help] ルプメニュー（[ ヘルプ ] メニュー &rbrack;(/help/search-social-commerce/assets/help-main-menu.png "[ ヘルプ ] メニュー !&lbrack;）から利用 ") きます。
 
 * **[!UICONTROL Insights & Reports]** – このメニューには、詳細なインサイトとレポートを生成するオプション、スプレッドシートフィードを使用してレポート作成を自動化するオプション、アラートを作成および監視するオプション、通知設定を設定するオプション、広告ネットワークのレコメンデーションを表示するオプション、広告主のアカウントに加えられた変更のログを表示するオプションが含まれています。
 

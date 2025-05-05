@@ -24,8 +24,8 @@ Advertisingの検索、ソーシャル、Commerce（検索、ソーシャル、C
 >
 >* アトリビューションルールは、任意のチャネルの有料広告のクリック数、およびディスプレイ広告とソーシャル広告のインプレッション数に適用されます。 これらは、イベントレベルでは追跡できない有料検索広告のインプレッションには適用されません。
 >* Adobe Advertisingでは、コンバージョン前に各 web サーファーに対して、次のイベントを常に保存します。a）最初の有料クリック、b）最初のクリックを含む各チャネル（検索、ソーシャルまたはディスプレイ）の最大 10 クリック、および c）最大 10 のディスプレイインプレッション。<!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-* Advertising DSPとAdvertising Creativeでは、クロスデバイス定義は、選択されたアトリビューションルールからのイベントパスのみを考慮します。<!-- cross-device attribution via LiveRamp only -->
-* レポートおよび管理ビューでは、値に表示される小数点以下の桁数は通貨によって異なりますが、Adobe Advertisingーにはより正確な値が格納されます。
+>* Advertising DSPとAdvertising Creativeでは、クロスデバイス定義は、選択されたアトリビューションルールからのイベントパスのみを考慮します。<!-- cross-device attribution via LiveRamp only -->
+>* レポートおよび管理ビューでは、値に表示される小数点以下の桁数は通貨によって異なりますが、Adobe Advertisingーにはより正確な値が格納されます。
 
 ## 最後のイベント （デフォルト）
 

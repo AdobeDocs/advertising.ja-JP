@@ -14,7 +14,7 @@ ht-degree: 0%
 
 1. メインメニューで、「**[!UICONTROL Planner]**」をクリックします。
 
-1. 
+1. &#x200B;
    1. カーソルを計画行の上に置き、**[!UICONTROL More]**/**[!UICONTROL Duplicate]** をクリックします。
 
 1. （オプション）計画名と [ 計画設定 ](planner-settings.md) を編集します。
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    計画を保存すると、予測された出力が表示されます。
 
-1. （オプション） [!UICONTROL Budget vs Reach] 予測を [!DNL Microsoft Excel] スプレッドシートにエクスポートするには**右上の [**[!UICONTROL ...]**] をクリックし、[**[!UICONTROL Export]**] をクリックします。
+1. （オプション） [!UICONTROL Budget vs Reach] 予測を [!DNL Microsoft Excel] スプレッドシートにエクスポートするには&#x200B;**右上の [**&#x200B;[!UICONTROL ...]&#x200B;**] をクリックし、[**&#x200B;[!UICONTROL Export]**] をクリックします。
 
 >[!MORELIKETHIS]
 >

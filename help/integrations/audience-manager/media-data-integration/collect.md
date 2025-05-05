@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 手順 1:Audience Managerでの Data Sourceの設定 {#set-up-data-source}
 
-Audience Managerで、DSP インプレッション用の [ データソース ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) を作成し、「データ」をクリックします。 追跡されたすべてのイベントがデータソースに関連付けられるように ](#implement-dsp-pixels) 各イベントタグにデータソース ID[ を含めます。
+Audience Managerで、DSP インプレッション用の [ データソース ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) を作成し、「データ」をクリックします。 追跡されたすべてのイベントがデータソースに関連付けられるように [&#128279;](#implement-dsp-pixels) 各イベントタグにデータソース ID を含めます。
 
 >[!NOTE]
 > 1 つのデータソース内の複数のDSPで実行されている広告キャンペーンに対して、すべてのインプレッションおよびクリックデータを収集できます。

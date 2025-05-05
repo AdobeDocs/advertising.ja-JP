@@ -50,7 +50,7 @@ ht-degree: 0%
 
    または、トラッキング URL を [!DNL Microsoft Merchant Center] アカウント内の製品データに追加できます。 これを行うには、トラッキング URL を、必要に応じて「link」または「mobile_link」フィールドの値と共に、製品フィード内のカスタム列「[bingads_redirect](https://help.ads.microsoft.com/#apex/3/en/51084)」に含めます。 「bingads_redirect」フィールドの値は、「link」および「mobile_link」フィールドの値を置き換えます。 この方法で生成される URL には、検索、ソーシャル、Commerceの各アカウントまたはキャンペーン設定で指定されたトラッキングパラメーターは含まれません。
 
-1. [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md) を生成してパフォーマンス [ 監視します。
+1. [!UICONTROL Product Group Report][&#128279;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md) を生成してパフォーマンス  監視します。
 
 1. 必要に応じて、
 

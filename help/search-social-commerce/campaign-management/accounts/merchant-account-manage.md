@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >マーチャントネットワーク上で実際のアカウントを作成するには、ネットワークの web サイトにアクセスします。
 
-1. メインメニューで、「\> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]****[!UICONTROL Search]** クリックし、「[!UICONTROL Accounts]」タブを開きます。
+1. メインメニューで、「\> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**&#x200B;**[!UICONTROL Search]** クリックし、「[!UICONTROL Accounts]」タブを開きます。
 
 1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Create Account]**] をクリックします。
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 >
 >マーチャントネットワーク上の実際のアカウントを編集するには、ネットワークの web サイトに移動します。
 
-1. メインメニューで、「\> [!UICONTROL Campaigns] \> [!UICONTROL Products]****[!UICONTROL Search] クリックし、「[!UICONTROL Accounts]」タブを開きます。
+1. メインメニューで、「\> [!UICONTROL Campaigns] \> [!UICONTROL Products]&#x200B;**&#x200B;**&#x200B;[!UICONTROL Search] クリックし、「[!UICONTROL Accounts]」タブを開きます。
 
 1. アカウント名の横の「![ 設定を表示/編集 ](/help/search-social-commerce/assets/settings.png " 設定を表示/編集 ")」をクリックします。
 

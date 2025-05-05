@@ -20,7 +20,7 @@ ht-degree: 0%
 
 「[!DNL Include in 'Conversions']」オプションが有効になっているコンバージョンのデータを検索、ソーシャル、Commerceで同期し、過去 35 日間のデータを取り込んでから、広告主のタイムゾーンで毎日 09:00-10:00 ずつデータへの変更を取り込みます。 クリックごとに新しいコンバージョンが追跡されるので、履歴データは日ごとに変更される可能性があります。
 
-[[!DNL Microsoft Advertising] でトラッキングされた各コンバージョンの 2 つの指標（[!DNL Microsoft Advertising] で設定）は ](https://help.ads.microsoft.com/apex/index/3/en-us/n5012)[!DNL Microsoft Advertising] で設定されたコンバージョン名を使用して、検索、ソーシャル、Commerceで自動的に使用できます。 各コンバージョンの指標は次のとおりです。
+[[!DNL Microsoft Advertising] でトラッキングされた各コンバージョンの 2 つの指標（[!DNL Microsoft Advertising] で設定）は ](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) [!DNL Microsoft Advertising] で設定されたコンバージョン名を使用して、検索、ソーシャル、Commerceで自動的に使用できます。 各コンバージョンの指標は次のとおりです。
 
 * `<conversion-name>` - キーワードのコンバージョン値（購入など）。
 

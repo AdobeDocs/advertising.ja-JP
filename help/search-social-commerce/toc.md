@@ -20,12 +20,12 @@ ht-degree: 2%
 + 概要 {#intro}
    + [Adobe Advertising検索、ソーシャル、Commerceについて](/help/search-social-commerce/introduction/about.md)
    + [サポートされるインベントリ](/help/search-social-commerce/introduction/supported-inventory.md)
-   + Adobe Experience Cloud {#integrations} との統合
+   + Adobe Experience Cloud との統合 {#integrations}
       + [Adobe Experience Cloudのソリューションおよびサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising]  （リンク） ](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
-      + [Adobe Audience Managerとの統合（リンク） ](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
-   + [ 消費者プライバシーのサポート（リンク） ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-   + [ ポリシーとガイドライン（リンク） ](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising]  （リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Adobe Audience Managerとの統合（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [ 消費者プライバシーのサポート（リンク）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [ ポリシーとガイドライン（リンク）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + 入門 {#getting-started}
    + [実装の概要](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [必要システム構成](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -35,7 +35,7 @@ ht-degree: 2%
 + Common tasks {#common-tasks}
    + [別の広告主のデータを表示](/help/search-social-commerce/common-tasks/change-advertiser.md)
    + [行内で設定を直接編集する](/help/search-social-commerce/common-tasks/settings-edit-within-row.md)
-   + のデータビュー {#data-views} カスタマイズ
+   + のデータビュー カスタマイズ {#data-views}
       + [キャンペーン管理ビューでのデータのカスタマイズについて](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)
       + [デフォルトビューとカスタムビューの管理](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)
       + アドホックビュー設定 {#ad-hoc-settings}
@@ -50,7 +50,7 @@ ht-degree: 2%
             + [ツールバーからのデータフィルターの適用](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
             + [列フィルターを編集](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
             + [列フィルターの削除](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-remove.md)
-   + のカスタム指標 {#custom-metrics} 管理
+   + のカスタム指標 管理 {#custom-metrics}
       + [カスタム指標について](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)
       + [カスタム指標の作成](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)
       + [カスタム指標の編集](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)
@@ -61,7 +61,7 @@ ht-degree: 2%
       + [カレンダーを使用して日付を指定](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)
       + [トレンドグラフの表示/非表示](/help/search-social-commerce/common-tasks/navigation-editing-selection/trend-chard-show-hide.md)
       + [管理ビューのデータの更新](/help/search-social-commerce/common-tasks/navigation-editing-selection/refresh.md)
-      + 管理ビュー {#download-data-views} でのデータのダウンロード
+      + 管理ビュー でのデータのダウンロード {#download-data-views}
          + [キャンペーン管理ビューからのデータのダウンロード](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
          + [[!UICONTROL Downloads] メニューからパフォーマンス データ レポートまたはバルクシート ファイルを削除する](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 + Tracking {#tracking}
@@ -80,7 +80,7 @@ ht-degree: 2%
             + [ [!DNL Yahoo! Japan Ads] のクリック追跡形式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [ [!DNL Yandex] のクリック追跡形式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [クリックトラッキング URL 用のオプションのトラッキングパラメーター](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertisingーの Cookie （リンク） ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
+      + [Adobe Advertisingーの Cookie （リンク）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [AMO ID （s_kwcid） トラッキングパラメーター](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + コンバージョントラッキング {#conversion-tracking}
       + [コンバージョントラッキングオプション](/help/search-social-commerce/tracking/conversion-tracking-about.md)
@@ -117,11 +117,11 @@ ht-degree: 2%
    + [実装  [!DNL Naver]  トラッキング専用アカウント](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + キャンペーンの管理 {#management}
       + [広告ネットワークキャンペーンを管理するためのオプション](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)
-      + [!UICONTROL Campaigns]/[!UICONTROL Campaigns] ビュー {#campaigns} ージ内でのデータの管理
+      + [!UICONTROL Campaigns]/[!UICONTROL Campaigns] ビュー ージ内でのデータの管理 {#campaigns}
          + [コピーと貼り付けを使用したキャンペーンデータの一括作成と編集](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
          + Campaigns {#campaigns}
             + [キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-            + 広告ネットワーク {#campaign-settings-by-network} によるキャンペーン設定
+            + 広告ネットワーク によるキャンペーン設定 {#campaign-settings-by-network}
                + [[!DNL Baidu] キャンペーンの設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
                + [[!DNL Google Ads] キャンペーンの設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
                + [[!DNL Microsoft Advertising] キャンペーンの設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
@@ -129,7 +129,7 @@ ht-degree: 2%
                + [[!DNL Yandex] キャンペーンの設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
          + 広告グループ {#ad-groups}
             + [広告グループの管理](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-            + 広告ネットワーク {#ad-group-settings-by-network} による広告グループ設定
+            + 広告ネットワーク による広告グループ設定 {#ad-group-settings-by-network}
                + [[!DNL Baidu] 広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
                + [[!DNL Google Ads] 広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
                + [[!DNL Microsoft Advertising] 広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
@@ -140,7 +140,7 @@ ht-degree: 2%
             + [入札キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
             + [ネガティブキーワードの作成](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
             + [キーワードとネガティブキーワードのステータスの変更](/help/search-social-commerce/campaign-management/campaigns/keyword-status-edit.md)
-            + 広告ネットワーク {#keyword-settings-by-network} によるキーワード設定
+            + 広告ネットワーク によるキーワード設定 {#keyword-settings-by-network}
                + [[!DNL Baidu] キーワードの設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-baidu.md)
                + [[!DNL Google Ads] キーワードの設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-google.md)
                + [[!DNL Microsoft Advertising] キーワードの設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-microsoft.md)
@@ -149,7 +149,7 @@ ht-degree: 2%
          + 広告 {#ads}
             + [広告について](/help/search-social-commerce/campaign-management/campaigns/ad-about.md)
             + [広告の管理](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)
-            + 広告ネットワーク {#ad-settings-by-network} による広告設定
+            + 広告ネットワーク による広告設定 {#ad-settings-by-network}
                + [テキスト広告設定の [!DNL Baidu] 定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-baidu-text.md)
                + [[!DNL Google Ads] 呼び出し専用広告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-call.md)
                + [[!DNL Google Ads] 拡張された動的検索広告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-dsa.md)
@@ -194,7 +194,7 @@ ht-degree: 2%
                + [共有サイトリンクの管理](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md)
                + [共有サイトリンクのアカウント、キャンペーンおよび広告グループへの関連付け](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-associate.md)
             + [キャンペーンおよび広告グループとの広告拡張機能の関連付けの削除](/help/search-social-commerce/campaign-management/campaigns/ad-extension-association-delete.md)
-      + バルクシート {#bulksheets} を使用したバルクデータの管理
+      + バルクシート を使用したバルクデータの管理 {#bulksheets}
          + [バルクシートを使用した Campaign データの管理について](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)
          + [バルクシートをアップロードするための FTP アカウントの設定](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)
          + [バルクシートファイルのダウンロードと作成](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
@@ -215,7 +215,7 @@ ht-degree: 2%
             + [アカウントのバルクシ  [!DNL Yahoo! Display Network]  ト データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
             + [アカウントのバルクシ  [!DNL Yahoo! Japan]  ト データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
             + [アカウントに必須のバルクシート デ  [!DNL Yandex]  タ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
-      + 在庫フィードを使用したキャンペーンデータ {#inventory-feeds} 自動化
+      + 在庫フィードを使用したキャンペーンデータ 自動化 {#inventory-feeds}
          + [在庫フィードを使用した広告管理の自動化について](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
          + [アカウントコンポーネントは、いつ在庫フィードによって作成または削除されますか？](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
          + [フィードデータ設定の指定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
@@ -227,7 +227,7 @@ ht-degree: 2%
             + [買い物 [!DNL Google Ads] 広告テンプレートの設定](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
             + [買い物 [!DNL Microsoft Advertising] 広告テンプレートの設定](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
          + [テンプレートを使用したフィードデータの伝播](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
-         + フィード {#propagated-data} ージから作成されたキャンペーンデータの使用
+         + フィード ージから作成されたキャンペーンデータの使用 {#propagated-data}
             + [フィードから生成されたデータを表示](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-view.md)
             + [フィードから生成されたデータを編集](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-edit.md)
             + [フィードから広告ネットワークにキャンペーン データを投稿](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-post.md)
@@ -243,7 +243,7 @@ ht-degree: 2%
       + [広告ネットワークデータの手動同期](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
    + [ポートフォリオへのキャンペーンの割り当て](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
    + [ポートフォリオからキャンペーンを削除](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
-   + でのラベル分類 {#label-classifications} 管理
+   + でのラベル分類 管理 {#label-classifications}
       + [ラベルの分類について](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)
       + [ラベル分類を作成](/help/search-social-commerce/campaign-management/label-classifications/classification-create.md)
       + [キャンペーン管理ビューからのアカウントコンポーネントへの分類値の割り当て](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md)
@@ -269,7 +269,7 @@ ht-degree: 2%
       + [レポートの初期設定タスク](/help/search-social-commerce/reports/initial-setup.md)
       + [レポートに使用するデータ](/help/search-social-commerce/reports/data-used-for-reports.md)
       + レポートの管理 {#report-management}
-         + の基本レポートと高度なレポ {#basic-advanced-reports} ト
+         + の基本レポートと高度なレポ ト {#basic-advanced-reports}
             + [基本レポートと高度なレポートについて](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
             + の基本的なレポート形式 {#basic-report-formats}
                + [[!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)
@@ -292,9 +292,9 @@ ht-degree: 2%
             + [基本レポートまたは詳細レポートの生成](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
             + [基本的なレポート設定と高度なレポート設定](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
             + [基本レポートと高度なレポートのレポート列](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
-         + レポート {#assist-reports} 支援
+         + レポート 支援 {#assist-reports}
             + [アシストレポートについて](/help/search-social-commerce/reports/management/assist/assist-report-about.md)
-            + レポート形式 {#assist-report-formats} 支援
+            + レポート形式 支援 {#assist-report-formats}
                + [[!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
                + [[!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
                + [[!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
@@ -411,9 +411,9 @@ ht-degree: 2%
       + [広告主について追跡されたコンバージョン指標の表示](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
       + [管理ビューおよびレポートで使用可能なコンバージョン指標の変更](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
       + [コンバージョン指標の表示名の変更](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
-      + 広告ネットワーク固有のコンバージョンタグとコンバージョンアクション/目標 {#network-conversions} 定の管理
+      + 広告ネットワーク固有のコンバージョンタグとコンバージョンアクション/目標 定の管理 {#network-conversions}
          + [ [!DNL Google Ads] のコンバージョンタグを作成します。](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
-         + コンバージョンアクションと目標 {#conversion-actions} 定の管理
+         + コンバージョンアクションと目標 定の管理 {#conversion-actions}
             + [リードの拡張コンバージョン用  [!DNL Google Ads]  コンバージョンアクションの作成](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
             + [オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [ヘルプを表示](get-help.md)

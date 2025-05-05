@@ -26,7 +26,7 @@ ht-degree: 0%
 
   データファイルを保存して自動処理するための FTP ディレクトリを設定するには、Adobeアカウントチームにお問い合わせください。
 
-* **手動処理：**[!UICONTROL Advanced] （ACM）表示から手動で [ フィードファイルをアップロード ](#feed-file-upload) できます。 フィードファイルを 1 つ以上の広告ネットワーク固有の [ テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) に関連付けると、[ フィードデータ設定 ](feed-settings-manage.md) に従って [ テンプレートを通じてフィードデータを伝播 ](feed-data-propagate.md) することによってキャンペーンデータと広告データを生成できます。 オプションで、キャンペーン階層ビュー内で生成されたデータをプレビューしたり、レビュー用のバルクシートファイルを生成したり、広告ネットワークにすぐに投稿するためのバルクシートファイルを生成したりできます。 データをすぐに投稿しない場合は、後で [ プレビュー ](propagated-data-view.md) および [ 投稿 ](propagated-data-post.md) できます。 後で [ 既存のフィードファイルを新しいファイルで置き換える ](#feed-file-replace) ことができます。既存のテンプレートの関連付けは失われません。
+* **手動処理：**&#x200B;[!UICONTROL Advanced] （ACM）表示から手動で [ フィードファイルをアップロード ](#feed-file-upload) できます。 フィードファイルを 1 つ以上の広告ネットワーク固有の [ テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) に関連付けると、[ フィードデータ設定 ](feed-settings-manage.md) に従って [ テンプレートを通じてフィードデータを伝播 ](feed-data-propagate.md) することによってキャンペーンデータと広告データを生成できます。 オプションで、キャンペーン階層ビュー内で生成されたデータをプレビューしたり、レビュー用のバルクシートファイルを生成したり、広告ネットワークにすぐに投稿するためのバルクシートファイルを生成したりできます。 データをすぐに投稿しない場合は、後で [ プレビュー ](propagated-data-view.md) および [ 投稿 ](propagated-data-post.md) できます。 後で [ 既存のフィードファイルを新しいファイルで置き換える ](#feed-file-replace) ことができます。既存のテンプレートの関連付けは失われません。
 
 ## フィードファイルの要件
 

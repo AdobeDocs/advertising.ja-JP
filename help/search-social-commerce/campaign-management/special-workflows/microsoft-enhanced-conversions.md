@@ -37,7 +37,7 @@ ht-degree: 0%
 
      アップロードされたすべてのデータは、リアルタイムで [!DNL Microsoft Advertising] に同期されます。
 
-   * [!DNL Microsoft Advertising] 内でのデータのアップロードについて詳しくは、「拡張コンバージョン ](https://help.ads.microsoft.com/#apex/ads/en/60178)」に関する [!DNL Microsoft Advertising] ヘルプの「オフラインコンバージョン用の拡張コンバージョンの設定 [ を参照してください。
+   * [!DNL Microsoft Advertising] 内でのデータのアップロードについて詳しくは、「拡張コンバージョン [&#128279;](https://help.ads.microsoft.com/#apex/ads/en/60178)」に関する [!DNL Microsoft Advertising] ヘルプの「オフラインコンバージョン用の拡張コンバージョンの設定  を参照してください。
 
 >[!MORELIKETHIS]
 >

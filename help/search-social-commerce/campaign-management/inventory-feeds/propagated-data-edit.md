@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * オプションを「[!UICONTROL Propagate and Preview]」に使用した場合は、生成されたバルクシートファイル（「`<feed file name>_<template name>`」という名前）を [!UICONTROL Bulksheets] ビューからダウンロードして編集し、再度アップロードすることで編集できます。 「[!UICONTROL Campaigns]」、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」、「[!UICONTROL Ads]」の各タブには、データは含まれていません。
 
-* オプションを「[!UICONTROL Propagate only]」に使用した場合は、キャンペーン階層ビュー内の「[!UICONTROL Campaigns]」、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」、「[!UICONTROL Ads]」の各タブで ](propagated-data-status.md)[[!UICONTROL New] ステータスのコンポーネントに対して生成されたデータを編集できます。
+* オプションを「[!UICONTROL Propagate only]」に使用した場合は、キャンペーン階層ビュー内の「[!UICONTROL Campaigns]」、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」、「[!UICONTROL Ads]」の各タブで [&#128279;](propagated-data-status.md) [!UICONTROL New] ステータスのコンポーネントに対して生成されたデータを編集できます。
 
   キャンペーン階層ビューには、フィードファイルから生成されたデータのみが表示され、既存のアカウントコンポーネントは表示されません。 コンポーネントとそのすべてのサブコンポーネントのデータが広告ネットワークに投稿されると、キャンペーン階層に表示されなくなります。
 

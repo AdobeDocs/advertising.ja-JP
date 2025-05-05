@@ -34,7 +34,7 @@ DSPまたは [!DNL Creative] で [!DNL Adobe] オーディエンスにアクセ�
 
   [!UICONTROL Organization ID] を使用すると、複数のAdobe Experience Cloud製品を持つ組織で、一部の製品間でデータを共有できます。
 
-* （[!DNL Analytics] を使用する広告主）広告主は、バージョン 1.6.4 以降 `appMeasurement.js`](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview) 使用して [ 実装  [!DNL Analytics]  する必要があります。
+* （[!DNL Analytics] を使用する広告主）広告主は、バージョン 1.6.4 以降 `appMeasurement.js`[&#128279;](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview) 使用して  実装  [!DNL Analytics]  する必要があります。
 
 * 広告主の web サイト訪問者には、大量の [!DNL Apple Safari] ユーザーは含まれていません。
 

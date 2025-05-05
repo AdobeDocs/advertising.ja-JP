@@ -18,7 +18,7 @@ ht-degree: 0%
 
 投稿が成功するには、すべての広告グループをキャンペーンに割り当て、すべてのキーワードと広告を広告グループに割り当てる必要があります。また、必要なすべての情報を長さ違反なく含める必要があります。
 
-* オプションを「[!UICONTROL Propagate and Preview]」に使用した場合は、生成されたバルクシートファイル ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md) 「`<feed file name>_<template name>`」という名前）を [!UICONTROL Bulksheets] ビューから [ 投稿」します。
+* オプションを「[!UICONTROL Propagate and Preview]」に使用した場合は、生成されたバルクシートファイル [&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md) 「`<feed file name>_<template name>`」という名前）を [!UICONTROL Bulksheets] ビューから  投稿」します。
 
   以前に [ ランディングページの検証 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) を行ったことがない場合は、ファイルを投稿する前に行うことができます。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
   >[!TIP]
   >
-  >以前にランディングページを検証したことがなく、その検証を行う場合は、広告ネットワークに投稿する代わりに、[!UICONTROL Bulksheets] ビューから [ データを反映してプレビュー ](feed-data-propagate.md) します。 その後、手動でファイルを広告ネットワークに投稿する前に ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)URL を検証 [ できます。
+  >以前にランディングページを検証したことがなく、その検証を行う場合は、広告ネットワークに投稿する代わりに、[!UICONTROL Bulksheets] ビューから [ データを反映してプレビュー ](feed-data-propagate.md) します。 その後、手動でファイルを広告ネットワークに投稿する前に [&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)URL を検証  できます。
 
    1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
 

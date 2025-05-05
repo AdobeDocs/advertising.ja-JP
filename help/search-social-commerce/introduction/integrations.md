@@ -20,13 +20,13 @@ Advertisingの検索、ソーシャル、Commerceは、次の [!DNL Adobe] 製�
 
    * Adobe Advertisingと [!DNL Analytics] はシームレスにデータを共有します。 [!DNL Analytics] は、サイトエンゲージメントおよびコンバージョンデータを毎日、検索、ソーシャル、Commerceに送信でき、そこで広告の最適化やレポート作成にデータを利用できます。 また、Adobe Advertisingは、インプレッション数、クリック数、コストなどの広告トラフィックデータを、毎日広告ネットワークから [!DNL Analytics] に送信できます。
 
-     各広告ネットワークと広告タイプのサポートについて詳しくは ](/help/search-social-commerce/introduction/supported-inventory.md)[ サポートされてい [!DNL Analytics] 在庫」を参照してください。 データ交換の詳細については、「[ の概要  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}」も参照してください。
+     各広告ネットワークと広告タイプのサポートについて詳しくは [&#128279;](/help/search-social-commerce/introduction/supported-inventory.md) サポートされてい [!DNL Analytics] 在庫」を参照してください。 データ交換の詳細については、「[ の概要  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}」も参照してください。
 
      データを交換するには、最初にAdobe Advertisingと [!DNL Analytics] の両方を設定する必要があります。 初期設定について詳しくは、Adobeアカウントチームにお問い合わせください。
 
      >[!NOTE]
      >
-     >デフォルトでは、[!DNL Analytics] の指標は、検索画面、ソーシャル画面およびCommerce画面には表示されません。 [!DNL Adobe] 実装チームが選択した標準イベントまたはカスタムイベントをAdobe Advertisingに渡すように設定したら ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) 指標を明示的に [ キャンペーン管理ビュー、ポートフォリオ、レポートで使用できるようにする）必要があります。 オプションで、表示される指標名を（[!DNL Analytics] で変更せずに）変更できます。 UI で指標を表示可能にし、[!UICONTROL Admin] / [!UICONTROL Conversions] から指標の名前を変更できます。
+     >デフォルトでは、[!DNL Analytics] の指標は、検索画面、ソーシャル画面およびCommerce画面には表示されません。 [!DNL Adobe] 実装チームが選択した標準イベントまたはカスタムイベントをAdobe Advertisingに渡すように設定したら [&#128279;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) 指標を明示的に  キャンペーン管理ビュー、ポートフォリオ、レポートで使用できるようにする）必要があります。 オプションで、表示される指標名を（[!DNL Analytics] で変更せずに）変更できます。 UI で指標を表示可能にし、[!UICONTROL Admin] / [!UICONTROL Conversions] から指標の名前を変更できます。
 
    * [!DNL Analytics] を持つがAudience Managerを持たない広告主は、Adobe Experience Cloudと共有される [!DNL Analytics] セグメントから [ カスタマーマッチオーディエンスを作成  [!DNL Google Ads]  作成 ](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) できます。 広告主が資格を得るには、[Adobe Experience Platform ID サービスを実装し ](https://experienceleague.adobe.com/docs/id-service/using/home.html)Web サイトにタグをデプロイする必要があります。 その後、[!DNL Google Ads] キャンペーンのオーディエンスをキャンペーンレベルまたは広告グループレベルの [ ターゲット ](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) または [ 除外 ](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) として使用できます。
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 次の項目を削除できます。
 
-* [ ライブまたはドラフト ](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) ターゲット設定されたエクスペリエンス ](/help/creative/experiences/experience-about.md) に割り当てられているバンドルに [ らないクリエイティブ。
+* [ ライブまたはドラフト ](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) ターゲット設定されたエクスペリエンス [&#128279;](/help/creative/experiences/experience-about.md) に割り当てられているバンドルに  らないクリエイティブ。
 
 * ライブまたはドラフトの広告タグに割り当てられていないクリエイティブ [ ターゲット設定されていないエクスペリエンス ](/help/creative/experiences/experience-about.md)。
 

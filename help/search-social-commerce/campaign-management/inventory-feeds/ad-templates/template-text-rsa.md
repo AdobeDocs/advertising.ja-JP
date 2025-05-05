@@ -70,7 +70,7 @@ ht-degree: 0%
 
 * 最終的な URL を埋め込むには：
 
-   * （[!DNL Google Ads] および [!DNL Microsoft Advertising] のみ）トラッキングテンプレートで最終的な URL を示すパラメーターのリストについては、（ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799/2) の「使用可能なトラッキングパラメーター」の節の（[!DNL Microsoft Advertising] のみ） [[!DNL Microsoft Advertising]  ドキュメント [[!DNL Google Ads]  または（[!DNL Google Ads] のみ） [!DNL ValueTrack] 「トラッキングテンプレートのみ」パラメーターを参照してください ](https://support.google.com/google-ads/answer/6305348)
+   * （[!DNL Google Ads] および [!DNL Microsoft Advertising] のみ）トラッキングテンプレートで最終的な URL を示すパラメーターのリストについては、（ドキュメント [&#128279;](https://help.ads.microsoft.com/#apex/3/en/56799/2) の「使用可能なトラッキングパラメーター」の節の（[!DNL Microsoft Advertising] のみ） [!DNL Microsoft Advertising]  ドキュメント [[!DNL Google Ads]  または（[!DNL Google Ads] のみ） [!DNL ValueTrack] 「トラッキングテンプレートのみ」パラメーターを参照してください ](https://support.google.com/google-ads/answer/6305348)
 
    * （[!DNL Yahoo! Japan Ads] のみ） パラメーター `!{unescapedurl}` を使用して、ランディングページの URL を指定します。
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 * ランディングページの URL を指定するには：
 
-   * （[!DNL Google Ads] および [!DNL Microsoft Advertising] のみ）トラッキングテンプレートで最終的な URL を示すパラメーターのリストについては、（ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799) の「使用可能なトラッキングパラメーター」の節の（[!DNL Microsoft Advertising] のみ） [[!DNL Microsoft Advertising]  ドキュメント [[!DNL Google Ads]  または（[!DNL Google Ads] のみ） [!DNL ValueTrack] 「トラッキングテンプレートのみ」パラメーターを参照してください ](https://support.google.com/google-ads/answer/6305348)
+   * （[!DNL Google Ads] および [!DNL Microsoft Advertising] のみ）トラッキングテンプレートで最終的な URL を示すパラメーターのリストについては、（ドキュメント [&#128279;](https://help.ads.microsoft.com/#apex/3/en/56799) の「使用可能なトラッキングパラメーター」の節の（[!DNL Microsoft Advertising] のみ） [!DNL Microsoft Advertising]  ドキュメント [[!DNL Google Ads]  または（[!DNL Google Ads] のみ） [!DNL ValueTrack] 「トラッキングテンプレートのみ」パラメーターを参照してください ](https://support.google.com/google-ads/answer/6305348)
 
    * （[!DNL Yahoo! Japan Ads] のみ） パラメーター `!{lpurl}` を使用して、ランディングページの URL を指定します。
 
@@ -238,7 +238,7 @@ ht-degree: 0%
 
 **[!UICONTROL Param 3]:** （[!DNL Microsoft Advertising] テンプレートのみ） タイトル、テキスト、表示 URL または最終 URL に `{Param3}` の動的置換文字列が含まれる場合に、広告の置換値として使用する文字列。 最大長は 70 文字ですが、これを使用する広告要素の最大長には注意が必要です（例えば、広告のタイトルには最大 25 文字まで含めることができます）。
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** 指定した一致タイプまたは広告タイプの各キーワードの初期入札。
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** 指定した一致タイプまたは広告タイプの各キーワードの初期入札。
 
 ## [!UICONTROL Ads]
 

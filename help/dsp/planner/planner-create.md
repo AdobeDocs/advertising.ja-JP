@@ -22,7 +22,7 @@ ht-degree: 0%
 
    計画を保存すると、予測された出力が表示されます。
 
-1. （オプション） [!UICONTROL Budget vs Reach] 予測を [!DNL Microsoft Excel] スプレッドシートにエクスポートするには**右上の [**[!UICONTROL ...]**] をクリックし、[**[!UICONTROL Export]**] をクリックします。
+1. （オプション） [!UICONTROL Budget vs Reach] 予測を [!DNL Microsoft Excel] スプレッドシートにエクスポートするには&#x200B;**右上の [**&#x200B;[!UICONTROL ...]&#x200B;**] をクリックし、[**&#x200B;[!UICONTROL Export]**] をクリックします。
 
 >[!MORELIKETHIS]
 >

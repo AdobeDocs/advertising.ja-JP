@@ -45,8 +45,8 @@ ht-degree: 0%
 | 一般 | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | 操作は完全に失敗しました。 問題が解決しない場合は、Adobeアカウントチームにお問い合わせください。 |
 | すべてのエンティティ | [!UICONTROL Invalid Fields.] \[ 無効なフィールドとエラー\] | 指定されたデータが見つからないか無効です。 |
 |  | [!UICONTROL Invalid Reference Given] | 広告ネットワーク上のエンティティの ID、または親エンティティの ID （アカウント ID など）が、検索、ソーシャル、Commerceのエンティティに対応していません。 この問題は、バルクシートで ID を編集した場合に発生する可能性があります。 |
-|  | [!UICONTROL <Entity> is deleted or expired] | このエンティティは有効期限が切れているか削除されているため、プロパティを変更できません。 ステータスが手動で編集されたときにエンティティが削除されることがあります。 |
-|  | [!UICONTROL <Entity> status should be Active or Paused] | （新規エンティティ）新規エンティティは「アクティブ」または「一時停止」のみです。 |
+|  | [!UICONTROL &lt;Entity> is deleted or expired] | このエンティティは有効期限が切れているか削除されているため、プロパティを変更できません。 ステータスが手動で編集されたときにエンティティが削除されることがあります。 |
+|  | [!UICONTROL &lt;Entity> status should be Active or Paused] | （新規エンティティ）新規エンティティは「アクティブ」または「一時停止」のみです。 |
 |  | [!UICONTROL Duplicate Entries are present] | 同じエンティティに対して複数の行が含まれ、各行に異なる属性が含まれます。 変更を 1 行に統合します。 |
 |  | [!UICONTROL Invalid AMO ID given] | 行の AMO ID が存在しません。 この問題は、バルクシート内の ID を編集した場合に発生する可能性があります。 |
 |  | [!UICONTROL Invalid row given] | 行に、エンティティの種類を特定するのに十分な情報が含まれていません。 行を編集して、エンティティタイプのすべての必須フィールドを含めます。 |
@@ -62,7 +62,7 @@ ht-degree: 0%
 | すべての広告グループコンポーネント | [!UICONTROL Adgroup creation failed] | 親広告グループが作成されなかったので、このエンティティを作成できませんでした。 これは、広告グループのフィールドにエラーが発生したか、親キャンペーンが失敗したことが原因である可能性があります。 すべての親エンティティにすべての必須フィールドが含まれていることを確認します。 |
 |  | [!UICONTROL Adgroup Row Missing] | 指定された親広告グループが存在しないので、エンティティを作成できませんでした。 新しい行に親広告グループを作成します。 |
 |  | [!UICONTROL Cannot modify Tracking Template at Keyword / Creative / Site Link level until Account has been migrated to use Upgraded URLs. Please retry after migration] | 「[!UICONTROL Tracking Template]」フィールドは、最終/詳細 URL を使用するアカウント専用です。 最終/高度な URL を使用するようにアカウントを移行するまでは、値を削除してください。 |
-| 広告 | [!UICONTROL Cannot modify attributes other than status code and url for <ad type>] | （テキスト、展開テキスト、製品、アプリのインストール、動的検索以外の広告タイプ）この広告タイプのステータスと URL のみを編集できます。 |
+| 広告 | [!UICONTROL Cannot modify attributes other than status code and url for &lt;ad type>] | （テキスト、展開テキスト、製品、アプリのインストール、動的検索以外の広告タイプ）この広告タイプのステータスと URL のみを編集できます。 |
 |  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | 各広告グループには最大 50 件の広告を含めることができ、このバルクシートには 50 件以上の広告を含めることができます。 広告の数を減らします。 |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | 広告は期限切れまたは削除された親エンティティにあるので、編集できません。 |
 | キーワード | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | 親キャンペーンまたは広告グループが削除または期限切れになっているので、エンティティを変更できません。 |
@@ -85,7 +85,7 @@ ht-degree: 0%
 |----|----|----|
 | 一般 | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | 操作は完全に失敗しました。 問題が解決しない場合は、Adobeアカウントチームにお問い合わせください。 |
 | すべてのエンティティ | [!UICONTROL Entity] が広告ネットワークに投稿されました | エンティティは広告ネットワークに投稿されましたが、同時に検索、ソーシャル、Commerceに同期されなかったので、検索、ソーシャル、Commerceでエンティティデータをすぐに使用することはできません。 同期プロセスは自動的にトリガーされるようになりました。<br><br> 大量のデータを同期する場合、数時間以上にわたって検索、ソーシャル、Commerceでデータを使用できないことがあります。 |
-| | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | 親エンティティを作成できなかったので、この子エンティティは作成されませんでした。 |
+| | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | 親エンティティを作成できなかったので、この子エンティティは作成されませんでした。 |
 
 >[!MORELIKETHIS]
 >

@@ -80,7 +80,7 @@ Adobe Advertisingディメンションには、サフィックス「（AMO ID）
 
 Adobe Advertisingチームは、有料メディアパフォーマンスに適用されるイベントを特定し、Adobe Advertisingにマッピングするのに役立ちます。イベントは [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions] に一覧表示されます。
 
-使用可能な指標のリストについては ](analytics-data-in-advertising.md)[Adobe Advertisingの分析指標」を参照してください。
+使用可能な指標のリストについては [&#128279;](analytics-data-in-advertising.md)Adobe Advertisingの分析指標」を参照してください。
 
 ### サイトリターゲティング用の Analytics セグメント
 

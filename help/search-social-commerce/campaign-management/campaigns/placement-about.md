@@ -16,7 +16,7 @@ ht-degree: 0%
 
 プレースメントは、広告を表示できるディスプレイネットワーク上の場所です。 プレースメント設定には、最大入札額とオプションのトラッキングパラメーターが含まれます。 プレースメントレベルの設定は、広告グループまたはキャンペーンの設定よりも優先されます。
 
-[ 同期された検索エンジンアカウント ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 内の表示ネットワークをターゲットとする ](/help/search-social-commerce/introduction/supported-inventory.md) サポート  [!DNL Google Ads]  キャンペーンタイプ [ の任意の広告グループのプレースメントを作成できます。
+[ 同期された検索エンジンアカウント ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 内の表示ネットワークをターゲットとする [&#128279;](/help/search-social-commerce/introduction/supported-inventory.md) サポート  [!DNL Google Ads]  キャンペーンタイプ  の任意の広告グループのプレースメントを作成できます。
 
 ## [!UICONTROL Placements] ビュー
 

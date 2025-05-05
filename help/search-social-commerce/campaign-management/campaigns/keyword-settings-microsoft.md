@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:**[!DNL Microsoft Advertising] 一致の構文とプレースホルダーを含むキーワード。 キーワードごとの最大長は 100 文字です。
+**[!UICONTROL Keywords]:**&#x200B;[!DNL Microsoft Advertising] 一致の構文とプレースホルダーを含むキーワード。 キーワードごとの最大長は 100 文字です。
 
 最大 2000 個のキーワードを入力または貼り付けできます。 複数のキーワードをコンマで区切るか、別々の行に入力します。
 

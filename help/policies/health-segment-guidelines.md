@@ -18,7 +18,7 @@ ht-degree: 0%
 
 これらのガイドラインは [!DNL Network Advertising Alliance (NAI)] から要約した。
 
-Adobe Advertisingターゲティングポリシーごとに、正常性関連のオーディエンスセグメントを使用できるかどうかを判断するには ](/help/policies/ad-requirements-policy.md)[Adobe Advertising広告要件ポリシー } も参照してください。
+Adobe Advertisingターゲティングポリシーごとに、正常性関連のオーディエンスセグメントを使用できるかどうかを判断するには [&#128279;](/help/policies/ad-requirements-policy.md)Adobe Advertising広告要件ポリシー &rbrace; も参照してください。
 
 ## 使用すべきでないヘルスセグメント
 

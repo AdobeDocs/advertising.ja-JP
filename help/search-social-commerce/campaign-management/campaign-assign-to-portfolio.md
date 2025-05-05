@@ -38,7 +38,7 @@ ht-degree: 0%
          >
          >ポートフォリオ内のすべてのキャンペーンは、同じ通貨を使用する必要があります。
 
-      1. データ テーブルの上にあるツールバーで ![[ その他 ")] をクリックし、次に ](/help/search-social-commerce/assets/more.png "**[!UICONTROL Assign]>[!UICONTROL Portfolio]** をクリックします。
+      1. データ テーブルの上にあるツールバーで ![[ その他 ")] をクリックし、次に ] (/help/search-social-commerce/assets/more.png "**[!UICONTROL Assign]>[!UICONTROL Portfolio]** をクリックします。
 
 1. ポートフォリオを選択します。
 

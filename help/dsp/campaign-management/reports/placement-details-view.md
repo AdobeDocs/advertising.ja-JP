@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. （任意） [ 列表示を変更 ](campaign-data-views-manage.md#column-view-change) 必要に応じて、必要な指標を表示します。
 
-1. （オプション）任意のタブのデータをエクスポートするには、右上の ![ その他 ](/help/search-social-commerce/assets/more.png " をクリックし ")[ その他 ] をクリックしてから、[**[!UICONTROL Export]**] をクリックします。
+1. （オプション）任意のタブのデータをエクスポートするには、右上の ![ その他 ](/help/search-social-commerce/assets/more.png " をクリックし ") [ その他 ] をクリックしてから、[**[!UICONTROL Export]**] をクリックします。
 
    データは、XLSM 形式のレポートとして、ブラウザーのデフォルトのダウンロードフォルダーに保存されます。
 

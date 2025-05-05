@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. （任意）広告のクリックをトラッキングするには、[ トラッキング URL ツールを使用してトラッキング URL を生成 ](/help/search-social-commerce/tools/click-tracking-url-generate.md) してアカウント、キャンペーン、製品グループの設定に追加します。
 
-1. [!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md) と [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md) を生成して [ パフォーマンスを監視 [ ます。
+1. [!UICONTROL AdWords Shopping Performance Report][&#128279;](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md) と [!UICONTROL Product Group Report][&#128279;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md) を生成して  パフォーマンスを監視  ます。
 
 1. 必要に応じて、
 

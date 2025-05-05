@@ -37,7 +37,7 @@ a） [!DNL Roku] で直接プライベート取引 ID を設定して、取引 I
 
 プライベート取引では、必要に応じて取引パラメーターをカスタマイズできます。
 
-* **交渉による価格設定：**[!DNL Roku] 営業チームと協力して、キャンペーンのニーズを満たす契約を交渉および構築します。
+* **交渉による価格設定：**&#x200B;[!DNL Roku] 営業チームと協力して、キャンペーンのニーズを満たす契約を交渉および構築します。
 
 * **スケールの優先度：** プライベートマーケットプレイス（PMP）は、常にオンの取引（[!DNL On Demand] ールの取引など）よりも高い優先度を受け取ります。
 
@@ -49,7 +49,7 @@ a） [!DNL Roku] で直接プライベート取引 ID を設定して、取引 I
 
 ## [!DNL Roku] Placements
 
-DSP キャンペーンでは、プレースメントタイプ「[!UICONTROL Connected TV (Roku)]」を使用して ](/help/dsp/campaign-management/placements/placement-create.md)[ 作成  [!DNL Roku] 固有のプレースメント」を使用します。 目標 [!DNL Roku] 定義された [!DNL Roku] 固有のパッケージにプレースメントを含めます。
+DSP キャンペーンでは、プレースメントタイプ「[!UICONTROL Connected TV (Roku)]」を使用して [&#128279;](/help/dsp/campaign-management/placements/placement-create.md) 作成  [!DNL Roku] 固有のプレースメント」を使用します。 目標 [!DNL Roku] 定義された [!DNL Roku] 固有のパッケージにプレースメントを含めます。
 
 各 [!DNL Roku] プレースメントは、少なくとも 1 つの [!DNL Roku] ースの契約またはソースをターゲットにする必要があります。 [!DNL Roku] でのDSP オーディエンスマッチングを使用するには、[!DNL Roku] （オプトイン）の決定論的データセットと照合できる 1 つ以上のオーディエンスセグメントを含めます。
 
