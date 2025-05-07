@@ -450,7 +450,7 @@ ID は「51」で始まり、8 桁で構成する必要があります。 デフ
 * *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済み直販業者および再販業者からのみ在庫を購入する場合。
 * *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済ダイレクト・セラーからのみ在庫を購入する場合。
 
-**[!UICONTROL Attention Targeting]:** （デスクトップおよびモバイルの web ディスプレイ、ビデオ、標準で接続されたテレビ広告に適用）指定されたサイト、形式、広告サイズに基づいて、特定の注意レベル（高、中、低）でセグメントの事前入札を [!DNL Adelaide] うターゲット。 セグメントは毎週更新されます。 **注意：**[!DNL Adelaide] セグメントをターゲティングに使用すると、[!DNL Adelaide] のアテンションターゲティングで配信されるインプレッションごとにCPM料金が発生します。この料金は、[ アテンション測定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md) の料金とは別です。 インタラクティブなプレロールプレースメントの場合、膨大なインプレッションに対してのみ請求されます。
+**[!UICONTROL Attention Targeting]:** （デスクトップおよびモバイルの web ディスプレイ、ビデオ、標準で接続されたテレビ広告に適用）指定されたサイト、形式、広告サイズに基づいて、特定の注意レベル（高、中、低）でセグメントの事前入札を [!DNL Adelaide] うターゲット。 セグメントは毎週更新されます。 **注意：**&#x200B;[!DNL Adelaide] セグメントをターゲティングに使用すると、[!DNL Adelaide] のアテンションターゲティングで配信されるインプレッションごとにCPM料金が発生します。この料金は、[ アテンション測定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md) の料金とは別です。 インタラクティブなプレロールプレースメントの場合、膨大なインプレッションに対してのみ請求されます。
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
