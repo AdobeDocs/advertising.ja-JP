@@ -2,7 +2,7 @@
 title: 広告主アカウント設定
 description: 使用可能な広告主設定の説明を参照してください。
 role: User, Admin
-source-git-commit: 20f69d2e8d5d289015c911f153609c0805307f0a
+source-git-commit: 1f8a76e060612cdcc8ee3709bdf49654faf31b57
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -31,19 +31,19 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-Adobe Experience Cloud商品を追加してExperience Cloudする広告主は、広告用に組織の一意の ID を使用して、一部の商品間でデータを共有できます。 [!UICONTROL Integrations] の節で、特定の製品の統合を設定できます。
+Experience Cloud商品をさらに持つ広告主は、Adobe Experience Cloud用の組織の一意の ID を使用して、一部の商品間でデータを共有できます。 [!UICONTROL Integrations] の節で、特定の製品の統合を設定できます。
 
-**[!UICONTROL Account IMS org and ID]:** （複数の広告主とのExperience Cloudアカウントを通じてライセンスされた追加のExperience Cloud商品を持つ広告主。オプション）広告主のExperience Cloud組織 ID。
+**[!UICONTROL Account IMS org and ID]:** （複数の広告主とのExperience Cloud アカウントを通じてライセンスされた、追加のExperience Cloud製品を持つ広告主。オプション）広告主のExperience Cloud組織 ID。
 
-**[!UICONTROL Advertiser IMS org and ID]:** （追加の広告商品のダイレクトライセンスを持つExperience Cloud主。オプション）広告主のExperience Cloud組織 ID。
+**[!UICONTROL Advertiser IMS org and ID]:** （追加のExperience Cloud商品のダイレクトライセンスを持つ広告主。オプション）広告主のExperience Cloud組織 ID。
 
 ### [!UICONTROL Integrations]
 
 （任意）DSP アカウントにリンクされている追加のExperience Cloud製品。 商品は、[!UICONTROL Adobe IMS IDs] の節で指定したのと同じExperience Cloud組織 ID に関連付ける必要があります。
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** （[!DNL Advertising Search, Social, & Commerce] を使用する、またはAdobe Advertisingコンバージョンピクセルを使用する広告主） DSPがアトリビューションデータを交換する [!DNL Search, Social, & Commerce] アカウント。
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** （[!DNL Advertising Search, Social, & Commerce] を使用する、またはAdobe Advertising コンバージョンピクセルを使用する広告主）DSPがアトリビューションデータを交換する [!DNL Search, Social, & Commerce] アカウント。
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** （Adobe Analyticsを使用する広告主。オプション。[!DNL EF Redirect] とトークンのみを含むAdobe Advertisingコンバージョントラッキングタグを使用して収集されたデータにのみ適用） DSPがパブリッシャーおよびサプライサイドパートナーから収集したデータを送信する 1 つ以上の [!DNL Analytics] レポートスイート。 また、Analytics は、収集したデータをクライアントのサイトからDSPに送信します。
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** （Adobe Analyticsを使用する広告主。オプション。[!DNL EF Redirect] とトークンのみを含むAdobe Advertising コンバージョントラッキングタグを使用して収集されたデータにのみ適用） DSPがパブリッシャーおよびサプライサイドパートナーから収集したデータを送信する 1 つ以上の [!DNL Analytics] レポートスイート。 また、Analytics は、収集したデータをクライアントのサイトからDSPに送信します。
 
 データをレポートスイートに表示するには、適切な [!DNL Search, Social, & Commerce] 広告主レベルの設定を有効にする必要があります。 さらに、Adobe Advertisingからデータを受信するように広告主の [!DNL Analytics] アカウントを設定する必要があります。
 
@@ -53,9 +53,9 @@ Adobe Experience Cloud商品を追加してExperience Cloudする広告主は、
 
 [!DNL Analytics] との統合について詳しくは、「[ の概要  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) を参照してください。
 
-**[!UICONTROL Audiences]**/**[!UICONTROL Adobe Analytics Cloud]:** （Adobe Audience ManagerまたはAdobe Analyticsを使用するAdobe主。任意）DSPがすべての広告主の広告オーディエンスのセグメントメタデータ、階層データおよび一意のオーディエンスデータを取り込むAudience Managerまたは [!DNL Analytics] アカウント。 これには、次のデータが含まれます。
+**[!UICONTROL Audiences]**/**[!UICONTROL Adobe Analytics Cloud]:** （Adobe Audience ManagerまたはAdobe Analyticsを使用する広告主。オプション）DSPがすべての広告主のAdobe オーディエンスのセグメントメタデータ、階層データおよび一意のオーディエンスデータを取り込むAudience Managerまたは [!DNL Analytics] アカウント。 これには、次のデータが含まれます。
 
-* Audience Managerセグメント
+* Audience Manager セグメント
 * Adobe Experience Cloudに公開される [!DNL Analytics] セグメント
 * Adobe Experience Cloud [!DNL Audience Library] を使用して作成されたセグメント
 * Adobe Experience Platformで作成され、Audience Managerを介してAdobe Advertisingに送信されるセグメント
@@ -82,6 +82,8 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ### [!UICONTROL Media Quality]
 
+<!-- See placement settings for specs on applicable ad/device types -->
+
 #### [!UICONTROL Contextual Filtering]
 
 適用する [!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science] および [!DNL Peer39] のコンテキストフィルターのタイプ。 広告主レベルの設定は、[ プレースメントレベル ](/help/dsp/campaign-management/placements/placement-settings.md) で上書きできます。
@@ -104,7 +106,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 **[!UICONTROL Alcohol Content]:** （任意）デフォルトで広告をブロックするアルコール度数。*[!UICONTROL Do Not Block]* （デフォルト）、*[!UICONTROL Standard]*、*[!UICONTROL Strict]* のいずれかです。 追加料金がかかる場合があります。
 
-#### [!UICONTROL Pre-Bid Fraud Blocking]
+#### [!UICONTROL Pre-Bid Fraud Blocking] {#prebid-fraud-blocking}
 
 [!DNL DoubleVerify]、[!DNL Integral Ad Science]、[!DNL Peer39] を通じて測定された不正なトラフィックや疑わしいアクティビティに基づいてブロックされるサイトのタイプ。 広告主レベルの設定は、[ プレースメントレベル ](/help/dsp/campaign-management/placements/placement-settings.md) で上書きできます。
 
@@ -112,15 +114,15 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** デフォルトでは、は、新しいプレースメントに対して、ハイジャックされたデバイス上のトラフィックを含むすべての 100% 無効なトラフィックをブロックします。 追加料金がかかる場合があります。
 
-**[!UICONTROL Also block sites with]:** （任意）DSPがデフォルトで広告をブロックする原因となる、追加の不正トラフィックおよび無効なトラフィックのレベル。*[!UICONTROL None]* （デフォルト。追加のトラフィックをブロックしません）、*[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*、*[!UICONTROL >4% Average Fraud/IVT levels]*、*[!UICONTROL >6% Average Fraud/IVT levels]*、*[!UICONTROL >10% Average Fraud/IVT levels]* または *[!UICONTROL >25% Average Fraud/IVT levels]*。 追加料金がかかる場合があります。
+**[!UICONTROL Also block sites with]:** （任意）DSPがデフォルトで広告をブロックする原因となる、追加の不正トラフィックおよび無効なトラフィックのレベル。*[!UICONTROL None]* （デフォルト。追加のトラフィックをブロックしません）、*[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*、*[!UICONTROL >4% Average Fraud/IVT levels]*、*[!UICONTROL >6% Average Fraud/IVT levels]*、*[!UICONTROL >10% Average Fraud/IVT levels]* または *[!UICONTROL >25% Average Fraud/IVT levels]* です。 追加料金がかかる場合があります。
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 
-**[!UICONTROL Block sites that are]:** （任意）DSPがデフォルトで広告をブロックする原因となる 1 つ以上の不正。*[!UICONTROL Fraud]* （不正を使用するすべてのサイトをブロックする）、*[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*、*[!UICONTROL Fraud: Zero Ads]* のいずれかです。 追加料金がかかる場合があります。
+**[!UICONTROL Block sites that are]:** （任意）DSPがデフォルトで広告をブロックする原因となる 1 つ以上の不正。*[!UICONTROL Fraud]* （不正を行うすべてのサイトをブロックする）、*[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*、*[!UICONTROL Fraud: Zero Ads]* のいずれかです。 追加料金がかかる場合があります。
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
-**[!UICONTROL Block sites that are]:** （任意）DSPがデフォルトで広告をブロックする原因となる、疑わしい web サイトまたはアプリアクティビティの種類。*[!UICONTROL None]* （デフォルト。疑わしいアクティビティに基づく広告をブロックしません）、*[!UICONTROL Suspicious Activity - High Risk]*、*[!UICONTROL Suspicious Activity - High or Moderate Risk]* のいずれかです。 追加料金がかかる場合があります。
+**[!UICONTROL Block sites that are]:** （任意）DSPがデフォルトで広告をブロックする原因となる、疑わしい web サイトまたはアプリアクティビティの一種。*[!UICONTROL None]* （デフォルト。疑わしいアクティビティに基づく広告をブロックしません）、*[!UICONTROL Suspicious Activity - High Risk]*、*[!UICONTROL Suspicious Activity - High or Moderate Risk]* のいずれかです。 追加料金がかかる場合があります。
 
 #### [!UICONTROL Pre-Bid Viewability]
 
@@ -130,19 +132,19 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ###### ビデオ
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**。 このオプションを使用して、条件を選択します。
+** **[!UICONTROL Include URL's whose average video viewability rate is]**。 このオプションを使用して、条件を選択します。
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**。 このオプションを使用して、条件を選択します。
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**。 このオプションを使用して、条件を選択します。
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**。 このオプションを使用して、条件を選択します。
+** **[!UICONTROL Include URL's whose average player size composition is]**。 このオプションを使用して、条件を選択します。
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 表示
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**。 このオプションを使用して、条件を選択します。
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**。 このオプションを使用して、条件を選択します。
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
