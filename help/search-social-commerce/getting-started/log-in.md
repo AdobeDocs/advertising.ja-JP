@@ -26,9 +26,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->会社はAdobe Experience Cloudでプロビジョニングする必要があり、[Experience Cloud アカウントを検索、ソーシャル、Commerceのアカウントにリンクする ](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html) 必要があります。
+>会社はAdobe Experience Cloudでプロビジョニングする必要があり、[Experience Cloud アカウントを検索、ソーシャル、Commerceのアカウントにリンクする ](https://experiencecloud.adobe.com/resources/help/ja_JP/mcloud/organizations.html) 必要があります。
 
-1. [Adobe Experience Cloudにログインします ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin)。
+1. [Adobe Experience Cloudにログインします ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ja#signin)。
 
 1. トップメニューで、「![ ソリューションセレクター ](/help/search-social-commerce/assets/menu-icon.png " ソリューションセレクター ")」を選択します。
 
