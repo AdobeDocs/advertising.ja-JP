@@ -3,7 +3,7 @@ title: ログイン
 description: ログイン方法を説明します。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 3d66f9a417d08f297d11b3f71479c3fe7a2232b3
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -22,13 +22,13 @@ ht-degree: 0%
 
    * その他すべてのエリアのユーザー：[https://enterprise-intl.efrontier.com](https://enterprise-intl.efrontier.com)
 
-## Adobe Experience Cloudからログインします
+## Adobe Experience Cloudからログイン
 
 >[!NOTE]
 >
->会社はAdobe Experience Cloudでプロビジョニングする必要があり、[Experience Cloudアカウントを検索、ソーシャル、Commerceのアカウントにリンクする ](https://experiencecloud.adobe.com/resources/help/ja_JP/mcloud/organizations.html) 必要があります。
+>会社はAdobe Experience Cloudでプロビジョニングする必要があり、[Experience Cloud アカウントを検索、ソーシャル、Commerceのアカウントにリンクする ](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html) 必要があります。
 
-1. [Adobe Experience Cloudにログインします ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ja#signin)。
+1. [Adobe Experience Cloudにログインします ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin)。
 
 1. トップメニューで、「![ ソリューションセレクター ](/help/search-social-commerce/assets/menu-icon.png " ソリューションセレクター ")」を選択します。
 
