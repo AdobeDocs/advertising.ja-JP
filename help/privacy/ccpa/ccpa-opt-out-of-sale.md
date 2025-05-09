@@ -4,7 +4,7 @@ description: 消費者の販売オプトアウトリクエストをキャプチ�
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 788b4ddb9b690a3f0bac93ec9b5145fc7a324719
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -44,7 +44,8 @@ CCPA のAdobe プライバシーサービスについて詳しくは、[Adobe �
 >
 >ユーザーは、CCPA の販売のオプトアウトセグメントに無期限に残ります。
 
-1. Advertising DSP （[https://advertising.adobe.com/](https://advertising.adobe.com/)）の広告主のアカウントにログインします。
+1. Advertising DSP （[https://advertising.adobe.com/](https://advertising.adobe.com/)）の広告主のアカウントにサインインします。
+
 1. [CCPA の販売オプトアウトセグメントを作成し、セグメントピクセルを実装してオプトアウトリクエストをキャプチャします ](/help/dsp/audiences/ccpa-opt-out-segment-create.md)。
 
 ### 方法 2:Adobe Experience Platform Privacy Service API を使用して CCPA の販売のオプトアウトリクエストを伝える
@@ -67,7 +68,7 @@ CCPA のAdobe プライバシーサービスについて詳しくは、[Adobe �
    >
    >会社のAdobe Advertising担当者に問い合わせて、組織のすべてのAdobe Advertising アカウント（[!DNL DSP] アカウントまたは広告主、[!DNL Search, Social, & Commerce] アカウント、[!DNL Creative] アカウントまたは [!DNL DCO] アカウントを含む）がExperience Cloudの組織 ID にリンクされていることを確認します。
 
-1. Adobe Experience Platform Privacy Service API を使用して、コンシューマーに代わってAdobe Advertisingに [ 販売のオプトアウトリクエストを送信 ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=ja) したり、既存のリクエストのステータスを確認したりできます。
+1. Adobe Experience Platform Privacy Service API を使用して、コンシューマーに代わってAdobe Advertisingに [ 販売のオプトアウトリクエストを送信 ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) したり、既存のリクエストのステータスを確認したりできます。
 
    販売のオプトアウトリクエストの例については、以下の付録を参照してください。
 
@@ -75,7 +76,7 @@ CCPA のAdobe プライバシーサービスについて詳しくは、[Adobe �
    >
    >ビジネスに複数のExperience Cloud組織 ID がある場合は、それぞれに個別の API リクエストを送信する必要があります。 ただし、サブソリューションごとに 1 つのアカウントを使用して、複数のAdobe Advertising サブソリューション（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]、[!DNL DCO]）に対して 1 つの API リクエストを行うことができます。
 
-これらの手順はすべて、Adobe Advertisingからのサポートを受けるために必要です。 Adobe Experience Platform Privacy Serviceを使用して行う必要のあるこれらのタスクやその他の関連タスクの詳細、および必要な項目の場所については、[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja) を参照してください。
+これらの手順はすべて、Adobe Advertisingからのサポートを受けるために必要です。 Adobe Experience Platform Privacy Serviceを使用して行う必要のあるこれらのタスクやその他の関連タスクの詳細、および必要な項目の場所については、[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) を参照してください。
 
 ## 販売のオプトアウトリクエストを送信した消費者のレポートを取得します
 
@@ -85,7 +86,8 @@ Adobe Advertisingは、アカウントの販売オプトアウトリクエスト
 
 ### 方法 1:Advertising DSP内の消費者の販売オプトアウトレポートの取得
 
-1. Advertising DSP （[https://advertising.adobe.com/](https://advertising.adobe.com/)）の広告主のアカウントにログインします。
+1. Advertising DSP （[https://advertising.adobe.com/](https://advertising.adobe.com/)）の広告主のアカウントにサインインします。
+
 1. [ レポートの取得 ](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)。
 
 ### 方法 2:Advertising DSP [!DNL Trafficking API] を使用した消費者の販売オプトアウトレポートの取得
@@ -131,7 +133,7 @@ curl -X POST \
 }'
 ```
 
-ここで、[Privacy Service API 仕様に従って ](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix):
+ここで、[Privacy Service API 仕様に従って ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` は `AdCloud` cookie 領域を示し、対応する値は `AdobePrivacy.js` から取得された顧客の cookie ID です
 * `"include": ["adCloud"]` は、リクエストが商品Adobe Advertisingに適用されることを示します

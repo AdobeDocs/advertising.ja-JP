@@ -3,7 +3,7 @@ title: デフォルトビューとカスタムビューの管理
 description: デフォルトビューとカスタムビューをカスタマイズする方法について説明します。
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 99523c4fe79637bf91688bdbf601799ce28316e3
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '2836'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## デフォルトビューまたはカスタムビューの適用
 
-* （既定のビュー） メイン メニューで、[\>]、[\>]、&lbrack;\>**[!UICONTROL Search]** の **[!UICONTROL Campaigns]** 順にクリックし **[!UICONTROL Campaigns]** す。 サブメニューで、**[!UICONTROL Live]** \> **\[ 図形タイプ\]** をクリックします。
+* （既定のビュー） メイン メニューで、[\>]、[\>]、[\>**[!UICONTROL Search]** の **[!UICONTROL Campaigns]** 順にクリックし **[!UICONTROL Campaigns]** す。 サブメニューで、**[!UICONTROL Live]** \> **\[ 図形タイプ\]** をクリックします。
 
 * （カスタムビュー）左側のナビゲーションパネルから：
 

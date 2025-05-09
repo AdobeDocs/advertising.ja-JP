@@ -4,7 +4,7 @@ description: 関連付けられたパスワードを変更した場合や証明�
 role: User, Admin
 exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Google Analytics] データソースの再認証
 
-*代理店管理者、代理店口座管理者、Adobe口座管理者、管理者専用*
+*代理店管理者、代理店担当営業、Adobe担当営業および管理者専用*
 
 データソースに使用されているメールアカウントのパスワードを変更した場合、またはアカウントの [!DNL OAuth] 証明書が期限切れになった場合、メールアカウントへのすべての開いている接続は閉じられるので、データの同期を再開するには再認証する必要があります。
 

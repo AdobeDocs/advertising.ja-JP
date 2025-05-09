@@ -3,7 +3,7 @@ title: カスタム目標
 description: 最低 CPA または最高 ROAS 用に最適化されたパッケージで成功イベントを定義するカスタム目標について説明します。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: 290eea50fe3c52a534ad6ab4fcf6d857b13230aa
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -19,17 +19,17 @@ ht-degree: 0%
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-各カスタム目標（目標）は、1 つ以上のコンバージョン指標と、それらの指標の相対的な重み付けで構成されます。 使用可能なコンバージョン指標には、Adobe Advertisingコンバージョンピクセルを使用してAdobe Analyticsを通じてトラッキングされるすべての指標が含まれます。 DSPのカスタム目標にはモバイル以外の重み付けが考慮されますが、すべての広告タイプで使用されます。
+各カスタム目標（目標）は、1 つ以上のコンバージョン指標と、それらの指標の相対的な重み付けで構成されます。 使用可能なコンバージョン指標には、Adobe Advertising コンバージョンピクセルを使用してAdobe Analyticsを通じてトラッキングされるすべての指標が含まれます。 DSPのカスタム目標にはモバイル以外の重み付けが考慮されますが、すべての広告タイプで使用されます。
 
 例えば、あるキャンペーンの特定のパッケージに関連する 3 つのコンバージョン指標（20 USD の「PDFのダウンロード」、30 USD の「電子メールのサインアップ」、40 USD の「注文確認」）があるとします。 顧客アクションの 1 回限りの金銭的価値に応じて重みを付ける場合、指標の相対的な重みは 1、1.5、2 になります。
 
 [ カスタム目標を作成 ](#custom-goal-create) したら、[ パッケージに割り当てる ](/help/dsp/campaign-management/packages/package-settings.md) ことで、Adobe Senseiを使用したレポートやアルゴリズムの最適化を行うことができます。
 
-重み付けレコメンデーションは、目標のDSPアトリビューション指標に対して自動的に生成され、ワンクリックですべての重み付けレコメンデーションを適用できます。 「ADSP_」で始まる目標に対するすべての重み付けの変更は、2 日以内にDSPでアルゴリズムにより適用されます。 重み付けの推奨事項について詳しくは、最適化ガイドの「（Beta）新しい目標」の章を参照してください。この章は、検索、ソーシャル、Commerce内から入手できます。
+重み付けレコメンデーションは、目標のDSP属性指標に対して自動的に生成され、ワンクリックですべての重み付けレコメンデーションを適用できます。 「ADSP_」が接頭辞の付いた目標に対するすべての重み付けの変更は、2 日以内にDSPでアルゴリズムにより適用されます。 重み付けの推奨事項について詳しくは、最適化ガイドの「（Beta）新しい目標」の章を参照してください。この章は、検索、ソーシャル、Commerce内から入手できます。
 
 ## カスタム目標の作成 {#custom-goal-create}
 
-カスタム目標を作成するには、DSP アカウントが、[!DNL Search, Social, & Commerce] クライアント設定内から同じAdobe Experience Cloud組織 ID を持つ [!DNL Search, Social, & Commerce] アカウントにリンクされている必要があります。 DSP アカウントが [!DNL Search, Social, & Commerce] アカウントにリンクされていない場合は、Adobeアカウントチームにお問い合わせください。
+カスタム目標を作成するには、DSP アカウントが、[!DNL Search, Social, & Commerce] クライアント設定内から同じAdobe Experience Cloud組織 ID を持つ [!DNL Search, Social, & Commerce] アカウントにリンクされている必要があります。 DSP アカウントが [!DNL Search, Social, & Commerce] アカウントにリンクされていない場合は、Adobe アカウントチームにお問い合わせください。
 
 1. （北米のユーザー） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) または（その他すべてのユーザー） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com) で [!DNL Advertising Search, Social, & Commerce] にログインします。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
       >[!NOTE]
       >
       >* カスタムイベント [!DNL Analytics]、命名規則 `custom_event_[*event #*]_[*Analytics report suite ID*]` に従います。 例：`custom_event_16_examplersid`
-      >* [!DNL Analytics] のディメンションとセグメントは、Adobe Advertisingの最適化には使用できません。
+      >* [!DNL Analytics] のディメンションとセグメントは、Adobe Advertisingの最適化では使用できません。
 
       >[!TIP]
       >
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> モバイル以外の重み付け（1）は、任意のデバイスのディスプレイ広告で追跡される売上高の$1 ごとに 1 の値と等しくなります。 例えば、モバイル以外の重み付けが 1 の$250 コンバージョンは、コンバージョンに対して$250 とレポートされます。 コンバージョン指標にモバイル以外の重み付け 0.5 が割り当てられている場合、$250 のコンバージョンは$125 としてAdobe Advertisingでレポートされます（$250 のコンバージョン * 0.5 [!UICONTROL Non-mobile Weight] = $125）。
+> モバイル以外の重み付け（1）は、任意のデバイスのディスプレイ広告で追跡される売上高の$1 ごとに 1 の値と等しくなります。 例えば、モバイル以外の重み付けが 1 の$250 コンバージョンは、コンバージョンに対して$250 とレポートされます。 コンバージョン指標にモバイル以外の重み付け 0.5 が割り当てられている場合、$250 のコンバージョンは$125 としてAdobe Advertisingにレポートされます（$250 のコンバージョン * 0.5 [!UICONTROL Non-mobile Weight] = $125）。
 
 #### 「[!UICONTROL Lowest Cost per Acquisition (CPA)]」の最適化目標を持つキャンペーンの例
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 カスタム目標で複数の指標を使用する場合は、次の 2 つのシナリオがあります。
 
-* キャンペーンの目標には複数の成功イベントがあります。 例えば、複数のオンサイトアクション（PDFのダウンロード、お問い合わせ、電子メールのサインアップ）を広告している場合、すべてのアクションが CPA 目標に貢献します。 目標に 3 つの個別の指標が含まれ、それぞれに 1 つの非モバイル重み付けが含まれる場合、[!DNL Adobe Sensei] アルゴリズムは各指標とユーザーデバイスタイプを同じ重要度で処理します。 様々な指標のコストや重要度が異なる場合は、それに応じて相対的な重み付けを調整します。
+* キャンペーンの目標には複数の成功イベントがあります。 例えば、複数のオンサイトアクション（PDFのダウンロード、お問い合わせ、電子メールのサインアップ）を目的として広告をしており、すべてのアクションが CPA 目標に貢献している場合があります。 目標に 3 つの個別の指標が含まれ、それぞれに 1 つの非モバイル重み付けが含まれる場合、[!DNL Adobe Sensei] アルゴリズムは各指標とユーザーデバイスタイプを同じ重要度で処理します。 様々な指標のコストや重要度が異なる場合は、それに応じて相対的な重み付けを調整します。
 
 <!-- update image or delete it and adjust the wording above
 

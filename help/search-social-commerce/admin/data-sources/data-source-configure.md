@@ -4,7 +4,7 @@ description: ' [!DNL Google Analytics]  ビューからデータソースを設�
 role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Google Analytics] ビューをデータソースとして設定する
 
-*代理店管理者、代理店口座管理者、Adobe口座管理者、管理者専用*
+*代理店管理者、代理店担当営業、Adobe担当営業および管理者専用*
 
 アカウント、プロパティ、ビューの組み合わせ [!DNL Google Analytics] とに 1 つのデータソースを作成できます。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. [!UICONTROL Deployment Prerequisites] ダイアログで、必要なカスタムディメンション「ef_id」が [!DNL Google Analytics] アカウントに実装されていることを確認するチェックボックスを選択し、「**[!UICONTROL Continue]**」をクリックします。
 
-   組織の他の役割によって、いくつかの前提条件が実行されている可能性があります。 前提条件について質問がある場合は、Adobeアカウントチームにお問い合わせください。
+   組織の他の役割によって、いくつかの前提条件が実行されている可能性があります。 前提条件について質問がある場合は、Adobe アカウントチームにお問い合わせください。
 
 1. [ データソース設定 ](data-source-settings.md) を入力します。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
          >
          >このメールアカウントのパスワードを後で変更した場合、そのメールアカウントへの開いているすべての接続は閉じられます。 データの同期を再開するには、このページに戻って [ 再認証 ](data-source-reauthenticate.md) してください。
 
-      1. チェックボックスをオンにして、Adobe Advertisingがアカウントの指標にアクセスすることを許可します。
+      1. チェックボックスをオンにして、Adobe Advertisingがアカウントの指標にアクセスすることを承認します。
 
       1. 「**[!UICONTROL Authenticate]**」をクリックします。
 

@@ -3,7 +3,7 @@ title: タグに追加  [!DNL Analytics for Advertising]  マクロ  [!DNL Flash
 description: 広告タグにマクロを追加する理由  [!DNL Analytics for Advertising]  方法  [!DNL Flashtalking]  説明します
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: a69bef9d249514f5c494cff8d706b9df792eaf23
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Advertising DSP広告に [!DNL Flashtalking] の広告タグを使用する場�
 
 >[!NOTE]
 >
->組織が [!DNL Flashtalking] と直接パートナーシップを結んでいる場合、この手順は必要ありません。 代わりに、[!DNL Flashtalking] アカウントにログインし、[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) にある [!DNL Flashtalking] サポートドキュメントに従って、データパスマクロを使用して `s_kwcid` および `ef_id` トラッキングパラメーターを追跡します。
+>組織が [!DNL Flashtalking] と直接パートナーシップを結んでいる場合、この手順は必要ありません。 代わりに、[!DNL Flashtalking] アカウントにログインし、[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) にある [!DNL Flashtalking] サポートのドキュメントに従って、データパスマクロを使用して `s_kwcid` および `ef_id` トラッキングパラメーターを追跡します。
 
 次のタイプの [!DNL Analytics for Advertising] 実装 [!DNL Flashtalking] ディスプレイ広告とビデオ広告にマクロを使用します。
 

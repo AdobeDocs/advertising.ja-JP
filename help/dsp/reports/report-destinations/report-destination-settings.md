@@ -3,7 +3,7 @@ title: レポート宛先設定
 description: 宛先タイプ別に、レポート宛先に必要な詳細を確認します。
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -36,9 +36,9 @@ ht-degree: 0%
 
 **[!UICONTROL Port]:** サーバーで使用するポート番号。 デフォルトは *[!UICONTROL 21]* です。
 
-**[!UICONTROL Username]:** サーバーにログインするためのユーザー名。
+**[!UICONTROL Username]:** サーバーにサインインするためのユーザー名。
 
-**[!UICONTROL Password]:** サーバーにログインするためのパスワード。
+**[!UICONTROL Password]:** サーバーにサインインするためのパスワード。
 
 **[!UICONTROL Path (Optional)]:** ファイルのアップロード先のサーバーパス。
 
@@ -50,9 +50,9 @@ ht-degree: 0%
 
 **[!UICONTROL Port]:** サーバーで使用するポート番号。 デフォルトは *[!UICONTROL 21]* です。
 
-**[!UICONTROL Username]:** サーバーにログインするためのユーザー名。
+**[!UICONTROL Username]:** サーバーにサインインするためのユーザー名。
 
-**[!UICONTROL Password]:** サーバーにログインするためのパスワード。
+**[!UICONTROL Password]:** サーバーにサインインするためのパスワード。
 
 **[!UICONTROL Path (Optional)]:** ファイルのアップロード先のサーバーパス。
 
@@ -64,9 +64,9 @@ ht-degree: 0%
 
 **[!UICONTROL Port]:** サーバーで使用するポート番号。 デフォルトは *[!UICONTROL 21]* です。
 
-**[!UICONTROL Username]:** サーバーにログインするためのユーザー名。
+**[!UICONTROL Username]:** サーバーにサインインするためのユーザー名。
 
-**[!UICONTROL Password]:** サーバーにログインするためのパスワード。
+**[!UICONTROL Password]:** サーバーにサインインするためのパスワード。
 
 **[!UICONTROL Path (Optional)]:** ファイルのアップロード先のサーバーパス。
 

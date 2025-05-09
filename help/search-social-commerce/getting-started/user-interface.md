@@ -3,7 +3,7 @@ title: ユーザーインターフェイスの編成方法
 description: 様々な機能へのアクセス場所について説明します。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Optimization]** – このメニューには、ビジネス目標の管理、ビジネス目標に基づくポートフォリオの管理、ポートフォリオのパフォーマンスの監視、ポートフォリオ間の [!UICONTROL Spend Recommendation Report] 合の生成、入札制約の管理、[!DNL Google Ads] コンバージョン値ルールの表示と管理（一部のユーザー）を行うオプションがあります。
 
-  これらの機能に関する別のドキュメントは、[!UICONTROL Help] ルプメニュー（[ ヘルプ ] メニュー &rbrack;(/help/search-social-commerce/assets/help-main-menu.png "[ ヘルプ ] メニュー !&lbrack;）から利用 ") きます。
+  これらの機能に関する別のドキュメントは、[!UICONTROL Help] ルプメニュー（[ ヘルプ ] メニュー ](/help/search-social-commerce/assets/help-main-menu.png "[ ヘルプ ] メニュー ![）から利用 ") きます。
 
 * **[!UICONTROL Insights & Reports]** – このメニューには、詳細なインサイトとレポートを生成するオプション、スプレッドシートフィードを使用してレポート作成を自動化するオプション、アラートを作成および監視するオプション、通知設定を設定するオプション、広告ネットワークのレコメンデーションを表示するオプション、広告主のアカウントに加えられた変更のログを表示するオプションが含まれています。
 
@@ -42,17 +42,17 @@ ht-degree: 0%
 
 * ![ アラート通知 ](/help/search-social-commerce/assets/notifications-panel.png " アラート通知 ") 検索、ソーシャル、Commerceの通知を一覧表示するパネル。
 
-  [Adobe Experience Cloudからログイン ](log-in.md) している場合、このパネルにはExperience Cloudからの通知が表示されます。
+  [Adobe Experience Cloudからログイン ](sign-in.md) すると、このパネルにExperience Cloudからの通知が表示されます。
 
 * ![ ヘルプメニュー ](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー ") ドキュメントおよびその他の情報へのリンクを含むヘルプメニュー。
 
 * ![ ソリューション切り替えツール ](/help/search-social-commerce/assets/menu-icon.png " ソリューション切り替えツール ") 切り替え先となるAdobe Experience Cloud ソリューションおよびサービスのリストです。
 
-* ![ ユーザープロファイル ](/help/search-social-commerce/assets/user-profile.png " ユーザープロファイル ") ログアウトできるプロファイルへのリンク。
+* ![ ユーザープロファイル ](/help/search-social-commerce/assets/user-profile.png " ユーザープロファイル ") サインアウトできるプロファイルへのリンク。
 
-  [Adobe Experience Cloudからログイン ](log-in.md) している場合は、Experience Cloudパスワードや通知設定など、Experience Cloudプロファイルを編集することもできます。
+  [Adobe Experience Cloudを使用してログイン ](sign-in.md) すると、Experience Cloudのパスワードや通知設定など、Experience Cloudのプロファイルを編集することもできます。
 
 >[!MORELIKETHIS]
 >
->* [ ログイン ](log-in.md)
->* [ ログアウト ](log-out.md)
+>* [ ログイン ](sign-in.md)
+>* [ ログアウト ](sign-out.md)
