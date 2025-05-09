@@ -46,11 +46,11 @@ Adobe Advertising DSPは、ログイン認証のためにAdobe Identity Manageme
 
    * 複数の IMS 組織にアクセスできる場合は、正しい組織を選択します。
 
-ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)」を参照してください。
+ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。
 
 ### トラブルシューティング
 
-一般的なログインの問題については、「[Adobe アカウントのログインの問題の解決 ](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)」も参照してください。
+一般的なログインの問題については、「[Adobe アカウントのログインの問題の解決 ](https://helpx.adobe.com/jp/manage-account/kb/account-password-sign-help.linkfree.html)」も参照してください。
 
 #### 新しい [!DNL Adobe] IMS ログインを有効にするための前提条件はありますか？
 

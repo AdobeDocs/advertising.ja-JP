@@ -68,7 +68,7 @@ CCPA のAdobe プライバシーサービスについて詳しくは、[Adobe �
    >
    >会社のAdobe Advertising担当者に問い合わせて、組織のすべてのAdobe Advertising アカウント（[!DNL DSP] アカウントまたは広告主、[!DNL Search, Social, & Commerce] アカウント、[!DNL Creative] アカウントまたは [!DNL DCO] アカウントを含む）がExperience Cloudの組織 ID にリンクされていることを確認します。
 
-1. Adobe Experience Platform Privacy Service API を使用して、コンシューマーに代わってAdobe Advertisingに [ 販売のオプトアウトリクエストを送信 ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) したり、既存のリクエストのステータスを確認したりできます。
+1. Adobe Experience Platform Privacy Service API を使用して、コンシューマーに代わってAdobe Advertisingに [ 販売のオプトアウトリクエストを送信 ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=ja) したり、既存のリクエストのステータスを確認したりできます。
 
    販売のオプトアウトリクエストの例については、以下の付録を参照してください。
 
@@ -76,7 +76,7 @@ CCPA のAdobe プライバシーサービスについて詳しくは、[Adobe �
    >
    >ビジネスに複数のExperience Cloud組織 ID がある場合は、それぞれに個別の API リクエストを送信する必要があります。 ただし、サブソリューションごとに 1 つのアカウントを使用して、複数のAdobe Advertising サブソリューション（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]、[!DNL DCO]）に対して 1 つの API リクエストを行うことができます。
 
-これらの手順はすべて、Adobe Advertisingからのサポートを受けるために必要です。 Adobe Experience Platform Privacy Serviceを使用して行う必要のあるこれらのタスクやその他の関連タスクの詳細、および必要な項目の場所については、[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) を参照してください。
+これらの手順はすべて、Adobe Advertisingからのサポートを受けるために必要です。 Adobe Experience Platform Privacy Serviceを使用して行う必要のあるこれらのタスクやその他の関連タスクの詳細、および必要な項目の場所については、[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja) を参照してください。
 
 ## 販売のオプトアウトリクエストを送信した消費者のレポートを取得します
 
@@ -133,7 +133,7 @@ curl -X POST \
 }'
 ```
 
-ここで、[Privacy Service API 仕様に従って ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
+ここで、[Privacy Service API 仕様に従って ](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` は `AdCloud` cookie 領域を示し、対応する値は `AdobePrivacy.js` から取得された顧客の cookie ID です
 * `"include": ["adCloud"]` は、リクエストが商品Adobe Advertisingに適用されることを示します
