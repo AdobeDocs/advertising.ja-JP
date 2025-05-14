@@ -3,9 +3,9 @@ title: パッケージの複製
 description: パッケージの複製方法を説明します。
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * 新しいパッケージのフライト日を変更します
 
-重複しないプレースメント設定のリストについては [&#128279;](#package-not-duplicated) 重複していないもの  を参照してください。
+重複しないプレースメント設定のリストについては ](#package-not-duplicated) 重複していないもの [ を参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 * 新しいパッケージをアクティブ化する準備ができるまで一時停止します。
 
-* 次の点を考慮し、必要に応じて新しいパッケージ設定を編集します。
+* 次の点を考慮し、必要に応じて新しいパッケージを編集します。
 
    * 新しいパッケージ予算に対応するのに十分な資金がありますか？
 

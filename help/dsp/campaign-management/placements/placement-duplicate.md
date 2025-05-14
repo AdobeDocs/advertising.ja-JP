@@ -3,9 +3,9 @@ title: プレースメントを複製
 description: 1 つ以上のプレースメントを複製する方法を説明します。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 * （元のキャンペーン内でプレースメントが重複している場合）オプションで、元の広告を複製します
 * 新しいプレースメントのステータスとフライト日を変更する
 
-重複しないプレースメント設定のリストについては [&#128279;](#placement-not-duplicated) 重複していないもの  を参照してください。
+重複しないプレースメント設定のリストについては ](#placement-not-duplicated) 重複していないもの [ を参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    1. （単一プレースメント）新しいプレースメント名を入力します。
 
-   1. **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**[!UICONTROL No package]*&#x200B;を選択します。
+   1. **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**[!UICONTROL No package]*を選択します。
 
    1. （任意）デフォルト設定を変更します。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 * 新しいプレースメントをアクティブ化する準備が整うまで一時停止します。
 
-* 次の点を考慮し、必要に応じて新しい配置設定を編集します。
+* 次の点を考慮し、必要に応じて新しいプレースメントを編集します。
 
    * 新しい配置予算に対応する十分な資金が勘定科目にありますか？
 

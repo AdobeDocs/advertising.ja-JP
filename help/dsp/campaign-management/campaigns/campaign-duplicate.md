@@ -3,9 +3,9 @@ title: キャンペーンの複製
 description: キャンペーンの複製方法について説明します。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * 新しいキャンペーンの実施日を変更
 
-重複しないプレースメント設定のリストについては [&#128279;](#campaign-not-duplicated) 重複していないもの  を参照してください。
+重複しないプレースメント設定のリストについては ](#campaign-not-duplicated) 重複していないもの [ を参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 * 新しいキャンペーンをアクティブ化する準備ができるまで一時停止します。
 
-* 次の点を考慮し、必要に応じて新しいキャンペーン設定を編集します。
+* 次の点を考慮し、必要に応じて新しいキャンペーンを編集します。
 
    * 新しいキャンペーン予算に対応するために十分な資金がありますか？
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    * 必要に応じて、[!UICONTROL Simple Ad Serving] 件の取引に対して新しいプレースメントを作成します。
 
-* パフォーマンスキャンペーン（つまり、カスタムの最適化目標を使用するパッケージを含んだキャンペーン）の場合は [&#128279;](/help/dsp/campaign-management/packages/package-settings.md) パッケージごとに [!UICONTROL Linked Package for Optimization Learnings Carryover] 設定を使用して、前のキャンペーンの履歴データをパッケージ最適化の入力として使用します。
+* パフォーマンスキャンペーン（つまり、カスタムの最適化目標を使用するパッケージを含んだキャンペーン）の場合は ](/help/dsp/campaign-management/packages/package-settings.md) パッケージごとに [[!UICONTROL Linked Package for Optimization Learnings Carryover] 設定を使用して、前のキャンペーンの履歴データをパッケージ最適化の入力として使用します。
 
 >[!MORELIKETHIS]
 >
