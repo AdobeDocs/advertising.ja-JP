@@ -3,9 +3,9 @@ title: パッケージの複製
 description: パッケージの複製方法を説明します。
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,14 @@ ht-degree: 0%
 パッケージを複製して、同様の設定でパッケージを作成します。 次の操作を実行できます。
 
 * 元の広告主とキャンペーン内、または別の広告主内でパッケージを複製します
+
 * オプションで、パッケージ内でプレースメントを複製します
+
 * （元のキャンペーン内で重複したパッケージの場合）オプションで、元の広告とプレースメントレベルのイベントピクセルを複製します
+
 * 新しいパッケージのフライト日を変更します
 
-重複しないプレースメント設定のリストについては [&#128279;](#package-not-duplicated) 重複していないもの  を参照してください。
+重複しないプレースメント設定のリストについては ](#package-not-duplicated) 重複していないもの [ を参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
@@ -58,6 +61,33 @@ ht-degree: 0%
    * イベントピクセル
    * 広告
    * プレースメントレベルの [!DNL DoubleVerify Authentic Brand Safety] セグメント（広告主レベルのセグメントを上書きします）
+
+## 新しいパッケージを設定するためのベストプラクティス
+
+>[!TIP]
+>
+>* バルクシートを使用して [ 複数の Campaign コンポーネントを一度に変更 ](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
+* 広告タグシートを使用して [ 複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
+
+* 新しいパッケージをアクティブ化する準備ができるまで一時停止します。
+
+* 次の点を考慮し、必要に応じて新しいパッケージ設定を編集します。
+
+   * 新しいパッケージ予算に対応するのに十分な資金がありますか？
+
+   * 新しいパッケージには、以前のパッケージとは異なる予算が必要ですか？
+
+   * 必要なカスタム広告の重み付けとスケジュールを含むクリエイティブをアップロードし、プレースメントに添付します。
+
+   * 必要に応じて、プレースメントと広告にイベントピクセルを添付します。
+
+   * 必要に応じて、プレースメントに対して地理的ターゲットとプレースメントレベルの [!DNL DoubleVerify Authentic Brand Safety] セグメントを含めます。
+
+   * プログラムで保証された取引の場合は、新しい取引 ID を使用し、デフォルトのプレースメントを作成します。
+
+   * 必要に応じて、[!UICONTROL Simple Ad Serving] 件の取引に対して新しいプレースメントを作成します。
+
+* カスタムの最適化目標を使用するパッケージの場合、各パッケージの [[!UICONTROL Linked Package for Optimization Learnings Carryover] 設定を使用して ](/help/dsp/campaign-management/packages/package-settings.md) パッケージを最適化するための入力として前のキャンペーンの履歴データを使用します。
 
 >[!MORELIKETHIS]
 >

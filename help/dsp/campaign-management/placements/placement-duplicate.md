@@ -3,9 +3,9 @@ title: プレースメントを複製
 description: 1 つ以上のプレースメントを複製する方法を説明します。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 * （元のキャンペーン内でプレースメントが重複している場合）オプションで、元の広告を複製します
 * 新しいプレースメントのステータスとフライト日を変更する
 
-重複しないプレースメント設定のリストについては [&#128279;](#placement-not-duplicated) 重複していないもの  を参照してください。
+重複しないプレースメント設定のリストについては ](#placement-not-duplicated) 重複していないもの [ を参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    1. （単一プレースメント）新しいプレースメント名を入力します。
 
-   1. **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**[!UICONTROL No package]*&#x200B;を選択します。
+   1. **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**[!UICONTROL No package]*を選択します。
 
    1. （任意）デフォルト設定を変更します。
 
@@ -68,6 +68,31 @@ ht-degree: 0%
    * イベントピクセル
    * 広告
    * プレースメントレベルの [!DNL DoubleVerify Authentic Brand Safety] セグメント（広告主レベルのセグメントを上書きします）
+
+## 新しいプレースメントを設定するためのベストプラクティス
+
+>[!TIP]
+>
+>* バルクシートを使用して [ 複数の Campaign コンポーネントを一度に変更 ](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
+* 広告タグシートを使用して [ 複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
+
+* 新しいプレースメントをアクティブ化する準備が整うまで一時停止します。
+
+* 次の点を考慮し、必要に応じて新しい配置設定を編集します。
+
+   * 新しい配置予算に対応する十分な資金が勘定科目にありますか？
+
+   * 新しいプレースメントに、以前のプレースメントとは異なる予算が必要かどうか。
+
+   * 必要なカスタム広告の重み付けとスケジュールを含むクリエイティブをアップロードし、プレースメントに添付します。
+
+   * 必要に応じて、プレースメントと広告にイベントピクセルを添付します。
+
+   * 必要に応じて、プレースメントに対して地理的ターゲットとプレースメントレベルの [!DNL DoubleVerify Authentic Brand Safety] セグメントを含めます。
+
+   * プログラムで保証された取引の場合は、新しい取引 ID を使用し、デフォルトのプレースメントを作成します。
+
+   * 必要に応じて、[!UICONTROL Simple Ad Serving] 件の取引に対して新しいプレースメントを作成します。
 
 >[!MORELIKETHIS]
 >

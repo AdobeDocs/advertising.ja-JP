@@ -3,9 +3,9 @@ title: キャンペーンの複製
 description: キャンペーンの複製方法について説明します。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,12 @@ ht-degree: 0%
 キャンペーンを複製して、類似の設定で新しいキャンペーンを作成します。 次の操作を実行できます。
 
 * 元の広告主または別の広告主のキャンペーンを複製
+
 * オプションで、元のパッケージとプレースメントを複製します
+
 * 新しいキャンペーンの実施日を変更
 
-重複しないプレースメント設定のリストについては [&#128279;](#campaign-not-duplicated) 重複していないもの  を参照してください。
+重複しないプレースメント設定のリストについては ](#campaign-not-duplicated) 重複していないもの [ を参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
@@ -50,9 +52,36 @@ ht-degree: 0%
    * 広告
    * プレースメントレベルの [!DNL DoubleVerify Authentic Brand Safety] セグメント（広告主レベルのセグメントを上書きします）
 
+## 新しいキャンペーンを設定するためのベストプラクティス
+
+>[!TIP]
+>
+>* バルクシートを使用して [ 複数の Campaign コンポーネントを一度に変更 ](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
+* 広告タグシートを使用して [ 複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
+
+* 新しいキャンペーンをアクティブ化する準備ができるまで一時停止します。
+
+* 次の点を考慮し、必要に応じて新しいキャンペーン設定を編集します。
+
+   * 新しいキャンペーン予算に対応するために十分な資金がありますか？
+
+   * 新しいキャンペーンには、以前のキャンペーンとは異なる予算が必要ですか？
+
+   * 必要なカスタム広告の重み付けとスケジュールを含むクリエイティブをアップロードし、プレースメントに添付します。
+
+   * 必要に応じて、プレースメントと広告にイベントピクセルを添付します。
+
+   * 必要に応じて、プレースメントに対して地理的ターゲットとプレースメントレベルの [!DNL DoubleVerify Authentic Brand Safety] セグメントを含めます。
+
+   * プログラムで保証された取引の場合は、新しい取引 ID を使用し、デフォルトのプレースメントを作成します。
+
+   * 必要に応じて、[!UICONTROL Simple Ad Serving] 件の取引に対して新しいプレースメントを作成します。
+
+* パフォーマンスキャンペーン（つまり、カスタムの最適化目標を使用するパッケージを含んだキャンペーン）の場合は ](/help/dsp/campaign-management/packages/package-settings.md) パッケージごとに [[!UICONTROL Linked Package for Optimization Learnings Carryover] 設定を使用して、前のキャンペーンの履歴データをパッケージ最適化の入力として使用します。
+
 >[!MORELIKETHIS]
 >
->* [Campaign Managementについて ](campaign-about.md)
+>* [Campaign 管理について ](campaign-about.md)
 >* [ キャンペーンの作成 ](campaign-create.md)
 >* [ キャンペーンの編集 ](campaign-edit.md)
 >* [ キャンペーンの変更ログを表示 ](campaign-change-log.md)
