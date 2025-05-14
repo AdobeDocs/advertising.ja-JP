@@ -3,9 +3,9 @@ title: キャンペーンの複製
 description: キャンペーンの複製方法について説明します。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * 新しいキャンペーンの実施日を変更
 
-重複しないプレースメント設定のリストについては [&#128279;](#campaign-not-duplicated) 重複していないもの  を参照してください。
+重複しないプレースメント設定のリストについては ](#campaign-not-duplicated) 重複していないもの [ を参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
@@ -43,6 +43,7 @@ ht-degree: 0%
 次の場合を除き、元のプレースメントのすべての設定が複製されます。
 
 * 実験設定
+* プレースメントレベルの最小予算
 * （フライトの日付を変更する場合）カスタム広告スケジュール
 * （広告を添付しない場合）カスタム広告の重み付けとスケジュール
 * プログラム保証（PG）取引のデフォルトのプレースメントと [!UICONTROL Simple Ad Serving] の取引のプレースメント
@@ -67,6 +68,8 @@ ht-degree: 0%
 
    * 新しいキャンペーンには、以前のキャンペーンとは異なる予算が必要ですか？
 
+   * プレースメントに最低予算が必要な場合は、
+
    * 必要なカスタム広告の重み付けとスケジュールを含むクリエイティブをアップロードし、プレースメントに添付します。
 
    * 必要に応じて、プレースメントと広告にイベントピクセルを添付します。
@@ -77,7 +80,7 @@ ht-degree: 0%
 
    * 必要に応じて、[!UICONTROL Simple Ad Serving] 件の取引に対して新しいプレースメントを作成します。
 
-* パフォーマンスキャンペーン（つまり、カスタムの最適化目標を使用するパッケージを含んだキャンペーン）の場合は [&#128279;](/help/dsp/campaign-management/packages/package-settings.md) パッケージごとに [!UICONTROL Linked Package for Optimization Learnings Carryover] 設定を使用して、前のキャンペーンの履歴データをパッケージ最適化の入力として使用します。
+* パフォーマンスキャンペーン（つまり、カスタムの最適化目標を使用するパッケージを含んだキャンペーン）の場合は ](/help/dsp/campaign-management/packages/package-settings.md) パッケージごとに [[!UICONTROL Linked Package for Optimization Learnings Carryover] 設定を使用して、前のキャンペーンの履歴データをパッケージ最適化の入力として使用します。
 
 >[!MORELIKETHIS]
 >
