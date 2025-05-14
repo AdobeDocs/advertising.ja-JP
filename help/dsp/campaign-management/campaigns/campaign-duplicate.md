@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * 新しいキャンペーンの実施日を変更
 
-重複しないプレースメント設定のリストについては ](#campaign-not-duplicated) 重複していないもの [ を参照してください。
+重複しないプレースメント設定のリストについては [&#128279;](#campaign-not-duplicated) 重複していないもの  を参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
    * 必要に応じて、[!UICONTROL Simple Ad Serving] 件の取引に対して新しいプレースメントを作成します。
 
-* パフォーマンスキャンペーン（つまり、カスタムの最適化目標を使用するパッケージを含んだキャンペーン）の場合は ](/help/dsp/campaign-management/packages/package-settings.md) パッケージごとに [[!UICONTROL Linked Package for Optimization Learnings Carryover] 設定を使用して、前のキャンペーンの履歴データをパッケージ最適化の入力として使用します。
+* パフォーマンスキャンペーン（つまり、カスタムの最適化目標を使用するパッケージを含んだキャンペーン）の場合は [&#128279;](/help/dsp/campaign-management/packages/package-settings.md) パッケージごとに [!UICONTROL Linked Package for Optimization Learnings Carryover] 設定を使用して、前のキャンペーンの履歴データをパッケージ最適化の入力として使用します。
 
 >[!MORELIKETHIS]
 >

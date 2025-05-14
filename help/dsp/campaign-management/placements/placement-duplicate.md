@@ -21,7 +21,7 @@ ht-degree: 0%
 * （元のキャンペーン内でプレースメントが重複している場合）オプションで、元の広告を複製します
 * 新しいプレースメントのステータスとフライト日を変更する
 
-重複しないプレースメント設定のリストについては ](#placement-not-duplicated) 重複していないもの [ を参照してください。
+重複しないプレースメント設定のリストについては [&#128279;](#placement-not-duplicated) 重複していないもの  を参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    1. （単一プレースメント）新しいプレースメント名を入力します。
 
-   1. **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**[!UICONTROL No package]*を選択します。
+   1. **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**[!UICONTROL No package]*&#x200B;を選択します。
 
    1. （任意）デフォルト設定を変更します。
 
