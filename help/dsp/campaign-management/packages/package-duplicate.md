@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * 新しいパッケージのフライト日を変更します
 
-重複しないプレースメント設定のリストについては ](#package-not-duplicated) 重複していないもの [ を参照してください。
+重複しないプレースメント設定のリストについては [&#128279;](#package-not-duplicated) 重複していないもの  を参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 >[!TIP]
 >
 >* バルクシートを使用して [ 複数の Campaign コンポーネントを一度に変更 ](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
-* 広告タグシートを使用して [ 複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
+>* 広告タグシートを使用して [ 複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
 
 * 新しいパッケージをアクティブ化する準備ができるまで一時停止します。
 
