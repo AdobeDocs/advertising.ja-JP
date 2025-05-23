@@ -3,9 +3,9 @@ title: クリエイティブライブラリについて
 description: 広告エクスペリエンスのクリエイティブの管理について説明します。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
+source-git-commit: c69b01e12801947f156120e50615225eb3dad261
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 柔軟なHTML5 クリエイティブは、HTML5 のすべての画像とその他の属性を標準のHTML タグとして持つクリエイティブで、クリエイティブライブラリ内または個々のエクスペリエンス内で [!DNL Creative] 内で直接編集できます（元のクリエイティブのバリエーションを作成します）。 柔軟なHTML5 クリエイティブは、Interactive Advertising Bureau （IAB）テクノロジーラボラトリーの標準である [ 広告ポートフォリオ ](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed --> を使用します。広告フォーマットのサイズは（固定ではなく）柔軟で、広告の縦横比とサイズ範囲に基づいており、デバイスやパブリッシャーサイトをまたいで解像度を維持する広告です。
 
-柔軟なHTML5 クリエイティブ <!-- either -->ZIP ファイルとしてアップロードできま <!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->。 詳しくは、[ フレキシブル HTML5 クリエイティブの仕様 ](html5-creative-specification.md) を参照してください。
+フレキシブルなHTML5 クリエイティブを ZIP ファイルとしてアップロードするか、アカウントで利用可能なテンプレートの 1 つを出発点として使用します – >。 詳しくは、[ フレキシブル HTML5 クリエイティブの仕様 ](html5-creative-specification.md) を参照してください。
 
 <!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
