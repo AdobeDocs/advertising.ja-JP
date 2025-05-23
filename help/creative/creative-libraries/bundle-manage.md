@@ -3,9 +3,9 @@ title: クリエイティブバンドルの管理
 description: xxxx について説明します。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ ht-degree: 0%
 
      すべての行を選択するには、左上の「グローバル」チェック・ボックスを選択します。
 
-## バンドル内のクリエイティブのプレビュー
+## バンドル内の 1 つのクリエイティブのプレビュー
 
 ハイパーリンクを含むクリエイティブは、ビューアに表示されるとおりにプレビューできます。
 
@@ -186,6 +186,31 @@ ht-degree: 0%
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
+## バンドル内のすべてのクリエイティブのプレビュー
+
+1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
+
+1. ライブラリ名をクリックします。
+
+1. 「**[!UICONTROL Bundles]**」タブをクリックします。
+
+1. バンドルを選択します。
+
+   * カード表示で、バンドル名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Preview]**」をクリックします。
+
+   * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Preview]** をクリックします。
+
+1. （オプション）クリエイティブを言語でフィルターするには、**[!UICONTROL Language]** リストでオプションを選択し、プレビューの右上に **[!UICONTROL Preview]** る「」をクリックします。
+
+1. （オプション）クリエイティブをサイズでフィルターするには、**[!UICONTROL Size]** リストでオプションを選択し、プレビューの右上に表示される「**[!UICONTROL Preview]**」をクリックします。
+
+1. （オプション）画面内の画像のサイズを変更するには、画像リストで **[!UICONTROL Zoom]** 像サイズの 10～100% の範囲でオプションを選択します。
+
+1. （任意） [!DNL Creative] へのログインを持たない他のユーザーがクリエイティブをプレビューできるようにデモ URL を共有するには、次のようにします。
+
+   1. プレビューの右上にある「![ 共有 ](/help/creative/assets/share.png " 共有 ")」をクリックします。
+
+   1. [!UICONTROL Share Demo URL] ダイアログで、「**[!UICONTROL Copy]**」をクリックして URL をクリップボードにコピーし、他のユーザーと共有できるようにします。
 
 <!-- Not there as of 1/22/25:
 
@@ -253,6 +278,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 >[!MORELIKETHIS]
 >
 >* [ エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除 ](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [ クリエイティブのプレビュー ](/help/creative/creative-libraries/creative-preview.md)
 >* [ クリエイティブライブラリへの標準クリエイティブの追加 ](/help/creative/creative-libraries/creative-add-standard.md)
 >* [ クリエイティブライブラリの管理 ](/help/creative/creative-libraries/creative-library-manage.md)
 >* [ クリエイティブライブラリについて ](/help/creative/creative-libraries/creative-libraries-about.md)
