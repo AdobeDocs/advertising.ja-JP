@@ -3,9 +3,9 @@ title: クリエイティブのプレビュー
 description: クリエイティブのプレビューを開く方法を説明します。
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 845ab0192a1cf429a282fbf934be10e1307d2034
+source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 0%
 1. （オプション）画面内の画像のサイズを変更するには、画像リストで **[!UICONTROL Zoom]** 像サイズの 10～100% の範囲でオプションを選択します。
 
 1. （柔軟なHTML5 クリエイティブ、オプション）クリエイティブのフレーム間をスクロールするには、「**\&lt;** and **\>**」をクリックします。
+
+1. （オプション）クリエイティブのランディングページを開くには、クリエイティブをクリックします。
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. （任意）クリエイティブをダウンロードするには、「![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
 

@@ -3,9 +3,9 @@ title: エクスペリエンスのプレビュー
 description: 広告エクスペリエンスでクリエイティブをプレビューする方法を説明します。
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,6 @@ ht-degree: 0%
 
    1. [!UICONTROL Share Demo URL] ダイアログで、「**[!UICONTROL Copy]**」をクリックして URL をクリップボードにコピーし、他のユーザーと共有できるようにします。
 
-
 ## デシジョンツリーのターゲット設定を使用しないエクスペリエンスでのクリエイティブのプレビュー
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
@@ -99,9 +98,13 @@ ht-degree: 0%
 
 1. 広告タグの名前をクリックして行を展開し、クリエイティブをプレビューします。
 
+1. （任意）クリエイティブのランディングページに移動するには、クリエイティブをクリックします。
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
 1. （任意）エクスペリエンスのデモ URL をコピーして、[!DNL Creative] へのログインなしで他のユーザーと共有するには、次のようにします。
 
-   1. プレビューの右上にある「![ 共有 ](/help/creative/assets/share.png " 共有 ")」をクリックします。
+   1. プレビューの右上にある「![ 共有 ](/help/creative/assets/share2.png " 共有 ")」をクリックします。
 
    1. [!UICONTROL Share Demo URL] ダイアログで、「**[!UICONTROL Copy]**」をクリックして URL をクリップボードにコピーし、他のユーザーと共有できるようにします。
 

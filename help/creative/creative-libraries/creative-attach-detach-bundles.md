@@ -3,14 +3,14 @@ title: クリエイティブバンドルへのクリエイティブの添付
 description: クリエイティブをクリエイティブバンドルに添付する方法を説明します。
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: add8f3507ca9b79cea862d097fb603c68eb09e3c
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
-# 添付 <!-- and detach --> クリエイティブバンドルへのクリエイティブ
+# クリエイティブバンドルへのクリエイティブの添付
 
 *クローズドベータ版*
 
@@ -26,7 +26,7 @@ You can also detach a creative from a bundle to remove the association between t
 >
 ><!-- also --> のことができます。 [ クリエイティブをバンドルに添付し、バンドル ビューからクリエイティブをバンドルに分離します ](/help/creative/creative-libraries/bundle-manage.md)。
 
-<!-- Hide header until second procedure is available:
+<!-- Hide header until second procedure is available (if we add that):
 
 ## Attach creatives to creative bundles
 
@@ -45,6 +45,8 @@ You can also detach a creative from a bundle to remove the association between t
    * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Attach to Bundles]** をクリックします。
 
    クリエイティブタイプに適格な各バンドルが右側のフレームに表示されます。 クリエイティブが既に添付されているバンドルが一覧表示されますが、選択することはできません。
+
+1. （オプション） ![ カード表示 ](/help/creative/assets/card-view-button.png " カード表示 ") をクリックしてカード表示を開くか、![テーブル/リスト表示](/help/creative/assets/table-view-button.png "テーブル表示") をクリックしてテーブル表示に戻ることで、デフォルトのテーブル表示と使用可能なバンドルのカード表示を切り替えます。
 
 1. 右側のフレームで、クリエイティブを添付する各バンドルの横にあるチェックボックスをオンにして、「**[!UICONTROL Attach Creative to Bundle]**」をクリックします。
 

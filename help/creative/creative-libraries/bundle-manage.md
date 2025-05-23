@@ -3,9 +3,9 @@ title: クリエイティブバンドルの管理
 description: xxxx について説明します。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
+source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -106,11 +106,9 @@ ht-degree: 0%
 
 [ 既存の標準クリエイティブ ](/help/creative/creative-libraries/creative-libraries-about.md) を標準バンドルに添付し、既存の動的クリエイティブ <!-- [existing dynamic creatives](creative-dynamic-manage.md) --> を動的バンドルに添付できます。 クリエイティブをバンドルに添付すると、バンドルが割り当てられているすべてのエクスペリエンスでクリエイティブが使用できるようになります。 各バンドルには、各\[creative size + language\] の組み合わせをそれぞれ 1 つだけ含めることができます。
 
-<!--
 >[!NOTE]
 >
->You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
--->
+>また、[ 標準広告ビューと動的広告ビューからバンドルにクリエイティブを添付 ](creative-attach-detach-bundles.md) することもできます。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
@@ -127,6 +125,8 @@ ht-degree: 0%
    * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Attach Creatives]** をクリックします。
 
    バンドルタイプに適格な各クリエイティブが、右側のフレームに表示されます。 既にバンドルに添付されているクリエイティブが一覧表示されますが、選択することはできません。
+
+1. （オプション） ![ カード表示 ](/help/creative/assets/card-view-button.png " カード表示 ") をクリックしてカード表示を開くか、![テーブル/リスト表示](/help/creative/assets/table-view-button.png "テーブル表示") をクリックしてテーブル表示に戻ることで、デフォルトのテーブル表示と使用可能なバンドルのカード表示を切り替えます。
 
 1. 右側のフレームで、バンドルに添付する各クリエイティブの横にあるチェックボックスをオンにして、「**[!UICONTROL Attach Creative to Bundle]**」をクリックします。
 
@@ -182,6 +182,10 @@ ht-degree: 0%
 
 <!-- Not there as of 1/22/24:  1. (Flexible HTML5 creatives; optional) To show all frames for the creative, select **Show frames**. -->
 
+1. （オプション）クリエイティブのランディングページを開くには、クリエイティブをクリックします。
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
 1. （任意）クリエイティブをダウンロードするには、「![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
@@ -205,6 +209,10 @@ ht-degree: 0%
 1. （オプション）クリエイティブをサイズでフィルターするには、**[!UICONTROL Size]** リストでオプションを選択し、プレビューの右上に表示される「**[!UICONTROL Preview]**」をクリックします。
 
 1. （オプション）画面内の画像のサイズを変更するには、画像リストで **[!UICONTROL Zoom]** 像サイズの 10～100% の範囲でオプションを選択します。
+
+1. （任意）クリエイティブのランディングページを開くには、クリエイティブをクリックします。
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. （任意） [!DNL Creative] へのログインを持たない他のユーザーがクリエイティブをプレビューできるようにデモ URL を共有するには、次のようにします。
 
