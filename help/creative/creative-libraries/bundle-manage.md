@@ -3,7 +3,7 @@ title: クリエイティブバンドルの管理
 description: xxxx について説明します。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
+source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
 workflow-type: tm+mt
 source-wordcount: '1359'
 ht-degree: 0%
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 1. （オプション）クリエイティブのランディングページを開くには、クリエイティブをクリックします。
 
-   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. （任意）クリエイティブをダウンロードするには、「![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
 
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 1. （任意）クリエイティブのランディングページを開くには、クリエイティブをクリックします。
 
-   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. （任意） [!DNL Creative] へのログインを持たない他のユーザーがクリエイティブをプレビューできるようにデモ URL を共有するには、次のようにします。
 
