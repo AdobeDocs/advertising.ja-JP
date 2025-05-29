@@ -3,9 +3,9 @@ title: デシジョンツリーのターゲット設定を使用したエクス�
 description: デシジョンツリーを使用してターゲット設定された広告エクスペリエンスを作成する方法を説明します。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,12 @@ ht-degree: 0%
          * [ 割り当てられたバンドル内のクリエイティブのトラッキング URL をカスタマイズ ](experience-tracking-urls-targeting.md)。
 
          * 割り当てられたバンドルの [ クリエイティブの最適化とスケジュールのカスタマイズ ](experience-optimization-scheduling-targeting.md)。
+
+1. （オプション）デシジョンツリーと一般設定を切り替えます。
+
+   * デシジョンツリーから一般設定を開くには、右上の「**[!UICONTROL Experience Form]**」をクリックします。
+
+   * [ 一般設定 ] からデシジョンツリーを開くには、右上の [**[!UICONTROL Decision Tree]**] をクリックします。
 
 1. [**[!UICONTROL Save]**] をクリックし、次の操作を行います。
 

@@ -3,9 +3,9 @@ title: デシジョンツリーのターゲット設定を使用したエクス�
 description: デシジョンツリーを使用してターゲット広告エクスペリエンスの設定を編集する方法を説明します。
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: 47a230347059a26c6c1c2db7c73306a376062478
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,15 @@ ht-degree: 0%
 
    * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Edit]** をクリックします。
 
-1. [ 一般的なエクスペリエンス設定 ](experience-settings-targeting.md) を編集します。
+   決定ツリーは、デフォルトで開きます。
 
-1. （オプション）デシジョンツリーを編集するには、右上の「**[!UICONTROL Decision Tree]**」をクリックし、次のいずれかの操作を行います。
+1. （オプション）必要に応じて、デシジョンツリーと一般設定を切り替えます。
+
+   * デシジョンツリーから一般設定を開くには、右上の「**[!UICONTROL Experience Form]**」をクリックします。
+
+   * [ 一般設定 ] からデシジョンツリーを開くには、右上の [**[!UICONTROL Decision Tree]**] をクリックします。
+
+1. （オプション）デシジョンツリーを編集するには、次のいずれかの操作を行います。
 
    * （[ 処理 ](experience-about.md#experience-statuses) エクスペリエンス）次のいずれかの操作を行います。
 
@@ -65,6 +71,8 @@ ht-degree: 0%
          * [ 割り当てられたバンドル内のクリエイティブのトラッキング URL をカスタマイズ ](experience-tracking-urls-targeting.md)。
 
          * 割り当てられたバンドルの [ クリエイティブの最適化とスケジュールのカスタマイズ ](experience-optimization-scheduling-targeting.md)。
+
+1. （任意） [ 一般的なエクスペリエンス設定 ](experience-settings-targeting.md) を編集します。
 
 1. [**[!UICONTROL Save]**] をクリックし、次の操作を行います。
 
