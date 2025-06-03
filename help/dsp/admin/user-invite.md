@@ -3,14 +3,16 @@ title: 組織アカウントの新規ユーザーを招待
 description: 新しいユーザーをアカウントに招待する方法を説明します。
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: a8ee699137d683986264e841b03bc292ce7b7843
+source-git-commit: 3ce910a553aa86836e04bd6e5d2a951db78070e1
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
 # 組織アカウントの新規ユーザーを招待
+
+*管理者ユーザーのみ*
 
 管理者ユーザーは、アカウントの新しいユーザーを招待できます。 ユーザーが招待を承諾すると、そのアカウントのすべての広告主にアクセスできるようになります。 新規ユーザーは、デフォルトで読み取り専用アクセス権があります。
 
