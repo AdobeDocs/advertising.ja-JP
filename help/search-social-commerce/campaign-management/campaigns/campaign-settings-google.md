@@ -356,7 +356,7 @@ ht-degree: 0%
 >[!NOTE]
 >オーディエンスシグナルは、[ キャンペーンレベルと広告グループレベルのオーディエンスターゲット ](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) とは異なります。
 
-**[!UICONTROL Primary Status]:** （Performance MAX キャンペーンの既存のアセットグループの読み取り専用フィールド）アセットグループがフルキャパシティで提供されている、または提供されていない理由。 アセットグループのステータスに加え、ポリシーや品質の承認などの他のシグナルも考慮されます。 値には、*ELIGIBLE、**LIMITED、**NOT_ELIGIBLE、**PAUSED、**PENDING、**REMOVED、**UNKNOWN、**UNSPECIFIED*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. --> などがあります。
+**[!UICONTROL Primary Status]:** （Performance MAX キャンペーンの既存のアセットグループの読み取り専用フィールド）アセットグループがフルキャパシティで提供されている、または提供されていない理由。 アセットグループのステータスに加え、ポリシーや品質の承認などの他のシグナルも考慮されます。 値には、*ELIGIBLE、**LIMITED、**&#x200B;NOT_ELIGIBLE、**PAUSED、**&#x200B;PENDING、**REMOVED、**&#x200B;UNKNOWN、**UNSPECIFIED*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. --> などがあります。
 
 **[!UICONTROL Primary Status Reason]:** （Performance MAX キャンペーンの既存のアセットグループの読み取り専用フィールド）アセットグループのプライマリステータスに関する追加の詳細。 値には、*ASSET_GROUP_DISAPPROVED、* *ASSET_GROUP_LIMITED、* *ASSET_GROUP_PAUSED、* *ASSET_GROUP_REMOVED、* *ASSET_GROUP_UNDER_REVIEW、* *CAMPAIGN_ENDED、* *CAMPAIGN_PAUSED、* *CAMPAIGN_PENDING、* *CAMPAIGN_REMOVED、* *UNKNOWN、* **、または UNSPECIFIED.UNSPECIFIED。
 
