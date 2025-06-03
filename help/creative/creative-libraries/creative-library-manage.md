@@ -3,7 +3,7 @@ title: クリエイティブライブラリの管理
 description: クリエイティブライブラリを作成、名前変更、削除する方法について説明します。
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: b41dfbb570db025a5eba3ceff8d28529f9a8058e
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
      すべての行を選択するには、左上の「グローバル」チェック・ボックスを選択します。
 
-1. 確認メッセージで、「**[!UICONTROL Delete].** <!--Verify wording -->」をクリックします
+1. 確認メッセージで、「**[!UICONTROL Delete].**」をクリックします。
 
 >[!MORELIKETHIS]
 >

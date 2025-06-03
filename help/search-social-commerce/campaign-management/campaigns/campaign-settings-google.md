@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] キャンペーンの設定'
 description: キャンペーンの設定  [!DNL Google Ads]  参照します。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: f5e453975f693777e5717924d471b9de9f1f651b
+source-git-commit: cbe18b75d49ca53460883931ecea21aa6c2d8326
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2472'
 ht-degree: 0%
 
 ---
@@ -347,7 +347,7 @@ ht-degree: 0%
 
 * [!UICONTROL Asset Library] ージからアセットを選択するには、「選 **[!UICONTROL Asset Library]**」をクリックしてアセットを選択します。
 
-**[!UICONTROL Call to Action]:** 広告に含めるコールトゥアクション。 デフォルトでは *[!UICONTROL Automated]* が選択されており、[!DNL Google Ads] がコールトゥアクションを選択します。 オプションで、別のアクションを選択できます。
+**[!UICONTROL Call to Action]:** 広告に含めるcall to action。 デフォルトでは *[!UICONTROL Automated]* が選択されており、[!DNL Google Ads] はcall to actionを選択します。 オプションで、別のアクションを選択できます。
 
 **[!UICONTROL Business Name]:** ビジネス名（最大 25 文字）。
 
@@ -356,7 +356,7 @@ ht-degree: 0%
 >[!NOTE]
 >オーディエンスシグナルは、[ キャンペーンレベルと広告グループレベルのオーディエンスターゲット ](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) とは異なります。
 
-**[!UICONTROL Primary Status]:** （Performance MAX キャンペーンの既存のアセットグループの読み取り専用フィールド）アセットグループがフルキャパシティで提供されている、または提供されていない理由。 アセットグループのステータスに加え、ポリシーや品質の承認などの他のシグナルも考慮されます。 値には、*ELIGIBLE、**LIMITED、**&#x200B;NOT_ELIGIBLE、**PAUSED、**&#x200B;PENDING、**REMOVED、**&#x200B;UNKNOWN、**UNSPECIFIED*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. --> などがあります。
+**[!UICONTROL Primary Status]:** （Performance MAX キャンペーンの既存のアセットグループの読み取り専用フィールド）アセットグループがフルキャパシティで提供されている、または提供されていない理由。 アセットグループのステータスに加え、ポリシーや品質の承認などの他のシグナルも考慮されます。 値には、*ELIGIBLE、**LIMITED、**NOT_ELIGIBLE、**PAUSED、**PENDING、**REMOVED、**UNKNOWN、**UNSPECIFIED*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. --> などがあります。
 
 **[!UICONTROL Primary Status Reason]:** （Performance MAX キャンペーンの既存のアセットグループの読み取り専用フィールド）アセットグループのプライマリステータスに関する追加の詳細。 値には、*ASSET_GROUP_DISAPPROVED、* *ASSET_GROUP_LIMITED、* *ASSET_GROUP_PAUSED、* *ASSET_GROUP_REMOVED、* *ASSET_GROUP_UNDER_REVIEW、* *CAMPAIGN_ENDED、* *CAMPAIGN_PAUSED、* *CAMPAIGN_PENDING、* *CAMPAIGN_REMOVED、* *UNKNOWN、* **、または UNSPECIFIED.UNSPECIFIED。
 
