@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## オンラインヘルプを開く
 
-すべての機能の使用方法を説明する完全なヘルプセットを開くには、メインメニューの **[!UICONTROL Help]** をクリックし、「[DNL Creative]」の章を開きます。
+すべての機能の使用方法を説明する完全なヘルプセットを開くには、メインメニューの **[!UICONTROL Help]** をクリックし、「[!DNL Creative]」の章を開きます。
 
 <!--
 ## Ask the Adobe Advertising community
