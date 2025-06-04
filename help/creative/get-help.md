@@ -2,9 +2,9 @@
 title: ヘルプを表示
 description: オンラインヘルプとコミュニティリソースを表示する方法と、テクニカルサポートを受ける方法について説明します。
 feature: Creative Introduction
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+source-git-commit: 8e09fd00597203bd837957fad663e6648655be43
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,12 @@ ht-degree: 0%
 
 ## オンラインヘルプを開く
 
-すべての機能の使用方法を説明する完全なヘルプセットを開くには、メインメニューの **[!UICONTROL Help]** をクリックし、「[!DNL Creative]」の章を開きます。
+すべての機能の使用方法を説明する完全なヘルプセットを開くには、メインメニューの「**[!UICONTROL Help]**」をクリックし、「[!DNL Creative]」の章を開きます。
 
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=ja).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## 連絡先 [!DNL Adobe]
