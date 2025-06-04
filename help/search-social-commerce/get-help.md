@@ -1,10 +1,11 @@
 ---
 title: ヘルプを表示
 description: オンラインヘルプとコミュニティリソースを表示する方法と、テクニカルサポートを受ける方法について説明します。
+feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: a900c0ef919c36810ce115b51dc432c0008f3419
+source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -25,9 +26,11 @@ ht-degree: 0%
 
    * ![ ヘルプ ](/help/search-social-commerce/assets/help-main-menu.png " ヘルプ ")/**検索、ソーシャル、Commerce最適化ガイド**。
 
-## Adobe Advertising コミュニティに質問する
+<!--
+## Ask the Adobe Advertising community
 
-[Adobe Advertising コミュニティフォーラム ](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=ja) で、ご質問に対する回答を探します。
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+-->
 
 ## 連絡先 [!DNL Adobe]
 
