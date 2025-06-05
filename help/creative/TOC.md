@@ -4,9 +4,9 @@ user-guide-title: Advertising Creative ガイド
 user-guide-description: Advertising Creativeの使用に必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Creative ガイド
 hide: true
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+source-git-commit: 98ae35b8ef428d662e329ba6dd77e28216575ae1
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,14 @@ ht-degree: 0%
 + [最新情報](/help/creative/home.md)
 + 概要 {#introduction}
    + [データビューのカスタマイズ](/help/creative/introduction/customize-data-views.md)
-   + [ 消費者プライバシーの支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [ 施策及び指針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [ 消費者プライバシーの支援 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [ 施策及び指針 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative ライブラリ {#creative-libraries}
    + [クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
    + [サポートされるクリエイティブのサイズ](/help/creative/creative-libraries/creative-sizes.md)
    + [クリエイティブライブラリの管理](/help/creative/creative-libraries/creative-library-manage.md)
    + クリエイティブ {#creatives}
+      + [Adobe Experience Manager画像アセッ  [!DNL Creative]  にアクセスするための設定](/help/creative/creative-libraries/aem-assets-configure.md)
       + 標準クリエイティブ {#standard-creatives}
          + [クリエイティブライブラリへの標準クリエイティブの追加](/help/creative/creative-libraries/creative-add-standard.md)
          + [標準クリエイティブの編集](/help/creative/creative-libraries/creative-edit-standard.md)
@@ -76,4 +77,4 @@ ht-degree: 0%
 + [リターゲティングピクセル](/help/creative/pixels/retargeting-pixel-manage.md)
 + [URL を追跡するために使用可能なマクロ](/help/creative/creative-macros.md)
 + [ヘルプを表示](/help/creative/get-help.md)
-+ [Adobe Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target="_blank"}
++ [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

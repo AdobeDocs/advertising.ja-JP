@@ -3,9 +3,9 @@ title: エクスペリエンスの最終レベルへのターゲットノード�
 description: 広告エクスペリエンスの最終ターゲットレベルにターゲットノードを追加する方法を説明します。
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 9f93990bcd6b3c8f7d6fb29186da620ac6d4ecf5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ ht-degree: 0%
 
       1. 「**[!UICONTROL Apply]**」をクリックします。
 
-   * データ パス ターゲットの場合、[**[!UICONTROL Data Pass]**] を選択し、データ パス値を 1 つ入力して、[**[!UICONTROL Apply]**] をクリックします。
+   * データ受け渡しターゲットの場合、**[!UICONTROL Data Pass]** を選択し、必要に応じてデータ受け渡しキーをカスタマイズし、データ受け渡し値を 1 つ入力して、「**[!UICONTROL Apply]**」をクリックします。
 
-   キーと値のペアのキーは、[ エクスペリエンス設定 ](experience-settings-targeting.md) の [!UICONTROL Advanced] セクションの **[!UICONTROL Data Pass]** フィールドに既に設定されています。
+   キーと値のペアのキーのデフォルト値は、[ エクスペリエンス設定 ](experience-settings-targeting.md) の [!UICONTROL Advanced] セクションの **[!UICONTROL Data Pass]** フィールドに既に設定されています。 オプションで、このキーをカスタマイズできます。
 
    * リターゲティングピクセルターゲットの場合は、「**[!UICONTROL RT Pixel]**」を選択し、使用するリターゲティングピクセルと、クリエイティブの表示に必要なピクセルの属性の値を 1 つ選択して、「**[!UICONTROL Apply]**」をクリックします。
 
