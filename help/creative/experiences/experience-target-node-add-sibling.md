@@ -2,9 +2,10 @@
 title: エクスペリエンスのノード間に兄弟ターゲットノードを追加します
 description: ターゲットを持つノード、またはターゲットを持つノードと同じレベルにあるノードに兄弟ノードを追加する方法を説明します。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ In an existing experience,
 
 1. ターゲットを指定します。
 
-   * Adobeオーディエンスターゲットの場合は、次の手順を実行します。
+   * Adobe Audience Target の場合は、次の操作を行います。
 
       1. 「**[!UICONTROL Click to Browse]**」をクリックして [!UICONTROL Audience Targeting] オプションを開き、「**[!UICONTROL Adobe Segments]**」タブを開き、広告主の [!DNL Adobe] オーディエンスターゲットを 1 つ以上指定して、「**[!UICONTROL Save]**」をクリックします。
 
@@ -51,9 +52,9 @@ In an existing experience,
 
       1. 「**[!UICONTROL Apply]**」をクリックします。
 
-   * データ・パス・ターゲットの場合は、データ・パス値を 1 つ入力し、「**[!UICONTROL Apply]**」をクリックします。
+   * データ・パス・ターゲットの場合は、オプションでデータ・パス・キーをカスタマイズし、データ・パス値を 1 つ入力し、「**[!UICONTROL Apply]**」をクリックします。
 
-   キーと値のペアのキーは、[ エクスペリエンス設定 ](experience-settings-targeting.md) の [!UICONTROL Advanced] セクションの **[!UICONTROL Data Pass]** フィールドに既に設定されており、追加のキーを追加することはできません。
+     キーと値のペアのキーのデフォルト値は、[ エクスペリエンス設定 ](experience-settings-targeting.md) の [!UICONTROL Advanced] セクションの **[!UICONTROL Data Pass]** フィールドに既に設定されています。 オプションで、このキーをカスタマイズできます。
 
    * ピクセルターゲットをリターゲティングするには、使用するリターゲティングピクセルと、クリエイティブを表示するために必要なピクセルの属性に必要な値を選択します。 次に、「**[!UICONTROL Apply]**」をクリックします。
 

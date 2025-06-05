@@ -3,9 +3,9 @@ title: エクスペリエンスのノード間にターゲットノードを追�
 description: 広告エクスペリエンスのターゲットノード間にターゲットノードを追加する方法を説明します。
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,9 @@ ht-degree: 0%
 
          1. 「**[!UICONTROL Apply]**」をクリックします。
 
-      * データ受け渡しターゲットの場合は、データ受け渡し値を 1 つ入力し、[**[!UICONTROL Apply]**] をクリックします。
+      * データ受け渡しターゲットの場合、必要に応じてデータ受け渡しキーをカスタマイズし、データ受け渡し値を 1 つ入力し、「**[!UICONTROL Apply]**」をクリックします。
 
-        キーと値のペアのキーは、[ エクスペリエンス設定 ](experience-settings-targeting.md) の [!UICONTROL Advanced] セクションの **[!UICONTROL Data Pass]** フィールドに既に設定されています。
+        キーと値のペアのキーのデフォルト値は、[ エクスペリエンス設定 ](experience-settings-targeting.md) の [!UICONTROL Advanced] セクションの **[!UICONTROL Data Pass]** フィールドに既に設定されています。 オプションで、このキーをカスタマイズできます。
 
       * リターゲティングピクセルターゲットの場合は、使用するリターゲティングピクセルを 1 つ選択し、クリエイティブの表示に必要なピクセルの属性の値を選択して、「**[!UICONTROL Apply]**」をクリックします。
 
