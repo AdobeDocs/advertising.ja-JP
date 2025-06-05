@@ -3,9 +3,9 @@ title: エクスペリエンスレベルのパフォーマンスレポート
 description: エクスペリエンスレベルのパフォーマンスレポートを表示する方法について説明します。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7e022d8753eb41f5eed8667b9af66085f912bff
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
-* **クリエイティブパフォーマンス** タブ*: クリエイティブ、バンドルまたは広告タグ別のパフォーマンスの概要。以下に例を示します。
+* **Creativeのパフォーマンス** タブ*: クリエイティブ、バンドルまたは広告タグ別のパフォーマンスの概要。以下に例を示します。
 
    * **クリエイティブ** サブタブ：エクスペリエンス内の各クリエイティブのインプレッション数、クリック数および CTR の合計 <!-- No breakdown yet for the individual ad elements and/or the served ads. -->。
 
@@ -158,12 +158,14 @@ ht-degree: 0%
 
    * （デシジョンツリーのターゲット設定を使用したエクスペリエンスのみ。オプション）適用された各広告ターゲットのパフォーマンスを分割するには、**[!UICONTROL Split targeting]** を有効にします。
 
-1. （任意） [!DNL Microsoft Excel] ファイルのデータをスプレッドシート（XLSX）形式でダウンロードするには、ツールバーの ![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ") をクリックします。
+## エクスペリエンスのパフォーマンスレポートをダウンロードする
 
-   ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
+* パフォーマンスレポートの上部にあるツールバーで、「![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
+
+  ファイルは、ブラウザーの通常の手順に従って、スプレッドシート（XLSX）形式の [!DNL Microsoft Excel] ファイルとしてダウンロードされます。
 
 >[!MORELIKETHIS]
 >
->* [ カスタムクリエイティブレポート ](/help/creative/report-custom-creative.md)
+>* [ カスタムCreativeレポート ](/help/creative/report-custom-creative.md)
 >* [ ビュー内のすべてのエクスペリエンスをダウンロード ](/help/creative/experiences/experience-download-view.md)
 >* [Advertising Creativeでのエクスペリエンスについて ](/help/creative/experiences/experience-about.md)
