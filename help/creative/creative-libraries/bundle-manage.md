@@ -3,9 +3,9 @@ title: クリエイティブバンドルの管理
 description: xxxx について説明します。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
+source-git-commit: baba02d2537828f1ed0b5c7842d1f987a55f5ef0
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,8 @@ ht-degree: 0%
 >
 >また、[ 標準広告ビューと動的広告ビューからバンドルにクリエイティブを添付 ](creative-attach-detach-bundles.md) することもできます。
 
+### バンドルリストからのバンドルへのクリエイティブの添付
+
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
 1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
@@ -129,6 +131,24 @@ ht-degree: 0%
 1. （オプション） ![ カード表示 ](/help/creative/assets/card-view-button.png " カード表示 ") をクリックしてカード表示を開くか、![テーブル/リスト表示](/help/creative/assets/table-view-button.png "テーブル表示") をクリックしてテーブル表示に戻ることで、デフォルトのテーブル表示と使用可能なバンドルのカード表示を切り替えます。
 
 1. 右側のフレームで、バンドルに添付する各クリエイティブの横にあるチェックボックスをオンにして、「**[!UICONTROL Attach Creative to Bundle]**」をクリックします。
+
+### バンドルのクリエイティブリストからバンドルにクリエイティブを添付
+
+1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
+
+1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+
+1. ライブラリ名をクリックします。
+
+1. 「**[!UICONTROL Bundles]**」タブをクリックします。
+
+1. バンドルカードまたは行をクリックすると、バンドル内のすべてのクリエイティブが表示されます。
+
+1. 右上で、「**[!UICONTROL Attach Creatives]**」をクリックします。
+
+1. 右側のパネルで、添付する各クリエイティブのチェックボックスをオンにします。
+
+1. 「**[!UICONTROL Attach Creatives to Bundle]**」をクリックします。
 
 ## バンドルからクリエイティブを分離 {#bundle-detach-creatives}
 
