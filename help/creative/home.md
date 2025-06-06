@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: false
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: ec551eb840ef1d35091426842458cde17b23863e
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,11 @@ ht-degree: 0%
 
 *クローズドベータ版*
 
-<!-- The following features are new or recently changed.  -->
+<!-- The following features are new or recently changed. -->
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025 年 5 月 21 日（Pt） | [!UICONTROL Creative Libraries] | Adobe Experience Manager アセットライブラリから [!UICONTROL Creative Libraries] に画像を追加して、広告エクスペリエンス内で使用できるようになりました。 | 「[Adobe Experience Manager画像アセットへのアクセスの設定 ](/help/creative/creative-libraries/aem-assets-configure.md)」および「[ クリエイティブライブラリへの標準クリエイティブの追加 ](/help/creative/creative-libraries/creative-add-standard.md) を参照してください。 |
 | 2025 年 2 月 10 日（Pt） | [!UICONTROL Creative Libraries] | 以前は、1 つのクリエイティブライブラリがありました。 これで、広告主ごとに複数のライブラリを作成できます。 | [ クリエイティブ・ライブラリについて ](/help/creative/creative-libraries/creative-libraries-about.md) を参照してください。 |
 | | [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] | [!UICONTROL Creatives] ビューには、[!UICONTROL Standard Ads] と [!UICONTROL Dynamic Ads] のタブが含まれています。<ul><li>「**[!UICONTROL Standard Ads]」タブでは** 画像、HTML5、フレキシブル HTML5、サードパーティクリエイティブをアップロードおよび管理できます。</li><li>「**[!UICONTROL Dynamic Ads]**」タブでは、定義済みの広告テンプレートを使用して、アップロードされたフィードファイルから作成された動的に生成された広告を管理できます。以前は、動的広告は [!DNL Adobe Advertising Dynamic Creative Optimization (DCO)] 内で生成されていました。<br><br> 現在、動的広告のプレビュー、複製、削除を行うことができます。 また、ターゲット設定された広告エクスペリエンス用のクリエイティブバンドルや、ターゲット設定されていないエクスペリエンス用の広告タグに動的広告を添付することもできます。 広告を動的に生成できるのは管理者ユーザーのみです。</li></ul> | [ クリエイティブ・ライブラリについて ](/help/creative/creative-libraries/creative-libraries-about.md) を参照してください。 |
 | | [!UICONTROL Creative Libraries] > [!UICONTROL Bundles] | 複数のクリエイティブを *バンドル* にグループ化して、エクスペリエンスに簡単に追加できます。 標準広告バンドルを作成し、標準クリエイティブを添付できます。 同様に、動的な広告バンドルを作成し、動的なクリエイティブを添付できます。 | 「[Creative バンドルの管理 ](/help/creative/creative-libraries/bundle-manage.md)」を参照してください。 |
