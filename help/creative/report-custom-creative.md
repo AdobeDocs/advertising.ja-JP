@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: クロスエクスペリエンス [!UICONTROL Custom Creative Report] ークフローを生成する方法を説明します。
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 3033f26bba5a9e7622d0de51b36035be1005c60f
+source-git-commit: a6e8bd3d9c2f8a373a90460b9ee8780d1c0702c6
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -183,8 +183,6 @@ ht-degree: 0%
 
 ## 使用可能なレポート列 {#report-custom-creative-columns}
 
-<!-- Need to finish these definitions -->
-
 | 指標タイプ | サブタイプ | 列名 | 説明 |
 |-----------|-------|-----------|-----------|
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Size] | 公開済み広告のディメンション。 |
@@ -196,16 +194,12 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative ID] | 親クリエイティブ [!UICONTROL Creative] 割り当てられた ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative Name] | 親クリエイティブの名前。 |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative Type] | 親クリエイティブのタイプ（[!UICONTROL HTML5] など）。 |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Ad Link] | 。 |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Click Type] | クリックタイプ。 |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Direction] | |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Ad Link] | ランディングページの URL。 |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Click Type] | ユーザーインタラクションの特定のタイプ。 |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Direction] | クリエイティブエクスペリエンス内でのユーザーのクリックインタラクションの方向性フローまたはナビゲーションパス。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Browser] | 広告が表示されたブラウザー（[!UICONTROL Chrome] や [!UICONTROL Firefox] など）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device OS] | 広告が表示されたオペレーティングシステム（[!UICONTROL Windows] など）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Type] | 広告が表示されたデバイスのタイプ（[!UICONTROL Desktop] など）。 |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Ad ID] | 広告の ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Buy ID] | 広告プレースメントの購入 ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Creative ID] | クリエイティブの ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP ID] | 広告が実行されたDSPの ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Name] | 広告が実行されたDSPの名前。 |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement ID] | 広告が実行されたプレースメントの ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement Name] | 広告が実行されたプレースメントの名前。 |
@@ -216,8 +210,8 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Date/Time] | イベントの日時。 |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Experience ID] | エクスペリエンス [!UICONTROL Creative] 割り当てられた ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Experience Name] | エクスペリエンスの名前。 |
-| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Targeting Branch Value] | ターゲット。 |
-| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Trafficking Line] | |
+| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Targeting Branch Value] | ユーザーに提供されたクリエイティブエクスペリエンスバリアントを決定した、ターゲティング決定ツリー内の特定のパス。 |
+| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Trafficking Line] | 広告タグの名前。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL City] | レポートされたデータが関連付けられている市区町村。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL Country Code] | レポートされたデータが関連付けられる国の国コード。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL DMA] | レポートされたデータの帰属先となる指定マーケットエリア（DMA）。 |
@@ -232,22 +226,22 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Creative Attribute 5] | （ダイナミック広告） 5 番目のクリエイティブ属性。 |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product ID] | （動的広告）ターゲット製品 ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product Name] | （動的広告）ターゲットの製品名。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Matched Audience Segment ID] | レポートされたデータの帰属先オーディエンスセグメントの ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment ID] | レポートされたデータの帰属先となるオーディエンスセグメントのセグメント ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment Name] | レポートされたデータの帰属先となるオーディエンスセグメントの名前。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Matched Audience Segment ID] | 広告テーマに一致した最大 5 つのユーザーセグメントの ID。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment ID] | レポートされたデータの帰属先となるリターゲティングピクセルの ID。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment Name] | レポートされたデータの帰属先となるリターゲティングピクセルの名前。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Values] | レポートされたデータの帰属先となるオーディエンスセグメントの属性。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Clicks] | 広告のすべてのクリックの合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL CTR] | クリックスルー率（クリックの割合を広告インプレッション数で割った値）。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagement Rate] | ユーザーエンゲージメントにつながった、インプレッション数の割合。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagements] | 提供された広告でのインタラクションの数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Impressions] | 広告インプレッションの合計数。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | 製品の広告のすべてのクリックの合計。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | 製品の広告におけるすべてのコンバージョンの合計。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | コンバージョンにつながった製品の広告の割合。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | 製品の広告のクリックスルー率（クリックの割合を広告インプレッション数で割った値）。 |
-| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | 商品のインプレッションの合計数。 |
-| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | 製品で提供された広告の合計売上高。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | リターゲットされた cookie を使用したインプレッションの割合。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | （動的広告のみ）製品の広告に対するすべてのクリック数の合計。 商品が null の場合、この値はゼロ（0）になります。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | （動的広告のみ）製品の広告に関するすべてのコンバージョンの合計。 商品が null の場合、この値はゼロ（0）になります。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | （動的広告のみ）コンバージョンにつながった製品の広告の割合。 商品が null の場合、この値はゼロ（0）になります。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | （動的広告のみ）製品の広告のクリックスルー率。クリックの割合を広告インプレッション数で割った値です。 商品が null の場合、この値はゼロ（0）になります。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | （動的広告のみ）製品のインプレッションの合計数。 商品が null の場合、この値はゼロ（0）になります。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | （動的広告のみ）製品で提供された広告の合計売上高。 商品が null の場合、この値はゼロ（0）になります。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | 提供済み広告の合計売上高。 |
 | [!UICONTROL Conversion Metrics] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のコンバージョン ] | 指定した広告主固有のコンバージョン指標またはAdobe Analytics イベントの合計。 |
 | [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のカスタム目標 ] | （Advertising DSPを使用する広告主）指定した [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md) に含まれるすべてのコンバージョンの加重合計。 |
