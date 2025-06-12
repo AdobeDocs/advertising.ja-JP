@@ -3,9 +3,9 @@ title: パブリッシャーの推奨事項とインサイトのサポートに�
 description: パブリッシャーのレコメンデーションとインサイトの表示と管理のサポートについて説明します。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
+source-git-commit: 568927a009b2c38d30fc817a9f4aa4e964b4cd9f
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * [!DNL Google Ads] の各レコメンデーションでは、アカウントのパフォーマンス履歴、キャンペーン設定、キャンペーン全体のトレンドに基づいて、アセットの追加から予算の増加まで、キャンペーンの様々なパフォーマンス面に関するカ [!DNL Google Ads] タマイズされた提案が提供されます。
 
-* パフォーマンス [!DNL Microsoft Advertising] インサイトと推奨事項のそれぞれは、機械学習アルゴリズムとベストプラクティスに基づいて、キャンペーンのパフォーマンスを最適化するための変更を提案します。
+* パフォーマンス [!DNL Microsoft Advertising]insightと推奨事項のそれぞれでは、機械学習アルゴリズムとベストプラクティスに基づいて、キャンペーンのパフォーマンスを最適化するための変更点を提案しています。
 
 ## [!UICONTROL Recommendations & Publisher Insights] ビュー
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
   ビューを開くと、データをリアルタイムで使用できます。 データを更新するには、ページの左下にある ![ 更新 ](/help/search-social-commerce/assets/refresh.png " 更新 ") をクリックします。
 
-* [!DNL Microsoft Advertising] アカウントについては、[!DNL Microsoft Advertising] アカウントに対して過去 30 日間に生成された各パフォーマンスインサイトを一目で確認できます。 インサイトは、レコメンデーションと同様の情報を提供しますが、形式が異なります。 各インサイトには、日付、イシューの説明、影響を受けるエンティティ、根本原因（詳細へのリンクを含んでいる場合があります）、提案されたアクションと、特定のインサイトに基づいて行動できる [!DNL Microsoft Advertising] エディターを開くためのリンクが含まれます。
+* [!DNL Microsoft Advertising] アカウントについては、[!DNL Microsoft Advertising] アカウントに対して過去 30 日間に生成された各パフォーマンスインサイトを一目で確認できます。 インサイトは、レコメンデーションと同様の情報を提供しますが、形式が異なります。 各insightには、日付、問題の説明、影響を受けるエンティティ、根本原因（詳細へのリンクを含んでいる場合があります）、および提案されたアクションと、特定のinsightを操作できる [!DNL Microsoft Advertising] エディターを開くためのリンクが含まれています。
 
 * レコメンデーションに関する詳細を表示し、レコメンデーションを直接適用または却下します。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->広告ネットワークのレコメンデーションとパフォーマンスインサイトはキャンペーンのパフォーマンスを向上させるのに役立ちますが、より広範な目標と合致しない場合もあります。 そのため、推奨事項やインサイトを実装する前に、Adobe アカウントチームに相談することをお勧めします。
+>広告ネットワークのレコメンデーションとパフォーマンスインサイトはキャンペーンのパフォーマンスを向上させるのに役立ちますが、より広範な目標と合致しない場合もあります。 そのため、レコメンデーションやinsightを実装する前に、Adobe アカウントチームに問い合わせることをお勧めします。
 
 ## [!DNL Google Ads] でサポートされるレコメンデーションタイプ
 
@@ -46,6 +46,7 @@ ht-degree: 0%
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] （現在は [!DNL Google Ads] では「[!DNL Ads and assets]」と呼ばれます） | [!UICONTROL Call extension] | キャンペーンへの呼び出し拡張機能の追加 |
 | | [!UICONTROL Callout extension] | キャンペーンへのコールアウト拡張機能の追加 |
+|  | [!UICONTROL Improve demand gen ad strength] | 需要生成広告の広告効果を向上させるための提案 |
 | | [!UICONTROL Optimize ad rotation] | 最適化された広告回転を使用 |
 | | [!UICONTROL Responsive search ad] | 新しいレスポンシブ検索広告の追加 |
 | | [!UICONTROL Responsive search ad asset] | 広告へのレスポンシブ検索広告アセットの追加 |
@@ -77,6 +78,7 @@ ht-degree: 0%
 | | [!UICONTROL Target ROAS opt in] | [!UICONTROL Target ROAS] 入札戦略への変更 |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | ディスプレイ拡張を使用するようにキャンペーンを更新してリーチを拡大 |
 | | [!UICONTROL Keyword] | 新しいキーワードを追加 |
+|  | [!UICONTROL Refresh customer match list] | 顧客一致リストを更新して、最近の顧客にパーソナライズされた広告を表示します |
 | | [!UICONTROL Search partners opt in] | [!DNL Google] 検索パートナーとのリーチを拡大 |
 | | [!UICONTROL Use broad match keyword] | 完全に自動化されたコンバージョンベースの入札を使用して、コンバージョンベースのキャンペーンに部分一致を使用します |
 
