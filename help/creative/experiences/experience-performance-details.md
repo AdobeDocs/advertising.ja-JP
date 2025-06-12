@@ -3,7 +3,7 @@ title: エクスペリエンスレベルのパフォーマンスレポート
 description: エクスペリエンスレベルのパフォーマンスレポートを表示する方法について説明します。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: fc28fe5c4486939718cf6e7bd58555f72fd0c8ed
+source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -22,33 +22,33 @@ ht-degree: 0%
 
 * **概要** タブ：以下を含む、エクスペリエンス全体のすべてのコンバージョン指標に関するパフォーマンスの概要。
 
-<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
 
-* **全体的なパフォーマンス** セクション：
+   * **全体的なパフォーマンス** セクション：
 
-* **全体的なパフォーマンス**：合計インプレッション数、クリック数、クリックスルー率（CTR）、ビュースルーコンバージョンおよびクリックスルーコンバージョン。
+      * **全体的なパフォーマンス**：合計インプレッション数、クリック数、クリックスルー率（CTR）、ビュースルーコンバージョンおよびクリックスルーコンバージョン。
 
-  <!--
+     <!--
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-* **デフォルト率**: （決定ツリーのターゲット設定を使用したエクスペリエンスのみ）ターゲットクリエイティブ、ターゲットを設定していない汎用クリエイティブまたは「その他すべてのユーザー」をターゲットにした汎用クリエイティブおよびエクスペリエンスのデフォルトクリエイティブによるインプレッション数。
+      * **デフォルト率**: （決定ツリーのターゲット設定を使用したエクスペリエンスのみ）ターゲットクリエイティブ、ターゲットを設定していない汎用クリエイティブまたは「その他すべてのユーザー」をターゲットにした汎用クリエイティブおよびエクスペリエンスのデフォルトクリエイティブによるインプレッション数。
 
-  <!--
+     <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-* **パフォーマンスの分類** セクション：
+   * **パフォーマンスの分類** セクション：
 
-   * **地域パフォーマンス：*：地理的な場所ごとの個々の指標。
+      * **地域パフォーマンス：*：地理的な場所ごとの個々の指標。
 
-     <!--   
+        <!--   
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-   * **デバイスのパフォーマンス：** デバイスタイプ、オペレーティングシステムおよびブラウザー別の個々の指標。 必要に応じて、任意のデバイスカテゴリの値をクリックして <!-- NN --> その条件を提供した上位のクリエイティブのリストを表示します。
+      * **デバイスのパフォーマンス：** デバイスタイプ、オペレーティングシステムおよびブラウザー別の個々の指標。 必要に応じて、任意のデバイスカテゴリの値をクリックして <!-- NN --> その条件を提供した上位のクリエイティブのリストを表示します。
 
-     <!--    
+        <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
