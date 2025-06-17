@@ -2,9 +2,10 @@
 title: デシジョンツリーのターゲット設定を使用しないエクスペリエンスの作成
 description: ターゲティングを使用せずに広告エクスペリエンスを作成する方法を説明します。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 327b1df5-5663-4513-9238-f481370c8c38
+source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,12 @@ ht-degree: 0%
 # デシジョンツリーのターゲット設定を使用しないエクスペリエンスの作成
 
 *クローズドベータ版*
+
+ターゲティングを使用しない広告エクスペリエンスの作成。 各エクスペリエンスは、1 つのクリエイティブライブラリの広告を使用できます。
+
+>[!NOTE]
+>
+> ターゲット設定されていないエクスペリエンスを作成した後は、別のワークフローを使用するターゲット設定されたエクスペリエンスに変更することはできません。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
 
@@ -25,7 +32,11 @@ ht-degree: 0%
 
    * [ 該当するクリエイティブサイズの広告タグを手動で作成 ](experience-tag-create-manually.md)。
 
+     ターゲッ [!DNL Creative] されていないエクスペリエンスの広告タグは自動的に作成されません。
+
    * [ クリエイティブを広告タグに割り当てる ](experience-tag-assign-creatives.md)。
+
+     エクスペリエンス設定ではなく、広告タグにクリエイティブを割り当てます。
 
    * [トラッキング URL のカスタマイズ](experience-tracking-urls-no-targeting.md)
 

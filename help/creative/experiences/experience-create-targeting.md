@@ -3,9 +3,9 @@ title: デシジョンツリーのターゲット設定を使用したエクス�
 description: デシジョンツリーを使用してターゲット設定された広告エクスペリエンスを作成する方法を説明します。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
+source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,12 @@ ht-degree: 0%
 # デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成
 
 *クローズドベータ版*
+
+デシジョンツリーを使用してターゲット設定された広告エクスペリエンスを作成します。 各エクスペリエンスは、1 つのクリエイティブライブラリの広告を使用します。
+
+>[!NOTE]
+>
+> ターゲット設定されたエクスペリエンスを作成した後は、別のワークフローを使用する、ターゲット設定されていないエクスペリエンスに変更することはできません。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
 

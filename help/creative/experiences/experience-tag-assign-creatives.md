@@ -2,9 +2,10 @@
 title: ターゲティングを使用しないエクスペリエンスの広告タグへのクリエイティブの割り当て
 description: 特定のクリエイティブサイズの広告タグにクリエイティブを割り当てる方法を説明します。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
+source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *デシジョンツリーのターゲット設定を使用しないエクスペリエンスのみ*
 *クローズドベータ版*
 
-エクスペリエンスに使用する広告タグには、適切なクリエイティブサイズのクリエイティブを割り当てることができます。 標準の広告エクスペリエンスの場合は、標準のクリエイティブのみを割り当てることができます。 動的な広告エクスペリエンスの場合は、動的なクリエイティブのみを割り当てることができます。<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
+エクスペリエンスに使用する広告タグには、適切なクリエイティブサイズのクリエイティブを割り当てることができます。 エクスペリエンス設定で指定されたクリエイティブライブラリのクリエイティブを使用できます。 標準の広告エクスペリエンスの場合は、標準のクリエイティブのみを割り当てることができます。 動的な広告エクスペリエンスの場合は、動的なクリエイティブのみを割り当てることができます。<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
 
 後で広告タグに使用するクリエイティブを [ トラッキング URL をカスタマイズ ](experience-tracking-urls-no-targeting.md) したり、[ クリエイティブの最適化とスケジュールをカスタマイズ ](experience-optimization-scheduling-no-targeting.md) したりできます。
 

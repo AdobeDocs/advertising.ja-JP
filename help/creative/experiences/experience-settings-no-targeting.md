@@ -3,9 +3,9 @@ title: ターゲット以外のエクスペリエンスの設定
 description: デシジョンツリーのターゲット設定を使用しない広告エクスペリエンスのすべての設定の説明を参照してください。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
+source-git-commit: e070e676b9ae321ddc73acfff0dfc05ea91f9715
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Targeting] セクション
 
-**[!UICONTROL Targeting]:** （既存のエクスペリエンスに対しては読み取り専用）デシジョンツリーを使用してターゲティングを有効にしない場合は適用されません。このオプションは無効のままにしてください。
+**[!UICONTROL Targeting]:** （既存のエクスペリエンスに対しては読み取り専用）デシジョンツリーを使用してターゲティングを有効にしない場合は適用されません。このオプションは無効のままにしてください。 **メモ：** ターゲティングを行わずにエクスペリエンスを保存すると、後でターゲティングを追加することはできません。
 
 **[!UICONTROL Dynamic ads]:** （既存のエクスペリエンスの読み取り専用）エクスペリエンスに動的広告が含まれていることを示します。 **メモ：** エクスペリエンスには、すべての標準広告またはすべての動的広告のいずれかを含めることができます。
 

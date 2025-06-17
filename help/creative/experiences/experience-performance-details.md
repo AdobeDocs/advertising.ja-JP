@@ -3,9 +3,9 @@ title: エクスペリエンスレベルのパフォーマンスレポート
 description: エクスペリエンスレベルのパフォーマンスレポートを表示する方法について説明します。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 118838e0236c0e40aea797edb1b2f8fb0efb2a79
+source-git-commit: 1718a7f5a7e3bbfeed336b195a2575275c8fd753
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **デバイスのパフォーマンス：** デバイスタイプ、オペレーティングシステムおよびブラウザー別の個々の指標。 必要に応じて、任意のデバイスカテゴリの値をクリックして <!-- NN --> その条件を提供した上位のクリエイティブのリストを表示します。
+      * **デバイスのパフォーマンス：** デバイスタイプ、オペレーティングシステムおよびブラウザー別の個々の指標。 必要に応じて、任意のデバイスカテゴリの値をクリックして、その条件を満たす上位 10 件のクリエイティブのリストを表示します。
 
         <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
