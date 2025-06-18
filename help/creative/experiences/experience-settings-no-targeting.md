@@ -3,9 +3,9 @@ title: ターゲット以外のエクスペリエンスの設定
 description: デシジョンツリーのターゲット設定を使用しない広告エクスペリエンスのすべての設定の説明を参照してください。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: e070e676b9ae321ddc73acfff0dfc05ea91f9715
+source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 **RT Pixel:** （動的広告を含むエクスペリエンスのみ。オプション）潜在的にターゲットにする [!UICONTROL Creative] リターゲティングピクセル。 デシジョンツリー内でターゲティングを設定する場合、1 レベルの RT ピクセルターゲットノードを含めることができます。 各ノードには、ターゲットとするピクセルと、割り当てられたクリエイティブバンドル内のクリエイティブを表示するために必要なピクセルの属性の値を指定します。 このフィールドでピクセルを指定しない場合でも、デシジョンツリー内でピクセルを指定できます。<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
-**[!UICONTROL Label]:**<!-- should be "Labels" --> （任意）エクスペリエンスに適用する [!DNL Creative] 固有のラベル。 エクスペリエンス <!-- sic --> ビューで、ラベル別にエクスペリエンスをフィルタリングできます。
+**[!UICONTROL Label]:**<!-- should be "Labels" --> （任意）エクスペリエンスに適用する [!DNL Creative] 固有のラベル。 エクスペリエンス表示でラベル別にエクスペリエンスをフィルタリングし、エクスペリ [!UICONTROL Custom Creative Report] ンスに [!UICONTROL Experience Label] ディメンションを含めることができます。
 
 * 既存のラベルを選択するには、[![ 下 ](/help/creative/assets/chevron-down.png " 下 ")] をクリックし、適用する各ラベルの横にあるチェック ボックスをオンにします。
 

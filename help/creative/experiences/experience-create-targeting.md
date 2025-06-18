@@ -3,7 +3,7 @@ title: デシジョンツリーのターゲット設定を使用したエクス�
 description: デシジョンツリーを使用してターゲット設定された広告エクスペリエンスを作成する方法を説明します。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
+source-git-commit: 39e2d6afa357f2cbe4037371a1441ddc2ffa9ef2
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
       * ターゲット：
 
-        *[ エクスペリエンスの最終レベルにターゲットノード ](experience-target-node-add-final.md) 追加します。
+         * エクスペリエンスの [ ターゲットノードを最終レベルに追加する ](experience-target-node-add-final.md)。
 
          * [ ノード間にターゲットノードを挿入します ](experience-target-node-add-inner.md)。
 

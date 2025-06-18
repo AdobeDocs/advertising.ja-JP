@@ -3,9 +3,9 @@ title: ターゲットエクスペリエンス設定
 description: ターゲット広告エクスペリエンスのすべての設定の説明を参照してください。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
+source-git-commit: a7b5a4e55c2ea66a4ca74a517ea3d90336021e30
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **RT Pixel:** （既存のエクスペリエンスの場合は読み取り専用。オプション）潜在的にターゲットにする [!UICONTROL Creative] リターゲティングピクセル。 デシジョンツリー内でターゲティングを設定する場合、1 レベルの RT ピクセルターゲットノードを含めることができます。 各ノードには、ターゲットとするピクセルと、割り当てられたクリエイティブバンドル内のクリエイティブを表示するために必要なピクセルの属性の値を指定します。 エクスペリエンスの作成時にこのフィールドでピクセルを指定しない場合でも、決定ツリー内でピクセルを指定できます。<!-- May move this to just within the decision tree. -->
 
-**Label:**<!-- should be "Labels" --> （任意）エクスペリエンスに適用する [!DNL Creative] 固有のラベル。 エクスペリエンス <!-- sic --> ビューで、ラベル別にエクスペリエンスをフィルタリングできます。
+**Label:**<!-- should be "Labels" --> （任意）エクスペリエンスに適用する [!DNL Creative] 固有のラベル。 エクスペリエンス表示でラベル別にエクスペリエンスをフィルタリングし、エクスペリ [!UICONTROL Custom Creative Report] ンスに [!UICONTROL Experience Label] ディメンションを含めることができます。
 
 * 既存のラベルを選択するには、[![ 下 ](/help/creative/assets/chevron-down.png " 下 ")] をクリックし、適用する各ラベルの横にあるチェック ボックスをオンにします。
 

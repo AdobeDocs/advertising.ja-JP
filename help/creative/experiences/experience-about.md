@@ -3,9 +3,9 @@ title: Advertising Creativeのエクスペリエンスについて
 description: パーソナライズされた広告エクスペリエンスを設定し、パフォーマンスに基づいて広告要素を最適化する方法を説明します。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 1f4c49de75b3a4b19199fc6f2a162b236e21ab49
+source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experiences] ビュー
 
-[!UICONTROL Experiences] ビューには、ターゲット設定されたエクスペリエンスとターゲット設定されていないエクスペリエンスがすべて表示されます。 エクスペリエンスの名前、ステータス、開始日と終了日、割り当てられたクリエイティブまたはクリエイティブバンドルの数とディメンション、エクスペリエンスに動的広告が含まれているかどうかがわかります。 [!UICONTROL Experiences] ビューで「[!UICONTROL Metrics]」オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。
+[!UICONTROL Experiences] ビューには、ターゲット設定されたエクスペリエンスとターゲット設定されていないエクスペリエンスがすべて表示されます。 エクスペリエンスの名前、ステータス、開始日と終了日、割り当てられたクリエイティブまたはクリエイティブバンドルの数とディメンション、エクスペリエンスに動的広告が含まれているかどうかがわかります。 [!UICONTROL Experiences] ビューで「[!UICONTROL Metrics]」オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。 カードモードの場合、&lt; および > ボタンを使用して、複数のクリエイティブでエクスペリエンスのクリエイティブをスクロールできます。
 
 エクスペリエンスの作成と管理、広告エクスペリエンスタグの作成と名前変更、JavaScriptのタグと iframe 形式のタグの書き出しを行って、DSP に実装できます。 Advertising DSPを使用する広告主は、オプションで、広告タグをAdvertising DSP キャンペーンに直接アップロードできます。
 

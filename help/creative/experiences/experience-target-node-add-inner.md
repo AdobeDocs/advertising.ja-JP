@@ -3,9 +3,9 @@ title: エクスペリエンスのノード間にターゲットノードを追�
 description: 広告エクスペリエンスのターゲットノード間にターゲットノードを追加する方法を説明します。
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 81cbb3cdac21f4b4899b0c07d1eb0686b7b3c7d4
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,16 @@ ht-degree: 0%
          1. （オプション）複数の地理的ターゲットが指定されている場合に複数のターゲット・ノードを作成するには、「**[!UICONTROL Split targets to create nodes]**」を選択します。
 
          1. 「**[!UICONTROL Apply]**」をクリックします。
+
+1. （オプション）ユーザー定義ブランチのカスタムブランチ名を指定します。
+
+   デフォルトでは、ユーザー定義のブランチには、適用されたターゲットのラベルが付けられます。
+
+   「All」または「Everyone Else」ブランチにカスタムのブランチ名を作成することはできません。
+
+   1. ターゲットノードの上にカーソルを置き、**[!UICONTROL ...]**/**[!UICONTROL Edit Name]** をクリックします。
+
+   1. **[!UICONTROL Node Name]** を入力し、[**[!UICONTROL Save]**] をクリックします。
 
 1. 次のいずれかの操作をおこないます。
 

@@ -3,9 +3,9 @@ title: エクスペリエンスの最終レベルへのターゲットノード�
 description: 広告エクスペリエンスの最終ターゲットレベルにターゲットノードを追加する方法を説明します。
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 7e345130f43fc2d8c2ada287a2dc61b1515e2d25
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,16 @@ ht-degree: 0%
          この機能は、指定された地理的ターゲットごとに個別のターゲットノード（個別のクリエイティブバンドルを含む）を作成します。 ターゲットを分割しない場合、ユーザーは指定したすべての場所に属している必要があります（[!DNL Boolean] `AND` ステートメント）。
 
       1. 「**[!UICONTROL Apply]**」をクリックします。
+
+1. （オプション）ユーザー定義ブランチのカスタムブランチ名を指定します。
+
+   デフォルトでは、ユーザー定義のブランチには、適用されたターゲットのラベルが付けられます。
+
+   「All」または「Everyone Else」ブランチにカスタムのブランチ名を作成することはできません。
+
+   1. ターゲットノードの上にカーソルを置き、**[!UICONTROL ...]**/**[!UICONTROL Edit Name]** をクリックします。
+
+   1. **[!UICONTROL Node Name]** を入力し、[**[!UICONTROL Save]**] をクリックします。
 
 1. 次のいずれかの操作をおこないます。
 
