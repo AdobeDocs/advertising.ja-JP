@@ -3,9 +3,9 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: fd3805096f97ba572afb4a5573ae0e2f5ec17a6f
+source-git-commit: 1478e61ebd7dac59cac7566b86e5b1ea97838508
 workflow-type: tm+mt
-source-wordcount: '4255'
+source-wordcount: '4477'
 ht-degree: 0%
 
 ---
@@ -177,9 +177,9 @@ ht-degree: 0%
 
   このリストは、ソース別またはフィード別に表示できます。 フィード別にリストを表示する場合は、フィード名、フィードキー、または選択した特性タグで検索できます。
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]:DSPで設定したパブリッシャーとの既存のプライベート [!DNL Roku] ール（または [!DNL Roku] プレースメントの既存のプライベート契約）です。 公開在庫を含めることはできますが、除外することはできません。
+* [!UICONTROL Private] | [!UICONTROL Roku Private]:DSPに設定したパブリッシャーとの既存のプライベート [!DNL Roku] ール（または [!DNL Roku] プレースメントの既存のプライベート取引）および既存の [ プライベート取引リスト ](/help/dsp/inventory/lists-deals-manage.md)。 公開在庫を含めることはできますが、除外することはできません。
 
-  キーワード、キー、取引 ID またはカスタムタグでリストを検索できます。
+  「[!UICONTROL Deals]」タブでは、キーワード、キー、取引 ID、カスタムタグでリストを検索できます。 「[!UICONTROL Deal Lists]」タブから、取引リスト名または取引リスト ID でリストを検索できます。
 
    * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: （任意）入札価格アルゴリズムを上書きして、少なくとも取引の固定価格とフロア価格を入札します。
 
@@ -199,12 +199,15 @@ ht-degree: 0%
       1. （[!UICONTROL Public] および [!UICONTROL On Demand] のインベントリ） **[!UICONTROL View by Source]** または **[!UICONTROL View by Feed]** をクリックして、ソースのリスト方法を変更します。
       1. （該当する場合）必要に応じて在庫をフィルタリングします。
       1. 含めるソースと除外するソースを指定します。
-         * [!UICONTROL Public] または [!UICONTROL On Demand] ソースを含めるには、ソース名の横にある「**[!UICONTROL Include]**」をクリックします。
-         * [!UICONTROL Private] ソースを組み込むには：
-            * すべての在庫を取引に含めるには、取引名の横にある「**[!UICONTROL Include all]**」をクリックします。
-            * 個別の在庫ソースを含めるには、取引名を展開し、ソース名の横にあるチェックボックスをクリックします。
-         * [!UICONTROL Public] または [!UICONTROL On source] を除外するには、ソース名の横にある「**[!UICONTROL Exclude]**」をクリックします。
-   1. （オプション）ターゲット情報を含んだ CSV ファイルをブラウザーのダウンロード場所にダウンロードするには、「**[!UICONTROL Save & Export]**」をクリックします。
+         * [!UICONTROL Public] または [!UICONTROL On Demand] インベントリの場合：
+            * ソースを含めるには、ソース名の横にある「**[!UICONTROL Include]**」をクリックします。
+            * ソースを除外するには、ソース名の横にある「**[!UICONTROL Exclude]**」をクリックします。
+         * 在庫 [!UICONTROL Private] 場合：
+            * 「[!UICONTROL Deals]」タブで、次の操作を行います。
+               * すべての在庫を取引に含めるには、取引名の横にある「**[!UICONTROL Include all]**」をクリックします。
+               * 個別の在庫ソースを含めるには、取引名を展開し、ソース名の横にあるチェックボックスをクリックします。
+            * 「[!UICONTROL Deal Lists]」タブで、取引リスト名の横にあるチェックボックスをクリックします。
+   1. （オプション）ターゲット情報を含んだ CSV ファイルをブラウザーのダウンロード場所にダウンロードするには、「**[!UICONTROL Export]**」をクリックします。
    1. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!TIP]
@@ -256,30 +259,34 @@ ht-degree: 0%
 1. （オプション）ターゲット情報を含んだ CSV ファイルをブラウザーのダウンロード場所にダウンロードするには、「**[!UICONTROL Export]**」をクリックします。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-**[!UICONTROL Exclude Sites or Apps]:** （オプション。**[!UICONTROL Paste list of targeted sites]** が *[!UICONTROL Off]* の場合に使用可能）除外するサイト。 サイトを検索して選択するか、ドメイン名を入力または貼り付けることができます。
+**[!UICONTROL Exclude Sites or Apps]:** （オプション。**[!UICONTROL Paste list of targeted sites]** が *[!UICONTROL Off]* の場合に使用可能）除外するサイト/アプリおよび [URL リスト ](/help/dsp/resources/lists-url-manage.md)。 「[!UICONTROL Paste URL]」タブでは、サイトを検索して選択したり、ドメイン名を入力または貼り付けたりできます。 「[!UICONTROL URL Lists]」タブから、URL リストを選択できます。
 
 1. ![ 編集 ](/help/dsp/assets/edit.png) をクリックします。
 1. サイトを指定します。
-   * サイトを検索するには：
-      1. 「**[!UICONTROL Search]**」をクリックします。
-      1. キーワードを入力するか、サイト層を選択するか、サイト カテゴリを選択します。
-      1. 検索結果で、除外するサイトを選択します。
-         * 個々のサイトを除外するには、隣のチェックボックスをオンにします。
-         * （50 を超える結果がある場合）最初の 50 件の結果を除外するには、「**[!UICONTROL Exclude these 50]**」をクリックします。 すべての検索結果を除外するには、[**[!UICONTROL Exclude these \<*NN *\>]**] をクリックします。
-   * ドメイン名を入力するには：
-      1. 「**[!UICONTROL Paste]**」をクリックします。
-      1. 1 つ以上のドメイン名を別々の行に入力します。
-      1. 「**[!UICONTROL Exclude All]**」をクリックします。
+   * 「[!UICONTROL Paste URL]」タブで、次の操作を行います。
+      * サイトを検索するには：
+         1. 「**[!UICONTROL Search]**」をクリックします。
+         1. キーワードを入力するか、サイト層を選択するか、サイト カテゴリを選択します。
+         1. 検索結果で、除外するサイトを選択します。
+            * 個々のサイトを除外するには、隣のチェックボックスをオンにします。
+            * （50 を超える結果がある場合）最初の 50 件の結果を除外するには、「**[!UICONTROL Exclude these 50]**」をクリックします。 すべての検索結果を除外するには、[**[!UICONTROL Exclude these \<*NN *\>]**] をクリックします。
+      * ドメイン名を入力するには：
+         1. 「**[!UICONTROL Paste]**」をクリックします。
+         1. 1 つ以上のドメイン名を別々の行に入力します。
+         1. 「**[!UICONTROL Exclude All]**」をクリックします。
+   * 「[!UICONTROL URL Lists]」タブで、次の操作を行います。
+      1. （オプション）検索フィールドにリスト名の全部または一部を入力して、URL リストを検索します。
+      1. 除外する各 URL リストの横にあるチェックボックスをオンにします。
 1. 完了したら「**[!UICONTROL Done]**」をクリックします。
 
 >[!NOTE]
 >
 >* 広告に対して安全でないと見なされるサイトを含むDSP[ グローバルにブロックされたサイトリスト ](/help/dsp/introduction/features/brand-safety-media-quality.md) に加えて、アカウントレベルおよび広告主レベルのブロックされたサイトリストも適用されます。
->* ブロックされたサイト リストは、ターゲットのサイト リストを常に上書きします。 プレースメントに、広告に対して同じターゲットが含まれず、除外される場合、そのターゲットは除外されます。
+>* ブロックされたサイト リストは、ターゲットのサイト リストおよびサイト リストを常に上書きします。 プレースメントに、広告に対して同じターゲットが含まれず、除外される場合、そのターゲットは除外されます。
 
 **[!UICONTROL Language]:** （任意）ターゲットとする単一の言語。
 
-**[!UICONTROL Site or App List Preview]:** （読み取り専用）プレースメントのすべてのターゲットサイトとブロックサイト。
+**[!UICONTROL Site or app list preview]:** （読み取り専用）アカウントレベル、広告主レベル、DSPのグローバルブロックサイトリストのサイト/アプリを含む、プレースメントのすべてのターゲットサイト/アプリおよびブロックされたサイト/アプリ。
 
 オプションで、ターゲットサイトとブロックされたサイトのリストをコンマ区切り値（CSV）ファイルとして書き出すことができます。 リストをエクスポートするには、[**[!UICONTROL Export full site list]**] をクリックし、ブラウザの通常の手順に従ってファイルを開くか保存します。
 
@@ -287,21 +294,30 @@ ht-degree: 0%
 
 **[!UICONTROL Paste list of targeted sites]:** 特定のサイトのみをターゲットにすることができます。 このオプションを有効にすると、他のサイトのターゲティングオプションは無効になります。
 
-**[!UICONTROL Sites]:** （**[!UICONTROL Paste list of targeted sites]** が *[!UICONTROL On]* の場合に使用可能）ターゲットにするサイト。 サイトを検索して選択するか、ドメイン名を入力または貼り付けることができます。
+**[!UICONTROL Sites or Apps]:** （**[!UICONTROL Paste list of targeted sites]** が *[!UICONTROL On]* の場合に使用可能）ターゲットにするサイト。 「[!UICONTROL Paste URL]」タブでは、サイトを検索して選択したり、ドメイン名を入力または貼り付けたりできます。 「[!UICONTROL URL Lists]」タブから、URL リストを選択できます。
 
 1. ![ 編集 ](/help/dsp/assets/edit.png) をクリックします。
 1. サイトを指定します。
-   * サイトを検索するには：
-      1. 「**[!UICONTROL Search]**」をクリックします。
-      1. キーワードを入力するか、サイト層を選択するか、サイト カテゴリを選択します。
-      1. 検索結果で、含めるサイトを選択します。
-         * 個々のサイトを除外するには、隣のチェックボックスをオンにします。
-         * （50 を超える結果がある場合）最初の 50 件の結果を含めるには、「**[!UICONTROL Include these 50]**」をクリックします。 すべての検索結果を含めるには、[**[!UICONTROL Include these \<*NN *\>]**] をクリックします。
-   * ドメイン名を入力するには：
-      1. 「**[!UICONTROL Paste]**」をクリックします。
-      1. 1 つ以上のドメイン名を別々の行に入力します。
-      1. 「**[!UICONTROL Include All]**」をクリックします。
-1. 「**[!UICONTROL Done]**」をクリックします。
+   * 「[!UICONTROL Paste URL]」タブで、次の操作を行います。
+      * サイトを検索するには：
+         1. 「**[!UICONTROL Search]**」をクリックします。
+         1. キーワードを入力するか、サイト層を選択するか、サイト カテゴリを選択します。
+         1. 検索結果で、含めるサイトを選択します。
+            * 個々のサイトを含めるには、隣のチェックボックスをオンにします。
+            * （50 を超える結果がある場合）最初の 50 件の結果を含めるには、「**[!UICONTROL Include these 50]**」をクリックします。 すべての検索結果を含めるには、[**[!UICONTROL Include these \<*NN *\>]**] をクリックします。
+      * ドメイン名を入力するには：
+         1. 「**[!UICONTROL Paste]**」をクリックします。
+         1. 1 つ以上のドメイン名を別々の行に入力します。
+         1. 「**[!UICONTROL Include All]**」をクリックします。
+   * 「[!UICONTROL URL Lists]」タブで、次の操作を行います。
+      1. （オプション）検索フィールドにリスト名の全部または一部を入力して、URL リストを検索します。
+      1. 含める各 URL リストの横にあるチェックボックスをオンにします。
+1. 完了したら「**[!UICONTROL Done]**」をクリックします。
+
+>[!NOTE]
+>
+>* 広告に対して安全でないと見なされるサイトを含むDSP[ グローバルにブロックされたサイトリスト ](/help/dsp/introduction/features/brand-safety-media-quality.md) に加えて、アカウントレベルおよび広告主レベルのブロックされたサイトリストも適用されます。
+>* ブロックされたサイト リストは、ターゲットのサイト リストおよびサイト リストを常に上書きします。 プレースメントに、広告に対して同じターゲットが除外および含まれる場合、そのターゲットは除外されます。サイトを検索して選択するか、ドメイン名を入力または貼り付けることができます。
 
 ## [!UICONTROL Audience Targeting]
 
@@ -450,7 +466,7 @@ ID は「51」で始まり、8 桁で構成する必要があります。 デフ
 * *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済み直販業者および再販業者からのみ在庫を購入する場合。
 * *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済ダイレクト・セラーからのみ在庫を購入する場合。
 
-**[!UICONTROL Attention Targeting]:** （デスクトップおよびモバイルの web ディスプレイ、ビデオ、標準で接続されたテレビ広告に適用）指定されたサイト、形式、広告サイズに基づいて、特定の注意レベル（高、中、低）でセグメントの事前入札を [!DNL Adelaide] うターゲット。 セグメントは毎週更新されます。 **注意：**&#x200B;[!DNL Adelaide] セグメントをターゲティングに使用すると、[!DNL Adelaide] のアテンションターゲティングで配信されるインプレッションごとにCPM料金が発生します。この料金は、[ アテンション測定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md) の料金とは別です。 インタラクティブなプレロールプレースメントの場合、膨大なインプレッションに対してのみ請求されます。
+**[!UICONTROL Attention Targeting]:** （デスクトップおよびモバイルの web ディスプレイ、ビデオ、標準で接続されたテレビ広告に適用）指定されたサイト、形式、広告サイズに基づいて、特定の注意レベル（高、中、低）でセグメントの事前入札を [!DNL Adelaide] うターゲット。 セグメントは毎週更新されます。 **注意：**[!DNL Adelaide] セグメントをターゲティングに使用すると、[!DNL Adelaide] のアテンションターゲティングで配信されるインプレッションごとにCPM料金が発生します。この料金は、[ アテンション測定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md) の料金とは別です。 インタラクティブなプレロールプレースメントの場合、膨大なインプレッションに対してのみ請求されます。
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 

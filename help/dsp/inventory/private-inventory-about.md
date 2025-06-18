@@ -3,9 +3,9 @@ title: プライベートインベントリについて
 description: プライベートインベントリについて
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ RTB を超えて検索する広告主は、プライベートインベントリ�
 
 ## 取引 ID
 
-パブリッシャーと直接の関係がある場合、Advertising DSP プレースメントで独自のプライベート契約、交渉済みの在庫および価格を使用して、メディア購入プロセスおよびワークフローを合理化できます。 DSPは、アカウントを設定する際にすべての公開者と統合されます。 その他の公開者に後でアクセスする場合は、Adobeアカウントチームに連絡してアクセス権の設定を依頼してください。<!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+パブリッシャーと直接の関係がある場合、Advertising DSP プレースメントで独自のプライベート契約、交渉済みの在庫および価格を使用して、メディア購入プロセスおよびワークフローを合理化できます。 DSPは、アカウントを設定する際にすべての公開者と統合されます。 その他の公開者に後でアクセスする場合は、Adobe アカウントチームに連絡してアクセス権の設定を依頼してください。<!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
 取引 ID を使用したプライベート取引はすべて、[!DNL Adobe] が資金調達および請求します。
 
@@ -26,7 +26,7 @@ RTB を超えて検索する広告主は、プライベートインベントリ�
 
 * （アクティブ化が必要なオプション機能） [!UICONTROL Deal ID Inbox] から、[!DNL FreeWheel]、[!DNL Google Authorized Buyers] （旧称 [!DNL AdX]）、[!DNL Magnite DV+] （旧称 [!DNL Rubicon]）の各サプライサイドプラットフォーム（SSP）のパブリッシャーから、合意に基づく保証されている非公開在庫取引と保証されていない非公開在庫取引を確認し、すぐに受け入れることができます。[!UICONTROL Deal ID inbox].
 
-  詳細は、「[!UICONTROL Deal ID Inbox][&#128279;](deal-id-inbox-about.md) ーザーについて  を参照してください。
+  詳細は、「[!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md) ーザーについて [ を参照してください。
 
 * 既に交渉したプライベート取引に関する情報を手動で設定できます。
 
@@ -40,9 +40,14 @@ RTB を超えて検索する広告主は、プライベートインベントリ�
 
 フィルターの適用、表示される列のカスタマイズ、オプションでカスタム表示の保存、列の並べ替え、データのグラフ表示を行うことで、既存の取引データの表示方法をカスタマイズできます。
 
+## 取引リスト ビュー
+
+[!UICONTROL Inventory]/[!UICONTROL Deal Lists] 表示では、プレースメントのターゲット設定を容易にするために、プライベートな取引をリストにグループ化できます。
+
 >[!MORELIKETHIS]
 >
 >* [ インベントリ機能の概要 ](/help/dsp/inventory/inventory-overview.md)
 >* [[!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md) について
 >* [ 取引 ID インボックスでの取引の承認 ](deal-id-inbox-accept.md)
 >* [ 取引 ID の詳細の手動作成 ](deal-id-create.md)
+>* [ 取引リストの管理 ](/help/dsp/inventory/lists-deals-manage.md)

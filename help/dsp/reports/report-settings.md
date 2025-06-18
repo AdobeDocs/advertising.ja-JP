@@ -3,7 +3,7 @@ title: カスタムレポートの設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
+source-git-commit: 8e6d2a1d39231176f3836246958b82691fbb5006
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -62,7 +62,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Apply Filters] セクション
 
-**[!UICONTROL Filter by]:** （オプション）ディメンションがレポートに列として含まれているかどうかに関わらず、データをフィルタリングするための追加のディメンション。 使用可能なフィルターは、レポートタイプによって異なり、*[!UICONTROL Account]*\*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、* *[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]* および *[!UICONTROL Video Duration]* などがあります。
+**[!UICONTROL Filter by]:** （オプション）ディメンションがレポートに列として含まれているかどうかに関わらず、データをフィルタリングするための追加のディメンション。 使用可能なフィルターは、レポートタイプによって異なり、*[!UICONTROL Account]*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、*[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]* および *[!UICONTROL Video Duration]* などがあります。
+
+<!-- Add when available:
+*[!UICONTROL Deal ID]*, *[!UICONTROL Deal List]*, 
+-->
 
 1 つ以上のフィルターを適用するには、次の手順を実行します。
 
@@ -70,7 +74,7 @@ ht-degree: 0%
 * （任意）フィルターに条件を追加します。
 * （任意）さらにフィルターを追加し、各フィルターに 1 つ以上の条件を指定します。
 
-\* *[!UICONTROL Account]* は、組織が [ クロスアカウントレポート ](report-about.md#cross-account-reporting) 用に設定されている場合にのみ使用できます：[!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)] および [!UICONTROL Conversion]。 クロスアカウントレポートについて詳しくは、Adobeアカウントチームにお問い合わせください。
+\* *[!UICONTROL Account]* は、組織が [ クロスアカウントレポート ](report-about.md#cross-account-reporting) 用に設定されている場合にのみ使用できます：[!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)] および [!UICONTROL Conversion]。 クロスアカウントレポートについて詳しくは、Adobe アカウントチームにお問い合わせください。
 
 **[!UICONTROL Include data from Adobe Advertising SSC]:** （「コンバージョンまでのパス」、「コンバージョンまでのパス長」および「コンバージョンまでの時間」レポートのみ）指定したAdvertising検索、ソーシャルおよびCommerceの各キャンペーンに対する検索広告のクリック数に関するデータが含まれます。 このオプションを選択した場合：
 
@@ -113,13 +117,13 @@ ht-degree: 0%
 
 **[!UICONTROL Attribution Rule Settings]:** 設定はレポートタイプによって異なります。
 
-* **\[Attribution Type\]:** （[!UICONTROL Conversion Metrics] 列または [!UICONTROL Custom Goals] 列の [!UICONTROL Household Conversion] レポート、Adobe Advertisingコンバージョントラッキングのみを使用する広告主） レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータを属性化する方法：
+* **\[Attribution Type\]:** （[!UICONTROL Conversion Metrics] 列または [!UICONTROL Custom Goals] 列の [!UICONTROL Household Conversion] レポート、Adobe Advertising コンバージョントラッキングのみを使用する広告主） レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータを属性化する方法：
 
    * *[!UICONTROL Unique]:* （デフォルト）ディメンション値（デバイスや配置など）が変換されるパス上にあった回数をカウントします。
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:* コンバージョンへのパス上でのディメンション値（デバイスや配置など）の発生頻度に基づいて、各コンバージョンのクレジットを配分します。 例えば、コンバージョン前に合計 10 件のインプレッションがあり、CTV に 8 件、モバイルに 2 件あった場合、クレジットの 80% （0.8）が CTV 画面に、0.2 がモバイルに与えられます。
 
-* **\[Rule Type\]:** （[!UICONTROL Conversion Metrics] 列または [!UICONTROL Custom Goals] 列のすべての [!UICONTROL Custom]、[!UICONTROL Conversion]、[!UICONTROL Device]、[!UICONTROL Geo]、[!UICONTROL Segment] および [!UICONTROL Site] レポート。Adobe Advertisingコンバージョントラッキングのみを使用する広告主）レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータを属性化する方法。 ルール間の違いを比較する場合は、複数のルールを選択できます。
+* **\[Rule Type\]:** （[!UICONTROL Conversion Metrics] 列または [!UICONTROL Custom Goals] 列のすべての [!UICONTROL Custom]、[!UICONTROL Conversion]、[!UICONTROL Device]、[!UICONTROL Geo]、[!UICONTROL Segment] および [!UICONTROL Site] レポート。Adobe Advertising コンバージョントラッキングのみを使用する広告主）レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータを属性化する方法。 ルール間の違いを比較する場合は、複数のルールを選択できます。
 
   >[!NOTE]
   >
@@ -137,13 +141,13 @@ ht-degree: 0%
 
    * *[!UICONTROL U-shaped]:* コンバージョンパス内のすべてのイベントにコンバージョンの属性を設定しますが、最初と最後のイベントに最も重みを与え、コンバージョンパスの途中のイベントには順次少ない重みを与えます。
 
-   * *[!UICONTROL Display Only]:* コンバージョンパス内の最後のDSP クリックまたはインプレッションに対する属性のコンバージョン。 これには、ビデオ広告や接続されたテレビ広告が含まれ、[!DNL Advertising Search, Social, & Commerce] 広告のクリックは含まれません。
+   * *[!UICONTROL Display Only]:* コンバージョンパス内の最後のDSPのクリックまたはインプレッションに対する属性の変換。 これには、ビデオ広告や接続されたテレビ広告が含まれ、[!DNL Advertising Search, Social, & Commerce] 広告のクリックは含まれません。
 
    * *[!UICONTROL Social Only]:* 古い
 
-「[Adobe Advertisingに関するアトリビューションルールの計算方法 ](/help/search-social-commerce/reports/attribution-rules.md)」も参照してください。
+「[Adobe Advertisingのアトリビューションルールの計算方法 ](/help/search-social-commerce/reports/attribution-rules.md) も参照してください。
 
-* **ルックバック：** （[!UICONTROL Conversion Metrics] 列または [!UICONTROL Custom Goals] 列を含む [!UICONTROL Household Conversion] レポートおよび [!UICONTROL Conversion Metrics] 列のみを含む [!UICONTROL Path to Conversion]、[!UICONTROL Path Length] または [!UICONTROL Time to Conversion] レポート。Adobe Advertisingコンバージョントラッキングのみを含む広告主）レポート内で、コンバージョンイベントまたはそのイベントに起因する可能性のあるクリックイベント（[!UICONTROL Path to Conversion]、[!UICONTROL Path Length] または [!UICONTROL Time to Conversion] レポートの場合）後の最大日数。 デフォルトは *[!UICONTROL 30 days]* で、最大 92 日です。
+* **ルックバック：** （[!UICONTROL Conversion Metrics] 列または [!UICONTROL Custom Goals] 列を含む [!UICONTROL Household Conversion] レポートおよび [!UICONTROL Conversion Metrics] 列のみを含む [!UICONTROL Path to Conversion]、[!UICONTROL Path Length] または [!UICONTROL Time to Conversion] レポート。Adobe Advertising コンバージョントラッキングのみを含む広告主）レポート内で、コンバージョンイベントまたはそのイベントに起因する可能性のあるクリックイベント（[!UICONTROL Path to Conversion]、[!UICONTROL Path Length] または [!UICONTROL Time to Conversion] レポートの場合）後の最大日数。 デフォルトは *[!UICONTROL 30 days]* で、最大 92 日です。
 
   >[!TIP]
   >
