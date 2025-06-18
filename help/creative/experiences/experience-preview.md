@@ -3,7 +3,7 @@ title: エクスペリエンスのプレビュー
 description: 広告エクスペリエンスでクリエイティブをプレビューする方法を説明します。
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
+source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. （任意）エクスペリエンスのデモ URL をコピーして、[!DNL Creative] へのログインなしで他のユーザーと共有するには、次のようにします。
 
-   1. プレビューの右上にある「![ 共有 ](/help/creative/assets/share2.png " 共有 ")」をクリックします。
+   1. プレビューの右上にある「![ 共有 ](/help/creative/assets/share.png " 共有 ")」をクリックします。
 
    1. [!UICONTROL Share Demo URL] ダイアログで、「**[!UICONTROL Copy]**」をクリックして URL をクリップボードにコピーし、他のユーザーと共有できるようにします。
 

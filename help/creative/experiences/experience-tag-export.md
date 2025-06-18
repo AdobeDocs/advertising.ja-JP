@@ -3,7 +3,7 @@ title: ライブエクスペリエンス用の広告エクスペリエンスタ�
 description: 広告エクスペリエンスタグをエクスポートし、オプションでAdvertising DSP キャンペーンにアップロードする方法を説明します。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: c05c5d22f4763cd6c1425b5ab3b0bf11b78b0aee
+source-git-commit: 41763b21bda47e8bd45f48c18a674cd694df68d1
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Advertising DSPを使用する広告主は、オプションで、タグを広�
 
    * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします
 
-1. 該当する広告タグの行の上にカーソルを置き、![ 広告タグの書き出し ](/help/creative/assets/export.png " 広告タグの書き出し ")**[!UICONTROL Export ad tags]** または&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]** のいずれかをクリックします。
+1. 該当する広告タグの行の上にカーソルを置き、![ 広告タグの書き出し ](/help/creative/assets/export.png " 広告タグの書き出し ")**[!UICONTROL Export ad tags]** または**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]** のいずれかをクリックします。
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -50,9 +50,9 @@ Advertising DSPを使用する広告主は、オプションで、タグを広�
 
    * *汎用：* 他の DSP で作成する広告の場合。 **メモ：** 必要に応じて、手動で [ 追加マクロ ](/help/creative/creative-macros.md) を含める必要がある場合があります。
 
-   * *Adobe Advertising:* 広告については、Advertising DSPで作成します。
+   * *Adobe AdCloud:* 広告の場合は、Advertising DSPで作成します。
 
-   * *Google DCM:* 広告については、[!DNL Google Campaign Manager 360] で作成します。 **メモ：** 必要に応じて、手動で [ 追加マクロ ](/help/creative/creative-macros.md) を含める必要がある場合があります。
+   * *Google CM360:* 広告については、[!DNL Google Campaign Manager 360] で作成します。 **メモ：** 必要に応じて、手動で [ 追加マクロ ](/help/creative/creative-macros.md) を含める必要がある場合があります。
 
 1. 「**[!UICONTROL Generate tags]**」をクリックします。
 
