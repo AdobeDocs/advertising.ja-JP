@@ -3,9 +3,9 @@ title: ライブエクスペリエンス用の広告エクスペリエンスタ�
 description: 広告エクスペリエンスタグをエクスポートし、オプションでAdvertising DSP キャンペーンにアップロードする方法を説明します。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 41763b21bda47e8bd45f48c18a674cd694df68d1
+source-git-commit: f2bf245c13244cbcb76cead8b37f149b9b9bc24f
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,14 @@ ht-degree: 0%
 
 クリエイティブのサイズに応じた広告タグを [ ライブ ](experience-about.md#experience-statuses) エクスペリエンスで使用できるようになったら、JavaScriptおよび iframe 形式でタグを生成してコピーし、Advertising DSPまたは他の DSP に実装できます。 DSPのタグには、DSPに必要なすべてのマクロが含まれます。
 
-Advertising DSPを使用する広告主は、オプションで、タグを広告としてAdvertising DSP キャンペーンに直接アップロードできます。
+Advertising DSPを使用する広告主は、オプションで、広告タイプ「standard display」の広告としてタグをAdvertising DSP キャンペーンに直接アップロードできます。
 
 >[!NOTE]
 >
 >* デシジョンツリーのターゲット設定を使用してエクスペリエンスを作成すると、該当するクリエイティブサイズごとに広告タグが自動的に作成さ [!DNL Creative] ます。
 >* デシジョンツリーのターゲティングを使用せずにエクスペリエンスを作成する場合は、該当するクリエイティブサイズごとに [ 広告タグを手動で作成 ](experience-tag-create-manually.md) する必要があります。
 >* エクスペリエンスタグは動的です。 エクスペリエンスを編集する場合、タグを更新する必要はありません。
+>* 広告エクスペリエンスを実装するキャンペーンに、エクスペリエンスと互換性のあるターゲティングが含まれていることを確認してください。 階層ターゲティングの動作は、DSPによって異なる場合があります。 Advertising DSPでは、広告レベルのターゲティングは、プレースメントレベルのターゲティングの上（ではなく）に適用されます。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
 
@@ -32,7 +33,7 @@ Advertising DSPを使用する広告主は、オプションで、タグを広�
 
    * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします
 
-1. 該当する広告タグの行の上にカーソルを置き、![ 広告タグの書き出し ](/help/creative/assets/export.png " 広告タグの書き出し ")**[!UICONTROL Export ad tags]** または&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]** のいずれかをクリックします。
+1. 該当する広告タグの行の上にカーソルを置き、![ 広告タグの書き出し ](/help/creative/assets/export.png " 広告タグの書き出し ")**[!UICONTROL Export ad tags]** または**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]** のいずれかをクリックします。
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -80,7 +81,6 @@ Advertising DSPを使用する広告主は、オプションで、タグを広�
 
       1. [!UICONTROL Create ads] ビューで、広告タグを確認し、広告を作成する各タグを選択して、[**[!UICONTROL Create]**] をクリックします。
 
-         [!UICONTROL Ads] ビューには、[!DNL Creative] の広告タグと同じ名前の新しい広告が含まれるようになりました。 キャンペーン内の任意のプレースメントに [ 広告を添付 ](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) できます。
 
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 

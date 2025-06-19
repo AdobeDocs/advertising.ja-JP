@@ -3,9 +3,9 @@ title: クリエイティブライブラリについて
 description: 広告エクスペリエンスのクリエイティブの管理について説明します。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 86bd3384a44cc526428dd8ea5e97fdd684331086
+source-git-commit: 9782471837db19d14839027ea7a576484863bb69
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -42,23 +42,7 @@ ht-degree: 0%
 
 柔軟なHTML5 クリエイティブは、HTML5 のすべての画像とその他の属性を標準のHTML タグとして持つクリエイティブで、クリエイティブライブラリ内または個々のエクスペリエンス内で [!DNL Creative] 内で直接編集できます（元のクリエイティブのバリエーションを作成します）。 DSPでは、フレキシブル HTML5 のクリエイティブは、1 つの特定の広告サイズ（ピクセル単位）に対応しています。 オプションで、フレキシブル HTML5 クリエイティブで指定した属性のデフォルト値を変更できます。 後で、特定のエクスペリエンス内の属性にカスタム値を指定して、親クリエイティブのバリエーションを作成できます。
 
-<!-- Removed:
-
-Flexible HTML5 creatives are HTML5 creatives with all of their images and other attributes as standard HTML tags, which you can edit directly within [!DNL Creative], either within a creative library or within an individual experience (which creates a variation of the original creative). Flexible HTML5 creatives use the Interactive Advertising Bureau (IAB) Technology Laboratory's standard for an [ad portfolio](https://flexibleads.iabtechlab.com/), for which ad format sizes are flexible (rather than fixed) and are based on the ad’s aspect ratio and size range, and for which ads maintain their resolution across devices and publisher sites. You can optionally change the default values of the attributes specified in a flexible HTML5 creative. Later, you can specify custom values for the attributes within a specific experience, which creates a variation of the parent creative.
-
--->
-
 柔軟なHTML5 クリエイティブを ZIP ファイルとしてアップロードするか、アカウントで使用可能なテンプレートの 1 つを出発点として使用できます。 詳しくは、[ フレキシブル HTML5 クリエイティブの仕様 ](html5-creative-specification.md) を参照してください。
-
-<!-- Will flattening the view be possible later?
-The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
-
-
-[Example default card view for a flexible creative with variations]()[]add image]
-  
-[Example card for a flexible creative with one variation]() [add image]
-
- -->
 
 #### HTML5 クリエイティブ
 
@@ -66,7 +50,7 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 #### 画像クリエイティブ
 
-GIF、JPEG、JPG、PNG 形式の画像クリエイティブを含めることができます。 Adobe Experience Manager アカウントから画像をアップロードすることも、デバイスやネットワークから画像をアップロードすることもできます。
+GIF、JPEG、JPG、PNG 形式の画像クリエイティブを含めることができます。 Adobe Experience Manager アカウントから承認済みの画像を、またはデバイスやネットワークから画像をアップロードできます。
 
 各広告エクスペリエンスには、エクスペリエンスに割り当てられるクリエイティブサイズごとにデフォルトの画像クリエイティブが必要です。
 
@@ -94,15 +78,15 @@ GIF、JPEG、JPG、PNG 形式の画像クリエイティブを含めることが
 
 #### 使用可能なアクション
 
-* ライブラリの新規作成
+* [新しいライブラリの作成](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
 
 * クリエイティブライブラリごとに、次の手順を実行します。
 
-   * ライブラリ名を編集
+   * [ライブラリ名の編集](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
 
-   * ライブラリを開いて、ライブラリに割り当てられたクリエイティブとバンドルを表示します
+   * [ライブラリを開いて、ライブラリに割り当てられたクリエイティブとバンドルを表示します](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
 
-   * ライブラリの削除
+   * [ライブラリの削除](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
 
 ### [!UICONTROL Creative Libraries]/[!UICONTROL Creatives] ビュー
 
@@ -125,12 +109,6 @@ GIF、JPEG、JPG、PNG 形式の画像クリエイティブを含めることが
 * [標準クリエイティブのダウンロード](creative-download.md)
 
 * [標準クリエイティブを削除](creative-delete.md)
-
-<!-- Add in as separate actions?
-
-add or remove labels, regenerate thumbnails for your creatives. When a creative has child creative variations, you can view the variations within the Card view.
-
--->
 
 #### [!UICONTROL Dynamic Ads]
 
