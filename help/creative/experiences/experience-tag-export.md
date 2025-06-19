@@ -33,7 +33,7 @@ Advertising DSPを使用する広告主は、オプションで、広告タイ�
 
    * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします
 
-1. 該当する広告タグの行の上にカーソルを置き、![ 広告タグの書き出し ](/help/creative/assets/export.png " 広告タグの書き出し ")**[!UICONTROL Export ad tags]** または**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]** のいずれかをクリックします。
+1. 該当する広告タグの行の上にカーソルを置き、![ 広告タグの書き出し ](/help/creative/assets/export.png " 広告タグの書き出し ")**[!UICONTROL Export ad tags]** または&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]** のいずれかをクリックします。
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
