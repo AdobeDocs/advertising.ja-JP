@@ -3,9 +3,9 @@ title: ターゲット以外のエクスペリエンスの設定
 description: デシジョンツリーのターゲット設定を使用しない広告エクスペリエンスのすべての設定の説明を参照してください。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced] セクション
 
-**データパス：** （Dynamic Ads を使用したエクスペリエンスのみ。オプション） DSP、パブリッシャー、パートナーがインプレッションでリアルタイムに渡す特定のキーと値のペアに基づいてユーザーをターゲットに設定します。 最大 5 つのデータパスキー（パラメーター）を指定できます。<!-- May move this to just within the decision tree. -->
+**データパス：** （Dynamic Ads を使用したエクスペリエンスのみ。オプション） DSP、パブリッシャー、パートナーがインプレッションでリアルタイムに渡す特定のキーと値のペア（SKU=01234567890123 や買い物かご=空など）に基づいてユーザーをターゲットに設定します。 最大 5 つのデータパスキー（パラメーター）を指定できます。<!-- May move this to just within the decision tree. -->
 
 特定のクリエイティブサイズの広告エクスペリエンスタグを作成すると、このフィールドで指定された各キーがタグのマクロとして追加されます。 DSPでタグを広告として実装する前に、タグ内の各キーと値のペアを入力します。
 
