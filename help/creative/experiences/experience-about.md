@@ -3,9 +3,9 @@ title: Advertising Creativeのエクスペリエンスについて
 description: パーソナライズされた広告エクスペリエンスを設定し、パフォーマンスに基づいて広告要素を最適化する方法を説明します。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
+source-git-commit: 0392c4b152d554726fb4a31e1e31e204f116fca3
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
   ターゲティングオプションは次のとおりです。
 
-   * Adobe Audience Manager、Adobe Analyticsおよび Advertising Cloud DSP からのファーストパーティオーディエンスセグメント
+   * Adobe Audience Manager、Adobe AnalyticsおよびAdvertising DSPのファーストパーティオーディエンスセグメント、Advertising DSPのカスタムセグメントおよびAdvertising DSPが提供するサードパーティセグメント
 
    * 特定の地理的な場所（国、州、米国内の DMA、都市、郵便番号を含む）
 
-   * 特定のキーと値のペア（データパスターゲット）がDSP、パブリッシャー、パートナーから渡されるビューア
+   * 特定のキーと値のペア（データパスターゲット）がDSP、パブリッシャー、パートナー（SKU=01234567890123 や Cart=empty など）から渡されるビューア
 
    * [!DNL Creative] リターゲティングピクセルと指定された属性値
 
@@ -38,12 +38,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 2 つのタイプのエクスペリエンスには異なるワークフローがあるので、エクスペリエンスを保存した後で、決定ツリーのターゲット設定を使用するかどうかを変更することはできません。 つまり、ターゲット設定されていないエクスペリエンスを、ターゲット設定されたエクスペリエンスに変更することはできません。 同様に、ターゲット設定されたエクスペリエンスを、ターゲット設定されていないエクスペリエンスに変更することはできません。
+> 2 つのタイプのエクスペリエンスには異なるワークフローがあるので、ターゲット設定されていないエクスペリエンスをターゲット設定されたエクスペリエンスに変更したり、ターゲット設定されていないエクスペリエンスをターゲット設定されていないエクスペリエンスに変更したりすることはできません。
 
 ## 広告の提供と最適化
 
 <!-- MORE -->
-<!--When multiple ad variants qualify for an impression-->
+<!-- When multiple ad variants qualify for an impression -->
 
 [!DNL Creative] は、指定されたターゲティング（該当する場合）、スケジュール、広告ローテーション、最適化目標のオプション、および使用可能な広告インベントリに基づいて、エクスペリエンスのファーストパーティ広告とトリガーサードパーティ広告を提供します。
 
@@ -61,6 +61,10 @@ ht-degree: 0%
 
 ライブエクスペリエンス（必要なすべての広告要素を含む）を作成したら、[ エクスペリエンス全体のJavaScriptまたは iframe タグを生成 ](experience-tag-export.md) できます。 Experience tag を広告としてAdobe Advertising DSPのキャンペーンにアップロードしたり、サードパーティのDSPで広告として実装したりできます。
 
+>[!NOTE]
+>
+>階層ターゲティングの動作は、DSPによって異なる場合があります。 Advertising DSPでは、プレースメントレベルのターゲティングの上に、広告レベルのターゲティングを適用します。
+
 ## エクスペリエンスのパフォーマンスデータ
 
 次のパフォーマンスデータを使用できます。
@@ -68,10 +72,6 @@ ht-degree: 0%
 * [!UICONTROL Creative]/[!UICONTROL Experiences] ビューで「[!UICONTROL Metrics]」オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。
 
   ![ 指標オプション ](/help/creative/assets/metrics-option.png " 指標オプション ")
-
-  <!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
-
-  <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
 * [!UICONTROL Experiences] ビューから [ 任意のエクスペリエンスの詳細なパフォーマンスデータを表示 ](experience-performance-details.md) できます。
 

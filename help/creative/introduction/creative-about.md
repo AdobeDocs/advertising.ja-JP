@@ -2,7 +2,7 @@
 title: Adobe Advertising Creativeについて
 description: 詳細情報  [!DNL Creative].
 feature: Creative Introduction
-source-git-commit: 46f5665642e5e03dbf1c0a7d29032baab70943cb
+source-git-commit: 72a6c3de183aa47cecc2ec4d0fab30ff91d4bb05
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Creative ライブラリを使用すると、広告エクスペリエンスで�
 
 ### [!DNL Adobe] データ統合
 
-Adobe Audience ManagerとAdobe Analyticsのファーストパーティオーディエンスセグメントに加えて、Advertising Cloud DSP で作成したオーディエンスセグメントを使用し、[!DNL Creative] を使用して作成したピクセルをリターゲティングして、広告体験の特定のクリエイティブのターゲットとして使用できます。<!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
+Adobe Audience ManagerとAdobe Analyticsのファーストパーティオーディエンスセグメントに加えて、Advertising DSPで作成したカスタムオーディエンスセグメントを使用し、[!DNL Creative] を使用して作成したピクセルをリターゲティングし、広告エクスペリエンスの特定のクリエイティブのターゲットとして使用できます。<!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
 ### 広告としてのエクスペリエンスの実装
 
