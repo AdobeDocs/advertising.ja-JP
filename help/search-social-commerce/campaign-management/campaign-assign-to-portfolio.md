@@ -3,9 +3,9 @@ title: ポートフォリオへのキャンペーンの割り当て
 description: 最適化のためにキャンペーンをポートフォリオに含める方法を説明します。
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 0b5b7baaa4044af9bd86291385a5311cfc7410ee
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,39 @@ ht-degree: 0%
 
 キャンペーンを最適化されたポートフォリオに割り当てると、検索、ソーシャルおよびCommerceで、キャンペーンのキーワードおよび広告の入札、キャンペーン予算および入札戦略のターゲットを最適化できます。 キャンペーンをポートフォリオに割り当てるには、[!UICONTROL Campaigns] ビューでポートフォリオを作成するか、ポートフォリオの設定を編集します。
 
-すべてのキャンペーンタイプと広告ネットワークが最適化の対象となるわけではありません。ポートフォリオに含めることができる [ サポートされるキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md) のリストを参照してください。 また、検索、ソーシャル、Commerceからアクセスできる「Portfolio」の最適化ガイドの章で「キャンペーン入札戦略別の適格なPortfolioの種類」を参照して、各キャンペーン入札戦略の最適化サポートを確 <!-- verify convention for referencing Optimization Guide here --> します。
+すべてのキャンペーンタイプと広告ネットワークが最適化の対象となるわけではありません。ポートフォリオに含めることができる [ サポートされるキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md) のリストを参照してください。 また、検索、ソーシャル、Commerceからアクセスできる「ポートフォリオ」の最適化ガイドの章で「キャンペーン入札戦略別の適格なPortfolioのタイプ」を参照して、キャンペーン入札戦略ごとに最適化のサポートを確 <!-- verify convention for referencing Optimization Guide here --> します。
 
 >[!NOTE]
 >
 >各キャンペーンは、1 つのポートフォリオにのみ割り当てることができます。 既に別のポートフォリオに関連付けられているキャンペーンを新しいポートフォリオに割り当てると、そのキャンペーンは元のポートフォリオから削除されます。
 
-## [!UICONTROL Campaigns] ビューからのポートフォリオへのキャンペーンの割り当て
+## （新しい UI） [!UICONTROL Manage]/[!UICONTROL Campaigns] ビューからの既存のポートフォリオへのキャンペーンの割り当て
+
+1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Campaigns]** をクリックします。
+
+1. 単一のポートフォリオに割り当てる各キャンペーンの横にあるチェックボックスをオンにします。
+
+1. ツールバーで、![ その他のアクション ](/help/search-social-commerce/assets/more-actions.png " その他のアクション ") **[!UICONTROL More Actions]** / ![割り当て](/help/search-social-commerce/assets/assign.png "割り当て") **[!UICONTROL Assign]** / **[!UICONTROL Existing Portfolio]** をクリックします。
+
+1. ポートフォリオを選択します。
+
+1. 「**[!UICONTROL Assign Now]**」をクリックします。
+
+## （新しい UI） [!UICONTROL Manage]/[!UICONTROL Campaigns] ビューからの新しいポートフォリオへのキャンペーンの割り当て
+
+1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Campaigns]** をクリックします。
+
+1. 新しいポートフォリオを作成する各キャンペーンの横にあるチェックボックスをオンにします。
+
+1. ツールバーで、![ その他のアクション ](/help/search-social-commerce/assets/more-actions.png " その他のアクション ") **[!UICONTROL More Actions]** / ![割り当て](/help/search-social-commerce/assets/assign.png "割り当て") **[!UICONTROL Assign]** / **[!UICONTROL New Portfolio]** をクリックします。
+
+1. [!UICONTROL Create Portfolio] の画面で、「ポートフォリオ設定 [ を指定 ](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md) ます。
+
+   以前に選択したキャンペーンは、既にキャンペーンに割り当てられています。 オプションで、ポートフォリオのキャンペーンリストを編集できます。
+
+1. 「**[!UICONTROL Review and Save]**」をクリックします。
+
+## （レガシー UI） [!UICONTROL Campaigns] ータビューからのポートフォリオへのキャンペーンの割り当て
 
 1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
 
@@ -38,7 +64,7 @@ ht-degree: 0%
          >
          >ポートフォリオ内のすべてのキャンペーンは、同じ通貨を使用する必要があります。
 
-      1. データ テーブルの上にあるツールバーで ![[ その他 ")] をクリックし、次に ] (/help/search-social-commerce/assets/more.png "**[!UICONTROL Assign]>[!UICONTROL Portfolio]** をクリックします。
+      1. データ テーブルの上にあるツールバーで ![[ その他 ")] をクリックし、次に ](/help/search-social-commerce/assets/more.png "**[!UICONTROL Assign]>[!UICONTROL Portfolio]** をクリックします。
 
 1. ポートフォリオを選択します。
 
@@ -58,7 +84,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-## [!UICONTROL Portfolios] ビューからのポートフォリオ内のキャンペーンの変更
+## （レガシー UI） [!UICONTROL Portfolios] ビューからポートフォリオ内のキャンペーンを変更
 
 1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Optimization]/[!UICONTROL Portfolios]** をクリックし、ポートフォリオを見つけます。
 
