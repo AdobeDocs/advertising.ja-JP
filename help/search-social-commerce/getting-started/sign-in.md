@@ -3,18 +3,24 @@ title: ログイン
 description: ログイン方法を説明します。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: 1bf1c26b56c2d57437d288ae5ac9d2ba1ff1db77
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
 
 # ログイン
 
-検索、ソーシャル、Commerceに直接ログインすることも、Adobe Experience Cloud内からログインすることもできます。
+<!-- update with new info -->
 
-## 直接ログイン
+<!--
+
+You can sign in to Search, Social, & Commerce directly or from within Adobe Experience Cloud.
+
+## Sign in directly
+
+ -->
 
 * 次のいずれかの URL にログインします。
 
@@ -22,20 +28,25 @@ ht-degree: 0%
 
    * その他すべてのエリアのユーザー：[https://enterprise-intl.efrontier.com](https://enterprise-intl.efrontier.com)
 
-## Adobe Experience Cloudからログイン
+<!--
+
+## Sign in from Adobe Experience Cloud
 
 >[!NOTE]
 >
->会社はAdobe Experience Cloudでプロビジョニングする必要があり、[Experience Cloud アカウントを検索、ソーシャル、Commerceのアカウントにリンクする ](https://experiencecloud.adobe.com/resources/help/ja_JP/mcloud/organizations.html) 必要があります。
+>Your company must be provisioned in Adobe Experience Cloud, and you must have [linked your Experience Cloud account to a Search, Social, & Commerce account](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-1. [Adobe Experience Cloudにログインします ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ja#signin)。
+1. [Sign in to Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
 
-1. トップメニューで「![ ソリューションセレクター ](/help/search-social-commerce/assets/menu-icon.png " ソリューションセレクター ")」を選択します。
+1. In the top menu, select ![Solution selector](/help/search-social-commerce/assets/menu-icon.png "Solution selector").
 
-1. サブメニューで「**[!UICONTROL Advertising Cloud]**」を選択します。
+1. In the submenu, select **[!UICONTROL Advertising Cloud]**.
+
+-->
 
 >[!MORELIKETHIS]
 >
+>* [ 新しいユーザーインターフェイスと従来のユーザーインターフェイスの切り替え ](ui-switch.md)
 >* [ ログアウト ](sign-out.md)
 >* [ パスワードを変更する ](/help/search-social-commerce/tools/password-change.md)
 >* [ ユーザーインターフェイスの編成方法 ](user-interface.md)
