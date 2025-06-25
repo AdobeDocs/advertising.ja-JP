@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 同期する各アカウントまたはキャンペーンの横にあるチェックボックスを選択します。 一度に 50 件までのキャンペーンを同期できます。 一度に 5 つを超えるアカウントを同期する場合、ジョブは最大 5 つのアカウントのバッチに分割されます。
 
-1. ツールバーの ![**その他 ") をクリックし**](/help/search-social-commerce/assets/more.png "、**[!UICONTROL Sync]** を選択します。
+1. ツールバーの ![**その他 ") をクリックし**] (/help/search-social-commerce/assets/more.png "、**[!UICONTROL Sync]** を選択します。
 
 同期ジョブのステータスは、[!UICONTROL Workspace] 表示で確認できます。 仕事にかかる時間は
 1 時間以上表示される。

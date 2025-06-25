@@ -20,7 +20,7 @@ ht-degree: 0%
 
 「[!DNL Include in 'Conversions']」オプションが有効になっているコンバージョンのデータを検索、ソーシャル、Commerceで同期し、過去 35 日間のデータを取り込んでから、広告主のタイムゾーンで毎日 09:00-10:00 ずつデータへの変更を取り込みます。 クリックごとに新しいコンバージョンが追跡されるので、履歴データは日ごとに変更される可能性があります。
 
-[!DNL Google Ads] で設定したコンバージョン名を使用して ](https://support.google.com/google-ads/answer/4677036)[[!DNL Google Ads] で追跡した各コンバージョンに対して最大 3 つの指標（[!DNL Google Ads] で設定）を検索、ソーシャル、Commerceで自動的に使用できます。 各コンバージョンの指標は次のとおりです。
+[!DNL Google Ads] で設定したコンバージョン名を使用して [&#128279;](https://support.google.com/google-ads/answer/4677036) [!DNL Google Ads] で追跡した各コンバージョンに対して最大 3 つの指標（[!DNL Google Ads] で設定）を検索、ソーシャル、Commerceで自動的に使用できます。 各コンバージョンの指標は次のとおりです。
 
 <!--
 

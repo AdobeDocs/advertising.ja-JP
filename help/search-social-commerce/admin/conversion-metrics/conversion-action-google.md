@@ -62,7 +62,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Don't use a value for this conversion action (Not recommended)]*
 
-**[!UICONTROL Count]:**[ クリックまたはインタラクションごとにカウントするコンバージョン数 ](https://support.google.com/google-ads/answer/3438531):*[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]* または *[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*。
+**[!UICONTROL Count]:**&#x200B;[ クリックまたはインタラクションごとにカウントするコンバージョン数 ](https://support.google.com/google-ads/answer/3438531):*[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]* または *[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*。
 
 **[!UICONTROL Click Through Conversion Window]:** コンバージョンが記録される広告インタラクション後の最大日数。 検索、ディスプレイ、ショッピングキャンペーンの場合、ウィンドウは 1～90 日です。 数値を選択するか、**[!UICONTROL Custom]** を選択して数値を入力します。
 

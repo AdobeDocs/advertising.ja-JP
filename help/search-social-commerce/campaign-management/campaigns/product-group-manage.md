@@ -102,7 +102,7 @@ ht-degree: 0%
 
          複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-      1. ツールバーの ![ その他 ") をクリックし ](/help/search-social-commerce/assets/more.png " 選択 **[!UICONTROL Delete]** ます。
+      1. ツールバーの ![ その他 ") をクリックし ] (/help/search-social-commerce/assets/more.png " 選択 **[!UICONTROL Delete]** ます。
 
       1. 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 

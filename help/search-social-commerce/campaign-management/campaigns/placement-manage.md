@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-[ 同期広告ネットワークアカウント内の表示ネットワークをターゲットとする [ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md) 広告グループのプレースメントを作成および編集 ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) きます。
+[&#128279;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 同期広告ネットワークアカウント内の表示ネットワークをターゲットとする [ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md) 広告グループのプレースメントを作成および編集  きます。
 
 ## プレースメント [!DNL Google Ads] 作成
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]** をクリックします。
 
-1. 
+1. &#x200B;
    1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
 1. 広告ネットワーク、アカウント、キャンペーン、広告グループを選択し、「**[!UICONTROL Continue]**」をクリックします。
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Placement Details]
 
-**[!UICONTROL Placements]:** 広告を表示できるコンテンツ ネットワーク上のサイト。 www.example.com、example.com、www.example.com/shoes/kidsなど、有効な URL を入力します。 複数の文字列を指定する場合は、コンマで区切るか、別の行に入力します。 URL に疑問符（`?`）を含めることはできません。 **メモ：**[!UICONTROL Placements]/[!UICONTROL Negatives] 表示、広告グループおよびキャンペーン設定から [web サイトのプレースメントを除外 ](placement-negative-create.md) できます。
+**[!UICONTROL Placements]:** 広告を表示できるコンテンツ ネットワーク上のサイト。 www.example.com、example.com、www.example.com/shoes/kidsなど、有効な URL を入力します。 複数の文字列を指定する場合は、コンマで区切るか、別の行に入力します。 URL に疑問符（`?`）を含めることはできません。 **メモ：**&#x200B;[!UICONTROL Placements]/[!UICONTROL Negatives] 表示、広告グループおよびキャンペーン設定から [web サイトのプレースメントを除外 ](placement-negative-create.md) できます。
 
 **[!UICONTROL Status]:** プレースメントの表示ステータス：*アクティブ* （入札を有効にする場合）、*一時停止* （入札を無効にする場合）、*削除済み* （プレースメントを削除する場合）、既存のプレースメントのみ）。
 

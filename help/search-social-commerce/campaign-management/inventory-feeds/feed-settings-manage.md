@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## フィードデータの設定 {#feed-data-settings}
 
-**[!UICONTROL Enable obsolete item auto-processing for]:**[!UICONTROL Obsolete Item Auto-processing] のすべての設定を次の場合に適用します。
+**[!UICONTROL Enable obsolete item auto-processing for]:**&#x200B;[!UICONTROL Obsolete Item Auto-processing] のすべての設定を次の場合に適用します。
 
 * *[!UICONTROL Ad Groups Only]:* 古い広告グループのみ。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Immediately]* （デフォルト）：データがテンプレートを通じて伝播された後、バルクシートファイルを関連する広告ネットワークに投稿します。 バルクシート ファイルは、[!UICONTROL Bulksheets] ビューで 30 日間使用できます。
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]:**バルクシート ファイルは関連する広告ネットワークには投稿されませんが、[!UICONTROL Bulksheets] ビューに一覧表示され、後で投稿できます。 バルクシート ファイルは、[!UICONTROL Bulksheets] ビューで 30 日間使用できます。 バルクシートファイルが 10 MB を超えて 2 GB 未満の場合、ファイルは ZIP 形式です。投稿するためにファイルを解凍する必要はありません。 **ヒント：** ランディングページの検証をまだ行っていない場合は、このオプションを使用して、データを広告ネットワークに投稿する前に [!UICONTROL Bulksheets] ビューからランディングページを検証できます。
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]:**バルクシート ファイルは関連する広告ネットワークには投稿されませんが、[!UICONTROL Bulksheets] ビューに一覧表示され、後で投稿できます。 バルクシート ファイルは、[!UICONTROL Bulksheets] ビューで 30 日間使用できます。 バルクシートファイルが 10 MB を超えて 2 GB 未満の場合、ファイルは ZIP 形式です。投稿するためにファイルを解凍する必要はありません。 &#x200B;** ヒント：** ランディングページの検証をまだ行っていない場合は、このオプションを使用して、データを広告ネットワークに投稿する前に [!UICONTROL Bulksheets] ビューからランディングページを検証できます。
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]:** 指定された単語数を超えるキーワード フレーズを広告ネットワークに投稿することを禁止します。 このオプションを選択すると、単語の最大数を超えるキーワードフレーズが伝播され、「[!UICONTROL Keywords]」タブに表示されますが、データを投稿しようとしても投稿されません。
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-コールアウト拡張機能を作成し、[ 同期  [!DNL Google Ads]  アカウント  [!DNL Google Ads]  内の検索ネットワーク上の任意の [ サポート対象 ](/help/search-social-commerce/introduction/supported-inventory.md) キャンペーンまたは広告グループ ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) に割り当てることができます。
+コールアウト拡張機能を作成し、[&#128279;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 同期  [!DNL Google Ads]  アカウント  [!DNL Google Ads]  内の検索ネットワーク上の任意の [ サポート対象 ](/help/search-social-commerce/introduction/supported-inventory.md) キャンペーンまたは広告グループ  に割り当てることができます。
 
 コールアウトを使用して広告を表示するには、キャンペーンまたは広告グループごとに少なくとも 2 つのコールアウトを割り当てます。
 

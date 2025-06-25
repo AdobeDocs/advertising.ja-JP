@@ -25,7 +25,7 @@ ht-degree: 0%
 
 1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Post]**] をクリックします。
 
-1. ダイアログ ボックスで、[[!UICONTROL Post Bulksheet] 設定の情報を入力または選択し ](#bulksheet-post-settings)[**[!UICONTROL Post]**] をクリックします。
+1. ダイアログ ボックスで、[[!UICONTROL Post Bulksheet] 設定の情報を入力または選択し ](#bulksheet-post-settings) [**[!UICONTROL Post]**] をクリックします。
 
    投稿するすべてのファイルに同じ設定が適用されます。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 >
 >* 大量のデータがポストされるまでに時間がかかる。 [!UICONTROL Bulksheets] ビューの [!UICONTROL Progress] 列で、ファイルの進行状況を追跡できます。
 >* 投稿されたすべてのデータは、ネットワークの編集プロセスの対象となります。
-* バルクシート ファイルを投稿する前に、投稿をキャンセルできます。
+>* バルクシート ファイルを投稿する前に、投稿をキャンセルできます。
 
 ## バルクシートおよび修正されたエラーファイルの POST 設定 {#bulksheet-post-settings}
 
