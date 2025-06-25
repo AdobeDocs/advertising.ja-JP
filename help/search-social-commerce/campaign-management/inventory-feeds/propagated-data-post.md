@@ -3,7 +3,7 @@ title: フィードから広告ネットワークにキャンペーン データ
 description: 在庫データフィードから生成されたデータを広告ネットワークに投稿する方法を説明します。
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 2cf15dbab3dc00ec88a41e4f7d8b5b3646b843e8
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 投稿が成功するには、すべての広告グループをキャンペーンに割り当て、すべてのキーワードと広告を広告グループに割り当てる必要があります。また、必要なすべての情報を長さ違反なく含める必要があります。
 
-* オプションを「[!UICONTROL Propagate and Preview]」に使用した場合は、生成されたバルクシートファイル [&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md) 「`<feed file name>_<template name>`」という名前）を [!UICONTROL Bulksheets] ビューから  投稿」します。
+* オプションを「[!UICONTROL Propagate and Preview]」に使用した場合は、生成されたバルクシートファイル ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md) 「`<feed file name>_<template name>`」という名前）を [!UICONTROL Bulksheets] ビューから [ 投稿」します。
 
   以前に [ ランディングページの検証 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) を行ったことがない場合は、ファイルを投稿する前に行うことができます。
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
   >[!TIP]
   >
-  >以前にランディングページを検証したことがなく、その検証を行う場合は、広告ネットワークに投稿する代わりに、[!UICONTROL Bulksheets] ビューから [ データを反映してプレビュー ](feed-data-propagate.md) します。 その後、手動でファイルを広告ネットワークに投稿する前に [&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)URL を検証  できます。
+  >以前にランディングページを検証したことがなく、その検証を行う場合は、広告ネットワークに投稿する代わりに、[!UICONTROL Bulksheets] ビューから [ データを反映してプレビュー ](feed-data-propagate.md) します。 その後、手動でファイルを広告ネットワークに投稿する前に ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)URL を検証 [ できます。
 
-   1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
+   1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
 
    1. テンプレートの横にあるチェックボックスをオンにします。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
               日付を指定するには、DD/MM/YYYY または D/M/YYYY の形式を使用するか、「![ カレンダー ](/help/search-social-commerce/assets/calendar.png " カレンダー ")」をクリックしてカレンダーを開き、[ 日付を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md) します。 時間を変更するには、24 時間形式（HH/MM または H/M）で時間を入力するか、リストから時間（30 分間隔）を選択します。
 
-         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** [!UICONTROL Search] > [!UICONTROL Bulksheets] ビューで使用できるバルクシートファイルを作成します。 必要に応じて、ここからファイルを投稿できます。
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets] ビューで使用できるバルクシートファイルを作成します。 必要に応じて、ここからファイルを投稿できます。
 
            作成されるバルクシートファイルが 2 MB を超える場合、ファイルは ZIP 形式です。 投稿するためにファイルを展開する必要はありません。
 

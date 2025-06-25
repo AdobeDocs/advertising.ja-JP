@@ -3,7 +3,7 @@ title: 広告ネットワークデータの手動同期
 description: サポートされる広告ネットワークのキャンペーン構造とキャンペーンエンティティの同期を手動でトリガーする方法について説明します。
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: c4600e6ef41193f09722052ef9b16fe5d07bdaaf
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -26,13 +26,13 @@ ht-degree: 0%
 >
 >[ バルクシートを作成 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) する際はいつでも、バルクシートを作成する前に広告ネットワークと同期できます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、「**[!UICONTROL Accounts]**」を選択して特定のアカウントのすべてのキャンペーンを同期するか、「**[!UICONTROL Campaigns]**」を選択して特定のキャンペーンを同期します。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、「**[!UICONTROL Accounts]**」を選択して特定のアカウントのすべてのキャンペーンを同期するか、「**[!UICONTROL Campaigns]**」を選択して特定のキャンペーンを同期します。
 
 1. （任意）リストをフィルタリングして、特定のアカウントやキャンペーンを含めます。
 
 1. 同期する各アカウントまたはキャンペーンの横にあるチェックボックスを選択します。 一度に 50 件までのキャンペーンを同期できます。 一度に 5 つを超えるアカウントを同期する場合、ジョブは最大 5 つのアカウントのバッチに分割されます。
 
-1. ツールバーの ![**その他 ") をクリックし**] (/help/search-social-commerce/assets/more.png "、**[!UICONTROL Sync]** を選択します。
+1. ツールバーの ![**その他 ") をクリックし**](/help/search-social-commerce/assets/more.png "、**[!UICONTROL Sync]** を選択します。
 
 同期ジョブのステータスは、[!UICONTROL Workspace] 表示で確認できます。 仕事にかかる時間は
 1 時間以上表示される。

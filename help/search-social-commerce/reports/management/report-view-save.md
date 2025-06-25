@@ -3,7 +3,7 @@ title: レポートの表示または保存
 description: 生成されたレポートを表示する方法や、レポートをファイルとして保存する方法について説明します。
 exl-id: 11333266-d1af-4064-9816-c70b53b0a8bd
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -16,9 +16,9 @@ Web ブラウザでレポートを表示したり、レポート データを [!
 
 >[!NOTE]
 >
->Adobeアカウントチームメンバーと管理者ユーザーは、クライアントと代理店の役割ごとに作成されたレポートを表示できます。
+>Adobe アカウントチームメンバーと管理者ユーザーは、クライアントと代理店の役割ごとに作成されたレポートを表示できます。
 
-1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** をクリックすると、「**[!UICONTROL Latest Reports]**」タブが開きます。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** をクリックすると、「**[!UICONTROL Latest Reports]**」タブが開きます。
 
 1. 次のいずれかの操作をおこないます。
 

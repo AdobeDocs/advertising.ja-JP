@@ -3,7 +3,7 @@ title: パブリッシャーの推奨事項とパフォーマンスインサイ�
 description: 広告ネットワークアカウントの  [!DNL Google Ads] recommendations および  [!DNL Microsoft Advertising] performance insights を表示する方法を説明します。
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## パブリッシャーのお勧めを表示
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Recommendations & Publisher Insights]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Recommendations & Publisher Insights]** をクリックします。
 
 1. 右上で、広告ネットワークとアカウントを選択します。
 
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 ## [!DNL Microsoft Advertising] のパフォーマンスインサイトを表示
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Recommendations & Publisher Insights]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Recommendations & Publisher Insights]** をクリックします。
 
 1. 右上で、広告ネットワークとアカウントを選択します。
 
 1. データテーブルの上にある「**[!UICONTROL Insights]**」をクリックします。
 
-1. 行の「[!UICONTROL Actions]」列にアクションが含まれている場合は、必要に応じて「**[!UICONTROL Click here]**」をクリックして [!DNL Microsoft Advertising] エディターを開き、インサイトに対してアクションを実行できます。
+1. 行の「[!UICONTROL Actions]」列にアクションが含まれている場合は、必要に応じて「**[!UICONTROL Click here]**」をクリックして [!DNL Microsoft Advertising] Editor を開き、insightに対してアクションを実行できます。
 
    [!DNL Microsoft Advertising] エディターにログインしていない場合は、まずログイン画面が表示されます。
 

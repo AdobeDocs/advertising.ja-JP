@@ -3,7 +3,7 @@ title: cookie ベースのクリックの追跡の設定
 description: クリックトラッキングタグを設定および検証する方法について説明します。
 exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 検索、ソーシャル、Commerceでクリックをトラッキングするには、次の要素を設定し検証する必要があります。
 
-1. （Adobeアカウントチーム）広告主をピクセルカスタマーとして設定します。
+1. （Adobe アカウントチーム）広告主をピクセル顧客として設定します。
 
 1. [ 広告主の広告ネットワークアカウントおよびキャンペーンごとに正しいトラッキングオプションを指定します ](#set-up-click-tracking-options)。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 各広告ネットワークアカウントに対して、次の手順を実行します。
 
-   1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Accounts]** をクリックします。
+   1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Accounts]** をクリックします。
 
    1. アカウント名の上にカーソルを置き、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ") をクリックして、**[!UICONTROL Edit]** を選択します。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. キャンペーンごとに、次の操作を行います。
 
-   1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
+   1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
 
    1. キャンペーン名の上にカーソルを置き、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ") をクリックして、**[!UICONTROL Edit]** を選択します。
 

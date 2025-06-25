@@ -3,7 +3,7 @@ title: バルクシートファイル内のランディングページの検証
 description: 単一アカウントのバルクシートファイルで宛先 URL を検証する方法を説明します。
 exl-id: 191cb1bc-54a9-4c6c-a29c-f3cbae08e0d8
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >* この機能では、「ベース URL/最終 URL」列の値は検証されません。
 >* バルクシートファイルは、検証中やエラーが見つかった場合でも投稿できます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Bulksheets]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Bulksheets]** をクリックします。
 
 1. 検証する各ファイルの横にあるチェックボックスをオンにします。
 

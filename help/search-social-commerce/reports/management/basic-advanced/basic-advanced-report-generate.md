@@ -3,7 +3,7 @@ title: 基本レポートまたは詳細レポートの生成
 description: カスタマイズした基本レポートや詳細レポートを生成する方法について説明します。
 exl-id: 529a35f5-517f-4bde-b752-c0afc6346f4b
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 基本レポートまたは詳細レポートの生成
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Create Report]**] をクリックし、カーソルを **[!UICONTROL Basic Reports]** または **[!UICONTROL Advanced Reports]** に置いて [ レポートの種類 ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) をクリックします。
 

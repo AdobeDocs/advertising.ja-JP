@@ -3,7 +3,7 @@ title: アカウントコンポーネントからラベル分類値を削除
 description: ラベル分類値とアカウントコンポーネント間の関連付けを削除する方法を説明します。
 exl-id: 8697367b-0bf9-48c9-8dd3-e733360e1df2
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >ラベル分類から値を削除するには、「[ ラベル分類値の削除 ](classification-values-delete.md)」を参照してください。
 
-1. **[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** で、エンティティ表示を選択します。
+1. **[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** で、エンティティ表示を選択します。
 
 1. 次のいずれかの操作をおこないます。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
         複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-      * データ テーブルの上にあるツールバーで、&lbrack;![ その他 ](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Classification]**] をクリックします。
+      * データ テーブルの上にあるツールバーで、[![ その他 ](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Classification]**] をクリックします。
 
 1. [!UICONTROL Assignment Details] で、「**[!UICONTROL Remove]**」を選択します。
 

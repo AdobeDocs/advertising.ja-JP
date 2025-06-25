@@ -4,7 +4,7 @@ description: データソースを一時停止して同期を停止する方法�
 role: User, Admin
 exl-id: 93ac22c8-e1e7-490e-8b00-86cac8a2d00c
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # データソースの同期を一時停止
 
-*代理店管理者（基本役割）、Adobeアカウント管理者、管理者のみ*
+*代理店管理者（基本役割）、Adobe担当営業および管理者専用*
 
-データソースを一時停止すると、その後のデータソースとの同期が停止されます。 フィードが現在同期されている場合は、Adobe Advertising内のデータが最新になるように、プロセスが最初に完了します。
+データソースを一時停止すると、その後のデータソースとの同期が停止されます。 フィードが現在同期されている場合は、Adobe Advertisingのデータが最新になるように、プロセスが最初に完了します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Data Source Setup]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Data Source Setup]** をクリックします。
 
 1. 一時停止するデータソースの横にあるチェックボックスを選択します。
 

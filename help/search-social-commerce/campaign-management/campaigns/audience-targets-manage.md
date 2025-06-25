@@ -3,7 +3,7 @@ title: キャンペーンおよび広告グループのオーディエンスタ�
 description: キャンペーンと広告グループのオーディエンスターゲットを設定お  [!DNL Google Ads]  び管理す  [!DNL Microsoft Advertising]  方法について説明します。
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## オーディエンスターゲットを設定
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 >
 >親キャンペーンが CPC 入札戦略を使用し、オーディエンスターゲットの入札調整値を自動最適化するように設定されたポートフォリオに含まれる場合、検索、ソーシャル、Commerceによって入札修飾子が自動的に最適化されます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]** をクリックします。
 
 1. 次のいずれかの操作をおこないます。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 アクティブな検索オーディエンスターゲットまたは一時停止した検索オーディエンスターゲットを削除することもできます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]** をクリックします。
 
 1. （任意）特定のオーディエンスターゲットを含めるようにリストをフィルタリングします。
 

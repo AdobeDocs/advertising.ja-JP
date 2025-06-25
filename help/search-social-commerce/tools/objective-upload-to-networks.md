@@ -3,7 +3,7 @@ title: 広告ネットワークへの目標のアップロードを有効にす�
 description: ' [!DNL Google Ads] and [!DNL Microsoft Advertising] にハイブリッドポートフォリオの目標をアップロードする方法を説明します。'
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 >Google Ads およびMicrosoft Advertising ユニバーサルイベントトラッキング（UET）タグで追跡されたコンバージョンは、広告ネットワークに再アップロードされません。 目標内に含める場合は、広告ネットワークのエディター内のキャンペーンの目標に追加する必要があります。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Tools]/[!UICONTROL Conversion Upload Setup]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Tools]/[!UICONTROL Conversion Upload Setup]** をクリックします。
 
 1. 「**[!UICONTROL Enable Objective Upload]**」の横にあるチェックボックスをオンにします。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-1. （コンバージョンが管理者アカウントレベルで追跡されている場合） [ 管理者アカウントの資格情報を追加 ](/help/search-social-commerce/admin/manager-accounts.md)**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Manager Accounts]** で行います。
+1. （コンバージョンが管理者アカウントレベルで追跡されている場合） [ 管理者アカウントの資格情報を追加 ](/help/search-social-commerce/admin/manager-accounts.md)**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Manager Accounts]** で行います。
 
 1. `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` という名前の各目標が、2 日以内に広告ネットワークに表示されることを確認します。
 
@@ -67,7 +67,7 @@ Google Ads で追跡される指標なので、GGL_Lead は計算/アップロ�
 
 >[!TIP]
 >
->広告ネットワークのレポート内で、Adobe Advertisingの重み付け売上高のデータを表示できます。 ベストプラクティスとして、重み付けされた売上高を [!DNL Google Ads] の「すべての conv」と比較します。 （conv. 時間）」指標または [!DNL Microsoft Advertising] 指標「すべての変換」 売上高は、O_ACS_OBJ*指標にセグメント化されています。<!--clarify -->
+>広告ネットワークのレポート内で、Adobe Advertisingの加重売上高のデータを表示できます。 ベストプラクティスとして、重み付けされた売上高を [!DNL Google Ads] の「すべての conv」と比較します。 （conv. 時間）」指標または [!DNL Microsoft Advertising] 指標「すべての変換」 売上高は、O_ACS_OBJ*指標にセグメント化されています。<!--clarify -->
 
 ## 目標が見つからない場合のトラブルシューティング
 
@@ -75,7 +75,7 @@ Google Ads で追跡される指標なので、GGL_Lead は計算/アップロ�
 
 * （[!DNL Google Ads]） コンバージョンをアカウントレベルまたはマネージャーレベルにアップロードする必要があるかどうかを確認します。 マネージャーレベルでアップロードする場合：
 
-   * [!DNL Google Ads] manager アカウントの資格情報が **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]** で提供されているかどうかを確認します。 必要に応じて、[ マネージャーアカウントの資格情報を追加 ](/help/search-social-commerce/admin/manager-accounts.md) します。
+   * [!DNL Google Ads] manager アカウントの資格情報が **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]** で提供されているかどうかを確認します。 必要に応じて、[ マネージャーアカウントの資格情報を追加 ](/help/search-social-commerce/admin/manager-accounts.md) します。
 
    * 広告ネットワークアカウントに同じ指標名が既に含まれているかどうかを確認します。 含まれる場合は、適切なマネージャーレベルのプロパティを作成できるように、指標の名前を変更します。
 

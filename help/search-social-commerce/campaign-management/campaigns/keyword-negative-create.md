@@ -3,7 +3,7 @@ title: ネガティブキーワードの作成
 description: 検索キャンペーンと広告グループにネガティブキーワードを作成する方法を説明します。
 exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!TIP]
 >一度に多くのネガティブキーワードを作成するには、[campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Negatives]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Negatives]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックし、[**[!UICONTROL Campaign]**] をクリックしてキャンペーン レベルの負のキーワードを作成するか、[**[!UICONTROL Ad Group]**] をクリックして広告グループ レベルの負のキーワードを作成します。
 

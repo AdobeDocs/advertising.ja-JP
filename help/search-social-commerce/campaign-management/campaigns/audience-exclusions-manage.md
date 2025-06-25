@@ -3,7 +3,7 @@ title: キャンペーンおよび広告グループのオーディエンス除�
 description: キャンペーンと広告グループのオーディエンス除外を設定および管理  [!DNL Google Ads]  る方法  [!DNL Microsoft Advertising]  ついて説明します。
 exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## オーディエンスの除外の設定
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## オーディエンスの除外を削除
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]** をクリックします。
 
 1. （任意）特定のオーディエンスの除外を含めるようにリストをフィルタリングします。
 

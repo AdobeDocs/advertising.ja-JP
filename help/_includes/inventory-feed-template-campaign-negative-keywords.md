@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
    * 負の語句の一致：`"keyword"`
    * 完全一致が負の数：`[keyword]`
 
-フレーズと完全一致のタイプの慣習的な構文は、テンプレートを通じてフィードデータを伝播する際に生成されるバルクシートで使用されます。 **メモ：** 負のキーワードは、「[!UICONTROL Keywords]」タブまたは [!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] 表示には表示されません。
+フレーズと完全一致のタイプの慣習的な構文は、テンプレートを通じてフィードデータを伝播する際に生成されるバルクシートで使用されます。 **メモ：** 負のキーワードは、「[!UICONTROL Keywords]」タブまたは [!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] 表示には表示されません。
 
 **[!UICONTROL All other campaigns: Apply these negatives]:** （[!DNL Yandex] を除くすべての広告ネットワーク。オプション）名前が指定した文字列に一致しないキャンペーンに追加する、静的なキャンペーンレベルのネガティブキーワード。 同じキーワードに対して複数のキーワードまたは複数の一致タイプを指定するには、別々の行に入力します。 マイナス記号を使用せずに、次の構文を使用します。
 
@@ -29,4 +29,4 @@ ht-degree: 0%
 * 負の語句の一致：`"keyword"`
 * 完全一致が負の数：`[keyword]`
 
-フレーズと完全一致のタイプの慣習的な構文は、テンプレートを通じてフィードデータを伝播する際に生成されるバルクシートで使用されます。 **メモ：** 負のキーワードは、「[!UICONTROL Keywords]」タブまたは [!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] 表示には表示されません。
+フレーズと完全一致のタイプの慣習的な構文は、テンプレートを通じてフィードデータを伝播する際に生成されるバルクシートで使用されます。 **メモ：** 負のキーワードは、「[!UICONTROL Keywords]」タブまたは [!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] 表示には表示されません。

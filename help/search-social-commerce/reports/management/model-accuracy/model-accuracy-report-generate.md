@@ -3,7 +3,7 @@ title: モデル精度レポートの生成
 description: モデル精度レポートの生成方法を説明します。
 exl-id: 84a32782-e141-45bc-87df-c7b82d0e8ad0
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # モデル精度レポートの生成
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Create Report]**] をクリックし、カーソルを **[!UICONTROL Model Accuracy]** の上に置いて、レポートの種類をクリックします。
 

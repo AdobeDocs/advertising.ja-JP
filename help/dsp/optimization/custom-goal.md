@@ -3,7 +3,7 @@ title: カスタム目標
 description: 最低 CPA または最高 ROAS 用に最適化されたパッケージで成功イベントを定義するカスタム目標について説明します。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 目標に含める指標が追跡されていて、製品で使用でき、表示名を含んでいることを確認します。
 
-   1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Conversions]** をクリックします。
+   1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Conversions]** をクリックします。
 
    1. 指標を見つけ、その指標に対して **[!UICONTROL Show in UI and Reports]** が有効になっていることを確認します。
 

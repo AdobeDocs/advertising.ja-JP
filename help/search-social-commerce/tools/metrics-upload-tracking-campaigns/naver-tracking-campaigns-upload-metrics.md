@@ -3,7 +3,7 @@ title: トラッキング専用アカウントのトラフィックおよびコ�
 description: アカウントのトラッキングとレポート専用のトラフィック指標とコンバージョン指標をアップロードする方法  [!DNL Naver]  説明します。
 exl-id: 2e4c26fa-16a8-4f36-bc17-b3a38a18120b
 feature: Search Tools
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 検索、ソーシャル、Commerceで、データが広告ネットワークと同期されず、アカウントの入札も行われません。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Tools]/[!UICONTROL Generic Tracking]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Tools]/[!UICONTROL Generic Tracking]** をクリックします。
 
 1. 広告ネットワークを選択します。
 

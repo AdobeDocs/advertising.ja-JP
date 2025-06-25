@@ -3,7 +3,7 @@ title: '[!UICONTROL Asset Library] ージからの広告アセットの表示と
 description: アカウントレベルのアセットライブラリ用に再利用可能な画像、ビデオおよびテキスト  [!DNL Google Ads]  セットを表示および作成す  [!DNL Microsoft Advertising]  方法について説明します。
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Performance MAX キャンペーンには、任意のアセットを使用でき�
 
 ## アセットの作成とアップロード
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Asset Library]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Asset Library]** をクリックします。
 
 1. 右上で、広告ネットワークとアカウントを選択します。
 

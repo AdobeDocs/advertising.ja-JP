@@ -3,7 +3,7 @@ title: スプレッドシートレポ  [!DNL Excel]  トフィード用のテン
 description: 特別に書式設定されたスプレッドシートテンプレートを作成する方法を説明します。
 exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 スプレッドシートフィードを作成するには、まず、通常のレポートテンプレートを使用して、特別な形式の [!DNL Microsoft Excel] スプレッドシートテンプレートを作成する必要があります。 必要に応じて、[!DNL Excel] スプレッドシートをカスタマイズして、列とグラフを追加できます。
 
-1. **[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports]** で、[!UICONTROL Date Aggregation] 単位「[!UICONTROL Daily]」を使用し、必要なその他すべてのデータパラメーターを使用して目的のレポートタイプを生成し、レポートをテンプレートとして保存します。
+1. **[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports]** で、[!UICONTROL Date Aggregation] 単位「[!UICONTROL Daily]」を使用し、必要なその他すべてのデータパラメーターを使用して目的のレポートタイプを生成し、レポートをテンプレートとして保存します。
 
    >[!NOTE]
    >
    > * [!UICONTROL Portfolio]、[!UICONTROL Search Engine]、[!UICONTROL Search Engine Account]、[!UICONTROL Campaign]、[!UICONTROL Ad Group]、[!UICONTROL Ad Variation]、[!UICONTROL Keyword] および [!UICONTROL Forecast Accuracy] レポートのスプレッドシートフィードを作成できます。 [!UICONTROL Ad Group Report] を使用する場合は、結果を迅速に得るために、含める広告グループの数を制限します。
    > * テンプレートで定義されている [!UICONTROL Date Range] 単位は使用されません。 後でスプレッドシートフィードを設定する際に、データを更新する日付を定義します。
 
-1. レポートが生成されたら、**[!UICONTROL Search]/ [!UICONTROL Insights & Reports] /[!UICONTROL Reports]** に移動し、レポート出力の TSV または XLS バージョンをファイルに書き出します。
+1. レポートが生成されたら、**[!UICONTROL Search, Social, & Commerce]/ [!UICONTROL Insights & Reports] /[!UICONTROL Reports]** に移動し、レポート出力の TSV または XLS バージョンをファイルに書き出します。
 
 1. [!DNL Excel] で、レポートのカスタムテンプレートを作成します。
 

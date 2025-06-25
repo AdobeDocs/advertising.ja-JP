@@ -1,22 +1,22 @@
 ---
 title: オーディエ  [!DNL Google Ads]  スからの顧客一致オーディエ  [!DNL Adobe]  スの作成
-description: 既存のAdobe AnalyticsとAudience Managerオーディエンスから  [!DNL Google Ads]  カスタマーマッチオーディエンスを作成および使用する方法を説明します。
+description: 既存のAdobe Analytics オーディエンスおよびAudience Manager オーディエンスから  [!DNL Google Ads]  カスタマーマッチオーディエンスを作成する方法を説明します。
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
-# Adobe Analytics[!DNL Google Ads]Audience Managerオーディエンスからカスタマーマッチオーディエンスを作成します。
+# Adobe Analytics オーディエンス [!DNL Google Ads]Audience Manager オーディエンスからカスタマーマッチオーディエンスを作成
 
 顧客一致の対象となるアカウントの *[!DNL Google Ads]定*
 
-*Adobe AdvertisingとAdobe Audience ManagerまたはAdobe AdvertisingとAdobe Analyticsの統合のみを使用する広告主*
+*Adobe AdvertisingとAdobe Audience ManagerまたはAdobe AdvertisingとAdobe Analyticsの統合を使用する広告主のみ*
 
-オプトインされた広告主は [!DNL Google Ads]a） Adobe Experience Cloudと共有されるセグメント [!DNL Analytics] および b） Adobe Experience Cloudに公開される検索、ソーシャル、Commerceを宛先とするAudience Managerセグメントを含むユーザー ID を使用して、カスタマーマッチオーディエンスを作 [!DNL Analytics] できます。Adobe Experience Cloud Audience Library を使用して作成されたセグメントも含まれます。 検索、ソーシャル、Commerceでは、オーディエンスを追跡できるように、[!DNL Google] トラッキング URL が各 [!DNL Analytics] ーザーまたはAudience Managerセグメントに自動的にプッシュ [!DNL Google] れます。
+オプトインされた広告主は [!DNL Google Ads]a） Adobe Experience Cloudと共有されるセグメントと b） Adobe Experience Cloudに公開される [!DNL Analytics] 検索、ソーシャル、Commerceを宛先とするAudience Managerの各セグメント（Adobe Experience Cloud Audience Library で作成される [!DNL Analytics] のセグメントを含む）のユーザー ID を使用してカスタマーマッチオーディエンスを作成できます。 検索、ソーシャル、Commerceでは、オーディエンスを追跡できるように、[!DNL Google] トラッキング URL が各 [!DNL Analytics] またはAudience Manager セグメントに自動的にプッシュされ [!DNL Google] す。
 
 各 [!DNL Adobe] オーディエンスは、1 つの [!DNL Google] オーディエンスに対してのみ使用できます。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->リアルタイムのセグメント化には、Audience Managerが作成したオーディエンスを使用します。 [!DNL Analytics] で作成されAdobe Experience Cloudに同期されたセグメントは、毎日同期されるだけなので、母集団が小さくなる場合があります。セグメントの対象となるサーファーは、翌日までセグメントに含まれない場合があります。 [!DNL Analytics] のセグメントのデータソースは「レポートスイート –」です。
+>リアルタイムのセグメント化には、Audience Managerで作成されたオーディエンスを使用します。 [!DNL Analytics] で作成されAdobe Experience Cloudに同期されたセグメントは、毎日同期されるだけなので、母集団が小さくなる場合があります。セグメントの対象となるサーファーは、翌日までセグメントに含まれない場合があります。 [!DNL Analytics] のセグメントのデータソースは「レポートスイート –」です。
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. （ユーザー ID リマーケティングリストオーディエンスを作成するには） [!DNL Adobe] 管理者ユーザーまたはアカウントマネージャーは、広告主レベルの設定を選択して、顧客一致オーディエンスを有効にする必要があります。
 
-   1. [Adobe Experience Platform ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) バージョン 2.0 以降を実装します。
+   1. [Adobe Experience Platform ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html) バージョン 2.0 以降を実装します。
 
    1. オーディエンスの追跡元となる広告主の web ページに、次のタグをできるだけ高くデプロイします
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    1. （完了していない場合）承認済みユーザーは、[Adobe Experience Cloudで広告主の組織アカウントと同期する ](/help/search-social-commerce/admin/sync-adobe-audiences.md) ように広告主のアカウントを設定する必要があります。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 

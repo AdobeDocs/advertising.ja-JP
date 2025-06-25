@@ -3,7 +3,7 @@ title: 広告主について追跡されたコンバージョン指標の表示
 description: 広告主について追跡されたコンバージョン指標のリストを表示する方法を説明します。
 feature: Conversions
 exl-id: 7c9e2271-4127-4d43-aff8-5a2788bfe60f
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 広告主について追跡されたコンバージョン指標の表示
 
-広告主に対してAdobe Advertisingがトラッキングしたすべての [ コンバージョン ](/help/search-social-commerce/glossary.md#c-d) 指標のリストを表示できます。 各指標行には、指標のソースが含まれます。
+広告主についてAdobe Advertisingが追跡したすべての [ コンバージョン ](/help/search-social-commerce/glossary.md#c-d) 指標のリストを表示できます。 各指標行には、指標のソースが含まれます。
 
-* メインメニューで、**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Conversions]** をクリックします。
+* メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Conversions]** をクリックします。
 
 広告主に対して収集されたすべてのコンバージョン指標と、それらに割り当てられた別の表示名が一覧表示されます。
 

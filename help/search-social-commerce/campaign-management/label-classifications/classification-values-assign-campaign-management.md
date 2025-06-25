@@ -3,7 +3,7 @@ title: キャンペーン管理ビューからのアカウントコンポーネ�
 description: アカウントコンポーネントに分類値を割り当てる方法を説明します。
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >一部の広告ネットワークおよびキャンペーンタイプのキーワードと広告コピーは [ 不変 ](/help/search-social-commerce/campaign-management/faqs-campaigns.md) です。つまり、それらを編集すると、既存のエンティティが削除され、新しいエンティティが作成されます。 この方法で既存の図形を削除すると、ラベル分類は新しい図形に割り当てられません。
 
-1. **[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックし、アカウントコンポーネント表示を選択します。
+1. **[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックし、アカウントコンポーネント表示を選択します。
 
 1. 次のいずれかの操作をおこないます。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
         複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-      * データ テーブルの上にあるツールバーで、&lbrack;![ その他 ](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Classification]**] をクリックします。
+      * データ テーブルの上にあるツールバーで、[![ その他 ](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Classification]**] をクリックします。
 
 1. [!UICONTROL Assignment Details] で、次のいずれかの操作を行います。
 

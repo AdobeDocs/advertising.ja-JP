@@ -3,7 +3,7 @@ title: 共有サイトリンクのアカウント、キャンペーンおよび�
 description: アカウント、キャンペーン、広告グループに共有サイトリンク拡張機能を割り当てる方法を説明します。
 exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 サイトリンクを広告に表示するには、デスクトップとモバイルの両方に少なくとも 6 つのアクティブなサイトリンクが必要です。 アカウント、キャンペーン、広告グループごとに最大 20 個のサイトリンクを割り当てることができます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックし、[**[!UICONTROL Sitelink]**] を選択します。
 

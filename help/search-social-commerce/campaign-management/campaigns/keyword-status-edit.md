@@ -3,7 +3,7 @@ title: キーワードとネガティブキーワードのステータスの変�
 description: キーワードとネガティブキーワードのステータスを変更する方法を説明します。
 exl-id: 46b000af-14a0-4f00-8f3c-c3ef2c93fd19
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 アクティブまたは一時停止した検索キーワードやネガティブキーワードを削除することもできます。 削除されたキーワード/負のキーワードは広告ネットワークから削除されます。 これらは表示されたままですが、変更できません。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]** をクリックします。
 
 1. （任意）特定のキーワードまたは負のキーワードを含めるようにリストをフィルタリングします。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
    * （入札キーワードのみ）行を一時停止するには、「![ 一時停止 ](/help/search-social-commerce/assets/pause.png " 一時停止 ")」をクリックします。
 
-   * 行を削除するには、「![ その他 ")」をクリックし ] (/help/search-social-commerce/assets/more.png " 「**[!UICONTROL Delete]**」を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
+   * 行を削除するには、「![ その他 ")」をクリックし ](/help/search-social-commerce/assets/more.png " 「**[!UICONTROL Delete]**」を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 
 >[!MORELIKETHIS]
 >

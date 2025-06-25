@@ -3,7 +3,7 @@ title: 実装  [!DNL Naver]  トラッキング専用アカウント
 description: ' [!DNL Naver]  アカウントのトラッキングキャンペーンを設定し、広告ネットワークから直接購入した広告のパフォーマンスを追跡、レポート、視覚化する方法を説明します。'
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 0%
@@ -64,11 +64,11 @@ ht-degree: 0%
 
    完全なアカウント階層と、組み込む指標を含めます。 検索、ソーシャル、Commerceを実行すると、アップロードされたデータが既存のキャンペーンのデータと照合されます。
 
-1. （オプション） Web ページでAdobe Advertisingコンバージョントラッキングサービスタグを使用して広告ネットワークで追跡されないコンバージョンを追跡する場合は、毎日の集計コンバージョンデータを含むフィードファイルを送信してトラッキングキャンペーンに追加します。
+1. （オプション） Web ページでAdobe Advertising コンバージョントラッキングサービスタグを使用して広告ネットワークで追跡されないコンバージョンを追跡する場合は、毎日の集計コンバージョンデータを含むフィードファイルを送信してトラッキングキャンペーンに追加します。
 
-   詳しくは、Adobeアカウントチームにお問い合わせください。
+   詳しくは、Adobe アカウントチームにお問い合わせください。
 
-アップロードされたすべてのトラッキングデータは、[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups] および [!UICONTROL Keywords] ビュー内の [!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] から使用できます。 また、[!UICONTROL Insights & Reports] ビューのレポートでも使用できます。
+アップロードされたすべてのトラッキングデータは、[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups] および [!UICONTROL Keywords] ビュー内の [!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] から使用できます。 また、[!UICONTROL Insights & Reports] ビューのレポートでも使用できます。
 
 >[!MORELIKETHIS]
 >

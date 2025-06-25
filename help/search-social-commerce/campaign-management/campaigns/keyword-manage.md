@@ -3,7 +3,7 @@ title: 入札キーワードの管理
 description: 検索広告グループの入札可能なキーワードを作成および管理する方法について説明します。
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >一度に多くのキーワードを作成するには、[ コピーと貼り付け機能 ](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 >
 >様々な広告ネットワーク上のキーワードを含む、大量のキーワードデータを一度に編集するには、[ コピーと貼り付け機能 ](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]** をクリックします。
 
 1. 編集する各行の横にあるチェックボックスをオンにします。
 

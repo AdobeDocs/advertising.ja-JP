@@ -3,7 +3,7 @@ title: ショッピング商品グループの管理
 description: ショッピングキャンペーンでショッピング製品グループを作成および管理する方法を説明します。
 exl-id: cf818b87-ee4b-4cf5-a4e8-0b9a7fc32182
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]および [!DNL Microsoft Advertising] のショッピングキャンペーンのみ*
 
-[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]/[!UICONTROL Product Groups] 表示で、製品グループを作成および編集したり、製品グループとその子製品グループを削除したりできます。
+[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]/[!UICONTROL Product Groups] 表示で、製品グループを作成および編集したり、製品グループとその子製品グループを削除したりできます。
 
 ## 「[!UICONTROL All Products]」製品グループの作成
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >一度に多くのアカウントコンポーネントを作成するには、[campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Product Groups]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Product Groups]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 >
 >一度に多くのアカウントコンポーネントを作成するには、[campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Product Groups]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Product Groups]** をクリックします。
 
 1. （オプション）ツリー表示で製品グループとその子製品グループのノードを表示するには、製品グループ名の上にカーソルを置き、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ") をクリックしてから「**[!UICONTROL Tree View]**」を選択します。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 広告グループに含まれる単位製品グループノード（子製品グループノードを持たない製品グループ）の入札およびトラッキングテンプレートを編集できます。 除外された単位製品グループ、または含まれているか除外されているサブ分割ノード（子製品グループ ノードを持つ製品グループ）に関する情報は編集できません。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Product Groups]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Product Groups]** をクリックします。
 
 1. （オプション）ツリー表示で製品グループとその子製品グループのノードを表示するには、製品グループ名の上にカーソルを置き、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ") をクリックしてから「**[!UICONTROL Tree View]**」を選択します。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 同じレベルに他の商品グループが存在する場合は、「その他すべて」グループを除いて、任意の商品グループを削除できます。このグループは、広告グループのショッピング広告に含まれるマーチャントセンターアカウントの商品を決定するために使用されます。 製品グループを削除すると、すべての子製品グループが削除されます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Product Groups]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Product Groups]** をクリックします。
 
 1. （任意）特定の製品グループを含めるようにリストをフィルタリングします。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
          複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-      1. ツールバーの ![ その他 ") をクリックし ] (/help/search-social-commerce/assets/more.png " 選択 **[!UICONTROL Delete]** ます。
+      1. ツールバーの ![ その他 ") をクリックし ](/help/search-social-commerce/assets/more.png " 選択 **[!UICONTROL Delete]** ます。
 
       1. 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 

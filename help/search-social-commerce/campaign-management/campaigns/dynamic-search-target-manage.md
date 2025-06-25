@@ -3,7 +3,7 @@ title: 動的検索タ  [!DNL Google Ads]  ゲットの管理
 description: 動的検索ターゲットを作成および管理する方法  [!DNL Google Ads]  ついて説明します。
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 >
 >一度に多くのアカウントコンポーネントを作成するには、[campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Auto Targets]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Auto Targets]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 >
 >一度に大量のデータを編集するには、[campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Auto Targets]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Auto Targets]** をクリックします。
 
 1. 編集する各行の横にあるチェックボックスをオンにします。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 また、任意の動的ターゲットを削除することもできます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Auto Targets]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Auto Targets]** をクリックします。
 
 1. （任意）特定の動的ターゲットを含めるようにリストをフィルタリングします。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
      複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-      1. ツールバーの ![ その他 ") をクリックし ] (/help/search-social-commerce/assets/more.png " 選択 **[!UICONTROL Delete]** ます。
+      1. ツールバーの ![ その他 ") をクリックし ](/help/search-social-commerce/assets/more.png " 選択 **[!UICONTROL Delete]** ます。
 
       1. 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Bids]
 
-**[!UICONTROL Bid]:** 広告の最大クリック単価（CPC）または広告の 1000 インプレッション単価（CPM）は、広告ネットワークおよびキャンペーン価格モデルの場合に適用されます。 この値は、広告グループレベルの値を上書きします。
+**[!UICONTROL Bid]:** 広告の最大クリック単価（CPC）または広告の 1000 インプレッション数（CPM）あたりのコスト（広告ネットワークおよびキャンペーン価格モデルの場合の適用例）。 この値は、広告グループレベルの値を上書きします。
 
 >[!NOTE]
 >

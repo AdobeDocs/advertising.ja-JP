@@ -3,7 +3,7 @@ title: 在庫データフィードファイルの管理
 description: フィードデータの処理方法を制御する設定の設定方法について説明します。
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 * **FTP を自動的に使用：** ファイルを直接 FTP ディレクトリにアップロードできます。フィードサービスは 2 時間ごとに新しいファイルをチェックします。 初めてファイルをアップロードした後、そのファイルを広告ネットワーク固有のテンプレートに関連付けることができます。 その後、同じ名前でアップロードしたすべてのファイルが、自動的に同じテンプレートに関連付けられます。 [ フィードデータの設定 ](feed-settings-manage.md) 方法に応じて、検索、ソーシャルおよびCommerceは、該当するすべてのテンプレートにフィードデータを自動的に伝播し、オプションで結果のキャンペーンおよび広告データを関連する広告ネットワークに投稿できます。
 
-  データファイルを保存して自動処理するための FTP ディレクトリを設定するには、Adobeアカウントチームにお問い合わせください。
+  データファイルを格納して自動処理するための FTP ディレクトリを設定するには、Adobe アカウントチームにお問い合わせください。
 
-* **手動処理：**&#x200B;[!UICONTROL Advanced] （ACM）表示から手動で [ フィードファイルをアップロード ](#feed-file-upload) できます。 フィードファイルを 1 つ以上の広告ネットワーク固有の [ テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) に関連付けると、[ フィードデータ設定 ](feed-settings-manage.md) に従って [ テンプレートを通じてフィードデータを伝播 ](feed-data-propagate.md) することによってキャンペーンデータと広告データを生成できます。 オプションで、キャンペーン階層ビュー内で生成されたデータをプレビューしたり、レビュー用のバルクシートファイルを生成したり、広告ネットワークにすぐに投稿するためのバルクシートファイルを生成したりできます。 データをすぐに投稿しない場合は、後で [ プレビュー ](propagated-data-view.md) および [ 投稿 ](propagated-data-post.md) できます。 後で [ 既存のフィードファイルを新しいファイルで置き換える ](#feed-file-replace) ことができます。既存のテンプレートの関連付けは失われません。
+* **手動処理：**[!UICONTROL Advanced] （ACM）表示から手動で [ フィードファイルをアップロード ](#feed-file-upload) できます。 フィードファイルを 1 つ以上の広告ネットワーク固有の [ テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) に関連付けると、[ フィードデータ設定 ](feed-settings-manage.md) に従って [ テンプレートを通じてフィードデータを伝播 ](feed-data-propagate.md) することによってキャンペーンデータと広告データを生成できます。 オプションで、キャンペーン階層ビュー内で生成されたデータをプレビューしたり、レビュー用のバルクシートファイルを生成したり、広告ネットワークにすぐに投稿するためのバルクシートファイルを生成したりできます。 データをすぐに投稿しない場合は、後で [ プレビュー ](propagated-data-view.md) および [ 投稿 ](propagated-data-post.md) できます。 後で [ 既存のフィードファイルを新しいファイルで置き換える ](#feed-file-replace) ことができます。既存のテンプレートの関連付けは失われません。
 
 ## フィードファイルの要件
 
@@ -82,7 +82,7 @@ shoes<TAB>Clarks<TAB>20
 
 手動で、または FTP を使用してアップロードした任意のフィードファイルを開いたりダウンロードしたりできます。
 
-1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
 
 1. フィードファイルを見つけます。
 
@@ -101,7 +101,7 @@ shoes<TAB>Clarks<TAB>20
 >[!NOTE]
 > 手動でアップロードしたファイルにテンプレートを関連付け、名前、ファイル拡張子、文法上の大文字と小文字が同じ別のファイルを FTP 経由でアップロードした場合、テンプレートを介してデータを伝播するときには、FTP ファイルが使用されます。 例えば、myfile.csv は myfile.csv を置き換えますが、Myfile.CSV は置き換えません。
 
-1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
 
 1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Feeds]**] をクリックします。
 
@@ -117,7 +117,7 @@ shoes<TAB>Clarks<TAB>20
 
 フィードファイルを置き換えると、新しいファイルのファイル名または拡張子が異なる場合でも、既存のテンプレートの関連付けはすべて残ります。 新しいファイルは、そのファイルに最初に関連付けられたすべてのテンプレートを介してデータを伝播する際に使用されます。
 
-1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
 
 1. 次のいずれかの操作をおこないます。
 
@@ -141,7 +141,7 @@ shoes<TAB>Clarks<TAB>20
 
 手動または FTP 経由でアップロードした任意のフィードファイルを削除できます。 フィードファイルを削除すると、どのテンプレートにも関連付けられなくなります。
 
-1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
 
 1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Feeds]**] をクリックします。
 

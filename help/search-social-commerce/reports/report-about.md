@@ -3,7 +3,7 @@ title: レポートについて
 description: 使用可能な様々なレポートタイプやレポートの自動化方法など、パフォーマンスレポートについて説明します。
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 0%
@@ -25,9 +25,9 @@ ht-degree: 0%
 | レポートカテゴリ | 説明 |
 | ----| ---- |
 | [!UICONTROL Basic Reports] | [ 基本レポート ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) は、すべてのユーザーが使用でき、ポートフォリオ、広告ネットワークアカウント、特定の広告ネットワークアカウント、キャンペーン、広告グループ、広告、キーワード、製品グループ、ラベルの分類とラベルの値、入札単位の制約、ネットワークの制約に関する実際のコストとクリックデータを表示します。 該当する広告ネットワークから請求されるクリック数に基づいており、オプションでコンバージョンデータやユーザーが作成したその他の指標を含めることができます。 |
-| [!UICONTROL Advanced Reports] | [ 詳細レポート ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) は、広告設定に関する追加のインサイトを提供し、地理的ターゲティングやネットワーク設定を変更することでメリットが得られる場所を特定するのに役立ちます。 また、キャンペーンおよびポートフォリオ管理ビューでコンバージョンデータを検証し、広告主の内部コンバージョントラッキングデータに対してレポートを作成するのにも役立ちます。 |
-| [!UICONTROL Assist Reports] | [ アシストレポート ](/help/search-social-commerce/reports/management/assist/assist-report-about.md) は、広告主のすべてのキーワードと広告のコンバージョンパスに関するインサイトを提供します。 Adobe Advertisingコンバージョントラッキングサービスを通じて取得したデータを使用し、サービスを利用する広告主に対してのみ生成できます。 |
-| [!UICONTROL Specialty Reports] | [ 専門レポート ](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md) は、（Adobe Advertisingトラッキングではなく）広告ネットワークによって収集されたデータで構成されます。 |
+| [!UICONTROL Advanced Reports] | [ 詳細レポート ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) は、広告設定に追加のinsightを提供し、地理的なターゲティングやネットワーク設定を変更することでメリットが得られる場所を特定するのに役立ちます。 また、キャンペーンおよびポートフォリオ管理ビューでコンバージョンデータを検証し、広告主の内部コンバージョントラッキングデータに対してレポートを作成するのにも役立ちます。 |
+| [!UICONTROL Assist Reports] | [ アシストレポート ](/help/search-social-commerce/reports/management/assist/assist-report-about.md) は、広告主のすべてのキーワードと広告のコンバージョンパスに関するインサイトを提供します。 これらは、Adobe Advertising コンバージョントラッキングサービスを通じて取得したデータを使用し、サービスを使用する広告主に対してのみ生成できます。 |
+| [!UICONTROL Specialty Reports] | [ 専門レポート ](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md) は、（Adobe Advertising トラッキングではなく）広告ネットワークによって収集されたデータで構成されます。 |
 | [!UICONTROL Model Accuracy Reports] | [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、ポートフォリオの入札、キャンペーン予算および入札戦略目標の最適化に使用されるコストおよび収益モデルの精度を示します。 |
 
 ## レポートの自動処理
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## レポートビュー
 
-[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports] の [!UICONTROL Reports] ビューでは、レポート、テンプレートおよびスプレッドシートフィードを作成および管理できます。 ビューには、次の 2 つのタブがあります。
+[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports] の [!UICONTROL Reports] ビューでは、レポート、テンプレートおよびスプレッドシートフィードを作成および管理できます。 ビューには、次の 2 つのタブがあります。
 
 * 「**[!UICONTROL Latest Reports]**」タブには、過去 7 日間にリクエストされたレポートのうち、手動で削除されたものを除いて使用可能なすべてのレポートがリストされます。デフォルトでは、最新のレポートが先頭に表示されます。 各レポートに表示される情報には、実行されるスケジュール（該当する場合）、データが生成された、または生成される開始日と終了日、レポートのステータス（*[!UICONTROL Finished]*、*[!UICONTROL In Progress]*、*[!UICONTROL Error]*）が含まれます。
 
@@ -60,8 +60,8 @@ ht-degree: 0%
 | ---- | ---- |
 | パフォーマンスの監視 | <ul><li>[[!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)</li><li>[[!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)</li><li>[[!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[[!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)</li><li>[[!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)</li><li>[[!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | パフォーマンスのトラブルシューティングとトレンド分析 | <ul><li>[[!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)</li><li>[[!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)</li><li>[[!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)</li><li>[[!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)</li><li>[[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md) と [[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>「[!UICONTROL Compare with]」機能を使用して 2 つの期間を比較する基本レポート</li></ul> |
-| ビジネスの成長の機会の特定 | <ul><li>（Adobe Advertisingコンバージョントラッキングを使用している広告主のみ） [[!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)</li><li>（Adobe Advertisingコンバージョントラッキングを使用している広告主のみ） [[!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)</li><li>（[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja) を使用する広告主）Adobe Analytics Analysis Workspace内のカスタマイズされたレポート</li></ul> |
-| Analytics | <ul><li>（Adobe Advertisingコンバージョントラッキングを使用している広告主のみ） [[!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)</li><li>（[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja) を使用する広告主）Adobe Analytics Analysis Workspace内のカスタマイズされたレポート</li></ul> |
+| ビジネスの成長の機会の特定 | <ul><li>（Adobe Advertisingのコンバージョントラッキングを使用している広告主のみ） [[!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)</li><li>（Adobe Advertisingのコンバージョントラッキングを使用している広告主のみ） [[!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)</li><li>（[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) を使用する広告主）Adobe Analytics Analysis Workspace内のカスタマイズされたレポート</li></ul> |
+| Analytics | <ul><li>（Adobe Advertisingのコンバージョントラッキングを使用している広告主のみ） [[!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)</li><li>（[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) を使用する広告主）Adobe Analytics Analysis Workspace内のカスタマイズされたレポート</li></ul> |
 
 >[!MORELIKETHIS]
 >

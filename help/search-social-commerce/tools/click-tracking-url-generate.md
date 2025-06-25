@@ -3,7 +3,7 @@ title: クリックの追跡 URL の生成
 description: 検索、ソーシャル、Commerceのクリックトラッキング URL を手動で生成する方法を説明します。
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # URL トラッキング ツールを使用した、検索、ソーシャル、Commerceのクリックトラッキング URL の生成
 
-*Adobe Advertisingコンバージョントラッキングのみを使用する広告主*
+*Adobe Advertisingのコンバージョントラッキングのみを使用する広告主*
 
 クリックトラッキング URL を手動で生成および実装する必要がある場合について詳しくは、「[ クリックトラッキング URL を生成するタイミングと方法 ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) を参照してください。
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >この機能では、関連する広告アカウントにトラッキングテンプレートまたは宛先 URL を実装しません。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Tools]/[!UICONTROL Tracking URL]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Tools]/[!UICONTROL Tracking URL]** をクリックします。
 
 1. リストから広告ネットワークアカウントを選択します。
 

@@ -3,7 +3,7 @@ title: バルクシートを使用した Campaign データの管理について
 description: 広告ネットワークで使用できるバルクシート機能、バルクシートワークフロー、エラー処理について説明します。
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## 各ファイルの情報
 
-ダウンロードされたすべてのデータファイル、アップロードされたファイル、エラーファイルは、[!UICONTROL Search] / [!UICONTROL Bulksheets] から入手できます。
+ダウンロードされたすべてのデータファイル、アップロードされたファイル、エラーファイルは、[!UICONTROL Search, Social, & Commerce] / [!UICONTROL Bulksheets] から入手できます。
 
 各ファイルの情報には、現在のタスクのステータスと完了したタスクの割合、タスクが作成された日付、指定された広告ネットワークにタスクが投稿された、または投稿される日付（該当する場合）、予定されている削除日、タスクを開始したユーザーのログイン名が含まれます。
 

@@ -3,7 +3,7 @@ title: 在庫フィード データの転記ジョブを停止します
 description: 在庫フィードデータの投稿ジョブを停止する方法を説明します。
 exl-id: 06a10ec1-bfff-4384-b1c8-ba6b504c6888
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * データの伝播の継続中は、伝播ジョブを停止し、データを POST できないようにします。
 
-   1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
+   1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
 
    1. テンプレート名の横にある「[!UICONTROL Last Prop. Status]」列で、「**[!UICONTROL Cancel]**」をクリックします。
 

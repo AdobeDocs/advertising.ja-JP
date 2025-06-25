@@ -3,7 +3,7 @@ title: パブリッシャーのレコメンデーションの適用または解�
 description: パブリッシャーのレコメンデーションを表示、適用、解除する方法を説明します。
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->レコメンデーションはキャンペーンのパフォーマンスの向上に役立ちますが、より広い目標に合致しない場合があります。 そのため、レコメンデーションを導入する前に、Adobeアカウントチームに相談することをお勧めします。
+>レコメンデーションはキャンペーンのパフォーマンスの向上に役立ちますが、より広い目標に合致しない場合があります。 そのため、推奨事項を実装する前に、Adobe アカウントチームに問い合わせることをお勧めします。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Recommendations & Publisher Insights]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Recommendations & Publisher Insights]** をクリックします。
 
 1. 右上で、広告ネットワークとアカウントを選択します。
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. （任意）カテゴリおよびタイプでレコメンデーションをフィルタリングします。
 
-1. レコメンデーションまたはインサイト行の [!UICONTROL Actions] 列で、「**[!UICONTROL View]**」をクリックします。
+1. レコメンデーションまたはinsight行の [!UICONTROL Actions] 列で、「**[!UICONTROL View]**」をクリックします。
 
-1. （サブレコメンデーションのあるRecommendations）サブレコメンデーションの横にある「**[!UICONTROL View]**」をクリックします。
+1. （サブレコメンデーション付きのレコメンデーション）サブレコメンデーションの横にある「**[!UICONTROL View]**」をクリックします。
 
 1. （オプション）次のいずれかの操作をおこないます。
 

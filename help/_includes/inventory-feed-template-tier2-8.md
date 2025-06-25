@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -14,5 +14,5 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* （[!DNL Google Ads] のみ） [!UICONTROL Channel] の可能な値は「[!UICONTROL Local]」または「[!UICONTROL Online]」で、[!UICONTROL ChannelExclusivity] の可能な値は「[!UICONTROL SingleChannel]」および「[!UICONTROL MultiChannel]」です。
->* [!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] 表示の「[!UICONTROL Product Groups]」タブで広告グループの 2 番目の階層（子）製品グループを作成すると、デフォルトの広告グループ入札を使用して、「[!UICONTROL Everything Else]」という別の製品グループが自動的に作成されます。 ただし、在庫フィードテンプレートの使用からは、「[!UICONTROL Everything Else]」製品グループは除外されます。
+>* [!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] 表示の「[!UICONTROL Product Groups]」タブで広告グループの 2 番目の階層（子）製品グループを作成すると、デフォルトの広告グループ入札を使用して、「[!UICONTROL Everything Else]」という別の製品グループが自動的に作成されます。 ただし、在庫フィードテンプレートの使用からは、「[!UICONTROL Everything Else]」製品グループは除外されます。
 >* 複数の層を含め、最後の（最も大きい番号の）層に値を使用できない場合は、次に大きい層が入札可能な製品グループとして使用されます。 例えば、5 層を含み、Tier 5 に使用できる値がない場合、Tier 4 が入札可能な製品グループ（ユニット）として使用されます。 ただし、中間層に使用可能な値がない場合、その行は無視されます。 例えば、5 つの層を含め、層 5 に値があるが層 4 には値がない場合、行 4 は無視されます。

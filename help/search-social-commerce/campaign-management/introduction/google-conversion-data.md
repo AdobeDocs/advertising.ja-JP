@@ -3,7 +3,7 @@ title: '[!DNL Google Ads] コンバージョンデータ'
 description: 検索、ソーシャル  [!DNL Google Ads] よびCommerceで使用できるトラッキング対象コンバージョンデータのタイプについて説明します。
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 「[!DNL Include in 'Conversions']」オプションが有効になっているコンバージョンのデータを検索、ソーシャル、Commerceで同期し、過去 35 日間のデータを取り込んでから、広告主のタイムゾーンで毎日 09:00-10:00 ずつデータへの変更を取り込みます。 クリックごとに新しいコンバージョンが追跡されるので、履歴データは日ごとに変更される可能性があります。
 
-[!DNL Google Ads] で設定したコンバージョン名を使用して [&#128279;](https://support.google.com/google-ads/answer/4677036) [!DNL Google Ads] で追跡した各コンバージョンに対して最大 3 つの指標（[!DNL Google Ads] で設定）を検索、ソーシャル、Commerceで自動的に使用できます。 各コンバージョンの指標は次のとおりです。
+[!DNL Google Ads] で設定したコンバージョン名を使用して ](https://support.google.com/google-ads/answer/4677036)[[!DNL Google Ads] で追跡した各コンバージョンに対して最大 3 つの指標（[!DNL Google Ads] で設定）を検索、ソーシャル、Commerceで自動的に使用できます。 各コンバージョンの指標は次のとおりです。
 
 <!--
 
@@ -36,13 +36,13 @@ ht-degree: 0%
 
 * `GGL_CT*` — 「GGL_CT」プレフィックス（GGL_CT_Purchase など）で始まるコンバージョンの数（カウント）。
 
-* `GGL_XD_CT*` — （コンバージョンタイプに使用可能な場合は、トラッキング時）「GGL_XD_CT_」プレフィックス（GGL_XD_CT_Purchase など）で始まる、Googleで測定されたクロスデバイスコンバージョンの数（カウント）。
+* `GGL_XD_CT*` — （コンバージョンタイプに使用可能な場合は、トラッキング時）Googleで測定された、クロスデバイスコンバージョンの数（カウント）。「GGL_XD_CT_」プレフィックスで始まる（GGL_XD_CT_Purchase など）。
 
-[!DNL Google Ads] は、各コンバージョンを [ 入札単位 ](/help/search-social-commerce/glossary.md#a-b)、デバイス、およびクリック日（コンバージョン日ではなく）で記録します。 アトリビューションは、[!DNL Google Ads] の各指標のデフォルトのアトリビューション設定に基づいています。クリックイベントレベルのデータは利用できないので、Adobe Advertisingアトリビューションは考慮されません。
+[!DNL Google Ads] は、各コンバージョンを [ 入札単位 ](/help/search-social-commerce/glossary.md#a-b)、デバイス、およびクリック日（コンバージョン日ではなく）で記録します。 アトリビューションは、[!DNL Google Ads] の各指標のデフォルトのアトリビューション設定に基づいています。クリックイベントレベルのデータは利用できないので、Adobe Advertising アトリビューションは考慮されません。
 
 >[!NOTE]
 >
->* 同じコンバージョン名を持つ複数のアカウントがある場合、Adobe Advertisingにコンバージョン名が重複する場合があります。 この場合は、[!UICONTROL Admin] > [!UICONTROL Conversions] のいずれかの重複する指標に対して [ 表示名を変更 ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) します。 2 つの異なる指標の名前が同じ場合、レポートは正確ではありません。
+>* 同じコンバージョン名を持つ複数のアカウントがある場合、Adobe Advertisingに重複したコンバージョン名が表示されることがあります。 この場合は、[!UICONTROL Admin] > [!UICONTROL Conversions] のいずれかの重複する指標に対して [ 表示名を変更 ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) します。 2 つの異なる指標の名前が同じ場合、レポートは正確ではありません。
 >* 入札単位レベルのデータは、同じレベルの [!DNL Google Ads] のデータと照合されます。 ただし、上位レベルの [!DNL Google Ads] 独自のコンバージョンデータには、子入札単位に関連付けられていない追加のコンバージョンが含まれる場合があります。 検索、ソーシャルおよびCommerceのデータは、入札単位レベルから常にロールアップされるので、例えば、キャンペーンレベルのレポートとGoogle Ads のキャンペーンレベルのレポートの合計が異なる場合があります。
 >* 通常、データの相違は、追加のコンバージョンがまだ同期されていない日の遅い時間よりも朝の同期後の時間が短くなります。 午前中にデータを検証することをお勧めします。
 >* コンバージョンデータは、[!DNL Google Display Network]、[!DNL Gmail]、[!DNL Mobile App]、[!DNL YouTube] の広告には使用できません。 [!DNL Google Ads] のデータを検索、ソーシャル、Commerceのデータと比較する際に、これらのタイプの広告を除外できます。
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 検索、ソーシャル、Commerceでは、「表示」または「レポート」オプションを使用して、（取引日ではなく）クリック日に基づくコンバージョンを表示できます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Create Report]**] をクリックし、カーソルを **[!UICONTROL Basic Reports]** の上に置き、[**[!UICONTROL Search Engine Account Report]**] をクリックします。
 

@@ -3,7 +3,7 @@ title: カスタムアラートテンプレートの作成
 description: カスタムアラート生成用のテンプレートを作成する方法を説明します。
 exl-id: 95fdc91d-837c-46af-9dd7-212cb4b5a8ac
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Alert Templates] ビューからのアラートテンプレートの作成
 
-1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** をクリックし、[!UICONTROL Alert Templates] ビューを開きます。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** をクリックし、[!UICONTROL Alert Templates] ビューを開きます。
 
 1. ツールバーで「![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")」をクリックし、評価するエンティティタイプ（[!UICONTROL Portfolio]、[!UICONTROL Account]、[!UICONTROL Campaign]、[!UICONTROL Ad Group]、[!UICONTROL Keyword]、[!UICONTROL Ad] または [!UICONTROL Product Group]）を選択します。
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 >
 >このオプションは、ポートフォリオレベルのアラートテンプレートでは使用できません。
 
-1. **[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** ビューから、評価するエンティティタイプ（[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]、[!UICONTROL Product Groups]）のキャンペーン管理サブビューを開きます。
+1. **[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** ビューから、評価するエンティティタイプ（[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]、[!UICONTROL Product Groups]）のキャンペーン管理サブビューを開きます。
 
-例えば、キーワードレベルのアラートテンプレートを作成するには、[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] に移動し、「[!UICONTROL Keywords]」を選択します。
+例えば、キーワードレベルのアラートテンプレートを作成するには、[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] に移動し、「[!UICONTROL Keywords]」を選択します。
 
 1. データ テーブルの上にあるツールバーの右側で、[![ アラートの作成 ](/help/search-social-commerce/assets/add-alert.png " アラートの作成 ")] をクリックします。
 

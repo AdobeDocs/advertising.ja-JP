@@ -3,7 +3,7 @@ title: 管理  [!DNL Google Ads]  吹き出し拡張機能
 description: 引き出し拡張機能を作成および管理する方法  [!DNL Google Ads]  説明します。
 exl-id: b1be553e-49a1-47b8-8dd2-84db56fa249e
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## [!DNL Google Ads] 共有コールアウトの作成
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 共有吹き出しは、一度に 1 つずつ編集できます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]** をクリックします。
 
 1. 編集する吹き出しの横にあるチェック ボックスをオンにします。
 
@@ -46,13 +46,13 @@ ht-degree: 0%
 
 ## 共有コールアウト [!DNL Google Ads] 削除
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]** をクリックします。
 
 1. 削除する共有吹き出しの横にあるチェック ボックスをオンにします。
 
    複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-1. ツールバーの ![ その他 ") をクリックし ] (/help/search-social-commerce/assets/more.png " 選択 **[!UICONTROL Delete]** ます。
+1. ツールバーの ![ その他 ") をクリックし ](/help/search-social-commerce/assets/more.png " 選択 **[!UICONTROL Delete]** ます。
 
 1. 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 

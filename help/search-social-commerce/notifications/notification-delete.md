@@ -3,7 +3,7 @@ title: 通知の削除
 description: 通知の削除方法を説明します。
 exl-id: 242c30dc-7e53-42cb-a027-908f2e53998d
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Notification Center] 内の通知の削除
 
-1. （検索、ソーシャル、Commerce内から）メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Notification Center Beta]** をクリックします。
+1. （検索、ソーシャル、Commerce内から）メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Notification Center Beta]** をクリックします。
 
 1. （オプション）通知をタイプでフィルタリングするには、[*[!UICONTROL Notices]*]、[*[!UICONTROL Recommendations]*]、[*[!UICONTROL Warnings]*]、または [*[!UICONTROL Issues]*] をクリックします。
 

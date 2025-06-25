@@ -3,7 +3,7 @@ title: Manage [!DNL Google Ads] placements
 description: 広告グループの入札可能なプレースメントを作成および管理する方法  [!DNL Google Ads]  ついて説明します。
 exl-id: 80cb6fc6-e778-4b19-9e52-e0b57bde0d73
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-[&#128279;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 同期広告ネットワークアカウント内の表示ネットワークをターゲットとする [ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md) 広告グループのプレースメントを作成および編集  きます。
+[ 同期広告ネットワークアカウント内の表示ネットワークをターゲットとする [ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md) 広告グループのプレースメントを作成および編集 ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) きます。
 
 ## プレースメント [!DNL Google Ads] 作成
 
@@ -22,9 +22,9 @@ ht-degree: 0%
 >
 >一度に多くのプレースメントを作成するには、[campaign bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]** をクリックします。
 
-1. &#x200B;
+1. 
    1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
 1. 広告ネットワーク、アカウント、キャンペーン、広告グループを選択し、「**[!UICONTROL Continue]**」をクリックします。
@@ -39,7 +39,7 @@ ht-degree: 0%
 >
 >一度に多くのプレースメントを編集するには、[campaign bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]** をクリックします。
 
 1. 編集する各行の横にあるチェックボックスをオンにします。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Placement Details]
 
-**[!UICONTROL Placements]:** 広告を表示できるコンテンツ ネットワーク上のサイト。 www.example.com、example.com、www.example.com/shoes/kidsなど、有効な URL を入力します。 複数の文字列を指定する場合は、コンマで区切るか、別の行に入力します。 URL に疑問符（`?`）を含めることはできません。 **メモ：**&#x200B;[!UICONTROL Placements]/[!UICONTROL Negatives] 表示、広告グループおよびキャンペーン設定から [web サイトのプレースメントを除外 ](placement-negative-create.md) できます。
+**[!UICONTROL Placements]:** 広告を表示できるコンテンツ ネットワーク上のサイト。 www.example.com、example.com、www.example.com/shoes/kidsなど、有効な URL を入力します。 複数の文字列を指定する場合は、コンマで区切るか、別の行に入力します。 URL に疑問符（`?`）を含めることはできません。 **メモ：**[!UICONTROL Placements]/[!UICONTROL Negatives] 表示、広告グループおよびキャンペーン設定から [web サイトのプレースメントを除外 ](placement-negative-create.md) できます。
 
 **[!UICONTROL Status]:** プレースメントの表示ステータス：*アクティブ* （入札を有効にする場合）、*一時停止* （入札を無効にする場合）、*削除済み* （プレースメントを削除する場合）、既存のプレースメントのみ）。
 

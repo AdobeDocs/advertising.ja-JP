@@ -3,7 +3,7 @@ title: ' [!DNL Microsoft Advertising] でキャンペーン  [!DNL Google Ads]  
 description: アカウント内の同期されたキャンペーンを同期された  [!DNL Google Ads]  カウントに直接エクスポートする方法を説明  [!DNL Microsoft Advertising]  ます。
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 [campaigns からのインポート内容 ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500) を参照  [!DNL Google Ads]  てください。
 
-1. 検索、ソーシャル、Commerceのメインメニューで、**[!UICONTROL Search]/[!UICONTROL Tools]/[!UICONTROL Import Campaigns]** をクリックします。
+1. 検索、ソーシャル、Commerceのメインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Tools]/[!UICONTROL Import Campaigns]** をクリックします。
 
 1. 「**[!UICONTROL +Import]**」をクリックします。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 [campaigns からのインポート内容 ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500) を参照  [!DNL Google Ads]  てください。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Tools]/[!UICONTROL Import Campaigns]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Tools]/[!UICONTROL Import Campaigns]** をクリックします。
 
 1. 読み込みジョブの横にあるチェックボックスを選択し、「![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")」をクリックします。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 * 次のいずれかの操作をおこないます。
 
-   * メインメニューで、**[!UICONTROL Search]/[!UICONTROL Tools]/[!UICONTROL Import Campaigns]** をクリックします。
+   * メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Tools]/[!UICONTROL Import Campaigns]** をクリックします。
 
      デフォルトでは、ビューは「[!UICONTROL List of Import Jobs]」タブに開きます。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ## キャンペーンインポートジョブの実行
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Tools]/[!UICONTROL Import Campaigns]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Tools]/[!UICONTROL Import Campaigns]** をクリックします。
 
 1. インポートジョブの横にあるチェックボックスをオンにします。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 開始時間、ソース・[!DNL Google Ads] ーザー・アカウント、ターゲット・[!DNL Microsoft Advertising] ーザー・アカウント、ジョブの作成者、操作の成功数と失敗数、各ジョブの通知を受信した電子メール・アドレスなど、完了または失敗したすべてのインポート・ジョブをリストできます。 追加、同期、削除された項目の数、アカウントの各エンティティレベル（キャンペーンやキーワードなど）でエラーが発生した数など、各ジョブで発生したターゲット [!DNL Microsoft Advertising] アカウントへの変更に関する詳細を表示できます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Tools]/[!UICONTROL Import Campaigns]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Tools]/[!UICONTROL Import Campaigns]** をクリックします。
 
 1. 「**[!UICONTROL Import Logs]**」タブをクリックします。
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 **[!UICONTROL Credential ID]:** [!DNL Google Ads] 資格情報を表 [!DNL Microsoft Advertising] ために使用する ID。
 
-[!DNL Microsoft Advertising] の制限 [!DNL Microsoft Advertising] より、インポート用の資格情報を自動生成できません。 Adobeアカウントチームに問い合わせると、チームが資格情報を生成し、ID を提供します。
+[!DNL Microsoft Advertising] の制限 [!DNL Microsoft Advertising] より、インポート用の資格情報を自動生成できません。 Adobe アカウントチームに連絡すると、チームは資格情報を生成し、ID を提供します。
 
 **[!UICONTROL Target Microsoft Ads account]:** キャンペーンデータのインポート先となる同期された [!DNL Microsoft Advertising] アカウント。
 

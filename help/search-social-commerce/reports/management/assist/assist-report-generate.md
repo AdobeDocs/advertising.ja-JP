@@ -3,7 +3,7 @@ title: アシストレポートの生成
 description: アシストレポートの生成方法を説明します。
 exl-id: ac3e3619-c300-4d2f-84bc-c4977c1712f3
 feature: Search Reports, Search Assist Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # アシストレポートの生成
 
-*検索、ソーシャル、Commerceのクリックのトラッキングと、Adobe Advertising、Adobe Analyticsからのコンバージョントラッキング（[!DNL Analytics] 統合を使用）またはフィードでトークン（`ef_id`）のみを使用して提供される広告主*
+*検索、ソーシャル、Commerceのクリックのトラッキング、Adobe Advertising、Adobe Analyticsからのコンバージョントラッキング（[!DNL Analytics] 統合を使用）またはフィードでトークン（`ef_id`）のみを使用して提供される広告主*
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Create Report]**] をクリックし、カーソルを **[!UICONTROL Assist Reports]** の上に置いて、レポートの種類をクリックします。
 

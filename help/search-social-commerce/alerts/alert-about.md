@@ -3,7 +3,7 @@ title: カスタムアラートについて
 description: アラートテンプレートの作成方法やアラートがトリガーされるタイミングなど、カスタムアラートについて説明します。
 exl-id: 11dcc96c-06b8-4d2a-a671-af26297fdc3f
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * 指定した受信者にメール通知が届きます。 アラートに最大 1,000 個のレコードが含まれる場合、メール通知には、アラートデータを含む [CSV](/help/search-social-commerce/glossary.md#c-d) ファイルが含まれます。このファイルには、アラートをトリガーしたすべてのエンティティのデータが含まれます。
 
-* アラートは、[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Custom Alerts] の [!UICONTROL Triggered Alerts] ビューにリストされます。 ダウンロード可能なレポートは、アラートがトリガーされてから 10 日間利用できます。
+* アラートは、[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Custom Alerts] の [!UICONTROL Triggered Alerts] ビューにリストされます。 ダウンロード可能なレポートは、アラートがトリガーされてから 10 日間利用できます。
 
 * アラートは、右側のツールバーから利用できる、該当するエンティティビューの [!UICONTROL Notifications] ールセンターにリストされます。 通知を削除するか、読み取りとしてマークしない限り、通知は [!UICONTROL Notifications] の中央に残ります。
 

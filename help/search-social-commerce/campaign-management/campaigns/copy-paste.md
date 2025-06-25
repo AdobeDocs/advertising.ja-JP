@@ -3,7 +3,7 @@ title: コピーと貼り付けを使用したキャンペーンデータの一�
 description: コピーと貼り付け機能を使用して、Campaign データを一括管理する方法を説明します。
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 ## データ行のコピー
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]** をクリックします。
 
 1. コピーする各行の横にあるチェックボックスをオンにします。
 
    最大 10,000 行までコピーできます。
 
-1. データ テーブルの上にあるツールバーで、&lbrack;![ その他 ](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Copy]**] をクリックします。
+1. データ テーブルの上にあるツールバーで、[![ その他 ](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Copy]**] をクリックします。
 
    または、オペレーティングシステムの「コピー」キーボードコマンド（[!DNL Microsoft Windows] の場合は **[!DNL Ctrl+C]**、[!DNL Apple Mac] の場合は **[!DNL Command-C]** など）を使用できます。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 次の要件に従ってデータを編集します。
 
-   * 貼り付けたデータには、ヘッダー行と必要なキャンペーンオブジェクト値が含まれている必要があります。[Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google広告 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、&lbrace;Naver[、Yahoo](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md) の必須のバルクシート列を参照してください [ ディスプレイのネットワーク ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)、[Yahoo! 日本 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)、および [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md) 列の順序は関係ありません。
+   * 貼り付けたデータには、ヘッダー行と必要なキャンペーンオブジェクト値が含まれている必要があります。[Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google広告 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、{Naver[、Yahoo](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md) の必須のバルクシート列を参照してください [ ディスプレイのネットワーク ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)、[Yahoo! 日本 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)、および [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md) 列の順序は関係ありません。
 
       * 編集する既存のオブジェクトの場合、関連するすべての ID 列、エンティティ名、編集する属性を含める必要があります。 オブジェクトの数値 ID を編集しないでください。
 
@@ -58,9 +58,9 @@ ht-degree: 0%
 
 1. [!DNL Excel] または他のエディターで、関連するタブ区切りの行をコピーします。
 
-1. 検索、ソーシャル、Commerceのメインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 データを貼り付けるビューを開きます（**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**）。
+1. 検索、ソーシャル、Commerceのメインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 データを貼り付けるビューを開きます（**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**）。
 
-1. データ テーブルの上にあるツールバーで、&lbrack;![ その他 ](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Paste]**] をクリックします。
+1. データ テーブルの上にあるツールバーで、[![ その他 ](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Paste]**] をクリックします。
 
    または、オペレーティングシステムの「貼り付け」キーボードコマンド（[!DNL Microsoft Windows] の場合は **[!DNL Ctrl+V]**、[!DNL Apple Mac] の場合は **[!DNL Command-V]** など）を使用できます。
 

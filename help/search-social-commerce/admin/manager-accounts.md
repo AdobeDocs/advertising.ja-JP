@@ -3,7 +3,7 @@ title: ad network manager アカウントの資格情報の管理
 description: 管理者アカウントの資格情報を指定する方法  [!DNL Google Ads]  説明します。
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 新しいマネージャーアカウントの資格情報を追加するには
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Manager Accounts]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Manager Accounts]** をクリックします。
 
 1. 「**[!UICONTROL Create new manager account]**」を選択します。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 既存のマネージャ アカウントを再認証するには
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Manager Accounts]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Manager Accounts]** をクリックします。
 
 1. 「**[!UICONTROL Reauthenticate existing manager account]**」を選択します。
 

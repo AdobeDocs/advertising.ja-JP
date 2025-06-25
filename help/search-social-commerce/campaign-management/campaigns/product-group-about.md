@@ -3,7 +3,7 @@ title: ショッピング製品グループについて
 description: 買い物キャンペーンでの買い物かご商品グループについて説明します。
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 同じ製品が複数のキャンペーンに含まれる場合、広告ネットワークでは最初にキャンペーンの優先度を使用して、広告オークションに適格なキャンペーン（および関連入札）を決定します。 すべてのキャンペーンの優先度が同じ場合は、入札額が最も高いキャンペーンが実施要件を満たします。
 
-[!DNL Google] のショッピングキャンペーンおよび広告について詳しくは、「[ ショッピングキャンペーンの実装  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)」および [Google広告のドキュメント ](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1) を参照してください。 [!DNL Microsoft] 買い物キャンペーンについて詳しくは、「[ 買い物キャンペーンの実装  [!DNL Microsoft Advertising]  ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)」および [[!DNL Microsoft Advertising]  ドキュメント ](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500) を参照してください。
+[!DNL Google] のショッピングキャンペーンおよび広告について詳しくは、「[ ショッピングキャンペーンの実装  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)」および [Google広告のドキュメント ](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&rd=1) を参照してください。 [!DNL Microsoft] 買い物キャンペーンについて詳しくは、「[ 買い物キャンペーンの実装  [!DNL Microsoft Advertising]  ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)」および [[!DNL Microsoft Advertising]  ドキュメント ](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500) を参照してください。
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Groups] ビュー
 
-[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]/[!UICONTROL Product Groups] 表示で、製品グループを作成および編集したり、製品グループとその子製品グループを削除したりできます。
+[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]/[!UICONTROL Product Groups] 表示で、製品グループを作成および編集したり、製品グループとその子製品グループを削除したりできます。
 
 ## ショッピング商品グループのトラッキングデータおよびパフォーマンスデータ
 

@@ -3,7 +3,7 @@ title: 広告グループの管理
 description: 広告グループを作成および管理する方法について説明します。
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >一度に大量の広告グループデータを追加するには、[ コピー&amp;ペースト機能 ](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ad Groups]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ad Groups]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 >
 >一度に大量のデータを編集するには、[ コピー&amp;ペースト機能 ](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ad Groups]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ad Groups]** をクリックします。
 
 1. 次のいずれかの操作をおこないます。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 アクティブまたは一時停止されている検索広告グループを削除することもできます。 削除された広告グループは広告ネットワークから削除されます。 これらは引き続き表示されますが、変更することはできません。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ad Groups]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ad Groups]** をクリックします。
 
 1. （任意）特定の広告グループを含めるようにリストをフィルタリングします。
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
    * 行を一時停止するには、「![ 一時停止 ](/help/search-social-commerce/assets/pause.png " 一時停止 ")」をクリックします。
 
-   * 行を削除するには、「![ その他 ")」をクリックし ] (/help/search-social-commerce/assets/more.png " 「**[!UICONTROL Delete]**」を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
+   * 行を削除するには、「![ その他 ")」をクリックし ](/help/search-social-commerce/assets/more.png " 「**[!UICONTROL Delete]**」を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 
 >[!MORELIKETHIS]
 >

@@ -3,7 +3,7 @@ title: レポートの削除
 description: 生成されたレポートを削除する方法を説明します。
 exl-id: 04ec3f7a-0cea-4f9d-bb76-d576f529b6ae
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >[ テンプレート ](/help/search-social-commerce/reports/automation/templates/template-about.md) を使用して作成されたレポートを削除しても、レポートの作成に使用されたテンプレートは削除されないので、スケジュールされた今後のレポートインスタンスには影響しません。 レポートスケジュールを削除するには、[ レポートテンプレートを削除 ](/help/search-social-commerce/reports/automation/templates/template-delete.md) します。
 
-1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** をクリックすると、「**[!UICONTROL Latest Reports]**」タブが開きます。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** をクリックすると、「**[!UICONTROL Latest Reports]**」タブが開きます。
 
 1. 削除する各レポートの横にあるチェック ボックスをオンにします。
 

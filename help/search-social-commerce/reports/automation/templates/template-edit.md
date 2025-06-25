@@ -3,7 +3,7 @@ title: レポートテンプレートの編集
 description: 再利用可能なレポートテンプレートの設定を編集する方法について説明します。
 exl-id: f986bc75-e42c-4388-8cb1-305100678b1b
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 作成した任意のレポートテンプレートの設定を変更できます。 新しい設定は、今後生成されるテンプレートを使用するすべてのレポートに適用されます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports]** をクリックします。
 
 1. 「**[!UICONTROL Templates]**」タブをクリックします。
 

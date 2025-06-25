@@ -3,7 +3,7 @@ title: カスタムアラートのデータの書き出し
 description: トリガーアラートのデータをファイルに書き出す方法を説明します。
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 03475909ca942010e4380456079519f0c18adca3
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 1. 次のいずれかの操作をおこないます。
 
-   * （アラートテンプレートに対して最近トリガーされたアラートのデータを書き出すには） メインメニューで、**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** をクリックすると、アラートテンプレート ビューが開きます。
+   * （アラートテンプレートに対して最近トリガーされたアラートのデータを書き出すには） メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** をクリックすると、アラートテンプレート ビューが開きます。
 
-   * （特定のトリガーアラートのデータを書き出すには） メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Custom Alerts]** をクリックします。 サブメニューで、**[!UICONTROL Triggered Alerts]** をクリックします。
+   * （特定のトリガーアラートのデータを書き出すには） メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Custom Alerts]** をクリックします。 サブメニューで、**[!UICONTROL Triggered Alerts]** をクリックします。
 
 1. テンプレート名またはレポート名の横の [!UICONTROL Export] 列で、形式名をクリックし、ブラウザの通常の手順に従ってファイルを開くか保存します。
 

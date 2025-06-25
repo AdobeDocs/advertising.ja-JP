@@ -3,7 +3,7 @@ title: 追加の在庫同期を有効にする
 description: キャンペーンとスマート買い物キャ  [!DNL YouTube]  ペーンを同期  [!DNL Google Ads]  キャンペーンとスマート買い物キャ  [!DNL Microsoft Advertising]  ペーンを実行する方法を説明します。
 exl-id: 3e8cc7b1-e38f-43f3-ba67-f2adaec6129d
 feature: Search Tools
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >スマートショッピングキャンペーン [!DNL Microsoft Advertising] 簡単な同期は、セルフサービスの広告主向けにベータ版になっています。
 
-これらのキャンペーンタイプの請求は、他のタイプのキャンペーンと同じです。 詳しくは、Adobeアカウントチームにお問い合わせください。
+これらのキャンペーンタイプの請求は、他のタイプのキャンペーンと同じです。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Tools]/[!UICONTROL Inventory Selection]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Tools]/[!UICONTROL Inventory Selection]** をクリックします。
 
 1. オプションの横にあるチェックボックスをオンにして同期を有効にするか、チェックボックスをオフにして同期を無効にします。
 

@@ -3,7 +3,7 @@ title: 顧客データリストを使用したカスタマーマッチオーデ�
 description: 顧客データリストからオーディエンスを作成および編集  [!DNL Google Ads]  お  [!DNL Microsoft Advertising]  び顧客一致させる方法を説明します。
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 46d736c3e14bf407c513c5cb6a153a578aa65121
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
    姓名、メールアドレスおよび電話番号は、SHA-256 アルゴリズムを使用してハッシュ化する必要があります。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads] オーディエンスの場合、許可された連絡先情報のフィールドと要件のリストについては、「[ ハッシュ化されたデータをアップロードするためのフォーマットガイドライン ](https://support.google.com/google-ads/answer/7476159)」に関する [!DNL Google Ads] のドキュメントを参照してください。 [!DNL Microsoft Advertising] のオーディエンスについては、[!DNL Microsoft Advertising] 顧客一致リストの準備 [ に関するドキュメントを参照してください ](https://help.ads.microsoft.com/#apex/ads/en/56921)。 必要に応じて、連絡先情報の [!DNL Microsoft Excel] テンプレートをダウンロードできます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 姓名、メールアドレスおよび電話番号は、SHA-256 アルゴリズムを使用してハッシュ化する必要があります。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads] オーディエンスの場合、許可された連絡先情報のフィールドと要件のリストについては、「[ ハッシュ化されたデータをアップロードするためのフォーマットガイドライン ](https://support.google.com/google-ads/answer/7476159)」に関する [!DNL Google Ads] のドキュメントを参照してください。 [!DNL Microsoft Advertising] オーディエンスについては、[ 顧客一致リストの準備 ] （https://help.ads.microsoft.com/#apex/ads/en/56921）に関する [!DNL Microsoft Advertising] ドキュメントを参照してください。 必要に応じて、連絡先情報の [!DNL Microsoft Excel] テンプレートをダウンロードできます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
 
 1. 編集するオーディエンスの横にあるチェックボックスをオンにします。
 

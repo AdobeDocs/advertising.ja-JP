@@ -3,7 +3,7 @@ title: スプレッドシートレポートフィード設定の編集
 description: スプレッドシートフィードの設定を編集する方法について説明します。
 exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 > レポートテンプレートの列を編集する場合、または新しいレポートテンプレートや更新されたレポートテンプレートを使用する場合は、それに応じて [!DNL Excel] テンプレートを更新し、再度アップロードする必要があります。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Spreadsheet Feeds]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Spreadsheet Feeds]** をクリックします。
 
 1. （オプション）スプレッドシートフィードに使用するレポートテンプレートまたは [!DNL Excel] テンプレートを更新するには、次の手順に従います。
 

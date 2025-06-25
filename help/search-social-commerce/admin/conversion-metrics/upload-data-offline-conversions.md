@@ -3,7 +3,7 @@ title: オフラインのコンバージョンデータをアップロードし�
 description: ファーストパーティのオフラインコンバージョンデータをアップロードして、リードの強化コンバージョンおよび強化コンバージョンの  [!DNL Google Ads]  強化コンバージョンにマッピングする方法  [!DNL Microsoft Advertising]  説明します。
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-source-git-commit: eb7320fdddce4895a689c32ec6fb1e44cb8f2705
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 拡張コンバージョン用のデータをアップロード
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Conversions]** をクリックし、「**[!UICONTROL Upload]**」タブをクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Conversions]** をクリックし、「**[!UICONTROL Upload]**」タブをクリックします。
 
 1. 広告ネットワークを選択し、次にアカウントを選択します。
 

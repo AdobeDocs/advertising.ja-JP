@@ -4,7 +4,7 @@ description: データソースの設定を編集する方法  [!DNL Google Anal
 role: User, Admin
 exl-id: d3c6c8d6-d427-4a2d-8260-850e61d3cd4d
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # [!DNL Google Analytics] データソースの編集
 
-*代理店管理者（基本役割）、Adobeアカウント管理者、管理者のみ*
+*代理店管理者（基本役割）、Adobe担当営業および管理者専用*
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Data Source Setup]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Data Source Setup]** をクリックします。
 
 1. 編集するデータソースの横にあるチェックボックスをオンにします。
 

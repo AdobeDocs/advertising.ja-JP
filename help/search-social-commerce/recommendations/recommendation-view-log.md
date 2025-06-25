@@ -3,7 +3,7 @@ title: アカウントの公開者レコメンデーションログの表示
 description: アカウントまたはアカウントに適用された各レコメンデーションのログを表示する方法  [!DNL Google Ads]  ついて説明  [!DNL Microsoft Advertising]  ます。
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 却下されたレコメンデーションは、広告ネットワークからは利用できません。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Recommendations & Publisher Insights]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Recommendations & Publisher Insights]** をクリックします。
 
 1. 右上で、広告ネットワークとアカウントを選択します。
 

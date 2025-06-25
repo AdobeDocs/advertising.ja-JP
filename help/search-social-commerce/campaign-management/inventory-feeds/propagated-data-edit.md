@@ -3,7 +3,7 @@ title: フィードから生成されたデータを編集
 description: 在庫データフィードから生成されたデータを編集する方法を説明します。
 exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 * オプションを「[!UICONTROL Propagate and Preview]」に使用した場合は、生成されたバルクシートファイル（「`<feed file name>_<template name>`」という名前）を [!UICONTROL Bulksheets] ビューからダウンロードして編集し、再度アップロードすることで編集できます。 「[!UICONTROL Campaigns]」、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」、「[!UICONTROL Ads]」の各タブには、データは含まれていません。
 
-* オプションを「[!UICONTROL Propagate only]」に使用した場合は、キャンペーン階層ビュー内の「[!UICONTROL Campaigns]」、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」、「[!UICONTROL Ads]」の各タブで [&#128279;](propagated-data-status.md) [!UICONTROL New] ステータスのコンポーネントに対して生成されたデータを編集できます。
+* オプションを「[!UICONTROL Propagate only]」に使用した場合は、キャンペーン階層ビュー内の「[!UICONTROL Campaigns]」、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」、「[!UICONTROL Ads]」の各タブで ](propagated-data-status.md)[[!UICONTROL New] ステータスのコンポーネントに対して生成されたデータを編集できます。
 
   キャンペーン階層ビューには、フィードファイルから生成されたデータのみが表示され、既存のアカウントコンポーネントは表示されません。 コンポーネントとそのすべてのサブコンポーネントのデータが広告ネットワークに投稿されると、キャンペーン階層に表示されなくなります。
 
-   1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
+   1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
 
    1. （任意）特定のテンプレート用に作成されたキャンペーンコンポーネントのみを表示するには、次の手順を実行します。
 

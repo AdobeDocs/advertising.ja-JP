@@ -3,7 +3,7 @@ title: 広告の管理
 description: 広告を作成および管理する方法について説明します。
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >一度に多くの広告を作成するには、[ コピー&amp;ペースト機能 ](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ads]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ads]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >（Adobe Advertisingコンバージョントラッキングを使用したキャンペーン）アカウントまたはキャンペーンの設定でキーワードレベルでのみトラッキングが指定されている場合、検索、ソーシャル、Commerceでは広告のトラッキングが生成されません。
+   >（Adobe Advertising コンバージョントラッキングを使用したキャンペーン）アカウントまたはキャンペーンの設定でキーワードレベルでのみトラッキングが指定されている場合、検索、ソーシャル、Commerceでは広告のトラッキングが生成されません。
 
 1. 「**[!UICONTROL Post]**」をクリックします。
 
-1. （Adobe Advertisingコンバージョントラッキングを使用したキャンペーンのショッピング広告。オプション）広告のクリックをトラッキングするには、[ トラッキング URL ツールを使用したトラッキング URL の生成 ](/help/search-social-commerce/tools/click-tracking-url-generate.md) を行い、アカウント、キャンペーン、商品グループの設定に手動で追加します。
+1. （Adobe Advertising コンバージョントラッキングを使用したキャンペーンのショッピング広告。オプション）広告のクリックを追跡するには、[ トラッキング URL ツールを使用したトラッキング URL の生成 ](/help/search-social-commerce/tools/click-tracking-url-generate.md) を行い、アカウント、キャンペーン、商品グループの設定に手動で追加します。
 
 ## 広告設定の編集
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 >
 >一度に大量のデータを編集するには、[ コピーと貼り付け機能 ](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ads]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ads]** をクリックします。
 
 1. 次のいずれかの操作をおこないます。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 また、アクティブな検索広告や一時停止した検索広告を削除することもできます。 削除された広告は広告ネットワークから削除されます。 これらは表示されたままですが、変更できません。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ads]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ads]** をクリックします。
 
 1. （任意）特定の広告を含めるようにリストをフィルタリングします。
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
    * 行を一時停止するには、「![ 一時停止 ](/help/search-social-commerce/assets/pause.png " 一時停止 ")」をクリックします。
 
-   * 行を削除するには、「![ その他 ")」をクリックし ] (/help/search-social-commerce/assets/more.png " 「**[!UICONTROL Delete]**」を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
+   * 行を削除するには、「![ その他 ")」をクリックし ](/help/search-social-commerce/assets/more.png " 「**[!UICONTROL Delete]**」を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 
 >[!MORELIKETHIS]
 >

@@ -2,7 +2,8 @@
 title: リードの拡張コンバージョン用  [!DNL Google Ads]  コンバージョンアクションの作成
 description: リードのコンバージョンを強化するため  [!DNL Google Ads]  コンバージョンアクションを作成する方法を説明します。
 feature: Conversions
-source-git-commit: 5eb6ed5b42e74f424fc8499f6df0dbe3f2430ab2
+exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 管理者アカウントレベルで追跡され [!DNL Google Ads] コンバージョンではなく、個々の [!DNL Google Ads] アカウントで追跡されるリードの拡張コンバージョンに対して、コンバージョンアクションを作成できます。
 
-1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]** をクリックすると、「**[!UICONTROL Summary]**」タブが開きます。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]** をクリックすると、「**[!UICONTROL Summary]**」タブが開きます。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
@@ -61,7 +62,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Don't use a value for this conversion action (Not recommended)]*
 
-**[!UICONTROL Count]:**&#x200B;[ クリックまたはインタラクションごとにカウントするコンバージョン数 ](https://support.google.com/google-ads/answer/3438531):*[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]* または *[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*。
+**[!UICONTROL Count]:**[ クリックまたはインタラクションごとにカウントするコンバージョン数 ](https://support.google.com/google-ads/answer/3438531):*[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]* または *[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*。
 
 **[!UICONTROL Click Through Conversion Window]:** コンバージョンが記録される広告インタラクション後の最大日数。 検索、ディスプレイ、ショッピングキャンペーンの場合、ウィンドウは 1～90 日です。 数値を選択するか、**[!UICONTROL Custom]** を選択して数値を入力します。
 

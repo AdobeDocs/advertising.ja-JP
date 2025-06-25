@@ -3,7 +3,7 @@ title: カスタムアラートの表示
 description: アラートインスタンスをリストする方法を説明します。
 exl-id: 0a5260f6-8651-451e-841c-600be371cc3f
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Triggered Alerts] ビュー内でのアラートの表示
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Insights & Reports]/[!UICONTROL Custom Alerts]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Custom Alerts]** をクリックします。
 
 1. サブメニューで、**[!UICONTROL Triggered Alerts]** をクリックします。
 

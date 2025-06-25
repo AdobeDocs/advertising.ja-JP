@@ -3,7 +3,7 @@ title: ラベルの分類について
 description: ラベル分類を使用したアカウントコンポーネントのグループ化について説明します。
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 ## ラベルの値
 
-各ラベル分類には、最大 2000 個の値を設定できます。 分類に特定のラベル値を作成したら、それらをキャンペーン、広告グループ、キーワード、広告、配置、製品グループに [&#128279;](classification-values-assign-bulksheets.md) キャンペーン管理ビューまたは [ バルクシートの使用 ](classification-values-assign-campaign-management.md) から  割り当てることができます。
+各ラベル分類には、最大 2000 個の値を設定できます。 分類に特定のラベル値を作成したら、それらをキャンペーン、広告グループ、キーワード、広告、配置、製品グループに [ キャンペーン管理ビューまたは [ バルクシートの使用 ](classification-values-assign-campaign-management.md) から ](classification-values-assign-bulksheets.md) 割り当てることができます。
 
 各適格エンティティは、複数の分類のラベル値を持つことができますが、分類ごとに 1 つのラベル値のみを持つことができます。 ラベル値は、子エンティティに継承されますが、上書きできます。 最下位レベルで割り当てられた値は、常に親レベルで割り当てられた値を上書きします。
 
 ## ラベルの分類ビュー
 
-[!UICONTROL Search] > [!UICONTROL Campaigns] メニュー内の [!UICONTROL Labels Classifications] ビューには、[!UICONTROL Classifications] と [!UICONTROL Label Values] のサブビューが含まれます。 ラベル分類のデータを表示したり、ラベル分類を [ 作成 ](classification-create.md) および [ 削除 ](classification-delete.md) したり、ラベル分類値のデータを表示することができます。 デフォルトでは、キーワードレベルのラベルの分類と値のデータが表示されますが、オプションで、広告レベルの分類と値のデータを表示することもできます。
+[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] メニュー内の [!UICONTROL Labels Classifications] ビューには、[!UICONTROL Classifications] と [!UICONTROL Label Values] のサブビューが含まれます。 ラベル分類のデータを表示したり、ラベル分類を [ 作成 ](classification-create.md) および [ 削除 ](classification-delete.md) したり、ラベル分類値のデータを表示することができます。 デフォルトでは、キーワードレベルのラベルの分類と値のデータが表示されますが、オプションで、広告レベルの分類と値のデータを表示することもできます。
 
 >[!MORELIKETHIS]
 >

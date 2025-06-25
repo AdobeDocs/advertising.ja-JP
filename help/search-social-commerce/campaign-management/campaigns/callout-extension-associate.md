@@ -3,7 +3,7 @@ title: 共有コ  [!DNL Google Ads]  ルアウト拡張機能をキャンペー�
 description: 共有コールアウト拡張機能をキャンペ  [!DNL Google Ads]  ンまたは広告グループに割り当てる方法を説明します。
 exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-コールアウト拡張機能を作成し、[&#128279;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 同期  [!DNL Google Ads]  アカウント  [!DNL Google Ads]  内の検索ネットワーク上の任意の [ サポート対象 ](/help/search-social-commerce/introduction/supported-inventory.md) キャンペーンまたは広告グループ  に割り当てることができます。
+コールアウト拡張機能を作成し、[ 同期  [!DNL Google Ads]  アカウント  [!DNL Google Ads]  内の検索ネットワーク上の任意の [ サポート対象 ](/help/search-social-commerce/introduction/supported-inventory.md) キャンペーンまたは広告グループ ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) に割り当てることができます。
 
 コールアウトを使用して広告を表示するには、キャンペーンまたは広告グループごとに少なくとも 2 つのコールアウトを割り当てます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックし、[**[!UICONTROL Callout]**] を選択します。
 

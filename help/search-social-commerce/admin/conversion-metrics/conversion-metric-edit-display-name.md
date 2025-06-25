@@ -3,7 +3,7 @@ title: コンバージョン指標の表示名の変更
 description: 管理ビューおよびレポートの列見出しに表示されるコンバージョン指標名を変更する方法を説明します。
 feature: Conversions
 exl-id: 5c3c1eaf-6754-42f1-acf1-f75d01e2d216
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[ 統合からの指標 ](/help/search-social-commerce/admin/data-sources/data-source-about.md) の場合、Google Analyticsを更新または再認証すると、表示名に手動で変更が加えられると上書きされます。 同様に、Google Analytics内の名前の変更は、統合を [ 更新 ](/help/search-social-commerce/admin/data-sources/data-source-edit.md) または [ 再認証 ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md) しない限り無視されます。
+>[Google Analyticsの指標 ](/help/search-social-commerce/admin/data-sources/data-source-about.md) については、統合を更新または再認証すると、表示名に手動で変更が加えられると上書きされます。 同様に、Google Analytics内の名前の変更は、統合を [ 更新 ](/help/search-social-commerce/admin/data-sources/data-source-edit.md) または [ 再認証 ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md) しない限り無視されます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Conversions]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Conversions]** をクリックします。
 
 1. 指標の「**[!UICONTROL Display Name]**」列で、セル内をクリックします。
 

@@ -3,7 +3,7 @@ title: キャンペーンに関する FAQ
 description: キャンペーン管理およびキャンペーンデータビューに関する質問への回答を参照してください。
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 >（ポートフォリオを持つ広告主）検索、ソーシャル、Commerceでデータを収集してモデルを作成する際に、新しいキーワードとマッチタイプの組み合わせのパフォーマンスが不安定になることを想定しています。
 
-**[!UICONTROL Search]/[!UICONTROL Campaigns] ビュー、バルクシート投稿プロセス、および広告ネットワーク自身のエディターでのアクション：**
+**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns] ビュー、バルクシート投稿プロセス、および広告ネットワーク自身のエディターでのアクション：**
 
 既存のキーワードまたは広告は削除され、次の場合に別のキーワードが作成されます。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 当日 [!DNL Google Ads] 検索ネットワーク上のキャンペーンレベルのパフォーマンス指標は、広告主のタイムゾーンの 08:00 と 16:00 に取り込まれます。
 
-[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] ビューと [!UICONTROL Optimization]/[!UICONTROL Portfolios] ビューの両方の「[!UICONTROL Campaigns]」タブで、[!UICONTROL Today] または現在の日付を含むカスタム日付範囲についてレポートすると、データに最近同期されたデータが含まれます。
+[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] ビューと [!UICONTROL Optimization]/[!UICONTROL Portfolios] ビューの両方の「[!UICONTROL Campaigns]」タブで、[!UICONTROL Today] または現在の日付を含むカスタム日付範囲についてレポートすると、データに最近同期されたデータが含まれます。
 
 >[!NOTE]
 >

@@ -4,7 +4,7 @@ description: ' [!DNL Google Analytics]  ビューからデータソースを設�
 role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. [ アカウントの統合に必要なすべての前提条件  [!DNL Google Analytics]  実行します ](data-source-prerequisites.md)。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Admin]/[!UICONTROL Data Source Setup]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Data Source Setup]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 

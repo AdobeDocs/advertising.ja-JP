@@ -3,7 +3,7 @@ title: キャンペーンの管理
 description: 広告キャンペーンを作成および管理する方法について説明します。
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 3af579ad61dd05f0d2b1e565c5b1532cebaeebe1
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >* キャンペーンを作成する前に、広告主の web ページで [ コンバージョントラッキングタグの実装 ](/help/search-social-commerce/tracking/conversion-tracking-about.md) を行います。
 >* 一度に多数のキャンペーンを作成するには、[ コピーと貼り付け機能 ](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 >
 >また、コピーと貼り付け機能や Campaign バルクシートを使用して、データを一括編集することもできます。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
 
 1. 次のいずれかの操作をおこないます。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 アクティブな検索キャンペーンや一時停止した検索キャンペーンを削除することもできます。 削除されたキャンペーンは広告ネットワークから削除されます。 これらは、データフィルターに含めると引き続き表示されますが、変更することはできません。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
 
 1. （任意）リストをフィルタリングして、特定のキャンペーンを含めます。
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    * 行を一時停止するには、「![ 一時停止 ](/help/search-social-commerce/assets/pause.png " 一時停止 ")」をクリックします。
 
-   * 行を削除するには、「![ その他 ")」をクリックし ] (/help/search-social-commerce/assets/more.png " 「**[!UICONTROL Delete]**」を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
+   * 行を削除するには、「![ その他 ")」をクリックし ](/help/search-social-commerce/assets/more.png " 「**[!UICONTROL Delete]**」を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 
 >[!MORELIKETHIS]
 >

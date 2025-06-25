@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -15,4 +15,4 @@ ht-degree: 0%
 * 負の語句の一致：`"keyword"`
 * 完全一致が負の数：`[keyword]`
 
-フレーズと完全一致のタイプの慣習的な構文は、テンプレートを通じてフィードデータを伝播する際に生成されるバルクシートで使用されます。 **メモ：** 負のキーワードは、「[!UICONTROL Keywords]」タブまたは [!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] 表示には表示されません。
+フレーズと完全一致のタイプの慣習的な構文は、テンプレートを通じてフィードデータを伝播する際に生成されるバルクシートで使用されます。 **メモ：** 負のキーワードは、「[!UICONTROL Keywords]」タブまたは [!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] 表示には表示されません。

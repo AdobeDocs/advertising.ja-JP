@@ -3,7 +3,7 @@ title: 動的リマ  [!DNL Microsoft Advertising]  ケティングオーディ�
 description: 動的リマーケティングオーディエンスを作成および管理  [!DNL Microsoft Advertising]  る方法について説明します。
 exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Web ページで検索エンジンのJavaScript コンバージョンタグと�
 
    後の手順で、タグ名が必要になります。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
@@ -60,7 +60,7 @@ Web ページで検索エンジンのJavaScript コンバージョンタグと�
 
 [!DNL Microsoft Advertising] しい動的リマーケティングオーディエンスの名前とデータソースを変更できます。 [!UICONTROL Membership Days] 設定の値は編集できません。
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
 
 1. 編集するオーディエンスの横にあるチェックボックスをオンにします。
 
@@ -80,7 +80,7 @@ Web ページで検索エンジンのJavaScript コンバージョンタグと�
 
 ## 動的リマーケティングオーディエンスの削除
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
 
 1. （任意）特定のオーディエンスを含めるようにリストをフィルタリングします。
 

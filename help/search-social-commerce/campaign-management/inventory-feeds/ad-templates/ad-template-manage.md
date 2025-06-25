@@ -3,7 +3,7 @@ title: 在庫フィードの広告テンプレートの管理
 description: アカウント構造を管理し、動的広告を配信するためにインベントリデータを処理できる広告テンプレートの管理について説明します。
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 テキスト広告、拡張/拡張テキスト広告、レスポンシブ検索広告、[!DNL Google Ads] のショッピング広告および [!DNL Microsoft Advertising] のショッピング広告に対して、個別のテンプレートを作成します。
 
-1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
 
 1. 次のいずれかの操作を行います。
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 >
 >一時停止したテンプレートを使用して手動でデータを伝播することはできますが、データは自動的には伝播されません。
 
-1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
 
 1. ステータスを変更する各テンプレートの横にあるチェックボックスをオンにします。
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 ## フィードテンプレートの削除
 
-1. メインメニューで、**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
 
 1. 削除する各テンプレートの横にあるチェックボックスをオンにします。
 
