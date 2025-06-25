@@ -3,7 +3,7 @@ title: ポートフォリオへのキャンペーンの割り当て
 description: 最適化のためにキャンペーンをポートフォリオに含める方法を説明します。
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 0b5b7baaa4044af9bd86291385a5311cfc7410ee
+source-git-commit: f1ad7c7535a7edece4eeecf7b2aac8b59f8eb6b9
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. ツールバーで、![ その他のアクション ](/help/search-social-commerce/assets/more-actions.png " その他のアクション ") **[!UICONTROL More Actions]** / ![割り当て](/help/search-social-commerce/assets/assign.png "割り当て") **[!UICONTROL Assign]** / **[!UICONTROL New Portfolio]** をクリックします。
 
-1. [!UICONTROL Create Portfolio] の画面で、「ポートフォリオ設定 [ を指定 ](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md) ます。
+1. [!UICONTROL Create Portfolio] の画面で、ポートフォリオ設定を指定します <!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->。
 
    以前に選択したキャンペーンは、既にキャンペーンに割り当てられています。 オプションで、ポートフォリオのキャンペーンリストを編集できます。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## （レガシー UI） [!UICONTROL Campaigns] ータビューからのポートフォリオへのキャンペーンの割り当て
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
 
 1. 次のいずれかの操作をおこないます。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
          >
          >ポートフォリオ内のすべてのキャンペーンは、同じ通貨を使用する必要があります。
 
-      1. データ テーブルの上にあるツールバーで ![[ その他 ")] をクリックし、次に ] (/help/search-social-commerce/assets/more.png "**[!UICONTROL Assign]>[!UICONTROL Portfolio]** をクリックします。
+      1. データ テーブルの上にあるツールバーで ![[ その他 ")] をクリックし、次に ](/help/search-social-commerce/assets/more.png "**[!UICONTROL Assign]>[!UICONTROL Portfolio]** をクリックします。
 
 1. ポートフォリオを選択します。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ## （レガシー UI） [!UICONTROL Portfolios] ビューからポートフォリオ内のキャンペーンを変更
 
-1. メインメニューで、**[!UICONTROL Search]/[!UICONTROL Optimization]/[!UICONTROL Portfolios]** をクリックし、ポートフォリオを見つけます。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Optimization]/[!UICONTROL Portfolios]** をクリックし、ポートフォリオを見つけます。
 
    左側のパネルの [!UICONTROL Portfolios] メニューでポートフォリオリストをフィルタリングするには、ポートフォリオグループまたは [!UICONTROL Ungrouped Portfolios] ノードを選択します。
 
