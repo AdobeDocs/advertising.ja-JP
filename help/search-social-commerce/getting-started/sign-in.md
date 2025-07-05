@@ -3,9 +3,9 @@ title: ログイン
 description: ログイン方法を説明します。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 5f28b2ba916778b110e19b6c3a1583312417a34e
+source-git-commit: 16bc95001d815f22ade46390d07e40fcc29e2fdb
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 現在の検索、ソーシャル、Commerceの資格情報は、2025 年 7 月 15 日（PT）まで有効であり、変更に備えることができます。
 
-ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。
+ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)」を参照してください。
 
 ## 従来の検索、ソーシャル、Commerceからのログインページ
 
@@ -30,15 +30,21 @@ ht-degree: 0%
 
 このオプションは 2025 年 7 月 15 日（PT）まで利用できます。
 
-* [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) または [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) に移動し、従来の検索、ソーシャル、Commerceの資格情報を使用してログインします。
+* [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) または [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) に移動し、従来の検索、ソーシャル、およびCommerceのユーザー名とパスワードを使用してログインします。
 
   レガシーユーザーインターフェイスがデフォルトで開きます。
 
 ## 認証に [!DNL Adobe ID] を使用
 
-1. [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) または [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) に移動し、[!DNL Adobe] ID を使用してログインします。
+1. [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) または [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) に移動し、「**[!UICONTROL Sign in with SSO]**」をクリックします。
 
-新しいユーザーインターフェイスがデフォルトで開きます。
+1. [!DNL Adobe] ID を入力し、「**[!UICONTROL Continue]**」をクリックします。
+
+1. プロンプトが表示されたら、「個人用アカウント**または **会社または学校用アカウント**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
+
+   新しいユーザーインターフェイスがデフォルトで開きます。
+
+1. 複数の IMS 組織にアクセスできる場合、ページの右上で正しい組織を選択します。
 
 ## [!DNL Adobe ID] を使用したAdobe Experience Cloudからのログイン
 
@@ -46,19 +52,17 @@ ht-degree: 0%
 
 1. [experience.adobe.com](https://experience.adobe.com) に移動します。
 
-1. [!DNL Adobe] ID の認証情報を入力します。
+1. [!DNL Adobe] ID を入力し、「**[!UICONTROL Continue]**..」をクリックします。
 
-1. 組織を選択します。
-
-   * プロンプトが表示されたら、「個人用アカウント&#x200B;**または &#x200B;** 会社または学校用アカウント**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
-
-   * 複数の IMS 組織にアクセスできる場合は、正しい組織を選択します。
+1. プロンプトが表示されたら、「個人用アカウント**または **会社または学校用アカウント**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
 
 1. ホーム ページの [[!UICONTROL Quick Access]] セクションで、[**[!UICONTROL Advertising Search, Social, & Commerce]**] をクリックします。
 
 ![Advertising検索、ソーシャル、Commerce） ](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising検索、ソーシャル、Commerce） ")
 
 新しいユーザーインターフェイスがデフォルトで開きます。
+
+1. 複数の IMS 組織にアクセスできる場合、ページの右上で正しい組織を選択します。
 
 >[!MORELIKETHIS]
 >
