@@ -50,7 +50,7 @@ ht-degree: 0%
 
 1. 組織を選択します。
 
-   * プロンプトが表示されたら、「個人用アカウント**または **会社または学校用アカウント**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
+   * プロンプトが表示されたら、「個人用アカウント&#x200B;**または &#x200B;** 会社または学校用アカウント**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
 
    * 複数の IMS 組織にアクセスできる場合は、正しい組織を選択します。
 
