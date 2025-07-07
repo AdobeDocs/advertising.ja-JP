@@ -3,9 +3,9 @@ title: カスタムレポートの設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 8e6d2a1d39231176f3836246958b82691fbb5006
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]:** レポート名。 最大長は 180 文字です。
 
-**[!UICONTROL Report Type]:** レポートのタイプ。*[!UICONTROL Custom]* （利用可能な最も多くのオプションを含む）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]*、*[!UICONTROL Household Conversions]*、*[!UICONTROL Path to Conversions Beta]*、*[!UICONTROL Path Length Beta]* または *[!UICONTROL Time to Conversion Beta]*。
+**[!UICONTROL Report Type]:** レポートのタイプ。*[!UICONTROL Custom]* （利用可能な最も多くのオプションを含む）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]*、*[!UICONTROL Household Conversions]*、**、*[!UICONTROL Path Length]* または *[!UICONTROL Time to Conversion]*。
 
 ## [!UICONTROL Report Range] セクション
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >また、[!UICONTROL Reports] ビューから [ いつでもカスタムレポートを実行 ](report-run-now.md) することもできます。
+  >また、[ ビューから ](report-run-now.md) いつでもカスタムレポートを実行 [!UICONTROL Reports] することもできます。
 
 * *[!UICONTROL On]\&lt;Date\>:* 指定した完了日に、アカウントのタイムゾーンで 09:00 までにレポートを実行します。
 
@@ -117,13 +117,13 @@ ht-degree: 0%
 
 **[!UICONTROL Attribution Rule Settings]:** 設定はレポートタイプによって異なります。
 
-* **\[Attribution Type\]:** （[!UICONTROL Conversion Metrics] 列または [!UICONTROL Custom Goals] 列の [!UICONTROL Household Conversion] レポート、Adobe Advertising コンバージョントラッキングのみを使用する広告主） レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータを属性化する方法：
+* **\[ 属性タイプ\]:** （[!UICONTROL Household Conversion] 列または [!UICONTROL Conversion Metrics] 列を含む [!UICONTROL Custom Goals] レポート）レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータを属性化する方法：
 
    * *[!UICONTROL Unique]:* （デフォルト）ディメンション値（デバイスや配置など）が変換されるパス上にあった回数をカウントします。
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:* コンバージョンへのパス上でのディメンション値（デバイスや配置など）の発生頻度に基づいて、各コンバージョンのクレジットを配分します。 例えば、コンバージョン前に合計 10 件のインプレッションがあり、CTV に 8 件、モバイルに 2 件あった場合、クレジットの 80% （0.8）が CTV 画面に、0.2 がモバイルに与えられます。
 
-* **\[Rule Type\]:** （[!UICONTROL Conversion Metrics] 列または [!UICONTROL Custom Goals] 列のすべての [!UICONTROL Custom]、[!UICONTROL Conversion]、[!UICONTROL Device]、[!UICONTROL Geo]、[!UICONTROL Segment] および [!UICONTROL Site] レポート。Adobe Advertising コンバージョントラッキングのみを使用する広告主）レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータを属性化する方法。 ルール間の違いを比較する場合は、複数のルールを選択できます。
+* **\[Rule Type\]:** （[!UICONTROL Custom] 列または [!UICONTROL Conversion] 列のすべての [!UICONTROL Device]、[!UICONTROL Geo]、[!UICONTROL Segment]、[!UICONTROL Site]、[!UICONTROL Conversion Metrics] および [!UICONTROL Custom Goals] レポート。Adobe Advertising コンバージョントラッキングのみを使用する広告主）レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータを属性化する方法。 ルール間の違いを比較する場合は、複数のルールを選択できます。
 
   >[!NOTE]
   >
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 「[Adobe Advertisingのアトリビューションルールの計算方法 ](/help/search-social-commerce/reports/attribution-rules.md) も参照してください。
 
-* **ルックバック：** （[!UICONTROL Conversion Metrics] 列または [!UICONTROL Custom Goals] 列を含む [!UICONTROL Household Conversion] レポートおよび [!UICONTROL Conversion Metrics] 列のみを含む [!UICONTROL Path to Conversion]、[!UICONTROL Path Length] または [!UICONTROL Time to Conversion] レポート。Adobe Advertising コンバージョントラッキングのみを含む広告主）レポート内で、コンバージョンイベントまたはそのイベントに起因する可能性のあるクリックイベント（[!UICONTROL Path to Conversion]、[!UICONTROL Path Length] または [!UICONTROL Time to Conversion] レポートの場合）後の最大日数。 デフォルトは *[!UICONTROL 30 days]* で、最大 92 日です。
+* **ルックバック：** （[!UICONTROL Household Conversion] 列または [!UICONTROL Conversion Metrics] 列を含む [!UICONTROL Custom Goals] レポートおよび [!UICONTROL Path to Conversion] 列のみを含む [!UICONTROL Path Length]、[!UICONTROL Time to Conversion] または [!UICONTROL Conversion Metrics] レポート。Adobe Advertising コンバージョントラッキングのみを含む広告主）レポート内で、コンバージョンイベントまたはそのイベントに起因する可能性のあるクリックイベント（[!UICONTROL Path to Conversion]、[!UICONTROL Path Length] または [!UICONTROL Time to Conversion] レポートの場合）後の最大日数。 デフォルトは *[!UICONTROL 30 days]* で、最大 92 日です。
 
   >[!TIP]
   >

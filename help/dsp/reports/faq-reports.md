@@ -2,9 +2,9 @@
 title: カスタムレポートに関する FAQ
 description: 世帯レポートやコンバージョンパス分析レポートなどのカスタムレポートについて詳しく説明します。
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 例えば、1 つのインプレッションが 1 つの家庭内の 3 つのデバイスに提供された場合でも、到達した世帯のユニーク数指標は 1 です。
 
-##### サポートされるDimension
+##### サポートされるディメンション
 
-[!UICONTROL Household Reach & Frequency] レポートは、[[!UICONTROL Campaign]」、「[!UICONTROL Package]」、「[!UICONTROL Placement]」、「[!UICONTROL Site/Apps]」（重複指標へのアクセスを提供しない）、「[!UICONTROL Media Type]」、「[!UICONTROL Feed Type]」、「[!UICONTROL Device]」、「[!UICONTROL Publisher]」、「[!UICONTROL Audience]」、「[!UICONTROL Creative Length]」およびユーザー作成のプレースメント「[!UICONTROL Tags]」をサポートします ](/help/dsp/reports/report-columns.md)。 |
+[!UICONTROL Household Reach & Frequency] レポートは、[](/help/dsp/reports/report-columns.md)」、「[!UICONTROL Campaign]」、「[!UICONTROL Package]」、「[!UICONTROL Placement]」（重複指標へのアクセスを提供しない）、「[!UICONTROL Site/Apps]」、「[!UICONTROL Media Type]」、「[!UICONTROL Feed Type]」、「[!UICONTROL Device]」、「[!UICONTROL Publisher]」、「[!UICONTROL Audience]」およびユーザー作成のプレースメント「[!UICONTROL Creative Length]」をサポートします [!UICONTROL Tags]。 |
 
 ##### サポートされる指標
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 重複指標を持つレポートでは、最大 3 つの値の交差が出力されます。 例えば、10 個のプレースメントに対して指標 [!UICONTROL Unique Household (Overlap)] を使用すると、個々のプレースメントによって到達した一意の世帯、2 つのプレースメントの組み合わせによって到達した一般的な世帯、3 つのプレースメントの組み合わせによって到達した一般的な世帯を確認できます。 4 つ以上のプレースメントによって到達した一般的な世帯は表示されません。
 
-キャンペーン、パッケージまたは配置以外のディメンションの場合、レポートでは各ディメンションで最大 10 個の値がサポートされます。 例えば、[!UICONTROL Audience] ディメンションの [!UICONTROL Unique Household Reached] レポートを生成するには、ユニークオーディエンスの数を 10 以下にする必要があります。 10 を超える一意のオーディエンスを含める場合は、空のレポートが生成されます。
+キャンペーン、パッケージまたは配置以外のディメンションの場合、レポートでは各ディメンションで最大 10 個の値がサポートされます。 例えば、[!UICONTROL Unique Household Reached] ディメンションの [!UICONTROL Audience] レポートを生成するには、ユニークオーディエンスの数を 10 以下にする必要があります。 10 を超える一意のオーディエンスを含める場合は、空のレポートが生成されます。
 
 #### [!UICONTROL Custom] レポートと [!UICONTROL Household Reach & Frequency] レポートで頻度とユニークなリーチ値が異なるのはなぜですか？
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 #### [!UICONTROL Placement Tags] ディメンションのレポートを設定するにはどうすればよいですか？
 
-プレースメントのタグを作成するには、[ プレースメント設定を開き ](/help/dsp/campaign-management/placements/placement-edit.md) [ プレースメント タグ フィールド ](/help/dsp/campaign-management/placements/placement-settings.md) に値を入力します。
+プレースメントのタグを作成するには、[ プレースメント設定を開き ](/help/dsp/campaign-management/placements/placement-edit.md)[ プレースメント タグ フィールド ](/help/dsp/campaign-management/placements/placement-settings.md) に値を入力します。
 
 プレースメントに複数のタグが含まれる場合、レポートは文字列全体を 1 つのタグと見なします。 レポートには、一意の文字列ごとに 1 行が含まれます。
 
@@ -83,17 +83,15 @@ ht-degree: 0%
 
 #### 世帯コンバージョンレポートとAdobe Analyticsの CTV ビュースルーレポートの違い
 
-[!DNL Analytics] の CTV ビュースルーデータはトラッキングを [!DNL Analytics] 用しており、家庭用コンバージョンデータはAdobe Advertisingコンバージョントラッキングを使用して収集されたデータを使用します。 さらに、[!DNL Analytics] のDSP アトリビューションロジックでは最後のイベントのみが使用されますが、世帯コンバージョンレポートでは、ユニークと MTA という 2 つの異なるアトリビューションメソッドがサポートされます。
+* ま [!DNL Analytics]、[!DNL CTV View-Through Conversion] レポートは、CTV インプレッションがコンバージョン前の最後のタッチポイントであったコンバージョンの数を示します。 これに対し、DSP [!UICONTROL Household Conversions] レポートは、コンバージョン前に定義されたルックバックウィンドウ内の任意の時点で CTV インプレッションの対象となったユニーク世帯数を示します。
 
-#### CTV ビュースルーデータを [!DNL Analytics for Advertising] とカスタムレポートの両方で表示できますか？
+* ま [!DNL Analytics]、アトリビューションロジックは、Adobe Advertisingの最後のタッチポイントにのみコンバージョンを割り当てます。 これに対し、DSP [!UICONTROL Household Conversions] レポートでは、追加のアトリビューションモデル（*[!UICONTROL Unique]* および *[!UICONTROL Multi-Touch Attribution (MTA)]*）がサポートされます。
 
-[!DNL Analytics for Advertising] を持たない広告主は、家事変換レポートに対してのみ家事変換レポートを使用できます。
-
-組織に [!DNL Analytics for Advertising] がある場合は、両方のタイプのレポートを一緒に使用します。 CTV ビュースルーレポートは、幅広いチャネル分析やサイト行動などに適していますが、カスタムレポートは、コンバージョン率を促す要因を示す（データをメディアタイプ、公開者などで分類した）詳細なビューを提供します。
+* レポートデータ [!DNL Analytics]、マーケティングチャネル別やサイトエンゲージメント指標別などに分析する際に特に役立ちます。 DSP [!UICONTROL Household Conversions] レポートでは、コンバージョンデータをメディアタイプやパブリッシャーなどの様々なディメンションで分割できるので、より詳細なインサイトが得られます。
 
 ### [!UICONTROL Household Reach & Frequency] および [!UICONTROL Household Conversions] レポートと [!DNL Advanced Measurement Services] のデータの比較
 
-世帯ベースのリーチと頻度またはコンバージョンに関する高度なレポートについて、[[!DNL Strategic Advertising Consulting]  チーム ](/help/dsp/introduction/advanced-measurement-services.md) は、全体的な戦略的レコメンデーションに加えて、カスタマイズ性の高いレポートを提供できます。 [!DNL Advanced Measurement Services] について詳しくは、Adobeアカウントチームにお問い合わせください。
+世帯ベースのリーチと頻度またはコンバージョンに関する高度なレポートについて、[[!DNL Strategic Advertising Consulting]  チーム ](/help/dsp/introduction/advanced-measurement-services.md) は、全体的な戦略的レコメンデーションに加えて、カスタマイズ性の高いレポートを提供できます。 [!DNL Advanced Measurement Services] について詳しくは、Adobe アカウントチームにお問い合わせください。
 
 #### 既に [!DNL Advanced Measurement Services] を使用している場合、[!UICONTROL Household Reach & Frequency] レポートと [!UICONTROL Household Conversions] レポートを使用する必要があるのはなぜですか？
 
@@ -109,15 +107,15 @@ ht-degree: 0%
 
 | | コンバージョンレポートのパス | 検索レポートに対する Advanced Measurement Services のハロー効果 | Analysis Workspaceのレポート |
 | --- | --- | --- |---|
-| 顧客価値 | セルフサービスのカスタムレポートを生成して、広告ジャーニーのどのパスが最適化を高めるためにより多くのコンバージョンにつながったかを把握します | 検索クリックに対するコネクテッド TV （CTV）戦術の影響を理解します | 検索クリックに対する総合的なAdobe Advertising投資が、他のマーケティングチャネルと共に与える影響を理解します |
+| 顧客価値 | セルフサービスのカスタムレポートを生成して、広告ジャーニーのどのパスが最適化を高めるためにより多くのコンバージョンにつながったかを把握します | 検索クリックに対するコネクテッド TV （CTV）戦術の影響を理解します | 検索クリックに対するAdobe Advertisingの総合的な投資が、他のマーケティングチャネルと共に与える影響を理解します |
 | 世帯レベル | はい | はい | 不可 |
 | CTV はサポートされていますか？ | はい | はい | はい |
 | アトリビューション手法 | ラストタッチイベント（インプレッションまたはクリック）は、ルックブックウィンドウ内に配置する必要があります。 | ユニーク | ラストタッチ |
 | | コンバージョンパスに対して、ラストタッチイベントの 30 日以上前のインタラクションポイントが考慮されます。 | （CTV は、ユーザーのクリック経路で CTV エクスポージャーが発生した場所に関係なく、クレジットを受け取ります） | （インプレッションがルックバックウィンドウの最後のイベントであり、CTV 公開の前または後に他のフォーマットからの有料クリックがない場合、CTV はクレジットを受け取ります） |
 | レポートのレベル | 粒状 | 粒状 | 広い |
-| | （チャネルタイプ、クリエイティブ/広告、キーワード、パス、長さ、コンバージョンまでの時間） | （CTV 戦略、CTV アプリ/パブリッシャー） | （Adobe Advertisingおよびその他のマーケティングチャネル） |
-| マーケティングチャネル | DSP +検索（検索、ソーシャル、Commerceから） | DSP +検索（検索、ソーシャル、Commerceから） | Adobe Advertisingがクリックスルーする EF ID でトラッキングされないマーケティングチャネル（オーガニック検索、オーガニックソーシャル、メール、アフィリエイトなど） |
-| サポートされるコンバージョン指標 | Adobe Advertisingイベントピクセル（AMO ID）とAdobe Analytics トラッキングを使用してトラッキングされる指標 | クリック数（コンバージョンなし） | Adobe Analyticsのトラッキングを使用して追跡される指標 |
+| | （チャネルタイプ、Creative/Ad、キーワード、パス、長さ、コンバージョンまでの時間） | （CTV 戦略、CTV アプリ/パブリッシャー） | （Adobe Advertisingおよびその他のマーケティングチャネル） |
+| マーケティングチャネル | DSP +検索（検索、ソーシャル、Commerceから） | DSP +検索（検索、ソーシャル、Commerceから） | Adobe Advertisingのクリックスルー EF ID でトラッキングされないマーケティングチャネル（オーガニック検索、オーガニックソーシャル、メール、アフィリエイトなど） |
+| サポートされるコンバージョン指標 | Adobe Advertising イベントピクセル（AMO ID）およびAdobe Analytics トラッキングを使用してトラッキングされる指標 | クリック数（コンバージョンなし） | Adobe Analyticsのトラッキングを使用して追跡される指標 |
 
 Advanced Measurement Services の検索レポートへのハロー効果について詳しくは、「[Advanced Measurement Services](/help/dsp/introduction/advanced-measurement-services.md)」を参照してください。
 
