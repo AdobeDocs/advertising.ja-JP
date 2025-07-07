@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ##### サポートされるディメンション
 
-[!UICONTROL Household Reach & Frequency] レポートは、[](/help/dsp/reports/report-columns.md)」、「[!UICONTROL Campaign]」、「[!UICONTROL Package]」、「[!UICONTROL Placement]」（重複指標へのアクセスを提供しない）、「[!UICONTROL Site/Apps]」、「[!UICONTROL Media Type]」、「[!UICONTROL Feed Type]」、「[!UICONTROL Device]」、「[!UICONTROL Publisher]」、「[!UICONTROL Audience]」およびユーザー作成のプレースメント「[!UICONTROL Creative Length]」をサポートします [!UICONTROL Tags]。 |
+[!UICONTROL Household Reach & Frequency] レポートは、[&#128279;](/help/dsp/reports/report-columns.md)」、「[!UICONTROL Campaign]」、「[!UICONTROL Package]」、「[!UICONTROL Placement]」（重複指標へのアクセスを提供しない）、「[!UICONTROL Site/Apps]」、「[!UICONTROL Media Type]」、「[!UICONTROL Feed Type]」、「[!UICONTROL Device]」、「[!UICONTROL Publisher]」、「[!UICONTROL Audience]」およびユーザー作成のプレースメント「[!UICONTROL Creative Length]」をサポートします [!UICONTROL Tags]。 |
 
 ##### サポートされる指標
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 #### [!UICONTROL Placement Tags] ディメンションのレポートを設定するにはどうすればよいですか？
 
-プレースメントのタグを作成するには、[ プレースメント設定を開き ](/help/dsp/campaign-management/placements/placement-edit.md)[ プレースメント タグ フィールド ](/help/dsp/campaign-management/placements/placement-settings.md) に値を入力します。
+プレースメントのタグを作成するには、[ プレースメント設定を開き ](/help/dsp/campaign-management/placements/placement-edit.md) [ プレースメント タグ フィールド ](/help/dsp/campaign-management/placements/placement-settings.md) に値を入力します。
 
 プレースメントに複数のタグが含まれる場合、レポートは文字列全体を 1 つのタグと見なします。 レポートには、一意の文字列ごとに 1 行が含まれます。
 
