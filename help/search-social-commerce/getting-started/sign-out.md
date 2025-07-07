@@ -3,7 +3,7 @@ title: サインアウト
 description: ログアウトする場所を説明します。
 exl-id: b19b19ea-ca74-4605-b2a3-0515659b58f5
 feature: Search Getting Started
-source-git-commit: 1717795d835eb7970a10ba7cd254fd32ad98e6d2
+source-git-commit: e950cfabe87ec3225d7ce87c132e037989d4ef31
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
@@ -12,6 +12,10 @@ ht-degree: 0%
 
 # サインアウト
 
+## 新しいユーザーインターフェイスからのログアウト
+
+* ページの右上にある [![Account](/help/search-social-commerce/assets/account.png "Account")] をクリックし、[**[!UICONTROL Sign Out]**] をクリックします。
+
 ## 従来のユーザーインターフェイスからのログアウト
 
 >[!NOTE]
@@ -19,10 +23,6 @@ ht-degree: 0%
 >ブラウザーウィンドウが 30 分間アイドル状態になると、セッションは自動的に終了します。
 
 * ページの右上で、「![ ユーザープロファイル ](/help/search-social-commerce/assets/user-profile.png " ユーザープロファイル ")」をクリックし、「**[!UICONTROL Sign Out]**」をクリックします。
-
-## 新しいユーザーインターフェイスからのログアウト
-
-* ページの右上にある [![Account](/help/search-social-commerce/assets/account.png "Account")] をクリックし、[**[!UICONTROL Sign Out]**] をクリックします。
 
 >[!MORELIKETHIS]
 >
