@@ -3,9 +3,9 @@ title: カスタム指標の編集
 description: 標準指標から計算されるカスタム指標の編集方法を説明します。
 exl-id: 89271cd6-0a9d-49b7-9fd3-8c9b77e55e5a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,23 @@ ht-degree: 0%
 >
 >複雑なカスタム指標の計算には時間がかかり、それらを含むレポートやビュー（特に、クリックスルーおよびビュースルーコンバージョン用に別々の列が含まれている場合）の生成に時間がかかります。
 
-## キャンペーン管理ビューからのカスタム指標の編集
+## （新しい UI）管理ビューからのカスタム指標の編集
+
+*[!UICONTROL Simulations]、[!UICONTROL Portfolios]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups] の各ビューで使用できます*
+
+1. データ テーブルの上で、次のいずれかの操作を行います。
+
+   * ![ ビューセレクター ](/help/search-social-commerce/assets/view.png " ビューセレクター ") \[ デフォルトビューまたはカスタムビューの名前\] をクリックして、ビュー設定を開きます。 例：![ビューの例](/help/search-social-commerce/assets/view-selector-example.png "ビューの例")
+
+   * ![ カスタム列 ](/help/search-social-commerce/assets/custom-columns-new.png " カスタム列 ") をクリックして、列設定を開きます。
+
+1. 列名の上にカーソルを置き、列名の横にある ![ 編集 ](/help/search-social-commerce/assets/edit-new.png " 編集 ") をクリックします。
+
+1. [ カスタム指標設定 ](custom-metric-settings.md) を指定します。
+
+1. 「**[!UICONTROL Save]**」をクリックします。
+
+## （従来の UI）キャンペーン管理ビューからのカスタム指標の編集
 
 1. データ テーブルの上で、次のいずれかの操作を行います。
 
@@ -32,7 +48,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-## レポートまたはレポートテンプレートフォームからカスタム指標を編集する
+## （レガシー UI）レポートまたはレポートテンプレートフォームからカスタム指標を編集する
 
 1. レポートまたはレポート テンプレート フォーム内で、[**[!UICONTROL Columns]**] タブに移動します。
 
@@ -42,7 +58,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Submit]**」をクリックします。
 
-## [!UICONTROL Portfolios] ビューからのカスタム指標の編集
+## （従来の UI） [!UICONTROL Portfolios] ータビューからカスタム指標を編集する
 
 1. データ テーブルの上にある [![ 選択したビューを編集 ](/help/search-social-commerce/assets/view-settings.png " 選択したビューを編集 ")] をクリックします。
 

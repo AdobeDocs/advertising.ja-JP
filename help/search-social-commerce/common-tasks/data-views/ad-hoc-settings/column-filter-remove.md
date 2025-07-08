@@ -3,9 +3,9 @@ title: 列フィルターの削除
 description: 列フィルターを削除する方法を説明します。
 exl-id: e68f0087-85a0-4090-aa58-c84703e6d1a1
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 >
 >また、[ フィルターセットの編集 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md) をすることで、フィルターセット内の複数のフィルターを削除できます。
 
-1. （必要に応じて）データテーブルの上にあるフィルターセットで、「![ その他 ](/help/search-social-commerce/assets/more-filters.png " 詳細 ")」をクリックしてフィルターセットを展開します。
+* （使用可能な場合）データテーブルの上で、フィルター定義の **[!UICONTROL X]** をクリックします。
 
-1. データ テーブルの上で、フィルタ定義の **[!UICONTROL X]** をクリックします。
+>[!MORELIKETHIS]
+>
+>* [ 列見出しメニューからのデータフィルターの適用 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
+>* [ ツールバーからのデータフィルターの適用 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [ 列フィルターを編集 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)

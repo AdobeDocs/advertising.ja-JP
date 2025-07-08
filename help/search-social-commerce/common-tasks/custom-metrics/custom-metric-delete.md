@@ -3,9 +3,9 @@ title: カスタム指標の削除
 description: 標準指標から計算されるカスタム指標の削除方法を説明します。
 exl-id: 8956afa3-d165-4a5b-b68b-99d519cf6ab6
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,21 @@ ht-degree: 0%
 
 カスタム指標が現在のビューの列として含まれている場合、列を削除すると、直ちに削除されます。 その列が別の既定のビューまたはカスタム ビューに含まれている場合、またはレポート テンプレートに含まれている場合は、次にビューを更新したときかテンプレートを表示したときに、それぞれ列の変更が表示されます。
 
-## キャンペーン管理ビューからのカスタム指標の削除
+## （新しい UI）管理ビューからのカスタム指標の削除
+
+*[!UICONTROL Simulations]、[!UICONTROL Portfolios]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups] の各ビューで使用できます*
+
+1. データ テーブルの上で、次のいずれかの操作を行います。
+
+   * ![ ビューセレクター ](/help/search-social-commerce/assets/view.png " ビューセレクター ") \[ デフォルトビューまたはカスタムビューの名前\] をクリックして、ビュー設定を開きます。 例：![ビューの例](/help/search-social-commerce/assets/view-selector-example.png "ビューの例")
+
+   * ![ カスタム列 ](/help/search-social-commerce/assets/custom-columns-new.png " カスタム列 ") をクリックして、列設定を開きます。
+
+1. 列名の上にカーソルを置き、列名の横にある ![ 削除 ](/help/search-social-commerce/assets/delete-new.png " 削除 ") をクリックします。
+
+1. 確認メッセージで、「**[!UICONTROL Cpnfirm]**」をクリックします。
+
+## （従来の UI）キャンペーン管理ビューからのカスタム指標の削除
 
 1. データ テーブルの上で、次のいずれかの操作を行います。
 
@@ -26,7 +40,7 @@ ht-degree: 0%
 
 1. 確認メッセージで、「**[!UICONTROL OK]**」をクリックします。
 
-## レポートまたはレポートテンプレートフォームからのカスタム指標の削除
+## （従来の UI）レポートまたはレポートテンプレートフォームからカスタム指標を削除する
 
 1. レポートまたはレポート テンプレート フォーム内で、[**[!UICONTROL Columns]**] タブに移動します。
 
@@ -34,7 +48,7 @@ ht-degree: 0%
 
 1. 確認メッセージで、「**[!UICONTROL Yes]**」をクリックします。
 
-## [!UICONTROL Portfolios] ビューからのカスタム指標の削除
+## （レガシー UI） [!UICONTROL Portfolios] ータビューからカスタム指標を削除する
 
 1. データ テーブルの上にある [![ 選択したビューを編集 ](/help/search-social-commerce/assets/view-settings.png " 選択したビューを編集 ")] をクリックします。
 
