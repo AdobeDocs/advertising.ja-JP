@@ -3,14 +3,16 @@ title: 左側のナビゲーションパネルを使用したデータのフィ�
 description: 左側のナビゲーションパネルを使用してデータをフィルタリングする方法を説明します。
 exl-id: f4675b5b-425e-4943-aac3-68f2e2b6d1df
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
 # 左側のナビゲーションパネルを使用したデータのフィルタリング
+
+*従来のユーザーインターフェイスのみ*
 
 左側のナビゲーションパネルから、次の操作を実行できます。
 

@@ -3,14 +3,16 @@ title: デフォルトビューとカスタムビューの管理
 description: デフォルトビューとカスタムビューをカスタマイズする方法について説明します。
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '2836'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
 
 # デフォルトビューとカスタムビューの管理
+
+<!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
 デフォルトのビューとカスタムのビューを使用すると、検索キャンペーンデータビュー内に表示されるパフォーマンスデータをカスタマイズできます。 ビュー設定には、含める列、フィルター、日付範囲、コンバージョンアトリビューション設定、その他の詳細設定が含まれ、設定を一時的に適用することも、保存することもできます。 （例外：デフォルトビューのフィルターは保存できません。） 各デフォルトおよび通常のカスタムビューは、特定のエンティティビュー（[!UICONTROL Campaigns] など）および特定の広告主アカウントにのみ適用されます。 各ユニバーサルカスタムビューは、特定の広告主のエンティティビューをまたいで適用できるので、エンティティタイプによって異なるプロパティ列（エンティティ名やステータスなど）を含めることはできません。
 
@@ -18,9 +20,13 @@ ht-degree: 0%
 
 各ビューは、左側のパネルの「[!UICONTROL Custom Views]」セクションでショートカットとして使用できます。
 
-## デフォルトビューまたはカスタムビューの適用
+<!--
+## (New UI) Apply a default or custom view
+-->
 
-* （既定のビュー） メイン メニューで、[\>]、[\>]、&lbrack;\>**[!UICONTROL Search]** の **[!UICONTROL Campaigns]** 順にクリックし **[!UICONTROL Campaigns]** す。 サブメニューで、**[!UICONTROL Live]** \> **\[ 図形タイプ\]** をクリックします。
+## （レガシー UI）デフォルトビューまたはカスタムビューの適用
+
+* （既定のビュー） メイン メニューで、[\>]、[\>]、[\>**[!UICONTROL Search]** の **[!UICONTROL Campaigns]** 順にクリックし **[!UICONTROL Campaigns]** す。 サブメニューで、**[!UICONTROL Live]** \> **\[ 図形タイプ\]** をクリックします。
 
 * （カスタムビュー）左側のナビゲーションパネルから：
 

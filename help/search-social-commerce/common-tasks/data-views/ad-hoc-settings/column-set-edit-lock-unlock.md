@@ -3,7 +3,7 @@ title: 列設定のロックとロック解除
 description: キャンペーンビューで列設定をロック/ロック解除する方法について説明します。
 exl-id: a4a3c9b1-2577-4789-9501-0664d7b84ff3
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -11,6 +11,10 @@ ht-degree: 0%
 ---
 
 # キャンペーンビューでの列設定のロックとロック解除
+
+<!-- The same in new UI and legacy CM views -->
+
+<!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
 
 列をロックすると、その列とその左側にあるその他すべての列が 1 つの静的なウィンドウにロックされ、右側のすべての列は水平にスクロールできる別のウィンドウにロックされます。
 

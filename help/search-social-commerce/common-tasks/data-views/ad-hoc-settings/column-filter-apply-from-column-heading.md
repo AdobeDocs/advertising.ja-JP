@@ -3,7 +3,7 @@ title: 列見出しメニューからのデータフィルターの適用
 description: 列見出しメニューのからページデータをフィルタリングする方法を説明します。
 exl-id: 508f254a-d859-4155-9bbd-84e0442f01d5
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # 列見出しメニューからのデータフィルターの適用
+
+<!-- The same in new UI and legacy CM views -->
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 

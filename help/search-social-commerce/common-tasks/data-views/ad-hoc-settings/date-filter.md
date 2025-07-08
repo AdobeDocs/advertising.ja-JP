@@ -3,16 +3,18 @@ title: 日付範囲でデータをフィルター
 description: グローバル日付範囲フィルターの使用方法を説明します。
 exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # 日付範囲でデータをフィルター
 
-同じグローバル日付範囲フィルターが、すべての広告主にわたるほとんどのキャンペーンデータビューに適用されます。ただし、特定の日付範囲を保存したデフォルトおよびカスタムビューは除きます。 キャンペーン管理ビューのシステムのデフォルトの日付範囲は「昨日」です。
+<!-- The same in new UI and legacy CM views -->
+
+同じグローバル日付範囲フィルターが、すべての広告主にわたるほとんどのデータビューに適用されます。ただし、特定の日付範囲を保存したデフォルトおよびカスタムビューは除きます。 キャンペーン管理ビューのシステムのデフォルトの日付範囲は「昨日」です。
 
 日付範囲設定はブラウザー固有の cookie に保存されるので、日付範囲フィルターに対する変更は、フィルターを変更するか、cookie を削除するまで、同じブラウザーアプリケーションを使用してログインするたびに、すべての広告主に対して使用されます。 使用するブラウザーアプリケーションごとに、日付範囲フィルター設定が異なる cookie に保存されます。
 
@@ -38,7 +40,7 @@ ht-degree: 0%
 
 1. （任意）指定した日付範囲のデータと 2 つ目の日付範囲のデータを比較します。
 
-   1. **[!UICONTROL Comparison]** スライダを *[!UICONTROL On]* に移動します。
+   1. **[!UICONTROL Comparison]** スライダーを「オン」の位置に移動します。
 
       このオプションを選択すると、通常のデータ列ごとに 2 つの列が追加されます。 例えば、テーブルには「[!UICONTROL Impressions]」の列を 1 つだけ含めるのではなく、「[!UICONTROL Impressions R1]」、「[!UICONTROL Impressions R2]」、「[!UICONTROL Impressions Diff]」の列を含めます。  データを書き出す場合、同じ列には、「[!UICONTROL Impressions Range 1]」、「[!UICONTROL Impressions Range 2]」、および「[!UICONTROL Impressions Difference]」とスペルが表示されます。
 
