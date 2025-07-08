@@ -33,7 +33,7 @@ ht-degree: 0%
 >* 新しい [!DNL Baidu] アカウントではサポートを利用できません。
 >* 広告ネットワーク上に実際のアカウントを作成するには、広告ネットワークの web サイトにアクセスします。
 
-1. メインメニューで、「\>」 **[!UICONTROL Search, Social, & Commerce]** 「\>」 **[!UICONTROL Campaigns]** 「\>」をクリッ **[!UICONTROL Campaigns]** します。 サブメニューで、[\> **[!UICONTROL Live]**]**[!UICONTROL Accounts]** クリックします。
+1. メインメニューで、「\>」 **[!UICONTROL Search, Social, & Commerce]** 「\>」 **[!UICONTROL Campaigns]** 「\>」をクリッ **[!UICONTROL Campaigns]** します。 サブメニューで、[\> **[!UICONTROL Live]**]&#x200B;**[!UICONTROL Accounts]** クリックします。
 
 1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 >
 >広告ネットワーク上の実際のアカウントを編集するには、広告ネットワークの web サイトにアクセスします。
 
-1. メインメニューで、「\>」 **[!UICONTROL Search, Social, & Commerce]** 「\>」 **[!UICONTROL Campaigns]** 「\>」をクリッ **[!UICONTROL Campaigns]** します。 サブメニューで、[\> **[!UICONTROL Live]**]**[!UICONTROL Accounts]** クリックします。
+1. メインメニューで、「\>」 **[!UICONTROL Search, Social, & Commerce]** 「\>」 **[!UICONTROL Campaigns]** 「\>」をクリッ **[!UICONTROL Campaigns]** します。 サブメニューで、[\> **[!UICONTROL Live]**]&#x200B;**[!UICONTROL Accounts]** クリックします。
 
 1. カーソルをアカウント名の上に置き、「![ その他 ](/help/search-social-commerce/assets/more-filters.png " 詳細 ")」をクリックして「**[!UICONTROL Edit]**」を選択します。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 1. （同じブラウザーアプリケーションで、同じ広告ネットワークの別のアカウントにログインしている場合）広告主以外のアカウントからログアウトします。
 
-1. メインメニューで、「\>」 **[!UICONTROL Search, Social, & Commerce]** 「\>」 **[!UICONTROL Campaigns]** 「\>」をクリッ **[!UICONTROL Campaigns]** します。 サブメニューで、[\> **[!UICONTROL Live]**]**[!UICONTROL Accounts]** クリックします。
+1. メインメニューで、「\>」 **[!UICONTROL Search, Social, & Commerce]** 「\>」 **[!UICONTROL Campaigns]** 「\>」をクリッ **[!UICONTROL Campaigns]** します。 サブメニューで、[\> **[!UICONTROL Live]**]&#x200B;**[!UICONTROL Accounts]** クリックします。
 
 1. カーソルをアカウント名の上に置き、「![ その他 ](/help/search-social-commerce/assets/more-filters.png " 詳細 ")」をクリックして「**[!UICONTROL Edit]**」を選択します。
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 Ad Network アカウントを有効にすると、検索、ソーシャル、Commerceは、キャンペーンデータをアカウントと同期し（サポートされている場合）、ポートフォリオ内のキャンペーンの自動入札やキャンペーン予算をプッシュします。Ad Network アカウントを無効にすると、検索、ソーシャル、Commerceはアカウントのすべてのアクティビティを停止します。 アカウントがアクティブだった間に収集されたデータは引き続き保存されますが、キャンペーン管理のビューとレポートには、アカウントが無効になっている期間のデータは含まれません。 後でアカウントを再度有効にして、アカウントを使用したアクティビティを再開できます。
 
-1. メインメニューで、「\>」 **[!UICONTROL Search, Social, & Commerce]** 「\>」 **[!UICONTROL Campaigns]** 「\>」をクリッ **[!UICONTROL Campaigns]** します。 サブメニューで、[\> **[!UICONTROL Live]**]**[!UICONTROL Accounts]** クリックします。
+1. メインメニューで、「\>」 **[!UICONTROL Search, Social, & Commerce]** 「\>」 **[!UICONTROL Campaigns]** 「\>」をクリッ **[!UICONTROL Campaigns]** します。 サブメニューで、[\> **[!UICONTROL Live]**]&#x200B;**[!UICONTROL Accounts]** クリックします。
 
 1. 次のいずれかの操作をおこないます。
 

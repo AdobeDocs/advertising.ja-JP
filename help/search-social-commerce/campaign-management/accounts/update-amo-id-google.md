@@ -34,7 +34,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >
 >アカウントの移行後、すべてのクリック、コスト、インプレッションのデータは変更後に正しくレポートされますが、移行前に発生したクリックスルーは引き続き古い AMO ID 形式に基づくコンバージョンデータに関連付けられます。
 
-1. メインメニューで、「\>」 **[!UICONTROL Search, Social, & Commerce]** 「\>」 **[!UICONTROL Campaigns]** 「\>」をクリッ **[!UICONTROL Campaigns]** します。 サブメニューで、[\> **[!UICONTROL Live]**]**[!UICONTROL Accounts]** クリックします。
+1. メインメニューで、「\>」 **[!UICONTROL Search, Social, & Commerce]** 「\>」 **[!UICONTROL Campaigns]** 「\>」をクリッ **[!UICONTROL Campaigns]** します。 サブメニューで、[\> **[!UICONTROL Live]**]&#x200B;**[!UICONTROL Accounts]** クリックします。
 
 1. アカウント名の上にカーソルを置き、![ 矢印ドロップダウンアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png) をクリックして、「**[!UICONTROL Edit]**」を選択します。
 

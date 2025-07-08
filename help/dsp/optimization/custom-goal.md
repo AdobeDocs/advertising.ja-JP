@@ -31,7 +31,7 @@ ht-degree: 0%
 
 カスタム目標を作成するには、DSP アカウントが、[!DNL Search, Social, & Commerce] クライアント設定内から同じAdobe Experience Cloud組織 ID を持つ [!DNL Search, Social, & Commerce] アカウントにリンクされている必要があります。 DSP アカウントが [!DNL Search, Social, & Commerce] アカウントにリンクされていない場合は、Adobe アカウントチームにお問い合わせください。
 
-1. （北米のユーザー） [!DNL Advertising Search, Social, & Commerce][`https://enterprise-na.efrontier.com` または（その他すべてのユーザー） ](https://enterprise-na.efrontier.com)[`https://enterprise-intl.efrontier.com` で ](https://enterprise-intl.efrontier.com) にログインします。
+1. （北米のユーザー） [!DNL Advertising Search, Social, & Commerce][`https://enterprise-na.efrontier.com` または（その他すべてのユーザー） ](https://enterprise-na.efrontier.com) [`https://enterprise-intl.efrontier.com` で ](https://enterprise-intl.efrontier.com) にログインします。
 
 1. 目標に含める指標が追跡されていて、製品で使用でき、表示名を含んでいることを確認します。
 
