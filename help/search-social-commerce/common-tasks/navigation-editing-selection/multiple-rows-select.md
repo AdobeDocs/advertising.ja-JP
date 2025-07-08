@@ -10,9 +10,7 @@ ht-degree: 0%
 
 ---
 
-# 複数の行を選択
-i
-新しいユーザーインターフェイスでは、管理ビューとレガシー UI の [!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Search > Label Classifications]/[!UICONTROL Optimization]/[!UICONTROL Constraints] で複数の行を選択できます。
+# 複数の行を選択i新しいユーザーインターフェイスでは、管理ビューとレガシー UI の [!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Search > Label Classifications]/[!UICONTROL Optimization]/[!UICONTROL Constraints] で複数の行を選択できます。
 
 * ショートカットキー：
 
