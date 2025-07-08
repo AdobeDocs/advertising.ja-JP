@@ -3,7 +3,7 @@ title: デフォルトビューとカスタムビューの管理
 description: デフォルトビューとカスタムビューをカスタマイズする方法について説明します。
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 777bebb13e4de99f070e3ab6c38949caeb75ca08
+source-git-commit: ac434e2c9f049830b0fbe6941a268ca7def9b4bf
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### （従来の UI）キャンペーン管理ビューへのデフォルトまたはカスタムビューの適用
 
-* （既定のビュー） メイン メニューで、[\>]、[\>]、&lbrack;\>**[!UICONTROL Search, Social, & Commerce]** の **[!UICONTROL Campaigns]** 順にクリックし **[!UICONTROL Campaigns]** す。 サブメニューで、**[!UICONTROL Live]** \> **\[ 図形タイプ\]** をクリックします。
+* （既定のビュー） メイン メニューで、[\>]、[\>]、[\>**[!UICONTROL Search, Social, & Commerce]** の **[!UICONTROL Campaigns]** 順にクリックし **[!UICONTROL Campaigns]** す。 サブメニューで、**[!UICONTROL Live]** \> **\[ 図形タイプ\]** をクリックします。
 
 * （カスタムビュー）左側のナビゲーションパネルから：
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 1. 必要に応じて、任意のタブ（[!UICONTROL All Views]、[!UICONTROL Private]、[!UICONTROL Shared by Me]、[!UICONTROL From Others]）をクリックしてビューを検索します。
 
-1. ビューの名前の上にカーソルを置き、&lbrack; 編集 ![ をクリック ](/help/search-social-commerce/assets/edit-new.png) します。
+1. ビューの名前の上にカーソルを置き、[ 編集 ![ をクリック ](/help/search-social-commerce/assets/edit-new.png) します。
 
 1. [ カスタム ビュー設定 ](#view-settings-new-ui) を編集します。
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 
    1. 必要に応じて、任意のタブ（[!UICONTROL All Views]、[!UICONTROL Private]、[!UICONTROL Shared by Me]、[!UICONTROL From Others]）をクリックしてビューを検索します。
 
-   1. ビューの名前の上にカーソルを置き、![ 元に戻す ](/help/search-social-commerce/assets/revert-new.md) をクリックします。
+   1. ビューの名前の上にカーソルを置き、![ 元に戻す ](/help/search-social-commerce/assets/revert-new.jpg) をクリックします。
 
 * 従来のキャンペーン管理ビューから：
 
