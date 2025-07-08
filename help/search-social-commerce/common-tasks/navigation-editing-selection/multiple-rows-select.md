@@ -3,14 +3,16 @@ title: 複数の行を選択
 description: 複数の行を選択して、それらすべてに対して同じアクションを実行する方法を説明します。
 exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: 347d223d226ce3372e29e80c00a11df605318c9f
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
-# 複数の行を選択i新しいユーザーインターフェイスでは、管理ビューとレガシー UI の [!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Search > Label Classifications]/[!UICONTROL Optimization]/[!UICONTROL Constraints] で複数の行を選択できます。
+# 複数の行を選択
+
+新しいユーザーインターフェイスでは、管理ビューとレガシーユーザーインターフェイスの [!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Search > Label Classifications]/[!UICONTROL Optimization]/[!UICONTROL Constraints] で複数の行を選択できます。
 
 * ショートカットキー：
 
