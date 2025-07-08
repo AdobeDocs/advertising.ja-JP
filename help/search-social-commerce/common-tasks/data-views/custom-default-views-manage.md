@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## （レガシー UI）デフォルトビューまたはカスタムビューの適用
 
-* （既定のビュー） メイン メニューで、[\>]、[\>]、[\>**[!UICONTROL Search]** の **[!UICONTROL Campaigns]** 順にクリックし **[!UICONTROL Campaigns]** す。 サブメニューで、**[!UICONTROL Live]** \> **\[ 図形タイプ\]** をクリックします。
+* （既定のビュー） メイン メニューで、[\>]、[\>]、&lbrack;\>**[!UICONTROL Search]** の **[!UICONTROL Campaigns]** 順にクリックし **[!UICONTROL Campaigns]** す。 サブメニューで、**[!UICONTROL Live]** \> **\[ 図形タイプ\]** をクリックします。
 
 * （カスタムビュー）左側のナビゲーションパネルから：
 
