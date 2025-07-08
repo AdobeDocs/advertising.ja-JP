@@ -3,7 +3,7 @@ title: '[!UICONTROL Notification Center] Web アプリケーションをイン�
 description: '[!UICONTROL Notification Center] web アプリケーションをインストールおよびアンインストールする方法を説明します。'
 exl-id: e0a72907-3b5e-4678-b08b-95ed099f2dab
 feature: Search Notifications
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 ブラウザーのアプリケーションマネージャーからアプリケーションを無効またはアンインストールできます。 Web アプリケーションの管理の詳細については、ブラウザのヘルプを参照してください。
 
-## [!DNL Google Chrome] 用の [!UICONTROL Notification Center] web アプリケーションのインストール
+## [!UICONTROL Notification Center] 用の [!DNL Google Chrome] web アプリケーションのインストール
 
-1. メインメニューで、**[!UICONTROL Search]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。
 
 1. 右下の [![Notification Center Web App のインストール ](/help/search-social-commerce/assets/notifications-install-app.png "Notification Center Web App のインストール ")] をクリックします。
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 1. インストールアプリで、 メッセージが表示されたら、「**[!UICONTROL Install]**」をクリックします。
 
-## [!DNL Microsoft Edge] 用の [!UICONTROL Notification Center] web アプリケーションのインストール
+## [!UICONTROL Notification Center] 用の [!DNL Microsoft Edge] web アプリケーションのインストール
 
 * 検索、ソーシャル、Commerceから：
 
-   1. メインメニューで、**[!UICONTROL Search]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。
+   1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。
 
    1. 右下の [![Notification Center Web App のインストール ](/help/search-social-commerce/assets/notifications-install-app.png "Notification Center Web App のインストール ")] をクリックします。
 
@@ -50,11 +50,11 @@ ht-degree: 0%
 
    1. [!UICONTROL Install Notification Center] アプリのメッセージで、「**[!UICONTROL Install]**」をクリックします。
 
-## [!DNL Google Chrome] 用の [!UICONTROL Notification Center] web アプリケーションをアンインストールします
+## [!UICONTROL Notification Center] 用の [!DNL Google Chrome] web アプリケーションをアンインストールします
 
 * [!DNL Chrome] で `chrome://apps` に移動し、[**[!UICONTROL notification-center]**] を右クリックし、[**[!UICONTROL Remove from Chrome]**] をクリックします。
 
-## [!DNL Microsoft Edge] 用の [!UICONTROL Notification Center] web アプリケーションをアンインストールします
+## [!UICONTROL Notification Center] 用の [!DNL Microsoft Edge] web アプリケーションをアンインストールします
 
 1. [!DNL Edge] ブラウザーツールバーで、**...**/**[!UICONTROL Apps]**/**[!UICONTROL Manage apps]** をクリックします。 または、`edge://apps` に移動します。
 

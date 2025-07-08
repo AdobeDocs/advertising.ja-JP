@@ -3,7 +3,7 @@ title: デフォルトビューとカスタムビューの管理
 description: デフォルトビューとカスタムビューをカスタマイズする方法について説明します。
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '2917'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### （従来の UI）キャンペーン管理ビューへのデフォルトまたはカスタムビューの適用
 
-* （既定のビュー） メイン メニューで、[\>]、[\>]、&lbrack;\>**[!UICONTROL Search]** の **[!UICONTROL Campaigns]** 順にクリックし **[!UICONTROL Campaigns]** す。 サブメニューで、**[!UICONTROL Live]** \> **\[ 図形タイプ\]** をクリックします。
+* （既定のビュー） メイン メニューで、[\>]、[\>]、[\>**[!UICONTROL Search, Social, & Commerce]** の **[!UICONTROL Campaigns]** 順にクリックし **[!UICONTROL Campaigns]** す。 サブメニューで、**[!UICONTROL Live]** \> **\[ 図形タイプ\]** をクリックします。
 
 * （カスタムビュー）左側のナビゲーションパネルから：
 
@@ -52,6 +52,17 @@ ht-degree: 0%
 
 <!--
 ## (New UI) Create a custom view from management views
+
+*Available in the [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns], and [!UICONTROL Ad Groups] views*
+
+Custom views are specific to a single view (such as the [!UICONTROL Portfolios] view).
+
+1. Above the data table, click the name of the currently-applied view (![View](/help/search-social-commerce/assets/view.png "View")).
+
+2. Click **[!UICONTROL Create View]**.
+
+
+
 -->
 
 ## （従来の UI）キャンペーン管理ビューからのカスタムビューの作成

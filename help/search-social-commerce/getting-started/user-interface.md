@@ -3,7 +3,7 @@ title: ユーザーインターフェイスの編成方法
 description: 様々な機能へのアクセス場所について説明します。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: d38c71f1260b9656bb4362c56f4d9c76f4f3e442
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## メインメニュー
 
-* **[!UICONTROL Search]** – 検索、ソーシャル、Commerce内の広告ネットワークアカウントを管理します。これには、検索、ソーシャル、Commerceでトラッキングしているが入札していないアカウントも含まれます。
+* **[!UICONTROL Search, Social, & Commerce]** \> – 検索、ソーシャル、およびCommerce内の広告ネットワークアカウントを管理します。これには、検索、ソーシャル、およびCommerceでトラッキングされているが入札には参加していないアカウントも含まれます。
 
 ## [!UICONTROL Search] メニュー
 

@@ -3,7 +3,7 @@ title: アカウントの AMO ID （s_kwcid） トラッキングコード  [!DN
 description: アカウントの最新の AMO ID トラッキングコードに切り替える方法  [!DNL Google Ads]  説明します。
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: edb46265c6977a1e2c1b352f41fedcfc3a9e3bbf
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # [!DNL Google Ads] アカウントの AMO ID （s_kwcid） トラッキングコードの更新
 
-*Adobe AdvertisingとAdobe Analyticsの統合のみを行う広告主*
+*Adobe AdvertisingとAdobe Analyticsの統合のみを使用する広告主*
 
 *[!DNL Google Ads]アカウントのみ*
 
-既存の [!DNL Google Ads] アカウントの [AMO ID トラッキングコード ](/help/integrations/analytics/ids.md#amo-id-formats) の従来（2019 年 10 月以前）の形式では、Analytics の一部の機能がサポートされません。例えば、[!DNL Google Ads] Performance MAX キャンペーン、ドラフトおよび実験キャンペーンのキャンペーンレベルおよび広告グループレベルでのレポートや、複数のキャンペーンで同じ広告+キーワード+一致タイプの組み合わせが存在する他のユースケースなどです。
+既存の [ アカウントの ](/help/integrations/analytics/ids.md#amo-id-formats)AMO ID トラッキングコード [!DNL Google Ads] の従来（2019 年 10 月以前）の形式では、Analytics の一部の機能がサポートされません。例えば、[!DNL Google Ads] Performance MAX キャンペーン、ドラフトおよび実験キャンペーンのキャンペーンレベルおよび広告グループレベルでのレポートや、複数のキャンペーンで同じ広告+キーワード+一致タイプの組み合わせが存在する他のユースケースなどです。
 
 現在の形式には、キャンペーン ID と広告グループ ID のパラメーターが含まれます。
 
@@ -34,7 +34,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >
 >アカウントの移行後、すべてのクリック、コスト、インプレッションのデータは変更後に正しくレポートされますが、移行前に発生したクリックスルーは引き続き古い AMO ID 形式に基づくコンバージョンデータに関連付けられます。
 
-1. メインメニューで、「\>」 **[!UICONTROL Search]** 「\>」 **[!UICONTROL Campaigns]** 「\>」をクリッ **[!UICONTROL Campaigns]** します。 サブメニューで、[\> **[!UICONTROL Accounts]**]&#x200B;**[!UICONTROL Live]** クリックします。
+1. メインメニューで、「\>」 **[!UICONTROL Search, Social, & Commerce]** 「\>」 **[!UICONTROL Campaigns]** 「\>」をクリッ **[!UICONTROL Campaigns]** します。 サブメニューで、[\> **[!UICONTROL Live]**]**[!UICONTROL Accounts]** クリックします。
 
 1. アカウント名の上にカーソルを置き、![ 矢印ドロップダウンアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png) をクリックして、「**[!UICONTROL Edit]**」を選択します。
 
@@ -42,7 +42,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
 1. 移行を開始します。
 
-   1. [!UICONTROL Account Tracking] 設定の「**[!UICONTROL S_KWCID FORMAT]**」の横にある「**[!UICONTROL LEGACY S_KWCID FORMAT]**」をクリックします。
+   1. **[!UICONTROL S_KWCID FORMAT]** 設定の「[!UICONTROL Account Tracking]」の横にある「**[!UICONTROL LEGACY S_KWCID FORMAT]**」をクリックします。
 
    1. 「**[!UICONTROL Migrate to new s_kwcid format]**」をクリックします。
 
@@ -69,5 +69,5 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >[!MORELIKETHIS]
 >
 >* [ 広告ネットワークアカウントの管理 ](ad-network-account-manage.md)
->* [ 使用Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [ 概要  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ja){target="_blank"}
+>* [ 使用するAdobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [ 概要  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

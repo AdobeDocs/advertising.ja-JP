@@ -3,7 +3,7 @@ title: 通知設定の編集
 description: 通知の設定を編集する方法を説明します。
 exl-id: b60d3abe-10ec-4fc0-8c91-6b329a3e9ecc
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * ページの右上で、「![ 通知 ](/help/search-social-commerce/assets/notifications-panel.png " 通知 ")」をクリックして、[!UICONTROL Notifications] のパネルを開きます。 右上で、「![設定](/help/search-social-commerce/assets/settings-nc.png "設定")」をクリックします。
 
-   * メインメニューで、**[!UICONTROL Search]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。 左側のメニューで、![ 設定 ](/help/search-social-commerce/assets/settings-nc.png " 設定 ") をクリックします。
+   * メインメニューで、**[!UICONTROL Search, Social, & Commerce]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。 左側のメニューで、![ 設定 ](/help/search-social-commerce/assets/settings-nc.png " 設定 ") をクリックします。
 
 1. 任意の [ 通知カテゴリ ](notification-about.md) の設定を変更します。
 

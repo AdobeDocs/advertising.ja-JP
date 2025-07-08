@@ -3,7 +3,7 @@ title: '[!UICONTROL Change History] レポートを表示する'
 description: 広告主アカウントに対する最近の変更を表示する方法を説明します。
 exl-id: f8744da7-cc7a-49c1-aeac-1e601768f992
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 任意の列でデータを並べ替えたり、フィルタリングしたりできます。
 
-1. メインメニューで、**[!UICONTROL Search]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Change History]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Change History]** をクリックします。
 
 1. （オプション）次のいずれかの方法で、レポートに含めるデータを変更します。
 

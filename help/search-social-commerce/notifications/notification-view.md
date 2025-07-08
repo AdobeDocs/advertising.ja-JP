@@ -3,7 +3,7 @@ title: 通知の表示
 description: 通知を表示する様々な方法について説明します。
 exl-id: d449937a-02cf-4f4c-8171-da89c914c119
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta機能*
 
-アカウント認証エラー、トリガーされるカスタムアラートおよび生成される [!UICONTROL Advertising Insights] ールについて [ 通知を購読 ](notification-edit.md) している場合、[!UICONTROL Notifications] ントロールパネルまたは [!UICONTROL Notification Center] のいずれかで通知を表示できます。
+アカウント認証エラー、トリガーされるカスタムアラートおよび生成される [ ールについて ](notification-edit.md) 通知を購読 [!UICONTROL Advertising Insights] している場合、[!UICONTROL Notifications] ントロールパネルまたは [!UICONTROL Notification Center] のいずれかで通知を表示できます。
 
 ## [!UICONTROL Notifications] パネル内での通知の表示
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Notification Center] 内の通知の表示
 
-1. （検索、ソーシャル、Commerce内から）メインメニューで、**[!UICONTROL Search]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。
+1. （検索、ソーシャル、Commerce内から）メインメニューで、**[!UICONTROL Search, Social, & Commerce]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。
 
 1. （オプション）通知をタイプでフィルタリングするには、[*[!UICONTROL Notices]]、[[!UICONTROL Recommendations]]、[[!UICONTROL Warnings]]、または [[!UICONTROL Issues]*] をクリックします。
 

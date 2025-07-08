@@ -3,7 +3,7 @@ title: カスタム目標
 description: 最低 CPA または最高 ROAS 用に最適化されたパッケージで成功イベントを定義するカスタム目標について説明します。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # カスタム目標
 
-カスタム目標は、広告主がビジネス目標を達成するために必要な成功イベントを定義します。 最適化目標「[!UICONTROL Highest Return on Ad Spend (ROAS)"]」または「[!UICONTROL Lowest Cost per Acquisition (CPA)]」を使用する各パッケージには、全体的な最適化目標を達成するのに役立つカスタム目標を含める必要があります。 [!DNL Advertising Search, Social, & Commerce] でカスタム目標を *目標* として作成できます。 DSPの各目標の名前には、「ADSP_」というプレフィックスを付ける必要があります。
+カスタム目標は、広告主がビジネス目標を達成するために必要な成功イベントを定義します。 最適化目標「[!UICONTROL Highest Return on Ad Spend (ROAS)"]」または「[!UICONTROL Lowest Cost per Acquisition (CPA)]」を使用する各パッケージには、全体的な最適化目標を達成するのに役立つカスタム目標を含める必要があります。 *でカスタム目標を* 目標 [!DNL Advertising Search, Social, & Commerce] として作成できます。 DSPの各目標の名前には、「ADSP_」というプレフィックスを付ける必要があります。
 
 <!-- update image or omit it
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 カスタム目標を作成するには、DSP アカウントが、[!DNL Search, Social, & Commerce] クライアント設定内から同じAdobe Experience Cloud組織 ID を持つ [!DNL Search, Social, & Commerce] アカウントにリンクされている必要があります。 DSP アカウントが [!DNL Search, Social, & Commerce] アカウントにリンクされていない場合は、Adobe アカウントチームにお問い合わせください。
 
-1. （北米のユーザー） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) または（その他すべてのユーザー） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com) で [!DNL Advertising Search, Social, & Commerce] にログインします。
+1. （北米のユーザー） [!DNL Advertising Search, Social, & Commerce][`https://enterprise-na.efrontier.com` または（その他すべてのユーザー） ](https://enterprise-na.efrontier.com)[`https://enterprise-intl.efrontier.com` で ](https://enterprise-intl.efrontier.com) にログインします。
 
 1. 目標に含める指標が追跡されていて、製品で使用でき、表示名を含んでいることを確認します。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. カスタム目標を *目標* として作成します。
 
-   1. メインメニューで、**[!UICONTROL Search]**/**[!UICONTROL Optimization]/[!UICONTROL New Objectives Beta]** をクリックします。
+   1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]**/**[!UICONTROL Optimization]/[!UICONTROL New Objectives Beta]** をクリックします。
 
    1. ツールバーで、「![ 作成 ](/help/dsp/assets/create-search-ui.png " 作成 ")」をクリックします。
 
