@@ -3,9 +3,9 @@ title: カスタム指標の作成
 description: 標準指標から計算されるカスタム指標の設定方法を説明します。
 exl-id: a9ce503a-67ee-477e-8f79-31b4a9c6e51a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: f176238d1ce0852f2db401441828be6832ec49f7
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 1. データ テーブルの上で、次のいずれかの操作を行います。
 
-   * ![ ビューセレクター ](/help/search-social-commerce/assets/view.png " ビューセレクター ") \[ デフォルトビューまたはカスタムビューの名前\] をクリックして、ビュー設定を開きます。 例：![ビューの例](/help/search-social-commerce/assets/view-selector-example.png "ビューの例")
+   * 現在適用されているビューの名前をクリックします（![View](/help/search-social-commerce/assets/view.png "View")）。 編集可能なビューの名前の上にカーソルを置き、![編集](/help/search-social-commerce/assets/edit-new.png "編集") をクリックしてビュー設定を開きます。
+
+     作成したカスタム指標は、すべてのビューで使用できるようになります。
 
    * ![ カスタム列 ](/help/search-social-commerce/assets/custom-columns-new.png " カスタム列 ") をクリックして、列設定を開きます。
 
