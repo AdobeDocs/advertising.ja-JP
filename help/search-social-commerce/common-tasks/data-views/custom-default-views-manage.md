@@ -3,7 +3,7 @@ title: デフォルトビューとカスタムビューの管理
 description: デフォルトビューとカスタムビューをカスタマイズする方法について説明します。
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: c5faf88a5240a7ec05dab3f06d0c4e466fd17164
+source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### （従来の UI）キャンペーン管理ビューへのデフォルトまたはカスタムビューの適用
 
-* （既定のビュー） メイン メニューで、[\>]、[\>]、&lbrack;\>**[!UICONTROL Search, Social, & Commerce]** の **[!UICONTROL Campaigns]** 順にクリックし **[!UICONTROL Campaigns]** す。 サブメニューで、**[!UICONTROL Live]** \> **\[ 図形タイプ\]** をクリックします。
+* （既定のビュー） メイン メニューで、[\>]、[\>]、[\>**[!UICONTROL Search, Social, & Commerce]** の **[!UICONTROL Campaigns]** 順にクリックし **[!UICONTROL Campaigns]** す。 サブメニューで、**[!UICONTROL Live]** \> **\[ 図形タイプ\]** をクリックします。
 
 * （カスタムビュー）左側のナビゲーションパネルから：
 
@@ -88,7 +88,7 @@ ht-degree: 0%
    >
    >タブと適用される情報を識別するのに役立つ名前（「一時停止されたキャンペーン」や「上位 50 件の広告」など）を使用します。
 
-## デフォルトビューまたはカスタムビューの編集
+## デフォルトビューまたはカスタムビューの編集 {#view-edit}
 
 ### （新しい UI）デフォルトビューまたはカスタムビューの編集
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 1. 必要に応じて、任意のタブ（[!UICONTROL All Views]、[!UICONTROL Private]、[!UICONTROL Shared by Me]、[!UICONTROL From Others]）をクリックしてビューを検索します。
 
-1. ビューの名前の上にカーソルを置き、&lbrack; 編集 ![ をクリック ](/help/search-social-commerce/assets/edit-new.png) します。
+1. ビューの名前の上にカーソルを置き、[ 編集 ![ をクリック ](/help/search-social-commerce/assets/edit-new.png) します。
 
 1. [ カスタム ビュー設定 ](#view-settings-new-ui) を編集します。
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
    * 新しいカスタム ビューに設定を保存するには、[**[!UICONTROL Save As]**] をクリックします。 [!UICONTROL Enter New Custom View Name] ウィンドウで、新しいビューの名前を入力し、[**[!UICONTROL Save]**] をクリックします。
 
-## （新しい UI）デフォルトビューまたはカスタムビューのクローン
+## （新しい UI）デフォルトビューまたはカスタムビューのクローン {#view-clone}
 
 *[!UICONTROL Simulations]、[!UICONTROL Portfolios]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups] の各ビューで使用できます*
 
