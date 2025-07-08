@@ -3,9 +3,9 @@ title: ユーザーインターフェイスの編成方法
 description: 様々な機能へのアクセス場所について説明します。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d38c71f1260b9656bb4362c56f4d9c76f4f3e442
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Optimization]** – このメニューには、ビジネス目標の管理、ビジネス目標に基づくポートフォリオの管理、ポートフォリオのパフォーマンスの監視、ポートフォリオ間の [!UICONTROL Spend Recommendation Report] 合の生成、入札制約の管理、[!DNL Google Ads] コンバージョン値ルールの表示と管理（一部のユーザー）を行うオプションがあります。
 
-  これらの機能に関する別のドキュメントは、[!UICONTROL Help] ルプメニュー（[ ヘルプ ] メニュー &rbrack;(/help/search-social-commerce/assets/help-main-menu.png "[ ヘルプ ] メニュー !&lbrack;）から利用 ") きます。
+  これらの機能に関する別のドキュメントは、[!UICONTROL Help] ルプメニュー（[ ヘルプ ] メニュー ![[ ヘルプ ] メニュー ](/help/search-social-commerce/assets/help-main-menu.png "）から利用 ") きます。
 
 * **[!UICONTROL Insights & Reports]** – このメニューには、詳細なインサイトとレポートを生成するオプション、スプレッドシートフィードを使用してレポート作成を自動化するオプション、アラートを作成および監視するオプション、通知設定を設定するオプション、広告ネットワークのレコメンデーションを表示するオプション、広告主のアカウントに加えられた変更のログを表示するオプションが含まれています。
 
@@ -56,3 +56,4 @@ ht-degree: 0%
 >
 >* [ ログイン ](sign-in.md)
 >* [ ログアウト ](sign-out.md)
+>* [ 新しい UI とレガシー UI の切り替え ](ui-switch.md)
