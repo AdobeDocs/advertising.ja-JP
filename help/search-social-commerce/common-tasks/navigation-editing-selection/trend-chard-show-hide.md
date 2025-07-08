@@ -3,16 +3,18 @@ title: トレンドグラフの表示/非表示
 description: 一部のキャンペーン管理ビューで、データのトレンドグラフを表示または非表示にする方法を説明します。
 exl-id: fa58b123-648f-4a95-86f0-3c38fa89cb28
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
 # トレンドグラフの表示/非表示
 
-[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]-[!UICONTROL Keywords]、[!UICONTROL Ads] および [!UICONTROL Product Groups] ビューのデータのトレンド・グラフを表示できます。
+*従来のユーザーインターフェイスのみ*
+
+[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads] および [!UICONTROL Product Groups] の各ビューでは、データのトレンド・グラフを表示できます。
 
 デフォルトでは、指定した通貨を使用する勘定科目の選択した日付範囲でのクリック数とコストがグラフに表示されます。 必要に応じて、比較対象の指標を変更したり、（複数の通貨を持つアカウントがある場合に）データを含める通貨を変更したりできます。
 
