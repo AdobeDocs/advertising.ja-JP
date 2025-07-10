@@ -4,9 +4,9 @@ user-guide-title: Advertising Creative ガイド
 user-guide-description: Advertising Creativeの使用に必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Creative ガイド
 hide: true
-source-git-commit: 78865ed65255aa3c5f9167703877234595e8d1e7
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 + 概要 {#introduction}
    + [Adobe Advertising Creativeについて](/help/creative/introduction/creative-about.md)
    + [データビューのカスタマイズ](/help/creative/introduction/customize-data-views.md)
-   + [ 消費者プライバシーの支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [ 施策及び指針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [ 消費者プライバシーの支援 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [ 施策及び指針 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative ライブラリ {#creative-libraries}
    + [クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
    + [サポートされるクリエイティブのサイズ](/help/creative/creative-libraries/creative-sizes.md)
@@ -67,6 +67,7 @@ ht-degree: 0%
          + [ターゲティングを使用しないエクスペリエンスのクリエイティブの最適化とスケジュールのカスタマイズ](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
    + [エクスペリエンスのクローン](/help/creative/experiences/experience-clone.md)
    + [エクスペリエンスのプレビュー](/help/creative/experiences/experience-preview.md)
+   + [ビデオおよびエクスペリエンスタグのトランスコーディングオプションのカスタマイズ](/help/creative/experiences/experience-tag-video-transcoding.md)
    + [ライブエクスペリエンス用の広告エクスペリエンスタグの書き出しと実装](/help/creative/experiences/experience-tag-export.md)
    + [エクスペリエンスのデモ URL の共有](/help/creative/experiences/experience-share-demo-url.md)
    + [[!UICONTROL Experiences] ビューからのデータのダウンロード](/help/creative/experiences/experience-download-view.md)
@@ -78,4 +79,4 @@ ht-degree: 0%
 + [リターゲティングピクセル](/help/creative/pixels/retargeting-pixel-manage.md)
 + [URL を追跡するために使用可能なマクロ](/help/creative/creative-macros.md)
 + [ヘルプを表示](/help/creative/get-help.md)
-+ [Adobe Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target="_blank"}
++ [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

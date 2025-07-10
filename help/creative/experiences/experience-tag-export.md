@@ -3,9 +3,9 @@ title: ライブエクスペリエンス用の広告エクスペリエンスタ�
 description: 広告エクスペリエンスタグをエクスポートし、オプションでAdvertising DSP キャンペーンにアップロードする方法を説明します。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: f2bf245c13244cbcb76cead8b37f149b9b9bc24f
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,13 @@ Advertising DSPを使用する広告主は、オプションで、広告タイ�
 
    * カード表示で、エクスペリエンス名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Tag Manager]**」をクリックします。
 
-   * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします
+   * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします。
 
-1. 該当する広告タグの行の上にカーソルを置き、![ 広告タグの書き出し ](/help/creative/assets/export.png " 広告タグの書き出し ")**[!UICONTROL Export ad tags]** または&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]** のいずれかをクリックします。
+1. 該当する広告タグの行の上にカーソルを置き、![ 広告タグの書き出し ](/help/creative/assets/export.png " 広告タグの書き出し ")**[!UICONTROL Export ad tags]** または**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]** のいずれかをクリックします。
+
+>[!NOTE]
+>
+>標準のビデオ広告エクスペリエンスの場合は、[!UICONTROL Tag Status] 列に「[!UICONTROL Ready]」が表示されるまで待ちます。これは、エクスペリエンス内のすべてのビデオがトランスコードされたことを示します。 すべてのビデオクリエイティブは、DSPによって自動的にトランスコードされますが、任意のビデオ広告 experience タグに [ パブリッシャー固有のトランスコーディング ](experience-tag-video-transcoding.md) を適用することもできます。
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -81,7 +85,6 @@ Advertising DSPを使用する広告主は、オプションで、広告タイ�
 
       1. [!UICONTROL Create ads] ビューで、広告タグを確認し、広告を作成する各タグを選択して、[**[!UICONTROL Create]**] をクリックします。
 
-
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 
 <!-- Add this info, with descriptions:
@@ -99,3 +102,4 @@ Advertising DSPを使用する広告主は、オプションで、広告タイ�
 >* [ 該当するクリエイティブサイズの広告タグを手動で作成 ](experience-tag-create-manually.md)
 >* [ ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て ](experience-tag-assign-creatives.md)
 >* [ 広告タグの名前を変更 ](experience-tag-rename.md)
+>* [ ビデオ広告エクスペリエンスタグのトランスコーディングオプションのカスタマイズ ](experience-tag-video-transcoding.md)

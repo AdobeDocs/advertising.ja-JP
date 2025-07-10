@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: クロスエクスペリエンス [!UICONTROL Custom Creative Report] ークフローを生成する方法を説明します。
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: a6e8bd3d9c2f8a373a90460b9ee8780d1c0702c6
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >また、[!UICONTROL Reports] ビューから [ いつでもカスタムレポートを実行 ](/help/dsp/reports/report-run-now.md) することもできます。
+  >また、[ ビューから ](/help/dsp/reports/report-run-now.md) いつでもカスタムレポートを実行 [!UICONTROL Reports] することもできます。
 
 * *[!UICONTROL On]\&lt;Date\>:* 指定した完了日に、アカウントのタイムゾーンで 09:00 までにレポートを実行します。
 
@@ -186,7 +186,7 @@ ht-degree: 0%
 | 指標タイプ | サブタイプ | 列名 | 説明 |
 |-----------|-------|-----------|-----------|
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Size] | 公開済み広告のディメンション。 |
-| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Is Default] | 提供された広告がエクスペリエンスのデフォルトの画像広告だったかどうか。 |
+| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Is Default] | 提供された広告が、エクスペリエンスのデフォルトの画像広告であったかビデオ広告であったか。 |
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Rotation Type] | 広告が相対的な重み付けに従って回転されたか（*重み付け*）アルゴリズム的に回転されたか（*アルゴリズム*）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative ID] | クリエイティブ [!UICONTROL Creative] 割り当てられた ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative Name] | クリエイティブの名前。 |

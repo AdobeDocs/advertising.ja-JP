@@ -3,9 +3,9 @@ title: 該当するクリエイティブサイズの広告タグを手動で作�
 description: 特定のクリエイティブサイズの広告タグを作成する方法を説明します。
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 0%
 
    * カード表示で、エクスペリエンス名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Tag Manager]**」をクリックします。
 
-   * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします
+   * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします。
 
 1. 右上で、「**[!UICONTROL Create Tag]**」をクリックします。
 
 1. 一意の **[!UICONTROL Tag name]** を入力し、**[!UICONTROL Tag size]** を選択します。
 
-   エクスペリエンスのデフォルトの画像クリエイティブのサイズによって、使用可能なクリエイティブのサイズが決まります。
+   エクスペリエンスのデフォルトクリエイティブのサイズによって、使用可能なクリエイティブのサイズが決まります。
 
    同じクリエイティブサイズに対して複数のタグを作成できます。<!-- What are the implications? -->
 
@@ -41,10 +41,13 @@ ht-degree: 0%
 
    タグ行を展開すると、含まれているクリエイティブを確認できます。
 
+   ビデオ広告エクスペリエンスの場合、ビデオクリエイティブは、DSPによって VAST 2.0 タグとして自動的にトランスコードされるので、プレビューできます。 オプションで [ パブリッシャー固有のトランスコーディングを適用 ](experience-tag-video-transcoding.md) できます。
+
 >[!MORELIKETHIS]
 >
 >* [ ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て ](experience-tag-assign-creatives.md)
 >* [ ターゲット設定を行わないエクスペリエンス用のトラッキング URL のカスタマイズ ](experience-tracking-urls-no-targeting.md)
 >* [ ターゲティングを行わないエクスペリエンスのクリエイティブな最適化とスケジュールのカスタマイズ ](experience-optimization-scheduling-no-targeting.md)
+>* [ ビデオ広告エクスペリエンスタグのトランスコーディングオプションのカスタマイズ ](experience-tag-video-transcoding.md)
 >* [ ライブエクスペリエンス用の広告エクスペリエンスタグのエクスポートと実装 ](experience-tag-export.md)
 >* [ 広告タグの名前を変更 ](experience-tag-rename.md)

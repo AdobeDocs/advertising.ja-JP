@@ -3,9 +3,9 @@ title: クリエイティブバンドルへのクリエイティブの添付
 description: クリエイティブをクリエイティブバンドルに添付する方法を説明します。
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: add8f3507ca9b79cea862d097fb603c68eb09e3c
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
-標準クリエイティブを標準バンドルに、動的クリエイティブを動的バンドルに添付して、[ 広告エクスペリエンス ](/help/creative/experiences/experience-about.md) に追加できます。 各バンドルには、各\[creative size + language\] の組み合わせをそれぞれ 1 つだけ含めることができます。
+標準表示バンドルに標準表示クリエイティブを、標準ビデオバンドルに標準ビデオクリエイティブを、動的表示バンドルに動的表示クリエイティブを添付して、[ 広告エクスペリエンス ](/help/creative/experiences/experience-about.md) に追加できます。 各バンドルには、各\[creative size + language\] の組み合わせをそれぞれ 1 つだけ含めることができます。
 
 <!--
 You can also detach a creative from a bundle to remove the association between the two, so that the creative is no longer used for experiences that target the bundle. Detaching a creative from the bundle doesn't delete the creative from the Creatives tab in your creative library.

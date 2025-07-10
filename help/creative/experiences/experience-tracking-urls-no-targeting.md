@@ -3,9 +3,9 @@ title: ターゲティングを使用しないエクスペリエンス用のト�
 description: 決定ツリーターゲティングを使用せずに、エクスペリエンスで各クリエイティブのトラッキング URL をカスタマイズする方法を説明します。
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    * カード表示で、エクスペリエンス名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Tag Manager]**」をクリックします。
 
-   * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします
+   * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします。
 
 1. （広告サイズのタグが存在しない場合）該当するクリエイティブサイズのタグを作成します。
 
@@ -34,13 +34,13 @@ ht-degree: 0%
 
    1. 一意の **[!UICONTROL Tag name]** を入力し、**[!UICONTROL Tag size]** を選択します。
 
-      エクスペリエンスのデフォルトの画像クリエイティブのサイズによって、使用可能なサイズが決まります。
+      エクスペリエンスのデフォルトクリエイティブのサイズによって、使用可能なサイズが決まります。
 
    1. 「**[!UICONTROL Create]**」をクリックします。
 
 1. 該当する広告タグの行の上にカーソルを置き、![ トラッキング URL を編集 ](/help/creative/assets/edit-gray.png " トラッキング URL を編集 ")**[!UICONTROL Tracking URLs]** をクリックします。 <!-- For targeted experiences, this is "EDIT Tracking URLs" -->&lt;!— 2/2 現在、タグマネージャーにはリスト表示しかありませんが、カード表示はありません。>
 
-   「[!UICONTROL Click Tracking URLs]」、「[!UICONTROL Impression Tracking URLs]」および「[!UICONTROL Landing URLs]」タブには、割り当てられたバンドル内の該当するサイズのすべてのクリエイティブの名前が一覧表示されます。 エクスペリエンスのデフォルトの画像クリエイティブのサイズによって、使用可能なサイズが決まります。<!-- There's no distinct "Creative Sizes" setting. -->
+   「[!UICONTROL Click Tracking URLs]」、「[!UICONTROL Impression Tracking URLs]」および「[!UICONTROL Landing URLs]」タブには、割り当てられたバンドル内の該当するサイズのすべてのクリエイティブの名前が一覧表示されます。 エクスペリエンスのデフォルトクリエイティブのサイズによって、使用可能なサイズが決まります。<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. 「**[!UICONTROL Click Tracking URLs]**」、「**[!UICONTROL Impression Tracking URLs]**」、「**[!UICONTROL Landing URLs]**」の各タブで、必要に応じてクリエイティブごとに次の操作を行います。
 

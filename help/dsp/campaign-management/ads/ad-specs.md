@@ -3,9 +3,9 @@ title: 広告仕様
 description: 一般的な広告仕様とパブリッシャー固有の広告仕様を参照します。
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 10e85f9ec0b7b867828cc9ac154af6f4982c44d2
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 タグシートは、[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]、[!DNL Sizmek] から使用できます。 サポートされているベンダーの完全なリストについては、「[ 認定広告サービングパートナー ](certified-ad-servers.md)」を参照してください。
 
-### 高精細ビデオAssetsの要件（必須）
+### 高精細ビデオAssetsの要件
 
 **ビデオタグタイプ：** VPAID 2.0 JavaScriptまたは VAST （CTV）。 すべての VPAID 広告ユニットは、Interactive Advertising Bureau （IAB）によって定義されている [VPAID 2.0 仕様 ](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) に準拠している必要があります。
 
@@ -80,17 +80,17 @@ ht-degree: 0%
 
 ### サポートされているファイルタイプ
 
-**Image:** GIF、JPG/JPEG、PNG
+**画像：** GIF、JPG/JPEG、PNG
 
-**HTML5:** 画像ファイルの種類：GIF、JPG/JPEG、PNG、SVG
+**HTML5:** 画像ファイルタイプ：GIF、JPG/JPEG、PNG、SVG
 
-### 画像Assetsの要件（必須）
+### Image Assetsの要件
 
 ユニバーサルディスプレイがサポートされています。
 
-**推奨広告サイズ：** 120 x 60、160 x 600、180 x 150、300 x 50、300 x 100、300 x 1050、300 x 250、300 x 600、320 x 50、320 x 480、480 x 60、640 x480、88x31、728x90、970x250、970x90
+**推奨広告サイズ：** 120 x 60、160 x 600、180 x 150、300 x 50、300 x 100、300 x 1050、300 x 250、300 x 600、320 x 50、320 x 480、480 x 60、640x480、88x31、728x90、970x250、970x90
 
-**サポートされているサードパーティ広告サーバー：**&#x200B;[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid] および [!DNL Sizmek] のタグシートを使用できます。 サポートされているベンダーの完全なリストについては、「[ 認定広告サービングパートナー ](certified-ad-servers.md)」を参照してください。
+**サポートされているサードパーティ広告サーバー：**[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid] および [!DNL Sizmek] のタグシートを使用できます。 サポートされているベンダーの完全なリストについては、「[ 認定広告サービングパートナー ](certified-ad-servers.md)」を参照してください。
 
 ## オーディオ広告
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 タグシートは、[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]、[!DNL Sizmek] から使用できます。 サポートされているベンダーの完全なリストについては、「[ 認定広告サービングパートナー ](certified-ad-servers.md)」を参照してください。
 
-### Audio Assetsの要件（必須）
+### Audio Assetsの要件
 
 **ファイルタイプ：** MP3、OGG、AAC
 
@@ -156,27 +156,27 @@ ht-degree: 0%
 * **[!DNL iHeartRadio]:**
    * ファイルタイプ：JPEG、JPG、PNG、GIF、SWF、HTML
    * 最大ファイルサイズ : 2.2 MB
-   * Dimension: 300x250
+   * 寸法：300 x 250
 
 * **[!DNL Pandora]:**
    * ファイルタイプ：JPEG、GIF
    * 最大ファイル サイズ：100 KB
-   * Dimension: 300 x 250 （モバイルまたはデスクトップ）、または 500 x 500 （デスクトップ）
+   * 寸法：300 x 250 （モバイルまたはデスクトップ）、または 500 x 500 （デスクトップ）
 
 * **[!DNL SoundCloud]:**
    * ファイルタイプ：静的JPG、PNG
    * 最大ファイルサイズ：400 KB 未満
-   * Dimension: 1024 x 1024
+   * 寸法：1024 x 1024
 
 * **[!DNL Spotify]:**
    * ファイルタイプ：静的JPG、PNG
    * 最大ファイル サイズ：200 KB
-   * Dimension: 300x250
+   * 寸法：300 x 250
 
 * **[!DNL TuneIn]:**
    * ファイルタイプ：JPEG、JPG、PNG、GIF、HTML
    * 最大ファイルサイズ : 2 MB
-   * Dimension: 300x250
+   * 寸法：300 x 250
 
 ## ネイティブ ディスプレイ広告
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
 **解像度：** 最小 600 x 600 ピクセル、推奨最小 1200 x 627 ピクセル
 
-**ファイルタイプ：** JPEG（AD または AD のカバー画像）、GIF（シネモグラフ）
+**ファイルタイプ：** JPEG（動画広告または動画広告のカバー画像）、GIF（映画）
 
 **ファイルサイズ：** 1 MB 未満（画像にはテキストを含めない必要があります）
 
@@ -216,7 +216,7 @@ ht-degree: 0%
 
 **主催：** 最大 200 文字、推奨 30 文字
 
-**コールトゥアクション（MoPub のみ）:** 最大 15 文字
+**Call to action（MoPub のみ）:** 最大 15 文字
 
 >[!NOTE]
 >
@@ -234,7 +234,7 @@ ht-degree: 0%
 
 * サードパーティのクリック追跡ピクセル：URL に埋め込まれたランディングページにリダイレクトする必要があります（HTTP 302 リダイレクト）
 
-* 200 件以上の応答を持つデータ管理プラットフォーム（DMP）のクリックトラッカーはサポートされていません。
+* 200 件以上の回答を持つ Data Management Platform （DMP）のクリックトラッカーはサポートされていません。
 
 >[!MORELIKETHIS]
 >

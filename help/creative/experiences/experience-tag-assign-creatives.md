@@ -3,9 +3,9 @@ title: ターゲティングを使用しないエクスペリエンスの広告�
 description: 特定のクリエイティブサイズの広告タグにクリエイティブを割り当てる方法を説明します。
 feature: Creative Experiences
 exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
-source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    * カード表示で、エクスペリエンス名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Tag Manager]**」をクリックします。
 
-   * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします
+   * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします。
 
 1. 該当する広告タグの行の上にカーソルを置き、「**[!UICONTROL + Add Creatives]**」をクリックします。<!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -47,4 +47,5 @@ ht-degree: 0%
 >* [ 該当するクリエイティブサイズの広告タグを手動で作成 ](experience-tag-create-manually.md)
 >* [ クリエイティブのトラッキング URL をカスタマイズ ](experience-tracking-urls-no-targeting.md)。
 >* [ クリエイティブの最適化とクリエイティブのスケジュールのカスタマイズ ](experience-optimization-scheduling-no-targeting.md)
+>* [ ビデオ広告エクスペリエンスタグのトランスコーディングオプションのカスタマイズ ](experience-tag-video-transcoding.md)
 >* [ ライブエクスペリエンス用の広告エクスペリエンスタグのエクスポートと実装 ](experience-tag-export.md)

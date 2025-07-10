@@ -3,9 +3,9 @@ title: Advertising Creativeのエクスペリエンスについて
 description: パーソナライズされた広告エクスペリエンスを設定し、パフォーマンスに基づいて広告要素を最適化する方法を説明します。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 0392c4b152d554726fb4a31e1e31e204f116fca3
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *クローズドベータ版*
 
-[!DNL Advertising Creative 2.0] は、1 つのクリエイティブライブラリの広告に、2 つの異なる広告エクスペリエンス構造を提供します。
+各広告エクスペリエンスには、1 つの広告タイプ（標準表示、標準ビデオ、動的表示）を含めることができます。 [!DNL Advertising Creative 2.0] は、1 つのクリエイティブライブラリの広告に、2 つの異なる広告エクスペリエンス構造を提供します。
 
 * **意思決定ツリーターゲティングを使用したエクスペリエンス：** [!DNL Creative] では、意思決定ツリーモデルを使用して、カスタマージャーニー全体を通してパーソナライズされた広告エクスペリエンスを設定できます。 ターゲットオーディエンスに基づいて、すべての広告要素（画像、ヘッドライン、オファー、ランディングページ）をカスタマイズできます。
 
@@ -69,11 +69,11 @@ ht-degree: 0%
 
 次のパフォーマンスデータを使用できます。
 
-* [!UICONTROL Creative]/[!UICONTROL Experiences] ビューで「[!UICONTROL Metrics]」オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。
+* [!UICONTROL Metrics]/[!UICONTROL Creative] ビューで「[!UICONTROL Experiences]」オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。
 
   ![ 指標オプション ](/help/creative/assets/metrics-option.png " 指標オプション ")
 
-* [!UICONTROL Experiences] ビューから [ 任意のエクスペリエンスの詳細なパフォーマンスデータを表示 ](experience-performance-details.md) できます。
+* [ ビューから ](experience-performance-details.md) 任意のエクスペリエンスの詳細なパフォーマンスデータを表示 [!UICONTROL Experiences] できます。
 
 * エクスペリエンス全体のパフォーマンスを監視するには、[ カスタムCreativeレポート ](/help/creative/report-custom-creative.md) を作成します。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experiences] ビュー
 
-[!UICONTROL Experiences] ビューには、ターゲット設定されたエクスペリエンスとターゲット設定されていないエクスペリエンスがすべて表示されます。 エクスペリエンスの名前、ステータス、開始日と終了日、割り当てられたクリエイティブまたはクリエイティブバンドルの数とディメンション、エクスペリエンスに動的広告が含まれているかどうかがわかります。 [!UICONTROL Experiences] ビューで「[!UICONTROL Metrics]」オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。 カードモードの場合、&lt; および > ボタンを使用して、複数のクリエイティブでエクスペリエンスのクリエイティブをスクロールできます。
+[!UICONTROL Experiences] ビューには、ターゲット設定されたエクスペリエンスとターゲット設定されていないエクスペリエンスがすべて表示されます。 エクスペリエンスの名前、ステータス、開始日と終了日、割り当てられたクリエイティブまたはクリエイティブバンドルの数とディメンション、エクスペリエンスに動的広告が含まれているかどうかがわかります。 [!UICONTROL Metrics] ビューで「[!UICONTROL Experiences]」オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。 カードモードの場合、&lt; および > ボタンを使用して、複数のクリエイティブでエクスペリエンスのクリエイティブをスクロールできます。
 
 エクスペリエンスの作成と管理、広告エクスペリエンスタグの作成と名前変更、JavaScriptのタグと iframe 形式のタグの書き出しを行って、DSP に実装できます。 Advertising DSPを使用する広告主は、オプションで、広告タグをAdvertising DSP キャンペーンに直接アップロードできます。
 

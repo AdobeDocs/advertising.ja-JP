@@ -3,9 +3,9 @@ title: エクスペリエンスのトラッキング URL のカスタマイズ
 description: 意思決定ツリーターゲティングを使用したエクスペリエンスで各クリエイティブのトラッキング URL をカスタマイズする方法を説明します。
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. ターゲットノードの下にあるクリエイティブバンドルリーフ/フォルダーの上にカーソルを置き、**[!UICONTROL ...]**/**[!UICONTROL Edit Tracking URLs]** をクリックします。
 
-   「[!UICONTROL Click Tracking URLs]」、「[!UICONTROL Impression Tracking URLs]」および「[!UICONTROL Landing URLs]」タブには、割り当てられたバンドル内の該当するサイズのすべてのクリエイティブの名前が一覧表示されます。 エクスペリエンスのデフォルトの画像クリエイティブのサイズによって、使用可能なサイズが決まります。<!-- There's no distinct "Creative Sizes" setting. -->
+   「[!UICONTROL Click Tracking URLs]」、「[!UICONTROL Impression Tracking URLs]」および「[!UICONTROL Landing URLs]」タブには、割り当てられたバンドル内の該当するサイズのすべてのクリエイティブの名前が一覧表示されます。 エクスペリエンスのデフォルトクリエイティブのサイズによって、使用可能なサイズが決まります。<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. 「**[!UICONTROL Click Tracking URLs]**」、「**[!UICONTROL Impression Tracking URLs]**」、「**[!UICONTROL Landing URLs]**」の各タブで、必要に応じてクリエイティブごとに次の操作を行います。
 
