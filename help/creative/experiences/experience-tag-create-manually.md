@@ -3,9 +3,9 @@ title: 該当するクリエイティブサイズの広告タグを手動で作�
 description: 特定のクリエイティブサイズの広告タグを作成する方法を説明します。
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 *デシジョンツリーのターゲット設定を使用しないエクスペリエンスのみ*
 *クローズドベータ版*
 
-エクスペリエンスに使用するクリエイティブサイズごとに、1 つ以上の広告タグを作成できます。 後から [ クリエイティブを広告タグに割り当てる ](experience-tag-assign-creatives.md) ことができます。
+エクスペリエンスに使用するクリエイティブサイズまたはビデオ期間ごとに、言語ごとに 1 つ以上の広告タグを作成できます。 後から [ クリエイティブを広告タグに割り当てる ](experience-tag-assign-creatives.md) ことができます。
 
 >[!NOTE]
 >
->デシジョンツリーのターゲット設定を使用するエクスペリエンスの場合、[!DNL Creative] では、該当するクリエイティブサイズごとに 1 つのタグを自動的に作成します。
+>デシジョンツリーのターゲット設定を使用するエクスペリエンスの場合、[!DNL Creative] では、該当するクリエイティブサイズまたはビデオ時間ごとに、言語ごとに 1 つのタグを自動的に作成します。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 1. 右上で、「**[!UICONTROL Create Tag]**」をクリックします。
 
-1. 一意の **[!UICONTROL Tag name]** を入力し、**[!UICONTROL Tag size]** を選択します。
+1. 一意の **[!UICONTROL Tag name]** を入力し、**[!UICONTROL Tag size]** ージの（標準ディスプレイ広告）または **[!UICONTROL Duration]** ージの（標準ビデオ広告）を選択します。
 
-   エクスペリエンスのデフォルトクリエイティブのサイズによって、使用可能なクリエイティブのサイズが決まります。
+   エクスペリエンスのデフォルトのクリエイティブのサイズまたは時間によって、使用可能なクリエイティブのサイズやビデオの時間が決まります。
 
-   同じクリエイティブサイズに対して複数のタグを作成できます。<!-- What are the implications? -->
+   同じクリエイティブサイズまたは期間に対して複数のタグを作成できます。<!-- What are the implications? -->
 
 1. 「**[!UICONTROL Create]**」をクリックします。
 

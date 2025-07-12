@@ -3,9 +3,9 @@ title: クリエイティブライブラリについて
 description: 広告エクスペリエンスのクリエイティブの管理について説明します。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: ad51a42c1aa7e713b1a4a90261c635b574068d29
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ GIF、JPEG、JPG、PNG 形式の画像クリエイティブを含めることが
 
 #### ビデオクリエイティブ {#creative-video-specs}
 
-デバイスまたはネットワークからビデオクリエイティブをアップロードできます。 標準のビデオ広告エクスペリエンスごとに、エクスペリエンスに割り当てられたクリエイティブサイズごとにデフォルトのビデオクリエイティブが必要です。 すべてのビデオクリエイティブは、DSPによって VAST 2.0 タグとして自動的にトランスコードされるので、プレビューできます。 ま [!UICONTROL Tag Manager]、任意のビデオ広告エクスペリエンスタグに対して、オプションで [ パブリッシャー固有のトランスコーディングを適用 ](/help/creative/experiences/experience-tag-video-transcoding.md) できます。
+デバイスやネットワークから、web、モバイル、接続テレビ用のファーストパーティビデオクリエイティブをアップロードできます。 標準のビデオ広告エクスペリエンスごとに、エクスペリエンスに割り当てられたクリエイティブサイズごとにデフォルトのビデオクリエイティブが必要です。 すべてのビデオクリエイティブは、DSPによって VAST 2.0 タグとして自動的にトランスコードされるので、プレビューできます。 ま [!UICONTROL Tag Manager]、任意のビデオ広告エクスペリエンスタグに対して、オプションで [ パブリッシャー固有のトランスコーディングを適用 ](/help/creative/experiences/experience-tag-video-transcoding.md) できます。
 
 次のビデオクリエイティブの要件を参照してください。
 

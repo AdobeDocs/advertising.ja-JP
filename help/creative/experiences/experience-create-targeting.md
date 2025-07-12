@@ -3,9 +3,9 @@ title: デシジョンツリーのターゲット設定を使用したエクス�
 description: デシジョンツリーを使用してターゲット設定された広告エクスペリエンスを作成する方法を説明します。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 
       * デシジョンツリーの編集を続行するには、「**[!UICONTROL Continue Edit]**」をクリックします。
 
-エクスペリエンスがライブの場 [!DNL Creative]、該当するクリエイティブサイズごとに広告タグが自動的に作成されます。 その後 [ 広告タグを書き出して、DSPに実装する ](/help/creative/experiences/experience-tag-export.md) ことができます。
+エクスペリエンスがライブの場 [!DNL Creative]、該当するクリエイティブサイズまたはビデオ期間ごとに 1 つの広告タグが自動的に作成されます。 その後、[ 広告タグを書き出してDSPに実装する ](/help/creative/experiences/experience-tag-export.md) ことができます。
 
 ビデオ広告エクスペリエンスの場合、ビデオクリエイティブは、DSPによって VAST 2.0 タグとして自動的にトランスコードされるので、プレビューできます。 オプションで、任意のビデオ広告エクスペリエンスタグに [ パブリッシャー固有のトランスコーディングを適用 ](experience-tag-video-transcoding.md) できます。
 
