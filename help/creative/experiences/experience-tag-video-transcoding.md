@@ -3,7 +3,7 @@ title: ビデオおよびエクスペリエンスタグのトランスコーデ�
 description: ビデオ広告タグのトランスコーディングオプションをカスタマイズする方法について説明します。
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: 3d0d42d19c11276f13a4e003c382a2d2410ab037
+source-git-commit: b5d3a2d88eb49d975823dc7c4fe71cfa9ea3f231
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 1. 次のいずれかの操作を行います。
 
-* カード表示で、エクスペリエンス名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Tag Manager]**」をクリックします。
+   * カード表示で、エクスペリエンス名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Tag Manager]**」をクリックします。
 
-* テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします。
+   * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします。
 
 1. 該当する広告タグの行の上にカーソルを置き、[**[!UICONTROL More]**] をクリックしてから [**[!UICONTROL Video Settings]**] をクリックします。
 
