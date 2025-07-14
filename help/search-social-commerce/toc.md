@@ -4,7 +4,7 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: 9d92118fceb26d71a5909f66ae6e382616a5e098
+source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
 workflow-type: tm+mt
 source-wordcount: '1746'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [サポートされるインベントリ](/help/search-social-commerce/introduction/supported-inventory.md)
    + Adobe Experience Cloudとの統合 {#integrations}
       + [Adobe Experience Cloudのソリューションおよびサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising]  （リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja){target="_blank"}
-      + [Adobe Audience Managerとの統合（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ja){target="_blank"}
-   + [ 消費者プライバシーのサポート（リンク）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
-   + [ ポリシーとガイドライン（リンク）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=ja){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising]  （リンク） ](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Adobe Audience Managerとの統合（リンク） ](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [ 消費者プライバシーのサポート（リンク） ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [ ポリシーとガイドライン（リンク） ](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + はじめに {#getting-started}
    + [実装の概要](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [必要システム構成](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -81,7 +81,7 @@ ht-degree: 2%
             + [ [!DNL Yahoo! Japan Ads] のクリック追跡形式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [ [!DNL Yandex] のクリック追跡形式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [クリックトラッキング URL 用のオプションのトラッキングパラメーター](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertisingの Cookie （リンク）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ja){target="_blank"}
+      + [Adobe Advertisingの Cookie （リンク） ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [AMO ID （s_kwcid） トラッキングパラメーター](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + コンバージョントラッキング {#conversion-tracking}
       + [コンバージョントラッキングオプション](/help/search-social-commerce/tracking/conversion-tracking-about.md)
@@ -393,7 +393,7 @@ ht-degree: 2%
       + [トラッキング専用アカウントのトラフィックおよびコンバージョン指標  [!DNL Naver]  アップロード](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
       + [トラッキング専用アカウント  [!DNL Naver]  指標データ要件](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
    + [追加の在庫同期を有効にする](/help/search-social-commerce/tools/sync-inventory.md)
-   + [ [!DNL Microsoft Advertising] でキャンペーン  [!DNL Google Ads]  レプリケート](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
+   + [ [!DNL Google Ads]  でキャンペーン  [!DNL Microsoft Advertising] レプリケート](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
 + 管理 {#admin}
    + [役割について](/help/search-social-commerce/admin/role-about.md)
    + [ad network manager アカウントの資格情報の管理](/help/search-social-commerce/admin/manager-accounts.md)

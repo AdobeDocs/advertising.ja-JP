@@ -3,7 +3,7 @@ title: カスタムレポートに関する FAQ
 description: データの問題のトラブルシューティングなど、パフォーマンスレポートに関するよくある質問への回答を示します。
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: c0f8f8c2886ea821dd7705446a727054b66ad3bc
+source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ## 一般的な質問
 
 +++レポートデータが使用可能になる前にレポートの日付範囲が開始されるとどうなりますか？
-レポートが生成されますが、これにはデータを利用できる日付のデータのみが含まれます。 各レポート・タイプのデータを使用できるタイミングの詳細は、[ レポートに使用するデータ ](data-used-for-reports.md) を参照してください。
+レポートが生成されますが、これにはデータを利用できる日付のデータのみが含まれます。 各レポートタイプのデータを使用できるタイミングについて詳しくは、「[ レポートに使用するデータ ](data-used-for-reports.md)」を参照してください。
 +++
 
 +++クリック日ベースのレポートと取引日ベースのレポートの違いは何ですか？
@@ -37,9 +37,9 @@ ht-degree: 0%
 +++[!DNL Google Ads] しい広告拡張機能や製品リストから生じたコンバージョンを把握するにはどうすればよいですか？
 （広告自体ではなく） [!DNL Google Ads] しい広告拡張機能をクリックした場合や、[!UICONTROL Transaction Report] を生成して製品リストを表示した場合のコンバージョンを確認できます。 [!UICONTROL Link Type] 列の値は、クリックされたリンクのタイプとタイトルを示します。
 
-* 製品リストは、`pla:8525822` のように `pla:<product ID>` で表示されます。
+* 製品リストは、`pla:<product ID>` のように `pla:8525822` で表示されます。
 
-* サイトリンクは、`sl:See Current Offers` のように `sl:<Sitelink text>` として表示されます。
+* サイトリンクは、`sl:<Sitelink text>` のように `sl:See Current Offers` として表示されます。
 
   レポートに [!UICONTROL Tracking URL] の列を含めると、サイトリンクを識別することもできます。 サイトリンクの [!UICONTROL Tracking URL] には、属性 `&ev_ltx=sl:<link-name>` が含まれます。
 
@@ -54,15 +54,15 @@ ht-degree: 0%
 +++
 
 +++季節的または市場の変化により、レポートに非定型のデータが表示されます。 条件が変更されると、入札に影響しますか？
-最適化機能は、各入札単位の収益モデルを毎日構築して、トレンドを特定して即座に対応し、モデルには季節的なパフォーマンスの予測に役立つ長期的な履歴データが組み込まれています。 ポートフォリオの収益モデルの半減期設定でも <!-- add link to glossary? --> 最近の収益データの重み付けの度合いを決定します。 ベストプラクティスは、通常とは異なるパフォーマンスの期間では半減期を短縮し、売上高モデルを調整した後で半減期を延長することです。 半減期の調整が必要かどうかについて質問がある場合は、Adobeアカウントチームにお問い合わせください。
+最適化機能は、各入札単位の収益モデルを毎日構築して、トレンドを特定して即座に対応し、モデルには季節的なパフォーマンスの予測に役立つ長期的な履歴データが組み込まれています。 ポートフォリオの収益モデルの半減期設定でも <!-- add link to glossary? --> 最近の収益データの重み付けの度合いを決定します。 ベストプラクティスは、通常とは異なるパフォーマンスの期間では半減期を短縮し、売上高モデルを調整した後で半減期を延長することです。 半減期の調整が必要かどうかについて質問がある場合は、Adobe アカウントチームにお問い合わせください。
 
-期間のデータが将来の入札に影響を与えたくない場合は、それらの日付をモデルから除外するように選択できます。 日付を除外する場合は、Adobeアカウントチームにお問い合わせください。
+期間のデータが将来の入札に影響を与えたくない場合は、それらの日付をモデルから除外するように選択できます。 日付を除外する場合は、Adobe アカウントチームにお問い合わせください。
 +++
 
 +++[!UICONTROL Device] や [!UICONTROL Objective Name] など、特定のアカウントプロパティ指標に関するレポートを作成できますか？
 Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICONTROL Ad Group Report]、[!UICONTROL Ad Variation Report]、[!UICONTROL Keyword Report] および [!UICONTROL Product Group Report]）の場合、指標データは、レポートに含めるプロパティ列によって動的に集計されます。 必要に応じて、レポートのキー列を削除し、データを集計するプロパティ列のみを含めることができます。
 
-例えば、[!UICONTROL Ad Group] と  のデバイス列を含む [!UICONTROL Keyword Report] を生成した場合、デフォルトでは、レポートは広告グループとデバイスタイプに基づいて各キーワードの指標を集計します。 ただし、レポートを生成する前に [!UICONTROL Keyword] 列を削除すると、レポートでは、デバイスタイプ別に指定された広告グループの指標が動的に生成されます。
+例えば、[!UICONTROL Keyword Report] と [!UICONTROL Ad Group] のデバイス列を含む  を生成した場合、デフォルトでは、レポートは広告グループとデバイスタイプに基づいて各キーワードの指標を集計します。 ただし、レポートを生成する前に [!UICONTROL Keyword] 列を削除すると、レポートでは、デバイスタイプ別に指定された広告グループの指標が動的に生成されます。
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
 * ポートフォリオフィルター選択では、コンバージョンにつながる一部のイベントが除外されます。
 
-  ポートフォリオのサブセットをレポートする場合、コンバージョンがアトリビューションルールの 1 つに関連付けられたイベントを含むキャンペーンは含まれない場合があります。 たとえば、あるPortfolioが Keyword_1 から Keyword_1 をクリックし、Keyword_2 から Keyword_2 をクリックした後にPortfolioを戻すとします。 レポートで「[!UICONTROL First Event]」アトリビューションルールを使用する場合は、コンバージョンのPortfolio 1 をレポートに含める必要があります。 ただし、レポートで「最後のイベント」アトリビューションルールを使用する場合は、Portfolio_2 を含める必要があります。
+  ポートフォリオのサブセットをレポートする場合、コンバージョンがアトリビューションルールの 1 つに関連付けられたイベントを含むキャンペーンは含まれない場合があります。 例えば、ユーザーがPortfolio_1 から Keyword_1 をクリックし、Portfolio_2 から Keyword_2 をクリックした後にコンバージョンを行ったとします。 レポートで「[!UICONTROL First Event]」アトリビューションルールを使用する場合は、コンバージョンをレポートに含めるためにPortfolio_1 を含める必要があります。 ただし、レポートで「最終イベント」アトリビューションルールを使用する場合は、Portfolio_2 を含める必要があります。
 
 >[!TIP]
 >
@@ -92,15 +92,15 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 +++合計は正しいにもかかわらず、個々のデータフィールドが正しくありません。
 この問題は、指標の形式で整数を使用する場合に発生する可能性があります。
 
-* *数値（小数点以下の桁数* （データを整数として表示する）形式で [ カスタム指標 ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) を作成し、重み付けコンバージョンアトリビューションルール（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More] または [!UICONTROL Even Distribution]）を使用するビューやレポートに含めた場合、出力は小数ではなく整数で表示されます。 この場合、合計は正しいにもかかわらず、個々のデータ フィールドが正しくない可能性があります。 例えば、1 つの注文が 3 つのイベント間で均等に分割されている場合、3 つのイベントのそれぞれに 0.33 の注文ではなく 1 つの注文が関連付けられます。 この問題を解決するには、[ 指標の形式を変更 ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md) を *数値を小数点 2 に* に変更します。
+* [ 数値（小数点以下の桁数 ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) （データを整数として表示する）形式で *カスタム指標* を作成し、重み付けコンバージョンアトリビューションルール（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More] または [!UICONTROL Even Distribution]）を使用するビューやレポートに含めた場合、出力は小数ではなく整数で表示されます。 この場合、合計は正しいにもかかわらず、個々のデータ フィールドが正しくない可能性があります。 例えば、1 つの注文が 3 つのイベント間で均等に分割されている場合、3 つのイベントのそれぞれに 0.33 の注文ではなく 1 つの注文が関連付けられます。 この問題を解決するには、[ 指標の形式を変更 ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md) を *数値を小数点 2 に* に変更します。
 
 * 同様に、整数として送信される売上高指標がある場合も、同じ問題が発生します。 （売上高の形式は、データを送信するコンバージョンタグで制御されます）。 この問題を解決するには、[ カスタム指標を作成 ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) し、売上高指標のみを構成し、形式 *数値を 2 小数点に* し、元の指標ではなくビューやレポートに含めます。
 +++
 
 +++クリックまたは売上高データがない場合、今後の入札に影響を与えないようにするにはどうすればよいですか？
-クリックデータの問題は、検索、ソーシャル、Commerceが広告ネットワークと同期されていない場合に発生します。 Adobeアカウントチームに連絡して、アカウントを手動で同期してください。 1 日のクリックデータがない場合は、Adobeアカウントチームに依頼して、コストモデルからその日を除外します。
+クリックデータの問題は、検索、ソーシャル、Commerceが広告ネットワークと同期されていない場合に発生します。 アカウントを手動で同期するには、Adobe アカウントチームにお問い合わせください。 1 日のクリックデータがない場合は、Adobe アカウントチームに問い合わせて、コストモデルからその日を除外するように依頼します。
 
-売上高データの問題は、トラッキングまたはフィードファイルの問題が原因で発生する可能性があります。 Adobeアカウントチームに問い合わせて、問題を調査してください。 1 日の売上高データがない場合は、Adobeアカウントチームに依頼して、売上高モデルからその日を除外します。
+売上高データの問題は、トラッキングまたはフィードファイルの問題が原因で発生する可能性があります。 問題を調査するには、Adobe アカウントチームにお問い合わせください。 1 日中の売上高データがない場合は、Adobe アカウントチームに問い合わせて、売上高モデルからその日を除外するように依頼します。
 +++
 
 +++通貨データが誤った形式で表示される。
@@ -122,13 +122,13 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
 | 原因： | 検知・分析 | 解決策 |
 |---|---|---|
-| 広告アカウントからクリック データを取得するプロセスが失敗しました。 | この問題を検出するための体系的な方法はありませんが、広告アカウントが費用を費やしても、キャンペーンにコストやクリック情報が表示されないことに気付くかもしれません。 | Adobeアカウントチームにお問い合わせください。<br><br> データが 24 時間以上欠落している場合は、データが取得されるまで、それらの日付を原価予測から除外します。 Adobeアカウントチームは、この日付を除外することができます。 |
-| 広告主と広告ネットワークの間で請求の問題が発生すると、広告アカウントが消費されなくなります。 | この問題を系統的に検出する方法はありませんが、キャンペーンにコストやクリック情報が表示されないことに気付く場合があります。 | 請求の問題が原因で広告アカウントが支出できなかったことがわかっている場合は、それらの日付をコスト予測から除外します。 Adobeアカウントチームは、この日付を除外することができます。 |
+| 広告アカウントからクリック データを取得するプロセスが失敗しました。 | この問題を検出するための体系的な方法はありませんが、広告アカウントが費用を費やしても、キャンペーンにコストやクリック情報が表示されないことに気付くかもしれません。 | Adobe アカウントチームにお問い合わせください。<br><br> データが 24 時間以上欠落している場合は、データが取得されるまで、それらの日付を原価予測から除外します。 Adobe アカウントチームは、この日付を除外することができます。 |
+| 広告主と広告ネットワークの間で請求の問題が発生すると、広告アカウントが消費されなくなります。 | この問題を系統的に検出する方法はありませんが、キャンペーンにコストやクリック情報が表示されないことに気付く場合があります。 | 請求の問題が原因で広告アカウントが支出できなかったことがわかっている場合は、それらの日付をコスト予測から除外します。 Adobe アカウントチームは、この日付を除外することができます。 |
 
 +++
 
 +++パフォーマンスデータは、広告ネットワークエディターのデータとは異なります。
-広告ネットワークが以前のデータに更新を送信する場合（多くの場合、クリック詐欺を一部のクリックに関連付けたことが原因）、検索、ソーシャル、Commerceは、5% 以上の不一致があり、Adobeアカウントチームがリクエストを送信しない限り、データを更新しません。
+広告ネットワークが以前のデータに更新を送信する場合（多くの場合、クリック詐欺を一部のクリックに関連付けたことが原因）、検索、ソーシャル、Commerceは、5% 以上の不一致があり、Adobe アカウントチームがリクエストを送信しない限り、データを更新しません。
 
 また、日付範囲をまたいで集計されたインプレッションシェアデータを比較する場合、検索、ソーシャル、Commerceの各レポートの内容は、広告ネットワークレポートの内容と異なる場合があります。 この違いは、広告ネットワークの API がデータをレポートする方法に起因します。この API は、検索、ソーシャルおよびCommerceがデータを取り込むために使用します。 例えば、[!DNL Google Ads] データの場合は次のようになります。
 
@@ -155,7 +155,7 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
 +++レポートに売上高がありません。
 
-**Adobe Advertisingコンバージョンタグを使用する広告主**
+**Adobe Advertising コンバージョンタグを使用する広告主**
 
 *考えられる原因：*
 
@@ -169,11 +169,11 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
 *考えられる解決策または回避策：*
 
-1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、ユーザーまたはAdobeアカウントチームが [ コンバージョン指標をレポートで使用できるようにする ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) 必要があります。
+1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、ユーザーまたはAdobe アカウントチームが [ コンバージョン指標をレポートで使用できるようにする ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) 必要があります。
 
-1. 該当するすべての web ページに、正しいコンバージョントラッキングタグが実装されていることを確認します。 必要に応じて、該当する各コンバージョントラッキングタグのテストトランザクションを作成し、`transactionid` や詳細などのトランザクションの詳細を cookie から取得するようにAdobeアカウントチームに依頼してください（`trackingid`、`clickid` など）。
+1. 該当するすべての web ページに、正しいコンバージョントラッキングタグが実装されていることを確認します。 必要に応じて、該当する各コンバージョントラッキングタグのテストトランザクションを作成し、`transactionid` や詳細などのトランザクションの詳細を cookie から取得するようにAdobe アカウントチームに依頼します（`trackingid`、`clickid` など）。
 
-1. キーワードまたは広告を追加した状態でキャンペーンに対して「[!UICONTROL Auto Upload]」オプションが無効になっている場合は、検索、ソーシャル、Commerceの各クリックのリダイレクトトラッキングを含むトラッキングテンプレートまたは宛先 URL が生成されていることを確認します。 Adobeアカウントチームは、内部レポートを実行して、クリックトラッキング URL （トラッキングテンプレートまたはリンク先 URL）が見つからないか、正しくない形式かを確認できます。
+1. キーワードまたは広告を追加した状態でキャンペーンに対して「[!UICONTROL Auto Upload]」オプションが無効になっている場合は、検索、ソーシャル、Commerceの各クリックのリダイレクトトラッキングを含むトラッキングテンプレートまたは宛先 URL が生成されていることを確認します。 Adobe アカウントチームは、内部レポートを実行して、クリックトラッキング URL （トラッキングテンプレートまたはリンク先 URL）が見つからないか、正しくない形式かを確認できます。
 
    必要に応じて、正しい URL を含むバルクシートファイルを作成してトラッキングを生成し、「**トラッキング URL を生成**」オプションを使用してファイルを適切なアカウントに POST します。
 
@@ -197,7 +197,7 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
 *考えられる解決策または回避策：*
 
-1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、ユーザーまたはAdobeアカウントチームが [ コンバージョン指標をレポートで使用できるようにする ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) 必要があります。
+1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、ユーザーまたはAdobe アカウントチームが [ コンバージョン指標をレポートで使用できるようにする ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) 必要があります。
 
 1. [!UICONTROL Portfolio Report] を実行します。 空の場合は、[!UICONTROL Campaign Report] と [!UICONTROL Search Engine Report] を実行して、売上高がそれらのレポートに表示されるかどうかを確認します。 その場合、キャンペーンを適切なポートフォリオに割り当てることができない可能性があります。
 
@@ -211,12 +211,12 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 +++
 
 +++一部の高度なレポートには、広告主フィードから提供されるコンバージョンデータが含まれていません。
-[!UICONTROL Geo Distribution Report] および [!UICONTROL Domain Referral Report] は、Adobe Advertisingコンバージョントラッキングサービスを通じて取得したデータを使用し、サービスを使用する広告主に対してのみ生成できます。 レポートには、Adobe Advertisingコンバージョントラッキングシステムの外部で追跡されたコンバージョンデータは含まれていません。
+[!UICONTROL Geo Distribution Report] および [!UICONTROL Domain Referral Report] は、Adobe Advertising コンバージョントラッキングサービスを通じて取得したデータを使用し、サービスを使用する広告主に対してのみ生成できます。 レポートには、Adobe Advertising コンバージョントラッキングシステムの外部で追跡されたコンバージョンデータは含まれていません。
 +++
 
 +++売上高データは、広告主自身の売上高データとは異なります。
 
-**Adobe Advertisingコンバージョンタグを使用する広告主**
+**Adobe Advertising コンバージョンタグを使用する広告主**
 
 *考えられる原因：*
 
@@ -230,9 +230,9 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
 1. **[!UICONTROL Insights & Reports]/[!UICONTROL Reports]** に移動し、[!UICONTROL Transaction Report] を生成します。 検索、ソーシャル、Commerceが受信したトランザクションを広告主のデータと比較します。
 
-1. 一部のトランザクションに誤りがあるか、または欠落している場合は、関連するコンバージョントラッキングタグがすべての該当する web ページに実装され、Adobeアカウントチームから推奨されない限り編集されていないことを確認します。 Web サイトが最近更新された場合、タグが見つからないか、変更されている可能性があります。
+1. トランザクションの一部に誤りがあるか、または欠落している場合は、関連するコンバージョントラッキングタグがすべての適用可能な web ページに実装され、Adobe アカウントチームから推奨されない限り編集されていないことを確認します。 Web サイトが最近更新された場合、タグが見つからないか、変更されている可能性があります。
 
-   検索、ソーシャル、Commerceでは、`ef_transaction_properties` 変数内および `img` タグの `src` 要素内に、整形式の URL （名前と値のペアのパラメーターを含む）が必要です。
+   検索、ソーシャル、Commerceでは、`ef_transaction_properties` 変数内および `src` タグの `img` 要素内に、整形式の URL （名前と値のペアのパラメーターを含む）が必要です。
 
 1. 問題を特定して解決できない場合は、[ カスタマーケアにお問い合わせください ](/help/search-social-commerce/get-help.md)。
 
@@ -294,13 +294,13 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 +++
 
 +++売上高データがAdobe Analyticsのデータと異なる
-[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=ja](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=ja) を参照してください。<!-- change link URL to relative link -->
+[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html) を参照してください。<!-- change link URL to relative link -->
 +++
 
 ## 特定のレポート
 
 +++[!UICONTROL Portfolio Report] は [!UICONTROL Portfolios] ビューと同じ数値を表示しますか？
-ビューのフィルタ [!UICONTROL Portfolio Report]、レポート パラメータ、およびビューとレポートのデータ列がすべて同じ場合、ビューと [!UICONTROL Portfolios] ビューには同じデータが表示されます。 例えば、[!UICONTROL Portfolios] ビューに日付範囲「[!UICONTROL Last 7 days]」の「[!UICONTROL All but inactive]」であるポートフォリオが表示され、デフォルトのデータ列のみが表示されている場合、デフォルトのパラメーターを使用した [!UICONTROL Portfolio Report] ークフローには同一のデータが表示されます。 レポートビューでレポートパラメーターを変更したり、異なるフィルターを使用した場合、デ [!UICONTROL Portfolios] タ値が異なる可能性があります。
+ビューのフィルタ [!UICONTROL Portfolio Report]、レポート パラメータ、およびビューとレポートのデータ列がすべて同じ場合、ビューと [!UICONTROL Portfolios] ビューには同じデータが表示されます。 例えば、[!UICONTROL Portfolios] ビューに日付範囲「[!UICONTROL All but inactive]」の「[!UICONTROL Last 7 days]」であるポートフォリオが表示され、デフォルトのデータ列のみが表示されている場合、デフォルトのパラメーターを使用した [!UICONTROL Portfolio Report] ークフローには同一のデータが表示されます。 レポートビューでレポートパラメーターを変更したり、異なるフィルターを使用した場合、デ [!UICONTROL Portfolios] タ値が異なる可能性があります。
 +++
 
 +++[!UICONTROL Portfolio Report] のデータが [!UICONTROL Search Engine Report] または [!UICONTROL Search Engine Account Report] のデータと一致しません。
@@ -308,15 +308,15 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 +++
 
 +++[!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report] とポートフォリオレベルの [!UICONTROL Model Accuracy Report] との違いは何ですか？
-（エージェンシーアカウントマネージャー、Adobeアカウントマネージャー、管理者ユーザーのみ） [!UICONTROL Reports] > [!UICONTROL Model Accuracy] から使用できる [!UICONTROL Forecast Accuracy Report] は、複数のポートフォリオに対して実行でき、属性ルールを変更できる点を除き、ポートフォリオレベルの [!UICONTROL Model Accuracy Report] と同じデータを提供します。 カスタムパラメーターを使用してレポートを実行およびスケジュールしたり、スプレッドシートフィードの作成に使用したりすることもできます。 [!UICONTROL Forecast Accuracy Report] また、このレポートは、現在の目標ではなくポートフォリオの過去の目標を使用して収益の精度を評価し、該当するタイムゾーンのデータをより正確に表すので、従来のポートフォリオレベルのレポートよりも正確です。
+（エージェンシーアカウントマネージャー、Adobe アカウントマネージャー、管理者ユーザーのみ） [!UICONTROL Forecast Accuracy Report] > [!UICONTROL Reports] から使用できる [!UICONTROL Model Accuracy] は、複数のポートフォリオに対して実行でき、属性ルールを変更できる点を除き、ポートフォリオレベルの [!UICONTROL Model Accuracy Report] と同じデータを提供します。 カスタムパラメーターを使用してレポートを実行およびスケジュールしたり、スプレッドシートフィードの作成に使用したりすることもできます。 [!UICONTROL Forecast Accuracy Report] また、このレポートは、現在の目標ではなくポートフォリオの過去の目標を使用して収益の精度を評価し、該当するタイムゾーンのデータをより正確に表すので、従来のポートフォリオレベルのレポートよりも正確です。
 +++
 
 +++広告レベルのデータは、[!DNL Google Ads] 動的検索広告（DSA）、パフォーマンス最大化、スマートショッピングおよび [!DNL YouTube] キャンペーンでは使用できません。
 広告ネットワークは、これらのキャンペーンの個々の広告に売上高を関連付けるために必要な識別子を提供しません。 その結果、[!UICONTROL Ads] ビューまたは [!UICONTROL Ad Variation Report] ークフロー内のキャンペーンタイプでは、広告レベルのパフォーマンスデータを利用できません。 キャンペーンの広告レベルの合計データとキャンペーンの合計データの間に不一致が発生することを想定してください。
 +++
 
-+++[!UICONTROL Transaction Report] では、どのコンバージョン指標がデータフィードからのものか、またはAdobe Advertisingトラッキングピクセルによってトラッキングされているのかを知るにはどうすればよいですか？
-トランザクションレポートでは、カスタム列「[!UICONTROL Tracking URL]」を含めると、含まれたコンバージョン指標がAdobe Advertisingトラッキングピクセルでトラッキングされたかどうかを確認できます。 Adobe Advertisingトラッキングピクセルを使用したトラッキング URL は、「`http://pixel.everesttech.net`」で始まります。
++++[!UICONTROL Transaction Report] では、どのコンバージョン指標がデータフィードからのものか、またはAdobe Advertising トラッキングピクセルによってトラッキングされているのかを知るにはどうすればよいですか？
+トランザクションレポートでは、カスタム列「[!UICONTROL Tracking URL]」を含めると、含まれたコンバージョン指標がAdobe Advertising トラッキングピクセルでトラッキングされたかどうかを確認できます。 Adobe Advertising トラッキングピクセルを使用したトラッキング URL は、「`http://pixel.everesttech.net`」で始まります。
 +++
 
 +++[!UICONTROL Transaction Report] のデータが [!UICONTROL Keyword Report] のデータと一致しません。
