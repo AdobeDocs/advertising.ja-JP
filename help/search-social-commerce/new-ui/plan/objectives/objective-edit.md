@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Plan]/[!UICONTROL Objectives]** をクリックします。
 
-1. 目的の横にあるチェックボックスをオンにします。 データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")]**[!UICONTROL Edit]** をクリックします。
+1. 目的の横にあるチェックボックスをオンにします。 データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")]&#x200B;**[!UICONTROL Edit]** をクリックします。
 
 1. 目標設定のいずれかを変更します。
 
