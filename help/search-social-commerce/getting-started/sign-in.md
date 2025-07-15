@@ -22,7 +22,7 @@ ht-degree: 0%
 
 現在の検索、ソーシャル、Commerceの資格情報は 2025 年 7 月 21 日（PT）まで有効であり、変更に備えることができます。
 
-ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)」を参照してください。
+ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。
 
 ## 従来の検索、ソーシャル、Commerceからのログインページ
 
