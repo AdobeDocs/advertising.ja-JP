@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 使用可能なアクション
 
-* [ キャンペーンを既存または新規のポートフォリオに割り当て ](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)、および [ キャンペーンのポートフォリオからの割り当てを解除 ](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [ キャンペーンを既存または新規のポートフォリオに割り当て ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)、および [ キャンペーンのポートフォリオからの割り当てを解除 ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [キャンペーンに制約を割り当て、キャンペーンから制約の割り当てを解除する](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ポートフォリオへのキャンペーンの割り当て ](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [ ポートフォリオからのキャンペーンの削除 ](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [ ポートフォリオへのキャンペーンの割り当て ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [ ポートフォリオからのキャンペーンの削除 ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [ キャンペーンの制約割り当ての管理 ](campaign-constraint-assignments-manage.md)
 >* [[!UICONTROL Campaigns] 表示からのデータのダウンロード ](campaign-view-report.md)
