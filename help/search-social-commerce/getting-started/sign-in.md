@@ -3,7 +3,7 @@ title: ログイン
 description: ログイン方法を説明します。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 16bc95001d815f22ade46390d07e40fcc29e2fdb
+source-git-commit: 34da93ceb0004804a6c0106e31f6ce6c64ee1dec
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 * 24 時間ログインしたままにすることができます。
 
-現在の検索、ソーシャル、Commerceの資格情報は、2025 年 7 月 15 日（PT）まで有効であり、変更に備えることができます。
+現在の検索、ソーシャル、Commerceの資格情報は 2025 年 7 月 21 日（PT）まで有効であり、変更に備えることができます。
 
-ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。
+ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)」を参照してください。
 
 ## 従来の検索、ソーシャル、Commerceからのログインページ
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. [!DNL Adobe] ID を入力し、「**[!UICONTROL Continue]**」をクリックします。
 
-1. プロンプトが表示されたら、「個人用アカウント&#x200B;**または &#x200B;** 会社または学校用アカウント**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
+1. プロンプトが表示されたら、「個人用アカウント**または **会社または学校用アカウント**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
 
    新しいユーザーインターフェイスがデフォルトで開きます。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. [!DNL Adobe] ID を入力し、「**[!UICONTROL Continue]**..」をクリックします。
 
-1. プロンプトが表示されたら、「個人用アカウント&#x200B;**または &#x200B;** 会社または学校用アカウント**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
+1. プロンプトが表示されたら、「個人用アカウント**または **会社または学校用アカウント**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
 
 1. ホーム ページの [[!UICONTROL Quick Access]] セクションで、[**[!UICONTROL Advertising Search, Social, & Commerce]**] をクリックします。
 
