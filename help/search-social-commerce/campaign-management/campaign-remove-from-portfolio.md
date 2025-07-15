@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Portfolios]** をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")]**[!UICONTROL Edit]** をクリックします。
+1. データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")]&#x200B;**[!UICONTROL Edit]** をクリックします。
 
 1. ポートフォリオ設定で、「[!UICONTROL Assign Campaigns]」セクションに移動して、キャンペーンの割り当てを変更します。
 
