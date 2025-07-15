@@ -3,20 +3,21 @@ title: '[!UICONTROL Downloads] メニューからパフォーマンス データ
 description: キャンペーン管理ビューをダウンロードしたレポートファイルまたはバルクシートファイルを削除する方法について説明します。
 exl-id: cd1244da-ddb8-4ee1-8ebb-2df4e9924952
 feature: Search Common Tasks
-source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Downloads] メニューからパフォーマンス データ レポートまたはバルクシート ファイルを削除する
+# （従来の UI） [!UICONTROL Downloads] メニューからのパフォーマンスデータレポートまたはバルクシートファイルの削除
 
 *従来のユーザーインターフェイス*
 
 >[!NOTE]
 >
->バルクシート ファイルを削除 [!UICONTROL Downloads] ると、そのファイルはリストおよび [!UICONTROL Bulksheets] ビューから削除されます。
+>*バルクシート ファイルを削除 [!UICONTROL Downloads] ると、リストおよび [!UICONTROL Bulksheets] ビューからも削除されます。
+>* 「[[!UICONTROL Portfolios] view](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)」、「[[!UICONTROL Campaigns] view](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)」、「[[!UICONTROL Ad Groups] view](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)」からの新しいユーザーインターフェイスでのデータのダウンロードに関するヘルプも参照してください。
 
 1. メインメニューで、[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] をクリックし、任意のエンティティビューを開きます。
 
@@ -28,4 +29,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[ キャンペーン管理ビューからのデータのダウンロード ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ （従来の UI）キャンペーン管理ビューからのデータのダウンロード ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ （新しい UI） [!UICONTROL Portfolios] ビューからのデータビューレポートの管理 ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+>* [ （新しい UI） [!UICONTROL Campaigns] ビューからのデータビューレポートの管理 ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [ （新しい UI） [!UICONTROL Ad Groups] ビューからのデータビューレポートの管理 ](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

@@ -3,14 +3,14 @@ title: キャンペーン管理ビューからのデータのダウンロード
 description: ほとんどのキャンペーン管理ビューからデータをダウンロードする方法を説明します。
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
-# キャンペーン管理ビューからのデータのダウンロード
+# （従来の UI）キャンペーン管理ビューからのデータのダウンロード
 
 *従来のユーザーインターフェイス*
 
@@ -23,6 +23,10 @@ ht-degree: 0%
   複数のキャンペーンのデータを生成し、組み合わせたデータが 500,000 行を超える場合は、データが、必要に応じて `<bulksheet name>_1.txt`、`<bulksheet name>_2.txt` などの名前を持つ 2 つ以上のファイルに Campaign でさらに分割されます。
 
   [!UICONTROL Downloads] パネル内の各バルクシート ファイルも [!UICONTROL Bulksheets] ビューに一覧表示されます。 ファイルを作成すると、ファイルをダウンロードできるリンクが記載されたメール通知が届きます。コンパイルするデータの量によっては、通知に数分以上かかることがあります。 ただし、ファイルの生成に失敗した場合は、エラーファイルがバルクシート ビューに表示され、エラーファイルへのリンクが記載されたメール通知が届きます。 [!UICONTROL Download] のパネルまたは [!UICONTROL Bulksheets] のタブからバルクシート ファイルを削除すると、両方の場所からバルクシート ファイルが削除されます。
+
+>[!NOTE]
+>
+>「[[!UICONTROL Portfolios] view](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)」、「[[!UICONTROL Campaigns] view](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)」、「[[!UICONTROL Ad Groups] view](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)」からの新しいユーザーインターフェイスでのデータのダウンロードに関するヘルプも参照してください。
 
 1. （オプション）ファイルに含める行を個別に選択します。
 
@@ -42,4 +46,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[[!UICONTROL Downloads] メニューからパフォーマンス データ レポートまたはバルクシート ファイルを削除する ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [ （従来の UI） [!UICONTROL Downloads] メニューからパフォーマンスデータレポートまたはバルクシートファイルを削除 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [ （新しい UI） [!UICONTROL Portfolios] ビューからのデータビューレポートの管理 ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+>* [ （新しい UI） [!UICONTROL Campaigns] ビューからのデータビューレポートの管理 ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [ （新しい UI） [!UICONTROL Ad Groups] ビューからのデータビューレポートの管理 ](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

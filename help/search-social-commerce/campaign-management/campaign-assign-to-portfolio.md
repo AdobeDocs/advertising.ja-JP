@@ -3,9 +3,9 @@ title: ポートフォリオへのキャンペーンの割り当て
 description: 最適化のためにキャンペーンをポートフォリオに含める方法を説明します。
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: f1ad7c7535a7edece4eeecf7b2aac8b59f8eb6b9
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 キャンペーンを最適化されたポートフォリオに割り当てると、検索、ソーシャルおよびCommerceで、キャンペーンのキーワードおよび広告の入札、キャンペーン予算および入札戦略のターゲットを最適化できます。 キャンペーンをポートフォリオに割り当てるには、[!UICONTROL Campaigns] ビューでポートフォリオを作成するか、ポートフォリオの設定を編集します。
 
-すべてのキャンペーンタイプと広告ネットワークが最適化の対象となるわけではありません。ポートフォリオに含めることができる [ サポートされるキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md) のリストを参照してください。 また、検索、ソーシャル、Commerceからアクセスできる「ポートフォリオ」の最適化ガイドの章で「キャンペーン入札戦略別の適格なPortfolioのタイプ」を参照して、キャンペーン入札戦略ごとに最適化のサポートを確 <!-- verify convention for referencing Optimization Guide here --> します。
+すべてのキャンペーンタイプと広告ネットワークが最適化の対象となるわけではありません。ポートフォリオに含めることができる [ サポートされるキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md) のリストを参照してください。 さらに、[ 各キャンペーン入札戦略の最適化サポート ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy) を検証します。
 
 >[!NOTE]
 >
@@ -40,9 +40,11 @@ ht-degree: 0%
 
 1. ツールバーで、![ その他のアクション ](/help/search-social-commerce/assets/more-actions.png " その他のアクション ") **[!UICONTROL More Actions]** / ![割り当て](/help/search-social-commerce/assets/assign.png "割り当て") **[!UICONTROL Assign]** / **[!UICONTROL New Portfolio]** をクリックします。
 
-1. [!UICONTROL Create Portfolio] の画面で、ポートフォリオ設定を指定します <!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->。
+1. [!UICONTROL Create Portfolio] 画面で、ポートフォリオ設定を指定します。
 
    以前に選択したキャンペーンは、既にキャンペーンに割り当てられています。 オプションで、ポートフォリオのキャンペーンリストを編集できます。
+
+   ポートフォリオ設定について詳しくは、最適化ガイドを参照してください。このガイドは、検索、ソーシャル、Commerce内から利用できます。
 
 1. 「**[!UICONTROL Review and Save]**」をクリックします。
 
@@ -64,7 +66,7 @@ ht-degree: 0%
          >
          >ポートフォリオ内のすべてのキャンペーンは、同じ通貨を使用する必要があります。
 
-      1. データ テーブルの上にあるツールバーで ![[ その他 ")] をクリックし、次に ] (/help/search-social-commerce/assets/more.png "**[!UICONTROL Assign]>[!UICONTROL Portfolio]** をクリックします。
+      1. データ テーブルの上にあるツールバーで ![[ その他 ](/help/search-social-commerce/assets/more.png "] をクリックし、次に ")**[!UICONTROL Assign]>[!UICONTROL Portfolio]** をクリックします。
 
 1. ポートフォリオを選択します。
 
