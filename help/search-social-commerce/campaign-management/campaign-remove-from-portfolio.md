@@ -3,9 +3,9 @@ title: ポートフォリオからキャンペーンを削除
 description: ポートフォリオからキャンペーンを削除する方法を説明します。
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: a71f2daded3b7c32b8c30a4631eba8c2dbda3a17
+source-git-commit: 868e4090c164df353d4e510fb972b0ea1f1daa82
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,11 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Portfolios]** をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")]&#x200B;**[!UICONTROL Edit]** をクリックします。
+1. データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")]**[!UICONTROL Edit]** をクリックします。
 
-1. ポートフォリオ設定で <!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)--> 「[!UICONTROL Assign Campaigns]」セクションに移動して、キャンペーンの割り当てを変更します。
+1. ポートフォリオ設定で、「[!UICONTROL Assign Campaigns]」セクションに移動して、キャンペーンの割り当てを変更します。
+
+   ポートフォリオ設定について詳しくは、最適化ガイドを参照してください。このガイドは、検索、ソーシャル、Commerce内から利用できます。
 
 1. 「**[!UICONTROL Review and Save]**」をクリックします。
 
