@@ -3,9 +3,9 @@ title: クリエイティブのプレビュー
 description: クリエイティブのプレビューを開く方法を説明します。
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 5d1b39f2a0602d4492d468520a946d86ceae16ed
+source-git-commit: e70ea2b9fb0e8338d5a9e4680d79e9f3e436eef6
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,21 @@ ht-degree: 0%
 
    * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Preview]** をクリックします。
 
-1. （オプション）画面内の画像のサイズを変更するには、画像リストで **[!UICONTROL Zoom]** 像サイズの 10～100% の範囲でオプションを選択します。
+1. （使用可能な場合はオプション）画面内の画像のサイズを変更するには、画像リストで **[!UICONTROL Zoom]** 像サイズの 10～100% のオプションを選択します。
 
 1. （柔軟なHTML5 クリエイティブ、オプション）クリエイティブのフレーム間をスクロールするには、「**\&lt;** and **\>**」をクリックします。
 
-1. （オプション）クリエイティブのランディングページを開くには、クリエイティブをクリックします。
+1. （ビデオクリエイティブ。オプション）クリエイティブの下のコントロールを使用して、次のいずれかの操作をおこないます。
+
+   * ビデオを再生または停止します。
+
+   * サウンドをミュートまたはミュート解除します。
+
+   * ビデオをフルスクリーンモードで開き、フルスクリーンモードを終了します。
+
+   * [!UICONTROL More Options] から、ビデオをダウンロードしたり、再生速度を変更したり、ピクチャーインピクチャーに変更したりします。
+
+1. （オプション：ビデオクリエイティブ以外）クリエイティブのランディングページを開くには、クリエイティブをクリックします。
 
    <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
