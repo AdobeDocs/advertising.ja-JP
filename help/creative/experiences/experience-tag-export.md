@@ -3,9 +3,9 @@ title: ライブエクスペリエンス用の広告エクスペリエンスタ�
 description: 広告エクスペリエンスタグをエクスポートし、オプションでAdvertising DSP キャンペーンにアップロードする方法を説明します。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: 2b98f148a46213ab9dac20e14ba5a2db4e447b3a
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *クローズドベータ版*
 
-クリエイティブのサイズに応じた広告タグを [ ライブ ](experience-about.md#experience-statuses) エクスペリエンスで使用できるようになったら、JavaScriptおよび iframe 形式でタグを生成してコピーし、Advertising DSPまたは他の DSP に実装できます。 DSPのタグには、DSPに必要なすべてのマクロが含まれます。
+クリエイティブのサイズに応じた広告タグを [ ライブ ](experience-about.md#experience-statuses) エクスペリエンスで利用できるようになったら、JavaScript、iframe、ビデオ形式でタグを生成してコピーし、Advertising DSPまたは他の DSP に実装できます。 DSPのタグには、DSPに必要なすべてのマクロが含まれます。
 
 Advertising DSPを使用する広告主は、オプションで、広告タイプが「標準ディスプレイ」または「ユニバーサルビデオ」の広告として、タグをAdvertising DSP キャンペーンに直接アップロードできます。
 
@@ -33,7 +33,7 @@ Advertising DSPを使用する広告主は、オプションで、広告タイ�
 
    * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします。
 
-1. 該当する広告タグの行の上にカーソルを置き、![ 広告タグの書き出し ](/help/creative/assets/export.png " 広告タグの書き出し ")**[!UICONTROL Export ad tags]** または&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]** のいずれかをクリックします。
+1. 該当する広告タグの行の上にカーソルを置き、![ 広告タグの書き出し ](/help/creative/assets/export.png " 広告タグの書き出し ")**[!UICONTROL Export ad tags]** または**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]** のいずれかをクリックします。
 
 >[!NOTE]
 >
@@ -49,7 +49,11 @@ Advertising DSPを使用する広告主は、オプションで、広告タイ�
 
 1. 右上の「**[!UICONTROL Next]**」をクリックするか、左側のメニューの「**[!UICONTROL Generate ad tags]**」をクリックします。
 
-1. タグの種類を** *JavaScript<!-- sic -->* **または** *IFRAME* ** <!-- sic --> から選択します。
+1. タグタイプを選択します。
+
+   * （ビデオ以外のエクスペリエンス） ** *JavaScript<!-- sic -->* **または** *IFRAME* ** <!-- sic -->。
+
+   * （ビデオエクスペリエンス）***ビデオ***。
 
 1. [!UICONTROL Destinations] リストで、エクスペリエンスの広告を作成する場所を選択します。
 
