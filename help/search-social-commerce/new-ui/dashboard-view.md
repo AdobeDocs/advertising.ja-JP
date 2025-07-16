@@ -3,7 +3,8 @@ title: （新しい UI）パフォーマンスダッシュボードの表示
 description: パフォーマンスダッシュボードで使用できるデータについて説明します。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
+source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -13,8 +14,6 @@ ht-degree: 0%
 # （新しい UI）パフォーマンスダッシュボードの表示
 
 *Beta機能*
-
-<!-- See wiki pageId=3404513731 for more things that may be added -->
 
 カスタマイズ可能な [!UICONTROL Dashboard] を使用すると、すべてのポートフォリオのパフォーマンスを監視でき <!-- May later include other entity-level data --> 潜在的なパフォーマンスの問題を特定して調査および解決できます。 過去 90 日間の任意の期間の日別、週別または月別データを表示できます。
 
@@ -57,4 +56,3 @@ ht-degree: 0%
    * レポートされる指標（[!UICONTROL Cost] \[ デフォルトで選択\]、[!UICONTROL Clicks] または [!UICONTROL Objective Value]）を変更します。
 
    * [!UICONTROL Portfolios] ビューを開くには、グラフの右下にある **[!UICONTROL View More]** をクリックします。<!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
-
