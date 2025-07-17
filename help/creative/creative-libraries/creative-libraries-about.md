@@ -3,9 +3,9 @@ title: クリエイティブライブラリについて
 description: 広告エクスペリエンスのクリエイティブの管理について説明します。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 85f89ef480ee938c7dbac0f3a1d5b9a5db0bef8f
+source-git-commit: 056502f8c634ee62b750d7c4c188dc248b836a5a
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ GIF、JPEG、JPG、PNG 形式の画像クリエイティブを含めることが
 
 デバイスやネットワークから、web、モバイル、接続テレビ用のファーストパーティビデオクリエイティブをアップロードできます。 標準のビデオ広告エクスペリエンスごとに、エクスペリエンスに割り当てられたクリエイティブ期間ごとにデフォルトのビデオクリエイティブが必要です。 すべてのビデオクリエイティブは、DSPによって VAST 2.0 タグとして自動的にトランスコードされるので、プレビューできます。 ま [!UICONTROL Tag Manager]、任意のビデオ広告エクスペリエンスタグに対して、オプションで [ パブリッシャー固有のトランスコーディングを適用 ](/help/creative/experiences/experience-tag-video-transcoding.md) できます。
 
-次のビデオクリエイティブの要件を参照してください。
+次のビデオクリエイティブの要件を参照してください。 **注意：** ビデオエクスペリエンスをAdvertising DSPにアップロードする場合は、DSPの [ 高精細ビデオAssetsの要件 ](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) も参照してください。この要件は制限される場合があります。
 
 **ファイルタイプ：** .mov、.mp4、.webm
 
