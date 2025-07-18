@@ -2,9 +2,9 @@
 title: 新しいユーザーインターフェイスについて
 description: 新しいユーザーインターフェイスについて説明します。
 feature: Search Introduction
-source-git-commit: 982b7b93a392029859be13ae59fb4b0b2fa69a59
+source-git-commit: 97c7776ab7dfacbb7ac4fdc038f25d4ced5b54e4
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,4 @@ ht-degree: 0%
 >
 >* [ ユーザーインターフェイスの編成方法 ](/help/search-social-commerce/getting-started/user-interface.md)
 >* [ 新しいユーザーインターフェイスと従来のユーザーインターフェイスの切り替え ](/help/search-social-commerce/getting-started/ui-switch.md)
+>* カスタムおよびデフォルトのビューの管理、別の広告主のデータの表示、データフィルターの適用および新しいユーザーインターフェイスと従来のユーザーインターフェイスでのナビゲーションとデータ関連に関するタスクについては、「一般的なタスク」に関する章を参照してください
