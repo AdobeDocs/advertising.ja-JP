@@ -3,7 +3,7 @@ title: ユーザーインターフェイスの編成方法
 description: 様々な機能へのアクセス場所について説明します。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a9425f4ccf79778b6b113de9ab925f2bdcee81c9
+source-git-commit: 2d218c960cd74fdfa9c981540951d7305b7740c7
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Beta機能*
 
-![ ユーザーインターフェイス ](/help/search-social-commerce/assets/new-ui.png " ユーザーインターフェイス ")
+![ ユーザーインターフェイス ](/help/search-social-commerce/assets/ui-new.png " ユーザーインターフェイス ")
 
 各ページには、メインメニューと、その他のタスクおよび情報ベースのメニューが含まれます。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Objectives]** 新しい [!UICONTROL Objectives] ビューが開き、既存の目標をすべて表示したり、目標を作成、編集および削除できます。 目的の設定は、[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Optimization]/[!UICONTROL New Objectives Beta] の従来のユーザーインターフェイスでの設定と同じです。
 
-   * **[!UICONTROL Simulations]** 新しい [[!UICONTROL Simulations] ビューが開き ](/help/search-social-commerce/new-ui/optimization/plan/simulations/simulation-about.md) ユーザーが作成したカスタム シミュレーションおよび自動生成された週別シミュレーションをすべて表示したり、新しいカスタム シミュレーションを生成したり、既存のシミュレーションを再実行することができます。 「[!UICONTROL Spend Planner]」ボタンをクリックすると、[!UICONTROL Spend Recommendation]/[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Optimization] で従来の [!UICONTROL Spend Recommendation] ツールが開きます。
+   * **[!UICONTROL Simulations]** 新しい [[!UICONTROL Simulations] ビューが開き ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) ユーザーが作成したカスタム シミュレーションおよび自動生成された週別シミュレーションをすべて表示したり、新しいカスタム シミュレーションを生成したり、既存のシミュレーションを再実行することができます。 「[!UICONTROL Spend Planner]」ボタンをクリックすると、[!UICONTROL Spend Recommendation]/[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Optimization] で従来の [!UICONTROL Spend Recommendation] ツールが開きます。
 
 * **[!UICONTROL Manage]** サブメニュー：
 
