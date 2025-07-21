@@ -3,7 +3,7 @@ title: 新しいユーザーインターフェイスと従来のユーザーイ�
 description: 新しいユーザーインターフェイスと従来のユーザーインターフェイスを切り替える方法について説明します。
 feature: Search Introduction
 exl-id: 4dbdbaa1-6b06-42a2-86da-feb0183f3c9a
-source-git-commit: 70c4b5633aaec148c68d7da0ac8fe926706eb660
+source-git-commit: 30c47defdd82e759f0e9025bf111faf0ee7dd707
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -20,13 +20,7 @@ ht-degree: 0%
 
 ## レガシー UI から新しい UI への切り替え
 
-* 任意のページの上部にある「**[!UICONTROL Try the new UI Beta]**」をクリックします。
-
-<!-- CHANGING ICON/location/wording WITH GA :
-
-* In the upper right of any page, click **[!UICONTROL Switch to New UI]**.
-
- -->
+* 任意のページの上部にある「**[!UICONTROL Switch to New UI]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
