@@ -3,9 +3,10 @@ title: （新しい UI）目標の作成
 description: 目標の作成方法を説明します。
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 21516197-d005-4703-8735-c789107dc3c4
+source-git-commit: 51bfb0b54af6e770df809ccd799ef47b9b4669b9
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,9 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Plan]/[!UICONTROL Objectives]** をクリックします。
 
-1. 右上で、「![ 追加 ](/help/search-social-commerce/assets/add-new.png " 追加 ")」をクリックします。
+1. 右上で、「**[!UICONTROL Create Objective]**」または ![ 追加 ](/help/search-social-commerce/assets/add-new.png " 追加 ") をクリックします。
+
+   表示されるボタンは、ブラウザーの幅によって異なります。
 
 1. 目標設定を入力します。
 

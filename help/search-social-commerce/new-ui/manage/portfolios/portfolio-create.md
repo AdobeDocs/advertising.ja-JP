@@ -3,9 +3,10 @@ title: （新しい UI）ポートフォリオの作成
 description: ポートフォリオの作成方法を説明します。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: f7fe6138-8335-407a-88fd-f0ace27c93ee
+source-git-commit: 51bfb0b54af6e770df809ccd799ef47b9b4669b9
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,9 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Portfolios]** をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![ 追加 ](/help/search-social-commerce/assets/add-new.png " 追加 ")] をクリックします。
+1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Create Portfolio]**] または ![ 追加 ](/help/search-social-commerce/assets/add-new.png " 追加 ") をクリックします。
+
+   表示されるボタンは、ブラウザーの幅によって異なります。
 
 1. ポートフォリオ設定を指定します。
 
