@@ -3,9 +3,9 @@ title: DSPへのログイン
 description: DSPへのログイン方法を説明します。
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 143c7bfc38baca48abde323cbca7f582de234bc1
+source-git-commit: f81a6d9b9df17540e27681218483acc30b5724a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,15 @@ Adobe Advertising DSPは、ログイン認証のためにAdobe Identity Manageme
 
 1. 組織を選択します。
 
-   * プロンプトが表示されたら、「個人用アカウント&#x200B;**または &#x200B;** 会社または学校用アカウント** を選択します。
+   * プロンプトが表示されたら、「**[!UICONTROL Personal Account]」または「**[!UICONTROL Company or School Account]**」を選択します。
 
    * 複数の IMS 組織にアクセスできる場合は、正しい組織を選択します。
 
-ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。
+ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)」を参照してください。
 
 ### トラブルシューティング
 
-一般的なログインの問題については、「[Adobe アカウントのログインの問題の解決 ](https://helpx.adobe.com/jp/manage-account/kb/account-password-sign-help.linkfree.html)」も参照してください。
+一般的なログインの問題については、「[Adobe アカウントのログインの問題の解決 ](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)」も参照してください。
 
 #### 新しい [!DNL Adobe] IMS ログインを有効にするための前提条件はありますか？
 
