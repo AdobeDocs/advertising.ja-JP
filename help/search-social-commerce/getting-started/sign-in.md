@@ -3,9 +3,9 @@ title: ログイン
 description: ログイン方法を説明します。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 5f1e8009620277884664d0cb88265b317de93393
+source-git-commit: 93c72a165a38639acbe24f2db04144dbdbc9a0d5
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 現在の検索、ソーシャル、Commerceの資格情報は 2025 年 7 月 21 日（PT）まで有効であり、変更に備えることができます。
 
-ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。
+ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)」を参照してください。
 
 ## 従来の検索、ソーシャル、Commerceからのログインページ
 
 ### 認証に従来の検索、ソーシャル、Commerceのログインを使用
 
-このオプションは 2025 年 7 月 15 日（PT）まで利用できます。
+このオプションは変更に備えるために短時間だけ使用できます。
 
 * [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) または [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) に移動し、従来の検索、ソーシャル、およびCommerceのユーザー名とパスワードを使用してログインします。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. [!DNL Adobe] ID を入力し、「**[!UICONTROL Continue]**」をクリックします。
 
-1. プロンプトが表示されたら、**[!UICONTROL Personal Account]」または &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
+1. プロンプトが表示されたら、**[!UICONTROL Personal Account]」または **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
 
    新しいユーザーインターフェイスがデフォルトで開きます。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. [!DNL Adobe] ID を入力し、「**[!UICONTROL Continue]**..」をクリックします。
 
-1. プロンプトが表示されたら、**[!UICONTROL Personal Account]」または &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
+1. プロンプトが表示されたら、**[!UICONTROL Personal Account]」または **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
 
 1. ホーム ページの [[!UICONTROL Quick Access]] セクションで、[**[!UICONTROL Advertising Search, Social, & Commerce]**] をクリックします。
 
