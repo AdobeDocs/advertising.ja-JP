@@ -42,7 +42,7 @@ Adobe Advertising DSPは、ログイン認証のためにAdobe Identity Manageme
 
 1. 組織を選択します。
 
-   * プロンプトが表示されたら、「**[!UICONTROL Personal Account]」または「**[!UICONTROL Company or School Account]**」を選択します。
+   * プロンプトが表示されたら、「**[!UICONTROL Personal Account]」または「**&#x200B;[!UICONTROL Company or School Account]**」を選択します。
 
    * 複数の IMS 組織にアクセスできる場合は、正しい組織を選択します。
 
