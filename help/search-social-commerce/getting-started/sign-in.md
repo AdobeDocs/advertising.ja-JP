@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. [!DNL Adobe] ID を入力し、「**[!UICONTROL Continue]**」をクリックします。
 
-1. プロンプトが表示されたら、**[!UICONTROL Personal Account]」または **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
+1. プロンプトが表示されたら、**[!UICONTROL Personal Account]」または &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
 
    新しいユーザーインターフェイスがデフォルトで開きます。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. [!DNL Adobe] ID を入力し、「**[!UICONTROL Continue]**..」をクリックします。
 
-1. プロンプトが表示されたら、**[!UICONTROL Personal Account]」または **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
+1. プロンプトが表示されたら、**[!UICONTROL Personal Account]」または &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
 
 1. ホーム ページの [[!UICONTROL Quick Access]] セクションで、[**[!UICONTROL Advertising Search, Social, & Commerce]**] をクリックします。
 
