@@ -3,16 +3,16 @@ title: ログイン
 description: ログイン方法を説明します。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 93c72a165a38639acbe24f2db04144dbdbc9a0d5
+source-git-commit: 450c66bf798ae98accc75d0233db061348e19a57
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
 # ログイン
 
-検索、ソーシャル、Commerceは、ログイン認証のためにAdobe Identity Management サービス（IMS）に移行されています。 IMS を使用すると、Real-Time Customer Data Platform、Customer Journey Analytics、Target、Analytics など、IMS をサポートするすべての [!DNL Adobe] 製品にシングルサインオン（SSO）でアクセスできます。 （変更に伴う）
+検索、ソーシャル、Commerceは、ログイン認証のためにAdobe Identity Management サービス（IMS）に移行されています。 IMS は、Real-Time Customer Data Platform、Customer Journey Analytics、Target、Analytics など、IMS をサポートするすべての [!DNL Adobe] 製品に対して、Federated ID を使用したシングルサインオン（SSO）アクセスを提供します。 （変更に伴う）
 
 * 1 つの [!DNL Adobe ID] を使用して、Experience Cloudのログインページまたは従来の検索、ソーシャル、Commerceのログインページから、[!DNL Adobe] つの製品間でログインできます。 [!DNL Adobe ID] は、ユーザープロファイル管理と、トップメニューから別の [!DNL Adobe] 製品に切り替える機能を提供します。 今後のリリースでは、トップメニューから検索、ソーシャル、Commerceのアカウントおよび IMS 組織のアカウントを変更できるようになります。
 
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 * 24 時間ログインしたままにすることができます。
 
-現在の検索、ソーシャル、Commerceの資格情報は 2025 年 7 月 21 日（PT）まで有効であり、変更に備えることができます。
+現在の検索、ソーシャルおよびCommerceの資格情報は、変更に備えるために短時間引き続きアクティブになります。
 
-ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。
+ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)」を参照してください。
 
 ## 従来の検索、ソーシャル、Commerceからのログインページ
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. [!DNL Adobe] ID を入力し、「**[!UICONTROL Continue]**」をクリックします。
 
-1. プロンプトが表示されたら、**[!UICONTROL Personal Account]」または &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
+1. プロンプトが表示されたら、**[!UICONTROL Personal Account]」または **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
 
    新しいユーザーインターフェイスがデフォルトで開きます。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. [!DNL Adobe] ID を入力し、「**[!UICONTROL Continue]**..」をクリックします。
 
-1. プロンプトが表示されたら、**[!UICONTROL Personal Account]」または &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
+1. プロンプトが表示されたら、**[!UICONTROL Personal Account]」または **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
 
 1. ホーム ページの [[!UICONTROL Quick Access]] セクションで、[**[!UICONTROL Advertising Search, Social, & Commerce]**] をクリックします。
 

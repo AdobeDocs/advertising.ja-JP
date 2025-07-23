@@ -3,16 +3,16 @@ title: DSPへのログイン
 description: DSPへのログイン方法を説明します。
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 414bc93bc4a550f918742bd55d1078d36440063d
+source-git-commit: 62430015c5252cdd1418000d05e49a1c7869e09e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
 # Adobe Advertising DSPへのログイン
 
-Adobe Advertising DSPは、ログイン認証のためにAdobe Identity Management サービス（IMS）に移行しています。 IMS を使用すると、Real-Time Customer Data Platform、Customer Journey Analytics、Target、Analytics など、IMS をサポートするすべての [!DNL Adobe] 製品にシングルサインオン（SSO）でアクセスできます。 （変更に伴う）
+Adobe Advertising DSPは、ログイン認証のためにAdobe Identity Management サービス（IMS）に移行しています。 IMS は、Real-Time Customer Data Platform、Customer Journey Analytics、Target、Analytics など、IMS をサポートするすべての [!DNL Adobe] 製品に対して、Federated ID を使用したシングルサインオン（SSO）アクセスを提供します。 （変更に伴う）
 
 * 1 つの [!DNL Adobe ID] を使用して、Experience Cloudのログインページまたは従来のDSPのログインページから、[!DNL Adobe] つの製品間でログインできます。 [!DNL Adobe ID] はユーザープロファイル管理を提供します。 今後のリリースでは、トップメニューからDSP アカウント、IMS 組織アカウント、[!DNL Adobe] 商品を変更できるようになります。
 
@@ -42,15 +42,15 @@ Adobe Advertising DSPは、ログイン認証のためにAdobe Identity Manageme
 
 1. 組織を選択します。
 
-   * プロンプトが表示されたら、「**[!UICONTROL Personal Account]」または「**&#x200B;[!UICONTROL Company or School Account]**」を選択します。
+   * プロンプトが表示されたら、「**[!UICONTROL Personal Account]」または「**[!UICONTROL Company or School Account]**」を選択します。
 
    * 複数の IMS 組織にアクセスできる場合は、正しい組織を選択します。
 
-ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。
+ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)」を参照してください。
 
 ### トラブルシューティング
 
-一般的なログインの問題については、「[Adobe アカウントのログインの問題の解決 ](https://helpx.adobe.com/jp/manage-account/kb/account-password-sign-help.linkfree.html)」も参照してください。
+一般的なログインの問題については、「[Adobe アカウントのログインの問題の解決 ](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)」も参照してください。
 
 #### 新しい [!DNL Adobe] IMS ログインを有効にするための前提条件はありますか？
 
