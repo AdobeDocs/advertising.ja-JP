@@ -22,7 +22,7 @@ ht-degree: 0%
 
 現在の検索、ソーシャルおよびCommerceの資格情報は、変更に備えるために短時間引き続きアクティブになります。
 
-ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)」を参照してください。
+ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。
 
 ## 従来の検索、ソーシャル、Commerceからのログインページ
 
