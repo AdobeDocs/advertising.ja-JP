@@ -113,7 +113,7 @@ Admin Consoleには複数のタイプの管理者が用意されていますが�
 
 1. [Adobe Admin Consoleにログインし、検索、ソーシャル、Commerceに開きます ](#open-admin-console)。
 
-1. [ 製品管理者の追加 ](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) による製品およびユーザー管理の委任。
+1. [ 製品管理者の追加 ](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html#enterprise) による製品およびユーザー管理の委任。
 
 <!-- what else? -->
 
@@ -121,9 +121,9 @@ Admin Consoleには複数のタイプの管理者が用意されていますが�
 
 1. [Adobe Admin Consoleにログインし、検索、ソーシャル、Commerceに開きます ](#open-admin-console)。
 
-1. 必要に応じて、エンドユーザーを [ 個別に ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) または [ 一括で ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) 作成します。
+1. 必要に応じて、エンドユーザーを [ 個別に ](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html) または [ 一括で ](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html) 作成します。
 
-1. （オプション）各製品インスタンスに [ ユーザーグループ ](https://helpx.adobe.com/enterprise/using/user-groups.html) を作成し、各ユーザーグループにユーザーを割り当てます。
+1. （オプション）各製品インスタンスに [ ユーザーグループ ](https://helpx.adobe.com/jp/enterprise/using/user-groups.html) を作成し、各ユーザーグループにユーザーを割り当てます。
 
    インスタンスに多数のユーザーが存在する場合は、ユーザーグループを作成し、ユーザーが専門知識のレベルに基づいて適切なプロファイルに割り当てられるようにします。 （製品プロファイルにユーザーグループを割り当てるには、手順 4 を参照してください）。 業種、ユーザーアクセスのニーズ、ユーザーの入社日、またはその他の条件に基づいてユーザーグループを作成できます。
 
@@ -131,16 +131,16 @@ Admin Consoleには複数のタイプの管理者が用意されていますが�
    >
    >ユーザーグループ名は、ユーザーのグループに割り当てる権限を明確に伝える必要があります。 例えば、「読み取り専用」の権限を持つユーザーグループを作成する場合、「Acme_Uk_ReadOnly」や「Acme_ReadOnly」のように、ユーザーグループ名に「読み取り専用」を含めます。
 
-1. （オプション） [ カスタム製品プロファイルの作成 ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 定義済みの権限セットを使用します。
+1. （オプション） [ カスタム製品プロファイルの作成 ](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html) 定義済みの権限セットを使用します。
 
    既に利用可能な 4 つのデフォルトの製品プロファイルに加えて、カスタムプロファイルも使用できます。
 
    組織の各製品プロファイルには、一意の名前が必要です。 検索、ソーシャル、Commerceの複数のインスタンス（Acme_US や Acme_JP など）を使用している場合、1 つの製品プロファイル名を複数のインスタンスで重複することはできません。 **ベストプラクティス：** 「Simulations_Only_JP」などの命名規則 `<Name>_<Instance>,` を使用します。
 
-1. [ 各ユーザーまたはユーザーグループを、関連する製品プロファイルに ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 手動でまたは一括で割り当てます。
+1. [ 各ユーザーまたはユーザーグループを、関連する製品プロファイルに ](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html) 手動でまたは一括で割り当てます。
 
 ## 完全なユーザー管理ガイドおよびその他のリンク
 
-* Adobe Admin Consoleを使用したユーザー管理について詳しくは、[Adobeの概要を含む「&lbrace;0](https://helpx.adobe.com/enterprise/admin-guide.html)Admin Console Enterprise &amp; Teams 管理ガイド [」を参照してください。](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)
+* Adobe Admin Consoleを使用したユーザー管理について詳しくは、[Adobeの概要を含む「&lbrace;0](https://helpx.adobe.com/jp/enterprise/admin-guide.html)Admin Console Enterprise &amp; Teams 管理ガイド [」を参照してください。](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)
 
 * Admin Console: [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
