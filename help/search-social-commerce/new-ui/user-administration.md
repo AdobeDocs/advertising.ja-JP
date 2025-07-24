@@ -101,7 +101,7 @@ Admin Consoleには複数のタイプの管理者が用意されていますが�
 
    1. [!DNL Adobe] ID を入力し、「**[!UICONTROL Continue]**」をクリックします。
 
-   1. **[!UICONTROL Personal Account]&quot;または **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
+   1. **[!UICONTROL Personal Account]&quot;または &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
 
    1. 該当するExperience Cloud組織を選択します。
 
@@ -135,7 +135,7 @@ Admin Consoleには複数のタイプの管理者が用意されていますが�
 
    既に利用可能な 4 つのデフォルトの製品プロファイルに加えて、カスタムプロファイルも使用できます。
 
-   組織の各製品プロファイルには、一意の名前が必要です。 検索、ソーシャル、Commerceの複数のインスタンス（Acme_US や Acme_JP など）を使用している場合、1 つの製品プロファイル名を複数のインスタンスで重複することはできません。 **ベストプラクティス：** 命名規則を使用します&quot;<Name>_<Instance>,」など。
+   組織の各製品プロファイルには、一意の名前が必要です。 検索、ソーシャル、Commerceの複数のインスタンス（Acme_US や Acme_JP など）を使用している場合、1 つの製品プロファイル名を複数のインスタンスで重複することはできません。 **ベストプラクティス：** 命名規則を使用します&quot;&lt;Name>_&lt;Instance>,」など。
 
 1. [ 各ユーザーまたはユーザーグループを、関連する製品プロファイルに ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 手動でまたは一括で割り当てます。
 
