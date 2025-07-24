@@ -101,7 +101,7 @@ Admin Consoleには複数のタイプの管理者が用意されていますが�
 
    1. [!DNL Adobe] ID を入力し、「**[!UICONTROL Continue]**」をクリックします。
 
-   1. **[!UICONTROL Personal Account]&quot;または **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
+   1. **[!UICONTROL Personal Account]&quot;または &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> を選択します。
 
    1. 該当するExperience Cloud組織を選択します。
 
@@ -141,6 +141,6 @@ Admin Consoleには複数のタイプの管理者が用意されていますが�
 
 ## 完全なユーザー管理ガイドおよびその他のリンク
 
-* Adobe Admin Consoleを使用したユーザー管理について詳しくは、[Adobeの概要を含む「{0](https://helpx.adobe.com/enterprise/admin-guide.html)Admin Console Enterprise &amp; Teams 管理ガイド [」を参照してください。](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)
+* Adobe Admin Consoleを使用したユーザー管理について詳しくは、[Adobeの概要を含む「&lbrace;0](https://helpx.adobe.com/enterprise/admin-guide.html)Admin Console Enterprise &amp; Teams 管理ガイド [」を参照してください。](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)
 
 * Admin Console: [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
