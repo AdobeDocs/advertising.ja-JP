@@ -3,7 +3,7 @@ title: ライブエクスペリエンス用の広告エクスペリエンスタ�
 description: 広告エクスペリエンスタグをエクスポートし、オプションでAdvertising DSP キャンペーンにアップロードする方法を説明します。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: 1ce04f4bfa0707d9bcc1f6601dadbdab682ad95d
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Advertising DSPを使用する広告主は、オプションで、広告タイ�
 
    * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします。
 
-1. 該当する広告タグの行の上にカーソルを置き、![ 広告タグの書き出し ](/help/creative/assets/export.png " 広告タグの書き出し ")**[!UICONTROL Export ad tags]** または&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]** のいずれかをクリックします。
+1. 該当する広告タグの行の上にカーソルを置き、![ 広告タグの書き出し ](/help/creative/assets/export.png " 広告タグの書き出し ")**[!UICONTROL Export ad tags]** または**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]** のいずれかをクリックします。
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Advertising DSPを使用する広告主は、オプションで、広告タイ�
 
 1. タグタイプを選択します。
 
-   * （ビデオ以外のエクスペリエンス） ** *JavaScript<!-- sic -->* **または** *IFRAME* ** <!-- sic -->。
+   * （ビデオ以外のエクスペリエンス） ** *JavaScript* **または** *Iframe* **。
 
    * （ビデオエクスペリエンス）***ビデオ***。
 
