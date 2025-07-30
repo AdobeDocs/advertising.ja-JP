@@ -3,9 +3,9 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 1478e61ebd7dac59cac7566b86e5b1ea97838508
+source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
 workflow-type: tm+mt
-source-wordcount: '4477'
+source-wordcount: '4560'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,16 @@ ht-degree: 0%
    * *[!UICONTROL Minimum Budget]*：最小予算（パッケージ予算に対する比率）。 インターバル キャップを指定すると、最小の予算値は常にインターバル キャップのパーセンテージとして計算されます。 それ以外の場合は、パッケージ予算のパーセンテージとして計算されます。
 
 **[!UICONTROL Max Bid]:** 1000 件のインプレッションに対して支払う最大値。
+
+**[!UICONTROL Min Bid]:** （プライベートおよび [!DNL On-Demand] 間取引のみ）在庫タイプに基づく最小入札額。 オプションを選択します。
+
+* *[!UICONTROL None]*：在庫タイプの最小入札がありません。 計算された入札がターゲットの取引の固定/フロア価格より低い場合、DSPは入札を行いません。 これはスケールに影響を与える可能性があります。
+
+* *[!UICONTROL Fixed/floor price for Private deals only]*:DSPは、アルゴリズムで計算された入札額が少ない場合でも、ターゲットとするプライベート取引の少なくとも固定/フロア価格を入札します。 これは、パフォーマンスに影響を与える可能性があります。
+
+* *[!UICONTROL Fixed/floor price for On-demand deals only]*:DSPは、アルゴリズムで計算された入札額が少ない場合でも、ターゲットとする [!DNL On-Demand] 取引の少なくとも固定/フロア価格を入札します。 これは、パフォーマンスに影響を与える可能性があります。
+
+* *[!UICONTROL Fixed/floor price for both Private and On-demand deals]*:DSPは、アルゴリズムで計算された入札額が少ない場合でも、ターゲットとなるプライベート取引と [!DNL On-Demand] 取引の少なくとも固定/フロア価格を入札します。 これは、パフォーマンスに影響を与える可能性があります。
 
 **[!UICONTROL Placement Pre-bid Filters]:** 入札を行うために満たす必要がある最大 5 つの KPI しきい値（最小視聴可能指標またはクリックスルー率など）です。 事前入札フィルターは最適化戦術として使用できますが、各ルールによってこのプレースメントが入札できる機会が制限される可能性があることを理解してください。 フィルターを追加または編集するには：
 
@@ -181,13 +191,9 @@ ht-degree: 0%
 
   「[!UICONTROL Deals]」タブでは、キーワード、キー、取引 ID、カスタムタグでリストを検索できます。 「[!UICONTROL Deal Lists]」タブから、取引リスト名または取引リスト ID でリストを検索できます。
 
-   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: （任意）入札価格アルゴリズムを上書きして、少なくとも取引の固定価格とフロア価格を入札します。
-
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]:[!DNL DSP] で購読したすべての [ プレミアム、保証されていない [!UICONTROL On Demand] 在庫 ](/help/dsp/inventory/on-demand-inventory-about.md) （または [!DNL Roku] のプレースメントの [!DNL Roku] い [!UICONTROL On Demand] い取引）。 在庫を含めたり除外 [!UICONTROL On Demand] たりできます。
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]:[ で購読したすべての [!UICONTROL On Demand] プレミアム、保証されていない ](/help/dsp/inventory/on-demand-inventory-about.md) 在庫 [!UICONTROL On Demand] （または [!DNL Roku] のプレースメントの [!DNL Roku] い [!DNL DSP] い取引）。 在庫を含めたり除外 [!UICONTROL On Demand] たりできます。
 
   このリストは、ソース別またはフィード別に表示できます。 フィード別にリストを表示する場合は、フィード名、フィード キー、または選択した発行元の地域、カテゴリ タグ、特性タグで検索できます。
-
-   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: （任意）入札価格アルゴリズムを上書きして、少なくとも取引の固定価格とフロア価格を入札します。
 
 在庫ターゲティングを指定する手順は、次のとおりです。
 
@@ -323,13 +329,13 @@ ht-degree: 0%
 
 **[!UICONTROL Included Audiences]:** [ サードパーティセグメント、ファーストパーティセグメント、Adobe セグメント、カスタムセグメント、保存済みオーディエンス ](/help/dsp/audiences/audience-settings.md) など、プレースメントの任意のオーディエンスターゲット。 選択したすべてのセグメントと保存されたオーディエンスにわたる、重複排除されたアクティブなオーディエンスの合計サイズも表示されます。 既存のオーディエンスを選択し、後で再利用できるオーディエンスを作成するか、特定のオーディエンスセグメントを選択できます。
 
-* 既存のオーディエンスを選択するには、「[!UICONTROL Included Audiences]」の横にある ![ 選択 ](/help/dsp/assets/chevron-down.png) をクリックし、オーディエンスを選択します。
+* 既存のオーディエンスを選択するには、「![」の横にある ](/help/dsp/assets/chevron-down.png) 選択 [!UICONTROL Included Audiences] をクリックし、オーディエンスを選択します。
 * オーディエンスを作成するには、「オーディエンス」の横にある ![ 選択 ](/help/dsp/assets/chevron-down.png) をクリックし、「[!UICONTROL Included Audiences]」を選択し **[!UICONTROL + Create Audience]** す。 手順については、手順 3 から [ 再利用可能なオーディエンスの作成 ](/help/dsp/audiences/reusable-audience-create.md) を参照してください。
 * 特定のオーディエンスセグメントを選択するには、「選 **[!UICONTROL Select segments for this placement only]**」をクリックします。 セグメントロジックを選択します。手順については、「[ 再利用可能なオーディエンスの作成 ](/help/dsp/audiences/reusable-audience-create.md) の手順 6 を参照してください。 完了したら、「**保存**」をクリックします。
 
 **[!UICONTROL Excluded Audiences]:** プレースメント用に除外するオーディエンス。例えば、[ サードパーティセグメント、ファーストパーティセグメント、Adobe セグメント、カスタムセグメント、保存済みオーディエンス ](/help/dsp/audiences/audience-settings.md) を含みます。 除外されたすべてのオーディエンスの合計およびアクティブな重複排除されたオーディエンスサイズも表示されます。 既存のオーディエンスを選択するか、新しいオーディエンスを作成して後で再利用できます。
 
-* 既存のオーディエンスを選択するには、「[!UICONTROL Excluded Audiences]」の横にある ![ 選択 ](/help/dsp/assets/chevron-down.png) をクリックし、オーディエンスを選択します。
+* 既存のオーディエンスを選択するには、「![」の横にある ](/help/dsp/assets/chevron-down.png) 選択 [!UICONTROL Excluded Audiences] をクリックし、オーディエンスを選択します。
 
 * オーディエンスを作成するには、「オーディエンス ![ の横にある ](/help/dsp/assets/chevron-down.png) 選択 [!UICONTROL Excluded Audiences] をクリックし、「**+ オーディエンスを作成**」を選択します。 手順については、手順 3 から [ 再利用可能なオーディエンスの作成 ](/help/dsp/audiences/reusable-audience-create.md) を参照してください。
 
@@ -341,7 +347,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Universal ID Beta]*：ユーザープライバシーに焦点を当てた ID をターゲットにします。ID タイプを 1 つ選択します。 使用可能なオプションは、[!UICONTROL Geo-Targeting] のセクションで選択した地理的ターゲットによって決まります。 [[!DNL RampID] DSPに直接読み込まれたセグメント ](/help/dsp/audiences/sources/source-import-liveramp-segments.md)、[DSPが PII をユニバーサル ID に変換するセグメント ](/help/dsp/audiences/sources/source-about.md)、または [ ユニバーサル ID を追跡するカスタムセグメント ](/help/dsp/audiences/custom-segment-create.md) で使用します。
 
-   * *[!UICONTROL ID5]*：メールアドレス [!DNL ID5] その他のシグナルから確率的に作成された ID のターゲット。<!-- What countries/geos are these available for? Everywhere?--> ID5 ID は無料でご利用いただけます。 **メモ：[!DNL Eyeota] のサードパーティセグメントには、ID5 ID が含まれる場合が** ります。
+   * *[!UICONTROL ID5]*：メールアドレス [!DNL ID5] その他のシグナルから確率的に作成された ID のターゲット。<!-- What countries/geos are these available for? Everywhere?--> ID5 ID は無料でご利用いただけます。 **メモ：** のサードパーティセグメントには、ID5 ID が含まれる場合が [!DNL Eyeota] ります。
 
    * *[!UICONTROL RampID]*：メールアドレス [!DNL LiveRamp] 使用してサイトにログインしたユーザーの [!DNL RampIDs] をターゲットに設定します。<!-- Verify --> [!DNL RampIDs] は、北米、オーストラリア、ニュージーランドのユーザーが利用できます。
 
@@ -413,7 +419,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
-**[!UICONTROL DoubleVerify ABS segment ID]:** （オプション。[!DNL DoubleVerify] 顧客のみ。デスクトッププリロール、標準およびクリックトゥプレイのディスプレイ、ネイティブのディスプレイおよびビデオのプレースメントでのみ使用できます。[ 契約に対するプログラムによるデフォルトの保証されたプレースメント ](/help/dsp/inventory/programmatic-guaranteed-about.md)）ではサポートされていません。プレースメントに使用する組織の [!DNL DoubleVerify] アカウントに関連付けられた [!DNL DoubleVerify Authentic Brand Safety] セグメント ID。 ID を指定すると、指定したセグメント ID に設定されたカスタムブランドセーフティルールを使用して、入札後のインプレッションがブロックされます。 DSPは、セグメント ID の使用に対してアカウントに請求します。
+**[!UICONTROL DoubleVerify ABS segment ID]:** （オプション。[!DNL DoubleVerify] 顧客のみ。デスクトッププリロール、標準およびクリックトゥプレイのディスプレイ、ネイティブのディスプレイおよびビデオのプレースメントでのみ使用できます。[ 契約に対するプログラムによるデフォルトの保証されたプレースメント ](/help/dsp/inventory/programmatic-guaranteed-about.md)）ではサポートされていません。プレースメントに使用する組織の [!DNL DoubleVerify Authentic Brand Safety] アカウントに関連付けられた [!DNL DoubleVerify] セグメント ID。 ID を指定すると、指定したセグメント ID に設定されたカスタムブランドセーフティルールを使用して、入札後のインプレッションがブロックされます。 DSPは、セグメント ID の使用に対してアカウントに請求します。
 
 ID は「51」で始まり、8 桁で構成する必要があります。 デフォルトでは、広告主アカウント設定でセグメント ID が指定されている場合、広告主レベルの ID が入力されますが、別のセグメントを使用するように ID を変更したり、ID を削除して機能を無効にしたりできます。
 
@@ -466,7 +472,7 @@ ID は「51」で始まり、8 桁で構成する必要があります。 デフ
 * *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済み直販業者および再販業者からのみ在庫を購入する場合。
 * *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済ダイレクト・セラーからのみ在庫を購入する場合。
 
-**[!UICONTROL Attention Targeting]:** （デスクトップおよびモバイルの web ディスプレイ、ビデオ、標準で接続されたテレビ広告に適用）指定されたサイト、形式、広告サイズに基づいて、特定の注意レベル（高、中、低）でセグメントの事前入札を [!DNL Adelaide] うターゲット。 セグメントは毎週更新されます。 **注意：**&#x200B;[!DNL Adelaide] セグメントをターゲティングに使用すると、[!DNL Adelaide] のアテンションターゲティングで配信されるインプレッションごとにCPM料金が発生します。この料金は、[ アテンション測定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md) の料金とは別です。 インタラクティブなプレロールプレースメントの場合、膨大なインプレッションに対してのみ請求されます。
+**[!UICONTROL Attention Targeting]:** （デスクトップおよびモバイルの web ディスプレイ、ビデオ、標準で接続されたテレビ広告に適用）指定されたサイト、形式、広告サイズに基づいて、特定の注意レベル（高、中、低）でセグメントの事前入札を [!DNL Adelaide] うターゲット。 セグメントは毎週更新されます。 **注意：**[!DNL Adelaide] セグメントをターゲティングに使用すると、[!DNL Adelaide] のアテンションターゲティングで配信されるインプレッションごとにCPM料金が発生します。この料金は、[ アテンション測定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md) の料金とは別です。 インタラクティブなプレロールプレースメントの場合、膨大なインプレッションに対してのみ請求されます。
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
