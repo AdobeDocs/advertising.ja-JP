@@ -4,9 +4,9 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: ab529274520a94e46088ea3c64aa127cfd06abe5
+source-git-commit: 2b3d2d63bd049c5a24f754e0cd2a49859b56b16c
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1874'
 ht-degree: 2%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [サポートされるインベントリ](/help/search-social-commerce/introduction/supported-inventory.md)
    + Adobe Experience Cloudとの統合 {#integrations}
       + [Adobe Experience Cloudのソリューションおよびサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising]  （リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja){target="_blank"}
-      + [Adobe Audience Managerとの統合（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ja){target="_blank"}
-   + [ 消費者プライバシーのサポート（リンク）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
-   + [ ポリシーとガイドライン（リンク）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=ja){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising]  （リンク） ](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Adobe Audience Managerとの統合（リンク） ](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [ 消費者プライバシーのサポート（リンク） ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [ ポリシーとガイドライン（リンク） ](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + はじめに {#getting-started}
    + [実装の概要](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [必要システム構成](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -93,14 +93,15 @@ ht-degree: 2%
          + [[!UICONTROL Portfolios] 表示からのデータ表示レポートの管理](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + キャンペーン {#campaigns}
          + [[!UICONTROL Campaigns] ビューについて](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [ ポートフォリオへのキャンペーンの割り当て ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [ ポートフォリオからのキャンペーンの削除 ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [ ポートフォリオへのキャンペーンの割り当て ](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [ ポートフォリオからのキャンペーンの削除 ](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
          + [キャンペーンの制約割り当ての管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [[!UICONTROL Campaigns] 表示からのデータ表示レポートの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
       + 広告グループ {#ad-groups}
          + [[!UICONTROL Ad Groups] ビューについて](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
          + [ 広告グループの制約割り当ての管理 ](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
          + [[!UICONTROL Ad Groups] 表示からのデータ表示レポートの管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
+   + [ユーザー管理](/help/search-social-commerce/new-ui/user-administration.md)
 + トラッキング {#tracking}
    + [トラッキングについて](/help/search-social-commerce/tracking/tracking-about.md)
    + クリックの追跡 {#click-tracking}
@@ -117,7 +118,7 @@ ht-degree: 2%
             + [ [!DNL Yahoo! Japan Ads] のクリック追跡形式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [ [!DNL Yandex] のクリック追跡形式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [クリックトラッキング URL 用のオプションのトラッキングパラメーター](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertisingの Cookie （リンク）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ja){target="_blank"}
+      + [Adobe Advertisingの Cookie （リンク） ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [AMO ID （s_kwcid） トラッキングパラメーター](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + コンバージョントラッキング {#conversion-tracking}
       + [コンバージョントラッキングオプション](/help/search-social-commerce/tracking/conversion-tracking-about.md)
