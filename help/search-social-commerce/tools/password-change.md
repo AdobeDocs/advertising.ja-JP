@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この機能は、従来の検索、ソーシャル、Commerce アカウントにのみ適用できます。 ほとんどのユーザーは、代わりに [!DNL Adobe] ID を使用するようになりました。<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
+>この機能は、従来の検索、ソーシャル、Commerce アカウントにのみ適用できます。 ほとんどのユーザーは、代わりに [!DNL Adobe] ID を使用するようになりました。<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
 
 パスワードを変更すると、現在のセッションからログアウトされます。 作業を続行するには、新しいパスワードでサインインする必要があります。
 
