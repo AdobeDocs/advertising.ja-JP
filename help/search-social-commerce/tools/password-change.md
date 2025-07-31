@@ -3,14 +3,18 @@ title: パスワードを変更
 description: アカウントのパスワードを変更する方法を説明します。
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: ec856bfde690019b9d18aa6fe8f4ab0237314b4b
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
 # パスワードを変更
+
+>[!NOTE]
+>
+>この機能は、従来の検索、ソーシャル、Commerce アカウントにのみ適用できます。 ほとんどのユーザーは、代わりに [!DNL Adobe] ID を使用するようになりました。<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
 
 パスワードを変更すると、現在のセッションからログアウトされます。 作業を続行するには、新しいパスワードでサインインする必要があります。
 
