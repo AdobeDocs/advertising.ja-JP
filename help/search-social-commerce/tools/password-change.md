@@ -3,18 +3,20 @@ title: パスワードを変更
 description: アカウントのパスワードを変更する方法を説明します。
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: ec856bfde690019b9d18aa6fe8f4ab0237314b4b
+source-git-commit: d6405e1f594e26fb6e6790ad567676ffdaa900b4
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
 # パスワードを変更
 
+<!-- Replace this with just a link to the DX page once we remove the legacy option? -->
+
 >[!NOTE]
 >
->この機能は、従来の検索、ソーシャル、Commerce アカウントにのみ適用できます。 ほとんどのユーザーは、代わりに [!DNL Adobe] ID を使用するようになりました。<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
+>この機能は、従来の検索、ソーシャル、Commerceのログイン資格情報にのみ適用できます。 ほとんどのユーザーは、代わりに [!DNL Adobe] ID を認証に使用するようになりました。 [!DNL Adobe] ID のパスワードを変更するには、「[Adobe パスワードのリセットまたは変更 ](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)」を参照してください。
 
 パスワードを変更すると、現在のセッションからログアウトされます。 作業を続行するには、新しいパスワードでサインインする必要があります。
 
