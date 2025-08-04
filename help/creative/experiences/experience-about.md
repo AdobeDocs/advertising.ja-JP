@@ -3,9 +3,9 @@ title: Advertising Creativeのエクスペリエンスについて
 description: パーソナライズされた広告エクスペリエンスを設定し、パフォーマンスに基づいて広告要素を最適化する方法を説明します。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
   ターゲティングオプションは次のとおりです。
 
-   * Adobe Audience Manager、Adobe AnalyticsおよびAdvertising DSPのファーストパーティオーディエンスセグメント、Advertising DSPのカスタムセグメントおよびAdvertising DSPが提供するサードパーティセグメント
+   * Adobe Audience Manager、Adobe Analytics、Advertising DSPからのオーディエンスセグメント、アカウント用に読み込まれたその他のファーストパーティセグメント、Advertising DSPからのカスタムセグメント、Advertising DSPが提供するサードパーティセグメント、オーディエンスライブラリで作成された既存のAdvertising DSP オーディエンス
 
    * 特定の地理的な場所（国、州、米国内の DMA、都市、郵便番号を含む）
 

@@ -3,9 +3,9 @@ title: エクスペリエンスのノード間に兄弟ターゲットノード�
 description: ターゲットを持つノード、またはターゲットを持つノードと同じレベルにあるノードに兄弟ノードを追加する方法を説明します。
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,15 @@ In an existing experience,
 
 1. ターゲットを指定します。
 
-   * Adobe Audience Target の場合は、次の操作を行います。
+   * オーディエンスターゲットの場合は、次の手順を実行します。
 
-      1. 「**[!UICONTROL Click to Browse]**」をクリックして [!UICONTROL Audience Targeting] オプションを開き、「**[!UICONTROL Adobe Segments]**」タブを開き、広告主の [!DNL Adobe] オーディエンスターゲットを 1 つ以上指定して、「**[!UICONTROL Save]**」をクリックします。
+      1. 「**[!UICONTROL Click to Browse]**」をクリックして [!UICONTROL Audience Targeting] オプションを開き、ターゲットとする 1 つ以上の広告主のオーディエンスを指定します。
 
-      1. （オプション）複数のオーディエンスが指定されている場合に複数のターゲットノードを作成するには、「**[!UICONTROL Split targets to create nodes]**」を選択します。
+      1. 右側の列で、ノードに対して指定したターゲットを *[!UICONTROL Include any]* 定するか（デフォルト）、*[!UICONTROL Include all]* 定するかを選択します。
 
-         この機能は、指定されたオーディエンスごとに個別のターゲットノード（個別のクリエイティブバンドルを含む）を作成します。 ターゲットを分割しない場合、ユーザーは指定されたすべてのオーディエンス（[!DNL Boolean] `AND` ステートメント）に属している必要があります。
+     このオプションは、インプレッションの対象として、ユーザーが指定されたオーディエンスの少なくとも 1 つ（[!DNL Boolean] `OR` ステートメント）に属するか、指定されたすべてのオーディエンス（[!DNL Boolean] `AND` ステートメント）に属するかを決定します。
+
+      1. 「**[!UICONTROL Create]**」をクリックします。
 
       1. 「**[!UICONTROL Apply]**」をクリックします。
 
@@ -54,7 +56,7 @@ In an existing experience,
 
    * データ・パス・ターゲットの場合は、オプションでデータ・パス・キーをカスタマイズし、データ・パス値を 1 つ入力し、「**[!UICONTROL Apply]**」をクリックします。
 
-     キーと値のペアのキーのデフォルト値は、[ エクスペリエンス設定 ](experience-settings-targeting.md) の [!UICONTROL Advanced] セクションの **[!UICONTROL Data Pass]** フィールドに既に設定されています。 オプションで、このキーをカスタマイズできます。
+     キーと値のペアのキーのデフォルト値は、**[!UICONTROL Data Pass]** エクスペリエンス設定 [!UICONTROL Advanced] の [ セクションの ](experience-settings-targeting.md) フィールドに既に設定されています。 オプションで、このキーをカスタマイズできます。
 
    * ピクセルターゲットをリターゲティングするには、使用するリターゲティングピクセルと、クリエイティブを表示するために必要なピクセルの属性に必要な値を選択します。 次に、「**[!UICONTROL Apply]**」をクリックします。
 

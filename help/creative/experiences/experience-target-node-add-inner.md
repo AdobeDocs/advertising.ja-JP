@@ -3,9 +3,9 @@ title: エクスペリエンスのノード間にターゲットノードを追�
 description: 広告エクスペリエンスのターゲットノード間にターゲットノードを追加する方法を説明します。
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 81cbb3cdac21f4b4899b0c07d1eb0686b7b3c7d4
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
       1. ターゲットの種類を選択し、[**[!UICONTROL Apply]**] をクリックします。
 
-         * Adobe オーディエンスターゲットの場合は、「**[!UICONTROL Adobe Audience]**」を選択します。
+         * オーディエンスターゲットの場合は、「**[!UICONTROL Audience]**」を選択します。
 
          * 地理的ターゲットの場合は、単一の地理的カテゴリ（[!UICONTROL Geo: Country] など）を選択します。
 
@@ -45,13 +45,15 @@ ht-degree: 0%
 
    * 兄弟ノードが既に存在する場合は、次の操作を行います。
 
-      * Adobe Audience Target の場合は、次の操作を行います。
+      * オーディエンスターゲットの場合は、次の手順を実行します。
 
-         1. 「**[!UICONTROL Click to Browse]**」をクリックして [!UICONTROL Audience Targeting] オプションを開き、「**[!UICONTROL Adobe Segments]**」タブを開き、広告主の [!DNL Adobe] オーディエンスターゲットを 1 つ以上指定して、「**[!UICONTROL Create]**<!-- Why not "Save" like for the other node types/use cases? -->」をクリックします。
+         1. 「**[!UICONTROL Click to Browse]**」をクリックして [!UICONTROL Audience Targeting] オプションを開き、ターゲットとする 1 つ以上の広告主のオーディエンスを指定します。
 
-         1. （オプション）複数のオーディエンスが指定されている場合に複数のターゲットノードを作成するには、「**[!UICONTROL Split targets to create nodes]**」を選択します。
+         1. 右側の列で、ノードに対して指定したターゲットを *[!UICONTROL Include any]* 定するか（デフォルト）、*[!UICONTROL Include all]* 定するかを選択します。
 
-            この機能は、指定されたオーディエンスごとに個別のターゲットノード（個別のクリエイティブバンドルを含む）を作成します。 ターゲットを分割しない場合、ユーザーは指定されたすべてのオーディエンス（[!DNL Boolean] `AND` ステートメント）に属している必要があります。
+        このオプションは、インプレッションの対象として、ユーザーが指定されたオーディエンスの少なくとも 1 つ（[!DNL Boolean] `OR` ステートメント）に属するか、指定されたすべてのオーディエンス（[!DNL Boolean] `AND` ステートメント）に属するかを決定します。
+
+         1. 「**[!UICONTROL Create]**」をクリックします。
 
          1. 「**[!UICONTROL Apply]**」をクリックします。
 
@@ -69,7 +71,7 @@ ht-degree: 0%
 
       * データ受け渡しターゲットの場合、必要に応じてデータ受け渡しキーをカスタマイズし、データ受け渡し値を 1 つ入力し、「**[!UICONTROL Apply]**」をクリックします。
 
-        キーと値のペアのキーのデフォルト値は、[ エクスペリエンス設定 ](experience-settings-targeting.md) の [!UICONTROL Advanced] セクションの **[!UICONTROL Data Pass]** フィールドに既に設定されています。 オプションで、このキーをカスタマイズできます。
+        キーと値のペアのキーのデフォルト値は、**[!UICONTROL Data Pass]** エクスペリエンス設定 [!UICONTROL Advanced] の [ セクションの ](experience-settings-targeting.md) フィールドに既に設定されています。 オプションで、このキーをカスタマイズできます。
 
       * リターゲティングピクセルターゲットの場合は、使用するリターゲティングピクセルを 1 つ選択し、クリエイティブの表示に必要なピクセルの属性の値を選択して、「**[!UICONTROL Apply]**」をクリックします。
 

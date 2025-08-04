@@ -3,9 +3,9 @@ title: エクスペリエンスの最終レベルへのターゲットノード�
 description: 広告エクスペリエンスの最終ターゲットレベルにターゲットノードを追加する方法を説明します。
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 7e345130f43fc2d8c2ada287a2dc61b1515e2d25
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,15 @@ ht-degree: 0%
 
 1. ターゲットを指定します。
 
-   * Adobe オーディエンスのターゲットの場合は、「**[!UICONTROL Adobe Audience]**」を選択してから、以下を実行します。
+   * オーディエンスターゲットの場合は、「**[!UICONTROL Audience]**」を選択し、次の手順を実行します。
 
-      1. 「**[!UICONTROL Click to Browse]**」をクリックして [!UICONTROL Audience Targeting] オプションを開き、「**[!UICONTROL Adobe Segments]**」タブを開き、広告主の [!DNL Adobe] オーディエンスターゲットを 1 つ以上指定して、「**[!UICONTROL Create]**」をクリックします。
+      1. 「**[!UICONTROL Click to Browse]**」をクリックして [!UICONTROL Audience Targeting] オプションを開き、ターゲットとする 1 つ以上の広告主のオーディエンスを指定します。
 
-      1. （オプション）複数のオーディエンスが指定されている場合に複数のターゲットノードを作成するには、「**[!UICONTROL Split targets to create nodes]**」を選択します。
+      1. 右側の列で、ノードに対して指定したターゲットを *[!UICONTROL Include any]* 定するか（デフォルト）、*[!UICONTROL Include all]* 定するかを選択します。
 
-         この機能は、指定されたオーディエンスごとに個別のターゲットノード（個別のクリエイティブバンドルを含む）を作成します。 ターゲットを分割しない場合、ユーザーは指定されたすべてのオーディエンス（[!DNL Boolean] `AND` ステートメント）に属している必要があります。
+     このオプションは、インプレッションの対象として、ユーザーが指定されたオーディエンスの少なくとも 1 つ（[!DNL Boolean] `OR` ステートメント）に属するか、指定されたすべてのオーディエンス（[!DNL Boolean] `AND` ステートメント）に属するかを決定します。
+
+      1. 「**[!UICONTROL Create]**」をクリックします。
 
       1. 「**[!UICONTROL Apply]**」をクリックします。
 
@@ -51,7 +53,7 @@ ht-degree: 0%
 
    * データ受け渡しターゲットの場合、**[!UICONTROL Data Pass]** を選択し、必要に応じてデータ受け渡しキーをカスタマイズし、データ受け渡し値を 1 つ入力して、「**[!UICONTROL Apply]**」をクリックします。
 
-   キーと値のペアのキーのデフォルト値は、[ エクスペリエンス設定 ](experience-settings-targeting.md) の [!UICONTROL Advanced] セクションの **[!UICONTROL Data Pass]** フィールドに既に設定されています。 オプションで、このキーをカスタマイズできます。
+   キーと値のペアのキーのデフォルト値は、**[!UICONTROL Data Pass]** エクスペリエンス設定 [!UICONTROL Advanced] の [ セクションの ](experience-settings-targeting.md) フィールドに既に設定されています。 オプションで、このキーをカスタマイズできます。
 
    * リターゲティングピクセルターゲットの場合は、「**[!UICONTROL RT Pixel]**」を選択し、使用するリターゲティングピクセルと、クリエイティブの表示に必要なピクセルの属性の値を 1 つ選択して、「**[!UICONTROL Apply]**」をクリックします。
 
