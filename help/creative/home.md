@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: false
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
+source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
-| 2025 年 8 月 4 日（Pt） | Ad  エクスペリエンスのオーディエンスのターゲット &rbrack; | 広告エクスペリエンスのオーディエンスターゲットを設定する際に、ノードに指定したターゲットの *[!UICONTROL Include any]* 用（デフォルト）または *[!UICONTROL Include all]* 用を選択できるようになりました。 このオプションは、インプレッションの対象として、ユーザーが指定されたオーディエンスの少なくとも 1 つに属するか、指定されたすべてのオーディエンスに属するかを決定します。<br><br> このオプションを使用すると、「[!UICONTROL Split targets to create nodes]」に対する既存のオプションは使用できなくなります。 | 「[ 最終レベルへのターゲットノードの追加 ](/help/creative/experiences/experience-target-node-add-final.md)」、「[ ノード間にターゲットノードの挿入 ](/help/creative/experiences/experience-target-node-add-inner.md)」、「[ 兄弟ターゲットノードの追加 ](/help/creative/experiences/experience-target-node-add-sibling.md)」を参照してください。 |
+| 2025 年 8 月 4 日（Pt） | Ad [!DNL] エクスペリエンスのオーディエンスのターゲット ] | オーディエンスの組み込みと除外に関するより複雑なロジック（Advertising DSPで使用可能なロジックと同じ）が、オーディエンスターゲット設定内で使用できます。 広告エクスペリエンスのオーディエンスターゲットを設定する際に、複数のセグメントグループを設定し、ロジックに基づいてユーザーを含めるか除外するかを指定できるようになりました。<br><br> このオプションを使用すると、「[!UICONTROL Split targets to create nodes]」に対する既存のオプションは使用できなくなります。 | 「[ 最終レベルへのターゲットノードの追加 ](/help/creative/experiences/experience-target-node-add-final.md)」、「[ ノード間にターゲットノードの挿入 ](/help/creative/experiences/experience-target-node-add-inner.md)」、「[ 兄弟ターゲットノードの追加 ](/help/creative/experiences/experience-target-node-add-sibling.md)」を参照してください。 |
 | 2025 年 7 月 10 日（Pt） | ビデオクリエイティブ | ファーストパーティビデオクリエイティブと、ビデオ固有のバンドルおよびエクスペリエンスがサポートされるようになりました。<ul><li>ファーストパーティビデオクリエイティブをアップロードして、ビデオ固有のバンドルに追加できるようになりました。 バンドル設定で、「[!UICONTROL Bundle Type]」オプションに [!UICONTROL Standard Display]、[!UICONTROL Dynamic Display]、[!UICONTROL Standard Video] が含まれるようになりました。</li><li>ビデオバンドルを使用して、ビデオ固有の広告エクスペリエンスを作成できます。 広告エクスペリエンス設定に、[!UICONTROL Ad Type]、[!UICONTROL Standard Display]、[!UICONTROL Dynamic Display] のオプションを含む「[!UICONTROL Video]」設定が含まれるようになりました。 クリックスルー率、完了率またはカスタム目標に応じて、ビデオ広告を最適化できます。</li><li>ビデオとエクスペリエンスのタグは、広告サイズではなく、ビデオの期間とビットレートで定義されます。</li><li>ビデオ広告は、プレビューできるように、Adobe Advertising DSP エンコーディングに自動的にトランスコードされます。 オプションで、[!UICONTROL Tag Manager] 内の任意の広告エクスペリエンスタグに他の DSP のトランスコーディングを適用できます。</li></ul> | 「[ クリエイティブライブラリについて ](/help/creative/creative-libraries/creative-libraries-about.md)」、「[ クリエイティブバンドルの管理 ](/help/creative/creative-libraries/bundle-manage.md)」、「[ ターゲット設定されたエクスペリエンス設定 ](/help/creative/experiences/experience-settings-targeting.md)」、「[ ターゲット設定されていないエクスペリエンス設定 ](/help/creative/experiences/experience-settings-no-targeting.md) および「[ ビデオ広告エクスペリエンスタグのトランスコーディングオプションのカスタマイズ ](/help/creative/experiences/experience-tag-video-transcoding.md)」を参照してください。 |
 | 2025 年 5 月 21 日（Pt） | [!UICONTROL Creative Libraries] | Adobe Experience Manager アセットライブラリから [!UICONTROL Creative Libraries] に画像を追加して、広告エクスペリエンス内で使用できるようになりました。 | 「[Adobe Experience Manager画像アセットへのアクセスの設定 ](/help/creative/creative-libraries/aem-assets-configure.md)」および「[ クリエイティブライブラリへの標準クリエイティブの追加 ](/help/creative/creative-libraries/creative-add-standard.md) を参照してください。 |
 | 2025 年 2 月 10 日（Pt） | [!UICONTROL Creative Libraries] | 以前は、1 つのクリエイティブライブラリがありました。 これで、広告主ごとに複数のライブラリを作成できます。 | [ クリエイティブ・ライブラリについて ](/help/creative/creative-libraries/creative-libraries-about.md) を参照してください。 |

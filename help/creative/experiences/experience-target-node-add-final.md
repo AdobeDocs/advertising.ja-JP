@@ -3,9 +3,9 @@ title: エクスペリエンスの最終レベルへのターゲットノード�
 description: 広告エクスペリエンスの最終ターゲットレベルにターゲットノードを追加する方法を説明します。
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
+source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,31 @@ ht-degree: 0%
 
 1. ターゲットを指定します。
 
-   * オーディエンスターゲットの場合は、「**[!UICONTROL Audience]**」を選択し、次の手順を実行します。
+   * オーディエンスターゲットの場合は、「**[!UICONTROL Audience]**」を選択し、「**[!UICONTROL Click to Browse]**」をクリックして [!UICONTROL Audience Targeting] オプションを開き、次の手順を実行します。
 
-      1. 「**[!UICONTROL Click to Browse]**」をクリックして [!UICONTROL Audience Targeting] オプションを開き、ターゲットとする 1 つ以上の広告主のオーディエンスを指定します。
+      * 最初のセグメントを追加するには、左側のパネルでセグメントを見つけ、セグメント名の横にあるチェックボックスをオンにします。
 
-      1. 右側の列で、ノードに対して指定したターゲットを *[!UICONTROL Include any]* 定するか（デフォルト）、*[!UICONTROL Include all]* 定するかを選択します。
+      * 既存のセグメントグループにセグメントを追加するには：
 
-     このオプションは、インプレッションの対象として、ユーザーが指定されたオーディエンスの少なくとも 1 つ（[!DNL Boolean] `OR` ステートメント）に属するか、指定されたすべてのオーディエンス（[!DNL Boolean] `AND` ステートメント）に属するかを決定します。
+         1. 右側のパネルでセグメントグループをクリックします。
+
+         1. （オプション）必要に応じて、グループロジックを *[!UICONTROL Include Any]*、*[!UICONTROL Include All]* または *[!UICONTROL Exclude All]* に変更します。
+
+            最初のセグメントグループには *[!UICONTROL Exclude All]* は使用できません。 除外のみを含むオーディエンスの場合、このオーディエンスを *[!UICONTROL Include Any]* として作成し、DSP内のプレースメントに追加するときにそのオーディエンスを除外します。
+
+         1. 左側のパネルで新しいセグメントを見つけ、セグメント名の横にあるチェックボックスをオンにします。
+
+            セグメントグループは、新しいセグメントで自動的に更新されます。
+
+      * 新しいセグメントグループを追加するには：
+
+         1. 右側のパネルで「**[!UICONTROL + New Group]**」をクリックします。
+
+         1. （オプション）必要に応じて、前のグループと新しいグループの間のロジックを *[!UICONTROL And]* または *[!UICONTROL Or]* に変更します。
+
+         1. 左側のパネルで新しいグループのセグメントを見つけ、セグメント名の横にあるチェックボックスをオンにします。
+
+         1. （オプション）必要に応じて、グループロジックを *[!UICONTROL Include Any]*、*[!UICONTROL Include All]* または *[!UICONTROL Exclude All]* に変更します。
 
       1. 「**[!UICONTROL Create]**」をクリックします。
 
