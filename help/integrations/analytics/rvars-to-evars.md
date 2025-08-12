@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Solution built but not tested. Move to the CJA chapter once it's available?  If so, then create a redirect. -->
 
-予約済みの変数を使用して [ 統合の ](ids.md)AMO ID および EF ID[!DNL Analytics for Advertising] を取得する場合は、できるだけ早く、AMO ID および EF ID の予約変数を [ 標準 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) [!DNL analytics] にコピーすることで、Adobe AdvertisingとAdobeの次世代 [ ソリューションである  [!DNL eVars]Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/evar) との統合に向けたデータを準備できます。 これにより、タスクを完了するとすぐに、AMO ID と EF ID の履歴データを収集できます。 予約変数を使用していて、このタスクを実行する必要がある場合は、Adobe アカウントチームからお知らせします。
+予約済みの変数を使用して [ 統合の ](ids.md)AMO ID および EF ID[!DNL Analytics for Advertising] を取得する場合は、できるだけ早く、AMO ID および EF ID の予約変数を [ 標準 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) [!DNL analytics] にコピーすることで、Adobe AdvertisingとAdobeの次世代 [ ソリューションである  [!DNL eVars]Adobe Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/evar) との統合に向けたデータを準備できます。 これにより、タスクを完了するとすぐに、AMO ID と EF ID の履歴データを収集できます。 予約変数を使用していて、このタスクを実行する必要がある場合は、Adobe アカウントチームからお知らせします。
 
 <!-- You can also do the same for any other reserved variables you use for your [!DNL Analytics for Advertising] implementation. -->
 
@@ -28,7 +28,7 @@ Customer Journey Analyticsを使用すると、Adobe Experience Platformのデ�
 
 Adobe Advertisingは、データをCustomer Journey Analyticsに自動的に送信するソリューションを構築しています。 ソリューションがリリースされると、Adobe AdvertisingはCustomer Journey Analyticsで使用する AMO ID および EF ID のデータの送信を開始します。ただし、リリース日前の履歴データは存在しません。
 
-ただし、簡単な <!-- [!DNL rVars] --> 処理ルール [[!DNL Analytics] ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules) を作成して、すぐに AMO ID と EF ID を <!-- [!DNL rVars] --> にコピーすることで、AMO ID と EF ID のデータ収集を開始で [!DNL eVars] ます。 処理ルールを作成すると、新しいイベントを追跡するとすぐに、AMO ID と EF ID のデータが累積され始 <!-- [!DNL rVars] --> ます。 履歴データは、ソリューションが利用可能になると、Customer Journey Analytics内で利用できるようになります。
+ただし、簡単な <!-- [!DNL rVars] --> 処理ルール [[!DNL Analytics] ](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules) を作成して、すぐに AMO ID と EF ID を <!-- [!DNL rVars] --> にコピーすることで、AMO ID と EF ID のデータ収集を開始で [!DNL eVars] ます。 処理ルールを作成すると、新しいイベントを追跡するとすぐに、AMO ID と EF ID のデータが累積され始 <!-- [!DNL rVars] --> ます。 履歴データは、ソリューションが利用可能になると、Customer Journey Analytics内で利用できるようになります。
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Adobe Advertisingは、データをCustomer Journey Analyticsに自動的に送�
 
 この手順は手動で行い、今後Adobe Advertisingと統合する予定の AMO ID および EF ID をトラッキングするレポートスイート <!-- [!DNL rVars] --> とに実行する必要があります。
 
-1. 次の設定を使用して [ 処理ルールを作成 ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules) します。
+1. 次の設定を使用して [ 処理ルールを作成 ](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules) します。
 
    * Customer Journey Analyticsで使用するために、AMO ID および EF ID <!-- [!DNL rVar] --> データをExperience Platformに移行するレポートスイートを選択します。
 
@@ -73,7 +73,7 @@ Adobe Advertisingは、データをCustomer Journey Analyticsに自動的に送�
 
    例えば、新しいeVar `eVar142` が `amo.s_kwcid(Context Data)` にマッピングされる場合、`eVar142` と `AMO ID` のデータは同一である必要があります。
 
-処理ルールの適用方法の詳細は、「[ 処理ルールの仕組み ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about) を参照してください。
+処理ルールの適用方法の詳細は、「[ 処理ルールの仕組み ](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about) を参照してください。
 
 >[!MORELIKETHIS]
 >
