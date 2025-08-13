@@ -3,9 +3,9 @@ title: インサイトについて
 description: ビジュアライゼーションを使用したパフォーマンスインサイトについて説明します。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 99b9c110de5efbf646e35979eee6baac1d34f6ed
+source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼ
 
 * **[!UICONTROL Trends]:** 顧客が指定した 3 つの指標（デフォルトでは、[!UICONTROL Net Spend]、[!UICONTROL Unique Reach] および [!UICONTROL Net CPM]）について、日別または週別のトレンド・グラフ。
 
-* **[!UICONTROL Incremental Household Reach]:**&#x200B;[!UICONTROL Media Type]、[!UICONTROL Device Type]、または [!UICONTROL Inventory Type] による世帯の増分的リーチを示すドーナツグラフ。 *増分世帯リーチ* は、単一のメディア、デバイスまたは在庫タイプを排他的に通じて到達した世帯として定義されます。
+* **[!UICONTROL Incremental Household Reach]:**[!UICONTROL Media Type]、[!UICONTROL Device Type]、または [!UICONTROL Inventory Type] による世帯の増分的リーチを示すドーナツグラフ。 *増分世帯リーチ* は、単一のメディア、デバイスまたは在庫タイプを排他的に通じて到達した世帯として定義されます。
 
 * **[!UICONTROL Reach Breakdown]:** 世帯のリーチの増分と、[!UICONTROL Media Type]、[!UICONTROL Device Type]、[!UICONTROL Inventory Type] による重複の世帯のリーチの比較。
 
@@ -107,6 +107,8 @@ Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼ
 * insightの左上にあるドロップダウンメニューから、寸法を選択します。
 
 ## insightについてレポートされる指標の変更
+
+コンバージョン指標については、Adobe Advertisingで追跡されるコンバージョンとAdobe Analyticsで追跡されるコンバージョンの両方をサポートしています。
 
 1. insightの右上にある ![ 指標設定 ](/help/dsp/assets/metric-settings.png " 指標設定 ") をクリックします。
 
