@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ### テンプレートを使用した柔軟なクリエイティブの追加 {#flexible-creative-use-template}
 
-アカウントにアップロードされた任意の柔軟なクリエイティブテンプレートを使用して、事前に定義されたサイズの広告を作成できます。 使用するテンプレートを選択したら、クリックのタグと属性を編集します。&lt;!— テンプレートのダウンロード機能を追加する場合は、最後の文をこの文に置き換えます。a\）使用するテンプレートを選択して、クリックのタグと属性を編集するか、b\） [ テンプレートを ZIP ファイルとしてダウンロード ](#download-flexible-creative-template)、コンテンツをオフラインで編集して独自のクリエイティブを作成してから [ 編集したファイルを新しいクリエイティブとしてアップロード ](flexible-creative-upload)。>
+アカウントにアップロードされた任意の柔軟なクリエイティブテンプレートを使用して、事前に定義されたサイズの広告を作成できます。 使用するテンプレートを選択したら、クリックのタグと属性を編集します。&lt;!— テンプレートのダウンロード機能を追加する場合は、最後の文をこの文に置き換えます。a\）使用するテンプレートを選択して、クリックのタグと属性を編集するか、b\） [ テンプレートを ZIP ファイルとしてダウンロード ](#download-flexible-creative-template)、コンテンツをオフラインで編集して独自のクリエイティブを作成してから [ 編集したファイルを新しいクリエイティブとしてアップロード ] (flexible-creative-upload)。>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.

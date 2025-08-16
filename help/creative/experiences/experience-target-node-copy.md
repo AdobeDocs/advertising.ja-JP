@@ -26,7 +26,7 @@ ht-degree: 0%
 
    * ノードのすべての子ノードとクリエイティブを置き換えるには、コピーした情報を貼り付けるノードをクリックして、「**...**」をクリックし、次に a\）「**[!UICONTROL Replace ctrl+shift+v]**」または b\）「**[!UICONTROL Ctrl+Shift+V]**」（[!DNL Microsoft Windows]）または「**[!UICONTROL Command-Shift-V]**」（[!DNL Apple Macintosh]）をキーボードで入力します。
 
-   * （複数の子ターゲットを持つノード、「すべての」ノードを持たない、クリエイティブのみを持たない） ノードにすべての子ノードとクリエイティブを追加するには、既存のノードを削除せずに、コピー先のノードをクリックし、「**...**」をクリックし、a\を選択します。**[!UICONTROL Add ctrl+v]** **または b\） キーボードで **[!UICONTROL Ctrl+V]** （[!DNL Microsoft Windows]）または **[!UICONTROL Command-V]** （[!DNL Apple Macintosh]）を入力します。
+   * （複数の子ターゲットを持つノード、「すべての」ノードを持たない、クリエイティブのみを持たない） ノードにすべての子ノードとクリエイティブを追加するには、既存のノードを削除せずに、コピー先のノードをクリックし、「**...**」をクリックし、a\を選択します。**[!UICONTROL Add ctrl+v]** **または b\） キーボードで &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; （[!DNL Microsoft Windows]）または &#x200B;** [!UICONTROL Command-V]** （[!DNL Apple Macintosh]）を入力します。
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
