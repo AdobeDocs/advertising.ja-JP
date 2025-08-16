@@ -3,9 +3,9 @@ title: エクスペリエンスでのターゲットノードまたはクリエ�
 description: エクスペリエンス内のノードを削除する方法を説明します。
 feature: Creative Experiences
 exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
-source-git-commit: a98f5dc623e8ac86878171f8742f3bf279343343
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # エクスペリエンスでのターゲットノードまたはクリエイティブリーフノードの削除
 
 *デシジョンツリーのターゲット設定のみを使用したエクスペリエンス*
-*クローズドベータ版*
 
 ターゲットノード（割り当てられているすべての子ターゲットとクリエイティブバンドルを含む）を削除できます。 クリエイティブリーフノードを削除することもできます。
 

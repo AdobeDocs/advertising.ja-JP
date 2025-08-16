@@ -3,9 +3,9 @@ title: ターゲティングを使用しないエクスペリエンスの広告�
 description: 特定のクリエイティブサイズの広告タグにクリエイティブを割り当てる方法を説明します。
 feature: Creative Experiences
 exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # ターゲティングを使用しないエクスペリエンスの広告タグへのクリエイティブの割り当て
 
 *デシジョンツリーのターゲット設定を使用しないエクスペリエンスのみ*
-*クローズドベータ版*
 
 エクスペリエンスに使用する広告タグには、適切なクリエイティブサイズのクリエイティブを割り当てることができます。 エクスペリエンス設定で指定されたクリエイティブライブラリのクリエイティブを使用できます。 標準の広告エクスペリエンスの場合は、標準のクリエイティブのみを割り当てることができます。 動的な広告エクスペリエンスの場合は、動的なクリエイティブのみを割り当てることができます。<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
 

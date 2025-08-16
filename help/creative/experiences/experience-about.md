@@ -3,16 +3,14 @@ title: Advertising Creativeのエクスペリエンスについて
 description: パーソナライズされた広告エクスペリエンスを設定し、パフォーマンスに基づいて広告要素を最適化する方法を説明します。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
 
 # Advertising Creative 2.0 のエクスペリエンスについて
-
-*クローズドベータ版*
 
 各広告エクスペリエンスには、1 つの広告タイプ（標準表示、標準ビデオ、動的表示）を含めることができます。 [!DNL Advertising Creative 2.0] は、1 つのクリエイティブライブラリの広告に、2 つの異なる広告エクスペリエンス構造を提供します。
 

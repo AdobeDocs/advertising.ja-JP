@@ -3,9 +3,9 @@ title: エクスペリエンスのトラッキング URL のカスタマイズ
 description: 意思決定ツリーターゲティングを使用したエクスペリエンスで各クリエイティブのトラッキング URL をカスタマイズする方法を説明します。
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # デシジョンツリーのターゲット設定を使用したエクスペリエンスのクリエイティブ向けトラッキング URL のカスタマイズ
 
 *既存のクリエイティブを持つターゲットノードのみ*
-*クローズドベータ版*
 
 意思決定ツリーターゲティングを使用したエクスペリエンスの場合、エクスペリエンスに使用する個々のクリエイティブごとに、最大 5 つのカスタムインプレッショントラッキング URL、5 つのカスタムクリックトラッキング URL、1 つのカスタムランディングページ URL を作成できます。 決定ツリー内からトラッキング URL をカスタマイズできます。
 

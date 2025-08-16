@@ -3,9 +3,9 @@ title: エクスペリエンスの最終ノードへのクリエイティブバ�
 description: 広告エクスペリエンスの各ターゲットにクリエイティブを割り当てる方法を説明します。
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除
 
 *デシジョンツリーのターゲット設定のみを使用したエクスペリエンス*
-*クローズドベータ版*
 
 エクスペリエンスの決定ツリーの一番下のレベルにあるターゲットノードに、クリエイティブバンドルを割り当てることができます。 ターゲットを設定していないエクスペリエンスの場合、一番下のレベルは「すべて」の下になります。
 

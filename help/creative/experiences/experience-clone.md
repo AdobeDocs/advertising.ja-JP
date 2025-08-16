@@ -2,9 +2,10 @@
 title: エクスペリエンスのクローン
 description: 既存のエクスペリエンスを複製してエクスペリエンスを作成する方法を説明します。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8c305732-f2ff-4a9d-80ad-e9e0f6484ba2
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -12,8 +13,6 @@ ht-degree: 0%
 # エクスペリエンスのクローン
 
 <!-- "Duplicate" like for creatives and bundles? If we change this, change text throughout -->
-
-*クローズドベータ版*
 
 既存のエクスペリエンスを複製してエクスペリエンスを作成します。 新しいエクスペリエンスの名前は `<original name> (copy) # 1` （またはシーケンス内の次の番号）になります。 例えば、「テスト体験」のクローンを 2 つ作成した場合、クローンの名前は「テスト体験（コピー）番号 1」および「テスト体験（コピー）番号 2」になります。
 

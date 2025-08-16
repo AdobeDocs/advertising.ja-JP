@@ -3,16 +3,14 @@ title: ビデオおよびエクスペリエンスタグのトランスコーデ�
 description: ビデオ広告タグのトランスコーディングオプションをカスタマイズする方法について説明します。
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: 8f5740d1a90e505a16f69d566de13aefc1edf421
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 # ビデオおよびエクスペリエンスタグのトランスコーディングオプションのカスタマイズ
-
-*クローズドベータ版*
 
 ビデオ広告エクスペリエンスのトランスコーディングオプションをカスタマイズして、パブリッシャー間での高速な再生と品質管理を確保できます。
 

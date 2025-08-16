@@ -3,9 +3,9 @@ title: 子ノードを同じレベルの別のターゲットノードにコピ�
 description: 親ターゲットノードのすべての子ノードを同じレベルの別のターゲットノードにコピーする方法を説明します
 feature: Creative Experiences
 exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 子ノードを同じレベルの別のターゲットノードにコピー
 
 *デシジョンツリーのターゲット設定のみを使用したエクスペリエンス*
-*クローズドベータ版*
 
 親ターゲットノードのすべての子ノード（すべての子ターゲットとそれらに割り当てられたクリエイティブバンドルを含む）を、同じレベルの別のターゲットノードにコピーできます。 ノードをコピーするには、（a）コピーしたノードを既存のフレームワークに追加するか、（b）既存のフレームワークを完全に置き換えます。<!-- Give the main use case or an example to explain. -->
 
@@ -27,7 +26,7 @@ ht-degree: 0%
 
    * ノードのすべての子ノードとクリエイティブを置き換えるには、コピーした情報を貼り付けるノードをクリックして、「**...**」をクリックし、次に a\）「**[!UICONTROL Replace ctrl+shift+v]**」または b\）「**[!UICONTROL Ctrl+Shift+V]**」（[!DNL Microsoft Windows]）または「**[!UICONTROL Command-Shift-V]**」（[!DNL Apple Macintosh]）をキーボードで入力します。
 
-   * （複数の子ターゲットを持つノード、「すべての」ノードを持たない、クリエイティブのみを持たない） ノードにすべての子ノードとクリエイティブを追加するには、既存のノードを削除せずに、コピー先のノードをクリックし、「**...**」をクリックし、a\を選択します。**[!UICONTROL Add ctrl+v]** **または b\） キーボードで &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; （[!DNL Microsoft Windows]）または &#x200B;** [!UICONTROL Command-V]** （[!DNL Apple Macintosh]）を入力します。
+   * （複数の子ターゲットを持つノード、「すべての」ノードを持たない、クリエイティブのみを持たない） ノードにすべての子ノードとクリエイティブを追加するには、既存のノードを削除せずに、コピー先のノードをクリックし、「**...**」をクリックし、a\を選択します。**[!UICONTROL Add ctrl+v]** **または b\） キーボードで **[!UICONTROL Ctrl+V]** （[!DNL Microsoft Windows]）または **[!UICONTROL Command-V]** （[!DNL Apple Macintosh]）を入力します。
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

@@ -2,16 +2,15 @@
 title: エクスペリエンスを削除
 description: 未使用のエクスペリエンスを削除する方法を説明します。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5658692f-4ae6-41d5-82d3-78ff5560b95f
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
 # エクスペリエンスを削除
-
-*クローズドベータ版*
 
 <!-- No multiselect for experiences as of 1/30 -->
 
@@ -33,4 +32,3 @@ ht-degree: 0%
 >
 >* [ デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 ](experience-create-targeting.md)
 >* [ デシジョンツリーのターゲット設定を使用しないエクスペリエンスの作成 ](experience-create-no-targeting.md)
-

@@ -3,16 +3,14 @@ title: URL を追跡するために使用可能なマクロ
 description: ランディングページの URL、トラッキング URL およびサードパーティクリエイティブに追加できるマクロを参照します。
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
 # URL を追跡するために使用可能なマクロ
-
-*クローズドベータ版*
 
 <!-- More feature metadata???  -->
 
@@ -57,4 +55,4 @@ ht-degree: 0%
 >* [ クリエイティブライブラリへの標準クリエイティブの追加 ](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [ 標準のクリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [ ターゲット設定エクスペリエンス設定 ](/help/creative/experiences/experience-settings-targeting.md)
->*[ 非ターゲットエクスペリエンス設定 ](/help/creative/experiences/experience-settings-no-targeting.md)
+>  >*[ 非ターゲットエクスペリエンス設定 ](/help/creative/experiences/experience-settings-no-targeting.md)

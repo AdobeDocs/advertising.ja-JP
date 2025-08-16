@@ -3,9 +3,9 @@ title: 該当するクリエイティブサイズの広告タグを手動で作�
 description: 特定のクリエイティブサイズの広告タグを作成する方法を説明します。
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # （ターゲティングなしのエクスペリエンス）該当するクリエイティブサイズの広告タグを手動で作成します
 
 *デシジョンツリーのターゲット設定を使用しないエクスペリエンスのみ*
-*クローズドベータ版*
 
 エクスペリエンスに使用するクリエイティブサイズ（非ビデオクリエイティブ）またはビデオ時間ごとに、言語ごとに 1 つ以上の広告タグを作成できます。 後から [ クリエイティブを広告タグに割り当てる ](experience-tag-assign-creatives.md) ことができます。
 

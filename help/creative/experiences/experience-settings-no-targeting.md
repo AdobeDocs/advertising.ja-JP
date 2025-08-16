@@ -3,16 +3,14 @@ title: ターゲット以外のエクスペリエンスの設定
 description: デシジョンツリーのターゲット設定を使用しない広告エクスペリエンスのすべての設定の説明を参照してください。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
 
 # ターゲット以外のエクスペリエンスの設定
-
-*クローズドベータ版*
 
 ## [!UICONTROL Experience basics] セクション
 

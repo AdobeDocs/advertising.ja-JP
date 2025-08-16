@@ -3,16 +3,14 @@ title: クリエイティブライブラリでの標準クリエイティブの�
 description: クリエイティブライブラリで標準（非ダイナミック）クリエイティブの設定を変更する方法を説明します。
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # クリエイティブライブラリでの標準クリエイティブの編集
-
-*クローズドベータ版*
 
 標準クリエイティブのタイプごとに、いくつかの設定を編集できます。 同じクリエイティブタイプの複数のクリエイティブ <!-- or creative variations --> 同じランディングページを持つ単純なHTML5、複数のランディングページを持つ静的なHTML5、柔軟なHTML5、画像、サードパーティ <!-- , or dynamic -->）のみを編集できます。
 

@@ -3,9 +3,9 @@ title: エクスペリエンスのノード間にターゲットノードを追�
 description: 広告エクスペリエンスのターゲットノード間にターゲットノードを追加する方法を説明します。
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # エクスペリエンスのノード間にターゲットノードを追加する
 
 *デシジョンツリーのターゲット設定のみを使用したエクスペリエンス*
-*クローズドベータ版*
 
 既存のレベルの間にターゲット ノードを挿入すると、新しいターゲット ノードは既存のすべての子ターゲットとクリエイティブを保持し、新しいノードは最初に「すべて」と呼ばれます。 オプションで、特定のターゲットを追加せずに新しいノードを保持できます。
 

@@ -2,16 +2,15 @@
 title: デシジョンツリーでターゲット設定せずにエクスペリエンスを編集
 description: ターゲティングを使用せずに広告エクスペリエンスの設定を編集する方法を説明します。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 29f54944-72a0-405a-bc11-87ea03edc09a
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
 
 # デシジョンツリーでターゲット設定せずにエクスペリエンスを編集
-
-*クローズドベータ版*
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
 

@@ -3,9 +3,9 @@ title: エクスペリエンスのノード間に兄弟ターゲットノード�
 description: ターゲットを持つノード、またはターゲットを持つノードと同じレベルにあるノードに兄弟ノードを追加する方法を説明します。
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -13,15 +13,12 @@ ht-degree: 0%
 # エクスペリエンスのノード間に兄弟ターゲットノードを追加します
 
 *デシジョンツリーのターゲット設定のみを使用したエクスペリエンス*
-*クローズドベータ版*
 
 兄弟ノードは、ターゲットを持つノード、またはターゲットを持つノードと同じレベルにあるノードに追加できます。
 
 <!-- 1. Open the decision tree:
 
-
 In a new experience
-
 
 In an existing experience,
  -->

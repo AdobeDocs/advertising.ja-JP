@@ -3,16 +3,14 @@ title: デシジョンツリーのターゲット設定を使用しないエク�
 description: ターゲティングを使用せずに広告エクスペリエンスを作成する方法を説明します。
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
 # デシジョンツリーのターゲット設定を使用しないエクスペリエンスの作成
-
-*クローズドベータ版*
 
 ターゲティングを使用しない広告エクスペリエンスの作成。 各エクスペリエンスは、1 つのクリエイティブライブラリの広告を使用できます。
 

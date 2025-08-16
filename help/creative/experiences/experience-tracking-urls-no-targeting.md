@@ -3,16 +3,14 @@ title: ターゲティングを使用しないエクスペリエンス用のト�
 description: 決定ツリーターゲティングを使用せずに、エクスペリエンスで各クリエイティブのトラッキング URL をカスタマイズする方法を説明します。
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # デシジョンツリーのターゲット設定を使用しないエクスペリエンス用のトラッキング URL のカスタマイズ
-
-*クローズドベータ版*
 
 決定ツリーターゲティングのないエクスペリエンスの場合、広告エクスペリエンスタグに使用する個々のクリエイティブごとに、最大 5 つのカスタムインプレッショントラッキング URL、5 つのカスタムクリックトラッキング URL、1 つのカスタムランディングページ URL を作成できます。 [!UICONTROL Tag Manager] 内からトラッキング URL をカスタマイズできます。
 
