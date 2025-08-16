@@ -3,16 +3,14 @@ title: リターゲティングピクセルの管理
 description: 広告エクスペリエンスのターゲットとして使用するリターゲティングピクセルを作成および実装する方法について説明します。
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # リターゲティングピクセルの管理
-
-*クローズドベータ版*
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
@@ -75,7 +73,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Copy to Clipboard]** をクリックして、タグをコンピューターのクリップボードにコピーします。このクリップボードから、テキストをファイルに貼り付けて保存できます。
 
-1. pixel タグで、各「`Insert <attribute>`」を値に置き換えて、「`<img src>`」セクションと「`<script src>`」セクションの両方で各アトリビュートの値を指定します。 タグがユニバーサル ID をキャプチャする場合は、ID5 パートナー ID を指定します。
+1. pixel タグで、各「`<img src>`」を値に置き換えて、「`<script src>`」セクションと「`Insert <attribute>`」セクションの両方で各アトリビュートの値を指定します。 タグがユニバーサル ID をキャプチャする場合は、ID5 パートナー ID を指定します。
 
    属性を手動で追加する場合は、URL エンコーディングを含める必要があります。
 
@@ -111,7 +109,7 @@ ht-degree: 0%
 
 ピクセルに公開されたユーザーに対して広告エクスペリエンスをターゲット設定する場合、クリエイティブを表示するために存在する必要がある属性値をターゲット設定で指定します。
 
-**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** （Beta機能、新しいピクセルのみ、オプション）トラッキングするピクセルタグのユニバーサル ID のタイプ：
+**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** （新しいピクセルのみ。オプション）追跡するピクセルタグのユニバーサル ID のタイプ。
 
 * *[!UICONTROL ID5]:* ピクセルタグは [!DNL ID5] ID を追跡します。 ユニバーサル ID に配信されるインプレッションには料金は発生しません。
 

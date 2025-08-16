@@ -3,7 +3,7 @@ title: '[!UICONTROL Custom Creative Report]'
 description: クロスエクスペリエンス [!UICONTROL Custom Creative Report] ークフローを生成する方法を説明します。
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 03d3f3c43bfe58f2dcab998e1d95f1e512f54b20
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # [!UICONTROL Custom Creative Report]
 
-*クローズドベータ版*
+*Beta機能*
 
 [!UICONTROL Custom Creative Report] を使用すると、すべての広告エクスペリエンスに対するレポートデータのコンテンツと配信をカスタマイズできます。
 
-レポートを 1 回生成することも、指定した基準（15 日ごと、毎月 1 日など）に従って、指定したタイムゾーンで毎日、毎週、毎月 3 時に生成するようにスケジュールすることもできます。 レポートが生成されたら、[!UICONTROL Reports] / [!UICONTROL Custom Reports] または次のタイプのリンクされた [ レポートの宛先 ](/help/dsp/reports/report-destinations/report-destination-about.md) からダウンロードできます。
+レポートを 1 回生成することも、指定した基準（15 日ごと、毎月 1 日など）に従って指定したタイムゾーンで毎日 :00 毎週、または毎月 03 時に生成するようにスケジュールすることもできます。 レポートが生成されたら、[!UICONTROL Reports] / [!UICONTROL Custom Reports] または次のタイプのリンクされた [ レポートの宛先 ](/help/dsp/reports/report-destinations/report-destination-about.md) からダウンロードできます。
 
 * [!DNL Amazon Simple Storage Service] （[!DNL S3]）
 * FTP
@@ -67,7 +67,7 @@ ht-degree: 0%
   >
   >また、[ ビューから ](/help/dsp/reports/report-run-now.md) いつでもカスタムレポートを実行 [!UICONTROL Reports] することもできます。
 
-* *[!UICONTROL On]\&lt;Date\>:* 指定した完了日に、アカウントのタイムゾーンで 09:00 までにレポートを実行します。
+* *[!UICONTROL On]\&lt;Date\>:* アカウントのタイムゾーンで 09:00 までに完了するように、指定された日付にレポートを実行します。
 
 * *[!UICONTROL Recurring]:* 指定した期間のスケジュールに従ってレポートを実行します。
 
