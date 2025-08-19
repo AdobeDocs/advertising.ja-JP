@@ -2,10 +2,10 @@
 title: アトリビューションルールの計算方法
 description: Adobe Advertisingで各タイプのアトリビューションルールを計算する方法について説明します。
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
-feature: Search Reports
-source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
+feature: Search Reports, DSP Custom Reports
+source-git-commit: 513d81cf835ccbffa16581799f0dc8306681e3ad
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,19 @@ ht-degree: 0%
 
 広告主レベルのアトリビューションルールを使用すると、コンバージョンにつながる一連のイベントで、コンバージョンデータを（場合によっては複数の広告チャネルにわたって）属性化できます。
 
-Advertisingの検索、ソーシャル、Commerce（検索、ソーシャル、Commerce）および（一部のユーザーロール）のレポート、デフォルトおよびカスタムビュー、検索、ソーシャル、Commerceのポートフォリオレベルのシミュレーションでは、選択したルールはビュー、レポートまたはシミュレーションデータにのみ使用されます。 様々なアトリビューションルールが次のように適用されます。
+また、次の場所でアトリビューションルールを選択して、結果のデータにのみルールを適用することもできます。
+
+* DSP
+
+   * マルチタッチ属性を含むカスタムレポート
+
+* 検索、ソーシャル、Commerce
+
+   * カスタムレポート
+
+   * デフォルトビューとカスタムビュー
+
+   * （一部のユーザーの役割）Portfolioレベルのシミュレーション。
 
 >[!NOTE]
 >
@@ -37,7 +49,7 @@ Advertisingの検索、ソーシャル、Commerce（検索、ソーシャル、C
 
 <!-- start examples as collapsible content -->
 
-+++イベント演算の例
++++イベント計算の例
 
 ### すべてのクリックを使用した例
 
@@ -79,7 +91,7 @@ Advertisingの検索、ソーシャル、Commerce（検索、ソーシャル、C
 
 <!-- start examples as collapsible content -->
 
-+++イベント演算の例
++++イベント計算の例
 
 ### すべてのクリックを使用した例
 
@@ -128,7 +140,7 @@ Advertisingの検索、ソーシャル、Commerce（検索、ソーシャル、C
 
 <!-- start examples as collapsible content -->
 
-+++イベント演算の例
++++イベント計算の例
 
 ### すべてのクリックを使用した例
 
@@ -190,7 +202,7 @@ Advertisingの検索、ソーシャル、Commerce（検索、ソーシャル、C
 
 <!-- start examples as collapsible content -->
 
-+++イベント演算の例
++++イベント計算の例
 
 ### すべてのクリックを使用した例
 
@@ -250,7 +262,7 @@ Advertisingの検索、ソーシャル、Commerce（検索、ソーシャル、C
 
 <!-- start examples as collapsible content -->
 
-+++イベント演算の例
++++イベント計算の例
 
 ### すべてのクリックを使用した例
 
@@ -308,7 +320,7 @@ Advertisingの検索、ソーシャル、Commerce（検索、ソーシャル、C
 
 <!-- start examples as collapsible content -->
 
-+++イベント演算の例
++++イベント計算の例
 
 ### すべてのクリックを使用した例
 
