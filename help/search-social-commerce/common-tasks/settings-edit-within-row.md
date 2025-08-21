@@ -3,9 +3,9 @@ title: 行内で設定を直接編集する
 description: 行内の管理ビューでデータを編集する方法を説明します。
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: e83fe03e8887dc30a7e60313b17dbdce46e6362b
+source-git-commit: 533484b8e2e462891d7d34091991047b2d9b62c7
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,14 @@ ht-degree: 0%
 
 ## （新しい UI）行内の設定の編集
 
-1. セルの内側をクリックしてアクティブにするか、値の上にカーソルを置いて ![ 編集 ](/help/search-social-commerce/assets/edit-new.png " 編集 ") をクリックします。
+1. セルの内側をクリックしてアクティブにするか、値の上にカーソルを置きます。
 
 1. 値を変更します。
 
-1. **適用** をクリックします。
+   * （リストのオプション）リストから新しいオプションを選択します。
 
-<!--
-1. Change the value:
+   * （自由形式の値） ![ 編集 ](/help/search-social-commerce/assets/edit-new.png " 編集 ") をクリックし、値を変更して **適用** をクリックします。
 
-   * (Options in a list) Select a new option from the list.
-   
-   * (Dates) Enter a new date, or click ![Calendar](/help/search-social-commerce/assets/calendar.png "Calendar") to open the calendar and [select a new date](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
-   
-   * (Free-form values) Enter a new value.
--->
 
 ## （従来の UI）行内の設定の編集
 
