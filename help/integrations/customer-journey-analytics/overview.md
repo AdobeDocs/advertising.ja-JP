@@ -2,9 +2,9 @@
 title: Adobe AdvertisingとAdobe Customer Journey Analytics間の統合の概要
 description: Adobe AdvertisingとAdobe Customer Journey Analyticsを統合するためのオプションについて説明します。
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 71653e59a22201e8b77ce07119053a11eac60a19
+source-git-commit: 1e8305031b175f9bb1c52b82b6ed4913e6108349
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -50,3 +50,4 @@ Adobe アカウントチームに連絡してください。アカウントチ�
 >[!MORELIKETHIS]
 >
 >* [ 前提条件 ](prerequisites.md)
+>* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データを収集します ](/help/integrations/analytics/rvars-to-evars.md)。
