@@ -2,9 +2,9 @@
 title: Adobe AdvertisingとCustomer Journey Analyticsの統合の前提条件
 description: Adobe AdvertisingとCustomer Journey Analyticsの統合の前提条件
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: b93ea465edf98837bf7af693b6b5f5bbd4adea02
+source-git-commit: 199fc8f6784dbbb43eeb8fcfe9c6f0f35cfdad6b
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,4 @@ Adobe AdvertisingをAdobe Customer Journey Analyticsと統合する前に、次�
 >[!MORELIKETHIS]
 >
 >* [ 概要 ](overview.md)
+>* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データを収集します ](/help/integrations/analytics/rvars-to-evars.md)。
