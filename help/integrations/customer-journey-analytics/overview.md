@@ -2,9 +2,9 @@
 title: Adobe AdvertisingとAdobe Customer Journey Analytics間の統合の概要
 description: Adobe AdvertisingとAdobe Customer Journey Analyticsを統合するためのオプションについて説明します。
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 1e8305031b175f9bb1c52b82b6ed4913e6108349
+source-git-commit: ed3c3b4331b743d0c40f04fb8543c535d80ca1d5
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,15 @@ ht-degree: 0%
 
 *Advertising DSP[!DNL Advertising Search, Social, & Commerce]* の広告主
 
-Adobe AdvertisingはAdobe Customer Journey Analyticsと統合され、各製品の機能を拡張および強化します。 統合を設定するには、次の 2 つの方法があります。
+Adobe AdvertisingはAdobe Customer Journey Analyticsと統合されており、双方向のデータ共有が可能です。 統合を設定するには、次の 2 つの方法があります。
 
 * [!DNL Analytics for Advertising] とCustomer Journey Analyticsの両方を持つ広告主は、[!DNL Analytics for Advertising] を通じて持っているのと同じ機能を持っており、Customer Journey Analyticsにビジュアライゼーションが追加されています。
 
   引き続き、Adobe Experience Platform Web SDK（`alloy.js`）またはAdobe Experience Cloud ID サービス（`visitorAPI.js`）を使用してクリックスルーイベントをトラッキングします。 Advertising DSPを使用する広告主は、引き続きJavaScript スニペットを使用してビュースルーイベントをトラッキングします。 Customer Journey Analyticsで使用できるデータは次のとおりです。
 
    * Adobe Advertisingからの Campaign パフォーマンスデータ
+
+     **メモ：** [!DNL Apple] および [!DNL Tiktok] のデータは使用できません。
 
    * [!DNL Google Ads]、[!DNL Microsoft Advertising] および [!DNL Meta] で追跡されるサイトアクティビティとコンバージョン
 
