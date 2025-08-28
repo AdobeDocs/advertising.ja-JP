@@ -3,9 +3,9 @@ title: Adobe AdvertisingとAdobe Customer Journey Analytics間の統合の概要
 description: Adobe AdvertisingとAdobe Customer Journey Analyticsを統合するためのオプションについて説明します。
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 57636259-f91a-404f-b972-994af67098b1
-source-git-commit: 37c0485189c9bf084d4051fec501a1b2128687ec
+source-git-commit: b60834569c795013d989fca81c3799165250094b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Adobe AdvertisingはAdobe Customer Journey Analyticsと統合されており、�
 
   このユースケースでは、オプションで [Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データを収集 ](/help/integrations/analytics/rvars-to-evars.md) する以外に、追加の手順を実行する必要はありません。
 
-* （今後リリース予定のベータ版機能）Customer Journey Analyticsを使用してい [!DNL Analytics for Advertising] 広告主は、Adobe Experience Platform web SDK（`alloy.js`）を使用してクリックスルーおよびビュースルーイベントをトラッキングすることにより、Adobe AdvertisingとCustomer Journey Analyticsの間で次のデータをネイティブに交換できます。 データは、キャンペーンレベル、広告グループレベル、パッケージレベル、プレースメント レベル、キーワードレベルで使用できます。
+* （今後リリース予定のベータ版機能）Customer Journey Analyticsを使用してい [!DNL Analytics for Advertising] 広告主は、[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) ライブラリ（`alloy.js`）を使用して、Adobe AdvertisingとCustomer Journey Analyticsの間でネイティブにデータを交換できます。 Cookie、ハッシュ化された IP、ユニバーサル ID （[!DNL LiveRamp RampIDs] および ID5 ID）を使用してサイトイベントを追跡し、サイトイベントを有料メディアアクティビティに関連付けることができます。 次のデータは、キャンペーン、広告グループ、パッケージ、プレースメント、キーワードの各レベルで利用できます。
 
    * Customer Journey AnalyticsのAdobe Advertisingからの Campaign パフォーマンスデータ
 
@@ -40,7 +40,7 @@ Adobe AdvertisingはAdobe Customer Journey Analyticsと統合されており、�
 
    * 最適化やレポートに使用できる、Adobe AdvertisingのCustomer Journey Analyticsのアトリビューションデータ
 
-  **メモ：** まだオーガニックデータはありません。<!-- Does that belong somewhere up above? -->
+  **メモ：** まだオーガニックデータはありません。
 
   この使用例では、Web SDKを使用してサイトイベントを追跡し（Cookie、ハッシュ化された IP アドレス、ユニバーサル ID を使用）、サイトイベントを [!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Meta] およびAdobe DSPの有料メディアアクティビティに関連付けます。 また、データ収集にもAdobe Experience Platformを使用します。
 
