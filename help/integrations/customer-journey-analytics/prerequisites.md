@@ -28,7 +28,7 @@ Adobe AdvertisingをAdobe Customer Journey Analyticsと統合する前に、次�
 
    * Adobe Experience Platform Web SDK ライブラリ：`alloy.js`
 
-     Web SDKとAdobe Advertising広告主アカウントで使用する [!DNL Org ID] は同じである必要があります。 この ID は、Adobe Experience Cloud Debugger の [ 概要」タブ ](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) にあります。
+     Web SDKとAdobe Advertising広告主アカウントで使用する [!DNL Org ID] は同じである必要があります。 この ID は、Adobe Experience Cloud Debugger の [ 概要」タブ ](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ja) にあります。
 
      ![Experience Cloud Debugger の概要画面 ](/help/integrations/assets/a4adc-debugger-summary.png)
 
