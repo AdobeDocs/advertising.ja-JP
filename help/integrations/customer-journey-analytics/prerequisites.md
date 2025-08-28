@@ -3,9 +3,9 @@ title: Adobe AdvertisingとCustomer Journey Analyticsの統合の前提条件
 description: Adobe AdvertisingとCustomer Journey Analyticsの統合の前提条件
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: 194675147b64af37de6373116f246f1e61388a23
+source-git-commit: 9e89f91f31c756e21db3f5b2b7c87991166e4859
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
    * [ その他すべての前提条件  [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)。
 
-* Customer Journey Analyticsを持つが [!DNL Analytics for Advertising] を持たない広告主：
+* （Beta機能）Customer Journey Analyticsを使用するが、[!DNL Analytics for Advertising] を使用しない広告主：
 
    * Adobe Experience Platform Web SDK ライブラリ：`alloy.js`
 
-     Web SDKとAdobe Advertising広告主アカウントで使用する [!DNL Org ID] は同じである必要があります。 この ID は、Adobe Experience Cloud Debugger の [ 概要」タブ ](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ja) にあります。
+     Web SDKとAdobe Advertising広告主アカウントで使用する [!DNL Org ID] は同じである必要があります。 この ID は、Adobe Experience Cloud Debugger の [ 概要」タブ ](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) にあります。
 
      ![Experience Cloud Debugger の概要画面 ](/help/integrations/assets/a4adc-debugger-summary.png)
 
