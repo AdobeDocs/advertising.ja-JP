@@ -1,5 +1,5 @@
 ---
-source-git-commit: 8c36de7ffe73f86a4e78f11e38cd84fa59134833
+source-git-commit: 47b5d399d4a5daa8832456abc32fff68e694abe9
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -9,9 +9,9 @@ ht-degree: 0%
 
 ## ADOBE ADVERTISING EF ID
 
-EF ID は、Adobe Advertisingがアクティビティをオンラインクリックまたは広告漏洩に関連付けるために使用する一意のトークンです。 EF ID は、[an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja) または [!DNL rVar] （予約済み [!DNL eVar]）ディメンション（Adobe Advertising EF ID）に保存され、個々のブラウザーまたはデバイスレベルで各広告のクリックまたは露出をトラッキングします。 EF ID は、主にAdobe Advertising内のレポートおよび入札最適化のためにAdobe Advertisingに [!DNL Analytics] データを送信するためのキーとして機能します。
+EF ID は、Adobe Advertisingがアクティビティをオンラインクリックまたは広告漏洩に関連付けるために使用する一意のトークンです。 EF ID は、[an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) または [!DNL rVar] （予約済み [!DNL eVar]）ディメンション（Adobe Advertising EF ID）に保存され、個々のブラウザーまたはデバイスレベルで各広告のクリックまたは露出をトラッキングします。 EF ID は、主にAdobe Advertising内のレポートおよび入札最適化のためにAdobe Advertisingに [!DNL Analytics] データを送信するためのキーとして機能します。
 
-### EF ID フォーマット
+### EF ID 形式 {#ef-id-formats}
 
 >[!NOTE]
 >
