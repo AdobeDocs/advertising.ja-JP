@@ -53,4 +53,4 @@ ht-degree: 11%
    + [概要](/help/integrations/customer-journey-analytics/overview.md)
    + [前提条件](/help/integrations/customer-journey-analytics/prerequisites.md)
    + &lbrack;[[!DNL Customer Journey Analytics が使用するAdobe Advertising ID]](/help/integrations/customer-journey-analytics/ids.md)
-+ [Adobe Advertising統合に関するビデオチュートリアル ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
++ [Adobe Advertising統合に関するビデオチュートリアル ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ja)<!-- rename if the tutorials TOC structure changes -->
