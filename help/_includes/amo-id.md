@@ -1,5 +1,5 @@
 ---
-source-git-commit: 6fa4e5d06271789edc915d67d320f775a83ed653
+source-git-commit: 41a1485539e6943287b04ee31f64088025c2af80
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 AMO ID は、一意の各広告の組み合わせを細かいレベルで追跡し、[!DNL Analytics] とCustomer Journey Analyticsのデータ分類や、Adobe Advertisingからの広告指標（インプレッション数、クリック数、コストなど）の取り込みに使用されます。
 
-[!DNL Analytics]:AMO ID は、[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja) または rVar ディメンション（AMO ID）に保存されます。
+[!DNL Analytics]:AMO ID は、[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) または rVar ディメンション（AMO ID）に保存されます。
 
 Customer Journey Analyticsの場合、AMO ID は、`trackingCode` の一部である `conversionDetails` オブジェクトの [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] プロパティに保存されます。
 
@@ -35,7 +35,7 @@ AMO ID は `s_kwcid` とも呼ばれ、「[!DNL squid]」と発音されるこ�
 
 * サーバーサイド挿入機能が実装されていない場合：
 
-   * DSPのお客様：[JavaScript コード ](javascript.md) は、クリックスルーとビュースルーを自動的に記録します。 ブラウザーがサードパーティ cookie をサポートしていない場合でも、次の広告タイプのクリックベースのコンバージョンを追跡できます。
+   * DSPのお客様：[JavaScript コード ](/help/integrations/analytics/javascript.md) は、クリックスルーとビュースルーを自動的に記録します。 ブラウザーがサードパーティ cookie をサポートしていない場合でも、次の広告タイプのクリックベースのコンバージョンを追跡できます。
 
       * [!DNL Flashtalking] の広告タグの場合は、「[ 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Flashtalking]  広告タグに ](/help/integrations/analytics/macros-flashtalking.md)」ごとに手動で追加マクロを挿入します。 **注意：** 組織が [!DNL Flashtalking] と直接関係があり、データパスマクロを使用して `s_kwcid` および `ef_id` のトラッキングパラメーターを追跡する場合、[!DNL Flashtalking] サポートドキュメント （[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) に記載されている必要はありません。
 
@@ -73,7 +73,7 @@ AMO ID の例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 * `{userid}` は、広告主に割り当てられた一意のユーザー ID です。
 
-* `{sid}` は、広告主の広告ネットワークアカウントの数値 ID に置き換えられます。*の場合は* 3[!DNL Google Ads]、*の場合は* 10[!DNL Microsoft Advertising]、*の場合は* 45[!DNL Meta]、*の場合は* 86[!DNL Yahoo! Display Network]、*の場合は* 87[!DNL Naver]、*の場合は* 88[!DNL Baidu]、*900 の場合は*[!DNL Yandex] **&#x200B; [!DNL Yahoo! Japan Ads] &#x200B;** [!DNL Yahoo Native] ** [!DNL Pinterest] 90588885 （廃止予定）。
+* `{sid}` は、広告主の広告ネットワークアカウントの数値 ID に置き換えられます。*の場合は* 3[!DNL Google Ads]、*の場合は* 10[!DNL Microsoft Advertising]、*の場合は* 45[!DNL Meta]、*の場合は* 86[!DNL Yahoo! Display Network]、*の場合は* 87[!DNL Naver]、*の場合は* 88[!DNL Baidu]、*900 の場合は*[!DNL Yandex] ** [!DNL Yahoo! Japan Ads] ** [!DNL Yahoo Native] ** [!DNL Pinterest] 90588885 （廃止予定）。
 
 ##### [!DNL Baidu]
 
@@ -148,13 +148,13 @@ where:
 >[!NOTE]
 >
 > [!UICONTROL Auto Upload] トラッキングオプションのないキャンペーンで、まだ新しい形式に移行されていないアカウントの場合、上記の形式を含めるように各ランディングページのサフィックスを手動で更新します。
-> &#x200B;>それまでの間、次のような従来の形式も引き続き機能します。
+> >それまでの間、次のような従来の形式も引き続き機能します。
 >* 検索キャンペーン：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* ショッピングキャンペーン（[!DNL Microsoft Merchant Center] を使用）:
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* オーディエンスネットワークキャンペーン：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
