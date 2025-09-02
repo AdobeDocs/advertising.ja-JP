@@ -54,4 +54,4 @@ ht-degree: 10%
    + [前提条件](/help/integrations/customer-journey-analytics/prerequisites.md)
    + [Customer Journey Analyticsが使用するAdobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
    + [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Adobe Advertising統合に関するビデオチュートリアル ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
++ [Adobe Advertising統合に関するビデオチュートリアル ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ja)<!-- rename if the tutorials TOC structure changes -->
