@@ -2,9 +2,9 @@
 title: Customer Journey AnalyticsのAdobe Advertising指標およびディメンション
 description: Customer Journey Analyticsで使用可能なAdobe Advertisingの指標とディメンションを参照します。
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: c3836d8af50061701434790b2bd9214df29e8a01
+source-git-commit: 4b02ee2b334401884e3d15159851e8447d74fe96
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,8 @@ ht-degree: 0%
 # Customer Journey AnalyticsのAdobe Advertising指標およびディメンション
 
 *Adobe AdvertisingとCustomer Journey Analyticsの統合のみを利用する広告主*
+
+*Beta機能*
 
 Adobe Advertisingは、トラフィック指標とディメンションを毎日 [!DNL Customer Journey Analytics] に渡します。 [!DNL Web SDK] は、Adobe Advertisingのクリックスルーとビュースルーをリアルタイムでキャプチャして、Customer Journey Analyticsに渡します。
 
