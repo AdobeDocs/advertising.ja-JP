@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 
+>* &#x200B;
 >* 「XDM フィールド名」は、Adobe Experience Platformのフィールド名です。
 >* 「XDM フィールド表示名」は、Customer Journey Analytics内の表示名を示します。
 

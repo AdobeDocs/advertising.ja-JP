@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Advertising DSP[!DNL Advertising Search, Social, & Commerce]* の広告主
 
-* Adobe Experience Platformのデータモデリングおよび管理テクノロジー（[ スキーマ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) および [ データセット ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)）と [ データ収集テクノロジー ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home)[ データストリーム ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) および [ タグ ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)）を使用します
+* Adobe Experience Platformのデータモデリングおよび管理テクノロジー（[ スキーマ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) および [ データセット ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)）と [ データ収集テクノロジー ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) [ データストリーム ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) および [ タグ ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)）を使用します
 
   これらのテクノロジーを使用するには、Experience Platform サイト管理者のサポートが必要です。
 
