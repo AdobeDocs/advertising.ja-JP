@@ -2,9 +2,9 @@
 title: Customer Journey AnalyticsのAdobe Advertising指標およびディメンション
 description: Customer Journey Analyticsで使用可能なAdobe Advertisingの指標とディメンションを参照します。
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 4b02ee2b334401884e3d15159851e8447d74fe96
+source-git-commit: 6e22ead8f91d87cce3f104635e95a2dcab03bc3a
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,11 @@ Adobe Advertisingは、トラフィック指標とディメンションを毎日
 
 <!-- Verify column names -->
 
->[!NOTE]
->
->* 「XDM フィールド名」は、Adobe Experience Platformのフィールド名です。
->* 「XDM フィールド表示名」は、Customer Journey Analytics内の表示名を示します。
+次の表を参照してください。
+
+* 「XDM フィールド名」は、Adobe Experience Platformのフィールド名です。
+
+* 「XDM フィールド表示名」は、Customer Journey Analytics内の表示名を示します。
 
 | Adobe Advertising フィールド名 | XDM フィールド名 | XDM フィールドの表示名 | Source |
 |------------------------------|----------------|------------------------|--------|
@@ -59,10 +60,11 @@ Adobe Advertisingは、トラフィック指標とディメンションを毎日
 
 ## Adobe Advertising ディメンション
 
->[!NOTE]
->
->* 「XDM フィールド」は、Adobe Experience Platformのフィールド名です。
->* 「XDM フィールド表示名」は、Customer Journey Analytics内の表示名を示します。
+次の表を参照してください。
+
+* 「XDM フィールド名」は、Adobe Experience Platformのフィールド名です。
+
+* 「XDM フィールド表示名」は、Customer Journey Analytics内の表示名を示します。
 
 | Adobe Advertising フィールド名 | XDM フィールド名 | XDM フィールドの表示名 | Source |
 |------------------------------|----------------|------------------------|--------|
