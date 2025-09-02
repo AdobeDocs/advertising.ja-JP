@@ -2,9 +2,9 @@
 title: Customer Journey AnalyticsのAdobe Advertising指標およびディメンション
 description: Customer Journey Analyticsで使用可能なAdobe Advertisingの指標とディメンションを参照します。
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 519d1ac2269e5ebaf8cc90a15b0eb421f8187229
+source-git-commit: eddd9c997ada380d5624703b82bca189be90b893
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* &#x200B;
+>* 
 >* 「XDM フィールド名」は、Adobe Experience Platformのフィールド名です。
 >* 「XDM フィールド表示名」は、Customer Journey Analytics内の表示名を示します。
 
@@ -94,4 +94,3 @@ ht-degree: 0%
 >* [ 概要 ](overview.md)
 >* [ 前提条件 ](prerequisites.md)
 >* [ 使用するAdobe Advertising ID [!DNL Customer Journey Analytics]](ids.md)
->* [ データ収集、データ転送、レポートの設定 ](set-up.md)
