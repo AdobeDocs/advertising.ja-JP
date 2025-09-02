@@ -3,9 +3,9 @@ title: Adobe AdvertisingとAdobe Customer Journey Analytics間の統合の概要
 description: Adobe AdvertisingとAdobe Customer Journey Analyticsを統合するためのオプションについて説明します。
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 57636259-f91a-404f-b972-994af67098b1
-source-git-commit: 545dcedda0a593ebd3424cda33e5c85a7fb7a28d
+source-git-commit: ca039c91a976d79ed732ad7e0435566d58f3f843
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,13 @@ Adobe AdvertisingはAdobe Customer Journey Analyticsと統合されており、�
 
    * Adobe Advertisingの [!DNL Analytics] のアトリビューションデータ。最適化とレポートに使用できます。
 
-  このユースケースでは、オプションで [Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データを収集 ](/help/integrations/analytics/rvars-to-evars.md) する以外に、追加の手順を実行する必要はありません。
+  このユースケースでは、オプションで [Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データを収集 ](/help/integrations/analytics/rvars-to-evars.md) を使用する必要があります。
 
-* （今後リリース予定のベータ版機能）Customer Journey Analyticsを使用してい [!DNL Analytics for Advertising] 広告主は、[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) ライブラリ（`alloy.js`）を使用して、Adobe AdvertisingとCustomer Journey Analyticsの間でネイティブにデータを交換できます。 Cookie、ハッシュ化された IP、ユニバーサル ID （[!DNL LiveRamp RampIDs] および ID5 ID）を使用してサイトイベントを追跡し、サイトイベントを有料メディアアクティビティに関連付けることができます。 次のデータは、キャンペーン、広告グループ、パッケージ、プレースメント、キーワードの各レベルで利用できます。
+<!--
+  In this use case, you don't need to perform any extra steps except to optionally [collect historical data for AMO IDs and EF IDs for use in Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
+-->
+
+* （今後リリース予定のベータ版機能）Customer Journey Analyticsを使用してい [!DNL Analytics for Advertising] 広告主は、[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) を使用して、Adobe AdvertisingとCustomer Journey Analyticsの間でデータをネイティブに交換できます。 Cookie、ハッシュ化された IP、ユニバーサル ID （[!DNL LiveRamp RampIDs] および ID5 ID）を使用してサイトイベントを追跡し、サイトイベントを有料メディアアクティビティに関連付けることができます。 次のデータは、キャンペーン、広告グループ、パッケージ、プレースメント、キーワードの各レベルで利用できます。
 
    * Customer Journey AnalyticsのAdobe Advertisingからの Campaign パフォーマンスデータ
 

@@ -3,40 +3,26 @@ title: Adobe AdvertisingとCustomer Journey Analyticsの統合の前提条件
 description: Adobe AdvertisingとCustomer Journey Analyticsの統合の前提条件
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: 9e89f91f31c756e21db3f5b2b7c87991166e4859
+source-git-commit: 277b2ccb4d1daad7b5f94a94b283226881c90ab4
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
 # Adobe AdvertisingとCustomer Journey Analyticsの統合の前提条件
 
+*Beta機能*
+
 *Advertising DSP[!DNL Advertising Search, Social, & Commerce]* の広告主
 
-* [!DNL Analytics for Advertising] とCustomer Journey Analyticsの両方を持つ広告主：
+* Adobe Experience Platformのデータモデリングおよび管理テクノロジー（[ スキーマ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) および [ データセット ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)）と [ データ収集テクノロジー ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home)[ データストリーム ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) および [ タグ ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)）を使用します
 
-   * Adobe Customer Journey Analytics<!-- any specific version? -->
+  これらのテクノロジーを使用するには、Experience Platform サイト管理者のサポートが必要です。
 
-   * [ その他すべての前提条件  [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)。
+* データ管理ツールにアクセスできるAdobe Customer Journey Analytics
 
-* （Beta機能）Customer Journey Analyticsを使用するが、[!DNL Analytics for Advertising] を使用しない広告主：
-
-   * Adobe Experience Platform Web SDK ライブラリ：`alloy.js`
-
-     Web SDKとAdobe Advertising広告主アカウントで使用する [!DNL Org ID] は同じである必要があります。 この ID は、Adobe Experience Cloud Debugger の [ 概要」タブ ](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ja) にあります。
-
-     ![Experience Cloud Debugger の概要画面 ](/help/integrations/assets/a4adc-debugger-summary.png)
-
-     Experience Platform データストリームおよび XDM スキーマを作成するには、Experience Platform サイト管理者のサポートが必要です。
-
-   * Adobe Customer Journey Analytics<!-- any specific version? -->
-
-     データセットへの接続を設定し、レポートを設定するには、社内の Web アナリストによるサポートが必要です。
-
->[!TIP]
->
->データの忠実性を向上させるには、各ライブラリの最新バージョンを使用します。
+  データセットへの接続を設定し、レポートを設定するには、社内の Web アナリストによるサポートが必要です。
 
 >[!MORELIKETHIS]
 >
