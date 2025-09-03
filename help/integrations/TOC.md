@@ -4,9 +4,9 @@ user-guide-description: Advertising DSP および Advertising Search と他の A
 breadcrumb-title: Experience Cloud との統合
 role: User, Developer
 index: true
-source-git-commit: 6ba15a874cef5748088897edc9ef3f4a27e8ce52
+source-git-commit: d8bef70c4d8525fc4fecd114f8bcfef45ad1af01
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '265'
 ht-degree: 10%
 
 ---
@@ -53,5 +53,6 @@ ht-degree: 10%
    + [概要](/help/integrations/customer-journey-analytics/overview.md)
    + [前提条件](/help/integrations/customer-journey-analytics/prerequisites.md)
    + [Customer Journey Analyticsが使用するAdobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
+   + [データ収集、データ転送およびレポートの設定](/help/integrations/customer-journey-analytics/set-up.md)
    + [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Adobe Advertising統合に関するビデオチュートリアル ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ja)<!-- rename if the tutorials TOC structure changes -->
++ [Adobe Advertising統合に関するビデオチュートリアル ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
