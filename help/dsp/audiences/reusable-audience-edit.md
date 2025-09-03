@@ -3,9 +3,9 @@ title: 再利用可能なオーディエンスを編集
 description: 再利用可能なオーディエンスを編集する方法を説明します。
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # 再利用可能なオーディエンスを編集
 
 任意のプレースメントや他の再利用可能なオーディエンスで使用されているオーディエンスを編集すると、それらのプレースメントやオーディエンスに変更が直ちに適用されます。<!-- verify -->
+
+>[!NOTE]
+>
+>（DSPがハッシュ化されたメール ID を LiveRamp RampID セグメントに変換する広告主）アクティブ、スケジュール済み、一時停止のプレースメントに関連付けられていないファーストパーティの RampID セグメントは一時停止されます。 セグメントは、セグメントリストに「自動一時停止」と表示されます。
 
 1. メインメニューで、**[!UICONTROL Audiences]**/**[!UICONTROL All audiences]** をクリックします。
 

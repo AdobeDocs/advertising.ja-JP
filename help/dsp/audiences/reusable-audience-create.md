@@ -3,9 +3,9 @@ title: 再利用可能なオーディエンスを作成
 description: オーディエンスセグメントとその他の保存済みオーディエンスで構成される、再利用可能なオーディエンスを作成する方法について説明します。
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
 再利用可能なオーディエンス（オーディエンスセグメントのグループや、複数のプレースメントのターゲットまたは除外として使用できる他の保存済みオーディエンスでさえグループ）を保存および管理できます。
+
+>[!NOTE]
+>
+>（DSPがハッシュ化されたメール ID を LiveRamp RampID セグメントに変換する広告主）アクティブ、スケジュール済み、一時停止のプレースメントに関連付けられていないファーストパーティの RampID セグメントは一時停止されます。 セグメントは、セグメントリストに「自動一時停止」と表示されます。
 
 1. メインメニューで、**[!UICONTROL Audiences]**/**[!UICONTROL All Audiences]** をクリックします。
 

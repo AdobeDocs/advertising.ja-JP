@@ -3,9 +3,9 @@ title: プレースメントの作成
 description: プレースメントの作成方法を説明します。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,13 @@ ht-degree: 0%
 
       1. オーディエンスを絞り込みます。 これには、プレースメント内でターゲットとするオーディエンスセグメントの選択が含まれます。
 
-         [!DNL Roku] プレースメントの場合、[!DNL Roku] （オプトイン）の決定論的データセットと照合できる 1 つ以上のオーディエンスセグメントを含めることで  [!DNL Roku][&#128279;](/help/dsp/inventory/roku-inventory.md)DSPでの一意のオーディエンスマッチングを活用できます。
+         [!DNL Roku] プレースメントの場合、[ （オプトイン）の決定論的データセットと照合できる 1 つ以上のオーディエンスセグメントを含めることで  [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)[!DNL Roku]DSPの一意のオーディエンスマッチングを活用できます。
+
+         アクティブ、スケジュール済みまたは一時停止されたプレースメントに添付されていないファーストパーティ RampID セグメントは一時停止されます。 セグメントは、セグメントリストに「自動一時停止」と表示されます。
 
       1. （人物レベルのクロスデバイスターゲティングを使用するキャンペーンの場合。オプション）プレースメントで 1 つ以上の特定のオーディエンスをターゲットにする場合は、プレースメントの人物ベースのクロスデバイスターゲティングを有効にします。
 
-         人物ベースのクロスデバイスターゲティングは、米国のデータのみを使用する [!DNL LiveRamp] によって提供されます。 このサービスは、[!DNL LiveRamp] デバイスグラフを使用して配信されるインプレッション（つまり、ターゲットのオーディエンスセグメント内に見つからないデバイス）に対して、午後 0.35 CPM ドルですべての広告主が利用できます。
+         人物ベースのクロスデバイスターゲティングは、米国のデータのみを使用する [!DNL LiveRamp] によって提供されます。 このサービスは、0.35 USD のCPMのすべての広告主が [!DNL LiveRamp] のデバイスグラフを使用して配信されたインプレッションについて利用できます（つまり、ターゲットオーディエンスセグメント内に見つからないデバイスについて）。
 
    1. （任意） [!DNL Brand Safety and Media Targeting] のセクションで、プレースメントにブランドセーフティ制限を適用します。
 
@@ -145,4 +147,4 @@ ht-degree: 0%
 >* [ ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 >* [ ショートカットキー ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [ パフォーマンスのトラブルシューティング ](/help/dsp/optimization/troubleshooting-performance.md)
->* [ ビデオ：標準の表示配置を作成する方法 ](https://video.tv.adobe.com/v/345001?captions=jpn)
+>* [ ビデオ：標準の表示配置を作成する方法 ](https://video.tv.adobe.com/v/340454)

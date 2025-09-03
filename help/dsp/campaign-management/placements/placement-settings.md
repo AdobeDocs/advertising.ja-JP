@@ -3,9 +3,9 @@ title: プレースメント設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '4560'
+source-wordcount: '4586'
 ht-degree: 0%
 
 ---
@@ -333,6 +333,10 @@ ht-degree: 0%
 * オーディエンスを作成するには、「オーディエンス」の横にある ![ 選択 ](/help/dsp/assets/chevron-down.png) をクリックし、「[!UICONTROL Included Audiences]」を選択し **[!UICONTROL + Create Audience]** す。 手順については、手順 3 から [ 再利用可能なオーディエンスの作成 ](/help/dsp/audiences/reusable-audience-create.md) を参照してください。
 * 特定のオーディエンスセグメントを選択するには、「選 **[!UICONTROL Select segments for this placement only]**」をクリックします。 セグメントロジックを選択します。手順については、「[ 再利用可能なオーディエンスの作成 ](/help/dsp/audiences/reusable-audience-create.md) の手順 6 を参照してください。 完了したら、「**保存**」をクリックします。
 
+>[!NOTE]
+>
+>アクティブ、スケジュール済みまたは一時停止されたプレースメントに添付されていないファーストパーティ RampID セグメントは一時停止されます。 セグメントは、セグメントリストに「自動一時停止」と表示されます。
+
 **[!UICONTROL Excluded Audiences]:** プレースメント用に除外するオーディエンス。例えば、[ サードパーティセグメント、ファーストパーティセグメント、Adobe セグメント、カスタムセグメント、保存済みオーディエンス ](/help/dsp/audiences/audience-settings.md) を含みます。 除外されたすべてのオーディエンスの合計およびアクティブな重複排除されたオーディエンスサイズも表示されます。 既存のオーディエンスを選択するか、新しいオーディエンスを作成して後で再利用できます。
 
 * 既存のオーディエンスを選択するには、「![」の横にある ](/help/dsp/assets/chevron-down.png) 選択 [!UICONTROL Excluded Audiences] をクリックし、オーディエンスを選択します。
@@ -472,7 +476,7 @@ ID は「51」で始まり、8 桁で構成する必要があります。 デフ
 * *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済み直販業者および再販業者からのみ在庫を購入する場合。
 * *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済ダイレクト・セラーからのみ在庫を購入する場合。
 
-**[!UICONTROL Attention Targeting]:** （デスクトップおよびモバイルの web ディスプレイ、ビデオ、標準で接続されたテレビ広告に適用）指定されたサイト、形式、広告サイズに基づいて、特定の注意レベル（高、中、低）でセグメントの事前入札を [!DNL Adelaide] うターゲット。 セグメントは毎週更新されます。 **注意：**&#x200B;[!DNL Adelaide] セグメントをターゲティングに使用すると、[!DNL Adelaide] のアテンションターゲティングで配信されるインプレッションごとにCPM料金が発生します。この料金は、[ アテンション測定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md) の料金とは別です。 インタラクティブなプレロールプレースメントの場合、膨大なインプレッションに対してのみ請求されます。
+**[!UICONTROL Attention Targeting]:** （デスクトップおよびモバイルの web ディスプレイ、ビデオ、標準で接続されたテレビ広告に適用）指定されたサイト、形式、広告サイズに基づいて、特定の注意レベル（高、中、低）でセグメントの事前入札を [!DNL Adelaide] うターゲット。 セグメントは毎週更新されます。 **注意：**[!DNL Adelaide] セグメントをターゲティングに使用すると、[!DNL Adelaide] のアテンションターゲティングで配信されるインプレッションごとにCPM料金が発生します。この料金は、[ アテンション測定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md) の料金とは別です。 インタラクティブなプレロールプレースメントの場合、膨大なインプレッションに対してのみ請求されます。
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
