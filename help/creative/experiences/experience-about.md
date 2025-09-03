@@ -3,9 +3,9 @@ title: Advertising Creativeのエクスペリエンスについて
 description: パーソナライズされた広告エクスペリエンスを設定し、パフォーマンスに基づいて広告要素を最適化する方法を説明します。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 * **スケジュール：** （オプション）指定した連続した期間内に実行する特定のクリエイティブをスケジュールします。
 
-* **広告の回転：** 相対的な重みに従って手動で、または指定された最適化目標に従ってアルゴリズムで、クリエイティブを回転します。
+* **広告の回転：** 指定した最適化目標に従って、指定したバンドルシーケンスに従って、または相対的な重みに従って、クリエイティブをアルゴリズムで回転します。
 
 * **最適化目標：** 最適なクリックスルー率または既存の [Advertising DSPのカスタム目標のいずれかに合わせて広告要素を最適化 ](/help/dsp/optimization/custom-goal.md)
 
