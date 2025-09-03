@@ -2,14 +2,16 @@
 title: データ収集、データ転送およびレポートの設定
 description: データ収集、データ転送、レポートの設定方法について説明します。
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: cbfdc1ca3334debe984c1a86249cc65d3567ff5b
+source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
 # データ収集、データ転送およびレポートの設定
+
+*Beta機能*
 
 Customer Journey Analyticsで Advertising Cloud データを表示するには、次のタスクが必要です。
 
@@ -36,5 +38,5 @@ The following procedures explain the steps required to view Advertising Cloud da
 >* [ 使用するAdobe Advertising ID [!DNL Customer Journey Analytics]](ids.md)
 >* [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション ](advertising-data-in-cja.md)
 >* [Adobe Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データを収集します ](/help/integrations/analytics/rvars-to-evars.md)。
->* [Customer Journey Analytics ガイド ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing)
->* Customer Journey Analytics[Adobe Analytics ユーザー向けユーザーガイド ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
+>* [Customer Journey Analytics ガイド ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
+>* Customer Journey Analytics[Adobe Analytics ユーザー向けユーザーガイド ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
