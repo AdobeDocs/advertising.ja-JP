@@ -3,9 +3,9 @@ title: 使用可能なレポート列
 description: カスタムレポートで使用可能な列の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: e07713ed7b3b700560577f8020066540e34d8952
+source-git-commit: 4b09e4c09bd2d028365c820c24ac041fb5e5283c
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,15 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign ID] | DSPのキャンペーンの一意の ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Name] | ユーザーによって割り当てられたキャンペーンの名前。 |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Start Date] | キャンペーンの最初の日付。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | コンテンツのタイトル。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | コンテンツシリーズ。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | コンテンツのジャンル。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | [IAB Technology Laboratory](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md) で定義される生産品質。 値には、`Unknown`、`Professionally Produced`、`Prosumer`、`User Generated` を使用できます。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | [IAB Technology Laboratory](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md) で定義されたコンテンツのタイプ。 値には、`Video,`、`Game`、`Music`、`Application`、`Text`、`Other` な `Unknown` があります。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Rating] | コンテンツのレーティング（PG、R など）。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Livestream] | 広告がライブストリームに表示されたかどうか（`Not Live` または `Live`）。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Length (in seconds)] | コンテンツの長さ（秒）。通常、ビデオまたはオーディオに使用されます。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Language (as per ISO 639)] | ISO-639-1-alpha-2 を使用するコンテンツの言語。 |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Day (YYYY-MM-DD)] | 年、月、日。 |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | 日 [!UICONTROL of Week] | 特定の日（[!UICONTROL Monday]、[!UICONTROL Tuesday] など）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Hour (YYYY-MM-DD HH)] | 年、月、日、時間。 |
