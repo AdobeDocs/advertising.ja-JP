@@ -3,9 +3,9 @@ title: 使用するAdobe Advertising ID [!DNL Analytics]
 description: 使用するAdobe Advertising ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
+source-git-commit: 56c27461cf0e1d7111de9d35d9e38fa980af4c52
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,51 @@ Adobe Advertisingは、次の条件を使用して、web サイトに対する�
 
 ### EF ID 形式 {#ef-id-formats}
 
-{{$include /help/_includes/ef-id-formats.md}}
+>[!NOTE]
+>
+>EF ID では大文字と小文字が区別されます。 [!DNL Analytics] またはCustomer Journey Analyticsの実装によって URL トラッキングが強制的に小文字に変換される場合、Adobe Advertisingは EF ID を認識しません。 これは、Adobe Advertisingの入札とレポートに影響しますが、[!DNL Analytics] またはCustomer Journey Analytics内のAdobe Advertising レポートには影響しません。
+
+#### [!DNL Google Ads] 検索広告
+
+```
+{gclid}:G:s
+```
+
+ここで、
+
+* `gclid` は [!DNL Google Click ID] （GCLID）です。
+* `s` はネットワークの種類（検索用は&quot;s&quot;）です。
+
+#### [!DNL Microsoft Advertising] 検索広告
+
+```
+{msclkid}:G:s
+```
+
+ここで、
+
+* `msclkid` は [!DNL Microsoft Click ID] （MSCLKID）です。
+* `s` はネットワークの種類（検索用は&quot;s&quot;）です。
+
+#### 他の検索エンジンでの広告および検索広告の表示
+
+```
+<Adobe Advertising visitor ID>:<timestamp>:<channel type>
+```
+
+ここで、
+
+* &lt;*Adobe Advertising訪問者 ID*> は、訪問者ごとの一意の ID です（UhKVaAABCkJ0mDt など）。 「*surfer ID*」とも呼ばれる。
+
+* &lt;*timestamp*> は、YYYYMMDDHHMMSS 形式の時刻（2019 年、08 月、21 日、19:25:33 日の 20190821192533 など）です。
+
+* &lt;*channel type*> は、クリックまたは露出を行うチャネルのタイプです。
+
+   * DSP ディスプレイ広告のクリックを `d` す（表示のクリックスルー）
+   * DSP ディスプレイ広告のインプレッションの `i` ール（ビュースルーの表示）
+   * 検索広告を `s` リックします（検索クリックスルー）。
+
+例 `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
 
 ### [!DNL Analytics] の EF ID Dimension
 
@@ -57,10 +101,6 @@ Adobe Advertisingは、次の条件を使用して、web サイトに対する�
 EF ID は、Analysis Workspaceで 500,000 個の ID 制限の対象となります。 500,000 の値に達すると、すべての新しいトラッキングコードが、1 行項目タイトル「[!UICONTROL Low Traffic]」の下にレポートされます。 レポートの忠実性が失われる可能性があるため、EF ID は分類されず、セグメントや [!DNL Analytics] でのレポートに使用しないでください。
 
 ## ADOBE ADVERTISING AMO ID {#amo-id}
-
-{{$include /help/_includes/amo-id.md}}
-
-## AMO ID 形式 {#amo-id-formats}
 
 {{$include /help/_includes/amo-id.md}}
 
@@ -102,7 +142,7 @@ Analytics レポートでは、[!UICONTROL AMO ID] ディメンションを検�
 
 ## Analytics 分類について
 
-[!DNL Analytics] えば、[ 分類 ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ja) は、アカウント、キャンペーン、広告などの特定のトラッキングコードのメタデータの一部です。 Adobe Advertisingでは、レポートの生成時に様々な方法（広告タイプ別やキャンペーン別など）でデータを表示できるように、分類を使用して生のAdobe Advertising データを分類します。 分類は、[!DNL Analytics] でのAdobe Advertising レポートの基礎となるもので、[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]、[!UICONTROL AMO Clicks] などの AMO 指標や、[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]、[!UICONTROL Revenue] などのカスタムおよび標準のオンサイトイベントで使用できます。
+[!DNL Analytics] えば、[ 分類 ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) は、アカウント、キャンペーン、広告などの特定のトラッキングコードのメタデータの一部です。 Adobe Advertisingでは、レポートの生成時に様々な方法（広告タイプ別やキャンペーン別など）でデータを表示できるように、分類を使用して生のAdobe Advertising データを分類します。 分類は、[!DNL Analytics] でのAdobe Advertising レポートの基礎となるもので、[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]、[!UICONTROL AMO Clicks] などの AMO 指標や、[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]、[!UICONTROL Revenue] などのカスタムおよび標準のオンサイトイベントで使用できます。
 
 >[!MORELIKETHIS]
 >
