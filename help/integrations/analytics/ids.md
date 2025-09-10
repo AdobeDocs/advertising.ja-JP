@@ -54,7 +54,7 @@ EF ID は、Analysis Workspaceで 500,000 個の ID 制限の対象となりま�
 
 ## ADOBE ADVERTISING AMO ID {#amo-id}
 
-AMO ID は、一意の各広告の組み合わせをそれほど詳細でないレベルで追跡し、Adobe Advertisingからのデータのクラス分けや広告指標（インプレッション数、クリック数、コストなど）の取り込みに [!DNL Analytics] 用します。 AMO ID は、[!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) または rVar ディメンション（AMO ID）に格納され、[!DNL Analytics] でのレポートにのみ使用されます。
+AMO ID は、一意の各広告の組み合わせをそれほど詳細でないレベルで追跡し、Adobe Advertisingからのデータのクラス分けや広告指標（インプレッション数、クリック数、コストなど）の取り込みに [!DNL Analytics] 用します。 AMO ID は、[!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja) または rVar ディメンション（AMO ID）に格納され、[!DNL Analytics] でのレポートにのみ使用されます。
 
 AMO ID は `s_kwcid` とも呼ばれ、「[!DNL squid]」と発音されることがあります。
 
@@ -224,7 +224,7 @@ Analytics レポートでは、[!UICONTROL AMO ID] ディメンションを検�
 
 ## Analytics 分類について
 
-[!DNL Analytics] えば、[ 分類 ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) は、アカウント、キャンペーン、広告などの特定のトラッキングコードのメタデータの一部です。 Adobe Advertisingでは、レポートの生成時に様々な方法（広告タイプ別やキャンペーン別など）でデータを表示できるように、分類を使用して生のAdobe Advertising データを分類します。 分類は、[!DNL Analytics] でのAdobe Advertising レポートの基礎となるもので、[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]、[!UICONTROL AMO Clicks] などの AMO 指標や、[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]、[!UICONTROL Revenue] などのカスタムおよび標準のオンサイトイベントで使用できます。
+[!DNL Analytics] えば、[ 分類 ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ja) は、アカウント、キャンペーン、広告などの特定のトラッキングコードのメタデータの一部です。 Adobe Advertisingでは、レポートの生成時に様々な方法（広告タイプ別やキャンペーン別など）でデータを表示できるように、分類を使用して生のAdobe Advertising データを分類します。 分類は、[!DNL Analytics] でのAdobe Advertising レポートの基礎となるもので、[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]、[!UICONTROL AMO Clicks] などの AMO 指標や、[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]、[!UICONTROL Revenue] などのカスタムおよび標準のオンサイトイベントで使用できます。
 
 >[!MORELIKETHIS]
 >
