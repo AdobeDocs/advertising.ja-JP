@@ -1,13 +1,11 @@
 ---
-source-git-commit: 4428fb626de79a98d6a37c36057a0d468ce23166
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
-# ADOBE ADVERTISING AMO ID
-
-### AMO ID 形式 {#amo-id-formats}
+# AMO ID 形式 {#amo-id-formats}
 
 #### [!DNL DSP] の AMO ID 形式
 
@@ -31,7 +29,7 @@ AMO ID の例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 * `{userid}` は、広告主に割り当てられた一意のユーザー ID です。
 
-* `{sid}` は、広告主の広告ネットワークアカウントの数値 ID に置き換えられます。*の場合は* 3[!DNL Google Ads]、*の場合は* 10[!DNL Microsoft Advertising]、*の場合は* 45[!DNL Meta]、*の場合は* 86[!DNL Yahoo! Display Network]、*の場合は* 87[!DNL Naver]、*の場合は* 88[!DNL Baidu]、*900 の場合は*[!DNL Yandex] **&#x200B; [!DNL Yahoo! Japan Ads] &#x200B;** [!DNL Yahoo Native] ** [!DNL Pinterest] 90588885 （廃止予定）。
+* `{sid}` は、広告主の広告ネットワークアカウントの数値 ID に置き換えられます。*の場合は* 3[!DNL Google Ads]、*の場合は* 10[!DNL Microsoft Advertising]、*の場合は* 45[!DNL Meta]、*の場合は* 86[!DNL Yahoo! Display Network]、*の場合は* 87[!DNL Naver]、*の場合は* 88[!DNL Baidu]、*900 の場合は*[!DNL Yandex] ** [!DNL Yahoo! Japan Ads] ** [!DNL Yahoo Native] ** [!DNL Pinterest] 90588885 （廃止予定）。
 
 ##### [!DNL Baidu]
 
@@ -106,13 +104,13 @@ where:
 >[!NOTE]
 >
 > [!UICONTROL Auto Upload] トラッキングオプションのないキャンペーンで、まだ新しい形式に移行されていないアカウントの場合、上記の形式を含めるように各ランディングページのサフィックスを手動で更新します。
-> &#x200B;>それまでの間、次のような従来の形式も引き続き機能します。
+> >それまでの間、次のような従来の形式も引き続き機能します。
 >* 検索キャンペーン：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* ショッピングキャンペーン（[!DNL Microsoft Merchant Center] を使用）:
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* オーディエンスネットワークキャンペーン：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 

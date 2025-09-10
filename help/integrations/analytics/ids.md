@@ -3,9 +3,9 @@ title: 使用するAdobe Advertising ID [!DNL Analytics]
 description: 使用するAdobe Advertising ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 1a0a111e25efd7d0f38c2d18f4b57b9428ec4ed7
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,13 @@ Adobe Advertisingは、次の条件を使用して、web サイトに対する�
 
 *図 2:Adobe Advertisingのクリックの URL ベースの [!DNL Analytics] 統合*
 
-<!-- ## Adobe Advertising EF IDs -->
+## ADOBE ADVERTISING EF ID
 
 {{$include /help/_includes/ef-id.md}}
+
+### EF ID 形式 {#ef-id-formats}
+
+{{$include /help/_includes/ef-id-formats.md}}
 
 ### [!DNL Analytics] の EF ID Dimension
 
@@ -52,7 +56,11 @@ Adobe Advertisingは、次の条件を使用して、web サイトに対する�
 
 EF ID は、Analysis Workspaceで 500,000 個の ID 制限の対象となります。 500,000 の値に達すると、すべての新しいトラッキングコードが、1 行項目タイトル「[!UICONTROL Low Traffic]」の下にレポートされます。 レポートの忠実性が失われる可能性があるため、EF ID は分類されず、セグメントや [!DNL Analytics] でのレポートに使用しないでください。
 
-<!-- ## Adobe Advertising AMO IDs {#amo-id} -->
+## ADOBE ADVERTISING AMO ID {#amo-id}
+
+{{$include /help/_includes/amo-id.md}}
+
+## AMO ID 形式 {#amo-id-formats}
 
 {{$include /help/_includes/amo-id.md}}
 
@@ -94,7 +102,7 @@ Analytics レポートでは、[!UICONTROL AMO ID] ディメンションを検�
 
 ## Analytics 分類について
 
-[!DNL Analytics] えば、[ 分類 ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ja) は、アカウント、キャンペーン、広告などの特定のトラッキングコードのメタデータの一部です。 Adobe Advertisingでは、レポートの生成時に様々な方法（広告タイプ別やキャンペーン別など）でデータを表示できるように、分類を使用して生のAdobe Advertising データを分類します。 分類は、[!DNL Analytics] でのAdobe Advertising レポートの基礎となるもので、[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]、[!UICONTROL AMO Clicks] などの AMO 指標や、[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]、[!UICONTROL Revenue] などのカスタムおよび標準のオンサイトイベントで使用できます。
+[!DNL Analytics] えば、[ 分類 ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) は、アカウント、キャンペーン、広告などの特定のトラッキングコードのメタデータの一部です。 Adobe Advertisingでは、レポートの生成時に様々な方法（広告タイプ別やキャンペーン別など）でデータを表示できるように、分類を使用して生のAdobe Advertising データを分類します。 分類は、[!DNL Analytics] でのAdobe Advertising レポートの基礎となるもので、[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]、[!UICONTROL AMO Clicks] などの AMO 指標や、[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]、[!UICONTROL Revenue] などのカスタムおよび標準のオンサイトイベントで使用できます。
 
 >[!MORELIKETHIS]
 >

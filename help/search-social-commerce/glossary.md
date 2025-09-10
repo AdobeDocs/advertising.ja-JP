@@ -3,9 +3,9 @@ title: 用語集
 description: 主要用語の定義を参照してください。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **広告バリエーション：** 広告グループまたは広告戦略内の広告。
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Adobe Advertisingがキャンペーンに関するデータをAdobe Analyticsと共有できるようにするトラッキングコード。 それは `s_kwcid=` から始まります。
+**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Adobe Advertisingでキャンペーンに関するデータをAdobe AnalyticsおよびAdobe Customer Journey Analyticsと共有できるようにするトラッキングコード。 それは `s_kwcid=` から始まります。
 
 **bid unit:** 入札が行われるユニットの検索、ソーシャル、Commerceの用語。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **コンバージョントラッキング：** コンバージョントラッキングでは、a）広告ネットワーク上の広告主の広告のクリック、b）広告主の web サイトでの結果のトランザクションを追跡するために cookie を使用します。
 
-**コスト精度：** （ポートフォリオを持つ広告主）ポートフォリオの実際の費用を、予測費用で割った値です。 [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、最適化に使用されるコストモデルの精度を示します。[[!UICONTROL Model Accuracy] インサイト ](/help/search-social-commerce/advertising-insights/insight-about.md) には、モデルの精度を向上させるための推奨事項に加えて、より詳細な情報が含まれます。
+**コスト精度：** （ポートフォリオを持つ広告主）ポートフォリオの実際の費用を、予測費用で割った値です。 [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、最適化に使用される原価モデルの精度を示します。[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) には、モデルの精度を向上させるための推奨事項に加えて、詳細が含まれています。
 
 **コストモデル：** （ポートフォリオを持つ広告主） コスト量、各順位やプレースメントを獲得するために必要な入札、各入札単位の CPC （検索）またはCPM（表示）を履歴データや数学的予測手法を用いて予測する検索、ソーシャル、Commerceのテクノロジー。
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 **orphan transaction:** 特定のキーワードまたは広告に関連付けることができないトランザクションイベントです。
 
-**pixel:** トラッキング目的で web ページに埋め込まれた、1 ピクセルずつ透明な画像。 Adobe Advertisingのコンバージョントラッキングタグには、クリックとその結果のトランザクションを追跡するHTML画像ピクセルまたはJavaScriptが含まれます。
+**pixel:** トラッキング目的で web ページに埋め込まれた、1 ピクセルずつ透明な画像。 Adobe Advertisingのコンバージョントラッキングタグには、クリックとその結果のトランザクションを追跡するHTML image pixel またはJavaScriptが含まれています。
 
 **placement:** 広告を表示できるディスプレイネットワーク上の場所。 Web サイト全体、Web サイトのサブセット、特定のページの広告の位置を指定できます。
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 **ROI:** （ROI）収益からコストを引いた値。
 
-**売上高精度：** （ポートフォリオを持つ広告主）ポートフォリオの実収益を予測収益で割った値。 [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、最適化に使用される収益モデルの精度を示し、[[!UICONTROL Model Accuracy] インサイト ](/help/search-social-commerce/advertising-insights/insight-about.md) には、モデルの精度を向上させるための推奨事項に加えて、より詳細な情報が含まれています。
+**売上高精度：** （ポートフォリオを持つ広告主）ポートフォリオの実収益を予測収益で割った値。 [ モデルの精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、最適化に使用される売上高モデルの精度を示します。[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) には、モデルの精度を向上させるための推奨事項に加えて、詳細が含まれています。
 
 **売上高モデル：** （ポートフォリオを有する広告主）クリック数（検索とソーシャル）またはインプレッション数（ディスプレイ）と広告主のコンバージョン数に基づいて、各入札単位のコンバージョン率と推定利回りを予測する検索、ソーシャル、Commerceのテクノロジー。
 
@@ -175,13 +175,13 @@ ht-degree: 0%
 
 ## S-T {#s-t}
 
-**simulation:** （ポートフォリオを持つ広告主）履歴データを使用して、ポートフォリオが様々なレベルの支出とそれに対応する毎日の予算に対して予想できるクリック数とコンバージョン数を見積もるPortfolioモデリング。
+**simulation:** （ポートフォリオを使用する広告主）履歴データを使用して、ポートフォリオが様々なレベルの支出とそれに対応する毎日の予算に対して予想できるクリック数とコンバージョン数を見積もるPortfolio モデリング。
 
 **支出戦略：** （ポートフォリオを使用する広告主）ポートフォリオのキーワード/広告入札を最適化するために選択した戦略。
 
 **`s_kwcid`:** 「AMO ID」を参照してください。
 
-**トラッキングテンプレート：** （最終的な URL を持つアカウントのみ）すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、パラメーターに最終的/高度な URL を埋め込む、トラッキングテンプレートまたはトラッキング URL。 キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertisingコンバージョントラッキングの場合、検索、ソーシャルおよびCommerceでは、レコードを保存すると、独自のリダイレクトおよびトラッキングコードが自動的に設定されます。
+**トラッキングテンプレート：** （最終的な URL を持つアカウントのみ）すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、パラメーターに最終的/高度な URL を埋め込む、トラッキングテンプレートまたはトラッキング URL。 キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertising コンバージョントラッキングの場合、検索、ソーシャルおよびCommerceでは、レコードを保存すると、独自のリダイレクトおよびトラッキングコードが自動的にプレフィックスされます。
 
 **トラッキング URL:** 広告でのクリックに関する情報を追跡するために追加されたパラメーターを含む、トラッキングテンプレートまたは宛先 URL。 これには、ユーザーを広告主のランディングページにリダイレクトする前にトラッキングサーバーに送信するリダイレクト URL を含めることができます。
 
