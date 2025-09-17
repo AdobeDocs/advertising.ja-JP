@@ -3,9 +3,10 @@ title: （新しい UI）ポートフォリオについて
 description: ポートフォリオについて説明します。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
+source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 一部のユーザーの役割では、ポートフォリオを作成および設定できます。 ポートフォリオのタイプに応じて、ポートフォリオ設定には、ポートフォリオの目的、割り当てられたキャンペーン、支出戦略、ポートフォリオレベルの入札制約、モデリングおよび最適化パラメーターが含まれる場合があります。 検索、ソーシャル、Commerceの準備が整ったら、ポートフォリオの最適化を開始し、ステータスを「最適化済み」に変更します。
 
-オプションで、ポートフォリオをポートフォリオグループにグループ化して、グループ全体のクリックと売上高の複合データを表示できます。 [ レガシー UI](/help/search-social-commerce/getting-started/ui-switch.md) からポートフォリオグループを作成します。
+オプションで、ポートフォリオを [ ポートフォリオグループ ](portfolio-group-manage.md) にグループ化して、グループ全体の複合データを表示できます。
 
 役割によっては、パフォーマンス・シミュレーションを生成できる場合があります。このシミュレーションでは、予測モデリングを使用して、最適な支出ポイントと詳細な予測精度レポートを特定します。<!-- Mention this now? In addition, all users can use the Spend Recommendation Tool to identify the optimal budget distribution across portfolios. -->
 
