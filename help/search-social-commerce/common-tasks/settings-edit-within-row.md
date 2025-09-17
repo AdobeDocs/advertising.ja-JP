@@ -3,9 +3,9 @@ title: 行内で設定を直接編集する
 description: 行内の管理ビューでデータを編集する方法を説明します。
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 533484b8e2e462891d7d34091991047b2d9b62c7
+source-git-commit: dac4989bf58f823fee5ea1adf5f8d71348001a11
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 ## （新しい UI）行内の設定の編集
 
-1. セルの内側をクリックしてアクティブにするか、値の上にカーソルを置きます。
+1. 行の上にカーソルを置き、値を選択します。 列によっては、値の横にある ![ 編集 ](/help/search-social-commerce/assets/edit-new.png " 編集 ") または **[!UICONTROL ...]** > ![編集](/help/search-social-commerce/assets/edit-new.png "編集") をクリックする必要がある場合があります。 エンティティ名を変更するには、名前をクリックして選択 **[!UICONTROL Rename]** ます。
 
 1. 値を変更します。
 
    * （リストのオプション）リストから新しいオプションを選択します。
 
-   * （自由形式の値） ![ 編集 ](/help/search-social-commerce/assets/edit-new.png " 編集 ") をクリックし、値を変更して **適用** をクリックします。
+   * （自由形式の値）値を変更し、「**適用**」をクリックします。
 
 
 ## （従来の UI）行内の設定の編集
