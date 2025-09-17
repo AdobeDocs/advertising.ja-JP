@@ -3,7 +3,7 @@ title: ユーザーインターフェイスの編成方法
 description: 様々な機能へのアクセス場所について説明します。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 553d0c90160cb12b8b32d3540c58797e6fac2abb
+source-git-commit: a180f99dc28fb1ed9abbd7654914fdd75e642c37
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 0%
@@ -38,15 +38,13 @@ ht-degree: 0%
 
 * **[!UICONTROL Manage]** サブメニュー：
 
-<!--  * **[!UICONTROL Portfolio Groups]:** Exits the new UI site and opens the legacy [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios] view > [!UICONTROL Portfolio Groups] tab. -->
+   * **[!UICONTROL Portfolios]:** 広告主のすべてのポートフォリオを一覧表示する新しい [!UICONTROL Portfolios] ビューを開きます。 この表示からポートフォリオを管理できます。 割り当てられた制約のリストを開いて、任意のポートフォリオのパフォーマンスと構成の詳細を表示できます。
 
-* **[!UICONTROL Portfolios]:** 広告主のすべてのポートフォリオを一覧表示する新しい [!UICONTROL Portfolios] ビューを開きます。 この表示からポートフォリオを管理できます。 割り当てられた制約のリストを開いて、任意のポートフォリオのパフォーマンスと構成の詳細を表示できます。
+     ポートフォリオ設定には、目的とキャンペーンの割り当て、支出の管理、制約の管理、最適化のコントロールを行うタブが含まれています。 「エキスパートの最適化」の役割またはそれ以上を持つユーザーのみが、「[!UICONTROL Control Optimization]」タブの設定を編集できます。
 
-  ポートフォリオ設定には、目的とキャンペーンの割り当て、支出の管理、制約の管理、最適化のコントロールを行うタブが含まれています。 「エキスパートの最適化」の役割またはそれ以上を持つユーザーのみが、「[!UICONTROL Control Optimization]」タブの設定を編集できます。
+   * **[!UICONTROL Campaigns]:** 新しい [!UICONTROL Campaigns] ビューが開き、広告主のすべてのキャンペーンが表示されます。 キャンペーンをポートフォリオに割り当て、選択したキャンペーンの制約の割り当てを管理できます。 また、データテーブルコンテンツのレポートをダウンロードすることもできます。<!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-* **[!UICONTROL Campaigns]:** 新しい [!UICONTROL Campaigns] ビューが開き、広告主のすべてのキャンペーンが表示されます。 キャンペーンをポートフォリオに割り当て、選択したキャンペーンの制約の割り当てを管理できます。 また、データテーブルコンテンツのレポートをダウンロードすることもできます。<!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
-
-  キャンペーンを作成、編集、削除するには、メインメニューで **[!UICONTROL Set Up]**/**[!UICONTROL Accounts]** をクリックするか、「[[!UICONTROL Switch to Old UI]」ボタンをクリックして、従来のユーザーインターフェイスに戻り ](/help/search-social-commerce/getting-started/ui-switch.md) す。
+     キャンペーンを作成、編集、削除するには、メインメニューで **[!UICONTROL Set Up]**/**[!UICONTROL Accounts]** をクリックするか、「[[!UICONTROL Switch to Old UI]」ボタンをクリックして、従来のユーザーインターフェイスに戻り ](/help/search-social-commerce/getting-started/ui-switch.md) す。
 
 * **[!UICONTROL Ad Groups]:** 新しい [!UICONTROL Ad Groups] ビューを開きます。このビューには、広告主のすべての広告グループが表示されます。 選択した広告グループの制約の割り当てを管理できます。 また、データテーブルコンテンツのレポートをダウンロードすることもできます。
 
