@@ -3,7 +3,7 @@ title: プレースメントの作成
 description: プレースメントの作成方法を説明します。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
       1. オーディエンスを絞り込みます。 これには、プレースメント内でターゲットとするオーディエンスセグメントの選択が含まれます。
 
-         [!DNL Roku] プレースメントの場合、[ （オプトイン）の決定論的データセットと照合できる 1 つ以上のオーディエンスセグメントを含めることで  [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) [!DNL Roku]DSPの一意のオーディエンスマッチングを活用できます。
+         [!DNL Roku] プレースメントの場合、[ （オプトイン）の決定論的データセットと照合できる 1 つ以上のオーディエンスセグメントを含めることで  [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)[!DNL Roku]DSPの一意のオーディエンスマッチングを活用できます。
 
          アクティブ、スケジュール済みまたは一時停止されたプレースメントに添付されていないファーストパーティ RampID セグメントは一時停止されます。 セグメントは、セグメントリストに「自動一時停止」と表示されます。
 
@@ -94,45 +94,45 @@ ht-degree: 0%
 
       * キャンペーンに既存の広告を添付する手順は次のとおりです。
 
-      1. 「**[!UICONTROL Select an Ad]**」をクリックします。
-
-      1. 次のいずれかの操作をおこないます。
-
-         * 広告を 1 つずつ追加するには：
-
-            1. 広告名の横の「**[!UICONTROL Select].**」をクリックします。
-
-            1. （オプション）添付する追加の広告ごとに [**[!UICONTROL Attach Another Ad]**] をクリックし、同じ操作を繰り返します。
-
-         * 一度に最大 20 件の広告を追加するには：
-
-            1. 広告リストの上のチェックボックスを選択します。
-
-            1. 追加する各広告の横にあるチェックボックスをオンにします。
-
-            1. 「**[!UICONTROL Attach]**」をクリックします。
-
-            1. 広告名の横の「**[!UICONTROL Select]**」をクリックします。
-
-      1. （任意）プレースメント内の特定の広告に対してデフォルトのフライト期間と広告の回転を上書きするには：
-
-         1. 「**[!UICONTROL Custom Schedule Ads]**」をクリックします。
+         1. 「**[!UICONTROL Select an Ad]**」をクリックします。
 
          1. 次のいずれかの操作をおこないます。
 
-            * フライトを追加するには、[**[!UICONTROL Add Flight]**] をクリックし、開始日と終了日を指定します。
+            * 広告を 1 つずつ追加するには：
 
-            * 既存のフライトを広告に追加するには、フライト列の広告行の **[!UICONTROL +]** をクリックします。
+               1. 広告名の横の「**[!UICONTROL Select].**」をクリックします。
 
-            * 既存のフライトを広告から削除するには、フライト列の広告行の **[!UICONTROL x]** をクリックします。
+               1. （オプション）添付する追加の広告ごとに [**[!UICONTROL Attach Another Ad]**] をクリックし、同じ操作を繰り返します。
 
-            * （複数の広告が同じフライトを持つ場合）広告を不均等に回転させるには、フライト情報の **[!UICONTROL Even Rotation]** をクリックし、各広告を回転させる相対的な重みをパーセントで入力します。
+            * 一度に最大 20 件の広告を追加するには：
 
-              合計重量は 100 にする必要があります。
+               1. 広告リストの上のチェックボックスを選択します。
 
-         1. 右上で、「**[!UICONTROL Continue]**」をクリックします。
+               1. 追加する各広告の横にあるチェックボックスをオンにします。
 
-         1. フライトの詳細を確認し、[**[!UICONTROL Save & Finish]**] をクリックします。
+               1. 「**[!UICONTROL Attach]**」をクリックします。
+
+               1. 広告名の横の「**[!UICONTROL Select]**」をクリックします。
+
+         1. （任意）プレースメント内の特定の広告に対してデフォルトのフライト期間と広告の回転を上書きするには：
+
+            1. 「**[!UICONTROL Custom Schedule Ads]**」をクリックします。
+
+            1. 次のいずれかの操作をおこないます。
+
+               * フライトを追加するには、[**[!UICONTROL Add Flight]**] をクリックし、開始日と終了日を指定します。
+
+               * 既存のフライトを広告に追加するには、フライト列の広告行の **[!UICONTROL +]** をクリックします。
+
+               * 既存のフライトを広告から削除するには、フライト列の広告行の **[!UICONTROL x]** をクリックします。
+
+               * （複数の広告が同じフライトを持つ場合）広告を不均等に回転させるには、フライト情報の **[!UICONTROL Even Rotation]** をクリックし、各広告を回転させる相対的な重みをパーセントで入力します。
+
+                 合計重量は 100 にする必要があります。
+
+            1. 右上で、「**[!UICONTROL Continue]**」をクリックします。
+
+            1. フライトの詳細を確認し、[**[!UICONTROL Save & Finish]**] をクリックします。
 
 >[!MORELIKETHIS]
 >
@@ -140,11 +140,11 @@ ht-degree: 0%
 >* [ プレースメントを編集 ](placement-edit.md)
 >* [ プレースメントの入札乗数の管理 ](placement-manage-bid-multipliers.md)
 >* [ プレースメントの広告スケジュールの編集 ](placement-edit-ad-schedule.md)
->* [ プレースメントの一時停止またはアクティブ化 ](placement-pause-activate.md)
+>* [ プレースメントの非アクティブ化またはアクティブ化 ](placement-pause-activate.md)
 >* [ プレースメントの変更ログを表示 ](placement-change-log.md)
 >* [ プレースメント設定 ](placement-settings.md)
 >* [ 配置予測レポートの表示 ](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [ ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 >* [ ショートカットキー ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [ パフォーマンスのトラブルシューティング ](/help/dsp/optimization/troubleshooting-performance.md)
->* [ ビデオ：標準の表示配置を作成する方法 ](https://video.tv.adobe.com/v/345001?captions=jpn)
+>* [ ビデオ：標準の表示配置を作成する方法 ](https://video.tv.adobe.com/v/340454)

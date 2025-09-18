@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: a2cf15742557686df280b2a73eea996be53e5f4d
+source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '957'
 ht-degree: 3%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 3%
       + [クロスデバイスソリューション](/help/dsp/introduction/features/cross-device-solutions.md)
    + [口座資金](/help/dsp/introduction/billing/account-funding.md)
    + [サポートされる通貨](/help/dsp/currency.md)
-   + [ 消費者プライバシーの支援 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [ 施策及び指針 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [ 消費者プライバシーの支援 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [ 施策及び指針 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [高度な計測ソリューション](/help/dsp/introduction/advanced-measurement-services.md)
 + キャンペーン管理 {#campaign-management}
    + [Campaign 管理構造の概要](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -67,11 +67,12 @@ ht-degree: 3%
       + [プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)
       + [プレースメントを複製](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [プレースメントの入札乗数の管理](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
-      + [プレースメントに広告を添付](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [プレースメントからの広告の添付と削除](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [広告からのピクセルの添付と削除](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md)
       + [プレースメントの広告スケジュールの編集](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [プレースメントの詳細レポートの表示](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [プレースメントの変更ログの表示](/help/dsp/campaign-management/placements/placement-change-log.md)
-      + [プレースメントの一時停止またはアクティブ化](/help/dsp/campaign-management/placements/placement-pause-activate.md)
+      + [プレースメントの非アクティブ化またはアクティブ化](/help/dsp/campaign-management/placements/placement-pause-activate.md)
       + [プレースメントのアーカイブまたはアーカイブ解除](/help/dsp/campaign-management/placements/placement-archive-unarchive.md)
       + [プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)
    + 広告 {#ads}
@@ -83,7 +84,7 @@ ht-degree: 3%
       + [スプレッドシートを使用した広告の詳細のレビュー](/help/dsp/campaign-management/ads/ad-qa.md)
       + [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
       + [広告の複製](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [ プレースメントへの広告の添付 ](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=ja)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [ プレースメントからの広告の添付と削除 ](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [広告に関連付けられたプレースメントのリスト](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [広告の詳細レポートの表示](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [広告の一時停止またはアクティブ化](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -238,6 +239,6 @@ ht-degree: 3%
    + 通知 {#notifications}
       + [アラート配信登録について](/help/dsp/admin/alerts-about.md)
       + [アラート配信登録の管理](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloudとの統合 ](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ja)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Adobe Experience Cloudとの統合 ](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [ヘルプを表示](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)
++ [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

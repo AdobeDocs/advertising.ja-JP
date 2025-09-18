@@ -3,7 +3,7 @@ title: プレースメントの入札乗数の管理
 description: プレースメント ターゲットの入札乗数を作成および編集する方法を説明します。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 28f1b799daaa4e511abab1102a639e72b3a32d18
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
 
-1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Bid Multiplier]** をクリックします。
+1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Edit]**/**[!UICONTROL Bid Multiplier]** をクリックします。
 
 1. 適格なターゲットの入札乗数を調整します。
 

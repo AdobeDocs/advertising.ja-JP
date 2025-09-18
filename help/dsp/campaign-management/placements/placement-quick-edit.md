@@ -3,7 +3,7 @@ title: キー配置設定をすばやく編集する
 description: キー配置設定をすばやく変更する方法を説明します。
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 1. キャンペーンの名前をクリックします。
 1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
-1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Quick Edit]** をクリックします。
+1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Edit]**/**[!UICONTROL Quick Edit]** をクリックします。
 1. 使用可能な [ プレースメント設定 ](placement-settings.md)**[!UICONTROL Placement Name]**、**[!UICONTROL Status]**、**[!UICONTROL Max Bid]**、**[!UICONTROL Budget]** のいずれかを編集します。
 1. 「**[!UICONTROL Apply]**」をクリックします。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 >* [ プレースメントの複製 ](placement-duplicate.md)
 >* [ プレースメントの入札乗数の管理 ](placement-manage-bid-multipliers.md)
 >* [ プレースメントの広告スケジュールの編集 ](placement-edit-ad-schedule.md)
->* [ プレースメントの一時停止またはアクティブ化 ](placement-pause-activate.md)
+>* [ プレースメントの非アクティブ化またはアクティブ化 ](placement-pause-activate.md)
 >* [ プレースメントの変更ログを表示 ](placement-change-log.md)
 >* [ プレースメント設定 ](placement-settings.md)
->* [ ビデオ：一括編集ツールを使用してプレースメントを編集する方法 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=ja)
+>* [ ビデオ：一括編集ツールを使用してプレースメントを編集する方法 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

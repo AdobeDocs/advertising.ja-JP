@@ -3,7 +3,7 @@ title: オーディオ広告設定
 description: オーディオ広告に使用可能な広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 **[!UICONTROL Final VAST Tag]:** （VAST タグを使用した広告のみ）必要な [Advertising DSP トラッキングマクロが挿入されたサードパーティの広告ソースの URL](/help/dsp/campaign-management/macros.md) 該当する場合）。
 
-**[!UICONTROL Select Rate]:** （権限を持つユーザーのみ） ベンダーを通じて請求される事前交渉されたレート、またはAdobeを通じて交渉し、請求されたレートの 1 つ。 料金を追加するには、Adobeアカウントチームにお問い合わせください。
+**[!UICONTROL Select Rate]:** （権限を持つユーザーのみ） Adobeを通じて請求される事前交渉済みの料金、または交渉し、ベンダーを通じて請求される料金の 1 つ。 評価を追加するには、Adobe アカウントチームにお問い合わせください。
 
 ### [!UICONTROL Pixel]
 
-プレースメントの既存のイベントトラッキングピクセルはすべて自動的に添付されます。 個々の広告のトラッキングのニーズに基づいて、既存のピクセルを分離し、必要に応じて新しいピクセルを作成できます。 **ヒント：** [!UICONTROL Ad Tools] ビューを使用して、プレースメント内の複数の広告に対して一度にサードパーティトラッキングピクセルを編集するには、「[ プレースメント内の広告にサードパーティトラッキングピクセルを添付する ](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)」を参照してください。
+プレースメントの既存のイベントトラッキングピクセルはすべて自動的に添付されます。 個々の広告のトラッキングのニーズに基づいて、既存のピクセルを分離し、必要に応じて新しいピクセルを作成できます。 **ヒント：** [!UICONTROL Ad Tools] ビューを使用して、プレースメント内の複数の広告に対して一度にサードパーティトラッキングピクセルを編集するには、「[ プレースメント内の広告にサードパーティトラッキングピクセルを添付する ](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)」を参照してください。
 
 次の設定は、作成または編集する各ピクセルに適用されます。
 

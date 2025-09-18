@@ -3,9 +3,9 @@ title: インサイトについて
 description: ビジュアライゼーションを使用したパフォーマンスインサイトについて説明します。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼ
 
 * **[!UICONTROL Trends]:** 顧客が指定した 3 つの指標（デフォルトでは、[!UICONTROL Net Spend]、[!UICONTROL Unique Reach] および [!UICONTROL Net CPM]）について、日別または週別のトレンド・グラフ。
 
-* **[!UICONTROL Incremental Household Reach]:**&#x200B;[!UICONTROL Media Type]、[!UICONTROL Device Type]、または [!UICONTROL Inventory Type] による世帯の増分的リーチを示すドーナツグラフ。 *増分世帯リーチ* は、単一のメディア、デバイスまたは在庫タイプを排他的に通じて到達した世帯として定義されます。
+* **[!UICONTROL Incremental Household Reach]:**[!UICONTROL Media Type]、[!UICONTROL Device Type]、または [!UICONTROL Inventory Type] による世帯の増分的リーチを示すドーナツグラフ。 *増分世帯リーチ* は、単一のメディア、デバイスまたは在庫タイプを排他的に通じて到達した世帯として定義されます。
 
 * **[!UICONTROL Reach Breakdown]:** 世帯のリーチの増分と、[!UICONTROL Media Type]、[!UICONTROL Device Type]、[!UICONTROL Inventory Type] による重複の世帯のリーチの比較。
 
@@ -89,6 +89,8 @@ Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼ
 * （すべてのキャンペーンのインサイトを開くには）メインメニューで「イン **[!UICONTROL Insights BETA]** イト」をクリックします。
 
 * （特定のキャンペーン、パッケージまたはプレースメントのインサイトを開くには） [!UICONTROL Campaigns]、[!UICONTROL Packages] または [!UICONTROL Placements] ビューで、エンティティ名の横にある **[!UICONTROL ...]**/**[!UICONTROL Insights]** をクリックします。
+
+* （特定のプレースメントのインサイトを開くには） [!UICONTROL Campaigns]、[!UICONTROL Packages] または [!UICONTROL Placements] ビューで、エンティティ名の横にある **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Insights]** をクリックします。
 
 ## タブへのフィルターの適用
 

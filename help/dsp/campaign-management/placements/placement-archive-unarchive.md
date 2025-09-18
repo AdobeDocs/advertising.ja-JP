@@ -3,7 +3,7 @@ title: プレースメントのアーカイブまたはアーカイブ解除
 description: プレースメントをアーカイブまたはアーカイブ解除する方法について説明します。
 feature: DSP Placements
 exl-id: 4304452d-4573-46b3-892e-299950a75d4f
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -40,6 +40,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プレースメントの一時停止またはアクティブ化 ](placement-pause-activate.md)
+>* [ プレースメントの非アクティブ化またはアクティブ化 ](placement-pause-activate.md)
 >* [ プレースメントを編集 ](placement-edit.md)
 >* [ プレースメントの変更ログを表示 ](placement-change-log.md)

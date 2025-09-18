@@ -3,9 +3,9 @@ title: ネイティブのディスプレイ広告設定
 description: ネイティブディスプレイ広告に使用できる広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 152ba89baa17264a74a1a2498e0140972a0470eb
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -32,17 +32,17 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page]:** ビューアが広告をクリックしたときに表示される URL。
 
-**[!UICONTROL Final Landing Page]:** 必要な [Advertising DSP トラッキングマクロ ](/help/dsp/campaign-management/macros.md) が挿入された [!UICONTROL Landing Page] URL （該当する場合）。
+**[!UICONTROL Final Landing Page]:** 必要な [!UICONTROL Landing Page]Advertising DSP トラッキングマクロ [ が挿入された ](/help/dsp/campaign-management/macros.md) URL （該当する場合）。
 
 **[!UICONTROL Sponsored By (Advertiser Name)]:** 広告の広告主。
 
 **[!UICONTROL Call to Action]:** （任意）この広告を表示した視聴者に実行させる手順。
 
-**[!UICONTROL Advertiser Logo]:** （オプション）ブランド認知度を高めるために広告に含める 1:1 の比率のロゴ。 [**[!UICONTROL Browse]**] をクリックし、デバイスまたはネットワーク上のファイルを探して、[**[!UICONTROL Upload]**] をクリックします。
+**[!UICONTROL Advertiser Logo]:** （オプション）ブランド認知度を高めるために広告に含める 1:1 比のロゴ。 [**[!UICONTROL Browse]**] をクリックし、デバイスまたはネットワーク上のファイルを探して、[**[!UICONTROL Upload]**] をクリックします。
 
 ### [!UICONTROL Pixel]
 
-プレースメントの既存のイベントトラッキングピクセルはすべて自動的に添付されます。 個々の広告のトラッキングのニーズに基づいて、既存のピクセルを分離し、必要に応じて新しいピクセルを作成できます。 **ヒント：** [!UICONTROL Ad Tools] ビューを使用して、プレースメント内の複数の広告に対して一度にサードパーティトラッキングピクセルを編集するには、「[ プレースメント内の広告にサードパーティトラッキングピクセルを添付する ](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)」を参照してください。
+プレースメントの既存のイベントトラッキングピクセルはすべて自動的に添付されます。 個々の広告のトラッキングのニーズに基づいて、既存のピクセルを分離し、必要に応じて新しいピクセルを作成できます。 **ヒント：** [!UICONTROL Ad Tools] ビューを使用して、プレースメント内の複数の広告に対して一度にサードパーティトラッキングピクセルを編集するには、「[ プレースメント内の広告にサードパーティトラッキングピクセルを添付する ](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)」を参照してください。
 
 次の設定は、作成または編集する各ピクセルに適用されます。
 

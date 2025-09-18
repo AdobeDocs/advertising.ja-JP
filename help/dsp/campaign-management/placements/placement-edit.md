@@ -3,7 +3,7 @@ title: プレースメントを編集
 description: プレースメントの編集方法を説明します。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 1. キャンペーンの名前をクリックします。
 1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
-1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Quick Edit]** をクリックします。
+1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Edit]**/**[!UICONTROL Quick Edit]** をクリックします。
 1. 使用可能な [ プレースメント設定 ](placement-settings.md)**[!UICONTROL Placement Name]**、**[!UICONTROL Status]**、**[!UICONTROL Max Bid]**、**[!UICONTROL Budget]** のいずれかを編集します。
 1. 「**[!UICONTROL Apply]**」をクリックします。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
 
-1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Edit]** をクリックします。
+1. プレースメント名の横で、**[!UICONTROL ...]** / **[!UICONTROL Edit]** **[!UICONTROL Full Edit]** /をクリックします。
 
 1. [ プレースメント設定 ](placement-settings.md) を編集します。
 
@@ -97,9 +97,9 @@ ht-degree: 0%
 >* [ プレースメントの複製 ](placement-duplicate.md)
 >* [ プレースメントの入札乗数の管理 ](placement-manage-bid-multipliers.md)
 >* [ プレースメントの広告スケジュールの編集 ](placement-edit-ad-schedule.md)
->* [ プレースメントの一時停止またはアクティブ化 ](placement-pause-activate.md)
+>* [ プレースメントの非アクティブ化またはアクティブ化 ](placement-pause-activate.md)
 >* [ プレースメントの変更ログを表示 ](placement-change-log.md)
 >* [ プレースメント設定 ](placement-settings.md)
 >* [ 配置予測レポートの表示 ](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [ ショートカットキー ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [ ビデオ：一括編集ツールを使用してプレースメントを編集する方法 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=ja)
+>* [ ビデオ：一括編集ツールを使用してプレースメントを編集する方法 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

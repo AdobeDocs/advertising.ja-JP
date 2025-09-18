@@ -3,9 +3,9 @@ title: 広告に関連付けられたプレースメントのリスト
 description: 広告に関連付けられたプレースメントを表示する方法を説明します。
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # 広告に関連付けられたプレースメントのリスト
 
 広告に関連付けられたプレースメントのリストを表示して、プレースメント別のパフォーマンスデータを確認し、必要に応じてプレースメント設定を編集します。
-
-「[ プレースメントに添付された広告を表示 ](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign)」も参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 1. キャンペーンの名前をクリックします。
