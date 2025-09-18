@@ -102,4 +102,4 @@ ht-degree: 0%
 >* [ プレースメント設定 ](placement-settings.md)
 >* [ 配置予測レポートの表示 ](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [ ショートカットキー ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [ ビデオ：一括編集ツールを使用してプレースメントを編集する方法 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [ ビデオ：一括編集ツールを使用してプレースメントを編集する方法 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=ja)

@@ -38,4 +38,4 @@ ht-degree: 0%
 >* [ プレースメントの非アクティブ化またはアクティブ化 ](placement-pause-activate.md)
 >* [ プレースメントの変更ログを表示 ](placement-change-log.md)
 >* [ プレースメント設定 ](placement-settings.md)
->* [ ビデオ：一括編集ツールを使用してプレースメントを編集する方法 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [ ビデオ：一括編集ツールを使用してプレースメントを編集する方法 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=ja)
