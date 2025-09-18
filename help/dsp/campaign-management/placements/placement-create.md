@@ -147,4 +147,4 @@ ht-degree: 0%
 >* [ ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 >* [ ショートカットキー ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [ パフォーマンスのトラブルシューティング ](/help/dsp/optimization/troubleshooting-performance.md)
->* [ ビデオ：標準の表示配置を作成する方法 ](https://video.tv.adobe.com/v/340454)
+>* [ ビデオ：標準の表示配置を作成する方法 ](https://video.tv.adobe.com/v/345001?captions=jpn)
