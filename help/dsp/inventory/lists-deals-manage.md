@@ -3,9 +3,9 @@ title: 取引リストの管理
 description: プレースメントのターゲティング用の取引リストを作成および管理する方法について説明します。
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: 166117045e52a92d9c1fda4eeca9320c9e0bf3f1
+source-git-commit: e030783a046002e02d719a36c99d1b10808cd4a9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 
    * 非公開の取引の場合は、パブリッシャー、SSP、取引タイプ（*[!UICONTROL Guaranteed]* または *[!UICONTROL Non-Guaranteed]*）でリストをフィルタリングするか、取引名または取引 ID でリストを検索します。
 
-   * [!UICONTROL On Demand] の取引については、パブリッシャー、地域、メディアタイプでリストをフィルタリングするか、取引名でリストを検索します。
+   * [!UICONTROL On Demand] の取引については、パブリッシャー、地域、メディアタイプでリストをフィルタリングするか、取引名でリストを検索します。 リストには、購読している [!DNL On Demand] の取引のみが含まれています。
 
 1. リストに含める各取引の横にあるチェックボックスをオンにします。
 
