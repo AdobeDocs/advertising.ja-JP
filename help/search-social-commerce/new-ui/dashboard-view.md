@@ -4,7 +4,7 @@ description: パフォーマンスダッシュボードで使用できるデー�
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 6fe42303c8499dbff6d5964d4074e98a2f2486ba
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 *Beta機能*
 
-カスタマイズ可能な [!UICONTROL Dashboard] を使用すると、すべてのポートフォリオのパフォーマンスを監視でき <!-- May later include other entity-level data --> 潜在的なパフォーマンスの問題を特定して調査および解決できます。 過去 90 日間の任意の期間の日別、週別または月別データを表示できます。
+カスタマイズ可能な [!UICONTROL Dashboard] > [!UICONTROL Overview] を使用すると、すべてのポートフォリオのパフォーマンスを監視でき <!-- May later include other entity-level data --> ので、パフォーマンスに関する潜在的な問題を特定して調査および解決できます。 過去 90 日間の任意の期間の日別、週別または月別データを表示できます。
 
 [!UICONTROL Dashboard] には、次の視覚的なレポートが含まれています。
 
