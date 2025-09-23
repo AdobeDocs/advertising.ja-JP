@@ -3,9 +3,9 @@ title: ポートフォリオへのキャンペーンの割り当て
 description: 最適化のためにキャンペーンをポートフォリオに含める方法を説明します。
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 単一のポートフォリオに割り当てる各キャンペーンの横にあるチェックボックスをオンにします。
 
-1. ツールバーで、![ その他のアクション ](/help/search-social-commerce/assets/more-actions.png " その他のアクション ") **[!UICONTROL More Actions]** / ![割り当て](/help/search-social-commerce/assets/assign.png "割り当て") **[!UICONTROL Assign]** / **[!UICONTROL Existing Portfolio]** をクリックします。
+1. 一括アクションツールバーで、**+[!UICONTROL Assign]** / **[!UICONTROL Existing Portfolio]** をクリックします。
 
 1. ポートフォリオを選択します。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 新しいポートフォリオを作成する各キャンペーンの横にあるチェックボックスをオンにします。
 
-1. ツールバーで、![ その他のアクション ](/help/search-social-commerce/assets/more-actions.png " その他のアクション ") **[!UICONTROL More Actions]** / ![割り当て](/help/search-social-commerce/assets/assign.png "割り当て") **[!UICONTROL Assign]** / **[!UICONTROL New Portfolio]** をクリックします。
+1. 一括アクションツールバーで、**+[!UICONTROL Assign]**/**[!UICONTROL New Portfolio]** をクリックします。
 
 1. [!UICONTROL Create Portfolio] 画面で、ポートフォリオ設定を指定します。
 

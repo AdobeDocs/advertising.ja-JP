@@ -3,9 +3,9 @@ title: カスタム目標
 description: 最低 CPA または最高 ROAS 用に最適化されたパッケージで成功イベントを定義するカスタム目標について説明します。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,19 @@ ht-degree: 0%
 
 [ カスタム目標を作成 ](#custom-goal-create) したら、[ パッケージに割り当てる ](/help/dsp/campaign-management/packages/package-settings.md) ことで、Adobe Senseiを使用したレポートやアルゴリズムの最適化を行うことができます。
 
-重み付けレコメンデーションは、目標のDSP属性指標に対して自動的に生成され、ワンクリックですべての重み付けレコメンデーションを適用できます。 「ADSP_」が接頭辞の付いた目標に対するすべての重み付けの変更は、2 日以内にDSPでアルゴリズムにより適用されます。 重み付けの推奨事項について詳しくは、最適化ガイドの「（Beta）新しい目標」の章を参照してください。この章は、検索、ソーシャル、Commerce内から入手できます。
+重み付けレコメンデーションは、目標のDSP属性指標に対して自動的に生成され、ワンクリックですべての重み付けレコメンデーションを適用できます。 「ADSP_」が接頭辞の付いた目標に対するすべての重み付けの変更は、2 日以内にDSPでアルゴリズムにより適用されます。 重み付けの推奨事項について詳しくは、最適化ガイドの「目標」に関する章を参照してください。この章は、検索、ソーシャル、Commerce内から利用できます。
 
 ## カスタム目標の作成 {#custom-goal-create}
 
 カスタム目標を作成するには、DSP アカウントが、[!DNL Search, Social, & Commerce] クライアント設定内から同じAdobe Experience Cloud組織 ID を持つ [!DNL Search, Social, & Commerce] アカウントにリンクされている必要があります。 DSP アカウントが [!DNL Search, Social, & Commerce] アカウントにリンクされていない場合は、Adobe アカウントチームにお問い合わせください。
 
-1. （北米のユーザー） [!DNL Advertising Search, Social, & Commerce][`https://enterprise-na.efrontier.com` または（その他すべてのユーザー） ](https://enterprise-na.efrontier.com) [`https://enterprise-intl.efrontier.com` で ](https://enterprise-intl.efrontier.com) にログインします。
+1. [Advertisingの検索、ソーシャル、Commerceへのログイン ](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}。
 
 1. 目標に含める指標が追跡されていて、製品で使用でき、表示名を含んでいることを確認します。
 
-   1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Conversions]** をクリックします。
+   1. メインメニューで、**[!UICONTROL Goals]**/**[!UICONTROL Conversions]** をクリックします。
+
+      コンバージョンビューが新しいブラウザーまたはブラウザータブで開きます。
 
    1. 指標を見つけ、その指標に対して **[!UICONTROL Show in UI and Reports]** が有効になっていることを確認します。
 
@@ -45,30 +47,24 @@ ht-degree: 0%
 
    1. 指標の「**[!UICONTROL Display Name]**」列に値がない場合は、セル内をクリックし、表示名を入力して「**[!UICONTROL Apply]」をクリックします。**
 
-1. カスタム目標を *目標* として作成します。
+1. [ カスタム目標を *目標*](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md){target="_blank"} として作成します。 次の点に留意してください。
 
-   1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]**/**[!UICONTROL Optimization]/[!UICONTROL New Objectives Beta]** をクリックします。
+   * Advertising DSP パッケージに使用される目標の場合、目標名の先頭には「ADSP_Registrations」のように「ADSP_」を付ける必要があります。 プレフィックスでは大文字と小文字が区別されません。
 
-   1. ツールバーで、「![ 作成 ](/help/dsp/assets/create-search-ui.png " 作成 ")」をクリックします。
+   * DSPに関連付けられている指標のみを含めます。 検索、ソーシャル、Commerceまたはその他の広告ネットワークに起因する指標は無視されます。
 
-   1. 非モバイルデバイスの関連指標とその相対数値の重み付けを含む目標設定を入力し、目標を保存します。 次の点に留意してください。
+   * 少なくとも 1 つの指標のタイプが *[!UICONTROL Goal]* である必要があります。
 
-      * Advertising DSP パッケージに使用される目標の場合、目標名の先頭には「ADSP_Registrations」のように「ADSP_」を付ける必要があります。 プレフィックスでは大文字と小文字が区別されません。
+   * DSPでは、すべての広告にモバイル以外の重み付けを使用します。 指定したモバイルの重み付けは無視されます。
 
-      * DSPに関連付けられている指標のみを含めます。 検索、ソーシャル、Commerceまたはその他の広告ネットワークに起因する指標は無視されます。
+   >[!NOTE]
+   >
+   >* カスタムイベント [!DNL Analytics]、命名規則 `custom_event_[*event #*]_[*Analytics report suite ID*]` に従います。 例：`custom_event_16_examplersid`
+   >* [!DNL Analytics] のディメンションとセグメントは、Adobe Advertisingの最適化では使用できません。
 
-      * 少なくとも 1 つの指標のタイプが *[!UICONTROL Goal]* である必要があります。
-
-      * DSPでは、すべての広告にモバイル以外の重み付けを使用します。 指定したモバイルの重み付けは無視されます。
-
-      >[!NOTE]
-      >
-      >* カスタムイベント [!DNL Analytics]、命名規則 `custom_event_[*event #*]_[*Analytics report suite ID*]` に従います。 例：`custom_event_16_examplersid`
-      >* [!DNL Analytics] のディメンションとセグメントは、Adobe Advertisingの最適化では使用できません。
-
-      >[!TIP]
-      >
-      >最適なパフォーマンスを得るには、カスタム目標（目標）の合計指標が、1 日に少なくとも 10 回のコンバージョンを満たす必要があります。 そうでない場合は、製品ページやアプリケーション開始など、追加のサポートコンバージョン指標を目的に追加することをお勧めします。 ガイドラインについては、[ カスタム目標を作成するためのベストプラクティス ](#custom-goal-best-practices) を参照してください。
+   >[!TIP]
+   >
+   >最適なパフォーマンスを得るには、カスタム目標（目標）の合計指標が、1 日に少なくとも 10 回のコンバージョンを満たす必要があります。 そうでない場合は、製品ページやアプリケーション開始など、追加のサポートコンバージョン指標を目的に追加することをお勧めします。 ガイドラインについては、[ カスタム目標を作成するためのベストプラクティス ](#custom-goal-best-practices) を参照してください。
 
 最適化目標「[!UICONTROL Highest Return on Ad Spend (ROAS)"]」または「[!UICONTROL Lowest Cost per Acquisition (CPA)]」を使用するパッケージのDSP パッケージ設定で、目標名が [!UICONTROL Custom Goals] リストに含まれるようになりました。 目標をパッケージのカスタム目標として選択すると、[!UICONTROL Conversion Metric] のリストには、その目標のすべての目標指標が含まれます。
 

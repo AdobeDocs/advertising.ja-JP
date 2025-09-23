@@ -4,7 +4,7 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: aba643fb2d1d005a90ecec4f067714e9ec830627
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
 source-wordcount: '1877'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [サポートされるインベントリ](/help/search-social-commerce/introduction/supported-inventory.md)
    + Adobe Experience Cloudとの統合 {#integrations}
       + [Adobe Experience Cloudのソリューションおよびサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising]  （リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja){target="_blank"}
-      + [Adobe Audience Managerとの統合（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ja){target="_blank"}
-   + [ 消費者プライバシーのサポート（リンク）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
-   + [ ポリシーとガイドライン（リンク）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=ja){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising]  （リンク） ](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Adobe Audience Managerとの統合（リンク） ](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [ 消費者プライバシーのサポート（リンク） ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [ ポリシーとガイドライン（リンク） ](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + はじめに {#getting-started}
    + [実装の概要](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [必要システム構成](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -70,12 +70,12 @@ ht-degree: 2%
    + [パフォーマンスダッシュボードの表示](/help/search-social-commerce/new-ui/dashboard-view.md)
    + プラン {#plan}
       + 目標 {#objectives}
-         + [目標について](/help/search-social-commerce/new-ui/plan/objectives/objective-about.md)
-         + [目標の作成](/help/search-social-commerce/new-ui/plan/objectives/objective-create.md)
-         + [目標の編集](/help/search-social-commerce/new-ui/plan/objectives/objective-edit.md)
-         + [目標の削除](/help/search-social-commerce/new-ui/plan/objectives/objective-delete.md)
-         + [目標に対する重み付けレコメンデーションの適用](/help/search-social-commerce/new-ui/plan/objectives/objective-apply-weight-recommendations.md)
-         + [目標の設定](/help/search-social-commerce/new-ui/plan/objectives/objective-settings.md)
+         + [目標について](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
+         + [目標の作成](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md)
+         + [目標の編集](/help/search-social-commerce/new-ui/goals/objectives/objective-edit.md)
+         + [目標の削除](/help/search-social-commerce/new-ui/goals/objectives/objective-delete.md)
+         + [目標に対する重み付けレコメンデーションの適用](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
+         + [目標の設定](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
       + シミュレーション {#simulations}
          + [シミュレーションについて](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
          + [カスタムシミュレーションの実行または再実行](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
@@ -94,8 +94,8 @@ ht-degree: 2%
          + [[!UICONTROL Portfolios] 表示からのデータ表示レポートの管理](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + キャンペーン {#campaigns}
          + [[!UICONTROL Campaigns] ビューについて](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [ ポートフォリオへのキャンペーンの割り当て ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [ ポートフォリオからのキャンペーンの削除 ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [ ポートフォリオへのキャンペーンの割り当て ](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [ ポートフォリオからのキャンペーンの削除 ](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
          + [キャンペーンの制約割り当ての管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [[!UICONTROL Campaigns] 表示からのデータ表示レポートの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
       + 広告グループ {#ad-groups}
@@ -119,7 +119,7 @@ ht-degree: 2%
             + [ [!DNL Yahoo! Japan Ads] のクリック追跡形式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [ [!DNL Yandex] のクリック追跡形式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [クリックトラッキング URL 用のオプションのトラッキングパラメーター](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertisingの Cookie （リンク）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ja){target="_blank"}
+      + [Adobe Advertisingの Cookie （リンク） ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [AMO ID （s_kwcid） トラッキングパラメーター](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + コンバージョントラッキング {#conversion-tracking}
       + [コンバージョントラッキングオプション](/help/search-social-commerce/tracking/conversion-tracking-about.md)

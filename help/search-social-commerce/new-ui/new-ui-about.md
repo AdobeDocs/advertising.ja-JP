@@ -2,18 +2,19 @@
 title: 新しいユーザーインターフェイスについて
 description: 新しいユーザーインターフェイスについて説明します。
 feature: Search Introduction
-source-git-commit: 97c7776ab7dfacbb7ac4fdc038f25d4ced5b54e4
+exl-id: 27fcc1c2-fe69-4bdc-9786-c48b28da1560
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
 # 新しいユーザーインターフェイスについて
 
-新しいユーザーインターフェイス（UI）から目標、シミュレーション、ポートフォリオを管理できるようになりました。 また、キャンペーンと広告グループに対していくつかのタスクを実行し、一部のレガシービューを開くこともできます。 新しい検索、ソーシャル、Commerceのユーザーインターフェイスは、https://experience.adobe.com ドメイン内の新しい URL で実行されます。
+新しいユーザーインターフェイス（UI）から目標、シミュレーション、ポートフォリオを管理できるようになりました。 また、キャンペーンや広告グループに対していくつかのタスクを実行できます。 新しい検索、ソーシャル、Commerce UI は、https://experience.adobe.com ドメイン内の新しい URL で実行されます。
 
-時間の経過と共に、追加の機能が新しいユーザーインターフェイスに移動します。 それまでの間、新しい UI とレガシー UI を簡単に切り替えることができます。
+時間の経過と共に、追加の機能が新しい UI に移動します。 それまでの間、レガシー UI のほとんどの機能を新しい UI のメインメニューから開くことができます。 また、新しい UI とレガシー UI を簡単に切り替えることもできます。
 
 新しい UI の編成方法について詳しくは、「[ ユーザーインターフェイスの編成方法 ](/help/search-social-commerce/getting-started/user-interface.md) を参照してください。
 

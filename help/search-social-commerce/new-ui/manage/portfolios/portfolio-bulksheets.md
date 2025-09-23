@@ -3,9 +3,10 @@ title: バルクシートファイルを使用したポートフォリオ設定�
 description: バルクシートファイルを使用して複数のポートフォリオの設定を編集する方法を説明します。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 * フィールドの編集に関する情報を含む読み取り専用の [!UICONTROL Instructions] ワークシート。
 
-* 含まれるポートフォリオごとに 1 行の [!UICONTROL Portfolio Settings Edit] しいタブ。 必要に応じてフィールドを編集し、ファイルをローカルに保存したあと、検索、ソーシャルおよびCommerceに [ 編集したファイルをアップロード ](#portfolio-bulksheet-upload) することもできます。
+* 含まれるポートフォリオごとに 1 行の [!UICONTROL Portfolio Settings Edit] しいタブ。 必要に応じてフィールドを編集し、ファイルをローカルに保存したあと、検索、ソーシャルおよびCommerceに [ 編集したファイルをアップロード ](#portfolio-bulksheet-upload) することもできます。 編集可能なフィールドはカラーでハイライト表示されます。
 
 ## ポートフォリオ設定を含むバルクシート ファイルのダウンロード
 

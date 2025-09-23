@@ -3,9 +3,10 @@ title: 広告グループの制約割り当ての管理
 description: 広告グループに制約を割り当てる方法について説明します。
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 1. 単一の制約を割り当てる各広告グループの横にあるチェックボックスをオンにします。
 
-1. ツールバーで、![ その他のアクション ](/help/search-social-commerce/assets/more-actions.png " その他のアクション ") **[!UICONTROL More Actions]** / ![割り当て](/help/search-social-commerce/assets/assign.png "割り当て") **[!UICONTROL Assign]** / **[!UICONTROL Constraint]** をクリックします。
+1. 一括アクションツールバーで、**+[!UICONTROL Assign]**/**[!UICONTROL Constraint]** をクリックします。
 
 1. 制約を選択します。
 
@@ -58,7 +59,7 @@ ht-degree: 0%
 
 1. 制約の割り当てを解除する各広告グループの横にあるチェックボックスをオンにします。
 
-1. ツールバーで、![ その他のアクション ](/help/search-social-commerce/assets/more-actions.png " その他のアクション ") **[!UICONTROL More Actions]** / ![割り当て](/help/search-social-commerce/assets/unassign.png "割り当て解除") **[!UICONTROL Unassign]** / **[!UICONTROL Constraint]** をクリックします。
+1. 一括アクションツールバーで、**-[!UICONTROL Unassign]**/**[!UICONTROL Constraint]** をクリックします。
 
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 

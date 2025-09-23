@@ -4,9 +4,9 @@ description: パフォーマンスダッシュボードで使用できるデー�
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 * **Biggest Movers - \[selected metric\]:** 前の期間と比較して、指定された指標に対する変化が最も大きい 10 個のポートフォリオ。
 
 * **支出配分：** 広告ネットワーク別の支出配分。
+
+## パフォーマンスダッシュボードの表示
+
+* メインメニューで、**[!UICONTROL Dashboard]/[!UICONTROL Overview]** をクリックします。
 
 ## パフォーマンスダッシュボードのカスタマイズ
 

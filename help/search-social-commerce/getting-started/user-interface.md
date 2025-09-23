@@ -3,9 +3,9 @@ title: ユーザーインターフェイスの編成方法
 description: 様々な機能へのアクセス場所について説明します。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a180f99dc28fb1ed9abbd7654914fdd75e642c37
+source-git-commit: de1b498963abd5670dee3dbc326206fa0708a7fa
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,37 @@ ht-degree: 0%
 
 ## メインメニュー
 
-新しいユーザーインターフェイスの左側には、作業ステージ（計画、管理、レビュー、設定）別にタスクを整理する新しいメインメニューが用意されています。 従来のユーザーインターフェイスから追加されるサブメニューとオプションは、後で追加されます。
+新しいユーザーインターフェイスの左側には、作業ステージ別にタスクを整理する新しいメインメニューが追加されました。 従来のユーザーインターフェイスから追加されるサブメニューとオプションは、後で追加されます。
 
 ### メインメニューオプション
 
 役割によって、使用可能なオプションが決まります。<!-- add link when available -->
 
-* **[!UICONTROL Dashboard]** すべてのポートフォリオのパフォーマンスビジュアライゼーションを含む設定可能な [!UICONTROL Dashboard] ビューを開きます。
+* **[!UICONTROL Dashboard]** サブメニュー：
+
+   * **[!UICONTROL Overview]** すべてのポートフォリオのパフォーマンスビジュアライゼーションを含む設定可能な [!UICONTROL Dashboard] ビューを開きます。
+
+   * **[!UICONTROL Recommendations]**：新しいサイトを終了し、従来の [!UICONTROL Insights & Reports]/[!UICONTROL Recommendations & Publisher Insights] ビューを開きます。
+
+* **[!UICONTROL Alerts & Notifications]**：新しいサイトを終了し、従来の [!UICONTROL Insights & Reports]/[!UICONTROL Custom Alerts] ビューを開きます。
+
+* **[!UICONTROL Goals]** サブメニュー：
+
+   * **[!UICONTROL Objectives]** 新しい [!UICONTROL Objectives] ビューが開き、既存の目標をすべて表示したり、目標を作成、編集および削除できます。
+
+   * **[!UICONTROL Conversions]** 新しいサイトを終了し、従来の [!UICONTROL Admin]/[!UICONTROL Conversions] ビューを開きます。
+
+   * **[!UICONTROL Conversion Value Rules]** 新しいサイトを終了し、従来の [!UICONTROL Optimization]/[!UICONTROL Conversion Value Rules] ビューを開きます。
+
+   * **[!UICONTROL Constraints]** 新しいサイトを終了し、従来の [!UICONTROL Optimization]/[!UICONTROL Constraints] ビューを開きます。
 
 * **[!UICONTROL Plan]** サブメニュー：
 
-   * **[!UICONTROL Objectives]** 新しい [!UICONTROL Objectives] ビューが開き、既存の目標をすべて表示したり、目標を作成、編集および削除できます。 目的の設定は、[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Optimization]/[!UICONTROL New Objectives Beta] の従来のユーザーインターフェイスでの設定と同じです。
-
    * **[!UICONTROL Simulations]** 新しい [[!UICONTROL Simulations] ビューが開き ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) ユーザーが作成したカスタム シミュレーションおよび自動生成された週別シミュレーションをすべて表示したり、新しいカスタム シミュレーションを生成したり、既存のシミュレーションを再実行することができます。 「[!UICONTROL Spend Planner]」ボタンをクリックすると、[!UICONTROL Spend Recommendation]/[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Optimization] で従来の [!UICONTROL Spend Recommendation] ツールが開きます。
+
+   * **[!UICONTROL Spend Planner]** 新しいサイトを終了し、従来の [!UICONTROL Optimization]/[!UICONTROL Spend Recommendation] ビューを開きます。
+
+   * **[!UICONTROL Label Classification]** 新しいサイトを終了し、従来の [!UICONTROL Campaigns]/[!UICONTROL Label Classifications] ビューを開きます。
 
 * **[!UICONTROL Manage]** サブメニュー：
 
@@ -46,27 +64,59 @@ ht-degree: 0%
 
      キャンペーンを作成、編集、削除するには、メインメニューで **[!UICONTROL Set Up]**/**[!UICONTROL Accounts]** をクリックするか、「[[!UICONTROL Switch to Old UI]」ボタンをクリックして、従来のユーザーインターフェイスに戻り ](/help/search-social-commerce/getting-started/ui-switch.md) す。
 
-* **[!UICONTROL Ad Groups]:** 新しい [!UICONTROL Ad Groups] ビューを開きます。このビューには、広告主のすべての広告グループが表示されます。 選択した広告グループの制約の割り当てを管理できます。 また、データテーブルコンテンツのレポートをダウンロードすることもできます。
+   * **[!UICONTROL Ad Groups]:** 新しい [!UICONTROL Ad Groups] ビューを開きます。このビューには、広告主のすべての広告グループが表示されます。 選択した広告グループの制約の割り当てを管理できます。 また、データテーブルコンテンツのレポートをダウンロードすることもできます。
 
-  キャンペーンを作成、編集、削除するには、メインメニューで **[!UICONTROL Set Up]**/**[!UICONTROL Accounts]** をクリックするか、「[[!UICONTROL Switch to Old UI]」ボタンをクリックして、従来のユーザーインターフェイスに戻り ](/help/search-social-commerce/getting-started/ui-switch.md) す。
+     キャンペーンを作成、編集、削除するには、メインメニューで **[!UICONTROL Set Up]**/**[!UICONTROL Accounts]** をクリックするか、「[[!UICONTROL Switch to Old UI]」ボタンをクリックして、従来のユーザーインターフェイスに戻り ](/help/search-social-commerce/getting-started/ui-switch.md) す。
 
-* **[!UICONTROL Review]** サブメニュー：
+   * **[!UICONTROL Ads]** 新しいサイトを終了し、従来の [!UICONTROL Campaigns]/[!UICONTROL Campaigns] ビューを開きます。
+
+* **[!UICONTROL Reports]** サブメニュー：
 
    * **[!UICONTROL Insights]**：新しいサイトを終了し、従来の [!UICONTROL Insights & Reports]/[!UICONTROL Insights] ビューを開きます。
 
-   * **[!UICONTROL Reports]**：新しいサイトを終了し、従来の [!UICONTROL Insights & Reports]/[!UICONTROL Reports] ビューを開きます。
-
-   * **[!UICONTROL Recommendations]**：新しいサイトを終了し、従来の [!UICONTROL Insights & Reports]/[!UICONTROL Recommendations & Publisher Insights] ビューを開きます。
+   * **[!UICONTROL Scheduled Reports]**：新しいサイトを終了し、従来の [!UICONTROL Insights & Reports]/[!UICONTROL Reports] ビューを開きます。
 
    * **[!UICONTROL Spreadsheet Feeds]**：新しいサイトを終了し、従来の [!UICONTROL Insights & Reports]/[!UICONTROL Spreadsheets] ビューを開きます。
 
    * **[!UICONTROL History Logs]**：新しいサイトを終了し、従来の [!UICONTROL Insights & Reports]/[!UICONTROL Change History] ビューを開きます。
 
+* **[!UICONTROL Target]** サブメニュー：
+
+   * **[!UICONTROL Audience]**：新しいサイトを終了し、従来の [!UICONTROL Campaigns]/[!UICONTROL Audiences] ビューを開きます。
+
+   * **[!UICONTROL Keywords]** 新しいサイトを終了し、従来の [!UICONTROL Campaigns]/[!UICONTROL Campaigns] ビューを開きます。
+
+   * **[!UICONTROL Placements]** 新しいサイトを終了し、従来の [!UICONTROL Campaigns]/[!UICONTROL Campaigns] ビューを開きます。
+
+* **[!UICONTROL Assets]** サブメニュー：
+
+   * **[!UICONTROL Auto Targets]** 新しいサイトを終了し、従来の [!UICONTROL Campaigns]/[!UICONTROL Campaigns] ビューを開きます。
+
+   * **[!UICONTROL Creatives]** 新しいサイトを終了し、従来の [!UICONTROL Campaigns]/[!UICONTROL Campaigns] ビューを開きます。
+
+   * **[!UICONTROL Extensions]** 新しいサイトを終了し、従来の [!UICONTROL Campaigns]/[!UICONTROL Campaigns] ビューを開きます。
+
+   * **[!UICONTROL Shopping]** 新しいサイトを終了し、従来の [!UICONTROL Campaigns]/[!UICONTROL Campaigns] ビューを開きます。<!-- Should this go to Campaigns > Products? -->
+
 * **[!UICONTROL Set Up]** サブメニュー：
 
    * **[!UICONTROL Accounts]**：新しいサイトを終了し、従来の [!UICONTROL Campaigns]/[!UICONTROL Campaigns] ビューを開きます。
 
-   * **[!UICONTROL Audiences]**：新しいサイトを終了し、従来の [!UICONTROL Campaigns]/[!UICONTROL Audiences] ビューを開きます。
+<!-- What's happenening to these?
+
+Campaigns > ACM
+Campaigns > Bulksheets
+Campaigns > Asset Library
+
+Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
+
+Tools > Conversion Upload Setup
+Tools > Generic Tracking
+Tools > Inventory Selection
+Import Campaigns
+
+Tools > Admin > Data Source Setup
+-->
 
 ### メインメニューを折りたたむ
 
