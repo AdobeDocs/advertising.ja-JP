@@ -51,7 +51,7 @@ ht-degree: 0%
 
 * [!DNL Google] 指標：<!-- Search only, or might DSP-only clients also have these? -->
 
-   * 同期された [[!DNL Google Ads] アカウントからの ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)[!DNL Google Ads] で追跡されたコンバージョン。
+   * 同期された [[!DNL Google Ads] アカウントからの ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) [!DNL Google Ads] で追跡されたコンバージョン。
 
    * （[[!DNL Google Analytics]  統合 ](/help/search-social-commerce/admin/data-sources/data-source-about.md)）ページビュー、セッション、バウンス率（バウンス/セッションとして計算）、セッション時間を使用する広告主。
 
