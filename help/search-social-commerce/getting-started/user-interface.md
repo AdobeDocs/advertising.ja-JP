@@ -3,7 +3,7 @@ title: ユーザーインターフェイスの編成方法
 description: 様々な機能へのアクセス場所について説明します。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: de1b498963abd5670dee3dbc326206fa0708a7fa
+source-git-commit: 3b4d92d2f6fe8b2ef57dfd5ce833772c37b039f8
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Recommendations]**：新しいサイトを終了し、従来の [!UICONTROL Insights & Reports]/[!UICONTROL Recommendations & Publisher Insights] ビューを開きます。
 
-* **[!UICONTROL Alerts & Notifications]**：新しいサイトを終了し、従来の [!UICONTROL Insights & Reports]/[!UICONTROL Custom Alerts] ビューを開きます。
+   * **[!UICONTROL Alerts & Notifications]**：新しいサイトを終了し、従来の [!UICONTROL Insights & Reports]/[!UICONTROL Custom Alerts] ビューを開きます。
 
 * **[!UICONTROL Goals]** サブメニュー：
 
