@@ -13,7 +13,7 @@ AMO ID は、一意の各広告の組み合わせを細かいレベルで追跡�
 
 [!DNL Analytics]:AMO ID は、[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) または rVar ディメンション（AMO ID）に保存されます。
 
-Customer Journey Analyticsの場合、AMO ID は、`trackingCode``conversionDetails` の一部である [ オブジェクトの [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] プロパティに保存さ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) ます。
+Customer Journey Analyticsの場合、AMO ID は、`trackingCode` `conversionDetails` の一部である [ オブジェクトの [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] プロパティに保存さ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) ます。
 
 AMO ID は `s_kwcid` とも呼ばれ、「[!DNL squid]」と発音されることがあります。
 
@@ -41,7 +41,7 @@ AMO ID の例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 * `{userid}` は、広告主に割り当てられた一意のユーザー ID です。
 
-* `{sid}` は、広告主の広告ネットワークアカウントの数値 ID に置き換えられます。*の場合は* 3[!DNL Google Ads]、*の場合は* 10[!DNL Microsoft Advertising]、*の場合は* 45[!DNL Meta]、*の場合は* 86[!DNL Yahoo! Display Network]、*の場合は* 87[!DNL Naver]、*の場合は* 88[!DNL Baidu]、*900 の場合は*[!DNL Yandex] ** [!DNL Yahoo! Japan Ads] ** [!DNL Yahoo Native] ** [!DNL Pinterest] 90588885 （廃止予定）。
+* `{sid}` は、広告主の広告ネットワークアカウントの数値 ID に置き換えられます。*の場合は* 3[!DNL Google Ads]、*の場合は* 10[!DNL Microsoft Advertising]、*の場合は* 45[!DNL Meta]、*の場合は* 86[!DNL Yahoo! Display Network]、*の場合は* 87[!DNL Naver]、*の場合は* 88[!DNL Baidu]、*900 の場合は*[!DNL Yandex] **&#x200B; [!DNL Yahoo! Japan Ads] &#x200B;** [!DNL Yahoo Native] ** [!DNL Pinterest] 90588885 （廃止予定）。
 
 ##### [!DNL Baidu]
 
@@ -116,13 +116,13 @@ where:
 >[!NOTE]
 >
 > [!UICONTROL Auto Upload] トラッキングオプションのないキャンペーンで、まだ新しい形式に移行されていないアカウントの場合、上記の形式を含めるように各ランディングページのサフィックスを手動で更新します。
-> >それまでの間、次のような従来の形式も引き続き機能します。
+> &#x200B;>それまでの間、次のような従来の形式も引き続き機能します。
 >* 検索キャンペーン：
->  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* ショッピングキャンペーン（[!DNL Microsoft Merchant Center] を使用）:
->  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* オーディエンスネットワークキャンペーン：
->  >  `s_kwcid=AL!{userid}!10!{AdId}`
+>  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
