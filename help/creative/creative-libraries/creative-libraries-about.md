@@ -64,7 +64,7 @@ GIF、JPEG、JPG、PNG 形式の画像クリエイティブを含めることが
 
 デバイスやネットワークから、web、モバイル、接続テレビ用のファーストパーティビデオクリエイティブをアップロードできます。 標準のビデオ広告エクスペリエンスごとに、エクスペリエンスに割り当てられたクリエイティブ期間ごとにデフォルトのビデオクリエイティブが必要です。 すべてのビデオクリエイティブは、DSPによって VAST 2.0 タグとして自動的にトランスコードされるので、プレビューできます。 ま [!UICONTROL Tag Manager]、任意のビデオ広告エクスペリエンスタグに対して、オプションで [DSP固有のトランスコーディングを適用 ](/help/creative/experiences/experience-tag-video-transcoding.md) できます。
 
-次のビデオクリエイティブの要件を参照してください。 **注意：** ビデオエクスペリエンスをAdvertising DSPにアップロードする場合は、DSPの [ 高精細ビデオAssetsの要件 ](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) も参照してください。この要件は制限される場合があります。
+次のビデオクリエイティブの要件を参照してください。 **注意：** ビデオエクスペリエンスをAdvertising DSPにアップロードする場合は、DSPの [ 高精細ビデオAssetsの要件 ](https://experienceleague.adobe.com/ja/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) も参照してください。この要件は制限される場合があります。
 
 **ファイルタイプ：** .mov、.mp4、.webm
 
