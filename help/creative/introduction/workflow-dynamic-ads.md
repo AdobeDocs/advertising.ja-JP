@@ -2,9 +2,9 @@
 title: 動的広告のワークフロー
 description: 動的広告を管理するためのワークフローについて説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 広告エクスペリエンスにすべてを一度に添付できる [ 動的広告バンドルを作成 ](/help/creative/creative-libraries/bundle-manage.md) します。
 
-1. [ ターゲティングを使用 ](/help/creative/experiences/experience-create-targeting.md) または [ ターゲティングを使用せずに ](/help/creative/experiences/experience-create-no-targeting.md) 動的な広告エクスペリエンスを作成し、[ それらのバンドルを動的な広告エクスペリエンスに割り当てる ](/help/creative/experiences/experience-assign-creative-bundles.md) ことができます。
+1. [ ターゲティングを使用 ](/help/creative/experiences/experience-create-targeting.md) または [ ターゲティングを使用せずに ](/help/creative/experiences/experience-create-no-targeting.md) 動的な広告エクスペリエンスを作成し、[ クリエイティブバンドルをエクスペリエンスに割り当てる ](/help/creative/experiences/experience-assign-creative-bundles.md) ことができます。
 
 1. [ad experience タグを生成および実装 ](/help/creative/experiences/experience-tag-export.md) して、DSPの広告として実行します。
 

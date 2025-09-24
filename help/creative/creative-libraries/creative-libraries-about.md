@@ -3,9 +3,9 @@ title: クリエイティブライブラリについて
 description: 広告エクスペリエンスのクリエイティブの管理について説明します。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1383'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * **個々のクリエイティブ：** ユーザーのターゲットを定義していない広告エクスペリエンスに個々のクリエイティブを直接含めることができます。 また、クリエイティブを使用してバンドルを作成し、ターゲット設定した [ 広告エクスペリエンス ](/help/creative/experiences/experience-about.md) に含めることもできます。
 
-   * **標準クリエイティブ：** クリエイティブは [ 様々な形式 ](#creative-creative-formats) でアップロードおよび管理できます。 各クリエイティブに対して、クリエイティブを関連付ける各広告のデフォルトの言語と、クリエイティブが含まれる広告をユーザーがクリックすると開くデフォルトのランディングページを指定します。 オプションで、[!DNL Creative] ディメンションの使用を含める場合、[!UICONTROL Custom Creative Report] 内の様々なビュー内のフィルターとして、および [!UICONTROL Creative Label] の列値として使用するラベルを指定できます。
+   * **標準クリエイティブ：** クリエイティブは [ 様々な形式 ](#creative-creative-formats) でアップロードおよび管理できます。 各クリエイティブに対して、クリエイティブを関連付ける各広告のデフォルトの言語と、ユーザーがクリエイティブを含む広告をクリックすると開くデフォルトのランディングページを指定します。 オプションで、[!DNL Creative] ディメンションの使用を含める場合、[!UICONTROL Custom Creative Report] 内の様々なビュー内のフィルターとして、および [!UICONTROL Creative Label] の列値として使用するラベルを指定できます。
 
    * **動的クリエイティブ：** 広告テンプレート内の動的変数をフィードファイルの値にマッピングすることで、動的に生成されたクリエイティブを作成できます。 すべてのユーザーは、既存の動的広告をプレビュー、複製および削除できます。
 
@@ -62,9 +62,9 @@ GIF、JPEG、JPG、PNG 形式の画像クリエイティブを含めることが
 
 #### ビデオクリエイティブ {#creative-video-specs}
 
-デバイスやネットワークから、web、モバイル、接続テレビ用のファーストパーティビデオクリエイティブをアップロードできます。 標準のビデオ広告エクスペリエンスごとに、エクスペリエンスに割り当てられたクリエイティブ期間ごとにデフォルトのビデオクリエイティブが必要です。 すべてのビデオクリエイティブは、DSPによって VAST 2.0 タグとして自動的にトランスコードされるので、プレビューできます。 ま [!UICONTROL Tag Manager]、任意のビデオ広告エクスペリエンスタグに対して、オプションで [DSP固有のトランスコーディングを適用 ](/help/creative/experiences/experience-tag-video-transcoding.md) できます。
+デバイスやネットワークから、web、モバイル、接続テレビ用のファーストパーティビデオクリエイティブをアップロードできます。 標準のビデオ広告エクスペリエンスごとに、エクスペリエンスに割り当てられたクリエイティブ期間ごとにデフォルトのビデオクリエイティブが必要です。 DSPでは、すべてのビデオクリエイティブを自動的に VAST 2.0 タグにトランスコードして、プレビューできます。 ま [!UICONTROL Tag Manager]、任意のビデオ広告エクスペリエンスタグに対して、オプションで [DSP固有のトランスコーディングを適用 ](/help/creative/experiences/experience-tag-video-transcoding.md) できます。
 
-次のビデオクリエイティブの要件を参照してください。 **注意：** ビデオエクスペリエンスをAdvertising DSPにアップロードする場合は、DSPの [ 高精細ビデオAssetsの要件 ](https://experienceleague.adobe.com/ja/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) も参照してください。この要件は制限される場合があります。
+次のビデオクリエイティブの要件を参照してください。 **注意：** ビデオエクスペリエンスをAdvertising DSPにアップロードする場合は、DSPの [ 高精細ビデオAssetsの要件 ](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) も参照してください。この要件は制限される場合があります。
 
 **ファイルタイプ：** .mov、.mp4、.webm
 

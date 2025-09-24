@@ -2,9 +2,9 @@
 title: クリエイティブライブラリへのダイナミッククリエイティブの追加
 description: クリエイティブライブラリにダイナミッククリエイティブを追加する方法を説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: 7f4bfd6072a732a779368a5f59bfe40f90e64c82
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 
       1. バンドルを選択し、「選 **[!UICONTROL Attach Creative to Bundles]**」をクリックします。
 
-   * 広告を保存するには、[**[!UICONTROL Save]**] をクリックし、もう一度 [**[!UICONTROL Save]**] をクリックします。
+   * 広告を保存して設定を終了するには、[**[!UICONTROL Save]**] をクリックし、もう一度 [**[!UICONTROL Save]**] をクリックします。
 
 >[!MORELIKETHIS]
 >

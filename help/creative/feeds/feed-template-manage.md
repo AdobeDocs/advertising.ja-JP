@@ -2,9 +2,9 @@
 title: フィードテンプレートの管理
 description: フィードテンプレートの管理方法について説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. カーソルをテンプレートの行の上に置き、**[!UICONTROL Duplicate]** をクリックします。
 
-1. [!UICONTROL Duplicate Template] の画面で、一意の **[!UICONTROL Template Name]** を入力します。 他のユーザーが作成したテンプレートを複製する場合は、**[!UICONTROL Advertiser]** を選択します。 必要に応じて、オプションで他の [ フィードテンプレート設定 ](#feed-template-settings) を編集します。
+1. [!UICONTROL Duplicate Template] 画面で、一意の **[!UICONTROL Template Name]** を入力します。 他のユーザーが作成したテンプレートを複製する場合は、**[!UICONTROL Advertiser]** を選択します。 必要に応じて、オプションで他の [ フィードテンプレート設定 ](#feed-template-settings) を編集します。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Field Mapping] 設定
 
-フィードファイルの各フィールドをAdvertising Creative バックエンドのフィールドにマッピングします。<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> 「[!UICONTROL Is Unique]」とマークされたフィードファイルフィールドを少なくとも 1 つ含める必要があります。 フィールドマッピングを追加するには、「**[!UICONTROL +]**」をクリックします。 最後のフィールドマッピングを削除するには、「削 **[!UICONTROL +]**」をクリックします。
+フィードファイルの各フィールドをAdvertising Creative バックエンドのフィールドにマッピングします。<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> 少なくとも 1 つのフィード ファイル フィールドが&quot;[!UICONTROL Is Unique]&quot;としてマークされている必要があります。 フィールドマッピングを追加するには、「**[!UICONTROL +]**」をクリックします。 最後のフィールドマッピングを削除するには、「削 **[!UICONTROL +]**」をクリックします。
 
 **[!UICONTROL Field Name]:** フィードファイルのフィールド。
 

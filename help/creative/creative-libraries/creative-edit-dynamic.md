@@ -2,9 +2,9 @@
 title: クリエイティブライブラリでの動的クリエイティブの編集
 description: クリエイティブライブラリで動的クリエイティブを編集する方法を説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
       1. バンドルを選択し、「選 **[!UICONTROL Attach Creative to Bundles]**」をクリックします。
 
-   * 広告を保存するには、[**[!UICONTROL Save]**] をクリックし、もう一度 [**[!UICONTROL Save]**] をクリックします。
+   * 広告を保存して設定を終了するには、[**[!UICONTROL Save]**] をクリックし、もう一度 [**[!UICONTROL Save]**] をクリックします。
 
 >[!MORELIKETHIS]
 >

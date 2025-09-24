@@ -2,7 +2,7 @@
 title: アセットファイルの管理
 description: 広告主用のアセットファイルをアップロードおよび管理する方法について説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -16,7 +16,6 @@ Dynamic HTML5 広告には、Microsoft Excel スプレッドシート（XLSX）�
 >[!NOTE]
 >
 > 各フィードファイルは、1 つのカタログにのみ使用できます。
-
 
 ## ファイル要件
 
