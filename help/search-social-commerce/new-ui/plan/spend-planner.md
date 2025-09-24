@@ -2,9 +2,10 @@
 title: '[!UICONTROL Spend Planner] の使用'
 description: '[!UICONTROL Spend Planner] を使用して、ポートフォリオ全体で最適な支出配分を特定する方法を説明します。'
 feature: Search Optimization, Search Portfolios, Search Simulations
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+exl-id: 966b8968-68b6-4385-9efb-e639a6729362
+source-git-commit: ff4deeb1cfbcd863e5b0ef2ac9b2f7124906c3dd
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -29,13 +30,13 @@ ht-degree: 0%
 
 * 選択したすべてのポートフォリオまたは提案された総支出ターゲットに対する現在の日次総支出のターゲットを維持する際の、推奨される日次支出（コスト）と予測される収益配分またはクリック分布を示す、ポートフォリオごとの棒グラフ。 オプションで、選択したポートフォリオに推奨費用ターゲットを適用できます。これは、次の入札実行サイクルでの入札に影響を与えます。
 
-## （新しい UI） [!UICONTROL Spend Planner]/[!UICONTROL Manage] ビューからの [!UICONTROL Simulations] レポートの生成
+## （新しい UI） [!UICONTROL Spend Planner] レポートの生成
 
-<!-- The path will probably change, so then update the heading and instructions -->
+1. 次のいずれかの操作をおこないます。
 
-1. メインメニューで、**[!UICONTROL Plan]/[!UICONTROL Simulations]** をクリックします。
+   * メインメニューで、**[!UICONTROL Plan]/[!UICONTROL Spend Planner]** をクリックします。
 
-1. データ テーブルの上にあるツールバーで、![ 費用プランナー ](/help/search-social-commerce/assets/spend-planner-icon.png " 費用プランナー ") をクリックします。
+   * メインメニューで、**[!UICONTROL Plan]/[!UICONTROL Simulations]** をクリックします。 データ テーブルの上にあるツールバーで、![ 費用プランナー ](/help/search-social-commerce/assets/spend-planner-icon.png " 費用プランナー ") をクリックします。
 
    [!UICONTROL Spend Recommendation] ツールがレガシーユーザーインターフェイスで開きます。
 
