@@ -3,16 +3,16 @@ title: クリエイティブライブラリの管理
 description: クリエイティブライブラリを作成、名前変更、削除する方法について説明します。
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # クリエイティブライブラリの管理
 
-各広告主に対して複数のクリエイティブライブラリを作成できます。 後から、各ライブラリに [ 標準クリエイティブ ](creative-add-standard.md)<!-- , dynamic creatives, --> と [ クリエイティブバンドル ](bundle-manage.md) を入力できます。 Adobe アカウントチームは、ライブラリに動的なクリエイティブを追加する場合もあります。
+各広告主に対して複数のクリエイティブライブラリを作成できます。 後から、各ライブラリに [ 標準クリエイティブ ](creative-add-standard.md)、[ 動的クリエイティブ ](creative-add-dynamic.md)、および [ クリエイティブバンドル ](bundle-manage.md) を入力できます。
 
 ## クリエイティブライブラリの作成
 

@@ -3,9 +3,9 @@ role: User
 user-guide-title: Advertising Creative ガイド
 user-guide-description: Advertising Creativeの使用に必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Creative ガイド
-source-git-commit: 53e565307b55be2aabd847643b05a701dd1f2b93
+source-git-commit: 3ec3bcf1b3be7acffef4cf0ec8dd170b32987d33
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,9 @@ ht-degree: 0%
 + 概要 {#introduction}
    + [Adobe Advertising Creativeについて](/help/creative/introduction/creative-about.md)
    + [データビューのカスタマイズ](/help/creative/introduction/customize-data-views.md)
-   + [ 消費者プライバシーの支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [ 施策及び指針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)
+   + [ 消費者プライバシーの支援 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [ 施策及び指針 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative ライブラリ {#creative-libraries}
    + [クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
    + [サポートされるクリエイティブのサイズ](/help/creative/creative-libraries/creative-sizes.md)
@@ -30,6 +31,10 @@ ht-degree: 0%
          + [標準クリエイティブの編集](/help/creative/creative-libraries/creative-edit-standard.md)
          + [標準のクリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md)
          + [HTML5 クリエイティブの仕様](/help/creative/creative-libraries/html5-creative-specification.md)
+      + 動的クリエイティブ {#dynamic-creatives}
+         + [クリエイティブライブラリへのダイナミッククリエイティブの追加](/help/creative/creative-libraries/creative-add-dynamic.md)
+         + [動的クリエイティブの編集](/help/creative/creative-libraries/creative-edit-dynamic.md)
+         + [動的クリエイティブ設定](/help/creative/creative-libraries/creative-settings-dynamic.md)
       + [クリエイティブのプレビュー](/help/creative/creative-libraries/creative-preview.md)
       + [バンドルへのクリエイティブの添付](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [クリエイティブの複製](/help/creative/creative-libraries/creative-duplicate.md)
@@ -72,10 +77,16 @@ ht-degree: 0%
    + [[!UICONTROL Experiences] ビューからのデータのダウンロード](/help/creative/experiences/experience-download-view.md)
    + [広告タグの名前の変更](/help/creative/experiences/experience-tag-rename.md)
    + [エクスペリエンスを削除](/help/creative/experiences/experience-delete.md)
++ フィード {#feeds}
+   + [アセットファイルの管理](/help/creative/feeds/asset-manage.md)
+   + [フィードテンプレートの管理](/help/creative/feeds/feed-template-manage.md)
+   + [カタログの管理](/help/creative/feeds/catalog-manage.md)
+   + [カタログ処理ジョブのステータスのトラッキング](/help/creative/feeds/job-status-track.md)
++ [動的広告テンプレートの管理](/help/creative/ad-templates/ad-template-manage.md)
 + パフォーマンスレポート {#reports}
    + [エクスペリエンスレベルのパフォーマンスレポート](/help/creative/experiences/experience-performance-details.md)
    + [カスタムCreativeレポート](/help/creative/report-custom-creative.md)
 + [リターゲティングピクセル](/help/creative/pixels/retargeting-pixel-manage.md)
 + [URL を追跡するために使用可能なマクロ](/help/creative/creative-macros.md)
 + [ヘルプを表示](/help/creative/get-help.md)
-+ [Adobe Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target="_blank"}
++ [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

@@ -3,16 +3,16 @@ title: クリエイティブライブラリへの標準クリエイティブの�
 description: クリエイティブライブラリに標準（非ダイナミック）クリエイティブを追加する方法を説明します。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
 
 # クリエイティブライブラリへの標準クリエイティブの追加
 
-[ad experience](creative-library-manage.md) で使用するクリエイティブを [ クリエイティブライブラリ ](/help/creative/experiences/experience-about.md) に追加します。
+標準の [ 広告エクスペリエンス ](creative-library-manage.md) で使用するには、標準のクリエイティブを [ クリエイティブライブラリ ](/help/creative/experiences/experience-about.md) に追加します。
 
 >[!NOTE]
 >
@@ -34,9 +34,7 @@ ht-degree: 0%
 
 1. ライブラリ名をクリックします。
 
-1. 「**[!UICONTROL Creatives]**」タブで、「**[!UICONTROL Standard Ads]**」サブタブをクリックします。
-
-1. **[!UICONTROL Create]**/**[!UICONTROL Creative]**/**[!UICONTROL Flexible]** をクリックします。
+1. 「**[!UICONTROL Creatives]**」タブで、**[!UICONTROL Create]**/**[!UICONTROL Creatives]**/**[!UICONTROL Flexible]** をクリックします。
 
 1. 「**[!UICONTROL Upload New]**」をクリックします。
 
@@ -62,7 +60,7 @@ ht-degree: 0%
 
 ### テンプレートを使用した柔軟なクリエイティブの追加 {#flexible-creative-use-template}
 
-アカウントにアップロードされた任意の柔軟なクリエイティブテンプレートを使用して、事前に定義されたサイズの広告を作成できます。 使用するテンプレートを選択したら、クリックのタグと属性を編集します。&lt;!— テンプレートのダウンロード機能を追加する場合は、最後の文をこの文に置き換えます。a\）使用するテンプレートを選択して、クリックのタグと属性を編集するか、b\） [ テンプレートを ZIP ファイルとしてダウンロード ](#download-flexible-creative-template)、コンテンツをオフラインで編集して独自のクリエイティブを作成してから [ 編集したファイルを新しいクリエイティブとしてアップロード ] (flexible-creative-upload)。>
+アカウントにアップロードされた任意の柔軟なクリエイティブテンプレートを使用して、事前に定義されたサイズの広告を作成できます。 使用するテンプレートを選択したら、クリックのタグと属性を編集します。&lt;!— テンプレートのダウンロード機能を追加する場合は、最後の文をこの文に置き換えます。a\）使用するテンプレートを選択して、クリックのタグと属性を編集するか、b\） [ テンプレートを ZIP ファイルとしてダウンロード ](#download-flexible-creative-template)、コンテンツをオフラインで編集して独自のクリエイティブを作成してから [ 編集したファイルを新しいクリエイティブとしてアップロード ](flexible-creative-upload)。>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -74,22 +72,9 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. ライブラリ名をクリックします。
 
-1. 「**[!UICONTROL Creatives]**」タブで、「**[!UICONTROL Standard Ads]**」サブタブをクリックします。
-
-1. **[!UICONTROL Create]**/**[!UICONTROL Creative]**/**[!UICONTROL Flexible]** をクリックします。
+1. 「**[!UICONTROL Creatives]**」タブで、**[!UICONTROL Create]**/**[!UICONTROL Creatives]**/**[!UICONTROL Flexible]** をクリックします。
 
 1. 「**[!UICONTROL Browse System Flexible Templates]**」をクリックします。
-
-<!-- Not options as of 5/22/25:
-
-1. In the left panel, select the creative size to see all available templates for that size.
-
-1. Select the template:
-
-   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
-     
-   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
--->
 
 1. （オプション）テンプレートをプレビューするには、テンプレート名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Preview]**」をクリックします。
 
@@ -102,6 +87,17 @@ For information about the attributes available in predefined templates, see "[Av
    クリエイティブの最大ファイルサイズは、圧縮されると、2 MB になります。<!-- Still true? -->
 
 1. 「**[!UICONTROL Create]**」をクリックします。
+
+<!-- Not options as of 5/22/25:
+
+1. In the left panel, select the creative size to see all available templates for that size.
+
+1. Select the template:
+
+   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
+     
+   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
+-->
 
 ## クリエイティブライブラリへのHTML5 クリエイティブの追加
 
@@ -119,9 +115,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. ライブラリ名をクリックします。
 
-1. 「**[!UICONTROL Creatives]**」タブで、「**[!UICONTROL Standard Ads]**」サブタブをクリックします。
-
-1. **[!UICONTROL Create]**/**[!UICONTROL Creative]**/**[!UICONTROL HTML5]** をクリックします。
+1. 「**[!UICONTROL Creatives]**」タブで、**[!UICONTROL Create]**/**[!UICONTROL Creatives]**/**[!UICONTROL HTML5]** をクリックします。
 
 <!-- Not an option as of 3/4:
 
@@ -155,9 +149,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. ライブラリ名をクリックします。
 
-1. 「**[!UICONTROL Creatives]**」タブで、「**[!UICONTROL Standard Ads]**」サブタブをクリックします。
-
-1. **[!UICONTROL Create]**/**[!UICONTROL Creative]**/**[!UICONTROL Image]** をクリックします。
+1. 「**[!UICONTROL Creatives]**」タブで、**[!UICONTROL Create]**/**[!UICONTROL Creatives]**/**[!UICONTROL Image]** をクリックします。
 
 1. 画像を指定します。
 
@@ -197,9 +189,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. ライブラリ名をクリックします。
 
-1. 「**[!UICONTROL Creatives]**」タブで、「**[!UICONTROL Standard Ads]**」サブタブをクリックします。
-
-1. **[!UICONTROL Create]**/**[!UICONTROL Creative]**/**[!UICONTROL 3rd Party]** をクリックします。
+1. 「**[!UICONTROL Creatives]**」タブで、**[!UICONTROL Create]**/**[!UICONTROL Creatives]**/**[!UICONTROL 3rd Party]** をクリックします。
 
 1. [ サードパーティのクリエイティブ設定 ](#creative-settings-third-party) で、JavaScript タグとその他のクリエイティブ設定を指定します。
 
@@ -215,9 +205,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. ライブラリ名をクリックします。
 
-1. 「**[!UICONTROL Creatives]**」タブで、「**[!UICONTROL Standard Ads]**」サブタブをクリックします。
-
-1. **[!UICONTROL Create]**/**[!UICONTROL Creative]**/**[!UICONTROL Video]** をクリックします。
+1. 「**[!UICONTROL Creatives]**」タブで、**[!UICONTROL Create]**/**[!UICONTROL Creatives]**/**[!UICONTROL Video]** をクリックします。
 
 1. 次のいずれかの方法でビデオファイルを指定します。
 
