@@ -2,7 +2,7 @@
 title: クリエイティブライブラリでの動的クリエイティブの編集
 description: クリエイティブライブラリで動的クリエイティブを編集する方法を説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%

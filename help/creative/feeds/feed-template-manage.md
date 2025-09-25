@@ -2,9 +2,9 @@
 title: フィードテンプレートの管理
 description: フィードテンプレートの管理方法について説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-フィードテンプレートは、フィードファイルのフィールドをAdvertising Creative バックエンドのフィールドとマッピングします。 動的HTML5 広告（静的HTML5 広告ではない）では、動的広告を作成するためにフィードテンプレートが必要です。
+フィードテンプレートは、フィードファイル/カタログのフィールドをAdvertising Creative バックエンドのフィールドとマッピングします。 動的HTML5 広告（静的HTML5 広告ではない）では、動的広告を作成するためにフィードテンプレートが必要です。
 
 複数の広告テンプレートでフィードテンプレートを使用できます。
 

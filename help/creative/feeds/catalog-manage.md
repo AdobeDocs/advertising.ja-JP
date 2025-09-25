@@ -2,9 +2,9 @@
 title: フィードカタログの管理
 description: フィードカタログの管理方法について説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 広告のバリエーションを使用して [ クリエイティブライブラリに動的広告を追加 ](/help/creative/creative-libraries/creative-add-dynamic.md) する前に、カタログを処理します。
 
 ## カタログの作成 {#feed-catalog-create}
+
+>[!NOTE]
+>
+>[ クリエイティブライブラリにダイナミッククリエイティブを追加 ](/help/creative/creative-libraries/creative-add-dynamic.md) する際に、カタログを直接アップロードすることもできます。 ここで作成したカタログは、後で使用するために [!UICONTROL Catalogs] ビュー内で使用できます。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Feeds]** をクリックします。
 

@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: d8030203f7bfce3baf18d50369067157f7cb0991
+source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1122'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細情報 |
 | ---- | ------- | ----------- | -------------------- |
-| 2025 年 9 月 24 日（Pt） | 動的クリエイティブ | 広告テンプレートを通じて渡されたフィードファイルのデータを使用して動的広告を生成するためのセルフサービスワークフローが利用できるようになりました。 | すべての手順へのリンクを含む「[ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md) を参照してください。 |
+| 2025 年 9 月 24 日（Pt） | 動的クリエイティブ | 広告テンプレートを通じて渡される広告バリエーションカタログのデータを使用して、動的広告を生成するための、よりシンプルなセルフサービスワークフローが利用できるようになりました。 | [ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md) を参照してください。 |
 | 2025 年 9 月 3 日（Pt） | [!DNL experiences] 用のCreativeの最適化とスケジュール | Creative Optimization とスケジュールを設定するメニューオプションまたはボタンの名前が、「[!UICONTROL Creative Optimization]」や「[!UICONTROL Edit Schedules]」ではなく「[!UICONTROL Add Schedules]」になりました。 | [ ターゲット設定されたエクスペリエンス向けにクリエイティブの最適化とスケジュールをカスタマイズする ](/help/creative/experiences/experience-optimization-scheduling-targeting.md)」および [ ターゲット設定されていないエクスペリエンス向けにクリエイティブの最適化とスケジュールをカスタマイズする ](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md) を参照してください。 |
 |  | [!DNL experiences] の広告ローテーションとスケジュール | 新しいクリエイティブ回転タイプ「[!UICONTROL Sequencing]」では、関連するクリエイティブバンドルが指定された順序で（バンドル 1 が先に提供され、バンドル 2 が 2 番目に提供されるなど）、各バンドルシーケンスにわたる指定された合計インプレッション数で回転します。 シーケンス内の最後のバンドルを設定して、a\）無期限に表示されるか、b\）ループして最初のバンドルに戻すことができます。 | [ ターゲット設定されたエクスペリエンス向けにクリエイティブの最適化とスケジュールをカスタマイズする ](/help/creative/experiences/experience-optimization-scheduling-targeting.md)」および [ ターゲット設定されていないエクスペリエンス向けにクリエイティブの最適化とスケジュールをカスタマイズする ](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md) を参照してください。 |
 | 2025 年 8 月 4 日（Pt） | 広告 [!DNL experiences] ージのオーディエンスターゲット | オーディエンスの組み込みと除外に関するより複雑なロジック（Advertising DSPで使用可能なロジックと同じ）が、オーディエンスターゲット設定内で使用できます。 広告エクスペリエンスのオーディエンスターゲットを設定する際に、複数のセグメントグループを設定し、ロジックに基づいてユーザーを含めるか除外するかを指定できるようになりました。<br><br> 各セグメントの合計オーディエンスメンバー数、および各セグメントグループのアクティブなオーディエンスメンバーと合計オーディエンスメンバーの数を確認できます。<br><br> このオプションを使用すると、「[!UICONTROL Split targets to create nodes]」に対する既存のオプションは使用できなくなります。<br><br> 複数のセグメントをターゲットにするオーディエンスノードを使用した既存のエクスペリエンスがある場合、それらは「[!UICONTROL Include Any]」オプションを使用してターゲットに設定され、ユーザーはインプレッションの対象となるセグメントの 1 つにのみ属している必要があります。 以前は、ユーザーはすべてのセグメントに属している必要がありました。 | 「[ 最終レベルへのターゲットノードの追加 ](/help/creative/experiences/experience-target-node-add-final.md)」、「[ ノード間にターゲットノードの挿入 ](/help/creative/experiences/experience-target-node-add-inner.md)」、「[ 兄弟ターゲットノードの追加 ](/help/creative/experiences/experience-target-node-add-sibling.md)」を参照してください。 |

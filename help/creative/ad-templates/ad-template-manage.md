@@ -2,9 +2,9 @@
 title: 動的広告テンプレートの管理
 description: xxxx について説明します。
 feature: Creative Templates
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 <!-- EXPLAIN MORE:  Is this like repropagating a feed file through a template, or can you just change some things? Is generating an ad template a one-time thing, using the existing feed file, but you might later update the file and re-propagation doesn't happen automatically? Clarify the use cases for each.-->
 
 ## 動的広告テンプレートの作成
+
+>[!NOTE]
+>
+>また、[ クリエイティブライブラリにダイナミッククリエイティブを追加 ](/help/creative/creative-libraries/creative-add-dynamic.md) する際に、動的広告テンプレートをアップロードすることもできます。 作成した広告テンプレートは、後で使用するために [!UICONTROL Ad Templates] ビュー内で使用できるようになります。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Ad Templates]** をクリックします。
 
@@ -56,6 +60,10 @@ ht-degree: 0%
 1. 確認メッセージで、「**[!UICONTROL Delete]**.<!-- Confirm -->」をクリックします。
 
 ## 広告テンプレートからの動的広告の作成
+
+>[!NOTE]
+>
+>また、クリエイティブライブラリ内から [ クリエイティブライブラリにダイナミッククリエイティブを追加 ](/help/creative/creative-libraries/creative-add-dynamic.md) することもできます。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Ad Templates]** をクリックします。
 

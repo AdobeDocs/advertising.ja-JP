@@ -2,9 +2,9 @@
 title: 動的クリエイティブ設定
 description: ダイナミッククリエイティブの設定を参照します。
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## 広告テンプレート
 
-**[!UICONTROL Ad Template]:** 広告の作成元となる広告テンプレート。<!-- also an option to upload your own ad template. Need to add the specs for that -->
+**[!UICONTROL Ad Template]:** 広告の作成元となる広告テンプレート。 既存の広告テンプレートを選択するか、新しい広告テンプレートをアップロードします。<!-- Need to add the specs for that -->
 
 **[!UICONTROL Number of offers (Max 50)]:** 各広告に対して作成できるオファーの数。<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## カタログ
 
-**[!UICONTROL Template]:** 広告の作成に使用するフィードテンプレート。<!-- also an option to upload your own feed template.  Need to add the specs for that -->
+**[!UICONTROL Template]:** 広告の作成に使用するフィードテンプレート。
 
-**\[ カタログ\]**：広告を生成する、指定した広告主の 1 つ以上のカタログ。<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
+**\[ カタログ\]**：広告を生成する 1 つ以上のカタログ。 既存のカタログを選択するか、既存のフィードテンプレートをダウンロードして新しいカタログを作成してアップロードすることで、新しいカタログを作成します。<!-- Need to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
