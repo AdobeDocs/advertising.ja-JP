@@ -2,9 +2,9 @@
 title: 動的クリエイティブ設定
 description: ダイナミッククリエイティブの設定を参照します。
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -49,27 +49,35 @@ ht-degree: 0%
 
 **[!UICONTROL Library]:** 広告を作成するクリエイティブライブラリ。 [!UICONTROL Creatives] > [!UICONTROL Creative Libraries] 内から広告を作成する場合、ライブラリ名は既に選択されており、読み取り専用です。
 
-**[!UICONTROL Ad Template Size]:** 広告の作成元となる広告テンプレートの広告ディメンション。 最初に特定の [!UICONTROL Ad Template] を選択すると、この値が自動的に選択されます。
+**[!UICONTROL Ad Template Size]:** 広告の作成元となる広告テンプレートの [ 広告ディメンション ](/help/creative/creative-libraries/creative-sizes.md)。 最初に特定の [!UICONTROL Ad Template] を選択すると、この値が自動的に選択されます。
 
 ## 広告テンプレート
 
-**[!UICONTROL Ad Template]:** 広告の作成元となる広告テンプレート。 既存の広告テンプレートを選択するか、新しい広告テンプレートをアップロードします。<!-- Need to add the specs for that -->
+**[!UICONTROL Ad Template]:** 広告の作成元となる広告テンプレート。 既存の広告テンプレートを選択するか、新しい広告テンプレートをアップロードして、テンプレートタイプ（*静的* または *動的*）を選択します。 アップロードするテンプレートは、ZIP 形式であり、HTML5 ファイルとテンプレート定義ファイル（template.TDF）が含まれている必要があります。<!-- Need to add more specs for that -->
 
-**[!UICONTROL Number of offers (Max 50)]:** 各広告に対して作成できるオファーの数。<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
+**[!UICONTROL Number of offers (Max 50)]:** カルーセルに表示する製品数。
 
 ## カタログ
 
 **[!UICONTROL Template]:** 広告の作成に使用するフィードテンプレート。
 
-**\[ カタログ\]**：広告を生成する 1 つ以上のカタログ。 既存のカタログを選択するか、既存のフィードテンプレートをダウンロードして新しいカタログを作成してアップロードすることで、新しいカタログを作成します。<!-- Need to add the specs for that -->
+**\[ カタログ\]**：広告を生成する 1 つ以上のカタログ。 既存のカタログを選択するか、既存のフィードテンプレートをダウンロードして新しいカタログを作成してアップロードすることで、新しいカタログを作成します。
+
+アップロードするカタログは、ZIP 形式で、かつ次の内容が含まれている必要があります。
+
+* CSV、TSV またはMicrosoft Excel スプレッドシート（XLSX）形式の 1 つ以上のフィードファイル。<!-- Need to add more specs for that -->
+
+* GIF、JPEG、JPG、PNG 形式の画像アセット
+
+* （オプション） MP4 または WEBM 形式のビデオアセット
 
 ### [!UICONTROL Attributes Mapping]
 
-**[!UICONTROL Enable targeting]**：広告を作成するために値が存在する必要があるフィードファイルの列のタイプ：*[!UICONTROL Profile data]*、*[!UICONTROL Geographic data]、*[!UICONTROL Data pass]、*[!UICONTROL Audience Segment]*。  **メモ：** これらの設定は、広告エクスペリエンス設定の詳細設定とは独立して機能します。<!-- Clarify what qualifies for each, and explain more -->
+**[!UICONTROL Enable targeting]**: <!-- "targeting options/filters," but I don't think this means user targeting since that is set in the experience/ad on DSP --> 広告を作成するために値が存在する必要があるフィードファイルの列のタイプ：*[!UICONTROL Profile data]*、*[!UICONTROL Geographic data]、*[!UICONTROL Data pass]、*[!UICONTROL Audience Segment]*。  **メモ：** これらの設定は、広告エクスペリエンス設定の詳細設定とは独立して機能します。<!-- Clarify what qualifies for each, and explain more -->
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]:**
 
-指定した広告テンプレートの各属性（動的広告フィールド）を、指定したフィードファイル（カタログラベル）の列にマッピングします。
+指定した広告テンプレートの各属性（動的広告フィールド）を、指定したカタログ（カタログラベル）の列にマッピングします。
 
 >[!MORELIKETHIS]
 >

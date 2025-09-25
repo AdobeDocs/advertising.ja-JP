@@ -2,9 +2,9 @@
 title: アセットファイルの管理
 description: 広告主用のアセットファイルをアップロードおよび管理する方法について説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Dynamic HTML5 広告には、Microsoft Excel スプレッドシート（XLSX）�
 
      アップロードする画像については、形式 `images/image_name` （`images/300x250_acme_logo.png` など）を使用して画像を参照し <!-- Verify.  Also need to include the spec for how to reference images in AEM --> す。
 
-   * JPEG、JPGまたは PNG 形式の関連する画像アセット。<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> [ サポートされているクリエイティブサイズ ](/help/creative/creative-libraries/creative-sizes.md) を参照してください。
+   * GIF、JPEG、JPGまたは PNG 形式の関連する画像アセット。<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> [ サポートされているクリエイティブサイズ ](/help/creative/creative-libraries/creative-sizes.md) を参照してください。
 
   単一の XLSX ファイル、単一の画像ファイル、または XLSX と画像ファイルの任意の組み合わせを含む単一の ZIP ファイルをアップロードできます。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 静的HTML5 広告：
 
-   * JPG、JPEGまたは PNG 形式の広告ごとに 1 つの画像アセット。
+   * GIF、JPG、JPEGまたは PNG 形式の広告ごとに 1 つの画像アセット。
 
      ZIP ファイルに 1 つの画像または複数の画像をアップロードできます。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

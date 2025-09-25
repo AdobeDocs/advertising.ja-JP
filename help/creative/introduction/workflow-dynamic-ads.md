@@ -2,14 +2,16 @@
 title: 動的広告のワークフロー
 description: 動的広告を管理するためのワークフローについて説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
 
 # 動的広告のワークフロー
+
+*動的広告を作成する権限を持つユーザー*
 
 動的広告は、次の 2 つの方法のいずれかで設定できます。
 
@@ -22,6 +24,11 @@ ht-degree: 0%
   このワークフローは、複数のユーザーが異なるタスクを完了する場合、または一度に 1 つのタスクのみを完了する場合に使用します。
 
 ## ワークフロー 1
+
+>[!PREREQUISITES]
+>
+>* HTML5 形式の広告テンプレート
+>* CSV、TSV、Microsoft Excel スプレッドシート（XLSX）形式の商品カタログ
 
 1. クリエイティブライブラリの [ ダイナミッククリエイティブの作成 ](/help/creative/creative-libraries/creative-add-dynamic.md)。 動的なHTML5 広告の場合は、広告テンプレートとカタログをアップロードします。
 
