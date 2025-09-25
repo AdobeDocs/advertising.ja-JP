@@ -2,9 +2,9 @@
 title: 動的クリエイティブ設定
 description: ダイナミッククリエイティブの設定を参照します。
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]:**
 
-指定した広告テンプレートの各属性（動的広告フィールド）を、指定したカタログ（カタログラベル）の列にマッピングします。
+指定した広告テンプレートの各属性（動的広告フィールド）を、指定したカタログ（カタログラベル）の列にマッピングするか、静的な値を入力します。
 
 >[!MORELIKETHIS]
 >
