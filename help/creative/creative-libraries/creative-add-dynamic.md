@@ -2,9 +2,9 @@
 title: クリエイティブライブラリへのダイナミッククリエイティブの追加
 description: クリエイティブライブラリにダイナミッククリエイティブを追加する方法を説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 1cee56f8bd40f94b1f78536725fb8eab249b9915
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
->ダイナミッククリエイティブをクリエイティブライブラリに追加する前に、広告テンプレートの作成、アセットのアップロード、（dynamic HTML5 広告）フィードテンプレートとカタログの作成など、他の手順を実行する必要があります。 「[ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md)」を参照してください。
+>ダイナミッククリエイティブをクリエイティブライブラリに追加する前に、広告テンプレートの作成、アセットのアップロード、（dynamic HTML5 広告）フィードテンプレートとカタログの作成など、他の手順を実行する必要があります。 [ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md) を参照してください。
 
 <!-- This does't work for me 9/24 -- I still have to select a catalog:
 
@@ -41,11 +41,21 @@ ht-degree: 0%
 
 ## 動的なHTML5 広告テンプレートを使用した動的なクリエイティブの追加
 
-1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
+1. 次のいずれかの操作をおこないます。
 
-1. ライブラリ名をクリックします。
+   * クリエイティブライブラリから：
 
-1. 「**[!UICONTROL Creatives]**」タブで、**[!UICONTROL Create]**/**[!UICONTROL Creatives]**/**[!UICONTROL Dynamic Ad]** をクリックします。
+      1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
+
+      1. ライブラリ名をクリックします。
+
+      1. 「**[!UICONTROL Creatives]**」タブで、**[!UICONTROL Create]**/**[!UICONTROL Creatives]**/**[!UICONTROL Dynamic Ad]** をクリックします。
+
+   * 広告テンプレートから：
+
+      1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Ad Templates]** をクリックします。
+
+      1. 広告テンプレート行の上にカーソルを置き、**[!UICONTROL Create Dynamic Ad]** をクリックします。
 
 1. [ 動的広告設定 ](/help/creative/creative-libraries/creative-settings-dynamic.md) を指定します。
 
