@@ -2,9 +2,9 @@
 title: アセットファイルの管理
 description: 広告主用のアセットファイルをアップロードおよび管理する方法について説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: 40f8fbde0879f2412816a2b08e6e99da67f16219
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,15 @@ Dynamic HTML5 広告には、Microsoft Excel スプレッドシート（XLSX）�
 
 * ダイナミック HTML5 広告：
 
-   * Microsoft Excel スプレッドシート（XLSX）形式のフィードファイル。広告バリエーションごとに 1 つのヘッダー行と 1 つのデータ行があります。 各行に画像名またはAdobe Experience Managerへの参照を含めます。<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * 広告バリエーションごとに 1 つのヘッダー行と 1 つのデータ行を持つ、CSV、TSV またはMicrosoft Excel スプレッドシート（XLSX）形式のフィードファイル。 各行に画像名またはAdobe Experience Managerへの参照を含めます。<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
 
      アップロードする画像については、形式 `images/image_name` （`images/300x250_acme_logo.png` など）を使用して画像を参照し <!-- Verify.  Also need to include the spec for how to reference images in AEM --> す。
 
    * GIF、JPEG、JPGまたは PNG 形式の関連する画像アセット。<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> [ サポートされているクリエイティブサイズ ](/help/creative/creative-libraries/creative-sizes.md) を参照してください。
 
-  単一の XLSX ファイル、単一の画像ファイル、または XLSX と画像ファイルの任意の組み合わせを含む単一の ZIP ファイルをアップロードできます。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+   * （オプション） MP4 または WEBM 形式のビデオアセット
+
+  アップロードできるのは、1 つの XLSX ファイル、1 つの画像またはビデオファイル、または XLSX、画像およびビデオファイルの任意の組み合わせを含む 1 つの ZIP ファイルです。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 静的HTML5 広告：
 
