@@ -2,9 +2,9 @@
 title: フィードカタログの管理
 description: フィードカタログの管理方法について説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 処理済みのフィードカタログは、指定したフィードファイルと指定したフィードテンプレートから作成された、潜在的な広告バリエーションのセットです。 動的HTML5 広告（静的HTML5 広告ではない）を作成するには、カタログが必要です。
 
-広告のバリエーションを使用して [ クリエイティブライブラリに動的広告を追加 ](/help/creative/creative-libraries/creative-add-dynamic.md) する前に、カタログを処理します。
+広告のバリエーションを作成し [ クリエイティブライブラリに動的広告を追加 ](/help/creative/creative-libraries/creative-add-dynamic.md) する前に、カタログを処理します。 後でフィードファイルを更新し、カタログを再処理して、新しい広告バリエーションのセットを作成できます。<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
 
 ## カタログの作成 {#feed-catalog-create}
 
