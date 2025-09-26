@@ -2,7 +2,7 @@
 title: アセットファイルの管理
 description: 広告主用のアセットファイルをアップロードおよび管理する方法について説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: 40f8fbde0879f2412816a2b08e6e99da67f16219
+source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -12,6 +12,7 @@ ht-degree: 0%
 # アセットファイルの管理
 
 Dynamic HTML5 広告には、Microsoft Excel スプレッドシート（XLSX）形式のフィードファイルとスプレッドシートで参照される画像アセットの両方が必要です（Adobe Experience Manager アセット参照を除く）。 静的HTML5 広告では、広告ごとに 1 つの画像アセットのみが必要です。
+
 
 >[!NOTE]
 >
@@ -25,7 +26,7 @@ Dynamic HTML5 広告には、Microsoft Excel スプレッドシート（XLSX）�
 
      アップロードする画像については、形式 `images/image_name` （`images/300x250_acme_logo.png` など）を使用して画像を参照し <!-- Verify.  Also need to include the spec for how to reference images in AEM --> す。
 
-   * GIF、JPEG、JPGまたは PNG 形式の関連する画像アセット。<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> [ サポートされているクリエイティブサイズ ](/help/creative/creative-libraries/creative-sizes.md) を参照してください。
+   * GIF、JPEG、JPGまたは PNG 形式の関連する画像アセット。<!-- Is this true: The maximum file size is two (2) MB. --> [ サポートされているクリエイティブサイズ ](/help/creative/creative-libraries/creative-sizes.md) を参照してください。
 
    * （オプション） MP4 または WEBM 形式のビデオアセット
 
