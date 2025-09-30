@@ -3,9 +3,9 @@ title: Adobe Advertising Creativeについて
 description: 詳細情報  [!DNL Creative].
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 41814881a2fc0efde76927d12a8649efad86f4cb
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Creative ライブラリを使用すると、広告エクスペリエンスで�
 
 ### [!DNL Adobe] アセット統合
 
-[!DNL Creative] はAdobe Experience Managerと直接統合されているため、デザインチームが作成および承認した [!DNL Adobe] 画像アセットを簡単にアップロードして、広告エクスペリエンスのリアルタイムのストーリーボーディングや編集に使用できます。
+[!DNL Creative] はAdobe Experience Managerと直接統合されているので、デザインチームが作成して標準の画像広告に対して承認する [!DNL Adobe] しい画像アセットを簡単にアップロードできます。
 
 ## ルールベースのエクスペリエンスとターゲットに設定されていないエクスペリエンスの両方
 

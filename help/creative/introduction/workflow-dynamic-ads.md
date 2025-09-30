@@ -2,9 +2,9 @@
 title: 動的広告のワークフロー
 description: 動的広告を管理するためのワークフローについて説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    * （動的なHTML5 広告の場合）広告要素のカタログを作成します。
 
-      1. Microsoft Excel スプレッドシート（XLSX）形式のフィードファイルを、広告バリエーションごとに 1 行ずつ作成します。 各行に画像名またはAdobe Experience Managerへの参照を含めます。 関連する画像アセットを個別に収集します。
+      1. Microsoft Excel スプレッドシート（XLSX）形式のフィードファイルを、広告バリエーションごとに 1 行ずつ作成します。 各行に画像名を含めます。 関連する画像アセットを個別に収集します。
 
       1. [ フィードファイルと画像アセットをアップロードします ](/help/creative/feeds/asset-manage.md)。
 
