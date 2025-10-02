@@ -49,7 +49,7 @@ ht-degree: 0%
 
 **[!UICONTROL Library]:** 広告を作成するクリエイティブライブラリ。 [!UICONTROL Creatives] > [!UICONTROL Creative Libraries] 内から広告を作成する場合、ライブラリ名は既に選択されており、読み取り専用です。
 
-**[!UICONTROL Ad Template Size]:** 広告の作成元となる広告テンプレートの [ 広告ディメンション ](/help/creative/creative-libraries/creative-sizes.md)。 最初に特定の [!UICONTROL Ad Template] を選択すると、この値が自動的に選択されます。
+**[!UICONTROL Ad Template Size]:** 広告の作成元となる広告テンプレートの [&#x200B; 広告ディメンション &#x200B;](/help/creative/creative-libraries/creative-sizes.md)。 最初に特定の [!UICONTROL Ad Template] を選択すると、この値が自動的に選択されます。
 
 ## 広告テンプレート
 
@@ -79,6 +79,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ クリエイティブライブラリへのダイナミッククリエイティブの追加 ](creative-add-dynamic.md)
->* [ クリエイティブライブラリ内のダイナミッククリエイティブの編集 ](creative-edit-dynamic.md)
->* [ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [&#x200B; クリエイティブライブラリへのダイナミッククリエイティブの追加 &#x200B;](creative-add-dynamic.md)
+>* [&#x200B; クリエイティブライブラリ内のダイナミッククリエイティブの編集 &#x200B;](creative-edit-dynamic.md)
+>* [&#x200B; 動的広告のワークフロー &#x200B;](/help/creative/introduction/workflow-dynamic-ads.md)
