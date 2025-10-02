@@ -2,9 +2,9 @@
 title: 動的クリエイティブ設定
 description: ダイナミッククリエイティブの設定を参照します。
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+source-git-commit: e7642f11503ebb972d23fe6d28020b3b198657b0
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -65,11 +65,9 @@ ht-degree: 0%
 
 アップロードするカタログは、ZIP 形式で、かつ次の内容が含まれている必要があります。
 
-* CSV、TSV またはMicrosoft Excel スプレッドシート（XLSX）形式の 1 つ以上のフィードファイル。<!-- Need to add more specs for that -->
+* CSV、TSV またはMicrosoft Excel スプレッドシート（XLSX）形式の 1 つ以上のフィードファイル。 最大ファイルサイズは 512 MB です。<!-- Need to add more specs for the feed files -->
 
 * GIF、JPEG、JPG、PNG 形式の画像アセット
-
-* （オプション） MP4 または WEBM 形式のビデオアセット
 
 ### [!UICONTROL Attributes Mapping]
 
