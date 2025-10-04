@@ -20,13 +20,13 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
-1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
 
 1. ライブラリ名をクリックします。
 
 1. **[!UICONTROL Creatives]** / **[!UICONTROL Standard Ads]** タブで、クリエイティブを選択します。
 
-   * （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のクリエイティブを含めます。
+   * （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のクリエイティブを含めます。
 
    * 単一のクリエイティブを編集するには：
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
      すべての行を選択するには、左上の「グローバル」チェック・ボックスを選択します。
 
-1. [ 画像クリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)、[HTML5 クリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)、[ フレキシブル HTML5 クリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) または [ サードパーティクリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party) を編集します。<!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
+1. [&#x200B; 画像クリエイティブ設定 &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)、[HTML5 クリエイティブ設定 &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)、[&#x200B; フレキシブル HTML5 クリエイティブ設定 &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) または [&#x200B; サードパーティクリエイティブ設定 &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party) を編集します。<!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
 
    複数のクリエイティブを同時に編集する場合：
 
@@ -50,7 +50,7 @@ ht-degree: 0%
    >
    >* （柔軟なHTML5 クリエイティブのみ）属性を編集できるのは、1 つのクリエイティブに対してのみです。
 
-1. （柔軟なHTML5 クリエイティブ、オプション）変更を加えたら、画像の上の ![ プレビュー ](/help/creative/assets/preview.png " プレビュー ") をクリックして、新しいクリエイティブをプレビューします。
+1. （柔軟なHTML5 クリエイティブ、オプション）変更を加えたら、画像の上の ![&#x200B; プレビュー &#x200B;](/help/creative/assets/preview.png " プレビュー ") をクリックして、新しいクリエイティブをプレビューします。
 
 1. **保存** をクリックします。
 
@@ -60,6 +60,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ クリエイティブライブラリへの標準クリエイティブの追加 ](creative-add-standard.md)
->* [ 標準のクリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md)
->* [ クリエイティブのプレビュー ](/help/creative/creative-libraries/creative-preview.md)
+>* [&#x200B; クリエイティブライブラリへの標準クリエイティブの追加 &#x200B;](creative-add-standard.md)
+>* [&#x200B; 標準のクリエイティブ設定 &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md)
+>* [&#x200B; クリエイティブのプレビュー &#x200B;](/help/creative/creative-libraries/creative-preview.md)
