@@ -3,9 +3,9 @@ title: クリエイティブライブラリへの標準クリエイティブの�
 description: クリエイティブライブラリに標準（非ダイナミック）クリエイティブを追加する方法を説明します。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
+source-git-commit: ecc0f6ac900292825b23b648be40dcc68ae15c64
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,8 @@ ht-degree: 0%
 
    * ファイルを削除するには、横にあるチェックボックスの選択を解除します。
 
+1. （任意）クリエイティブをプレビューするには、画像の上の ![ プレビュー ](/help/creative/assets/preview.png " プレビュー ") をクリックします。
+
 1. [ フレキシブル HTML5 広告の設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) を指定します。
 
    デフォルトでは、アップロードしたばかりのクリエイティブがすべて選択されます。 値が 1 つだけの設定は、選択したすべてのクリエイティブに適用されます。一部の設定では、個々の値を指定できます。 特定のクリエイティブの設定を入力するには、適用できない各クリエイティブの横にあるチェックボックスの選択を解除します。
@@ -60,7 +62,7 @@ ht-degree: 0%
 
 ### テンプレートを使用した柔軟なクリエイティブの追加 {#flexible-creative-use-template}
 
-アカウントにアップロードされた任意の柔軟なクリエイティブテンプレートを使用して、事前に定義されたサイズの広告を作成できます。 使用するテンプレートを選択したら、クリックのタグと属性を編集します。&lt;!— テンプレートのダウンロード機能を追加する場合は、最後の文をこの文に置き換えます。a\）使用するテンプレートを選択して、クリックのタグと属性を編集するか、b\） [ テンプレートを ZIP ファイルとしてダウンロード ](#download-flexible-creative-template)、コンテンツをオフラインで編集して独自のクリエイティブを作成してから [ 編集したファイルを新しいクリエイティブとしてアップロード ] (flexible-creative-upload)。>
+アカウントにアップロードされた任意の柔軟なクリエイティブテンプレートを使用して、事前定義済みのサイズの広告を作成できます。 使用するテンプレートを選択したら、クリックのタグと属性を編集します。&lt;!— テンプレートのダウンロード機能を追加する場合は、最後の文をこの文に置き換えます。a\）使用するテンプレートを選択して、クリックのタグと属性を編集するか、b\） [ テンプレートを ZIP ファイルとしてダウンロード ](#download-flexible-creative-template)、コンテンツをオフラインで編集して独自のクリエイティブを作成してから [ 編集したファイルを新しいクリエイティブとしてアップロード ](flexible-creative-upload)。>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -78,7 +80,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. （オプション）テンプレートをプレビューするには、テンプレート名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Preview]**」をクリックします。
 
-   オプションで、テンプレートをダウンロードできます
+   必要に応じて、テンプレートをダウンロードできます。テンプレート名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Download]**」をクリックします。
 
 1. テンプレート名の横の「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Use Selected]**」をクリックします。
 
@@ -86,18 +88,15 @@ For information about the attributes available in predefined templates, see "[Av
 
    クリエイティブの最大ファイルサイズは、圧縮されると、2 MB になります。<!-- Still true? -->
 
+1. 独自の柔軟なクリエイティブファイルを追加または削除します。
+
+   * デバイスまたはネットワークからファイルを追加するには、左上の ![ 追加 ](/help/creative/assets/create.png " 追加 ") をクリックしてファイルを探します。 クリエイティブの横にあるチェックボックスをオンにし、他のクリエイティブの横にあるチェックボックスの選択を解除して、[ フレキシブル HTML5 クリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) を編集し、言語を指定し、独自のクリックタグ、画像、その他の属性を含めます。
+
+   * ファイルを削除するには、横にあるチェックボックスの選択を解除します。
+
+1. （任意）クリエイティブをプレビューするには、画像の上の ![ プレビュー ](/help/creative/assets/preview.png " プレビュー ") をクリックします。
+
 1. 「**[!UICONTROL Create]**」をクリックします。
-
-<!-- Not options as of 5/22/25:
-
-1. In the left panel, select the creative size to see all available templates for that size.
-
-1. Select the template:
-
-   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
-     
-   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
--->
 
 ## クリエイティブライブラリへのHTML5 クリエイティブの追加
 
