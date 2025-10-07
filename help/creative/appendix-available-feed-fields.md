@@ -1,8 +1,8 @@
 ---
 title: 動的広告フィードファイルで使用可能なフィールド
 description: 動的広告の作成に使用するフィードファイルに含めることができるフィールドについて説明します。
-feature: Creative Dynamic Ads
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+feature: Creative Dynamic Creatives
+source-git-commit: 67ee38860ac5cb7e9340f8e9d4667353e509b1ec
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 付録：動的広告フィードファイルで使用可能なフィールド
 
-次のフィードフィールドをAdvertising Creative バックエンドで使用できます。 組織固有のフィールド名を使用する [&#x200B; フィードファイル &#x200B;](/help/creative/feeds/asset-manage.md) をアップロードできます。 ただし、フィードファイルから [&#x200B; カタログ &#x200B;](/help/creative/feeds/catalog-manage.md) を作成する前に、フィードファイルの各フィールドを、カタログの作成に使用する [&#x200B; フィードテンプレート &#x200B;](/help/creative/feeds/feed-template-manage.md) の次のいずれかのフィールドにマッピングする必要があります。
+次のフィードフィールドをAdvertising Creative バックエンドで使用できます。 組織固有のフィールド名を使用する [ フィードファイル ](/help/creative/feeds/asset-manage.md) をアップロードできます。 ただし、フィードファイルから [ カタログ ](/help/creative/feeds/catalog-manage.md) を作成する前に、フィードファイルの各フィールドを、カタログの作成に使用する [ フィードテンプレート ](/help/creative/feeds/feed-template-manage.md) の次のいずれかのフィールドにマッピングする必要があります。
 
 フィードファイルに同等の機能が必要なフィールドは、`PART_NUM` のみです。
 
@@ -108,7 +108,7 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 動的広告のワークフロー &#x200B;](/help/creative/introduction/workflow-dynamic-ads.md)
->* [&#x200B; アセットファイルの管理 &#x200B;](/help/creative/feeds/asset-manage.md)
->* [&#x200B; フィードテンプレートの管理 &#x200B;](/help/creative/feeds/feed-template-manage.md)
->* [&#x200B; カタログの管理 &#x200B;](/help/creative/feeds/catalog-manage.md)
+>* [ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [ アセットファイルの管理 ](/help/creative/feeds/asset-manage.md)
+>* [ フィードテンプレートの管理 ](/help/creative/feeds/feed-template-manage.md)
+>* [ カタログの管理 ](/help/creative/feeds/catalog-manage.md)
