@@ -3,9 +3,9 @@ title: Adobe Advertising Creativeについて
 description: 詳細情報  [!DNL Creative].
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: 41814881a2fc0efde76927d12a8649efad86f4cb
+source-git-commit: 9082d9f455a0d26ca027dc699df29737b9042457
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Adobe Audience ManagerとAdobe Analyticsのファーストパーティオーデ�
 
 ### 広告としてのエクスペリエンスの実装
 
-エクスペリエンスを作成したら、エクスペリエンス用のJavaScriptまたは iframe タグを生成し、そのタグをAdvertising DSP キャンペーンまたはその他のDSPのサードパーティの標準ディスプレイ広告として実装できます。<!-- Will add video and other ad formats; not sure if they'll be available for both standard and dynamic ads. -->
+エクスペリエンスを作成したら、エクスペリエンス用のJavaScriptまたは iframe タグを生成し、そのタグをサードパーティ広告としてAdvertising DSP キャンペーンまたはその他のDSPに実装できます。
 
 ### 広告要素の最適化
 
