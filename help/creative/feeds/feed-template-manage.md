@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 右上で、**[!UICONTROL Create]**/**[!UICONTROL Template]** をクリックします。
 
-1. [ フィードテンプレート設定 ](#feed-template-settings) を指定します。
+1. [&#x200B; フィードテンプレート設定 &#x200B;](#feed-template-settings) を指定します。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. カーソルをテンプレートの行の上に置き、**[!UICONTROL Duplicate]** をクリックします。
 
-1. 必要に応じて [ フィードテンプレート設定 ](#feed-template-settings) を編集します。
+1. 必要に応じて [&#x200B; フィードテンプレート設定 &#x200B;](#feed-template-settings) を編集します。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. カーソルをテンプレートの行の上に置き、**[!UICONTROL Duplicate]** をクリックします。
 
-1. [!UICONTROL Duplicate Template] 画面で、一意の **[!UICONTROL Template Name]** を入力します。 他のユーザーが作成したテンプレートを複製する場合は、**[!UICONTROL Advertiser]** を選択します。 必要に応じて、オプションで他の [ フィードテンプレート設定 ](#feed-template-settings) を編集します。
+1. [!UICONTROL Duplicate Template] 画面で、一意の **[!UICONTROL Template Name]** を入力します。 他のユーザーが作成したテンプレートを複製する場合は、**[!UICONTROL Advertiser]** を選択します。 必要に応じて、オプションで他の [&#x200B; フィードテンプレート設定 &#x200B;](#feed-template-settings) を編集します。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Field Mapping] 設定
 
-フィードファイルの各フィールドをAdvertising Creative バックエンドのフィールドにマッピングします。 バックエンドフィールドとその必要な属性のリストについては [ 「](/help/creative/appendix-available-feed-fields.md) 動的広告フィードファイルに使用できるフィールド」を参照してください。<!-- Check w/product: What is displayed where in the UI/reports and published ads? -->
+フィードファイルの各フィールドをAdvertising Creative バックエンドのフィールドにマッピングします。 バックエンドフィールドとその必要な属性のリストについては [&#x200B; 「](/help/creative/appendix-available-feed-fields.md) 動的広告フィードファイルに使用できるフィールド」を参照してください。<!-- Check w/product: What is displayed where in the UI/reports and published ads? -->
 
 少なくとも 1 つのフィード ファイル フィールドが&quot;[!UICONTROL Is Unique]&quot;としてマークされている必要があります。 フィールドマッピングを追加するには、「**[!UICONTROL +]**」をクリックします。 最後のフィールドマッピングを削除するには、「削 **[!UICONTROL +]**」をクリックします。
 
@@ -99,13 +99,13 @@ ht-degree: 0%
 
 **[!UICONTROL Is Unique]:** フィールドが一意の ID （キー）であることを示します。 フィードテンプレートごとに少なくとも 1 つのフィールドが一意である必要があります。 このオプションを選択するには、ボタンをクリックして右に移動します。<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** Advertising Creative バックエンドの [ フィールド ](/help/creative/appendix-available-feed-fields.md) は、フィードファイルで指定された [!UICONTROL Field Name] にマッピングされます。
+**[!UICONTROL Backend Field]:** Advertising Creative バックエンドの [&#x200B; フィールド &#x200B;](/help/creative/appendix-available-feed-fields.md) は、フィードファイルで指定された [!UICONTROL Field Name] にマッピングされます。
 
 >[!MORELIKETHIS]
 >
->* [ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md)
->* [ アセットファイルの管理 ](/help/creative/feeds/asset-manage.md)
->* [ カタログの管理 ](/help/creative/feeds/catalog-manage.md)
->* [ カタログ処理ジョブのステータスのトラッキング ](/help/creative/feeds/job-status-track.md)
->* [ 動的広告テンプレートの管理 ](/help/creative/ad-templates/ad-template-manage.md)
->* [ クリエイティブライブラリへのダイナミッククリエイティブの追加 ](/help/creative/creative-libraries/creative-add-dynamic.md)
+>* [&#x200B; 動的広告のワークフロー &#x200B;](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [&#x200B; アセットファイルの管理 &#x200B;](/help/creative/feeds/asset-manage.md)
+>* [&#x200B; カタログの管理 &#x200B;](/help/creative/feeds/catalog-manage.md)
+>* [&#x200B; カタログ処理ジョブのステータスのトラッキング &#x200B;](/help/creative/feeds/job-status-track.md)
+>* [&#x200B; 動的広告テンプレートの管理 &#x200B;](/help/creative/ad-templates/ad-template-manage.md)
+>* [&#x200B; クリエイティブライブラリへのダイナミッククリエイティブの追加 &#x200B;](/help/creative/creative-libraries/creative-add-dynamic.md)
