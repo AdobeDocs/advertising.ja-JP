@@ -2,9 +2,9 @@
 title: 動的広告のワークフロー
 description: 動的広告を管理するためのワークフローについて説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## ワークフロー 2
 
-1. 使用可能なアセットに基づいて、動的広告用に [ 広告テンプレートを作成 ](/help/creative/ad-templates/ad-template-manage.md) します。
+1. 使用可能なアセットに基づいて、動的広告用に [ 広告テンプレートを作成 ](/help/creative/ad-templates/ad-template-manage.md) します。 広告テンプレートには、目的の広告フォーマットを持つHTML5 ファイルと、広告属性を持つ（動的HTML5 広告のみ）ファイルが含まれます。
 
 1. 広告要素を設定します。
 

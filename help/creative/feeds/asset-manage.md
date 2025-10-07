@@ -2,9 +2,9 @@
 title: アセットファイルの管理
 description: 広告主用のアセットファイルをアップロードおよび管理する方法について説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Dynamic HTML5 広告には、Microsoft Excel スプレッドシート（XLSX）�
 
 * ダイナミック HTML5 広告：
 
-   * 広告バリエーションごとに 1 つのヘッダー行と 1 つのデータ行を持つ、CSV、TSV またはMicrosoft Excel スプレッドシート（XLSX）形式のフィードファイル。 各行に画像名またはAdobe Experience Managerへの参照を含めます。<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * 広告バリエーションごとに 1 つのヘッダー行と 1 つのデータ行を持つ、CSV、TSV またはMicrosoft Excel スプレッドシート（XLSX）形式のフィードファイル。 形式 `images/image_name` を使用して、各行に画像名を含めます（`images/300x250_acme_logo.png` など）。
 
-     アップロードする画像については、形式 `images/image_name` （`images/300x250_acme_logo.png` など）を使用して画像を参照し <!-- Verify.  Also need to include the spec for how to reference images in AEM --> す。
+     広告主固有のフィールド名は、[ 動的広告フィードファイルで使用可能なフィールド ](/help/creative/appendix-available-feed-fields.md) にマッピングする必要があります。
 
    * GIF、JPEG、JPGまたは PNG 形式の関連する画像アセット。<!-- Is this true: The maximum file size is two (2) MB. --> [ サポートされているクリエイティブサイズ ](/help/creative/creative-libraries/creative-sizes.md) を参照してください。
 
@@ -84,6 +84,7 @@ Dynamic HTML5 広告には、Microsoft Excel スプレッドシート（XLSX）�
 
 >[!MORELIKETHIS]
 >
+>* [ 動的広告フィードファイルで使用可能なフィールド ](/help/creative/appendix-available-feed-fields.md)
 >* [ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [ フィードテンプレートの管理 ](/help/creative/feeds/feed-template-manage.md)
 >* [ カタログの管理 ](/help/creative/feeds/catalog-manage.md)

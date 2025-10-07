@@ -2,9 +2,9 @@
 title: フィードテンプレートの管理
 description: フィードテンプレートの管理方法について説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Field Mapping] 設定
 
-フィードファイルの各フィールドをAdvertising Creative バックエンドのフィールドにマッピングします。<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> 少なくとも 1 つのフィード ファイル フィールドが&quot;[!UICONTROL Is Unique]&quot;としてマークされている必要があります。 フィールドマッピングを追加するには、「**[!UICONTROL +]**」をクリックします。 最後のフィールドマッピングを削除するには、「削 **[!UICONTROL +]**」をクリックします。
+フィードファイルの各フィールドをAdvertising Creative バックエンドのフィールドにマッピングします。 バックエンドフィールドとその必要な属性のリストについては [ 「](/help/creative/appendix-available-feed-fields.md) 動的広告フィードファイルに使用できるフィールド」を参照してください。<!-- Check w/product: What is displayed where in the UI/reports and published ads? -->
+
+少なくとも 1 つのフィード ファイル フィールドが&quot;[!UICONTROL Is Unique]&quot;としてマークされている必要があります。 フィールドマッピングを追加するには、「**[!UICONTROL +]**」をクリックします。 最後のフィールドマッピングを削除するには、「削 **[!UICONTROL +]**」をクリックします。
 
 **[!UICONTROL Field Name]:** フィードファイルのフィールド。
 
@@ -97,7 +99,7 @@ ht-degree: 0%
 
 **[!UICONTROL Is Unique]:** フィールドが一意の ID （キー）であることを示します。 フィードテンプレートごとに少なくとも 1 つのフィールドが一意である必要があります。 このオプションを選択するには、ボタンをクリックして右に移動します。<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** フィードファイルで指定された [!UICONTROL Field Name] にマッピングされるAdvertising Creative バックエンドのフィールド。
+**[!UICONTROL Backend Field]:** Advertising Creative バックエンドの [ フィールド ](/help/creative/appendix-available-feed-fields.md) は、フィードファイルで指定された [!UICONTROL Field Name] にマッピングされます。
 
 >[!MORELIKETHIS]
 >
