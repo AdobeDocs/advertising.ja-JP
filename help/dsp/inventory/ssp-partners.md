@@ -3,9 +3,9 @@ title: SSP パートナー
 description: 使用可能な SSP （サプライ・サイド・プラットフォーム）とオープン Exchange パートナーのリストを参照してください。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 93f2ce3783d80d98a25e5c7a31cfc6ad6c475a94
+source-git-commit: bcb22b61886d3929ad4c509489e8e9c15abcc2ee
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,14 @@ ht-degree: 0%
 
 >[!TIP]
 >
->次の表は幅が広いです。 表示領域を拡大するには、左側のウィンドウの上部にある ![&#x200B; 左側のウィンドウ枠を非表示にする &#x200B;](/help/dsp/assets/hide-left-pane.png " 左側のウィンドウ枠を非表示にする ") をクリックし、右側のウィンドウ枠の上部にある ![右側のウィンドウを非表示](/help/dsp/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次と右側のウィンドウ枠を一時的に非表示にします。 テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示することもできます。
+>次の表は幅が広いです。 表示領域を拡大するには、左側のウィンドウの上部にある ![ 左側のウィンドウ枠を非表示にする ](/help/dsp/assets/hide-left-pane.png " 左側のウィンドウ枠を非表示にする ") をクリックし、右側のウィンドウ枠の上部にある ![右側のウィンドウを非表示](/help/dsp/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次と右側のウィンドウ枠を一時的に非表示にします。 テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示することもできます。
 
 | SSP | 会社 | シート ID | プログラムで保証されたサポート | 地域 | サポートされる通貨 | サポートされているインベントリ |
 | --- | --- | --- | --- | --- | --- | --- |
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | PG サポート | グローバル | USD、EUR、GBP | オーディオデスクトップとモバイル |
 | [!DNL Cadent] | [!DNL Cadent] （formerly [!DNL EMX Digital]） | Adobe Advertising | — | 米国/カナダ | USD | デスクトップおよびモバイルの表示 <br><br> ビデオデスクトップ、モバイルおよび CTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] またはAdobe Advertising | — | 米国+ EMEA | USD、EUR | デスクトップおよびモバイルの表示 <br><br> ビデオデスクトップ、モバイルおよび CTV |
+| [!DNL Equativ] | [!DNL Equativ] （formerly [!DNL Smart AdServer]） | [!DNL TubeMogul] またはAdobe Advertising | — | EMEA | USD、EUR | デスクトップとモバイルの表示 <br><br> ビデオのデスクトップとモバイル |
 | [!DNL FreeWheel] | [!DNL Comcast] | [!DNL TubeMogul] またはAdobe Advertising | PG サポート | グローバル | USD、EUR、AUD、GBP | ビデオデスクトップ、モバイル、CTV |
 | [!DNL Google Authorized Buyers] （formerly [!DNL Google AdX]） | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC および EU - 89185975 | PG サポート | グローバル | USD、BRL | オーディオデスクトップおよびモバイル <br><br> ディスプレイデスクトップおよびモバイル <br><br> ビデオデスクトップ、モバイル、CTV |
 | [!DNL GumGum] |  | Adobe Advertising | — | グローバル | USD | デスクトップとモバイルの表示 <br><br> ビデオのデスクトップとモバイル |
@@ -48,5 +49,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; インベントリ機能の概要 &#x200B;](inventory-overview.md)
+>* [ インベントリ機能の概要 ](inventory-overview.md)
 
