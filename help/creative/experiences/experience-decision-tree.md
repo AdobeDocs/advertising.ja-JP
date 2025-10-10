@@ -3,9 +3,9 @@ title: デシジョンツリーのレイアウト
 description: ターゲティングを使用したエクスペリエンスのデシジョンツリーレイアウトについて説明します。
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
+source-git-commit: 4057f413b58343580a965f9a419af1e002892ff6
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 最初は、各デシジョンツリーは「すべて」のルートレベルから始まります。 1 つ以上のターゲットノードを追加したあと、決定ツリーの各分岐の最終ノードにクリエイティブバンドルを割り当てることができます。 デフォルトでは、デシジョンツリーは垂直方向に表示されますが、オプションで、代わりに水平方向にツリーを表示することもできます。
 
-![&#x200B; ターゲットのない垂直方向のデシジョンツリーの例 &#x200B;](/help/creative/assets/experience-decision-tree-no-targets.png " ターゲットのない垂直方向のデシジョンツリーの例 ")
+![ ターゲットのない垂直方向のデシジョンツリーの例 ](/help/creative/assets/experience-decision-tree-no-targets.png " ターゲットのない垂直方向のデシジョンツリーの例 ")
 
-![&#x200B; ターゲットのない水平デシジョンツリーの例 &#x200B;](/help/creative/assets/experience-decision-tree-no-targets-horizontal.png " ターゲットのない水平デシジョンツリーの例 ")
+![ ターゲットのない水平デシジョンツリーの例 ](/help/creative/assets/experience-decision-tree-no-targets-horizontal.png " ターゲットのない水平デシジョンツリーの例 ")
 
 <!--
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## 用語
 
@@ -36,9 +36,11 @@ ht-degree: 0%
 
 ## 決定ツリー内のターゲット
 
-各決定ツリーには、最大 5 レベルのターゲットを設定できます。 各ターゲットレベルには複数のブランチを含めることができます。各ブランチには、同じターゲットタイプ（オーディエンスセグメント、地理的なロケーションタイプ、指定されたデータパスキーの値、指定されたリターゲティングピクセルの属性、デバイスカテゴリ）を持つ 1 つ以上のノードがあります。 最下位レベルのターゲットノードに、デフォルトの画像クリエイティブまたはビデオクリエイティブを指定した各広告サイズでクリエイティブバンドルを割り当てることができます。
+各決定ツリーには、最大 5 レベルのターゲットを設定できます。 エクスペリエンスレベルのターゲットは、DSPのターゲティングオプションと組み合わせて適用されます。階層ターゲティングの動作は、DSPによって異なる場合があります。 広告エクスペリエンスに、実装するキャンペーンと互換性のあるターゲティングが含まれていることを確認します。
 
-![&#x200B; ターゲットを含むデシジョンツリーの例 &#x200B;](/help/creative/assets/experience-decision-tree.png " ターゲットを含むデシジョンツリーの例 ")
+各ターゲットレベルには複数のブランチを含めることができます。各ブランチには、同じターゲットタイプ（オーディエンスセグメント、地理的なロケーションタイプ、指定されたデータパスキーの値、指定されたリターゲティングピクセルの属性、デバイスカテゴリ）を持つ 1 つ以上のノードがあります。 最下位レベルのターゲットノードに、デフォルトの画像クリエイティブまたはビデオクリエイティブを指定した各広告サイズでクリエイティブバンドルを割り当てることができます。
+
+![ ターゲットを含むデシジョンツリーの例 ](/help/creative/assets/experience-decision-tree.png " ターゲットを含むデシジョンツリーの例 ")
 
 ターゲットノードを最終レベルに追加する場合は、新しいノードのターゲットを指定します。 指定されたターゲットに一致しないすべてのユーザーに対して、追加の兄弟ノード「Everything Else」が自動的に作成されます。 その後、同じタイプの異なるターゲットを持つ兄弟ノードを追加できます。
 
@@ -56,6 +58,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Advertising Creative 2.0 のエクスペリエンスについて &#x200B;](experience-about.md)
->* [&#x200B; ターゲティングを使用したエクスペリエンスの作成 &#x200B;](/help/creative/experiences/experience-create-targeting.md)
->* [&#x200B; ターゲット設定エクスペリエンス設定 &#x200B;](/help/creative/experiences/experience-settings-targeting.md)
+>* [Advertising Creative 2.0 のエクスペリエンスについて ](experience-about.md)
+>* [ ターゲティングを使用したエクスペリエンスの作成 ](/help/creative/experiences/experience-create-targeting.md)
+>* [ ターゲット設定エクスペリエンス設定 ](/help/creative/experiences/experience-settings-targeting.md)
