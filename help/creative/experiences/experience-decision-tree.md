@@ -3,9 +3,9 @@ title: デシジョンツリーのレイアウト
 description: ターゲティングを使用したエクスペリエンスのデシジョンツリーレイアウトについて説明します。
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## 用語
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 エクスペリエンスの各最終ターゲットノードにクリエイティブバンドルを割り当てます。
 
-クリエイティブバンドルを含む各ノード内で、オプションで、含まれるクリエイティブを、a）指定された重みに従って、または b） アルゴリズムで回転して、クリックスルー率またはカスタム目標を最適化できます。 必要に応じて、同じオプションを使用して、指定した時系列でクリエイティブを回転することもできます。
+クリエイティブバンドルを含む各ノード内で、含まれるクリエイティブをオプションで回転できます。a） アルゴリズムによってクリックスルー率またはカスタム目的を最適化する、b）指定された重みに従う、または c）特定のシーケンス内で最適化する。 必要に応じて、同じオプションを組み合わせて、指定した時系列でクリエイティブを回転することもできます。
 
 オプションで、個々のクリエイティブの必要に応じて、ランディングページ URL、インプレッショントラッキング URL およびクリックトラッキング URL をカスタマイズできます。<!-- Not in the UI as of 1/31: For flexible HTML5 creatives, you can customize any of the flexible attributes. -->
 
