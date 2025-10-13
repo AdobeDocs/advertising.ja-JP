@@ -3,9 +3,9 @@ title: ターゲットエクスペリエンス設定
 description: ターゲット広告エクスペリエンスのすべての設定の説明を参照してください。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 0%
 * 右側のクリエイティブパネルを表示または非表示にするには、右側のパネルの右上にある ![ 表示/非表示 ](/help/creative/assets/hide-show-creatives.png " 表示/非表示 ") をクリックします。
 
 ## [!UICONTROL Targeting] セクション
+
+エクスペリエンスレベルのターゲットは、DSPのターゲティングオプションと組み合わせて適用されます。階層ターゲティングの動作は、DSPによって異なる場合があります。 例えば、Adobe Advertising DSPは、広告レベルのターゲティングをプレースメントレベルのターゲティングの上（ではなく）に適用します。 広告エクスペリエンスに、実装するキャンペーンと互換性のあるターゲティングが含まれていることを確認します。
 
 **[!UICONTROL Targeting]:** （既存のエクスペリエンスの場合は読み取り専用）決定ツリーと自動タグ作成を使用して、クリエイティブターゲティングを有効にします。 エクスペリエンスを保存すると、この設定を変更できなくなります。
 

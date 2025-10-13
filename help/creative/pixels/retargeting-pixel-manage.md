@@ -3,9 +3,9 @@ title: リターゲティングピクセルの管理
 description: 広告エクスペリエンスのターゲットとして使用するリターゲティングピクセルを作成および実装する方法について説明します。
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
+source-git-commit: ed3bf0200d3d3b31ef80c790c4e702914459c521
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
-リターゲティングピクセルを作成し、ユーザー Cookie またはユニバーサル ID を使用して広告主のランディングページまたはコンバージョンページへの訪問者を識別し、ページが訪問者に対して追跡している特定の属性を取得できます。 ピクセルは、訪問者がページで実行した最新のイベントを追跡します。 ピクセルを作成したら、関連する web ページに挿入するピクセルタグを生成して、訪問者のトラッキングを開始できます。<!-- Note to self: surfer id=cookie or universal ID -->
+リターゲティングピクセルを作成し、ユーザー Cookie またはユニバーサル ID を使用して、広告主のランディングページまたはコンバージョンページへの訪問者を識別できます。 ピクセルは、訪問者がページで実行した最新のイベントを追跡し、ページが訪問者に対して追跡している特定の属性をキャプチャします。 ピクセルを作成したら、関連する web ページに挿入するピクセルタグを生成して、訪問者のトラッキングを開始します。<!-- Note to self: surfer id=cookie or universal ID -->
 
-その後、ピクセルを広告エクスペリエンス内のすべてのクリエイティブのターゲットとして使用し、ピクセルに関連付けられた web ページに以前にアクセスした指定の属性を持つユーザーにのみ広告を表示できます。 例えば、web ページでこれらの属性値を追跡している場合、サイズ 10 の赤い靴を見ている訪問者をターゲットに設定できます。<!-- better example? Make sure they match attribute examples below -->
+その後、ピクセルを広告エクスペリエンス内のすべてのクリエイティブのターゲットとして使用し、ピクセルに関連付けられた web ページに以前にアクセスした指定の属性を持つユーザーにのみ広告を表示できます。 例えば、web ページでこれらの属性値を追跡している場合、サイズ 10 の赤い靴を見ている訪問者をターゲットにすることができます。<!-- better example? Make sure they match attribute examples below --> エクスペリエンスレベルのターゲットは、DSPのターゲティングオプションと組み合わせて適用されます。階層ターゲティングの動作は、DSPによって異なる場合があります。
 
 リターゲティングプロファイルは 180 日間保存されます。
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> * [!DNL Creative] は現在、Advertising DSPのユニバーサル ID のみをサポートしています。 今後のリリースでは、サードパーティ DSP 用のユニバーサル ID がサポートされる予定です。<!-- Clarify this and reword as needed  -->
+> * [!DNL Creative] では、Advertising DSPのユニバーサル ID のみをサポートしています。
 >* また、Adobe Audience ManagerとAdobe Analyticsのファーストパーティオーディエンスを [ エクスペリエンスのクリエイティブターゲット ](/help/creative/experiences/experience-settings-targeting.md) として使用することもできます。
->* Advertising DSP プレースメント内で広告としてエクスペリエンスを使用する場合、DSPで使用可能なすべてのオーディエンスをターゲットに配置できます。 また、[ カスタムオーディエンスセグメントタグを作成 ](/help/dsp/audiences/custom-segment-create.md) して、特定のランディングページへのすべての訪問者をトラッキングし、それらのセグメントをプレースメントのクリエイティブターゲットとして使用することもできます。
+>* Advertising DSP プレースメント内で広告としてエクスペリエンスを使用する場合、DSPで使用可能なすべてのオーディエンスをターゲットに配置できます。 また、[ カスタムオーディエンスセグメントタグを作成 ](/help/dsp/audiences/custom-segment-create.md) して、特定のランディングページへのすべての訪問者をトラッキングし、それらのセグメントをプレースメントのクリエイティブターゲットとして使用することもできます。 Advertising DSPは、広告レベルのターゲティングを、（ではなく）プレースメントレベルのターゲティングの上に適用します。
 >* 広告ターゲティングのトラッキングをオプトアウトした web サイト訪問者は、オーディエンスセグメントまたはリターゲティングプロファイルに基づいてパーソナライズされたクリエイティブコンテンツを含む広告を受信しません。
 
 ## リターゲティングピクセルの作成
@@ -75,9 +75,9 @@ ht-degree: 0%
 
 1. pixel タグで、各「`<img src>`」を値に置き換えて、「`<script src>`」セクションと「`Insert <attribute>`」セクションの両方で各アトリビュートの値を指定します。 タグがユニバーサル ID をキャプチャする場合は、ID5 パートナー ID を指定します。
 
-   属性を手動で追加する場合は、URL エンコーディングを含める必要があります。
+   属性を手動で追加する場合は、URL エンコーディングを含めます。
 
-   例えば、属性「category」、「color」および「size」を含み、ID5 のユニバーサル ID を取り込んだ場合、ピクセルタグには次のパラメーターが含まれます。`&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` および `&id5pid=--Insert ID5_PARTNER_ID--`。 例えば、サイズ 10 の赤いサンダルを選択するユーザーをターゲットにするには、画像タグとスクリプトタグの両方のパラメーターを `&ut1=sandals&ut2=red&ut3=10` に変更し、スクリプトタグに ID5 のパートナー ID （`&id5pid=0123456789` など）を入力します。
+   例えば、属性「category」、「color」および「size」を含み、ID5 のユニバーサル ID を取り込んだ場合、ピクセルタグには次のパラメーターが含まれます。`&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` および `&id5pid=--Insert ID5_PARTNER_ID--`。 サイズ 10 の赤いサンダルを選択したユーザーをターゲットにするには、画像タグとスクリプトタグの両方のパラメーターを `&ut1=sandals&ut2=red&ut3=10` に変更し、スクリプトタグに ID5 のパートナー ID （`&id5pid=0123456789` など）を入力します。
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
