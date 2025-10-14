@@ -14,21 +14,21 @@ ht-degree: 0%
 
 *[!DNL Google Ads]と [!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex] および既存の [!DNL Baidu] アカウントのみ*
 
-[ 同期された広告ネットワークアカウント内の検索および表示/ネイティブネットワークをターゲットとする ](/help/search-social-commerce/introduction/supported-inventory.md) サポートされているキャンペーンタイプ [ の検索広告グループのキーワードを作成および編集 ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) きます。
+[&#x200B; 同期された広告ネットワークアカウント内の検索および表示/ネイティブネットワークをターゲットとする &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md) サポートされているキャンペーンタイプ [&#x200B; の検索広告グループのキーワードを作成および編集 &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) きます。
 
 ## キーワードの作成
 
 >[!TIP]
 >
->一度に多くのキーワードを作成するには、[ コピーと貼り付け機能 ](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
+>一度に多くのキーワードを作成するには、[&#x200B; コピーと貼り付け機能 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [campaign バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]** をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
+1. データ テーブルの上にあるツールバーで、[![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
 1. 広告ネットワーク、アカウント、キャンペーン、広告グループを選択し、「**[!UICONTROL Continue]**」をクリックします。
 
-1. [[!DNL Baidu]  キーワード設定 ](keyword-settings-baidu.md)、[[!DNL Google Ads]  キーワード設定 ](keyword-settings-google.md)、[[!DNL Microsoft Advertising]  キーワード設定 ](keyword-settings-microsoft.md)、[[!DNL Yahoo! Japan Ads]  キーワード設定 ](keyword-settings-yahoo-japan.md)、または [[!DNL Yandex]  キーワード設定 ](keyword-settings-yandex.md) を入力します。
+1. [[!DNL Baidu]  キーワード設定 &#x200B;](keyword-settings-baidu.md)、[[!DNL Google Ads]  キーワード設定 &#x200B;](keyword-settings-google.md)、[[!DNL Microsoft Advertising]  キーワード設定 &#x200B;](keyword-settings-microsoft.md)、[[!DNL Yahoo! Japan Ads]  キーワード設定 &#x200B;](keyword-settings-yahoo-japan.md)、または [[!DNL Yandex]  キーワード設定 &#x200B;](keyword-settings-yandex.md) を入力します。
 
    1 回の操作で最大 2000 個のキーワードを入力または貼り付けることができます。 複数のキーワードをコンマで区切るか、別々の行に入力します。
 
@@ -48,17 +48,17 @@ ht-degree: 0%
 
 >[!TIP]
 >
->様々な広告ネットワーク上のキーワードを含む、大量のキーワードデータを一度に編集するには、[ コピーと貼り付け機能 ](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
+>様々な広告ネットワーク上のキーワードを含む、大量のキーワードデータを一度に編集するには、[&#x200B; コピーと貼り付け機能 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [campaign バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]** をクリックします。
 
 1. 編集する各行の横にあるチェックボックスをオンにします。
 
-   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+   複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-1. データ テーブルの上にあるツールバーで、![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ") をクリックします。
+1. データ テーブルの上にあるツールバーで、![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ") をクリックします。
 
-1. [[!DNL Baidu]  キーワード設定 ](keyword-settings-baidu.md)、[[!DNL Google Ads]  キーワード設定 ](keyword-settings-google.md)、[[!DNL Microsoft Advertising]  キーワード設定 ](keyword-settings-microsoft.md)、[[!DNL Yahoo! Japan Ads]  キーワード設定 ](keyword-settings-yahoo-japan.md)、または [[!DNL Yandex]  キーワード設定 ](keyword-settings-yandex.md) を編集します。
+1. [[!DNL Baidu]  キーワード設定 &#x200B;](keyword-settings-baidu.md)、[[!DNL Google Ads]  キーワード設定 &#x200B;](keyword-settings-google.md)、[[!DNL Microsoft Advertising]  キーワード設定 &#x200B;](keyword-settings-microsoft.md)、[[!DNL Yahoo! Japan Ads]  キーワード設定 &#x200B;](keyword-settings-yahoo-japan.md)、または [[!DNL Yandex]  キーワード設定 &#x200B;](keyword-settings-yandex.md) を編集します。
 
    複数のキーワードを指定した場合は、選択したすべてのキーワードに共通するフィールドのみを編集できます。変更内容は、選択したすべてのキーワードに適用されます。 一部の英数字フィールドでは、既存の値を指定の値に変更する、既存の文字列を指定の文字列に置き換える、各値の先頭に指定のプレフィックスを追加する、各値の末尾にサフィックスを追加する、などのオプションがあります。 一部の通貨フィールドでは、既存の値を指定の値に変更するか、制限を設けて、指定の割合または金額で金額を増減するオプションがあります。
 
@@ -70,11 +70,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ キーワードについて ](keyword-about.md)
->* [[!DNL Baidu]  キーワード設定 ](keyword-settings-baidu.md)
->* [[!DNL Google Ads]  キーワード設定 ](keyword-settings-google.md)
->* [[!DNL Microsoft Advertising]  キーワード設定 ](keyword-settings-microsoft.md)
->* [[!DNL Yahoo! Japan Ads]  キーワード設定 ](keyword-settings-yahoo-japan.md)
->* [[!DNL Yandex]  キーワード設定 ](keyword-settings-yandex.md)
->* [ ネガティブキーワードの作成 ](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
->* [ キーワードとネガティブキーワードのステータスの変更 ](keyword-status-edit.md)
+>* [&#x200B; キーワードについて &#x200B;](keyword-about.md)
+>* [[!DNL Baidu]  キーワード設定 &#x200B;](keyword-settings-baidu.md)
+>* [[!DNL Google Ads]  キーワード設定 &#x200B;](keyword-settings-google.md)
+>* [[!DNL Microsoft Advertising]  キーワード設定 &#x200B;](keyword-settings-microsoft.md)
+>* [[!DNL Yahoo! Japan Ads]  キーワード設定 &#x200B;](keyword-settings-yahoo-japan.md)
+>* [[!DNL Yandex]  キーワード設定 &#x200B;](keyword-settings-yandex.md)
+>* [&#x200B; ネガティブキーワードの作成 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
+>* [&#x200B; キーワードとネガティブキーワードのステータスの変更 &#x200B;](keyword-status-edit.md)

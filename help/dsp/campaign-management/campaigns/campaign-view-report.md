@@ -21,9 +21,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プレースメントの詳細レポートの表示 ](/help/dsp/campaign-management/placements/placement-view-report.md)
->* [ 広告の詳細レポートの表示 ](/help/dsp/campaign-management/ads/ad-view-report.md)
->* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
->* [ キャンペーンの変更ログを表示 ](campaign-change-log.md)
->* [ キャンペーンの一時停止またはアクティブ化 ](campaign-pause-activate.md)
+>* [&#x200B; プレースメントの詳細レポートの表示 &#x200B;](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [&#x200B; 広告の詳細レポートの表示 &#x200B;](/help/dsp/campaign-management/ads/ad-view-report.md)
+>* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ &#x200B;](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
+>* [&#x200B; キャンペーンの変更ログを表示 &#x200B;](campaign-change-log.md)
+>* [&#x200B; キャンペーンの一時停止またはアクティブ化 &#x200B;](campaign-pause-activate.md)

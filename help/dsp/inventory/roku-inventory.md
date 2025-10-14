@@ -26,9 +26,9 @@ a） [!DNL Roku] で直接プライベート取引 ID を設定して、取引 I
 >
 >オ [!DNL Roku] プンマーケットプレイスおよび取引所では、在庫は利用できません。
 
-* プライベートな取引の場合は、[DSPで取引 ID に関する情報を設定し ](/help/dsp/inventory/deal-id-create.md) プレースメント内で「[!UICONTROL Roku Network - Audience]」と「[!UICONTROL The Roku Channel - Audience]」をターゲットに [!DNL Roku] ます <!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->。
+* プライベートな取引の場合は、[DSPで取引 ID に関する情報を設定し &#x200B;](/help/dsp/inventory/deal-id-create.md) プレースメント内で「[!UICONTROL Roku Network - Audience]」と「[!UICONTROL The Roku Channel - Audience]」をターゲットに [!DNL Roku] ます <!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->。
 
-* [Gallery 内で以下の  [!DNL Roku] inventory を購読 ](/help/dsp/inventory/on-demand-inventory-subscribe.md) し、プレースメント内の承認済みの取引をターゲッ  [!DNL On Demand]  設定 [!DNL Roku] きます。
+* [Gallery 内で以下の  [!DNL Roku] inventory を購読 &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md) し、プレースメント内の承認済みの取引をターゲッ  [!DNL On Demand]  設定 [!DNL Roku] きます。
 
    * [!DNL The CW]、[!DNL ABC]、[!DNL ESPN] などのプレミアム・コンテンツ・パートナーを使用して、[!DNL Roku] エコシステム全体のインベントリを「[!UICONTROL Roku Network - Audience]」します。
    * 所有および運営（O&amp;O）アプリコンテンツ [!DNL Roku] 場合は「[!UICONTROL The Roku Channel - Audience]」。
@@ -69,8 +69,8 @@ DSP キャンペーンでは、プレースメントタイプ「[!UICONTROL Conn
 
 最速のセットアップを実現：
 
-* [!DNL The Roku Channel] [[!DNL On Demand]  在庫 ](/help/dsp/inventory/on-demand-inventory-subscribe.md) 内の既存の常時稼動の取引をターゲットにして、所有および運用されてい [!DNL Roku] 在庫にすばやくアクセスします。
-* [[!DNL On Demand]  在庫 ](/help/dsp/inventory/on-demand-inventory-subscribe.md) の既存の常時稼動の取引をターゲットにして、[!DNL Roku] プラットフォーム全体の [!DNL Roku Network] ケールを迅速に達成します。
+* [!DNL The Roku Channel] [[!DNL On Demand]  在庫 &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md) 内の既存の常時稼動の取引をターゲットにして、所有および運用されてい [!DNL Roku] 在庫にすばやくアクセスします。
+* [[!DNL On Demand]  在庫 &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md) の既存の常時稼動の取引をターゲットにして、[!DNL Roku] プラットフォーム全体の [!DNL Roku Network] ケールを迅速に達成します。
 
 最大スケールに設定：
 
@@ -78,6 +78,6 @@ DSP キャンペーンでは、プレースメントタイプ「[!UICONTROL Conn
 
 >[!MORELIKETHIS]
 >
->* [ 取引 ID の詳細の手動作成 ](/help/dsp/inventory/deal-id-create.md)
-> * [Premium 在庫取引の購入  [!DNL On Demand]  アクセスのリクエスト ](/help/dsp/inventory/on-demand-inventory-subscribe.md)
->* [ プレースメントの作成 ](/help/dsp/campaign-management/placements/placement-create.md)
+>* [&#x200B; 取引 ID の詳細の手動作成 &#x200B;](/help/dsp/inventory/deal-id-create.md)
+> * [Premium 在庫取引の購入  [!DNL On Demand]  アクセスのリクエスト &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+>* [&#x200B; プレースメントの作成 &#x200B;](/help/dsp/campaign-management/placements/placement-create.md)

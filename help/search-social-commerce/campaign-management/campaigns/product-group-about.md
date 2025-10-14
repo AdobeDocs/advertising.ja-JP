@@ -20,7 +20,7 @@ ht-degree: 0%
 
 同じ製品が複数のキャンペーンに含まれる場合、広告ネットワークでは最初にキャンペーンの優先度を使用して、広告オークションに適格なキャンペーン（および関連入札）を決定します。 すべてのキャンペーンの優先度が同じ場合は、入札額が最も高いキャンペーンが実施要件を満たします。
 
-[!DNL Google] のショッピングキャンペーンおよび広告について詳しくは、「[ ショッピングキャンペーンの実装  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)」および [Google広告のドキュメント ](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&rd=1) を参照してください。 [!DNL Microsoft] 買い物キャンペーンについて詳しくは、「[ 買い物キャンペーンの実装  [!DNL Microsoft Advertising]  ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)」および [[!DNL Microsoft Advertising]  ドキュメント ](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500) を参照してください。
+[!DNL Google] のショッピングキャンペーンおよび広告について詳しくは、「[&#x200B; ショッピングキャンペーンの実装  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)」および [Google広告のドキュメント &#x200B;](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&rd=1) を参照してください。 [!DNL Microsoft] 買い物キャンペーンについて詳しくは、「[&#x200B; 買い物キャンペーンの実装  [!DNL Microsoft Advertising]  &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)」および [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500) を参照してください。
 
 >[!NOTE]
 >
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 広告グループ内に、最大 7 つのレベルの製品グループ（「[!UICONTROL All Products]」を含まない）を作成して、各レベルで同じ属性をターゲットにする 1 つ以上の製品グループを使用して、入札に含めたり入札から除外したりできます（例えば、ある製品グループには [!UICONTROL Brand]=Acme、同じレベルの別の製品グループには [!UICONTROL Brand]=AcmePlus）。 親製品グループはサブディビジョンと呼ばれ、サブディビジョンの最下位レベルはユニットと呼ばれます。 入札とトラッキングテンプレートを設定するか、または入札を完全に除外するかを単位レベルで指定できます。 広告グループのアクティブな製品グループのセット全体が階層的に適用され、適格な製品が決定されます。 例えば、[!UICONTROL All Products] を [!UICONTROL Brand]=AcmeBasic および [!UICONTROL Brand]=AcmePlus に再分割し、さらに各製品グループを [!UICONTROL Condition]=New に再分割して入札を設定した場合、AcmeBasic および AcmePlus ブランドを持つ新規製品のみが広告または広告から除外される可能性があります。
 
-![ 製品グループセットの例 ](/help/search-social-commerce/assets/product-group-list.png " 製品グループセットの例 ")
+![&#x200B; 製品グループセットの例 &#x200B;](/help/search-social-commerce/assets/product-group-list.png " 製品グループセットの例 ")
 
-![ 製品グループ階層 ](/help/search-social-commerce/assets/product-group-tree.png " 例 – 製品グループ階層 ")
+![&#x200B; 製品グループ階層 &#x200B;](/help/search-social-commerce/assets/product-group-tree.png " 例 – 製品グループ階層 ")
 
 ## [!UICONTROL Product Groups] ビュー
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## ショッピング商品グループのトラッキングデータおよびパフォーマンスデータ
 
-（「[!UICONTROL EF Redirect]」トラッキングオプションを使用するアカウント/キャンペーン）検索、ソーシャル、Commerceで商品グループのコンバージョンをトラッキングできるようにするには、[ トラッキング URL ツールを使用して商品グループのトラッキング URL を生成 ](/help/search-social-commerce/tools/click-tracking-url-generate.md) し、次のいずれかの操作を行います。
+（「[!UICONTROL EF Redirect]」トラッキングオプションを使用するアカウント/キャンペーン）検索、ソーシャル、Commerceで商品グループのコンバージョンをトラッキングできるようにするには、[&#x200B; トラッキング URL ツールを使用して商品グループのトラッキング URL を生成 &#x200B;](/help/search-social-commerce/tools/click-tracking-url-generate.md) し、次のいずれかの操作を行います。
 
 * （[!DNL Google Ads] の場合は必須、[!DNL Microsoft Advertising] の場合はベストプラクティス）アカウント、キャンペーンまたは製品グループ設定の「[!DNL Tracking Template]」フィールドにトラッキング URL を追加します。 メンテナンスを容易にするには、可能な限り最高のレベルで追加します。 アカウントまたはキャンペーンに指定された追加パラメーターは含まれません。
 
@@ -56,8 +56,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ショッピング商品グループの管理 ](product-group-manage.md)
->* [[!DNL Google Ads]  製品グループ設定 ](product-group-settings-google.md)
->* [ 買い物キャンペ  [!DNL Google Ads]  ンの実装 ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
->* [[!DNL Microsoft Advertising]  製品グループ設定 ](product-group-settings-microsoft.md)
->* [ 買い物キャンペ  [!DNL Microsoft Advertising]  ンの実装 ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+>* [&#x200B; ショッピング商品グループの管理 &#x200B;](product-group-manage.md)
+>* [[!DNL Google Ads]  製品グループ設定 &#x200B;](product-group-settings-google.md)
+>* [&#x200B; 買い物キャンペ  [!DNL Google Ads]  ンの実装 &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [[!DNL Microsoft Advertising]  製品グループ設定 &#x200B;](product-group-settings-microsoft.md)
+>* [&#x200B; 買い物キャンペ  [!DNL Microsoft Advertising]  ンの実装 &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

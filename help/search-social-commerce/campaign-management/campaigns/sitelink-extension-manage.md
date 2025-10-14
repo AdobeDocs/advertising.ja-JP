@@ -20,15 +20,15 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]** をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
+1. データ テーブルの上にあるツールバーで、[![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
 1. 広告ネットワークとアカウント名を選択し、「**[!UICONTROL Continue]**」をクリックします。
 
-1. [ 共有サイトリンクの設定 ](#shared-sitelink-settings) を入力します。
+1. [&#x200B; 共有サイトリンクの設定 &#x200B;](#shared-sitelink-settings) を入力します。
 
 1. 「**[!UICONTROL Post]**」をクリックします。
 
-サイトリンクを作成したら、[ アカウント、キャンペーン、広告グループに割り当てる ](sitelink-extension-associate.md) ことができます。
+サイトリンクを作成したら、[&#x200B; アカウント、キャンペーン、広告グループに割り当てる &#x200B;](sitelink-extension-associate.md) ことができます。
 
 ## 共有サイトリンク設定の編集
 
@@ -38,9 +38,9 @@ ht-degree: 0%
 
 1. 編集するサイトリンクの横にあるチェックボックスをオンにします。
 
-1. データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")] をクリックします。
+1. データ テーブルの上にあるツールバーで、[![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ")] をクリックします。
 
-1. [ 共有サイトリンクの設定 ](#shared-sitelink-settings) を編集します。
+1. [&#x200B; 共有サイトリンクの設定 &#x200B;](#shared-sitelink-settings) を編集します。
 
 1. 「**[!UICONTROL Post]**」をクリックします。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 1. 削除する各共有サイトリンクの横にあるチェックボックスをオンにします。
 
-   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+   複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
 1. ツールバーの ![ その他 ") をクリックし ] (/help/search-social-commerce/assets/more.png " 選択 **[!UICONTROL Delete]** ます。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 * キャンペーン設定に「[!UICONTROL EF Redirect]」および「自動アップロード」が含まれる場合に適用されるAdobe Advertising コンバージョントラッキングの場合、検索、ソーシャルおよびCommerceでは、レコードを保存すると、独自のクリック追跡コードが自動的にプレフィックス付けされます。
 
-* 最終的な URL を埋め込むためのサポート対象パラメーターについては、（[!DNL Microsoft Advertising] のみ） [[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799) または（[!DNL Google Ads] のみ） [[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/6305348) の「利用可能なテンプレートのパラメーター」の節の「トラッキ [!DNL ValueTrack] グテンプレートのみ」パラメーターを参照してください。
+* 最終的な URL を埋め込むためのサポート対象パラメーターについては、（[!DNL Microsoft Advertising] のみ） [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799) または（[!DNL Google Ads] のみ） [[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348) の「利用可能なテンプレートのパラメーター」の節の「トラッキ [!DNL ValueTrack] グテンプレートのみ」パラメーターを参照してください。
 
 * オプションで、URL パラメーターと、キャンペーンに定義されたカスタムパラメーターをアンパサンド（&amp;）で区切ったもの（`{lpurl}?matchtype={matchtype}&device={device}` など）を含めることができます。
 
@@ -114,5 +114,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ サイトリンク拡張機能について ](sitelink-extension-about.md)
->* [ 共有サイトリンクのアカウント、キャンペーンおよび広告グループへの関連付け ](sitelink-extension-associate.md)
+>* [&#x200B; サイトリンク拡張機能について &#x200B;](sitelink-extension-about.md)
+>* [&#x200B; 共有サイトリンクのアカウント、キャンペーンおよび広告グループへの関連付け &#x200B;](sitelink-extension-associate.md)

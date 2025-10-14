@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 買い物キャンペーン製品フィルター
 
-[!DNL Google Ads] ヘルプ「[ 製品グループを使用したショッピングキャンペーンの管理 ](https://support.google.com/google-ads/answer/6275317)」および [!DNL Microsoft Advertising] ヘルプ「[ 製品グループの理解と使用 ](https://help.ads.microsoft.com/#apex/bae/en/56782)」も参照してください。
+[!DNL Google Ads] ヘルプ「[&#x200B; 製品グループを使用したショッピングキャンペーンの管理 &#x200B;](https://support.google.com/google-ads/answer/6275317)」および [!DNL Microsoft Advertising] ヘルプ「[&#x200B; 製品グループの理解と使用 &#x200B;](https://help.ads.microsoft.com/#apex/bae/en/56782)」も参照してください。
 
 | ショッピングネットワーク | 製品のDimension | 属性 | 備考 |
 |----|----|----|----|
@@ -27,13 +27,13 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 買い物キャンペ  [!DNL Google Ads]  ンの実装 ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
->* [ 買い物キャンペ  [!DNL Microsoft Advertising]  ンの実装 ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
->* [ ショッピング商品グループについて ](product-group-about.md)
->* [ ショッピング商品グループの管理 ](product-group-manage.md)
->* [[!DNL Google Ads]  製品グループ設定 ](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
->* [[!DNL Microsoft Advertising]  製品グループ設定 ](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
->* [[!DNL Google Ads]  在庫フィードの買い物かご広告テンプレート設定 ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
->* [[!DNL Microsoft Advertising]  在庫フィードの買い物かご広告テンプレート設定 ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
->* [ バルクシートに必要  [!DNL Google Ads]  データ ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
->* [ バルクシートに必要  [!DNL Microsoft Advertising]  データ ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+>* [&#x200B; 買い物キャンペ  [!DNL Google Ads]  ンの実装 &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [&#x200B; 買い物キャンペ  [!DNL Microsoft Advertising]  ンの実装 &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+>* [&#x200B; ショッピング商品グループについて &#x200B;](product-group-about.md)
+>* [&#x200B; ショッピング商品グループの管理 &#x200B;](product-group-manage.md)
+>* [[!DNL Google Ads]  製品グループ設定 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
+>* [[!DNL Microsoft Advertising]  製品グループ設定 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
+>* [[!DNL Google Ads]  在庫フィードの買い物かご広告テンプレート設定 &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
+>* [[!DNL Microsoft Advertising]  在庫フィードの買い物かご広告テンプレート設定 &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
+>* [&#x200B; バルクシートに必要  [!DNL Google Ads]  データ &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+>* [&#x200B; バルクシートに必要  [!DNL Microsoft Advertising]  データ &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)

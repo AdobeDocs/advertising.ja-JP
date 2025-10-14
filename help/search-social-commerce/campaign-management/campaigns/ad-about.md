@@ -36,7 +36,7 @@ ht-degree: 0%
 
   ユーザーの検索語句がキーワードベースキャンペーンの 1 つのキーワードと完全に一致する場合、動的検索広告ではなく、キーワードベースキャンペーンの広告が表示されます。 ユーザーの検索語句がキーワードの 1 つに一致する部分一致またはフレーズ一致で、動的検索広告の広告ランクが高い場合、広告ネットワークにはキーワードターゲット広告ではなく動的検索広告が表示されます。
 
-  動的検索広告について詳しくは、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/2471185) および [[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/ads/en/56794) を参照してください。
+  動的検索広告について詳しくは、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/2471185) および [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56794) を参照してください。
 
 * [!DNL Microsoft Advertising] 検索キャンペーン用の **マルチメディア広告**。 マルチメディア広告は、目立つメインラインとサイドバーの位置に表示される大きな画像広告で、1 ページにつき 1 つのマルチメディア広告のみが表示されます。 レスポンシブ広告など、複数のテキストや画像アセットを含めることができ、広告ネットワークは、広告要素の最も効果的な組み合わせを使用して広告を組み立てます。 マルチメディア広告は、テキスト広告のプレースメントを置き換えません。
 
@@ -44,13 +44,13 @@ ht-degree: 0%
 
   [!DNL Microsoft Advertising] のショッピング広告で表示する製品を制御するには、広告グループに対して製品グループを個別に設定します（[!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] ビューを使用）。
 
-  製品/ショッピング広告のワークフローについて詳しくは、「[ ショッピングキャンペーンの実装  [!DNL Microsoft Advertising]  を参照 ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md) てください。  製品広告について詳しくは、[Microsoft Advertising ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/51082) を参照してください。
+  製品/ショッピング広告のワークフローについて詳しくは、「[&#x200B; ショッピングキャンペーンの実装  [!DNL Microsoft Advertising]  を参照 &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md) てください。  製品広告について詳しくは、[Microsoft Advertising ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/51082) を参照してください。
 
 * 検索ネットワーク上の [!DNL Google Ads] および [!DNL Microsoft Advertising] キャンペーンのレスポンシブ検索広告。 広告ネットワークは、一連の広告タイトルと説明からテキストベースのレスポンシブ検索広告を動的に組み立て、うまく連携する組み合わせを好みます。 この広告には、最大 3 つのヘッドライン、2 つの説明、ベース URL からのカスタマイズ可能な URL、オプションの path1 フィールドと path2 フィールドが含まれます。 必要に応じて、広告タイトルと説明を特定の位置にピン留めできます。
 
 >[!NOTE]
 >
->広告 [!DNL Google Ads] して表示されたテキストの組み合わせに関するデータは、ネイティブエディター以外には提供していません。 各テキストの組み合わせのレポートについて詳しくは、[Google Ads のドキュメント ](https://support.google.com/google-ads/answer/7684791) を参照してください。
+>広告 [!DNL Google Ads] して表示されたテキストの組み合わせに関するデータは、ネイティブエディター以外には提供していません。 各テキストの組み合わせのレポートについて詳しくは、[Google Ads のドキュメント &#x200B;](https://support.google.com/google-ads/answer/7684791) を参照してください。
 
 ## [!UICONTROL Ads] ビュー
 
@@ -71,4 +71,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 広告の管理 ](ad-manage.md)
+>* [&#x200B; 広告の管理 &#x200B;](ad-manage.md)

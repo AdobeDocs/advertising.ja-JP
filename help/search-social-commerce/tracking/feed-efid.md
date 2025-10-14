@@ -32,13 +32,13 @@ ht-degree: 0%
 
 1. （オプションですが推奨）広告主は、フィードファイルに含めるトランザクションごとに一意のトランザクション ID を作成できます。
 
-1. 広告主は、指定されたサーバーの場所に [ 必要な変換データ ](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md) を含むファイルをアップロードします。
+1. 広告主は、指定されたサーバーの場所に [&#x200B; 必要な変換データ &#x200B;](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md) を含むファイルをアップロードします。
 
 1. テクニカルサポートは、アップロードされたファイルのコンバージョンデータを解析して、Adobe Advertisingにアップロードします。 次に、Adobe Advertisingは、個々のキーワード、広告およびプレースメントに対してデータを追跡し、それぞれの売上高予測を作成します。
 
-1. テクニカルサービスは、処理されたデータをフィードデータと照合して検証し、[ 孤立トランザクション ](/help/search-social-commerce/glossary.md#o-p) の有無を確認します。
+1. テクニカルサービスは、処理されたデータをフィードデータと照合して検証し、[&#x200B; 孤立トランザクション &#x200B;](/help/search-social-commerce/glossary.md#o-p) の有無を確認します。
 
 >[!MORELIKETHIS]
 >
->* [ 変換フィードファイルのファイル要件 ](feed-file-requirements.md)
->* [EF ID を使用したデータフィードのデータ要件 ](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
+>* [&#x200B; 変換フィードファイルのファイル要件 &#x200B;](feed-file-requirements.md)
+>* [EF ID を使用したデータフィードのデータ要件 &#x200B;](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)

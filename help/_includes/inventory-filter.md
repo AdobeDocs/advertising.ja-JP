@@ -10,7 +10,7 @@ ht-degree: 0%
 **[!UICONTROL Inventory Filter]:** （ショッピングキャンペーンのみ。オプション）キャンペーンに広告する特定の属性を持つ製品。 在庫フィルターを指定しない場合、広告ネットワークはストア内の製品を広告する場合があります。
 
 フォーマット `dimension=attribute` を使用して、製品をフィルタする製品ディメンションと属性の組合せを最大 7 つ入力できます。 複数のフィルターを分離
-「`>>`」区切り文字を使用します。 使用可能な製品ディメンションのリストについては、「[ ショッピングキャンペーン製品フィルター ](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。
+「`>>`」区切り文字を使用します。 使用可能な製品ディメンションのリストについては、「[&#x200B; ショッピングキャンペーン製品フィルター &#x200B;](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。
 
 次の例は、Acme のペット用品の広告を示しています。
 

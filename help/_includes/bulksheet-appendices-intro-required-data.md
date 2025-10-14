@@ -14,4 +14,4 @@ ht-degree: 0%
 >* すべてのテキスト列の値は、大文字と小文字が区別されます。
 >* 新しいレコードを作成するときに、すべての必須データフィールドに値を指定しなかった場合、それらのフィールドの一部に、指定したデフォルト値が割り当てられます。
 >* 以下で指定されていないフィールドの場合、広告ネットワークのデフォルト値が使用されます。
->* [!UICONTROL Download Bulksheet] ダイアログで使用可能なバルクシート行のリストについては、「[ 広告ネットワークによるバルクシート行 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)」を参照してください。
+>* [!UICONTROL Download Bulksheet] ダイアログで使用可能なバルクシート行のリストについては、「[&#x200B; 広告ネットワークによるバルクシート行 &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)」を参照してください。

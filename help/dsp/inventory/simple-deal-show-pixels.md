@@ -17,14 +17,14 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals]** をクリックします。
 
-1. 取引行で、![ オプションメニュー ](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]** をクリックします。
+1. 取引行で、![&#x200B; オプションメニュー &#x200B;](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]** をクリックします。
 
 1. イベントトラッキングのピクセルをコピーして、公開者に提供します。
 
 >[!MORELIKETHIS]
 >
 >* [[!UICONTROL Simple Ad Serving]](simple-deal-about.md) について
->* [[!UICONTROL Simple Ad Serving] しい取引の作成 ](simple-deal-create.md)
->* [ 契約設定 [!UICONTROL Simple Ad Serving] 編集 ](simple-deal-edit.md)
+>* [[!UICONTROL Simple Ad Serving] しい取引の作成 &#x200B;](simple-deal-create.md)
+>* [&#x200B; 契約設定 [!UICONTROL Simple Ad Serving] 編集 &#x200B;](simple-deal-edit.md)
 >* [[!UICONTROL Simple Ad Serving] Settings](simple-deal-settings.md)
->* [ 取引の詳細レポートの表示 ](/help/dsp/inventory/deal-view-report.md)
+>* [&#x200B; 取引の詳細レポートの表示 &#x200B;](/help/dsp/inventory/deal-view-report.md)

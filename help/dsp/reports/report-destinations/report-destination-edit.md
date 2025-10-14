@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 目的の宛先で、「編集」をクリックします
 
-1. [ レポート宛先設定 ](/help/dsp/reports/report-destinations/report-destination-settings.md) を編集します。
+1. [&#x200B; レポート宛先設定 &#x200B;](/help/dsp/reports/report-destinations/report-destination-settings.md) を編集します。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 

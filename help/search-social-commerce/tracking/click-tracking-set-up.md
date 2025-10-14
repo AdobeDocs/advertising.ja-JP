@@ -16,11 +16,11 @@ ht-degree: 0%
 
 1. （Adobe アカウントチーム）広告主をピクセル顧客として設定します。
 
-1. [ 広告主の広告ネットワークアカウントおよびキャンペーンごとに正しいトラッキングオプションを指定します ](#set-up-click-tracking-options)。
+1. [&#x200B; 広告主の広告ネットワークアカウントおよびキャンペーンごとに正しいトラッキングオプションを指定します &#x200B;](#set-up-click-tracking-options)。
 
-1. 必要に応じて、一部のキャンペーン要素に対して [ トラッキング URL を生成してアップロード ](#generate-upload-tracking-urls) します。
+1. 必要に応じて、一部のキャンペーン要素に対して [&#x200B; トラッキング URL を生成してアップロード &#x200B;](#generate-upload-tracking-urls) します。
 
-1. [ いくつかのクリックトラッキング URL の形式を検証し、テストして正しいランディングページが開いていることを検証します ](#validate-tracking-urls)。
+1. [&#x200B; いくつかのクリックトラッキング URL の形式を検証し、テストして正しいランディングページが開いていることを検証します &#x200B;](#validate-tracking-urls)。
 
 ## 広告ネットワークアカウントおよびキャンペーンのトラッキングオプションの設定 {#set-up-click-tracking-options}
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
    1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Accounts]** をクリックします。
 
-   1. アカウント名の上にカーソルを置き、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ") をクリックして、**[!UICONTROL Edit]** を選択します。
+   1. アカウント名の上にカーソルを置き、![&#x200B; メニューアイコン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ") をクリックして、**[!UICONTROL Edit]** を選択します。
 
    1. 「**[!UICONTROL Set Account Tracking]**」をクリックします。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]** をクリックします。
 
-   1. キャンペーン名の上にカーソルを置き、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ") をクリックして、**[!UICONTROL Edit]** を選択します。
+   1. キャンペーン名の上にカーソルを置き、![&#x200B; メニューアイコン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ") をクリックして、**[!UICONTROL Edit]** を選択します。
 
    1. 「**[!UICONTROL Set Campaign Tracking]**」をクリックします。 次に、**[!UICONTROL Override Account Tracking]** すオプションを選択します。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## トラッキング URL の生成とアップロード {#generate-upload-tracking-urls}
 
-[ クリックトラッキング URL を生成するタイミングと方法 ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) を参照してください。
+[&#x200B; クリックトラッキング URL を生成するタイミングと方法 &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) を参照してください。
 
 ### クリックの追跡 URL の形式をテスト {#validate-tracking-urls}
 
@@ -87,4 +87,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ クリックトラッキング URL を生成するタイミングと方法 ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
+>* [&#x200B; クリックトラッキング URL を生成するタイミングと方法 &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)

@@ -17,11 +17,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目標をポートフォリオに関連付けるには、[ ポートフォリオを作成 ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md) するとき、または後で [ ポートフォリオ設定を変更 ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md) します。 複数のポートフォリオに同じ目的を使用できます。
+>目標をポートフォリオに関連付けるには、[&#x200B; ポートフォリオを作成 &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md) するとき、または後で [&#x200B; ポートフォリオ設定を変更 &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md) します。 複数のポートフォリオに同じ目的を使用できます。
 
 1. メインメニューで、**[!UICONTROL Goals]/[!UICONTROL Objectives]** をクリックします。
 
-1. 右上で、「**[!UICONTROL Create Objective]**」または ![ 追加 ](/help/search-social-commerce/assets/add-new.png " 追加 ") をクリックします。
+1. 右上で、「**[!UICONTROL Create Objective]**」または ![&#x200B; 追加 &#x200B;](/help/search-social-commerce/assets/add-new.png " 追加 ") をクリックします。
 
    表示されるボタンは、ブラウザーの幅によって異なります。
 
@@ -35,7 +35,7 @@ Advertising DSP パッケージで使用するプリフィックス「`ADSP_`」
 
 >[!MORELIKETHIS]
 >
->* [ 目標について ](objective-about.md)
->* [ 目標の編集 ](objective-edit.md)
->* [ 目標への重み付けレコメンデーションの適用 ](objective-apply-weight-recommendations.md)
->* [ 目標の設定 ](objective-settings.md)
+>* [&#x200B; 目標について &#x200B;](objective-about.md)
+>* [&#x200B; 目標の編集 &#x200B;](objective-edit.md)
+>* [&#x200B; 目標への重み付けレコメンデーションの適用 &#x200B;](objective-apply-weight-recommendations.md)
+>* [&#x200B; 目標の設定 &#x200B;](objective-settings.md)

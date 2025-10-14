@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * Adobe Experience Cloud [!DNL Audience Library] を使用して作成されたセグメント
 
-条件を満たすには、広告主または代理店が [Adobe Experience Platform ID サービスを実装し ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) その組織 ID （旧称：[!DNL IMS Org ID]）を提供する必要があります。
+条件を満たすには、広告主または代理店が [Adobe Experience Platform ID サービスを実装し &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) その組織 ID （旧称：[!DNL IMS Org ID]）を提供する必要があります。
 
 最初の同期には約 24 時間かかります。 その後、データは 1 秒から 2 秒の遅延でリアルタイムに同期されます。
 
@@ -36,5 +36,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ オーディエンスについて ](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
->* [Adobe Experience Cloud ソリューションおよびサービスとの統合 ](/help/search-social-commerce/introduction/integrations.md)
+>* [&#x200B; オーディエンスについて &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
+>* [Adobe Experience Cloud ソリューションおよびサービスとの統合 &#x200B;](/help/search-social-commerce/introduction/integrations.md)

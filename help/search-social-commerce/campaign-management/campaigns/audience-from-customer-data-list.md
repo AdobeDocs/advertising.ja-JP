@@ -28,11 +28,11 @@ ht-degree: 0%
 
 1. 顧客データを含んだファイルを必要な形式で生成します。
 
-   姓名、メールアドレスおよび電話番号は、SHA-256 アルゴリズムを使用してハッシュ化する必要があります。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads] オーディエンスの場合、許可された連絡先情報のフィールドと要件のリストについては、「[ ハッシュ化されたデータをアップロードするためのフォーマットガイドライン ](https://support.google.com/google-ads/answer/7476159)」に関する [!DNL Google Ads] のドキュメントを参照してください。 [!DNL Microsoft Advertising] のオーディエンスについては、[!DNL Microsoft Advertising] 顧客一致リストの準備 [ に関するドキュメントを参照してください ](https://help.ads.microsoft.com/#apex/ads/en/56921)。 必要に応じて、連絡先情報の [!DNL Microsoft Excel] テンプレートをダウンロードできます。
+   姓名、メールアドレスおよび電話番号は、SHA-256 アルゴリズムを使用してハッシュ化する必要があります。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads] オーディエンスの場合、許可された連絡先情報のフィールドと要件のリストについては、「[&#x200B; ハッシュ化されたデータをアップロードするためのフォーマットガイドライン &#x200B;](https://support.google.com/google-ads/answer/7476159)」に関する [!DNL Google Ads] のドキュメントを参照してください。 [!DNL Microsoft Advertising] のオーディエンスについては、[!DNL Microsoft Advertising] 顧客一致リストの準備 [&#x200B; に関するドキュメントを参照してください &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56921)。 必要に応じて、連絡先情報の [!DNL Microsoft Excel] テンプレートをダウンロードできます。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
+1. データ テーブルの上にあるツールバーで、[![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
 1. 広告ネットワークとアカウント名を選択し、「**[!UICONTROL Continue]**」をクリックします。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
       1. *[!UICONTROL Emails, Phones, and/or Mailing Addresses]*、*[!UICONTROL User IDs]*、*[!UICONTROL Mobile Device IDs]* のい [!UICONTROL Data Upload Type] れかを選択します。
 
-         「ユーザー ID」オプションは、[ ユーザー ID セグメント ](https://support.google.com/google-ads/answer/9199250) をオプトインした米国の [!DNL Google Ads] の広告主のみが使用できます
+         「ユーザー ID」オプションは、[&#x200B; ユーザー ID セグメント &#x200B;](https://support.google.com/google-ads/answer/9199250) をオプトインした米国の [!DNL Google Ads] の広告主のみが使用できます
 
       1. （モバイルデバイス ID リストのみ） **[!UICONTROL OS Type]** （*[!UICONTROL Android™]* または *[!UICONTROL iOS]*）を選択し、**[!UICONTROL App ID]** を入力します。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 広告ネットワークは、ファイルを処理するのに最大 24 時間かかる場合があります。
->* [[!DNL Google Ads]  カスタマーマッチの仕組みと制限事項に関するドキュメント ](https://support.google.com/displayvideo/answer/9539301) を参照してください。
+>* [[!DNL Google Ads]  カスタマーマッチの仕組みと制限事項に関するドキュメント &#x200B;](https://support.google.com/displayvideo/answer/9539301) を参照してください。
 
 ## 顧客データリストを使用した顧客一致オーディエンスの編集
 
@@ -91,13 +91,13 @@ ht-degree: 0%
 
 1. 既存のデータタイプに必要な形式の顧客データを含んだファイルを生成します。
 
-姓名、メールアドレスおよび電話番号は、SHA-256 アルゴリズムを使用してハッシュ化する必要があります。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads] オーディエンスの場合、許可された連絡先情報のフィールドと要件のリストについては、「[ ハッシュ化されたデータをアップロードするためのフォーマットガイドライン ](https://support.google.com/google-ads/answer/7476159)」に関する [!DNL Google Ads] のドキュメントを参照してください。 [!DNL Microsoft Advertising] オーディエンスについては、[ 顧客一致リストの準備 ] （https://help.ads.microsoft.com/#apex/ads/en/56921）に関する [!DNL Microsoft Advertising] ドキュメントを参照してください。 必要に応じて、連絡先情報の [!DNL Microsoft Excel] テンプレートをダウンロードできます。
+姓名、メールアドレスおよび電話番号は、SHA-256 アルゴリズムを使用してハッシュ化する必要があります。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads] オーディエンスの場合、許可された連絡先情報のフィールドと要件のリストについては、「[&#x200B; ハッシュ化されたデータをアップロードするためのフォーマットガイドライン &#x200B;](https://support.google.com/google-ads/answer/7476159)」に関する [!DNL Google Ads] のドキュメントを参照してください。 [!DNL Microsoft Advertising] オーディエンスについては、[ 顧客一致リストの準備 ] （https://help.ads.microsoft.com/#apex/ads/en/56921）に関する [!DNL Microsoft Advertising] ドキュメントを参照してください。 必要に応じて、連絡先情報の [!DNL Microsoft Excel] テンプレートをダウンロードできます。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
 
 1. 編集するオーディエンスの横にあるチェックボックスをオンにします。
 
-1. データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png)] をクリックします。
+1. データ テーブルの上にあるツールバーで、[![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png)] をクリックします。
 
 1. アクション（*[!UICONTROL Add]* （既存のデータが存在する場合を除いて、アップロードしたデータを既存のデータに追加する場合）、*[!UICONTROL Delete]* （既存のデータが存在する場合に、アップロードしたデータを既存のデータから削除する場合）、*[!UICONTROL Replace]* （既存のデータをすべて削除し、アップロードしたデータに置き換える場合）を選択します。
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ オーディエンスについて ](audience-about.md)
->* [ オーディエ  [!DNL Google Ads]  スからの顧客一致オーディエ  [!DNL Adobe]  スの作成 ](google-audience-from-adobe-audience.md)
->* [Adobe Campaign [!DNL Google Ads]  メールリストからカスタマーマッチオーディエンスを作成 ](google-audience-from-campaign-email-list.md)
->* [ 動的リマーケティングオーディエンスの管理 ](audience-dynamic-remarketing-manage.md)
+>* [&#x200B; オーディエンスについて &#x200B;](audience-about.md)
+>* [&#x200B; オーディエ  [!DNL Google Ads]  スからの顧客一致オーディエ  [!DNL Adobe]  スの作成 &#x200B;](google-audience-from-adobe-audience.md)
+>* [Adobe Campaign [!DNL Google Ads]  メールリストからカスタマーマッチオーディエンスを作成 &#x200B;](google-audience-from-campaign-email-list.md)
+>* [&#x200B; 動的リマーケティングオーディエンスの管理 &#x200B;](audience-dynamic-remarketing-manage.md)

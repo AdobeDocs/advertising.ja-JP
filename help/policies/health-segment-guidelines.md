@@ -50,4 +50,4 @@ Adobe Advertisingターゲティングポリシーごとに、正常性関連の
 
 >[!MORELIKETHIS]
 >
->* [ 広告要件ポリシー ](/help/policies/ad-requirements-policy.md)
+>* [&#x200B; 広告要件ポリシー &#x200B;](/help/policies/ad-requirements-policy.md)

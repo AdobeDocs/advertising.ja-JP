@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、カスタムレポートは、[ 作成 ](report-create.md) または [ 編集 ](report-edit.md) するときに実行することもできます。
+>また、カスタムレポートは、[&#x200B; 作成 &#x200B;](report-create.md) または [&#x200B; 編集 &#x200B;](report-edit.md) するときに実行することもできます。
 
 1. メインメニューで、**[!UICONTROL Reports]**/**[!UICONTROL Custom Reports]** をクリックします。
 
@@ -26,10 +26,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
->* [ カスタムレポートのダウンロード ](/help/dsp/reports/report-download.md)
->* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
->* [ カスタムレポートの複製 ](/help/dsp/reports/report-copy.md)
->* [ カスタムレポートの編集 ](/help/dsp/reports/report-edit.md)
->* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
->* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)
+>* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
+>* [&#x200B; カスタムレポートのダウンロード &#x200B;](/help/dsp/reports/report-download.md)
+>* [&#x200B; カスタムレポートの作成 &#x200B;](/help/dsp/reports/report-create.md)
+>* [&#x200B; カスタムレポートの複製 &#x200B;](/help/dsp/reports/report-copy.md)
+>* [&#x200B; カスタムレポートの編集 &#x200B;](/help/dsp/reports/report-edit.md)
+>* [&#x200B; カスタムレポートの設定 &#x200B;](/help/dsp/reports/report-settings.md)
+>* [&#x200B; 使用可能なレポート列 &#x200B;](/help/dsp/reports/report-columns.md)

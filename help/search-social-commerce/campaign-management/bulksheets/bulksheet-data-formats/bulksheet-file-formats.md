@@ -77,7 +77,7 @@ CSV ファイルのデータフィールドとコンマで区切られた TXT �
 
 >[!MORELIKETHIS]
 >
->* [ バルクシートを使用した Campaign データの管理について ](../bulksheet-about.md)
->* [ バルクシートで実行できる操作 ](bulksheet-operations.md)
->* [ 付録 – バルクシート エラー ](../bulksheet-errors.md)
->* [ バルクシートファイルのダウンロード/作成 ](../bulksheet-download.md)
+>* [&#x200B; バルクシートを使用した Campaign データの管理について &#x200B;](../bulksheet-about.md)
+>* [&#x200B; バルクシートで実行できる操作 &#x200B;](bulksheet-operations.md)
+>* [&#x200B; 付録 – バルクシート エラー &#x200B;](../bulksheet-errors.md)
+>* [&#x200B; バルクシートファイルのダウンロード/作成 &#x200B;](../bulksheet-download.md)

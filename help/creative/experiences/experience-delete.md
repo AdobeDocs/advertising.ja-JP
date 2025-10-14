@@ -14,11 +14,11 @@ ht-degree: 0%
 
 <!-- No multiselect for experiences as of 1/30 -->
 
-[ ライブ ](experience-about.md#experience-statuses) ではないエクスペリエンスを削除できます。 削除されたエクスペリエンスは引き続きレポートできます。<!-- Verify -->
+[&#x200B; ライブ &#x200B;](experience-about.md#experience-statuses) ではないエクスペリエンスを削除できます。 削除されたエクスペリエンスは引き続きレポートできます。<!-- Verify -->
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
 
-1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
+1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
 
 1. 次のいずれかの操作を行います。
 
@@ -30,5 +30,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 ](experience-create-targeting.md)
->* [ デシジョンツリーのターゲット設定を使用しないエクスペリエンスの作成 ](experience-create-no-targeting.md)
+>* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 &#x200B;](experience-create-targeting.md)
+>* [&#x200B; デシジョンツリーのターゲット設定を使用しないエクスペリエンスの作成 &#x200B;](experience-create-no-targeting.md)

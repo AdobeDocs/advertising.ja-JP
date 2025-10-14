@@ -14,13 +14,13 @@ ht-degree: 0%
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 1. キャンペーン名の横で、**[!UICONTROL ...]**/**[!UICONTROL Edit]** をクリックします。
-1. [ キャンペーン設定 ](campaign-settings.md) を編集します。
+1. [&#x200B; キャンペーン設定 &#x200B;](campaign-settings.md) を編集します。
 1. 「**[!UICONTROL Save Campaign]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [Campaign Managementについて ](campaign-about.md)
->* [ キャンペーンの作成 ](campaign-create.md)
->* [ キャンペーンの変更ログを表示 ](campaign-change-log.md)
->* [ キャンペーンの一時停止またはアクティブ化 ](campaign-pause-activate.md)
->* [ キャンペーン設定 ](campaign-settings.md)
+>* [Campaign Managementについて &#x200B;](campaign-about.md)
+>* [&#x200B; キャンペーンの作成 &#x200B;](campaign-create.md)
+>* [&#x200B; キャンペーンの変更ログを表示 &#x200B;](campaign-change-log.md)
+>* [&#x200B; キャンペーンの一時停止またはアクティブ化 &#x200B;](campaign-pause-activate.md)
+>* [&#x200B; キャンペーン設定 &#x200B;](campaign-settings.md)

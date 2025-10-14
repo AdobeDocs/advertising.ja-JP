@@ -18,4 +18,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ クリエイティブライブラリへの標準クリエイティブの追加 ](creative-add-standard.md)
+>* [&#x200B; クリエイティブライブラリへの標準クリエイティブの追加 &#x200B;](creative-add-standard.md)

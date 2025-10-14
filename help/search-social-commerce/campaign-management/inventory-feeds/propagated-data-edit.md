@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除アクションのみ）および [!DNL Yandex] アカウントのみ*
 
-フィード データを広告ネットワークに同時に投稿せずに伝達する場合は、次のいずれかの方法でデータを編集できます。 後で必要に応じて、いずれかの場所から関連する広告ネットワークに [ データを投稿 ](propagated-data-post.md) できます。
+フィード データを広告ネットワークに同時に投稿せずに伝達する場合は、次のいずれかの方法でデータを編集できます。 後で必要に応じて、いずれかの場所から関連する広告ネットワークに [&#x200B; データを投稿 &#x200B;](propagated-data-post.md) できます。
 
 * オプションを「[!UICONTROL Propagate and Preview]」に使用した場合は、生成されたバルクシートファイル（「`<feed file name>_<template name>`」という名前）を [!UICONTROL Bulksheets] ビューからダウンロードして編集し、再度アップロードすることで編集できます。 「[!UICONTROL Campaigns]」、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」、「[!UICONTROL Ads]」の各タブには、データは含まれていません。
 
@@ -45,14 +45,14 @@ ht-degree: 0%
 
       * 広告グループ内のすべての名前を一覧表示するには、広告グループ名をクリックし、[[!UICONTROL Ads]] タブをクリックします。
 
-   1. キャンペーン、広告グループ、キーワードまたは広告名の横にある [ 設定を表示/編集 ](/help/search-social-commerce/assets/settings.png "設定を表示/編集アイコン") アイコンをクリックします。
+   1. キャンペーン、広告グループ、キーワードまたは広告名の横にある [&#x200B; 設定を表示/編集 &#x200B;](/help/search-social-commerce/assets/settings.png "設定を表示/編集アイコン") アイコンをクリックします。
 
    1. 設定を編集し、[**[!UICONTROL Save]**] をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ 在庫フィードについて ](inventory-feeds-about.md)
->* [ フィードから生成されたデータを表示 ](propagated-data-view.md)
->* [ フィードから広告ネットワークにキャンペーンデータを投稿する ](propagated-data-post.md)
->* [ 在庫フィード データの転記ジョブを停止 ](stop-job.md)
->* [ フィードから生成されたデータのステータス ](propagated-data-status.md)
+>* [&#x200B; 在庫フィードについて &#x200B;](inventory-feeds-about.md)
+>* [&#x200B; フィードから生成されたデータを表示 &#x200B;](propagated-data-view.md)
+>* [&#x200B; フィードから広告ネットワークにキャンペーンデータを投稿する &#x200B;](propagated-data-post.md)
+>* [&#x200B; 在庫フィード データの転記ジョブを停止 &#x200B;](stop-job.md)
+>* [&#x200B; フィードから生成されたデータのステータス &#x200B;](propagated-data-status.md)

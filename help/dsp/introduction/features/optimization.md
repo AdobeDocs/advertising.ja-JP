@@ -20,7 +20,7 @@ Advertising DSPは、2 つの段階で最も関心のある指標に合わせて
 
 >[!MORELIKETHIS]
 >
-> * [DSPによるキャンペーンの最適化方法 ](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
->* [ 最適化目標とその使用方法 ](/help/dsp/optimization/optimization-goals.md)
->* [ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)
->* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
+> * [DSPによるキャンペーンの最適化方法 &#x200B;](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+>* [&#x200B; 最適化目標とその使用方法 &#x200B;](/help/dsp/optimization/optimization-goals.md)
+>* [&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)

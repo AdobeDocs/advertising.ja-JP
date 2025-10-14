@@ -28,5 +28,5 @@ Adobe Advertising DSP（DSP）は、高度なファーストパーティデー�
 
 >[!MORELIKETHIS]
 >
->* [ ビデオ：Advertising DSPの概要 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html?lang=ja)
->* [ ビデオ：DSP アカウント構造とユーザーインターフェイス ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ja)
+>* [&#x200B; ビデオ：Advertising DSPの概要 &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html?lang=ja)
+>* [&#x200B; ビデオ：DSP アカウント構造とユーザーインターフェイス &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ja)

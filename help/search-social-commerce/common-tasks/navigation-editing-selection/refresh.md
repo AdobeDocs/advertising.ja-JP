@@ -12,6 +12,6 @@ ht-degree: 0%
 
 # 管理ビューのデータの更新
 
-* （新しい UI）データテーブルの上にあるツールバーで、「![ 更新 ](/help/search-social-commerce/assets/refresh-new.png)」をクリックします。
+* （新しい UI）データテーブルの上にあるツールバーで、「![&#x200B; 更新 &#x200B;](/help/search-social-commerce/assets/refresh-new.png)」をクリックします。
 
-* （従来の UI）データテーブルの下部にある「![ 更新 ](/help/search-social-commerce/assets/refresh.png)」をクリックします。
+* （従来の UI）データテーブルの下部にある「![&#x200B; 更新 &#x200B;](/help/search-social-commerce/assets/refresh.png)」をクリックします。

@@ -58,6 +58,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 広告ネットワークへの目標のアップロードを有効にする ](/help/search-social-commerce/tools/objective-upload-to-networks.md)
->* [ 検索、ソーシャル、Commerceで追跡されるコンバージョン指標のへのアップロード  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
->* [ 通知設定の編集 ](/help/search-social-commerce/notifications/notification-edit.md)
+>* [&#x200B; 広告ネットワークへの目標のアップロードを有効にする &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md)
+>* [&#x200B; 検索、ソーシャル、Commerceで追跡されるコンバージョン指標のへのアップロード  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+>* [&#x200B; 通知設定の編集 &#x200B;](/help/search-social-commerce/notifications/notification-edit.md)

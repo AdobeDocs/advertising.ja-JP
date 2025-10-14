@@ -135,4 +135,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 受け入れ可能なヘルスセグメントガイドライン ](/help/policies/health-segment-guidelines.md)
+>* [&#x200B; 受け入れ可能なヘルスセグメントガイドライン &#x200B;](/help/policies/health-segment-guidelines.md)

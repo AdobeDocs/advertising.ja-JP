@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## （新しい UI）行内の設定の編集
 
-1. 行の上にカーソルを置き、値を選択します。 列によっては、値の横にある ![ 編集 ](/help/search-social-commerce/assets/edit-new.png " 編集 ") または **[!UICONTROL ...]** > ![編集](/help/search-social-commerce/assets/edit-new.png "編集") をクリックする必要がある場合があります。 エンティティ名を変更するには、名前をクリックして選択 **[!UICONTROL Rename]** ます。
+1. 行の上にカーソルを置き、値を選択します。 列によっては、値の横にある ![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit-new.png " 編集 ") または **[!UICONTROL ...]** > ![編集](/help/search-social-commerce/assets/edit-new.png "編集") をクリックする必要がある場合があります。 エンティティ名を変更するには、名前をクリックして選択 **[!UICONTROL Rename]** ます。
 
 1. 値を変更します。
 
@@ -35,10 +35,10 @@ ht-degree: 0%
 
    * （リストのオプション）リストから新しいオプションを選択します。
 
-   * （日付）新しい日付を入力するか、![ カレンダー ](/help/search-social-commerce/assets/calendar.png " カレンダー ") をクリックしてカレンダーを開き [ 新しい日付を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md) します。
+   * （日付）新しい日付を入力するか、![&#x200B; カレンダー &#x200B;](/help/search-social-commerce/assets/calendar.png " カレンダー ") をクリックしてカレンダーを開き [&#x200B; 新しい日付を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md) します。
 
-   * （自由形式の値）新しい値を入力し、![ 保存 ](/help/search-social-commerce/assets/select.png " 保存 ") をクリックするか、**Enter** キーを押します。
+   * （自由形式の値）新しい値を入力し、![&#x200B; 保存 &#x200B;](/help/search-social-commerce/assets/select.png " 保存 ") をクリックするか、**Enter** キーを押します。
 
    >[!MORELIKETHIS]
    >
-   >* [ コピー&amp;ペーストを使用したキャンペーンデータの一括作成と編集 ](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+   >* [&#x200B; コピー&amp;ペーストを使用したキャンペーンデータの一括作成と編集 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)

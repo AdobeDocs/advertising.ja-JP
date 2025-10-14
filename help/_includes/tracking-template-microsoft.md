@@ -13,7 +13,7 @@ ht-degree: 0%
 
 キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertisingコンバージョントラッキングの場合、検索、ソーシャルおよびCommerceでは、レコードを保存すると、独自のリダイレクトおよびトラッキングコードが自動的に設定されます。
 
-* 最終 URL を埋め込むためにサポートされているパラメーターについては、[[!DNL Microsoft Advertising]  パラメーターに関するドキュメントを参照して最終 URL を示します ](https://help.ads.microsoft.com/#apex/3/en/56799)。
+* 最終 URL を埋め込むためにサポートされているパラメーターについては、[[!DNL Microsoft Advertising]  パラメーターに関するドキュメントを参照して最終 URL を示します &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)。
 
 * オプションで、{lpurl}?matchtype={matchtype}&amp;device={device} のようにアンパサンド（&amp;）で区切られた URL パラメーターと、キャンペーンに定義されたカスタムパラメーターを含めることができます。
 

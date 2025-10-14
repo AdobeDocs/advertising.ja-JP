@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. データ テーブルの上の [**[!UICONTROL Create]**] をクリックし、[**[!UICONTROL Simple Ad Serving]**] を選択します。
 
-1. [ 取引設定 ](simple-deal-settings.md) を入力します。
+1. [&#x200B; 取引設定 &#x200B;](simple-deal-settings.md) を入力します。
 
    1. [[!UICONTROL Select Ad Source]] セクションで、発行元、広告主、およびキャンペーンに関する情報、広告の種類を指定し、[**[!UICONTROL Next]**] をクリックします。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
          * 既存の広告の場合は、使用する広告を選択します。
 
-         * 新しい広告の場合は、プロキシ [ サードパーティ広告 ](/help/dsp/campaign-management/ads/ad-create-multiple.md) を作成します。
+         * 新しい広告の場合は、プロキシ [&#x200B; サードパーティ広告 &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md) を作成します。
 
       >[!NOTE]
       > DSPは指定した広告を配信しません。 出版社が広告を出す。
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    * （オプション）イベントトラッキングピクセルをパブリッシャーに手動で送信します。
 
-      1. [!UICONTROL Deals] ビュー内の取引行で、![ オプションメニュー ](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]** をクリックします。
+      1. [!UICONTROL Deals] ビュー内の取引行で、![&#x200B; オプションメニュー &#x200B;](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]** をクリックします。
 
          イベントピクセルは、[!UICONTROL Clickthrough] 画素および [!UICONTROL Impression] 画素を含む。 ビデオおよびオーディオ広告には、四分位数によるイベントピクセルも含まれます（[!UICONTROL 25% Complete] から [!UICONTROL 100% Complete]）。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 >
 >* [[!UICONTROL Simple Ad Serving]](simple-deal-about.md) について
 >* [[!UICONTROL Simple Ad Serving] Settings](simple-deal-settings.md)
->* [ 取引の詳細レポートの表示 ](/help/dsp/inventory/deal-view-report.md)
+>* [&#x200B; 取引の詳細レポートの表示 &#x200B;](/help/dsp/inventory/deal-view-report.md)
 
 <!-- add back when reimplemented:
 >* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)

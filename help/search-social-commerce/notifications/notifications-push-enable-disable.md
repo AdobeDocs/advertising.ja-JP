@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。
 
-2. 右下で、「![ プッシュ通知を有効にする ](/help/search-social-commerce/assets/notifications-push.png " プッシュ通知を有効にする ") をクリックします。
+2. 右下で、「![&#x200B; プッシュ通知を有効にする &#x200B;](/help/search-social-commerce/assets/notifications-push.png " プッシュ通知を有効にする ") をクリックします。
 
 3. 確認メッセージで、「**[!UICONTROL Enable]**」をクリックします。
 
@@ -38,9 +38,9 @@ ht-degree: 0%
 
    デフォルトの通知設定はブラウザーによって異なります。次のいずれかになります。a） [!UICONTROL Notification Center] からの通知を許可するオプションが自動的に表示される、b）通知設定を手動で管理する必要がある。 例えば、[!DNL Microsoft Edge] では、ブラウザーツールバーから [!UICONTROL Notification Center] からの通知を許可できます。 詳しくは、ブラウザーのヘルプを参照してください。
 
-   ![Microsoft Edgeで通知設定を管理する場所 ](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Microsoft Edgeで通知設定を管理する場所 ")
+   ![Microsoft Edgeで通知設定を管理する場所 &#x200B;](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Microsoft Edgeで通知設定を管理する場所 ")
 
-5. [ 通知設定 ](notification-edit.md) で、プッシュす [!UICONTROL Web] アラートタイプの通知を有効にします。
+5. [&#x200B; 通知設定 &#x200B;](notification-edit.md) で、プッシュす [!UICONTROL Web] アラートタイプの通知を有効にします。
 
 ## プッシュ通知を無効にする
 
@@ -50,9 +50,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 通知について ](/help/search-social-commerce/notifications/notification-about.md)
->* [ 通知の表示 ](notification-view.md)
->* [ 通知を既読または未読としてマーク ](notification-mark-read-unread.md)
->* [ 通知の削除 ](notification-delete.md)
->* [ 通知設定の編集 ](notification-edit.md)
->* [[!UICONTROL Notification Center] Web アプリケーションをインストールしてアンインストールする ](notification-app-install-uninstall.md)
+>* [&#x200B; 通知について &#x200B;](/help/search-social-commerce/notifications/notification-about.md)
+>* [&#x200B; 通知の表示 &#x200B;](notification-view.md)
+>* [&#x200B; 通知を既読または未読としてマーク &#x200B;](notification-mark-read-unread.md)
+>* [&#x200B; 通知の削除 &#x200B;](notification-delete.md)
+>* [&#x200B; 通知設定の編集 &#x200B;](notification-edit.md)
+>* [[!UICONTROL Notification Center] Web アプリケーションをインストールしてアンインストールする &#x200B;](notification-app-install-uninstall.md)

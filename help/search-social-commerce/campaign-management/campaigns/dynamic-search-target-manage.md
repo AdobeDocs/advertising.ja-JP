@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[ バルクシート ファイル ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) をアップロードして広告ネットワークに投稿することで、大量のターゲットデータを一度に作成および編集できます。
+>[&#x200B; バルクシート ファイル &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) をアップロードして広告ネットワークに投稿することで、大量のターゲットデータを一度に作成および編集できます。
 
 ## [!DNL Google Ads] の動的検索ターゲットの作成
 
@@ -32,15 +32,15 @@ ht-degree: 0%
 
 >[!TIP]
 >
->一度に多くのアカウントコンポーネントを作成するには、[campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
+>一度に多くのアカウントコンポーネントを作成するには、[campaign バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Auto Targets]** をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
+1. データ テーブルの上にあるツールバーで、[![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
 1. 広告ネットワーク、アカウント、キャンペーン、広告グループを選択し、「**[!UICONTROL Continue]**」をクリックします。
 
-1. [ 動的検索ターゲット設定 ](#dynamic-search-target-settings) を指定します。
+1. [&#x200B; 動的検索ターゲット設定 &#x200B;](#dynamic-search-target-settings) を指定します。
 
 1. 「**[!UICONTROL Post]**」をクリックします。
 
@@ -50,17 +50,17 @@ ht-degree: 0%
 
 >[!TIP]
 >
->一度に大量のデータを編集するには、[campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
+>一度に大量のデータを編集するには、[campaign バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Auto Targets]** をクリックします。
 
 1. 編集する各行の横にあるチェックボックスをオンにします。
 
-   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+   複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-1. データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")] をクリックします。
+1. データ テーブルの上にあるツールバーで、[![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ")] をクリックします。
 
-1. [ 動的検索ターゲット設定 ](#dynamic-search-target-settings) を指定します。
+1. [&#x200B; 動的検索ターゲット設定 &#x200B;](#dynamic-search-target-settings) を指定します。
 
    複数のターゲットの場合、変更は選択したすべてのターゲットに適用されます。 [!UICONTROL Bid field] の場合は、既存の値を指定の値に変更するか、制限を設けて、指定の割合または金額で金額を増減するオプションがあります。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
       1. 削除する各動的ターゲットの横にあるチェックボックスをオンにします。
 
-     複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+     複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
       1. ツールバーの ![ その他 ") をクリックし ] (/help/search-social-commerce/assets/more.png " 選択 **[!UICONTROL Delete]** ます。
 
@@ -130,4 +130,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 動的検索ターゲット  [!DNL Google Ads]  ついて ](dynamic-search-target-about.md)
+>* [&#x200B; 動的検索ターゲット  [!DNL Google Ads]  ついて &#x200B;](dynamic-search-target-about.md)

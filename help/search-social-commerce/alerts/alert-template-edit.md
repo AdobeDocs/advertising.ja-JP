@@ -16,11 +16,11 @@ ht-degree: 0%
 
 1. （オプション）特定の名前、評価するデータ範囲、またはその他の条件を持つ行を含めるようにビューをフィルタリングします。
 
-   データフィルター [ ツールバーから ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) または [ 列ヘッダーから ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) 適用できます。
+   データフィルター [&#x200B; ツールバーから &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) または [&#x200B; 列ヘッダーから &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) 適用できます。
 
-1. テンプレート名の横の ![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ") をクリックします。
+1. テンプレート名の横の ![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ") をクリックします。
 
-1. [!UICONTROL Update \[Entity Type\] Alert] ウィンドウで、「**[!UICONTROL Date Range]**」、「**[!UICONTROL Filters]**」、「**[!UICONTROL Scheduling and Delivery]**」の各タブの [ アラート設定 ](alert-template-settings.md) を編集します。
+1. [!UICONTROL Update \[Entity Type\] Alert] ウィンドウで、「**[!UICONTROL Date Range]**」、「**[!UICONTROL Filters]**」、「**[!UICONTROL Scheduling and Delivery]**」の各タブの [&#x200B; アラート設定 &#x200B;](alert-template-settings.md) を編集します。
 
    タブ間を移動するには、タブ名（「フィルター」など）をクリックするか、右下の「**[!UICONTROL Next]**」をクリックします。
 
@@ -28,11 +28,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ カスタムアラートについて ](alert-about.md)
->* [ カスタムアラートテンプレートの作成 ](alert-template-create.md)
->* [ カスタムアラートテンプレートの一時停止 ](alert-template-pause.md)
->* [ カスタムアラートテンプレートのアクティブ化 ](alert-template-activate.md)
->* [ カスタムアラートテンプレートの削除 ](alert-template-delete.md)
->* [ カスタムアラートテンプレートの設定 ](alert-template-settings.md)
->* [ カスタムアラートの表示 ](alert-view.md)
->* [ カスタムアラートのデータのエクスポート ](alert-export-data.md)
+>* [&#x200B; カスタムアラートについて &#x200B;](alert-about.md)
+>* [&#x200B; カスタムアラートテンプレートの作成 &#x200B;](alert-template-create.md)
+>* [&#x200B; カスタムアラートテンプレートの一時停止 &#x200B;](alert-template-pause.md)
+>* [&#x200B; カスタムアラートテンプレートのアクティブ化 &#x200B;](alert-template-activate.md)
+>* [&#x200B; カスタムアラートテンプレートの削除 &#x200B;](alert-template-delete.md)
+>* [&#x200B; カスタムアラートテンプレートの設定 &#x200B;](alert-template-settings.md)
+>* [&#x200B; カスタムアラートの表示 &#x200B;](alert-view.md)
+>* [&#x200B; カスタムアラートのデータのエクスポート &#x200B;](alert-export-data.md)

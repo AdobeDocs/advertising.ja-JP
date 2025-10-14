@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- 1. [ways to get to the decision tree] -->
 
-1. 子をコピーする親ノードをクリックし、![ 追加 ](/help/creative/assets/add.png " 追加 ") をクリックして、a\）選択 **[!UICONTROL Copy Children ctrl+c]** または b\）キーボードの **[!UICONTROL Ctrl+C]** （[!DNL Microsoft Windows]）または **[!UICONTROL Command-C]** （[!DNL Apple Macintosh]）を入力します。
+1. 子をコピーする親ノードをクリックし、![&#x200B; 追加 &#x200B;](/help/creative/assets/add.png " 追加 ") をクリックして、a\）選択 **[!UICONTROL Copy Children ctrl+c]** または b\）キーボードの **[!UICONTROL Ctrl+C]** （[!DNL Microsoft Windows]）または **[!UICONTROL Command-C]** （[!DNL Apple Macintosh]）を入力します。
 
 1. 次のいずれかの操作をおこないます。
 
@@ -39,11 +39,11 @@ These formatted steps are inserted automatically from text in the following file
 
 >[!MORELIKETHIS]
 >
->* [ 最終レベルへのターゲットノードの追加 ](experience-target-node-add-final.md)
->* [ ノード間にターゲットノードを挿入する ](experience-target-node-add-inner.md)
->* [ ノード間に兄弟ターゲットノードを追加する ](experience-target-node-add-sibling.md)
->* [ 最終ノードへのクリエイティブの割り当て ](experience-assign-creative-bundles.md)
->* [ ターゲットノードまたはクリエイティブリーフノードの削除 ](/help/creative/experiences/experience-target-node-delete.md)
->* [ デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 ](experience-create-targeting.md)
->* [ デシジョンツリーのターゲット設定を使用したエクスペリエンスの編集 ](experience-edit-targeting.md)
->* [ ターゲット設定エクスペリエンス設定 ](experience-settings-targeting.md)
+>* [&#x200B; 最終レベルへのターゲットノードの追加 &#x200B;](experience-target-node-add-final.md)
+>* [&#x200B; ノード間にターゲットノードを挿入する &#x200B;](experience-target-node-add-inner.md)
+>* [&#x200B; ノード間に兄弟ターゲットノードを追加する &#x200B;](experience-target-node-add-sibling.md)
+>* [&#x200B; 最終ノードへのクリエイティブの割り当て &#x200B;](experience-assign-creative-bundles.md)
+>* [&#x200B; ターゲットノードまたはクリエイティブリーフノードの削除 &#x200B;](/help/creative/experiences/experience-target-node-delete.md)
+>* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 &#x200B;](experience-create-targeting.md)
+>* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンスの編集 &#x200B;](experience-edit-targeting.md)
+>* [&#x200B; ターゲット設定エクスペリエンス設定 &#x200B;](experience-settings-targeting.md)

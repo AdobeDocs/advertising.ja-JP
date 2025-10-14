@@ -32,8 +32,8 @@ ht-degree: 0%
 * 指標に重み付けレコメンデーションを適用します。
 
 >[!NOTE]
->* （検索、ソーシャル、Commerce）目標をポートフォリオに関連付けるには、[ ポートフォリオを作成 ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)、後で [ ポートフォリオ設定を変更 ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md) します。
->* （検索、ソーシャル、CommerceアカウントにリンクしたDSP アカウントを持つ広告主） Advertising DSPでは、パッケージレベルのペーシングを使用するパッケージの [ カスタム最適化目標 ](/help/dsp/campaign-management/packages/package-settings.md) として目的を選択できます。
+>* （検索、ソーシャル、Commerce）目標をポートフォリオに関連付けるには、[&#x200B; ポートフォリオを作成 &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)、後で [&#x200B; ポートフォリオ設定を変更 &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md) します。
+>* （検索、ソーシャル、CommerceアカウントにリンクしたDSP アカウントを持つ広告主） Advertising DSPでは、パッケージレベルのペーシングを使用するパッケージの [&#x200B; カスタム最適化目標 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) として目的を選択できます。
 >* 複数の検索、ソーシャル、Commerceのポートフォリオや複数のDSP パッケージに対して、同じ目的を使用できます。
 >* [!UICONTROL Objectives] ビュー内の各目的の指標には、DSPのデータは含まれません。
 
@@ -41,30 +41,30 @@ ht-degree: 0%
 
 目標には、次のいずれかを含めることができます。
 
-* Adobe Advertisingが [Adobe Advertising コンバージョントラッキングピクセル ](/help/search-social-commerce/tracking/conversion-tracking-advertising.md) を使用して追跡する指標。
+* Adobe Advertisingが [Adobe Advertising コンバージョントラッキングピクセル &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-advertising.md) を使用して追跡する指標。
 
-* [ コンバージョンフィードファイルから広告主が追跡した指標 ](/help/search-social-commerce/tracking/conversion-tracking-about.md).<!-- Search only, or might DSP-only clients also have these? -->
+* [&#x200B; コンバージョンフィードファイルから広告主が追跡した指標 &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-about.md).<!-- Search only, or might DSP-only clients also have these? -->
 
-* （[!DNL Adobe Analytics for Advertising] を使用する広告主） [Adobe Analyticsから同期されたコンバージョンおよびサイトエンゲージメント指標 ](/help/integrations/analytics/overview.md)。
+* （[!DNL Adobe Analytics for Advertising] を使用する広告主） [Adobe Analyticsから同期されたコンバージョンおよびサイトエンゲージメント指標 &#x200B;](/help/integrations/analytics/overview.md)。
 
   検索、ソーシャル、Commerceでは、[、](/help/integrations/analytics/analytics-data-in-advertising.md)、`timespent_secs_1stvisit`、`timespent_secs_total`、`pageviews_1stvisit` の `pageviews_total` サイトエンゲージメント指標 `bounces` が、ポートフォリオ入札アルゴリズムに自動的に組み込まれます。
 
 * [!DNL Google] 指標：<!-- Search only, or might DSP-only clients also have these? -->
 
-   * 同期された [[!DNL Google Ads] アカウントからの ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) [!DNL Google Ads] で追跡されたコンバージョン。
+   * 同期された [[!DNL Google Ads] アカウントからの &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) [!DNL Google Ads] で追跡されたコンバージョン。
 
-   * （[[!DNL Google Analytics]  統合 ](/help/search-social-commerce/admin/data-sources/data-source-about.md)）ページビュー、セッション、バウンス率（バウンス/セッションとして計算）、セッション時間を使用する広告主。
+   * （[[!DNL Google Analytics]  統合 &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md)）ページビュー、セッション、バウンス率（バウンス/セッションとして計算）、セッション時間を使用する広告主。
 
      検索、ソーシャル、Commerceでは、これらの指標は、ポートフォリオ入札アルゴリズムに自動的に組み込まれます。
 
 ## 広告ネットワークに目標をアップロードするオプション
 
-オプションで [ アカウントのポートフォリオの目標をコンバージョンとして  [!DNL Google Ads]  アップロード  [!DNL Microsoft Advertising]  でき、キャンペーンレベルまたは広告グループレベルの最適化に使用できる ](/help/search-social-commerce/tools/objective-upload-to-networks.md) うになります。 このオプションを有効にすると、検索、ソーシャル、Commerceでは、毎日、EF ID （クリック ID）レベルで重み付けされた売上高データが広告ネットワークに渡されます。 ネットワークで追跡される広告の指標は省略されます。
+オプションで [&#x200B; アカウントのポートフォリオの目標をコンバージョンとして  [!DNL Google Ads]  アップロード  [!DNL Microsoft Advertising]  でき、キャンペーンレベルまたは広告グループレベルの最適化に使用できる &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md) うになります。 このオプションを有効にすると、検索、ソーシャル、Commerceでは、毎日、EF ID （クリック ID）レベルで重み付けされた売上高データが広告ネットワークに渡されます。 ネットワークで追跡される広告の指標は省略されます。
 
 >[!MORELIKETHIS]
 >
->* [ 目標の作成 ](objective-create.md)
->* [ 目標の編集 ](objective-edit.md)
->* [ 目標の削除 ](objective-delete.md)
->* [ 目標への重み付けレコメンデーションの適用 ](objective-apply-weight-recommendations.md)
->* [ 目標の設定 ](objective-settings.md)
+>* [&#x200B; 目標の作成 &#x200B;](objective-create.md)
+>* [&#x200B; 目標の編集 &#x200B;](objective-edit.md)
+>* [&#x200B; 目標の削除 &#x200B;](objective-delete.md)
+>* [&#x200B; 目標への重み付けレコメンデーションの適用 &#x200B;](objective-apply-weight-recommendations.md)
+>* [&#x200B; 目標の設定 &#x200B;](objective-settings.md)

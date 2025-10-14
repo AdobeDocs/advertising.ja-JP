@@ -24,7 +24,7 @@ ht-degree: 0%
 
    * （Audience Managerアカウントを持つ広告主）検索、ソーシャル、Commerceを宛先 [!DNL Google Ads] するAudience Managerセグメントのユーザー ID を使用して、カスタマーマッチオーディエンスを作成できます。 これには、Adobe Experience Cloudに公開されるAdobe Analytics セグメントや、Adobe Experience Cloud オーディエンスライブラリを使用して作成されたセグメントが含まれる場合があります。
 
-  顧客一致オーディエンスを作成するには、広告主の [!DNL Google Ads] アカウントが [ カスタム一致の対象 ](https://support.google.com/adspolicy/answer/6299717) であり、[ ユーザー ID セグメント ](https://support.google.com/google-ads/answer/9199250) でオプトインされている必要があります。 また、検索、ソーシャル、Commerceの広告主アカウントも、カスタマーマッチオーディエンスを作成できるように設定する必要があります。
+  顧客一致オーディエンスを作成するには、広告主の [!DNL Google Ads] アカウントが [&#x200B; カスタム一致の対象 &#x200B;](https://support.google.com/adspolicy/answer/6299717) であり、[&#x200B; ユーザー ID セグメント &#x200B;](https://support.google.com/google-ads/answer/9199250) でオプトインされている必要があります。 また、検索、ソーシャル、Commerceの広告主アカウントも、カスタマーマッチオーディエンスを作成できるように設定する必要があります。
 
   顧客デ [!DNL Adobe] タベースのオーディエンスのセグメントデータと cookie 同期ファイルは、毎日 [!DNL Google Ads] に同期されます。
 
@@ -44,9 +44,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ オーディエ  [!DNL Google Ads]  スからの顧客一致オーディエ  [!DNL Adobe]  スの作成 ](google-audience-from-adobe-audience.md)
->* [Adobe Campaign [!DNL Google Ads]  メールリストからカスタマーマッチオーディエンスを作成 ](google-audience-from-campaign-email-list.md)
->* [ 顧客データリストを使用したカスタマーマッチオーディエンスの管理 ](audience-from-customer-data-list.md)
->* [ 動的リマーケティングオーディエンスの管理 ](audience-dynamic-remarketing-manage.md)
->* [ キャンペーンおよび広告グループのオーディエンスターゲットの管理 ](audience-targets-manage.md)
->* [ キャンペーンおよび広告グループのオーディエンス除外の管理 ](audience-exclusions-manage.md)
+>* [&#x200B; オーディエ  [!DNL Google Ads]  スからの顧客一致オーディエ  [!DNL Adobe]  スの作成 &#x200B;](google-audience-from-adobe-audience.md)
+>* [Adobe Campaign [!DNL Google Ads]  メールリストからカスタマーマッチオーディエンスを作成 &#x200B;](google-audience-from-campaign-email-list.md)
+>* [&#x200B; 顧客データリストを使用したカスタマーマッチオーディエンスの管理 &#x200B;](audience-from-customer-data-list.md)
+>* [&#x200B; 動的リマーケティングオーディエンスの管理 &#x200B;](audience-dynamic-remarketing-manage.md)
+>* [&#x200B; キャンペーンおよび広告グループのオーディエンスターゲットの管理 &#x200B;](audience-targets-manage.md)
+>* [&#x200B; キャンペーンおよび広告グループのオーディエンス除外の管理 &#x200B;](audience-exclusions-manage.md)

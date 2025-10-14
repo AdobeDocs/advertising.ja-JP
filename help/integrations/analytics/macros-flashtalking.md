@@ -68,7 +68,7 @@ Advertising DSP広告に [!DNL Flashtalking] の広告タグを使用する場�
 
 >[!MORELIKETHIS]
 >
->* [ 概要  [!DNL Analytics for Advertising]](overview.md)
->* [ 使用するAdobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Append [!DNL Analytics for Advertising] Macros to [!DNL Google Campaign Manager 360] Ad タグ ](/help/integrations/analytics/macros-google-campaign-manager.md)
+>* [&#x200B; 概要  [!DNL Analytics for Advertising]](overview.md)
+>* [&#x200B; 使用するAdobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Append [!DNL Analytics for Advertising] Macros to [!DNL Google Campaign Manager 360] Ad タグ &#x200B;](/help/integrations/analytics/macros-google-campaign-manager.md)
 

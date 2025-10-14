@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *基本レポートおよびモデル精度レポートのみ*
 
-スプレッドシートフィードは、すべての基本レポートとモデル精度レポートの毎日のパフォーマンスデータを、[!DNL Microsoft Excel] XLSX のカスタムスプレッドシート形式で提供します。 通常のレポートテンプレートから作成した特別な形式の [!DNL Excel] スプレッドシートテンプレートを使用して、スプレッドシートフィードを設定できます。 毎日、毎日集計される新しい生のデータを使用して、指定された時刻にスプレッドシートが自動的に更新されます。 生データは、スプレッドシートテンプレートに含めた列とグラフに入力されます。 スプレッドシートフィードファイルが使用可能になったか、ファイルの生成に失敗した場合、レポートテンプレート内の各メール受信者は、ユーザーが設定した [ レポートの通知設定 ](/help/search-social-commerce/notifications/notification-about.md) に基づいて通知を受け取ります。
+スプレッドシートフィードは、すべての基本レポートとモデル精度レポートの毎日のパフォーマンスデータを、[!DNL Microsoft Excel] XLSX のカスタムスプレッドシート形式で提供します。 通常のレポートテンプレートから作成した特別な形式の [!DNL Excel] スプレッドシートテンプレートを使用して、スプレッドシートフィードを設定できます。 毎日、毎日集計される新しい生のデータを使用して、指定された時刻にスプレッドシートが自動的に更新されます。 生データは、スプレッドシートテンプレートに含めた列とグラフに入力されます。 スプレッドシートフィードファイルが使用可能になったか、ファイルの生成に失敗した場合、レポートテンプレート内の各メール受信者は、ユーザーが設定した [&#x200B; レポートの通知設定 &#x200B;](/help/search-social-commerce/notifications/notification-about.md) に基づいて通知を受け取ります。
 
 フィードを設定して、過去 90 日間のデータまで更新できます。以前の既存データはすべて残り、蓄積が続きます。
 
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ スプレッドシートレポートフィードの作成 ](spreadsheet-feed-create.md)
->* [ スプレッドシートレポ  [!DNL Excel]  トフィード用のテンプレートの作成 ](spreadsheet-feed-create-excel-template.md)
->* [ スプレッドシートレポートフィード設定の編集 ](spreadsheet-feed-edit.md)
->* [ スプレッドシートレポートフィードの設定 ](spreadsheet-feed-settings.md)
->* [ スプレッドシートレポートフィードファイルの表示または保存 ](spreadsheet-feed-view-or-save.md)
->* [ スプレッドシートレポートフィードを手動で更新 ](spreadsheet-feed-refresh.md)
->* [ スプレッドシートレポートフィードの削除 ](spreadsheet-feed-delete.md)
->* [ 通知について ](/help/search-social-commerce/notifications/notification-about.md)
+>* [&#x200B; スプレッドシートレポートフィードの作成 &#x200B;](spreadsheet-feed-create.md)
+>* [&#x200B; スプレッドシートレポ  [!DNL Excel]  トフィード用のテンプレートの作成 &#x200B;](spreadsheet-feed-create-excel-template.md)
+>* [&#x200B; スプレッドシートレポートフィード設定の編集 &#x200B;](spreadsheet-feed-edit.md)
+>* [&#x200B; スプレッドシートレポートフィードの設定 &#x200B;](spreadsheet-feed-settings.md)
+>* [&#x200B; スプレッドシートレポートフィードファイルの表示または保存 &#x200B;](spreadsheet-feed-view-or-save.md)
+>* [&#x200B; スプレッドシートレポートフィードを手動で更新 &#x200B;](spreadsheet-feed-refresh.md)
+>* [&#x200B; スプレッドシートレポートフィードの削除 &#x200B;](spreadsheet-feed-delete.md)
+>* [&#x200B; 通知について &#x200B;](/help/search-social-commerce/notifications/notification-about.md)

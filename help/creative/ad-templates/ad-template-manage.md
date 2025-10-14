@@ -21,13 +21,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、[ クリエイティブライブラリにダイナミッククリエイティブを追加 ](/help/creative/creative-libraries/creative-add-dynamic.md) する際に、動的広告テンプレートをアップロードすることもできます。 作成した広告テンプレートは、後で使用するために [!UICONTROL Ad Templates] ビュー内で使用できるようになります。
+>また、[&#x200B; クリエイティブライブラリにダイナミッククリエイティブを追加 &#x200B;](/help/creative/creative-libraries/creative-add-dynamic.md) する際に、動的広告テンプレートをアップロードすることもできます。 作成した広告テンプレートは、後で使用するために [!UICONTROL Ad Templates] ビュー内で使用できるようになります。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Ad Templates]** をクリックします。
 
 1. 右上のをクリック **[!UICONTROL Create Ad Template]** ます
 
-1. [ad テンプレート設定を指定してください ](#ad-template-settings)
+1. [ad テンプレート設定を指定してください &#x200B;](#ad-template-settings)
 
 1. 「**[!UICONTROL Create]**」をクリックします。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 1. 広告テンプレート行の上にカーソルを置き、**[!UICONTROL Edit]** をクリックします。
 
-1. [ 広告テンプレート設定 ](#ad-template-settings) を編集します。
+1. [&#x200B; 広告テンプレート設定 &#x200B;](#ad-template-settings) を編集します。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、クリエイティブライブラリ内から [ クリエイティブライブラリにダイナミッククリエイティブを追加 ](/help/creative/creative-libraries/creative-add-dynamic.md) することもできます。
+>また、クリエイティブライブラリ内から [&#x200B; クリエイティブライブラリにダイナミッククリエイティブを追加 &#x200B;](/help/creative/creative-libraries/creative-add-dynamic.md) することもできます。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Ad Templates]** をクリックします。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    [!UICONTROL New Dynamic Ad] 画面では、「[!UICONTROL Ad Template Size]」、「[!UICONTROL Ad Template Type]」、「[!UICONTROL Ad Template]」フィールドが自動的に選択され、読み取り専用になります。
 
-1. 動的広告設定を指定して [ 動的広告を作成 ](/help/creative/creative-libraries/creative-add-dynamic.md) します。
+1. 動的広告設定を指定して [&#x200B; 動的広告を作成 &#x200B;](/help/creative/creative-libraries/creative-add-dynamic.md) します。
 
 ## 広告テンプレート設定 {#ad-template-settings}
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 目的の広告フォーマットを持つ圧縮されたHTML5 ファイル。 既にファイルをアップロードしている場合は、ファイル名が表示されます。
 
-[HTML5 クリエイティブの仕様 ](/help/creative/creative-libraries/html5-creative-specification.md) を参照してください。
+[HTML5 クリエイティブの仕様 &#x200B;](/help/creative/creative-libraries/html5-creative-specification.md) を参照してください。
 
 ファイルをアップロードするには：
 
@@ -121,9 +121,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md)
->* [ アセットファイルの管理 ](/help/creative/feeds/asset-manage.md)
->* [ フィードテンプレートの管理 ](/help/creative/feeds/feed-template-manage.md)
->* [ カタログの管理 ](/help/creative/feeds/catalog-manage.md)
->* [ クリエイティブライブラリへのダイナミッククリエイティブの追加 ](/help/creative/creative-libraries/creative-add-dynamic.md)
+>* [&#x200B; 動的広告のワークフロー &#x200B;](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [&#x200B; アセットファイルの管理 &#x200B;](/help/creative/feeds/asset-manage.md)
+>* [&#x200B; フィードテンプレートの管理 &#x200B;](/help/creative/feeds/feed-template-manage.md)
+>* [&#x200B; カタログの管理 &#x200B;](/help/creative/feeds/catalog-manage.md)
+>* [&#x200B; クリエイティブライブラリへのダイナミッククリエイティブの追加 &#x200B;](/help/creative/creative-libraries/creative-add-dynamic.md)
 

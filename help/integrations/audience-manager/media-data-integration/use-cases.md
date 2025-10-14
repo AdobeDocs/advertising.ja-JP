@@ -22,7 +22,7 @@ ht-degree: 0%
 
 インプレッションデータをAudience Managerで取得すると、特定の広告やキャンペーンの対象となったユーザーのセグメントを作成することで、頻度管理を強化できます。 これらのセグメントは、頻度を高める場合は広告ターゲティングに、頻度を制限する場合は広告抑制に使用できます。
 
-また、Audience Manager[!DNL Segment Builder] を使用すると、アクションにつながるシグナルを含むすべての [ ルールベースの特性 ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html?lang=ja) に [ 最新性と頻度の制御 ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=ja) を適用できます。 これにより、例えば、メディアキャンペーン内で特定のクリエイティブをユーザーに表示する回数を制限できます。 この方法については、「[ インスタントクロスデバイス抑制 ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html?lang=ja)」を参照してください。<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
+また、Audience Manager[!DNL Segment Builder] を使用すると、アクションにつながるシグナルを含むすべての [&#x200B; ルールベースの特性 &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html?lang=ja) に [&#x200B; 最新性と頻度の制御 &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=ja) を適用できます。 これにより、例えば、メディアキャンペーン内で特定のクリエイティブをユーザーに表示する回数を制限できます。 この方法については、「[&#x200B; インスタントクロスデバイス抑制 &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html?lang=ja)」を参照してください。<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
 
 ## 順次メッセージ
 
@@ -87,5 +87,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [DSP Media のAdobe Audience Managerへの公開データ送信の概要 ](overview.md)
->* [Advertising DSP キャンペーンからクリックとインプレッションのデータを収集 ](collect.md)
+>* [DSP Media のAdobe Audience Managerへの公開データ送信の概要 &#x200B;](overview.md)
+>* [Advertising DSP キャンペーンからクリックとインプレッションのデータを収集 &#x200B;](collect.md)

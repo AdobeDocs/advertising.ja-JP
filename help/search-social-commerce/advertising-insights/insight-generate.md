@@ -62,10 +62,10 @@ ht-degree: 0%
 
 4. 「**[!UICONTROL Generate Insight]**」をクリックします。
 
-   [!UICONTROL Advertising Insights] で設定した [ 通知設定 ](/help/search-social-commerce/notifications/notification-edit.md) に基づいて、ジョブが完了するか失敗すると、通知が届きます。
+   [!UICONTROL Advertising Insights] で設定した [&#x200B; 通知設定 &#x200B;](/help/search-social-commerce/notifications/notification-edit.md) に基づいて、ジョブが完了するか失敗すると、通知が届きます。
 
 >[!MORELIKETHIS]
 >
 >* [[!UICONTROL Advertising Insights]](insight-about.md) について
->* [ アセットの表示または保存  [!DNL Advertising Insight]](insight-view-save.md)
->* [ を削除  [!DNL Advertising Insight]](insight-delete.md)
+>* [&#x200B; アセットの表示または保存  [!DNL Advertising Insight]](insight-view-save.md)
+>* [&#x200B; を削除  [!DNL Advertising Insight]](insight-delete.md)

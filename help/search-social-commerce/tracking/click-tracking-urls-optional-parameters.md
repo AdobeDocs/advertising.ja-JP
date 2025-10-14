@@ -44,7 +44,7 @@ ht-degree: 0%
 
 | パラメーター | 説明 |
 | ---- | ---- |
-| <code>{custom_code}</code> | アップロードしたバルクシートファイルの「カスタム URL パラメーター」列のデータをトラッキング URL に挿入します。 {custom_code} は、トラッキング URL の 1 つ以上のキーと値のペアの値の末尾でのみ使用できます。 例：<code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b> メモ：</b> バルクシートファイルのカスタム値をトラッキング URL に挿入するには、「トラッキング URL を生成」オプションを使用してバルクシートファイルをアップロードします。 バルクシートファイルの使用について詳しくは、「[ バルクシートを使用した Campaign データの管理について ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を参照してください。 |
+| <code>{custom_code}</code> | アップロードしたバルクシートファイルの「カスタム URL パラメーター」列のデータをトラッキング URL に挿入します。 {custom_code} は、トラッキング URL の 1 つ以上のキーと値のペアの値の末尾でのみ使用できます。 例：<code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b> メモ：</b> バルクシートファイルのカスタム値をトラッキング URL に挿入するには、「トラッキング URL を生成」オプションを使用してバルクシートファイルをアップロードします。 バルクシートファイルの使用について詳しくは、「[&#x200B; バルクシートを使用した Campaign データの管理について &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を参照してください。 |
 | <code>{ef_uniqueid}</code> | Adobe Advertisingで作成された一意の ID を挿入します。 追跡方法が「EF リダイレクト」の場合に自動的に追加されます。 |
 | <code>{ef_userid}</code> | 広告主に割り当てる一意のAdobe AdvertisingID を挿入する。 |
 | <code>{ef_sid}</code> | 検索、ソーシャル、およびCommerceによって広告ネットワークに割り当てられる数値 ID を挿入するには：[!DNL Google Ads] の場合は <i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising] の場合は <i>[!UICONTROL 10]</i>、[!DNL Meta] の場合は <i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]<i>[!UICONTROL 87]</i> の場合は <i>[!UICONTROL 86]</i>、[!DNL Naver] の場合は <i>[!UICONTROL 88]</i> [!DNL Baidu]、[!DNL Yandex] の場合は <i>[!UICONTROL 90]</i>、[!DNL Yahoo! Japan Ads]<i>[!UICONTROL 105]</i> の場合は <i>[!UICONTROL 94]</i>、[!DNL Yahoo Native] （非推奨）、[!DNL Pinterest] （非推奨）の場合は <i>[!UICONTROL 106]</i> です。 |
@@ -76,4 +76,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertisingコンバージョントラッキングサービスのクリックトラッキング URL 形式について ](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+>* [Adobe Advertisingコンバージョントラッキングサービスのクリックトラッキング URL 形式について &#x200B;](/help/search-social-commerce/tracking/formats-click-tracking-about.md)

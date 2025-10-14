@@ -9,7 +9,7 @@ ht-degree: 0%
 
 **[!UICONTROL Append Parameters]:** （任意）ベース URL に追加する追加のトラッキングパラメーター。<!-- When account uses setting append_param_to_tt_fus, then we add append parameters to the tracking templates OR the landing page suffixes instead (not sure how we determine which) -->。 広告主レベルの追加パラメーターは、デフォルトでアカウントレベルとキャンペーンレベルに含まれていますが、どちらかを上書きできます。
 
-サードパーティトラッキングパラメーターを含む任意の静的テキスト文字列、または任意の [ サポートされているトラッキングパラメーター ](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md) を使用できます。これらのパラメーターは、ベース URL に適切なデータ値を挿入します。
+サードパーティトラッキングパラメーターを含む任意の静的テキスト文字列、または任意の [&#x200B; サポートされているトラッキングパラメーター &#x200B;](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md) を使用できます。これらのパラメーターは、ベース URL に適切なデータ値を挿入します。
 
 複数のパラメーターは、コンマまたはアンパサンド（&amp;）で区切ります。 入れ子になった角括弧はサポートされていません。
 
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 * （並列トラッキングを使用する広告ネットワーク）並列トラッキングを有効にするソースからのクリックに置き換わらないマクロを使用しないでください。 広告主がマクロを使用する必要がある場合、Adobeアカウントチームはカスタマーサポートまたは実装チームと連携してマクロを追加する必要があります。
 
-* （Adobe AdvertisingとAdobe Analyticsの統合を使用する広告主）検索、ソーシャル、Commerceのデータを [!DNL Analytics] に送信する AMO ID パラメーターを含めるには、[ 広告ネットワーク固有の形式 ](/help/integrations/analytics/ids.md#amo-id-formats) を参照してください。 サーバーサイド AMO ID 実装を使用して、[!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントのパラメーターを手動で追加する必要はありません。
+* （Adobe AdvertisingとAdobe Analyticsの統合を使用する広告主）検索、ソーシャル、Commerceのデータを [!DNL Analytics] に送信する AMO ID パラメーターを含めるには、[&#x200B; 広告ネットワーク固有の形式 &#x200B;](/help/integrations/analytics/ids.md#amo-id-formats) を参照してください。 サーバーサイド AMO ID 実装を使用して、[!DNL Google Ads] および [!DNL Microsoft Advertising] アカウントのパラメーターを手動で追加する必要はありません。

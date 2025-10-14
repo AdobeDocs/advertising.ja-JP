@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # [!DNL FreeWheel] 広告送信のエラーコード
 
-失敗した広告送信のエラーメッセージは、Advertising DSPまたは [!DNL FreeWheel] のいずれかから取得できます。 エラーメッセージは、[[!UICONTROL Freewheel Status] ダイアログの「[!UICONTROL API Response]」列に表示され ](freewheel-check-status.md) す。
+失敗した広告送信のエラーメッセージは、Advertising DSPまたは [!DNL FreeWheel] のいずれかから取得できます。 エラーメッセージは、[[!UICONTROL Freewheel Status] ダイアログの「[!UICONTROL API Response]」列に表示され &#x200B;](freewheel-check-status.md) す。
 
 ## Advertising DSP内部エラー
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 | 404 | 見つかりません | 要求されたリソースは使用できません。 クリエイティブ ID がPUT処理で見つからない場合は、404 が返されます。 | Adobeアカウントチームにお問い合わせください。 |
 | 405 | 許可されていないメソッド | そのリソースでサポートされていないリクエストメソッドを使用して、リソースに対してリクエストが行われました（例えば、POSTがGETを送信する必要があるメソッドでデータを使用する、読み取り専用リソースでPUTを使用する）。 | Adobeアカウントチームにお問い合わせください。 |
 | 408 | 要求タイムアウト | このリクエストの処理中にタイムアウトが発生しました。 タイムアウトは、通常、特定のリソースへの排他的アクセスの同時リクエストによって発生します。 | このステータスを受け取ったら、リクエストを再送信します。 問題が解決しない場合は、Adobeアカウントチームにお問い合わせください。 |
-| 422 | 処理できないエンティティ | 無効なリソースです。 このエラーは、リクエスト本文が無効な場合や、作成または更新したリソースが無効な場合（例えば、取引 ID が見つからなかった場合など）に発生します。 詳しくは、[FreeWheel API 422 エラー ](#freewheel-422-errors) を参照してください。 | Adobeアカウントチームにお問い合わせください。 |
+| 422 | 処理できないエンティティ | 無効なリソースです。 このエラーは、リクエスト本文が無効な場合や、作成または更新したリソースが無効な場合（例えば、取引 ID が見つからなかった場合など）に発生します。 詳しくは、[FreeWheel API 422 エラー &#x200B;](#freewheel-422-errors) を参照してください。 | Adobeアカウントチームにお問い合わせください。 |
 | 500 | 内部サーバーエラー | API システムエラー。 | Adobeアカウントチームにお問い合わせください。 |
 
 {style="table-layout:auto"}
@@ -64,7 +64,7 @@ ht-degree: 3%
 
 >[!MORELIKETHIS]
 >
->* [ プログラムで保証された取引の設定の概要  [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
->* [ 取引 ID インボックスでの取引の承認 ](deal-id-inbox-accept.md)
->* [ プログラムで保証された取引の広告の送信先  [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
->* [ プログラムで保証された取引の広告  [!DNL FreeWheel]  ステータスの確認 ](/help/dsp/inventory/freewheel-check-status.md)
+>* [&#x200B; プログラムで保証された取引の設定の概要  [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
+>* [&#x200B; 取引 ID インボックスでの取引の承認 &#x200B;](deal-id-inbox-accept.md)
+>* [&#x200B; プログラムで保証された取引の広告の送信先  [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+>* [&#x200B; プログラムで保証された取引の広告  [!DNL FreeWheel]  ステータスの確認 &#x200B;](/help/dsp/inventory/freewheel-check-status.md)

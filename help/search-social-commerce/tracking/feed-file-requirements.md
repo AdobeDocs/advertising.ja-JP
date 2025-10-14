@@ -38,5 +38,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [EF ID を使用したデータフィードのデータ要件 ](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
->* [ トランザクション ID を使用したデータフィードに関するデータ要件 ](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
+>* [EF ID を使用したデータフィードのデータ要件 &#x200B;](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
+>* [&#x200B; トランザクション ID を使用したデータフィードに関するデータ要件 &#x200B;](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)

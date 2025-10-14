@@ -16,7 +16,7 @@ ht-degree: 0%
 
 [!UICONTROL Custom Creative Report] を使用すると、すべての広告エクスペリエンスに対するレポートデータのコンテンツと配信をカスタマイズできます。
 
-レポートは、1 回生成することも、指定した基準（15 日ごと、毎月 1 日など）に従って指定したタイムゾーンで日次、週次 :00 または月次で 03 にスケジュールすることもできます。 レポートが生成されたら、[!UICONTROL Reports] / [!UICONTROL Custom Reports] または次のタイプのリンクされた [ レポートの宛先 ](/help/dsp/reports/report-destinations/report-destination-about.md) からダウンロードできます。
+レポートは、1 回生成することも、指定した基準（15 日ごと、毎月 1 日など）に従って指定したタイムゾーンで日次、週次 :00 または月次で 03 にスケジュールすることもできます。 レポートが生成されたら、[!UICONTROL Reports] / [!UICONTROL Custom Reports] または次のタイプのリンクされた [&#x200B; レポートの宛先 &#x200B;](/help/dsp/reports/report-destinations/report-destination-about.md) からダウンロードできます。
 
 * [!DNL Amazon Simple Storage Service] （[!DNL S3]）
 * FTP
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. 右上で、「**[!UICONTROL Create]**」をクリックします。
 
-1. [ レポート設定 ](#report-settings) を指定します。
+1. [&#x200B; レポート設定 &#x200B;](#report-settings) を指定します。
 
 1. 「**[!UICONTROL Create Custom Report]**」をクリックします。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >また、[ ビューから ](/help/dsp/reports/report-run-now.md) いつでもカスタムレポートを実行 [!UICONTROL Reports] することもできます。
+  >また、[&#x200B; ビューから &#x200B;](/help/dsp/reports/report-run-now.md) いつでもカスタムレポートを実行 [!UICONTROL Reports] することもできます。
 
 * *[!UICONTROL On]\&lt;Date\>:* アカウントのタイムゾーンで 09:00 までに完了するように、指定された日付にレポートを実行します。
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Build Your Report] セクション
 
-**[!UICONTROL Select To Add As Report Headers]:** レポートに含めるデータ列（ヘッダー）。 列を追加するには、カテゴリを展開し、列名の横にあるチェックボックスをオンにします。 使用可能な列はレポートによって異なり、使用できない指標はすべて無効になります。 すべてのオプションの説明は、[ 使用可能なレポート列 ](#report-custom-creative-columns)」を参照してください。
+**[!UICONTROL Select To Add As Report Headers]:** レポートに含めるデータ列（ヘッダー）。 列を追加するには、カテゴリを展開し、列名の横にあるチェックボックスをオンにします。 使用可能な列はレポートによって異なり、使用できない指標はすべて無効になります。 すべてのオプションの説明は、[&#x200B; 使用可能なレポート列 &#x200B;](#report-custom-creative-columns)」を参照してください。
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** 列ヘッダーの順序。 任意の列をドラッグ&amp;ドロップして、順序をカスタマイズできます。
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Social Only]:* 古い
 
-「[Adobe Advertisingのアトリビューションルールの計算方法 ](/help/search-social-commerce/reports/attribution-rules.md) も参照してください。
+「[Adobe Advertisingのアトリビューションルールの計算方法 &#x200B;](/help/search-social-commerce/reports/attribution-rules.md) も参照してください。
 
 **[!UICONTROL Paths as Columns]:** 同じデバイスで以前のイベントが発生した場合にレポートするコンバージョンのタイプ。 最大 3 つのタイプを含めることができます。 選択したタイプごとに、コンバージョン指標ごとに個別の列が含まれ、指定したサフィックス（[!UICONTROL (tl)]、[!UICONTROL (ct)] または [!UICONTROL (vt)]）が追加されます。
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 
 **[!UICONTROL Email]:** （電子メールの宛先タイプのみ）各アドレスに対して、アドレスを入力し、**+** をクリックします。
 
-**[!UICONTROL Destination Name]:** （S3、FTP、sFTP および FTP SSL 宛先タイプのみ）カスタムレポートの送信先 [ レポート宛先 ](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"} の名前。
+**[!UICONTROL Destination Name]:** （S3、FTP、sFTP および FTP SSL 宛先タイプのみ）カスタムレポートの送信先 [&#x200B; レポート宛先 &#x200B;](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"} の名前。
 
 * 既存の宛先を指定するには、リストから宛先名を選択します。 複数の宛先名を個別に選択できます。
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 
    1. **新しい宛先を追加** をクリックします。
 
-   1. [ レポート宛先設定 ](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"} を入力し、「**保存**」をクリックします。
+   1. [&#x200B; レポート宛先設定 &#x200B;](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"} を入力し、「**保存**」をクリックします。
 
    1. レポート設定に戻り、「**宛先名を更新**」をクリックします。
 
@@ -244,12 +244,12 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | （動的広告のみ）製品で提供された広告の合計売上高。 商品が null の場合、この値はゼロ（0）になります。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | 提供済み広告の合計売上高。 |
 | [!UICONTROL Conversion Metrics] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のコンバージョン ] | 指定した広告主固有のコンバージョン指標またはAdobe Analytics イベントの合計。 |
-| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のカスタム目標 ] | （Advertising DSPを使用する広告主）指定した [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md) に含まれるすべてのコンバージョンの加重合計。 |
+| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のカスタム目標 ] | （Advertising DSPを使用する広告主）指定した [Advertising DSPのカスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md) に含まれるすべてのコンバージョンの加重合計。 |
 
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [ エクスペリエンスレベルのパフォーマンスレポート ](/help/creative/experiences/experience-performance-details.md)
->* [DSP カスタムレポートについて ](/help/dsp/reports/report-about.md){target="_blank"}
+>* [&#x200B; エクスペリエンスレベルのパフォーマンスレポート &#x200B;](/help/creative/experiences/experience-performance-details.md)
+>* [DSP カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md){target="_blank"}
 >* [[!UICONTROL report destinations]](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"} について

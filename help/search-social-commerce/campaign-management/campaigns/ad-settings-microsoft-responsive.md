@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >広告ネットワークは、店舗の製品情報と広告グループレベルのユーザターゲティングを使用して、マーチャントセンターストアにリンクされたオーディエンスキャンペーン用の広告を自動的に作成します。 広告を手動で作成する必要はありません。
 
-**[!UICONTROL Images]:** 最大 15 個のJPEGまたは PNG 画像。 縦横比が 1.91:1 の画像を少なくとも 1 つ含めます。 [ オーディエンス広告画像 ](https://help.ads.microsoft.com/#apex/ads/en/56912/0) について、許可されているアスペクト比とディメンションを参照してください。
+**[!UICONTROL Images]:** 最大 15 個のJPEGまたは PNG 画像。 縦横比が 1.91:1 の画像を少なくとも 1 つ含めます。 [&#x200B; オーディエンス広告画像 &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56912/0) について、許可されているアスペクト比とディメンションを参照してください。
 
 オーディエンス広告の場合、可能な [!DNL Microsoft Advertising] べての縦横比に合わせて、この画像が自動的に切り抜かれます。
 
@@ -54,9 +54,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 広告について ](ad-about.md)
->* [ 広告の管理 ](ad-manage.md)
->* [[!DNL Microsoft Advertising]  拡張された動的検索広告設定 ](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft Advertising]  マルチメディア広告設定 ](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft Advertising]  製品広告設定 ](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising]  レスポンシブ検索広告設定 ](ad-settings-microsoft-rsa.md)
+>* [&#x200B; 広告について &#x200B;](ad-about.md)
+>* [&#x200B; 広告の管理 &#x200B;](ad-manage.md)
+>* [[!DNL Microsoft Advertising]  拡張された動的検索広告設定 &#x200B;](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising]  マルチメディア広告設定 &#x200B;](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising]  製品広告設定 &#x200B;](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising]  レスポンシブ検索広告設定 &#x200B;](ad-settings-microsoft-rsa.md)

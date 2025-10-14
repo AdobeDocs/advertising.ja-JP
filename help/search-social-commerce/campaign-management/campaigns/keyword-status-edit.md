@@ -22,18 +22,18 @@ ht-degree: 0%
 
 1. ステータスを変更する入札可能キーワードまたは負のキーワードの横にあるチェック ボックスをオンにします。
 
-   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+   複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
 1. ツールバーの「ステータス」ボタンをクリックします。
 
-   * （入札キーワードのみ）行をアクティブにするには、「![ アクティブ化 ](/help/search-social-commerce/assets/activate.png " アクティブ化 ")」をクリックします。
+   * （入札キーワードのみ）行をアクティブにするには、「![&#x200B; アクティブ化 &#x200B;](/help/search-social-commerce/assets/activate.png " アクティブ化 ")」をクリックします。
 
-   * （入札キーワードのみ）行を一時停止するには、「![ 一時停止 ](/help/search-social-commerce/assets/pause.png " 一時停止 ")」をクリックします。
+   * （入札キーワードのみ）行を一時停止するには、「![&#x200B; 一時停止 &#x200B;](/help/search-social-commerce/assets/pause.png " 一時停止 ")」をクリックします。
 
    * 行を削除するには、「![ その他 ")」をクリックし ] (/help/search-social-commerce/assets/more.png " 「**[!UICONTROL Delete]**」を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ キーワードについて ](keyword-about.md)
->* [ 入札可能キーワードの管理 ](keyword-manage.md)
->* [ ネガティブキーワードの作成 ](keyword-negative-create.md)
+>* [&#x200B; キーワードについて &#x200B;](keyword-about.md)
+>* [&#x200B; 入札可能キーワードの管理 &#x200B;](keyword-manage.md)
+>* [&#x200B; ネガティブキーワードの作成 &#x200B;](keyword-negative-create.md)

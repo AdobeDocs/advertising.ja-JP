@@ -32,7 +32,7 @@ ht-degree: 0%
 
       * 別のカスタム URL を追加するには、「**[!UICONTROL +]**」をクリックし、入力フィールドに URL を入力します。
 
-      * カスタム URL を削除するには、クリエイティブ行の上にカーソルを置き、「![ 削除 ](/help/creative/assets/delete.png " 削除 ")」をクリックします。
+      * カスタム URL を削除するには、クリエイティブ行の上にカーソルを置き、「![&#x200B; 削除 &#x200B;](/help/creative/assets/delete.png " 削除 ")」をクリックします。
 
       最大 5 つのカスタムインプレッショントラッキング URL、5 つのカスタムクリックトラッキング URL、1 つのカスタムランディングページ URL を含めることができます。
 
@@ -40,5 +40,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除 ](/help/creative/experiences/experience-assign-creative-bundles.md)
->* [ デシジョンツリーでターゲット設定しないエクスペリエンス用のトラッキング URL のカスタマイズ ](experience-tracking-urls-no-targeting.md)
+>* [&#x200B; エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除 &#x200B;](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [&#x200B; デシジョンツリーでターゲット設定しないエクスペリエンス用のトラッキング URL のカスタマイズ &#x200B;](experience-tracking-urls-no-targeting.md)

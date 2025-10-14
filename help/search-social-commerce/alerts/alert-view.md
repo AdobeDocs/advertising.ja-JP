@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. （関連するエンティティビュー内で）そのエンティティタイプ（[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads] または [!UICONTROL Product Groups]）のキャンペーン管理ビューを開きます。
 
-1. ページの右上にある「![ 通知 ](/help/search-social-commerce/assets/notifications-panel.png " 通知 ")」をクリックします。
+1. ページの右上にある「![&#x200B; 通知 &#x200B;](/help/search-social-commerce/assets/notifications-panel.png " 通知 ")」をクリックします。
 
 1. [!UICONTROL Notifications] ビューで、「**[!UICONTROL Alerts]**」タブをクリックします。
 
@@ -67,11 +67,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ カスタムアラートについて ](alert-about.md)
->* [ カスタムアラートテンプレートの作成 ](alert-template-create.md)
->* [ カスタムアラートテンプレートの編集 ](alert-template-edit.md)
->* [ カスタムアラートテンプレートの一時停止 ](alert-template-pause.md)
->* [ カスタムアラートテンプレートのアクティブ化 ](alert-template-activate.md)
->* [ カスタムアラートテンプレートの削除 ](alert-template-delete.md)
->* [ カスタムアラートテンプレートの設定 ](alert-template-settings.md)
->* [ カスタムアラートのデータのエクスポート ](alert-export-data.md)
+>* [&#x200B; カスタムアラートについて &#x200B;](alert-about.md)
+>* [&#x200B; カスタムアラートテンプレートの作成 &#x200B;](alert-template-create.md)
+>* [&#x200B; カスタムアラートテンプレートの編集 &#x200B;](alert-template-edit.md)
+>* [&#x200B; カスタムアラートテンプレートの一時停止 &#x200B;](alert-template-pause.md)
+>* [&#x200B; カスタムアラートテンプレートのアクティブ化 &#x200B;](alert-template-activate.md)
+>* [&#x200B; カスタムアラートテンプレートの削除 &#x200B;](alert-template-delete.md)
+>* [&#x200B; カスタムアラートテンプレートの設定 &#x200B;](alert-template-settings.md)
+>* [&#x200B; カスタムアラートのデータのエクスポート &#x200B;](alert-export-data.md)

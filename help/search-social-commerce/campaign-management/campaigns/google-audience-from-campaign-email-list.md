@@ -22,11 +22,11 @@ ht-degree: 0%
 
 1. [!DNL Campaign] で、Advertising検索、ソーシャル、Commerceへのメールリストの配信を設定します。
 
-   1. [ 外部アカウント ](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html?lang=ja) を作成して、検索、ソーシャル、Commerceで提供される SFTP アカウントにリンクします。
+   1. [&#x200B; 外部アカウント &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html?lang=ja) を作成して、検索、ソーシャル、Commerceで提供される SFTP アカウントにリンクします。
 
       1. 左側のメニューから **\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]** に移動します。
 
-      1. ![ アカウントを作成 ](/help/search-social-commerce/assets/campaign-create-account.png " アカウントを作成 ") をクリックします。
+      1. ![&#x200B; アカウントを作成 &#x200B;](/help/search-social-commerce/assets/campaign-create-account.png " アカウントを作成 ") をクリックします。
 
       1. 勘定科目のラベルを入力し、勘定科目のタイプとして「**[!UICONTROL SFTP]**」を選択します。
 
@@ -106,11 +106,11 @@ ht-degree: 0%
 >
 >* オ [!DNL Google Ads] ディエンスに対する更新の処理には時間がかかる場合があります。
 >
->* [[!DNL Google Ads]  カスタマーマッチの仕組みと制限事項に関するドキュメント ](https://support.google.com/displayvideo/answer/9539301) を参照してください。
+>* [[!DNL Google Ads]  カスタマーマッチの仕組みと制限事項に関するドキュメント &#x200B;](https://support.google.com/displayvideo/answer/9539301) を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ オーディエンスについて ](audience-about.md)
->* [ オーディエ  [!DNL Google Ads]  スからの顧客一致オーディエ  [!DNL Adobe]  スの作成 ](google-audience-from-adobe-audience.md)
->* [ 顧客データリストを使用したカスタマーマッチオーディエンスの管理 ](audience-from-customer-data-list.md)
->* [ 動的リマーケティングオーディエンスの管理 ](audience-dynamic-remarketing-manage.md)
+>* [&#x200B; オーディエンスについて &#x200B;](audience-about.md)
+>* [&#x200B; オーディエ  [!DNL Google Ads]  スからの顧客一致オーディエ  [!DNL Adobe]  スの作成 &#x200B;](google-audience-from-adobe-audience.md)
+>* [&#x200B; 顧客データリストを使用したカスタマーマッチオーディエンスの管理 &#x200B;](audience-from-customer-data-list.md)
+>* [&#x200B; 動的リマーケティングオーディエンスの管理 &#x200B;](audience-dynamic-remarketing-manage.md)

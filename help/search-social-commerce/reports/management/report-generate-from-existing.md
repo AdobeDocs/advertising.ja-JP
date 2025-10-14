@@ -14,7 +14,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** をクリックすると、「**[!UICONTROL Latest Reports]**」タブが開きます。
 
-1. 既存のレポートの横にある ![ 類似を作成ボタン ](/help/search-social-commerce/assets/create-similar.png " 類似を作成ボタン ") をクリックします。
+1. 既存のレポートの横にある ![&#x200B; 類似を作成ボタン &#x200B;](/help/search-social-commerce/assets/create-similar.png " 類似を作成ボタン ") をクリックします。
 
 1. 必要に応じて、レポート設定を編集します。
 
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ レポートについて ](/help/search-social-commerce/reports/report-about.md)
->* [ テンプレートからのレポートの生成 ](/help/search-social-commerce/reports/management/report-generate-from-template.md)
->* [ 基本および詳細レポートの設定 ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
->* [ モデル精度レポートの設定 ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
->* [ 専門レポートの設定 ](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
->* [ 報告書の削除 ](/help/search-social-commerce/reports/management/report-delete.md)
+>* [&#x200B; レポートについて &#x200B;](/help/search-social-commerce/reports/report-about.md)
+>* [&#x200B; テンプレートからのレポートの生成 &#x200B;](/help/search-social-commerce/reports/management/report-generate-from-template.md)
+>* [&#x200B; 基本および詳細レポートの設定 &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
+>* [&#x200B; モデル精度レポートの設定 &#x200B;](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [&#x200B; 専門レポートの設定 &#x200B;](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [&#x200B; 報告書の削除 &#x200B;](/help/search-social-commerce/reports/management/report-delete.md)

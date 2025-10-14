@@ -89,8 +89,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ バルクシートを使用した Campaign データの管理について ](bulksheet-about.md)
->* [ バルクシートファイルのダウンロード/作成 ](bulksheet-download.md)
->* [ バルクシートファイル内のランディングページの検証 ](bulksheet-validate-landing-pages.md)
->* [ バルクシートファイルまたは修正されたエラーファイルのアップロード ](bulksheet-upload.md)
->* [ ポストバルクシートまたは修正されたエラーファイル ](bulksheet-post.md)
+>* [&#x200B; バルクシートを使用した Campaign データの管理について &#x200B;](bulksheet-about.md)
+>* [&#x200B; バルクシートファイルのダウンロード/作成 &#x200B;](bulksheet-download.md)
+>* [&#x200B; バルクシートファイル内のランディングページの検証 &#x200B;](bulksheet-validate-landing-pages.md)
+>* [&#x200B; バルクシートファイルまたは修正されたエラーファイルのアップロード &#x200B;](bulksheet-upload.md)
+>* [&#x200B; ポストバルクシートまたは修正されたエラーファイル &#x200B;](bulksheet-post.md)

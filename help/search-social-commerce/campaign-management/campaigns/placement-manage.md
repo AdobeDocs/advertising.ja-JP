@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-[&#128279;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 同期広告ネットワークアカウント内の表示ネットワークをターゲットとする [ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md) 広告グループのプレースメントを作成および編集  きます。
+[&#128279;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 同期広告ネットワークアカウント内の表示ネットワークをターゲットとする [&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md) 広告グループのプレースメントを作成および編集  きます。
 
 ## プレースメント [!DNL Google Ads] 作成
 
@@ -25,11 +25,11 @@ ht-degree: 0%
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]** をクリックします。
 
 1. &#x200B;
-   1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
+   1. データ テーブルの上にあるツールバーで、[![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
 1. 広告ネットワーク、アカウント、キャンペーン、広告グループを選択し、「**[!UICONTROL Continue]**」をクリックします。
 
-1. [ プレースメント設定 ](#placement-settings) を設定します。
+1. [&#x200B; プレースメント設定 &#x200B;](#placement-settings) を設定します。
 
 1. 「**[!UICONTROL Post]**」をクリックします。
 
@@ -43,11 +43,11 @@ ht-degree: 0%
 
 1. 編集する各行の横にあるチェックボックスをオンにします。
 
-   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+   複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-1. データ テーブルの上にあるツールバーで、![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ") をクリックします。
+1. データ テーブルの上にあるツールバーで、![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ") をクリックします。
 
-1. [ プレースメント設定 ](#placement-settings) を編集します。
+1. [&#x200B; プレースメント設定 &#x200B;](#placement-settings) を編集します。
 
    複数のプレースメントの場合、変更は選択したすべてのプレースメントに適用されます。 一部の英数字フィールドでは、既存の値を指定した値に変更したり、既存の文字列を指定した文字列に置き換えたり、各値の先頭に指定したプレフィックスを追加したり、各値の末尾にサフィックスを追加したりできます。 一部の通貨フィールドでは、既存の値を指定の値に変更したり、制限を設けて、指定の割合または金額で金額を増減させることができます。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Placement Details]
 
-**[!UICONTROL Placements]:** 広告を表示できるコンテンツ ネットワーク上のサイト。 www.example.com、example.com、www.example.com/shoes/kidsなど、有効な URL を入力します。 複数の文字列を指定する場合は、コンマで区切るか、別の行に入力します。 URL に疑問符（`?`）を含めることはできません。 **メモ：**&#x200B;[!UICONTROL Placements]/[!UICONTROL Negatives] 表示、広告グループおよびキャンペーン設定から [web サイトのプレースメントを除外 ](placement-negative-create.md) できます。
+**[!UICONTROL Placements]:** 広告を表示できるコンテンツ ネットワーク上のサイト。 www.example.com、example.com、www.example.com/shoes/kidsなど、有効な URL を入力します。 複数の文字列を指定する場合は、コンマで区切るか、別の行に入力します。 URL に疑問符（`?`）を含めることはできません。 **メモ：**&#x200B;[!UICONTROL Placements]/[!UICONTROL Negatives] 表示、広告グループおよびキャンペーン設定から [web サイトのプレースメントを除外 &#x200B;](placement-negative-create.md) できます。
 
 **[!UICONTROL Status]:** プレースメントの表示ステータス：*アクティブ* （入札を有効にする場合）、*一時停止* （入札を無効にする場合）、*削除済み* （プレースメントを削除する場合）、既存のプレースメントのみ）。
 
@@ -87,6 +87,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プレースメントについて ](placement-about.md)
->* [ ネガティブプレースメントの作成 ](placement-negative-create.md)
->* [ プレースメントとネガティブプレースメントのステータスの変更 ](placement-status-edit.md)
+>* [&#x200B; プレースメントについて &#x200B;](placement-about.md)
+>* [&#x200B; ネガティブプレースメントの作成 &#x200B;](placement-negative-create.md)
+>* [&#x200B; プレースメントとネガティブプレースメントのステータスの変更 &#x200B;](placement-status-edit.md)

@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # ライブエクスペリエンス用の広告エクスペリエンスタグの書き出しと実装
 
-特定のクリエイティブサイズまたはビデオ期間の広告タグが [ ライブ ](experience-about.md#experience-statuses) エクスペリエンスで使用可能になったら、JavaScript、iframe およびビデオ形式でタグを生成してコピーし、Advertising DSPまたは他の DSP に実装できます。 DSPのタグには、DSPに必要なすべてのマクロが含まれます。
+特定のクリエイティブサイズまたはビデオ期間の広告タグが [&#x200B; ライブ &#x200B;](experience-about.md#experience-statuses) エクスペリエンスで使用可能になったら、JavaScript、iframe およびビデオ形式でタグを生成してコピーし、Advertising DSPまたは他の DSP に実装できます。 DSPのタグには、DSPに必要なすべてのマクロが含まれます。
 
 Advertising DSPを使用する広告主は、オプションで、広告タイプが「標準ディスプレイ」または「ユニバーサルビデオ」の広告として、タグをAdvertising DSP キャンペーンに直接アップロードできます。
 
 >[!NOTE]
 >
 >* デシジョンツリーのターゲット設定でエクスペリエンスを作成すると、該当す [!DNL Creative] クリエイティブサイズ（非ビデオクリエイティブ）またはビデオデュレーション（ビデオクリエイティブ）ごとに自動的に広告タグが作成されます。
->* デシジョンツリーのターゲット設定を使用せずにエクスペリエンスを作成する場合は、該当するクリエイティブサイズ（非ビデオクリエイティブ）またはビデオデュレーション（ビデオクリエイティブ）ごとに [ 手動で広告タグを作成 ](experience-tag-create-manually.md) する必要があります。
+>* デシジョンツリーのターゲット設定を使用せずにエクスペリエンスを作成する場合は、該当するクリエイティブサイズ（非ビデオクリエイティブ）またはビデオデュレーション（ビデオクリエイティブ）ごとに [&#x200B; 手動で広告タグを作成 &#x200B;](experience-tag-create-manually.md) する必要があります。
 >* エクスペリエンスタグは動的です。 エクスペリエンスを編集する場合、タグを更新する必要はありません。
 >* 広告エクスペリエンスを実装するキャンペーンに、エクスペリエンスと互換性のあるターゲティングが含まれていることを確認してください。 階層ターゲティングの動作は、DSPによって異なる場合があります。 Advertising DSPでは、広告レベルのターゲティングは、プレースメントレベルのターゲティングの上（ではなく）に適用されます。
 
@@ -31,11 +31,11 @@ Advertising DSPを使用する広告主は、オプションで、広告タイ�
 
    * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします。
 
-1. 該当する広告タグの行の上にカーソルを置き、![ 広告タグの書き出し ](/help/creative/assets/export.png " 広告タグの書き出し ")**[!UICONTROL Export ad tags]** または&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]** のいずれかをクリックします。
+1. 該当する広告タグの行の上にカーソルを置き、![&#x200B; 広告タグの書き出し &#x200B;](/help/creative/assets/export.png " 広告タグの書き出し ")**[!UICONTROL Export ad tags]** または&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]** のいずれかをクリックします。
 
 >[!NOTE]
 >
->標準のビデオ広告エクスペリエンスの場合は、[!UICONTROL Tag Status] 列に「[!UICONTROL Ready]」が表示されるまで待ちます。これは、エクスペリエンス内のすべてのビデオがトランスコードされたことを示します。 すべてのビデオクリエイティブは、DSPによって自動的にトランスコードされますが、任意のビデオ広告エクスペリエンスタグに対して [ 別のDSP用のトランスコード ](experience-tag-video-transcoding.md) をオプションで適用することもできます。
+>標準のビデオ広告エクスペリエンスの場合は、[!UICONTROL Tag Status] 列に「[!UICONTROL Ready]」が表示されるまで待ちます。これは、エクスペリエンス内のすべてのビデオがトランスコードされたことを示します。 すべてのビデオクリエイティブは、DSPによって自動的にトランスコードされますが、任意のビデオ広告エクスペリエンスタグに対して [&#x200B; 別のDSP用のトランスコード &#x200B;](experience-tag-video-transcoding.md) をオプションで適用することもできます。
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -55,19 +55,19 @@ Advertising DSPを使用する広告主は、オプションで、広告タイ�
 
 1. [!UICONTROL Destinations] リストで、エクスペリエンスの広告を作成する場所を選択します。
 
-   * *汎用：* 他の DSP で作成する広告の場合。 **メモ：** 必要に応じて、手動で [ 追加マクロ ](/help/creative/creative-macros.md) を含める必要がある場合があります。
+   * *汎用：* 他の DSP で作成する広告の場合。 **メモ：** 必要に応じて、手動で [&#x200B; 追加マクロ &#x200B;](/help/creative/creative-macros.md) を含める必要がある場合があります。
 
    * *Adobe AdCloud:* 広告の場合は、Advertising DSPで作成します。
 
-   * *Google CM360:* 広告については、[!DNL Google Campaign Manager 360] で作成します。 **メモ：** 必要に応じて、手動で [ 追加マクロ ](/help/creative/creative-macros.md) を含める必要がある場合があります。
+   * *Google CM360:* 広告については、[!DNL Google Campaign Manager 360] で作成します。 **メモ：** 必要に応じて、手動で [&#x200B; 追加マクロ &#x200B;](/help/creative/creative-macros.md) を含める必要がある場合があります。
 
 1. 「**[!UICONTROL Generate tags]**」をクリックします。
 
 1. タグをコピーまたはダウンロードします。
 
-   * 1 つの広告サイズ（非ビデオ広告）またはデュレーション（ビデオ広告）のタグをコピーするには、タグ行を展開し、行の上にカーソルを置いて ![ コピー ](/help/creative/assets/copy.png " コピー ") **[!UICONTROL Copy]** をクリックします。<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
+   * 1 つの広告サイズ（非ビデオ広告）またはデュレーション（ビデオ広告）のタグをコピーするには、タグ行を展開し、行の上にカーソルを置いて ![&#x200B; コピー &#x200B;](/help/creative/assets/copy.png " コピー ") **[!UICONTROL Copy]** をクリックします。<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
 
-   * 生成されたすべてのタグをファイルとしてブラウザーのデフォルトのダウンロード場所にダウンロードするには、「![ タグをダウンロード ](/help/creative/assets/download.png " タグをダウンロード ")」をクリックします。
+   * 生成されたすべてのタグをファイルとしてブラウザーのデフォルトのダウンロード場所にダウンロードするには、「![&#x200B; タグをダウンロード &#x200B;](/help/creative/assets/download.png " タグをダウンロード ")」をクリックします。
 
    ファイルをテキストエディターで開いて、各タグをコピーできます。 JavaScript タグの場合、タグは `<script></script>` および `<noscript></noscript>`tags で囲まれます。 iframe タグの場合、タグは `<iframe></iframe>` タグで囲まれます。
 
@@ -101,7 +101,7 @@ Advertising DSPを使用する広告主は、オプションで、広告タイ�
 
 >[!MORELIKETHIS]
 >
->* [ 該当するクリエイティブサイズの広告タグを手動で作成 ](experience-tag-create-manually.md)
->* [ ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て ](experience-tag-assign-creatives.md)
->* [ 広告タグの名前を変更 ](experience-tag-rename.md)
->* [ ビデオ広告エクスペリエンスタグのトランスコーディングオプションのカスタマイズ ](experience-tag-video-transcoding.md)
+>* [&#x200B; 該当するクリエイティブサイズの広告タグを手動で作成 &#x200B;](experience-tag-create-manually.md)
+>* [&#x200B; ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て &#x200B;](experience-tag-assign-creatives.md)
+>* [&#x200B; 広告タグの名前を変更 &#x200B;](experience-tag-rename.md)
+>* [&#x200B; ビデオ広告エクスペリエンスタグのトランスコーディングオプションのカスタマイズ &#x200B;](experience-tag-video-transcoding.md)

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->画像タグとJavaScript タグのどちらを使用するかについて詳しくは、[ トラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md) を参照してください。
+>画像タグとJavaScript タグのどちらを使用するかについて詳しくは、[&#x200B; トラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md) を参照してください。
 
 * HTTP を使用するサイトの非セキュアタグ：
 
@@ -38,8 +38,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertisingのコンバージョントラッキングタグについて ](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Adobe Advertisingコンバージョンタグを生成 ](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [ コンバージョンおよびページビューのトラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
->* [JavaScript コンバージョントラッキングタグバージョン 2 の形式 ](format-conversion-tag-jsv2.md)
->* [JavaScript コンバージョントラッキングタグバージョン 3 の形式 ](format-conversion-tag-jsv3.md)
+>* [Adobe Advertisingのコンバージョントラッキングタグについて &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [Adobe Advertisingコンバージョンタグを生成 &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [&#x200B; コンバージョンおよびページビューのトラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
+>* [JavaScript コンバージョントラッキングタグバージョン 2 の形式 &#x200B;](format-conversion-tag-jsv2.md)
+>* [JavaScript コンバージョントラッキングタグバージョン 3 の形式 &#x200B;](format-conversion-tag-jsv3.md)

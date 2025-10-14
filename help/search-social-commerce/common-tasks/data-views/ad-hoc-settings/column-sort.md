@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- The same in new UI and legacy CM views -->
 
-1. （使用可能な場合）列見出しの右側にある ![ 下矢印 ](/help/search-social-commerce/assets/arrow-down-expand.png " 下矢印 ") をクリックします。
+1. （使用可能な場合）列見出しの右側にある ![&#x200B; 下矢印 &#x200B;](/help/search-social-commerce/assets/arrow-down-expand.png " 下矢印 ") をクリックします。
 
 1. 並べ替えオプションを選択します。
 

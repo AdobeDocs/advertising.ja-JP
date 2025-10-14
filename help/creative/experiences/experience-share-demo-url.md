@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
 
-1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
+1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
 
 1. 次のいずれかの操作を行います。
 
@@ -24,10 +24,10 @@ ht-degree: 0%
 
    * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Preview]** をクリックします。
 
-1. プレビューの右上にある「![ 共有 ](/help/creative/assets/share.png " 共有 ")」をクリックします。
+1. プレビューの右上にある「![&#x200B; 共有 &#x200B;](/help/creative/assets/share.png " 共有 ")」をクリックします。
 
 1. [!UICONTROL Share Demo URL] ダイアログで、「**[!UICONTROL Copy]**」をクリックして URL をクリップボードにコピーし、他のユーザーと共有できるようにします。
 
 >[!MORELIKETHIS]
 >
->* [ エクスペリエンスのプレビュー ](/help/creative/experiences/experience-preview.md)
+>* [&#x200B; エクスペリエンスのプレビュー &#x200B;](/help/creative/experiences/experience-preview.md)

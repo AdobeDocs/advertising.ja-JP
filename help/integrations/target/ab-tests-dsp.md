@@ -31,7 +31,7 @@ Adobe AdvertisingとAdobe Targetを使用すると、マーケターは、有料
 
 * [!DNL Target]
 
-* [[!DNL Analytics] Advertisingの場合 ](/help/integrations/analytics/overview.md)integration<!-- necessary for testing view-throughs, which most advertisers want to do -->
+* [[!DNL Analytics] Advertisingの場合 &#x200B;](/help/integrations/analytics/overview.md)integration<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
 * [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja) 統合
 
@@ -39,11 +39,11 @@ Adobe AdvertisingとAdobe Targetを使用すると、マーケターは、有料
 
 ## 手順 1：クリックスルーフレームワークの設定 {#click-through-framework}
 
-![ クリックスルーフレームワーク ](/help/integrations/assets/target-ct-framework.png)
+![&#x200B; クリックスルーフレームワーク &#x200B;](/help/integrations/assets/target-ct-framework.png)
 
 DSP マクロをクリックスルー URL （広告をクリックしてランディングページに到達したときに表示される URL）に追加すると、DSPはクリックスルー URL に `${TM_PLACEMENT_ID}` を含めることでプレースメントキーを自動的にキャプチャします。 このマクロは、数字の配置 ID ではなく、英数字の配置キーをキャプチャします。
 
-![ ランディングページ URL に追加されたクリックスルー URL](/help/integrations/assets/target-ct-url.jpg)
+![&#x200B; ランディングページ URL に追加されたクリックスルー URL](/help/integrations/assets/target-ct-url.jpg)
 
 ### （DSPのみ）クリックスルー URL へのDSP マクロの追加
 
@@ -59,15 +59,15 @@ Adobe アカウントチームに必要なプレースメントキーを取得�
 
 ## 手順 2:Audience Managerを使用したビュースルーフレームワークの設定 {#view-through-framework}
 
-![ ビュースルーフレームワーク ](/help/integrations/assets/targetr-vt-framework.png)
+![&#x200B; ビュースルーフレームワーク &#x200B;](/help/integrations/assets/targetr-vt-framework.png)
 
 広告タグおよびプレースメントの設定にAudience Manager インプレッションイベントピクセルを追加することで、テストセグメントを作成して、ビュースルーテストをさらに実現できます。
 
 1. 広告タグおよびDSP プレースメントの設定にAudience Manager インプレッションイベントピクセルを実装します。
 
-   手順については、「[Advertising DSP キャンペーンからメディア露出データを収集 ](/help/integrations/audience-manager/media-data-integration/collect.md)」を参照してください。
+   手順については、「[Advertising DSP キャンペーンからメディア露出データを収集 &#x200B;](/help/integrations/audience-manager/media-data-integration/collect.md)」を参照してください。
 
-   数値のプレースメント ID の [ を含め、インプレッションイベントピクセルで渡すすべてのデータを取得するために、](/help/dsp/campaign-management/macros.md)DSP マクロ `${TM_PLACEMENT_ID_NUM}` を必ず追加してください。
+   数値のプレースメント ID の [&#x200B; を含め、インプレッションイベントピクセルで渡すすべてのデータを取得するために、](/help/dsp/campaign-management/macros.md)DSP マクロ `${TM_PLACEMENT_ID_NUM}` を必ず追加してください。
 
    >[!NOTE]
    >
@@ -77,15 +77,15 @@ Adobe アカウントチームに必要なプレースメントキーを取得�
 
    1. セグメントデータが使用可能であることを確認します。
 
-      1. [ キーと値のペア ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=ja) について [ シグナルを検索 ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=ja) します。このペアは、セグメントユーザーをグループ化するレベルを決定します。
+      1. [&#x200B; キーと値のペア &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=ja) について [&#x200B; シグナルを検索 &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=ja) します。このペアは、セグメントユーザーをグループ化するレベルを決定します。
 
-         Audience Managerのインプレッションイベントピクセルに追加したマクロに対応する値を持つ [ サポートされているキー ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=ja) を使用します。
+         Audience Managerのインプレッションイベントピクセルに追加したマクロに対応する値を持つ [&#x200B; サポートされているキー &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=ja) を使用します。
 
          例えば、特定のプレースメントのユーザーをグループ化するには、`d_placement` キーを使用します。 値には、DSP マクロ `${TM_PLACEMENT_ID_NUM}` によってキャプチャされた実際の数値プレースメント ID （2501853 など）を使用します。<!-- Explain where to find the placement ID, other than in a custom report. -->
 
          検索結果に、キーと値のペアのユーザー数が表示され、ピクセルが正しく配置され、データがフローしていることを示す場合は、次のステップに進みます。
 
-   1. Audience Managerでセグメントを作成する場合は、[ ルールベースの特性を作成 ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=ja) します。
+   1. Audience Managerでセグメントを作成する場合は、[&#x200B; ルールベースの特性を作成 &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=ja) します。
 
       * テストアクティビティ内で識別しやすい名前を特性に付けます。 特性は、任意のフォルダーに保存します。
 
@@ -93,7 +93,7 @@ Adobe アカウントチームに必要なプレースメントキーを取得�
 
       * 特性式には、`d_event` として **[!UICONTROL Key]** を使用し、`imp` として **[!UICONTROL Value]** を使用します。
 
-   1. Audience Managerで新しい特性の [ テストセグメントを設定 ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=ja) し、`Ad Cloud` として **[!UICONTROL Data Source]** を選択します。
+   1. Audience Managerで新しい特性の [&#x200B; テストセグメントを設定 &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=ja) し、`Ad Cloud` として **[!UICONTROL Data Source]** を選択します。
 
       Audience Managerは、標準のランディングページエクスペリエンスを受け取るコントロールグループと、パーソナライズされたオンサイトエクスペリエンスを受け取るテストグループにセグメントを自動的に分割します。
 
@@ -101,15 +101,15 @@ Adobe アカウントチームに必要なプレースメントキーを取得�
 
 以下の手順では、DSPのユースケースに関する情報を重点的に説明します。
 
-1. [Adobe Targetにログインします ](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=ja)。
+1. [Adobe Targetにログインします &#x200B;](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=ja)。
 
-1. [A/B テストの作成 ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ja):
+1. [A/B テストの作成 &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ja):
 
    1. 「**[!UICONTROL Enter Activity URL]**」フィールドに、テストのランディングページ URL を入力します。
 
       >[!NOTE]
       >
-      >複数の URL を使用して、ビュースルーサイトのエントリをテストできます。 詳しくは、「複数ページアクティビティ [ を参照 ](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html?lang=ja) てください。 Analytics で [ サイトエントリレポート ](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports) を作成すると、ページ URL 別にトップエントリを簡単に識別できます。
+      >複数の URL を使用して、ビュースルーサイトのエントリをテストできます。 詳しくは、「複数ページアクティビティ [&#x200B; を参照 &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html?lang=ja) てください。 Analytics で [&#x200B; サイトエントリレポート &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports) を作成すると、ページ URL 別にトップエントリを簡単に識別できます。
 
    1. 「**[!UICONTROL Goal]**」フィールドに、テストの成功指標を入力します。
 
@@ -121,13 +121,13 @@ Adobe アカウントチームに必要なプレースメントキーを取得�
 
    1. **[!UICONTROL Reporting Settings]** 内で **[!UICONTROL Company Name]** を選択し、DSP アカウントに接続し **[!UICONTROL Report Suite]** す。
 
-      その他のレポートに関するヒントについては、[ レポートのベストプラクティスとトラブルシューティング ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=ja) を参照してください。
+      その他のレポートに関するヒントについては、[&#x200B; レポートのベストプラクティスとトラブルシューティング &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=ja) を参照してください。
 
    1. 「**[!UICONTROL Date Range]**」フィールドに、テストの適切な開始日と終了日を入力します。
 
    1. アクティビティにオーディエンスを追加します。
 
-      1. [Audience Managerで以前に作成した、ビュースルーオーディエンスをテストするセグメント ](#view-through-framework) を選択します。
+      1. [Audience Managerで以前に作成した、ビュースルーオーディエンスをテストするセグメント &#x200B;](#view-through-framework) を選択します。
 
       1. **[!UICONTROL Site Pages]**/**[!UICONTROL Landing Page]**/**[!UICONTROL Query]** を選択し、「**[!UICONTROL Value]**」フィールドにDSP プレースメントキーを入力して、クリックスルーオーディエンスに Target クエリ文字列パラメーターを使用します。
 
@@ -193,12 +193,12 @@ Analysis Workspace内でアクティビティとエクスペリエンスのデ�
 
 ## 参考情報
 
-* [Target とAnalysis Workspaceの統合 ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=ja) - Analytics で [!DNL Target] レポートを設定する方法について説明します。
-* [A/B テストの概要 ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=ja) - DSP広告で使用できる A/B テストアクティビティについて説明します。
-* [ エクスペリエンスとオファー ](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=ja) - DSPのテストユーザーの公開先となるオンサイトコンテンツを決定するための [!DNL Target] のツールについて説明します。
-* [ シグナル、特性、セグメント ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=ja) - DSPのビュースルーテストに役立つAudience Manager ツールの一部を定義します。
-* [Analytics for Advertisingの概要 ](/help/integrations/analytics/overview.md) - Analytics for Advertisingについて説明します。この機能を使用すると、Analytics インスタンスでのクリックスルーおよびビュースルーサイトインタラクションをトラッキングできます。
+* [Target とAnalysis Workspaceの統合 &#x200B;](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=ja) - Analytics で [!DNL Target] レポートを設定する方法について説明します。
+* [A/B テストの概要 &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=ja) - DSP広告で使用できる A/B テストアクティビティについて説明します。
+* [&#x200B; エクスペリエンスとオファー &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=ja) - DSPのテストユーザーの公開先となるオンサイトコンテンツを決定するための [!DNL Target] のツールについて説明します。
+* [&#x200B; シグナル、特性、セグメント &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=ja) - DSPのビュースルーテストに役立つAudience Manager ツールの一部を定義します。
+* [Analytics for Advertisingの概要 &#x200B;](/help/integrations/analytics/overview.md) - Analytics for Advertisingについて説明します。この機能を使用すると、Analytics インスタンスでのクリックスルーおよびビュースルーサイトインタラクションをトラッキングできます。
 
 >[!MORELIKETHIS]
 >
->* [Adobe TargetでAdvertising検索、ソーシャル、Commerce広告用に A/B テストを設定する ](ab-tests-search.md)
+>* [Adobe TargetでAdvertising検索、ソーシャル、Commerce広告用に A/B テストを設定する &#x200B;](ab-tests-search.md)

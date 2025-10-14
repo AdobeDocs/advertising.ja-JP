@@ -18,9 +18,9 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** をクリックし、[!UICONTROL Alert Templates] ビューを開きます。
 
-1. ツールバーで「![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")」をクリックし、評価するエンティティタイプ（[!UICONTROL Portfolio]、[!UICONTROL Account]、[!UICONTROL Campaign]、[!UICONTROL Ad Group]、[!UICONTROL Keyword]、[!UICONTROL Ad] または [!UICONTROL Product Group]）を選択します。
+1. ツールバーで「![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ")」をクリックし、評価するエンティティタイプ（[!UICONTROL Portfolio]、[!UICONTROL Account]、[!UICONTROL Campaign]、[!UICONTROL Ad Group]、[!UICONTROL Keyword]、[!UICONTROL Ad] または [!UICONTROL Product Group]）を選択します。
 
-1. [!UICONTROL Create \[Entity\] Alert] ウィンドウで、「**[!UICONTROL Date Range]**」、「**[!UICONTROL Filters]**」、「**[!UICONTROL Scheduling and Delivery]**」の各タブの [ アラート設定 ](alert-template-settings.md) を指定します。
+1. [!UICONTROL Create \[Entity\] Alert] ウィンドウで、「**[!UICONTROL Date Range]**」、「**[!UICONTROL Filters]**」、「**[!UICONTROL Scheduling and Delivery]**」の各タブの [&#x200B; アラート設定 &#x200B;](alert-template-settings.md) を指定します。
 
 タブ間を移動するには、タブ名（「フィルター」など）をクリックするか、右下の「**[!UICONTROL Next]**」をクリックします。
 
@@ -36,13 +36,13 @@ ht-degree: 0%
 
 例えば、キーワードレベルのアラートテンプレートを作成するには、[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] に移動し、「[!UICONTROL Keywords]」を選択します。
 
-1. データ テーブルの上にあるツールバーの右側で、[![ アラートの作成 ](/help/search-social-commerce/assets/add-alert.png " アラートの作成 ")] をクリックします。
+1. データ テーブルの上にあるツールバーの右側で、[![&#x200B; アラートの作成 &#x200B;](/help/search-social-commerce/assets/add-alert.png " アラートの作成 ")] をクリックします。
 
 >[!NOTE]
 >
 >特定の行を選択する必要はありません。
 
-1. [!UICONTROL Create \[Entity type\] Alert] ウィンドウで、「**[!UICONTROL Date Range]**」、「**[!UICONTROL Filters]**」、「**[!UICONTROL Scheduling and Delivery]**」の各タブの [ アラート設定 ](alert-template-settings.md) を指定します。
+1. [!UICONTROL Create \[Entity type\] Alert] ウィンドウで、「**[!UICONTROL Date Range]**」、「**[!UICONTROL Filters]**」、「**[!UICONTROL Scheduling and Delivery]**」の各タブの [&#x200B; アラート設定 &#x200B;](alert-template-settings.md) を指定します。
 
 タブ間を移動するには、タブ名（「フィルター」など）をクリックするか、右下の「**[!UICONTROL Next]**」をクリックします。
 
@@ -50,11 +50,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ カスタムアラートについて ](alert-about.md)
->* [ カスタムアラートテンプレートの編集 ](alert-template-edit.md)
->* [ カスタムアラートテンプレートの一時停止 ](alert-template-pause.md)
->* [ カスタムアラートテンプレートのアクティブ化 ](alert-template-activate.md)
->* [ カスタムアラートテンプレートの削除 ](alert-template-delete.md)
->* [ カスタムアラートテンプレートの設定 ](alert-template-settings.md)
->* [ カスタムアラートの表示 ](alert-view.md)
->* [ カスタムアラートのデータのエクスポート ](alert-export-data.md)
+>* [&#x200B; カスタムアラートについて &#x200B;](alert-about.md)
+>* [&#x200B; カスタムアラートテンプレートの編集 &#x200B;](alert-template-edit.md)
+>* [&#x200B; カスタムアラートテンプレートの一時停止 &#x200B;](alert-template-pause.md)
+>* [&#x200B; カスタムアラートテンプレートのアクティブ化 &#x200B;](alert-template-activate.md)
+>* [&#x200B; カスタムアラートテンプレートの削除 &#x200B;](alert-template-delete.md)
+>* [&#x200B; カスタムアラートテンプレートの設定 &#x200B;](alert-template-settings.md)
+>* [&#x200B; カスタムアラートの表示 &#x200B;](alert-view.md)
+>* [&#x200B; カスタムアラートのデータのエクスポート &#x200B;](alert-export-data.md)

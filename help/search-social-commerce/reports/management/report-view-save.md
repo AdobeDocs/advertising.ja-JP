@@ -36,11 +36,11 @@ Web ブラウザでレポートを表示したり、レポート データを [!
 
 >[!MORELIKETHIS]
 >
->* [ レポートについて ](/help/search-social-commerce/reports/report-about.md)
->* [ 基本レポートまたは詳細レポートの生成 ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
->* [ モデル精度レポートの生成 ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-generate.md)
->* [ 専門レポートの生成 ](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [ アシストレポートの生成 ](/help/search-social-commerce/reports/management/assist/assist-report-generate.md)
->* [ テンプレートからのレポートの生成 ](/help/search-social-commerce/reports/management/report-generate-from-template.md)
->* [ 既存レポートからのレポートの生成 ](/help/search-social-commerce/reports/management/report-generate-from-existing.md)
->* [ 報告書の削除 ](/help/search-social-commerce/reports/management/report-delete.md)
+>* [&#x200B; レポートについて &#x200B;](/help/search-social-commerce/reports/report-about.md)
+>* [&#x200B; 基本レポートまたは詳細レポートの生成 &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+>* [&#x200B; モデル精度レポートの生成 &#x200B;](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-generate.md)
+>* [&#x200B; 専門レポートの生成 &#x200B;](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
+>* [&#x200B; アシストレポートの生成 &#x200B;](/help/search-social-commerce/reports/management/assist/assist-report-generate.md)
+>* [&#x200B; テンプレートからのレポートの生成 &#x200B;](/help/search-social-commerce/reports/management/report-generate-from-template.md)
+>* [&#x200B; 既存レポートからのレポートの生成 &#x200B;](/help/search-social-commerce/reports/management/report-generate-from-existing.md)
+>* [&#x200B; 報告書の削除 &#x200B;](/help/search-social-commerce/reports/management/report-delete.md)

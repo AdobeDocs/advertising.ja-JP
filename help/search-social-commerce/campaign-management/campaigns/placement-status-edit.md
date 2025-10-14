@@ -22,18 +22,18 @@ ht-degree: 0%
 
 1. ステータスを変更する入札可能プレースメントまたはネガティブプレースメントの横にあるチェックボックスをオンにします。
 
-   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+   複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
 1. ツールバーの「ステータス」ボタンをクリックします。
 
-   * （入札可能プレースメントのみ）行をアクティブ化するには、「![ アクティブ化 ](/help/search-social-commerce/assets/activate.png " アクティブ化 ")」をクリックします。
+   * （入札可能プレースメントのみ）行をアクティブ化するには、「![&#x200B; アクティブ化 &#x200B;](/help/search-social-commerce/assets/activate.png " アクティブ化 ")」をクリックします。
 
-   * （入札可能なプレースメントのみ）行を一時停止するには、「![ 一時停止 ](/help/search-social-commerce/assets/pause.png " 一時停止 ")」をクリックします。
+   * （入札可能なプレースメントのみ）行を一時停止するには、「![&#x200B; 一時停止 &#x200B;](/help/search-social-commerce/assets/pause.png " 一時停止 ")」をクリックします。
 
    * 行を削除するには、「![ その他 ")」をクリックし ] (/help/search-social-commerce/assets/more.png " 「**[!UICONTROL Delete]**」を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ プレースメントについて ](placement-about.md)
->* [ 入札可能プレースメントの管理 ](placement-manage.md)
->* [ ネガティブプレースメントの作成 ](placement-negative-create.md)
+>* [&#x200B; プレースメントについて &#x200B;](placement-about.md)
+>* [&#x200B; 入札可能プレースメントの管理 &#x200B;](placement-manage.md)
+>* [&#x200B; ネガティブプレースメントの作成 &#x200B;](placement-negative-create.md)

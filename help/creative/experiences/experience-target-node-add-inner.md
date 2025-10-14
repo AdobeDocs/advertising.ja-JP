@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ターゲットノードを決定ツリーの下位レベルに追加するには、「[ エクスペリエンスの最終レベルにターゲットノードを追加する ](experience-target-node-add-final.md) を参照してください。
+>ターゲットノードを決定ツリーの下位レベルに追加するには、「[&#x200B; エクスペリエンスの最終レベルにターゲットノードを追加する &#x200B;](experience-target-node-add-final.md) を参照してください。
 
 <!-- 1. [ways to get to the decision tree] -->
 
-1. ターゲットを挿入するノードの下で、「![ 追加 ](/help/creative/assets/add.png " 追加 ")」をクリックし、「**[!UICONTROL Insert New Target]**」を選択します。
+1. ターゲットを挿入するノードの下で、「![&#x200B; 追加 &#x200B;](/help/creative/assets/add.png " 追加 ")」をクリックし、「**[!UICONTROL Insert New Target]**」を選択します。
 
 1. 次のいずれかの操作を行います。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
          1. [**[!UICONTROL Click to Browse]**] をクリックして [!UICONTROL Geo Targeting] のオプションを開き、1 つ以上の地理的ターゲットを指定して、[**[!UICONTROL Save]**] をクリックします。
 
-            郵便番号ターゲットには一括編集オプションがあります。 複数の郵便番号を貼り付けるには、[**[!UICONTROL Paste postal codes]**] タブをクリックし、国を選択して、郵便番号をコンマまたは行で区切って貼り付けるか入力して、[**[!UICONTROL Include All]**] をクリックします。 含まれている郵便番号のターゲットを削除するには、ターゲットの上にカーソルを置き、「![ 削除 ](/help/creative/assets/delete.png " 削除 ")」 **[!UICONTROL Remove]** タンをクリックします。
+            郵便番号ターゲットには一括編集オプションがあります。 複数の郵便番号を貼り付けるには、[**[!UICONTROL Paste postal codes]**] タブをクリックし、国を選択して、郵便番号をコンマまたは行で区切って貼り付けるか入力して、[**[!UICONTROL Include All]**] をクリックします。 含まれている郵便番号のターゲットを削除するには、ターゲットの上にカーソルを置き、「![&#x200B; 削除 &#x200B;](/help/creative/assets/delete.png " 削除 ")」 **[!UICONTROL Remove]** タンをクリックします。
 
          1. （オプション）複数の地理的ターゲットが指定されている場合に複数のターゲット・ノードを作成するには、「**[!UICONTROL Split targets to create nodes]**」を選択します。
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 
       * データ受け渡しターゲットの場合、必要に応じてデータ受け渡しキーをカスタマイズし、データ受け渡し値を 1 つ入力し、「**[!UICONTROL Apply]**」をクリックします。
 
-        キーと値のペアのキーのデフォルト値は、**[!UICONTROL Data Pass]** エクスペリエンス設定 [!UICONTROL Advanced] の [ セクションの ](experience-settings-targeting.md) フィールドに既に設定されています。 オプションで、このキーをカスタマイズできます。
+        キーと値のペアのキーのデフォルト値は、**[!UICONTROL Data Pass]** エクスペリエンス設定 [!UICONTROL Advanced] の [&#x200B; セクションの &#x200B;](experience-settings-targeting.md) フィールドに既に設定されています。 オプションで、このキーをカスタマイズできます。
 
       * リターゲティングピクセルターゲットの場合は、使用するリターゲティングピクセルを 1 つ選択し、クリエイティブの表示に必要なピクセルの属性の値を選択して、「**[!UICONTROL Apply]**」をクリックします。
 
-        リターゲティングピクセルの属性は、[ リターゲティングピクセル設定 ](/help/creative/pixels/retargeting-pixel-manage.md) で設定します。
+        リターゲティングピクセルの属性は、[&#x200B; リターゲティングピクセル設定 &#x200B;](/help/creative/pixels/retargeting-pixel-manage.md) で設定します。
 
       * デバイス・ターゲットの場合は、次の手順を実行します。
 
@@ -120,9 +120,9 @@ ht-degree: 0%
 
 1. 次のいずれかの操作をおこないます。
 
-   * （任意） [ クリエイティブの割り当て ](experience-assign-creative-bundles.md) を新しいターゲットノードと「その他すべて」ノードに割り当てます。
+   * （任意） [&#x200B; クリエイティブの割り当て &#x200B;](experience-assign-creative-bundles.md) を新しいターゲットノードと「その他すべて」ノードに割り当てます。
 
-   * （任意）指定したターゲットタイプの [ 兄弟ターゲットノードを追加 ](experience-target-node-add-sibling.md) します。
+   * （任意）指定したターゲットタイプの [&#x200B; 兄弟ターゲットノードを追加 &#x200B;](experience-target-node-add-sibling.md) します。
 
    * （オプション）エクスペリエンスを保存するには、次の手順に従います。
 
@@ -140,11 +140,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 最終レベルへのターゲットノードの追加 ](experience-target-node-add-final.md)
->* [ ノード間に兄弟ターゲットノードを追加する ](experience-target-node-add-sibling.md)
->* [ 子ノードとクリエイティブを同じレベルの別のノードにコピーする ](experience-target-node-copy.md)
->* [ 最終ノードへのクリエイティブの割り当て ](experience-assign-creative-bundles.md)
->* [ ターゲットノードまたはクリエイティブリーフノードの削除 ](/help/creative/experiences/experience-target-node-delete.md)
->* [ デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 ](experience-create-targeting.md)
->* [ デシジョンツリーのターゲット設定を使用したエクスペリエンスの編集 ](experience-edit-targeting.md)
->* [ ターゲット設定エクスペリエンス設定 ](experience-settings-targeting.md)
+>* [&#x200B; 最終レベルへのターゲットノードの追加 &#x200B;](experience-target-node-add-final.md)
+>* [&#x200B; ノード間に兄弟ターゲットノードを追加する &#x200B;](experience-target-node-add-sibling.md)
+>* [&#x200B; 子ノードとクリエイティブを同じレベルの別のノードにコピーする &#x200B;](experience-target-node-copy.md)
+>* [&#x200B; 最終ノードへのクリエイティブの割り当て &#x200B;](experience-assign-creative-bundles.md)
+>* [&#x200B; ターゲットノードまたはクリエイティブリーフノードの削除 &#x200B;](/help/creative/experiences/experience-target-node-delete.md)
+>* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 &#x200B;](experience-create-targeting.md)
+>* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンスの編集 &#x200B;](experience-edit-targeting.md)
+>* [&#x200B; ターゲット設定エクスペリエンス設定 &#x200B;](experience-settings-targeting.md)

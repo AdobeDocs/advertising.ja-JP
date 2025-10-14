@@ -14,9 +14,9 @@ ht-degree: 0%
 
 *Adobe AdvertisingとAdobe Analyticsの統合のみを行う広告主*
 
-Adobe AdvertisingとAdobe Analyticsの統合を利用する広告主の場合、Advertising Cloudは、[ 入札単位 ](/help/search-social-commerce/glossary.md#a-b) のクリックトラッキング URL でトークン（`ef_id` パラメーター）を使用してリダイレクトを使用する際に、[!DNL Analytics] が追跡するサイトエンゲージメントおよびコンバージョン指標に、広告のクリック数およびインプレッション数を結び付けることができます。 [!DNL Analytics] データは、毎日のフィードファイルを介してAdvertising Cloudに自動的に送信されます。
+Adobe AdvertisingとAdobe Analyticsの統合を利用する広告主の場合、Advertising Cloudは、[&#x200B; 入札単位 &#x200B;](/help/search-social-commerce/glossary.md#a-b) のクリックトラッキング URL でトークン（`ef_id` パラメーター）を使用してリダイレクトを使用する際に、[!DNL Analytics] が追跡するサイトエンゲージメントおよびコンバージョン指標に、広告のクリック数およびインプレッション数を結び付けることができます。 [!DNL Analytics] データは、毎日のフィードファイルを介してAdvertising Cloudに自動的に送信されます。
 
-統合について詳しくは、「[ の概要  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/ja/docs/advertising/integrations/analytics/overview){target="_blank"}」を参照してください。
+統合について詳しくは、「[&#x200B; の概要  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/ja/docs/advertising/integrations/analytics/overview){target="_blank"}」を参照してください。
 
 >[!PREREQUISITES]
 >
@@ -44,4 +44,4 @@ Adobe AdvertisingとAdobe Analyticsの統合を利用する広告主の場合、
 
 >[!MORELIKETHIS]
 >
->* [ コンバージョントラッキングオプション ](conversion-tracking-about.md)
+>* [&#x200B; コンバージョントラッキングオプション &#x200B;](conversion-tracking-about.md)

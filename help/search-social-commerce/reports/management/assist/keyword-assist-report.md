@@ -33,22 +33,22 @@ ht-degree: 0%
 
 | 列 | デフォルト？ | 説明 |
 | ---- | ---- | ---- |
-| [!UICONTROL 1st Keyword] ～ [!UICONTROL 5th Keyword] | デフォルト | 広告主の [ クリックルックバックウィンドウ ](/help/search-social-commerce/glossary.md#c-d) および [ インプレッションルックバックウィンドウ ](/help/search-social-commerce/glossary.md#i-j) 内で発生したコンバージョンパスでの 5 つの最も早い有料検索キーワードまたはプレースメントのクリック。<br><br><b> メモ：</b> レポートにコンテンツ対応の検索キャンペーン（キーワードを含まない）からのプレースメントが含まれる場合、これらの列には、該当する広告グループ名（「（広告グループコンテンツ）広告グループ名」など）が表示されます。 |
-| [!UICONTROL Path Size] | デフォルト | 広告主の [ クリックルックバックウィンドウ ](/help/search-social-commerce/glossary.md#c-d) および [ インプレッションルックバックウィンドウ ](/help/search-social-commerce/glossary.md#i-j) 内で発生したコンバージョンパス内のキーワードやプレースメントの数。 |
+| [!UICONTROL 1st Keyword] ～ [!UICONTROL 5th Keyword] | デフォルト | 広告主の [&#x200B; クリックルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#c-d) および [&#x200B; インプレッションルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j) 内で発生したコンバージョンパスでの 5 つの最も早い有料検索キーワードまたはプレースメントのクリック。<br><br><b> メモ：</b> レポートにコンテンツ対応の検索キャンペーン（キーワードを含まない）からのプレースメントが含まれる場合、これらの列には、該当する広告グループ名（「（広告グループコンテンツ）広告グループ名」など）が表示されます。 |
+| [!UICONTROL Path Size] | デフォルト | 広告主の [&#x200B; クリックルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#c-d) および [&#x200B; インプレッションルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j) 内で発生したコンバージョンパス内のキーワードやプレースメントの数。 |
 | [!UICONTROL First Keyword] | デフォルト | 変換パスの最初のキーワードまたはプレースメント。 |
 | [!UICONTROL Last Keyword] | デフォルト | コンバージョンが発生した最後のキーワードまたはプレースメント （最後のキーワードが指定されたパスサイズを超えている場合でも） |
 | \[ 広告主固有のカスタム （派生）指標\] | カスタム | 既存の指標から計算された、作成したカスタム指標の値。 |
 | \[ 広告主固有のコンバージョン指標\] | カスタム | 指定したコンバージョン指標またはサイトエンゲージメント指標のコンバージョン数。 |
 | [!UICONTROL % of Total] \[ コンバージョン指標\] | 自動 | （レポート設定では利用できませんが、含まれる各コンバージョン指標のレポート出力には自動的に含まれます） キーワードおよび/または配置パターンに起因したポートフォリオ全体のコンバージョンの割合。 |
-| [!UICONTROL 6th Keyword] ～ [!UICONTROL 10th Keyword] | カスタム | 広告主の [ クリックルックバックウィンドウ ](/help/search-social-commerce/glossary.md#c-d) および [ インプレッションルックバックウィンドウ ](/help/search-social-commerce/glossary.md#i-j) 内で発生したコンバージョンパスの 6 ～ 10 回目の有料検索キーワードまたはプレースメントのクリック。<br><br><b> メモ：</b> レポートにコンテンツ対応の検索キャンペーン（キーワードを含まない）からのプレースメントが含まれる場合、これらの列には、該当する広告グループ名（「（広告グループコンテンツ）広告グループ名」など）が表示されます。 |
+| [!UICONTROL 6th Keyword] ～ [!UICONTROL 10th Keyword] | カスタム | 広告主の [&#x200B; クリックルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#c-d) および [&#x200B; インプレッションルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j) 内で発生したコンバージョンパスの 6 ～ 10 回目の有料検索キーワードまたはプレースメントのクリック。<br><br><b> メモ：</b> レポートにコンテンツ対応の検索キャンペーン（キーワードを含まない）からのプレースメントが含まれる場合、これらの列には、該当する広告グループ名（「（広告グループコンテンツ）広告グループ名」など）が表示されます。 |
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[ コンバージョン指標\] | 自動 | （レポート設定では利用できませんが、各コンバージョン指標のレポート出力に自動的に含まれます）最初のイベント（最初のキーワードまたはプレースメント）からコンバージョンまでの平均待ち時間（日数）。 |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[ コンバージョン指標\] | 自動 | （レポート設定では使用できませんが、レポート出力に自動的に含まれます）最後のイベント（最後のキーワードまたはプレースメント）からコンバージョンまでの平均待ち時間（日数）。 |
 | [!UICONTROL Path Frequency] | カスタム | 変換前にこの行のパスが発生した回数。 |
 
 >[!MORELIKETHIS]
 >
->* [ アシストレポートについて ](assist-report-about.md)
+>* [&#x200B; アシストレポートについて &#x200B;](assist-report-about.md)
 >* [[!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
 >* [[!UICONTROL Channel Assist Report]](channel-assist-report.md)
->* [ レポート設定の支援 ](assist-report-settings.md)
->* [ アシストレポートの生成 ](assist-report-generate.md)
+>* [&#x200B; レポート設定の支援 &#x200B;](assist-report-settings.md)
+>* [&#x200B; アシストレポートの生成 &#x200B;](assist-report-generate.md)

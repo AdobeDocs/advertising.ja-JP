@@ -32,8 +32,8 @@ ht-degree: 0%
 
 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] ビューで、動的検索ターゲットのステータスを作成、編集および変更できます。
 
-また、任意のターゲットに [ ラベルを適用 ](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md) することもできます。
+また、任意のターゲットに [&#x200B; ラベルを適用 &#x200B;](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md) することもできます。
 
 >[!MORELIKETHIS]
 >
->* [ 動的検索タ  [!DNL Google Ads]  ゲットの管理 ](dynamic-search-target-manage.md)
+>* [&#x200B; 動的検索タ  [!DNL Google Ads]  ゲットの管理 &#x200B;](dynamic-search-target-manage.md)

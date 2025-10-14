@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->プログラムで保証された取引を [!DNL FreeWheel] で設定するには、追加の権限と手順が必要です。 詳しくは、「[FreeWheel でプログラムで保証された取引の設定の概要 ](freewheel-overview.md)」を参照してください。
+>プログラムで保証された取引を [!DNL FreeWheel] で設定するには、追加の権限と手順が必要です。 詳しくは、「[FreeWheel でプログラムで保証された取引の設定の概要 &#x200B;](freewheel-overview.md)」を参照してください。
 
 1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals].** をクリックします。
 
@@ -30,13 +30,13 @@ ht-degree: 0%
 
 1. （以前に取引を無視した場合） [**[!UICONTROL Ignored Deals]**] タブをクリックします。
 
-1. パブリッシャーや日付などの取引の詳細を確認するには、取引行の上にカーソルを置いて「![ 確認 ](/help/dsp/assets/review.png)」をクリックします。
+1. パブリッシャーや日付などの取引の詳細を確認するには、取引行の上にカーソルを置いて「![&#x200B; 確認 &#x200B;](/help/dsp/assets/review.png)」をクリックします。
 
 1. 次のいずれかの操作をおこないます。
 
    * 取引詳細で、「**[!UICONTROL Accept]**」をクリックします。
 
-   * [!UICONTROL Deal ID inbox] で、取引行の上にカーソルを置き、![ 同意 ](/help/dsp/assets/accept.png) をクリックします。
+   * [!UICONTROL Deal ID inbox] で、取引行の上にカーソルを置き、![&#x200B; 同意 &#x200B;](/help/dsp/assets/accept.png) をクリックします。
 
 1. 取引の詳細で：
    1. 必要な情報（**[!UICONTROL Publisher]**、**[!UICONTROL Media Type]**、**[!UICONTROL Deal Access]**）を入力します。
@@ -50,8 +50,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 取引 ID インボックスについて ](deal-id-inbox-about.md)
->* [ プログラムで保証された取引の設定 ](programmatic-guaranteed-set-up.md)
->* [ プログラムで保証された取引の広告を送信  [!DNL FreeWheel]](freewheel-submit.md)
->* [ プログラムで保証された取引について ](programmatic-guaranteed-about.md)
->* [ インベントリ機能の概要 ](inventory-overview.md)
+>* [&#x200B; 取引 ID インボックスについて &#x200B;](deal-id-inbox-about.md)
+>* [&#x200B; プログラムで保証された取引の設定 &#x200B;](programmatic-guaranteed-set-up.md)
+>* [&#x200B; プログラムで保証された取引の広告を送信  [!DNL FreeWheel]](freewheel-submit.md)
+>* [&#x200B; プログラムで保証された取引について &#x200B;](programmatic-guaranteed-about.md)
+>* [&#x200B; インベントリ機能の概要 &#x200B;](inventory-overview.md)

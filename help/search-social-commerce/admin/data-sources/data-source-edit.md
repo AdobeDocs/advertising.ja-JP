@@ -19,18 +19,18 @@ ht-degree: 0%
 
 1. 編集するデータソースの横にあるチェックボックスをオンにします。
 
-1. データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")] をクリックします。
+1. データ テーブルの上にあるツールバーで、[![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ")] をクリックします。
 
-1. [ データソース設定 ](data-source-settings.md) を編集します。
+1. [&#x200B; データソース設定 &#x200B;](data-source-settings.md) を編集します。
 
 1. 「**[!UICONTROL Post]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ 同期  [!DNL Google Analytics]  コンバージョン指標について ](data-source-about.md)
->* [ データソースを設定するため  [!DNL Google Analytics]  前提条件 ](data-source-prerequisites.md)
->* [ データソースとして  [!DNL Google Analytics]  ビューを設定する ](data-source-configure.md)
->* [ データソースの同期の一時停止 ](data-source-pause.md)
->* [ データソース  [!DNL Google Analytics]  再認証 ](data-source-reauthenticate.md)
->* [[!DNL Google Analytics]  データソース設定 ](data-source-settings.md)
->* [ 付録 – 利用可能  [!DNL Google Analytics]  指標 ](data-source-ga-metrics.md)
+>* [&#x200B; 同期  [!DNL Google Analytics]  コンバージョン指標について &#x200B;](data-source-about.md)
+>* [&#x200B; データソースを設定するため  [!DNL Google Analytics]  前提条件 &#x200B;](data-source-prerequisites.md)
+>* [&#x200B; データソースとして  [!DNL Google Analytics]  ビューを設定する &#x200B;](data-source-configure.md)
+>* [&#x200B; データソースの同期の一時停止 &#x200B;](data-source-pause.md)
+>* [&#x200B; データソース  [!DNL Google Analytics]  再認証 &#x200B;](data-source-reauthenticate.md)
+>* [[!DNL Google Analytics]  データソース設定 &#x200B;](data-source-settings.md)
+>* [&#x200B; 付録 – 利用可能  [!DNL Google Analytics]  指標 &#x200B;](data-source-ga-metrics.md)

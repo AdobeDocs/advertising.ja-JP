@@ -35,7 +35,7 @@ ht-degree: 0%
 >
 >既存のレポート宛先の資格情報を更新しても、資格情報が有効な限り、レポートの配信が中断されることはありません。
 
-![ レポートの宛先 ](/help/dsp/assets/report-destinations.png)
+![&#x200B; レポートの宛先 &#x200B;](/help/dsp/assets/report-destinations.png)
 
 >[!MORELIKETHIS]
 >

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-既存の [ アカウントの ](/help/integrations/analytics/ids.md#amo-id-formats)AMO ID トラッキングコード [!DNL Google Ads] の従来（2019 年 10 月以前）の形式では、Analytics の一部の機能がサポートされません。例えば、[!DNL Google Ads] Performance MAX キャンペーン、ドラフトおよび実験キャンペーンのキャンペーンレベルおよび広告グループレベルでのレポートや、複数のキャンペーンで同じ広告+キーワード+一致タイプの組み合わせが存在する他のユースケースなどです。
+既存の [&#x200B; アカウントの &#x200B;](/help/integrations/analytics/ids.md#amo-id-formats)AMO ID トラッキングコード [!DNL Google Ads] の従来（2019 年 10 月以前）の形式では、Analytics の一部の機能がサポートされません。例えば、[!DNL Google Ads] Performance MAX キャンペーン、ドラフトおよび実験キャンペーンのキャンペーンレベルおよび広告グループレベルでのレポートや、複数のキャンペーンで同じ広告+キーワード+一致タイプの組み合わせが存在する他のユースケースなどです。
 
 現在の形式には、キャンペーン ID と広告グループ ID のパラメーターが含まれます。
 
@@ -36,7 +36,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
 1. メインメニューで、「\>」 **[!UICONTROL Search, Social, & Commerce]** 「\>」 **[!UICONTROL Campaigns]** 「\>」をクリッ **[!UICONTROL Campaigns]** します。 サブメニューで、[\> **[!UICONTROL Live]**]&#x200B;**[!UICONTROL Accounts]** クリックします。
 
-1. アカウント名の上にカーソルを置き、![ 矢印ドロップダウンアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png) をクリックして、「**[!UICONTROL Edit]**」を選択します。
+1. アカウント名の上にカーソルを置き、![&#x200B; 矢印ドロップダウンアイコン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png) をクリックして、「**[!UICONTROL Edit]**」を選択します。
 
 1. 「**[!UICONTROL Set Account Tracking]**」をクリックします。
 
@@ -60,7 +60,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
    * トラッキング設定で「[!UICONTROL Auto Upload]」機能が有効になっている場合、検索、ソーシャルおよびCommerceは、このアカウントおよびそのキャンペーンのランディングページサフィックスのトラッキングコードを自動的に更新します。 何もする必要はありません。
 
-   * [!UICONTROL Auto Upload]」機能が有効ではなく、[ サーバーサイド AMO ID 機能 ](/help/integrations/analytics/ids.md#amo-id-formats) を使用しない場合、ランディングページのサフィックス設定の AMO ID パラメーターを手動で更新する必要があります。 アカウントレベルとキャンペーンレベルのサフィックスは、[ アカウント設定 ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) および [ キャンペーン設定 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) または [ バルクシートに変更内容をアップロード ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) することで手動で変更できます。 広告グループレベル以下にサフィックスを設定するには、[!DNL Google Ads] エディターを使用します。
+   * [!UICONTROL Auto Upload]」機能が有効ではなく、[&#x200B; サーバーサイド AMO ID 機能 &#x200B;](/help/integrations/analytics/ids.md#amo-id-formats) を使用しない場合、ランディングページのサフィックス設定の AMO ID パラメーターを手動で更新する必要があります。 アカウントレベルとキャンペーンレベルのサフィックスは、[&#x200B; アカウント設定 &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) および [&#x200B; キャンペーン設定 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) または [&#x200B; バルクシートに変更内容をアップロード &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) することで手動で変更できます。 広告グループレベル以下にサフィックスを設定するには、[!DNL Google Ads] エディターを使用します。
 
    * キャンペーンコンポーネントのベース URL 設定に AMO ID を含める場合は、関連するランディングページのサフィックス設定に移動します。
 
@@ -68,6 +68,6 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
 >[!MORELIKETHIS]
 >
->* [ 広告ネットワークアカウントの管理 ](ad-network-account-manage.md)
->* [ 使用するAdobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [ 概要  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ja){target="_blank"}
+>* [&#x200B; 広告ネットワークアカウントの管理 &#x200B;](ad-network-account-manage.md)
+>* [&#x200B; 使用するAdobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [&#x200B; 概要  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ja){target="_blank"}

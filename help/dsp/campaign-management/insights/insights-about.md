@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼーションを使用せずに、タブのすべてのビジュアライゼーションをPDF ファイルに書き出したり、特定のinsightのデータをダウンロードしたりできます。
 
-また、キャンペーン管理ビューの場合と同様に、[ 日付範囲の変更、ビューの設定 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} カスタムビューの保存を行うこともできます。
+また、キャンペーン管理ビューの場合と同様に、[&#x200B; 日付範囲の変更、ビューの設定 &#x200B;](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} カスタムビューの保存を行うこともできます。
 
 ## インサイトのタイプ
 
@@ -94,7 +94,7 @@ Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼ
 
 ## タブへのフィルターの適用
 
-1. タブ上部のツールバーで、「![ フィルターボタン ](/help/dsp/assets/filter.png)」をクリックします。
+1. タブ上部のツールバーで、「![&#x200B; フィルターボタン &#x200B;](/help/dsp/assets/filter.png)」をクリックします。
 
 1. 必要に応じて、左側の列でディメンションを選択したあと、右側の列で 1 つ以上の値を選択します。
 
@@ -112,7 +112,7 @@ Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼ
 
 コンバージョン指標については、Adobe Advertisingで追跡されるコンバージョンとAdobe Analyticsで追跡されるコンバージョンの両方をサポートしています。
 
-1. insightの右上にある ![ 指標設定 ](/help/dsp/assets/metric-settings.png " 指標設定 ") をクリックします。
+1. insightの右上にある ![&#x200B; 指標設定 &#x200B;](/help/dsp/assets/metric-settings.png " 指標設定 ") をクリックします。
 
 1. 指標を選択し、「**[!UICONTROL Apply]**」をクリックします。
 
@@ -124,13 +124,13 @@ Microsoft Excel スプレッドシート（XLSX）形式のビジュアライゼ
 
 ## XLSX ファイルへの特定のInsightのダウンロード
 
-* insightの右上にある「![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
+* insightの右上にある「![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
 
   ファイルは、ブラウザーのデフォルトのダウンロードフォルダーに保存されます。
 
 >[!MORELIKETHIS]
 >
->* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
->* [ キャンペーン管理ビューでのパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)
->* [ キャンペーンデータビューの管理 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
+>* [&#x200B; キャンペーン管理ビューでのパフォーマンスレポートのタイプ &#x200B;](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [&#x200B; 使用可能なレポート列 &#x200B;](/help/dsp/reports/report-columns.md)
+>* [&#x200B; キャンペーンデータビューの管理 &#x200B;](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

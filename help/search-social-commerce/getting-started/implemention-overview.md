@@ -60,11 +60,11 @@ ht-degree: 0%
 
    1. （Adobe Analyticsおよび/またはAdobe Audience Managerを使用する広告主）様々なアカウント間の統合を設定して、Adobe Advertisingがデータを交換できるようにします。
 
-      「[Experience Cloudとの統合 ](/help/integrations/home.md) に関するガイドを参照してください。
+      「[Experience Cloudとの統合 &#x200B;](/help/integrations/home.md) に関するガイドを参照してください。
 
    1. （[!DNL Google Analytics] を使用する広告主）最適化とレポートのために、[!DNL Google Analytics] しいアカウント、プロパティ、ビューの組み合わせのコンバージョン指標を同期します。
 
-      ヘルプサブチャプター「Admin」 > 「[ データソースの設定 ](/help/search-social-commerce/admin/data-sources/data-source-about.md) を参照してください。
+      ヘルプサブチャプター「Admin」 > 「[&#x200B; データソースの設定 &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md) を参照してください。
 
 1. ポートフォリオの設定と起動：
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
    1. ベースラインを作成するのに十分なデータが得られたら、チームはポートフォリオを起動できます。検索、ソーシャル、Commerceを使用して、最適化のタイプに基づいて、ポートフォリオの入札や予算を最適化できます。
 
-   ポートフォリオの設定および起動の詳細については、検索、ソーシャル、およびCommerce内のページの右上にある [!UICONTROL Help] メニュー（![[ ヘルプ ] メニュー ](/help/search-social-commerce/assets/help-main-menu.png "[ ヘルプ ] メニュー ")）から利用できる「最適化」に関するヘルプを参照してください。
+   ポートフォリオの設定および起動の詳細については、検索、ソーシャル、およびCommerce内のページの右上にある [!UICONTROL Help] メニュー（![[ ヘルプ ] メニュー &#x200B;](/help/search-social-commerce/assets/help-main-menu.png "[ ヘルプ ] メニュー ")）から利用できる「最適化」に関するヘルプを参照してください。
 
 1. ポートフォリオのパフォーマンスの監視：
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
    広告インサイトの実行とレポートの設定について詳しくは、「インサイトとレポート」のヘルプの章を参照してください。
 
-1. （任意） [ パフォーマンスデータビュー ](/help/search-social-commerce/common-tasks/data-views/data-views-about.md) を設定して、表示するデータを表示します。
+1. （任意） [&#x200B; パフォーマンスデータビュー &#x200B;](/help/search-social-commerce/common-tasks/data-views/data-views-about.md) を設定して、表示するデータを表示します。
 
 ## 進行中のタスク
 
@@ -108,4 +108,4 @@ ht-degree: 0%
 
    * 新しいポートフォリオを追加します。
 
-ポートフォリオのモニタリングおよびポートフォリオ戦略の調整の手順については、ヘルプのサブチャプター「最適化」 > 「Portfolioの管理」 > 「パフォーマンスのモニタリングと管理」を参照してください。これは、検索、ソーシャル、Commerce内の任意のページの右上にある [!UICONTROL Help] ルプメニュー（![[ ヘルプ ] メニュー ](/help/search-social-commerce/assets/help-main-menu.png "[ ヘルプ ] メニュー ")）から利用できます。
+ポートフォリオのモニタリングおよびポートフォリオ戦略の調整の手順については、ヘルプのサブチャプター「最適化」 > 「Portfolioの管理」 > 「パフォーマンスのモニタリングと管理」を参照してください。これは、検索、ソーシャル、Commerce内の任意のページの右上にある [!UICONTROL Help] ルプメニュー（![[ ヘルプ ] メニュー &#x200B;](/help/search-social-commerce/assets/help-main-menu.png "[ ヘルプ ] メニュー ")）から利用できます。

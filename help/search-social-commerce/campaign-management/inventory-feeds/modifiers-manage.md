@@ -66,9 +66,9 @@ ht-degree: 0%
 
 1. 確認メッセージで、「**[!UICONTROL Yes]**」をクリックします。
 
-1. （必要に応じて） [ 適用可能なすべてのテンプレートから ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) 修飾子への参照を削除します。
+1. （必要に応じて） [&#x200B; 適用可能なすべてのテンプレートから &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) 修飾子への参照を削除します。
 
 >[!MORELIKETHIS]
 >
->* [ 在庫フィードについて ](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
->* [ 広告テンプレートの管理 ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
+>* [&#x200B; 在庫フィードについて &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
+>* [&#x200B; 広告テンプレートの管理 &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)

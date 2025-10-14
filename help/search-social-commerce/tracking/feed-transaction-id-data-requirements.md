@@ -37,5 +37,5 @@ Transaction ID,Transaction Date,Product,Revenue
 
 >[!MORELIKETHIS]
 >
->* [ 変換フィードファイルのファイル要件 ](feed-file-requirements.md)
->* [ トランザクション ID フィードを使用したコンバージョントラッキング ](/help/search-social-commerce/tracking/feed-transaction-id.md)
+>* [&#x200B; 変換フィードファイルのファイル要件 &#x200B;](feed-file-requirements.md)
+>* [&#x200B; トランザクション ID フィードを使用したコンバージョントラッキング &#x200B;](/help/search-social-commerce/tracking/feed-transaction-id.md)

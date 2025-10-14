@@ -52,9 +52,9 @@ ht-degree: 0%
 
 ## ランディングページの影響のテスト
 
-ランディングページを変更した場合（その他のすべてが一定の場合）の影響を確認するには、[ を実行します。この  [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md) には、表示 URL と、各広告のベース/最終 URL または宛先 URL が含まれます。
+ランディングページを変更した場合（その他のすべてが一定の場合）の影響を確認するには、[&#x200B; を実行します。この  [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md) には、表示 URL と、各広告のベース/最終 URL または宛先 URL が含まれます。
 
 >[!MORELIKETHIS]
 >
->* [ レポートを分析してキーワードとキャンペーン設定を絞り込む ](best-practices-analyze.md)
->* [ 有効なテキストとコピーを書き込む ](best-practices-write.md)
+>* [&#x200B; レポートを分析してキーワードとキャンペーン設定を絞り込む &#x200B;](best-practices-analyze.md)
+>* [&#x200B; 有効なテキストとコピーを書き込む &#x200B;](best-practices-write.md)

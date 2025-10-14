@@ -11,4 +11,4 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[ キャンペーンをポートフォリオに追加 ](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md) し、「ポートフォリオ」オプションを「[!UICONTROL Auto adjust campaign budget limits]」に設定すると、検索、ソーシャル、Commerceで予算を自動調整して、ポートフォリオ全体で支出を最適化できます。
+>[&#x200B; キャンペーンをポートフォリオに追加 &#x200B;](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md) し、「ポートフォリオ」オプションを「[!UICONTROL Auto adjust campaign budget limits]」に設定すると、検索、ソーシャル、Commerceで予算を自動調整して、ポートフォリオ全体で支出を最適化できます。

@@ -30,7 +30,7 @@ ht-degree: 0%
 
 特定の商品ディメンション（「すべての商品」ではない）の商品グループを作成したら、検索、ソーシャルおよびCommerceは、「その他すべて」の商品グループを自動的に作成します。
 
-使用可能な製品ディメンションのリストについては、「[ ショッピングキャンペーン製品フィルター ](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。 ディメンションのリストは、キャンペーンの [!UICONTROL Inventory Filter] 設定に基づいて制限される場合があります。
+使用可能な製品ディメンションのリストについては、「[&#x200B; ショッピングキャンペーン製品フィルター &#x200B;](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。 ディメンションのリストは、キャンペーンの [!UICONTROL Inventory Filter] 設定に基づいて制限される場合があります。
 
 **[!UICONTROL Excluded]:** （新しい製品グループの場合はオプション、既存の製品グループの場合は読み取り専用）一致する製品の広告の入札を除外します。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ショッピング商品グループについて ](product-group-about.md)
->* [ ショッピング商品グループの管理 ](product-group-manage.md)
->* [ 買い物キャンペーン製品フィルター ](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [ 買い物キャンペ  [!DNL Microsoft Advertising]  ンの実装 ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+>* [&#x200B; ショッピング商品グループについて &#x200B;](product-group-about.md)
+>* [&#x200B; ショッピング商品グループの管理 &#x200B;](product-group-manage.md)
+>* [&#x200B; 買い物キャンペーン製品フィルター &#x200B;](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
+>* [&#x200B; 買い物キャンペ  [!DNL Microsoft Advertising]  ンの実装 &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

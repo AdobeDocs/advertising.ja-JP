@@ -55,4 +55,4 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 
 >[!MORELIKETHIS]
 >
->* [ バルクシートファイルのダウンロード/作成 ](../bulksheet-download.md)
+>* [&#x200B; バルクシートファイルのダウンロード/作成 &#x200B;](../bulksheet-download.md)

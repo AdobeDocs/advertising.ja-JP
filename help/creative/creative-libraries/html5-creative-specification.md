@@ -299,4 +299,4 @@ Advertising DSPで利用可能なほとんどのディスプレイ交換には�
 
 >[!MORELIKETHIS]
 >
->* [ クリエイティブライブラリへの標準クリエイティブの追加 ](/help/creative/creative-libraries/creative-add-standard.md)
+>* [&#x200B; クリエイティブライブラリへの標準クリエイティブの追加 &#x200B;](/help/creative/creative-libraries/creative-add-standard.md)

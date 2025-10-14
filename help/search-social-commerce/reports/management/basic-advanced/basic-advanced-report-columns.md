@@ -14,7 +14,7 @@ ht-degree: 0%
 
 | 列 | 説明 |
 | ---- | ---- |
-| \[ 広告主固有のカスタム （派生）指標\] | 既存の指標から計算された [ 作成したカスタム指標 ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) の値。 |
+| \[ 広告主固有のカスタム （派生）指標\] | 既存の指標から計算された [&#x200B; 作成したカスタム指標 &#x200B;](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) の値。 |
 | \[ 広告主固有のラベル分類\] | エンティティ レベルでエンティティに現在適用されているラベル分類。 複数のラベルの分類は、コンマ（,）で区切ります。 |
 | \[ 広告主固有のコンバージョン指標\] | 指定したコンバージョン指標またはサイトエンゲージメント指標のコンバージョン数。 |
 | \[Googleでトラッキングされたコンバージョン\] | 「GGL\*、GGL_CT\*、GGL_XD_CT\*」の項を参照してください。 |
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL Exclude (yes/no)] | 一致する製品の広告に入札を除外するか（<i>[!UICONTROL Yes]</i>）、または入札を許可するか（<i>[!UICONTROL No]</i>）を指定します。 |
 | [!UICONTROL First Page CPC] | （Google キャンペーンのみ）指定した日付範囲に検索結果の最初のページに表示される広告のクリック単価（CPC）。 |
 | [!UICONTROL Frequency] | （[!DNL Meta] キャンペーンのみ）訪問者が広告を表示した平均回数。 |
-| `GGL*`、`GGL_CT*`、`GGL_XD_CT*` [[!DNL Google Ads]-tracked conversions] | （検索およびショッピングネットワーク上のキャンペーンを [!DNL Google Ads] 照） [!DNL Google Ads] 追跡コンバージョンと、各コンバージョンに対する最大 3 つの個別の指標：<ul><li>`GGL*` — （追跡する場合）「GGL」プレフィックスで始まるキーワードのコンバージョン値（GGL 購入など）。</li><li>`GGL_CT*` — 「GGL_CT」プレフィックス（GGL_CT_Purchase など）で始まるコンバージョンの数（カウント）。</li><li>`GGL_XD_CT*` — （コンバージョンタイプに使用可能な場合は、トラッキング時）クロスデバイスコンバージョンの数（カウント）。「GGL_XD_CT_」プレフィックス （GGL_XD_CT_Purchase など）で始ま [!DNL Google Ads] て測定されます。</li></ul><br> 各コンバージョンは入札単位とクリック日で記録されます。イベントレベルでは使用できません。 [!DNL Google Ads] でトラッキングされるコンバージョンについて詳しくは、「[[!DNL Google Ads]  検索、ソーシャル、Commerceのコンバージョンデータ ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)」を参照してください。 |
+| `GGL*`、`GGL_CT*`、`GGL_XD_CT*` [[!DNL Google Ads]-tracked conversions] | （検索およびショッピングネットワーク上のキャンペーンを [!DNL Google Ads] 照） [!DNL Google Ads] 追跡コンバージョンと、各コンバージョンに対する最大 3 つの個別の指標：<ul><li>`GGL*` — （追跡する場合）「GGL」プレフィックスで始まるキーワードのコンバージョン値（GGL 購入など）。</li><li>`GGL_CT*` — 「GGL_CT」プレフィックス（GGL_CT_Purchase など）で始まるコンバージョンの数（カウント）。</li><li>`GGL_XD_CT*` — （コンバージョンタイプに使用可能な場合は、トラッキング時）クロスデバイスコンバージョンの数（カウント）。「GGL_XD_CT_」プレフィックス （GGL_XD_CT_Purchase など）で始ま [!DNL Google Ads] て測定されます。</li></ul><br> 各コンバージョンは入札単位とクリック日で記録されます。イベントレベルでは使用できません。 [!DNL Google Ads] でトラッキングされるコンバージョンについて詳しくは、「[[!DNL Google Ads]  検索、ソーシャル、Commerceのコンバージョンデータ &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)」を参照してください。 |
 | [!UICONTROL Impr. (Abs. Top) %] | （[!DNL Google Ads] のみ）オーガニック検索結果の上に最初の広告として表示される広告インプレッションの割合。 |
 | [!UICONTROL Impr. (Top) %] | （[!DNL Google Ads] のみ）オーガニック検索結果の上に表示される広告インプレッションの割合。 |
 | [!UICONTROL Impressions] | 指定した日付範囲内の広告インプレッション数。 |
@@ -200,6 +200,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 基本レポートと高度なレポートについて ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
->* [ 基本レポートまたは詳細レポートの生成 ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
->* [ 基本および詳細レポートの設定 ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
+>* [&#x200B; 基本レポートと高度なレポートについて &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
+>* [&#x200B; 基本レポートまたは詳細レポートの生成 &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+>* [&#x200B; 基本および詳細レポートの設定 &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)

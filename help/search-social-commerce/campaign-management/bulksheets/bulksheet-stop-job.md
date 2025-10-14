@@ -28,5 +28,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ バルクシートを使用した Campaign データの管理について ](bulksheet-about.md)
->* [ アップロードしたバルクシートおよびエラーファイルの削除 ](bulksheet-delete.md)
+>* [&#x200B; バルクシートを使用した Campaign データの管理について &#x200B;](bulksheet-about.md)
+>* [&#x200B; アップロードしたバルクシートおよびエラーファイルの削除 &#x200B;](bulksheet-delete.md)

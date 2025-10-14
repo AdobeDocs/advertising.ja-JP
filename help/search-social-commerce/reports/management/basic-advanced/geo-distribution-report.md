@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## デフォルトの列
 
-すべてのデフォルト列およびカスタム列の説明は、[ 基本および詳細レポートのレポート列 ](basic-advanced-report-columns.md) を参照してください。
+すべてのデフォルト列およびカスタム列の説明は、[&#x200B; 基本および詳細レポートのレポート列 &#x200B;](basic-advanced-report-columns.md) を参照してください。
 
 * [!UICONTROL Country]
 * [!UICONTROL State]
@@ -44,6 +44,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 基本レポートと高度なレポートについて ](basic-advanced-report-about.md)
->* [ 基本レポートまたは詳細レポートの生成 ](basic-advanced-report-generate.md)
->* [ 基本および詳細レポートの設定 ](basic-advanced-report-settings.md)
+>* [&#x200B; 基本レポートと高度なレポートについて &#x200B;](basic-advanced-report-about.md)
+>* [&#x200B; 基本レポートまたは詳細レポートの生成 &#x200B;](basic-advanced-report-generate.md)
+>* [&#x200B; 基本および詳細レポートの設定 &#x200B;](basic-advanced-report-settings.md)

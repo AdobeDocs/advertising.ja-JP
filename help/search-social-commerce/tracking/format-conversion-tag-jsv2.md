@@ -16,7 +16,7 @@ HTTPS を使用するサイトの場合は、次の形式になります。 HTTP
 
 >[!NOTE]
 >
->バージョン 2 とバージョン 3 のどちらを使用するかについては、[ トラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md) を参照してください。
+>バージョン 2 とバージョン 3 のどちらを使用するかについては、[&#x200B; トラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md) を参照してください。
 
 ```
 <script language="javascript" src="https://www.everestjs.net/static/st.v2.js"></script>
@@ -42,7 +42,7 @@ effp();
 
 * `<ef-userid>` は、検索、ソーシャルおよびCommerceが広告主に割り当てる一意の数値ユーザー ID です。
 
-* `<ID5_PartnerID>` は、組織が [!DNL ID5] と契約を締結した後に受け取る、組織の ID5 パートナー ID です。 組織がDSPを使用し、[ID5 ユニバーサル ID に関連付けられたユーザーを追跡するカスタムセグメント ](/help/dsp/audiences/universal-ids.md) を持つ場合にのみ、この変数を含めます。
+* `<ID5_PartnerID>` は、組織が [!DNL ID5] と契約を締結した後に受け取る、組織の ID5 パートナー ID です。 組織がDSPを使用し、[ID5 ユニバーサル ID に関連付けられたユーザーを追跡するカスタムセグメント &#x200B;](/help/dsp/audiences/universal-ids.md) を持つ場合にのみ、この変数を含めます。
 
 * `<propertyname>` は、追跡するコンバージョンです。 例えば、「登録」と呼ばれるコンバージョンをトラッキングする場合、タグにはパラメーター `ev_registration=<registration>` が含まれ、各トランザクションの実際の売上高（`ev_registration=1` など）を渡す必要があります。 複数のプロパティがトラッキングされる場合、それらのプロパティは、`ev_registration=<registration>&ev_sale=<sale>` などのアンパサンド（`&`）で結合されます（例：`ev_registration=1&ev_sale=12.99`）。 **注意：** プロパティ名に特殊文字を含めることはできません。
 
@@ -54,9 +54,9 @@ effp();
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertisingのコンバージョントラッキングタグについて ](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Adobe Advertisingコンバージョンタグを生成 ](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [ コンバージョンおよびページビューのトラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
->* [JavaScript コンバージョントラッキングタグバージョン 2 の形式 ](format-conversion-tag-jsv2.md)
->* [JavaScript コンバージョントラッキングタグバージョン 3 の形式 ](format-conversion-tag-jsv3.md)
->* [ 画像変換トラッキングタグの形式 ](format-conversion-tag-image.md)
+>* [Adobe Advertisingのコンバージョントラッキングタグについて &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [Adobe Advertisingコンバージョンタグを生成 &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [&#x200B; コンバージョンおよびページビューのトラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
+>* [JavaScript コンバージョントラッキングタグバージョン 2 の形式 &#x200B;](format-conversion-tag-jsv2.md)
+>* [JavaScript コンバージョントラッキングタグバージョン 3 の形式 &#x200B;](format-conversion-tag-jsv3.md)
+>* [&#x200B; 画像変換トラッキングタグの形式 &#x200B;](format-conversion-tag-image.md)

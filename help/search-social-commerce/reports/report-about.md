@@ -24,21 +24,21 @@ ht-degree: 0%
 
 | レポートカテゴリ | 説明 |
 | ----| ---- |
-| [!UICONTROL Basic Reports] | [ 基本レポート ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) は、すべてのユーザーが使用でき、ポートフォリオ、広告ネットワークアカウント、特定の広告ネットワークアカウント、キャンペーン、広告グループ、広告、キーワード、製品グループ、ラベルの分類とラベルの値、入札単位の制約、ネットワークの制約に関する実際のコストとクリックデータを表示します。 該当する広告ネットワークから請求されるクリック数に基づいており、オプションでコンバージョンデータやユーザーが作成したその他の指標を含めることができます。 |
-| [!UICONTROL Advanced Reports] | [ 詳細レポート ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) は、広告設定に追加のinsightを提供し、地理的なターゲティングやネットワーク設定を変更することでメリットが得られる場所を特定するのに役立ちます。 また、キャンペーンおよびポートフォリオ管理ビューでコンバージョンデータを検証し、広告主の内部コンバージョントラッキングデータに対してレポートを作成するのにも役立ちます。 |
-| [!UICONTROL Assist Reports] | [ アシストレポート ](/help/search-social-commerce/reports/management/assist/assist-report-about.md) は、広告主のすべてのキーワードと広告のコンバージョンパスに関するインサイトを提供します。 これらは、Adobe Advertising コンバージョントラッキングサービスを通じて取得したデータを使用し、サービスを使用する広告主に対してのみ生成できます。 |
-| [!UICONTROL Specialty Reports] | [ 専門レポート ](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md) は、（Adobe Advertising トラッキングではなく）広告ネットワークによって収集されたデータで構成されます。 |
-| [!UICONTROL Model Accuracy Reports] | [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、ポートフォリオの入札、キャンペーン予算および入札戦略目標の最適化に使用されるコストおよび収益モデルの精度を示します。 |
+| [!UICONTROL Basic Reports] | [&#x200B; 基本レポート &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) は、すべてのユーザーが使用でき、ポートフォリオ、広告ネットワークアカウント、特定の広告ネットワークアカウント、キャンペーン、広告グループ、広告、キーワード、製品グループ、ラベルの分類とラベルの値、入札単位の制約、ネットワークの制約に関する実際のコストとクリックデータを表示します。 該当する広告ネットワークから請求されるクリック数に基づいており、オプションでコンバージョンデータやユーザーが作成したその他の指標を含めることができます。 |
+| [!UICONTROL Advanced Reports] | [&#x200B; 詳細レポート &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) は、広告設定に追加のinsightを提供し、地理的なターゲティングやネットワーク設定を変更することでメリットが得られる場所を特定するのに役立ちます。 また、キャンペーンおよびポートフォリオ管理ビューでコンバージョンデータを検証し、広告主の内部コンバージョントラッキングデータに対してレポートを作成するのにも役立ちます。 |
+| [!UICONTROL Assist Reports] | [&#x200B; アシストレポート &#x200B;](/help/search-social-commerce/reports/management/assist/assist-report-about.md) は、広告主のすべてのキーワードと広告のコンバージョンパスに関するインサイトを提供します。 これらは、Adobe Advertising コンバージョントラッキングサービスを通じて取得したデータを使用し、サービスを使用する広告主に対してのみ生成できます。 |
+| [!UICONTROL Specialty Reports] | [&#x200B; 専門レポート &#x200B;](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md) は、（Adobe Advertising トラッキングではなく）広告ネットワークによって収集されたデータで構成されます。 |
+| [!UICONTROL Model Accuracy Reports] | [&#x200B; モデル精度レポート &#x200B;](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、ポートフォリオの入札、キャンペーン予算および入札戦略目標の最適化に使用されるコストおよび収益モデルの精度を示します。 |
 
 ## レポートの自動処理
 
 次のどちらか一方または両方の方法で、カスタマイズされたレポートが自動的に生成されるようにスケジュールを設定します。
 
-* [ レポートテンプレート ](/help/search-social-commerce/reports/automation/templates/template-about.md) を使用して、毎日または特定の曜日にレポートを自動的に生成します。
+* [&#x200B; レポートテンプレート &#x200B;](/help/search-social-commerce/reports/automation/templates/template-about.md) を使用して、毎日または特定の曜日にレポートを自動的に生成します。
 
-  オプションで、テンプレートを使用する [ 基本レポートと詳細レポートの FTP 配信 ](/help/search-social-commerce/reports/automation/ftp-reports.md) を設定できます。
+  オプションで、テンプレートを使用する [&#x200B; 基本レポートと詳細レポートの FTP 配信 &#x200B;](/help/search-social-commerce/reports/automation/ftp-reports.md) を設定できます。
 
-* [ スプレッドシートフィード ](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) を使用して、カスタマイズしたスプレッドシートテンプレートを毎日のパフォーマンスデータで更新し続けます。
+* [&#x200B; スプレッドシートフィード &#x200B;](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) を使用して、カスタマイズしたスプレッドシートテンプレートを毎日のパフォーマンスデータで更新し続けます。
 
 ## レポートビュー
 
@@ -65,9 +65,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 報告書に用いるデータ ](data-used-for-reports.md)
->* [ レポートの初期設定タスク ](initial-setup.md)
->* [ 基本レポートまたは詳細レポートの生成 ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
->* [ モデル精度レポートの生成 ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-generate.md)
->* [ 専門レポートの生成 ](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [ アシストレポートの生成 ](/help/search-social-commerce/reports/management/assist/assist-report-generate.md)
+>* [&#x200B; 報告書に用いるデータ &#x200B;](data-used-for-reports.md)
+>* [&#x200B; レポートの初期設定タスク &#x200B;](initial-setup.md)
+>* [&#x200B; 基本レポートまたは詳細レポートの生成 &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+>* [&#x200B; モデル精度レポートの生成 &#x200B;](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-generate.md)
+>* [&#x200B; 専門レポートの生成 &#x200B;](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
+>* [&#x200B; アシストレポートの生成 &#x200B;](/help/search-social-commerce/reports/management/assist/assist-report-generate.md)

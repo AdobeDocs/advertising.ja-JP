@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. 取引行で、**[!UICONTROL ...]**/**[!UICONTROL Edit]** をクリックします。
 
-1. [ 取引設定 ](simple-deal-settings.md) を編集します。
+1. [&#x200B; 取引設定 &#x200B;](simple-deal-settings.md) を編集します。
 
    [!UICONTROL Deal Name]、[!UICONTROL Publisher maximum ad length]、[!UICONTROL Publisher minimum ad length]、[!UICONTROL CPM]、[!UICONTROL Flight dates] および [!UICONTROL Impressions] を編集できます。
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [[!UICONTROL Simple Ad Serving]](simple-deal-about.md) について
->* [[!UICONTROL Simple Ad Serving] しい取引の作成 ](simple-deal-create.md)
+>* [[!UICONTROL Simple Ad Serving] しい取引の作成 &#x200B;](simple-deal-create.md)
 >* [[!UICONTROL Simple Ad Serving] Settings](simple-deal-settings.md)
->* [ 取引の詳細レポートの表示 ](/help/dsp/inventory/deal-view-report.md)
+>* [&#x200B; 取引の詳細レポートの表示 &#x200B;](/help/dsp/inventory/deal-view-report.md)
 
 <!-- add back when reimplemented:
 >* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)

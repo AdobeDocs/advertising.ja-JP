@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 削除する各関連付けの横にあるチェック ボックスをオンにします。
 
-   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
+   複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
 1. ツールバーの ![ その他 ") をクリックし ] (/help/search-social-commerce/assets/more.png " 選択 **[!UICONTROL Delete]** ます。
 
@@ -28,5 +28,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Manage [!DNL Google Ads] callout 拡張機能 ](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
->* [ サイトリンク拡張機能の管理 ](sitelink-extension-manage.md)
+>* [Manage [!DNL Google Ads] callout 拡張機能 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
+>* [&#x200B; サイトリンク拡張機能の管理 &#x200B;](sitelink-extension-manage.md)

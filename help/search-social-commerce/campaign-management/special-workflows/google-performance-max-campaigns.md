@@ -14,7 +14,7 @@ ht-degree: 0%
 
 パフォ [!DNL Google Ads] マンス最大化キャンペーンでは、広告グループ、広告またはキーワードを設定しません。 代わりに、キャンペーン設定内で、ヘッドライン、説明、アップロードされた画像、ロゴおよび [!DNL YouTube videos] ータを含む、1 つ以上のアセットグループを指定します。 [!DNL Google Ads] では、アセットを自動的に組み合わせ、チャネル（[!DNL YouTube]、[!DNL Gmail]、[!DNL Search] など）に基づいて広告を提供します。
 
-[!DNL Campaigns] ビューでは、既存の Performance MAX キャンペーンのパフォーマンスデータを表形式およびトレンドグラフ形式で表示できます。下位レベルではデータを利用できません。 また、キャンペーンレベルのパフォーマンスデータは、レポートやAdobe Analyticsでも入手することができます（[Analytics 統合を利用する広告主向け ](/help/integrations/analytics/overview.md)。 [!DNL Analytics] で Performance MAX キャンペーンのパフォーマンスデータを表示するには、キャンペーンは [ アップグレードされた AMO ID トラッキングコード ](/help/integrations/analytics/ids.md#amo-id-formats) を使用する必要があります（これはキャンペーン ID と広告グループ ID をトラッキングします）。
+[!DNL Campaigns] ビューでは、既存の Performance MAX キャンペーンのパフォーマンスデータを表形式およびトレンドグラフ形式で表示できます。下位レベルではデータを利用できません。 また、キャンペーンレベルのパフォーマンスデータは、レポートやAdobe Analyticsでも入手することができます（[Analytics 統合を利用する広告主向け &#x200B;](/help/integrations/analytics/overview.md)。 [!DNL Analytics] で Performance MAX キャンペーンのパフォーマンスデータを表示するには、キャンペーンは [&#x200B; アップグレードされた AMO ID トラッキングコード &#x200B;](/help/integrations/analytics/ids.md#amo-id-formats) を使用する必要があります（これはキャンペーン ID と広告グループ ID をトラッキングします）。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 [!UICONTROL Campaigns]/[!UICONTROL Campaigns] ビューから個別に Performance MAX キャンペーンを設定できます。
 
-1. キャンペーンタイプ **[!UICONTROL Performance Max]** の [ キャンペーンを作成 ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)。
+1. キャンペーンタイプ **[!UICONTROL Performance Max]** の [&#x200B; キャンペーンを作成 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)。
 
    [!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Campaign Targeting]、[!UICONTROL URL Options] を指定します。 必要に応じて、[!UICONTROL Negative Keywords] を入力し、[!UICONTROL Negative Websites] を入力するか、[!UICONTROL Campaign Tracking] のオプションを上書きします。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    1. 最初のアセットグループの設定を指定し、そのアセットグループの画像、ロゴおよびオプションのビデオをアップロードします。
 
-      要件と仕様については、[ アセットグループ設定の説明 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) を参照してください。
+      要件と仕様については、[&#x200B; アセットグループ設定の説明 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) を参照してください。
 
    1. 必要に応じて、アセットグループを追加します。
 

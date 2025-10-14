@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. カーソルを計画行の上に置き、**[!UICONTROL Edit]** をクリックします。
 
-1. [ プラン設定 ](planner-settings.md) を編集します。
+1. [&#x200B; プラン設定 &#x200B;](planner-settings.md) を編集します。
 
 1. 「**[!UICONTROL Save and Forecast]**」をクリックします。
 
@@ -28,10 +28,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [DSP プランナーツールについて ](planner-about.md)
->* [ 接続されたテレビのリーチプランを作成 ](planner-create.md)
->* [ 接続されたテレビのリーチ プランを複製 ](planner-duplicate.md)
->* [ 接続されたテレビのリーチ プランのエクスポート ](planner-export.md)
->* [Connected TV Reach Plan の Forecast の再生成 ](planner-forecast.md)
->* [ 接続されたテレビのリーチ プランをアーカイブする ](planner-archive.md)
->* [ 接続されたテレビのリーチ プランの設定 ](planner-settings.md)
+>* [DSP プランナーツールについて &#x200B;](planner-about.md)
+>* [&#x200B; 接続されたテレビのリーチプランを作成 &#x200B;](planner-create.md)
+>* [&#x200B; 接続されたテレビのリーチ プランを複製 &#x200B;](planner-duplicate.md)
+>* [&#x200B; 接続されたテレビのリーチ プランのエクスポート &#x200B;](planner-export.md)
+>* [Connected TV Reach Plan の Forecast の再生成 &#x200B;](planner-forecast.md)
+>* [&#x200B; 接続されたテレビのリーチ プランをアーカイブする &#x200B;](planner-archive.md)
+>* [&#x200B; 接続されたテレビのリーチ プランの設定 &#x200B;](planner-settings.md)

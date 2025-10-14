@@ -28,7 +28,7 @@ ht-degree: 0%
 
   ![Recommendations UI](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations UI")
 
-  ビューを開くと、データをリアルタイムで使用できます。 データを更新するには、ページの左下にある ![ 更新 ](/help/search-social-commerce/assets/refresh.png " 更新 ") をクリックします。
+  ビューを開くと、データをリアルタイムで使用できます。 データを更新するには、ページの左下にある ![&#x200B; 更新 &#x200B;](/help/search-social-commerce/assets/refresh.png " 更新 ") をクリックします。
 
 * [!DNL Microsoft Advertising] アカウントについては、[!DNL Microsoft Advertising] アカウントに対して過去 30 日間に生成された各パフォーマンスインサイトを一目で確認できます。 インサイトは、レコメンデーションと同様の情報を提供しますが、形式が異なります。 各insightには、日付、問題の説明、影響を受けるエンティティ、根本原因（詳細へのリンクを含んでいる場合があります）、および提案されたアクションと、特定のinsightを操作できる [!DNL Microsoft Advertising] エディターを開くためのリンクが含まれています。
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ パブリッシャーの推奨事項とパフォーマンスインサイトを表示する ](recommendation-view.md)
->* [ パブリッシャーのレコメンデーションの適用または解除 ](recommendation-apply-dismiss.md)
->* [ アカウントの公開者レコメンデーションログの表示 ](recommendation-view-log.md)
->* [ パブリッシャーのレコメンデーションをポートフォリオで使用する際のベストプラクティス ](recommendation-best-practices.md)
+>* [&#x200B; パブリッシャーの推奨事項とパフォーマンスインサイトを表示する &#x200B;](recommendation-view.md)
+>* [&#x200B; パブリッシャーのレコメンデーションの適用または解除 &#x200B;](recommendation-apply-dismiss.md)
+>* [&#x200B; アカウントの公開者レコメンデーションログの表示 &#x200B;](recommendation-view-log.md)
+>* [&#x200B; パブリッシャーのレコメンデーションをポートフォリオで使用する際のベストプラクティス &#x200B;](recommendation-best-practices.md)

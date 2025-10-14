@@ -39,5 +39,5 @@ By clicking on "View Failure" on the right, you can see further details about th
 
 >[!MORELIKETHIS]
 >
->* [ カタログの管理 ](/help/creative/feeds/catalog-manage.md)
->* [ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [&#x200B; カタログの管理 &#x200B;](/help/creative/feeds/catalog-manage.md)
+>* [&#x200B; 動的広告のワークフロー &#x200B;](/help/creative/introduction/workflow-dynamic-ads.md)

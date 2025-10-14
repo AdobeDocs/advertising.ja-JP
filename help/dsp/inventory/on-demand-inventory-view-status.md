@@ -27,23 +27,23 @@ ht-degree: 0%
 
 発行者の承認または却下は、アカウントのアカウントタイプとキャンペーンカテゴリ、広告主カテゴリ、発行者のブロックされた広告主のリストに基づいて行うことができます。
 
-* アカウント内のすべての広告主に対して承認されたディールリクエストの ![ 完全に承認 ](/help/dsp/assets/approved.png)
+* アカウント内のすべての広告主に対して承認されたディールリクエストの ![&#x200B; 完全に承認 &#x200B;](/help/dsp/assets/approved.png)
 
-* アカウントの広告主のすべてではなく一部に対して承認されたディールリクエストの ![ 部分的に承認 ](/help/dsp/assets/partly-approved.png)
+* アカウントの広告主のすべてではなく一部に対して承認されたディールリクエストの ![&#x200B; 部分的に承認 &#x200B;](/help/dsp/assets/partly-approved.png)
 
-  広告主のリクエストが拒否された理由を確認するには、「![ 一部承認済み ](/help/dsp/assets/partly-approved.png)」をクリックします。
+  広告主のリクエストが拒否された理由を確認するには、「![&#x200B; 一部承認済み &#x200B;](/help/dsp/assets/partly-approved.png)」をクリックします。
 
-* アカウント内のすべての広告主に対して拒否されたディールリクエストの ![ 拒否 ](/help/dsp/assets/denied.png)
+* アカウント内のすべての広告主に対して拒否されたディールリクエストの ![&#x200B; 拒否 &#x200B;](/help/dsp/assets/denied.png)
 
-  各広告主に対してリクエストが拒否された理由を確認するには、「![ 拒否 ](/help/dsp/assets/denied.png)」をクリックします。 拒否の理由が解決できるものである場合は、[ 契約を再要求 ](/help/dsp/inventory/on-demand-inventory-rerequest.md) できます。
+  各広告主に対してリクエストが拒否された理由を確認するには、「![&#x200B; 拒否 &#x200B;](/help/dsp/assets/denied.png)」をクリックします。 拒否の理由が解決できるものである場合は、[&#x200B; 契約を再要求 &#x200B;](/help/dsp/inventory/on-demand-inventory-rerequest.md) できます。
 
 承認プロセスに関するご質問は、Adobeアカウントチームにお問い合わせください。
 
 >[!MORELIKETHIS]
 >
->* [Premium 在庫取引の購入  [!DNL On Demand]  アクセスのリクエスト ](on-demand-inventory-subscribe.md)
->* [On Demand Premium の在庫取引の再リクエスト ](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand]  アジア太平洋のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-na.md)
+>* [Premium 在庫取引の購入  [!DNL On Demand]  アクセスのリクエスト &#x200B;](on-demand-inventory-subscribe.md)
+>* [On Demand Premium の在庫取引の再リクエスト &#x200B;](on-demand-inventory-rerequest.md)
+>* [[!DNL On Demand]  アジア太平洋のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-na.md)

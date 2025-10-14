@@ -20,11 +20,11 @@ JavaScript ベースのAdobe Advertisingコンバージョンマッピングタ�
 
 変換マッピングタグを使用するには：
 
-1. [ コンバージョンマッピングタグをデプロイします ](#deploy-conversion-mapping-tag)。
+1. [&#x200B; コンバージョンマッピングタグをデプロイします &#x200B;](#deploy-conversion-mapping-tag)。
 
-1. 組織が複数のAdobe Experience Cloud ID サービス組織 ID （以前の IMS 組織 ID）を使用している場合は、[ コンバージョンタグを更新 ](#update-conversion-tags) して組織 ID を含めます。
+1. 組織が複数のAdobe Experience Cloud ID サービス組織 ID （以前の IMS 組織 ID）を使用している場合は、[&#x200B; コンバージョンタグを更新 &#x200B;](#update-conversion-tags) して組織 ID を含めます。
 
-1. [ タグのデプロイメントを検証 ](#validate-conversion-mapping) します。
+1. [&#x200B; タグのデプロイメントを検証 &#x200B;](#validate-conversion-mapping) します。
 
 ## ITP 2.2 用のJavaScript コンバージョンマッピングタグのデプロイ {#deploy-conversion-mapping-tag}
 

@@ -51,11 +51,11 @@ AMO ID 内の動的な値は、トラッキングされたマーケティング�
 
 [!UICONTROL Paid Search] チャネルの [!DNL Marketing Channels] の処理ルールは、次のようになります。
 
-![[!UICONTROL Paid Search] ルールの例 ](/help/integrations/assets/a4adc-mc-rule-paidsearch.png)
+![[!UICONTROL Paid Search] ルールの例 &#x200B;](/help/integrations/assets/a4adc-mc-rule-paidsearch.png)
 
 [!UICONTROL YouTube Video Ads] チャネルの [!DNL Marketing Channels] の処理ルールは、次のようになります。
 
-![[!UICONTROL YouTube Video Ads] ルールの例 ](/help/integrations/assets/a4adc-mc-rule-youtube-video.png)
+![[!UICONTROL YouTube Video Ads] ルールの例 &#x200B;](/help/integrations/assets/a4adc-mc-rule-youtube-video.png)
 
 >[!IMPORTANT]
 >
@@ -81,18 +81,18 @@ EF ID ディメンションは、[!DNL Analytics] のレポートでは直接使
 
 クリックスルーが URL 全体でトラッキングされる場合があります（デフォルト）。 また、クリックスルーは、サーバーサイドで Last Event Service を介して追跡されるので、URL には `ef_id` パラメーターは含まれません。 したがって、ルールは、EF ID 変数または `ef_id` クエリ文字列パラメータが「:d」で終わる条件をチェックします。 このルールをどちらの条件に対してもトリガーする場合は、「`Any`」演算子を使用します。
 
-![ 表示のクリックスルーのルールの例 ](/help/integrations/assets/a4adc-mc-rule-display-ct.png)
+![&#x200B; 表示のクリックスルーのルールの例 &#x200B;](/help/integrations/assets/a4adc-mc-rule-display-ct.png)
 
 #### ビュースルールールを表示
 
 表示ビュースルーチャネルを作成するには、EF ID が「:i」で終わるルールを作成します。 訪問者が広告をクリックしなかったので、ビュースルートラッキングには URL に `ef_id` や `s_kwcid` は含まれず、ルールに必要な条件は 1 つだけです。
 
-![ ビュースルールールの表示例 ](/help/integrations/assets/a4adc-mc-rule-display-vt.png)
+![&#x200B; ビュースルールールの表示例 &#x200B;](/help/integrations/assets/a4adc-mc-rule-display-vt.png)
 
 >[!MORELIKETHIS]
 >
->* [ の基本  [!DNL Analytics Marketing Channels]](mc-overview.md)
->* [ チャネルデータがAdobe Advertisingによって異なる理由  [!DNL Marketing Channels]](mc-data-variances.md)
->* [Adobe Advertisingデ  [!DNL Analytics Marketing Channels]  タの使用 ](mc-ac-data.md)
->* [ ビデオ：Adobe Advertisingレポート  [!DNL Marketing Channels]  使用 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ja)
->* [ 使用Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [&#x200B; の基本  [!DNL Analytics Marketing Channels]](mc-overview.md)
+>* [&#x200B; チャネルデータがAdobe Advertisingによって異なる理由  [!DNL Marketing Channels]](mc-data-variances.md)
+>* [Adobe Advertisingデ  [!DNL Analytics Marketing Channels]  タの使用 &#x200B;](mc-ac-data.md)
+>* [&#x200B; ビデオ：Adobe Advertisingレポート  [!DNL Marketing Channels]  使用 &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ja)
+>* [&#x200B; 使用Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md)

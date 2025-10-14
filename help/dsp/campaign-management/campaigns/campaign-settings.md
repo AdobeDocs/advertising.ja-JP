@@ -94,7 +94,7 @@ ht-degree: 0%
 >
 > フリークエンシーキャップは、キャンペーン、パッケージ、プレースメントの各レベルで設定できます。 DSPは、キャンペーン階層内で最も厳格なフリークエンシーキャップに従います。
 
-**[!UICONTROL Packages]:** キャンペーンに含める [ パッケージ ](/help/dsp/campaign-management/packages/package-about.md)。 既存のパッケージを選択するか、含めるパッケージを作成します。 パッケージを作成する場合、詳しくは、[ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md) に関する説明を参照してください。
+**[!UICONTROL Packages]:** キャンペーンに含める [&#x200B; パッケージ &#x200B;](/help/dsp/campaign-management/packages/package-about.md)。 既存のパッケージを選択するか、含めるパッケージを作成します。 パッケージを作成する場合、詳しくは、[&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) に関する説明を参照してください。
 
 ## [!UICONTROL Campaign Measurement]
 
@@ -132,9 +132,9 @@ ht-degree: 0%
 
 **[!UICONTROL Adelaide]:** プレースメントレベルの [!UICONTROL Attention Score] 指標（インプレッション間の [!DNL Adelaide] 「[!DNL Attention Units]」の加重平均数）のトラッキングを有効にします。 指標は、コネクテッド TV、VPAID のみのプレロール、ポッドキャスト [!DNL Roku] ないオーディオを除くすべてのプレースメントタイプで使用できます。 DSPでは、関連するすべてのクリエイティブにJavaScript タグを自動的に付加し、[!DNL Adelaide] で公開データを追跡して、それを毎日DSPに送信します。 この日付を使用して、より注意スコアの高いプレースメント戦術に向けて手動で支出を最適化できます。
 
-「[!UICONTROL Attention Score]」フィールドは、レポートの [!UICONTROL Metrics] のセクション（[!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements] の各ビュー内、および [ プレースメントの詳細ビュー ](/help/dsp/campaign-management/reports/placement-details-view.md) の「[!UICONTROL Sites]」、「[!UICONTROL Ads]」、「[!UICONTROL Inventory]」タブで使用できます。
+「[!UICONTROL Attention Score]」フィールドは、レポートの [!UICONTROL Metrics] のセクション（[!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements] の各ビュー内、および [&#x200B; プレースメントの詳細ビュー &#x200B;](/help/dsp/campaign-management/reports/placement-details-view.md) の「[!UICONTROL Sites]」、「[!UICONTROL Ads]」、「[!UICONTROL Inventory]」タブで使用できます。
 
-測定に [!DNL Adelaide] セグメントを使用すると、測定タグの付いた広告から配信されるインプレッションごとに CPM 料金が発生 [!DNL Adelaide] ます。 この料金は、[ プレースメントレベルのアテンションターゲティング ](/help/dsp/campaign-management/placements/placement-settings.md) の料金とは別のものです。
+測定に [!DNL Adelaide] セグメントを使用すると、測定タグの付いた広告から配信されるインプレッションごとに CPM 料金が発生 [!DNL Adelaide] ます。 この料金は、[&#x200B; プレースメントレベルのアテンションターゲティング &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) の料金とは別のものです。
 
 <!--
 Example JavaScript tag:
@@ -152,7 +152,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [Campaign Managementについて ](campaign-about.md)
->* [ キャンペーンの作成 ](campaign-create.md)
->* [ キャンペーンの編集 ](campaign-edit.md)
->* [ キャンペーンの変更ログを表示 ](campaign-change-log.md)
+>* [Campaign Managementについて &#x200B;](campaign-about.md)
+>* [&#x200B; キャンペーンの作成 &#x200B;](campaign-create.md)
+>* [&#x200B; キャンペーンの編集 &#x200B;](campaign-edit.md)
+>* [&#x200B; キャンペーンの変更ログを表示 &#x200B;](campaign-change-log.md)

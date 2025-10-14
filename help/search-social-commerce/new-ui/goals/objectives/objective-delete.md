@@ -19,14 +19,14 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Goals]/[!UICONTROL Objectives]** をクリックします。
 
-1. 目的の横にあるチェックボックスをオンにします。 データ テーブルの上にあるツールバーで、[![ 削除 ](/help/search-social-commerce/assets/delete-new.png " 削除 ")] をクリック **[!UICONTROL Delete]** ます。
+1. 目的の横にあるチェックボックスをオンにします。 データ テーブルの上にあるツールバーで、[![&#x200B; 削除 &#x200B;](/help/search-social-commerce/assets/delete-new.png " 削除 ")] をクリック **[!UICONTROL Delete]** ます。
 
 1. 確認メッセージで、「**[!UICONTROL Confirm]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ 目標について ](objective-about.md)
->* [ 目標の作成 ](objective-create.md)
->* [ 目標の編集 ](objective-edit.md)
->* [ 目標への重み付けレコメンデーションの適用 ](objective-apply-weight-recommendations.md)
->* [ 目標の設定 ](objective-settings.md)
+>* [&#x200B; 目標について &#x200B;](objective-about.md)
+>* [&#x200B; 目標の作成 &#x200B;](objective-create.md)
+>* [&#x200B; 目標の編集 &#x200B;](objective-edit.md)
+>* [&#x200B; 目標への重み付けレコメンデーションの適用 &#x200B;](objective-apply-weight-recommendations.md)
+>* [&#x200B; 目標の設定 &#x200B;](objective-settings.md)

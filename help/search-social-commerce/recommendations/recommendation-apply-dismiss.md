@@ -42,8 +42,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ パブリッシャーのレコメンデーションとインサイトのサポートについて ](recommendation-support.md)
->* [ パブリッシャーの推奨事項とパフォーマンスインサイトを表示する ](recommendation-view.md)
->* [ アカウントの公開者レコメンデーションログの表示 ](recommendation-view-log.md)
->* [ パブリッシャーのレコメンデーションをポートフォリオで使用する際のベストプラクティス ](recommendation-best-practices.md)
+>* [&#x200B; パブリッシャーのレコメンデーションとインサイトのサポートについて &#x200B;](recommendation-support.md)
+>* [&#x200B; パブリッシャーの推奨事項とパフォーマンスインサイトを表示する &#x200B;](recommendation-view.md)
+>* [&#x200B; アカウントの公開者レコメンデーションログの表示 &#x200B;](recommendation-view-log.md)
+>* [&#x200B; パブリッシャーのレコメンデーションをポートフォリオで使用する際のベストプラクティス &#x200B;](recommendation-best-practices.md)
 

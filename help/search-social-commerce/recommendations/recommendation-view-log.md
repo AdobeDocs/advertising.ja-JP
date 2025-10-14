@@ -26,8 +26,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ パブリッシャーのレコメンデーションとインサイトのサポートについて ](recommendation-support.md)
->* [ パブリッシャーの推奨事項とパフォーマンスインサイトを表示する ](recommendation-view.md)
->* [ パブリッシャーのレコメンデーションの適用または解除 ](recommendation-apply-dismiss.md)
->* [ パブリッシャーのレコメンデーションをポートフォリオで使用する際のベストプラクティス ](recommendation-best-practices.md)
+>* [&#x200B; パブリッシャーのレコメンデーションとインサイトのサポートについて &#x200B;](recommendation-support.md)
+>* [&#x200B; パブリッシャーの推奨事項とパフォーマンスインサイトを表示する &#x200B;](recommendation-view.md)
+>* [&#x200B; パブリッシャーのレコメンデーションの適用または解除 &#x200B;](recommendation-apply-dismiss.md)
+>* [&#x200B; パブリッシャーのレコメンデーションをポートフォリオで使用する際のベストプラクティス &#x200B;](recommendation-best-practices.md)
 

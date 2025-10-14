@@ -28,13 +28,13 @@ ht-degree: 0%
 
 1. 各トランザクションのオフライン部分に対して、広告主は、トランザクションのオンライン部分で使用されたのと同じトランザクション ID を生成し、フィードファイルに含めます。
 
-1. 広告主は、指定されたサーバーの場所に [ 必要な変換データ ](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md) を含むファイルをアップロードします。
+1. 広告主は、指定されたサーバーの場所に [&#x200B; 必要な変換データ &#x200B;](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md) を含むファイルをアップロードします。
 
 1. テクニカルサポートは、アップロードされたファイルのコンバージョンデータを解析して、Adobe Advertisingにアップロードします。 次に、Adobe Advertisingは、個々のキーワード、広告およびプレースメントに対してデータを追跡し、それぞれの売上高予測を作成します。
 
-1. テクニカルサービスは、処理されたデータをフィードデータと照合して検証し、[ 孤立トランザクション ](/help/search-social-commerce/glossary.md#o-p) の有無を確認します。
+1. テクニカルサービスは、処理されたデータをフィードデータと照合して検証し、[&#x200B; 孤立トランザクション &#x200B;](/help/search-social-commerce/glossary.md#o-p) の有無を確認します。
 
 >[!MORELIKETHIS]
 >
->* [ 変換フィードファイルのファイル要件 ](feed-file-requirements.md)
->* [ トランザクション ID を使用したデータフィードに関するデータ要件 ](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
+>* [&#x200B; 変換フィードファイルのファイル要件 &#x200B;](feed-file-requirements.md)
+>* [&#x200B; トランザクション ID を使用したデータフィードに関するデータ要件 &#x200B;](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)

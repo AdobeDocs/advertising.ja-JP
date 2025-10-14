@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 概要 ](overview.md)
->* [ 前提条件 ](prerequisites.md)
->* [ データ収集、データ転送、レポートの設定 ](set-up.md)
->* [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション ](advertising-data-in-cja.md)
+>* [&#x200B; 概要 &#x200B;](overview.md)
+>* [&#x200B; 前提条件 &#x200B;](prerequisites.md)
+>* [&#x200B; データ収集、データ転送、レポートの設定 &#x200B;](set-up.md)
+>* [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション &#x200B;](advertising-data-in-cja.md)

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * [!UICONTROL Creative Libraries] 表示と [!UICONTROL Experiences] 表示で、右上の広告主リストから広告主を選択します。
 
-![ 広告主リストの例 ](/help/creative/assets/advertiser.png " 広告主リストの例 ")
+![&#x200B; 広告主リストの例 &#x200B;](/help/creative/assets/advertiser.png " 広告主リストの例 ")
 
 ## データをカードまたはテーブルとして表示する
 
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 カード表示とテーブル表示を切り替えても、フィルターと選択内容は保持されます。
 
-![ カード表示 ](/help/creative/assets/card-view-button.png " カード表示 ") カード表示を開きます
+![&#x200B; カード表示 &#x200B;](/help/creative/assets/card-view-button.png " カード表示 ") カード表示を開きます
 
-![ カード表示の例 ](/help/creative/assets/card-view-example.png " カード表示の例 ")
+![&#x200B; カード表示の例 &#x200B;](/help/creative/assets/card-view-example.png " カード表示の例 ")
 
-![ テーブル/リスト表示 ](/help/creative/assets/table-view-button.png " テーブル表示 ") テーブル表示を開きます。
+![&#x200B; テーブル/リスト表示 &#x200B;](/help/creative/assets/table-view-button.png " テーブル表示 ") テーブル表示を開きます。
 
-![ テーブルビューの例 ](/help/creative/assets/table-view-example.png " テーブルビューの例 ")
+![&#x200B; テーブルビューの例 &#x200B;](/help/creative/assets/table-view-example.png " テーブルビューの例 ")
 
 <!-- not implemented as of 11-26:
 In card view, you can increase or decrease the size of the cards.
@@ -44,7 +44,7 @@ Refresh the pane to see any changes that other users have made.
 
 ## ビューのフィルター
 
-（使用可能な場合） フィルター（![ フィルターボタン ](/help/creative/assets/filter.png " フィルターボタン ")）表示されるエンティティには、次の情報のみが含まれます。
+（使用可能な場合） フィルター（![&#x200B; フィルターボタン &#x200B;](/help/creative/assets/filter.png " フィルターボタン ")）表示されるエンティティには、次の情報のみが含まれます。
 
 * **[!UICONTROL Creative Libraries]/[!UICONTROL Creatives]/[!UICONTROL Standard Ads]:** 特定のクリエイティブのサイズ、クリエイティブタイプ、サイズおよび関連するラベルまたは言語
 
@@ -74,7 +74,7 @@ Refresh the pane to see any changes that other users have made.
 
 * **[!UICONTROL Experiences]:** 特定のエクスペリエンス名を検索します。
 
-![ 検索入力フィールド ](/help/creative/assets/search-field.png " 例 – 検索入力フィールド ")
+![&#x200B; 検索入力フィールド &#x200B;](/help/creative/assets/search-field.png " 例 – 検索入力フィールド ")
 
 ## ビューの並べ替え
 
@@ -86,4 +86,4 @@ Refresh the pane to see any changes that other users have made.
 
 * [!UICONTROL Experiences]：開始日（[!UICONTROL Experience Name]）または終了日（[!UICONTROL Start On]）で並べ替えます [!UICONTROL End On]
 
-![ 並べ替えオプションの例 ](/help/creative/assets/sort.png " 並べ替えオプションの例 ")
+![&#x200B; 並べ替えオプションの例 &#x200B;](/help/creative/assets/sort.png " 並べ替えオプションの例 ")

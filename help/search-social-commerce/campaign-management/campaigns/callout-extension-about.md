@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Callouts] ビューと [!UICONTROL Associations] ビュー
 
-[!UICONTROL Campaigns]/[!UICONTROL Campaigns] の [!UICONTROL Extensions]/[!UICONTROL Callout] ライブラリに、アカウントレベルのコールアウトがすべて一覧表示され、そこで共有コールアウトを作成および管理できます。 [ アカウントあたりの広告拡張機能の最大数 ](https://support.google.com/google-ads/answer/6372658?hl=en) については、広告ネットワークのヘルプを参照し  [!DNL Google Ads]  ください。
+[!UICONTROL Campaigns]/[!UICONTROL Campaigns] の [!UICONTROL Extensions]/[!UICONTROL Callout] ライブラリに、アカウントレベルのコールアウトがすべて一覧表示され、そこで共有コールアウトを作成および管理できます。 [&#x200B; アカウントあたりの広告拡張機能の最大数 &#x200B;](https://support.google.com/google-ads/answer/6372658?hl=en) については、広告ネットワークのヘルプを参照し  [!DNL Google Ads]  ください。
 
 ライブラリ内の引き出し線は、キャンペーンまたは広告グループに割り当てるまで、広告で使用されません。 [!UICONTROL Extensions]/[!UICONTROL Associations] ビューでは、キャンペーンレベルまたは広告グループレベルで、あらゆるコールアウトを可能な限り拡張機能として、すべての広告に割り当てることができます。 コールアウトを使用して広告を表示するには、キャンペーンまたは広告グループごとに少なくとも 2 つのコールアウトを割り当てる必要があります。 広告グループレベルのコールアウトが、キャンペーンレベルのコールアウトを上書きします。
 
@@ -32,5 +32,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Manage [!DNL Google Ads] callout 拡張機能 ](callout-extension-manage.md)
->* [ 共有コ  [!DNL Google Ads]  ルアウト拡張機能のキャンペーンまたは広告グループへの関連付け ](callout-extension-associate.md)
+>* [Manage [!DNL Google Ads] callout 拡張機能 &#x200B;](callout-extension-manage.md)
+>* [&#x200B; 共有コ  [!DNL Google Ads]  ルアウト拡張機能のキャンペーンまたは広告グループへの関連付け &#x200B;](callout-extension-associate.md)

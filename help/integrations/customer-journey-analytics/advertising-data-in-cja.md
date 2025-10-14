@@ -91,7 +91,7 @@ Adobe Advertisingは、トラフィック指標とディメンションを毎日
 
 >[!MORELIKETHIS]
 >
->* [ 概要 ](overview.md)
->* [ 前提条件 ](prerequisites.md)
->* [ 使用するAdobe Advertising ID [!DNL Customer Journey Analytics]](ids.md)
->* [ データ収集、データ転送、レポートの設定 ](set-up.md)
+>* [&#x200B; 概要 &#x200B;](overview.md)
+>* [&#x200B; 前提条件 &#x200B;](prerequisites.md)
+>* [&#x200B; 使用するAdobe Advertising ID [!DNL Customer Journey Analytics]](ids.md)
+>* [&#x200B; データ収集、データ転送、レポートの設定 &#x200B;](set-up.md)

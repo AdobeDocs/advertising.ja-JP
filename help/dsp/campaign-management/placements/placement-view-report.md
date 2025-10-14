@@ -21,9 +21,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プレースメントのサイト、広告、頻度の詳細の表示 ](/help/dsp/campaign-management/reports/placement-details-view.md)
->* [ 広告の詳細レポートの表示 ](/help/dsp/campaign-management/ads/ad-view-report.md)
->* [ キャンペーンの詳細レポートの表示 ](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [ キャンペーン管理ビューでのパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
->* [ プレースメントの変更ログを表示 ](placement-change-log.md)
+>* [&#x200B; プレースメントのサイト、広告、頻度の詳細の表示 &#x200B;](/help/dsp/campaign-management/reports/placement-details-view.md)
+>* [&#x200B; 広告の詳細レポートの表示 &#x200B;](/help/dsp/campaign-management/ads/ad-view-report.md)
+>* [&#x200B; キャンペーンの詳細レポートの表示 &#x200B;](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [&#x200B; キャンペーン管理ビューでのパフォーマンスレポートのタイプ &#x200B;](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
+>* [&#x200B; プレースメントの変更ログを表示 &#x200B;](placement-change-log.md)

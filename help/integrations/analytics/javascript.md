@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Advertising DSPの場合、[!DNL Analytics for Advertising] 統合は、ビュースルーおよびクリックスルーサイトのインタラクションを追跡します。 クリックスルーの訪問は、web ページ上で標準のAdobe Analytics コードによってトラッキングされます。[!DNL Analytics] コードは、ランディングページの URL にある AMO ID および EF ID パラメーターをキャプチャし、それぞれの予約済み [!DNL eVars] でトラッキングします。 Web ページにJavaScript スニペットをデプロイすることで、ビュースルーの訪問をトラッキングできます。
 
-サイトへの訪問の最初のページビューで、Adobe AdvertisingのJavaScript コードが、訪問者が以前に広告を表示またはクリックしたかどうかを確認します。 ユーザーがクリックスルーから以前にサイトに入った場合や、広告を表示していない場合、訪問者は無視されます。 訪問者が広告を表示し、Adobe Advertising内に設定された [ クリックルックバックウィンドウ ](/help/integrations/analytics/prerequisites.md#lookback-a4adc) の間にクリックスルーからサイトに入っていない場合、Adobe AdvertisingのJavaScript コードは、a） [Experience CloudID サービスを使用して追加の ID を生成する（`SDID`） ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) または b） Adobe Experience Platform [!DNL Web SDK] `generateRandomID` メソッドを使用して `[!DNL StitchID]` を生成します。 どちらの ID を使用しても、Adobe Advertisingから訪問者のAdobe Analytics ヒットにデータが結び付けられます。 次に、Adobe Analyticsは、広告公開に関連付けられた AMO ID および EF ID のAdobe Advertisingに対してクエリを実行します。 次に、AMO ID と EF ID がそれぞれの [!DNL eVars] に入力されます。 これらの値は、指定した期間（デフォルトでは 60 日）保持されます。
+サイトへの訪問の最初のページビューで、Adobe AdvertisingのJavaScript コードが、訪問者が以前に広告を表示またはクリックしたかどうかを確認します。 ユーザーがクリックスルーから以前にサイトに入った場合や、広告を表示していない場合、訪問者は無視されます。 訪問者が広告を表示し、Adobe Advertising内に設定された [&#x200B; クリックルックバックウィンドウ &#x200B;](/help/integrations/analytics/prerequisites.md#lookback-a4adc) の間にクリックスルーからサイトに入っていない場合、Adobe AdvertisingのJavaScript コードは、a） [Experience CloudID サービスを使用して追加の ID を生成する（`SDID`） &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) または b） Adobe Experience Platform [!DNL Web SDK] `generateRandomID` メソッドを使用して `[!DNL StitchID]` を生成します。 どちらの ID を使用しても、Adobe Advertisingから訪問者のAdobe Analytics ヒットにデータが結び付けられます。 次に、Adobe Analyticsは、広告公開に関連付けられた AMO ID および EF ID のAdobe Advertisingに対してクエリを実行します。 次に、AMO ID と EF ID がそれぞれの [!DNL eVars] に入力されます。 これらの値は、指定した期間（デフォルトでは 60 日）保持されます。
 
 [!DNL Analytics] は、EF ID をキーとして使用して、サイトトラフィック指標（ページビュー数、訪問回数、滞在時間など）および [!DNL Analytics] のカスタムイベントまたは標準イベントを 1 時間ごとにAdobe Advertisingに送信します。 これらの [!DNL Analytics] 指標は、コンバージョンのアトリビューションシステムを通じて実行され、Adobe Advertisingをクリック数と公開数の履歴に結び付けます。
 
@@ -88,7 +88,7 @@ JavaScript ライブラリは、[!DNL Analytics] とAdobe Advertisingが相互�
 
 [!DNL Analytics for Advertising] JavaScript関数は、Experience CloudID サービスの後、Analytics アプリ測定コードの前に配置する必要があります。 これにより、追加の ID （`SDID`）または `[!DNL StitchID]` が Analytics 呼び出しに含まれるようになります。
 
-![ コード配置 ](/help/integrations/assets/a4adc-code-placement.png)
+![&#x200B; コード配置 &#x200B;](/help/integrations/assets/a4adc-code-placement.png)
 
 ### コードのデプロイメントの検証
 
@@ -102,7 +102,7 @@ JavaScript ライブラリは、[!DNL Analytics] とAdobe Advertisingが相互�
 
 1. 「[!UICONTROL Network]」タブを `last` でフィルタリングし、2 つの行を確認します。
 
-   ![ 前回のフィルタリング ](/help/integrations/assets/a4adc-code-validation-filter-last.png)
+   ![&#x200B; 前回のフィルタリング &#x200B;](/help/integrations/assets/a4adc-code-validation-filter-last.png)
 
    * 最初の行はJavaScript ライブラリの呼び出しで、タイトルは `last-event-tag-latest.min.js` です。
    * 2 行目は、リクエストをAdobe Advertisingに送信する呼び出しです。 `_les_imsOrgId=[your_imsOrgId_here]&_les_url=[your_encoded_url]` の手順で開始します。
@@ -138,7 +138,7 @@ JavaScript ライブラリは、[!DNL Analytics] とAdobe Advertisingが相互�
 1. 「[!UICONTROL Network]」タブに移動します。
 1. [!UICONTROL Solutions Filter] のツールバーで、「[!UICONTROL Adobe Advertising]」をクリックし、「[!UICONTROL Analytics]」をクリックします。
 1. [!UICONTROL Request URL - Hostname] パラメーター行で、`lasteventf-tm.everesttech.net` を見つけます。
-1. [!UICONTROL Request - Parameters] の行で、「コードの確認方法 [ の手順 3 と同様に、生成されたシグナルを監査  [!DNL Chrome Developer Tools]](#validate-js-chrome) ます。
+1. [!UICONTROL Request - Parameters] の行で、「コードの確認方法 [&#x200B; の手順 3 と同様に、生成されたシグナルを監査  [!DNL Chrome Developer Tools]](#validate-js-chrome) ます。
    * （Experience Cloud ID サービス `visitorAPI.js` コードを使用する実装） `Sdid` パラメーターがAdobe Analytics フィルターの `Supplemental Data ID` と一致していることを確認します。
    * （Experience Platform[!DNL Web SDK] コード `alloy.js` を使用する実装。`advertisingStitchID` パラメーターの値が、Experience PlatformEdge Networkに送信される `Sdid` と一致していることを確認します。
    * コードが生成されない場合は、「[!UICONTROL Application]」タブでAdobe Advertising cookie が削除されていることを確認します。 削除したら、ページを更新して手順を繰り返します。
@@ -147,5 +147,5 @@ JavaScript ライブラリは、[!DNL Analytics] とAdobe Advertisingが相互�
 
 >[!MORELIKETHIS]
 >
->* [ 概要  [!DNL Analytics for Advertising]](overview.md)
->* [ 実装の前提条件と主な情報  [!DNL Analytics for Advertising]](prerequisites.md)
+>* [&#x200B; 概要  [!DNL Analytics for Advertising]](overview.md)
+>* [&#x200B; 実装の前提条件と主な情報  [!DNL Analytics for Advertising]](prerequisites.md)

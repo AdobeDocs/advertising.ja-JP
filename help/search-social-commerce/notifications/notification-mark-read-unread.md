@@ -14,21 +14,21 @@ ht-degree: 0%
 
 *Beta機能*
 
-通知を *読み取り* または *未読* としてマークすると、各ページの上部にある [!UICONTROL Notifications] リンクに表示される未読の通知の数が変更されます（例：![ 未読の通知カウンター付きの通知アイコン ](/help/search-social-commerce/assets/notifications-unread.png " 未読の通知カウンター付きの通知アイコン ")）。
+通知を *読み取り* または *未読* としてマークすると、各ページの上部にある [!UICONTROL Notifications] リンクに表示される未読の通知の数が変更されます（例：![&#x200B; 未読の通知カウンター付きの通知アイコン &#x200B;](/help/search-social-commerce/assets/notifications-unread.png " 未読の通知カウンター付きの通知アイコン ")）。
 
 *読み取り* とマークされた通知は、薄い色のテキストで表示されますが、削除されるまで使用可能です。
 
-![ 既読および未読の通知 ](/help/search-social-commerce/assets/notifications-read-vs-unread.png " 既読および未読の通知 ")
+![&#x200B; 既読および未読の通知 &#x200B;](/help/search-social-commerce/assets/notifications-read-vs-unread.png " 既読および未読の通知 ")
 
-1. [ 通知パネルまたは通知センターを開きます ](notification-view.md)。
+1. [&#x200B; 通知パネルまたは通知センターを開きます &#x200B;](notification-view.md)。
 
 1. アラート名の上にカーソルを置き、![Mark as Read または Unread](/help/search-social-commerce/assets/notifications-read-unread.png "Mark as Read または Unread") をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ 通知について ](/help/search-social-commerce/notifications/notification-about.md)
->* [ 通知の表示 ](notification-view.md)
->* [ 通知の削除 ](notification-delete.md)
->* [ 通知設定の編集 ](notification-edit.md)
+>* [&#x200B; 通知について &#x200B;](/help/search-social-commerce/notifications/notification-about.md)
+>* [&#x200B; 通知の表示 &#x200B;](notification-view.md)
+>* [&#x200B; 通知の削除 &#x200B;](notification-delete.md)
+>* [&#x200B; 通知設定の編集 &#x200B;](notification-edit.md)
 >* [[!UICONTROL Notification Center]](notifications-push-enable-disable.md) からのプッシュ通知の有効化と無効化
->* [[!UICONTROL Notification Center] Web アプリケーションをインストールしてアンインストールする ](notification-app-install-uninstall.md)
+>* [[!UICONTROL Notification Center] Web アプリケーションをインストールしてアンインストールする &#x200B;](notification-app-install-uninstall.md)

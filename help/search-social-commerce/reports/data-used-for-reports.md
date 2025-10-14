@@ -14,7 +14,7 @@ ht-degree: 0%
 
 検索、ソーシャル、Commerceには、クリックおよびコンバージョンデータに基づく包括的なパフォーマンスレポートのセットが含まれています。 ポートフォリオまたは広告アカウントの様々なコンポーネントに関する基本的なパフォーマンスデータは、[!UICONTROL Portfolios] ビューと [!UICONTROL Campaigns] ビューから表示できるほか、様々な基本レポートと詳細レポートを生成して表示できます。
 
-また、Adobe Advertisingコンバージョントラッキングサービスを使用する広告主は、参照する Web サイトの地理的な場所やドメイン名のクリック数、各チャネルの広告およびコンバージョンにつながる様々なイベントが全体的なコンバージョン率にどのように貢献しているか、マーケティングチャネル別に 1 つの [ コンバージョン指標 ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) のコンバージョンの分布を特定することもできます。 使用可能なレポートは、ユーザーアカウントのタイプによって異なります。 Adobeアカウントチームは、すべてのレポートにアクセスできます。
+また、Adobe Advertisingコンバージョントラッキングサービスを使用する広告主は、参照する Web サイトの地理的な場所やドメイン名のクリック数、各チャネルの広告およびコンバージョンにつながる様々なイベントが全体的なコンバージョン率にどのように貢献しているか、マーケティングチャネル別に 1 つの [&#x200B; コンバージョン指標 &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) のコンバージョンの分布を特定することもできます。 使用可能なレポートは、ユーザーアカウントのタイプによって異なります。 Adobeアカウントチームは、すべてのレポートにアクセスできます。
 
 ほとんどのレポートは、必要な情報のみを表示するようにカスタマイズできます。 ほとんどのレポートで使用でき、広告レベルで計算される標準指標は次のとおりです。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * **コンバージョン指標：** 広告主のコンバージョン指標またはコンバージョン指標に対して追跡されたトランザクションデータごとのコンバージョンの合計数。 これには、Adobe Analyticsから同期されたコンバージョン指標とサイトエンゲージメント指標が含まれますが、計算指標や高度な計算指標は含まれません。
 
-  これには、広告主アカウントに対して同期される [[!DNL Google Ads] 追跡コンバージョン ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) および [[!DNL Google Analytics] 追跡コ ](/help/search-social-commerce/admin/data-sources/data-source-about.md) ンバージョンも含まれる場合があります。
+  これには、広告主アカウントに対して同期される [[!DNL Google Ads] 追跡コンバージョン &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) および [[!DNL Google Analytics] 追跡コ &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md) ンバージョンも含まれる場合があります。
 
 * **カスタム指標：** 既存の指標（注文あたりのコストなど）に基づいて数式を作成することによって導き出される独自の指標。
 
@@ -61,5 +61,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ レポートについて ](report-about.md)
->* [ レポートの初期設定タスク ](initial-setup.md)
+>* [&#x200B; レポートについて &#x200B;](report-about.md)
+>* [&#x200B; レポートの初期設定タスク &#x200B;](initial-setup.md)

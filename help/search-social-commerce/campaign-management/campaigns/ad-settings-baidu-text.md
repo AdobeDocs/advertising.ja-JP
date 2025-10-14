@@ -44,5 +44,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 広告について ](ad-about.md)
->* [ 広告の管理 ](ad-manage.md)
+>* [&#x200B; 広告について &#x200B;](ad-about.md)
+>* [&#x200B; 広告の管理 &#x200B;](ad-manage.md)

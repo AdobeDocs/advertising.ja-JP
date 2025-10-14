@@ -7,13 +7,13 @@ ht-degree: 0%
 ---
 # テキスト広告テンプレート – フィードと列
 
-**[!UICONTROL Feed & Columns]:** テンプレートに関連付けられた [ フィード ファイル ](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md) または商社口座、および選択したファイルまたは口座の列（ヘッダー）:
+**[!UICONTROL Feed & Columns]:** テンプレートに関連付けられた [&#x200B; フィード ファイル &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md) または商社口座、および選択したファイルまたは口座の列（ヘッダー）:
 
 * *[!UICONTROL Feed File]:* ファイルをアップロードするか、使用可能なフィードファイルのリストからファイルを選択します。
 
-* *[!UICONTROL Google Merchant Center]:* [ 同期  [!DNL Google Merchant Center]  アカウント ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md) を選択します。 検索、ソーシャル、Commerceは商品グループのみを作成します。[!DNL Google Ads] は商品グループのショッピング広告を自動生成します。 カスタム列はサポートされていません。
+* *[!UICONTROL Google Merchant Center]:* [&#x200B; 同期  [!DNL Google Merchant Center]  アカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md) を選択します。 検索、ソーシャル、Commerceは商品グループのみを作成します。[!DNL Google Ads] は商品グループのショッピング広告を自動生成します。 カスタム列はサポートされていません。
 
-* *[!UICONTROL Microsoft Merchant Center]:* （[!DNL Microsoft Advertising] 買い物テンプレートのみ） [ 同期  [!DNL Microsoft Merchant Center]  アカウント ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md) を選択します。 検索、ソーシャル、Commerceは商品グループのみを作成します [!DNL Microsoft Advertising]、商品グループの商品広告は自動生成されます。 カスタム列はサポートされていません。
+* *[!UICONTROL Microsoft Merchant Center]:* （[!DNL Microsoft Advertising] 買い物テンプレートのみ） [&#x200B; 同期  [!DNL Microsoft Merchant Center]  アカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md) を選択します。 検索、ソーシャル、Commerceは商品グループのみを作成します [!DNL Microsoft Advertising]、商品グループの商品広告は自動生成されます。 カスタム列はサポートされていません。
 
 テンプレートを使用して広告を作成する準備が整うまでは、テンプレートとフィードファイルまたは販売者アカウントの関連付けはオプションです。
 

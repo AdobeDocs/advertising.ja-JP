@@ -72,7 +72,7 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 
 >[!MORELIKETHIS]
 >
->* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
->* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
->* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)
->* [ プライベートインベントリについて ](/help/dsp/inventory/private-inventory-about.md)
+>* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [&#x200B; カスタムレポートの設定 &#x200B;](/help/dsp/reports/report-settings.md)
+>* [&#x200B; 使用可能なレポート列 &#x200B;](/help/dsp/reports/report-columns.md)
+>* [&#x200B; プライベートインベントリについて &#x200B;](/help/dsp/inventory/private-inventory-about.md)

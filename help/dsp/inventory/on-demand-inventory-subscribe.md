@@ -16,7 +16,7 @@ ht-degree: 0%
 
 個々の取引をリクエストしたり、パブリッシャーを購読して、パブリッシャーのすべての取引をリクエストしたりできます。 パブリッシャーを購入すると、DSPは、お客様に代わって、パブリッシャーが提供する新しい取引を自動的にリクエストします。
 
-契約が [ 承認 ](/help/dsp/inventory/on-demand-inventory-view-status.md) されると、すべての在庫をターゲットにする新しいプレースメントのターゲットとして、デフォルトで含ま [!DNL On Demand] ます。 新しい契約は、既存のプレースメントのターゲットとしても使用できますが、契約をターゲットとして追加するには、プレースメント設定を手動で編集する必要があります。
+契約が [&#x200B; 承認 &#x200B;](/help/dsp/inventory/on-demand-inventory-view-status.md) されると、すべての在庫をターゲットにする新しいプレースメントのターゲットとして、デフォルトで含ま [!DNL On Demand] ます。 新しい契約は、既存のプレースメントのターゲットとしても使用できますが、契約をターゲットとして追加するには、プレースメント設定を手動で編集する必要があります。
 
 ## パブリッシャーの取引をすべて購読
 
@@ -85,9 +85,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
->* [ 取引リクエストと購読  [!DNL On Demand]  ステータスの表示 ](on-demand-inventory-view-status.md)
->* [On Demand Premium の在庫取引の再リクエスト ](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand]  アジア太平洋のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-na.md)
+>* [&#x200B; 取引リクエストと購読  [!DNL On Demand]  ステータスの表示 &#x200B;](on-demand-inventory-view-status.md)
+>* [On Demand Premium の在庫取引の再リクエスト &#x200B;](on-demand-inventory-rerequest.md)
+>* [[!DNL On Demand]  アジア太平洋のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-na.md)

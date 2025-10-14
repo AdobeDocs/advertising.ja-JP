@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads] アカウントとAdobe Advertisingのコンバージョントラッキングのみを使用する広告主*
 
-検索、ソーシャル、Commerceは、オプションで、Adobe Advertising コンバージョントラッキングサービスを使用する [!DNL Google Ads] のキャンペーンで追跡するすべてのコンバージョン指標を [!DNL Google Ads] にアップロードできます。 このオプションでは、コンバージョンをハイブリッド最適化で使用することはできません。 ハイブリッド最適化にAdobe コンバージョンを使用する場合は、「[ 広告ネットワークへの目標のアップロードの有効化 ](objective-upload-to-networks.md) を参照してください。
+検索、ソーシャル、Commerceは、オプションで、Adobe Advertising コンバージョントラッキングサービスを使用する [!DNL Google Ads] のキャンペーンで追跡するすべてのコンバージョン指標を [!DNL Google Ads] にアップロードできます。 このオプションでは、コンバージョンをハイブリッド最適化で使用することはできません。 ハイブリッド最適化にAdobe コンバージョンを使用する場合は、「[&#x200B; 広告ネットワークへの目標のアップロードの有効化 &#x200B;](objective-upload-to-networks.md) を参照してください。
 
 毎日のアップロードには、トラッキングされる `gclid` 値、広告主レベルのアトリビューションモデルを使用して定義されたコンバージョン値、タイムスタンプが含まれます。 アトリビューションモデルが更新された場合、次のアップロードでは新しいモデルが使用されますが、過去のデータは新しいモデルを使用するように更新されません。
 
@@ -30,8 +30,8 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-1. （コンバージョンが管理者アカウントレベルで追跡されている場合） [ 管理者アカウントの資格情報を追加 ](/help/search-social-commerce/admin/manager-accounts.md)**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Manager Accounts]** で行います。
+1. （コンバージョンが管理者アカウントレベルで追跡されている場合） [&#x200B; 管理者アカウントの資格情報を追加 &#x200B;](/help/search-social-commerce/admin/manager-accounts.md)**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Manager Accounts]** で行います。
 
 >[!MORELIKETHIS]
 >
->* [ 広告ネットワークへの目標のアップロードを有効にする ](objective-upload-to-networks.md)
+>* [&#x200B; 広告ネットワークへの目標のアップロードを有効にする &#x200B;](objective-upload-to-networks.md)

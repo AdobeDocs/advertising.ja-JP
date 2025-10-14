@@ -19,20 +19,20 @@ ht-degree: 0%
 
    * レポートの最新のインスタンスをダウンロードするには、[**[!UICONTROL Download]**] をクリックします。
 
-   * （複数のインスタンスが存在するレポート） [!UICONTROL Download] の横にある ![ 下矢印 ](/help/dsp/assets/chevron-down.png " 下矢印 ") をクリックし、ダウンロードするレポートの完了日をクリックします。 ダウンロード可能なレポートインスタンスには、ダウンロードアイコン（![ダウンロードアイコン](/help/dsp/assets/indicator-downloadable.png "ダウンロードアイコン")）が表示されます。
+   * （複数のインスタンスが存在するレポート） [!UICONTROL Download] の横にある ![&#x200B; 下矢印 &#x200B;](/help/dsp/assets/chevron-down.png " 下矢印 ") をクリックし、ダウンロードするレポートの完了日をクリックします。 ダウンロード可能なレポートインスタンスには、ダウンロードアイコン（![ダウンロードアイコン](/help/dsp/assets/indicator-downloadable.png "ダウンロードアイコン")）が表示されます。
 
      使用可能なインスタンスが多数ある場合は、必要に応じてリストの下部にある「**[!UICONTROL Load More]**」をクリックします。
 
      1 つのレポートを同じ日に複数回実行すると、その日のレポートインスタンスが時系列で表示され、最新のインスタンスが上位に表示されます。
 
-     失敗したレポートジョブにはエラーアイコン（![ エラーインジケーター ](/help/dsp/assets/indicator-critical.png " エラーインジケーター ")）が表示され、ダウンロードできません。 エラーの説明を表示するには、エラーアイコンの上にカーソルを置きます。
+     失敗したレポートジョブにはエラーアイコン（![&#x200B; エラーインジケーター &#x200B;](/help/dsp/assets/indicator-critical.png " エラーインジケーター ")）が表示され、ダウンロードできません。 エラーの説明を表示するには、エラーアイコンの上にカーソルを置きます。
 
 >[!MORELIKETHIS]
 >
->* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
->* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
->* [ カスタムレポートの複製 ](/help/dsp/reports/report-copy.md)
->* [ カスタムレポートの編集 ](/help/dsp/reports/report-edit.md)
->* [ カスタムレポートの実行 ](/help/dsp/reports/report-run-now.md)
->* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
->* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)
+>* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
+>* [&#x200B; カスタムレポートの作成 &#x200B;](/help/dsp/reports/report-create.md)
+>* [&#x200B; カスタムレポートの複製 &#x200B;](/help/dsp/reports/report-copy.md)
+>* [&#x200B; カスタムレポートの編集 &#x200B;](/help/dsp/reports/report-edit.md)
+>* [&#x200B; カスタムレポートの実行 &#x200B;](/help/dsp/reports/report-run-now.md)
+>* [&#x200B; カスタムレポートの設定 &#x200B;](/help/dsp/reports/report-settings.md)
+>* [&#x200B; 使用可能なレポート列 &#x200B;](/help/dsp/reports/report-columns.md)

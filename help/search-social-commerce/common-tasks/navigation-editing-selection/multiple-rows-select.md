@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * **[!DNL Ctrl+Click]**：連続していない複数の行を選択するには、最初の行をクリックし、**[!DNL Ctrl]** キーを押しながら追加の各行をクリックします。
 
-* 左上隅の列見出しのグローバル チェック ボックス （![ チェック ボックス ](/help/search-social-commerce/assets/check-box.png)&quot;チェック ボックス&quot;）:
+* 左上隅の列見出しのグローバル チェック ボックス （![&#x200B; チェック ボックス &#x200B;](/help/search-social-commerce/assets/check-box.png)&quot;チェック ボックス&quot;）:
 
    * 現在のページのすべての行（表示している行数が 25 行、50 行、100 行、200 行のいずれかに基づいて、適用されたフィルターで使用可能な行の一部または全部）を選択するには、「グローバル」チェックボックスをオンにし [!UICONTROL Continuous Scroll] す。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 列見出しメニューからのデータフィルターの適用 ](../data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
->* [ ツールバーからのデータフィルターの適用 ](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
->* [ 日付範囲でデータをフィルタリング ](../data-views/ad-hoc-settings/date-filter.md)
->* [ フィルターの削除 ](../data-views/ad-hoc-settings/column-filter-remove.md)
+>* [&#x200B; 列見出しメニューからのデータフィルターの適用 &#x200B;](../data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
+>* [&#x200B; ツールバーからのデータフィルターの適用 &#x200B;](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [&#x200B; 日付範囲でデータをフィルタリング &#x200B;](../data-views/ad-hoc-settings/date-filter.md)
+>* [&#x200B; フィルターの削除 &#x200B;](../data-views/ad-hoc-settings/column-filter-remove.md)

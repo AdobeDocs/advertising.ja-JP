@@ -52,6 +52,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 専門レポートの生成 ](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [ 専門レポートの設定 ](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
->* [ 専門レポートのレポート列 ](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
+>* [&#x200B; 専門レポートの生成 &#x200B;](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
+>* [&#x200B; 専門レポートの設定 &#x200B;](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [&#x200B; 専門レポートのレポート列 &#x200B;](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)

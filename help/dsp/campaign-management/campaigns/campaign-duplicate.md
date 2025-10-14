@@ -57,8 +57,8 @@ ht-degree: 0%
 
 >[!TIP]
 >
->* バルクシートを使用して [ 複数の Campaign コンポーネントを一度に変更 ](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
->* 広告タグシートを使用して [ 複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
+>* バルクシートを使用して [&#x200B; 複数の Campaign コンポーネントを一度に変更 &#x200B;](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
+>* 広告タグシートを使用して [&#x200B; 複数のサードパーティ広告をアップロード &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
 
 * 新しいキャンペーンをアクティブ化する準備ができるまで一時停止します。
 
@@ -84,8 +84,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign 管理について ](campaign-about.md)
->* [ キャンペーンの作成 ](campaign-create.md)
->* [ キャンペーンの編集 ](campaign-edit.md)
->* [ キャンペーンの変更ログを表示 ](campaign-change-log.md)
->* [ キャンペーン設定 ](campaign-settings.md)
+>* [Campaign 管理について &#x200B;](campaign-about.md)
+>* [&#x200B; キャンペーンの作成 &#x200B;](campaign-create.md)
+>* [&#x200B; キャンペーンの編集 &#x200B;](campaign-edit.md)
+>* [&#x200B; キャンペーンの変更ログを表示 &#x200B;](campaign-change-log.md)
+>* [&#x200B; キャンペーン設定 &#x200B;](campaign-settings.md)

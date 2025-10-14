@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Advertising DSP[!DNL Advertising Search, Social, & Commerce]* の広告主
 
-* Adobe Experience Platformのデータモデリングおよび管理テクノロジー（[ スキーマ ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home) および [ データセット ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)）と [ データ収集テクノロジー ](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/home) [ データストリーム ](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/overview) および [ タグ ](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)）を使用します
+* Adobe Experience Platformのデータモデリングおよび管理テクノロジー（[&#x200B; スキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home) および [&#x200B; データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)）と [&#x200B; データ収集テクノロジー &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/home) [&#x200B; データストリーム &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/overview) および [&#x200B; タグ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)）を使用します
 
   これらのテクノロジーを使用するには、Experience Platform サイト管理者のサポートが必要です。
 
@@ -26,8 +26,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 概要 ](overview.md)
->* [ 使用するAdobe Advertising ID [!DNL Customer Journey Analytics]](ids.md)
->* [ データ収集、データ転送、レポートの設定 ](set-up.md)
->* [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション ](advertising-data-in-cja.md)
->* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データを収集します ](/help/integrations/analytics/rvars-to-evars.md)。
+>* [&#x200B; 概要 &#x200B;](overview.md)
+>* [&#x200B; 使用するAdobe Advertising ID [!DNL Customer Journey Analytics]](ids.md)
+>* [&#x200B; データ収集、データ転送、レポートの設定 &#x200B;](set-up.md)
+>* [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション &#x200B;](advertising-data-in-cja.md)
+>* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データを収集します &#x200B;](/help/integrations/analytics/rvars-to-evars.md)。

@@ -30,7 +30,7 @@ DSPまたは [!DNL Creative] で [!DNL Adobe] オーディエンスにアクセ�
 
   実装には、広告主のサイトの各 web ページへの [!DNL Identity service] コードの追加が含まれます。
 
-* 組織は、[Experience Cloud サービスに対して有効 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/overview) で、Experience Cloud [!DNL Organization ID] （以前の [!DNL IMS org ID]）を持っている必要があります。
+* 組織は、[Experience Cloud サービスに対して有効 &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/overview) で、Experience Cloud [!DNL Organization ID] （以前の [!DNL IMS org ID]）を持っている必要があります。
 
   [!UICONTROL Organization ID] を使用すると、複数のAdobe Experience Cloud製品を持つ組織で、一部の製品間でデータを共有できます。
 
@@ -38,7 +38,7 @@ DSPまたは [!DNL Creative] で [!DNL Adobe] オーディエンスにアクセ�
 
 * 広告主の web サイト訪問者には、大量の [!DNL Apple Safari] ユーザーは含まれていません。
 
-* （Audience Managerと [!DNL Analytics] の両方を使用する場合にお勧めします）各 web ページへの呼び出しを減らすには、データ収集用の既存のAudience Manager [!DNL Data Integration Library] コードを削除し、代わりに各 [!DNL Analytics] レポートスイートのサーバーサイド転送を有効にします。 詳しくは、「[ サーバーサイド転送の概要 ](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf) を参照してください。
+* （Audience Managerと [!DNL Analytics] の両方を使用する場合にお勧めします）各 web ページへの呼び出しを減らすには、データ収集用の既存のAudience Manager [!DNL Data Integration Library] コードを削除し、代わりに各 [!DNL Analytics] レポートスイートのサーバーサイド転送を有効にします。 詳しくは、「[&#x200B; サーバーサイド転送の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf) を参照してください。
 
 * （推奨）一致率を高めるには、ファーストパーティの web サイトデータのみをAdobe Advertisingに送信します。 広告主が顧客関係管理システムからサードパーティデータやオフラインデータをバンドルすると、データ漏洩によりマッチ率が低下する可能性があります。
 
@@ -139,9 +139,9 @@ DSPは、[!DNL Adobe Experience Cloud Identity (ECID) Service] を使用して�
 
 DSPは、セグメント名をAudience Manager分類別にまとめ、対応するセグメントメンバーシップの数をに含めます。
 
-* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md#audience-targeting):「プレースメント」セクションの「[!UICONTROL Adobe Segments]」タブ [!UICONTROL Audience Targeting] 使用します。
+* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md#audience-targeting):「プレースメント」セクションの「[!UICONTROL Adobe Segments]」タブ [!UICONTROL Audience Targeting] 使用します。
 
-* [ オーディエンス設定 ](/help/dsp/audiences/audience-settings.md) の場合：「オーディ [!UICONTROL Adobe Segments] ンス」タブで設定します。
+* [&#x200B; オーディエンス設定 &#x200B;](/help/dsp/audiences/audience-settings.md) の場合：「オーディ [!UICONTROL Adobe Segments] ンス」タブで設定します。
 
 ### Advertising Creative内
 
@@ -155,4 +155,4 @@ DSPは、セグメント名をAudience Manager分類別にまとめ、対応す�
 
 >[!MORELIKETHIS]
 >
->* [Adobe AdvertisingとAdobe Audience Managerの統合 ](/help/integrations/audience-manager/overview.md)
+>* [Adobe AdvertisingとAdobe Audience Managerの統合 &#x200B;](/help/integrations/audience-manager/overview.md)

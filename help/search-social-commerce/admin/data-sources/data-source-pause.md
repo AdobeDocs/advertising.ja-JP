@@ -21,16 +21,16 @@ ht-degree: 0%
 
 1. 一時停止するデータソースの横にあるチェックボックスを選択します。
 
-1. データ テーブルの上にあるツールバーで、[![ 一時停止 ](/help/search-social-commerce/assets/pause.png " 一時停止 ")] をクリックします。
+1. データ テーブルの上にあるツールバーで、[![&#x200B; 一時停止 &#x200B;](/help/search-social-commerce/assets/pause.png " 一時停止 ")] をクリックします。
 
 1. 確認メッセージで、「**[!UICONTROL Pause]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ 同期  [!DNL Google Analytics]  コンバージョン指標について ](data-source-about.md)
->* [ データソースを設定するため  [!DNL Google Analytics]  前提条件 ](data-source-prerequisites.md)
->* [ データソースとして  [!DNL Google Analytics]  ビューを設定する ](data-source-configure.md)
->* [ データソース  [!DNL Google Analytics]  編集 ](data-source-edit.md)
->* [ データソース  [!DNL Google Analytics]  再認証 ](data-source-reauthenticate.md)
->* [[!DNL Google Analytics]  データソース設定 ](data-source-settings.md)
->* [ 付録 – 利用可能  [!DNL Google Analytics]  指標 ](data-source-ga-metrics.md)
+>* [&#x200B; 同期  [!DNL Google Analytics]  コンバージョン指標について &#x200B;](data-source-about.md)
+>* [&#x200B; データソースを設定するため  [!DNL Google Analytics]  前提条件 &#x200B;](data-source-prerequisites.md)
+>* [&#x200B; データソースとして  [!DNL Google Analytics]  ビューを設定する &#x200B;](data-source-configure.md)
+>* [&#x200B; データソース  [!DNL Google Analytics]  編集 &#x200B;](data-source-edit.md)
+>* [&#x200B; データソース  [!DNL Google Analytics]  再認証 &#x200B;](data-source-reauthenticate.md)
+>* [[!DNL Google Analytics]  データソース設定 &#x200B;](data-source-settings.md)
+>* [&#x200B; 付録 – 利用可能  [!DNL Google Analytics]  指標 &#x200B;](data-source-ga-metrics.md)

@@ -28,8 +28,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 在庫フィードについて ](inventory-feeds-about.md)
->* [ フィードから生成されたデータを表示 ](propagated-data-view.md)
->* [ フィードから生成されたデータを編集 ](propagated-data-edit.md)
->* [ フィードから広告ネットワークにキャンペーンデータを投稿する ](propagated-data-post.md)
->* [ 在庫フィード データの転記ジョブを停止 ](stop-job.md)
+>* [&#x200B; 在庫フィードについて &#x200B;](inventory-feeds-about.md)
+>* [&#x200B; フィードから生成されたデータを表示 &#x200B;](propagated-data-view.md)
+>* [&#x200B; フィードから生成されたデータを編集 &#x200B;](propagated-data-edit.md)
+>* [&#x200B; フィードから広告ネットワークにキャンペーンデータを投稿する &#x200B;](propagated-data-post.md)
+>* [&#x200B; 在庫フィード データの転記ジョブを停止 &#x200B;](stop-job.md)

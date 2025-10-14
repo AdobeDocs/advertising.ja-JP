@@ -18,7 +18,7 @@ ht-degree: 0%
 | | [!UICONTROL External deal ID] | パブリッシャーおよび SSP がこの取引を識別するために使用する ID。 | はい | 不可 |
 | | [!UICONTROL Publisher] | この在庫を販売しているパブリッシャーの名前。 | はい | 不可 |
 | | [!UICONTROL SSP] | この取引が実行される供給側プラットフォーム（SSP）。 | はい | 不可 |
-| | [!UICONTROL Media type] | この契約を通じて購入されたメディアのタイプ：*[!UICONTROL Desktop video]*、*[!UICONTROL Mobile video]*、*[!UICONTROL Connected TV]*、*[!UICONTROL Display]*、*[!UICONTROL Audio]* または *[!UICONTROL Publisher Managed]*。 オプションは SSP によって異なります。<br><br> 取引で複数のメディアタイプが許可されている場合は、取引を作成する際に、デフォルトのプレースメントのメディアタイプを選択します。 後で、値を変更することも、単に [ 追加のメディアタイプで新しいプレースメントを添付する ](deal-id-attach-placements.md) こともできます <!-- It would be ideal if this field was multi-select rather than a radio button, so you don't have to "change" the value later. -->。 | はい | 不可 |
+| | [!UICONTROL Media type] | この契約を通じて購入されたメディアのタイプ：*[!UICONTROL Desktop video]*、*[!UICONTROL Mobile video]*、*[!UICONTROL Connected TV]*、*[!UICONTROL Display]*、*[!UICONTROL Audio]* または *[!UICONTROL Publisher Managed]*。 オプションは SSP によって異なります。<br><br> 取引で複数のメディアタイプが許可されている場合は、取引を作成する際に、デフォルトのプレースメントのメディアタイプを選択します。 後で、値を変更することも、単に [&#x200B; 追加のメディアタイプで新しいプレースメントを添付する &#x200B;](deal-id-attach-placements.md) こともできます <!-- It would be ideal if this field was multi-select rather than a radio button, so you don't have to "change" the value later. -->。 | はい | 不可 |
 | | [!UICONTROL Deal type] | 契約のコミットメントと価格設定の構造：<br><ul><li>*[!UICONTROL Non guaranteed (floor)]*：あなたとパブリッシャーは、インプレッション配信の固定数をコミットしていません。 この取引は在庫の最低価格を指定しますが、CPM は市場の状況に応じて変動し、増加する可能性があります。</li><li>*[!UICONTROL Non guaranteed (fixed)]*：あなたとパブリッシャーは、インプレッション配信の固定数をコミットしていません。 価格は交渉済みの固定レートで設定されます。</li><li>*[!UICONTROL Guaranteed (fixed)]*：お客様とパブリッシャーは、インプレッション数、ターゲティング、フライト日、固定価格について事前に定義された数値に同意しました。<br><br><b> 注：</b> 保証契約には、[!UICONTROL Tracking] のセクションにフライト日と指定されたインプレッション数が必要です。 また、取引にデフォルトのプログラム保証（PG）プレースメントを作成する必要があり、オプションで、代わりに他のプレースメントに取引を使用することもできます。</li></ul> | はい | 不可 |
 | | [!UICONTROL CPM] | 1000 インプレッション数（CPM）あたりのネゴシエートされたコスト。 | はい | はい |
 | | [ 通貨 ] | 取引の通貨。<br><br> すべての SSP は米ドルで取引を受け付けます。 SSP がDSP アカウントの通貨を受け入れると、その通貨も使用できます。 | はい | 不可 |
@@ -32,6 +32,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 取引 ID の詳細の手動作成 ](deal-id-create.md)
->* [SSP パートナー ](ssp-partners.md)
->* [ プライベートインベントリについて ](private-inventory-about.md)
+>* [&#x200B; 取引 ID の詳細の手動作成 &#x200B;](deal-id-create.md)
+>* [SSP パートナー &#x200B;](ssp-partners.md)
+>* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)

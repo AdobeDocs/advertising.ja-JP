@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 追加の在庫同期を有効にする
 
-[!DNL Google Ads] [!DNL YouTube] キャンペーンと [!DNL Google Ads] および [!DNL Microsoft Advertising] のスマートショッピングキャンペーンの同期を有効または無効にできます。これらのキャンペーンでは、他のキャンペーンタイプよりもサポートが少なくなります。 これらのキャンペーンタイプで使用できる機能について詳しくは、「[ サポートされている在庫 ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+[!DNL Google Ads] [!DNL YouTube] キャンペーンと [!DNL Google Ads] および [!DNL Microsoft Advertising] のスマートショッピングキャンペーンの同期を有効または無効にできます。これらのキャンペーンでは、他のキャンペーンタイプよりもサポートが少なくなります。 これらのキャンペーンタイプで使用できる機能について詳しくは、「[&#x200B; サポートされている在庫 &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 >[!NOTE]
 >
@@ -32,4 +32,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ サポート対象インベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)
+>* [&#x200B; サポート対象インベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)

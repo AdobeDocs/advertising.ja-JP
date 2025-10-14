@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # [!DNL Google Ads] レスポンシブ検索広告設定
 
-[!DNL Google Ads] では、最大 3 つのヘッドラインと 2 つの説明を使用して [ レスポンシブ検索広告 ](https://support.google.com/google-ads/answer/7684791?hl=en) （RSA）を動的にアセンブリします。
+[!DNL Google Ads] では、最大 3 つのヘッドラインと 2 つの説明を使用して [&#x200B; レスポンシブ検索広告 &#x200B;](https://support.google.com/google-ads/answer/7684791?hl=en) （RSA）を動的にアセンブリします。
 
 >[!NOTE]
 >
 >各広告グループには、最大 3 つの有効なレスポンシブ検索広告を含めることができます。
 
-[ アカウントごとの広告制限 ](https://support.google.com/google-ads/answer/6372658?hl=en) については、[!DNL Google Ads] のヘルプを参照してください。
+[&#x200B; アカウントごとの広告制限 &#x200B;](https://support.google.com/google-ads/answer/6372658?hl=en) については、[!DNL Google Ads] のヘルプを参照してください。
 
 ## [!UICONTROL Responsive Search Ad Details]
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 広告について ](ad-about.md)
->* [ 広告の管理 ](ad-manage.md)
->* [[!DNL Google Ads]  呼び出し専用広告設定 ](ad-settings-google-call.md)
->* [[!DNL Google Ads]  拡張された動的検索広告設定 ](ad-settings-google-dsa.md)
+>* [&#x200B; 広告について &#x200B;](ad-about.md)
+>* [&#x200B; 広告の管理 &#x200B;](ad-manage.md)
+>* [[!DNL Google Ads]  呼び出し専用広告設定 &#x200B;](ad-settings-google-call.md)
+>* [[!DNL Google Ads]  拡張された動的検索広告設定 &#x200B;](ad-settings-google-dsa.md)

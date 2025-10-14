@@ -14,20 +14,20 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、XLSX （Excel スプレッドシート）形式の 1 つ以上のパッケージの設定をダウンロードし、ほとんどのフィールドに変更を加えて、一度にDSPにアップロードし直すこともできます。 [ バルクシートを使用したパッケージ設定のレビューと編集 ](package-qa.md) を参照してください。
+>また、XLSX （Excel スプレッドシート）形式の 1 つ以上のパッケージの設定をダウンロードし、ほとんどのフィールドに変更を加えて、一度にDSPにアップロードし直すこともできます。 [&#x200B; バルクシートを使用したパッケージ設定のレビューと編集 &#x200B;](package-qa.md) を参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 1. キャンペーンの名前をクリックして、キャン [!UICONTROL Packages] ーン表示を開きます。
 1. パッケージ名の横で、**[!UICONTROL ...]**/**[!UICONTROL Edit]** をクリックします。
-1. [ パッケージ設定 ](package-settings.md) を編集します。
+1. [&#x200B; パッケージ設定 &#x200B;](package-settings.md) を編集します。
 1. 「**[!UICONTROL Save and Close]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ パッケージ管理について ](package-about.md)
->* [ バルクシートを使用したパッケージ設定のレビューと編集 ](/help/dsp/campaign-management/packages/package-qa.md)
->* [ パッケージの作成 ](package-create.md)
->* [ パッケージの複製 ](package-duplicate.md)
->* [ パッケージの変更ログを表示する ](package-change-log.md)
->* [ パッケージの一時停止またはアクティブ化 ](package-pause-activate.md)
->* [ パッケージ設定 ](package-settings.md)
+>* [&#x200B; パッケージ管理について &#x200B;](package-about.md)
+>* [&#x200B; バルクシートを使用したパッケージ設定のレビューと編集 &#x200B;](/help/dsp/campaign-management/packages/package-qa.md)
+>* [&#x200B; パッケージの作成 &#x200B;](package-create.md)
+>* [&#x200B; パッケージの複製 &#x200B;](package-duplicate.md)
+>* [&#x200B; パッケージの変更ログを表示する &#x200B;](package-change-log.md)
+>* [&#x200B; パッケージの一時停止またはアクティブ化 &#x200B;](package-pause-activate.md)
+>* [&#x200B; パッケージ設定 &#x200B;](package-settings.md)

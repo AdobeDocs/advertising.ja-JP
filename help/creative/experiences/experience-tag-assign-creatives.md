@@ -16,7 +16,7 @@ ht-degree: 0%
 
 エクスペリエンスに使用する広告タグには、適切なクリエイティブサイズのクリエイティブを割り当てることができます。 エクスペリエンス設定で指定されたクリエイティブライブラリのクリエイティブを使用できます。 標準の広告エクスペリエンスの場合は、標準のクリエイティブのみを割り当てることができます。 動的な広告エクスペリエンスの場合は、動的なクリエイティブのみを割り当てることができます。<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
 
-後で広告タグに使用するクリエイティブを [ トラッキング URL をカスタマイズ ](experience-tracking-urls-no-targeting.md) したり、[ クリエイティブの最適化とスケジュールをカスタマイズ ](experience-optimization-scheduling-no-targeting.md) したりできます。
+後で広告タグに使用するクリエイティブを [&#x200B; トラッキング URL をカスタマイズ &#x200B;](experience-tracking-urls-no-targeting.md) したり、[&#x200B; クリエイティブの最適化とスケジュールをカスタマイズ &#x200B;](experience-optimization-scheduling-no-targeting.md) したりできます。
 
 >[!NOTE]
 >
@@ -38,13 +38,13 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Add Creatives]**」をクリックします。
 
-1. （任意） [ クリエイティブのトラッキング URL をカスタマイズ ](experience-tracking-urls-no-targeting.md)。
+1. （任意） [&#x200B; クリエイティブのトラッキング URL をカスタマイズ &#x200B;](experience-tracking-urls-no-targeting.md)。
 
-1. （任意） [ クリエイティブの最適化とクリエイティブのスケジュールをカスタマイズ ](experience-optimization-scheduling-no-targeting.md)。
+1. （任意） [&#x200B; クリエイティブの最適化とクリエイティブのスケジュールをカスタマイズ &#x200B;](experience-optimization-scheduling-no-targeting.md)。
 
 >[!MORELIKETHIS]
->* [ 該当するクリエイティブサイズの広告タグを手動で作成 ](experience-tag-create-manually.md)
->* [ クリエイティブのトラッキング URL をカスタマイズ ](experience-tracking-urls-no-targeting.md)。
->* [ クリエイティブの最適化とクリエイティブのスケジュールのカスタマイズ ](experience-optimization-scheduling-no-targeting.md)
->* [ ビデオ広告エクスペリエンスタグのトランスコーディングオプションのカスタマイズ ](experience-tag-video-transcoding.md)
->* [ ライブエクスペリエンス用の広告エクスペリエンスタグのエクスポートと実装 ](experience-tag-export.md)
+>* [&#x200B; 該当するクリエイティブサイズの広告タグを手動で作成 &#x200B;](experience-tag-create-manually.md)
+>* [&#x200B; クリエイティブのトラッキング URL をカスタマイズ &#x200B;](experience-tracking-urls-no-targeting.md)。
+>* [&#x200B; クリエイティブの最適化とクリエイティブのスケジュールのカスタマイズ &#x200B;](experience-optimization-scheduling-no-targeting.md)
+>* [&#x200B; ビデオ広告エクスペリエンスタグのトランスコーディングオプションのカスタマイズ &#x200B;](experience-tag-video-transcoding.md)
+>* [&#x200B; ライブエクスペリエンス用の広告エクスペリエンスタグのエクスポートと実装 &#x200B;](experience-tag-export.md)

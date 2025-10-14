@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Pixel]
 
-プレースメントの既存のイベントトラッキングピクセルはすべて自動的に添付されます。 個々の広告のトラッキングのニーズに基づいて、既存のピクセルを分離し、必要に応じて新しいピクセルを作成できます。 **ヒント：** [!UICONTROL Ad Tools] ビューを使用して、プレースメント内の複数の広告に対して一度にサードパーティトラッキングピクセルを編集するには、「[ プレースメント内の広告にサードパーティトラッキングピクセルを添付する ](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)」を参照してください。
+プレースメントの既存のイベントトラッキングピクセルはすべて自動的に添付されます。 個々の広告のトラッキングのニーズに基づいて、既存のピクセルを分離し、必要に応じて新しいピクセルを作成できます。 **ヒント：** [!UICONTROL Ad Tools] ビューを使用して、プレースメント内の複数の広告に対して一度にサードパーティトラッキングピクセルを編集するには、「[&#x200B; プレースメント内の広告にサードパーティトラッキングピクセルを添付する &#x200B;](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)」を参照してください。
 
 次の設定は、作成または編集する各ピクセルに適用されます。
 
@@ -64,8 +64,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Ad Management について ](ad-about.md)
->* [ 単一の広告の作成 ](ad-create.md)
->* [ 広告に関連付けられたプレースメントのリスト ](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [ 広告仕様 ](ad-specs.md)
->* [DSP マクロ ](/help/dsp/campaign-management/macros.md)
+>* [Ad Management について &#x200B;](ad-about.md)
+>* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
+>* [&#x200B; 広告に関連付けられたプレースメントのリスト &#x200B;](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [&#x200B; 広告仕様 &#x200B;](ad-specs.md)
+>* [DSP マクロ &#x200B;](/help/dsp/campaign-management/macros.md)

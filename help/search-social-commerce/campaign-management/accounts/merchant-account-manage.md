@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Create Account]**] をクリックします。
 
-1. [ マーチャントアカウント設定 ](#merchant-account-settings) を指定します。
+1. [&#x200B; マーチャントアカウント設定 &#x200B;](#merchant-account-settings) を指定します。
 
    1. [!UICONTROL Product Source] メニューで、マーチャントセンターを選択します。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
    
    -->
 
-   1. （[!DNL Google Ads] アカウントの場合は必須、[!DNL Microsoft Advertising] アカウントの場合はオプション）検索、ソーシャルおよびCommerceが [[!DNL OAuth]  認証プロトコル ](https://oauth.net/2/) を使用してアカウントにアクセスできるようにします。
+   1. （[!DNL Google Ads] アカウントの場合は必須、[!DNL Microsoft Advertising] アカウントの場合はオプション）検索、ソーシャルおよびCommerceが [[!DNL OAuth]  認証プロトコル &#x200B;](https://oauth.net/2/) を使用してアカウントにアクセスできるようにします。
 
       1. （[!DNL Microsoft Advertising] アカウントのみ）「**[!UICONTROL oAuth]**」を選択します。
 
@@ -76,9 +76,9 @@ ht-degree: 0%
 
 1. メインメニューで、「\> **[!UICONTROL Search]\> [!UICONTROL Campaigns][!UICONTROL Products]** クリックし、「[!UICONTROL Accounts]」タブを開きます。
 
-1. アカウント名の横の「![ 設定を表示/編集 ](/help/search-social-commerce/assets/settings.png " 設定を表示/編集 ")」をクリックします。
+1. アカウント名の横の「![&#x200B; 設定を表示/編集 &#x200B;](/help/search-social-commerce/assets/settings.png " 設定を表示/編集 ")」をクリックします。
 
-1. [ マーチャントアカウント設定 ](#merchant-account-settings) を編集します。
+1. [&#x200B; マーチャントアカウント設定 &#x200B;](#merchant-account-settings) を編集します。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 1. メインメニューで **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** をクリックし、「[!UICONTROL Accounts]」タブを開きます。
 
-1. アカウント名の横の「![ 設定を表示/編集 ](/help/search-social-commerce/assets/settings.png " 設定を表示/編集 ")」をクリックします。
+1. アカウント名の横の「![&#x200B; 設定を表示/編集 &#x200B;](/help/search-social-commerce/assets/settings.png " 設定を表示/編集 ")」をクリックします。
 
 1. [!UICONTROL EF Account Type] を **[!UICONTROL Disabled]** に変更します。
 
@@ -108,13 +108,13 @@ ht-degree: 0%
 
 **[!UICONTROL Product Source]:** マーチャントネットワーク。 既存のアカウントの値は変更できません。
 
-**[!UICONTROL OAuth Token]:** （[!DNL Google Merchant Center] アカウントのみ） [[!DNL OAuth]  認証プロトコル ](https://oauth.net/2/) を使用してログインを認証するためのアカウントのトークン。
+**[!UICONTROL OAuth Token]:** （[!DNL Google Merchant Center] アカウントのみ） [[!DNL OAuth]  認証プロトコル &#x200B;](https://oauth.net/2/) を使用してログインを認証するためのアカウントのトークン。
 
 **[!UICONTROL Auth Type]:** （[!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] のみ）次を使用してアカウントへのログインを許可するかどうか：
 
 * *[!UICONTROL Client login]:* クライアントのログインを使用します。
 
-* *[!UICONTROL oAuth]* （デフォルト）: [[!DNL OAuth]  認証プロトコル ](https://oauth.net/2/) を使用します。
+* *[!UICONTROL oAuth]* （デフォルト）: [[!DNL OAuth]  認証プロトコル &#x200B;](https://oauth.net/2/) を使用します。
 
 **[!UICONTROL Access Key]:** （[!DNL Microsoft Merchant Center] のみ）使用する開発者アカウントのアクセスキー。
 
@@ -138,5 +138,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 広告ネットワークアカウントについて ](ad-network-account-about.md)
->* [ 広告ネットワークアカウントの管理 ](ad-network-account-manage.md)
+>* [&#x200B; 広告ネットワークアカウントについて &#x200B;](ad-network-account-about.md)
+>* [&#x200B; 広告ネットワークアカウントの管理 &#x200B;](ad-network-account-manage.md)

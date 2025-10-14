@@ -20,8 +20,8 @@ ht-degree: 0%
 | | その口座には十分な資金がない。 | アカウントに十分な資金があるかどうかを確認するには、**[!UICONTROL Settings]**/**[!UICONTROL Account]** に移動し、[!UICONTROL Usable Funds] の金額を調べます。 さらに資金を追加する必要がある場合は、Adobeアカウントチームにお問い合わせください。 |
 | | 使用できる在庫がありません。 | 指定した在庫ソース（[!UICONTROL Public]、[!UICONTROL Private] または [!UICONTROL On Demand]）が次のいずれであるかを確認します。<ul><li>正しく設定します。</li><li>アクティブで、オークションを通じて送信します。</li><li>該当する広告およびプレースメントのタイプと互換性があります。</li></ul><br> すべての在庫ソースが有効で有効な場合は、可能な場合は追加または全ての在庫ソースをターゲットにします。 |
 | | 使用できるユーザーはいません。 | 指定したオーディエンスターゲットに十分な数のアクティブユーザーが含まれていることを確認します。 追加されていない場合は、オーディエンスを追加してターゲットを展開します。 |
-| プレースメントに対する支出の低さ | プレースメント診断レポートの [!UICONTROL Non Bids] のセクションには、プレースメントが入札しなかった理由として考えられる理由が示されます。 | [[!UICONTROL Non Bids] レポートを確認 ](/help/dsp/campaign-management/reports/placement-diagnostics.md) して、プレースメントが入札に至らなかった理由を理解します。 <!-- add link/edit text when file available: See the [in-depth guide to possible Non-Bid Reasons (NBR)](link) for more information. --> |
-| | プレースメントは、入札を制限する [pre-bid フィルター ](/help/dsp/campaign-management/placements/placement-settings.md) を使用します。 | 入札前フィルターのしきい値を 5% 下げると、支出とパフォーマンスのバランスを評価できます。 <!-- wording? and are users just supposed to manually monitor whether it makes a difference? --><br><br> 事前入札フィルター、地域、在庫、オーディエンスなど、複数のプレースメントターゲットを使用すると、入札と支出が累積的に制限される場合があることに注意してください。 |
+| プレースメントに対する支出の低さ | プレースメント診断レポートの [!UICONTROL Non Bids] のセクションには、プレースメントが入札しなかった理由として考えられる理由が示されます。 | [[!UICONTROL Non Bids] レポートを確認 &#x200B;](/help/dsp/campaign-management/reports/placement-diagnostics.md) して、プレースメントが入札に至らなかった理由を理解します。 <!-- add link/edit text when file available: See the [in-depth guide to possible Non-Bid Reasons (NBR)](link) for more information. --> |
+| | プレースメントは、入札を制限する [pre-bid フィルター &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) を使用します。 | 入札前フィルターのしきい値を 5% 下げると、支出とパフォーマンスのバランスを評価できます。 <!-- wording? and are users just supposed to manually monitor whether it makes a difference? --><br><br> 事前入札フィルター、地域、在庫、オーディエンスなど、複数のプレースメントターゲットを使用すると、入札と支出が累積的に制限される場合があることに注意してください。 |
 | | プレースメントの勝率が低い。 | 勝率を向上させるために [!UICONTROL Max Bid] を増やします。<br><br><b> 注：</b> 在庫価格は、プレースメントのターゲティングによって異なる場合があります。<br><br>10% の勝率は健康と見なされます。 |
 | | 在庫数が少ない。 | 可能であれば、追加またはすべてのインベントリソースをターゲットに設定します。<br><br> 事前入札フィルター、地域、在庫、オーディエンスなど、複数のプレースメントターゲットを使用すると、入札と支出が累積的に制限される場合があることに注意してください。 |
 | | 使用できるユーザーの数が少ない。 | 指定したオーディエンスターゲットに十分な数のアクティブユーザーが含まれていることを確認します。 追加されていない場合は、オーディエンスを追加してターゲットを展開します。<br><br> 事前入札フィルター、地域、在庫、オーディエンスなど、複数のプレースメントターゲットを使用すると、入札と支出が累積的に制限される場合があることに注意してください。 |
@@ -31,6 +31,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
->* [ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)
->* [ キャンペーン設定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; キャンペーン設定 &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md)

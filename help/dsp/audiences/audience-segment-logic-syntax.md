@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 先頭にが付いていない限り、指定したセグメントグループがすべて含まれます。 （これらのプロパティは除外されます）。
->* [!UICONTROL Audiences]/[!UICONTROL All audiences] から [ オーディエンスのセグメント ID を検索 ](reusable-audience-clipboard.md) できます。
+>* [!UICONTROL Audiences]/[!UICONTROL All audiences] から [&#x200B; オーディエンスのセグメント ID を検索 &#x200B;](reusable-audience-clipboard.md) できます。
 
 例えば、次のようなロジックがあります。
 
@@ -42,8 +42,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 再利用可能なオーディエンスのセグメントキーをクリップボードにコピー ](reusable-audience-clipboard.md)
->* [Audience Management について ](audience-about.md)
->* [ 再利用可能なオーディエンスを作成 ](reusable-audience-create.md)
->* [ オーディエンス設定 ](audience-settings.md)
->* [ 利用可能なサードパーティデータプロバイダー ](third-party-data-providers.md)
+>* [&#x200B; 再利用可能なオーディエンスのセグメントキーをクリップボードにコピー &#x200B;](reusable-audience-clipboard.md)
+>* [Audience Management について &#x200B;](audience-about.md)
+>* [&#x200B; 再利用可能なオーディエンスを作成 &#x200B;](reusable-audience-create.md)
+>* [&#x200B; オーディエンス設定 &#x200B;](audience-settings.md)
+>* [&#x200B; 利用可能なサードパーティデータプロバイダー &#x200B;](third-party-data-providers.md)

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. レポート名の横で、**[!UICONTROL ...]**/**[!UICONTROL Copy]** をクリックします。
 
-1. （任意）必要に応じて [ レポート設定 ](/help/dsp/reports/report-settings.md) を編集します。
+1. （任意）必要に応じて [&#x200B; レポート設定 &#x200B;](/help/dsp/reports/report-settings.md) を編集します。
 
    レポート名は、デフォルトで「\&lt;*existing report name*\> \#2」（またはシーケンス内の次の番号）になります。
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
->* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
->* [ カスタムレポートの編集 ](/help/dsp/reports/report-edit.md)
->* [ カスタムレポートのダウンロード ](/help/dsp/reports/report-download.md)
->* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
->* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)
+>* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
+>* [&#x200B; カスタムレポートの作成 &#x200B;](/help/dsp/reports/report-create.md)
+>* [&#x200B; カスタムレポートの編集 &#x200B;](/help/dsp/reports/report-edit.md)
+>* [&#x200B; カスタムレポートのダウンロード &#x200B;](/help/dsp/reports/report-download.md)
+>* [&#x200B; カスタムレポートの設定 &#x200B;](/help/dsp/reports/report-settings.md)
+>* [&#x200B; 使用可能なレポート列 &#x200B;](/help/dsp/reports/report-columns.md)

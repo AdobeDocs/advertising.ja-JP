@@ -30,7 +30,7 @@ ht-degree: 0%
 
       複数通貨の勘定科目がある場合、関連する勘定科目のすべての通貨が表示されます。通貨を変更すると、その通貨を使用する勘定科目のデータのみが表示されます。 既存の指標から派生したすべての標準指標、広告主固有のコンバージョン指標、カスタム指標が表示されます。
 
-   1. ![ 保存 ](/help/search-social-commerce/assets/save-checkmark.png " 保存 ") をクリックします。
+   1. ![&#x200B; 保存 &#x200B;](/help/search-social-commerce/assets/save-checkmark.png " 保存 ") をクリックします。
 
 >[!NOTE]
 >

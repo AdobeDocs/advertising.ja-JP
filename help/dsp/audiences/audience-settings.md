@@ -38,10 +38,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Audience Management について ](audience-about.md)
->* [ 再利用可能なオーディエンスを作成 ](reusable-audience-create.md)
->* [ 利用可能なサードパーティデータプロバイダー ](third-party-data-providers.md)
->* [ オーディエンスセグメントロジックの構文 ](audience-segment-logic-syntax.md)
->* [ カスタムセグメントの作成と実装 ](custom-segment-create.md)
->* [[!UICONTROL CCPA Opt-Out-of-Sale] セグメントの作成と実装 ](ccpa-opt-out-segment-create.md)
->* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Audience Management について &#x200B;](audience-about.md)
+>* [&#x200B; 再利用可能なオーディエンスを作成 &#x200B;](reusable-audience-create.md)
+>* [&#x200B; 利用可能なサードパーティデータプロバイダー &#x200B;](third-party-data-providers.md)
+>* [&#x200B; オーディエンスセグメントロジックの構文 &#x200B;](audience-segment-logic-syntax.md)
+>* [&#x200B; カスタムセグメントの作成と実装 &#x200B;](custom-segment-create.md)
+>* [[!UICONTROL CCPA Opt-Out-of-Sale] セグメントの作成と実装 &#x200B;](ccpa-opt-out-segment-create.md)
+>* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)

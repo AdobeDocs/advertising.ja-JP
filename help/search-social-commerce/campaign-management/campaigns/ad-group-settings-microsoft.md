@@ -66,7 +66,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Select From Below List]:* 選択したジャンルのターゲット。 使用可能なすべてのジャンルのリストから選択します。
 
-接続された TV （CTV）広告の配置は、ビデオの品質と入札額に応じて異なります。 詳しくは、[CTV 広告の技術要件 ](https://help.ads.microsoft.com/#apex/ads/en/60102/0/#TechnicalRequirements) を参照してください。
+接続された TV （CTV）広告の配置は、ビデオの品質と入札額に応じて異なります。 詳しくは、[CTV 広告の技術要件 &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60102/0/#TechnicalRequirements) を参照してください。
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -76,33 +76,33 @@ ht-degree: 0%
 
 * すべての値をターゲットにするには、どの値も選択しません。
 
-* 値を含めるには、隣の円を 1 回クリックして、青いチェックマーク（![ 含める ](/help/search-social-commerce/assets/include.png " 含める ")）を表示します。 オプションで、ターゲットとなる性別ごとに指定した割合で入札を増減できます。
+* 値を含めるには、隣の円を 1 回クリックして、青いチェックマーク（![&#x200B; 含める &#x200B;](/help/search-social-commerce/assets/include.png " 含める ")）を表示します。 オプションで、ターゲットとなる性別ごとに指定した割合で入札を増減できます。
 
-* 値を除外するには、隣の円を 2 回クリックして、赤いチェックマーク（![ 除外 ](/help/search-social-commerce/assets/exclude.png " 除外 ")）を表示します。
+* 値を除外するには、隣の円を 2 回クリックして、赤いチェックマーク（![&#x200B; 除外 &#x200B;](/help/search-social-commerce/assets/exclude.png " 除外 ")）を表示します。
 
 **[!UICONTROL Age]:** （オーディエンス広告グループ、オプション）ターゲットとして含める、または除外する特定の年齢カテゴリ：*[!UICONTROL 18-24]*、*[!UICONTROL 25-34]*、*[!UICONTROL 35-49]*、*[!UICONTROL 50-64]*、*[!UICONTROL 65+]* および *[!UICONTROL Unknown]*。 デフォルトでは、すべてのページがターゲットになっています。 除外は、常に包含を上書きします。
 
 * すべての値をターゲットにするには、どの値も選択しません。
 
-* 値を含めるには、隣の円を 1 回クリックして、青いチェックマーク（![ 含める ](/help/search-social-commerce/assets/include.png " 含める ")）を表示します。 必要に応じて、ターゲットとする各年齢に指定の割合で入札を増減できます。
+* 値を含めるには、隣の円を 1 回クリックして、青いチェックマーク（![&#x200B; 含める &#x200B;](/help/search-social-commerce/assets/include.png " 含める ")）を表示します。 必要に応じて、ターゲットとする各年齢に指定の割合で入札を増減できます。
 
-* 値を除外するには、隣の円を 2 回クリックして、赤いチェックマーク（![ 除外 ](/help/search-social-commerce/assets/exclude.png " 除外 ")）を表示します。
+* 値を除外するには、隣の円を 2 回クリックして、赤いチェックマーク（![&#x200B; 除外 &#x200B;](/help/search-social-commerce/assets/exclude.png " 除外 ")）を表示します。
 
 **[!UICONTROL Industry]:** （オーディエンス広告グループ、オプション）ターゲットとして含めるか除外する特定の業界。 デフォルトでは、すべての業界がターゲットになります。 除外は、常に包含を上書きします。
 
 * すべての値をターゲットにするには、どの値も選択しません。
 
-* 値を含めるには、隣の円を 1 回クリックして、青いチェックマーク（![ 含める ](/help/search-social-commerce/assets/include.png " 含める ")）を表示します。 オプションで、ターゲットとする業界ごとに指定した割合で入札を増減できます。
+* 値を含めるには、隣の円を 1 回クリックして、青いチェックマーク（![&#x200B; 含める &#x200B;](/help/search-social-commerce/assets/include.png " 含める ")）を表示します。 オプションで、ターゲットとする業界ごとに指定した割合で入札を増減できます。
 
-* 値を除外するには、隣の円を 2 回クリックして、赤いチェックマーク（![ 除外 ](/help/search-social-commerce/assets/exclude.png " 除外 ")）を表示します。
+* 値を除外するには、隣の円を 2 回クリックして、赤いチェックマーク（![&#x200B; 除外 &#x200B;](/help/search-social-commerce/assets/exclude.png " 除外 ")）を表示します。
 
 **[!UICONTROL Job Function Targets]:** （オーディエンス広告グループ、オプション）ターゲットとして含めたり除外したりする特定の職種。 デフォルトでは、すべてのジョブ機能がターゲットになります。 除外は、常に包含を上書きします。
 
 * すべての値をターゲットにするには、どの値も選択しません。
 
-* 値を含めるには、隣の円を 1 回クリックして、青いチェックマーク（![ 含める ](/help/search-social-commerce/assets/include.png " 含める ")）を表示します。 必要に応じて、ターゲットとする各役職機能に対して指定したパーセントで入札を増減できます。
+* 値を含めるには、隣の円を 1 回クリックして、青いチェックマーク（![&#x200B; 含める &#x200B;](/help/search-social-commerce/assets/include.png " 含める ")）を表示します。 必要に応じて、ターゲットとする各役職機能に対して指定したパーセントで入札を増減できます。
 
-* 値を除外するには、隣の円を 2 回クリックして、赤いチェックマーク（![ 除外 ](/help/search-social-commerce/assets/exclude.png " 除外 ")）を表示します。
+* 値を除外するには、隣の円を 2 回クリックして、赤いチェックマーク（![&#x200B; 除外 &#x200B;](/help/search-social-commerce/assets/exclude.png " 除外 ")）を表示します。
 
 ## [!UICONTROL URL Options]
 
@@ -130,8 +130,8 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]:** （ディスプレイ/ネイティブネットワーク上のキャンペーンのみ。オプション）広告を表示しないディスプレイネットワーク上のサイト。 www.example.comのように、有効な URL を入力します。 複数の文字列を指定する場合は、コンマで区切るか、別の行に入力します。
 
-利用可能なサイトについて詳しくは、「[ 特定の Web サイトに広告が表示されないようにする ](https://help.ads.microsoft.com/#apex/bae/en/14061/0)」のヘルプを [!DNL Microsoft Advertising] 照してください。
+利用可能なサイトについて詳しくは、「[&#x200B; 特定の Web サイトに広告が表示されないようにする &#x200B;](https://help.ads.microsoft.com/#apex/bae/en/14061/0)」のヘルプを [!DNL Microsoft Advertising] 照してください。
 
 >[!MORELIKETHIS]
 >
->* [ 広告グループの管理 ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [&#x200B; 広告グループの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)

@@ -24,9 +24,9 @@ Adobe Advertisingは、次の条件を使用して、web サイトに対する�
 
 * ビュースルーエントリは、ユーザーが広告を表示したがクリックしなかった後にサイトを訪問した際に取得されます。 [!DNL Analytics] は、次の 2 つの条件を満たした場合にビュースルーを記録します。
 
-   * [!DNL DSP] クリックルックバックウィンドウ [!DNL Search, Social, & Commerce] の間、訪問者が [ または ](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 広告のクリックスルーを行うことはありません。
+   * [!DNL DSP] クリックルックバックウィンドウ [!DNL Search, Social, & Commerce] の間、訪問者が [&#x200B; または &#x200B;](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 広告のクリックスルーを行うことはありません。
 
-   * 訪問者は、[!DNL DSP] インプレッションルックバックウィンドウ [ 中に少なくとも 1 つの ](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 広告を確認しました。 最後のインプレッションがビュースルーとして渡されます。
+   * 訪問者は、[!DNL DSP] インプレッションルックバックウィンドウ [&#x200B; 中に少なくとも 1 つの &#x200B;](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 広告を確認しました。 最後のインプレッションがビュースルーとして渡されます。
 
 * クリックスルーのエントリは、サイト訪問者がサイトに入る前に広告をクリックした際にキャプチャされます。 [!DNL Analytics] は、次のいずれかの状況が発生した場合にクリックスルーをキャプチャします。
 
@@ -34,11 +34,11 @@ Adobe Advertisingは、次の条件を使用して、web サイトに対する�
 
    * URL にはトラッキングコードが含まれていませんが、Adobe Advertising JavaScript コードは過去 2 分以内にクリックを検出します。
 
-![Adobe Advertisingのビューベースの [!DNL Analytics] 統合 ](/help/integrations/assets/a4adc-view-through-process.png)
+![Adobe Advertisingのビューベースの [!DNL Analytics] 統合 &#x200B;](/help/integrations/assets/a4adc-view-through-process.png)
 
 *図 1:Adobe Advertisingのビューベースの [!DNL Analytics] 統合*
 
-![Adobe Advertisingで URL ベースの [!DNL Analytics] 統合をクリック ](/help/integrations/assets/a4adc-click-through-process.png)
+![Adobe Advertisingで URL ベースの [!DNL Analytics] 統合をクリック &#x200B;](/help/integrations/assets/a4adc-click-through-process.png)
 
 *図 2:Adobe Advertisingのクリックの URL ベースの [!DNL Analytics] 統合*
 
@@ -48,7 +48,7 @@ EF ID は、Adobe Advertisingがアクティビティをオンラインクリッ
 
 [!DNL Analytics] の場合、EF ID は [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja) または [!DNL rVar] （予約 [!DNL eVar]）ディメンション（Adobe Advertising EF ID）に保存されます。
 
-Customer Journey Analyticsの場合、EF ID は、`trackingIdentities` `conversionDetails` の一部である [ オブジェクトの [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] プロパティに格納され ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) す。
+Customer Journey Analyticsの場合、EF ID は、`trackingIdentities` `conversionDetails` の一部である [&#x200B; オブジェクトの [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] プロパティに格納され &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) す。
 
 ### EF ID 形式 {#ef-id-formats}
 
@@ -120,21 +120,21 @@ EF ID は、Analysis Workspaceで 500,000 個の ID 制限の対象となりま�
 
       * アカウントまたはキャンペーンに対して [!DNL Google Ads] 設定が有効な [!DNL Microsoft Advertising] および [!UICONTROL Auto Upload] アカウントの場合、エンドユーザーがAdobe Advertising ピクセルで広告をクリックすると、ピクセルサーバーは s_kwcid パラメーターをランディングページサフィックスに自動的に追加します。
 
-      * 他の広告ネットワーク、または [!DNL Google Ads] 設定が無効の [!DNL Microsoft Advertising] および [!UICONTROL Auto Upload] アカウントの場合は、[ アカウントレベルの追加パラメーター ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} にパラメーターを手動で追加して、ベース URL に追加します。
+      * 他の広告ネットワーク、または [!DNL Google Ads] 設定が無効の [!DNL Microsoft Advertising] および [!UICONTROL Auto Upload] アカウントの場合は、[&#x200B; アカウントレベルの追加パラメーター &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} にパラメーターを手動で追加して、ベース URL に追加します。
 
 * サーバーサイド挿入機能が実装されていない場合：
 
-   * DSPのお客様：[JavaScript コード ](javascript.md) は、クリックスルーとビュースルーを自動的に記録します。 ブラウザーがサードパーティ cookie をサポートしていない場合でも、次の広告タイプのクリックベースのコンバージョンを追跡できます。
+   * DSPのお客様：[JavaScript コード &#x200B;](javascript.md) は、クリックスルーとビュースルーを自動的に記録します。 ブラウザーがサードパーティ cookie をサポートしていない場合でも、次の広告タイプのクリックベースのコンバージョンを追跡できます。
 
-      * [!DNL Flashtalking] の広告タグの場合は、「[ 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Flashtalking]  広告タグに ](/help/integrations/analytics/macros-flashtalking.md)」ごとに手動で追加マクロを挿入します。 **注意：** 組織が [!DNL Flashtalking] と直接関係があり、データパスマクロを使用して `s_kwcid` および `ef_id` のトラッキングパラメーターを追跡する場合、[!DNL Flashtalking] サポートドキュメント （[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) に記載されている必要はありません。
+      * [!DNL Flashtalking] の広告タグの場合は、「[&#x200B; 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Flashtalking]  広告タグに &#x200B;](/help/integrations/analytics/macros-flashtalking.md)」ごとに手動で追加マクロを挿入します。 **注意：** 組織が [!DNL Flashtalking] と直接関係があり、データパスマクロを使用して `s_kwcid` および `ef_id` のトラッキングパラメーターを追跡する場合、[!DNL Flashtalking] サポートドキュメント （[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) に記載されている必要はありません。
 
-      * [!DNL Google Campaign Manager 360] の広告タグの場合は、「[ 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Google Campaign Manager 360]  広告タグに ](/help/integrations/analytics/macros-google-campaign-manager.md)」ごとに手動で追加マクロを挿入します。
+      * [!DNL Google Campaign Manager 360] の広告タグの場合は、「[&#x200B; 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Google Campaign Manager 360]  広告タグに &#x200B;](/help/integrations/analytics/macros-google-campaign-manager.md)」ごとに手動で追加マクロを挿入します。
 
    * 検索、ソーシャル、Commerceのお客様：
 
-      * （[!DNL Google Ads] および [!DNL Microsoft Advertising]）広告の場合、個々のアカウントコンポーネントに異なるトラッキングが必要な場合を除き、ランディングページのサフィックスに AMO ID パラメーターを手動で（理想的には [ アカウントレベル ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} 追加します。
+      * （[!DNL Google Ads] および [!DNL Microsoft Advertising]）広告の場合、個々のアカウントコンポーネントに異なるトラッキングが必要な場合を除き、ランディングページのサフィックスに AMO ID パラメーターを手動で（理想的には [&#x200B; アカウントレベル &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} 追加します。
 
-      * その他のすべての広告ネットワークの広告の場合は、AMO ID パラメーターを [ アカウントレベルの追加パラメーター ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} に手動で追加し、ベース URL に追加します。
+      * その他のすべての広告ネットワークの広告の場合は、AMO ID パラメーターを [&#x200B; アカウントレベルの追加パラメーター &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} に手動で追加し、ベース URL に追加します。
 
 サーバーサイドの挿入機能を実装する、またはビジネスに最適なオプションを判断するには、Adobe アカウントチームにお問い合わせください。
 
@@ -142,13 +142,13 @@ EF ID は、Analysis Workspaceで 500,000 個の ID 制限の対象となりま�
 
 Analytics レポートでは、[!UICONTROL AMO ID] ディメンションを検索して [!UICONTROL AMO ID Instances] 指標を使用することで、AMO ID データを見つけることができます。 [!UICONTROL AMO ID] ディメンションには、取得したすべての AMO ID 値が格納されます。[!UICONTROL AMO ID Instances] 指標は、AMO ID 値がサイトによって取得された頻度を示します。 例えば、同じ検索広告を 4 回クリックしても、Analytics で 7 つのサイトエントリをトラッキングした場合、[!UICONTROL AMO ID Instances] は 7 回、[!UICONTROL Clicks] は 4 回になります。
 
-[!DNL Analytics] 内のレポートや監査の場合、ベストプラクティスは AMO ID を対応するインスタンスと共に使用することです。 詳しくは、「[ とAdobe Advertisingの間で予想されるデータの相違」の  [!DNL Analytics for Advertising]](data-variances.md#data-validation) のクリックスルー [!DNL Analytics] データの検証」を参照してください。
+[!DNL Analytics] 内のレポートや監査の場合、ベストプラクティスは AMO ID を対応するインスタンスと共に使用することです。 詳しくは、「[&#x200B; とAdobe Advertisingの間で予想されるデータの相違」の  [!DNL Analytics for Advertising]](data-variances.md#data-validation) のクリックスルー [!DNL Analytics] データの検証」を参照してください。
 
 ## Analytics 分類について
 
-[!DNL Analytics] えば、[ 分類 ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ja) は、アカウント、キャンペーン、広告などの特定のトラッキングコードのメタデータの一部です。 Adobe Advertisingでは、レポートの生成時に様々な方法（広告タイプ別やキャンペーン別など）でデータを表示できるように、分類を使用して生のAdobe Advertising データを分類します。 分類は、[!DNL Analytics] でのAdobe Advertising レポートの基礎となるもので、[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]、[!UICONTROL AMO Clicks] などの AMO 指標や、[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]、[!UICONTROL Revenue] などのカスタムおよび標準のオンサイトイベントで使用できます。
+[!DNL Analytics] えば、[&#x200B; 分類 &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ja) は、アカウント、キャンペーン、広告などの特定のトラッキングコードのメタデータの一部です。 Adobe Advertisingでは、レポートの生成時に様々な方法（広告タイプ別やキャンペーン別など）でデータを表示できるように、分類を使用して生のAdobe Advertising データを分類します。 分類は、[!DNL Analytics] でのAdobe Advertising レポートの基礎となるもので、[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]、[!UICONTROL AMO Clicks] などの AMO 指標や、[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]、[!UICONTROL Revenue] などのカスタムおよび標準のオンサイトイベントで使用できます。
 
 >[!MORELIKETHIS]
 >
->* [ 概要  [!DNL Analytics for Advertising]](overview.md)
->* [ とAdobe Advertisingの間で予想されるデ  [!DNL Analytics]  タの相違 ](data-variances.md)
+>* [&#x200B; 概要  [!DNL Analytics for Advertising]](overview.md)
+>* [&#x200B; とAdobe Advertisingの間で予想されるデ  [!DNL Analytics]  タの相違 &#x200B;](data-variances.md)

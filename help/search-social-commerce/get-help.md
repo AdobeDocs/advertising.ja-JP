@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ## オンラインヘルプを開く
 
-* 隣接するヘルプアイコン（![ ヘルプアイコン ](/help/search-social-commerce/assets/help-field.png " ヘルプアイコン ")）で用語の説明を表示するには、終了するまでヘルプアイコンの上にカーソルを置きます。または、ヘルプポップアップの中をクリックしてコンテンツをスクロールします。
+* 隣接するヘルプアイコン（![&#x200B; ヘルプアイコン &#x200B;](/help/search-social-commerce/assets/help-field.png " ヘルプアイコン ")）で用語の説明を表示するには、終了するまでヘルプアイコンの上にカーソルを置きます。または、ヘルプポップアップの中をクリックしてコンテンツをスクロールします。
 
   ヘルプ トピック内のリンクを開くには、使用する検索、ソーシャル、およびCommerce サイトからのポップアップを許可するようにブラウザを構成する必要がある場合があります（たとえば、北米のユーザーの場合はhttps://enterprise-na.efrontier.com、その他のすべてのユーザーの場合はhttps://enterprise-intl.efrontier.com）。
 
 * すべての機能の使用方法を説明する完全なヘルプセットを開くには、ページの上部にある次のリンクをクリックします。
 
-   * ![ ヘルプ ](/help/search-social-commerce/assets/help-main-menu.png " ヘルプ ") > **検索、ソーシャル、Commerceのヘルプ**。
+   * ![&#x200B; ヘルプ &#x200B;](/help/search-social-commerce/assets/help-main-menu.png " ヘルプ ") > **検索、ソーシャル、Commerceのヘルプ**。
 
-   * ![ ヘルプ ](/help/search-social-commerce/assets/help-main-menu.png " ヘルプ ")/**検索、ソーシャル、Commerce最適化ガイド**。
+   * ![&#x200B; ヘルプ &#x200B;](/help/search-social-commerce/assets/help-main-menu.png " ヘルプ ")/**検索、ソーシャル、Commerce最適化ガイド**。
 
 <!--
 ## Ask the Adobe Advertising community
@@ -38,7 +38,7 @@ Look for answers to your questions in the [Adobe Advertising community forums](h
 
 * Adobe アカウントチームにお問い合わせください。
 
-* トップメニューで、![ ヘルプ ](/help/search-social-commerce/assets/help-main-menu.png " ヘルプ ")/**[!UICONTROL Provide Feedback]** をクリックし、メッセージを入力して、「**[!UICONTROL Send Feedback]**」をクリックします。
+* トップメニューで、![&#x200B; ヘルプ &#x200B;](/help/search-social-commerce/assets/help-main-menu.png " ヘルプ ")/**[!UICONTROL Provide Feedback]** をクリックし、メッセージを入力して、「**[!UICONTROL Send Feedback]**」をクリックします。
 
 問題を再現する詳細な手順、関連データ、実行した予備のトラブルシューティングに関する情報を提供します。 Adobe アカウントチームに問題を報告する場合は、ブラウザー名とバージョンも入力します。
 

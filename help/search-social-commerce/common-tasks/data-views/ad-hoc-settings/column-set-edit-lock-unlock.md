@@ -20,6 +20,6 @@ ht-degree: 0%
 
 ロックは、図形ビューから離れるまで機能します。 デフォルトビューまたはカスタムビューには保存できません。
 
-* （列設定をロックするには）列見出しの右側にある ![ 下矢印 ](/help/search-social-commerce/assets/arrow-down-dropdown.png " 下矢印 ") をクリックし、「**[!UICONTROL Lock Column]**」を選択します。
+* （列設定をロックするには）列見出しの右側にある ![&#x200B; 下矢印 &#x200B;](/help/search-social-commerce/assets/arrow-down-dropdown.png " 下矢印 ") をクリックし、「**[!UICONTROL Lock Column]**」を選択します。
 
-* （列設定のロックを解除するには）ロックされた列セットの列見出しの右側で、「![ 下向き矢印 ](/help/search-social-commerce/assets/arrow-down-dropdown.png " 下向き矢印 ")」をクリックし、「**[!UICONTROL Unlock Column]**」を選択します。
+* （列設定のロックを解除するには）ロックされた列セットの列見出しの右側で、「![&#x200B; 下向き矢印 &#x200B;](/help/search-social-commerce/assets/arrow-down-dropdown.png " 下向き矢印 ")」をクリックし、「**[!UICONTROL Unlock Column]**」を選択します。

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 管理ビューおよびレポートで使用可能なコンバージョン指標の変更
 
-Adobe Advertisingが広告主の [ コンバージョン ](/help/search-social-commerce/glossary.md#c-d) 指標を追跡すると、最初はポートフォリオ目標、レポート、管理ビューから除外されます。 コンバージョン指標を表示するには、明示的に使用可能にし、オプションで、表示される名前であるデフォルトの表示名を変更する必要があります。 唯一の例外は、[!DNL Google Ads]、[!DNL Google Analytics] および [!DNL Microsoft Advertising] ユニバーサルイベントトラッキングタグで追跡されるコンバージョンが、自動的に使用可能になり表示される点です。
+Adobe Advertisingが広告主の [&#x200B; コンバージョン &#x200B;](/help/search-social-commerce/glossary.md#c-d) 指標を追跡すると、最初はポートフォリオ目標、レポート、管理ビューから除外されます。 コンバージョン指標を表示するには、明示的に使用可能にし、オプションで、表示される名前であるデフォルトの表示名を変更する必要があります。 唯一の例外は、[!DNL Google Ads]、[!DNL Google Analytics] および [!DNL Microsoft Advertising] ユニバーサルイベントトラッキングタグで追跡されるコンバージョンが、自動的に使用可能になり表示される点です。
 
 同様に、ポートフォリオの目標、レポート、管理ビューからコンバージョン指標を非表示にすることができます。 以前に表示されていたコンバージョン指標を非表示にすると、コンバージョン指標を含む派生指標から削除されます。
 
@@ -24,11 +24,11 @@ Adobe Advertisingが広告主の [ コンバージョン ](/help/search-social-c
 
 1. （オプション）リストをフィルタリングします。
 
-   * 特定の指標名または表示名を検索するには、![ 検索 ](/help/search-social-commerce/assets/search.png " 検索 ") をクリックし、入力フィールドに単語または文字列を入力して、**[!DNL Enter]** キーを押します。
+   * 特定の指標名または表示名を検索するには、![&#x200B; 検索 &#x200B;](/help/search-social-commerce/assets/search.png " 検索 ") をクリックし、入力フィールドに単語または文字列を入力して、**[!DNL Enter]** キーを押します。
 
-     フレーズ内の任意の場所（最初の文字または最後の 3 文字など）に表示される文字列を検索でき、検索用語は [ 大文字と小文字を区別 ](/help/search-social-commerce/glossary.md#c-d) されません。
+     フレーズ内の任意の場所（最初の文字または最後の 3 文字など）に表示される文字列を検索でき、検索用語は [&#x200B; 大文字と小文字を区別 &#x200B;](/help/search-social-commerce/glossary.md#c-d) されません。
 
-   * 管理ビューおよびレポートで使用可能な状態に応じてコンバージョン指標を検索するには、「![ フィルター ](/help/search-social-commerce/assets/filter.png " フィルター ")」をクリックし、フィルター **[!UICONTROL Show in UI and Reports]** を選択します。 次に、**[!UICONTROL Show]** （レポートおよび管理ビューに含めることができるコンバージョン指標を表示する）または **[!UICONTROL Hide]** （レポートおよび管理ビューに含めることができないコンバージョン指標を表示する）を選択します。
+   * 管理ビューおよびレポートで使用可能な状態に応じてコンバージョン指標を検索するには、「![&#x200B; フィルター &#x200B;](/help/search-social-commerce/assets/filter.png " フィルター ")」をクリックし、フィルター **[!UICONTROL Show in UI and Reports]** を選択します。 次に、**[!UICONTROL Show]** （レポートおよび管理ビューに含めることができるコンバージョン指標を表示する）または **[!UICONTROL Hide]** （レポートおよび管理ビューに含めることができないコンバージョン指標を表示する）を選択します。
 
 1. 管理ビューおよびレポートで使用可能なコンバージョン指標を変更します。
 
@@ -38,13 +38,13 @@ Adobe Advertisingが広告主の [ コンバージョン ](/help/search-social-c
 
       1. 各コンバージョン指標の横にあるチェックボックスをオンにします。
 
-         複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+         複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-      1. データテーブルの上にあるツールバーで、![ 表示 ](/help/search-social-commerce/assets/show.png " 表示 ") をクリックして指標を表示するか、![Hide](/help/search-social-commerce/assets/hide.png "Hide") をクリックして指標を非表示にします。
+      1. データテーブルの上にあるツールバーで、![&#x200B; 表示 &#x200B;](/help/search-social-commerce/assets/show.png " 表示 ") をクリックして指標を表示するか、![Hide](/help/search-social-commerce/assets/hide.png "Hide") をクリックして指標を非表示にします。
 
       1. （指標を非表示にするには）確認メッセージで「**[!UICONTROL Yes]**」をクリックして、指標を非表示にします（指標を含む派生指標からの削除も含まれます）。
 
-1. （任意） [ 列見出しに表示される名前を変更 ](conversion-metric-edit-display-name.md) 任意のコンバージョン指標について。
+1. （任意） [&#x200B; 列見出しに表示される名前を変更 &#x200B;](conversion-metric-edit-display-name.md) 任意のコンバージョン指標について。
 
    表示される各コンバージョン指標のデフォルトの表示名は、取得したデータでつづられているような指標名です。
 
@@ -54,6 +54,6 @@ Adobe Advertisingが広告主の [ コンバージョン ](/help/search-social-c
 
 >[!MORELIKETHIS]
 >
->* [ 広告主のコンバージョン指標の管理について ](conversion-metric-about.md)
->* [ 広告主について追跡されたコンバージョン指標の表示 ](conversion-metric-view-tracked.md)
->* [ コンバージョン指標の表示名の変更 ](conversion-metric-edit-display-name.md)
+>* [&#x200B; 広告主のコンバージョン指標の管理について &#x200B;](conversion-metric-about.md)
+>* [&#x200B; 広告主について追跡されたコンバージョン指標の表示 &#x200B;](conversion-metric-view-tracked.md)
+>* [&#x200B; コンバージョン指標の表示名の変更 &#x200B;](conversion-metric-edit-display-name.md)

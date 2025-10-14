@@ -13,7 +13,7 @@ EF ID は、Adobe Advertisingがアクティビティをオンラインクリッ
 
 [!DNL Analytics] の場合、EF ID は [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja) または [!DNL rVar] （予約 [!DNL eVar]）ディメンション（Adobe Advertising EF ID）に保存されます。
 
-Customer Journey Analyticsの場合、EF ID は、`trackingIdentities` `conversionDetails` の一部である [ オブジェクトの [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] プロパティに格納され ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) す。
+Customer Journey Analyticsの場合、EF ID は、`trackingIdentities` `conversionDetails` の一部である [&#x200B; オブジェクトの [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] プロパティに格納され &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) す。
 
 ### EF ID 形式 {#ef-id-formats}
 

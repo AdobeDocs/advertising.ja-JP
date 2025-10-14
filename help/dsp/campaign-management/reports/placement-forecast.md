@@ -81,6 +81,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ ](campaign-reports-about.md)
->* [ プレースメント診断レポートの表示 ](/help/dsp/campaign-management/reports/placement-diagnostics.md)
->* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ &#x200B;](campaign-reports-about.md)
+>* [&#x200B; プレースメント診断レポートの表示 &#x200B;](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)

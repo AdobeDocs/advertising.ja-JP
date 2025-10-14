@@ -24,7 +24,7 @@ Performance MAX キャンペーンには、任意のアセットを使用でき�
 
 1. 右上で、広告ネットワークとアカウントを選択します。
 
-1. データテーブルの上にあるツールバーで、「![ アップロード ](/help/search-social-commerce/assets/add.png " アップロード ")」をクリックします。
+1. データテーブルの上にあるツールバーで、「![&#x200B; アップロード &#x200B;](/help/search-social-commerce/assets/add.png " アップロード ")」をクリックします。
 
 1. 各アセットタイプを指定します。
 
@@ -40,7 +40,7 @@ Performance MAX キャンペーンには、任意のアセットを使用でき�
 
          1. 各画像に対して、次の手順を実行します。
 
-            1. ![ 切り抜き ](/help/search-social-commerce/assets/crop.png " 切り抜き ") をクリックします。
+            1. ![&#x200B; 切り抜き &#x200B;](/help/search-social-commerce/assets/crop.png " 切り抜き ") をクリックします。
 
             1. アスペクト比を選択します。
 
@@ -66,5 +66,5 @@ Performance MAX キャンペーンには、任意のアセットを使用でき�
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Google Ads]  キャンペーン設定 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
->* [[!DNL Microsoft Advertising]  キャンペーン設定 ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
+>* [[!DNL Google Ads]  キャンペーン設定 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+>* [[!DNL Microsoft Advertising]  キャンペーン設定 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)

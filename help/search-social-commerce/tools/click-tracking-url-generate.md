@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Adobe Advertisingのコンバージョントラッキングのみを使用する広告主*
 
-クリックトラッキング URL を手動で生成および実装する必要がある場合について詳しくは、「[ クリックトラッキング URL を生成するタイミングと方法 ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) を参照してください。
+クリックトラッキング URL を手動で生成および実装する必要がある場合について詳しくは、「[&#x200B; クリックトラッキング URL を生成するタイミングと方法 &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) を参照してください。
 
 >[!NOTE]
 >
@@ -82,10 +82,10 @@ ht-degree: 0%
 
 宛先 URL を持つアカウントの場合、適切な [!UICONTROL Base URL] フィールドに値を入力します。
 
-最終的な URL を持つアカウントの場合は、適切な [!UICONTROL Tracking Template] フィールドに画面上の値を入力します。 最終的な URL のパラメーターを `&url=` パラメーターの後に追加する必要があります（`{lpurl}` など）。 [!DNL Yahoo! Japan Ads] アカウントの場合は、パラメーター `{lpurl}` を使用します。 トラッキングテンプレートで最終的な URL を示す [!DNL Google Ads] および [!DNL Microsoft Advertising] パラメーターのリストについては、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/6305348) （「使用可能な [!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーターを参照）および [[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799/2) を参照してください。
+最終的な URL を持つアカウントの場合は、適切な [!UICONTROL Tracking Template] フィールドに画面上の値を入力します。 最終的な URL のパラメーターを `&url=` パラメーターの後に追加する必要があります（`{lpurl}` など）。 [!DNL Yahoo! Japan Ads] アカウントの場合は、パラメーター `{lpurl}` を使用します。 トラッキングテンプレートで最終的な URL を示す [!DNL Google Ads] および [!DNL Microsoft Advertising] パラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348) （「使用可能な [!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーターを参照）および [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799/2) を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ トラッキングタグを作成およびデコードするツールについて ](tracking-tools-about.md)
->* [ クリックトラッキング URL を生成するタイミングと方法 ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
->* [ 検索、ソーシャル、Commerceのクリックトラッキング URL のデコード ](click-tracking-url-decode.md)
+>* [&#x200B; トラッキングタグを作成およびデコードするツールについて &#x200B;](tracking-tools-about.md)
+>* [&#x200B; クリックトラッキング URL を生成するタイミングと方法 &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
+>* [&#x200B; 検索、ソーシャル、Commerceのクリックトラッキング URL のデコード &#x200B;](click-tracking-url-decode.md)

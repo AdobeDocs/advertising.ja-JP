@@ -46,8 +46,8 @@ RTB を超えて検索する広告主は、プライベートインベントリ�
 
 >[!MORELIKETHIS]
 >
->* [ インベントリ機能の概要 ](/help/dsp/inventory/inventory-overview.md)
+>* [&#x200B; インベントリ機能の概要 &#x200B;](/help/dsp/inventory/inventory-overview.md)
 >* [[!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md) について
->* [ 取引 ID インボックスでの取引の承認 ](deal-id-inbox-accept.md)
->* [ 取引 ID の詳細の手動作成 ](deal-id-create.md)
->* [ 取引リストの管理 ](/help/dsp/inventory/lists-deals-manage.md)
+>* [&#x200B; 取引 ID インボックスでの取引の承認 &#x200B;](deal-id-inbox-accept.md)
+>* [&#x200B; 取引 ID の詳細の手動作成 &#x200B;](deal-id-create.md)
+>* [&#x200B; 取引リストの管理 &#x200B;](/help/dsp/inventory/lists-deals-manage.md)

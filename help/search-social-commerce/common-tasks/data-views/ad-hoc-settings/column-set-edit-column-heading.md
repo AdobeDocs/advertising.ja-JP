@@ -20,9 +20,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* また、ビューの列を一時的に変更したり、ツールバーの右側にある [ のアイコンから [!UICONTROL Columns] 並べ替え順を変更 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) ることもできます。
->* デフォルトのビューを編集するか、[ カスタムビューを作成 ](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view) して、特定の広告主に含める列を変更できます。
+>* また、ビューの列を一時的に変更したり、ツールバーの右側にある [&#x200B; のアイコンから [!UICONTROL Columns] 並べ替え順を変更 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) ることもできます。
+>* デフォルトのビューを編集するか、[&#x200B; カスタムビューを作成 &#x200B;](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view) して、特定の広告主に含める列を変更できます。
 
-* （すべての広告主に対して特定の列を表示するには）列見出しの右側にある ![ 下向き矢印 ](/help/search-social-commerce/assets/arrow-down-expand.png " 下向き矢印 ") をクリックし、**[!UICONTROL Select Columns]** をハイライト表示して、表示する各列の横にあるチェック ボックスをオンにし、[**[!UICONTROL Apply]**] をクリックします。
+* （すべての広告主に対して特定の列を表示するには）列見出しの右側にある ![&#x200B; 下向き矢印 &#x200B;](/help/search-social-commerce/assets/arrow-down-expand.png " 下向き矢印 ") をクリックし、**[!UICONTROL Select Columns]** をハイライト表示して、表示する各列の横にあるチェック ボックスをオンにし、[**[!UICONTROL Apply]**] をクリックします。
 
 * （すべての広告主に対して特定の列を非表示にするには）列見出しの右側にある [ （/help/search-social-commerce/assets/arrow-down-expand.png &quot;Down arrow&quot;] をクリックし、**[!UICONTROL Select Columns]** をハイライト表示して、除外する各列の横にあるチェック ボックスをオフにし、[**[!UICONTROL Apply]**] をクリックします。

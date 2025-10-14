@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Create Report]**] をクリックし、カーソルを **[!UICONTROL Model Accuracy]** の上に置いて、レポートの種類をクリックします。
 
-1. （オプション） [!UICONTROL Report Settings] ウィンドウで、デフォルト [ レポート設定 ](forecast-accuracy-report.md) を変更します。
+1. （オプション） [!UICONTROL Report Settings] ウィンドウで、デフォルト [&#x200B; レポート設定 &#x200B;](forecast-accuracy-report.md) を変更します。
 
    1. （オプション）レポートおよびテンプレートのカスタム名を入力します（レポートをテンプレートとして保存する場合）。
 
@@ -34,13 +34,13 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Create]**」をクリックします。
 
-レポートスケジュールを指定しなかった場合、レポートはすぐに実行されます。指定しなかった場合は、指定したスケジュールに従ってレポートが実行されます。 レポート名が [[!UICONTROL Latest Reports] ビューに追加され ](/help/search-social-commerce/reports/report-about.md) す。 レポートをテンプレートとして保存した場合は、[[!UICONTROL Templates] ビュー ](/help/search-social-commerce/reports/report-about.md) にも追加されます。 レポートが完成すると、ファイルを開いたり保存したりできます。テンプレートはすぐに使用できます。
+レポートスケジュールを指定しなかった場合、レポートはすぐに実行されます。指定しなかった場合は、指定したスケジュールに従ってレポートが実行されます。 レポート名が [[!UICONTROL Latest Reports] ビューに追加され &#x200B;](/help/search-social-commerce/reports/report-about.md) す。 レポートをテンプレートとして保存した場合は、[[!UICONTROL Templates] ビュー &#x200B;](/help/search-social-commerce/reports/report-about.md) にも追加されます。 レポートが完成すると、ファイルを開いたり保存したりできます。テンプレートはすぐに使用できます。
 
-通知用のメールアドレスを入力した場合、各受信者は、レポートに対して、ユーザーの [ 設定された通知設定 ](/help/search-social-commerce/notifications/notification-edit.md) に基づいて、レポートジョブが完了または失敗すると、通知を受け取ります。
+通知用のメールアドレスを入力した場合、各受信者は、レポートに対して、ユーザーの [&#x200B; 設定された通知設定 &#x200B;](/help/search-social-commerce/notifications/notification-edit.md) に基づいて、レポートジョブが完了または失敗すると、通知を受け取ります。
 
 >[!MORELIKETHIS]
 >
->* [ モデル精度レポートについて ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [&#x200B; モデル精度レポートについて &#x200B;](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
 >* [[!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
 >* [[!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [ 報告書の削除 ](/help/search-social-commerce/reports/management/report-delete.md)
+>* [&#x200B; 報告書の削除 &#x200B;](/help/search-social-commerce/reports/management/report-delete.md)

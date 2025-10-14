@@ -17,14 +17,14 @@ ht-degree: 0%
 検索またはディスプレイ/ネイティブネットワークをターゲットとする検索広告グループまたはキャンペーンに、ネガティブキーワードを作成できます。 負のキーワードは広告をトリガーしません。
 
 >[!NOTE]
->また、[ 広告グループ設定 ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) および [ キャンペーン設定 ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) でネガティブキーワードを作成および編集することもできます。
+>また、[&#x200B; 広告グループ設定 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) および [&#x200B; キャンペーン設定 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) でネガティブキーワードを作成および編集することもできます。
 
 >[!TIP]
->一度に多くのネガティブキーワードを作成するには、[campaign バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
+>一度に多くのネガティブキーワードを作成するには、[campaign バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Negatives]** をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックし、[**[!UICONTROL Campaign]**] をクリックしてキャンペーン レベルの負のキーワードを作成するか、[**[!UICONTROL Ad Group]**] をクリックして広告グループ レベルの負のキーワードを作成します。
+1. データ テーブルの上にあるツールバーで、[![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックし、[**[!UICONTROL Campaign]**] をクリックしてキャンペーン レベルの負のキーワードを作成するか、[**[!UICONTROL Ad Group]**] をクリックして広告グループ レベルの負のキーワードを作成します。
 
 1. 広告ネットワーク、アカウント、キャンペーン、（該当する場合は）広告グループを選択し、「**[!UICONTROL Continue]**」をクリックします。
 
@@ -50,6 +50,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ キーワードについて ](keyword-about.md)
->* [ 入札可能キーワードの管理 ](keyword-manage.md)
->* [ キーワードとネガティブキーワードのステータスの変更 ](keyword-status-edit.md)
+>* [&#x200B; キーワードについて &#x200B;](keyword-about.md)
+>* [&#x200B; 入札可能キーワードの管理 &#x200B;](keyword-manage.md)
+>* [&#x200B; キーワードとネガティブキーワードのステータスの変更 &#x200B;](keyword-status-edit.md)

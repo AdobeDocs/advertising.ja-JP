@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## FTP 配信用のレポートテンプレートの設定
 
-指定した FTP ディレクトリでレポートを生成するには、次の命名規則とスケジュールを使用して [ レポートテンプレート ](templates/template-create.md) を作成します。
+指定した FTP ディレクトリでレポートを生成するには、次の命名規則とスケジュールを使用して [&#x200B; レポートテンプレート &#x200B;](templates/template-create.md) を作成します。
 
 >[!NOTE]
 >
@@ -69,4 +69,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ レポートテンプレートの作成 ](/help/search-social-commerce/reports/automation/templates/template-create.md)
+>* [&#x200B; レポートテンプレートの作成 &#x200B;](/help/search-social-commerce/reports/automation/templates/template-create.md)

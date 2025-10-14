@@ -22,7 +22,7 @@ ht-degree: 0%
 
 現在の検索、ソーシャルおよびCommerceの資格情報は、変更に備えるために短時間引き続きアクティブになります。
 
-ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。
+ユーザープロファイルの管理など、Experience Cloud インターフェイスの詳細については、「[Experience Cloud インターフェイスと管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。
 
 ## 従来の検索、ソーシャル、Commerceからのログインページ
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. ホーム ページの [[!UICONTROL Quick Access]] セクションで、[**[!UICONTROL Advertising Search, Social, & Commerce]**] をクリックします。
 
-![Advertising検索、ソーシャル、Commerce） ](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising検索、ソーシャル、Commerce） ")
+![Advertising検索、ソーシャル、Commerce） &#x200B;](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising検索、ソーシャル、Commerce） ")
 
 新しいユーザーインターフェイスがデフォルトで開きます。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 新しいユーザーインターフェイスと従来のユーザーインターフェイスの切り替え ](ui-switch.md)
->* [ ログアウト ](sign-out.md)
->* [ パスワードを変更する ](/help/search-social-commerce/tools/password-change.md)
->* [ ユーザーインターフェイスの編成方法 ](user-interface.md)
+>* [&#x200B; 新しいユーザーインターフェイスと従来のユーザーインターフェイスの切り替え &#x200B;](ui-switch.md)
+>* [&#x200B; ログアウト &#x200B;](sign-out.md)
+>* [&#x200B; パスワードを変更する &#x200B;](/help/search-social-commerce/tools/password-change.md)
+>* [&#x200B; ユーザーインターフェイスの編成方法 &#x200B;](user-interface.md)

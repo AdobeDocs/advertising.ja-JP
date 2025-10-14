@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除アクションのみ）および [!DNL Yandex] アカウントのみ*
 
-広告ネットワーク固有のフィードテンプレートを作成してフィードファイル、[!DNL Google] または [!DNL Microsoft] のマーチャントセンターアカウントを関連付けると、[ フィードデータ設定 ](feed-settings-manage.md) に従ってテンプレートを通じてフィードデータを伝播することで、広告を動的に作成できます。 伝達中、テンプレートが特に指定しない限り、テンプレートの列名はフィードのデータ値に置き換えられ、生成されたキャンペーンとそのコンポーネントにはデフォルト設定が使用されます。 テンプレートオプションに応じて、検索、ソーシャル、Commerceで、広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成するか、広告を既存のアカウント構造にマッピングします。
+広告ネットワーク固有のフィードテンプレートを作成してフィードファイル、[!DNL Google] または [!DNL Microsoft] のマーチャントセンターアカウントを関連付けると、[&#x200B; フィードデータ設定 &#x200B;](feed-settings-manage.md) に従ってテンプレートを通じてフィードデータを伝播することで、広告を動的に作成できます。 伝達中、テンプレートが特に指定しない限り、テンプレートの列名はフィードのデータ値に置き換えられ、生成されたキャンペーンとそのコンポーネントにはデフォルト設定が使用されます。 テンプレートオプションに応じて、検索、ソーシャル、Commerceで、広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成するか、広告を既存のアカウント構造にマッピングします。
 
 新しいフィードデータに項目の新しいデータ値が含まれている場合、またはテンプレートが変更された場合、既存の広告は削除され、新しい広告が作成されます。 パラメータ 1 とパラメータ 2[!DNL Google Ads] 指定だけが変更されている場合、これらの値だけが更新されます。 重複した広告（同じ広告コピーとランディングページ）は作成されません。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Propagations]**」タブをクリックします。
 
-1. テンプレート名の横にある ![ 設定を表示/編集アイコン ](/help/search-social-commerce/assets/settings.png " 設定を表示/編集アイコン ") をクリックします。
+1. テンプレート名の横にある ![&#x200B; 設定を表示/編集アイコン &#x200B;](/help/search-social-commerce/assets/settings.png " 設定を表示/編集アイコン ") をクリックします。
 
 ## 伝播ジョブの停止
 
@@ -88,10 +88,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 在庫フィードについて ](inventory-feeds-about.md)
->* [ 在庫フィードの広告テンプレートの管理 ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
->* [ フィードから生成されたデータを表示 ](propagated-data-view.md)
->* [ フィードから生成されたデータを編集 ](propagated-data-edit.md)
->* [ フィードから広告ネットワークにキャンペーンデータを投稿する ](propagated-data-post.md)
->* [ 在庫フィード データの転記ジョブを停止 ](stop-job.md)
->* [ フィードから生成されたデータのステータス ](propagated-data-status.md)
+>* [&#x200B; 在庫フィードについて &#x200B;](inventory-feeds-about.md)
+>* [&#x200B; 在庫フィードの広告テンプレートの管理 &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
+>* [&#x200B; フィードから生成されたデータを表示 &#x200B;](propagated-data-view.md)
+>* [&#x200B; フィードから生成されたデータを編集 &#x200B;](propagated-data-edit.md)
+>* [&#x200B; フィードから広告ネットワークにキャンペーンデータを投稿する &#x200B;](propagated-data-post.md)
+>* [&#x200B; 在庫フィード データの転記ジョブを停止 &#x200B;](stop-job.md)
+>* [&#x200B; フィードから生成されたデータのステータス &#x200B;](propagated-data-status.md)

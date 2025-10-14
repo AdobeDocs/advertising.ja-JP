@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # クリエイティブライブラリの管理
 
-各広告主に対して複数のクリエイティブライブラリを作成できます。 後から、各ライブラリに [ 標準クリエイティブ ](creative-add-standard.md)、[ 動的クリエイティブ ](creative-add-dynamic.md)、および [ クリエイティブバンドル ](bundle-manage.md) を入力できます。
+各広告主に対して複数のクリエイティブライブラリを作成できます。 後から、各ライブラリに [&#x200B; 標準クリエイティブ &#x200B;](creative-add-standard.md)、[&#x200B; 動的クリエイティブ &#x200B;](creative-add-dynamic.md)、および [&#x200B; クリエイティブバンドル &#x200B;](bundle-manage.md) を入力できます。
 
 ## クリエイティブライブラリの作成
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
-1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
 
 1. ライブラリを選択します。
 
@@ -50,11 +50,11 @@ ht-degree: 0%
 
 ## クリエイティブライブラリの削除
 
-[ ライブ ](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないクリエイティブやバンドルを含むライブラリを削除できます。 ライブターゲットのエクスペリエンスの場合は、続行する前に、[ デシジョンツリーからクリエイティブやバンドルを削除 ](/help/creative/experiences/experience-target-node-delete.md) して、エクスペリエンスを表示します。<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
+[&#x200B; ライブ &#x200B;](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないクリエイティブやバンドルを含むライブラリを削除できます。 ライブターゲットのエクスペリエンスの場合は、続行する前に、[&#x200B; デシジョンツリーからクリエイティブやバンドルを削除 &#x200B;](/help/creative/experiences/experience-target-node-delete.md) して、エクスペリエンスを表示します。<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
-1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
 
 1. 削除するライブラリを選択：
 
@@ -72,6 +72,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ クリエイティブライブラリについて ](/help/creative/creative-libraries/creative-libraries-about.md)
->* [ クリエイティブライブラリへの標準クリエイティブの追加 ](creative-add-standard.md)
->* [ クリエイティブバンドルの管理 ](bundle-manage.md)
+>* [&#x200B; クリエイティブライブラリについて &#x200B;](/help/creative/creative-libraries/creative-libraries-about.md)
+>* [&#x200B; クリエイティブライブラリへの標準クリエイティブの追加 &#x200B;](creative-add-standard.md)
+>* [&#x200B; クリエイティブバンドルの管理 &#x200B;](bundle-manage.md)

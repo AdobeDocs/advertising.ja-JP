@@ -106,5 +106,5 @@ Adobe Advertising コンバージョントラッキングを使用するアカ�
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertising コンバージョントラッキングサービスのクリックトラッキング URL 形式について ](formats-click-tracking-about.md)
->* [AMO ID 形式 ](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Adobe Advertising コンバージョントラッキングサービスのクリックトラッキング URL 形式について &#x200B;](formats-click-tracking-about.md)
+>* [AMO ID 形式 &#x200B;](/help/integrations/analytics/ids.md#amo-id-formats)

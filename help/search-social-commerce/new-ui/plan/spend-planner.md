@@ -36,7 +36,7 @@ ht-degree: 0%
 
    * メインメニューで、**[!UICONTROL Plan]/[!UICONTROL Spend Planner]** をクリックします。
 
-   * メインメニューで、**[!UICONTROL Plan]/[!UICONTROL Simulations]** をクリックします。 データ テーブルの上にあるツールバーで、![ 費用プランナー ](/help/search-social-commerce/assets/spend-planner-icon.png " 費用プランナー ") をクリックします。
+   * メインメニューで、**[!UICONTROL Plan]/[!UICONTROL Simulations]** をクリックします。 データ テーブルの上にあるツールバーで、![&#x200B; 費用プランナー &#x200B;](/help/search-social-commerce/assets/spend-planner-icon.png " 費用プランナー ") をクリックします。
 
    [!UICONTROL Spend Recommendation] ツールがレガシーユーザーインターフェイスで開きます。
 
@@ -107,6 +107,6 @@ ht-degree: 0%
 
 1. 選択したポートフォリオの支出推奨レポートを生成します。
 
-1. レポートの上の「![ ダウンロード ](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")」をクリックします。
+1. レポートの上の「![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")」をクリックします。
 
    ブラウザーの通常の手順に従って、ファイルを開くか保存します。  詳細については、ブラウザのオンライン ヘルプを参照してください。

@@ -66,7 +66,7 @@ ht-degree: 0%
 
 1. ツールバーの「**[!UICONTROL Portfolio Groups]**」をクリックします。
 
-1. ポートフォリオグループ名の上にカーソルを置き、![Portfolioグループの名前を変更 ](/help/search-social-commerce/assets/edit-new.png "Portfolioグループの名前を変更 ") をクリックします。
+1. ポートフォリオグループ名の上にカーソルを置き、![Portfolioグループの名前を変更 &#x200B;](/help/search-social-commerce/assets/edit-new.png "Portfolioグループの名前を変更 ") をクリックします。
 
 1. **[!UICONTROL Name]** を編集し、[**[!UICONTROL Save]**] をクリックします。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 1. ツールバーの「**[!UICONTROL Portfolio Groups]**」をクリックします。
 
-1. ポートフォリオグループ名の上にカーソルを置き、![Portfolio グループでフィルター ](/help/search-social-commerce/assets/filter-new.png "Portfolio グループでフィルター ") をクリックします。
+1. ポートフォリオグループ名の上にカーソルを置き、![Portfolio グループでフィルター &#x200B;](/help/search-social-commerce/assets/filter-new.png "Portfolio グループでフィルター ") をクリックします。
 
 ## ポートフォリオグループの削除
 
@@ -84,13 +84,13 @@ ht-degree: 0%
 
 1. ツールバーの「**[!UICONTROL Portfolio Groups]**」をクリックします。
 
-1. ポートフォリオグループ名の上にカーソルを置き、![Portfolioグループを削除 ](/help/search-social-commerce/assets/delete-new.png "Portfolioグループを削除 ") をクリックしてください。
+1. ポートフォリオグループ名の上にカーソルを置き、![Portfolioグループを削除 &#x200B;](/help/search-social-commerce/assets/delete-new.png "Portfolioグループを削除 ") をクリックしてください。
 
 1. 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ ポートフォリオの作成 ](portfolio-create.md)
->* [ （新しい UI） ポートフォリオのパフォーマンスの詳細を表示 ](portfolio-details.md)
->* [ （新しい UI） [!UICONTROL Portfolios] ビューでのデータのダウンロード ](portfolio-view-report.md)
->* [ ポートフォリオについて ](portfolio-about.md)
+>* [&#x200B; ポートフォリオの作成 &#x200B;](portfolio-create.md)
+>* [&#x200B; （新しい UI） ポートフォリオのパフォーマンスの詳細を表示 &#x200B;](portfolio-details.md)
+>* [&#x200B; （新しい UI） [!UICONTROL Portfolios] ビューでのデータのダウンロード &#x200B;](portfolio-view-report.md)
+>* [&#x200B; ポートフォリオについて &#x200B;](portfolio-about.md)

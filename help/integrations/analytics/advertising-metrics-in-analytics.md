@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >* Adobe Advertisingでは、トラフィック指標とディメンションが毎日 [!DNL Analytics] に渡されます。
 >* [!DNL Analytics] は、Adobe Advertisingのクリックスルーとビュースルーをリアルタイムでキャプチャします。
->* [!DNL Search, Social, & Commerce]：この機能は、ほとんどの広告ネットワークとキャンペーンタイプでサポートされています。 詳しくは、[!DNL Search, Social, & Commerce] Guide の「[ サポート対象インベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+>* [!DNL Search, Social, & Commerce]：この機能は、ほとんどの広告ネットワークとキャンペーンタイプでサポートされています。 詳しくは、[!DNL Search, Social, & Commerce] Guide の「[&#x200B; サポート対象インベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 ## Adobe Advertisingからのトラフィック指標
 
@@ -78,5 +78,5 @@ Adobe Advertisingデータについて、次の指標を作成することを検
 
 >[!MORELIKETHIS]
 >
->* [ 概要  [!DNL Analytics for Advertising]](overview.md)
->* [[!DNL Analytics] Adobe Advertising内データ ](/help/integrations/analytics/analytics-data-in-advertising.md)
+>* [&#x200B; 概要  [!DNL Analytics for Advertising]](overview.md)
+>* [[!DNL Analytics] Adobe Advertising内データ &#x200B;](/help/integrations/analytics/analytics-data-in-advertising.md)

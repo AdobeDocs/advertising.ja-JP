@@ -18,11 +18,11 @@ ht-degree: 0%
 
 1. 次のいずれかの方法で通知設定を開きます。
 
-   * ページの右上で、「![ 通知 ](/help/search-social-commerce/assets/notifications-panel.png " 通知 ")」をクリックして、[!UICONTROL Notifications] のパネルを開きます。 右上で、「![設定](/help/search-social-commerce/assets/settings-nc.png "設定")」をクリックします。
+   * ページの右上で、「![&#x200B; 通知 &#x200B;](/help/search-social-commerce/assets/notifications-panel.png " 通知 ")」をクリックして、[!UICONTROL Notifications] のパネルを開きます。 右上で、「![設定](/help/search-social-commerce/assets/settings-nc.png "設定")」をクリックします。
 
-   * メインメニューで、**[!UICONTROL Search, Social, & Commerce]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。 左側のメニューで、![ 設定 ](/help/search-social-commerce/assets/settings-nc.png " 設定 ") をクリックします。
+   * メインメニューで、**[!UICONTROL Search, Social, & Commerce]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。 左側のメニューで、![&#x200B; 設定 &#x200B;](/help/search-social-commerce/assets/settings-nc.png " 設定 ") をクリックします。
 
-1. 任意の [ 通知カテゴリ ](notification-about.md) の設定を変更します。
+1. 任意の [&#x200B; 通知カテゴリ &#x200B;](notification-about.md) の設定を変更します。
 
    * 通知を購読または購読解除するには、[!UICONTROL Subscribe] 列のスライダーを移動します。
 
@@ -34,15 +34,15 @@ ht-degree: 0%
 
    * （[!UICONTROL Subscribe] が無効の場合）ブラウザーで有効になっている場合に検索、ソーシャル、Commerce内の web 通知およびプッシュ通知を購読するには、「**[!UICONTROL Web]**」列のチェックボックスをオンにします。
 
-     Web 通知は、ブラウザーに [ プッシュ通知を有効にする ](notifications-push-enable-disable.md) 場合にのみ配信されます。
+     Web 通知は、ブラウザーに [&#x200B; プッシュ通知を有効にする &#x200B;](notifications-push-enable-disable.md) 場合にのみ配信されます。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ 通知について ](/help/search-social-commerce/notifications/notification-about.md)
->* [ 通知の表示 ](notification-view.md)
->* [ 通知を既読または未読としてマーク ](notification-mark-read-unread.md)
->* [ 通知の削除 ](notification-delete.md)
+>* [&#x200B; 通知について &#x200B;](/help/search-social-commerce/notifications/notification-about.md)
+>* [&#x200B; 通知の表示 &#x200B;](notification-view.md)
+>* [&#x200B; 通知を既読または未読としてマーク &#x200B;](notification-mark-read-unread.md)
+>* [&#x200B; 通知の削除 &#x200B;](notification-delete.md)
 >* [[!UICONTROL Notification Center]](notifications-push-enable-disable.md) からのプッシュ通知の有効化と無効化
->* [[!UICONTROL Notification Center] Web アプリケーションをインストールしてアンインストールする ](notification-app-install-uninstall.md)
+>* [[!UICONTROL Notification Center] Web アプリケーションをインストールしてアンインストールする &#x200B;](notification-app-install-uninstall.md)

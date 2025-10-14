@@ -14,13 +14,13 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Advertising Insights]** をクリックします。
 
-2. 左側のメニューで、「![ レポート ](/help/search-social-commerce/assets/insight-reports.png " レポート ")」をクリックします。
+2. 左側のメニューで、「![&#x200B; レポート &#x200B;](/help/search-social-commerce/assets/insight-reports.png " レポート ")」をクリックします。
 
 3. [!UICONTROL Generated Insights] パネルで、次のいずれかの操作を行います。
 
    * レポートインスタンスをクリックします。
 
-   * レポートインスタンスの上にカーソルを置き、「![ ダウンロード ](/help/search-social-commerce/assets/insight-download.png " ダウンロード ")」をクリックします。
+   * レポートインスタンスの上にカーソルを置き、「![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/insight-download.png " ダウンロード ")」をクリックします。
 
 4. ブラウザーの通常の手順に従って、ファイルを開くか保存します。
 
@@ -29,5 +29,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [[!UICONTROL Advertising Insights]](insight-about.md) について
->* [ 生成  [!DNL Advertising Insight]](insight-generate.md)
->* [ を削除  [!DNL Advertising Insight]](insight-delete.md)
+>* [&#x200B; 生成  [!DNL Advertising Insight]](insight-generate.md)
+>* [&#x200B; を削除  [!DNL Advertising Insight]](insight-delete.md)

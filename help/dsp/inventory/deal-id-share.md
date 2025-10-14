@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> また、[ アカウントにアクセスできる個々の広告主を編集 ](deal-id-edit-advertisers.md) することもできます。
+> また、[&#x200B; アカウントにアクセスできる個々の広告主を編集 &#x200B;](deal-id-edit-advertisers.md) することもできます。
 
 ## アカウントとの取引 ID の共有
 
@@ -44,6 +44,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プライベートインベントリについて ](private-inventory-about.md)
->* [ 取引 ID へのアクセス権を持つ広告主の編集 ](/help/dsp/inventory/deal-id-edit-advertisers.md)
->* [ 手動の取引 ID 設定 ](deal-id-settings.md)
+>* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)
+>* [&#x200B; 取引 ID へのアクセス権を持つ広告主の編集 &#x200B;](/help/dsp/inventory/deal-id-edit-advertisers.md)
+>* [&#x200B; 手動の取引 ID 設定 &#x200B;](deal-id-settings.md)

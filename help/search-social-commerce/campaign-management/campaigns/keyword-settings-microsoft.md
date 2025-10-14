@@ -35,9 +35,9 @@ ht-degree: 0%
 
 ## プレースホルダ
 
-**[!UICONTROL Param2]:** キーワードのベース URL または広告のタイトル、説明、またはベース URL に [`{Param2}` 動的な置換文字列 ](https://help.bingads.microsoft.com/#apex/3/en/53079/0) が含まれる場合に、置換値として使用する文字列。 最大長は 70 文字ですが、これを使用する広告要素の最大長には注意が必要です（例えば、タイトル 1 とタイトル 2 を組み合わせると、最大 76 文字になる場合があります）。
+**[!UICONTROL Param2]:** キーワードのベース URL または広告のタイトル、説明、またはベース URL に [`{Param2}` 動的な置換文字列 &#x200B;](https://help.bingads.microsoft.com/#apex/3/en/53079/0) が含まれる場合に、置換値として使用する文字列。 最大長は 70 文字ですが、これを使用する広告要素の最大長には注意が必要です（例えば、タイトル 1 とタイトル 2 を組み合わせると、最大 76 文字になる場合があります）。
 
-**[!UICONTROL Param3]:** キーワードのベース URL または広告のタイトル、説明、またはベース URL に [`{Param3}` 動的な置換文字列 ](https://help.bingads.microsoft.com/#apex/3/en/53079/0) が含まれる場合に、置換値として使用する文字列。 最大長は 70 文字ですが、これを使用する広告要素の最大長には注意が必要です（例えば、タイトル 1 とタイトル 2 を組み合わせると、最大 76 文字になる場合があります）。
+**[!UICONTROL Param3]:** キーワードのベース URL または広告のタイトル、説明、またはベース URL に [`{Param3}` 動的な置換文字列 &#x200B;](https://help.bingads.microsoft.com/#apex/3/en/53079/0) が含まれる場合に、置換値として使用する文字列。 最大長は 70 文字ですが、これを使用する広告要素の最大長には注意が必要です（例えば、タイトル 1 とタイトル 2 を組み合わせると、最大 76 文字になる場合があります）。
 
 ## URL オプション
 
@@ -53,4 +53,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ キーワードの管理 ](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [&#x200B; キーワードの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

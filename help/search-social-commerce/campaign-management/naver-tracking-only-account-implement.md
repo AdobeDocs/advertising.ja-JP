@@ -18,7 +18,7 @@ ht-degree: 0%
 
 トラッキングキャンペーンは、既存のキャンペーン、広告グループおよびキーワードをレプリケートします。 検索、ソーシャル、Commerceでアカウント構造を作成し、広告ネットワーク内の元のキャンペーンにトラッキングを追加したら、キーワードまたは広告の毎日のネットワークトラフィック指標をアップロードできます。 検索、ソーシャル、Commerceを実行すると、コンバージョンが広告とキーワードに関連付けられます。
 
-すべてのキャンペーンにわたって、また個々のキャンペーン、広告グループ、キーワード/広告についてパフォーマンス指標を追跡できます。 また、これらの情報を、他の広告ネットワークのデータと共に、最も基本的なレポート、高度なレポート、アシストレポートに含めることもできます。 指標のAdobe Analyticsへの書き出しはサポートされていませんが、検索、ソーシャル、Commerceでは、[ 追跡している指標  [!DNL Analytics]](/help/integrations/analytics/analytics-data-in-advertising.md) を検索、ソーシャル、Commerceに同期できます。
+すべてのキャンペーンにわたって、また個々のキャンペーン、広告グループ、キーワード/広告についてパフォーマンス指標を追跡できます。 また、これらの情報を、他の広告ネットワークのデータと共に、最も基本的なレポート、高度なレポート、アシストレポートに含めることもできます。 指標のAdobe Analyticsへの書き出しはサポートされていませんが、検索、ソーシャル、Commerceでは、[&#x200B; 追跡している指標  [!DNL Analytics]](/help/integrations/analytics/analytics-data-in-advertising.md) を検索、ソーシャル、Commerceに同期できます。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 検索、ソーシャル、Commerceでトラッキングキャンペーンを作成します。
 
-   1. [ ダミーネットワークアカウントの詳細 ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) を作成します。 1 つの広告ネットワーク内に複数のアカウントがある場合は、[!UICONTROL Accounts] ビューでそれらを 1 つのアカウントに統合します。
+   1. [&#x200B; ダミーネットワークアカウントの詳細 &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) を作成します。 1 つの広告ネットワーク内に複数のアカウントがある場合は、[!UICONTROL Accounts] ビューでそれらを 1 つのアカウントに統合します。
 
       [!DNL Naver] は、トラッキングパラメーターを広告ネットワークにアップロードするための API サポートを提供していません。 ただし、バルクシートを使用してトラッキングパラメーターを生成し、手動で広告ネットワーク内に追加することができます（手順 2 あたり）。 トラッキングパラメーターを生成するには、「[!UICONTROL EF Redirect]」トラッキングメソッドを使用する必要があります。 必要に応じて、追加パラメーターを追加できます。
 
@@ -38,9 +38,9 @@ ht-degree: 0%
 
          親キャンペーンや広告グループなど、キーワードに関するデータを含めることができます。
 
-      1. 必要に応じて、バルクシートファイルを編集して、検索、ソーシャル、Commerce[ アカウントに必要なバルクシート形式 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md) に従う  [!DNL Naver]  うにします。
+      1. 必要に応じて、バルクシートファイルを編集して、検索、ソーシャル、Commerce[&#x200B; アカウントに必要なバルクシート形式 &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md) に従う  [!DNL Naver]  うにします。
 
-      1. 検索、ソーシャル、Commerceで [ バルクシートファイルをアップロード ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) します。
+      1. 検索、ソーシャル、Commerceで [&#x200B; バルクシートファイルをアップロード &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) します。
 
          >[!NOTE]
          >
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. キャンペーンのトラッキングの設定：
 
-   1. 検索、ソーシャル、Commerceで [ 新しいバルクシートファイルをダウンロード ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)」オプションを使用して「[!UICONTROL Generate Tracking URLs]」を選択します。
+   1. 検索、ソーシャル、Commerceで [&#x200B; 新しいバルクシートファイルをダウンロード &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)」オプションを使用して「[!UICONTROL Generate Tracking URLs]」を選択します。
 
    「[!UICONTROL Generate Tracking URLs]」オプションを使用すると、各キーワードの [!UICONTROL Destination URL] フィールドに、[!UICONTROL Base URL] 値の先頭にプレフィックスが付いた検索、ソーシャル、Commerceのトラッキングコードが入力されます。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
       広告ネットワークのエディター内でファイルをネットワークにアップロードすることで、関連するエンティティに URL を追加できる場合があります。 その場合、ネットワークのデータ要件に応じて、一部の列を削除する必要が生じる場合があります。 そうでない場合は、ネットワーク上で URL を手動で入力する必要があります。
 
-1. トラッキングしているキーワードまたは広告グループレベルのブランド広告について、広告ネットワークから毎日集計されたクリック数とコスト数のデータを定期的にダウンロードし [ クリック数とコスト数のデータをアップロード ](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)、検索、ソーシャル、Commerceを [ 必須形式 ](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md) で開きます。
+1. トラッキングしているキーワードまたは広告グループレベルのブランド広告について、広告ネットワークから毎日集計されたクリック数とコスト数のデータを定期的にダウンロードし [&#x200B; クリック数とコスト数のデータをアップロード &#x200B;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)、検索、ソーシャル、Commerceを [&#x200B; 必須形式 &#x200B;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md) で開きます。
 
    完全なアカウント階層と、組み込む指標を含めます。 検索、ソーシャル、Commerceを実行すると、アップロードされたデータが既存のキャンペーンのデータと照合されます。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 付録 – アカウントに必須のバルクシ  [!DNL Naver]  トデータ ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
->* [ トラッキング専用アカウントのトラフィックおよびコ  [!DNL Naver]  バージョン指標のアップロード ](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
->* [ トラッキング専用アカウント  [!DNL Naver]  指標データ要件 ](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
->* [ のクリック追跡形式  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
+>* [&#x200B; 付録 – アカウントに必須のバルクシ  [!DNL Naver]  トデータ &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+>* [&#x200B; トラッキング専用アカウントのトラフィックおよびコ  [!DNL Naver]  バージョン指標のアップロード &#x200B;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
+>* [&#x200B; トラッキング専用アカウント  [!DNL Naver]  指標データ要件 &#x200B;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
+>* [&#x200B; のクリック追跡形式  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)

@@ -30,10 +30,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [[!UICONTROL Simple Ad Serving] しい取引の作成 ](simple-deal-create.md)
->* [ 契約設定 [!UICONTROL Simple Ad Serving] 編集 ](simple-deal-edit.md)
+>* [[!UICONTROL Simple Ad Serving] しい取引の作成 &#x200B;](simple-deal-create.md)
+>* [&#x200B; 契約設定 [!UICONTROL Simple Ad Serving] 編集 &#x200B;](simple-deal-edit.md)
 >* [[!UICONTROL Simple Ad Serving] Settings](simple-deal-settings.md)
->* [ 取引の詳細レポートの表示 ](/help/dsp/inventory/deal-view-report.md)
+>* [&#x200B; 取引の詳細レポートの表示 &#x200B;](/help/dsp/inventory/deal-view-report.md)
 
 <!-- add back when reimplemented:
 >* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)

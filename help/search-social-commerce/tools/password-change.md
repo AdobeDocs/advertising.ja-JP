@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この機能は、従来の検索、ソーシャル、Commerceのログイン資格情報にのみ適用できます。 ほとんどのユーザーは、代わりに [!DNL Adobe] ID を認証に使用するようになりました。 [!DNL Adobe] ID のパスワードを変更するには、「[Adobe パスワードのリセットまたは変更 ](https://helpx.adobe.com/jp/manage-account/using/change-or-reset-password.html)」を参照してください。
+>この機能は、従来の検索、ソーシャル、Commerceのログイン資格情報にのみ適用できます。 ほとんどのユーザーは、代わりに [!DNL Adobe] ID を認証に使用するようになりました。 [!DNL Adobe] ID のパスワードを変更するには、「[Adobe パスワードのリセットまたは変更 &#x200B;](https://helpx.adobe.com/jp/manage-account/using/change-or-reset-password.html)」を参照してください。
 
 パスワードを変更すると、現在のセッションからログアウトされます。 作業を続行するには、新しいパスワードでサインインする必要があります。
 
@@ -34,5 +34,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ログイン ](/help/search-social-commerce/getting-started/sign-in.md)
->* [ ログアウト ](/help/search-social-commerce/getting-started/sign-out.md)
+>* [&#x200B; ログイン &#x200B;](/help/search-social-commerce/getting-started/sign-in.md)
+>* [&#x200B; ログアウト &#x200B;](/help/search-social-commerce/getting-started/sign-out.md)

@@ -18,7 +18,7 @@ Adobe Advertisingは、「成功」ページなど、コンバージョンイベ
 >
 >ユーザーが有効な Cookie を持っていない場合、Adobe Advertisingはコンバージョンをレポートしません。
 
-追跡するコンバージョン指標のセットごとに、個別のコンバージョンタグを作成する必要があります。 広告主または代理店に、それぞれ挿入する web ページのリストをタグに提供します。 次のいずれかのタイプのコンバージョンタグを生成できます。 手順については、「[Adobe Advertisingコンバージョンタグを生成 ](/help/search-social-commerce/tools/conversion-tag-generate.md)」を参照してください。
+追跡するコンバージョン指標のセットごとに、個別のコンバージョンタグを作成する必要があります。 広告主または代理店に、それぞれ挿入する web ページのリストをタグに提供します。 次のいずれかのタイプのコンバージョンタグを生成できます。 手順については、「[Adobe Advertisingコンバージョンタグを生成 &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md)」を参照してください。
 
 * （推奨）JavaScript タグ（バージョン 3 またはバージョン 2）が web ページに表示されない。
 
@@ -53,10 +53,10 @@ Adobe Advertisingは、「成功」ページなど、コンバージョンイベ
 
 >[!MORELIKETHIS]
 >
->* [ コンバージョントラッキングオプション ](conversion-tracking-about.md)
->* [Adobe Advertisingコンバージョンタグを生成 ](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [JavaScript コンバージョントラッキングタグバージョン 3 の形式 ](format-conversion-tag-jsv3.md)
->* [JavaScript コンバージョントラッキングタグバージョン 2 の形式 ](format-conversion-tag-jsv2.md)
->* [ 画像変換トラッキングタグの形式 ](format-conversion-tag-image.md)
->* [ コンバージョンおよびページビューのトラッキングタグに関する FAQ](faqs-conversion-page-view-tracking-tags.md)
+>* [&#x200B; コンバージョントラッキングオプション &#x200B;](conversion-tracking-about.md)
+>* [Adobe Advertisingコンバージョンタグを生成 &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [JavaScript コンバージョントラッキングタグバージョン 3 の形式 &#x200B;](format-conversion-tag-jsv3.md)
+>* [JavaScript コンバージョントラッキングタグバージョン 2 の形式 &#x200B;](format-conversion-tag-jsv2.md)
+>* [&#x200B; 画像変換トラッキングタグの形式 &#x200B;](format-conversion-tag-image.md)
+>* [&#x200B; コンバージョンおよびページビューのトラッキングタグに関する FAQ](faqs-conversion-page-view-tracking-tags.md)
 >* [JavaScript コンバージョンマッピングタグのAdobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)

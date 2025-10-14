@@ -30,5 +30,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ ](campaign-reports-about.md)
->* [ キャンペーンデータビューの管理 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ &#x200B;](campaign-reports-about.md)
+>* [&#x200B; キャンペーンデータビューの管理 &#x200B;](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

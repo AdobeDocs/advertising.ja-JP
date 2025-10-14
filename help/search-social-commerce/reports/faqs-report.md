@@ -15,7 +15,7 @@ ht-degree: 0%
 ## 一般的な質問
 
 +++レポートデータが使用可能になる前にレポートの日付範囲が開始されるとどうなりますか？
-レポートが生成されますが、これにはデータを利用できる日付のデータのみが含まれます。 各レポートタイプのデータを使用できるタイミングについて詳しくは、「[ レポートに使用するデータ ](data-used-for-reports.md)」を参照してください。
+レポートが生成されますが、これにはデータを利用できる日付のデータのみが含まれます。 各レポートタイプのデータを使用できるタイミングについて詳しくは、「[&#x200B; レポートに使用するデータ &#x200B;](data-used-for-reports.md)」を参照してください。
 +++
 
 +++クリック日ベースのレポートと取引日ベースのレポートの違いは何ですか？
@@ -23,13 +23,13 @@ ht-degree: 0%
 
 クリック日別にコンバージョンをレポートする場合、データには、指定した期間内に発生したクリックによって発生したトランザクションが含まれます。 ポートフォリオでクリック数とトランザクション数の間に大きな遅延が発生している場合、このタイプのレポートには、ポートフォリオのクリックあたりの収益履歴が表示され、期待される収益行動の推移を把握できます。
 
-![ クリック日別レポートと取引日別レポート ](/help/search-social-commerce/assets/click-date-vs-txn-date.png " クリック日別レポートと取引日別レポート ")
+![&#x200B; クリック日別レポートと取引日別レポート &#x200B;](/help/search-social-commerce/assets/click-date-vs-txn-date.png " クリック日別レポートと取引日別レポート ")
 +++
 
 +++クリックルックバックウィンドウまたはインプレッションルックバックウィンドウを変更するとどうなりますか？
 （Advertisingのピクセルベースのコンバージョントラッキングサービスのみを使用する広告主）最初のクリックによって発生したイベントに関するデータは、より長い期間または短い期間にわたって収集されます。
 
-広告主の [ クリックルックバックウィンドウ ](/help/search-social-commerce/glossary.md#c-d) および [ インプレッションルックバックウィンドウ ](/help/search-social-commerce/glossary.md#i-j) は、イベントをコンバージョンに関連付けることができる有料クリックまたは表示インプレッションが発生した後の日数を（それぞれ）決定します。 特にクリックから収益までの期間が短い、クリックから収益までの期間が長い、またはインプレッションから収益までの期間が長い広告主の場合、値をより長い、または短い期間に変更することが重要になる場合があります。
+広告主の [&#x200B; クリックルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#c-d) および [&#x200B; インプレッションルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j) は、イベントをコンバージョンに関連付けることができる有料クリックまたは表示インプレッションが発生した後の日数を（それぞれ）決定します。 特にクリックから収益までの期間が短い、クリックから収益までの期間が長い、またはインプレッションから収益までの期間が長い広告主の場合、値をより長い、または短い期間に変更することが重要になる場合があります。
 
 **ベストプラクティス：** ルックバックウィンドウがクリックして売上高を算出する時間よりも長いことを確認し、ほとんどのキーワードまたは広告でインプレッションから売上高を算出する時間を表示します。 短い場合、一部のコンバージョンは最初のクリックやインプレッションに関連付けられていません。
 +++
@@ -66,7 +66,7 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
 >[!NOTE]
 >
->この機能を使用してラベル分類ごとにデータを集計することはできません。 レポート内のラベル分類列は省略されます。 代わりに、[ ラベル分類レポート ](/help/search-social-commerce/reports/management/basic-advanced/label-classification-report.md) を使用してください。
+>この機能を使用してラベル分類ごとにデータを集計することはできません。 レポート内のラベル分類列は省略されます。 代わりに、[&#x200B; ラベル分類レポート &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/label-classification-report.md) を使用してください。
 
 +++
 
@@ -92,9 +92,9 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 +++合計は正しいにもかかわらず、個々のデータフィールドが正しくありません。
 この問題は、指標の形式で整数を使用する場合に発生する可能性があります。
 
-* [ 数値（小数点以下の桁数 ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) （データを整数として表示する）形式で *カスタム指標* を作成し、重み付けコンバージョンアトリビューションルール（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More] または [!UICONTROL Even Distribution]）を使用するビューやレポートに含めた場合、出力は小数ではなく整数で表示されます。 この場合、合計は正しいにもかかわらず、個々のデータ フィールドが正しくない可能性があります。 例えば、1 つの注文が 3 つのイベント間で均等に分割されている場合、3 つのイベントのそれぞれに 0.33 の注文ではなく 1 つの注文が関連付けられます。 この問題を解決するには、[ 指標の形式を変更 ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md) を *数値を小数点 2 に* に変更します。
+* [&#x200B; 数値（小数点以下の桁数 &#x200B;](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) （データを整数として表示する）形式で *カスタム指標* を作成し、重み付けコンバージョンアトリビューションルール（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More] または [!UICONTROL Even Distribution]）を使用するビューやレポートに含めた場合、出力は小数ではなく整数で表示されます。 この場合、合計は正しいにもかかわらず、個々のデータ フィールドが正しくない可能性があります。 例えば、1 つの注文が 3 つのイベント間で均等に分割されている場合、3 つのイベントのそれぞれに 0.33 の注文ではなく 1 つの注文が関連付けられます。 この問題を解決するには、[&#x200B; 指標の形式を変更 &#x200B;](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md) を *数値を小数点 2 に* に変更します。
 
-* 同様に、整数として送信される売上高指標がある場合も、同じ問題が発生します。 （売上高の形式は、データを送信するコンバージョンタグで制御されます）。 この問題を解決するには、[ カスタム指標を作成 ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) し、売上高指標のみを構成し、形式 *数値を 2 小数点に* し、元の指標ではなくビューやレポートに含めます。
+* 同様に、整数として送信される売上高指標がある場合も、同じ問題が発生します。 （売上高の形式は、データを送信するコンバージョンタグで制御されます）。 この問題を解決するには、[&#x200B; カスタム指標を作成 &#x200B;](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) し、売上高指標のみを構成し、形式 *数値を 2 小数点に* し、元の指標ではなくビューやレポートに含めます。
 +++
 
 +++クリックまたは売上高データがない場合、今後の入札に影響を与えないようにするにはどうすればよいですか？
@@ -112,7 +112,7 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
 * [!UICONTROL Last Event] または [!UICONTROL First Event] 以外のコンバージョンアトリビューションルールパラメーターを使用してレポートを実行した場合、売上高がコンバージョンパスの複数のイベントに分割される可能性があります。
 
-* [!UICONTROL Transaction Report] では、異なる一致タイプを持つ複数の [ 入札単位 ](/help/search-social-commerce/glossary.md#a-b) が同じトランザクション ID を持つ場合、トラッキング ID の売上高は、指定されたクリック日のクリック数に応じて分割されます。
+* [!UICONTROL Transaction Report] では、異なる一致タイプを持つ複数の [&#x200B; 入札単位 &#x200B;](/help/search-social-commerce/glossary.md#a-b) が同じトランザクション ID を持つ場合、トラッキング ID の売上高は、指定されたクリック日のクリック数に応じて分割されます。
 +++
 
 ## 標準パフォーマンス指標
@@ -169,7 +169,7 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
 *考えられる解決策または回避策：*
 
-1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、ユーザーまたはAdobe アカウントチームが [ コンバージョン指標をレポートで使用できるようにする ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) 必要があります。
+1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、ユーザーまたはAdobe アカウントチームが [&#x200B; コンバージョン指標をレポートで使用できるようにする &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) 必要があります。
 
 1. 該当するすべての web ページに、正しいコンバージョントラッキングタグが実装されていることを確認します。 必要に応じて、該当する各コンバージョントラッキングタグのテストトランザクションを作成し、`transactionid` や詳細などのトランザクションの詳細を cookie から取得するようにAdobe アカウントチームに依頼します（`trackingid`、`clickid` など）。
 
@@ -179,7 +179,7 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
    宛先 URL は、「http://pixel.everesttech.net」または「https://pixel.everesttech.net」で始める必要があります。
 
-1. これらの手順のいずれも問題を解決できない場合は、[ カスタマーケアへのお問い合わせ ](/help/search-social-commerce/get-help.md)。
+1. これらの手順のいずれも問題を解決できない場合は、[&#x200B; カスタマーケアへのお問い合わせ &#x200B;](/help/search-social-commerce/get-help.md)。
 
    クライアントがまだ起動されていないか、新しく起動された場合、カスタマーケアは収益パーサーが設定されているかどうかを確認します。 パーサーが設定されている場合、検索、ソーシャル、Commerceがピクセル変換を受け取っているかどうかを確認し、問題のトラブルシューティングを行います。
 
@@ -197,7 +197,7 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
 *考えられる解決策または回避策：*
 
-1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、ユーザーまたはAdobe アカウントチームが [ コンバージョン指標をレポートで使用できるようにする ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) 必要があります。
+1. レポートまたはデータビューに正しい列が含まれていることを確認します。 正しい列を追加できない場合は、ユーザーまたはAdobe アカウントチームが [&#x200B; コンバージョン指標をレポートで使用できるようにする &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) 必要があります。
 
 1. [!UICONTROL Portfolio Report] を実行します。 空の場合は、[!UICONTROL Campaign Report] と [!UICONTROL Search Engine Report] を実行して、売上高がそれらのレポートに表示されるかどうかを確認します。 その場合、キャンペーンを適切なポートフォリオに割り当てることができない可能性があります。
 
@@ -205,7 +205,7 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
    形式またはファイル命名規則が変更された場合は、ファイルを修正して再送信します。
 
-1. ファイルが送信された場合は、[ カスタマーケアへのお問い合わせ ](/help/search-social-commerce/get-help.md)。
+1. ファイルが送信された場合は、[&#x200B; カスタマーケアへのお問い合わせ &#x200B;](/help/search-social-commerce/get-help.md)。
 
    カスタマーケアは、ファイルを受け取って解析したかどうかを確認します。 ファイルがエラーなしで処理された場合は、孤立トランザクションをチェックします。
 +++
@@ -234,7 +234,7 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
    検索、ソーシャル、Commerceでは、`ef_transaction_properties` 変数内および `src` タグの `img` 要素内に、整形式の URL （名前と値のペアのパラメーターを含む）が必要です。
 
-1. 問題を特定して解決できない場合は、[ カスタマーケアにお問い合わせください ](/help/search-social-commerce/get-help.md)。
+1. 問題を特定して解決できない場合は、[&#x200B; カスタマーケアにお問い合わせください &#x200B;](/help/search-social-commerce/get-help.md)。
 
    カスタマーケアは、欠落しているトランザクションを特定し、孤立したトランザクションや広告に起因しないトランザクション（「相関のないコンバージョン」）をチェックしようとします。
 
@@ -258,9 +258,9 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
 1. フィードファイルのトランザクションがレポートに含まれていない場合は、同じトランザクション ID を持つオンライントランザクション（ピクセル経由で追跡）がオフライン変換の前に発生したかどうかを確認します。
 
-1. 問題を特定して解決できない場合は、[ カスタマーケアにお問い合わせください ](/help/search-social-commerce/get-help.md)。
+1. 問題を特定して解決できない場合は、[&#x200B; カスタマーケアにお問い合わせください &#x200B;](/help/search-social-commerce/get-help.md)。
 
-   カスタマーケアは、データ解析エラーおよび [ 孤立トランザクション ](/help/search-social-commerce/glossary.md#o-p) をチェックします。
+   カスタマーケアは、データ解析エラーおよび [&#x200B; 孤立トランザクション &#x200B;](/help/search-social-commerce/glossary.md#o-p) をチェックします。
 
 **他のタイプのコンバージョンデータフィードを使用する広告主**
 
@@ -270,7 +270,7 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
 * 広告主のページへのトラフィックは、広告からではなく、ブックマークまたはオーガニック検索から来ました。
 
-* [ 孤児トランザクション ](/help/search-social-commerce/glossary.md#o-p) があるので、検索、ソーシャル、Commerceでは、必要な売上高がすべてカウントされるわけではありません。
+* [&#x200B; 孤児トランザクション &#x200B;](/help/search-social-commerce/glossary.md#o-p) があるので、検索、ソーシャル、Commerceでは、必要な売上高がすべてカウントされるわけではありません。
 
 * 広告主は、フィードで送信されたデータセットとは異なるデータセットに対して、検索、ソーシャル、Commerceのレポートを検証しました。
 
@@ -288,7 +288,7 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 
 1. 一部のトランザクションに誤りがあるか、または欠落している場合は、a） フィードファイルに必要なトランザクション ID がすべて含まれ、重複したトラッキング ID が含まれていないこと、および b） トランザクション ID が一意で正しいことを確認します。
 
-1. 問題を特定して解決できない場合は、[ カスタマーケアにお問い合わせください ](/help/search-social-commerce/get-help.md)。
+1. 問題を特定して解決できない場合は、[&#x200B; カスタマーケアにお問い合わせください &#x200B;](/help/search-social-commerce/get-help.md)。
 
    カスタマーケアは、データ解析エラーと孤立トランザクションをチェックします。
 +++
@@ -328,17 +328,17 @@ Campaign エンティティレポート（[!UICONTROL Campaign Report]、[!UICON
 +++レポート出力には、日付範囲が混在しています。
 「[!UICONTROL Daily]」以外のデータ集計レベルを使用してフィードがデータを集計する場合は、日付範囲が異なることがあります。
 
-この問題を解決するには、スプレッドシートフィードを更新して、毎日集計されたデータを含めます。 このタスクには、レポート テンプレートの更新、テンプレートを使用したレポートの生成、レポートを使用したカスタム [!DNL Microsoft Excel] テンプレートの作成、および新しい Excel テンプレートを含めるためのフィード設定の更新が含まれます。 詳しくは、「[ スプレッドシートレポートフィード設定の編集 ](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md) を参照してください。
+この問題を解決するには、スプレッドシートフィードを更新して、毎日集計されたデータを含めます。 このタスクには、レポート テンプレートの更新、テンプレートを使用したレポートの生成、レポートを使用したカスタム [!DNL Microsoft Excel] テンプレートの作成、および新しい Excel テンプレートを含めるためのフィード設定の更新が含まれます。 詳しくは、「[&#x200B; スプレッドシートレポートフィード設定の編集 &#x200B;](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md) を参照してください。
 +++
 
 +++スプレッドシートフィードで内部エラーが発生する。
 このエラーは、レポートテンプレートの列を変更したが、それに応じて [!DNL Microsoft Excel] テンプレートを更新しなかった場合に発生する可能性があります。
 
-この問題を解決するには、新しい列を含めるようにスプレッドシートフィードを更新します。 このタスクには、レポート テンプレートの更新、テンプレートを使用したレポートの生成、レポートを使用したカスタム [!DNL Excel] テンプレートの作成、および新しい Excel テンプレートを含めるためのフィード設定の更新が含まれます。 詳しくは、「[ スプレッドシートレポートフィード設定の編集 ](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md) を参照してください。
+この問題を解決するには、新しい列を含めるようにスプレッドシートフィードを更新します。 このタスクには、レポート テンプレートの更新、テンプレートを使用したレポートの生成、レポートを使用したカスタム [!DNL Excel] テンプレートの作成、および新しい Excel テンプレートを含めるためのフィード設定の更新が含まれます。 詳しくは、「[&#x200B; スプレッドシートレポートフィード設定の編集 &#x200B;](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md) を参照してください。
 +++
 
 +++[!DNL Excel] でスプレッドシートフィードを開こうとすると、[!DNL Excel] で「読み取り不可能なコンテンツ」エラーが報告され、復元されたコンテンツからデータが削除されます。
 [!DNL Microsoft Excel] テンプレートで開始日の昇順でデータが並べ替えられていない場合、スプレッドシートフィードには空白行が含まれる場合があります。 特に、[!DNL Excel] は、「Excel で「&lt;*レポート名*>.xlsx に読み取り不可能なコンテンツが見つかりました」というエラーを報告します。 ブックの内容を復元しますか？ このブックの発行元が信頼できる場合は、[ はい ] をクリックしてください。 「はい」をクリックすると、「削除されたレコード：/xl/worksheets/sheet1.xml部分のセル情報」というメッセージが表示され、スプレッドシートフィードに空白行が含まれます。
 
-この問題を解決するには、フィードに関連付けられている [!DNL Excel] テンプレートを編集し、データを [!DNL Start date in Ascending (Oldest to Newest) order] で並べ替えてから、スプレッドシートフィードの設定を使用して更新されたテンプレートをアップロードします。 詳しくは、「[ スプレッドシートレポートフィードの編集 ](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md) を参照してください。
+この問題を解決するには、フィードに関連付けられている [!DNL Excel] テンプレートを編集し、データを [!DNL Start date in Ascending (Oldest to Newest) order] で並べ替えてから、スプレッドシートフィードの設定を使用して更新されたテンプレートをアップロードします。 詳しくは、「[&#x200B; スプレッドシートレポートフィードの編集 &#x200B;](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md) を参照してください。
 +++

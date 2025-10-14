@@ -18,13 +18,13 @@ ht-degree: 0%
 
 * フィールドの選択を変更し、ファイルを保存して、編集したバルクシートファイルをDSPにアップロードして戻します。
 
-* キャンペーンに追加のパッケージ、プレースメントまたは広告を変更するには、キャンペーンのバルクシートをダウンロードします。 更新した設定を入力またはファイルに貼り付け、ファイルをアップロードして変更します。 手順については、「[ バルクシートを使用した Campaign コンポーネント設定の確認と編集 ](/help/dsp/campaign-management/campaign-components-review-edit.md) を参照してください。
+* キャンペーンに追加のパッケージ、プレースメントまたは広告を変更するには、キャンペーンのバルクシートをダウンロードします。 更新した設定を入力またはファイルに貼り付け、ファイルをアップロードして変更します。 手順については、「[&#x200B; バルクシートを使用した Campaign コンポーネント設定の確認と編集 &#x200B;](/help/dsp/campaign-management/campaign-components-review-edit.md) を参照してください。
 
 編集可能なフィールドには、通常は編集可能なほとんどの設定が含まれています。
 
 >[!TIP]
 >
->1 つ以上のパッケージの複数のフィールドをすばやく編集するには、「[ パッケージの編集 ](/help/dsp/campaign-management/packages/package-edit.md) を参照してください。
+>1 つ以上のパッケージの複数のフィールドをすばやく編集するには、「[&#x200B; パッケージの編集 &#x200B;](/help/dsp/campaign-management/packages/package-edit.md) を参照してください。
 
 ## キャンペーン内のすべてのパッケージの設定をダウンロード
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
    * 通知メッセージで、「**[!UICONTROL Download].**」をクリックします。
 
-   * 上部のメニューバーの右側にある「![ ジョブ ](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
+   * 上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
 
      ファイルはブラウザーのダウンロードフォルダーに保存されます。<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -74,9 +74,9 @@ ht-degree: 0%
 
    * 通知メッセージで、「**[!UICONTROL Download].**」をクリックします。
 
-   * 上部のメニューバーの右側にある「![ ジョブ ](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
+   * 上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
 
-     ファイルはブラウザーのダウンロードフォルダーに保存されます。 含まれる列のリストについては、[ ダウンロードまたはアップロードされたバルクシートのプレースメント列 ](#qa-sheet-columns)」を参照してください。
+     ファイルはブラウザーのダウンロードフォルダーに保存されます。 含まれる列のリストについては、[&#x200B; ダウンロードまたはアップロードされたバルクシートのプレースメント列 &#x200B;](#qa-sheet-columns)」を参照してください。
 
      設定を編集するには、ファイルを直接編集してから、変更内容をアップロードします。 編集可能な列はすべて青でハイライト表示されます。 フィールドに正しい形式を使用するには、関連するパッケージ設定またはプレースメント設定から値を選択してコピーします。 日分割、カスタム目標、コンバージョン指標など、一部のターゲット設定では、設定内でコピーオプションを使用できます。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
    1. 「**[!UICONTROL Upload]**」をクリックします。
 
-1. （オプション）更新が処理されたことを確認するには、上部のメニューバーの右側にある ![ ジョブ ](/help/dsp/assets/downloads.png) をクリックします。
+1. （オプション）更新が処理されたことを確認するには、上部のメニューバーの右側にある ![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png) をクリックします。
 
 設定の更新に失敗した場合、色分けしたバルクシートエラーファイルをダウンロードすると、保存された設定（行）と失敗した設定（失敗した行）と、失敗した各設定の理由を表示できます。 その後、同じファイル内の問題に対処し、もう一度アップロードして、修正された情報を処理できます。
 
@@ -166,6 +166,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ バルクシートを使用した Campaign コンポーネント設定のレビューと編集 ](/help/dsp/campaign-management/campaign-components-review-edit.md)
->* [ パッケージの編集 ](/help/dsp/campaign-management/packages/package-edit.md)
->* [ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; バルクシートを使用した Campaign コンポーネント設定のレビューと編集 &#x200B;](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [&#x200B; パッケージの編集 &#x200B;](/help/dsp/campaign-management/packages/package-edit.md)
+>* [&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)

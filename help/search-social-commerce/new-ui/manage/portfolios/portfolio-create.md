@@ -17,11 +17,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* ポートフォリオの最適化を開始するには、ポートフォリオのステータスを [ 最適化 ](portfolio-about.md#portfolio-status) に変更します。
+>* ポートフォリオの最適化を開始するには、ポートフォリオのステータスを [&#x200B; 最適化 &#x200B;](portfolio-about.md#portfolio-status) に変更します。
 
 1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Portfolios]** をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Create Portfolio]**] または ![ 追加 ](/help/search-social-commerce/assets/add-new.png " 追加 ") をクリックします。
+1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Create Portfolio]**] または ![&#x200B; 追加 &#x200B;](/help/search-social-commerce/assets/add-new.png " 追加 ") をクリックします。
 
    表示されるボタンは、ブラウザーの幅によって異なります。
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ （新しい UI）ポートフォリオの編集 ](portfolio-edit.md)
->* [ （新しい UI）バルクシートファイルを使用したポートフォリオ設定の一括編集 ](portfolio-bulksheets.md)
->* [ （新しい UI）ポートフォリオの複製 ](portfolio-duplicate.md)
->* [ （新しい UI） ポートフォリオのパフォーマンスの詳細を表示 ](portfolio-details.md)
->* [ （新しい UI） [!UICONTROL Portfolios] ビューでのデータのダウンロード ](portfolio-view-report.md)
->* ポートフォリオに関する [ （新しい UI） ](portfolio-about.md)
+>* [&#x200B; （新しい UI）ポートフォリオの編集 &#x200B;](portfolio-edit.md)
+>* [&#x200B; （新しい UI）バルクシートファイルを使用したポートフォリオ設定の一括編集 &#x200B;](portfolio-bulksheets.md)
+>* [&#x200B; （新しい UI）ポートフォリオの複製 &#x200B;](portfolio-duplicate.md)
+>* [&#x200B; （新しい UI） ポートフォリオのパフォーマンスの詳細を表示 &#x200B;](portfolio-details.md)
+>* [&#x200B; （新しい UI） [!UICONTROL Portfolios] ビューでのデータのダウンロード &#x200B;](portfolio-view-report.md)
+>* ポートフォリオに関する [&#x200B; （新しい UI） &#x200B;](portfolio-about.md)

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!UICONTROL Notification Center] アプリケーションをインストールすると、ブラウザーのアプリケーションマネージャーで自動的に有効になり、別のウィンドウとして読み込まれ、ウィンドウサイズに基づいてレイアウトが動的に配置されます。 ブラウザのアプリケーション マネージャからアプリケーションを開いたり閉じたりするか、オペレーティング システムのタスク バーまたはドッキングに固定することができます。 アプリケーションが自動的に更新されます。
 
-![Microsoft Windows タスクバーの通知センターアイコン ](/help/search-social-commerce/assets/windows-taskbar.png "Microsoft Windows タスクバーの通知センターアイコン ")
+![Microsoft Windows タスクバーの通知センターアイコン &#x200B;](/help/search-social-commerce/assets/windows-taskbar.png "Microsoft Windows タスクバーの通知センターアイコン ")
 
 ブラウザーのアプリケーションマネージャーからアプリケーションを無効またはアンインストールできます。 Web アプリケーションの管理の詳細については、ブラウザのヘルプを参照してください。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。
 
-1. 右下の [![Notification Center Web App のインストール ](/help/search-social-commerce/assets/notifications-install-app.png "Notification Center Web App のインストール ")] をクリックします。
+1. 右下の [![Notification Center Web App のインストール &#x200B;](/help/search-social-commerce/assets/notifications-install-app.png "Notification Center Web App のインストール ")] をクリックします。
 
 1. 確認メッセージで、「**[!UICONTROL Add]**」をクリックします。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]**/**[!UICONTROL Insights & Reports]**/**[!UICONTROL Notification Center Beta]** をクリックします。
 
-   1. 右下の [![Notification Center Web App のインストール ](/help/search-social-commerce/assets/notifications-install-app.png "Notification Center Web App のインストール ")] をクリックします。
+   1. 右下の [![Notification Center Web App のインストール &#x200B;](/help/search-social-commerce/assets/notifications-install-app.png "Notification Center Web App のインストール ")] をクリックします。
 
    1. 確認メッセージで、「**[!UICONTROL Add]**」をクリックします。
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 通知について ](/help/search-social-commerce/notifications/notification-about.md)
->* [ 通知の表示 ](notification-view.md)
->* [ 通知を既読または未読としてマーク ](notification-mark-read-unread.md)
->* [ 通知の削除 ](notification-delete.md)
->* [ 通知設定の編集 ](notification-edit.md)
+>* [&#x200B; 通知について &#x200B;](/help/search-social-commerce/notifications/notification-about.md)
+>* [&#x200B; 通知の表示 &#x200B;](notification-view.md)
+>* [&#x200B; 通知を既読または未読としてマーク &#x200B;](notification-mark-read-unread.md)
+>* [&#x200B; 通知の削除 &#x200B;](notification-delete.md)
+>* [&#x200B; 通知設定の編集 &#x200B;](notification-edit.md)
 >* [[!UICONTROL Notification Center]](notifications-push-enable-disable.md) からのプッシュ通知の有効化と無効化

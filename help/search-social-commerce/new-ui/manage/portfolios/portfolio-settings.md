@@ -18,6 +18,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ポートフォリオの作成 ](portfolio-create.md)
->* [ （新しい UI）ポートフォリオの編集 ](portfolio-edit.md)
->* [ ポートフォリオについて ](portfolio-about.md)
+>* [&#x200B; ポートフォリオの作成 &#x200B;](portfolio-create.md)
+>* [&#x200B; （新しい UI）ポートフォリオの編集 &#x200B;](portfolio-edit.md)
+>* [&#x200B; ポートフォリオについて &#x200B;](portfolio-about.md)

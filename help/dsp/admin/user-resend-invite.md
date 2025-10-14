@@ -22,11 +22,11 @@ ht-degree: 0%
 
    * メインメニューで、**[!UICONTROL Settings]**/**[!UICONTROL Account]** をクリックし、**[!UICONTROL Edit users]** をクリックします。
 
-1. 「**招待状**」セクションで、「![ 再送信 ](/help/dsp/assets/resend.png)」をクリックします。
+1. 「**招待状**」セクションで、「![&#x200B; 再送信 &#x200B;](/help/dsp/assets/resend.png)」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ 組織アカウントの新しいユーザーを招待 ](user-invite.md)
->* [ 保留中のユーザーを登録解除 ](user-uninvite.md)
+>* [&#x200B; 組織アカウントの新しいユーザーを招待 &#x200B;](user-invite.md)
+>* [&#x200B; 保留中のユーザーを登録解除 &#x200B;](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

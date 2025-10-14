@@ -13,7 +13,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft Advertising]アカウントのみ*
 
-[[!DNL Microsoft Advertising]  拡張コンバージョン ](https://help.ads.microsoft.com/#apex/ads/en/60178) ファーストパーティのコンバージョンデータを使用して、ユーザーをオフラインコンバージョンにマッピングできます。 Web サイトのリードから生じた電話やメールによる売上高を追跡するなど、クリック ID を使用できない環境では、拡張コンバージョンを使用します。
+[[!DNL Microsoft Advertising]  拡張コンバージョン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178) ファーストパーティのコンバージョンデータを使用して、ユーザーをオフラインコンバージョンにマッピングできます。 Web サイトのリードから生じた電話やメールによる売上高を追跡するなど、クリック ID を使用できない環境では、拡張コンバージョンを使用します。
 
 検索、ソーシャル、Commerce内では、次のことができます。
 
@@ -29,9 +29,9 @@ ht-degree: 0%
 
 1. 「[Enhanced Conversions](https://help.ads.microsoft.com/#apex/ads/en/60178)」の [!DNL Microsoft Advertising] ヘルプで示されているすべての前提条件に従ってください。
 
-1. [ 内で拡張コンバージョン目標を設定します  [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/60178)。
+1. [&#x200B; 内で拡張コンバージョン目標を設定します  [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/60178)。
 
-1. 必要に応じて、ハッシュ化されたメールアドレスや電話番号などのファーストパーティデータを、指定したアカウントのコンバージョンに関連付けるためにアップロードします。 この手順は、[ 検索、ソーシャル、Commerce](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md) 内または [!DNL Microsoft Advertising] 内から実行できます。
+1. 必要に応じて、ハッシュ化されたメールアドレスや電話番号などのファーストパーティデータを、指定したアカウントのコンバージョンに関連付けるためにアップロードします。 この手順は、[&#x200B; 検索、ソーシャル、Commerce](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md) 内または [!DNL Microsoft Advertising] 内から実行できます。
 
    * 検索、ソーシャル、Commerce内で、[!DNL Microsoft Excel] 形式のテンプレートをダウンロードし、コンバージョンデータを入力して、ファイルをローカルに保存し、編集したファイルをアップロードできます。
 
@@ -41,4 +41,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ オフラインのコンバージョンデータをアップロードしてコンバージョンを強化 ](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
+>* [&#x200B; オフラインのコンバージョンデータをアップロードしてコンバージョンを強化 &#x200B;](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)

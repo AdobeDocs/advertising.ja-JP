@@ -32,22 +32,22 @@ ht-degree: 0%
 
 [!UICONTROL Placements] ダッシュボードは、すべてのプレースメントにわたってパフォーマンスと経済的なレポートを一元化し、指定した日付範囲でプレースメントがどのように実行されたかを示すクイックスナップショットを提供します。
 
-![ プレースメントダッシュボード ](/help/dsp/assets/placement-dashboard.png)
+![&#x200B; プレースメントダッシュボード &#x200B;](/help/dsp/assets/placement-dashboard.png)
 
 ダッシュボードには、3 つの指標を持つ、カスタマイズ可能な高レベルのトレンドグラフが含まれています。
 
 また、ダッシュボードには、デフォルトで、プレースメント別のペーシングおよび配信指標も表示されます。 オプションで、プレースメントのパフォーマンス指標を表示し、カスタム列セットを作成できます。 データテーブル全体を XLSM （マクロ対応 Excel スプレッドシート）形式のレポートとして、ブラウザーのデフォルトのダウンロードフォルダーにダウンロードできます。
 
-各プレースメントについて、パフォーマンス指標、ペーシングおよび配信指標、サイト別、広告別、在庫別のカスタム列セットや頻度指標を含む詳細ビュー（[ ジ [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md) ーニー）を開くことができます。 また、サイトの除外、広告の一時停止、取引の編集など、含まれているサイト、広告、在庫に対してクイックアクションを実行することもできます。 インスペクタを開くには、カーソルを配置行の上に置き、**[!UICONTROL More]** をクリックしてから、**[!UICONTROL Sites]**、**[!UICONTROL Ads]**、**[!UICONTROL Frequency]**、または **[!UICONTROL Inventory]** をクリックします。 [!UICONTROL Sites]、[!UICONTROL Ads]、[!UICONTROL Frequency] または [!UICONTROL Inventory] タブのデータを、XLSM 形式のレポートとして、ブラウザーのデフォルトのダウンロードフォルダーに書き出すことができます。
+各プレースメントについて、パフォーマンス指標、ペーシングおよび配信指標、サイト別、広告別、在庫別のカスタム列セットや頻度指標を含む詳細ビュー（[&#x200B; ジ [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md) ーニー）を開くことができます。 また、サイトの除外、広告の一時停止、取引の編集など、含まれているサイト、広告、在庫に対してクイックアクションを実行することもできます。 インスペクタを開くには、カーソルを配置行の上に置き、**[!UICONTROL More]** をクリックしてから、**[!UICONTROL Sites]**、**[!UICONTROL Ads]**、**[!UICONTROL Frequency]**、または **[!UICONTROL Inventory]** をクリックします。 [!UICONTROL Sites]、[!UICONTROL Ads]、[!UICONTROL Frequency] または [!UICONTROL Inventory] タブのデータを、XLSM 形式のレポートとして、ブラウザーのデフォルトのダウンロードフォルダーに書き出すことができます。
 
 >[!NOTE]
 >
->[ カスタムレポート ](/help/dsp/reports/report-about.md) を使用して、プレースメントレポートの内容と配信をさらにカスタマイズできます。
+>[&#x200B; カスタムレポート &#x200B;](/help/dsp/reports/report-about.md) を使用して、プレースメントレポートの内容と配信をさらにカスタマイズできます。
 
 >[!MORELIKETHIS]
 >
->* [ プレースメントの作成 ](placement-create.md)
->* [ プレースメントの入札乗数の管理 ](placement-manage-bid-multipliers.md)
->* [ プレースメントの変更ログを表示 ](placement-change-log.md)
->* [ プレースメント設定 ](placement-settings.md)
->* [ パフォーマンスのトラブルシューティング ](/help/dsp/optimization/troubleshooting-performance.md)
+>* [&#x200B; プレースメントの作成 &#x200B;](placement-create.md)
+>* [&#x200B; プレースメントの入札乗数の管理 &#x200B;](placement-manage-bid-multipliers.md)
+>* [&#x200B; プレースメントの変更ログを表示 &#x200B;](placement-change-log.md)
+>* [&#x200B; プレースメント設定 &#x200B;](placement-settings.md)
+>* [&#x200B; パフォーマンスのトラブルシューティング &#x200B;](/help/dsp/optimization/troubleshooting-performance.md)

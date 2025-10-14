@@ -42,15 +42,15 @@ ht-degree: 0%
 
    1. （[!DNL Google] または [!DNL Flashtalking] タグを使用したユニバーサルビデオ広告）「**[!UICONTROL Ad Type]**」フィールドをクリックし、「**[!UICONTROL Universal Video]**」を選択します。
 
-   1. （ユニバーサルビデオ広告）新しい広告ごとに ![ 編集 ](/help/dsp/assets/edit.png) をクリックし、[ 該当するビデオ形式 ](/help/dsp/campaign-management/ads/ad-settings-universal-video.md) を選択して **保存** をクリックします。
+   1. （ユニバーサルビデオ広告）新しい広告ごとに ![&#x200B; 編集 &#x200B;](/help/dsp/assets/edit.png) をクリックし、[&#x200B; 該当するビデオ形式 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-universal-video.md) を選択して **保存** をクリックします。
 
    1. アップロードされたタグの検証チェックに基づいて、各広告のステータスを確認します。
 
    1. （オプション）各広告に対して次のいずれかの操作をおこないます。
 
-      * 広告をプレビューするには、広告行にある ![ 再生 ](/help/dsp/assets/play.png) をクリックします。
+      * 広告をプレビューするには、広告行にある ![&#x200B; 再生 &#x200B;](/help/dsp/assets/play.png) をクリックします。
 
-      * 広告の詳細を編集するには、[![ 編集 ](/help/dsp/assets/edit.png)] をクリックし、詳細を編集して、[**保存**] をクリックします。
+      * 広告の詳細を編集するには、[![&#x200B; 編集 &#x200B;](/help/dsp/assets/edit.png)] をクリックし、詳細を編集して、[**保存**] をクリックします。
 
       * 広告を削除するには、広告行の **[!UICONTROL X]** をクリックします。
 
@@ -74,8 +74,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Ad Management について ](ad-about.md)
->* [ 広告仕様 ](ad-specs.md)
->* [ 単一の広告の作成 ](ad-create.md)
->* [ ビデオ：サードパーティの広告タグを一括アップロードする方法 ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=ja)
->* [ ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Ad Management について &#x200B;](ad-about.md)
+>* [&#x200B; 広告仕様 &#x200B;](ad-specs.md)
+>* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
+>* [&#x200B; ビデオ：サードパーティの広告タグを一括アップロードする方法 &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=ja)
+>* [&#x200B; ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)

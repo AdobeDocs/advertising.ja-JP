@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ パブリッシャーのレコメンデーションとインサイトのサポートについて ](recommendation-support.md)
->* [ パブリッシャーの推奨事項とパフォーマンスインサイトを表示する ](recommendation-view.md)
->* [ パブリッシャーのレコメンデーションの適用または解除 ](recommendation-apply-dismiss.md)
->* [ アカウントの公開者レコメンデーションログの表示 ](recommendation-view-log.md)
+>* [&#x200B; パブリッシャーのレコメンデーションとインサイトのサポートについて &#x200B;](recommendation-support.md)
+>* [&#x200B; パブリッシャーの推奨事項とパフォーマンスインサイトを表示する &#x200B;](recommendation-view.md)
+>* [&#x200B; パブリッシャーのレコメンデーションの適用または解除 &#x200B;](recommendation-apply-dismiss.md)
+>* [&#x200B; アカウントの公開者レコメンデーションログの表示 &#x200B;](recommendation-view-log.md)

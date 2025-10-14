@@ -17,7 +17,7 @@ ht-degree: 0%
 
       * すべての必要なクリエイティブバンドルを含めずにエクスペリエンスを保存するには、「保存」をクリック **[!UICONTROL Save as Draft]** ます。
 
-        [ ドラフト ](/help/creative/experiences/experience-about.md#experience-statuses) エクスペリエンス用の広告タグは作成できません。
+        [&#x200B; ドラフト &#x200B;](/help/creative/experiences/experience-about.md#experience-statuses) エクスペリエンス用の広告タグは作成できません。
 
          * クリエイティブバンドルをまだ割り当てていない各ターゲットにデフォルトのクリエイティブを割り当てるには、「割り当 **[!UICONTROL Assign Default Creatives]**」をクリックします。 デフォルトのクリエイティブが割り当てられた、更新されたツリーを確認したら、「**[!UICONTROL Save]**」をクリックして **[!UICONTROL OK]** をクリックします。
 

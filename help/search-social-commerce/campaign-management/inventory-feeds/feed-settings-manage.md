@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Settings]**] をクリックします。
 
-1. [ フィードデータ設定 ](#feed-data-settings) を指定します。
+1. [&#x200B; フィードデータ設定 &#x200B;](#feed-data-settings) を指定します。
 
    1. 「[!UICONTROL Obsolete Item Auto-Processing]」セクションで、フィールド内の情報を選択します。
 
@@ -112,6 +112,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 在庫フィードについて ](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
->* [ テンプレートを使用したフィードデータの伝播 ](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
->* [ フィードから広告ネットワークにキャンペーンデータを投稿する ](propagated-data-post.md)
+>* [&#x200B; 在庫フィードについて &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
+>* [&#x200B; テンプレートを使用したフィードデータの伝播 &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
+>* [&#x200B; フィードから広告ネットワークにキャンペーンデータを投稿する &#x200B;](propagated-data-post.md)

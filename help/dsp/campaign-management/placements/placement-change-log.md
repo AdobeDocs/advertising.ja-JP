@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. （オプション）次のいずれかの操作をおこないます。
 
-   * データの表示を、テーブル形式のみと、テーブル形式とグラフ形式の両方で切り替えるには、![ テーブルとグラフの表示 ](/help/dsp/assets/table-plus-chart-view.png " テーブルとグラフの表示 ")、または右上のツールバーにある ![テーブル表示](/help/dsp/assets/table-view.png "テーブル表示") をクリックします。
+   * データの表示を、テーブル形式のみと、テーブル形式とグラフ形式の両方で切り替えるには、![&#x200B; テーブルとグラフの表示 &#x200B;](/help/dsp/assets/table-plus-chart-view.png " テーブルとグラフの表示 ")、または右上のツールバーにある ![テーブル表示](/help/dsp/assets/table-view.png "テーブル表示") をクリックします。
 
    * エントリにメモを追加するには、行の [!UICONTROL Notes] 列にカーソルを置き、[**[!UICONTROL Add Notes]**] をクリックします。 入力フィールドにテキストを入力し、「**[!UICONTROL Save]**」をクリックします。
 
@@ -35,10 +35,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プレースメント管理について ](placement-about.md)
->* [ プレースメントの作成 ](placement-create.md)
->* [ プレースメントを編集 ](placement-edit.md)
->* [ プレースメントの複製 ](placement-duplicate.md)
->* [ プレースメントの広告スケジュールの編集 ](placement-edit-ad-schedule.md)
->* [ プレースメントの非アクティブ化またはアクティブ化 ](placement-pause-activate.md)
->* [ プレースメント設定 ](placement-settings.md)
+>* [&#x200B; プレースメント管理について &#x200B;](placement-about.md)
+>* [&#x200B; プレースメントの作成 &#x200B;](placement-create.md)
+>* [&#x200B; プレースメントを編集 &#x200B;](placement-edit.md)
+>* [&#x200B; プレースメントの複製 &#x200B;](placement-duplicate.md)
+>* [&#x200B; プレースメントの広告スケジュールの編集 &#x200B;](placement-edit-ad-schedule.md)
+>* [&#x200B; プレースメントの非アクティブ化またはアクティブ化 &#x200B;](placement-pause-activate.md)
+>* [&#x200B; プレースメント設定 &#x200B;](placement-settings.md)

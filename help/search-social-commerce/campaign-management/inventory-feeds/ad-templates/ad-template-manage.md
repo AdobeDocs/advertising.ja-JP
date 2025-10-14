@@ -16,7 +16,7 @@ ht-degree: 0%
 
 データをアップロードする前または後に、データを処理できる検索エンジン固有の広告テンプレートを作成できます。 テキスト広告や拡張/拡張テキスト広告、[!DNL Google Ads] および [!DNL Microsoft Advertising] レスポンシブ検索広告、[!DNL Google Ads] および [!DNL Microsoft Advertising] のショッピング広告用のテンプレートを作成できます。
 
-各テンプレートを 1 つのフィードファイル、[!DNL Google Merchant Center] のアカウントまたは [!DNL Microsoft Merchant Center] のアカウントに関連付けることができます。また、複数のテンプレートを同じフィードファイルまたはアカウントに関連付けることもできます。 広告テンプレートには、アップロードされたファイルまたはアカウントの実際のデータ列で置き換えられた変数を含めることができます。 ほとんどの場合、変数には [ モディファイアグループ ](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) も含めることができます。検索、ソーシャル、Commerceで設定して、データファイルの該当する行ごとに複数の広告、キーワード、キャンペーンまたは広告グループを作成します。 テンプレートオプションを使用すると、広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成したり、広告を既存のアカウント構造にマッピングしたりできます。
+各テンプレートを 1 つのフィードファイル、[!DNL Google Merchant Center] のアカウントまたは [!DNL Microsoft Merchant Center] のアカウントに関連付けることができます。また、複数のテンプレートを同じフィードファイルまたはアカウントに関連付けることもできます。 広告テンプレートには、アップロードされたファイルまたはアカウントの実際のデータ列で置き換えられた変数を含めることができます。 ほとんどの場合、変数には [&#x200B; モディファイアグループ &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) も含めることができます。検索、ソーシャル、Commerceで設定して、データファイルの該当する行ごとに複数の広告、キーワード、キャンペーンまたは広告グループを作成します。 テンプレートオプションを使用すると、広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成したり、広告を既存のアカウント構造にマッピングしたりできます。
 
 新しいテンプレートをゼロから作成する以外にも、既存のテンプレートを複製して新しいテンプレートを作成したり、既存のテンプレートを編集したりできます。
 
@@ -40,9 +40,9 @@ ht-degree: 0%
 
       1. データ テーブルの上にあるツールバーで、[**[!UICONTROL Create/Clone]**] をクリックし、該当する広告ネットワークを選択します。
 
-   * （既存のテンプレートを編集する場合）テンプレート名の横にある ![ 設定を表示/編集 ](/help/search-social-commerce/assets/settings.png " 設定を表示/編集 ") をクリックします。
+   * （既存のテンプレートを編集する場合）テンプレート名の横にある ![&#x200B; 設定を表示/編集 &#x200B;](/help/search-social-commerce/assets/settings.png " 設定を表示/編集 ") をクリックします。
 
-1. [ テキスト広告テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)、[[!DNL Google Ads]  ショッピング広告テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md) または [[!DNL Microsoft Advertising]  ショッピング広告テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md) の設定を指定します。
+1. [&#x200B; テキスト広告テンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)、[[!DNL Google Ads]  ショッピング広告テンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md) または [[!DNL Microsoft Advertising]  ショッピング広告テンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md) の設定を指定します。
 
    1. テンプレート設定ウィンドウの上部で、テンプレート名と該当するアカウントを指定します。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    1. （オプション）左の列で、テンプレートを通じてデータが伝播される商品フィードファイルまたはマーチャントセンターアカウントを指定します。
 
-      * （製品フィードファイルの場合）以前にアップロードしたファイルを選択するには、![ 下向き矢印 ](/help/search-social-commerce/assets/arrow-down-dropdown.png " 下向き矢印 ") をクリックし、使用可能なフィードファイルのリストからファイルを選択します。 新しいファイルをアップロードするには、フル パスとファイル名を入力するか、[**[!UICONTROL Browse]**] をクリックしてデバイスまたはネットワーク上のファイルを探し、[**[!UICONTROL Upload]**] をクリックして、ファイルを指定します。
+      * （製品フィードファイルの場合）以前にアップロードしたファイルを選択するには、![&#x200B; 下向き矢印 &#x200B;](/help/search-social-commerce/assets/arrow-down-dropdown.png " 下向き矢印 ") をクリックし、使用可能なフィードファイルのリストからファイルを選択します。 新しいファイルをアップロードするには、フル パスとファイル名を入力するか、[**[!UICONTROL Browse]**] をクリックしてデバイスまたはネットワーク上のファイルを探し、[**[!UICONTROL Upload]**] をクリックして、ファイルを指定します。
 
       * （同期されたマーチャントセンターアカウントの場合）アカウント名を選択します。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
       >* 標準テキスト広告テンプレートあたり最大 4 つの広告バリエーションテンプレート、拡張/拡張テキスト広告テンプレートあたり 5 つの広告バリエーションテンプレート、レスポンシブ検索広告テンプレートあたり 3 つの広告バリエーションテンプレートを含めることができます。
       >* 各広告グループには、最大 3 つの有効なレスポンシブ検索広告を含めることができます。
       >* 既存の標準テキスト広告のバリエーションを編集することはできず、既存のテンプレートは標準テキスト広告を生成しなくなりました。
-      >* 広告バリエーションテンプレートを変更すると、（広告タイプと広告ネットワークに応じて [ テンプレートを介してデータを伝播する際に、既存の広告が削除され、新しい広告が作成される場合があ ](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md) ます。
+      >* 広告バリエーションテンプレートを変更すると、（広告タイプと広告ネットワークに応じて [&#x200B; テンプレートを介してデータを伝播する際に、既存の広告が削除され、新しい広告が作成される場合があ &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md) ます。
 
       * 広告バリエーションを追加するには、次の手順を実行します。
 
@@ -155,8 +155,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 在庫フィードを使用した広告管理の自動化について ](../inventory-feeds-about.md)
->* [ テキスト広告とレスポンシブ検索広告のテンプレート設定 ](template-text-rsa.md)
->* [[!DNL Google Ads]  ショッピング広告テンプレートの設定 ](template-google-shopping.md)
->* [[!DNL Microsoft Advertising]  ショッピング広告テンプレートの設定 ](template-microsoft-shopping.md)
->* [ テンプレートを使用したフィードデータの伝播 ](../feed-data-propagate.md)
+>* [&#x200B; 在庫フィードを使用した広告管理の自動化について &#x200B;](../inventory-feeds-about.md)
+>* [&#x200B; テキスト広告とレスポンシブ検索広告のテンプレート設定 &#x200B;](template-text-rsa.md)
+>* [[!DNL Google Ads]  ショッピング広告テンプレートの設定 &#x200B;](template-google-shopping.md)
+>* [[!DNL Microsoft Advertising]  ショッピング広告テンプレートの設定 &#x200B;](template-microsoft-shopping.md)
+>* [&#x200B; テンプレートを使用したフィードデータの伝播 &#x200B;](../feed-data-propagate.md)

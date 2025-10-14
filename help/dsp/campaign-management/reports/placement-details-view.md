@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # プレースメントのサイト、広告、頻度、在庫の詳細を表示する
 
-プレースメントごとに [ （詳細ビュー [!UICONTROL Inspector]）を開く） ](placement-details-view.md) ことができます。このリストには、プレースメント内のすべてのターゲットサイト、広告および取引がリストされます。 また、プレースメントの頻度データも含まれます。 オプションで、任意のタブからデータを書き出すこともできます。
+プレースメントごとに [&#x200B; （詳細ビュー [!UICONTROL Inspector]）を開く） &#x200B;](placement-details-view.md) ことができます。このリストには、プレースメント内のすべてのターゲットサイト、広告および取引がリストされます。 また、プレースメントの頻度データも含まれます。 オプションで、任意のタブからデータを書き出すこともできます。
 
-![ 配置検査員 ](/help/dsp/assets/placement-inspector.png)
+![&#x200B; 配置検査員 &#x200B;](/help/dsp/assets/placement-inspector.png)
 
 ## プレースメント [!UICONTROL Inspector] ージ内の情報 {#placement-inspector}
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Inventory]:** プレースメントによってターゲットとされるすべての取引に関する情報。
 
-  「[!UICONTROL Inventory]」タブでは、[!UICONTROL Auctions]、[!UICONTROL Bids]、[!UICONTROL Win Rate] などのパフォーマンス統計を表示して、迅速なトラブルシューティングを可能にします。 このタブには、検索機能とフィルター機能、メインページで使用できるのと同じ標準およびカスタム列表示オプション、各行に含まれるクイックアクションボタン（さらにトラブルシューティングを行うための [!UICONTROL Edit]、[!UICONTROL View Report]、[[!UICONTROL Auction Insights] など）が含まれ ](/help/dsp/inventory/private-deal-auction-insights.md) す。
+  「[!UICONTROL Inventory]」タブでは、[!UICONTROL Auctions]、[!UICONTROL Bids]、[!UICONTROL Win Rate] などのパフォーマンス統計を表示して、迅速なトラブルシューティングを可能にします。 このタブには、検索機能とフィルター機能、メインページで使用できるのと同じ標準およびカスタム列表示オプション、各行に含まれるクイックアクションボタン（さらにトラブルシューティングを行うための [!UICONTROL Edit]、[!UICONTROL View Report]、[[!UICONTROL Auction Insights] など）が含まれ &#x200B;](/help/dsp/inventory/private-deal-auction-insights.md) す。
 
 ## [!UICONTROL Placement Inspector] を開きます {#inspector-open}
 
@@ -60,9 +60,9 @@ ht-degree: 0%
 
 1. 配置行の上にカーソルを置き、**[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]** をクリックします。
 
-1. （任意） [ 列表示を変更 ](campaign-data-views-manage.md#column-view-change) 必要に応じて、必要な指標を表示します。
+1. （任意） [&#x200B; 列表示を変更 &#x200B;](campaign-data-views-manage.md#column-view-change) 必要に応じて、必要な指標を表示します。
 
-1. （オプション）任意のタブのデータをエクスポートするには、右上の ![ その他 ](/help/search-social-commerce/assets/more.png " をクリックし ") [ その他 ] をクリックしてから、[**[!UICONTROL Export]**] をクリックします。
+1. （オプション）任意のタブのデータをエクスポートするには、右上の ![&#x200B; その他 &#x200B;](/help/search-social-commerce/assets/more.png " をクリックし ") [ その他 ] をクリックしてから、[**[!UICONTROL Export]**] をクリックします。
 
    データは、XLSM 形式のレポートとして、ブラウザーのデフォルトのダウンロードフォルダーに保存されます。
 
@@ -90,5 +90,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ キャンペーン管理ビューでのパフォーマンスレポートのタイプ ](campaign-reports-about.md)
->* [ キャンペーンデータビューの管理 ](campaign-data-views-manage.md)
+>* [&#x200B; キャンペーン管理ビューでのパフォーマンスレポートのタイプ &#x200B;](campaign-reports-about.md)
+>* [&#x200B; キャンペーンデータビューの管理 &#x200B;](campaign-data-views-manage.md)

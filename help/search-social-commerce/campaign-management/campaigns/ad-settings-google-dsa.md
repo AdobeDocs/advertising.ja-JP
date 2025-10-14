@@ -14,7 +14,7 @@ ht-degree: 0%
 
 動的検索広告（DSA）は、検索専用キャンペーンの [!DNL Google Ads] の検索動的広告グループでのみ使用できます。 広告ネットワークは、ヘッドラインを動的に生成し、動的検索広告のランディングページと表示 URL を選択してから、最終的な URL を自動的に生成します。
 
-[ アカウントごとの広告制限 ](https://support.google.com/google-ads/answer/6372658?hl=en) については、Google Ads のヘルプを参照してください。
+[&#x200B; アカウントごとの広告制限 &#x200B;](https://support.google.com/google-ads/answer/6372658?hl=en) については、Google Ads のヘルプを参照してください。
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 広告について ](ad-about.md)
->* [ 広告の管理 ](ad-manage.md)
->* [[!DNL Google Ads]  呼び出し専用広告設定 ](ad-settings-google-call.md)
->* [[!DNL Google Ads]  レスポンシブ検索広告設定 ](ad-settings-google-rsa.md)
+>* [&#x200B; 広告について &#x200B;](ad-about.md)
+>* [&#x200B; 広告の管理 &#x200B;](ad-manage.md)
+>* [[!DNL Google Ads]  呼び出し専用広告設定 &#x200B;](ad-settings-google-call.md)
+>* [[!DNL Google Ads]  レスポンシブ検索広告設定 &#x200B;](ad-settings-google-rsa.md)

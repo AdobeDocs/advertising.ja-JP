@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]** をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
+1. データ テーブルの上にあるツールバーで、[![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
 1. 広告ネットワークとアカウント名を選択し、「**[!UICONTROL Continue]**」をクリックします。
 
@@ -42,9 +42,9 @@ ht-degree: 0%
 
       1. （任意）キャンペーンをその子広告グループとして展開するには、キャンペーン名をクリックします。
 
-      1. （オプション）名前に含まれているテキスト文字列でキャンペーンリストまたは広告グループリストをフィルタリングするには、![ フィルター ](/help/search-social-commerce/assets/filter.png " フィルター ") をクリックして、テキスト文字列を入力または入力フィールドに貼り付けて、**[!UICONTROL Enter]** キーを押します。
+      1. （オプション）名前に含まれているテキスト文字列でキャンペーンリストまたは広告グループリストをフィルタリングするには、![&#x200B; フィルター &#x200B;](/help/search-social-commerce/assets/filter.png " フィルター ") をクリックして、テキスト文字列を入力または入力フィールドに貼り付けて、**[!UICONTROL Enter]** キーを押します。
 
-      1. 青いチェックマーク（![ 選択 ](/help/search-social-commerce/assets/include.png " 選択 ")）が表示されるように、隣接する空の円をクリックして、指定した広告ネットワークの各キャンペーンおよび広告グループのターゲットを指定します。
+      1. 青いチェックマーク（![&#x200B; 選択 &#x200B;](/help/search-social-commerce/assets/include.png " 選択 ")）が表示されるように、隣接する空の円をクリックして、指定した広告ネットワークの各キャンペーンおよび広告グループのターゲットを指定します。
 
       （ターゲットを自動的に使用する）親キャンペーンと子広告グループの両方にターゲットを設定することはできません。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Bid Adjustment]** 列内をクリックし、値を入力します。
 
-   * ターゲット行の横にあるチェックボックスをオンにします。 ツールバーの ![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ") をクリックし、入札修飾子を入力して「**[!UICONTROL Post]**」をクリックします。
+   * ターゲット行の横にあるチェックボックスをオンにします。 ツールバーの ![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ") をクリックし、入札修飾子を入力して「**[!UICONTROL Post]**」をクリックします。
 
    値には、次のものが含まれます。
 
@@ -80,9 +80,9 @@ ht-degree: 0%
 
       1. 編集する各ターゲットの横にあるチェックボックスをオンにします。
 
-         複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+         複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-      1. データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")] をクリックします。
+      1. データ テーブルの上にあるツールバーで、[![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ")] をクリックします。
 
       1. 「**[!UICONTROL Bid Modifier]**」フィールドや「**[!UICONTROL Status]**」フィールドを編集します。
 
@@ -112,17 +112,17 @@ ht-degree: 0%
 
 1. ステータスを変更する各オーディエンスターゲットの横にあるチェックボックスを選択します。
 
-   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+   複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
 1. ツールバーの「ステータス」ボタンをクリックします。
 
-   * 行をアクティブにするには、「![ アクティブ化 ](/help/search-social-commerce/assets/activate.png " アクティブ化 ")」をクリックします。
+   * 行をアクティブにするには、「![&#x200B; アクティブ化 &#x200B;](/help/search-social-commerce/assets/activate.png " アクティブ化 ")」をクリックします。
 
-   * 行を一時停止するには、「![ 一時停止 ](/help/search-social-commerce/assets/pause.png " 一時停止 ")」をクリックします。
+   * 行を一時停止するには、「![&#x200B; 一時停止 &#x200B;](/help/search-social-commerce/assets/pause.png " 一時停止 ")」をクリックします。
 
-   * 行を削除するには、「![ その他のアクション ](/help/search-social-commerce/assets/more.png " その他のアクション ")」をクリックし、**[!UICONTROL Delete]** を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
+   * 行を削除するには、「![&#x200B; その他のアクション &#x200B;](/help/search-social-commerce/assets/more.png " その他のアクション ")」をクリックし、**[!UICONTROL Delete]** を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ オーディエンスについて ](audience-about.md)
->* [ キャンペーンおよび広告グループのオーディエンス除外の管理 ](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
+>* [&#x200B; オーディエンスについて &#x200B;](audience-about.md)
+>* [&#x200B; キャンペーンおよび広告グループのオーディエンス除外の管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)

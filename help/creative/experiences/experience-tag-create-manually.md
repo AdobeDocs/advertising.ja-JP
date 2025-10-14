@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *デシジョンツリーのターゲット設定を使用しないエクスペリエンスのみ*
 
-エクスペリエンスに使用するクリエイティブサイズ（非ビデオクリエイティブ）またはビデオ時間ごとに、言語ごとに 1 つ以上の広告タグを作成できます。 後から [ クリエイティブを広告タグに割り当てる ](experience-tag-assign-creatives.md) ことができます。
+エクスペリエンスに使用するクリエイティブサイズ（非ビデオクリエイティブ）またはビデオ時間ごとに、言語ごとに 1 つ以上の広告タグを作成できます。 後から [&#x200B; クリエイティブを広告タグに割り当てる &#x200B;](experience-tag-assign-creatives.md) ことができます。
 
 >[!NOTE]
 >
@@ -40,13 +40,13 @@ ht-degree: 0%
 
    タグ行を展開すると、含まれているクリエイティブを確認できます。
 
-   ビデオ広告エクスペリエンスの場合、ビデオクリエイティブは、Adobe Advertising DSP エンコーディングを使用して VAST 2.0 タグとして自動的にトランスコードされるので、プレビューできます。 オプションで [ 別のDSP用にトランスコーディングを適用する ](experience-tag-video-transcoding.md) ことができます。
+   ビデオ広告エクスペリエンスの場合、ビデオクリエイティブは、Adobe Advertising DSP エンコーディングを使用して VAST 2.0 タグとして自動的にトランスコードされるので、プレビューできます。 オプションで [&#x200B; 別のDSP用にトランスコーディングを適用する &#x200B;](experience-tag-video-transcoding.md) ことができます。
 
 >[!MORELIKETHIS]
 >
->* [ ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て ](experience-tag-assign-creatives.md)
->* [ ターゲット設定を行わないエクスペリエンス用のトラッキング URL のカスタマイズ ](experience-tracking-urls-no-targeting.md)
->* [ ターゲティングを行わないエクスペリエンスのクリエイティブな最適化とスケジュールのカスタマイズ ](experience-optimization-scheduling-no-targeting.md)
->* [ ビデオ広告エクスペリエンスタグのトランスコーディングオプションのカスタマイズ ](experience-tag-video-transcoding.md)
->* [ ライブエクスペリエンス用の広告エクスペリエンスタグのエクスポートと実装 ](experience-tag-export.md)
->* [ 広告タグの名前を変更 ](experience-tag-rename.md)
+>* [&#x200B; ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て &#x200B;](experience-tag-assign-creatives.md)
+>* [&#x200B; ターゲット設定を行わないエクスペリエンス用のトラッキング URL のカスタマイズ &#x200B;](experience-tracking-urls-no-targeting.md)
+>* [&#x200B; ターゲティングを行わないエクスペリエンスのクリエイティブな最適化とスケジュールのカスタマイズ &#x200B;](experience-optimization-scheduling-no-targeting.md)
+>* [&#x200B; ビデオ広告エクスペリエンスタグのトランスコーディングオプションのカスタマイズ &#x200B;](experience-tag-video-transcoding.md)
+>* [&#x200B; ライブエクスペリエンス用の広告エクスペリエンスタグのエクスポートと実装 &#x200B;](experience-tag-export.md)
+>* [&#x200B; 広告タグの名前を変更 &#x200B;](experience-tag-rename.md)

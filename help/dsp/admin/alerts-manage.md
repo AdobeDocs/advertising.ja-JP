@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * 購読のアラートを編集するには：
 
-   1. サブスクリプション名の右側にある ![ 編集 ](/help/dsp/assets/edit.png) をクリックします。
+   1. サブスクリプション名の右側にある ![&#x200B; 編集 &#x200B;](/help/dsp/assets/edit.png) をクリックします。
 
    1. アラートパラメーターを編集します。
 
@@ -84,4 +84,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[ アラート購読について ](alerts-about.md)
+>[&#x200B; アラート購読について &#x200B;](alerts-about.md)

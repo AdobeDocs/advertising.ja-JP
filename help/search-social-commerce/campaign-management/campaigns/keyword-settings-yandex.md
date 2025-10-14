@@ -43,4 +43,4 @@ Yandex キーワードは、検索と表示（コンテンツ）ネットワー�
 
 >[!MORELIKETHIS]
 >
->* [ キーワードの管理 ](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [&#x200B; キーワードの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

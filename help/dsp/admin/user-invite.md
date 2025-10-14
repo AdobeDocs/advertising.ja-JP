@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 保留中のユーザー招待を再送信する ](user-resend-invite.md)
->* [ 保留中のユーザーを登録解除 ](user-uninvite.md)
+>* [&#x200B; 保留中のユーザー招待を再送信する &#x200B;](user-resend-invite.md)
+>* [&#x200B; 保留中のユーザーを登録解除 &#x200B;](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

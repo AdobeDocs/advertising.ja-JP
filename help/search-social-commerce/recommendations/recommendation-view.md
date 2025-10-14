@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 行の [!UICONTROL Actions] 列で、「**[!UICONTROL View]**」をクリックします。 レコメンデーションにサブレコメンデーションがある場合は、サブレコメンデーションの横にある「**[!UICONTROL View]**」をクリックします。
 
-   オプションで、広告ネットワークのレコメンデーションを [ 適用または解除 ](recommendation-apply-dismiss.md) できます。
+   オプションで、広告ネットワークのレコメンデーションを [&#x200B; 適用または解除 &#x200B;](recommendation-apply-dismiss.md) できます。
 
 ## [!DNL Microsoft Advertising] のパフォーマンスインサイトを表示
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ パブリッシャーのレコメンデーションとインサイトのサポートについて ](recommendation-support.md)
->* [ パブリッシャーのレコメンデーションの適用または解除 ](recommendation-apply-dismiss.md)
->* [ アカウントの公開者レコメンデーションログの表示 ](recommendation-view-log.md)
->* [ パブリッシャーのレコメンデーションをポートフォリオで使用する際のベストプラクティス ](recommendation-best-practices.md)
+>* [&#x200B; パブリッシャーのレコメンデーションとインサイトのサポートについて &#x200B;](recommendation-support.md)
+>* [&#x200B; パブリッシャーのレコメンデーションの適用または解除 &#x200B;](recommendation-apply-dismiss.md)
+>* [&#x200B; アカウントの公開者レコメンデーションログの表示 &#x200B;](recommendation-view-log.md)
+>* [&#x200B; パブリッシャーのレコメンデーションをポートフォリオで使用する際のベストプラクティス &#x200B;](recommendation-best-practices.md)

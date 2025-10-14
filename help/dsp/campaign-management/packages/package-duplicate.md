@@ -67,8 +67,8 @@ ht-degree: 0%
 
 >[!TIP]
 >
->* バルクシートを使用して [ 複数の Campaign コンポーネントを一度に変更 ](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
->* 広告タグシートを使用して [ 複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
+>* バルクシートを使用して [&#x200B; 複数の Campaign コンポーネントを一度に変更 &#x200B;](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
+>* 広告タグシートを使用して [&#x200B; 複数のサードパーティ広告をアップロード &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
 
 * 新しいパッケージをアクティブ化する準備ができるまで一時停止します。
 
@@ -90,12 +90,12 @@ ht-degree: 0%
 
    * 必要に応じて、[!UICONTROL Simple Ad Serving] 件の取引に対して新しいプレースメントを作成します。
 
-* カスタムの最適化目標を使用するパッケージの場合、各パッケージの [[!UICONTROL Linked Package for Optimization Learnings Carryover] 設定を使用して ](/help/dsp/campaign-management/packages/package-settings.md) パッケージを最適化するための入力として前のキャンペーンの履歴データを使用します。
+* カスタムの最適化目標を使用するパッケージの場合、各パッケージの [[!UICONTROL Linked Package for Optimization Learnings Carryover] 設定を使用して &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) パッケージを最適化するための入力として前のキャンペーンの履歴データを使用します。
 
 >[!MORELIKETHIS]
 >
->* [ パッケージ管理について ](package-about.md)
->* [ パッケージの作成 ](package-create.md)
->* [ パッケージの編集 ](package-edit.md)
->* [ パッケージの変更ログを表示する ](package-change-log.md)
->* [ パッケージ設定 ](package-settings.md)
+>* [&#x200B; パッケージ管理について &#x200B;](package-about.md)
+>* [&#x200B; パッケージの作成 &#x200B;](package-create.md)
+>* [&#x200B; パッケージの編集 &#x200B;](package-edit.md)
+>* [&#x200B; パッケージの変更ログを表示する &#x200B;](package-change-log.md)
+>* [&#x200B; パッケージ設定 &#x200B;](package-settings.md)

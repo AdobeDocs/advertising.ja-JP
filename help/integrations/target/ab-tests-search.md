@@ -36,7 +36,7 @@ Adobe AdvertisingとAdobe Targetを使用すると、次の操作を行うこと
 
 * [!DNL Analytics]
 
-* [[!DNL Analytics] Advertisingの場合 ](/help/integrations/analytics/overview.md)integration<!-- necessary for testing view-throughs, which most advertisers want to do -->
+* [[!DNL Analytics] Advertisingの場合 &#x200B;](/help/integrations/analytics/overview.md)integration<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
 * [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja) 統合
 
@@ -44,9 +44,9 @@ Adobe AdvertisingとAdobe Targetを使用すると、次の操作を行うこと
 
 以下の手順では、検索、ソーシャル、Commerceのユースケースに関する情報を重点的に説明しています。
 
-1. [Adobe Targetにログインします ](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=ja)。
+1. [Adobe Targetにログインします &#x200B;](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=ja)。
 
-1. [A/B テストの作成 ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ja):
+1. [A/B テストの作成 &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ja):
 
    1. 「**[!UICONTROL Enter Activity URL]**」フィールドに、テストのランディングページ URL を入力します。
 
@@ -61,15 +61,15 @@ Adobe AdvertisingとAdobe Targetを使用すると、次の操作を行うこと
 
    1. **[!UICONTROL Reporting Settings]** 内で **[!UICONTROL Company Name]** を選択し、検索、ソーシャル、Commerce アカウントに接続してくださ **[!UICONTROL Report Suite]**。
 
-      その他のレポートに関するヒントについては、[ レポートのベストプラクティスとトラブルシューティング ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=ja) を参照してください。
+      その他のレポートに関するヒントについては、[&#x200B; レポートのベストプラクティスとトラブルシューティング &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=ja) を参照してください。
 
    1. 「**[!UICONTROL Date Range]**」フィールドに、テストの適切な開始日と終了日を入力します。
 
    1. **[!UICONTROL Site Pages]**/**[!UICONTROL Landing Page]**/**[!UICONTROL Query]** を選択します。 「**[!UICONTROL Value]**」フィールドに、検索、ソーシャル、Commerceの関連する広告ネットワークエンティティの [!UICONTROL Network Account ID]、[!UICONTROL Network Campaign ID]、[!UICONTROL Network Adgroup ID] または [!UICONTROL Network Ad ID] を入力します。 これにより、エンティティのクリックスルーオーディエンスに [!DNL Target] のクエリ文字列パラメーターを使用できます。
 
-      ID を見つけるには、[ 関連する ID 列をエンティティビューに追加 ](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) します。
+      ID を見つけるには、[&#x200B; 関連する ID 列をエンティティビューに追加 &#x200B;](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) します。
 
-      [!UICONTROL Accounts]![[!UICONTROL Network Account ID] 表示の列 ](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID][!UICONTROL Accounts] 表示の列 ")
+      [!UICONTROL Accounts]![[!UICONTROL Network Account ID] 表示の列 &#x200B;](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID][!UICONTROL Accounts] 表示の列 ")
 
       サポートが必要な場合は、Adobe アカウントチームにお問い合わせください。
 
@@ -133,10 +133,10 @@ Analysis Workspace内でアクティビティとエクスペリエンスのデ�
 
 ## 参考情報
 
-* [Target とAnalysis Workspaceの統合 ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=ja) - Analytics で [!DNL Target] レポートを設定する方法について説明します。
-* [A/B テストの概要 ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=ja) - A/B テストアクティビティについて説明します。検索、ソーシャルおよびCommerce広告で使用できます。
-* [Analytics for Advertisingの概要 ](/help/integrations/analytics/overview.md) - Analytics for Advertisingについて説明します。この機能を使用すると、Analytics インスタンスでのクリックスルーおよびビュースルーサイトインタラクションをトラッキングできます。
+* [Target とAnalysis Workspaceの統合 &#x200B;](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=ja) - Analytics で [!DNL Target] レポートを設定する方法について説明します。
+* [A/B テストの概要 &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=ja) - A/B テストアクティビティについて説明します。検索、ソーシャルおよびCommerce広告で使用できます。
+* [Analytics for Advertisingの概要 &#x200B;](/help/integrations/analytics/overview.md) - Analytics for Advertisingについて説明します。この機能を使用すると、Analytics インスタンスでのクリックスルーおよびビュースルーサイトインタラクションをトラッキングできます。
 
 >[!MORELIKETHIS]
 >
->* [Advertising DSP Ads 用のAdobe Targetでの A/B テストの設定 ](ab-tests-dsp.md)
+>* [Advertising DSP Ads 用のAdobe Targetでの A/B テストの設定 &#x200B;](ab-tests-dsp.md)

@@ -25,7 +25,7 @@ Adobe Experience Cloudは、お客様に代わって受け取り、保存する�
 
 このドキュメントでは、[!DNL Advertising Search, Social, & Commerce]、Advertising Creative、Advertising DSP（Demand Side Platform）、および [!DNL Advertising DCO] が、Adobe Experience Platform Privacy Service API とPrivacy Service UI を使用して、データ主体の GDPR データアクセスおよび削除権をサポートする方法について説明します。
 
-GDPR がお客様のビジネスに与える影響について詳しくは、「[GDPR とお客様のビジネス ](https://www.adobe.com/privacy/general-data-protection-regulation.html)」を参照してください。
+GDPR がお客様のビジネスに与える影響について詳しくは、「[GDPR とお客様のビジネス &#x200B;](https://www.adobe.com/privacy/general-data-protection-regulation.html)」を参照してください。
 
 ## Adobe Advertisingでサポートされるデータリクエストタイプ
 
@@ -73,7 +73,7 @@ Adobe Advertisingのデータへのアクセスおよび削除をリクエスト
    >
    >会社に複数のExperience Cloud組織 ID がある場合、それぞれに個別の API リクエストを送信する必要があります。 ただし、サブソリューションごとに 1 つのアカウントを使用して、複数のAdobe Advertising サブソリューション（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]、[!DNL DCO]）に対して 1 つの API リクエストを行うことができます。
 
-すべての手順はAdobe Advertisingに必要です。 Adobe Experience Platform Privacy Serviceを使用して行う必要のあるこれらのタスクやその他の関連タスクの詳細、および必要な項目をどこで見つけるかについて詳しくは、「[Privacy Serviceの概要 ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)」を参照してください。
+すべての手順はAdobe Advertisingに必要です。 Adobe Experience Platform Privacy Serviceを使用して行う必要のあるこれらのタスクやその他の関連タスクの詳細、および必要な項目をどこで見つけるかについて詳しくは、「[Privacy Serviceの概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)」を参照してください。
 
 ## Adobe Advertising JSON リクエストの必須フィールド値
 

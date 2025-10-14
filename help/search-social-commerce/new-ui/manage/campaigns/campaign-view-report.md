@@ -20,7 +20,7 @@ ht-degree: 0%
 
 生成された任意のレポートを削除できます。
 
-参照「>* [ （従来の UI） Campaign 管理ビューからのデータのダウンロード」および「](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) （従来の UI） [ パフ [!UICONTROL Downloads] ーマンスメニューからのパフォーマンスデータレポートまたはバルクシートファイルの削除 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)」。
+参照「>* [&#x200B; （従来の UI） Campaign 管理ビューからのデータのダウンロード」および「](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) （従来の UI） [&#x200B; パフ [!UICONTROL Downloads] ーマンスメニューからのパフォーマンスデータレポートまたはバルクシートファイルの削除 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)」。
 
 ## フィルターされたデータ行を含むレポートの生成
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    * すべてのキャンペーンのデータをダウンロードする場合は、チェックボックスをオンにする必要はありません。 すべてのキャンペーンがデフォルトで含まれます。
 
-1. データテーブルの上にあるツールバーで、「![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")」 **[!UICONTROL Report]** をクリックします。
+1. データテーブルの上にあるツールバーで、「![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")」 **[!UICONTROL Report]** をクリックします。
 
 1. [!UICONTROL Grid Reports] 設定で、一意のレポート名を入力し、[**[!UICONTROL Generate]**] をクリックします。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    ファイルが [!UICONTROL Recently Generated] リストに追加されます。
 
-1. （任意）ファイルをダウンロードするには、ファイル名の横にある ![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ") をクリックします。
+1. （任意）ファイルをダウンロードするには、ファイル名の横にある ![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ") をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -48,9 +48,9 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Campaigns]** をクリックします。
 
-1. データテーブルの上にあるツールバーで、「![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")」 **[!UICONTROL Report]** をクリックします。
+1. データテーブルの上にあるツールバーで、「![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")」 **[!UICONTROL Report]** をクリックします。
 
-1. [!UICONTROL Recently Generated] ダイアログの [!UICONTROL Grid Reports] リストで、ファイル名の横の ![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ") をクリックします。
+1. [!UICONTROL Recently Generated] ダイアログの [!UICONTROL Grid Reports] リストで、ファイル名の横の ![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ") をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -58,12 +58,12 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Campaigns]** をクリックします。
 
-1. データテーブルの上にあるツールバーで、「![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")」 **[!UICONTROL Report]** をクリックします。
+1. データテーブルの上にあるツールバーで、「![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")」 **[!UICONTROL Report]** をクリックします。
 
-1. [!UICONTROL Recently Generated] ダイアログの [!UICONTROL Grid Reports] リストで、ファイル名の横の ![ 削除 ](/help/search-social-commerce/assets/delete-new.png " 削除 ") をクリックします。
+1. [!UICONTROL Recently Generated] ダイアログの [!UICONTROL Grid Reports] リストで、ファイル名の横の ![&#x200B; 削除 &#x200B;](/help/search-social-commerce/assets/delete-new.png " 削除 ") をクリックします。
 
 >[!MORELIKETHIS]
 >
 >* [[!UICONTROL Campaigns view]](campaign-view-about.md) について
->* [ （従来の UI）キャンペーン管理ビューからのデータのダウンロード ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
->* [ （従来の UI） [!UICONTROL Downloads] メニューからパフォーマンスデータレポートまたはバルクシートファイルを削除 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [&#x200B; （従来の UI）キャンペーン管理ビューからのデータのダウンロード &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [&#x200B; （従来の UI） [!UICONTROL Downloads] メニューからパフォーマンスデータレポートまたはバルクシートファイルを削除 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)

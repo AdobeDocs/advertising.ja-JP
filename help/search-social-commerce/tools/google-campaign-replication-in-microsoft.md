@@ -26,21 +26,21 @@ ht-degree: 0%
 
 キャンペーンの更新は、1 回、毎日、毎週、毎月、または [!DNL Microsoft Advertising] の推奨スケジュールに従って選択できます。 オプションで、インポートジョブが実行されるたびに、またはエラーや変更が発生した場合に、通知を設定できます。 キャンペーンを [!DNL Microsoft Advertising] にインポートすると、インポートジョブのステータスの確認、エラーログの確認、インポートジョブの手動実行、インポートスケジュールの編集、一時停止、有効化または削除ができます。
 
-すべてのキャンペーン情報がレプリケートされるわけではなく、[!DNL Microsoft Advertising] キャンペーンに情報を追加する必要が生じる場合があります。 どのデータがインポートされるかについての詳細は、ヘルプ [!DNL Microsoft Advertising] 「[ からインポートされるもの  [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851) を参照してください。 検索、ソーシャル、Commerceのトラッキングは読み込まれないので、[account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)、[campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[ad group](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) または [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) の設定内にトラッキングを追加する必要もあります。
+すべてのキャンペーン情報がレプリケートされるわけではなく、[!DNL Microsoft Advertising] キャンペーンに情報を追加する必要が生じる場合があります。 どのデータがインポートされるかについての詳細は、ヘルプ [!DNL Microsoft Advertising] 「[&#x200B; からインポートされるもの  [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851) を参照してください。 検索、ソーシャル、Commerceのトラッキングは読み込まれないので、[account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)、[campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[ad group](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) または [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) の設定内にトラッキングを追加する必要もあります。
 
 ## キャンペーン [!DNL Google Ads] レプリケート
 
 >[!NOTE]
 >
->ショッピングフィードベースのディスプレイキャンペーンをレプリケートする場合は、最初に [ 製品オファーを  [!DNL Google Merchant Center]  レプリケート  [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870) します。 キャンペーンをレプリケートする際に、インポートオプションの [!DNL Microsoft Merchant Center] ストアを選択して、フィードベースのオーディエンスキャンペーンにストアをリンクします。
+>ショッピングフィードベースのディスプレイキャンペーンをレプリケートする場合は、最初に [&#x200B; 製品オファーを  [!DNL Google Merchant Center]  レプリケート  [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870) します。 キャンペーンをレプリケートする際に、インポートオプションの [!DNL Microsoft Merchant Center] ストアを選択して、フィードベースのオーディエンスキャンペーンにストアをリンクします。
 
-[campaigns からのインポート内容 ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500) を参照  [!DNL Google Ads]  てください。
+[campaigns からのインポート内容 &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500) を参照  [!DNL Google Ads]  てください。
 
 1. 検索、ソーシャル、Commerceのメインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Tools]/[!UICONTROL Import Campaigns]** をクリックします。
 
 1. 「**[!UICONTROL +Import]**」をクリックします。
 
-1. [ 読み込み設定 ](#campaign-import-settings) を指定します。
+1. [&#x200B; 読み込み設定 &#x200B;](#campaign-import-settings) を指定します。
 
    1. **[!UICONTROL Select accounts]** のセクションで以下を実行します。
 
@@ -58,17 +58,17 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Post]**」をクリックします。
 
-1. （任意）「[ アカウント ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)」、「[ キャンペーン ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)」、「[ 広告グループ ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)」または「[ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)」設定内に、検索、ソーシャル、Commerceのトラッキングを追加します。
+1. （任意）「[&#x200B; アカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)」、「[&#x200B; キャンペーン &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)」、「[&#x200B; 広告グループ &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)」または「[ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)」設定内に、検索、ソーシャル、Commerceのトラッキングを追加します。
 
 ## キャンペーンインポートジョブのスケジュール設定の編集
 
-[campaigns からのインポート内容 ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500) を参照  [!DNL Google Ads]  てください。
+[campaigns からのインポート内容 &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500) を参照  [!DNL Google Ads]  てください。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Tools]/[!UICONTROL Import Campaigns]** をクリックします。
 
-1. 読み込みジョブの横にあるチェックボックスを選択し、「![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")」をクリックします。
+1. 読み込みジョブの横にあるチェックボックスを選択し、「![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ")」をクリックします。
 
-1. **[!UICONTROL Set schedule]** セクションで、[ スケジュール設定 ](#campaign-import-settings) を指定します。
+1. **[!UICONTROL Set schedule]** セクションで、[&#x200B; スケジュール設定 &#x200B;](#campaign-import-settings) を指定します。
 
 1. 「**[!UICONTROL Post]**」をクリックします。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
      デフォルトでは、ビューは「[!UICONTROL List of Import Jobs]」タブに開きます。
 
-   * 「[[!UICONTROL Import Logs]」タブで ](#campaign-import-log) 「**[!UICONTROL List of Import Jobs]**」タブをクリックします。
+   * 「[[!UICONTROL Import Logs]」タブで &#x200B;](#campaign-import-log) 「**[!UICONTROL List of Import Jobs]**」タブをクリックします。
 
 ## キャンペーンインポートジョブの実行
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. インポートジョブの横にあるチェックボックスをオンにします。
 
-1. ![ 今すぐ実行 ](/help/search-social-commerce/assets/run.png " 今すぐ実行 ") をクリックします。
+1. ![&#x200B; 今すぐ実行 &#x200B;](/help/search-social-commerce/assets/run.png " 今すぐ実行 ") をクリックします。
 
 ## キャンペーンインポートジョブのログを表示 {#campaign-import-log}
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 
       * [!UICONTROL Campaigns] または [!UICONTROL Adgroups] 列で、キャンペーンまたは広告グループの選択を解除して、チェックマークが表示されないようにします。
 
-      * [!UICONTROL Selected] 列で、「![ 削除 ](/help/search-social-commerce/assets/delete.png " 削除 ")」をクリックします。
+      * [!UICONTROL Selected] 列で、「![&#x200B; 削除 &#x200B;](/help/search-social-commerce/assets/delete.png " 削除 ")」をクリックします。
 
 ### [!UICONTROL Customize your import]
 

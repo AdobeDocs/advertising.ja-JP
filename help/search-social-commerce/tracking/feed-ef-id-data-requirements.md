@@ -38,5 +38,5 @@ TRl4BEtoTPMBEW4SU5ZUMEPIE:20100217065804:s,04896552,2010-02-17,Coffee,22.00
 
 >[!MORELIKETHIS]
 >
->* [ 変換フィードファイルのファイル要件 ](feed-file-requirements.md)
->* [EF ID フィードを使用したコンバージョントラッキング ](/help/search-social-commerce/tracking/feed-efid.md)
+>* [&#x200B; 変換フィードファイルのファイル要件 &#x200B;](feed-file-requirements.md)
+>* [EF ID フィードを使用したコンバージョントラッキング &#x200B;](/help/search-social-commerce/tracking/feed-efid.md)

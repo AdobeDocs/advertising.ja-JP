@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * 1 つ以上の正方形（1:1）画像。
 
-[ マルチメディア広告 ](https://help.ads.microsoft.com/#apex/ads/en/60107/0) に対して許可されているアスペクト比とサイズを参照してください。
+[&#x200B; マルチメディア広告 &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60107/0) に対して許可されているアスペクト比とサイズを参照してください。
 
 <!-- Instructions -->
 
@@ -52,9 +52,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 広告について ](ad-about.md)
->* [ 広告の管理 ](ad-manage.md)
->* [[!DNL Microsoft Advertising]  拡張された動的検索広告設定 ](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft Advertising]  製品広告設定 ](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising]  レスポンシブ（オーディエンス）広告設定 ](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft Advertising]  レスポンシブ検索広告設定 ](ad-settings-microsoft-rsa.md)
+>* [&#x200B; 広告について &#x200B;](ad-about.md)
+>* [&#x200B; 広告の管理 &#x200B;](ad-manage.md)
+>* [[!DNL Microsoft Advertising]  拡張された動的検索広告設定 &#x200B;](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising]  製品広告設定 &#x200B;](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising]  レスポンシブ（オーディエンス）広告設定 &#x200B;](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising]  レスポンシブ検索広告設定 &#x200B;](ad-settings-microsoft-rsa.md)

@@ -28,7 +28,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 >[!TIP]
 >
->次の表は幅が広いです。 表示領域を拡大するには、左側のウィンドウの上部にある ![ 左側のウィンドウ枠を非表示にする ](/help/dsp/assets/hide-left-pane.png " 左側のウィンドウ枠を非表示にする ") をクリックし、右側のウィンドウ枠の上部にある ![右側のウィンドウを非表示](/help/dsp/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次と右側のウィンドウ枠を一時的に非表示にします。 テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示することもできます。
+>次の表は幅が広いです。 表示領域を拡大するには、左側のウィンドウの上部にある ![&#x200B; 左側のウィンドウ枠を非表示にする &#x200B;](/help/dsp/assets/hide-left-pane.png " 左側のウィンドウ枠を非表示にする ") をクリックし、右側のウィンドウ枠の上部にある ![右側のウィンドウを非表示](/help/dsp/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次と右側のウィンドウ枠を一時的に非表示にします。 テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示することもできます。
 
 | フィールド | キャンペーン | 広告グループ | キーワード | テキスト広告 | キャンペーンの場所のターゲット | 説明 |
 |----|----|----|----|----|----|----|
@@ -77,9 +77,9 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 >[!MORELIKETHIS]
 >
->* [ 付録 – バルクシート エラー ](../bulksheet-errors.md)
->* [ バルクシートで実行できる操作 ](bulksheet-operations.md)
->* [ サポートされるバルクシート ファイル形式 ](bulksheet-file-formats.md)
->* [ バルクシートファイルのダウンロード/作成 ](../bulksheet-download.md)
->* [ のクリック追跡形式  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
->* [ バルクシートファイルまたは修正されたエラーファイルのアップロード ](../bulksheet-upload.md)
+>* [&#x200B; 付録 – バルクシート エラー &#x200B;](../bulksheet-errors.md)
+>* [&#x200B; バルクシートで実行できる操作 &#x200B;](bulksheet-operations.md)
+>* [&#x200B; サポートされるバルクシート ファイル形式 &#x200B;](bulksheet-file-formats.md)
+>* [&#x200B; バルクシートファイルのダウンロード/作成 &#x200B;](../bulksheet-download.md)
+>* [&#x200B; のクリック追跡形式  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
+>* [&#x200B; バルクシートファイルまたは修正されたエラーファイルのアップロード &#x200B;](../bulksheet-upload.md)

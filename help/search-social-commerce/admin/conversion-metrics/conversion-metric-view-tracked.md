@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 広告主について追跡されたコンバージョン指標の表示
 
-広告主についてAdobe Advertisingが追跡したすべての [ コンバージョン ](/help/search-social-commerce/glossary.md#c-d) 指標のリストを表示できます。 各指標行には、指標のソースが含まれます。
+広告主についてAdobe Advertisingが追跡したすべての [&#x200B; コンバージョン &#x200B;](/help/search-social-commerce/glossary.md#c-d) 指標のリストを表示できます。 各指標行には、指標のソースが含まれます。
 
 * メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Conversions]** をクリックします。
 
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!TIP]
 >
->広告主（または広告ネットワーク）がコンバージョン指標の収集を停止したら、履歴データの表示に使用する場合を除き、[ 管理ビューおよびレポートでコンバージョン指標を非表示 ](conversion-metric-edit-available.md) にします。
+>広告主（または広告ネットワーク）がコンバージョン指標の収集を停止したら、履歴データの表示に使用する場合を除き、[&#x200B; 管理ビューおよびレポートでコンバージョン指標を非表示 &#x200B;](conversion-metric-edit-available.md) にします。
 
 >[!MORELIKETHIS]
 >
->* [ 広告主のコンバージョン指標の管理について ](conversion-metric-about.md)
->* [ 管理ビューおよびレポートで使用可能なコンバージョン指標の変更 ](conversion-metric-edit-available.md)
->* [ コンバージョン指標の表示名の変更 ](conversion-metric-edit-display-name.md)
+>* [&#x200B; 広告主のコンバージョン指標の管理について &#x200B;](conversion-metric-about.md)
+>* [&#x200B; 管理ビューおよびレポートで使用可能なコンバージョン指標の変更 &#x200B;](conversion-metric-edit-available.md)
+>* [&#x200B; コンバージョン指標の表示名の変更 &#x200B;](conversion-metric-edit-display-name.md)

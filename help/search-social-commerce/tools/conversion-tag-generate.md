@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Tools]/[!UICONTROL Conversion Tags]** をクリックします。
 
-1. [ 変換タグ設定 ](#conversion-tag-settings) を指定します。
+1. [&#x200B; 変換タグ設定 &#x200B;](#conversion-tag-settings) を指定します。
 
 1. タグを生成します。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->オフライン変換のコンバージョンデータを使用して [ トランザクション ID フィード ](/help/search-social-commerce/tracking/feed-transaction-id.md) を送信する場合は、トランザクションのオフライン部分用のフィードデータに含まれているトランザクションのオンライン部分のトランザクション ID （`ev_transid`）を送信する必要があります。
+>オフライン変換のコンバージョンデータを使用して [&#x200B; トランザクション ID フィード &#x200B;](/help/search-social-commerce/tracking/feed-transaction-id.md) を送信する場合は、トランザクションのオフライン部分用のフィードデータに含まれているトランザクションのオンライン部分のトランザクション ID （`ev_transid`）を送信する必要があります。
 
 **[!UICONTROL Page is inside FB app]:** 古い
 
@@ -74,11 +74,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertisingのコンバージョントラッキングタグについて ](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [ トラッキングタグを作成およびデコードするツールについて ](tracking-tools-about.md)
->* [ コンバージョンおよびページビューのトラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
->* [JavaScript コンバージョントラッキングタグバージョン 3 の形式 ](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
->* [JavaScript コンバージョントラッキングタグバージョン 2 の形式 ](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
->* [ 画像変換トラッキングタグの形式 ](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
->* [Adobe Advertising JavaScript コンバージョンマッピングタグ ](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
->* [ 広告主のコンバージョン指標の管理について ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+>* [Adobe Advertisingのコンバージョントラッキングタグについて &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [&#x200B; トラッキングタグを作成およびデコードするツールについて &#x200B;](tracking-tools-about.md)
+>* [&#x200B; コンバージョンおよびページビューのトラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
+>* [JavaScript コンバージョントラッキングタグバージョン 3 の形式 &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
+>* [JavaScript コンバージョントラッキングタグバージョン 2 の形式 &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
+>* [&#x200B; 画像変換トラッキングタグの形式 &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
+>* [Adobe Advertising JavaScript コンバージョンマッピングタグ &#x200B;](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+>* [&#x200B; 広告主のコンバージョン指標の管理について &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)

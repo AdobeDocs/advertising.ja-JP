@@ -32,21 +32,21 @@ ht-degree: 0%
 
    それ以外の場合は、ビュー内のすべてのデータが含まれます。
 
-1. ツールバーの右側にある「![ レポートのダウンロード ](/help/search-social-commerce/assets/download.png " レポートのダウンロード ")」をクリックします。
+1. ツールバーの右側にある「![&#x200B; レポートのダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートのダウンロード ")」をクリックします。
 
-1. ![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ") **[!UICONTROL Create]** をクリックし、必要に応じてファイル名を追加して、「**[!UICONTROL Report]**」または「**[!UICONTROL Bulksheet]**」をクリックします。
+1. ![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ") **[!UICONTROL Create]** をクリックし、必要に応じてファイル名を追加して、「**[!UICONTROL Report]**」または「**[!UICONTROL Bulksheet]**」をクリックします。
 
-1. （任意）レポートジョブが完了したら、「![ レポートのダウンロード ](/help/search-social-commerce/assets/download.png " レポートのダウンロード ")」をクリックして [!UICONTROL Available Reports] パネルを表示し、レポートをダウンロードまたは削除します。
+1. （任意）レポートジョブが完了したら、「![&#x200B; レポートのダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートのダウンロード ")」をクリックして [!UICONTROL Available Reports] パネルを表示し、レポートをダウンロードまたは削除します。
 
-   * ブラウザーの通常の手順に従ってファイルを開いたり保存したりするには、「![ スプレッドシートをダウンロード ](/help/search-social-commerce/assets/download-spreadsheet.png " スプレッドシートをダウンロード ")」をクリックします。
+   * ブラウザーの通常の手順に従ってファイルを開いたり保存したりするには、「![&#x200B; スプレッドシートをダウンロード &#x200B;](/help/search-social-commerce/assets/download-spreadsheet.png " スプレッドシートをダウンロード ")」をクリックします。
 
      ブラウザの手順の詳細については、ブラウザのオンライン ヘルプを参照してください。
 
-   * ファイルを削除するには、「![ 削除 ](/help/search-social-commerce/assets/delete.png " 削除 ")」をクリックします。
+   * ファイルを削除するには、「![&#x200B; 削除 &#x200B;](/help/search-social-commerce/assets/delete.png " 削除 ")」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ （従来の UI） [!UICONTROL Downloads] メニューからパフォーマンスデータレポートまたはバルクシートファイルを削除 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
->* [ （新しい UI） [!UICONTROL Portfolios] ビューからのデータビューレポートの管理 ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
->* [ （新しい UI） [!UICONTROL Campaigns] ビューからのデータビューレポートの管理 ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
->* [ （新しい UI） [!UICONTROL Ad Groups] ビューからのデータビューレポートの管理 ](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
+>* [&#x200B; （従来の UI） [!UICONTROL Downloads] メニューからパフォーマンスデータレポートまたはバルクシートファイルを削除 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [&#x200B; （新しい UI） [!UICONTROL Portfolios] ビューからのデータビューレポートの管理 &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+>* [&#x200B; （新しい UI） [!UICONTROL Campaigns] ビューからのデータビューレポートの管理 &#x200B;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [&#x200B; （新しい UI） [!UICONTROL Ad Groups] ビューからのデータビューレポートの管理 &#x200B;](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

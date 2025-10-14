@@ -74,8 +74,8 @@ ht-degree: 0%
 
 >[!TIP]
 >
->* バルクシートを使用して [ 複数の Campaign コンポーネントを一度に変更 ](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
->* 広告タグシートを使用して [ 複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
+>* バルクシートを使用して [&#x200B; 複数の Campaign コンポーネントを一度に変更 &#x200B;](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
+>* 広告タグシートを使用して [&#x200B; 複数のサードパーティ広告をアップロード &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
 
 * 新しいプレースメントをアクティブ化する準備が整うまで一時停止します。
 
@@ -97,8 +97,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プレースメント管理について ](placement-about.md)
->* [ プレースメントの作成 ](placement-create.md)
->* [ プレースメントを編集 ](placement-edit.md)
->* [ プレースメントの変更ログを表示 ](placement-change-log.md)
->* [ プレースメント設定 ](placement-settings.md)
+>* [&#x200B; プレースメント管理について &#x200B;](placement-about.md)
+>* [&#x200B; プレースメントの作成 &#x200B;](placement-create.md)
+>* [&#x200B; プレースメントを編集 &#x200B;](placement-edit.md)
+>* [&#x200B; プレースメントの変更ログを表示 &#x200B;](placement-change-log.md)
+>* [&#x200B; プレースメント設定 &#x200B;](placement-settings.md)

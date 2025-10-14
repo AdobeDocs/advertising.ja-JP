@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. [!DNL Identifier Settings] を **[!DNL Ramp ID]** のみに設定します。
 
-      ![ 識別子の設定 ](/help/dsp/assets/liveramp-tile-settings.png)
+      ![&#x200B; 識別子の設定 &#x200B;](/help/dsp/assets/liveramp-tile-settings.png)
 
    1. （任意） cookie ベースの識別子を引き続き受け取る場合は、「[!DNL Cookies]」、「[!DNL IDFA]」、「[!DNL AAID]」を選択して、2 つ目の [!DNL AAC API 1P Onboarding] 宛先タイルを作成します。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ファーストパーティオーディエンスソースについて ](source-about.md)
->* [ ユニバーサル ID オーディエンスをアクティブ化するためのオーディエンスソースの管理 ](source-manage.md)
->* [Adobe Advertising DSP接続 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)
->* [Audience Management について ](/help/dsp/audiences/audience-about.md)
+>* [&#x200B; ファーストパーティオーディエンスソースについて &#x200B;](source-about.md)
+>* [&#x200B; ユニバーサル ID オーディエンスをアクティブ化するためのオーディエンスソースの管理 &#x200B;](source-manage.md)
+>* [Adobe Advertising DSP接続 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)
+>* [Audience Management について &#x200B;](/help/dsp/audiences/audience-about.md)

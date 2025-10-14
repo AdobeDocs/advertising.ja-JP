@@ -26,9 +26,9 @@ Adobe Advertisingのお客様は、[!DNL Audience Analytics] を使用するこ�
 
 * （Advertising DSPを使用する広告主）包括的なジャーニー管理のインサイトを得るために、さらに公開セグメントを追加します。
 
-  Advertising DSPは、Adobe Experience PlatformまたはAudience Managerのインプレッショントラッキング画素の実装を通じて、曝露データを実用的なシグナルとしてAudience Managerに送信できます。 同じデータを [!DNL Analytics] に転送すると、高度なデータ分析が可能になります。 詳しくは、[Adobe Audience Managerを使用したAdobe Advertisingメディアデータ統合の概要」 ](/help/integrations/audience-manager/media-data-integration/overview.md) 参照してください。
+  Advertising DSPは、Adobe Experience PlatformまたはAudience Managerのインプレッショントラッキング画素の実装を通じて、曝露データを実用的なシグナルとしてAudience Managerに送信できます。 同じデータを [!DNL Analytics] に転送すると、高度なデータ分析が可能になります。 詳しくは、[Adobe Audience Managerを使用したAdobe Advertisingメディアデータ統合の概要」 &#x200B;](/help/integrations/audience-manager/media-data-integration/overview.md) 参照してください。
 
-前提条件やワークフローなど、[!DNL Audience Analytics] について詳しくは、「[Audience Analyticsの概要 ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja)」を参照してください。
+前提条件やワークフローなど、[!DNL Audience Analytics] について詳しくは、「[Audience Analyticsの概要 &#x200B;](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja)」を参照してください。
 
 ## Adobe Advertisingデータを含む [!DNL Audience Analytics] データの使用例
 
@@ -48,7 +48,7 @@ Audience Manager曝露セグメントを使用して、上位ファネルサイ�
 
 [!DNL Analysis Workspace] で作成できるレポートの例を次に示します。
 
-![ 上位ファネルアクティビティがダウンストリームサイトアクティビティに与える影響を確認 ](/help/integrations/assets/audience-analytics-upper-funnel-exposure.png)
+![&#x200B; 上位ファネルアクティビティがダウンストリームサイトアクティビティに与える影響を確認 &#x200B;](/help/integrations/assets/audience-analytics-upper-funnel-exposure.png)
 
 ### ユーザープロファイル [!DNL Audience Analytics] 分析にサードパーティセグメントデータを使用する
 
@@ -59,8 +59,8 @@ Audience Manager曝露セグメントを使用して、上位ファネルサイ�
 
 [!DNL Analysis Workspace] で作成できるレポートの例を次に示します。
 
-![ サードパーティセグメントを使用したユーザープロファイル分析のエンリッチメント ](/help/integrations/assets/audience-analytics-third-party-report.png)
+![&#x200B; サードパーティセグメントを使用したユーザープロファイル分析のエンリッチメント &#x200B;](/help/integrations/assets/audience-analytics-third-party-report.png)
 
 >[!MORELIKETHIS]
 >
->* [Adobe Audience ManagerとのAdobe Advertising統合 ](/help/integrations/audience-manager/overview.md)
+>* [Adobe Audience ManagerとのAdobe Advertising統合 &#x200B;](/help/integrations/audience-manager/overview.md)

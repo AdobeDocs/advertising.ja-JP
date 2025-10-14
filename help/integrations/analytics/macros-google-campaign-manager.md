@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Advertising DSPにのみ適用*
 
-Advertising DSP広告に [!DNL Google Campaign Manager 360] の広告タグを使用する場合は、[`%p` マクロ ](https://support.google.com/campaignmanager/table/6096962) を使用して、ランディングページの URL に [!DNL Analytics for Advertising] のパラメーターを追加します。 パラメーターは、AMO ID （`s_kwcid`）および `ef_id` クエリ文字列パラメーターをランディングページの URL に記録するので、Adobe Advertisingは、広告のクリックデータをAdobe Analyticsに送信できます。
+Advertising DSP広告に [!DNL Google Campaign Manager 360] の広告タグを使用する場合は、[`%p` マクロ &#x200B;](https://support.google.com/campaignmanager/table/6096962) を使用して、ランディングページの URL に [!DNL Analytics for Advertising] のパラメーターを追加します。 パラメーターは、AMO ID （`s_kwcid`）および `ef_id` クエリ文字列パラメーターをランディングページの URL に記録するので、Adobe Advertisingは、広告のクリックデータをAdobe Analyticsに送信できます。
 
 次のタイプの [!DNL Analytics for Advertising] 実装 [!DNL Campaign Manager 360] ディスプレイ広告とビデオ広告にマクロを使用します。
 
@@ -47,12 +47,12 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 ### 広告主レベルのランディングページ URL サフィックスの設定
 
-1. 詳しくは、[ 広告主のプロパティを開く手順 ](https://support.google.com/campaignmanager/answer/2829344) を参照してください。
+1. 詳しくは、[&#x200B; 広告主のプロパティを開く手順 &#x200B;](https://support.google.com/campaignmanager/answer/2829344) を参照してください。
 1. [!UICONTROL Landing page URL suffix] の設定で、[!UICONTROL URL suffix] フィールドに `%pamo!;` を含めます。
 
 ### キャンペーンレベルのランディングページ URL サフィックスの設定
 
-1. [ キャンペーンのプロパティを開く手順 ](https://support.google.com/campaignmanager/answer/2838056#set) を参照してください。
+1. [&#x200B; キャンペーンのプロパティを開く手順 &#x200B;](https://support.google.com/campaignmanager/answer/2838056#set) を参照してください。
 1. [!UICONTROL Landing page URL suffix] の設定で、[!UICONTROL URL suffix] フィールドに `%pamo!;` を含めます。
 
 ### クリエイティブレベルのランディングページ URL サフィックスの設定
@@ -64,7 +64,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 DSPでは、[!DNL Analytics for Advertising] パラメーター（`amo`）を含む広告を作成すると、`ef_id` マクロと `s_kwcid` マクロがクリック URL に自動的に追加されます。 ベストプラクティスは、DSPでタグを確認して、`ef_id` マクロと `s_kwcid` マクロが存在することを確認することです。
 
-次に、DSPに表示される [!DNL Google Campaign Manager 360] [ins タグ ](https://support.google.com/campaignmanager/answer/6080468) の例を示します。
+次に、DSPに表示される [!DNL Google Campaign Manager 360] [ins タグ &#x200B;](https://support.google.com/campaignmanager/answer/6080468) の例を示します。
 
 ```
 <ins class='dcmads' style='display:inline-block;width:160px;height:600px'
@@ -82,6 +82,6 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 
 >[!MORELIKETHIS]
 >
->* [ 概要  [!DNL Analytics for Advertising]](overview.md)
->* [ 使用Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad タグ ](macros-flashtalking.md)
+>* [&#x200B; 概要  [!DNL Analytics for Advertising]](overview.md)
+>* [&#x200B; 使用Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad タグ &#x200B;](macros-flashtalking.md)

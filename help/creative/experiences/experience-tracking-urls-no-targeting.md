@@ -36,7 +36,7 @@ ht-degree: 0%
 
    1. 「**[!UICONTROL Create]**」をクリックします。
 
-1. 該当する広告タグの行の上にカーソルを置き、![ トラッキング URL を編集 ](/help/creative/assets/edit-gray.png " トラッキング URL を編集 ")**[!UICONTROL Tracking URLs]** をクリックします。 <!-- For targeted experiences, this is "EDIT Tracking URLs" -->&lt;!— 2/2 現在、タグマネージャーにはリスト表示しかありませんが、カード表示はありません。>
+1. 該当する広告タグの行の上にカーソルを置き、![&#x200B; トラッキング URL を編集 &#x200B;](/help/creative/assets/edit-gray.png " トラッキング URL を編集 ")**[!UICONTROL Tracking URLs]** をクリックします。 <!-- For targeted experiences, this is "EDIT Tracking URLs" -->&lt;!— 2/2 現在、タグマネージャーにはリスト表示しかありませんが、カード表示はありません。>
 
    「[!UICONTROL Click Tracking URLs]」、「[!UICONTROL Impression Tracking URLs]」および「[!UICONTROL Landing URLs]」タブには、割り当てられたバンドル内の該当するサイズのすべてのクリエイティブの名前が一覧表示されます。 エクスペリエンスのデフォルトクリエイティブのサイズによって、使用可能なサイズが決まります。<!-- There's no distinct "Creative Sizes" setting. -->
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
       * 別のカスタム URL を追加するには、「**[!UICONTROL +]**」をクリックし、入力フィールドに URL を入力します。
 
-      * カスタム URL を削除するには、クリエイティブ行の上にカーソルを置き、「![ 削除 ](/help/creative/assets/delete.png " 削除 ")」をクリックします。
+      * カスタム URL を削除するには、クリエイティブ行の上にカーソルを置き、「![&#x200B; 削除 &#x200B;](/help/creative/assets/delete.png " 削除 ")」をクリックします。
 
       最大 5 つのカスタムインプレッショントラッキング URL、5 つのカスタムクリックトラッキング URL、1 つのカスタムランディングページ URL を含めることができます。
 
@@ -58,5 +58,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て ](experience-tag-assign-creatives.md)
->* [ デシジョンツリーのターゲット設定を使用したエクスペリエンス用のトラッキング URL のカスタマイズ ](experience-tracking-urls-targeting.md)
+>* [&#x200B; ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て &#x200B;](experience-tag-assign-creatives.md)
+>* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンス用のトラッキング URL のカスタマイズ &#x200B;](experience-tracking-urls-targeting.md)

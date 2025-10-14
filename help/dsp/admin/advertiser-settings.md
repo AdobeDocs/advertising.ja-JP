@@ -51,7 +51,7 @@ Experience Cloud商品をさらに持つ広告主は、Adobe Experience Cloud用
 >
 >以前にリンクされたレポートスイートを削除すると、DSPはそのスイートとデータを交換しなくなります。 データの変動が発生することが予想されます。
 
-[!DNL Analytics] との統合について詳しくは、「[ の概要  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) を参照してください。
+[!DNL Analytics] との統合について詳しくは、「[&#x200B; の概要  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) を参照してください。
 
 **[!UICONTROL Audiences]**/**[!UICONTROL Adobe Analytics Cloud]:** （Adobe Audience ManagerまたはAdobe Analyticsを使用する広告主。オプション）DSPがすべての広告主のAdobe オーディエンスのセグメントメタデータ、階層データおよび一意のオーディエンスデータを取り込むAudience Managerまたは [!DNL Analytics] アカウント。 これには、次のデータが含まれます。
 
@@ -86,7 +86,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL Contextual Filtering]
 
-適用する [!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science] および [!DNL Peer39] のコンテキストフィルターのタイプ。 広告主レベルの設定は、[ プレースメントレベル ](/help/dsp/campaign-management/placements/placement-settings.md) で上書きできます。
+適用する [!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science] および [!DNL Peer39] のコンテキストフィルターのタイプ。 広告主レベルの設定は、[&#x200B; プレースメントレベル &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) で上書きできます。
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-context}
 
@@ -108,7 +108,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL Pre-Bid Fraud Blocking] {#prebid-fraud-blocking}
 
-[!DNL DoubleVerify]、[!DNL Integral Ad Science]、[!DNL Peer39] を通じて測定された不正なトラフィックや疑わしいアクティビティに基づいてブロックされるサイトのタイプ。 広告主レベルの設定は、[ プレースメントレベル ](/help/dsp/campaign-management/placements/placement-settings.md) で上書きできます。
+[!DNL DoubleVerify]、[!DNL Integral Ad Science]、[!DNL Peer39] を通じて測定された不正なトラフィックや疑わしいアクティビティに基づいてブロックされるサイトのタイプ。 広告主レベルの設定は、[&#x200B; プレースメントレベル &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) で上書きできます。
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-fraud}
 
@@ -126,25 +126,25 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL Pre-Bid Viewability]
 
-オプションの pre-bid viewability では、プレースメントに適用する [!DNL DoubleVerify] と [!DNL Integral Ad Science] でフィルターします。 新しいプレースメントには、広告主レベルのデフォルトが選択されます。 広告主レベルの設定は、[ プレースメントレベル ](/help/dsp/campaign-management/placements/placement-settings.md) で上書きできます。
+オプションの pre-bid viewability では、プレースメントに適用する [!DNL DoubleVerify] と [!DNL Integral Ad Science] でフィルターします。 新しいプレースメントには、広告主レベルのデフォルトが選択されます。 広告主レベルの設定は、[&#x200B; プレースメントレベル &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) で上書きできます。
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-viewability}
 
 ###### ビデオ
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**。 このオプションを使用して、条件を選択します。
+**&#x200B; &#x200B;**&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**。 このオプションを使用して、条件を選択します。
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+**&#x200B; &#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**。 このオプションを使用して、条件を選択します。
+**&#x200B; &#x200B;**&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**。 このオプションを使用して、条件を選択します。
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**。 このオプションを使用して、条件を選択します。
+**&#x200B; &#x200B;**&#x200B;[!UICONTROL Include URL's whose average player size composition is]**。 このオプションを使用して、条件を選択します。
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+**&#x200B; &#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 表示
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**。 このオプションを使用して、条件を選択します。
+**&#x200B; &#x200B;**&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**。 このオプションを使用して、条件を選択します。
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -158,13 +158,13 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL Ads.text]
 
-**[!UICONTROL Ads.txt Filtering]:** デフォルト。各パブリッシャーの [!DNL Authorized Digital Sellers] リストを活用して、どのレベルの [[!DNL Ads.txt] pre-bid フィルタリング ](https://iabtechlab.com/ads-txt-about/) を使用するか：
+**[!UICONTROL Ads.txt Filtering]:** デフォルト。各パブリッシャーの [!DNL Authorized Digital Sellers] リストを活用して、どのレベルの [[!DNL Ads.txt] pre-bid フィルタリング &#x200B;](https://iabtechlab.com/ads-txt-about/) を使用するか：
 * *[!UICONTROL Opt out of ads.txt (default)]*：すべてのセラーから在庫を購入する場合。
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*：ドメインの承認済み直販業者および再販業者からの購買在庫を優先順位付けする手順です。
 * *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済み直販業者および再販業者からのみ在庫を購入する場合。
 * *[!UICONTROL Ads.txt sellers only]*：ドメインの承認済ダイレクト・セラーからのみ在庫を購入する場合。
 
-[ プレースメントレベル ](/help/dsp/campaign-management/placements/placement-settings.md) で広告主レベルの設定を上書きできます。
+[&#x200B; プレースメントレベル &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) で広告主レベルの設定を上書きできます。
 
 #### [!UICONTROL Safe Site Block]
 
@@ -178,6 +178,6 @@ ID は「51」で始まり、8 桁で構成する必要があります。 広告
 
 >[!MORELIKETHIS]
 >
->* [ 広告主アカウントの作成 ](/help/dsp/admin/advertiser-create.md)
+>* [&#x200B; 広告主アカウントの作成 &#x200B;](/help/dsp/admin/advertiser-create.md)
 
 <!-- >* [View the Advertiser List for the Account](/help/dsp/admin/advertiser-view.md) -->

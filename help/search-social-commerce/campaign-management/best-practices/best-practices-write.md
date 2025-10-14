@@ -84,5 +84,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ レポートを分析してキーワードとキャンペーン設定を絞り込む ](best-practices-analyze.md)
->* [Web サイトのランディングページの最適化 ](best-practices-optimize.md)
+>* [&#x200B; レポートを分析してキーワードとキャンペーン設定を絞り込む &#x200B;](best-practices-analyze.md)
+>* [Web サイトのランディングページの最適化 &#x200B;](best-practices-optimize.md)

@@ -14,9 +14,9 @@ ht-degree: 0%
 
 次の項目を削除できます。
 
-* [ ライブまたはドラフト ](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) ターゲット設定されたエクスペリエンス [ に割り当てられているバンドルに ](/help/creative/experiences/experience-about.md) らないクリエイティブ。
+* [&#x200B; ライブまたはドラフト &#x200B;](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) ターゲット設定されたエクスペリエンス [&#x200B; に割り当てられているバンドルに &#x200B;](/help/creative/experiences/experience-about.md) らないクリエイティブ。
 
-* ライブまたはドラフトの広告タグに割り当てられていないクリエイティブ [ ターゲット設定されていないエクスペリエンス ](/help/creative/experiences/experience-about.md)。
+* ライブまたはドラフトの広告タグに割り当てられていないクリエイティブ [&#x200B; ターゲット設定されていないエクスペリエンス &#x200B;](/help/creative/experiences/experience-about.md)。
 
 >[!NOTE]
 >
@@ -42,6 +42,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ クリエイティブライブラリへの標準クリエイティブの追加 ](creative-add-standard.md)
->* [ クリエイティブのプレビュー ](creative-preview.md)
->* [ クリエイティブをダウンロード ](creative-download.md)
+>* [&#x200B; クリエイティブライブラリへの標準クリエイティブの追加 &#x200B;](creative-add-standard.md)
+>* [&#x200B; クリエイティブのプレビュー &#x200B;](creative-preview.md)
+>* [&#x200B; クリエイティブをダウンロード &#x200B;](creative-download.md)

@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **コンバージョントラッキング：** コンバージョントラッキングでは、a）広告ネットワーク上の広告主の広告のクリック、b）広告主の web サイトでの結果のトランザクションを追跡するために cookie を使用します。
 
-**コスト精度：** （ポートフォリオを持つ広告主）ポートフォリオの実際の費用を、予測費用で割った値です。 [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、最適化に使用される原価モデルの精度を示します。[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) には、モデルの精度を向上させるための推奨事項に加えて、詳細が含まれています。
+**コスト精度：** （ポートフォリオを持つ広告主）ポートフォリオの実際の費用を、予測費用で割った値です。 [&#x200B; モデル精度レポート &#x200B;](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、最適化に使用される原価モデルの精度を示します。[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) には、モデルの精度を向上させるための推奨事項に加えて、詳細が含まれています。
 
 **コストモデル：** （ポートフォリオを持つ広告主） コスト量、各順位やプレースメントを獲得するために必要な入札、各入札単位の CPC （検索）またはCPM（表示）を履歴データや数学的予測手法を用いて予測する検索、ソーシャル、Commerceのテクノロジー。
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 **ROI:** （ROI）収益からコストを引いた値。
 
-**売上高精度：** （ポートフォリオを持つ広告主）ポートフォリオの実収益を予測収益で割った値。 [ モデルの精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、最適化に使用される売上高モデルの精度を示します。[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) には、モデルの精度を向上させるための推奨事項に加えて、詳細が含まれています。
+**売上高精度：** （ポートフォリオを持つ広告主）ポートフォリオの実収益を予測収益で割った値。 [&#x200B; モデルの精度レポート &#x200B;](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) は、最適化に使用される売上高モデルの精度を示します。[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) には、モデルの精度を向上させるための推奨事項に加えて、詳細が含まれています。
 
 **売上高モデル：** （ポートフォリオを有する広告主）クリック数（検索とソーシャル）またはインプレッション数（ディスプレイ）と広告主のコンバージョン数に基づいて、各入札単位のコンバージョン率と推定利回りを予測する検索、ソーシャル、Commerceのテクノロジー。
 

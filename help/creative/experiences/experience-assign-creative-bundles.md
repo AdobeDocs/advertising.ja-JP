@@ -20,13 +20,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->各最終ノードに 1 つ以上のクリエイティブバンドルを割り当てない場合、（エクスペリエンスを保存 [ する際に、未割り当ての各ノードに対してデフォルトのクリエイティブを使用することを選択でき ](experience-create-targeting.md) す。 エクスペリエンスを公開するには、バンドルを割り当てるか、最終ノードごとにデフォルトのクリエイティブを使用する必要があります。
+>各最終ノードに 1 つ以上のクリエイティブバンドルを割り当てない場合、（エクスペリエンスを保存 [&#x200B; する際に、未割り当ての各ノードに対してデフォルトのクリエイティブを使用することを選択でき &#x200B;](experience-create-targeting.md) す。 エクスペリエンスを公開するには、バンドルを割り当てるか、最終ノードごとにデフォルトのクリエイティブを使用する必要があります。
 
 <!-- 1. [ways to get to the decision tree] -->
 
 1. 次のいずれかの操作を行います。
 
-   * （クリエイティブのない最終ノード） ノードの下の ![ 追加 ](/help/creative/assets/add.png " 追加 ") をクリックし、**[!UICONTROL Assign Bundles]** を選択します。
+   * （クリエイティブのない最終ノード） ノードの下の ![&#x200B; 追加 &#x200B;](/help/creative/assets/add.png " 追加 ") をクリックし、**[!UICONTROL Assign Bundles]** を選択します。
 
    * （既存のクリエイティブを持つノード）ターゲットノードの下にあるクリエイティブバンドルボックスの上にカーソルを置き <!-- wording???? -->**[!UICONTROL ...]**/**[!UICONTROL Edit Bundles]** をクリックします。
 
@@ -36,9 +36,9 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Attach to Bundles]**」をクリックします。
 
-1. （任意） [ 割り当てられたバンドル内のクリエイティブのトラッキング URL をカスタマイズ ](experience-tracking-urls-targeting.md) できます。
+1. （任意） [&#x200B; 割り当てられたバンドル内のクリエイティブのトラッキング URL をカスタマイズ &#x200B;](experience-tracking-urls-targeting.md) できます。
 
-1. （オプション） [ 割り当てられたバンドルのクリエイティブの最適化とスケジュール設定をカスタマイズ ](experience-optimization-scheduling-targeting.md)。
+1. （オプション） [&#x200B; 割り当てられたバンドルのクリエイティブの最適化とスケジュール設定をカスタマイズ &#x200B;](experience-optimization-scheduling-targeting.md)。
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
@@ -51,11 +51,11 @@ These formatted steps are inserted automatically from text in the following file
 
 >[!MORELIKETHIS]
 >
->* [ 最終レベルへのターゲットノードの追加 ](experience-target-node-add-final.md)
->* [ ノード間にターゲットノードを挿入する ](experience-target-node-add-inner.md)
->* [ ノード間に兄弟ターゲットノードを追加する ](experience-target-node-add-sibling.md)
->* [ 子ノードとクリエイティブを同じレベルの別のノードにコピーする ](experience-target-node-copy.md)
->* [ デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 ](experience-create-targeting.md)
->* [ デシジョンツリーのターゲット設定を使用したエクスペリエンスの編集 ](experience-edit-targeting.md)
->* [ ターゲット設定エクスペリエンス設定 ](experience-settings-targeting.md)
->* [ ライブエクスペリエンス用の広告エクスペリエンスタグのエクスポートと実装 ](experience-tag-export.md)
+>* [&#x200B; 最終レベルへのターゲットノードの追加 &#x200B;](experience-target-node-add-final.md)
+>* [&#x200B; ノード間にターゲットノードを挿入する &#x200B;](experience-target-node-add-inner.md)
+>* [&#x200B; ノード間に兄弟ターゲットノードを追加する &#x200B;](experience-target-node-add-sibling.md)
+>* [&#x200B; 子ノードとクリエイティブを同じレベルの別のノードにコピーする &#x200B;](experience-target-node-copy.md)
+>* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 &#x200B;](experience-create-targeting.md)
+>* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンスの編集 &#x200B;](experience-edit-targeting.md)
+>* [&#x200B; ターゲット設定エクスペリエンス設定 &#x200B;](experience-settings-targeting.md)
+>* [&#x200B; ライブエクスペリエンス用の広告エクスペリエンスタグのエクスポートと実装 &#x200B;](experience-tag-export.md)

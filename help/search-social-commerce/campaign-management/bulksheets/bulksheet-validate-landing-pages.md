@@ -50,9 +50,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ バルクシートを使用した Campaign データの管理について ](bulksheet-about.md)
->* [ アップロードしたバルクシートおよびエラーファイルの削除 ](bulksheet-delete.md)
->* [ ポストバルクシートまたは修正されたエラーファイル ](bulksheet-post.md)
->* [ 進行中のバルクシート ジョブの停止 ](bulksheet-stop-job.md)
->* [ バルクシートまたは修正されたエラーファイルのアップロード ](bulksheet-upload.md)
->* [ 生成またはアップロードされたバルクシートファイルのエクスポート ](bulksheet-export.md)
+>* [&#x200B; バルクシートを使用した Campaign データの管理について &#x200B;](bulksheet-about.md)
+>* [&#x200B; アップロードしたバルクシートおよびエラーファイルの削除 &#x200B;](bulksheet-delete.md)
+>* [&#x200B; ポストバルクシートまたは修正されたエラーファイル &#x200B;](bulksheet-post.md)
+>* [&#x200B; 進行中のバルクシート ジョブの停止 &#x200B;](bulksheet-stop-job.md)
+>* [&#x200B; バルクシートまたは修正されたエラーファイルのアップロード &#x200B;](bulksheet-upload.md)
+>* [&#x200B; 生成またはアップロードされたバルクシートファイルのエクスポート &#x200B;](bulksheet-export.md)

@@ -18,11 +18,11 @@ Adobeアカウントチーム、エージェンシーチーム、または広告
 
 以下の方法で各キャンペーンのパフォーマンスを定期的に監視します。
 
-* 使用可能な [ カスタムアラート ](/help/search-social-commerce/alerts/alert-view.md) の表示。
+* 使用可能な [&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/alerts/alert-view.md) の表示。
 
 * 含まれているキャンペーンに関するアカウントの概要とパフォーマンスの詳細を表示します。
 
-* [[!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) （該当する場合）、[[!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)、[[!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md) および該当する場合はその他のパフォーマンスレポートを含む [ レポート ](/help/search-social-commerce/reports/report-about.md) を実行します。 ポートフォリオを使用する場合は、予測パフォーマンスと実際のパフォーマンスを必ず比較してください。
+* [[!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) （該当する場合）、[[!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)、[[!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md) および該当する場合はその他のパフォーマンスレポートを含む [&#x200B; レポート &#x200B;](/help/search-social-commerce/reports/report-about.md) を実行します。 ポートフォリオを使用する場合は、予測パフォーマンスと実際のパフォーマンスを必ず比較してください。
 
 ## パフォーマンスの管理と、キャンペーン構造とポートフォリオ構造の調整
 
@@ -36,7 +36,7 @@ Adobeアカウントチーム、エージェンシーチーム、または広告
 
 * キャンペーンを一時停止するか、ポートフォリオを非アクティブにして、キャンペーンの広告とキーワードの入札を停止します。
 
-* （該当する場合） [ 新しいポートフォリオへのキャンペーンの割り当て ](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
+* （該当する場合） [&#x200B; 新しいポートフォリオへのキャンペーンの割り当て &#x200B;](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
 
 * （該当する場合）パフォーマンスを向上させ、成長の機会を活用するために、ポートフォリオ戦略を調整する。
 
@@ -44,6 +44,6 @@ Adobeアカウントチーム、エージェンシーチーム、または広告
 
 >[!MORELIKETHIS]
 >
->* [ 検索、ソーシャル、Commerceでのキャンペーン管理について ](campaign-management-about.md)
->* [ 広告ネットワークアカウントとキャンペーンの実装の概要 ](campaign-implemention-overview.md)
->* [ 検索、ソーシャル、CommerceのGoogle Ads コンバージョンデータ ](google-conversion-data.md)
+>* [&#x200B; 検索、ソーシャル、Commerceでのキャンペーン管理について &#x200B;](campaign-management-about.md)
+>* [&#x200B; 広告ネットワークアカウントとキャンペーンの実装の概要 &#x200B;](campaign-implemention-overview.md)
+>* [&#x200B; 検索、ソーシャル、CommerceのGoogle Ads コンバージョンデータ &#x200B;](google-conversion-data.md)

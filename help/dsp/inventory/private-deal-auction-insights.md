@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # プライベート取引のオークションインサイトの表示
 
-オークションインサイトは、保証されている非公開取引と保証されていない非公開取引の両方の取引構成を分析できるトラブルシューティングツールです。 このツールでは、データのビジュアライゼーションを使用して、特定の期間内に [ 主要なオークション属性値 ](#auction-attributes) に対して受け取った値のトレンドと相対比率を表示します。
+オークションインサイトは、保証されている非公開取引と保証されていない非公開取引の両方の取引構成を分析できるトラブルシューティングツールです。 このツールでは、データのビジュアライゼーションを使用して、特定の期間内に [&#x200B; 主要なオークション属性値 &#x200B;](#auction-attributes) に対して受け取った値のトレンドと相対比率を表示します。
 
 1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals].** をクリックします。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * **MIME タイプ：** オークションでリクエストされた広告クリエイティブ MIME タイプ（mp4 や mov など）。
 
-![ オークションのインサイト ](/help/dsp/assets/auction-insights.png)
+![&#x200B; オークションのインサイト &#x200B;](/help/dsp/assets/auction-insights.png)
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プライベートインベントリについて ](private-inventory-about.md)
->* [ 取引 ID のプレースメントと広告の指定 ](deal-id-attach-placements.md)
->* [ 取引の詳細レポートの表示 ](deal-view-report.md)
->* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)
+>* [&#x200B; 取引 ID のプレースメントと広告の指定 &#x200B;](deal-id-attach-placements.md)
+>* [&#x200B; 取引の詳細レポートの表示 &#x200B;](deal-view-report.md)
+>* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ &#x200B;](/help/dsp/campaign-management/reports/campaign-reports-about.md)

@@ -36,4 +36,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 広告グループの管理 ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [&#x200B; 広告グループの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)

@@ -24,5 +24,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 広告グループの制約割り当ての管理 ](ad-group-constraint-assignments-manage.md)
->* [[!UICONTROL Ad Groups] 表示からのデータのダウンロード ](ad-group-view-report.md)
+>* [&#x200B; 広告グループの制約割り当ての管理 &#x200B;](ad-group-constraint-assignments-manage.md)
+>* [[!UICONTROL Ad Groups] 表示からのデータのダウンロード &#x200B;](ad-group-view-report.md)

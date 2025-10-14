@@ -28,5 +28,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 有効なテキストとコピーを書き込む ](best-practices-write.md)
->* [Web サイトのランディングページの最適化 ](best-practices-optimize.md)
+>* [&#x200B; 有効なテキストとコピーを書き込む &#x200B;](best-practices-write.md)
+>* [Web サイトのランディングページの最適化 &#x200B;](best-practices-optimize.md)

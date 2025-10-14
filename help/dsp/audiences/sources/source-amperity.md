@@ -16,15 +16,15 @@ ht-degree: 0%
 
 DSPと [!DNL Amperity] customer data platform の統合を使用すると、組織のファーストパーティのハッシュ化されたメールアドレスを、ターゲット広告のためのユニバーサル ID に変換できます。
 
-1. （メールアドレスを [!DNL RampIDs]<!-- or [!DNL ID5] IDs --> に変換するには：[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) を使用する広告主） [ トラッキングを設定して有効  [!DNL Analytics]  測定 ](#analytics-tracking) します。
+1. （メールアドレスを [!DNL RampIDs]<!-- or [!DNL ID5] IDs --> に変換するには：[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) を使用する広告主） [&#x200B; トラッキングを設定して有効  [!DNL Analytics]  測定 &#x200B;](#analytics-tracking) します。
 
-1. [DSPでオーディエンスソースを作成 ](#source-create) します。
+1. [DSPでオーディエンスソースを作成 &#x200B;](#source-create) します。
 
-1. [ セグメントマッピングデータの準備と共有 ](#map-data)。
+1. [&#x200B; セグメントマッピングデータの準備と共有 &#x200B;](#map-data)。
 
-1. [DSPからのデータのプッシュ  [!DNL Amperity]  リクエスト ](#push-data)。
+1. [DSPからのデータのプッシュ  [!DNL Amperity]  リクエスト &#x200B;](#push-data)。
 
-1. [ ユニバーサル ID の数とハッシュ化されたメールアドレスの数を比較 ](#compare-id-count)。
+1. [&#x200B; ユニバーサル ID の数とハッシュ化されたメールアドレスの数を比較 &#x200B;](#compare-id-count)。
 
 ## 手順 1:[!DNL Analytics] 測定のトラッキングの設定 {#analytics-tracking}
 
@@ -32,7 +32,7 @@ DSPと [!DNL Amperity] customer data platform の統合を使用すると、組�
 
 メールアドレスを [!DNL RampIDs] ID または [!DNL ID5] ID に変換するには、次の手順を実行する必要があります。
 
-1. （まだ行っていない場合）すべての [ 実装の前提条件  [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) を完了し、[AMO ID と EF ID](/help/integrations/analytics/ids.md) がトラッキング URL に入力されていることを確認します。
+1. （まだ行っていない場合）すべての [&#x200B; 実装の前提条件  [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) を完了し、[AMO ID と EF ID](/help/integrations/analytics/ids.md) がトラッキング URL に入力されていることを確認します。
 
 1. ユニバーサル ID パートナーに登録し、Web ページにユニバーサル ID 固有のコードをデプロイして、デスクトップおよびモバイル Web ブラウザーの ID からビュースルーへのコンバージョンに一致させます（モバイルアプリは除く）。
 
@@ -40,7 +40,7 @@ DSPと [!DNL Amperity] customer data platform の統合を使用すると、組�
 
 ## 手順 2:DSPでのオーディエンスソースの作成 {#source-create}
 
-1. [ オーディエンスソースを作成 ](source-manage.md) して、オーディエンスをDSP アカウントまたは広告主アカウントにインポートします。 ユーザー識別子を任意の [ 使用可能なユニバーサル ID 形式 ](source-about.md) に変換するよう選択できます。
+1. [&#x200B; オーディエンスソースを作成 &#x200B;](source-manage.md) して、オーディエンスをDSP アカウントまたは広告主アカウントにインポートします。 ユーザー識別子を任意の [&#x200B; 使用可能なユニバーサル ID 形式 &#x200B;](source-about.md) に変換するよう選択できます。
 
    ソース設定には、自動生成されたソースキーが含まれ、セグメントデータのプッシュに使用されます。
 
@@ -82,17 +82,17 @@ DSPと [!DNL Amperity] customer data platform の統合を使用すると、組�
 
 DSPがセグメントデータを受信したら、オーディエンス数は 9 時間以内に表示されます。
 
-オーディエンスライブラリ（[!UICONTROL Audiences]/[!UICONTROL All Audiences] またはプレースメント設定内でオーディエンスを作成または編集する際に使用できる）で、ユニバーサル ID の数を元のハッシュ化されたメールアドレスの数と比較します。 許容可能な ID 翻訳率と、セグメント数が変化する理由について詳しくは、「[ メール ID とユニバーサル ID の間のデータの相違 ](#universal-ids-data-variances) を参照してください。
+オーディエンスライブラリ（[!UICONTROL Audiences]/[!UICONTROL All Audiences] またはプレースメント設定内でオーディエンスを作成または編集する際に使用できる）で、ユニバーサル ID の数を元のハッシュ化されたメールアドレスの数と比較します。 許容可能な ID 翻訳率と、セグメント数が変化する理由について詳しくは、「[&#x200B; メール ID とユニバーサル ID の間のデータの相違 &#x200B;](#universal-ids-data-variances) を参照してください。
 
 ## トラブルシューティング
 
-翻訳率とユーザー数の問題のトラブルシューティングについては、「[ ユニバーサル ID のアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)」を参照してください。
+翻訳率とユーザー数の問題のトラブルシューティングについては、「[&#x200B; ユニバーサル ID のアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)」を参照してください。
 
 コンバージョン手順に関する問題のトラブルシューティングについては、Adobeアカウントチームまたは `adcloud-support@adobe.com` に問い合わせてください。
 
 >[!MORELIKETHIS]
 >
->* [ ファーストパーティオーディエンスソースについて ](/help/dsp/audiences/sources/source-about.md)
->* [ ユニバーサル ID オーディエンスをアクティブ化するためのオーディエンスソースの管理 ](source-manage.md)
->* [ ユニバーサル ID のアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)
->* [Audience Management について ](/help/dsp/audiences/audience-about.md)
+>* [&#x200B; ファーストパーティオーディエンスソースについて &#x200B;](/help/dsp/audiences/sources/source-about.md)
+>* [&#x200B; ユニバーサル ID オーディエンスをアクティブ化するためのオーディエンスソースの管理 &#x200B;](source-manage.md)
+>* [&#x200B; ユニバーサル ID のアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)
+>* [Audience Management について &#x200B;](/help/dsp/audiences/audience-about.md)

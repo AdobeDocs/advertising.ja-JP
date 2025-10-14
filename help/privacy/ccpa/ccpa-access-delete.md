@@ -29,7 +29,7 @@ Adobe Advertisingは、お客様のサービスプロバイダーとして、お
 
 Advertising DSPが個人情報の販売のオプトアウトに対するコンシューマーの権利をサポートする方法について詳しくは、[Adobe Advertising Consumer Privacy Act: Consumer Opt-out Support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md) を参照してください。
 
-CCPA のAdobe プライバシーサービスについて詳しくは、[Adobe プライバシーセンター ](https://www.adobe.com/privacy/ccpa.html) を参照してください。
+CCPA のAdobe プライバシーサービスについて詳しくは、[Adobe プライバシーセンター &#x200B;](https://www.adobe.com/privacy/ccpa.html) を参照してください。
 
 ## Adobe Advertisingでサポートされるデータリクエストタイプ
 
@@ -94,7 +94,7 @@ Adobe Advertisingからサポートを受けるにはすべての手順が必要
 
 * `"user IDs":`
 
-   * `"namespace": **411**` （[[!DNL AdCloud] cookie 領域 ](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix) を示します）
+   * `"namespace": **411**` （[[!DNL AdCloud] cookie 領域 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix) を示します）
 
    * `"value":` &lt;*`AdobePrivacy.js`* から取得した実際の顧客の Cookie ID 値 >
 

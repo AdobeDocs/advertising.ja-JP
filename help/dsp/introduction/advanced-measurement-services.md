@@ -85,4 +85,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[Adobe Advertisingでサポートされる通貨 ](/help/dsp/currency.md)
+>[Adobe Advertisingでサポートされる通貨 &#x200B;](/help/dsp/currency.md)

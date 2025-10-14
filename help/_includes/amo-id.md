@@ -13,7 +13,7 @@ AMO ID は、一意の各広告の組み合わせを細かいレベルで追跡�
 
 [!DNL Analytics]:AMO ID は、[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja) または rVar ディメンション（AMO ID）に保存されます。
 
-Customer Journey Analyticsの場合、AMO ID は、`trackingCode` `conversionDetails` の一部である [ オブジェクトの [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] プロパティに保存さ ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) ます。
+Customer Journey Analyticsの場合、AMO ID は、`trackingCode` `conversionDetails` の一部である [&#x200B; オブジェクトの [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] プロパティに保存さ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) ます。
 
 AMO ID は `s_kwcid` とも呼ばれ、「[!DNL squid]」と発音されることがあります。
 
@@ -82,7 +82,7 @@ AMO ID の例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 >
 >* 動的検索広告の場合は、自動ターゲット {keyword} 設定されます。
 >* [!DNL Google] のショッピング広告のトラッキングを生成すると、製品 ID パラメーター `{adwords_producttargetid}` がキーワードパラメーターの前に挿入されます。 製品 ID パラメーターは、[!DNL Google Ads] アカウントレベルとキャンペーンレベルのトラッキングパラメーターには表示されません。
->* 最新の AMO ID トラッキングコードを使用するには、「[ アカウントの AMO ID トラッキングコードの更新  [!DNL Google Ads]  を参照してください。](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md) <!-- Update terminology there too. -->
+>* 最新の AMO ID トラッキングコードを使用するには、「[&#x200B; アカウントの AMO ID トラッキングコードの更新  [!DNL Google Ads]  を参照してください。](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md) <!-- Update terminology there too. -->
 
 <!--
 

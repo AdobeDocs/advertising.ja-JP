@@ -18,11 +18,11 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
 
-1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
+1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
 
-1. 右上のツールバーで、「![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
+1. 右上のツールバーで、「![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
 
    ファイルは、ブラウザーのデフォルトのダウンロードフォルダーに保存されます。
 
 >[!MORELIKETHIS]
->* [Advertising Creativeでのエクスペリエンスについて ](/help/creative/experiences/experience-about.md)
+>* [Advertising Creativeでのエクスペリエンスについて &#x200B;](/help/creative/experiences/experience-about.md)

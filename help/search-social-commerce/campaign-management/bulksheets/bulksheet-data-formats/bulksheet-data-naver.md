@@ -55,10 +55,10 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Keyword,Base URL,Destination URL,
 
 >[!MORELIKETHIS]
 >
->* [ 付録 – バルクシート エラー ](../bulksheet-errors.md)
->* [ バルクシートで実行できる操作 ](bulksheet-operations.md)
->* [ サポートされるバルクシート ファイル形式 ](bulksheet-file-formats.md)
->* [ バルクシートファイルのダウンロード/作成 ](../bulksheet-download.md)
->* [ のクリック追跡形式  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
->* [ バルクシートファイルまたは修正されたエラーファイルのアップロード ](../bulksheet-upload.md)
->* [ 実装  [!DNL Naver]  トラッキング専用アカウント ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [&#x200B; 付録 – バルクシート エラー &#x200B;](../bulksheet-errors.md)
+>* [&#x200B; バルクシートで実行できる操作 &#x200B;](bulksheet-operations.md)
+>* [&#x200B; サポートされるバルクシート ファイル形式 &#x200B;](bulksheet-file-formats.md)
+>* [&#x200B; バルクシートファイルのダウンロード/作成 &#x200B;](../bulksheet-download.md)
+>* [&#x200B; のクリック追跡形式  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
+>* [&#x200B; バルクシートファイルまたは修正されたエラーファイルのアップロード &#x200B;](../bulksheet-upload.md)
+>* [&#x200B; 実装  [!DNL Naver]  トラッキング専用アカウント &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)

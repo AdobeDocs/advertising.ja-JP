@@ -11,7 +11,7 @@ ht-degree: 0%
 
 Adobe Advertisingコンバージョントラッキングを使用するアカウントでは、アドネットワークのクリック識別子（[!DNL Google Ads] の場合は `gclid`、[!DNL Microsoft Advertising] の場合は `msclkid`）をサフィックスに含める必要があります。
 
-Adobe Analytics統合を使用するアカウントでは、s_kwcid パラメーターを使用する必要があります。 アカウントにサーバー側の s_kwcid 実装がある場合は、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、手動でここに追加する必要があります。 詳しくは、[Google Advertisingに必要なサフィックス形式 ](/help/search-social-commerce/tracking/formats-click-tracking-google.md) および [Microsoft Ads に必要なサフィックス形式 ](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md) を参照してください。
+Adobe Analytics統合を使用するアカウントでは、s_kwcid パラメーターを使用する必要があります。 アカウントにサーバー側の s_kwcid 実装がある場合は、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、手動でここに追加する必要があります。 詳しくは、[Google Advertisingに必要なサフィックス形式 &#x200B;](/help/search-social-commerce/tracking/formats-click-tracking-google.md) および [Microsoft Ads に必要なサフィックス形式 &#x200B;](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md) を参照してください。
 
 **注：**
 

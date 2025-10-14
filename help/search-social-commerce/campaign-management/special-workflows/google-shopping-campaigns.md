@@ -20,40 +20,40 @@ ht-degree: 0%
 
 ## 買い物キャンペーン [!DNL Google Ads] 設定手順
 
-[ 在庫フィードテンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) を使用するか、[bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用するか、または個別に使用して、ショッピングキャンペーンを設定で [!DNL Google Shopping] ます。 以下の手順には、個々のエンティティの作成へのリンクが含まれます。
+[&#x200B; 在庫フィードテンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) を使用するか、[bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用するか、または個別に使用して、ショッピングキャンペーンを設定で [!DNL Google Shopping] ます。 以下の手順には、個々のエンティティの作成へのリンクが含まれます。
 
 1. [!DNL Google Merchant Center] アカウントを設定し、製品データを入力します。
 
-1. [ 検索、ソーシャル、Commerceが  [!DNL Google Merchant Center]  アカウントからデータをダウンロードするのを許可する ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
+1. [&#x200B; 検索、ソーシャル、Commerceが  [!DNL Google Merchant Center]  アカウントからデータをダウンロードするのを許可する &#x200B;](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
 
-1. ショッピングネットワーク上で [ キャンペーンを作成 ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) します。
+1. ショッピングネットワーク上で [&#x200B; キャンペーンを作成 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) します。
 
-1. キャンペーン内で [ 広告グループを作成 ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) し、すべての広告にデフォルト入札を設定します。
+1. キャンペーン内で [&#x200B; 広告グループを作成 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) し、すべての広告にデフォルト入札を設定します。
 
    個々の製品グループのデフォルト入札を上書きできます。
 
 1. 広告グループの製品グループを作成します。
 
-   1. [ 「すべての製品」製品グループを作成 ](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)。
+   1. [&#x200B; 「すべての製品」製品グループを作成 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)。
 
-   1. （任意） [ 子製品グループを作成 ](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) します。
+   1. （任意） [&#x200B; 子製品グループを作成 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) します。
 
    >[!NOTE]
    >ショッピング広告を作成する必要はありません。 広告グループに広告エンティティが含まれていない場合でも、[!DNL Google Ads] では引き続き製品の広告が表示されます。
 
-1. （任意）広告のクリックをトラッキングするには、[ トラッキング URL ツールを使用してトラッキング URL を生成 ](/help/search-social-commerce/tools/click-tracking-url-generate.md) してアカウント、キャンペーン、製品グループの設定に追加します。
+1. （任意）広告のクリックをトラッキングするには、[&#x200B; トラッキング URL ツールを使用してトラッキング URL を生成 &#x200B;](/help/search-social-commerce/tools/click-tracking-url-generate.md) してアカウント、キャンペーン、製品グループの設定に追加します。
 
 1. [!UICONTROL AdWords Shopping Performance Report][&#128279;](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md) と [!UICONTROL Product Group Report][&#128279;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md) を生成して  パフォーマンスを監視  ます。
 
 1. 必要に応じて、
 
-   1. [ キャンペーン設定を編集 ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) して、キャンペーンの予算を調整します。
+   1. [&#x200B; キャンペーン設定を編集 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) して、キャンペーンの予算を調整します。
 
       キャンペーンがポートフォリオの一部である場合、ポートフォリオ設定「[!UICONTROL Auto adjust campaign budget limits]」を使用すると、検索、ソーシャルおよびCommerceで、ポートフォリオ内のすべてのキャンペーンの予算を最適化できます。
 
-   1. [ 広告を作成する必要がなくなった既存の製品グループの最大入札額を調整 ](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)、[ 製品グループを削除 ](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)、または [ 新しい「すべての製品」製品グループ ](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)）または [ 新しい子製品グループ ](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) を追加して、追加の製品の広告を作成します。
+   1. [&#x200B; 広告を作成する必要がなくなった既存の製品グループの最大入札額を調整 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)、[&#x200B; 製品グループを削除 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)、または [&#x200B; 新しい「すべての製品」製品グループ &#x200B;](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)）または [&#x200B; 新しい子製品グループ &#x200B;](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) を追加して、追加の製品の広告を作成します。
 
 >[!NOTE]
 >
->* [ バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md) および [ 在庫フィードテンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md) を使用して [!DNL Google Shopping] キャンペーンおよび製品グループを管理するための必須フィールドを参照してください。
->* [!DNL Google Shopping] キャンペーンについて詳しくは、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/2454022) を参照してください。
+>* [&#x200B; バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md) および [&#x200B; 在庫フィードテンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md) を使用して [!DNL Google Shopping] キャンペーンおよび製品グループを管理するための必須フィールドを参照してください。
+>* [!DNL Google Shopping] キャンペーンについて詳しくは、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/2454022) を参照してください。

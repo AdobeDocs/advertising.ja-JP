@@ -42,13 +42,13 @@ ht-degree: 0%
 
    <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
-1. （任意）クリエイティブをダウンロードするには、「![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
+1. （任意）クリエイティブをダウンロードするには、「![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
 >[!MORELIKETHIS]
 >
->* [ クリエイティブライブラリへの標準クリエイティブの追加 ](/help/creative/creative-libraries/creative-add-standard.md)
->* [ 標準クリエイティブを編集 ](/help/creative/creative-libraries/creative-edit-standard.md)
->* [ クリエイティブをダウンロード ](/help/creative/creative-libraries/creative-download.md)
->* [ クリエイティブを削除 ](/help/creative/creative-libraries/creative-delete.md)
+>* [&#x200B; クリエイティブライブラリへの標準クリエイティブの追加 &#x200B;](/help/creative/creative-libraries/creative-add-standard.md)
+>* [&#x200B; 標準クリエイティブを編集 &#x200B;](/help/creative/creative-libraries/creative-edit-standard.md)
+>* [&#x200B; クリエイティブをダウンロード &#x200B;](/help/creative/creative-libraries/creative-download.md)
+>* [&#x200B; クリエイティブを削除 &#x200B;](/help/creative/creative-libraries/creative-delete.md)

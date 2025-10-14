@@ -42,19 +42,19 @@ Adobe Advertisingを Analytics と統合するには、次の方法がありま�
 
 <!-- Verify all -->
 
-[!DNL Search, Social, & Commerce] 内では、既存の [!DNL Analytics] セグメント [!DNL Google Ads] 使用して、ユーザー ID からGoogle カスタマーマッチオーディエンスを作成できます。 これには、Adobe Experience Cloudに公開されるAdobe Analytics セグメントと、Adobe Experience Cloud [!DNL Audience Library] を使用して作成されるセグメントが含まれます。 詳しくは、「[ オーディエンスから  [!DNL Google Ads]  オーディエンスに一致する顧客の作成  [!DNL Adobe]  オーディエンス ](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)」を参照してください。
+[!DNL Search, Social, & Commerce] 内では、既存の [!DNL Analytics] セグメント [!DNL Google Ads] 使用して、ユーザー ID からGoogle カスタマーマッチオーディエンスを作成できます。 これには、Adobe Experience Cloudに公開されるAdobe Analytics セグメントと、Adobe Experience Cloud [!DNL Audience Library] を使用して作成されるセグメントが含まれます。 詳しくは、「[&#x200B; オーディエンスから  [!DNL Google Ads]  オーディエンスに一致する顧客の作成  [!DNL Adobe]  オーディエンス &#x200B;](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)」を参照してください。
 
-[ ユーザー ID からのカスタマーマッチオーディエンス ](https://support.google.com/google-ads/answer/9199250) は web サイトタグベースのオーディエンスと同様に機能しますが、非 PII ID は一意のオーディエンスメンバーに割り当てられるので、標準のカスタマーマッチや web サイトタグベースのオーディエンスよりも明確なメリットがあります。
+[&#x200B; ユーザー ID からのカスタマーマッチオーディエンス &#x200B;](https://support.google.com/google-ads/answer/9199250) は web サイトタグベースのオーディエンスと同様に機能しますが、非 PII ID は一意のオーディエンスメンバーに割り当てられるので、標準のカスタマーマッチや web サイトタグベースのオーディエンスよりも明確なメリットがあります。
 
 必要なユーザー ID を作成するには、web サイトでAdobe AdvertisingのJavaScript タグ <!-- with a user ID parameter --> を使用する必要があります。 詳しくは、Adobeアカウントチームにお問い合わせください。
 
-![ セグメント作成プロセス ](/help/integrations/assets/ad_search_user_id_pic.png)
+![&#x200B; セグメント作成プロセス &#x200B;](/help/integrations/assets/ad_search_user_id_pic.png)
 
-オーディエンスを作成したら、[!DNL Google Ads] のキャンペーンで [ キャンペーンレベルまたは広告グループレベルのターゲットまたは除外 ](#audience-manager-targets) として使用できます。
+オーディエンスを作成したら、[!DNL Google Ads] のキャンペーンで [&#x200B; キャンペーンレベルまたは広告グループレベルのターゲットまたは除外 &#x200B;](#audience-manager-targets) として使用できます。
 
 ### [!DNL Analytics] セグメントを使用した広告のターゲティングまたは除外 {#analytics-targets}
 
-* （[!DNL Search, Social, & Commerce] を使用したオプトインの広告主）キャンペーンレベルまたは広告グループレベルのターゲットまたは除外として [ [!DNL Analytics]  セグメントを使用して作成 ](#audience-manager-google-audiences) された任意の [!DNL Google Ads] オーディエンスを、[!DNL Google Ads] キャンペーンで使用できます。
+* （[!DNL Search, Social, & Commerce] を使用したオプトインの広告主）キャンペーンレベルまたは広告グループレベルのターゲットまたは除外として [&#x200B; [!DNL Analytics]  セグメントを使用して作成 &#x200B;](#audience-manager-google-audiences) された任意の [!DNL Google Ads] オーディエンスを、[!DNL Google Ads] キャンペーンで使用できます。
 
 * （DSPを使用する広告主）既存の [!DNL Analytics] セグメントを広告プレースメントのターゲットとして使用できます。 オプションで、再利用可能なオーディエンスにセグメントを含めることができ、複数のプレースメントのターゲットまたは除外として使用できます。
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta機能*
 
-カスタムシミュレーションは、（最適化またはアクティブ [ ポートフォリオに対して生成 ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) きます。 また、既存のシミュレーションのパラメータを変更してシミュレーションを再生成するか、既存のパラメータを使用して既存のシミュレーションを再実行することもできます。
+カスタムシミュレーションは、（最適化またはアクティブ [&#x200B; ポートフォリオに対して生成 &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) きます。 また、既存のシミュレーションのパラメータを変更してシミュレーションを再生成するか、既存のパラメータを使用して既存のシミュレーションを再実行することもできます。
 
 [!UICONTROL Admin] および [!UICONTROL Account Manager] ユーザーは、他のユーザーが作成したシミュレーションを表示できます。 他のすべてのユーザーには、作成したカスタムシミュレーションのみが表示されます。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. 「**[!UICONTROL Proceed]**」をクリックします。
 
-1. [ カスタム シミュレーション設定 ](#custom-simulation-settings) を指定します。
+1. [&#x200B; カスタム シミュレーション設定 &#x200B;](#custom-simulation-settings) を指定します。
 
    1. （オプション）シミュレーションに使用するポートフォリオを変更するには、ポートフォリオ名の横にある [**[!UICONTROL Change Portfolio]**] をクリックし、ポートフォリオを選択して、[**[!UICONTROL Proceed]**] をクリックします。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 1. データ テーブルの上にある [**[!UICONTROL Run Simulation]**] をクリックします。
 
-1. [ カスタム シミュレーション設定 ](#custom-simulation-settings) を指定します。
+1. [&#x200B; カスタム シミュレーション設定 &#x200B;](#custom-simulation-settings) を指定します。
 
    1. （オプション）シミュレーションに使用するポートフォリオを変更するには、ポートフォリオ名の横にある [**[!UICONTROL Change Portfolio]**] をクリックし、ポートフォリオを選択して、[**[!UICONTROL Proceed]**] をクリックします。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 1. 再実行するシミュレーションの横にあるチェック ボックスをオンにします。
 
-1. データ テーブルの上にあるツールバーで、[![ 再実行 ](/help/search-social-commerce/assets/rerun.png " 再実行 ")] をクリックします。
+1. データ テーブルの上にあるツールバーで、[![&#x200B; 再実行 &#x200B;](/help/search-social-commerce/assets/rerun.png " 再実行 ")] をクリックします。
 
 ## カスタムシミュレーション設定 {#custom-simulation-settings}
 
@@ -106,5 +106,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ シミュレーションについて ](simulation-about.md)
->* [ シミュレーションのダウンロード ](simulation-download.md)
+>* [&#x200B; シミュレーションについて &#x200B;](simulation-about.md)
+>* [&#x200B; シミュレーションのダウンロード &#x200B;](simulation-download.md)

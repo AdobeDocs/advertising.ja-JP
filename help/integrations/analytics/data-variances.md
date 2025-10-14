@@ -40,7 +40,7 @@ ht-degree: 0%
 
   ユーザーがコンバージョンする前に、売上高をコンバージョンタイプとして、3 つの異なるAdobe Advertising広告を操作したとします。 Adobe Advertisingレポートでアトリビューションに偶数配分モデルを使用する場合、売上高はすべての広告に均等に関連付けられます。 ただし、ラストタッチ アトリビューションモデルを使用する [!DNL Analytics] 合は、売上高は最後の広告に関連付けられます。 次の例では、Adobe Advertisingが 3 つの広告のそれぞれに取り込んだ 30 USD の売上高のうち 10 USD でもアトリビューションするのに対して、[!DNL Analytics] では、ユーザーが最後に閲覧した広告に 30 USD の売上高をすべて関連付けています。 Adobe Advertisingと [!DNL Analytics] のレポートを比較すると、アトリビューションの違いの影響を確認できます。
 
-  ![ 異なるアトリビューションモデルに基づくAdobe Advertisingと [!DNL Analytics] に起因する異なる売上高 ](/help/integrations/assets/a4adc-attribution-example.png)
+  ![&#x200B; 異なるアトリビューションモデルに基づくAdobe Advertisingと [!DNL Analytics] に起因する異なる売上高 &#x200B;](/help/integrations/assets/a4adc-attribution-example.png)
 
 >[!IMPORTANT]
 >
@@ -56,7 +56,7 @@ Adobe Advertisingでは、アトリビューションはクリック数とイン
 
 次の例では、訪問者に 1 日目に広告が配信され、2 日目にビュースルー訪問（つまり、以前に広告をクリックせずに広告のランディングページを訪問）を実行し、45 日目にコンバージョンが行われたとします。 この場合、Adobe Advertisingは（14 日間のルックバックを使用して） 1 日目から 14 日目までユーザーを追跡 [!DNL Analytics]、2 日目から 61 日目まで（60 日間のルックバックを使用）を追跡し、45 日目のコンバージョンはAdobe Advertising内ではなく [!DNL Analytics] 日以内の広告に関連付けられます。
 
-![Adobe Advertisingではなく [!DNL Analytics] に起因するビュースルーコンバージョンの例 ](/help/integrations/assets/a4adc-viewthrough-example.png)
+![Adobe Advertisingではなく [!DNL Analytics] に起因するビュースルーコンバージョンの例 &#x200B;](/help/integrations/assets/a4adc-viewthrough-example.png)
 
 その他の不一致の原因として、Adobe Advertisingでは、ビュースルーコンバージョンに、クリックベースのコンバージョンに起因する重み付けを基準としたカスタム *ビュースルーの重み付け* を割り当てることができることがあります。 デフォルトのビュースルーの重み付けは 40% です。つまり、ビュースルーのコンバージョンは、クリックベースのコンバージョンの値の 40% としてカウントされます。 [!DNL Analytics] では、ビュースルーコンバージョンのそのような重み付けは提供していません。 例えば、[!DNL Analytics] で取得した 100 USD の売上高の注文に対して、デフォルトのビュースルー重み付けを使用している場合、Adobe Advertisingとして 40 USD が割り引かれます。この差は 60 USD です。
 
@@ -98,11 +98,11 @@ Adobe Advertisingレポートと [!DNL Analytics] レポートレポートのビ
 
 Adobe Advertisingとして、コンバージョンデータは、関連するクリック日/イベント日（クリックまたはインプレッションイベントの日付）または取引日（コンバージョン日）のいずれかでレポートできます。 クリック/イベント日レポートの概念は [!DNL Analytics] には存在しません。[!DNL Analytics] で追跡されるすべてのコンバージョンは、トランザクションの日付ごとにレポートされます。 その結果、同じコンバージョンが、Adobe Advertisingと [!DNL Analytics] で異なる日付でレポートされる場合があります。 例えば、1 月 1 日に広告をクリックし、1 月 5 日にコンバージョンを行ったユーザーについて考えます。 コンバージョンデータをイベント日別にAdobe Advertisingで表示している場合は、クリックが発生した 1 月 1 日にコンバージョンがレポートされます。 [!DNL Analytics] 年 1 月 5 日も同じコンバージョンが報告されています。
 
-![ 異なる日付に起因するコンバージョンの例 ](/help/integrations/assets/a4adc-conversions-based-on.png)
+![&#x200B; 異なる日付に起因するコンバージョンの例 &#x200B;](/help/integrations/assets/a4adc-conversions-based-on.png)
 
 ## [!DNL Analytics Marketing Channels] のアトリビューション
 
-[[!DNL Analytics Marketing Channels]  レポート ](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=ja) を使用すると、ヒット情報の異なる側面に基づいて様々なマーケティングチャネルを識別するルールを設定できます。 `ef_id` のクエリ文字列パラメーターを使用してチャンネルを特定することで、Adobe Advertisingがトラッキングするチャンネル（[!UICONTROL Display Click Through]、[!UICONTROL Display View Through]、[!UICONTROL Paid Search]）を [!DNL Marketing Channels] のようにトラッキングできます。 <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> ただし、[!DNL Marketing Channels] レポートではAdobe Advertisingチャネルをトラッキングできますが、いくつかの理由で、データがAdobe Advertisingレポートと一致しない場合があります。 詳しくは、次の節を参照してください。
+[[!DNL Analytics Marketing Channels]  レポート &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=ja) を使用すると、ヒット情報の異なる側面に基づいて様々なマーケティングチャネルを識別するルールを設定できます。 `ef_id` のクエリ文字列パラメーターを使用してチャンネルを特定することで、Adobe Advertisingがトラッキングするチャンネル（[!UICONTROL Display Click Through]、[!UICONTROL Display View Through]、[!UICONTROL Paid Search]）を [!DNL Marketing Channels] のようにトラッキングできます。 <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> ただし、[!DNL Marketing Channels] レポートではAdobe Advertisingチャネルをトラッキングできますが、いくつかの理由で、データがAdobe Advertisingレポートと一致しない場合があります。 詳しくは、次の節を参照してください。
 
 >[!NOTE]
 >
@@ -126,11 +126,11 @@ Adobe Advertisingレポートは、Adobe Advertising（[!DNL Advertising Search,
 
 ![Adobe Advertisingと [!DNL Analytics Marketing Channels]](/help/integrations/assets/a4adc-channel-example.png) で異なるコンバージョンアトリビューションの例
 
-指標が変化する理由の詳細については、「Adobe Advertisingとでチャネルデータが変化する理由 [ を参照してくだ  [!DNL Marketing Channels]](marketing-channels/mc-data-variances.md) い。
+指標が変化する理由の詳細については、「Adobe Advertisingとでチャネルデータが変化する理由 [&#x200B; を参照してくだ  [!DNL Marketing Channels]](marketing-channels/mc-data-variances.md) い。
 
 ## Adobe Analytics [!DNL Paid Search Detection] におけるデータの違い
 
-[!DNL Analytics] の [ レガシー  [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=ja) 機能を使用すると、企業は指定した検索エンジンの [ 有料検索トラフィックとオーガニック検索トラフィックを追跡するルールを定義 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=ja) できます。 [!DNL Paid Search Detection] ルールでは、クエリ文字列と参照ドメインの両方を使用して、有料検索トラフィックと自然検索トラフィックを識別します。 [!DNL Paid Search Detection] レポートは、多数の [ 検索方法 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=ja) レポートの一部であり、指定したイベント（買い物かごのチェックアウトなど）が発生するか、訪問が終了すると有効期限が切れます。
+[!DNL Analytics] の [&#x200B; レガシー  [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=ja) 機能を使用すると、企業は指定した検索エンジンの [&#x200B; 有料検索トラフィックとオーガニック検索トラフィックを追跡するルールを定義 &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=ja) できます。 [!DNL Paid Search Detection] ルールでは、クエリ文字列と参照ドメインの両方を使用して、有料検索トラフィックと自然検索トラフィックを識別します。 [!DNL Paid Search Detection] レポートは、多数の [&#x200B; 検索方法 &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=ja) レポートの一部であり、指定したイベント（買い物かごのチェックアウトなど）が発生するか、訪問が終了すると有効期限が切れます。
 
 [!DNL Paid Search Detection] しいルールセットを作成するためのインターフェイスを次に示します。
 
@@ -185,7 +185,7 @@ The following is an example of a workspace to track clicks to instances.
 
 * アカウントまたは任意のサブレベルのクリック追跡が欠落していないか、重複しているクリック追跡はありますか（例えば、アカウントレベルとキャンペーンレベルの両方で）?
 
-  検索、ソーシャル、Commerceで、アカウントの [ バルクシートをダウンロード ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) してトラッキング URL を確認します。
+  検索、ソーシャル、Commerceで、アカウントの [&#x200B; バルクシートをダウンロード &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) してトラッキング URL を確認します。
 
   また、[!DNL Analytics] では、次のように計算される「[!DNL AMO ID] to [!DNL EF ID]」計算指標を使用して、AMO ID と EF IF が一貫して追加されているかどうかを確認できます。
 
@@ -237,13 +237,13 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 * **クリック：** [!DNL DSP] または検索エンジンは、訪問者がパブリッシャーの web サイト上の広告をクリックした際のクリックを記録します。
 
-* **訪問：** [!DNL Analytics] は、ユーザーによる一連のページビューとして [ 訪問 ](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=ja) を定義し、30 分間無操作状態など、いくつかの条件のいずれかに従って終了します。
+* **訪問：** [!DNL Analytics] は、ユーザーによる一連のページビューとして [&#x200B; 訪問 &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=ja) を定義し、30 分間無操作状態など、いくつかの条件のいずれかに従って終了します。
 
 定義として、クリックは複数の訪問につながる可能性があります。
 
 次の例を考えてみましょう。ユーザー 1 とユーザー 2 は両方とも、Adobe Advertising広告をクリックしてサイトにアクセスします。 ユーザー 1 は 4 ページを表示して、その日のうちに離れるので、最初のクリックは 1 回の訪問となります。 ユーザー 2 は 2 ページを表示し、45 分間の昼食に残して戻り、さらに 2 ページを表示してから離れます。この場合、最初のクリックで 2 回の訪問が発生します。
 
-![ クリック数と訪問数の違いの例 ](/help/integrations/assets/a4adc-visits-example.png)
+![&#x200B; クリック数と訪問数の違いの例 &#x200B;](/help/integrations/assets/a4adc-visits-example.png)
 
 ### クリックとクリックスルーの違い
 
@@ -263,26 +263,26 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 ### 非Adobe AdvertisingDimensionに対するAdobe Advertisingトラフィック指標の使用
 
-Adobe Advertisingは、Analytics に [ 広告固有のトラフィック指標と、からの関連ディメンション  [!DNL DSP]  および  [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md) を提供します。 Adobe Advertisingが提供する指標は、指定されたAdobe Advertisingディメンションにのみ適用され、[!DNL Analytics] の他のディメンションではデータを使用できません。
+Adobe Advertisingは、Analytics に [&#x200B; 広告固有のトラフィック指標と、からの関連ディメンション  [!DNL DSP]  および  [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md) を提供します。 Adobe Advertisingが提供する指標は、指定されたAdobe Advertisingディメンションにのみ適用され、[!DNL Analytics] の他のディメンションではデータを使用できません。
 
 例えば、[!UICONTROL Adobe Advertising Clicks] および [!UICONTROL Adobe Advertising Cost] 指標を勘定科目別に表示した場合（Adobe Advertising次元）、[!UICONTROL Adobe Advertising Clicks] および [!UICONTROL Adobe Advertising Cost] の合計が勘定科目別に表示されます。
 
-![Adobe Advertisingディメンションを使用したレポートのAdobe Advertising指標の例 ](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
+![Adobe Advertisingディメンションを使用したレポートのAdobe Advertising指標の例 &#x200B;](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
 ただし、Adobe Advertisingがデータを提供しないオンページディメンション（ページなど）で [!UICONTROL Adobe Advertising Clicks] と [!UICONTROL Adobe Advertising Cost] の指標を表示した場合、各ページの [!UICONTROL Adobe Advertising Clicks] と [!UICONTROL Adobe Advertising Cost] はゼロ（0）になります。
 
-![ サポートされていないディメンションを使用したレポートのAdobe Advertising指標の例 ](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
+![&#x200B; サポートされていないディメンションを使用したレポートのAdobe Advertising指標の例 &#x200B;](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 
 ### Adobe Advertising以外のDimensionを使用したクリックの代用としての [!UICONTROL AMO ID Instances] の使用
 
-オンサイトディメンションでは [!UICONTROL AMO Clicks] を使用できないので、クリックに相当するを見つける必要がある場合があります。 訪問回数を代用として使用したくなるかもしれませんが、各訪問者が複数の訪問回数を持つ可能性があるので、これらは最適な選択肢ではありません。 （「クリック数と訪問数の違い [ を参照し ](#clicks-vs-visits) ください。 代わりに、[!UICONTROL AMO ID Instances] を使用することをお勧めします。これは、AMO ID がキャプチャされた回数です。 [!UICONTROL AMO ID Instances] は完全には一致しませんが、サイト上のクリックトラフィックを測定する [!UICONTROL AMO Clicks] めの最適なオプションです。 詳しくは、「[ のクリックスルー・データ検証  [!DNL Analytics for Advertising]](#data-validation) を参照してください。
+オンサイトディメンションでは [!UICONTROL AMO Clicks] を使用できないので、クリックに相当するを見つける必要がある場合があります。 訪問回数を代用として使用したくなるかもしれませんが、各訪問者が複数の訪問回数を持つ可能性があるので、これらは最適な選択肢ではありません。 （「クリック数と訪問数の違い [&#x200B; を参照し &#x200B;](#clicks-vs-visits) ください。 代わりに、[!UICONTROL AMO ID Instances] を使用することをお勧めします。これは、AMO ID がキャプチャされた回数です。 [!UICONTROL AMO ID Instances] は完全には一致しませんが、サイト上のクリックトラフィックを測定する [!UICONTROL AMO Clicks] めの最適なオプションです。 詳しくは、「[&#x200B; のクリックスルー・データ検証  [!DNL Analytics for Advertising]](#data-validation) を参照してください。
 
-![ サポートされていないディメンションに対する、[!UICONTROL Adobe Advertising Clicks] ではなく [!UICONTROL AMO ID Instances] の例 ](/help/integrations/assets/a4adc-amo-id-instances.png)
+![&#x200B; サポートされていないディメンションに対する、[!UICONTROL Adobe Advertising Clicks] ではなく [!UICONTROL AMO ID Instances] の例 &#x200B;](/help/integrations/assets/a4adc-amo-id-instances.png)
 
 >[!MORELIKETHIS]
 >
->* [ 概要  [!DNL Analytics for Advertising]](overview.md)
->* [ 使用Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Analysis WorkspaceのAdobe Advertising指標 ](/help/integrations/analytics/advertising-metrics-in-analytics.md)
->* [[!DNL Analytics] Adobe Advertising内データ ](/help/integrations/analytics/analytics-data-in-advertising.md)
+>* [&#x200B; 概要  [!DNL Analytics for Advertising]](overview.md)
+>* [&#x200B; 使用Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Analysis WorkspaceのAdobe Advertising指標 &#x200B;](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [[!DNL Analytics] Adobe Advertising内データ &#x200B;](/help/integrations/analytics/analytics-data-in-advertising.md)
 >* [Adobe Advertisingによってデータが異なる可能性がある理由  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)

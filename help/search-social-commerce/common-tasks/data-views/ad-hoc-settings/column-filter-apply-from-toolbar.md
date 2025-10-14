@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## （新しい UI）管理表示のツールバーからのデータフィルターの適用
 
-1. ツールバーで、「![ フィルター ](/help/search-social-commerce/assets/filter-new.png " フィルター ")」をクリックします。
+1. ツールバーで、「![&#x200B; フィルター &#x200B;](/help/search-social-commerce/assets/filter-new.png " フィルター ")」をクリックします。
 
 1. フィルター設定で、次のいずれかの操作を行います。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
       1. 列のフィルターを定義：
 
-         * （入力フィールドのないフィルタ） 2 番目のメニューの横にある ![ 下矢印 ](/help/search-social-commerce/assets/arrow-down-expand.png " 下矢印 ") をクリックし、含める値の横のチェック ボックスをオンにします。
+         * （入力フィールドのないフィルタ） 2 番目のメニューの横にある ![&#x200B; 下矢印 &#x200B;](/help/search-social-commerce/assets/arrow-down-expand.png " 下矢印 ") をクリックし、含める値の横のチェック ボックスをオンにします。
 
          * （入力フィールド付きのフィルター） 2 番目のメニューから演算子を選択し、適切な値を入力します。
 
@@ -46,11 +46,11 @@ ht-degree: 0%
 
 ## （従来の UI） Campaign 管理ビューのツールバーからのデータフィルターの適用
 
-1. ツールバーで、「![ フィルター ](/help/search-social-commerce/assets/filter.png " フィルター ")」をクリックします。
+1. ツールバーで、「![&#x200B; フィルター &#x200B;](/help/search-social-commerce/assets/filter.png " フィルター ")」をクリックします。
 
 1. フィルター設定で、次のいずれかの操作を行います。
 
-   * フィルターを追加するには、「![ フィルターの追加 ](/help/search-social-commerce/assets/add.png " フィルターの追加 ")」をクリック **[!UICONTROL ADD FILTER]**、次の手順を実行します。
+   * フィルターを追加するには、「![&#x200B; フィルターの追加 &#x200B;](/help/search-social-commerce/assets/add.png " フィルターの追加 ")」をクリック **[!UICONTROL ADD FILTER]**、次の手順を実行します。
 
       1. （オプション）列名をテキスト文字列でフィルタリングするには、**[!UICONTROL ADD FILTER]** 入力フィールドに検索文字列を入力します。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
       1. 列のフィルターを定義：
 
-         * （入力フィールドのないフィルタ） 2 番目のメニューの横にある ![ 下矢印 ](/help/search-social-commerce/assets/arrow-down-expand.png " 下矢印 ") をクリックし、含める値の横のチェック ボックスをオンにします。
+         * （入力フィールドのないフィルタ） 2 番目のメニューの横にある ![&#x200B; 下矢印 &#x200B;](/help/search-social-commerce/assets/arrow-down-expand.png " 下矢印 ") をクリックし、含める値の横のチェック ボックスをオンにします。
 
          * （入力フィールド付きのフィルター） 2 番目のメニューから演算子を選択し、適切な値を入力します。
 
@@ -74,12 +74,12 @@ ht-degree: 0%
 
    * 既存のフィルターを編集するには、フィルターをクリックし、フィルター定義を変更します。
 
-   * 既存のフィルターを削除するには、フィルター定義の横にある ![ 削除 ](/help/search-social-commerce/assets/delete.png " 削除 ") をクリックします。
+   * 既存のフィルターを削除するには、フィルター定義の横にある ![&#x200B; 削除 &#x200B;](/help/search-social-commerce/assets/delete.png " 削除 ") をクリックします。
 
 1. 「**[!UICONTROL Apply]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ 列見出しメニューからのデータフィルターの適用 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
->* [ 列フィルターを編集 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
+>* [&#x200B; 列見出しメニューからのデータフィルターの適用 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
+>* [&#x200B; 列フィルターを編集 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
 >* [ 列フィルターの削除 ] （/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/

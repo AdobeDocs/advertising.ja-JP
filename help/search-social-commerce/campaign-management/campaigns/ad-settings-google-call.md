@@ -16,7 +16,7 @@ ht-degree: 0%
 
 検索、ソーシャル、Commerceでは、アカウントレベルのランディングページ接尾辞とトラッキングテンプレートを使用して、呼び出し専用広告を追跡しますが、[!DNL Google Ads] Manager 内の広告レベルでアカウントレベルのトラッキングを上書きすることもできます（オプション）。
 
-[ アカウントごとの広告制限 ](https://support.google.com/google-ads/answer/6372658?hl=en) については、[!DNL Google Ads] のヘルプを参照してください。
+[&#x200B; アカウントごとの広告制限 &#x200B;](https://support.google.com/google-ads/answer/6372658?hl=en) については、[!DNL Google Ads] のヘルプを参照してください。
 
 <!-- ## Call-only Ad -->
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 広告について ](ad-about.md)
->* [ 広告の管理 ](ad-manage.md)
->* [[!DNL Google Ads]  拡張された動的検索広告設定 ](ad-settings-google-dsa.md)
->* [[!DNL Google Ads]  レスポンシブ検索広告設定 ](ad-settings-google-rsa.md)
+>* [&#x200B; 広告について &#x200B;](ad-about.md)
+>* [&#x200B; 広告の管理 &#x200B;](ad-manage.md)
+>* [[!DNL Google Ads]  拡張された動的検索広告設定 &#x200B;](ad-settings-google-dsa.md)
+>* [[!DNL Google Ads]  レスポンシブ検索広告設定 &#x200B;](ad-settings-google-rsa.md)

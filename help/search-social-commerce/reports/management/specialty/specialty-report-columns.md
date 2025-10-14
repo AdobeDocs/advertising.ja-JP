@@ -42,7 +42,7 @@ ht-degree: 0%
 | [!UICONTROL All Revenue Per Conversion] | （[!UICONTROL MSA Ad Extension] レポート）コンバージョンあたりの売上高。 |
 | [!UICONTROL Asset] | （[!UICONTROL RSA Asset Report]）アセット。 |
 | [!UICONTROL Asset ID] | （[!UICONTROL RSA Asset Report]）既存のアセットを識別する一意の ID。 |
-| [!UICONTROL Asset Performance Label] | （[!UICONTROL RSA Asset Report]）資産の [[!DNL Google Ads]  業績評価 ](https://support.google.com/google-ads/answer/9564897)。 |
+| [!UICONTROL Asset Performance Label] | （[!UICONTROL RSA Asset Report]）資産の [[!DNL Google Ads]  業績評価 &#x200B;](https://support.google.com/google-ads/answer/9564897)。 |
 | [!UICONTROL Asset Status] | （[!UICONTROL RSA Asset Report]）アセットのステータス：*[!UICONTROL Enabled]* または *[!UICONTROL Enabled]* （削除済み）。 |
 | [!UICONTROL Asset Type] | （[!UICONTROL RSA Asset Report]）資産タイプ：*[!UICONTROL Creative Title]* または *[!UICONTROL Description]*。 |
 | [!UICONTROL Assists] | （[!UICONTROL MSA Ad Extension] 報告書）ある企業が他の企業と関連するコンバージョンに貢献した回数。 |
@@ -95,7 +95,7 @@ ht-degree: 0%
 | [!UICONTROL EF Portfolio Group ID] | ポートフォリオが属しているポートフォリオグループの数値 ID。 |
 | [!UICONTROL EF Search Engine ID] | 検索、ソーシャル、およびCommerceによって広告ネットワークに割り当てられる数値 ID。[!DNL Google Ads] の場合は <i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising] の場合は <i>[!UICONTROL 10]</i>、[!DNL Meta] の場合は <i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]<i>[!UICONTROL 87]</i> の場合は <i>[!UICONTROL 86]</i>、[!DNL Naver] の場合は <i>[!UICONTROL 88]</i>、[!DNL Baidu] の場合は <i>[!UICONTROL 90]</i> [!DNL Yandex]、[!DNL Yahoo! Japan Ads] の場合は <i>[!UICONTROL 94]</i>、[!DNL Yahoo Native] の場合は <i>[!UICONTROL 105]</i>、[!DNL Pinterest] の場合は <i>[!UICONTROL 106]</i> （非推奨）です。 |
 | [!UICONTROL End Date] | 最後に報告された日。 |
-| [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension] レポート） [ 拡張機能の表示名 ](https://help.ads.microsoft.com/#apex/ads/en/51001)。 |
+| [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension] レポート） [&#x200B; 拡張機能の表示名 &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/51001)。 |
 | [!UICONTROL Extension Type ID] | （[!UICONTROL MSA Ad Extension] レポート）広告拡張機能タイプの ID。 |
 | [!UICONTROL Final URLs] | （[!UICONTROL Google Asset Group Performance Report]）すべてのクロスドメインリダイレクト後の最終 URL のリスト。 URL は、キャンペーンに対して URL 拡張が有効になっている場合に拡張できます。 |
 | [!UICONTROL Final Mobile URLs] | （[!UICONTROL Google Asset Group Performance Report]）すべてのクロスドメインリダイレクト後のモバイルデバイス用の最終的な URL のリスト。 URL は、キャンペーンに対して URL 拡張が有効になっている場合に拡張できます。 |
@@ -182,6 +182,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 専門レポートについて ](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
->* [ 専門レポートの生成 ](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [ 専門レポートの設定 ](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [&#x200B; 専門レポートについて &#x200B;](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
+>* [&#x200B; 専門レポートの生成 &#x200B;](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
+>* [&#x200B; 専門レポートの設定 &#x200B;](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)

@@ -23,8 +23,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 過去 13 か月のデータを表示できますが、既存のカスタムビューには、過去 180 日間のデータのみを含めることができます。
->* 以前のデータを表示するには、[[!UICONTROL Reports] ビューに移動し ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) 基本レポートを実行します。
->* また、日付範囲を [ デフォルトビューまたはカスタムビュー ](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) 用に保存することもできます。
+>* 以前のデータを表示するには、[[!UICONTROL Reports] ビューに移動し &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) 基本レポートを実行します。
+>* また、日付範囲を [&#x200B; デフォルトビューまたはカスタムビュー &#x200B;](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) 用に保存することもできます。
 
 ## キャンペーンビューでのグローバル日付フィルターの変更
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    * 特定の範囲の場合：「**[!UICONTROL Custom Date Range]**」を選択したあと、開始日と終了日を指定します。
 
-     MM/DD/YYYY または MM-DD-YYYY の形式で日付を入力するか、各フィールドの横にある ![ カレンダーアイコン ](/help/search-social-commerce/assets/calendar.png " カレンダーアイコン ") をクリックしてカレンダーを開き、日付を選択します。
+     MM/DD/YYYY または MM-DD-YYYY の形式で日付を入力するか、各フィールドの横にある ![&#x200B; カレンダーアイコン &#x200B;](/help/search-social-commerce/assets/calendar.png " カレンダーアイコン ") をクリックしてカレンダーを開き、日付を選択します。
 
 1. （任意）指定した日付範囲のデータと 2 つ目の日付範囲のデータを比較します。
 

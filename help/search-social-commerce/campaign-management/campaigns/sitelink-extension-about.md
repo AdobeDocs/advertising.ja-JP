@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Sitelinks] ビューと [!UICONTROL Associations] ビュー
 
-[!UICONTROL Campaigns]/[!UICONTROL Campaigns] の [!UICONTROL Extensions]/[!UICONTROL Sitelinks] ライブラリに、アカウントレベルのサイトリンクがすべて一覧表示され、そこで共有サイトリンクを作成および管理できます。 [[!DNL Google Ads]  アカウント ](https://help.ads.microsoft.com/#apex/3/en/52001) および [[!DNL Microsoft Advertising]  アカウント ](https://support.google.com/google-ads/answer/6372658) ごとの最大広告拡張機能の数については、広告ネットワークのヘルプを参照してください。 ライブラリ内のサイトリンクは、アカウントエンティティに割り当てるまで、広告で使用されません。
+[!UICONTROL Campaigns]/[!UICONTROL Campaigns] の [!UICONTROL Extensions]/[!UICONTROL Sitelinks] ライブラリに、アカウントレベルのサイトリンクがすべて一覧表示され、そこで共有サイトリンクを作成および管理できます。 [[!DNL Google Ads]  アカウント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/52001) および [[!DNL Microsoft Advertising]  アカウント &#x200B;](https://support.google.com/google-ads/answer/6372658) ごとの最大広告拡張機能の数については、広告ネットワークのヘルプを参照してください。 ライブラリ内のサイトリンクは、アカウントエンティティに割り当てるまで、広告で使用されません。
 
 [!UICONTROL Extensions]/[!UICONTROL Associations] ビューでは、アカウントレベル（[!DNL Google Ads] のみ）、キャンペーンレベル、広告グループレベル（[!DNL Google Ads] のみ）のすべての広告に、可能な拡張機能として任意のサイトリンクを割り当てることができます。
 
@@ -32,5 +32,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 共有サイトリンク拡張機能の管理 ](sitelink-extension-manage.md)
->* [ 共有サイトリンク拡張機能のキャンペーンまたは広告グループへの関連付け ](sitelink-extension-associate.md)
+>* [&#x200B; 共有サイトリンク拡張機能の管理 &#x200B;](sitelink-extension-manage.md)
+>* [&#x200B; 共有サイトリンク拡張機能のキャンペーンまたは広告グループへの関連付け &#x200B;](sitelink-extension-associate.md)

@@ -36,10 +36,10 @@ ht-degree: 0%
 
 検索、ソーシャル、Commerceでコンバージョンをクリック数に関連付けるには、アカウントレコードにトラッキングオプションを設定し、アカウントレコードを有効にします。 その後、バルクシートを使用して広告とキーワードのトラッキング URL を生成し、[!DNL Naver] の広告マネージャー内にトラッキング URL を手動で追加できます。
 
-[!DNL Naver] のトラッキング専用キャンペーンの詳細については、「[ トラッキング専用アカウントの実装  [!DNL Naver]  を参照 ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md) てください。
+[!DNL Naver] のトラッキング専用キャンペーンの詳細については、「[&#x200B; トラッキング専用アカウントの実装  [!DNL Naver]  を参照 &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md) てください。
 
 >[!MORELIKETHIS]
 >
->* [ 広告ネットワークアカウントの管理 ](ad-network-account-manage.md)
->* [ マーチャントセンターアカウントの管理 ](merchant-account-manage.md)
->* [ アカウントの AMO ID トラッキングコード  [!DNL Google Ads]  更新 ](update-amo-id-google.md)
+>* [&#x200B; 広告ネットワークアカウントの管理 &#x200B;](ad-network-account-manage.md)
+>* [&#x200B; マーチャントセンターアカウントの管理 &#x200B;](merchant-account-manage.md)
+>* [&#x200B; アカウントの AMO ID トラッキングコード  [!DNL Google Ads]  更新 &#x200B;](update-amo-id-google.md)

@@ -28,7 +28,7 @@ ht-degree: 0%
 
    最大 10,000 行までコピーできます。
 
-1. データ テーブルの上にあるツールバーで、&lbrack;![ その他 ](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Copy]**] をクリックします。
+1. データ テーブルの上にあるツールバーで、&lbrack;![&#x200B; その他 &#x200B;](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Copy]**] をクリックします。
 
    または、オペレーティングシステムの「コピー」キーボードコマンド（[!DNL Microsoft Windows] の場合は **[!DNL Ctrl+C]**、[!DNL Apple Mac] の場合は **[!DNL Command-C]** など）を使用できます。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 次の要件に従ってデータを編集します。
 
-   * 貼り付けたデータには、ヘッダー行と必要なキャンペーンオブジェクト値が含まれている必要があります。[Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google広告 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、&lbrace;Naver[、Yahoo](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md) の必須のバルクシート列を参照してください [ ディスプレイのネットワーク ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)、[Yahoo! 日本 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)、および [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md) 列の順序は関係ありません。
+   * 貼り付けたデータには、ヘッダー行と必要なキャンペーンオブジェクト値が含まれている必要があります。[Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google広告 &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、&lbrace;Naver[、Yahoo](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md) の必須のバルクシート列を参照してください [&#x200B; ディスプレイのネットワーク &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)、[Yahoo! 日本 &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)、および [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md) 列の順序は関係ありません。
 
       * 編集する既存のオブジェクトの場合、関連するすべての ID 列、エンティティ名、編集する属性を含める必要があります。 オブジェクトの数値 ID を編集しないでください。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 検索、ソーシャル、Commerceのメインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 データを貼り付けるビューを開きます（**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**）。
 
-1. データ テーブルの上にあるツールバーで、&lbrack;![ その他 ](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Paste]**] をクリックします。
+1. データ テーブルの上にあるツールバーで、&lbrack;![&#x200B; その他 &#x200B;](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Paste]**] をクリックします。
 
    または、オペレーティングシステムの「貼り付け」キーボードコマンド（[!DNL Microsoft Windows] の場合は **[!DNL Ctrl+V]**、[!DNL Apple Mac] の場合は **[!DNL Command-V]** など）を使用できます。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. （オプション）追加の詳細を入力します。
 
-   * （**[!UICONTROL Additional Details]** が圧縮されている場合） ![ 開く ](/help/search-social-commerce/assets/chevron-up.png " 開く ") をクリックして詳細を展開します。
+   * （**[!UICONTROL Additional Details]** が圧縮されている場合） ![&#x200B; 開く &#x200B;](/help/search-social-commerce/assets/chevron-up.png " 開く ") をクリックして詳細を展開します。
 
    * オプションの **[!UICONTROL Job Name]** や **[!UICONTROL Job Description]** を入力します。
 
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ バルクシートを使用した Campaign データの管理について ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)
->* [ 行内で設定を直接編集する ](/help/search-social-commerce/common-tasks/settings-edit-within-row.md)
->* [ キャンペーンの管理 ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
->* [ 広告グループの管理 ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
->* [ キーワードの管理 ](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
->* [ 広告の管理 ](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)
+>* [&#x200B; バルクシートを使用した Campaign データの管理について &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)
+>* [&#x200B; 行内で設定を直接編集する &#x200B;](/help/search-social-commerce/common-tasks/settings-edit-within-row.md)
+>* [&#x200B; キャンペーンの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [&#x200B; 広告グループの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [&#x200B; キーワードの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [&#x200B; 広告の管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)

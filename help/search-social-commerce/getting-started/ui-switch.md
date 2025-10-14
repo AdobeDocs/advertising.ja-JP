@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 新しい UI からレガシー UI への切り替え
 
-* ビューの右上にある ![ 古い UI に切り替え ](/help/search-social-commerce/assets/switch-to-old-ui.png " 古い UI に切り替え ")**[!UICONTROL Switch to Old UI]** をクリックします。
+* ビューの右上にある ![&#x200B; 古い UI に切り替え &#x200B;](/help/search-social-commerce/assets/switch-to-old-ui.png " 古い UI に切り替え ")**[!UICONTROL Switch to Old UI]** をクリックします。
 
 ## レガシー UI から新しい UI への切り替え
 
@@ -24,4 +24,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ユーザーインターフェイスの編成方法 ](user-interface.md)
+>* [&#x200B; ユーザーインターフェイスの編成方法 &#x200B;](user-interface.md)

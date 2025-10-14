@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. （オプション）スプレッドシートフィードに使用するレポートテンプレートまたは [!DNL Excel] テンプレートを更新するには、次の手順に従います。
 
-   * （任意）フィードに別のレポートテンプレートまたは更新されたレポートテンプレートを使用するには、[ レポートテンプレート用に新しい  [!DNL Excel]  テンプレートを作成 ](spreadsheet-feed-create-excel-template.md) します。
+   * （任意）フィードに別のレポートテンプレートまたは更新されたレポートテンプレートを使用するには、[&#x200B; レポートテンプレート用に新しい  [!DNL Excel]  テンプレートを作成 &#x200B;](spreadsheet-feed-create-excel-template.md) します。
 
      次の手順では、レポートテンプレートと新しい [!DNL Excel] ファイルの両方をアップロードする必要があります。
 
@@ -34,9 +34,9 @@ ht-degree: 0%
 
    * メインメニューで、**[!UICONTROL Reports]/[!UICONTROL Spreadsheet Feeds]** をクリックします。
 
-   * スプレッドシートフィード名の横にある ![ 設定を表示/編集ボタン ](/help/search-social-commerce/assets/settings.png " 設定を表示/編集ボタン ") をクリックします。
+   * スプレッドシートフィード名の横にある ![&#x200B; 設定を表示/編集ボタン &#x200B;](/help/search-social-commerce/assets/settings.png " 設定を表示/編集ボタン ") をクリックします。
 
-   * [!UICONTROL Edit Spreadsheet Feed] ダイアログで、[ スプレッドシートフィード設定 ](spreadsheet-feed-settings.md) を変更します。
+   * [!UICONTROL Edit Spreadsheet Feed] ダイアログで、[&#x200B; スプレッドシートフィード設定 &#x200B;](spreadsheet-feed-settings.md) を変更します。
 
    * 「**[!UICONTROL Submit]**」をクリックします。
 
@@ -50,10 +50,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ スプレッドシートレポートフィードについて ](spreadsheet-feed-about.md)
->* [ スプレッドシートレポートフィードの作成 ](spreadsheet-feed-create.md)
->* [ スプレッドシートレポ  [!DNL Excel]  トフィード用のテンプレートの作成 ](spreadsheet-feed-create-excel-template.md)
->* [ スプレッドシートレポートフィード設定の編集 ](spreadsheet-feed-edit.md)
->* [ スプレッドシートレポートフィードの設定 ](spreadsheet-feed-settings.md)
->* [ スプレッドシートレポートフィードファイルの表示または保存 ](spreadsheet-feed-view-or-save.md)
->* [ スプレッドシートレポートフィードを手動で更新 ](spreadsheet-feed-refresh.md)
+>* [&#x200B; スプレッドシートレポートフィードについて &#x200B;](spreadsheet-feed-about.md)
+>* [&#x200B; スプレッドシートレポートフィードの作成 &#x200B;](spreadsheet-feed-create.md)
+>* [&#x200B; スプレッドシートレポ  [!DNL Excel]  トフィード用のテンプレートの作成 &#x200B;](spreadsheet-feed-create-excel-template.md)
+>* [&#x200B; スプレッドシートレポートフィード設定の編集 &#x200B;](spreadsheet-feed-edit.md)
+>* [&#x200B; スプレッドシートレポートフィードの設定 &#x200B;](spreadsheet-feed-settings.md)
+>* [&#x200B; スプレッドシートレポートフィードファイルの表示または保存 &#x200B;](spreadsheet-feed-view-or-save.md)
+>* [&#x200B; スプレッドシートレポートフィードを手動で更新 &#x200B;](spreadsheet-feed-refresh.md)

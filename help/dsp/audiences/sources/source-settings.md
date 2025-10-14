@@ -26,11 +26,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->1 つのプレースメントでターゲットにできる ID のタイプは 1 つだけです。 ID タイプでパフォーマンスをテストするには、セグメント内の ID タイプごとに [ 個別のプレースメントを作成 ](/help/dsp/campaign-management/placements/placement-create.md) します。
+>1 つのプレースメントでターゲットにできる ID のタイプは 1 つだけです。 ID タイプでパフォーマンスをテストするには、セグメント内の ID タイプごとに [&#x200B; 個別のプレースメントを作成 &#x200B;](/help/dsp/campaign-management/placements/placement-create.md) します。
 
 * *[!DNL RampID]:* PII を [!DNL RampID] に変換します。 [!DNL RampIDs] は、ログインユーザーのリターゲティングや [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) 測定に使用できます。
 
-* *[!DNL Unified ID2.0]（Beta）:* ログインユーザーをリターゲティングするために、PII を [ 統合 ID 2.0](https://unifiedid.com) ID に変換する
+* *[!DNL Unified ID2.0]（Beta）:* ログインユーザーをリターゲティングするために、PII を [&#x200B; 統合 ID 2.0](https://unifiedid.com) ID に変換する
 
 <!-- Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
@@ -43,8 +43,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ユニバーサル ID オーディエンスをアクティブ化するためのオーディエンスソースの管理 ](source-manage.md)
->* [ ファーストパーティオーディエンスソースについて ](source-about.md)
->* [ 認証済みセグメントの手動インポート  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Adobe Advertising DSP接続 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)
->* [Audience Management について ](/help/dsp/audiences/audience-about.md)
+>* [&#x200B; ユニバーサル ID オーディエンスをアクティブ化するためのオーディエンスソースの管理 &#x200B;](source-manage.md)
+>* [&#x200B; ファーストパーティオーディエンスソースについて &#x200B;](source-about.md)
+>* [&#x200B; 認証済みセグメントの手動インポート  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Adobe Advertising DSP接続 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)
+>* [Audience Management について &#x200B;](/help/dsp/audiences/audience-about.md)

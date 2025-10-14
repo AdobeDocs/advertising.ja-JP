@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. （ユーザー ID リマーケティングリストオーディエンスを作成するには） [!DNL Adobe] 管理者ユーザーまたはアカウントマネージャーは、広告主レベルの設定を選択して、顧客一致オーディエンスを有効にする必要があります。
 
-   1. [Adobe Experience Platform ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) バージョン 2.0 以降を実装します。
+   1. [Adobe Experience Platform ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) バージョン 2.0 以降を実装します。
 
    1. オーディエンスの追跡元となる広告主の web ページに、次のタグをできるだけ高くデプロイします
 
@@ -44,11 +44,11 @@ ht-degree: 0%
 
       例：`<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
-   1. （完了していない場合）承認済みユーザーは、[Adobe Experience Cloudで広告主の組織アカウントと同期する ](/help/search-social-commerce/admin/sync-adobe-audiences.md) ように広告主のアカウントを設定する必要があります。
+   1. （完了していない場合）承認済みユーザーは、[Adobe Experience Cloudで広告主の組織アカウントと同期する &#x200B;](/help/search-social-commerce/admin/sync-adobe-audiences.md) ように広告主のアカウントを設定する必要があります。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
+1. データ テーブルの上にあるツールバーで、[![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
 1. 広告ネットワークとアカウント名を選択し、「**[!UICONTROL Continue]**」をクリックします。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    1. 作成する **[!UICONTROL Audience Type]** を選択します：**[!UICONTROL Customer List_User ID]**。
 
-      広告主の [!DNL Google Ads] アカウントは [ カスタム一致の対象 ](https://support.google.com/adspolicy/answer/6299717) であり、[ ユーザー ID のリマーケティング ](https://support.google.com/google-ads/answer/9199250) にオプトインされている必要があります。
+      広告主の [!DNL Google Ads] アカウントは [&#x200B; カスタム一致の対象 &#x200B;](https://support.google.com/adspolicy/answer/6299717) であり、[&#x200B; ユーザー ID のリマーケティング &#x200B;](https://support.google.com/google-ads/answer/9199250) にオプトインされている必要があります。
 
    1. [!DNL Adobe] および広告ネットワークのプライバシーポリシーの条項に同意することを示すチェックボックスをオンにします。
 
@@ -82,11 +82,11 @@ ht-degree: 0%
 >
 >* ファイルの処理に最大 24 時間かかる場 [!DNL Google] があります。
 >
->* [[!DNL Google Ads]  カスタマーマッチの仕組みと制限事項に関するドキュメント ](https://support.google.com/displayvideo/answer/9539301) を参照してください。
+>* [[!DNL Google Ads]  カスタマーマッチの仕組みと制限事項に関するドキュメント &#x200B;](https://support.google.com/displayvideo/answer/9539301) を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ オーディエンスについて ](audience-about.md)
->* [Adobe Campaign [!DNL Google Ads]  メールリストからカスタマーマッチオーディエンスを作成 ](google-audience-from-campaign-email-list.md)
->* [ 顧客データリストを使用したカスタマーマッチオーディエンスの管理 ](audience-from-customer-data-list.md)
->* [ 動的リマーケティングオーディエンスの管理 ](audience-dynamic-remarketing-manage.md)
+>* [&#x200B; オーディエンスについて &#x200B;](audience-about.md)
+>* [Adobe Campaign [!DNL Google Ads]  メールリストからカスタマーマッチオーディエンスを作成 &#x200B;](google-audience-from-campaign-email-list.md)
+>* [&#x200B; 顧客データリストを使用したカスタマーマッチオーディエンスの管理 &#x200B;](audience-from-customer-data-list.md)
+>* [&#x200B; 動的リマーケティングオーディエンスの管理 &#x200B;](audience-dynamic-remarketing-manage.md)

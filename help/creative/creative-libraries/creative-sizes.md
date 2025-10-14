@@ -50,5 +50,5 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [ クリエイティブライブラリへの標準クリエイティブの追加 ](creative-add-standard.md)
->* [ 標準クリエイティブを編集 ](/help/creative/creative-libraries/creative-edit-standard.md)
+>* [&#x200B; クリエイティブライブラリへの標準クリエイティブの追加 &#x200B;](creative-add-standard.md)
+>* [&#x200B; 標準クリエイティブを編集 &#x200B;](/help/creative/creative-libraries/creative-edit-standard.md)

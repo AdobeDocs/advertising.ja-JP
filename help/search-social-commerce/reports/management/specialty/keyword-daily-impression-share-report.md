@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## デフォルトの列
 
-すべてのデフォルト列およびカスタム列の説明は、[ 専門レポートのレポート列 ](specialty-report-columns.md) を参照してください。
+すべてのデフォルト列およびカスタム列の説明は、[&#x200B; 専門レポートのレポート列 &#x200B;](specialty-report-columns.md) を参照してください。
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Keyword Status]
@@ -48,6 +48,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 専門レポートについて ](specialty-report-about.md)
->* [ 専門レポートの生成 ](specialty-report-generate.md)
->* [ 専門レポートの設定 ](specialty-report-settings.md)
+>* [&#x200B; 専門レポートについて &#x200B;](specialty-report-about.md)
+>* [&#x200B; 専門レポートの生成 &#x200B;](specialty-report-generate.md)
+>* [&#x200B; 専門レポートの設定 &#x200B;](specialty-report-settings.md)

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals]** をクリックします。
 
-1. 取引行で、![ オプションメニュー ](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]** をクリックします。
+1. 取引行で、![&#x200B; オプションメニュー &#x200B;](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]** をクリックします。
 
 1. [!UICONTROL Ad & Deal Tagging] の設定で、次のいずれかの操作を行います。
 
@@ -29,5 +29,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プライベートインベントリについて ](private-inventory-about.md)
->* [ プライベート取引設定の編集 ](/help/dsp/inventory/deal-id-edit.md)
+>* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)
+>* [&#x200B; プライベート取引設定の編集 &#x200B;](/help/dsp/inventory/deal-id-edit.md)

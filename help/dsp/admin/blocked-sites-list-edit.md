@@ -40,6 +40,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ アカウントレベルと広告主レベルのブロックされたサイトリストについて ](/help/dsp/admin/blocked-sites-list-about.md)
-> [ブランドセーフティとメディア品質 ](/help/dsp/introduction/features/brand-safety-media-quality.md)
->* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [&#x200B; アカウントレベルと広告主レベルのブロックされたサイトリストについて &#x200B;](/help/dsp/admin/blocked-sites-list-about.md)
+> [ブランドセーフティとメディア品質 &#x200B;](/help/dsp/introduction/features/brand-safety-media-quality.md)
+>* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)

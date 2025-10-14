@@ -87,7 +87,7 @@ DSPは、次の場合に、表示クリックマクロをサードパーティ�
 
 ## [!DNL Analytics for Advertising] マクロ
 
-[[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) のユーザー専用の追加マクロについては、「[ 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Flashtalking]  広告タグに ](/help/integrations/analytics/macros-flashtalking.md)」および「[ 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Google Campaign Manager 360]  広告タグに ](/help/integrations/analytics/macros-google-campaign-manager.md)」を参照してください。
+[[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) のユーザー専用の追加マクロについては、「[&#x200B; 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Flashtalking]  広告タグに &#x200B;](/help/integrations/analytics/macros-flashtalking.md)」および「[&#x200B; 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Google Campaign Manager 360]  広告タグに &#x200B;](/help/integrations/analytics/macros-google-campaign-manager.md)」を参照してください。
 
 ## マクロエラーのトラブルシューティング
 
@@ -100,10 +100,10 @@ DSPは、次の場合に、表示クリックマクロをサードパーティ�
 
 >[!MORELIKETHIS]
 >
->* [ オーディオ広告設定 ](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [ 接続されたテレビ広告の設定 ](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [ 広告設定を表示 ](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [ モバイル広告設定 ](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [ ネイティブ広告設定 ](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [ プリロール広告設定 ](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
->* [ ユニバーサルビデオ広告設定 ](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
+>* [&#x200B; オーディオ広告設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [&#x200B; 接続されたテレビ広告の設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [&#x200B; 広告設定を表示 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [&#x200B; モバイル広告設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [&#x200B; ネイティブ広告設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [&#x200B; プリロール広告設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [&#x200B; ユニバーサルビデオ広告設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

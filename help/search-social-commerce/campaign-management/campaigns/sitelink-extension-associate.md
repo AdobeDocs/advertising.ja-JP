@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]** をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックし、[**[!UICONTROL Sitelink]**] を選択します。
+1. データ テーブルの上にあるツールバーで、[![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックし、[**[!UICONTROL Sitelink]**] を選択します。
 
 1. 広告ネットワークとアカウント名を選択し、「**[!UICONTROL Continue]**」をクリックします。
 
@@ -28,19 +28,19 @@ ht-degree: 0%
 
    1. [!UICONTROL Sitelinks] セクションで、ライブラリ内のすべてのサイトリンクのリストから該当するサイトリンクを選択します。
 
-   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+   複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
    1. 「[!UICONTROL Assignment]」セクションで、選択したサイトリンクが割り当てられるアカウント、キャンペーン、広告グループを選択します。
 
    * （任意）アカウントを展開してキャンペーンを表示するには、アカウント名をクリックします。 同様に、キャンペーンを展開してその子広告グループを表示するには、キャンペーン名をクリックします。
 
-   * （オプション）名前に含まれているテキスト文字列でキャンペーンリストまたは広告グループリストをフィルタリングするには、![ フィルター ](/help/search-social-commerce/assets/filter.png " フィルター ") をクリックして、テキスト文字列を入力または貼り付けて、**Enter** キーを押します。
+   * （オプション）名前に含まれているテキスト文字列でキャンペーンリストまたは広告グループリストをフィルタリングするには、![&#x200B; フィルター &#x200B;](/help/search-social-commerce/assets/filter.png " フィルター ") をクリックして、テキスト文字列を入力または貼り付けて、**Enter** キーを押します。
 
-   * サイトリンクが割り当てられている各エンティティの横にある円（![ 選択 ](/help/search-social-commerce/assets/include.png " 選択 ")）を選択します。
+   * サイトリンクが割り当てられている各エンティティの横にある円（![&#x200B; 選択 &#x200B;](/help/search-social-commerce/assets/include.png " 選択 ")）を選択します。
 
 1. 「**[!UICONTROL Post]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ サイトリンク拡張機能について ](sitelink-extension-about.md)
->* [ 共有サイトリンク拡張機能の管理 ](sitelink-extension-manage.md)
+>* [&#x200B; サイトリンク拡張機能について &#x200B;](sitelink-extension-about.md)
+>* [&#x200B; 共有サイトリンク拡張機能の管理 &#x200B;](sitelink-extension-manage.md)

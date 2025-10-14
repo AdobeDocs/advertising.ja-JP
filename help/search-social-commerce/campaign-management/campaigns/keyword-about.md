@@ -27,6 +27,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 入札可能キーワードの管理 ](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
->* [ ネガティブキーワードの作成 ](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
->* [ キーワードとネガティブキーワードのステータスの変更 ](keyword-status-edit.md)
+>* [&#x200B; 入札可能キーワードの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [&#x200B; ネガティブキーワードの作成 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
+>* [&#x200B; キーワードとネガティブキーワードのステータスの変更 &#x200B;](keyword-status-edit.md)

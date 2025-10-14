@@ -14,9 +14,9 @@ ht-degree: 0%
 
 *[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除アクションのみ）および [!DNL Yandex] アカウントのみ*
 
-フィード データを広告ネットワークに同時に投稿せずに伝達する場合は、次のいずれかの方法でデータをプレビューできます。 後で必要に応じて、いずれかの場所から関連する広告ネットワークに [ データを投稿 ](propagated-data-post.md) することもできます。
+フィード データを広告ネットワークに同時に投稿せずに伝達する場合は、次のいずれかの方法でデータをプレビューできます。 後で必要に応じて、いずれかの場所から関連する広告ネットワークに [&#x200B; データを投稿 &#x200B;](propagated-data-post.md) することもできます。
 
-* オプションを「[!UICONTROL Propagate and Preview]」に設定した場合は、生成されたバルクシート （「`<feed file name>_<template name>`」という名前）を [!UICONTROL Bulksheets] ビューから表示します。 「[!UICONTROL Campaigns]」、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」、「[!UICONTROL Ads]」の各タブには、データは含まれていません。 このオプションを使用すると、データを投稿する前に、広告およびキーワードに関連付けられた [ ランディングページの検証 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) を行うことができます。
+* オプションを「[!UICONTROL Propagate and Preview]」に設定した場合は、生成されたバルクシート （「`<feed file name>_<template name>`」という名前）を [!UICONTROL Bulksheets] ビューから表示します。 「[!UICONTROL Campaigns]」、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」、「[!UICONTROL Ads]」の各タブには、データは含まれていません。 このオプションを使用すると、データを投稿する前に、広告およびキーワードに関連付けられた [&#x200B; ランディングページの検証 &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) を行うことができます。
 
 * オプションを「[!UICONTROL Propagate only]」に使用した場合は、キャンペーン階層ビュー内の生成されたデータを「[!UICONTROL Campaigns]」、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」および「[!UICONTROL Ads]」タブから表示します。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
    1. （オプション）詳細情報を表示するには、次のいずれかの操作を行います。
 
-      * キャンペーン、広告グループ、キーワードまたは広告の設定を表示するには、名前の横にある [ 設定を表示/編集アイコン ](/help/search-social-commerce/assets/settings.png "設定を表示/編集アイコン") をクリックします。
+      * キャンペーン、広告グループ、キーワードまたは広告の設定を表示するには、名前の横にある [&#x200B; 設定を表示/編集アイコン &#x200B;](/help/search-social-commerce/assets/settings.png "設定を表示/編集アイコン") をクリックします。
 
       * キャンペーンまたは広告グループのサブコンポーネントを表示するには、次の手順を実行します。
 
@@ -51,8 +51,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 在庫フィードについて ](inventory-feeds-about.md)
->* [ フィードから生成されたデータを編集 ](propagated-data-edit.md)
->* [ フィードから広告ネットワークにキャンペーンデータを投稿する ](propagated-data-post.md)
->* [ 在庫フィード データの転記ジョブを停止 ](stop-job.md)
->* [ フィードから生成されたデータのステータス ](propagated-data-status.md)
+>* [&#x200B; 在庫フィードについて &#x200B;](inventory-feeds-about.md)
+>* [&#x200B; フィードから生成されたデータを編集 &#x200B;](propagated-data-edit.md)
+>* [&#x200B; フィードから広告ネットワークにキャンペーンデータを投稿する &#x200B;](propagated-data-post.md)
+>* [&#x200B; 在庫フィード データの転記ジョブを停止 &#x200B;](stop-job.md)
+>* [&#x200B; フィードから生成されたデータのステータス &#x200B;](propagated-data-status.md)

@@ -28,6 +28,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 実装  [!DNL Naver]  トラッキング専用アカウント ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
->* [ 付録 – アカウントに必要なバルクシート  [!DNL Naver]  デ ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md) タ）
->* [ トラッキング専用アカウントのトラフィックおよびコ  [!DNL Naver]  バージョン指標のアップロード ](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
+>* [&#x200B; 実装  [!DNL Naver]  トラッキング専用アカウント &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [&#x200B; 付録 – アカウントに必要なバルクシート  [!DNL Naver]  デ &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md) タ）
+>* [&#x200B; トラッキング専用アカウントのトラフィックおよびコ  [!DNL Naver]  バージョン指標のアップロード &#x200B;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)

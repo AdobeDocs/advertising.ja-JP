@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]** をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![ 作成 ](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
+1. データ テーブルの上にあるツールバーで、[![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
 
 1. 広告ネットワークとアカウント名を選択し、「**[!UICONTROL Continue]**」をクリックします。
 
@@ -44,13 +44,13 @@ ht-degree: 0%
 
       1. （オプション）キャンペーンを展開してその子広告グループを表示するには、キャンペーン名をクリックします。
 
-      1. （オプション）名前に含まれているテキスト文字列でキャンペーンリストまたは広告グループリストをフィルタリングするには、「![ フィルター ](/help/search-social-commerce/assets/filter.png " フィルター ")」をクリックして、テキスト文字列を入力または貼り付けて、[!UICONTROL Enter] キーを押します。
+      1. （オプション）名前に含まれているテキスト文字列でキャンペーンリストまたは広告グループリストをフィルタリングするには、「![&#x200B; フィルター &#x200B;](/help/search-social-commerce/assets/filter.png " フィルター ")」をクリックして、テキスト文字列を入力または貼り付けて、[!UICONTROL Enter] キーを押します。
 
       1. 次のいずれかの操作をおこないます。
 
-         * 隣接する円をクリックして各広告グループの除外を指定し、赤いチェックマーク（![ 除外 ](/help/search-social-commerce/assets/exclude.png " 除外 ")）を表示します。
+         * 隣接する円をクリックして各広告グループの除外を指定し、赤いチェックマーク（![&#x200B; 除外 &#x200B;](/help/search-social-commerce/assets/exclude.png " 除外 ")）を表示します。
 
-         * 横の円をクリックしてキャンペーンの除外を指定し、赤いチェックマーク（![ 除外 ](/help/search-social-commerce/assets/exclude.png " 除外 ")）が表示されるようにします。
+         * 横の円をクリックしてキャンペーンの除外を指定し、赤いチェックマーク（![&#x200B; 除外 &#x200B;](/help/search-social-commerce/assets/exclude.png " 除外 ")）が表示されるようにします。
 
 1. 「**[!UICONTROL Post]**」をクリックします。
 
@@ -62,13 +62,13 @@ ht-degree: 0%
 
 1. ステータスを変更する各オーディエンス除外の横にあるチェックボックスを選択します。
 
-   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+   複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
-1. ツールバーで、「![ その他のアクション ](/help/search-social-commerce/assets/more.png " その他のアクション ")」をクリックして選択 **[!UICONTROL Delete]** ます。
+1. ツールバーで、「![&#x200B; その他のアクション &#x200B;](/help/search-social-commerce/assets/more.png " その他のアクション ")」をクリックして選択 **[!UICONTROL Delete]** ます。
 
 1. 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ オーディエンスについて ](audience-about.md)
->* [ キャンペーンおよび広告グループのオーディエンスターゲットの管理 ](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
+>* [&#x200B; オーディエンスについて &#x200B;](audience-about.md)
+>* [&#x200B; キャンペーンおよび広告グループのオーディエンスターゲットの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)

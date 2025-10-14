@@ -73,6 +73,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 基本レポートまたは詳細レポートの生成 ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
->* [ 基本および詳細レポートの設定 ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
->* [ 基本レポートおよび高度なレポートのレポート列 ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
+>* [&#x200B; 基本レポートまたは詳細レポートの生成 &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+>* [&#x200B; 基本および詳細レポートの設定 &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
+>* [&#x200B; 基本レポートおよび高度なレポートのレポート列 &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
