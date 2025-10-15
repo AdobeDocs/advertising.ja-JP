@@ -3,7 +3,7 @@ title: カスタムレポートの設定
 description: カスタムレポート設定の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: 65d554ef71e36b52a47fc24552d5db9b56072095
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 0%
@@ -42,9 +42,9 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >また、[&#x200B; ビューから &#x200B;](report-run-now.md) いつでもカスタムレポートを実行 [!UICONTROL Reports] することもできます。
+  >また、[ ビューから ](report-run-now.md) いつでもカスタムレポートを実行 [!UICONTROL Reports] することもできます。
 
-* *[!UICONTROL On]\&lt;Date\>:* 指定した完了日に、アカウントのタイムゾーンで 09:00 までにレポートを実行します。
+* *[!UICONTROL On]\&lt;Date\>:* アカウントのタイムゾーンで 09:00 までに完了するように、指定された日付にレポートを実行します。
 
 * *[!UICONTROL Recurring]:* 指定した期間のスケジュールに従ってレポートを実行します。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Apply Filters] セクション
 
-**[!UICONTROL Filter by]:** （オプション）ディメンションがレポートに列として含まれているかどうかに関わらず、データをフィルタリングするための追加のディメンション。 使用可能なフィルターは、レポートタイプによって異なり、*[!UICONTROL Account]*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、*[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]* および *[!UICONTROL Video Duration]* などがあります。
+**[!UICONTROL Filter by]:** （オプション）ディメンションがレポートに列として含まれているかどうかに関わらず、データをフィルタリングするための追加のディメンション。 使用可能なフィルターは、レポートタイプによって異なり、*[!UICONTROL Account]*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、*[!UICONTROL Deal]*、*[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]* および *[!UICONTROL Video Duration]* などがあります。
 
 <!-- Add when available:
 *[!UICONTROL Deal ID]*, *[!UICONTROL Deal List]*, 
@@ -74,7 +74,7 @@ ht-degree: 0%
 * （任意）フィルターに条件を追加します。
 * （任意）さらにフィルターを追加し、各フィルターに 1 つ以上の条件を指定します。
 
-\* *[!UICONTROL Account]* は、組織が [&#x200B; クロスアカウントレポート &#x200B;](report-about.md#cross-account-reporting) 用に設定されている場合にのみ使用できます：[!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)] および [!UICONTROL Conversion]。 クロスアカウントレポートについて詳しくは、Adobe アカウントチームにお問い合わせください。
+\* *[!UICONTROL Account]* は、組織が [ クロスアカウントレポート ](report-about.md#cross-account-reporting) 用に設定されている場合にのみ使用できます：[!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)] および [!UICONTROL Conversion]。 クロスアカウントレポートについて詳しくは、Adobe アカウントチームにお問い合わせください。
 
 **[!UICONTROL Include data from Adobe Advertising SSC]:** （「コンバージョンまでのパス」、「コンバージョンまでのパス長」および「コンバージョンまでの時間」レポートのみ）指定したAdvertising検索、ソーシャルおよびCommerceの各キャンペーンに対する検索広告のクリック数に関するデータが含まれます。 このオプションを選択した場合：
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 * [!UICONTROL Custom Goals] （広告主順）
 
-すべてのオプションの説明は、[&#x200B; 使用可能なレポート列 &#x200B;](report-columns.md)」を参照してください。
+すべてのオプションの説明は、[ 使用可能なレポート列 ](report-columns.md)」を参照してください。
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** 列ヘッダーの順序。 任意の列をドラッグ&amp;ドロップして、順序をカスタマイズできます。
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Social Only]:* 古い
 
-「[Adobe Advertisingのアトリビューションルールの計算方法 &#x200B;](/help/search-social-commerce/reports/attribution-rules.md) も参照してください。
+「[Adobe Advertisingのアトリビューションルールの計算方法 ](/help/search-social-commerce/reports/attribution-rules.md) も参照してください。
 
 * **ルックバック：** （[!UICONTROL Household Conversion] 列または [!UICONTROL Conversion Metrics] 列を含む [!UICONTROL Custom Goals] レポートおよび [!UICONTROL Path to Conversion] 列のみを含む [!UICONTROL Path Length]、[!UICONTROL Time to Conversion] または [!UICONTROL Conversion Metrics] レポート。Adobe Advertising コンバージョントラッキングのみを含む広告主）レポート内で、コンバージョンイベントまたはそのイベントに起因する可能性のあるクリックイベント（[!UICONTROL Path to Conversion]、[!UICONTROL Path Length] または [!UICONTROL Time to Conversion] レポートの場合）後の最大日数。 デフォルトは *[!UICONTROL 30 days]* で、最大 92 日です。
 
@@ -197,7 +197,7 @@ ht-degree: 0%
 
    1. **新しい宛先を追加** をクリックします。
 
-   1. [&#x200B; レポート宛先設定 &#x200B;](/help/dsp/reports/report-destinations/report-destination-settings.md) を入力し、「**保存**」をクリックします。
+   1. [ レポート宛先設定 ](/help/dsp/reports/report-destinations/report-destination-settings.md) を入力し、「**保存**」をクリックします。
 
    1. レポート設定に戻り、「**宛先名を更新**」をクリックします。
 
@@ -205,12 +205,12 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
->* [&#x200B; カスタムレポートの作成 &#x200B;](/help/dsp/reports/report-create.md)
->* [&#x200B; カスタムレポートの複製 &#x200B;](/help/dsp/reports/report-copy.md)
->* [&#x200B; カスタムレポートの編集 &#x200B;](/help/dsp/reports/report-edit.md)
->* [&#x200B; カスタムレポートのダウンロード &#x200B;](/help/dsp/reports/report-download.md)
->* [&#x200B; カスタムレポートの実行 &#x200B;](/help/dsp/reports/report-run-now.md)
->* [&#x200B; カスタムレポートの設定 &#x200B;](/help/dsp/reports/report-settings.md)
->* [&#x200B; レポートの宛先について &#x200B;](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [&#x200B; 使用可能なレポート列 &#x200B;](/help/dsp/reports/report-columns.md)
+>* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
+>* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートの複製 ](/help/dsp/reports/report-copy.md)
+>* [ カスタムレポートの編集 ](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポートのダウンロード ](/help/dsp/reports/report-download.md)
+>* [ カスタムレポートの実行 ](/help/dsp/reports/report-run-now.md)
+>* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
+>* [ レポートの宛先について ](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)

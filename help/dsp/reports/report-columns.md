@@ -3,9 +3,9 @@ title: 使用可能なレポート列
 description: カスタムレポートで使用可能な列の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: ae7431218dcb547ded53d4bad1a79b894ee973fe
+source-git-commit: 00931d247b43f4ec26e79d56ac5138c10323a79f
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,11 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Vendor] | 広告が表示されたオペレーティングシステムのベンダー（[!UICONTROL Microsoft] や [!UICONTROL Apple] など）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Version] | 広告が表示されたオペレーティングシステムのバージョン （[!UICONTROL Windows 10] や [!UICONTROL iOS Mojave] など） |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System] | 広告が表示されたオペレーティングシステム（[!UICONTROL Apple iOS] や [!UICONTROL Android] など）。 |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal ID] | 外部供給パートナーを通じて契約に割り当てられた一意の ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | DSPで入力された、ユーザーが割り当てた取引の名前。 |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Source] | 在庫を提供する供給側パートナー。 これは通常はパブリッシャーですが、SSP にすることもできます。 |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Name] | DSPで入力された、ユーザーが割り当てた取引の名前。 |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Type] | 取引が *[!UICONTROL Guaranteed]* か *[!UICONTROL Non-Guaranteed]* か。 |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Inventory Type] | 在庫の分類：*[!UICONTROL Private]、* *[!UICONTROL On Demand]、* または *[!UICONTROL Public]*。 |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Private Deal ID] | 外部供給パートナーを通じてプライベート取引に割り当てられた一意の ID。 |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Publisher] | 在庫を提供する供給側パートナー。 これは通常はパブリッシャーですが、SSP にすることもできます。 |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL SSP] | メディアが属する供給側パートナー（SSP）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Frequency] | [!UICONTROL Frequency] | デバイスが広告を受け取った回数。一意の Cookie またはデバイス ID に基づきます。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL City] | レポートされたデータが関連付けられている市区町村。 |
@@ -213,7 +214,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | 測定可能なすべてのインプレッションの中で表示可能なインプレッションの割合（<code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions] として計算）</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | ビューアブルと見なされる広告インプレッションの数。 |
 | [!UICONTROL Conversion Metrics] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のコンバージョン ] | 指定した広告主固有のコンバージョン指標またはAdobe Analytics イベントの合計。 |
-| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のカスタム目標 ] | 指定した [&#x200B; カスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md) に含まれるすべてのコンバージョンの重み付き合計。 |
+| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のカスタム目標 ] | 指定した [ カスタム目標 ](/help/dsp/optimization/custom-goal.md) に含まれるすべてのコンバージョンの重み付き合計。 |
 
 {style="table-layout:auto"}
 
@@ -222,8 +223,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
->* [&#x200B; カスタムレポートの作成 &#x200B;](/help/dsp/reports/report-create.md)
->* [&#x200B; カスタムレポートの複製 &#x200B;](/help/dsp/reports/report-copy.md)
->* [&#x200B; カスタムレポートの編集 &#x200B;](/help/dsp/reports/report-edit.md)
->* [&#x200B; カスタムレポートの設定 &#x200B;](/help/dsp/reports/report-settings.md)
+>* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
+>* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートの複製 ](/help/dsp/reports/report-copy.md)
+>* [ カスタムレポートの編集 ](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
