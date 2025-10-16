@@ -69,7 +69,7 @@ Adobe AdvertisingとAdobe Targetを使用すると、次の操作を行うこと
 
       ID を見つけるには、[&#x200B; 関連する ID 列をエンティティビューに追加 &#x200B;](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) します。
 
-      [!UICONTROL Accounts]![[!UICONTROL Network Account ID] 表示の列 &#x200B;](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID][!UICONTROL Accounts] 表示の列 ")
+      [!UICONTROL Accounts]![[!UICONTROL Network Account ID] 表示の列 &#x200B;](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID]&#x200B;[!UICONTROL Accounts] 表示の列 ")
 
       サポートが必要な場合は、Adobe アカウントチームにお問い合わせください。
 

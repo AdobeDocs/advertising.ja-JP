@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex] および既存の [!DNL Baidu] アカウントのみ*
 
-広告は、ターゲット web サイト（コンテンツ、プレースメントターゲット、キャンペーン）に表示できます。ユーザーが広告グループのいずれかのキーワード（検索キャンペーンの場合）または web サイトのコンテンツ（[!DNL Google Ads] の検索専用キャンペーンの動的検索広告）を検索した場合、またはユーザーが [!DNL Google Merchant Center][!DNL Microsoft Merchant Center] ージ内のいずれかの項目または製品フィードに関連する検索を実行した場合（[!DNL Google Ads] のショッピング広告または [!DNL Microsoft Advertising] のキャンペーンの製品広告）に表示できます。
+広告は、ターゲット web サイト（コンテンツ、プレースメントターゲット、キャンペーン）に表示できます。ユーザーが広告グループのいずれかのキーワード（検索キャンペーンの場合）または web サイトのコンテンツ（[!DNL Google Ads] の検索専用キャンペーンの動的検索広告）を検索した場合、またはユーザーが [!DNL Google Merchant Center]&#x200B;[!DNL Microsoft Merchant Center] ージ内のいずれかの項目または製品フィードに関連する検索を実行した場合（[!DNL Google Ads] のショッピング広告または [!DNL Microsoft Advertising] のキャンペーンの製品広告）に表示できます。
 
 ## 使用可能な広告タイプ
 

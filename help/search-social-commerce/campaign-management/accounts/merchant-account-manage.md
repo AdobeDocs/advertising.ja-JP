@@ -74,7 +74,7 @@ ht-degree: 0%
 >
 >マーチャントネットワーク上の実際のアカウントを編集するには、ネットワークの web サイトに移動します。
 
-1. メインメニューで、「\> **[!UICONTROL Search]\> [!UICONTROL Campaigns][!UICONTROL Products]** クリックし、「[!UICONTROL Accounts]」タブを開きます。
+1. メインメニューで、「\> **[!UICONTROL Search]\> [!UICONTROL Campaigns]&#x200B;[!UICONTROL Products]** クリックし、「[!UICONTROL Accounts]」タブを開きます。
 
 1. アカウント名の横の「![&#x200B; 設定を表示/編集 &#x200B;](/help/search-social-commerce/assets/settings.png " 設定を表示/編集 ")」をクリックします。
 

@@ -147,7 +147,7 @@ Ad Network アカウントを有効にすると、検索、ソーシャル、Com
 
 >[!NOTE]
 >
->広告ネットワーク マネージャーアカウントは、ここではサポートされていません。 [!DNL Microsoft Advertising] または [!DNL Yandex] の管理者アカウントを特定するには、それぞれマスターアカウント ID または MCC アカウント フィールドを使用します。 [&#x200B; 管理者アカウントの資格情報の設定  [!DNL Google Ads]  を行うには &#x200B;](/help/search-social-commerce/admin/manager-accounts.md)\> [!UICONTROL Admin][!UICONTROL Manager Accounts] 移動します。
+>広告ネットワーク マネージャーアカウントは、ここではサポートされていません。 [!DNL Microsoft Advertising] または [!DNL Yandex] の管理者アカウントを特定するには、それぞれマスターアカウント ID または MCC アカウント フィールドを使用します。 [&#x200B; 管理者アカウントの資格情報の設定  [!DNL Google Ads]  を行うには &#x200B;](/help/search-social-commerce/admin/manager-accounts.md)\> [!UICONTROL Admin]&#x200B;[!UICONTROL Manager Accounts] 移動します。
 
 **[!UICONTROL Account Name]:** 検索、ソーシャル、Commerce内でアカウントに対して表示される名前。
 
