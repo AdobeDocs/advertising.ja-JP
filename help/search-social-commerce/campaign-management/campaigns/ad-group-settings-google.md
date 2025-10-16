@@ -42,7 +42,7 @@ ht-degree: 0%
 >* ポートフォリオのキャンペーンを年齢、性別、興味とリスト、または垂直方向で入札する場合、最適化機能はディメンションの入札を最適化しません。 また、すべてのアトリビューションが広告グループに適用されます。
 >* 検索ネットワーク上の広告は、常にキーワード入札を使用します。
 
-**[!UICONTROL AI Max Search Term Matching]:** （検索ネットワークをターゲットにし、[AI Max 機能 ](https://support.google.com/google-ads/answer/15910366) およびキャンペーンレベルの検索語句のマッチング機能が有効になっているキャンペーン。読み取り専用）広告グループレベルの検索語句のマッチングが有効になっているかどうか（*[!UICONTROL Disabled]* または *[!UICONTROL Enabled]*）。
+**[!UICONTROL AI Max Search Term Matching]:** （検索ネットワークをターゲットにし、[AI Max 機能 &#x200B;](https://support.google.com/google-ads/answer/15910366) およびキャンペーンレベルの検索語句のマッチング機能が有効になっているキャンペーン。読み取り専用）広告グループレベルの検索語句のマッチングが有効になっているかどうか（*[!UICONTROL Disabled]* または *[!UICONTROL Enabled]*）。
 
 ## [!UICONTROL Budget Options]
 
@@ -90,4 +90,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 広告グループの管理 ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [&#x200B; 広告グループの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
