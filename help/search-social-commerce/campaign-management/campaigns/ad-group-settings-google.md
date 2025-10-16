@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 広告グループ設定'
 description: 広告グループの設定  [!DNL Google Ads]  参照します。
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
+source-git-commit: 345c2af5363ca10412f3809700e281af5b06897f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 0%
 >* キーワードで入札する場合、キーワードレベルでトラッキングテンプレートを作成します。 同様に、プレースメント別に入札する場合は、プレースメントレベルでトラッキングテンプレートを作成します。 その他のすべてのディメンションでは、広告レベルでトラッキングテンプレートを作成します。
 >* ポートフォリオのキャンペーンを年齢、性別、興味とリスト、または垂直方向で入札する場合、最適化機能はディメンションの入札を最適化しません。 また、すべてのアトリビューションが広告グループに適用されます。
 >* 検索ネットワーク上の広告は、常にキーワード入札を使用します。
+
+**[!UICONTROL AI Max Search Term Matching]:** （検索ネットワークをターゲットにし、[AI Max 機能 ](https://support.google.com/google-ads/answer/15910366) およびキャンペーンレベルの検索語句のマッチング機能が有効になっているキャンペーン。読み取り専用）広告グループレベルの検索語句のマッチングが有効になっているかどうか（*[!UICONTROL Disabled]* または *[!UICONTROL Enabled]*）。
 
 ## [!UICONTROL Budget Options]
 
@@ -88,4 +90,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 広告グループの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [ 広告グループの管理 ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)

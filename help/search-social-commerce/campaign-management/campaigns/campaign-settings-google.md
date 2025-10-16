@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] キャンペーンの設定'
 description: キャンペーンの設定  [!DNL Google Ads]  参照します。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: cbe18b75d49ca53460883931ecea21aa6c2d8326
+source-git-commit: b321c807e3ab470068ad557ed428484d58e95ed4
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2505'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,11 @@ ht-degree: 0%
 
 {{$include /help/_includes/end-date.md}}
 
-**[!UICONTROL Search Partners]:** （検索ネットワークのみをターゲットとするキャンペーン（ショッピングキャンペーンを含む））表示
-広告ネットワークの検索パートナーネットワーク上の広告。 デフォルトでは、このオプションは *[!UICONTROL Off]* です。
+**[!UICONTROL Search Partners]:** （検索ネットワークをターゲットとするキャンペーンで、ショッピングキャンペーンを含む）広告ネットワークの検索パートナーネットワークの広告を表示します。 デフォルトでは、このオプションは *[!UICONTROL Off]* です。
+
+**[!UICONTROL AI Max Enabled]:** （検索ネットワークをターゲットにするキャンペーンのみ。読み取り専用） [[!UICONTROL AI Max] 機能が有効になっているかどうか ](https://support.google.com/google-ads/answer/15910366)*[!UICONTROL On]* または *[!UICONTROL Off]*。
+
+**[!UICONTROL AI Max Bundling]:** （検索ネットワークをターゲットとするキャンペーンのみ、AI MAX 機能が有効になっているキャンペーン、読み取り専用） バンドルが必要かどうか（*[!UICONTROL Not Required]*、*[!UICONTROL Required]*、*[!UICONTROL Unknown]*、*[!UICONTROL Unspecified]*）。
 
 ## [!UICONTROL Budget Options]
 
@@ -71,11 +74,11 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** キャンペーンの入札戦略：
 
-* *[!UICONTROL Enhanced CPC]:* 非推奨（廃止予定）。 2025 年 3 月 15 日（PT） [!DNL Google Ads]、既存の [&#x200B; 拡張 CPC 入札戦略 &#x200B;](https://support.google.com/google-ads/answer/2464964) を手動 CPC に自動的に変更し始めました。
+* *[!UICONTROL Enhanced CPC]:* 非推奨（廃止予定）。 2025 年 3 月 15 日（PT） [!DNL Google Ads]、既存の [ 拡張 CPC 入札戦略 ](https://support.google.com/google-ads/answer/2464964) を手動 CPC に自動的に変更し始めました。
 
 * *[!UICONTROL Manual CPC]* （デフォルト）: （Performance MAX キャンペーンでは使用できません）クリック単価（CPC）モデルを使用します。 オプションで、広告ネットワークにキャンペーンの入札の変更を許可できます。
 
-   * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）：これは、非推奨の「[!UICONTROL Enhanced CPC]」オプションを使用する場合と同じです。 2025 年 3 月 15 日（PT） [!DNL Google Ads]、既存の [&#x200B; 拡張 CPC 入札戦略 &#x200B;](https://support.google.com/google-ads/answer/2464964) を手動 CPC に自動的に変更し始めました。
+   * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）：これは、非推奨の「[!UICONTROL Enhanced CPC]」オプションを使用する場合と同じです。 2025 年 3 月 15 日（PT） [!DNL Google Ads]、既存の [ 拡張 CPC 入札戦略 ](https://support.google.com/google-ads/answer/2464964) を手動 CPC に自動的に変更し始めました。
 
 * *[!UICONTROL Maximize Clicks]:* （検索、ディスプレイ、ショッピングキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、クリック数を最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Max CPC]** （クリック単価）を入力し、広告ネットワークがクリックごとに特定の金額以上を支払わないようにします。 **注意：** この戦略を使用してキャンペーンをポートフォリオに追加すると、入札はポートフォリオの目的ではなく、クリックの重み付けで行われます。
 
@@ -112,7 +115,7 @@ ht-degree: 0%
 
 **ヒント：** この設定を使用する場合は、[!UICONTROL Inventory Filter] 設定でローカル広告を除外しないでください。
 
-**メモ：** ローカルの在庫広告には、[!DNL Google Merchant Center] ーザーに追加のフィードが 2 つ必要です。1 つはローカルの製品データを含むフィード、もう 1 つはローカルの製品インベントリを含むフィードです。 [&#x200B; ローカルショッピング広告 &#x200B;](https://www.google.com/retail/local-inventory-ads/) について詳しくは、[!DNL Google Ads] のドキュメントを参照してください。
+**メモ：** ローカルの在庫広告には、[!DNL Google Merchant Center] ーザーに追加のフィードが 2 つ必要です。1 つはローカルの製品データを含むフィード、もう 1 つはローカルの製品インベントリを含むフィードです。 [!DNL Google Ads] ローカルショッピング広告 [ について詳しくは、](https://www.google.com/retail/local-inventory-ads/) のドキュメントを参照してください。
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 
@@ -132,9 +135,9 @@ ht-degree: 0%
 
    * （国、州、大都市圏、都市） **[!UICONTROL Location Target]** ージ（![Location Target](/help/search-social-commerce/assets/location-target.png "Location Target")）をクリックし、含めて除外する場所を探します。
 
-      * 場所とその子場所を含めるには、隣の円を 1 回クリックすると、青いチェックマーク（![&#x200B; 含める &#x200B;](/help/search-social-commerce/assets/include.png " 含める ")）が表示されます。
+      * 場所とその子場所を含めるには、隣の円を 1 回クリックすると、青いチェックマーク（![ 含める ](/help/search-social-commerce/assets/include.png " 含める ")）が表示されます。
 
-      * 場所を除外するには、隣接する円を 2 回クリックして、赤いチェックマーク（![&#x200B; 除外 &#x200B;](/help/search-social-commerce/assets/exclude.png " 除外 ")）を表示します。
+      * 場所を除外するには、隣接する円を 2 回クリックして、赤いチェックマーク（![ 除外 ](/help/search-social-commerce/assets/exclude.png " 除外 ")）を表示します。
 
       * 場所をサブコンポーネント（米国の州、大都市圏、都市など）に展開するには、場所名をクリックします。
 
@@ -142,7 +145,7 @@ ht-degree: 0%
 
    * （アドレスの近くの場所。含まれるターゲットのみ） **[!UICONTROL Radius Target]** （![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")）をクリックし、「**[!UICONTROL Address]**」をクリックします。 ターゲットとするアドレスとその周囲の半径（マイルまたはキロメートル）を入力し、[**[!UICONTROL Add]**] をクリックします。
 
-   * （地理的座標の近くの位置。含まれるターゲットのみ） [**[!UICONTROL Radius Target]**] （![&#x200B; 半径ターゲット &#x200B;](/help/search-social-commerce/assets/radius-target.png " 半径ターゲット ")）をクリックし、[**[!UICONTROL Coordinate]**] をクリックします。 ターゲットとする位置の周りの緯度と経度、および半径をマイルまたはキロメートル単位で入力し、[**[!UICONTROL Add]**] をクリックします。
+   * （地理的座標の近くの位置。含まれるターゲットのみ） [**[!UICONTROL Radius Target]**] （![ 半径ターゲット ](/help/search-social-commerce/assets/radius-target.png " 半径ターゲット ")）をクリックし、[**[!UICONTROL Coordinate]**] をクリックします。 ターゲットとする位置の周りの緯度と経度、および半径をマイルまたはキロメートル単位で入力し、[**[!UICONTROL Add]**] をクリックします。
 
 * （組み込み対象事業所に対する入札調整を追加する手順は、次のとおりです）入札調整値を入力します。
 
@@ -201,7 +204,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Bid higher for new customers than for existing customers]*
 
-  **メモ：** この設定を使用するには、まず [!DNL Google Ads] アカウント、または該当する場合は管理者アカウントの新規顧客獲得目標をアクティブにする必要があります。 目標では、適格な既存顧客リストと、コンバージョン設定の新規顧客に対する追加のコンバージョン値を定義します。 [!DNL Google Ads] ヘルプの手順 1 ～ 2 の「[&#x200B; 新規顧客獲得目標をアクティベートする &#x200B;](https://support.google.com/google-ads/answer/14007601) を参照してください。
+  **メモ：** この設定を使用するには、まず [!DNL Google Ads] アカウント、または該当する場合は管理者アカウントの新規顧客獲得目標をアクティブにする必要があります。 目標では、適格な既存顧客リストと、コンバージョン設定の新規顧客に対する追加のコンバージョン値を定義します。 [!DNL Google Ads] ヘルプの手順 1 ～ 2 の「[ 新規顧客獲得目標をアクティベートする ](https://support.google.com/google-ads/answer/14007601) を参照してください。
 
 * *[!UICONTROL Only bid for new customers]*
 
@@ -261,7 +264,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]:** アセットグループから作成されたすべての広告の最終的な URL。<!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** 広告の画像（最大 15 個）。次のサイズを含みます。1） 3 つ以上の正方形画像、2） 3 つ以上の横長画像、および 3） 1 つ以上の縦長画像。 [[!DNL Google Ads]  画像仕様 &#x200B;](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications) を参照してください。 画像は、アップロードすることも、[!UICONTROL Asset Library] ージから選択することもできます。ただし、同じ操作で両方を選択することはできません。
+**[!UICONTROL Images]:** 広告の画像（最大 15 個）。次のサイズを含みます。1） 3 つ以上の正方形画像、2） 3 つ以上の横長画像、および 3） 1 つ以上の縦長画像。 [[!DNL Google Ads]  画像仕様 ](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications) を参照してください。 画像は、アップロードすることも、[!UICONTROL Asset Library] ージから選択することもできます。ただし、同じ操作で両方を選択することはできません。
 
 * 画像をアップロードするには：
 
@@ -283,7 +286,7 @@ ht-degree: 0%
 
 * [!UICONTROL Asset Library] ージから画像を選択するには、「**[!UICONTROL Asset Library]**」をクリックして画像を選択します。
 
-**[!UICONTROL Logos]:** 少なくとも 1 つの正方形（1:1）のロゴおよび 1 つの横（4:1）のロゴ。 各サイズを最大 5 つ含めることができます。 [[!DNL Google Ads]  ロゴの仕様 &#x200B;](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications) を参照してください。 画像は、アップロードすることも、[!UICONTROL Asset Library] ージから選択することもできます。ただし、同じ操作で両方を選択することはできません。
+**[!UICONTROL Logos]:** 少なくとも 1 つの正方形（1:1）のロゴと 1 つの横（4:1）のロゴ。 各サイズを最大 5 つ含めることができます。 [[!DNL Google Ads]  ロゴの仕様 ](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications) を参照してください。 画像は、アップロードすることも、[!UICONTROL Asset Library] ージから選択することもできます。ただし、同じ操作で両方を選択することはできません。
 
 * 画像をアップロードするには：
 
@@ -354,9 +357,9 @@ ht-degree: 0%
 **[!UICONTROL Audience Signal]:** （任意）キャンペーンのオーディエンスシグナルとして使用するオーディエンスを [!DNL Google Ads] 定します。 機械学習モデル [!DNL Google Ads]、オーディエンスを使用して、ターゲットとする類似の web サーファーを見つけます。また、パフォーマンス目標を達成するのに役立つシグナルとして指定されていないオーディエンスに広告を表示することもあります。 コンバージョンする可能性が最も高いオーディエンスを選択します。
 
 >[!NOTE]
->オーディエンスシグナルは、[&#x200B; キャンペーンレベルと広告グループレベルのオーディエンスターゲット &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) とは異なります。
+>オーディエンスシグナルは、[ キャンペーンレベルと広告グループレベルのオーディエンスターゲット ](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) とは異なります。
 
-**[!UICONTROL Primary Status]:** （Performance MAX キャンペーンの既存のアセットグループの読み取り専用フィールド）アセットグループがフルキャパシティで提供されている、または提供されていない理由。 アセットグループのステータスに加え、ポリシーや品質の承認などの他のシグナルも考慮されます。 値には、*ELIGIBLE、**LIMITED、**&#x200B;NOT_ELIGIBLE、**PAUSED、**&#x200B;PENDING、**REMOVED、**&#x200B;UNKNOWN、**UNSPECIFIED*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. --> などがあります。
+**[!UICONTROL Primary Status]:** （Performance MAX キャンペーンの既存のアセットグループの読み取り専用フィールド）アセットグループがフルキャパシティで提供されている、または提供されていない理由。 アセットグループのステータスに加え、ポリシーや品質の承認などの他のシグナルも考慮されます。 値には、*ELIGIBLE、**LIMITED、**NOT_ELIGIBLE、**PAUSED、**PENDING、**REMOVED、**UNKNOWN、**UNSPECIFIED*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. --> などがあります。
 
 **[!UICONTROL Primary Status Reason]:** （Performance MAX キャンペーンの既存のアセットグループの読み取り専用フィールド）アセットグループのプライマリステータスに関する追加の詳細。 値には、*ASSET_GROUP_DISAPPROVED、* *ASSET_GROUP_LIMITED、* *ASSET_GROUP_PAUSED、* *ASSET_GROUP_REMOVED、* *ASSET_GROUP_UNDER_REVIEW、* *CAMPAIGN_ENDED、* *CAMPAIGN_PAUSED、* *CAMPAIGN_PENDING、* *CAMPAIGN_REMOVED、* *UNKNOWN、* **、または UNSPECIFIED.UNSPECIFIED。
 
@@ -364,16 +367,16 @@ ht-degree: 0%
 
 **[!UICONTROL Conversion Goal]:** *[!UICONTROL Use account conversion goals for this campaign]* （デフォルト）か *[!UICONTROL Use campaign specific conversion goals]*。 キャンペーンのコンバージョン目標を指定する場合は、「標準目標」を選択するか、キャンペーンのカスタム目標を作成します。
 
-目標は毎日同期されるので、過去 24 時間に作成された既存の目標はリストされない場合があります。 リストを更新するには、[&#x200B; 広告ネットワークデータを手動で同期 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/sync-network.md) します。
+目標は毎日同期されるので、過去 24 時間に作成された既存の目標はリストされない場合があります。 リストを更新するには、[ 広告ネットワークデータを手動で同期 ](/help/search-social-commerce/campaign-management/campaigns/sync-network.md) します。
 
-カスタムのコンバージョン目標を作成するには、[**[!UICONTROL + Add custom goal]**] をクリックし、カスタム目標名を入力して、カスタム目標に含める [&#x200B; コンバージョンアクション &#x200B;](https://support.google.com/google-ads/answer/6032150) を選択し、[**[!UICONTROL Save]**] をクリックします。 **メモ：** 各キャンペーンには、1 つのカスタム目標のみを設定できます。
+カスタムのコンバージョン目標を作成するには、[**[!UICONTROL + Add custom goal]**] をクリックし、カスタム目標名を入力して、カスタム目標に含める [ コンバージョンアクション ](https://support.google.com/google-ads/answer/6032150) を選択し、[**[!UICONTROL Save]**] をクリックします。 **メモ：** 各キャンペーンには、1 つのカスタム目標のみを設定できます。
 
 >[!TIP]
 >
 >キャンペーンがハイブリッドポートフォリオの一部である場合は、ポートフォリオの目的のコンバージョン目標に一致するキャンペーンレベルの目標を使用することがベストプラクティスです。追加のコンバージョン目標を含めると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
 >
->ただし、[&#x200B; 広告ネットワークに目標をアップロード &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md) するハイブリッドポートフォリオ内のキャンペーンの場合、ここでは行わずに、広告ネットワークのエディター内で次の操作を行います。a） アップロードした検索、ソーシャルおよびCommerceのポートフォリオ目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョンアクションとして追加し、b）広告ネットワークのトラッキング指標が広告ネットワークにアップロードされないので、[!DNL Google] ーーールトラッキングされたコンバージョンを含むキャンペーン目標を追加します。
+>ただし、[ 広告ネットワークに目標をアップロード ](/help/search-social-commerce/tools/objective-upload-to-networks.md) するハイブリッドポートフォリオ内のキャンペーンの場合、ここでは行わずに、広告ネットワークのエディター内で次の操作を行います。a） アップロードした検索、ソーシャルおよびCommerceのポートフォリオ目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョンアクションとして追加し、b）広告ネットワークのトラッキング指標が広告ネットワークにアップロードされないので、[!DNL Google] ーーールトラッキングされたコンバージョンを含むキャンペーン目標を追加します。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーンの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [ キャンペーンの管理 ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
