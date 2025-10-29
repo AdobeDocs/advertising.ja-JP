@@ -38,9 +38,9 @@ ht-degree: 0%
 
 **[!UICONTROL Display Code]:** （サードパーティ広告のみ）サードパーティのクリエイティブアセットの URL。 [timestamp] および [[timestamp]] パラメーターは、実際の値に置き換えられます。
 
-**[!UICONTROL Final Display Code]:** （サードパーティ広告のみ）サードパーティのクリエイティブアセットの URL で、必要な [Advertising DSP トラッキングマクロ ](/help/dsp/campaign-management/macros.md) が挿入されています（該当する場合）。
+**[!UICONTROL Final Display Code]:** （サードパーティ広告のみ）サードパーティのクリエイティブアセットの URL で、必要な [Advertising DSP トラッキングマクロ &#x200B;](/help/dsp/campaign-management/macros.md) が挿入されています（該当する場合）。
 
-**[!UICONTROL Ad Size]:** 広告の幅と高さ。 [ サポートされている標準表示広告サイズ ](ad-specs.md) である必要があります。 広告をアップロードする前または [!UICONTROL Display Code] を入力する前に、広告サイズを手動で入力できます。 広告サイズを入力しない場合、アップロードされた広告または広告タグの寸法は自動的に読み取り専用として入力されます。
+**[!UICONTROL Ad Size]:** 広告の幅と高さ。 [&#x200B; サポートされている標準表示広告サイズ &#x200B;](ad-specs.md) である必要があります。 広告をアップロードする前または [!UICONTROL Display Code] を入力する前に、広告サイズを手動で入力できます。 広告サイズを入力しない場合、アップロードされた広告または広告タグの寸法は自動的に読み取り専用として入力されます。
 
 >[!IMPORTANT]
 >
@@ -54,8 +54,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Ad Management について ](ad-about.md)
->* [ 単一の広告の作成 ](ad-create.md)
->* [ 広告に関連付けられたプレースメントのリスト ](ad-list-placements.md)
->* [ 広告仕様 ](ad-specs.md)
->* [DSP マクロ ](/help/dsp/campaign-management/macros.md)
+>* [Ad Management について &#x200B;](ad-about.md)
+>* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
+>* [&#x200B; 広告に関連付けられたプレースメントのリスト &#x200B;](ad-list-placements.md)
+>* [&#x200B; 広告仕様 &#x200B;](ad-specs.md)
+>* [DSP マクロ &#x200B;](/help/dsp/campaign-management/macros.md)
