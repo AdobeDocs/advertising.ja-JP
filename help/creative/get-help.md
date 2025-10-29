@@ -2,9 +2,10 @@
 title: ヘルプを表示
 description: オンラインヘルプとコミュニティリソースを表示する方法と、テクニカルサポートを受ける方法について説明します。
 feature: Creative Introduction
-source-git-commit: b610a0b8db410759cae79a6193c38abc573c28ba
+exl-id: 88059f73-6da3-4deb-b4ef-fa8e8eaec569
+source-git-commit: 70598a94d2a2bc4c8e34de311d68872a8207006b
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -22,13 +23,20 @@ ht-degree: 0%
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=ja).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## 連絡先 [!DNL Adobe]
 
-商品またはアカウントの問題については、Adobe アカウントチームにお問い合わせください。
+製品またはアカウントの問題については、次の手順を実行します。
 
-問題を再現する詳細な手順、関連データ、実行した予備のトラブルシューティングに関する情報を提供します。 ブラウザー名とバージョンも含めます。
+* （セルフサービス契約を持つ広告主）組織のチケットを [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support) で開きます。
 
-カスタムレポートの問題の場合は、レポートを削除せずに、レポート名を指定します。
+  製品の場合、「[!UICONTROL Advertising - Creative]」を選択します。
+
+* （フルサービス契約を締結している広告主）Adobeアカウントチームにお問い合わせください。
+
+チケットまたは通信には、問題を再現する詳細な手順、関連するデータ、ブラウザー名とバージョン、実行した事前のトラブルシューティングに関する情報が記載されています。
+
+レポートの問題の場合は、レポートを削除せずに、レポート名と URL を指定します。
+
