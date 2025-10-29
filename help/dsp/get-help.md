@@ -21,14 +21,14 @@ ht-degree: 0%
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=ja).
 -->
 
 ## 連絡先 [!DNL Adobe]
 
 製品またはアカウントの問題については、次の手順を実行します。
 
-* （セルフサービス契約を持つ広告主）組織のチケットを [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support) で開きます。
+* （セルフサービス契約を持つ広告主）組織のチケットを [https://experienceleague.adobe.com/home?lang=ja#support](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support) で開きます。
 
   製品の場合、「[!UICONTROL Advertising - DSP]」を選択します。
 
