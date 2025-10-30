@@ -3,9 +3,9 @@ title: キャンペーン設定
 description: 使用可能なキャンペーン設定の説明を参照してください。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: daf995b0c40d77434d2c86c738351a33552dc555
+source-git-commit: 1b15b14b0ace6137e79b456c7c8f8444efa8acac
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Margin % of Total Budget]:* （デフォルト）手数料を [!UICONTROL Gross Budget] のパーセンテージとして計算します。 [!UICONTROL Agency Fee Type] （固定または複合）と [!UICONTROL Margin %] または [!UICONTROL Composite Margin %] を指定します。
 
-   * *[!UICONTROL Apply Markup % on top of individual cost components]:* 指定した割合の [!UICONTROL Gross Budget] をメディアコスト、データおよびその他のコスト、[!DNL Adobe] の技術料金に追加します。 [!UICONTROL Markup %] を指定し、マークアップを適用するコンポーネントを選択します。
+   * *[!UICONTROL Apply Markup % on top of individual cost components]:* メディアコスト、データおよびその他のコスト、技術料金に、指定した割合 [!DNL Adobe] 加算します。 [!UICONTROL Markup %] を指定し、マークアップを適用するコンポーネントを選択します。
 
 * **[!UICONTROL Agency Fee Type]:** （[!UICONTROL Margin % of Total Budget] を使用するキャンペーン）代理店手数料のタイプ。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Composite Margin %]:** （複合マージンを持つ [!UICONTROL Margin % of Total Budget] を使用するキャンペーン）代理店手数料と [!DNL Adobe] の技術手数料の合計（パーセンテージ）。 この金額は、キャンペーンの正味予算を定義するために [!UICONTROL Gross Budget] から差し引かれます。 余白は、[!UICONTROL Estimated Tax Withholding] ージの [!UICONTROL Gross Budget] には適用されません。
 
-* **[!UICONTROL Markup %]:** （[!UICONTROL Apply Markup % on top of individual cost components] を使用するキャンペーン）指定されたコストコンポーネントに追加する [!UICONTROL Gross Budget] の割合。
+* **[!UICONTROL Markup %]:** （[!UICONTROL Apply Markup % on top of individual cost components] を使用するキャンペーン）指定したコストコンポーネントに追加する割合。
 
 * **[!UICONTROL Select cost components on which markup will be applied]:** （[!UICONTROL Apply Markup % on top of individual cost components] を使用するキャンペーン） [!UICONTROL Markup %] が適用されるコストコンポーネント。 該当するすべてのコンポーネント（*[!UICONTROL Media cost]*、*[!UICONTROL Data and Other costs]*、*[!UICONTROL Adobe tech fees]* のいずれか、または両方）を選択します。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 >
 > フリークエンシーキャップは、キャンペーン、パッケージ、プレースメントの各レベルで設定できます。 DSPは、キャンペーン階層内で最も厳格なフリークエンシーキャップに従います。
 
-**[!UICONTROL Packages]:** キャンペーンに含める [&#x200B; パッケージ &#x200B;](/help/dsp/campaign-management/packages/package-about.md)。 既存のパッケージを選択するか、含めるパッケージを作成します。 パッケージを作成する場合、詳しくは、[&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) に関する説明を参照してください。
+**[!UICONTROL Packages]:** キャンペーンに含める [ パッケージ ](/help/dsp/campaign-management/packages/package-about.md)。 既存のパッケージを選択するか、含めるパッケージを作成します。 パッケージを作成する場合、詳しくは、[ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md) に関する説明を参照してください。
 
 ## [!UICONTROL Campaign Measurement]
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 「[!UICONTROL Attention Score]」フィールドは、レポートの [!UICONTROL Metrics] のセクション（[!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements] の各ビュー内、および [!UICONTROL Sites] プレースメントの詳細ビュー [!UICONTROL Ads] の「[!UICONTROL Inventory]」、「[」、「](/help/dsp/campaign-management/reports/placement-details-view.md)」タブで使用できます。
 
-測定に [!DNL Adelaide] セグメントを使用すると、[!DNL Adelaide] の測定タグを使用して広告から配信されたインプレッションごとにCPM料金が発生します。 この料金は、[&#x200B; プレースメントレベルのアテンションターゲティング &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) の料金とは別のものです。
+測定に [!DNL Adelaide] セグメントを使用すると、[!DNL Adelaide] の測定タグを使用して広告から配信されたインプレッションごとにCPM料金が発生します。 この料金は、[ プレースメントレベルのアテンションターゲティング ](/help/dsp/campaign-management/placements/placement-settings.md) の料金とは別のものです。
 
 <!--
 Example JavaScript tag:
@@ -154,7 +154,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [Campaign 管理について &#x200B;](campaign-about.md)
->* [&#x200B; キャンペーンの作成 &#x200B;](campaign-create.md)
->* [&#x200B; キャンペーンの編集 &#x200B;](campaign-edit.md)
->* [&#x200B; キャンペーンの変更ログを表示 &#x200B;](campaign-change-log.md)
+>* [Campaign 管理について ](campaign-about.md)
+>* [ キャンペーンの作成 ](campaign-create.md)
+>* [ キャンペーンの編集 ](campaign-edit.md)
+>* [ キャンペーンの変更ログを表示 ](campaign-change-log.md)
