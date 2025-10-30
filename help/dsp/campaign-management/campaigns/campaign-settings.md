@@ -3,9 +3,9 @@ title: キャンペーン設定
 description: 使用可能なキャンペーン設定の説明を参照してください。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: daf995b0c40d77434d2c86c738351a33552dc555
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -28,29 +28,31 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Goals]
 
-**[!UICONTROL Margin Management]:** キャンペーンの余白を管理するかどうか：*[!UICONTROL Yes]* または *[!UICONTROL No]* （デフォルト）。
+**[!UICONTROL Margin Management]:** （マージンを使用してエージェンシーがサービスを提供するセルフサービス・アカウント）マージン管理のオプション：
 
-「*[!UICONTROL Yes]」を選択した場合は* マージンのタイプと金額を指定します。
+* **[!UICONTROL Would you like to manage margins for this campaign?]:** キャンペーンの余白を管理するかどうか：*[!UICONTROL Yes]* または *[!UICONTROL No]* （デフォルト）。 *[!UICONTROL Yes]を選択する場合は* 追加設定を指定します。 証拠金管理を有効にしてキャンペーンを保存したら、証拠金管理を無効にすることはできません。
 
-* **[!UICONTROL Margin Type]:** 余白のタイプ。 マージン管理を有効化してキャンペーンを保存すると、マージンタイプを変更できなくなります。
+* **[!UICONTROL How would you like to compute agency fees?]:** （証拠金管理を行うキャンペーンのみ）エージェンシー手数料の計算方法：
 
-   * *[!UICONTROL Fixed]:* （デフォルト）DSPで、[!UICONTROL Gross Budget] ーザーの固定利益率に基づいて費用の自動計算と上限を行うことができます。
+   * *[!UICONTROL Margin % of Total Budget]:* （デフォルト）手数料を [!UICONTROL Gross Budget] のパーセンテージとして計算します。 [!UICONTROL Agency Fee Type] （固定または複合）と [!UICONTROL Margin %] または [!UICONTROL Composite Margin %] を指定します。
 
-   * *[!UICONTROL Dynamic]:* キャンペーン内のパッケージとプレースメントごとに個別の [!UICONTROL Budget Reserve %] と [!UICONTROL Gross Budget] を指定することで、プレースメントレベルまで余白を管理できます。 DSPは、特定の利益を保証することなく、各プレースメントの財務効率に基づいて最適化します。 固定金額の単位または単位タイプを固定レートで提供することに同意した複数の品目で構成される挿入注文の場合に使用します。
+   * *[!UICONTROL Apply Markup % on top of individual cost components]:* 指定した割合の [!UICONTROL Gross Budget] をメディアコスト、データおよびその他のコスト、[!DNL Adobe] の技術料金に追加します。 [!UICONTROL Markup %] を指定し、マークアップを適用するコンポーネントを選択します。
 
-* **[!UICONTROL Fixed Margin %]:** （マージンが固定されているキャンペーンのみ）各挿入順序 <!-- impression? --> のデフォルトのマークアップ （パーセント）。 この金額は、キャンペーンの正味予算を定義するために [!UICONTROL Gross Budget] から差し引かれます。
+* **[!UICONTROL Agency Fee Type]:** （[!UICONTROL Margin % of Total Budget] を使用するキャンペーン）代理店手数料のタイプ。
 
-* **[!UICONTROL Budget Reserve %]:** （固定マージンのあるキャンペーンのみ。オプション） [!UICONTROL Gross Budget] ータの指定した割合を保護手段として予約します。 この金額は、キャンペーンの正味予算を定義するために [!UICONTROL Gross Budget] から差し引かれます。
+   * *[!UICONTROL Fixed]:* （デフォルト）DSPが、[!UICONTROL Gross Budget] ーザーの固定割合に基づいて費用の自動計算と上限を行えるようにします。 [!UICONTROL Margin %] を指定してください
+
+   * *[!UICONTROL Composite]:* DSPで、代理店手数料と [!UICONTROL Gross Budget] の技術手数料の複合割合を使用して、[!DNL Adobe] の割合に基づいて費用の自動計算と上限を設定できます。 [!UICONTROL Composite Margin %] を指定してください
+
+* **[!UICONTROL Margin %]:** （余白が固定された [!UICONTROL Margin % of Total Budget] を使用するキャンペーン）各挿入順序 <!-- impression? --> のデフォルトのマークアップ （割合）。 この金額は、キャンペーンの正味予算を定義するために [!UICONTROL Gross Budget] から差し引かれます。 余白は、[!UICONTROL Estimated Tax Withholding] ージの [!UICONTROL Gross Budget] には適用されません。
+
+* **[!UICONTROL Composite Margin %]:** （複合マージンを持つ [!UICONTROL Margin % of Total Budget] を使用するキャンペーン）代理店手数料と [!DNL Adobe] の技術手数料の合計（パーセンテージ）。 この金額は、キャンペーンの正味予算を定義するために [!UICONTROL Gross Budget] から差し引かれます。 余白は、[!UICONTROL Estimated Tax Withholding] ージの [!UICONTROL Gross Budget] には適用されません。
+
+* **[!UICONTROL Markup %]:** （[!UICONTROL Apply Markup % on top of individual cost components] を使用するキャンペーン）指定されたコストコンポーネントに追加する [!UICONTROL Gross Budget] の割合。
+
+* **[!UICONTROL Select cost components on which markup will be applied]:** （[!UICONTROL Apply Markup % on top of individual cost components] を使用するキャンペーン） [!UICONTROL Markup %] が適用されるコストコンポーネント。 該当するすべてのコンポーネント（*[!UICONTROL Media cost]*、*[!UICONTROL Data and Other costs]*、*[!UICONTROL Adobe tech fees]* のいずれか、または両方）を選択します。
 
 **[!UICONTROL Gross Budget]:** （マージン管理のあるキャンペーンのみ）指定したマージン調整が適用される前のキャンペーン予算の総計。
-
-オプションで、日次、週次または月次の総予算を追加できます。
-
-1. 「**[!UICONTROL Add an additional Gross Budget]**」をクリックします。
-
-1. **[!UICONTROL Gross Budget]** を入力し、予算間隔（*[!UICONTROL Daily]、*、*[!UICONTROL Weekly]、* または *[!UICONTROL Monthly]*）を選択します。
-
-キャンペーンの支出上限である純予算合計は、マージン設定に基づいて自動的に計算され、この値の下に示されます。
 
 **[!UICONTROL Budget]:** （マージン管理のないキャンペーン）キャンペーン予算全体。
 
@@ -78,11 +80,11 @@ ht-degree: 0%
 >
 >* これらの値は、アカウントの料金設定でも設定できます。<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-**[!UICONTROL Cross Device Level]:** （2020 年 6 月 22 日以降に作成された既存のキャンペーンは読み取り専用、2020 年 6 月 22 日（PT）より前に作成されたキャンペーンは使用できません） DSPが広告をターゲットにし、フリークエンシーキャップを適用するレベル。*同じデバイス* でデバイスをターゲットにしたり、*人物* で既知のすべてのデバイスをターゲットにしたりします。 **メモ：** クロスデバイスのサポートは、ユニバーサル ID をターゲットとするプレースメントでは使用できません。
+**[!UICONTROL Cross Device Level]:** （2020 年 6 月 22 日以降に作成された既存のキャンペーンは読み取り専用、2020 年 6 月 22 日（PT）より前に作成されたキャンペーンは使用できません）DSPが広告をターゲットにし、フリークエンシーキャップを適用するレベルです。*同じデバイス* でデバイスをターゲットにするか、*人物* で既知のすべてのデバイスをターゲットにします。 **メモ：** クロスデバイスのサポートは、ユニバーサル ID をターゲットとするプレースメントでは使用できません。
 
 **[!UICONTROL Device Graph]:** （既存のキャンペーンは読み取り専用、人物ベースのクロスデバイスターゲティングのみを使用するキャンペーン）クロスデバイスターゲティングと頻度管理に使用するデバイスグラフ：
 
-* *[!UICONTROL LiveRamp - U.S. only]:* [!DNL LiveRamp] デバイスグラフを使用して配信されるインプレッションに対して（つまり、ターゲットオーディエンスセグメント内に見つからないデバイスに対して）、0.35 CPM ドルでのクロスデバイスターゲティングを許可しているすべての広告主が利用できます。 クロスデバイスターゲティングはプレースメントレベルで設定できます。
+* *[!UICONTROL LiveRamp - U.S. only]:* [!DNL LiveRamp] デバイスグラフを使用して配信されるインプレッション（つまり、ターゲットオーディエンスセグメントに含まれていないデバイス）に対する 0.35 USD のCPMでのクロスデバイスターゲティングについて、すべての広告主が利用できます。 クロスデバイスターゲティングはプレースメントレベルで設定できます。
 
   また、このオプションは、すべての広告主が料金無料で周波数管理とアトリビューション測定に使用できます。
 
@@ -94,7 +96,7 @@ ht-degree: 0%
 >
 > フリークエンシーキャップは、キャンペーン、パッケージ、プレースメントの各レベルで設定できます。 DSPは、キャンペーン階層内で最も厳格なフリークエンシーキャップに従います。
 
-**[!UICONTROL Packages]:** キャンペーンに含める [&#x200B; パッケージ &#x200B;](/help/dsp/campaign-management/packages/package-about.md)。 既存のパッケージを選択するか、含めるパッケージを作成します。 パッケージを作成する場合、詳しくは、[&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) に関する説明を参照してください。
+**[!UICONTROL Packages]:** キャンペーンに含める [ パッケージ ](/help/dsp/campaign-management/packages/package-about.md)。 既存のパッケージを選択するか、含めるパッケージを作成します。 パッケージを作成する場合、詳しくは、[ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md) に関する説明を参照してください。
 
 ## [!UICONTROL Campaign Measurement]
 
@@ -130,11 +132,11 @@ ht-degree: 0%
 
 ### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]:** プレースメントレベルの [!UICONTROL Attention Score] 指標（インプレッション間の [!DNL Adelaide] 「[!DNL Attention Units]」の加重平均数）のトラッキングを有効にします。 指標は、コネクテッド TV、VPAID のみのプレロール、ポッドキャスト [!DNL Roku] ないオーディオを除くすべてのプレースメントタイプで使用できます。 DSPでは、関連するすべてのクリエイティブにJavaScript タグを自動的に付加し、[!DNL Adelaide] で公開データを追跡して、それを毎日DSPに送信します。 この日付を使用して、より注意スコアの高いプレースメント戦術に向けて手動で支出を最適化できます。
+**[!UICONTROL Adelaide]:** プレースメントレベルの [!UICONTROL Attention Score] 指標（インプレッション間の [!DNL Adelaide] 「[!DNL Attention Units]」の加重平均数）のトラッキングを有効にします。 指標は、コネクテッド TV、VPAID のみのプレロール、ポッドキャスト [!DNL Roku] ないオーディオを除くすべてのプレースメントタイプで使用できます。 DSPでは、関連するすべてのクリエイティブにJavaScript タグを自動的に付加し、[!DNL Adelaide] で公開データをトラッキングして、それを毎日DSPに送信します。 この日付を使用して、より注意スコアの高いプレースメント戦術に向けて手動で支出を最適化できます。
 
-「[!UICONTROL Attention Score]」フィールドは、レポートの [!UICONTROL Metrics] のセクション（[!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements] の各ビュー内、および [&#x200B; プレースメントの詳細ビュー &#x200B;](/help/dsp/campaign-management/reports/placement-details-view.md) の「[!UICONTROL Sites]」、「[!UICONTROL Ads]」、「[!UICONTROL Inventory]」タブで使用できます。
+「[!UICONTROL Attention Score]」フィールドは、レポートの [!UICONTROL Metrics] のセクション（[!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements] の各ビュー内、および [!UICONTROL Sites] プレースメントの詳細ビュー [!UICONTROL Ads] の「[!UICONTROL Inventory]」、「[」、「](/help/dsp/campaign-management/reports/placement-details-view.md)」タブで使用できます。
 
-測定に [!DNL Adelaide] セグメントを使用すると、測定タグの付いた広告から配信されるインプレッションごとに CPM 料金が発生 [!DNL Adelaide] ます。 この料金は、[&#x200B; プレースメントレベルのアテンションターゲティング &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) の料金とは別のものです。
+測定に [!DNL Adelaide] セグメントを使用すると、[!DNL Adelaide] の測定タグを使用して広告から配信されたインプレッションごとにCPM料金が発生します。 この料金は、[ プレースメントレベルのアテンションターゲティング ](/help/dsp/campaign-management/placements/placement-settings.md) の料金とは別のものです。
 
 <!--
 Example JavaScript tag:
@@ -152,7 +154,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [Campaign Managementについて &#x200B;](campaign-about.md)
->* [&#x200B; キャンペーンの作成 &#x200B;](campaign-create.md)
->* [&#x200B; キャンペーンの編集 &#x200B;](campaign-edit.md)
->* [&#x200B; キャンペーンの変更ログを表示 &#x200B;](campaign-change-log.md)
+>* [Campaign 管理について ](campaign-about.md)
+>* [ キャンペーンの作成 ](campaign-create.md)
+>* [ キャンペーンの編集 ](campaign-edit.md)
+>* [ キャンペーンの変更ログを表示 ](campaign-change-log.md)
