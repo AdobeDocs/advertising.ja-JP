@@ -96,7 +96,7 @@ ht-degree: 0%
 >
 > フリークエンシーキャップは、キャンペーン、パッケージ、プレースメントの各レベルで設定できます。 DSPは、キャンペーン階層内で最も厳格なフリークエンシーキャップに従います。
 
-**[!UICONTROL Packages]:** キャンペーンに含める [ パッケージ ](/help/dsp/campaign-management/packages/package-about.md)。 既存のパッケージを選択するか、含めるパッケージを作成します。 パッケージを作成する場合、詳しくは、[ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md) に関する説明を参照してください。
+**[!UICONTROL Packages]:** キャンペーンに含める [&#x200B; パッケージ &#x200B;](/help/dsp/campaign-management/packages/package-about.md)。 既存のパッケージを選択するか、含めるパッケージを作成します。 パッケージを作成する場合、詳しくは、[&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) に関する説明を参照してください。
 
 ## [!UICONTROL Campaign Measurement]
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 「[!UICONTROL Attention Score]」フィールドは、レポートの [!UICONTROL Metrics] のセクション（[!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements] の各ビュー内、および [!UICONTROL Sites] プレースメントの詳細ビュー [!UICONTROL Ads] の「[!UICONTROL Inventory]」、「[」、「](/help/dsp/campaign-management/reports/placement-details-view.md)」タブで使用できます。
 
-測定に [!DNL Adelaide] セグメントを使用すると、[!DNL Adelaide] の測定タグを使用して広告から配信されたインプレッションごとにCPM料金が発生します。 この料金は、[ プレースメントレベルのアテンションターゲティング ](/help/dsp/campaign-management/placements/placement-settings.md) の料金とは別のものです。
+測定に [!DNL Adelaide] セグメントを使用すると、[!DNL Adelaide] の測定タグを使用して広告から配信されたインプレッションごとにCPM料金が発生します。 この料金は、[&#x200B; プレースメントレベルのアテンションターゲティング &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) の料金とは別のものです。
 
 <!--
 Example JavaScript tag:
@@ -154,7 +154,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [Campaign 管理について ](campaign-about.md)
->* [ キャンペーンの作成 ](campaign-create.md)
->* [ キャンペーンの編集 ](campaign-edit.md)
->* [ キャンペーンの変更ログを表示 ](campaign-change-log.md)
+>* [Campaign 管理について &#x200B;](campaign-about.md)
+>* [&#x200B; キャンペーンの作成 &#x200B;](campaign-create.md)
+>* [&#x200B; キャンペーンの編集 &#x200B;](campaign-edit.md)
+>* [&#x200B; キャンペーンの変更ログを表示 &#x200B;](campaign-change-log.md)
