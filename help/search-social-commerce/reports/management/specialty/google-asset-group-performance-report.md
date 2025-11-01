@@ -1,8 +1,9 @@
 ---
-title: '[!UICONTROL RSA Asset Report]'
+title: '[!UICONTROL Google Asset Group Performance Report]'
 description: '[!UICONTROL Google Asset Group Performance Report] について説明します。'
 feature: Search Reports, Search Specialty Reports
-source-git-commit: cc01d2fa62d7e1f5bb07a1d1255f842165399673
+exl-id: a0e06c53-9ca2-4558-8092-49b9fc9d2b1b
+source-git-commit: 07731027cb3518650fee9672aa60abd6a5331c6d
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 ## デフォルトの列
 
-すべてのデフォルト列およびカスタム列の説明は、[&#x200B; 専門レポートのレポート列 &#x200B;](specialty-report-columns.md) を参照してください。
+すべてのデフォルト列およびカスタム列の説明は、[ 専門レポートのレポート列 ](specialty-report-columns.md) を参照してください。
 
 * [!UICONTROL Campaign Name]
 * [!UICONTROL Network Asset Group Name]
@@ -34,7 +35,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 専門レポートについて &#x200B;](specialty-report-about.md)
->* [&#x200B; 専門レポートの生成 &#x200B;](specialty-report-generate.md)
->* [&#x200B; 専門レポートの設定 &#x200B;](specialty-report-settings.md)
->* [&#x200B; 専門レポートのレポート列 &#x200B;](specialty-report-columns.md)
+>* [ 専門レポートについて ](specialty-report-about.md)
+>* [ 専門レポートの生成 ](specialty-report-generate.md)
+>* [ 専門レポートの設定 ](specialty-report-settings.md)
+>* [ 専門レポートのレポート列 ](specialty-report-columns.md)
