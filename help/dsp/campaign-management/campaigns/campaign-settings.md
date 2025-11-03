@@ -3,9 +3,9 @@ title: キャンペーン設定
 description: 使用可能なキャンペーン設定の説明を参照してください。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 1b15b14b0ace6137e79b456c7c8f8444efa8acac
+source-git-commit: 9d26e097f007b570c0f0e3b7f02c683a84d5e647
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -32,25 +32,35 @@ ht-degree: 0%
 
 * **[!UICONTROL Would you like to manage margins for this campaign?]:** キャンペーンの余白を管理するかどうか：*[!UICONTROL Yes]* または *[!UICONTROL No]* （デフォルト）。 *[!UICONTROL Yes]を選択する場合は* 追加設定を指定します。 証拠金管理を有効にしてキャンペーンを保存したら、証拠金管理を無効にすることはできません。
 
-* **[!UICONTROL How would you like to compute agency fees?]:** （証拠金管理を行うキャンペーンのみ）エージェンシー手数料の計算方法：
+* **[!UICONTROL How would you like to compute agency fees?]:** （利益管理を使用するキャンペーンのみ）エージェンシー料金の計算方法。これは、キャンペーンの総予算のうち源泉徴収され、純支出に含まれていない部分です。
 
-   * *[!UICONTROL Margin % of Total Budget]:* （デフォルト）手数料を [!UICONTROL Gross Budget] のパーセンテージとして計算します。 [!UICONTROL Agency Fee Type] （固定または複合）と [!UICONTROL Margin %] または [!UICONTROL Composite Margin %] を指定します。
+   * *[!UICONTROL Margin % of Total Budget]:* （デフォルト）総支出に対する割合として手数料を計算します。 [!UICONTROL Agency Fee Type] （固定または複合）と [!UICONTROL Margin %] または [!UICONTROL Composite Margin %] を指定します。
 
-   * *[!UICONTROL Apply Markup % on top of individual cost components]:* メディアコスト、データおよびその他のコスト、技術料金に、指定した割合 [!DNL Adobe] 加算します。 [!UICONTROL Markup %] を指定し、マークアップを適用するコンポーネントを選択します。
+   * *[!UICONTROL Apply Markup % on top of individual cost components]:* メディア費用、データ費用、その他の費用に対する指定された割合、および/または [!DNL Adobe] の技術費用として料金を計算します。 [!UICONTROL Markup %] を指定し、マークアップを適用するコンポーネントを選択します。
 
 * **[!UICONTROL Agency Fee Type]:** （[!UICONTROL Margin % of Total Budget] を使用するキャンペーン）代理店手数料のタイプ。
 
-   * *[!UICONTROL Fixed]:* （デフォルト）DSPが、[!UICONTROL Gross Budget] ーザーの固定割合に基づいて費用の自動計算と上限を行えるようにします。 [!UICONTROL Margin %] を指定してください
+   * *[!UICONTROL Fixed]:* （デフォルト）DSPが総支出の固定割合を代理店手数料として留保することを許可します。 [!UICONTROL Margin %] を指定してください
 
-   * *[!UICONTROL Composite]:* DSPで、代理店手数料と [!UICONTROL Gross Budget] の技術手数料の複合割合を使用して、[!DNL Adobe] の割合に基づいて費用の自動計算と上限を設定できます。 [!UICONTROL Composite Margin %] を指定してください
+   * *[!UICONTROL Composite]:* DSPが、総支出の割合を留保して、代理店手数料と [!DNL Adobe] の技術手数料の両方を計上できるようにします。 [!UICONTROL Composite Margin %] を指定してください
 
-* **[!UICONTROL Margin %]:** （余白が固定された [!UICONTROL Margin % of Total Budget] を使用するキャンペーン）各挿入順序 <!-- impression? --> のデフォルトのマークアップ （割合）。 この金額は、キャンペーンの正味予算を定義するために [!UICONTROL Gross Budget] から差し引かれます。 余白は、[!UICONTROL Estimated Tax Withholding] ージの [!UICONTROL Gross Budget] には適用されません。
+* **[!UICONTROL Margin %]:** （利益幅が固定された [!UICONTROL Margin % of Total Budget] を使用するキャンペーン）代理店手数料として源泉徴収される総支出の割合。 利益値に対する変更は、キャンペーンの過去の総支出ではなく、将来の総支出にのみ適用されます。 [!UICONTROL Estimated Tax Withholding] の値は、マージンが適用される前に総支出から除外されます。 以下の例を参照してください。これらの例では、キャンペーンが過少または過剰に支出されていないことを前提としています。
 
-* **[!UICONTROL Composite Margin %]:** （複合マージンを持つ [!UICONTROL Margin % of Total Budget] を使用するキャンペーン）代理店手数料と [!DNL Adobe] の技術手数料の合計（パーセンテージ）。 この金額は、キャンペーンの正味予算を定義するために [!UICONTROL Gross Budget] から差し引かれます。 余白は、[!UICONTROL Estimated Tax Withholding] ージの [!UICONTROL Gross Budget] には適用されません。
+   * 例 1:[!UICONTROL Gross Budget] が `100 USD` で、[!UICONTROL Margin %] がフライト全体で `5%` であるとします。 キャンペーンフライトの終了時に、代理店手数料は `5 USD` （`5% of 100 USD`）として計算され、純支出は `95 USD` （`campaign budget [100 USD] - agency fees [5 USD]`）になります。
 
-* **[!UICONTROL Markup %]:** （[!UICONTROL Apply Markup % on top of individual cost components] を使用するキャンペーン）指定したコストコンポーネントに追加する割合。
+   * 例 2 マージンを変更した場合：同じキャンペーンで、総支出が [!UICONTROL Margin %] 定されたときに `5%` が `10%` から `40 USD` に変更されたとします。 変更前の期間は `2 USD` （`5% of 40 USD`）として、変更後の期間は `6 USD` （`10% of 60 USD`）として計算されます。 総代理店手数料は `8 USD` （`2 USD + 6 USD`）として計算され、純支出は `92 USD` （`campaign budget [100 USD] - total agency fees [8 USD]`）です。
 
-* **[!UICONTROL Select cost components on which markup will be applied]:** （[!UICONTROL Apply Markup % on top of individual cost components] を使用するキャンペーン） [!UICONTROL Markup %] が適用されるコストコンポーネント。 該当するすべてのコンポーネント（*[!UICONTROL Media cost]*、*[!UICONTROL Data and Other costs]*、*[!UICONTROL Adobe tech fees]* のいずれか、または両方）を選択します。
+   * 例 3 源泉徴収税を使用する場合：[!UICONTROL Gross Budget] が `100 USD` で、キャンペーンのフライトの最後の [!UICONTROL Estimated Tax Withholding] が `10 USD` で、[!UICONTROL Margin %] がフライト全体で `5%` であるとします。 キャンペーンフライトの終了時に、代理店手数料は `4.5 USD` （`5% of (campaign budget [100 USD] - tax withholding [USD 10])`）として計算され、純支出は `85.5 USD` （`campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]`）になります。
+
+* **[!UICONTROL Composite Margin %]:** （複合マージンを持つ [!UICONTROL Margin % of Total Budget] を使用するキャンペーン）技術手数料と代理店手数料を組み合わせた場合に源泉徴収される、総支出 [!DNL Adobe] 割合。 代理店手数料は、合成利益金額からAdobe工費を差し引いて算出しています。 複合マージン値に対する変更は、キャンペーンの過去の総支出ではなく、将来の総支出にのみ適用されます。 [!UICONTROL Estimated Tax Withholding] の値は、合成マージンが適用される前に総支出から除外されます。
+
+  例えば、[!UICONTROL Gross Budget] が `100 USD` で、キャンペーンフライト終了時の [!DNL Adobe] の技術料金が `10 USD` で、[!UICONTROL Composite Margin %] がフライト全体で `17%` であるとします。 キャンペーンフライトの終了時（キャンペーンが過少支出または過剰支出に該当しないと仮定）、エージェンシー料金は `7 USD` （`(17% of 100 USD) - 10`）として計算され、純支出は `93 USD` （`campaign budget [100 USD] - agency fees [7 USD]`）になります。
+
+* **[!UICONTROL Markup %]:** （[!UICONTROL Apply Markup % on top of individual cost components] を使用するキャンペーン）エージェンシー料金を計算するために指定のコストコンポーネントに適用する割合。 マークアップ値に対する変更は、キャンペーンの過去のコストではなく、将来のコストにのみ適用されます。
+
+* **[!UICONTROL Select cost components on which markup will be applied]:** （[!UICONTROL Apply Markup % on top of individual cost components] を使用するキャンペーン） [!UICONTROL Markup %] が適用されるコストコンポーネント。 該当するすべてのコンポーネント（*[!UICONTROL Media cost]*、*[!UICONTROL Data and Other costs]*、*[!UICONTROL Adobe tech fees]* のいずれか、または両方）を選択します。 コンポーネントの選択に対する変更は、キャンペーンの過去のコストではなく、将来のコストにのみ適用されます。
+
+  例えば、「[!UICONTROL Markup %]」と「`10%`」の [!UICONTROL Media cost] は [!UICONTROL Data and Other costs] です。 キャンペーンのフライトのいずれかの時点で、メディアコストが `20 USD` で、データおよびその他のコストが `5 USD` で、[!DNL Adobe] 技術コストが `2 USD` の場合、エージェンシー料金は `2.50 USD` （`10% of (20 USD + 5 USD)`）として計算され、総支出は `29.50 USD` （`media cost [20 USD] + data and other costs [5 USD] + [!DNL Adobe] tech fees [2 USD] + agency fees [2.50 USD]`）となります。
 
 **[!UICONTROL Gross Budget]:** （マージン管理のあるキャンペーンのみ）指定したマージン調整が適用される前のキャンペーン予算の総計。
 
@@ -96,7 +106,7 @@ ht-degree: 0%
 >
 > フリークエンシーキャップは、キャンペーン、パッケージ、プレースメントの各レベルで設定できます。 DSPは、キャンペーン階層内で最も厳格なフリークエンシーキャップに従います。
 
-**[!UICONTROL Packages]:** キャンペーンに含める [&#x200B; パッケージ &#x200B;](/help/dsp/campaign-management/packages/package-about.md)。 既存のパッケージを選択するか、含めるパッケージを作成します。 パッケージを作成する場合、詳しくは、[&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) に関する説明を参照してください。
+**[!UICONTROL Packages]:** キャンペーンに含める [ パッケージ ](/help/dsp/campaign-management/packages/package-about.md)。 既存のパッケージを選択するか、含めるパッケージを作成します。 パッケージを作成する場合、詳しくは、[ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md) に関する説明を参照してください。
 
 ## [!UICONTROL Campaign Measurement]
 
@@ -136,7 +146,7 @@ ht-degree: 0%
 
 「[!UICONTROL Attention Score]」フィールドは、レポートの [!UICONTROL Metrics] のセクション（[!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements] の各ビュー内、および [!UICONTROL Sites] プレースメントの詳細ビュー [!UICONTROL Ads] の「[!UICONTROL Inventory]」、「[」、「](/help/dsp/campaign-management/reports/placement-details-view.md)」タブで使用できます。
 
-測定に [!DNL Adelaide] セグメントを使用すると、[!DNL Adelaide] の測定タグを使用して広告から配信されたインプレッションごとにCPM料金が発生します。 この料金は、[&#x200B; プレースメントレベルのアテンションターゲティング &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) の料金とは別のものです。
+測定に [!DNL Adelaide] セグメントを使用すると、[!DNL Adelaide] の測定タグを使用して広告から配信されたインプレッションごとにCPM料金が発生します。 この料金は、[ プレースメントレベルのアテンションターゲティング ](/help/dsp/campaign-management/placements/placement-settings.md) の料金とは別のものです。
 
 <!--
 Example JavaScript tag:
@@ -154,7 +164,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [Campaign 管理について &#x200B;](campaign-about.md)
->* [&#x200B; キャンペーンの作成 &#x200B;](campaign-create.md)
->* [&#x200B; キャンペーンの編集 &#x200B;](campaign-edit.md)
->* [&#x200B; キャンペーンの変更ログを表示 &#x200B;](campaign-change-log.md)
+>* [Campaign 管理について ](campaign-about.md)
+>* [ キャンペーンの作成 ](campaign-create.md)
+>* [ キャンペーンの編集 ](campaign-edit.md)
+>* [ キャンペーンの変更ログを表示 ](campaign-change-log.md)
