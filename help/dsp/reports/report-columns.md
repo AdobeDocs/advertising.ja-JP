@@ -3,9 +3,9 @@ title: 使用可能なレポート列
 description: カスタムレポートで使用可能な列の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 00931d247b43f4ec26e79d56ac5138c10323a79f
+source-git-commit: cf86f4b96ff41a9266614e8190120eaf375c8ece
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2359'
 ht-degree: 0%
 
 ---
@@ -143,40 +143,46 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Total Media Spend] | 総支出。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Unique Household Reached] | 一意の世帯の合計（個別の IP アドレス）に到達しました。 |
 | [!UICONTROL Metric] | [!UICONTROL Identifier] | [!UICONTROL Identifier Type] | ターゲットとする ID のタイプ。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Max CPMで入札された合計入札の割合。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal] で計算された、獲得あたりの平均総原価</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | 広告クリックあたりの平均総コスト（<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks] で計算）</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPE] | 広告エンゲージメントあたりの平均総コスト（<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Engagements] で計算）</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPI] | 広告インプレッションあたりの平均総コスト（<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Impressions] で計算）</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | <code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions] で計算された、完了したビデオビューあたりの平均コスト</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000 で計算された、1000 インプレッションあたりの平均コスト</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Views] で計算された、ビデオビューあたりの平均コスト</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000 で計算された、表示可能インプレッション 1000 個あたりの平均コスト</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | 広告クリックあたりの平均正味コスト（<code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks] で計算）</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPI] | 広告インプレッションあたりの平均正味コスト（<code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Impressions] で計算）</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | <code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions] で計算された、完了したビデオビューあたりの平均正味コスト</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | <code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000 で計算された、1000 インプレッションあたりの平均正味コスト</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | <code>[!UICONTROL Net Spend] / [!UICONTROL Views] で計算された、ビデオビューあたりの平均正味コスト</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Max CPMで入札された合計入札の割合。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net vCPM] | 表示可能インプレッション 1000 件あたりの平均正味コスト（<code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000 で計算）</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | DSPがプレースメントに対して入札するユニークユーザーの数。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | DSPを通じて請求される、オーディエンスセグメントデータ料金の合計の正味費用。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Net Spend] | DSPを通じて請求される、技術料を含む、請求可能なメディアの合計の正味費用。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Net Spend] | DSPを通じて請求されるその他のサービス料金（サードパーティの検証パートナー、広告サービスなど）の合計コスト。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Agency Fee] | 代理店手数料。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Spend] | DSPを通じて請求される、オーディエンスセグメントデータ料金の合計の正味費用。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Spend] | DSPを通じて請求される、技術料を含む、請求可能なメディアの合計の正味費用。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Spend] | DSPを通じて請求されるその他のサービス料金（サードパーティの検証パートナー、広告サービスなど）の合計コスト。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Data] | サードパーティのオーディエンスセグメントとデータサービスに対する推定税額。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | DSPのメディアコストの再請求および技術料サービスに適用される税を含む、メディアに対する推定税。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | DSPを通じて請求されるその他のサービス料金（サードパーティの検証パートナーやトピックターゲティングなどを含む）の推定税額。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Gross Spend] | 総支出。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Margin %] | （利益管理が有効化されている場合） <code> （[!UICONTROL Gross Spend] - [!UICONTROL Net Spend]） / [!UICONTROL Gross Spend] で計算される利益率</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Media Cost] | テクニカル料金なしで請求および請求が可能なメディアコストの合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | 表示可能インプレッション 1000 件あたりの平均正味コスト（<code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000 で計算）</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Net Spend] | DSPを通じて請求されない、オーディエンスセグメントデータ料金の合計正味費用。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | DSP経由で請求されない技術料を含む、請求対象外メディアの合計正味費用。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Spend] | DSPを通じて請求されない、オーディエンスセグメントデータ料金の合計正味費用。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Spend] | DSP経由で請求されない技術料を含む、請求対象外メディアの合計正味費用。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | DSPを通じて請求されない、その他のサービス料金（サードパーティの検証パートナー、広告サービスなど）の合計コスト。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | [!UICONTROL Billable Spend (Media)]、[!UICONTROL Billable Spend (Data)]、[!UICONTROL Billable Spend (Other)] の合計。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Spend] | [!UICONTROL Billable Spend (Media)]、[!UICONTROL Billable Spend (Data)]、[!UICONTROL Billable Spend (Other)] の合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data eCPM] | インプレッション 1000 件あたりの平均正味データコスト（<code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000 で計算）</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Net Spend] | オーディエンスセグメントデータ料金の正味合計。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Spend] | オーディエンスセグメントデータ料金の正味合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media CPM] | インプレッション 1000 件あたりの平均正味メディアコスト（<code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000 で計算）</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Net Spend] | メディアの正味合計コスト （技術費を含む）。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Spend] | メディアの正味合計コスト （技術費を含む）。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Net Spend] | [!UICONTROL Net Spend (Media)]、[!UICONTROL Net Spend (Data)]、[!UICONTROL Net Spend (Other)] の合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | [!UICONTROL Non-billable Spend (Media)]、[!UICONTROL Non-billable Spend (Data)]、[!UICONTROL Non-billable Spend (Other)] の合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | その他の料金の 1000 インプレッションあたりの平均正味費用（<code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000 で計算）</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Net Spend] | その他のサービス料金（サードパーティの検証パートナー、広告サービングなど）の純費用の合計。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Spend] | その他のサービス料金（サードパーティの検証パートナー、広告サービングなど）の純費用の合計。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | 広告全体を視聴したビューの割合。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | 広告全体を視聴したビューの数。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | 広告全体を視聴したビューアブルインプレッションの割合。 |
@@ -214,7 +220,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | 測定可能なすべてのインプレッションの中で表示可能なインプレッションの割合（<code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions] として計算）</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | ビューアブルと見なされる広告インプレッションの数。 |
 | [!UICONTROL Conversion Metrics] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のコンバージョン ] | 指定した広告主固有のコンバージョン指標またはAdobe Analytics イベントの合計。 |
-| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のカスタム目標 ] | 指定した [&#x200B; カスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md) に含まれるすべてのコンバージョンの重み付き合計。 |
+| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のカスタム目標 ] | 指定した [ カスタム目標 ](/help/dsp/optimization/custom-goal.md) に含まれるすべてのコンバージョンの重み付き合計。 |
 
 {style="table-layout:auto"}
 
@@ -223,8 +229,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
->* [&#x200B; カスタムレポートの作成 &#x200B;](/help/dsp/reports/report-create.md)
->* [&#x200B; カスタムレポートの複製 &#x200B;](/help/dsp/reports/report-copy.md)
->* [&#x200B; カスタムレポートの編集 &#x200B;](/help/dsp/reports/report-edit.md)
->* [&#x200B; カスタムレポートの設定 &#x200B;](/help/dsp/reports/report-settings.md)
+>* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
+>* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートの複製 ](/help/dsp/reports/report-copy.md)
+>* [ カスタムレポートの編集 ](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
