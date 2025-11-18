@@ -2,7 +2,7 @@
 title: カスタムレポートの管理
 description: クロスエクスペリエンス [!UICONTROL Custom Creative Report] ールを生成および管理する方法について説明します。
 feature: Creative Reporting
-source-git-commit: 455a63be51ca56610cc15ba498e69eeae52ffdba
+source-git-commit: 41b8d295436bdbe6cea402e5bb234caa7a36f4df
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Edit Custom Report]**」をクリックします。
 
-## カスタムレポートの実行 {report-run-now}
+## カスタムレポートの実行 {#report-run-now}
 
 有効期限が切れていない、または現在実行されていないレポートを実行できます。
 
