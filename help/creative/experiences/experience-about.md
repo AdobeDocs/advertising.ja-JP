@@ -49,7 +49,7 @@ ht-degree: 0%
 
 * **広告の回転：** 指定した最適化目標に従って、指定したバンドルシーケンスに従って、または相対的な重みに従って、クリエイティブをアルゴリズムで回転します。
 
-* **最適化目標：** 最適なクリックスルー率または既存の [Advertising DSPのカスタム目標のいずれかに合わせて広告要素を最適化 ](/help/dsp/optimization/custom-goal.md)
+* **最適化目標：** 最適なクリックスルー率または既存の [Advertising DSPのカスタム目標のいずれかに合わせて広告要素を最適化 &#x200B;](/help/dsp/optimization/custom-goal.md)
 
   [!DNL Creative] は、エクスペリエンスで最もパフォーマンスの高いアセットにインプレッション共有を与えることで、広告エクスペリエンスを最適化します。 特定のオーディエンスをターゲットにしたエクスペリエンスの場合、ターゲットオーディエンスセットの個々の広告要素のパフォーマンスに基づいて広告を最適化できます。 特定のオーディエンスターゲットのないエクスペリエンスの場合、広告要素は、個々の広告要素のパフォーマンスにのみ基づいて最適化されます。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ## エクスペリエンスの実装と管理
 
-ライブエクスペリエンス（必要なすべての広告要素を含む）を作成したら、[ エクスペリエンス全体のJavaScriptまたは iframe タグを生成 ](experience-tag-export.md) できます。 Experience tag を広告としてAdobe Advertising DSPのキャンペーンにアップロードしたり、サードパーティのDSPで広告として実装したりできます。
+ライブエクスペリエンス（必要なすべての広告要素を含む）を作成したら、[&#x200B; エクスペリエンス全体のJavaScriptまたは iframe タグを生成 &#x200B;](experience-tag-export.md) できます。 Experience tag を広告としてAdobe Advertising DSPのキャンペーンにアップロードしたり、サードパーティのDSPで広告として実装したりできます。
 
 >[!NOTE]
 >
@@ -69,11 +69,11 @@ ht-degree: 0%
 
 * [!UICONTROL Metrics]/[!UICONTROL Creative] ビューで「[!UICONTROL Experiences]」オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。
 
-  ![ 指標オプション ](/help/creative/assets/metrics-option.png " 指標オプション ")
+  ![&#x200B; 指標オプション &#x200B;](/help/creative/assets/metrics-option.png " 指標オプション ")
 
-* [ ビューから ](experience-performance-details.md) 任意のエクスペリエンスの詳細なパフォーマンスデータを表示 [!UICONTROL Experiences] できます。
+* [&#x200B; ビューから &#x200B;](experience-performance-details.md) 任意のエクスペリエンスの詳細なパフォーマンスデータを表示 [!UICONTROL Experiences] できます。
 
-* エクスペリエンス全体のパフォーマンスを監視するには、[ カスタムCreativeレポート ](/help/creative/report-manage.md) を作成します。
+* エクスペリエンス全体のパフォーマンスを監視するには、[&#x200B; カスタムCreativeレポート &#x200B;](/help/creative/report-manage.md) を作成します。
 
 ## エクスペリエンスのステータス {#experience-statuses}
 
@@ -102,21 +102,21 @@ ht-degree: 0%
 
 * [ビュー内でのデータのダウンロード](experience-download-view.md)
 
-* ターゲティングを使用したエクスペリエンスの [ 作成 ](/help/creative/experiences/experience-create-targeting.md) および [ 編集 ](/help/creative/experiences/experience-edit-targeting.md)
+* ターゲティングを使用したエクスペリエンスの [&#x200B; 作成 &#x200B;](/help/creative/experiences/experience-create-targeting.md) および [&#x200B; 編集 &#x200B;](/help/creative/experiences/experience-edit-targeting.md)
 
-* ターゲティングを使用しないエクスペリエンスについては、[ 作成 ](/help/creative/experiences/experience-create-no-targeting.md)、[ 編集 ](/help/creative/experiences/experience-edit-no-targeting.md) および [ 手動で広告タグを作成 ](/help/creative/experiences/experience-tag-create-manually.md) します
+* ターゲティングを使用しないエクスペリエンスについては、[&#x200B; 作成 &#x200B;](/help/creative/experiences/experience-create-no-targeting.md)、[&#x200B; 編集 &#x200B;](/help/creative/experiences/experience-edit-no-targeting.md) および [&#x200B; 手動で広告タグを作成 &#x200B;](/help/creative/experiences/experience-tag-create-manually.md) します
 
-* [ クローン ](experience-clone.md) エクスペリエンス
+* [&#x200B; クローン &#x200B;](experience-clone.md) エクスペリエンス
 
-* [ プレビュー ](experience-preview.md) エクスペリエンス
+* [&#x200B; プレビュー &#x200B;](experience-preview.md) エクスペリエンス
 
-* エクスペリエンスの [ デモ URL を共有 ](experience-share-demo-url.md)
+* エクスペリエンスの [&#x200B; デモ URL を共有 &#x200B;](experience-share-demo-url.md)
 
-* [ エクスペリエンスの広告タグのエクスポート ](experience-tag-export.md) （オプションで、広告タグをAdvertising DSP キャンペーンに直接アップロードする）
+* [&#x200B; エクスペリエンスの広告タグのエクスポート &#x200B;](experience-tag-export.md) （オプションで、広告タグをAdvertising DSP キャンペーンに直接アップロードする）
 
-* エクスペリエンスの [ 削除 ](experience-delete.md)
+* エクスペリエンスの [&#x200B; 削除 &#x200B;](experience-delete.md)
 
 >[!MORELIKETHIS]
 >
->* [ デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 ](experience-create-targeting.md)
->* [ ターゲティングを使用しないエクスペリエンスの作成 ](experience-create-no-targeting.md)
+>* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 &#x200B;](experience-create-targeting.md)
+>* [&#x200B; ターゲティングを使用しないエクスペリエンスの作成 &#x200B;](experience-create-no-targeting.md)
