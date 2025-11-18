@@ -19,7 +19,7 @@ ht-degree: 0%
 
 1. 右上で、「**[!UICONTROL Create]**」をクリックします。
 
-1. [ レポート設定 ](#report-settings) を指定します。
+1. [&#x200B; レポート設定 &#x200B;](#report-settings) を指定します。
 
 1. 「**[!UICONTROL Create Custom Report]**」をクリックします。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. レポート名の横で、**[!UICONTROL ...]**/**[!UICONTROL Copy]** をクリックします。
 
-1. （任意）必要に応じて [ レポート設定 ](#report-settings.md) を編集します。
+1. （任意）必要に応じて [&#x200B; レポート設定 &#x200B;](#report-settings.md) を編集します。
 
    レポート名は、デフォルトで「\&lt;*existing report name*\> \#2」（またはシーケンス内の次の番号）になります。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. レポート名の横で、**[!UICONTROL ...]**/**[!UICONTROL Edit]** をクリックします。
 
-1. [ レポート設定 ](#report-settings.md) を編集します。
+1. [&#x200B; レポート設定 &#x200B;](#report-settings.md) を編集します。
 
 1. 「**[!UICONTROL Edit Custom Report]**」をクリックします。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、カスタムレポートは、[ 作成 ](#report-create) または [ 編集 ](#report-edit) するときに実行することもできます。
+>また、カスタムレポートは、[&#x200B; 作成 &#x200B;](#report-create) または [&#x200B; 編集 &#x200B;](#report-edit) するときに実行することもできます。
 
 1. メインメニューで、**[!UICONTROL Reports]**/**[!UICONTROL Custom Reports]** をクリックします。
 
@@ -69,13 +69,13 @@ ht-degree: 0%
 
    * レポートの最新のインスタンスをダウンロードするには、[**[!UICONTROL Download]**] をクリックします。
 
-   * （複数のインスタンスが存在するレポート） ![ の横にある ](/help/dsp/assets/chevron-down.png " 下矢印 ") 下矢印 [!UICONTROL Download] をクリックし、ダウンロードするレポートの完了日をクリックします。 ダウンロード可能なレポートインスタンスには、ダウンロードアイコン（![ダウンロードアイコン](/help/dsp/assets/indicator-downloadable.png "ダウンロードアイコン")）が表示されます。
+   * （複数のインスタンスが存在するレポート） ![&#x200B; の横にある &#x200B;](/help/dsp/assets/chevron-down.png " 下矢印 ") 下矢印 [!UICONTROL Download] をクリックし、ダウンロードするレポートの完了日をクリックします。 ダウンロード可能なレポートインスタンスには、ダウンロードアイコン（![ダウンロードアイコン](/help/dsp/assets/indicator-downloadable.png "ダウンロードアイコン")）が表示されます。
 
      使用可能なインスタンスが多数ある場合は、必要に応じてリストの下部にある「**[!UICONTROL Load More]**」をクリックします。
 
      1 つのレポートを同じ日に複数回実行すると、その日のレポートインスタンスが時系列で表示され、最新のインスタンスが上位に表示されます。
 
-     失敗したレポートジョブにはエラーアイコン（![ エラーインジケーター ](/help/dsp/assets/indicator-critical.png " エラーインジケーター ")）が表示され、ダウンロードできません。 エラーの説明を表示するには、エラーアイコンの上にカーソルを置きます。
+     失敗したレポートジョブにはエラーアイコン（![&#x200B; エラーインジケーター &#x200B;](/help/dsp/assets/indicator-critical.png " エラーインジケーター ")）が表示され、ダウンロードできません。 エラーの説明を表示するには、エラーアイコンの上にカーソルを置きます。
 
 ## カスタムレポートの削除
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >また、[ ビューから ](#report-run-now) いつでもカスタムレポートを実行 [!UICONTROL Reports] することもできます。
+  >また、[&#x200B; ビューから &#x200B;](#report-run-now) いつでもカスタムレポートを実行 [!UICONTROL Reports] することもできます。
 
 * *[!UICONTROL On]\&lt;Date\>:* アカウントのタイムゾーンで 09:00 までに完了するように、指定された日付にレポートを実行します。
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Social Only]:* 古い
 
-「[Adobe Advertisingのアトリビューションルールの計算方法 ](/help/search-social-commerce/reports/attribution-rules.md) も参照してください。
+「[Adobe Advertisingのアトリビューションルールの計算方法 &#x200B;](/help/search-social-commerce/reports/attribution-rules.md) も参照してください。
 
 **[!UICONTROL Paths as Columns]:** 同じデバイスで以前のイベントが発生した場合にレポートするコンバージョンのタイプ。 最大 3 つのタイプを含めることができます。 選択したタイプごとに、コンバージョン指標ごとに個別の列が含まれ、指定したサフィックス（[!UICONTROL (tl)]、[!UICONTROL (ct)] または [!UICONTROL (vt)]）が追加されます。
 
@@ -213,7 +213,7 @@ ht-degree: 0%
 
 **[!UICONTROL Email]:** （電子メールの宛先タイプのみ）各アドレスに対して、アドレスを入力し、**+** をクリックします。
 
-**[!UICONTROL Destination Name]:** （S3、FTP、sFTP および FTP SSL 宛先タイプのみ）カスタムレポートの送信先 [ レポート宛先 ](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"} の名前。
+**[!UICONTROL Destination Name]:** （S3、FTP、sFTP および FTP SSL 宛先タイプのみ）カスタムレポートの送信先 [&#x200B; レポート宛先 &#x200B;](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"} の名前。
 
 * 既存の宛先を指定するには、リストから宛先名を選択します。 複数の宛先名を個別に選択できます。
 
@@ -221,7 +221,7 @@ ht-degree: 0%
 
    1. **新しい宛先を追加** をクリックします。
 
-   1. [ レポート宛先設定 ](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"} を入力し、「**保存**」をクリックします。
+   1. [&#x200B; レポート宛先設定 &#x200B;](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"} を入力し、「**保存**」をクリックします。
 
    1. レポート設定に戻り、「**宛先名を更新**」をクリックします。
 
@@ -327,6 +327,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ エクスペリエンスレベルのパフォーマンスレポート ](/help/creative/experiences/experience-performance-details.md)
->* [DSP カスタムレポートについて ](/help/dsp/reports/report-about.md){target="_blank"}
+>* [&#x200B; エクスペリエンスレベルのパフォーマンスレポート &#x200B;](/help/creative/experiences/experience-performance-details.md)
+>* [DSP カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md){target="_blank"}
 >* [[!UICONTROL report destinations]](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"} について
