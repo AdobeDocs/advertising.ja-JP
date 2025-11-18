@@ -3,7 +3,7 @@ role: User
 user-guide-title: Advertising Creative ガイド
 user-guide-description: Advertising Creative を使用するために必要な主な機能、タスク、設定、その他のリソースについて学習します。
 breadcrumb-title: Creative ガイド
-source-git-commit: d9b136b296834f3fb83bbd6b70a08dd14c442530
+source-git-commit: 0a0b09f91128ccc1e43163ddce843a309122c02c
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 6%
@@ -18,8 +18,8 @@ ht-degree: 6%
    + [Adobe Advertising Creativeについて](/help/creative/introduction/creative-about.md)
    + [データビューのカスタマイズ](/help/creative/introduction/customize-data-views.md)
    + [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [&#x200B; 消費者プライバシーの支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [&#x200B; 施策及び指針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [ 消費者プライバシーの支援 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [ 施策及び指針 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative ライブラリ {#creative-libraries}
    + [クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
    + [サポートされるクリエイティブのサイズ](/help/creative/creative-libraries/creative-sizes.md)
@@ -87,9 +87,9 @@ ht-degree: 6%
 + パフォーマンスレポート {#reports}
    + [エクスペリエンスレベルのパフォーマンスレポート](/help/creative/experiences/experience-performance-details.md)
    + [ カスタムレポート ]{#custom-reports}
-      + [カスタムレポートについて](/help/creative/report-about.md)
-      + [カスタムレポートの管理](/help/creative/report-manage.md)
+      + [カスタムレポートについて](/help/creative/reports/reports-about.md)
+      + [カスタムレポートの管理](/help/creative/reports/report-manage.md)
 + [リターゲティングピクセル](/help/creative/pixels/retargeting-pixel-manage.md)
 + [URL を追跡するために使用可能なマクロ](/help/creative/creative-macros.md)
 + [ヘルプを表示](/help/creative/get-help.md)
-+ [Adobe Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target="_blank"}
++ [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
