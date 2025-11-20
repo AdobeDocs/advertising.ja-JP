@@ -40,11 +40,11 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-1. （コンバージョンが管理者アカウントレベルで追跡されている場合） [ 管理者アカウントの資格情報を追加 ](/help/search-social-commerce/admin/manager-accounts.md)**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Manager Accounts]** で行います。
+1. （コンバージョンが管理者アカウントレベルで追跡されている場合） [&#x200B; 管理者アカウントの資格情報を追加 &#x200B;](/help/search-social-commerce/admin/manager-accounts.md)**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Admin]/[!UICONTROL Manager Accounts]** で行います。
 
 1. `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` という名前の各目標が、2 日以内に広告ネットワークに表示されることを確認します。
 
-   [!DNL Google Ads] エディターで、[ コンバージョンアクション ](https://support.google.com/google-ads/answer/11461796) を検索します。 [!DNL Microsoft Advertising] エディターで、[ コンバージョンの目標 ](https://help.ads.microsoft.com/#apex/ads/en/56709) を検索します。
+   [!DNL Google Ads] エディターで、[&#x200B; コンバージョンアクション &#x200B;](https://support.google.com/google-ads/answer/11461796) を検索します。 [!DNL Microsoft Advertising] エディターで、[&#x200B; コンバージョンの目標 &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56709) を検索します。
 
    必要に応じて、アップロード日を含めるように日付範囲を更新します。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 例えば、目標の目標指標が買い物かごへの追加（重み付け 25）で、アシスト指標には、GGL_Lead と売上高（重み付け 1）およびダウンロード（重み付け 0.5）が含まれているとします。
 
-![ 加重目標の例 ](/help/search-social-commerce/assets/objective-example.png " 加重目標の例 ")
+![&#x200B; 加重目標の例 &#x200B;](/help/search-social-commerce/assets/objective-example.png " 加重目標の例 ")
 
 キーワードの結果、ポートフォリオの次のアクションが発生したとします。
 
@@ -75,7 +75,7 @@ Google Ads で追跡される指標なので、GGL_Lead は計算/アップロ�
 
 * （[!DNL Google Ads]） コンバージョンをアカウントレベルまたはマネージャーレベルにアップロードする必要があるかどうかを確認します。 マネージャーレベルでアップロードする場合：
 
-   * [!DNL Google Ads] manager アカウントの資格情報が **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]** で提供されているかどうかを確認します。 必要に応じて、[ マネージャーアカウントの資格情報を追加 ](/help/search-social-commerce/admin/manager-accounts.md) します。
+   * [!DNL Google Ads] manager アカウントの資格情報が **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]** で提供されているかどうかを確認します。 必要に応じて、[&#x200B; マネージャーアカウントの資格情報を追加 &#x200B;](/help/search-social-commerce/admin/manager-accounts.md) します。
 
    * 広告ネットワークアカウントに同じ指標名が既に含まれているかどうかを確認します。 含まれる場合は、適切なマネージャーレベルのプロパティを作成できるように、指標の名前を変更します。
 
@@ -83,5 +83,5 @@ Google Ads で追跡される指標なので、GGL_Lead は計算/アップロ�
 
 >[!MORELIKETHIS]
 >
->* [ 広告主のコンバージョン指標の管理について ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
->* [ 検索、ソーシャル、Commerceで追跡されるコンバージョン指標のへのアップロード  [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
+>* [&#x200B; 広告主のコンバージョン指標の管理について &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+>* [&#x200B; 検索、ソーシャル、Commerceで追跡されるコンバージョン指標のへのアップロード  [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
