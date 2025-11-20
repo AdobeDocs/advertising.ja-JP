@@ -3,7 +3,7 @@ title: 基本レポートと高度なレポートのレポート列
 description: 基本レポートと高度なレポートで使用可能なデータ列について説明します。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: f5fa38460486a5eadce8c8e6334723f67e3814f5
+source-git-commit: 817c8ab0dce5412e4b3a235c3c032e5691d235ba
 workflow-type: tm+mt
 source-wordcount: '3806'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 | 列 | 説明 |
 | ---- | ---- |
-| \[ 広告主固有のカスタム （派生）指標\] | 既存の指標から計算された [&#x200B; 作成したカスタム指標 &#x200B;](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) の値。 |
+| \[ 広告主固有のカスタム （派生）指標\] | 既存の指標から計算された [ 作成したカスタム指標 ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) の値。 |
 | \[ 広告主固有のラベル分類\] | エンティティ レベルでエンティティに現在適用されているラベル分類。 複数のラベルの分類は、コンマ（,）で区切ります。 |
 | \[ 広告主固有のコンバージョン指標\] | 指定したコンバージョン指標またはサイトエンゲージメント指標のコンバージョン数。 |
 | \[Googleでトラッキングされたコンバージョン\] | 「GGL\*、GGL_CT\*、GGL_XD_CT\*」の項を参照してください。 |
@@ -38,9 +38,9 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | 広告のディメンション。 |
 | [!UICONTROL AD Strength] | （レスポンシブ検索広告に [!DNL Google Ads]）広告の有効性：<i>[!UICONTROL average]</i>、<i>[!UICONTROL excellent]</i>、<i>[!UICONTROL good]</i>、<i>[!UICONTROL no_ads]</i>、<i>[!UICONTROL pending]</i>、<i>[!UICONTROL poor]</i>、<i>[!UICONTROL unknown]</i> または <i>[!UICONTROL unspecified]</i>。 |
 | [!UICONTROL Adgroup MBA] | （[!DNL Google Ads]、[!DNL Microsoft Advertising] および [!DNL Yahoo! Japan Ads] キャンペーン）現在の広告グループレベルのモバイル入札調整。モバイルデバイスに広告を表示する際の入札調整方法を決定します。 |
-| [!UICONTROL AI Max Bundling Required] | （検索ネットワークのみをターゲットにするキャンペーン、AI MAX 機能が有効になっているキャンペーン、読み取り専用） バンドルが必要かどうか（*[!UICONTROL NOT_REQUIRED]* または null）。 |
-| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max] 機能が有効かどうか &#x200B;](https://support.google.com/google-ads/answer/15910366)*[!UICONTROL false]* または null。 |
-| [!UICONTROL AI Max Search Term Matching] | （検索ネットワークをターゲットにし、[AI Max 機能 &#x200B;](https://support.google.com/google-ads/answer/15910366) およびキャンペーンレベルの検索語句マッチング機能が有効になっているキャンペーン。読み取り専用）広告グループレベルの検索語句マッチングが有効かどうか：*[!UICONTROL true]* または null。 |
+| [!UICONTROL AI Max Bundling Required] | （検索ネットワークのみをターゲットにするキャンペーン、AI MAX 機能が有効になっているキャンペーン、読み取り専用） バンドルが必要かどうか（*[!UICONTROL REQUIRED]*、*[!UICONTROL NOT_REQUIRED]*、*[!UICONTROL UNSPECIFIED]*、null）。 |
+| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max] 機能 ](https://support.google.com/google-ads/answer/15910366) が有効かどうか：[!UICONTROL true]*、*[!UICONTROL false]*、null。 |
+| [!UICONTROL AI Max Search Term Matching] | （検索ネットワークをターゲットにし、[AI Max 機能 ](https://support.google.com/google-ads/answer/15910366) およびキャンペーンレベルの検索語句マッチング機能が有効になっているキャンペーン。読み取り専用）広告グループレベルの検索語句マッチングが有効かどうか（*[!UICONTROL true]*、*[!UICONTROL false]*、null）。 |
 | [!UICONTROL Advertiser] | 広告主名。 |
 | [!UICONTROL Advertiser ID] | 広告主の検索、ソーシャル、Commerce アカウントの数値 ID。 |
 | [!UICONTROL Avg Position] | 指定した日付範囲での広告の平均位置。<br><br>[!DNL Google Ads] および [!DNL Yahoo! Japan Ads] キャンペーンの場合、このデータは 2019 年 9 月までのみ利用できます。 [!DNL Microsoft Advertising] の場合、このデータは 2021 年 1 月 22 日（PT）までのみ使用できます。 |
@@ -113,7 +113,7 @@ ht-degree: 0%
 | [!UICONTROL Exclude (yes/no)] | 一致する製品の広告に入札を除外するか（<i>[!UICONTROL Yes]</i>）、または入札を許可するか（<i>[!UICONTROL No]</i>）を指定します。 |
 | [!UICONTROL First Page CPC] | （Google キャンペーンのみ）指定した日付範囲に検索結果の最初のページに表示される広告のクリック単価（CPC）。 |
 | [!UICONTROL Frequency] | （[!DNL Meta] キャンペーンのみ）訪問者が広告を表示した平均回数。 |
-| `GGL*`、`GGL_CT*`、`GGL_XD_CT*` [[!DNL Google Ads]-tracked conversions] | （検索およびショッピングネットワーク上のキャンペーンを [!DNL Google Ads] 照） [!DNL Google Ads] 追跡コンバージョンと、各コンバージョンに対する最大 3 つの個別の指標：<ul><li>`GGL*` — （追跡する場合）「GGL」プレフィックスで始まるキーワードのコンバージョン値（GGL 購入など）。</li><li>`GGL_CT*` — 「GGL_CT」プレフィックス（GGL_CT_Purchase など）で始まるコンバージョンの数（カウント）。</li><li>`GGL_XD_CT*` — （コンバージョンタイプに使用可能な場合は、トラッキング時）クロスデバイスコンバージョンの数（カウント）。「GGL_XD_CT_」プレフィックス （GGL_XD_CT_Purchase など）で始ま [!DNL Google Ads] て測定されます。</li></ul><br> 各コンバージョンは入札単位とクリック日で記録されます。イベントレベルでは使用できません。 [!DNL Google Ads] でトラッキングされるコンバージョンについて詳しくは、「[[!DNL Google Ads]  検索、ソーシャル、Commerceのコンバージョンデータ &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)」を参照してください。 |
+| `GGL*`、`GGL_CT*`、`GGL_XD_CT*` [[!DNL Google Ads]-tracked conversions] | （検索およびショッピングネットワーク上のキャンペーンを [!DNL Google Ads] 照） [!DNL Google Ads] 追跡コンバージョンと、各コンバージョンに対する最大 3 つの個別の指標：<ul><li>`GGL*` — （追跡する場合）「GGL」プレフィックスで始まるキーワードのコンバージョン値（GGL 購入など）。</li><li>`GGL_CT*` — 「GGL_CT」プレフィックス（GGL_CT_Purchase など）で始まるコンバージョンの数（カウント）。</li><li>`GGL_XD_CT*` — （コンバージョンタイプに使用可能な場合は、トラッキング時）クロスデバイスコンバージョンの数（カウント）。「GGL_XD_CT_」プレフィックス （GGL_XD_CT_Purchase など）で始ま [!DNL Google Ads] て測定されます。</li></ul><br> 各コンバージョンは入札単位とクリック日で記録されます。イベントレベルでは使用できません。 [!DNL Google Ads] でトラッキングされるコンバージョンについて詳しくは、「[[!DNL Google Ads]  検索、ソーシャル、Commerceのコンバージョンデータ ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)」を参照してください。 |
 | [!UICONTROL Impr. (Abs. Top) %] | （[!DNL Google Ads] のみ）オーガニック検索結果の上に最初の広告として表示される広告インプレッションの割合。 |
 | [!UICONTROL Impr. (Top) %] | （[!DNL Google Ads] のみ）オーガニック検索結果の上に表示される広告インプレッションの割合。 |
 | [!UICONTROL Impressions] | 指定した日付範囲内の広告インプレッション数。 |
@@ -203,6 +203,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 基本レポートと高度なレポートについて &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
->* [&#x200B; 基本レポートまたは詳細レポートの生成 &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
->* [&#x200B; 基本および詳細レポートの設定 &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
+>* [ 基本レポートと高度なレポートについて ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
+>* [ 基本レポートまたは詳細レポートの生成 ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+>* [ 基本および詳細レポートの設定 ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
