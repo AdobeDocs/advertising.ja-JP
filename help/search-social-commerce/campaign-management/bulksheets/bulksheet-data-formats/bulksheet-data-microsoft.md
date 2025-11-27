@@ -230,7 +230,7 @@ ht-degree: 0%
 
 ### 製品（買い物）広告フィールド
 
-ショッピング広告の作成の詳細は、「[&#x200B; ショッピング・キャンペーン  [!DNL Microsoft Advertising]  実装 &#x200B;](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)」を参照してください。
+ショッピング広告の作成の詳細は、「[&#x200B; ショッピング・キャンペーン  [!DNL Microsoft Advertising]  実装 &#x200B;](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=ja)」を参照してください。
 
 この広告タイプの場合は、[!UICONTROL Creative (except RSA)] ダイアログの「[!UICONTROL Download Bulksheet]」行を使用します。
 
