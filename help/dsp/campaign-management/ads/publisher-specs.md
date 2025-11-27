@@ -11,17 +11,17 @@ ht-degree: 0%
 
 # パブリッシャー固有の広告仕様
 
-一部のパブリッシャーは、Adobe Advertising[ 一般広告仕様 ](/help/dsp/campaign-management/ads/ad-specs.md) よりも厳しい広告仕様を持っています。 パブリッシャーの仕様がAdobe Advertisingの仕様よりも厳しい場合は、パブリッシャーの仕様に必ず従ってください。
+一部のパブリッシャーは、Adobe Advertising[&#x200B; 一般広告仕様 &#x200B;](/help/dsp/campaign-management/ads/ad-specs.md) よりも厳しい広告仕様を持っています。 パブリッシャーの仕様がAdobe Advertisingの仕様よりも厳しい場合は、パブリッシャーの仕様に必ず従ってください。
 
 以下のリンクを参照すると、より厳しい要件を持つパブリッシャーの一部の広告仕様に移動できます。
 
-* [[!DNL Channel 10]  （[!DNL Viacom]; AU のみ） ](https://www.10viacomcbs.com.au/wp-content/uploads/2020/10/Network-10-Digita-Ad-Specs.pdf)
+* [[!DNL Channel 10]  （[!DNL Viacom]; AU のみ） &#x200B;](https://www.10viacomcbs.com.au/wp-content/uploads/2020/10/Network-10-Digita-Ad-Specs.pdf)
 * [[!DNL CBS Interactive Advanced Media]](https://cbsinteractive.com/advertising/ad-specs/list/cbs-interactive-advanced-media)
 * [[!DNL Hulu]](https://advertising.hulu.com/ad-products/video-commercial)
 * [[!DNL NBCUniversal]](https://together.nbcuni.com/nbcu-creative-guidelines)
 
 >[!MORELIKETHIS]
 >
->* [Ad Management について ](ad-about.md)
->* [ 複数のサードパーティ広告の作成 ](ad-create-multiple.md)
->* [ 広告仕様 ](/help/dsp/campaign-management/ads/ad-specs.md)
+>* [Ad Management について &#x200B;](ad-about.md)
+>* [&#x200B; 複数のサードパーティ広告の作成 &#x200B;](ad-create-multiple.md)
+>* [&#x200B; 広告仕様 &#x200B;](/help/dsp/campaign-management/ads/ad-specs.md)
