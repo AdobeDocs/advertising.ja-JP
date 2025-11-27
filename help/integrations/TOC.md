@@ -4,7 +4,7 @@ user-guide-description: Advertising DSP および Advertising Search と他の A
 breadcrumb-title: Experience Cloud との統合
 role: User, Developer
 index: true
-source-git-commit: d8bef70c4d8525fc4fecd114f8bcfef45ad1af01
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 10%
@@ -13,8 +13,6 @@ ht-degree: 10%
 
 
 # Adobe AdvertisingとAdobe Experience Cloudの統合 {#integrations}
-
-<!--  ADD LATER: and Adobe Experience Platform -->
 
 + [新機能](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
@@ -55,4 +53,4 @@ ht-degree: 10%
    + [Customer Journey Analyticsが使用するAdobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
    + [データ収集、データ転送およびレポートの設定](/help/integrations/customer-journey-analytics/set-up.md)
    + [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Adobe Advertising統合に関するビデオチュートリアル &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ja)<!-- rename if the tutorials TOC structure changes -->
++ [Adobe Advertising統合に関するビデオチュートリアル ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)

@@ -2,7 +2,8 @@
 title: Customer Journey AnalyticsのAdobe Advertising指標およびディメンション
 description: Customer Journey Analyticsで使用可能なAdobe Advertisingの指標とディメンションを参照します。
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
+exl-id: 97c89e03-ab15-4906-96fc-6bb77ea0cd7c
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -68,30 +69,30 @@ Adobe Advertisingは、トラフィック指標とディメンションを毎日
 
 | Adobe Advertising フィールド名 | XDM フィールド名 | XDM フィールドの表示名 | Source |
 |------------------------------|----------------|------------------------|--------|
-| キー | skwcid | ADOBE ADVERTISING ID |
-| 広告プラットフォーム | adobe_advertising_ad_platform | Adobe Advertising Ad Platform |
-| アカウント | adobe_advertising_account | Adobe Advertising アカウント |
-| キャンペーン | adobe_advertising_campaign | Adobe Advertising キャンペーン |
-| 広告グループ | adobe_advertising_ad_group | Adobe Advertising広告グループ |
-| キーワード | adobe_advertising_keyword | Adobe Advertisingキーワード |
-| 広告 | adobe_advertising_ad | Adobe Advertising広告 |
-| プレースメント | adobe_advertising_placement | Adobe Advertisingの配置 |
-| 一致のタイプ | adobe_advertising_match_type | Adobe Advertising一致タイプ |
-| 広告タイトル | adobe_advertising_ad_title | Adobe Advertising広告タイトル |
-| 広告の説明 | adobe_advertising_ad_description | Adobe Advertising広告の説明 |
-| 広告の宛先 URL | adobe_advertising_ad_destination_url | Adobe Advertising広告の宛先 URL |
-| 広告表示 URL | adobe_advertising_ad_display_url | Adobe Advertising広告の表示 URL |
-| デバイス | adobe_advertising_device | Adobe Advertising デバイス |
-| キーワード MatchType | adobe_advertising_keyword_matchtype | Adobe Advertising Keyword MatchType |
-| ネットワーク | adobe_advertising_network | Adobe Advertisingネットワーク |
-| 広告タイプ | adobe_advertising_ad_type | Adobe Advertising広告タイプ |
-| 製品ターゲット | adobe_advertising_product_target | Adobe Advertising Product Target |
-| ランディングタイプ | adobe_advertising_landing_type | Adobe Advertisingのランディングタイプ |
-| 最適化 | adobe_advertising_optimization | Adobe Advertisingの最適化 |
+| キー | skwcid | ADOBE ADVERTISING ID |  |
+| 広告プラットフォーム | adobe_advertising_ad_platform | Adobe Advertising Ad Platform |  |
+| アカウント | adobe_advertising_account | Adobe Advertising アカウント |  |
+| キャンペーン | adobe_advertising_campaign | Adobe Advertising キャンペーン |  |
+| 広告グループ | adobe_advertising_ad_group | Adobe Advertising広告グループ |  |
+| キーワード | adobe_advertising_keyword | Adobe Advertisingキーワード |  |
+| 広告 | adobe_advertising_ad | Adobe Advertising広告 |  |
+| プレースメント | adobe_advertising_placement | Adobe Advertisingの配置 |  |
+| 一致のタイプ | adobe_advertising_match_type | Adobe Advertising一致タイプ |  |
+| 広告タイトル | adobe_advertising_ad_title | Adobe Advertising広告タイトル |  |
+| 広告の説明 | adobe_advertising_ad_description | Adobe Advertising広告の説明 |  |
+| 広告の宛先 URL | adobe_advertising_ad_destination_url | Adobe Advertising広告の宛先 URL |  |
+| 広告表示 URL | adobe_advertising_ad_display_url | Adobe Advertising広告の表示 URL |  |
+| デバイス | adobe_advertising_device | Adobe Advertising デバイス |  |
+| キーワード MatchType | adobe_advertising_keyword_matchtype | Adobe Advertising Keyword MatchType |  |
+| ネットワーク | adobe_advertising_network | Adobe Advertisingネットワーク |  |
+| 広告タイプ | adobe_advertising_ad_type | Adobe Advertising広告タイプ |  |
+| 製品ターゲット | adobe_advertising_product_target | Adobe Advertising Product Target |  |
+| ランディングタイプ | adobe_advertising_landing_type | Adobe Advertisingのランディングタイプ |  |
+| 最適化 | adobe_advertising_optimization | Adobe Advertisingの最適化 |  |
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 概要 &#x200B;](overview.md)
->* [&#x200B; 前提条件 &#x200B;](prerequisites.md)
->* [&#x200B; 使用するAdobe Advertising ID [!DNL Customer Journey Analytics]](ids.md)
->* [&#x200B; データ収集、データ転送、レポートの設定 &#x200B;](set-up.md)
+>* [ 概要 ](overview.md)
+>* [ 前提条件 ](prerequisites.md)
+>* [ 使用するAdobe Advertising ID [!DNL Customer Journey Analytics]](ids.md)
+>* [ データ収集、データ転送、レポートの設定 ](set-up.md)
