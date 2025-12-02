@@ -20,11 +20,11 @@ ht-degree: 0%
 
 ### サポートされているサードパーティの広告サーバー
 
-タグシートは、[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]、[!DNL Sizmek] から使用できます。 サポートされているベンダーの完全なリストについては、「[ 認定広告サービングパートナー ](certified-ad-servers.md)」を参照してください。
+タグシートは、[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]、[!DNL Sizmek] から使用できます。 サポートされているベンダーの完全なリストについては、「[&#x200B; 認定広告サービングパートナー &#x200B;](certified-ad-servers.md)」を参照してください。
 
 ### 高精細ビデオAssetsの要件
 
-**ビデオタグタイプ：** VPAID 2.0 JavaScriptまたは VAST （CTV）。 すべての VPAID 広告ユニットは、Interactive Advertising Bureau （IAB）によって定義されている [VPAID 2.0 仕様 ](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) に準拠している必要があります。
+**ビデオタグタイプ：** VPAID 2.0 JavaScriptまたは VAST （CTV）。 すべての VPAID 広告ユニットは、Interactive Advertising Bureau （IAB）によって定義されている [VPAID 2.0 仕様 &#x200B;](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) に準拠している必要があります。
 
 **ビデオコーデック：** MP4/H.264
 
@@ -54,23 +54,23 @@ ht-degree: 0%
 
 #### 接続されたテレビ広告に関する追加のパブリッシャー要件
 
-* **A+E ネットワーク：** A+E ネットワークの [ad 仕様を参照してください ](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
+* **A+E ネットワーク：** A+E ネットワークの [ad 仕様を参照してください &#x200B;](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
 
-* **検出：** 検出の [ad 仕様 ](/help/dsp/assets/discovery-networks-ad-specs.pdf) を参照してください。
+* **検出：** 検出の [ad 仕様 &#x200B;](/help/dsp/assets/discovery-networks-ad-specs.pdf) を参照してください。
 
-* **ディズニー Hulu）:** ディズニーの [ 広告仕様 ](https://www.disneyadvertising.com/mediakit/#specifications) を参照してください。
+* **ディズニー Hulu）:** ディズニーの [&#x200B; 広告仕様 &#x200B;](https://www.disneyadvertising.com/mediakit/#specifications) を参照してください。
 
-* **HBO Max:** HBO Max の [ad 仕様 ](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx) を参照してください。
+* **HBO Max:** HBO Max の [ad 仕様 &#x200B;](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx) を参照してください。
 
 * **NBCUniversal:**
 
-   * [ デジタルビデオ ](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
+   * [&#x200B; デジタルビデオ &#x200B;](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
    * [Livestream](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
-   * [ クジャク ](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
+   * [&#x200B; クジャク &#x200B;](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
-* **Paramount:** Paramount の [ad 仕様 ](https://www.paramount.com/digital-ads) を参照してください。
+* **Paramount:** Paramount の [ad 仕様 &#x200B;](https://www.paramount.com/digital-ads) を参照してください。
 
 ## 広告の表示
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 **推奨広告サイズ：** 120 x 60、160 x 600、180 x 150、300 x 50、300 x 100、300 x 1050、300 x 250、300 x 600、320 x 50、320 x 480、480 x 60、640x480、88x31、728x90、970x250、970x90
 
-**サポートされているサードパーティ広告サーバー：**[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid] および [!DNL Sizmek] のタグシートを使用できます。 サポートされているベンダーの完全なリストについては、「[ 認定広告サービングパートナー ](certified-ad-servers.md)」を参照してください。
+**サポートされているサードパーティ広告サーバー：**&#x200B;[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid] および [!DNL Sizmek] のタグシートを使用できます。 サポートされているベンダーの完全なリストについては、「[&#x200B; 認定広告サービングパートナー &#x200B;](certified-ad-servers.md)」を参照してください。
 
 ## オーディオ広告
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 ### サポートされているサードパーティの広告サーバー
 
-タグシートは、[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]、[!DNL Sizmek] から使用できます。 サポートされているベンダーの完全なリストについては、「[ 認定広告サービングパートナー ](certified-ad-servers.md)」を参照してください。
+タグシートは、[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]、[!DNL Sizmek] から使用できます。 サポートされているベンダーの完全なリストについては、「[&#x200B; 認定広告サービングパートナー &#x200B;](certified-ad-servers.md)」を参照してください。
 
 ### Audio Assetsの要件
 
@@ -238,7 +238,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Ad Management について ](ad-about.md)
->* [ 単一の広告の作成 ](ad-create.md)
->* [ 複数のサードパーティ広告の作成 ](ad-create-multiple.md)
->* [ 広告の編集 ](ad-edit.md)
+>* [Ad Management について &#x200B;](ad-about.md)
+>* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
+>* [&#x200B; 複数のサードパーティ広告の作成 &#x200B;](ad-create-multiple.md)
+>* [&#x200B; 広告の編集 &#x200B;](ad-edit.md)
