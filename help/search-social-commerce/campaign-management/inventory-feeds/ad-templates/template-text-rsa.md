@@ -3,15 +3,14 @@ title: 在庫フィードのテキスト広告とレスポンシブ検索広告�
 description: 在庫フィードのテキスト広告およびレスポンシブ検索広告テンプレートの設定を参照してください。
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
 
 # 在庫フィードのテキスト広告とレスポンシブ検索広告テンプレート設定
-
 
 *[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除アクションのみ）および [!DNL Yandex] アカウントのみ*
 
@@ -66,11 +65,11 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]:** （最終/詳細 URL を持つアカウントのみ。任意）すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終 URL をパラメーターに埋め込む、キャンペーンレベルのトラッキングテンプレート。 この値はアカウントレベルの設定を上書きしますが、より詳細なレベルでのトラッキングテンプレート（キーワードを最も詳細なレベルとして）はこの値を上書きします。
 
-* キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertisingコンバージョントラッキングの場合、レコードを保存すると、検索、ソーシャルおよびCommerceにリダイレクトおよびトラッキングコードが自動的に追加されます。
+* キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertising コンバージョントラッキングの場合、レコードを保存すると、検索、ソーシャルおよびCommerceによってリダイレクトコードとトラッキングコードが自動的に追加されます。
 
 * 最終的な URL を埋め込むには：
 
-   * （[!DNL Google Ads] および [!DNL Microsoft Advertising] のみ）トラッキングテンプレートで最終的な URL を示すパラメーターのリストについては、（ドキュメント [&#128279;](https://help.ads.microsoft.com/#apex/3/en/56799/2) の「使用可能なトラッキングパラメーター」の節の（[!DNL Microsoft Advertising] のみ） [!DNL Microsoft Advertising]  ドキュメント [[!DNL Google Ads]  または（[!DNL Google Ads] のみ） [!DNL ValueTrack] 「トラッキングテンプレートのみ」パラメーターを参照してください &#x200B;](https://support.google.com/google-ads/answer/6305348)
+   * （[!DNL Google Ads] および [!DNL Microsoft Advertising] のみ）トラッキングテンプレートで最終的な URL を示すパラメーターのリストについては、（ドキュメント [!DNL Microsoft Advertising] の「使用可能なトラッキングパラメーター」の節の（[[!DNL Microsoft Advertising]  のみ） ](https://help.ads.microsoft.com/#apex/3/en/56799/2) ドキュメント [!DNL Google Ads] または（[!DNL ValueTrack] のみ） [[!DNL Google Ads]  「トラッキングテンプレートのみ」パラメーターを参照してください ](https://support.google.com/google-ads/answer/6305348)
 
    * （[!DNL Yahoo! Japan Ads] のみ） パラメーター `!{unescapedurl}` を使用して、ランディングページの URL を指定します。
 
@@ -110,7 +109,7 @@ ht-degree: 0%
 
   （[!DNL Google Ads] キャンペーン）検索パートナーのリストに入札を含め [!DNL Google Ads] には、**[!UICONTROL Search partners]** の横にあるチェックボックスを選択します。
 
-* *[!UICONTROL Content]:* コンテンツ（ディスプレイ）ネットワークリストにプレースメントの入札を配置します。 **メモ：** テンプレートを使用してプレースメントを作成することはできません。 このオプションを選択する場合は、各広告グループにプレースメントを作成し、バルクシートまたは <!-- insert links --> の広告グループとプレースメント設定を使用して、表示ネットワーク上で各広告グループのターゲット <!-- insert link --> するページを [!UICONTROL Search] > [!UICONTROL Campaigns] ビューで指定します。
+* *[!UICONTROL Content]:* コンテンツ（ディスプレイ）ネットワークリストにプレースメントの入札を配置します。 **メモ：** テンプレートを使用してプレースメントを作成することはできません。 このオプションを選択する場合は、各広告グループにプレースメントを作成し、バルクシートまたは <!-- insert link --> の広告グループとプレースメント設定を使用して、表示ネットワーク上で各広告グループのターゲット <!-- insert links --> するページを [!UICONTROL Search] > [!UICONTROL Campaigns] ビューで指定します。
 
 **[!UICONTROL Languages]:** （[!DNL Google Ads] search and display networks only） キャンペーンの広告の 1 つ以上のターゲット言語。
 
@@ -119,6 +118,8 @@ ht-degree: 0%
 <!-- **[!UICONTROL Locations]:** -->
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
+
+**[!UICONTROL Has EU Political Ads]:** （[!DNL Google Ads] および [!DNL Microsoft Advertising] キャンペーンのみ。欧州連合（EU）のオーディエンスを対象とするキャンペーンに適用） キャンペーンに、EU 規則 2024/90 に基づく欧州連合（EU）で提供される広告の要件ごとの政治広告が含まれているかどうか：*[!UICONTROL Yes]* または *[!UICONTROL No]*。
 
 ## [!UICONTROL Ad Groups]
 
@@ -136,13 +137,13 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]:** （最終/詳細 URL を持つアカウントのみ）広告グループレベルトラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終 URL をパラメーターに埋め込みます。
 
-キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertisingコンバージョントラッキングの場合、レコードを保存すると、検索、ソーシャルおよびCommerceにリダイレクトおよびトラッキングコードが自動的に追加されます。
+キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertising コンバージョントラッキングの場合、レコードを保存すると、検索、ソーシャルおよびCommerceによってリダイレクトコードとトラッキングコードが自動的に追加されます。
 
 サードパーティのリダイレクトとトラッキングの場合は、値を入力します。 ランディングページの URL を指定するには：
 
 * Yahoo！の場合 日本の広告アカウント、パラメーター {lpurl} を使用します。
 
-* Microsoft AdvertisingおよびGoogle Ads アカウントで使用できるパラメーターについては、[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799) または「ドキュメント」の「使用できる [!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ [[!DNL Google Ads]  パラメーターを参照してください &#x200B;](https://support.google.com/google-ads/answer/6305348)。
+* Microsoft AdvertisingおよびGoogle Ads アカウントで使用できるパラメーターについては、[[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799) または「ドキュメント」の「使用できる [!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ [[!DNL Google Ads]  パラメーターを参照してください ](https://support.google.com/google-ads/answer/6305348)。
 
 この値は、アカウントレベルおよびキャンペーンレベルの設定を上書きしますが、より詳細なレベルでのトラッキングテンプレート（キーワードを最も詳細なレベルとして）はこの値を上書きします。
 
@@ -164,7 +165,7 @@ ht-degree: 0%
 
 **[!UICONTROL Keywords]:** 指定した広告グループ（または [!DNL Yandex] アカウントのキャンペーン）のキーワード。静的テキスト、指定したファイル内の列、修飾子を任意に組み合わせて構成できます。 指定したフィードファイルがテンプレートによって伝播される際に、列名と修飾子は実際のデータに置き換えられます。
 
-列名またはモディファイヤ グループを動的パラメータとして挿入するには、入力フィールド内をクリックし、列リスト内の列名または [ モディファイヤ ] リスト内の [&#x200B; モディファイヤ名 &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) をクリックします。 同じキーワードに対して複数のキーワードまたは複数の一致タイプを指定するには、別々の行に入力します。 キーワード一致タイプを指定するには、列名の前後に次の一致タイプ構文を使用します。
+列名またはモディファイヤ グループを動的パラメータとして挿入するには、入力フィールド内をクリックし、列リスト内の列名または [ モディファイヤ ] リスト内の [ モディファイヤ名 ](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) をクリックします。 同じキーワードに対して複数のキーワードまたは複数の一致タイプを指定するには、別々の行に入力します。 キーワード一致タイプを指定するには、列名の前後に次の一致タイプ構文を使用します。
 
 * [!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] のテンプレートの場合：
 
@@ -176,16 +177,16 @@ ht-degree: 0%
 
 * [!DNL Yandex] テンプレートの場合：
 
-   * 動的パラメーターの場合：列名（`[keyword]` など）を挿入します。 一致タイプを示すには、[[!DNL Yandex] 固有の構文 &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) を使用します。 **注：** 部分一致用語の場合は、次の構文を使用します。キーワード列の最初の用語に対する部分一致修飾子（+blue suede shoes など） = `+[keyword]`、キーワード列の各用語に対する部分一致修飾子（+blue +suede +shoes など） = `+[keyword]+`
+   * 動的パラメーターの場合：列名（`[keyword]` など）を挿入します。 一致タイプを示すには、[[!DNL Yandex] 固有の構文 ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) を使用します。 **注：** 部分一致用語の場合は、次の構文を使用します。キーワード列の最初の用語に対する部分一致修飾子（+blue suede shoes など） = `+[keyword]`、キーワード列の各用語に対する部分一致修飾子（+blue +suede +shoes など） = `+[keyword]+`
 
-   * 静的キーワードの場合：検索キーワードのみがサポートされます。 キーワードには [[!DNL Yandex] 固有 &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) 構文を使用します。 単語の順序を示す角括弧（`[]`）はサポートされていません。
+   * 静的キーワードの場合：検索キーワードのみがサポートされます。 キーワードには [[!DNL Yandex] 固有 ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) 構文を使用します。 単語の順序を示す角括弧（`[]`）はサポートされていません。
 
 >[!NOTE]
 >
 >* キーワードパラメーターの前または後にコンマ区切りの値を括弧で囲むことで、「キーワード」フィールドに複数の修飾子値を手動で含めることができます（両方の場所にはできません）。 例えば、`(cheap, discount, affordable)[product]` は製品ごとに 3 つの異なる広告を生成します。
 >* 一致タイプを指定しない場合、デフォルトの一致タイプ「broad」が使用されます。
 >* 負の一致はサポートされていません。
->* Googleの部分一致修飾子は、一部の言語のフレーズ一致と同じ一致動作を持つようになり、新しい部分一致修飾子のキーワードを作成できません。 詳しくは、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/10286719) を参照してください。
+>* Googleの部分一致修飾子は、一部の言語のフレーズ一致と同じ一致動作を持つようになり、新しい部分一致修飾子のキーワードを作成できません。 詳しくは、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/10286719) を参照してください。
 
 **[!UICONTROL Map Only]:** 新しいキーワードを作成するのではなく、指定したキーワードが含まれる広告グループ（または [!DNL Yandex] アカウントのキャンペーン）に新しい広告を追加します。 このオプションを有効にするには、チェックボックスをオンにします。 このオプションを有効にすると、キーワードが存在するので、指定したキーワード内の Param 1 および Param 2 変数は適用されません。
 
@@ -196,17 +197,17 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* テンプレートを通じて伝播されたデータを POST する際にトラッキング URL を生成すると、アカウントのトラッキング設定に基づいて、トラッキングパラメーターがこの値に付加されます。
->* （[!DNL Google Ads] アカウント）並列トラッキングを有効にするソースからのクリックに置き換えられないマクロを使用しないでください。 広告主がマクロを使用する必要がある場合、Adobeアカウントチームはカスタマーサポートまたは実装チームと連携してマクロを追加する必要があります。
+>* （[!DNL Google Ads] アカウント）並列トラッキングを有効にするソースからのクリックに置き換えられないマクロを使用しないでください。 広告主がマクロを使用する必要がある場合、Adobe アカウントチームはカスタマーサポートまたは実装チームと協力して、マクロを追加する必要があります。
 
 **[!UICONTROL Keyword Tracking Template]:** （最終/詳細 URL を持つアカウント。任意）トラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、パラメーターに最終 URL を埋め込みます。 最も詳細なレベルの追跡テンプレート（キーワードを最も詳細なレベルとして）は、他のすべてのレベルの値を上書きします。
 
-* キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertisingコンバージョントラッキングの場合、レコードを保存すると、検索、ソーシャルおよびCommerceにリダイレクトおよびトラッキングコードが自動的に追加されます。
+* キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertising コンバージョントラッキングの場合、レコードを保存すると、検索、ソーシャルおよびCommerceによってリダイレクトコードとトラッキングコードが自動的に追加されます。
 
 * オプションで、サードパーティのリダイレクトとトラッキングを入力できます。
 
 * ランディングページの URL を指定するには：
 
-   * （[!DNL Google Ads] および [!DNL Microsoft Advertising] のみ）トラッキングテンプレートで最終的な URL を示すパラメーターのリストについては、（ドキュメント [&#128279;](https://help.ads.microsoft.com/#apex/3/en/56799) の「使用可能なトラッキングパラメーター」の節の（[!DNL Microsoft Advertising] のみ） [!DNL Microsoft Advertising]  ドキュメント [[!DNL Google Ads]  または（[!DNL Google Ads] のみ） [!DNL ValueTrack] 「トラッキングテンプレートのみ」パラメーターを参照してください &#x200B;](https://support.google.com/google-ads/answer/6305348)
+   * （[!DNL Google Ads] および [!DNL Microsoft Advertising] のみ）トラッキングテンプレートで最終的な URL を示すパラメーターのリストについては、（ドキュメント [!DNL Microsoft Advertising] の「使用可能なトラッキングパラメーター」の節の（[[!DNL Microsoft Advertising]  のみ） ](https://help.ads.microsoft.com/#apex/3/en/56799) ドキュメント [!DNL Google Ads] または（[!DNL ValueTrack] のみ） [[!DNL Google Ads]  「トラッキングテンプレートのみ」パラメーターを参照してください ](https://support.google.com/google-ads/answer/6305348)
 
    * （[!DNL Yahoo! Japan Ads] のみ） パラメーター `!{lpurl}` を使用して、ランディングページの URL を指定します。
 
@@ -228,7 +229,7 @@ ht-degree: 0%
 
    * 値の先頭または末尾に通貨記号またはコードを付けることができます。 例えば、£2.000,00 および 2000GBP は有効です。
 
-   * 値には、コンマ（,）またはピリオド（.）を含めることができます 区切り記号として使用します（オプションでピリオド（.）も使用できます） 分数の場合はコンマ （,）を使用します。 例えば、1,000.00 と 2.000,10 は有効です。
+   * 値には、区切り文字としてコンマ（,）またはピリオド（.）を使用し、オプションとしてピリオド（.）または分数値のコンマ（,）を使用できます。 例えば、1,000.00 と 2.000,10 は有効です。
 
    * 値の前にはパーセント記号（%）、プラス記号（+）、マイナス記号（–）を付けることができます。 例えば、20%、208+、-42.32 は有効です。
 
@@ -238,7 +239,7 @@ ht-degree: 0%
 
 **[!UICONTROL Param 3]:** （[!DNL Microsoft Advertising] テンプレートのみ） タイトル、テキスト、表示 URL または最終 URL に `{Param3}` の動的置換文字列が含まれる場合に、広告の置換値として使用する文字列。 最大長は 70 文字ですが、これを使用する広告要素の最大長には注意が必要です（例えば、広告のタイトルには最大 25 文字まで含めることができます）。
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** 指定した一致タイプまたは広告タイプの各キーワードの初期入札。
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** 指定した一致タイプまたは広告タイプの各キーワードの初期入札。
 
 ## [!UICONTROL Ads]
 
@@ -318,9 +319,9 @@ ht-degree: 0%
 
 [!DNL Microsoft Advertising] および [!DNL Yahoo! Japan Ads] は、標準テキスト広告の作成と編集を非推奨（廃止予定）としました。
 
-**[!UICONTROL Base URL]:** （宛先 URL を持つアカウントのみ）ユーザーが取得されるページ。 サードパーティのリダイレクトやトラッキングコードを含めることができます。 Adobe Advertisingコンバージョントラッキングサービスを使用し、キャンペーン設定に [!UICONTROL EF Redirect] の使用と広告レベルでのトラッキングの追加が含まれる場合、検索、ソーシャル、Commerceでは独自のリダイレクトとトラッキングコードが広告に自動的に追加されます。
+**[!UICONTROL Base URL]:** （宛先 URL を持つアカウントのみ）ユーザーが取得されるページ。 サードパーティのリダイレクトやトラッキングコードを含めることができます。 Adobe Advertising コンバージョントラッキングサービスを使用し、キャンペーン設定に [!UICONTROL EF Redirect] の使用と広告レベルでのトラッキングの追加が含まれる場合、検索、ソーシャル、Commerceでは独自のリダイレクトとトラッキングコードが広告に自動的に追加されます。
 
-列名または修飾グループを動的パラメータとして挿入するには、入力フィールド内をクリックし、列リスト内の列名または [!UICONTROL Modifiers] 名リスト内の [&#x200B; 修飾子名 &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) をクリックします。
+列名または修飾グループを動的パラメータとして挿入するには、入力フィールド内をクリックし、列リスト内の列名または [ 名リスト内の ](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 修飾子名 [!UICONTROL Modifiers] をクリックします。
 
 **[!UICONTROL Final URL]:** （最終/高度な URL を持つアカウント）ユーザーが広告をクリックした際に取得されるランディングページの URL。 表示 URL と同じドメインを含め、最終的な URL のパラメーターは、広告クリック後にランディングページ URL のパラメーターと一致する必要があります。 ランディングページのドメインまたはサブドメイン内のリダイレクトを含めることができますが、ランディングページのドメイン外のリダイレクトを含めることはできません。
 
@@ -329,17 +330,17 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* テンプレートを通じて伝播されたデータを POST する際にトラッキング URL を生成すると、アカウントトラッキング設定に基づいてトラッキングパラメーターがこの値に付加されます。
->* （[!DNL Google Ads] アカウント）並列トラッキングを有効にするソースからのクリックに置き換わらないマクロを使用しないでください。 広告主がマクロを使用する必要がある場合、Adobeアカウントチームはカスタマーサポートまたは実装チームと連携してマクロを追加する必要があります。
+>* （[!DNL Google Ads] アカウント）並列トラッキングを有効にするソースからのクリックに置き換わらないマクロを使用しないでください。 広告主がマクロを使用する必要がある場合、Adobe アカウントチームはカスタマーサポートまたは実装チームと協力して、マクロを追加する必要があります。
 
 **[!UICONTROL Tracking Template]:** （最終/詳細 URL を持つアカウント。任意）トラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、パラメーターに最終 URL を埋め込みます。 最も詳細なレベルの追跡テンプレート（キーワードを最も詳細なレベルとして）は、他のすべてのレベルの値を上書きします。
 
-キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertisingコンバージョントラッキングの場合、レコードを保存すると、検索、ソーシャルおよびCommerceにリダイレクトおよびトラッキングコードが自動的に追加されます。
+キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertising コンバージョントラッキングの場合、レコードを保存すると、検索、ソーシャルおよびCommerceによってリダイレクトコードとトラッキングコードが自動的に追加されます。
 
 サードパーティのリダイレクトとトラッキングの場合は、値を入力します。 ランディングページの URL を指定するには：
 
 * Yahoo！の場合 日本の広告アカウント、パラメーター {lpurl} を使用します。
 
-* Microsoft AdvertisingおよびGoogle Ads アカウントで使用できるパラメーターについては、[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799) または「ドキュメント」の「使用できる [!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ [[!DNL Google Ads]  パラメーターを参照してください &#x200B;](https://support.google.com/google-ads/answer/6305348)。
+* Microsoft AdvertisingおよびGoogle Ads アカウントで使用できるパラメーターについては、[[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799) または「ドキュメント」の「使用できる [!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ [[!DNL Google Ads]  パラメーターを参照してください ](https://support.google.com/google-ads/answer/6305348)。
 
 **\[ 元の広告フィールドの下の代替広告フィールド\]:** （オプション）広告の代替の広告コピーセット。元の広告コピー内のいずれかの行が、伝播中に動的パラメーターがデータに入力された際に許可される最大長を超える場合に使用できます。
 
@@ -385,8 +386,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 在庫フィードを使用した広告管理の自動化について &#x200B;](../inventory-feeds-about.md)
->* [&#x200B; 修飾子の管理 &#x200B;](../modifiers-manage.md)
->* [&#x200B; 在庫データフィードファイルの管理 &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
->* [&#x200B; テンプレートを使用したフィードデータの伝播 &#x200B;](../feed-data-propagate.md)
->* [&#x200B; 在庫フィードから広告ネットワークへのキャンペーンデータの投稿 &#x200B;](../propagated-data-post.md)
+>* [ 在庫フィードを使用した広告管理の自動化について ](../inventory-feeds-about.md)
+>* [ 修飾子の管理 ](../modifiers-manage.md)
+>* [ 在庫データフィードファイルの管理 ](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
+>* [ テンプレートを使用したフィードデータの伝播 ](../feed-data-propagate.md)
+>* [ 在庫フィードから広告ネットワークへのキャンペーンデータの投稿 ](../propagated-data-post.md)

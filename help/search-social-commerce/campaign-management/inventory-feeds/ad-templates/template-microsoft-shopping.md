@@ -1,11 +1,11 @@
 ---
-title: '在庫フィードの買い物かご広告テンプレート設定を [!DNL Microsoft Ads] 定'
+title: 在庫フィードの買い物かごへのテンプレート設定の [!DNL Microsoft Ads] 定
 description: 在庫フィードの買い物  [!DNL Microsoft Ads]  広告テンプレートの設定を参照します。
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 次の文字は、テンプレート内の列名と修飾子名を指定するために予約されているので、すべての属性フィールドでテキストとして使用することはできません。`[ ] < > `
-
 
 ## \[ すべてのタブの上\]
 
@@ -59,11 +58,11 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]:** （クライアントフィードファイルのテンプレートではオプション）キャンペーンレベルのトラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的な URL をパラメーターに埋め込みます。 この値はアカウントレベルの設定を上書きしますが、より詳細なレベルでのトラッキングテンプレート（キーワードを最も詳細なレベルとして）はこの値を上書きします。
 
-* キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertisingのコンバージョントラッキングの場合は、次のいずれかを行います。
+* キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertising コンバージョントラッキングの場合は、次のいずれかを行います。
 
-   * （推奨） [Microsoft ショッピングキャンペーン用のトラッキングテンプレートフォーマット &#x200B;](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md) を使用します。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
+   * （推奨） [Microsoft ショッピングキャンペーン用のトラッキングテンプレートフォーマット ](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md) を使用します。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
 
-   * 代わりに、「[!DNL bingads_redirect]」列を使用してフィードに各製品の値を含める場合（[&#x200B; 正しい形式 &#x200B;](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)）は、パラメーター `{lpurl}` を入力します。 オプションで、`{lpurl}` パラメーターへのサードパーティリダイレクトおよびトラッキングを追加できます。
+   * 代わりに、「[!DNL bingads_redirect]」列を使用してフィードに各製品の値を含める場合（[ 正しい形式 ](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)）は、パラメーター `{lpurl}` を入力します。 オプションで、`{lpurl}` パラメーターへのサードパーティリダイレクトおよびトラッキングを追加できます。
 
 * サードパーティのリダイレクトとトラッキングの場合は、値を入力します。
 
@@ -106,6 +105,8 @@ ht-degree: 0%
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
 
+**[!UICONTROL Has EU Political Ads]:** （[!DNL Google Ads] および [!DNL Microsoft Advertising] キャンペーンのみ。欧州連合（EU）のオーディエンスを対象とするキャンペーンに適用） キャンペーンに、EU 規則 2024/90 に基づく欧州連合（EU）で提供される広告の要件ごとの政治広告が含まれているかどうか：*[!UICONTROL Yes]* または *[!UICONTROL No]*。
+
 ## [!UICONTROL Ad Groups]
 
 <!-- **[!UICONTROL Ad Group]:** -->
@@ -122,7 +123,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]:** （任意）広告グループレベルのトラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的な URL をパラメーターに埋め込みます。 この値はアカウントレベルおよびキャンペーンレベルの設定を上書きしますが、より詳細なレベルでのトラッキングテンプレートはこの値を上書きします。
 
-Adobe Advertisingコンバージョントラッキングの場合は、値を入力する必要はありません。 キャンペーンレベルの値で十分です。
+Adobe Advertisingのコンバージョントラッキングの場合は、値を入力する必要はありません。 キャンペーンレベルの値で十分です。
 
 サードパーティのリダイレクトとトラッキングの場合は、値を入力します。
 
@@ -155,7 +156,7 @@ Adobe Advertisingコンバージョントラッキングの場合は、値を入
 **[!UICONTROL Tracking Template]:** （子製品グループを持たない単位。オプション）製品の追跡テンプレート
 すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的な URL を [!DNL ValueTrack] パラメーターに埋め込むグループ。 このテンプレートは、上位レベルのテンプレートを上書きします。
 
-Adobe Advertisingコンバージョントラッキングの場合は、値を入力する必要はありません。 キャンペーンレベルの値で十分です。
+Adobe Advertisingのコンバージョントラッキングの場合は、値を入力する必要はありません。 キャンペーンレベルの値で十分です。
 
 サードパーティのリダイレクトとトラッキングの場合は、値を入力します。
 
@@ -175,8 +176,8 @@ Adobe Advertisingコンバージョントラッキングの場合は、値を入
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 在庫フィードを使用した広告管理の自動化について &#x200B;](../inventory-feeds-about.md)
->* [&#x200B; 修飾子の管理 &#x200B;](../modifiers-manage.md)
->* [&#x200B; 在庫データフィードファイルの管理 &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
->* [&#x200B; テンプレートを使用したフィードデータの伝播 &#x200B;](../feed-data-propagate.md)
->* [&#x200B; 在庫フィードから広告ネットワークへのキャンペーンデータの投稿 &#x200B;](../propagated-data-post.md)
+>* [ 在庫フィードを使用した広告管理の自動化について ](../inventory-feeds-about.md)
+>* [ 修飾子の管理 ](../modifiers-manage.md)
+>* [ 在庫データフィードファイルの管理 ](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
+>* [ テンプレートを使用したフィードデータの伝播 ](../feed-data-propagate.md)
+>* [ 在庫フィードから広告ネットワークへのキャンペーンデータの投稿 ](../propagated-data-post.md)

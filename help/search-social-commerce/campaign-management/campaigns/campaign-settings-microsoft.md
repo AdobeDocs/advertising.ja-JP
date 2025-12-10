@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Microsoft Advertising] キャンペーン設定'
+title: '[!DNL Microsoft Advertising] キャンペーンの設定'
 description: キャンペーンの設定  [!DNL Microsoft Advertising]  参照します。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: b8aa2461d261af50e1bf66c4ae29e4e453dfd182
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]:* オーディエンスネットワーク上の標準ビデオ広告を表示します。
 
-* *[!UICONTROL Performance Max]:* スマート入札を使用して、すべてのネットワークにわたる複数の広告タイプ [!DNL Microsoft Advertising] 表示します。 キャンペーンの設定内で、1 つ以上のアセットグループを指定する必要があります。このグループには、画像、ロゴ、ヘッドライン、説明、オプションのコールトゥアクション、オーディエンスシグナルが含まれます。 広告ネットワークは、アセットを自動的に組み合わせて、チャネルに基づいて広告を提供します。
+* *[!UICONTROL Performance Max]:* スマート入札を使用して、すべてのネットワークにわたる複数の広告タイプ [!DNL Microsoft Advertising] 表示します。 キャンペーンの設定内で、1 つ以上のアセットグループ（画像、ロゴ、ヘッドライン、説明、オプションのcall to action、オーディエンスシグナルを含む）を指定する必要があります。 広告ネットワークは、アセットを自動的に組み合わせて、チャネルに基づいて広告を提供します。
 
 ## [!UICONTROL Campaign Details]
 
@@ -46,6 +46,8 @@ ht-degree: 0%
 <!-- **[!UICONTROL End Date]:** -->
 
 {{$include /help/_includes/end-date.md}}
+
+**[!UICONTROL Contains EU Political Ads]:** （欧州連合（EU）でオーディエンスを対象とするキャンペーンに適用） EU 規則 2024/90 に基づく欧州連合（EU）で提供される広告の要件に従った政治広告がキャンペーンに含まれるかどうか：*[!UICONTROL Yes]* または *[!UICONTROL No]*。
 
 ## [!UICONTROL Budget Options]
 
@@ -75,7 +77,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Manual CPA]:* （[!DNL Microsoft Store Ads] キャンペーン）獲得あたりのコスト（CPA） モデルを使用します。
 
-* *[!UICONTROL Manual CPM]* （オーディエンスキャンペーンおよびオーディエンスビデオキャンペーンのみ） 1,000 回の表示インプレッションごとに使用する費用を指定する、1,000 回のインプレッションあたりのコスト（CPM） モデルを使用します。 この入札戦略を使用したキャンペーンは、ポートフォリオに含まれている場合、最適化されません。
+* *[!UICONTROL Manual CPM]* （オーディエンスキャンペーンおよびオーディエンスビデオキャンペーンのみ） 1,000 回の視聴インプレッションごとに使用する費用を指定する、1,000 回のインプレッションあたりのコスト（CPM） モデルを使用します。 この入札戦略を使用したキャンペーンは、ポートフォリオに含まれている場合、最適化されません。
 
 * *[!UICONTROL Maximize Clicks]:* （検索およびショッピングキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、クリック数を最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Max CPC]** （クリック単価）を入力し、広告ネットワークがクリックごとに特定の金額以上を支払わないようにします。 **注意：** この戦略を使用してキャンペーンをポートフォリオに追加すると、クリックの重み（ポートフォリオ目標ではありません）が入札を促進します。
 
@@ -166,7 +168,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]:** （ディスプレイ/ネイティブネットワーク上のキャンペーンのみ。オプション）広告を表示しないディスプレイネットワーク上のサイト。 www.example.comのように、有効な URL を入力します。 複数の文字列を指定する場合は、コンマで区切るか、別の行に入力します。
 
-公開について詳しくは、Microsoft Advertisingのヘルプで「[&#x200B; 特定の web サイトに広告が表示されないようにする &#x200B;](https://help.ads.microsoft.com/#apex/bae/en/14061/0) を参照してください。
+公開について詳しくは、Microsoft Advertisingのヘルプで「[ 特定の web サイトに広告が表示されないようにする ](https://help.ads.microsoft.com/#apex/bae/en/14061/0) を参照してください。
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -208,7 +210,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]:** アセットグループから作成されたすべての広告の最終的な URL。
 
-**[!UICONTROL Images]:** 少なくとも 1 つの正方形の画像と 1 つの風景の画像を含む、広告の最大 20 の画像。 [[!DNL Microsoft Advertising]  画像のガイドライン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60204/0) を参照してください。 画像は、アップロードすることも、[!UICONTROL Asset Library] ージから選択することもできます。ただし、同じ操作で両方を選択することはできません。
+**[!UICONTROL Images]:** 少なくとも 1 つの正方形の画像と 1 つの風景の画像を含む、広告の最大 20 の画像。 [[!DNL Microsoft Advertising]  画像のガイドライン ](https://help.ads.microsoft.com/#apex/ads/en/60204/0) を参照してください。 画像は、アップロードすることも、[!UICONTROL Asset Library] ージから選択することもできます。ただし、同じ操作で両方を選択することはできません。
 
 * 画像をアップロードするには：
 
@@ -230,7 +232,7 @@ ht-degree: 0%
 
 * [!UICONTROL Asset Library] ージから画像を選択するには、「**[!UICONTROL Asset Library]**」をクリックして画像を選択します。
 
-**[!UICONTROL Logos]:** 1 つ以上のロゴ。 最大 5 つを含めることができます。 [[!DNL Microsoft Advertising]  アセットガイドライン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60204/0) を参照してください。 画像は、アップロードすることも、[!UICONTROL Asset Library] ージから選択することもできます。ただし、同じ操作で両方を選択することはできません。
+**[!UICONTROL Logos]:** 1 つ以上のロゴ。 最大 5 つを含めることができます。 [[!DNL Microsoft Advertising]  アセットガイドライン ](https://help.ads.microsoft.com/#apex/ads/en/60204/0) を参照してください。 画像は、アップロードすることも、[!UICONTROL Asset Library] ージから選択することもできます。ただし、同じ操作で両方を選択することはできません。
 
 * 画像をアップロードするには：
 
@@ -282,14 +284,14 @@ ht-degree: 0%
 
 * [!UICONTROL Asset Library] ージからアセットを選択するには、「選 **[!UICONTROL Asset Library]**」をクリックしてアセットを選択します。
 
-**[!UICONTROL Call to Action]:** 広告に含めるコールトゥアクション。 デフォルトでは、*[!UICONTROL Act Now]* が選択されています。
+**[!UICONTROL Call to Action]:** 広告に含めるcall to action。 デフォルトでは、*[!UICONTROL Act Now]* が選択されています。
 
 **[!UICONTROL Business Name]:** ビジネス名（最大 25 文字）。 スクリプト、HTML、またはその他のマークアップ言語を含めることはできません。
 
 **[!UICONTROL Audience Signal]:** （任意）キャンペーンのオーディエンスシグナルとして使用するオーディエンスを [!DNL Microsoft Advertising] 定します。 機械学習モデル [!DNL Microsoft Advertising]、オーディエンスを使用して、ターゲットとする類似の web サーファーを見つけます。また、パフォーマンス目標を達成するのに役立つシグナルとして指定されていないオーディエンスに広告を表示することもあります。 コンバージョンする可能性が最も高いオーディエンスを選択します。
 
 >[!NOTE]
->オーディエンスシグナルは、[&#x200B; 広告グループレベルのオーディエンスターゲット &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) とは異なります。
+>オーディエンスシグナルは、[ 広告グループレベルのオーディエンスターゲット ](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) とは異なります。
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 
@@ -299,14 +301,14 @@ ht-degree: 0%
 
 ## [!UICONTROL Conversion Goals]
 
-**[!UICONTROL Conversion Goal]:** *[!UICONTROL Use account conversion goals for this campaign]* （デフォルト）か *[!UICONTROL Use campaign specific conversion goals]*。 キャンペーンのコンバージョン目標を指定する場合は、使用可能なすべての目標のリストから目標を選択します。 **メモ：** 目標は毎日同期されるので、過去 24 時間に作成された目標はリストされない場合があります。 リストを更新するには、[&#x200B; 広告ネットワークデータを手動で同期 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/sync-network.md) します。
+**[!UICONTROL Conversion Goal]:** *[!UICONTROL Use account conversion goals for this campaign]* （デフォルト）か *[!UICONTROL Use campaign specific conversion goals]*。 キャンペーンのコンバージョン目標を指定する場合は、使用可能なすべての目標のリストから目標を選択します。 **メモ：** 目標は毎日同期されるので、過去 24 時間に作成された目標はリストされない場合があります。 リストを更新するには、[ 広告ネットワークデータを手動で同期 ](/help/search-social-commerce/campaign-management/campaigns/sync-network.md) します。
 
 >[!TIP]
 >
 >キャンペーンがハイブリッドポートフォリオの一部である場合は、ポートフォリオの目的のコンバージョン目標に一致するキャンペーンレベルの目標を使用することがベストプラクティスです。追加のコンバージョン目標を含めると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
 >
-> ただし、ハイブリッドポートフォリオ内のキャンペーンで [&#x200B; 広告ネットワークに目標をアップロード &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md) する場合は、ここではなく、広告ネットワークのエディター内で次の操作を行います。a） アップロードした検索、ソーシャルおよびCommerceのポートフォリオ目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョン目標として追加し、b）広告ネットワーク追跡指標は広告ネットワークにアップロードされないので、[!DNL Microsoft Advertising] ユニバーサルイベントトラッキング（UET） タグでで追跡されるコンバージョンをを含める目標を追加します。
+> ただし、ハイブリッドポートフォリオ内のキャンペーンで [ 広告ネットワークに目標をアップロード ](/help/search-social-commerce/tools/objective-upload-to-networks.md) する場合は、ここではなく、広告ネットワークのエディター内で次の操作を行います。a） アップロードした検索、ソーシャルおよびCommerceのポートフォリオ目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョン目標として追加し、b）広告ネットワーク追跡指標は広告ネットワークにアップロードされないので、[!DNL Microsoft Advertising] ユニバーサルイベントトラッキング（UET） タグでで追跡されるコンバージョンをを含める目標を追加します。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーンの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [ キャンペーンの管理 ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
