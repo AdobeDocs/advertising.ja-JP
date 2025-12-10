@@ -4,9 +4,9 @@ description: バルクシートファイルを使用して複数のポートフ�
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 * フィールドの編集に関する情報を含む読み取り専用の [!UICONTROL Instructions] ワークシート。
 
-* 含まれるポートフォリオごとに 1 行の [!UICONTROL Portfolio Settings Edit] しいタブ。 必要に応じてフィールドを編集し、ファイルをローカルに保存したあと、検索、ソーシャルおよびCommerceに [&#x200B; 編集したファイルをアップロード &#x200B;](#portfolio-bulksheet-upload) することもできます。 編集可能なフィールドはカラーでハイライト表示されます。
+* 含まれるポートフォリオごとに 1 行の [!UICONTROL Portfolio Settings Edit] しいタブ。 必要に応じてフィールドを編集し、ファイルをローカルに保存したあと、検索、ソーシャルおよびCommerceに [ 編集したファイルをアップロード ](#portfolio-bulksheet-upload) することもできます。 編集可能なフィールドはカラーでハイライト表示されます。
 
 ## ポートフォリオ設定を含むバルクシート ファイルのダウンロード
 
@@ -43,13 +43,13 @@ ht-degree: 0%
 
    1. 「**[!UICONTROL Import]**」をクリックします。
 
-アップロードのステータスは、日付範囲セレクターの横にある [!UICONTROL Global Sync Status] ボタン（![&#x200B; グローバル同期ステータス &#x200B;](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ")）から確認できます。<!-- icon similar to Refresh -->。 いずれかの変更が成功しなかった場合は、失敗したことを示すエラーファイルをダウンロードできます。
+アップロードのステータスは、日付範囲セレクターの横にある [!UICONTROL Global Sync Status] ボタン（![ グローバル同期ステータス ](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ")）から確認できます。<!-- icon similar to Refresh -->。 いずれかの変更が成功しなかった場合は、失敗したことを示すエラーファイルをダウンロードできます。
 
-通知も通知センターに追加され、通知ボタンの横にある ![&#x200B; 通知 &#x200B;](/help/search-social-commerce/assets/notifications-new.png " 通知 ") アイコンから [!UICONTROL Global Sync Status] 知ペインを開くことができます（![グローバル同期ステータス](/help/search-social-commerce/assets/global-sync-status.png "グローバル同期ステータス")）。
+通知も通知センターに追加され、通知ボタンの横にある ![ 通知 ](/help/search-social-commerce/assets/notifications-new.png " 通知 ") アイコンから [!UICONTROL Global Sync Status] 知ペインを開くことができます（![グローバル同期ステータス](/help/search-social-commerce/assets/global-sync-status.png "グローバル同期ステータス")）。
 
 ## アップロードしたバルクシートファイルのデータ要件
 
-ダウンロードしたバルクシートファイルの「[!UICONTROL Instructions]」タブを参照してください。
+すべてのバルクシート ファイルには列 [!UICONTROL Portfolio ID] を含める必要があり、各データ行にはアクションを起こせる [!UICONTROL Portfolio ID] の値を含める必要があります。 データ要件について詳しくは、ダウンロードしたバルクシートファイルの「[!UICONTROL Instructions]」タブを参照してください。
 
 「[!UICONTROL Portfolio Settings Edit]」タブのポートフォリオ設定列の説明については、最適化ガイドを参照してください。このガイドは、検索、ソーシャル、Commerce内から利用できます。
 
@@ -79,6 +79,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しい UI）ポートフォリオの編集 &#x200B;](portfolio-edit.md)
->* [&#x200B; ポートフォリオの作成 &#x200B;](portfolio-create.md)
->* ポートフォリオに関する [&#x200B; （新しい UI） &#x200B;](portfolio-about.md)
+>* [ （新しい UI）ポートフォリオの編集 ](portfolio-edit.md)
+>* [ ポートフォリオの作成 ](portfolio-create.md)
+>* ポートフォリオに関する [ （新しい UI） ](portfolio-about.md)
