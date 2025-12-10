@@ -60,9 +60,9 @@ ht-degree: 0%
 
 * キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertising コンバージョントラッキングの場合は、次のいずれかを行います。
 
-   * （推奨） [Microsoft ショッピングキャンペーン用のトラッキングテンプレートフォーマット ](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md) を使用します。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
+   * （推奨） [Microsoft ショッピングキャンペーン用のトラッキングテンプレートフォーマット &#x200B;](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md) を使用します。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
 
-   * 代わりに、「[!DNL bingads_redirect]」列を使用してフィードに各製品の値を含める場合（[ 正しい形式 ](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)）は、パラメーター `{lpurl}` を入力します。 オプションで、`{lpurl}` パラメーターへのサードパーティリダイレクトおよびトラッキングを追加できます。
+   * 代わりに、「[!DNL bingads_redirect]」列を使用してフィードに各製品の値を含める場合（[&#x200B; 正しい形式 &#x200B;](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)）は、パラメーター `{lpurl}` を入力します。 オプションで、`{lpurl}` パラメーターへのサードパーティリダイレクトおよびトラッキングを追加できます。
 
 * サードパーティのリダイレクトとトラッキングの場合は、値を入力します。
 
@@ -176,8 +176,8 @@ Adobe Advertisingのコンバージョントラッキングの場合は、値を
 
 >[!MORELIKETHIS]
 >
->* [ 在庫フィードを使用した広告管理の自動化について ](../inventory-feeds-about.md)
->* [ 修飾子の管理 ](../modifiers-manage.md)
->* [ 在庫データフィードファイルの管理 ](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
->* [ テンプレートを使用したフィードデータの伝播 ](../feed-data-propagate.md)
->* [ 在庫フィードから広告ネットワークへのキャンペーンデータの投稿 ](../propagated-data-post.md)
+>* [&#x200B; 在庫フィードを使用した広告管理の自動化について &#x200B;](../inventory-feeds-about.md)
+>* [&#x200B; 修飾子の管理 &#x200B;](../modifiers-manage.md)
+>* [&#x200B; 在庫データフィードファイルの管理 &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
+>* [&#x200B; テンプレートを使用したフィードデータの伝播 &#x200B;](../feed-data-propagate.md)
+>* [&#x200B; 在庫フィードから広告ネットワークへのキャンペーンデータの投稿 &#x200B;](../propagated-data-post.md)

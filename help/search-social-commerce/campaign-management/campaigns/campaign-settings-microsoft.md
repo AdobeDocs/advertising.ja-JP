@@ -168,7 +168,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]:** （ディスプレイ/ネイティブネットワーク上のキャンペーンのみ。オプション）広告を表示しないディスプレイネットワーク上のサイト。 www.example.comのように、有効な URL を入力します。 複数の文字列を指定する場合は、コンマで区切るか、別の行に入力します。
 
-公開について詳しくは、Microsoft Advertisingのヘルプで「[ 特定の web サイトに広告が表示されないようにする ](https://help.ads.microsoft.com/#apex/bae/en/14061/0) を参照してください。
+公開について詳しくは、Microsoft Advertisingのヘルプで「[&#x200B; 特定の web サイトに広告が表示されないようにする &#x200B;](https://help.ads.microsoft.com/#apex/bae/en/14061/0) を参照してください。
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -210,7 +210,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]:** アセットグループから作成されたすべての広告の最終的な URL。
 
-**[!UICONTROL Images]:** 少なくとも 1 つの正方形の画像と 1 つの風景の画像を含む、広告の最大 20 の画像。 [[!DNL Microsoft Advertising]  画像のガイドライン ](https://help.ads.microsoft.com/#apex/ads/en/60204/0) を参照してください。 画像は、アップロードすることも、[!UICONTROL Asset Library] ージから選択することもできます。ただし、同じ操作で両方を選択することはできません。
+**[!UICONTROL Images]:** 少なくとも 1 つの正方形の画像と 1 つの風景の画像を含む、広告の最大 20 の画像。 [[!DNL Microsoft Advertising]  画像のガイドライン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60204/0) を参照してください。 画像は、アップロードすることも、[!UICONTROL Asset Library] ージから選択することもできます。ただし、同じ操作で両方を選択することはできません。
 
 * 画像をアップロードするには：
 
@@ -232,7 +232,7 @@ ht-degree: 0%
 
 * [!UICONTROL Asset Library] ージから画像を選択するには、「**[!UICONTROL Asset Library]**」をクリックして画像を選択します。
 
-**[!UICONTROL Logos]:** 1 つ以上のロゴ。 最大 5 つを含めることができます。 [[!DNL Microsoft Advertising]  アセットガイドライン ](https://help.ads.microsoft.com/#apex/ads/en/60204/0) を参照してください。 画像は、アップロードすることも、[!UICONTROL Asset Library] ージから選択することもできます。ただし、同じ操作で両方を選択することはできません。
+**[!UICONTROL Logos]:** 1 つ以上のロゴ。 最大 5 つを含めることができます。 [[!DNL Microsoft Advertising]  アセットガイドライン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60204/0) を参照してください。 画像は、アップロードすることも、[!UICONTROL Asset Library] ージから選択することもできます。ただし、同じ操作で両方を選択することはできません。
 
 * 画像をアップロードするには：
 
@@ -291,7 +291,7 @@ ht-degree: 0%
 **[!UICONTROL Audience Signal]:** （任意）キャンペーンのオーディエンスシグナルとして使用するオーディエンスを [!DNL Microsoft Advertising] 定します。 機械学習モデル [!DNL Microsoft Advertising]、オーディエンスを使用して、ターゲットとする類似の web サーファーを見つけます。また、パフォーマンス目標を達成するのに役立つシグナルとして指定されていないオーディエンスに広告を表示することもあります。 コンバージョンする可能性が最も高いオーディエンスを選択します。
 
 >[!NOTE]
->オーディエンスシグナルは、[ 広告グループレベルのオーディエンスターゲット ](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) とは異なります。
+>オーディエンスシグナルは、[&#x200B; 広告グループレベルのオーディエンスターゲット &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) とは異なります。
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 
@@ -301,14 +301,14 @@ ht-degree: 0%
 
 ## [!UICONTROL Conversion Goals]
 
-**[!UICONTROL Conversion Goal]:** *[!UICONTROL Use account conversion goals for this campaign]* （デフォルト）か *[!UICONTROL Use campaign specific conversion goals]*。 キャンペーンのコンバージョン目標を指定する場合は、使用可能なすべての目標のリストから目標を選択します。 **メモ：** 目標は毎日同期されるので、過去 24 時間に作成された目標はリストされない場合があります。 リストを更新するには、[ 広告ネットワークデータを手動で同期 ](/help/search-social-commerce/campaign-management/campaigns/sync-network.md) します。
+**[!UICONTROL Conversion Goal]:** *[!UICONTROL Use account conversion goals for this campaign]* （デフォルト）か *[!UICONTROL Use campaign specific conversion goals]*。 キャンペーンのコンバージョン目標を指定する場合は、使用可能なすべての目標のリストから目標を選択します。 **メモ：** 目標は毎日同期されるので、過去 24 時間に作成された目標はリストされない場合があります。 リストを更新するには、[&#x200B; 広告ネットワークデータを手動で同期 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/sync-network.md) します。
 
 >[!TIP]
 >
 >キャンペーンがハイブリッドポートフォリオの一部である場合は、ポートフォリオの目的のコンバージョン目標に一致するキャンペーンレベルの目標を使用することがベストプラクティスです。追加のコンバージョン目標を含めると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
 >
-> ただし、ハイブリッドポートフォリオ内のキャンペーンで [ 広告ネットワークに目標をアップロード ](/help/search-social-commerce/tools/objective-upload-to-networks.md) する場合は、ここではなく、広告ネットワークのエディター内で次の操作を行います。a） アップロードした検索、ソーシャルおよびCommerceのポートフォリオ目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョン目標として追加し、b）広告ネットワーク追跡指標は広告ネットワークにアップロードされないので、[!DNL Microsoft Advertising] ユニバーサルイベントトラッキング（UET） タグでで追跡されるコンバージョンをを含める目標を追加します。
+> ただし、ハイブリッドポートフォリオ内のキャンペーンで [&#x200B; 広告ネットワークに目標をアップロード &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md) する場合は、ここではなく、広告ネットワークのエディター内で次の操作を行います。a） アップロードした検索、ソーシャルおよびCommerceのポートフォリオ目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョン目標として追加し、b）広告ネットワーク追跡指標は広告ネットワークにアップロードされないので、[!DNL Microsoft Advertising] ユニバーサルイベントトラッキング（UET） タグでで追跡されるコンバージョンをを含める目標を追加します。
 
 >[!MORELIKETHIS]
 >
->* [ キャンペーンの管理 ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [&#x200B; キャンペーンの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
