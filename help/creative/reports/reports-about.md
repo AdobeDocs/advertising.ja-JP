@@ -13,7 +13,7 @@ ht-degree: 0%
 
 カスタムレポートを使用すると、最も重要な指標を使用して、レポートデータのコンテンツと配信をカスタマイズできます。
 
-レポートを 1 回生成することも、指定した基準（15 日ごと、毎月 1 日など）に従って指定したタイムゾーンで毎日 :00 毎週、または毎月 03 時に生成するようにスケジュールすることもできます。 レポートが生成されたら、[!UICONTROL Reports] / [!UICONTROL Custom Reports] または次のタイプのリンクされた [ レポートの宛先 ](/help/dsp/reports/report-destinations/report-destination-about.md) からダウンロードできます。
+レポートを 1 回生成することも、指定した基準（15 日ごと、毎月 1 日など）に従って指定したタイムゾーンで毎日 :00 毎週、または毎月 03 時に生成するようにスケジュールすることもできます。 レポートが生成されたら、[!UICONTROL Reports] / [!UICONTROL Custom Reports] または次のタイプのリンクされた [&#x200B; レポートの宛先 &#x200B;](/help/dsp/reports/report-destinations/report-destination-about.md) からダウンロードできます。
 
 * [!DNL Amazon Simple Storage Service] （[!DNL S3]）
 * FTP
