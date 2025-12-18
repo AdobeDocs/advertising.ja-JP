@@ -3,9 +3,9 @@ role: User
 user-guide-title: Advertising Creative ガイド
 user-guide-description: Advertising Creative を使用するために必要な主な機能、タスク、設定、その他のリソースについて学習します。
 breadcrumb-title: Creative ガイド
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 6%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 6%
    + [Adobe Advertising Creativeについて](/help/creative/introduction/creative-about.md)
    + [データビューのカスタマイズ](/help/creative/introduction/customize-data-views.md)
    + [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [&#x200B; 消費者プライバシーの支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
-   + [&#x200B; 施策及び指針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
+   + [ 消費者プライバシーの支援 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [ 施策及び指針 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative ライブラリ {#creative-libraries}
    + [クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
    + [サポートされるクリエイティブのサイズ](/help/creative/creative-libraries/creative-sizes.md)
@@ -86,10 +86,11 @@ ht-degree: 6%
 + [付録：動的広告フィードファイルで使用可能なフィールド](/help/creative/appendix-available-feed-fields.md)
 + パフォーマンスレポート {#reports}
    + [エクスペリエンスレベルのパフォーマンスレポート](/help/creative/experiences/experience-performance-details.md)
+   + [アラートの表示](/help/creative/reports/alerts-view.md)
    + [ カスタムレポート ]{#custom-reports}
       + [カスタムレポートについて](/help/creative/reports/reports-about.md)
       + [カスタムレポートの管理](/help/creative/reports/report-manage.md)
 + [リターゲティングピクセル](/help/creative/pixels/retargeting-pixel-manage.md)
 + [URL を追跡するために使用可能なマクロ](/help/creative/creative-macros.md)
 + [ヘルプを表示](/help/creative/get-help.md)
-+ [Adobe Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target="_blank"}
++ [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
