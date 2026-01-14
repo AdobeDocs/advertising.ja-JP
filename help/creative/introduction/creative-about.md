@@ -3,9 +3,9 @@ title: Adobe Advertising Creativeについて
 description: 詳細情報  [!DNL Creative].
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: 9082d9f455a0d26ca027dc699df29737b9042457
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Adobe Audience ManagerとAdobe Analyticsのファーストパーティオーデ�
 
 ### 広告要素の最適化
 
-オプションで、Adobe Senseiを活用し [!DNL Creative]、最適化された重み付けされた広告ローテーションを使用して、特定のオーディエンス目標を定義しているかどうかに関係なく、パフォーマンスに基づいて任意のエクスペリエンスの広告要素を最適化することもできます。
+オプションで、[!DNL Creative] を利用し [!DNL Adobe AI]、最適化された重み付けされた広告のローテーションを使用して、特定のオーディエンスターゲットを定義しているかどうかに関係なく、パフォーマンスに基づいて任意のエクスペリエンスの広告要素を最適化することもできます。
 
 <!--
 [!DNL Creative] serves first-party ads and triggers third-party ads for the experience based on the specified targeting (when applicable), scheduling, ad rotation, and optimization goal options 
@@ -67,7 +67,7 @@ to the DSP.
 
 レポート/カスタムレポートでカスタム Creative レポートを作成し、エクスペリエンスをまたいでエクスペリエンスレベルのパフォーマンスを監視することもできます。 DSP キャンペーン内の広告として [!DNL Creative] エクスペリエンスを使用する場合、他のDSP広告のデータと同様に、それらの広告のパフォーマンスデータは、追加のカスタムレポートで利用できます。<!-- Verify that [!DNL Creative] users have access to ALL other reports. -->
 
-オプションで、指定した [&#x200B; レポートの宛先 &#x200B;](/help/dsp/reports/report-destinations/report-destination-about.md) にカスタムレポートを配信できます。
+オプションで、指定した [ レポートの宛先 ](/help/dsp/reports/report-destinations/report-destination-about.md) にカスタムレポートを配信できます。
 
 <!--
 >* [Overview of implementing Adobe Advertising Creative](/help/creative/introduction/implementation-overview.md)
@@ -76,5 +76,5 @@ to the DSP.
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; クリエイティブライブラリについて &#x200B;](/help/creative/creative-libraries/creative-libraries-about.md)
->* [Advertising Creativeでのエクスペリエンスについて &#x200B;](/help/creative/experiences/experience-about.md)
+>* [ クリエイティブライブラリについて ](/help/creative/creative-libraries/creative-libraries-about.md)
+>* [Advertising Creativeでのエクスペリエンスについて ](/help/creative/experiences/experience-about.md)

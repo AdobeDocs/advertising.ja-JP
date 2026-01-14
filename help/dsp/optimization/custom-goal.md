@@ -3,9 +3,9 @@ title: カスタム目標
 description: 最低 CPA または最高 ROAS 用に最適化されたパッケージで成功イベントを定義するカスタム目標について説明します。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 例えば、あるキャンペーンの特定のパッケージに関連する 3 つのコンバージョン指標（20 USD の「PDFのダウンロード」、30 USD の「電子メールのサインアップ」、40 USD の「注文確認」）があるとします。 顧客アクションの 1 回限りの金銭的価値に応じて重みを付ける場合、指標の相対的な重みは 1、1.5、2 になります。
 
-[&#x200B; カスタム目標を作成 &#x200B;](#custom-goal-create) したら、[&#x200B; パッケージに割り当てる &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) ことで、Adobe Senseiを使用したレポートやアルゴリズムの最適化を行うことができます。
+[ カスタム目標を作成 ](#custom-goal-create) したら、[ を使用したレポートおよびアルゴリズム最適化のために ](/help/dsp/campaign-management/packages/package-settings.md) パッケージに割り当て [!DNL Adobe AI] ことができます。
 
 重み付けレコメンデーションは、目標のDSP属性指標に対して自動的に生成され、ワンクリックですべての重み付けレコメンデーションを適用できます。 「ADSP_」が接頭辞の付いた目標に対するすべての重み付けの変更は、2 日以内にDSPでアルゴリズムにより適用されます。 重み付けの推奨事項について詳しくは、最適化ガイドの「目標」に関する章を参照してください。この章は、検索、ソーシャル、Commerce内から利用できます。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 カスタム目標を作成するには、DSP アカウントが、[!DNL Search, Social, & Commerce] クライアント設定内から同じAdobe Experience Cloud組織 ID を持つ [!DNL Search, Social, & Commerce] アカウントにリンクされている必要があります。 DSP アカウントが [!DNL Search, Social, & Commerce] アカウントにリンクされていない場合は、Adobe アカウントチームにお問い合わせください。
 
-1. [Advertisingの検索、ソーシャル、Commerceへのログイン &#x200B;](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}。
+1. [Advertisingの検索、ソーシャル、Commerceへのログイン ](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}。
 
 1. 目標に含める指標が追跡されていて、製品で使用でき、表示名を含んでいることを確認します。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
    1. 指標の「**[!UICONTROL Display Name]**」列に値がない場合は、セル内をクリックし、表示名を入力して「**[!UICONTROL Apply]」をクリックします。**
 
-1. [&#x200B; カスタム目標を *目標*](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md){target="_blank"} として作成します。 次の点に留意してください。
+1. [ カスタム目標を *目標*](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md){target="_blank"} として作成します。 次の点に留意してください。
 
    * Advertising DSP パッケージに使用される目標の場合、目標名の先頭には「ADSP_Registrations」のように「ADSP_」を付ける必要があります。 プレフィックスでは大文字と小文字が区別されません。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >最適なパフォーマンスを得るには、カスタム目標（目標）の合計指標が、1 日に少なくとも 10 回のコンバージョンを満たす必要があります。 そうでない場合は、製品ページやアプリケーション開始など、追加のサポートコンバージョン指標を目的に追加することをお勧めします。 ガイドラインについては、[&#x200B; カスタム目標を作成するためのベストプラクティス &#x200B;](#custom-goal-best-practices) を参照してください。
+   >最適なパフォーマンスを得るには、カスタム目標（目標）の合計指標が、1 日に少なくとも 10 回のコンバージョンを満たす必要があります。 そうでない場合は、製品ページやアプリケーション開始など、追加のサポートコンバージョン指標を目的に追加することをお勧めします。 ガイドラインについては、[ カスタム目標を作成するためのベストプラクティス ](#custom-goal-best-practices) を参照してください。
 
 最適化目標「[!UICONTROL Highest Return on Ad Spend (ROAS)"]」または「[!UICONTROL Lowest Cost per Acquisition (CPA)]」を使用するパッケージのDSP パッケージ設定で、目標名が [!UICONTROL Custom Goals] リストに含まれるようになりました。 目標をパッケージのカスタム目標として選択すると、[!UICONTROL Conversion Metric] のリストには、その目標のすべての目標指標が含まれます。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 カスタム目標で複数の指標を使用する場合は、次の 2 つのシナリオがあります。
 
-* キャンペーンの目標には複数の成功イベントがあります。 例えば、複数のオンサイトアクション（PDFのダウンロード、お問い合わせ、電子メールのサインアップ）を目的として広告をしており、すべてのアクションが CPA 目標に貢献している場合があります。 目標に 3 つの個別の指標が含まれ、それぞれに 1 つの非モバイル重み付けが含まれる場合、[!DNL Adobe Sensei] アルゴリズムは各指標とユーザーデバイスタイプを同じ重要度で処理します。 様々な指標のコストや重要度が異なる場合は、それに応じて相対的な重み付けを調整します。
+* キャンペーンの目標には複数の成功イベントがあります。 例えば、複数のオンサイトアクション（PDFのダウンロード、お問い合わせ、電子メールのサインアップ）を目的として広告をしており、すべてのアクションが CPA 目標に貢献している場合があります。 目標に 3 つの個別の指標が含まれ、それぞれに 1 つの非モバイル重み付けが含まれる場合、[!DNL Adobe AI] を利用したアルゴリズムは、各指標とユーザーデバイスタイプを同じ重要度で処理します。 様々な指標のコストや重要度が異なる場合は、それに応じて相対的な重み付けを調整します。
 
 <!-- update image or delete it and adjust the wording above
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 * カスタム目標の単一コンバージョン指標が、パフォーマンスの最適化に必要な 1 日あたりのコンバージョン数が 10 以上に達していません。 これは、1 日あたりのパッケージ支出が最小限であるか、自然変換の数が限られているために発生する可能性があります。 カスタム目標に追加のサポート指標を追加すると、1 日あたり 10 コンバージョンのしきい値を達成できます。 10 個のサポートイベントは、各ウェイトが 1 未満の場合でも、パッケージが 10 日のしきい値を満たすのに役立ちます。 ただし、それほど多くのイベントを追加する必要はありません。
 
-  カスタム目標にサポート指標を追加する場合は、メインの成功イベントに対する相対的な重要度に従って指標に重みを付け、データポイントの量に留意します。 これにより、Adobe Sensei アルゴリズムは複数の指標のバランスを取り、目標に向けて最適化できます。
+  カスタム目標にサポート指標を追加する場合は、メインの成功イベントに対する相対的な重要度に従って指標に重みを付け、データポイントの量に留意します。 これにより、[!DNL Adobe AI] を活用したアルゴリズムで、複数の指標のバランスを取り、目標に向けて最適化できます。
 
   次の目標の例には、それぞれ異なるモバイル以外の重み付けを持つ 3 つの指標が含まれています。アプリケーション送信= 1、アプリケーション開始= 0.1、広告主ランディングページ = 0.01。つまり、各アプリケーション送信コンバージョンは、アプリケーション開始コンバージョンが平均 10 個、広告主ランディングページ コンバージョンが平均 100 個と、ビジネスに対して同じ値を持ちます。
 
@@ -130,6 +130,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 最適化目標とその使用方法 &#x200B;](optimization-goals.md)
->* [&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
-> * [DSPによるキャンペーンの最適化方法 &#x200B;](optimization-how-dsp-optimizes-campaigns.md)
+>* [ 最適化目標とその使用方法 ](optimization-goals.md)
+>* [ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)
+> * [DSPによるキャンペーンの最適化方法 ](optimization-how-dsp-optimizes-campaigns.md)

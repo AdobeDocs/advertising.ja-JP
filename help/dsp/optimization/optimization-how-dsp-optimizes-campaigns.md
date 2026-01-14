@@ -3,7 +3,7 @@ title: DSPによるキャンペーンの最適化方法
 description: DSPでキャンペーン内のパッケージを最適化する方法を説明します。
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Advertising DSPによるキャンペーンの最適化方法
 
-ここでは、[!DNL Adobe Sensei] を利用したDSP最適化エンジンが、キャンペーン内のパッケージをどのように最適化するかについて説明します。 キャンペーンを手動で最適化する方法に関するヒントやコツについては、Adobeアカウントチームにお問い合わせください。<!-- add link to trading playbook if we add it to help -->
+ここでは、[!DNL Adobe AI] を利用したDSP最適化エンジンが、キャンペーン内のパッケージをどのように最適化するかについて説明します。 キャンペーンを手動で最適化する方法に関するヒントやテクニックについては、Adobe アカウントチームにお問い合わせください。<!-- add link to trading playbook if we add it to help -->
 
 パッケージの最適化目標は、次の 2 つのレベルで動作します。
 
-* パッケージごとに：選択した KPI に対するプレースメントの実績に基づいて、DSPによってパッケージ内の各プレースメントに予算が割り当てられます。
+* パッケージごとに：DSPは、選択した KPI に対するプレースメントの実績に基づいて、パッケージ内の各プレースメントに予算を割り当てます。
 
-* パッケージ内の各プレースメント/オークションについて：DSPはプレースメントごとに各オークションのリアルタイム経済 KPI 値を計算し、この値を使用して入札を決定します。
+* パッケージ内の各プレースメント/オークションについて：DSPはプレースメントごとに各オークションのリアルタイム経済 KPI 値を計算し、この値を使用して入札を判断します。
 
   >[!NOTE]
   >
@@ -26,13 +26,13 @@ ht-degree: 0%
 
 ## パッケージの最適化
 
-DSPでは、2 つの基本的な方法で配信を最適化できます。具体的なパフォーマンス目標に合わせて 20 のバリエーションを利用できます。 次のいずれかを選択できます。
+DSPでは、2 つの基本的な方法で配信を最適化できます。具体的なパフォーマンス目標に合わせて 20 のバリエーションを使用できます。 次のいずれかを選択できます。
 
 * パフォーマンス率の優先順位付け
 
 * コスト効率とパフォーマンス率のバランスを優先する
 
-KPI の達成に役立つ最適化目標を決定するには [&#x200B; 最適化目標とその使用方法 &#x200B;](optimization-goals.md) を参照してください。
+KPI の達成に役立つ最適化目標を決定するには [ 最適化目標とその使用方法 ](optimization-goals.md) を参照してください。
 
 ### パフォーマンス率を優先するパッケージ
 
@@ -40,7 +40,7 @@ KPI の達成に役立つ最適化目標を決定するには [&#x200B; 最適�
 
 この最適化モードは、次の場合に適しています。
 
-* 有効で許容可能な CPM レベル（過去のベンチマークなど）は既にわかっています。
+* 有効で許容可能なCPM レベル（過去のベンチマークなど）は既にわかっています。
 
 * スケーリングに問題が生じた場合は、プレースメントごとに手動で [!UICONTROL Max Bid] を調整してもかまいません。
 
@@ -58,15 +58,15 @@ KPI の達成に役立つ最適化目標を決定するには [&#x200B; 最適�
 
 ### コスト効率とパフォーマンス率のバランスを優先するパッケージ
 
-一部の最適化目標では、DSPが各オークションのパフォーマンスを予測し、プレースメントの [!UICONTROL Max Bid] を超えることなく入札価格を自動的に調整します。 該当する最適化目標の例としては、[!UICONTROL Lowest CPM]、[!UICONTROL Lowest CPA]、[!UICONTROL Lowest Cost per View]、[!UICONTROL Lowest Cost per Click] などがあります。
+一部の最適化目標では、DSPが各オークションの実績を予測し、プレースメントの [!UICONTROL Max Bid] を超えることなく入札価格を自動的に調整します。 該当する最適化目標の例としては、[!UICONTROL Lowest CPM]、[!UICONTROL Lowest CPA]、[!UICONTROL Lowest Cost per View]、[!UICONTROL Lowest Cost per Click] などがあります。
 
 #### ペーシングロジック {#pacing-logic-balanced}
 
-* 支出がペースに乗っている場合、DSPは価格に敏感になり、より低い額を入札すると、成功率がペーシングプランとトレードオフされます。
+* 支出がペースに乗っている場合、DSPは価格に敏感になり、落札額を下げるとペーシングプランとの落札率がトレードオフされます。
 
 * パフォーマンス指標のバランス（[!UICONTROL Lowest CPM] 以外のすべての目標）も取られている場合は、予測された KPI が入札の金額にブレンドされます。 したがって、「1 回あたりのコスト」ベースでよりパフォーマンスが高いと予測されるオークションに対して、より高い入札を行います。
 
-* 支出がペースに遅れている場合、DSPは価格に敏感ではなくなり、[!UICONTROL Max Bid] まで高い金額を入札して、成功率をペーシングプランとトレードオフします。
+* 支出がペースに遅れている場合、DSPは価格への感受性が低くなり、[!UICONTROL Max Bid] まで高い金額で入札し、成功率とペーシングプランをトレードオフします。
 
 #### 価格/入札の変動の決済 {#clearing-price-balanced}
 
@@ -80,12 +80,12 @@ KPI の達成に役立つ最適化目標を決定するには [&#x200B; 最適�
 >
 >使用可能な事前入札フィルターは、広告タイプによって異なります。 例えば、標準の表示配置の場合、完了率ではなく、クリックスルー率とビューアビリティでフィルタリングできます。
 
-[&#x200B; プレースメントレベルの事前入札フィルターとその使用方法 &#x200B;](optimization-pre-bid-filters.md) を参照して、KPI の達成に役立つ事前入札フィルターを決定します。
+[ プレースメントレベルの事前入札フィルターとその使用方法 ](optimization-pre-bid-filters.md) を参照して、KPI の達成に役立つ事前入札フィルターを決定します。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
->* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
->* [&#x200B; 最適化目標とその使用方法 &#x200B;](optimization-goals.md)
->* [&#x200B; プレースメントレベルの Pre-Bid フィルターとその使用方法 &#x200B;](optimization-pre-bid-filters.md)
->* [&#x200B; パフォーマンスのトラブルシューティング &#x200B;](/help/dsp/optimization/troubleshooting-performance.md)
+>* [ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ 最適化目標とその使用方法 ](optimization-goals.md)
+>* [ プレースメントレベルの Pre-Bid フィルターとその使用方法 ](optimization-pre-bid-filters.md)
+>* [ パフォーマンスのトラブルシューティング ](/help/dsp/optimization/troubleshooting-performance.md)
