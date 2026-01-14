@@ -67,7 +67,7 @@ to the DSP.
 
 レポート/カスタムレポートでカスタム Creative レポートを作成し、エクスペリエンスをまたいでエクスペリエンスレベルのパフォーマンスを監視することもできます。 DSP キャンペーン内の広告として [!DNL Creative] エクスペリエンスを使用する場合、他のDSP広告のデータと同様に、それらの広告のパフォーマンスデータは、追加のカスタムレポートで利用できます。<!-- Verify that [!DNL Creative] users have access to ALL other reports. -->
 
-オプションで、指定した [ レポートの宛先 ](/help/dsp/reports/report-destinations/report-destination-about.md) にカスタムレポートを配信できます。
+オプションで、指定した [&#x200B; レポートの宛先 &#x200B;](/help/dsp/reports/report-destinations/report-destination-about.md) にカスタムレポートを配信できます。
 
 <!--
 >* [Overview of implementing Adobe Advertising Creative](/help/creative/introduction/implementation-overview.md)
@@ -76,5 +76,5 @@ to the DSP.
 
 >[!MORELIKETHIS]
 >
->* [ クリエイティブライブラリについて ](/help/creative/creative-libraries/creative-libraries-about.md)
->* [Advertising Creativeでのエクスペリエンスについて ](/help/creative/experiences/experience-about.md)
+>* [&#x200B; クリエイティブライブラリについて &#x200B;](/help/creative/creative-libraries/creative-libraries-about.md)
+>* [Advertising Creativeでのエクスペリエンスについて &#x200B;](/help/creative/experiences/experience-about.md)
