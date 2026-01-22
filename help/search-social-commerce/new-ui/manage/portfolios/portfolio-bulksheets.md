@@ -4,9 +4,9 @@ description: バルクシートファイルを使用して複数のポートフ�
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 04b6fbaf4a8b360bc3a60bdad4871694d50f1bf9
+source-git-commit: 8b63f697278b5dc4ecbb720af44053fbc771273f
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 * フィールドの編集に関する情報を含む読み取り専用の [!UICONTROL Instructions] ワークシート。
 
-* 含まれるポートフォリオごとに 1 行の [!UICONTROL Portfolio Settings Edit] しいタブ。 必要に応じてフィールドを編集し、ファイルをローカルに保存したあと、検索、ソーシャルおよびCommerceに [&#x200B; 編集したファイルをアップロード &#x200B;](#portfolio-bulksheet-upload) することもできます。 編集可能なフィールドはカラーでハイライト表示されます。
+* 含まれるポートフォリオごとに 1 行の [!UICONTROL Portfolio Settings Edit] しいタブ。 必要に応じてフィールドを編集し、ファイルをローカルに保存したあと、検索、ソーシャルおよびCommerceに [ 編集したファイルをアップロード ](#portfolio-bulksheet-upload) することもできます。 編集可能なフィールドはカラーでハイライト表示されます。
 
 ## ポートフォリオ設定を含むバルクシート ファイルのダウンロード
 
@@ -41,17 +41,17 @@ ht-degree: 0%
 
 ファイルは XLSX 形式である必要があります。
 
-1. データテーブルの上にあるツールバーで、**[!UICONTROL Bulk Operations]**/**[!UICONTROL Import Portfolio Details]** をクリックします。 &lt;!— 「Portfolio設定の読み込み」にする必要があります。「詳細」が曖昧すぎて、何か他のものを含んでいる可能性があります。—>
+1. データテーブルの上にあるツールバーで、**[!UICONTROL Bulk Operations]**/**[!UICONTROL Import Portfolio Details]** をクリックします。
 
-1. [!UICONTROL Import Portfolio Details File] ダイアログで、次の操作を行います。<!-- reword if we change the name of the operation -->
+1. [!UICONTROL Import Portfolio Details File] ダイアログで、次の手順を実行します。
 
-   1. ボックスにファイルをドラッグ&amp;ドロップするか、**[!UICONTROL Browse File]**<!-- "Browse for file" or just "Browse"??? -->をクリックしてデバイスまたはネットワークからファイルを選択します。
+   1. ボックスにファイルをドラッグ&amp;ドロップするか、**[!UICONTROL Browse File]** をクリックしてデバイスまたはネットワークからファイルを選択します。
 
    1. 「**[!UICONTROL Import]**」をクリックします。
 
-アップロードのステータスは、日付範囲セレクターの横にある [!UICONTROL Global Sync Status] ボタン（![&#x200B; グローバル同期ステータス &#x200B;](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ")）から確認できます。<!-- icon similar to Refresh -->。 いずれかの変更が成功しなかった場合は、失敗したことを示すエラーファイルをダウンロードできます。
+アップロードのステータスは、日付範囲セレクターの横にある [!UICONTROL Global Sync Status] ボタン（![ グローバル同期ステータス ](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ")）から確認できます。 いずれかの変更が成功しなかった場合は、失敗したことを示すエラーファイルをダウンロードできます。
 
-通知も通知センターに追加され、通知ボタンの横にある ![&#x200B; 通知 &#x200B;](/help/search-social-commerce/assets/notifications-new.png " 通知 ") アイコンから [!UICONTROL Global Sync Status] 知ペインを開くことができます（![グローバル同期ステータス](/help/search-social-commerce/assets/global-sync-status.png "グローバル同期ステータス")）。
+通知も通知センターに追加され、通知ボタンの横にある ![ 通知 ](/help/search-social-commerce/assets/notifications-new.png " 通知 ") アイコンから [!UICONTROL Global Sync Status] 知ペインを開くことができます（![グローバル同期ステータス](/help/search-social-commerce/assets/global-sync-status.png "グローバル同期ステータス")）。
 
 ## アップロードしたバルクシートファイルのデータ要件
 
@@ -85,6 +85,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しい UI）ポートフォリオの編集 &#x200B;](portfolio-edit.md)
->* [&#x200B; ポートフォリオの作成 &#x200B;](portfolio-create.md)
->* ポートフォリオに関する [&#x200B; （新しい UI） &#x200B;](portfolio-about.md)
+>* [ （新しい UI）ポートフォリオの編集 ](portfolio-edit.md)
+>* [ ポートフォリオの作成 ](portfolio-create.md)
+>* ポートフォリオに関する [ （新しい UI） ](portfolio-about.md)
