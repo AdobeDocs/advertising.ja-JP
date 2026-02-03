@@ -1,11 +1,11 @@
 ---
 title: エクスペリエンスのクリエイティブの最適化とスケジュールのカスタマイズ
-description: 方法を学ぶ
+description: ターゲット設定されたエクスペリエンスの最適化と広告スケジュールを設定する方法を説明します。
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Algorithmic]:* 指定した目標に基づいて、最も効果的な広告のバリエーションをより頻繁に表示します。
 
-      * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」、「（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md)」を選択します。
+      * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」、「（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md)」を選択します。
 
    * *[!UICONTROL Sequencing]:* 関連付けられたクリエイティブバンドルを指定した順序（バンドル 1 が最初に提供され、バンドル 2 が 2 番目に提供される、など）で、各バンドルシーケンスにわたる指定した合計インプレッション数と共に表示します。 提供される広告サイズは、利用可能な在庫によって決まります。 シーケンス内の最後のバンドルを a\）に設定すると、無期限に表示されます（デフォルト）。または b\）最初のバンドルに戻ります。 例えば、3 つのインプレッションに対してバンドル 1 の広告バリアントのいずれかを表示し、1 つのインプレッションに対してバンドル 2 の広告バリアントを表示してから、2 つのインプレッションに対してバンドル 3 の広告バリアントのいずれかを表示し、ループを再開できます。 または、Bundle 3 の広告バリアントが表示されたら、ループを作成するのではなく、Bundle 3 の広告バリアントを引き続き無期限に表示できます。 シーケンスを有効にする場合：
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
       * *[!UICONTROL Algorithmic]:* 指定した最適化目標に従って、各バンドル内のクリエイティブをアルゴリズムによって回転させます。
 
-         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」、「（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md)」を選択します。
+         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」、「（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md)」を選択します。
 
       * *[!UICONTROL Sequencing]:* 関連付けられたクリエイティブバンドルを指定した順序で回転し（バンドル 1 が最初に提供され、バンドル 2 が 2 番目に提供されるなど）、各バンドルシーケンスにわたる指定した合計インプレッション数を返します。 提供される広告サイズは、利用可能な在庫によって決まります。 シーケンス内の最後のバンドルを a\）に設定すると、無期限に表示されます（デフォルト）。または b\）最初のバンドルに戻ります。 例えば、バンドル 1 の任意のクリエイティブを 3 つのインプレッションに対して表示し、バンドル 2 の任意のクリエイティブを 1 つのインプレッションに対して表示してから、バンドル 3 の任意のクリエイティブを 2 つのインプレッションに対して表示し、ループを再開できます。 または、Bundle 3 のクリエイティブが表示されたら、ループを作成するのではなく、Bundle 3 のクリエイティブを無限に表示し続けることができます。 シーケンスを有効にする場合：
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
       * *[!UICONTROL Algorithmic]:* 指定した最適化目標に従って、各バンドル内のクリエイティブをアルゴリズムによって回転させます。
 
-         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md)」を選択します。
+         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md)」を選択します。
 
       * *[!UICONTROL Sequencing]:* 関連付けられているクリエイティブバンドルを、指定した順序で、各バンドルシーケンスをまたいで指定した合計インプレッション数で回転します。 シーケンスを有効にする場合：
 
@@ -112,5 +112,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除 &#x200B;](/help/creative/experiences/experience-assign-creative-bundles.md)
->* [&#x200B; クリエイティブのトラッキング URL のカスタマイズ &#x200B;](/help/creative/experiences/experience-tracking-urls-targeting.md)
+>* [ エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除 ](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [ クリエイティブのトラッキング URL のカスタマイズ ](/help/creative/experiences/experience-tracking-urls-targeting.md)

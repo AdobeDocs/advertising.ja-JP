@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Experiences] ビューからのデータのダウンロード'
-description: 方法を学ぶ
+description: '[!UICONTROL Experiences] 表示からメタデータを書き出す方法を説明します。'
 feature: Creative Experiences
 exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
 
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
+1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
 
-1. 右上のツールバーで、「![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
+1. 右上のツールバーで、「![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
 
    ファイルは、ブラウザーのデフォルトのダウンロードフォルダーに保存されます。
 
 >[!MORELIKETHIS]
->* [Advertising Creativeでのエクスペリエンスについて &#x200B;](/help/creative/experiences/experience-about.md)
+>* [Advertising Creativeでのエクスペリエンスについて ](/help/creative/experiences/experience-about.md)

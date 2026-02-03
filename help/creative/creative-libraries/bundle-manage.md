@@ -1,11 +1,11 @@
 ---
 title: クリエイティブバンドルの管理
-description: xxxx について説明します。
+description: クリエイティブのグループを管理および使用する方法を説明します。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
 
 1. ライブラリ名をクリックします。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
 
 1. ライブラリ名をクリックします。
 
@@ -106,13 +106,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、[&#x200B; 標準広告ビューと動的広告ビューからバンドルにクリエイティブを添付 &#x200B;](creative-attach-detach-bundles.md) することもできます。
+>また、[ 標準広告ビューと動的広告ビューからバンドルにクリエイティブを添付 ](creative-attach-detach-bundles.md) することもできます。
 
 ### バンドルリストからのバンドルへのクリエイティブの添付
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
 
 1. ライブラリ名をクリックします。
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
    バンドルタイプに適格な各クリエイティブが、右側のフレームに表示されます。 既にバンドルに添付されているクリエイティブが一覧表示されますが、選択することはできません。
 
-1. （オプション） ![&#x200B; カード表示 &#x200B;](/help/creative/assets/card-view-button.png " カード表示 ") をクリックしてカード表示を開くか、![テーブル/リスト表示](/help/creative/assets/table-view-button.png "テーブル表示") をクリックしてテーブル表示に戻ることで、デフォルトのテーブル表示と使用可能なバンドルのカード表示を切り替えます。
+1. （オプション） ![ カード表示 ](/help/creative/assets/card-view-button.png " カード表示 ") をクリックしてカード表示を開くか、![テーブル/リスト表示](/help/creative/assets/table-view-button.png "テーブル表示") をクリックしてテーブル表示に戻ることで、デフォルトのテーブル表示と使用可能なバンドルのカード表示を切り替えます。
 
 1. 右側のフレームで、バンドルに添付する各クリエイティブの横にあるチェックボックスをオンにして、「**[!UICONTROL Attach Creative to Bundle]**」をクリックします。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
 
 1. ライブラリ名をクリックします。
 
@@ -156,7 +156,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
 
 1. ライブラリ名をクリックします。
 
@@ -182,7 +182,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
 
 1. ライブラリ名をクリックします。
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 
 <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
-1. （任意）クリエイティブをダウンロードするには、「![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
+1. （任意）クリエイティブをダウンロードするには、「![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -234,7 +234,7 @@ ht-degree: 0%
 
 1. （任意） [!DNL Creative] へのログインを持たない他のユーザーがクリエイティブをプレビューできるようにデモ URL を共有するには、次のようにします。
 
-   1. プレビューの右上にある「![&#x200B; 共有 &#x200B;](/help/creative/assets/share.png " 共有 ")」をクリックします。
+   1. プレビューの右上にある「![ 共有 ](/help/creative/assets/share.png " 共有 ")」をクリックします。
 
    1. [!UICONTROL Share Demo URL] ダイアログで、「**[!UICONTROL Copy]**」をクリックして URL をクリップボードにコピーし、他のユーザーと共有できるようにします。
 
@@ -272,11 +272,11 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## バンドルを削除
 
-[&#x200B; ライブ &#x200B;](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないバンドルを削除できます。 バンドルがライブエクスペリエンスに割り当てられている場合は、続行する前に、エクスペリエンスの [&#x200B; デシジョンツリーからバンドルを削除 &#x200B;](/help/creative/experiences/experience-target-node-delete.md) します。
+[ ライブ ](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないバンドルを削除できます。 バンドルがライブエクスペリエンスに割り当てられている場合は、続行する前に、エクスペリエンスの [ デシジョンツリーからバンドルを削除 ](/help/creative/experiences/experience-target-node-delete.md) します。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
 
 1. ライブラリ名をクリックします。
 
@@ -303,8 +303,8 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除 &#x200B;](/help/creative/experiences/experience-assign-creative-bundles.md)
->* [&#x200B; クリエイティブのプレビュー &#x200B;](/help/creative/creative-libraries/creative-preview.md)
->* [&#x200B; クリエイティブライブラリへの標準クリエイティブの追加 &#x200B;](/help/creative/creative-libraries/creative-add-standard.md)
->* [&#x200B; クリエイティブライブラリの管理 &#x200B;](/help/creative/creative-libraries/creative-library-manage.md)
->* [&#x200B; クリエイティブライブラリについて &#x200B;](/help/creative/creative-libraries/creative-libraries-about.md)
+>* [ エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除 ](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [ クリエイティブのプレビュー ](/help/creative/creative-libraries/creative-preview.md)
+>* [ クリエイティブライブラリへの標準クリエイティブの追加 ](/help/creative/creative-libraries/creative-add-standard.md)
+>* [ クリエイティブライブラリの管理 ](/help/creative/creative-libraries/creative-library-manage.md)
+>* [ クリエイティブライブラリについて ](/help/creative/creative-libraries/creative-libraries-about.md)
