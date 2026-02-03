@@ -20,15 +20,15 @@ ht-degree: 0%
 
 1. （オプション）次のいずれかの方法で、レポートに含めるデータを変更します。
 
-   * （列の表示と非表示を切り替えるには）列見出しの右側にある ![ 下矢印 ](/help/search-social-commerce/assets/arrow-down-expand.png " 下矢印 ") をクリックし、[**[!UICONTROL Columns]**] をハイライト表示して、含める列の横にあるチェック ボックスをオンにし、除外する列の横にあるチェック ボックスをオフにします。
+   * （列の表示と非表示を切り替えるには）列見出しの右側にある ![&#x200B; 下矢印 &#x200B;](/help/search-social-commerce/assets/arrow-down-expand.png " 下矢印 ") をクリックし、[**[!UICONTROL Columns]**] をハイライト表示して、含める列の横にあるチェック ボックスをオンにし、除外する列の横にあるチェック ボックスをオフにします。
 
      列の設定は、すべての広告主のビューに適用されます。
 
    * （列の値でデータをフィルタリングする場合）次のいずれかの操作をおこないます。
 
-      * [**[!UICONTROL Add Filter]** リンクを使用してフィルターを適用 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
+      * [**[!UICONTROL Add Filter]** リンクを使用してフィルターを適用 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
 
-      * [ 列見出しメニューからフィルターを適用する ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
+      * [&#x200B; 列見出しメニューからフィルターを適用する &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
 
    * （レポートの日付範囲を変更するには）次の手順を実行します。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
          * （特定の範囲の場合） – **[!UICONTROL Custom Date Range]** を選択してから、開始日と終了日を指定します。
 
-           MM/DD/YYYY または MM-DD-YYYY の形式で日付を入力するか、各フィールドの横にある ![ カレンダー ](/help/search-social-commerce/assets/calendar.png " カレンダー ") をクリックしてカレンダーを開き、日付を選択します。 過去 31 日間のデータのみを含めることができます。
+           MM/DD/YYYY または MM-DD-YYYY の形式で日付を入力するか、各フィールドの横にある ![&#x200B; カレンダー &#x200B;](/help/search-social-commerce/assets/calendar.png " カレンダー ") をクリックしてカレンダーを開き、日付を選択します。 過去 31 日間のデータのみを含めることができます。
 
       1. 「**[!UICONTROL Apply]**」をクリックします。
 
@@ -50,6 +50,6 @@ ht-degree: 0%
 
       レポートは、完了すると [!UICONTROL Download] メニューに表示されます。
 
-   1. （ファイルでレポート データを開いたり保存したりするには）ファイル名の横の [![ レポートを XLS でダウンロード ](/help/search-social-commerce/assets/download-spreadsheet2.png " レポートを XLS でダウンロード ")] をクリックし、ブラウザの通常の手順に従ってファイルを開いたり保存したりします。
+   1. （ファイルでレポート データを開いたり保存したりするには）ファイル名の横の [![&#x200B; レポートを XLS でダウンロード &#x200B;](/help/search-social-commerce/assets/download-spreadsheet2.png " レポートを XLS でダウンロード ")] をクリックし、ブラウザの通常の手順に従ってファイルを開いたり保存したりします。
 
       詳細については、ブラウザのオンライン ヘルプを参照してください。
