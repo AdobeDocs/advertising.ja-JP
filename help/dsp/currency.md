@@ -16,7 +16,7 @@ Adobe Advertisingは、次の通貨をサポートしています。
 
 >[!NOTE]
 >
->Adobe Analyticsは [&#x200B; より大きな通貨のセット &#x200B;](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) をサポートしています。
+>Adobe Analyticsは [&#x200B; より大きな通貨のセット &#x200B;](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=ja) をサポートしています。
 
 ## DSPとCreative
 
