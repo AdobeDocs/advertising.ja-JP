@@ -3,7 +3,7 @@ title: パッケージ設定
 description: 使用可能なパッケージ設定の説明を参照してください。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 26c9c553dbd4086aa114b97dabdf4d9be10cdebe
+source-git-commit: 86d77d23fbec15b1f80f3f9c41e66aab34a46079
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >請求可能な料金は、[!UICONTROL Net CPM] の指標に反映されます。
 
-[&#x200B; プレースメントレベル &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) でパッケージレベルの設定を上書きできます。
+[ プレースメントレベル ](/help/dsp/campaign-management/placements/placement-settings.md) でパッケージレベルの設定を上書きできます。
 
 ## [!UICONTROL Goals & Budget]
 
@@ -53,12 +53,11 @@ ht-degree: 0%
 
 **[!UICONTROL Gross Budget]:** （パッケージレベルのペーシングと動的マージン管理のみを使用するパッケージ）パッケージの期間に対する総予算上限値。
 
-**[!UICONTROL Optimization Goal]:** （パッケージレベルのペーシングを使用したパッケージのみ） パッケージの最適化目標。 [&#x200B; 最適化目標とその使用方法 &#x200B;](/help/dsp/optimization/optimization-goals.md) で、各最適化目標の説明を参照してください。
-
+**[!UICONTROL Optimization Goal]:** （パッケージレベルのペーシングを使用したパッケージのみ） パッケージの最適化目標。 [ 最適化目標とその使用方法 ](/help/dsp/optimization/optimization-goals.md) で、各最適化目標の説明を参照してください。
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** （パッケージレベルのペーシングを使用し、「[!UICONTROL Always Max Bid & Maximize Reach]」および「[!UICONTROL Lowest Cost per Reach]」の最適化目標を設定したパッケージのみ）キャンペーンでプログラムで保証されたすべてのプレースメントの世帯リーチデータを使用して、増分リーチを最適化します。
 
-**[!UICONTROL Custom Goal for Model Learning]:** （「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標を持つパッケージのみ） [&#x200B; カスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md) CPA または ROAS 指標の計算に使用される収益またはコンバージョンイベントを含む）。 カスタム目標には、パッケージ最適化の CPA または ROAS 指標に加えて、使用する追加の重み付けされた上位ファネルイベント（ページ訪問数や買い物かごへの追加など）を含める必要があります。 カスタム目標とそれを使用するキャンペーンを作成する際のベストプラクティスなど、カスタム目標の詳細については、「[&#x200B; カスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md)」および「[&#x200B; パフォーマンスキャンペーンの設定のベストプラクティス &#x200B;](/help/dsp/optimization/campaign-best-practices-performance.md)」を参照してください <!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]:** （「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標を持つパッケージのみ） [ カスタム目標 ](/help/dsp/optimization/custom-goal.md) CPA または ROAS 指標の計算に使用される収益またはコンバージョンイベントを含む）。 カスタム目標には、パッケージ最適化のための CPA または ROAS 指標に加えて、重み付けされた上位funnelイベント（ページ訪問数や買い物かごへの追加など）を含める必要があります。 カスタム目標とそれを使用するキャンペーンを作成する際のベストプラクティスなど、カスタム目標の詳細については、「[ カスタム目標 ](/help/dsp/optimization/custom-goal.md)」および「[ パフォーマンスキャンペーンの設定のベストプラクティス ](/help/dsp/optimization/campaign-best-practices-performance.md)」を参照してください <!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** （オプション。「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標を持つパッケージのみ）クリックベースのコンバージョンからのみ学習するように最適化モデルに指示します。 そうでない場合、最適化モデルは、クリックベースおよびインプレッションベースのコンバージョンの両方から学習します。
 
@@ -116,7 +115,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Flighting]
 
-（パッケージレベルのペーシングを使用したパッケージ） パッケージのフライト期間（パッケージの全体 [!UICONTROL Flight Dates] 内のカスタムフライト期間を含む）。 カスタム フライトを設定できるのは、[!UICONTROL Goals & Budget] のセクションで [!UICONTROL Activate Custom Flighting] オプションが有効になっている場合だけです。
+（パッケージレベルのペーシングを使用したパッケージ） パッケージのフライト期間（パッケージの全体 [!UICONTROL Flight Dates] 内のカスタムフライト期間を含む）。 カスタム フライトを設定できるのは、[!UICONTROL Activate Custom Flighting] のセクションで [!UICONTROL Goals & Budget] オプションが有効になっている場合だけです。
 
 **[!UICONTROL Automatically rollover remaining flight budget to next flight]:** （「[!UICONTROL Activate Custom Flighting]」オプションが有効な場合のみ使用可能）前のフライトの残りの予算を、次のフライトの既存の予算に自動的に追加します。
 
@@ -128,9 +127,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; パッケージ管理について &#x200B;](package-about.md)
->* [&#x200B; パッケージの作成 &#x200B;](package-create.md)
->* [&#x200B; パッケージの編集 &#x200B;](package-edit.md)
->* [&#x200B; パッケージへのプレースメントの添付 &#x200B;](package-attach-placement.md)
->* [&#x200B; パッケージの変更ログを表示する &#x200B;](package-change-log.md)
->* [Campaign Managementに関する FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [ パッケージ管理について ](package-about.md)
+>* [ パッケージの作成 ](package-create.md)
+>* [ パッケージの編集 ](package-edit.md)
+>* [ パッケージへのプレースメントの添付 ](package-attach-placement.md)
+>* [ パッケージの変更ログを表示する ](package-change-log.md)
+>* [Campaign 管理に関する FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
