@@ -24,8 +24,8 @@ ht-degree: 3%
       + [クロスデバイスソリューション](/help/dsp/introduction/features/cross-device-solutions.md)
    + [口座資金](/help/dsp/introduction/billing/account-funding.md)
    + [サポートされる通貨](/help/dsp/currency.md)
-   + [&#x200B; 消費者プライバシーの支援 &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
-   + [&#x200B; 施策及び指針 &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [&#x200B; 消費者プライバシーの支援 &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
+   + [&#x200B; 施策及び指針 &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
    + [高度な計測ソリューション](/help/dsp/introduction/advanced-measurement-services.md)
 + キャンペーン管理 {#campaign-management}
    + [Campaign 管理構造の概要](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -76,7 +76,7 @@ ht-degree: 3%
       + [スプレッドシートを使用した広告の詳細のレビュー](/help/dsp/campaign-management/ads/ad-qa.md)
       + [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
       + [広告の複製](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [&#x200B; プレースメントからの広告の添付と削除 &#x200B;](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
+      + [&#x200B; プレースメントからの広告の添付と削除 &#x200B;](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=ja)
       + [広告に関連付けられたプレースメントのリスト](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [広告の詳細レポートの表示](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [広告の一時停止またはアクティブ化](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -232,9 +232,9 @@ ht-degree: 3%
    + 通知 {#notifications}
       + [アラート配信登録について](/help/dsp/admin/alerts-about.md)
       + [アラート配信登録の管理](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloudとの統合 &#x200B;](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
++ [Adobe Experience Cloudとの統合 &#x200B;](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ja)
 + [ヘルプを表示](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)
 
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
