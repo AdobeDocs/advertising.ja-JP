@@ -4,9 +4,9 @@ description: AI 支援オーディエンスエージェントを使用して、A
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: c632774e68069ab03f41fb9453a27c6fe63c8168
+source-git-commit: 86053178969de362dda0c135ff8c85b9ec9f674e
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,11 @@ AI 支援オーディエンスエージェントを使用して、明言され�
 
 1. オーディエンスを作成します。
 
-   ベータ版の権限を持つユーザーの場合は、「AI」オプションがデフォルトです。 [&#x200B; オーディエンスを自分で組み立てる &#x200B;](/help/dsp/audiences/reusable-audience-create.md) には、下部の「手動モードに切り替え」ボタンをクリックします。
+   ベータ版の権限を持つユーザーの場合は、「AI」オプションがデフォルトです。 [ オーディエンスを自分で組み立てる ](/help/dsp/audiences/reusable-audience-create.md) には、下部の「手動モードに切り替え」ボタンをクリックします。
 
-   1. 1 つ以上のプロンプトを入力して、含めるおよび除外するオーディエンス特性を説明します。 各プロンプトを送信するには、「![&#x200B; プロンプトの送信 &#x200B;](/help/dsp/assets/submit-prompt.png " プロンプトの送信 ") をクリックします。
+   1. 1 つ以上のプロンプトを入力して、含めるおよび除外するオーディエンス特性を説明します。 各プロンプトを送信するには、「![ プロンプトの送信 ](/help/dsp/assets/submit-prompt.png " プロンプトの送信 ") をクリックします。
 
-      詳しくは、「[&#x200B; プロンプトの作成 &#x200B;](#writing-prompts)」および「[&#x200B; オーディエンスブリーフを作成するためのベストプラクティス &#x200B;](#audience-brief-best-practices)」を参照してください。
+      詳しくは、「[ プロンプトの作成 ](#writing-prompts)」および「[ オーディエンスブリーフを作成するためのベストプラクティス ](#audience-brief-best-practices)」を参照してください。
 
       AI エージェントは、関連するセグメントを見つけると、条件に基づいてオーディエンス式を作成します。 また、オーディエンスを組み合わせるための一致するセグメントを探す前に、承認を求められます。
 
@@ -63,13 +63,15 @@ AI 支援オーディエンスエージェントを使用して、明言され�
 
    >[!NOTE]
    >
-   >後で AI エージェントを使用してオーディエンスを編集することはできません。 代わりに [&#x200B; オーディエンス式を手動で編集 &#x200B;](/help/dsp/audiences/reusable-audience-edit.md) します。
+   >後で AI エージェントを使用してオーディエンスを編集することはできません。 代わりに [ オーディエンス式を手動で編集 ](/help/dsp/audiences/reusable-audience-edit.md) します。
 
 ## プロンプトの作成 {#writing-prompts}
 
 ### プロンプトには何を含めるべきですか？
 
 * ターゲットオーディエンスを説明するには、明確でわかりやすい言語を使用します。
+
+  一般的に、プロンプトでは大文字と小文字が区別されず、明確にすることを除いて句読点は必要ありません。
 
 * 具体的に指定し、含めるすべてのオーディエンス特性と、除外する特性の詳細を指定します。 提供する詳細情報が多いほど、ニーズを満たす結果が得られる可能性が高くなります。
 
@@ -81,7 +83,7 @@ AI 支援オーディエンスエージェントを使用して、明言され�
 
   オーディエンスエージェントは、生成されたオーディエンス式をオーディエンスとして自動的に保存しません。 オーディエンスを保存するには、プロンプト領域の外側にある「[!UICONTROL Create]」ボタンをクリックする必要があります。これにより、保存したくない変更を元に戻すことができます。
 
-オーディエンスのプロンプトを最適化する方法について詳しくは [&#128279;](#audience-brief-best-practices) オーディエンス概要の作成に関するベストプラクティス」を参照してください。
+オーディエンスのプロンプトを最適化する方法について詳しくは [](#audience-brief-best-practices) オーディエンス概要の作成に関するベストプラクティス」を参照してください。
 
 <!-- I think these are happening later:
 
@@ -187,10 +189,10 @@ Would you like to:
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 再利用可能なオーディエンスを複製 &#x200B;](/help/dsp/audiences/reusable-audience-duplicate.md)
->* [&#x200B; 再利用可能なオーディエンスの編集 &#x200B;](/help/dsp/audiences/reusable-audience-edit.md)
->* [&#x200B; 再利用可能なオーディエンスに関する詳細の表示 &#x200B;](/help/dsp/audiences/reusable-audience-view-details.md)
->* [&#x200B; 再利用可能なオーディエンスの共有 &#x200B;](/help/dsp/audiences/reusable-audience-share.md)
->* [&#x200B; 再利用可能なオーディエンスの書き出し &#x200B;](/help/dsp/audiences/reusable-audience-export.md)
->* [&#x200B; 再利用可能なオーディエンスのセグメントキーをクリップボードにコピー &#x200B;](/help/dsp/audiences/reusable-audience-clipboard.md)
->* [&#x200B; 再利用可能なオーディエンスを削除 &#x200B;](/help/dsp/audiences/reusable-audience-delete.md)
+>* [ 再利用可能なオーディエンスを複製 ](/help/dsp/audiences/reusable-audience-duplicate.md)
+>* [ 再利用可能なオーディエンスの編集 ](/help/dsp/audiences/reusable-audience-edit.md)
+>* [ 再利用可能なオーディエンスに関する詳細の表示 ](/help/dsp/audiences/reusable-audience-view-details.md)
+>* [ 再利用可能なオーディエンスの共有 ](/help/dsp/audiences/reusable-audience-share.md)
+>* [ 再利用可能なオーディエンスの書き出し ](/help/dsp/audiences/reusable-audience-export.md)
+>* [ 再利用可能なオーディエンスのセグメントキーをクリップボードにコピー ](/help/dsp/audiences/reusable-audience-clipboard.md)
+>* [ 再利用可能なオーディエンスを削除 ](/help/dsp/audiences/reusable-audience-delete.md)
