@@ -30,11 +30,11 @@ ht-degree: 0%
 
 * 異なるサイズの既定のクリエイティブを追加するには、[**[!UICONTROL + Add Sizes]**] をクリックし、追加する各クリエイティブの横にあるチェック ボックスを右側のウィンドウから選択して、[**[!UICONTROL Add Creatives]**] をクリックします。
 
-* デフォルトのクリエイティブを削除するには、クリエイティブサムネールの上にカーソルを置き、![ 削除 ](/help/creative/assets/delete.png " 削除 ") をクリックします。
+* デフォルトのクリエイティブを削除するには、クリエイティブサムネールの上にカーソルを置き、![&#x200B; 削除 &#x200B;](/help/creative/assets/delete.png " 削除 ") をクリックします。
 
-* デフォルトのクリエイティブをすべて削除するには、「![ 削除 ](/help/creative/assets/delete.png " 削除 ")」をクリッ **[!UICONTROL Delete all]** します。
+* デフォルトのクリエイティブをすべて削除するには、「![&#x200B; 削除 &#x200B;](/help/creative/assets/delete.png " 削除 ")」をクリッ **[!UICONTROL Delete all]** します。
 
-* 右側のクリエイティブパネルを表示または非表示にするには、右側のパネルの右上にある ![ 表示/非表示 ](/help/creative/assets/hide-show-creatives.png " 表示/非表示 ") をクリックします。
+* 右側のクリエイティブパネルを表示または非表示にするには、右側のパネルの右上にある ![&#x200B; 表示/非表示 &#x200B;](/help/creative/assets/hide-show-creatives.png " 表示/非表示 ") をクリックします。
 
 ## [!UICONTROL Targeting] セクション
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 **[!UICONTROL Label]:**<!-- should be "Labels" --> （任意）エクスペリエンスに適用する [!DNL Creative] 固有のラベル。 エクスペリエンス表示でラベル別にエクスペリエンスをフィルタリングし、エクスペリ [!UICONTROL Experience Label] ンスに [!UICONTROL Custom Creative Report] ディメンションを含めることができます。
 
-* 既存のラベルを選択するには、[![ 下 ](/help/creative/assets/chevron-down.png " 下 ")] をクリックし、適用する各ラベルの横にあるチェック ボックスをオンにします。
+* 既存のラベルを選択するには、[![&#x200B; 下 &#x200B;](/help/creative/assets/chevron-down.png " 下 ")] をクリックし、適用する各ラベルの横にあるチェック ボックスをオンにします。
 
 * 既存のラベルを検索するには、ラベル名の中にテキスト文字列を入力します。
 
@@ -64,9 +64,9 @@ ht-degree: 0%
 
 * ラベルを削除するには、ラベル名の横にあるチェックボックスの選択を解除します。
 
-**[!UICONTROL Impression Tracking URL]:** （任意）エクスペリエンスから作成された広告のランディングページ URL に追加するサードパーティのインプレッショントラッキング URL。 最大 5 つの URL を含めることができます。 追加の URL を追加するには、![ アイコン ](/help/creative/assets/create.png) **[!UICONTROL Add More] をクリックして URL を入力します。
+**[!UICONTROL Impression Tracking URL]:** （任意）エクスペリエンスから作成された広告のランディングページ URL に追加するサードパーティのインプレッショントラッキング URL。 最大 5 つの URL を含めることができます。 追加の URL を追加するには、![&#x200B; アイコン &#x200B;](/help/creative/assets/create.png) **[!UICONTROL Add More] をクリックして URL を入力します。
 
-URL を入力すると、すべての [ 使用可能なマクロ ](/help/creative/creative-macros.md) とそれらを置き換えるデータが、ページの下部に表示されます。 URL 内にマクロの 1 つを挿入するには、マクロの説明の上にカーソルを置き、![ クリップボードにコピー ](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー ") をクリックし、必要な場所にマクロを URL フィールドに貼り付けます。
+URL を入力すると、すべての [&#x200B; 使用可能なマクロ &#x200B;](/help/creative/creative-macros.md) とそれらを置き換えるデータが、ページの下部に表示されます。 URL 内にマクロの 1 つを挿入するには、マクロの説明の上にカーソルを置き、![&#x200B; クリップボードにコピー &#x200B;](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー ") をクリックし、必要な場所にマクロを URL フィールドに貼り付けます。
 
 >[!NOTE]
 >
@@ -74,9 +74,9 @@ URL を入力すると、すべての [ 使用可能なマクロ ](/help/creativ
 >* エクスペリエンス内の任意のクリエイティブに対してこの URL を上書きできます。
 >* また、「[!UICONTROL Client JS]」フィールドには、サードパーティのJavaScript インプレッショントラッキングコードを入力することもできます
 
-**[!UICONTROL Click Tracking URL]:** （任意）（任意）ランディングページ URL に追加するサードパーティのクリックトラッキング URL。 最大 5 つの URL を含めることができます。 追加の URL を追加するには、![ アイコン ](/help/creative/assets/create.png) **[!UICONTROL Add More]** をクリックして URL を入力します。
+**[!UICONTROL Click Tracking URL]:** （任意）（任意）ランディングページ URL に追加するサードパーティのクリックトラッキング URL。 最大 5 つの URL を含めることができます。 追加の URL を追加するには、![&#x200B; アイコン &#x200B;](/help/creative/assets/create.png) **[!UICONTROL Add More]** をクリックして URL を入力します。
 
-URL を入力すると、すべての [ 使用可能なマクロ ](/help/creative/creative-macros.md) とそれらを置き換えるデータが、ページの下部に表示されます。 URL 内にマクロの 1 つを挿入するには、マクロの説明の上にカーソルを置き、![ クリップボードにコピー ](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー ") をクリックし、必要な場所にマクロを URL フィールドに貼り付けます。
+URL を入力すると、すべての [&#x200B; 使用可能なマクロ &#x200B;](/help/creative/creative-macros.md) とそれらを置き換えるデータが、ページの下部に表示されます。 URL 内にマクロの 1 つを挿入するには、マクロの説明の上にカーソルを置き、![&#x200B; クリップボードにコピー &#x200B;](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー ") をクリックし、必要な場所にマクロを URL フィールドに貼り付けます。
 
 >[!NOTE]
 >
@@ -91,10 +91,10 @@ URL を入力すると、すべての [ 使用可能なマクロ ](/help/creativ
 
 >[!MORELIKETHIS]
 >
->* [ デシジョンツリーのターゲット設定を使用しないエクスペリエンスの作成 ](experience-create-no-targeting.md)
->* [ デシジョンツリーのターゲット設定を使用しないエクスペリエンスの編集 ](experience-edit-no-targeting.md)
->* [URL をトラッキングするために使用可能なマクロ ](/help/creative/creative-macros.md)
->* [ 該当するクリエイティブサイズの広告タグを手動で作成 ](experience-tag-create-manually.md)
->* [ ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て ](experience-tag-assign-creatives.md)
->* [ ターゲット設定を行わないエクスペリエンス用のトラッキング URL のカスタマイズ ](experience-tracking-urls-no-targeting.md)
->* [ ターゲティングを行わないエクスペリエンスのクリエイティブな最適化とスケジュールのカスタマイズ ](experience-optimization-scheduling-no-targeting.md)
+>* [&#x200B; デシジョンツリーのターゲット設定を使用しないエクスペリエンスの作成 &#x200B;](experience-create-no-targeting.md)
+>* [&#x200B; デシジョンツリーのターゲット設定を使用しないエクスペリエンスの編集 &#x200B;](experience-edit-no-targeting.md)
+>* [URL をトラッキングするために使用可能なマクロ &#x200B;](/help/creative/creative-macros.md)
+>* [&#x200B; 該当するクリエイティブサイズの広告タグを手動で作成 &#x200B;](experience-tag-create-manually.md)
+>* [&#x200B; ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て &#x200B;](experience-tag-assign-creatives.md)
+>* [&#x200B; ターゲット設定を行わないエクスペリエンス用のトラッキング URL のカスタマイズ &#x200B;](experience-tracking-urls-no-targeting.md)
+>* [&#x200B; ターゲティングを行わないエクスペリエンスのクリエイティブな最適化とスケジュールのカスタマイズ &#x200B;](experience-optimization-scheduling-no-targeting.md)

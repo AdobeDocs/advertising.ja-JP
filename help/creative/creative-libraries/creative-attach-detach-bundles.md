@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
-標準表示バンドルへの標準表示クリエイティブ、標準ビデオバンドルへの標準ビデオクリエイティブ、動的表示バンドルへの動的表示クリエイティブ、動的ビデオバンドルへの動的ビデオクリエイティブを添付して、[ 広告エクスペリエンス ](/help/creative/experiences/experience-about.md) に追加できます。 各バンドルには、各\[ クリエイティブサイズまたはデュレーション +言語\] の組み合わせをそれぞれ 1 つだけ含めることができます。
+標準表示バンドルへの標準表示クリエイティブ、標準ビデオバンドルへの標準ビデオクリエイティブ、動的表示バンドルへの動的表示クリエイティブ、動的ビデオバンドルへの動的ビデオクリエイティブを添付して、[&#x200B; 広告エクスペリエンス &#x200B;](/help/creative/experiences/experience-about.md) に追加できます。 各バンドルには、各\[ クリエイティブサイズまたはデュレーション +言語\] の組み合わせをそれぞれ 1 つだけ含めることができます。
 
 <!--
 You can also detach a creative from a bundle to remove the association between the two, so that the creative is no longer used for experiences that target the bundle. Detaching a creative from the bundle doesn't delete the creative from the Creatives tab in your creative library.
@@ -22,7 +22,7 @@ You can also detach a creative from a bundle to remove the association between t
 
 >[!NOTE]
 >
-><!-- also --> のことができます。 [ クリエイティブをバンドルに添付し、バンドル ビューからクリエイティブをバンドルに分離します ](/help/creative/creative-libraries/bundle-manage.md)。
+><!-- also --> のことができます。 [&#x200B; クリエイティブをバンドルに添付し、バンドル ビューからクリエイティブをバンドルに分離します &#x200B;](/help/creative/creative-libraries/bundle-manage.md)。
 
 <!-- Hide header until second procedure is available (if we add that):
 
@@ -32,7 +32,7 @@ You can also detach a creative from a bundle to remove the association between t
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
-1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
 
 1. ライブラリ名をクリックします。
 
@@ -44,7 +44,7 @@ You can also detach a creative from a bundle to remove the association between t
 
    クリエイティブタイプに適格な各バンドルが右側のフレームに表示されます。 クリエイティブが既に添付されているバンドルが一覧表示されますが、選択することはできません。
 
-1. （オプション） ![ カード表示 ](/help/creative/assets/card-view-button.png " カード表示 ") をクリックしてカード表示を開くか、![テーブル/リスト表示](/help/creative/assets/table-view-button.png "テーブル表示") をクリックしてテーブル表示に戻ることで、デフォルトのテーブル表示と使用可能なバンドルのカード表示を切り替えます。
+1. （オプション） ![&#x200B; カード表示 &#x200B;](/help/creative/assets/card-view-button.png " カード表示 ") をクリックしてカード表示を開くか、![テーブル/リスト表示](/help/creative/assets/table-view-button.png "テーブル表示") をクリックしてテーブル表示に戻ることで、デフォルトのテーブル表示と使用可能なバンドルのカード表示を切り替えます。
 
 1. 右側のフレームで、クリエイティブを添付する各バンドルの横にあるチェックボックスをオンにして、「**[!UICONTROL Attach Creative to Bundle]**」をクリックします。
 
@@ -98,5 +98,5 @@ You can also detach a creative from a bundle to remove the association between t
 
 >[!MORELIKETHIS]
 >
->* [ クリエイティブバンドルの管理 ](/help/creative/creative-libraries/bundle-manage.md)
->* [ クリエイティブライブラリへの標準クリエイティブの追加 ](creative-add-standard.md)
+>* [&#x200B; クリエイティブバンドルの管理 &#x200B;](/help/creative/creative-libraries/bundle-manage.md)
+>* [&#x200B; クリエイティブライブラリへの標準クリエイティブの追加 &#x200B;](creative-add-standard.md)
