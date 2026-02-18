@@ -3,9 +3,9 @@ title: 使用可能なレポート列
 description: カスタムレポートで使用可能な列の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 9eb020f9cb243dc4cf38adbc5af7f723439797d2
+source-git-commit: bd85b4451624e14c95157c84537fdfb53662773f
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2724'
 ht-degree: 0%
 
 ---
@@ -219,6 +219,25 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Total Ad Clicks] | 広告のすべてのクリックの合計。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Viewed Minutes] | ビデオ広告が表示された合計時間（分）。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Views] | ビデオ広告ビューの合計数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completion Rate] | （カスタムCreativeレポート）広告全体を視聴したビューの割合。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completions] | （カスタムCreativeレポート）広告全体を視聴したビューの数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completion Rate] | （カスタムCreativeレポート）広告の 4 分の 1 以上を視聴したビューの割合。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completions] | （カスタム Creative レポート）広告の少なくとも 1 四分の一を視聴したビューの数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completion Rate] | （カスタムCreativeレポート）広告の 4 分の 2 以上を視聴したビューの割合。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completions] | （カスタムCreativeレポート）広告の 4 分の 2 以上を視聴したビューの数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completion Rate] | （カスタムCreativeレポート）広告が 3 四分の 1 以上視聴されたビューの割合。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completions] | （カスタムCreativeレポート）広告が 3 四分の 1 以上視聴されたビューの数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Avg Percent Viewed] | （カスタムCreativeレポート）すべてのビューを対象とした、広告の最後まで視聴された平均の割合。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Play Rate] | （カスタム Creative レポート）ビデオビューにつながったインプレッション数の割合。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Playtime per View] | （カスタム Creative レポート）ビデオビューの平均時間（秒単位）。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Mute] | （カスタム Creative レポート）ビデオがミュートされた合計回数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Pause] | （カスタム Creative レポート）ビデオが一時停止された合計回数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Resume] | （カスタム Creative レポート）ビデオが一時停止の後に再開された合計回数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Rewind] | （カスタム Creative レポート） ビデオが巻き戻された合計回数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Start] | （カスタム Creative レポート） ビデオが開始された合計回数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Unmute] | （カスタム Creative レポート）ビデオがミュート解除された合計回数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Viewed Minutes] | （カスタム Creative レポート）ビデオ広告が表示された合計分数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Views] | （カスタム Creative レポート）ビデオ広告ビューの合計数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Avg. Player Width x Height] | プレーヤーの平均の幅と高さ。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Impressions] | ビューアビリティの測定が可能な、提供されたインプレッションの合計数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | ビューアビリティの測定が可能な、提供されたインプレッションの割合（<code>[!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions] と計算）</code>。 |
@@ -231,7 +250,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | 測定可能なすべてのインプレッションの中で表示可能なインプレッションの割合（<code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions] として計算）</code>。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | ビューアブルと見なされる広告インプレッションの数。 |
 | [!UICONTROL Conversion Metrics] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のコンバージョン ] | 指定した広告主固有のコンバージョン指標またはAdobe Analytics イベントの合計。 |
-| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のカスタム目標 ] | 指定した [&#x200B; カスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md) に含まれるすべてのコンバージョンの重み付き合計。 |
+| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のカスタム目標 ] | 指定した [ カスタム目標 ](/help/dsp/optimization/custom-goal.md) に含まれるすべてのコンバージョンの重み付き合計。 |
 
 {style="table-layout:auto"}
 
@@ -239,8 +258,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
->* [&#x200B; カスタムレポートの作成 &#x200B;](/help/dsp/reports/report-create.md)
->* [&#x200B; カスタムレポートの複製 &#x200B;](/help/dsp/reports/report-copy.md)
->* [&#x200B; カスタムレポートの編集 &#x200B;](/help/dsp/reports/report-edit.md)
->* [&#x200B; カスタムレポートの設定 &#x200B;](/help/dsp/reports/report-settings.md)
+>* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
+>* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートの複製 ](/help/dsp/reports/report-copy.md)
+>* [ カスタムレポートの編集 ](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)

@@ -2,20 +2,21 @@
 title: クリエイティブライブラリへのダイナミッククリエイティブの追加
 description: クリエイティブライブラリにダイナミッククリエイティブを追加する方法を説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
+source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
 
 # クリエイティブライブラリへのダイナミッククリエイティブの追加
 
-動的な [ad エクスペリエンス &#x200B;](creative-library-manage.md) で使用するには、動的なクリエイティブを [&#x200B; クリエイティブライブラリ &#x200B;](/help/creative/experiences/experience-about.md) に追加します。 1 つの広告テンプレートから 1 つの静的HTML5 広告または動的HTML5 広告を作成できます。 動的HTML5 広告の場合は、フィードファイルから作成された指定のカタログのアセットを使用します。
+動的な [ad エクスペリエンス ](creative-library-manage.md) で使用するには、動的なクリエイティブを [ クリエイティブライブラリ ](/help/creative/experiences/experience-about.md) に追加します。 1 つの広告テンプレートから 1 つの静的HTML5 広告または動的HTML5 広告を作成できます。 動的HTML5 広告の場合は、フィードファイルから作成された指定のカタログのアセットを使用します。
 
 >[!PREREQUISITES]
 >
->ダイナミッククリエイティブをクリエイティブライブラリに追加する前に、広告テンプレートの作成、アセットのアップロード、（dynamic HTML5 広告）フィードテンプレートとカタログの作成など、他の手順を実行する必要があります。 [&#x200B; 動的広告のワークフロー &#x200B;](/help/creative/introduction/workflow-dynamic-ads.md) を参照してください。
+>ダイナミッククリエイティブをクリエイティブライブラリに追加する前に、広告テンプレートの作成、アセットのアップロード、（dynamic HTML5 広告）フィードテンプレートとカタログの作成など、他の手順を実行する必要があります。 [ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md) を参照してください。
 
 <!-- This does't work for me 9/24 -- I still have to select a catalog:
 
@@ -57,11 +58,13 @@ ht-degree: 0%
 
       1. 広告テンプレート行の上にカーソルを置き、**[!UICONTROL Create Dynamic Ad]** をクリックします。
 
-1. [&#x200B; 動的広告設定 &#x200B;](/help/creative/creative-libraries/creative-settings-dynamic.md) を指定します。
+1. [ 動的広告設定 ](/help/creative/creative-libraries/creative-settings-dynamic.md) を指定します。
 
-   1. 広告の基本詳細を指定します。
+   1. クリエイティブタイプを含む基本広告の詳細を指定します。
 
    1. クリエイティブに使用する広告テンプレートを選択します。
+
+      ディスプレイ広告にはHTML5 広告テンプレートを、ビデオ広告にはビデオ広告テンプレートを使用します。
 
    1. 広告を作成するカタログを選択します。
 
@@ -75,7 +78,7 @@ ht-degree: 0%
 
       * プレビューエリアの下の検索フィールドで、一意の ID で製品を検索するには、次のようにします。
 
-      * 表示される列を変更するには、プレビュー領域の下にある ![&#x200B; 列フィルター &#x200B;](/help/creative/assets/custom-columns.png " 列フィルター ") をクリックします。
+      * 表示される列を変更するには、プレビュー領域の下にある ![ 列フィルター ](/help/creative/assets/custom-columns.png " 列フィルター ") をクリックします。
 
       * 特定のクリエイティブをプレビューするには、行のチェックボックスをオンにします。
 
@@ -93,7 +96,7 @@ ht-degree: 0%
 
 1. クリエイティブを保存します。
 
-   * 広告を保存してライブラリの [&#x200B; クリエイティブバンドル &#x200B;](/help/creative/creative-libraries/bundle-manage.md) に追加するには：
+   * 広告を保存してライブラリの [ クリエイティブバンドル ](/help/creative/creative-libraries/bundle-manage.md) に追加するには：
 
       1. 「**[!UICONTROL Save and Attach to Bundle]**」をクリックします。
 
@@ -105,6 +108,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 動的クリエイティブ設定 &#x200B;](creative-settings-dynamic.md)
->* [&#x200B; クリエイティブライブラリでの動的クリエイティブの編集 &#x200B;](creative-edit-dynamic.md)
->* [&#x200B; 動的広告のワークフロー &#x200B;](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [ 動的クリエイティブ設定 ](creative-settings-dynamic.md)
+>* [ クリエイティブライブラリでの動的クリエイティブの編集 ](creative-edit-dynamic.md)
+>* [ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md)
