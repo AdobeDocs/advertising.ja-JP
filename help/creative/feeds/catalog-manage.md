@@ -14,19 +14,19 @@ ht-degree: 0%
 
 処理済みのフィードカタログは、指定したフィードファイルと指定したフィードテンプレートから作成された、潜在的な広告バリエーションのセットです。 動的HTML5 広告およびビデオ広告（静的HTML5 広告ではない）では、動的広告を作成するためにカタログが必要です。
 
-広告のバリエーションを作成し [ クリエイティブライブラリに動的広告を追加 ](/help/creative/creative-libraries/creative-add-dynamic.md) する前に、カタログを処理します。 後でフィードファイルを更新し、カタログを再処理して、新しい広告バリエーションのセットを作成できます。<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
+広告のバリエーションを作成し [&#x200B; クリエイティブライブラリに動的広告を追加 &#x200B;](/help/creative/creative-libraries/creative-add-dynamic.md) する前に、カタログを処理します。 後でフィードファイルを更新し、カタログを再処理して、新しい広告バリエーションのセットを作成できます。<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
 
 各フィードファイルは、ビデオアセットで最大 500 行を処理できます。
 
 >[!TIP]
 >
->ダイナミックビデオを使用するすべてのアカウントの場合、ベストプラクティスは [ ユニバーサルフィードテンプレートの [!UICONTROL Adobe Creative Template]](feed-template-manage.md) をダウンロードし、アセットファイルの各フィールドをAdvertising Creative バックエンドのフィールドにマッピングしてから、フィードテンプレートの名前を変更してアップロードすることです。 新しいフィードテンプレートとアセットファイルを使用して、カタログを作成します。
+>ダイナミックビデオを使用するすべてのアカウントの場合、ベストプラクティスは [&#x200B; ユニバーサルフィードテンプレートの [!UICONTROL Adobe Creative Template]](feed-template-manage.md) をダウンロードし、アセットファイルの各フィールドをAdvertising Creative バックエンドのフィールドにマッピングしてから、フィードテンプレートの名前を変更してアップロードすることです。 新しいフィードテンプレートとアセットファイルを使用して、カタログを作成します。
 
 ## カタログの作成 {#feed-catalog-create}
 
 >[!NOTE]
 >
->[ クリエイティブライブラリにダイナミッククリエイティブを追加 ](/help/creative/creative-libraries/creative-add-dynamic.md) する際に、カタログを直接アップロードすることもできます。 ここで作成したカタログは、後で使用するために [!UICONTROL Catalogs] ビュー内で使用できます。
+>[&#x200B; クリエイティブライブラリにダイナミッククリエイティブを追加 &#x200B;](/help/creative/creative-libraries/creative-add-dynamic.md) する際に、カタログを直接アップロードすることもできます。 ここで作成したカタログは、後で使用するために [!UICONTROL Catalogs] ビュー内で使用できます。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Feeds]** をクリックします。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 右上で、**[!UICONTROL Create]**/**[!UICONTROL Template]** をクリックします。
 
-1. 必要に応じて [ カタログ設定 ](#catalog-settings) を指定します。
+1. 必要に応じて [&#x200B; カタログ設定 &#x200B;](#catalog-settings) を指定します。
 
 1. 「**[!UICONTROL Next]**」をクリックします。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 1. カーソルをテンプレートの行の上に置き、**[!UICONTROL Edit]** をクリックします。
 
-1. 必要に応じて [ カタログ設定 ](#catalog-settings) を編集します。
+1. 必要に応じて [&#x200B; カタログ設定 &#x200B;](#catalog-settings) を編集します。
 
 1. カタログに対して作成できる潜在的な広告バリエーションを確認します。
 
@@ -112,9 +112,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ カタログ処理ジョブのステータスのトラッキング ](/help/creative/feeds/job-status-track.md)
->* [ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md)
->* [ アセットファイルの管理 ](/help/creative/feeds/asset-manage.md)
->* [ フィードテンプレートの管理 ](/help/creative/feeds/feed-template-manage.md)
->* [ 動的広告テンプレートの管理 ](/help/creative/ad-templates/ad-template-manage.md)
->* [ クリエイティブライブラリへのダイナミッククリエイティブの追加 ](/help/creative/creative-libraries/creative-add-dynamic.md)
+>* [&#x200B; カタログ処理ジョブのステータスのトラッキング &#x200B;](/help/creative/feeds/job-status-track.md)
+>* [&#x200B; 動的広告のワークフロー &#x200B;](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [&#x200B; アセットファイルの管理 &#x200B;](/help/creative/feeds/asset-manage.md)
+>* [&#x200B; フィードテンプレートの管理 &#x200B;](/help/creative/feeds/feed-template-manage.md)
+>* [&#x200B; 動的広告テンプレートの管理 &#x200B;](/help/creative/ad-templates/ad-template-manage.md)
+>* [&#x200B; クリエイティブライブラリへのダイナミッククリエイティブの追加 &#x200B;](/help/creative/creative-libraries/creative-add-dynamic.md)
