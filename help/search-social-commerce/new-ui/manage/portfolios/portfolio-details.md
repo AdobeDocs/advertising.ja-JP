@@ -3,9 +3,10 @@ title: （新しい UI） ポートフォリオ パフォーマンスの詳細�
 description: ポートフォリオレベルおよび割り当てられた各キャンペーンでの実際の指標と予測された指標を含め、ポートフォリオパフォーマンスの詳細を表示する方法を説明します。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
+source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 * アクティブなポートフォリオのターゲット支出と実際の支出の比較。 オプションで、ポートフォリオのキャンペーン予算合計を含めることもできます。
 
-* 広告ネットワークによるアクティブなポートフォリオのコスト、クリックまたは [&#x200B; 目標値 &#x200B;](/help/search-social-commerce/glossary.md#o-p) 予測の精度。<!-- Verify -->
+* 広告ネットワークによるアクティブなポートフォリオのコスト、クリックまたは [ 目標値 ](/help/search-social-commerce/glossary.md#o-p) 予測の精度。<!-- Verify -->
 
 * ポートフォリオ設定。
 
@@ -54,13 +55,13 @@ ht-degree: 0%
 
       * **[!UICONTROL Display predictions]** の横にあるスイッチを動かして、予測された指標値の表示/非表示を切り替えます。
 
-      * グラフ表示（![&#x200B; グラフ表示 &#x200B;](/help/search-social-commerce/assets/chart-view.png " グラフ表示 ")）とテーブル表示（![テーブル表示](/help/search-social-commerce/assets/table-view.png "テーブル表示")）を切り替えます。
+      * グラフ表示（![ グラフ表示 ](/help/search-social-commerce/assets/chart-view.png " グラフ表示 ")）とテーブル表示（![テーブル表示](/help/search-social-commerce/assets/table-view.png "テーブル表示")）を切り替えます。
 
       * （グラフ表示）グラフ上の任意のポイントのデータを表示するには、そのポイントにカーソルを置きます。
 
 * （オプション） [!UICONTROL Model accuracy] のトレンドグラフをカスタマイズするには、次のいずれかの操作を行います。
 
-   * グラフ表示（![&#x200B; グラフ表示 &#x200B;](/help/search-social-commerce/assets/chart-view.png " グラフ表示 ")）とテーブル表示（![テーブル表示](/help/search-social-commerce/assets/table-view.png "テーブル表示")）を切り替えます。
+   * グラフ表示（![ グラフ表示 ](/help/search-social-commerce/assets/chart-view.png " グラフ表示 ")）とテーブル表示（![テーブル表示](/help/search-social-commerce/assets/table-view.png "テーブル表示")）を切り替えます。
 
    * *[!UICONTROL Click Date]* と *[!UICONTROL Transaction Date]* でデータ表示を切り替えます。
 
@@ -82,6 +83,8 @@ ht-degree: 0%
 
    * グラフ上の任意のポイントのデータを表示するには、そのポイントの上にカーソルを置きます。
 
+1. 「**[!UICONTROL Download report]**」をクリックします。
+
 ## ポートフォリオ内のキャンペーンのリスト
 
 * 「**[!UICONTROL Campaigns]**」タブをクリックします。
@@ -100,12 +103,20 @@ ht-degree: 0%
 
 * ポートフォリオ設定を表示または非表示にするには、[**[!UICONTROL Portfolio Settings]**] をクリックします。
 
-   * 表示可能なポートフォリオ設定を編集するには、「設定」セクションの横にある ![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ") をクリックし、[&#x200B; ポートフォリオ設定を編集 &#x200B;](portfolio-edit.md) をクリックします。
+   * 表示可能なポートフォリオ設定を編集するには、「設定」セクションの横にある ![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ") をクリックし、[ ポートフォリオ設定を編集 ](portfolio-edit.md) をクリックします。
 
 ポートフォリオ設定について詳しくは、最適化ガイドを参照してください。このガイドは、検索、ソーシャル、Commerce内から利用できます。
 
+## ポートフォリオ コンポーネントのポートフォリオ パフォーマンス レポートおよびリストをダウンロードします
+
+1. ツールバーの「**[!UICONTROL Download report]**」をクリックします。
+
+1. 組み込む各パフォーマンスレポートとポートフォリオコンポーネントタイプの横にあるチェックボックスをオンにします。
+
+   一部のパフォーマンスレポートでは、データを買い物かごとしてダウンロードするか、テーブルとしてダウンロードするかを選択できます。
+
 >[!MORELIKETHIS]
 >
->* ポートフォリオに関する [&#x200B; （新しい UI） &#x200B;](portfolio-about.md)
->* [&#x200B; （新しい UI）ポートフォリオの編集 &#x200B;](portfolio-edit.md)
->* [&#x200B; （新しい UI） [!UICONTROL Portfolios] ビューでのデータのダウンロード &#x200B;](portfolio-view-report.md)
+>* ポートフォリオに関する [ （新しい UI） ](portfolio-about.md)
+>* [ （新しい UI）ポートフォリオの編集 ](portfolio-edit.md)
+>* [ （新しい UI） [!UICONTROL Portfolios] ビューでのデータのダウンロード ](portfolio-view-report.md)
