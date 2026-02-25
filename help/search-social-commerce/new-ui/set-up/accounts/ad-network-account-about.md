@@ -37,12 +37,12 @@ ht-degree: 0%
 
 検索、ソーシャル、Commerceでコンバージョンをクリック数に関連付けるには、アカウントレコードにトラッキングオプションを設定し、アカウントレコードを有効にします。 その後、バルクシートを使用して広告とキーワードのトラッキング URL を生成し、[!DNL Naver] の広告マネージャー内にトラッキング URL を手動で追加できます。
 
-検索、ソーシャル、Commerceで新しい [!DNL Naver] アカウントを設定することはできません。 [!DNL Naver] のトラッキング専用キャンペーンの詳細については、「[ トラッキング専用アカウントの実装  [!DNL Naver]  を参照 ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md) てください。
+検索、ソーシャル、Commerceで新しい [!DNL Naver] アカウントを設定することはできません。 [!DNL Naver] のトラッキング専用キャンペーンの詳細については、「[&#x200B; トラッキング専用アカウントの実装  [!DNL Naver]  を参照 &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md) てください。
 
 >[!MORELIKETHIS]
 >
->* [API 接続を使用した広告ネットワークアカウントの管理 ](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
->* [ データのアップロード用の広告ネットワークアカウントの管理 ](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
->* [ トラッキング専用の管理  [!DNL Naver]  アカウント ](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
->* [ 実装  [!DNL Naver]  トラッキング専用アカウント ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
->* [ マーチャントセンターアカウントの管理 ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
+>* [API 接続を使用した広告ネットワークアカウントの管理 &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
+>* [&#x200B; データのアップロード用の広告ネットワークアカウントの管理 &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
+>* [&#x200B; トラッキング専用の管理  [!DNL Naver]  アカウント &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+>* [&#x200B; 実装  [!DNL Naver]  トラッキング専用アカウント &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [&#x200B; マーチャントセンターアカウントの管理 &#x200B;](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)

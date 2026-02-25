@@ -13,9 +13,9 @@ ht-degree: 0%
 
 *Beta機能*
 
-以下は、広告ネットワークから直接購入した広告のパフォーマンスを追跡、レポート、視覚化する [[!DNL Naver]  アカウント ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md) の管理の手順です。 検索、ソーシャル、Commerceでは、データを広告ネットワークと同期したり、自動入札を行ったり、あらゆる種類の最適化やシミュレーションを行ったりしません。
+以下は、広告ネットワークから直接購入した広告のパフォーマンスを追跡、レポート、視覚化する [[!DNL Naver]  アカウント &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md) の管理の手順です。 検索、ソーシャル、Commerceでは、データを広告ネットワークと同期したり、自動入札を行ったり、あらゆる種類の最適化やシミュレーションを行ったりしません。
 
-使用可能な機能について詳しくは、「[ サポート対象インベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+使用可能な機能について詳しくは、「[&#x200B; サポート対象インベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 ## 広告ネットワークアカウントの詳細を作成 {#create-account}
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 1. 広告ネットワークの名前をクリックし、[**[!UICONTROL Next]**] をクリックします。
 
-1. [ アカウント設定 ](#account-settings-naver) を指定します。
+1. [&#x200B; アカウント設定 &#x200B;](#account-settings-naver) を指定します。
 
    1. 「**[!UICONTROL Enter Account Details]**」タブで、一般的なアカウント設定を指定します。
 
-   1. （[[!DNL Adobe Analytics for Advertising]  統合 ](/help/integrations/analytics/overview.md)）を使用する広告主 **[!UICONTROL Set up Adobe Analytics]** タブをクリックし、キャンペーンアクティビティのトラッキングとレポートに使用するすべての [!DNL Analytics] レポートスイートを選択します。
+   1. （[[!DNL Adobe Analytics for Advertising]  統合 &#x200B;](/help/integrations/analytics/overview.md)）を使用する広告主 **[!UICONTROL Set up Adobe Analytics]** タブをクリックし、キャンペーンアクティビティのトラッキングとレポートに使用するすべての [!DNL Analytics] レポートスイートを選択します。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -55,11 +55,11 @@ ht-degree: 0%
 
    * アカウント名の上にカーソルを置き、[**...**] をクリックし、[**[!UICONTROL Edit]**] をクリックします。
 
-1. [ アカウント設定 ](#account-settings-api) の編集：
+1. [&#x200B; アカウント設定 &#x200B;](#account-settings-api) の編集：
 
    1. （オプション）「**[!UICONTROL Account Details]**」タブで、アカウントの詳細を編集します。
 
-   1. （任意。[[!DNL Adobe Analytics for Advertising]  統合 ](/help/integrations/analytics/overview.md)）を使用する広告主。「**[!UICONTROL Set up Adobe Analytics]**」タブをクリックし、キャンペーンアクティビティのトラッキングとレポートに使用する [!DNL Analytics] レポートスイートを編集します。
+   1. （任意。[[!DNL Adobe Analytics for Advertising]  統合 &#x200B;](/help/integrations/analytics/overview.md)）を使用する広告主。「**[!UICONTROL Set up Adobe Analytics]**」タブをクリックし、キャンペーンアクティビティのトラッキングとレポートに使用する [!DNL Analytics] レポートスイートを編集します。
 
    <!-- What are the repercussions of changing the suites? Timing of updated data? -->
 
@@ -123,5 +123,5 @@ When you enable an ad network account, Search, Social, & Commerce synchronizes c
 
 >[!MORELIKETHIS]
 >
->* [ 実装  [!DNL Naver]  トラッキング専用アカウント ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
->* [ 広告ネットワークアカウントについて ](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
+>* [&#x200B; 実装  [!DNL Naver]  トラッキング専用アカウント &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [&#x200B; 広告ネットワークアカウントについて &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)

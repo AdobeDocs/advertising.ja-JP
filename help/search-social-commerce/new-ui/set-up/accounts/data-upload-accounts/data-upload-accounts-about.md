@@ -12,7 +12,7 @@ ht-degree: 0%
 
 <!-- Move all related files into one page? -->
 
-検索、ソーシャル、Commerceでは API のサポートを提供していないオンライン広告ネットワークを使用している場合は、キャンペーンコンテンツやオフラインコスト、クリック、コンバージョンデータをアップロードし、レポートやパフォーマンスのシミュレーションに使用するアカウントを作成できます。 [[!DNL Adobe Analytics for Advertising]  統合 ](/help/integrations/analytics/overview.md) を持つ広告主は、Adobe Analytics内で自分のアカウントのデータを表示することもできます。
+検索、ソーシャル、Commerceでは API のサポートを提供していないオンライン広告ネットワークを使用している場合は、キャンペーンコンテンツやオフラインコスト、クリック、コンバージョンデータをアップロードし、レポートやパフォーマンスのシミュレーションに使用するアカウントを作成できます。 [[!DNL Adobe Analytics for Advertising]  統合 &#x200B;](/help/integrations/analytics/overview.md) を持つ広告主は、Adobe Analytics内で自分のアカウントのデータを表示することもできます。
 
 この機能は、標準の 3 層キャンペーン構造（キャンペーン、広告グループまたは広告セット、入札単位（広告またはキーワード））に従う広告ネットワークで使用できます。 Adobe DSPの場合、この機能は、パッケージに割り当てられたパッケージとプレースメントに対して使用できますが、プレースメントレベルのペーシングを使用したキャンペーンやプレースメントに対しては使用できません。
 
@@ -43,13 +43,13 @@ ht-degree: 0%
 
 <!-- subtitle wording? -->
 
-1. [ ダミーのアカウントレコードを設定 ](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md) します。
+1. [&#x200B; ダミーのアカウントレコードを設定 &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md) します。
 
 1. 単一のアカウントのデータファイルを作成します。これには <!--  in what file format? --> キャンペーン、広告グループ、広告の日レベルでのステータスが含まれます。
 
 データは広告ネットワークのデータ要件に従う必要があるので、各エンティティのデータフィールドは広告ネットワークによって異なる場合があります。
 
-1. <!-- For all ad networks (excluding DSP), -->次のいずれかの方法で、単一のアカウントの初期データをアップロードします。
+1. &#x200B;<!-- For all ad networks (excluding DSP), -->次のいずれかの方法で、単一のアカウントの初期データをアップロードします。
 
 * デバイスまたはネットワークから手動でファイルをアップロードします。
 
@@ -64,14 +64,14 @@ ht-degree: 0%
 
 1. 30 日間データをアップロードしたら、オプションでキャンペーンをに追加し、ポートフォリオを作成して <!--what type? how should we refer to them? --> シミュレーションを生成できます。
 
-[ 各データアップロードのログを表示 ](upload-log.md) して、そのステータスを確認できます。 また、アップロードを開始しても、アップロードが完全に成功しない場合は、通知設定に基づいて、[ 通知センター ](/help/search-social-commerce/notifications/notification-about.md) を介してエラー通知が届きます。
+[&#x200B; 各データアップロードのログを表示 &#x200B;](upload-log.md) して、そのステータスを確認できます。 また、アップロードを開始しても、アップロードが完全に成功しない場合は、通知設定に基づいて、[&#x200B; 通知センター &#x200B;](/help/search-social-commerce/notifications/notification-about.md) を介してエラー通知が届きます。
 
 <!-- Data validation, and any troubleshooting? -->
 
 >[!MORELIKETHIS]
 >
->* [ レポートおよびシミュレーション用のアカウントデータのアップロードについて ](data-upload-accounts-about.md)
->* [ アカウントデータの  [!DNL Amazon] [!DNL S3] バケットへのアップロード ](upload-data-from-s3-bucket.md)
->* [ アカウントデータを手動でアップロード ](upload-data-manually.md)
->* [ アップロードされたアカウントデータファイルのログを表示 ](upload-log.md)
->* [ データのアップロード用の広告ネットワークアカウントの管理 ](/help/search-social-commerce/campaign-management/accounts/data-upload-account-manage.md)
+>* [&#x200B; レポートおよびシミュレーション用のアカウントデータのアップロードについて &#x200B;](data-upload-accounts-about.md)
+>* [&#x200B; アカウントデータの  [!DNL Amazon] [!DNL S3] バケットへのアップロード &#x200B;](upload-data-from-s3-bucket.md)
+>* [&#x200B; アカウントデータを手動でアップロード &#x200B;](upload-data-manually.md)
+>* [&#x200B; アップロードされたアカウントデータファイルのログを表示 &#x200B;](upload-log.md)
+>* [&#x200B; データのアップロード用の広告ネットワークアカウントの管理 &#x200B;](/help/search-social-commerce/campaign-management/accounts/data-upload-account-manage.md)

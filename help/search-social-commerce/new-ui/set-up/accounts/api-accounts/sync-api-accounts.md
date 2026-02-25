@@ -15,7 +15,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]、[!DNL Microsoft Advertising] （旧称 [!DNL Bing Ads]）、[!DNL Yahoo! Japan Ads]、[!DNL Yandex] および既存の [!DNL Baidu] アカウントのみ*
 
-同期とは、検索、ソーシャル、Commerceが、[ サポートされている広告ネットワーク ](/help/search-social-commerce/introduction/supported-inventory.md) 上で接続されている各広告主の広告ネットワークアカウントに関する更新情報を収集するプロセスです。 このデータには、広告主のキャンペーン構造とキャンペーンエンティティが含まれ、検索、ソーシャル、Commerceで管理またはレポートされる属性のほとんどが含まれます。 クリックデータや、検索、ソーシャル、Commerceの外部で入力された入札および入札修飾子は含まれません。これらは個別に収集されます。
+同期とは、検索、ソーシャル、Commerceが、[&#x200B; サポートされている広告ネットワーク &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md) 上で接続されている各広告主の広告ネットワークアカウントに関する更新情報を収集するプロセスです。 このデータには、広告主のキャンペーン構造とキャンペーンエンティティが含まれ、検索、ソーシャル、Commerceで管理またはレポートされる属性のほとんどが含まれます。 クリックデータや、検索、ソーシャル、Commerceの外部で入力された入札および入札修飾子は含まれません。これらは個別に収集されます。
 
 検索、ソーシャル、Commerceは、1 日に 1 回、および広告ネットワークの 1 つに新しいキャンペーンが検出されるたびに、広告ネットワークアカウントと自動的に同期（同期）します。 さらに、検索、ソーシャル、Commerce内で作成されたキャンペーンデータに対するすべての変更を、即座に広告ネットワークに送信します。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[ バルクシートを作成 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) する際はいつでも、バルクシートを作成する前に広告ネットワークと同期できます。
+>[&#x200B; バルクシートを作成 &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) する際はいつでも、バルクシートを作成する前に広告ネットワークと同期できます。
 
 ## 広告ネットワークアカウントでキャンペーンを同期
 
@@ -44,4 +44,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ バルクシートファイルのダウンロード/作成 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+>* [&#x200B; バルクシートファイルのダウンロード/作成 &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
