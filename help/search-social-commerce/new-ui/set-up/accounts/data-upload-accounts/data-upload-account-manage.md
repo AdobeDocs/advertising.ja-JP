@@ -2,9 +2,10 @@
 title: データのアップロード用に広告ネットワークアカウントを設定
 description: 広告ネットワークアカウントのアカウント詳細を設定および管理する方法について説明します。
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
+source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -15,11 +16,11 @@ ht-degree: 0%
 
 以下は、アカウントデータをアップロードする広告ネットワークアカウントのアカウント詳細の管理手順です。
 
-各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+各広告ネットワークで使用できる機能について詳しくは、「[ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 >[!NOTE]
 >
->広告ネットワークの API を使用して検索、ソーシャル、Commerceが同期する広告ネットワークアカウントのアカウント詳細を管理する手順については、代わりに「[API 接続を使用した広告ネットワークアカウントの管理 &#x200B;](../api-accounts/api-account-manage.md)」を参照してください。
+>広告ネットワークの API を使用して検索、ソーシャル、Commerceが同期する広告ネットワークアカウントのアカウント詳細を管理する手順については、代わりに「[API 接続を使用した広告ネットワークアカウントの管理 ](../api-accounts/api-account-manage.md)」を参照してください。
 
 ## アカウントの詳細を作成 {#create-account}
 
@@ -27,11 +28,11 @@ ht-degree: 0%
 
 1. 広告ネットワークの名前をクリックし、[**[!UICONTROL Next]**] をクリックします。
 
-1. [&#x200B; アカウント設定 &#x200B;](#account-settings) を指定します。
+1. [ アカウント設定 ](#account-settings) を指定します。
 
    1. 「**[!UICONTROL Account Details]**」タブで、アカウントの詳細を編集します。
 
-   1. （[[!DNL Adobe Analytics for Advertising] 統合 ] （/help/integrations/analytics/overview.md）を使用する広告主）「**[!UICONTROL Set up Adobe Analytics]**」タブをクリックし、キャンペーンアクティビティのトラッキングとレポートに使用する [!DNL Analytics] レポートスイートを編集します。
+   1. （[[!DNL Adobe Analytics for Advertising]  統合 ](/help/integrations/analytics/overview.md)）を使用する広告主 **[!UICONTROL Set up Adobe Analytics]** タブをクリックし、キャンペーンアクティビティのトラッキングとレポートに使用する [!DNL Analytics] レポートスイートを編集します。
 
    1. （オプション）「**[!UICONTROL Upload File]**」タブで、アカウントのデータファイルをアップロードします。
 
@@ -47,11 +48,11 @@ ht-degree: 0%
 
    * アカウント名の上にカーソルを置き、[**...**] をクリックし、[**[!UICONTROL Edit]**] をクリックします。
 
-1. [&#x200B; アカウント設定 &#x200B;](#account-settings-upload) の編集：
+1. [ アカウント設定 ](#account-settings-upload) の編集：
 
    1. （オプション）「**[!UICONTROL Account Details]**」タブで、アカウントの詳細を編集します。
 
-   1. （任意。[[!DNL Adobe Analytics for Advertising]  統合 &#x200B;](/help/integrations/analytics/overview.md)）を使用する広告主。「**[!UICONTROL Set up Adobe Analytics]**」タブをクリックし、キャンペーンアクティビティのトラッキングとレポートに使用する [!DNL Analytics] レポートスイートを編集します。
+   1. （任意。[[!DNL Adobe Analytics for Advertising]  統合 ](/help/integrations/analytics/overview.md)）を使用する広告主。「**[!UICONTROL Set up Adobe Analytics]**」タブをクリックし、キャンペーンアクティビティのトラッキングとレポートに使用する [!DNL Analytics] レポートスイートを編集します。
 
    1. （オプション）「**[!UICONTROL Upload File]**」タブで、アカウントのデータファイルをアップロードします。
 
