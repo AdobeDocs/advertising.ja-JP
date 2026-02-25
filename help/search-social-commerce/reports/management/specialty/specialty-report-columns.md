@@ -44,7 +44,7 @@ ht-degree: 0%
 | [!UICONTROL All Revenue Per Conversion] | （[!UICONTROL MSA Ad Extension] レポート）コンバージョンあたりの売上高。 |
 | [!UICONTROL Asset] | （[!UICONTROL RSA Asset Report]）アセット。 |
 | [!UICONTROL Asset ID] | （[!UICONTROL RSA Asset Report]）既存のアセットを識別する一意の ID。 |
-| [!UICONTROL Asset Performance Label] | （[!UICONTROL RSA Asset Report]）資産の [[!DNL Google Ads]  業績評価 ](https://support.google.com/google-ads/answer/9564897)。 |
+| [!UICONTROL Asset Performance Label] | （[!UICONTROL RSA Asset Report]）資産の [[!DNL Google Ads]  業績評価 &#x200B;](https://support.google.com/google-ads/answer/9564897)。 |
 | [!UICONTROL Asset Status] | （[!UICONTROL RSA Asset Report]）アセットのステータス：*[!UICONTROL Enabled]* または *[!UICONTROL Enabled]* （削除済み）。 |
 | [!UICONTROL Asset Type] | （[!UICONTROL RSA Asset Report]）資産タイプ：*[!UICONTROL Creative Title]* または *[!UICONTROL Description]*。 |
 | [!UICONTROL Assists] | （[!UICONTROL MSA Ad Extension] 報告書）ある企業が他の企業と関連するコンバージョンに貢献した回数。 |
@@ -103,7 +103,7 @@ ht-degree: 0%
 | [!UICONTROL EF Portfolio Group ID] | ポートフォリオが属しているポートフォリオグループの数値 ID。 |
 | [!UICONTROL EF Search Engine ID] | 検索、ソーシャル、およびCommerceによって広告ネットワークに割り当てられる数値 ID。<i>[!UICONTROL 3]</i> の場合は [!DNL Google Ads]、<i>[!UICONTROL 10]</i> の場合は [!DNL Microsoft Advertising]、<i>[!UICONTROL 45]</i> の場合は [!DNL Meta]、<i>[!UICONTROL 86]</i>[!DNL Yahoo! Display Network] の場合は <i>[!UICONTROL 87]</i>、[!DNL Naver] の場合は <i>[!UICONTROL 88]</i>、[!DNL Baidu] の場合は <i>[!UICONTROL 90]</i> [!DNL Yandex]、<i>[!UICONTROL 94]</i> の場合は [!DNL Yahoo! Japan Ads]、<i>[!UICONTROL 105]</i> の場合は [!DNL Yahoo Native]、<i>[!UICONTROL 106]</i> の場合は [!DNL Pinterest] （非推奨）です。 |
 | [!UICONTROL End Date] | 最後に報告された日。 |
-| [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension] レポート） [ 拡張機能の表示名 ](https://help.ads.microsoft.com/#apex/ads/en/51001)。 |
+| [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension] レポート） [&#x200B; 拡張機能の表示名 &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/51001)。 |
 | [!UICONTROL Extension Type ID] | （[!UICONTROL MSA Ad Extension] レポート）広告拡張機能タイプの ID。 |
 | [!UICONTROL Final URLs] | （[!UICONTROL Google Asset Group Performance Report]）すべてのクロスドメインリダイレクト後の最終 URL のリスト。 URL は、キャンペーンに対して URL 拡張が有効になっている場合に拡張できます。 |
 | [!UICONTROL Final Mobile URLs] | （[!UICONTROL Google Asset Group Performance Report]）すべてのクロスドメインリダイレクト後のモバイルデバイス用の最終的な URL のリスト。 URL は、キャンペーンに対して URL 拡張が有効になっている場合に拡張できます。 |
@@ -147,7 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Name] | ポートフォリオ。 |
 | [!UICONTROL Portfolio Spend Strategy] | （Portfolio レポート）ポートフォリオの支出戦略：*[!UICONTROL Daily]*、*[!UICONTROL Weekly]*、*[!UICONTROL Monthly]*、*[!UICONTROL ROI]*、*[!UICONTROL Day of week]*、*[!UICONTROL Day of month]*、*[!UICONTROL CPT]*、*[!UICONTROL Marginal CPT]*、*[!UICONTROL Google Target CPA]* または *[!UICONTROL Google Target ROAS]*。 |
 | [!UICONTROL Portfolio Status] | ポートフォリオの状態：<ul><li>*[!UICONTROL Optimize]*：最適化機能では、関連するキャンペーンのクリック数および売上高データを収集し、最適化に使用されるデータをモデリングして、最適化のタイプと入札戦略に応じて、入札、キャンペーン予算およびキャンペーン入札戦略ターゲットを最適化します。</li><li>*[!UICONTROL Active]*：最適化機能は、関連するキャンペーンのクリック数と売上高のデータを収集しており、データをモデリングしていますが、入札やキャンペーン予算を最適化していません。</li><li>*[!UICONTROL Inactive]*：最適化機能は、レポート目的で関連するキャンペーンのクリックデータを収集していますが、データのモデリングや、入札またはキャンペーン予算の最適化は行っていません。</li></ul> |
-| [!UICONTROL Primary Status] | （[!UICONTROL Google Asset Group Performance Report]）アセット グループがフルキャパシティで機能している、または機能していない理由。 アセットグループのステータスに加え、ポリシーや品質の承認などの他のシグナルも考慮されます。 値には、*ELIGIBLE、**LIMITED、**NOT_ELIGIBLE、**PAUSED、**PENDING、**REMOVED、**UNKNOWN、**UNSPECIFIED* などがあります。 |
+| [!UICONTROL Primary Status] | （[!UICONTROL Google Asset Group Performance Report]）アセット グループがフルキャパシティで機能している、または機能していない理由。 アセットグループのステータスに加え、ポリシーや品質の承認などの他のシグナルも考慮されます。 値には、*ELIGIBLE、**LIMITED、**&#x200B;NOT_ELIGIBLE、**PAUSED、**&#x200B;PENDING、**REMOVED、**&#x200B;UNKNOWN、**UNSPECIFIED* などがあります。 |
 | [!UICONTROL Primary Status Reason] | （[!UICONTROL Google Asset Group Performance Report]）アセット グループのプライマリ状態に関する追加の詳細。 値には、*ASSET_GROUP_DISAPPROVED、* *ASSET_GROUP_LIMITED、* *ASSET_GROUP_PAUSED、* *ASSET_GROUP_REMOVED、* *ASSET_GROUP_UNDER_REVIEW、* *CAMPAIGN_ENDED、* *CAMPAIGN_PAUSED、* *CAMPAIGN_PENDING、* *CAMPAIGN_REMOVED、* *UNKNOWN、* **、または UNSPECIFIED.UNSPECIFIED。 |
 | [!UICONTROL Product ID] | （[!UICONTROL AdWords Shopping Performance Report]）広告とともに表示される製品の製品 ID。 <b> メモ：</b> ID は、製品リストにトラッキングパラメーター `ev_plx=<GMC product ID>` が含まれている場合にのみ取得され、[!DNL Google Merchant Center] 内で追加する必要があります。 |
 | [!UICONTROL Product Type] （[!UICONTROL 1st level] - [!UICONTROL 5th level]） | （[!UICONTROL AdWords Shopping Performance Report]）第 1 レベルから第 5 レベルの製品タイプ（製品グループの自己定義属性）。 |
@@ -198,6 +198,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 専門レポートについて ](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
->* [ 専門レポートの生成 ](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [ 専門レポートの設定 ](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [&#x200B; 専門レポートについて &#x200B;](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
+>* [&#x200B; 専門レポートの生成 &#x200B;](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
+>* [&#x200B; 専門レポートの設定 &#x200B;](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)

@@ -17,15 +17,15 @@ ht-degree: 0%
 
 ## パフォーマンスグラフの表示
 
-1. データ テーブルの上にある ![ グラフ ](/help/search-social-commerce/assets/charts.png " グラフ ") をクリックします。
+1. データ テーブルの上にある ![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ") をクリックします。
 
 1. （オプション）グラフに含める通貨と指標を最大 3 つ指定します。
 
 ## 表示されているパフォーマンス グラフを非表示にする
 
-* データ テーブルの上にある ![ グラフ ](/help/search-social-commerce/assets/charts.png " グラフ ") をクリックします。
+* データ テーブルの上にある ![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ") をクリックします。
 
 >[!MORELIKETHIS]
 >
 >* [[!UICONTROL Campaigns view]](campaign-view-about.md) について
->* [[!UICONTROL Campaigns] 表示からのデータのダウンロード ](campaign-view-report.md)
+>* [[!UICONTROL Campaigns] 表示からのデータのダウンロード &#x200B;](campaign-view-report.md)
