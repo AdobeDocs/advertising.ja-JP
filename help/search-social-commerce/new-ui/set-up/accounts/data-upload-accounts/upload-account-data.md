@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. 「**[!UICONTROL Save]**」をクリックします。
 
-# [!DNL Amazon] [!DNL S3] バケットへのアカウントデータのアップロード {#data-upload-s3}
+&#x200B;# [!DNL Amazon] [!DNL S3] バケットへのアカウントデータのアップロード {#data-upload-s3}
 
 アカウントにキャンペーンコンテンツとコスト、クリック数およびコンバージョンデータを入力するには、データを、[!DNL Amazon Web Services] （AWS） [!DNL Simple Storage Service] （[!DNL S3]）バケットの検索、ソーシャルおよびCommerceに割り当てられたフォルダーにアップロードします。
 
@@ -143,7 +143,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 1. アカウント名の上にカーソルを置き、[**...**] をクリックし、[**[!UICONTROL Upload Logs]**] をクリックします。
 
-1. （任意）アップロードしたファイルのデータをダウンロードするには、![ 列の ](/help/search-social-commerce/assets/download.png " ダウンロード ") ダウンロード [!UICONTROL Download] をクリックし、ブラウザーの通常の手順に従ってファイルをダウンロードします。
+1. （任意）アップロードしたファイルのデータをダウンロードするには、![&#x200B; 列の &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ") ダウンロード [!UICONTROL Download] をクリックし、ブラウザーの通常の手順に従ってファイルをダウンロードします。
 
 ## 必要なデータ
 
