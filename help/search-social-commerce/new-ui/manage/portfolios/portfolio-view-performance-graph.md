@@ -2,7 +2,7 @@
 title: （新しい UI） [!UICONTROL Portfolios] ビューでのパフォーマンスグラフの表示
 description: '[!UICONTROL Portfolios] ビューでパフォーマンスグラフを開いて設定する方法を説明します。'
 feature: Search Campaign Management
-source-git-commit: f20f9d5608b830927d9184f9b96f0ad5a724b04d
+source-git-commit: 3bbbc95581a6691b2ac637254424f0cdc7203659
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 ## パフォーマンスグラフの表示
 
-1. データ テーブルの上にある ![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ") をクリックします。
+1. データ テーブルの上にある ![ グラフ ](/help/search-social-commerce/assets/charts.png " グラフ ") をクリックします。
 
 1. （オプション）グラフに含める通貨と指標を最大 3 つ指定します。
 
 ## 表示されているパフォーマンス グラフを非表示にする
 
-* データ テーブルの上にある ![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ") をクリックします。
+* データ テーブルの上にある ![ グラフ ](/help/search-social-commerce/assets/charts.png " グラフ ") をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [[!UICONTROL Portfolios view]](portfolio-view-about.md) について
->* [[!UICONTROL Portfolios] 表示からのデータのダウンロード &#x200B;](portfolio-view-report.md)
+>* [[!UICONTROL Portfolios view]](portfolio-about.md) について
+>* [[!UICONTROL Portfolios] 表示からのデータのダウンロード ](portfolio-view-report.md)

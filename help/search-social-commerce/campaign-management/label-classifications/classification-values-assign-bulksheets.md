@@ -3,7 +3,7 @@ title: バルクシートを使用したアカウントコンポーネントへ�
 description: バルクシートを使用して、分類値をアカウントコンポーネントに割り当てる方法を説明します。
 exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->一部の広告ネットワークおよびキャンペーンタイプのキーワードと広告コピーは [&#x200B; 不変 &#x200B;](/help/search-social-commerce/campaign-management/faqs-campaigns.md) です。つまり、それらを編集すると、既存のエンティティが削除され、新しいエンティティが作成されます。 この方法で既存の図形を削除すると、ラベル分類は新しい図形に割り当てられません。
+>一部の広告ネットワークおよびキャンペーンタイプのキーワードと広告コピーは [ 不変 ](/help/search-social-commerce/campaign-management/faqs-campaigns.md) です。つまり、それらを編集すると、既存のエンティティが削除され、新しいエンティティが作成されます。 この方法で既存の図形を削除すると、ラベル分類は新しい図形に割り当てられません。
 
-1. ラベル分類値を割り当てるエンティティを含む [&#x200B; バルクシートをダウンロードします &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)。
+1. ラベル分類値を割り当てるエンティティを含む [ バルクシートをダウンロードします ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)。
 
-   * 「[!UICONTROL Rows and Columns]」タブで、[!UICONTROL Bulksheet Columns] ペインの [!UICONTROL Campaign] リストを展開します。
+   * 「[!UICONTROL Rows and Columns]」タブで、[!UICONTROL Campaign] ペインの [!UICONTROL Bulksheet Columns] リストを展開します。
 
    * [!UICONTROL Label Classification] リストを展開します。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    値を追加する以外にも、関連する行から既存の値を削除することで、既存の値を削除することもできます。 親エンティティとその子エンティティの両方から値を削除するには、a）親エンティティ行のみを含めて既存の分類値を削除するか、b）親エンティティと子エンティティの両方を含めて、すべての親行と子行から既存の分類値を削除します。
 
-1. [&#x200B; ファイルをアップロード &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) して、関連付けを作成します。
+1. [ ファイルをアップロード ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) して、関連付けを作成します。<!-- Update once the new bulksheet UI is GA -->
 
 アップロードされたラベル値は、関連するエンティティビューに表示されます。
 
@@ -60,9 +60,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ラベル分類について &#x200B;](classification-about.md)
->* [&#x200B; ラベル分類の作成 &#x200B;](classification-create.md)
->* [&#x200B; キャンペーン管理ビューからアカウントコンポーネントへの分類値の割り当て &#x200B;](classification-values-assign-campaign-management.md)
->* [&#x200B; アカウントコンポーネントからラベル分類値を削除する &#x200B;](classification-values-remove.md)
->* [&#x200B; ラベル分類値を削除 &#x200B;](classification-values-delete.md)
->* [&#x200B; ラベル分類を削除 &#x200B;](classification-delete.md)
+>* [ ラベル分類について ](classification-about.md)
+>* [ ラベル分類の作成 ](classification-create.md)
+>* [ キャンペーン管理ビューからアカウントコンポーネントへの分類値の割り当て ](classification-values-assign-campaign-management.md)
+>* [ アカウントコンポーネントからラベル分類値を削除する ](classification-values-remove.md)
+>* [ ラベル分類値を削除 ](classification-values-delete.md)
+>* [ ラベル分類を削除 ](classification-delete.md)
