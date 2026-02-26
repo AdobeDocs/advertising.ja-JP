@@ -3,9 +3,9 @@ title: エクスペリエンスのクリエイティブの最適化とスケジ�
 description: ターゲティングを行わずにエクスペリエンスの最適化と広告スケジュールを設定する方法を説明します。
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -28,17 +28,17 @@ ht-degree: 0%
 
    * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします。
 
-1. 該当する広告タグの行の上にカーソルを置き、「![&#x200B; 広告スケジュール &#x200B;](/help/creative/assets/edit-gray.png " トラッキング URL を編集 ")」 **[!UICONTROL Creative Optimization]** タンをクリックします。&lt;!— 2/2 現在、タグマネージャーにはリスト表示しかありませんが、カード表示はありません。>
+1. 該当する広告タグの行の上にカーソルを置き、![ クリエイティブの最適化を編集 ](/help/creative/assets/edit-gray.png " クリエイティブの最適化を編集 ")**[!UICONTROL Creative Optimization]** をクリックします。&lt;!— 2/2 現在、タグマネージャーにはリスト表示しかありませんが、カード表示はありません。>
 
 1. **[!UICONTROL Schedule]** を無効にします。
 
 1. 関連するバンドルの広告バリアントのクリエイティブのローテーションのタイプを選択します。
 
-   * *[!UICONTROL Weighted]:* 関連するクリエイティブバンドルの広告のバリアントを、相対的な重みに従って表示します。 各バンドルの重みをパーセントで入力します。 選択したすべてのバンドルの重みは、最大 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. --> を加算する必要があります
+   * *[!UICONTROL Weighted]:* 関連するクリエイティブバンドルの広告のバリアントを、相対的な重みに従って表示します。 各バンドルの重みをパーセントで入力します。 関連付けられたすべてのバンドルに等しい重みを適用するには、（![ 等しい重みを適用 ](/help/creative/assets/apply-equal-weight.png " 等しい重みを適用 ")）をクリックします。 選択したすべてのバンドルの重みは、最大 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. --> を加算する必要があります
 
    * *[!UICONTROL Algorithmic]:* 指定した目標に基づいて、最も効果的な広告のバリエーションをより頻繁に表示します。
 
-      * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」、「（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md)」を選択します。
+      * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」、「（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md)」を選択します。
 
    * *[!UICONTROL Sequencing]:* 関連付けられたクリエイティブバンドルを指定した順序（バンドル 1 が最初に提供され、バンドル 2 が 2 番目に提供される、など）で、各バンドルシーケンスにわたる指定した合計インプレッション数と共に表示します。 提供される広告サイズは、利用可能な在庫によって決まります。 シーケンス内の最後のバンドルを a\）に設定すると、無期限に表示されます（デフォルト）。または b\）最初のバンドルに戻ります。 例えば、3 つのインプレッションに対してバンドル 1 の広告バリアントのいずれかを表示し、1 つのインプレッションに対してバンドル 2 の広告バリアントを表示してから、2 つのインプレッションに対してバンドル 3 の広告バリアントのいずれかを表示し、ループを再開できます。 または、Bundle 3 の広告バリアントが表示されたら、ループを作成するのではなく、Bundle 3 の広告バリアントを引き続き無期限に表示できます。 シーケンスを有効にする場合：
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします。
 
-1. 該当する広告タグの行の上にカーソルを置き、「![&#x200B; 広告スケジュール &#x200B;](/help/creative/assets/edit-gray.png " トラッキング URL を編集 ")」 **[!UICONTROL Creative Optimization]** タンをクリックします。 <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— 2/2 現在、タグマネージャーにはリスト表示しかありませんが、カード表示はありません。>
+1. 該当する広告タグの行の上にカーソルを置き、![ クリエイティブの最適化を編集 ](/help/creative/assets/edit-gray.png " クリエイティブの最適化を編集 ")**[!UICONTROL Creative Optimization]** をクリックします。 <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— 2/2 現在、タグマネージャーにはリスト表示しかありませんが、カード表示はありません。>
 
 1. **[!UICONTROL Schedule]** を有効にします。
 
@@ -74,15 +74,15 @@ ht-degree: 0%
 
    1. 左の列で、最初のスケジュールに追加する各クリエイティブの横にあるチェックボックスを選択します。
 
-   1. スケジュールの開始日と終了日を指定します。
+   1. スケジュールの開始日と開始時刻および終了日と終了時刻を指定します。
 
    1. クリエイティブローテーションのタイプを選択します。
 
-      * *[!UICONTROL Weighted]:* 相対的な重みに従って手動でクリエイティブを回転します。 各クリエイティブの重みをパーセンテージで入力します。 選択したすべてのクリエイティブの重みは、最大 100 を加算する必要があります。
+      * *[!UICONTROL Weighted]:* 相対的な重みに従って手動でクリエイティブを回転します。 各クリエイティブの重みをパーセンテージで入力します。 集計表内のすべてのバンドルに同じ重みを適用するには、（![ 同じ重みを適用 ](/help/creative/assets/apply-equal-weight.png " 同じ重みを適用 ")）をクリックします。 選択したすべてのクリエイティブの重みは、最大 100 を加算する必要があります。
 
       * *[!UICONTROL Algorithmic]:* 指定した最適化目標に従って、クリエイティブをアルゴリズムによって回転させます。
 
-         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」、「（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
+         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」、「（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
 
       * *[!UICONTROL Sequencing]:* 関連付けられたクリエイティブバンドルを指定した順序で回転し（バンドル 1 が最初に提供され、バンドル 2 が 2 番目に提供されるなど）、各バンドルシーケンスにわたる指定した合計インプレッション数を返します。 提供される広告サイズは、利用可能な在庫によって決まります。 シーケンス内の最後のバンドルを a\）に設定すると、無期限に表示されます（デフォルト）。または b\）最初のバンドルに戻ります。 例えば、バンドル 1 の任意のクリエイティブを 3 つのインプレッションに対して表示し、バンドル 2 の任意のクリエイティブを 1 つのインプレッションに対して表示してから、バンドル 3 の任意のクリエイティブを 2 つのインプレッションに対して表示し、ループを再開できます。 または、Bundle 3 のクリエイティブが表示されたら、ループを作成するのではなく、Bundle 3 のクリエイティブを無限に表示し続けることができます。 シーケンスを有効にする場合：
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
       * *[!UICONTROL Algorithmic]:* 指定した最適化目標に従って、クリエイティブをアルゴリズムによって回転させます。
 
-         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
+         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  *[!UICONTROL Custom Objective]* を選択した場合は、既存の [Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md).<!-- Verify --> を選択します
 
       * *[!UICONTROL Sequencing]:* 関連付けられているクリエイティブバンドルを、指定した順序で、各バンドルシーケンスをまたいで指定した合計インプレッション数で回転します。 シーケンスを有効にする場合：
 
@@ -124,6 +124,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 該当するクリエイティブサイズの広告タグを手動で作成 &#x200B;](/help/creative/experiences/experience-tag-create-manually.md)
->* [&#x200B; ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て &#x200B;](experience-tag-assign-creatives.md)
->* [&#x200B; デシジョンツリーでターゲット設定しないエクスペリエンス用のトラッキング URL のカスタマイズ &#x200B;](experience-tracking-urls-no-targeting.md)
+>* [ 該当するクリエイティブサイズの広告タグを手動で作成 ](/help/creative/experiences/experience-tag-create-manually.md)
+>* [ ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て ](experience-tag-assign-creatives.md)
+>* [ デシジョンツリーでターゲット設定しないエクスペリエンス用のトラッキング URL のカスタマイズ ](experience-tracking-urls-no-targeting.md)
