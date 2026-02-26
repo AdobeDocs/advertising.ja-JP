@@ -1,7 +1,7 @@
 ---
 title: レポートおよびシミュレーション用のオフラインアカウントデータのアップロード
 description: オフラインアカウントデータを手動で、または  [!DNL Amazon] [!DNL S3] バケットにアップロードして、レポートやシミュレーションをサポートする方法を説明します。 ログファイルは、アップロードジョブの進行状況を追跡します。
-source-git-commit: bfa5403ff66bed73797fc4c7115b8c043856745d
+source-git-commit: 8ba0f8fa6050a3e6ec93bcf08df2c0204191fc02
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 0%
@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. 「**[!UICONTROL Save]**」をクリックします。
 
-&#x200B;# [!DNL Amazon] [!DNL S3] バケットへのアカウントデータのアップロード {#data-upload-s3}
+## [!DNL Amazon] [!DNL S3] バケットへのアカウントデータのアップロード {#data-upload-s3}
 
 アカウントにキャンペーンコンテンツとコスト、クリック数およびコンバージョンデータを入力するには、データを、[!DNL Amazon Web Services] （AWS） [!DNL Simple Storage Service] （[!DNL S3]）バケットの検索、ソーシャルおよびCommerceに割り当てられたフォルダーにアップロードします。
 
@@ -143,7 +143,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 1. アカウント名の上にカーソルを置き、[**...**] をクリックし、[**[!UICONTROL Upload Logs]**] をクリックします。
 
-1. （任意）アップロードしたファイルのデータをダウンロードするには、![&#x200B; 列の &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ") ダウンロード [!UICONTROL Download] をクリックし、ブラウザーの通常の手順に従ってファイルをダウンロードします。
+1. （任意）アップロードしたファイルのデータをダウンロードするには、![ 列の ](/help/search-social-commerce/assets/download.png " ダウンロード ") ダウンロード [!UICONTROL Download] をクリックし、ブラウザーの通常の手順に従ってファイルをダウンロードします。
 
 ## 必要なデータ
 
