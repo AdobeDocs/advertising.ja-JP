@@ -24,13 +24,13 @@ ht-degree: 0%
 
 クリエイティブスケジュールが無効になっている場合、クリエイティブの最適化設定は、割り当てられたすべてのクリエイティブに適用されます。
 
-1. エクスペリエンスの [ 作成 ](experience-create-targeting.md) または [ 編集 ](experience-edit-targeting.md) 中に、クリエイティブの最適化設定を開きます。
+1. エクスペリエンスの [&#x200B; 作成 &#x200B;](experience-create-targeting.md) または [&#x200B; 編集 &#x200B;](experience-edit-targeting.md) 中に、クリエイティブの最適化設定を開きます。
 
    1. ターゲットノードの下にあるクリエイティブリーフノードの上にカーソルを置いて、次の操作を行います。
 
       * 既存のバンドルの場合は、**[!UICONTROL ...]**/**[!UICONTROL Edit Bundles]** をクリックします。
 
-      * 新規バンドルの場合、「**[!UICONTROL ...]**」 > 「**[!UICONTROL Assign Bundles]**」をクリックし [ バンドルを割り当て ](experience-assign-creative-bundles.md) ます。
+      * 新規バンドルの場合、「**[!UICONTROL ...]**」 > 「**[!UICONTROL Assign Bundles]**」をクリックし [&#x200B; バンドルを割り当て &#x200B;](experience-assign-creative-bundles.md) ます。
 
 1. 「**[!UICONTROL Creative Optimization]**」タブをクリックします。
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 1. 関連するバンドルの広告バリアントのクリエイティブのローテーションのタイプを選択します。
 
-   * *[!UICONTROL Weighted]:* 関連するクリエイティブバンドルの広告のバリアントを、相対的な重みに従って表示します。 各バンドルの重みをパーセントで入力します。 関連付けられたすべてのバンドルに等しい重みを適用するには、（![ 等しい重みを適用 ](/help/creative/assets/apply-equal-weight.png " 等しい重みを適用 ")）をクリックします。 選択したすべてのバンドルの重みは、最大 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. --> を加算する必要があります
+   * *[!UICONTROL Weighted]:* 関連するクリエイティブバンドルの広告のバリアントを、相対的な重みに従って表示します。 各バンドルの重みをパーセントで入力します。 関連付けられたすべてのバンドルに等しい重みを適用するには、（![&#x200B; 等しい重みを適用 &#x200B;](/help/creative/assets/apply-equal-weight.png " 等しい重みを適用 ")）をクリックします。 選択したすべてのバンドルの重みは、最大 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. --> を加算する必要があります
 
    * *[!UICONTROL Algorithmic]:* 指定した目標に基づいて、最も効果的な広告のバリエーションをより頻繁に表示します。
 
-      * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」、「（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md)」を選択します。
+      * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」、「（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md)」を選択します。
 
    * *[!UICONTROL Sequencing]:* 関連付けられたクリエイティブバンドルを指定した順序（バンドル 1 が最初に提供され、バンドル 2 が 2 番目に提供される、など）で、各バンドルシーケンスにわたる指定した合計インプレッション数と共に表示します。 提供される広告サイズは、利用可能な在庫によって決まります。 シーケンス内の最後のバンドルを a\）に設定すると、無期限に表示されます（デフォルト）。または b\）最初のバンドルに戻ります。 例えば、3 つのインプレッションに対してバンドル 1 の広告バリアントのいずれかを表示し、1 つのインプレッションに対してバンドル 2 の広告バリアントを表示してから、2 つのインプレッションに対してバンドル 3 の広告バリアントのいずれかを表示し、ループを再開できます。 または、Bundle 3 の広告バリアントが表示されたら、ループを作成するのではなく、Bundle 3 の広告バリアントを引き続き無期限に表示できます。 シーケンスを有効にする場合：
 
@@ -62,13 +62,13 @@ ht-degree: 0%
 
 スケジュールを使用する場合は、エクスペリエンスの期間中にバンドルをスケジュールする必要があります。
 
-1. エクスペリエンスの [ 作成 ](experience-create-targeting.md) または [ 編集 ](experience-edit-targeting.md) 中に、クリエイティブの最適化設定を開きます。
+1. エクスペリエンスの [&#x200B; 作成 &#x200B;](experience-create-targeting.md) または [&#x200B; 編集 &#x200B;](experience-edit-targeting.md) 中に、クリエイティブの最適化設定を開きます。
 
    1. ターゲットノードの下にあるクリエイティブリーフノードの上にカーソルを置いて、次の操作を行います。
 
       * 既存のバンドルの場合は、**[!UICONTROL ...]**/**[!UICONTROL Edit Bundles]** をクリックします。
 
-      * 新規バンドルの場合、「**[!UICONTROL ...]**」 > 「**[!UICONTROL Assign Bundles]**」をクリックし [ バンドルを割り当て ](experience-assign-creative-bundles.md) ます。
+      * 新規バンドルの場合、「**[!UICONTROL ...]**」 > 「**[!UICONTROL Assign Bundles]**」をクリックし [&#x200B; バンドルを割り当て &#x200B;](experience-assign-creative-bundles.md) ます。
 
 1. 「**[!UICONTROL Creative Optimization]**」タブをクリックします。
 
@@ -82,11 +82,11 @@ ht-degree: 0%
 
    1. クリエイティブローテーションのタイプを選択します。
 
-      * *[!UICONTROL Weighted]:* 各バンドル内のクリエイティブを、相対的な重みに従って手動で回転します。 各バンドルの重みをパーセントで入力します。 集計表内のすべてのバンドルに同じ重みを適用するには、（![ 同じ重みを適用 ](/help/creative/assets/apply-equal-weight.png " 同じ重みを適用 ")）をクリックします。 選択したすべてのバンドルの重みは、最大 100 を加算する必要があります。
+      * *[!UICONTROL Weighted]:* 各バンドル内のクリエイティブを、相対的な重みに従って手動で回転します。 各バンドルの重みをパーセントで入力します。 集計表内のすべてのバンドルに同じ重みを適用するには、（![&#x200B; 同じ重みを適用 &#x200B;](/help/creative/assets/apply-equal-weight.png " 同じ重みを適用 ")）をクリックします。 選択したすべてのバンドルの重みは、最大 100 を加算する必要があります。
 
       * *[!UICONTROL Algorithmic]:* 指定した最適化目標に従って、各バンドル内のクリエイティブをアルゴリズムによって回転させます。
 
-         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」、「（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md)」を選択します。
+         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」、「（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md)」を選択します。
 
       * *[!UICONTROL Sequencing]:* 関連付けられたクリエイティブバンドルを指定した順序で回転し（バンドル 1 が最初に提供され、バンドル 2 が 2 番目に提供されるなど）、各バンドルシーケンスにわたる指定した合計インプレッション数を返します。 提供される広告サイズは、利用可能な在庫によって決まります。 シーケンス内の最後のバンドルを a\）に設定すると、無期限に表示されます（デフォルト）。または b\）最初のバンドルに戻ります。 例えば、バンドル 1 の任意のクリエイティブを 3 つのインプレッションに対して表示し、バンドル 2 の任意のクリエイティブを 1 つのインプレッションに対して表示してから、バンドル 3 の任意のクリエイティブを 2 つのインプレッションに対して表示し、ループを再開できます。 または、Bundle 3 のクリエイティブが表示されたら、ループを作成するのではなく、Bundle 3 のクリエイティブを無限に表示し続けることができます。 シーケンスを有効にする場合：
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
       * *[!UICONTROL Algorithmic]:* 指定した最適化目標に従って、各バンドル内のクリエイティブをアルゴリズムによって回転させます。
 
-         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 ](/help/dsp/optimization/custom-goal.md)」を選択します。
+         * **[!UICONTROL Optimization Goal]** の場合は、「*[!UICONTROL Click Through Rate]*」または「*[!UICONTROL Custom Objective]*」を選択します。  「*[!UICONTROL Custom Objective]*」を選択した場合は、既存の「[Advertising DSPのカスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md)」を選択します。
 
       * *[!UICONTROL Sequencing]:* 関連付けられているクリエイティブバンドルを、指定した順序で、各バンドルシーケンスをまたいで指定した合計インプレッション数で回転します。 シーケンスを有効にする場合：
 
@@ -128,5 +128,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除 ](/help/creative/experiences/experience-assign-creative-bundles.md)
->* [ クリエイティブのトラッキング URL のカスタマイズ ](/help/creative/experiences/experience-tracking-urls-targeting.md)
+>* [&#x200B; エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除 &#x200B;](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [&#x200B; クリエイティブのトラッキング URL のカスタマイズ &#x200B;](/help/creative/experiences/experience-tracking-urls-targeting.md)
