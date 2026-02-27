@@ -3,9 +3,9 @@ title: 動的クリエイティブ設定
 description: ダイナミッククリエイティブの設定を参照します。
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 164ee92f85c0e649dc2bd6c0224a531eb72d1962
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 0%
 
 **[!UICONTROL Library]:** 広告を作成するクリエイティブライブラリ。 [!UICONTROL Creatives] > [!UICONTROL Creative Libraries] 内から広告を作成する場合、ライブラリ名は既に選択されており、読み取り専用です。
 
-**[!UICONTROL Ad Template Size]:** （動的ディスプレイ広告のみ）広告を作成する広告テンプレートの [&#x200B; 広告ディメンション &#x200B;](/help/creative/creative-libraries/creative-sizes.md)。 最初に特定の [!UICONTROL Ad Template] を選択すると、この値が自動的に選択されます。
-
 ## 広告テンプレート
 
 **[!UICONTROL Ad Template]:** 広告の作成元となる広告テンプレート。 既存の広告テンプレートを選択するか、新しい広告テンプレートをアップロードして、テンプレートタイプ（*静的* または *動的*）を選択します。 テンプレートは、ZIP 形式で、次を含む必要があります。<!-- Need to add more specs for templates -->
@@ -40,13 +38,13 @@ ht-degree: 0%
 
 続行するには、[**[!UICONTROL Select Ad Template]**] をクリックします。
 
+**[!UICONTROL Size]:** （動的なディスプレイ広告のみ。読み取り専用）選択した広告テンプレートの [ 広告ディメンション ](/help/creative/creative-libraries/creative-sizes.md)。広告の作成に使用されます。
+
 **[!UICONTROL Card Count (Max 50)]:** （広告の表示のみ） カルーセルに表示する製品の数。
 
 **[!UICONTROL Duration]:** （ビデオ広告のみ、読み取り専用）選択した広告テンプレートから派生したビデオ再生時間。 各ビデオの再生時間は 1 ～ 90 秒にする必要があります。
 
 ## カタログ
-
-**[!UICONTROL Template]:** 広告の作成に使用するフィードテンプレート。
 
 **\[ カタログ\]**：広告を生成する 1 つ以上のカタログ。 既存のカタログを選択するか、既存のフィードテンプレートをダウンロードして新しいカタログを作成してアップロードすることで、新しいカタログを作成します。 「**[!UICONTROL Select Catalog]**」をクリックします。
 
@@ -68,6 +66,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; クリエイティブライブラリへのダイナミッククリエイティブの追加 &#x200B;](creative-add-dynamic.md)
->* [&#x200B; クリエイティブライブラリ内のダイナミッククリエイティブの編集 &#x200B;](creative-edit-dynamic.md)
->* [&#x200B; 動的広告のワークフロー &#x200B;](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [ クリエイティブライブラリへのダイナミッククリエイティブの追加 ](creative-add-dynamic.md)
+>* [ クリエイティブライブラリ内のダイナミッククリエイティブの編集 ](creative-edit-dynamic.md)
+>* [ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md)
