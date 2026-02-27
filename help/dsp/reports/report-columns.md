@@ -3,9 +3,9 @@ title: 使用可能なレポート列
 description: カスタムレポートで使用可能な列の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: bd85b4451624e14c95157c84537fdfb53662773f
+source-git-commit: c318c29e78f33c665380e5e5ac0b58a653f8987a
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2933'
 ht-degree: 0%
 
 ---
@@ -194,6 +194,19 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | [!UICONTROL Non-billable Spend (Media)]、[!UICONTROL Non-billable Spend (Data)]、[!UICONTROL Non-billable Spend (Other)] の合計。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | その他の料金の 1000 インプレッションあたりの平均正味費用（<code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000 で計算）</code>。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other Spend] | その他のサービス料金（サードパーティの検証パートナー、広告サービングなど）の純費用の合計。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Clicks] | クリック総数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL CTR] | クリックの割合をインプレッション数で割った値。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Engagements] | 提供された広告でのインタラクションの数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Engagement Rate] | 提供された広告でのインタラクションの割合（インプレッション数で割る）。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Impressions] | 合計インプレッション数。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Media Match Rate] | クリエイティブが目的のメディア/在庫またはオーディエンスと正常に一致したインプレッション数（またはイベント）の割合。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Clicks] | 特定の製品に起因するクリック総数。 クリエイティブで複数の製品（カルーセル広告など）を表示し、製品別にレポートする場合に使用します。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Conversions] | 特定の製品に起因するコンバージョンの合計。 クリエイティブで複数の製品（カルーセル広告など）を表示し、製品別にレポートする場合に使用します。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Conversion Rate] | 特定の製品に起因する [!UICONTROL Product Conversions] で [!UICONTROL Product Impressions] 割されます。 クリエイティブで複数の製品（カルーセル広告など）を表示し、製品別にレポートする場合に使用します。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product CTR] | 特定の製品に起因する [!UICONTROL Product Clicks] で [!UICONTROL Product Impressions] 割されます。 クリエイティブで複数の製品（カルーセル広告など）を表示し、製品別にレポートする場合に使用します。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Impressions] | 特定の製品に起因する合計インプレッション数。 クリエイティブで複数の製品（カルーセル広告など）を表示し、製品別にレポートする場合に使用します。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Revenue] | 特定の製品に起因する合計売上高。 クリエイティブで複数の製品（カルーセル広告など）を表示し、製品別にレポートする場合に使用します。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Revenue] | 合計売上高。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | 広告全体を視聴したビューの割合。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | 広告全体を視聴したビューの数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | 広告全体を視聴したビューアブルインプレッションの割合。 |
@@ -250,7 +263,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | 測定可能なすべてのインプレッションの中で表示可能なインプレッションの割合（<code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions] として計算）</code>。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | ビューアブルと見なされる広告インプレッションの数。 |
 | [!UICONTROL Conversion Metrics] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のコンバージョン ] | 指定した広告主固有のコンバージョン指標またはAdobe Analytics イベントの合計。 |
-| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のカスタム目標 ] | 指定した [&#x200B; カスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md) に含まれるすべてのコンバージョンの重み付き合計。 |
+| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のカスタム目標 ] | 指定した [ カスタム目標 ](/help/dsp/optimization/custom-goal.md) に含まれるすべてのコンバージョンの重み付き合計。 |
 
 {style="table-layout:auto"}
 
@@ -258,8 +271,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
->* [&#x200B; カスタムレポートの作成 &#x200B;](/help/dsp/reports/report-create.md)
->* [&#x200B; カスタムレポートの複製 &#x200B;](/help/dsp/reports/report-copy.md)
->* [&#x200B; カスタムレポートの編集 &#x200B;](/help/dsp/reports/report-edit.md)
->* [&#x200B; カスタムレポートの設定 &#x200B;](/help/dsp/reports/report-settings.md)
+>* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
+>* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートの複製 ](/help/dsp/reports/report-copy.md)
+>* [ カスタムレポートの編集 ](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
