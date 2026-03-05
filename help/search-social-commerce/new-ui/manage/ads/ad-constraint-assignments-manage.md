@@ -4,9 +4,9 @@ description: 広告に制約を割り当てる方法を説明します。
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 9755abb2-a62f-4292-a6b4-314b49de3edd
-source-git-commit: aed5f6db36b1aab4d7b4f7d40812a361f0363440
+source-git-commit: 8be53fad67732e5091ec6b578a30dfb5a1b5af36
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 関連する各行の横にあるチェックボックスをオンにします。
 
-   複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
 1. データ テーブルの上にあるツールバーで、[**[!UICONTROL More]**] をクリックし、**[!UICONTROL Assign]** > **[!UICONTROL Constraint]** をクリックします。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 1. 拘束を削除する各コンポーネントの横にあるチェック ボックスをオンにします。
 
-   複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+   複数行の選択に関するヒントについては、「[ 複数行を選択 ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
 
 1. データ テーブルの上にあるツールバーで、[**[!UICONTROL More]**] をクリックし、**[!UICONTROL Unassign]** > **[!UICONTROL Constraint]** をクリックします。
 
@@ -88,6 +88,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーンの制約割り当ての管理 &#x200B;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [&#x200B; 広告グループの制約割り当ての管理 &#x200B;](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->[&#x200B; キーワードの制約の割り当ての管理 &#x200B;](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>* [ キャンペーンの制約割り当ての管理 ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [ 広告グループの制約割り当ての管理 ](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
+>* [ キーワードの制約の割り当ての管理 ](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>* [ プレースメントの制約の割り当ての管理 ](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
