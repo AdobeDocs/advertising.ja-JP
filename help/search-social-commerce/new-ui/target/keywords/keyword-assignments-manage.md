@@ -1,17 +1,16 @@
 ---
-title: 広告の制約割り当ての管理
-description: 広告に制約を割り当てる方法を説明します。
+title: キーワードの制約の割り当ての管理
+description: キーワードに制約を割り当てる方法について説明します。
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: 9755abb2-a62f-4292-a6b4-314b49de3edd
-source-git-commit: aed5f6db36b1aab4d7b4f7d40812a361f0363440
+source-git-commit: a3963ef31025caa2cebc83a99866862000838455
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
-# （新しい UI）広告の制約割り当ての管理
+# （新しい UI）キーワードの制約の割り当ての管理
 
 *Beta機能*
 
@@ -26,13 +25,13 @@ ht-degree: 0%
 >* 後で広告のキーワードまたは広告コピーを編集し、それによって新しいキーワードまたは広告を作成した場合、制約は新しいエンティティに割り当てられません。
 >* アクティブ制約は、最適化されたレガシーキーワードレベルのポートフォリオで、割り当てられた入札単位に対してのみ入札を制限します。 アクティブなポートフォリオにある入札単位、ハイブリッドポートフォリオにある入札単位、ポートフォリオにない入札単位では、これらは無視されます。
 
-## 新しい [!UICONTROL Ads] ビューから選択した広告に制約を割り当てる
+## 新しい [!UICONTROL Keywords] ビューから選択した広告に制約を割り当てる
 
 1 つ以上のキャンペーンに 1 つの制約を割り当てることができます。
 
-1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Ads]** をクリックします。
+1. メインメニューで、**[!UICONTROL Target]/[!UICONTROL Keywords]** をクリックします。
 
-1. 単一の制約を割り当てる各広告の横にあるチェックボックスをオンにします。
+1. [**[!UICONTROL Keywords]**] タブで、1 つの制約を割り当てる各キーワードの横にあるチェック ボックスをオンにします。
 
 1. 一括アクションツールバーで、**+[!UICONTROL Assign]**/**[!UICONTROL Constraint]** をクリックします。
 
@@ -62,9 +61,9 @@ ht-degree: 0%
 
 ## 選択したキャンペーンの制約を新しい [!UICONTROL Ads] ビューから割り当て解除
 
-1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Ads]** をクリックします。
+1. メインメニューで、**[!UICONTROL Target]/[!UICONTROL Keywords]** をクリックします。
 
-1. 制約の割り当てを解除する各広告の横にあるチェックボックスをオンにします。
+1. [**[!UICONTROL Keywords]**] タブで、制約の割り当てを解除する各キーワードの横にあるチェック ボックスをオンにします。
 
 1. 一括アクションツールバーで、**-[!UICONTROL Unassign]**/**[!UICONTROL Constraint]** をクリックします。
 
@@ -90,4 +89,4 @@ ht-degree: 0%
 >
 >* [ キャンペーンの制約割り当ての管理 ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [ 広告グループの制約割り当ての管理 ](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-[ キーワードの制約の割り当ての管理 ](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>* [ 広告の制約割り当ての管理 ](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
