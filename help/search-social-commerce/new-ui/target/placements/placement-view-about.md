@@ -26,4 +26,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プレースメントの制約の割り当ての管理 ](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [&#x200B; プレースメントの制約の割り当ての管理 &#x200B;](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
