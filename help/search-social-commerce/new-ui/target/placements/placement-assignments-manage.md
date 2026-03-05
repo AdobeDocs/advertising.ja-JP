@@ -1,17 +1,16 @@
 ---
-title: 広告グループの制約割り当ての管理
-description: 広告グループに制約を割り当てる方法について説明します。
+title: プレースメントの制約の割り当ての管理
+description: プレースメントに制約を割り当てる方法を説明します。
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
 source-git-commit: 0e863a638d8f3d055fd566db65d7967126fd5f89
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
 
-# （新しい UI）広告グループの制約割り当ての管理
+# （新しい UI）プレースメントの制約の割り当ての管理
 
 *Beta機能*
 
@@ -21,11 +20,18 @@ ht-degree: 0%
 
 制約を割り当て解除すると、アカウントコンポーネントとそのすべての子コンポーネントとの関連付けが削除され、それらのコンポーネントでは制約のレポートデータを使用できなくなります。 拘束を割り当て解除しても、拘束もアカウント コンポーネント自体も削除されません。
 
-## 新しい [!UICONTROL Ad Groups] ビューから選択した広告グループに制約を割り当てる
+>[!NOTE]
+>
+>* 後で広告のキーワードまたは広告コピーを編集し、それによって新しいキーワードまたは広告を作成した場合、制約は新しいエンティティに割り当てられません。
+>* アクティブ制約は、最適化されたレガシーキーワードレベルのポートフォリオで、割り当てられた入札単位に対してのみ入札を制限します。 アクティブなポートフォリオにある入札単位、ハイブリッドポートフォリオにある入札単位、ポートフォリオにない入札単位では、これらは無視されます。
 
-1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Ad Groups]** をクリックします。
+## 新しい [!UICONTROL Placements] ビューから選択したプレースメントに制約を割り当てる
 
-1. 単一の制約を割り当てる各広告グループの横にあるチェックボックスをオンにします。
+1 つの制約を 1 つ以上のプレースメントに割り当てることができます。
+
+1. メインメニューで、**[!UICONTROL Target]/[!UICONTROL Placements]** をクリックします。
+
+1. 「**[!UICONTROL Placements]**」タブで、1 つの拘束を割り当てる各プレースメントの横にあるチェックボックスをオンにします。
 
 1. 一括アクションツールバーで、**+[!UICONTROL Assign]**/**[!UICONTROL Constraint]** をクリックします。
 
@@ -53,11 +59,11 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-## 選択した広告グループの制約を新しい [!UICONTROL Ad Groups] ビューから割り当て解除する
+## 新しい [!UICONTROL Placements] ビューで選択したプレースメントから制約を割り当て解除する
 
-1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Ad Groups]** をクリックします。
+1. メインメニューで、**[!UICONTROL Target]/[!UICONTROL Placements]** をクリックします。
 
-1. 制約の割り当てを解除する各広告グループの横にあるチェックボックスをオンにします。
+1. 「**[!UICONTROL Placements]**」タブで、制約の割り当てを解除する各プレースメントの横にあるチェックボックスをオンにします。
 
 1. 一括アクションツールバーで、**-[!UICONTROL Unassign]**/**[!UICONTROL Constraint]** をクリックします。
 
@@ -82,6 +88,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [ キャンペーンの制約割り当ての管理 ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [ 広告グループの制約割り当ての管理 ](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [ 広告の制約割り当ての管理 ](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
 >* [ キーワードの制約の割り当ての管理 ](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
->* [ プレースメントの制約の割り当ての管理 ](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
