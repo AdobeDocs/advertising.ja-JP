@@ -1,9 +1,8 @@
 ---
-title: キャンペーンの制約割り当ての管理
-description: キャンペーンに制約を割り当てる方法を説明します。
+title: 広告の制約割り当ての管理
+description: 広告に制約を割り当てる方法を説明します。
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
 source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
 source-wordcount: '435'
@@ -11,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# （新しい UI）キャンペーンの制約割り当ての管理
+# （新しい UI）広告の制約割り当ての管理
 
 *Beta機能*
 
@@ -26,13 +25,13 @@ ht-degree: 0%
 >* 後で広告のキーワードまたは広告コピーを編集し、それによって新しいキーワードまたは広告を作成した場合、制約は新しいエンティティに割り当てられません。
 >* アクティブ制約は、最適化されたレガシーキーワードレベルのポートフォリオで、割り当てられた入札単位に対してのみ入札を制限します。 アクティブなポートフォリオにある入札単位、ハイブリッドポートフォリオにある入札単位、ポートフォリオにない入札単位では、これらは無視されます。
 
-## 新しい [!UICONTROL Campaigns] ビューから選択したキャンペーンに制約を割り当てる
+## 新しい [!UICONTROL Ads] ビューから選択した広告に制約を割り当てる
 
 1 つ以上のキャンペーンに 1 つの制約を割り当てることができます。
 
-1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Campaigns]** をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Ads]** をクリックします。
 
-1. 単一の制約を割り当てる各キャンペーンの横にあるチェックボックスをオンにします。
+1. 単一の制約を割り当てる各広告の横にあるチェックボックスをオンにします。
 
 1. 一括アクションツールバーで、**+[!UICONTROL Assign]**/**[!UICONTROL Constraint]** をクリックします。
 
@@ -60,11 +59,11 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-## 選択したキャンペーンの制約を新しい [!UICONTROL Campaigns] ビューから割り当て解除
+## 選択したキャンペーンの制約を新しい [!UICONTROL Ads] ビューから割り当て解除
 
-1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Campaigns]** をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Ads]** をクリックします。
 
-1. 制約の割り当てを解除する各キャンペーンの横にあるチェックボックスをオンにします。
+1. 制約の割り当てを解除する各広告の横にあるチェックボックスをオンにします。
 
 1. 一括アクションツールバーで、**-[!UICONTROL Unassign]**/**[!UICONTROL Constraint]** をクリックします。
 
@@ -88,5 +87,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
+>* [ キャンペーンの制約割り当ての管理 ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [ 広告グループの制約割り当ての管理 ](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [ 広告の制約割り当ての管理 ](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
