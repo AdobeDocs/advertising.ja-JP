@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Beta機能*
 
-![ ユーザーインターフェイス ](/help/search-social-commerce/assets/ui-new.png " ユーザーインターフェイス ")
+![&#x200B; ユーザーインターフェイス &#x200B;](/help/search-social-commerce/assets/ui-new.png " ユーザーインターフェイス ")
 
 各ページには、メインメニューと、その他のタスクおよび情報ベースのメニューが含まれます。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Plan]** サブメニュー：
 
-   * **[!UICONTROL Simulations]** 新しい [[!UICONTROL Simulations] ビューが開き ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) ユーザーが作成したカスタム シミュレーションおよび自動生成された週別シミュレーションをすべて表示したり、新しいカスタム シミュレーションを生成したり、既存のシミュレーションを再実行することができます。 「[!UICONTROL Spend Planner]」ボタンをクリックすると、[!UICONTROL Spend Recommendation]/[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Optimization] で従来の [!UICONTROL Spend Recommendation] ツールが開きます。
+   * **[!UICONTROL Simulations]** 新しい [[!UICONTROL Simulations] ビューが開き &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) ユーザーが作成したカスタム シミュレーションおよび自動生成された週別シミュレーションをすべて表示したり、新しいカスタム シミュレーションを生成したり、既存のシミュレーションを再実行することができます。 「[!UICONTROL Spend Planner]」ボタンをクリックすると、[!UICONTROL Spend Recommendation]/[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Optimization] で従来の [!UICONTROL Spend Recommendation] ツールが開きます。
 
    * **[!UICONTROL Spend Planner]** 新しいサイトを終了し、従来の [!UICONTROL Optimization]/[!UICONTROL Spend Recommendation] ビューを開きます。
 
@@ -62,11 +62,11 @@ ht-degree: 0%
 
    * **[!UICONTROL Campaigns]:** 新しい [!UICONTROL Campaigns] ビューが開き、広告主のすべてのキャンペーンが表示されます。 キャンペーンをポートフォリオに割り当て、選択したキャンペーンの制約の割り当てを管理できます。 また、データテーブルコンテンツのレポートをダウンロードすることもできます。<!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     キャンペーンを作成、編集、削除するには、メインメニューで **[!UICONTROL Set Up]**/**[!UICONTROL Accounts]** をクリックするか、「[[!UICONTROL Switch to Old UI]」ボタンをクリックして、従来のユーザーインターフェイスに戻り ](/help/search-social-commerce/getting-started/ui-switch.md) す。
+     キャンペーンを作成、編集、削除するには、メインメニューで **[!UICONTROL Set Up]**/**[!UICONTROL Accounts]** をクリックするか、「[[!UICONTROL Switch to Old UI]」ボタンをクリックして、従来のユーザーインターフェイスに戻り &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md) す。
 
    * **[!UICONTROL Ad Groups]:** 新しい [!UICONTROL Ad Groups] ビューを開きます。このビューには、広告主のすべての広告グループが表示されます。 選択した広告グループの制約の割り当てを管理できます。 また、データテーブルコンテンツのレポートをダウンロードすることもできます。
 
-     キャンペーンを作成、編集、削除するには、メインメニューで **[!UICONTROL Set Up]**/**[!UICONTROL Accounts]** をクリックするか、「[[!UICONTROL Switch to Old UI]」ボタンをクリックして、従来のユーザーインターフェイスに戻り ](/help/search-social-commerce/getting-started/ui-switch.md) す。
+     キャンペーンを作成、編集、削除するには、メインメニューで **[!UICONTROL Set Up]**/**[!UICONTROL Accounts]** をクリックするか、「[[!UICONTROL Switch to Old UI]」ボタンをクリックして、従来のユーザーインターフェイスに戻り &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md) す。
 
    * **[!UICONTROL Ads]** 新しいサイトを終了し、従来の [!UICONTROL Campaigns]/[!UICONTROL Campaigns] ビューを開きます。
 
@@ -122,7 +122,7 @@ Tools > Admin > Data Source Setup
 
 データを表示するスペースを増やす場合は、メインメニューを折りたたみます。
 
-* 左側のメインメニューの上にある ![ 折りたたみ/展開/折りたたみ ](/help/search-social-commerce/assets/collapse-expand.png " 展開 ") をクリックします。
+* 左側のメインメニューの上にある ![&#x200B; 折りたたみ/展開/折りたたみ &#x200B;](/help/search-social-commerce/assets/collapse-expand.png " 展開 ") をクリックします。
 
 ### メインメニューオプションの検索
 
@@ -134,13 +134,13 @@ Tools > Admin > Data Source Setup
 
 * アクセスできるExperience Cloud組織の選択可能なリスト。
 
-* ![ ヘルプセンター ](/help/search-social-commerce/assets/help-main-menu.png " ヘルプセンター ") ドキュメントおよびその他の情報へのリンクを含むヘルプメニュー。
+* ![&#x200B; ヘルプセンター &#x200B;](/help/search-social-commerce/assets/help-main-menu.png " ヘルプセンター ") ドキュメントおよびその他の情報へのリンクを含むヘルプメニュー。
 
-* ![ 通知 ](/help/search-social-commerce/assets/notifications-aec.png " 通知 ") Experience Cloudからのリクエスト、通知およびお知らせを一覧表示するパネル。
+* ![&#x200B; 通知 &#x200B;](/help/search-social-commerce/assets/notifications-aec.png " 通知 ") Experience Cloudからのリクエスト、通知およびお知らせを一覧表示するパネル。
 
 * ![Apps](/help/search-social-commerce/assets/apps.png "Apps") 切り替えることができるAdobe Experience Cloud ソリューションおよびサービスのリストです。
 
-* ![ アカウント ](/help/search-social-commerce/assets/account.png " アカウント ") Experience Cloud アカウントプロファイルに関する情報。ここから、環境設定を編集してログアウトできます。
+* ![&#x200B; アカウント &#x200B;](/help/search-social-commerce/assets/account.png " アカウント ") Experience Cloud アカウントプロファイルに関する情報。ここから、環境設定を編集してログアウトできます。
 
 ### 2 行目：追加の検索、ソーシャル、Commerceメニュー
 
@@ -152,15 +152,15 @@ Tools > Admin > Data Source Setup
 
 * ![Take a UI Tour](/help/search-social-commerce/assets/take-ui-tour.png "Take a UI Tour") 新しいユーザーインターフェイスのツアーへのリンク。
 
-* ![ 古い UI に切り替え ](/help/search-social-commerce/assets/switch-to-old-ui.png " 古い UI に切り替え ") レガシーユーザーインターフェイスを新しいタブまたはウィンドウで開きます。
+* ![&#x200B; 古い UI に切り替え &#x200B;](/help/search-social-commerce/assets/switch-to-old-ui.png " 古い UI に切り替え ") レガシーユーザーインターフェイスを新しいタブまたはウィンドウで開きます。
 
-* ![ グローバル同期ステータス ](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ") 一括操作ジョブのリスト <!--what kind --> 開きます。
+* ![&#x200B; グローバル同期ステータス &#x200B;](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ") 一括操作ジョブのリスト <!--what kind --> 開きます。
 
 * ![Notifications](/help/search-social-commerce/assets/notifications.png "Notifications") 検索、ソーシャル、Commerceの通知を一覧表示するパネルを開きます。
 
 ## 従来のユーザーインターフェイス
 
-![ ユーザーインターフェイス ](/help/search-social-commerce/assets/ui.png " ユーザーインターフェイス ")
+![&#x200B; ユーザーインターフェイス &#x200B;](/help/search-social-commerce/assets/ui.png " ユーザーインターフェイス ")
 
 各ページの上部には、メインメニューと、その他のタスクおよび情報ベースのメニューが含まれます。
 
@@ -176,7 +176,7 @@ Tools > Admin > Data Source Setup
 
 * **[!UICONTROL Optimization]** – このメニューには、ビジネス目標の管理、ビジネス目標に基づくポートフォリオの管理、ポートフォリオのパフォーマンスの監視、ポートフォリオ間の [!UICONTROL Spend Recommendation Report] 合の生成、入札制約の管理、[!DNL Google Ads] コンバージョン値ルールの表示と管理（一部のユーザー）を行うオプションがあります。
 
-  これらの機能に関する別のドキュメントは、[!UICONTROL Help] ルプメニュー（[ ヘルプ ] メニュー ![[ ヘルプ ] メニュー ](/help/search-social-commerce/assets/help-main-menu.png "）から利用 ") きます。
+  これらの機能に関する別のドキュメントは、[!UICONTROL Help] ルプメニュー（[ ヘルプ ] メニュー ![[ ヘルプ ] メニュー &#x200B;](/help/search-social-commerce/assets/help-main-menu.png "）から利用 ") きます。
 
 * **[!UICONTROL Insights & Reports]** – このメニューには、詳細なインサイトとレポートを生成するオプション、スプレッドシートフィードを使用してレポート作成を自動化するオプション、アラートを作成および監視するオプション、通知設定を設定するオプション、広告ネットワークのレコメンデーションを表示するオプション、広告主のアカウントに加えられた変更のログを表示するオプションが含まれています。
 
@@ -188,20 +188,20 @@ Tools > Admin > Data Source Setup
 
 * （該当する場合）管理している広告主の選択可能なリスト。
 
-* ![ アラート通知 ](/help/search-social-commerce/assets/notifications-panel.png " アラート通知 ") 検索、ソーシャル、Commerceの通知を一覧表示するパネル。
+* ![&#x200B; アラート通知 &#x200B;](/help/search-social-commerce/assets/notifications-panel.png " アラート通知 ") 検索、ソーシャル、Commerceの通知を一覧表示するパネル。
 
-  [Adobe Experience Cloudからログイン ](sign-in.md) すると、このパネルにExperience Cloudからの通知が表示されます。
+  [Adobe Experience Cloudからログイン &#x200B;](sign-in.md) すると、このパネルにExperience Cloudからの通知が表示されます。
 
-* ![ ヘルプメニュー ](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー ") ドキュメントおよびその他の情報へのリンクを含むヘルプメニュー。
+* ![&#x200B; ヘルプメニュー &#x200B;](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー ") ドキュメントおよびその他の情報へのリンクを含むヘルプメニュー。
 
-* ![ ソリューション切り替えツール ](/help/search-social-commerce/assets/menu-icon.png " ソリューション切り替えツール ") 切り替え先となるAdobe Experience Cloud ソリューションおよびサービスのリストです。
+* ![&#x200B; ソリューション切り替えツール &#x200B;](/help/search-social-commerce/assets/menu-icon.png " ソリューション切り替えツール ") 切り替え先となるAdobe Experience Cloud ソリューションおよびサービスのリストです。
 
-* ![ ユーザープロファイル ](/help/search-social-commerce/assets/user-profile.png " ユーザープロファイル ") サインアウトできるプロファイルへのリンク。
+* ![&#x200B; ユーザープロファイル &#x200B;](/help/search-social-commerce/assets/user-profile.png " ユーザープロファイル ") サインアウトできるプロファイルへのリンク。
 
-  [Adobe Experience Cloudを使用してログイン ](sign-in.md) すると、Experience Cloudのパスワードや通知設定など、Experience Cloudのプロファイルを編集することもできます。
+  [Adobe Experience Cloudを使用してログイン &#x200B;](sign-in.md) すると、Experience Cloudのパスワードや通知設定など、Experience Cloudのプロファイルを編集することもできます。
 
 >[!MORELIKETHIS]
 >
->* [ ログイン ](sign-in.md)
->* [ ログアウト ](sign-out.md)
->* [ 新しい UI とレガシー UI の切り替え ](ui-switch.md)
+>* [&#x200B; ログイン &#x200B;](sign-in.md)
+>* [&#x200B; ログアウト &#x200B;](sign-out.md)
+>* [&#x200B; 新しい UI とレガシー UI の切り替え &#x200B;](ui-switch.md)

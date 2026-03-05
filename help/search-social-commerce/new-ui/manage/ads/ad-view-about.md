@@ -22,4 +22,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 広告の制約割り当ての管理 ](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+>* [&#x200B; 広告の制約割り当ての管理 &#x200B;](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
