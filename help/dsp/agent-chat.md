@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-AI チャットインターフェイスを使用して、[Advertising Creative ガイドおよび（Advertising Creativeを使用する広告主 &#x200B;](/help/dsp/home.md) [Advertising DSP ガイド &#x200B;](/help/creative/home.md) 全体の概念コンテンツとハウツーコンテンツを検索します。 回答は、[Experience League](https://experienceleague.adobe.com/en/docs/advertising) のこれらの製品に関してドキュメントに記載されている内容にのみ基づいています。
+AI チャットインターフェイスを使用して、[Advertising Creative ガイドおよび（Advertising Creativeを使用する広告主 &#x200B;](/help/dsp/home.md) [Advertising DSP ガイド &#x200B;](/help/creative/home.md) 全体の概念コンテンツとハウツーコンテンツを検索します。 回答は、[Experience League](https://experienceleague.adobe.com/ja/docs/advertising) のこれらの製品に関してドキュメントに記載されている内容にのみ基づいています。
 
 回答には、引用に加え、クエリを絞り込んで詳細情報を見つけるのに役立つ追加のプロンプトとフォローアップの質問が含まれます。 チャットの履歴は保持され、クエリは他のユーザーと共有されません。
 
