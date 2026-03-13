@@ -3,10 +3,10 @@ role: User
 user-guide-title: Advertising Creative ガイド
 user-guide-description: Advertising Creative を使用するために必要な主な機能、タスク、設定、その他のリソースについて学習します。
 breadcrumb-title: Creative ガイド
-source-git-commit: 0f1355be9eab674970207afb03c56d2857ea24ae
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 6%
+source-wordcount: '392'
+ht-degree: 5%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 6%
    + [Adobe Advertising Creativeについて](/help/creative/introduction/creative-about.md)
    + [データビューのカスタマイズ](/help/creative/introduction/customize-data-views.md)
    + [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [&#x200B; 消費者プライバシーの支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
-   + [&#x200B; 施策及び指針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
+   + [ 消費者プライバシーの支援 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [ 施策及び指針 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative ライブラリ {#creative-libraries}
    + [クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
    + [サポートされるクリエイティブのサイズ](/help/creative/creative-libraries/creative-sizes.md)
@@ -39,6 +39,7 @@ ht-degree: 6%
       + [バンドルへのクリエイティブの添付](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [クリエイティブの複製](/help/creative/creative-libraries/creative-duplicate.md)
       + [クリエイティブをダウンロード](/help/creative/creative-libraries/creative-download.md)
+      + [クリエイティブの変更ログの表示](/help/creative/creative-libraries/creative-view-change-log.md)
       + [クリエイティブを削除](/help/creative/creative-libraries/creative-delete.md)
    + Creative バンドル {#bundles}
       + [クリエイティブバンドルの管理](/help/creative/creative-libraries/bundle-manage.md)
@@ -76,6 +77,7 @@ ht-degree: 6%
    + [エクスペリエンスのデモ URL の共有](/help/creative/experiences/experience-share-demo-url.md)
    + [[!UICONTROL Experiences] ビューからのデータのダウンロード](/help/creative/experiences/experience-download-view.md)
    + [広告タグの名前の変更](/help/creative/experiences/experience-tag-rename.md)
+   + [エクスペリエンスの変更ログの表示](/help/creative/experiences/experience-view-change-log.md)
    + [エクスペリエンスを削除](/help/creative/experiences/experience-delete.md)
 + フィード {#feeds}
    + [アセットファイルの管理](/help/creative/feeds/asset-manage.md)
@@ -93,4 +95,4 @@ ht-degree: 6%
 + [リターゲティングピクセル](/help/creative/pixels/retargeting-pixel-manage.md)
 + [URL を追跡するために使用可能なマクロ](/help/creative/creative-macros.md)
 + [ヘルプを表示](/help/creative/get-help.md)
-+ [Adobe Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target="_blank"}
++ [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
