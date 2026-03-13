@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: b0eb55e27f32af0c1ceed0980dbfdaa7497db226
+source-git-commit: e7b320180b707e38c6e4c035dd8c7bfe388b3bdc
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '971'
 ht-degree: 3%
 
 ---
@@ -24,9 +24,10 @@ ht-degree: 3%
       + [クロスデバイスソリューション](/help/dsp/introduction/features/cross-device-solutions.md)
    + [口座資金](/help/dsp/introduction/billing/account-funding.md)
    + [サポートされる通貨](/help/dsp/currency.md)
-   + [&#x200B; 消費者プライバシーの支援 &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
-   + [&#x200B; 施策及び指針 &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
+   + [ 消費者プライバシーの支援 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [ 施策及び指針 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [高度な計測ソリューション](/help/dsp/introduction/advanced-measurement-services.md)
++ [AI 支援チャットを使用して製品ドキュメントを検索](/help/dsp/agent-chat.md)
 + キャンペーン管理 {#campaign-management}
    + [Campaign 管理構造の概要](/help/dsp/campaign-management/campaign-management-overview.md)
    + キャンペーン {#campaigns}
@@ -72,11 +73,11 @@ ht-degree: 3%
       + [認定広告サービングパートナー](/help/dsp/campaign-management/ads/certified-ad-servers.md)
       + [単一の広告を作成](/help/dsp/campaign-management/ads/ad-create.md)
       + [複数のサードパーティ広告の作成](/help/dsp/campaign-management/ads/ad-create-multiple.md)
-      + [&#x200B; [!DNL Flashtalking] を使用した広告の作成](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [ [!DNL Flashtalking] を使用した広告の作成](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [スプレッドシートを使用した広告の詳細のレビュー](/help/dsp/campaign-management/ads/ad-qa.md)
       + [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
       + [広告の複製](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [&#x200B; プレースメントからの広告の添付と削除 &#x200B;](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=ja)
+      + [ プレースメントからの広告の添付と削除 ](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [広告に関連付けられたプレースメントのリスト](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [広告の詳細レポートの表示](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [広告の一時停止またはアクティブ化](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -157,7 +158,7 @@ ht-degree: 3%
          + [オーストラリアおよびニュージーランドの [!DNL On Demand] Premium Inventory パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
          + [ヨーロッパ、中東、アフリカの [!DNL On Demand] Premium Inventory パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
          + [北米の [!DNL On Demand] Premium Inventory Publishers](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
-      + [&#x200B; [!DNL On Demand] Premium の在庫取引を購入してアクセスをリクエスト](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+      + [ [!DNL On Demand] Premium の在庫取引を購入してアクセスをリクエスト](/help/dsp/inventory/on-demand-inventory-subscribe.md)
       + [Premium 在庫取引  [!DNL On Demand]  再要求](/help/dsp/inventory/on-demand-inventory-rerequest.md)
       + [取引リクエストと購読  [!DNL On Demand]  ステータスの表示](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + プライベートインベントリ {#private-inventory}
@@ -232,9 +233,9 @@ ht-degree: 3%
    + 通知 {#notifications}
       + [アラート配信登録について](/help/dsp/admin/alerts-about.md)
       + [アラート配信登録の管理](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloudとの統合 &#x200B;](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ja)
++ [Adobe Experience Cloudとの統合 ](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [ヘルプを表示](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)
++ [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:

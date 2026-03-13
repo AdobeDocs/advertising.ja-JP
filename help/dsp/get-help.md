@@ -1,34 +1,38 @@
 ---
 title: ヘルプを表示
-description: オンラインヘルプとコミュニティリソースを表示する方法と、テクニカルサポートを受ける方法について説明します。
+description: オンラインドキュメントとコミュニティリソースを表示する方法と、テクニカルサポートを受ける方法を説明します。
 feature: DSP Introduction
 exl-id: 2e0226ea-bcd3-4a38-8907-d2e078c758d0
-source-git-commit: ed577c6f20d0e63555865d2d03bb82a5ada92b3f
+source-git-commit: d2276e7e57c5c4fcc270aeef68a8bf4d013e3eba
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
 
 # ヘルプを表示
 
-オンラインヘルプは、ユーザーインターフェイス内の任意のページから開くことができます。 オンラインヘルプが質問に答えない場合は、お問い合わせください。
+すべての [!DNL DSP] ーザーおよび（Advertising Creativeを使用する広告主）のドキュメントで AI 支援クエリを送信す [!DNL Creative] か、[!DNL DSP] 用の完全なユーザーガイドを開くことができます。 ドキュメントが質問に答えない場合は、お問い合わせください。
 
-## オンラインヘルプを開く
+## AI を利用したチャットインターフェイスで情報を検索
 
-すべての機能の使用方法を説明する完全なヘルプセットを開くには、メインメニューの「**[!UICONTROL Help]**」をクリックします。
+[AI 支援チャットインターフェイスを使用した製品ドキュメントの検索 ](/help/dsp/agent-chat.md) を参照してください。
+
+## 完全なユーザーガイドを開く
+
+すべての機能の使用方法を説明する完全なユーザーガイドを開くには、メインメニューの「**[!UICONTROL Help]**」をクリックします。
 
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=ja).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## 連絡先 [!DNL Adobe]
 
 製品またはアカウントの問題については、次の手順を実行します。
 
-* （セルフサービス契約を持つ広告主）組織のチケットを [https://experienceleague.adobe.com/home?lang=ja#support](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support) で開きます。
+* （セルフサービス契約を持つ広告主）組織のチケットを [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support) で開きます。
 
   製品の場合、「[!UICONTROL Advertising - DSP]」を選択します。
 
