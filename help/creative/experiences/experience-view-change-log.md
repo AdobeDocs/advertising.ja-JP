@@ -13,7 +13,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
 
-1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
+1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
 
 1. エクスペリエンスを選択します。
 

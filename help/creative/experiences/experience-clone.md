@@ -26,6 +26,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 ](experience-create-targeting.md)
->* [ デシジョンツリーのターゲット設定を使用しないエクスペリエンスの作成 ](experience-create-no-targeting.md)
->* [ エクスペリエンスの変更ログを表示する ](/help/creative/experiences/experience-view-change-log.md)
+>* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 &#x200B;](experience-create-targeting.md)
+>* [&#x200B; デシジョンツリーのターゲット設定を使用しないエクスペリエンスの作成 &#x200B;](experience-create-no-targeting.md)
+>* [&#x200B; エクスペリエンスの変更ログを表示する &#x200B;](/help/creative/experiences/experience-view-change-log.md)
