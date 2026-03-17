@@ -28,7 +28,7 @@ ht-degree: 0%
 
    * すべての目標のデータをダウンロードする場合、チェックボックスをオンにする必要はありません。 すべての目標は、デフォルトで含まれます。
 
-1. データテーブルの上にあるツールバーで、「![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
+1. データテーブルの上にあるツールバーで、「![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
 
 1. [!UICONTROL Grid Reports] 設定で、一意のレポート名を入力し、[**[!UICONTROL Generate]**] をクリックします。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    ファイルが [!UICONTROL Recently Generated] リストに追加されます。
 
-1. （任意）ファイルをダウンロードするには、ファイル名の横にある ![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ") をクリックします。
+1. （任意）ファイルをダウンロードするには、ファイル名の横にある ![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ") をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -44,9 +44,9 @@ ht-degree: 0%
 
 メインメニューで、**[!UICONTROL Goals]/[!UICONTROL Objectives]** をクリックします。
 
-1. データテーブルの上にあるツールバーで、「![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
+1. データテーブルの上にあるツールバーで、「![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
 
-1. [!UICONTROL Recently Generated] ダイアログの [!UICONTROL Grid Reports] リストで、ファイル名の横の ![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ") をクリックします。
+1. [!UICONTROL Recently Generated] ダイアログの [!UICONTROL Grid Reports] リストで、ファイル名の横の ![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ") をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -54,12 +54,12 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Goals]/[!UICONTROL Objectives]** をクリックします。
 
-1. データテーブルの上にあるツールバーで、「![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")」 **[!UICONTROL Report]** をクリックします。
+1. データテーブルの上にあるツールバーで、「![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")」 **[!UICONTROL Report]** をクリックします。
 
-1. [!UICONTROL Recently Generated] ダイアログの [!UICONTROL Grid Reports] リストで、ファイル名の横の ![ 削除 ](/help/search-social-commerce/assets/delete-new.png " 削除 ") をクリックします。
+1. [!UICONTROL Recently Generated] ダイアログの [!UICONTROL Grid Reports] リストで、ファイル名の横の ![&#x200B; 削除 &#x200B;](/help/search-social-commerce/assets/delete-new.png " 削除 ") をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ 目標について ](objective-about.md)
->* [ 目標の作成 ](objective-create.md)
->* [ 目標の削除 ](objective-delete.md)
+>* [&#x200B; 目標について &#x200B;](objective-about.md)
+>* [&#x200B; 目標の作成 &#x200B;](objective-create.md)
+>* [&#x200B; 目標の削除 &#x200B;](objective-delete.md)
