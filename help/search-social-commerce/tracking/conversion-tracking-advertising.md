@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe Advertisingは、「成功」ページなど、コンバージョンイベントの発生時に開く web ページに挿入されたAdobe Advertising コンバージョントラッキングタグを使用して、広告のクリックによって発生したコンバージョンを追跡します。 タグには、トランザクションデータをユーザーのAdobe Advertising cookie と共にトラッキングサーバーに送信するための埋め込み情報が含まれており、このトラッキングサーバーから、（広告主のコンバージョンアトリビューションの設定に従って）適切な広告クリックまたはインプレッションにトランザクションがクレジットされます。
 
-検索、ソーシャル、Commerce内で [ コンバージョントラッキングタグを生成 ](/help/search-social-commerce/tools/conversion-tag-generate.md) するか、Adobe Experience Platform（旧称：Adobe Experience Platform Launch）のタグを使用できます。
+検索、ソーシャル、Commerce内で [&#x200B; コンバージョントラッキングタグを生成 &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md) するか、Adobe Experience Platform（旧称：Adobe Experience Platform Launch）のタグを使用できます。
 
 >[!NOTE]
 >
@@ -55,10 +55,10 @@ Adobe Advertisingは、「成功」ページなど、コンバージョンイベ
 
 >[!MORELIKETHIS]
 >
->* [ コンバージョントラッキングオプション ](conversion-tracking-about.md)
->* [Adobe Advertising コンバージョンタグの生成と実装 ](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [JavaScript コンバージョントラッキングタグバージョン 3 の形式 ](format-conversion-tag-jsv3.md)
->* [JavaScript コンバージョントラッキングタグバージョン 2 の形式 ](format-conversion-tag-jsv2.md)
->* [ 画像変換トラッキングタグの形式 ](format-conversion-tag-image.md)
->* [ コンバージョンおよびページビューのトラッキングタグに関する FAQ](faqs-conversion-page-view-tracking-tags.md)
->* [Adobe Advertising JavaScript コンバージョンマッピングタグ ](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+>* [&#x200B; コンバージョントラッキングオプション &#x200B;](conversion-tracking-about.md)
+>* [Adobe Advertising コンバージョンタグの生成と実装 &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [JavaScript コンバージョントラッキングタグバージョン 3 の形式 &#x200B;](format-conversion-tag-jsv3.md)
+>* [JavaScript コンバージョントラッキングタグバージョン 2 の形式 &#x200B;](format-conversion-tag-jsv2.md)
+>* [&#x200B; 画像変換トラッキングタグの形式 &#x200B;](format-conversion-tag-image.md)
+>* [&#x200B; コンバージョンおよびページビューのトラッキングタグに関する FAQ](faqs-conversion-page-view-tracking-tags.md)
+>* [Adobe Advertising JavaScript コンバージョンマッピングタグ &#x200B;](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
