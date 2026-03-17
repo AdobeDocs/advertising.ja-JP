@@ -4,9 +4,9 @@ description: 目標の編集方法を説明します。
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: b2363781-d767-4a4a-9137-17834088721e
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Goals]/[!UICONTROL Objectives]** をクリックします。
 
-1. 目的の横にあるチェックボックスをオンにします。 データ テーブルの上にあるツールバーで、[![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ")]&#x200B;**[!UICONTROL Edit]** をクリックします。
+1. 目的の横にあるチェックボックスをオンにします。 データ テーブルの上にあるツールバーで、[![ 編集 ](/help/search-social-commerce/assets/edit.png " 編集 ")]**[!UICONTROL Edit]** をクリックします。
 
 1. 目標設定のいずれかを変更します。
 
@@ -31,8 +31,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 目標について &#x200B;](objective-about.md)
->* [&#x200B; 目標の作成 &#x200B;](objective-create.md)
->* [&#x200B; 目標の削除 &#x200B;](objective-delete.md)
->* [&#x200B; 目標への重み付けレコメンデーションの適用 &#x200B;](objective-apply-weight-recommendations.md)
->* [&#x200B; 目標の設定 &#x200B;](objective-settings.md)
+>* [ 目標について ](objective-about.md)
+>* [ 目標の作成 ](objective-create.md)
+>* [ 目標の削除 ](objective-delete.md)
+>* [ 目標への重み付けレコメンデーションの適用 ](objective-apply-weight-recommendations.md)
+>* [ 目標の設定 ](objective-settings.md)
+>* [ 目標のパフォーマンスデータのダウンロード ](objective-download-performance-data.md)
