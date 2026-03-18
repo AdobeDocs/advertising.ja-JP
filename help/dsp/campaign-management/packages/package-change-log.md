@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. （オプション）次のいずれかの操作をおこないます。
 
-   * データの表示を、テーブル形式のみと、テーブル形式とグラフ形式の両方で切り替えるには、![ テーブルとグラフの表示 ](/help/dsp/assets/table-plus-chart-view.png " テーブルとグラフの表示 ")、または右上のツールバーにある ![テーブル表示](/help/dsp/assets/table-view.png "テーブル表示") をクリックします。
+   * データの表示を、テーブル形式のみと、テーブル形式とグラフ形式の両方で切り替えるには、![&#x200B; テーブルとグラフの表示 &#x200B;](/help/dsp/assets/table-plus-chart-view.png " テーブルとグラフの表示 ")、または右上のツールバーにある ![テーブル表示](/help/dsp/assets/table-view.png "テーブル表示") をクリックします。
 
    * エントリにメモを追加するには、行の [!UICONTROL Notes] 列にカーソルを置き、[**[!UICONTROL Add Notes]**] をクリックします。 入力フィールドにテキストを入力し、「**[!UICONTROL Save]**」をクリックします。
 
@@ -32,8 +32,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ パッケージ管理について ](package-about.md)
->* [ パッケージの作成 ](package-create.md)
->* [ パッケージの編集 ](package-edit.md)
->* [ パッケージへのプレースメントの添付 ](package-attach-placement.md)
->* [ パッケージ設定 ](package-settings.md)
+>* [&#x200B; パッケージ管理について &#x200B;](package-about.md)
+>* [&#x200B; パッケージの作成 &#x200B;](package-create.md)
+>* [&#x200B; パッケージの編集 &#x200B;](package-edit.md)
+>* [&#x200B; パッケージへのプレースメントの添付 &#x200B;](package-attach-placement.md)
+>* [&#x200B; パッケージ設定 &#x200B;](package-settings.md)
