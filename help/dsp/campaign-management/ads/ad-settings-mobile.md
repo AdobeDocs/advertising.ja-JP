@@ -3,7 +3,7 @@ title: モバイル広告設定
 description: モバイル広告に使用できる広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **[!UICONTROL Display Code]:** サードパーティのクリエイティブアセットの URL。 [timestamp] および [[timestamp]] パラメーターは、実際の値に置き換えられます。
 
-**[!UICONTROL Final Display Code]:** サードパーティのクリエイティブアセットの URL で、必要な [Advertising DSP トラッキングマクロ &#x200B;](/help/dsp/campaign-management/macros.md) が挿入されています（該当する場合）。
+**[!UICONTROL Final Display Code]:** サードパーティのクリエイティブアセットの URL で、必要な [Advertising DSP トラッキングマクロ ](/help/dsp/campaign-management/macros.md) が挿入されています（該当する場合）。
 
 ### [!UICONTROL Basic]：ビデオ広告
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 **[!UICONTROL VAST Tag]:** （VAST タグを使用した広告のみ。読み取り専用） クリエイティブアセットとして入力したサードパーティの VAST タグ。
 
-**[!UICONTROL Final VAST Tag]:** （VAST タグを使用した広告のみ。読み取り専用）必要な [Advertising DSP トラッキングマクロ &#x200B;](/help/dsp/campaign-management/macros.md) が挿入されたクリエイティブアセットとして入力したサードパーティ VAST タグ（該当する場合）。
+**[!UICONTROL Final VAST Tag]:** （VAST タグを使用した広告のみ。読み取り専用）必要な [Advertising DSP トラッキングマクロ ](/help/dsp/campaign-management/macros.md) が挿入されたクリエイティブアセットとして入力したサードパーティ VAST タグ（該当する場合）。
 
 **[!UICONTROL Wmode]:** （一部の広告タイプ）ウィンドウモード：*[!UICONTROL window]*、*[!UICONTROL transparent]*、*[!UICONTROL opaque]*。
 
@@ -92,8 +92,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Ad Management について &#x200B;](ad-about.md)
->* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
->* [&#x200B; 広告に関連付けられたプレースメントのリスト &#x200B;](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [&#x200B; 広告仕様 &#x200B;](ad-specs.md)
->* [DSP マクロ &#x200B;](/help/dsp/campaign-management/macros.md)
+>* [Ad Management について ](ad-about.md)
+>* [ 単一の広告の作成 ](ad-create.md)
+>* [ 広告に関連付けられたプレースメントのリスト ](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [ 広告仕様 ](ad-specs.md)
+>* [DSP マクロ ](/help/dsp/campaign-management/macros.md)

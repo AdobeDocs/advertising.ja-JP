@@ -3,7 +3,7 @@ title: プリロール広告設定
 description: プリロール広告で使用可能な広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: d0ba4346-13ae-405c-92b6-a0c32dd09d0a
-source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL VAST Tag]:** （VAST タグを使用した広告のみ。読み取り専用）広告ソースとして入力したサードパーティの VAST タグ。
 
-**[!UICONTROL Final VAST Tag]:** （VAST タグを使用した広告のみ。読み取り専用）必要な [Advertising DSP トラッキングマクロ &#x200B;](/help/dsp/campaign-management/macros.md) が挿入された広告ソースとして入力したサードパーティ VAST タグ（該当する場合）。
+**[!UICONTROL Final VAST Tag]:** （VAST タグを使用した広告のみ。読み取り専用）必要な [Advertising DSP トラッキングマクロ ](/help/dsp/campaign-management/macros.md) が挿入された広告ソースとして入力したサードパーティ VAST タグ（該当する場合）。
 
 **[!UICONTROL Wmode]:** （インタラクティブなプリロールのみ）ウィンドウモード：*[!UICONTROL window]*、*[!UICONTROL transparent]* または *[!UICONTROL opaque]*。
 
@@ -74,8 +74,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Ad Management について &#x200B;](ad-about.md)
->* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
->* [&#x200B; 広告に関連付けられたプレースメントのリスト &#x200B;](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [&#x200B; 広告仕様 &#x200B;](ad-specs.md)
->* [DSP マクロ &#x200B;](/help/dsp/campaign-management/macros.md)
+>* [Ad Management について ](ad-about.md)
+>* [ 単一の広告の作成 ](ad-create.md)
+>* [ 広告に関連付けられたプレースメントのリスト ](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [ 広告仕様 ](ad-specs.md)
+>* [DSP マクロ ](/help/dsp/campaign-management/macros.md)

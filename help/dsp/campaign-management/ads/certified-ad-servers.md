@@ -3,7 +3,7 @@ title: 認定広告サービングパートナー
 description: すべての認定広告サーバーと広告ユニットを表示します。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 70224b9e9c248d45a5ce227d296f2604dd06c222
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X | | X | |
 | [!DNL Inskin] | | | X | | インスキンのインベントリネットワーク全体で、180x150 のディスプレイ取引 ID からハイインパクトのスキン（Cavai 会話広告を含む）を提供する必要があります。 |
 | [!DNL Jivox] | | X | | | |
-| [!DNL Kargo] | | X | | X | 320x50 Anchor, BYOC, Hover, Breakout, Breakaway, Runway, and Sidekick; 300x250 Outstream, HighRise; Standard Desktop Display （特定の広告プラグイン ID は必要ありません）; ビデオアンカー（VAST のみ）; CTV via [!DNL Pubmatic]</br></br> 広告ユニットの設定については、Adobe アカウントチームにお問い合わせください。 |
+| [!DNL Kargo] | | X | | X | 320x50 Anchor, BYOC, Hover, Breakout, Breakaway, Runway, and Sidekick; 300x250 Outstream, HighRise；標準デスクトップディスプレイ（特定の広告プラグイン ID は必要ありません）; ビデオアンカー（VAST のみ）; CTV via [!DNL Pubmatic]</br></br> 広告ユニットの設定については、Adobe アカウントチームにお問い合わせください。 |
 | [!DNL Linkstorm] | | | X | | |
 | [!DNL mCanvas] | | | X | | |
 | [!DNL Medialets] | | X | | | |

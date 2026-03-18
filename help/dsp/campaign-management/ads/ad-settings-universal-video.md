@@ -3,7 +3,7 @@ title: ユニバーサルビデオ広告設定
 description: ユニバーサルビデオ広告に使用できる広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 **[!UICONTROL VAST Tag]:** （VAST タグを使用した広告のみ。読み取り専用）広告ソースとして入力したサードパーティの VAST タグ。
 
-**[!UICONTROL Final VAST Tag]:** （VAST タグを使用した広告のみ。読み取り専用）必要な [Advertising DSP トラッキングマクロ &#x200B;](/help/dsp/campaign-management/macros.md) が挿入された広告ソースとして入力したサードパーティ VAST タグ（該当する場合）。
+**[!UICONTROL Final VAST Tag]:** （VAST タグを使用した広告のみ。読み取り専用）必要な [Advertising DSP トラッキングマクロ ](/help/dsp/campaign-management/macros.md) が挿入された広告ソースとして入力したサードパーティ VAST タグ（該当する場合）。
 
 **[!UICONTROL Wmode]:** ウィンドウモード：*[!UICONTROL window]*、*[!UICONTROL transparent]* または *[!UICONTROL opaque]*。 この設定が適用されない場合は、空白のままにします。
 
@@ -64,9 +64,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
->* [Ad Management について &#x200B;](ad-about.md)
->* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
->* [&#x200B; 広告に関連付けられたプレースメントのリスト &#x200B;](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [&#x200B; 広告仕様 &#x200B;](ad-specs.md)
->* [DSP マクロ &#x200B;](/help/dsp/campaign-management/macros.md)
+>* [ ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Ad Management について ](ad-about.md)
+>* [ 単一の広告の作成 ](ad-create.md)
+>* [ 広告に関連付けられたプレースメントのリスト ](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [ 広告仕様 ](ad-specs.md)
+>* [DSP マクロ ](/help/dsp/campaign-management/macros.md)
