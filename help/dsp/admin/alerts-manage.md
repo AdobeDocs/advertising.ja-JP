@@ -3,7 +3,7 @@ title: アラート配信登録の管理
 description: 自動メールアラートを管理する方法を説明します。
 role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * 購読のアラートを編集するには：
 
-   1. サブスクリプション名の右側にある ![&#x200B; 編集 &#x200B;](/help/dsp/assets/edit.png) をクリックします。
+   1. サブスクリプション名の右側にある ![ 編集 ](/help/dsp/assets/edit.png) をクリックします。
 
    1. アラートパラメーターを編集します。
 
@@ -70,9 +70,9 @@ ht-degree: 0%
 
   複数のアドレスはスペースで区切ります。
 
-* サブスクリプションの購読者を削除するには、**[!UICONTROL Subscribers]** の下のメールアドレスの横にある「**[!UICONTROL X]**」をクリックします。
+* サブスクリプションの購読者を削除するには、**[!UICONTROL X]** の下のメールアドレスの横にある「**[!UICONTROL Subscribers]**」をクリックします。
 
-## サブスクリプションを無効または有効にする
+## 購読の無効化または有効化
 
 * 購読名の左側で、切替スイッチを左に移動して購読を無効にするか、右に移動して購読を有効にします。
 
@@ -84,4 +84,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[&#x200B; アラート購読について &#x200B;](alerts-about.md)
+>[ アラート購読について ](alerts-about.md)

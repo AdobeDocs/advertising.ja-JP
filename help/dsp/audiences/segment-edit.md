@@ -3,7 +3,7 @@ title: セグメント情報の編集
 description: カスタムまたは CCPA の販売オプトアウトセグメントに関する情報を編集する方法を説明します。
 feature: DSP Segments
 exl-id: 1df6bf2a-4008-46ec-8b4a-e3d0c8322e44
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -32,8 +32,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Audience Management について &#x200B;](audience-about.md)
->* [&#x200B; カスタムセグメントの作成 &#x200B;](custom-segment-create.md)
->* [&#x200B; セグメントの削除 &#x200B;](segment-delete.md)
->* [&#x200B; セグメントのトラッキングピクセルの表示 &#x200B;](segment-view-pixels.md)
->* [&#x200B; セグメントの共有または共有の停止 &#x200B;](segment-share.md)
+>* [Audience Management について ](audience-about.md)
+>* [ カスタムセグメントの作成 ](custom-segment-create.md)
+>* [ セグメントの削除 ](segment-delete.md)
+>* [ セグメントのトラッキングピクセルの表示 ](segment-view-pixels.md)
+>* [ セグメントの共有または共有の停止 ](segment-share.md)

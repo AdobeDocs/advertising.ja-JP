@@ -3,9 +3,9 @@ title: クロスデバイスソリューション
 description: クロスデバイス機能の詳細を説明します。
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Advertising DSPと [!DNL LiveRamp] の統合により、ブランドがトラッ
 * 個々のユーザーの把握とキャッピング頻度の把握により、広告への露出のバランスを取ります。
 * チャネルやデバイスをまたいでオーディエンスを公開またはコンバージョンするテスト戦略。
 
-## [!DNL LiveRamp] Device Graph の利点
+## [!DNL LiveRamp] デバイスグラフのメリット
 
 * オフライン顧客データを含む決定論的なデータプールを提供
 
@@ -30,19 +30,19 @@ Advertising DSPと [!DNL LiveRamp] の統合により、ブランドがトラッ
 
 * フリークエンシーキャップおよびアトリビューション測定に無料
 
-* 拡張インプレッション数（ターゲットオーディエンスセグメント内のデバイスではなく、[!DNL LiveRamp] のデバイスグラフのみを使用して配信されるインプレッション）の場合、0.35 CPM ドルの価格が設定されます
+* 拡張インプレッション数（ターゲットオーディエンスセグメント内のデバイスではなく、[!DNL LiveRamp] デバイスグラフのみを使用して配信されるインプレッション）の場合、0.35 CPM USD の価格が設定されます
 
   料金はアカウントの料金カードに反映されます。
 
-## People-Based Frequency Management
+## ユーザーベースの頻度管理
 
 人物ベースの頻度管理を使用すると、デバイスレベルではなく人物レベルでフリークエンシーキャップを指定して、真のメディア露出制御を行うことができます。
 
-### People-Based Frequency Management の有効化
+### ユーザーベースの頻度管理を有効にする
 
 * **キャンペーン：** 新しいキャンペーンを作成する際に、キャン [!UICONTROL Cross-Device Level] ーン設定を指定できます。 「[!UICONTROL Same Device]」 – > 「[!UICONTROL People]」を有効にし、デバイスグラフを選択します。 指定されたデバイスグラフは、プレースメント レベルでのクロスデバイスターゲティングと、キャンペーン、パッケージ、プレースメントの各レベルでの人物ベースの頻度管理の両方に使用されます。 フリークエンシーキャップは、人の既知のすべてのデバイスに適用されます。
 
-詳しくは、[&#x200B; キャンペーン設定 &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md) を参照してください。
+詳しくは、[ キャンペーン設定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md) を参照してください。
 
 キャンペーンを保存すると、そのキャン [!UICONTROL Cross Device Level] ーン設定を変更できなくなります。
 
@@ -58,35 +58,35 @@ Advertising DSPと [!DNL LiveRamp] の統合により、ブランドがトラッ
 
 * **キャンペーン：** 新しいキャンペーンを作成する際に、キャン [!UICONTROL Cross-Device Level] ーン設定を指定できます。 「[!UICONTROL Same Device]」 – > 「[!UICONTROL People]」を有効にし、デバイスグラフを選択します。 指定したデバイスグラフは、配置レベルでのクロスデバイスターゲティングと、人物ベースの頻度管理の両方に使用されます。
 
-詳しくは、[&#x200B; キャンペーン設定 &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md) を参照してください。
+詳しくは、[ キャンペーン設定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md) を参照してください。
 
 * **プレースメント：** 指定したデバイスグラフを使用したキャンペーンのプレースメントに対してオーディエンスターゲットを選択する場合、[!UICONTROL Cross-Device Targeting] オプションを使用すると、指定したセグメントに含まれていないデバイスも含め、個人の既知のすべてのデバイス（キャンペーン設定で指定したデバイスグラフごと）にターゲティングを拡張できます。
 
-### 人物ベースのターゲティングのレポートの設定
+### 人物ベースのターゲティングのレポートを設定
 
 カスタムレポートには、次の指標を含めることができます。
 
-* **拡張インプレッション数：** （[!UICONTROL Metrics]/[!UICONTROL Std. Metrics] の下の [!UICONTROL Build Your Report] セクション）デバイスグラフを活用して配信された（元のオーディエンスセグメントには見つからない）増分インプレッション数。 この指標は、サードパーティのデバイスグラフの使用に関連する適用料金の計算にも使用されます。
+* **拡張インプレッション数：** （[!UICONTROL Build Your Report]/[!UICONTROL Metrics] の下の [!UICONTROL Std. Metrics] セクション）デバイスグラフを活用して配信された（元のオーディエンスセグメントには見つからない）増分インプレッション数。 この指標は、サードパーティのデバイスグラフの使用に関連する適用料金の計算にも使用されます。
 
   期間中の拡張インプレッションのコストを判断するには、[!UICONTROL Extended Impressions] 列を含むカスタムレポートを実行してから、拡張インプレッションの合計数に 0.00035 ドル（1,000 インプレッションあたり 0.35 ドル）を乗算します。
 
   集計されたコストは、[!UICONTROL Billable Other Net Spend] 列（[!UICONTROL Metrics]/[!UICONTROL Spend] の下）にも含まれますが、その指標には、追加した他のキャンペーン料金も含まれる場合があります。
 
-* **デバイスグラフ：** （[!UICONTROL Dimensions]/[!UICONTROL Campaign] の下の [!UICONTROL Build Your Report] セクション）特定のキャンペーン、パッケージまたはプレースメントに対して選択したデバイスグラフ。
+* **デバイスグラフ：** （[!UICONTROL Build Your Report]/[!UICONTROL Dimensions] の下の [!UICONTROL Campaign] セクション）特定のキャンペーン、パッケージまたはプレースメントに対して選択したデバイスグラフ。
 
 ## 人物ベースのアトリビューション測定
 
-*Adobe Advertisingコンバージョントラッキングのみを使用する広告主*
+*Adobe Advertisingのコンバージョントラッキングのみを使用する広告主*
 
-人物ベースのアトリビューションを使用すると、メディア漏洩が発生したデバイスとは別のデバイスで発生したコンバージョンを関連付けることができます。 People-based attribution measurement は、DSP、[!DNL Adobe Advertising Creative]、[!DNL Adobe Advertising Search, Social, & Commerce] で利用でき、サイトにAdobe Advertisingコンバージョンピクセルを実装している広告主に対して利用できます。
+人物ベースのアトリビューションを使用すると、メディア漏洩が発生したデバイスとは別のデバイスで発生したコンバージョンを関連付けることができます。 人物ベースのアトリビューション測定は、DSP、[!DNL Adobe Advertising Creative]、[!DNL Adobe Advertising Search, Social, & Commerce] で、サイトにAdobe Advertising コンバージョンピクセルを実装している広告主が使用できます。
 
 ### 人物ベースのアトリビューション測定の有効化
 
-クロスデバイスアトリビューション測定をアクティブ化する場合は、Adobeアカウントチームにお問い合わせください。
+クロスデバイスアトリビューション測定をアクティブ化する場合は、Adobe アカウントチームにお問い合わせください。
 
-### クロスデバイスコンバージョンアトリビューション用のコンバージョンレポートを設定します
+### クロスデバイスコンバージョンアトリビューション用の [!UICONTROL Conversion] レポートの設定
 
-#### コンバージョンレポート設定
+#### [!UICONTROL Conversion] Report settings
 
 アトリビューション測定に対してデバイスグラフが有効になっている場合、[!UICONTROL Conversion] レポートには [!UICONTROL Cross-Device Breakout] 設定が含まれます。この設定を使用すると、各コンバージョン指標に対して最大 3 つの異なる列（以下を含む）を含めることができます。
 
@@ -96,7 +96,7 @@ Advertising DSPと [!DNL LiveRamp] の統合により、ブランドがトラッ
 
 * &lt;*Conversion*>[!UICONTROL (xd)]: （任意）コンバージョンパスで複数のデバイスが追跡されたコンバージョンのみを含めます。 レポートでは、「[!UICONTROL (xd)]」がコンバージョンパスのコンバージョン指標名、ルールタイプおよびコンバージョンタイプに追加されます（例えば、「Responses （le）（tl）（xd）」）。
 
-#### コンバージョンレポートの解釈方法
+#### [!UICONTROL Conversion] レポートの解釈方法
 
 クロスデバイス（[!UICONTROL (xd)]/[!UICONTROL (tl)]）の合計コンバージョンの割合を高から低に並べ替えて、平均を上回るクロスデバイスコンバージョンの要因を把握します。 これを使用して、メッセージやチャネルへの投資をユーザーの行動に一致させるために、クリエイティブ戦略やターゲティング戦略を通知できます。
 
@@ -112,7 +112,7 @@ Advertising DSPと [!DNL LiveRamp] の統合により、ブランドがトラッ
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 報告書設定 &#x200B;](/help/dsp/reports/report-settings.md)
->* [&#x200B; キャンペーン設定 &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
->* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ 報告書設定 ](/help/dsp/reports/report-settings.md)
+>* [ キャンペーン設定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)

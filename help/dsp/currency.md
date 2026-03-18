@@ -3,7 +3,7 @@ title: サポートされる通貨
 description: サポートされている通貨のリストを参照してください。
 feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
-source-git-commit: 5fa4ba523b3036b8fc184dea082ae5a77ef71919
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Adobe Advertisingは、次の通貨をサポートしています。
 
 >[!NOTE]
 >
->Adobe Analyticsは [&#x200B; より大きな通貨のセット &#x200B;](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=ja) をサポートしています。
+>Adobe Analyticsは [ より大きな通貨のセット ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) をサポートしています。
 
 ## DSPとCreative
 
@@ -48,5 +48,5 @@ Adobe Advertisingは、次の通貨をサポートしています。
 
 ## [!DNL Adobe Advertising Search, Social, & Commerce]
 
-サポートされている検索エンジンでサポートされているすべての通貨。 これは [&#x200B; でサポートされている  [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes) と同じです。
+サポートされている検索エンジンでサポートされているすべての通貨。 これは [ でサポートされている  [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes) と同じです。
 

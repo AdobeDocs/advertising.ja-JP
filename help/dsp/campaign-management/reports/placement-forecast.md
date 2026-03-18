@@ -1,16 +1,16 @@
 ---
-title: 配置予測レポートの表示
+title: プレースメント予測レポートの表示
 description: プレースメントの特定のターゲティング戦略に対して予測されたインプレッション数、支出、最適最大入札額を確認します。
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
-# 配置予測レポートの表示
+# プレースメント予測レポートの表示
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >* 郵便番号は、プレースメント予測の計算では考慮されません。
 >* プログラムで保証された（PG）ターゲティングのみを使用したプレースメントの場合、可用性と支出が決定論的なので、予測が生成されません。
 
-## Forecast 内の情報
+## 予測の情報
 
 予測には、次の情報が含まれます。
 
@@ -81,6 +81,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ &#x200B;](campaign-reports-about.md)
->* [&#x200B; プレースメント診断レポートの表示 &#x200B;](/help/dsp/campaign-management/reports/placement-diagnostics.md)
->* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ キャンペーン管理ビューでのパフォーマンスレポートのタイプ ](campaign-reports-about.md)
+>* [ プレースメント診断レポートの表示 ](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
