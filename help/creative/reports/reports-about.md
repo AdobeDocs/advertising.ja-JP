@@ -2,7 +2,8 @@
 title: カスタムレポートについて
 description: カスタムレポートの作成オプションについて説明します。
 feature: Creative Reporting
-source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
+exl-id: d52a2761-5e50-4a38-a9e1-141e962f1166
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 カスタムレポートを使用すると、最も重要な指標を使用して、レポートデータのコンテンツと配信をカスタマイズできます。
 
-レポートを 1 回生成することも、指定した基準（15 日ごと、毎月 1 日など）に従って指定したタイムゾーンで毎日 :00 毎週、または毎月 03 時に生成するようにスケジュールすることもできます。 レポートが生成されたら、[!UICONTROL Reports] / [!UICONTROL Custom Reports] または次のタイプのリンクされた [&#x200B; レポートの宛先 &#x200B;](/help/dsp/reports/report-destinations/report-destination-about.md) からダウンロードできます。
+レポートを 1 回生成することも、指定した基準（15 日ごと、毎月 1 日など）に従って指定したタイムゾーンで毎日 :00 毎週、または毎月 03 時に生成するようにスケジュールすることもできます。 レポートが生成されたら、[!UICONTROL Reports] / [!UICONTROL Custom Reports] または次のタイプのリンクされた [ レポートの宛先 ](/help/dsp/reports/report-destinations/report-destination-about.md) からダウンロードできます。
 
 * [!DNL Amazon Simple Storage Service] （[!DNL S3]）
 * FTP

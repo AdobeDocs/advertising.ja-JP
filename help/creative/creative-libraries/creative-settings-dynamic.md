@@ -3,7 +3,7 @@ title: 動的クリエイティブ設定
 description: ダイナミッククリエイティブの設定を参照します。
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: 164ee92f85c0e649dc2bd6c0224a531eb72d1962
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- add a description -->
 
-### 基本詳細
+### 基本の詳細
 
 **[!UICONTROL Creative Type]:** クリエイティブが *[!UICONTROL Display]* 広告（HTML5）か *[!UICONTROL Video]* 広告か。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 続行するには、[**[!UICONTROL Select Ad Template]**] をクリックします。
 
-**[!UICONTROL Size]:** （動的なディスプレイ広告のみ。読み取り専用）選択した広告テンプレートの [&#x200B; 広告ディメンション &#x200B;](/help/creative/creative-libraries/creative-sizes.md)。広告の作成に使用されます。
+**[!UICONTROL Size]:** （動的なディスプレイ広告のみ。読み取り専用）選択した広告テンプレートの [ 広告ディメンション ](/help/creative/creative-libraries/creative-sizes.md)。広告の作成に使用されます。
 
 **[!UICONTROL Card Count (Max 50)]:** （広告の表示のみ） カルーセルに表示する製品の数。
 
@@ -66,6 +66,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; クリエイティブライブラリへのダイナミッククリエイティブの追加 &#x200B;](creative-add-dynamic.md)
->* [&#x200B; クリエイティブライブラリ内のダイナミッククリエイティブの編集 &#x200B;](creative-edit-dynamic.md)
->* [&#x200B; 動的広告のワークフロー &#x200B;](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [ クリエイティブライブラリへのダイナミッククリエイティブの追加 ](creative-add-dynamic.md)
+>* [ クリエイティブライブラリ内のダイナミッククリエイティブの編集 ](creative-edit-dynamic.md)
+>* [ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md)
