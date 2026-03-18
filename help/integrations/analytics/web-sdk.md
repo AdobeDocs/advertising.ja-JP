@@ -73,5 +73,5 @@ Web ページで使用する [!DNL Analytics for Advertising] [!DNL Last Event S
 
 >[!MORELIKETHIS]
 >
->* [ 概要  [!DNL Analytics for Advertising]](overview.md)
->* [ [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) のJavaScript コード
+>* [&#x200B; 概要  [!DNL Analytics for Advertising]](overview.md)
+>* [&#x200B; [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) のJavaScript コード

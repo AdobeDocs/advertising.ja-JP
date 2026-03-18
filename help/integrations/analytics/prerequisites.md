@@ -23,7 +23,7 @@ Adobe AdvertisingをAdobe Analyticsと統合する前に、次の情報を確認
    * Experience Cloud ID サービス：`visitorAPI.js` バージョン 2.0 以降
 * あらゆるバージョンのAdobe Analytics（[!DNL Prime]、[!DNL Premium]、[!DNL Ultimate] を含む）
 * Adobe Analytics:`appMeasurement.js` バージョン 2.1 以降
-* （Advertising DSPのお客様） Web ページにデプロイされた [Advertising DSP JavaScript スニペット ](javascript.md) で、ビュースルー訪問をトラッキングします。
+* （Advertising DSPのお客様） Web ページにデプロイされた [Advertising DSP JavaScript スニペット &#x200B;](javascript.md) で、ビュースルー訪問をトラッキングします。
 
 >[!TIP]
 >
@@ -41,15 +41,15 @@ Adobe Advertising導入チームに次の情報を提供します。
 * 有料メディアアクティビティのレポートと、Adobe Advertisingでの最適化とレポートのためのサイトアクティビティのフィードに使用する [!DNL Analytics] レポートスイート ID
 * 会社のExperience Cloud組織 ID （組織 ID）。
 
-これらの ID は両方とも、[Adobe Experience Cloud Debugger の「概要」タブ ](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) にあります。
+これらの ID は両方とも、[Adobe Experience Cloud Debugger の「概要」タブ &#x200B;](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) にあります。
 
-![Experience Cloud Debugger の概要画面 ](/help/integrations/assets/a4adc-debugger-summary.png)
+![Experience Cloud Debugger の概要画面 &#x200B;](/help/integrations/assets/a4adc-debugger-summary.png)
 
 ## Adobe Advertisingでの [!DNL Analytics] Data {#lookback-a4adc}
 
 レポート [!DNL Analytics] 最適化のためにデータがAdobe Advertisingに送信されるので、データは、Adobe Advertisingの広告主向けに設定されたインプレッションやクリックルックバックウィンドウを含むアトリビューションルールの対象となります。
 
-![Adobe Advertisingでの広告主レベルのルックバックウィンドウの設定 ](/help/integrations/assets/a4adc-lookbacks.png)
+![Adobe Advertisingでの広告主レベルのルックバックウィンドウの設定 &#x200B;](/help/integrations/assets/a4adc-lookbacks.png)
 
 * Adobe Advertising アトリビューションクリックのルックバックウィンドウ：クリックがコンバージョンに関連付けられる、最初のクリックが発生した後の日数。 デフォルトでは、この値は 60 日です（最大 90 日）
 * Adobe Advertising アトリビューションインプレッションのルックバックウィンドウ：広告インプレッションが発生してから、インプレッションをコンバージョンに関連付けることができる日数です。 デフォルトでは、この値は 14 日です（最大 30 日）
@@ -68,7 +68,7 @@ Adobe Advertising導入チームに次の情報を提供します。
 
 >[!NOTE]
 >
->異なる時間枠のデータをセグメント化するには、Analysis Workspace内の異なるルックバックウィンドウで [ カスタムセグメントを設定 ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) できます。
+>異なる時間枠のデータをセグメント化するには、Analysis Workspace内の異なるルックバックウィンドウで [&#x200B; カスタムセグメントを設定 &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) できます。
 
 ## サポートされる広告環境
 
@@ -91,7 +91,7 @@ Adobe Advertising導入チームに次の情報を提供します。
 
 * 統合では [!DNL Analytics] その後の有料メディアおよび広告の取り組みの入札最適化のために、標準およびカスタムイベントのみがAdobe Advertisingに渡されます。 入札最適化のために、[!DNL Analytics] セグメント、計算指標、[!DNL eVars] がAdobe Advertisingに渡されることはありません。
 
-* Adobe Advertisingは、Adobe Advertisingで設定された [!DNL Analytics] クリックおよびビュースルールックバックウィンドウ [ に基づいて、ユーザーがサイトに入る前にクリックまたは表示された最後の広告に基づいて、](#lookback-a4adc) 内に永続的な ID を作成します。 サイト訪問者のプロファイル内に両方のタイプのサイトエントリインタラクションがあり、クリックがルックバック期間内にある場合、訪問者のクリックスルー ID がサイトレポートのビュースルー ID を上書きします。
+* Adobe Advertisingは、Adobe Advertisingで設定された [!DNL Analytics] クリックおよびビュースルールックバックウィンドウ [&#x200B; に基づいて、ユーザーがサイトに入る前にクリックまたは表示された最後の広告に基づいて、](#lookback-a4adc) 内に永続的な ID を作成します。 サイト訪問者のプロファイル内に両方のタイプのサイトエントリインタラクションがあり、クリックがルックバック期間内にある場合、訪問者のクリックスルー ID がサイトレポートのビュースルー ID を上書きします。
 
 * Adobe Analyticsのコンバージョントラッキング [!DNL Analytics for Advertising]、設定可能なトラッキングルックバックウィンドウ（デフォルトでは 60 日）を使用します。 Adobe Advertising レポートは、このトラッキングルックバックウィンドウの最後までのサイトコンバージョンとエンゲージメントを反映します。
 
@@ -119,5 +119,5 @@ Experience Cloud ID サービスがサイトに実装されると、[!DNL Analyt
 
 >[!MORELIKETHIS]
 >
->* [ 概要  [!DNL Analytics for Advertising]](overview.md)
->* [Analytics for AdvertisingのJavaScript コード ](/help/integrations/analytics/javascript.md)
+>* [&#x200B; 概要  [!DNL Analytics for Advertising]](overview.md)
+>* [Analytics for AdvertisingのJavaScript コード &#x200B;](/help/integrations/analytics/javascript.md)

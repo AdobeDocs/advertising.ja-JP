@@ -28,7 +28,7 @@ Adobe AdvertisingはAdobe Customer Journey Analyticsと統合されており、�
 
    * Adobe Advertisingの [!DNL Analytics] のアトリビューションデータ。最適化とレポートに使用できます。
 
-  このユースケースでは、オプションで [Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データを収集 ](/help/integrations/analytics/rvars-to-evars.md) を使用する必要があります。
+  このユースケースでは、オプションで [Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データを収集 &#x200B;](/help/integrations/analytics/rvars-to-evars.md) を使用する必要があります。
 
 <!--
   In this use case, you don't need to perform any extra steps except to optionally [collect historical data for AMO IDs and EF IDs for use in Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
@@ -52,8 +52,8 @@ Adobe アカウントチームに連絡してください。アカウントチ�
 
 >[!MORELIKETHIS]
 >
->* [ 前提条件 ](prerequisites.md)
->* [ 使用するAdobe Advertising ID [!DNL Customer Journey Analytics]](ids.md)
->* [ データ収集、データ転送、レポートの設定 ](set-up.md)
->* [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション ](advertising-data-in-cja.md)
->* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データを収集します ](/help/integrations/analytics/rvars-to-evars.md)。
+>* [&#x200B; 前提条件 &#x200B;](prerequisites.md)
+>* [&#x200B; 使用するAdobe Advertising ID [!DNL Customer Journey Analytics]](ids.md)
+>* [&#x200B; データ収集、データ転送、レポートの設定 &#x200B;](set-up.md)
+>* [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション &#x200B;](advertising-data-in-cja.md)
+>* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データを収集します &#x200B;](/help/integrations/analytics/rvars-to-evars.md)。
