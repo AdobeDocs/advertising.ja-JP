@@ -1,16 +1,16 @@
 ---
-title: DSP プランナーツールについて
+title: DSP Planner ツールについて
 description: プランナーツールについて説明します。このツールでは、指定された予算およびターゲティング条件に従って、コネクテッド TV （CTV）プレースメントのユニークなリーチを予測します。
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
 
 ---
 
-# DSP プランナーツールについて
+# DSP Planner ツールについて
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 プランナーツールを使用すると、在庫管理に費やす前に、指定された予算およびターゲティング条件に従って、接続された TV （CTV）プレースメントの世帯レベルのユニークなリーチを予測できます。 複数のリーチプランを評価した後、パッケージやプレースメントで目的の結果に最も適したプランを実装できます。
 
-プランナーツールは、過去 90 日間の過去の入札履歴、インプレッションおよびリーチデータを使用して、プラン設定のユニーク達成度、平均 CPM、平均頻度、およびインプレッション数を推定します。
+プランナーツールでは、過去 90 日間の入札履歴、インプレッション数およびリーチデータを使用して、プラン設定のユニーク達成度、平均CPM、平均頻度、インプレッション数を推定します。
 
 ## プランナの予測
 
 各予測は、計画設定で達成可能なリーチ量を示す、予算達成率予測曲線で構成されます。 ビジュアライゼーションの上にカーソルを移動すると、予算が高い増分リーチの機会が表示されます。
 
-![&#x200B; 計画担当予測 &#x200B;](/help/dsp/assets/planner-forecast.png " 計画担当予測 ")
+![ 計画担当予測 ](/help/dsp/assets/planner-forecast.png " 計画担当予測 ")
 
 予測の出力には、様々なパブリッシャーが独自のリーチにどのように貢献し、貴重な発見の機会を提供しているかを示す [!UICONTROL Inventory Breakdown] の節も含まれています。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 +++
 
-+++なぜ「[!UICONTROL Unable to generate forecast]」と表示されるのですか？
++++「[!UICONTROL Unable to generate forecast]」と表示される理由
 
 このエラーの最も一般的な理由の 1 つは、不十分な予算または最大入札額です。 最良の結果を得るには、最小予算の 5,000 USD を使用します。 [!UICONTROL Connected TV] メディアタイプを選択した場合は、最大入札額を 10 USD 以上で入力します。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 +++
 
-+++予測に基づいてプレースメントを作成しましたが、リーチ予測で示されたユニークなリーチの量を達成していませんでした。 なぜでしょうか。
++++予測に基づいてプレースメントを作成しましたが、リーチ予測で示されたユニークなリーチの量を達成していませんでした。 なぜでしょうか。 
 
 リーチ予測は単なる試算であり、季節性、入札競争力、需給など頻繁に変化する複数の要因によって、実際の業績は変動することが予想されます。 これは完全に正確であるとは期待されていませんが、最良の結果を導く可能性のあるキャンペーン戦略に関する方向性のインサイトを得るのに最も役立ちます。
 
@@ -69,15 +69,15 @@ ht-degree: 0%
 
 +++プランナの予測出力を保存できますか？
 
-はい。右上の **[!UICONTROL ...]** > **[!UICONTROL Export]** をクリックして、予測を [!DNL Microsoft Excel] スプレッドシートにエクスポートできます。 スプレッドシートは、リーチ バジェット カーブに表示される情報を、[!UICONTROL Budget] と [!UICONTROL Reach] の 2 つのデータ列を使用して取得します。
+はい。右上の [!DNL Microsoft Excel] > **[!UICONTROL ...]** をクリックして、予測を **[!UICONTROL Export]** スプレッドシートにエクスポートできます。 スプレッドシートは、リーチ バジェット カーブに表示される情報を、[!UICONTROL Budget] と [!UICONTROL Reach] の 2 つのデータ列を使用して取得します。
 
 >[!MORELIKETHIS]
 >
->* [DSP プランナーツールについて &#x200B;](planner-about.md)
->* [&#x200B; 接続されたテレビのリーチプランを作成 &#x200B;](planner-create.md)
->* [&#x200B; 接続されたテレビのリーチ プランを複製 &#x200B;](planner-duplicate.md)
->* [&#x200B; 接続されたテレビのリーチ プランを編集する &#x200B;](planner-edit.md)
->* [&#x200B; 接続されたテレビのリーチ プランのエクスポート &#x200B;](planner-export.md)
->* [Connected TV Reach Plan の Forecast の再生成 &#x200B;](planner-forecast.md)
->* [&#x200B; 接続されたテレビのリーチ プランをアーカイブする &#x200B;](planner-archive.md)
->* [&#x200B; 接続されたテレビのリーチ プランの設定 &#x200B;](planner-settings.md)
+>* [DSP Planner ツールについて ](planner-about.md)
+>* [ 接続されたテレビのリーチプランを作成 ](planner-create.md)
+>* [ 接続されたテレビのリーチ プランを複製 ](planner-duplicate.md)
+>* [ 接続されたテレビのリーチ プランを編集する ](planner-edit.md)
+>* [ 接続されたテレビのリーチ プランのエクスポート ](planner-export.md)
+>* [Connected TV Reach Plan の Forecast の再生成 ](planner-forecast.md)
+>* [ 接続されたテレビのリーチ プランをアーカイブする ](planner-archive.md)
+>* [ 接続されたテレビのリーチ プランの設定 ](planner-settings.md)

@@ -1,36 +1,36 @@
 ---
-title: トラブルシューティングのパフォーマンス
+title: パフォーマンスのトラブルシューティング
 description: パフォーマンスに関する一般的な問題と、そのトラブルシューティング方法について説明しています。
 feature: DSP Optimization
 exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
-# トラブルシューティングのパフォーマンス
+# パフォーマンスのトラブルシューティング
 
 | 問題 | 考えられる原因 | 実行するアクション |
 | --- | --- | --- |
 | プレースメントに対する費用なし | プレースメントに広告が含まれていない、または広告がアクティブではない。 | 想定されるすべての広告がプレースメントに添付され、承認され、アクティブであることを確認します。<br><br> また、プレースメントにカスタム広告スケジュールが含まれているかどうかを確認します。これにより、各広告のフライト期間が制限される可能性があります。 プレースメント ビューでプレースメントの広告スケジュールを表示するには、プレースメント名の横にある **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]** をクリックします。 |
 | | 影響を受ける日付が、設定されたフライトの日付内にありません。 | キャンペーン、パッケージ、プレースメントレベルでフライト日が有効&#x200B;ことを確認します。 |
 | | 予算の目標が達成されたか、十分に高くありません。 | キャンペーンレベル、パッケージレベルおよびプレースメントレベルで予算設定を確認します。 |
-| | その口座には十分な資金がない。 | アカウントに十分な資金があるかどうかを確認するには、**[!UICONTROL Settings]**/**[!UICONTROL Account]** に移動し、[!UICONTROL Usable Funds] の金額を調べます。 さらに資金を追加する必要がある場合は、Adobeアカウントチームにお問い合わせください。 |
+| | その口座には十分な資金がない。 | アカウントに十分な資金があるかどうかを確認するには、**[!UICONTROL Settings]**/**[!UICONTROL Account]** に移動し、[!UICONTROL Usable Funds] の金額を調べます。 さらに資金を追加する必要がある場合は、Adobe アカウントチームにお問い合わせください。 |
 | | 使用できる在庫がありません。 | 指定した在庫ソース（[!UICONTROL Public]、[!UICONTROL Private] または [!UICONTROL On Demand]）が次のいずれであるかを確認します。<ul><li>正しく設定します。</li><li>アクティブで、オークションを通じて送信します。</li><li>該当する広告およびプレースメントのタイプと互換性があります。</li></ul><br> すべての在庫ソースが有効で有効な場合は、可能な場合は追加または全ての在庫ソースをターゲットにします。 |
 | | 使用できるユーザーはいません。 | 指定したオーディエンスターゲットに十分な数のアクティブユーザーが含まれていることを確認します。 追加されていない場合は、オーディエンスを追加してターゲットを展開します。 |
-| プレースメントに対する支出の低さ | プレースメント診断レポートの [!UICONTROL Non Bids] のセクションには、プレースメントが入札しなかった理由として考えられる理由が示されます。 | [[!UICONTROL Non Bids] レポートを確認 &#x200B;](/help/dsp/campaign-management/reports/placement-diagnostics.md) して、プレースメントが入札に至らなかった理由を理解します。 <!-- add link/edit text when file available: See the [in-depth guide to possible Non-Bid Reasons (NBR)](link) for more information. --> |
-| | プレースメントは、入札を制限する [pre-bid フィルター &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) を使用します。 | 入札前フィルターのしきい値を 5% 下げると、支出とパフォーマンスのバランスを評価できます。 <!-- wording? and are users just supposed to manually monitor whether it makes a difference? --><br><br> 事前入札フィルター、地域、在庫、オーディエンスなど、複数のプレースメントターゲットを使用すると、入札と支出が累積的に制限される場合があることに注意してください。 |
+| プレースメントに対する支出の低さ | プレースメント診断レポートの [!UICONTROL Non Bids] のセクションには、プレースメントが入札しなかった理由として考えられる理由が示されます。 | [[!UICONTROL Non Bids] レポートを確認 ](/help/dsp/campaign-management/reports/placement-diagnostics.md) して、プレースメントが入札に至らなかった理由を理解します。 <!-- add link/edit text when file available: See the [in-depth guide to possible Non-Bid Reasons (NBR)](link) for more information. --> |
+| | プレースメントは、入札を制限する [pre-bid フィルター ](/help/dsp/campaign-management/placements/placement-settings.md) を使用します。 | 入札前フィルターのしきい値を 5% 下げると、支出とパフォーマンスのバランスを評価できます。 <!-- wording? and are users just supposed to manually monitor whether it makes a difference? --><br><br> 事前入札フィルター、地域、在庫、オーディエンスなど、複数のプレースメントターゲットを使用すると、入札と支出が累積的に制限される場合があることに注意してください。 |
 | | プレースメントの勝率が低い。 | 勝率を向上させるために [!UICONTROL Max Bid] を増やします。<br><br><b> 注：</b> 在庫価格は、プレースメントのターゲティングによって異なる場合があります。<br><br>10% の勝率は健康と見なされます。 |
 | | 在庫数が少ない。 | 可能であれば、追加またはすべてのインベントリソースをターゲットに設定します。<br><br> 事前入札フィルター、地域、在庫、オーディエンスなど、複数のプレースメントターゲットを使用すると、入札と支出が累積的に制限される場合があることに注意してください。 |
 | | 使用できるユーザーの数が少ない。 | 指定したオーディエンスターゲットに十分な数のアクティブユーザーが含まれていることを確認します。 追加されていない場合は、オーディエンスを追加してターゲットを展開します。<br><br> 事前入札フィルター、地域、在庫、オーディエンスなど、複数のプレースメントターゲットを使用すると、入札と支出が累積的に制限される場合があることに注意してください。 |
-| | パッケージには、多数のアクティブなプレースメントが含まれています。 | パッケージ内のアクティブなプレースメントの数を減らすか、パッケージ全体の予算を増やします。<br><br> パッケージに多くのプレースメントがあるが十分なバジェットがない場合、DSPが各プレースメントに十分なバジェットを割り当てることができない可能性があります。 各プレースメントには、少なくとも 1 日 2 米ドルを費やす機会が必要です。 例えば、パッケージの予算が 1 日あたり 10 USD の場合、プレースメントを 5 つ以下含めるのが最適です。&#x200B; |
+| | パッケージには、多数のアクティブなプレースメントが含まれています。 | パッケージ内のアクティブなプレースメントの数を減らすか、パッケージ全体の予算を増やします。<br><br> パッケージに多くのプレースメントがあるが十分な予算がない場合、DSPが各プレースメントに十分な予算を割り当てることができない可能性があります。 各プレースメントには、少なくとも 1 日 2 米ドルを費やす機会が必要です。 例えば、パッケージの予算が 1 日あたり 10 USD の場合、プレースメントを 5 つ以下含めるのが最適です。&#x200B; |
 
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
->* [&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
->* [&#x200B; キャンペーン設定 &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ キャンペーン設定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md)
