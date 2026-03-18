@@ -63,6 +63,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 組織アカウントの新しいユーザーを招待 ](user-invite.md)
+>* [&#x200B; 組織アカウントの新しいユーザーを招待 &#x200B;](user-invite.md)
 
 <!-- >* [User Profile and Organization Account Settings](user-and-account-settings.md) -->

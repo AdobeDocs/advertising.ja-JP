@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アーカイブした広告を表示するには、[!UICONTROL Ads] 表示をフィルタリングします。![[!UICONTROL Filter] のボタン ](/help/dsp/assets/filter.png) 「**[!UICONTROL Ad status]**」をクリックし、**[!UICONTROL Archived]** を選択して、「**[!UICONTROL Apply]」をクリックします。**
+>アーカイブした広告を表示するには、[!UICONTROL Ads] 表示をフィルタリングします。![[!UICONTROL Filter] のボタン &#x200B;](/help/dsp/assets/filter.png) 「**[!UICONTROL Ad status]**」をクリックし、**[!UICONTROL Archived]** を選択して、「**[!UICONTROL Apply]」をクリックします。**
 
 ## 広告のアーカイブ解除
 
@@ -38,6 +38,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 単一の広告の作成 ](ad-create.md)
->* [ 複数のサードパーティ広告の作成 ](ad-create-multiple.md)
->* [ 広告の編集 ](ad-edit.md)
+>* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
+>* [&#x200B; 複数のサードパーティ広告の作成 &#x200B;](ad-create-multiple.md)
+>* [&#x200B; 広告の編集 &#x200B;](ad-edit.md)

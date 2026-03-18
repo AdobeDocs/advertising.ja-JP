@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [!UICONTROL Packages] ダッシュボードは、すべてのパッケージ戦略にわたってパフォーマンスと経済的なレポートを一元化し、指定された日付範囲でパッケージがどのように実行されたかを示すクイックスナップショットを提供します。
 
-![ パッケージダッシュボード ](/help/dsp/assets/package-dashboard.png)
+![&#x200B; パッケージダッシュボード &#x200B;](/help/dsp/assets/package-dashboard.png)
 
 ダッシュボードには、3 つの指標を持つ、カスタマイズ可能な高レベルのトレンドグラフが含まれています。
 
@@ -28,14 +28,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[ カスタムレポート ](/help/dsp/reports/report-about.md) を使用して、パッケージレポートの内容と配信をさらにカスタマイズできます。
+>[&#x200B; カスタムレポート &#x200B;](/help/dsp/reports/report-about.md) を使用して、パッケージレポートの内容と配信をさらにカスタマイズできます。
 
 パッケージ内のすべてのプレースメント、およびパッケージのフライト日を表示するには、パッケージ名をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ パッケージの作成 ](package-create.md)
->* [ パッケージの編集 ](package-edit.md)
->* [ パッケージへのプレースメントの添付 ](package-attach-placement.md)
->* [ パッケージの変更ログを表示する ](package-change-log.md)
->* [ パッケージ設定 ](package-settings.md)
+>* [&#x200B; パッケージの作成 &#x200B;](package-create.md)
+>* [&#x200B; パッケージの編集 &#x200B;](package-edit.md)
+>* [&#x200B; パッケージへのプレースメントの添付 &#x200B;](package-attach-placement.md)
+>* [&#x200B; パッケージの変更ログを表示する &#x200B;](package-change-log.md)
+>* [&#x200B; パッケージ設定 &#x200B;](package-settings.md)

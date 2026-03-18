@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、[ 指定したアカウント内のすべての広告主との取引 ID の共有と共有の停止 ](deal-id-share.md) を行うこともできます。
+>また、[&#x200B; 指定したアカウント内のすべての広告主との取引 ID の共有と共有の停止 &#x200B;](deal-id-share.md) を行うこともできます。
 
 1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals].** をクリックします。
 
@@ -25,6 +25,6 @@ ht-degree: 0%
 1. 「**[!UICONTROL Save]**」をクリックして、取引設定を保存します。
 
 >[!MORELIKETHIS]
->* [ プライベートインベントリについて ](private-inventory-about.md)
->* [ 取引 ID にアクセスできるアカウントの編集 ](/help/dsp/inventory/deal-id-share.md)
->* [ 手動の取引 ID 設定 ](deal-id-settings.md)
+>* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)
+>* [&#x200B; 取引 ID にアクセスできるアカウントの編集 &#x200B;](/help/dsp/inventory/deal-id-share.md)
+>* [&#x200B; 手動の取引 ID 設定 &#x200B;](deal-id-settings.md)

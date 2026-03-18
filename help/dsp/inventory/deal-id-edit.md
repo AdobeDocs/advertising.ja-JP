@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. 取引行で、**[!UICONTROL ...]**/**[!UICONTROL edit]** をクリックします。
 
-1. [ 取引設定 ](deal-id-settings.md) を編集します。
+1. [&#x200B; 取引設定 &#x200B;](deal-id-settings.md) を編集します。
 
    [!UICONTROL Deal Name]、[!UICONTROL Media Type] （取引に複数のメディアタイプが含まれる場合）、[!UICONTROL CPM] 値、[!UICONTROL Account email]、[!UICONTROL Advertisers that can access this deal]、[!UICONTROL Flight dates] および [!UICONTROL Impressions] を編集できます。
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プライベートインベントリについて ](private-inventory-about.md)
->* [ 取引 ID の詳細の手動作成 ](deal-id-create.md)
->* [ 手動の取引 ID 設定 ](deal-id-settings.md)
->* [ プログラムで保証された取引の設定 ](programmatic-guaranteed-set-up.md)
->* [ プライベート取引へのプレースメントと広告の添付 ](/help/dsp/inventory/deal-id-attach-placements.md)
->* [ プライベート取引のアーカイブまたはアーカイブ解除 ](/help/dsp/inventory/private-deal-archive-unarchive.md)
+>* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)
+>* [&#x200B; 取引 ID の詳細の手動作成 &#x200B;](deal-id-create.md)
+>* [&#x200B; 手動の取引 ID 設定 &#x200B;](deal-id-settings.md)
+>* [&#x200B; プログラムで保証された取引の設定 &#x200B;](programmatic-guaranteed-set-up.md)
+>* [&#x200B; プライベート取引へのプレースメントと広告の添付 &#x200B;](/help/dsp/inventory/deal-id-attach-placements.md)
+>* [&#x200B; プライベート取引のアーカイブまたはアーカイブ解除 &#x200B;](/help/dsp/inventory/private-deal-archive-unarchive.md)

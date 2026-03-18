@@ -22,7 +22,7 @@ ht-degree: 0%
 
    選択したパッケージがプレースメント設定で自動的に選択されます。
 
-1. 残りの [ 配置設定 ](/help/dsp/campaign-management/placements/placement-settings.md) を入力し、[**[!UICONTROL Create Placement]**] をクリックします。
+1. 残りの [&#x200B; 配置設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) を入力し、[**[!UICONTROL Create Placement]**] をクリックします。
 
 ## [!UICONTROL Packages] ビューから新規または既存の配置をアタッチする
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
       1. プレースメントの広告タイプを選択し、「**[!UICONTROL Build this placement]**」をクリックします。
 
-      1. [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md) を入力し、「**[!UICONTROL Create Placement]**」をクリックします。
+      1. [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) を入力し、「**[!UICONTROL Create Placement]**」をクリックします。
 
    * キャンペーンに既存のプレースメントを添付するには：
 
@@ -58,8 +58,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ パッケージ管理について ](package-about.md)
->* [ パッケージの作成 ](package-create.md)
->* [ パッケージの変更ログを表示する ](package-change-log.md)
->* [ パッケージ設定 ](package-settings.md)
->* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [&#x200B; パッケージ管理について &#x200B;](package-about.md)
+>* [&#x200B; パッケージの作成 &#x200B;](package-create.md)
+>* [&#x200B; パッケージの変更ログを表示する &#x200B;](package-change-log.md)
+>* [&#x200B; パッケージ設定 &#x200B;](package-settings.md)
+>* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
