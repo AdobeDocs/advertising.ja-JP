@@ -61,7 +61,7 @@ Adobe Advertisingのデータへのアクセスおよび削除をリクエスト
    >
    >会社のAdobe Advertising担当者に問い合わせて、組織のすべてのAdobe Advertising アカウント（[!DNL DSP] アカウントまたは広告主、[!DNL Search, Social, & Commerce] アカウント、[!DNL Creative] アカウントまたは [!DNL DCO] アカウントを含む）がExperience Cloudの組織 ID にリンクされていることを確認します。
 
-1. データ主体に代わってAdobe Advertisingにアクセスリクエストと削除リクエストを送信し、既存のリクエストのステータスを確認するには、[Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （自動リクエストの場合）または [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja) （アドホックリクエストの場合）を使用します。
+1. データ主体に代わってAdobe Advertisingにアクセスリクエストと削除リクエストを送信し、既存のリクエストのステータスを確認するには、[Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ja) （自動リクエストの場合）または [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja) （アドホックリクエストの場合）を使用します。
 
    モバイルアプリを使用してデータ主体とやり取りし、DSPでキャンペーンを開始する広告主の場合は、Experience Cloudのプライバシーに対応した Mobile SDK をダウンロードする必要があります。 Mobile SDK を使用すると、データ管理者はオプトアウトステータスフラグを設定し、データ主体のデバイス ID （名前空間 ID:`deviceID`）を取得して、Privacy Service API にリクエストを送信できます。 モバイルアプリには、SDK バージョン 4.15.0 以降が必要です。
 
@@ -73,7 +73,7 @@ Adobe Advertisingのデータへのアクセスおよび削除をリクエスト
    >
    >会社に複数のExperience Cloud組織 ID がある場合、それぞれに個別の API リクエストを送信する必要があります。 ただし、サブソリューションごとに 1 つのアカウントを使用して、複数のAdobe Advertising サブソリューション（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]、[!DNL DCO]）に対して 1 つの API リクエストを行うことができます。
 
-すべての手順はAdobe Advertisingに必要です。 Adobe Experience Platform Privacy Serviceを使用して行う必要のあるこれらのタスクやその他の関連タスクの詳細、および必要な項目をどこで見つけるかについて詳しくは、「[Privacy Serviceの概要 ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)」を参照してください。
+すべての手順はAdobe Advertisingに必要です。 Adobe Experience Platform Privacy Serviceを使用して行う必要のあるこれらのタスクやその他の関連タスクの詳細、および必要な項目をどこで見つけるかについて詳しくは、「[Privacy Serviceの概要 ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)」を参照してください。
 
 ## Adobe Advertising JSON リクエストの必須フィールド値
 
