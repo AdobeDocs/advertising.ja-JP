@@ -3,7 +3,7 @@ title: プレースメントからの広告の添付と削除
 description: プレースメントに広告を添付し、プレースメントから広告を削除する方法を説明します。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 72306c4cd44abe093fd9db0dabd5a8b5dde5dd4d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
       1. 「**[!UICONTROL Create a New Placement]**」をクリックします。
 
-      1. [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) を入力し、「**[!UICONTROL Create Placement]**」をクリックします。
+      1. [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md) を入力し、「**[!UICONTROL Create Placement]**」をクリックします。
 
          プレースメントのタイプは、広告タイプによって決まります。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Detach Selected Ads]**」をクリックします。
 
-## プレースメントからの広告の削 [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+## [!UICONTROL Placement Inspector] ージからプレースメントから広告を削除 {#remove-ads-placement-inspector}
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
@@ -106,11 +106,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Ad Management について &#x200B;](ad-about.md)
->* [&#x200B; 広告からのピクセルの添付と削除 &#x200B;](ad-pixel-attach-detach.md)
->* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
->* [&#x200B; 複数のサードパーティ広告の作成 &#x200B;](ad-create-multiple.md)
->* [&#x200B; 広告の編集 &#x200B;](ad-edit.md)
->* [&#x200B; 広告に関連付けられたプレースメントのリスト &#x200B;](ad-list-placements.md)
->* [&#x200B; プレースメントの広告スケジュールの編集 &#x200B;](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
->* [&#x200B; ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Ad Management について ](ad-about.md)
+>* [ 広告からのピクセルの添付と削除 ](ad-pixel-attach-detach.md)
+>* [ 単一の広告の作成 ](ad-create.md)
+>* [ 複数のサードパーティ広告の作成 ](ad-create-multiple.md)
+>* [ 広告の編集 ](ad-edit.md)
+>* [ 広告に関連付けられたプレースメントのリスト ](ad-list-placements.md)
+>* [ プレースメントの広告スケジュールの編集 ](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [ ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
