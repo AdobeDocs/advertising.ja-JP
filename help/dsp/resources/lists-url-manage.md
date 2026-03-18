@@ -2,7 +2,8 @@
 title: URL リストの管理
 description: プレースメントターゲティング用の URL リストを作成および管理する方法について説明します。
 feature: DSP Placements
-source-git-commit: ea33d6fa7612f1c9631c223e5bf0ec80bb5f8d96
+exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 1. リスト名をクリックします。
 
-1. （オプション）選択したリストを XLSX （[!DNL Microsoft Excel] スプレッドシート）形式に書き出すには、「![&#x200B; 書き出し &#x200B;](/help/dsp/assets/export.png " 書き出し ")」 **[!UICONTROL Export]** タンをクリックします。
+1. （オプション）選択したリストを XLSX （[!DNL Microsoft Excel] スプレッドシート）形式に書き出すには、「![ 書き出し ](/help/dsp/assets/export.png " 書き出し ")」 **[!UICONTROL Export]** タンをクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -59,7 +60,7 @@ ht-degree: 0%
 
       1. 追加された URL の数や失敗した値の数など、タスクのステータスを確認するには、次の手順を実行します。
 
-         1. 上部メニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。
+         1. 上部メニューバーの右側にある「![ ジョブ ](/help/dsp/assets/downloads.png)」をクリックします。
 
          1. （追加されていない行がある場合）失敗した値を含むエラーファイルをダウンロードするには、ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
 
@@ -127,7 +128,7 @@ ht-degree: 0%
 
       1. 追加された URL の数や失敗した値の数など、タスクのステータスを確認するには、次の手順を実行します。
 
-         1. 上部メニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。
+         1. 上部メニューバーの右側にある「![ ジョブ ](/help/dsp/assets/downloads.png)」をクリックします。
 
          1. （追加されていない行がある場合）失敗した値を含むエラーファイルをダウンロードするには、ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
 
@@ -167,12 +168,12 @@ ht-degree: 0%
 
 1. リスト名をクリックします。
 
-1. 「![&#x200B; エクスポート &#x200B;](/help/dsp/assets/export.png " エクスポート ")」をクリッ **[!UICONTROL Export]** します。
+1. 「![ エクスポート ](/help/dsp/assets/export.png " エクスポート ")」をクリッ **[!UICONTROL Export]** します。
 
    ファイルは、ブラウザーの通常の手順に従って、XLSX （[!DNL Microsoft Excel] スプレッドシート）形式でダウンロードされます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
->* [&#x200B; アカウントレベルと広告主レベルのブロックされたサイトリストについて &#x200B;](/help/dsp/admin/blocked-sites-list-about.md)
->* [&#x200B; アカウントレベルまたは広告主レベルのブロックされたサイトリストの編集 &#x200B;](/help/dsp/admin/blocked-sites-list-edit.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ アカウントレベルと広告主レベルのブロックされたサイトリストについて ](/help/dsp/admin/blocked-sites-list-about.md)
+>* [ アカウントレベルまたは広告主レベルのブロックされたサイトリストの編集 ](/help/dsp/admin/blocked-sites-list-edit.md)

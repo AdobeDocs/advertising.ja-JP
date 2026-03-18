@@ -1,16 +1,16 @@
 ---
-title: レポート宛先設定
+title: レポートの宛先設定
 description: 宛先タイプ別に、レポート宛先に必要な詳細を確認します。
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
-# レポート宛先設定
+# レポートの宛先設定
 
 メール以外のレポート宛先に必要な詳細は、宛先タイプによって異なります。
 
