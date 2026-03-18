@@ -30,6 +30,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プレースメントのアーカイブまたはアーカイブ解除 ](placement-archive-unarchive.md)
->* [ プレースメントを編集 ](placement-edit.md)
->* [ プレースメントの変更ログを表示 ](placement-change-log.md)
+>* [&#x200B; プレースメントのアーカイブまたはアーカイブ解除 &#x200B;](placement-archive-unarchive.md)
+>* [&#x200B; プレースメントを編集 &#x200B;](placement-edit.md)
+>* [&#x200B; プレースメントの変更ログを表示 &#x200B;](placement-change-log.md)

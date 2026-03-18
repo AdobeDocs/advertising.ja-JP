@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->特定のパッケージと特定のプレースメントのみの設定をダウンロードして編集することもできます。 「[ バルクシートを使用したパッケージ設定のレビューと編集 ](/help/dsp/campaign-management/packages/package-qa.md)」および「[ バルクシートを使用したプレースメント設定のレビューと編集 ](/help/dsp/campaign-management/placements/placement-qa.md)」を参照してください。
+>特定のパッケージと特定のプレースメントのみの設定をダウンロードして編集することもできます。 「[&#x200B; バルクシートを使用したパッケージ設定のレビューと編集 &#x200B;](/help/dsp/campaign-management/packages/package-qa.md)」および「[&#x200B; バルクシートを使用したプレースメント設定のレビューと編集 &#x200B;](/help/dsp/campaign-management/placements/placement-qa.md)」を参照してください。
 
 ## キャンペーン内のパッケージ、プレースメントおよび広告の設定のダウンロード {#download-bulksheet-campaign}
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    * 通知メッセージで、「**[!UICONTROL Download].**」をクリックします。
 
-   * 上部のメニューバーの右側にある「![ ジョブ ](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
+   * 上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
 
      ファイルはブラウザーのダウンロードフォルダーに保存されます。<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    1. 「**[!UICONTROL Upload]**」をクリックします。
 
-1. （オプション）更新が処理されたことを確認するには、上部のメニューバーの右側にある ![ ジョブ ](/help/dsp/assets/downloads.png) をクリックします。
+1. （オプション）更新が処理されたことを確認するには、上部のメニューバーの右側にある ![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png) をクリックします。
 
 設定の更新に失敗した場合、色分けしたバルクシートエラーファイルをダウンロードすると、保存された設定（行）と失敗した設定（失敗した行）と、失敗した各設定の理由を表示できます。 その後、同じファイル内の問題に対処し、もう一度アップロードして、修正された情報を処理できます。
 
@@ -151,14 +151,14 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ バルクシートを使用したパッケージ設定のレビューと編集 ](/help/dsp/campaign-management/packages/package-qa.md)
->* [ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)
->* [ バルクシートを使用した配置設定の確認と編集 ](/help/dsp/campaign-management/placements/placement-qa.md)
->* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
->* [ オーディオ広告設定 ](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [ 接続されたテレビの設定 ](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [ 広告設定を表示 ](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [ モバイル広告設定 ](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [ ネイティブのディスプレイ広告設定 ](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [ プリロール広告設定 ](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
->* [ ユニバーサルビデオ広告設定 ](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
+>* [&#x200B; バルクシートを使用したパッケージ設定のレビューと編集 &#x200B;](/help/dsp/campaign-management/packages/package-qa.md)
+>* [&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; バルクシートを使用した配置設定の確認と編集 &#x200B;](/help/dsp/campaign-management/placements/placement-qa.md)
+>* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [&#x200B; オーディオ広告設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [&#x200B; 接続されたテレビの設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [&#x200B; 広告設定を表示 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [&#x200B; モバイル広告設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [&#x200B; ネイティブのディスプレイ広告設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [&#x200B; プリロール広告設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [&#x200B; ユニバーサルビデオ広告設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

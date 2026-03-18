@@ -54,8 +54,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Ad Management について ](ad-about.md)
->* [ 単一の広告の作成 ](ad-create.md)
->* [ 広告に関連付けられたプレースメントのリスト ](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [ 広告仕様 ](ad-specs.md)
->* [DSP マクロ ](/help/dsp/campaign-management/macros.md)
+>* [Ad Management について &#x200B;](ad-about.md)
+>* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
+>* [&#x200B; 広告に関連付けられたプレースメントのリスト &#x200B;](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [&#x200B; 広告仕様 &#x200B;](ad-specs.md)
+>* [DSP マクロ &#x200B;](/help/dsp/campaign-management/macros.md)
