@@ -39,7 +39,7 @@ DSPが各入札要求にリクエストを返し、SSP の配信 SLA を満た�
 
 >[!MORELIKETHIS]
 >
->* [ プログラムで保証された取引の交渉に関するヒント ](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [ プログラムで保証された取引の設定 ](programmatic-guaranteed-set-up.md)
->* [SSP パートナー ](ssp-partners.md)
->* [ インベントリ機能の概要 ](inventory-overview.md)
+>* [&#x200B; プログラムで保証された取引の交渉に関するヒント &#x200B;](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [&#x200B; プログラムで保証された取引の設定 &#x200B;](programmatic-guaranteed-set-up.md)
+>* [SSP パートナー &#x200B;](ssp-partners.md)
+>* [&#x200B; インベントリ機能の概要 &#x200B;](inventory-overview.md)
