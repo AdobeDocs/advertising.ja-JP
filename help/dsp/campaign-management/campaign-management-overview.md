@@ -56,4 +56,4 @@ In Advertising DSP, an insertion order is represented as a campaign, and line it
 >* [&#x200B; パフォーマンスキャンペーンの設定に関するベストプラクティス &#x200B;](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [&#x200B; キャンペーン管理ビューでのパフォーマンスレポートのタイプ &#x200B;](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [&#x200B; キャンペーンデータビューの管理 &#x200B;](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [&#x200B; ビデオ：DSP アカウント構造とユーザーインターフェイス &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [&#x200B; ビデオ：DSP アカウント構造とユーザーインターフェイス &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ja)
