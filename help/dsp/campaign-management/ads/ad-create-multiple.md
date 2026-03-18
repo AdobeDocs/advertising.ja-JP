@@ -77,5 +77,5 @@ ht-degree: 0%
 >* [Ad Management について &#x200B;](ad-about.md)
 >* [&#x200B; 広告仕様 &#x200B;](ad-specs.md)
 >* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
->* [&#x200B; ビデオ：サードパーティの広告タグを一括アップロードする方法 &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [&#x200B; ビデオ：サードパーティの広告タグを一括アップロードする方法 &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=ja)
 >* [&#x200B; ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
