@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Ad Management について ](ad-about.md)
->* [ 広告の編集 ](ad-edit.md)
->* [ プレースメントを編集 ](/help/dsp/campaign-management/placements/placement-edit.md)
->* [ プレースメントの詳細レポートの表示 ](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Ad Management について &#x200B;](ad-about.md)
+>* [&#x200B; 広告の編集 &#x200B;](ad-edit.md)
+>* [&#x200B; プレースメントを編集 &#x200B;](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [&#x200B; プレースメントの詳細レポートの表示 &#x200B;](/help/dsp/campaign-management/placements/placement-view-report.md)
