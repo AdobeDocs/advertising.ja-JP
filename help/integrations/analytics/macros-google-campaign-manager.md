@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Advertising DSPにのみ適用*
 
-Advertising DSP広告に [!DNL Google Campaign Manager 360] の広告タグを使用する場合は、[!DNL Analytics for Advertising] マクロ [`%p` を使用して、ランディングページの URL に ](https://support.google.com/campaignmanager/table/6096962) のパラメーターを追加します。 パラメーターは、AMO ID （`s_kwcid`）および `ef_id` クエリ文字列パラメーターをランディングページの URL に記録するので、Adobe Advertisingが広告のクリックデータをAdobe Analyticsに送信できます。
+Advertising DSP広告に [!DNL Google Campaign Manager 360] の広告タグを使用する場合は、[!DNL Analytics for Advertising] マクロ [`%p` を使用して、ランディングページの URL に &#x200B;](https://support.google.com/campaignmanager/table/6096962) のパラメーターを追加します。 パラメーターは、AMO ID （`s_kwcid`）および `ef_id` クエリ文字列パラメーターをランディングページの URL に記録するので、Adobe Advertisingが広告のクリックデータをAdobe Analyticsに送信できます。
 
 次のタイプの [!DNL Campaign Manager 360] 実装 [!DNL Analytics for Advertising] ディスプレイ広告とビデオ広告にマクロを使用します。
 
@@ -42,17 +42,17 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->>* ランディングページ URL に、一般的ではないハッシュシンボル（#）が含まれる場合は、ハッシュシンボルの前に `amo` パラメーターを配置します。
+>&#x200B;>* ランディングページ URL に、一般的ではないハッシュシンボル（#）が含まれる場合は、ハッシュシンボルの前に `amo` パラメーターを配置します。
 >* `amo` パラメーターの後に他のパラメーターが含まれていない場合は、その後にパラメーター（例：&amp;a=b）を追加します。 例：`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### 広告主レベルのランディングページ URL サフィックスの設定
 
-1. 詳しくは、[ 広告主のプロパティを開く手順 ](https://support.google.com/campaignmanager/answer/2829344) を参照してください。
+1. 詳しくは、[&#x200B; 広告主のプロパティを開く手順 &#x200B;](https://support.google.com/campaignmanager/answer/2829344) を参照してください。
 1. [!UICONTROL Landing page URL suffix] の設定で、`%pamo!;` フィールドに [!UICONTROL URL suffix] を含めます。
 
 ### キャンペーンレベルのランディングページ URL サフィックスの設定
 
-1. [ キャンペーンのプロパティを開く手順 ](https://support.google.com/campaignmanager/answer/2838056#set) を参照してください。
+1. [&#x200B; キャンペーンのプロパティを開く手順 &#x200B;](https://support.google.com/campaignmanager/answer/2838056#set) を参照してください。
 1. [!UICONTROL Landing page URL suffix] の設定で、`%pamo!;` フィールドに [!UICONTROL URL suffix] を含めます。
 
 ### クリエイティブレベルのランディングページ URL サフィックスの設定
@@ -64,7 +64,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 DSPでは、[!DNL Analytics for Advertising] パラメーター（`amo`）を含む広告を作成すると、`ef_id` マクロと `s_kwcid` マクロがクリック URL に自動的に追加されます。 ベストプラクティスは、DSPでタグを確認して、`ef_id` マクロと `s_kwcid` マクロが存在することを確認することです。
 
-次に、DSPに表示される [!DNL Google Campaign Manager 360] [ins タグ ](https://support.google.com/campaignmanager/answer/6080468) の例を示します。
+次に、DSPに表示される [!DNL Google Campaign Manager 360] [ins タグ &#x200B;](https://support.google.com/campaignmanager/answer/6080468) の例を示します。
 
 ```
 <ins class='dcmads' style='display:inline-block;width:160px;height:600px'
@@ -82,6 +82,6 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 
 >[!MORELIKETHIS]
 >
->* [ 概要  [!DNL Analytics for Advertising]](overview.md)
->* [ 使用するAdobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad タグ ](macros-flashtalking.md)
+>* [&#x200B; 概要  [!DNL Analytics for Advertising]](overview.md)
+>* [&#x200B; 使用するAdobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad タグ &#x200B;](macros-flashtalking.md)
