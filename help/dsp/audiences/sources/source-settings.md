@@ -46,5 +46,5 @@ ht-degree: 0%
 >* [&#x200B; ユニバーサル ID オーディエンスをアクティブ化するためのオーディエンスソースの管理 &#x200B;](source-manage.md)
 >* [&#x200B; ファーストパーティオーディエンスソースについて &#x200B;](source-about.md)
 >* [&#x200B; 認証済みセグメントの手動インポート  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Adobe Advertising DSP接続 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising DSP接続 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)
 >* [Audience Management について &#x200B;](/help/dsp/audiences/audience-about.md)
