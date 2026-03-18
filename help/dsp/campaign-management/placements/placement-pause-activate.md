@@ -3,7 +3,7 @@ title: プレースメントの非アクティブ化またはアクティブ化
 description: プレースメントをディアクティベートまたはアクティブ化する方法について説明します。
 feature: DSP Placements
 exl-id: cd58d8f7-8dd0-433b-9272-a4fc1e3e98d9
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -30,6 +30,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメントのアーカイブまたはアーカイブ解除 &#x200B;](placement-archive-unarchive.md)
->* [&#x200B; プレースメントを編集 &#x200B;](placement-edit.md)
->* [&#x200B; プレースメントの変更ログを表示 &#x200B;](placement-change-log.md)
+>* [ プレースメントのアーカイブまたはアーカイブ解除 ](placement-archive-unarchive.md)
+>* [ プレースメントを編集 ](placement-edit.md)
+>* [ プレースメントの変更ログを表示 ](placement-change-log.md)

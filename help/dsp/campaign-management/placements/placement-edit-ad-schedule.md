@@ -3,7 +3,7 @@ title: プレースメントの広告スケジュールの編集
 description: プレースメントに添付された広告の広告スケジュールを変更する方法を説明します。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. ファイルが使用可能になったら、ブラウザーページの上部にある通知で **[!UICONTROL Download]** をクリックして、ブラウザーの通常の手順に従って（XLSX 形式の）ワークシートファイルをダウンロードします。
 
-   ![&#x200B; ダウンロード準備完了の通知 &#x200B;](/help/dsp/assets/download-ready.png " ダウンロード準備完了の通知 ")
+   ![ ダウンロード準備完了の通知 ](/help/dsp/assets/download-ready.png " ダウンロード準備完了の通知 ")
 
 1. ダウンロードしたファイルを開き、フライトに含める各広告行のフライト情報フィールドを編集し、更新したファイルを保存します。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメント管理について &#x200B;](placement-about.md)
->* [&#x200B; プレースメントを編集 &#x200B;](placement-edit.md)
->* [&#x200B; プレースメントの変更ログを表示 &#x200B;](placement-change-log.md)
->* [&#x200B; プレースメント設定 &#x200B;](placement-settings.md)
+>* [ プレースメント管理について ](placement-about.md)
+>* [ プレースメントを編集 ](placement-edit.md)
+>* [ プレースメントの変更ログを表示 ](placement-change-log.md)
+>* [ プレースメント設定 ](placement-settings.md)

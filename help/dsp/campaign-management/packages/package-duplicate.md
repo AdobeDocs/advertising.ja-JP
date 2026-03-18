@@ -3,7 +3,7 @@ title: パッケージの複製
 description: パッケージの複製方法を説明します。
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * 新しいパッケージのフライト日を変更します
 
-重複しないプレースメント設定のリストについては [&#128279;](#package-not-duplicated) 重複していないもの  を参照してください。
+重複しないプレースメント設定のリストについては [ 重複していないもの ](#package-not-duplicated) を参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Submit]**」をクリックします。
 
-## 重複していない点 {#package-not-duplicated}
+## 重複していないもの {#package-not-duplicated}
 
 次の場合を除き、元のプレースメントのすべての設定が複製されます。
 
@@ -67,8 +67,8 @@ ht-degree: 0%
 
 >[!TIP]
 >
->* バルクシートを使用して [&#x200B; 複数の Campaign コンポーネントを一度に変更 &#x200B;](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
->* 広告タグシートを使用して [&#x200B; 複数のサードパーティ広告をアップロード &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
+>* バルクシートを使用して [ 複数の Campaign コンポーネントを一度に変更 ](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
+>* 広告タグシートを使用して [ 複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
 
 * 新しいパッケージをアクティブ化する準備ができるまで一時停止します。
 
@@ -90,12 +90,12 @@ ht-degree: 0%
 
    * 必要に応じて、[!UICONTROL Simple Ad Serving] 件の取引に対して新しいプレースメントを作成します。
 
-* カスタムの最適化目標を使用するパッケージの場合、各パッケージの [[!UICONTROL Linked Package for Optimization Learnings Carryover] 設定を使用して &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) パッケージを最適化するための入力として前のキャンペーンの履歴データを使用します。
+* カスタムの最適化目標を使用するパッケージの場合、各パッケージの [[!UICONTROL Linked Package for Optimization Learnings Carryover] 設定を使用して ](/help/dsp/campaign-management/packages/package-settings.md) パッケージを最適化するための入力として前のキャンペーンの履歴データを使用します。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; パッケージ管理について &#x200B;](package-about.md)
->* [&#x200B; パッケージの作成 &#x200B;](package-create.md)
->* [&#x200B; パッケージの編集 &#x200B;](package-edit.md)
->* [&#x200B; パッケージの変更ログを表示する &#x200B;](package-change-log.md)
->* [&#x200B; パッケージ設定 &#x200B;](package-settings.md)
+>* [ パッケージ管理について ](package-about.md)
+>* [ パッケージの作成 ](package-create.md)
+>* [ パッケージの編集 ](package-edit.md)
+>* [ パッケージの変更ログを表示する ](package-change-log.md)
+>* [ パッケージ設定 ](package-settings.md)

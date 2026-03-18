@@ -3,7 +3,7 @@ title: プレースメントを複製
 description: 1 つ以上のプレースメントを複製する方法を説明します。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 * （元のキャンペーン内でプレースメントが重複している場合）オプションで、元の広告を複製します
 * 新しいプレースメントのステータスとフライト日を変更する
 
-重複しないプレースメント設定のリストについては [&#128279;](#placement-not-duplicated) 重複していないもの  を参照してください。
+重複しないプレースメント設定のリストについては [ 重複していないもの ](#placement-not-duplicated) を参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    1. （単一プレースメント）新しいプレースメント名を入力します。
 
-   1. **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**[!UICONTROL No package]*&#x200B;を選択します。
+   1. **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**[!UICONTROL No package]*を選択します。
 
    1. （任意）デフォルト設定を変更します。
 
@@ -74,8 +74,8 @@ ht-degree: 0%
 
 >[!TIP]
 >
->* バルクシートを使用して [&#x200B; 複数の Campaign コンポーネントを一度に変更 &#x200B;](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
->* 広告タグシートを使用して [&#x200B; 複数のサードパーティ広告をアップロード &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
+>* バルクシートを使用して [ 複数の Campaign コンポーネントを一度に変更 ](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
+>* 広告タグシートを使用して [ 複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
 
 * 新しいプレースメントをアクティブ化する準備が整うまで一時停止します。
 
@@ -97,8 +97,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメント管理について &#x200B;](placement-about.md)
->* [&#x200B; プレースメントの作成 &#x200B;](placement-create.md)
->* [&#x200B; プレースメントを編集 &#x200B;](placement-edit.md)
->* [&#x200B; プレースメントの変更ログを表示 &#x200B;](placement-change-log.md)
->* [&#x200B; プレースメント設定 &#x200B;](placement-settings.md)
+>* [ プレースメント管理について ](placement-about.md)
+>* [ プレースメントの作成 ](placement-create.md)
+>* [ プレースメントを編集 ](placement-edit.md)
+>* [ プレースメントの変更ログを表示 ](placement-change-log.md)
+>* [ プレースメント設定 ](placement-settings.md)

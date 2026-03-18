@@ -3,7 +3,7 @@ title: プレースメントのアーカイブまたはアーカイブ解除
 description: プレースメントをアーカイブまたはアーカイブ解除する方法について説明します。
 feature: DSP Placements
 exl-id: 4304452d-4573-46b3-892e-299950a75d4f
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アーカイブしたプレースメントを表示するには、[!UICONTROL Placements] ビューをフィルタリングします。![&#x200B; フィルターボタン &#x200B;](/help/dsp/assets/filter.png) をクリックし、「**[!UICONTROL Placement status]**」をクリックして **[!UICONTROL Archived]** を選択し、「**[!UICONTROL Apply]」をクリックします。**
+>アーカイブしたプレースメントを表示するには、[!UICONTROL Placements] ビューをフィルタリングします。![ フィルターボタン ](/help/dsp/assets/filter.png) をクリックし、「**[!UICONTROL Placement status]**」をクリックして **[!UICONTROL Archived]** を選択し、「**[!UICONTROL Apply]」をクリックします。**
 
 ## プレースメントのアーカイブ解除
 
@@ -40,6 +40,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメントの非アクティブ化またはアクティブ化 &#x200B;](placement-pause-activate.md)
->* [&#x200B; プレースメントを編集 &#x200B;](placement-edit.md)
->* [&#x200B; プレースメントの変更ログを表示 &#x200B;](placement-change-log.md)
+>* [ プレースメントの非アクティブ化またはアクティブ化 ](placement-pause-activate.md)
+>* [ プレースメントを編集 ](placement-edit.md)
+>* [ プレースメントの変更ログを表示 ](placement-change-log.md)

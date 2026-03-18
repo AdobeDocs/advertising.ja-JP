@@ -3,7 +3,7 @@ title: キャンペーンの複製
 description: キャンペーンの複製方法について説明します。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * 新しいキャンペーンの実施日を変更
 
-重複しないプレースメント設定のリストについては [&#128279;](#campaign-not-duplicated) 重複していないもの  を参照してください。
+重複しないプレースメント設定のリストについては [ 重複していないもの ](#campaign-not-duplicated) を参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Submit]**」をクリックします。
 
-## 重複していない点 {#campaign-not-duplicated}
+## 重複していないもの {#campaign-not-duplicated}
 
 次の場合を除き、元のプレースメントのすべての設定が複製されます。
 
@@ -57,8 +57,8 @@ ht-degree: 0%
 
 >[!TIP]
 >
->* バルクシートを使用して [&#x200B; 複数の Campaign コンポーネントを一度に変更 &#x200B;](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
->* 広告タグシートを使用して [&#x200B; 複数のサードパーティ広告をアップロード &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
+>* バルクシートを使用して [ 複数の Campaign コンポーネントを一度に変更 ](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
+>* 広告タグシートを使用して [ 複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
 
 * 新しいキャンペーンをアクティブ化する準備ができるまで一時停止します。
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 
    * 必要に応じて、[!UICONTROL Simple Ad Serving] 件の取引に対して新しいプレースメントを作成します。
 
-* パフォーマンスキャンペーン（つまり、カスタムの最適化目標を使用するパッケージを含んだキャンペーン）の場合は [&#128279;](/help/dsp/campaign-management/packages/package-settings.md) パッケージごとに [!UICONTROL Linked Package for Optimization Learnings Carryover] 設定を使用して、前のキャンペーンの履歴データをパッケージ最適化の入力として使用します。
+* パフォーマンスキャンペーン（つまり、カスタムの最適化目標を使用するパッケージを含んだキャンペーン）の場合は [[!UICONTROL Linked Package for Optimization Learnings Carryover] パッケージごとに ](/help/dsp/campaign-management/packages/package-settings.md) 設定を使用して、前のキャンペーンの履歴データをパッケージ最適化の入力として使用します。
 
 >[!MORELIKETHIS]
 >
->* [Campaign 管理について &#x200B;](campaign-about.md)
->* [&#x200B; キャンペーンの作成 &#x200B;](campaign-create.md)
->* [&#x200B; キャンペーンの編集 &#x200B;](campaign-edit.md)
->* [&#x200B; キャンペーンの変更ログを表示 &#x200B;](campaign-change-log.md)
->* [&#x200B; キャンペーン設定 &#x200B;](campaign-settings.md)
+>* [Campaign 管理について ](campaign-about.md)
+>* [ キャンペーンの作成 ](campaign-create.md)
+>* [ キャンペーンの編集 ](campaign-edit.md)
+>* [ キャンペーンの変更ログを表示 ](campaign-change-log.md)
+>* [ キャンペーン設定 ](campaign-settings.md)

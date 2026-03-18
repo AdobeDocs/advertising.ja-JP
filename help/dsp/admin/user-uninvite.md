@@ -3,7 +3,7 @@ title: 保留中のユーザーを登録解除
 description: 保留中のユーザー招待を取り消す方法を説明します。
 role: Admin
 exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
-source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 組織アカウントの新しいユーザーを招待 &#x200B;](user-invite.md)
->* [&#x200B; 保留中のユーザー招待を再送信する &#x200B;](user-resend-invite.md)
+>* [ 組織アカウントの新しいユーザーを招待 ](user-invite.md)
+>* [ 保留中のユーザー招待を再送信する ](user-resend-invite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

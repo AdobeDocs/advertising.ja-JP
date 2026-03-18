@@ -3,7 +3,7 @@ title: 広告の一時停止またはアクティブ化
 description: 広告を一時停止またはアクティブ化する方法について説明します。
 feature: DSP Ads
 exl-id: f39d36c2-4c62-462b-bb92-29458890661e
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 1. キャンペーンの名前をクリックします。
 1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
-1. プレースメント名の横にある **[!UICONTROL ...]** > **[!UICONTROL Ads]** をクリックして、プレースメント [!UICONTROL Inspector] ードの「[!UICONTROL Ads]」タブを開きます。
+1. プレースメント名の横にある **[!UICONTROL ...]** > **[!UICONTROL Ads]** をクリックして、プレースメント [!UICONTROL Ads] ードの「[!UICONTROL Inspector]」タブを開きます。
 1. 広告名の横で、**[!UICONTROL ...]**/**[!UICONTROL Pause]** または **[!UICONTROL Activate]** をクリックします。
 
 >[!NOTE]
@@ -47,6 +47,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
->* [&#x200B; 複数のサードパーティ広告の作成 &#x200B;](ad-create-multiple.md)
->* [&#x200B; 広告のアーカイブ &#x200B;](ad-archive-unarchive.md)
+>* [ 単一の広告の作成 ](ad-create.md)
+>* [ 複数のサードパーティ広告の作成 ](ad-create-multiple.md)
+>* [ 広告のアーカイブ ](ad-archive-unarchive.md)
