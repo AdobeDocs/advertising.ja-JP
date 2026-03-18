@@ -1,20 +1,20 @@
 ---
-title: Campaign Launch チェックリスト
+title: Campaign launch チェックリスト
 description: キャンペーンを開始する前にすべきことについて説明します。
 feature: DSP Placements, DSP Ads
 exl-id: 9a8c2b3e-233e-4401-8311-daffde6cda68
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-# Campaign Launch チェックリスト
+# Campaign launch チェックリスト
 
 ## 口座資金
 
-キャンペーン全体を実行するのに十分なクレジットがアカウントにあることを確認します。 [!UICONTROL Settings] > [!UICONTROL Account] で、またはAdobeアカウントチームに連絡して、アカウントファンドを確認して補充できます。
+キャンペーン全体を実行するのに十分なクレジットがアカウントにあることを確認します。 [!UICONTROL Settings] > [!UICONTROL Account] で、またはAdobe アカウントチームに連絡して、アカウントファンドを確認して補充できます。
 
 ## キャンペーンステータス
 
@@ -30,6 +30,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーン設定 &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
->* [&#x200B; パフォーマンスキャンペーンの設定に関するベストプラクティス &#x200B;](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [ キャンペーン設定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ パフォーマンスキャンペーンの設定に関するベストプラクティス ](/help/dsp/optimization/campaign-best-practices-performance.md)
