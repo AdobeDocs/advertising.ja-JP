@@ -1,16 +1,16 @@
 ---
-title: 'アジア太平洋の [!DNL On Demand] Premium 在庫パブリッシャー'
+title: アジア太平洋地域の [!DNL On Demand] premium 在庫パブリッシャー
 description: アジア太平洋地域で利用可能な  [!DNL On Demand] premium の在庫パブリッシャーを参照してください。
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
-# アジア太平洋地域の [!DNL On Demand] Premium Inventory Publishers{#on-demand-inventory-publishers-apac}
+# アジア太平洋地域の [!DNL On Demand] premium 在庫パブリッシャー{#on-demand-inventory-publishers-apac}
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
@@ -372,7 +372,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
->* [Premium インベントリのサブスクライブとアクセス  [!DNL On Demand]  リクエスト &#x200B;](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand Premium]  北米のインベントリパブリッシャー &#x200B;](on-demand-inventory-publishers-na.md)
+>* [Premium インベントリのサブスクライブとアクセス  [!DNL On Demand]  リクエスト ](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand Premium]  北米のインベントリパブリッシャー ](on-demand-inventory-publishers-na.md)

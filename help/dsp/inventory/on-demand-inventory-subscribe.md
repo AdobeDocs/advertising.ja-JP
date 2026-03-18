@@ -1,9 +1,9 @@
 ---
-title: ' [!DNL On Demand] Premium の在庫取引を購入してアクセスをリクエスト'
+title: プレミアム在庫取引の購入  [!DNL On Demand]  アクセスのリクエスト
 description: '[!DNL On Demand] 件の取引を購読し、アクセスをリクエストする方法について説明します。'
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 個々の取引をリクエストしたり、パブリッシャーを購読して、パブリッシャーのすべての取引をリクエストしたりできます。 パブリッシャーを購入すると、DSPは、お客様に代わって、パブリッシャーが提供する新しい取引を自動的にリクエストします。
 
-契約が [&#x200B; 承認 &#x200B;](/help/dsp/inventory/on-demand-inventory-view-status.md) されると、すべての在庫をターゲットにする新しいプレースメントのターゲットとして、デフォルトで含ま [!DNL On Demand] ます。 新しい契約は、既存のプレースメントのターゲットとしても使用できますが、契約をターゲットとして追加するには、プレースメント設定を手動で編集する必要があります。
+契約が [ 承認 ](/help/dsp/inventory/on-demand-inventory-view-status.md) されると、すべての在庫をターゲットにする新しいプレースメントのターゲットとして、デフォルトで含ま [!DNL On Demand] ます。 新しい契約は、既存のプレースメントのターゲットとしても使用できますが、契約をターゲットとして追加するには、プレースメント設定を手動で編集する必要があります。
 
-## パブリッシャーの取引をすべて購読
+## パブリッシャーの取引をすべて購読する
 
 1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL On Demand]** をクリックします。
 
@@ -74,20 +74,20 @@ ht-degree: 0%
 
       1. パブリッシャーのトップカルーセルで、パブリッシャーのロゴの上にカーソルを置き、「**[!UICONTROL See Deals]**」をクリックします。
 
-      1. 個々の取引を購読するには、該当する行の [!UICONTROL Action] 列の **[!UICONTROL Request]** をクリックします。
+      1. 個々の取引を購読するには、該当する行の **[!UICONTROL Request]** 列の [!UICONTROL Action] をクリックします。
 
    * [!UICONTROL Deal] 表示から取引をリクエストするには：
 
       1. 「**[!UICONTROL Deal view]**」をクリックします。
 
-      1. 該当する行の [!UICONTROL Action] 列の「**[!UICONTROL Request]**」をクリックします。
+      1. 該当する行の **[!UICONTROL Request]** 列の「[!UICONTROL Action]」をクリックします。
 
 >[!MORELIKETHIS]
 >
 >* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
->* [&#x200B; 取引リクエストと購読  [!DNL On Demand]  ステータスの表示 &#x200B;](on-demand-inventory-view-status.md)
->* [On Demand Premium の在庫取引の再リクエスト &#x200B;](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand]  アジア太平洋のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-na.md)
+>* [ 取引リクエストと購読  [!DNL On Demand]  ステータスの表示 ](on-demand-inventory-view-status.md)
+>* [On Demand Premium の在庫取引の再リクエスト ](on-demand-inventory-rerequest.md)
+>* [[!DNL On Demand]  アジア太平洋のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-na.md)

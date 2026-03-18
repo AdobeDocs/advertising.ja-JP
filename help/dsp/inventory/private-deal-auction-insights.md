@@ -3,7 +3,7 @@ title: プライベート取引のオークションインサイトの表示
 description: オークションインサイトを使用して、プライベート取引の取引構成を分析する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # プライベート取引のオークションインサイトの表示
 
-オークションインサイトは、保証されている非公開取引と保証されていない非公開取引の両方の取引構成を分析できるトラブルシューティングツールです。 このツールでは、データのビジュアライゼーションを使用して、特定の期間内に [&#x200B; 主要なオークション属性値 &#x200B;](#auction-attributes) に対して受け取った値のトレンドと相対比率を表示します。
+オークションインサイトは、保証されている非公開取引と保証されていない非公開取引の両方の取引構成を分析できるトラブルシューティングツールです。 このツールでは、データのビジュアライゼーションを使用して、特定の期間内に [ 主要なオークション属性値 ](#auction-attributes) に対して受け取った値のトレンドと相対比率を表示します。
 
 1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals].** をクリックします。
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->オークションインサイトは、プレースメント [!UICONTROL Inspector] 定ツールからも使用できます。 セグメントを開くには、[[!UICONTROL Inventory tab] ージのプレースメント [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) を開き、取引行で **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** をクリックします。
+>オークションインサイトは、プレースメント [!UICONTROL Inspector] 定ツールからも使用できます。 セグメントを開くには、[[!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) ージのプレースメント [!UICONTROL Inventory tab] を開き、取引行で **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** をクリックします。
 
 ## オークション属性 {#auction-attributes}
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * **MIME タイプ：** オークションでリクエストされた広告クリエイティブ MIME タイプ（mp4 や mov など）。
 
-![&#x200B; オークションのインサイト &#x200B;](/help/dsp/assets/auction-insights.png)
+![ オークションのインサイト ](/help/dsp/assets/auction-insights.png)
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)
->* [&#x200B; 取引 ID のプレースメントと広告の指定 &#x200B;](deal-id-attach-placements.md)
->* [&#x200B; 取引の詳細レポートの表示 &#x200B;](deal-view-report.md)
->* [Campaign Management ビューにおけるパフォーマンスレポートのタイプ &#x200B;](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [ プライベートインベントリについて ](private-inventory-about.md)
+>* [ 取引 ID のプレースメントと広告の指定 ](deal-id-attach-placements.md)
+>* [ 取引の詳細レポートの表示 ](deal-view-report.md)
+>* [ キャンペーン管理ビューでのパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)

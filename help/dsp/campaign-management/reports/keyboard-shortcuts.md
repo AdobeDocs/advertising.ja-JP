@@ -3,7 +3,7 @@ title: ショートカットキー
 description: 配置設定内で使用可能なキーボードショートカットを参照します。
 feature: DSP Placements
 exl-id: d1711166-8f20-4641-a1f5-c865a40ad387
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 1%
@@ -34,6 +34,6 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメントの作成 &#x200B;](/help/dsp/campaign-management/placements/placement-create.md)
->* [&#x200B; プレースメントを編集 &#x200B;](/help/dsp/campaign-management/placements/placement-edit.md)
->* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ プレースメントの作成 ](/help/dsp/campaign-management/placements/placement-create.md)
+>* [ プレースメントを編集 ](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)

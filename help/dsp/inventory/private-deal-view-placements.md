@@ -3,7 +3,7 @@ title: プライベート取引のプレースメントと広告のリスト
 description: プライベート取引に関連付けられたプレースメントと広告のリストを開く方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: a820c5b8162953c34978e79e1ce9efe51f4063d4
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 
    * プレースメントがプライベート取引で入札できない理由を確認するには、プレースメント行の上にカーソルを置いて、「**[!UICONTROL Non bid reasons]**」をクリックします。
 
-   * プレースメントの設定を編集するには、プレースメント行の上にカーソルを置いて「**[!UICONTROL Edit]**」をクリックします。 [&#x200B; プレースメント設定を編集 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) し、「**[!UICONTROL Update placement]**」をクリックします。
+   * プレースメントの設定を編集するには、プレースメント行の上にカーソルを置いて「**[!UICONTROL Edit]**」をクリックします。 [ プレースメント設定を編集 ](/help/dsp/campaign-management/placements/placement-settings.md) し、「**[!UICONTROL Update placement]**」をクリックします。
 
    * プレースメントの在庫ターゲットから取引を削除するには、プレースメント行の上にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Detach Placement]** をクリックします。 確認メッセージで、「**[!UICONTROL Yes]**」をクリックします。
 
      プレースメントを分離しても、プレースメントは削除されません。
 
-   * 広告の設定を編集するには、広告行にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Edit]** をクリックします。 [&#x200B; 広告設定を編集 &#x200B;](/help/dsp/campaign-management/ads/ad-edit.md) し、「**[!UICONTROL Save & submit for review]**」をクリックします。
+   * 広告の設定を編集するには、広告行にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Edit]** をクリックします。 [ 広告設定を編集 ](/help/dsp/campaign-management/ads/ad-edit.md) し、「**[!UICONTROL Save & submit for review]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)
->* [&#x200B; 取引 ID のプレースメントと広告の指定 &#x200B;](deal-id-attach-placements.md)
->* [&#x200B; 取引の詳細レポートの表示 &#x200B;](deal-view-report.md)
->* [&#x200B; プレースメント診断レポートの表示 &#x200B;](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [ プライベートインベントリについて ](private-inventory-about.md)
+>* [ 取引 ID のプレースメントと広告の指定 ](deal-id-attach-placements.md)
+>* [ 取引の詳細レポートの表示 ](deal-view-report.md)
+>* [ プレースメント診断レポートの表示 ](/help/dsp/campaign-management/reports/placement-diagnostics.md)
