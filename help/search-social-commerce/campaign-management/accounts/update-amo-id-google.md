@@ -70,4 +70,4 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >
 >* [&#x200B; 広告ネットワークアカウントの管理 &#x200B;](ad-network-account-manage.md)
 >* [&#x200B; 使用するAdobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [&#x200B; 概要  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
+>* [&#x200B; 概要  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ja){target="_blank"}
