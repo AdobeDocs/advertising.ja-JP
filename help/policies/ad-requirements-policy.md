@@ -3,7 +3,7 @@ title: Adobe Advertising広告要件ポリシー
 description: 広告要件については、ポリシーを参照してください。
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 5a13aee5b7dcefa9f74d26322078c75e53f18a69
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '2190'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 *ポリシーの最終更新日：2024 年 7 月 17 日<!-- (except for formatting changes unrelated to content)-->*
 
-*Adobe Advertising DSPおよびAdobe Advertising検索、ソーシャル、Commerceの場合*
+*Adobe Advertising DSPおよびAdobe Advertisingの検索、ソーシャル、Commerceの場合*
 
-本 Ads Requirements Policy （「ポリシー」）は、[!DNL Adobe’s] On-demand Services for Ads （「サービス」）を通じて配信されるAdobe Advertisingの要件を定めています。 本ポリシーは、オンデマンドサービスを使用する [!DNL Adobe] とお客様（以下「お客様」）との間の契約に参照によって組み込まれます。 本ポリシーで使用され、本ポリシーで定義されていない大文字の用語は、本契約に定める意味を有します。
+本 Ads Requirements Policy （「ポリシー」）は、Adobe Advertisingの [!DNL Adobe’s] On-demand Services （「サービス」）を通じて配信される広告の要件を定めています。 本ポリシーは、オンデマンドサービスを使用する [!DNL Adobe] とお客様（以下「お客様」）との間の契約に参照によって組み込まれます。 本ポリシーで使用され、本ポリシーで定義されていない大文字の用語は、本契約に定める意味を有します。
 
 [!DNL Adobe] は、広告、または広告がリダイレクトまたはリンクするウェブサイトが本ポリシーの要件に違反しているかどうかを単独の判断で判断する権利を留保します。この場合、イベント [!DNL Adobe] は広告を拒否し、それに基づいてサービスへのアクセスを終了または中断する可能性があります。
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## 広告コンテンツの要件
 
-### クリエイティブの要件
+### Creative要件
 
-オンデマンドサービスを通じて送信、保存、表示、配布、またはその他の方法で提供されるすべての広告は、Adobe Advertising広告仕様に含まれる広告仕様と一致している必要があり、[!DNL Adobe] 々に修正される場合があります。
+オンデマンドサービスを通じて送信、保存、表示、配布、またはその他の方法で提供されるすべての広告は、Adobe Advertising広告仕様に含まれる広告仕様と一致している必要があり、[!DNL Adobe] 々に改訂される場合があります。
 
-### 禁止広告
+### 禁止される広告
 
 広告および広告のリンクまたはリダイレクト先の web サイトに、次の内容が含まれたり、昇格したりしていないことを確認する必要があります。
 
@@ -135,4 +135,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 受け入れ可能なヘルスセグメントガイドライン &#x200B;](/help/policies/health-segment-guidelines.md)
+>* [ 受け入れ可能なヘルスセグメントガイドライン ](/help/policies/health-segment-guidelines.md)

@@ -1,9 +1,9 @@
 ---
-title: Adobe Advertisingで許容できるヘルスセグメント
+title: Adobe Advertisingで許容されるヘルスセグメント
 description: 健康関連の許容可能なオーディエンスセグメントと、健康関連のオーディエンスセグメントをターゲティングする代わりに使用する戦術については、ガイドラインを参照してください。
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Adobe Advertisingが受け入れ可能なヘルスセグメントガイドライン
 
-*Adobe Advertising DSP・[!DNL Adobe Advertising Search, Social, & Commerce]* 用
+*Adobe Advertising DSPおよび[!DNL Adobe Advertising Search, Social, & Commerce]* の場合
 
 次のガイドラインは、許容できない健康関連のオーディエンスセグメントと許容できる健康関連のオーディエンスセグメントの概要を示しています。 また、医療関連のオーディエンスセグメントをターゲティングする代わりに、を使用する戦術も推奨します。
 
 これらのガイドラインは [!DNL Network Advertising Alliance (NAI)] から要約した。
 
-Adobe Advertisingターゲティングポリシーごとに、正常性関連のオーディエンスセグメントを使用できるかどうかを判断するには [&#128279;](/help/policies/ad-requirements-policy.md)Adobe Advertising広告要件ポリシー &rbrace; も参照してください。
+Adobe Advertisingのターゲティングポリシーに従って [ 正常性関連のオーディエンスセグメントを使用できるかどうかを判断するには、](/help/policies/ad-requirements-policy.md)Adobe Advertising広告要件ポリシーも参照してください。
 
 ## 使用すべきでないヘルスセグメント
 
@@ -50,4 +50,4 @@ Adobe Advertisingターゲティングポリシーごとに、正常性関連の
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 広告要件ポリシー &#x200B;](/help/policies/ad-requirements-policy.md)
+>* [ 広告要件ポリシー ](/help/policies/ad-requirements-policy.md)

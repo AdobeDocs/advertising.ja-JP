@@ -1,18 +1,18 @@
 ---
 role: User, Admin
-user-guide-title: Adobe Advertising の消費者プライバシーのサポート
+user-guide-title: 消費者のプライバシーに対するAdobe Advertisingのサポート
 user-guide-description: 広告主の顧客が消費者のプライバシー法を遵守できるよう Adobe Advertising が提供するセキュリティとプライバシーの制御について説明します。
 breadcrumb-title: 消費者プライバシーのサポート
 index: true
-source-git-commit: 56f24a247ae129ab7050a10e91a79a4f1bbcdd01
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 56%
+ht-degree: 31%
 
 ---
 
 
-# Adobe Advertising の消費者プライバシーのサポート {#privacy}
+# 消費者のプライバシーに対するAdobe Advertisingのサポート {#privacy}
 
 + [Adobe Advertisingの消費者プライバシーのサポートについて](/help/privacy/home.md)
 + [GDPR のサポート](/help/privacy/gdpr.md)
