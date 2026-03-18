@@ -40,8 +40,8 @@ DSPで在庫取引にアクセスしたり、在庫取引を特定したりし�
 
 >[!MORELIKETHIS]
 >
->* [ オンデマンド在庫について ](on-demand-inventory-about.md)
->* [ 取引 ID インボックスについて ](deal-id-inbox-about.md)
->* [ プログラムで保証された取引について ](programmatic-guaranteed-about.md)
->* [SSP パートナー ](ssp-partners.md)
->* [ プライベートインベントリについて ](private-inventory-about.md)
+>* [&#x200B; オンデマンド在庫について &#x200B;](on-demand-inventory-about.md)
+>* [&#x200B; 取引 ID インボックスについて &#x200B;](deal-id-inbox-about.md)
+>* [&#x200B; プログラムで保証された取引について &#x200B;](programmatic-guaranteed-about.md)
+>* [SSP パートナー &#x200B;](ssp-partners.md)
+>* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)
