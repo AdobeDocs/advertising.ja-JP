@@ -3,7 +3,7 @@ title: キャンペーンの詳細レポートの表示
 description: 地理、デバイス、ビューアビリティ、オーディエンスパフォーマンスデータに関するセクションで、キャンペーンレベルのレポートを開く方法を説明します。
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 05b374b1d15121f71035b10e6c27a2b70fb642fa
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメントの詳細レポートの表示 &#x200B;](/help/dsp/campaign-management/placements/placement-view-report.md)
->* [&#x200B; 広告の詳細レポートの表示 &#x200B;](/help/dsp/campaign-management/ads/ad-view-report.md)
->* [&#x200B; キャンペーン管理ビューでのパフォーマンスレポートのタイプ &#x200B;](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
->* [&#x200B; キャンペーンの変更ログを表示 &#x200B;](campaign-change-log.md)
->* [&#x200B; キャンペーンの一時停止またはアクティブ化 &#x200B;](campaign-pause-activate.md)
+>* [ プレースメントの詳細レポートの表示 ](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [ 広告の詳細レポートの表示 ](/help/dsp/campaign-management/ads/ad-view-report.md)
+>* [ キャンペーン管理ビューでのパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
+>* [ キャンペーンの変更ログを表示 ](campaign-change-log.md)
+>* [ キャンペーンの一時停止またはアクティブ化 ](campaign-pause-activate.md)
