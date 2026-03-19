@@ -3,7 +3,7 @@ title: プログラムで保証された取引を交渉するためのヒント
 description: プログラム保証（PG）取引の交渉に関するヒントと、バイヤーおよびパブリッシャーの責任のリストを説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 41a2a307-5cb2-4b41-bb3b-edee1e15c5fa
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 2%
@@ -45,6 +45,6 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プログラムで保証された取引について &#x200B;](programmatic-guaranteed-about.md)
->* [&#x200B; プログラムで保証された取引の設定 &#x200B;](programmatic-guaranteed-set-up.md)
->* [SSP パートナー &#x200B;](ssp-partners.md)
+>* [ プログラムで保証された取引について ](programmatic-guaranteed-about.md)
+>* [ プログラムで保証された取引の設定 ](programmatic-guaranteed-set-up.md)
+>* [SSP パートナー ](ssp-partners.md)

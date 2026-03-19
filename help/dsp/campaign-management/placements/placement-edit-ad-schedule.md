@@ -3,9 +3,9 @@ title: プレースメントの広告スケジュールの編集
 description: プレースメントに添付された広告の広告スケジュールを変更する方法を説明します。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. ファイルが使用可能になったら、ブラウザーページの上部にある通知で **[!UICONTROL Download]** をクリックして、ブラウザーの通常の手順に従って（XLSX 形式の）ワークシートファイルをダウンロードします。
 
-   ![&#x200B; ダウンロード準備完了の通知 &#x200B;](/help/dsp/assets/download-ready.png " ダウンロード準備完了の通知 ")
+   ![ ダウンロード準備完了の通知 ](/help/dsp/assets/download-ready.png " ダウンロード準備完了の通知 ")
 
 1. ダウンロードしたファイルを開き、フライトに含める各広告行のフライト情報フィールドを編集し、更新したファイルを保存します。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    1. 一括アクションツールバーで、**[!UICONTROL ...]**/**[!UICONTROL Upload Custom Ad Schedule Sheet]** をクリックし、アップロードするファイルを指定します。
 
-## 1 つのプレースメントの広告スケジュールの編集
+## 単一プレースメントの広告スケジュールの編集
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- just simple ad serving placements (PG ones seem okay)? And anything else? -->
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメント管理について &#x200B;](placement-about.md)
->* [&#x200B; プレースメントを編集 &#x200B;](placement-edit.md)
->* [&#x200B; プレースメントの変更ログを表示 &#x200B;](placement-change-log.md)
->* [&#x200B; プレースメント設定 &#x200B;](placement-settings.md)
+>* [Advertising DSPでのプレースメント管理について ](placement-about.md)
+>* [ プレースメントを編集 ](placement-edit.md)
+>* [ プレースメントの変更ログを表示 ](placement-change-log.md)
+>* [ プレースメント設定 ](placement-settings.md)

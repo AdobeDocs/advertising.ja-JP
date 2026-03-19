@@ -3,9 +3,9 @@ title: パッケージ変更ログの表示
 description: パッケージに加えられた変更を表示する方法を説明します。
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. （オプション）次のいずれかの操作をおこないます。
 
-   * データの表示を、テーブル形式のみと、テーブル形式とグラフ形式の両方で切り替えるには、![&#x200B; テーブルとグラフの表示 &#x200B;](/help/dsp/assets/table-plus-chart-view.png " テーブルとグラフの表示 ")、または右上のツールバーにある ![テーブル表示](/help/dsp/assets/table-view.png "テーブル表示") をクリックします。
+   * データの表示を、テーブル形式のみと、テーブル形式とグラフ形式の両方で切り替えるには、![ テーブルとグラフの表示 ](/help/dsp/assets/table-plus-chart-view.png " テーブルとグラフの表示 ")、または右上のツールバーにある ![テーブル表示](/help/dsp/assets/table-view.png "テーブル表示") をクリックします。
 
    * エントリにメモを追加するには、行の [!UICONTROL Notes] 列にカーソルを置き、[**[!UICONTROL Add Notes]**] をクリックします。 入力フィールドにテキストを入力し、「**[!UICONTROL Save]**」をクリックします。
 
@@ -32,8 +32,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; パッケージ管理について &#x200B;](package-about.md)
->* [&#x200B; パッケージの作成 &#x200B;](package-create.md)
->* [&#x200B; パッケージの編集 &#x200B;](package-edit.md)
->* [&#x200B; パッケージへのプレースメントの添付 &#x200B;](package-attach-placement.md)
->* [&#x200B; パッケージ設定 &#x200B;](package-settings.md)
+>* [Advertising DSPのパッケージ管理について ](package-about.md)
+>* [ パッケージを作成する ](package-create.md)
+>* [ パッケージを編集 ](package-edit.md)
+>* [ パッケージへのプレースメントの添付 ](package-attach-placement.md)
+>* [ パッケージ設定 ](package-settings.md)

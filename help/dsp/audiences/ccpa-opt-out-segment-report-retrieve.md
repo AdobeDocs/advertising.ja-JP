@@ -3,7 +3,7 @@ title: 消費者の販売オプトアウトレポートの取得
 description: 販売のオプトアウトリクエスト用に送信された ID のレポートを取得する方法について説明します。
 feature: CCPA, DSP Segments
 exl-id: 94133ce3-4e2c-4a24-90c9-61bf10731668
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
