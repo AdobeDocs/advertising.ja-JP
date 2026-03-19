@@ -32,8 +32,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Audience Management について ](audience-about.md)
->* [ カスタムセグメントの作成 ](custom-segment-create.md)
->* [ セグメントの削除 ](segment-delete.md)
->* [ セグメントのトラッキングピクセルの表示 ](segment-view-pixels.md)
->* [ セグメントの共有または共有の停止 ](segment-share.md)
+>* [Audience Management について &#x200B;](audience-about.md)
+>* [&#x200B; カスタムセグメントの作成 &#x200B;](custom-segment-create.md)
+>* [&#x200B; セグメントの削除 &#x200B;](segment-delete.md)
+>* [&#x200B; セグメントのトラッキングピクセルの表示 &#x200B;](segment-view-pixels.md)
+>* [&#x200B; セグメントの共有または共有の停止 &#x200B;](segment-share.md)

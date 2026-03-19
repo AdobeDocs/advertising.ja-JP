@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * 新しいキャンペーンの実施日を変更
 
-重複しないプレースメント設定のリストについては [ 「重複していないもの ](#campaign-not-duplicated) を参照してください。
+重複しないプレースメント設定のリストについては [&#x200B; 「重複していないもの &#x200B;](#campaign-not-duplicated) を参照してください。
 
 1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
 
@@ -57,8 +57,8 @@ ht-degree: 0%
 
 >[!TIP]
 >
->* バルクシートを使用して [ 複数の Campaign コンポーネントを一度に変更 ](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
->* 広告タグシートを使用して [ 複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
+>* バルクシートを使用して [&#x200B; 複数の Campaign コンポーネントを一度に変更 &#x200B;](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
+>* 広告タグシートを使用して [&#x200B; 複数のサードパーティ広告をアップロード &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
 
 * 新しいキャンペーンをアクティブ化する準備ができるまで一時停止します。
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 
    * 必要に応じて、[!UICONTROL Simple Ad Serving] 件の取引に対して新しいプレースメントを作成します。
 
-* パフォーマンスキャンペーン（つまり、カスタムの最適化目標を使用するパッケージを含んだキャンペーン）の場合は [[!UICONTROL Linked Package for Optimization Learnings Carryover] パッケージごとに ](/help/dsp/campaign-management/packages/package-settings.md) 設定を使用して、前のキャンペーンの履歴データをパッケージ最適化の入力として使用します。
+* パフォーマンスキャンペーン（つまり、カスタムの最適化目標を使用するパッケージを含んだキャンペーン）の場合は [[!UICONTROL Linked Package for Optimization Learnings Carryover] パッケージごとに &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) 設定を使用して、前のキャンペーンの履歴データをパッケージ最適化の入力として使用します。
 
 >[!MORELIKETHIS]
 >
->* [Advertising DSPでのキャンペーン管理について ](campaign-about.md)
->* [ キャンペーンの作成 ](campaign-create.md)
->* [ キャンペーンの編集 ](campaign-edit.md)
->* [ キャンペーンの変更ログを表示 ](campaign-change-log.md)
->* [ キャンペーン設定 ](campaign-settings.md)
+>* [Advertising DSPでのキャンペーン管理について &#x200B;](campaign-about.md)
+>* [&#x200B; キャンペーンの作成 &#x200B;](campaign-create.md)
+>* [&#x200B; キャンペーンの編集 &#x200B;](campaign-edit.md)
+>* [&#x200B; キャンペーンの変更ログを表示 &#x200B;](campaign-change-log.md)
+>* [&#x200B; キャンペーン設定 &#x200B;](campaign-settings.md)
