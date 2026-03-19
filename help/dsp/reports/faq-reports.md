@@ -2,9 +2,9 @@
 title: カスタムレポートに関する FAQ
 description: 世帯レポートやコンバージョンパス分析レポートなどのカスタムレポートについて詳しく説明します。
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 8ba0d485562017caf2a5dedb6215e1485be16c34
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 0%
 
 ##### サポートされるディメンション
 
-[!UICONTROL Household Reach & Frequency] レポートは、[&#128279;](/help/dsp/reports/report-columns.md)」、「[!UICONTROL Campaign]」、「[!UICONTROL Package]」、「[!UICONTROL Placement]」（重複指標へのアクセスを提供しない）、「[!UICONTROL Site/Apps]」、「[!UICONTROL Media Type]」、「[!UICONTROL Feed Type]」、「[!UICONTROL Device]」、「[!UICONTROL Publisher]」、「[!UICONTROL Audience]」およびユーザー作成のプレースメント「[!UICONTROL Creative Length]」をサポートします [!UICONTROL Tags]。 |
+[!UICONTROL Household Reach & Frequency] レポートは、[](/help/dsp/reports/report-columns.md)」、「[!UICONTROL Campaign]」、「[!UICONTROL Package]」、「[!UICONTROL Placement]」（重複指標へのアクセスを提供しない）、「[!UICONTROL Site/Apps]」、「[!UICONTROL Media Type]」、「[!UICONTROL Feed Type]」、「[!UICONTROL Device]」、「[!UICONTROL Publisher]」、「[!UICONTROL Audience]」およびユーザー作成のプレースメント「[!UICONTROL Creative Length]」をサポートします [!UICONTROL Tags]。 |
 
 ##### サポートされる指標
 
-[&#x200B; 使用可能な指標 &#x200B;](/help/dsp/reports/report-columns.md) は次のとおりです。
+[ 使用可能な指標 ](/help/dsp/reports/report-columns.md) は次のとおりです。
 
 * 重複指標：[!UICONTROL Frequency Overlap]、[!UICONTROL Measurable Impressions (Overlap)]、[!UICONTROL Unique Household (Overlap)]。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 次の図は、3 つのキャンペーン（A、B、C）の 3 つの指標（ユニーク世帯、達した世帯の増分、世帯の増分（重複））を示しています。
 
-![&#x200B; 世帯オーバーラップ指標の図 &#x200B;](/help/dsp/assets/household-overlap-metrics-illustration.png " 世帯オーバーラップ指標の図 ")
+![ 世帯オーバーラップ指標の図 ](/help/dsp/assets/household-overlap-metrics-illustration.png " 世帯オーバーラップ指標の図 ")
 
 * ユニーク世帯リーチ（合計）は、各キャンペーンでリーチしたユニーク世帯または各サークルの合計面積を提供します。 次の図では、A によって達成された一意の世帯=A + （A+B） + （A+C） + （A+B+C）によって達成された増分世帯
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 #### ワークフロー
 
-通常の手順に従って [&#x200B; カスタムレポートを作成 &#x200B;](report-create.md) します。
+通常の手順に従って [ カスタムレポートを作成 ](report-create.md) します。
 
 [!UICONTROL Household Reach & Frequency] レポートには、ディメンションを 1 つだけ含めることができます。 また、a） サイト/アプリを除く任意のディメンションによる重複指標、または b）重複以外の指標を含めることもできますが、両方を含めることはできません。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 #### [!UICONTROL Placement Tags] ディメンションのレポートを設定するにはどうすればよいですか？
 
-プレースメントのタグを作成するには、[&#x200B; プレースメント設定を開き &#x200B;](/help/dsp/campaign-management/placements/placement-edit.md) [&#x200B; プレースメント タグ フィールド &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) に値を入力します。
+プレースメントのタグを作成するには、[ プレースメント設定を開き ](/help/dsp/campaign-management/placements/placement-edit.md) 「[[!UICONTROL Placement Tags]」フィールドに値を入力します ](/help/dsp/campaign-management/placements/placement-settings.md)。
 
 プレースメントに複数のタグが含まれる場合、レポートは文字列全体を 1 つのタグと見なします。 レポートには、一意の文字列ごとに 1 行が含まれます。
 
@@ -89,9 +89,9 @@ ht-degree: 0%
 
 * レポートデータ [!DNL Analytics]、マーケティングチャネル別やサイトエンゲージメント指標別などに分析する際に特に役立ちます。 DSP [!UICONTROL Household Conversions] レポートでは、コンバージョンデータをメディアタイプやパブリッシャーなどの様々なディメンションで分割できるので、より詳細なインサイトが得られます。
 
-### [!UICONTROL Household Reach & Frequency] および [!UICONTROL Household Conversions] レポートと [!DNL Advanced Measurement Services] のデータの比較
+### [!UICONTROL Household Reach & Frequency] および [!UICONTROL Household Conversions] レポートと [!DNL Advanced Measurement Services] からのデータの比較
 
-世帯ベースのリーチと頻度またはコンバージョンに関する高度なレポートについて、[[!DNL Strategic Advertising Consulting]  チーム &#x200B;](/help/dsp/introduction/advanced-measurement-services.md) は、全体的な戦略的レコメンデーションに加えて、カスタマイズ性の高いレポートを提供できます。 [!DNL Advanced Measurement Services] について詳しくは、Adobe アカウントチームにお問い合わせください。
+世帯ベースのリーチと頻度またはコンバージョンに関する高度なレポートについて、[[!DNL Strategic Advertising Consulting]  チーム ](/help/dsp/introduction/advanced-measurement-services.md) は、全体的な戦略的レコメンデーションに加えて、カスタマイズ性の高いレポートを提供できます。 [!DNL Advanced Measurement Services] について詳しくは、Adobe アカウントチームにお問い合わせください。
 
 #### 既に [!DNL Advanced Measurement Services] を使用している場合、[!UICONTROL Household Reach & Frequency] レポートと [!UICONTROL Household Conversions] レポートを使用する必要があるのはなぜですか？
 
@@ -103,9 +103,9 @@ ht-degree: 0%
 
 ## コンバージョンパス分析レポート
 
-### コンバージョンレポートのパスは、[!DNL Advanced Measurement Services] およびAdobe Analytics Analysis Workspaceで作成されたレポートと比較してどうですか？
+### [!UICONTROL Path to Conversion] レポートと、[!DNL Advanced Measurement Services] およびAdobe Analytics Analysis Workspaceで作成されたレポートにはどのような違いがありますか。
 
-| | コンバージョンレポートのパス | 検索レポートに対する Advanced Measurement Services のハロー効果 | Analysis Workspaceのレポート |
+| | [!UICONTROL Path to Conversion] Report | 検索レポートに対する Advanced Measurement Services のハロー効果 | Analysis Workspaceのレポート |
 | --- | --- | --- |---|
 | 顧客価値 | セルフサービスのカスタムレポートを生成して、広告ジャーニーのどのパスが最適化を高めるためにより多くのコンバージョンにつながったかを把握します | 検索クリックに対するコネクテッド TV （CTV）戦術の影響を理解します | 検索クリックに対するAdobe Advertisingの総合的な投資が、他のマーケティングチャネルと共に与える影響を理解します |
 | 世帯レベル | はい | はい | 不可 |
@@ -117,12 +117,12 @@ ht-degree: 0%
 | マーケティングチャネル | DSP +検索（検索、ソーシャル、Commerceから） | DSP +検索（検索、ソーシャル、Commerceから） | Adobe Advertisingのクリックスルー EF ID でトラッキングされないマーケティングチャネル（オーガニック検索、オーガニックソーシャル、メール、アフィリエイトなど） |
 | サポートされるコンバージョン指標 | Adobe Advertising イベントピクセル（AMO ID）およびAdobe Analytics トラッキングを使用してトラッキングされる指標 | クリック数（コンバージョンなし） | Adobe Analyticsのトラッキングを使用して追跡される指標 |
 
-Advanced Measurement Services の検索レポートへのハロー効果について詳しくは、「[Advanced Measurement Services](/help/dsp/introduction/advanced-measurement-services.md)」を参照してください。
+Advanced Measurement Services Halo が検索レポートに与える影響について詳しくは、「[ 高度な測定ソリューション ](/help/dsp/introduction/advanced-measurement-services.md)」を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
->* [&#x200B; カスタムレポートの作成 &#x200B;](/help/dsp/reports/report-create.md)
->* [&#x200B; カスタムレポートの編集 &#x200B;](/help/dsp/reports/report-edit.md)
->* [&#x200B; カスタムレポートの設定 &#x200B;](/help/dsp/reports/report-settings.md)
->* [&#x200B; 使用可能なレポート列 &#x200B;](/help/dsp/reports/report-columns.md)
+>* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
+>* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートの編集 ](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
+>* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)
