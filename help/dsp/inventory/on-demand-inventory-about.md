@@ -53,10 +53,10 @@ DSP Premium Marketplace では、次のことが可能です。
 
 >[!MORELIKETHIS]
 >
->* [ プレミアム在庫取引の購入  [!DNL On Demand]  アクセスのリクエスト ](on-demand-inventory-subscribe.md)
->* [ プレミアム在庫取引  [!DNL On Demand]  再要求 ](on-demand-inventory-rerequest.md)
->* [ 取引リクエストと購読のステ  [!DNL On Demand]  タスの表示 ](on-demand-inventory-view-status.md)
->* [[!DNL On Demand]  アジア太平洋地域のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-na.md)
+>* [&#x200B; プレミアム在庫取引の購入  [!DNL On Demand]  アクセスのリクエスト &#x200B;](on-demand-inventory-subscribe.md)
+>* [&#x200B; プレミアム在庫取引  [!DNL On Demand]  再要求 &#x200B;](on-demand-inventory-rerequest.md)
+>* [&#x200B; 取引リクエストと購読のステ  [!DNL On Demand]  タスの表示 &#x200B;](on-demand-inventory-view-status.md)
+>* [[!DNL On Demand]  アジア太平洋地域のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-na.md)

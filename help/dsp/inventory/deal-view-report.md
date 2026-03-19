@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プライベート取引のオークションインサイトの表示 ](/help/dsp/inventory/private-deal-auction-insights.md)
->* [ プレミアム在庫  [!DNL On Demand]  ついて ](on-demand-inventory-about.md)
->* [ プライベートインベントリについて ](private-inventory-about.md)
+>* [&#x200B; プライベート取引のオークションインサイトの表示 &#x200B;](/help/dsp/inventory/private-deal-auction-insights.md)
+>* [&#x200B; プレミアム在庫  [!DNL On Demand]  ついて &#x200B;](on-demand-inventory-about.md)
+>* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)
 >* [[!UICONTROL Simple Ad Serving]](simple-deal-about.md) について
