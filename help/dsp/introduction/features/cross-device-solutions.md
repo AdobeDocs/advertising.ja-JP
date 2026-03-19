@@ -42,7 +42,7 @@ Advertising DSPと [!DNL LiveRamp] の統合により、ブランドがトラッ
 
 * **キャンペーン：** 新しいキャンペーンを作成する際に、キャン [!UICONTROL Cross-Device Level] ーン設定を指定できます。 「[!UICONTROL Same Device]」 – > 「[!UICONTROL People]」を有効にし、デバイスグラフを選択します。 指定されたデバイスグラフは、プレースメント レベルでのクロスデバイスターゲティングと、キャンペーン、パッケージ、プレースメントの各レベルでの人物ベースの頻度管理の両方に使用されます。 フリークエンシーキャップは、人の既知のすべてのデバイスに適用されます。
 
-詳しくは、[ キャンペーン設定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md) を参照してください。
+詳しくは、[&#x200B; キャンペーン設定 &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md) を参照してください。
 
 キャンペーンを保存すると、そのキャン [!UICONTROL Cross Device Level] ーン設定を変更できなくなります。
 
@@ -58,7 +58,7 @@ Advertising DSPと [!DNL LiveRamp] の統合により、ブランドがトラッ
 
 * **キャンペーン：** 新しいキャンペーンを作成する際に、キャン [!UICONTROL Cross-Device Level] ーン設定を指定できます。 「[!UICONTROL Same Device]」 – > 「[!UICONTROL People]」を有効にし、デバイスグラフを選択します。 指定したデバイスグラフは、配置レベルでのクロスデバイスターゲティングと、人物ベースの頻度管理の両方に使用されます。
 
-詳しくは、[ キャンペーン設定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md) を参照してください。
+詳しくは、[&#x200B; キャンペーン設定 &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md) を参照してください。
 
 * **プレースメント：** 指定したデバイスグラフを使用したキャンペーンのプレースメントに対してオーディエンスターゲットを選択する場合、[!UICONTROL Cross-Device Targeting] オプションを使用すると、指定したセグメントに含まれていないデバイスも含め、個人の既知のすべてのデバイス（キャンペーン設定で指定したデバイスグラフごと）にターゲティングを拡張できます。
 
@@ -112,7 +112,7 @@ Advertising DSPと [!DNL LiveRamp] の統合により、ブランドがトラッ
 
 >[!MORELIKETHIS]
 >
->* [ 報告書設定 ](/help/dsp/reports/report-settings.md)
->* [ キャンペーン設定 ](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)
->* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [&#x200B; 報告書設定 &#x200B;](/help/dsp/reports/report-settings.md)
+>* [&#x200B; キャンペーン設定 &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
