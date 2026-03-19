@@ -3,9 +3,9 @@ title: 広告に関連付けられたプレースメントのリスト
 description: 広告に関連付けられたプレースメントを表示する方法を説明します。
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Ad Management について &#x200B;](ad-about.md)
->* [&#x200B; 広告の編集 &#x200B;](ad-edit.md)
->* [&#x200B; プレースメントを編集 &#x200B;](/help/dsp/campaign-management/placements/placement-edit.md)
->* [&#x200B; プレースメントの詳細レポートの表示 &#x200B;](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Advertising DSPの広告管理について ](ad-about.md)
+>* [ 広告の編集 ](ad-edit.md)
+>* [ プレースメントを編集 ](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [ プレースメントの詳細レポートの表示 ](/help/dsp/campaign-management/placements/placement-view-report.md)

@@ -3,7 +3,7 @@ title: キャンペーンのアーカイブまたはアーカイブ解除
 description: キャンペーンをアーカイブまたはアーカイブ解除する方法について説明します。
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アーカイブしたキャンペーンを表示するには、[!UICONTROL Campaigns] ビューをフィルタリングします。![&#x200B; フィルターボタン &#x200B;](/help/dsp/assets/filter.png) をクリックし、「**[!UICONTROL Campaign status]**」をクリックして **[!UICONTROL Archived]** を選択し、「**[!UICONTROL Apply]」をクリックします。**
+>アーカイブしたキャンペーンを表示するには、[!UICONTROL Campaigns] ビューをフィルタリングします。![ フィルターボタン ](/help/dsp/assets/filter.png) をクリックし、「**[!UICONTROL Campaign status]**」をクリックして **[!UICONTROL Archived]** を選択し、「**[!UICONTROL Apply]」をクリックします。**
 
 ## キャンペーンのアーカイブ解除
 
@@ -34,6 +34,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーンの編集 &#x200B;](campaign-edit.md)
->* [&#x200B; キャンペーンの変更ログを表示 &#x200B;](campaign-change-log.md)
->* [&#x200B; キャンペーンの一時停止またはアクティブ化 &#x200B;](campaign-pause-activate.md)
+>* [ キャンペーンの編集 ](campaign-edit.md)
+>* [ キャンペーンの変更ログを表示 ](campaign-change-log.md)
+>* [ キャンペーンの一時停止またはアクティブ化 ](campaign-pause-activate.md)

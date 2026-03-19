@@ -3,7 +3,7 @@ title: 認証済みセグメントの手動インポート元  [!DNL LiveRamp]
 description: ' [!DNL LiveRamp] を使用した認証済みオーディエンスのアクティブ化について説明します。'
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. [!DNL Identifier Settings] を **[!DNL Ramp ID]** のみに設定します。
 
-      ![&#x200B; 識別子の設定 &#x200B;](/help/dsp/assets/liveramp-tile-settings.png)
+      ![ 識別子の設定 ](/help/dsp/assets/liveramp-tile-settings.png)
 
    1. （任意） cookie ベースの識別子を引き続き受け取る場合は、「[!DNL AAC API 1P Onboarding]」、「[!DNL Cookies]」、「[!DNL IDFA]」を選択して、2 つ目の [!DNL AAID] 宛先タイルを作成します。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ファーストパーティオーディエンスソースについて &#x200B;](source-about.md)
->* [&#x200B; ユニバーサル ID オーディエンスをアクティブ化するためのオーディエンスソースの管理 &#x200B;](source-manage.md)
->* [Adobe Advertising DSP接続 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)
->* [Audience Management について &#x200B;](/help/dsp/audiences/audience-about.md)
+>* [ ファーストパーティオーディエンスソースについて ](source-about.md)
+>* [ オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化 ](source-manage.md)
+>* [Adobe Advertising DSP接続 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Audience Management について ](/help/dsp/audiences/audience-about.md)

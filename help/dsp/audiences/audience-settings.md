@@ -3,7 +3,7 @@ title: オーディエンス設定
 description: 使用可能なオーディエンス設定の説明を参照してください。
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
+source-git-commit: edf86b00a04fb1e0b8c45101a7f19a1543fc60e6
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 2%
@@ -38,10 +38,10 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->* [Audience Management について &#x200B;](audience-about.md)
->* [&#x200B; 再利用可能なオーディエンスを作成 &#x200B;](reusable-audience-create.md)
->* [&#x200B; 利用可能なサードパーティデータプロバイダー &#x200B;](third-party-data-providers.md)
->* [&#x200B; オーディエンスセグメントロジックの構文 &#x200B;](audience-segment-logic-syntax.md)
->* [&#x200B; カスタムセグメントの作成と実装 &#x200B;](custom-segment-create.md)
->* [[!UICONTROL CCPA Opt-Out-of-Sale] セグメントの作成と実装 &#x200B;](ccpa-opt-out-segment-create.md)
->* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Audience Management について ](audience-about.md)
+>* [ 再利用可能なオーディエンスを作成 ](reusable-audience-create.md)
+>* [ 利用可能なサードパーティデータプロバイダー ](third-party-data-providers.md)
+>* [ オーディエンスセグメントロジックの構文 ](audience-segment-logic-syntax.md)
+>* [ カスタムセグメントの作成と実装 ](custom-segment-create.md)
+>* [[!UICONTROL CCPA Opt-Out-of-Sale] セグメントの作成と実装 ](ccpa-opt-out-segment-create.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)

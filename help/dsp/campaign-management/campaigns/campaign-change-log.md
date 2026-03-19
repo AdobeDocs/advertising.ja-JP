@@ -3,9 +3,9 @@ title: キャンペーン変更ログの表示
 description: キャンペーンに加えられた変更を表示する方法を説明します。
 feature: DSP Campaigns
 exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. （オプション）次のいずれかの操作をおこないます。
 
-   * データの表示を、テーブル形式のみと、テーブル形式とグラフ形式の両方で切り替えるには、![&#x200B; テーブルとグラフの表示 &#x200B;](/help/dsp/assets/table-plus-chart-view.png " テーブルとグラフの表示 ")、または右上のツールバーにある ![テーブル表示](/help/dsp/assets/table-view.png "テーブル表示") をクリックします。
+   * データの表示を、テーブル形式のみと、テーブル形式とグラフ形式の両方で切り替えるには、![ テーブルとグラフの表示 ](/help/dsp/assets/table-plus-chart-view.png " テーブルとグラフの表示 ")、または右上のツールバーにある ![テーブル表示](/help/dsp/assets/table-view.png "テーブル表示") をクリックします。
 
    * エントリにメモを追加するには、行の [!UICONTROL Notes] 列にカーソルを置き、[**[!UICONTROL Add Notes]**] をクリックします。 入力フィールドにテキストを入力し、「**[!UICONTROL Save]**」をクリックします。
 
@@ -30,8 +30,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign 管理について &#x200B;](campaign-about.md)
->* [&#x200B; キャンペーンの作成 &#x200B;](campaign-create.md)
->* [&#x200B; キャンペーンの編集 &#x200B;](campaign-edit.md)
->* [&#x200B; キャンペーン設定 &#x200B;](campaign-settings.md)
->* [&#x200B; キャンペーンの一時停止またはアクティブ化 &#x200B;](campaign-pause-activate.md)
+>* [Advertising DSPでのキャンペーン管理について ](campaign-about.md)
+>* [ キャンペーンの作成 ](campaign-create.md)
+>* [ キャンペーンの編集 ](campaign-edit.md)
+>* [ キャンペーン設定 ](campaign-settings.md)
+>* [ キャンペーンの一時停止またはアクティブ化 ](campaign-pause-activate.md)

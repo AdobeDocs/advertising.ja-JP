@@ -3,7 +3,7 @@ title: 再利用可能なオーディエンスを作成
 description: オーディエンスセグメントとその他の保存済みオーディエンスで構成される、再利用可能なオーディエンスを作成する方法について説明します。
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -36,9 +36,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >オーディエンスを作成すると、右側のパネルで詳細な [&#x200B; オーディエンスサイズデータ &#x200B;](audience-about.md) が更新されます
+   >オーディエンスを作成すると、右側のパネルで詳細な [ オーディエンスサイズデータ ](audience-about.md) が更新されます
 
-   * 「[[!UICONTROL Third Party Segments]」、「[!UICONTROL First Party Segments]」、「[!UICONTROL Adobe Segments]」、「[!UICONTROL Custom Segments]」および「[!UICONTROL Saved Audiences]」タブで使用可能なセグメントを使用してセグメントロジックを手動で作成するには &#x200B;](audience-settings.md) 次の手順を実行します。
+   * 「[[!UICONTROL Third Party Segments]」、「[!UICONTROL First Party Segments]」、「[!UICONTROL Adobe Segments]」、「[!UICONTROL Custom Segments]」および「[!UICONTROL Saved Audiences]」タブで使用可能なセグメントを使用してセグメントロジックを手動で作成するには ](audience-settings.md) 次の手順を実行します。
 
       * （任意）セグメント名、説明またはパスを検索します。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
          * 既存オーディエンスの設定のセグメント論理パネルの上部で、**[!UICONTROL More]**/**[!UICONTROL Copy to Clipboard]** をクリックします。
 
-         * テキストエディターで、英数字のセグメント ID と [&#x200B; ブール構文 &#x200B;](audience-segment-logic-syntax.md) を使用してセグメントロジックを手動で作成し、クリップボードにコピーします。
+         * テキストエディターで、英数字のセグメント ID と [ ブール構文 ](audience-segment-logic-syntax.md) を使用してセグメントロジックを手動で作成し、クリップボードにコピーします。
 
       1. 「**[!UICONTROL paste in an audience rule to begin building]**」をクリックし、既存のセグメントロジックを入力フィールドに貼り付けて、「**[!UICONTROL Apply]**」をクリックします。
 
@@ -88,10 +88,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Audience Management について &#x200B;](audience-about.md)
->* [&#x200B; オーディエンス設定 &#x200B;](audience-settings.md)
->* [&#x200B; オーディエンスセグメントロジックの構文 &#x200B;](audience-segment-logic-syntax.md)
->* [&#x200B; 利用可能なサードパーティデータプロバイダー &#x200B;](third-party-data-providers.md)
->* [&#x200B; カスタムセグメントの作成と実装 &#x200B;](custom-segment-create.md)
->* [[!UICONTROL CCPA Opt-Out-of-Sale] セグメントの作成と実装 &#x200B;](ccpa-opt-out-segment-create.md)
->* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Audience Management について ](audience-about.md)
+>* [ オーディエンス設定 ](audience-settings.md)
+>* [ オーディエンスセグメントロジックの構文 ](audience-segment-logic-syntax.md)
+>* [ 利用可能なサードパーティデータプロバイダー ](third-party-data-providers.md)
+>* [ カスタムセグメントの作成と実装 ](custom-segment-create.md)
+>* [[!UICONTROL CCPA Opt-Out-of-Sale] セグメントの作成と実装 ](ccpa-opt-out-segment-create.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)

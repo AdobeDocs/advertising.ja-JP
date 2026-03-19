@@ -3,7 +3,7 @@ title: セグメントのトラッキングピクセルの表示
 description: カスタムまたは CCPA の販売オプトアウトセグメントのトラッキングピクセルを表示する方法を説明します。
 feature: DSP Segments
 exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -26,8 +26,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Audience Management について &#x200B;](audience-about.md)
->* [&#x200B; カスタムセグメントの作成 &#x200B;](custom-segment-create.md)
->* [&#x200B; セグメント情報の編集 &#x200B;](segment-edit.md)
->* [&#x200B; セグメントの削除 &#x200B;](segment-delete.md)
->* [&#x200B; セグメントの共有または共有の停止 &#x200B;](segment-share.md)
+>* [Audience Management について ](audience-about.md)
+>* [ カスタムセグメントの作成 ](custom-segment-create.md)
+>* [ セグメント情報の編集 ](segment-edit.md)
+>* [ セグメントの削除 ](segment-delete.md)
+>* [ セグメントの共有または共有の停止 ](segment-share.md)
