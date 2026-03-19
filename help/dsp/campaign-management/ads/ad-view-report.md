@@ -3,7 +3,7 @@ title: 広告の詳細レポートの表示
 description: 概要、地域、ビューアビリティのデータを含む広告レベルレポートを開く方法を説明します。
 feature: DSP Ads, DSP Campaign Data Views
 exl-id: 61e964af-b133-4c86-9672-27167ac6bad1
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 41be6988fdc3f824f5f838c109c608e2b3f3afee
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメントの詳細レポートの表示 &#x200B;](/help/dsp/campaign-management/placements/placement-view-report.md)
->* [&#x200B; キャンペーンの詳細レポートの表示 &#x200B;](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [&#x200B; キャンペーン管理ビューでのパフォーマンスレポートのタイプ &#x200B;](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
+>* [ プレースメントの詳細レポートの表示 ](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [ キャンペーンの詳細レポートの表示 ](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [ キャンペーン管理ビューでのパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
