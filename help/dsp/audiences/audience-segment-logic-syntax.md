@@ -3,7 +3,7 @@ title: オーディエンスセグメントロジックの構文
 description: オーディエンスセグメントのロジックの定義に使用できる構文を参照します。
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 再利用可能なオーディエンスを作成する場合、英数字のセグメント ID （キー）と次の構文を使用して、セグメントロジックを手動で定義できます。
 
 * （） グループを示す
-* [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table --> の `||`
+* `||` [!DNL OR] の <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
 * [!DNL AND] の&amp;&amp;
 * ! [!DNL NOT] の場合（除外）
 
 >[!NOTE]
 >
 >* 先頭にが付いていない限り、指定したセグメントグループがすべて含まれます。 （これらのプロパティは除外されます）。
->* [!UICONTROL Audiences]/[!UICONTROL All audiences] から [&#x200B; オーディエンスのセグメント ID を検索 &#x200B;](reusable-audience-clipboard.md) できます。
+>* [/](reusable-audience-clipboard.md) から [!UICONTROL Audiences] オーディエンスのセグメント ID を検索 [!UICONTROL All audiences] できます。
 
 例えば、次のようなロジックがあります。
 
@@ -42,8 +42,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 再利用可能なオーディエンスのセグメントキーをクリップボードにコピー &#x200B;](reusable-audience-clipboard.md)
->* [Audience Management について &#x200B;](audience-about.md)
->* [&#x200B; 再利用可能なオーディエンスを作成 &#x200B;](reusable-audience-create.md)
->* [&#x200B; オーディエンス設定 &#x200B;](audience-settings.md)
->* [&#x200B; 利用可能なサードパーティデータプロバイダー &#x200B;](third-party-data-providers.md)
+>* [ 再利用可能なオーディエンスのセグメントキーをクリップボードにコピー ](reusable-audience-clipboard.md)
+>* [Audience Management について ](audience-about.md)
+>* [ 再利用可能なオーディエンスを作成 ](reusable-audience-create.md)
+>* [ オーディエンス設定 ](audience-settings.md)
+>* [ 利用可能なサードパーティデータプロバイダー ](third-party-data-providers.md)

@@ -3,7 +3,7 @@ title: セグメントの削除
 description: カスタムまたは CCPA の販売オプトアウトセグメントを削除する方法を説明します。
 feature: DSP Segments
 exl-id: 2b5f61b1-b07d-45e1-bf1c-8e7c25ead42b
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -22,8 +22,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Audience Management について &#x200B;](audience-about.md)
->* [&#x200B; カスタムセグメントの作成 &#x200B;](custom-segment-create.md)
->* [&#x200B; セグメント情報の編集 &#x200B;](segment-edit.md)
->* [&#x200B; セグメントのトラッキングピクセルの表示 &#x200B;](segment-view-pixels.md)
->* [&#x200B; セグメントの共有または共有の停止 &#x200B;](segment-share.md)
+>* [Audience Management について ](audience-about.md)
+>* [ カスタムセグメントの作成 ](custom-segment-create.md)
+>* [ セグメント情報の編集 ](segment-edit.md)
+>* [ セグメントのトラッキングピクセルの表示 ](segment-view-pixels.md)
+>* [ セグメントの共有または共有の停止 ](segment-share.md)

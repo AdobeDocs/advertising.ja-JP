@@ -3,7 +3,7 @@ title: 再利用可能なオーディエンスを削除
 description: 再利用可能なオーディエンスを削除する方法を説明します。
 feature: DSP Audiences
 exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -28,14 +28,14 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Audience Management について &#x200B;](audience-about.md)
->* [&#x200B; 再利用可能なオーディエンスを作成 &#x200B;](reusable-audience-create.md)
->* [&#x200B; 再利用可能なオーディエンスを複製 &#x200B;](reusable-audience-duplicate.md)
->* [&#x200B; 再利用可能なオーディエンスの編集 &#x200B;](reusable-audience-edit.md)
->* [&#x200B; 再利用可能なオーディエンスに関する詳細の表示 &#x200B;](reusable-audience-view-details.md)
->* [&#x200B; 再利用可能なオーディエンスの共有 &#x200B;](reusable-audience-share.md)
->* [&#x200B; 再利用可能なオーディエンスの書き出し &#x200B;](reusable-audience-export.md)
->* [&#x200B; 再利用可能なオーディエンスのセグメントキーをクリップボードにコピー &#x200B;](reusable-audience-clipboard.md)
->* [&#x200B; オーディエンス設定 &#x200B;](audience-settings.md)
->* [&#x200B; オーディエンスセグメントロジックの構文 &#x200B;](audience-segment-logic-syntax.md)
->* [&#x200B; 利用可能なサードパーティデータプロバイダー &#x200B;](third-party-data-providers.md)
+>* [Audience Management について ](audience-about.md)
+>* [ 再利用可能なオーディエンスを作成 ](reusable-audience-create.md)
+>* [ 再利用可能なオーディエンスを複製 ](reusable-audience-duplicate.md)
+>* [ 再利用可能なオーディエンスを編集 ](reusable-audience-edit.md)
+>* [ 再利用可能なオーディエンスに関する詳細の表示 ](reusable-audience-view-details.md)
+>* [ 再利用可能なオーディエンスの共有 ](reusable-audience-share.md)
+>* [ 再利用可能なオーディエンスの書き出し ](reusable-audience-export.md)
+>* [ 再利用可能なオーディエンスのセグメントキーをクリップボードにコピー ](reusable-audience-clipboard.md)
+>* [ オーディエンス設定 ](audience-settings.md)
+>* [ オーディエンスセグメントロジックの構文 ](audience-segment-logic-syntax.md)
+>* [ 利用可能なサードパーティデータプロバイダー ](third-party-data-providers.md)

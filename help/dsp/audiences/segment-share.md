@@ -3,7 +3,7 @@ title: セグメントの共有または共有の停止
 description: 他のDSP ユーザーアカウントとのカスタムセグメントまたは CCPA の販売オプトアウトセグメントの共有を共有または停止する方法について説明します。
 feature: DSP Segments
 exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # セグメントの共有または共有の停止
 
-カスタムセグメントと CCPA の販売のオプトアウトセグメントを、追加のDSP ユーザーアカウントと共有できます。 セグメントを共有すると、セグメントは [!UICONTROL Audiences]/[!UICONTROL Segments] に配置され、指定されたユーザーのプレースメントと再利用可能なオーディエンスの「[!UICONTROL Custom Segments]」タブで使用できるようになります。
+カスタムセグメントと CCPA の販売オプトアウトセグメントを、他のDSP ユーザーアカウントと共有できます。 セグメントを共有すると、セグメントは [!UICONTROL Audiences]/[!UICONTROL Segments] に配置され、指定されたユーザーのプレースメントと再利用可能なオーディエンスの「[!UICONTROL Custom Segments]」タブで使用できるようになります。
 
 他のDSP ユーザーアカウントとのセグメントの共有を停止することもできます。
 
@@ -32,8 +32,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Audience Management について &#x200B;](audience-about.md)
->* [&#x200B; カスタムセグメントの作成 &#x200B;](custom-segment-create.md)
->* [&#x200B; セグメント情報の編集 &#x200B;](segment-edit.md)
->* [&#x200B; セグメントの削除 &#x200B;](segment-delete.md)
->* [&#x200B; セグメントのトラッキングピクセルの表示 &#x200B;](segment-view-pixels.md)
+>* [Audience Management について ](audience-about.md)
+>* [ カスタムセグメントの作成 ](custom-segment-create.md)
+>* [ セグメント情報の編集 ](segment-edit.md)
+>* [ セグメントの削除 ](segment-delete.md)
+>* [ セグメントのトラッキングピクセルの表示 ](segment-view-pixels.md)
