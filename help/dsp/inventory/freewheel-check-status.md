@@ -3,9 +3,9 @@ title: A [!DNL FreeWheel] PG 取引の広告のステータスの確認
 description: プログラムで保証された取引の広告のステータスを検索する方法  [!DNL Freewheel]  説明します。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -34,21 +34,21 @@ ht-degree: 0%
 
 1. 次のいずれかの操作をおこないます。
 
-   * [!UICONTROL Deal ID inbox] の下の「**[!UICONTROL View Freewheel creative status]**」をクリックします。
+   * [!UICONTROL Deal ID Inbox] の下の「**[!UICONTROL View Freewheel creative status]**」をクリックします。
 
-   * 任意の取引行で、![&#x200B; オプションメニュー &#x200B;](/help/dsp/assets/options-menu.png) **>[!UICONTROL see Freewheel status]** をクリックします。
+   * 任意の取引行で、![ オプションメニュー ](/help/dsp/assets/options-menu.png) **>[!UICONTROL see Freewheel status]** をクリックします。
 
 1. （任意）特定の取引や広告を見つけるのに役立つように、データをフィルタリングします。
 
    [!UICONTROL Submission Status] の列は、広告が送信および承認されたかどうかを示します。
 
-   送信に失敗した場合、「[!UICONTROL API] 応答」列にエラーが示されます。 失敗した送信のエラーコードの完全なリストと、それらを修正する次の手順については、「[&#x200B; 広告送信のエラーコード  [!DNL FreeWheel]  を参照してください &#x200B;](freewheel-error-codes.md)。
+   送信に失敗した場合、「[!UICONTROL API] 応答」列にエラーが示されます。 失敗した送信のエラーコードの完全なリストと、それらを修正する次の手順については、「[ 広告送信のエラーコード  [!DNL FreeWheel]  を参照してください ](freewheel-error-codes.md)。
 
 1. （オプション）広告を承認用に再送信するには、広告行にカーソルを置いて、**[!UICONTROL More]**/**[!UICONTROL Resubmit]** をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プログラムで保証された取引の設定の概要  [!DNL Freewheel]](freewheel-overview.md)
->* [&#x200B; プログラムで保証された取引の広告の送信先  [!DNL Freewheel]](freewheel-submit.md)
->* [&#x200B; 広告送信  [!DNL Freewheel]  エラーコード &#x200B;](freewheel-error-codes.md)
->* [&#x200B; 取引 ID インボックスでの取引の承認 &#x200B;](deal-id-inbox-accept.md)
+>* [ プログラムで保証された取引の設定の概要  [!DNL Freewheel]](freewheel-overview.md)
+>* [ プログラムで保証された取引の広告の送信先  [!DNL Freewheel]](freewheel-submit.md)
+>* [ 広告送信のエラ  [!DNL FreeWheel]  コード ](freewheel-error-codes.md)
+>* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md) で取引を受け入れる

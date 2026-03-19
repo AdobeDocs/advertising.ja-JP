@@ -3,7 +3,7 @@ title: Advertising DSPのパッケージ管理について
 description: パッケージ管理について説明します。
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [!UICONTROL Packages] ダッシュボードは、すべてのパッケージ戦略にわたってパフォーマンスと経済的なレポートを一元化し、指定された日付範囲でパッケージがどのように実行されたかを示すクイックスナップショットを提供します。
 
-![&#x200B; パッケージダッシュボード &#x200B;](/help/dsp/assets/package-dashboard.png)
+![ パッケージダッシュボード ](/help/dsp/assets/package-dashboard.png)
 
 ダッシュボードには、3 つの指標を持つ、カスタマイズ可能な高レベルのトレンドグラフが含まれています。
 
@@ -28,14 +28,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[&#x200B; カスタムレポート &#x200B;](/help/dsp/reports/report-about.md) を使用して、パッケージレポートの内容と配信をさらにカスタマイズできます。
+>[ カスタムレポート ](/help/dsp/reports/report-about.md) を使用して、パッケージレポートの内容と配信をさらにカスタマイズできます。
 
 パッケージ内のすべてのプレースメント、およびパッケージのフライト日を表示するには、パッケージ名をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; パッケージの作成 &#x200B;](package-create.md)
->* [&#x200B; パッケージの編集 &#x200B;](package-edit.md)
->* [&#x200B; パッケージへのプレースメントの添付 &#x200B;](package-attach-placement.md)
->* [&#x200B; パッケージの変更ログを表示する &#x200B;](package-change-log.md)
->* [&#x200B; パッケージ設定 &#x200B;](package-settings.md)
+>* [ パッケージを作成する ](package-create.md)
+>* [ パッケージを編集 ](package-edit.md)
+>* [ パッケージへのプレースメントの添付 ](package-attach-placement.md)
+>* [ パッケージの変更ログを表示 ](package-change-log.md)
+>* [ パッケージ設定 ](package-settings.md)

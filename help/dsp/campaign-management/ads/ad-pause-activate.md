@@ -3,7 +3,7 @@ title: 広告の一時停止またはアクティブ化
 description: 広告を一時停止またはアクティブ化する方法について説明します。
 feature: DSP Ads
 exl-id: f39d36c2-4c62-462b-bb92-29458890661e
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -47,6 +47,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
->* [&#x200B; 複数のサードパーティ広告の作成 &#x200B;](ad-create-multiple.md)
->* [&#x200B; 広告のアーカイブ &#x200B;](ad-archive-unarchive.md)
+>* [ 単一の広告の作成 ](ad-create.md)
+>* [ 複数のサードパーティ広告の作成 ](ad-create-multiple.md)
+>* [ 広告のアーカイブ ](ad-archive-unarchive.md)

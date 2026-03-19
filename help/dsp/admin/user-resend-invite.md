@@ -3,7 +3,7 @@ title: 保留中のユーザー招待を再送信する
 description: 保留中のユーザー招待を再送信する方法を説明します。
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
    * メインメニューで、**[!UICONTROL Settings]**/**[!UICONTROL Account]** をクリックし、**[!UICONTROL Edit users]** をクリックします。
 
-1. 「**招待状**」セクションで、「![&#x200B; 再送信 &#x200B;](/help/dsp/assets/resend.png)」をクリックします。
+1. 「**招待状**」セクションで、「![ 再送信 ](/help/dsp/assets/resend.png)」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 組織アカウントの新しいユーザーを招待 &#x200B;](user-invite.md)
->* [&#x200B; 保留中のユーザーを登録解除 &#x200B;](user-uninvite.md)
+>* [ 組織アカウントの新しいユーザーを招待 ](user-invite.md)
+>* [ 保留中のユーザーの招待を解除 ](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

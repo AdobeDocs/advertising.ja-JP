@@ -3,9 +3,9 @@ title: SSP パートナー
 description: 使用可能な SSP （サプライ・サイド・プラットフォーム）とオープン Exchange パートナーのリストを参照してください。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '504'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 >[!TIP]
 >
->次の表は幅が広いです。 表示領域を拡大するには、左側のウィンドウの上部にある ![&#x200B; 左側のウィンドウ枠を非表示にする &#x200B;](/help/dsp/assets/hide-left-pane.png " 左側のウィンドウ枠を非表示にする ") をクリックし、右側のウィンドウ枠の上部にある ![右側のウィンドウを非表示](/help/dsp/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次と右側のウィンドウ枠を一時的に非表示にします。 テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示することもできます。
+>次の表は幅が広いです。 表示領域を拡大するには、左側のウィンドウの上部にある ![ 左側のウィンドウ枠を非表示にする ](/help/dsp/assets/hide-left-pane.png " 左側のウィンドウ枠を非表示にする ") をクリックし、右側のウィンドウ枠の上部にある ![右側のウィンドウを非表示](/help/dsp/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次と右側のウィンドウ枠を一時的に非表示にします。 テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示することもできます。
 
 | SSP | 会社 | シート ID | プログラムで保証されたサポート | 地域 | サポートされる通貨 | サポートされているインベントリ |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -49,5 +49,5 @@ ht-degree: 3%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; インベントリ機能の概要 &#x200B;](inventory-overview.md)
+>* [Advertising DSPのインベントリ機能の概要 ](inventory-overview.md)
 

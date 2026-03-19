@@ -1,16 +1,16 @@
 ---
-title: DSP Planner ツールについて
+title: DSP [!UICONTROL Planner] ツールについて
 description: プランナーツールについて説明します。このツールでは、指定された予算およびターゲティング条件に従って、コネクテッド TV （CTV）プレースメントのユニークなリーチを予測します。
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
-# DSP Planner ツールについて
+# DSP [!UICONTROL Planner] ツールについて
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 各予測は、計画設定で達成可能なリーチ量を示す、予算達成率予測曲線で構成されます。 ビジュアライゼーションの上にカーソルを移動すると、予算が高い増分リーチの機会が表示されます。
 
-![&#x200B; 計画担当予測 &#x200B;](/help/dsp/assets/planner-forecast.png " 計画担当予測 ")
+![ 計画担当予測 ](/help/dsp/assets/planner-forecast.png " 計画担当予測 ")
 
 予測の出力には、様々なパブリッシャーが独自のリーチにどのように貢献し、貴重な発見の機会を提供しているかを示す [!UICONTROL Inventory Breakdown] の節も含まれています。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 >* [!UICONTROL Inventory Breakdown] のセクションには、プライベートおよび [!UICONTROL On Demand] インベントリのデータのみが表示されます。
 >* 2 つのパブリッシャーに対して示される推定されるユニークなリーチは、重複している可能性があります。
 
-## プランナービュー
+## プランナー表示
 
 [!UICONTROL Planner] ビューでは、既存の CTV リーチプランを表示し、新しいプランを作成できます。
 
@@ -73,11 +73,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [DSP Planner ツールについて &#x200B;](planner-about.md)
->* [&#x200B; 接続されたテレビのリーチプランを作成 &#x200B;](planner-create.md)
->* [&#x200B; 接続されたテレビのリーチ プランを複製 &#x200B;](planner-duplicate.md)
->* [&#x200B; 接続されたテレビのリーチ プランを編集する &#x200B;](planner-edit.md)
->* [&#x200B; 接続されたテレビのリーチ プランのエクスポート &#x200B;](planner-export.md)
->* [Connected TV Reach Plan の Forecast の再生成 &#x200B;](planner-forecast.md)
->* [&#x200B; 接続されたテレビのリーチ プランをアーカイブする &#x200B;](planner-archive.md)
->* [&#x200B; 接続されたテレビのリーチ プランの設定 &#x200B;](planner-settings.md)
+>* [DSP [!UICONTROL Planner] ツールについて ](planner-about.md)
+>* [ 接続されたテレビのリーチプランを作成する ](planner-create.md)
+>* [ 接続されたテレビのリーチプランを複製 ](planner-duplicate.md)
+>* [ 接続されたテレビのリーチ プランを編集する ](planner-edit.md)
+>* [ 接続されたテレビのリーチ プランをエクスポートする ](planner-export.md)
+>* [ 接続されたテレビのリーチ プランの予測を再生成する ](planner-forecast.md)
+>* [ 接続されたテレビのリーチ プランをアーカイブする ](planner-archive.md)
+>* [ 接続されたテレビのリーチ プランの設定 ](planner-settings.md)

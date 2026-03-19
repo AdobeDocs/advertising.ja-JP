@@ -3,7 +3,7 @@ title: 組織アカウントに新しいユーザーを招待する
 description: 新しいユーザーをアカウントに招待する方法を説明します。
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 保留中のユーザー招待を再送信する &#x200B;](user-resend-invite.md)
->* [&#x200B; 保留中のユーザーを登録解除 &#x200B;](user-uninvite.md)
+>* [ 保留中のユーザー招待を再送信する ](user-resend-invite.md)
+>* [ 保留中のユーザーの招待を解除 ](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

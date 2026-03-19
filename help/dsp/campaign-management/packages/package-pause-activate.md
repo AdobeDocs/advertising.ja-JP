@@ -3,7 +3,7 @@ title: パッケージの一時停止または有効化
 description: パッケージを一時停止またはアクティブ化する方法を説明します。
 feature: DSP Packages
 exl-id: c4a6fb08-14db-4c8b-ab7a-0bbc0f201390
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -34,6 +34,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; パッケージの編集 &#x200B;](package-edit.md)
->* [&#x200B; パッケージの変更ログを表示する &#x200B;](package-change-log.md)
->* [&#x200B; パッケージのアーカイブ &#x200B;](package-archive-unarchive.md)
+>* [ パッケージを編集 ](package-edit.md)
+>* [ パッケージの変更ログを表示 ](package-change-log.md)
+>* [ パッケージのアーカイブ ](package-archive-unarchive.md)

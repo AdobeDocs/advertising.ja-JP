@@ -3,7 +3,7 @@ title: 広告のアーカイブまたはアーカイブ解除
 description: 広告をアーカイブまたはアーカイブ解除する方法について説明します。
 feature: DSP Ads
 exl-id: 086c120f-df55-43b0-a6fb-51d68d00a29e
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アーカイブした広告を表示するには、[!UICONTROL Ads] 表示をフィルタリングします。![[!UICONTROL Filter] のボタン &#x200B;](/help/dsp/assets/filter.png) 「**[!UICONTROL Ad status]**」をクリックし、**[!UICONTROL Archived]** を選択して、「**[!UICONTROL Apply]」をクリックします。**
+>アーカイブした広告を表示するには、[!UICONTROL Ads] 表示をフィルタリングします。![[!UICONTROL Filter] のボタン ](/help/dsp/assets/filter.png) 「**[!UICONTROL Ad status]**」をクリックし、**[!UICONTROL Archived]** を選択して、「**[!UICONTROL Apply]」をクリックします。**
 
 ## 広告のアーカイブ解除
 
@@ -38,6 +38,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
->* [&#x200B; 複数のサードパーティ広告の作成 &#x200B;](ad-create-multiple.md)
->* [&#x200B; 広告の編集 &#x200B;](ad-edit.md)
+>* [ 単一の広告の作成 ](ad-create.md)
+>* [ 複数のサードパーティ広告の作成 ](ad-create-multiple.md)
+>* [ 広告の編集 ](ad-edit.md)

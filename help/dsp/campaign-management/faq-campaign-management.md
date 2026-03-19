@@ -3,7 +3,7 @@ title: キャンペーン管理に関する FAQ
 description: 変更の待ち時間の期間や、作業中に予算を変更した場合の動作など、キャンペーン管理について詳しく説明します。
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -44,6 +44,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
->* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
->* [&#x200B; パフォーマンスキャンペーンの設定に関するベストプラクティス &#x200B;](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ パフォーマンスキャンペーンの設定に関するベストプラクティス ](/help/dsp/optimization/campaign-best-practices-performance.md)

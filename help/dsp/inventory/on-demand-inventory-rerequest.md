@@ -3,9 +3,9 @@ title: プレミアム在庫取引  [!DNL On Demand]  再要求
 description: 以前に拒否された取引を再リクエ  [!DNL On Demand]  トする方法を説明します。
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 再度要求した後に契約が承認されない場合は、Adobe アカウントチームに問い合わせて、お客様のアカウントが契約にアクセスできないようにする追加の制限がパブリッシャーにあるかどうかを確認してください。
 
-契約が [&#x200B; 承認 &#x200B;](/help/dsp/inventory/on-demand-inventory-view-status.md) されると、すべての在庫をターゲットにする新しいプレースメントのターゲットとして、デフォルトで含ま [!DNL On Demand] ます。 新しい契約は、既存のプレースメントのターゲットとしても使用できますが、契約をターゲットとして追加するには、プレースメント設定を手動で編集する必要があります。
+契約が [ 承認 ](/help/dsp/inventory/on-demand-inventory-view-status.md) されると、すべての在庫をターゲットにする新しいプレースメントのターゲットとして、デフォルトで含ま [!DNL On Demand] ます。 新しい契約は、既存のプレースメントのターゲットとしても使用できますが、契約をターゲットとして追加するには、プレースメント設定を手動で編集する必要があります。
 
 1. 組織のAdobe アカウントの [!UICONTROL Account Type] が正しいことをDSP アカウントチームに確認します。
 
@@ -52,10 +52,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
->* [&#x200B; 取引リクエストと購読  [!DNL On Demand]  ステータスの表示 &#x200B;](on-demand-inventory-view-status.md)
->* [Premium インベントリのサブスクライブとアクセス  [!DNL On Demand]  リクエスト &#x200B;](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand]  アジア太平洋のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-na.md)
+>* [ プレミアム在庫  [!DNL On Demand]  ついて ](on-demand-inventory-about.md)
+>* [ 取引リクエストと購読のステ  [!DNL On Demand]  タスの表示 ](on-demand-inventory-view-status.md)
+>* [ プレミアム在庫取引の購入  [!DNL On Demand]  アクセスのリクエスト ](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand]  アジア太平洋地域のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-na.md)

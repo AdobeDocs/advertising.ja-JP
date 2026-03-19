@@ -3,7 +3,7 @@ title: プレースメント予測レポートの表示
 description: プレースメントの特定のターゲティング戦略に対して予測されたインプレッション数、支出、最適最大入札額を確認します。
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -81,6 +81,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーン管理ビューでのパフォーマンスレポートのタイプ &#x200B;](campaign-reports-about.md)
->* [&#x200B; プレースメント診断レポートの表示 &#x200B;](/help/dsp/campaign-management/reports/placement-diagnostics.md)
->* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ キャンペーン管理ビューでのパフォーマンスレポートのタイプ ](campaign-reports-about.md)
+>* [ プレースメント診断レポートの表示 ](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
