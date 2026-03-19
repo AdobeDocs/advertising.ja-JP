@@ -35,11 +35,11 @@ ht-degree: 0%
 >
 >既存のレポート宛先の資格情報を更新しても、資格情報が有効な限り、レポートの配信が中断されることはありません。
 
-![ レポートの宛先 ](/help/dsp/assets/report-destinations.png)
+![&#x200B; レポートの宛先 &#x200B;](/help/dsp/assets/report-destinations.png)
 
 >[!MORELIKETHIS]
 >
->* [ レポートの宛先の作成 ](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [ レポートの宛先設定 ](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [&#x200B; レポートの宛先の作成 &#x200B;](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [&#x200B; レポートの宛先設定 &#x200B;](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md) の編集
->* [ レポートの宛先の削除 ](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [&#x200B; レポートの宛先の削除 &#x200B;](/help/dsp/reports/report-destinations/report-destination-delete.md)

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ レポートの宛先について ](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [ レポートの宛先の作成 ](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [ レポートの宛先設定 ](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [&#x200B; レポートの宛先について &#x200B;](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [&#x200B; レポートの宛先の作成 &#x200B;](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [&#x200B; レポートの宛先設定 &#x200B;](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md) の編集
