@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Tools]/[!UICONTROL Conversion Tags]** をクリックします。
 
-1. [ 変換タグ設定 ](#conversion-tag-settings) を指定します。
+1. [&#x200B; 変換タグ設定 &#x200B;](#conversion-tag-settings) を指定します。
 
 1. タグを生成します。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->オフライン変換のコンバージョンデータを使用して [ トランザクション ID フィード ](/help/search-social-commerce/tracking/feed-transaction-id.md) を送信する場合は、トランザクションのオフライン部分用のフィードデータに含まれているトランザクションのオンライン部分のトランザクション ID （`ev_transid`）を送信する必要があります。
+>オフライン変換のコンバージョンデータを使用して [&#x200B; トランザクション ID フィード &#x200B;](/help/search-social-commerce/tracking/feed-transaction-id.md) を送信する場合は、トランザクションのオフライン部分用のフィードデータに含まれているトランザクションのオンライン部分のトランザクション ID （`ev_transid`）を送信する必要があります。
 
 **[!UICONTROL Page is inside FB app]:** 古い
 
@@ -78,13 +78,13 @@ ht-degree: 0%
 
 Adobe Experience Platformのタグを使用して、検索、ソーシャル、Commerceのコンバージョントラッキングを設定できます。 タグは、Adobe Experience Cloudのお客様が、付属の付加価値機能として利用できます。
 
-Experience Platform ユーザーインターフェイスまたはExperience Platform Data Collection ユーザーインターフェイスから、検索、ソーシャル、Commerceのコンバージョントラッキングタグを設定するには、次のタスクが必要です。 タグの設定の詳細と手順については、「[ タグの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)」および「[ クイックスタートガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)」で始まる、Experience Platformのタグガイドを参照してください。
+Experience Platform ユーザーインターフェイスまたはExperience Platform Data Collection ユーザーインターフェイスから、検索、ソーシャル、Commerceのコンバージョントラッキングタグを設定するには、次のタスクが必要です。 タグの設定の詳細と手順については、「[&#x200B; タグの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)」および「[&#x200B; クイックスタートガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)」で始まる、Experience Platformのタグガイドを参照してください。
 
 >[!PREREQUISITES]
 >
 >必要なタグ拡張機能をインストールするには、UI のデータ収集機能（`manage_properties` 権限を含む）へのアクセス権を組織の管理者に問い合わせます。
 
-1. [ データ収集 UI](https://experience.adobe.com/#/data-collection/) から、Adobe Advertising[ 拡張機能 ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview) をインストールします。
+1. [&#x200B; データ収集 UI](https://experience.adobe.com/#/data-collection/) から、Adobe Advertising[&#x200B; 拡張機能 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview) をインストールします。
 
    1. 該当するプロパティから、拡張機能カタログを開き、「**Adobe Advertising**」を選択します。
 
@@ -132,7 +132,7 @@ Experience Platform ユーザーインターフェイスまたはExperience Plat
 
          **コンバージョンプロパティ名：** コンバージョンプロパティの名前（例：`form_completes`）。
 
-         **Value:** コンバージョンプロパティの数値（例：form_completes を追跡する `1`）、または既存の [data 要素 ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) を選択します。
+         **Value:** コンバージョンプロパティの数値（例：form_completes を追跡する `1`）、または既存の [data 要素 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) を選択します。
 
       1. 「**変更を保持**」をクリックします。
 
@@ -142,11 +142,11 @@ Experience Platform ユーザーインターフェイスまたはExperience Plat
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertisingのコンバージョントラッキングタグについて ](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [ トラッキングタグを作成およびデコードするツールについて ](tracking-tools-about.md)
->* [ コンバージョンおよびページビューのトラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
->* [JavaScript コンバージョントラッキングタグバージョン 3 の形式 ](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
->* [JavaScript コンバージョントラッキングタグバージョン 2 の形式 ](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
->* [ 画像変換トラッキングタグの形式 ](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
->* [Adobe Advertising JavaScript コンバージョンマッピングタグ ](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
->* [ 広告主のコンバージョン指標の管理について ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+>* [Adobe Advertisingのコンバージョントラッキングタグについて &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [&#x200B; トラッキングタグを作成およびデコードするツールについて &#x200B;](tracking-tools-about.md)
+>* [&#x200B; コンバージョンおよびページビューのトラッキングタグに関する FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
+>* [JavaScript コンバージョントラッキングタグバージョン 3 の形式 &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
+>* [JavaScript コンバージョントラッキングタグバージョン 2 の形式 &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
+>* [&#x200B; 画像変換トラッキングタグの形式 &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
+>* [Adobe Advertising JavaScript コンバージョンマッピングタグ &#x200B;](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+>* [&#x200B; 広告主のコンバージョン指標の管理について &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
