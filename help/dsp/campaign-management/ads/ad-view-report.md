@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プレースメントの詳細レポートの表示 ](/help/dsp/campaign-management/placements/placement-view-report.md)
->* [ キャンペーンの詳細レポートの表示 ](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [ キャンペーン管理ビューでのパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
+>* [&#x200B; プレースメントの詳細レポートの表示 &#x200B;](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [&#x200B; キャンペーンの詳細レポートの表示 &#x200B;](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [&#x200B; キャンペーン管理ビューでのパフォーマンスレポートのタイプ &#x200B;](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
