@@ -47,6 +47,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 単一の広告の作成 ](ad-create.md)
->* [ 複数のサードパーティ広告の作成 ](ad-create-multiple.md)
->* [ 広告のアーカイブ ](ad-archive-unarchive.md)
+>* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
+>* [&#x200B; 複数のサードパーティ広告の作成 &#x200B;](ad-create-multiple.md)
+>* [&#x200B; 広告のアーカイブ &#x200B;](ad-archive-unarchive.md)

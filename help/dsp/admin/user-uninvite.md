@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 組織アカウントの新しいユーザーを招待 ](user-invite.md)
->* [ 保留中のユーザー招待を再送信する ](user-resend-invite.md)
+>* [&#x200B; 組織アカウントの新しいユーザーを招待 &#x200B;](user-invite.md)
+>* [&#x200B; 保留中のユーザー招待を再送信する &#x200B;](user-resend-invite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 再度要求した後に契約が承認されない場合は、Adobe アカウントチームに問い合わせて、お客様のアカウントが契約にアクセスできないようにする追加の制限がパブリッシャーにあるかどうかを確認してください。
 
-契約が [ 承認 ](/help/dsp/inventory/on-demand-inventory-view-status.md) されると、すべての在庫をターゲットにする新しいプレースメントのターゲットとして、デフォルトで含ま [!DNL On Demand] ます。 新しい契約は、既存のプレースメントのターゲットとしても使用できますが、契約をターゲットとして追加するには、プレースメント設定を手動で編集する必要があります。
+契約が [&#x200B; 承認 &#x200B;](/help/dsp/inventory/on-demand-inventory-view-status.md) されると、すべての在庫をターゲットにする新しいプレースメントのターゲットとして、デフォルトで含ま [!DNL On Demand] ます。 新しい契約は、既存のプレースメントのターゲットとしても使用できますが、契約をターゲットとして追加するには、プレースメント設定を手動で編集する必要があります。
 
 1. 組織のAdobe アカウントの [!UICONTROL Account Type] が正しいことをDSP アカウントチームに確認します。
 
@@ -52,10 +52,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プレミアム在庫  [!DNL On Demand]  ついて ](on-demand-inventory-about.md)
->* [ 取引リクエストと購読のステ  [!DNL On Demand]  タスの表示 ](on-demand-inventory-view-status.md)
->* [ プレミアム在庫取引の購入  [!DNL On Demand]  アクセスのリクエスト ](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand]  アジア太平洋地域のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-na.md)
+>* [&#x200B; プレミアム在庫  [!DNL On Demand]  ついて &#x200B;](on-demand-inventory-about.md)
+>* [&#x200B; 取引リクエストと購読のステ  [!DNL On Demand]  タスの表示 &#x200B;](on-demand-inventory-view-status.md)
+>* [&#x200B; プレミアム在庫取引の購入  [!DNL On Demand]  アクセスのリクエスト &#x200B;](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand]  アジア太平洋地域のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-na.md)

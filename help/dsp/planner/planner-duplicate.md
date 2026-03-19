@@ -14,10 +14,10 @@ ht-degree: 0%
 
 1. メインメニューで、「**[!UICONTROL Planner]**」をクリックします。
 
-1. 
+1. &#x200B;
    1. カーソルを計画行の上に置き、**[!UICONTROL More]**/**[!UICONTROL Duplicate]** をクリックします。
 
-1. （オプション）計画名と [ 計画設定 ](planner-settings.md) を編集します。
+1. （オプション）計画名と [&#x200B; 計画設定 &#x200B;](planner-settings.md) を編集します。
 
    デフォルトでは、新しいプランは「`<existing plan name> duplicate`」です。
 
@@ -25,14 +25,14 @@ ht-degree: 0%
 
    計画を保存すると、予測された出力が表示されます。
 
-1. （オプション） [!UICONTROL Budget vs Reach] 予測を [!DNL Microsoft Excel] スプレッドシートにエクスポートするには**右上の [**[!UICONTROL ...]**] をクリックし、[**[!UICONTROL Export]**] をクリックします。
+1. （オプション） [!UICONTROL Budget vs Reach] 予測を [!DNL Microsoft Excel] スプレッドシートにエクスポートするには&#x200B;**右上の [**&#x200B;[!UICONTROL ...]&#x200B;**] をクリックし、[**&#x200B;[!UICONTROL Export]**] をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [DSP [!UICONTROL Planner] ツールについて ](planner-about.md)
->* [ 接続されたテレビのリーチプランを作成する ](planner-create.md)
->* [ 接続されたテレビのリーチ プランを編集する ](planner-edit.md)
->* [ 接続されたテレビのリーチ プランをエクスポートする ](planner-export.md)
->* [ 接続されたテレビのリーチ プランの予測を再生成する ](planner-forecast.md)
->* [ 接続されたテレビのリーチ プランをアーカイブする ](planner-archive.md)
->* [ 接続されたテレビのリーチ プランの設定 ](planner-settings.md)
+>* [DSP [!UICONTROL Planner] ツールについて &#x200B;](planner-about.md)
+>* [&#x200B; 接続されたテレビのリーチプランを作成する &#x200B;](planner-create.md)
+>* [&#x200B; 接続されたテレビのリーチ プランを編集する &#x200B;](planner-edit.md)
+>* [&#x200B; 接続されたテレビのリーチ プランをエクスポートする &#x200B;](planner-export.md)
+>* [&#x200B; 接続されたテレビのリーチ プランの予測を再生成する &#x200B;](planner-forecast.md)
+>* [&#x200B; 接続されたテレビのリーチ プランをアーカイブする &#x200B;](planner-archive.md)
+>* [&#x200B; 接続されたテレビのリーチ プランの設定 &#x200B;](planner-settings.md)
