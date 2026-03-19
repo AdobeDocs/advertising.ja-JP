@@ -3,7 +3,7 @@ title: キャンペーンの一時停止またはアクティブ化
 description: ライブキャンペーンを一時停止またはアクティブ化する方法について説明します。
 feature: DSP Campaigns
 exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 85d0697069569bed352af5ec1fea023220eec263
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -32,5 +32,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーンの編集 &#x200B;](campaign-edit.md)
->* [&#x200B; キャンペーンのアーカイブ &#x200B;](campaign-archive-unarchive.md)
+>* [ キャンペーンの編集 ](campaign-edit.md)
+>* [ キャンペーンのアーカイブ ](campaign-archive-unarchive.md)
