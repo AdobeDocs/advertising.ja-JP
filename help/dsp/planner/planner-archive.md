@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [DSP [!UICONTROL Planner] ツールについて ](planner-about.md)
->* [ 接続されたテレビのリーチプランを作成する ](planner-create.md)
->* [ 接続されたテレビのリーチプランを複製 ](planner-duplicate.md)
->* [ 接続されたテレビのリーチ プランを編集する ](planner-edit.md)
->* [ 接続されたテレビのリーチ プランをエクスポートする ](planner-export.md)
->* [ 接続されたテレビのリーチ プランの予測を再生成する ](planner-forecast.md)
->* [ 接続されたテレビのリーチ プランの設定 ](planner-settings.md)
+>* [DSP [!UICONTROL Planner] ツールについて &#x200B;](planner-about.md)
+>* [&#x200B; 接続されたテレビのリーチプランを作成する &#x200B;](planner-create.md)
+>* [&#x200B; 接続されたテレビのリーチプランを複製 &#x200B;](planner-duplicate.md)
+>* [&#x200B; 接続されたテレビのリーチ プランを編集する &#x200B;](planner-edit.md)
+>* [&#x200B; 接続されたテレビのリーチ プランをエクスポートする &#x200B;](planner-export.md)
+>* [&#x200B; 接続されたテレビのリーチ プランの予測を再生成する &#x200B;](planner-forecast.md)
+>* [&#x200B; 接続されたテレビのリーチ プランの設定 &#x200B;](planner-settings.md)
