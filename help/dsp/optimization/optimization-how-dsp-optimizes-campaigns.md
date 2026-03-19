@@ -32,7 +32,7 @@ DSPでは、2 つの基本的な方法で配信を最適化できます。具体
 
 * コスト効率とパフォーマンス率のバランスを優先する
 
-[ 最適化目標とその使用方法 ](optimization-goals.md) を参照して、KPI の達成に役立つ最適化目標を決定します。
+[&#x200B; 最適化目標とその使用方法 &#x200B;](optimization-goals.md) を参照して、KPI の達成に役立つ最適化目標を決定します。
 
 ### パフォーマンス率を優先するパッケージ
 
@@ -80,12 +80,12 @@ DSPでは、2 つの基本的な方法で配信を最適化できます。具体
 >
 >使用可能な事前入札フィルターは、広告タイプによって異なります。 例えば、標準の表示配置の場合、完了率ではなく、クリックスルー率とビューアビリティでフィルタリングできます。
 
-[ プレースメントレベルの事前入札フィルターとその使用方法 ](optimization-pre-bid-filters.md) を参照して、KPI の達成に役立つ事前入札フィルターを決定します。
+[&#x200B; プレースメントレベルの事前入札フィルターとその使用方法 &#x200B;](optimization-pre-bid-filters.md) を参照して、KPI の達成に役立つ事前入札フィルターを決定します。
 
 >[!MORELIKETHIS]
 >
->* [ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)
->* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
->* [ 最適化目標とその使用方法 ](optimization-goals.md)
->* [ プレースメントレベルの事前入札フィルターとその使用方法 ](optimization-pre-bid-filters.md)
->* [ パフォーマンスのトラブルシューティング ](/help/dsp/optimization/troubleshooting-performance.md)
+>* [&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [&#x200B; 最適化目標とその使用方法 &#x200B;](optimization-goals.md)
+>* [&#x200B; プレースメントレベルの事前入札フィルターとその使用方法 &#x200B;](optimization-pre-bid-filters.md)
+>* [&#x200B; パフォーマンスのトラブルシューティング &#x200B;](/help/dsp/optimization/troubleshooting-performance.md)

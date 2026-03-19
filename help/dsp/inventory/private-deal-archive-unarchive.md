@@ -29,12 +29,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アーカイブされた取引を表示するには、取引リストの上の ![ フィルター ](/help/dsp/assets/filter.png) をクリックし、「**[!UICONTROL Status]**」をクリックして「*[!UICONTROL Archived]*」を選択し、「**[!UICONTROL Apply]**」をクリックします。<!-- Verify the text to apply the filter(s).)-->
+>アーカイブされた取引を表示するには、取引リストの上の ![&#x200B; フィルター &#x200B;](/help/dsp/assets/filter.png) をクリックし、「**[!UICONTROL Status]**」をクリックして「*[!UICONTROL Archived]*」を選択し、「**[!UICONTROL Apply]**」をクリックします。<!-- Verify the text to apply the filter(s).)-->
 
 ## プライベート取引のアーカイブ解除
 
 1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals]** をクリックします。
-1. 契約リストの上にある ![ フィルター ](/help/dsp/assets/filter.png) をクリックし、「**[!UICONTROL Status]**」をクリックして「*[!UICONTROL Archived]*」を選択し、「**[!UICONTROL Apply]**」をクリックします。<!-- Verify the text to apply the filter(s).)-->
+1. 契約リストの上にある ![&#x200B; フィルター &#x200B;](/help/dsp/assets/filter.png) をクリックし、「**[!UICONTROL Status]**」をクリックして「*[!UICONTROL Archived]*」を選択し、「**[!UICONTROL Apply]**」をクリックします。<!-- Verify the text to apply the filter(s).)-->
 1. 取引行で、**[!UICONTROL ...]**/**[!UICONTROL Unarchive]** をクリックします。
 1. 確認メッセージで、「**[!UICONTROL Unarchive]**」をクリックします。
 
@@ -42,9 +42,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アーカイブされていない（ライブ）取引を表示するには、取引リストの上の ![ フィルター ](/help/dsp/assets/filter.png) をクリックし、「**[!UICONTROL Status]**」をクリックして「*[!UICONTROL Live]*」を選択し、「**[!UICONTROL Apply]**」をクリックします。<!-- Verify the text to apply the filter(s).)-->
+>アーカイブされていない（ライブ）取引を表示するには、取引リストの上の ![&#x200B; フィルター &#x200B;](/help/dsp/assets/filter.png) をクリックし、「**[!UICONTROL Status]**」をクリックして「*[!UICONTROL Live]*」を選択し、「**[!UICONTROL Apply]**」をクリックします。<!-- Verify the text to apply the filter(s).)-->
 
 >[!MORELIKETHIS]
 >
->* [ プライベートインベントリについて ](private-inventory-about.md)
->* [ プライベート取引設定の編集 ](/help/dsp/inventory/deal-id-edit.md)
+>* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)
+>* [&#x200B; プライベート取引設定の編集 &#x200B;](/help/dsp/inventory/deal-id-edit.md)

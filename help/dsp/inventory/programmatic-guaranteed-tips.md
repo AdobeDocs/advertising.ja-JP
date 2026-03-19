@@ -45,6 +45,6 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->* [ プログラムで保証された取引について ](programmatic-guaranteed-about.md)
->* [ プログラムで保証された取引の設定 ](programmatic-guaranteed-set-up.md)
->* [SSP パートナー ](ssp-partners.md)
+>* [&#x200B; プログラムで保証された取引について &#x200B;](programmatic-guaranteed-about.md)
+>* [&#x200B; プログラムで保証された取引の設定 &#x200B;](programmatic-guaranteed-set-up.md)
+>* [SSP パートナー &#x200B;](ssp-partners.md)
