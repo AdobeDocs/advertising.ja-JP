@@ -78,13 +78,13 @@ ht-degree: 0%
 
 Adobe Experience Platformのタグを使用して、検索、ソーシャル、Commerceのコンバージョントラッキングを設定できます。 タグは、Adobe Experience Cloudのお客様が、付属の付加価値機能として利用できます。
 
-Experience Platform ユーザーインターフェイスまたはExperience Platform Data Collection ユーザーインターフェイスから、検索、ソーシャル、Commerceのコンバージョントラッキングタグを設定するには、次のタスクが必要です。 タグの設定の詳細と手順については、「[&#x200B; タグの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)」および「[&#x200B; クイックスタートガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)」で始まる、Experience Platformのタグガイドを参照してください。
+Experience Platform ユーザーインターフェイスまたはExperience Platform Data Collection ユーザーインターフェイスから、検索、ソーシャル、Commerceのコンバージョントラッキングタグを設定するには、次のタスクが必要です。 タグの設定の詳細と手順については、「[&#x200B; タグの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)」および「[&#x200B; クイックスタートガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/get-started/quick-start)」で始まる、Experience Platformのタグガイドを参照してください。
 
 >[!PREREQUISITES]
 >
 >必要なタグ拡張機能をインストールするには、UI のデータ収集機能（`manage_properties` 権限を含む）へのアクセス権を組織の管理者に問い合わせます。
 
-1. [&#x200B; データ収集 UI](https://experience.adobe.com/#/data-collection/) から、Adobe Advertising[&#x200B; 拡張機能 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview) をインストールします。
+1. [&#x200B; データ収集 UI](https://experience.adobe.com/#/data-collection/) から、Adobe Advertising[&#x200B; 拡張機能 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/ui/extensions/overview) をインストールします。
 
    1. 該当するプロパティから、拡張機能カタログを開き、「**Adobe Advertising**」を選択します。
 
@@ -132,7 +132,7 @@ Experience Platform ユーザーインターフェイスまたはExperience Plat
 
          **コンバージョンプロパティ名：** コンバージョンプロパティの名前（例：`form_completes`）。
 
-         **Value:** コンバージョンプロパティの数値（例：form_completes を追跡する `1`）、または既存の [data 要素 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) を選択します。
+         **Value:** コンバージョンプロパティの数値（例：form_completes を追跡する `1`）、または既存の [data 要素 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/ui/data-elements) を選択します。
 
       1. 「**変更を保持**」をクリックします。
 
