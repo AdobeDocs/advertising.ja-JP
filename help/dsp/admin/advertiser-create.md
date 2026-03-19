@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Create]**」をクリックします。
 
-1. [ 広告主設定 ](advertiser-settings.md) を指定します。
+1. [&#x200B; 広告主設定 &#x200B;](advertiser-settings.md) を指定します。
 
    1. [!UICONTROL General] の設定で、
 
@@ -37,4 +37,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 広告主設定 ](/help/dsp/admin/advertiser-settings.md)
+>* [&#x200B; 広告主設定 &#x200B;](/help/dsp/admin/advertiser-settings.md)
