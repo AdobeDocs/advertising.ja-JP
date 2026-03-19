@@ -3,9 +3,9 @@ title: オーストラリアおよびニュージーランドの [!DNL On Demand
 description: オーストラリアおよびニュージーランドの利用可能な  [!DNL On Demand]  プレミアム在庫パブリッシャーを参照してください。
 feature: DSP On Demand Inventory
 exl-id: 9c494ad0-eb35-464e-b154-3f56c02968f1
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -96,8 +96,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
->* [Premium インベントリのサブスクライブとアクセス  [!DNL On Demand]  リクエスト &#x200B;](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand]  アジア太平洋のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand Premium]  ヨーロッパ、中東、アフリカの在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-na.md)
+>* [ プレミアム在庫  [!DNL On Demand]  ついて ](on-demand-inventory-about.md)
+>* [ プレミアム在庫取引の購入  [!DNL On Demand]  アクセスのリクエスト ](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand]  アジア太平洋地域のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-na.md)

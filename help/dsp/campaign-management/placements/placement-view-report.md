@@ -3,7 +3,7 @@ title: プレースメントの詳細レポートの表示
 description: '[!UICONTROL Geography]、[!UICONTROL Device]、[!UICONTROL Viewability]、[!UICONTROL Audience Performance]、[!UICONTROL Notifications]、[!UICONTROL Ads] の各データに関するセクションでプレースメントレベルのレポートを開く方法を説明します。'
 feature: DSP Placements, DSP Campaign Data Views
 exl-id: ddfae530-1dc6-4470-9910-ae13abcbaa8b
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメントのサイト、広告、頻度の詳細の表示 &#x200B;](/help/dsp/campaign-management/reports/placement-details-view.md)
->* [&#x200B; 広告の詳細レポートの表示 &#x200B;](/help/dsp/campaign-management/ads/ad-view-report.md)
->* [&#x200B; キャンペーンの詳細レポートの表示 &#x200B;](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [&#x200B; キャンペーン管理ビューでのパフォーマンスレポートのタイプ &#x200B;](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
->* [&#x200B; プレースメントの変更ログを表示 &#x200B;](placement-change-log.md)
+>* [ プレースメントのサイト、広告、頻度の詳細の表示 ](/help/dsp/campaign-management/reports/placement-details-view.md)
+>* [ 広告の詳細レポートの表示 ](/help/dsp/campaign-management/ads/ad-view-report.md)
+>* [ キャンペーンの詳細レポートの表示 ](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [ キャンペーン管理ビューでのパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
+>* [ プレースメントの変更ログを表示 ](placement-change-log.md)

@@ -3,16 +3,16 @@ title: 広告送信  [!DNL FreeWheel]  エラーコード
 description: ' [!DNL FreeWheel] への広告送信に返されるエラーコードを参照します。'
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '642'
 ht-degree: 3%
 
 ---
 
 # [!DNL FreeWheel] 件の広告送信のエラーコード
 
-失敗した広告送信のエラーメッセージは、Advertising DSPまたは [!DNL FreeWheel] のいずれかから取得できます。 エラーメッセージは、[!UICONTROL API Response] ダイアログの「[[!UICONTROL Freewheel Status]」列に表示され &#x200B;](freewheel-check-status.md) す。
+失敗した広告送信のエラーメッセージは、Advertising DSPまたは [!DNL FreeWheel] のいずれかから取得できます。 エラーメッセージは、[!UICONTROL API Response] ダイアログの「[[!UICONTROL Freewheel Status]」列に表示され ](freewheel-check-status.md) す。
 
 ## Advertising DSP内部エラー
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 | 404 | 見つかりません | 要求されたリソースは使用できません。 Creative ID がPUT操作で見つからない場合は、404 が返されます。 | Adobe アカウントチームにお問い合わせください。 |
 | 405 | 許可されていないメソッド | そのリソースでサポートされていないリクエストメソッドを使用しているリソースに対してリクエストが行われました（例えば、POST によってデータを送信する必要があるメソッドでGETを使用したり、読み取り専用リソースでPUTを使用するなど）。 | Adobe アカウントチームにお問い合わせください。 |
 | 408 | 要求タイムアウト | このリクエストの処理中にタイムアウトが発生しました。 タイムアウトは、通常、特定のリソースへの排他的アクセスの同時リクエストによって発生します。 | このステータスを受け取ったら、リクエストを再送信します。 問題が解決しない場合は、Adobe アカウントチームにお問い合わせください。 |
-| 422 | 処理できないエンティティ | 無効なリソースです。 このエラーは、リクエスト本文が無効な場合や、作成または更新したリソースが無効な場合（例えば、取引 ID が見つからなかった場合など）に発生します。 詳しくは、[FreeWheel API 422 エラー &#x200B;](#freewheel-422-errors) を参照してください。 | Adobe アカウントチームにお問い合わせください。 |
+| 422 | 処理できないエンティティ | 無効なリソースです。 このエラーは、リクエスト本文が無効な場合や、作成または更新したリソースが無効な場合（例えば、取引 ID が見つからなかった場合など）に発生します。 詳しくは、[FreeWheel API 422 エラー ](#freewheel-422-errors) を参照してください。 | Adobe アカウントチームにお問い合わせください。 |
 | 500 | 内部サーバーエラー | API システムエラー。 | Adobe アカウントチームにお問い合わせください。 |
 
 {style="table-layout:auto"}
@@ -64,7 +64,7 @@ ht-degree: 3%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プログラムで保証された取引の設定の概要  [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
->* [&#x200B; 取引 ID インボックスでの取引の承認 &#x200B;](deal-id-inbox-accept.md)
->* [&#x200B; プログラムで保証された取引の広告の送信先  [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
->* [&#x200B; プログラムで保証された取引の広告  [!DNL FreeWheel]  ステータスの確認 &#x200B;](/help/dsp/inventory/freewheel-check-status.md)
+>* [ プログラムで保証された取引の設定の概要  [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
+>* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md) で取引を受け入れる
+>* [ プログラムで保証された取引の広告の送信先  [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+>* [A [!DNL FreeWheel] PG 取引の広告のステータスの確認 ](/help/dsp/inventory/freewheel-check-status.md)

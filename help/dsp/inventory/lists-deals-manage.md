@@ -3,7 +3,7 @@ title: 取引リストの管理
 description: プレースメントのターゲティング用の取引リストを作成および管理する方法について説明します。
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -72,7 +72,7 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
->* [&#x200B; カスタムレポートの設定 &#x200B;](/help/dsp/reports/report-settings.md)
->* [&#x200B; 使用可能なレポート列 &#x200B;](/help/dsp/reports/report-columns.md)
->* [&#x200B; プライベートインベントリについて &#x200B;](/help/dsp/inventory/private-inventory-about.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
+>* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)
+>* [ プライベートインベントリについて ](/help/dsp/inventory/private-inventory-about.md)

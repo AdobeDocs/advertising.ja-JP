@@ -3,7 +3,7 @@ title: 取引 ID の詳細の手動作成
 description: 取引 ID の詳細を手動で入力する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. データ テーブルの上の [**[!UICONTROL Create]**] をクリックし、[**[!UICONTROL Deal ID]**] を選択します。
 
-1. [&#x200B; 取引設定 &#x200B;](deal-id-settings.md) を入力します。
+1. [ 取引設定 ](deal-id-settings.md) を入力します。
 
    1. [!UICONTROL Deal ID basics] のセクションでは、取引の詳細と、取引にアクセスできる広告主を指定します。 保証された取引の場合は、トラッキング目的でのみ、予定フライト日と推定インプレッション数も指定する必要があります。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
       1. 配置名を入力します。
 
-      1. （オプション） [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) を編集します。これには、デフォルトの入札の上書き（契約のCPM値が自動入力される）、日付範囲の変更、広告の追加が含まれます。
+      1. （オプション） [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md) を編集します。これには、デフォルトの入札の上書き（契約のCPM値が自動入力される）、日付範囲の変更、広告の追加が含まれます。
 
       取引は「在庫ターゲット」セクションで自動的にターゲットされます。 その他のターゲティングオプションはすべて適用されません。
 
@@ -66,8 +66,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 手動の取引 ID 設定 &#x200B;](deal-id-settings.md)
->* [&#x200B; プログラムで保証された取引の設定 &#x200B;](programmatic-guaranteed-set-up.md)
->* [&#x200B; プログラムで保証された取引の広告を送信  [!DNL FreeWheel]](freewheel-submit.md)
->* [&#x200B; プログラムで保証された取引について &#x200B;](programmatic-guaranteed-about.md)
-<!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
+>* [ 手動の取引 ID 設定 ](deal-id-settings.md)
+>* [ プログラムで保証された取引の設定 ](programmatic-guaranteed-set-up.md)
+>* [ プログラムで保証された取引の広告を送信  [!DNL FreeWheel]](freewheel-submit.md)
+>* [ プログラムで保証された取引について ](programmatic-guaranteed-about.md)
+<!-- >* [Specify placements and ads for a private deal](deal-id-attach-placements.md)-->

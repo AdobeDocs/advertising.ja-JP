@@ -3,7 +3,7 @@ title: プライベート、[!UICONTROL On Demand] ーザー、または [!UICON
 description: 取引レベルのレポートを開く方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
 exl-id: 8a2e142e-0a05-47c7-9888-935665f06ad3
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プライベート取引のオークション・インサイトの表示 &#x200B;](/help/dsp/inventory/private-deal-auction-insights.md)
->* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
->* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)
+>* [ プライベート取引のオークションインサイトの表示 ](/help/dsp/inventory/private-deal-auction-insights.md)
+>* [ プレミアム在庫  [!DNL On Demand]  ついて ](on-demand-inventory-about.md)
+>* [ プライベートインベントリについて ](private-inventory-about.md)
 >* [[!UICONTROL Simple Ad Serving]](simple-deal-about.md) について

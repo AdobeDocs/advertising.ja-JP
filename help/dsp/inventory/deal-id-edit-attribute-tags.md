@@ -2,7 +2,7 @@
 title: 取引 ID の属性タグの編集
 description: 取引 ID の属性タグを作成および編集する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals]** をクリックします。
 
-1. 取引行で、![&#x200B; オプションメニュー &#x200B;](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]** をクリックします。
+1. 取引行で、![ オプションメニュー ](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]** をクリックします。
 
 1. [!UICONTROL Ad & Deal Tagging] の設定で、次のいずれかの操作を行います。
 
@@ -29,5 +29,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)
->* [&#x200B; プライベート取引設定の編集 &#x200B;](/help/dsp/inventory/deal-id-edit.md)
+>* [ プライベートインベントリについて ](private-inventory-about.md)
+>* [ プライベート取引設定の編集 ](/help/dsp/inventory/deal-id-edit.md)

@@ -3,9 +3,9 @@ title: プレミアム  [!DNL On Demand]  ンベントリについて
 description: DSPがプレミアム出版社パートナーと事前に交渉した取引について説明します。
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -53,10 +53,10 @@ DSP Premium Marketplace では、次のことが可能です。
 
 >[!MORELIKETHIS]
 >
->* [Premium 在庫取引の購入  [!DNL On Demand]  アクセスのリクエスト &#x200B;](on-demand-inventory-subscribe.md)
->* [On Demand Premium の在庫取引の再リクエスト &#x200B;](on-demand-inventory-rerequest.md)
->* [&#x200B; 取引リクエストと購読  [!DNL On Demand]  ステータスの表示 &#x200B;](on-demand-inventory-view-status.md)
->* [[!DNL On Demand]  アジア太平洋のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-na.md)
+>* [ プレミアム在庫取引の購入  [!DNL On Demand]  アクセスのリクエスト ](on-demand-inventory-subscribe.md)
+>* [ プレミアム在庫取引  [!DNL On Demand]  再要求 ](on-demand-inventory-rerequest.md)
+>* [ 取引リクエストと購読のステ  [!DNL On Demand]  タスの表示 ](on-demand-inventory-view-status.md)
+>* [[!DNL On Demand]  アジア太平洋地域のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー ](on-demand-inventory-publishers-na.md)

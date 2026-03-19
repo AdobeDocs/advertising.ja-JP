@@ -3,7 +3,7 @@ title: プライベート取引へのアクセス権を持つ広告主を編集
 description: プライベート取引にアクセスできる広告主を指定する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 51f3fa66-de70-4233-a866-ec48d72e88dc
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、[&#x200B; 指定したアカウント内のすべての広告主との取引 ID の共有と共有の停止 &#x200B;](deal-id-share.md) を行うこともできます。
+>また、[ 指定したアカウント内のすべての広告主との取引 ID の共有と共有の停止 ](deal-id-share.md) を行うこともできます。
 
 1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals].** をクリックします。
 
@@ -25,6 +25,6 @@ ht-degree: 0%
 1. 「**[!UICONTROL Save]**」をクリックして、取引設定を保存します。
 
 >[!MORELIKETHIS]
->* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)
->* [&#x200B; 取引 ID にアクセスできるアカウントの編集 &#x200B;](/help/dsp/inventory/deal-id-share.md)
->* [&#x200B; 手動の取引 ID 設定 &#x200B;](deal-id-settings.md)
+>* [ プライベートインベントリについて ](private-inventory-about.md)
+>* [ プライベート取引へのアクセス権を持つアカウントの編集 ](/help/dsp/inventory/deal-id-share.md)
+>* [ 手動の取引 ID 設定 ](deal-id-settings.md)

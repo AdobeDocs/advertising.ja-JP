@@ -3,7 +3,7 @@ title: プレースメント [!UICONTROL Diagnostics] レポートの表示
 description: プレースメントの設定とペーシングに関する問題を診断する方法を説明します。
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
       1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Edit]** をクリックします。
 
-   1. 右上で、「![&#x200B; プレースメント診断 &#x200B;](/help/dsp/assets/placement-diagnostics.png)」をクリックします。
+   1. 右上で、「![ プレースメント診断 ](/help/dsp/assets/placement-diagnostics.png)」をクリックします。
 
 1. 次のいずれかの操作をおこないます。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
       1. 右上で、「**[!UICONTROL Ad Approvals]**」をクリックします。
 
-      1. （オプション）広告を一時停止またはアクティブ化するには、広告列のステータススイッチ（![&#x200B; ステータススイッチ &#x200B;](/help/dsp/assets/status-switch.png)）をクリックします。
+      1. （オプション）広告を一時停止またはアクティブ化するには、広告列のステータススイッチ（![ ステータススイッチ ](/help/dsp/assets/status-switch.png)）をクリックします。
 
       1. （任意）広告の設定を開くには、広告の横にある「**[!UICONTROL View Ad]**」をクリックします。
 
@@ -72,6 +72,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーン管理ビューでのパフォーマンスレポートのタイプ &#x200B;](campaign-reports-about.md)
->* [&#x200B; 配置予測レポートの表示 &#x200B;](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ キャンペーン管理ビューでのパフォーマンスレポートのタイプ ](campaign-reports-about.md)
+>* [ 配置予測レポートの表示 ](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)
