@@ -3,7 +3,7 @@ title: カスタムレポートの作成
 description: カスタムレポートの作成方法を説明します。
 feature: DSP Custom Reports
 exl-id: f895529b-dc69-4c74-bca6-3f7617f41ceb
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
@@ -16,18 +16,18 @@ ht-degree: 0%
 
 1. 右上で、「**[!UICONTROL Create]**」をクリックします。
 
-1. [&#x200B; レポート設定 &#x200B;](/help/dsp/reports/report-settings.md) を指定します。
+1. [ レポート設定 ](/help/dsp/reports/report-settings.md) を指定します。
 
 1. 「**[!UICONTROL Create Custom Report]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
->* [&#x200B; カスタムレポートの複製 &#x200B;](/help/dsp/reports/report-copy.md)
->* [&#x200B; カスタムレポートの編集 &#x200B;](/help/dsp/reports/report-edit.md)
->* [&#x200B; カスタムレポートのダウンロード &#x200B;](/help/dsp/reports/report-download.md)
->* [&#x200B; カスタムレポートの実行 &#x200B;](/help/dsp/reports/report-run-now.md)
->* [&#x200B; カスタムレポートの削除 &#x200B;](/help/dsp/reports/report-delete.md)
->* [&#x200B; カスタムレポートの設定 &#x200B;](/help/dsp/reports/report-settings.md)
->* [&#x200B; キャンペーン管理ビューでのパフォーマンスレポートのタイプ &#x200B;](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [&#x200B; 使用可能なレポート列 &#x200B;](/help/dsp/reports/report-columns.md)
+>* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
+>* [ カスタムレポートの複製 ](/help/dsp/reports/report-copy.md)
+>* [ カスタムレポートの編集 ](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポートのダウンロード ](/help/dsp/reports/report-download.md)
+>* [ カスタムレポートの実行 ](/help/dsp/reports/report-run-now.md)
+>* [ カスタムレポートの削除 ](/help/dsp/reports/report-delete.md)
+>* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
+>* [ キャンペーン管理ビューでのパフォーマンスレポートのタイプ ](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)

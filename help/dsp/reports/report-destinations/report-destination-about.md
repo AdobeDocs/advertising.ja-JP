@@ -1,16 +1,16 @@
 ---
-title: '[!UICONTROL Report Destinations] について'
+title: レポートの宛先について
 description: カスタムレポートの配信場所の管理について説明します。
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Report Destinations] について
+# レポートの宛先について
 
 カスタムレポートの配信場所（*[!DNL report destinations]* と呼ばれる）を作成および管理できます。 レポートの宛先を設定したら、各カスタムレポートが単一の宛先タイプの 1 つ以上の場所に配信されるように設定できます。 レポートを保存した後は、宛先のタイプを変更できません。
 
@@ -35,11 +35,11 @@ ht-degree: 0%
 >
 >既存のレポート宛先の資格情報を更新しても、資格情報が有効な限り、レポートの配信が中断されることはありません。
 
-![&#x200B; レポートの宛先 &#x200B;](/help/dsp/assets/report-destinations.png)
+![ レポートの宛先 ](/help/dsp/assets/report-destinations.png)
 
 >[!MORELIKETHIS]
 >
->* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md) の作成
->* [[!UICONTROL Report Destination] Settings](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [ レポートの宛先の作成 ](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [ レポートの宛先設定 ](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md) の編集
->* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md) ージの削除
+>* [ レポートの宛先の削除 ](/help/dsp/reports/report-destinations/report-destination-delete.md)

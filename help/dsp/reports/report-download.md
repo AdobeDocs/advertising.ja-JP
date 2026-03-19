@@ -3,7 +3,7 @@ title: カスタムレポートのダウンロード
 description: カスタムレポートをすぐにダウンロードする方法を説明します。
 feature: DSP Custom Reports
 exl-id: a27ed432-c9d4-47c5-9c04-b38bb32e6425
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -20,20 +20,20 @@ ht-degree: 0%
 
    * レポートの最新のインスタンスをダウンロードするには、[**[!UICONTROL Download]**] をクリックします。
 
-   * （複数のインスタンスが存在するレポート） ![&#x200B; の横にある &#x200B;](/help/dsp/assets/chevron-down.png " 下矢印 ") 下矢印 [!UICONTROL Download] をクリックし、ダウンロードするレポートの完了日をクリックします。 ダウンロード可能なレポートインスタンスには、ダウンロードアイコン（![ダウンロードアイコン](/help/dsp/assets/indicator-downloadable.png "ダウンロードアイコン")）が表示されます。
+   * （複数のインスタンスが存在するレポート） ![ の横にある ](/help/dsp/assets/chevron-down.png " 下矢印 ") 下矢印 [!UICONTROL Download] をクリックし、ダウンロードするレポートの完了日をクリックします。 ダウンロード可能なレポートインスタンスには、ダウンロードアイコン（![ダウンロードアイコン](/help/dsp/assets/indicator-downloadable.png "ダウンロードアイコン")）が表示されます。
 
      使用可能なインスタンスが多数ある場合は、必要に応じてリストの下部にある「**[!UICONTROL Load More]**」をクリックします。
 
      1 つのレポートを同じ日に複数回実行すると、その日のレポートインスタンスが時系列で表示され、最新のインスタンスが上位に表示されます。
 
-     失敗したレポートジョブにはエラーアイコン（![&#x200B; エラーインジケーター &#x200B;](/help/dsp/assets/indicator-critical.png " エラーインジケーター ")）が表示され、ダウンロードできません。 エラーの説明を表示するには、エラーアイコンの上にカーソルを置きます。
+     失敗したレポートジョブにはエラーアイコン（![ エラーインジケーター ](/help/dsp/assets/indicator-critical.png " エラーインジケーター ")）が表示され、ダウンロードできません。 エラーの説明を表示するには、エラーアイコンの上にカーソルを置きます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
->* [&#x200B; カスタムレポートの作成 &#x200B;](/help/dsp/reports/report-create.md)
->* [&#x200B; カスタムレポートの複製 &#x200B;](/help/dsp/reports/report-copy.md)
->* [&#x200B; カスタムレポートの編集 &#x200B;](/help/dsp/reports/report-edit.md)
->* [&#x200B; カスタムレポートの実行 &#x200B;](/help/dsp/reports/report-run-now.md)
->* [&#x200B; カスタムレポートの設定 &#x200B;](/help/dsp/reports/report-settings.md)
->* [&#x200B; 使用可能なレポート列 &#x200B;](/help/dsp/reports/report-columns.md)
+>* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
+>* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートの複製 ](/help/dsp/reports/report-copy.md)
+>* [ カスタムレポートの編集 ](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポートの実行 ](/help/dsp/reports/report-run-now.md)
+>* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
+>* [ 使用可能なレポート列 ](/help/dsp/reports/report-columns.md)
