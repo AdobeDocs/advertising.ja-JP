@@ -35,8 +35,8 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | コンテンツ/映画のタイトル。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | コンテンツシリーズ。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | コンテンツのジャンル。 |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | [ で定義される生産品質  [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)。 値には、`Unknown`、`Professionally Produced`、`Prosumer`、`User Generated` を使用できます。 |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | [ によって定義されるコンテンツのタ  [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md) プ。 値には、`Video,`、`Game`、`Music`、`Application`、`Text`、`Other` な `Unknown` があります。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | [&#x200B; で定義される生産品質  [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)。 値には、`Unknown`、`Professionally Produced`、`Prosumer`、`User Generated` を使用できます。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | [&#x200B; によって定義されるコンテンツのタ  [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md) プ。 値には、`Video,`、`Game`、`Music`、`Application`、`Text`、`Other` な `Unknown` があります。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Rating] | コンテンツのレーティング（PG、R など）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Livestream] | 広告がライブストリームに表示されたかどうか（`Not Live` または `Live`）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Length (in seconds)] | コンテンツの長さ（秒）。通常、ビデオまたはオーディオに使用されます。 |
@@ -264,7 +264,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | 測定可能なすべてのインプレッションの中で表示可能なインプレッションの割合（<code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions] として計算）</code>。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | ビューアブルと見なされる広告インプレッションの数。 |
 | [!UICONTROL Conversion Metrics] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のコンバージョン ] | 指定した広告主固有のコンバージョン指標またはAdobe Analytics イベントの合計。 |
-| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のカスタム目標 ] | 指定した [ カスタム目標 ](/help/dsp/optimization/custom-goal.md) に含まれるすべてのコンバージョンの重み付き合計。 |
+| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化 ] | [ 広告主固有のカスタム目標 ] | 指定した [&#x200B; カスタム目標 &#x200B;](/help/dsp/optimization/custom-goal.md) に含まれるすべてのコンバージョンの重み付き合計。 |
 
 {style="table-layout:auto"}
 
@@ -272,8 +272,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ カスタムレポートについて ](/help/dsp/reports/report-about.md)
->* [ カスタムレポートの作成 ](/help/dsp/reports/report-create.md)
->* [ カスタムレポートの複製 ](/help/dsp/reports/report-copy.md)
->* [ カスタムレポートの編集 ](/help/dsp/reports/report-edit.md)
->* [ カスタムレポートの設定 ](/help/dsp/reports/report-settings.md)
+>* [&#x200B; カスタムレポートについて &#x200B;](/help/dsp/reports/report-about.md)
+>* [&#x200B; カスタムレポートの作成 &#x200B;](/help/dsp/reports/report-create.md)
+>* [&#x200B; カスタムレポートの複製 &#x200B;](/help/dsp/reports/report-copy.md)
+>* [&#x200B; カスタムレポートの編集 &#x200B;](/help/dsp/reports/report-edit.md)
+>* [&#x200B; カスタムレポートの設定 &#x200B;](/help/dsp/reports/report-settings.md)

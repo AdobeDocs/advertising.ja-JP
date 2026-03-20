@@ -24,8 +24,8 @@ ht-degree: 4%
       + [クロスデバイスソリューション](/help/dsp/introduction/features/cross-device-solutions.md)
    + [口座資金](/help/dsp/introduction/billing/account-funding.md)
    + [サポートされる通貨](/help/dsp/currency.md)
-   + [ 消費者プライバシーのサポート ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
-   + [ 方針及び指針 ](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [&#x200B; 消費者プライバシーのサポート &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [&#x200B; 方針及び指針 &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [高度な計測ソリューション](/help/dsp/introduction/advanced-measurement-services.md)
 + [AI 支援チャットを使用して製品ドキュメントを検索](/help/dsp/agent-chat.md)
 + キャンペーン管理 {#campaign-management}
@@ -73,11 +73,11 @@ ht-degree: 4%
       + [認定広告サービングパートナー](/help/dsp/campaign-management/ads/certified-ad-servers.md)
       + [単一の広告を作成](/help/dsp/campaign-management/ads/ad-create.md)
       + [複数のサードパーティ広告の作成](/help/dsp/campaign-management/ads/ad-create-multiple.md)
-      + [ [!DNL Flashtalking] を使用した広告の作成](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [&#x200B; [!DNL Flashtalking] を使用した広告の作成](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [バルクシートを使用した広告の詳細のレビューと編集](/help/dsp/campaign-management/ads/ad-qa.md)
       + [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
       + [広告の複製](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [ プレースメントからの広告の添付と削除 ](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
+      + [&#x200B; プレースメントからの広告の添付と削除 &#x200B;](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [広告に関連付けられたプレースメントのリスト](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [広告の詳細レポートの表示](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [広告の一時停止またはアクティブ化](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -233,9 +233,9 @@ ht-degree: 4%
    + 通知 {#notifications}
       + [アラート購読について](/help/dsp/admin/alerts-about.md)
       + [アラート配信登録の管理](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloudとの統合 ](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
++ [Adobe Experience Cloudとの統合 &#x200B;](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [ヘルプを表示](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--

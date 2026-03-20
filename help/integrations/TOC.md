@@ -17,7 +17,7 @@ ht-degree: 11%
 + [最新情報](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
    + [概要  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
-   + [ [!DNL Analytics] のユーザーが使用するAdobe Advertising ID](/help/integrations/analytics/ids.md)
+   + [&#x200B; [!DNL Analytics] のユーザーが使用するAdobe Advertising ID](/help/integrations/analytics/ids.md)
    + 実装の計画 {#planning}
       + [実装の前提条件と主な情報  [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)
       + [（DSP）  [!DNL Analytics for Advertising] のJavaScript コード](/help/integrations/analytics/javascript.md)
@@ -53,4 +53,4 @@ ht-degree: 11%
    + [Customer Journey Analyticsが使用するAdobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
    + [データ収集、データ転送およびレポートの設定](/help/integrations/customer-journey-analytics/set-up.md)
    + [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Adobe Advertising統合に関するビデオチュートリアル ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)
++ [Adobe Advertising統合に関するビデオチュートリアル &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)
