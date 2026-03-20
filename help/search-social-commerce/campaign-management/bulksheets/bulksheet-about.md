@@ -3,7 +3,7 @@ title: バルクシートを使用した Campaign データの管理について
 description: 広告ネットワークで使用できるバルクシート機能、バルクシートワークフロー、エラー処理について説明します。
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -38,21 +38,22 @@ ht-degree: 0%
 
 同期されたアカウントにバルクシートを使用する標準的な手順は次のとおりです。
 
-<!-- insert image
+<!--
+ insert image
   [EDIT/RECREATE FILE to replace "search engine"]
 -->
 
-1. [1 つ以上のアカウント、キャンペーンまたは広告グループのデータをバルクシートファイルにダウンロードします &#x200B;](bulksheet-download.md)。 オプションとして、広告ネットワーク固有のバルクシートに手動で入力し、ファイルをアップロードできます。
+1. [1 つ以上のアカウント、キャンペーンまたは広告グループのデータをバルクシートファイルにダウンロードします ](bulksheet-download.md)。 オプションとして、広告ネットワーク固有のバルクシートに手動で入力し、ファイルをアップロードできます。
 
-1. ファイル内のベース（最終的な） URL または宛先 URL で [&#x200B; ランディングページを検証 &#x200B;](bulksheet-validate-landing-pages.md) します。
+1. ファイル内のベース（最終的な） URL または宛先 URL で [ ランディングページを検証 ](bulksheet-validate-landing-pages.md) します。
 
 1. データを追加したり修正したりする必要がある場合：
 
-   1. [&#x200B; ファイルを書き出す &#x200B;](bulksheet-export.md) をデスクトップに追加し、[!DNL Microsoft Excel] で編集します。
+   1. [ ファイルを書き出す ](bulksheet-export.md) をデスクトップに追加し、[!DNL Microsoft Excel] で編集します。
 
-   1. [&#x200B; 編集したファイルを手動でアップロード &#x200B;](bulksheet-upload.md) して、検索、ソーシャル、Commerceにアップロードするか、[&#x200B; 指定した FTP アカウントにファイルをアップロード &#x200B;](bulksheet-ftp-account.md) して自動投稿します。
+   1. [ 編集したファイルを手動でアップロード ](bulksheet-upload.md) して、検索、ソーシャル、Commerceにアップロードするか、[ 指定した FTP アカウントにファイルをアップロード ](bulksheet-ftp-account.md) して自動投稿します。
 
-1. （手動でアップロードしたファイルの場合） [&#x200B; ファイルを投稿 &#x200B;](bulksheet-post.md) は、アップロード時または後で広告ネットワークに送信します。
+1. （手動でアップロードしたファイルの場合） [ ファイルを投稿 ](bulksheet-post.md) は、アップロード時または後で広告ネットワークに送信します。
 
 1. （必要な場合）新しいエラーファイルをダウンロードし、行を修正して、ファイルを再投稿します。
 
@@ -82,7 +83,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; バルクシートファイルのダウンロード/作成 &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
->* [&#x200B; バルクシートまたは修正されたエラーファイルのアップロード &#x200B;](bulksheet-upload.md)
->* [&#x200B; ポストバルクシートまたは修正されたエラーファイル &#x200B;](bulksheet-post.md)
->* [&#x200B; 生成またはアップロードされたバルクシートファイルのエクスポート &#x200B;](bulksheet-export.md)
+>* [ バルクシートファイルのダウンロード/作成 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+>* [ バルクシートまたは修正されたエラーファイルのアップロード ](bulksheet-upload.md)
+>* [ ポストバルクシートまたは修正されたエラーファイル ](bulksheet-post.md)
+>* [ 生成またはアップロードされたバルクシートファイルのエクスポート ](bulksheet-export.md)

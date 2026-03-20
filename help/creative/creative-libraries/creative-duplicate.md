@@ -1,9 +1,9 @@
 ---
 title: クリエイティブの複製
-description: Learn how to duplicate creatives in a creative library.
+description: クリエイティブライブラリでクリエイティブを複製する方法を説明します。
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -12,31 +12,32 @@ ht-degree: 0%
 
 # クリエイティブの複製
 
-Duplicate creatives to add new creatives with the same settings to the same library. You can later rename the new creatives and edit the creative settings as needed.
+クリエイティブを複製して、同じ設定の新しいクリエイティブを同じライブラリに追加します。 後で新しいクリエイティブの名前を変更し、必要に応じてクリエイティブ設定を編集できます。
 
 >[!NOTE]
 >
->When you duplicate a dynamic creative, the duplicate is added to the same catalog as the original creative.
+>動的クリエイティブを複製すると、複製は元のクリエイティブと同じカタログに追加されます。
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
 
-1. Click the library name.
+1. ライブラリ名をクリックします。
 
-1. On the **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]** tab, select the creatives:
+1. **[!UICONTROL Creatives]** / **[!UICONTROL Standard Ads]** タブで、クリエイティブを選択します。
 
-   * To duplicate a single creative:
+   * 1 つのクリエイティブを複製するには：
 
       * カード表示で、クリエイティブ名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Duplicate]**」をクリックします。
 
       * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Duplicate]** をクリックします。
 
-   * To duplicate one or more creatives, select the check box for each creative that you want to duplicate. 一括アクションツールバーで、「**[!UICONTROL Duplicate]**」をクリックします。
+   * 1 つ以上のクリエイティブを複製するには、複製する各クリエイティブのチェックボックスをオンにします。 一括アクションツールバーで、「**[!UICONTROL Duplicate]**」をクリックします。
 
-     To select all rows, select the global check box in the upper left.
+     すべての行を選択するには、左上の「グローバル」チェック・ボックスを選択します。
 
-   The new creatives are named `<original name> (copy) # 1` (or the next number in the sequence). For example, if you make two duplicates of &quot;Test image,&quot; then the duplicates are named &quot;Test image (copy) # 1&quot; and &quot;Test image (copy) # 2.&quot;
+   新しいクリエイティブの名前は `<original name> (copy) # 1` （またはシーケンス内の次の番号）になります。 例えば、「テスト画像」の重複を 2 つ作成した場合、それらの重複の名前は「テスト画像（コピー） # 1」および「テスト画像（コピー） # 2」になります。
 
-<!-- Add to TOC later when this feature is available to users:
+<!--
+ Add to TOC later when this feature is available to users:
 
 >* [Edit dynamic creatives](creative-edit-dynamic.md)
 >* [Dynamic ad settings](creative-settings-dynamic.md)
@@ -44,7 +45,7 @@ Duplicate creatives to add new creatives with the same settings to the same libr
 
 >[!MORELIKETHIS]
 >
->* [Add standard creatives to a creative library](creative-add-standard.md)
->* [Edit standard creatives](creative-edit-standard.md)
->* [Standard creative settings](creative-settings-standard.md)
->* [View the change log for a creative](/help/creative/creative-libraries/creative-view-change-log.md)
+>* [ クリエイティブライブラリへの標準クリエイティブの追加 ](creative-add-standard.md)
+>* [ 標準クリエイティブを編集 ](creative-edit-standard.md)
+>* [ 標準のクリエイティブ設定 ](creative-settings-standard.md)
+>* [ クリエイティブの変更ログを表示 ](/help/creative/creative-libraries/creative-view-change-log.md)

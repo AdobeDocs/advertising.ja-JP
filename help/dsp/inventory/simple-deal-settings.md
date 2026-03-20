@@ -3,7 +3,7 @@ title: '[!UICONTROL Simple Ad Serving] 取引設定'
 description: '[!UICONTROL Simple Ad Serving] の取引で利用可能な設定について説明します。'
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Select & upload [Media Type]]
 
-（新しい広告のみ）新しい [&#x200B; サードパーティ広告 &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md) を作成するためのScreens。
+（新しい広告のみ）新しい [ サードパーティ広告 ](/help/dsp/campaign-management/ads/ad-create-multiple.md) を作成するためのScreens。
 
 ### [!UICONTROL Feed details]
 
@@ -58,7 +58,8 @@ Changes aren't applied retroactively.
 
 <!-- completely different settings layout, so need a separate section for them -->
 
-<!-- From Abhinav: Editable fields are Name, Start & End date, Impressions & CPM. Changes are not applied retroactively.
+<!--
+ From Abhinav: Editable fields are Name, Start & End date, Impressions & CPM. Changes are not applied retroactively.
 
 But I see:
 
@@ -81,10 +82,11 @@ But I see:
 >[!MORELIKETHIS]
 >
 >* [[!UICONTROL Simple Ad Serving]](simple-deal-about.md) について
->* [[!UICONTROL Simple Ad Serving] しい取引の作成 &#x200B;](simple-deal-create.md)
->* [[!UICONTROL Simple Ad Serving] 取引設定の編集 &#x200B;](simple-deal-edit.md)
->* [&#x200B; 取引の詳細レポートの表示 &#x200B;](/help/dsp/inventory/deal-view-report.md)
+>* [[!UICONTROL Simple Ad Serving] しい取引の作成 ](simple-deal-create.md)
+>* [[!UICONTROL Simple Ad Serving] 取引設定の編集 ](simple-deal-edit.md)
+>* [ 取引の詳細レポートの表示 ](/help/dsp/inventory/deal-view-report.md)
 
-<!-- add back when reimplemented:
+<!--
+ add back when reimplemented:
 >* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

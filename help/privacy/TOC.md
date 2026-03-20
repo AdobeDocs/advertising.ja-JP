@@ -4,7 +4,7 @@ user-guide-title: 消費者のプライバシーに対するAdobe Advertisingの
 user-guide-description: 広告主の顧客が消費者のプライバシー法を遵守できるよう Adobe Advertising が提供するセキュリティとプライバシーの制御について説明します。
 breadcrumb-title: 消費者プライバシーのサポート
 index: true
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 31%

@@ -3,7 +3,7 @@ title: '[!UICONTROL Simple Ad Serving] 契約設定の編集'
 description: '[!UICONTROL Simple Ad Serving] しい取引の設定を編集する方法を説明します。'
 feature: DSP Simple Ad Serving
 exl-id: 48540a6c-54ee-4109-bdd6-293fbee5c3e5
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. 取引行で、**[!UICONTROL ...]**/**[!UICONTROL Edit]** をクリックします。
 
-1. [&#x200B; 取引設定 &#x200B;](simple-deal-settings.md) を編集します。
+1. [ 取引設定 ](simple-deal-settings.md) を編集します。
 
    [!UICONTROL Deal Name]、[!UICONTROL Publisher maximum ad length]、[!UICONTROL Publisher minimum ad length]、[!UICONTROL CPM]、[!UICONTROL Flight dates] および [!UICONTROL Impressions] を編集できます。
 
@@ -27,10 +27,11 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [[!UICONTROL Simple Ad Serving]](simple-deal-about.md) について
->* [[!UICONTROL Simple Ad Serving] しい取引の作成 &#x200B;](simple-deal-create.md)
->* [[!UICONTROL Simple Ad Serving] 設定 &#x200B;](simple-deal-settings.md)
->* [&#x200B; 取引の詳細レポートの表示 &#x200B;](/help/dsp/inventory/deal-view-report.md)
+>* [[!UICONTROL Simple Ad Serving] しい取引の作成 ](simple-deal-create.md)
+>* [[!UICONTROL Simple Ad Serving] 設定 ](simple-deal-settings.md)
+>* [ 取引の詳細レポートの表示 ](/help/dsp/inventory/deal-view-report.md)
 
-<!-- add back when reimplemented:
+<!--
+ add back when reimplemented:
 >* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

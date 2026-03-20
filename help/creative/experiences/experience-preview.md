@@ -3,7 +3,7 @@ title: エクスペリエンスのプレビュー
 description: 広告エクスペリエンスでクリエイティブをプレビューする方法を説明します。
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
 
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
+1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
 
 1. 次のいずれかの操作を行います。
 
@@ -52,7 +52,8 @@ ht-degree: 0%
 
       1. 広告サイズを選択します。
 
-     <!-- I don't see this as of 2/3:
+     <!--
+      I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
@@ -60,7 +61,8 @@ ht-degree: 0%
 
    * エクスペリエンス内のすべてのクリエイティブをプレビューするには、「**[!UICONTROL Entire Tree]**」をクリックします。
 
-     <!-- I don't see this as of 2/3:
+     <!--
+      I don't see this as of 2/3:
      1. Click **[!UICONTROL Entire Tree]**.
      1. Select the ad size.
      1. Select whether to group the creatives by Rotation Type or Ad Size.
@@ -74,7 +76,7 @@ ht-degree: 0%
 
 1. （任意）エクスペリエンスのデモ URL をコピーして、[!DNL Creative] へのログインなしで他のユーザーと共有するには、次のようにします。
 
-   1. プレビューの右上にある「![&#x200B; 共有 &#x200B;](/help/creative/assets/share.png " 共有 ")」をクリックします。
+   1. プレビューの右上にある「![ 共有 ](/help/creative/assets/share.png " 共有 ")」をクリックします。
 
    1. [!UICONTROL Share Demo URL] ダイアログで、「**[!UICONTROL Copy]**」をクリックして URL をクリップボードにコピーし、他のユーザーと共有できるようにします。
 
@@ -82,7 +84,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
 
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
+1. （任意） [ ビューをカスタマイズ ](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
 
 1. 次のいずれかの操作を行います。
 
@@ -102,11 +104,11 @@ ht-degree: 0%
 
 1. （任意）エクスペリエンスのデモ URL をコピーして、[!DNL Creative] へのログインなしで他のユーザーと共有するには、次のようにします。
 
-   1. プレビューの右上にある「![&#x200B; 共有 &#x200B;](/help/creative/assets/share.png " 共有 ")」をクリックします。
+   1. プレビューの右上にある「![ 共有 ](/help/creative/assets/share.png " 共有 ")」をクリックします。
 
    1. [!UICONTROL Share Demo URL] ダイアログで、「**[!UICONTROL Copy]**」をクリックして URL をクリップボードにコピーし、他のユーザーと共有できるようにします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 &#x200B;](experience-create-targeting.md)
->* [&#x200B; デシジョンツリーのターゲット設定を使用しないエクスペリエンスの作成 &#x200B;](/help/creative/experiences/experience-create-no-targeting.md)
+>* [ デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 ](experience-create-targeting.md)
+>* [ デシジョンツリーのターゲット設定を使用しないエクスペリエンスの作成 ](/help/creative/experiences/experience-create-no-targeting.md)

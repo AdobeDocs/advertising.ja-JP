@@ -3,7 +3,7 @@ title: カスタムの目標
 description: 最低 CPA または最高 ROAS 用に最適化されたパッケージで成功イベントを定義するカスタム目標について説明します。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -14,7 +14,8 @@ ht-degree: 0%
 
 カスタム目標は、広告主がビジネス目標を達成するために必要な成功イベントを定義します。 最適化目標「[!UICONTROL Highest Return on Ad Spend (ROAS)"]」または「[!UICONTROL Lowest Cost per Acquisition (CPA)]」を使用する各パッケージには、全体的な最適化目標を達成するのに役立つカスタム目標を含める必要があります。 *でカスタム目標を* 目標 [!DNL Advertising Search, Social, & Commerce] として作成できます。 DSPの各目標の名前には、「ADSP_」というプレフィックスを付ける必要があります。
 
-<!-- update image or omit it
+<!--
+ update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 例えば、あるキャンペーンの特定のパッケージに関連する 3 つのコンバージョン指標（20 USD の「PDFのダウンロード」、30 USD の「電子メールのサインアップ」、40 USD の「注文確認」）があるとします。 顧客アクションの 1 回限りの金銭的価値に応じて重みを付ける場合、指標の相対的な重みは 1、1.5、2 になります。
 
-[&#x200B; カスタム目標を作成 &#x200B;](#custom-goal-create) したら、[&#x200B; を使用したレポートおよびアルゴリズム最適化のために &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) パッケージに割り当て [!DNL Adobe AI] ことができます。
+[ カスタム目標を作成 ](#custom-goal-create) したら、[ を使用したレポートおよびアルゴリズム最適化のために ](/help/dsp/campaign-management/packages/package-settings.md) パッケージに割り当て [!DNL Adobe AI] ことができます。
 
 重み付けレコメンデーションは、目標のDSP属性指標に対して自動的に生成され、ワンクリックですべての重み付けレコメンデーションを適用できます。 「ADSP_」が接頭辞の付いた目標に対するすべての重み付けの変更は、2 日以内にDSPでアルゴリズムにより適用されます。 重み付けの推奨事項について詳しくは、最適化ガイドの「目標」に関する章を参照してください。この章は、検索、ソーシャル、Commerce内から利用できます。
 
@@ -31,7 +32,7 @@ ht-degree: 0%
 
 カスタム目標を作成するには、DSP アカウントが、[!DNL Search, Social, & Commerce] クライアント設定内から同じAdobe Experience Cloud組織 ID を持つ [!DNL Search, Social, & Commerce] アカウントにリンクされている必要があります。 DSP アカウントが [!DNL Search, Social, & Commerce] アカウントにリンクされていない場合は、Adobe アカウントチームにお問い合わせください。
 
-1. [Advertisingの検索、ソーシャル、Commerceへのログイン &#x200B;](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}。
+1. [Advertisingの検索、ソーシャル、Commerceへのログイン ](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}。
 
 1. 目標に含める指標が追跡されていて、製品で使用でき、表示名を含んでいることを確認します。
 
@@ -47,7 +48,7 @@ ht-degree: 0%
 
    1. 指標の「**[!UICONTROL Display Name]**」列に値がない場合は、セル内をクリックし、表示名を入力して「**[!UICONTROL Apply]」をクリックします。**
 
-1. [&#x200B; カスタム目標を *目標*](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md){target="_blank"} として作成します。 次の点に留意してください。
+1. [ カスタム目標を *目標*](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md){target="_blank"} として作成します。 次の点に留意してください。
 
    * Advertising DSP パッケージに使用される目標の場合、目標名の先頭には「ADSP_Registrations」のように「ADSP_」を付ける必要があります。 プレフィックスでは大文字と小文字が区別されません。
 
@@ -64,7 +65,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >最適なパフォーマンスを得るには、カスタム目標（目標）の合計指標が、1 日に少なくとも 10 回のコンバージョンを満たす必要があります。 そうでない場合は、製品ページやアプリケーション開始など、追加のサポートコンバージョン指標を目的に追加することをお勧めします。 ガイドラインについては、[&#x200B; カスタム目標を作成するためのベストプラクティス &#x200B;](#custom-goal-best-practices) を参照してください。
+   >最適なパフォーマンスを得るには、カスタム目標（目標）の合計指標が、1 日に少なくとも 10 回のコンバージョンを満たす必要があります。 そうでない場合は、製品ページやアプリケーション開始など、追加のサポートコンバージョン指標を目的に追加することをお勧めします。 ガイドラインについては、[ カスタム目標を作成するためのベストプラクティス ](#custom-goal-best-practices) を参照してください。
 
 最適化目標「[!UICONTROL Highest Return on Ad Spend (ROAS)"]」または「[!UICONTROL Lowest Cost per Acquisition (CPA)]」を使用するパッケージのDSP パッケージ設定で、目標名が [!UICONTROL Custom Goals] リストに含まれるようになりました。 目標をパッケージのカスタム目標として選択すると、[!UICONTROL Conversion Metric] のリストには、その目標のすべての目標指標が含まれます。
 
@@ -78,7 +79,8 @@ ht-degree: 0%
 
 キャンペーンの目標が売上高（[!UICONTROL Highest Return on Ad Spend (ROAS)]）で、すべてのデバイスタイプの売上高が同じように重要な場合は、モバイル以外の重み付けが 1 の「[!UICONTROL Revenue]」指標を含めます。モバイルの重み付けは無視されます。 指標タイプ *[!UICONTROL Goal]* を選択します。
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a ROAS custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -92,7 +94,8 @@ ht-degree: 0%
 
 キャンペーンの目標が獲得あたりの最小コスト（CPA）で、必要な成功イベントが 1 つのみ（「アプリケーションの送信」など）の場合は、その 1 つの指標を含め、指標タイプを *[!UICONTROL Goal]* のように指定します。 ベストプラクティスは、モバイル以外の重み付けを 1 に設定することです。モバイルの重み付けは無視されます。
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a CPA custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -108,7 +111,8 @@ ht-degree: 0%
 
 * キャンペーンの目標には複数の成功イベントがあります。 例えば、複数のオンサイトアクション（PDFのダウンロード、お問い合わせ、電子メールのサインアップ）を目的として広告をしており、すべてのアクションが CPA 目標に貢献している場合があります。 目標に 3 つの個別の指標が含まれ、それぞれに 1 つの非モバイル重み付けが含まれる場合、[!DNL Adobe AI] を利用したアルゴリズムは、各指標とユーザーデバイスタイプを同じ重要度で処理します。 様々な指標のコストや重要度が異なる場合は、それに応じて相対的な重み付けを調整します。
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties.png)
 
@@ -120,7 +124,8 @@ ht-degree: 0%
 
   次の目標の例には、それぞれ異なるモバイル以外の重み付けを持つ 3 つの指標が含まれています。アプリケーション送信= 1、アプリケーション開始= 0.1、広告主ランディングページ = 0.01。つまり、各アプリケーション送信コンバージョンは、アプリケーション開始コンバージョンが平均 10 個、広告主ランディングページ コンバージョンが平均 100 個と、ビジネスに対して同じ値を持ちます。
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties2.png)
 
@@ -130,6 +135,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 最適化目標とその使用方法 &#x200B;](optimization-goals.md)
->* [&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
-> * [DSPによるキャンペーンの最適化方法 &#x200B;](optimization-how-dsp-optimizes-campaigns.md)
+>* [ 最適化目標とその使用方法 ](optimization-goals.md)
+>* [ パッケージ設定 ](/help/dsp/campaign-management/packages/package-settings.md)
+> * [DSPによるキャンペーンの最適化方法 ](optimization-how-dsp-optimizes-campaigns.md)

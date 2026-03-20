@@ -3,7 +3,7 @@ title: '[!DNL Microsoft Advertising] 製品グループ設定'
 description: 商品グループを買い物するため  [!DNL Microsoft Advertising]  設定を参照します。
 exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 特定の商品ディメンション（「すべての商品」ではない）の商品グループを作成したら、検索、ソーシャルおよびCommerceは、「その他すべて」の商品グループを自動的に作成します。
 
-使用可能な製品ディメンションのリストについては、「[&#x200B; ショッピングキャンペーン製品フィルター &#x200B;](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。 ディメンションのリストは、キャンペーンの [!UICONTROL Inventory Filter] 設定に基づいて制限される場合があります。
+使用可能な製品ディメンションのリストについては、「[ ショッピングキャンペーン製品フィルター ](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。 ディメンションのリストは、キャンペーンの [!UICONTROL Inventory Filter] 設定に基づいて制限される場合があります。
 
 **[!UICONTROL Excluded]:** （新しい製品グループの場合はオプション、既存の製品グループの場合は読み取り専用）一致する製品の広告の入札を除外します。
 
@@ -38,7 +38,8 @@ ht-degree: 0%
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
-<!-- ExL can't handle the same include twice in the same file, so using a snippet for the second occurrence.
+<!--
+ ExL can't handle the same include twice in the same file, so using a snippet for the second occurrence.
 
 {{$include /help/_includes/tracking-template-microsoft.md}}
 -->
@@ -49,7 +50,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ショッピング商品グループについて &#x200B;](product-group-about.md)
->* [&#x200B; ショッピング商品グループの管理 &#x200B;](product-group-manage.md)
->* [&#x200B; 買い物キャンペーン製品フィルター &#x200B;](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [&#x200B; 買い物キャンペ  [!DNL Microsoft Advertising]  ンの実装 &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+>* [ ショッピング商品グループについて ](product-group-about.md)
+>* [ ショッピング商品グループの管理 ](product-group-manage.md)
+>* [ 買い物キャンペーン製品フィルター ](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
+>* [ 買い物キャンペ  [!DNL Microsoft Advertising]  ンの実装 ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

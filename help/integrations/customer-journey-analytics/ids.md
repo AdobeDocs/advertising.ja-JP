@@ -3,7 +3,7 @@ title: Customer Journey Analyticsが使用するAdobe Advertising ID
 description: Customer Journey Analyticsが使用するAdobe Advertising ID
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: af60dcb4-4d1a-4097-ac30-688bd8b9f644
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 0%
@@ -20,7 +20,8 @@ ht-degree: 0%
 
 Adobe Advertisingは、オンサイトのパフォーマンストラッキングに *EF ID* と *AMO ID* の 2 つの ID を使用します。
 
-<!-- Rewrite for CJA:
+<!--
+ Rewrite for CJA:
 
 When an ad impression occurs, Adobe Advertising creates the AMO ID and EF ID values and stores them. For click-through traffic, these IDs are included in the landing page URL using the `ef_id` and `s_kwcid` (for the AMO ID) query string parameters.
 
@@ -56,7 +57,8 @@ Adobe Advertising distinguishes between a click-through or view-through entry to
 
 {{$include /help/_includes/amo-id.md}}
 
-<!-- rewrite for CJA:
+<!--
+ rewrite for CJA:
 
 ### AMO ID Dimension in [!DNL Customer Journey Analytics]
 
@@ -68,7 +70,7 @@ For any reporting or auditing within [!DNL Analytics], the best practice is to u
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 概要 &#x200B;](overview.md)
->* [&#x200B; 前提条件 &#x200B;](prerequisites.md)
->* [&#x200B; データ収集、データ転送、レポートの設定 &#x200B;](set-up.md)
->* [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション &#x200B;](advertising-data-in-cja.md)
+>* [ 概要 ](overview.md)
+>* [ 前提条件 ](prerequisites.md)
+>* [ データ収集、データ転送、レポートの設定 ](set-up.md)
+>* [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション ](advertising-data-in-cja.md)

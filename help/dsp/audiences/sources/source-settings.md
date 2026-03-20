@@ -3,7 +3,7 @@ title: オーディエンスソースの設定
 description: オーディエンスソースの設定について説明します。
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
@@ -26,13 +26,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->1 つのプレースメントでターゲットにできる ID のタイプは 1 つだけです。 ID タイプでパフォーマンスをテストするには、セグメント内の ID タイプごとに [&#x200B; 個別のプレースメントを作成 &#x200B;](/help/dsp/campaign-management/placements/placement-create.md) します。
+>1 つのプレースメントでターゲットにできる ID のタイプは 1 つだけです。 ID タイプでパフォーマンスをテストするには、セグメント内の ID タイプごとに [ 個別のプレースメントを作成 ](/help/dsp/campaign-management/placements/placement-create.md) します。
 
 * *[!DNL RampID]:* PII を [!DNL RampID] に変換します。 [!DNL RampIDs] は、ログインユーザーのリターゲティングや [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) 測定に使用できます。
 
-* *[!DNL Unified ID2.0]（Beta）:* ログインユーザーをリターゲティングするために、PII を [&#x200B; 統合 ID 2.0](https://unifiedid.com) ID に変換する
+* *[!DNL Unified ID2.0]（Beta）:* ログインユーザーをリターゲティングするために、PII を [ 統合 ID 2.0](https://unifiedid.com) ID に変換する
 
-<!-- Later
+<!--
+ Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
 
 -->
@@ -43,8 +44,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化 &#x200B;](source-manage.md)
->* [&#x200B; ファーストパーティオーディエンスソースについて &#x200B;](source-about.md)
->* [&#x200B; 認証済みセグメントの手動インポート元  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Adobe Advertising DSP接続 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)
->* [Audience Management について &#x200B;](/help/dsp/audiences/audience-about.md)
+>* [ オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化 ](source-manage.md)
+>* [ ファーストパーティオーディエンスソースについて ](source-about.md)
+>* [ 認証済みセグメントの手動インポート元  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Adobe Advertising DSP接続 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Audience Management について ](/help/dsp/audiences/audience-about.md)

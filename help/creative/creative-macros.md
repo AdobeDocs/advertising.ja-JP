@@ -3,7 +3,7 @@ title: URL を追跡するために使用可能なマクロ
 description: ランディングページの URL、トラッキング URL およびサードパーティクリエイティブに追加できるマクロを参照します。
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -18,7 +18,8 @@ ht-degree: 0%
 
 使用可能なマクロの一部、またはそれに相当するものが、エクスペリエンスタグに自動的に含まれます。
 
-<!-- Later: 
+<!--
+ Later: 
 
 | Macro | Description | Automatically in experience tags for Advertising DSP? | Automatically in experience tags for [!DNL Google Campaign Manager 360]? |
 | --- | --- | --- | --- |
@@ -52,7 +53,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; クリエイティブライブラリへの標準クリエイティブの追加 &#x200B;](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
->* [&#x200B; 標準のクリエイティブ設定 &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* [&#x200B; ターゲット設定エクスペリエンス設定 &#x200B;](/help/creative/experiences/experience-settings-targeting.md)
->  &#x200B;>*[&#x200B; 非ターゲットエクスペリエンス設定 &#x200B;](/help/creative/experiences/experience-settings-no-targeting.md)
+>* [ クリエイティブライブラリへの標準クリエイティブの追加 ](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
+>* [ 標準のクリエイティブ設定 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
+>* [ ターゲット設定エクスペリエンス設定 ](/help/creative/experiences/experience-settings-targeting.md)
+>*[ 非ターゲットエクスペリエンス設定 ](/help/creative/experiences/experience-settings-no-targeting.md)

@@ -3,7 +3,7 @@ title: バルクシートを使用した配置設定の確認と編集
 description: スプレッドシートを使用して、主要なプレースメント設定を一括でレビューおよび編集する方法を説明します。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->1 つ以上のプレースメントの複数のフィールドをすばやく編集するには、「[&#x200B; プレースメントの編集 &#x200B;](/help/dsp/campaign-management/placements/placement-edit.md)」を参照してください。
+>1 つ以上のプレースメントの複数のフィールドをすばやく編集するには、「[ プレースメントの編集 ](/help/dsp/campaign-management/placements/placement-edit.md)」を参照してください。
 
 ## キャンペーン内のすべてのプレースメントの設定をダウンロード
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    * 通知メッセージで、「**[!UICONTROL Download].**」をクリックします。
 
-   * 上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
+   * 上部のメニューバーの右側にある「![ ジョブ ](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
 
    ファイルはブラウザーのダウンロードフォルダーに保存されます。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    * 通知メッセージで、「**[!UICONTROL Download].**」をクリックします。
 
-   * 上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
+   * 上部のメニューバーの右側にある「![ ジョブ ](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
 
    ファイルはブラウザーのダウンロードフォルダーに保存されます。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    1. 「**[!UICONTROL Upload]**」をクリックします。
 
-1. （オプション）更新が処理されたことを確認するには、上部のメニューバーの右側にある ![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png) をクリックします。
+1. （オプション）更新が処理されたことを確認するには、上部のメニューバーの右側にある ![ ジョブ ](/help/dsp/assets/downloads.png) をクリックします。
 
 設定の更新に失敗した場合、色分けしたバルクシートエラーファイルをダウンロードすると、保存された設定（行）と失敗した設定（失敗した行）と、失敗した各設定の理由を表示できます。 その後、同じファイル内の問題に対処し、もう一度アップロードして、修正された情報を処理できます。
 
@@ -211,7 +211,8 @@ ht-degree: 0%
 
 -->
 
-<!-- LOTS MORE THAN I HAD ORIGINALLY DOCUMENTED -- BELOW ARE THE LAST, BUT NOT ALL:
+<!--
+ LOTS MORE THAN I HAD ORIGINALLY DOCUMENTED -- BELOW ARE THE LAST, BUT NOT ALL:
 
 | Brand Safety | Brand Safety - Contextual Filtering # |  |  |
 | Brand Safety | Brand Safety - Pre-Bid Fraud blocking # |  |  |
@@ -232,6 +233,6 @@ Check on Brand Safety - Contextual Filtering # with new DV feature/fct change.
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; バルクシートを使用した Campaign コンポーネント設定のレビューと編集 &#x200B;](/help/dsp/campaign-management/campaign-components-review-edit.md)
->* [&#x200B; プレースメントを編集 &#x200B;](/help/dsp/campaign-management/placements/placement-edit.md)
->* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ バルクシートを使用した Campaign コンポーネント設定のレビューと編集 ](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [ プレースメントを編集 ](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [ プレースメント設定 ](/help/dsp/campaign-management/placements/placement-settings.md)

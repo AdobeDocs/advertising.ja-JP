@@ -2,7 +2,8 @@
 title: カタログ処理ジョブのステータスのトラッキング
 description: 広告主用のアセットファイルをアップロードおよび管理する方法について説明します。
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+exl-id: 90593f80-cade-4fef-9dd6-d655291077d1
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -13,7 +14,8 @@ ht-degree: 0%
 
 カタログ処理ジョブのステータスを確認します。 処理中にエラーが発生した場合、問題が発生した行の数は [!UICONTROL Failed Count] 列に示されます。
 
-<!-- Validate and reword:
+<!--
+ Validate and reword:
 
 By clicking on "View Failure" on the right, you can see further details about the error. The most common errors are "Image processing error" where there is a missing image asset, or "Duplicate partnum" where the unique column has a non-unique name that is referenced in another feed or within the same feed file.
 
@@ -39,5 +41,5 @@ By clicking on "View Failure" on the right, you can see further details about th
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カタログの管理 &#x200B;](/help/creative/feeds/catalog-manage.md)
->* [&#x200B; 動的広告のワークフロー &#x200B;](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [ カタログの管理 ](/help/creative/feeds/catalog-manage.md)
+>* [ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md)
