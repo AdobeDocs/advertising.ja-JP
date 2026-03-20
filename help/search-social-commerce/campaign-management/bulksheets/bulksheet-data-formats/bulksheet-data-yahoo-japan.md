@@ -3,7 +3,7 @@ title: アカウントのバルクシ  [!DNL Yahoo! Japan]  ト データ
 description: ダウンロードしたアカウント用バルクシートのヘッダーフィールド  [!DNL Yahoo! Japan]  データフィールドを参照します。
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '2672'
 ht-degree: 0%
@@ -14,21 +14,11 @@ ht-degree: 0%
 
 [!DNL Yahoo! Japan] アカウントのデータを一括でダウンロードできますが、広告ネットワークにバルクシートをアップロードまたは投稿することはできません。
 
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adjustment,Location,Location Type,Ad Group Name,Max CPC,Keyword,Match Type,First Page Bid, Quality Score,Ad Name (Yahoo JP),Creative Preferred Devices,Ad Title,Ad Title2,Description Line 1,Description Line 2,Creative Type,Display URL,Display Path 1,Display Path 2,Base URL/Final URL,Destination URL,Tracking Template,Campaign Status,Ad Group Status,Keyword Status,Ad Status,Location Status,[Advertiser-specific Label Classification],Constraints,Campaign ID,Ad Group ID,Keyword ID,Ad ID,AMO ID,Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
-
 ## 使用可能なデータフィールド
 
 >[!TIP]
 >
->次の表は幅が広いです。 表示領域を拡大するには、左側のウィンドウの上部にある ![&#x200B; 左側のウィンドウ枠を非表示にする &#x200B;](/help/dsp/assets/hide-left-pane.png " 左側のウィンドウ枠を非表示にする ") をクリックし、右側のウィンドウ枠の上部にある ![右側のウィンドウを非表示](/help/dsp/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次と右側のウィンドウ枠を一時的に非表示にします。 テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示することもできます。
+>次の表は幅が広いです。 表示領域を拡大するには、左側のウィンドウの上部にある ![ 左側のウィンドウ枠を非表示にする ](/help/dsp/assets/hide-left-pane.png " 左側のウィンドウ枠を非表示にする ") をクリックし、右側のウィンドウ枠の上部にある ![右側のウィンドウを非表示](/help/dsp/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次と右側のウィンドウ枠を一時的に非表示にします。 テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示することもできます。
 
 | フィールド | キャンペーン | 広告グループ | キーワード | テキスト広告 | キャンペーンの場所のターゲット | 説明 |
 |----|----|----|----|----|----|----|
@@ -57,7 +47,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 | [!UICONTROL Display Path 1], [!UICONTROL Display Path 2] | 該当なし | 該当なし | 該当なし | オプション/なし | 該当なし | （拡張テキスト広告のみ。オプション）最終的な URL から自動的に抽出された、表示 URL に追加されるテキスト。 URL 内では、先頭にスラッシュ（`/`）が付きます。 パスには、スラッシュ（`/`）や改行（`\n`）を含めることはできません。 最大長は 15 文字または 7 つの 2 バイト文字です。<br><br> 広告カスタマイズ機能を挿入するには、次の形式を使用します（`Default text` は、フィードファイルに有効な値が含まれていない場合に挿入するオプションの値です）。<ul><li>[!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}, such as {CUSTOMIZER.Discount:10%}`</li><li>[!DNL Microsoft Advertising]: `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`</li></ul>例えば、[!UICONTROL Display Path 1] が「deals」の場合、表示 URL はwww.example.com/dealsのように `&lt;display URL&gt;/deals` になります。 |
 | [!UICONTROL Base URL/Final URL] | 該当なし | 該当なし | オプション | 必須 | 該当なし | エンドユーザーが広告をクリックした際に取得されるランディングページの URL （キャンペーンまたはアカウントに設定された追加パラメーターを含む）。 キーワードレベルのベース/最終 URL は、広告レベル以降の URL を上書きします。 |
 | [!UICONTROL Destination URL] | 該当なし | 該当なし | 該当なし | 該当なし | 該当なし | （情報目的で生成されたバルクシートに含まれ、広告ネットワークに投稿されない）宛先 URL を持つアカウントの場合、この URL は、広告を広告主の web サイトのベース URL/ランディングページにリンクする URL です（クリックを追跡し、ユーザーをランディングページにリダイレクトする別のサイトを経由する場合もあります）。 これには、検索、ソーシャル、Commerceのキャンペーンまたはアカウント用に設定された追加パラメーターが含まれます。 トラッキング URL を生成した場合、これは、アカウント設定とキャンペーン設定のトラッキングパラメーターに基づきます。 広告ネットワーク固有のパラメーターを追加した場合は、検索、ソーシャル、Commerceの同等のパラメーターに置き換えることができます。<br><br> 最終 URL を持つアカウントの場合、この列には「ベース URL/最終 URL」列と同じ値が表示されます。<br><br> キーワードまたはプレースメントレベルの宛先 URL は、広告レベルの URL を上書きします。 |
-| [!UICONTROL Tracking Template] | オプション | オプション | オプション | オプション | オプション | （任意） トラッキングテンプレートまたはトラッキング URL。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終/ランディングページの URL をパラメーターに埋め込みます。 パラメーター `!{lpurl}` を使用して、ランディングページ URL を指定します。 例：リダイレクトを含めるには、`{lpurl}?source={network}&id=5` または `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` を指定します。<br><br> オプションで、サードパーティのリダイレクトとトラッキングを追加できます。<br><br> キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertisingコンバージョントラッキングの場合、検索、ソーシャルおよびCommerceでは、レコードを保存すると、独自のリダイレクトおよびトラッキングコードが自動的にプレフィックス付けされます。<br><br> 最も詳細なレベルの追跡テンプレートは、それより上のすべてのレベルの値を上書きします。 例えば、アカウント設定とキーワード設定の両方に値が含まれている場合、キーワード値が適用されます。 |
+| [!UICONTROL Tracking Template] | オプション | オプション | オプション | オプション | オプション | （任意） トラッキングテンプレートまたはトラッキング URL。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終/ランディングページの URL をパラメーターに埋め込みます。 パラメーター `!{lpurl}` を使用して、ランディングページ URL を指定します。 例：リダイレクトを含めるには、`{lpurl}?source={network}&id=5` または `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` を指定します。<br><br> オプションで、サードパーティのリダイレクトとトラッキングを追加できます。<br><br> キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertising コンバージョントラッキングの場合、検索、ソーシャルおよびCommerceでは、レコードを保存すると、独自のリダイレクトおよびトラッキングコードが自動的にプレフィックス付けされます。<br><br> 最も詳細なレベルの追跡テンプレートは、それより上のすべてのレベルの値を上書きします。 例えば、アカウント設定とキーワード設定の両方に値が含まれている場合、キーワード値が適用されます。 |
 | [!UICONTROL Campaign Status] | オプション：作成または編集 <br><br> 必須：削除 | 該当なし | 該当なし | 該当なし | 該当なし | キャンペーンの表示ステータス：*[!UICONTROL Active]* （新規キャンペーンのデフォルト）、*[!UICONTROL Paused]*、*[!UICONTROL Ended]* （既存のキャンペーンのみ）または *[!UICONTROL Deleted]* （既存のキャンペーンのみ）。 |
 | [!UICONTROL Ad Group Status] | 該当なし | オプション：作成または編集 <br><br> 必須：削除 | 該当なし | 該当なし | 該当なし | 広告グループの表示ステータス：  *[!UICONTROL Active]*、*[!UICONTROL Paused]*、*[!UICONTROL Deleted]* （既存の広告グループのみ）。 新しい広告グループのデフォルトは [!UICONTROL Active] です。 アクティブまたは一時停止されている広告グループを削除するには、値 `Deleted` を入力します。 |
 | [!UICONTROL Keyword Status] | 該当なし | 該当なし | オプション：作成または編集 <br><br> 必須：削除 | 該当なし | 該当なし | キーワードの表示ステータス：*[!UICONTROL Active]*、*[!UICONTROL Deleted]* （既存のキーワードのみ）、*[!UICONTROL Disapproved]* （編集不可）、*[!UICONTROL Paused]* （既存のキーワードのみ）、*[!UICONTROL Pending]* （編集不可）。 新しいキーワードのデフォルトは [!UICONTROL Active] です。 キーワードを削除するには、値 `Deleted` を入力します。 |
@@ -69,7 +59,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 | [!UICONTROL Ad Group ID] | 該当なし | なし：作成 <br><br> 必須/オプション：編集または削除 | オプション | オプション | 該当なし | 既存の広告グループを識別する一意の ID。 CSV および TSV ファイルでは、一重引用符（`'`）で始める必要があります。[^1] 行に広告グループの「[!UICONTROL AMO ID]」が含まれていない限り、広告グループ名を変更する場合にのみ必要です。 |
 | [!UICONTROL Keyword ID] | 該当なし | 該当なし | 該当なし：作成 <br><br> 必須/オプション：編集 <br><br> 必須：削除 | 該当なし | 該当なし | 既存のキーワードを識別する一意の ID。 CSV および TSV ファイルでは、一重引用符（`'`）で始める必要があります。[^1] 行に a） キーワードを識別するのに十分なプロパティ列、または b）「[!UICONTROL AMO ID]」が含まれていない限り、キーワードを編集または削除する場合にのみ必要です。 |
 | [!UICONTROL Ad ID] | 該当なし | 該当なし | 該当なし | なし：作成 <br><br> 必須/オプション：編集または削除 | 該当なし | 既存の広告を識別する一意の ID。 CSV および TSV ファイルでは、一重引用符（`'`）で始める必要があります。[^1] レスポンシブ検索広告の場合、広告データを編集または削除するには [!UICONTROL Ad ID] または [!UICONTROL AMO ID] が必要です。 その他のすべてのエンティティタイプでは、[!UICONTROL AMO ID] は、広告ステータスを変更した場合にのみ必要です。ただし、行に（a）広告を識別するのに十分な広告プロパティ列、または（b）「[!UICONTROL AMO ID]」が含まれる場合を除きます。 ただし、[!UICONTROL Ad ID] も [!UICONTROL AMO ID] も含まれず、広告プロパティ列が複数の広告に一致する場合、1 つの広告のステータスのみが変更されます。<br><br><b> メモ：</b> 編集する場合、a）既存の広告を除く広告プロパティ列 [!UICONTROL Status]、または b）レスポンシブ検索広告のデータが含まれ、[!UICONTROL Ad ID] も [!UICONTROL AMO ID] も指定されていない場合、新しい広告が作成され、既存の広告は変更されません。 |
-| [!UICONTROL AMO ID] | なし：作成 <br><br> オプション：編集または削除 | なし：作成 <br><br> オプション：編集または削除 | なし：作成 <br><br> オプション：編集または削除 | なし：作成 <br><br> オプション：編集または削除 | 該当なし | （生成されたバルクシート内）同期されたエンティティの [!DNL Adobe] 生成された一意の ID。 レスポンシブ検索広告の場合は、[!UICONTROL Ad ID] を含めない限り、広告を編集または削除するには [!UICONTROL AMO ID] が必要です。 [!UICONTROL AMO ID] を持つ他のすべてのエンティティタイプのデータを編集するには、エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために [!UICONTROL AMO ID] が必要です。<br><br> 検索、ソーシャル、Commerceでは、値を使用して編集する正しい ID が判断されますが、ID は広告ネットワークに投稿されません。 |
+| [!UICONTROL AMO ID] | なし：作成 <br><br> オプション：編集または削除 | なし：作成 <br><br> オプション：編集または削除 | なし：作成 <br><br> オプション：編集または削除 | なし：作成 <br><br> オプション：編集または削除 | 該当なし | （生成されたバルクシート内）同期されたエンティティの [!DNL Adobe] 生成された一意の ID。 レスポンシブ検索広告の場合は、[!UICONTROL AMO ID] を含めない限り、広告を編集または削除するには [!UICONTROL Ad ID] が必要です。 [!UICONTROL AMO ID] を持つ他のすべてのエンティティタイプのデータを編集するには、エンティティ ID と親エンティティ ID を含めない限り、データを編集または削除するために [!UICONTROL AMO ID] が必要です。<br><br> 検索、ソーシャル、Commerceでは、値を使用して編集する正しい ID が判断されますが、ID は広告ネットワークに投稿されません。 |
 | [!UICONTROL EF Error Message] | 該当なし | 該当なし | 該当なし | 該当なし | 該当なし | （情報提供のために生成されたバルクシートに含まれる）行のデータに関する検索、ソーシャル、Commerceのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは [!UICONTROL EF Errors] ファイルに含まれます。 この値は広告ネットワークに投稿されません。 |
 | [!UICONTROL SE Error Message] | 該当なし | 該当なし | 該当なし | 該当なし | 該当なし | （情報提供のために生成されたバルクシートに含まれる）行内のデータに関する広告ネットワークのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは [!UICONTROL SE Errors] ファイルに含まれます。 この値は広告ネットワークに投稿されません。 |
 
@@ -77,9 +67,9 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 付録 – バルクシート エラー &#x200B;](../bulksheet-errors.md)
->* [&#x200B; バルクシートで実行できる操作 &#x200B;](bulksheet-operations.md)
->* [&#x200B; サポートされるバルクシート ファイル形式 &#x200B;](bulksheet-file-formats.md)
->* [&#x200B; バルクシートファイルのダウンロード/作成 &#x200B;](../bulksheet-download.md)
->* [&#x200B; のクリック追跡形式  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
->* [&#x200B; バルクシートファイルまたは修正されたエラーファイルのアップロード &#x200B;](../bulksheet-upload.md)
+>* [ 付録 – バルクシート エラー ](../bulksheet-errors.md)
+>* [ バルクシートで実行できる操作 ](bulksheet-operations.md)
+>* [ サポートされるバルクシート ファイル形式 ](bulksheet-file-formats.md)
+>* [ バルクシートファイルのダウンロード/作成 ](../bulksheet-download.md)
+>* [ のクリック追跡形式  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
+>* [ バルクシートファイルまたは修正されたエラーファイルのアップロード ](../bulksheet-upload.md)

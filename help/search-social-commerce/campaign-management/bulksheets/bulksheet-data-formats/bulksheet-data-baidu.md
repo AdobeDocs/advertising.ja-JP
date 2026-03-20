@@ -3,7 +3,7 @@ title: アカウントに必須のバルクシート デ  [!DNL Baidu]  タ
 description: アカウントのバルクシートで、必須のヘッダーフィールドとデータフィ  [!DNL Baidu]  ルドを参照します。
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '1964'
 ht-degree: 0%
@@ -12,19 +12,9 @@ ht-degree: 0%
 
 # 付録 – [!DNL Baidu] アカウントに必須のバルクシートデータ
 
-キャンペーンデータ [!DNL Baidu] 一括で作成および更新するには、[!DNL Baidu] アカウント用に特別にフォーマットされた検索、ソーシャル、Commerceのバルクシートファイルを使用できます。 a） [&#x200B; 既存のアカウント用のバルクシートファイルを必要なファイル形式で生成する &#x200B;](../bulksheet-download.md) または b）手動で作成できます（サポートされるファイル形式について詳しくは、「[&#x200B; サポートされるバルクシートファイル形式 &#x200B;](bulksheet-file-formats.md)」を参照してください）。
+キャンペーンデータ [!DNL Baidu] 一括で作成および更新するには、[!DNL Baidu] アカウント用に特別にフォーマットされた検索、ソーシャル、Commerceのバルクシートファイルを使用できます。 a） [ 既存のアカウント用のバルクシートファイルを必要なファイル形式で生成する ](../bulksheet-download.md) または b）手動で作成できます（サポートされるファイル形式について詳しくは、「[ サポートされるバルクシートファイル形式 ](bulksheet-file-formats.md)」を参照してください）。
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), Ad Serving (Baidu),Ad Group Name,Max CPC,Keyword,Match Type,Ad Title,Description Line 1,Description Line 2,Display URL,Base URL,Destination URL,Custom URL Param,Campaign Status,Ad Group Status,Keyword Status,Ad Status,Location Status,[Advertiser-specific Label Classification],Campaign ID,Ad Group ID,Keyword ID,Ad ID,AMO ID,Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
 
 ## 使用可能なデータフィールド
 
@@ -32,7 +22,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 
 >[!TIP]
 >
->次の表は幅が広いです。 表示領域を拡大するには、左側のウィンドウの上部にある ![&#x200B; 左側のウィンドウ枠を非表示にする &#x200B;](/help/dsp/assets/hide-left-pane.png " 左側のウィンドウ枠を非表示にする ") をクリックし、右側のウィンドウ枠の上部にある ![右側のウィンドウを非表示](/help/dsp/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次と右側のウィンドウ枠を一時的に非表示にします。 テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示することもできます。
+>次の表は幅が広いです。 表示領域を拡大するには、左側のウィンドウの上部にある ![ 左側のウィンドウ枠を非表示にする ](/help/dsp/assets/hide-left-pane.png " 左側のウィンドウ枠を非表示にする ") をクリックし、右側のウィンドウ枠の上部にある ![右側のウィンドウを非表示](/help/dsp/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次と右側のウィンドウ枠を一時的に非表示にします。 テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示することもできます。
 
 | フィールド | キャンペーン | 広告グループ | キーワード | テキスト広告 | 場所のターゲット | 説明 |
 |----|----|----|----|----|----|----|
@@ -73,9 +63,9 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 付録 – バルクシート エラー &#x200B;](../bulksheet-errors.md)
->* [&#x200B; バルクシートで実行できる操作 &#x200B;](bulksheet-operations.md)
->* [&#x200B; サポートされるバルクシート ファイル形式 &#x200B;](bulksheet-file-formats.md)
->* [&#x200B; バルクシートファイルのダウンロード/作成 &#x200B;](../bulksheet-download.md)
->* [&#x200B; のクリック追跡形式  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
->* [&#x200B; バルクシートファイルまたは修正されたエラーファイルのアップロード &#x200B;](../bulksheet-upload.md)
+>* [ 付録 – バルクシート エラー ](../bulksheet-errors.md)
+>* [ バルクシートで実行できる操作 ](bulksheet-operations.md)
+>* [ サポートされるバルクシート ファイル形式 ](bulksheet-file-formats.md)
+>* [ バルクシートファイルのダウンロード/作成 ](../bulksheet-download.md)
+>* [ のクリック追跡形式  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
+>* [ バルクシートファイルまたは修正されたエラーファイルのアップロード ](../bulksheet-upload.md)

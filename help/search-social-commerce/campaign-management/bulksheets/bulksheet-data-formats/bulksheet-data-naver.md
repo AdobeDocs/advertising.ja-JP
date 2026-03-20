@@ -3,7 +3,7 @@ title: アカウントに必須のバルクシート デ  [!DNL Naver]  タ
 description: アカウントのバルクシートで、必須のヘッダーフィールドとデータフィ  [!DNL Naver]  ルドを参照します。
 exl-id: 1bfcdbb6-8026-4230-ab6b-b7c79b0d185a
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 0%
@@ -15,16 +15,6 @@ ht-degree: 0%
 [!DNL Naver] 内にバルクシートファイルを生成し、検索、ソーシャル、Commerceにアップロードすることで、検索、ソーシャル、Commerceに [!DNL Naver] アカウントを入力します。
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Ad Group Name,Keyword,Base URL,Destination URL,[Advertiser-specific Label Classification],Constraints,Campaign Status,Ad Group Status,Keyword Status,Campaign ID,Ad Group ID,Keyword ID,AMO ID,Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
 
 ## 使用可能なデータフィールド
 
@@ -55,10 +45,10 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Keyword,Base URL,Destination URL,
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 付録 – バルクシート エラー &#x200B;](../bulksheet-errors.md)
->* [&#x200B; バルクシートで実行できる操作 &#x200B;](bulksheet-operations.md)
->* [&#x200B; サポートされるバルクシート ファイル形式 &#x200B;](bulksheet-file-formats.md)
->* [&#x200B; バルクシートファイルのダウンロード/作成 &#x200B;](../bulksheet-download.md)
->* [&#x200B; のクリック追跡形式  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
->* [&#x200B; バルクシートファイルまたは修正されたエラーファイルのアップロード &#x200B;](../bulksheet-upload.md)
->* [&#x200B; 実装  [!DNL Naver]  トラッキング専用アカウント &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [ 付録 – バルクシート エラー ](../bulksheet-errors.md)
+>* [ バルクシートで実行できる操作 ](bulksheet-operations.md)
+>* [ サポートされるバルクシート ファイル形式 ](bulksheet-file-formats.md)
+>* [ バルクシートファイルのダウンロード/作成 ](../bulksheet-download.md)
+>* [ のクリック追跡形式  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
+>* [ バルクシートファイルまたは修正されたエラーファイルのアップロード ](../bulksheet-upload.md)
+>* [ 実装  [!DNL Naver]  トラッキング専用アカウント ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
