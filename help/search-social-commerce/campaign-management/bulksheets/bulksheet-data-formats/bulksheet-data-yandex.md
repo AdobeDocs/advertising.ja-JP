@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 付録 – [!DNL Yandex] アカウントに必須のバルクシートデータ
 
-キャンペーンデータ [!DNL Yandex] 一括で作成および更新するには、[!DNL Yandex] アカウント用に特別にフォーマットされた検索、ソーシャル、Commerceのバルクシートファイルを使用できます。 a） [ 既存のアカウント用のバルクシートファイルを必要なファイル形式で生成する ](../bulksheet-download.md) または b）手動で作成できます（サポートされるファイル形式について詳しくは、「[ サポートされるバルクシートファイル形式 ](bulksheet-file-formats.md)」を参照してください）。
+キャンペーンデータ [!DNL Yandex] 一括で作成および更新するには、[!DNL Yandex] アカウント用に特別にフォーマットされた検索、ソーシャル、Commerceのバルクシートファイルを使用できます。 a） [&#x200B; 既存のアカウント用のバルクシートファイルを必要なファイル形式で生成する &#x200B;](../bulksheet-download.md) または b）手動で作成できます（サポートされるファイル形式について詳しくは、「[&#x200B; サポートされるバルクシートファイル形式 &#x200B;](bulksheet-file-formats.md)」を参照してください）。
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->次の表は幅が広いです。 表示領域を拡大するには、左側のウィンドウの上部にある ![ 左側のウィンドウ枠を非表示にする ](/help/dsp/assets/hide-left-pane.png " 左側のウィンドウ枠を非表示にする ") をクリックし、右側のウィンドウ枠の上部にある ![右側のウィンドウを非表示](/help/dsp/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次と右側のウィンドウ枠を一時的に非表示にします。 テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示することもできます。
+>次の表は幅が広いです。 表示領域を拡大するには、左側のウィンドウの上部にある ![&#x200B; 左側のウィンドウ枠を非表示にする &#x200B;](/help/dsp/assets/hide-left-pane.png " 左側のウィンドウ枠を非表示にする ") をクリックし、右側のウィンドウ枠の上部にある ![右側のウィンドウを非表示](/help/dsp/assets/hide-right-pane.png "右側のウィンドウを非表示") をクリックして、目次と右側のウィンドウ枠を一時的に非表示にします。 テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示することもできます。
 
 | フィールド | キャンペーン | 広告グループ | キーワード | テキスト広告 | Sitelink | 説明 |
 |----|----|-----|-----|----|----|----|
@@ -52,7 +52,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Group Status] | 該当なし | オプション：作成または編集 <br> 必須：削除 | 該当なし | 該当なし | 該当なし | 広告グループの表示ステータス：<i>[!UICONTROL active]</i>、<i>[!UICONTROL archived]</i>、<i>[!UICONTROL deleted]</i>、<i>[!UICONTROL disapproved]</i>、<i>[!UICONTROL pending]</i>、<i>[!UICONTROL stop]</i> （一時停止）。 新しい広告グループのデフォルトは <i>[!UICONTROL active]</i> です。<br><br><b> 注：</b><ul></li>アクティブになっていたことのある広告グループは削除できません。 代わりに、アーカイブします。</li><li>ステータスを手動で <i>[!UICONTROL disapproved]</i> または <i>[!UICONTROL pending]</i> に設定したり、それらのステータスを変更したりすることはできません。</li></ul> |
 | [!UICONTROL Ad Status] | 該当なし | 該当なし | 該当なし | オプション：作成または編集 <br> 必須：削除 | 該当なし | バナー（広告）の表示ステータス：<i>[!UICONTROL active]</i>、<i>[!UICONTROL archived]</i>、<i>[!UICONTROL deleted]</i>、<i>[!UICONTROL disapproved]</i>、<i>[!UICONTROL pending]</i> または <i>[!UICONTROL stop]</i> （一時停止） 新しいバナーのデフォルトは <i>[!UICONTROL active]</i> です。<br><br><b> メモ：手動でステータスを <i>[!UICONTROL disapproved]</i> または <i>[!UICONTROL pending]</i> に設定したり、それらのステータスを変更したりすることはできません。 |
 | [!UICONTROL Keyword Status] | 該当なし | 該当なし | オプション：作成または編集 <br> 必須：削除 | 該当なし | 該当なし | フレーズ（キーワード）の表示ステータス：<i>[!UICONTROL active]</i>。 新しいフレーズのデフォルトは <i>[!UICONTROL active]</i> です。<br><br><b> メモ：手動でステータスを <i>[!UICONTROL disapproved]</i> または <i>[!UICONTROL pending]</i> に設定したり、それらのステータスを変更したりすることはできません。 |
-| [!UICONTROL SiteLink Status] | 該当なし | 該当なし | 該当なし | 該当なし | オプション：作成または編集 <br> 必須：削除 | サイトリンクの表示ステータス：<i>[*UICONTROL Active]</i> または <i>[*UICONTROL Paused]</i> 新しいサイトリンクのデフォルトは <i>[*UICONTROL Active]</i> です。 |
+| [!UICONTROL SiteLink Status] | 該当なし | 該当なし | 該当なし | 該当なし | オプション：作成または編集 <br> 必須：削除 | サイトリンクの表示ステータス：<i>[!UICONTROL * Active]</i> または <i>[!UICONTROL * Paused]</i> 新しいサイトリンクのデフォルトは <i>[!UICONTROL * Active]</i> です。 |
 | [!UICONTROL Campaign ID] | 該当なし：作成 <br> 必須/オプション：編集 <br> オプション：削除 | オプション | オプション | オプション | オプション | 既存のキャンペーンを識別する一意の ID。 CSV および TSV ファイルでは、一重引用符（&#39;）で始める必要があります。[^1] 行にキャンペーンの AMO ID が含まれていない限り、キャンペーン名を変更する場合にのみ必要です。 |
 | [!UICONTROL Ad Group ID] | 該当なし | 該当なし：作成 <br> 必須/オプション：編集 <br> オプション：削除 | オプション | オプション | 該当なし | 既存の広告グループを識別する一意の ID。 CSV および TSV ファイルでは、一重引用符（&#39;）で始める必要があります。[^1] 行に広告グループの AMO ID が含まれていない限り、広告グループ名を変更する場合にのみ必要です。 |
 | [!UICONTROL Ad ID] | 該当なし | 該当なし | 該当なし | なし：作成 <br> 必須/オプション：編集または削除 | 該当なし | 既存のキーワードを識別する一意の ID。 CSV および TSV ファイルでは、一重引用符（&#39;）で始める必要があります。[^1] キーワード名を変更する場合にのみ必須です。ただし、行に（a） キーワードを識別するのに十分なプロパティ列、または（b） AMO ID が含まれる場合を除きます。 |
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 付録 – バルクシート エラー ](../bulksheet-errors.md)
->* [ バルクシートで実行できる操作 ](bulksheet-operations.md)
->* [ サポートされるバルクシート ファイル形式 ](bulksheet-file-formats.md)
->* [ バルクシートファイルのダウンロード/作成 ](../bulksheet-download.md)
->* [ のクリック追跡形式  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
->* [ バルクシートファイルまたは修正されたエラーファイルのアップロード ](../bulksheet-upload.md)
+>* [&#x200B; 付録 – バルクシート エラー &#x200B;](../bulksheet-errors.md)
+>* [&#x200B; バルクシートで実行できる操作 &#x200B;](bulksheet-operations.md)
+>* [&#x200B; サポートされるバルクシート ファイル形式 &#x200B;](bulksheet-file-formats.md)
+>* [&#x200B; バルクシートファイルのダウンロード/作成 &#x200B;](../bulksheet-download.md)
+>* [&#x200B; のクリック追跡形式  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
+>* [&#x200B; バルクシートファイルまたは修正されたエラーファイルのアップロード &#x200B;](../bulksheet-upload.md)

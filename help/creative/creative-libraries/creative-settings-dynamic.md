@@ -38,7 +38,7 @@ ht-degree: 0%
 
 続行するには、[**[!UICONTROL Select Ad Template]**] をクリックします。
 
-**[!UICONTROL Size]:** （動的なディスプレイ広告のみ。読み取り専用）選択した広告テンプレートの [ 広告ディメンション ](/help/creative/creative-libraries/creative-sizes.md)。広告の作成に使用されます。
+**[!UICONTROL Size]:** （動的なディスプレイ広告のみ。読み取り専用）選択した広告テンプレートの [&#x200B; 広告ディメンション &#x200B;](/help/creative/creative-libraries/creative-sizes.md)。広告の作成に使用されます。
 
 **[!UICONTROL Card Count (Max 50)]:** （広告の表示のみ） カルーセルに表示する製品の数。
 
@@ -66,6 +66,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ クリエイティブライブラリへのダイナミッククリエイティブの追加 ](creative-add-dynamic.md)
->* [ クリエイティブライブラリ内のダイナミッククリエイティブの編集 ](creative-edit-dynamic.md)
->* [ 動的広告のワークフロー ](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [&#x200B; クリエイティブライブラリへのダイナミッククリエイティブの追加 &#x200B;](creative-add-dynamic.md)
+>* [&#x200B; クリエイティブライブラリ内のダイナミッククリエイティブの編集 &#x200B;](creative-edit-dynamic.md)
+>* [&#x200B; 動的広告のワークフロー &#x200B;](/help/creative/introduction/workflow-dynamic-ads.md)
