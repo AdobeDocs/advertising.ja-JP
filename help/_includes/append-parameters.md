@@ -9,7 +9,7 @@ ht-degree: 0%
 
 **[!UICONTROL Append Parameters]:** （オプション）ベース URLに追加する追加のトラッキングパラメーター。<!-- When account uses setting append_param_to_tt_fus, then we add append parameters to the tracking templates OR the landing page suffixes instead (not sure how we determine which) -->。 広告主レベルの追加パラメーターは、デフォルトでアカウントレベルとキャンペーンレベルに含まれていますが、どちらかを上書きできます。
 
-サードパーティのトラッキングパラメーターを含む任意の静的テキスト文字列、またはベース URLに適切なデータ値を挿入する[ サポートされているトラッキングパラメーター](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)のいずれかを使用できます。
+サードパーティのトラッキングパラメーターを含む任意の静的テキスト文字列、またはベース URLに適切なデータ値を挿入する[&#x200B; サポートされているトラッキングパラメーター](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)のいずれかを使用できます。
 
 複数のパラメーターは、コンマまたはアンパサンド（&amp;）で区切ります。 ネストされた角括弧はサポートされていません。
 

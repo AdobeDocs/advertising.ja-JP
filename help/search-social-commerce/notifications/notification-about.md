@@ -44,11 +44,11 @@ ht-degree: 0%
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**: [ バルクシート操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)が完了または失敗したことを通知します。
+   * **[!UICONTROL Bulksheets]**: [&#x200B; バルクシート操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)が完了または失敗したことを通知します。
 
-   * **[!UICONTROL Manager Account Missing]**: Search, Social, &amp; Commerceに[ad network manager アカウント ](/help/search-social-commerce/admin/manager-accounts.md)の資格情報が欠落していることを知らせる通知。重要な機能を正しく設定するために必要です。
+   * **[!UICONTROL Manager Account Missing]**: Search, Social, &amp; Commerceに[ad network manager アカウント &#x200B;](/help/search-social-commerce/admin/manager-accounts.md)の資格情報が欠落していることを知らせる通知。重要な機能を正しく設定するために必要です。
 
-   * **[!UICONTROL UI Actions]**：バックグラウンドで実行されたジョブが完了または失敗したことを通知します。 ジョブタイプには、[ バルクシートジョブ ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、データテーブル内の一括編集ジョブ、またはツールバー、エンティティ割り当てジョブ、ユーザーインターフェイス内のその他のアクション（広告ネットワークとの同期、行のペースト、エンティティの名前の変更など）が含まれます。 エンティティの割り当ては、任意のエンティティに[ ラベル分類値](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)を割り当てまたは割り当て解除すること、ポートフォリオにキャンペーンを割り当てること、ポートフォリオに制約を割り当てまたは割り当て解除することを含みます。<!--Link "constraint" to constraint-about.md if that file is ever public -->
+   * **[!UICONTROL UI Actions]**：バックグラウンドで実行されたジョブが完了または失敗したことを通知します。 ジョブタイプには、[&#x200B; バルクシートジョブ &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、データテーブル内の一括編集ジョブ、またはツールバー、エンティティ割り当てジョブ、ユーザーインターフェイス内のその他のアクション（広告ネットワークとの同期、行のペースト、エンティティの名前の変更など）が含まれます。 エンティティの割り当ては、任意のエンティティに[&#x200B; ラベル分類値](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)を割り当てまたは割り当て解除すること、ポートフォリオにキャンペーンを割り当てること、ポートフォリオに制約を割り当てまたは割り当て解除することを含みます。<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
    * [!UICONTROL Data Upload]
 
@@ -60,9 +60,9 @@ ht-degree: 0%
 
       * **[!UICONTROL Account Auth Error]**：資格情報が無効であるか、認証トークンが無効または期限切れであることが原因で、Search, Social, &amp; Commerceが[ad network account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)にアクセスできなかったことを知らせる通知。
 
-      * **[!UICONTROL Account Missing]**: Search, Social, &amp; Commerceに[広告ネットワークアカウント ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)の資格情報が欠落していることを知らせる通知。
+      * **[!UICONTROL Account Missing]**: Search, Social, &amp; Commerceに[広告ネットワークアカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)の資格情報が欠落していることを知らせる通知。
 
-      * **[!UICONTROL Manager Account Auth Error]**：資格情報が無効であるか、認証トークンが無効または期限切れであることが原因で、Search, Social, &amp; Commerceが[ad network manager アカウント ](/help/search-social-commerce/admin/manager-accounts.md)と同期できなかった通知。
+      * **[!UICONTROL Manager Account Auth Error]**：資格情報が無効であるか、認証トークンが無効または期限切れであることが原因で、Search, Social, &amp; Commerceが[ad network manager アカウント &#x200B;](/help/search-social-commerce/admin/manager-accounts.md)と同期できなかった通知。
 
   <!--
   * [!UICONTROL Setup Errors]
@@ -76,11 +76,11 @@ ht-degree: 0%
 
    * **[!UICONTROL Advertising Insights]**: [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md)が完了または失敗したことを通知します。
 
-   * **[!UICONTROL Custom Alerts]**: アラートテンプレートに対して[ アラートインスタンス ](/help/search-social-commerce/alerts/alert-about.md)がトリガーされたという通知。
+   * **[!UICONTROL Custom Alerts]**: アラートテンプレートに対して[&#x200B; アラートインスタンス &#x200B;](/help/search-social-commerce/alerts/alert-about.md)がトリガーされたという通知。
 
-   * **[!UICONTROL Reports]**: [ カスタムレポートまたはスケジュール済みレポート ](/help/search-social-commerce/reports/report-about.md)が完了または失敗したことを通知します。
+   * **[!UICONTROL Reports]**: [&#x200B; カスタムレポートまたはスケジュール済みレポート &#x200B;](/help/search-social-commerce/reports/report-about.md)が完了または失敗したことを通知します。
 
-   * **[!UICONTROL Spreadsheet Feeds]**: [ スプレッドシート フィード ](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)が完了または失敗したことを通知します。
+   * **[!UICONTROL Spreadsheet Feeds]**: [&#x200B; スプレッドシート フィード &#x200B;](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)が完了または失敗したことを通知します。
 
 <!--
 * [!UICONTROL Optimization]
@@ -106,8 +106,8 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [通知を表示](notification-view.md)
->* [通知を既読または未読としてマーク ](notification-mark-read-unread.md)
+>* [通知を既読または未読としてマーク &#x200B;](notification-mark-read-unread.md)
 >* [通知を削除](notification-delete.md)
 >* [通知設定を編集](notification-edit.md)
->* [ プッシュ通知を[!UICONTROL Notification Center]](notifications-push-enable-disable.md)から有効または無効にする
+>* [&#x200B; プッシュ通知を[!UICONTROL Notification Center]](notifications-push-enable-disable.md)から有効または無効にする
 >* [Web アプリケーション [!UICONTROL Notification Center]をインストールしてアンインストールする](notification-app-install-uninstall.md)

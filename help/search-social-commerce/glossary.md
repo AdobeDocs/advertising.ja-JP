@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **コンバージョントラッキング：** コンバージョントラッキングでは、Cookieを使用して、a）広告ネットワーク上の広告主の広告をクリックし、b）広告主のweb サイト上で発生したトランザクションを追跡します。
 
-**コストの正確性：** （ポートフォリオを持つ広告主） ポートフォリオの実際の支出を予測支出で割った値。 [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)は、最適化に使用されるコストモデルの精度を示し、[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)には、モデル精度を向上させるための推奨事項に加えて、より詳細な情報が含まれています。
+**コストの正確性：** （ポートフォリオを持つ広告主） ポートフォリオの実際の支出を予測支出で割った値。 [&#x200B; モデル精度レポート &#x200B;](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)は、最適化に使用されるコストモデルの精度を示し、[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)には、モデル精度を向上させるための推奨事項に加えて、より詳細な情報が含まれています。
 
 **コストモデル：** （ポートフォリオを持つ広告主）過去データと数学的な予測手法を使用して、コスト量、各ポジションまたはプレースメントを獲得するために必要な入札額、各入札単位のCPC （検索）またはCPM（ディスプレイ）を予測する検索、ソーシャル、およびCommerce テクノロジー。
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
-**半減期：**数量が初期値の半分に減少するのに必要な時間です。 各ポートフォリオについて、「半減期」を指定して、コストモデルや収益モデルに関連するデータの長さを示すことができます。
+**半減期：**&#x200B;数量が初期値の半分に減少するのに必要な時間です。 各ポートフォリオについて、「半減期」を指定して、コストモデルや収益モデルに関連するデータの長さを示すことができます。
 「コストモデル半減期」および「収益モデル半減期」を参照してください。
 
 ## I-J {#i-j}
@@ -165,7 +165,7 @@ ht-degree: 0%
 
 **投資収益率：** （ROI）収益からコストを差し引いた額。
 
-**収益精度：** （ポートフォリオを持つ広告主） ポートフォリオの実際の収益を予測収益で割った値。 [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)は、最適化に使用される収益モデルの精度を示し、[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)には、モデル精度を向上させるための推奨事項に加えて、より詳細な情報が含まれています。
+**収益精度：** （ポートフォリオを持つ広告主） ポートフォリオの実際の収益を予測収益で割った値。 [&#x200B; モデル精度レポート &#x200B;](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)は、最適化に使用される収益モデルの精度を示し、[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)には、モデル精度を向上させるための推奨事項に加えて、より詳細な情報が含まれています。
 
 **収益モデル：** （ポートフォリオを持つ広告主） クリックデータ （検索とソーシャル）またはインプレッションデータ （ディスプレイ）と広告主のコンバージョンデータに基づいて、各入札単位のコンバージョン率と推定リターンを予測するSearch, Social, &amp; Commerce テクノロジ。
 
