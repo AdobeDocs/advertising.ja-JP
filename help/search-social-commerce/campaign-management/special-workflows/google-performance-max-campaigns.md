@@ -1,45 +1,45 @@
 ---
-title: パフォ  [!DNL Google Ads]  マンス最大化キャンペーンの実装
-description: パフォーマンス最大化キャンペーンを設定するためのワークフロー  [!DNL Google Ads]  ついて説明します。
+title: パフォーマンスの最大キャンペーンを [!DNL Google Ads] 実装する
+description: 'パフォーマンスの最大キャンペーンを設定するワークフローについて説明します。 [!DNL Google Ads] '
 exl-id: 4208774c-e4dd-499d-987e-933fe073c04f
 feature: Search Campaign Management
-source-git-commit: 283fced2b3faa64b6383b6ab2a41696cba0da06f
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] パフォーマンス最大化キャンペーンの実装
+# パフォーマンスの最大数[!DNL Google Ads]件のキャンペーンを実装
 
-パフォ [!DNL Google Ads] マンス最大化キャンペーンでは、広告グループ、広告またはキーワードを設定しません。 代わりに、キャンペーン設定内で、ヘッドライン、説明、アップロードされた画像、ロゴおよび [!DNL YouTube videos] ータを含む、1 つ以上のアセットグループを指定します。 [!DNL Google Ads] では、アセットを自動的に組み合わせ、チャネル（[!DNL YouTube]、[!DNL Gmail]、[!DNL Search] など）に基づいて広告を提供します。
+[!DNL Google Ads] パフォーマンスの最大キャンペーンでは、広告グループ、広告、キーワードを設定していません。 代わりに、キャンペーン設定内で、見出し、説明、アップロードされた画像、ロゴ、および[!DNL YouTube videos]を含む1つ以上のアセットグループを指定します。 [!DNL Google Ads]は、チャネル （[!DNL YouTube]、[!DNL Gmail]、または[!DNL Search]など）に基づいて、アセットを自動的に組み合わせて広告を配信します。
 
-[!DNL Campaigns] ビューでは、既存の Performance MAX キャンペーンのパフォーマンスデータを表形式およびトレンドグラフ形式で表示できます。下位レベルではデータを利用できません。 また、キャンペーンレベルのパフォーマンスデータは、レポートやAdobe Analyticsでも入手することができます（[Analytics 統合を利用する広告主向け &#x200B;](/help/integrations/analytics/overview.md)。 [!DNL Analytics] で Performance MAX キャンペーンのパフォーマンスデータを表示するには、キャンペーンは [&#x200B; アップグレードされた AMO ID トラッキングコード &#x200B;](/help/integrations/analytics/ids.md#amo-id-formats) を使用する必要があります（これはキャンペーン ID と広告グループ ID をトラッキングします）。
+パフォーマンス データが表およびトレンドチャート形式の既存のパフォーマンス最大キャンペーンを[!DNL Campaigns] ビューで表示できます。データは下位レベルでは使用できません。 キャンペーンレベルのパフォーマンスデータは、レポートおよびAdobe Analyticsでも利用できます（[Analyticsとの統合](/help/integrations/analytics/overview.md)を持つ広告主向け）。 パフォーマンスの最大キャンペーンのパフォーマンスデータを[!DNL Analytics]で表示するには、キャンペーンで[ アップグレードされたAMO ID トラッキングコード ](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) （キャンペーン IDと広告グループ IDをトラッキング）を使用する必要があります。
 
 >[!NOTE]
 >
->* すべての画像ファイルを手動でアップロードする必要があります。 [!DNL Google Merchant Center] 製品フィードへのリンクはサポートされていません。
->* 必要な設定のみ使用できます。 オプション設定の場合は、[!DNL Google Ads] エディターにログインします。
->* グループの一覧表示はサポートされていません。 グループをリストするデータを管理および表示するには、[!DNL Google Ads] エディターにログインします。
+>* すべての画像ファイルを手動でアップロードする必要があります。 [!DNL Google Merchant Center]個の製品フィードへのリンクはサポートされていません。
+>* 必要な設定のみが使用できます。 オプションの設定については、[!DNL Google Ads] エディターにログインしてください。
+>* リストグループのサポートは利用できません。 リスト グループのデータを管理および表示するには、[!DNL Google Ads] エディターにログインします。
 
-## [!DNL Google Ads] Performance MAX キャンペーンの設定手順
+## [!DNL Google Ads] パフォーマンス最大キャンペーンを設定する手順
 
-[!UICONTROL Campaigns]/[!UICONTROL Campaigns] ビューから個別に Performance MAX キャンペーンを設定できます。
+パフォーマンスの最大キャンペーンは、[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューから個別に設定できます。
 
-1. キャンペーンタイプ **[!UICONTROL Performance Max]** の [&#x200B; キャンペーンを作成 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)。
+1. [ キャンペーンの種類](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)を含むキャンペーン **[!UICONTROL Performance Max]**&#x200B;を作成します。
 
-   [!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Campaign Targeting]、[!UICONTROL URL Options] を指定します。 必要に応じて、[!UICONTROL Negative Keywords] を入力し、[!UICONTROL Negative Websites] を入力するか、[!UICONTROL Campaign Tracking] のオプションを上書きします。
+   [!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Campaign Targeting]、[!UICONTROL URL Options]を指定します。 オプションで[!UICONTROL Negative Keywords]を入力し、[!UICONTROL Negative Websites]と入力するか、[!UICONTROL Campaign Tracking] オプションを上書きします。
 
 1. アセットグループを作成し、キャンペーン用のアセットをアップロードします。
 
    1. キャンペーン設定の下部にある「**[!UICONTROL Manage Asset Groups]**」をクリックします。
 
-   1. 最初のアセットグループの設定を指定し、そのアセットグループの画像、ロゴおよびオプションのビデオをアップロードします。
+   1. 最初のアセットグループの設定を指定し、アセットグループの画像、ロゴ、オプションのビデオをアップロードします。
 
-      要件と仕様については、[&#x200B; アセットグループ設定の説明 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) を参照してください。
+      要件と仕様については、[ アセットグループ設定の説明](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)を参照してください。
 
-   1. 必要に応じて、アセットグループを追加します。
+   1. 必要に応じてアセットグループを追加します。
 
-1. 「**[!UICONTROL Post]**」をクリックします。
+1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
-1. （任意）最適化のために、キャンペーンをハイブリッドポートフォリオに追加します。
+1. （オプション）最適化のためにキャンペーンをハイブリッドポートフォリオに追加します。

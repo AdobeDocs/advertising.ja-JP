@@ -1,7 +1,7 @@
 ---
-source-git-commit: 0cf325946fdc3852b8b94acb29678bf6c47227a0
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -9,56 +9,62 @@ ht-degree: 0%
 
 ## ADOBE ADVERTISING EF ID
 
-EF ID は、Adobe Advertisingがアクティビティをオンラインクリックや個々のブラウザーまたはデバイスレベルでの広告表示に関連付けるために使用する一意のトークンです。 EF ID は、主に、Adobe Advertising内のレポートと入札最適化のために、[!DNL Analytics] データとCustomer Journey Analytics データをAdobe Advertisingに送信するためのキーとして機能します。
+EF IDは、Adobe Advertisingがアクティビティを個々のブラウザーまたはデバイスレベルでオンラインクリックまたは広告露出に関連付けるために使用する一意のトークンです。 EF IDは、主に、[!DNL Analytics] データとCustomer Journey Analytics データをAdobe Advertisingに送信し、Adobe Advertising内でレポートと入札を最適化するためのキーとして機能します。
 
-[!DNL Analytics] の場合、EF ID は [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja) または [!DNL rVar] （予約 [!DNL eVar]）ディメンション（Adobe Advertising EF ID）に保存されます。
+[!DNL Analytics]の場合、EF IDは[an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)または[!DNL rVar] （予約済み[!DNL eVar]）ディメンション（Adobe Advertising EF ID）に保存されます。
 
-Customer Journey Analyticsの場合、EF ID は、`trackingIdentities` `conversionDetails` の一部である [&#x200B; オブジェクトの [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] プロパティに格納され &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) す。
+Customer Journey Analyticsの場合、EF IDは`trackingIdentities` オブジェクトの`conversionDetails` プロパティに格納されます。これは[the [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)の一部です。
 
-### EF ID 形式 {#ef-id-formats}
+### EF ID形式 {#ef-id-formats}
+
+「Adobe Analytics コンポーネントガイド」のEF ID ディメンション項目[の](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id#dimension-items)形式を参照してください。
 
 >[!NOTE]
 >
->EF ID では大文字と小文字が区別されます。 [!DNL Analytics] またはCustomer Journey Analyticsの実装によって URL トラッキングが強制的に小文字に変換される場合、Adobe Advertisingは EF ID を認識しません。 これは、Adobe Advertisingの入札とレポートに影響しますが、[!DNL Analytics] またはCustomer Journey Analytics内のAdobe Advertising レポートには影響しません。
+>EF IDでは、大文字と小文字が区別されます。 [!DNL Analytics]またはCustomer Journey Analyticsの実装でURL トラッキングが小文字に強制される場合、Adobe AdvertisingはEF IDを認識しません。 これはAdobe Advertisingの入札とレポートに影響しますが、[!DNL Analytics]またはCustomer Journey Analytics内のAdobe Advertising レポートには影響しません。
 
-#### [!DNL Google Ads] 検索広告
+<!-- Legacy content:
+
+#### [!DNL Google Ads] search ads
 
 ```
 {gclid}:G:s
 ```
 
-ここで、
+where:
 
-* `gclid` は [!DNL Google Click ID] （GCLID）です。
-* `s` はネットワークの種類（検索用は&quot;s&quot;）です。
+* `gclid` is the [!DNL Google Click ID] (GCLID).
+* `s` is the network type ("s" for search).
 
-#### [!DNL Microsoft Advertising] 検索広告
+#### [!DNL Microsoft Advertising] search ads
 
 ```
 {msclkid}:G:s
 ```
 
-ここで、
+where:
 
-* `msclkid` は [!DNL Microsoft Click ID] （MSCLKID）です。
-* `s` はネットワークの種類（検索用は&quot;s&quot;）です。
+* `msclkid` is the [!DNL Microsoft Click ID] (MSCLKID).
+* `s` is the network type ("s" for search).
 
-#### 他の検索エンジンでの広告および検索広告の表示
+#### Display ads and search ads on other search engines 
 
 ```
 <Adobe Advertising visitor ID>:<timestamp>:<channel type>
 ```
 
-ここで、
+where:
 
-* &lt;*Adobe Advertising訪問者 ID*> は、訪問者ごとの一意の ID です（UhKVaAABCkJ0mDt など）。 「*surfer ID*」とも呼ばれる。
+* <*Adobe Advertising visitor ID*> is a unique ID per visitor (such as UhKVaAAABCkJ0mDt). Also called the *surfer ID*.
 
-* &lt;*timestamp*> は、YYYYMMDDHHMMSS 形式の時刻（2019 年、08 月、21 日、19:25:33 日の 20190821192533 など）です。
+* <*timestamp*> is the time in the format YYYYMMDDHHMMSS (such as 20190821192533 for Year 2019, Month 08, Day 21, Time 19:25:33).
 
-* &lt;*channel type*> は、クリックまたは露出を行うチャネルのタイプです。
+* <*channel type*> is the channel type responsible for the click or exposure:
 
-   * DSP ディスプレイ広告のクリックを `d` す（表示のクリックスルー）
-   * DSP ディスプレイ広告のインプレッションの `i` ール（ビュースルーの表示）
-   * 検索広告を `s` リックします（検索クリックスルー）。
+    * `d` for a click on a DSP display ad (display click-through)
+    * `i` for an impression of a DSP display ad (display view-through)
+    * `s` for a click on a Search ad (search click-through).
 
-例 `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
+Example `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
+
+-->

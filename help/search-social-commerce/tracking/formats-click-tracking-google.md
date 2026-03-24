@@ -1,24 +1,24 @@
 ---
-title: ' [!DNL Google Ads] のクリック追跡形式'
-description: アカウントのクリック追跡形式について説明  [!DNL Google Ads]  ます。
+title: ' [!DNL Google Ads]のクリックトラッキング形式'
+description: ' [!DNL Google Ads]  アカウントのクリックトラッキング形式について説明します。'
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] のクリック追跡形式
+# [!DNL Google Ads]のクリックトラッキング形式
 
-検索、ソーシャル、Commerceでア [!DNL Google Ads] ットに必要な基本トラッキングテンプレートとランディングページのサフィックス（最終的な URL のサフィックス）の形式は次のとおりです。
+次に、Search、Social、およびCommerceで[!DNL Google Ads]に必要な基本トラッキングテンプレートとランディングページのサフィックス（最終URL サフィックス）形式を示します。
 
-## トラッキングテンプレート形式
+## テンプレート形式のトラッキング
 
-### ネットワークの検索/表示（サイトリンクを含む）
+### サイトリンクを含む検索/表示ネットワーク
 
-次の形式は、検索および表示ネットワーク上のすべての追跡可能な広告タイプと、サイトリンクに適用されます。
+次の形式は、検索および表示ネットワーク上のすべての追跡可能な広告タイプ、およびサイトリンクに適用されます。
 
 `https://pixel.everesttech.net/<advertiser_ID>/cq?ev_sid=3&ev_ln={keyword}&ev_lx={targetid}&ev_crx={creative}&ev_mt={matchtype}&ev_n={network}&ev_ltx={_evltx}&ev_pl={placement}&ev_pos={adposition}&ev_dvc={device}&ev_dvm={devicemodel}&ev_phy={loc_physical_ms}&ev_loc={loc_interest_ms}&ev_cx={campaignid}&ev_ax={adgroupid}&ev_efid={gclid}:G:s&url={<Google ValueTrack parameter for the final URL>}`
 
@@ -28,23 +28,23 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` は、Adobe Advertising内での広告主の一意の ID の変数です。
+>* `<advertiser_ID>`は、Adobe Advertising内の広告主の一意のIDの変数です。
 >
->* この形式は、キャンペーンに対してトークン受け渡しが有効になっている（デフォルト）ことを示します。 トークン受け渡しが無効な場合、`cq?` の後に `<advertiser_ID>` を `c?` で置き換えます。
+>* この形式は、キャンペーンに対してトークン渡しが有効になっていることを示します（デフォルト）。 トークンの渡しが無効な場合は、`cq?`の後の`<advertiser_ID>`を`c?`に置き換えます。
 >
->* トラッキングテンプレート内の最終 URL を示す [!DNL ValueTrack] のパラメーターは、`{lpurl}` または `!{unescapedurl}` にする必要があります。
+>* トラッキングテンプレートの最終的なURLを示す[!DNL ValueTrack] パラメーターは、`{lpurl}`または`!{unescapedurl}`である必要があります。
 >
->* （テキスト広告）キーワードで入札する場合、（プレースメントの）パラメーター `ev_pl` には値がありません。 プレースメントで入札する場合、`ev_ln` （キーワードの場合）には値がありません。 広告グループまたは他のディメンションで入札する場合、`ev_ln` と `ev_pl` の両方に値がありません。
+>* （テキスト広告）キーワードで入札する場合、パラメーター`ev_pl` （プレースメント用）に値がありません。 プレースメントで入札する場合、`ev_ln` （キーワード用）には値がありません。 広告グループまたは他のディメンションで入札すると、`ev_ln`と`ev_pl`の両方に値がありません。
 >
->* （動的検索広告） `{keyword}` 動的検索ターゲット式（`_cat:[VALUE]`、`_url:[VALUE]` など）を示します。
+>* （動的検索広告） `{keyword}`は、`_cat:[VALUE]`や`_url:[VALUE]`などの動的検索ターゲット式を示します。
 >
->* （動的検索広告）最終的 [!DNL Google Ads]URL は動的に決定されるので、入力する必要はありません。
+>* （動的検索広告） [!DNL Google Ads]は最終的なURLを動的に決定するので、入力する必要はありません。
 >
->* （サイトリンク） [!UICONTROL Transaction Report] ータを生成することで、サイトリンクのクリックによって生じたコンバージョンを確認できます。 サイトリンクの [!UICONTROL Link Type] 列の値は `sl:<Sitelink text>` です（例：`sl:See Current Offers`）。
+>* （サイトリンク） [!UICONTROL Transaction Report]を生成すると、サイトリンクをクリックした結果のコンバージョンを確認できます。 サイトリンクの[!UICONTROL Link Type]列の値は`sl:<Sitelink text>`など`sl:See Current Offers`です。
 
 ### ショッピングネットワーク
 
-次の形式は、ショッピングネットワークのショッピング広告および商品グループに適用されます。 追跡テンプレートは、アカウント、キャンペーン、広告グループまたは製品グループのレベルで指定できます。
+次の形式は、ショッピングネットワーク内のショッピング広告と商品グループに適用されます。 トラッキングテンプレートは、アカウントレベル、キャンペーンレベル、広告グループレベル、製品グループレベルで指定できます。
 
 `https://pixel.everesttech.net/<advertiser_ID>/cq?ev_sid=3&ev_lx={targetid}&ev_ln={keyword}&ev_pl={placement}&ev_crx={creative}&ev_mt={matchtype}&ev_n={network}&ev_ltx={adtype}&ev_plx={product_id}&ev_ptid={product_partition_id}&ev_mid={merchant_id}&ev_cty={product_country}&ev_lan={product_language}&ev_dvc={device}&ev_dvm={devicemodel}&ev_phy={loc_physical_ms}&ev_loc={loc_interest_ms}&ev_cx={campaignid}&ev_ax={adgroupid}&ev_efid={gclid}:G:s&url={<Google ValueTrack parameter for the final URL>}`
 
@@ -54,43 +54,43 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` は、Adobe Advertising内での広告主の一意の ID の変数です。
+>* `<advertiser_ID>`は、Adobe Advertising内の広告主の一意のIDの変数です。
 >
->* この形式は、キャンペーンに対してトークン受け渡しが有効になっている（デフォルト）ことを示します。 トークン受け渡しが無効な場合、`cq?` の後に `<advertiser_ID>` を `c?` で置き換えます。
+>* この形式は、キャンペーンに対してトークン渡しが有効になっていることを示します（デフォルト）。 トークンの渡しが無効な場合は、`cq?`の後の`<advertiser_ID>`を`c?`に置き換えます。
 >
->* トラッキングテンプレート内の最終 URL を示す [!DNL ValueTrack] のパラメーターは、`{lpurl}` または `!{unescapedurl}` にする必要があります。
+>* トラッキングテンプレートの最終的なURLを示す[!DNL ValueTrack] パラメーターは、`{lpurl}`または`!{unescapedurl}`である必要があります。
 >
->* [!DNL Google Ads] は、Google マーチャントセンターフィードの商品 URL を最終的な URL として使用するので、商品データや商品グループの最終的な URL を入力する必要はありません。
+>* [!DNL Google Ads]は、Google Merchant Center フィードの商品URLを最終的なURLとして使用するので、商品データまたは商品グループの最終的なURLを入力する必要はありません。
 >
->* [!UICONTROL Transaction Report] ールを生成することで、買い物かごの広告をクリックした結果、どのコンバージョンが生じたかを確認できます。 製品広告の [!UICONTROL Link Type] 列の値は pla:`<product ID>` です（例：`pla:8525822`）。
+>* [!UICONTROL Transaction Report]を生成すると、ショッピング広告をクリックした結果のコンバージョンを確認できます。 製品広告の[!UICONTROL Link Type]列の値は、`<product ID>`など、プラン：`pla:8525822`です。
 
-## ランディングページのサフィックス（最終的な URL のサフィックス）の形式
+## ランディングページサフィックス（最終URL サフィックス）形式
 
-Adobe Advertising コンバージョントラッキングを使用するアカウントの場合は、アドネットワークのクリック識別子（`gclid` の [!DNL Google Ads]）をサフィックスに含める必要があります。
+Adobe Advertising コンバージョントラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック ID （`gclid`の[!DNL Google Ads]）を含める必要があります。
 
-* 広告主がAdobe Analytics統合を使用する場合、サフィックスには次のいずれかを含める必要があります。
+* 広告主がAdobe Analytics統合を持っている場合、接尾辞には次のいずれかを含める必要があります。
 
-   * 最新の [!DNL Google Ads]AMO ID 形式 [&#x200B; （](/help/integrations/analytics/ids.md#amo-id-formats) で始まる）を使用する `s_kwcid` アカウントで、パフォーマンス最大化キャンペーンおよびドラフト/実験キャンペーンに関するキャンペーンおよび広告グループレベルのレポートをサポートします。
+   * パフォーマンスの最大キャンペーン、ドラフト、および実験キャンペーンのキャンペーンレベルおよび広告グループレベルのレポートをサポートする最新の[!DNL Google Ads]AMO ID形式[ （](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)から始まる）を使用する`s_kwcid` アカウント：
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     アカウントにサーバーサイド AMO ID 実装があり、アカウントまたはキャンペーン設定の「[!UICONTROL Auto Upload]」が有効になっている場合、パラメーターは自動的に追加されます。 そうでない場合は、手動で追加する必要があります。 「[&#x200B; が使用するAdobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)」を参照してください。
+     アカウントにサーバーサイド AMO ID実装があり、アカウントまたはキャンペーン設定「[!UICONTROL Auto Upload]」が有効になっている場合、パラメーターが自動的に追加されます。 それ以外は、手動で追加する必要があります。 「[ [!DNL Analytics]様が使用するAdobe Advertising ID ](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id-implement)を参照してください。」
 
-   * その他すべての [!DNL Google Ads] アカウント：
+   * その他[!DNL Google Ads] アカウントすべて：
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
-* 広告主がAdobe Analytics統合を持っていない場合、サフィックスには次を含める必要があります。
+* 広告主がAdobe Analyticsとの統合を持っていない場合、接尾辞には次を含める必要があります。
 
   `&ev_efid={gclid}:G:s`
 
 >[!NOTE]
 >
->* 下位レベルのランディングページのサフィックスは、アカウントレベルのサフィックスを上書きします。 メンテナンスを容易にするために、個々のアカウントコンポーネントに対して異なるトラッキングが必要な場合を除き、アカウントレベルのサフィックスのみを使用します。 広告グループレベル以下でサフィックスを設定するには、広告ネットワークのエディターを使用します。
+>* 下位レベルのランディングページサフィックスは、アカウントレベルのサフィックスを上書きします。 メンテナンスを容易にするために、個々のアカウントコンポーネントに対して異なるトラッキングが必要でない限り、アカウントレベルのサフィックスのみを使用します。 広告グループレベル以下でサフィックスを設定するには、広告ネットワークのエディターを使用します。
 >
->* （動的検索広告、Adobe Analyticsを使用しサーバーサイドトラッキングを使用しない広告主）Adobe Advertisingから Analytics へのリバースフィードのトラッキングを含める場合は、アカウントレベルのランディングページサフィックスの末尾に AMO ID トラッキングコードを追加します。
+>* （動的検索広告、Adobe Analyticsを持つ広告主、サーバーサイドトラッキングを持たない広告主）Adobe AdvertisingからAnalyticsへのリバースフィードのトラッキングを含める場合は、アカウントレベルのランディングページサフィックスの最後にAMO ID トラッキングコードを追加します。
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertising コンバージョントラッキングサービスのクリックトラッキング URL 形式について &#x200B;](formats-click-tracking-about.md)
->* [AMO ID 形式 &#x200B;](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Adobe Advertising コンバージョントラッキングサービスのクリックトラッキング URL形式について](formats-click-tracking-about.md)
+>* [AMO ID形式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)
