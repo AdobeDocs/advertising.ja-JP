@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-既存の[&#x200B; アカウントの](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)AMO ID トラッキングコード [!DNL Google Ads]の従来の（2019年10月より前）形式では、Analyticsの一部の機能がサポートされていません。例えば、[!DNL Google Ads] パフォーマンスの最大キャンペーンのキャンペーンやドラフトおよび実験キャンペーンのキャンペーンのキャンペーンおよび広告グループレベルでのレポート、および同じ広告+キーワード+マッチタイプの組み合わせが複数のキャンペーンに存在するユースケース場合場合などがあります。
+既存の[&#x200B; アカウントの](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items)AMO ID トラッキングコード [!DNL Google Ads]の従来の（2019年10月より前）形式では、Analyticsの一部の機能がサポートされていません。例えば、[!DNL Google Ads] パフォーマンスの最大キャンペーンのキャンペーンやドラフトおよび実験キャンペーンのキャンペーンのキャンペーンおよび広告グループレベルでのレポート、および同じ広告+キーワード+マッチタイプの組み合わせが複数のキャンペーンに存在するユースケース場合場合などがあります。
 
 現在の形式には、キャンペーン IDと広告グループ IDのパラメーターが含まれています。
 
@@ -70,4 +70,4 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >
 >* [広告ネットワークアカウントの管理](ad-network-account-manage.md)
 >* [様が使用している [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID
->* [概要： [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
+>* [概要： [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ja){target="_blank"}

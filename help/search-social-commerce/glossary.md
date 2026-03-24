@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **広告バリエーション：**&#x200B;広告グループまたは広告戦略内の任意の広告。
 
-**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id):** Adobe AdvertisingがAdobe AnalyticsおよびAdobe Customer Journey Analyticsとキャンペーンに関するデータを共有できるようにするトラッキングコード。 `s_kwcid=`で始まります。
+**[AMO ID](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id):** Adobe AdvertisingがAdobe AnalyticsおよびAdobe Customer Journey Analyticsとキャンペーンに関するデータを共有できるようにするトラッキングコード。 `s_kwcid=`で始まります。
 
 **入札単位：**&#x200B;入札が行われる単位の検索、ソーシャル、およびCommerceの用語。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 **eCPM:**&#x200B;指定した日付範囲の1000 インプレッションあたりの実効CPMまたは平均支払いコスト。 CPMまたはCPCの施策で、eCPM値を計算できます。
 
-**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id):** Adobe Advertisingがアクティビティをオンラインクリックまたは広告露出に関連付け、キャンペーンに関するデータをAdobe AnalyticsおよびAdobe Customer Journey Analyticsと共有できるようにするトラッキングコード。
+**[EF ID](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-ef-id):** Adobe Advertisingがアクティビティをオンラインクリックまたは広告露出に関連付け、キャンペーンに関するデータをAdobe AnalyticsおよびAdobe Customer Journey Analyticsと共有できるようにするトラッキングコード。
 
 ## G-H {#g-h}
 

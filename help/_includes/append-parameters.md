@@ -19,4 +19,4 @@ ht-degree: 0%
 
 * （並列追跡を備えた広告ネットワーク）並列追跡を有効にするソースからのクリックに代わられないマクロの使用を避けます。 広告主がマクロを使用する必要がある場合は、Adobe アカウントチームがカスタマーサポートまたは実装チームと協力してマクロを追加する必要があります。
 
-* （Adobe AdvertisingとAdobe Analyticsの統合を持つ広告主）検索、ソーシャル、およびCommerce データを[!DNL Analytics]に送信するためのAMO ID パラメーターを含めるには、[広告ネットワーク固有の形式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)を参照してください。 サーバーサイド AMO ID実装を使用して、[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントのパラメーターを手動で追加する必要はありません。
+* （Adobe AdvertisingとAdobe Analyticsの統合を持つ広告主）検索、ソーシャル、およびCommerce データを[!DNL Analytics]に送信するためのAMO ID パラメーターを含めるには、[広告ネットワーク固有の形式](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items)を参照してください。 サーバーサイド AMO ID実装を使用して、[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントのパラメーターを手動で追加する必要はありません。
