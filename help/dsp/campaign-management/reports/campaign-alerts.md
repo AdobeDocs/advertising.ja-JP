@@ -1,67 +1,67 @@
 ---
-title: アラートの表示
-description: キャンペーンおよびキャンペーンコンポーネントのアラートと推奨される解決策を表示する方法について説明します。
+title: アラートを表示
+description: キャンペーンとキャンペーンコンポーネントに関するアラートと推奨される解決策を表示する方法について説明します。 アラートを使用して、キャンペーンの問題をトラブルシューティングします。
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 747606b120cdd36eb025b320f89abb5cc7704bf0
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
 
-# アラートの表示
+# アラートを表示
 
-DSPは、キャンペーンやキャンペーンコンポーネントに問題が発生したタイミングを特定するのに役立ちます。 DSPでは、問題ごとに、タイムスタンプと問題解決のために推奨されるアクションを含むアラートが作成されます。 アラートの理由には、設定の問題（広告がプレースメントに添付されていない場合や契約の設定が正しくない場合など）、広告の拒否、キャンペーンの正常性の問題（広告の配信やパフォーマンスの低下など）が含まれます。 アラートは、キャンペーンレベル、パッケージレベル、プレースメント レベル、広告レベルおよび取引レベルで使用できます。
+DSPは、どのキャンペーンやキャンペーンコンポーネントにも問題があるかどうかを特定するのに役立ちます。 各問題について、DSPはタイムスタンプと、問題を解決するための推奨アクションを含むアラートを作成します。 アラートの理由には、設定の問題（広告がプレースメントにアタッチされていない場合や、取引が誤って設定されている場合など）、広告の拒否、キャンペーンの正常性の問題（広告配信の低下やパフォーマンスの低下など）が含まれます。 アラートは、キャンペーン、パッケージ、プレースメント、広告、取引の各レベルで利用できます。
 
-アラートは次の場所で利用できます。
+アラートは、次の場所で使用できます。
 
-* [!UICONTROL Pulse Panel]、[!UICONTROL Campaigns]、パッケージの詳細、[!UICONTROL Packages]、[!UICONTROL Placements] の各ビューの [!UICONTROL Ads] のアイコンは、そのビューの項目でアラートが使用できるかどうかを示します。 アイコンに青いドットが付いている場合（![&#x200B; アラートが使用可能な場合は Pulse Panel アイコン &#x200B;](/help/dsp/assets/alerts-panel.png " アラートが使用可能な場合は Pulse Panel アイコン ")）、アラートを使用できます。 ドットが表示されない場合（![アラートが利用できない場合の Pulse Panel アイコン](/help/dsp/assets/alerts-panel-empty.png "アラートが利用できない場合の Pulse Panel アイコン")）、アラートは使用できません。
+* [!UICONTROL Pulse Panel]、[!UICONTROL Campaigns]、パッケージの詳細、[!UICONTROL Packages]、[!UICONTROL Placements]の各ビューの[!UICONTROL Ads] アイコンは、そのビューの項目にアラートが使用可能かどうかを示します。 アイコンに青い点（![ アラートが使用可能な場合はPulse Panel アイコン ](/help/dsp/assets/alerts-panel.png " アラートが使用可能な場合はPulse Panel アイコン ")）がある場合、アラートが使用可能になります。 ドットが表示されない場合（![アラートがない場合のパルスパネルアイコン](/help/dsp/assets/alerts-panel-empty.png "アラートがない場合のパルスパネルアイコン")）、アラートは使用できません。
 
-* 同じビューのデータテーブルには、アイテム（またはそのコンポーネント）に問題があることを示す「[!UICONTROL Alerts]」列が含まれています。 アラート・インジケータには、「Critical」（![Critical](/help/dsp/assets/indicator-critical.png "Critical")）、「Warning」（![警告](/help/dsp/assets/indicator-warning.png "警告")）、「Information」（![Information](/help/dsp/assets/indicator-information.png "Information")）が含まれます。
+* 同じビュー内のデータテーブルには、アイテム（またはそのコンポーネント）に問題があるタイミングを示す「[!UICONTROL Alerts]」列が含まれています。 アラート指標には、「重要」（![重要](/help/dsp/assets/indicator-critical.png "重要")）、「警告」（![警告](/help/dsp/assets/indicator-warning.png "警告")）および「情報」（![情報](/help/dsp/assets/indicator-information.png "情報")）が含まれます。
 
-任意のアラートに関連するキャンペーン管理ビューを開くことができるので、必要に応じて問題を解決するための設定を編集できます。
+任意のアラートに対して関連するキャンペーン管理ビューを開くことで、必要に応じて設定を編集して問題を解決できます。
 
-また、個々のアラートを無視するように選択して、アラートを [!UICONTROL Pulse] ントロールパネルから削除することもできます。
+また、個別のアラートを無視して、[!UICONTROL Pulse] パネルから削除することもできます。
 
-基になる問題が解決されると、アラートおよびアラート指標は自動的に消えます。
+アラートとアラートインジケーターは、根本的な問題が解決されると自動的に消えます。
 
-## [!UICONTROL Pulse Panel] でのアラートの表示
+## [!UICONTROL Pulse Panel]でアラートを表示
 
-1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
+1. メインメニューで、**[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
-1. 次のいずれかの操作をおこないます。
+1. 次のいずれかの操作を行います。
 
-   * （ビューに適用可能なすべてのアラートの場合）任意のキャンペーン管理ビューのツールバーの右側にある ![&#x200B; アラートが使用可能な場合はパルスパネルアイコン &#x200B;](/help/dsp/assets/alerts-panel.png " アラートが使用可能な場合はパルスパネルアイコン ") をクリックします。
+   * （ビューに適用されるすべてのアラートについて）任意のキャンペーン管理ビューのツールバーの右側で、![ アラートが使用可能な場合はPulse Panel アイコンをクリックします](/help/dsp/assets/alerts-panel.png " アラートが使用可能な場合はPulse Panel アイコン ")。
 
-   * （特定のキャンペーンのすべてのアラートの場合）キャンペーン行のアラートインジケーターをクリックして、「**[!UICONTROL View in Pulse panel]**」をクリックします。
+   * （特定のキャンペーンのすべてのアラートについて） キャンペーン行のアラートインジケーターをクリックし、**[!UICONTROL View in Pulse panel]**&#x200B;をクリックします。
 
-   * （特定のパッケージ、プレースメントまたは広告に関するすべてのアラートの場合）次の操作を行います。
+   * （特定のパッケージ、プレースメント、または広告に関するすべてのアラートについて）次の操作を行います。
 
       1. キャンペーン名をクリックします。
 
-      1. サブメニューで、**[!UICONTROL Packages]**、**[!UICONTROL Placements]** または **[!UICONTROL Ads]** をクリックして、関連するキャンペーンコンポーネントビューを開きます。
+      1. サブメニューで「**[!UICONTROL Packages]**」、「**[!UICONTROL Placements]**」または「**[!UICONTROL Ads]**」をクリックして、関連するキャンペーンコンポーネントビューを開きます。
 
-      1. パッケージ、プレースメント、または広告行のアラートインジケーターをクリックし、「**[!UICONTROL View in Pulse Panel]**」をクリックします。
+      1. パッケージ、プレースメントまたは広告行のアラートインジケーターをクリックし、**[!UICONTROL View in Pulse Panel]**&#x200B;をクリックします。
 
-   ターゲットの取引を含め、キャンペーンとそのコンポーネントに関連付けられているすべてのアラートが一覧表示されます。 デフォルトでは、重要なアラートが最初に表示されます。
+   キャンペーンとそのコンポーネントに関連するすべてのアラート（ターゲットを絞った取引を含む）がリストされます。 デフォルトでは、クリティカルアラートが最初にリストされます。
 
-1. （Advertising Creativeを使用する広告主。オプション）「**[!UICONTROL Creative]**」タブをクリックして、Advertising Creative エクスペリエンスを含むプレースメントに関するアラートを表示します。
+1. （Advertising Creativeを使用する広告主。オプション）「**[!UICONTROL Creative]**」タブをクリックして、Advertising Creative エクスペリエンスを含むプレースメントのアラートを表示します。
 
-1. （オプション）最初の検出日に従ってアラートをグループ化する場合、またはアラートのステータス、コンポーネントのステータス、コンポーネントのタイプ、特定のキャンペーン名を使用してアラートをフィルタ処理する場合は、パネルの右上にある「![&#x200B; フィルタ」ボタン &#x200B;](/help/dsp/assets/filter.png) をクリックし、フィルタ・オプションを選択して「**[!UICONTROL Apply]**」をクリックします。
+1. （オプション）最初の検出日に従ってアラートをグループ化するか、アラートのステータス、コンポーネントのステータス、コンポーネントタイプ、または特定のキャンペーン名でアラートをフィルタリングするには、パネルの右上にある「![ フィルターボタン ](/help/dsp/assets/filter.png)」をクリックし、フィルターオプションを選択して、**[!UICONTROL Apply]**。
 
-1. 特定のアラートタイプに影響を受けるすべてのキャンペーンコンポーネントのリストを表示するには、「[!UICONTROL Package: No Active Placement (*N*） &#x200B;]」などのアラート名をクリックします。 影響を受ける各コンポーネントの詳細（推奨されるアクションを含む）を表示するには、「[!UICONTROL EXPAND ALL]」をクリックするか、コンポーネント名をクリックします。 影響を受けるコンポーネントに関連するキャンペーン管理ビューを開き、推奨される変更を行うには、コンポーネント名にカーソルを置いて、「![&#x200B; ビューに移動 &#x200B;](/help/dsp/assets/go-to-view.png " ビューに移動 ")」をクリックします。
+1. 特定のアラートタイプの影響を受けるすべてのキャンペーンコンポーネントのリストを表示するには、「[!UICONTROL Package: No Active Placement (*N*） ]」などのアラート名をクリックします。 推奨アクションを含め、影響を受ける各コンポーネントの詳細を表示するには、[!UICONTROL EXPAND ALL]をクリックするか、コンポーネント名をクリックします。 影響を受けるコンポーネントの関連するキャンペーン管理ビューを開いて、推奨される変更を行えるようにするには、コンポーネント名にカーソルを置き、![ ビューに移動](/help/dsp/assets/go-to-view.png " ビューに移動")をクリックします。
 
-1. （オプション）アラートを無視（非表示）するには、コンポーネント名の上にカーソルを置いて ![&#x200B; 無視 &#x200B;](/help/dsp/assets/alert-ignore.png " 無視 ") をクリックし、「**[!UICONTROL Ignore alert till next check]**」、「**[!UICONTROL Ignore alert for 3 days]**」、または「**[!UICONTROL Ignore indefinitely]**」をクリックします。
+1. （オプション）アラートを無視（非表示）するには、コンポーネント名の上にカーソルを置いて![無視](/help/dsp/assets/alert-ignore.png "無視")をクリックし、**[!UICONTROL Ignore alert till next check]**、**[!UICONTROL Ignore alert for 3 days]**&#x200B;または&#x200B;**[!UICONTROL Ignore indefinitely]**&#x200B;をクリックします。
 
-アラートを無視してから数秒後に、アクションを取り消すことができます。 オプションメッセージが閉じると、アクションをキャンセルできなくなります。
+アクションを元に戻すアラートを無視してから数秒経過します。 オプションメッセージが閉じると、アクションをキャンセルすることはできません。
 
-1. （任意）無視されたアラートを取得するには、アラートをフィルタリングして「[!UICONTROL Alert Status]」または「[!UICONTROL All]」の [!UICONTROL Ignored] を表示します。 アラートの無視を解除するには、コンポーネント名の上にカーソルを置き、![Un-ignore](/help/dsp/assets/alert-un-ignore.png "Un-ignore") をクリックします。
+1. （オプション）無視されたアラートを取得するには、アラートをフィルタリングして、「[!UICONTROL Alert Status]」または「[!UICONTROL All]」の[!UICONTROL Ignored]を表示します。 アラートを無視するには、コンポーネント名の上にカーソルを置き、![無視しない](/help/dsp/assets/alert-un-ignore.png "無視しない")をクリックします。
 
-## [!UICONTROL Pulse Panel] を閉じる
+## [!UICONTROL Pulse Panel]を閉じる
 
-* ツールバーの右側にある「![Pulse Panel icon when alerts available](/help/dsp/assets/alerts-panel.png "Pulse Panel icon when alerts available") or ![アラートが利用できない場合の Pulse Panel アイコン](/help/dsp/assets/alerts-panel-empty.png "アラートが利用できない場合の Pulse Panel アイコン")」をクリックします。
+* ツールバーの右側で、![ アラートが使用可能な場合はPulse Panel アイコン ](/help/dsp/assets/alerts-panel.png " アラートが使用可能な場合はPulse Panel アイコン ")または![アラートがない場合のパルスパネルアイコン](/help/dsp/assets/alerts-panel-empty.png "アラートがない場合のパルスパネルアイコン")をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーン管理ビューでのパフォーマンスレポートのタイプ &#x200B;](campaign-reports-about.md)
+>* [ キャンペーン管理ビューのパフォーマンスレポートの種類](campaign-reports-about.md)
