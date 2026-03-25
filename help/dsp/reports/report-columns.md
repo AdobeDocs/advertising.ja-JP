@@ -266,7 +266,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | すべての測定可能なインプレッションのうち、表示可能なインプレッションの割合（<code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]として計算）</code>。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | 表示可能と見なされる広告インプレッションの数。 |
 | [!UICONTROL Conversion Metrics] | [ レポート設定で広告主別にグループ化] | [広告主固有のコンバージョン ] | 指定された広告主固有のコンバージョン指標またはAdobe Analytics イベントの合計。 |
-| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化] | [広告主固有のカスタム目標] | 指定された[ カスタム目標](/help/dsp/optimization/custom-goal.md)に含まれるすべてのコンバージョンの重み付け合計。 |
+| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化] | [広告主固有のカスタム目標] | 指定された[&#x200B; カスタム目標](/help/dsp/optimization/custom-goal.md)に含まれるすべてのコンバージョンの重み付け合計。 |
 
 {style="table-layout:auto"}
 
@@ -274,8 +274,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ カスタムレポートについて](/help/dsp/reports/report-about.md)
->* [ カスタムレポートを作成](/help/dsp/reports/report-create.md)
->* [ カスタムレポートを複製](/help/dsp/reports/report-copy.md)
->* [ カスタムレポートを編集](/help/dsp/reports/report-edit.md)
->* [ カスタムレポート設定](/help/dsp/reports/report-settings.md)
+>* [&#x200B; カスタムレポートについて](/help/dsp/reports/report-about.md)
+>* [&#x200B; カスタムレポートを作成](/help/dsp/reports/report-create.md)
+>* [&#x200B; カスタムレポートを複製](/help/dsp/reports/report-copy.md)
+>* [&#x200B; カスタムレポートを編集](/help/dsp/reports/report-edit.md)
+>* [&#x200B; カスタムレポート設定](/help/dsp/reports/report-settings.md)
