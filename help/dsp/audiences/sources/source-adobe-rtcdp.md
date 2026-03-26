@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta機能*
 
-Adobe Experience Platformの一部である[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)とのDSP統合を使用して、ハッシュ化された電子メールアドレス、Cookie、モバイル広告IDなどのユーザーIDを、ターゲット広告のユニバーサル IDに変換します。
+Adobe Experience Platformの一部である[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja)とのDSP統合を使用して、ハッシュ化された電子メールアドレス、Cookie、モバイル広告IDなどのユーザーIDを、ターゲット広告のユニバーサル IDに変換します。
 
 1. （ユーザーIDを[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->に変換するには、[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)を持つ広告主） [!DNL Analytics]の測定に対するトラッキングを設定します。
 
@@ -32,11 +32,11 @@ Adobe Experience Platformの一部である[the [!DNL Adobe Real-Time CDP]](http
 
    メールアドレスは、SHA-256 アルゴリズムを使用してハッシュ化する必要があります。
 
-   DSP宛先接続のアクティブ化、オーディエンスのアクティブ化、データ書き出しの検証の手順については、「[Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)」を参照してください。
+   DSP宛先接続のアクティブ化、オーディエンスのアクティブ化、データ書き出しの検証の手順については、「[Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)」を参照してください。
 
    >[!NOTE]
    >
-   >ハッシュ化された電子メールアドレスのみをサポートする従来の接続は、「[Legacy Adobe Advertising Cloud DSP connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy)」と呼ばれるようになりました。 既に従来の接続を使用している場合は、すぐに変更を加える必要はありません。 ただし、従来の接続は最終的に削除されます。
+   >ハッシュ化された電子メールアドレスのみをサポートする従来の接続は、「[Legacy Adobe Advertising Cloud DSP connection](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy)」と呼ばれるようになりました。 既に従来の接続を使用している場合は、すぐに変更を加える必要はありません。 ただし、従来の接続は最終的に削除されます。
 
 1. オーディエンスライブラリ（[!UICONTROL Audiences] > [!UICONTROL All Audiences]またはプレースメント設定内でオーディエンスを作成または編集する際に使用可能）で、セグメントが入力されていることを確認し、ユニバーサル IDの数と元のユーザーIDの数を比較します。
 
@@ -54,7 +54,7 @@ Adobe Experience Platformの一部である[the [!DNL Adobe Real-Time CDP]](http
 >
 >* [&#x200B; ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
 >* [&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](source-manage.md)
->* [Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Adobe Experience Platform [宛先カタログの概要](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)
+>* Adobe Experience Platform [宛先カタログの概要](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ja)
 >* [&#x200B; ユニバーサル IDのアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)
 >* [&#x200B; オーディエンス管理について](/help/dsp/audiences/audience-about.md)
