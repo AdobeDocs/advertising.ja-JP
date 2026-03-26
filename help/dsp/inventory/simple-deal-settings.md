@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Select & upload [Media Type]]
 
-（新しい広告のみ）新しい[ サードパーティ広告](/help/dsp/campaign-management/ads/ad-create-multiple.md)を作成するためのScreens。
+（新しい広告のみ）新しい[&#x200B; サードパーティ広告](/help/dsp/campaign-management/ads/ad-create-multiple.md)を作成するためのScreens。
 
 ### [!UICONTROL Feed details]
 
