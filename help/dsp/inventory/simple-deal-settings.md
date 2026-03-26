@@ -1,52 +1,52 @@
 ---
-title: '[!UICONTROL Simple Ad Serving] 取引設定'
-description: '[!UICONTROL Simple Ad Serving] の取引で利用可能な設定について説明します。'
+title: '[!UICONTROL Simple Ad Serving]件の取引設定'
+description: '[!UICONTROL Simple Ad Serving]件の取引で使用可能な設定について説明します。'
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 90cc9d56a090136bc94270b048573d89503231c6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Simple Ad Serving] 取引設定
+# [!UICONTROL Simple Ad Serving]件の取引設定
 
-## 新しい [!UICONTROL Simple Ad Serving] 件の取引
+## 新規[!UICONTROL Simple Ad Serving]件の取引
 
 ### [!UICONTROL Select ad source]
 
 | パラメーター | 説明 |
 |-----------|-------------|
-| **[!UICONTROL Serving Type]** | この契約のメディア タイプ：*[!UICONTROL Video]、* *[!UICONTROL Display]、* または *[!UICONTROL Audio].* |
-| **[!UICONTROL Publisher Site Served On]** | この在庫を販売しているパブリッシャーの名前。 名前の最初の 2 文字以上を入力して発行元を検索します。 一覧にない発行元を追加するには、Adobe アカウント チームにお問い合わせください。 |
-| **[!UICONTROL Advertiser]** | この取引にアクセスできるアカウント内の単一の広告主。 また、キャンペーンと（オプションで）契約を使用できるパッケージを選択します。 |
-| **[!UICONTROL Media Quality Assessment?]** | （一部のユーザー）サードパーティによる検証のために、広告を別のDSPで実行できるようにします。<!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
-| **[!UICONTROL Ad Source]** | 唯一のオプションは *[!UICONTROL Site Serve (Event Pixels)]* です。 |
-| **[!UICONTROL Ad Creation]** | （新規取引のみ）次の操作を行うかどうか：<ul><li>*[!UICONTROL Create New]:* この取引の広告を作成するには。</li><li>*[!UICONTROL Select Ads]:* この取引で既存の広告を使用するには、次の手順に従います。</li></ul> |
-| **[!UICONTROL Ad Type]** | この取引の広告タイプ。 契約の広告を作成する場合は、リクエストに応じて広告サイズまたは期間を含めます。 使用できるオプションは、メディアタイプによって異なります。 |
+| **[!UICONTROL Serving Type]** | この契約のメディアタイプ：*[!UICONTROL Video]、*、*[!UICONTROL Display]、*&#x200B;または&#x200B;*[!UICONTROL Audio]。* |
+| **[!UICONTROL Publisher Site Served On]** | この在庫を販売している発行者の名前。 名前の最初の2文字を入力して、発行者を検索します。 リストに記載されていない発行者を追加するには、Adobe アカウントチームにお問い合わせください。 |
+| **[!UICONTROL Advertiser]** | この契約にアクセスできるアカウント内の1人の広告主。 キャンペーンと（オプションで）取引が使用可能なパッケージも選択します。 |
+| **[!UICONTROL Media Quality Assessment?]** | （一部のユーザー）別のDSPで広告を実行し、サードパーティの検証を実行できるようにします。 |
+| **[!UICONTROL Ad Source]** | 唯一のオプションは&#x200B;*[!UICONTROL Site Serve (Event Pixels)]*&#x200B;です。 |
+| **[!UICONTROL Ad Creation]** | （新規のお得な情報のみ）次の操作を行うかどうか：<ul><li>*[!UICONTROL Create New]:*&#x200B;この取引の広告を作成するには。</li><li>*[!UICONTROL Select Ads]:*&#x200B;この取引に既存の広告を使用するには。</li></ul> |
+| **[!UICONTROL Ad Type]** | この取引の広告タイプ。 取引のために広告を制作する場合は、必要に応じて広告のサイズや期間を含めるようにしましょう。 使用可能なオプションは、メディアタイプによって異なります。 |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Select ad(s)]
 
-（既存の広告を使用している場合）取引に含める広告。 組み込む各広告の横にあるチェックボックスをオンにします。
+（既存の広告を使用している場合）取引に含める広告。 含める各広告の横にあるチェックボックスをオンにします。
 
 ### [!UICONTROL Select & upload [Media Type]]
 
-（新しい広告のみ）新しい [&#x200B; サードパーティ広告 &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md) を作成するためのScreens。
+（新しい広告のみ）新しい[ サードパーティ広告](/help/dsp/campaign-management/ads/ad-create-multiple.md)を作成するためのScreens。
 
 ### [!UICONTROL Feed details]
 
 | パラメーター | 説明 |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | 契約書の評価カードに反映される、1000 インプレッションあたりのコスト（CPM）。 この値については、Adobe アカウントチームにお問い合わせください。 <br><br> 取引の通貨も指定します。 すべてのユーザーは米ドル、または SSP が追加の通貨をサポートしている場合はDSP アカウントの通貨を選択できます。 |
-| **[!UICONTROL Third Party Billed Fees]** | （任意）請求不可コストとしてトラッキングされる静的サードパーティ料金と取引の通貨。<br><br> すべてのユーザーが USD を選択できます。また、SSP で追加の通貨がサポートされている場合は、DSP アカウントの通貨を選択できます。 **メモ：** 請求可能な料金は [!UICONTROL Net CPM] 指標に反映されます。 |
-| **[!UICONTROL Third Party Fee Description]** | （任意）サードパーティの料金の説明。 |
-| **[!UICONTROL Flight Dates]** | この取引を使用するトラフィックの開始日と終了日。 フライト日は、キャンペーンフライト日の範囲内に含める必要があります。 広告タグは、指定されたフライト中にのみ応答を返します。<br><br> 1 年間の期間を持つ個別のシンプルな広告サービングキャンペーンを作成し、その中にトラッキングピクセルを作成するためのベストプラクティス。 |
-| **[!UICONTROL Impressions]** | （任意）この取引を使用して実行すると予想される推定インプレッション数。 この値は、トラッキング目的でのみ使用され、配信の目標が満たされた場合にフラグを設定するために使用されます。パブリッシャーは実際の広告配信を制御します。 ベストプラクティスは、多数のインプレッションを入力して、DSP内でタグをアクティブな状態に保ち、必要に応じて更新または拡張できるようにすることです。 |
-| **[!UICONTROL Deal Name]** | 取引名。 名前を入力するか、「*[!UICONTROL Auto Generate Deal Name]*」を選択して、DSPで取引の詳細に基づいて名前を生成します。<br><br> 自動生成される名前の例：`Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
-| **[!UICONTROL Attached Ads]** | （読み取り専用）取引の一部である広告。 広告を編集するには、広告名をクリックします。 契約から広告を削除するには、広告名の横にある「**[!UICONTROL X]**」をクリックします。 |
+| **[!UICONTROL Media CPM]** | 1000 インプレッションあたりのコスト（CPM）は、契約のレートカードに反映されます。 この値については、Adobe アカウントチームにお問い合わせください。 <br><br>取引の通貨も指定します。 すべてのユーザーがUSDを選択するか、SSPが追加通貨をサポートしている場合は、DSP アカウントの通貨を選択できます。 |
+| **[!UICONTROL Third Party Billed Fees]** | （オプション）請求されないコストとして追跡される静的なサードパーティ料金、および取引の通貨。<br><br>すべてのユーザーがUSDを選択できます。また、SSPが追加通貨をサポートしている場合は、DSP アカウントの通貨を選択できます。 **メモ：**&#x200B;請求可能な手数料は、[!UICONTROL Net CPM]指標に反映されます。 |
+| **[!UICONTROL Third Party Fee Description]** | （オプション）サードパーティ手数料の説明。 |
+| **[!UICONTROL Flight Dates]** | この取引を使用したトラフィックの開始日と終了日。 フライト日は、キャンペーンのフライト日に含める必要があります。 広告タグは、指定されたフライト中にのみ応答を返します。<br><br>1年間の期間を持つシンプルな広告配信キャンペーンを個別に作成し、その中にトラッキングピクセルを構築するためのベストプラクティスです。 |
+| **[!UICONTROL Impressions]** | （オプション）この契約を使用して実行するインプレッションの推定数。 この値は、追跡目的でのみ使用され、配信目標が達成されたときにフラグを立てるために使用されます。パブリッシャーは実際の広告配信を制御します。 DSP内でタグをアクティブに保ち、必要に応じて更新または拡張できるように、インプレッション数を多く入力することをお勧めします。 |
+| **[!UICONTROL Deal Name]** | 取引名です。 名前を入力するか、*[!UICONTROL Auto Generate Deal Name]*&#x200B;を選択して、DSPが取引詳細に基づいて名前を生成できるようにします。<br><br>自動生成された名前の例：`Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
+| **[!UICONTROL Attached Ads]** | （読み取り専用）契約に含まれる広告。 広告を編集するには、広告名をクリックします。 取引から広告を削除するには、広告名の横にある&#x200B;**[!UICONTROL X]**&#x200B;をクリックします。 |
 
 {style="table-layout:auto"}
 
@@ -81,10 +81,10 @@ But I see:
 
 >[!MORELIKETHIS]
 >
->* [[!UICONTROL Simple Ad Serving]](simple-deal-about.md) について
->* [[!UICONTROL Simple Ad Serving] しい取引の作成 &#x200B;](simple-deal-create.md)
->* [[!UICONTROL Simple Ad Serving] 取引設定の編集 &#x200B;](simple-deal-edit.md)
->* [&#x200B; 取引の詳細レポートの表示 &#x200B;](/help/dsp/inventory/deal-view-report.md)
+>* [約[!UICONTROL Simple Ad Serving]](simple-deal-about.md)
+>* [[!UICONTROL Simple Ad Serving]件の取引を作成](simple-deal-create.md)
+>* [取引設定[!UICONTROL Simple Ad Serving]を編集](simple-deal-edit.md)
+>* [取引に関する詳細なレポートを表示](/help/dsp/inventory/deal-view-report.md)
 
 <!--
  add back when reimplemented:
