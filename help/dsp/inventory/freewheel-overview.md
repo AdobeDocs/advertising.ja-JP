@@ -41,6 +41,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)で取引を承諾
->* [ プログラマティック保証取引の広告を [!DNL FreeWheel]](freewheel-submit.md)に送信します
+>* [&#x200B; プログラマティック保証取引の広告を [!DNL FreeWheel]](freewheel-submit.md)に送信します
 >* [PG取引 [!DNL FreeWheel] の広告のステータスを確認する](freewheel-check-status.md)
 >* [広告の送信 [!DNL FreeWheel] のエラーコード](freewheel-error-codes.md)

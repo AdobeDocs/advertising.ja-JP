@@ -53,7 +53,7 @@ DSP premium Marketplaceでは、次のことが可能です。
 
 >[!MORELIKETHIS]
 >
->* [ プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト ](on-demand-inventory-subscribe.md)
+>* [&#x200B; プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト &#x200B;](on-demand-inventory-subscribe.md)
 >* [再申請 [!DNL On Demand]  プレミアム在庫取引](on-demand-inventory-rerequest.md)
 >* [取引依頼とサブスクリプションのステータスを表示 [!DNL On Demand] します](on-demand-inventory-view-status.md)
 >* アジア太平洋の[[!DNL On Demand]  プレミアム広告在庫パブリッシャー](on-demand-inventory-publishers-apac.md)

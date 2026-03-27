@@ -32,7 +32,7 @@ Advertising DSPは[!DNL Roku]に広告の機能を提供します。
 
 * プライベートな契約の場合、[DSP](/help/dsp/inventory/deal-id-create.md)で契約IDに関する情報を設定し、[!UICONTROL Roku Network - Audience]件のプレースメント内で「[!UICONTROL The Roku Channel - Audience]」と「[!DNL Roku]」をターゲットにします。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
-* [ ギャラリー [!DNL Roku] 内の次の [!DNL On Demand]  インベントリを](/help/dsp/inventory/on-demand-inventory-subscribe.md)購読し、[!DNL Roku] プレースメント内の承認済み契約のいずれかをターゲットにすることができます。
+* [&#x200B; ギャラリー [!DNL Roku] 内の次の [!DNL On Demand]  インベントリを](/help/dsp/inventory/on-demand-inventory-subscribe.md)購読し、[!DNL Roku] プレースメント内の承認済み契約のいずれかをターゲットにすることができます。
 
    * [!UICONTROL Roku Network - Audience]、[!DNL Roku]、[!DNL The CW]など、プレミアムコンテンツパートナーを含む[!DNL ABC] エコシステム全体のインベントリの「[!DNL ESPN]」。
 
@@ -54,7 +54,7 @@ Advertising DSPは[!DNL Roku]に広告の機能を提供します。
 
 ## [!DNL Roku] プレースメント
 
-DSP キャンペーンでは、プレースメントタイプ「[」を使用して [!DNL Roku]特定のプレースメント ](/help/dsp/campaign-management/placements/placement-create.md)を作成[!UICONTROL Connected TV (Roku)]します。 目標が定義された[!DNL Roku]固有のパッケージに[!DNL Roku]個のプレースメントを含めます。
+DSP キャンペーンでは、プレースメントタイプ「[」を使用して [!DNL Roku]特定のプレースメント &#x200B;](/help/dsp/campaign-management/placements/placement-create.md)を作成[!UICONTROL Connected TV (Roku)]します。 目標が定義された[!DNL Roku]固有のパッケージに[!DNL Roku]個のプレースメントを含めます。
 
 各[!DNL Roku] プレースメントは、少なくとも1つの[!DNL Roku]案件またはソースをターゲットにする必要があります。 [!DNL Roku]と一致するDSPのオーディエンスを使用するには、[!DNL Roku] （オプトイン）決定論的データセットと照合できる1つ以上のオーディエンスセグメントを含めます。
 
@@ -84,5 +84,5 @@ DSP キャンペーンでは、プレースメントタイプ「[」を使用し
 >[!MORELIKETHIS]
 >
 >* [取引IDの詳細を手動で作成する](/help/dsp/inventory/deal-id-create.md)
-> * [ プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト ](/help/dsp/inventory/on-demand-inventory-subscribe.md)
->* [ プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)
+> * [&#x200B; プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+>* [&#x200B; プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)

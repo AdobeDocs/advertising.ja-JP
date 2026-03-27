@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # ユニバーサルビデオに関するFAQ
 
-[ ユニバーサル動画広告](/help/dsp/campaign-management/ads/ad-about.md#ad-types)を使用すると、VPAIDおよびVASTの広告枠に対応したデスクトップ、モバイル、コネクテッド TV環境の動画広告枠を1つの動画枠でターゲットにすることができます。
+[&#x200B; ユニバーサル動画広告](/help/dsp/campaign-management/ads/ad-about.md#ad-types)を使用すると、VPAIDおよびVASTの広告枠に対応したデスクトップ、モバイル、コネクテッド TV環境の動画広告枠を1つの動画枠でターゲットにすることができます。
 
 ## ユニバーサル動画のプレースメントと広告はどのように作成するのですか？
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 他の種類のプレースメントやビデオの作成方法と同様に、ユニバーサルビデオのプレースメントと広告を作成します。
 
-1. 目的のキャンペーン内で、[ ユニバーサルビデオ配置](/help/dsp/campaign-management/placements/placement-create.md)を作成し、[!UICONTROL Placement Type] **[!UICONTROL Universal Video]**&#x200B;を選択します。
+1. 目的のキャンペーン内で、[&#x200B; ユニバーサルビデオ配置](/help/dsp/campaign-management/placements/placement-create.md)を作成し、[!UICONTROL Placement Type] **[!UICONTROL Universal Video]**&#x200B;を選択します。
 
    ターゲットに少なくとも1つの環境（デスクトップ、モバイル、コネクテッド TV）を指定する必要があります。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
    * **[!UICONTROL VPAID & VAST (Default)]:** ビューアビリティの測定を許可しないインベントリが含まれています。
    * **[!UICONTROL VAST]** – 接続されたテレビ インベントリに適しています。
 
-   詳しくは、「[ ユニバーサルビデオ広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)」を参照してください。
+   詳しくは、「[&#x200B; ユニバーサルビデオ広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)」を参照してください。
 
 1. [新しいユニバーサル ビデオ広告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)をユニバーサル ビデオ プレースメントに添付します。
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 事前設定済みのレポートテンプレートから選択し、オプションでさらにカスタマイズできます。
 
-レポートを1回作成するか、指定したタイムゾーンの03:00で、指定した条件（15日ごと、毎月1日など）に毎日、毎週、または毎月スケジュールできます。 レポートを生成したら、[!UICONTROL Reports] > [!UICONTROL Custom Reports]から、または次のタイプのリンクされた[ レポート宛先](/help/dsp/reports/report-destinations/report-destination-about.md)からレポートをダウンロードできます。
+レポートを1回作成するか、指定したタイムゾーンの03:00で、指定した条件（15日ごと、毎月1日など）に毎日、毎週、または毎月スケジュールできます。 レポートを生成したら、[!UICONTROL Reports] > [!UICONTROL Custom Reports]から、または次のタイプのリンクされた[&#x200B; レポート宛先](/help/dsp/reports/report-destinations/report-destination-about.md)からレポートをダウンロードできます。
 
 * [!DNL Amazon Simple Storage Service] （[!DNL S3]）
 * FTP
@@ -88,7 +88,7 @@ ht-degree: 0%
 
      最新の10個のインタラクションポイントまで含まれます。 パスの行は、コンバージョン数で並べ替えられます。
 
-     このレポートと[!DNL Advanced Measurement Services]とAdobe Analyticsによって作成されたレポートの比較については、「[ カスタムレポートに関するよくある質問](/help/dsp/reports/faq-reports.md)」を参照してください。
+     このレポートと[!DNL Advanced Measurement Services]とAdobe Analyticsによって作成されたレポートの比較については、「[&#x200B; カスタムレポートに関するよくある質問](/help/dsp/reports/faq-reports.md)」を参照してください。
 
    * **[!UICONTROL Path Length]:**&#x200B;このレポートを使用して、コンバージョンに必要なユーザーインタラクションポイントの数を経時的に追跡し、最適な広告頻度を選択できるようにします。 このレポートは、パスの長さ（インタラクションポイント）別のコンバージョン数を示します。例えば、ユーザーが1つの広告インタラクションと2つの広告インタラクションのみを行った後に発生したコンバージョン数などを示します。 このレポートには、複数のコンバージョン指標のデータを含めることができ、最初のインタラクションとコンバージョンの間に指定されたルックバック期間を使用します。 レポートの列には、「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt; コンバージョン指標名1\>」、「% \&lt; コンバージョン指標名1\>」、「\&lt; コンバージョン指標名2\>」、「% \&lt; コンバージョン指標名2\>」などが含まれます。
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 複数のDSPアカウントを持つ組織では、組織のニーズに応じて、カスタムレポートでクロスアカウントデータをオプションで有効にすることができます。 例えば、アカウント Aにアカウント Bのデータへのアクセス権を付与し、アカウント Bにアカウント Cのデータへのアクセス権を付与できます（アカウント Aには付与されません）。 この機能を有効にして設定するには、Adobe アカウントチームにお問い合わせください。
 
-この機能が組織で有効になると、アカウント別に次のレポートタイプのいずれかを[ フィルター](report-settings.md)できます：[!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]、および[!UICONTROL Conversion]。
+この機能が組織で有効になると、アカウント別に次のレポートタイプのいずれかを[&#x200B; フィルター](report-settings.md)できます：[!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]、および[!UICONTROL Conversion]。
 
 [!UICONTROL Settings] > [!UICONTROL Account]のアカウント設定は、a）自分のアカウントでデータを利用できる他のアカウント、およびb）自分のアカウントのデータにアクセスできる他のアカウントを示します。
 
@@ -135,10 +135,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ カスタムレポートを作成](/help/dsp/reports/report-create.md)
->* [ カスタムレポートをダウンロード ](/help/dsp/reports/report-download.md)
->* [ カスタムレポート設定](/help/dsp/reports/report-settings.md)
+>* [&#x200B; カスタムレポートを作成](/help/dsp/reports/report-create.md)
+>* [&#x200B; カスタムレポートをダウンロード &#x200B;](/help/dsp/reports/report-download.md)
+>* [&#x200B; カスタムレポート設定](/help/dsp/reports/report-settings.md)
 >* [世帯レポートに関するFAQ](/help/dsp/reports/faq-reports.md)
->* [ キャンペーン管理ビューのパフォーマンスレポートの種類](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [&#x200B; キャンペーン管理ビューのパフォーマンスレポートの種類](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [使用可能なレポート列](/help/dsp/reports/report-columns.md)
->* [ レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [&#x200B; レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md)

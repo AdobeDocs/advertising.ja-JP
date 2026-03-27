@@ -36,7 +36,7 @@ ht-degree: 0%
 
    * [!UICONTROL Deal ID Inbox]の下の「**[!UICONTROL View FreeWheel creative status]**」をクリックします。
 
-   * 任意の取引行で、![ オプション メニュー](/help/dsp/assets/options-menu.png) **>[!UICONTROL See FreeWheel status]**&#x200B;をクリックします。
+   * 任意の取引行で、![&#x200B; オプション メニュー](/help/dsp/assets/options-menu.png) **>[!UICONTROL See FreeWheel status]**&#x200B;をクリックします。
 
 1. （オプション）データをフィルタリングして、特定の取引や広告を見つけやすくします。
 
@@ -49,6 +49,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [でのプログラムによる保証取引の設定の概要 [!DNL FreeWheel]](freewheel-overview.md)
->* [ プログラマティック保証取引の広告を [!DNL FreeWheel]](freewheel-submit.md)に送信します
+>* [&#x200B; プログラマティック保証取引の広告を [!DNL FreeWheel]](freewheel-submit.md)に送信します
 >* [広告の送信 [!DNL FreeWheel] のエラーコード](freewheel-error-codes.md)
 >* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)で取引を承諾

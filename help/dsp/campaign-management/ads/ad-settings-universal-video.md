@@ -46,7 +46,7 @@ ht-degree: 0%
 
 **[!UICONTROL VAST Tag]:** （VAST タグを使用した広告のみ。読み取り専用）広告ソースとして入力したサードパーティ VAST タグ。
 
-**[!UICONTROL Final VAST Tag]:** （VAST タグを使用した広告のみ。読み取り専用）必要な[Advertising DSP トラッキングマクロ ](/help/dsp/campaign-management/macros.md)を挿入して広告ソースとして入力したサードパーティ VAST タグ（該当する場合）。
+**[!UICONTROL Final VAST Tag]:** （VAST タグを使用した広告のみ。読み取り専用）必要な[Advertising DSP トラッキングマクロ &#x200B;](/help/dsp/campaign-management/macros.md)を挿入して広告ソースとして入力したサードパーティ VAST タグ（該当する場合）。
 
 **[!UICONTROL Wmode]:** ウィンドウ モード：*[!UICONTROL window]*、*[!UICONTROL transparent]*、または&#x200B;*[!UICONTROL opaque]*。 この設定が適用されない場合は、空白のままにします。
 
@@ -64,9 +64,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ユニバーサルビデオに関するFAQ](/help/dsp/campaign-management/faq-universal-video.md)
+>* [&#x200B; ユニバーサルビデオに関するFAQ](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Advertising DSPの広告管理について](ad-about.md)
 >* [単一の広告を作成](ad-create.md)
 >* [広告に関連付けられているプレースメントを一覧表示](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [広告の仕様](ad-specs.md)
->* [DSP マクロ ](/help/dsp/campaign-management/macros.md)
+>* [DSP マクロ &#x200B;](/help/dsp/campaign-management/macros.md)

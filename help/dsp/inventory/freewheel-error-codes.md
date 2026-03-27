@@ -66,5 +66,5 @@ ht-degree: 3%
 >
 >* [でのプログラムによる保証取引の設定の概要 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
 >* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)で取引を承諾
->* [ プログラマティック保証取引の広告を [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)に送信します
+>* [&#x200B; プログラマティック保証取引の広告を [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)に送信します
 >* [PG取引 [!DNL FreeWheel] の広告のステータスを確認する](/help/dsp/inventory/freewheel-check-status.md)

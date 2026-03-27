@@ -26,7 +26,7 @@ ht-degree: 0%
 
          * 既存の広告の場合は、使用する広告を選択します。
 
-         * 新しい広告の場合は、プロキシ [ サードパーティ広告](/help/dsp/campaign-management/ads/ad-create-multiple.md)を作成します。
+         * 新しい広告の場合は、プロキシ [&#x200B; サードパーティ広告](/help/dsp/campaign-management/ads/ad-create-multiple.md)を作成します。
 
       >[!NOTE]
       > DSPでは、指定した広告は配信されません。 発行者が広告を配信します。
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    * （オプション）イベントトラッキングピクセルをパブリッシャーに手動で送信します。
 
-      1. [!UICONTROL Deals] ビュー内の取引行で、![ オプション メニュー](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**&#x200B;をクリックします。
+      1. [!UICONTROL Deals] ビュー内の取引行で、![&#x200B; オプション メニュー](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**&#x200B;をクリックします。
 
          イベントピクセルは、[!UICONTROL Clickthrough] ピクセルと[!UICONTROL Impression] ピクセルとを含む。 ビデオ広告およびオーディオ広告には、完了した四分位数ごとのイベントピクセルも含まれます（[!UICONTROL 25% Complete]から[!UICONTROL 100% Complete]）。
 
