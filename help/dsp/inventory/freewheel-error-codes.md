@@ -1,70 +1,70 @@
 ---
-title: 広告送信  [!DNL FreeWheel]  エラーコード
-description: ' [!DNL FreeWheel] への広告送信に返されるエラーコードを参照します。'
+title: ' [!DNL FreeWheel] 広告の送信に関するエラーコード'
+description: 広告送信用に返されるエラーコードを [!DNL FreeWheel]に参照します。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '641'
 ht-degree: 3%
 
 ---
 
-# [!DNL FreeWheel] 件の広告送信のエラーコード
+# [!DNL FreeWheel]件の広告送信のエラーコード
 
-失敗した広告送信のエラーメッセージは、Advertising DSPまたは [!DNL FreeWheel] のいずれかから取得できます。 エラーメッセージは、[!UICONTROL API Response] ダイアログの「[[!UICONTROL Freewheel Status]」列に表示され &#x200B;](freewheel-check-status.md) す。
+失敗した広告の送信に関するエラーメッセージは、Advertising DSPまたは[!DNL FreeWheel]から送信できます。 [!UICONTROL API Response] ダイアログ [[!UICONTROL FreeWheel Status]の](freewheel-check-status.md)列でエラーメッセージを検索します。
 
-## Advertising DSP内部エラー
+## Advertising DSPの内部エラー
 
-| エラーメッセージ | 説明 | 次の手順 |
+| エラーメッセージ | 説明 | 次のステップ |
 |--- |--- |--- |
-| [!DNL Awaiting status response from [!DNL FreeWheel]] | [!DNL FreeWheel] は、送信が成功または失敗したことを返信していません。 | 10 分後にもう一度ステータスを確認します。 |
-| [!DNL The submitted ad does not have a clock number assigned.] | [!DNL FreeWheel] では、時計番号が割り当てられていない UK 広告は受け付けていません。 | 広告に時計番号を割り当ててから、広告を再送信します。 |
-| [!DNL The ad you are attempting to submit has not yet finished transcoding. Please wait ten minutes then try again.] | 広告を送信しようとしたときに、トランスコーダーが広告のトランスコードを完了していませんでした。 | 10 分待ってから、広告を再送信してください。 |
-| [!DNL The deal id you input is not setup as a guaranteed feed. Please submit guaranteed deals only.] | 送信された取引は、プログラムで保証された取引として設定されていません。 [!DNL FreeWheel] は保証された取引のみを受け入れます。 | プログラムで保証された取引として取引 ID を設定します。 取引 ID ワークフローの最後に、プログラムで保証されたデフォルトのプレースメントを保存すると、広告は自動的に [!DNL FreeWheel] に送信されます。 |
-| [!DNL Invalid external_deal_id:] \&lt;deal_id\> | 送信された取引 ID が存在しないか、Adobe側でアクティブではありません。 | 取引がアクティブであることを確認してから、広告を再送信してください。 |
-| [!DNL \[public_id=]\&lt;deal\>] は存在しません | 送信された取引 ID が [!DNL FreeWheel] 側に存在しません。 | 取引 ID を確認するには、[!DNL FreeWheel] 担当者にお問い合わせください。 |
-| [!DNL Ad with identifier] \&lt;*ad name*\> [!DNL was not found.] | 送信された広告キーが存在しないか、Adobe側でアクティブになっていません。 | 正しい広告キーを見つけて、広告を再送信します。 |
-| [!DNL Pending Submission] | 送信はまだ保留中です。 | ページを更新します。 |
+| [!DNL Awaiting status response from [!DNL FreeWheel]] | [!DNL FreeWheel]は、送信が成功したか失敗したかについてまだ応答していません。 | 10分後にもう一度ステータスを確認します。 |
+| [!DNL The submitted ad does not have a clock number assigned.] | [!DNL FreeWheel]は、割り当てられた時計番号を持たないイギリスの広告を受け付けません。 | 広告に時計の番号を割り当てて、広告を再送信します。 |
+| [!DNL The ad you are attempting to submit has not yet finished transcoding. Please wait ten minutes then try again.] | 広告を送信しようとしたときに、トランスコーダーが広告のトランスコードを完了しませんでした。 | 10分待ってから、広告を再送信します。 |
+| [!DNL The deal id you input is not setup as a guaranteed feed. Please submit guaranteed deals only.] | 提出された契約は、プログラム的に保証された契約として設定されていません。 [!DNL FreeWheel]は保証された取引のみを受け入れます。 | 取引IDをプログラム的な保証取引として設定します。 案件ID ワークフローの最後にプログラムで保証された既定のプレースメントを保存すると、広告は自動的に[!DNL FreeWheel]に送信されます。 |
+| [!DNL Invalid external_deal_id:] \&lt;deal_id\> | 送信された案件IDが存在しないか、Adobe エンドでアクティブになっていません。 | 取引がアクティブであることを確認してから、広告を再送信します。 |
+| [!DNL \[public_id=]\&lt;deal\>]が存在しません | 送信された案件IDが[!DNL FreeWheel]側に存在しません。 | [!DNL FreeWheel]担当者に連絡して、取引IDを確認してください。 |
+| [!DNL Ad with identifier] \&lt;*広告名*\> [!DNL was not found.] | 送信された広告キーが存在しないか、Adobe エンドでアクティブになっていません。 | 正しい広告キーを見つけて、広告を再送信します。 |
+| [!DNL Pending Submission] | 提出はまだ保留です。 | ページを更新します。 |
 
 {style="table-layout:auto"}
 
-## [!DNL Freewheel] API エラー
+## [!DNL FreeWheel] API エラー
 
-| コード | 意味 | 説明 | 次の手順 |
+| コード | 意味 | 説明 | 次のステップ |
 |--- |--- |--- |--- |
-| 401 | 未認証 | アクセス認証情報が正しくない、見つからない、または無効です。 | Adobe アカウントチームにお問い合わせください。 |
-| 403 | 禁止 | サーバーは要求を理解しましたが、承認を拒否しました。 | Adobe アカウントチームにお問い合わせください。 |
-| 404 | 見つかりません | 要求されたリソースは使用できません。 Creative ID がPUT操作で見つからない場合は、404 が返されます。 | Adobe アカウントチームにお問い合わせください。 |
-| 405 | 許可されていないメソッド | そのリソースでサポートされていないリクエストメソッドを使用しているリソースに対してリクエストが行われました（例えば、POST によってデータを送信する必要があるメソッドでGETを使用したり、読み取り専用リソースでPUTを使用するなど）。 | Adobe アカウントチームにお問い合わせください。 |
-| 408 | 要求タイムアウト | このリクエストの処理中にタイムアウトが発生しました。 タイムアウトは、通常、特定のリソースへの排他的アクセスの同時リクエストによって発生します。 | このステータスを受け取ったら、リクエストを再送信します。 問題が解決しない場合は、Adobe アカウントチームにお問い合わせください。 |
-| 422 | 処理できないエンティティ | 無効なリソースです。 このエラーは、リクエスト本文が無効な場合や、作成または更新したリソースが無効な場合（例えば、取引 ID が見つからなかった場合など）に発生します。 詳しくは、[FreeWheel API 422 エラー &#x200B;](#freewheel-422-errors) を参照してください。 | Adobe アカウントチームにお問い合わせください。 |
-| 500 | 内部サーバーエラー | API システムエラー。 | Adobe アカウントチームにお問い合わせください。 |
+| 401 | 未承認 | アクセス資格情報が正しくないか、見つからないか、無効です。 | Adobeのアカウントチームにお問い合わせください。 |
+| 403 | 禁止 | サーバーはリクエストを理解しましたが、承認を拒否しました。 | Adobeのアカウントチームにお問い合わせください。 |
+| 404 | 見つかりません | リクエストされたリソースは利用できません。 PUT操作でCreative IDが見つからない場合は、404が返されます。 | Adobeのアカウントチームにお問い合わせください。 |
+| 405 | メソッドは許可されていません | リクエストは、そのリソースでサポートされていないリクエストメソッドを使用するリソースで作成されました（例えば、POSTでデータを送信する必要があるメソッドでGETを使用するか、読み取り専用リソースでPUTを使用するなど）。 | Adobeのアカウントチームにお問い合わせください。 |
+| 408 | 要求タイムアウト | この要求の処理中にタイムアウトが発生しました。 タイムアウトは通常、特定のリソースへの排他的なアクセスのリクエストが同時に発生することが原因です。 | このステータスを受け取ったら、リクエストを再送信します。 問題が解決しない場合は、Adobe アカウントチームにお問い合わせください。 |
+| 422 | 未処理エンティティ | 無効なリソースです。 このエラーは、リクエスト本文が無効であるか、作成または更新されたリソースが無効な場合（取引IDが見つからない場合など）に発生します。 詳しくは、[FreeWheel API 422 エラー](#freewheel-422-errors)を参照してください。 | Adobeのアカウントチームにお問い合わせください。 |
+| 500 | 内部サーバーエラー | API システムエラー。 | Adobeのアカウントチームにお問い合わせください。 |
 
 {style="table-layout:auto"}
 
-## [!DNL Freewheel] API 422 エラー {#freewheel-422-errors}
+## [!DNL FreeWheel] API 422 エラー {#freewheel-422-errors}
 
 | コード | HTTP コード | 説明 |
 |--- |--- |--- |
-| DATA_UNMARSHALL_FAILURE | 422 | リクエストデータは無効な json 形式です。 詳しくは、エラーメッセージを確認してください。 |
-| DATA_VALIDATION_FAILURE | 422 | リクエストデータに必須フィールドがないか、無効なデータタイプです。 詳しくは、エラーメッセージを確認してください。 |
-| DATA_DEAL_INVALID | 422 | 契約が正しく設定されていないか、存在しません。 詳しくは、エラーメッセージを確認してください。 |
-| DATA_DEAL_GET_FAILURE | 422 | 契約が見つからなかったか、設定に問題があります。 詳しくは、エラーメッセージを確認してください。 |
-| DATA_CREATIVE_INGEST_FAILURE | 422 | クリエイティブ URL が無効です。 詳しくは、エラーメッセージを確認してください。 |
-| DATA_CREATIVE_LINK_FAILURE | 422 | クリエイティブは取引の広告ユニットノードにリンクされていませんでした。 詳しくは、エラーメッセージを確認してください。 |
-| DATA_CREATIVE_UPDATE_FAILURE | 422 | クリエイティブは更新されませんでした。 詳しくは、エラーメッセージを確認してください。 |
-| DATA_DSP_GET_FAILURE | 422 | DSPがシステム内に存在しません。 |
-| DATA_CREATIVE_UNLINK_FAILURE | 422 | クリエイティブと広告ユニットのリンクが解除されませんでした。 |
+| DATA_UNMARSHALL_FAILURE | 422 | リクエストデータが無効なjson形式です。 詳細については、エラーメッセージを確認してください。 |
+| DATA_VALIDATION_FAILURE | 422 | リクエストデータに必須フィールドがないか、無効なデータタイプがあります。 詳細については、エラーメッセージを確認してください。 |
+| DATA_DEAL_INVALID | 422 | 契約が正しく設定されていないか、存在しません。 詳細については、エラーメッセージを確認してください。 |
+| DATA_DEAL_GET_FAILURE | 422 | 契約が見つからないか、構成に問題があります。 詳細については、エラーメッセージを確認してください。 |
+| DATA_CREATIVE_INGEST_FAILURE | 422 | クリエイティブ URLが無効です。 詳細については、エラーメッセージを確認してください。 |
+| DATA_CREATIVE_LINK_FAILURE | 422 | クリエイティブが契約の広告ユニットノードにリンクされていませんでした。 詳細については、エラーメッセージを確認してください。 |
+| DATA_CREATIVE_UPDATE_FAILURE | 422 | クリエイティブは更新されませんでした。 詳細については、エラーメッセージを確認してください。 |
+| DATA_DSP_GET_FAILURE | 422 | DSPはシステム内に存在しません。 |
+| DATA_CREATIVE_UNLINK_FAILURE | 422 | クリエイティブと広告ユニットの連携が解除されたわけではありません。 |
 | DATA_CREATIVE_DELETE_FAILURE | 422 | クリエイティブは削除されませんでした。 |
-| DATA_CREATIVE_DETECTION_FAILURE | 422 | URL が検出されませんでした。 |
-| DATA_ENTITY_NOT_FOUND | 422 | そのクリエイティブは存在しません。 |
+| DATA_CREATIVE_DETECTION_FAILURE | 422 | URLが検出されませんでした。 |
+| DATA_ENTITY_NOT_FOUND | 422 | クリエイティブは存在しません。 |
 
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プログラムで保証された取引の設定の概要  [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
->* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md) で取引を受け入れる
->* [&#x200B; プログラムで保証された取引の広告の送信先  [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
->* [A [!DNL FreeWheel] PG 取引の広告のステータスの確認 &#x200B;](/help/dsp/inventory/freewheel-check-status.md)
+>* [でのプログラムによる保証取引の設定の概要 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
+>* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)で取引を承諾
+>* [ プログラマティック保証取引の広告を [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)に送信します
+>* [PG取引 [!DNL FreeWheel] の広告のステータスを確認する](/help/dsp/inventory/freewheel-check-status.md)
