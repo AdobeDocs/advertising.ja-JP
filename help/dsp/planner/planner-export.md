@@ -19,9 +19,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [DSP [!UICONTROL Planner] ツールについて](planner-about.md)
->* [ コネクテッド TV リーチ プランの作成](planner-create.md)
->* [ コネクテッド TV リーチ プランを複製](planner-duplicate.md)
->* [ コネクテッド TV リーチ プランの編集](planner-edit.md)
->* [ コネクテッド TV リーチ プランの予測を再生成](planner-forecast.md)
->* [ コネクテッド TV リーチ プランのアーカイブ ](planner-archive.md)
->* [ コネクテッド TV リーチ プランの設定](planner-settings.md)
+>* [&#x200B; コネクテッド TV リーチ プランの作成](planner-create.md)
+>* [&#x200B; コネクテッド TV リーチ プランを複製](planner-duplicate.md)
+>* [&#x200B; コネクテッド TV リーチ プランの編集](planner-edit.md)
+>* [&#x200B; コネクテッド TV リーチ プランの予測を再生成](planner-forecast.md)
+>* [&#x200B; コネクテッド TV リーチ プランのアーカイブ &#x200B;](planner-archive.md)
+>* [&#x200B; コネクテッド TV リーチ プランの設定](planner-settings.md)

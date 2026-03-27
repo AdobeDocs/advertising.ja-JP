@@ -18,14 +18,14 @@ ht-degree: 0%
 
 1. プラン行の上にカーソルを置き、**[!UICONTROL Forecast]**&#x200B;をクリックします。
 
-1. （オプション） [!UICONTROL Budget vs Reach]予測を[!DNL Microsoft Excel] スプレッドシートにエクスポートするには**右上の&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Export]**&#x200B;をクリックします。
+1. （オプション） [!UICONTROL Budget vs Reach]予測を[!DNL Microsoft Excel] スプレッドシートにエクスポートするには&#x200B;**右上の&#x200B;**&#x200B;[!UICONTROL ...]&#x200B;**&#x200B;をクリックし、**&#x200B;[!UICONTROL Export]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
 >* [DSP [!UICONTROL Planner] ツールについて](planner-about.md)
->* [ コネクテッド TV リーチ プランの作成](planner-create.md)
->* [ コネクテッド TV リーチ プランを複製](planner-duplicate.md)
->* [ コネクテッド TV リーチ プランの編集](planner-edit.md)
->* [ コネクテッド TV リーチ プランの書き出し](planner-export.md)
->* [ コネクテッド TV リーチ プランのアーカイブ ](planner-archive.md)
->* [ コネクテッド TV リーチ プランの設定](planner-settings.md)
+>* [&#x200B; コネクテッド TV リーチ プランの作成](planner-create.md)
+>* [&#x200B; コネクテッド TV リーチ プランを複製](planner-duplicate.md)
+>* [&#x200B; コネクテッド TV リーチ プランの編集](planner-edit.md)
+>* [&#x200B; コネクテッド TV リーチ プランの書き出し](planner-export.md)
+>* [&#x200B; コネクテッド TV リーチ プランのアーカイブ &#x200B;](planner-archive.md)
+>* [&#x200B; コネクテッド TV リーチ プランの設定](planner-settings.md)
