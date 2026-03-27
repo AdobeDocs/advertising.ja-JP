@@ -24,8 +24,8 @@ ht-degree: 4%
       + [クロスデバイスソリューション](/help/dsp/introduction/features/cross-device-solutions.md)
    + [アカウント資金調達](/help/dsp/introduction/billing/account-funding.md)
    + [サポートされている通貨](/help/dsp/currency.md)
-   + [消費者プライバシーのサポート &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
-   + [&#x200B; ポリシーとガイドライン &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [消費者プライバシーのサポート &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
+   + [&#x200B; ポリシーとガイドライン &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
    + [高度な測定ソリューション](/help/dsp/introduction/advanced-measurement-services.md)
 + [AIを活用したチャットで、製品ドキュメントを検索できます](/help/dsp/agent-chat.md)
 + キャンペーン管理 {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 4%
       + [バルクシートを使用した広告の詳細の確認と編集](/help/dsp/campaign-management/ads/ad-qa.md)
       + [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
       + [広告の複製](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [&#x200B; プレースメントに広告を添付して削除](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
+      + [&#x200B; プレースメントに広告を添付して削除](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=ja)
       + [広告に関連付けられているプレースメントのリスト](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [広告の詳細レポートの表示](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [広告を一時停止またはアクティベート](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -233,9 +233,9 @@ ht-degree: 4%
    + 通知 {#notifications}
       + [アラート配信について](/help/dsp/admin/alerts-about.md)
       + [アラート購読の管理](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloudとの統合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
++ [Adobe Experience Cloudとの統合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ja)
 + [ヘルプを表示](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)
 
 
 <!--
