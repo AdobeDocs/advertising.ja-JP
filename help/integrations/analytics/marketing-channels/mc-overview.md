@@ -1,47 +1,47 @@
 ---
-title: の基本  [!DNL Marketing Channels]
-description: ユーザーが理解する必要  [!DNL Analytics Marketing Channels]  ある主  [!DNL Analytics for Advertising]  情報を説明します。
+title: ' [!DNL Marketing Channels]の基本'
+description: ' [!DNL Analytics Marketing Channels]  ユーザーが理解する必要がある [!DNL Analytics for Advertising] に関する重要な情報を学習します。'
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-source-git-commit: e0436d3840fc138bad6ee3e3599cffd2385750cd
+source-git-commit: 81943936f828fa9472cff1b5b1c09e473396b818
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
 
-# [!DNL Analytics Marketing Channels] の基本
+# [!DNL Analytics Marketing Channels]の基本
 
-このページでは、ユーザーが理解する必要のある [!DNL Analytics Marketing Channels] に関 [!DNL Analytics for Advertising] る主な情報を説明します。
+このページでは、[!DNL Analytics Marketing Channels] ユーザーが理解する必要がある[!DNL Analytics for Advertising]に関する重要な情報について説明します。
 
-[!DNL Marketing Channels] の完全なドキュメントについては、「[&#x200B; 基本を学ぶ  [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html?lang=ja) を参照してください。
+[!DNL Marketing Channels]に関する完全なドキュメントについては、「[ [!DNL Marketing Channels]](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)の基本を学ぶ」を参照してください。
 
-## [!DNL Marketing Channels] の概要
+## [!DNL Marketing Channels]の概要
 
-[!DNL Marketing Channels] は、Adobe Analyticsの主な機能です。 レポート [!DNL Marketing Channels]、レポートウィンドウを通じて顧客が web サイトに到達する方法と、各チャネルが売上高やオンサイト行動にどのように影響するかを示します。
+[!DNL Marketing Channels]はAdobe Analyticsの主な機能です。 [!DNL Marketing Channels]件のレポートでは、レポート期間に顧客がweb サイトに到達した方法と、各チャネルが収益またはサイト上の行動にどのような影響を与えたかを示します。
 
-次のクロス訪問ジャーニーの例について考えてみます。 Web サイトへの各訪問は、訪問者がエントリしたマーケティングチャネルで示されます。 最初の訪問はメールで、ファーストタッチチャネルとも呼ばれます。 訪問 2 の表示は参加チャネルであり、自然検索はラストタッチチャネルと見なされます。 [!UICONTROL Last Touch Attribution] 内で [!UICONTROL Attribution IQ] を使用すると、Natural Search は$250 のコンバージョンイベントに対してフルクレジットを受け取ります。 Experience Cloud ID サービスを使用すると、これらの個々の訪問を結び付けて、1 人の訪問者による 1 つのジャーニーを表示できます。
+相互訪問ジャーニーの例を考えてみましょう。 web サイトへの各訪問は、訪問者が入力したマーケティングチャネルで示されます。 初回訪問は、ファーストタッチチャネルとも呼ばれ、メールです。 訪問2のディスプレイは参加チャネルであり、自然検索はラストタッチチャネルと見なされます。 [!UICONTROL Last Touch Attribution]内で[!UICONTROL Attribution IQ]を使用する場合、自然検索は$250 コンバージョンイベントに対する完全なクレジットを受け取ります。 Experience Cloud ID サービスを使用すると、これらの個々の訪問を結び付けて、1人の訪問者が1つのジャーニーを表示できます。
 
-![&#x200B; マーケティングチャネルでのクロス訪問コンバージョンジャーニーの例 &#x200B;](/help/integrations/assets/a4adc-mc-sample-journey.png)
+![ マーケティングチャネルでのクロスビジットのコンバージョンジャーニーの例](/help/integrations/assets/a4adc-mc-sample-journey.png)
 
-[!UICONTROL Marketing Channels] の処理ルールを使用すると、一連のロジックを作成して、トラフィックを推進するチャネルを決定し、ユーザーがサイトにアクセスするたびに各チャネルを追跡できます。 例えば、[!UICONTROL Email] チャネルは、クリック時に生成される一意のトラッキングコードで示され、Adobe Analyticsがログに記録される際に、訪問がメールマーケティングキャンペーンからの訪問として分類されます。
+[!UICONTROL Marketing Channels]処理ルールを使用して、トラフィックを促進するチャネルを決定する一連のロジックを作成し、ユーザーがサイトにアクセスする際に各チャネルを追跡できます。 例えば、[!UICONTROL Email] チャネルは、クリック時に生成された一意のトラッキングコードで示されます。このトラッキングコードは、Adobe Analyticsによって記録された場合、訪問をメールマーケティングキャンペーンから発生したものとして分類します。
 
 ## 処理ルールとマーケティングチャネルの設定方法
 
-ユーザーは、web サイトにアクセスするたびに、URL をクリックするか、アドレスバーに直接入力します。 ユーザーが web サイトに入ると、[!DNL Analytics] は、訪問の原因となったチャネルを特定するために使用できる情報を追跡します。
+オーディエンスがweb サイトにアクセスするたびに、クリックするか、アドレスバーに直接入力したURLを通じてアクセスします。 ユーザーがweb サイトにアクセスすると、[!DNL Analytics]は、訪問を促したチャネルの決定に使用できる情報を追跡します。
 
-多くの場合、マーケターは、チャネルの URL にクエリ文字列パラメーターのトラッキングコードを付加して、サイトに対するチャネルの影響を追跡します。 特定 [!DNL Marketing Channels] トラッキングパラメーターおよび値をリッスンするように処理ルールを設定することにより、追加のトラッキングを行わずにチャネルを決定することができます。 例えば、すべてのメールキャンペーン URL が `www.adobe.com?cid=email…` 形式（URL にはクエリ文字列パラメーターと値 `cid=email` が含まれる）に従う場合、このトラッキングコードをリッスンし、[!UICONTROL Email] チャネルに訪問をバケット化するルールを作成できます。
+多くのマーケターは、チャネル URLにクエリ文字列パラメーターのトラッキングコードを追加して、サイトへのチャネルの影響を追跡できます。 特定のトラッキングパラメーターと値をリッスンするように[!DNL Marketing Channels]処理ルールを設定して、追加のトラッキングなしでチャネルを決定できます。 例えば、すべてのメールキャンペーン URLが形式`www.adobe.com?cid=email…` （URLにクエリ文字列パラメーターと値`cid=email`が含まれる）に従っている場合、このトラッキングコードをリッスンし、[!UICONTROL Email] チャネルで訪問をバケット化するルールを作成できます。
 
-その他のチャネルには追跡可能な URL パスがなく、識別のためにさらにロジックが必要な場合。 例えば、ユーザーがソーシャルネットワーク上で有機的に共有されているリンクをクリックした [!UICONTROL Earned Social] は、追跡する重要なチャネルです。 ただし、マーケターが、共有される URL にクエリ文字列パラメーターのトラッキングコードを追加する方法はありません。 この場合、対象となるソーシャルネットワークの参照ドメインと、チャネルを決定する有料のトラッキングコードがないかどうかをリッスンする処理ルールを作成できます。 これらの要件を満たす訪問は、マーケティングチャネルレポート内で獲得したソーシャルとして追跡されます。
+他のチャネルでは追跡可能なURL パスがなく、識別のためにさらなるロジックが必要です。 例えば、ユーザーがソーシャルネットワーク上で別のユーザーが有機的に共有したリンクをクリックする[!UICONTROL Earned Social]は、追跡すべき重要なチャネルです。 ただし、マーケターは、共有されたURLにクエリ文字列パラメーター追跡コードを追加する方法はありません。 この場合、興味のあるソーシャルネットワークの参照ドメインと、有料トラッキングコードがないことをリッスンしてチャネルを決定するための処理ルールを作成できます。 これらの要件を満たした訪問は、マーケティングチャネルレポート内でアーンドソーシャルとして追跡されます。
 
-Adobeでは、分析チームと協力して、ビジネスに関連するすべてのチャネルをトラッキングするための包括的な [!DNL Marketing Channels] 処理ルールのセットを作成することをお勧めします。 これにより、強力なアトリビューションレポートを作成できます。
+Adobeでは、[!DNL Analytics] チームと協力して、関連するすべてのチャネルを追跡する包括的な[!DNL Marketing Channels]処理ルールのセットを構築することをお勧めします。 これにより、強力なアトリビューションレポートを作成できます。
 
-カスタムマーケティングチャネルの作成に必要なシグナルにAdobe Advertisingがどのように関与するかを理解するには、「[Adobe Advertising ID を使用したルールの作成  [!DNL Marketing Channels]  処理 &#x200B;](mc-ids.md) を参照してください。
+Adobe Advertisingがカスタムマーケティングチャネルの作成に必要なシグナルにどのように役立つのか、「[Adobe Advertising IDを使用した処理ルール  [!DNL Marketing Channels] の作成](mc-ids.md)」を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertising ID を使用した処理ルール  [!DNL Marketing Channels]  作成 &#x200B;](mc-ids.md)
->* [Adobe Advertisingとでチャネルデータが異なる可能性がある理由  [!DNL Marketing Channels]](mc-data-variances.md)
->* [Adobe Advertising データ  [!DNL Analytics Marketing Channels]  使用 &#x200B;](mc-ac-data.md)
->* [&#x200B; ビデオ：Adobe Advertising レポート  [!DNL Marketing Channels]  使用 &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ja)
->* [&#x200B; 概要  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
+>* [Adobe Advertising IDを使用して [!DNL Marketing Channels] 処理ルールを作成](mc-ids.md)
+>* [Adobe Advertisingと [!DNL Marketing Channels]](mc-data-variances.md)でチャネルデータが異なる理由
+>* [Adobe Advertising data [!DNL Analytics Marketing Channels] での](mc-ac-data.md)の使用
+>* [ ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/en/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
+>* [概要： [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

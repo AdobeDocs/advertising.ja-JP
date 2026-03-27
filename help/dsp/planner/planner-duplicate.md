@@ -1,38 +1,38 @@
 ---
-title: 接続されたテレビのリーチ プランを複製する
-description: 既存のプランの設定を使用して、接続された TV リーチプランを作成する方法を説明します。
+title: コネクテッド TV リーチプランの複製
+description: 既存のプランの設定を使用して、コネクテッド TV リーチプランを作成する方法を説明します。
 feature: DSP Planner
 exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 81943936f828fa9472cff1b5b1c09e473396b818
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
 
 ---
 
-# 接続されたテレビのリーチ プランを複製する
+# コネクテッド TV リーチプランの複製
 
-1. メインメニューで、「**[!UICONTROL Planner]**」をクリックします。
+1. メインメニューで、**[!UICONTROL Planner]**&#x200B;をクリックします。
 
-1. &#x200B;
-   1. カーソルを計画行の上に置き、**[!UICONTROL More]**/**[!UICONTROL Duplicate]** をクリックします。
+1. 
+   1. プラン行の上にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Duplicate]**&#x200B;をクリックします。
 
-1. （オプション）計画名と [&#x200B; 計画設定 &#x200B;](planner-settings.md) を編集します。
+1. （オプション）プラン名と[ プラン設定](planner-settings.md)を編集します。
 
-   デフォルトでは、新しいプランは「`<existing plan name> duplicate`」です。
+   デフォルトでは、新しいプランは「`<existing plan name> duplicate`」と呼ばれます。
 
-1. 「**[!UICONTROL Save and Forecast]**」をクリックします。
+1. **[!UICONTROL Save and Forecast]**&#x200B;をクリックします。
 
-   計画を保存すると、予測された出力が表示されます。
+   プランを保存すると、予測出力が表示されます。
 
-1. （オプション） [!UICONTROL Budget vs Reach] 予測を [!DNL Microsoft Excel] スプレッドシートにエクスポートするには&#x200B;**右上の [**&#x200B;[!UICONTROL ...]&#x200B;**] をクリックし、[**&#x200B;[!UICONTROL Export]**] をクリックします。
+1. （オプション） [!UICONTROL Budget vs Reach]予測を[!DNL Microsoft Excel] スプレッドシートにエクスポートするには**右上の&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Export]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [DSP [!UICONTROL Planner] ツールについて &#x200B;](planner-about.md)
->* [&#x200B; 接続されたテレビのリーチプランを作成する &#x200B;](planner-create.md)
->* [&#x200B; 接続されたテレビのリーチ プランを編集する &#x200B;](planner-edit.md)
->* [&#x200B; 接続されたテレビのリーチ プランをエクスポートする &#x200B;](planner-export.md)
->* [&#x200B; 接続されたテレビのリーチ プランの予測を再生成する &#x200B;](planner-forecast.md)
->* [&#x200B; 接続されたテレビのリーチ プランをアーカイブする &#x200B;](planner-archive.md)
->* [&#x200B; 接続されたテレビのリーチ プランの設定 &#x200B;](planner-settings.md)
+>* [DSP [!UICONTROL Planner] ツールについて](planner-about.md)
+>* [ コネクテッド TV リーチ プランの作成](planner-create.md)
+>* [ コネクテッド TV リーチ プランの編集](planner-edit.md)
+>* [ コネクテッド TV リーチ プランの書き出し](planner-export.md)
+>* [ コネクテッド TV リーチ プランの予測を再生成](planner-forecast.md)
+>* [ コネクテッド TV リーチ プランのアーカイブ ](planner-archive.md)
+>* [ コネクテッド TV リーチ プランの設定](planner-settings.md)
