@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * 既存の広告を使用している場合は、各広告の横にあるチェックボックスをオンにして、取引に含めます。
 
-* 新しい広告を作成する場合は、画面を使用して新しい[ サードパーティ広告](/help/dsp/campaign-management/ads/ad-create-multiple.md)を作成します。
+* 新しい広告を作成する場合は、画面を使用して新しい[&#x200B; サードパーティ広告](/help/dsp/campaign-management/ads/ad-create-multiple.md)を作成します。
 
 ### [!UICONTROL Feed Details]
 
