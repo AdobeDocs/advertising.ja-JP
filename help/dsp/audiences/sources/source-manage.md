@@ -3,7 +3,7 @@ title: オーディエンスソースを管理して、ユニバーサル ID オ
 description: ソースを作成および管理して、顧客データプラットフォームからオーディエンスをインポートし、ユニバーサル IDを含むセグメントに変換する方法を説明します。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -33,7 +33,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. **[!UICONTROL Add Source]**&#x200B;をクリックします。
 
-1. [!UICONTROL Select a Type] メニューで、[顧客データプラットフォーム &#x200B;](source-about.md)を選択します。
+1. [!UICONTROL Select a Type] メニューで、[顧客データプラットフォーム ](source-about.md)を選択します。
 
    * *[!UICONTROL RT-CDP]*: [!DNL Adobe Real-Time CDP]。
 
@@ -47,7 +47,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. [!UICONTROL Data Visibility Level]を指定します：*[!UICONTROL Advertiser]*&#x200B;または&#x200B;*[!UICONTROL Account]*。
 
-1. 残りの[&#x200B; ソース設定](#source-settings)を入力します。
+1. 残りの[ ソース設定](#source-settings)を入力します。
 
    生成された[!UICONTROL Source Key]のコピーを保持します。 後で値が必要になります。
 
@@ -59,7 +59,8 @@ You can create one source for each combination of universal ID partner and data 
 
 ## オーディエンスソースのID タイプの変更
 
-<!-- Clarify this:
+<!-- 
+Clarify this:
 
 All changes to universal IDs translated from the source are applied after you save the the source record. For example, if you add a new ID type, then we convert hashed email addresses that you shared before making the changes to the new ID type. Similarly, if you remove an ID type, then we don't delete any historical IDs of that type from the segments shared through the source.
 
@@ -115,7 +116,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 >[!NOTE]
 >
->1つのプレースメントでターゲットできるIDのタイプは1つだけです。 ID タイプ別にパフォーマンスをテストするには、[&#x200B; セグメント内のID タイプごとに個別のプレースメント &#x200B;](/help/dsp/campaign-management/placements/placement-create.md)を作成します。
+>1つのプレースメントでターゲットできるIDのタイプは1つだけです。 ID タイプ別にパフォーマンスをテストするには、[ セグメント内のID タイプごとに個別のプレースメント ](/help/dsp/campaign-management/placements/placement-create.md)を作成します。
 
 * *[!DNL RampID]:* PIIを[!DNL RampID]に変換します。 ログインユーザーのリターゲティングと[!DNL RampIDs]の測定には、[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)を使用できます。
 
@@ -133,10 +134,10 @@ All changes to universal IDs translated from the source are applied after you sa
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ファーストパーティのオーディエンスソースについて](source-about.md)
->* [&#x200B; ユニバーサル IDのアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)
->* [&#x200B; ユーザーIDを [!DNL Adobe Real-Time CDP] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [&#x200B; ユーザーIDを [!DNL Amperity] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-amperity.md)
->* [&#x200B; ユーザーIDを [!DNL Optimizely] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-optimizely.md)
->* [&#x200B; ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-tealium.md)
->* [&#x200B; オーディエンス管理について](/help/dsp/audiences/audience-about.md)
+>* [ ファーストパーティのオーディエンスソースについて](source-about.md)
+>* [ ユニバーサル IDのアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)
+>* [ ユーザーIDを [!DNL Adobe Real-Time CDP] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [ ユーザーIDを [!DNL Amperity] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-amperity.md)
+>* [ ユーザーIDを [!DNL Optimizely] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-optimizely.md)
+>* [ ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-tealium.md)
+>* [ オーディエンス管理について](/help/dsp/audiences/audience-about.md)

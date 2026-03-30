@@ -1,5 +1,5 @@
 ---
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -11,17 +11,18 @@ ht-degree: 0%
 
 AMO IDは、各固有の広告の組み合わせをより詳細に追跡し、[!DNL Analytics]およびCustomer Journey Analytics データの分類と、Adobe Advertisingからの広告指標（インプレッション数、クリック数、コストなど）の取り込みに使用されます。
 
-[!DNL Analytics]の場合、AMO IDは[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja)またはrVar ディメンション（AMO ID）に保存されます。
+[!DNL Analytics]の場合、AMO IDは[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)またはrVar ディメンション（AMO ID）に保存されます。
 
-Customer Journey Analyticsの場合、AMO IDは`trackingCode` オブジェクトの`conversionDetails` プロパティに格納されます。これは[the [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)の一部です。
+Customer Journey Analyticsの場合、AMO IDは`trackingCode` オブジェクトの`conversionDetails` プロパティに格納されます。これは[the [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)の一部です。
 
 AMO IDは`s_kwcid`とも呼ばれ、「[!DNL squid]」と発音されることがあります。
 
 ### AMO ID形式 {#amo-id-formats}
 
-「Adobe Analytics コンポーネントガイド」のAMO ID ディメンション項目[の](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items)形式を参照してください。
+「Adobe Analytics コンポーネントガイド」のAMO ID ディメンション項目[の](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)形式を参照してください。
 
-<!-- Legacy content:
+<!--
+Legacy content:
 
 Notes for GGL Ads: Verify Creative description. Also, are there more networks now (audience and shopping?) Re "To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).: Update terminology there too.
 
