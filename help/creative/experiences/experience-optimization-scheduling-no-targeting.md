@@ -28,7 +28,7 @@ ht-degree: 0%
 
    * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL More]**&#x200B;をクリックしてから、**[!UICONTROL Tag Manager]**&#x200B;をクリックします。
 
-1. 該当する広告タグの行の上にカーソルを置き、![ クリエイティブ最適化の編集](/help/creative/assets/edit-gray.png " クリエイティブ最適化の編集") **[!UICONTROL Creative Optimization]**&#x200B;をクリックします。
+1. 該当する広告タグの行の上にカーソルを置き、![&#x200B; クリエイティブ最適化の編集](/help/creative/assets/edit-gray.png " クリエイティブ最適化の編集") **[!UICONTROL Creative Optimization]**&#x200B;をクリックします。
 
    <!--
    Tag Manager has only a list view, but no card view, as of 2/2. 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL More]**&#x200B;をクリックしてから、**[!UICONTROL Tag Manager]**&#x200B;をクリックします。
 
-1. 該当する広告タグの行の上にカーソルを置き、![ クリエイティブ最適化の編集](/help/creative/assets/edit-gray.png " クリエイティブ最適化の編集") **[!UICONTROL Creative Optimization]**&#x200B;をクリックします。<!-- For targeted experiences, this is "Edit Schedules" Tag Manager has only a list view, but no card view, as of 2/2. -->
+1. 該当する広告タグの行の上にカーソルを置き、![&#x200B; クリエイティブ最適化の編集](/help/creative/assets/edit-gray.png " クリエイティブ最適化の編集") **[!UICONTROL Creative Optimization]**&#x200B;をクリックします。<!-- For targeted experiences, this is "Edit Schedules" Tag Manager has only a list view, but no card view, as of 2/2. -->
 
 1. **[!UICONTROL Schedule]**&#x200B;を有効にします。
 
@@ -133,6 +133,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [該当するクリエイティブサイズの広告タグを手動で作成する](/help/creative/experiences/experience-tag-create-manually.md)
->* [ ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
+>* [&#x200B; ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
 >* [決定木ターゲティングを使用しないエクスペリエンスのトラッキング URLをカスタマイズする](experience-tracking-urls-no-targeting.md)
->* [ エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)
+>* [&#x200B; エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)
