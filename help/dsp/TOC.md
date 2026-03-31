@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 4%
@@ -27,7 +27,7 @@ ht-degree: 4%
    + [消費者プライバシーのサポート &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
    + [&#x200B; ポリシーとガイドライン &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
    + [高度な測定ソリューション](/help/dsp/introduction/advanced-measurement-services.md)
-+ [AIを活用したチャットで、製品ドキュメントを検索できます](/help/dsp/agent-chat.md)
++ {hide-from-toc}[AI支援チャットを使用して製品ドキュメントを検索](/help/dsp/agent-chat.md)
 + キャンペーン管理 {#campaign-management}
    + [Adobe Advertising DSPのキャンペーン管理の概要](/help/dsp/campaign-management/campaign-management-overview.md)
    + キャンペーン {#campaigns}
@@ -117,7 +117,7 @@ ht-degree: 4%
    + [ユニバーサル IDのアクティブ化のサポート](/help/dsp/audiences/universal-ids.md)
    + 再利用可能なオーディエンス {#reusable-audiences}
       + [再利用可能なオーディエンスの作成](/help/dsp/audiences/reusable-audience-create.md)
-      + [生成AIを使用して再利用可能なオーディエンスを作成する](/help/dsp/audiences/reusable-audience-create-using-ai.md)
+      + {hide-from-toc}[生成AIを使用して再利用可能なオーディエンスを作成](/help/dsp/audiences/reusable-audience-create-using-ai.md)
       + [再利用可能なオーディエンスの複製](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [再利用可能なオーディエンスの編集](/help/dsp/audiences/reusable-audience-edit.md)
       + [再利用可能なオーディエンスに関する詳細の表示](/help/dsp/audiences/reusable-audience-view-details.md)

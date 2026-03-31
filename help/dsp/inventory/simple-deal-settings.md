@@ -3,7 +3,7 @@ title: '[!UICONTROL Simple Ad Serving]件の取引設定'
 description: '[!UICONTROL Simple Ad Serving]件の取引で使用可能な設定について説明します。'
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: 90cc9d56a090136bc94270b048573d89503231c6
+source-git-commit: 1af0dd2cdcfdf7f63f4ad9be5bec445d5fd78687
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 新規[!UICONTROL Simple Ad Serving]件の取引
 
-### [!UICONTROL Select ad source]
+### [!UICONTROL Ad Source]
 
 | パラメーター | 説明 |
 |-----------|-------------|
@@ -28,15 +28,13 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Select ad(s)]
+### [!UICONTROL Select/Upload Creative]
 
-（既存の広告を使用している場合）取引に含める広告。 含める各広告の横にあるチェックボックスをオンにします。
+* 既存の広告を使用している場合は、各広告の横にあるチェックボックスをオンにして、取引に含めます。
 
-### [!UICONTROL Select & upload [Media Type]]
+* 新しい広告を作成する場合は、画面を使用して新しい[&#x200B; サードパーティ広告](/help/dsp/campaign-management/ads/ad-create-multiple.md)を作成します。
 
-（新しい広告のみ）新しい[&#x200B; サードパーティ広告](/help/dsp/campaign-management/ads/ad-create-multiple.md)を作成するためのScreens。
-
-### [!UICONTROL Feed details]
+### [!UICONTROL Feed Details]
 
 | パラメーター | 説明 |
 |-----------|-------------|
