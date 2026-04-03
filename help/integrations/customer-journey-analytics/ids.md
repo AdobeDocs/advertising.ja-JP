@@ -1,24 +1,38 @@
 ---
-title: Customer Journey Analyticsが使用するAdobe Advertising ID
-description: Customer Journey Analyticsが使用するAdobe Advertising ID
+title: Customer Journey Analyticsで使用されるAdobe Advertising ID
+description: Customer Journey Analyticsで使用されるAdobe Advertising ID
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: af60dcb4-4d1a-4097-ac30-688bd8b9f644
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/q1298GdnFUQBJGy-slOfy5-XJLXuJmojHErwJaxTX2A
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: 76
 ht-degree: 0%
 
 ---
 
-# Customer Journey Analyticsが使用するAdobe Advertising ID
+# Customer Journey Analyticsで使用されるAdobe Advertising ID
 
-*Adobe AdvertisingとAdobe Customer Journey Analyticsの統合のみを利用する広告主*
+*Adobe AdvertisingとAdobe Customer Journey Analyticsの統合のみを使用する広告主*
 
-*Advertising DSPおよび[!DNL Advertising Search, Social, & Commerce]* に適用
+*Advertising DSPおよび[!DNL Advertising Search, Social, & Commerce]*&#x200B;に適用可能
 
 *Beta機能*
 
-Adobe Advertisingは、オンサイトのパフォーマンストラッキングに *EF ID* と *AMO ID* の 2 つの ID を使用します。
+Adobe Advertisingは、オンサイトのパフォーマンス トラッキングに&#x200B;*EF ID*&#x200B;と&#x200B;*AMO ID*&#x200B;の2つのIDを使用しています。
 
 <!--
  Rewrite for CJA:
@@ -70,7 +84,7 @@ For any reporting or auditing within [!DNL Analytics], the best practice is to u
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 概要 &#x200B;](overview.md)
->* [&#x200B; 前提条件 &#x200B;](prerequisites.md)
->* [&#x200B; データ収集、データ転送、レポートの設定 &#x200B;](set-up.md)
->* [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション &#x200B;](advertising-data-in-cja.md)
+>* [概要](overview.md)
+>* [前提条件](prerequisites.md)
+>* [&#x200B; データ収集、データ転送、レポートの設定](set-up.md)
+>* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション &#x200B;](advertising-data-in-cja.md)

@@ -1,24 +1,31 @@
 ---
-title: '[!DNL Google Ads] レスポンシブ検索広告設定'
-description: レスポンシブ検索広告の設定  [!DNL Google Ads]  参照してください。
+title: '[!DNL Google Ads]件のレスポンシブ検索広告の設定'
+description: ' [!DNL Google Ads]  レスポンシブ検索広告の設定を参照してください。'
 exl-id: ba2a08eb-91fc-4a8c-81c5-a9e28f6abdbf
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/GHQrS-Y5tGPGaz5TD06k9-cc-NIJEAYXfZcBASr3dlA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: 63
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] レスポンシブ検索広告設定
+# [!DNL Google Ads]件のレスポンシブ検索広告の設定
 
-[!DNL Google Ads] では、最大 3 つのヘッドラインと 2 つの説明を使用して [&#x200B; レスポンシブ検索広告 &#x200B;](https://support.google.com/google-ads/answer/7684791?hl=en) （RSA）を動的にアセンブリします。
+[!DNL Google Ads]は、最大3つの見出しと2つの説明を含む[&#x200B; レスポンシブ検索広告](https://support.google.com/google-ads/answer/7684791?hl=en) （RSA）を動的に組み立てます。
 
 >[!NOTE]
 >
->各広告グループには、最大 3 つの有効なレスポンシブ検索広告を含めることができます。
+>各広告グループには、有効なレスポンシブ検索広告を3つまで含めることができます。
 
-[&#x200B; アカウントごとの広告制限 &#x200B;](https://support.google.com/google-ads/answer/6372658?hl=en) については、[!DNL Google Ads] のヘルプを参照してください。
+アカウントごとの[!DNL Google Ads]広告制限[について、](https://support.google.com/google-ads/answer/6372658?hl=en)のヘルプを参照してください。
 
 ## [!UICONTROL Responsive Search Ad Details]
 
@@ -50,7 +57,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 広告について &#x200B;](ad-about.md)
->* [&#x200B; 広告の管理 &#x200B;](ad-manage.md)
->* [[!DNL Google Ads]  呼び出し専用広告設定 &#x200B;](ad-settings-google-call.md)
->* [[!DNL Google Ads]  拡張された動的検索広告設定 &#x200B;](ad-settings-google-dsa.md)
+>* [広告について](ad-about.md)
+>* [広告の管理](ad-manage.md)
+>* [[!DNL Google Ads] 呼び出し専用の広告設定](ad-settings-google-call.md)
+>* [[!DNL Google Ads] 動的検索広告設定を拡張](ad-settings-google-dsa.md)

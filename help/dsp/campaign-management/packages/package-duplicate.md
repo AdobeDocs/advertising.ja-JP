@@ -1,101 +1,112 @@
 ---
 title: パッケージの複製
-description: パッケージの複製方法を説明します。
+description: パッケージを複製する方法を説明します。
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
+TQID: https://experienceleague.adobe.com/fbOXyvipyiJ7rOlCroMLHvSqCqXPIEL9FTHmqm7CQu8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: 413
 ht-degree: 0%
 
 ---
 
 # パッケージの複製
 
-パッケージを複製して、同様の設定でパッケージを作成します。 次の操作を実行できます。
+パッケージを複製して、同様の設定を持つパッケージを作成します。 次の操作を実行できます。
 
-* 元の広告主とキャンペーン内、または別の広告主内でパッケージを複製します
+* パッケージを元の広告主とキャンペーン内、または別の広告主内で複製します
 
-* オプションで、パッケージ内でプレースメントを複製します
+* オプションで、パッケージ内のプレースメントを複製します
 
-* （元のキャンペーン内で重複したパッケージの場合）オプションで、元の広告とプレースメントレベルのイベントピクセルを複製します
+* （元のキャンペーン内の重複したパッケージの場合）オプションで、元の広告とプレースメントレベルのイベントピクセルを複製します
 
-* 新しいパッケージのフライト日を変更します
+* 新しいパッケージのフライト日を変更する
 
-重複しないプレースメント設定のリストについては [&#x200B; 「重複していないもの &#x200B;](#package-not-duplicated) を参照してください。
+重複しないプレースメント設定のリストについては、「[重複していないもの](#package-not-duplicated)」を参照してください。
 
-1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
+1. メインメニューで、**[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
-1. キャンペーンの名前をクリックして、キャン [!UICONTROL Packages] ーン表示を開きます。
+1. キャンペーンの名前をクリックして、[!UICONTROL Packages] ビューを開きます。
 
-1. パッケージ名の横で、**[!UICONTROL ...]**/**[!UICONTROL Duplicate]** をクリックします。
+1. パッケージ名の横にある「**[!UICONTROL ...]** > **[!UICONTROL Duplicate]**」をクリックします。
 
 1. 新しいパッケージ設定を指定します。
 
    1. 新しいパッケージ名を入力します。
 
-   1. （任意）デフォルト設定を変更します。
+   1. （オプション）デフォルト設定を変更します。
 
-      デフォルト：
+      デフォルトでは：
 
-      * 新しいパッケージが元の広告主とキャンペーンに割り当てられます。
+      * 新しいパッケージは、元の広告主とキャンペーンに割り当てられます。
 
-      * 新しいパッケージは、現在の日付にアクティブになります。<!-- and the flight continues for NN  days. -->
+      * 新しいパッケージは現在の日付にアクティブになります。<!-- and the flight continues for NN  days. -->
 
-      * 元のパッケージ内のプレースメントが新しいパッケージにコピーされます。
+      * 元のパッケージ内のプレースメントは、新しいパッケージにコピーされます。
 
-      * 広告およびプレースメントレベルのイベントピクセルは、新しいパッケージにはコピーされません。
+      * 広告とプレースメントレベルのイベントピクセルは、新しいパッケージにコピーされません。
 
-1. 「**[!UICONTROL Submit]**」をクリックします。
+1. **[!UICONTROL Submit]**&#x200B;をクリックします。
 
 ## 重複していないもの {#package-not-duplicated}
 
-次の場合を除き、元のプレースメントのすべての設定が複製されます。
+元のプレースメントのすべての設定は、次を除いて複製されます。
 
-* 実験設定
-* プレースメントレベルの最小予算
-* （フライトの日付を変更する場合）カスタム広告スケジュール
-* （広告を添付しない場合）カスタム広告の重み付けとスケジュール
-* プログラム保証（PG）取引のデフォルトのプレースメントと [!UICONTROL Simple Ad Serving] の取引のプレースメント
-* （プレースメントを別のキャンペーンにコピーする場合）:
-   * ジオターゲット
+* 実験の設定
+* 配置レベルの最小予算
+* （フライト日を変更した場合） カスタム広告スケジュール
+* （広告を添付しない場合） カスタム広告の重み付けとスケジュール設定
+* プログラマティック保証（PG）取引のデフォルトのプレースメントと[!UICONTROL Simple Ad Serving]取引のプレースメント
+* （プレースメントを別のキャンペーンにコピーした場合）:
+   * 地域ターゲット
    * イベントピクセル
    * 広告
-   * プレースメントレベルの [!DNL DoubleVerify Authentic Brand Safety] セグメント（広告主レベルのセグメントを上書きします）
+   * プレースメントレベル [!DNL DoubleVerify Authentic Brand Safety] セグメント （広告主レベルのセグメントを上書きする）
 
 ## 新しいパッケージを設定するためのベストプラクティス
 
 >[!TIP]
 >
->* バルクシートを使用して [&#x200B; 複数の Campaign コンポーネントを一度に変更 &#x200B;](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
->* 広告タグシートを使用して [&#x200B; 複数のサードパーティ広告をアップロード &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
+>* バルクシートを使用すると、一度に[複数のキャンペーンコンポーネントに変更を加えることができます](/help/dsp/campaign-management/campaign-components-review-edit.md)。
+>* 広告タグシートを使用して[複数のサードパーティ広告をアップロード &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
 
 * 新しいパッケージをアクティブ化する準備ができるまで一時停止します。
 
 * 次の点を考慮し、必要に応じて新しいパッケージを編集します。
 
-   * 新しいパッケージ予算に対応するのに十分な資金がありますか？
+   * 新しいパッケージの予算に対応するのに十分な資金をアカウントに確保していますか？
 
    * 新しいパッケージには、以前のパッケージとは異なる予算が必要ですか？
 
-   * プレースメントに最低予算が必要な場合は、
+   * どのプレースメントにも最低予算は必要ですか？
 
-   * 必要なカスタム広告の重み付けとスケジュールを含むクリエイティブをアップロードし、プレースメントに添付します。
+   * 必要なカスタム広告の重み付けやスケジュールなどを含むクリエイティブをアップロードし、プレースメントに添付します。
 
-   * 必要に応じて、プレースメントと広告にイベントピクセルを添付します。
+   * 必要に応じて、イベントピクセルをプレースメントと広告に添付します。
 
-   * 必要に応じて、プレースメントに対して地理的ターゲットとプレースメントレベルの [!DNL DoubleVerify Authentic Brand Safety] セグメントを含めます。
+   * プレースメントに必要に応じて、地理的ターゲットとプレースメントレベルの[!DNL DoubleVerify Authentic Brand Safety] セグメントを含めます。
 
-   * プログラムで保証された取引の場合は、新しい取引 ID を使用し、デフォルトのプレースメントを作成します。
+   * プログラマティックな保証取引の場合は、新しい取引IDを使用して、デフォルトのプレースメントを作成します。
 
-   * 必要に応じて、[!UICONTROL Simple Ad Serving] 件の取引に対して新しいプレースメントを作成します。
+   * 必要に応じて、[!UICONTROL Simple Ad Serving]件の取引用に新しいプレースメントを作成します。
 
-* カスタムの最適化目標を使用するパッケージの場合、各パッケージの [[!UICONTROL Linked Package for Optimization Learnings Carryover] 設定を使用して &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) パッケージを最適化するための入力として前のキャンペーンの履歴データを使用します。
+* カスタム最適化目標を使用するパッケージの場合、各パッケージに[[!UICONTROL Linked Package for Optimization Learnings Carryover]設定](/help/dsp/campaign-management/packages/package-settings.md)を使用して、パッケージを最適化するための入力として前のキャンペーンの履歴データを使用します。
 
 >[!MORELIKETHIS]
 >
->* [Advertising DSPのパッケージ管理について &#x200B;](package-about.md)
->* [&#x200B; パッケージを作成する &#x200B;](package-create.md)
->* [&#x200B; パッケージを編集 &#x200B;](package-edit.md)
->* [&#x200B; パッケージの変更ログを表示 &#x200B;](package-change-log.md)
->* [&#x200B; パッケージ設定 &#x200B;](package-settings.md)
+>* [Advertising DSPでのパッケージ管理について](package-about.md)
+>* [&#x200B; パッケージを作成](package-create.md)
+>* [&#x200B; パッケージの編集](package-edit.md)
+>* [&#x200B; パッケージの変更ログを表示](package-change-log.md)
+>* [&#x200B; パッケージ設定](package-settings.md)

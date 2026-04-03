@@ -3,75 +3,80 @@ title: クリエイティブライブラリの管理
 description: クリエイティブライブラリを作成、名前変更、削除する方法について説明します。
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
+TQID: https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: 266
 ht-degree: 0%
 
 ---
 
 # クリエイティブライブラリの管理
 
-各広告主に対して複数のクリエイティブライブラリを作成できます。 後から、各ライブラリに [&#x200B; 標準クリエイティブ &#x200B;](creative-add-standard.md)、[&#x200B; 動的クリエイティブ &#x200B;](creative-add-dynamic.md)、および [&#x200B; クリエイティブバンドル &#x200B;](bundle-manage.md) を入力できます。
+広告主ごとに複数のクリエイティブライブラリを作成できます。 後で、各ライブラリに[標準クリエイティブ &#x200B;](creative-add-standard.md)、[動的クリエイティブ &#x200B;](creative-add-dynamic.md)、[&#x200B; クリエイティブバンドル &#x200B;](bundle-manage.md)を追加できます。
 
 ## クリエイティブライブラリの作成
 
-1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL Create Library]**」をクリックします。
+1. **[!UICONTROL Create Library]**&#x200B;をクリックします。
 
-1. 該当する **[!UICONTROL Advertiser]** を選択し、一意の **[!UICONTROL Creative Library Name]** を入力します。
+1. 該当する&#x200B;**[!UICONTROL Advertiser]**&#x200B;を選択し、一意の&#x200B;**[!UICONTROL Creative Library Name]**&#x200B;を入力します。
 
-1. 「**[!UICONTROL Create]**」をクリックします。
+1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
 ## クリエイティブライブラリの名前の編集
 
-1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
 
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+1. （オプション） [特定のライブラリを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
 
 1. ライブラリを選択します。
 
-   * カード表示で、ライブラリ名の横にある **[!UICONTROL ...]** をクリックし、[**[!UICONTROL Edit]**] をクリックします。
+   * カード表示で、ライブラリ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-   * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Edit]** をクリックします。
+   * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. **[!UICONTROL Library Name]** を編集します。
+1. **[!UICONTROL Library Name]**&#x200B;を編集します。
 
-   [!UICONTROL Library Name] は一意である必要があります。
+   [!UICONTROL Library Name]は一意である必要があります。
 
-1. 「**[!UICONTROL Edit]**」をクリックします。
+1. **[!UICONTROL Edit]**&#x200B;をクリックします。
 
 ## クリエイティブライブラリを開く
 
-1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
 
 1. ライブラリの名前をクリックします。
 
 ## クリエイティブライブラリの削除
 
-[&#x200B; ライブ &#x200B;](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないクリエイティブやバンドルを含むライブラリを削除できます。 ライブターゲットのエクスペリエンスの場合は、続行する前に、[&#x200B; デシジョンツリーからクリエイティブやバンドルを削除 &#x200B;](/help/creative/experiences/experience-target-node-delete.md) して、エクスペリエンスを表示します。<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
+[live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないクリエイティブとバンドルを含むライブラリを削除できます。 ライブ ターゲティングされたエクスペリエンスの場合は、続行する前に、エクスペリエンスの決定ツリー[からクリエイティブまたはバンドルを](/help/creative/experiences/experience-target-node-delete.md)削除してください。<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
-1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
 
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+1. （オプション） [特定のライブラリを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
 
-1. 削除するライブラリを選択：
+1. 削除するライブラリを選択します。
 
-   * 単一のライブラリを削除するには：
+   * 1つのライブラリを削除するには：
 
-      * カード表示で、ライブラリ名の横にある **[!UICONTROL ...]** をクリックし、[**[!UICONTROL Delete]**] をクリックします。
+      * カード表示で、ライブラリ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
-      * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Delete]** をクリックします。
+      * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
-   * 1 つまたは複数のライブラリを削除するには、削除する各ライブラリのチェック ボックスをオンにします。 一括アクションツールバーで、「**[!UICONTROL Delete]**」をクリックします。
+   * 1つ以上のライブラリを削除するには、削除する各ライブラリのチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
-     すべての行を選択するには、左上の「グローバル」チェック・ボックスを選択します。
+     すべての行を選択するには、左上の「グローバル」チェックボックスをオンにします。
 
-1. 確認メッセージで、「**[!UICONTROL Delete].**」をクリックします。
+1. 確認メッセージで、**[!UICONTROL Delete].**&#x200B;をクリックします
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; クリエイティブライブラリについて &#x200B;](/help/creative/creative-libraries/creative-libraries-about.md)
->* [&#x200B; クリエイティブライブラリへの標準クリエイティブの追加 &#x200B;](creative-add-standard.md)
->* [&#x200B; クリエイティブバンドルの管理 &#x200B;](bundle-manage.md)
+>* [&#x200B; クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
+>* [標準クリエイティブをクリエイティブライブラリに追加](creative-add-standard.md)
+>* [&#x200B; クリエイティブバンドルの管理](bundle-manage.md)

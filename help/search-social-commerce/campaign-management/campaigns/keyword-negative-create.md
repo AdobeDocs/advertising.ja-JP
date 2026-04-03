@@ -1,55 +1,60 @@
 ---
-title: ネガティブキーワードの作成
-description: 検索キャンペーンと広告グループにネガティブキーワードを作成する方法を説明します。
+title: 否定的なキーワードを作成
+description: 検索キャンペーンと広告グループに対して否定的なキーワードを作成する方法を説明します。
 exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/NjLsCcI2-1kWIAfZOv4-IJytuPKUfQWO0OG7ptEDe9w
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: 272
 ht-degree: 0%
 
 ---
 
-# ネガティブキーワードの作成
+# 否定的なキーワードを作成
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] および既存の [!DNL Baidu] アカウントのみ*
+*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]および既存の[!DNL Baidu] アカウントのみ*
 
-検索またはディスプレイ/ネイティブネットワークをターゲットとする検索広告グループまたはキャンペーンに、ネガティブキーワードを作成できます。 負のキーワードは広告をトリガーしません。
+検索やディスプレイ/ネイティブネットワークをターゲットとする検索広告グループまたはキャンペーンに対して、ネガティブキーワードを作成できます。 ネガティブキーワードは広告をトリガーにしない。
 
 >[!NOTE]
->また、[&#x200B; 広告グループ設定 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) および [&#x200B; キャンペーン設定 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) でネガティブキーワードを作成および編集することもできます。
+>また、[広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)および[&#x200B; キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)で、否定的なキーワードを作成および編集することもできます。
 
 >[!TIP]
->一度に多くのネガティブキーワードを作成するには、[campaign バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
+>一度に多くの否定的なキーワードを作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
-1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Negatives]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Negatives]**&#x200B;をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックし、[**[!UICONTROL Campaign]**] をクリックしてキャンペーン レベルの負のキーワードを作成するか、[**[!UICONTROL Ad Group]**] をクリックして広告グループ レベルの負のキーワードを作成します。
+1. データテーブルの上にあるツールバーで、![作成](/help/search-social-commerce/assets/add.png "作成")をクリックし、**[!UICONTROL Campaign]**&#x200B;をクリックしてキャンペーンレベルのネガティブキーワードを作成するか、**[!UICONTROL Ad Group]**&#x200B;をクリックして広告グループレベルのネガティブキーワードを作成します。
 
-1. 広告ネットワーク、アカウント、キャンペーン、（該当する場合は）広告グループを選択し、「**[!UICONTROL Continue]**」をクリックします。
+1. 広告ネットワーク、アカウント、キャンペーン、および（関連する場合）広告グループを選択し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-1. 負のキーワードを入力します。 マイナス記号（`-`）を使用せずに、次の構文を使用します。
+1. 否定的なキーワードを入力します。 マイナス記号（`-`）なしで次の構文を使用します。
 
-   * 負の部分一致：`keyword` （[!DNL Microsoft Advertising] ではサポートされていません）
+   * 負の部分一致：`keyword` （[!DNL Microsoft Advertising]ではサポートされていません）
 
-   * 負の語句の一致：`"keyword"`
+   * 否定的な語句の一致：`"keyword"`
 
-   * 完全一致が負の数：`[keyword]`
+   * 負の完全一致：`[keyword]`
 
-   複数の値をコンマで区切るか、別々の行に入力します。 1 回の操作で最大 2000 個の負のキーワードを入力または貼り付けることができます。 次の要件と制限事項も参照してください。
+   複数の値をコンマで区切るか、別々の行に入力します。 1回の操作で最大2000個のネガティブキーワードを入力またはペーストできます。 次の要件と制限も参照してください。
 
-   * 最大文字数：[!DNL Baidu]:30 個の 1 バイトまたは 15 個の 2 バイト。[!DNL Microsoft Advertising]:100 個の 1 バイトまたは 50 個の 2 バイト。[!DNL Google Ads] および [!DNL Yahoo! Japan Ads]:80 個の 1 バイトまたは 40 個の 2 バイト。
+   * 最大文字長：[!DNL Baidu]: 30 シングルバイトまたは15 ダブルバイト、[!DNL Microsoft Advertising]: 100 シングルバイトまたは50 ダブルバイト、[!DNL Google Ads]および[!DNL Yahoo! Japan Ads]: 80 シングルバイトまたは40 ダブルバイト。
 
-   * [!DNL Baidu] では、広告グループごとにキーワードごとに 1 つの一致タイプのみを使用できます。 例えば、広告グループ 1 に `"keyword"` と `[keyword]` の両方を含めることはできません。
+   * [!DNL Baidu]では、広告グループごとにキーワードごとに1つの一致タイプのみが許可されます。 例えば、広告グループ 1に`"keyword"`と`[keyword]`の両方を含めることはできません。
 
-   * [!DNL Google Ads]：各キーワードは 10 語以内で構成でき、文字、数字、および次の特殊文字のみを含めることができます。スペース `# $ & _ - " [ ] ' + . / :`
+   * [!DNL Google Ads]：各キーワードは10文字以下で構成でき、文字、数字、および次の特殊文字のみを含めることができます：スペース `# $ & _ - " [ ] ' + . / :`
 
-   * [!DNL Yandex]：各キーワードには、ストップワードを除いて最大 7 語を含めることができます。 各 [!DNL Yandex ad group] には、最大 200 個のキーワードを含めることができます。
+   * [!DNL Yandex]：各キーワードには、ストップワードを除く最大7つの単語を指定できます。 各[!DNL Yandex ad group]には、最大200個のキーワードを含めることができます。
 
-1. 「**[!UICONTROL Post]**」をクリックします。
+1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キーワードについて &#x200B;](keyword-about.md)
->* [&#x200B; 入札可能キーワードの管理 &#x200B;](keyword-manage.md)
->* [&#x200B; キーワードとネガティブキーワードのステータスの変更 &#x200B;](keyword-status-edit.md)
+>* [&#x200B; キーワードについて](keyword-about.md)
+>* [入札可能なキーワードの管理](keyword-manage.md)
+>* [&#x200B; キーワードと否定的なキーワードのステータスを変更](keyword-status-edit.md)

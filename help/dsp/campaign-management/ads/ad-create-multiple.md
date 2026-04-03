@@ -1,81 +1,90 @@
 ---
-title: 複数のサードパーティ広告の作成
+title: 複数のサードパーティ広告の制作
 description: 一度に複数のサードパーティ広告を作成する方法を説明します。
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+TQID: https://experienceleague.adobe.com/ZOJDY0mjhTFb-Kcw1hEkCaZ0ZLVYPxTcEmOj2yM2JZQ
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: 393
 ht-degree: 0%
 
 ---
 
-# 複数のサードパーティ広告の作成
+# 複数のサードパーティ広告の制作
 
-サードパーティの広告サーバーでホストされているクリエイティブアセットを指すタグをアップロードすることで、一度に最大 500 個のサードパーティ広告を作成できます。 広告にトラッキングピクセルを含めることができます。<!-- The bulksheet template for other ad servers says you can include 200. Which is it: 200 or 500? -->
+サードパーティ広告サーバーでホストされているクリエイティブアセットを示すタグをアップロードすることで、一度に最大500個のサードパーティ広告を作成できます。 広告にトラッキングピクセルを含めることができます。<!-- The bulksheet template for other ad servers says you can include 200. Which is it: 200 or 500? -->
 
-[!DNL DoubleClick] および [!DNL Flashtalking] のタグシート、または提供されたテンプレートを使用して手動で入力されたファイルをアップロードできます。
+指定されたテンプレートを使用して、[!DNL DoubleClick]と[!DNL Flashtalking]のタグシートまたは手動入力ファイルのいずれかをアップロードできます。
 
 >[!TIP]
 >
-> ベストプラクティスは、HTTPS を使用して安全に提供されるサードパーティの広告を使用することです。 HTTPS を使用して提供される URL は、「https」で始まります。
+> ベストプラクティスは、HTTPSを使用して安全に提供されるサードパーティの広告を使用することです。 HTTPSを使用して提供されるURLは、「https」で始まります。
 
-1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
+1. メインメニューで、**[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
 1. 広告を含めるキャンペーンの名前をクリックします。
 
-1. データ テーブルの上にある [**[!UICONTROL Create]**] をクリックします。 メニューの「広告タイプ」セクションで、「**[!UICONTROL Bulk upload ads]**」をクリックします。
+1. データテーブルの上で、**[!UICONTROL Create]**&#x200B;をクリックします。 メニューの「広告タイプ」セクションで、「**[!UICONTROL Bulk upload ads]**」をクリックします。
 
-1. 広告がホストされている広告サーバー（*[!UICONTROL DoubleClick]*、*[!UICONTROL Flashtalking]*、*[!UICONTROL Other]*）を選択します。
+1. 広告がホストされている広告サーバー（*[!UICONTROL DoubleClick]*、*[!UICONTROL Flashtalking]*、または&#x200B;*[!UICONTROL Other]*）を選択します。
 
-1. （[!DNL DoubleClick] および [!DNL Flashtalking] 広告）各ビデオアセットと各ディスプレイアセットに使用するタグタイプを選択します。 使用できるオプションは、広告サーバーによって異なります。
+1. （[!DNL DoubleClick]広告と[!DNL Flashtalking]広告）各ビデオアセットと各表示アセットに使用するタグタイプを選択します。 使用可能なオプションは、広告サーバーによって異なります。
 
-1. （[!DNL DoubleClick] と [!DNL Flashtalking] を除くすべての広告サーバーの広告）「**[!UICONTROL Download this template]**」をクリックして、スプレッドシート（XLSX）形式のテンプレート [!DNL Microsoft Excel] ダウンロードします。このテンプレートには、広告データを入力し、ローカルに保存できます。 必須の列には、[!UICONTROL Ad Name]、[!UICONTROL VAST/VPAID URL or Ad Tag]、[!UICONTROL Ad Types] が含まれます。
+1. （広告[!DNL DoubleClick]と[!DNL Flashtalking]を除くすべての広告サーバーの広告） **[!UICONTROL Download this template]**&#x200B;をクリックして、[!DNL Microsoft Excel]のスプレッドシート （XLSX）形式でテンプレートをダウンロードします。この形式は、広告データを入力してローカルに保存できます。 必要な列には、[!UICONTROL Ad Name]、[!UICONTROL VAST/VPAID URL or Ad Tag]および[!UICONTROL Ad Types]が含まれます。
 
-1. 「**[!UICONTROL Upload]**」をクリックし、デバイスまたはネットワークから.xlsx または.xls 形式のファイルを選択します。
+1. **[!UICONTROL Upload]**&#x200B;をクリックし、デバイスまたはネットワークから.xlsxまたは.xls形式のファイルを選択します。
 
-   [!DNL DoubleClick] および [!DNL Flashtalking] の広告については、編集されていないタグシートを広告サーバーからアップロードします。 他の広告サーバーの場合は、手順 3 でダウンロードしたテンプレートを使用します。
+   [!DNL DoubleClick]および[!DNL Flashtalking]件の広告の場合、未編集のタグシートを広告サーバーからアップロードします。 他の広告サーバーの場合は、手順3でダウンロードしたテンプレートを使用します。
 
-1. アップロードが完了したら、「**[!UICONTROL Start Building Ads]**」をクリックします。
+1. アップロードが完了したら、**[!UICONTROL Start Building Ads]**&#x200B;をクリックします。
 
 1. 各広告の詳細とステータスを確認します。
 
-   1. （[!DNL Google] または [!DNL Flashtalking] タグを使用したユニバーサルビデオ広告）「**[!UICONTROL Ad Type]**」フィールドをクリックし、「**[!UICONTROL Universal Video]**」を選択します。
+   1. （[!DNL Google]または[!DNL Flashtalking] タグを使用したユニバーサルビデオ広告）「**[!UICONTROL Ad Type]**」フィールドをクリックし、「**[!UICONTROL Universal Video]**」を選択します。
 
-   1. （ユニバーサルビデオ広告）新しい広告ごとに ![&#x200B; 編集 &#x200B;](/help/dsp/assets/edit.png) をクリックし、[&#x200B; 該当するビデオ形式 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-universal-video.md) を選択して **保存** をクリックします。
+   1. （ユニバーサルビデオ広告）新しい広告ごとに、![編集](/help/dsp/assets/edit.png)をクリックし、[該当するビデオ形式](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)を選択して、**保存**&#x200B;をクリックします。
 
-   1. アップロードされたタグの検証チェックに基づいて、各広告のステータスを確認します。
+   1. アップロードしたタグの検証チェックにもとづいて、各広告のステータスを確認します。
 
-   1. （オプション）各広告に対して次のいずれかの操作をおこないます。
+   1. （オプション）各広告について、次のいずれかの操作を行います。
 
-      * 広告をプレビューするには、広告行にある ![&#x200B; 再生 &#x200B;](/help/dsp/assets/play.png) をクリックします。
+      * 広告をプレビューするには、広告行の![play](/help/dsp/assets/play.png)をクリックします。
 
-      * 広告の詳細を編集するには、[![&#x200B; 編集 &#x200B;](/help/dsp/assets/edit.png)] をクリックし、詳細を編集して、[**保存**] をクリックします。
+      * 広告の詳細を編集するには、![編集](/help/dsp/assets/edit.png)をクリックして詳細を編集し、**保存**&#x200B;をクリックします。
 
-      * 広告を削除するには、広告行の **[!UICONTROL X]** をクリックします。
+      * 広告を削除するには、広告行の&#x200B;**[!UICONTROL X]**&#x200B;をクリックします。
 
-1. **[!UICONTROL Create *N *Ad （s）]**&#x200B;をクリックします。
+1. **[!UICONTROL Create *N *個の広告]**&#x200B;をクリックします。
 
 1. 次のいずれかの操作を行います。
 
-   * 「**[!UICONTROL Done]**」をクリックします。
+   * **[!UICONTROL Done]**&#x200B;をクリックします。
 
-   * （広告が却下された場合のオプション）広告レコードを編集して広告をレビュー用に再送信するには：
+   * （広告が拒否された場合。オプション）広告レコードを編集し、レビュー用に広告を再送信するには、次の手順を実行します。
 
       1. 広告名をクリックします。
 
       1. 広告設定を編集します。
 
-      1. 「**[!UICONTROL Save & submit for review]**」をクリックします。
+      1. **[!UICONTROL Save & submit for review]**&#x200B;をクリックします。
 
 >[!NOTE]
 >
->ユニバーサルビデオ広告は、ユニバーサルビデオプレースメントにのみ添付できます。
+>ユニバーサルビデオ広告は、ユニバーサルビデオの配置にのみ添付できます。
 
 >[!MORELIKETHIS]
 >
->* [Advertising DSPの広告管理について &#x200B;](ad-about.md)
->* [&#x200B; 広告仕様 &#x200B;](ad-specs.md)
->* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
->* [&#x200B; ビデオ：サードパーティの広告タグを一括アップロードする方法 &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=ja)
->* [&#x200B; ユニバーサルビデオに関する FAQ](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Advertising DSPの広告管理について](ad-about.md)
+>* [広告の仕様](ad-specs.md)
+>* [単一の広告を作成](ad-create.md)
+>* [&#x200B; ビデオ：サードパーティの広告タグを一括アップロードする方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=ja)
+>* [&#x200B; ユニバーサルビデオに関するFAQ](/help/dsp/campaign-management/faq-universal-video.md)

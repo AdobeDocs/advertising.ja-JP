@@ -1,40 +1,52 @@
 ---
 title: プライベート取引のプレースメントと広告のリスト
-description: プライベート取引に関連付けられたプレースメントと広告のリストを開く方法を説明します。
+description: プライベート取引に関連付けられているプレースメントと広告のリストを開く方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
+TQID: https://experienceleague.adobe.com/xp7u17zFEDIqibWrt6oroV4-2Ta4cwUS4CAI7IAR4LQ
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: ac506c20-96f2-48f6-9096-77706e336bda
+  - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: 214
 ht-degree: 0%
 
 ---
 
 # プライベート取引のプレースメントと広告のリスト
 
-プライベート取引に関連付けられているすべてのプレースメントと広告のリストを開くことができます。 オプションで、任意のプレースメントまたは広告の設定を開くことができます。
+プライベート取引に関連付けられたすべてのプレースメントと広告のリストを開くことができます。 オプションで、任意のプレースメントまたは広告の設定を開くことができます。
 
-1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals].** をクリックします。
+1. メインメニューで、**[!UICONTROL Inventory]** > **[!UICONTROL Deals].**&#x200B;をクリックします
 
-1. 取引行で、**[!UICONTROL ...]**/**[!UICONTROL Placements and Ads]** をクリックします。
+1. 取引行で、**[!UICONTROL ...]** > **[!UICONTROL Placements and Ads]**&#x200B;をクリックします。
 
-   「[!UICONTROL Placements]」タブがデフォルトで表示されます。 広告を表示するには、「[!UICONTROL Ads]」タブをクリックします。
+   [!UICONTROL Placements] タブはデフォルトで表示されます。 広告を表示するには、「[!UICONTROL Ads]」タブをクリックします。
 
-1. （オプション）次のいずれかの操作をおこないます。
+1. （オプション）次のいずれかの操作を行います。
 
-   * プレースメントがプライベート取引で入札できない理由を確認するには、プレースメント行の上にカーソルを置いて、「**[!UICONTROL Non bid reasons]**」をクリックします。
+   * プレースメントがプライベート ディールに入札できなかった理由を確認するには、プレースメント行にカーソルを合わせて「**[!UICONTROL Non bid reasons]**」をクリックします。
 
-   * プレースメントの設定を編集するには、プレースメント行の上にカーソルを置いて「**[!UICONTROL Edit]**」をクリックします。 [&#x200B; プレースメント設定を編集 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) し、「**[!UICONTROL Update placement]**」をクリックします。
+   * プレースメントの設定を編集するには、プレースメント行の上にカーソルを置き、**[!UICONTROL Edit]**&#x200B;をクリックします。 [&#x200B; プレースメント設定を編集](/help/dsp/campaign-management/placements/placement-settings.md)し、**[!UICONTROL Update placement]**&#x200B;をクリックします。
 
-   * プレースメントの在庫ターゲットから取引を削除するには、プレースメント行の上にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Detach Placement]** をクリックします。 確認メッセージで、「**[!UICONTROL Yes]**」をクリックします。
+   * プレースメントの在庫目標から取引を削除するには、プレースメント行の上にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Detach Placement]**&#x200B;をクリックします。 確認メッセージで、**[!UICONTROL Yes]**&#x200B;をクリックします。
 
-     プレースメントを分離しても、プレースメントは削除されません。
+     プレースメントをアタッチ解除しても、プレースメントは削除されません。
 
-   * 広告の設定を編集するには、広告行にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Edit]** をクリックします。 [&#x200B; 広告設定を編集 &#x200B;](/help/dsp/campaign-management/ads/ad-edit.md) し、「**[!UICONTROL Save & submit for review]**」をクリックします。
+   * 広告の設定を編集するには、広告行の上にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Edit]**&#x200B;をクリックします。 [広告設定を編集](/help/dsp/campaign-management/ads/ad-edit.md)し、**[!UICONTROL Save & submit for review]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)
->* [&#x200B; 取引 ID のプレースメントと広告の指定 &#x200B;](deal-id-attach-placements.md)
->* [&#x200B; 取引の詳細レポートの表示 &#x200B;](deal-view-report.md)
->* [&#x200B; プレースメント診断レポートの表示 &#x200B;](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [&#x200B; プライベートインベントリについて](private-inventory-about.md)
+>* [取引IDのプレースメントと広告を指定](deal-id-attach-placements.md)
+>* [取引に関する詳細なレポートを表示](deal-view-report.md)
+>* [&#x200B; プレースメント診断レポートを表示](/help/dsp/campaign-management/reports/placement-diagnostics.md)

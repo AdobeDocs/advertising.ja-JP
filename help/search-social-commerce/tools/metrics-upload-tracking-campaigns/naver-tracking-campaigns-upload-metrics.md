@@ -1,33 +1,40 @@
 ---
-title: トラッキング専用アカウントのトラフィックおよびコンバージョン指標  [!DNL Naver]  アップロード
-description: アカウントのトラッキングとレポート専用のトラフィック指標とコンバージョン指標をアップロードする方法  [!DNL Naver]  説明します。
+title: ' [!DNL Naver]  トラッキング専用アカウントのトラフィックとコンバージョン指標をアップロード'
+description: ' [!DNL Naver]  アカウントのトラッキングとレポート用のトラフィックとコンバージョン指標をアップロードする方法について説明します。'
 exl-id: 2e4c26fa-16a8-4f36-bc17-b3a38a18120b
 feature: Search Tools
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/vmx5EJXshqcimgaiZLntRL2ydVi7S-toZHdmIaVlFwE
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: 137
 ht-degree: 0%
 
 ---
 
-# [!DNL Naver] のトラッキング専用アカウントのトラフィックおよびコンバージョン指標のアップロード
+# [!DNL Naver]個のトラッキング専用アカウントのトラフィックとコンバージョン指標をアップロード
 
-*Naver アカウントのみ*
+*ネイバーアカウントのみ*
 
-広告ネットワークアカウントの追跡とレポートにのみ、日別に集計されたトラフィック指標とコンバージョン指標の TSV、CSV、TXT ファイルをアップロードできます。 データは [&#x200B; 指定された形式 &#x200B;](naver-tracking-campaigns-data-requirements.md) に従う必要があります。 検索、ソーシャル、Commerceに存在しないエンティティのデータがファイルに含まれている場合、それらの行はスキップされます。
+広告ネットワークアカウントに対してのみ、トラッキングとレポート用に、日別集計トラフィック指標とコンバージョン指標のTSV、CSV、またはTXT ファイルをアップロードできます。 データは、[指定された形式](naver-tracking-campaigns-data-requirements.md)に従う必要があります。 ファイルにSearch、Social、およびCommerceに存在しないエンティティのデータが含まれている場合、それらの行はスキップされます。
 
-検索、ソーシャル、Commerceで、データが広告ネットワークと同期されず、アカウントの入札も行われません。
+Search, Social, &amp; Commerceでは、データが広告ネットワークと同期したり、アカウントに入札したりすることはありません。
 
-1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Tools]/[!UICONTROL Generic Tracking]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Generic Tracking]**&#x200B;をクリックします。
 
 1. 広告ネットワークを選択します。
 
-1. **[!UICONTROL Choose File]** をクリックして、デバイスまたはネットワーク上のファイルを探します。
+1. **[!UICONTROL Choose File]**&#x200B;をクリックして、デバイスまたはネットワーク上のファイルを見つけます。
 
-1. 「**[!UICONTROL Upload]**」をクリックします。
+1. **[!UICONTROL Upload]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 実装  [!DNL Naver]  トラッキング専用アカウント &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
->* [&#x200B; 付録 – アカウントに必須のバルクシ  [!DNL Naver]  トデータ &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
->* [&#x200B; トラッキング専用アカウント  [!DNL Naver]  指標データ要件 &#x200B;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
+>* [&#x200B; トラッキング専用アカウントを実装 [!DNL Naver] します](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [付録 –  [!DNL Naver]  アカウント &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)に必要なバルクシート データ
+>* [&#x200B; トラッキング専用アカウント  [!DNL Naver] の](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)指標データ要件

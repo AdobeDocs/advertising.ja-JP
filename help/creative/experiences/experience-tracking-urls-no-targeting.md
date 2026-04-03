@@ -1,62 +1,69 @@
 ---
-title: ターゲティングを使用しないエクスペリエンス用のトラッキング URL のカスタマイズ
-description: 決定ツリーターゲティングを使用せずに、エクスペリエンスで各クリエイティブのトラッキング URL をカスタマイズする方法を説明します。
+title: ターゲティングなしでエクスペリエンスのトラッキング URLをカスタマイズする
+description: 決定木ターゲティングを使用せずに、エクスペリエンスの各クリエイティブのトラッキング URLをカスタマイズする方法を説明します。
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/0NvlDveOyfCjAIIXJ-lgdOQbI56tLvvutOaXrUu9fCk
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: 352
 ht-degree: 0%
 
 ---
 
-# デシジョンツリーのターゲット設定を使用しないエクスペリエンス用のトラッキング URL のカスタマイズ
+# 決定木ターゲティングを使用しないエクスペリエンスのトラッキング URLをカスタマイズする
 
-決定ツリーターゲティングのないエクスペリエンスの場合、広告エクスペリエンスタグに使用する個々のクリエイティブごとに、最大 5 つのカスタムインプレッショントラッキング URL、5 つのカスタムクリックトラッキング URL、1 つのカスタムランディングページ URL を作成できます。 [!UICONTROL Tag Manager] 内からトラッキング URL をカスタマイズできます。
+決定木ターゲティングを使用しないエクスペリエンスの場合、広告体験タグに使用するクリエイティブごとに、最大5つのカスタムインプレッション追跡URL、5つのカスタムクリックトラッキング URL、1つのカスタムランディングページ URLを作成できます。 トラッキング URLは、[!UICONTROL Tag Manager]内からカスタマイズできます。
 
-カスタム URL は、広告エクスペリエンスタグから作成された広告にのみ使用され、[!UICONTROL Creative Libraries] のベースのクリエイティブ設定には保存されません。
+カスタム URLは、広告エクスペリエンスタグから作成された広告にのみ使用され、[!UICONTROL Creative Libraries]の基本クリエイティブ設定には保存されません。
 
-1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;をクリックします。
 
 1. 次のいずれかの操作を行います。
 
-   * カード表示で、エクスペリエンス名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Tag Manager]**」をクリックします。
+   * カード表示で、エクスペリエンス名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Tag Manager]**&#x200B;をクリックします。
 
-   * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Tag Manager]** をクリックします。
+   * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL More]**&#x200B;をクリックしてから、**[!UICONTROL Tag Manager]**&#x200B;をクリックします。
 
 1. （広告サイズのタグが存在しない場合）該当するクリエイティブサイズのタグを作成します。
 
-   エクスペリエンスに使用するクリエイティブサイズごとに 1 つ以上のタグを作成できます。
+   エクスペリエンスに使用するクリエイティブサイズごとに1つ以上のタグを作成できます。
 
-   1. 右上で、「**[!UICONTROL Create Tag]**」をクリックします。
+   1. 右上の「**[!UICONTROL Create Tag]**」をクリックします。
 
-   1. 一意の **[!UICONTROL Tag name]** を入力し、**[!UICONTROL Tag size]** を選択します。
+   1. 一意の&#x200B;**[!UICONTROL Tag name]**&#x200B;を入力し、**[!UICONTROL Tag size]**&#x200B;を選択します。
 
-      エクスペリエンスのデフォルトクリエイティブのサイズによって、使用可能なサイズが決まります。
+      エクスペリエンスのデフォルトクリエイターのサイズによって、使用可能なサイズが決まります。
 
-   1. 「**[!UICONTROL Create]**」をクリックします。
+   1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
-1. 該当する広告タグの行の上にカーソルを置き、![&#x200B; トラッキング URL を編集 &#x200B;](/help/creative/assets/edit-gray.png " トラッキング URL を編集 ") **[!UICONTROL Tracking URLs]** をクリックします。<!-- For targeted experiences, this is "EDIT Tracking URLs"  Tag Manager has only a list view, but no card view, as of 2/2. -->
+1. 該当する広告タグの行の上にカーソルを置き、![&#x200B; トラッキング URLの編集](/help/creative/assets/edit-gray.png " トラッキング URLの編集") **[!UICONTROL Tracking URLs]**&#x200B;をクリックします。<!-- For targeted experiences, this is "EDIT Tracking URLs"  Tag Manager has only a list view, but no card view, as of 2/2. -->
 
-   「[!UICONTROL Click Tracking URLs]」、「[!UICONTROL Impression Tracking URLs]」および「[!UICONTROL Landing URLs]」タブには、割り当てられたバンドル内の該当するサイズのすべてのクリエイティブの名前が一覧表示されます。 エクスペリエンスのデフォルトクリエイティブのサイズによって、使用可能なサイズが決まります。<!-- There's no distinct "Creative Sizes" setting. -->
+   「[!UICONTROL Click Tracking URLs]」、「[!UICONTROL Impression Tracking URLs]」、「[!UICONTROL Landing URLs]」タブには、割り当てられたバンドル内の該当するサイズのすべてのクリエイターの名前が一覧表示されます。 エクスペリエンスの既定のクリエイターのサイズによって、使用可能なサイズが決まります。<!-- There's no distinct "Creative Sizes" setting. -->
 
-1. 「**[!UICONTROL Click Tracking URLs]**」、「**[!UICONTROL Impression Tracking URLs]**」、「**[!UICONTROL Landing URLs]**」の各タブで、必要に応じてクリエイティブごとに次の操作を行います。
+1. **[!UICONTROL Click Tracking URLs]**、**[!UICONTROL Impression Tracking URLs]**、**[!UICONTROL Landing URLs]**&#x200B;の各タブで、必要に応じて各クリエイティブについて次の操作を行います。
 
    1. クリエイティブの行を展開します。
 
-   1. 次のいずれかの操作をおこないます。
+   1. 次のいずれかの操作を行います。
 
-      * カスタム URL を追加または編集するには、入力フィールドに URL を入力します。
+      * カスタム URLを追加または編集するには、入力フィールドにURLを入力します。
 
-      * 別のカスタム URL を追加するには、「**[!UICONTROL +]**」をクリックし、入力フィールドに URL を入力します。
+      * 別のカスタム URLを追加するには、**[!UICONTROL +]**&#x200B;をクリックし、入力フィールドにURLを入力します。
 
-      * カスタム URL を削除するには、クリエイティブ行の上にカーソルを置き、「![&#x200B; 削除 &#x200B;](/help/creative/assets/delete.png " 削除 ")」をクリックします。
+      * カスタム URLを削除するには、クリエイティブ行の上にカーソルを置き、![削除](/help/creative/assets/delete.png "削除")をクリックします。
 
-      最大 5 つのカスタムインプレッショントラッキング URL、5 つのカスタムクリックトラッキング URL、1 つのカスタムランディングページ URL を含めることができます。
+      最大5つのカスタムインプレッショントラッキング URL、5つのカスタムクリックトラッキング URL、1つのカスタムランディングページ URLを含めることができます。
 
-1. 「**[!UICONTROL Save]**」をクリックします。
+1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て &#x200B;](experience-tag-assign-creatives.md)
->* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンス用のトラッキング URL のカスタマイズ &#x200B;](experience-tracking-urls-targeting.md)
+>* [&#x200B; ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
+>* [決定木ターゲティングを使用したエクスペリエンスのトラッキング URLをカスタマイズする](experience-tracking-urls-targeting.md)

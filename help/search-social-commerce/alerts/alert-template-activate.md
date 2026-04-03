@@ -1,36 +1,43 @@
 ---
-title: カスタムアラートテンプレートのアクティブ化
-description: 一時停止のアラートテンプレートをアクティブ化する方法について説明します。
+title: カスタムアラートテンプレートのアクティベーション
+description: 一時停止したアラートテンプレートをアクティブ化する方法を説明します。
 exl-id: d821d431-24fc-45ee-bb3f-7c9691ab15be
 feature: Search Alerts
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/i7U9FYylwzMpsUTot2mI4nn--f3MLjvpav1568UT2HE
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: 132
 ht-degree: 0%
 
 ---
 
-# カスタムアラートテンプレートのアクティブ化
+# カスタムアラートテンプレートのアクティベーション
 
-一時停止したアラートテンプレートをアクティブ化できます。
+一時停止したアラートテンプレートを有効にすることができます。
 
-1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Custom Alerts]** をクリックし、アラートテンプレート ビューを開きます。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**&#x200B;をクリックすると、アラートテンプレートビューが開きます。
 
-1. 次のいずれかの操作をおこないます。
+1. 次のいずれかの操作を行います。
 
-   * （1 つのテンプレートをアクティブにするには）テンプレートの行で、[!UICONTROL Status] 列内をクリックして選択 *[!UICONTROL Active]* ます。
+   * （1つのテンプレートをアクティブ化するには） テンプレート行で、[!UICONTROL Status]列内をクリックし、*[!UICONTROL Active]*&#x200B;を選択します。
 
-   * （1 つ以上のテンプレートをアクティベートする場合）アクティベートする各アラートテンプレートの横にあるチェックボックスをオンにします。 ツールバーで、「![&#x200B; アクティベート &#x200B;](/help/search-social-commerce/assets/activate.png " アクティベート ")」をクリックします。 ダイアログボックスで、「**[!UICONTROL Activate]**」をクリックします。
+   * （1つ以上のテンプレートをアクティベートするには）アクティベートする各アラートテンプレートの横にあるチェックボックスをオンにします。 ツールバーで、![&#x200B; アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。 ダイアログボックスで、**[!UICONTROL Activate]**&#x200B;をクリックします。
 
-     複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+     複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムアラートについて &#x200B;](alert-about.md)
->* [&#x200B; カスタムアラートテンプレートの作成 &#x200B;](alert-template-create.md)
->* [&#x200B; カスタムアラートテンプレートの編集 &#x200B;](alert-template-edit.md)
->* [&#x200B; カスタムアラートテンプレートの一時停止 &#x200B;](alert-template-pause.md)
->* [&#x200B; カスタムアラートテンプレートの削除 &#x200B;](alert-template-delete.md)
->* [&#x200B; カスタムアラートテンプレートの設定 &#x200B;](alert-template-settings.md)
->* [&#x200B; カスタムアラートの表示 &#x200B;](alert-view.md)
->* [&#x200B; カスタムアラートのデータのエクスポート &#x200B;](alert-export-data.md)
+>* [&#x200B; カスタムアラートについて](alert-about.md)
+>* [&#x200B; カスタムアラートテンプレートを作成](alert-template-create.md)
+>* [&#x200B; カスタムアラートテンプレートの編集](alert-template-edit.md)
+>* [&#x200B; カスタムアラートテンプレートを一時停止](alert-template-pause.md)
+>* [&#x200B; カスタムアラートテンプレートを削除](alert-template-delete.md)
+>* [&#x200B; カスタムアラートテンプレート設定](alert-template-settings.md)
+>* [&#x200B; カスタムアラートの表示](alert-view.md)
+>* [&#x200B; カスタムアラート用にデータを書き出し](alert-export-data.md)

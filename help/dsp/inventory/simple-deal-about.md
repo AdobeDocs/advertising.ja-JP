@@ -1,39 +1,50 @@
 ---
-title: '[!UICONTROL Simple Ad Serving] について'
-description: イベント追跡ピクセルを使用した [!UICONTROL Simple Ad Serving] 取引について説明します。
+title: '[!UICONTROL Simple Ad Serving]について'
+description: イベントトラッキングピクセルを使用した[!UICONTROL Simple Ad Serving]件の取引について説明します。
 feature: DSP Simple Ad Serving
 exl-id: 327a2c93-d729-42e1-856f-f0e05efab7ca
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/w4KFePatd7CZ1xC8dd1CItl88-6myAZw8TuatHzHnRI
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: 227
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Simple Ad Serving] について
+# [!UICONTROL Simple Ad Serving]について
 
-[!UICONTROL Simple Ad Serving] は、1 つの専用プレースメントを使用して、指定されたパブリッシャーおよび 1 つの広告タイプに対して、保証された、決定されていない広告の配信およびレポートを提供します。 パブリッシャーが取引 ID を使用して取引を実行できない場合は、[!DNL Simple Ad Serving] を使用します。 すべてのターゲティング、予算ペーシングとキャッピング、フリークエンシーキャップは、パブリッシャーが処理します。 これらの取引をイベントトラッキングピクセルで実行します。
+[!UICONTROL Simple Ad Serving]は、指定されたパブリッシャーと単一の広告タイプに対して、単一の専用プレースメントを使用する、決定されていない保証付き広告の配信とレポートを提供します。 発行者が案件IDで案件を実行できない場合は、[!DNL Simple Ad Serving]を使用します。 ターゲティング、予算のペーシングとキャッピング、頻度のキャッピングはすべてメディア企業が処理します。 イベントトラッキングピクセルを通じて契約を実行します。
 
-[!UICONTROL Simple Ad Serving] では、各広告はパブリッシャー（サイトサーバー）から直接提供され、DSPはイベントトラッキングピクセルを提供してパブリッシャーに送信します。パブリッシャーはピクセルを実装し、DSP広告をトラフィック処理する必要があります。 在庫タイプに応じて、イベントピクセルは、インプレッション、クリックスルーおよびビデオ再生イベントを測定します。
+[!UICONTROL Simple Ad Serving]では、各広告はパブリッシャー（サイトサービス）によって直接配信され、DSPはパブリッシャーに送信するイベントトラッキングピクセルを提供します。パブリッシャーは、DSP広告を実装してトラフィックを送信する必要があります。 在庫の種類に応じて、イベントピクセルはインプレッション、クリックスルー、動画再生イベントを測定します。
 
 次の広告タイプを使用できます。
 
-* デスクトップ標準プリロール
-* タブレットおよびモバイルの標準プリロール
-* 接続された TV 標準プリロール
+* デスクトップ標準プレロール
+* タブレットおよびモバイル標準のプレロール
+* コネクテッド TV標準プレロール
 * 表示
-* 音声
+* オーディオ
 
-[!UICONTROL Simple Ad Serving]/[!UICONTROL Inventory] ビューで [!UICONTROL Deals] しい取引を作成できます。 DSPは、サブタイプ「[!DNL Simple ad serving]」の広告のプレースメントを自動的に生成します。 プレースメントは契約をターゲットにしますが、追加のターゲティング、予算、フリークエンシーキャップは許可しません。 取引名、CPM、インプレッション数、取引日など、一部の取引設定のみを編集できます。<!-- If you need multiple tracking tags for a [!UICONTROL Simple Ad Serving] deal, create a duplicate deal. -->
+[!UICONTROL Simple Ad Serving] > [!UICONTROL Inventory] ビューで[!UICONTROL Deals]件の取引を作成できます。 DSPは、広告のサブタイプ「[!DNL Simple ad serving]」を含むプレースメントを自動的に生成します。 プレースメントは取引をターゲットにしていますが、追加のターゲティング、予算、頻度の上限は許可されていません。 取引名、CPM、インプレッション、フライト日など、一部の取引設定のみを編集できます。<!-- If you need multiple tracking tags for a [!UICONTROL Simple Ad Serving] deal, create a duplicate deal. -->
 
-[!UICONTROL Simple Ad Serving] のプレースメントは、アカウントの使用可能な資金や、キャンペーンおよびパッケージの予算に準拠していません。 ただし、費用は追跡され、これらの予算にカウントされます。 CPMが$0 の場合でも、イベントデータは常にトラッキングされます。
+[!UICONTROL Simple Ad Serving]件のプレースメントは、アカウントの使用可能な資金またはキャンペーンとパッケージの予算に準拠していません。 しかし、それらの予算に対して支出を追跡し、カウントします。 CPMが0 ドルの場合でも、イベントデータは常に追跡されます。
 
 >[!MORELIKETHIS]
 >
->* [[!UICONTROL Simple Ad Serving] しい取引の作成 &#x200B;](simple-deal-create.md)
->* [[!UICONTROL Simple Ad Serving] 取引設定の編集 &#x200B;](simple-deal-edit.md)
->* [[!UICONTROL Simple Ad Serving] 設定 &#x200B;](simple-deal-settings.md)
->* [&#x200B; 取引の詳細レポートの表示 &#x200B;](/help/dsp/inventory/deal-view-report.md)
+>* [[!UICONTROL Simple Ad Serving]件の取引を作成](simple-deal-create.md)
+>* [取引設定[!UICONTROL Simple Ad Serving]を編集](simple-deal-edit.md)
+>* [[!UICONTROL Simple Ad Serving]設定](simple-deal-settings.md)
+>* [取引に関する詳細なレポートを表示](/help/dsp/inventory/deal-view-report.md)
 
 <!--
  add back when reimplemented:

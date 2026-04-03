@@ -1,29 +1,36 @@
 ---
-title: '[!DNL Yahoo! Japan Ads] キーワードの設定'
-description: キーワードの設定  [!DNL Yahoo! Japan Ads]  参照します。
+title: '[!DNL Yahoo! Japan Ads] キーワード設定'
+description: ' [!DNL Yahoo! Japan Ads]  キーワードの設定を参照してください。'
 exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
 feature: Search Campaign Management
-source-git-commit: cfb7cf030d91ed6b2b31832fd8ab8c97135477f3
+TQID: https://experienceleague.adobe.com/QE-TpsuMQW3Tmqv5clGPcMvyeJIYDPMQJMiK79eOKms
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: 141
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads] キーワードの設定
+# [!DNL Yahoo! Japan Ads] キーワード設定
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** キーワード。 キーワードの最大長は 80 文字で、任意の [[!DNL Yahoo! Japan Ads]  一致タイプの構文 &#x200B;](https://ads-help.yahoo-net.jp/s/article/H000044997) を含みます。
+**[!UICONTROL Keywords]:** キーワード。 最大長は80文字で、キーワードの[[!DNL Yahoo! Japan Ads] 一致タイプ構文](https://ads-help.yahoo-net.jp/s/article/H000044997)を含みます。
 
-最大 2000 個のキーワードを入力または貼り付けできます。 複数のキーワードをコンマで区切るか、別々の行に入力します。
+最大2000個のキーワードを入力または貼り付けることができます。 複数のキーワードをコンマで区切るか、別々の行に入力します。
 
 >[!NOTE]
 >
->* ネガティブキーワードは、[!UICONTROL Keywords] / [!UICONTROL Negatives] ビューや、広告グループおよびキャンペーン設定で作成できます。
->* Yahoo! 日本のキーワードと一致するタイプは可変なので、既存のキーワードを削除せずに編集できます。
+>* 負のキーワードは、[!UICONTROL Keywords] > [!UICONTROL Negatives] ビューと、広告グループおよびキャンペーン設定で作成できます。
+>* Yahoo! 日本のキーワードと一致タイプは可変であるため、既存のキーワードを削除せずに編集できます。
 
-**[!UICONTROL Status]:** キーワードの表示ステータス：*アクティブ* または *一時停止*。 新しいキーワードのデフォルトは *アクティブ* です。
+**[!UICONTROL Status]:** キーワードの表示ステータス：*アクティブ*&#x200B;または&#x200B;*一時停止*。 新しいキーワードのデフォルトは&#x200B;*Active*&#x200B;です。
 
 ## [!UICONTROL Bids]
 
@@ -31,11 +38,11 @@ ht-degree: 0%
 
 {{$include /help/_includes/bid-keyword.md}}
 
-## プレースホルダ
+## プレースホルダー
 
-**[!UICONTROL Param1]:** ベース URL またはトラッキングテンプレートに `{param1}` [&#x200B; カスタムパラメーター &#x200B;](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US) が含まれる場合に、置換値として使用する文字列。
+**[!UICONTROL Param1]:** ベース URLまたはトラッキングテンプレートに`{param1}` [&#x200B; カスタムパラメーター](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US)が含まれている場合に、代用値として使用する文字列。
 
-**[!UICONTROL Param2]:** ベース URL またはトラッキングテンプレートに `{param2}` [&#x200B; カスタムパラメーター &#x200B;](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US) が含まれる場合に、置換値として使用する文字列。
+**[!UICONTROL Param2]:** ベース URLまたはトラッキングテンプレートに`{param2}` [&#x200B; カスタムパラメーター](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US)が含まれている場合に、代用値として使用する文字列。
 
 ## URL オプション
 
@@ -49,4 +56,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キーワードの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [&#x200B; キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

@@ -1,20 +1,27 @@
 ---
 title: '[!DNL Yahoo! Japan Ads] キャンペーン設定'
-description: キャンペーンの設定  [!DNL Yahoo! Japan Ads]  参照します。
+description: ' [!DNL Yahoo! Japan Ads]  キャンペーンの設定を参照します。'
 exl-id: 29acde0f-13f6-422d-b611-23ebb2ee70d9
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/okWpkqtz0o33r--74ZV2f-f8-1G9ieVY-oei-YSk4hk
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: 117
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads] キャンペーンの設定
+# [!DNL Yahoo! Japan Ads] キャンペーン設定
 
 ## \[ キャンペーン作成画面\]
 
-**[!UICONTROL Campaign Type]:** （キャンペーンの作成時にのみ使用可能）広告の配置場所：検索ネットワーク上にテキスト広告を表示する唯一のオプションが *[!UICONTROL Search Network Only]* ります。
+**[!UICONTROL Campaign Type]:** （キャンペーン作成時のみ利用可能）広告を配置する場所：検索ネットワークにテキスト広告を表示するオプションは&#x200B;*[!UICONTROL Search Network Only]*&#x200B;のみです。
 
 ## [!UICONTROL Campaign Details]
 
@@ -24,7 +31,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Status]:** キャンペーンの表示ステータス：*アクティブ* または *一時停止*。 新しい広告キャンペーンのデフォルトは *アクティブ* です。
+**[!UICONTROL Status]:** キャンペーンの表示ステータス：*アクティブ*&#x200B;または&#x200B;*一時停止*。 新規広告キャンペーンのデフォルトは&#x200B;*アクティブ*&#x200B;です。
 
 <!-- **[!UICONTROL End date]:** -->
 
@@ -32,9 +39,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Budget Options]
 
-**[!UICONTROL Budget]:** 予算は、毎日の平均支払額です。 1 日の最低予算は 100 円です。
+**[!UICONTROL Budget]:** 1日当たりの支出額である予算を平均で指定します。 1日の最低予算は100円です。
 
-このキャンペーンを、キャンペーン予算の上限が自動的に調整されるポートフォリオに割り当てると、検索条件によっては、特定の期間に指定した予算よりも多く、または少ない費用を実際に費やすことができます。
+キャンペーンの予算制限を自動的に調整するポートフォリオにこのキャンペーンを割り当てると、検索条件に応じて、特定の期間に指定された予算以上または下回る予算を実際に費やすことができます。
 
 <!-- **[!UICONTROL Delivery Method]:** -->
 
@@ -94,4 +101,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーンの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [&#x200B; キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)

@@ -3,89 +3,104 @@ title: ユースケース
 description: Advertising DSP メディアデータをAudience Managerと共有するユースケースについて説明します
 feature: Integration with Adobe Audience Manager
 exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/bEvS7Wb-Xk0nHAchL60c3AUNm7K4S2p3tBxJ2aWWevA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: 730
 ht-degree: 0%
 
 ---
 
-# Adobe Audience Managerでのメディア露出データのキャプチャのユースケース
+# Adobe Audience Managerでメディア露出データを取得するユースケース
 
 *Advertising DSPのみの広告主*
 
-*Adobe AdvertisingとAdobe Audience Managerの統合のみを利用する広告主*
+*Adobe AdvertisingとAdobe Audience Managerの統合のみを使用する広告主*
 
-Advertising DSPのメディア露出データをAudience Managerでキャプチャする利点を次に示 <!-- ad impression data? --> ます。
+Audience ManagerでAdvertising DSP メディア露出データ <!-- ad impression data? -->をキャプチャすると、次のようなメリットが得られます。
 
 ## 最新性と頻度の管理
 
-Audience Managerでインプレッションデータを取得すると、特定の広告やキャンペーンにさらされたユーザーのセグメントを作成することで、頻度管理を強化できます。 これらのセグメントは、頻度を高める場合は広告ターゲティングに、頻度を制限する場合は広告抑制に使用できます。
+Audience Managerでインプレッションデータを取得すると、特定の広告やキャンペーンに接触したオーディエンスのセグメントを作成することで、頻度の管理を強化できます。 これらのセグメントは、頻度を上げる場合は広告ターゲティングに、頻度を制限する場合は広告サプレッションに使用できます。
 
-また、Audience Manager [!DNL Segment Builder] を使用すると、アクションにつながるシグナルを含むすべての [&#x200B; ルールベースの特性 &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html?lang=ja) に [&#x200B; 最新性と頻度の制御 &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=ja) を適用できます。 これにより、例えば、メディアキャンペーン内で特定のクリエイティブをユーザーに表示する回数を制限できます。 この方法については、「[&#x200B; インスタントクロスデバイス抑制 &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html?lang=ja)」を参照してください。<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
+また、Audience Manager [!DNL Segment Builder]では、実用的なシグナルを含む[&#x200B; ルールベースの特性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html)に[最新性と頻度の制御](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html)を適用できます。 これにより、例えば、ユーザーがメディアキャンペーン内で特定のクリエイティブを表示される回数を制限できます。 この方法については、「[即時クロスデバイス抑制](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html)」を参照してください。<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
 
-## 順次メッセージ
+## シーケンシャルメッセージ
 
-インプレッションデータをキャプチャすることで、キャンペーンや広告の対象となったユーザーのセグメントを作成でき、このセグメントを使用して順次メッセージや抑制を行うことができます。 例えば、クリエイティブリク `123` ストを表示したけれどクリックやコンバージョンをおこなわなかったユーザーを、クリエイティブリター `456` スを表示することでリターゲットできます。
+インプレッションデータを取得することで、キャンペーンや広告に露出したユーザーセグメントを作成し、このセグメントをシーケンシャルメッセージや抑制に使用できます。 例えば、クリエイティブ `123`を見たものの、クリックまたはコンバージョンしなかったユーザーを、クリエイティブ `456`を表示してリターゲティングできます。
 
 この例をAudience Managerで実行するには、次の手順に従います。<!-- The AM pulled this example/procedure verbatim from AEM doc; I changed only a word or two. -->
 
-1. クリエイティブを閲覧したユーザーを取り込むための特性を作成します。
+1. 特性を作成して、そのクリエイティブを見たユーザーをキャプチャします。
 
-   例えば、特性に `Creative Trait 123` という名前を付けるには、次の特性ルールを使用します。
+   例えば、特性`Creative Trait 123`に名前を付けるには、次の特性ルールを使用します。
 
    ```
    d_creative == 123 AND d_event == imp
    ```
 
-1. クリックしたユーザーや変換したユーザーをキャプチャするための特性を作成します。
+1. クリックまたはコンバージョンしたユーザーをキャプチャするための特性を作成します。
 
-   例えば、この特性に `Click and Converter` という名前を付けるには、次の特性ルールを使用します。
+   例えば、この特性に`Click and Converter`という名前を付けるには、次の特性ルールを使用します。
 
    ```
    d_event == click OR d_event=conv
    ```
 
-1. クリエイティブリク `Retarget Users` ストを表示したがクリックやコンバージョンを行わなかったユーザーを入力する、`123` という名前のセグメントを作成します。 次の特性ルールを使用します。
+1. 「`Retarget Users`」という名前のセグメントを作成して、クリエイティブ `123`を見たものの、クリックまたはコンバージョンしなかったユーザーを入力します。 次の特性ルールを使用します。
 
    ```
    Creative Trait 123 AND NOT Click and Converter
    ```
 
-1. クリエイティブ `Retarget Users` を使用して、セグメント `456` を宛先にマッピングし、宛先のターゲットユーザーをマッピングします。
+1. セグメント `Retarget Users`を宛先にマッピングし、クリエイティブ `456`を使用して宛先内のユーザーをターゲットにします。
 
-## [!DNL Adobe Audience Analytics] と campaign の公開データ
+## [!DNL Adobe Audience Analytics]とキャンペーンの露出データ
 
-キャンペーンのインプレッションとクリックのデータをAudience Manager内で使用できるようになったら、特定のキャンペーンや戦術に晒された、またはこれらとインタラクションを受けたユーザーの特性とセグメントを作成できます。 [[!DNL Audience Analytics] integration](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja) を使用すると、Audience Managerのセグメントを [!DNL Analytics] と同期して、さらに分析できます。 考えられるユースケースを次に示します。
+Audience Managerでキャンペーンのインプレッション数とクリック数のデータを利用できるようになると、特定のキャンペーンや戦術に接触したり、接触したりしたオーディエンスの特性とセグメントを構築できます。 [[!DNL Audience Analytics] 統合](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)を使用すると、Audience Manager セグメントを[!DNL Analytics]と同期して、さらに詳しく分析できます。 次のようなユースケースが考えられます。
 
-* **DSPと [!DNL Advertising Search, Social, & Commerce] 広告のインタラクション分析：** 標準の [[!DNL Analytics for Advertising] integration](/help/integrations/analytics/overview.md) では、DSPと [!DNL Search, Social, & Commerce] のインタラクションに関するインサイトは提供されません。これは、両方のチャネルで、AMO ID アトリビューションルールに従う AMO ID が使用され、検索クリックが表示ビュースルーを上書きするからです。 Audience ManagerでDSPの公開セグメントを作成すると、[!DNL Audience Analytics] を使用してDSPと [!DNL Search, Social, & Commerce] の [!DNL Analytics] 広告の間のインタラクションを分析できます。
+* **DSPと[!DNL Advertising Search, Social, & Commerce]広告のインタラクション分析：**&#x200B;標準の[[!DNL Analytics for Advertising] 統合](/help/integrations/analytics/overview.md)では、DSPと[!DNL Search, Social, & Commerce]のインタラクションに関するインサイトは提供されません。これは、両方のチャネルでAMO ID アトリビューションルールに従うAMO IDが使用され、検索クリックで表示ビュースルーが上書きされるためです。 Audience ManagerでDSP露出セグメントを作成すると、[!DNL Audience Analytics]を使用して、[!DNL Search, Social, & Commerce]のDSP広告と[!DNL Analytics]広告のインタラクションを分析できます。
 
-* **頻度分析：** 特定の広告またはキャンペーンにユーザーが露出した回数に基づいて、Audience Managerでセグメントを作成できます。 その後、Analytics で様々な露出セグメントを分析し、DSPでの露出数に応じてユーザーの行動がどのように変化するかを確認できます。
+* **頻度分析：** ユーザーが特定の広告またはキャンペーンに接触した回数に基づいて、Audience Managerでセグメントを作成できます。 次に、Analyticsで様々な露出セグメントを分析して、DSPの露出の数に応じてユーザーの動作がどのように変化するかを確認できます。
 
 ## [!DNL Audience Optimization Reports]
 
-[Audience Manager [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html?lang=ja) を活用して、キャンペーン全体でセグメントの潜在的なパフォーマンスの機会を特定できます。 これらのレポートでは、キャンペーンのインプレッション、クリック数およびコンバージョンデータをセグメント指標と組み合わせて、セグメント中心の最適化と効果的なチャネルミックスを示します。
+[Audience Manager [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html?lang=ja)を活用して、キャンペーン全体のセグメントの潜在的なパフォーマンスオポチュニティを特定できます。 これらのレポートは、キャンペーンのインプレッション、クリック、コンバージョンのデータをセグメント指標と組み合わせ、セグメント中心の最適化と効果的なチャネルミックスに役立つ情報を提供します。
 
-### 関連するAudience Optimization レポートのタイプ
+### Audience Optimization関連レポートの種類
 
-| 報告書 | 説明 |
+| レポート | 説明 |
 | ------ | ----------- |
-| [[!UICONTROL Segment Performance] Report](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html?lang=ja) | マッピングされたセグメントとマッピングされていないセグメントをインプレッション数とコンバージョン率で比較します。 |
-| [[!UICONTROL Trend Analysis and Volume Analysis] Reports]9https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/trend-analysis-volume-analysis.html） | 様々な広告ディメンションのインプレッション数、クリックスルー率およびコンバージョン数に関するデータを返します。 |
-| [[!UICONTROL Optimal Frequency] Report](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/optimal-frequency.html?lang=ja) | 提供されたインプレッション数とコンバージョン数の最適なバランスを見つけるのに役立ちます。 これにより、表示するインプレッション数を調整してから、リターンの減少を確認できます。 |
-| [[!UICONTROL Unique User Reach] Report](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html?lang=ja) | バブルチャート。選択したディメンションの一意のユーザーの数に直接比例して、各バブルのサイズが調整されます。 |
+| [[!UICONTROL Segment Performance] レポート &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html?lang=ja) | インプレッションとコンバージョン率によって、マッピングされたセグメントとマッピングされていないセグメントを比較します。 |
+| [[!UICONTROL Trend Analysis and Volume Analysis] レポート ]9https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/trend-analysis-volume-analysis.html） | 幅広い広告ディメンションのインプレッション、クリックスルー率、コンバージョンに関するデータを返します。 |
+| [[!UICONTROL Optimal Frequency] レポート &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/optimal-frequency.html) | 配信されたインプレッション数とコンバージョン数の最適なバランスを把握するのに役立ちます。 リターンの減少を確認する前に、表示するインプレッション数を調整できます。 |
+| [[!UICONTROL Unique User Reach] レポート &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html) | バブルチャート：選択したディメンションのユニークユーザー数に直接比例して、各バブルのサイズが表示されます。 |
 
 ### 検討事項
 
-* [!DNL Audience Optimization Reports] ユーザーがロールベースのアクセス制御（RBAC）を持 [!DNL Adobe Customer Care] 場合、広告主 ID と組織のAudience Manager データソース統合コードとのマッピングを設定する必要があります。 その後、管理者ユーザーは、様々なユーザーに RBAC 権限を提供できます。
+* [!DNL Audience Optimization Reports]人のユーザーにロールベースのアクセス制御（RBAC）がある場合、[!DNL Adobe Customer Care]は、広告主IDと組織のAudience Manager データソース統合コードとのマッピングを設定する必要があります。 管理者ユーザーは、異なるユーザーにRBAC権限を提供できます。
 
-* [!DNL Audience Optimization Reports] のコンバージョンレポートには、エンドユーザーによる設定が必要です。 ユーザーはメタデータファイルにデータを入力する必要があります。
+* [!DNL Audience Optimization Reports]のコンバージョンレポートには、エンドユーザーによる設定が必要です。 ユーザーはメタデータファイルを入力する必要があります。
 
-* [!DNL Audience Optimization Reports] は、キャンペーンメタデータ（キャンペーン名やプレースメント名など）に対する変更をサポートしていません。
+* [!DNL Audience Optimization Reports]は、キャンペーンのメタデータ （キャンペーン名やプレースメント名など）の変更をサポートしていません。
 
-* 検索広告のクリック数は、インプレッション数と相関関係がある場合にのみ [!DNL Audience Optimization Reports] に含まれます。 つまり、検索クリックはインプレッション後のコンバージョンとして扱われます。 その結果、多くの検索クリックが [!DNL Audience Optimization Reports] に含まれない場合があります。
+* 検索広告のクリック数は、インプレッションと関連付けられている場合にのみ[!DNL Audience Optimization Reports]に含まれます。 つまり、検索クリックはインプレッション後のコンバージョンとして扱われます。 その結果、多くの検索クリックが[!DNL Audience Optimization Reports]に含まれない可能性があります。
 
 >[!MORELIKETHIS]
 >
->* [Adobe Audience ManagerへのDSP Media Exposure データの送信の概要 &#x200B;](overview.md)
->* [Advertising DSP キャンペーンからクリックとインプレッションのデータを収集 &#x200B;](collect.md)
+>* [Adobe Audience ManagerへのDSP メディア露出データの送信の概要](overview.md)
+>* [Advertising DSP キャンペーンからクリックとインプレッションのデータを収集](collect.md)

@@ -1,110 +1,119 @@
 ---
-title: バルクシートを使用したパッケージ設定のレビューと編集
-description: スプレッドシートを使用して主要なパッケージ設定を一括でレビューおよび編集する方法を説明します。
+title: バルクシートを使用したパッケージ設定の確認と編集
+description: スプレッドシートを使用して、主要なパッケージ設定を一括で確認および編集する方法について説明します。
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+TQID: https://experienceleague.adobe.com/daZta9ZI28ZyskwnM9RvJO3yGhFCi-DFKapeq5rtuNg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: 715
 ht-degree: 0%
 
 ---
 
-# バルクシートを使用したパッケージ設定のレビューと編集
+# バルクシートを使用したパッケージ設定の確認と編集
 
-1 つ以上のパッケージの設定を XLSX （[!DNL Microsoft Excel] スプレッドシート）形式でダウンロードして確認できます。 *bulksheet* ファイルには、フライト情報を含む別のタブが含まれています。
+レビュー用に、XLSX （[!DNL Microsoft Excel] スプレッドシート）形式の1つ以上のパッケージの設定をダウンロードできます。 *バルクシート* ファイルには、フライト情報を含む別のタブが含まれています。
 
-複数の設定を一度に更新するには、次のいずれかを実行します。
+複数の設定を一度に更新するには、次のいずれかの操作を行います。
 
-* フィールドの選択を変更し、ファイルを保存して、編集したバルクシートファイルをDSPにアップロードして戻します。
+* フィールドを選択し、ファイルを保存し、編集したバルクシートファイルをDSPにアップロードします。
 
-* キャンペーンに追加のパッケージ、プレースメントまたは広告を変更するには、キャンペーンのバルクシートをダウンロードします。 更新した設定を入力またはファイルに貼り付け、ファイルをアップロードして変更します。 手順については、「[&#x200B; バルクシートを使用した Campaign コンポーネント設定の確認と編集 &#x200B;](/help/dsp/campaign-management/campaign-components-review-edit.md) を参照してください。
+* キャンペーン内の追加のパッケージ、プレースメントまたは広告に変更を加えるには、キャンペーンのバルクシートをダウンロードします。 更新された設定をファイルに入力または貼り付け、ファイルをアップロードして変更を加えます。 手順については、「[&#x200B; バルクシートを使用したキャンペーンコンポーネント設定の確認と編集](/help/dsp/campaign-management/campaign-components-review-edit.md)」を参照してください。
 
 編集可能なフィールドには、通常は編集可能なほとんどの設定が含まれています。
 
 >[!TIP]
 >
->1 つ以上のパッケージの複数のフィールドをすばやく編集するには、「[&#x200B; パッケージの編集 &#x200B;](/help/dsp/campaign-management/packages/package-edit.md) を参照してください。
+>1つ以上のパッケージのフィールドをすばやく編集するには、「[&#x200B; パッケージを編集](/help/dsp/campaign-management/packages/package-edit.md)」を参照してください。
 
-## キャンペーン内のすべてのパッケージの設定をダウンロード
+## キャンペーン内のすべてのパッケージの設定のダウンロード
 
-キャンペーン内のすべてのパッケージの設定をダウンロードする場合、バルクシートにはパッケージ設定とフライト情報の別々のタブが含まれます。 オプションで、パッケージに関連付けられるプレースメントおよび広告の設定を含めることができます。プレースメントおよび広告設定用の追加のタブも含まれます。
+キャンペーン内のすべてのパッケージの設定をダウンロードすると、バルクシートには、パッケージ設定とフライト情報のタブが個別に含まれます。 オプションで、パッケージに関連付けられているプレースメントと広告の設定を含めることができます。プレースメントと広告の設定には、追加のタブが含まれます。
 
-1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
+1. メインメニューで、**[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
-1. 次のいずれかの操作をおこないます。
+1. 次のいずれかの操作を行います。
 
-   * キャンペーンの横で、**[!UICONTROL ...]**/**[!UICONTROL Download Bulksheet]** をクリックします。
+   * キャンペーンの横で、**[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**&#x200B;をクリックします。
 
-   * キャンペーン名をクリックします。 右上で、**[!UICONTROL ...]**/**[!UICONTROL Download Bulksheet]** をクリックします。
+   * キャンペーン名をクリックします。 右上で、**[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**&#x200B;をクリックします。
 
-1. [!UICONTROL Bulksheet Download] ダイアログボックスで、ダウンロードしたファイルから設定を除外する Campaign コンポーネントの選択を解除し、「**[!UICONTROL Download]**」をクリックします。
+1. [!UICONTROL Bulksheet Download] ダイアログボックスで、ダウンロードしたファイルから設定を除外するキャンペーンコンポーネントの選択を解除し、**[!UICONTROL Download]**&#x200B;をクリックします。
 
-デフォルトでは、パッケージに関連付けられているすべてのプレースメントと広告の設定が選択されます。
+デフォルトでは、パッケージに関連付けられたすべてのプレースメントと広告の設定が選択されています。
 
-通知メッセージは、ファイルのダウンロードが可能なタイミングを示します。
+ファイルのダウンロードが可能な日時を示す通知メッセージが表示されます。
 
 1. ファイルをダウンロードするには、次のいずれかの操作を行います。
 
-   * 通知メッセージで、「**[!UICONTROL Download].**」をクリックします。
+   * 通知メッセージで、**[!UICONTROL Download].**&#x200B;をクリックします
 
-   * 上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
+   * 上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある&#x200B;**[!UICONTROL Download]**&#x200B;をクリックします。
 
-     ファイルはブラウザーのダウンロードフォルダーに保存されます。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     ファイルはブラウザーのダウンロード フォルダーに保存されます。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
-     設定を編集するには、ファイルを直接編集してから、変更内容をアップロードします。 編集可能な列はすべて青でハイライト表示されます。
+     いずれかの設定を編集するには、ファイルを直接編集し、変更をアップロードします。 編集可能なすべての列が青色で強調表示されます。
 
 ## 特定のパッケージの設定のダウンロード
 
-特定のパッケージの設定をダウンロードする場合、バルクシート ファイルにはパッケージ設定とフライト情報のタブが別々に含まれ、ファイルは編集可能です。
+特定のパッケージの設定をダウンロードする場合、バルクシートファイルには、パッケージ設定とフライト情報のタブが個別に含まれ、ファイルは編集可能です。
 
-1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
+1. メインメニューで、**[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
 1. キャンペーンの名前をクリックします。
 
-1. サブメニューで、**[!UICONTROL Packages]** をクリックします。
+1. サブメニューで、**[!UICONTROL Packages]**&#x200B;をクリックします。
 
 1. 設定をダウンロードするパッケージのチェックボックスをオンにします。
 
-1. 一括アクションツールバーで、**[!UICONTROL ...]**/**[!UICONTROL Download Bulksheet]** をクリックします。
+1. 一括操作ツールバーで、**[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**&#x200B;をクリックします。
 
-   バルクシートファイルをダウンロードできるときに通知メッセージが表示されます。
+   バルクシートファイルのダウンロードが可能なタイミングを示す通知メッセージが表示されます。
 
 1. バルクシートをダウンロードするには、次のいずれかの操作を行います。
 
-   * 通知メッセージで、「**[!UICONTROL Download].**」をクリックします。
+   * 通知メッセージで、**[!UICONTROL Download].**&#x200B;をクリックします
 
-   * 上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
+   * 上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある&#x200B;**[!UICONTROL Download]**&#x200B;をクリックします。
 
-     ファイルはブラウザーのダウンロードフォルダーに保存されます。 含まれる列のリストについては、[&#x200B; ダウンロードまたはアップロードされたバルクシートのプレースメント列 &#x200B;](#qa-sheet-columns)」を参照してください。
+     ファイルはブラウザーのダウンロードフォルダーに保存されます。 含まれる列のリストについては、「[&#x200B; ダウンロードまたはアップロード済みのバルクシートに列を配置](#qa-sheet-columns)」を参照してください。
 
-     設定を編集するには、ファイルを直接編集してから、変更内容をアップロードします。 編集可能な列はすべて青でハイライト表示されます。 フィールドに正しい形式を使用するには、関連するパッケージ設定またはプレースメント設定から値を選択してコピーします。 日分割、カスタム目標、コンバージョン指標など、一部のターゲット設定では、設定内でコピーオプションを使用できます。
+     いずれかの設定を編集するには、ファイルを直接編集し、変更をアップロードします。 編集可能なすべての列が青色で強調表示されます。 フィールドに正しい形式を使用するには、関連するパッケージ設定またはプレースメント設定から値を選択してコピーします。 日分割、カスタム目標、コンバージョン指標などの一部のターゲット設定では、設定内でコピーオプションを使用できます。
 
 ## パッケージ設定を含むバルクシートのアップロード {#upload-bulksheet-package}
 
-パッケージの設定（パッケージに関連付けられたプレースメントや広告など）をバルクシートファイルにアップロードできます。
+パッケージに関連付けられているプレースメントや広告など、パッケージの設定をバルクシートファイルにアップロードできます。
 
-1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
+1. メインメニューで、**[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
-1. 次のいずれかの操作をおこないます。
+1. 次のいずれかの操作を行います。
 
-   * 親キャンペーンの横で、**[!UICONTROL ...]**/**[!UICONTROL Upload Bulksheet]** をクリックします。
+   * 親キャンペーンの横で、**[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**&#x200B;をクリックします。
 
-   * キャンペーン名をクリックします。 右上で、**[!UICONTROL ...]**/**[!UICONTROL Upload Bulksheet]** をクリックします。
+   * キャンペーン名をクリックします。 右上で、**[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**&#x200B;をクリックします。
 
-     このオプションは、「[!UICONTROL Packages]」、「[!UICONTROL Placements]」または「[!UICONTROL Ads]」タブから使用できます。
+     このオプションは、[!UICONTROL Packages]、[!UICONTROL Placements]、または[!UICONTROL Ads] タブから利用できます。
 
-   * サブメニューで「**[!UICONTROL Packages]**」をクリックし、パッケージのチェックボックスを選択します。 一括アクションツールバーで、**[!UICONTROL ...]**/**[!UICONTROL Upload Bulksheet]** をクリックします。
+   * サブメニューで「**[!UICONTROL Packages]**」をクリックし、任意のパッケージのチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**&#x200B;をクリックします。
 
-1. [!UICONTROL Upload Bulksheet] ダイアログで、次の手順を実行します。
+1. [!UICONTROL Upload Bulksheet] ダイアログで、次の操作を行います。
 
-   1. ファイルをボックスにドラッグ&amp;ドロップするか、ボックス内をクリックしてデバイスまたはネットワークからファイルを選択します。
+   1. ファイルをボックスにドラッグ&amp;ドロップするか、ボックス内をクリックして、デバイスまたはネットワークからファイルを選択します。
 
-   1. 「**[!UICONTROL Upload]**」をクリックします。
+   1. **[!UICONTROL Upload]**&#x200B;をクリックします。
 
-1. （オプション）更新が処理されたことを確認するには、上部のメニューバーの右側にある ![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png) をクリックします。
+1. （オプション）更新が処理されたことを確認するには、上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。
 
-設定の更新に失敗した場合、色分けしたバルクシートエラーファイルをダウンロードすると、保存された設定（行）と失敗した設定（失敗した行）と、失敗した各設定の理由を表示できます。 その後、同じファイル内の問題に対処し、もう一度アップロードして、修正された情報を処理できます。
+設定の更新に失敗した場合は、カラーコーディング付きのバルクシート エラーファイルをダウンロードして、各失敗の理由とともに、どの設定（行）が保存され、どの失敗したかを示すことができます。 その後、同じファイル内の問題に対処し、修正された情報を処理するために再度アップロードできます。
 
 <!--
 ## Package setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns-packages}
@@ -166,6 +175,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; バルクシートを使用した Campaign コンポーネント設定のレビューと編集 &#x200B;](/help/dsp/campaign-management/campaign-components-review-edit.md)
->* [&#x200B; パッケージの編集 &#x200B;](/help/dsp/campaign-management/packages/package-edit.md)
->* [&#x200B; パッケージ設定 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; バルクシートを使用したキャンペーンコンポーネント設定のレビューと編集](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [&#x200B; パッケージの編集](/help/dsp/campaign-management/packages/package-edit.md)
+>* [&#x200B; パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)

@@ -1,44 +1,49 @@
 ---
-title: '[!DNL Microsoft Advertising] マルチメディア広告設定'
-description: マルチメディア広告の設定  [!DNL Microsoft Advertising]  参照します。
+title: '[!DNL Microsoft Advertising] マルチメディア広告の設定'
+description: ' [!DNL Microsoft Advertising]  マルチメディア広告の設定を参照してください。'
 exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/BmzclS43QHM1mtVus2pIdJqEh0B-tUQVKyUFdzH4iEw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 203
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] マルチメディア広告設定
+# [!DNL Microsoft Advertising] マルチメディア広告の設定
 
-マルチメディア広告は検索ネットワークで使用できます。 広告ネットワークは、最も効果的な広告要素の組み合わせを使用して、マルチメディア広告を動的に組み立てる。
+マルチメディア広告は、検索ネットワークで利用できます。 広告ネットワークは、広告要素の最も効果的な組み合わせを使用して、マルチメディア広告を動的に組み立てます。
 
 ## レスポンシブ広告の詳細
 
-**[!UICONTROL Images]:** 次のサイズを含む、最大 15 個のJPEG、JPGまたは PNG の広告画像。
+**[!UICONTROL Images]:**&#x200B;広告用のJPEG、JPG、またはPNG画像を最大15枚（以下のサイズを含む）:
 
-* 1.91:1 の縦横比の画像が少なくとも 1 つ表示されます。
+* アスペクト比が1.91:1の画像が少なくとも1つ。
 
-* 1 つ以上の正方形（1:1）画像。
+* 少なくとも1つの正方形（1:1）画像。
 
-[&#x200B; マルチメディア広告 &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60107/0) に対して許可されているアスペクト比とサイズを参照してください。
+[&#x200B; マルチメディア広告](https://help.ads.microsoft.com/#apex/ads/en/60107/0)の許可された縦横比とディメンションを参照してください。
 
 <!-- Instructions -->
 
 {{$include /help/_includes/images-ms-multimedia-responsive-ad.md}}
 
-**[!UICONTROL Business Name]:** ビジネス名（最大 25 文字）。
+**[!UICONTROL Business Name]:** ビジネス名（最大25文字）。
 
-**[!UICONTROL Short Headlines]:** 少なくとも 3 つの短い見出し（最大 15 文字）で、それぞれ 1 つの単語と最大 30 文字を使用します。
+**[!UICONTROL Short Headlines]:**&#x200B;少なくとも3つ、最大15個の短い見出し。各見出しに1語以上30文字以内を使用してください。
 
-**[!UICONTROL Long Headlines]:** 少なくとも 3 つ、最大 5 つの長い見出しがあり、それぞれ最大 90 文字です。
+**[!UICONTROL Long Headlines]:**&#x200B;少なくとも3つ、最大5つの長い見出し（各90文字まで）。
 
-**[!UICONTROL Ad Text]:** 少なくとも 2 つ、最大 4 つの説明。少なくとも 1 つの単語と、それぞれ最大 90 文字の説明。
+**[!UICONTROL Ad Text]:**&#x200B;少なくとも2文字、最大4文字の説明で、1語以上および90文字以下の説明が含まれています。
 
-**[!UICONTROL Call to Action]:** 広告に含めるコールトゥアクション。 デフォルトでは、「自動」が選択されており、広告ネットワークがコールトゥアクションを選択します。 オプションで、別のアクションを選択できます。
+**[!UICONTROL Call to Action]:**&#x200B;広告に含めるcall to action。 デフォルトでは、Automatedが選択され、Ad Networkがcall to actionを選択します。 オプションで別のアクションを選択できます。
 
-**[!UICONTROL Call to Action Language]:** コールトゥアクションオプションの言語。
+**[!UICONTROL Call to Action Language]:** call to action オプションの言語。
 
 ## [!UICONTROL Tracking URLs]
 
@@ -52,9 +57,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 広告について &#x200B;](ad-about.md)
->* [&#x200B; 広告の管理 &#x200B;](ad-manage.md)
->* [[!DNL Microsoft Advertising]  拡張された動的検索広告設定 &#x200B;](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft Advertising]  製品広告設定 &#x200B;](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising]  レスポンシブ（オーディエンス）広告設定 &#x200B;](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft Advertising]  レスポンシブ検索広告設定 &#x200B;](ad-settings-microsoft-rsa.md)
+>* [広告について](ad-about.md)
+>* [広告の管理](ad-manage.md)
+>* [[!DNL Microsoft Advertising] 動的検索広告設定を拡張](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] 製品広告設定](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising]  レスポンシブ （オーディエンス）広告の設定](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising]  レスポンシブ検索の広告設定](ad-settings-microsoft-rsa.md)

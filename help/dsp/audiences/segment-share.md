@@ -1,39 +1,48 @@
 ---
 title: セグメントの共有または共有の停止
-description: 他のDSP ユーザーアカウントとのカスタムセグメントまたは CCPA の販売オプトアウトセグメントの共有を共有または停止する方法について説明します。
+description: カスタムまたはCCPA オプトアウトオブセールセグメントを他のDSP ユーザーアカウントと共有または共有を停止する方法について説明します。
 feature: DSP Segments
 exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
-source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
+TQID: https://experienceleague.adobe.com/bhVQnJEca7cdUh7WgOdOkALp59stlUu0dgJpCZXw1Yk
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: c193c532-b70e-4556-bde7-857186cbe140
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: 156
 ht-degree: 0%
 
 ---
 
 # セグメントの共有または共有の停止
 
-カスタムセグメントと CCPA の販売オプトアウトセグメントを、他のDSP ユーザーアカウントと共有できます。 セグメントを共有すると、セグメントは [!UICONTROL Audiences]/[!UICONTROL Segments] に配置され、指定されたユーザーのプレースメントと再利用可能なオーディエンスの「[!UICONTROL Custom Segments]」タブで使用できるようになります。
+カスタムセグメントとCCPA オプトアウトオブセールのセグメントは、その他のDSP ユーザーアカウントと共有できます。 セグメントを共有すると、セグメントは[!UICONTROL Audiences] > [!UICONTROL Segments]で、指定したユーザーのプレースメントと再利用可能なオーディエンスの[!UICONTROL Custom Segments] タブで利用できるようになります。
 
-他のDSP ユーザーアカウントとのセグメントの共有を停止することもできます。
+また、他のDSP ユーザーアカウントとのセグメント共有を停止することもできます。
 
-1. メインメニューで、**[!UICONTROL Audiences]**/**[!UICONTROL Segments]** をクリックします。
+1. メインメニューで、**[!UICONTROL Audiences]** > **[!UICONTROL Segments]**&#x200B;をクリックします。
 
-1. セグメント行の上にカーソルを置き、**[!UICONTROL Share]** をクリックします。
+1. セグメント行の上にカーソルを置き、**[!UICONTROL Share]**&#x200B;をクリックします。
 
-1. 次のいずれかの操作をおこないます。
+1. 次のいずれかの操作を行います。
 
    * セグメントを共有するには：
 
-      1. DSP ユーザーの **[!UICONTROL E-mail Address]** を入力し、「**[!UICONTROL +]**」をクリックします。
+      1. DSP ユーザーの&#x200B;**[!UICONTROL E-mail Address]**&#x200B;を入力し、**[!UICONTROL +]**&#x200B;をクリックします。
 
-      1. （オプション）追加のユーザーごとに別の **[!UICONTROL E-mail Address]** を入力して、「**[!UICONTROL +]**」をクリックします。
+      1. （オプション）追加のユーザーごとに、別の&#x200B;**[!UICONTROL E-mail Address]**&#x200B;を入力し、**[!UICONTROL +]**&#x200B;をクリックします。
 
-   * ユーザーとのセグメントの共有を停止するには、メールアドレスの横にある「**[!UICONTROL Unshare]**」をクリックします。
+   * ユーザーとのセグメント共有を停止するには、電子メールアドレスの横にある&#x200B;**[!UICONTROL Unshare]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [Audience Management について &#x200B;](audience-about.md)
->* [&#x200B; カスタムセグメントの作成 &#x200B;](custom-segment-create.md)
->* [&#x200B; セグメント情報の編集 &#x200B;](segment-edit.md)
->* [&#x200B; セグメントの削除 &#x200B;](segment-delete.md)
->* [&#x200B; セグメントのトラッキングピクセルの表示 &#x200B;](segment-view-pixels.md)
+>* [&#x200B; オーディエンス管理について](audience-about.md)
+>* [&#x200B; カスタムセグメントを作成](custom-segment-create.md)
+>* [&#x200B; セグメント情報を編集](segment-edit.md)
+>* [&#x200B; セグメントを削除](segment-delete.md)
+>* [&#x200B; セグメントのトラッキングピクセルを表示](segment-view-pixels.md)

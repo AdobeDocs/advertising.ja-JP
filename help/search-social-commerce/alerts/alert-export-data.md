@@ -1,40 +1,47 @@
 ---
 title: カスタムアラートのデータの書き出し
-description: トリガーアラートのデータをファイルに書き出す方法を説明します。
+description: トリガーされたアラートのデータをファイルに書き出す方法を説明します。
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/JyEfHoeveq0ZA5buoLKJis4RECKBtHNCiJZ982uXSW0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: 267
 ht-degree: 0%
 
 ---
 
 # カスタムアラートのデータの書き出し
 
-トリガーされたアラートのデータ、またはアラート・テンプレートの最新トリガーされたアラートのデータを、[!DNL Microsoft Excel] ワークブック（[XLS](/help/search-social-commerce/glossary.md#w-x) ファイル）、タブ区切り値（[TSV](/help/search-social-commerce/glossary.md#s-t)）ファイル、またはカンマ区切り値（[CSV](/help/search-social-commerce/glossary.md#c-d)）ファイルとしてエクスポートできます。 ダウンロード可能なレポートは、アラートがトリガーされてから 10 日間使用でき、その後自動的に削除されます。
+トリガーされたアラートのデータや、アラートテンプレートの最も最近トリガーされたアラートのデータを、[!DNL Microsoft Excel] ワークブック （[XLS](/help/search-social-commerce/glossary.md#w-x) ファイル）、タブ区切りの値（[TSV](/help/search-social-commerce/glossary.md#s-t)） ファイル、またはコンマ区切りの値（[CSV](/help/search-social-commerce/glossary.md#c-d)） ファイルとして書き出すことができます。 ダウンロード可能なレポートは、アラートがトリガーされてから10日間使用でき、その後自動的に削除されます。
 
-1. 次のいずれかの操作をおこないます。
+1. 次のいずれかの操作を行います。
 
-   * （アラートテンプレートに対して最近トリガーされたアラートのデータを書き出すには） メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** をクリックすると、アラートテンプレート ビューが開きます。
+   * （アラートテンプレートに対して最も最近トリガーされたアラートのデータを書き出すには） メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**&#x200B;をクリックすると、アラートテンプレートビューが開きます。
 
-   * （特定のトリガーアラートのデータを書き出すには） メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Custom Alerts]** をクリックします。 サブメニューで、**[!UICONTROL Triggered Alerts]** をクリックします。
+   * （特定のトリガーされたアラートのデータを書き出すには） メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Triggered Alerts]**&#x200B;をクリックします。
 
-1. テンプレート名またはレポート名の横の [!UICONTROL Export] 列で、形式名をクリックし、ブラウザの通常の手順に従ってファイルを開くか保存します。
+1. テンプレートまたはレポート名の横にある[!UICONTROL Export]列で、形式の名前をクリックし、ブラウザーの通常の手順に従ってファイルを開くか保存します。
 
-   * **[!UICONTROL XLS]:** 単一のワークシート （XLS）を持つ [!DNL Excel] ワークブックの場合。 レポートには、上部にパラメーターでラベル付けされた 1 つのワークシートが含まれ、コンポーネントのデータが使用可能な場合、含まれた各コンポーネントに対して 1 つの行が表示されます。 データのない行は省略されます。 基本レポートには、各数値列の合計が含まれます。
+   * **[!UICONTROL XLS]:** 1つのワークシート （XLS）を含む[!DNL Excel] ワークブックの場合。 このレポートには、上部にパラメーターのラベルが付いた1つのワークシートが含まれており、コンポーネントのデータが使用可能な場合は、含まれる各コンポーネントに1行ずつあります。 データのない行は省略されます。 基本レポートには、各数値列の合計が含まれます。
 
-   * **[!UICONTROL TSV]:** TSV ファイルの場合。 レポートには、含まれている各コンポーネントのパラメーターと 1 行が含まれています。
+   * TSV ファイルの&#x200B;**[!UICONTROL TSV]:**。 レポートには、含まれる各コンポーネントのパラメーターと1行が含まれます。
 
-   * **[!UICONTROL CSV]:** CSV ファイルの場合。 レポートには、含まれている各コンポーネントのパラメーターと 1 行が含まれています。
+   * **[!UICONTROL CSV]:** CSV ファイルの場合。 レポートには、含まれる各コンポーネントのパラメーターと1行が含まれます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムアラートについて &#x200B;](alert-about.md)
->* [&#x200B; カスタムアラートテンプレートの作成 &#x200B;](alert-template-create.md)
->* [&#x200B; カスタムアラートテンプレートの編集 &#x200B;](alert-template-edit.md)
->* [&#x200B; カスタムアラートテンプレートの一時停止 &#x200B;](alert-template-pause.md)
->* [&#x200B; カスタムアラートテンプレートのアクティブ化 &#x200B;](alert-template-activate.md)
->* [&#x200B; カスタムアラートテンプレートの削除 &#x200B;](alert-template-delete.md)
->* [&#x200B; カスタムアラートテンプレートの設定 &#x200B;](alert-template-settings.md)
->* [&#x200B; カスタムアラートの表示 &#x200B;](alert-view.md)
+>* [&#x200B; カスタムアラートについて](alert-about.md)
+>* [&#x200B; カスタムアラートテンプレートを作成](alert-template-create.md)
+>* [&#x200B; カスタムアラートテンプレートの編集](alert-template-edit.md)
+>* [&#x200B; カスタムアラートテンプレートを一時停止](alert-template-pause.md)
+>* [&#x200B; カスタムアラートテンプレートをアクティブ化](alert-template-activate.md)
+>* [&#x200B; カスタムアラートテンプレートを削除](alert-template-delete.md)
+>* [&#x200B; カスタムアラートテンプレート設定](alert-template-settings.md)
+>* [&#x200B; カスタムアラートの表示](alert-view.md)

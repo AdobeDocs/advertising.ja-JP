@@ -1,26 +1,33 @@
 ---
 title: レポートテンプレートの作成
-description: 再利用可能なレポートテンプレートを作成する方法について説明します。
+description: 再利用可能なレポートテンプレートの作成方法を説明します。
 exl-id: 322d0c15-bd93-4372-be1e-80d2d7c7fe8d
 feature: Search Reports
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/XWTeVJ0GpRkW6JdwUriUoL3EU8GdHcZdjPFeDvGYg80
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: 171
 ht-degree: 0%
 
 ---
 
 # レポートテンプレートの作成
 
-任意のタイプのパフォーマンス レポートに対して、複数のレポート テンプレートを保存できます。 テンプレートは、ゼロから作成することも、既存のテンプレートをベースにして作成することもできます。 一度に最大 100 個のテンプレートを維持できます。
+任意のタイプのパフォーマンスレポート用に、複数のレポートテンプレートを保存できます。 テンプレートを初めて作成することも、既存のテンプレートをベースにすることもできます。 一度に最大100個のテンプレートを管理できます。
 
-* テンプレートをゼロから作成するには、次のいずれかを行います。
+* テンプレートをゼロから作成するには、次のいずれかの操作を行います。
 
-   * 「[!UICONTROL Reports]」タブで、レポート名の横にある **[!UICONTROL Save as template]** の横のチェックボックスをオンにして、レポートを作成します。
+   * 「[!UICONTROL Reports]」タブからレポートを作成し、レポート名の横にある&#x200B;**[!UICONTROL Save as template]**&#x200B;の横にあるチェックボックスを選択します。
 
-   * 「[!UICONTROL Templates]」タブで、次の操作を行います。
+   * 「[!UICONTROL Templates]」タブから：
 
-      * メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports]** をクリックします。
+      * メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;をクリックします。
 
       * 「**[!UICONTROL Templates]**」タブをクリックします。
 
@@ -32,17 +39,17 @@ ht-degree: 0%
 
 * 既存のテンプレートに基づいてテンプレートを作成するには：
 
-   1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Reports]** をクリックします。
+   1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;をクリックします。
 
    1. 「**[!UICONTROL Templates]**」タブをクリックします。
 
    1. テンプレート名をクリックし、必要に応じてレポート設定を編集します。
 
-   1. [ **[!UICONTROL Save as template]** ] （レポート名の横）のチェック ボックスをオンにし、新しいレポート名を入力して、[ **[!UICONTROL Update Template]** ] をクリックします。
+   1. **[!UICONTROL Save as template]** （レポート名の横）の横にあるチェックボックスをオンにし、新しいレポート名を入力して、**[!UICONTROL Update Template]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; レポートテンプレートについて &#x200B;](template-about.md)
->* [&#x200B; レポートテンプレートの編集 &#x200B;](template-edit.md)
->* [&#x200B; レポートテンプレートの表示 &#x200B;](template-view.md)
->* [&#x200B; レポートテンプレートの削除 &#x200B;](template-delete.md)
+>* [&#x200B; レポートテンプレートについて](template-about.md)
+>* [&#x200B; レポートテンプレートを編集](template-edit.md)
+>* [&#x200B; レポートテンプレートを表示](template-view.md)
+>* [&#x200B; レポートテンプレートを削除](template-delete.md)

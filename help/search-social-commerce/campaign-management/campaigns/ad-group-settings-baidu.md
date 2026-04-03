@@ -1,22 +1,29 @@
 ---
-title: '[!DNL Baidu] 広告グループの設定'
-description: 広告グループの設定  [!DNL Baidu]  参照します。
+title: '[!DNL Baidu]広告グループの設定'
+description: ' [!DNL Baidu] 広告グループの設定を参照します。'
 exl-id: 1d480339-a8c8-4874-ad8e-d8973660682c
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/D67N1vO-1daimMilI78e-TGo-NAjEMOT5TSTehrcB9Q
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: 50
 ht-degree: 0%
 
 ---
 
-# [!DNL Baidu] 広告グループ設定
+# [!DNL Baidu]広告グループの設定
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]:** キャンペーン内で一意の広告グループ名。 最大長は 15 文字の 2 バイト文字です。
+**[!UICONTROL Ad Group Name]:** キャンペーン内で一意の広告グループ名。 最大長は15個の2 バイト文字です。
 
-**[!UICONTROL Status]:** 広告グループの表示ステータス：*アクティブ* または *一時停止*。 新しい広告グループのデフォルトは *アクティブ* です。
+**[!UICONTROL Status]:**&#x200B;広告グループの表示ステータス：*アクティブ*&#x200B;または&#x200B;*一時停止*。 新しい広告グループのデフォルトは&#x200B;*アクティブ*&#x200B;です。
 
 ## [!UICONTROL Budget Options]
 
@@ -36,4 +43,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 広告グループの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [広告グループの管理](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)

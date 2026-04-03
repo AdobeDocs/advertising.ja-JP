@@ -1,48 +1,55 @@
 ---
-title: アラートの表示
-description: エクスペリエンスに関するアラートと推奨される解決策を表示する方法を説明します。
+title: アラートを表示
+description: エクスペリエンスのアラートと推奨解決策を表示する方法について説明します。
 feature: Creative Experiences
 exl-id: faea1b1f-62f5-4277-acc4-6d99cf166906
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+TQID: https://experienceleague.adobe.com/Urf5XnCRFNYEUyost27hI3upY0UYflTk0-G0kO-egms
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 402
 ht-degree: 0%
 
 ---
 
-# アラートの表示
+# アラートを表示
 
-[!DNL Creative] れは、エクスペリエンス内のクリエイティブを含む、エクスペリエンスに問題が発生したタイミングを特定するのに役立ちます。 問題ごとに、[!DNL Creative] はタイムスタンプと問題を解決するための推奨アクションを含むアラートを発行します。 アラートの理由には、ライブエクスペリエンスの有効期限や、ターゲット広告ではなくデフォルト広告での高配信などがあります。 アラートは、エクスペリエンスレベルで使用できます。
+[!DNL Creative]は、エクスペリエンス内のクリエイターを含め、エクスペリエンスに問題がある場合を特定するのに役立ちます。 各問題に対して、[!DNL Creative]はタイムスタンプと、問題を解決するための推奨アクションを含むアラートを発行します。 アラートの理由には、ライブ体験の有効期限や、ターゲット広告ではなくデフォルト広告の配信率が高いことなどが含まれます。 エクスペリエンスレベルでアラートを利用できます。
 
-アラートに関連するエクスペリエンスやクリエイティブを開くことができるので、必要に応じて編集して問題を解決できます。 また、個々のアラートを無視するように選択して、アラートを [!UICONTROL Pulse] ントロールパネルから削除することもできます。
+任意のアラートに対して関連するエクスペリエンスまたはクリエイティブを開くことで、必要に応じて編集して問題を解決できます。 また、個別のアラートを無視して、[!UICONTROL Pulse] パネルから削除することもできます。
 
-基になる問題が解決されると、アラートおよびアラート指標は自動的に消えます。
+アラートとアラートインジケーターは、根本的な問題が解決されると自動的に消えます。
 
 >[!NOTE]
 >
->Advertising DSP内では、[&#x200B; エクスペリエンスから作成されたプレースメントに関するアラート  [!DNL Creative]  をキャンペーンレベルで使用できます &#x200B;](/help/dsp/campaign-management/reports/campaign-alerts.md)。
+>Advertising DSP内では、[&#x200B; エクスペリエンス  [!DNL Creative] から作成されたプレースメントに関する](/help/dsp/campaign-management/reports/campaign-alerts.md) アラートをキャンペーンレベルで利用できます。
 
-## [!UICONTROL Pulse Panel] でのアラートの表示
+## [!UICONTROL Pulse Panel]でアラートを表示
 
-1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;をクリックします。
 
-1. ツールバーの右側にある ![&#x200B; アラートが使用可能な場合は Pulse パネルアイコン &#x200B;](/help/dsp/assets/alerts-panel.png " アラートが使用可能な場合は Pulse パネルアイコン ") をクリックします。
+1. ツールバーの右側にある「![&#x200B; アラートが使用可能な場合はPulse Panel アイコン」をクリックします。](/help/dsp/assets/alerts-panel.png " アラートが使用可能な場合はPulse Panel アイコンをクリックします。")。
 
-広告主に関するすべてのアラートが一覧表示されます。 デフォルトでは、重要なアラートが最初に表示されます。
+広告主のすべてのアラートが一覧表示されます。 デフォルトでは、クリティカルアラートが最初にリストされます。
 
-1. （オプション）検出された最初の日付に従ってアラートをグループ化したり、アラートのステータスでアラートをフィルタ処理したりするには、パネルの右上にある ![&#x200B; フィルタ・ボタン &#x200B;](/help/creative/assets/filter.png) をクリックし、フィルタ・オプションを選択して、[**[!UICONTROL Apply]**] をクリックします。
+1. （オプション）最初の検出日に従ってアラートをグループ化するか、アラートをアラートステータスでフィルタリングするには、パネルの右上にある「![&#x200B; フィルターボタン &#x200B;](/help/creative/assets/filter.png)」をクリックし、フィルターオプションを選択してから「**[!UICONTROL Apply]**」をクリックします。
 
-1. 特定のアラートタイプに影響を受けるすべてのエクスペリエンスのリストを表示するには、アラート名をクリックします。 影響を受ける各コンポーネントの詳細（推奨されるアクションを含む）を表示するには、「[!UICONTROL EXPAND ALL]」をクリックするか、コンポーネント名をクリックします。 関連するエクスペリエンスまたはクリエイティブを開いて、推奨される変更を行うには、コンポーネント名の上にカーソルを置き、![&#x200B; 表示に移動 &#x200B;](/help/creative/assets/go-to-view.png " 表示に移動 ") をクリックします。
+1. 特定のアラートタイプの影響を受けるすべてのエクスペリエンスのリストを表示するには、アラート名をクリックします。 推奨アクションを含め、影響を受ける各コンポーネントの詳細を表示するには、[!UICONTROL EXPAND ALL]をクリックするか、コンポーネント名をクリックします。 関連するエクスペリエンスまたはクリエイティブを開いて、推奨される変更を行えるようにするには、コンポーネント名の上にカーソルを置き、![&#x200B; ビューに移動](/help/creative/assets/go-to-view.png " ビューに移動")をクリックします。
 
-1. （オプション）アラートを無視（非表示）するには、コンポーネント名の上にカーソルを置いて ![&#x200B; 無視 &#x200B;](/help/creative/assets/alert-ignore.png " 無視 ") をクリックし、「**[!UICONTROL Ignore alert till next check]**」、「**[!UICONTROL Ignore alert for 3 days]**」、または「**[!UICONTROL Ignore indefinitely]**」をクリックします。
+1. （オプション）アラートを無視（非表示）するには、コンポーネント名の上にカーソルを置いて![無視](/help/creative/assets/alert-ignore.png "無視")をクリックし、**[!UICONTROL Ignore alert till next check]**、**[!UICONTROL Ignore alert for 3 days]**&#x200B;または&#x200B;**[!UICONTROL Ignore indefinitely]**&#x200B;をクリックします。
 
-アラートを無視してから数秒後に、アクションを取り消すことができます。 オプションメッセージが閉じると、アクションをキャンセルできなくなります。
+アクションを元に戻すアラートを無視してから数秒経過します。 オプションメッセージが閉じると、アクションをキャンセルすることはできません。
 
-1. （任意）無視されたアラートを取得するには、アラートをフィルタリングして「[!UICONTROL Alert Status]」または「[!UICONTROL All]」の [!UICONTROL Ignored] を表示します。 アラートの無視を解除するには、コンポーネント名の上にカーソルを置き、![Un-ignore](/help/creative/assets/alert-un-ignore.png "Un-ignore") をクリックします。
+1. （オプション）無視されたアラートを取得するには、アラートをフィルタリングして、「[!UICONTROL Alert Status]」または「[!UICONTROL All]」の[!UICONTROL Ignored]を表示します。 アラートを無視するには、コンポーネント名の上にカーソルを置き、![無視しない](/help/creative/assets/alert-un-ignore.png "無視しない")をクリックします。
 
-## [!UICONTROL Pulse Panel] を閉じる
+## [!UICONTROL Pulse Panel]を閉じる
 
-* ツールバーの右側にある「![Pulse Panel icon when alerts available](/help/dsp/assets/alerts-panel.png "Pulse Panel icon when alerts available") or ![アラートが利用できない場合の Pulse Panel アイコン](/help/creative/assets/alerts-panel-empty.png "アラートが利用できない場合の Pulse Panel アイコン")」をクリックします。
+* ツールバーの右側で、![&#x200B; アラートが使用可能な場合はPulse Panel アイコン &#x200B;](/help/dsp/assets/alerts-panel.png " アラートが使用可能な場合はPulse Panel アイコン ")または![アラートがない場合のパルスパネルアイコン](/help/creative/assets/alerts-panel-empty.png "アラートがない場合のパルスパネルアイコン")をクリックします。
 
 >[!MORELIKETHIS]
 >

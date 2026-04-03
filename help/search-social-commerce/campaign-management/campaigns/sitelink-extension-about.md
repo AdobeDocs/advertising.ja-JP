@@ -1,36 +1,43 @@
 ---
 title: サイトリンク拡張機能について
-description: サイトリンク拡張機能について説明します。
+description: サイトリンク拡張機能について詳しく見る。
 exl-id: c2d96440-62da-4b57-a98e-d7b94882d6c5
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/lOrTOUXOFT7cvY5cEilRiROSfIbmcI9v8vU2MVZlg7U
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: 344
 ht-degree: 0%
 
 ---
 
 # サイトリンク拡張機能について
 
-*[!DNL Google Ads]と [!DNL Microsoft Advertising] のみ*
+*[!DNL Google Ads]と[!DNL Microsoft Advertising]のみ*
 
-サイトリンクは、テキスト広告リスト内の追加のテキストリンクです。 サイトリンクを使用して、サイトの特定のページにユーザーを直接移動します。 広告ネットワークは、広告に対するサイトリンクの関連性に基づいて、広告と共に表示するサイトリンクを決定する。 オプションで、各サイトリンクの説明テキストを広告に含めることができます。 広告コピーがサイトリンクと関連性が高い場合、広告ネットワークは、サイトリンクを含むアカウント内の既存の広告からの広告コピーを自動的に表示する場合があります。 デスクトップ広告 [!DNL Google Ads] は 2～6 個のサイトリンクが表示され、モバイル広告では最大 4 個のサイトリンクが表示される場合があります。 説明を含む 2、4、6 個のサイトリンクが表示される [!DNL Microsoft Advertising]、説明を含まない 4～6 個のサイトリンクが表示される場合があります。
+サイトリンクは、テキスト広告リスト内の追加テキストリンクです。 サイトリンクを使用すると、サイト内の特定のページにオーディエンスを直接誘導できます。 広告ネットワークは、広告に対するサイトリンクの関連性に基づいて、広告に表示するサイトリンクを決定します。 オプションで、広告に含めることができるサイトリンクごとに説明テキストを含めることができます。 広告コピーがサイトリンクに非常に関連性が高い場合、広告ネットワークは、サイトリンクを使用してアカウント内の既存の広告からの広告コピーを自動的に表示する場合があります。 [!DNL Google Ads]には、デスクトップ広告に2 ～ 6個のサイトリンク、およびモバイル広告に最大4個のサイトリンクが表示される場合があります。 [!DNL Microsoft Advertising]には、説明を含む2つ、4つ、または6つのサイトリンク、または説明を含まない4 ～ 6つのサイトリンクが表示される場合があります。
 
-サイトリンクのテキストと設定（広告にサイトリンクを表示できる日付を含む）を、アカウントレベルで共有します。
+サイトリンクを広告と共に表示できる日付など、共有サイトリンクのテキストと設定をアカウントレベルで作成します。
 
-## [!UICONTROL Sitelinks] ビューと [!UICONTROL Associations] ビュー
+## [!UICONTROL Sitelinks]と[!UICONTROL Associations] ビュー
 
-[!UICONTROL Campaigns]/[!UICONTROL Campaigns] の [!UICONTROL Extensions]/[!UICONTROL Sitelinks] ライブラリに、アカウントレベルのサイトリンクがすべて一覧表示され、そこで共有サイトリンクを作成および管理できます。 [[!DNL Google Ads]  アカウント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/52001) および [[!DNL Microsoft Advertising]  アカウント &#x200B;](https://support.google.com/google-ads/answer/6372658) ごとの最大広告拡張機能の数については、広告ネットワークのヘルプを参照してください。 ライブラリ内のサイトリンクは、アカウントエンティティに割り当てるまで、広告で使用されません。
+[!UICONTROL Extensions] > [!UICONTROL Sitelinks]の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ライブラリには、アカウントレベルのサイトリンクがすべて一覧表示され、そこに共有サイトリンクを作成および管理できます。 [[!DNL Google Ads]  アカウント &#x200B;](https://support.google.com/google-ads/answer/6372658)および[[!DNL Microsoft Advertising]  アカウント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/52001)あたりの広告拡張機能の最大数については、広告ネットワークのヘルプを参照してください。 ライブラリ内のサイトリンクは、アカウントエンティティに割り当てるまで、広告で使用されません。
 
-[!UICONTROL Extensions]/[!UICONTROL Associations] ビューでは、アカウントレベル（[!DNL Google Ads] のみ）、キャンペーンレベル、広告グループレベル（[!DNL Google Ads] のみ）のすべての広告に、可能な拡張機能として任意のサイトリンクを割り当てることができます。
+[!UICONTROL Extensions] > [!UICONTROL Associations] ビューから、アカウントレベル （[!DNL Google Ads]のみ）、キャンペーンレベル、または広告グループレベル （[!DNL Google Ads]のみ）のすべての広告に、サイトリンクを可能な限り割り当てることができます。
 
 ## サイトリンクのパフォーマンスデータ
 
-検索、ソーシャル、Commerceは、広告拡張機能のクリック数と、拡張機能が含まれている広告に関連付けられたキーワードへのコンバージョン結果をマップします。 検索、ソーシャル、Commerceでは、拡張機能レベルでのコストデータやクリックデータを利用できません。 ただし [[!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md) では、「リンクタイプ」列の値が `sl:<Sitelink text>` として表示された場合（sl:See Current Offers など）、トランザクションが（広告自体ではなく）サイトリンクから発生したかどうかを確認できます。
+Search, Social, &amp; Commerceは、クリックした広告拡張機能と結果のコンバージョンを、その拡張機能が含まれている広告に関連付けられたキーワードにマッピングします。 Search, Social, &amp; Commerceでは、拡張機能レベルでのコストやクリックデータは利用できません。 ただし、[the [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)では、リンクタイプ列の値が`sl:<Sitelink text>`としてリストされている場合（sl:See現在のオファーなど）に、トランザクションが（広告自体ではなく）サイトリンクから発生したかどうかを確認できます。
 
-[!DNL Google Ads] と [!DNL Microsoft Advertising] では、[[!DNL Ad Extensions]] タブでコストとクリック データを表示できます。
+[!DNL Google Ads]と[!DNL Microsoft Advertising]では、[!DNL Ad Extensions] タブにコストとクリックデータが表示されます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 共有サイトリンク拡張機能の管理 &#x200B;](sitelink-extension-manage.md)
->* [&#x200B; 共有サイトリンク拡張機能のキャンペーンまたは広告グループへの関連付け &#x200B;](sitelink-extension-associate.md)
+>* [共有サイトリンク拡張機能の管理](sitelink-extension-manage.md)
+>* [共有サイトリンク拡張機能をキャンペーンまたは広告グループに関連付ける](sitelink-extension-associate.md)

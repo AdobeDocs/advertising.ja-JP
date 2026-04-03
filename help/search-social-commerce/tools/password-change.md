@@ -1,11 +1,18 @@
 ---
 title: パスワードを変更
-description: アカウントのパスワードを変更する方法を説明します。
+description: アカウントのパスワードを変更する方法について説明します。
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: d6405e1f594e26fb6e6790ad567676ffdaa900b4
+TQID: https://experienceleague.adobe.com/7RxD656uNrwadmhA1C43fYY2Lp4L54g-z7tlne97bJ0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: 136
 ht-degree: 0%
 
 ---
@@ -16,21 +23,21 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この機能は、従来の検索、ソーシャル、Commerceのログイン資格情報にのみ適用できます。 ほとんどのユーザーは、代わりに [!DNL Adobe] ID を認証に使用するようになりました。 [!DNL Adobe] ID のパスワードを変更するには、「[Adobe パスワードのリセットまたは変更 &#x200B;](https://helpx.adobe.com/jp/manage-account/using/change-or-reset-password.html)」を参照してください。
+>この機能は、従来のSearch、Social、およびCommerceのログイン資格情報にのみ適用されます。 ほとんどのユーザーは、代わりに認証に[!DNL Adobe] IDを使用するようになりました。 [!DNL Adobe] IDのパスワードを変更するには、「[Adobe パスワードのリセットまたは変更](https://helpx.adobe.com/jp/manage-account/using/change-or-reset-password.html)」を参照してください。
 
-パスワードを変更すると、現在のセッションからログアウトされます。 作業を続行するには、新しいパスワードでサインインする必要があります。
+パスワードを変更すると、現在のセッションからログアウトされます。 作業を続けるには、新しいパスワードでログインする必要があります。
 
-1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Tools]/[!UICONTROL Change Password]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Change Password]**&#x200B;をクリックします。
 
-1. フィールドに情報を入力し、[**[!UICONTROL Submit]**] をクリックします。
+1. フィールドに情報を入力し、**[!UICONTROL Submit]**&#x200B;をクリックします。
 
-   **[!UICONTROL Password]:** 新しいパスワード。 8 文字以上で構成し、1 つ以上の大文字と 1 つの数字を含める必要があります。
+   **[!UICONTROL Password]:**&#x200B;新しいパスワード。 少なくとも8文字で構成し、少なくとも1つの大文字と1つの数字を含める必要があります。
 
-   **[!UICONTROL Confirm Password]:** 新しいパスワード。
+   **[!UICONTROL Confirm Password]:**&#x200B;新しいパスワード。
 
-1. 確認メッセージで、「**[!UICONTROL OK]**」をクリックします。
+1. 確認メッセージで、**[!UICONTROL OK]**&#x200B;をクリックします。
 
-   現在のセッションが終了し、ログインプロンプトが表示されるので、新しいパスワードを使用してログインし直すことができます。
+   現在のセッションが終了し、ログインプロンプトが表示されるので、新しいパスワードを使用して再度ログインできます。
 
 >[!MORELIKETHIS]
 >

@@ -1,33 +1,40 @@
 ---
-title: ' [!DNL Advertising Insight] を表示または保存します。'
-description: を表示してファイル  [!DNL Advertising Insight]  保存する方法を説明します。
+title: ' [!DNL Advertising Insight]の表示または保存'
+description: ' [!DNL Advertising Insight] を表示してファイルに保存する方法について説明します。'
 exl-id: 4baf24eb-5ebf-41d9-8b3b-6af1672ad030
 feature: Search Advertising Insights
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/bm-gxDCnU5qLHxAvm36oW1KZO6kz22b-PyE394SsoDE
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: 88
 ht-degree: 0%
 
 ---
 
-# ア [!DNL Advertising Insight] ットの表示または保存
+# [!DNL Advertising Insight]の表示または保存
 
-1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Insights & Reports]/[!UICONTROL Advertising Insights]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**&#x200B;をクリックします。
 
-2. 左側のメニューで、「![&#x200B; レポート &#x200B;](/help/search-social-commerce/assets/insight-reports.png " レポート ")」をクリックします。
+2. 左側のメニューで、![&#x200B; レポート &#x200B;](/help/search-social-commerce/assets/insight-reports.png " レポート ")をクリックします。
 
 3. [!UICONTROL Generated Insights] パネルで、次のいずれかの操作を行います。
 
    * レポートインスタンスをクリックします。
 
-   * レポートインスタンスの上にカーソルを置き、「![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/insight-download.png " ダウンロード ")」をクリックします。
+   * レポートインスタンスの上にカーソルを置き、![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/insight-download.png " ダウンロード ")をクリックします。
 
 4. ブラウザーの通常の手順に従って、ファイルを開くか保存します。
 
-   ファイルが圧縮されている場合は、表示する前に個々のファイルをフォルダに抽出します。
+   ファイルが圧縮されている場合は、個々のファイルをフォルダーに抽出してから表示します。
 
 >[!MORELIKETHIS]
 >
->* [[!UICONTROL Advertising Insights]](insight-about.md) について
->* [&#x200B; 生成  [!DNL Advertising Insight]](insight-generate.md)
->* [&#x200B; を削除  [!DNL Advertising Insight]](insight-delete.md)
+>* [約[!UICONTROL Advertising Insights]](insight-about.md)
+>* [を生成 [!DNL Advertising Insight]](insight-generate.md)
+>* [を削除 [!DNL Advertising Insight]](insight-delete.md)

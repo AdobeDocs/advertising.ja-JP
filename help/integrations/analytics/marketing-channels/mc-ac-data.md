@@ -1,59 +1,69 @@
 ---
-title: Adobe Advertising データ  [!DNL Marketing Channels]  使用
-description: ' [!DNL Analytics Marketing Channels] でAdobe Advertising データを使用する方法を説明します。'
+title: Adobe Advertising データで [!DNL Marketing Channels] を使用する
+description: ' [!DNL Analytics Marketing Channels]でのAdobe Advertising データの使用方法について説明します。'
 feature: Integration with Adobe Analytics
 exl-id: 522c7f01-1138-477d-8018-36030caab55e
-source-git-commit: 4db751aae61eaf8abdc5e3afca3b4027f0eddf26
+TQID: https://experienceleague.adobe.com/VQMlRz2xtbbr6Nns5EZOh9zUUKIifKy-DGN-9JateJs
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: 713
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising Data での [!DNL Analytics Marketing Channels] の使用
+# Adobe Advertising データで[!DNL Analytics Marketing Channels]を使用する
 
-*Adobe AdvertisingとAdobe Analyticsの統合のみを利用する広告主*
+*Adobe AdvertisingとAdobe Analyticsの統合のみを使用する広告主*
 
-Adobe Advertising レポートと [!DNL Analytics Marketing Channels] レポートの両方を使用すると、デジタルメディアがサイトアクティビティに与える影響に関する貴重なinsightを得ることができます。
+Adobe Advertisingと[!DNL Analytics Marketing Channels]の両方のレポートを使用すると、デジタルメディアがサイトのアクティビティに与える影響に関する貴重なinsightを得ることができます。
 
 <!-- from video: By using Marketing Channels with your Adobe Advertising data, you can get a more holistic view of how your advertising efforts are affecting site behavior. In particular, you can see the value of your view-through and click-through data, and how your advertising assists or is assisted by other channels. -->
 
-次の図に、1 人の訪問者のジャーニーを構成する個々の訪問をAdobe Advertisingと [!DNL Marketing Channels] でトラッキングする方法を示します。 [!DNL Analytics] のAdobe Advertising レポートは、AMO ID を使用して、Adobe Advertisingを通じてトラフィックに送信される、有料ディスプレイ、検索、ソーシャルおよびコマースチャネル広告のみに制限されます。 ただし、[!DNL Marketing Channels] は、[!DNL Marketing Channels] の処理ルールで設定されたすべてのチャネルを追跡します。
+次の図は、Adobe Advertisingと[!DNL Marketing Channels]が1人の訪問者のジャーニーを構成する個々の訪問をどのように追跡しているかを示しています。 [!DNL Analytics]のAdobe Advertising レポートは、AMO IDを使用してAdobe Advertisingを通じてトラフィックされた有料ディスプレイ広告、検索広告、ソーシャル広告、コマースチャネル広告に限定されます。 ただし、[!DNL Marketing Channels]は、[!DNL Marketing Channels]処理ルールで設定されたすべてのチャネルを追跡します。
 
-![&#x200B; 訪問者のジャーニーにおける個人訪問のAdobe Advertisingおよび [!DNL Marketing Channels] でのトラッキング方法 &#x200B;](/help/integrations/assets/a4adc-mc-sample-journey2.png)
+![Adobe Advertisingと[!DNL Marketing Channels]が訪問者のジャーニーの個々の訪問を追跡する方法](/help/integrations/assets/a4adc-mc-sample-journey2.png)
 
-1 回目の訪問で、ユーザーはメールキャンペーンを通じて web サイトに入り、10 回のページビューを実行した後、左に移動しました。 2 回目の訪問では、ユーザーはディスプレイ広告を使用してサイトに入り、10 回のページビューを実行してから離れました。 3 回目の訪問では、ユーザーは自然検索でサイトに入り、5 つのページビューを実行、250 ドルのコンバージョンを実行、左側を実行しました。 [!DNL Marketing Channels] とAdobe Advertisingのトラッキングの違いに注意してください。 このジャーニーでAdobe Advertisingが追跡するチャネルは [!UICONTROL Display] のみです。 Adobe Advertisingは、[!UICONTROL Display] チャネルの訪問を追跡し、後続のエンゲージメントデータ（ページビューなど）とコンバージョンをその広告の影響に遡って関連付けます。 [!DNL Marketing Channels] の一方で、は、すべてのチャネルの完全なビューを提供します。
+初回訪問では、利用者はメールキャンペーンを通じてweb サイトにアクセスし、10回のページビューを実行したあと、サイトを離れました。 2回目の訪問では、ユーザーはディスプレイ広告を介してサイトに入り、10回のページビューを実行してから離れました。 3回目の訪問では、利用者は自然検索でサイトにアクセスし、5つのページビューを実行し、250 ドルのコンバージョンを実行しました。そして、左側には、 [!DNL Marketing Channels]とAdobe Advertisingのトラッキングの違いに注目してください。 このジャーニーでAdobe Advertisingが追跡するチャネルは[!UICONTROL Display]のみです。 Adobe Advertisingは、[!UICONTROL Display] チャネルの訪問を追跡し、その後のエンゲージメントデータ（ページビューなど）とコンバージョンをその広告の影響に関連付けます。 一方、[!DNL Marketing Channels]では、すべてのチャネルの全体像が表示されます。
 
-AMO ID は訪問者のジャーニーを通じて永続的なので、AMO ID データを使用して、Adobe Advertisingが他のマーケティングチャネルに与える影響を確認できます。 AMO ID[&#x200B; デフォルトでは 60 日間保持 &#x200B;](/help/integrations/analytics/overview.md) ですが、必要に応じて永続性を設定できます。
+AMO IDは訪問者のジャーニーを通じて保持されるので、AMO ID データを使用して、Adobe Advertisingが他のマーケティングチャネルにどのように影響するかを確認できます。 AMO ID [は、デフォルトで60日間保持されますが](/help/integrations/analytics/overview.md)、必要に応じて永続性を設定できます。
 
-## Adobe Advertisingとマーケティングチャネルデータを組み合わせて、メディアのパフォーマンスを分析する方法
+## Adobe Advertisingとマーケティングチャネルのデータを組み合わせてメディアパフォーマンスを分析する方法
 
-[!DNL Analytics] 内では、Adobe Advertisingに保存されている有料広告データと [!DNL Marketing Channels] の包括的な訪問データを組み合わせて、メディアのパフォーマンスをより詳細に分析し、カスタマージャーニーにより良い影響を与えることができます。
+[!DNL Analytics]内では、Adobe Advertisingに保持されている有料広告データと[!DNL Marketing Channels]の包括的な訪問データを組み合わせて、メディアのパフォーマンスをより詳細に分析することで、カスタマージャーニーをより効果的に影響させることができます。
 
-次の分析では、Adobe Advertising データを使用して、ディスプレイ広告がサイトコンバージョンに与える影響を様々なバージョンで示します。 3 つの列はすべて同じコンバージョン指標を使用しますが、各列は異なるストーリーを示します。
+次の分析では、Adobe Advertisingのデータを使用して、ディスプレイ広告がサイトコンバージョンに与える影響を示しています。 3つの列はすべて同じコンバージョン指標を使用していますが、各列で伝えられるストーリーは異なります。
 
-* 列 1 は、訪問者のジャーニー全体を通して持続する AMO ID データを調べます。 列 1 は、ある時点で 641 件の申請スタートが、ビュースルーまたはクリックスルーを通じてAdobe Advertising広告とリンクされたことを示しています。 このビューでは、他の [!DNL Marketing Channels] アトリビューションを考慮しません。
+* 列1は、訪問者のジャーニー全体で永続的なAMO ID データを示しています。 列1は、641件の「申し込み処理の開始」が、ビュースルーまたはクリックスルーイベントを通じて、Adobe Advertising広告にリンクされていることを示しています。 このビューでは、他の[!DNL Marketing Channels] アトリビューションは考慮されていません。
 
-* ただし、[!DNL Marketing Channels] データセットでは、641 件のアプリケーション開始は、他のマーケティングチャネルに関連付けられます。 最後の 2 つの列は、641 のアプリケーション開始を取り、データを [!UICONTROL Display Click-Through] チャネルと [!UICONTROL Display View-Through] チャネルに制限し、ラストタッチアトリビューションモデルで発生するコンバージョンを示しています。
+* ただし、[!DNL Marketing Channels] データセットでは、641 アプリケーションの開始は他のマーケティングチャネルに起因しています。 最後の2つの列は641 Applications Startsを取り、データを[!UICONTROL Display Click-Through]および[!UICONTROL Display View-Through] チャネルに制限し、ラストタッチアトリビューションモデルで発生するコンバージョンを示します。
 
-![&#x200B; 表示広告がサイトコンバージョンに与える影響の例 &#x200B;](/help/integrations/assets/a4adc-mc-display-impact.png)
+![&#x200B; ディスプレイ広告がサイトコンバージョンに与える影響の例](/help/integrations/assets/a4adc-mc-display-impact.png)
 
-この分析をさらに 1 段階進めることができます。 マーケティングチャネルでAdobe Advertisingの行をさらに分類すると、Adobe Advertising コンバージョンが 641 のアプリケーション開始に関連付けられている場所を確認できます。 これらのコンバージョンのうち 5 つはラストタッチディスプレイのクリックスルーに関連付けられ、19 はラストタッチディスプレイのビュースルーに関連付けられていることはすでに知っています。 この場合でも、他のマーケティングチャネルに関連付けられた 617 アプリケーション開始が残ります。 ラストタッチチャネル ディメンションをAdvertising DSP行項目の上にドラッグ&amp;ドロップすると、残りのアプリケーションスタートのチャネル属性が表示され、ディスプレイチャネルのクロスチャネル影響を確認できます。
+この分析をさらに一歩進めることができます。 マーケティングチャネル別にAdobe Advertisingの行をさらに分割して、Adobe Advertising コンバージョンが641 Applications Startsに起因する場所を確認できます。 これらのコンバージョンのうち5つはラストタッチディスプレイのクリックスルーに起因するもので、19はラストタッチディスプレイのビュースルーに起因するものであることはすでにわかっています。 それでも617件の申し込みが他のマーケティングチャネルから始まっている。 最後のタッチチャネルのディメンションをAdvertising DSPの行の上にドラッグ&amp;ドロップすると、アプリケーションの開始の残りの部分のチャネルアトリビューションが表示され、表示チャネルのクロスチャネルの影響が表示されます。
 
-![&#x200B; ラストタッチチャネル ディメンションの追加方法 &#x200B;](/help/integrations/assets/a4adc-mc-display-impact-ltc.png)
+![最後のタッチチャネルディメンションを追加する方法](/help/integrations/assets/a4adc-mc-display-impact-ltc.png)
 
-これで、残りのアプリケーション開始の属性がどのように設定されているかを確認できます。 メールには、AMO ID が保持される 357 のラストタッチアプリケーション開始のクレジットが付与されます。 このタイプの分析を使用すると、Adobe Advertisingのディスプレイ広告がすべてのチャネルに与えた影響を確認できます。 データセットとアトリビューションモデルが 1 つしかない場合、このタイプのinsightは使用できません。
+これで、残りのアプリケーションの開始がどのように関連付けられているかを確認できます。 電子メールには、AMO IDが保持される357 ラストタッチアプリケーション開始のクレジットが割り当てられます。 Adobe Advertisingのディスプレイ広告が、あらゆるチャネルに与えた影響を明らかにすることができます。 データセットとアトリビューションモデルがひとつしかないため、この種類のinsightは利用できません。
 
-![&#x200B; ディスプレイチャネルのクロスチャネル影響の例 &#x200B;](/help/integrations/assets/a4adc-mc-display-impact-x-channel.png)
+![表示チャネルのクロスチャネルへの影響の例](/help/integrations/assets/a4adc-mc-display-impact-x-channel.png)
 
-スタックグラフを「100% 積み重ね」に設定して、経時的なトレンドデータを表示することで、分析をさらに改善できます。 このビジュアライゼーションにより、ディスプレイマーケティングキャンペーンの影響を大きく受けるラストタッチマーケティングチャネルを監視しやすくなります。
+「100%積み重ね」に設定したスタックグラフを使用して、トレンドデータを経時的に表示することで、分析をさらに向上させることができます。 このビジュアライゼーションにより、ディスプレイマーケティング施策の影響が最も大きいラストタッチマーケティングチャネルを容易に追跡できます。
 
-![&#x200B; ディスプレイチャネルのクロスチャネル影響のトレンドの例 &#x200B;](/help/integrations/assets/a4adc-mc-display-impact-x-channel-trend.png)
+![表示チャネルのクロスチャネルのトレンドの影響の例](/help/integrations/assets/a4adc-mc-display-impact-x-channel-trend.png)
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; の基本  [!DNL Analytics Marketing Channels]](mc-overview.md)
->* [Adobe Advertising ID を使用した処理ルール  [!DNL Marketing Channels]  作成 &#x200B;](mc-ids.md)
->* [Adobe Advertisingとでチャネルデータが異なる可能性がある理由  [!DNL Marketing Channels]](mc-data-variances.md)
->* [&#x200B; ビデオ：Adobe Advertising レポート  [!DNL Marketing Channels]  使用 &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ja)
->* [&#x200B; 概要  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
+>* [の基本 [!DNL Analytics Marketing Channels]](mc-overview.md)
+>* [Adobe Advertising IDを使用して [!DNL Marketing Channels] 処理ルールを作成](mc-ids.md)
+>* [Adobe Advertisingと [!DNL Marketing Channels]](mc-data-variances.md)でチャネルデータが異なる理由
+>* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [概要： [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

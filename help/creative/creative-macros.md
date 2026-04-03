@@ -1,22 +1,32 @@
 ---
-title: URL を追跡するために使用可能なマクロ
-description: ランディングページの URL、トラッキング URL およびサードパーティクリエイティブに追加できるマクロを参照します。
+title: トラッキング URLに使用できるマクロ
+description: ランディングページのURL、トラッキング URL、サードパーティのクリエイティブに追加できるマクロを参照します。
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/J5jfIECrL29NngVOulEgHKZBHYqBmoz4680HzEzhIng
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: 237
 ht-degree: 0%
 
 ---
 
-# URL を追跡するために使用可能なマクロ
+# トラッキング URLに使用できるマクロ
 
 <!-- More feature metadata???  -->
 
-サードパーティクリエイティブ、エクスペリエンスのサードパーティトラッキング URL、独自に使用するランディングページ URL には、次のマクロを含めることができます。
+サードパーティクリエイティブ、エクスペリエンスのサードパーティトラッキング URL、独自の使用のためにランディングページ URLに、次のマクロのいずれかを含めることができます。
 
-使用可能なマクロの一部、またはそれに相当するものが、エクスペリエンスタグに自動的に含まれます。
+利用可能なマクロの一部、またはそれに相当するマクロは、自動的にエクスペリエンスタグに含まれます。
 
 <!--
  Later: 
@@ -37,23 +47,23 @@ ht-degree: 0%
 
 -->
 
-| マクロ | 説明 | Advertising DSPの Experience Tags で自動的に実行しますか？ |
+| マクロ | 説明 | Advertising DSPのエクスペリエンスタグは自動的に生成されますか？ |
 | --- | --- | --- |
-| `${TM_CAMPAIGN_ID_NUM}` | DSPからキャンペーン ID をトラッキングしレポートします | はい |
-| `${TM_SITE_ID_NUM}` | DSPからサイト ID をトラッキングしレポートします | はい |
-| `${TM_PLACEMENT_ID_NUM}` | DSPからプレースメント ID をトラッキングしレポートします | はい |
-| `${TM_AD_ID_NUM}` | DSPから広告 ID を追跡してレポートします | はい |
-| `${TM_CREATIVE_ID_NUM}` | DSPからクリエイティブ ID をトラッキングしレポートします | 該当なし |
-| `${TM_SESSION_ID}` | DSPからインプレッション ID をトラッキングしレポートします。 値が返されない場合、Advertising Creativeは値を生成します。 | はい |
-| `${TM_ACC_EXPERIENCE_ID}` | Advertising Creative Experience ID を追跡してレポートします | — |
-| `${TM_ACC_CREATIVE_ID}` | Advertising Creativeのクリエイティブ ID をトラッキングしレポートします | — |
-| `${TM_RANDOM}` | 1 ～ 1000000 の乱数 | — |
-| `${TM_TIMESTAMP}` | UNIX® タイムスタンプ（秒単位） | — |
-| `${TM_CLICK_URL_URLENC}` | （URL エンコーディングを必要とするベンダーからのサードパーティ広告の場合） エンコードされたクリックリダイレクト URL を使用すると、広告サーバーは広告のクリックを追跡およびカウントできます。 ユーザーが広告をクリックすると、マクロがアクティブ化され、クリックが記録され、レポート目的でカウントされます。 | はい |
+| `${TM_CAMPAIGN_ID_NUM}` | DSPからキャンペーン IDを追跡およびレポートします | はい |
+| `${TM_SITE_ID_NUM}` | DSPからサイト IDを追跡およびレポートします | はい |
+| `${TM_PLACEMENT_ID_NUM}` | DSPからプレースメント IDを追跡およびレポートします | はい |
+| `${TM_AD_ID_NUM}` | DSPから広告IDを追跡してレポートします | はい |
+| `${TM_CREATIVE_ID_NUM}` | DSPからクリエイティブ IDをトラッキングおよびレポートします | 該当なし |
+| `${TM_SESSION_ID}` | DSPからインプレッション IDを追跡およびレポートします。 値が返されない場合は、Advertising Creativeによって値が生成されます。 | はい |
+| `${TM_ACC_EXPERIENCE_ID}` | Advertising Creative エクスペリエンス IDのトラッキングとレポート | — |
+| `${TM_ACC_CREATIVE_ID}` | Advertising Creativeのクリエイティブ IDをトラッキングおよびレポートします | — |
+| `${TM_RANDOM}` | 1 ～ 1000000の間の乱数 | — |
+| `${TM_TIMESTAMP}` | UNIX® タイムスタンプ （秒単位） | — |
+| `${TM_CLICK_URL_URLENC}` | （URL エンコーディングを必要とするベンダーからのサードパーティ広告の場合）エンコードされたクリックリダイレクト URL。広告サーバーが広告クリックを追跡およびカウントできるようにします。 ユーザーが広告をクリックすると、マクロがアクティブになり、クリックはレポート用に記録され、カウントされます。 | はい |
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; クリエイティブライブラリへの標準クリエイティブの追加 &#x200B;](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
->* [&#x200B; 標準のクリエイティブ設定 &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* [&#x200B; ターゲット設定エクスペリエンス設定 &#x200B;](/help/creative/experiences/experience-settings-targeting.md)
->*[&#x200B; 非ターゲットエクスペリエンス設定 &#x200B;](/help/creative/experiences/experience-settings-no-targeting.md)
+>* [標準クリエイティブをクリエイティブライブラリに追加](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
+>* [標準クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
+>* [&#x200B; ターゲット設定](/help/creative/experiences/experience-settings-targeting.md)
+>*[&#x200B; ターゲティングされていないエクスペリエンス設定](/help/creative/experiences/experience-settings-no-targeting.md)

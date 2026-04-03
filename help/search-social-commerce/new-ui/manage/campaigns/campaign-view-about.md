@@ -1,21 +1,29 @@
 ---
-title: （新しい UI） [!UICONTROL Campaigns] ビューについて
-description: '[!UICONTROL Campaigns] ビューでできることについて説明します。'
+title: （新しいUI） [!UICONTROL Campaigns] ビューについて
+description: '[!UICONTROL Campaigns] ビューで何ができるかを説明します。'
 feature: Search Optimization, Search Campaign Management
-hide: true
+hide: yes
 exl-id: 7d261ac3-5d89-4357-9866-19a7e3aab837
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/G--2kvUQgSzS2pvzybW--3YOQ4apkV-WnqI-e0CKZ98
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: 121
 ht-degree: 0%
 
 ---
 
-# （新しい UI） [!UICONTROL Campaigns] ビューについて
+# （新しいUI） [!UICONTROL Campaigns] ビューについて
 
 *Beta機能*
 
-[!UICONTROL Manage]/[!UICONTROL Campaigns] ビューには、選択した広告主アカウントについてフィルターされたビューで表示されているすべてのキャンペーンがリストされます。 キャンペーン名をクリックすると、キャンペーン内の広告グループのリストを開くことができます。
+[!UICONTROL Manage] > [!UICONTROL Campaigns] ビューには、選択した広告主アカウントのフィルター処理されたビュー内のすべてのキャンペーンが一覧表示されます。 キャンペーン名をクリックすると、キャンペーン内の広告グループのリストを開くことができます。
 
 ## 使用可能なアクション
 
@@ -29,15 +37,15 @@ ht-degree: 0%
 
 * 行内からキャンペーンのステータスを削除または変更します。
 
-* [&#x200B; キャンペーンを既存または新規のポートフォリオに割り当て &#x200B;](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)、および [&#x200B; キャンペーンのポートフォリオからの割り当てを解除 &#x200B;](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [既存または新規のポートフォリオにキャンペーンを割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)、および[&#x200B; ポートフォリオからキャンペーンを割り当て解除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
-* [キャンペーンに制約を割り当て、キャンペーンから制約の割り当てを解除する](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+* [キャンペーンに制約を割り当て、キャンペーンから制約を割り当て解除します](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
-* [[!UICONTROL Campaigns] ビューからのデータのダウンロード](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+* [[!UICONTROL Campaigns] ビューからデータをダウンロード](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ポートフォリオへのキャンペーンの割り当て &#x200B;](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [&#x200B; ポートフォリオからのキャンペーンの削除 &#x200B;](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
->* [&#x200B; キャンペーンの制約割り当ての管理 &#x200B;](campaign-constraint-assignments-manage.md)
->* [[!UICONTROL Campaigns] 表示からのデータのダウンロード &#x200B;](campaign-view-report.md)
+>* [&#x200B; ポートフォリオへのキャンペーンの割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [&#x200B; ポートフォリオからキャンペーンを削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [&#x200B; キャンペーンの制約の割り当ての管理](campaign-constraint-assignments-manage.md)
+>* [[!UICONTROL Campaigns] ビューからデータをダウンロード &#x200B;](campaign-view-report.md)

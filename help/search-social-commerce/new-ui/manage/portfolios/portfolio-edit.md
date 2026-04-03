@@ -1,41 +1,50 @@
 ---
-title: （新しい UI）ポートフォリオの編集
-description: ポートフォリオ設定の編集方法を説明します。
+title: （新しいUI） ポートフォリオの編集
+description: ポートフォリオ設定の編集方法について説明します。
 feature: Search Portfolios, Search Optimization
-hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+hide: yes
+exl-id: c1be8634-47f6-465e-a6c9-88cbb3456592
+TQID: https://experienceleague.adobe.com/PvRUorKnHZJPyLSDJapXOrCokNZ1Wg6l4bm-s4EiuYU
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: 122
 ht-degree: 0%
 
 ---
 
-# （新しい UI）ポートフォリオの編集
+# （新しいUI） ポートフォリオの編集
 
 *Beta機能*
 
 >[!NOTE]
 >
->複数のポートフォリオの設定を一度に編集するには、「[&#x200B; （新しい UI）バルクシートファイルを使用したポートフォリオ設定の一括編集 &#x200B;](portfolio-bulksheets.md) を参照してください。
+>複数のポートフォリオの設定を一度に編集するには、「[&#x200B; （新しいUI） バルクシート ファイルを使用したポートフォリオ設定の一括編集](portfolio-bulksheets.md)」を参照してください。
 
-1. メインメニューで、**[!UICONTROL Manage]/[!UICONTROL Portfolios]** をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;をクリックします。
 
-1. ポートフォリオの横にあるチェックボックスを選択します。
+1. ポートフォリオの横にあるチェックボックスをオンにします。
 
-1. データ テーブルの上にあるツールバーで、[![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ")]&#x200B;**[!UICONTROL Edit]** をクリックします。
+1. データテーブルの上にあるツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集") **[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. ポートフォリオ設定を編集します。
 
-   ポートフォリオ設定について詳しくは、最適化ガイドを参照してください。このガイドは、検索、ソーシャル、Commerce内から利用できます。
+   ポートフォリオ設定について詳しくは、Search, Social, &amp; Commerce内から入手できる最適化ガイドを参照してください。
 
-1. 「**[!UICONTROL Review and Save]**」をクリックします。
+1. **[!UICONTROL Review and Save]**&#x200B;をクリックします。
 
-1. 設定を確認し、必要に応じて変更を加えて、[**[!UICONTROL Save]**] をクリックします。
+1. 設定を確認し、必要に応じて変更を加え、**[!UICONTROL Save]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しい UI）バルクシートファイルを使用したポートフォリオ設定の一括編集 &#x200B;](portfolio-bulksheets.md)
->* [&#x200B; ポートフォリオの作成 &#x200B;](portfolio-create.md)
->* [&#x200B; （新しい UI） ポートフォリオのパフォーマンスの詳細を表示 &#x200B;](portfolio-details.md)
->* [&#x200B; （新しい UI） [!UICONTROL Portfolios] ビューでのデータのダウンロード &#x200B;](portfolio-view-report.md)
->* [&#x200B; ポートフォリオについて &#x200B;](portfolio-about.md)
+>* [&#x200B; （新しいUI）一括シートファイルを使用したポートフォリオ設定の一括編集](portfolio-bulksheets.md)
+>* [&#x200B; ポートフォリオを作成](portfolio-create.md)
+>* [&#x200B; （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
+>* [&#x200B; （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード &#x200B;](portfolio-view-report.md)
+>* [&#x200B; ポートフォリオについて](portfolio-about.md)

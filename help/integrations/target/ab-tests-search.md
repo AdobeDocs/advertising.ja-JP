@@ -1,142 +1,158 @@
 ---
-title: Adobe TargetでのAdobe Advertising Search、ソーシャル、Commerce広告用の A/B テストの設定
-description: 検索、ソーシャル、Commerceで広告と広告の A [!DNL Target] B テストを設定  [!DNL Google Ads]  る方法  [!DNL Microsoft Advertising]  ついて説明します。
+title: Adobe TargetでAdobe Advertising Search、Social、Commerce広告のA/B テストを設定する
+description: Search, Social, & Commerceで [!DNL Target] 広告および [!DNL Google Ads] 広告の [!DNL Microsoft Advertising] でA/B テストを設定する方法について説明します。
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+TQID: https://experienceleague.adobe.com/eu1dRdsQlJX4IlHLTUDyJ69r0txFvFUdzUiXpSAlpU8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: 867
 ht-degree: 0%
 
 ---
 
-# Adobe TargetでのAdvertising検索、ソーシャル、Commerce広告用の A/B テストの設定
+# Adobe TargetでAdvertising Search、Social、Commerce広告のA/B テストを設定する
 
-*Advertising検索、ソーシャル、Commerceのみを使用する広告主*
+*Advertising Search, Social, &amp; Commerceのみの広告主*
 
-*[!DNL Google Ads]および [!DNL Microsoft Advertising] アカウントのみ*
+*[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントのみ*
 
-Adobe AdvertisingとAdobe Targetを使用すると、次の操作を行うことで、デジタル広告トラフィックのランディングページエクスペリエンス A/B テストを簡単 [!DNL Google Ads] 設定で [!DNL Microsoft Advertising] ます。
+Adobe AdvertisingとAdobe Targetを使用すると、デジタル広告トラフィック [!DNL Google Ads]と[!DNL Microsoft Advertising]に対するランディングページ エクスペリエンス A/B テストを簡単に設定して、以下を行うことができます。
 
-* コンバージョン率（CVR）および取得効率測定（CPA、CPL、CAC など）を改善する。
+* コンバージョン率（CVR）と獲得効率の指標（CPA、CPL、CACなど）を改善します。
 
-* 広告に関連する、よりパーソナライズされたランディングページのエクスペリエンスを提供します（例えば、画像/ビデオクリエイティブ、コピー、キーワードまたはランディングページに対するその他の広告信号との一致）。
+* 広告に合わせて、よりパーソナライズされたランディングページ体験を提供します（例えば、画像/動画のクリエイティブ、コピー、キーワード、その他の広告シグナルをランディングページに一致させます）。
 
-また、Adobe Analyticsに統合されているネイティブの [[!DNL Analytics] for Advertising](/help/integrations/analytics/overview.md) 統合レポートディメンションと [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja) 統合レポートディメンションを組み合わせて、テストデータを測定し、[!DNL Analytics] の指標と成功イベントで視覚化することもできます。
+また、Adobe Analyticsに統合されたAdvertising[[!DNL Analytics] 用のネイティブ &#x200B;](/help/integrations/analytics/overview.md)と[[!DNL Analytics]  [!DNL Target]用の](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)統合レポートディメンションを組み合わせて、[!DNL Analytics]個の指標と成功イベントを使用してテストデータを測定および視覚化することもできます。
 
-前提条件、検索、ソーシャル、Commerceの広告からのクリックスルートラフィックに [!DNL Target] して A/B テストを設定する手順、[!DNL Analytics] でテストを測定および視覚化する方法に関するヒントについては、次の節を参照してください。
+Search, Social, &amp; Commerceの広告からのクリックスルーのトラフィックについて、[!DNL Target]でA/B テストを設定する手順と、[!DNL Analytics]でテストを測定して視覚化する方法に関するヒントについては、次の節を参照してください。
 
 ## 前提条件
 
 ### 必要な製品
 
-* 検索、ソーシャル、Commerce
+* Search, Social, &amp; Commerce
 * [!DNL Target]
 
 ### 推奨される製品と統合
 
 * [!DNL Analytics]
 
-* [[!DNL Analytics] Advertisingの場合 &#x200B;](/help/integrations/analytics/overview.md)integration<!-- necessary for testing view-throughs, which most advertisers want to do -->
+* Advertising[[!DNL Analytics] 統合](/help/integrations/analytics/overview.md)の<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
-* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja) 統合
+* [[!DNL Analytics]  [!DNL Target]統合用](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)
 
-## 手順 1:[!DNL Target] で検索、ソーシャル、Commerce用の A/B テストアクティビティを作成する
+## 手順1: Search, Social, &amp; Commerce用に[!DNL Target]でA/B テストアクティビティを作成する
 
-以下の手順では、検索、ソーシャル、Commerceのユースケースに関する情報を重点的に説明しています。
+次の手順では、Search, Social, &amp; Commerceのユースケースに関する情報を強調表示します。
 
-1. [Adobe Targetにログインします &#x200B;](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=ja)。
+1. [Adobe Targetにログイン &#x200B;](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=ja)。
 
-1. [A/B テストの作成 &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ja):
+1. [A/B テストを作成](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ja):
 
-   1. 「**[!UICONTROL Enter Activity URL]**」フィールドに、テストのランディングページ URL を入力します。
+   1. 「**[!UICONTROL Enter Activity URL]**」フィールドに、テストのランディングページ URLを入力します。
 
    1. 「**[!UICONTROL Goal]**」フィールドに、テストの成功指標を入力します。
 
       >[!NOTE]
       >
-      >[!DNL Analytics] 内で [!DNL Target] がデータソースとして有効になっており、正しいレポートスイートが選択されていることを確認します。
+      >[!DNL Analytics]が[!DNL Target]内のデータソースとして有効になっており、正しいレポートスイートが選択されていることを確認してください。
 
-   1. **[!UICONTROL Priority]** を `High` または `999` に設定して、テストセグメントのユーザーが誤ったオンサイトエクスペリエンスを受け取った場合の競合を防ぎます。
+   1. **[!UICONTROL Priority]**&#x200B;を`High`または`999`に設定して、テストセグメントのユーザーが誤ったオンサイトエクスペリエンスを受け取ったときに競合を防ぎます。
 
 
-   1. **[!UICONTROL Reporting Settings]** 内で **[!UICONTROL Company Name]** を選択し、検索、ソーシャル、Commerce アカウントに接続してくださ **[!UICONTROL Report Suite]**。
+   1. **[!UICONTROL Reporting Settings]**&#x200B;内で、Search, Social, &amp; Commerce アカウントに接続されている&#x200B;**[!UICONTROL Company Name]**&#x200B;と&#x200B;**[!UICONTROL Report Suite]**&#x200B;を選択します。
 
-      その他のレポートに関するヒントについては、[&#x200B; レポートのベストプラクティスとトラブルシューティング &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=ja) を参照してください。
+      その他のレポートのヒントについては、「[&#x200B; レポートのベストプラクティスとトラブルシューティング &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=ja)」を参照してください。
 
    1. 「**[!UICONTROL Date Range]**」フィールドに、テストの適切な開始日と終了日を入力します。
 
-   1. **[!UICONTROL Site Pages]**/**[!UICONTROL Landing Page]**/**[!UICONTROL Query]** を選択します。 「**[!UICONTROL Value]**」フィールドに、検索、ソーシャル、Commerceの関連する広告ネットワークエンティティの [!UICONTROL Network Account ID]、[!UICONTROL Network Campaign ID]、[!UICONTROL Network Adgroup ID] または [!UICONTROL Network Ad ID] を入力します。 これにより、エンティティのクリックスルーオーディエンスに [!DNL Target] のクエリ文字列パラメーターを使用できます。
+   1. **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**&#x200B;を選択します。 「**[!UICONTROL Value]**」フィールドに、Search, Social, &amp; Commerceの関連する広告ネットワークエンティティの[!UICONTROL Network Account ID]、[!UICONTROL Network Campaign ID]、[!UICONTROL Network Adgroup ID]または[!UICONTROL Network Ad ID]を入力します。 これにより、エンティティのクリックスルーオーディエンスに[!DNL Target] クエリ文字列パラメーターを使用できます。
 
-      ID を見つけるには、[&#x200B; 関連する ID 列をエンティティビューに追加 &#x200B;](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) します。
+      IDは、[関連するID列をエンティティビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)に追加することで見つけることができます。
 
-      ![[!UICONTROL Network Account ID]&#x200B;[!UICONTROL Accounts] 表示の列 &#x200B;](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID]&#x200B;[!UICONTROL Accounts] 表示の列 ")
+      ![[!UICONTROL Network Account ID] ビュー[!UICONTROL Accounts]の](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] ビュー[!UICONTROL Accounts]列の")列
 
       サポートが必要な場合は、Adobe アカウントチームにお問い合わせください。
 
-   1. **[!UICONTROL Traffic Allocation Method]** の場合は、「**[!UICONTROL Manual (Default)]**」を選択し、オーディエンスを 50/50 に分割します。
+   1. **[!UICONTROL Traffic Allocation Method]**&#x200B;の場合、**[!UICONTROL Manual (Default)]**&#x200B;を選択し、オーディエンスを50/50に分割します。
 
    1. アクティビティを保存します。
 
-1. [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ja) を使用して、A/B テストのランディングページテンプレートのデザインを変更します。
+1. [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ja)を使用して、A/B テスト ランディングページ テンプレートにデザイン変更を加えます。
 
-   * エクスペリエンス A：編集しないでください。パーソナライゼーションなしのデフォルト/コントロールランディングページエクスペリエンスです。
+   * エクスペリエンス A: パーソナライゼーションなしでデフォルト/コントロールのランディングページエクスペリエンスであるため、編集しないでください。
 
    * エクスペリエンス B: [!DNL Target] ユーザーインターフェイスを使用して、テストに含まれるアセット（見出し、コピー、ボタンの配置、クリエイティブなど）に基づいてランディングページテンプレートをカスタマイズします。
 
    >[!NOTE]
    >
-   >クリエイティブなテストの使用例については、Adobe アカウントチームにお問い合わせください。
+   >クリエイティブテストのユースケースなど、Adobeのアカウントチームにお問い合わせください。
 
-## 手順 2:[!DNL Analytics for Target] で [!DNL Analytics] Analysis Workspaceを設定する
+## 手順2: [!DNL Analytics for Target]で[!DNL Analytics] Analysis Workspaceを設定する
 
-[!DNL Analytics for Target] （A4T）は、広告主がコンバージョン指標とオーディエンスセグメントに基づいて [!DNL Target] アクティビティを作成し、レポートソースとして [!DNL Analytics] を使用して結果を測定でき [!DNL Analytics] クロスソリューション統合環境です。 そのアクティビティのレポートとセグメント化はすべて、データ収集 [!DNL Analytics] 基づいています。
+[!DNL Analytics for Target] （A4T）は、広告主が[!DNL Target]個のコンバージョン指標とオーディエンスセグメントに基づいて[!DNL Analytics]個のアクティビティを作成し、[!DNL Analytics]をレポートソースとして使用して結果を測定できるクロスソリューション統合です。 そのアクティビティのすべてのレポートとセグメント化は、[!DNL Analytics] データ収集に基づいています。
 
-実装手順へのリンクなど、[!DNL Analytics for Target] について詳しくは、「Adobe Target （A4T）のレポートソースとしての [Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)」を参照してください。
+実装手順へのリンクを含む[!DNL Analytics for Target]について詳しくは、「[Adobe Analytics as the reporting source for Adobe Target （A4T） &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)」を参照してください。
 
 ### [!DNL Analytics for Target] パネルの設定
 
-Analysis Workspaceで、[!DNL Analytics for Target panel] アクティビティとエクスペリエンスを分析する [!DNL Target] を設定します。 レポートに関する次の重要なポインタと情報に注意してください。
+Analysis Workspaceで、[!DNL Analytics for Target panel]を設定して、[!DNL Target]のアクティビティとエクスペリエンスを分析します。 レポートに関する次の重要なポイントと情報を考慮してください。
 
 #### 指標
 
-* テストが実行されたAdobe Advertising アカウント、キャンペーンまたは広告グループに固有のパネルを <!-- only applicable entities? --> ワークスペース内に作成します。 概要ビジュアライゼーションを使用すると、[!DNL Target] のテストパフォーマンスと同じレポートにAdobe Advertising指標を表示できます。
+* テストを実行したAdobe Advertising アカウント、キャンペーンまたは広告グループ <!-- only applicable entities? -->に固有のパネルをワークスペース内に作成します。 サマリービジュアライゼーションを使用して、[!DNL Target] テストのパフォーマンスと同じレポートでAdobe Advertising指標を表示します。
 
-* パフォーマンスを測定するために、オンサイト指標（訪問数やコンバージョン数など）の使用に優先順位を付けます。
+* 訪問やコンバージョンなどのオンサイト指標を活用してパフォーマンスを測定し、
 
-* Adobe Advertisingの集計メディア指標（インプレッション数、クリック数、コストなど）を [!DNL Target] の指標と一致させることはできないことを理解します。
+* Adobe Advertisingの集約されたメディア指標（インプレッション数、クリック数、コストなど）は、[!DNL Target]指標と一致させることができません。
 
-#### 寸法
+#### ディメンション
 
-[!DNL Analytics for Target] に関連するディメンションは次のとおりです。
+次のディメンションは[!DNL Analytics for Target]に関連しています：
 
-* **Target アクティビティ**:A/B テストの名前
+* **ターゲットアクティビティ**:A/B テストの名前
 
-* **Target エクスペリエンス**：アクティビティ内で使用されるランディングページエクスペリエンスの名前
+* **ターゲットエクスペリエンス**: アクティビティ内で使用されるランディングページエクスペリエンスの名前
 
-* **ターゲットアクティビティ**/**エクスペリエンス**：同じ行にあるアクティビティ名とエクスペリエンス名
+* **ターゲットアクティビティ** > **エクスペリエンス**：同じ行のアクティビティ名とエクスペリエンス名
 
-### Analytics for [!DNL Target] データのトラブルシューティング
+### [!DNL Target] データのAnalyticsのトラブルシューティング
 
-Analysis Workspace内でアクティビティとエクスペリエンスのデータが最小限である、またはデータが入力されていないことに気付いた場合は、次の操作を行います。
+Analysis Workspace内で、アクティビティとエクスペリエンスのデータが最小限に抑えられているか入力されていないことがわかったら、次の操作を行います。
 
-* [!UICONTROL Supplemental Data ID] と [!DNL Target] の両方で同じ [!DNL Analytics] （SDID）が使用されていることを確認します。 SDID 値を検証するには、キャンペーンがユーザーを誘導するランディングページで [0&rbrace;Adobe Experience Cloud Debugger&rbrace; を使用します。](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=ja)
+* [!UICONTROL Supplemental Data ID]と[!DNL Target]の両方に同じ[!DNL Analytics] （SDID）が使用されていることを確認します。 SDID値を確認するには、キャンペーンがユーザーを促進しているランディングページで[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html)を使用します。
 
-[Adobe Debuggerの追加データ ID （SDID）値](/help/integrations/assets/target-troubleshooting-sdid.png)
+[Adobe Debuggerの補足データ ID （SDID）値](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* 同じランディングページで、a） [!UICONTROL Hostname]/[!UICONTROL Solutions] の下のAdobe Debuggerに表示される [!UICONTROL Target] が一致すること、b） アクティビティの [!UICONTROL Tracking Server] に表示される [!DNL Target] （[!UICONTROL Goals & Settings]/[!UICONTROL Reporting Settings] の下）が一致することを確認します。
+* 同じランディングページで、a）Adobe Debuggerに表示されている[!UICONTROL Hostname]が[!UICONTROL Solutions] > [!UICONTROL Target]に一致することを確認しますb）アクティビティの[!UICONTROL Tracking Server]に表示されている[!DNL Target]が（[!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]に一致することを確認します。
 
-  [!DNL Analytics For Target] では、[!DNL Analytics] から Analytics の [!DNL Target] データ収集サーバーへの呼び出しで [!DNL Modstats] トラッキングサーバーを送信する必要があります。<!-- just "to Analytics?"-->
+  [!DNL Analytics For Target]では、Analytics用の[!DNL Analytics] データ収集サーバーに[!DNL Target]から[!DNL Modstats] トラッキング サーバーを呼び出して送信する必要があります。<!-- just "to Analytics?"-->
 
 [Adobe Debuggerのホスト名の値](/help/integrations/assets/target-troubleshooting-hostname.png)
 
-[Target のトラッキングサーバーの値](/help/integrations/assets/target-troubleshooting-tracking-server.png)
+[Targetでのトラッキングサーバー値](/help/integrations/assets/target-troubleshooting-tracking-server.png)
 
-## 参考情報
+## 関連トピックス
 
-* [Target とAnalysis Workspaceの統合 &#x200B;](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=ja) - Analytics で [!DNL Target] レポートを設定する方法について説明します。
-* [A/B テストの概要 &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=ja) - A/B テストアクティビティについて説明します。検索、ソーシャルおよびCommerce広告で使用できます。
-* [&#x200B; 概要  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - [!DNL Analytics for Advertising] を導入します。この機能を使用すると、Analytics インスタンスでのクリックスルーおよびビュースルーサイトインタラクションを追跡できます。
+* [TargetとAnalyticsの統合](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=ja) - Analysis Workspaceで[!DNL Target] レポートを設定する方法について説明します。
+* [A/B テストの概要](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=ja) – 検索、ソーシャル、およびCommerceの広告で使用できるA/B テスト アクティビティについて説明します。
+* [概要 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - [!DNL Analytics for Advertising]が導入されました。これにより、Analytics インスタンスでのクリックスルーとビュースルーサイトインタラクションを追跡できます。
 
 >[!MORELIKETHIS]
 >
->* [Advertising DSP広告用のAdobe Targetでの A/B テストの設定 &#x200B;](ab-tests-dsp.md)
+>* [Advertising DSP広告に対するAdobe TargetでのA/B テストの設定](ab-tests-dsp.md)

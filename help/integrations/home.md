@@ -5,9 +5,24 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+TQID: https://experienceleague.adobe.com/6-dzP-cjgKB5-HBvIpy8iU3B8FEbWAfP8r5UEad23Ok
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2:
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: 831
 ht-degree: 0%
 
 ---
@@ -31,7 +46,7 @@ ht-degree: 0%
 | 2021年4月19日（PT） | [!DNL Analytics for Advertising] | クリックデータをAdobe Analyticsに送信するために[!DNL Flashtalking]広告タグにマクロを追加する理由と方法について説明します。 | 「[追加 [!DNL Analytics for Advertising]  マクロを [!DNL Flashtalking] 広告タグ &#x200B;](/help/integrations/analytics/macros-flashtalking.md)に追加」を参照してください。 |
 | 2021年10月27日（PT） | [!DNL Analytics for Advertising] | 組織が従来のAdobe Analytics `visitorAPI.js` ライブラリを使用してから、データ収集のために[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) ライブラリ （`alloy.js`）に切り替える場合は、ID ステッチを有効にするために、いくつかの変更を行う必要があります。 | 「[Adobe Experience Platformでの [!DNL Last Event Service] JavaScript ライブラリの使用 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)」を参照してください。 |
 | 2021年5月26日（PT） | ヘルプ | 章「[!DNL Analytics for Advertising]」には、「Working in [!DNL Analytics Marketing Channels]」のサブチャプターが含まれるようになりました。 | 「[処理ルール  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)," "[Using Adobe Advertising IDs to create [!DNL Marketing Channels] の基本](/help/integrations/analytics/marketing-channels/mc-ids.md)」、「[Adobe Advertising data [!DNL Analytics Marketing Channels] を使用する」および「](/help/integrations/analytics/marketing-channels/mc-ac-data.md)Adobe Advertisingと[の間でチャネルデータが異なる理由」を参照してください。 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md) |
-| 2021年5月26日（PT） | ヘルプ | [!DNL Analytics for Advertising]に関するすべてのビデオチュートリアルへのリンクが追加されました。 | 「[Adobe Advertising統合に関するビデオチュートリアル &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ja)」を参照してください。 |
+| 2021年5月26日（PT） | ヘルプ | [!DNL Analytics for Advertising]に関するすべてのビデオチュートリアルへのリンクが追加されました。 | 「[Adobe Advertising統合に関するビデオチュートリアル &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)」を参照してください。 |
 
 {style="table-layout:auto"}
 

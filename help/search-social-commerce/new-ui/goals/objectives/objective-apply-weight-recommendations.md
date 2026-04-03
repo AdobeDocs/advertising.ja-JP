@@ -1,27 +1,35 @@
 ---
-title: 目標に対する重み付けレコメンデーションの適用
-description: 推奨される目標の重み付けの適用方法に関する情報の参照先を説明します。
+title: 目的に合わせて体重を推奨する
+description: 推奨される目的の重みづけの適用に関する情報を見つける場所を説明します。
 feature: Search Objectives, Search Optimization
-hide: true
+hide: yes
 exl-id: 70a231e5-cedb-4a02-8ee9-13549460c034
-source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
+TQID: https://experienceleague.adobe.com/wpts8FxhrqwAk18VSXlSCuzTyfT0eIMW4ZZvHbZuWdE
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: 64
 ht-degree: 0%
 
 ---
 
-# 目標に対する重み付けレコメンデーションの適用
+# 目的に合わせて体重を推奨する
 
 *Beta機能*
 
-手順については、ユーザーインターフェイス内、または検索、ソーシャル、Commerce内から利用できる最適化ガイドのヘルプを参照してください。
+手順については、検索、ソーシャル、およびCommerce内から入手できるユーザーインターフェイスまたは最適化ガイドのヘルプを参照してください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 目標について &#x200B;](objective-about.md)
->* [&#x200B; 目標の作成 &#x200B;](objective-create.md)
->* [&#x200B; 目標の編集 &#x200B;](objective-edit.md)
->* [&#x200B; 目標の削除 &#x200B;](objective-delete.md)
->* [&#x200B; 目標の設定 &#x200B;](objective-settings.md)
->* [&#x200B; 目標のパフォーマンスデータのダウンロード &#x200B;](objective-download-performance-data.md)
+>* [目標について](objective-about.md)
+>* [目標を作成](objective-create.md)
+>* [目標を編集](objective-edit.md)
+>* [目標を削除](objective-delete.md)
+>* [目標の設定](objective-settings.md)
+>* [目的のパフォーマンスデータをダウンロード &#x200B;](objective-download-performance-data.md)

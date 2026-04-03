@@ -1,11 +1,18 @@
 ---
 title: '[!UICONTROL AdWords Geo Report]'
-description: '[!UICONTROL AdWords Geo Report] について説明します。'
+description: '[!UICONTROL AdWords Geo Report]について説明します。'
 exl-id: e64f371f-b1dc-48e0-a883-dde6d4796b58
 feature: Search Reports, Search Specialty Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/85NJVnzICtSYZ3rY6ccba3KouVDyuRL6H9kYOQwPGco
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: 214
 ht-degree: 0%
 
 ---
@@ -14,18 +21,18 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-[!UICONTROL AdWords Geo Report] には、1 つ以上のキャンペーンの国/地域/メトロ コード/都市の組み合わせ別のコスト、クリック、インプレッションおよび（オプションで）派生指標データが含まれます。 デフォルトでは、指定した日付範囲の各時間単位で、該当するキャンペーンごとに少なくとも 1 つのインプレッションまたはクリックを受け取った国/地域/メトロコード/都市の組み合わせに対して 1 つの行がデータに含まれ、行はキャンペーン名の昇順に続いて、国、地域、メトロコード、都市の昇順になります。 レポートには、[!DNL Adobe] で追跡されたコンバージョンデータは含まれていません。
+[!UICONTROL AdWords Geo Report]には、1つ以上のキャンペーンの国/地域/メトロコード/都市の組み合わせごとに、コスト、クリック、インプレッション、および（オプション）派生指標データが含まれます。 デフォルトでは、データには、指定された日付範囲の時間単位ごとに少なくとも1回のインプレッションまたはクリックを受け取った国/地域/メトロコード/都市の組み合わせごとに1つの行が含まれ、行はキャンペーン名、国、地域、メトロコード、都市ごとに昇順になります。 このレポートには、[!DNL Adobe]によって追跡されたコンバージョンデータは含まれていません。
 
-過去 2 か月のデータを表示できます。
+過去2か月間のデータを表示できます。
 
 >[!NOTE]
 >
->* このレポートの合計は、販売元や地理的な場所の特定に関する手法が異なるため、[!UICONTROL Geo Distribution Report] 内の同じキャンペーンおよび期間（検索、ソーシャル、Commerceで集計）の合計と異なる場合があります。
->* このレポートのデータは、前日の午後 23 時（午後 11 時）に取り込まれます。 例えば、6 月 18 日の 23:00 に、6 月 17 日のデータを取り込みます。 6 月 19 日の 09:00 にレポートを実行した場合（6 月 18 日のデータが取り込まれる前）、レポートには 6 月 17 日の 23:00 までのデータが含まれます。
+>* このレポートの合計は、地理的な場所を決定する際の異なるベンダーと手法のため、[!UICONTROL Geo Distribution Report] （Search, Social, &amp; Commerceがコンパイルする）の同じキャンペーンと期間の合計とは異なる場合があります。
+>* このレポートのデータは、毎日23:00 （午後11:00）の前日に取得されます。 例えば、6月18日の23:00に、6月17日のデータを取得します。 6月18日のデータがプルされる前の6月19日（09:00）にレポートを実行すると、レポートには6月17日（23:00）までのデータが含まれます。
 
 ## デフォルトの列
 
-すべてのデフォルト列およびカスタム列の説明は、[&#x200B; 専門レポートのレポート列 &#x200B;](specialty-report-columns.md) を参照してください。
+すべてのデフォルト列とカスタム列について詳しくは、「[特殊レポートのレポート列](specialty-report-columns.md)」を参照してください。
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -44,6 +51,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 専門レポートについて &#x200B;](specialty-report-about.md)
->* [&#x200B; 専門レポートの生成 &#x200B;](specialty-report-generate.md)
->* [&#x200B; 専門レポートの設定 &#x200B;](specialty-report-settings.md)
+>* [専門性レポートについて](specialty-report-about.md)
+>* [専門性レポートの生成](specialty-report-generate.md)
+>* [特殊レポート設定](specialty-report-settings.md)

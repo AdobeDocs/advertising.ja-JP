@@ -1,104 +1,113 @@
 ---
-title: プレースメントを複製
-description: 1 つ以上のプレースメントを複製する方法を説明します。
+title: プレースメントの重複
+description: 1つ以上のプレースメントを複製する方法について説明します。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
+TQID: https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: 440
 ht-degree: 0%
 
 ---
 
-# プレースメントを複製
+# プレースメントの重複
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
-1 つ以上のプレースメントを複製して、類似の設定を持つプレースメントを作成します。 次の操作を実行できます。
+1つまたは複数のプレースメントを複製して、同様の設定を持つプレースメントを作成します。 次の操作を実行できます。
 
-* プレースメントの重複を複数作成
-* 元の広告主やキャンペーン内、または異なる広告主内でのプレースメントの複製
-* （元のキャンペーン内でプレースメントが重複している場合）オプションで、元の広告を複製します
+* プレースメントの複数の複製を作成
+* 元の広告主やキャンペーン内または異なる広告内でプレースメントを複製します
+* （元のキャンペーン内の重複したプレースメントの場合） オプションで元の広告を複製します
 * 新しいプレースメントのステータスとフライト日を変更する
 
-重複しないプレースメント設定のリストについては [&#x200B; 「重複していないもの &#x200B;](#placement-not-duplicated) を参照してください。
+重複しないプレースメント設定のリストについては、「[重複していないもの](#placement-not-duplicated)」を参照してください。
 
-1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
+1. メインメニューで、**[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
 1. キャンペーンの名前をクリックします。
 
-1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
+1. サブメニューで、**[!UICONTROL Placements]**&#x200B;をクリックします。
 
-1. 次のいずれかの操作をおこないます。
+1. 次のいずれかの操作を行います。
 
-   * 1 つのプレースメントを複製するには、パッケージ名の横にある **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** をクリックします。
+   * 1つの配置を複製するには、パッケージ名の横にある&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Duplicate]**&#x200B;をクリックします。
 
-   * 複数のプレースメントを複製するには：
+   * 複数の配置を複製するには：
 
       1. 複製する各プレースメントの横にあるチェックボックスをオンにします。
 
-      1. 一括アクションツールバーで、「**[!UICONTROL Duplicate]**」をクリックします。
+      1. 一括操作ツールバーで、**[!UICONTROL Duplicate]**&#x200B;をクリックします。
 
 1. 新しい配置設定を指定します。
 
-   1. （単一プレースメント）新しいプレースメント名を入力します。
+   1. （単一のプレースメント）新しいプレースメント名を入力します。
 
-   1. **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**[!UICONTROL No package]*&#x200B;を選択します。
+   1. **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**[!UICONTROL No package]*&#x200B;のいずれかを選択します。
 
-   1. （任意）デフォルト設定を変更します。
+   1. （オプション）デフォルト設定を変更します。
 
    設定は、選択したすべてのプレースメントに適用されます。
 
-   デフォルトでは、新しいプレースメントは元の広告タイプ用であり、元の広告主とキャンペーンに割り当てられ、当日に開始するフライトスケジュールがあり、一時停止されており、元の広告は含まれません。
+   デフォルトでは、新しいプレースメントは元の広告タイプ用であり、元の広告主とキャンペーンに割り当てられ、現在の日から開始するフライトスケジュールがあり、一時停止され、元の広告は含まれません。
 
-   複数のプレースメントを作成する場合、「My Placement #2」などの規則 &lt;*original_placement_name #N*> に従って、新しいプレースメント名に数字が順番に追加されます。
+   複数のプレースメントを作成する場合、新しいプレースメント名には番号が順番に追加されます。例えば、「My Placement #2」などの規則&lt;*original_placement_name #N*>を使用します。
 
-1. 「**[!UICONTROL Submit]**」をクリックします。
+1. **[!UICONTROL Submit]**&#x200B;をクリックします。
 
 ## 重複していないもの {#placement-not-duplicated}
 
-次の場合を除き、元のプレースメントのすべての設定が複製されます。
+元のプレースメントのすべての設定は、次を除いて複製されます。
 
-* 実験設定
-* プレースメントレベルの最小予算
-* （フライトの日付を変更する場合）カスタム広告スケジュール
-* （広告を添付しない場合）カスタム広告の重み付けとスケジュール
-* プログラム保証（PG）取引のデフォルトのプレースメントと [!UICONTROL Simple Ad Serving] の取引のプレースメント
-* （プレースメントを別のキャンペーンにコピーする場合）:
-   * ジオターゲット
+* 実験の設定
+* 配置レベルの最小予算
+* （フライト日を変更した場合） カスタム広告スケジュール
+* （広告を添付しない場合） カスタム広告の重み付けとスケジュール設定
+* プログラマティック保証（PG）取引のデフォルトのプレースメントと[!UICONTROL Simple Ad Serving]取引のプレースメント
+* （プレースメントを別のキャンペーンにコピーした場合）:
+   * 地域ターゲット
    * イベントピクセル
    * 広告
-   * プレースメントレベルの [!DNL DoubleVerify Authentic Brand Safety] セグメント（広告主レベルのセグメントを上書きします）
+   * プレースメントレベル [!DNL DoubleVerify Authentic Brand Safety] セグメント （広告主レベルのセグメントを上書きする）
 
 ## 新しいプレースメントを設定するためのベストプラクティス
 
 >[!TIP]
 >
->* バルクシートを使用して [&#x200B; 複数の Campaign コンポーネントを一度に変更 &#x200B;](/help/dsp/campaign-management/campaign-components-review-edit.md) します。
->* 広告タグシートを使用して [&#x200B; 複数のサードパーティ広告をアップロード &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md) します。
+>* バルクシートを使用すると、一度に[複数のキャンペーンコンポーネントに変更を加えることができます](/help/dsp/campaign-management/campaign-components-review-edit.md)。
+>* 広告タグシートを使用して[複数のサードパーティ広告をアップロード &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
 
-* 新しいプレースメントをアクティブ化する準備が整うまで一時停止します。
+* 新しいプレースメントをアクティブ化する準備ができるまで一時停止します。
 
 * 次の点を考慮し、必要に応じて新しいプレースメントを編集します。
 
-   * 新しい配置予算に対応する十分な資金が勘定科目にありますか？
+   * アカウントには、新しいプレースメント予算に対応するのに十分な資金がありますか？
 
-   * 新しいプレースメントに、以前のプレースメントとは異なる予算が必要かどうか。 最小予算は必要ですか？
+   * 新しいプレースメントには、以前のプレースメントとは異なる予算が必要ですか？ 最低予算は必要ですか？
 
-   * 必要なカスタム広告の重み付けとスケジュールを含むクリエイティブをアップロードし、プレースメントに添付します。
+   * 必要なカスタム広告の重み付けやスケジュールなどを含むクリエイティブをアップロードし、プレースメントに添付します。
 
-   * 必要に応じて、プレースメントと広告にイベントピクセルを添付します。
+   * 必要に応じて、イベントピクセルをプレースメントと広告に添付します。
 
-   * 必要に応じて、プレースメントに対して地理的ターゲットとプレースメントレベルの [!DNL DoubleVerify Authentic Brand Safety] セグメントを含めます。
+   * プレースメントに必要に応じて、地理的ターゲットとプレースメントレベル [!DNL DoubleVerify Authentic Brand Safety]のセグメントを含めます。
 
-   * プログラムで保証された取引の場合は、新しい取引 ID を使用し、デフォルトのプレースメントを作成します。
+   * プログラマティックな保証取引の場合は、新しい取引IDを使用して、デフォルトのプレースメントを作成します。
 
-   * 必要に応じて、[!UICONTROL Simple Ad Serving] 件の取引に対して新しいプレースメントを作成します。
+   * 必要に応じて、[!UICONTROL Simple Ad Serving]件の取引用に新しいプレースメントを作成します。
 
 >[!MORELIKETHIS]
 >
->* [Advertising DSPでのプレースメント管理について &#x200B;](placement-about.md)
->* [&#x200B; プレースメントの作成 &#x200B;](placement-create.md)
->* [&#x200B; プレースメントを編集 &#x200B;](placement-edit.md)
->* [&#x200B; プレースメントの変更ログを表示 &#x200B;](placement-change-log.md)
->* [&#x200B; プレースメント設定 &#x200B;](placement-settings.md)
+>* [Advertising DSPでのプレースメント管理について](placement-about.md)
+>* [&#x200B; プレースメントの作成](placement-create.md)
+>* [&#x200B; プレースメントを編集](placement-edit.md)
+>* [&#x200B; プレースメントの変更ログを表示](placement-change-log.md)
+>* [配置の設定](placement-settings.md)

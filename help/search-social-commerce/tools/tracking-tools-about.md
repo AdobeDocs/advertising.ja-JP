@@ -1,33 +1,38 @@
 ---
-title: トラッキングタグを作成およびデコードするツールについて
-description: Adobe Advertisingコンバージョントラッキングタグ、検索、ソーシャル、Commerceのクリックトラッキングタグを作成するツール、および既存のクリックトラッキングタグをデコードする方法について説明します。
+title: トラッキングタグの作成とデコードのツールについて
+description: Adobe AdvertisingのコンバージョントラッキングタグとSearch、Social、およびCommerceのクリックトラッキングタグを作成するツールと、既存のクリックトラッキングタグをデコードする方法について説明します。
 exl-id: ca8058a7-6a36-44e9-a42f-3b7cd91e664a
 feature: Search Tools, Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/lOua8gMHIFAogvtnwAvmbXtfY3tEhTDPpA2K0Jt1pMo
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: 211
 ht-degree: 0%
 
 ---
 
-# トラッキングタグを作成およびデコードするツールについて
+# トラッキングタグの作成とデコードのツールについて
 
-Adobe Advertisingコンバージョントラッキングサービスを使用する場合は、次のツールを使用してトラッキングタグを作成およびデコードできます。
+Adobe Advertising コンバージョントラッキングサービスを使用する場合は、次のツールを使用してトラッキングタグを作成およびデコードできます。
 
-* [[!UICONTROL Conversion Tags] ツールを使用すると &#x200B;](conversion-tag-generate.md)Adobe Advertisingのコンバージョントラッキングタグを手動で生成し、web サイトの「成功」ページまたは「ありがとうございました」ページに追加できます。
+* [[!UICONTROL Conversion Tags] ツール &#x200B;](conversion-tag-generate.md)を使用すると、Adobe Advertising コンバージョン トラッキング タグを手動で生成して、web サイトの「成功」ページまたは「ありがとうございます」ページに追加できます。
 
   >[!NOTE]
   >
-  >通常、AdobeアカウントチームはAdobeのコンバージョントラッキングタグを提供するので、この機能は必要ない場合があります。
+  >通常、Adobeのアカウントチームは、Adobeのコンバージョン追跡タグを提供します。そのため、この機能は必要ない場合があります。
 
-* [[!UICONTROL Tracking URLs] ツールを使用すると &#x200B;](click-tracking-url-generate.md) クリックトラッキング URL を手動で生成できます。この URL は、[&#x200B; サポートされている広告ネットワーク &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md) のキーワード、広告、動的検索広告、プレースメント、商品グループ、サイトリンクに関する、検索、ソーシャル、Commerceのトラッキングを含むトラッキングテンプレートまたは宛先 URL です。
+* [[!UICONTROL Tracking URLs] ツール &#x200B;](click-tracking-url-generate.md)を使用すると、クリック トラッキング URLを手動で生成できます。これは、[&#x200B; サポートされている広告ネットワーク &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)のキーワード、広告、動的検索広告、プレースメント、商品グループ、またはサイトリンクを検索、ソーシャル、およびCommerce トラッキングでトラッキングするトラッキングテンプレートまたはトラッキング先URLです。
 
-  クリックトラッキング URL を手動で生成するかどうかの詳細については、「[&#x200B; クリックトラッキング URL を生成するタイミングと方法 &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) を参照してください。
+  クリックトラッキング URLを手動で生成するかどうかについて詳しくは、「[いつ、どのようにクリックトラッキング URLを生成するか](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)」を参照してください。
 
-* （宛先 URL を持つアカウントのみ） [[!UICONTROL Decode Tracking URLs] ツールを使用すると &#x200B;](click-tracking-url-decode.md) トラッキングが有効になっている宛先 URL から検索、ソーシャル、Commerceのコードを削除して、ベース URL を確認できます。
+* （宛先URLを持つアカウントのみ） [[!UICONTROL Decode Tracking URLs] ツール &#x200B;](click-tracking-url-decode.md)を使用すると、トラッキングが有効な宛先URLから検索、ソーシャル、およびCommerce コードを削除して、ベース URLを確認できます。
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertisingコンバージョンタグを生成 &#x200B;](conversion-tag-generate.md)
->* [URL トラッキング ツールを使用した、検索、ソーシャル、Commerceのクリックトラッキング URL の生成 &#x200B;](click-tracking-url-generate.md)
->* [&#x200B; 検索、ソーシャル、Commerceのクリックトラッキング URL のデコード &#x200B;](click-tracking-url-decode.md)
+>* [Adobe Advertising コンバージョンタグを生成](conversion-tag-generate.md)
+>* [&#x200B; トラッキング URL ツールを使用して、検索、ソーシャル、Commerceのクリック トラッキング URLを生成](click-tracking-url-generate.md)
+>* [検索、ソーシャル、Commerceのクリックトラッキング URLをデコード &#x200B;](click-tracking-url-decode.md)

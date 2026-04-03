@@ -1,78 +1,86 @@
 ---
-title: 実装  [!DNL Naver]  トラッキング専用アカウント
-description: ' [!DNL Naver]  アカウントのトラッキングキャンペーンを設定し、広告ネットワークから直接購入した広告のパフォーマンスを追跡、レポート、視覚化する方法を説明します。'
+title: ' [!DNL Naver]  トラッキング専用アカウントを実装'
+description: 広告ネットワークから直接購入した広告のパフォーマンスを追跡、報告、視覚化できるように、 [!DNL Naver]  アカウントのトラッキングキャンペーンを設定する方法について説明します。
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/ny0Bdmm-faAvcnnS77oGVJGwGr3tAHOtFpQ-EGhcBVs
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: 687
 ht-degree: 0%
 
 ---
 
-# [!DNL Naver] トラッキング専用アカウントの実装
+# [!DNL Naver]個のトラッキング専用アカウントを実装
 
 *[!DNL Naver]アカウントのみ*
 
-[!DNL Naver] アカウントのトラッキングキャンペーンを作成すると、広告ネットワークから直接購入した広告のパフォーマンスを追跡、レポート、視覚化できます。 検索、ソーシャル、Commerceでは、データが広告ネットワークと同期されたり、トラッキングが自動的にアップロードされたり、アカウントに入札が行われたりすることはありません。
+[!DNL Naver] アカウントに対してトラッキングキャンペーンを作成して、広告ネットワークから直接購入した広告のパフォーマンスを追跡、報告、可視化できます。 Search, Social, &amp; Commerceでは、データが広告ネットワークと同期されず、トラッキングが自動的にアップロードされず、アカウントの入札も行われません。
 
-トラッキングキャンペーンは、既存のキャンペーン、広告グループおよびキーワードをレプリケートします。 検索、ソーシャル、Commerceでアカウント構造を作成し、広告ネットワーク内の元のキャンペーンにトラッキングを追加したら、キーワードまたは広告の毎日のネットワークトラフィック指標をアップロードできます。 検索、ソーシャル、Commerceを実行すると、コンバージョンが広告とキーワードに関連付けられます。
+トラッキング施策では、既存の施策、広告グループ、キーワードをレプリケートします。 Search, Social, &amp; Commerceでアカウント構造を作成し、広告ネットワーク内の元のキャンペーンにトラッキングを追加したら、キーワードまたは広告の毎日のネットワークトラフィック指標をアップロードできます。 Search, Social, &amp; Commerceは、コンバージョンが広告やキーワードに起因するものであると考えます。
 
-すべてのキャンペーンにわたって、また個々のキャンペーン、広告グループ、キーワード/広告についてパフォーマンス指標を追跡できます。 また、これらの情報を、他の広告ネットワークのデータと共に、最も基本的なレポート、高度なレポート、アシストレポートに含めることもできます。 指標のAdobe Analyticsへの書き出しはサポートされていませんが、検索、ソーシャル、Commerceでは、[&#x200B; 追跡している指標  [!DNL Analytics]](/help/integrations/analytics/analytics-data-in-advertising.md) を検索、ソーシャル、Commerceに同期できます。
+あらゆるキャンペーンをまたいで、個々のキャンペーン、広告グループ、キーワード/広告のパフォーマンス指標を追跡できます。 また、最も基本的なレポート、高度なレポート、アシストレポートに、他の広告ネットワークのデータなどの情報を含めることもできます。 Adobe Analyticsへの指標の書き出しのサポートは利用できませんが、Search, Social, &amp; Commerceでは、[でトラッキングしている [!DNL Analytics]](/help/integrations/analytics/analytics-data-in-advertising.md)指標をSearch, Social, &amp; Commerceに同期できます。
 
 >[!NOTE]
 >
 >最適化のためにトラッキングキャンペーンをポートフォリオに追加することはできません。
 
-1. 検索、ソーシャル、Commerceでトラッキングキャンペーンを作成します。
+1. Search, Social, &amp; Commerceでトラッキング施策を作成する：
 
-   1. [&#x200B; ダミーネットワークアカウントの詳細 &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) を作成します。 1 つの広告ネットワーク内に複数のアカウントがある場合は、[!UICONTROL Accounts] ビューでそれらを 1 つのアカウントに統合します。
+   1. [&#x200B; ダミーネットワークアカウントの詳細](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)を作成します。 1つの広告ネットワーク内に複数のアカウントがある場合は、[!UICONTROL Accounts] ビューで1つのアカウントに統合します。
 
-      [!DNL Naver] は、トラッキングパラメーターを広告ネットワークにアップロードするための API サポートを提供していません。 ただし、バルクシートを使用してトラッキングパラメーターを生成し、手動で広告ネットワーク内に追加することができます（手順 2 あたり）。 トラッキングパラメーターを生成するには、「[!UICONTROL EF Redirect]」トラッキングメソッドを使用する必要があります。 必要に応じて、追加パラメーターを追加できます。
+      [!DNL Naver]は、トラッキングパラメーターを広告ネットワークにアップロードするためのAPI サポートを提供していません。 ただし、バルクシートを使用してトラッキングパラメーターを生成し、広告ネットワーク内で手動で追加できます（手順2に従います）。 トラッキングパラメーターを生成するには、「[!UICONTROL EF Redirect]」トラッキングメソッドを使用する必要があります。 必要に応じて、任意の追加パラメーターを追加できます。
 
-      検索、ソーシャル、Commerceでは、生成する任意のトラッキング URL 内のパラメーター `ev_cl={ef_uniqueid}` が、アカウントのバルクシートに自動的に含まれます。 この一意の ID は、キャンペーンデータと、アップロードした任意のコストおよびクリックデータを照合するために使用されます。
+      Search, Social, &amp; Commerceでは、アカウントのバルクシート内で生成されるトラッキング URLにパラメーター`ev_cl={ef_uniqueid}`が自動的に含まれます。 この一意のIDは、キャンペーンデータと任意のコストを照合し、アップロードしたデータをクリックするために使用されます。
 
-   1. 追跡するキャンペーンの設定：
+   1. 追跡するキャンペーンを設定：
 
-      1. 広告ネットワーク内に、アカウントの検索、ソーシャル、Commerceでトラッキングする必要があるすべてのエンティティと、それらのエンティティに必要な親エンティティを含むバルクシートファイルを作成します。
+      1. 広告ネットワーク内で、アカウントの検索、ソーシャル、およびCommerceをトラッキングするためにすべてのエンティティと必要な親エンティティを含むバルクシートファイルを作成します。
 
-         親キャンペーンや広告グループなど、キーワードに関するデータを含めることができます。
+         親キャンペーンや広告グループを含む、キーワードに関するデータを含めることができます。
 
-      1. 必要に応じて、バルクシートファイルを編集して、検索、ソーシャル、Commerce[&#x200B; アカウントに必要なバルクシート形式 &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md) に従う  [!DNL Naver]  うにします。
+      1. 必要に応じて、Bulksheet ファイルを編集し、[accounts [!DNL Naver] に必要なSearch, Social, &amp; Commerce &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)Bulksheet フォーマットに従います。
 
-      1. 検索、ソーシャル、Commerceで [&#x200B; バルクシートファイルをアップロード &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) します。
+      1. Search, Social, &amp; Commerceで、[&#x200B; バルクシート ファイルをアップロード &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)。
 
          >[!NOTE]
          >
-         >メモ：検索、ソーシャル、Commerceでは、データが広告ネットワークアカウントに投稿されません。
+         >注意：Search, Social, &amp; Commerceでは、アドネットワークアカウントにデータを投稿しません。
 
-1. キャンペーンのトラッキングの設定：
+1. キャンペーンのトラッキングを設定します。
 
-   1. 検索、ソーシャル、Commerceで [&#x200B; 新しいバルクシートファイルをダウンロード &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)」オプションを使用して「[!UICONTROL Generate Tracking URLs]」を選択します。
+   1. Search, Social, &amp; Commerceで、「[」オプションを使用して](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)新しいバルクシート ファイル [!UICONTROL Generate Tracking URLs]をダウンロードします。
 
-   「[!UICONTROL Generate Tracking URLs]」オプションを使用すると、各キーワードの [!UICONTROL Destination URL] フィールドに、[!UICONTROL Base URL] 値の先頭にプレフィックスが付いた検索、ソーシャル、Commerceのトラッキングコードが入力されます。
+   「[!UICONTROL Generate Tracking URLs]」オプションを使用すると、キーワードごとに[!UICONTROL Destination URL] フィールドに[!UICONTROL Base URL]値の前に検索、ソーシャル、およびCommerce トラッキングコードが入力されます。
 
-   以下はトラッキングを含む宛先 URL の例です。
+   トラッキングを使用した宛先URLの例を次に示します。
 
    ```http://pixel.everesttech.net/1234/cq?ev_sid=87&ev_cl=258e27dcec70156a667f2229020e488&url=http%3A//www.example.com```
 
-   1. ダウンロードしたバルクシートファイルの [!UICONTROL Destination URL] の値を、ネットワーク上の関連キーワード設定にコピーします。
+   1. ダウンロードしたバルクシート ファイルの[!UICONTROL Destination URL]値を、ネットワーク上の関連するキーワード設定にコピーします。
 
-      広告ネットワークのエディター内でファイルをネットワークにアップロードすることで、関連するエンティティに URL を追加できる場合があります。 その場合、ネットワークのデータ要件に応じて、一部の列を削除する必要が生じる場合があります。 そうでない場合は、ネットワーク上で URL を手動で入力する必要があります。
+      ファイルを広告ネットワークのエディター内のネットワークにアップロードすることで、関連するエンティティにURLを追加できます。 その場合、ネットワークのデータ要件に従って、一部の列を削除する必要がある場合があります。 それ以外の場合は、ネットワーク上でURLを手動で入力する必要があります。
 
-1. トラッキングしているキーワードまたは広告グループレベルのブランド広告について、広告ネットワークから毎日集計されたクリック数とコスト数のデータを定期的にダウンロードし [&#x200B; クリック数とコスト数のデータをアップロード &#x200B;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)、検索、ソーシャル、Commerceを [&#x200B; 必須形式 &#x200B;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md) で開きます。
+1. 追跡中のキーワードまたは広告グループレベルのブランド広告について、広告ネットワークから毎日集計されたクリックとコストのデータを定期的にダウンロードし、[&#x200B; クリックとコストのデータを](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)検索、ソーシャル、Commerceに[必要なフォーマット &#x200B;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)でアップロードします。
 
-   完全なアカウント階層と、組み込む指標を含めます。 検索、ソーシャル、Commerceを実行すると、アップロードされたデータが既存のキャンペーンのデータと照合されます。
+   完全なアカウント階層と、含める指標を含めます。 Search, Social, &amp; Commerceは、アップロードしたデータを、既存の施策のデータと照合して管理します。
 
-1. （オプション） Web ページでAdobe Advertising コンバージョントラッキングサービスタグを使用して広告ネットワークで追跡されないコンバージョンを追跡する場合は、毎日の集計コンバージョンデータを含むフィードファイルを送信してトラッキングキャンペーンに追加します。
+1. （オプション） web ページでAdobe Advertisingのコンバージョントラッキングサービスタグを使用して、広告ネットワークでトラッキングされていないコンバージョンをトラッキングする場合は、毎日の集約コンバージョンデータを含むフィードファイルを送信して、トラッキングキャンペーンに追加します。
 
    詳しくは、Adobe アカウントチームにお問い合わせください。
 
-アップロードされたすべてのトラッキングデータは、[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups] および [!UICONTROL Keywords] ビュー内の [!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns] から使用できます。 また、[!UICONTROL Insights & Reports] ビューのレポートでも使用できます。
+アップロードされたすべてのトラッキングデータは、[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]から、[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、および[!UICONTROL Keywords]のビューで利用できます。 [!UICONTROL Insights & Reports] ビューのレポートでも使用できます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 付録 – アカウントに必須のバルクシ  [!DNL Naver]  トデータ &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
->* [&#x200B; トラッキング専用アカウントのトラフィックおよびコ  [!DNL Naver]  バージョン指標のアップロード &#x200B;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
->* [&#x200B; トラッキング専用アカウント  [!DNL Naver]  指標データ要件 &#x200B;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
->* [&#x200B; のクリック追跡形式  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
+>* [付録 –  [!DNL Naver]  アカウント &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)に必要なバルクシート データ
+>* [&#x200B; トラッキング専用アカウント  [!DNL Naver] のトラフィックとコンバージョン指標をアップロード &#x200B;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
+>* [&#x200B; トラッキング専用アカウント  [!DNL Naver] の](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)指標データ要件
+>* [の [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md) クリックトラッキング形式

@@ -1,101 +1,108 @@
 ---
-title: デシジョンツリーのターゲット設定を使用したエクスペリエンスの編集
-description: デシジョンツリーを使用してターゲット広告エクスペリエンスの設定を編集する方法を説明します。
+title: 決定木ターゲティングを使用したエクスペリエンスの編集
+description: 決定ツリーを使用して、ターゲット広告エクスペリエンスの設定を編集する方法を説明します。
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+TQID: https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: 528
 ht-degree: 0%
 
 ---
 
-# デシジョンツリーのターゲット設定を使用したエクスペリエンスの編集
+# 決定木ターゲティングを使用したエクスペリエンスの編集
 
-1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;をクリックします。
 
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
+1. （オプション） [特定のエクスペリエンスを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
 
 1. 次のいずれかの操作を行います。
 
-   * カード表示で、エクスペリエンス名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Edit]**」をクリックします。
+   * カード表示で、エクスペリエンス名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-   * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Edit]** をクリックします。
+   * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL More]**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-   決定ツリーは、デフォルトで開きます。
+   デフォルトでは、決定ツリーが開きます。
 
-1. （オプション）必要に応じて、デシジョンツリーと一般設定を切り替えます。
+1. （オプション）必要に応じて、決定ツリーと一般設定を切り替えます。
 
-   * デシジョンツリーから一般設定を開くには、右上の「**[!UICONTROL Experience Form]**」をクリックします。
+   * 決定ツリーから一般設定を開くには、右上の「**[!UICONTROL Experience Form]**」をクリックします。
 
-   * [ 一般設定 ] からデシジョンツリーを開くには、右上の [**[!UICONTROL Decision Tree]**] をクリックします。
+   * 一般設定から決定ツリーを開くには、右上の「**[!UICONTROL Decision Tree]**」をクリックします。
 
-1. （オプション）デシジョンツリーを編集するには、次のいずれかの操作を行います。
+1. （オプション）決定ツリーを編集するには、次のいずれかの操作を行います。
 
-   * （[&#x200B; 処理 &#x200B;](experience-about.md#experience-statuses) エクスペリエンス）次のいずれかの操作を行います。
+   * （[処理中](experience-about.md#experience-statuses) エクスペリエンス）次のいずれかの操作を行います。
 
-      * ライブエクスペリエンスに対する既存の未投稿の変更を破棄するには、「**[!UICONTROL Discard and start again]**」をクリックします。
+      * ライブエクスペリエンスに対する既存の未投稿の変更を破棄するには、**[!UICONTROL Discard and start again]**&#x200B;をクリックします。
 
-      * 既存の未投稿の変更を保持するには、[**[!UICONTROL Continue editing draft]**] をクリックします。
+      * 既存の未投稿の変更を保持するには、**[!UICONTROL Continue editing draft]**&#x200B;をクリックします。
 
-      * エクスペリエンスの詳細を編集するには、「**[!UICONTROL Edit Experience Details]**」をクリックします。
+      * エクスペリエンスの詳細を編集するには、**[!UICONTROL Edit Experience Details]**&#x200B;をクリックします。
 
-   * （任意）デシジョンツリーの表示設定を変更します。
+   * （オプション）決定ツリーの表示設定を変更します。
 
-     ログアウトするまで、設定は保存されます。
+     設定は、ログアウトするまで保存されます。
 
-   * スライダーを移動してズームインまたはズームアウトします。
+   * スライダーを移動して、ズームインまたはズームアウトします。
 
-   * 垂直リストと水平リストの表示を切り替えるには、それぞれ ![&#x200B; 垂直ツリーとして表示 &#x200B;](/help/creative/assets/tree-vertical.png " 垂直ツリーとして表示 ") または ![水平ツリーとして表示](/help/creative/assets/tree-horizontal.png "水平ツリーとして表示") をクリックします。
+   * ![縦の木として表示](/help/creative/assets/tree-vertical.png "縦の木として表示")または![水平ツリーとして表示](/help/creative/assets/tree-horizontal.png "水平ツリーとして表示")をそれぞれクリックして、縦のリストと横のリストを表示する切り替えます。
 
-   * （任意）次のいずれかの方法で、広告ターゲットと対応するクリエイティブを変更します。
+   * （オプション）次のいずれかの方法で、広告ターゲットと対応するクリエイターを変更します。
 
-      * ターゲット：
+      * 目標：
 
-        *[&#x200B; エクスペリエンスの最終レベルにターゲットノード &#x200B;](experience-target-node-add-final.md) 追加します。
+        *[&#x200B; エクスペリエンスの最終レベル &#x200B;](experience-target-node-add-final.md)にターゲットノードを追加します。
 
-         * [&#x200B; ノード間にターゲットノードを挿入します &#x200B;](experience-target-node-add-inner.md)。
+         * [&#x200B; ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)。
 
-         * [&#x200B; ノード間に兄弟ターゲットノードを追加 &#x200B;](experience-target-node-add-sibling.md)。
+         * [&#x200B; ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)。
 
-         * [&#x200B; 子ノードとクリエイティブを同じレベルの別のノードにコピーします &#x200B;](experience-target-node-copy.md)。
+         * [子ノードとクリエイターを同じレベルの別のノードにコピー](experience-target-node-copy.md)。
 
       * Creative バンドル：
 
-         * [&#x200B; 最終ノードにクリエイティブを割り当てる、割り当てを解除する &#x200B;](experience-assign-creative-bundles.md)。
+         * [&#x200B; クリエイターを最終ノードに割り当て解除](experience-assign-creative-bundles.md)。
 
-           各最終ノードに 1 つ以上のバンドルを割り当てない場合は、エクスペリエンスを保存する際に、未割り当ての各ノードに対してデフォルトのクリエイティブを使用することを選択できます。 エクスペリエンスを公開するには、バンドルを割り当てるか、最終ノードごとにデフォルトのクリエイティブを使用する必要があります。
+           最後のノードごとに少なくとも1つのバンドルを割り当てない場合は、エクスペリエンスを保存するときに、割り当てられていないノードごとにデフォルトのクリエイティブを使用することを選択できます。 エクスペリエンスを公開するには、バンドルを割り当てるか、最終的なノードごとにデフォルトのクリエイターを使用する必要があります。
 
-         * [&#x200B; 割り当てられたバンドル内のクリエイティブのトラッキング URL をカスタマイズ &#x200B;](experience-tracking-urls-targeting.md)。
+         * [割り当てられたバンドル内のクリエイティブのトラッキング URLをカスタマイズする](experience-tracking-urls-targeting.md)。
 
-         * 割り当てられたバンドルの [&#x200B; クリエイティブの最適化とスケジュールのカスタマイズ &#x200B;](experience-optimization-scheduling-targeting.md)。
+         * [割り当てられたバンドルのクリエイティブの最適化とスケジュール &#x200B;](experience-optimization-scheduling-targeting.md)をカスタマイズします。
 
-1. （任意） [&#x200B; 一般的なエクスペリエンス設定 &#x200B;](experience-settings-targeting.md) を編集します。
+1. （オプション） [一般的なエクスペリエンス設定](experience-settings-targeting.md)を編集します。
 
-1. [**[!UICONTROL Save]**] をクリックし、次の操作を行います。
+1. **[!UICONTROL Save]**&#x200B;をクリックし、次の操作を行います。
 
-   * （最下部のレベルにある各ノードにクリエイティブバンドルが 1 つ以上含まれている場合）「**[!UICONTROL OK]**」をクリックします。
+   * （最下位レベルの各ノードに少なくとも1つのクリエイティブ バンドルが含まれている場合）「**[!UICONTROL OK]**」をクリックします。
 
-   * （最下部のレベルにある各ノードに 1 つ以上のクリエイティブバンドルが含まれていない場合）次のいずれかの操作を行います。
+   * （最下位レベルの各ノードに少なくとも1つのクリエイティブバンドルが含まれていない場合）次のいずれかの操作を行います。
 
-      * 必要なすべてのクリエイティブバンドルを含めずにエクスペリエンスを保存するには、「**[!UICONTROL Save as Draft]**」をクリックします。
+      * 必要なクリエイティブバンドルをすべて含めずにエクスペリエンスを保存するには、**[!UICONTROL Save as Draft]**&#x200B;をクリックします。
 
-        [&#x200B; ドラフト &#x200B;](experience-about.md#experience-statuses) エクスペリエンス用の広告タグは作成できません。
+        [&#x200B; ドラフト &#x200B;](experience-about.md#experience-statuses) エクスペリエンスの広告タグを作成することはできません。
 
-      * クリエイティブバンドルをまだ割り当てていない各ターゲットにデフォルトのクリエイティブを割り当てるには、「割り当 **[!UICONTROL Assign Default Creatives]**」をクリックします。 デフォルトのクリエイティブが割り当てられた、更新されたツリーを確認したら、「**[!UICONTROL Save]**」をクリックして **[!UICONTROL OK]** をクリックします。
+      * クリエイティブバンドルがまだ割り当てられていない各ターゲットにデフォルトのクリエイティブを割り当てるには、**[!UICONTROL Assign Default Creatives]**&#x200B;をクリックします。 デフォルトのクリエイターが割り当てられている更新されたツリーを確認したら、「**[!UICONTROL Save]**」と「**[!UICONTROL OK]**」をクリックします。
 
-      * デシジョンツリーの編集を続行するには、「**[!UICONTROL Continue Edit]**」をクリックします。
+      * 決定ツリーの編集を続行するには、**[!UICONTROL Continue Edit]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ターゲット設定エクスペリエンス設定 &#x200B;](experience-settings-targeting.md)
->* [&#x200B; 最終レベルへのターゲットノードの追加 &#x200B;](experience-target-node-add-final.md)
->* [&#x200B; ノード間にターゲットノードを挿入する &#x200B;](experience-target-node-add-inner.md)
->* [&#x200B; ノード間に兄弟ターゲットノードを追加する &#x200B;](experience-target-node-add-sibling.md)
->* [&#x200B; 子ノードとクリエイティブを同じレベルの別のノードにコピーする &#x200B;](experience-target-node-copy.md)
->* [&#x200B; 最終ノードへのクリエイティブの割り当て &#x200B;](experience-assign-creative-bundles.md)
->* [&#x200B; 割り当てられたバンドル内のクリエイティブのトラッキング URL のカスタマイズ &#x200B;](experience-tracking-urls-targeting.md)
+>* [&#x200B; ターゲット設定](experience-settings-targeting.md)
+>* [最終レベルにターゲットノードを追加](experience-target-node-add-final.md)
+>* [&#x200B; ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
+>* [&#x200B; ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)
+>* [子ノードとクリエイターを同じレベルの別のノードにコピー](experience-target-node-copy.md)
+>* [&#x200B; クリエイティブを最終ノードに割り当て](experience-assign-creative-bundles.md)
+>* [割り当てられたバンドル内のクリエイティブのトラッキング URLをカスタマイズ &#x200B;](experience-tracking-urls-targeting.md)
 >* [&#x200B; クリエイティブの最適化とスケジュールのカスタマイズ &#x200B;](experience-optimization-scheduling-targeting.md)
->* [&#x200B; ライブエクスペリエンス用の広告エクスペリエンスタグのエクスポートと実装 &#x200B;](/help/creative/experiences/experience-tag-export.md)
->* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 &#x200B;](experience-create-targeting.md)
->* [&#x200B; エクスペリエンスの変更ログを表示する &#x200B;](/help/creative/experiences/experience-view-change-log.md)
+>* [&#x200B; ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](/help/creative/experiences/experience-tag-export.md)
+>* [決定木ターゲティングでエクスペリエンスを作成](experience-create-targeting.md)
+>* [&#x200B; エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)

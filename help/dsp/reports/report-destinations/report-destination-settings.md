@@ -1,42 +1,52 @@
 ---
-title: レポートの宛先設定
+title: レポート宛先の設定
 description: 宛先タイプ別に、レポート宛先に必要な詳細を確認します。
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
+TQID: https://experienceleague.adobe.com/VB5UY9vm147LQJMKKyGOlhZdNcq6mVDYTT0Ef4RcwVs
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+  - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: 267
 ht-degree: 0%
 
 ---
 
-# レポートの宛先設定
+# レポート宛先の設定
 
-メール以外のレポート宛先に必要な詳細は、宛先タイプによって異なります。
+メール以外のレポートの宛先に必要な詳細は、宛先タイプによって異なります。
 
 >[!NOTE]
 >
-> また、保存されたレポートの宛先を必要としないカスタムレポートを、メール受信者に配信することもできます。 レポート設定内では、保存した宛先の代わりに、メール受信者を指定できます。
+> また、カスタムレポートをメール受信者に配信することもできます。メール受信者は、保存されたレポート宛先を必要としません。 レポート設定内で、保存先の代わりにメール受信者を指定できます。
 
 ## [!UICONTROL S3]
 
-**[!UICONTROL Name]:** 宛先を識別するのに役立つ名前。
+**[!UICONTROL Name]:**&#x200B;宛先の特定に役立つ名前。
 
-**[!UICONTROL S3 Bucket URL]:** 報告書のアップロード先の [!DNL Amazon Simple Storage Service] （S3） バケットのフォルダーへのフル パス。 例：`s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]:** レポートのアップロード先となる[!DNL Amazon Simple Storage Service] （S3） バケット上のフォルダーへの完全パス。 例：`s3://dsp_account/reports`
 
-**[!UICONTROL Access Key ID]:** （[!DNL Amazon S3]） バケットへのアクセスキー ID （[!DNL Amazon] によって提供）。
+**[!UICONTROL Access Key ID]:** （[!DNL Amazon S3]） バケットへのアクセス キーID （[!DNL Amazon]から提供）。
 
-**[!UICONTROL Secret Access Key]:** （[!DNL Amazon S3]） バケットへの秘密アクセスキー（[!DNL Amazon] によって提供）。
+**[!UICONTROL Secret Access Key]:** （[!DNL Amazon S3]） バケットへの秘密アクセス キー（[!DNL Amazon]様から提供）。
 
 ## [!UICONTROL FTP]
 
-**[!UICONTROL Name]:** 宛先を識別するのに役立つ名前。
+**[!UICONTROL Name]:**&#x200B;宛先の特定に役立つ名前。
 
 **[!UICONTROL Server]:** サーバーのホスト名。
 
-**[!UICONTROL Port]:** サーバーで使用するポート番号。 デフォルトは *[!UICONTROL 21]* です。
+**[!UICONTROL Port]:** サーバーで使用するポート番号。 デフォルトは&#x200B;*[!UICONTROL 21]*&#x200B;です。
 
-**[!UICONTROL Username]:** サーバーにサインインするためのユーザー名。
+**[!UICONTROL Username]:** サーバーにサインインするユーザー名。
 
 **[!UICONTROL Password]:** サーバーにサインインするためのパスワード。
 
@@ -44,13 +54,13 @@ ht-degree: 0%
 
 ## [!UICONTROL SFTP]
 
-**[!UICONTROL Name]:** 宛先を識別するのに役立つ名前。
+**[!UICONTROL Name]:**&#x200B;宛先の特定に役立つ名前。
 
 **[!UICONTROL Server]:** サーバーのホスト名。
 
-**[!UICONTROL Port]:** サーバーで使用するポート番号。 デフォルトは *[!UICONTROL 21]* です。
+**[!UICONTROL Port]:** サーバーで使用するポート番号。 デフォルトは&#x200B;*[!UICONTROL 21]*&#x200B;です。
 
-**[!UICONTROL Username]:** サーバーにサインインするためのユーザー名。
+**[!UICONTROL Username]:** サーバーにサインインするユーザー名。
 
 **[!UICONTROL Password]:** サーバーにサインインするためのパスワード。
 
@@ -58,13 +68,13 @@ ht-degree: 0%
 
 ## [!UICONTROL FTP SSL]
 
-**[!UICONTROL Name]:** 宛先を識別するのに役立つ名前。
+**[!UICONTROL Name]:**&#x200B;宛先の特定に役立つ名前。
 
 **[!UICONTROL Server]:** サーバーのホスト名。
 
-**[!UICONTROL Port]:** サーバーで使用するポート番号。 デフォルトは *[!UICONTROL 21]* です。
+**[!UICONTROL Port]:** サーバーで使用するポート番号。 デフォルトは&#x200B;*[!UICONTROL 21]*&#x200B;です。
 
-**[!UICONTROL Username]:** サーバーにサインインするためのユーザー名。
+**[!UICONTROL Username]:** サーバーにサインインするユーザー名。
 
 **[!UICONTROL Password]:** サーバーにサインインするためのパスワード。
 
@@ -72,7 +82,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; レポートの宛先について &#x200B;](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [&#x200B; レポートの宛先の作成 &#x200B;](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md) の編集
->* [&#x200B; レポートの宛先の削除 &#x200B;](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [&#x200B; レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [&#x200B; レポートの宛先を作成](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)を編集
+>* [&#x200B; レポートの宛先を削除](/help/dsp/reports/report-destinations/report-destination-delete.md)

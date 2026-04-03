@@ -1,85 +1,90 @@
 ---
-title: コピーと貼り付けを使用したキャンペーンデータの一括作成と編集
-description: コピーと貼り付け機能を使用して、Campaign データを一括管理する方法を説明します。
+title: コピー&ペースト機能を利用してキャンペーンデータを一括作成、編集できます
+description: コピー&ペースト機能を使用してキャンペーンデータを一括管理する方法について説明します。
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: 486
 ht-degree: 0%
 
 ---
 
-# コピーと貼り付けを使用したキャンペーンデータの一括作成と編集
+# コピー&amp;ペースト機能を利用してキャンペーンデータを一括作成、編集できます
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex] および既存の [!DNL Baidu] アカウントのみ*
+*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]および既存の[!DNL Baidu] アカウントのみ*
 
-*[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords] および [!UICONTROL Ads] ビュー*
+*[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、および[!UICONTROL Ads] ビュー*
 
-[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords] および [!UICONTROL Ads] ビューから最大 10,000 行をコピーし、[!DNL Microsoft Excel] または別のエディターに貼り付けて、非 ID フィールドを編集できます。 その後、[!DNL Excel] の行をコピーし、タブ区切りデータとして貼り付けてビューに戻し、変更を行うことができます。 この機能はコンピュータのクリップボードを使用します。
+[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]のビューから最大10,000行をコピーし、それらを[!DNL Microsoft Excel]または別のエディターに貼り付けて、ID以外のフィールドを編集できます。 次に、[!DNL Excel]行をコピーし、タブ区切りのデータとしてビューに貼り付けて、変更を加えることができます。 この機能は、コンピューターのクリップボードを使用します。
 
-この機能を使用すると、ID フィールドを持つ既存のキャンペーンオブジェクトを編集したり、ID フィールドを持たない新しいキャンペーンオブジェクトを作成したりできます。
+この機能を使用すると、既存のキャンペーンオブジェクト（ID フィールドを含む）を編集したり、ID フィールドを含まない新しいキャンペーンオブジェクトを作成したりできます。
 
-## データ行のコピー
+## データ行をコピー
 
-1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**&#x200B;をクリックします。
 
 1. コピーする各行の横にあるチェックボックスをオンにします。
 
-   最大 10,000 行までコピーできます。
+   最大10,000行までコピーできます。
 
-1. データ テーブルの上にあるツールバーで、&lbrack;![&#x200B; その他 &#x200B;](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Copy]**] をクリックします。
+1. データテーブルの上にあるツールバーで、![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、**[!UICONTROL Copy]**&#x200B;をクリックします。
 
-   または、オペレーティングシステムの「コピー」キーボードコマンド（[!DNL Microsoft Windows] の場合は **[!DNL Ctrl+C]**、[!DNL Apple Mac] の場合は **[!DNL Command-C]** など）を使用できます。
+   または、**[!DNL Ctrl+C]**&#x200B;の[!DNL Microsoft Windows]や&#x200B;**[!DNL Command-C]**&#x200B;の[!DNL Apple Mac]など、オペレーティングシステムの「コピー」キーボードコマンドを使用することもできます。
 
-1. [!UICONTROL Copy to Clipboard] ダイアログで、「**[!UICONTROL Continue]**」をクリックします。 データをコピーする準備ができたら、「**[!UICONTROL Copy]**」をクリックします。
+1. [!UICONTROL Copy to Clipboard] ダイアログで、**[!UICONTROL Continue]**&#x200B;をクリックします。 データをコピーする準備ができたら、**[!UICONTROL Copy]**&#x200B;をクリックします。
 
-1. 行を [!DNL Excel] または別のエディターに貼り付けます。
+1. 行を[!DNL Excel]または別のエディターに貼り付けます。
 
 ## データ行の編集と作成
 
 1. 次の要件に従ってデータを編集します。
 
-   * 貼り付けたデータには、ヘッダー行と必要なキャンペーンオブジェクト値が含まれている必要があります。[Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google広告 &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、&lbrace;Naver[、Yahoo](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md) の必須のバルクシート列を参照してください [&#x200B; ディスプレイのネットワーク &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)、[Yahoo! 日本 &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)、および [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md) 列の順序は関係ありません。
+   * 貼り付けられたデータには、ヘッダー行と必要なキャンペーンオブジェクトの値が含まれている必要があります。[Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、[Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)、[Yahoo！の必要なバルクシート列を参照してください。 ディスプレイ ネットワーク &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)、[Yahoo! 日本](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)、および[Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)。 列の順序は問題ありません。
 
-      * 編集する既存のオブジェクトの場合、関連するすべての ID 列、エンティティ名、編集する属性を含める必要があります。 オブジェクトの数値 ID を編集しないでください。
+      * 編集する既存のオブジェクトの場合は、編集する関連ID列、エンティティ名、属性をすべて含める必要があります。 オブジェクトの数値IDは編集しないでください。
 
-      * 新しいキャンペーンオブジェクトの場合、関連するすべてのエンティティ名と属性を含めますが、（自動的に生成される）オブジェクト ID は含めないでください。 例えば、新しい広告を作成する場合、「[!UICONTROL Ad ID]」フィールドは空白のままにします。 オブジェクトを投稿すると、広告ネットワークによって ID が自動的に作成されます。
+      * 新しいキャンペーンオブジェクトの場合は、関連するすべてのエンティティ名と属性を含めますが、（自動生成される）オブジェクト IDは含みません。 例えば、新しい広告を作成する場合は、[!UICONTROL Ad ID] フィールドを空白のままにします。 オブジェクトを投稿すると、広告ネットワークが自動的にIDを作成します。
 
-   * 必須でない列の値は null （空白）にすることができますが、各行のタブ区切り値の数は同じにする必要があります。
+   * 必須でない列の値はnull （空白）である可能性がありますが、各行には同じ数のタブ区切り値が必要です。
 
-1. データをタブ区切り値として保存します。
+1. データをタブ区切りの値として保存します。
 
-## キャンペーン管理ビューへのデータ行の貼り付け
+## キャンペーン管理ビューへのデータ行のペースト
 
 >[!NOTE]
 >
->貼り付けた行に、既存のエンティティと同じデータが含まれている場合や、既存のエンティティと重複するデータが含まれている場合、重複するデータは無視されます。
+>貼り付けられた行に、既存のエンティティと同じデータが含まれている場合、または既存のエンティティと重複するデータが含まれている場合、重複したデータは無視されます。
 
-1. [!DNL Excel] または他のエディターで、関連するタブ区切りの行をコピーします。
+1. [!DNL Excel]またはその他のエディターで、関連するタブ区切りの行をコピーします。
 
-1. 検索、ソーシャル、Commerceのメインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 データを貼り付けるビューを開きます（**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**）。
+1. Search, Social, &amp; Commerce メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 データを貼り付けるビューを開きます（**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**）。
 
-1. データ テーブルの上にあるツールバーで、&lbrack;![&#x200B; その他 &#x200B;](/help/search-social-commerce/assets/more.png " を表示 ") をクリックし、[**[!UICONTROL Paste]**] をクリックします。
+1. データテーブルの上にあるツールバーで、![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、**[!UICONTROL Paste]**&#x200B;をクリックします。
 
-   または、オペレーティングシステムの「貼り付け」キーボードコマンド（[!DNL Microsoft Windows] の場合は **[!DNL Ctrl+V]**、[!DNL Apple Mac] の場合は **[!DNL Command-V]** など）を使用できます。
+   または、オペレーティングシステムの「貼り付け」キーボードコマンド（**[!DNL Ctrl+V]**&#x200B;の場合は[!DNL Microsoft Windows]、**[!DNL Command-V]**&#x200B;の場合は[!DNL Apple Mac]）を使用することもできます。
 
-1. データを入力ボックスに貼り付け、[**[!UICONTROL Process]**] をクリックします。
+1. 入力ボックスにデータを貼り付け、**[!UICONTROL Process]**&#x200B;をクリックします。
 
 1. （オプション）追加の詳細を入力します。
 
-   * （**[!UICONTROL Additional Details]** が圧縮されている場合） ![&#x200B; 開く &#x200B;](/help/search-social-commerce/assets/chevron-up.png " 開く ") をクリックして詳細を展開します。
+   * （**[!UICONTROL Additional Details]**&#x200B;が圧縮されている場合）「![開く](/help/search-social-commerce/assets/chevron-up.png "開く")」をクリックして、詳細を展開します。
 
-   * オプションの **[!UICONTROL Job Name]** や **[!UICONTROL Job Description]** を入力します。
+   * オプションの&#x200B;**[!UICONTROL Job Name]**&#x200B;またはオプションの&#x200B;**[!UICONTROL Job Description]**&#x200B;を入力します。
 
-1. 「**[!UICONTROL Post Now]**」をクリックします。
+1. **[!UICONTROL Post Now]**&#x200B;をクリックします。
 
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; バルクシートを使用した Campaign データの管理について &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)
->* [&#x200B; 行内で設定を直接編集する &#x200B;](/help/search-social-commerce/common-tasks/settings-edit-within-row.md)
->* [&#x200B; キャンペーンの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
->* [&#x200B; 広告グループの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
->* [&#x200B; キーワードの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
->* [&#x200B; 広告の管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)
+>* [&#x200B; バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)
+>* [行内で直接設定を編集](/help/search-social-commerce/common-tasks/settings-edit-within-row.md)
+>* [&#x200B; キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [広告グループの管理](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [&#x200B; キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [広告の管理](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)

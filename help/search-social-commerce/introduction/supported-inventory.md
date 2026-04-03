@@ -3,9 +3,18 @@ title: サポートされているインベントリ
 description: サポートされている広告ネットワーク、キャンペーンの種類、広告の種類を参照します。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+TQID: https://experienceleague.adobe.com/l2PmtgKVgNVGjWsbJqfxbTdh9P8qo2wIxjjcDQeYcMQ
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '2873'
+source-wordcount: 2873
 ht-degree: 0%
 
 ---
@@ -65,6 +74,6 @@ ht-degree: 0%
 
 [^2]：詳細については、「[入札戦略による最適化サポート &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)」を参照してください。
 
-[^3]: Adobe Analyticsとの統合が必要です。 「[Adobe Advertising向けAnalyticsの概要](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja)」を参照してください。
+[^3]: Adobe Analyticsとの統合が必要です。 「[Adobe Advertising向けAnalyticsの概要](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)」を参照してください。
 
 [^4]: [!DNL Analytics] データは、アカウントで通常使用するAMO IDの形式に関係なく、アップグレードされたAMO ID トラッキングパラメーター（`s_kwcid`から始まる）を使用してSearch, Social, &amp; Commerceに送信されます。 通常、古いバージョンのAMO IDを使用している場合は、最適なエクスペリエンスを得るために、新しいAMO ID形式にアップグレードすることをお勧めします。 しかし、クリック/コストデータと収益データが異なるAMO IDを使用して追跡されていても、両方のデータセットは同じキャンペーンとアカウントの下で完全に分類され、集計されます。

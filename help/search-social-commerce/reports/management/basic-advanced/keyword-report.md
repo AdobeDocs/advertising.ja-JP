@@ -1,30 +1,37 @@
 ---
 title: '[!UICONTROL Keyword Report]'
-description: '[!UICONTROL Keyword Report] について説明します。'
+description: '[!UICONTROL Keyword Report]について説明します。'
 exl-id: eb2c7cb8-3f0d-4ae6-a1e2-127de315e1ce
 feature: Search Reports, Search Basic Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/uV4kYIaYKGGaZhq-MXTC-wejQuZfIk3S2EmaCmaMdSM
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: 169
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Keyword Report]
 
-[!UICONTROL Keyword Report] には、1 つ以上の広告グループ内でインプレッションを受け取ったキーワードに関するコスト、クリック数および（オプションで）コンバージョンデータが含まれます。 オプションで、データをフィルタリングして、特定のテキスト文字列を含むキーワードのみを含めることができます。 デフォルトでは、データには、指定された日付範囲の時間単位ごとにインプレッションを受け取った、適用可能なキーワードと一致タイプの組み合わせごとに 1 行が含まれます。 行は、最初に時間単位の開始日、次にデフォルトでコストの昇順になっています。
+[!UICONTROL Keyword Report]には、1つ以上の広告グループ内でインプレッションを受け取ったキーワードのコスト、クリック、および（オプションで）コンバージョンデータが含まれます。 オプションで、データをフィルタリングして、特定のテキスト文字列を含むキーワードのみを含めることができます。 デフォルトでは、データには、該当するキーワードごとに1行が含まれ、指定された日付範囲の時間単位ごとにインプレッションを受け取った一致タイプの組み合わせが含まれます。 行は、最初に時間単位の開始日までに昇順になり、次にデフォルトでコストで昇順になります。
 
 オプションで、広告主固有のラベル分類を含めることができます。
 
-過去 36 か月のデータを表示できます。
+過去36か月間のデータを表示できます。
 
 >[!NOTE]
 >
->レポートにコンテンツ対応の検索キャンペーンの広告グループからのデータが含まれている場合、完了したレポートの [!UICONTROL Keyword] 列には、「（広告グループコンテンツ）広告グループ名」などの該当する広告グループ名が含まれます。
+>レポートにコンテンツ対応の検索キャンペーンの広告グループからのデータが含まれる場合、完成したレポートの[!UICONTROL Keyword]列には、「（adgroup content） Your Ad Group Name」など、該当する広告グループ名が含まれます。
 
 ## デフォルトの列
 
-すべてのデフォルト列およびカスタム列の説明は、[&#x200B; 基本および詳細レポートのレポート列 &#x200B;](basic-advanced-report-columns.md) を参照してください。
+すべてのデフォルト列とカスタム列について詳しくは、「[基本レポートと詳細レポートのレポート列](basic-advanced-report-columns.md)」を参照してください。
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Keyword Status]
@@ -47,6 +54,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 基本レポートと高度なレポートについて &#x200B;](basic-advanced-report-about.md)
->* [&#x200B; 基本レポートまたは詳細レポートの生成 &#x200B;](basic-advanced-report-generate.md)
->* [&#x200B; 基本および詳細レポートの設定 &#x200B;](basic-advanced-report-settings.md)
+>* [基本レポートと詳細レポートについて](basic-advanced-report-about.md)
+>* [基本レポートまたは詳細レポートを生成](basic-advanced-report-generate.md)
+>* [基本および詳細レポート設定](basic-advanced-report-settings.md)

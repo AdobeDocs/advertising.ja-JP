@@ -1,44 +1,52 @@
 ---
-title: Adobe Advertisingのコンバージョンタグとページビュートラッキングタグに関する FAQ
-description: Adobe Advertisingのコンバージョンタグとページビュートラッキングタグの比較を参照してください。
+title: ADOBE ADVERTISINGのコンバージョンおよびページビューのトラッキングタグに関するFAQ
+description: Adobe Advertisingのコンバージョンタグとページビューのトラッキングタグの比較を参照してください。
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/ckLRjqXGTShwM2TTyULRKjPwL5RYVWkiVVSkwMmvxE8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: 307
 ht-degree: 0%
 
 ---
 
-# Adobe Advertisingのコンバージョンタグとページビュートラッキングタグに関する FAQ
+# ADOBE ADVERTISINGのコンバージョンおよびページビューのトラッキングタグに関するFAQ
 
-以下は、Adobe Advertising コンバージョントラッキングタグとページビューのトラッキングタグに当てはまります。
+以下は、Adobe Advertising コンバージョントラッキングタグおよびページビュートラッキングタグに適用されます。
 
-| | ECID を持つ JS タグ | JS バージョン 3 タグ | JS バージョン 2 タグ | 画像タグ |
+| | ECIDを持つJS タグ | JS バージョン 3 タグ | JS バージョン 2 タグ | 画像タグ |
 | ---- | ---- | ---- | ---- | ---- |
-| 別の JS バージョンと同じ web ページで使用できます | — | — | — | 該当なし |
-| 同じ web ページ上で、同じ広告主ユーザー ID を持つ複数のタグを使用できるようにします | はい | はい | はい | — |
-| 同じ web ページ上で、異なる広告主ユーザー ID を持つ複数のタグを使用できるようにします | はい | はい | — | — |
-| Adobe Advertising extension for Adobe Experience Platformで使用され、Experience Platformを使用して生成された他のタグと互換性があります | はい | はい | — | — |
-| Adobe Advertising JavaScript コンバージョンマッピングタグで使用される場合、[!DNL Apple Safari] および [!DNL Mozilla Firefox] から発生するすべてのコンバージョンを追跡できます | はい | はい | はい | — |
+| 他のJS バージョンと同じweb ページで使用できます | — | — | — | なし |
+| 同じweb ページで、同じ広告主ユーザーIDを持つ複数のタグを使用できるようにします | はい | はい | はい | — |
+| 同じweb ページで、異なる広告主ユーザーIDを持つ複数のタグを使用できます | はい | はい | — | — |
+| Adobe Experience PlatformのAdobe Advertising拡張機能で使用され、Experience Platformを使用して生成された他のタグと互換性があります | はい | はい | — | — |
+| Adobe Advertising JavaScript コンバージョンマッピングタグで使用する場合、[!DNL Apple Safari]および[!DNL Mozilla Firefox]に由来するすべてのコンバージョンを追跡できるようにします | はい | はい | はい | — |
 
 <!-- add link to page on conversion mapping tag above? -->
 
 >[!NOTE]
 >
->* すべての新規実装では、JavaScript バージョン 3 が使用されます。
->* ECID を持つJavaScript タグは、[Adobe Experience Cloud ID （ECID）サービスと &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja) 従来の ef_id および gsurferid を使用してコンバージョンを測定します。 この最新のタグは、[&#x200B; ファーストパーティ Experience Cloud s_ecid cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=ja) を作成し、他のExperience Cloud製品とより緊密に統合できます。
->* JavaScript バージョン 2 のタグは、広告主の web ページにタグが既に実装されている場合にのみ使用します。
->* サイトで使用を禁止するポリシーがない限り、画像タグの代わりにJavaScript タグを使用することをお勧めします。
->* JavaScript タグは、Adobe Experience Cloudで作成されたオーディエンスをターゲットにする広告主や、Adobe Audience Managerで作成されたオーディエンスをターゲットにする広告主、またはAudience ManagerやAdobe AnalyticsからAdobe Experience Cloudに公開する広告主に必要です。
+>* 新しい実装では、すべてJavaScript バージョン 3を使用します。
+>* ECIDを持つJavaScript タグは、[Adobe Experience Cloud ID （ECID） サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)と、従来のef_idおよびgsurferidを使用して、コンバージョンを測定します。 この最新のタグは、[&#x200B; ファーストパーティ Experience Cloud s_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=ja)を作成し、他のExperience Cloud製品との緊密な統合を提供します。
+>* JavaScript バージョン 2のタグは、広告主のweb ページにタグが既に実装されている場合にのみ使用します。
+>* ベストプラクティスは、サイトが画像タグの使用に対するポリシーを持っていない限り、画像タグの代わりにJavaScript タグを使用することです。
+>* JavaScript タグは、Adobe Experience Cloudで作成されたオーディエンス、Adobe Audience Managerで作成されたオーディエンス、Audience ManagerまたはAdobe AnalyticsからAdobe Experience Cloudに公開されたオーディエンスをターゲットにする広告主に必要です。
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertisingのコンバージョントラッキングタグについて &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Adobe Advertising コンバージョンタグの生成 &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [JavaScript コンバージョントラッキングタグバージョン 3 の形式 &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
->* [JavaScript コンバージョントラッキングタグバージョン 2 の形式 &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
->* [&#x200B; 画像変換トラッキングタグの形式 &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
+>* [Adobe Advertising コンバージョントラッキングタグについて](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [Adobe Advertising コンバージョンタグを生成](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [JavaScript コンバージョントラッキングタグバージョン 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)の形式
+>* [JavaScript コンバージョントラッキングタグバージョン 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)の形式
+>* [画像コンバージョントラッキングタグの形式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 
 <!--
  add if I keep the file:  
