@@ -1,41 +1,45 @@
 ---
 title: '[!UICONTROL Forecast Accuracy (Actuals) Report]'
-description: データ列を含む [!UICONTROL Forecast Accuracy (Actuals) Report] について説明します。
+description: データ列を含む[!UICONTROL Forecast Accuracy (Actuals) Report]について説明します。
 exl-id: 659e11c7-5fed-4d91-a73f-7c435d36634f
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+TQID: https://experienceleague.adobe.com/wQyO42Dt5McqK23z-adEP-BAxxTrBk9RJi0I-4noP0I
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: 321
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Forecast Accuracy (Actuals) Report]
+# ザ [!UICONTROL Forecast Accuracy (Actuals) Report]
 
-このレポートは、広告ネットワークからの実際のインプレッション、クリック数、コスト、売上高のデータを、ポートフォリオごとに日別に表示します。
+このレポートには、各ポートフォリオの日別の広告ネットワークの実際のインプレッション、クリック、コスト、収益データが表示されます。
 
 ## 使用可能な列
 
-各レポートに自動的に含まれる列は次のとおりです。 列を追加することはできません。
+以下は、各レポートに自動的に含まれる列です。 追加の列を追加することはできません。
 
 | 列 | デフォルト？ | 説明 |
 |----|----|----|
-| [!UICONTROL Portfolio Group Name] | デフォルト | ポートフォリオが属しているポートフォリオグループの名前。 |
-| [!UICONTROL Portfolio ID] | デフォルト | 数値ポートフォリオ ID。 |
-| [!UICONTROL EF Portfolio Group ID] | デフォルト | ポートフォリオが属しているポートフォリオグループの数値 ID。 |
-| [!UICONTROL Portfolio] | デフォルト | ポートフォリオ。 |
-| [!UICONTROL Portfolio Status] | デフォルト | ポートフォリオの状態：<ul><li><i>[!UICONTROL Optimize]:</i> 最適化機能は、関連するキャンペーンのクリック数および売上高データを収集し、最適化に使用されるデータをモデリングして、最適化のタイプと入札戦略に応じて、入札、キャンペーン予算およびキャンペーン入札戦略のターゲットを最適化します。</li><li><i>[!UICONTROL Active]:</i> 最適化機能は、関連するキャンペーンのクリック数と売上高のデータを収集しており、データをモデリングしていますが、入札やキャンペーン予算を最適化していません。</li><li><i>[!UICONTROL Inactive]:</i> 最適化機能は、レポート目的で関連するキャンペーンのクリックデータを収集していますが、データのモデリングや、入札またはキャンペーン予算の最適化は行っていません。 |
-| [!UICONTROL Day of Week] | デフォルト | 報告された曜日：<i>[!UICONTROL Sunday]</i>、<i>[!UICONTROL Monday]</i>、<i>[!UICONTROL Tuesday]</i>、<i>[!UICONTROL Wednesday]</i>、<i>[!UICONTROL Thursday]</i>、<i>[!UICONTROL Friday]</i>、<i>[!UICONTROL Saturday]</i>。 |
-| [!UICONTROL Event Date] | デフォルト | レポートされた日付。 |
-| [!UICONTROL Device] | デフォルト | （Google広告、Microsoft Advertising、Yahoo! ディスプレイネットワーク，Yahoo! 日本広告、Yahoo ネイティブキャンペーン）広告が表示されたデバイスタイプ：<i>[!UICONTROL Computers]</i>、<i>[!UICONTROL Mobile]</i>、<i>[!UICONTROL Tablets]</i>、<i>[!UICONTROL Other]</i>、<i>[!UICONTROL N/A]</i> （値なし）。 他の広告ネットワークの行の値は <i>[!UICONTROL N/A]</i> です。<br><br> 検索キャンペーンで、キーワード、広告または広告拡張機能のトラッキングテンプレートまたは宛先 URL に、デバイス別にデータを追跡するパラメーターが含まれている場合（<code>&amp;ev_dvc={device}&amp;ev_dvm={devicemodel}</code>）を選択した場合は、デバイスタイプごとの行にもコンバージョンデータが含まれます。 そうでない場合、コンバージョンデータをデバイスタイプに関連付けることができない場合は、「[!UICONTROL Device]」の値が <i>[!UICONTROL N/A]</i> の別の行に集計されます。 |
-| [!UICONTROL Revenue] | デフォルト | 合計売上高。 |
-| [!UICONTROL Impressions] | デフォルト | 合計インプレッション数。 |
-| [!UICONTROL Clicks] | デフォルト | クリック総数。 |
-| [!UICONTROL Cost] | デフォルト | 合計コスト。 |
+| [!UICONTROL Portfolio Group Name] | Default | ポートフォリオが属するポートフォリオグループの名前。 |
+| [!UICONTROL Portfolio ID] | Default | 数値ポートフォリオ ID。 |
+| [!UICONTROL EF Portfolio Group ID] | Default | ポートフォリオが属するポートフォリオグループの数値ID。 |
+| [!UICONTROL Portfolio] | Default | ポートフォリオ。 |
+| [!UICONTROL Portfolio Status] | Default | ポートフォリオステータス：<ul><li><i>[!UICONTROL Optimize]:</i>最適化機能では、関連するキャンペーンのクリック数と収益データを収集し、最適化に使用されたデータをモデリングして、入札、キャンペーン予算、キャンペーン入札戦略のターゲットを最適化しています（最適化の種類と入札戦略によって異なります）。</li><li><i>[!UICONTROL Active]:</i>最適化機能は、関連するキャンペーンのクリック数と収益データを収集し、データをモデリングしていますが、入札額やキャンペーン予算を最適化していません。</li><li><i>[!UICONTROL Inactive]:</i>最適化機能は、レポート用に関連するキャンペーンのクリック データを収集していますが、データのモデリングや、入札やキャンペーン予算の最適化を行っていません。 |
+| [!UICONTROL Day of Week] | Default | 報告された曜日：<i>[!UICONTROL Sunday]</i>、<i>[!UICONTROL Monday]</i>、<i>[!UICONTROL Tuesday]</i>、<i>[!UICONTROL Wednesday]</i>、<i>[!UICONTROL Thursday]</i>、<i>[!UICONTROL Friday]</i>、または<i>[!UICONTROL Saturday]</i>。 |
+| [!UICONTROL Event Date] | Default | 報告された日付。 |
+| [!UICONTROL Device] | Default | （Google Ads、Microsoft Advertising、Yahoo! Yahoo！ディスプレイネットワーク Japan Ads、およびYahoo Native campaigns）広告が表示されたデバイスタイプ：<i>[!UICONTROL Computers]</i>、<i>[!UICONTROL Mobile]</i>、<i>[!UICONTROL Tablets]</i>、<i>[!UICONTROL Other]</i>、または<i>[!UICONTROL N/A]</i> （値なし）。 他の広告ネットワークの行の値は<i>[!UICONTROL N/A]</i>です。<br><br>検索キャンペーンで、キーワード、広告、および/または広告拡張機能のトラッキングテンプレートまたは宛先URLに、デバイス （<code>&amp;ev_dvc={device}&amp;ev_dvm={devicemodel}）でデータを追跡するパラメーターが含まれている場合</code>）広告がクリックされた時点で、コンバージョンデータも各デバイスタイプの行に含まれます。 それ以外の場合、コンバージョンデータをデバイスタイプに関連付けられない場合は、「[!UICONTROL Device]」値が<i>[!UICONTROL N/A]</i>の別の行に集計されます。 |
+| [!UICONTROL Revenue] | Default | 総収入。 |
+| [!UICONTROL Impressions] | Default | 全体的なインプレッション。 |
+| [!UICONTROL Clicks] | Default | 合計クリック数： |
+| [!UICONTROL Cost] | Default | 総コスト。 |
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; モデル精度レポートについて &#x200B;](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
->* [[!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
->* [&#x200B; モデル精度レポートの生成 &#x200B;](model-accuracy-report-generate.md)
->* [&#x200B; モデル精度レポートの設定 &#x200B;](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [ モデル精度レポートについて](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [The [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+>* [ モデル精度レポートを生成](model-accuracy-report-generate.md)
+>* [ モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)

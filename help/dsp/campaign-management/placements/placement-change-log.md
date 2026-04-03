@@ -1,44 +1,49 @@
 ---
-title: プレースメント変更ログの表示
-description: プレースメントに対して行われた変更を表示する方法を説明します。
+title: プレースメントの変更ログの表示
+description: プレースメントに加えられた変更を表示する方法について説明します。
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
+TQID: https://experienceleague.adobe.com/DpvbH-7jfXkjjuDJ6trA-nRxGuysTEKPO7Vmc5BpBbk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: 216
 ht-degree: 0%
 
 ---
 
-# プレースメントの変更ログを表示する
+# プレースメントの変更ログの表示
 
-変更ログには、選択した日付範囲内でプレースメントに対して行われた変更が表示されます。これには、変更のタイプ、新しい値と古い値、変更を行ったユーザー、日付が含まれます。 オプションで、任意のエントリにメモを追加できます。
+変更ログには、変更のタイプ、新しい値と古い値、変更を加えたユーザー、日付など、選択した日付範囲内にプレースメントに加えられた変更が表示されます。 オプションで、任意のエントリにメモを追加できます。
 
-データは、「タイプ」、「変更者」または「変更日」列で並べ替えることができます。
+データは、「タイプ」、「変更日」または「変更日」の各列でソートできます。
 
-1. メインメニューで、「**[!UICONTROL Campaigns]**」をクリックします。
+1. メインメニューで、**[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
 1. キャンペーンの名前をクリックします。
 
-1. サブメニューで、**[!UICONTROL Placements]** をクリックします。
+1. サブメニューで、**[!UICONTROL Placements]**&#x200B;をクリックします。
 
-1. プレースメント名の横で、**[!UICONTROL ...]**/**[!UICONTROL Change logs]** をクリックします。
+1. プレースメント名の横にある「**[!UICONTROL ...]** > **[!UICONTROL Change logs]**」をクリックします。
 
-1. （オプション）次のいずれかの操作をおこないます。
+1. （オプション）次のいずれかの操作を行います。
 
-   * データの表示を、テーブル形式のみと、テーブル形式とグラフ形式の両方で切り替えるには、![&#x200B; テーブルとグラフの表示 &#x200B;](/help/dsp/assets/table-plus-chart-view.png " テーブルとグラフの表示 ")、または右上のツールバーにある ![テーブル表示](/help/dsp/assets/table-view.png "テーブル表示") をクリックします。
+   * 表形式のみでのデータ表示と、表形式とグラフ形式の両方でのデータ表示を切り替えるには、右上のツールバーで![表形式とグラフ表示](/help/dsp/assets/table-plus-chart-view.png "表形式とグラフ表示")または![テーブルビュー](/help/dsp/assets/table-view.png "テーブルビュー")をクリックします。
 
-   * エントリにメモを追加するには、行の [!UICONTROL Notes] 列にカーソルを置き、[**[!UICONTROL Add Notes]**] をクリックします。 入力フィールドにテキストを入力し、「**[!UICONTROL Save]**」をクリックします。
+   * エントリにメモを追加するには、行の[!UICONTROL Notes]列にカーソルを合わせ、**[!UICONTROL Add Notes]**&#x200B;をクリックします。 入力フィールドにテキストを入力し、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-   * ポップアップウィンドウでエントリの詳細を表示するには、行の [!UICONTROL Notes] 列にカーソルを置いて、**[!UICONTROL More]>[!UICONTROL View Details]** をクリックします。
+   * ポップアップウィンドウでエントリの詳細を表示するには、行の[!UICONTROL Notes]列にカーソルを合わせ、**[!UICONTROL More]>[!UICONTROL View Details]**&#x200B;をクリックします。
 
 
 >[!MORELIKETHIS]
 >
->* [Advertising DSPでのプレースメント管理について &#x200B;](placement-about.md)
->* [&#x200B; プレースメントの作成 &#x200B;](placement-create.md)
->* [&#x200B; プレースメントを編集 &#x200B;](placement-edit.md)
->* [&#x200B; プレースメントの複製 &#x200B;](placement-duplicate.md)
->* [&#x200B; プレースメントの広告スケジュールの編集 &#x200B;](placement-edit-ad-schedule.md)
->* [&#x200B; プレースメントの非アクティブ化またはアクティブ化 &#x200B;](placement-pause-activate.md)
->* [&#x200B; プレースメント設定 &#x200B;](placement-settings.md)
+>* [Advertising DSPでのプレースメント管理について](placement-about.md)
+>* [ プレースメントの作成](placement-create.md)
+>* [ プレースメントを編集](placement-edit.md)
+>* [ プレースメントを複製](placement-duplicate.md)
+>* [ プレースメントの広告スケジュールを編集](placement-edit-ad-schedule.md)
+>* [ プレースメントを非アクティブ化またはアクティブ化](placement-pause-activate.md)
+>* [配置の設定](placement-settings.md)

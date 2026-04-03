@@ -1,45 +1,48 @@
 ---
-title: 負のプレースメントを作成
-description: キャンペーンおよび広告グループのネガティブプレースメントを作成する方法に  [!DNL Google Ads]  いて説明します。
+title: ネガティブプレースメントを作成
+description: ' [!DNL Google Ads] 件のキャンペーンと広告グループに対してネガティブプレースメントを作成する方法について説明します。'
 exl-id: 9cc2dd8d-5563-4e02-af8f-6181165494d8
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/LFHoipRyiY36uTj-0G3lFahitrT9ZHD958V-4T-XIUA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: 202
 ht-degree: 0%
 
 ---
 
-# 負のプレースメント [!DNL Google Ads] 作成
+# [!DNL Google Ads]件のネガティブプレースメント用に作成
 
 *[!DNL Google Ads]アカウントのみ*
 
-ディスプレイネットワークをターゲットとするキャンペーンで、[!DNL Google Ads] の広告グループに対して負のプレースメントを作成できます。 ネガティブプレースメントは、ディスプレイネットワーク内の広告をトリガーしないサイトです。
+ディスプレイ ネットワークをターゲットとするキャンペーンの[!DNL Google Ads]広告グループに対して、ネガティブなプレースメントを作成できます。 ネガティブプレースメントは、広告をトリガーしないディスプレイネットワーク内のサイトです。
 
 >[!NOTE]
->また、[&#x200B; 広告グループ設定 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) および [&#x200B; キャンペーン設定 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) で、ネガティブプレースメントを作成および編集することもできます。
+>また、[広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)および[ キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)でネガティブプレースメントを作成および編集することもできます。
 
 >[!TIP]
->一度に多くの負のプレースメントを作成するには、[campaign bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
+>一度に多数のネガティブプレースメントを作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
-1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**&#x200B;をクリックします。
 
-1. データ テーブルの上にあるツールバーで、![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ") をクリックし、**[!UICONTROL Campaign]** をクリックしてキャンペーンレベルの負の配置を作成するか、**[!UICONTROL Ad Group]** をクリックして広告グループレベルの負の配置を作成します。
+1. データテーブルの上にあるツールバーで、![作成](/help/search-social-commerce/assets/add.png "作成")をクリックし、**[!UICONTROL Campaign]**&#x200B;をクリックしてキャンペーンレベルのネガティブプレースメントを作成するか、**[!UICONTROL Ad Group]**&#x200B;をクリックして広告グループレースメントを作成します。
 
-1. 広告ネットワーク、アカウント、キャンペーン、（該当する場合は）広告グループを選択し、「**[!UICONTROL Continue]**」をクリックします。
+1. 広告ネットワーク、アカウント、キャンペーン、および（関連する場合）広告グループを選択し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-1. 負の Web サイト URL を入力します。
+1. 否定的なweb サイト URLを入力します。
 
-   複数の文字列を指定する場合は、コンマで区切るか、別の行に入力します。 有効な形式は次のとおりです。
+   複数の文字列を指定するには、それらをコンマで区切るか、別々の行に入力します。 有効な形式は次のとおりです。
 
-   * Web サイト：有効な URL （www.example.comなど）を入力します。 https://support.google.com/google-ads/answer/2454012にある「除外 URL の追加方法」で許可されている形式を参照してください。
+   * Web サイト：www.example.comなどの有効なURLを入力します。 許可される形式は、https://support.google.com/google-ads/answer/2454012の「除外URLを追加する方法」を参照してください。
 
-   * トピック、カテゴリ、または文書の垂直方向。 [[!DNL Google Ads]  ガイドライン &#x200B;](https://support.google.com/google-ads/editor/answer/30517) および [&#x200B; すべての垂直軸のリスト &#x200B;](https://developers.google.com/adwords/api/docs/appendix/verticals) を参照してください。 例：`category::Industries > Energy & Utilities > Oil & Gas`。
+   * トピック、カテゴリ、ドキュメントの垂直方向。 [[!DNL Google Ads]  ガイドライン ](https://support.google.com/google-ads/editor/answer/30517)とすべての業種の[ リスト ](https://developers.google.com/adwords/api/docs/appendix/verticals)を参照してください。 例：`category::Industries > Energy & Utilities > Oil & Gas`。
 
-1. 「**[!UICONTROL Post]**」をクリックします。
+1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメントについて &#x200B;](placement-about.md)
->* [&#x200B; 入札可能プレースメントの管理 &#x200B;](placement-manage.md)
->* [&#x200B; プレースメントとネガティブプレースメントのステータスの変更 &#x200B;](placement-status-edit.md)
+>* [ プレースメントについて](placement-about.md)
+>* [入札可能なプレースメントの管理](placement-manage.md)
+>* [ プレースメントとネガティブプレースメントのステータスを変更](placement-status-edit.md)

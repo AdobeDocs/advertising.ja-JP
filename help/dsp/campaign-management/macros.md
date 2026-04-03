@@ -1,50 +1,56 @@
 ---
 title: Advertising DSP マクロ
-description: 一般的なトラッキングと、サードパーティのディスプレイ広告でのクリックの追跡に使用できるマクロを参照します。
+description: 一般的なトラッキングに使用できるマクロを参照し、サードパーティのディスプレイ広告のクリックをトラッキングします。
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/4jT3XQq555z7FwlwIj0wkCps3D3Dg-dWD0He3FnlLiQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: 940
 ht-degree: 0%
 
 ---
 
 # Advertising DSP マクロ
 
-マクロは、命令の短いコマンドまたは略記法で、通常は書式 `${MACRO_NAME}` に従います。 クリエイティブコードまたはクリックスルー URL に含まれるマクロは、広告サーバーが理解できる長いコード文字列に展開されます。 DSP広告サーバーは、広告が提供またはクリックされるとマクロを実行します。
+マクロは、命令の短いコマンドまたは略語であり、通常は`${MACRO_NAME}`形式に従います。 クリエイティブコードまたはクリックスルーURLに含まれるマクロは、広告サーバーが理解できる長いコード文字列に展開されます。 DSP広告サーバーは、広告が配信またはクリックされたときにマクロを実行します。
 
-広告サーバーマクロは、重要な情報をDSPやサードパーティの広告サーバーに渡す場合に役立ちます。 マクロは、サードパーティおよびカスタムクリエイティブコードやメタデータ（サードパーティのピクセルなど）のトラフィック処理時に最も一般的に使用されます。
+Ad server マクロは、重要な情報をDSPまたはサードパーティのAd サーバーに渡すのに便利です。 マクロは、サードパーティおよびカスタムのクリエイティブコードまたはメタデータ（サードパーティピクセルなど）の不正取引で最も一般的に使用されます。
 
-マクロは、VAST タグ、任意の URL、DSPまたはサードパーティのイベントピクセルなど、任意の場所に手動で挿入できます。 ただし、DSPのクライアントとパートナーはそれぞれ異なる広告タグのフォーマットを使用しているので、それに応じてマクロをタグの異なる場所に挿入する必要があります。 新しいクライアントまたはパートナーと仕事をするたびに、DSPがトラフィックを送信する広告タグにマクロを挿入する場所に関するドキュメントを求めます。
+VAST タグ、任意のURL、DSPまたはサードパーティのイベントピクセルなど、任意の場所にマクロを手動で挿入できます。 ただし、DSPのクライアントとパートナーはそれぞれ異なる広告タグフォーマットを持っており、それに応じてマクロをタグ内の異なる場所に挿入する必要があります。 新しいクライアントやパートナーと作業するたびに、DSPが送信する広告タグにマクロをどこに挿入するかについてドキュメントを求めます。
 
 ## 一般的なトラッキングマクロ
 
-必要に応じて、すべての広告タイプおよびタグタイプで一般的なトラッキングマクロを使用して、特定のデータを返します。
+必要に応じて、あらゆる広告タイプとタグタイプで一般的なトラッキングマクロを使用し、特定のデータを渡します。
 
-| マクロ | 置き換えの説明 | タイプ |
+| マクロ | 置き換え説明 | タイプ |
 | ----- | ----------------------- | ---- |
 | `${TM_ACCOUNT_ID}` | アカウント ID。 | 整数 |
-| `${TM_AD_ID}` | 広告キー（adKey）。 | string |
-| `${TM_AD_ID_NUM}` | 広告 ID。 | 整数 |
-| `${TM_ADVERTISER_ID}` | 広告主 ID。 | 整数 |
-| `${TM_CAMPAIGN_ID}` | キャンペーンキー | string |
+| `${TM_AD_ID}` | 広告キー（adKey）。 | 文字列 |
+| `${TM_AD_ID_NUM}` | 広告ID。 | 整数 |
+| `${TM_ADVERTISER_ID}` | 広告主ID。 | 整数 |
+| `${TM_CAMPAIGN_ID}` | キャンペーンキー。 | 文字列 |
 | `${TM_CAMPAIGN_ID_NUM}` | キャンペーン ID。 | 整数 |
-| ` ${TM_CLICK_URL}` | リダイレクト URL は、広告サーバーが広告クリックを追跡およびカウントできるようにします。 広告が配信されると、ユーザーがクリックすると、マクロがアクティブ化され、クリックが記録され、レポート目的でカウントされます。 | string |
-| ` ${TM_CLICK_URL_URLENC}` | エンコードされたリダイレクト URL により、広告サーバーは広告の追跡およびクリック数のカウントが可能になります。 広告が配信されると、ユーザーがクリックすると、マクロがアクティブ化され、クリックが記録され、レポート目的でカウントされます。 サードパーティの広告を作成し、ベンダーが URL エンコーディングを必要とする場合以外は、このマクロを使用しないでください。 | string |
-| `${TM_FEED_ID}` | メディアプレースメントのキー（feedKey）。 | string |
-| `${TM_FEED_ID_NUM}` | メディアプレースメントの ID。 | 整数 |
-| ` ${TM_MACRO_PLACEMENT_SITE_KEY` | プレースメントのサイトキー。 モバイルアプリインストール広告の [!DNL AppsFlyer] クリックトラッカーに必要です。<!-- should map to placement_site_key column of placement_site table --> | string |
-| `${TM_PLACEMENT_ID}` | 配置キー（cpKey）。 | string |
+| ` ${TM_CLICK_URL}` | 広告サーバーが広告クリックを追跡およびカウントできるようにするリダイレクト URL。 広告が配信されると、ユーザーがクリックすると、マクロがアクティブになり、クリックはレポート用に記録され、カウントされます。 | 文字列 |
+| ` ${TM_CLICK_URL_URLENC}` | エンコードされたリダイレクト URL。広告サーバーは広告クリックを追跡およびカウントできます。 広告が配信されると、ユーザーがクリックすると、マクロがアクティブになり、クリックはレポート用に記録され、カウントされます。 サードパーティ広告を作成し、ベンダーがURL エンコーディングを必要とする場合を除き、このマクロを使用しないでください。 | 文字列 |
+| `${TM_FEED_ID}` | メディア配置のキー（feedKey）。 | 文字列 |
+| `${TM_FEED_ID_NUM}` | メディア配置のID。 | 整数 |
+| ` ${TM_MACRO_PLACEMENT_SITE_KEY` | プレースメントのサイトキー。 モバイルアプリのインストール広告の[!DNL AppsFlyer] クリックトラッカーに必要です。<!-- should map to placement_site_key column of placement_site table --> | 文字列 |
+| `${TM_PLACEMENT_ID}` | 配置キー（cpKey）。 | 文字列 |
 | `${TM_PLACEMENT_ID_NUM}` | プレースメント ID。 | 整数 |
-| `${TM_RANDOM}` | Cachebuster: 1 から 1000000 の間の乱数。 | long |
-| `${TM_SESSION_ID}` | セッションの ID。広告タグの 1 回の取得に対応します。 | string |
-| `${TM_SITE_DOMAIN_URLENC}` | 入札要求内の URL から解析されるページサブドメイン。URL はエンコードされます。 バナー内、クリックして再生する広告には対応していません。 | string |
-| ` ${TM_SITE_NAME}` | プレースメントのサイト名。 | string |
-| `${TM_SITE_URL_URLENC}` | 入札要求で渡される URL。URL はエンコードされます。 バナー内、クリックして再生する広告には対応していません。 | string |
+| `${TM_RANDOM}` | Cachebuster: 1 ～ 1000000の間の乱数。 | 長い |
+| `${TM_SESSION_ID}` | 広告タグの1回の取得に対応するセッションのID。 | 文字列 |
+| `${TM_SITE_DOMAIN_URLENC}` | 入札リクエストのURLから解析されたページサブドメイン。URLがエンコードされています。 バナー内でクリックして再生する広告ではサポートされていません。 | 文字列 |
+| ` ${TM_SITE_NAME}` | プレースメントのサイト名。 | 文字列 |
+| `${TM_SITE_URL_URLENC}` | 入札リクエストで渡されたURL。URL エンコードです。 バナー内でクリックして再生する広告ではサポートされていません。 | 文字列 |
 | `${TM_SITE_ID_NUM}` | プレースメントのサイト ID。 | 整数 |
-| `${TM_TIMESTAMP}` | 1970 年 1 月 1 日の午前 0 時（UTC00:00）からの経過秒数を示す Unix タイムスタンプ。 | long |
-| ` ${TM_VIDEO_DURATION}` | 広告ビデオのデュレーション （秒）。 | 整数 |
+| `${TM_TIMESTAMP}` | 1970年1月1日の深夜（00:00 UTC）からの経過秒数を示すUnix タイムスタンプ。 | 長い |
+| ` ${TM_VIDEO_DURATION}` | 広告動画のデュレーション（秒単位）。 | 整数 |
 
 {style="table-layout:auto"}
 
@@ -55,56 +61,56 @@ ht-degree: 0%
 
 ## モバイル固有のマクロ
 
-| マクロ | 置き換えの説明 | タイプ |
+| マクロ | 置き換え説明 | タイプ |
 | ----- | ----------------------- | ---- |
-| `${CS_PLATFORM_ID}` | （[!DNL ComScore]） プラットフォーム ID。これは、デバイスのオペレーティングシステムに対応します。<ul><li>`ios` = [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>プラットフォームが上記のいずれでもない場合に `other` 行</li></ul> | varchar （50） |
-| `${CS_DEVICE_MODEL}` | （[!DNL ComScore]）デバイスモデル名（URL エンコード）。 | string |
-| `${CS_IMPLEMENTATION_TYPE}` | [!DNL ComScore] 広告の提供を受けた環境<ul><li>`a` = モバイルアプリケーション</li><li>`b` = モバイル web サイト</li></ul> | 文字列（`a` または `b`） |
-| `${NS_PLATFORM_ID}` | （[!DNL Nielsen]） プラットフォーム ID。これは、デバイスのオペレーティングシステムに対応します。<ul><li>`ios`= [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>プラットフォームが上記のいずれでもない場合に `other` 行</li></ul> | string |
-| `${NS_DEVICE_GROUPING}` | （[!DNL Nielsen]）広告が閲覧者だったデバイスの種類：<ul><li>`TAB` = タブレット</li><li>`PHN` = モバイル</li><li>`computer` = コンピュータ</li></ul> | string |
-| `${UOO}` | （[!DNL Nielsen]）ユーザーが広告トラッキングをオプトアウトしたかどうか：<ul><li>`1` （DNT flag = 1） = ユーザーは広告トラッキングをオプトアウトしました</li><li>`0` （DNT flag = 0） = ユーザーが広告トラッキングをオプトインしました</li></ul> | 整数（`0` または `1`） |
-| `${TM_BUNDLE}` | [!DNL iOS] または [!DNL Android] App Store バンドル ID。 例：com.zynga.wwf2.free または id804379658 | string |
-| `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}` は、入札者が入札要求が欧州連合（EU）の起源からのものであると判断し、GDPR の実施を必要とするかどうかを示します。<ul><li>`1` = GDPR を適用する必要があります</li><li>`0` = GDPR は適用されない</li></ul>`gdpr_consent=${GDPR_CONSENT}` は、インバウンド入札要求でサプライ・パートナーから渡される同意値です。<ul><li>ほとんどの場合、これは base64url エンコードされた同意文字列、つまり daisybit です（例：BN5lERiOMYEdiAKAWXEND1HoSBE6CAFAApAMgBkIDIgM0AgOJxAnQA）</li><li>`0` =同意なし</li><li>`1` =同意</li></ul> | デイジー・ビットまたは整数 |
+| `${CS_PLATFORM_ID}` | （[!DNL ComScore]） デバイスのオペレーティング システムに対応するプラットフォーム ID:<ul><li>`ios` = [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` プラットフォームが上記のいずれでもない場合</li></ul> | varchar （50） |
+| `${CS_DEVICE_MODEL}` | （[!DNL ComScore]） デバイスモデル名は、URL エンコードされています。 | 文字列 |
+| `${CS_IMPLEMENTATION_TYPE}` | （[!DNL ComScore]）広告が配信された環境：<ul><li>`a` = モバイルアプリケーション</li><li>`b` = モバイル web サイト</li></ul> | 文字列（`a`または`b`） |
+| `${NS_PLATFORM_ID}` | （[!DNL Nielsen]） デバイスのオペレーティング システムに対応するプラットフォーム ID:<ul><li>`ios`= [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` プラットフォームが上記のいずれでもない場合</li></ul> | 文字列 |
+| `${NS_DEVICE_GROUPING}` | （[!DNL Nielsen]）広告がビューアーだったデバイスの種類：<ul><li>`TAB` = タブレット</li><li>`PHN` = モバイル</li><li>`computer` = コンピューター</li></ul> | 文字列 |
+| `${UOO}` | （[!DNL Nielsen]） ユーザーが広告トラッキングをオプトアウトしたかどうかを示します：<ul><li>`1` （DNT フラグ = 1） = ユーザーは広告トラッキングをオプトアウトしました</li><li>`0` （DNT フラグ = 0） = ユーザーが広告トラッキングにオプトインしました</li></ul> | 整数（`0`または`1`） |
+| `${TM_BUNDLE}` | [!DNL iOS]または[!DNL Android] アプリストア バンドル ID。 例：com.zynga.wwf2.freeまたはid804379658 | 文字列 |
+| `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}`は、入札者が入札依頼が欧州連合（EU）の出所によるものであると判断し、GDPRの適用を必要とするかどうかを示します。<ul><li>`1` = GDPRを適用する必要があります</li><li>`0` = GDPRは適用できません</li></ul>`gdpr_consent=${GDPR_CONSENT}`は、インバウンド入札要求でサプライパートナーから渡された同意値です。<ul><li>ほとんどの場合、これはbase64url エンコードされた同意文字列、またはdaisybitです（例：BN5lERiOMYEdiAKAWXEND1HoSBE6CAFAApAMgBkIDIgM0AgOJxAnQA）</li><li>`0` =同意なし</li><li>`1` =同意</li></ul> | daisybitまたは整数 |
 
 {style="table-layout:auto"}
 
-## サードパーティのディスプレイ広告のマクロをクリックする
+## サードパーティのディスプレイ広告のクリックマクロ
 
-サードパーティのディスプレイタグを使用した広告のクリックを正確に追跡するために、DSPでは表示クリックマクロが必要です。 必要なマクロのバージョンは 1 つだけです。関連するマクロは、タグのタイプによって異なります。
+サードパーティのディスプレイタグを使用して広告のクリックを正確に追跡するには、DSPにディスプレイクリックマクロが必要です。 必要なマクロのバージョンは1つのみです。関連するマクロは、タグのタイプによって異なります。
 
-| マクロ | 置き換えの説明 | タイプ |
+| マクロ | 置き換え説明 | タイプ |
 | ----- | ----------------------- | ---- |
-| `${TM_CLICK_URL}` | 広告サーバーがプラットフォームで広告クリックを追跡およびカウントできるようにするリダイレクト URL。 | string |
-| `${TM_CLICK_URL_URLENC}` | URL エンコーディングを必要とする広告サーバーが、プラットフォームで広告クリックを追跡およびカウントできるリダイレクト URL です。 | string |
+| `${TM_CLICK_URL}` | 広告サーバーがプラットフォームでの広告クリックを追跡およびカウントできるようにするリダイレクト URL。 | 文字列 |
+| `${TM_CLICK_URL_URLENC}` | URL エンコーディングを必要とする広告サーバーが、プラットフォームでの広告クリックを追跡およびカウントできるようにするリダイレクト URL。 | 文字列 |
 
 {style="table-layout:auto"}
 
-DSPは、次の場合に、サードパーティの表示タグに表示クリックマクロを自動的に挿入します。
+DSPでは、次の操作を行うと、サードパーティの表示タグに表示クリックマクロが自動的に挿入されます。
 
-* 広告サーバーのパートナーインスタンスからの広告タ <!-- [Needs PM confirmation.] --> の書き出し
-* DSPで [!DNL Flashtalking] または [!DNL Google DoubleClick for Advertisers] の広告タグを直接バルクアップロード
+* 広告サーバーパートナー<!-- [Needs PM confirmation.] -->からの広告タグのエクスポート
+* [!DNL Flashtalking]または[!DNL Google DoubleClick for Advertisers]個の広告タグをDSPに直接アップロードできます
 
-ディスプレイ広告の作成時にクリックマクロが見つからない場合、DSPでは警告メッセージが表示され、タグの適切な領域に適切な表示クリックマクロを手動で挿入するように求められます。
+ディスプレイ広告の作成時にクリックマクロが見つからない場合、DSPに警告メッセージが表示され、タグの正しい領域に適切な表示クリックマクロを手動で挿入するように求められます。
 
-## [!DNL Analytics for Advertising] マクロ
+## [!DNL Analytics for Advertising]個のマクロ
 
-[[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) のユーザー専用の追加マクロについては、「[&#x200B; 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Flashtalking] ad タグに &#x200B;](/help/integrations/analytics/macros-flashtalking.md)」および「[&#x200B; 追加  [!DNL Analytics for Advertising]  マクロを  [!DNL Google Campaign Manager 360] ad タグに &#x200B;](/help/integrations/analytics/macros-google-campaign-manager.md)」を参照してください。
+[[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)のお客様向けに特別に使用できる追加のマクロについては、「[追加 [!DNL Analytics for Advertising]  マクロを [!DNL Flashtalking] 広告タグ ](/help/integrations/analytics/macros-flashtalking.md)」および「[追加 [!DNL Analytics for Advertising]  マクロを [!DNL Google Campaign Manager 360] 広告タグ ](/help/integrations/analytics/macros-google-campaign-manager.md)」を参照してください。
 
 ## マクロエラーのトラブルシューティング
 
-コードにマクロを追加する場合は、マクロの正確な構文を使用してください。 マクロを検証する場合、DSPはマクロが有効なマクロの 1 つと完全に一致することを確認します。
+コードにマクロを追加する場合は、必ずマクロの正確な構文を使用してください。 マクロを検証する際、DSPは、マクロが有効なマクロの1つと正確に一致することを確認します。
 
-マクロ名の先頭または末尾に文字がない場合は、エラーが発生します。 例えば、次の場合にエラーメッセージが表示されます。
+マクロ名の先頭または末尾に文字がない場合は、エラーが生成されます。 例えば、次のような場合にエラーメッセージが表示されます。
 
-* マクロ名の先頭の文字（`${` など）を 1 つ以上忘れた場合。 完全な構文が含まれていない場合、そのエントリは有効なマクロとして認識されません。
-* マクロの末尾が有効な文字セット （`}` など）になっていません。
+* マクロ名の先頭にある文字（`${`など）を1つ以上忘れた場合。 完全な構文を含まない場合、エントリは有効なマクロとして認識されません。
+* マクロの末尾に`}`などの有効な文字セットが含まれていません。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディオ広告設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [&#x200B; 接続されたテレビ広告の設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [&#x200B; 広告設定を表示 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [&#x200B; モバイル広告設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [&#x200B; ネイティブ広告設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [&#x200B; プリロール広告設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
->* [&#x200B; ユニバーサルビデオ広告設定 &#x200B;](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
+>* [ オーディオ広告設定](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [ コネクテッド TV広告の設定](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [広告設定の表示](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [ モバイル広告設定](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [ ネイティブ広告設定](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [広告設定のプレロール ](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [ ユニバーサル動画広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

@@ -1,66 +1,69 @@
 ---
-title: 動的検索広告  [!DNL Google Ads]  実装
-description: 動的検索広告を設定するためのワークフロー  [!DNL Google Ads]  ついて説明します。
+title: ' [!DNL Google Ads] 動的検索広告を実装'
+description: ' [!DNL Google Ads] 動的検索広告の設定ワークフローについて説明します。'
 exl-id: 69e5069f-3f82-4ee3-841a-0c1292677223
 feature: Search Campaign Management
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+TQID: https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: 614
 ht-degree: 0%
 
 ---
 
-# 動的検索広告 [!DNL Google Ads] 実装
+# [!DNL Google Ads]件の動的検索広告を実装
 
-クリエイティブレベルまたはキーワードおよびクリエイティブレベルのトラッキングのみを使用した検索専用キャンペーンを *[!DNL Google Ads]スト* ます。
+クリエイティブレベルまたはキーワードレベルおよびクリエイティブレベルのトラッキングのみを含む&#x200B;*[!DNL Google Ads]件の検索専用キャンペーン*
 
-動的検索広告では、キーワードの代わりに web サイトのコンテンツを使用して、広告を表示するタイミングを決定します。 広告グループに対して個別の動的検索ターゲットを設定するか、web サイトのコンテンツを使用して広告をターゲットにするキャンペーンレベルの設定を選択することで、動的検索広告のターゲットにするコンテンツを使用する web サイトのページを定義できます。
+動的検索広告では、広告を表示するタイミングを決定するために、キーワードではなくweb サイトのコンテンツを使用します。 動的検索広告のターゲティングに使用するコンテンツが含まれるweb サイトのページを定義するには、広告グループに個別の動的検索目標を設定するか、web サイトのコンテンツを使用して広告をターゲティングするキャンペーンレベルの設定を選択します。
 
-動的検索広告は、個別に設定することも、バルクシートを使用して設定することもできます。 以下の手順には、個々のエンティティの作成へのリンクが含まれます。
+動的検索広告は、個別に設定することも、バルクシートを使用して設定することもできます。 次の手順には、個々のエンティティを作成するためのリンクが含まれています。
 
-## 動的検索広告 [!DNL Google Ads] 設定手順
+## [!DNL Google Ads]件の動的検索広告を設定する手順
 
-1. 動的検索広告の [&#x200B; キャンペーンを作成 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md):
+1. [動的検索広告用のキャンペーン ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)を作成します：
 
-   1. 最初に、キャンペーン予算を毎日の検索キャンペーン費用の 10% に設定します。
+   1. 最初に、キャンペーンの予算を1日の検索キャンペーン費用の10%に設定しました。
 
-      広告が価値を証明した後で、後で予算を増やすことができます。
+      広告の価値が証明されたら、後で予算を増やすことができます。
 
-   1. （Web サイトのコンテンツに基づ [!DNL Google Ads] て動的検索広告を表示する場合）キャンペーン設定の [!UICONTROL DSA Options] セクションで、ドメインのルートドメインと言語を指定します。
+   1. （Web サイトのコンテンツに基づいて動的検索広告を[!DNL Google Ads]に表示する場合） キャンペーン設定の[!UICONTROL DSA Options] セクションで、ドメインのルートドメインと言語を指定します。
 
       >[!NOTE]
       >
-      >ターゲットにする [!DNL Google Ads] オーガニック検索インデックスでドメインのインデックスを作成する必要があります。 また、ドメインに複数の言語のページが含まれ、すべてのページをターゲットにする場合は、言語ごとに個別のキャンペーンを作成します。
+      >ターゲットにするドメインは、[!DNL Google Ads] オーガニック検索インデックスでインデックス付けする必要があります。 また、ドメインに複数の言語のページが含まれており、そのすべてをターゲットにする場合は、言語別にキャンペーンを作成します。
 
-      Web サイトドメインを使用して広告をターゲットしない場合は、広告グループごとに動的検索ターゲットを作成します（手順 4 を参照）。 ターゲットは [&#x200B; 個別に &#x200B;](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) 作成することも、[&#x200B; バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用して作成することもできます。
+      web サイトドメインを使用して広告をターゲティングしない場合は、広告グループごとに動的検索ターゲットを作成します（ステップ 4を参照）。 ターゲット [個別](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)を作成するか、[ バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用できます。
 
-   1. キャンペーンが検索チャネルと [!DNL Google Ads] の検索ネットワーク（ディスプレイネットワークではない）のみをターゲットにしていることを確認します。 これらの設定は、「[!UICONTROL Networks and Devices]」タブから使用できます。
+   1. キャンペーンが検索チャネルと、[!DNL Google Ads]検索ネットワーク （表示ネットワークではなく）のみをターゲットにしていることを確認してください。 これらの設定は、[!UICONTROL Networks and Devices] タブから利用できます。
 
-   1. （任意）「[!UICONTROL Negatives]」タブでのキーワードの除外。
+   1. （オプション）「[!UICONTROL Negatives]」タブのキーワードを除外します。
 
-   1. （オプション）キャンペーンレベルの追跡テンプレートを設定します。このテンプレートはアカウントレベルの追跡テンプレートを上書きしますが、下位レベルで上書きできます。
+   1. （オプション）アカウントレベルのトラッキングテンプレートを上書きしますが、下位レベルで上書きできるキャンペーンレベルのトラッキングテンプレートを設定します。
 
-      （サーバーサイドトラッキングなしのAdobe Analyticsを使用する広告主）検索、ソーシャル、Commerceから Analytics へのリバースフィードのトラッキングを含める場合は、AMO ID トラッキングコードをアカウントレベルの追加パラメーターに追加し、最終的な URL にコードを追加します。 「[&#x200B; が使用するAdobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md)」を参照してください。
+      （サーバーサイドトラッキングを使用しないAdobe Analyticsを使用する広告主）検索、ソーシャル、およびCommerceからAnalyticsへのリバースフィードのトラッキングを含める場合は、アカウントレベルの追加パラメーターにAMO ID トラッキングコードを追加し、コードを最終URLに追加します。 「[様が使用するAdobe Advertising ID  [!DNL Analytics]](/help/integrations/analytics/ids.md)を参照してください。」
 
-1. キャンペーン内で [&#x200B; 広告グループを作成 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) します。これには次の手順が含まれます。
+1. 次の手順を含め、キャンペーン内で[広告グループ ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)を作成します。
 
-   1. [!UICONTROL Ad Group Type] を **[!UICONTROL Search Dynamic].** に設定します。
+   1. [!UICONTROL Ad Group Type]を&#x200B;**[!UICONTROL Search Dynamic]に設定します。**
 
-   1. すべての広告のデフォルト入札を設定します。
+   1. すべての広告のデフォルト入札額を設定します。
 
-      個々の動的検索ターゲットのデフォルト入札は、設定した場合に上書きできます。
+      個々の動的検索対象のデフォルト入札額を設定した場合は、その値を上書きできます。
 
-   1. （オプション）広告グループレベルの追跡テンプレートを設定します。このテンプレートは、上位レベルにあるすべての追跡テンプレートを上書きしますが、広告レベルで上書きできます。
+   1. （オプション）広告グループレベルのトラッキングテンプレートを設定します。このテンプレートは、より高いレベルのトラッキングテンプレートを上書きしますが、広告レベルで上書きできます。
 
-      キャンペーンレベルでAdobe Analyticsのトラッキングを追加していて、広告グループに含める場合は、ここに追加します。 手順 1e を参照してください。
+      キャンペーンレベルでAdobe Analytics トラッキングを追加し、広告グループに含める場合は、ここに追加します。 手順1eを参照してください。
 
-1. 広告グループ内に [&#x200B; 各動的検索広告を作成 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) します。
+1. [広告グループ内の各動的検索広告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)を作成します。
 
-   [!DNL Google Ads] は、各広告のヘッドライン、ディスプレイ URL およびランディングページ URL を動的に生成します。 オプションで、広告レベルの追跡テンプレートにリダイレクトと追跡を追加できます。これにより、上位レベルの追跡テンプレートが上書きされます。
-上位レベルのAdobe Analytics トラッキングを広告レベルのトラッキングで上書きする場合は、ここに追加します。 手順 1e と 2c を参照してください。
+   [!DNL Google Ads]は、各広告の見出し、表示URL、およびランディングページ URLを動的に生成します。 オプションで、広告レベルのトラッキングテンプレートにリダイレクトとトラッキングを追加できます。これにより、トラッキングテンプレートをより高いレベルで上書きできます。
+広告レベルのトラッキングでAdobe Analyticsのトラッキングをより高いレベルで上書きする場合は、ここに追加します。 手順1eおよび2cを参照してください。
 
-1. （キャンペーン設定の DSA オプション セクションにドメインのルートドメインと言語を含めない場合は必須。それ以外の場合はオプション）広告グループの [&#x200B; 動的検索ターゲット &#x200B;](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) を作成します。 オプションで、広告グループレベルの入札をターゲットレベルの入札で上書きできます。
+1. （キャンペーン設定の「DSA オプション」セクションにドメインのルートドメインと言語を含めない場合は必須です。それ以外の場合はオプション）広告グループの[動的検索ターゲット ](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)を作成します。 オプションで、広告グループレベルの入札をターゲットレベルの入札で上書きできます。
 
-   ターゲットは、広告ネットワークで web サイトのページのすべてを使用するか、サブセットを使用して動的検索広告をターゲットにするかを定義します。 パフォーマンスを最適に追跡するには、動的検索ターゲットごとに 1 つの広告グループでキャンペーンを設定し、すべての条件をターゲットにする広告グループを含めます。
+   ターゲットは、広告ネットワークが動的検索広告のターゲットとしてweb サイト内のページのすべてまたはサブセットを使用するかどうかを定義します。 パフォーマンスを最適に追跡するには、動的検索ターゲットごとに1つの広告グループでキャンペーンを設定し、すべての条件をターゲットとする広告グループを含めます。
 
-1. 必要に応じて [&#x200B; キャンペーン設定を編集 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) し、キャンペーンの予算を調整し、キャンペーンから追加のキーワードを除外してトラフィックを絞り込みます。
+1. 必要に応じて、[ キャンペーン設定を編集](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)して、キャンペーンの予算を調整し、キャンペーンから追加のキーワードを除外してトラフィックを絞り込みます。

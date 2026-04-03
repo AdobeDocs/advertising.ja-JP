@@ -1,11 +1,16 @@
 ---
 title: シミュレーションの詳細を表示
-description: シミュレーションの詳細を画面上に表示する方法を説明します。
+description: シミュレーションの詳細を画面に表示する方法について説明します。
 feature: Search Optimization, Search Portfolios, Search Simulations
-hide: true
-source-git-commit: a15730b624d5becf797c3a8f2e0ed2f8c3ae2f1b
+hide: yes
+exl-id: 1b289d20-561d-4cf9-844e-9cedff7f6296
+TQID: https://experienceleague.adobe.com/kJNXIMqCSSnXVGDPgGgmB5N10n1an59qONEVev7wqLY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: 133
 ht-degree: 0%
 
 ---
@@ -14,28 +19,27 @@ ht-degree: 0%
 
 *Beta機能*
 
-シミュレーションの詳細は、グラフまたはテーブルとして画面に表示できます。
+シミュレーションの詳細は、グラフまたは表として画面に表示できます。
 
-1. メインメニューで、**[!UICONTROL Plan]/[!UICONTROL Simulations]** をクリックします。
+1. メインメニューで、**[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;をクリックします。
 
 1. シミュレーション名をクリックします。
 
-   シミュレーションがグラフ表示で開きます。
+   シミュレーションがグラフビューで開きます。
 
-1. （オプション）グラフ表示で、次のいずれかの操作を行います。
+1. （オプション）グラフビューで、次のいずれかの操作を行います。
 
-   * 費用ターゲットレベル（ステップ）ごとに推定データが表示される指標を変更するには、**[!UICONTROL Y-Axis Metric]** のメニューから新しい指標を選択します。
+   * 各支出目標レベル （ステップ）に対して推定データが表示される指標を変更するには、**[!UICONTROL Y-Axis Metric]** メニューから新しい指標を選択します。
 
-   * （週別シミュレーションのみ）新しい **[!UICONTROL Target Mid Point]** 値を入力して、その値を使用して予測されたデータを確認します。
+   * （毎週のシミュレーションのみ）新しい&#x200B;**[!UICONTROL Target Mid Point]**&#x200B;値を入力すると、その値を使用した予測データが表示されます。
 
-   * （週別シミュレーションのみ） **[!UICONTROL Constraints]** メニューから、データを *[!UICONTROL With Constraints]*、*[!UICONTROL Without Constraints]*、*[!UICONTROL With and Without]* のどれで表示するかを選択します。
+   * （毎週のシミュレーションのみ） **[!UICONTROL Constraints]** メニューから、データ *[!UICONTROL With Constraints]*、*[!UICONTROL Without Constraints]*、または&#x200B;*[!UICONTROL With and Without]*&#x200B;を表示するかどうかを選択します。
 
-1. （オプション）テーブル表示を開くには、「**[!UICONTROL Table View]**」タブをクリックします。
+1. （オプション）テーブルビューを開くには、「**[!UICONTROL Table View]**」タブをクリックします。
 
-1. （任意）該当するポートフォリオの読み取り専用設定を表示するには、右上の「**[!UICONTROL Portfolio Settings]**」をクリックします。
+1. （オプション）該当するポートフォリオの読み取り専用の設定を表示するには、右上の「**[!UICONTROL Portfolio Settings]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; シミュレーションについて &#x200B;](simulation-about.md)
->* [&#x200B; シミュレーションの実行または再実行 &#x200B;](simulation-create.md)
-
+>* [ シミュレーションについて](simulation-about.md)
+>* [ シミュレーションの実行または再実行](simulation-create.md)

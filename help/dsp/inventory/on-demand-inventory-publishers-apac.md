@@ -1,35 +1,40 @@
 ---
-title: アジア太平洋地域の [!DNL On Demand] premium 在庫パブリッシャー
-description: アジア太平洋地域で利用可能な  [!DNL On Demand] premium の在庫パブリッシャーを参照してください。
+title: アジア太平洋地域の[!DNL On Demand]社のプレミアム広告在庫パブリッシャー
+description: アジア太平洋地域で利用可能な [!DNL On Demand]  プレミアム広告在庫パブリッシャーをご覧ください。
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
-source-git-commit: a65abcd843c34e43b1a6f031420ea000092f2b73
+TQID: https://experienceleague.adobe.com/9PUXdICywm-p3FNlNp-hB6Hu8llInJbwlQ17OwJGZkY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: 447
 ht-degree: 0%
 
 ---
 
-# アジア太平洋地域の [!DNL On Demand] premium 在庫パブリッシャー{#on-demand-inventory-publishers-apac}
+# アジア太平洋地域の[!DNL On Demand]社のプレミアム広告在庫パブリッシャー{#on-demand-inventory-publishers-apac}
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| 公開者 | 地域 |
+| 発行者 | 地域 |
 |-----------------------------|---------------|
-| [!DNL BBC] | グレーターチャイナ |
-| [!DNL Bloomberg] | グレーターチャイナ |
-| [!DNL CBS Interactive] | グレーターチャイナ |
-| [!DNL CNN International] | グレーターチャイナ |
-| [!DNL Conde Nast] | グレーターチャイナ |
-| [!DNL EA] | グレーターチャイナ |
-| [!DNL Gameloft] | グレーターチャイナ |
-| [!DNL MSN] | グレーターチャイナ |
-| [!DNL Tripadvisor] | グレーターチャイナ |
-| [!DNL U.S. News] | グレーターチャイナ |
-| [!DNL UDN] | グレーターチャイナ |
-| [!DNL Vidol.tv] | グレーターチャイナ |
-| [!DNL Vungle] | グレーターチャイナ |
-| [!DNL Yahoo! Taiwan] | グレーターチャイナ |
+| [!DNL BBC] | 中華圏 |
+| [!DNL Bloomberg] | 中華圏 |
+| [!DNL CBS Interactive] | 中華圏 |
+| [!DNL CNN International] | 中華圏 |
+| [!DNL Conde Nast] | 中華圏 |
+| [!DNL EA] | 中華圏 |
+| [!DNL Gameloft] | 中華圏 |
+| [!DNL MSN] | 中華圏 |
+| [!DNL Tripadvisor] | 中華圏 |
+| [!DNL U.S. News] | 中華圏 |
+| [!DNL UDN] | 中華圏 |
+| [!DNL Vidol.tv] | 中華圏 |
+| [!DNL Vungle] | 中華圏 |
+| [!DNL Yahoo! Taiwan] | 中華圏 |
 | [!DNL BBC] | 香港 |
 | [!DNL Bloomberg] | 香港 |
 | [!DNL CBS Interactive] | 香港 |
@@ -371,8 +376,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレミアム在庫  [!DNL On Demand]  ついて &#x200B;](on-demand-inventory-about.md)
->* [&#x200B; プレミアム在庫取引の購入  [!DNL On Demand]  アクセスのリクエスト &#x200B;](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand]  オーストラリアおよびニュージーランドのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand]  北米のプレミアム在庫パブリッシャー &#x200B;](on-demand-inventory-publishers-na.md)
+>* [概要 [!DNL On Demand]  プレミアム在庫](on-demand-inventory-about.md)
+>* [ プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト ](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand]  オーストラリアとニュージーランドのプレミアム広告在庫パブリッシャー](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム広告在庫パブリッシャー](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] 北米のプレミアム広告在庫パブリッシャー](on-demand-inventory-publishers-na.md)

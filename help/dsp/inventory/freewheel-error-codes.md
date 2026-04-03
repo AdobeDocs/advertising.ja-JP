@@ -3,9 +3,14 @@ title: ' [!DNL FreeWheel] 広告の送信に関するエラーコード'
 description: 広告送信用に返されるエラーコードを [!DNL FreeWheel]に参照します。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+TQID: https://experienceleague.adobe.com/z2fbEvduZZcevSEsUVLQmIpGKoZp2P2luGI1pmOrbic
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: ac506c20-96f2-48f6-9096-77706e336bdaid: fae3ff5f-9a75-4de1-a100-c90dd8268528
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: 641
 ht-degree: 3%
 
 ---
@@ -66,5 +71,5 @@ ht-degree: 3%
 >
 >* [でのプログラムによる保証取引の設定の概要 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
 >* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)で取引を承諾
->* [&#x200B; プログラマティック保証取引の広告を [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)に送信します
+>* [ プログラマティック保証取引の広告を [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)に送信します
 >* [PG取引 [!DNL FreeWheel] の広告のステータスを確認する](/help/dsp/inventory/freewheel-check-status.md)

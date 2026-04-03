@@ -1,38 +1,42 @@
 ---
 title: 複数の行を選択
-description: 複数の行を選択して、それらすべてに対して同じアクションを実行する方法を説明します。
+description: 複数の行を選択して、すべての行に対して同じ操作を実行できるようにする方法を説明します。
 exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: 347d223d226ce3372e29e80c00a11df605318c9f
+TQID: https://experienceleague.adobe.com/LIZlRNBrArLD1ukpkqNtYoMEOcnKoyxM17lqW5-jPhw
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: 215
 ht-degree: 0%
 
 ---
 
 # 複数の行を選択
 
-新しいユーザーインターフェイスでは、管理ビューとレガシーユーザーインターフェイスの [!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Search > Label Classifications]/[!UICONTROL Optimization]/[!UICONTROL Constraints] で複数の行を選択できます。
+新しいユーザーインターフェイスの複数の行は、管理ビューから、従来のユーザーインターフェイスの[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns]、[!UICONTROL Search > Label Classifications]、[!UICONTROL Optimization] > [!UICONTROL Constraints]から選択できます。
 
-* ショートカットキー：
+* キーボードショートカット：
 
-   * **[!DNL Shift+Click]**：連続した複数の行を選択するには、最初の行をクリックし、**[!DNL Shift]** キーを押しながら最後の行をクリックします。
+   * **[!DNL Shift+Click]**：複数の連続する行を選択するには、最初の行をクリックし、最後の行をクリックしながら&#x200B;**[!DNL Shift]**&#x200B;を押します。
 
-   * **[!DNL Ctrl+Click]**：連続していない複数の行を選択するには、最初の行をクリックし、**[!DNL Ctrl]** キーを押しながら追加の各行をクリックします。
+   * **[!DNL Ctrl+Click]**：連続しない複数の行を選択するには、最初の行をクリックしてから&#x200B;**[!DNL Ctrl]**&#x200B;を押しながら、追加の各行をクリックします。
 
-* 左上隅の列見出しのグローバル チェック ボックス （![&#x200B; チェック ボックス &#x200B;](/help/search-social-commerce/assets/check-box.png)&quot;チェック ボックス&quot;）:
+* 左上列見出しのグローバル チェックボックス （![ チェックボックス ](/help/search-social-commerce/assets/check-box.png) 「チェックボックス」）:
 
-   * 現在のページのすべての行（表示している行数が 25 行、50 行、100 行、200 行のいずれかに基づいて、適用されたフィルターで使用可能な行の一部または全部）を選択するには、「グローバル」チェックボックスをオンにし [!UICONTROL Continuous Scroll] す。
+   * 現在のページのすべての行（適用されたフィルターで使用できる一部またはすべての行を含む）を選択するには、表示している行が25行、50行、100行、200行、または（従来のキャンペーン管理ビューのみ） [!UICONTROL Continuous Scroll]に基づいて、グローバル チェックボックスをオンにします。
 
-     ページ上のすべての行を選択する場合、個々の行の選択を解除できます。
+     ページのすべての行を選択すると、個々の行を選択解除できます。
 
-   * （従来のキャンペーン管理ビューのみ）適用されたフィルターで使用可能なすべての行を選択するには、「グローバル」チェックボックスをオンにして「**[!DNL Select all N records?]**」をクリックします。*N* は、使用可能なレコードの数です。
+   * （従来のキャンペーン管理ビューのみ）適用されたフィルターで使用可能なすべての行を選択するには、グローバル チェックボックスを選択し、**[!DNL Select all N records?]**&#x200B;をクリックします。ここで、*N*&#x200B;は使用可能なレコード数です。
 
-     使用可能なすべての行を選択した場合、個々の行の選択を解除することはできません。
+     使用可能なすべての行を選択した場合、個々の行を選択解除することはできません。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 列見出しメニューからのデータフィルターの適用 &#x200B;](../data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
->* [&#x200B; ツールバーからのデータフィルターの適用 &#x200B;](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
->* [&#x200B; 日付範囲でデータをフィルタリング &#x200B;](../data-views/ad-hoc-settings/date-filter.md)
->* [&#x200B; フィルターの削除 &#x200B;](../data-views/ad-hoc-settings/column-filter-remove.md)
+>* [列見出しメニューからデータフィルターを適用](../data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
+>* [ ツールバーからデータフィルターを適用](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [日付範囲でデータをフィルタリング ](../data-views/ad-hoc-settings/date-filter.md)
+>* [ フィルターを削除](../data-views/ad-hoc-settings/column-filter-remove.md)

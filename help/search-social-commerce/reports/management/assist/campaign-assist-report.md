@@ -1,59 +1,63 @@
 ---
 title: '[!UICONTROL Campaign Assist Report]'
-description: '[!UICONTROL Campaign Assist Report] について説明します。'
+description: '[!UICONTROL Campaign Assist Report]について説明します。'
 exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
-source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
+TQID: https://experienceleague.adobe.com/9CQ9aS6g0C1lCEYQbGEjctsZXEtIqjLOl5ohP45YFSU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: 854
 ht-degree: 1%
 
 ---
 
-# [!UICONTROL Campaign Assist Report]
+# ザ [!UICONTROL Campaign Assist Report]
 
-*検索、ソーシャル、Commerceのクリックのトラッキング、Adobe Advertising、Adobe Analyticsからのコンバージョントラッキング（[!DNL Analytics] 統合を使用）またはフィードでトークン（`ef_id`）のみを使用して提供される広告主*
+*検索、ソーシャル、およびCommerceのクリック追跡と、Adobe AdvertisingとAdobe Analyticsのコンバージョン追跡を備えた広告主（[!DNL Analytics]統合）、またはトークン（`ef_id`）のみを使用したフィードで提供された広告主*
 
-[!UICONTROL Campaign Assist Report] は、どのキャンペーンがコンバージョンプロセスを支援したかを示します。 このレポートでは、広告から 1 つ以上のコンバージョンが導かれたキャンペーンの各パターンが、コンバージョン全体にどのように貢献したかが報告されます。 例えば、ユーザーがキャンペーン A で広告を最初に見て、キャンペーン B で広告をクリックし、注文した際に発生したコンバージョン数を確認できます。 同様に、ユーザーが 10 を超えるキャンペーンの広告を操作した後に発生したコンバージョン数を確認できます。
+[!UICONTROL Campaign Assist Report]は、コンバージョン プロセスを支援したキャンペーンを示します。 レポートは、1つ以上のコンバージョンにつながった広告のキャンペーンの各パターンが、全体的なコンバージョンにどのように貢献したかを示します。 例えば、ユーザーがキャンペーン Aの広告を初めて見て、キャンペーン Bの広告をクリックして注文した際に、コンバージョンがいくつか発生したかを確認できます。 同様に、10以上のキャンペーンの広告に対してユーザーがインタラクションした後に、どれだけのコンバージョンが発生したかを確認できます。
 
-レポート結果には、広告主の [&#x200B; クリックルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#c-d) および [&#x200B; インプレッションルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j) 内で発生したイベントに関する、コンバージョンパス内のキャンペーンのパターンごとの集計データが、（N 個の最も古いキャンペーンまで）含まれます。 例えば、パスサイズを 5 つまで選択した場合、レポートには最大 5 つの最も古いキャンペーンを含んだコンバージョンパスが含まれ、イベントが追跡されたキャンペーンのパターンごとに 1 行が含まれます。 各行には、1 つのパターンのキャンペーンが表示されます。パス内の最初のキャンペーンと、コンバージョンが発生した最後のキャンペーンが含まれます（最後のキャンペーンが指定されたパスサイズに含まれない場合も含む）。 デフォルトでは、行はパス内のキャンペーン数の昇順になります。
+レポート結果には、広告主の[ クリックのルックバックウィンドウ ](/help/search-social-commerce/glossary.md#c-d)と[ インプレッションのルックバックウィンドウ ](/help/search-social-commerce/glossary.md#i-j)内で発生したイベントについて、コンバージョンパスのキャンペーンの各パターン（最も早いN個のキャンペーンまで）に関する集計データが含まれます。 例えば、パスサイズを5 （5）に設定すると、レポートには、最も初期の5つのキャンペーンを含むコンバージョンパスが含まれ、イベントが追跡されたキャンペーンのパターンごとに1行が表示されます。 各行には、パスの最初のキャンペーンと、コンバージョンにつながる最後のキャンペーンを含む、キャンペーンの1つのパターンが表示されます（最後のキャンペーンが指定されたパスサイズを超えている場合でも）。 デフォルトでは、行はパス内のキャンペーンの数で昇順になります。
 
-オプションで、カスタム指標を含めた集計コンバージョンデータを各行に含めることができます。 レポートにコンバージョン/売上高の列を含めると、各コンバージョンタイプは 4 つの列で表され、a） コンバージョンの合計数、b）そのキャンペーンパターンに起因するコンバージョン全体の割合、c）最初のイベント（最初のキャンペーン）からコンバージョンまでの平均待ち時間（日数）、d）最後のイベント（最後のキャンペーン）からコンバージョンまでの平均待ち時間（日数）を示します。 指定したパスサイズを超えるキャンペーンがコンバージョンパスに含まれている場合、レポートには、多数のキャンペーン（6 つのキャンペーンを含むすべてのパターンなど）から生成されたコンバージョンのデータを集計した追加の行が含まれます。
+必要に応じて、各行にカスタム指標を含む集約コンバージョンデータを含めることができます。 レポートにコンバージョン/収益列を含めると、各コンバージョンタイプは4つの列で表され、a）コンバージョンの合計数、b）そのキャンペーンパターンに起因するコンバージョン全体の割合、c）最初のイベント（最初のキャンペーン）からコンバージョンまでの平均待ち時間、d）最後のイベント（最後のキャンペーン）からコンバージョンまでの平均待ち時間を示します。 コンバージョンパスに指定されたパスサイズよりも多くのキャンペーンが含まれる場合、レポートには、キャンペーンの数が多いコンバージョンのデータを集計する追加の行（6つのキャンペーンを含むすべてのパターンなど）が含まれます。
 
-オプションで、キャンペーン名の後に広告ネットワークやイベントタイプ（`<campaign name> (Google) click` など）を含めることもできます。
+オプションで、キャンペーン名の後に広告ネットワークやイベントタイプ（`<campaign name> (Google) click`など）を含めることもできます。
 
-過去 18 か月のデータを表示できます。
+過去18か月間のデータを表示できます。
 
 >[!TIP]
 >
->ブランドキーワードが汎用キーワードと異なるキャンペーンにある場合は、そのブランドキーワードがコンバージョンに貢献しているかどうかをレポートが示します。
+>ブランドキーワードが、一般的なキーワードと異なるキャンペーン内にある場合、レポートは、ブランドキーワードがコンバージョンに貢献しているかどうかを示します。
 
 ## 使用可能な列
 
-各レポートで使用できる列は次のとおりです。 デフォルトの列は、デフォルトで自動的に含まれます。 レポート設定の「列」セクションから、使用可能なカスタム列を追加できます。
+以下は、各レポートで使用できる列です。 デフォルトの列は、デフォルトで自動的に含まれます。 レポート設定の「列」セクションから、使用可能なカスタム列を追加できます。
 
 | 列 | デフォルト？ | 説明 |
 | ---- | ---- | ---- |
-| [!UICONTROL 1st Campaign] ～ [!UICONTROL 5th Campaign] | デフォルト | 広告主の [&#x200B; クリックルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#c-d) および [&#x200B; インプレッションルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j) 内で発生したコンバージョンパスの最も古い 5 つのキャンペーン。<br><br> エンティティ名の後に広告ネットワーク、アカウント名またはイベントタイプを示すレポートオプションを含めた場合、その情報はキャンペーン名の後に含まれます（例：「`"<"campaign name> [Google] [Account1] [impression]`」）。 |
-| [!UICONTROL Path Size] | デフォルト | 広告主の [&#x200B; クリックルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#c-d) および [&#x200B; インプレッションルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j) 内で発生したコンバージョンパス内のキャンペーンの数。 |
-| [!UICONTROL First Campaign] | デフォルト | コンバージョンパスの最初のキャンペーン。 |
-| [!UICONTROL Last Campaign] | デフォルト | コンバージョンに至った最後のキャンペーン（最後のキーワードが指定されたパスサイズを超えている場合も含む）。<br><br> エンティティ名の後に広告ネットワーク、アカウント名またはイベントタイプを示すレポートオプションを含めた場合、その情報はキャンペーン名の後に含まれます（例：「`"<"campaign name> [Google] [Account1] [impression]`」）。 |
-| \[ 広告主固有のカスタム （派生）指標\] | カスタム | 既存の指標から計算された、作成したカスタム指標の値。 |
-| \[ 広告主固有のコンバージョン指標\] | カスタム | 指定したコンバージョン指標またはサイトエンゲージメント指標のコンバージョン数。 |
-| [!UICONTROL % of Total] \[ コンバージョン指標\] | 自動 | （レポート設定では使用できませんが、各コンバージョン指標のレポート出力には自動的に含まれます） キャンペーンパターンによって生じた、指定されたコンバージョン指標のコンバージョン数。 |
-| [!UICONTROL 6th Campaign] ～ [!UICONTROL 20th Campaign] | カスタム | 広告主の [&#x200B; クリックルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#c-d) および [&#x200B; インプレッションルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j) 内で発生したコンバージョンパスの 6 ～ 20 番目のキャンペーン。<br><br> エンティティ名の後に広告ネットワーク、アカウント名またはイベントタイプを示すレポートオプションを含めた場合、その情報はキャンペーン名の後に含まれます（例：「`"<"campaign name> [Baidu] [Account1] [click]`」）。 |
-| [!UICONTROL Avg. Conv. Latency (First Campaign To Conversion)] \[ コンバージョン指標\] | 自動 | （レポート設定では利用できませんが、各コンバージョン指標のレポート出力に自動的に含まれます）最初のイベント（最初のキャンペーン）からコンバージョンまでの平均待ち時間（日数）。 |
-| [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[ コンバージョン指標\] | 自動 | （レポート設定では使用できませんが、レポート出力に自動的に含まれます）最後のイベント（最後のキャンペーンで）からコンバージョンまでの平均待ち時間（日数）。 |
-| [!UICONTROL EF Campaign ID] | カスタム | 検索、ソーシャルおよびCommerceがキャンペーンに割り当てる数値 ID。 |
-| [!UICONTROL EF Portfolio Group ID] | カスタム | ポートフォリオが属しているポートフォリオグループの数値 ID。 |
-| [!UICONTROL EF Search Engine ID] | カスタム | 検索、ソーシャル、およびCommerceによって広告ネットワークに割り当てられる数値 ID。<i>[!UICONTROL 3]</i> の場合は [!DNL Google Ads]、<i>[!UICONTROL 10]</i> の場合は [!DNL Microsoft Advertising]、<i>[!UICONTROL 45]</i> の場合は [!DNL Meta]、<i>[!UICONTROL 86]</i>[!DNL Yahoo! Display Network] の場合は <i>[!UICONTROL 87]</i>、[!DNL Naver] の場合は <i>[!UICONTROL 88]</i>、[!DNL Baidu] の場合は <i>[!UICONTROL 90]</i> [!DNL Yandex]、<i>[!UICONTROL 94]</i> の場合は [!DNL Yahoo! Japan Ads]、<i>[!UICONTROL 105]</i> の場合は [!DNL Yahoo Native]、<i>[!UICONTROL 106]</i> の場合は [!DNL Pinterest] （非推奨）です。 |
+| [!UICONTROL 1st Campaign] ～ [!UICONTROL 5th Campaign] | Default | 広告主の[ クリックルックバックウィンドウ ](/help/search-social-commerce/glossary.md#c-d)と[ インプレッションのルックバックウィンドウ ](/help/search-social-commerce/glossary.md#i-j)内で発生したコンバージョンパス内の5つの初期キャンペーン。<br><br> エンティティ名の後に広告ネットワーク、アカウント名、またはイベントタイプを示すレポートオプションのいずれかを含めた場合、その情報はキャンペーン名の後に含まれます（`"<"campaign name> [Google] [Account1] [impression]`など）。 |
+| [!UICONTROL Path Size] | Default | 広告主の[ クリックルックバックウィンドウ ](/help/search-social-commerce/glossary.md#c-d)および[ インプレッション ルックバックウィンドウ ](/help/search-social-commerce/glossary.md#i-j)内で発生したコンバージョンパス内のキャンペーンの数。 |
+| [!UICONTROL First Campaign] | Default | コンバージョンパスの最初のキャンペーン。 |
+| [!UICONTROL Last Campaign] | Default | コンバージョンに至った最後のキャンペーン（最後のキーワードが指定されたパスサイズを超えている場合でも）。<br><br> エンティティ名の後に広告ネットワーク、アカウント名、またはイベントタイプを示すレポートオプションのいずれかを含めた場合、その情報はキャンペーン名の後に含まれます（`"<"campaign name> [Google] [Account1] [impression]`など）。 |
+| \[広告主固有のカスタム（派生）指標\] | カスタム | 既存の指標から計算された、作成したカスタム指標の値。 |
+| \[Advertiser-specific conversion metrics\] | カスタム | 指定されたコンバージョン指標またはサイトエンゲージメント指標のコンバージョン数。 |
+| [!UICONTROL % of Total] \[ コンバージョン指標] | 自動型 | （レポート設定では使用できませんが、含まれるコンバージョン指標ごとにレポート出力に自動的に含まれます） キャンペーンパターンから生じた、指定されたコンバージョン指標のコンバージョン数。 |
+| [!UICONTROL 6th Campaign] ～ [!UICONTROL 20th Campaign] | カスタム | 広告主の[ クリックルックバックウィンドウ ](/help/search-social-commerce/glossary.md#c-d)および[ インプレッションのルックバックウィンドウ ](/help/search-social-commerce/glossary.md#i-j)内で発生したコンバージョンパスの6番目から20番目のキャンペーン。<br><br> エンティティ名の後に広告ネットワーク、アカウント名、またはイベントタイプを示すレポートオプションのいずれかを含めた場合、その情報はキャンペーン名の後に含まれます（`"<"campaign name> [Baidu] [Account1] [click]`など）。 |
+| [!UICONTROL Avg. Conv. Latency (First Campaign To Conversion)] \[ コンバージョン指標] | 自動型 | （レポート設定では使用できませんが、含まれるコンバージョン指標ごとにレポート出力に自動的に含まれます）最初のイベント（最初のキャンペーン）からコンバージョンまでの平均待ち時間（日数）です。 |
+| [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[ コンバージョン指標] | 自動型 | （レポート設定では使用できませんが、レポート出力に自動的に含まれます）最後のイベント（最後のキャンペーン）からコンバージョンまでの平均待ち時間（日数）です。 |
+| [!UICONTROL EF Campaign ID] | カスタム | Search, Social, &amp; Commerceがキャンペーンに割り当てる数値ID。 |
+| [!UICONTROL EF Portfolio Group ID] | カスタム | ポートフォリオが属するポートフォリオグループの数値ID。 |
+| [!UICONTROL EF Search Engine ID] | カスタム | Search, Social, &amp; Commerceがアドネットワークに割り当てる数値ID: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> for [!DNL Yahoo! Japan Ads] （非推奨）, <i>[!UICONTROL 105]</i> （非推奨）の[!DNL Yahoo Native]<i>[!UICONTROL 106]</i>[!DNL Pinterest] |
 | [!UICONTROL Portfolio ID] | カスタム | 数値ポートフォリオ ID。 |
-| [!UICONTROL User SE Account ID] | カスタム | 検索、ソーシャルおよびCommerceが広告ネットワークに割り当てる数値 ID。 |
+| [!UICONTROL User SE Account ID] | カスタム | Search, Social, &amp; Commerceが広告ネットワークに割り当てる数値ID。 |
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; アシストレポートについて &#x200B;](assist-report-about.md)
->* [[!UICONTROL Channel Assist Report]](channel-assist-report.md)
->* [[!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
->* [&#x200B; レポート設定の支援 &#x200B;](assist-report-settings.md)
->* [&#x200B; アシストレポートの生成 &#x200B;](assist-report-generate.md)
+>* [ アシストレポートについて](assist-report-about.md)
+>* [The [!UICONTROL Channel Assist Report]](channel-assist-report.md)
+>* [The [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
+>* [ レポート設定の支援](assist-report-settings.md)
+>* [ アシストレポートを生成](assist-report-generate.md)

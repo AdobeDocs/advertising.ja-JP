@@ -1,24 +1,28 @@
 ---
-title: 在庫フィードの買い物かごへのテンプレート設定の [!DNL Google Ads] 定
-description: 在庫フィードの買い物  [!DNL Google Ads]  広告テンプレートの設定を参照します。
+title: 在庫フィードのショッピングとテンプレート設定[!DNL Google Ads]
+description: 在庫フィードの [!DNL Google Ads]  ショッピング広告テンプレートの設定を参照します。
 exl-id: 36cbe719-f984-4456-8575-94b9d3e6094e
 feature: Search Inventory Feeds
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+TQID: https://experienceleague.adobe.com/IIgGNn0rpJsvZjRnrqbT6EIQXpf4BRx2C1GgtU4AdbA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: 520
 ht-degree: 0%
 
 ---
 
-# 在庫フィードの買い物かごへのテンプレート設定の [!DNL Google Ads] 定
+# 在庫フィードのショッピングとテンプレート設定[!DNL Google Ads]
 
-ショッピング広告テンプレートを使用すると、ショッピング広告を設定できます。
+ショッピング広告テンプレートを使用したショッピング広告の設定。
 
 >[!NOTE]
 >
->* 次の文字は、テンプレート内の列名と修飾子名を指定するために予約されているので、すべての属性フィールドでテキストとして使用することはできません。`[ ] < > `
+>* 次の文字は、テンプレート内の列名と修飾子名を指定するために予約されているため、すべての属性フィールドのテキストとして使用できません：`[ ] < > `
 
-## \[ すべてのタブの上\]
+## \[すべてのタブの上\]
 
 <!-- **Template Name:** -->
 
@@ -32,7 +36,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/inventory-feed-template-account.md}}
 
-## \[ 左パネル\]
+## \[左パネル\]
 
 <!-- **[!UICONTROL Feed &amp; Columns]:** -->
 
@@ -56,9 +60,9 @@ ht-degree: 0%
 
 {{$include /help/_includes/inventory-feed-template-shopping-campaign-map-method.md}}
 
-**[!UICONTROL Campaign Tracking Template]:** （クライアントフィードファイルのテンプレートではオプション）キャンペーンレベルのトラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的な URL をパラメーターに埋め込みます。 この値はアカウントレベルの設定を上書きしますが、より詳細なレベルでのトラッキングテンプレート（キーワードを最も詳細なレベルとして）はこの値を上書きします。
+**[!UICONTROL Campaign Tracking Template]:** （クライアントフィードファイルのテンプレートの場合はオプション） キャンペーンレベルのトラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的なURLをパラメーターに埋め込みます。 この値はアカウントレベルの設定よりも優先されますが、より詳細なレベル（キーワードが最も詳細なレベル）でテンプレートを追跡すると、この値よりも優先されます。
 
-キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertising コンバージョントラッキングの場合は、[Google Ads ショッピングキャンペーン用のトラッキングテンプレートフォーマット &#x200B;](/help/search-social-commerce/tracking/formats-click-tracking-google.md) を使用します。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
+キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合は、Google Ads ショッピングキャンペーン [の](/help/search-social-commerce/tracking/formats-click-tracking-google.md) トラッキングテンプレート形式を使用します。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
 
 サードパーティのリダイレクトとトラッキングの場合は、値を入力します。
 
@@ -66,10 +70,10 @@ ht-degree: 0%
 
 {{$include /help/_includes/final-url-suffix.md}}
 
-**[!UICONTROL Merchant ID]:** 商品がキャンペーンに使用されるマーチャントアカウントの顧客 ID。
+**[!UICONTROL Merchant ID]:**&#x200B;製品がキャンペーンに使用されているマーチャント アカウントの顧客ID。
 
-**[!UICONTROL Sales Country]:** キャンペーンの商品が販売される国。 製品は関連付けられているためです
-ターゲット国では、この設定によって、キャンペーンで広告する製品が決まります。
+**[!UICONTROL Sales Country]:** キャンペーンの製品が販売される国。 製品が関連付けられているため
+ターゲット国では、この設定により、キャンペーンで宣伝される製品が決まります。
 
 <!-- **[!UICONTROL Stock Level]:** -->
 
@@ -93,17 +97,17 @@ ht-degree: 0%
 
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
-**[!UICONTROL Networks]:** 広告を配置するネットワーク。 *[!UICONTROL Search]* はすでに選択されています。 [!DNL Google Ads] の検索パートナーの一覧に入札を含めるには、**[!UICONTROL Search partners]** の横にあるチェック ボックスをオンにします。
+**[!UICONTROL Networks]:**&#x200B;広告を配置するネットワーク。 *[!UICONTROL Search]*&#x200B;は既に選択されています。 [!DNL Google Ads]件の検索パートナーのリストに入札を含めるには、**[!UICONTROL Search partners]**&#x200B;の横にあるチェックボックスをオンにします。
 
-**[!UICONTROL Campaign Priority]:** 複数のキャンペーンで広告が行われる場合に、キャンペーンが使用される優先度
-同じ製品：*[!UICONTROL Low]* （新規キャンペーンのデフォルト）、*[!UICONTROL Medium]* または *[!UICONTROL High]*。 同じ製品が複数のキャンペーンに含まれる場合、広告ネットワークはを使用します
-最初にキャンペーンの優先度を指定して、広告オークションに適格なキャンペーン（および関連入札）を決定します。 すべてのキャンペーンの優先度が同じ場合は、入札額が最も高いキャンペーンが実施要件を満たします。
+**[!UICONTROL Campaign Priority]:**複数のキャンペーンが次のキャンペーンを宣伝する場合にキャンペーンが使用される優先度
+同じ製品：*[!UICONTROL Low]* （新しいキャンペーンのデフォルト）、*[!UICONTROL Medium]*、または&#x200B;*[!UICONTROL High]*。 同じ商品が複数のキャンペーンに含まれる場合、広告ネットワークは
+最初にキャンペーンの優先順位を指定して、どのキャンペーン（および関連する入札）が広告オークションの対象となるかを決定します。 すべてのキャンペーンの優先順位が同じ場合、入札額が最も高いキャンペーンが実施要件を満たします。
 
 <!-- **[!UICONTROL Locations]:** -->
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
 
-**[!UICONTROL Has EU Political Ads]:** （[!DNL Google Ads] および [!DNL Microsoft Advertising] キャンペーンのみ。欧州連合（EU）のオーディエンスを対象とするキャンペーンに適用） キャンペーンに、EU 規則 2024/90 に基づく欧州連合（EU）で提供される広告の要件ごとの政治広告が含まれているかどうか：*[!UICONTROL Yes]* または *[!UICONTROL No]*。
+**[!UICONTROL Has EU Political Ads]:** （[!DNL Google Ads]および[!DNL Microsoft Advertising] キャンペーンのみ。欧州連合（EU）内のオーディエンスをターゲットとするキャンペーンに適用されます）このキャンペーンに、EU規則2024/90に基づいて欧州連合で配信される広告の要件に従った政治的広告が含まれているかどうか：*[!UICONTROL Yes]*&#x200B;または&#x200B;*[!UICONTROL No]*。
 
 ## [!UICONTROL Ad Groups]
 
@@ -119,9 +123,9 @@ ht-degree: 0%
 
 {{$include /help/_includes/inventory-feed-template-ad-group-map-method.md }}
 
-**[!UICONTROL Ad Group Tracking Template]:** （任意）広告グループレベルのトラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的な URL をパラメーターに埋め込みます。 この値はアカウントレベルおよびキャンペーンレベルの設定を上書きしますが、より詳細なレベルでのトラッキングテンプレートはこの値を上書きします。
+**[!UICONTROL Ad Group Tracking Template]:** （オプション）すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的なURLをパラメーターに埋め込む、広告グループレベルのトラッキングテンプレート。 この値は、アカウントレベルとキャンペーンレベルの設定を上書きしますが、より詳細なレベルでのトラッキングテンプレートはこの値を上書きします。
 
-Adobe Advertisingのコンバージョントラッキングの場合は、値を入力する必要はありません。 キャンペーンレベルの値で十分です。
+Adobe Advertisingのコンバージョントラッキングでは、値を入力する必要はありません。 キャンペーンレベルの価値だけで十分です。
 
 サードパーティのリダイレクトとトラッキングの場合は、値を入力します。
 
@@ -131,7 +135,7 @@ Adobe Advertisingのコンバージョントラッキングの場合は、値を
 
 ## [!UICONTROL Product Groups]
 
-**[!UICONTROL Tier 1]:** デフォルトの全てを含む製品グループ「[!UICONTROL All products]」 この親製品グループは削除できませんが、下位のすべての層がフィードにない場合は自動的に削除されます。
+**[!UICONTROL Tier 1]:** デフォルトの包括的な製品グループ「[!UICONTROL All products]」。 この親製品グループを削除することはできませんが、フィードに下位の階層がすべて欠落している場合は、自動的に削除されます。
 
 <!-- **[!UICONTROL Tier 2 - Tier 8]:** -->
 
@@ -141,14 +145,14 @@ Adobe Advertisingのコンバージョントラッキングの場合は、値を
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** （子製品グループを持たない単位。オプション）製品の追跡テンプレート
-すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的な URL を [!DNL ValueTrack] パラメーターに埋め込むグループ。 このテンプレートは、上位レベルのテンプレートを上書きします。
+**[!UICONTROL Tracking Template]:** （子の製品グループのないユニット、オプション）製品のトラッキングテンプレート
+すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的なURLを[!DNL ValueTrack] パラメーターに埋め込むグループ。 このテンプレートは、より高いレベルのテンプレートを上書きします。
 
-Adobe Advertisingのコンバージョントラッキングの場合は、値を入力する必要はありません。 キャンペーンレベルの値で十分です。
+Adobe Advertisingのコンバージョントラッキングでは、値を入力する必要はありません。 キャンペーンレベルの価値だけで十分です。
 
 サードパーティのリダイレクトとトラッキングの場合は、値を入力します。
 
-**[!UICONTROL Initial Bid]:** 各広告の初期入札額。
+**[!UICONTROL Initial Bid]:**&#x200B;各広告の初回入札。
 
 ## [!UICONTROL Feed Filters]
 
@@ -164,8 +168,8 @@ Adobe Advertisingのコンバージョントラッキングの場合は、値を
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 在庫フィードを使用した広告管理の自動化について &#x200B;](../inventory-feeds-about.md)
->* [&#x200B; 修飾子の管理 &#x200B;](../modifiers-manage.md)
->* [&#x200B; 在庫データフィードファイルの管理 &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
->* [&#x200B; テンプレートを使用したフィードデータの伝播 &#x200B;](../feed-data-propagate.md)
->* [&#x200B; 在庫フィードから広告ネットワークへのキャンペーンデータの投稿 &#x200B;](../propagated-data-post.md)
+>* [在庫フィードを使用した広告管理の自動化について](../inventory-feeds-about.md)
+>* [修飾子の管理](../modifiers-manage.md)
+>* [在庫データフィードファイルの管理](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
+>* [ テンプレートを通じてフィード データを伝達](../feed-data-propagate.md)
+>* [在庫フィードのキャンペーンデータを広告ネットワークに投稿](../propagated-data-post.md)

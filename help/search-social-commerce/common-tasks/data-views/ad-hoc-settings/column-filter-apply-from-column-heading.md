@@ -1,11 +1,14 @@
 ---
 title: 列見出しメニューからのデータフィルターの適用
-description: 列見出しメニューのからページデータをフィルタリングする方法を説明します。
+description: 列見出しメニューからページデータをフィルタリングする方法を説明します。
 exl-id: 508f254a-d859-4155-9bbd-84e0442f01d5
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
+TQID: https://experienceleague.adobe.com/8HhbDC38BA48vw3c8fqCEaCKNUWs3q2HwCEiDfieWUM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: 221
 ht-degree: 0%
 
 ---
@@ -16,25 +19,25 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
-1 つの列に必要な数だけフィルターを適用できます。<!-- True only for entity names, I think: All filters are joined using the AND operator. --> 使用可能なすべての指標を使用して一度に複数のフィルターを追加するには、「[&#x200B; ツールバーからのデータフィルターの適用 &#x200B;](column-filter-apply-from-toolbar.md) を参照してください。
+1つの列に対して1つずつ、必要な数のフィルターを適用できます。<!-- True only for entity names, I think: All filters are joined using the AND operator. -->使用可能なすべての指標を使用して一度に複数のフィルターを追加するには、「[ ツールバーからデータフィルターを適用](column-filter-apply-from-toolbar.md)」を参照してください。
 
-1. 列見出しの右側にある ![&#x200B; 下向き矢印 &#x200B;](/help/search-social-commerce/assets/arrow-down-dropdown.png " 下向き矢印 ") をクリックし、[**[!UICONTROL Add Filter]**] をクリックします。
+1. 列見出しの右側で、![下向き矢印](/help/search-social-commerce/assets/arrow-down-dropdown.png "下向き矢印")をクリックし、**[!UICONTROL Add Filter]**&#x200B;をクリックします。
 
-1. 列のフィルターを定義：
+1. 列にフィルターを定義します。
 
-   * （入力フィールドを含まないフィルター）含める各値の横にあるチェックボックスをオンにして、「![&#x200B; フィルターを更新 &#x200B;](/help/search-social-commerce/assets/select.png " 追加 ")」をクリックします。
+   * （入力フィールドのないフィルター）含める各値の横にあるチェックボックスを選択し、![ フィルターを更新](/help/search-social-commerce/assets/select.png "追加")をクリックします。
 
-   * （入力フィールド付きのフィルター） 2 番目のメニューから演算子を選択し、適切な値を入力して、「![&#x200B; フィルターを更新 &#x200B;](/help/search-social-commerce/assets/select.png " 追加 ")」をクリックします。
+   * （入力フィールドを含むフィルター） 2番目のメニューから演算子を選択し、該当する値を入力して、![ フィルターを更新](/help/search-social-commerce/assets/select.png "追加")をクリックします。
 
-     例えば、「[!UICONTROL Clicks]」列を選択して、100 回を超えるクリックがある行のみを返す場合は、「*[!UICONTROL greater than]*」を選択し、入力フィールドに「`100`」と入力します。データ型に応じて、使用可能な演算子には *[!UICONTROL greater than]*、*[!UICONTROL less than]*、*[!UICONTROL equals]*、*[!UICONTROL contains]*、*[!UICONTROL doesn't contain]*、*[!UICONTROL starts with]*、*[!UICONTROL ends with]*、*[!UICONTROL no value]*、*[!UICONTROL has value]*、*[!UICONTROL before]*、*[!UICONTROL after]* または *[!UICONTROL no date]が含まれます。*
+     例えば、「[!UICONTROL Clicks]」列を選択し、100 クリックを超える行のみを返す場合は、「*[!UICONTROL greater than]*」を選択して入力フィールドに「`100`」と入力します。データタイプによっては、使用可能な演算子に&#x200B;*[!UICONTROL greater than]*、*[!UICONTROL less than]*、*[!UICONTROL equals]*、*[!UICONTROL contains]*、*[!UICONTROL doesn't contain]*、*[!UICONTROL starts with]*、*[!UICONTROL ends with]*、*[!UICONTROL no value]*、*[!UICONTROL has value]*、*[!UICONTROL before]*、*[!UICONTROL after]*&#x200B;が含まれる場合があります。*[!UICONTROL no date]*
 
      >[!NOTE]
      >
-     >* テキスト値では、大文字と小文字が区別されません。 例えば、名前に「loan」が含まれるキャンペーンでフィルタリングした場合、結果には「Consumer Loans」と「loan applications」が含まれます。
-     >* 単純な数値フィルター（[!UICONTROL Impressions] \> 100 など）は、1 列につき 1 つだけ適用できます。
+     >* テキスト値では大文字と小文字は区別されません。 例えば、名前に「ローン」が付いたキャンペーンでフィルタリングすると、「消費者ローン」と「ローン申請」が結果に含まれます。
+     >* 1つの列に適用できる単純な数値フィルター（[!UICONTROL Impressions] \> 100など）は1つだけです。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ツールバーからのデータフィルターの適用 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
->* [&#x200B; 列フィルターを編集 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
->* [ 列フィルターの削除 ] （/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/
+>* [ ツールバーからデータフィルターを適用](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [列フィルターの編集](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
+>* [列フィルターを削除] （/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/

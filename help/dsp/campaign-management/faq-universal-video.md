@@ -3,16 +3,22 @@ title: ユニバーサルビデオに関するFAQ
 description: ユニバーサル動画広告について詳しく見る。
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+TQID: https://experienceleague.adobe.com/LAzSivup-EVuDgtWN1T58lfRjzgrchIiFF9-lMJAVlw
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: 348
 ht-degree: 0%
 
 ---
 
 # ユニバーサルビデオに関するFAQ
 
-[&#x200B; ユニバーサル動画広告](/help/dsp/campaign-management/ads/ad-about.md#ad-types)を使用すると、VPAIDおよびVASTの広告枠に対応したデスクトップ、モバイル、コネクテッド TV環境の動画広告枠を1つの動画枠でターゲットにすることができます。
+[ ユニバーサル動画広告](/help/dsp/campaign-management/ads/ad-about.md#ad-types)を使用すると、VPAIDおよびVASTの広告枠に対応したデスクトップ、モバイル、コネクテッド TV環境の動画広告枠を1つの動画枠でターゲットにすることができます。
 
 ## ユニバーサル動画のプレースメントと広告はどのように作成するのですか？
 
@@ -20,7 +26,7 @@ ht-degree: 0%
 
 他の種類のプレースメントやビデオの作成方法と同様に、ユニバーサルビデオのプレースメントと広告を作成します。
 
-1. 目的のキャンペーン内で、[&#x200B; ユニバーサルビデオ配置](/help/dsp/campaign-management/placements/placement-create.md)を作成し、[!UICONTROL Placement Type] **[!UICONTROL Universal Video]**&#x200B;を選択します。
+1. 目的のキャンペーン内で、[ ユニバーサルビデオ配置](/help/dsp/campaign-management/placements/placement-create.md)を作成し、[!UICONTROL Placement Type] **[!UICONTROL Universal Video]**&#x200B;を選択します。
 
    ターゲットに少なくとも1つの環境（デスクトップ、モバイル、コネクテッド TV）を指定する必要があります。
 
@@ -38,7 +44,7 @@ ht-degree: 0%
    * **[!UICONTROL VPAID & VAST (Default)]:** ビューアビリティの測定を許可しないインベントリが含まれています。
    * **[!UICONTROL VAST]** – 接続されたテレビ インベントリに適しています。
 
-   詳しくは、「[&#x200B; ユニバーサルビデオ広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)」を参照してください。
+   詳しくは、「[ ユニバーサルビデオ広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)」を参照してください。
 
 1. [新しいユニバーサル ビデオ広告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)をユニバーサル ビデオ プレースメントに添付します。
 

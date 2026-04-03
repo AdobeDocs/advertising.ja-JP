@@ -1,32 +1,36 @@
 ---
-title: （新しい UI）目標の削除
-description: 目標を削除する方法を説明します。
+title: （新しいUI）目的の削除
+description: 目的を削除する方法を説明します。
 feature: Search Objectives, Search Optimization
-hide: true
+hide: yes
 exl-id: 27dfe063-3b62-41b9-bc09-a069cfd7dc59
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+TQID: https://experienceleague.adobe.com/Ap23cJYi6AB5nbrQV-lAB5W-EP3mkinmi3lH-6kZVGk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: 73
 ht-degree: 0%
 
 ---
 
-# （新しい UI）目標の削除
+# （新しいUI）目的の削除
 
 *Beta機能*
 
 ポートフォリオに割り当てられていない目標を削除できます。
 
-1. メインメニューで、**[!UICONTROL Goals]/[!UICONTROL Objectives]** をクリックします。
+1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;をクリックします。
 
-1. 目的の横にあるチェックボックスをオンにします。 データ テーブルの上にあるツールバーで、[![&#x200B; 削除 &#x200B;](/help/search-social-commerce/assets/delete-new.png " 削除 ")] をクリック **[!UICONTROL Delete]** ます。
+1. 目的の横にあるチェックボックスをオンにします。 データテーブルの上にあるツールバーで、![削除](/help/search-social-commerce/assets/delete-new.png "削除") **[!UICONTROL Delete]**&#x200B;をクリックします。
 
-1. 確認メッセージで、「**[!UICONTROL Confirm]**」をクリックします。
+1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 目標について &#x200B;](objective-about.md)
->* [&#x200B; 目標の作成 &#x200B;](objective-create.md)
->* [&#x200B; 目標の編集 &#x200B;](objective-edit.md)
->* [&#x200B; 目標への重み付けレコメンデーションの適用 &#x200B;](objective-apply-weight-recommendations.md)
->* [&#x200B; 目標の設定 &#x200B;](objective-settings.md)
+>* [目標について](objective-about.md)
+>* [目標を作成](objective-create.md)
+>* [目標を編集](objective-edit.md)
+>* [目標に重み付けの推奨事項を適用](objective-apply-weight-recommendations.md)
+>* [目標の設定](objective-settings.md)

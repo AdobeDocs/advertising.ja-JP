@@ -1,43 +1,47 @@
 ---
-title: '[!DNL Microsoft Advertising] キャンペーンの設定'
-description: キャンペーンの設定  [!DNL Microsoft Advertising]  参照します。
+title: '[!DNL Microsoft Advertising] キャンペーン設定'
+description: ' [!DNL Microsoft Advertising]  キャンペーンの設定を参照します。'
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+TQID: https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: 2075
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] キャンペーンの設定
+# [!DNL Microsoft Advertising] キャンペーン設定
 
 ## \[ キャンペーン作成画面\]
 
-**[!UICONTROL Campaign Type]:** （キャンペーンの作成時にのみ使用可能）広告の配置場所と広告タイプ
-キャンペーンには、次の内容が含まれる場合があります。
+**[!UICONTROL Campaign Type]:** （キャンペーン作成時のみ利用可能）広告を配置する場所、および広告の種類
+キャンペーンには、次の要素が含まれます。
 
-* *[!UICONTROL Search]:* 検索ネットワークのテキスト広告を表示します。
+* *[!UICONTROL Search]:*&#x200B;検索ネットワークにテキスト広告を表示します。
 
-* *[!UICONTROL Shopping Network]:* 商品カタログ内の商品に関する商品広告をショッピングネットワーク上に表示 [!DNL Microsoft Merchant Center] ます。
+* *[!UICONTROL Shopping Network]:*&#x200B;は、お客様の[!DNL Microsoft Merchant Center]製品カタログ内の製品に関する製品広告をショッピング ネットワークに表示します。
 
-* *[!UICONTROL Audience]:* [!DNL Microsoft Audience Network] のネイティブ/ディスプレイ広告を表示します。 a） キャンペーンを「[!UICONTROL Shopping Settings]」セクションのマーチャントセンターストアにリンクして、フィードベースの広告を自動的に生成するか、b） テキストアセットとアップロードされた画像を使用してレスポンシブ広告を作成できます。 どちらのオプションでも、ユーザーターゲティングを使用して広告グループを作成する必要があります。
+* *[!UICONTROL Audience]:* [!DNL Microsoft Audience Network]にネイティブ/ディスプレイ広告を表示します。 a） [!UICONTROL Shopping Settings] セクションのマーチャント センターのストアにキャンペーンをリンクして、フィード ベースの広告を自動的に生成するか、b） テキストアセットとアップロードされた画像を含むレスポンシブ広告を作成できます。 どちらのオプションでも、ユーザーターゲティングを使用して広告グループを作成する必要があります。
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* 検索およびオーディエンスネットワークをまたいでリンクされた小売業者を通じて、製品を宣伝します。 子の広告グループと製品グループ（昇格させるアプリ）、およびキャンペーンのオプションの製品広告を作成できます。[!DNL Microsoft Advertising] の場合は、製品グループの広告が自動的に作成されます。 ブランドのショッピングキャンペーンの場合は入札戦略 [!UICONTROL Manual CPC] を、ブランドのショッピングプロモーションの場合は入札戦略 [!UICONTROL Cost per Sale] を使用します。
+* *[!UICONTROL Shopping Campaigns for Brands]:*&#x200B;は、検索およびオーディエンスネットワークを通じて、リンクされた小売業者を通じて製品を宣伝します。 子の広告グループと製品グループ（プロモーションするアプリ）を作成し、キャンペーンのオプションの製品広告を作成できます。[!DNL Microsoft Advertising]は製品グループの広告を自動的に作成します。 ブランドのショッピング キャンペーンの場合は、入札戦略[!UICONTROL Manual CPC]を使用します。ブランドのショッピング プロモーションの場合は、入札戦略[!UICONTROL Cost per Sale]を使用します。
 
-* *[!UICONTROL Microsoft Store Ads Campaign]:* [!DNL Microsoft Store] で利用できるアプリやゲームを昇格します。 キャンペーンの子広告グループ、製品グループおよびオプションの製品広告を作成できます。[!DNL Microsoft Advertising] では、製品グループの広告が自動的に作成されます。
+* *[!UICONTROL Microsoft Store Ads Campaign]:*&#x200B;は、[!DNL Microsoft Store]で利用可能なアプリとゲームを宣伝します。 キャンペーンの子広告グループ、製品グループ、およびオプションの製品広告を作成できます。[!DNL Microsoft Advertising]は製品グループの広告を自動的に作成します。
 
-* *[!UICONTROL Audience CTV Video]:* 視聴者ネットワーク上の接続されたテレビ （CTV） ビデオ広告を表示します。
+* *[!UICONTROL Audience CTV Video]:* オーディエンスネットワーク上のコネクテッド TV （CTV） ビデオ広告を表示します。
 
-* *[!UICONTROL Audience Video]:* オーディエンスネットワーク上の標準ビデオ広告を表示します。
+* *[!UICONTROL Audience Video]:* オーディエンスネットワーク上に標準ビデオ広告を表示します。
 
-* *[!UICONTROL Performance Max]:* スマート入札を使用して、すべてのネットワークにわたる複数の広告タイプ [!DNL Microsoft Advertising] 表示します。 キャンペーンの設定内で、1 つ以上のアセットグループ（画像、ロゴ、ヘッドライン、説明、オプションのcall to action、オーディエンスシグナルを含む）を指定する必要があります。 広告ネットワークは、アセットを自動的に組み合わせて、チャネルに基づいて広告を提供します。
+* *[!UICONTROL Performance Max]:* [!DNL Microsoft Advertising] スマート入札を使用して、すべてのネットワークで複数の広告タイプを表示します。 キャンペーン設定では、画像、ロゴ、見出し、説明、オプションのcall to action、オーディエンスシグナルなど、1つ以上のアセットグループを指定する必要があります。 広告ネットワークは、アセットを自動的に組み合わせて、チャネルにもとづいて広告を配信します。
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** アカウント内で一意のキャンペーン名。 最大長は 128 文字です。
+**[!UICONTROL Campaign Name]:** アカウント内で一意のキャンペーン名。 最大長は128文字です。
 
-**[!UICONTROL Status]:** キャンペーンの表示ステータス：*アクティブ* または *一時停止*。 新しい広告キャンペーンのデフォルトは *アクティブ* です。
+**[!UICONTROL Status]:** キャンペーンの表示ステータス：*アクティブ*&#x200B;または&#x200B;*一時停止*。 新規広告キャンペーンのデフォルトは&#x200B;*アクティブ*&#x200B;です。
 
 <!-- **[!UICONTROL Start Date]:** -->
 
@@ -47,7 +51,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/end-date.md}}
 
-**[!UICONTROL Contains EU Political Ads]:** （欧州連合（EU）でオーディエンスを対象とするキャンペーンに適用） EU 規則 2024/90 に基づく欧州連合（EU）で提供される広告の要件に従った政治広告がキャンペーンに含まれるかどうか：*[!UICONTROL Yes]* または *[!UICONTROL No]*。
+**[!UICONTROL Contains EU Political Ads]:** （欧州連合（EU）のオーディエンスをターゲットとするキャンペーンに適用）キャンペーンに、EU規則2024/90に基づいて欧州連合で配信される広告の要件に従った政治的広告が含まれているかどうか：*[!UICONTROL Yes]*&#x200B;または&#x200B;*[!UICONTROL No]*。
 
 ## [!UICONTROL Budget Options]
 
@@ -61,50 +65,50 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** キャンペーンの入札戦略：
 
-* *[!UICONTROL Cost per Sale]:* （ショッピングキャンペーンのみ）検索、ソーシャル、Commerceを除く広告ネットワークは、[!UICONTROL Target CPS] （セールあたりのコスト）に基づいて入札を最適化します。 お支払いは、商品の広告をクリックした結果、24 時間以内にセールが成立した場合に限ります。 **メモ：** この入札戦略のキャンペーンをポートフォリオに含めないでください。 この入札戦略を使用するキャンペーンでは、検索、ソーシャル、Commerceの最適化は利用できません。
+* *[!UICONTROL Cost per Sale]:* （ショッピング キャンペーンのみ）検索、ソーシャル、Commerceではなく、広告ネットワークが[!UICONTROL Target CPS] （販売単価）に基づいて入札を最適化します。 料金は、商品広告をクリックするだけで24時間以内に販売が成立した場合にのみ支払われます。 **注：** ポートフォリオにこの入札戦略を含むキャンペーンを含めないでください。 Search, Social, &amp; Commerce optimizationは、この入札戦略を持つキャンペーンでは使用できません。
 
-  この入札戦略を使用してブランドのショッピングキャンペーンを保存すると、入札戦略を変更できなくなります。 他のショッピングキャンペーンタイプの場合、この戦略は新規キャンペーンでのみ使用できます。
+  この入札戦略を使用してブランドのショッピング キャンペーンを保存すると、入札戦略を変更することはできません。 その他のショッピングキャンペーンの種類については、この戦略は新しいキャンペーンでのみ使用できます。
 
-* *[!UICONTROL CPV]* （オーディエンス CTV ビデオキャンペーンのみ） ビューあたりのコスト（CPV） モデルを使用します。 検索、ソーシャル、Commerceでは、ポートフォリオに含まれているこの入札戦略を使用したキャンペーンの最適化は提供されません。
+* *[!UICONTROL CPV]* （Audience CTV ビデオ キャンペーンのみ）は、CPV モデルを使用します。 Search, Social, &amp; Commerceでは、ポートフォリオに含まれる入札戦略に基づいてキャンペーンを最適化できません。
 
-* *[!UICONTROL Enhanced CPC]:* （オーディエンス、検索、ショッピングネットワークのキャンペーン）広告ネットワークの拡張コストパークリック（eCPC）モデルを使用します。これにより、広告ネットワークは各オークションのコストパークリック（CPC）入札を自動的に変更し、コンバージョンを最大化しながら、広告ネットワーク内（検索、ソーシャル、Commerceではない）で指定されたコンバージョンを使用して、平均 CPC を最大 CPC 未満に保つことができます。
+* *[!UICONTROL Enhanced CPC]:* （オーディエンス、検索、ショッピング ネットワーク上のキャンペーン）広告ネットワークの強化されたクリック単価（eCPC）モデルを使用しています。これにより、広告ネットワークは、平均CPCを最大CPC未満に保ちながら、広告ネットワーク内で指定されたコンバージョンを使用して、コンバージョンを最大化しようとしながら、各オークションのクリック単価（CPC）入札を自動的に変更できます。
 
-  eCPC を使用してキャンペーンを最適化された検索、ソーシャル、Commerceの各ポートフォリオに追加すると、検索、ソーシャル、Commerceによってベース入札が最適化され、「[!UICONTROL Auto adjust campaign budget limits]」オプションが有効になっている場合はキャンペーン予算が最適化されます。 アドネットワークは、すべての入札調整を最適化し、独自のデータとインサイトに基づいて、ユーザークエリ時に検索、ソーシャル、Commerceで生成された入札を変更する可能性があります。 **注意：** ポートフォリオで eCPC キャンペーンを使用するのは、広告ネットワークで追跡されるコンバージョンの合計がポートフォリオの目的と一致する場合のみです。
+  eCPCを使用したキャンペーンを最適化されたSearch, Social, &amp; Commerce ポートフォリオに追加すると、Search, Social, &amp; Commerceは基本入札を最適化し、「[!UICONTROL Auto adjust campaign budget limits]」オプションが有効になっている場合はキャンペーンの予算を最適化します。 広告ネットワークは、すべての入札調整を最適化し、独自のデータとインサイトに基づいて、ユーザークエリの時点でSearch、Social、Commerce生成の入札を変更する可能性があります。 **注意：** ポートフォリオでeCPC キャンペーンを使用するのは、広告ネットワークで追跡されたコンバージョンの合計数がポートフォリオ目標に一致する場合のみです。
 
-* *[!UICONTROL Manual CPC]*: （ブランド向けのショッピングキャンペーン、[!DNL Microsoft Store Ads] キャンペーン、その他のキャンペーンタイプでは非推奨）クリック単価（CPC）モデルを使用します。 一部の広告タイプでは、オプションで、広告ネットワークにキャンペーンの入札の変更を許可できます。
+* *[!UICONTROL Manual CPC]*: （ブランドのショッピング キャンペーン；[!DNL Microsoft Store Ads] キャンペーン。他のキャンペーンタイプでは非推奨）クリック単価（CPC）モデルを使用します。 一部の広告タイプでは、オプションで広告ネットワークがキャンペーンの入札額を変更できるようにすることができます。
 
    * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）：このオプションは、「[!UICONTROL Enhanced CPC]」オプションを使用する場合と同じです。
 
-* *[!UICONTROL Manual CPA]:* （[!DNL Microsoft Store Ads] キャンペーン）獲得あたりのコスト（CPA） モデルを使用します。
+* *[!UICONTROL Manual CPA]:* （[!DNL Microsoft Store Ads] キャンペーン）は、CPA （顧客獲得単価）モデルを使用します。
 
-* *[!UICONTROL Manual CPM]* （オーディエンスキャンペーンおよびオーディエンスビデオキャンペーンのみ） 1,000 回の視聴インプレッションごとに使用する費用を指定する、1,000 回のインプレッションあたりのコスト（CPM） モデルを使用します。 この入札戦略を使用したキャンペーンは、ポートフォリオに含まれている場合、最適化されません。
+* *[!UICONTROL Manual CPM]* （オーディエンスキャンペーンとオーディエンスビデオキャンペーンのみ）は、1,000回のインプレッションあたりの費用を指定する数千インプレッション単価（CPM）モデルを使用します。 この入札戦略を採用したキャンペーンは、ポートフォリオに含まれると最適化されません。
 
-* *[!UICONTROL Maximize Clicks]:* （検索およびショッピングキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、クリック数を最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Max CPC]** （クリック単価）を入力し、広告ネットワークがクリックごとに特定の金額以上を支払わないようにします。 **注意：** この戦略を使用してキャンペーンをポートフォリオに追加すると、クリックの重み（ポートフォリオ目標ではありません）が入札を促進します。
+* *[!UICONTROL Maximize Clicks]:* （検索およびショッピング キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが入札を最適化してクリック数を最大化します。 オプションで&#x200B;**[!UICONTROL Max CPC]** （クリック単価）を入力して、広告ネットワークがクリックごとに特定の金額を超えて支払わないようにします。 **注意：**&#x200B;この戦略を含むキャンペーンをポートフォリオに追加すると、クリックの重み（ポートフォリオの目標ではない）が入札を促進します。
 
-* *[!UICONTROL Maximize Conversion Value]:* （検索およびショッピング/スマートショッピングネットワーク、パフォーマンス最大化キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、コンバージョン値を最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Target Return on Ad Spend]** （ROAS）をパーセントで入力します。 **メモ：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceが Target ROAS を最適化します。
+* *[!UICONTROL Maximize Conversion Value]:* （検索とショッピング/スマートショッピングのネットワーク、パフォーマンスの最大キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが入札を最適化してコンバージョンの価値を最大化します。 オプションで&#x200B;**[!UICONTROL Target Return on Ad Spend]** （ROAS）をパーセントとして入力します。 **注：** ハイブリッドポートフォリオのキャンペーンには、このオプションを使用しますが、標準ポートフォリオには使用しません。 ハイブリッド型ポートフォリオでは、Search, Social, &amp; CommerceがTarget ROASを最適化します。
 
-* *[!UICONTROL Maximize Conversions]:* （検索ネットワークまたはオーディエンスネットワーク（オーディエンスビデオまたは接続された TV を除く）上の Performance MAX のキャンペーンおよびキャンペーン）広告ネットワーク（検索、ソーシャル、Commerceを除く）は、コンバージョンを最大化するように入札を最適化します。 必要に応じて、**[!UICONTROL Target CPC]** （クリック単価）を入力します。 オーディエンスキャンペーンの場合は、オプションで **[!UICONTROL Target CPA]** （獲得あたりのコスト）を入力することもできます。 **メモ：** このオプションは、ハイブリッドポートフォリオのキャンペーンに使用しますが、標準ポートフォリオでは使用しません。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceが Target CPA を最適化します。
+* *[!UICONTROL Maximize Conversions]:* （検索ネットワークまたはオーディエンスネットワーク上のPerformance max キャンペーンおよびキャンペーン （オーディエンスビデオまたはコネクテッド TVは除く））検索、ソーシャル、およびCommerceではなく、広告ネットワークが入札を最適化してコンバージョンを最大化します。 オプションで&#x200B;**[!UICONTROL Target CPC]** （クリック単価）を入力します。 オーディエンスキャンペーンの場合は、オプションの&#x200B;**[!UICONTROL Target CPA]** （獲得単価）を入力することもできます。 **注：** ハイブリッドポートフォリオのキャンペーンには、このオプションを使用しますが、標準ポートフォリオには使用しません。 Search, Social, &amp; Commerceのハイブリッドポートフォリオでは、Target CPAが最適化されています。
 
-* *[!UICONTROL Target CPA]:* （検索ネットワーク上のキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークは、オプションの **[!UICONTROL Target CPA]** （獲得あたりのコスト）に基づいて入札を最適化します。これは、獲得（コンバージョン）に対して支払う 30 日間の平均金額です。 **メモ：** このオプションは、[!UICONTROL Weekly] または [!UICONTROL Google Target CPA] を除く任意の支出戦略を持つハイブリッドポートフォリオ（ただし、標準ポートフォリオは除く）のキャンペーンに使用します。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceが Target CPA を最適化します。
+* *[!UICONTROL Target CPA]:* （検索ネットワーク上のキャンペーン） Search, Social, &amp; Commerceではなく、広告ネットワークは、オプションの&#x200B;**[!UICONTROL Target CPA]** （顧客獲得単価）に基づいて入札を最適化します。これは、顧客獲得（コンバージョン）に対して支払う30日間の平均金額です。 **注：**&#x200B;このオプションは、[!UICONTROL Weekly]または[!UICONTROL Google Target CPA]を除く任意の支出戦略を持つハイブリッドポートフォリオ（標準ポートフォリオではない）のキャンペーンに使用します。 Search, Social, &amp; Commerceのハイブリッドポートフォリオでは、Target CPAが最適化されています。
 
-  この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データは利用できません。
+  平均順位とCPC入札データは、この入札戦略を持つキャンペーンでは利用できません。
 
-* *[!UICONTROL Target Impression Share]:* （検索ネットワーク上のキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、目標インプレッションシェアと広告掲載順位を達成するように入札を最適化します。 必要に応じて、**[!UICONTROL Target Impression Share]** をパーセント、**[!UICONTROL Target Ad Position]** および **[!UICONTROL Max CPC]** （クリック単価）で入力します。 **メモ：** このオプションは、ハイブリッドポートフォリオではサポートされていません。
+* *[!UICONTROL Target Impression Share]:* （検索ネットワーク上のキャンペーン） Search, Social, &amp; Commerceではなく、広告ネットワークが入札を最適化して、ターゲットのインプレッションのシェアと広告ポジションを達成します。 オプションで、**[!UICONTROL Target Impression Share]**&#x200B;をパーセント、**[!UICONTROL Target Ad Position]**&#x200B;および&#x200B;**[!UICONTROL Max CPC]** （クリック単価）として入力します。 **注：**&#x200B;このオプションは、ハイブリッドポートフォリオではサポートされていません。
 
-* *[!UICONTROL Target Return on Ad Spend]:* （検索およびショッピングネットワーク上のキャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが、パーセン **[!UICONTROL Target ROAS]** ー（広告費用対効果）に基づいて入札を最適化します（割合で指定）。 必要に応じて、**[!UICONTROL Max CPC]** （クリック単価）を入力し、広告ネットワークがクリックごとに特定の金額以上を支払わないようにします。 **メモ：** このオプションは、[!UICONTROL Weekly] または [!UICONTROL Google Target ROAS] を除く任意の支出戦略を持つハイブリッドポートフォリオ（ただし、標準ポートフォリオは除く）のキャンペーンに使用します。 ハイブリッドポートフォリオでは、検索、ソーシャルおよびCommerceが Target ROAS を最適化します。
+* *[!UICONTROL Target Return on Ad Spend]:* （検索およびショッピング ネットワークのキャンペーン） Search, Social, &amp; Commerceではなく、広告ネットワークは、割合で指定された&#x200B;**[!UICONTROL Target ROAS]** （広告費用対効果）に基づいて入札を最適化します。 オプションで&#x200B;**[!UICONTROL Max CPC]** （クリック単価）を入力して、広告ネットワークがクリックごとに特定の金額を超えて支払わないようにします。 **注：**&#x200B;このオプションは、[!UICONTROL Weekly]または[!UICONTROL Google Target ROAS]を除く任意の支出戦略を持つハイブリッドポートフォリオ（標準ポートフォリオではない）のキャンペーンに使用します。 ハイブリッド型ポートフォリオでは、Search, Social, &amp; CommerceがTarget ROASを最適化します。
 
-  この入札戦略を使用するキャンペーンでは、平均順位と CPC 入札データは利用できません。
+  平均順位とCPC入札データは、この入札戦略を持つキャンペーンでは利用できません。
 
 ## [!UICONTROL Shopping Settings]
 
-**[!UICONTROL Sales Country]:** （ショッピングキャンペーンのみ。既存のキャンペーンの場合は読み取り専用）次の国
-キャンペーンの商品は販売されています。 製品はターゲット国に関連付けられているので、この設定によってキャンペーンで広告する製品が決まります。
+**[!UICONTROL Sales Country]:** （ショッピング キャンペーンのみ。既存のキャンペーンの読み取り専用）
+キャンペーンの商品が販売されています。 製品はターゲット国に関連付けられているため、この設定によって、キャンペーンで宣伝される製品が決まります。
 
 <!-- **[!UICONTROL Campaign Priority]:** -->
 
-**[!UICONTROL Link with Microsoft Merchant Center]:** （オーディエンスキャンペーンのみ。オプション）レスポンシブ広告ではなく、自動化されたフィードベース広告のために、キャンペーンを特定のマーチャントセンターストアにリンクします。 このオプションを選択する場合は、[!UICONTROL Merchant ID] と [!UICONTROL Products] を指定します。 キャンペーンの広告グループを作成する必要がありますが、広告を作成する必要はありません。
+**[!UICONTROL Link with Microsoft Merchant Center]:** （オーディエンスキャンペーンのみ。オプション）レスポンシブ広告ではなく、自動フィード ベースの広告用に、特定のマーチャント センターのストアにキャンペーンをリンクします。 このオプションを選択する場合は、[!UICONTROL Merchant ID]と[!UICONTROL Products]を指定します。 キャンペーン用に広告グループを作成する必要がありますが、広告を作成する必要はありません。
 
-キャンペーンをストアにリンクして設定を保存すると、このオプションを変更できなくなります。
+キャンペーンをストアにリンクして設定を保存すると、このオプションを変更することはできません。
 
 {{$include /help/_includes/campaign-priority.md}}
 
@@ -112,7 +116,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/merchant-id.md}}
 
-**[!UICONTROL Products]:** （マーチャントセンターストアにリンクされたオーディエンスキャンペーンのみ）広告する製品。 デフォルトでは、*[!UICONTROL All products]* が選択されています。 特定の属性を持つ製品のみをアドバタイズするには、「*[!UICONTROL Filter products]*」を選択し、製品をフィルタリングするための製品ディメンションと属性の組み合わせを最大 7 つ指定します。 製品に広告を表示するには、指定したすべての値が該当する必要があります。 例えば、Acme のペット用品の広告を表示するには、`Custom Label 1=animals`、`Category=pet supplies`、`Brand=Acme Pet Supplies` のフィルターを作成します。
+**[!UICONTROL Products]:** （マーチャント センターのストアにリンクされたオーディエンス キャンペーンのみ）広告する製品。 デフォルトでは、*[!UICONTROL All products]*&#x200B;が選択されています。 特定の属性を持つ製品のみを広告するには、*[!UICONTROL Filter products]*&#x200B;を選択し、製品をフィルタリングする製品ディメンションと属性の組み合わせを最大7つ指定します。 製品に広告を表示するには、指定したすべての値を適用する必要があります。 例えば、Acme ペット用品の広告を表示するには、フィルター`Custom Label 1=animals`、`Category=pet supplies`、`Brand=Acme Pet Supplies`を作成します。
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 
@@ -120,7 +124,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Targeting]
 
-**[!UICONTROL Languages]:** （Performance MAX キャンペーンのみ）広告の言語。広告が表示されるサイトの言語と一致する必要があります。 [!DNL Microsoft Advertising] は、ユーザーのクエリ、発行者の国、ユーザーの言語設定など、様々なシグナルからユーザーの言語を決定します。
+**[!UICONTROL Languages]:** （Performance max キャンペーンのみ）広告の言語。広告を表示できるサイトの言語と一致する必要があります。 [!DNL Microsoft Advertising]は、ユーザーのクエリ、発行者の国、ユーザーの言語設定など、様々なシグナルからユーザーの言語を決定します。
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -166,9 +170,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Negative Websites]
 
-**[!UICONTROL Negative Websites]:** （ディスプレイ/ネイティブネットワーク上のキャンペーンのみ。オプション）広告を表示しないディスプレイネットワーク上のサイト。 www.example.comのように、有効な URL を入力します。 複数の文字列を指定する場合は、コンマで区切るか、別の行に入力します。
+**[!UICONTROL Negative Websites]:** （ディスプレイ/ネイティブネットワーク上のキャンペーンのみ。オプション）広告を表示しないディスプレイネットワーク上のサイト。 www.example.comなどの有効なURLを入力します。 複数の文字列を指定するには、それらをコンマで区切るか、別々の行に入力します。
 
-公開について詳しくは、Microsoft Advertisingのヘルプで「[&#x200B; 特定の web サイトに広告が表示されないようにする &#x200B;](https://help.ads.microsoft.com/#apex/bae/en/14061/0) を参照してください。
+利用方法について詳しくは、「[特定のweb サイトに広告が表示されないようにする](https://help.ads.microsoft.com/#apex/bae/en/14061/0)」のMicrosoft Advertising ヘルプを参照してください。
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -196,119 +200,119 @@ ht-degree: 0%
 
 {{$include /help/_includes/tracking-level.md}}
 
-**[!UICONTROL Track Product Group]:** （[!UICONTROL EF Redirect] のみ）実装されていません
+**[!UICONTROL Track Product Group]:** （[!UICONTROL EF Redirect]のみ）実装されていません
 
 <!-- **[!UICONTROL Append Parameters]:** -->
 
 {{$include /help/_includes/append-parameters.md}}
 
-## [!UICONTROL Asset Groups] （アセットグループあたり）
+## [!UICONTROL Asset Groups] （アセットグループごと）
 
 **[!UICONTROL Asset Group Name]:** アセットフォルダー（アセットグループ）の名前。
 
-**[!UICONTROL Asset Group Status]:** アセットグループのステータス：*[!UICONTROL Active]* または *[!UICONTROL Paused]*。
+**[!UICONTROL Asset Group Status]:** アセットグループのステータス：*[!UICONTROL Active]*&#x200B;または&#x200B;*[!UICONTROL Paused]*。
 
-**[!UICONTROL Final URL]:** アセットグループから作成されたすべての広告の最終的な URL。
+**[!UICONTROL Final URL]:** アセットグループから作成されたすべての広告の最終URL。
 
-**[!UICONTROL Images]:** 少なくとも 1 つの正方形の画像と 1 つの風景の画像を含む、広告の最大 20 の画像。 [[!DNL Microsoft Advertising]  画像のガイドライン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60204/0) を参照してください。 画像は、アップロードすることも、[!UICONTROL Asset Library] ージから選択することもできます。ただし、同じ操作で両方を選択することはできません。
-
-* 画像をアップロードするには：
-
-   1. [[!UICONTROL Upload from Device]] タブで [**[!UICONTROL +]**] をクリックし、デバイスまたはネットワークからイメージを選択します。
-
-   1. 各画像に対して、次の手順を実行します。
-
-      1. アスペクト比を選択します。
-
-      1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能部分を選択します。また、可能な場合は、画像の表示可能部分のサイズを必要に応じて変更します。
-
-      1. （オプション）追加の縦横比を選択し、オプションで、選択した縦横比ごとに必要に応じて画像の位置とサイズを変更します。
-
-         選択した縦横比ごとに 1 つのアセットが作成されます。
-
-      1. 「**[!UICONTROL Proceed]**」をクリックします。
-
-   1. 画像の指定が終了したら、「**[!UICONTROL Upload]**」をクリックします。
-
-* [!UICONTROL Asset Library] ージから画像を選択するには、「**[!UICONTROL Asset Library]**」をクリックして画像を選択します。
-
-**[!UICONTROL Logos]:** 1 つ以上のロゴ。 最大 5 つを含めることができます。 [[!DNL Microsoft Advertising]  アセットガイドライン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60204/0) を参照してください。 画像は、アップロードすることも、[!UICONTROL Asset Library] ージから選択することもできます。ただし、同じ操作で両方を選択することはできません。
+**[!UICONTROL Images]:**&#x200B;少なくとも1つの正方形の画像と1つの横長の画像を含む、広告の最大20枚の画像。 [[!DNL Microsoft Advertising] 画像のガイドライン ](https://help.ads.microsoft.com/#apex/ads/en/60204/0)を参照してください。 画像をアップロードするか、[!UICONTROL Asset Library]から選択できますが、両方を同じ操作で選択することはできません。
 
 * 画像をアップロードするには：
 
-   1. [[!UICONTROL Upload from Device]] タブで [**[!UICONTROL +]**] をクリックし、デバイスまたはネットワークからイメージを選択します。
+   1. 「[!UICONTROL Upload from Device]」タブで「**[!UICONTROL +]**」をクリックし、デバイスまたはネットワークから画像を選択します。
 
-   1. 各画像に対して、次の手順を実行します。
+   1. 各画像について：
 
-      1. アスペクト比を選択します。
+      1. 縦横比を選択します。
 
-      1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能部分を選択します。また、可能な場合は、画像の表示可能部分のサイズを必要に応じて変更します。
+      1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能部分を選択し、可能な限り画像の表示可能部分のサイズを変更します。
 
       1. （オプション）追加の縦横比を選択し、オプションで、選択した縦横比ごとに必要に応じて画像の位置とサイズを変更します。
 
-         選択した縦横比ごとに 1 つのアセットが作成されます。
+         選択した縦横比ごとに1つのアセットが作成されます。
 
-      1. 「**[!UICONTROL Proceed]**」をクリックします。
+      1. **[!UICONTROL Proceed]**&#x200B;をクリックします。
 
-   1. 画像の指定が終了したら、「**[!UICONTROL Upload]**」をクリックします。
+   1. 画像の指定が完了したら、**[!UICONTROL Upload]**&#x200B;をクリックします。
 
-* [!UICONTROL Asset Library] ージから画像を選択するには、「**[!UICONTROL Asset Library]**」をクリックして画像を選択します。
+* [!UICONTROL Asset Library]から画像を選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックして画像を選択します。
 
-**[!UICONTROL Headlines]:** 少なくとも 3 つの最大 15 文字の短い見出し。各見出しは最大 30 文字です。 テキストを入力するか、[!UICONTROL Asset Library] ージからアセットを選択できますが、同じ操作で両方を選択することはできません。
+**[!UICONTROL Logos]:**&#x200B;少なくとも1つのロゴ。 5つまで含めることができます。 [[!DNL Microsoft Advertising]  アセットガイドライン ](https://help.ads.microsoft.com/#apex/ads/en/60204/0)を参照してください。 画像をアップロードするか、[!UICONTROL Asset Library]から選択できますが、両方を同じ操作で選択することはできません。
+
+* 画像をアップロードするには：
+
+   1. 「[!UICONTROL Upload from Device]」タブで「**[!UICONTROL +]**」をクリックし、デバイスまたはネットワークから画像を選択します。
+
+   1. 各画像について：
+
+      1. 縦横比を選択します。
+
+      1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能部分を選択し、可能な限り画像の表示可能部分のサイズを変更します。
+
+      1. （オプション）追加の縦横比を選択し、オプションで、選択した縦横比ごとに必要に応じて画像の位置とサイズを変更します。
+
+         選択した縦横比ごとに1つのアセットが作成されます。
+
+      1. **[!UICONTROL Proceed]**&#x200B;をクリックします。
+
+   1. 画像の指定が完了したら、**[!UICONTROL Upload]**&#x200B;をクリックします。
+
+* [!UICONTROL Asset Library]から画像を選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックして画像を選択します。
+
+**[!UICONTROL Headlines]:**&#x200B;少なくとも3つ、最大15個の短い見出し。各見出しは最大30文字です。 テキストを入力するか、[!UICONTROL Asset Library]からアセットを選択できますが、両方を同じ操作で選択することはできません。
 
 * テキストを入力するには：
 
    1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
 
-   1. （オプション）別のテキスト文字列を追加するには、「**[!UICONTROL + Add]**」をクリックして文字列を入力します。
+   1. （オプション）別のテキスト文字列を追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、文字列を入力します。
 
-* [!UICONTROL Asset Library] ージからアセットを選択するには、「選 **[!UICONTROL Asset Library]**」をクリックしてアセットを選択します。
+* [!UICONTROL Asset Library]からアセットを選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックしてアセットを選択します。
 
-**[!UICONTROL Long Headlines]:** 少なくとも 1 つ、最大 5 つの長い見出し（それぞれ最大 90 文字）。 テキストを入力するか、[!UICONTROL Asset Library] ージからアセットを選択できますが、同じ操作で両方を選択することはできません。
-
-* テキストを入力するには：
-
-   1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
-
-   1. （オプション）別のテキスト文字列を追加するには、「**[!UICONTROL + Add]**」をクリックして文字列を入力します。
-
-* [!UICONTROL Asset Library] ージからアセットを選択するには、「選 **[!UICONTROL Asset Library]**」をクリックしてアセットを選択します。
-
-**[!UICONTROL Descriptions]:** 少なくとも 2 つ、最大 5 つの説明（それぞれ最大 90 文字）。 テキストを入力するか、[!UICONTROL Asset Library] ージからアセットを選択できますが、同じ操作で両方を選択することはできません。
+**[!UICONTROL Long Headlines]:**&#x200B;少なくとも1つ、最大5つの長い見出し（各90文字まで）。 テキストを入力するか、[!UICONTROL Asset Library]からアセットを選択できますが、両方を同じ操作で選択することはできません。
 
 * テキストを入力するには：
 
    1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
 
-   1. （オプション）別のテキスト文字列を追加するには、「**[!UICONTROL + Add]**」をクリックして文字列を入力します。
+   1. （オプション）別のテキスト文字列を追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、文字列を入力します。
 
-* [!UICONTROL Asset Library] ージからアセットを選択するには、「選 **[!UICONTROL Asset Library]**」をクリックしてアセットを選択します。
+* [!UICONTROL Asset Library]からアセットを選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックしてアセットを選択します。
 
-**[!UICONTROL Call to Action]:** 広告に含めるcall to action。 デフォルトでは、*[!UICONTROL Act Now]* が選択されています。
+**[!UICONTROL Descriptions]:**&#x200B;少なくとも2文字、最大5文字の説明で、各文字は最大90文字です。 テキストを入力するか、[!UICONTROL Asset Library]からアセットを選択できますが、両方を同じ操作で選択することはできません。
 
-**[!UICONTROL Business Name]:** ビジネス名（最大 25 文字）。 スクリプト、HTML、またはその他のマークアップ言語を含めることはできません。
+* テキストを入力するには：
 
-**[!UICONTROL Audience Signal]:** （任意）キャンペーンのオーディエンスシグナルとして使用するオーディエンスを [!DNL Microsoft Advertising] 定します。 機械学習モデル [!DNL Microsoft Advertising]、オーディエンスを使用して、ターゲットとする類似の web サーファーを見つけます。また、パフォーマンス目標を達成するのに役立つシグナルとして指定されていないオーディエンスに広告を表示することもあります。 コンバージョンする可能性が最も高いオーディエンスを選択します。
+   1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
+
+   1. （オプション）別のテキスト文字列を追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、文字列を入力します。
+
+* [!UICONTROL Asset Library]からアセットを選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックしてアセットを選択します。
+
+**[!UICONTROL Call to Action]:**&#x200B;広告に含めるcall to action。 デフォルトでは、*[!UICONTROL Act Now]*&#x200B;が選択されています。
+
+**[!UICONTROL Business Name]:** ビジネス名（最大25文字）。 スクリプト、HTML、その他のマークアップ言語を含めることはできません。
+
+**[!UICONTROL Audience Signal]:** （オプション） キャンペーンのオーディエンスシグナルとして使用する[!DNL Microsoft Advertising] オーディエンス。 [!DNL Microsoft Advertising]個のマシンラーニング モデルは、オーディエンスを使用して、ターゲットとする類似のweb サーファーを見つけます。また、シグナルとして指定されていないオーディエンスに広告を表示して、パフォーマンス目標を達成するのに役立てることもできます。 コンバージョンに至る可能性が最も高いオーディエンスを特定：
 
 >[!NOTE]
->オーディエンスシグナルは、[&#x200B; 広告グループレベルのオーディエンスターゲット &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) とは異なります。
+>オーディエンスシグナルは、[広告グループレベルのオーディエンスターゲット ](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)とは異なります。
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 
 {{$include /help/_includes/display-path1-2.md}}
 
-**[!UICONTROL Add new asset group]:** 別のアセットグループを指定できます。
+**[!UICONTROL Add new asset group]:**&#x200B;別のアセットグループを指定できます。
 
 ## [!UICONTROL Conversion Goals]
 
-**[!UICONTROL Conversion Goal]:** *[!UICONTROL Use account conversion goals for this campaign]* （デフォルト）か *[!UICONTROL Use campaign specific conversion goals]*。 キャンペーンのコンバージョン目標を指定する場合は、使用可能なすべての目標のリストから目標を選択します。 **メモ：** 目標は毎日同期されるので、過去 24 時間に作成された目標はリストされない場合があります。 リストを更新するには、[&#x200B; 広告ネットワークデータを手動で同期 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/sync-network.md) します。
+**[!UICONTROL Conversion Goal]:** *[!UICONTROL Use account conversion goals for this campaign]* （既定値）か&#x200B;*[!UICONTROL Use campaign specific conversion goals]*&#x200B;かのどちらかです。 キャンペーンのコンバージョン目標を指定する場合は、使用可能なすべての目標のリストから目標を選択します。 **注：**&#x200B;目標は毎日同期されるため、過去24時間に作成された目標は一覧表示されない場合があります。 リストを更新するには、[広告ネットワークデータを手動で同期します](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)。
 
 >[!TIP]
 >
->キャンペーンがハイブリッドポートフォリオの一部である場合は、ポートフォリオの目的のコンバージョン目標に一致するキャンペーンレベルの目標を使用することがベストプラクティスです。追加のコンバージョン目標を含めると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
+>キャンペーンがハイブリッドポートフォリオの一部である場合、ベストプラクティスは、ポートフォリオの目的のコンバージョン目標に一致するキャンペーンレベルの目標を使用することです。追加のコンバージョン目標を含めると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
 >
-> ただし、ハイブリッドポートフォリオ内のキャンペーンで [&#x200B; 広告ネットワークに目標をアップロード &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md) する場合は、ここではなく、広告ネットワークのエディター内で次の操作を行います。a） アップロードした検索、ソーシャルおよびCommerceのポートフォリオ目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョン目標として追加し、b）広告ネットワーク追跡指標は広告ネットワークにアップロードされないので、[!DNL Microsoft Advertising] ユニバーサルイベントトラッキング（UET） タグでで追跡されるコンバージョンをを含める目標を追加します。
+> ただし、[目標を広告ネットワークにアップロード ](/help/search-social-commerce/tools/objective-upload-to-networks.md)するハイブリッドポートフォリオのキャンペーンの場合は、ここで設定する代わりに、広告ネットワークのエディター内で次の操作を行います。a）アップロードされたSearch, Social, &amp; Commerce ポートフォリオの目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョン目標として追加し、b）広告ネットワークにアップロードされた指標が広告ネットワークにアップロードされないので、[!DNL Microsoft Advertising] ユニバーサルイベントトラッキング（UET）タグが含されます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーンの管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [ キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)

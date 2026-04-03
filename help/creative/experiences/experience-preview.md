@@ -1,56 +1,60 @@
 ---
 title: エクスペリエンスのプレビュー
-description: 広告エクスペリエンスでクリエイティブをプレビューする方法を説明します。
+description: 広告エクスペリエンスでクリエイティブをプレビューする方法について説明します。
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: 554
 ht-degree: 0%
 
 ---
 
 # エクスペリエンスのプレビュー
 
-特定の広告サイズを持つクリエイティブを、ターゲットビューアに表示されるエクスペリエンス（すべてのハイパーリンクを含む）でプレビューできます。 デシジョンツリーのターゲット設定を使用したエクスペリエンスの場合は、1 つのクリエイティブ、特定のブランチ（ターゲットタイプ）のクリエイティブまたはエクスペリエンス内のすべてのクリエイティブをプレビューできます。 決定ツリーのターゲティングを持たないエクスペリエンスの場合は、1 つのクリエイティブをプレビューできます。<!-- verify -->
+すべてのハイパーリンクを含む、ターゲットビューアがエクスペリエンスに表示する特定の広告サイズのクリエイティブをプレビューできます。 決定木ターゲティングを使用するエクスペリエンスでは、単一のクリエイティブ、特定のブランチのクリエイティブ（ターゲットタイプ）、またはエクスペリエンス内のすべてのクリエイティブをプレビューできます。 決定木のターゲティングがないエクスペリエンスの場合は、1つのクリエイティブをプレビューできます。<!-- verify -->
 
 * エクスペリエンスまたは特定のブランチのすべてのクリエイティブをプレビューすると、該当するすべてのクリエイティブが表示されます。
 
-* 1 つのクリエイティブをプレビューし、条件に一致する複数のクリエイティブを表示すると、プレビューを更新するたびに表示されるクリエイティブは、エクスペリエンスの広告のローテーション設定に基づきます。
+* 1つのクリエイティブをプレビューし、複数のクリエイティブを条件に合わせてプレビューすると、プレビューを更新するたびに表示されるクリエイティブは、エクスペリエンスの広告ローテーション設定に基づきます。
 
-   * アルゴリズム広告のローテーションの場合、クリエイティブは最適化目標に基づいて選択されます。
+   * アルゴリズム広告のローテーションでは、最適化目標に基づいてクリエイティブが選択されます。
 
-   * スケジュールされた広告ローテーションの場合、スケジュールの最初のクリエイティブが表示されます。 プレビューを更新し続けると、シーケンスを続行できます。
+   * スケジュールされた広告ローテーションの場合、スケジュールの最初のクリエイティブが表示されます。 シーケンスを続行するには、プレビューの更新を続けることができます。
 
-   * 重み付けされた広告ローテーションの場合、クリエイティブは毎回指定された重み付け（Creative A が表示される 80% のチャンス、Creative B が表示される 20% のチャンスなど）に基づいて選択されます。
+   * 重み付けされた広告のローテーションでは、指定された重み（Creative Aが表示される可能性が80%、Creative Bが表示される可能性が20%など）に基づいてクリエイティブが選択されます。
 
-## 意思決定ツリーのターゲット設定を使用したエクスペリエンスでのクリエイティブのプレビュー
+## 決定木ターゲティングによるエクスペリエンス内のクリエイティブのプレビュー
 
-1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;をクリックします。
 
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
+1. （オプション） [特定のエクスペリエンスを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
 
 1. 次のいずれかの操作を行います。
 
-   * カード表示で、エクスペリエンス名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Preview]**」をクリックします。
+   * カード表示で、エクスペリエンス名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Preview]**&#x200B;をクリックします。
 
-   * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Preview]** をクリックします。
+   * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL More]**&#x200B;をクリックしてから、**[!UICONTROL Preview]**&#x200B;をクリックします。
 
 1. プレビューするクリエイティブを選択：
 
-   * 1 つのクリエイティブをプレビューするには：
+   * 単一のクリエイティブをプレビューするには：
 
-      1. 「**[!UICONTROL Creative]**」をクリックします。
+      1. **[!UICONTROL Creative]**&#x200B;をクリックします。
 
-      1. 広告サイズを選択します。
+      1. 広告のサイズを選択。
 
-      1. 「[!UICONTROL Decision Tree Targeting]」セクションで、クリエイティブターゲットを選択します。
+      1. 「[!UICONTROL Decision Tree Targeting]」セクションで、クリエイティブのターゲットを選択します。
 
    * 特定のブランチのクリエイティブをプレビューするには：
 
-      1. 「**[!UICONTROL Particular branch]**」をクリックします。
+      1. **[!UICONTROL Particular branch]**&#x200B;をクリックします。
 
-      1. 広告サイズを選択します。
+      1. 広告のサイズを選択。
 
      <!--
       I don't see this as of 2/3:
@@ -59,7 +63,7 @@ ht-degree: 0%
 
       1. クリエイティブターゲットを選択します。
 
-   * エクスペリエンス内のすべてのクリエイティブをプレビューするには、「**[!UICONTROL Entire Tree]**」をクリックします。
+   * エクスペリエンス内のすべてのクリエイターをプレビューするには、**[!UICONTROL Entire Tree]**&#x200B;をクリックします。
 
      <!--
       I don't see this as of 2/3:
@@ -68,47 +72,47 @@ ht-degree: 0%
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
-1. （オプション）クリエイティブの名前、クリエイティブのタイプとサイズ、ランディングページの URL またはクリック URL、各クリエイティブの下にある柔軟な属性を含めるには、「**[!UICONTROL Display Creative Metadata]**」を選択します。
+1. （オプション）クリエイティブの名前、クリエイティブのタイプとサイズ、ランディングページのURLまたはクリック URL、各クリエイティブの下の柔軟な属性を含めるには、**[!UICONTROL Display Creative Metadata]**&#x200B;を選択します。
 
-1. 「**[!UICONTROL Preview]**」をクリックします。
+1. **[!UICONTROL Preview]**&#x200B;をクリックします。
 
-1. （クリエイティブによるプレビューのみ。オプション）ツールバーの「**[!UICONTROL Refresh]**」をクリックし、広告の回転設定に従って、表示される可能性のある追加のクリエイティブをプレビューします。<!-- I don't see this as of 2/3 -->
+1. （クリエイティブによるプレビューのみ。オプション）ツールバーで、**[!UICONTROL Refresh]**&#x200B;をクリックして、広告のローテーション設定に従って、表示される可能性のある追加のクリエイティブをプレビューします。<!-- I don't see this as of 2/3 -->
 
-1. （任意）エクスペリエンスのデモ URL をコピーして、[!DNL Creative] へのログインなしで他のユーザーと共有するには、次のようにします。
+1. （オプション）エクスペリエンスのデモ URLをコピーして、ログインせずに他のユーザーと共有するには、[!DNL Creative]にアクセスします。
 
-   1. プレビューの右上にある「![&#x200B; 共有 &#x200B;](/help/creative/assets/share.png " 共有 ")」をクリックします。
+   1. プレビューの右上にある「![共有](/help/creative/assets/share.png "共有")」をクリックします。
 
-   1. [!UICONTROL Share Demo URL] ダイアログで、「**[!UICONTROL Copy]**」をクリックして URL をクリップボードにコピーし、他のユーザーと共有できるようにします。
+   1. [!UICONTROL Share Demo URL] ダイアログで、**[!UICONTROL Copy]**&#x200B;をクリックしてURLをクリップボードにコピーし、他のユーザーと共有できるようにします。
 
-## デシジョンツリーのターゲット設定を使用しないエクスペリエンスでのクリエイティブのプレビュー
+## 決定木のターゲティングなしで、エクスペリエンス内のクリエイティブをプレビュー
 
-1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Experiences]** をクリックします。
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;をクリックします。
 
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のエクスペリエンスを含めます。
+1. （オプション） [特定のエクスペリエンスを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
 
 1. 次のいずれかの操作を行います。
 
-   * カード表示で、エクスペリエンス名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Preview]**」をクリックします。
+   * カード表示で、エクスペリエンス名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Preview]**&#x200B;をクリックします。
 
-   * テーブル ビューで、行の上にカーソルを置き、**[!UICONTROL More]** をクリックし、**[!UICONTROL Preview]** をクリックします。
+   * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL More]**&#x200B;をクリックしてから、**[!UICONTROL Preview]**&#x200B;をクリックします。
 
-1. （任意）特定のクリエイティブサイズを選択して、クリエイティブのリストを制限します。
+1. （オプション）特定のクリエイティブサイズを選択して、クリエイターのリストを制限します。
 
-   デフォルトでは、すべてのサイズのクリエイティブが一覧表示されます。
+   デフォルトでは、すべてのサイズのクリエイターが一覧表示されます。
 
 1. 広告タグの名前をクリックして行を展開し、クリエイティブをプレビューします。
 
-1. （任意）クリエイティブのランディングページに移動するには、クリエイティブをクリックします。
+1. （オプション）クリエイティブのランディングページに移動するには、クリエイティブをクリックします。
 
    <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
-1. （任意）エクスペリエンスのデモ URL をコピーして、[!DNL Creative] へのログインなしで他のユーザーと共有するには、次のようにします。
+1. （オプション）エクスペリエンスのデモ URLをコピーして、ログインせずに他のユーザーと共有するには、[!DNL Creative]にアクセスします。
 
-   1. プレビューの右上にある「![&#x200B; 共有 &#x200B;](/help/creative/assets/share.png " 共有 ")」をクリックします。
+   1. プレビューの右上にある「![共有](/help/creative/assets/share.png "共有")」をクリックします。
 
-   1. [!UICONTROL Share Demo URL] ダイアログで、「**[!UICONTROL Copy]**」をクリックして URL をクリップボードにコピーし、他のユーザーと共有できるようにします。
+   1. [!UICONTROL Share Demo URL] ダイアログで、**[!UICONTROL Copy]**&#x200B;をクリックしてURLをクリップボードにコピーし、他のユーザーと共有できるようにします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 &#x200B;](experience-create-targeting.md)
->* [&#x200B; デシジョンツリーのターゲット設定を使用しないエクスペリエンスの作成 &#x200B;](/help/creative/experiences/experience-create-no-targeting.md)
+>* [決定木ターゲティングでエクスペリエンスを作成](experience-create-targeting.md)
+>* [決定木ターゲティングを使用せずにエクスペリエンスを作成](/help/creative/experiences/experience-create-no-targeting.md)

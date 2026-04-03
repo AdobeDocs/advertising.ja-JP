@@ -1,26 +1,30 @@
 ---
 title: '[!UICONTROL Keyword Daily Impression Share Report]'
-description: '[!UICONTROL Keyword Daily Impression Share Report] について説明します。'
+description: '[!UICONTROL Keyword Daily Impression Share Report]について説明します。'
 exl-id: 761864db-a6ef-4155-8959-6c2c90f14a6b
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/KS0R-I1Dr92T0AwQcWianuX7EtGQY65vIGinY3Lbm-k
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: 137
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Keyword Daily Impression Share Report]
 
-*[!DNL Google Ads]および [!DNL Microsoft Advertising] アカウントのみ*
+*[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントのみ*
 
-[!UICONTROL Keyword Daily Impression Share Report] には、各キーワードの毎日のインプレッション共有指標、対応する一致タイプ、1 つ以上の広告グループまたはキャンペーンの対応するデバイスタイプが含まれます。 デフォルトでは、指定した日付範囲の各日に、該当する広告グループごとに少なくとも 1 つのインプレッションまたはクリックを受け取ったキーワード、一致タイプおよびデバイスごとに 1 つの行がデータに含まれます。 デフォルトでは、行は日付の昇順です。 このレポートには、オプションで、[!DNL Adobe] および派生指標で追跡されたデータを含めることができます。
+[!UICONTROL Keyword Daily Impression Share Report]には、1つ以上の広告グループまたはキャンペーンの各キーワード、対応する一致タイプ、対応するデバイスタイプの日次インプレッション共有指標が含まれます。 デフォルトでは、データには、指定された日付範囲の各日に対して、少なくとも1つのインプレッションまたはクリックを受け取った各キーワード、一致タイプ、およびデバイスごとに1つの行が含まれます。 デフォルトでは、行は日付ごとに昇順になっています。 レポートには、[!DNL Adobe]および派生指標によって追跡されたデータを含めることもできます。
 
-インプレッション共有指標は、前日の広告主のタイムゾーンの 13:00 から利用できます。 過去 2 か月のデータを表示できます。
+インプレッション共有の指標は、前日の広告主のタイムゾーンの13:00で使用できます。 過去2か月間のデータを表示できます。
 
 ## デフォルトの列
 
-すべてのデフォルト列およびカスタム列の説明は、[&#x200B; 専門レポートのレポート列 &#x200B;](specialty-report-columns.md) を参照してください。
+すべてのデフォルト列とカスタム列について詳しくは、「[特殊レポートのレポート列](specialty-report-columns.md)」を参照してください。
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Keyword Status]
@@ -48,6 +52,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 専門レポートについて &#x200B;](specialty-report-about.md)
->* [&#x200B; 専門レポートの生成 &#x200B;](specialty-report-generate.md)
->* [&#x200B; 専門レポートの設定 &#x200B;](specialty-report-settings.md)
+>* [専門性レポートについて](specialty-report-about.md)
+>* [専門性レポートの生成](specialty-report-generate.md)
+>* [特殊レポート設定](specialty-report-settings.md)

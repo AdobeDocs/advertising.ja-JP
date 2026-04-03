@@ -1,50 +1,55 @@
 ---
-title: 広告設定を表示
-description: ディスプレイ広告に使用できる広告設定の説明を参照してください。
+title: 広告設定の表示
+description: ディスプレイ広告で使用できる広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+TQID: https://experienceleague.adobe.com/bcuGR2fzcwjvPcWisdQZBbU8vcaZhgW2qZPAXjV5ndM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: 317
 ht-degree: 0%
 
 ---
 
-# 広告設定を表示
+# 広告設定の表示
 
-標準のディスプレイ広告の設定は次のとおりです。
+次の設定は、標準ディスプレイ広告用です。
 
 ## [!UICONTROL Ad Options]
 
 ### 基本
 
-**[!UICONTROL Ad Type]:** （読み取り専用）作成する広告タイプ。広告を添付できるプレースメントのタイプに対応します。 デフォルト値は *[!UICONTROL Display]* です。
+**[!UICONTROL Ad Type]:** （読み取り専用）作成する広告タイプ。広告を添付できるプレースメントタイプに対応します。 デフォルトは&#x200B;*[!UICONTROL Display]*&#x200B;です。
 
-**[!UICONTROL Ad Name]:** 広告名。 デフォルトではアセットタイトルが使用されますが、名前を変更できます。
+**[!UICONTROL Ad Name]:**&#x200B;広告名。 アセットタイトルはデフォルトで使用されますが、名前を変更できます。
 
 >[!TIP]
 >
-> 広告をプレースメントに添付する際に見つけやすい名前を [!UICONTROL Ads] ビューおよびレポートで使用します。 例えば、ユニットのタイプや主要な属性（Holiday Product Preview: 300x250 Gamer など）を記述します。
+> 広告をプレースメント、[!UICONTROL Ads] ビュー、およびレポートに添付する際に見つけやすい名前を使用します。 例えば、ユニットのタイプと一部の主要属性（ホリデープロダクト プレビュー：300x250 ゲーマーなど）を説明します。
 
 **\[Ad Source\]**: （読み取り専用） *[!UICONTROL 3rd party]*。
 
-**[!UICONTROL This is an expandable Banner]:** （サードパーティ広告のみ）広告が拡張可能なバナー広告であることを示します。 関連する拡張設定によって、購入する在庫が決まるので、広告の行動が反映されていることを確認します。
+**[!UICONTROL This is an expandable Banner]:** （サードパーティ広告のみ）広告が拡張可能なバナー広告であることを示します。 関連する拡張設定によって購入する在庫が決まりますので、広告行動を反映したものにしましょう。
 
-**[!UICONTROL Expansion Method]:** （サードパーティ製の展開可能なバナー広告のみ）バナーが *[!UICONTROL Click]* または *[!UICONTROL Rollover]* に展開するかどうか。
+**[!UICONTROL Expansion Method]:** （サードパーティの拡張可能なバナー広告のみ）バナーが&#x200B;*[!UICONTROL Click]*&#x200B;または&#x200B;*[!UICONTROL Rollover]*&#x200B;に展開されるかどうか。
 
-**[!UICONTROL Expansion Directions]:** （サードパーティ製の展開可能なバナー広告のみ）広告の展開方向：*[!UICONTROL Up]*、*[!UICONTROL Down]*、*[!UICONTROL Left]*、*[!UICONTROL Right]*。
+**[!UICONTROL Expansion Directions]:** （サードパーティの拡張可能なバナー広告のみ）広告が展開される方向：*[!UICONTROL Up]*、*[!UICONTROL Down]*、*[!UICONTROL Left]*、または&#x200B;*[!UICONTROL Right]*。
 
-**[!UICONTROL Certified Vendors]:** （サードパーティ製の拡張可能なバナー広告のみ）広告が使用可能な認定ベンダー：*[!UICONTROL DCM]* （[!DNL Google DoubleClick for Advertisers]）、*[!UICONTROL Flashtalking]*、*[!UICONTROL Sizmek]*、*[!UICONTROL Jivox]*。
+**[!UICONTROL Certified Vendors]:** （サードパーティの拡張可能なバナー広告のみ）広告を利用できる認定ベンダー：*[!UICONTROL DCM]* （[!DNL Google DoubleClick for Advertisers]）、*[!UICONTROL Flashtalking]*、*[!UICONTROL Sizmek]*、または&#x200B;*[!UICONTROL Jivox]*。
 
-**[!UICONTROL Display Code]:** （サードパーティ広告のみ）サードパーティのクリエイティブアセットの URL。 [timestamp] および [[timestamp]] パラメーターは、実際の値に置き換えられます。
+**[!UICONTROL Display Code]:** （サードパーティ広告のみ） サードパーティのクリエイティブアセットのURL。 [timestamp]および[[timestamp]]のパラメーターはすべて、実際の値に置き換えられます。
 
-**[!UICONTROL Final Display Code]:** （サードパーティ広告のみ）サードパーティのクリエイティブアセットの URL で、必要な [Advertising DSP トラッキングマクロ &#x200B;](/help/dsp/campaign-management/macros.md) が挿入されています（該当する場合）。
+**[!UICONTROL Final Display Code]:** （サードパーティ広告のみ）必要な[Advertising DSP トラッキングマクロ ](/help/dsp/campaign-management/macros.md)が挿入されたサードパーティのクリエイティブアセットのURL （該当する場合）。
 
-**[!UICONTROL Ad Size]:** 広告の幅と高さ。 [&#x200B; サポートされている標準表示広告サイズ &#x200B;](ad-specs.md) である必要があります。 広告をアップロードする前または [!UICONTROL Display Code] を入力する前に、広告サイズを手動で入力できます。 広告サイズを入力しない場合、アップロードされた広告または広告タグの寸法は自動的に読み取り専用として入力されます。
+**[!UICONTROL Ad Size]:**&#x200B;広告の幅と高さ。 [ サポートされている標準ディスプレイ広告サイズ ](ad-specs.md)である必要があります。 広告をアップロードする前に広告サイズを手動で入力するか、[!UICONTROL Display Code]を入力します。 広告サイズを入力しない場合、アップロードされた広告または広告タグのサイズは、自動的に読み取り専用として入力されます。
 
 >[!IMPORTANT]
 >
-> 幅と高さのフィールドで宣言された広告サイズは、受信入札リクエストと一致します。 広告のディメンションが宣言済みの広告サイズと一致しない場合、配信の問題が発生する可能性があります。
+> 「幅」フィールドと「高さ」フィールドで宣言された広告サイズは、入札依頼と一致します。 広告のディメンションが宣言された広告サイズと一致しない場合、配信の問題が発生する可能性があります。
 
 ### [!UICONTROL Pixel]
 
@@ -54,8 +59,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Advertising DSPの広告管理について &#x200B;](ad-about.md)
->* [&#x200B; 単一の広告の作成 &#x200B;](ad-create.md)
->* [&#x200B; 広告に関連付けられたプレースメントのリスト &#x200B;](ad-list-placements.md)
->* [&#x200B; 広告仕様 &#x200B;](ad-specs.md)
->* [DSP マクロ &#x200B;](/help/dsp/campaign-management/macros.md)
+>* [Advertising DSPの広告管理について](ad-about.md)
+>* [単一の広告を作成](ad-create.md)
+>* [広告に関連付けられているプレースメントを一覧表示](ad-list-placements.md)
+>* [広告の仕様](ad-specs.md)
+>* [DSP マクロ ](/help/dsp/campaign-management/macros.md)

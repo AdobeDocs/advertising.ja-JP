@@ -1,100 +1,105 @@
 ---
-title: ターゲット以外のエクスペリエンスの設定
-description: デシジョンツリーのターゲット設定を使用しない広告エクスペリエンスのすべての設定の説明を参照してください。
+title: ターゲットを絞らないエクスペリエンスの設定
+description: 決定木ターゲティングを使用しない広告エクスペリエンスに関するすべての設定の説明を参照してください。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: ace6005869ea4102878091c4799259961aeecb63
+TQID: https://experienceleague.adobe.com/Qz-MUPLNsdn4PvnaF-uDAZQjd-iXJD0oEZOkMSUGuEs
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: b2025470-04ef-4dd9-bdd4-44407644aeb6id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: 1126
 ht-degree: 0%
 
 ---
 
-# ターゲット以外のエクスペリエンスの設定
+# ターゲットを絞らないエクスペリエンスの設定
 
 ## [!UICONTROL Experience basics] セクション
 
-**[!UICONTROL Ad Type]:** （既存のエクスペリエンスの場合は読み取り専用） エクスペリエンスに含まれる広告のタイプ。*[!UICONTROL Standard Display]*、*[!UICONTROL Dynamic Display]*、*[!UICONTROL Standard Video]* または *[!UICONTROL Display Video]* です。 エクスペリエンスを保存した後は、広告タイプを変更できません。
+**[!UICONTROL Ad Type]:** （既存のエクスペリエンスの読み取り専用） エクスペリエンスに含まれる広告の種類：*[!UICONTROL Standard Display]*、*[!UICONTROL Dynamic Display]*、*[!UICONTROL Standard Video]*&#x200B;または&#x200B;*[!UICONTROL Display Video]*。 エクスペリエンスを保存すると、広告の種類を変更することはできません。
 
-**[!UICONTROL Advertiser]:** （既存のエクスペリエンスの場合は読み取り専用）エクスペリエンスに含まれるクリエイティブに入札する広告主。 エクスペリエンスを保存すると、広告主を変更できなくなります。
+**[!UICONTROL Advertiser]:** （既存のエクスペリエンスの読み取り専用） エクスペリエンスに含まれるクリエイティブに入札する広告主。 エクスペリエンスを保存しても、広告主を変更することはできません。
 
-**[!UICONTROL Experience Name]:** エクスペリエンスの一意の名前。 **ヒント：** Advertising DSPまたは他のDSPで広告としてエクスペリエンスを使用する際に見つけやすい名前を使用します。
+**[!UICONTROL Experience Name]:** エクスペリエンスの一意の名前。 **ヒント：** Advertising DSPまたはその他のDSPでエクスペリエンスを広告として使用する際に、簡単に見つけることができる名前を使用します。
 
-**[!UICONTROL Creative Library]:** （既存のエクスペリエンスの場合は読み取り専用）エクスペリエンスに使用する単一のクリエイティブライブラリ。 エクスペリエンスを保存すると、ライブラリを変更できなくなります。
+**[!UICONTROL Creative Library]:** （既存のエクスペリエンスの読み取り専用） エクスペリエンスに使用する単一のクリエイティブライブラリ。 エクスペリエンスを保存すると、ライブラリを変更することはできません。
 
 ## [!UICONTROL Default creatives] セクション
 
-**\[ 指定されたデフォルトのクリエイティブ\]:** ブラウザーがJavaScriptに対応していない場合や、遅延のために広告サーバーが広告をパーソナライズできない場合など、ブラウザーがエクスペリエンスに割り当てられたクリエイティブを表示できない場合に使用するデフォルトのクリエイティブです。 標準のディスプレイエクスペリエンスの場合、エクスペリエンスが適用される広告サイズごとに 1 つの画像クリエイティブを含めます。 標準のビデオエクスペリエンスの場合、エクスペリエンスが適用される広告サイズごとに 1 つのビデオクリエイティブを含めます。 選択肢によって、エクスペリエンスに使用できるクリエイティブのサイズが決まります。
+**\[Default creatives specified\]:** ブラウザーがJavaScriptに対応していない場合や、広告サーバーが遅延のために広告をパーソナライズできない場合など、ブラウザーがエクスペリエンスに割り当てられたクリエイティブを表示できない場合に使用するデフォルトのクリエイター。 標準的なディスプレイエクスペリエンスの場合は、エクスペリエンスが適用される広告サイズごとに1つの画像クリエイティブを含めます。 標準的な動画エクスペリエンスの場合は、広告サイズごとにエクスペリエンスが適用される動画クリエイティブを1つ含めます。 エクスペリエンスに使用できるクリエイティブサイズは、選択によって決まります。
 
-デシジョンツリーのターゲット設定を使用しないエクスペリエンスの場合、デフォルトのクリエイティブを [!UICONTROL Tag Manager] 内で同じサイズのクリエイティブに上書きできます。
+決定木のターゲット設定がないエクスペリエンスの場合は、[!UICONTROL Tag Manager]内で同じサイズのクリエイターを使用して、デフォルトのクリエイターを上書きできます。
 
-* 異なるサイズの既定のクリエイティブを追加するには、[**[!UICONTROL + Add Sizes]**] をクリックし、追加する各クリエイティブの横にあるチェック ボックスを右側のウィンドウから選択して、[**[!UICONTROL Add Creatives]**] をクリックします。
+* ディメンションが異なるデフォルトのクリエイティブを追加するには、**[!UICONTROL + Add Sizes]**&#x200B;をクリックし、右側のペインから追加する各クリエイティブの横にあるチェックボックスをオンにして、**[!UICONTROL Add Creatives]**&#x200B;をクリックします。
 
-* デフォルトのクリエイティブを削除するには、クリエイティブサムネールの上にカーソルを置き、![&#x200B; 削除 &#x200B;](/help/creative/assets/delete.png " 削除 ") をクリックします。
+* デフォルトのクリエイティブを削除するには、クリエイティブのサムネールの上にカーソルを置き、![削除](/help/creative/assets/delete.png "削除")をクリックします。
 
-* デフォルトのクリエイティブをすべて削除するには、「![&#x200B; 削除 &#x200B;](/help/creative/assets/delete.png " 削除 ")」をクリッ **[!UICONTROL Delete all]** します。
+* すべてのデフォルトのクリエイティブを削除するには、![削除](/help/creative/assets/delete.png "削除") **[!UICONTROL Delete all]**&#x200B;をクリックします。
 
-* 右側のクリエイティブパネルを表示または非表示にするには、右側のパネルの右上にある ![&#x200B; 表示/非表示 &#x200B;](/help/creative/assets/hide-show-creatives.png " 表示/非表示 ") をクリックします。
+* 右側のクリエイティブペインを表示または非表示にするには、右側のペインの右上にある![表示/非表示](/help/creative/assets/hide-show-creatives.png "表示/非表示")をクリックします。
 
 ## [!UICONTROL Targeting] セクション
 
-**[!UICONTROL Targeting]:** （既存のエクスペリエンスに対しては読み取り専用）デシジョンツリーを使用してターゲティングを有効にしない場合は適用されません。このオプションは無効のままにしてください。 **メモ：** ターゲティングを行わずにエクスペリエンスを保存すると、後でターゲティングを追加することはできません。
+**[!UICONTROL Targeting]:** （既存のエクスペリエンスの読み取り専用）決定ツリーを使用してターゲティングを有効にしない場合は適用されません。このオプションを無効のままにしてください。 **注意：** ターゲティングなしでエクスペリエンスを保存すると、後でターゲティングを追加することはできません。
 
-**[!UICONTROL Language Targeting]:** （標準広告を使用したエクスペリエンスのみ。オプション。既存のエクスペリエンスの場合は読み取り専用） ユーザーのブラウザーの言語設定を確認し、指定した言語のクリエイティブが使用可能な場合に、その言語のクリエイティブを表示します。 ブラウザーで指定された言語のクリエイティブが使用できない場合は、代わりに [!UICONTROL Preferred language] 設定が使用されます。 エクスペリエンスを保存すると、この設定を変更できなくなります。
+**[!UICONTROL Language Targeting]:** （標準広告を含むエクスペリエンスのみ。オプション。既存のエクスペリエンスの読み取り専用）ユーザーのブラウザー言語設定を確認し、その言語のクリエイティブが使用可能な場合に、指定された言語でクリエイティブを表示します。 ブラウザー指定の言語のクリエイティブが使用できない場合は、代わりに[!UICONTROL Preferred language]設定が使用されます。 エクスペリエンスを保存すると、この設定を変更することはできません。
 
-**[!UICONTROL Preferred language]:** （標準広告を使用したエクスペリエンスのみ。既存のエクスペリエンスの場合は読み取り専用） [!UICONTROL Language Targeting] が有効になっている場合を除き、エクスペリエンスから作成されたすべての広告の言語。 エクスペリエンスを保存すると、この設定を変更できなくなります。
+**[!UICONTROL Preferred language]:** （標準広告を含むエクスペリエンスのみ。既存のエクスペリエンスの読み取り専用） [!UICONTROL Language Targeting]が有効になっている場合を除き、エクスペリエンスから作成されたすべての広告の言語。 エクスペリエンスを保存すると、この設定を変更することはできません。
 
 ## [!UICONTROL Advanced] セクション
 
-**データパス：** （Dynamic Ads を使用したエクスペリエンスのみ。オプション） DSP、パブリッシャー、パートナーがインプレッションでリアルタイムに渡す特定のキーと値のペア（SKU=01234567890123 や買い物かご=空など）に基づいてユーザーをターゲットに設定します。 最大 5 つのデータパスキー（パラメーター）を指定できます。<!-- May move this to just within the decision tree. -->
+**データパス：** （動的な広告を含むエクスペリエンスのみ。オプション）インプレッションでDSP、パブリッシャー、またはパートナーがリアルタイムで渡す特定のキーと値のペア（SKU=01234567890123またはCart=emptyなど）に基づいてユーザーをターゲティングします。 最大5つのデータパスキー（パラメーター）を指定できます。<!-- May move this to just within the decision tree. -->
 
-特定のクリエイティブサイズの広告エクスペリエンスタグを作成すると、このフィールドで指定された各キーがタグのマクロとして追加されます。 DSPでタグを広告として実装する前に、タグ内の各キーと値のペアを入力します。
+特定のクリエイティブサイズの広告エクスペリエンスタグを作成すると、このフィールドで指定された各キーが、タグ内のマクロとして追加されます。 DSPに広告としてタグを実装する前に、タグ内の各キーと値のペアの値を入力します。
 
-**半径：** （動的広告を使用したエクスペリエンスのみ。オプション）フィードファイルで指定されている米国の郵便番号からターゲットまでの半径。0 マイルから 200 マイルまでの半径を選択します。 エクスペリエンスの動的広告の作成に使用するフィードファイルには [!UICONTROL ZIP] ファイル内の各製品行の値を持つ <!-- or a user-named column mapped to a ZIP column --> 列を含める必要があります。 例えば、半径が 10 マイルの場合、95110 で利用可能な製品の広告を、95110 から 10 マイル以内のユーザーに表示できます（ユーザーの IP アドレスによって決定されます）。
+**半径：** （動的な広告を使用したエクスペリエンスのみ。オプション）ターゲットにするフィードファイルで指定された米国の郵便番号からの半径。0 マイルから200 マイルまでの半径を選択します。 エクスペリエンスの動的広告の作成に使用されるフィードファイルには、ファイル内の各製品行の値を含む[!UICONTROL ZIP]列<!-- or a user-named column mapped to a ZIP column -->が含まれている必要があります。 例えば、半径10 マイルの場合、95110で利用可能な商品の広告を、95110から10 マイル以内のユーザーに表示することができます（ユーザーのIP アドレスによって決定されます）。
 
-**RT Pixel:** （動的広告を含むエクスペリエンスのみ。オプション）潜在的にターゲットにする [!UICONTROL Creative] リターゲティングピクセル。 デシジョンツリー内でターゲティングを設定する場合、1 レベルの RT ピクセルターゲットノードを含めることができます。 各ノードには、ターゲットとするピクセルと、割り当てられたクリエイティブバンドル内のクリエイティブを表示するために必要なピクセルの属性の値を指定します。 このフィールドでピクセルを指定しない場合でも、デシジョンツリー内でピクセルを指定できます。<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
+**RT ピクセル：** （動的な広告を使用したエクスペリエンスのみ。オプション）潜在的にターゲットにする[!UICONTROL Creative] リターゲティングピクセル。 決定ツリー内でターゲティングを設定する場合、RT ピクセルターゲットノードの1つのレベルを含めることができます。 各ノードに対して、ターゲットとするピクセルと、割り当てられたクリエイティブバンドル内のクリエイターを表示するために必要なピクセルの属性の値を指定します。 このフィールドでピクセルを指定しない場合でも、決定ツリー内でピクセルを指定できます。<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
-**[!UICONTROL Label]:**<!-- should be "Labels" --> （任意）エクスペリエンスに適用する [!DNL Creative] 固有のラベル。 エクスペリエンス表示でラベル別にエクスペリエンスをフィルタリングし、エクスペリ [!UICONTROL Experience Label] ンスに [!UICONTROL Custom Creative Report] ディメンションを含めることができます。
+**[!UICONTROL Label]:**<!-- should be "Labels" --> （オプション）エクスペリエンスに適用する[!DNL Creative]固有のラベル。 エクスペリエンスビューでラベルでエクスペリエンスをフィルタリングし、[!UICONTROL Experience Label] ディメンションを[!UICONTROL Custom Creative Report]に含めることができます。
 
-* 既存のラベルを選択するには、[![&#x200B; 下 &#x200B;](/help/creative/assets/chevron-down.png " 下 ")] をクリックし、適用する各ラベルの横にあるチェック ボックスをオンにします。
+* 既存のラベルを選択するには、![ ダウン ](/help/creative/assets/chevron-down.png " ダウン ")をクリックし、適用する各ラベルの横にあるチェックボックスをオンにします。
 
 * 既存のラベルを検索するには、ラベル名の中にテキスト文字列を入力します。
 
-* 適用する新しいラベルを作成するには、リストを開き、「**+ ラベルを追加**」をクリックし、「[!UICONTROL Label]」フィールドに新しいラベル名を入力して、「**作成**」をクリックします。
+* 適用する新しいラベルを作成するには、リストを開き、**+ ラベルを追加**&#x200B;をクリックし、[!UICONTROL Label] フィールドに新しいラベル名を入力して、**作成**&#x200B;をクリックします。
 
 * ラベルを削除するには、ラベル名の横にあるチェックボックスの選択を解除します。
 
-**[!UICONTROL Impression Tracking URL]:** （任意）エクスペリエンスから作成された広告のランディングページ URL に追加するサードパーティのインプレッショントラッキング URL。 最大 5 つの URL を含めることができます。 追加の URL を追加するには、![&#x200B; アイコン &#x200B;](/help/creative/assets/create.png) **[!UICONTROL Add More] をクリックして URL を入力します。
+**[!UICONTROL Impression Tracking URL]:** （オプション） エクスペリエンスから作成された任意の広告のランディングページ URLに追加する、サードパーティのインプレッション追跡URL。 5つまでURLを含めることができます。 追加のURLを追加するには、![icon](/help/creative/assets/create.png) **[!UICONTROL Add More]をクリックし、URLを入力します。
 
-URL を入力すると、すべての [&#x200B; 使用可能なマクロ &#x200B;](/help/creative/creative-macros.md) とそれらを置き換えるデータが、ページの下部に表示されます。 URL 内にマクロの 1 つを挿入するには、マクロの説明の上にカーソルを置き、![&#x200B; クリップボードにコピー &#x200B;](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー ") をクリックし、必要な場所にマクロを URL フィールドに貼り付けます。
-
->[!NOTE]
->
->* [!DNL Creative] ランディングページの URL に、独自のインプレッショントラッキングタグを自動的にプレフィックスします。
->* エクスペリエンス内の任意のクリエイティブに対してこの URL を上書きできます。
->* また、「[!UICONTROL Client JS]」フィールドには、サードパーティのJavaScript インプレッショントラッキングコードを入力することもできます
-
-**[!UICONTROL Click Tracking URL]:** （任意）（任意）ランディングページ URL に追加するサードパーティのクリックトラッキング URL。 最大 5 つの URL を含めることができます。 追加の URL を追加するには、![&#x200B; アイコン &#x200B;](/help/creative/assets/create.png) **[!UICONTROL Add More]** をクリックして URL を入力します。
-
-URL を入力すると、すべての [&#x200B; 使用可能なマクロ &#x200B;](/help/creative/creative-macros.md) とそれらを置き換えるデータが、ページの下部に表示されます。 URL 内にマクロの 1 つを挿入するには、マクロの説明の上にカーソルを置き、![&#x200B; クリップボードにコピー &#x200B;](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー ") をクリックし、必要な場所にマクロを URL フィールドに貼り付けます。
+URLを入力すると、使用可能なすべての[ マクロ ](/help/creative/creative-macros.md)と、その代わりに使用するデータがページの下部に表示されます。 URLにマクロのいずれかを挿入するには、マクロの説明にカーソルを合わせて![ クリップボードにコピー](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー")をクリックし、URL フィールドにマクロを任意の場所に貼り付けます。
 
 >[!NOTE]
 >
->* [!DNL Creative] ランディングページの URL に、独自のインプレッショントラッキングタグを自動的にプレフィックスします。
->* エクスペリエンス内の任意のクリエイティブに対して、この URL を上書き <!-- creative bundle for targeted experiences --> きます。
+>* [!DNL Creative]は、ランディングページ URLに独自のインプレッション追跡タグを自動的にプレフィックスします。
+>* このURLは、エクスペリエンス内の任意のクリエイティブに対して上書きできます。
+>* サードパーティのJavaScript インプレッション トラッキング コードを[!UICONTROL Client JS] フィールドに入力することもできます
+
+**[!UICONTROL Click Tracking URL]:** （オプション） （オプション） ランディングページ URLに追加するサードパーティのクリックトラッキング URL。 5つまでURLを含めることができます。 追加のURLを追加するには、![icon](/help/creative/assets/create.png) **[!UICONTROL Add More]**&#x200B;をクリックし、URLを入力します。
+
+URLを入力すると、使用可能なすべての[ マクロ ](/help/creative/creative-macros.md)と、その代わりに使用するデータがページの下部に表示されます。 URLにマクロのいずれかを挿入するには、マクロの説明にカーソルを合わせて![ クリップボードにコピー](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー")をクリックし、URL フィールドにマクロを任意の場所に貼り付けます。
+
+>[!NOTE]
+>
+>* [!DNL Creative]は、ランディングページ URLに独自のインプレッション追跡タグを自動的にプレフィックスします。
+>* このURLは、エクスペリエンス内の任意のクリエイティブ <!-- creative bundle for targeted experiences -->に対して上書きできます。
 
 **[!UICONTROL Client JS]:** （オプション）次のいずれか：
 
-* （広告主が広告に OBA コンプライアンスベンダーを使用している場合）ユーザーがオンライン行動ターゲティング（OBA）をオプトアウトできるようにする広告オーバーレイを指すJavaScript コード。
+* （広告主が広告にOBA コンプライアンスベンダーを使用する場合）ユーザーがオンライン行動ターゲティング（OBA）をオプトアウトできる広告オーバーレイを指すJavaScript コード。
 
-* ランディングページに追加するサードパーティのJavaScript インプレッショントラッキングコード。 **メモ：** 「[!UICONTROL Impression Tracking URL]」フィールドにサードパーティのインプレッショントラッキング URL を入力することもできます。
+* ランディングページに追加する、サードパーティのJavaScriptインプレッショントラッキングコード。 **メモ：** サードパーティのインプレッション追跡URLを[!UICONTROL Impression Tracking URL] フィールドに入力することもできます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; デシジョンツリーのターゲット設定を使用しないエクスペリエンスの作成 &#x200B;](experience-create-no-targeting.md)
->* [&#x200B; デシジョンツリーのターゲット設定を使用しないエクスペリエンスの編集 &#x200B;](experience-edit-no-targeting.md)
->* [URL をトラッキングするために使用可能なマクロ &#x200B;](/help/creative/creative-macros.md)
->* [&#x200B; 該当するクリエイティブサイズの広告タグを手動で作成 &#x200B;](experience-tag-create-manually.md)
->* [&#x200B; ターゲティングを行わないエクスペリエンスの広告タグへのクリエイティブの割り当て &#x200B;](experience-tag-assign-creatives.md)
->* [&#x200B; ターゲット設定を行わないエクスペリエンス用のトラッキング URL のカスタマイズ &#x200B;](experience-tracking-urls-no-targeting.md)
->* [&#x200B; ターゲティングを行わないエクスペリエンスのクリエイティブな最適化とスケジュールのカスタマイズ &#x200B;](experience-optimization-scheduling-no-targeting.md)
+>* [決定木ターゲティングを使用せずにエクスペリエンスを作成](experience-create-no-targeting.md)
+>* [決定木ターゲティングを使用せずにエクスペリエンスを編集](experience-edit-no-targeting.md)
+>* [URLのトラッキングに使用できるマクロ ](/help/creative/creative-macros.md)
+>* [該当するクリエイティブサイズの広告タグを手動で作成する](experience-tag-create-manually.md)
+>* [ ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
+>* [ ターゲットを設定せずにエクスペリエンスのトラッキング URLをカスタマイズする](experience-tracking-urls-no-targeting.md)
+>* [ クリエイティブの最適化とスケジュールをカスタマイズして、ターゲットを設定せずにエクスペリエンスを利用](experience-optimization-scheduling-no-targeting.md)

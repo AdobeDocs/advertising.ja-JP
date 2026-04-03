@@ -1,128 +1,131 @@
 ---
-title: キャンペーンおよび広告グループのオーディエンスターゲットの管理
-description: キャンペーンと広告グループのオーディエンスターゲットを設定お  [!DNL Google Ads]  び管理す  [!DNL Microsoft Advertising]  方法について説明します。
+title: キャンペーンと広告グループのオーディエンスターゲットの管理
+description: ' [!DNL Google Ads] および [!DNL Microsoft Advertising]  キャンペーンと広告グループのオーディエンスターゲットを設定および管理する方法について説明します。'
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: 771
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] および [!DNL Microsoft Advertising] キャンペーンと広告グループのオーディエンスターゲットを管理します。
+# [!DNL Google Ads]および[!DNL Microsoft Advertising]のキャンペーンと広告グループのオーディエンスターゲットを管理します
 
-*[!DNL Google Ads]と [!DNL Microsoft Advertising] のみ*
+*[!DNL Google Ads]と[!DNL Microsoft Advertising]のみ*
 
-キャンペーンと広告グループ、および [!DNL Microsoft Advertising] の広告グループで [!DNL Google Ads]、同じ広告ネットワークから特定のオーディエンスをターゲットに設定できます。 広告ネットワークは、オーディエンスがターゲティング可能である必要があるサイズを決定します。
+[!DNL Google Ads]個のキャンペーンと広告グループ、および[!DNL Microsoft Advertising]個の広告グループは、同じ広告ネットワークから特定のオーディエンスをターゲットにできます。 広告ネットワークは、ターゲティングできるオーディエンスの規模を決定します。
 
 >[!NOTE]
 >
->除外は、常に包含/ターゲットを上書きします。
+>除外は常にインクルージョン/ターゲットを上書きします。
 
-オーディエンスターゲットの設定、オーディエンスターゲットの入札修飾子の編集、オーディエンスターゲットのステータスの変更を行うことができます。
+オーディエンスターゲットを設定したり、オーディエンスターゲットの入札修飾子を編集したり、オーディエンスターゲットのステータスを変更したりできます。
 
-## オーディエンスターゲットを設定
+## オーディエンスターゲティングの設定
 
-1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**&#x200B;をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
+1. データテーブルの上にあるツールバーで、![作成](/help/search-social-commerce/assets/add.png "作成")をクリックします。
 
-1. 広告ネットワークとアカウント名を選択し、「**[!UICONTROL Continue]**」をクリックします。
+1. 広告ネットワークとアカウント名を選択し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-1. 特定のキャンペーンおよび広告グループのオーディエンスターゲットを設定します。
+1. 特定のキャンペーンと広告グループのオーディエンスターゲットを設定します。
 
-   1. 指定した広告ネットワークに適用できるオーディエンスを選択します。
+   1. 指定した広告ネットワークに該当するオーディエンスを選択します。
 
-      オプションで、3 文字以上の特定のテキスト文字列を含むオーディエンスを検索できます。 一致するオーディエンスがある場合は、「**[!UICONTROL Include]**」をクリックして選択します。
+      オプションで、3文字以上の特定のテキスト文字列を含むオーディエンスを検索できます。 一致するオーディエンスの場合は、**[!UICONTROL Include]**&#x200B;をクリックして選択します。
 
-      カスタマーマッチオーディエンス [!DNL Google Ads]、検索キャンペーンとショッピングキャンペーンでのみ使用できます。
+      [!DNL Google Ads]人の顧客マッチオーディエンスは、検索およびショッピングキャンペーンでのみ使用できます。
 
    1. ターゲットを指定します。
 
-      1. （任意）キャンペーンをその子広告グループとして展開するには、キャンペーン名をクリックします。
+      1. （オプション）キャンペーンの子の広告グループを展開するには、キャンペーン名をクリックします。
 
-      1. （オプション）名前に含まれているテキスト文字列でキャンペーンリストまたは広告グループリストをフィルタリングするには、![&#x200B; フィルター &#x200B;](/help/search-social-commerce/assets/filter.png " フィルター ") をクリックして、テキスト文字列を入力または入力フィールドに貼り付けて、**[!UICONTROL Enter]** キーを押します。
+      1. （オプション）キャンペーンリストまたは広告グループリストを、名前に含まれるテキスト文字列でフィルタリングするには、![ フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、テキスト文字列を入力フィールドに入力または貼り付け、**[!UICONTROL Enter]** キーを押します。
 
-      1. 青いチェックマーク（![&#x200B; 選択 &#x200B;](/help/search-social-commerce/assets/include.png " 選択 ")）が表示されるように、隣接する空の円をクリックして、指定した広告ネットワークの各キャンペーンおよび広告グループのターゲットを指定します。
+      1. 青いチェックマーク（![選択](/help/search-social-commerce/assets/include.png "選択")）が表示されるように、隣接する空の円をクリックして、指定された広告ネットワークの各キャンペーンと広告グループのターゲットを指定します。
 
-      （ターゲットを自動的に使用する）親キャンペーンと子広告グループの両方にターゲットを設定することはできません。
+      親キャンペーンと子広告グループ（自動的にターゲットを使用）の両方にターゲットを設定することはできません。
 
-1. 「**[!UICONTROL Post]**」をクリックします。
+1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
-1. （オプション） [!UICONTROL Targets] 表示から次のいずれかの方法で、ターゲットの入札調整を設定します。
+1. （オプション） [!UICONTROL Targets] ビューから、次のいずれかの方法でターゲットの入札調整を設定します。
 
-   * **[!UICONTROL Bid Adjustment]** 列内をクリックし、値を入力します。
+   * **[!UICONTROL Bid Adjustment]**&#x200B;列をクリックし、値を入力します。
 
-   * ターゲット行の横にあるチェックボックスをオンにします。 ツールバーの ![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ") をクリックし、入札修飾子を入力して「**[!UICONTROL Post]**」をクリックします。
+   * ターゲット行の横にあるチェックボックスをオンにします。 ツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックし、入札修飾子を入力して、**[!UICONTROL Post]**&#x200B;をクリックします。
 
-   値には、次のものが含まれます。
+   値には、次の項目を含めることができます。
 
-   * *0%:* このオーディエンスの広告の入札を調整しません。
+   * *0%:*&#x200B;このオーディエンスの広告の入札額を調整しない場合。
 
-   * /[*-90% ～ 900% の間のその他の値*/]：このオーディエンスの広告の入札を増減させます。 例えば、キーワードレベルの入札が 1 USD で、特定のオーディエンスターゲットの入札調整が 50% の場合、そのオーディエンスの入札は 1.50 USD に増加します。
+   * /[*その他の値（–90%から900%*/]）：このオーディエンスの広告の入札額を増減するには、次の操作を行います。 例えば、キーワードレベルの入札が1米ドルで、特定のオーディエンスのターゲットの入札調整が50%の場合、そのオーディエンスの入札は1.50米ドルに増加します。
 
 ## オーディエンスターゲットの入札修飾子の編集
 
-市場内オーディエンスを除くすべてのオーディエンスタイプについて、オーディエンスターゲットの入札修飾子とステータスを変更できます。
+市場内のオーディエンスを除く、すべてのオーディエンスタイプの入札修飾子とオーディエンスターゲットのステータスを変更できます。
 
 >[!NOTE]
 >
->親キャンペーンが CPC 入札戦略を使用し、オーディエンスターゲットの入札調整値を自動最適化するように設定されたポートフォリオに含まれる場合、検索、ソーシャル、Commerceによって入札修飾子が自動的に最適化されます。
+>Search, Social, &amp; Commerceでは、親キャンペーンがCPC入札戦略を使用し、オーディエンスターゲットの入札調整値を自動最適化するように設定されたポートフォリオ内にある場合、入札修飾子が自動的に最適化されます。
 
-1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**&#x200B;をクリックします。
 
-1. 次のいずれかの操作をおこないます。
+1. 次のいずれかの操作を行います。
 
-   * 1 つのターゲットの入札モディファイアを編集するには、「**[!UICONTROL Bid Adjustment]**」列をクリックして入札調整を編集します。
+   * 1つのターゲットの入札修飾子を編集するには、**[!UICONTROL Bid Adjustment]**&#x200B;列をクリックし、入札調整を編集します。
 
-   * 1 つ以上のターゲットの入札修飾子を編集するには、次の手順を実行します。
+   * 1つ以上のターゲットの入札修飾子を編集するには、次の操作を行います。
 
       1. 編集する各ターゲットの横にあるチェックボックスをオンにします。
 
-         複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+         複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-      1. データ テーブルの上にあるツールバーで、[![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ")] をクリックします。
+      1. データテーブルの上にあるツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
 
-      1. 「**[!UICONTROL Bid Modifier]**」フィールドや「**[!UICONTROL Status]**」フィールドを編集します。
+      1. **[!UICONTROL Bid Modifier]**&#x200B;および/または&#x200B;**[!UICONTROL Status]** フィールドを編集します。
 
-         [!UICONTROL Bid Modifier] フィールドには、既存の値を指定の値に変更するオプションと、制限を指定して、指定の割合または金額で金額を増減するオプションがあります。
+         [!UICONTROL Bid Modifier] フィールドには、既存の値を指定した値に変更するか、指定した割合または金額で金額を増減するか、制限を設けるかを選択できます。
 
-         設定値の場合、値には次の値を含めることができます。
+         設定された値の場合、値には次を含めることができます。
 
-         * *0%:* このオーディエンスの広告の入札を調整しません。
+         * *0%:*&#x200B;このオーディエンスの広告の入札額を調整しない場合。
 
-         * /[*-90% ～ 900% の間のその他の値*/]：このオーディエンスの広告の入札を増減させます。 例えば、キーワードレベルの入札が 1 USD で、特定のオーディエンスターゲットの入札調整が 50% の場合、そのオーディエンスの入札は 1.50 USD に増加します。
+         * /[*その他の値（–90%から900%*/]）：このオーディエンスの広告の入札額を増減するには、次の操作を行います。 例えば、キーワードレベルの入札が1米ドルで、特定のオーディエンスのターゲットの入札調整が50%の場合、そのオーディエンスの入札は1.50米ドルに増加します。
 
          複数のターゲットの場合、変更は選択したすべてのターゲットに適用されます。
 
-      1. （任意）「**[!UICONTROL Additional Details]**」をクリックし、オプションでプロジェクト名と説明を入力します。
+      1. （オプション）「**[!UICONTROL Additional Details]**」をクリックし、必要に応じてプロジェクト名と説明を入力します。
 
-      1. 「**[!UICONTROL Post]**」をクリックします。
+      1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
-## オーディエンスターゲットのステータスの変更
+## オーディエンスターゲティングのステータスの変更
 
-アクティブなオーディエンスターゲットを一時停止して、そのターゲットへの入札を無効にすることができます。 後でステータスをアクティブに戻すことで、入札を再開できます。
+アクティブなオーディエンスターゲットを一時停止して、入札を無効にできます。 後でステータスをアクティブに戻すことで、入札を再開できます。
 
-アクティブな検索オーディエンスターゲットまたは一時停止した検索オーディエンスターゲットを削除することもできます。
+アクティブまたは一時停止した検索オーディエンスターゲットを削除することもできます。
 
-1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**&#x200B;をクリックします。
 
-1. （任意）特定のオーディエンスターゲットを含めるようにリストをフィルタリングします。
+1. （オプション）特定のオーディエンスターゲットを含めるようにリストをフィルタリングします。
 
-1. ステータスを変更する各オーディエンスターゲットの横にあるチェックボックスを選択します。
+1. ステータスを変更する各オーディエンスターゲットの横にあるチェックボックスをオンにします。
 
-   複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+   複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-1. ツールバーの「ステータス」ボタンをクリックします。
+1. ツールバーで、ステータスボタンをクリックします。
 
-   * 行をアクティブにするには、「![&#x200B; アクティブ化 &#x200B;](/help/search-social-commerce/assets/activate.png " アクティブ化 ")」をクリックします。
+   * 行をアクティブ化するには、![ アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
 
-   * 行を一時停止するには、「![&#x200B; 一時停止 &#x200B;](/help/search-social-commerce/assets/pause.png " 一時停止 ")」をクリックします。
+   * 行を一時停止するには、![一時停止](/help/search-social-commerce/assets/pause.png "一時停止")をクリックします。
 
-   * 行を削除するには、「![&#x200B; その他のアクション &#x200B;](/help/search-social-commerce/assets/more.png " その他のアクション ")」をクリックし、**[!UICONTROL Delete]** を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
+   * 行を削除するには、![その他のアクション ](/help/search-social-commerce/assets/more.png "その他のアクション ")をクリックし、**[!UICONTROL Delete]**&#x200B;を選択します。 確認メッセージで、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンスについて &#x200B;](audience-about.md)
->* [&#x200B; キャンペーンおよび広告グループのオーディエンス除外の管理 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
+>* [ オーディエンスについて](audience-about.md)
+>* [ キャンペーンと広告グループのオーディエンス除外の管理](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)

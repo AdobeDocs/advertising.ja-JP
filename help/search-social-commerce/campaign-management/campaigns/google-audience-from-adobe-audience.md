@@ -1,92 +1,97 @@
 ---
-title: オーディエ  [!DNL Google Ads]  スからの顧客一致オーディエ  [!DNL Adobe]  スの作成
-description: 既存のAdobe Analytics オーディエンスおよびAudience Manager オーディエンスから  [!DNL Google Ads]  カスタマーマッチオーディエンスを作成する方法を説明します。
+title: ' [!DNL Google Ads] 件のオーディエンスから [!DNL Adobe] 顧客マッチオーディエンスを作成'
+description: 既存のAdobe AnalyticsおよびAudience Manager オーディエンスから [!DNL Google Ads]  カスタマーマッチオーディエンスを作成する方法について説明します。
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/Ep3X-eo2kcGlW3NsV3CJEKBkEapa-oAv0HLexc1xnhM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: 566
 ht-degree: 0%
 
 ---
 
-# Adobe Analytics オーディエンス [!DNL Google Ads]Audience Manager オーディエンスからカスタマーマッチオーディエンスを作成
+# Adobe AnalyticsおよびAudience Manager オーディエンスから[!DNL Google Ads]件のカスタマーマッチオーディエンスを作成
 
-顧客一致の対象となるアカウントの *[!DNL Google Ads]定*
+顧客の一致のみ&#x200B;*[!DNL Google Ads]の対象となる* アカウント
 
-*Adobe AdvertisingとAdobe Audience ManagerまたはAdobe AdvertisingとAdobe Analyticsの統合を使用する広告主のみ*
+*Adobe AdvertisingとAdobe Audience ManagerまたはAdobe AdvertisingとAdobe Analyticsの統合のみを持つ広告主*
 
-オプトインされた広告主は [!DNL Google Ads]a） Adobe Experience Cloudと共有されるセグメントと b） Adobe Experience Cloudに公開される [!DNL Analytics] 検索、ソーシャル、Commerceを宛先とするAudience Managerの各セグメント（Adobe Experience Cloud Audience Library で作成される [!DNL Analytics] のセグメントを含む）のユーザー ID を使用してカスタマーマッチオーディエンスを作成できます。 検索、ソーシャル、Commerceでは、オーディエンスを追跡できるように、[!DNL Google] トラッキング URL が各 [!DNL Analytics] またはAudience Manager セグメントに自動的にプッシュされ [!DNL Google] す。
+オプトインした広告主は、a） Adobe Experience Cloudと共有される[!DNL Google Ads]個のセグメントとb） Adobe Experience Cloudに公開される[!DNL Analytics]個のセグメントとAudience Manager Audience Libraryを使用して作成されるセグメントを含む、Search, Social, &amp; Commerceを宛先として持つAdobe Experience Cloud セグメントのa） 個のユーザーIDを使用して[!DNL Analytics]個のカスタマーマッチオーディエンスを作成できます。 Search, Social, &amp; Commerceは、[!DNL Google] トラッキング URLを各[!DNL Analytics]またはAudience Manager セグメントに自動的にプッシュして、[!DNL Google]がオーディエンスをトラッキングできるようにします。
 
-各 [!DNL Adobe] オーディエンスは、1 つの [!DNL Google] オーディエンスに対してのみ使用できます。
+各[!DNL Adobe] オーディエンスは、1つの[!DNL Google] オーディエンスにのみ使用できます。
 
-新しい [!DNL Google] オーディエンスはそれぞれ、元の [!DNL Adobe] オーディエンスと同じ名前です。 ターゲティ [!DNL Google] グ可能にするオーディエンスの大きさを決定します。
+新しい[!DNL Google] オーディエンスは、元の[!DNL Adobe] オーディエンスと同じ名前になります。 [!DNL Google]は、ターゲティング可能なオーディエンスの規模を決定します。
 
 >[!TIP]
 >
->リアルタイムのセグメント化には、Audience Managerで作成されたオーディエンスを使用します。 [!DNL Analytics] で作成されAdobe Experience Cloudに同期されたセグメントは、毎日同期されるだけなので、母集団が小さくなる場合があります。セグメントの対象となるサーファーは、翌日までセグメントに含まれない場合があります。 [!DNL Analytics] のセグメントのデータソースは「レポートスイート –」です。
+>リアルタイムのセグメンテーションには、Audience Managerで作成したオーディエンスを利用できます。 [!DNL Analytics]で作成され、Adobe Experience Cloudに同期されたセグメントは、毎日のみ同期されるため、母集団が少ない可能性があります。セグメントの資格を持つサーファーは、翌日までセグメントに含まれない可能性があります。 [!DNL Analytics]のセグメントには、「レポートスイート – 」というデータソースがあります。
 
 >[!NOTE]
 >
->検索、ソーシャル、Commerceには、[!DNL Google] オーディエンスの作成や編集に使用される [!DNL Adobe] セグメントの顧客データは格納されません。
+>Search, Social, &amp; Commerceでは、[!DNL Adobe] オーディエンスの作成または編集に使用した[!DNL Google] セグメントの顧客データは保存されません。
 
-1. 必要に応じて、次の前提条件を満たします。
+1. 必要に応じて前提条件を満たします。
 
-   1. （ユーザー ID リマーケティングリストオーディエンスを作成するには） [!DNL Adobe] 管理者ユーザーまたはアカウントマネージャーは、広告主レベルの設定を選択して、顧客一致オーディエンスを有効にする必要があります。
+   1. （ユーザーID リマーケティングリストのオーディエンスを作成するには） [!DNL Adobe]管理者ユーザーまたはアカウントマネージャーは、顧客一致オーディエンスを有効にするために、広告主レベルの設定を選択する必要があります。
 
-   1. [Adobe Experience Platform ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) バージョン 2.0 以降を実装します。
+   1. [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) バージョン 2.0以降を実装します。
 
-   1. オーディエンスの追跡元となる広告主の web ページに、次のタグをできるだけ高くデプロイします
+   1. オーディエンスを追跡する必要がある広告主のweb ページに、次のタグをできるだけ高くデプロイします
 
       `<script src="//pixel.everesttech.net/rlsa/<Advertising_Cloud_UserID>" type="text/javascript"> </script>`
 
-      ここで、`Advertising_Cloud_UserID` は広告主に割り当てられた一意の数値ユーザー ID です。
+      ここで、`Advertising_Cloud_UserID`は、広告主に割り当てられた一意の数値ユーザーIDです。
 
       例：`<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
-   1. （完了していない場合）承認済みユーザーは、[Adobe Experience Cloudで広告主の組織アカウントと同期する &#x200B;](/help/search-social-commerce/admin/sync-adobe-audiences.md) ように広告主のアカウントを設定する必要があります。
+   1. （まだ完了していない場合）承認済みユーザーは、広告主のアカウントを[Adobe Experience Cloudの広告主の組織アカウントと同期するように設定する必要があります](/help/search-social-commerce/admin/sync-adobe-audiences.md)。
 
-1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**&#x200B;をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
+1. データテーブルの上にあるツールバーで、![作成](/help/search-social-commerce/assets/add.png "作成")をクリックします。
 
-1. 広告ネットワークとアカウント名を選択し、「**[!UICONTROL Continue]**」をクリックします。
+1. 広告ネットワークとアカウント名を選択し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
 1. オーディエンス情報を指定します。
 
-   1. **[!UICONTROL Data Source]** メニューで、「**[!UICONTROL Adobe Audience]**」を選択します。
+   1. **[!UICONTROL Data Source]** メニューで、**[!UICONTROL Adobe Audience]**&#x200B;を選択します。
 
-   1. [!DNL Google] オーディエンスのベースとなる [!UICONTROL Adobe Audience] を選択します。
+   1. [!UICONTROL Adobe Audience] オーディエンスのベースとなる[!DNL Google]を選択します。
 
       >[!NOTE]
       >
-      >別 [!DNL Adobe]&#x200B;[!DNL Google] オーディエンスに既に使用されているオーディエンスは使用できません。
+      >別の[!DNL Adobe] オーディエンスに既に使用されている[!DNL Google] オーディエンスは使用できません。
 
-      オプションで、3 文字以上の特定のテキスト文字列を含むオーディエンスを検索できます。 一致するオーディエンスがある場合は、「**[!UICONTROL Include]**」をクリックして選択します。
+      オプションで、3文字以上の特定のテキスト文字列を含むオーディエンスを検索できます。 一致するオーディエンスの場合は、**[!UICONTROL Include]**&#x200B;をクリックして選択します。
 
-      複数の [!DNL Adobe] オーディエンスを選択した場合は、個別の [!DNL Google] オーディエンスが作成されます。
+      複数の[!DNL Adobe] オーディエンスを選択した場合、それぞれに対して個別の[!DNL Google] オーディエンスが作成されます。
 
-   1. 作成する **[!UICONTROL Audience Type]** を選択します：**[!UICONTROL Customer List_User ID]**。
+   1. 作成する&#x200B;**[!UICONTROL Audience Type]**&#x200B;を選択：**[!UICONTROL Customer List_User ID]**。
 
-      広告主の [!DNL Google Ads] アカウントは [&#x200B; カスタム一致の対象 &#x200B;](https://support.google.com/adspolicy/answer/6299717) であり、[&#x200B; ユーザー ID のリマーケティング &#x200B;](https://support.google.com/google-ads/answer/9199250) にオプトインされている必要があります。
+      広告主の[!DNL Google Ads] アカウントは[ カスタムマッチの対象](https://support.google.com/adspolicy/answer/6299717)で、[ ユーザーID リマーケティング ](https://support.google.com/google-ads/answer/9199250)にオプトインしている必要があります。
 
-   1. [!DNL Adobe] および広告ネットワークのプライバシーポリシーの条項に同意することを示すチェックボックスをオンにします。
+   1. 「[!DNL Adobe]」および広告ネットワークのプライバシーポリシーの条件に同意することを示すチェックボックスをオンにします。
 
-   1. **[!UICONTROL Membership Days]** 数を指定します。これは、ユーザーの Cookie がオーディエンスに残る日数です。
+   1. ユーザーのCookieがオーディエンスに滞在する日数である&#x200B;**[!UICONTROL Membership Days]**&#x200B;の数を指定します。
 
-      広告がユーザーに関連すると予想される時間の長さを使用します。 リマーケティングリストの最大期間は 540 日です。 顧客リストには最大期間はありません。cookie の有効期限がないことを示すには、10000 を入力します。
+      広告がユーザーに適していると期待される期間を使用します。 リマーケティングリストの最大期間は540日です。 顧客リストには最大期間がありません。Cookieの有効期限が切れないことを示すには、10000と入力します。
 
-   1. 「**[!UICONTROL Post]**」をクリックします。
+   1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
 >[!NOTE]
 >
->* ファイルの処理に最大 24 時間かかる場 [!DNL Google] があります。
+>* [!DNL Google]は、ファイルの処理に最大24時間かかる場合があります。
 >
->* [[!DNL Google Ads]  カスタマーマッチの仕組みと制限事項に関するドキュメント &#x200B;](https://support.google.com/displayvideo/answer/9539301) を参照してください。
+>* 顧客の一致の仕組みと制限に関する[[!DNL Google Ads]  ドキュメント ](https://support.google.com/displayvideo/answer/9539301)を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンスについて &#x200B;](audience-about.md)
->* [Adobe Campaign [!DNL Google Ads]  メールリストからカスタマーマッチオーディエンスを作成 &#x200B;](google-audience-from-campaign-email-list.md)
->* [&#x200B; 顧客データリストを使用したカスタマーマッチオーディエンスの管理 &#x200B;](audience-from-customer-data-list.md)
->* [&#x200B; 動的リマーケティングオーディエンスの管理 &#x200B;](audience-dynamic-remarketing-manage.md)
+>* [ オーディエンスについて](audience-about.md)
+>* [Adobe Campaignのメールリストから [!DNL Google Ads] 顧客マッチオーディエンスを作成](google-audience-from-campaign-email-list.md)
+>* [顧客データリストを使用した顧客一致オーディエンスの管理](audience-from-customer-data-list.md)
+>* [動的リマーケティングオーディエンスの管理](audience-dynamic-remarketing-manage.md)

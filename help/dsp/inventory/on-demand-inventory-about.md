@@ -3,9 +3,15 @@ title: プレミアム在庫について [!DNL On Demand] 件
 description: DSPがプレミアムパブリッシャーパートナーと事前に交渉した契約について説明します。
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+TQID: https://experienceleague.adobe.com/eQWPc1b2GRmORoOHXR6AzFFE1TdjI1fJe9Jr8pMjPZo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: 455
 ht-degree: 0%
 
 ---
@@ -53,7 +59,7 @@ DSP premium Marketplaceでは、次のことが可能です。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト &#x200B;](on-demand-inventory-subscribe.md)
+>* [ プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト ](on-demand-inventory-subscribe.md)
 >* [再申請 [!DNL On Demand]  プレミアム在庫取引](on-demand-inventory-rerequest.md)
 >* [取引依頼とサブスクリプションのステータスを表示 [!DNL On Demand] します](on-demand-inventory-view-status.md)
 >* アジア太平洋の[[!DNL On Demand]  プレミアム広告在庫パブリッシャー](on-demand-inventory-publishers-apac.md)

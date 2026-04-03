@@ -1,154 +1,159 @@
 ---
-title: ブランドの安全性とメディア品質
-description: ブランドセーフティとメディア品質機能の詳細をご覧ください。
+title: ブランドセーフティおよびメディア品質
+description: ブランドセーフティとメディア品質機能について詳しく見る。
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
+TQID: https://experienceleague.adobe.com/-buJmAx0gdtqiPETqfBFcr90LAHly8BNyjM6lVO-JKc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: 1402
 ht-degree: 0%
 
 ---
 
-# ブランドの安全性とメディア品質
+# ブランドセーフティおよびメディア品質
 
 <!-- Check on logo sizes in staging environment -- I made them all 100 pixels high except for DoubleVerify, which is 150 (harder to see at 100), but some instances look larger in VS Code. -->
 
-Advertising DSPは、各キャンペーンがブランドセーフな環境で実際のユーザーに確実にリーチするためのブランド保護機能スイートを提供します。
+Advertising DSPは、それぞれのキャンペーンがブランドを保護した環境で実際のユーザーにリーチできるように、一連のブランド保護機能を提供します。
 
-アドビの不正監視チームは、[!DNL Interactive Advertising Bureau]、[!DNL Trust and Accountability Group] [!DNL (TAG)]、[!DNL WhiteOps] など業界をリードするパートナーと緊密に連携して、プラットフォーム上の在庫を慎重にキュレーションします。 DSPは、アドビの供給を積極的に管理することで、プラットフォーム全体のすべての広告主が非人間のトラフィック（ボット、web クローラー、データセンタートラフィック、不正）から保護され、ブランドセーフなコンテキストでのみ提供されるようにします。
+アドビの不正監視チームは、[!DNL Interactive Advertising Bureau]、[!DNL Trust and Accountability Group]、[!DNL (TAG)]、[!DNL WhiteOps]などの業界をリードするパートナーと緊密に連携し、プラットフォーム上で在庫を慎重に監修しています。 DSPでは、供給を先見的に管理することで、プラットフォーム全体のあらゆる広告主を人間以外のトラフィック（ボット、web クローラー、データセンターのトラフィック、不正行為）から保護し、ブランドが安全な状況でのみ配信しています。
 
-当社は、中央品質管理を提供するだけでなく、広告主がブランドに合致した管理を設計できるようにすることを信じています。 DSPは、[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science] および [!DNL Peer39] との統合を提供し、各広告主が望ましいレベルの不正対策、コンテキストフィルタリングおよびキーワードターゲティングを選択できるようにします。
+当社では、一元的な品質管理を提供するだけでなく、広告主が自社ブランドに即した管理機能を設計できるようにしています。 DSPは、[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science]、[!DNL Peer39]との統合機能を提供しており、各広告主が希望するレベルの不正利用防止、コンテクスト型フィルタリング、キーワードターゲティングを選択できるようになります。
 
-## 品質イニシアティブ
+## 質の高い施策
 
-### [!DNL Ads.txt] をサポートする在庫検証
+### [!DNL Ads.txt]をサポートした在庫確認
 
-[[!DNL Ads.txt] は、を意味し  [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt)2017 年 6 月に [!DNL Interactive Advertising Bureau] （[!DNL IAB]）が開始したイニシアチブで、オープンマーケットでの在庫の適切な表示を容易にし、それによってトラフィックやドメインスプーフィングの違法なソースと戦っています。 参加するパブリッシャーやディストリビューターは、ドメインの最上位レベルに `ads.txt` ページ（`example.com/ads.txt` など）を維持することで、デジタルインベントリを販売する権限のある会社と、それらの関係の性質を公に宣言します。
+[[!DNL Ads.txt]は、 [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt)を表し、[!DNL Interactive Advertising Bureau] （[!DNL IAB]）が2017年6月に開始したイニシアチブで、オープンマーケットでの在庫の適切な表現を促進し、不正なトラフィック源やドメインのなりすましを防止します。 参加しているパブリッシャーやディストリビューターは、ドメインのトップレベルの`ads.txt` ページ（`example.com/ads.txt`など）を維持することで、デジタル在庫の販売を許可された企業とそれらの関係の性質を公に宣言します。
 
-DSPでは、各出版社の [!DNL ads.txt] ファイルを読み取り、検証済みの `ads.txt` の販売者からのみ購入できるオプションを提供することで、[!DNL ads.txt] をサポートしています。 `nytimes.com` 例えば、ニューヨーク・タイムズの `ads.txt` ファイルにアクセスする際に見つかった売り手を照合することで、合法な売り手と合法でない売り手を特定できます。また、プレースメントが検証済みの売り手からのみ購入するように設定されている場合は、犯罪者をブロックします。<!-- can we actually mention NY Times? -->
+DSPでは、各発行者の[!DNL ads.txt] ファイルを読み取り、検証済みの`ads.txt`販売者からのみ購入できるオプションを提供することで、[!DNL ads.txt]をサポートしています。 例えば、`nytimes.com`へのアクセスが確認されている販売者をNew York Timesの`ads.txt` ファイルと一致させることで、どの販売者が正当で、どれが正当でないかを特定できます。また、プレースメントが検証済みの販売者からのみ購入するように設定されている場合は、違反者をブロックします。<!-- can we actually mention NY Times? -->
 
-各広告主に対してデフォルトの [!DNL ads.txt] コントロールを設定し <!-- [default ads.txt controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> 次に、オプションで [&#x200B; 各プレースメントの設定をカスタマイズ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) できます。
+各広告主[!DNL ads.txt]に対してデフォルトの<!-- [default ads.txt controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> コントロールを設定し、オプションで[各プレースメント ](/help/dsp/campaign-management/placements/placement-settings.md)の設定を次のようにカスタマイズできます。
 
-* ドメインの正規の直販業者からのみ在庫を購入する
+* ドメインの承認済みの直接販売者からのみ在庫を購入する
 
-* ドメインの認定された直販業者および再販業者のみから在庫を購入
+* ドメインの承認済みの直接販売者と再販者からのみ在庫を購入する
 
-* ドメインの認定された直販業者および再販業者からの購入在庫を優先順位付けする
+* ドメインの承認済みの直接販売者と再販者からの購入在庫を優先させる
 
-* すべての販売者から在庫を購入
+* すべての販売者から在庫を購入する
 
 ### プラットフォーム不正監視
 
-DSPは、[!DNL Whiteops] や [!DNL Integral Ad Science] などの業界をリードするベンダーと提携し、プラットフォーム全体で不正を管理するための強力な内部ツールとシステムを構築しています。
+DSPは、[!DNL Whiteops]や[!DNL Integral Ad Science]などの主要な業界ベンダーと提携して、アドビのプラットフォーム全体で不正行為を管理するための強力な社内ツールやシステムを構築しています。
 
-さらに、Adobeは [!DNL IAB] や [!DNL TAG] と緊密に連携して、[!DNL ads.txt] （前の節を参照）、[!DNL IAB] ボットとスパイダーのリスト、[!DNL TAG] データセンターの IP リストなどのツールを活用して、広告主を保護するための堅牢な業界標準の不正ブロッキングを確実に行います。
+さらに、Adobeは[!DNL IAB]および[!DNL TAG]と緊密に連携し、業界標準の強力な不正ブロックを確保して[!DNL ads.txt] （前の節を参照）、[!DNL IAB] ボットとスパイダーのリスト、[!DNL TAG] データセンターのIP リストなどのツールを活用して、広告主を保護します。
 
-品質に対する多次元アプローチにより、アドビのチームは異常と無効なトラフィックパターンを監視し、保護された在庫の無効なトラフィックが 3% 未満であることを保証します。 特定のドメイン上の在庫、特定のパブリッシャーまたはセラーからの在庫など、疑わしい在庫は、プラットフォーム全体で直ちにブロックされます。
+多次元的な品質アプローチを通じて、異常値と無効なトラフィックパターンを監視し、保護された在庫の無効なトラフィックが3%未満であることを保証します。 特定のドメインや特定のメディア企業や販売者からの在庫など、疑わしい在庫は、プラットフォーム全体ですぐにブロックされます。
 
-### インベントリのマッピング、階層化、分類
+### 在庫のマッピング、階層化、分類
 
-インベントリマッピングは、すべての新しいインベントリがプラットフォームに追加される前に必要な、詳細なレビューとオンボーディングプロセスです。 このプロセスは、DSP上のすべての在庫の安全性と品質を確保するように設計されています。
+在庫マッピングとは、新しい在庫をプラットフォームに追加する前に、すべての在庫を確認し、オンボーディングする必要がある詳細なプロセスです。 このプロセスは、DSPのすべての在庫の安全性と品質を確保するように設計されています。
 
-* **マッピング：** 在庫チームは、次のような側面を評価し、各ドメインを慎重にレビューします。
+* **マッピング：**&#x200B;当社のインベントリ チームは、以下のような側面を評価しながら、各ドメインを慎重にレビューします。
 
    * ブランドセーフティ
 
    * 広告タイプの検証
 
-   * 一般的なコンテンツ、重複ドメインおよびフェイク広告サービス
+   * 一般的なコンテンツ、重複したドメイン、偽の広告サービング
 
-* **階層化：** エコシステム全体のブランドプレゼンスを総合的に調べ、異なる階層にインベントリを分類します。 目的のリーチレベルに合わせて、これらの層に [&#x200B; プレースメントをターゲットに &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) 設定できます。
+* **階層化：**&#x200B;全体的なエコシステムのブランドプレゼンスを総合的に調査して、異なる階層の在庫を分類します。 プレースメント [をこれらの階層に](/help/dsp/campaign-management/placements/placement-settings.md) ターゲット設定して、目的のレベルのリーチを行うことができます。
 
-   * **[!UICONTROL T1]** — ブランド名、国際的に認識できるサイト
+   * **[!UICONTROL T1]** — ブランド名で国際的に認知されたサイト
 
-   * **[!UICONTROL T2]** - ユーザーが作成したコンテンツがなく、通常はグローバルな認識に欠ける、最新の見栄えのよいサイト
+   * **[!UICONTROL T2]** – 最新で最新の、ユーザー生成コンテンツがなく、通常はグローバル認識が不足している見栄えのいいサイト
 
-   * **[!UICONTROL T3]** - ユーザー作成コンテンツとニッチコンテンツ
+   * **[!UICONTROL T3]** — ユーザー生成コンテンツとニッチなコンテンツ
 
-* **サイトの分類：** コンテンツのターゲティングとブロックを容易にするために、各プロパティに、プロパティのコンテンツに基づいてDSPで定義されたサイトカテゴリのタグを付けます。 プレースメントの目標に基づいて [&#x200B; プレースメントごとにこれらのサイトカテゴリを &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) ターゲット設定または除外）できます。
+* **サイトのカテゴリ化：** コンテンツのターゲティングとブロックを容易にするために、各プロパティにプロパティの内容に基づいてDSP定義のサイト カテゴリをタグ付けします。 プレースメントの目標に基づいて、各プレースメント [に対してこれらのサイトカテゴリを](/help/dsp/campaign-management/placements/placement-settings.md) ターゲットまたは除外できます。
 
-### サイトブロックの包括的なサポート
+### サイトブロッキングの包括的なサポート
 
-DSPには、グローバルにブロックされたサイトリストと、広告主とアカウント用にカスタムのブロックされたサイトリストを作成するオプションの両方が用意されています。
+DSPには、グローバルにブロックされたサイトリストと、広告主とアカウントのカスタムブロックされたサイトリストを作成するオプションの両方が用意されています。
 
-#### DSPでグローバルにブロックされたサイトのリスト {#global-blocked-sites}
+#### DSPのグローバルにブロックされたサイトの一覧 {#global-blocked-sites}
 
-DSPは、広告を実行するのに安全でないと見なされるサイトのグローバルにブロックされたサイトリストを保持します。 このリストには、好ましくないコンテンツ（憎悪や恐怖など）を含むサイトや、ボットに感染したサイト、偽のプレロール、不一致のドメイン、その他の不正行為が含まれています。
+DSPでは、広告を実行する上で安全でないと判断されたサイトのリストを、グローバルにブロックして維持します。 このリストには、好ましくないコンテンツ（ヘイトやテロなど）を掲載したサイトや、ボット、偽のプレロール、不一致ドメイン、その他の不正なアクティビティに感染したサイトが含まれています。
 
-広告主を騙す活動を根絶するためのブランドセーフティイニシアチブの一環として、すべてのサイトは、チャートのブロックされたサイトリストの対策を使用してスクリーニングされます。 ブランドの安全性チェックに合格しないすべてのサイトは、グローバルにブロックされたサイトのリストに追加されます。 DSPはこのリストを動的に管理するので、最新のブランドセーフティ分析に基づいて、サイトはいつでもリストの表示と非表示を切り替えることができます。
+広告主を詐欺する行為を根絶するためのブランドセーフティの取り組みの一環として、すべてのサイトがチャートブロックされたサイトリストの指標を使用してスクリーニングされます。 ブランドセーフティチェックに合格しないすべてのサイトは、グローバルにブロックされたサイトリストに追加されます。 DSPでは、そうしたリストを動的に管理するため、最新のブランドセーフティ分析にもとづいて、サイトはいつでもリストの上または外に移動できます。
 
-グローバルにブロックされたサイトのリストに配置ターゲットとしてサイトを含めると、そのサイトには赤い感嘆符（!）のフラグが付きます。 これは、フラグが設定されたサイトで広告が実行されていないことを示します。
+グローバルにブロックされたサイト リストに配置ターゲットとしてサイトを含めると、そのサイトに赤い感嘆符（!）が付きます。 これは、フラグが付けられたサイトで広告が実行されないことを示します。
 
 >[!NOTE]
 >
->オプションで、[!UICONTROL Allow unscreened sites] プレースメント設定 [&#x200B; の「](/help/dsp/campaign-management/placements/placement-settings.md)」オプションを有効にすることで、信頼されたプライベート取引に添付された標準のディスプレイ広告のグローバルブロックサイトリストをバイパスできます。 必要に応じて、Adobe アカウントチームは、必要に応じて、取引の公開者設定で公開（オークションレベル）取引のサイトブロックを無効にすることもできます。
+>[!UICONTROL Allow unscreened sites] プレースメント設定[で「](/help/dsp/campaign-management/placements/placement-settings.md)」オプションを有効にすることで、信頼できるプライベート取引に添付された標準ディスプレイ広告のグローバルブロックサイトリストをオプションでバイパスできます。 必要に応じて、Adobe アカウントチームは、取引用のパブリッシャー設定のパブリック（オークションレベル）取引のサイトブロッキングをオプションで無効にすることもできます。
 
 #### アカウントレベルと広告主レベルのブロックされたサイトリスト
 
-ユーザーは、アカウントレベルおよび広告主レベルでブロックされたサイトリストを管理することもできます。このリストは <!-- [account-level and advertiser-level blocked sites lists](/help/dsp/admin/blocked-sites-list-edit.md) --> すべてのプレースメントに対して自動的に使用されます。 グローバルにブロックされたサイトの一覧に加えて、下位レベルのブロックされたサイトの一覧が適用されます。
+ユーザーは、アカウントレベルと広告主レベルのブロックされたサイトリスト <!-- [account-level and advertiser-level blocked sites lists](/help/dsp/admin/blocked-sites-list-edit.md) -->を管理することもできます。これらのサイトリストは、すべてのプレースメントに自動的に使用されます。 グローバルにブロックされたサイトリストに加えて、下位レベルのブロックされたサイトリストが適用されます。
 
-## サードパーティの統合
+## サードパーティ製アプリケーションとの統合
 
 ### コンテキストフィルタリング
 
-コンテキストフィルタリングを使用すると、広告が提供するページのコンテキストに基づいて、広告オポチュニティをターゲットに設定したりブロックしたりできます。 Adobeでは、[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science]、[!DNL Peer39] など、業界の主要ベンダーと統合してコンテキストに応じたフィルタリングを提供しています。 現在のフィルターの例としては、[!UICONTROL Adult Content]、[!UICONTROL Natural Disasters]、[!UICONTROL Legal Drinking Age]、[!UICONTROL MANGA]、[!UICONTROL Epidemics]、[!UICONTROL G-rated Sites] などがあります。
+コンテキストフィルタリングを使用すると、広告が配信されるページのコンテキストに基づいて、広告機会をターゲットまたはブロックできます。 Adobeは、業界の主要ベンダー[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science]、[!DNL Peer39]との統合により、コンテキストフィルタリングを提供します。 現在のフィルターの例には、[!UICONTROL Adult Content]、[!UICONTROL Natural Disasters]、[!UICONTROL Legal Drinking Age]、[!UICONTROL MANGA]、[!UICONTROL Epidemics]および[!UICONTROL G-rated Sites]が含まれます。
 
-各広告主に対してデフォルトのコンテキストフィルターコントロールを設定し <!-- [default contextual filter controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> その後、オプションで [&#x200B; 各プレースメントの設定をカスタマイズ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) できます。 この機能を使用すると、追加料金が発生する場合があります。
+広告主<!-- [default contextual filter controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->ごとにデフォルトのコンテキストフィルター制御を設定し、オプションで[各プレースメントの設定をカスタマイズ ](/help/dsp/campaign-management/placements/placement-settings.md)できます。 この機能を使用する場合、追加料金が適用される場合があります。
 
-![Comscore ロゴ &#x200B;](/help/dsp/assets/comscore-logo.png)![DoubleVerify ロゴ &#x200B;](/help/dsp/assets/doubleverify-logo.png)![&#x200B; 統合広告サイエンスロゴ &#x200B;](/help/dsp/assets/ias-logo.png)![Peer39 ロゴ &#x200B;](/help/dsp/assets/peer39-logo.png)
+![Comscore ロゴ ](/help/dsp/assets/comscore-logo.png) ![DoubleVerify ロゴ ](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science ロゴ ](/help/dsp/assets/ias-logo.png) ![Peer39 ロゴ ](/help/dsp/assets/peer39-logo.png)
 
-### 入札前の不正ブロッキング
+### 入札前の不正行為のブロック
 
-[!DNL DoubleVerify]、[!DNL Integral Ad Science]、[!DNL Peer39] とのサードパーティ統合を活用して、キャンペーンから人間以外のトラフィックをブロックします。 これらの統合により、業界をリードする入札前ブロック機能が提供され、キャンペーンで一般的および高度な無効トラフィック（GIVT および SIVT）の両方を最小限に抑えることができます。
+[!DNL DoubleVerify]、[!DNL Integral Ad Science]、[!DNL Peer39]のサードパーティとの統合を活用して、キャンペーンからの人間以外のトラフィックをブロックします。 これらの統合は、業界をリードする入札前ブロック機能を提供し、キャンペーンにおける一般的なトラフィックと高度な無効トラフィック（GIVTおよびSIVT）の両方を最小限に抑えます。
 
-各広告主に対してデフォルトの入札前不正ブロッキング制御を設定してから <!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> オプションで [&#x200B; 各プレースメントの設定をカスタマイズ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) できます。 この機能を使用すると、追加料金が発生する場合があります。
+各広告主<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->に対してデフォルトの入札前の不正防止ブロック制御を設定し、オプションで[各配置の設定をカスタマイズ ](/help/dsp/campaign-management/placements/placement-settings.md)できます。 この機能を使用する場合、追加料金が適用される場合があります。
 
-機能について詳しくは、該当するベンダーに直接問い合わせるか、Adobe アカウントチームにお問い合わせください。
+機能の詳細については、ご希望のベンダーに直接お問い合わせいただくか、Adobeアカウントチームにお問い合わせください。
 
-![DoubleVerify ロゴ &#x200B;](/help/dsp/assets/doubleverify-logo.png)![&#x200B; 統合広告サイエンスロゴ &#x200B;](/help/dsp/assets/ias-logo.png)![Peer39 ロゴ &#x200B;](/help/dsp/assets/peer39-logo.png)
+![DoubleVerify ロゴ ](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science ロゴ ](/help/dsp/assets/ias-logo.png) ![Peer39 ロゴ ](/help/dsp/assets/peer39-logo.png)
 
-### Pre-bid viewability {#pre-bid-viewability}
+### 入札前の視認性 {#pre-bid-viewability}
 
-業界をリードするパートナー [!DNL DoubleVerify] と [!DNL Integral Ad Science] を活用した Pre-bid viewability フィルターを使用すると、広告主は、ビデオやディスプレイの在庫全体で、キャンペーンが望ましいビューアビリティパフォーマンス目標を満たしていることを確認できます。
+業界最先端のパートナー[!DNL DoubleVerify]および[!DNL Integral Ad Science]が提供する入札前の視聴可能性フィルターを使用すると、広告主は、ビデオおよびディスプレイのインベントリ全体で、キャンペーンが希望する視聴可能性パフォーマンス目標を満たしていることを確認できます。
 
-各広告主に対してデフォルトのビューアビリティフィルターを設定し <!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) --> その後でオプションで [&#x200B; 各プレースメントの設定をカスタマイズ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) できます。 この機能を使用すると、追加料金が発生する場合があります。
+各広告主<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) -->に対してデフォルトの表示可能性フィルターを設定し、オプションで[各プレースメントの設定をカスタマイズ ](/help/dsp/campaign-management/placements/placement-settings.md)できます。 この機能を使用する場合、追加料金が適用される場合があります。
 
-![DoubleVerify ロゴ &#x200B;](/help/dsp/assets/doubleverify-logo.png)![&#x200B; 統合広告サイエンスロゴ &#x200B;](/help/dsp/assets/ias-logo.png)
+![DoubleVerify ロゴ ](/help/dsp/assets/doubleverify-logo.png) ![統合広告サイエンス ロゴ ](/help/dsp/assets/ias-logo.png)
 
-### アテンションターゲティングと測定
+### アテンションのターゲティングと測定
 
-[!DNL Adobe's] とのパートナーシップ [!DNL Adelaide]、広告主に、アイトラッキング、露出、結果データに基づいてメディア品質を測定するアデレード指標「[!DNL Attention Units]」のサポートを提供します。
+[!DNL Adobe's]と[!DNL Adelaide]のパートナーシップにより、広告主は、アイトラッキング、露出、結果データに基づいてメディア品質を測定するアデレード指標「[!DNL Attention Units]」をサポートできます。
 
-[&#x200B; プレースメントレベルの事前入札注意ターゲティング &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) を使用すると、広告主は特定の注意レベルをターゲットにして、顧客エンゲージメントを向上させることができます。
+[広告主は、プレースメントレベルの入札前アテンションのターゲティング ](/help/dsp/campaign-management/placements/placement-settings.md)により、特定のアテンションのレベルをターゲットにして、顧客エンゲージメントを向上させることができます。
 
-さらに、広告主は、任意のキャンペーンで [&#x200B; プレースメントレベルの [!UICONTROL Attention Score] 指標のトラッキング &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) （インプレッション間の重み付け平均 [!DNL Attention Units] 数）を有効にして、どのプレースメント戦術が最適なビジネス成果を生み出すかを把握できます。
+さらに、広告主は、あらゆるキャンペーンに対してプレースメントレベル [指標[!UICONTROL Attention Score]の](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) トラッキング（インプレッションの重み付け平均数[!DNL Attention Units]）を有効にして、どのプレースメント戦術が最も優れたビジネス成果を生み出すのかを把握できます。
 
-各機能に対して追加料金が発生します。
+追加料金は、個別の機能ごとに適用されます。
 
-### トピックのターゲティング
+### トピックターゲティング
 
-DSPのトピックのターゲット設定では、業界をリードするコンテキストパートナーリク [!DNL Comscore] ストを活用して、キーワードリストをターゲット設定またはブロックできます。 トピックのターゲティングは、有害なコンテンツのブロックや、より大きな結果を確実にするコンテキストでの費用の確保など、ブランドに合致した環境で広告を常に提供するのに役立ちます。
+DSPのトピックターゲティングでは、業界をリードするコンテキストパートナー[!DNL Comscore]を活用して、キーワードリストをターゲットにしたりブロックしたりすることができます。 トピック別ターゲティングを実施することで、有害なコンテンツをブロックしたり、より大きな成果を生み出すコンテクストで費用を確保したりするなど、広告を企業に合った環境で常に提供することができます。
 
-トピックのターゲティングでは、パートナープラットフォームと直接カスタムトピックセグメントを作成する必要があります。 セグメントを作成したら、[&#x200B; 各プレースメントの「[!UICONTROL Audience Targeting]」セクションでセグメント ID をターゲット設定または除外 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) できます。 この機能には追加料金が発生する場合があります。
+トピックターゲティングでは、パートナープラットフォームで直接カスタムトピックセグメントを作成する必要があります。 セグメントを作成したら、各プレースメント [の[!UICONTROL Audience Targeting] セクションでセグメント IDを](/help/dsp/campaign-management/placements/placement-settings.md) ターゲットまたは除外できます。 この機能には追加料金が適用される場合があります。
 
-[!DNL Comscore] アカウントを作成し、カスタムトピックセグメントを作成するには、[!DNL Activation Segment Manager]https://agents.comscore.com[&#x200B; で &#x200B;](https://agents.comscore.com) のログインをリクエストします。 カスタムセグメントの設定手順について詳しくは、[[!DNL Comscore]  ヘルプセンター &#x200B;](https://comscoreactivation.zendesk.com/hc/) を参照してください。 カスタムセグメントの料金は、カスタムセグメントの作成時に [!DNL Segment Manager] に表示されます。
+[!DNL Comscore] アカウントを作成してカスタム トピックセグメントを作成するには、[!DNL Activation Segment Manager]の[https://agents.comscore.com](https://agents.comscore.com)へのログインをリクエストできます。 カスタムセグメントの設定方法について詳しくは、[[!DNL Comscore]  ヘルプセンター](https://comscoreactivation.zendesk.com/hc/)を参照してください。 カスタムセグメントを作成すると、カスタムセグメントの料金が[!DNL Segment Manager]に表示されます。
 
-![Comscore ロゴ &#x200B;](/help/dsp/assets/comscore-logo.png)
+![Comscore ロゴ ](/help/dsp/assets/comscore-logo.png)
 
 ### [!DNL DoubleVerify Authentic Brand Safety]
 
-DSPは [!DNL DoubleVerify] と提携し、[!DNL Authentic Brand Safety] のターゲティングソリューションを提供しています。これにより、一貫性を保つためにすべての購入プラットフォームをまたいでターゲットにする、一連のブランドセーフティ要件を一元的に作成できます。
+DSPは[!DNL DoubleVerify]と提携し、[!DNL Authentic Brand Safety]のターゲティングソリューションを提供しました。これにより、ブランドの安全性に関する一元的な要件を作成し、あらゆる購買プラットフォームをまたいでターゲットを絞り込んで一貫性を確保できます。
 
-必要なターゲティングを持つ [!DNL DoubleVerify] ブランドセーフティセグメントを作成したら、DSP内でそれを使用して、web 環境全体で事前入札を含む入札後のブロックルールをレプリケートできます。
+必要なターゲティングで[!DNL DoubleVerify]個のブランドセーフティセグメントを構築したら、DSP内で使用して、入札後のブロックルールをweb環境全体で入札後のブロックルールを複製できます。
 
-各広告主に対して [!DNL DoubleVerify] セグメント ID を指定し <!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) --> 必要に応じて [&#x200B; プレースメントごとに [!UICONTROL Authentic Brand Safety] を有効または無効にする &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) ことができます。 DSPは、セグメント ID の使用に対してアカウントに請求します。
+各広告主[!DNL DoubleVerify]に<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) --> セグメント IDを指定し、オプションで[ プレースメントごとに[!UICONTROL Authentic Brand Safety]を有効または無効にできます](/help/dsp/campaign-management/placements/placement-settings.md)。 DSPは、セグメント IDの使用状況についてアカウントに請求します。
 
-機能について詳しくは、[!DNL DoubleVerify] に直接問い合わせるか、Adobe アカウントチームにお問い合わせください。
+機能の詳細については、[!DNL DoubleVerify]に直接お問い合わせいただくか、Adobe アカウントチームにお問い合わせください。
 
-![DoubleVerify ロゴ &#x200B;](/help/dsp/assets/doubleverify-logo.png)
+![DoubleVerify ロゴ ](/help/dsp/assets/doubleverify-logo.png)
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメント設定 &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)
 <!-- >* [Advertiser Account Settings](/help/dsp/admin/advertiser-settings.md) -->

@@ -1,71 +1,77 @@
 ---
-title: （新しい UI）目標について
-description: ビジネス目標を達成するための目標について説明します。
+title: （新しいUI）目的について
+description: ビジネス目標を達成する方法を解説します。
 feature: Search Objectives, Search Optimization
-hide: true
+hide: yes
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
-source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
+TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: 516
 ht-degree: 0%
 
 ---
 
-# （新しい UI）目標について
+# （新しいUI）目的について
 
 *Beta機能*
 
-目標は、利益の最大化や特定の販売目標の達成など、広告主がビジネス目標を達成するために設定する目標です。 Advertising Search、Social、Commerce、Advertising DSPの両方が目標を使用します。
+目標とは、利益を最大化したり、特定の販売目標を達成したりするなど、広告主がビジネス目標を達成するために設定する目標です。 Advertising Search, Social, &amp; CommerceおよびAdvertising DSPの使用目的：
 
-* 最適化機能でポートフォリオのクリック数および売上高モデルを作成できるように、検索、ソーシャル、Commerceの各ポートフォリオに目標を設定する必要があります。
+* Search, Social, &amp; Commerceの各ポートフォリオには、最適化機能がポートフォリオのクリックと収益モデルを作成できるように、目的が必要です。
 
-* DSPでは、検索、ソーシャル、Commerceの各アカウントにリンクされたDSP アカウントのカスタム目標として目標が表示されます。 「広告費用対効果（ROAS）の最大化」または「獲得あたりのコストの最小化（CPA）」の最適化目標を使用する各パッケージには、全体の最適化目標を達成するのに役立つカスタム目標を含める必要があります。
+* DSPでは、目標は、Search、Social、およびCommerce アカウントにリンクされているDSP アカウントのカスタム目標として表示されます。 最適化目標「広告費用対効果（ROAS）の最大化」または「顧客獲得単価（CPA）」を使用する各パッケージには、全体的な最適化目標の達成に役立つカスタム目標が含まれている必要があります。
 
-目的は、追跡および最適化するコンバージョン指標と、それらの指標の相対的な重み付けで構成されます。 例えば、2 つのオンライン購読レベルと 1 つの印刷購読レベルを持ち、「利益を最大化」という目的を持つオンライン雑誌が、20 USD と評価される「基本オンライン購読」、40 USD と評価される「プレミアムオンライン購読」、30 USD と評価される「印刷購読」の 3 つの指標を持つとします。 サブスクリプションの 1 回限りの金額に応じて重みを付ける場合、指標の相対的な重みはそれぞれ 1、2、1.5 になります。
+目的は、追跡および最適化されるコンバージョン指標と、これらの指標の相対的な重みによって構成されます。 例えば、2つのオンライン購読レベルと1つの印刷物の購読レベルを持つオンライン雑誌で、目的の「利益を最大化」が3つの指標を持つとします。20米ドルの「基本的なオンライン購読」、40米ドルの「プレミアムオンライン購読」、30米ドルの「印刷物の購読」です。 雑誌が購読の1回限りの金銭的価値に応じて重みを与えたい場合、指標の相対的な重みはそれぞれ1、2、および1.5になります。
 
-目標の各指標に対して、次の操作を実行できます。
+目的の各指標について、次のことができます。
 
-* モバイルデバイスからのコンバージョンに対して別々の重み付けを設定します。
+* モバイルデバイスからのコンバージョン用に個別の重みを設定します。
 
-* 指標を [!UICONTROL Goal] の指標または [!UICONTROL Assist] の指標としてラベル付けします。
+* 指標を[!UICONTROL Goal]指標または[!UICONTROL Assist]指標としてラベル付けします。
 
-* 指標に重み付けレコメンデーションを適用します。
+* 指標に重み付けの推奨事項を適用します。
 
 >[!NOTE]
->* （検索、ソーシャル、Commerce）目標をポートフォリオに関連付けるには、[&#x200B; ポートフォリオを作成 &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)、後で [&#x200B; ポートフォリオ設定を変更 &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md) します。
->* （検索、ソーシャル、CommerceアカウントにリンクしたDSP アカウントを持つ広告主） Advertising DSPでは、パッケージレベルのペーシングを使用するパッケージの [&#x200B; カスタム最適化目標 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) として目的を選択できます。
->* 複数の検索、ソーシャル、Commerceのポートフォリオや複数のDSP パッケージに対して、同じ目的を使用できます。
->* [!UICONTROL Objectives] ビュー内の各目的の指標には、DSPのデータは含まれません。
+>* （検索、ソーシャル、およびCommerce）ポートフォリオを[作成](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)するか、後で[ ポートフォリオ設定を変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)することで、目標をポートフォリオに関連付けることができます。
+>* （Search、Social、およびCommerce アカウントにリンクされたDSP アカウントを持つ広告主） Advertising DSPでは、目的をパッケージレベルのペーシングを持つパッケージの[ カスタム最適化目標](/help/dsp/campaign-management/packages/package-settings.md)として選択できます。
+>* 複数のSearch、Social、およびCommerce ポートフォリオや複数のDSP パッケージに同じ目的を使用できます。
+>* [!UICONTROL Objectives] ビューの各目的の指標には、DSPのデータは含まれていません。
 
-## 使用可能な指標
+## 利用可能な指標
 
 目標には、次のいずれかを含めることができます。
 
-* Adobe Advertisingが [Adobe Advertising コンバージョントラッキングピクセル &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-advertising.md) を使用して追跡する指標。
+* [Adobe Advertising コンバージョントラッキングピクセル ](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)を使用してAdobe Advertisingが追跡する指標。
 
-* [&#x200B; コンバージョンフィードファイルから広告主が追跡した指標 &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-about.md).<!-- Search only, or might DSP-only clients also have these? -->
+* [ コンバージョンフィード ファイルから広告主が追跡した指標](/help/search-social-commerce/tracking/conversion-tracking-about.md).<!-- Search only, or might DSP-only clients also have these? -->
 
-* （[!DNL Adobe Analytics for Advertising] を使用する広告主） [Adobe Analyticsから同期されたコンバージョンおよびサイトエンゲージメント指標 &#x200B;](/help/integrations/analytics/overview.md)。
+* （広告主と[!DNL Adobe Analytics for Advertising]） [ コンバージョンとサイトエンゲージメントの指標がAdobe Analytics](/help/integrations/analytics/overview.md)から同期されました。
 
-  検索、ソーシャル、Commerceでは、[、](/help/integrations/analytics/analytics-data-in-advertising.md)、`timespent_secs_1stvisit`、`timespent_secs_total`、`pageviews_1stvisit` の `pageviews_total` サイトエンゲージメント指標 `bounces` が、ポートフォリオ入札アルゴリズムに自動的に組み込まれます。
+  Search, Social, &amp; Commerceでは、次の[ サイトエンゲージメント指標](/help/integrations/analytics/analytics-data-in-advertising.md)がポートフォリオ入札アルゴリズムに自動的に組み込まれます：`timespent_secs_1stvisit`、`timespent_secs_total`、`pageviews_1stvisit`、`pageviews_total`、および`bounces`。
 
-* [!DNL Google] 指標：<!-- Search only, or might DSP-only clients also have these? -->
+* [!DNL Google]指標：<!-- Search only, or might DSP-only clients also have these? -->
 
-   * 同期された [[!DNL Google Ads] アカウントからの &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) [!DNL Google Ads] で追跡されたコンバージョン。
+   * 同期した[[!DNL Google Ads] アカウントから](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)件のトラッキングされたコンバージョン [!DNL Google Ads]。
 
-   * （[[!DNL Google Analytics]  統合 &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md)）ページビュー、セッション、バウンス率（バウンス/セッションとして計算）、セッション時間を使用する広告主。
+   * （統合[[!DNL Google Analytics] の広告主](/help/search-social-commerce/admin/data-sources/data-source-about.md)） ページビュー、セッション、直帰率（バウンス/セッションとして計算）、セッション時間。
 
-     検索、ソーシャル、Commerceでは、これらの指標は、ポートフォリオ入札アルゴリズムに自動的に組み込まれます。
+     Search, Social, &amp; Commerceでは、これらの指標は自動的にポートフォリオ入札アルゴリズムに組み込まれます。
 
-## 広告ネットワークに目標をアップロードするオプション
+## 広告ネットワークに目的をアップロードするオプション
 
-オプションで [&#x200B; アカウントのポートフォリオの目標をコンバージョンとして  [!DNL Google Ads]  アップロード  [!DNL Microsoft Advertising]  でき、キャンペーンレベルまたは広告グループレベルの最適化に使用できる &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md) うになります。 このオプションを有効にすると、検索、ソーシャル、Commerceでは、毎日、EF ID （クリック ID）レベルで重み付けされた売上高データが広告ネットワークに渡されます。 ネットワークで追跡される広告の指標は省略されます。
+オプションで[ アカウントのポートフォリオの目標を [!DNL Google Ads] および/または [!DNL Microsoft Advertising]  コンバージョン ](/help/search-social-commerce/tools/objective-upload-to-networks.md)として アップロードして、キャンペーンレベルまたは広告グループレベルの最適化に使用できます。 このオプションを有効にすると、Search, Social, &amp; Commerceは、EF ID （クリック ID）レベルの重み付けされた収益データを毎日アドネットワークに渡します。 ネットワークで追跡される広告の指標が省略されます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 目標の作成 &#x200B;](objective-create.md)
->* [&#x200B; 目標の編集 &#x200B;](objective-edit.md)
->* [&#x200B; 目標の削除 &#x200B;](objective-delete.md)
->* [&#x200B; 目標への重み付けレコメンデーションの適用 &#x200B;](objective-apply-weight-recommendations.md)
->* [&#x200B; 目標の設定 &#x200B;](objective-settings.md)
->* [&#x200B; 目標のパフォーマンスデータのダウンロード &#x200B;](objective-download-performance-data.md)
+>* [目標を作成](objective-create.md)
+>* [目標を編集](objective-edit.md)
+>* [目標を削除](objective-delete.md)
+>* [目標に重み付けの推奨事項を適用](objective-apply-weight-recommendations.md)
+>* [目標の設定](objective-settings.md)
+>* [目的のパフォーマンスデータをダウンロード ](objective-download-performance-data.md)

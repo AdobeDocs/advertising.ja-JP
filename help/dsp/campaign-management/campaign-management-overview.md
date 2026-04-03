@@ -1,22 +1,28 @@
 ---
-title: Advertising DSPのキャンペーン管理の概要
+title: Adobe Advertising DSPのキャンペーン管理の概要
 description: キャンペーン管理の階層とコンポーネントについて説明します。
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/w7j86H42OR371vewJM--ep2YUn70XJpMWJQNT92r2CY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: d9510790-d834-436d-8423-8d69cd50464aid: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: 335
 ht-degree: 0%
 
 ---
 
-# Advertising DSPのキャンペーン管理の概要
+# Adobe Advertising DSPのキャンペーン管理の概要
 
-DSP キャンペーンには次の階層があります。
+DSP キャンペーンには、次の階層があります。
 
 * キャンペーン
    * パッケージ
-      * プレースメント
+      * 配置
          * 広告
 <!--
  Do clients think in terms of insertion orders? If yes, then work in the following info.:
@@ -25,36 +31,36 @@ In Advertising DSP, an insertion order is represented as a campaign, and line it
 
 ## [!UICONTROL Campaigns]
 
-[&#x200B; キャンペーン &#x200B;](/help/dsp/campaign-management/campaigns/campaign-about.md) は、フライト設定の包括的なフレームワークです。 各キャンペーンは、広告主、開始日と終了日、全体的な予算、クロスデバイスターゲティングオプションとデフォルトのフリークエンシーキャップ、ビューアビリティ、詐欺、ブランドセーフティ、オーディエンス検証のレポートオプションで設定されます。 キャンペーンレベルのすべての設定は、キャンペーン内の各パッケージおよびプレースメントに自動的に適用されます。
+[ キャンペーン ](/help/dsp/campaign-management/campaigns/campaign-about.md)は、フライト設定の包括的なフレームワークです。 各キャンペーンには、広告主、開始日と終了日、全体的な予算、クロスデバイスのターゲティングオプションとデフォルトの頻度制限、視認性、不正行為、ブランドセーフティ、オーディエンス検証のためのレポートオプションが設定されます。 キャンペーンレベルの設定はすべて、キャンペーン内の各パッケージとプレースメントに自動的に適用されます。
 
 ## [!UICONTROL Packages]
 
-各キャンペーンには 1 つ以上の [&#x200B; パッケージ &#x200B;](/help/dsp/campaign-management/packages/package-about.md) を含めることができ、それぞれにプレースメントのセットが含まれます。
+各キャンペーンには1つ以上の[ パッケージ ](/help/dsp/campaign-management/packages/package-about.md)を含めることができ、それぞれにプレースメントのセットが含まれます。
 
-パッケージを使用すると、設定した予算、パフォーマンス目標、カスタムペーシング戦略に配信するプレースメントをグループ化できます。 DSPは、パッケージ内の最もパフォーマンスの高いプレースメントに予算をシフトすることで、パッケージを最適化します。 プレースメント形式、インベントリタイプ、データプロバイダー、ペルソナ、その他の識別可能な特性でパッケージを整理できます。
+パッケージを使用して、設定された予算、パフォーマンス目標、カスタムペーシング戦略への配信のプレースメントをグループ化します。 DSPは、予算をパッケージ内で最もパフォーマンスの高いプレースメントに移行することで、パッケージを最適化します。 配置フォーマット、在庫タイプ、データプロバイダー、ペルソナなどの識別可能な特性にもとづいてパッケージを整理することができます。
 
 パッケージはオプションですが、推奨されます。
 
 ## [!UICONTROL Placements]
 
-[&#x200B; プレースメント &#x200B;](/help/dsp/campaign-management/placements/placement-about.md) には、同じ広告タイプの 1 つ以上の広告に対するターゲティングパラメーターが保存されます。 1 つのキャンペーンまたはパッケージのプレースメントを作成し、それに広告を割り当てることができます。
+[ プレースメント ](/help/dsp/campaign-management/placements/placement-about.md)には、同じ広告タイプの1つ以上の広告のターゲティングパラメーターが格納されます。 単一のキャンペーンまたはパッケージのプレースメントを作成し、それに広告を割り当てることができます。
 
 ## [!UICONTROL Ads]
 
-[&#x200B; 広告 &#x200B;](/help/dsp/campaign-management/ads/ad-about.md) には、クリエイティブアセットとトラッキング URL が含まれます。 サードパーティの広告サービングタグは、個別にまたは一括でアップロードできます。それには、パートナータグシートまたは一括タグテンプレートを使用します。 また、DSPが提供するネイティブディスプレイ広告を手動で作成することもできます。
+[広告](/help/dsp/campaign-management/ads/ad-about.md)には、クリエイティブアセットとトラッキング URLが含まれています。 パートナータグシートまたはバルクタグテンプレートを使用して、サードパーティの広告配信タグを個別にアップロードしたり、一括アップロードしたりできます。 DSPが提供するネイティブのディスプレイ広告を手動で作成することもできます。
 
-広告を設定したら、広告の実行を開始するために、各広告をプレースメントに添付する必要があります。 1 つの広告を 1 つ以上のプレースメントに添付できます。
+広告を設定したら、広告の実行を開始するには、各広告をプレースメントに添付する必要があります。 1つの広告を1つ以上のプレースメントにアタッチできます。
 
-アクティブなキャンペーンのアクティブなプレースメントに含まれるすべてのアクティブで承認済みの広告は、プレースメントのターゲティングパラメーターに基づいて実行できます。
+アクティブなキャンペーン内のアクティブなプレースメント内のすべてのアクティブな承認済み広告は、プレースメントのターゲティングパラメーターに基づいて実行する資格があります。
 
 >[!MORELIKETHIS]
 >
->* [Advertising DSPでのキャンペーン管理について &#x200B;](/help/dsp/campaign-management/campaigns/campaign-about.md)
->* [Advertising DSPのパッケージ管理について &#x200B;](/help/dsp/campaign-management/packages/package-about.md)
->* [Advertising DSPでのプレースメント管理について &#x200B;](/help/dsp/campaign-management/placements/placement-about.md)
->* [Advertising DSPの広告管理について &#x200B;](/help/dsp/campaign-management/ads/ad-about.md)
->* [Campaign 起動チェックリスト &#x200B;](/help/dsp/campaign-management/campaign-launch-checklist.md)
->* [&#x200B; パフォーマンスキャンペーンの設定に関するベストプラクティス &#x200B;](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [&#x200B; キャンペーン管理ビューでのパフォーマンスレポートのタイプ &#x200B;](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [&#x200B; キャンペーンデータビューの管理 &#x200B;](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [&#x200B; ビデオ：DSP アカウント構造とユーザーインターフェイス &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ja)
+>* [Advertising DSPでのキャンペーン管理について](/help/dsp/campaign-management/campaigns/campaign-about.md)
+>* [Advertising DSPでのパッケージ管理について](/help/dsp/campaign-management/packages/package-about.md)
+>* [Advertising DSPでのプレースメント管理について](/help/dsp/campaign-management/placements/placement-about.md)
+>* [Advertising DSPの広告管理について](/help/dsp/campaign-management/ads/ad-about.md)
+>* [ キャンペーン開始のチェックリスト ](/help/dsp/campaign-management/campaign-launch-checklist.md)
+>* [ パフォーマンスキャンペーンの設定に関するベストプラクティス ](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [ キャンペーン管理ビューのパフォーマンスレポートの種類](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [ キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [ ビデオ：DSP アカウント構造とユーザーインターフェイス ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

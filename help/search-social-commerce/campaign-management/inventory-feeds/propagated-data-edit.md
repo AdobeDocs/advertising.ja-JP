@@ -1,58 +1,61 @@
 ---
-title: フィードから生成されたデータを編集
-description: 在庫データフィードから生成されたデータを編集する方法を説明します。
+title: フィードから生成されたデータの編集
+description: 在庫データフィードから生成されたデータを編集する方法について説明します。
 exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/YAjOramjWXPJmOkLB2dhjG3PLUUAEbDAPRBYLVSl3vo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: 426
 ht-degree: 0%
 
 ---
 
-# フィードから生成されたデータを編集
+# フィードから生成されたデータの編集
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除アクションのみ）および [!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除操作のみ）、[!DNL Yandex] アカウントのみ*
 
-フィード データを広告ネットワークに同時に投稿せずに伝達する場合は、次のいずれかの方法でデータを編集できます。 後で必要に応じて、いずれかの場所から関連する広告ネットワークに [&#x200B; データを投稿 &#x200B;](propagated-data-post.md) できます。
+フィード データを広告ネットワークに同時に投稿せずに反映する場合は、次のいずれかの方法でデータを編集できます。 後で、オプションで[ データを投稿](propagated-data-post.md)して、いずれかの場所から関連する広告ネットワークに送信できます。
 
-* オプションを「[!UICONTROL Propagate and Preview]」に使用した場合は、生成されたバルクシートファイル（「`<feed file name>_<template name>`」という名前）を [!UICONTROL Bulksheets] ビューからダウンロードして編集し、再度アップロードすることで編集できます。 「[!UICONTROL Campaigns]」、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」、「[!UICONTROL Ads]」の各タブには、データは含まれていません。
+* このオプションを「[!UICONTROL Propagate and Preview]」に使用した場合は、生成されたバルクシート ファイル （「`<feed file name>_<template name>`」という名前）を、[!UICONTROL Bulksheets] ビューからダウンロードし、ファイルを編集して、再度アップロードすることで編集できます。 データが[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]のタブに含まれていません。
 
-* オプションを「[!UICONTROL Propagate only]」に使用した場合は、キャンペーン階層ビュー内の「[!UICONTROL Campaigns]」、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」、「[!UICONTROL Ads]」の各タブで [&#128279;](propagated-data-status.md) [!UICONTROL New] ステータスのコンポーネントに対して生成されたデータを編集できます。
+* このオプションを「[!UICONTROL Propagate only]」に使用した場合、キャンペーン階層ビュー内の[[!UICONTROL New]、](propagated-data-status.md)、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]のタブから、[!UICONTROL Keywords] ステータス [!UICONTROL Ads]のコンポーネントに対して生成されたデータを編集できます。
 
-  キャンペーン階層ビューには、フィードファイルから生成されたデータのみが表示され、既存のアカウントコンポーネントは表示されません。 コンポーネントとそのすべてのサブコンポーネントのデータが広告ネットワークに投稿されると、キャンペーン階層に表示されなくなります。
+  キャンペーン階層ビューには、フィードファイルから生成されたデータのみが表示され、既存のアカウントコンポーネントは表示されません。 コンポーネントとそのすべてのサブコンポーネントのデータが広告ネットワークに投稿されると、キャンペーン階層にリストされなくなります。
 
-   1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** をクリックすると、「[!UICONTROL Templates]」タブが開きます。
+   1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;をクリックすると、[!UICONTROL Templates] タブが開きます。
 
-   1. （任意）特定のテンプレート用に作成されたキャンペーンコンポーネントのみを表示するには、次の手順を実行します。
+   1. （オプション）特定のテンプレート用に作成されたキャンペーンコンポーネントのみを表示するには：
 
       1. テンプレート名をクリックします。
 
-      1. 左側のナビゲーション ウィンドウの [!UICONTROL Accounts] メニューで、[ 広告ネットワーク ] ノードと [ 広告ネットワーク アカウント ] ノードを展開し、テンプレート名の横にあるチェック ボックスをオンにします。
+      1. 左側のナビゲーションパネルの[!UICONTROL Accounts] メニューで、広告ネットワークノードと広告ネットワークアカウントノードを展開し、テンプレート名の横にあるチェックボックスを選択します。
 
    1. 表示するコンポーネントに応じて、「**[!UICONTROL Campaigns]**」、「**[!UICONTROL Ad Groups]**」、「**[!UICONTROL Keywords]**」または「**[!UICONTROL Ads]**」タブをクリックします。
 
       >[!NOTE]
       >
-      >* 特定のテンプレートのデータを表示しない場合、「[!UICONTROL Ad Groups]」、「[!UICONTROL Keywords]」および「[!UICONTROL Ads]」タブには、すべてのテンプレートおよびフィードファイルから作成されたすべての広告グループ、キーワードおよび広告が一覧表示されます。 買い物かごに使用される製品グループ [!DNL Google Ads]、「[!UICONTROL Keywords]」タブに表示されます。
+      >* 特定のテンプレートのデータを表示しない限り、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]および[!UICONTROL Ads]のタブには、すべてのテンプレートとフィード ファイルから作成されたすべての広告グループ、キーワード、および広告が一覧表示されます。 [!DNL Google Ads]件のショッピング広告に使用されている製品グループは、[!UICONTROL Keywords] タブに一覧表示されます。
       >* 特定のキャンペーンのサブコンポーネントのみを表示するには、まず「[!UICONTROL Campaigns]」タブを表示します。 同様に、特定の広告グループのサブコンポーネントのみを表示するには、まず「[!UICONTROL Ad Groups]」タブを表示します。
 
-   1. （オプション：広告グループ、キーワードまたは広告のみを編集する場合）リストをフィルタリングして、特定のキャンペーンまたは広告グループのサブコンポーネントのみを含めます。
+   1. （オプション、広告グループ、キーワード、または広告のみを編集するには）特定のキャンペーンまたは広告グループのサブコンポーネントのみを含めるようにリストをフィルタリングします。
 
-      * キャンペーンのすべての広告グループをリストするには、キャンペーン名をクリックします。
+      * キャンペーン内のすべての広告グループを一覧表示するには、キャンペーン名をクリックします。
 
-      * 広告グループ内のすべてのキーワードをリストするには、広告グループ名をクリックします。
+      * 広告グループ内のすべてのキーワードを一覧表示するには、広告グループ名をクリックします。
 
-      * 広告グループ内のすべての名前を一覧表示するには、広告グループ名をクリックし、[[!UICONTROL Ads]] タブをクリックします。
+      * 広告グループ内のすべてをリストするには、広告グループ名をクリックし、「[!UICONTROL Ads]」タブをクリックします。
 
-   1. キャンペーン、広告グループ、キーワードまたは広告名の横にある [&#x200B; 設定を表示/編集 &#x200B;](/help/search-social-commerce/assets/settings.png "設定を表示/編集アイコン") アイコンをクリックします。
+   1. キャンペーン、広告グループ、キーワード、または広告名の横にある[設定の表示/編集アイコン ](/help/search-social-commerce/assets/settings.png "設定の表示/編集アイコン")をクリックします。
 
-   1. 設定を編集し、[**[!UICONTROL Save]**] をクリックします。
+   1. 設定を編集し、**[!UICONTROL Save]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 在庫フィードについて &#x200B;](inventory-feeds-about.md)
->* [&#x200B; フィードから生成されたデータを表示 &#x200B;](propagated-data-view.md)
->* [&#x200B; フィードから広告ネットワークにキャンペーンデータを投稿する &#x200B;](propagated-data-post.md)
->* [&#x200B; 在庫フィード データの転記ジョブを停止 &#x200B;](stop-job.md)
->* [&#x200B; フィードから生成されたデータのステータス &#x200B;](propagated-data-status.md)
+>* [在庫フィードについて](inventory-feeds-about.md)
+>* [ フィードから生成されたデータを表示](propagated-data-view.md)
+>* [ フィードから生成されたキャンペーンデータを広告ネットワークに投稿](propagated-data-post.md)
+>* [在庫フィード データの投稿ジョブを停止](stop-job.md)
+>* フィードから生成されたデータの[ ステータス ](propagated-data-status.md)

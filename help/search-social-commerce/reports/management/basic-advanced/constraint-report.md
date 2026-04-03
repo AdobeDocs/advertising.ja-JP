@@ -1,28 +1,32 @@
 ---
 title: '[!UICONTROL Constraint Report]'
-description: '[!UICONTROL Constraint Report] について説明します。'
+description: '[!UICONTROL Constraint Report]について説明します。'
 exl-id: f7d56520-1683-4e79-9d57-84bc4d6f8760
 feature: Search Reports, Search Basic Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/hoPnWEw5QVwmVkB7drUkJnzIoln1VKOxY7RLI541zlI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: 130
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Constraint Report]
 
-[!UICONTROL Constraint Report] には、ポートフォリオ、広告ネットワーク、アカウント、キャンペーンまたは広告グループにわたって集計されたラベル分類アーキテクチャを使用する制約のコスト、クリック、コンバージョンデータ（オプション）が含まれます。 デフォルトでは、指定した日付範囲の時間単位ごとに、該当する各制約に対して 1 行がデータに含まれます。 行は、制約条件に従って昇順に並べられ、デフォルトでは時間単位の開始日で並べられます。
+[!UICONTROL Constraint Report]には、ラベル分類アーキテクチャを使用し、ポートフォリオ、広告ネットワーク、アカウント、キャンペーン、広告グループをまたいで集計された制約のコスト、クリック、および（オプションで）コンバージョンデータが含まれます。 デフォルトでは、データには、指定された日付範囲の時間単位ごとに、適用できる制約ごとに1行が含まれます。 行は、最初に制約によって昇順に並べ、次に時間単位の開始日によってデフォルトで昇順になります。
 
-過去 36 か月までのデータを表示できます。
+過去36か月間のデータを表示できます。
 
 >[!NOTE]
 >
->エンティティの制約に加えた変更は、約 1 時間で表示されます。
+>エンティティの拘束に加えた変更は、約1時間で表示されます。
 
 ## デフォルトの列
 
-すべてのデフォルト列およびカスタム列の説明は、[&#x200B; 基本および詳細レポートのレポート列 &#x200B;](basic-advanced-report-columns.md) を参照してください。
+すべてのデフォルト列とカスタム列について詳しくは、「[基本レポートと詳細レポートのレポート列](basic-advanced-report-columns.md)」を参照してください。
 
 * [!UICONTROL Constraint Name]
 * [!UICONTROL Constraint Status]
@@ -41,6 +45,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 基本レポートと高度なレポートについて &#x200B;](basic-advanced-report-about.md)
->* [&#x200B; 基本レポートまたは詳細レポートの生成 &#x200B;](basic-advanced-report-generate.md)
->* [&#x200B; 基本および詳細レポートの設定 &#x200B;](basic-advanced-report-settings.md)
+>* [基本レポートと詳細レポートについて](basic-advanced-report-about.md)
+>* [基本レポートまたは詳細レポートを生成](basic-advanced-report-generate.md)
+>* [基本および詳細レポート設定](basic-advanced-report-settings.md)

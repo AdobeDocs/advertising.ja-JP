@@ -3,9 +3,15 @@ title: ' [!DNL Roku] 在庫を使用しています'
 description: 在庫オプション、承認済みのサードパーティ追跡ベンダー、 [!DNL Roku]固有の配置に関するベストプラクティスなど、 [!DNL Roku]とのDSPのパートナーシップについて説明します。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+TQID: https://experienceleague.adobe.com/6CdN1InBGyd9pkECHBITFv1l8JjVdQ6Ot2MUDIAvDjY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: ac506c20-96f2-48f6-9096-77706e336bdaid: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: fbfa676f-2cdb-49be-b949-f2fab1be6dafid: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 450
 ht-degree: 0%
 
 ---
@@ -32,7 +38,7 @@ Advertising DSPは[!DNL Roku]に広告の機能を提供します。
 
 * プライベートな契約の場合、[DSP](/help/dsp/inventory/deal-id-create.md)で契約IDに関する情報を設定し、[!UICONTROL Roku Network - Audience]件のプレースメント内で「[!UICONTROL The Roku Channel - Audience]」と「[!DNL Roku]」をターゲットにします。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
-* [&#x200B; ギャラリー [!DNL Roku] 内の次の [!DNL On Demand]  インベントリを](/help/dsp/inventory/on-demand-inventory-subscribe.md)購読し、[!DNL Roku] プレースメント内の承認済み契約のいずれかをターゲットにすることができます。
+* [ ギャラリー [!DNL Roku] 内の次の [!DNL On Demand]  インベントリを](/help/dsp/inventory/on-demand-inventory-subscribe.md)購読し、[!DNL Roku] プレースメント内の承認済み契約のいずれかをターゲットにすることができます。
 
    * [!UICONTROL Roku Network - Audience]、[!DNL Roku]、[!DNL The CW]など、プレミアムコンテンツパートナーを含む[!DNL ABC] エコシステム全体のインベントリの「[!DNL ESPN]」。
 
@@ -54,7 +60,7 @@ Advertising DSPは[!DNL Roku]に広告の機能を提供します。
 
 ## [!DNL Roku] プレースメント
 
-DSP キャンペーンでは、プレースメントタイプ「[」を使用して [!DNL Roku]特定のプレースメント &#x200B;](/help/dsp/campaign-management/placements/placement-create.md)を作成[!UICONTROL Connected TV (Roku)]します。 目標が定義された[!DNL Roku]固有のパッケージに[!DNL Roku]個のプレースメントを含めます。
+DSP キャンペーンでは、プレースメントタイプ「[」を使用して [!DNL Roku]特定のプレースメント ](/help/dsp/campaign-management/placements/placement-create.md)を作成[!UICONTROL Connected TV (Roku)]します。 目標が定義された[!DNL Roku]固有のパッケージに[!DNL Roku]個のプレースメントを含めます。
 
 各[!DNL Roku] プレースメントは、少なくとも1つの[!DNL Roku]案件またはソースをターゲットにする必要があります。 [!DNL Roku]と一致するDSPのオーディエンスを使用するには、[!DNL Roku] （オプトイン）決定論的データセットと照合できる1つ以上のオーディエンスセグメントを含めます。
 
@@ -84,5 +90,5 @@ DSP キャンペーンでは、プレースメントタイプ「[」を使用し
 >[!MORELIKETHIS]
 >
 >* [取引IDの詳細を手動で作成する](/help/dsp/inventory/deal-id-create.md)
-> * [&#x200B; プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)
->* [&#x200B; プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)
+> * [ プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト ](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+>* [ プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)

@@ -1,12 +1,16 @@
 ---
 title: カスタムシミュレーションの実行または再実行
-description: ポートフォリオのカスタムシミュレーションを実行または再実行する方法を説明します。
+description: ポートフォリオのカスタムシミュレーションを実行または再実行する方法について説明します。
 feature: Search Optimization, Search Portfolios, Search Simulations
-hide: true
+hide: yes
 exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
-source-git-commit: d96e003346c7cc3c1803c8cba259f2b18d839168
+TQID: https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: 476
 ht-degree: 0%
 
 ---
@@ -15,98 +19,98 @@ ht-degree: 0%
 
 *Beta機能*
 
-カスタムシミュレーションは、（最適化またはアクティブ [&#x200B; ポートフォリオに対して生成 &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) きます。 また、既存のシミュレーションのパラメータを変更してシミュレーションを再生成するか、既存のパラメータを使用して既存のシミュレーションを再実行することもできます。
+[最適化されたポートフォリオまたはアクティブな](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) ポートフォリオのカスタムシミュレーションを生成できます。 また、既存のシミュレーションのパラメーターを変更してシミュレーションを再生成したり、既存のパラメーターを使用して既存のシミュレーションを再実行したりすることもできます。
 
-[!UICONTROL Admin] および [!UICONTROL Account Manager] ユーザーは、他のユーザーが作成したシミュレーションを表示できます。 他のすべてのユーザーには、作成したカスタムシミュレーションのみが表示されます。
+[!UICONTROL Admin]および[!UICONTROL Account Manager]人のユーザーは、他のユーザーが作成したシミュレーションを表示できます。 他のすべてのユーザーは、作成したカスタムシミュレーションのみを表示できます。
 
 ## 新しいシミュレーションの作成
 
-1. メインメニューで、**[!UICONTROL Plan]/[!UICONTROL Simulations]** をクリックします。
+1. メインメニューで、**[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;をクリックします。
 
-1. データ テーブルの上にある [**[!UICONTROL Run Simulation]**] をクリックします。
+1. データテーブルの上で、**[!UICONTROL Run Simulation]**&#x200B;をクリックします。
 
 1. ポートフォリオを選択します。
 
-   1. 「**[!UICONTROL Select Portfolio]**」をクリックします。
+   1. **[!UICONTROL Select Portfolio]**&#x200B;をクリックします。
 
    1. ポートフォリオを選択します。
 
-      特定のテキスト文字列を含むポートフォリオを検索するには、検索フィールドにテキスト文字列を入力します。 値では大文字と小文字が区別されません。
+      特定のテキスト文字列を含むポートフォリオを検索するには、検索フィールドにテキスト文字列を入力します。 値では大文字と小文字は区別されません。
 
-   1. 「**[!UICONTROL Proceed]**」をクリックします。
+   1. **[!UICONTROL Proceed]**&#x200B;をクリックします。
 
-1. [&#x200B; カスタム シミュレーション設定 &#x200B;](#custom-simulation-settings) を指定します。
+1. [ カスタムシミュレーション設定](#custom-simulation-settings)を指定します。
 
-   1. （オプション）シミュレーションに使用するポートフォリオを変更するには、ポートフォリオ名の横にある [**[!UICONTROL Change Portfolio]**] をクリックし、ポートフォリオを選択して、[**[!UICONTROL Proceed]**] をクリックします。
+   1. （オプション）シミュレーションに使用するポートフォリオを変更するには、ポートフォリオ名の横にある&#x200B;**[!UICONTROL Change Portfolio]**&#x200B;をクリックし、ポートフォリオを選択してから&#x200B;**[!UICONTROL Proceed]**&#x200B;をクリックします。
 
-   1. 「[!UICONTROL Basic Settings]」タブで、次の操作を行います。
+   1. 「[!UICONTROL Basic Settings]」タブ：
 
-      1. 一意の **[!UICONTROL Simulation Name]** を入力します。
+      1. 一意の&#x200B;**[!UICONTROL Simulation Name]**&#x200B;を入力してください。
 
-      1. （任意）シミュレーションの基本パラメーターを変更します。
+      1. （オプション）シミュレーションの基本パラメーターを変更します。
 
-   1. （オプション）「[!UICONTROL Advanced Settings]」タブで、シミュレーションの詳細設定パラメーターを変更します。
+   1. （オプション）「[!UICONTROL Advanced Settings]」タブで、シミュレーションの詳細パラメーターを変更します。
 
-   選択したポートフォリオの既存のパラメーターが、デフォルトで指定されます。 値を変更すると、ポートフォリオの既存のパラメーターを変更せずに、様々なパラメーターで生成される結果が表示されます。
+   選択したポートフォリオの既存のパラメーターは、デフォルトで指定されます。 値を変更すると、ポートフォリオの既存のパラメーターを変更せずに異なるパラメーターが生成する結果が表示されます。
 
-1. 「**[!UICONTROL Next]**」をクリックします。
-
-1. 設定を確認し、必要に応じて設定を編集します。
-
-1. 「**[!UICONTROL Submit & Run]**」をクリックします。
-
-シミュレーションレポートが使用可能になると、指定された他のメール受信者は、1 つのワークブック（XLSX ファイル）を含んだ ZIP ファイルにデータをダウンロードするためのリンクが付いた通知を受け取ります。
-
-<!-- Still true:  When the results for any report type include more than 60,000 rows, the workbook includes multiple worksheets. -->
-
-## 既存のシミュレーションの設定を編集し、再実行します
-
-1. メインメニューで、**[!UICONTROL Plan]/[!UICONTROL Simulations]** をクリックします。
-
-1. 再生成するシミュレーションの横にあるチェック ボックスをオンにします。
-
-1. データ テーブルの上にある [**[!UICONTROL Run Simulation]**] をクリックします。
-
-1. [&#x200B; カスタム シミュレーション設定 &#x200B;](#custom-simulation-settings) を指定します。
-
-   1. （オプション）シミュレーションに使用するポートフォリオを変更するには、ポートフォリオ名の横にある [**[!UICONTROL Change Portfolio]**] をクリックし、ポートフォリオを選択して、[**[!UICONTROL Proceed]**] をクリックします。
-
-   1. 「[!UICONTROL Basic Settings]」タブで、次の操作を行います。
-
-      1. 一意の **[!UICONTROL Simulation Name]** を入力します。
-
-      1. （任意）シミュレーションの基本パラメーターを変更します。
-
-   1. （オプション）「[!UICONTROL Advanced Settings]」タブで、シミュレーションの詳細設定パラメーターを変更します。
-
-   選択したポートフォリオの既存のパラメーターが、デフォルトで指定されます。 値を変更すると、ポートフォリオの既存のパラメーターを変更せずに、様々なパラメーターで生成される結果が表示されます。
-
-1. 「**[!UICONTROL Next]**」をクリックします。
+1. **[!UICONTROL Next]**&#x200B;をクリックします。
 
 1. 設定を確認し、必要に応じて設定を編集します。
 
-1. 「**[!UICONTROL Submit & Run]**」をクリックします。
+1. **[!UICONTROL Submit & Run]**&#x200B;をクリックします。
 
-シミュレーションレポートが使用可能になると、指定された他のメール受信者は、1 つのワークブック（XLSX ファイル）を含んだ ZIP ファイルにデータをダウンロードするためのリンクが付いた通知を受け取ります。
+シミュレーションレポートが使用可能になると、ユーザーと指定されたその他のメール受信者は、1つのワークブック（XLSX ファイル）を含むZIP ファイルにデータをダウンロードするためのリンクを含む通知を受け取ります。
 
 <!-- Still true:  When the results for any report type include more than 60,000 rows, the workbook includes multiple worksheets. -->
 
-## 既存の設定でシミュレーションを再実行します
+## 既存のシミュレーションの設定を編集して再実行する
+
+1. メインメニューで、**[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;をクリックします。
+
+1. 再生成するシミュレーションの横にあるチェックボックスをオンにします。
+
+1. データテーブルの上で、**[!UICONTROL Run Simulation]**&#x200B;をクリックします。
+
+1. [ カスタムシミュレーション設定](#custom-simulation-settings)を指定します。
+
+   1. （オプション）シミュレーションに使用するポートフォリオを変更するには、ポートフォリオ名の横にある&#x200B;**[!UICONTROL Change Portfolio]**&#x200B;をクリックし、ポートフォリオを選択してから&#x200B;**[!UICONTROL Proceed]**&#x200B;をクリックします。
+
+   1. 「[!UICONTROL Basic Settings]」タブ：
+
+      1. 一意の&#x200B;**[!UICONTROL Simulation Name]**&#x200B;を入力してください。
+
+      1. （オプション）シミュレーションの基本パラメーターを変更します。
+
+   1. （オプション）「[!UICONTROL Advanced Settings]」タブで、シミュレーションの詳細パラメーターを変更します。
+
+   選択したポートフォリオの既存のパラメーターは、デフォルトで指定されます。 値を変更すると、ポートフォリオの既存のパラメーターを変更せずに異なるパラメーターが生成する結果が表示されます。
+
+1. **[!UICONTROL Next]**&#x200B;をクリックします。
+
+1. 設定を確認し、必要に応じて設定を編集します。
+
+1. **[!UICONTROL Submit & Run]**&#x200B;をクリックします。
+
+シミュレーションレポートが使用可能になると、ユーザーと指定されたその他のメール受信者は、1つのワークブック（XLSX ファイル）を含むZIP ファイルにデータをダウンロードするためのリンクを含む通知を受け取ります。
+
+<!-- Still true:  When the results for any report type include more than 60,000 rows, the workbook includes multiple worksheets. -->
+
+## 既存の設定でシミュレーションを再実行する
 
 現在キューに入っていないシミュレーションを再実行できます。
 
-1. メインメニューで、**[!UICONTROL Plan]/[!UICONTROL Simulations]** をクリックします。
+1. メインメニューで、**[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;をクリックします。
 
-1. 再実行するシミュレーションの横にあるチェック ボックスをオンにします。
+1. 再実行するシミュレーションの横にあるチェックボックスをオンにします。
 
-1. データ テーブルの上にあるツールバーで、[![&#x200B; 再実行 &#x200B;](/help/search-social-commerce/assets/rerun.png " 再実行 ")] をクリックします。
+1. データテーブルの上にあるツールバーで、![再実行](/help/search-social-commerce/assets/rerun.png "再実行")をクリックします。
 
 ## カスタムシミュレーション設定 {#custom-simulation-settings}
 
-カスタムシミュレーション設定について詳しくは、検索、ソーシャル、Commerce内から利用できる最適化ガイドを参照してください。
+カスタムシミュレーション設定について詳しくは、Search, Social, &amp; Commerce内から入手できるOptimization Guideを参照してください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; シミュレーションについて &#x200B;](simulation-about.md)
->* [&#x200B; シミュレーションの詳細を表示 &#x200B;](simulation-view.md)
->* [&#x200B; シミュレーションのダウンロード &#x200B;](simulation-download.md)
+>* [ シミュレーションについて](simulation-about.md)
+>* [ シミュレーションの詳細を表示](simulation-view.md)
+>* [ シミュレーションのダウンロード ](simulation-download.md)

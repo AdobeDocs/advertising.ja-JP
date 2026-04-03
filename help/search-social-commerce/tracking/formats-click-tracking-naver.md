@@ -3,9 +3,12 @@ title: ' [!DNL Naver]のクリックトラッキング形式'
 description: ' [!DNL Naver]  アカウントのクリックトラッキング形式について説明します。'
 exl-id: b438652e-6e98-4223-8169-2bfb37500670
 feature: Search Tracking
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+TQID: https://experienceleague.adobe.com/c1zAy1aKgr4MRpyiitdmO4VxP7kfKfFWHzYk88lvX2w
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: 90
 ht-degree: 0%
 
 ---
@@ -26,9 +29,9 @@ ht-degree: 0%
 >
 >* この形式は、キャンペーンに対してトークン渡しが有効になっていることを示します（デフォルト）。 トークンの渡しが無効な場合は、`cq?`の後の`<advertiser_ID>`を`c?`に置き換えます。
 >
->* `<the landing page>`は、エンドユーザーの宛先となるサイト上のURLを表す変数です。
+* `<the landing page>`は、エンドユーザーの宛先となるサイト上のURLを表す変数です。
 
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising コンバージョントラッキングサービスのクリックトラッキング URL形式について](formats-click-tracking-about.md)
->* [AMO ID形式](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID形式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

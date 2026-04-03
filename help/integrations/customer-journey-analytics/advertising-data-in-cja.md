@@ -1,28 +1,33 @@
 ---
-title: Customer Journey AnalyticsのAdobe Advertising指標およびディメンション
+title: Customer Journey AnalyticsのAdobe Advertising指標とディメンション
 description: Customer Journey Analyticsで使用可能なAdobe Advertisingの指標とディメンションを参照します。
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 97c89e03-ab15-4906-96fc-6bb77ea0cd7c
-source-git-commit: 5040589b0fecceffbe365fc83c8e96be15f182cf
+TQID: https://experienceleague.adobe.com/JN42ThofnM6kP8Urd8bTpyQbIWIReb-jgCbOvlnCAQ0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: 437
 ht-degree: 0%
 
 ---
 
-# Customer Journey AnalyticsのAdobe Advertising指標およびディメンション
+# Customer Journey AnalyticsのAdobe Advertising指標とディメンション
 
-*Adobe AdvertisingとCustomer Journey Analyticsの統合のみを利用する広告主*
+*Adobe AdvertisingとCustomer Journey Analyticsの統合のみを使用する広告主*
 
 *Beta機能*
 
-Adobe Advertisingは、トラフィック指標とディメンションを毎日 [!DNL Customer Journey Analytics] に渡します。 [!DNL Web SDK] は、Adobe Advertisingのクリックスルーとビュースルーをリアルタイムでキャプチャして、Customer Journey Analyticsに渡します。
+Adobe Advertisingは、毎日[!DNL Customer Journey Analytics]にトラフィック指標とディメンションを渡します。 [!DNL Web SDK]は、Adobe Advertisingのクリックとビュースルーをリアルタイムでキャプチャし、Customer Journey Analyticsに渡します。
 
 ## Adobe Advertisingのトラフィック指標
 
 <!-- Verify column names -->
 
-次の表を参照してください。
+次の表に示します。
 
 * 「XDM フィールド名」は、Adobe Experience Platformのフィールド名です。
 
@@ -32,19 +37,19 @@ Adobe Advertisingは、トラフィック指標とディメンションを毎日
 |------------------------------|----------------|------------------------|--------|
 | 日付 | 日付 | すべて | |
 | AMO ID | skwcid | ADOBE ADVERTISING ID | すべて |
-| AMO インプレッション数 | adobe_advertising_impressions | Adobe Advertising インプレッション数 | すべて |
+| AMO インプレッション数 | adobe_advertising_impressions | Adobe Advertising インプレッション | すべて |
 | AMO クリック数 | adobe_advertising_clicks | Adobe Advertising クリック数 | すべて |
-| AMO コスト | adobe_advertising_cost | Adobe Advertisingコスト | すべて |
+| AMO コスト | adobe_advertising_cost | Adobe Advertising コスト | すべて |
 | 通貨コード | 通貨 | 通貨 | すべて |
-| AMO ビュー数 | adobe_advertising_views | Adobe Advertising ビュー | Ad CloudDSP |
-| AMO 再生 25% 時点の視聴数 | adobe_advertising_views_25_pct | Adobe Advertising再生 25% 時点の視聴数 | Ad CloudDSP |
-| AMO 再生 50% 時点の視聴数 | adobe_advertising_views_50_pct | Adobe Advertising再生 50% 時点の視聴数 | Ad CloudDSP |
-| AMO 再生 75% 時点の視聴数 | adobe_advertising_views_75_pct | Adobe Advertising再生 75% 時点の視聴数 | Ad CloudDSP |
-| AMO 再生 100% 時点での視聴数 | adobe_advertising_views_100_pct | Adobe Advertising再生 100% 時点での視聴数 | Ad CloudDSP |
-| AMO 視聴時間（分） | adobe_advertising_minutes_viewed | Adobe Advertising閲覧時間（分） | Ad CloudDSP |
-| AMO ビューアブルインプレッション数 | adobe_advertising_viewable_impressions | Adobe Advertising ビューアブルインプレッション数 | Ad CloudDSP |
-| AMO 非ビューアブルインプレッション数 | adobe_advertising_not_viewable_impressions | Adobe Advertising ノンビューアブルインプレッション数 | Ad CloudDSP |
-| AMO 測定可能インプレッション数 | adobe_advertising_measureable_impressions | Adobe Advertising測定可能なインプレッション数 | Ad CloudDSP |
+| AMO ビュー | adobe_advertising_views | Adobe Advertising ビュー | Ad Cloud DSP |
+| AMO ビュー数25%完了 | adobe_advertising_views_25_pct | Adobe Advertisingの閲覧数25%完了 | Ad Cloud DSP |
+| AMO ビュー数50%完了 | adobe_advertising_views_50_pct | Adobe Advertisingの閲覧数50%完了 | Ad Cloud DSP |
+| AMO ビュー75%完了 | adobe_advertising_views_75_pct | Adobe Advertisingの閲覧数75%完了 | Ad Cloud DSP |
+| AMO ビュー数100%完了 | adobe_advertising_views_100_pct | Adobe Advertisingでの閲覧数が100%完了 | Ad Cloud DSP |
+| AMOの表示時間（分） | adobe_advertising_minutes_viewed | Adobe Advertising分表示時間 | Ad Cloud DSP |
+| AMO表示可能インプレッション数 | adobe_advertising_viewable_impressions | Adobe Advertisingで表示できるインプレッション数 | Ad Cloud DSP |
+| AMOのインプレッションが表示されない | adobe_advertising_not_viewable_impressions | Adobe Advertisingで表示されないインプレッション | Ad Cloud DSP |
+| AMO測定可能なインプレッション数 | adobe_advertising_measure_impressions | Adobe Advertisingの測定可能なインプレッション数 | Ad Cloud DSP |
 
 <!--
 | Adobe Advertising Landing Page Views | adobe_advertising_landing_page_views | Adobe Advertising Landing Page Views | Meta Only |
@@ -59,9 +64,9 @@ Adobe Advertisingは、トラフィック指標とディメンションを毎日
 | Adobe Advertising Messages | adobe_advertising_messages | Adobe Advertising Messages | Meta Only |
 -->
 
-## Adobe Advertising ディメンション
+## Adobe Advertisingのディメンション
 
-次の表を参照してください。
+次の表に示します。
 
 <!-- Need to fill in the "Source" column -->
 
@@ -74,27 +79,27 @@ Adobe Advertisingは、トラフィック指標とディメンションを毎日
 | キー | skwcid | ADOBE ADVERTISING ID |  |
 | 広告プラットフォーム | adobe_advertising_ad_platform | Adobe Advertising Ad Platform |  |
 | アカウント | adobe_advertising_account | Adobe Advertising アカウント |  |
-| キャンペーン | adobe_advertising_campaign | Adobe Advertising キャンペーン |  |
-| 広告グループ | adobe_advertising_ad_group | Adobe Advertising広告グループ |  |
-| キーワード | adobe_advertising_keyword | Adobe Advertisingキーワード |  |
+| キャンペーン | adobe_advertising_campaign | Adobe Advertising Campaign |  |
+| 広告グループ | adobe_advertising_ad_group | Adobe Advertising Ad Group |  |
+| キーワード | adobe_advertising_keyword | Adobe Advertising キーワード |  |
 | 広告 | adobe_advertising_ad | Adobe Advertising広告 |  |
-| プレースメント | adobe_advertising_placement | Adobe Advertisingの配置 |  |
-| 一致のタイプ | adobe_advertising_match_type | Adobe Advertising一致タイプ |  |
+| プレースメント | adobe_advertising_placement | Adobe Advertising Placement |  |
+| 一致タイプ | adobe_advertising_match_type | Adobe Advertisingの一致タイプ |  |
 | 広告タイトル | adobe_advertising_ad_title | Adobe Advertising広告タイトル |  |
-| 広告の説明 | adobe_advertising_ad_description | Adobe Advertising広告の説明 |  |
-| 広告の宛先 URL | adobe_advertising_ad_destination_url | Adobe Advertising広告の宛先 URL |  |
-| 広告表示 URL | adobe_advertising_ad_display_url | Adobe Advertising広告の表示 URL |  |
-| デバイス | adobe_advertising_device | Adobe Advertising デバイス |  |
+| Ad Description | adobe_advertising_ad_description | Adobe Advertising広告の説明 |  |
+| 広告宛先URL | adobe_advertising_ad_destination_url | Adobe Advertising Ad Destination URL |  |
+| 広告表示URL | adobe_advertising_ad_display_url | Adobe Advertising Ad Display URL |  |
+| デバイス | adobe_advertising_device | Adobe Advertising Device |  |
 | キーワード MatchType | adobe_advertising_keyword_matchtype | Adobe Advertising Keyword MatchType |  |
-| ネットワーク | adobe_advertising_network | Adobe Advertisingネットワーク |  |
-| 広告タイプ | adobe_advertising_ad_type | Adobe Advertising広告タイプ |  |
+| ネットワーク | adobe_advertising_network | Adobe Advertising Network |  |
+| 広告の種類 | adobe_advertising_ad_type | Adobe Advertisingの広告の種類 |  |
 | 製品ターゲット | adobe_advertising_product_target | Adobe Advertising Product Target |  |
 | ランディングタイプ | adobe_advertising_landing_type | Adobe Advertisingのランディングタイプ |  |
-| 最適化 | adobe_advertising_optimization | Adobe Advertisingの最適化 |  |
+| 最適化 | adobe_advertising_optimization | Adobe Advertising Optimization |  |
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 概要 &#x200B;](overview.md)
->* [&#x200B; 前提条件 &#x200B;](prerequisites.md)
->* [&#x200B; 使用するAdobe Advertising ID [!DNL Customer Journey Analytics]](ids.md)
->* [&#x200B; データ収集、データ転送、レポートの設定 &#x200B;](set-up.md)
+>* [概要](overview.md)
+>* [前提条件](prerequisites.md)
+>* [様が使用している [!DNL Customer Journey Analytics]](ids.md)Adobe Advertising ID
+>* [ データ収集、データ転送、レポートの設定](set-up.md)

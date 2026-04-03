@@ -1,92 +1,96 @@
 ---
 title: 広告ネットワークアカウントとキャンペーンの実装の概要
-description: 広告ネットワークアカウントの設定、同期および管理に関連するタスクについて説明します。
+description: 広告ネットワークアカウントの設定、同期、管理に関するタスクについて説明します。
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 6014f2dc349286d562f219db7e05279deb96e477
+TQID: https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: 979
 ht-degree: 0%
 
 ---
 
 # 広告ネットワークアカウントとキャンペーンの実装の概要
 
-Adobeは各広告主と連携して、広告ネットワークアカウントとキャンペーンを設定します。 これには、広告主のアカウントと接続して同期するための検索、ソーシャル、Commerceの設定、必要に応じてキャンペーンとキャンペーンコンポーネントの新規作成、コンポーネント広告のトラッキングの設定、オプションでキャンペーンをポートフォリオに追加して検索、ソーシャルおよびCommerceで広告への入札を最適化、初期コスト、クリック数および売上高のデータの検証が含まれます。
+Adobeは、各広告主と連携して、広告ネットワークアカウントとキャンペーンを設定します。 これには、Search, Social, &amp; Commerceを設定して広告主のアカウントと連携および同期させる、必要に応じて新しいキャンペーンおよびキャンペーンコンポーネントを作成する、コンポーネント広告のトラッキングを設定する、オプションでキャンペーンをポートフォリオに追加してSearch, Social, &amp; Commerceが広告の入札を最適化できるようにする、初期費用、クリック、収益データを検証することが含まれます。
 
-キャンペーンがアクティブになり、オプションでポートフォリオに追加されると、Adobe アカウント管理チーム、エージェンシーチームまたは広告主（service level agreementの条件に応じて）は、各キャンペーンをモニタリングし、広告主の目標を達成するために必要に応じて関連するコンポーネントと設定を変更する必要があります。
+施策がアクティベートされ、オプションでポートフォリオに追加された後、Adobeのアカウント管理チーム、代理店チーム、または広告主（service level agreementの条件によって異なります）は、各キャンペーンを監視し、広告主の目標を達成するために必要に応じて関連コンポーネントや設定を変更する必要があります。
 
-このページでは、同期されたアカウントのキャンペーン構造を設定する方法など、すべてのアカウントタイプに関する情報を提供します。 [!DNL Naver] のトラッキング専用アカウントの設定に関する追加手順については、「[&#x200B; トラッキング専用アカウントの実装  [!DNL Naver]  を参照 &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md) てください。
+このページには、同期アカウントのキャンペーン構造の設定方法など、すべてのアカウントタイプに関する情報が含まれます。 [!DNL Naver]のトラッキング専用アカウントの設定に関する追加の手順については、「[実装 [!DNL Naver]  トラッキング専用アカウント ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)」を参照してください。
 
 ## アカウントとキャンペーンの初期設定タスク
 
-お客様と [!DNL Adobe] または代理店が連携して、以下の作業を行います。
+[!DNL Adobe]およびお客様の代理店が協力して次の作業を行います：
 
-1. （新しい広告主アカウント）管理アカウントを設定します。
+1. （新しい広告主アカウント）管理アカウントの設定：
 
-   1. 広告主のアカウントを設定します。
+   1. 広告主のアカウントを設定する。
 
-   1. （必要に応じて）広告主がキャンペーンデータの表示と管理およびレポートの生成を行うためのユーザーアカウントを作成します。
+   1. （必要に応じて）広告主がキャンペーンデータを表示および管理し、レポートを生成するためのユーザーアカウントを作成します。
 
-1. （一部の広告ネットワーク）検索、ソーシャル、Commerceの認証を取得し、広告ネットワークの API と検索、ソーシャル、Commerceのユーザーインターフェイスを使用して、各アカウントにアクセスします。
+1. （一部の広告ネットワーク）検索、ソーシャル、Commerceの権限を取得し、広告ネットワークのAPIと検索、ソーシャル、Commerceのユーザーインターフェイスを使用して各アカウントにアクセスします。
 
-1. 広告ネットワークアカウントごとに、次の手順を実行します。
+1. 広告ネットワークアカウントごとに：
 
-   1. （必要に応じて）広告ネットワークにアカウントを設定します。
+   1. （必要に応じて）広告ネットワーク上のアカウントを設定します。
 
-   1. 検索、ソーシャル、Commerceで、アカウントのアクセス資格情報とトラッキングオプションを含む [&#x200B; 対応するアカウントレコードを作成 &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#create-account) してアカウントと統合し、アカウントステータスを有効に設定します。
+   1. アカウントへのアクセス資格情報とトラッキングオプションを含むSearch, Social, &amp; Commerceで[対応するアカウントレコード ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#create-account)を作成してアカウントと連携し、アカウントステータスを「有効」に設定します。
 
-      検索、ソーシャル、Commerceが広告ネットワークと同期されます。 アカウントに既にキャンペーンデータが含まれている場合、データは約 24 時間以内に使用可能になります。
+      Search, Social, &amp; Commerceは、広告ネットワークと同期します。 アカウントにキャンペーンデータが既に含まれている場合、そのデータは約24時間以内に利用できます。
 
-   1. [&#x200B; （作成/編集できる広告タイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md) 検索、ソーシャル、Commerce）アカウントにキャンペーンデータがまだ含まれていない場合は、広告タイプで使用可能な次のいずれかの方法で、検索、ソーシャル、Commerce内からキャンペーン構造とキャンペーンコンポーネントを作成します。
+   1. （[広告タイプを作成/編集できます](/help/search-social-commerce/introduction/supported-inventory.md) in Search, Social, &amp; Commerce） アカウントにキャンペーンデータがまだ含まれていない場合は、広告タイプで使用できる次のいずれかの方法で、Search, Social, &amp; Commerce内からキャンペーン構造とキャンペーンコンポーネントを作成します。
 
-      * （Google広告、Microsoft Advertising、Yahoo! 広告、および Yandex アカウントのみ） [&#x200B; 作成した広告ネットワーク固有の広告テンプレートと FTP の場所にアップロードする在庫データファイルの内容に従って &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) インベントリ内の各項目をターゲットとした動的広告とキーワードを作成する自動プロセスを設定します。
+      * （Google Ads、Microsoft Advertising、Yahoo! 広告、およびYandex アカウントのみ）作成した広告ネットワーク固有の広告テンプレートと、FTPの場所にアップロードした在庫データファイルの内容に従って、在庫内の各項目をターゲットとする動的な広告とキーワードを作成する[自動プロセスを設定します](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)。
 
-      * （Baidu、Google広告、MicrosoftAdvertising、Yahoo! 日本の広告、および Yandex アカウントのみ）アカウントに必要な量のデータを含む [&#x200B; バルクシートファイル &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) をアップロードしてから、広告ネットワークに投稿します。
+      * （Baidu、Google Ads、Microsoft Advertising、Yahoo! Japan Ads、およびYandex アカウントのみ） アカウントに必要な量のデータを含む[ バルクシート ファイル ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)をアップロードし、広告ネットワークに投稿します。
 
-      * （Baidu、Google広告、MicrosoftAdvertising、Yahoo! 日本広告、Yandex アカウントのみ）個々のコンポーネントのデータをインターフェイスに直接入力します。 ほとんどのキャンペーンタイプと広告タイプでは、キャンペーンレベル、広告グループレベル、個々のキーワード、プレースメント、広告レベルでデータを作成できます。
+      * （Baidu、Google Ads、Microsoft Advertising、Yahoo! Japan Ads、およびYandex アカウントのみ）個々のコンポーネントのデータをインターフェイスに直接入力します。 ほとんどのキャンペーンと広告タイプでは、キャンペーンレベル、広告グループレベル、個々のキーワード、プレースメント、広告レベルでデータを作成できます。
 
-      ただし、一部のキャンペーンタイプや広告タイプでは一意のワークフローが必要です。 [[!DNL Microsoft Advertising]  ショッピングキャンペーン &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)、[[!DNL Google Ads]  動的検索広告 &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)、[[!DNL Google Ads]  パフォーマンス最大化キャンペーン &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md) および [[!DNL Google Ads]  ショッピングキャンペーン &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md) の設定手順を参照してください。
+      ただし、一部のキャンペーンや広告タイプでは、独自のワークフローが必要です。 [[!DNL Microsoft Advertising]  ショッピングキャンペーン ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)、[[!DNL Google Ads] 動的検索広告](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)、[[!DNL Google Ads]  パフォーマンスの最大キャンペーン ](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)および[[!DNL Google Ads]  ショッピングキャンペーン ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)の設定に関する手順を参照してください。
 
-   1. （[!DNL Naver] トラッキング専用アカウントの場合のみ）既存のキャンペーン、広告グループおよびキーワードを [&#x200B; に投稿せずに検索、ソーシャル、Commerceにレプリケートするには、データを含んだ &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) バルクシートファイル [!DNL Naver] をアップロードします。
+   1. （[!DNL Naver]件のトラッキング専用アカウントのみ）データを含む[ バルクシートファイル ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)をアップロードして、Search, Social, &amp; Commerceの既存のキャンペーン、広告グループ、キーワードを[!DNL Naver]に投稿せずに複製します。
 
-1. Adobe Advertisingがコンバージョンをトラッキングするすべての広告のトラッキングを設定します。
+1. Adobe Advertisingがコンバージョンをトラッキングするすべての広告にトラッキングを設定します。
 
-   1. （Adobe Advertising コンバージョントラッキングサービスを使用する広告主）必要に応じて、検索、ソーシャルおよびCommerceのクリック追跡 URL を生成してアップロードすることにより、広告 [&#x200B; およびオプションでキーワード、プレースメント、広告拡張）にクリック追跡を設定 &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) クリック追跡を設定）します。
+   1. （Adobe Advertising コンバージョントラッキングサービスを使用する広告主）必要に応じて、検索、ソーシャル、およびCommerceのクリックトラッキング URLを生成してアップロードすることで、広告のクリックトラッキング [を](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)設定し、オプションでキーワード、プレースメント、および広告拡張機能を設定します。
 
-      パフォーマンス最大化キャンペーンの [!DNL Google Ads] 合は、[&#x200B; キャンペーンのトラッキング設定 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) ですべてのトラッキングを設定します。
+      パフォーマンスの最大キャンペーン [!DNL Google Ads]件について、[件のキャンペーンのトラッキング設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)ですべてのトラッキングを設定します。
 
-1. トラッキング専用キャンペーンの場合は、代わりにバルクシートを使用して宛先 URL を生成し、広告ネットワークのネイティブエディターを使用して、生成された宛先 URL を関連するエンティティに追加する必要があります。
+1. トラッキングのみのキャンペーンの場合は、バルクシートを使用して宛先URLを生成し、生成された宛先URLを広告ネットワークのネイティブエディターを使用して関連するエンティティに追加する必要があります。
 
-   1. コンバージョントラッキングの設定 実装によっては、コンバージョントラッキングタグを広告主の web ページに追加したり、広告主が個別に収集したコンバージョンデータの毎日のフィードドロップを設定したりすることが含まれる場合があります。
+   1. コンバージョン追跡の設定。 実装に応じて、これには、広告主のweb ページにコンバージョン追跡タグを追加したり、広告主が個別に収集したコンバージョンデータの毎日のフィードドロップを設定したりすることが含まれます。
 
-      Adobe Advertising コンバージョントラッキングサービスを使用する場合は、検索、ソーシャル、Commerce内で [&#x200B; コンバージョントラッキングタグを生成 &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md) するか、[Adobe Experience Platformのタグ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=ja) （旧称：Adobe Experience Platform Launch）を使用できます。
+      Adobe Advertising コンバージョントラッキングサービスを使用している場合は、Search, Social, &amp; Commerce内で[ コンバージョントラッキングタグ ](/help/search-social-commerce/tools/conversion-tag-generate.md)を生成するか、Adobe Experience Platform[ （旧Adobe Experience Platform Launch）から](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) タグを使用できます。
 
-   1. 追跡するデータを検証します。
+   1. 追跡されたデータを検証します。
 
-   トラッキング設定の詳細については、「トラッキング」の章を参照してください。
+   トラッキングの設定について詳しくは、「トラッキング」の章を参照してください。
 
-1. （Adobe Analyticsを使用する広告主） [Adobe Advertisingと Analytics を統合して &#x200B;](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja) データを交換できるようにします。
+1. （Adobe Analyticsを使用している広告主） [Adobe AdvertisingとAnalytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)を統合してデータを交換できるようにします。
 
-1. （検索、ソーシャル、Commerceで入札、キャンペーン予算、キャンペーン入札戦略ターゲットを最適化できるようにする場合。[&#x200B; サポートされているキャンペーンタイプのみ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)） [&#x200B; キャンペーンをポートフォリオに割り当てる &#x200B;](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
+1. （Search, Social, &amp; Commerceで入札、キャンペーン予算、および/またはキャンペーン入札戦略のターゲットを最適化できるようにするには、[ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md)のみ） [ キャンペーンをポートフォリオに割り当てます](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
 
-   ポートフォリオがまだ開始されていない場合（入札や予算の最適化）、最適化機能でコストと収益のモデルを構築できるだけの十分なデータを収集させて、ポートフォリオを開始する前にポートフォリオのベースラインパフォーマンスを確立できます。
+   ポートフォリオがまだ開始されていない場合（入札や予算の最適化）は、最適化機能で十分なデータを収集し、コストと収益モデルを構築できるようにして、ポートフォリオのベースラインパフォーマンスを確立してから開始します。
 
-   ポートフォリオが既に起動されている場合は、ポートフォリオの学習を有効にします。 詳しくは、「ポートフォリオ戦略の調整」を参照してください。 新しいキャンペーンを追加すると、ポートフォリオが揮発性になると予想されますが、最適化機能は、キャンペーンの入札単位に関するデータを収集します。 入札は 1～3 週間以内に自動的に調整されます。
+   ポートフォリオが既に起動されている場合は、ポートフォリオの学習を有効にします。 詳しくは、「ポートフォリオ戦略の調整」を参照してください。 最適化機能がキャンペーンの入札単位に関するデータを収集する一方で、新しいキャンペーンを追加した後は、ポートフォリオが不安定になることが予想されます。 入札は1～3週間以内に自動的に調整されます。
 
-   ポートフォリオについて詳しくは、最適化ガイドを参照してください。このガイドは、検索、ソーシャル、Commerce内から利用でき <!-- verify convention for referencing Optimization Guide here --> す。
+   ポートフォリオについて詳しくは、Search, Social, &amp; Commerce内から入手できる最適化ガイドを参照してください。<!-- verify convention for referencing Optimization Guide here -->
 
-1. （広告主に対して新しいコンバージョンが追跡される場合） [&#x200B; レポート、キャンペーン管理ビューおよびポートフォリオ目標でコンバージョンを使用可能にする &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)。
+1. （広告主が新しいコンバージョンを追跡する場合） [ レポート、キャンペーン管理ビュー、ポートフォリオ目標でコンバージョンを利用できるようにします](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)。
 
-1. キャンペーンごとに、検索、ソーシャル、Commerceが広告ネットワークからクリックとコストのデータを受け取っていることを確認し、検索、ソーシャル、Commerceに表示される売上高データを広告主自身の売上高データで検証します。
+1. 各キャンペーンについて、Search, Social, &amp; Commerceが広告ネットワークからクリック数とコスト数のデータを受け取っていることを確認し、Search, Social, &amp; Commerceに表示される収益データと広告主自身の収益データを検証します。
 
-1. （オプション）レポートテンプレート、スプレッドシートフィードおよび予定レポートの FTP 配信を設定することで、レポートを自動化します。
+1. （オプション）レポートテンプレート、スプレッドシートのフィード、スケジュールされたレポートのFTP配信を設定して、レポートを自動化します。
 
    手順については、「レポート」の章を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 検索、ソーシャル、Commerceでのキャンペーン管理について &#x200B;](campaign-management-about.md)
->* [&#x200B; 広告ネットワークキャンペーンのパフォーマンスの監視と管理 &#x200B;](monitor-performance-campaigns.md)
->* [&#x200B; 検索、ソーシャル、CommerceのGoogle Ads コンバージョンデータ &#x200B;](google-conversion-data.md)
->* [&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)
+>* [Search, Social, &amp; Commerceでのキャンペーン管理について](campaign-management-about.md)
+>* [広告ネットワークキャンペーンのパフォーマンスを監視および管理](monitor-performance-campaigns.md)
+>* Search, Social, &amp; Commerceの[Google Ads コンバージョンデータ ](google-conversion-data.md)
+>* [ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)

@@ -1,117 +1,121 @@
 ---
-title: 広告の管理
-description: 広告を作成および管理する方法について説明します。
+title: 広告を管理
+description: 広告の作成と管理方法を説明します。
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/qH3BE5BwU8614rZdk-tKqvtw9cqY1uK0Z3zOUh0QRv8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: 745
 ht-degree: 0%
 
 ---
 
-# 広告の管理
+# 広告を管理
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex] および既存の [!DNL Baidu] アカウントのみ*
+*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]および既存の[!DNL Baidu] アカウントのみ*
 
-広告のステータスは、[!UICONTROL Campaigns] / [!UICONTROL Campaigns] / [!UICONTROL Ads] ビューで作成、編集および変更できます。
+広告のステータスは、[!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Ads] ビューから作成、編集、変更できます。
 
 ## 広告の作成
 
 >[!NOTE]
 >
->買い物キャンペーン用に製品広告を作成する必要はありません。広告ネットワークによって自動的に作成されます。 ただし、[!DNL Microsoft Advertising] のショッピングキャンペーンの場合は、オプションで、広告に含めるプロモーションラインを定義できます。
+>ショッピング施策で商品広告を作成する必要はありません。広告ネットワークが自動的に作成します。 ただし、[!DNL Microsoft Advertising]件のショッピングキャンペーンの場合は、オプションで広告に含めるプロモーション行を定義できます。
 
 >[!TIP]
 >
->一度に多くの広告を作成するには、[&#x200B; コピー&amp;ペースト機能 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [campaign バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
+>一度に多くの広告を作成するには、[ コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
-1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ads]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ads]**&#x200B;をクリックします。
 
-1. データ テーブルの上にあるツールバーで、[![&#x200B; 作成 &#x200B;](/help/search-social-commerce/assets/add.png " 作成 ")] をクリックします。
+1. データテーブルの上にあるツールバーで、![作成](/help/search-social-commerce/assets/add.png "作成")をクリックします。
 
-1. 広告ネットワーク、アカウント、キャンペーン、広告グループ、広告タイプを選択し、「**[!UICONTROL Continue]**」をクリックします。
+1. 広告ネットワーク、アカウント、キャンペーン、広告グループ、広告タイプを選択し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-   様々な広告タイプについて詳しくは、「[&#x200B; 広告について &#x200B;](ad-about.md) を参照してください。
+   様々な広告タイプについて詳しくは、「[広告について](ad-about.md)」を参照してください。
 
-1. [[!DNL Baidu]  テキスト広告 &#x200B;](ad-settings-baidu-text.md)、[[!DNL Google Ads]  呼び出し専用広告 &#x200B;](ad-settings-google-call.md)、[[!DNL Google Ads]  拡張動的検索広告 &#x200B;](ad-settings-google-dsa.md) （Google Ads では現在「動的検索広告」と呼ばれています）、[[!DNL Google Ads]  レスポンシブ検索広告 &#x200B;](ad-settings-google-rsa.md)、[[!DNL Microsoft Advertising]  拡張動的検索広告 &#x200B;](ad-settings-microsoft-dsa.md)、[[!DNL Microsoft Advertising]  マルチメディア広告 &#x200B;](ad-settings-microsoft-multimedia.md)、[[!DNL Microsoft Advertising] product ad](ad-settings-microsoft-product.md)、[[!DNL Microsoft Advertising]  レスポンシブ（オーディエンス）広告 &#x200B;](ad-settings-microsoft-responsive.md)、[[!DNL Microsoft Advertising]  レスポンシブ検索広告 &#x200B;](ad-settings-microsoft-rsa.md) または [[!DNL Yandex]  テキスト広告 &#x200B;](ad-settings-yandex-text.md) を入力します。
+1. [[!DNL Baidu] text ad](ad-settings-baidu-text.md)、[[!DNL Google Ads] 通話専用ad](ad-settings-google-call.md)、[[!DNL Google Ads] 拡張dynamic search ad](ad-settings-google-dsa.md) （現在はGoogle Adsで「dynamic search ad」と呼ばれています）、[[!DNL Google Ads] responsive search ad](ad-settings-google-rsa.md)、[[!DNL Microsoft Advertising] 拡張dynamic search ad](ad-settings-microsoft-dsa.md)、[[!DNL Microsoft Advertising] multimedia ad](ad-settings-microsoft-multimedia.md)、[[!DNL Microsoft Advertising] product ad](ad-settings-microsoft-product.md)、[[!DNL Microsoft Advertising] responsive （audience） ad](ad-settings-microsoft-responsive.md)、[[!DNL Microsoft Advertising] responsive search ad](ad-settings-microsoft-rsa.md)、または[[!DNL Yandex] text ad](ad-settings-yandex-text.md)設定を入力します。
 
    >[!NOTE]
    >
-   >（Adobe Advertising コンバージョントラッキングを使用したキャンペーン）アカウントまたはキャンペーンの設定でキーワードレベルでのみトラッキングが指定されている場合、検索、ソーシャル、Commerceでは広告のトラッキングが生成されません。
+   >（Adobe Advertising コンバージョントラッキングを使用したキャンペーン）アカウントまたはキャンペーンの設定がキーワードレベルでのみトラッキングを指定する場合、Search, Social, &amp; Commerceでは広告のトラッキングが生成されません。
 
-1. 「**[!UICONTROL Post]**」をクリックします。
+1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
-1. （Adobe Advertising コンバージョントラッキングを使用したキャンペーンのショッピング広告。オプション）広告のクリックを追跡するには、[&#x200B; トラッキング URL ツールを使用したトラッキング URL の生成 &#x200B;](/help/search-social-commerce/tools/click-tracking-url-generate.md) を行い、アカウント、キャンペーン、商品グループの設定に手動で追加します。
+1. （Adobe Advertising コンバージョントラッキングを使用したキャンペーンでのショッピング広告。オプション）広告のクリックをトラッキングするには、[ トラッキング URL ツールを使用してトラッキング URLを生成し](/help/search-social-commerce/tools/click-tracking-url-generate.md)、アカウント、キャンペーン、または商品グループの設定に手動で追加します。
 
 ## 広告設定の編集
 
 >[!NOTE]
 >
->* 次の広告タイプは *可変* です。つまり、広告コピーまたは画像を変更して、同じ広告 ID を保持できます。動的検索広告を除くすべての [!DNL Google Ads] 広告タイプと、拡張テキスト広告 [!DNL Microsoft Advertising] あります。
->* サポートされているその他の広告はすべて *不変* です。つまり、広告コピーまたは画像を変更すると、既存の広告が削除され、新しい広告が作成されます。 検索、ソーシャル、Commerceで最適化に必要なデータが十分に収集されるなか、新規広告のパフォーマンスが数週間と不安定になる可能性があります。
->* [!DNL Microsoft Advertising] の製品広告のプロモーションラインを除き、製品広告のコンテンツを編集することはできません。 ただし、広告を一時停止または削除することはできます。
+>* 次の広告タイプは&#x200B;*可変*&#x200B;です。つまり、広告のコピーまたは画像を変更し、同じ広告IDを保持できます。動的検索広告を除くすべての[!DNL Google Ads]広告タイプ、および[!DNL Microsoft Advertising]拡張テキスト広告です。
+>* サポートされているその他の広告はすべて&#x200B;*変更不可*&#x200B;です。つまり、広告コピーまたは画像を変更すると、既存の広告が削除され、新しい広告が作成されます。 Search, Social, &amp; Commerceで最適化に十分なデータを収集しながら、新しい広告のパフォーマンスは数週間にわたって不安定になる可能性があります。
+>* 製品広告のコンテンツは、[!DNL Microsoft Advertising]個の製品広告のプロモーションラインを除き、編集できません。 ただし、広告を一時停止または削除することはできます。
 
 >[!TIP]
 >
->一度に大量のデータを編集するには、[&#x200B; コピーと貼り付け機能 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) または [campaign バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) を使用します。
+>大量のデータを一度に編集するには、[ コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
-1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ads]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ads]**&#x200B;をクリックします。
 
-1. 次のいずれかの操作をおこないます。
+1. 次のいずれかの操作を行います。
 
-   * （1 つの広告の設定を編集するには）広告のプレビューにカーソルを置き、![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ") をクリックします。
+   * （1つの広告の設定を編集するには）広告プレビューの上にカーソルを置き、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
 
-   * （1 つ以上の広告の設定を編集するには）次の手順を実行します。
+   * （1つ以上の広告の設定を編集するには）次の操作を行います。
 
       1. 各行の横にあるチェックボックスをオンにします。
 
-         複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+         複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-      1. データ テーブルの上にあるツールバーで、[![&#x200B; 編集 &#x200B;](/help/search-social-commerce/assets/edit.png " 編集 ")] をクリックします。
+      1. データテーブルの上にあるツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
 
-1. [[!DNL Baidu]  テキスト広告 &#x200B;](ad-settings-baidu-text.md)、[[!DNL Google Ads]  呼び出し専用広告 &#x200B;](ad-settings-google-call.md)、[[!DNL Google Ads]  拡張動的検索広告 &#x200B;](ad-settings-google-dsa.md) （Google Ads では現在「動的検索広告」と呼ばれています）、[[!DNL Google Ads]  レスポンシブ検索広告 &#x200B;](ad-settings-google-rsa.md)、[[!DNL Microsoft Advertising]  拡張動的検索広告 &#x200B;](ad-settings-microsoft-dsa.md)、[[!DNL Microsoft Advertising]  マルチメディア広告 &#x200B;](ad-settings-microsoft-multimedia.md)、[[!DNL Microsoft Advertising] product ad](ad-settings-microsoft-product.md)、[[!DNL Microsoft Advertising]  レスポンシブ（オーディエンス）広告 &#x200B;](ad-settings-microsoft-responsive.md)、[[!DNL Microsoft Advertising]  レスポンシブ検索広告 &#x200B;](ad-settings-microsoft-rsa.md) または [[!DNL Yandex]  テキスト広告 &#x200B;](ad-settings-yandex-text.md) の設定を変更します。
+1. [[!DNL Baidu] text ad](ad-settings-baidu-text.md)、[[!DNL Google Ads] 通話専用ad](ad-settings-google-call.md)、[[!DNL Google Ads] 拡張dynamic search ad](ad-settings-google-dsa.md) （現在はGoogle Adsで「dynamic search ad」と呼ばれています）、[[!DNL Google Ads] responsive search ad](ad-settings-google-rsa.md)、[[!DNL Microsoft Advertising] 拡張dynamic search ad](ad-settings-microsoft-dsa.md)、[[!DNL Microsoft Advertising] multimedia ad](ad-settings-microsoft-multimedia.md)、[[!DNL Microsoft Advertising] product ad](ad-settings-microsoft-product.md)、[[!DNL Microsoft Advertising] responsive （audience） ad](ad-settings-microsoft-responsive.md)、[[!DNL Microsoft Advertising] responsive search ad](ad-settings-microsoft-rsa.md)、または[[!DNL Yandex] text ad](ad-settings-yandex-text.md)設定を編集します。
 
-   複数の広告の場合、選択したすべての広告に共通するフィールドのみを編集でき、変更は選択したすべての広告に適用されます。 一部の英数字フィールドでは、既存の値を指定した値に変更したり、既存の文字列を指定した文字列に置き換えたり、各値の先頭に指定したプレフィックスを追加したり、各値の末尾にサフィックスを追加したりできます。 一部の通貨フィールドでは、既存の値を指定の値に変更したり、制限を設けて、指定の割合または金額で金額を増減させることができます。
+   複数の広告の場合、選択したすべての広告に共通するフィールドのみを編集でき、変更は選択したすべての広告に適用されます。 一部の英数字フィールドでは、既存の値を指定した値に変更したり、既存の文字列を指定した文字列に置き換えたり、指定した接頭辞を各値の先頭に追加したり、各値の末尾に接尾辞を追加したりできます。 一部の金銭的なフィールドでは、既存の値を指定した値に変更したり、指定した割合または金額を増減したり、制限を設けることができます。
 
 1. データを保存します。
 
-   * （単一の広告） **[!UICONTROL Post]** をクリックします。
+   * （シングル広告）「**[!UICONTROL Post]**」をクリックします。
 
-   * （複数の広告） **[!UICONTROL Post Now]** をクリックします。
+   * （複数の広告）「**[!UICONTROL Post Now]**」をクリックします。
 
 ## 広告のステータスの変更
 
-アクティブな広告を一時停止して、その広告への入札を無効にすることができます。 後でステータスをアクティブに戻すことで、入札を再開できます。
+アクティブな広告を一時停止して、入札を無効にすることができます。 後でステータスをアクティブに戻すことで、入札を再開できます。
 
-また、アクティブな検索広告や一時停止した検索広告を削除することもできます。 削除された広告は広告ネットワークから削除されます。 これらは表示されたままですが、変更できません。
+アクティブまたは一時停止した検索広告を削除することもできます。 削除された広告は、広告ネットワークから削除されます。 これらは引き続き表示されますが、変更することはできません。
 
-1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]/[!UICONTROL Campaigns]/[!UICONTROL Campaigns]** をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ads]** をクリックします。
+1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ads]**&#x200B;をクリックします。
 
-1. （任意）特定の広告を含めるようにリストをフィルタリングします。
+1. （オプション）リストをフィルタリングして、特定の広告を含めます。
 
-1. ステータスを変更する各広告の横にあるチェックボックスを選択します。
+1. ステータスを変更する各広告の横にあるチェックボックスをオンにします。
 
-   複数行の選択に関するヒントについては、「[&#x200B; 複数行を選択 &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) を参照してください。
+   複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-1. ツールバーの「ステータス」ボタンをクリックします。
+1. ツールバーで、ステータスボタンをクリックします。
 
-   * 行をアクティブにするには、「![&#x200B; アクティブ化 &#x200B;](/help/search-social-commerce/assets/activate.png " アクティブ化 ")」をクリックします。
+   * 行をアクティブ化するには、![ アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
 
-   * 行を一時停止するには、「![&#x200B; 一時停止 &#x200B;](/help/search-social-commerce/assets/pause.png " 一時停止 ")」をクリックします。
+   * 行を一時停止するには、![一時停止](/help/search-social-commerce/assets/pause.png "一時停止")をクリックします。
 
-   * 行を削除するには、「![ その他 ")」をクリックし ] (/help/search-social-commerce/assets/more.png " 「**[!UICONTROL Delete]**」を選択します。 確認メッセージで、「**[!UICONTROL Delete]**」をクリックします。
+   * 行を削除するには、![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、**[!UICONTROL Delete]**&#x200B;を選択します。 確認メッセージで、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 広告について &#x200B;](ad-about.md)
->* [[!DNL Baidu]  テキスト広告設定 &#x200B;](ad-settings-baidu-text.md)
->* [[!DNL Google Ads]  呼び出し専用広告設定 &#x200B;](ad-settings-google-call.md)
->* [[!DNL Google Ads]  拡張された動的検索広告設定 &#x200B;](ad-settings-google-dsa.md)
->* [[!DNL Google Ads]  レスポンシブ検索広告設定 &#x200B;](ad-settings-google-rsa.md)
->* [[!DNL Microsoft Advertising]  拡張された動的検索広告設定 &#x200B;](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft Advertising]  マルチメディア広告設定 &#x200B;](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft Advertising]  製品広告設定 &#x200B;](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising]  レスポンシブ（オーディエンス）広告設定 &#x200B;](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft Advertising]  レスポンシブ検索広告設定 &#x200B;](ad-settings-microsoft-rsa.md)
->* [[!DNL Yandex]  テキスト広告設定 &#x200B;](ad-settings-yandex-text.md)
+>* [広告について](ad-about.md)
+>* [[!DNL Baidu]  テキスト広告設定](ad-settings-baidu-text.md)
+>* [[!DNL Google Ads] 呼び出し専用の広告設定](ad-settings-google-call.md)
+>* [[!DNL Google Ads] 動的検索広告設定を拡張](ad-settings-google-dsa.md)
+>* [[!DNL Google Ads]  レスポンシブ検索の広告設定](ad-settings-google-rsa.md)
+>* [[!DNL Microsoft Advertising] 動的検索広告設定を拡張](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising]  マルチメディア広告設定](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] 製品広告設定](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising]  レスポンシブ （オーディエンス）広告の設定](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising]  レスポンシブ検索の広告設定](ad-settings-microsoft-rsa.md)
+>* [[!DNL Yandex]  テキスト広告設定](ad-settings-yandex-text.md)

@@ -1,44 +1,48 @@
 ---
-title: エクスペリエンスの最終レベルへのターゲットノードの追加
-description: 広告エクスペリエンスの最終ターゲットレベルにターゲットノードを追加する方法を説明します。
+title: エクスペリエンスの最終レベルにターゲットノードを追加する
+description: 広告エクスペリエンスの最終的なターゲットレベルにターゲットノードを追加する方法を説明します。
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+TQID: https://experienceleague.adobe.com/1T0Jwc8noxF-uaTA2cN78uOBsgHDjSnoD9Scmmw4L3s
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: 824
 ht-degree: 0%
 
 ---
 
-# エクスペリエンスの最終レベルへのターゲットノードの追加
+# エクスペリエンスの最終レベルにターゲットノードを追加する
 
-*デシジョンツリーのターゲット設定のみを使用したエクスペリエンス*
+*デシジョンツリーのターゲティングのみ*&#x200B;のエクスペリエンス
 
-ターゲットノードをエクスペリエンスの最上位レベル（ルートの「すべて」ノード、ターゲット固有のノード、「その他すべて」ノード）に追加した場合は、ターゲットを直接定義するので、兄弟ノードを作成する必要はありません。 下位レベルのノードを追加すると、同じレベルにターゲットノードと追加の「その他すべて」のノードが作成されます。
+ルートの「すべて」ノード、ターゲット固有のノード、または「その他のすべてのもの」ノードなど、エクスペリエンスの最下位レベルにターゲットノードを追加する場合、ターゲットを直接定義し、兄弟ノードを作成する必要はありません。 ボトムレベルのノードを追加すると、ターゲットノードと同じレベルの追加の「その他のすべてのもの」ノードが作成されます。
 
 >[!NOTE]
 >
->決定ツリーの既存のレベル間にターゲットノードを挿入するには、「[&#x200B; エクスペリエンスのノード間にターゲットノードを挿入 &#x200B;](experience-target-node-add-inner.md) を参照してください。
+>決定ツリーの既存のレベル間にターゲットノードを挿入するには、「[ エクスペリエンス内のノード間にターゲットノードを挿入](experience-target-node-add-inner.md)」を参照してください。
 
 <!-- 1. [ways to get to the decision tree] -->
 
-1. ターゲットを挿入するノードの下で、「![&#x200B; 追加 &#x200B;](/help/creative/assets/add.png " 追加 ")」をクリックし、「**[!UICONTROL Insert New Target]**」を選択します。
+1. ターゲットを挿入するノードの下で、![追加](/help/creative/assets/add.png "追加")をクリックし、**[!UICONTROL Insert New Target]**&#x200B;を選択します。
 
 1. ターゲットを指定します。
 
-   * オーディエンスターゲットの場合は、「**[!UICONTROL Audience]**」を選択し、「**[!UICONTROL Click to Browse]**」をクリックして [!UICONTROL Audience Targeting] オプションを開き、次の手順を実行します。
+   * オーディエンスターゲットの場合は、**[!UICONTROL Audience]**&#x200B;を選択し、**[!UICONTROL Click to Browse]**&#x200B;をクリックして[!UICONTROL Audience Targeting] オプションを開き、次の操作を行います。
 
-      * 最初のセグメントを追加するには、左側のパネルでセグメントを見つけ、セグメント名の横にあるチェックボックスをオンにします。
+      * 最初のセグメントを追加するには、左側のパネルでセグメントを見つけ、セグメント名の横にあるチェックボックスを選択します。
 
       * 既存のセグメントグループにセグメントを追加するには：
 
          1. 右側のパネルでセグメントグループをクリックします。
 
-         1. （オプション）必要に応じて、グループロジックを *[!UICONTROL Include Any]*、*[!UICONTROL Include All]* または *[!UICONTROL Exclude All]* に変更します。
+         1. （オプション）必要に応じて、グループロジックを&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;または&#x200B;*[!UICONTROL Exclude All]*&#x200B;に変更します。
 
-            最初のセグメントグループには *[!UICONTROL Exclude All]* は使用できません。 除外のみを含むオーディエンスの場合、このオーディエンスを *[!UICONTROL Include Any]* として作成し、DSP内のプレースメントに追加するときにそのオーディエンスを除外します。
+            *[!UICONTROL Exclude All]*&#x200B;は、最初のセグメント グループでは使用できません。 除外のみを含むオーディエンスの場合は、このオーディエンスを&#x200B;*[!UICONTROL Include Any]*&#x200B;として構築し、DSP内のプレースメントに追加するときに、そのオーディエンスを除外します。
 
-         1. 左側のパネルで新しいセグメントを見つけ、セグメント名の横にあるチェックボックスをオンにします。
+         1. 左側のパネルで新しいセグメントを見つけ、セグメント名の横にあるチェックボックスを選択します。
 
             セグメントグループは、新しいセグメントで自動的に更新されます。
 
@@ -46,81 +50,81 @@ ht-degree: 0%
 
          1. 右側のパネルで「**[!UICONTROL + New Group]**」をクリックします。
 
-         1. （オプション）必要に応じて、前のグループと新しいグループの間のロジックを *[!UICONTROL And]* または *[!UICONTROL Or]* に変更します。
+         1. （オプション）必要に応じて、前のグループと新しいグループの間のロジックを&#x200B;*[!UICONTROL And]*&#x200B;または&#x200B;*[!UICONTROL Or]*&#x200B;に変更します。
 
-         1. 左側のパネルで新しいグループのセグメントを見つけ、セグメント名の横にあるチェックボックスをオンにします。
+         1. 左側のパネルで新しいグループのセグメントを探し、セグメント名の横にあるチェックボックスを選択します。
 
-         1. （オプション）必要に応じて、グループロジックを *[!UICONTROL Include Any]*、*[!UICONTROL Include All]* または *[!UICONTROL Exclude All]* に変更します。
+         1. （オプション）必要に応じて、グループロジックを&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;または&#x200B;*[!UICONTROL Exclude All]*&#x200B;に変更します。
 
-      1. 「**[!UICONTROL Create]**」をクリックします。
+      1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
-      1. 「**[!UICONTROL Apply]**」をクリックします。
+      1. **[!UICONTROL Apply]**&#x200B;をクリックします。
 
-   * 地理的ターゲットの場合は、単一の地理的カテゴリ（[!UICONTROL Geo: Country] など）を選択し、次の操作を実行します。
+   * 地理的目標の場合は、1つの地理的カテゴリ（[!UICONTROL Geo: Country]など）を選択し、次の操作を行います。
 
-      1. [**[!UICONTROL Click to Browse]**] をクリックして [!UICONTROL Geo Targeting] のオプションを開き、1 つ以上の地理的ターゲットを指定して、[**[!UICONTROL Save]**] をクリックします。
+      1. **[!UICONTROL Click to Browse]**&#x200B;をクリックして[!UICONTROL Geo Targeting] オプションを開き、1つ以上の地理的目標を指定してから、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-         郵便番号ターゲットには一括編集オプションがあります。 複数の郵便番号を貼り付けるには、[**[!UICONTROL Paste postal codes]**] タブをクリックし、国を選択して、郵便番号をコンマまたは行で区切って貼り付けるか入力して、[**[!UICONTROL Include All]**] をクリックします。 含まれている郵便番号のターゲットを削除するには、ターゲットの上にカーソルを置き、「![&#x200B; 削除 &#x200B;](/help/creative/assets/delete.png " 削除 ")」 **[!UICONTROL Remove]** タンをクリックします。
+         郵便番号ターゲットには一括編集オプションがあります。 複数の郵便番号を貼り付けるには、「**[!UICONTROL Paste postal codes]**」タブをクリックし、国を選択して、郵便番号をコンマ区切りまたは別々の行に貼り付けるか入力し、**[!UICONTROL Include All]**&#x200B;をクリックします。 含まれている郵便番号ターゲットを削除するには、ターゲットの上にカーソルを置き、![削除](/help/creative/assets/delete.png "削除") **[!UICONTROL Remove]**&#x200B;をクリックします。
 
-      1. （オプション）複数の地理的ターゲットが指定されている場合に複数のターゲット・ノードを作成するには、「**[!UICONTROL Split targets to create nodes]**」を選択します。
+      1. （オプション）複数の地理的ターゲットが指定されている場合に複数のターゲットノードを作成するには、**[!UICONTROL Split targets to create nodes]**&#x200B;を選択します。
 
-         この機能は、指定された地理的ターゲットごとに個別のターゲットノード（個別のクリエイティブバンドルを含む）を作成します。 ターゲットを分割しない場合、ユーザーは指定したすべての場所に属している必要があります（[!DNL Boolean] `AND` ステートメント）。
+         この機能は、指定された地理的ターゲットごとに（個別のクリエイティブバンドルを含む）個別のターゲットノードを作成します。 ターゲットを分割しない場合、ユーザーは指定したすべての場所（[!DNL Boolean] `AND` ステートメント）に属している必要があります。
 
-      1. 「**[!UICONTROL Apply]**」をクリックします。
+      1. **[!UICONTROL Apply]**&#x200B;をクリックします。
 
-   * データ受け渡しターゲットの場合、**[!UICONTROL Data Pass]** を選択し、必要に応じてデータ受け渡しキーをカスタマイズし、データ受け渡し値を 1 つ入力して、「**[!UICONTROL Apply]**」をクリックします。
+   * データ パス ターゲットの場合は、**[!UICONTROL Data Pass]**&#x200B;を選択し、オプションでデータ パス キーをカスタマイズし、単一のデータ パス値を入力して、**[!UICONTROL Apply]**&#x200B;をクリックします。
 
-   キーと値のペアのキーのデフォルト値は、**[!UICONTROL Data Pass]** エクスペリエンス設定 [!UICONTROL Advanced] の [&#x200B; セクションの &#x200B;](experience-settings-targeting.md) フィールドに既に設定されています。 オプションで、このキーをカスタマイズできます。
+   キーと値のペアのキーのデフォルト値は、**[!UICONTROL Data Pass]** エクスペリエンス設定[!UICONTROL Advanced]の[ セクションの](experience-settings-targeting.md) フィールドで既に設定されています。 オプションでキーをカスタマイズできます。
 
-   * リターゲティングピクセルターゲットの場合は、「**[!UICONTROL RT Pixel]**」を選択し、使用するリターゲティングピクセルと、クリエイティブの表示に必要なピクセルの属性の値を 1 つ選択して、「**[!UICONTROL Apply]**」をクリックします。
+   * リターゲティングピクセルターゲットの場合は、**[!UICONTROL RT Pixel]**&#x200B;を選択し、使用する1つのリターゲティングピクセルと、クリエイティブを表示するために必要なピクセルの属性の値を選択して、**[!UICONTROL Apply]**&#x200B;をクリックします。
 
-     リターゲティングピクセルの属性は、[&#x200B; リターゲティングピクセル設定 &#x200B;](/help/creative/pixels/retargeting-pixel-manage.md) で設定します。
+     リターゲティングピクセルの属性は、[ リターゲティングピクセル設定](/help/creative/pixels/retargeting-pixel-manage.md)で設定されます。
 
-   * デバイス・ターゲットの場合は、次の手順を実行します。
+   * デバイスターゲットの場合は、次の操作を行います。
 
-      1. 単一のターゲット・カテゴリ（**[!UICONTROL Device: Type]**、**[!UICONTROL Device: OS]** または **[!UICONTROL Device: Browser]**）を選択し、ターゲットを選択します。
+      1. 単一のターゲット カテゴリ （**[!UICONTROL Device: Type]**、**[!UICONTROL Device: OS]**&#x200B;または&#x200B;**[!UICONTROL Device: Browser]**）を選択し、ターゲットを選択します。
 
-      1. （オプション）複数の地理的ターゲットが指定されている場合に複数のターゲット・ノードを作成するには、「**[!UICONTROL Split targets to create nodes]**」を選択します。
+      1. （オプション）複数の地理的ターゲットが指定されている場合に複数のターゲットノードを作成するには、**[!UICONTROL Split targets to create nodes]**&#x200B;を選択します。
 
-         この機能は、指定された地理的ターゲットごとに個別のターゲットノード（個別のクリエイティブバンドルを含む）を作成します。 ターゲットを分割しない場合、ユーザーは指定したすべての場所に属している必要があります（[!DNL Boolean] `AND` ステートメント）。
+         この機能は、指定された地理的ターゲットごとに（個別のクリエイティブバンドルを含む）個別のターゲットノードを作成します。 ターゲットを分割しない場合、ユーザーは指定したすべての場所（[!DNL Boolean] `AND` ステートメント）に属している必要があります。
 
-      1. 「**[!UICONTROL Apply]**」をクリックします。
+      1. **[!UICONTROL Apply]**&#x200B;をクリックします。
 
 1. （オプション）ユーザー定義ブランチのカスタムブランチ名を指定します。
 
-   デフォルトでは、ユーザー定義のブランチには、適用されたターゲットのラベルが付けられます。
+   デフォルトでは、ユーザー定義のブランチには、適用されたターゲットがラベル付けされます。
 
-   「All」または「Everyone Else」ブランチにカスタムのブランチ名を作成することはできません。
+   「すべて」または「その他の全員」ブランチのカスタムブランチ名を作成することはできません。
 
-   1. ターゲットノードの上にカーソルを置き、**[!UICONTROL ...]**/**[!UICONTROL Edit Name]** をクリックします。
+   1. ターゲットノードの上にカーソルを置き、**[!UICONTROL ...]** > **[!UICONTROL Edit Name]**&#x200B;をクリックします。
 
-   1. **[!UICONTROL Node Name]** を入力し、[**[!UICONTROL Save]**] をクリックします。
+   1. **[!UICONTROL Node Name]**&#x200B;を入力し、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-1. 次のいずれかの操作をおこないます。
+1. 次のいずれかの操作を行います。
 
-   * （任意） [&#x200B; クリエイティブの割り当て &#x200B;](experience-assign-creative-bundles.md) を新しいターゲットノードと「その他すべて」ノードに割り当てます。
+   * （オプション） [ クリエイター](experience-assign-creative-bundles.md)を新しいターゲットノードと「その他のすべてのもの」ノードに割り当てます。
 
-   * （オプション）エクスペリエンスを保存するには、次の手順に従います。
+   * （オプション）エクスペリエンスを保存するには：
 
       1. 「**[!UICONTROL Save]**」をクリックし、「**[!UICONTROL OK]**」をクリックします。
 
-      1. （最下位レベルの各ノードに 1 つ以上のクリエイティブが含まれていない場合）：次のいずれかの操作をおこないます。
+      1. （最下位レベルの各ノードに1つ以上のクリエイティブが含まれていない場合）：次のいずれかの操作を行います。
 
-         * すべての必要なクリエイティブバンドルを含めずにエクスペリエンスを保存するには、「保存」をクリック **[!UICONTROL Save as Draft]** ます。
+         * 必要なすべてのクリエイティブ バンドルを含まないエクスペリエンスを保存するには、**[!UICONTROL Save as Draft]**&#x200B;をクリックします。
 
-           ドラフトエクスペリエンス用の広告タグは作成できません。
+           ドラフトエクスペリエンスの広告タグを作成することはできません。
 
-         * クリエイティブバンドルをまだ割り当てていない各ターゲットにデフォルトのクリエイティブを割り当てるには、「割り当 **[!UICONTROL Assign Default Creatives]**」をクリックします。 デフォルトのクリエイティブが割り当てられた、更新されたツリーを確認したら、「**[!UICONTROL Save]**」をクリックして **[!UICONTROL OK]** をクリックします。
+         * クリエイティブバンドルがまだ割り当てられていない各ターゲットにデフォルトのクリエイティブを割り当てるには、**[!UICONTROL Assign Default Creatives]**&#x200B;をクリックします。 デフォルトのクリエイターが割り当てられている更新されたツリーを確認したら、「**[!UICONTROL Save]**」と「**[!UICONTROL OK]**」をクリックします。
 
-         * デシジョンツリーの編集を続行するには、「**[!UICONTROL Continue Edit]**」をクリックします。
+         * 決定ツリーの編集を続行するには、**[!UICONTROL Continue Edit]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ノード間にターゲットノードを挿入する &#x200B;](experience-target-node-add-inner.md)
->* [&#x200B; ノード間に兄弟ターゲットノードを追加する &#x200B;](experience-target-node-add-sibling.md)
->* [&#x200B; 子ノードとクリエイティブを同じレベルの別のノードにコピーする &#x200B;](experience-target-node-copy.md)
->* [&#x200B; 最終ノードへのクリエイティブの割り当て &#x200B;](experience-assign-creative-bundles.md)
->* [&#x200B; ターゲットノードまたはクリエイティブリーフノードの削除 &#x200B;](/help/creative/experiences/experience-target-node-delete.md)
->* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンスの作成 &#x200B;](experience-create-targeting.md)
->* [&#x200B; デシジョンツリーのターゲット設定を使用したエクスペリエンスの編集 &#x200B;](experience-edit-targeting.md)
->* [&#x200B; ターゲット設定エクスペリエンス設定 &#x200B;](experience-settings-targeting.md)
+>* [ ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
+>* [ ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)
+>* [子ノードとクリエイターを同じレベルの別のノードにコピー](experience-target-node-copy.md)
+>* [ クリエイティブを最終ノードに割り当て](experience-assign-creative-bundles.md)
+>* [ ターゲットノードまたはクリエイティブリーフノードを削除](/help/creative/experiences/experience-target-node-delete.md)
+>* [決定木ターゲティングでエクスペリエンスを作成](experience-create-targeting.md)
+>* [決定木ターゲティングでエクスペリエンスを編集](experience-edit-targeting.md)
+>* [ ターゲット設定](experience-settings-targeting.md)

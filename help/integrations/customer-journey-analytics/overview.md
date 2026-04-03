@@ -1,59 +1,64 @@
 ---
-title: Adobe AdvertisingとAdobe Customer Journey Analytics間の統合の概要
-description: Adobe AdvertisingとAdobe Customer Journey Analyticsを統合するためのオプションについて説明します。
+title: Adobe AdvertisingとAdobe Customer Journey Analyticsの連携の概要
+description: Adobe AdvertisingとAdobe Customer Journey Analyticsを統合するオプションについて説明します。
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 57636259-f91a-404f-b972-994af67098b1
-source-git-commit: a5a29233034121a310ee172fe2cf6997047733c2
+TQID: https://experienceleague.adobe.com/nxn5AcKCc-xm-k5LXOcKIquNKyoXbt3soR5nhQR0w-E
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: 425
 ht-degree: 0%
 
 ---
 
-# Adobe AdvertisingとCustomer Journey Analyticsの統合の概要
+# Adobe AdvertisingとCustomer Journey Analyticsの連携の概要
 
 <!-- title? If I change, change refs throughout -->
 
-*Advertising DSP[!DNL Advertising Search, Social, & Commerce]* の広告主
+*Advertising DSPおよび[!DNL Advertising Search, Social, & Commerce]*&#x200B;の広告主
 
-Adobe AdvertisingはAdobe Customer Journey Analyticsと統合されており、双方向のデータ共有とレポート作成が可能です。 統合を設定するには、次の 2 つの方法があります。
+Adobe Advertisingは、Adobe Customer Journey Analyticsと統合されているため、双方向のデータ共有とレポート作成が可能です。 統合を設定するには、次の2つのオプションがあります。
 
-* [!DNL Analytics for Advertising] とCustomer Journey Analyticsの両方を持つ広告主は、[!DNL Analytics for Advertising] を通じて持っているのと同じ機能を持っており、Customer Journey Analyticsにビジュアライゼーションが追加されています。
+* [!DNL Analytics for Advertising]とCustomer Journey Analyticsの両方を持つ広告主は、[!DNL Analytics for Advertising]を通じて持つ機能と同じ機能を持ち、Customer Journey Analyticsにビジュアライゼーションが追加されています。
 
-  引き続き、Adobe Experience Platform Web SDK（`alloy.js`）またはAdobe Experience Cloud ID サービス（`visitorAPI.js`）を使用してクリックスルーイベントをトラッキングします。 Advertising DSPを使用する広告主は、引き続きJavaScript スニペットを使用してビュースルーイベントをトラッキングします。 Customer Journey Analyticsで使用できるデータは次のとおりです。
+  Adobe Experience Platform Web SDK （`alloy.js`）またはAdobe Experience Cloud Identity Service （`visitorAPI.js`）を使用して、クリックスルーのイベントを引き続き追跡します。 Advertising DSPを導入している広告主は、引き続きJavaScriptスニペットを使用してビュースルーイベントを追跡します。 Customer Journey Analyticsでは、次のデータを利用できます。
 
-   * Customer Journey AnalyticsのAdobe Advertisingからの Campaign パフォーマンスデータ
+   * Customer Journey AnalyticsのAdobe Advertisingからのキャンペーンパフォーマンスデータ
 
-   * Customer Journey Analyticsで [!DNL Google Ads] と [!DNL Microsoft Advertising] が追跡したサイトアクティビティとコンバージョン（毎日更新）
+   * Customer Journey Analyticsの[!DNL Google Ads]および[!DNL Microsoft Advertising]によって追跡されたサイトアクティビティとコンバージョンが、毎日更新されます
 
-   * Adobe Advertisingの [!DNL Analytics] のアトリビューションデータ。最適化とレポートに使用できます。
+   * Adobe Advertisingの[!DNL Analytics]からのアトリビューションデータ。最適化とレポートに使用できます
 
-  このユースケースでは、オプションで [Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データを収集 &#x200B;](/help/integrations/analytics/rvars-to-evars.md) を使用する必要があります。
+  この使用例では、Customer Journey Analytics[で使用するAMO IDとEF IDの履歴データをオプションで](/help/integrations/analytics/rvars-to-evars.md)収集する必要があります。
 
 <!--
   In this use case, you don't need to perform any extra steps except to optionally [collect historical data for AMO IDs and EF IDs for use in Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 -->
 
-* （今後リリース予定のベータ版機能）Customer Journey Analyticsを使用してい [!DNL Analytics for Advertising] 広告主は、[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を使用して、Adobe AdvertisingとCustomer Journey Analyticsの間でデータをネイティブに交換できます。 Cookie、ハッシュ化された IP、ユニバーサル ID （[!DNL LiveRamp RampIDs] および ID5 ID）を使用してサイトイベントを追跡し、サイトイベントを有料メディアアクティビティに関連付けることができます。 次のデータは、キャンペーン、広告グループ、パッケージ、プレースメント、キーワードの各レベルで利用できます。
+* （ベータ版機能の提供） [!DNL Analytics for Advertising]ではなく{Customer Journey Analyticsを使用している広告主は、[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)を使用して、Adobe AdvertisingとCustomer Journey Analytics間でデータをネイティブに交換できます。 Cookie、ハッシュ化されたIP、ユニバーサル ID （[!DNL LiveRamp RampIDs]およびID5 ID）を使用してサイトイベントを追跡し、サイトイベントを有料メディアのアクティビティに関連付けることができます。 キャンペーン、広告グループ、パッケージ、プレースメント、キーワードの各レベルで、次のデータを利用できます。
 
-   * Customer Journey AnalyticsのAdobe Advertisingからの Campaign パフォーマンスデータ
+   * Customer Journey AnalyticsのAdobe Advertisingからのキャンペーンパフォーマンスデータ
 
-     **メモ：** [!DNL Apple] および [!DNL Tiktok] のデータは使用できません。
+     **注：** [!DNL Apple]および[!DNL Tiktok]のデータは利用できません。
 
-   * Customer Journey Analyticsで [!DNL Google Ads] と [!DNL Microsoft Advertising] が追跡するサイトアクティビティとコンバージョン
+   * Customer Journey Analyticsで[!DNL Google Ads]および[!DNL Microsoft Advertising]によって追跡されたサイトアクティビティとコンバージョン
 
-   * 最適化やレポートに使用できる、Adobe AdvertisingのCustomer Journey Analyticsのアトリビューションデータ
+   * Adobe AdvertisingのCustomer Journey Analyticsからのアトリビューションデータ。最適化やレポートに使用できます
 
-  この使用例では、Web SDKを使用してサイトイベントを追跡し（Cookie、ハッシュ化された IP アドレス、ユニバーサル ID を使用）、サイトイベントを [!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Meta] およびAdobe DSPの有料メディアアクティビティに関連付けます。 また、データ収集にもAdobe Experience Platformを使用します。
+  このユースケースでは、Web SDKを使用して、サイトイベント（Cookie、ハッシュ化されたIP アドレス、ユニバーサル IDを使用）を追跡し、サイトイベントを[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Meta]およびAdobe DSPの有料メディアアクティビティに関連付けます。 また、データ収集にもAdobe Experience Platformを使用します。
 
-## Adobe AdvertisingとCustomer Journey Analytics間のネイティブ統合を開始する方法
+## Adobe AdvertisingとCustomer Journey Analyticsのネイティブ統合を開始する方法
 
-Adobe アカウントチームに連絡してください。アカウントチームは、開始するために必要な初期設定を行い、組織のニーズに基づいて実装とデータ使用の計画を立てるのに役立ちます。
+Adobeのアカウントチームにお問い合わせください。最初に必要な設定を行い、組織のニーズに基づいて導入とデータ利用を計画するのに役立ちます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 前提条件 &#x200B;](prerequisites.md)
->* [&#x200B; 使用するAdobe Advertising ID [!DNL Customer Journey Analytics]](ids.md)
->* [&#x200B; データ収集、データ転送、レポートの設定 &#x200B;](set-up.md)
->* [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション &#x200B;](advertising-data-in-cja.md)
->* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データを収集します &#x200B;](/help/integrations/analytics/rvars-to-evars.md)。
+>* [前提条件](prerequisites.md)
+>* [様が使用している [!DNL Customer Journey Analytics]](ids.md)Adobe Advertising ID
+>* [ データ収集、データ転送、レポートの設定](set-up.md)
+>* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション ](advertising-data-in-cja.md)
+>* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用するAMO IDとEF IDの履歴データを収集](/help/integrations/analytics/rvars-to-evars.md)。

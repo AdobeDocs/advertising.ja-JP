@@ -1,31 +1,35 @@
 ---
 title: '[!UICONTROL AdWords and Bing Audience Target Report]'
-description: '[!UICONTROL AdWords and Bing Audience Target Report] について説明します。'
+description: '[!UICONTROL AdWords and Bing Audience Target Report]について説明します。'
 exl-id: 083a5316-e4ec-45f5-a9ae-901cf5eecef4
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/Q3ZAzWkY0nW6ZTpRMzWORvfSV5KJfEB8mcn74bOuxTA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 205
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords and Bing Audience Target Report]
 
-*[!DNL Google Ads]および [!DNL Microsoft Advertising] アカウントのみ*
+*[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントのみ*
 
-[!UICONTROL AdWords and Bing Audience Target Report] には、1 つ以上の広告グループまたはキャンペーンのオーディエンスターゲット（カスタマーデータベース、市場内、類似のオーディエンスおよび [!DNL Microsoft Advertising] リマーケティング、カスタム、カスタマーマッチ、類似のオーディエンス、市場内オーディエンスな [!DNL Google Ads]）別のコスト、クリック、インプレッションおよび（オプションで）派生指標データが含まれます。 デフォルトでは、データには、指定された日付範囲の時間単位ごとに、該当する広告グループごとに少なくとも 1 つのインプレッションまたはクリックを受信したオーディエンスごとに 1 つの行が含まれます。 行は、広告グループ名で昇順に、デフォルトではオーディエンスで並べられます。 このレポートには、リマーケティングリストターゲットに関してのみ、[!DNL Adobe] で追跡されたコンバージョンデータが含まれています。
+[!UICONTROL AdWords and Bing Audience Target Report]には、1つ以上の広告グループまたはキャンペーンのオーディエンスターゲティング（[!DNL Google Ads]顧客データベース、市場内、類似オーディエンスおよび[!DNL Microsoft Advertising] リマーケティング、カスタム、顧客照合、類似、市場内オーディエンス）別のコスト、クリック、インプレッション、および（オプション）派生指標データが含まれます。 デフォルトでは、データには、指定された日付範囲の時間単位ごとに、少なくとも1つのインプレッションを受け取ったオーディエンスごとに1行または該当する広告グループごとに1回のクリックが含まれます。 行は、広告グループ名で昇順に並べ、デフォルトではオーディエンスで並べ替えられます。 このレポートには、[!DNL Adobe]がリマーケティングリストのターゲットのみを対象として追跡したコンバージョンデータが含まれます。
 
-前年までのデータを表示できます。
+前年度までのデータを表示できます。
 
 >[!NOTE]
 >
->* [!DNL Google Ads] は、市場内オーディエンスの売上高データを追跡する手段を提供していません。
->* このレポートのデータは、前日の午後 23 時（午後 11 時）に取り込まれます。 例えば、6 月 18 日の 23:00 に、6 月 17 日のデータを取り込みます。 6 月 19 日の 09:00 にレポートを実行した場合（6 月 18 日のデータが取り込まれる前）、レポートには 6 月 17 日の 23:00 までのデータが含まれます。
+>* [!DNL Google Ads]は、市場内のオーディエンスの収益データを追跡する手段を提供していません。
+>* このレポートのデータは、毎日23:00 （午後11:00）の前日に取得されます。 例えば、6月18日の23:00に、6月17日のデータを取得します。 6月18日のデータがプルされる前の6月19日（09:00）にレポートを実行すると、レポートには6月17日（23:00）までのデータが含まれます。
 
 ## デフォルトの列
 
-すべてのデフォルト列およびカスタム列の説明は、[&#x200B; 専門レポートのレポート列 &#x200B;](specialty-report-columns.md) を参照してください。
+すべてのデフォルト列とカスタム列について詳しくは、「[特殊レポートのレポート列](specialty-report-columns.md)」を参照してください。
 
 * [!UICONTROL Start Date]
 * [!UICONTROL End Date]
@@ -42,6 +46,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 専門レポートについて &#x200B;](specialty-report-about.md)
->* [&#x200B; 専門レポートの生成 &#x200B;](specialty-report-generate.md)
->* [&#x200B; 専門レポートの設定 &#x200B;](specialty-report-settings.md)
+>* [専門性レポートについて](specialty-report-about.md)
+>* [専門性レポートの生成](specialty-report-generate.md)
+>* [特殊レポート設定](specialty-report-settings.md)
