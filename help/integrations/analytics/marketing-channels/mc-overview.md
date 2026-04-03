@@ -25,7 +25,7 @@ ht-degree: 0%
 
 このページでは、[!DNL Analytics Marketing Channels] ユーザーが理解する必要がある[!DNL Analytics for Advertising]に関する重要な情報について説明します。
 
-[!DNL Marketing Channels]に関する完全なドキュメントについては、「[&#x200B; [!DNL Marketing Channels]](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)の基本を学ぶ」を参照してください。
+[!DNL Marketing Channels]に関する完全なドキュメントについては、「[&#x200B; [!DNL Marketing Channels]](https://experienceleague.adobe.com/ja/docs/analytics/components/marketing-channels/c-getting-started-mchannel)の基本を学ぶ」を参照してください。
 
 ## [!DNL Marketing Channels]の概要
 

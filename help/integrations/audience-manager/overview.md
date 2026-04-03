@@ -57,7 +57,7 @@ Adobe AdvertisingとAudience Managerは、次の方法で統合できます。
 
 >[!NOTE]
 >
->Audience ManagerおよびExperience Cloud [!DNL Audience Library] インターフェイスでオーディエンスを作成する方法と、様々なオーディエンスタイプの一般的なユースケースについて詳しくは、「[&#x200B; オーディエンス作成オプション &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)」を参照してください。
+>Audience ManagerおよびExperience Cloud [!DNL Audience Library] インターフェイスでオーディエンスを作成する方法と、様々なオーディエンスタイプの一般的なユースケースについて詳しくは、「[&#x200B; オーディエンス作成オプション &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja)」を参照してください。
 
 ## DSPのメディア露出データをAudience Managerに送信
 

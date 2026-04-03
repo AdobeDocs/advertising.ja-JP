@@ -56,7 +56,7 @@ Adobe Advertising導入チームに以下を提供します。
 * 有料メディアアクティビティのレポートと、Adobe Advertisingでの最適化とレポート作成のためのサイトアクティビティのフィードに使用する[!DNL Analytics] レポートスイート ID
 * 会社のExperience Cloud Organization ID （組織ID）。
 
-両方のIDは、Adobe Experience Cloud Debugger[の「](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)概要」タブにあります。
+両方のIDは、Adobe Experience Cloud Debugger[の「](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ja)概要」タブにあります。
 
 ![Experience Cloud デバッガーの概要画面](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -126,7 +126,7 @@ Experience Cloud ID サービスがサイトに実装されると、[!DNL Analyt
 
 正確なデータ統合を行うには、[!DNL Analytics for Advertising] アクティビティがコンテンツの配信または目標指標の記録に使用するすべてのAdobe Advertising呼び出しに、同じ補足IDを共有する対応する[!DNL Analytics] ヒットが必要です。
 
-[!DNL Analytics]でトラブルシューティングを行う場合は、必ず[!DNL Analytics] ヒットの補足IDが存在することを確認してください。 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)では、このIDを`sdid` パラメーターとして「Adobe Advertising」タブに表示できます。
+[!DNL Analytics]でトラブルシューティングを行う場合は、必ず[!DNL Analytics] ヒットの補足IDが存在することを確認してください。 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ja)では、このIDを`sdid` パラメーターとして「Adobe Advertising」タブに表示できます。
 
 >[!NOTE]
 >

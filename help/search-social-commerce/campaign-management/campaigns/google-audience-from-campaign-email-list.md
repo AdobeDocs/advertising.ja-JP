@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. [!DNL Campaign]で、Advertising Search、Social、およびCommerceへのメールリストの配信を設定します。
 
-   1. Search, Social, &amp; Commerceが提供するSFTP アカウントをリンクする[外部アカウント &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html)を作成します。
+   1. Search, Social, &amp; Commerceが提供するSFTP アカウントをリンクする[外部アカウント &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html?lang=ja)を作成します。
 
       1. 左側のメニューから、**\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**&#x200B;に移動します。
 

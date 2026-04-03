@@ -69,7 +69,7 @@ Adobeは、各広告主と連携して、広告ネットワークアカウント
 
    1. コンバージョン追跡の設定。 実装に応じて、これには、広告主のweb ページにコンバージョン追跡タグを追加したり、広告主が個別に収集したコンバージョンデータの毎日のフィードドロップを設定したりすることが含まれます。
 
-      Adobe Advertising コンバージョントラッキングサービスを使用している場合は、Search, Social, &amp; Commerce内で[&#x200B; コンバージョントラッキングタグ &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md)を生成するか、Adobe Experience Platform[&#x200B; （旧Adobe Experience Platform Launch）から](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) タグを使用できます。
+      Adobe Advertising コンバージョントラッキングサービスを使用している場合は、Search, Social, &amp; Commerce内で[&#x200B; コンバージョントラッキングタグ &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md)を生成するか、Adobe Experience Platform[&#x200B; （旧Adobe Experience Platform Launch）から](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=ja) タグを使用できます。
 
    1. 追跡されたデータを検証します。
 

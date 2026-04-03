@@ -96,7 +96,7 @@ ht-degree: 0%
 
 **eCPM:**&#x200B;指定した日付範囲の1000 インプレッションあたりの実効CPMまたは平均支払いコスト。 CPMまたはCPCの施策で、eCPM値を計算できます。
 
-**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id):** Adobe Advertisingがアクティビティをオンラインクリックまたは広告露出に関連付け、キャンペーンに関するデータをAdobe AnalyticsおよびAdobe Customer Journey Analyticsと共有できるようにするトラッキングコード。
+**[EF ID](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-ef-id):** Adobe Advertisingがアクティビティをオンラインクリックまたは広告露出に関連付け、キャンペーンに関するデータをAdobe AnalyticsおよびAdobe Customer Journey Analyticsと共有できるようにするトラッキングコード。
 
 ## G-H {#g-h}
 

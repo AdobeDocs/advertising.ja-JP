@@ -165,5 +165,5 @@ EF ID ディメンションは、[!DNL Analytics] レポートでは直接使用
 >* [の基本 [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe Advertisingと [!DNL Marketing Channels]](mc-data-variances.md)でチャネルデータが異なる理由
 >* [Adobe Advertising data [!DNL Analytics Marketing Channels] での](mc-ac-data.md)の使用
->* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ja)
 >* [様が使用している [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID

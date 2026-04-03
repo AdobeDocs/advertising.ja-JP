@@ -87,7 +87,7 @@ CCPA向けAdobe Privacy Servicesについて詳しくは、[Adobe Privacy Center
    >
    >ビジネスに複数のExperience Cloud組織IDがある場合は、それぞれに個別のAPI リクエストを送信する必要があります。 ただし、複数のAdobe Advertising サブソリューション（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]、および[!DNL DCO]）に1つのAPI リクエストを、サブソリューションごとに1つのアカウントで行うことができます。
 
-Adobe Advertisingのサポートを受けるには、これらすべての手順が必要です。 Adobe Experience Platform Privacy Serviceを使用して実行する必要があるこれらのタスクと関連タスク、および必要な項目の検索場所について詳しくは、[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)を参照してください。
+Adobe Advertisingのサポートを受けるには、これらすべての手順が必要です。 Adobe Experience Platform Privacy Serviceを使用して実行する必要があるこれらのタスクと関連タスク、および必要な項目の検索場所について詳しくは、[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)を参照してください。
 
 ## オプトアウト要求を送信した消費者のレポートの取得
 

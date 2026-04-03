@@ -88,7 +88,7 @@ Adobe Advertisingから消費者の個人情報にアクセスして削除する
    >
    >ビジネスに複数のExperience Cloud組織IDがある場合は、それぞれに個別のAPI リクエストを送信する必要があります。 ただし、複数のAdobe Advertising サブソリューション（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]、および[!DNL DCO]）に1つのAPI リクエストを、サブソリューションごとに1つのアカウントで行うことができます。
 
-Adobe Advertisingからサポートを受けるには、すべての手順が必要です。 Adobe Experience Platform Privacy Serviceを使用して実行する必要があるこれらのタスクと関連タスク、および必要な項目の検索場所について詳しくは、[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)を参照してください。
+Adobe Advertisingからサポートを受けるには、すべての手順が必要です。 Adobe Experience Platform Privacy Serviceを使用して実行する必要があるこれらのタスクと関連タスク、および必要な項目の検索場所について詳しくは、[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)を参照してください。
 
 ## Adobe Advertising JSON リクエストの必須フィールド値
 
@@ -105,11 +105,11 @@ Adobe Advertisingからサポートを受けるには、すべての手順が必
 
 * `"user IDs":`
 
-   * `"namespace": **411**` （[[!DNL AdCloud] cookie スペース &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)を示します）
+   * `"namespace": **411**` （[[!DNL AdCloud] cookie スペース &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix)を示します）
 
    * `"value":` &lt;*実際の顧客のcookie ID値（`AdobePrivacy.js`*>から取得）
 
-* `"include": **adCloud**` （リクエストに適用される[[!DNL Adobe] 製品](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)です）
+* `"include": **adCloud**` （リクエストに適用される[[!DNL Adobe] 製品](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix)です）
 
 * `"regulation": **ccpa**` （リクエストに適用されるプライバシー規制です）
 

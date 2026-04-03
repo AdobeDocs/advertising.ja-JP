@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* Adobe Experience Platform Privacy Service APIを使用してCCPA オプトアウトオブセールリクエストをAdobe Advertisingに通知する方法について詳しくは、[https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html)を参照してください。
+>* Adobe Experience Platform Privacy Service APIを使用してCCPA オプトアウトオブセールリクエストをAdobe Advertisingに通知する方法について詳しくは、[https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=ja](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=ja)を参照してください。
 >* CCPA オプトアウトオブセールスイベントのトラッキングに関連しない目的でweb ページにアクセスするユーザーと、デスクトップ、モバイル、およびCTV デバイスから広告に露出したユーザーを追跡するには、[&#x200B; カスタムセグメント &#x200B;](/help/dsp/audiences/custom-segment-create.md)を作成します。
 
 1. セグメントを作成します。

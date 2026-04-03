@@ -52,13 +52,13 @@ ht-degree: 0%
 ### 標準コンバージョン指標
 
 * [[!UICONTROL Revenue]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html)
-* [[!UICONTROL Orders]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html)
-* [[!UICONTROL Units]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html)
+* [[!UICONTROL Orders]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html?lang=ja)
+* [[!UICONTROL Units]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html?lang=ja)
 * [[!UICONTROL Carts]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html)
-* [[!UICONTROL Cart Views]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html)
-* [[!UICONTROL Checkouts]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html)
+* [[!UICONTROL Cart Views]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html?lang=ja)
+* [[!UICONTROL Checkouts]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html?lang=ja)
 * [[!UICONTROL Cart Additions]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html)
-* [[!UICONTROL Cart Removals]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html)
+* [[!UICONTROL Cart Removals]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html?lang=ja)
 
 ### カスタムコンバージョン指標
 
