@@ -4,9 +4,12 @@ description: 顧客データリストから [!DNL Google Ads] および [!DNL Mi
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/XoDGbJAFowx-KX0hWQH4XoFrc0R2YiftT-mN6f4KWDE
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 840
@@ -85,7 +88,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 広告ネットワークがファイルを処理するのに最大24時間かかる場合があります。
->* 顧客の一致の仕組みと制限に関する[[!DNL Google Ads]  ドキュメント ](https://support.google.com/displayvideo/answer/9539301)を参照してください。
+>* 顧客の一致の仕組みと制限に関する[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/displayvideo/answer/9539301)を参照してください。
 
 ## 顧客データリストを使用した顧客マッチオーディエンスの編集
 
@@ -121,7 +124,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ オーディエンスについて](audience-about.md)
+>* [&#x200B; オーディエンスについて](audience-about.md)
 >* [顧客マッチオーディエンスを [!DNL Google Ads]  オーディエンス  [!DNL Adobe] から](google-audience-from-adobe-audience.md)作成
 >* [Adobe Campaignのメールリストから [!DNL Google Ads] 顧客マッチオーディエンスを作成](google-audience-from-campaign-email-list.md)
 >* [動的リマーケティングオーディエンスの管理](audience-dynamic-remarketing-manage.md)

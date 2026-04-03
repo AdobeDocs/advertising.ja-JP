@@ -4,9 +4,12 @@ description: Search, Social, & Commerceの広告について説明します。
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 883
@@ -40,7 +43,7 @@ ht-degree: 0%
 
   ユーザーの検索語が、キーワードベースのキャンペーンの1つのキーワードと完全に一致すると、動的な検索広告の代わりに、キーワードベースのキャンペーンの広告が表示されます。 ユーザーの検索語句がキーワードの1つに一致するかフレーズ一致し、動的検索広告の広告ランクが高い場合、広告ネットワークには、キーワードをターゲットにした広告ではなく動的検索広告が表示されます。
 
-  動的検索広告について詳しくは、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/2471185)および[[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/ads/en/56794)を参照してください。
+  動的検索広告について詳しくは、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/2471185)および[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56794)を参照してください。
 
 * **件の検索キャンペーンの** マルチメディア広告[!DNL Microsoft Advertising]。 マルチメディア広告は、メインラインとサイドバーの目立つ位置に表示される大きな画像広告で、ページごとに1つのマルチメディア広告のみが表示されます。 レスポンシブ広告のように、複数のテキストや画像のアセットを含めることができます。また、広告ネットワークは、広告要素の最も効果的な組み合わせを使用して広告を組み立てます。 マルチメディア広告がテキスト広告の配置を置き換えることはありません。
 
@@ -48,13 +51,13 @@ ht-degree: 0%
 
   広告グループに個別の製品グループを設定して、[!DNL Microsoft Advertising] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューから、[!UICONTROL Product Groups] ショッピング広告に表示される製品を制御できます。
 
-  商品/ショッピング広告のワークフローについて詳しくは、「[実装 [!DNL Microsoft Advertising]  ショッピングキャンペーン ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)」を参照してください。  商品の広告について詳しくは、[Microsoft Advertising ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/51082)を参照してください。
+  商品/ショッピング広告のワークフローについて詳しくは、「[実装 [!DNL Microsoft Advertising]  ショッピングキャンペーン &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)」を参照してください。  商品の広告について詳しくは、[Microsoft Advertising ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/51082)を参照してください。
 
 * 検索ネットワーク上の[!DNL Google Ads]および[!DNL Microsoft Advertising]件のキャンペーンのレスポンシブ検索広告。 広告ネットワークは、一連の広告タイトルと説明からテキストベースのレスポンシブ検索広告を動的に組み合わせ、パフォーマンスが高い組み合わせを好みます。 この広告には、最大3つの見出し、2つの説明、およびベース URLとオプションのpath1およびpath2 フィールドからのカスタマイズ可能なURLが含まれます。 オプションで、特定の位置に広告タイトルと説明をピン留めすることができます。
 
 >[!NOTE]
 >
->[!DNL Google Ads]は、ネイティブエディター以外では、広告として表示されたテキストの組み合わせに関するデータを提供しません。 各テキストの組み合わせのレポートについて詳しくは、[Google Ads ドキュメント ](https://support.google.com/google-ads/answer/7684791)を参照してください。
+>[!DNL Google Ads]は、ネイティブエディター以外では、広告として表示されたテキストの組み合わせに関するデータを提供しません。 各テキストの組み合わせのレポートについて詳しくは、[Google Ads ドキュメント &#x200B;](https://support.google.com/google-ads/answer/7684791)を参照してください。
 
 ## [!UICONTROL Ads] ビュー
 

@@ -4,8 +4,10 @@ description: フィード データの処理方法を制御する設定を構成
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 1155
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 1. データテーブルの上のツールバーで、**[!UICONTROL Settings]**&#x200B;をクリックします。
 
-1. [ フィード データ設定](#feed-data-settings)を指定します。
+1. [&#x200B; フィード データ設定](#feed-data-settings)を指定します。
 
    1. 「[!UICONTROL Obsolete Item Auto-Processing]」セクションで、フィールドの情報を選択します。
 
@@ -107,7 +109,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Immediately]* （既定値）: データがテンプレートを通じて伝達された後、一括シート ファイルを関連する広告ネットワークに投稿します。 バルクシートファイルは、30日間[!UICONTROL Bulksheets] ビューで引き続き利用できます。
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]:**は、バルクシート ファイルを関連する広告ネットワークに投稿しませんが、後で投稿できる[!UICONTROL Bulksheets] ビューに一覧表示します。 バルクシートファイルは、30日間[!UICONTROL Bulksheets] ビューで引き続き利用できます。 バルクシートファイルが10 MBを超えて2 GB未満の場合、ファイルはZIP形式になります。投稿するためにファイルを解凍する必要はありません。 **ヒント：**&#x200B;以前にランディングページを検証していない場合は、このオプションを使用して、データを広告ネットワークに投稿する前に[!UICONTROL Bulksheets] ビューから検証できます。
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]:**は、バルクシート ファイルを関連する広告ネットワークに投稿しませんが、後で投稿できる[!UICONTROL Bulksheets] ビューに一覧表示します。 バルクシートファイルは、30日間[!UICONTROL Bulksheets] ビューで引き続き利用できます。 バルクシートファイルが10 MBを超えて2 GB未満の場合、ファイルはZIP形式になります。投稿するためにファイルを解凍する必要はありません。 &#x200B;** ヒント：**&#x200B;以前にランディングページを検証していない場合は、このオプションを使用して、データを広告ネットワークに投稿する前に[!UICONTROL Bulksheets] ビューから検証できます。
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]:**&#x200B;は、指定された文字数以上のキーワードフレーズを広告ネットワークに投稿することを禁止します。 このオプションを選択すると、最大文字数を超えるキーワードフレーズが反映され、[!UICONTROL Keywords] タブに表示されますが、データを投稿しようとすると投稿されません。
 
@@ -116,5 +118,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [在庫フィードについて](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
->* [ テンプレートを通じてフィード データを伝達](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
->* [ フィードから生成されたキャンペーンデータを広告ネットワークに投稿](propagated-data-post.md)
+>* [&#x200B; テンプレートを通じてフィード データを伝達](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
+>* [&#x200B; フィードから生成されたキャンペーンデータを広告ネットワークに投稿](propagated-data-post.md)

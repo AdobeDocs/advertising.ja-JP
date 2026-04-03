@@ -5,10 +5,15 @@ role: User, Admin
 exl-id: 93ac22c8-e1e7-490e-8b00-86cac8a2d00c
 feature: Search Admin, Search Data Sources
 TQID: https://experienceleague.adobe.com/9gzPWJDlDfUNgqzilPhAmSngxigpbmnQ-WM7odAgx-U
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-subfeature_v2: id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+subfeature_v2:
+  - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 130
@@ -33,9 +38,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [同期について [!DNL Google Analytics]  コンバージョン指標](data-source-about.md)
->* [ データソースを設定するための前提条件 [!DNL Google Analytics] ](data-source-prerequisites.md)
->* [ データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
->* [ データソースの編集 [!DNL Google Analytics] ](data-source-edit.md)
->* [ データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
+>* [&#x200B; データソースを設定するための前提条件 [!DNL Google Analytics] &#x200B;](data-source-prerequisites.md)
+>* [&#x200B; データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
+>* [&#x200B; データソースの編集 [!DNL Google Analytics] &#x200B;](data-source-edit.md)
+>* [&#x200B; データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics]  データソース設定](data-source-settings.md)
 >* [付録 – 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)

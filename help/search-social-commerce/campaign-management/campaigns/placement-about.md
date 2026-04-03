@@ -4,8 +4,10 @@ description: ' [!DNL Google Ads]の入札可能なプレースメントと負の
 exl-id: c0a2d888-8afa-47c8-a89e-da4de527e6ea
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/mLsl1Jx5cbPCvdSpNjff9aU1O4vPPDsFW-eYPX7PfG8
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 166
@@ -19,7 +21,7 @@ ht-degree: 0%
 
 プレースメントは、広告を表示できるディスプレイネットワーク上の場所です。 配置の設定には、最大入札額とオプションのトラッキングパラメーターが含まれます。 配置レベルの設定は、広告グループまたはキャンペーンの設定を上書きします。
 
-[同期検索エンジンアカウント  [!DNL Google Ads] 内の表示ネットワークをターゲットとする](/help/search-social-commerce/introduction/supported-inventory.md) サポート対象[ キャンペーンタイプ ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)の任意の広告グループに対してプレースメントを作成できます。
+[同期検索エンジンアカウント  [!DNL Google Ads] 内の表示ネットワークをターゲットとする](/help/search-social-commerce/introduction/supported-inventory.md) サポート対象[&#x200B; キャンペーンタイプ &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)の任意の広告グループに対してプレースメントを作成できます。
 
 ## [!UICONTROL Placements] ビュー
 
@@ -35,4 +37,4 @@ ht-degree: 0%
 >
 >* [入札可能なプレースメントの管理](placement-manage.md)
 >* [負のプレースメントを作成](placement-negative-create.md)
->* [ プレースメントとネガティブプレースメントのステータスを変更](placement-status-edit.md)
+>* [&#x200B; プレースメントとネガティブプレースメントのステータスを変更](placement-status-edit.md)

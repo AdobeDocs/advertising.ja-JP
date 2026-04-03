@@ -4,11 +4,16 @@ description: パッケージ管理の詳細。
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
 TQID: https://experienceleague.adobe.com/1K4giwhJNw17ypfKD8ygeoYHPV3P5ovMhi-ugRvFozc
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 229
@@ -26,7 +31,7 @@ ht-degree: 0%
 
 [!UICONTROL Packages] ダッシュボードは、すべてのパッケージ戦略のパフォーマンスと経済レポートを一元化し、指定した日付範囲内にパッケージがどのように実行されたかをすばやくスナップショットします。
 
-![ パッケージダッシュボード ](/help/dsp/assets/package-dashboard.png)
+![&#x200B; パッケージダッシュボード &#x200B;](/help/dsp/assets/package-dashboard.png)
 
 ダッシュボードには、3つの指標を含む、カスタマイズ可能で大まかなトレンドチャートが用意されています。
 
@@ -34,14 +39,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[ カスタムレポート ](/help/dsp/reports/report-about.md)を使用して、パッケージレポートのコンテンツと配信をさらにカスタマイズできます。
+>[&#x200B; カスタムレポート &#x200B;](/help/dsp/reports/report-about.md)を使用して、パッケージレポートのコンテンツと配信をさらにカスタマイズできます。
 
 パッケージ内のすべてのプレースメントと、パッケージのフライト日を表示するには、パッケージ名をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ パッケージを作成](package-create.md)
->* [ パッケージの編集](package-edit.md)
->* [ プレースメントをパッケージに添付](package-attach-placement.md)
->* [ パッケージの変更ログを表示](package-change-log.md)
->* [ パッケージ設定](package-settings.md)
+>* [&#x200B; パッケージを作成](package-create.md)
+>* [&#x200B; パッケージの編集](package-edit.md)
+>* [&#x200B; プレースメントをパッケージに添付](package-attach-placement.md)
+>* [&#x200B; パッケージの変更ログを表示](package-change-log.md)
+>* [&#x200B; パッケージ設定](package-settings.md)

@@ -4,10 +4,14 @@ description: 1つ以上のプレースメントを複製する方法について
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
 TQID: https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 440
@@ -48,7 +52,7 @@ ht-degree: 0%
 
    1. （単一のプレースメント）新しいプレースメント名を入力します。
 
-   1. **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**[!UICONTROL No package]*のいずれかを選択します。
+   1. **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**[!UICONTROL No package]*&#x200B;のいずれかを選択します。
 
    1. （オプション）デフォルト設定を変更します。
 
@@ -80,7 +84,7 @@ ht-degree: 0%
 >[!TIP]
 >
 >* バルクシートを使用すると、一度に[複数のキャンペーンコンポーネントに変更を加えることができます](/help/dsp/campaign-management/campaign-components-review-edit.md)。
->* 広告タグシートを使用して[複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
+>* 広告タグシートを使用して[複数のサードパーティ広告をアップロード &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
 
 * 新しいプレースメントをアクティブ化する準備ができるまで一時停止します。
 
@@ -103,7 +107,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのプレースメント管理について](placement-about.md)
->* [ プレースメントの作成](placement-create.md)
->* [ プレースメントを編集](placement-edit.md)
->* [ プレースメントの変更ログを表示](placement-change-log.md)
+>* [&#x200B; プレースメントの作成](placement-create.md)
+>* [&#x200B; プレースメントを編集](placement-edit.md)
+>* [&#x200B; プレースメントの変更ログを表示](placement-change-log.md)
 >* [配置の設定](placement-settings.md)

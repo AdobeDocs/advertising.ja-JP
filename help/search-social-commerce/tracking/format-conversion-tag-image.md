@@ -4,8 +4,10 @@ description: 画像変換トラッキングタグの形式を参照します。
 exl-id: e23107e1-b719-4572-a471-13e51387465d
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/TQMACo5-LkbCU2SiMmUE-ZDBRTb8NERQPQ9ISzU0DdU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 249
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->画像タグとJavaScript タグの使用状況について詳しくは、「[ トラッキングタグに関するFAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)」を参照してください。
+>画像タグとJavaScript タグの使用状況について詳しくは、「[&#x200B; トラッキングタグに関するFAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)」を参照してください。
 
 * HTTPを使用するサイトの安全でないタグ：
 

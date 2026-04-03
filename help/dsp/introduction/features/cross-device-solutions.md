@@ -4,10 +4,16 @@ description: クロスデバイス機能の関連リソース。
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
 TQID: https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 997
@@ -47,7 +53,7 @@ ht-degree: 0%
 
 * **キャンペーン：**&#x200B;新しいキャンペーンを作成する際に、[!UICONTROL Cross-Device Level]設定を指定できます。 「[!UICONTROL Same Device]」 – > 「[!UICONTROL People]」を有効にし、デバイスグラフを選択します。 指定されたデバイスグラフは、プレースメントレベルでのクロスデバイスターゲティングと、キャンペーン、パッケージ、プレースメントレベルでのピープルベースの周波数管理の両方に使用されます。 広告の表示頻度の上限は、オーディエンスの既知のデバイスすべてに適用されます。
 
-詳しくは、[ キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)を参照してください。
+詳しくは、[&#x200B; キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)を参照してください。
 
 キャンペーンを保存すると、その[!UICONTROL Cross Device Level]設定を変更することはできません。
 
@@ -63,7 +69,7 @@ ht-degree: 0%
 
 * **キャンペーン：**&#x200B;新しいキャンペーンを作成する際に、[!UICONTROL Cross-Device Level]設定を指定できます。 「[!UICONTROL Same Device]」 – > 「[!UICONTROL People]」を有効にし、デバイスグラフを選択します。 指定されたデバイスグラフは、プレースメントレベルでのクロスデバイスのターゲティングとピープルベースの周波数管理の両方に使用されます。
 
-詳しくは、[ キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)を参照してください。
+詳しくは、[&#x200B; キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)を参照してください。
 
 * **プレースメント：**&#x200B;指定したデバイスグラフを含むキャンペーンのプレースメントに対してオーディエンスターゲティングを選択する場合、[!UICONTROL Cross-Device Targeting] オプションを使用すると、指定したセグメントに含まれていないデバイスも含め、ユーザーの既知のデバイス（キャンペーン設定で指定したデバイスグラフごと）すべてにターゲティングを拡張できます。
 
@@ -117,7 +123,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ レポート設定](/help/dsp/reports/report-settings.md)
->* [ キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [ パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; レポート設定](/help/dsp/reports/report-settings.md)
+>* [&#x200B; キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [&#x200B; パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)

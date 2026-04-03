@@ -4,8 +4,10 @@ description: Merchant Center アカウントのアカウント詳細を設定お
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 789
@@ -49,7 +51,7 @@ Search, Social, &amp; Commerceは、広告主のGoogle Merchant CenterまたはM
    
    -->
 
-   1. （[!DNL Google Ads] アカウントに必要。オプションは[!DNL Microsoft Advertising] アカウントに対して必要）検索、ソーシャル、およびCommerceが[[!DNL OAuth] 認証プロトコル ](https://oauth.net/2/)を使用してアカウントにアクセスできるようにします。
+   1. （[!DNL Google Ads] アカウントに必要。オプションは[!DNL Microsoft Advertising] アカウントに対して必要）検索、ソーシャル、およびCommerceが[[!DNL OAuth] 認証プロトコル &#x200B;](https://oauth.net/2/)を使用してアカウントにアクセスできるようにします。
 
       1. （[!DNL Microsoft Advertising] アカウントのみ）「**[!UICONTROL oAuth]**」を選択します。
 
@@ -111,13 +113,13 @@ Search, Social, &amp; Commerceは、広告主のGoogle Merchant CenterまたはM
 
 **[!UICONTROL Product Source]:** マーチャント ネットワーク。 既存のアカウントの値は変更できません。
 
-**[!UICONTROL OAuth Token]:** （[!DNL Google Merchant Center] アカウントのみ） アカウントのトークンは、[[!DNL OAuth] 認証プロトコル ](https://oauth.net/2/)を使用してログインを認証します。
+**[!UICONTROL OAuth Token]:** （[!DNL Google Merchant Center] アカウントのみ） アカウントのトークンは、[[!DNL OAuth] 認証プロトコル &#x200B;](https://oauth.net/2/)を使用してログインを認証します。
 
 **[!UICONTROL Auth Type]:** （[!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center]のみ）次を使用してアカウントへのログインを許可するかどうか：
 
 * *[!UICONTROL Client login]:* クライアントのログインを使用します。
 
-* *[!UICONTROL oAuth]* （デフォルト）: [[!DNL OAuth] 認証プロトコル ](https://oauth.net/2/)を使用するには。
+* *[!UICONTROL oAuth]* （デフォルト）: [[!DNL OAuth] 認証プロトコル &#x200B;](https://oauth.net/2/)を使用するには。
 
 **[!UICONTROL Access Key]:** （[!DNL Microsoft Merchant Center]のみ）開発者アカウントが使用するアクセスキー。
 

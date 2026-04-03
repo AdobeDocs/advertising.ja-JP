@@ -4,8 +4,10 @@ description: ショッピング商品グループで使用できる商品フィ�
 exl-id: 91695fa8-6e5e-42a7-a84a-0b46b9f4dfcc
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/OgEEd-i6RcM98DpR7h6KFXnO8zfZiEgpJZAof8Bqgws
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 174
@@ -30,13 +32,13 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ショッピング キャンペーン  [!DNL Google Ads] を実装](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
->* [ ショッピング キャンペーン  [!DNL Microsoft Advertising] を実装](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
->* [ ショッピング商品グループについて](product-group-about.md)
->* [ ショッピング商品グループの管理](product-group-manage.md)
+>* [&#x200B; ショッピング キャンペーン  [!DNL Google Ads] を実装](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [&#x200B; ショッピング キャンペーン  [!DNL Microsoft Advertising] を実装](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+>* [&#x200B; ショッピング商品グループについて](product-group-about.md)
+>* [&#x200B; ショッピング商品グループの管理](product-group-manage.md)
 >* [[!DNL Google Ads] 製品グループ設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
 >* [[!DNL Microsoft Advertising] 製品グループ設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
 >* [[!DNL Google Ads] 在庫フィードのショッピング広告テンプレート設定](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
 >* [[!DNL Microsoft Advertising] 在庫フィードのショッピング広告テンプレート設定](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
->* [ バルクシート  [!DNL Google Ads] に必要なデータ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
->* [ バルクシート  [!DNL Microsoft Advertising] に必要なデータ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+>* [&#x200B; バルクシート  [!DNL Google Ads] に必要なデータ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+>* [&#x200B; バルクシート  [!DNL Microsoft Advertising] に必要なデータ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)

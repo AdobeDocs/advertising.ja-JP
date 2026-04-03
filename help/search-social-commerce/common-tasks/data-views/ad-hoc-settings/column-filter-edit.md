@@ -4,8 +4,10 @@ description: 列フィルターの編集方法を説明します。
 exl-id: 68f816ea-cde2-4df0-b46c-f47fa20a2727
 feature: Search Common Tasks, Search Custom Data Views
 TQID: https://experienceleague.adobe.com/BeMoK7e--CoIqQDg364E9nnb28nGDYwP6YaKu3swzHY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 586
@@ -19,7 +21,7 @@ ht-degree: 0%
 
 ## （新しいUI）管理ビューでのフィルターセットの編集
 
-1. ツールバーで、![ フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター")をクリックします。
+1. ツールバーで、![&#x200B; フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター")をクリックします。
 
 1. フィルター設定で、次のいずれかの操作を行います。
 
@@ -47,11 +49,11 @@ ht-degree: 0%
 
 ## （従来のUI）キャンペーン管理ビューでのフィルターセットの編集
 
-1. ツールバーの「![ フィルター](/help/search-social-commerce/assets/filter.png " フィルター")」をクリックします。
+1. ツールバーの「![&#x200B; フィルター](/help/search-social-commerce/assets/filter.png " フィルター")」をクリックします。
 
 1. フィルター設定で、次のいずれかの操作を行います。
 
-   * フィルターを追加するには、![ フィルターを追加](/help/search-social-commerce/assets/add.png " フィルターを追加") **[!UICONTROL ADD FILTER]**&#x200B;をクリックし、次の操作を行います。
+   * フィルターを追加するには、![&#x200B; フィルターを追加](/help/search-social-commerce/assets/add.png " フィルターを追加") **[!UICONTROL ADD FILTER]**&#x200B;をクリックし、次の操作を行います。
 
       1. （オプション）列名をテキスト文字列でフィルタリングするには、**[!UICONTROL ADD FILTER]**&#x200B;入力フィールドに検索文字列を入力します。
 
@@ -100,5 +102,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [列見出しメニューからデータフィルターを適用](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
->* [ ツールバーからデータフィルターを適用](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [&#x200B; ツールバーからデータフィルターを適用](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
 >* [列フィルターを削除] （/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/

@@ -4,8 +4,10 @@ description: ' [!DNL Microsoft Advertising] 買い物商品グループの設定
 exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/xbYc0Xe-FsgGq-jqZdzZ4Rj877BL6NCxb4utaEMmCdY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 270
@@ -33,7 +35,7 @@ ht-degree: 0%
 
 特定の商品ディメンション（つまり「すべての商品」ではなく）の商品グループを作成すると、Search, Social, &amp; Commerceは、「その他」の商品グループを自動的に作成します。
 
-使用可能な製品ディメンションのリストについては、「[ ショッピングキャンペーン製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。 ディメンションのリストは、キャンペーンの[!UICONTROL Inventory Filter]設定に基づいて制限される場合があります。
+使用可能な製品ディメンションのリストについては、「[&#x200B; ショッピングキャンペーン製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。 ディメンションのリストは、キャンペーンの[!UICONTROL Inventory Filter]設定に基づいて制限される場合があります。
 
 **[!UICONTROL Excluded]:** （新製品グループの場合はオプション、既存製品グループの場合は読み取り専用）一致する製品の広告の入札を除外します。
 
@@ -53,7 +55,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ショッピング商品グループについて](product-group-about.md)
->* [ ショッピング商品グループの管理](product-group-manage.md)
->* [ ショッピングキャンペーン製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [ ショッピング キャンペーン  [!DNL Microsoft Advertising] を実装](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+>* [&#x200B; ショッピング商品グループについて](product-group-about.md)
+>* [&#x200B; ショッピング商品グループの管理](product-group-manage.md)
+>* [&#x200B; ショッピングキャンペーン製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
+>* [&#x200B; ショッピング キャンペーン  [!DNL Microsoft Advertising] を実装](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

@@ -4,10 +4,14 @@ description: ヨーロッパ、中東、アフリカの[!DNL On Demand]社のプ
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
 TQID: https://experienceleague.adobe.com/d-AaBgjnGvx2Y5gcDyAVcj2GSNNORhN0CTI6dNkU73M
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 292
@@ -233,7 +237,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [概要 [!DNL On Demand]  プレミアム在庫](on-demand-inventory-about.md)
->* [ プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト ](on-demand-inventory-subscribe.md)
+>* [&#x200B; プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト &#x200B;](on-demand-inventory-subscribe.md)
 >* アジア太平洋の[[!DNL On Demand]  プレミアム広告在庫パブリッシャー](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand]  オーストラリアとニュージーランドのプレミアム広告在庫パブリッシャー](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] 北米のプレミアム広告在庫パブリッシャー](on-demand-inventory-publishers-na.md)

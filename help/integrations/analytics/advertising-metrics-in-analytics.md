@@ -4,10 +4,15 @@ description: Analysis WorkspaceのAdobe Advertising指標
 feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
 TQID: https://experienceleague.adobe.com/CLPeE8g0Mix4Scq90qCd-s-tCUuBmkTBrkBWT1aPEhw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 495
@@ -23,7 +28,7 @@ ht-degree: 0%
 >
 >* Adobe Advertisingは、毎日[!DNL Analytics]にトラフィック指標とディメンションを渡します。
 >* [!DNL Analytics]は、Adobe Advertisingのクリックスルーとビュースルーをリアルタイムでキャプチャします。
->* [!DNL Search, Social, & Commerce]の場合、この機能はほとんどの広告ネットワークとキャンペーンの種類でサポートされています。 詳しくは、[ ガイドの「](/help/search-social-commerce/introduction/supported-inventory.md) サポートされているインベントリ [!DNL Search, Social, & Commerce]」を参照してください。
+>* [!DNL Search, Social, & Commerce]の場合、この機能はほとんどの広告ネットワークとキャンペーンの種類でサポートされています。 詳しくは、[&#x200B; ガイドの「](/help/search-social-commerce/introduction/supported-inventory.md) サポートされているインベントリ [!DNL Search, Social, & Commerce]」を参照してください。
 
 ## Adobe Advertisingのトラフィック指標
 
@@ -84,4 +89,4 @@ Adobe Advertisingデータについて、次の指標の作成を検討してく
 >[!MORELIKETHIS]
 >
 >* [概要： [!DNL Analytics for Advertising]](overview.md)
->* [[!DNL Analytics] Adobe Advertisingのデータ ](/help/integrations/analytics/analytics-data-in-advertising.md)
+>* [[!DNL Analytics] Adobe Advertisingのデータ &#x200B;](/help/integrations/analytics/analytics-data-in-advertising.md)

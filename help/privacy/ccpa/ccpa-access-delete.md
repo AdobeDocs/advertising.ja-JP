@@ -5,10 +5,16 @@ feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
 TQID: https://experienceleague.adobe.com/g7Klc5k3qEPYDKIbTmsQcnklUPVvbN6qqhXaHCHvn3A
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 1041
@@ -32,7 +38,7 @@ ht-degree: 0%
 
 このドキュメントでは、[!DNL Advertising Search, Social, & Commerce]、Advertising Creative、Advertising DSP （Demand Side Platform）、および[!DNL Advertising DCO]がサービスプロバイダーとして、Adobe [!DNL Experience Platform Privacy Service API]および[!DNL Privacy Service UI]を使用して個人情報にアクセスおよび削除する消費者の権利をどのようにサポートしているかを説明します。
 
-Advertising DSPが個人情報の販売をオプトアウトする消費者の権利をどのようにサポートしているかについて詳しくは、[Adobe Advertising消費者プライバシー法に関するカリフォルニア州サポート：消費者の販売停止サポート ](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)を参照してください。
+Advertising DSPが個人情報の販売をオプトアウトする消費者の権利をどのようにサポートしているかについて詳しくは、[Adobe Advertising消費者プライバシー法に関するカリフォルニア州サポート：消費者の販売停止サポート &#x200B;](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)を参照してください。
 
 CCPA向けAdobe Privacy Servicesについて詳しくは、[Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html)を参照してください。
 
@@ -99,7 +105,7 @@ Adobe Advertisingからサポートを受けるには、すべての手順が必
 
 * `"user IDs":`
 
-   * `"namespace": **411**` （[[!DNL AdCloud] cookie スペース ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)を示します）
+   * `"namespace": **411**` （[[!DNL AdCloud] cookie スペース &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)を示します）
 
    * `"value":` &lt;*実際の顧客のcookie ID値（`AdobePrivacy.js`*>から取得）
 

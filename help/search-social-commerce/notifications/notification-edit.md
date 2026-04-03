@@ -4,9 +4,12 @@ description: 通知の設定を編集する方法について説明します。
 exl-id: b60d3abe-10ec-4fc0-8c91-6b329a3e9ecc
 feature: Search Notifications
 TQID: https://experienceleague.adobe.com/DYykxfXqovRIkUXI1OwGJDNvbyIxziy92UUs6QVhLfY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 225
@@ -26,7 +29,7 @@ ht-degree: 0%
 
    * メインメニューで、**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**&#x200B;をクリックします。 左側のメニューで、![設定](/help/search-social-commerce/assets/settings-nc.png "設定")をクリックします。
 
-1. 任意の[通知カテゴリ ](notification-about.md)の設定を変更します。
+1. 任意の[通知カテゴリ &#x200B;](notification-about.md)の設定を変更します。
 
    * 通知を購読または購読解除するには、[!UICONTROL Subscribe]列のスライダーを移動します。
 
@@ -38,7 +41,7 @@ ht-degree: 0%
 
    * （[!UICONTROL Subscribe]が無効になっている場合） Search, Social, &amp; Commerce内のweb通知を購読し、ブラウザーで有効になっている場合はプッシュ通知を行うには、**[!UICONTROL Web]**&#x200B;列のチェックボックスをオンにします。
 
-     Web通知は、[ プッシュ通知](notifications-push-enable-disable.md)をブラウザーに対して有効にした場合にのみ配信されます。
+     Web通知は、[&#x200B; プッシュ通知](notifications-push-enable-disable.md)をブラウザーに対して有効にした場合にのみ配信されます。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -46,7 +49,7 @@ ht-degree: 0%
 >
 >* [通知について](/help/search-social-commerce/notifications/notification-about.md)
 >* [通知を表示](notification-view.md)
->* [通知を既読または未読としてマーク ](notification-mark-read-unread.md)
+>* [通知を既読または未読としてマーク &#x200B;](notification-mark-read-unread.md)
 >* [通知を削除](notification-delete.md)
->* [ プッシュ通知を[!UICONTROL Notification Center]](notifications-push-enable-disable.md)から有効または無効にする
+>* [&#x200B; プッシュ通知を[!UICONTROL Notification Center]](notifications-push-enable-disable.md)から有効または無効にする
 >* [Web アプリケーション [!UICONTROL Notification Center]をインストールしてアンインストールする](notification-app-install-uninstall.md)

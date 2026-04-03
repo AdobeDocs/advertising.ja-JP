@@ -3,10 +3,17 @@ title: カスタムレポートに関するFAQ
 description: 世帯レポートやコンバージョンパス分析レポートなど、カスタムレポートについて詳しく説明します。
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
 TQID: https://experienceleague.adobe.com/3AN4vKu3BF-c4jwMusI402Z7lTLY0Nf30uwLZWBUE1E
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 1170
@@ -28,7 +35,7 @@ ht-degree: 0%
 
 ##### サポートされているディメンション
 
-[!UICONTROL Household Reach & Frequency] レポートでは、「[次のディメンション ](/help/dsp/reports/report-columns.md): &quot;[!UICONTROL Campaign],&quot; &quot;[!UICONTROL Package],&quot; &quot;[!UICONTROL Placement],&quot; &quot;[!UICONTROL Site/Apps]&quot; （重複する指標へのアクセス権を提供しません）、&quot;[!UICONTROL Media Type],&quot; &quot;[!UICONTROL Feed Type],&quot; &quot;[!UICONTROL Device],&quot; &quot;[!UICONTROL Publisher],&quot; &quot;[!UICONTROL Audience],&quot; &quot;[!UICONTROL Creative Length]&quot;、ユーザー作成のプレースメント &quot;[!UICONTROL Tags]&quot;がサポートされています。
+[!UICONTROL Household Reach & Frequency] レポートでは、「[次のディメンション &#x200B;](/help/dsp/reports/report-columns.md): &quot;[!UICONTROL Campaign],&quot; &quot;[!UICONTROL Package],&quot; &quot;[!UICONTROL Placement],&quot; &quot;[!UICONTROL Site/Apps]&quot; （重複する指標へのアクセス権を提供しません）、&quot;[!UICONTROL Media Type],&quot; &quot;[!UICONTROL Feed Type],&quot; &quot;[!UICONTROL Device],&quot; &quot;[!UICONTROL Publisher],&quot; &quot;[!UICONTROL Audience],&quot; &quot;[!UICONTROL Creative Length]&quot;、ユーザー作成のプレースメント &quot;[!UICONTROL Tags]&quot;がサポートされています。
 
 ##### サポートされる指標
 
@@ -46,7 +53,7 @@ ht-degree: 0%
 
 次の図は、3つのキャンペーン（A、B、C）の3つの指標（ユニーク世帯リーチ、増分世帯リーチ、増分世帯（重複））を示しています。
 
-![世帯の重複指標のイラストレーション ](/help/dsp/assets/household-overlap-metrics-illustration.png "世帯の重複指標のイラストレーション ")
+![世帯の重複指標のイラストレーション &#x200B;](/help/dsp/assets/household-overlap-metrics-illustration.png "世帯の重複指標のイラストレーション ")
 
 * ユニーク世帯到達数（合計）は、各キャンペーンで到達したユニーク世帯または各サークルの合計面積を提供します。 図では、Aがリーチしたユニーク世帯= A + （A+B） + （A+C） + （A+B+C）がリーチした増分世帯
 
@@ -56,7 +63,7 @@ ht-degree: 0%
 
 #### ワークフロー
 
-[ カスタムレポートを作成するには、通常の手順に従います](report-create.md)。
+[&#x200B; カスタムレポートを作成するには、通常の手順に従います](report-create.md)。
 
 [!UICONTROL Household Reach & Frequency] レポートには、1つのディメンションのみを含めることができます。 また、サイト/アプリを除く任意のディメンションによるa）重複指標またはb）重複以外の指標を含めることもできますが、両方を含めることはできません。
 
@@ -72,7 +79,7 @@ ht-degree: 0%
 
 #### [!UICONTROL Placement Tags] ディメンションのレポートを設定するにはどうすればよいですか？
 
-プレースメントのタグを作成するには、[ プレースメント設定](/help/dsp/campaign-management/placements/placement-edit.md)を開き、[[!UICONTROL Placement Tags] フィールド ](/help/dsp/campaign-management/placements/placement-settings.md)に値を入力します。
+プレースメントのタグを作成するには、[&#x200B; プレースメント設定](/help/dsp/campaign-management/placements/placement-edit.md)を開き、[[!UICONTROL Placement Tags] フィールド &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)に値を入力します。
 
 プレースメントに複数のタグが含まれている場合、レポートでは文字列全体が1つのタグと見なされます。 レポートには、一意の文字列ごとに1行が含まれます。
 
@@ -96,7 +103,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Household Reach & Frequency]および[!UICONTROL Household Conversions]件のレポートと[!DNL Advanced Measurement Services]件のデータの比較
 
-世帯ベースのリーチと頻度またはコンバージョンに関する高度なレポートを作成するために、[[!DNL Strategic Advertising Consulting]  チーム ](/help/dsp/introduction/advanced-measurement-services.md)は、高度にカスタマイズ可能なレポートと包括的な戦略的レコメンデーションを提供できます。 [!DNL Advanced Measurement Services]の詳細については、Adobe アカウント チームにお問い合わせください。
+世帯ベースのリーチと頻度またはコンバージョンに関する高度なレポートを作成するために、[[!DNL Strategic Advertising Consulting]  チーム &#x200B;](/help/dsp/introduction/advanced-measurement-services.md)は、高度にカスタマイズ可能なレポートと包括的な戦略的レコメンデーションを提供できます。 [!DNL Advanced Measurement Services]の詳細については、Adobe アカウント チームにお問い合わせください。
 
 #### 既に[!DNL Advanced Measurement Services]を使用している場合、[!UICONTROL Household Reach & Frequency]と[!UICONTROL Household Conversions]のレポートを使用する必要があるのはなぜですか？
 
@@ -122,12 +129,12 @@ ht-degree: 0%
 | マーケティングチャネル | DSP +検索（検索、ソーシャル、Commerceから） | DSP +検索（検索、ソーシャル、Commerceから） | Adobe AdvertisingのクリックスルーEF IDで追跡されないマーケティングチャネル（オーガニック検索、オーガニックソーシャル、電子メール、アフィリエイトなど） |
 | コンバージョン指標のサポート | Adobe Advertising イベントピクセル（AMO ID）とAdobe Analytics トラッキングを使用してトラッキングされる指標 | クリック数（コンバージョンなし） | Adobe Analytics トラッキングを使用して追跡された指標 |
 
-検索レポートでの高度な測定サービスのハロー効果について詳しくは、「[高度な測定ソリューション ](/help/dsp/introduction/advanced-measurement-services.md)」を参照してください。
+検索レポートでの高度な測定サービスのハロー効果について詳しくは、「[高度な測定ソリューション &#x200B;](/help/dsp/introduction/advanced-measurement-services.md)」を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ カスタムレポートについて](/help/dsp/reports/report-about.md)
->* [ カスタムレポートを作成](/help/dsp/reports/report-create.md)
->* [ カスタムレポートを編集](/help/dsp/reports/report-edit.md)
->* [ カスタムレポート設定](/help/dsp/reports/report-settings.md)
+>* [&#x200B; カスタムレポートについて](/help/dsp/reports/report-about.md)
+>* [&#x200B; カスタムレポートを作成](/help/dsp/reports/report-create.md)
+>* [&#x200B; カスタムレポートを編集](/help/dsp/reports/report-edit.md)
+>* [&#x200B; カスタムレポート設定](/help/dsp/reports/report-settings.md)
 >* [使用可能なレポート列](/help/dsp/reports/report-columns.md)

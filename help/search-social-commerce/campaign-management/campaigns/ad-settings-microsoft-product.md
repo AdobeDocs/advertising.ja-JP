@@ -4,8 +4,10 @@ description: ' [!DNL Microsoft Advertising] 製品広告の設定を参照して
 exl-id: 93601b75-1de8-4f97-8f5e-5ab442510827
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/nttz5RMclI5IsJ8UUkjXi8cpqVYXeY1OolvF7wSpePo
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 135
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 広告の本文は、広告グループの対象となる製品グループに基づいて、[!DNL Microsoft Merchant Center]の製品情報から自動的に作成されます。 オプションで、ショッピングネットワークを使用するキャンペーンに製品広告に含めるプロモーション行を作成できます。
 
-[!DNL Microsoft Advertising]個の商品の広告について詳しくは、[Microsoft Advertising ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/51082)を参照してください。
+[!DNL Microsoft Advertising]個の商品の広告について詳しくは、[Microsoft Advertising ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/51082)を参照してください。
 
 ## [!UICONTROL Product Ad]
 

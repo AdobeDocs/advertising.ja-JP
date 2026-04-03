@@ -4,9 +4,13 @@ description: Search, Social, & Commerce ポートフォリオで [!DNL Google Ad
 exl-id: 2ed14f8a-da35-4341-86b8-776973faee66
 feature: Search Recommendations
 TQID: https://experienceleague.adobe.com/8pW8DgB9YGEYCd96H4rQcwjWEYwSF2l8StSgwLrC8Yk
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 279
@@ -37,7 +41,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ メディア企業のレコメンデーションとインサイトのサポートについて](recommendation-support.md)
->* [ メディア企業のレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
+>* [&#x200B; メディア企業のレコメンデーションとインサイトのサポートについて](recommendation-support.md)
+>* [&#x200B; メディア企業のレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
 >* [発行者のレコメンデーションを適用または却下](recommendation-apply-dismiss.md)
->* [ アカウントの発行者のレコメンデーションログを表示](recommendation-view-log.md)
+>* [&#x200B; アカウントの発行者のレコメンデーションログを表示](recommendation-view-log.md)

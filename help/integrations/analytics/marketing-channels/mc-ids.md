@@ -4,10 +4,17 @@ description: Adobe Advertising IDを使用して [!DNL Analytics Marketing Chann
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
 TQID: https://experienceleague.adobe.com/mBjU1jKifWk35v43sGsBO5aHDQA5ftmyI9GJ4Xujz9A
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 1448
@@ -75,7 +82,7 @@ EF ID ディメンションは、[!DNL Analytics] レポートでは直接使用
 
 >[!IMPORTANT]
 >
->ルールを処理する順序について詳しくは、「[ ルール  [!DNL Marketing Channels] 」の「](#rule-order)操作順序」を参照してください。
+>ルールを処理する順序について詳しくは、「[&#x200B; ルール  [!DNL Marketing Channels] 」の「](#rule-order)操作順序」を参照してください。
 
 ![処理ルールのセットの例](/help/integrations/assets/a4adc-mc-rule-set-example.png)
 
@@ -95,7 +102,7 @@ EF ID ディメンションは、[!DNL Analytics] レポートでは直接使用
 
 ### 自然検索ルール
 
-[!UICONTROL Natural Search]の場合、[[!UICONTROL Paid Search]検出ルール ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection)に`ef_id`と`s_kwcid`のクエリ文字列パラメーターが含まれていることを確認してください。 （通常、これはAdvertising Search、Social、およびCommerceが[!DNL Analytics]に統合されている場合に自動的に設定されますが、統合が設定された後に[!DNL Analytics]管理者がロジックを変更した場合は検証します）。
+[!UICONTROL Natural Search]の場合、[[!UICONTROL Paid Search]検出ルール &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection)に`ef_id`と`s_kwcid`のクエリ文字列パラメーターが含まれていることを確認してください。 （通常、これはAdvertising Search、Social、およびCommerceが[!DNL Analytics]に統合されている場合に自動的に設定されますが、統合が設定された後に[!DNL Analytics]管理者がロジックを変更した場合は検証します）。
 
 ルールを「自然検索検出ルールに一致」に設定します（通常、このチャネルのデフォルト設定です）。
 
@@ -119,7 +126,7 @@ EF ID ディメンションは、[!DNL Analytics] レポートでは直接使用
 
 [!DNL DSP]個のコネクテッド TV （CTV） ビュースルーを追跡するには、AMO IDが`"!ctv"`で終わるルールを作成します。 訪問者が広告をクリックしていないため、ビュースルートラッキングにはURLに`ef_id`または`s_kwcid`が含まれず、ルールには1つの条件のみが必要です。
 
-![ ディスプレイ CTV ビュースルー規則の例](/help/integrations/assets/a4adc-mc-rule-display-ctv-vt.png " ディスプレイ CTV ビュースルー規則の例")
+![&#x200B; ディスプレイ CTV ビュースルー規則の例](/help/integrations/assets/a4adc-mc-rule-display-ctv-vt.png " ディスプレイ CTV ビュースルー規則の例")
 
 ### ビュースルー規則の表示
 
@@ -158,5 +165,5 @@ EF ID ディメンションは、[!DNL Analytics] レポートでは直接使用
 >* [の基本 [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe Advertisingと [!DNL Marketing Channels]](mc-data-variances.md)でチャネルデータが異なる理由
 >* [Adobe Advertising data [!DNL Analytics Marketing Channels] での](mc-ac-data.md)の使用
->* [ ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [様が使用している [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID

@@ -4,8 +4,10 @@ description: ラベル分類を削除する方法を説明します。
 exl-id: ae10ff69-67ab-4eac-a78d-8af4923c7093
 feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/Q6BgNtx1bPMVXDNdamwGvzcxKh9I8dnm0PRj1ByIktE
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 219
@@ -19,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アカウントコンポーネントから分類値を簡単に関連付け解除するには、「[ キャンペーンコンポーネントから分類値を削除](classification-values-remove.md)」を参照してください。
+>アカウントコンポーネントから分類値を簡単に関連付け解除するには、「[&#x200B; キャンペーンコンポーネントから分類値を削除](classification-values-remove.md)」を参照してください。
 
 ## （新しいUI）ラベル分類の削除
 
@@ -55,9 +57,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ラベル分類について](classification-about.md)
->* [ ラベル分類を作成](classification-create.md)
->* [ キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当てる](classification-values-assign-campaign-management.md)
->* [ バルクシートを使用してアカウントコンポーネントに分類値を割り当てる](classification-values-assign-bulksheets.md)
->* [ アカウントコンポーネントからラベル分類値を削除](classification-values-remove.md)
->* [ ラベル分類値を削除](classification-values-delete.md)
+>* [&#x200B; ラベル分類について](classification-about.md)
+>* [&#x200B; ラベル分類を作成](classification-create.md)
+>* [&#x200B; キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当てる](classification-values-assign-campaign-management.md)
+>* [&#x200B; バルクシートを使用してアカウントコンポーネントに分類値を割り当てる](classification-values-assign-bulksheets.md)
+>* [&#x200B; アカウントコンポーネントからラベル分類値を削除](classification-values-remove.md)
+>* [&#x200B; ラベル分類値を削除](classification-values-delete.md)

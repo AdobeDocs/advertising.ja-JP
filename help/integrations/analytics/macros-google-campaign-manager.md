@@ -4,11 +4,17 @@ description: ' [!DNL Analytics for Advertising] 広告タグに [!DNL Google Cam
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
 TQID: https://experienceleague.adobe.com/9qDSGAIk2uelZpEekvKmQMxIMAQeCT8cy55zub-uFv4
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 487
@@ -48,7 +54,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->>* ランディングページのURLにハッシュ記号（#）が含まれている場合は、ハッシュ記号の前に`amo` パラメーターを配置します。
+>&#x200B;>* ランディングページのURLにハッシュ記号（#）が含まれている場合は、ハッシュ記号の前に`amo` パラメーターを配置します。
 >* `amo` パラメーターの後に他のパラメーターが含まれていない場合は、その後にパラメーター（&amp;a=bなど）を追加します。 例：`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### 広告主レベルのランディングページ URL サフィックスの設定
@@ -70,7 +76,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 DSPで、[!DNL Analytics for Advertising] パラメーター（`amo`）を含む広告を作成すると、`ef_id`および`s_kwcid` マクロが自動的にクリック URLに追加されます。 ベストプラクティスは、DSPでタグを確認して、`ef_id`および`s_kwcid` マクロが存在することを確認することです。
 
-次に、DSPに表示される[!DNL Google Campaign Manager 360] [ins タグ ](https://support.google.com/campaignmanager/answer/6080468)の例を示します。
+次に、DSPに表示される[!DNL Google Campaign Manager 360] [ins タグ &#x200B;](https://support.google.com/campaignmanager/answer/6080468)の例を示します。
 
 ```
 <ins class='dcmads' style='display:inline-block;width:160px;height:600px'
@@ -90,4 +96,4 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 >
 >* [概要： [!DNL Analytics for Advertising]](overview.md)
 >* [様が使用している [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID
->* [追加 [!DNL Analytics for Advertising]  マクロを [!DNL Flashtalking] 広告タグ ](macros-flashtalking.md)に追加
+>* [追加 [!DNL Analytics for Advertising]  マクロを [!DNL Flashtalking] 広告タグ &#x200B;](macros-flashtalking.md)に追加

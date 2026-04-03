@@ -4,8 +4,10 @@ description: ' [!DNL Google Ads]のプレースメントと負のプレースメ
 exl-id: 3c54a80e-6f4c-4936-97b1-67ac8de24830
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/-V9u4kusa44SSH95feX1PKCrVTyxWfTX96KBqU4UtZg
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 180
@@ -29,7 +31,7 @@ ht-degree: 0%
 
 1. ツールバーで、ステータスボタンをクリックします。
 
-   * （入札可能なプレースメントのみ）行をアクティブ化するには、![ アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
+   * （入札可能なプレースメントのみ）行をアクティブ化するには、![&#x200B; アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
 
    * （入札可能なプレースメントのみ）行を一時停止するには、![一時停止](/help/search-social-commerce/assets/pause.png "一時停止")をクリックします。
 
@@ -37,6 +39,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プレースメントについて](placement-about.md)
+>* [&#x200B; プレースメントについて](placement-about.md)
 >* [入札可能なプレースメントの管理](placement-manage.md)
 >* [負のプレースメントを作成](placement-negative-create.md)

@@ -4,9 +4,12 @@ description: 既存のAdobe Campaign メールリストから [!DNL Google Ads] 
 exl-id: 92812af2-ac31-48cd-badf-ea287799bddb
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 669
@@ -26,11 +29,11 @@ ht-degree: 0%
 
 1. [!DNL Campaign]で、Advertising Search、Social、およびCommerceへのメールリストの配信を設定します。
 
-   1. Search, Social, &amp; Commerceが提供するSFTP アカウントをリンクする[外部アカウント ](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html)を作成します。
+   1. Search, Social, &amp; Commerceが提供するSFTP アカウントをリンクする[外部アカウント &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html)を作成します。
 
       1. 左側のメニューから、**\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**&#x200B;に移動します。
 
-      1. 「![ アカウントを作成](/help/search-social-commerce/assets/campaign-create-account.png " アカウントを作成")」をクリックします。
+      1. 「![&#x200B; アカウントを作成](/help/search-social-commerce/assets/campaign-create-account.png " アカウントを作成")」をクリックします。
 
       1. アカウントのラベルを入力し、アカウントタイプとして「**[!UICONTROL SFTP]**」を選択します。
 
@@ -110,11 +113,11 @@ Search, Social, &amp; Commerceは、30分ごとに（広告主のタイムゾー
 >
 >* [!DNL Google Ads]は、オーディエンスの更新を処理するのに時間がかかる場合があります。
 >
->* 顧客の一致の仕組みと制限に関する[[!DNL Google Ads]  ドキュメント ](https://support.google.com/displayvideo/answer/9539301)を参照してください。
+>* 顧客の一致の仕組みと制限に関する[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/displayvideo/answer/9539301)を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ オーディエンスについて](audience-about.md)
+>* [&#x200B; オーディエンスについて](audience-about.md)
 >* [顧客マッチオーディエンスを [!DNL Google Ads]  オーディエンス  [!DNL Adobe] から](google-audience-from-adobe-audience.md)作成
 >* [顧客データリストを使用した顧客一致オーディエンスの管理](audience-from-customer-data-list.md)
 >* [動的リマーケティングオーディエンスの管理](audience-dynamic-remarketing-manage.md)

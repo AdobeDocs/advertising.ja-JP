@@ -5,10 +5,15 @@ role: User, Admin
 exl-id: 97b0c149-5f82-4a1e-a5d9-aeab43cbd88f
 feature: Search Admin, Search Data Sources
 TQID: https://experienceleague.adobe.com/viBRqiwqJm2BabtLP7b3h1TMTjkeITeSVA1vMMmbrPY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-subfeature_v2: id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+subfeature_v2:
+  - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 402
@@ -34,7 +39,7 @@ ef_idが含まれていない場合は、Adobe アカウントチームにお問
 
 ## 前提条件2：関連する各[!DNL Google Analytics] プロパティのカスタムディメンションで、Search、Social、およびCommerce トークン（「ef_id」クエリ文字列パラメーター）をキャプチャする
 
-データを同期する[!DNL Google Analytics] アカウントとプロパティの組み合わせごとに、次のタスクを繰り返します。 これらのタスクのヘルプについては、[[!DNL Google Analytics]  カスタムディメンションの作成と実装に関するドキュメント ](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article)を参照してください。
+データを同期する[!DNL Google Analytics] アカウントとプロパティの組み合わせごとに、次のタスクを繰り返します。 これらのタスクのヘルプについては、[[!DNL Google Analytics]  カスタムディメンションの作成と実装に関するドキュメント &#x200B;](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article)を参照してください。
 
 1. [!DNL Google Analytics]で、「`ef_id`」という名前のカスタムディメンションを作成します。 ディメンションの範囲を[!DNL User]に設定し、ディメンションをアクティブに設定します。
 
@@ -57,9 +62,9 @@ ef_idが含まれていない場合は、Adobe アカウントチームにお問
 >[!MORELIKETHIS]
 >
 >* [同期について [!DNL Google Analytics]  コンバージョン指標](data-source-about.md)
->* [ データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
->* [ データソースの編集 [!DNL Google Analytics] ](data-source-edit.md)
->* [ データソースの同期を一時停止](data-source-pause.md)
->* [ データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
+>* [&#x200B; データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
+>* [&#x200B; データソースの編集 [!DNL Google Analytics] &#x200B;](data-source-edit.md)
+>* [&#x200B; データソースの同期を一時停止](data-source-pause.md)
+>* [&#x200B; データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics]  データソース設定](data-source-settings.md)
 >* [付録 – 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)
