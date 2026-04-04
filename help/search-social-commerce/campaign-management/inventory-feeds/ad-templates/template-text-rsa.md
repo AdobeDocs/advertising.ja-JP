@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 3360
+source-wordcount: 3352
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 * Yahoo! 日本の広告アカウントです。パラメーター{lpurl}を使用してください。
 
-* Microsoft AdvertisingおよびGoogle Ads アカウントで使用できるパラメーターについては、[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)の「使用可能な[!DNL ValueTrack] パラメーター」の節の[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)または「トラッキングテンプレートのみ」パラメーターを参照してください。
+* [!DNL Microsoft Advertising]および[!DNL Google Ads] アカウントで使用できるパラメーターについては、[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)の「使用可能な[!DNL ValueTrack] パラメーター」の節の[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)または「トラッキングテンプレートのみ」パラメーターを参照してください。
 
 この値は、アカウントレベルとキャンペーンレベルの設定よりも優先されますが、より詳細なレベル（キーワードが最も詳細なレベル）でテンプレートを追跡すると、この値よりも優先されます。
 
@@ -350,7 +350,7 @@ ht-degree: 0%
 
 * Yahoo! 日本の広告アカウントです。パラメーター{lpurl}を使用してください。
 
-* Microsoft AdvertisingおよびGoogle Ads アカウントで使用できるパラメーターについては、[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)の「使用可能な[!DNL ValueTrack] パラメーター」の節の[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)または「トラッキングテンプレートのみ」パラメーターを参照してください。
+* [!DNL Microsoft Advertising]および[!DNL Google Ads] アカウントで使用できるパラメーターについては、[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)の「使用可能な[!DNL ValueTrack] パラメーター」の節の[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)または「トラッキングテンプレートのみ」パラメーターを参照してください。
 
 **\[元の広告フィールドの下の代替広告フィールド\]:** （オプション）広告の代替の広告コピーのセット。この広告コピーの代替セットは、元の広告コピー内の行のいずれかが、配信中に動的パラメーターにデータを入力した後に許可される最大長を超えた場合に使用できます。
 

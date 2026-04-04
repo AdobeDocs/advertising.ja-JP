@@ -79,7 +79,7 @@ CCPA向けAdobe Privacy Servicesについて詳しくは、[Adobe Privacy Center
    >
    >お客様の組織のすべてのAdobe Advertising アカウント（アカウント [!DNL DSP]または広告主、[!DNL Search, Social, & Commerce] アカウント、[!DNL Creative]または[!DNL DCO] アカウントを含む）がExperience Cloudの組織IDにリンクされていることを確認するには、会社のAdobe Advertising担当者にお問い合わせください。
 
-1. Adobe Experience Platform Privacy Service APIを使用して、消費者に代わってAdobe Advertisingにオプトアウトリクエスト [を](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html)送信し、既存のリクエストのステータスを確認します。
+1. Adobe Experience Platform Privacy Service APIを使用して、消費者に代わってAdobe Advertisingにオプトアウトリクエスト [を](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=ja)送信し、既存のリクエストのステータスを確認します。
 
    オプトアウトオブセールリクエストの例については、以下の付録を参照してください。
 
@@ -144,7 +144,7 @@ curl -X POST \
 }'
 ```
 
-ここで、[Privacy Service API仕様](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)に従って、
+ここで、[Privacy Service API仕様](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix)に従って、
 
 * `"namespace": "AdCloud"`は`AdCloud` Cookie スペースを示し、対応する値は`AdobePrivacy.js`から取得した顧客のCookie IDです
 * `"include": ["adCloud"]`は、リクエストが商品Adobe Advertisingに適用されることを示します

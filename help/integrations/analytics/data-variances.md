@@ -145,7 +145,7 @@ Adobe Advertising レポートでは、Adobe Advertisingを通じて売買され
 
 ## Adobe Analytics [!DNL Paid Search Detection]のデータの違い
 
-[の [!DNL Paid Search Detection] レガシー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=ja) [!DNL Analytics]機能を使用すると、指定した検索エンジンに対する有料およびオーガニック検索トラフィック [を追跡するルールを](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=ja)定義できます。 [!DNL Paid Search Detection] ルールでは、クエリ文字列と参照ドメインの両方を使用して、有料検索トラフィックと自然検索トラフィックを識別します。 [!DNL Paid Search Detection]件のレポートは、[検索方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html)件のレポートの大きなグループの一部であり、指定されたイベント（カートのチェックアウトなど）が発生するか、訪問が終了すると有効期限が切れます。
+[の [!DNL Paid Search Detection] レガシー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=ja) [!DNL Analytics]機能を使用すると、指定した検索エンジンに対する有料およびオーガニック検索トラフィック [を追跡するルールを](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=ja)定義できます。 [!DNL Paid Search Detection] ルールでは、クエリ文字列と参照ドメインの両方を使用して、有料検索トラフィックと自然検索トラフィックを識別します。 [!DNL Paid Search Detection]件のレポートは、[検索方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=ja)件のレポートの大きなグループの一部であり、指定されたイベント（カートのチェックアウトなど）が発生するか、訪問が終了すると有効期限が切れます。
 
 [!DNL Paid Search Detection] ルール セットを作成するためのインターフェイスを次に示します。
 
@@ -253,7 +253,7 @@ ef IDは&quot;`test_ef_id`&quot;、AMO IDは&quot;`test_amo_id#redirectAnchorTag
 
 * **クリック：** [!DNL DSP]または検索エンジンは、訪問者がパブリッシャーのweb サイト上の広告をクリックしたときにクリックを記録します。
 
-* **訪問：** [!DNL Analytics]は、[訪問](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)をユーザーによる一連のページビューとして定義し、30分間の非アクティブな状態など、いくつかの条件のいずれかに従って終了します。
+* **訪問：** [!DNL Analytics]は、[訪問](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=ja)をユーザーによる一連のページビューとして定義し、30分間の非アクティブな状態など、いくつかの条件のいずれかに従って終了します。
 
 定義によれば、ワンクリックで複数の訪問につながる可能性があります。
 

@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 116
+source-wordcount: 114
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 動的検索広告（DSA）は、検索専用キャンペーンの[!DNL Google Ads]件の動的広告グループでのみ使用できます。 広告ネットワークは、見出しを動的に生成し、動的な検索広告のランディングページと表示URLを選択し、最終的なURLを自動的に生成します。
 
-アカウントごとの広告制限[について詳しくは、Google Ads ヘルプを参照してください](https://support.google.com/google-ads/answer/6372658?hl=en)。
+アカウントごとの[!DNL Google Ads]広告制限[について、](https://support.google.com/google-ads/answer/6372658?hl=en)のヘルプを参照してください。
 
 >[!NOTE]
 >

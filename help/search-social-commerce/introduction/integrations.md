@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Advertising Search, Social, &amp; Commerceは、次の[!DNL Adobe]製品と統合されています。
 
-* [Adobe Experience Platformのタグ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=ja) — Adobe Experience Platform用の[Adobe Advertising Cloud拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud)を使用して、広告ランディングページ用のAdobe Advertising コンバージョン トラッキングタグ [およびサードパーティのトラッキングタグを](/help/search-social-commerce/tools/conversion-tag-generate.md)作成できます。 お客様の組織がExperience Platform アカウントを持っていない場合でも、Adobe Experience Cloud ユーザーが無料で利用できるAdobe Experience Platform Data Collection[の](https://experience.adobe.com/#/data-collection/) ユーザーインターフェイスに直接拡張機能をインストールできます。
+* [Adobe Experience Platformのタグ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=ja) — Adobe Experience Platform用の[Adobe Advertising Cloud拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud)を使用して、広告ランディングページ用のAdobe Advertising コンバージョン トラッキングタグ [およびサードパーティのトラッキングタグを](/help/search-social-commerce/tools/conversion-tag-generate.md)作成できます。 お客様の組織がExperience Platform アカウントを持っていない場合でも、Adobe Experience Cloud ユーザーが無料で利用できるAdobe Experience Platform Data Collection[の](https://experience.adobe.com/#/data-collection/) ユーザーインターフェイスに直接拡張機能をインストールできます。
 
   必要な拡張機能をインストールするには、組織管理者に連絡して、UIのデータ収集機能へのアクセス権を取得し、`manage_properties`権限の付与を依頼してください。
 

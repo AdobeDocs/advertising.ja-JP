@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
 source-wordcount: 304
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## ラベル分類ビュー
 
-レガシーUIでは、[!UICONTROL Labels Classifications] ビューは[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]にあります。 新しいUIでは、[!UICONTROL Labels Classifications] ビューは[!UICONTROL Reports] > [!UICONTROL Labels Classifications]にあります。
+新しいUIでは、[!UICONTROL Labels Classifications] ビューは[!UICONTROL Reports] > [!UICONTROL Labels Classifications]にあります。 レガシーUIでは、[!UICONTROL Labels Classifications] ビューは[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]にあります。
 
 [!UICONTROL Labels Classifications] ビューには、[!UICONTROL Classifications]と[!UICONTROL Label Values]個のサブビューが含まれています。 ラベル分類のデータを表示し、[create](classification-create.md)および[delete](classification-delete.md)のラベル分類を作成し、ラベル分類値のデータを表示できます。 デフォルトでは、データはキーワードレベルのラベル分類と値に表示されますが、オプションで広告レベルの分類と値のデータを表示できます。
 

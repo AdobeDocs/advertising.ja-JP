@@ -1,26 +1,26 @@
 ---
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+source-git-commit: 287e8bd0c2a3c3aedbf5f1f9551823b0c4586a57
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
-# Google Ads エンティティのトラッキングテンプレートフィールド
+# [!DNL Google Ads] エンティティのトラッキングテンプレートフィールド
 
 <!-- Search CRUD and bulk edit of Google entity settings -->
 
-**[!UICONTROL Tracking Template]:** （任意） トラッキングテンプレートまたはトラッキング URL。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終/ランディングページの URL を [!DNL ValueTrack] パラメーターに埋め込みます。 例：リダイレクトを含めるには、`{lpurl}?source={network}&id=5` または `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` を指定します。
+**[!UICONTROL Tracking Template]:** （オプション）すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終/ランディングページのURLを[!DNL ValueTrack] パラメーターに埋め込むトラッキングテンプレートまたはトラッキング URL。 例：リダイレクトを含める`{lpurl}?source={network}&id=5`または`http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`。
 
-キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertisingコンバージョントラッキングの場合、検索、ソーシャルおよびCommerceでは、レコードを保存すると、独自のリダイレクトおよびトラッキングコードが自動的に設定されます。
+キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合、レコードを保存すると、Search, Social, &amp; Commerceは自動的に独自のリダイレクトコードとトラッキングコードの先頭に付けられます。
 
-* 最終的な URL を埋め込むためのサポート対象パラメーターについては、[[!DNL Google Ads]  サポート対象の形式に関するドキュメント  [!DNL ValueTrack]  を参照してください &#x200B;](https://support.google.com/google-ads/answer/6305348)。 （「使用可能なテンプレートのパラメーター」のセクションの「トラッキングテンプレー [!DNL ValueTrack] のみ」パラメーターに移動します。）
+* サポートされているパラメーターを使用して最終的なURLを埋め込む場合は、サポートされている[[!DNL Google Ads] 形式 [!DNL ValueTrack] の](https://support.google.com/google-ads/answer/6305348) ドキュメントを参照してください。 （「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーターに移動します）。
 
-* オプションで、{lpurl}?matchtype={matchtype}&amp;device={device} のようにアンパサンド（&amp;）で区切られた URL パラメーターと、キャンペーンに定義されたカスタムパラメーターを含めることができます。
+* 必要に応じて、URL パラメーターと、キャンペーン用に定義された任意のカスタムパラメーターをアンパサンド（&amp;）で区切って含めることができます（{lpurl}?matchtype={matchtype}&amp;device={device}など）。
 
 * オプションで、サードパーティのリダイレクトとトラッキングを追加できます。
 
 >[!NOTE]
 >
->* マクロを使用しないでください。このマクロは、並列トラッキングを有効にするソースからのクリックに代わるものではありません。 広告主がマクロを使用する必要がある場合、Adobeアカウントチームはカスタマーサポートまたは実装チームと連携してマクロを追加する必要があります。
->* 最も詳細なレベルの追跡テンプレートは、それより上のすべてのレベルの値を上書きします。 例えば、アカウント設定とキーワード設定の両方に値が含まれている場合、キーワード値が適用されます。
->* 広告、サイトリンクまたはキーワードレベルでトラッキングテンプレートを更新すると、関連する広告がレビュー用に再送信されます。 広告を承認用に再送信しなくても、アカウント、キャンペーン、広告グループのレベルでトラッキングテンプレートを更新できます。
+>* 並列追跡を有効にするソースからのクリックに代わるものではないマクロの使用は避けてください。 広告主がマクロを使用する必要がある場合は、Adobe アカウントチームがカスタマーサポートまたは実装チームと協力してマクロを追加する必要があります。
+>* 最も詳細なレベルのトラッキングテンプレートは、より高いレベルのすべての値を上書きします。 例えば、アカウント設定とキーワード設定の両方に値が含まれている場合、キーワード値が適用されます。
+>* 広告、サイトリンク、またはキーワードレベルでトラッキングテンプレートを更新すると、関連する広告がレビュー用に再送信されます。 承認のために広告を再送信することなく、アカウントレベル、キャンペーンレベル、広告グループレベルでトラッキングテンプレートを更新できます。

@@ -249,7 +249,7 @@ ht-degree: 0%
 
 ### dynamic search広告を拡張
 
-この広告タイプは、[!DNL Google Ads]で「動的検索広告」と呼ばれるようになりました。 動的検索広告の作成について詳しくは、「[動的検索広告の実装 [!DNL Google Ads] 2&rbrace;」を参照してください。](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)
+この広告タイプは、[!DNL Google Ads]で「動的検索広告」と呼ばれるようになりました。 動的検索広告の作成について詳しくは、「[動的検索広告の実装 [!DNL Google Ads] 2&rbrace;」を参照してください。](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=ja)
 
 この広告タイプでは、[!UICONTROL Creative (except RSA)] ダイアログの「[!UICONTROL Download Bulksheet]」行を使用します。
 

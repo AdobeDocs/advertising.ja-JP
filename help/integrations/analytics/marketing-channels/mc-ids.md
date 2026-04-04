@@ -30,7 +30,7 @@ Adobe Advertising ID （[AMO IDおよびEF ID](../ids.md)）を使用して、Ad
 
 ## 処理ルールのAMO ID
 
-AMO IDは、[!DNL Analytics]内のAdobe Advertising データのレポートに使用される主要なトラッキングコードです。 AMO IDは、[!DNL Analytics]内で詳細なレポートを提供するためにAdobeによって管理される動的値の連結です。 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)またはrVar ディメンション （AMO ID）に保存されています。 AMO IDは、[!DNL Analytics]で次の2つの方法で設定できます。
+AMO IDは、[!DNL Analytics]内のAdobe Advertising データのレポートに使用される主要なトラッキングコードです。 AMO IDは、[!DNL Analytics]内で詳細なレポートを提供するためにAdobeによって管理される動的値の連結です。 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja)またはrVar ディメンション （AMO ID）に保存されています。 AMO IDは、[!DNL Analytics]で次の2つの方法で設定できます。
 
 * クリックスルー追跡：Adobe Advertisingは`s_kwcid` クエリ文字列パラメーターをリンクに設定し、[!DNL Analytics]はクリックスルーが発生したときにランディングページ URLからパラメーターを取得します。
 
@@ -102,7 +102,7 @@ EF ID ディメンションは、[!DNL Analytics] レポートでは直接使用
 
 ### 自然検索ルール
 
-[!UICONTROL Natural Search]の場合、[[!UICONTROL Paid Search]検出ルール &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection)に`ef_id`と`s_kwcid`のクエリ文字列パラメーターが含まれていることを確認してください。 （通常、これはAdvertising Search、Social、およびCommerceが[!DNL Analytics]に統合されている場合に自動的に設定されますが、統合が設定された後に[!DNL Analytics]管理者がロジックを変更した場合は検証します）。
+[!UICONTROL Natural Search]の場合、[[!UICONTROL Paid Search]検出ルール &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection)に`ef_id`と`s_kwcid`のクエリ文字列パラメーターが含まれていることを確認してください。 （通常、これはAdvertising Search、Social、およびCommerceが[!DNL Analytics]に統合されている場合に自動的に設定されますが、統合が設定された後に[!DNL Analytics]管理者がロジックを変更した場合は検証します）。
 
 ルールを「自然検索検出ルールに一致」に設定します（通常、このチャネルのデフォルト設定です）。
 

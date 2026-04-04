@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Solution built but not tested. Move to the CJA chapter once it's available?  If so, then create a redirect. -->
 
-予約済み変数を使用して[統合の](ids.md)AMO IDとEF ID[!DNL Analytics for Advertising]を取得する場合は、できるだけ早くAMO IDとEF IDの予約済み変数を[標準](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) [!DNL analytics]にコピーすることで、Adobe Advertisingと[Adobe Customer Journey Analytics [!DNL eVars]の間で統合するためのデータを準備できます。これはAdobeの次世代型](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/evar) ソリューションです。 これにより、タスクを完了するとすぐに、AMO IDとEF IDの履歴データの収集が可能になります。 予約済み変数を使用しており、このタスクを完了する必要がある場合は、Adobe アカウントチームから通知されます。
+予約済み変数を使用して[統合の](ids.md)AMO IDとEF ID[!DNL Analytics for Advertising]を取得する場合は、できるだけ早くAMO IDとEF IDの予約済み変数を[標準](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) [!DNL analytics]にコピーすることで、Adobe Advertisingと[Adobe Customer Journey Analytics [!DNL eVars]の間で統合するためのデータを準備できます。これはAdobeの次世代型](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/evar) ソリューションです。 これにより、タスクを完了するとすぐに、AMO IDとEF IDの履歴データの収集が可能になります。 予約済み変数を使用しており、このタスクを完了する必要がある場合は、Adobe アカウントチームから通知されます。
 
 <!-- 
 You can also do the same for any other reserved variables you use for your [!DNL Analytics for Advertising] implementation.

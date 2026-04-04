@@ -54,5 +54,5 @@ Adobe Advertisingがカスタムマーケティングチャネルの作成に必
 >* [Adobe Advertising IDを使用して [!DNL Marketing Channels] 処理ルールを作成](mc-ids.md)
 >* [Adobe Advertisingと [!DNL Marketing Channels]](mc-data-variances.md)でチャネルデータが異なる理由
 >* [Adobe Advertising data [!DNL Analytics Marketing Channels] での](mc-ac-data.md)の使用
->* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/en/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
+>* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/ja/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
 >* [概要： [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## コンバージョンタグ設定 {#conversion-tag-settings-google}
 
-**[!UICONTROL Select an Account]:**&#x200B;該当するGoogle Ads アカウント。
+**[!UICONTROL Select an Account]:**&#x200B;該当する[!DNL Google Ads] アカウント。
 
 **[!UICONTROL Type of Conversion]:**&#x200B;追跡するコンバージョンの種類：*[!UICONTROL Click on a webpage element]*、*[!UICONTROL Calls to a phone number on your website]*、または&#x200B;*[!UICONTROL Clicks to your number on your mobile website]*。 **注：** *[!UICONTROL Import conversion]*&#x200B;は別の目的に使用されています。「[&#x200B; リードのコンバージョンを強化 [!DNL Google Ads] するためのコンバージョンアクションの作成](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)」を参照してください。
 

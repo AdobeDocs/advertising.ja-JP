@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: 457
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## コンバージョンアクションの設定 {#conversion-action-settings-google}
 
-**[!UICONTROL Select an Account]:**&#x200B;該当するGoogle Ads アカウント。
+**[!UICONTROL Select an Account]:**&#x200B;該当する[!DNL Google Ads] アカウント。
 
 **[!UICONTROL Type of Conversion]:**&#x200B;追跡するコンバージョンの種類：*[!UICONTROL Import conversion]*&#x200B;を選択します。 他のすべてのタイプは、他のタイプのコンバージョンのコンバージョントラッキングタグ（コンバージョンアクションではなく）を作成するために使用されます。
 

@@ -75,7 +75,7 @@ Adobeは、各広告主と連携して、広告ネットワークアカウント
 
    トラッキングの設定について詳しくは、「トラッキング」の章を参照してください。
 
-1. （Adobe Analyticsを使用している広告主） [Adobe AdvertisingとAnalytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)を統合してデータを交換できるようにします。
+1. （Adobe Analyticsを使用している広告主） [Adobe AdvertisingとAnalytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja)を統合してデータを交換できるようにします。
 
 1. （Search, Social, &amp; Commerceで入札、キャンペーン予算、および/またはキャンペーン入札戦略のターゲットを最適化できるようにするには、[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)のみ） [&#x200B; キャンペーンをポートフォリオに割り当てます](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
 

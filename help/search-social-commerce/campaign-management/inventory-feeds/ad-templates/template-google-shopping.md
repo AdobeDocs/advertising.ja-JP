@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 520
+source-wordcount: 518
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]:** （クライアントフィードファイルのテンプレートの場合はオプション） キャンペーンレベルのトラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的なURLをパラメーターに埋め込みます。 この値はアカウントレベルの設定よりも優先されますが、より詳細なレベル（キーワードが最も詳細なレベル）でテンプレートを追跡すると、この値よりも優先されます。
 
-キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合は、Google Ads ショッピングキャンペーン [の](/help/search-social-commerce/tracking/formats-click-tracking-google.md) トラッキングテンプレート形式を使用します。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
+キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合は、[&#x200B; ショッピングキャンペーン  [!DNL Google Ads] の](/help/search-social-commerce/tracking/formats-click-tracking-google.md) トラッキングテンプレート形式を使用します。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
 
 サードパーティのリダイレクトとトラッキングの場合は、値を入力します。
 

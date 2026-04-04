@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: 1396
 ht-degree: 0%
 
 ---
@@ -48,19 +48,17 @@ ht-degree: 0%
 
    * **[!UICONTROL Objectives]**&#x200B;新しい[!UICONTROL Objectives] ビューを開きます。このビューから、既存のすべての目標を表示したり、目標を作成、編集、削除したりできます。
 
-   * **[!UICONTROL Conversions]**&#x200B;新しいサイトを終了し、従来の[!UICONTROL Admin] > [!UICONTROL Conversions] ビューを開きます。
+<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
 
-   * **[!UICONTROL Conversion Value Rules]** キャンペーンレベルおよびアカウントレベルのコンバージョン値ルールの読み取り専用ビューを開きます。 コンバージョン値ルールを管理するには、従来の[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+* **[!UICONTROL Conversion Value Rules]** キャンペーンレベルおよびアカウントレベルのコンバージョン値ルールの読み取り専用ビューを開きます。 コンバージョン値ルールを管理するには、従来の[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
-   * **[!UICONTROL Constraints]**&#x200B;新しいサイトを終了し、従来の[!UICONTROL Optimization] > [!UICONTROL Constraints] ビューを開きます。
+* **[!UICONTROL Constraints]**&#x200B;既存の制約の読み取り専用ビューを開きます。 制約を管理するには、従来の[!UICONTROL Optimization] > [!UICONTROL Constraints] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
 * **[!UICONTROL Plan]** サブメニュー：
 
    * **[!UICONTROL Simulations]** ユーザーが作成したすべてのカスタムシミュレーションと自動生成された週次シミュレーションを表示したり、新しいカスタムシミュレーションを生成したり、既存のシミュレーションを再実行したりできる、新しい[[!UICONTROL Simulations] ビュー](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)を開きます。 [!UICONTROL Spend Planner] ボタンをクリックすると、[!UICONTROL Spend Recommendation] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization]のレガシー[!UICONTROL Spend Recommendation] ツールが開きます。
 
    * **[!UICONTROL Spend Planner]**&#x200B;新しいサイトを終了し、従来の[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] ビューを開きます。
-
-   * **[!UICONTROL Label Classification]**&#x200B;新しいサイトを終了し、従来の[!UICONTROL Campaigns] > [!UICONTROL Label Classifications] ビューを開きます。
 
 * **[!UICONTROL Manage]** サブメニュー：
 
@@ -90,9 +88,15 @@ ht-degree: 0%
 
    * **[!UICONTROL History Logs]**：新しいサイトを終了し、従来の[!UICONTROL Insights & Reports] > [!UICONTROL Change History] ビューを開きます。
 
+   * **[!UICONTROL Label Classification]**&#x200B;新しい[!UICONTROL Label Classifications] ビューを開きます。 分類を管理し、新しいUIで使用可能な該当するアカウントコンポーネントに分類値を割り当て/割り当て解除できます。
+
+   * **[!UICONTROL Bulksheets]**：新しいサイトを終了し、従来の[!UICONTROL Campaigns] > [!UICONTROL Bulksheets] ビューを開きます。
+
 * **[!UICONTROL Target]** サブメニュー：
 
-   * **[!UICONTROL Audience]**：新しい[!UICONTROL Audiences] ビューを開きます。このビューには、広告主の既存のオーディエンスがすべて表示されます。 オーディエンスを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Audiences] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+   * **[!UICONTROL Audiences]**：新しい[!UICONTROL Audiences] ビューを開きます。このビューには、広告主の既存のオーディエンス、すべてのオーディエンスターゲット、およびすべてのオーディエンス除外が表示されます。 オーディエンスを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Audiences] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+
+   * **[!UICONTROL Auto Targets]**&#x200B;新しいサイトを終了し、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを開きます。
 
    * **[!UICONTROL Keywords]**&#x200B;新しい[!UICONTROL Keywords] ビューを開き、広告主の既存のキーワードと負のキーワードを表示します。 選択したキーワードの制約の割り当てを管理できます。
 
@@ -104,8 +108,6 @@ ht-degree: 0%
 
 * **[!UICONTROL Assets]** サブメニュー：
 
-   * **[!UICONTROL Auto Targets]**&#x200B;新しいサイトを終了し、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを開きます。
-
    * **[!UICONTROL Creatives]**&#x200B;新しいサイトを終了し、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを開きます。
 
    * **[!UICONTROL Extensions]**&#x200B;既存の広告拡張機能の読み取り専用ビューを開きます。 拡張機能を管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
@@ -114,13 +116,15 @@ ht-degree: 0%
 
 * **[!UICONTROL Set Up]** サブメニュー：
 
-   * **[!UICONTROL Accounts]**：新しいサイトを終了し、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを開きます。
+   * **[!UICONTROL Manager Accounts]**：新しいサイトを終了し、従来の[!UICONTROL Admin] > [!UICONTROL Manager Accounts] ビューを開きます。
+
+   * **[!UICONTROL Accounts]**：新しい[!UICONTROL Accounts] ビューを開きます。 API接続を介して同期する広告ネットワークアカウントや、データアップロードを介して設定する広告ネットワークアカウントを管理できます。 既存の[!UICONTROL Naver] アカウントも管理できます。
+
+   * **[!UICONTROL Import Campaigns]**：新しいサイトを終了し、従来の[!UICONTROL Tools] > [!UICONTROL Import Campaigns] ビューを開きます。
 
 <!--
- What's happenening to these?
+ What's happening to these?
 
-Campaigns > ACM
-Campaigns > Bulksheets
 Campaigns > Asset Library
 
 Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
@@ -128,7 +132,6 @@ Insights > Notification Center (doesn't open from Dashboard > Alerts & Notificat
 Tools > Conversion Upload Setup
 Tools > Generic Tracking
 Tools > Inventory Selection
-Import Campaigns
 
 Tools > Admin > Data Source Setup
 -->

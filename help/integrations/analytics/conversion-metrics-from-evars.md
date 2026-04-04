@@ -28,7 +28,7 @@ ht-degree: 0%
 
 *Adobe AdvertisingとAdobe Analyticsの統合のみを使用する広告主*
 
-サクセスイベント指標を使用すると、ブランドの目標に最適なAdobe Analytics サイトデータに基づいて、DSP パッケージとSearch, Social, &amp; Commerce キャンペーンを最適化できます。 [[!DNL Analytics] [!DNL eVars] レベルおよび](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) レベルのデータをイベントにファネリングすることで、既存の[[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html?lang=ja)および[!DNL eVar]&#x200B;[!DNL prop]に基づいてカスタム成功イベント指標を設定できます。 標準、カスタム、予約済みのコンバージョン指標およびトラフィック指標を含むその他の[!DNL Analytics]指標は、DSPおよびSearch, Social, &amp; Commerceで自動的に利用できます。
+サクセスイベント指標を使用すると、ブランドの目標に最適なAdobe Analytics サイトデータに基づいて、DSP パッケージとSearch, Social, &amp; Commerce キャンペーンを最適化できます。 [[!DNL Analytics] [!DNL eVars] レベルおよび](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja) レベルのデータをイベントにファネリングすることで、既存の[[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html?lang=ja)および[!DNL eVar]&#x200B;[!DNL prop]に基づいてカスタム成功イベント指標を設定できます。 標準、カスタム、予約済みのコンバージョン指標およびトラフィック指標を含むその他の[!DNL Analytics]指標は、DSPおよびSearch, Social, &amp; Commerceで自動的に利用できます。
 
 ![使用例](/help/integrations/assets/a4adc-conversion-evar-example.jpg "使用例")
 

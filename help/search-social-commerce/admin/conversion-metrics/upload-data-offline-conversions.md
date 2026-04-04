@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 785
+source-wordcount: 787
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 `Parameters:TimeZone=insert_timezone`
 
-アカウントのタイムゾーンをこの場所または各行の「[!UICONTROL Conversion Time]」列に入力します。 「+」または「 – 」で示されるGMT オフセットと4桁の時間差（ニューヨークの場合は–0500、ベルリンの場合は+0100、グリニッジ標準時の場合は+0000など）を[!DNL Google Ads only] サポートされているタイムゾーン ID形式[またはb\）としてa\）（](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids)）を使用します。
+アカウントのタイムゾーンをこの場所または各行の「[!UICONTROL Conversion Time]」列に入力します。 「+」または「 – 」で示される[!DNL Google Ads] サポートされているタイムゾーン ID形式[またはb\）と4桁の時間差（ニューヨークの場合は–0500、ベルリンの場合は+0100、グリニッジ標準時の場合は+0000など）のa\）（[[!DNL &#x200B;]](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids)のみ]）をGMT オフセットとして使用します。
 
 ### [!DNL Google Ads]のテーブル列と値
 

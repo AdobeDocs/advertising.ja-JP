@@ -135,7 +135,7 @@ Analysis Workspaceで、[!DNL Analytics for Target panel]を設定して、[!DNL
 
 Analysis Workspace内で、アクティビティとエクスペリエンスのデータが最小限に抑えられているか入力されていないことがわかったら、次の操作を行います。
 
-* [!UICONTROL Supplemental Data ID]と[!DNL Target]の両方に同じ[!DNL Analytics] （SDID）が使用されていることを確認します。 SDID値を確認するには、キャンペーンがユーザーを促進しているランディングページで[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html)を使用します。
+* [!UICONTROL Supplemental Data ID]と[!DNL Target]の両方に同じ[!DNL Analytics] （SDID）が使用されていることを確認します。 SDID値を確認するには、キャンペーンがユーザーを促進しているランディングページで[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=ja)を使用します。
 
 [Adobe Debuggerの補足データ ID （SDID）値](/help/integrations/assets/target-troubleshooting-sdid.png)
 
