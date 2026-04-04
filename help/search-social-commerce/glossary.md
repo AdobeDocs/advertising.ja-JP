@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **広告バリエーション：**&#x200B;広告グループまたは広告戦略内の任意の広告。
 
-**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id):** Adobe AdvertisingがAdobe AnalyticsおよびAdobe Customer Journey Analyticsとキャンペーンに関するデータを共有できるようにするトラッキングコード。 `s_kwcid=`で始まります。
+**[AMO ID](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id):** Adobe AdvertisingがAdobe AnalyticsおよびAdobe Customer Journey Analyticsとキャンペーンに関するデータを共有できるようにするトラッキングコード。 `s_kwcid=`で始まります。
 
 **入札単位：**&#x200B;入札が行われる単位の検索、ソーシャル、およびCommerceの用語。
 

@@ -33,7 +33,7 @@ ht-degree: 0%
 
   データセットへの接続を設定し、レポートを設定するには、社内のweb アナリストのサポートが必要です。
 
-* Adobe Experience Platform data modeling and management technologies （[&#x200B; スキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)および[&#x200B; データセット &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)を含む）および[&#x200B; データ収集テクノロジー](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) （[&#x200B; データストリーム &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)および[&#x200B; タグ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)を含む）
+* Adobe Experience Platform data modeling and management technologies （[&#x200B; スキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)および[&#x200B; データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)を含む）および[&#x200B; データ収集テクノロジー](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) （[&#x200B; データストリーム &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/overview)および[&#x200B; タグ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)を含む）
 
   これらのテクノロジには、Experience Platform サイト管理者のサポートが必要です。
 

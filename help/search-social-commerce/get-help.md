@@ -44,7 +44,7 @@ Look for answers to your questions in the [Adobe Advertising community forums](h
 
 製品またはアカウントの問題については、次の操作を行います。
 
-* （セルフサービス契約を持つ広告主） [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support)で組織のチケットを開きます。
+* （セルフサービス契約を持つ広告主） [https://experienceleague.adobe.com/home?lang=ja#support](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support)で組織のチケットを開きます。
 
   製品に「[!UICONTROL Advertising - Search, Social, & Commerce]」を選択します。
 

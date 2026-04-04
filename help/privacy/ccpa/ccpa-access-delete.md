@@ -76,7 +76,7 @@ Adobe Advertisingから消費者の個人情報にアクセスして削除する
    >
    >お客様の組織のすべてのAdobe Advertising アカウント（アカウント [!DNL DSP]または広告主、[!DNL Search, Social, & Commerce] アカウント、[!DNL Creative]または[!DNL DCO] アカウントを含む）がExperience Cloudの組織IDにリンクされていることを確認するには、会社のAdobe Advertising担当者にお問い合わせください。
 
-1. [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （自動リクエストの場合）または[Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja) （アドホックリクエストの場合）を使用して、消費者に代わってAdobe Advertisingに個人情報にアクセスおよび削除するリクエストを送信し、既存のリクエストのステータスを確認します。
+1. [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ja) （自動リクエストの場合）または[Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja) （アドホックリクエストの場合）を使用して、消費者に代わってAdobe Advertisingに個人情報にアクセスおよび削除するリクエストを送信し、既存のリクエストのステータスを確認します。
 
    モバイルアプリを使用して顧客とやり取りし、[!DNL DSP]を使用してキャンペーンを開始する広告主の場合は、Experience Cloud用のプライバシー対応モバイル SDKをダウンロードする必要があります。 Mobile SDKを使用すると、オプトアウトステータスフラグを設定し、消費者のデバイス ID （名前空間ID: `deviceID`）を取得し、Privacy Service APIにリクエストを送信できます。 モバイルアプリには、SDK バージョン 4.15.0以降が必要です。
 

@@ -69,6 +69,6 @@ Adobe Audience Managerを使用しているDSPのお客様は、Audience Manager
 
 ## Audience Analyticsで、サイトのアクティビティに関するより詳細なインサイトを獲得
 
-[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)のAdobe Advertisingのお客様は、Adobe Advertisingで追跡されたデータとAudience Manager セグメントの両方を[!DNL Analytics]に送信して、サイトのアクティビティに関する詳細なインサイトを得ることができます。
+[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja)のAdobe Advertisingのお客様は、Adobe Advertisingで追跡されたデータとAudience Manager セグメントの両方を[!DNL Analytics]に送信して、サイトのアクティビティに関する詳細なインサイトを得ることができます。
 
 詳しくは、「[[!DNL Adobe Audience Analytics] Adobe Advertisingのお客様](/help/integrations/audience-manager/audience-analytics.md)」を参照してください。
