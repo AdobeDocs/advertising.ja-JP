@@ -34,8 +34,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [概要 [!DNL Google Ads]  コンバージョン値ルール ](about-google-conversion-value-rules.md)
->* [ コンバージョン値ルールを作成 [!DNL Google Ads] します](create-google-conversion-value-rule.md)
->* [ コンバージョン値ルールの編集 [!DNL Google Ads] ](edit-google-conversion-value-rule.md)
+>* [概要 [!DNL Google Ads]  コンバージョン値ルール &#x200B;](about-google-conversion-value-rules.md)
+>* [&#x200B; コンバージョン値ルールを作成 [!DNL Google Ads] します](create-google-conversion-value-rule.md)
+>* [&#x200B; コンバージョン値ルールの編集 [!DNL Google Ads] &#x200B;](edit-google-conversion-value-rule.md)
 >* [[!DNL Google Ads]  コンバージョン値ルール設定](google-conversion-value-rule-settings.md)
 

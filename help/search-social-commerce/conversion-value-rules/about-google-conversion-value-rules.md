@@ -10,9 +10,9 @@ ht-degree: 0%
 
 # [!DNL Google Ads]個のコンバージョン値ルールについて
 
-Search, Social, &amp; Commerceは、[ コンバージョン値ルール ](https://support.google.com/google-ads/answer/10518330)を[!DNL Google Ads] アカウントから自動的に同期します。 コンバージョン値ルールを使用すると、デバイスの種類、場所、オーディエンスセグメントなどのユーザー情報に基づいて、コンバージョンイベントの値を調整できます。 Google Smart Biddingを使用すると、検索、表示、ショッピング、パフォーマンスの最大化キャンペーンでバリューベース入札のルールを使用できます。 コンバージョンの最大化とターゲット ROAS入札戦略を使用するキャンペーンの場合、[!DNL Google Ads] アルゴリズムは、より高い値のコンバージョンを優先します。
+Search, Social, &amp; Commerceは、[&#x200B; コンバージョン値ルール &#x200B;](https://support.google.com/google-ads/answer/10518330)を[!DNL Google Ads] アカウントから自動的に同期します。 コンバージョン値ルールを使用すると、デバイスの種類、場所、オーディエンスセグメントなどのユーザー情報に基づいて、コンバージョンイベントの値を調整できます。 Google Smart Biddingを使用すると、検索、表示、ショッピング、パフォーマンスの最大化キャンペーンでバリューベース入札のルールを使用できます。 コンバージョンの最大化とターゲット ROAS入札戦略を使用するキャンペーンの場合、[!DNL Google Ads] アルゴリズムは、より高い値のコンバージョンを優先します。
 
-キャンペーンレベルのコンバージョン値ルールは、アカウントレベルのルールを上書きします。 コンバージョンが複数のコンバージョン値ルールを満たす場合、ルールのうち1つだけが適用されます。 通常、最も特定のルールが適用されますが、様々なルール条件タイプの優先順位に関する[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/10520348)を参照してください。
+キャンペーンレベルのコンバージョン値ルールは、アカウントレベルのルールを上書きします。 コンバージョンが複数のコンバージョン値ルールを満たす場合、ルールのうち1つだけが適用されます。 通常、最も特定のルールが適用されますが、様々なルール条件タイプの優先順位に関する[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/10520348)を参照してください。
 
 ## [!UICONTROL Conversion Value Rules] ビューと機能
 
@@ -30,12 +30,12 @@ Search, Social, &amp; Commerceは、[ コンバージョン値ルール ](https:
 
 例えば、目標が単一のコンバージョン指標「リード」を使用し、モバイルデバイスからのコンバージョンに10の重みを与え、非モバイルデバイスからのコンバージョンに10の重みを与えるとします。 Search, Social, &amp; Commerceでは、いずれかのデバイスタイプのイベントを1回のコンバージョンとしてカウントし、コンバージョン値を10としてクレジットします。 ただし、そのポートフォリオのキャンペーンで「デバイスがモバイルの場合は、2を掛ける」というコンバージョン値ルールが使用されているとします。 モバイルリードイベントがそのキャンペーンで追跡されると、[!DNL Google Ads]はコンバージョン数を1つ（1）とクレジットしますが、コンバージョン値は（10 x 2） = 20とクレジットします。
 
-ルールが適用される前の元のコンバージョン値を含む、ルールの詳細については、[ [!DNL Google Ads]の](https://support.google.com/google-ads/answer/10519848) コンバージョン値ルール レポートを参照してください。
+ルールが適用される前の元のコンバージョン値を含む、ルールの詳細については、[&#x200B; [!DNL Google Ads]の](https://support.google.com/google-ads/answer/10519848) コンバージョン値ルール レポートを参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ コンバージョン値ルールを作成 [!DNL Google Ads] します](create-google-conversion-value-rule.md)
->* [ コンバージョン値ルールの編集 [!DNL Google Ads] ](edit-google-conversion-value-rule.md)
->* [ コンバージョン値ルール  [!DNL Google Ads] のステータスを変更](change-the-status-of-google-conversion-value-rule.md)
+>* [&#x200B; コンバージョン値ルールを作成 [!DNL Google Ads] します](create-google-conversion-value-rule.md)
+>* [&#x200B; コンバージョン値ルールの編集 [!DNL Google Ads] &#x200B;](edit-google-conversion-value-rule.md)
+>* [&#x200B; コンバージョン値ルール  [!DNL Google Ads] のステータスを変更](change-the-status-of-google-conversion-value-rule.md)
 >* [[!DNL Google Ads]  コンバージョン値ルール設定](google-conversion-value-rule-settings.md)
 

@@ -4,9 +4,12 @@ description: リードのコンバージョンを強化するための [!DNL Goo
 feature: Conversions
 exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
 TQID: https://experienceleague.adobe.com/KqFHgxjc-4snyo3nf-3-ry6nsyapMPcwKEWvgi-pxGc
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
 source-wordcount: 457
@@ -24,7 +27,7 @@ ht-degree: 0%
 
 1. データテーブルの上にあるツールバーで、![作成](/help/search-social-commerce/assets/add.png "作成")をクリックします。
 
-1. [ コンバージョンアクション設定](#conversion-action-settings-google)を指定します。
+1. [&#x200B; コンバージョンアクション設定](#conversion-action-settings-google)を指定します。
 
    1. アカウントを選択し、変換タイプを選択します：*[!UICONTROL Import conversion]*。
 
@@ -40,11 +43,11 @@ ht-degree: 0%
 
    * [!DNL Google] タグを使用するには、「[!DNL Google Ads] タグを使用したリードの拡張コンバージョンの設定[!DNL Google] タグ [」の「 [!DNL Google]  タグ設定の設定」に関する](https://support.google.com/google-ads/answer/11347292)の手順を参照してください。
 
-   * [!DNL Google Tag Manager]を使用するには、「[!DNL Google Ads][!DNL Google]」の「[ リードの拡張コンバージョンの設定」の「 [!DNL Google Tag Manager] タグ設定の設定」と「設定を確認してコンテナを公開する」の](https://support.google.com/google-ads/answer/11021502?#configure)の手順を参照してください。
+   * [!DNL Google Tag Manager]を使用するには、「[!DNL Google Ads]&#x200B;[!DNL Google]」の「[&#x200B; リードの拡張コンバージョンの設定」の「 [!DNL Google Tag Manager] タグ設定の設定」と「設定を確認してコンテナを公開する」の](https://support.google.com/google-ads/answer/11021502?#configure)の手順を参照してください。
 
 1. **[!UICONTROL Done].**&#x200B;をクリックします
 
-コンバージョンアクションを作成し、コンバージョントラッキングタグを実装したら、組織がキャプチャしたオフラインのコンバージョンデータをアップロードし、コンバージョンアクションに関連付けることができます。 「[ オフラインのコンバージョンデータをアップロードしてコンバージョンを強化する](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)」を参照してください。
+コンバージョンアクションを作成し、コンバージョントラッキングタグを実装したら、組織がキャプチャしたオフラインのコンバージョンデータをアップロードし、コンバージョンアクションに関連付けることができます。 「[&#x200B; オフラインのコンバージョンデータをアップロードしてコンバージョンを強化する](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)」を参照してください。
 
 ## コンバージョンアクションの設定 {#conversion-action-settings-google}
 
@@ -66,7 +69,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Don't use a value for this conversion action (Not recommended)]*
 
-**[!UICONTROL Count]:** [ クリックまたはインタラクションごとにカウントするコンバージョン数](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]*&#x200B;または&#x200B;*[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*。
+**[!UICONTROL Count]:** [&#x200B; クリックまたはインタラクションごとにカウントするコンバージョン数](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]*&#x200B;または&#x200B;*[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*。
 
 **[!UICONTROL Click Through Conversion Window]:** コンバージョンを記録する広告インタラクションの後最大日数。 検索キャンペーン、ディスプレイキャンペーン、ショッピングキャンペーンの場合、ウィンドウは1～90日です。 数値を選択するか、**[!UICONTROL Custom]**&#x200B;を選択して数値を入力します。
 
@@ -76,5 +79,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
->* [実装 [!DNL Google Ads]  リードの拡張コンバージョン ](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
+>* [&#x200B; オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
+>* [実装 [!DNL Google Ads]  リードの拡張コンバージョン &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
