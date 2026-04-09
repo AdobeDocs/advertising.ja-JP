@@ -2,20 +2,20 @@
 title: 広告主のコンバージョン指標の管理
 description: Adobe Advertisingが広告主に対して追跡するコンバージョン指標の使用方法について説明します。
 feature: Conversions
-source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
+source-git-commit: ba96414b7104192d36d62842f52f73a5850190f9
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
 
 # 広告主のコンバージョン指標の管理
 
-広告主の[&#x200B; コンバージョン &#x200B;](/help/search-social-commerce/glossary.md#c-d)指標は、Search, Social, &amp; CommerceおよびAdvertising DSP全体で使用されます。
+広告主の[&#x200B; コンバージョン &#x200B;](/help/search-social-commerce/glossary.md#c-d)指標は、Adobe Advertising全体で使用されます。
 
 * Search, Social, &amp; Commerceでは、コンバージョン指標のデータを、キャンペーンビュー、ポートフォリオビュー、客観的な管理ビューおよびレポートの列に表示できます。 十分なアクセス権限を持つユーザーは、コンバージョン指標を使用して目的を作成し、ポートフォリオの最適化に使用することもできます。
 
-* Advertising DSPでは、コンバージョン指標を使用して[&#x200B; カスタム目標](/help/dsp/optimization/custom-goal.md)を作成し、パッケージの最適化に使用できます。
+* （Advertising DSPを使用する広告主） DSPでは、キャンペーン管理ビュー、カスタム目標、カスタムレポートにコンバージョン指標を含めることができます。 コンバージョン指標を使用して[&#x200B; カスタム目標](/help/dsp/optimization/custom-goal.md)を作成し、パッケージの最適化に使用することもできます。
 
 利用できる指標は次のとおりです。
 
@@ -23,19 +23,21 @@ ht-degree: 0%
 
 * [&#x200B; コンバージョンとサイトエンゲージメントの指標がAdobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md)から同期されました。
 
+* [&#x200B; サイトイベントがAdobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)から同期されました。
+
 * [!DNL Google Ads]様が追跡したコンバージョンと、[!DNL Microsoft Advertising]件のユニバーサル イベント トラッキング タグが追跡したコンバージョンです。
 
 * （[&#x200B; アカウント、プロパティ、およびビューの組み合わせを検索、ソーシャル、およびCommerceのデータソース  [!DNL Google Analytics] として設定した場合） &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md)によって追跡されたコンバージョン。[!DNL Google Analytics]
 
-利用可能なコンバージョン指標のリストから、広告主のデータへのアクセス権を持つ各ユーザーは、管理ビューやレポートで利用できる指標（選択した特定の指標を含む）をカスタマイズできます。
+* カスタムフィードからのコンバージョン。
+
+利用可能なコンバージョン指標のリストから、広告主のデータへのアクセス権を持つ各ユーザーは、管理ビューやレポートで利用できる指標（選択した特定の指標を含む）をカスタマイズできます。 取得したデータのスペルと正確に一致する指標の名前を使用するか、列見出しに表示される名前を変更して読みやすくすることができます。
 
 >[!IMPORTANT]
 >
 >デフォルトでは、広告主のコンバージョン指標（ユニバーサルイベント追跡タグ [!DNL Google Ads]、[!DNL Google Analytics]、[!DNL Microsoft Advertising]によって追跡されるコンバージョンを除く）は、キャンペーンおよびポートフォリオ管理ビュー、目的、レポートに含めることができません。 コンバージョン指標を使用できるようにするには、コンバージョン指標を明示的に使用できるようにする必要があります。
 >
 >[!DNL Google Ads]、[!DNL Google Analytics]および[!DNL Microsoft Advertising] ユニバーサルイベントトラッキングタグによってトラッキングされる新しいコンバージョンは、常に自動的に利用可能です。
-
-取得したデータのスペルと正確に一致する指標の名前を使用するか、列見出しに表示される名前を変更して読みやすくすることができます。
 
 >[!TIP]
 >
@@ -65,7 +67,7 @@ ht-degree: 0%
 
    表示名は一意である必要があり、次の特殊文字を含めることはできません：`\"<'>&`
 
-## 管理ビューとレポートで使用できるコンバージョン指標の変更 {#conversion-metrics-change-available}
+## 管理ビュー、目的、レポートで使用できるコンバージョン指標を変更します {#conversion-metrics-change-available}
 
 >[!NOTE]
 >
