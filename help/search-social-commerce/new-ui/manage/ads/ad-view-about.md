@@ -1,25 +1,33 @@
 ---
-title: （新しい UI） [!UICONTROL Ad Groups] ビューについて
-description: '[!UICONTROL Ads] ビューでできることについて説明します。'
+title: （新しいUI） [!UICONTROL Ad Groups] ビューについて
+description: '[!UICONTROL Ads] ビューで何ができるかを説明します。'
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+exl-id: 6a0a4b74-a767-4c4d-a823-0fbc3c738cd0
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
 
-# （新しい UI） [!UICONTROL Ads] ビューについて
+# （新しいUI） [!UICONTROL Ads] ビューについて
 
 *Beta機能*
 
-[!UICONTROL Manage]/[!UICONTROL Ads] ビューには、選択した広告主アカウントについてフィルターされたビューで表示されているすべての広告がリストされます。
+[!UICONTROL Manage] > [!UICONTROL Ads] ビューには、選択した広告主アカウントのフィルター処理されたビュー内のすべての広告が一覧表示されます。
+
 
 ## 使用可能なアクション
 
-* [広告グループに制約を割り当て、広告から制約の割り当てを解除する](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+* [[!UICONTROL Ads] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
+
+<!--
+* [Assign constraints to ad groups, and unassign constraints from ads](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+-->
+
+<!--  >* [Manage constraint assignments for ads](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)  -->
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 広告の制約割り当ての管理 &#x200B;](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+>* [[!UICONTROL Ads] ビュー](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)からデータビューレポートを管理

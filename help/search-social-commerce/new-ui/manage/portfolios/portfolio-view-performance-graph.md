@@ -1,31 +1,32 @@
 ---
-title: （新しい UI） [!UICONTROL Portfolios] ビューでのパフォーマンスグラフの表示
-description: '[!UICONTROL Portfolios] ビューでパフォーマンスグラフを開いて設定する方法を説明します。'
+title: （新しいUI） [!UICONTROL Portfolios] ビューでのパフォーマンス グラフの表示
+description: '[!UICONTROL Portfolios] ビューでパフォーマンスグラフを開いて設定する方法について説明します。'
 feature: Search Campaign Management
-source-git-commit: 3bbbc95581a6691b2ac637254424f0cdc7203659
+exl-id: 5b83d052-acef-451c-8492-70465ded23f4
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-# （新しい UI） [!UICONTROL Portfolios] ビューでのパフォーマンスグラフの表示
+# （新しいUI） [!UICONTROL Portfolios] ビューでのパフォーマンス グラフの表示
 
 *Beta機能*
 
-指定した日付範囲について、ビュー内のすべてのポートフォリオで合計された最大 3 つの指標を含むパフォーマンスグラフを開いて設定できます。
+指定した日付範囲のビュー内のすべてのポートフォリオをまたいで合計される最大3つの指標を含むパフォーマンスグラフを開いて設定できます。
 
-## パフォーマンスグラフの表示
+## パフォーマンスグラフを表示
 
-1. データ テーブルの上にある ![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ") をクリックします。
+1. データテーブルの上にある「![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
 
-1. （オプション）グラフに含める通貨と指標を最大 3 つ指定します。
+1. （オプション）通貨と、チャートに含める最大3つの指標を指定します。
 
-## 表示されているパフォーマンス グラフを非表示にする
+## 表示されているパフォーマンスグラフを非表示にする
 
-* データ テーブルの上にある ![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ") をクリックします。
+* データテーブルの上にある「![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [[!UICONTROL Portfolios view]](portfolio-about.md) について
->* [[!UICONTROL Portfolios] 表示からのデータのダウンロード &#x200B;](portfolio-view-report.md)
+>* [について[!UICONTROL Portfolios view]](portfolio-about.md)
+>* [[!UICONTROL Portfolios] ビュー](portfolio-view-report.md)からデータビューレポートを管理

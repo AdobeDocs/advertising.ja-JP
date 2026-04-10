@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: 121
+source-wordcount: 125
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ ht-degree: 0%
 
 * [キャンペーンに制約を割り当て、キャンペーンから制約を割り当て解除します](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
-* [[!UICONTROL Campaigns] ビューからデータをダウンロード](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+* [[!UICONTROL Campaigns] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 
 >[!MORELIKETHIS]
 >
 >* [&#x200B; ポートフォリオへのキャンペーンの割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
 >* [&#x200B; ポートフォリオからキャンペーンを削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [&#x200B; キャンペーンの制約の割り当ての管理](campaign-constraint-assignments-manage.md)
->* [[!UICONTROL Campaigns] ビューからデータをダウンロード &#x200B;](campaign-view-report.md)
+>* [[!UICONTROL Campaigns] ビュー](campaign-view-report.md)からデータビューレポートを管理

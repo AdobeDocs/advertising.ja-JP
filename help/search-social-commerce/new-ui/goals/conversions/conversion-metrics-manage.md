@@ -2,9 +2,9 @@
 title: 広告主のコンバージョン指標の管理
 description: Adobe Advertisingが広告主に対して追跡するコンバージョン指標の使用方法について説明します。
 feature: Conversions
-source-git-commit: ba96414b7104192d36d62842f52f73a5850190f9
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ ht-degree: 0%
 >[からの [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md)指標の場合、統合を更新または再認証すると、表示名に対する手動での変更はすべて上書きされます。 同様に、[!DNL Google Analytics]内の名前の変更は、統合を[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)または[再認証](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)しない限り無視されます。
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;をクリックします。
+
+1. リスト [をツールバー](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列の見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)からフィルタリングします。
 
 1. 指標の&#x200B;**[!UICONTROL Conversion Display Name]**&#x200B;列で、指標の名前の上にカーソルを置き、**...** > **[!UICONTROL Rename]**&#x200B;をクリックします。
 
