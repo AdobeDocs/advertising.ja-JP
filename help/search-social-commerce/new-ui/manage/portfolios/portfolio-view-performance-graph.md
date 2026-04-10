@@ -18,13 +18,13 @@ ht-degree: 0%
 
 ## パフォーマンスグラフを表示
 
-1. データテーブルの上にある「![ グラフ ](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
+1. データテーブルの上にある「![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
 
 1. （オプション）通貨と、チャートに含める最大3つの指標を指定します。
 
 ## 表示されているパフォーマンスグラフを非表示にする
 
-* データテーブルの上にある「![ グラフ ](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
+* データテーブルの上にある「![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
 
 >[!MORELIKETHIS]
 >
