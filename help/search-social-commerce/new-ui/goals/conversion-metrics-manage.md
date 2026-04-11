@@ -11,23 +11,23 @@ ht-degree: 0%
 
 # 広告主のコンバージョン指標の管理
 
-広告主の[ コンバージョン ](/help/search-social-commerce/glossary.md#c-d)指標は、Adobe Advertising全体で使用されます。
+広告主の[&#x200B; コンバージョン &#x200B;](/help/search-social-commerce/glossary.md#c-d)指標は、Adobe Advertising全体で使用されます。
 
 * Search, Social, &amp; Commerceでは、コンバージョン指標のデータを、キャンペーンビュー、ポートフォリオビュー、客観的な管理ビューおよびレポートの列に表示できます。 十分なアクセス権限を持つユーザーは、コンバージョン指標を使用して目的を作成し、ポートフォリオの最適化に使用することもできます。
 
-* （Advertising DSPを使用する広告主） DSPでは、キャンペーン管理ビュー、カスタム目標、カスタムレポートにコンバージョン指標を含めることができます。 コンバージョン指標を使用して[ カスタム目標](/help/dsp/optimization/custom-goal.md)を作成し、パッケージの最適化に使用することもできます。
+* （Advertising DSPを使用する広告主） DSPでは、キャンペーン管理ビュー、カスタム目標、カスタムレポートにコンバージョン指標を含めることができます。 コンバージョン指標を使用して[&#x200B; カスタム目標](/help/dsp/optimization/custom-goal.md)を作成し、パッケージの最適化に使用することもできます。
 
 利用できる指標は次のとおりです。
 
 * Adobe Advertisingが広告主向けに追跡するコンバージョン指標。
 
-* [ コンバージョンとサイトエンゲージメントの指標がAdobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md)から同期されました。
+* [&#x200B; コンバージョンとサイトエンゲージメントの指標がAdobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md)から同期されました。
 
-* [ サイトイベントがAdobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)から同期されました。
+* [&#x200B; サイトイベントがAdobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)から同期されました。
 
 * [!DNL Google Ads]様が追跡したコンバージョンと、[!DNL Microsoft Advertising]件のユニバーサル イベント トラッキング タグが追跡したコンバージョンです。
 
-* （[ アカウント、プロパティ、およびビューの組み合わせを検索、ソーシャル、およびCommerceのデータソース  [!DNL Google Analytics] として設定した場合） ](/help/search-social-commerce/admin/data-sources/data-source-about.md)によって追跡されたコンバージョン。[!DNL Google Analytics]
+* （[&#x200B; アカウント、プロパティ、およびビューの組み合わせを検索、ソーシャル、およびCommerceのデータソース  [!DNL Google Analytics] として設定した場合） &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md)によって追跡されたコンバージョン。[!DNL Google Analytics]
 
 * カスタムフィードからのコンバージョン。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->広告主（または広告ネットワーク）がコンバージョン指標の収集を停止すると、過去データの表示に使用しない限り、[管理表示とレポート ](#conversion-metrics-change-available)から非表示にします。
+>広告主（または広告ネットワーク）がコンバージョン指標の収集を停止すると、過去データの表示に使用しない限り、[管理表示とレポート &#x200B;](#conversion-metrics-change-available)から非表示にします。
 
 ## 広告主が追跡したコンバージョン指標の表示
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    広告主向けに収集されたすべてのコンバージョン指標と、表示用に指定されたさまざまな名前が一覧表示されます。
 
-1. （オプション）ツールバー[または](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)列の見出し[からリスト ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)をフィルタリングします。
+1. （オプション）ツールバー[または](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)列の見出し[からリスト &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)をフィルタリングします。
 
 1. 管理ビューとレポートで使用できるコンバージョン指標を変更します。
 
@@ -97,4 +97,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* 
+>* &#x200B;
