@@ -56,7 +56,7 @@ ht-degree: 0%
    >
    >管理者以外のユーザーに権限を付与していない限り、[!DNL Analytics]人のアカウント管理者のみが処理ルールを作成できます。
 
-   1. [次の設定を使用して、処理ルール &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en)を作成します。
+   1. [次の設定を使用して、処理ルール &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=ja)を作成します。
 
       * 条件を満たす必要がある場合は、必須の[!DNL eVars]または[!DNL props]を指定します。
 

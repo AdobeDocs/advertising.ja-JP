@@ -42,7 +42,7 @@ Customer Journey Analyticsでは、Adobe Experience Platformから[!DNL Workspac
 
 Adobe Advertisingでは、Customer Journey Analyticsにデータを自動的に送信するソリューションを構築しています。 ソリューションがリリースされると、Adobe AdvertisingはCustomer Journey Analyticsで使用するためにAMO IDとEF IDのデータの送信を開始しますが、リリース日以前の履歴データは存在しません。
 
-ただし、AMO IDとEF IDのデータの収集を開始するには、簡単な[[!DNL Analytics] 処理ルール &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)を作成してAMO IDとEF IDを[!DNL eVars]にコピーします。 処理ルールを作成すると、AMO IDとEF IDが新しいイベントを追跡するとすぐに、それらのIDのデータの取得が開始されます。 過去のデータは、ソリューションが利用可能になるとCustomer Journey Analytics内で利用できるようになります。
+ただし、AMO IDとEF IDのデータの収集を開始するには、簡単な[[!DNL Analytics] 処理ルール &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)を作成してAMO IDとEF IDを[!DNL eVars]にコピーします。 処理ルールを作成すると、AMO IDとEF IDが新しいイベントを追跡するとすぐに、それらのIDのデータの取得が開始されます。 過去のデータは、ソリューションが利用可能になるとCustomer Journey Analytics内で利用できるようになります。
 
 >[!NOTE]
 >
