@@ -16,7 +16,7 @@ ht-degree: 0%
 
 キャンペーンごとに複数のキャンペーンレベルのルールを作成できます。 ただし、[!DNL Google Ads]では、アカウントレベルのルールが既に存在する場合、[!DNL Google Ads] エディター以外で新しいアカウントレベルのルールを作成する機能はまだ提供されていません。 追加のアカウントレベルのルールを作成するには、[!DNL Google Ads]に直接ログインし、[!DNL Google Ads] エディターを使用します。
 
-**注：** キャンペーンレベルのコンバージョン値ルールは、アカウントレベルのルールを上書きし、コンバージョンに適用できるルールは1つのみです。 詳細については、[how [!DNL Google Ads]  コンバージョンが複数のルール ](https://support.google.com/google-ads/answer/10520348)の条件を満たしているときに、コンバージョンに適用されるルールを決定するを参照してください。
+**注：** キャンペーンレベルのコンバージョン値ルールは、アカウントレベルのルールを上書きし、コンバージョンに適用できるルールは1つのみです。 詳細については、[how [!DNL Google Ads]  コンバージョンが複数のルール &#x200B;](https://support.google.com/google-ads/answer/10520348)の条件を満たしているときに、コンバージョンに適用されるルールを決定するを参照してください。
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversion Value Rules]**&#x200B;をクリックします。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 広告ネットワークとアカウントを選択します。 キャンペーンレベルのルールの場合は、キャンペーンも選択します。 次に、**[!UICONTROL Next]**&#x200B;をクリックします。
 
-1. [ コンバージョンルール設定](google-conversion-value-rule-settings.md)を構成します。
+1. [&#x200B; コンバージョンルール設定](google-conversion-value-rule-settings.md)を構成します。
 
    プライマリ条件と値の調整を設定する必要があります。 オプションでセカンダリ条件を設定できます。
 
@@ -42,8 +42,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [概要 [!DNL Google Ads]  コンバージョン値ルール ](about-google-conversion-value-rules.md)
->* [ コンバージョン値ルールの編集 [!DNL Google Ads] ](edit-google-conversion-value-rule.md)
->* [ コンバージョン値ルール  [!DNL Google Ads] のステータスを変更](change-the-status-of-google-conversion-value-rule.md)
+>* [概要 [!DNL Google Ads]  コンバージョン値ルール &#x200B;](about-google-conversion-value-rules.md)
+>* [&#x200B; コンバージョン値ルールの編集 [!DNL Google Ads] &#x200B;](edit-google-conversion-value-rule.md)
+>* [&#x200B; コンバージョン値ルール  [!DNL Google Ads] のステータスを変更](change-the-status-of-google-conversion-value-rule.md)
 >* [[!DNL Google Ads]  コンバージョン値ルール設定](google-conversion-value-rule-settings.md)
 

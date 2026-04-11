@@ -24,7 +24,7 @@ ht-degree: 0%
 
    * 一時停止したルールをアクティブ化（有効）するには、 （/help/search-social-commerce/assets/edit-new.png &quot;編集）をクリックします。
 
-1. [ コンバージョンルール設定](google-conversion-value-rule-settings.md)を編集します。
+1. [&#x200B; コンバージョンルール設定](google-conversion-value-rule-settings.md)を編集します。
 
    既存のルールの条件タイプを編集することはできませんが、条件と値の調整を編集することはできます。
 
@@ -38,8 +38,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [概要 [!DNL Google Ads]  コンバージョン値ルール ](about-google-conversion-value-rules.md)
->* [ コンバージョン値ルールを作成 [!DNL Google Ads] します](create-google-conversion-value-rule.md)
->* [ コンバージョン値ルール  [!DNL Google Ads] のステータスを変更](change-the-status-of-google-conversion-value-rule.md)
+>* [概要 [!DNL Google Ads]  コンバージョン値ルール &#x200B;](about-google-conversion-value-rules.md)
+>* [&#x200B; コンバージョン値ルールを作成 [!DNL Google Ads] します](create-google-conversion-value-rule.md)
+>* [&#x200B; コンバージョン値ルール  [!DNL Google Ads] のステータスを変更](change-the-status-of-google-conversion-value-rule.md)
 >* [[!DNL Google Ads]  コンバージョン値ルール設定](google-conversion-value-rule-settings.md)
 
