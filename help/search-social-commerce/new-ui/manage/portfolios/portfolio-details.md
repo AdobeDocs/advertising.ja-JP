@@ -2,17 +2,13 @@
 title: （新しいUI） ポートフォリオパフォーマンスの詳細の表示
 description: ポートフォリオレベルおよび割り当てられた各キャンペーンの実際の指標と予測指標を含む、ポートフォリオパフォーマンスの詳細を表示する方法について説明します。
 feature: Search Portfolios, Search Optimization
-hide: yes
+hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
 TQID: https://experienceleague.adobe.com/5hNxKu6YjJTWI4KGEc6aaYnpgXK6k3OsN0-YfetzENw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: 735
 ht-degree: 0%
@@ -63,13 +59,13 @@ ht-degree: 0%
 
       * **[!UICONTROL Display predictions]**&#x200B;の横にあるスイッチを移動して、予測指標の値を表示または非表示にします。
 
-      * グラフ ビュー（![&#x200B; グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
+      * グラフ ビュー（![ グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
 
       * （グラフ表示）グラフ上の任意のポイントのデータを表示するには、そのポイントにカーソルを合わせます。
 
 * （オプション） [!UICONTROL Model accuracy]傾向グラフをカスタマイズするには、次のいずれかの操作を行います。
 
-   * グラフ ビュー（![&#x200B; グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
+   * グラフ ビュー（![ グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
 
    * *[!UICONTROL Click Date]*&#x200B;と&#x200B;*[!UICONTROL Transaction Date]*&#x200B;によるデータの表示を切り替えます。
 
@@ -111,7 +107,7 @@ ht-degree: 0%
 
 * ポートフォリオ設定を表示または非表示にするには、**[!UICONTROL Portfolio Settings]**&#x200B;をクリックします。
 
-   * 表示されているポートフォリオ設定を編集するには、設定セクションの横にある![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックし、[&#x200B; ポートフォリオ設定を編集](portfolio-edit.md)します。
+   * 表示されているポートフォリオ設定を編集するには、設定セクションの横にある![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックし、[ ポートフォリオ設定を編集](portfolio-edit.md)します。
 
 ポートフォリオ設定について詳しくは、Search, Social, &amp; Commerce内から入手できる最適化ガイドを参照してください。
 
@@ -137,6 +133,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI） ポートフォリオについて](portfolio-about.md)
->* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [&#x200B; （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード &#x200B;](portfolio-view-report.md)
+>* [ （新しいUI） ポートフォリオについて](portfolio-about.md)
+>* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [ （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード ](portfolio-view-report.md)

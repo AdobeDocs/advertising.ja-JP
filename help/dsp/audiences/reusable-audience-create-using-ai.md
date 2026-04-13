@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: d450159cfcc0298a0bb9bb0984cd49ac75836519
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -46,9 +46,9 @@ AIを活用したオーディエンスエージェントを使用して、記載
 
    ベータ版の権限を持つユーザーの場合、AI オプションがデフォルトになります。 [自分でオーディエンスを組み立てる](/help/dsp/audiences/reusable-audience-create.md)には、下部にある「手動モードに切り替える」ボタンをクリックします。
 
-   1. 含めたり除外したりするオーディエンス特性を説明する1つ以上のプロンプトを入力します。 各プロンプトを送信するには、![&#x200B; プロンプトを送信](/help/dsp/assets/submit-prompt.png " プロンプトを送信")をクリックします。
+   1. 含めたり除外したりするオーディエンス特性を説明する1つ以上のプロンプトを入力します。 各プロンプトを送信するには、![ プロンプトを送信](/help/dsp/assets/submit-prompt.png " プロンプトを送信")をクリックします。
 
-      詳しくは、「[&#x200B; プロンプトの作成](#writing-prompts)」および「[&#x200B; オーディエンス概要の作成に関するベストプラクティス &#x200B;](#audience-brief-best-practices)」を参照してください。
+      詳しくは、「[ プロンプトの作成](#writing-prompts)」および「[ オーディエンス概要の作成に関するベストプラクティス ](#audience-brief-best-practices)」を参照してください。
 
       オーディエンスエージェントが関連セグメントを見つけると、条件に基づいてブール値のオーディエンス式が作成されます。 また、オーディエンスを作成するための一致するセグメントを探す前に、承認を求めることもできます。
 
@@ -66,7 +66,7 @@ AIを活用したオーディエンスエージェントを使用して、記載
 
    >[!NOTE]
    >
-   >Audience Agentを使用して後でオーディエンスを編集することはできません。 代わりに、[&#x200B; オーディエンス式を手動で編集します](/help/dsp/audiences/reusable-audience-edit.md)。
+   >Audience Agentを使用して後でオーディエンスを編集することはできません。 代わりに、[ オーディエンス式を手動で編集します](/help/dsp/audiences/reusable-audience-edit.md)。
 
 ## プロンプトの作成の基本 {#writing-prompts}
 
@@ -92,7 +92,7 @@ AIを活用したオーディエンスエージェントを使用して、記載
 
   オーディエンスエージェントは、生成されたオーディエンス式をオーディエンスとして自動的に保存しません。 オーディエンスを保存するには、プロンプトエリアの外にある[!UICONTROL Create] ボタンをクリックする必要があるので、保存しない変更を取り消すことができます。
 
-オーディエンスのプロンプトを最適化する方法について詳しくは、「[&#x200B; オーディエンス概要の作成に関するベストプラクティス &#x200B;](#audience-brief-best-practices)」を参照してください。
+オーディエンスのプロンプトを最適化する方法について詳しくは、「[ オーディエンス概要の作成に関するベストプラクティス ](#audience-brief-best-practices)」を参照してください。
 
 <!--
  I think these are happening later:
