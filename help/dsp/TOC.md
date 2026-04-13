@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: b3eb6f69a643637635ac60e6751d091c5380a397
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 4%
@@ -27,7 +27,7 @@ ht-degree: 4%
    + [消費者プライバシーのサポート &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
    + [&#x200B; ポリシーとガイドライン &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
    + [高度な測定ソリューション](/help/dsp/introduction/advanced-measurement-services.md)
-+ {hide-from-toc}[AI支援チャットを使用して製品ドキュメントを検索](/help/dsp/agent-chat.md)
++ [AIを活用したチャットで、製品ドキュメントを検索できます](/help/dsp/agent-chat.md)
 + キャンペーン管理 {#campaign-management}
    + [Adobe Advertising DSPのキャンペーン管理の概要](/help/dsp/campaign-management/campaign-management-overview.md)
    + キャンペーン {#campaigns}
