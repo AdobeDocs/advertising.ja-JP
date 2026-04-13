@@ -27,4 +27,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>* [&#x200B; キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)

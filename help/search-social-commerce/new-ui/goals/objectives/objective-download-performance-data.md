@@ -29,7 +29,7 @@ ht-degree: 0%
 
    * すべての目的のデータをダウンロードするには、チェックボックスをオンにする必要はありません。 すべての目標はデフォルトで含まれています。
 
-1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")をクリックします。
+1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")をクリックします。
 
 1. [!UICONTROL Grid Reports]設定で、一意のレポート名を入力し、**[!UICONTROL Generate]**&#x200B;をクリックします。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    ファイルが[!UICONTROL Recently Generated] リストに追加されます。
 
-1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;をクリックします。
 
-1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")をクリックします。
+1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")をクリックします。
 
-1. [!UICONTROL Recently Generated] ダイアログの[!UICONTROL Grid Reports] リストで、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. [!UICONTROL Recently Generated] ダイアログの[!UICONTROL Grid Reports] リストで、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;をクリックします。
 
-1. データテーブルの上にあるツールバーで、![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")**[!UICONTROL Report]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")**[!UICONTROL Report]**&#x200B;をクリックします。
 
 1. [!UICONTROL Recently Generated] ダイアログの[!UICONTROL Grid Reports] リストで、ファイル名の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
 
