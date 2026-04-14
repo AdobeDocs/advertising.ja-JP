@@ -5,10 +5,15 @@ feature: Search Objectives, Search Optimization
 hide: 'yes'
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
 TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: '2026-04-14T00:06:19.870Z'
 source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
 workflow-type: tm+mt
@@ -40,8 +45,8 @@ ht-degree: 0%
 * 指標に重み付けの推奨事項を適用します。
 
 >[!NOTE]
->* （検索、ソーシャル、およびCommerce）ポートフォリオを[作成](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)するか、後で[ ポートフォリオ設定を変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)することで、目標をポートフォリオに関連付けることができます。
->* （Search、Social、およびCommerce アカウントにリンクされたDSP アカウントを持つ広告主） Advertising DSPでは、目的をパッケージレベルのペーシングを持つパッケージの[ カスタム最適化目標](/help/dsp/campaign-management/packages/package-settings.md)として選択できます。
+>* （検索、ソーシャル、およびCommerce）ポートフォリオを[作成](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)するか、後で[&#x200B; ポートフォリオ設定を変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)することで、目標をポートフォリオに関連付けることができます。
+>* （Search、Social、およびCommerce アカウントにリンクされたDSP アカウントを持つ広告主） Advertising DSPでは、目的をパッケージレベルのペーシングを持つパッケージの[&#x200B; カスタム最適化目標](/help/dsp/campaign-management/packages/package-settings.md)として選択できます。
 >* 複数のSearch、Social、およびCommerce ポートフォリオや複数のDSP パッケージに同じ目的を使用できます。
 >* [!UICONTROL Objectives] ビューの各目的の指標には、DSPのデータは含まれていません。
 
@@ -49,13 +54,13 @@ ht-degree: 0%
 
 目標には、次のいずれかを含めることができます。
 
-* [Adobe Advertising コンバージョントラッキングピクセル ](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)を使用してAdobe Advertisingが追跡する指標。
+* [Adobe Advertising コンバージョントラッキングピクセル &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)を使用してAdobe Advertisingが追跡する指標。
 
-* [ コンバージョンフィード ファイルから広告主が追跡した指標](/help/search-social-commerce/tracking/conversion-tracking-about.md).<!-- Search only, or might DSP-only clients also have these? -->
+* [&#x200B; コンバージョンフィード ファイルから広告主が追跡した指標](/help/search-social-commerce/tracking/conversion-tracking-about.md).<!-- Search only, or might DSP-only clients also have these? -->
 
-* （広告主と[!DNL Adobe Analytics for Advertising]） [ コンバージョンとサイトエンゲージメントの指標がAdobe Analytics](/help/integrations/analytics/overview.md)から同期されました。
+* （広告主と[!DNL Adobe Analytics for Advertising]） [&#x200B; コンバージョンとサイトエンゲージメントの指標がAdobe Analytics](/help/integrations/analytics/overview.md)から同期されました。
 
-  Search, Social, &amp; Commerceでは、次の[ サイトエンゲージメント指標](/help/integrations/analytics/analytics-data-in-advertising.md)がポートフォリオ入札アルゴリズムに自動的に組み込まれます：`timespent_secs_1stvisit`、`timespent_secs_total`、`pageviews_1stvisit`、`pageviews_total`、および`bounces`。
+  Search, Social, &amp; Commerceでは、次の[&#x200B; サイトエンゲージメント指標](/help/integrations/analytics/analytics-data-in-advertising.md)がポートフォリオ入札アルゴリズムに自動的に組み込まれます：`timespent_secs_1stvisit`、`timespent_secs_total`、`pageviews_1stvisit`、`pageviews_total`、および`bounces`。
 
 * [!DNL Google]指標：<!-- Search only, or might DSP-only clients also have these? -->
 
@@ -67,7 +72,7 @@ ht-degree: 0%
 
 ## 広告ネットワークに目的をアップロードするオプション
 
-オプションで[ アカウントのポートフォリオの目標を [!DNL Google Ads] および/または [!DNL Microsoft Advertising]  コンバージョン ](/help/search-social-commerce/tools/objective-upload-to-networks.md)として アップロードして、キャンペーンレベルまたは広告グループレベルの最適化に使用できます。 このオプションを有効にすると、Search, Social, &amp; Commerceは、EF ID （クリック ID）レベルの重み付けされた収益データを毎日アドネットワークに渡します。 ネットワークで追跡される広告の指標が省略されます。
+オプションで[&#x200B; アカウントのポートフォリオの目標を [!DNL Google Ads] および/または [!DNL Microsoft Advertising]  コンバージョン &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md)として アップロードして、キャンペーンレベルまたは広告グループレベルの最適化に使用できます。 このオプションを有効にすると、Search, Social, &amp; Commerceは、EF ID （クリック ID）レベルの重み付けされた収益データを毎日アドネットワークに渡します。 ネットワークで追跡される広告の指標が省略されます。
 
 >[!MORELIKETHIS]
 >
@@ -76,4 +81,4 @@ ht-degree: 0%
 >* [目標を削除](objective-delete.md)
 >* [目標に重み付けの推奨事項を適用](objective-apply-weight-recommendations.md)
 >* [目標の設定](objective-settings.md)
->* [目的のパフォーマンスデータをダウンロード ](objective-download-performance-data.md)
+>* [目的のパフォーマンスデータをダウンロード &#x200B;](objective-download-performance-data.md)
