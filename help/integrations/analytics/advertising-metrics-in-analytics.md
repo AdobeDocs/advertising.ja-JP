@@ -37,7 +37,7 @@ ht-degree: 0%
 
 [!DNL Analytics]のAdobe Advertising トラフィック指標は、通常、「[!UICONTROL AMO ID Instances]」以外は「Adobe Advertising」で始まります。 ただし、当初クリック数、コスト、インプレッション数の指標を作成するために（予約イベントではなく）カスタムイベントを使用した長期的な顧客の場合、これらの指標はまだ「AMO」で始まります。
 
-一覧については、「[Adobe Advertising指標](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/amo-metrics)」を参照してください。
+一覧については、「[Adobe Advertising指標](https://experienceleague.adobe.com/ja/docs/analytics/components/metrics/amo-metrics)」を参照してください。
 
 <!--
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## Adobe Advertising分類
 
-「[&#128279;](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#classifications)」を参照してください。
+「[&#128279;](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#classifications)」を参照してください。
 <!--
 
 >[!NOTE]
