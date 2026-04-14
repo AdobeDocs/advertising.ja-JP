@@ -5,20 +5,14 @@ feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
 TQID: https://experienceleague.adobe.com/CLPeE8g0Mix4Scq90qCd-s-tCUuBmkTBrkBWT1aPEhw
 autotag-review: '2026-04-13T23:29:38.865Z'
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: f2860a4b-f905-4545-bead-1bbc92564592
-subfeature_v2:
-  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2: id: cfd751d4-ee56-4323-8fd1-dc174b031709
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 6e85310e94f642ccf3ccb0d67f43d5ebbf03fa24
 workflow-type: tm+mt
-source-wordcount: 183
+source-wordcount: 190
 ht-degree: 0%
 
 ---
@@ -31,13 +25,13 @@ ht-degree: 0%
 >
 >* Adobe Advertisingは、毎日[!DNL Analytics]にトラフィック指標と分類を渡します。
 >* [!DNL Analytics]は、Adobe Advertisingのクリックスルーとビュースルーをリアルタイムでキャプチャします。
->* [!DNL Search, Social, & Commerce]の場合、この機能はほとんどの広告ネットワークとキャンペーンの種類でサポートされています。 詳しくは、[&#x200B; ガイドの「](/help/search-social-commerce/introduction/supported-inventory.md) サポートされているインベントリ [!DNL Search, Social, & Commerce]」を参照してください。
+>* [!DNL Search, Social, & Commerce]の場合、この機能はほとんどの広告ネットワークとキャンペーンの種類でサポートされています。 詳しくは、[ ガイドの「](/help/search-social-commerce/introduction/supported-inventory.md) サポートされているインベントリ [!DNL Search, Social, & Commerce]」を参照してください。
 
 ## Adobe Advertisingのトラフィック指標
 
 [!DNL Analytics]のAdobe Advertising トラフィック指標は、通常、「[!UICONTROL AMO ID Instances]」以外は「Adobe Advertising」で始まります。 ただし、当初クリック数、コスト、インプレッション数の指標を作成するために（予約イベントではなく）カスタムイベントを使用した長期的な顧客の場合、これらの指標はまだ「AMO」で始まります。
 
-一覧については、「[Adobe Advertising指標](https://experienceleague.adobe.com/ja/docs/analytics/components/metrics/amo-metrics)」を参照してください。
+一覧については、「[Adobe Advertising指標](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/amo-metrics)」を参照してください。
 
 <!--
 
@@ -61,7 +55,7 @@ ht-degree: 0%
 
 ## Adobe Advertising分類
 
-「[&#128279;](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#classifications)」を参照してください。
+AMO ID ディメンションの「[分類](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#classifications)」を参照してください。
 <!--
 
 >[!NOTE]
@@ -103,4 +97,4 @@ Adobe Advertisingデータについて、次の指標の作成を検討してく
 >[!MORELIKETHIS]
 >
 >* [概要： [!DNL Analytics for Advertising]](overview.md)
->* [[!DNL Analytics] Adobe Advertisingのデータ &#x200B;](/help/integrations/analytics/analytics-data-in-advertising.md)
+>* [[!DNL Analytics] Adobe Advertisingのデータ ](/help/integrations/analytics/analytics-data-in-advertising.md)
