@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
+source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
 workflow-type: tm+mt
-source-wordcount: 6986
+source-wordcount: 7001
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年4月8日（PT） | [!UICONTROL Insights] | [!UICONTROL Audience Funnel Analysis] タブの[!UICONTROL Audience Analysis] insightの指標の名前が変更されました。 | 「[&#x200B; インサイトについて](/help/dsp/campaign-management/insights/insights-about.md)」を参照してください。 |
 | 2026年4月7日（PT） | AIを利用したドキュメント検索 | 新しいAI チャットインターフェイスを使用して、[Advertising DSP ガイド &#x200B;](/help/dsp/home.md)および[Advertising Creative ガイド &#x200B;](/help/creative/home.md)の概念的なコンテンツとハウツーコンテンツを検索します（Advertising Creativeを使用する広告主）。 回答には、引用だけでなく、追加のプロンプトやフォローアップの質問も含まれており、クエリを絞り込んで詳細を確認するのに役立ちます。 | 「[AI支援チャットを使用した製品ドキュメントの検索](/help/dsp/agent-chat.md)」を参照してください。 |
 | 2026年3月25日（PT） | [!UICONTROL Insights] | 新しい[!UICONTROL Audience Analysis]のインサイトにより、プレースメントレベルでのオーディエンスセグメントターゲティングの効果が示されました。セグメントサイズの経時的なトレンドと、funnelの日次の内訳が表示されます。 | 「[&#x200B; インサイトについて](/help/dsp/campaign-management/insights/insights-about.md)」を参照してください。 |
 | 2026年3月16日（PT） | ファーストパーティオーディエンスソース、ユニバーサル ID | Adobe Experience Platformの一部である[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja)とのDSP統合を使用して、Cookieとモバイル広告ID （ハッシュ化されたメールアドレスに加えて）をターゲット広告のユニバーサル IDに変換できるようになりました。 以前は、ハッシュ化されたメールアドレスだけを変換できました。<br><br>この新しい機能を使用するには、Experience Platformの新しい「[Adobe Advertising DSP connection] （https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection）」を使用します。 ハッシュ化された電子メールアドレスのみをサポートする従来の接続は、「[Legacy Adobe Advertising Cloud DSP connection] （https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy）」に名前が変更されました。<br><br>現在レガシー接続を使用している場合、すぐに変更を加える必要はありません。 ただし、従来の接続は最終的に削除されます。 | 「[&#x200B; ユーザーIDを [!DNL Adobe Real-Time CDP] からユニバーサル ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)に変換」、「[&#x200B; ファーストパーティオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)」、「[&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](/help/dsp/audiences/sources/source-manage.md)」を参照してください。 |

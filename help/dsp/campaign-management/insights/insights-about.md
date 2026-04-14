@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 1e4a456c3add52553936db29a72f42e7d45506c3
+source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
 workflow-type: tm+mt
 source-wordcount: 1371
 ht-degree: 0%
@@ -111,13 +111,13 @@ Microsoft Excel スプレッドシート（XLSX）形式でビジュアライゼ
 
 * **[!UICONTROL Audience Funnel Analysis]:**&#x200B;すべてのターゲティングおよび適格性フィルターが適用された後、ターゲットオーディエンスが利用可能なプールの合計から実際のインプレッションの獲得までにどのように絞り込まれるかを示す日次の時系列テーブル。 データは前日に表示されます。 Funnelには、最も広い指標から最も狭い指標まで、次の指標が含まれています。
 
-   * **[!UICONTROL Audience Segment Size]:**&#x200B;集計されたオーディエンス内の一意のユーザーの合計数。
+   * **[!UICONTROL Total Target Audience]:**&#x200B;集計されたオーディエンス内の一意のユーザーの合計数。
 
-   * **[!UICONTROL Cookies in Bid Stream]:**&#x200B;過去24時間に入札ストリームでアクティブだったターゲットオーディエンスのユーザー数。 このカウントには、プレースメント入札かどうかに関係なく、スコープ内のすべてのユーザーが含まれます。 [!UICONTROL Total Target Audience]から[!UICONTROL Reachable Audience]への減少は、レポート期間中に入札ストリームでアクティブではなかったオーディエンスの部分を反映していますが、これは入札パフォーマンスの反映ではありません。
+   * **[!UICONTROL Reachable Audience (Last 24 Hours)]:**&#x200B;過去24時間に入札ストリームでアクティブだったターゲットオーディエンスのユーザー数。 このカウントには、プレースメント入札かどうかに関係なく、スコープ内のすべてのユーザーが含まれます。 [!UICONTROL Total Target Audience]から[!UICONTROL Reachable Audience]への減少は、レポート期間中に入札ストリームでアクティブではなかったオーディエンスの部分を反映していますが、これは入札パフォーマンスの反映ではありません。
 
-   * **[!UICONTROL Eligible cookies]:**&#x200B;地域、デバイスの種類、オペレーティングシステム、ブラウザーのフィルターが適用された後に残る、到達可能なユーザーのサブセット。 この数値が[!UICONTROL Reachable Audience]よりも大幅に低い場合は、地域またはデバイス タイプのターゲティングが制限されすぎているかどうかを確認することを検討してください。
+   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:**&#x200B;地域、デバイスの種類、オペレーティングシステム、ブラウザーのフィルターが適用された後に残る、到達可能なユーザーのサブセット。 この数値が[!UICONTROL Reachable Audience]よりも大幅に低い場合は、地域またはデバイス タイプのターゲティングが制限されすぎているかどうかを確認することを検討してください。
 
-  **[!UICONTROL Cookies Bid On]:** プレースメントが入札を送信した対象となる商談件数。 この段階で急激に落ち込むと、入札量に制限がある予算やペースの制約が示されている場合があります。
+  **[!UICONTROL Devices/Ad Opportunities Bid On]:** プレースメントが入札を送信した対象となる商談件数。 この段階で急激に落ち込むと、入札量に制限がある予算やペースの制約が示されている場合があります。
 
    * **[!UICONTROL Impression Wins]:** プレースメントがインプレッションを獲得した商談件数。 成約率が入札額よりもはるかに低い場合、入札価格がターゲット在庫の一般的な市場金利を下回っている可能性があります。
 
