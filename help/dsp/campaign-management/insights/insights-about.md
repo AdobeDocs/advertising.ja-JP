@@ -16,16 +16,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
+source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
 workflow-type: tm+mt
-source-wordcount: 1371
+source-wordcount: 1369
 ht-degree: 0%
 
 ---
 
 # インサイトについて
-
-*Beta機能*
 
 高度なパフォーマンスインサイトとビジュアライゼーションにより、施策を効率的に最適化し、パフォーマンスを拡張するための新たな機会を発見するために必要な情報を得ることができます。 指定した広告主のキャンペーン全体のデータを表示したり、より低いレベルにドリルダウンしたりできます。
 
@@ -125,7 +123,7 @@ Microsoft Excel スプレッドシート（XLSX）形式でビジュアライゼ
 
 1. 一連のインサイトを開きます。
 
-   * （すべてのキャンペーンのインサイトを開くには） メインメニューで、**[!UICONTROL Insights BETA]**&#x200B;をクリックします。
+   * （すべてのキャンペーンのインサイトを開くには） メインメニューで、**[!UICONTROL Insights]**&#x200B;をクリックします。
 
    * （特定のキャンペーン、パッケージ、またはプレースメントのインサイトを開くには） [!UICONTROL Campaigns]、[!UICONTROL Packages]、または[!UICONTROL Placements] ビューのエンティティ名の横にある、**[!UICONTROL ...]** > **[!UICONTROL Insights]**&#x200B;をクリックします。
 
