@@ -1,56 +1,56 @@
 ---
-user-guide-title: Adobe Experience Cloud との統合
-user-guide-description: Advertising DSP および Advertising Search と他の Adobe Experience Cloud 製品およびサービスとの統合について学習します。
-breadcrumb-title: Experience Cloud との統合
+user-guide-title: Adobe CX Enterpriseとの連携
+user-guide-description: Advertising DSPおよびAdvertisingの他のAdobe CX Enterprise（旧Adobe Experience Cloud）製品およびサービスとの検索統合について説明します。
+breadcrumb-title: CX Enterpriseとの連携
 role: User, Developer
 index: true
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 11%
+source-wordcount: '266'
+ht-degree: 1%
 
 ---
 
 
-# Adobe AdvertisingとAdobe Experience Cloudの統合 {#integrations}
+# Adobe AdvertisingとAdobe CX Enterpriseの統合 {#integrations}
 
-+ [最新情報](/help/integrations/home.md)
++ [新機能](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
-   + [概要  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
-   + [&#x200B; [!DNL Analytics] のユーザーが使用するAdobe Advertising ID](/help/integrations/analytics/ids.md)
-   + 実装の計画 {#planning}
-      + [実装の前提条件と主な情報  [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)
-      + [（DSP）  [!DNL Analytics for Advertising] のJavaScript コード](/help/integrations/analytics/javascript.md)
-      + [Adobe Experience Platformでの  [!DNL Last Event Service] JavaScript ライブラリの使用  [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
-      + [Adobe Customer Journey Analyticsで使用する AMO ID および EF ID の履歴データを収集します](/help/integrations/analytics/rvars-to-evars.md)
-      + （DSP）広告タグ用マクロ {#macros}
-         + [タグに  [!DNL Analytics for Advertising]  マクロを追加  [!DNL Flashtalking]  追加](/help/integrations/analytics/macros-flashtalking.md)
-         + [タグに  [!DNL Analytics for Advertising]  マクロを追加  [!DNL Google Campaign Manager 360]  追加](/help/integrations/analytics/macros-google-campaign-manager.md)
+   + [ [!DNL Analytics for Advertising]の概要](/help/integrations/analytics/overview.md)
+   + [ [!DNL Analytics]様が使用しているAdobe Advertising ID](/help/integrations/analytics/ids.md)
+   + Adobe Experience Manager Sites導入の成功に向けて {#planning}
+      + [ [!DNL Analytics for Advertising]を実装するための前提条件と主要情報](/help/integrations/analytics/prerequisites.md)
+      + [（DSP）  [!DNL Analytics for Advertising]のJavaScript コード](/help/integrations/analytics/javascript.md)
+      + [Adobe Experience Platform [!DNL Web SDK]での [!DNL Last Event Service] JavaScript ライブラリの使用](/help/integrations/analytics/web-sdk.md)
+      + [Adobe Customer Journey Analyticsで使用するAMO IDとEF IDの履歴データを収集する](/help/integrations/analytics/rvars-to-evars.md)
+      + （DSP）広告タグのマクロ {#macros}
+         + [ [!DNL Analytics for Advertising]  マクロを [!DNL Flashtalking] 広告タグに追加](/help/integrations/analytics/macros-flashtalking.md)
+         + [ [!DNL Analytics for Advertising]  マクロを [!DNL Google Campaign Manager 360] 広告タグに追加](/help/integrations/analytics/macros-google-campaign-manager.md)
    + データ交換 {#data}
       + [Analysis WorkspaceのAdobe Advertising指標](/help/integrations/analytics/advertising-metrics-in-analytics.md)
-      + [Adobe Advertisingでの [!DNL Analytics] データ](/help/integrations/analytics/analytics-data-in-advertising.md)
-      + [とAdobe Advertisingの間で予期されるデ  [!DNL Analytics]  タの相違](/help/integrations/analytics/data-variances.md)
-   + [!DNL Analytics Marketing Channels] での作業 {#mc}
-      + [の基本  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)
-      + [Adobe Advertising ID を使用した処理ルール  [!DNL Marketing Channels]  作成](/help/integrations/analytics/marketing-channels/mc-ids.md)
-      + [Adobe Advertising データ  [!DNL Marketing Channels]  使用](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
-      + [チャネルデータがAdobe Advertisingとで異なる可能性がある理由  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
-   + [Adobe Analyticsからのコンバージョン指標  [!DNL eVars]  作成  [!DNL props]](/help/integrations/analytics/conversion-metrics-from-evars.md)
-+ Adobe Audience Managerとの統合 {#audience-manager}
+      + [Adobe Advertisingの[!DNL Analytics] データ](/help/integrations/analytics/analytics-data-in-advertising.md)
+      + [ [!DNL Analytics] とAdobe Advertisingの間の予想されるデータの差異](/help/integrations/analytics/data-variances.md)
+   + [!DNL Analytics Marketing Channels]で作業中 {#mc}
+      + [ [!DNL Marketing Channels]の基本](/help/integrations/analytics/marketing-channels/mc-overview.md)
+      + [Adobe Advertising IDを使用して [!DNL Marketing Channels] 処理ルールを作成する](/help/integrations/analytics/marketing-channels/mc-ids.md)
+      + [Adobe Advertising データで [!DNL Marketing Channels] を使用する](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
+      + [Adobe Advertisingと [!DNL Marketing Channels]でチャネルデータが異なる理由](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
+   + [Adobe Analytics [!DNL eVars] および [!DNL props]からコンバージョン指標を作成](/help/integrations/analytics/conversion-metrics-from-evars.md)
++ Adobe Audience Managerとの連携 {#audience-manager}
    + [Adobe AdvertisingとAdobe Audience Managerの統合](/help/integrations/audience-manager/overview.md)
-   + [Audience Manager セグメントのAdobe Advertisingへの読み込み](/help/integrations/audience-manager/import-audiences.md)
-   + DSPとAdobe Audience Managerのメディアデータ統合 {#media-data-ingestion}
-      + [DSP Media のAdobe Audience Managerへの公開データ送信の概要](/help/integrations/audience-manager/media-data-integration/overview.md)
-      + [DSP キャンペーンからインプレッションとクリックデータを収集](/help/integrations/audience-manager/media-data-integration/collect.md)
+   + [Adobe AdvertisingへのAudience Manager セグメントの読み込み](/help/integrations/audience-manager/import-audiences.md)
+   + DSP media data integration with Adobe Audience Manager {#media-data-ingestion}
+      + [Adobe Audience ManagerへのDSP メディア露出データの送信の概要](/help/integrations/audience-manager/media-data-integration/overview.md)
+      + [DSPの各施策からインプレッション数やクリック数を収集できます](/help/integrations/audience-manager/media-data-integration/collect.md)
       + [ユースケース](/help/integrations/audience-manager/media-data-integration/use-cases.md)
-   + [Advertisingのお客様向けのAdobe Audience Analytics](/help/integrations/audience-manager/audience-analytics.md)
-+ Adobe Targetとの統合 {#target}
-   + [DSP広告用のAdobe Targetでの A/B テストの設定](/help/integrations/target/ab-tests-dsp.md)
-   + [Adobe Targetでの検索、ソーシャル、Commerce広告用の A/B テストの設定](/help/integrations/target/ab-tests-search.md)
-+ Adobe Customer Journey Analyticsとの統合 {#customer-journey-analytics}
+   + [Adobe Audience Analytics Advertising版のお客様](/help/integrations/audience-manager/audience-analytics.md)
++ Adobe Targetとの連携 {#target}
+   + [DSP広告用Adobe TargetでのA/B テストの設定](/help/integrations/target/ab-tests-dsp.md)
+   + [Search, Social, &amp; Commerce広告用にAdobe TargetでA/B テストを設定する](/help/integrations/target/ab-tests-search.md)
++ Adobe Customer Journey Analyticsとの連携 {#customer-journey-analytics}
    + [概要](/help/integrations/customer-journey-analytics/overview.md)
    + [前提条件](/help/integrations/customer-journey-analytics/prerequisites.md)
-   + [Customer Journey Analyticsが使用するAdobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
-   + [データ収集、データ転送およびレポートの設定](/help/integrations/customer-journey-analytics/set-up.md)
-   + [Customer Journey AnalyticsのAdobe Advertising指標およびディメンション](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Adobe Advertising統合に関するビデオチュートリアル &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ja)
+   + [Customer Journey Analyticsで使用されるAdobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
+   + [データ収集、データ転送、レポートの設定](/help/integrations/customer-journey-analytics/set-up.md)
+   + [Customer Journey AnalyticsのAdobe Advertising指標とディメンション](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
++ [Adobe Advertising統合に関するビデオチュートリアル](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)

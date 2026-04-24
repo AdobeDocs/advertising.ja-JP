@@ -1,59 +1,56 @@
 ---
-title: オーディエンスについて
-description: ' [!DNL Google Ads] および [!DNL Microsoft Advertising] 個のオーディエンスを追跡、作成、管理するオプションについて説明します。'
+title: About audiences
+description: Learn about options to track, create, and manage [!DNL Google Ads] and [!DNL Microsoft Advertising] audiences.
 exl-id: f85cbc82-ddbc-4ecd-a17b-b4cb4808cfbc
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/B77S28vEpSkrgNmhc-Ekn7PXh3W-y2g9et2y3gCQPK8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 528
+source-wordcount: 545
 ht-degree: 0%
 
 ---
 
-# Search, Social, &amp; Commerceでの[!DNL Google Ads]および[!DNL Microsoft Advertising] オーディエンスの管理について
+# About managing [!DNL Google Ads] and [!DNL Microsoft Advertising] audiences in Search, Social, &amp; Commerce
 
-*[!DNL Google Ads]と[!DNL Microsoft Advertising]のみ*
+*[!DNL Google Ads]and [!DNL Microsoft Advertising] only*
 
-オーディエンスライブラリには、[!DNL Google Ads]の顧客データベース、市場内、類似オーディエンスおよび[!DNL Microsoft Advertising]のリマーケティングと動的リマーケティング、カスタム、顧客照合、市場内、類似オーディエンスがすべて一覧表示されます。 [!DNL Google Ads]個のオーディエンスのいずれかを[!DNL Google Ads]個のキャンペーンレベルおよび広告グループレベルのターゲットおよび除外として使用できます。また、[!DNL Microsoft Advertising]個のオーディエンスのいずれかを[!DNL Microsoft Advertising]個のキャンペーンレベルおよび広告グループレベルのターゲットおよび（動的リマーケティングオーディエンスのみ）除外として使用できます。 任意のオーディエンスターゲットに対して入札調整を追加または編集できます。
+The Audiences Library lists all of your [!DNL Google Ads] customer data-based, in-market, and similar audiences and your [!DNL Microsoft Advertising] remarketing and dynamic remarketing, custom, customer match, in-market, and similar audiences. You can use any of the [!DNL Google Ads] audiences as [!DNL Google Ads] campaign-level and ad group-level targets and exclusions, and you can use any of the [!DNL Microsoft Advertising] audiences as [!DNL Microsoft Advertising] campaign-level and ad group-level targets and (dynamic remarketing audiences only) exclusions. You can add or edit a bid adjustment for any audience target.
 
-また、既存のAdobe Experience Cloudオーディエンスのセグメントやメールリストを活用したり、CRM （顧客関係管理）システムの様々な顧客データを利用して、オーディエンスを構築および管理することもできます。
+You can also create and manage audiences using segments or email lists from your existing Adobe CX Enterprise audiences and from various kinds of customer data from your customer relationship management (CRM) system:
 
-* オプトインしたAdobe Audience ManagerまたはAdobe Analytics アカウントを持つ&#x200B;**Adobe オーディエンスセグメント：**&#x200B;の広告主は、次の[!DNL Google Ads] セグメントから[!DNL Adobe]のカスタマーマッチオーディエンスを作成できます。
+* **Adobe audience segments:** Advertisers with opted-in Adobe Audience Manager or Adobe Analytics accounts can create [!DNL Google Ads] customer match audiences from their [!DNL Adobe] segments:
 
-   * （Audience Managerを持っていない[!DNL Analytics]人のアカウントを持つ広告主）Adobe Experience Cloudと共有されている[!DNL Google Ads] セグメントのユーザーIDを使用して、[!DNL Analytics]人の顧客マッチオーディエンスを作成できます。
+   * (Advertisers with [!DNL Analytics] accounts who don&#39;t also have Audience Manager) You can create [!DNL Google Ads] customer match audiences using user IDs from [!DNL Analytics] segments that are shared with Adobe CX Enterprise.
 
-   * （Audience Manager アカウントを持つ広告主）検索、ソーシャル、およびCommerceを宛先とするAudience Manager セグメントのユーザーIDを使用して、[!DNL Google Ads]人のカスタマーマッチオーディエンスを作成できます。 これには、Adobe Experience Cloudに公開されるAdobe Analytics セグメントや、Adobe Experience Cloud Audience Libraryを使用して作成されたセグメントが含まれます。
+   * (Advertisers with Audience Manager accounts) You can create [!DNL Google Ads] customer match audiences using user IDs from Audience Manager segments that have Search, Social, &amp; Commerce as a destination. This may include Adobe Analytics segments that are published to Adobe CX Enterprise and segments created using the Adobe CX Enterprise Audience Library.
 
-  顧客一致オーディエンスを作成するには、広告主の[!DNL Google Ads] アカウントが[&#x200B; カスタムマッチ &#x200B;](https://support.google.com/adspolicy/answer/6299717)の対象となり、[&#x200B; ユーザーID セグメント &#x200B;](https://support.google.com/google-ads/answer/9199250)に対してオプトインしている必要があります。 また、検索、ソーシャル、およびCommerceの広告主アカウントは、カスタマーマッチオーディエンスの作成を許可するように設定する必要があります。
+  To create customer match audiences, the advertiser&#39;s [!DNL Google Ads] account must be [eligible for custom match](https://support.google.com/adspolicy/answer/6299717) and opted in for [user ID segments](https://support.google.com/google-ads/answer/9199250). Also, the advertiser account in Search, Social, &amp; Commerce must be configured to allow the creation of customer match audiences.
 
-  顧客データベースのオーディエンスの[!DNL Adobe]個のセグメントデータとcookie同期ファイルは、毎日[!DNL Google Ads]個に同期されます。
+  [!DNL Adobe] segment data and cookie sync files for customer data-based audiences are synced to [!DNL Google Ads] daily.
 
-* **Adobe Campaignのメールリスト：** Adobe アカウントチームは、[!DNL Google Ads]内のメールリストから[!DNL Campaign]のカスタマーマッチオーディエンスを作成および更新するワークフローを設定できます。
+* **Adobe Campaign email lists:** Your Adobe Account Team can help you set up a workflow to create and update a [!DNL Google Ads] customer match audience from an email list within [!DNL Campaign].
 
-* **顧客データリスト：**&#x200B;顧客マッチの対象となる[!DNL Google Ads]または[!DNL Microsoft Advertising] アカウントを持つ広告主は、広告ネットワーク固有の顧客データベースのオーディエンスを作成および更新できます&lt;! – または動的リマーケティングオーディエンス – 少なくとも[!DNL Google Ads]の場合は、顧客データベースのオーディエンスに含まれます – > プライマリ識別子を含むCSV ファイルをアップロードします。
+* **Customer data lists:** Advertisers with [!DNL Google Ads] or [!DNL Microsoft Advertising] accounts that are eligible for customer match can create and update an ad network-specific customer data-based audience &lt;!-- or dynamic remarketing audience -- included in customer data-based audience, at least for [!DNL Google Ads]?--> by uploading a CSV file with primary identifiers.
 
-* **動的リマーケティングリスト：** [!DNL Microsoft Advertising] アカウントを持つ広告主は、動的リマーケティングオーディエンスを作成および管理できます。このオーディエンスを使用すると、複数の方法（製品ビューアーや過去の購入者など）で製品と最近接触した潜在顧客をリターゲティングできます。 動的なリマーケティングオーディエンスを活用するには、web ページで広告ネットワークのJavaScriptコンバージョンタグとオーディエンストラッキングタグを使用する必要があります。 検索連動型リマーケティングリストを使用して、検索連動型およびオーディエンスネットワーク上のショッピングキャンペーンを使用して、商品広告でオーディエンスをリターゲティングします。また、検索連動型キャンペーンを使用して、テキスト広告や動的検索広告でオーディエンスをリターゲティングします。<!--[For [!DNL Google Ads], these are technically included in a customer data-based audience, so word this all carefully when we add support for them.]-->
+* **Dynamic remarketing lists:** Advertisers with [!DNL Microsoft Advertising] accounts can create and manage dynamic remarketing audiences, which you can use to retarget potential customers who have recently interacted with your products in one of multiple ways (such as product viewers or past buyers). Dynamic remarketing audiences require you to use the ad network&#39;s JavaScript conversion- and audience-tracking tag on your webpages. Use dynamic remarketing lists with shopping campaigns on the search and audience networks to retarget audiences with product ads, as well as with search campaigns to retarget audiences with text ads and dynamic search ads. <!--[For [!DNL Google Ads], these are technically included in a customer data-based audience, so word this all carefully when we add support for them.]-->
 
   >[!NOTE]
   >
-  >動的リマーケティングオーディエンスターゲットの入札修飾子が、「[!UICONTROL Auto-optimize Bid Adjustment Values]」設定のポートフォリオで最適化されていません。
+  >Bid modifiers for dynamic remarketing audience targets aren&#39;t optimized in portfolios with the &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot; setting.
 
 >[!NOTE]
 >
->Search, Social, &amp; Commerceには、[!DNL Adobe]または[!DNL Google Ads]のオーディエンスの作成または編集に使用した[!DNL Microsoft Advertising] セグメントからアップロードした顧客データは保存されません。
+>Search, Social, &amp; Commerce doesn&#39;t store any of the customer data you upload or from the [!DNL Adobe] segments used to create or edit a [!DNL Google Ads] or [!DNL Microsoft Advertising] audience.
 
 >[!MORELIKETHIS]
 >
->* [顧客マッチオーディエンスを [!DNL Google Ads]  オーディエンス  [!DNL Adobe] から](google-audience-from-adobe-audience.md)作成
+>* [Create [!DNL Google Ads] customer match audiences from [!DNL Adobe] audiences](google-audience-from-adobe-audience.md)
 >* [Adobe Campaignのメールリストから [!DNL Google Ads] 顧客マッチオーディエンスを作成](google-audience-from-campaign-email-list.md)
 >* [顧客データリストを使用した顧客一致オーディエンスの管理](audience-from-customer-data-list.md)
 >* [動的リマーケティングオーディエンスの管理](audience-dynamic-remarketing-manage.md)
->* [&#x200B; キャンペーンと広告グループのオーディエンスターゲットの管理](audience-targets-manage.md)
->* [&#x200B; キャンペーンと広告グループのオーディエンス除外の管理](audience-exclusions-manage.md)
+>* [ キャンペーンと広告グループのオーディエンスターゲットの管理](audience-targets-manage.md)
+>* [ キャンペーンと広告グループのオーディエンス除外の管理](audience-exclusions-manage.md)

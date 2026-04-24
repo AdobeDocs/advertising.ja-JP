@@ -4,15 +4,12 @@ description: ログイン方法を学ぶ。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/kkgk8VMLaF3phB1rVzMoxdOkgPWWk-fTqs8U2aGPJxw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 363
+source-wordcount: 389
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 0%
 
 Search, Social, &amp; Commerceは、ログイン認証のためにAdobe Identity Management Service （IMS）に移行中です。 IMSは、Real-Time Customer Data Platform、Customer Journey Analytics、Target、Analyticsなど、IMSをサポートするすべての[!DNL Adobe]製品に対して、フェデレーション IDを使用したシングルサインオン（SSO）アクセスを提供します。 変更内容：
 
-* 1つの[!DNL Adobe ID]を使用して、Experience Cloudのログインページまたは従来のSearch, Social, &amp; Commerceのログインページから[!DNL Adobe]個の製品間でログインできます。 お客様の[!DNL Adobe ID]は、ユーザープロファイル管理と、上部メニューから別の[!DNL Adobe]製品に切り替える機能を提供しています。 今後のリリースでは、上部メニューからSearch, Social, &amp; Commerce アカウントとIMS organization アカウントを変更できるようになります。
+* 1つの[!DNL Adobe ID]を使用して、CX Enterpriseのログインページまたは従来のSearch, Social, &amp; Commerceのログインページから[!DNL Adobe]個の製品間でログインできます。 お客様の[!DNL Adobe ID]は、ユーザープロファイル管理と、上部メニューから別の[!DNL Adobe]製品に切り替える機能を提供しています。 今後のリリースでは、上部メニューからSearch, Social, &amp; Commerce アカウントとIMS organization アカウントを変更できるようになります。
 
 * エンタープライズ認証がサポートされています。
 
@@ -29,7 +26,7 @@ Search, Social, &amp; Commerceは、ログイン認証のためにAdobe Identity
 
 現在のSearch, Social, &amp; Commerceの資格情報は、変更に備えることができるように、一時的にアクティブなままになります。
 
-ユーザープロファイルの管理など、Experience Cloud インターフェイスについて詳しくは、「[Experience Cloud インターフェイスと管理](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。
+ユーザープロファイルの管理など、CX Enterprise インターフェイスについて詳しくは、「[CX Enterprise インターフェイスと管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)」を参照してください。
 
 ## 従来のSearch, Social, &amp; Commerce ログインページからのログイン
 
@@ -47,13 +44,13 @@ Search, Social, &amp; Commerceは、ログイン認証のためにAdobe Identity
 
 1. [!DNL Adobe] IDを入力し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-1. **&#x200B; プロンプトが表示されたら、「[!UICONTROL Personal Account]」または「**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->」のどちらかを選択します。
+1. ** プロンプトが表示されたら、「[!UICONTROL Personal Account]」または「**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->」のどちらかを選択します。
 
    新しいユーザーインターフェイスがデフォルトで開きます。
 
 1. 複数のIMS組織にアクセスできる場合は、ページの右上にある正しい組織を選択します。
 
-## [!DNL Adobe ID]を使用してAdobe Experience Cloudからログイン
+## [!DNL Adobe ID]を使用してAdobe CX Enterpriseからログイン
 
 <!-- Later, give them the new direct URL(s) to our UI so they don't have to select the product. -->
 
@@ -61,11 +58,11 @@ Search, Social, &amp; Commerceは、ログイン認証のためにAdobe Identity
 
 1. [!DNL Adobe] IDを入力し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-1. **&#x200B; プロンプトが表示されたら、「[!UICONTROL Personal Account]」または「**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->」のどちらかを選択します。
+1. ** プロンプトが表示されたら、「[!UICONTROL Personal Account]」または「**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->」のどちらかを選択します。
 
 1. ホームページの「[!UICONTROL Quick Access]」セクションで、「**[!UICONTROL Advertising Search, Social, & Commerce]**」をクリックします。
 
-![Advertising Search, Social, &amp; Commerce） &#x200B;](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising Search, Social, &amp; Commerce） ")
+![Advertising Search, Social, &amp; Commerce） ](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising Search, Social, &amp; Commerce） ")
 
 新しいユーザーインターフェイスがデフォルトで開きます。
 
@@ -74,6 +71,6 @@ Search, Social, &amp; Commerceは、ログイン認証のためにAdobe Identity
 >[!MORELIKETHIS]
 >
 >* [新しいユーザーインターフェイスと従来のユーザーインターフェイスを切り替える](ui-switch.md)
->* [&#x200B; ログアウト &#x200B;](sign-out.md)
->* [&#x200B; パスワードを変更](/help/search-social-commerce/tools/password-change.md)
->* [&#x200B; ユーザーインターフェイスの構成方法](user-interface.md)
+>* [ ログアウト ](sign-out.md)
+>* [ パスワードを変更](/help/search-social-commerce/tools/password-change.md)
+>* [ ユーザーインターフェイスの構成方法](user-interface.md)

@@ -1,61 +1,61 @@
 ---
 title: Adobe AdvertisingとAdobe Analyticsの統合
-description: Adobe AdvertisingでAdobe Analyticsとデータを交換する方法と、検索、ソーシャル、Commerce内でのデータの使用方法について説明します。
+description: Adobe AdvertisingでAdobe Analyticsとデータを交換する方法と、Search, Social, & Commerce内でデータを使用する方法について説明します。
 feature: Integration with Adobe Analytics
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
 
 # Adobe AdvertisingとAdobe Analyticsの統合
 
-次の方法で、Adobe Advertisingと Analytics を統合できます。
+Adobe AdvertisingとAnalyticsは、次の方法で統合できます。
 
-## [!DNL Analytics] とAdobe Advertising間でのデータの交換
+## [!DNL Analytics]とAdobe Advertising間のデータ交換
 
-### データ [!DNL Analytics]Adobe Advertisingに取り込む
+### [!DNL Analytics] データをAdobe Advertisingに取り込みます
 
-[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md),[!DNL Search, Social, & Commerce] とDSPを使用して、以下を取り込みます。
+[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)、[!DNL Search, Social, & Commerce]およびDSPで次の操作を行います。
 
-* **[!DNL Analytics]セグメント：** で作成され、Experience Cloudに公開されたすべての広告主または代理店のセグメントのメタデータ、階層データ、一意のオーディエンスデータを [!DNL Analytics] します。
+* **[!DNL Analytics]セグメント：** [!DNL Analytics]に作成され、Adobe CX Enterpriseに公開されたすべての広告主または代理店のセグメントのメタデータ、階層データ、および一意のオーディエンスデータ。
 
 * **[!DNL Analytics]サイトエンゲージメント指標**
 
-* 標準指標、カスタム指標および予約済み指標に **[!DNL Analytics]いて**
+* **[!DNL Analytics]標準、カスタム、および予約済み指標**
 
-### [!DNL Analytics] へのAdobe Advertising データの送信
+### Adobe Advertising データを[!DNL Analytics]に送信
 
-* **Adobe Advertisingのトラフィック指標**
+* **Adobe Advertisingからのトラフィック指標**
 
-* **Adobe Advertisingの寸法**
+* **Adobe Advertisingからのディメンション**
 
 >[!NOTE]
 >
->[!DNL Search, Social, & Commerce]：この機能は、ほとんどの広告ネットワークとキャンペーンタイプでサポートされています。 詳しくは、[!DNL Search, Social, & Commerce] ガイドの「サポート対象インベントリ」を参照してください。<!-- add link when that's published in ExL -->
+>[!DNL Search, Social, & Commerce]の場合、この機能はほとんどの広告ネットワークとキャンペーンの種類でサポートされています。 詳しくは、[!DNL Search, Social, & Commerce] ガイドの「サポートされているインベントリ」を参照してください。<!-- add link when that's published in ExL -->
 
-### [!DNL Analytics] セグメントを使用したオーディエンス [!DNL Google Ads] 作成 {#audience-manager-google-audiences}
+### [!DNL Analytics] セグメントを使用して[!DNL Google Ads] オーディエンスを作成 {#audience-manager-google-audiences}
 
-*オプトイン済みの [!DNL Advertising Search, Social, & Commerce] のみを使用する広告主*
+*オプトインした広告主で[!DNL Advertising Search, Social, & Commerce]さんのみ*
 
 <!-- Verify all -->
 
-[!DNL Search, Social, & Commerce] 内では、既存の [!DNL Google Ads] セグメント [!DNL Analytics] 使用して、ユーザー ID からGoogle カスタマーマッチオーディエンスを作成できます。 これには、Adobe Experience Cloudに公開されるAdobe Analytics セグメントと、Adobe Experience Cloud [!DNL Audience Library] を使用して作成されるセグメントが含まれます。 詳しくは、「[&#x200B; オーディエンスから  [!DNL Google Ads]  オーディエンスに一致する顧客の作成  [!DNL Adobe]  オーディエンス &#x200B;](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)」を参照してください。
+[!DNL Search, Social, & Commerce]内で、既存の[!DNL Analytics] セグメントを使用して、ユーザーIDから[!DNL Google Ads]個のGoogle カスタマーマッチオーディエンスを作成できます。 これには、Adobe CX Enterpriseに公開されるAdobe Analytics セグメントと、Adobe CX Enterprise [!DNL Audience Library]を使用して作成されるセグメントが含まれます。 詳しくは、「[Create [!DNL Google Ads] customer match audiences from [!DNL Adobe] audiences](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)」を参照してください。
 
-[&#x200B; ユーザー ID からのカスタマーマッチオーディエンス &#x200B;](https://support.google.com/google-ads/answer/9199250) は web サイトタグベースのオーディエンスと同様に機能しますが、非 PII ID は一意のオーディエンスメンバーに割り当てられるので、標準のカスタマーマッチや web サイトタグベースのオーディエンスよりも明確なメリットがあります。
+[ ユーザーIDの顧客マッチオーディエンス ](https://support.google.com/google-ads/answer/9199250)は、web サイトのタグベースのオーディエンスと同様に機能しますが、PII以外のIDは、標準の顧客マッチオーディエンスとweb サイトのタグベースのオーディエンスに対して明確なメリットを得るために、一意のオーディエンスメンバーに割り当てられます。
 
-必要なユーザー ID を作成するには、web サイトでAdobe Advertising JavaScript タグを使用する必要があります <!-- with a user ID parameter --> 詳しくは、Adobe アカウントチームにお問い合わせください。
+必要なユーザーIDを作成するには、web サイトでAdobe Advertising JavaScript タグ <!-- with a user ID parameter -->を使用する必要があります。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-![&#x200B; セグメント作成プロセス &#x200B;](/help/integrations/assets/ad_search_user_id_pic.png)
+![ セグメント作成プロセス ](/help/integrations/assets/ad_search_user_id_pic.png)
 
-オーディエンスを作成したら、[!DNL Google Ads] のキャンペーンで [&#x200B; キャンペーンレベルまたは広告グループレベルのターゲットまたは除外 &#x200B;](#audience-manager-targets) として使用できます。
+オーディエンスを作成したら、[!DNL Google Ads] キャンペーンで[ キャンペーンレベルまたは広告グループレベルのターゲットまたは除外](#audience-manager-targets)として使用できます。
 
-### [!DNL Analytics] セグメントを使用した広告のターゲット設定または除外 {#analytics-targets}
+### [!DNL Analytics] セグメントを使用した広告のターゲティングまたは除外 {#analytics-targets}
 
-* （[!DNL Search, Social, & Commerce] を使用したオプトインの広告主）キャンペーンレベルまたは広告グループレベルのターゲットまたは除外として [!DNL Google Ads][&#x200B; セグメントを使用して作成  [!DNL Analytics]  された任意の &#x200B;](#audience-manager-google-audiences) オーディエンスを、[!DNL Google Ads] キャンペーンで使用できます。
+* （オプトインした広告主と[!DNL Search, Social, & Commerce]）キャンペーン レベルまたは広告グループレベルのターゲットまたは除外として [!DNL Analytics]  セグメント ](#audience-manager-google-audiences)を使用して[作成された[!DNL Google Ads]個のオーディエンスを[!DNL Google Ads] キャンペーンで使用できます。
 
-* （DSPを使用する広告主）既存の [!DNL Analytics] セグメントを広告プレースメントのターゲットとして使用できます。 オプションで、再利用可能なオーディエンスにセグメントを含めることができ、複数のプレースメントのターゲットまたは除外として使用できます。
+* （DSPを使用している広告主）既存の[!DNL Analytics] セグメントを広告プレースメントのターゲットとして使用できます。 オプションで、セグメントを再利用可能なオーディエンスに含めることができます。このオーディエンスは、複数のプレースメントのターゲットまたは除外として使用できます。
 
-* （Advertising Creativeを使用する広告主）既存の [!DNL Analytics] セグメントを、広告エクスペリエンスの特定のクリエイティブのターゲットとして使用できます。
+* （Advertising Creativeを使用している広告主）既存の[!DNL Analytics] セグメントを、広告エクスペリエンスの特定のクリエイティブのターゲットとして使用できます。
