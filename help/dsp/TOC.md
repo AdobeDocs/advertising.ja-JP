@@ -24,8 +24,8 @@ ht-degree: 3%
       + [Cross-device solutions](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Account funding](/help/dsp/introduction/billing/account-funding.md)
    + [Currencies supported](/help/dsp/currency.md)
-   + [Support for consumer privacy](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
-   + [Policies and guidelines](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Support for consumer privacy](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
+   + [Policies and guidelines](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
    + [Advanced measurement solutions](/help/dsp/introduction/advanced-measurement-services.md)
 + [Search for product documentation using AI-assisted chat](/help/dsp/agent-chat.md)
 + Campaign management {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 3%
       + [バルクシートを使用した広告の詳細の確認と編集](/help/dsp/campaign-management/ads/ad-qa.md)
       + [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
       + [広告の複製](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [プレースメントへの広告の添付と削除](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
+      + [プレースメントへの広告の添付と削除](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=ja)
       + [広告に関連付けられているプレースメントのリスト](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [広告の詳細レポートの表示](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [広告を一時停止またはアクティベート](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -233,9 +233,9 @@ ht-degree: 3%
    + 通知 {#notifications}
       + [アラート配信について](/help/dsp/admin/alerts-about.md)
       + [アラート購読の管理](/help/dsp/admin/alerts-manage.md)
-+ [Adobe CX Enterpriseとの連携](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
++ [Adobe CX Enterpriseとの連携](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ja)
 + [ヘルプを表示](/help/dsp/get-help.md)
-+ [Adobe CX Enterprise リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Adobe CX Enterprise リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)
 
 
 <!--

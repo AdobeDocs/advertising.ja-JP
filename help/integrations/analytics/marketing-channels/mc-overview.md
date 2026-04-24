@@ -25,7 +25,7 @@ ht-degree: 0%
 
 このページでは、[!DNL Analytics for Advertising] ユーザーが理解する必要がある[!DNL Analytics Marketing Channels]に関する重要な情報について説明します。
 
-[!DNL Marketing Channels]に関する完全なドキュメントについては、「[&#x200B; [!DNL Marketing Channels]](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)の基本を学ぶ」を参照してください。
+[!DNL Marketing Channels]に関する完全なドキュメントについては、「[&#x200B; [!DNL Marketing Channels]](https://experienceleague.adobe.com/ja/docs/analytics/components/marketing-channels/c-getting-started-mchannel)の基本を学ぶ」を参照してください。
 
 ## [!DNL Marketing Channels]の概要
 
@@ -54,5 +54,5 @@ Adobe Advertisingがカスタムマーケティングチャネルの作成に必
 >* [Adobe Advertising IDを使用して [!DNL Marketing Channels] 処理ルールを作成](mc-ids.md)
 >* [Adobe Advertisingと [!DNL Marketing Channels]](mc-data-variances.md)でチャネルデータが異なる理由
 >* [Adobe Advertising data](mc-ac-data.md)での [!DNL Analytics Marketing Channels] の使用
->* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/en/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
+>* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/ja/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
 >* [概要： [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

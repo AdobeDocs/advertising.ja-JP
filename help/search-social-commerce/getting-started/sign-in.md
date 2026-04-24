@@ -29,7 +29,7 @@ Search, Social, &amp; Commerceは、ログイン認証のためにAdobe Identity
 
 現在のSearch, Social, &amp; Commerceの資格情報は、変更に備えることができるように、一時的にアクティブなままになります。
 
-ユーザープロファイルの管理など、CX Enterprise インターフェイスについて詳しくは、「[CX Enterprise インターフェイスと管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)」を参照してください。
+ユーザープロファイルの管理など、CX Enterprise インターフェイスについて詳しくは、「[CX Enterprise インターフェイスと管理](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。
 
 ## 従来のSearch, Social, &amp; Commerce ログインページからのログイン
 

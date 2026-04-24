@@ -22,10 +22,10 @@ ht-degree: 2%
    + [サポートされているインベントリ](/help/search-social-commerce/introduction/supported-inventory.md)
    + Adobe CX Enterpriseとの連携 {#integrations}
       + [Adobe CX Enterpriseのソリューションやサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising]  （リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
-      + [Adobe Audience Managerとの連携（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
-   + [消費者のプライバシーのサポート（リンク）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-   + [ポリシーとガイドライン（リンク）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising]  （リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja){target="_blank"}
+      + [Adobe Audience Managerとの連携（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ja){target="_blank"}
+   + [消費者のプライバシーのサポート（リンク）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
+   + [ポリシーとガイドライン（リンク）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=ja){target="_blank"}
 + Adobe Experience Managerの導入方法 {#getting-started}
    + [導入の概要](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [必要システム構成](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -97,8 +97,8 @@ ht-degree: 2%
          + [[!UICONTROL Portfolios] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + キャンペーン {#campaigns}
          + [[!UICONTROL Campaigns] ビューについて](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [キャンペーンのポートフォリオへの割り当て](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [ポートフォリオからのキャンペーンの削除](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [キャンペーンのポートフォリオへの割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [ポートフォリオからのキャンペーンの削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
          + [キャンペーンの制約の割り当ての管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [[!UICONTROL Campaigns] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
       + 広告グループ {#ad-groups}
@@ -110,13 +110,13 @@ ht-degree: 2%
          + [[!UICONTROL Ads] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + レポート {#reports}
       + ラベルの分類 {#label-classifications}
-         + [ラベルの分類について](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
-         + [ラベル分類の作成](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
-         + [キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当て](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
-         + [バルクシートを使用して、アカウントコンポーネントに分類値を割り当て](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
-         + [アカウントコンポーネントからのラベル分類値の削除](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
-         + [ラベル分類値の削除](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
-         + [ラベル分類の削除](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
+         + [ラベルの分類について](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
+         + [ラベル分類の作成](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
+         + [キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
+         + [バルクシートを使用して、アカウントコンポーネントに分類値を割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
+         + [アカウントコンポーネントからのラベル分類値の削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
+         + [ラベル分類値の削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
+         + [ラベル分類の削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
    + Target {#target}
       + キーワード {#keywords}
          + [[!UICONTROL Keywords] ビューについて](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
@@ -150,13 +150,13 @@ ht-degree: 2%
             + [Click-tracking formats for [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Click-tracking formats for [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Optional tracking parameters for click-tracking URLs](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising cookies (link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
+      + [Adobe Advertising cookies (link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ja){target="_blank"}
       + [The AMO ID (s_kwcid) tracking parameter](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + コンバージョンの追跡 {#conversion-tracking}
       + [Conversion tracking options](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Adobe Advertising conversion tracking {#advertising-conversion-tracking}
          + [About Adobe Advertising conversion-tracking tags](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-         + [Generate and implement an Adobe Advertising conversion tag](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
+         + [Generate and implement an Adobe Advertising conversion tag](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
          + [Format of JavaScript conversion tracking tags version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Format of JavaScript conversion tracking tags version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [Format of image conversion tracking tags](/help/search-social-commerce/tracking/format-conversion-tag-image.md)

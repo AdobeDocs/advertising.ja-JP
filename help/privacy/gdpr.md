@@ -72,7 +72,7 @@ Adobe Advertisingのデータへのアクセスと削除をリクエストする
    >
    >お客様の組織のすべてのAdobe Advertising アカウント（アカウント [!DNL DSP]または広告主、[!DNL Search, Social, & Commerce] アカウント、[!DNL Creative]または[!DNL DCO] アカウントを含む）がCX Enterpriseの組織IDにリンクされていることを確認するには、会社のAdobe Advertising担当者にお問い合わせください。
 
-1. [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （自動リクエストの場合）または[Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja) （アドホックリクエストの場合）を使用して、データ主体に代わってAdobe Advertisingにアクセス要求と削除要求を送信し、既存の要求のステータスを確認します。
+1. [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ja) （自動リクエストの場合）または[Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja) （アドホックリクエストの場合）を使用して、データ主体に代わってAdobe Advertisingにアクセス要求と削除要求を送信し、既存の要求のステータスを確認します。
 
    モバイルアプリを使用してデータ主体と対話し、CX Enterpriseでキャンペーンを開始する広告主の場合は、DSP用のプライバシー対応モバイル SDKをダウンロードする必要があります。 Mobile SDKを使用すると、データ管理者はオプトアウトステータスフラグを設定し、データ主体のデバイス ID （名前空間ID: `deviceID`）を取得して、Privacy Service APIにリクエストを送信できます。 モバイルアプリには、SDK バージョン 4.15.0以降が必要です。
 
@@ -84,7 +84,7 @@ Adobe Advertisingのデータへのアクセスと削除をリクエストする
    >
    >会社が複数のCX Enterprise組織IDを持っている場合は、それぞれに個別のAPI リクエストを送信する必要があります。 ただし、複数のAdobe Advertising サブソリューション（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]、および[!DNL DCO]）に1つのAPI リクエストを、サブソリューションごとに1つのアカウントで行うことができます。
 
-すべての手順はAdobe Advertisingに必要です。 Adobe Experience Platform Privacy Serviceを使用して実行する必要があるこれらのタスクと関連タスク、および必要な項目の検索場所について詳しくは、「[Privacy Serviceの概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)」を参照してください。
+すべての手順はAdobe Advertisingに必要です。 Adobe Experience Platform Privacy Serviceを使用して実行する必要があるこれらのタスクと関連タスク、および必要な項目の検索場所について詳しくは、「[Privacy Serviceの概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)」を参照してください。
 
 ## Adobe Advertising JSON リクエストの必須フィールド値
 

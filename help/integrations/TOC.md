@@ -53,4 +53,4 @@ ht-degree: 1%
    + [Customer Journey Analyticsで使用されるAdobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
    + [データ収集、データ転送、レポートの設定](/help/integrations/customer-journey-analytics/set-up.md)
    + [Customer Journey AnalyticsのAdobe Advertising指標とディメンション](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Adobe Advertising統合に関するビデオチュートリアル](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)
++ [Adobe Advertising統合に関するビデオチュートリアル](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ja)

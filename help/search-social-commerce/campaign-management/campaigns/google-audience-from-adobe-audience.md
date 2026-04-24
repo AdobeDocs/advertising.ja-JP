@@ -43,7 +43,7 @@ ht-degree: 0%
 
    1. （ユーザーID リマーケティングリストのオーディエンスを作成するには） [!DNL Adobe]管理者ユーザーまたはアカウントマネージャーは、顧客一致オーディエンスを有効にするために、広告主レベルの設定を選択する必要があります。
 
-   1. [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) バージョン 2.0以降を実装します。
+   1. [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) バージョン 2.0以降を実装します。
 
    1. オーディエンスを追跡する必要がある広告主のweb ページに、次のタグをできるだけ高くデプロイします
 
