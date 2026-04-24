@@ -12,9 +12,9 @@ subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3e2164230726fe96d4e43ebba26e84640bd806f1
 workflow-type: tm+mt
-source-wordcount: 558
+source-wordcount: 560
 ht-degree: 0%
 
 ---
@@ -23,11 +23,16 @@ ht-degree: 0%
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-再利用可能なオーディエンスを保存および管理できます。これは、オーディエンスセグメントのグループであり、その他の保存されたオーディエンスも含みます。これらのオーディエンスは、複数のプレースメントのターゲットまたは除外として使用できます。
+再利用可能なオーディエンスを保存および管理できます。このオーディエンスは、オーディエンスセグメントのグループであり、その他の保存されたオーディエンスも含みます。このオーディエンスは、複数のプレースメントのターゲットまたは除外として使用できます。<!-- Create audiences manually or use the AI-assisted audience agent to generate new reusable audiences using all first-party and third-party segments that are available to you, according to your stated requirements. -->
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 >[!NOTE]
 >
 >（DSPがハッシュ化されたメール IDをLiveRamp RampID セグメントに変換する広告主）アクティブなプレースメント、スケジュール済みプレースメント、または一時停止されたプレースメントにアタッチされていないファーストパーティのRampID セグメントは一時停止されます。 セグメントは、「自動一時停止」としてセグメントリストに表示されます。
+
+
+<!-- ## Manually create a reusable audience -->
 
 1. メインメニューで、**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**&#x200B;をクリックします。
 
