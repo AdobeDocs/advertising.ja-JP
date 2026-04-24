@@ -14,9 +14,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 919
+source-wordcount: 941
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ The standard JavaScript library consists of two lines that allow [!DNL Analytics
 
     [MAYBE PUT THIS BELOW] Place the [!DNL LaunchPad] tag on every page of your website, preferably as the first script within the page head tags but as high within the page head tags as possible.
 
-   * For [!DNL ID5] IDs: Contact your Adobe Account Team, who will give you instructions to register for the tag with ID5. Registration is free, but you must sign an agreement. Once you register, a member of ID5’s technical team will provide a unique tag for your organization to implement on your webpages.
+   * For [!DNL ID5] IDs: Contact your Adobe Account Team, who will give you instructions to register for the tag with ID5. Registration is free, but you must sign an agreement. Once you register, a member of ID5's technical team will provide a unique tag for your organization to implement on your webpages.
 -->
 
 ## JavaScript コードのデプロイ
@@ -123,11 +123,11 @@ JavaScript ライブラリは、[!DNL Analytics]とAdobe Advertisingが互いに
    1. 「アプリケーション」タブで、`adcloud` Cookieを見つけ、Cookieに`_les_v` （前回の訪問）の値`y`と30分で有効期限が切れるUTC エポックタイムスタンプが含まれていることを確認します。
       1. `adcloud` Cookieを削除してページを更新します。
 
-1. （`visitorAPI.js`のExperience Cloud ID サービス `/b/ss` コードを使用する実装）フィルターを使用して、Analytics ヒットを確認します。
+1. （`/b/ss`のExperience Cloud ID サービス `visitorAPI.js` コードを使用する実装）フィルターを使用して、Analytics ヒットを確認します。
 
    ![&#x200B; フィルター：`/b/ss`](/help/integrations/assets/a4adc-code-validation-filter-bss.png)
 
-1. （Edge Networkへのリクエストペイロードに[!DNL Web SDK]が含まれていることを確認するために、`alloy.js`でExperience Platform `/interact` `advertisingStitchID` コード）フィルターを使用する実装。
+1. （Edge Networkへのリクエストペイロードに`advertisingStitchID`が含まれていることを確認するために、`/interact`でExperience Platform [!DNL Web SDK] `alloy.js` コード）フィルターを使用する実装。
 
    ![&#x200B; フィルター：`/interact`](/help/integrations/assets/a4adc-code-validation-filter-interact.png)
 
@@ -137,26 +137,26 @@ JavaScript ライブラリは、[!DNL Analytics]とAdobe Advertisingが互いに
    | --- | --- | --- | --- |
    | Experience Cloud IMS組織 | `mcorgid` |  | `_les_imsOrgid` |
    | 補足データ ID | sdid |  | `_les_sdid` |
-   | ステッチ ID | stitchId | `advertisingStitchID` プロパティの`_adcloud` |  |
+   | ステッチ ID | stitchId | `_adcloud` プロパティの`advertisingStitchID` |  |
    | Analytics レポートスイート | `/b/ss/`の後の値 | | `_les_rsid` |
    | Experience Cloud訪問者ID | 中 |  | `_les_mid` |
 
    ID値が一致する場合は、JavaScriptの実装が確定されます。 Adobe Advertisingは、クリックスルーまたはビュースルーのトラッキングの詳細が存在する場合、その詳細を[!DNL Analytics] サーバーに送信します。
 
-#### [!DNL Adobe Experience Cloud Debugger]でコードを確認する方法
+#### [!DNL Adobe Experience Platform Debugger]でコードを確認する方法
 
-1. ホームページで[[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ja)を開きます。
+1. ホームページで[the [!DNL Adobe Experience Platform Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ja)を開きます。
 1. 「[!UICONTROL Network]」タブに移動します。
 1. [!UICONTROL Solutions Filter] ツールバーで、[!UICONTROL Adobe Advertising]と[!UICONTROL Analytics]をクリックします。
 1. [!UICONTROL Request URL - Hostname] パラメーター行で、`lasteventf-tm.everesttech.net`を見つけます。
-1. 「[!UICONTROL Request - Parameters] コードを[で確認する方法」のステップ 3と同様に、 [!DNL Chrome Developer Tools]](#validate-js-chrome)行で、生成されたシグナルを監査します。
-   * （Experience Cloud ID サービス `visitorAPI.js` コードを使用する実装）Adobe Analytics フィルターの`Sdid` パラメーターが`Supplemental Data ID`と一致することを確認してください。
-   * （Experience Platform [!DNL Web SDK] `alloy.js` コードを使用する実装） `advertisingStitchID` パラメーターの値が、Experience Platform Edge Networkに送信された`Sdid`と一致することを確認します。
-   * コードが生成されない場合は、「[!UICONTROL Application]」タブでAdobe Advertising Cookieが削除されていることを確認します。 削除したら、ページを更新して、このプロセスを繰り返します。
+1. 「[&#x200B; コードを [!DNL Chrome Developer Tools]](#validate-js-chrome)で確認する方法」のステップ 3と同様に、[!UICONTROL Request - Parameters]行で、生成されたシグナルを監査します。
+   * (Implementations that use the Experience Cloud Identity Service `visitorAPI.js` code) Make sure the `Sdid` parameter matches the `Supplemental Data ID` in the Adobe Analytics filter.
+   * (Implementations that use the Experience Platform [!DNL Web SDK] `alloy.js`code) Make sure the value of the `advertisingStitchID` parameter matches the `Sdid` sent to the Experience Platform Edge Network.
+   * If the code isn&#39;t generating, then check to make sure the Adobe Advertising cookie has been removed in the [!UICONTROL Application] tab. Once it&#39;s removed, refresh the page and repeat the process.
 
-   ![JavaScript コードを[!DNL Analytics for Advertising]で[!DNL Experience Cloud Debugger]](/help/integrations/assets/a4adc-js-audit-debugger.png)監査しています
+   ![Auditing [!DNL Analytics for Advertising] JavaScript code in [!DNL Platform Cloud Debugger]](/help/integrations/assets/a4adc-js-audit-debugger.png)
 
 >[!MORELIKETHIS]
 >
 >* [概要： [!DNL Analytics for Advertising]](overview.md)
->* [実装の前提条件と主要情報 [!DNL Analytics for Advertising]](prerequisites.md)
+>* [Prerequisites and key information for implementing [!DNL Analytics for Advertising]](prerequisites.md)

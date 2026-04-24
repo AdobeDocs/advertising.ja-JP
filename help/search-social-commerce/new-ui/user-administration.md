@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: 1045
 ht-degree: 0%
 
 ---
@@ -88,43 +88,43 @@ Search, Social &amp; Commerceの新しいユーザーインターフェイスに
 
    * [!UICONTROL Ad Groups]：読み取り専用アクセス
 
-* **[!UICONTROL Admin]:**&#x200B;このプロファイルは、利用可能なすべての機能に完全なアクセス権を付与し、ユーザーが新しいクライアントインスタンスを作成できるようにします（組織IDごとに1つ以上のインスタンスを持つレガシー広告主アカウントと同じ）。 正当な事業上の理由がない限り、この権利を誰にも割り当てないでください。
+* **[!UICONTROL Admin]:** This profile grants full access to all functionality available and allows users to create new client instances (the same as legacy advertiser accounts, with one or more instances per organization ID). Don&#39;t assign this right to anyone unless you have a proper business justification.
 
-## 管理者のタスク
+## Tasks for administrators
 
 ### Adobe Admin Consoleにログインし、Search, Social, &amp; Commerceに開きます
 
 >[!PREREQUISITES]
 >
->Admin Consoleにログインするには、Search、Social、およびCommerceへの何らかの管理者アクセス権が必要です。
+>You must have some type of administrator access to Search, Social, &amp; Commerce to sign in to Admin Console.
 
-1. https://adminconsole.adobe.com/enterprise/に移動します。
+1. Go to https://adminconsole.adobe.com/enterprise/.
 
-1. （Experience Cloudにログインしていない場合） Experience Cloudにログインします。
+1. (If you&#39;re not signed in to CX Enterprise) Sign in to CX Enterprise:
 
    1. [!DNL Adobe] IDを入力し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-   1. **[!UICONTROL Personal Account]&quot;または&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->のいずれかを選択します
+   1. Select either **[!UICONTROL Personal Account]&quot; or &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
-   1. 該当するExperience Cloud組織を選択します。
+   1. 該当するCX Enterprise組織を選択します。
 
       Admin Consoleが[!UICONTROL Overview] タブに開きます。
 
-   1. [!UICONTROL Product & services]で「[!UICONTROL Adobe Advertising, Search, Social, & Commerce — Org Name]」をクリックします。
+   1. Under [!UICONTROL Product & services], click &quot;[!UICONTROL Adobe Advertising, Search, Social, & Commerce — Org Name].&quot;
 
-      商品ページが開き、「検索」、「ソーシャル」、「Commerce」の「[!UICONTROL Product profiles]」タブが表示されます。 その他のタブには[!UICONTROL Users]と[!UICONTROL Product Admins]が含まれます。
+      The product page opens to the [!UICONTROL Product profiles] tab for Search, Social, &amp; Commerce. その他のタブには[!UICONTROL Users]と[!UICONTROL Product Admins]が含まれます。
 
-### システム管理者向けワークフロー
+### Workflow for system administrators
 
-Search, Social, &amp; Commerceの各クライアントインスタンスについて、このワークフローに従います。
+Follow this workflow for each client instance of Search, Social, &amp; Commerce.
 
-1. [Adobe Admin Consoleにログインし、Search, Social, &amp; Commerceに開きます](#open-admin-console)。
+1. [Sign in to Adobe Admin Console and open it to Search, Social, &amp; Commerce](#open-admin-console).
 
-1. （オプション） [別のシステム管理者](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html#enterprise)をバックアップとして追加します。
+1. (Optional) [Add another system administrator](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html#enterprise) as backup.
 
-1. [製品管理者を追加](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html#enterprise)することにより、製品とユーザーの管理を委任します。
+1. Delegate product and user management by [adding product administrators](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html#enterprise).
 
-### 製品管理者向けワークフロー
+### Workflow for product administrators
 
 Search, Social, &amp; Commerceの各クライアントインスタンスについて、このワークフローに従います。
 

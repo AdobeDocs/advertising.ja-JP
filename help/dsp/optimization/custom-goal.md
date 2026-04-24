@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 1189
+source-wordcount: 1207
 ht-degree: 0%
 
 ---
 
 # カスタム目標
 
-カスタム目標は、広告主がビジネス目標を達成するために必要な成功イベントを定義します。 最適化目標「[!UICONTROL Highest Return on Ad Spend (ROAS)"]」または「[!UICONTROL Lowest Cost per Acquisition (CPA)]」を使用する各パッケージには、全体的な最適化目標の達成に役立つカスタム目標が含まれている必要があります。 カスタム目標は、*で*&#x200B;目標[!DNL Advertising Search, Social, & Commerce]として作成できます。 DSPの各目的の名前には、「ADSP_」というプレフィックスを付ける必要があります。
+カスタム目標は、広告主がビジネス目標を達成するために必要な成功イベントを定義します。 最適化目標「[!UICONTROL Highest Return on Ad Spend (ROAS)"]」または「[!UICONTROL Lowest Cost per Acquisition (CPA)]」を使用する各パッケージには、全体的な最適化目標の達成に役立つカスタム目標が含まれている必要があります。 カスタム目標は、[!DNL Advertising Search, Social, & Commerce]で&#x200B;*目標*&#x200B;として作成できます。 DSPの各目的の名前には、「ADSP_」というプレフィックスを付ける必要があります。
 
 <!--
  update image or omit it
@@ -37,13 +37,13 @@ ht-degree: 0%
 
 例えば、3つのコンバージョン指標が、キャンペーンの1つの特定のパッケージに関連するとします。例えば、「PDF ダウンロード」が20 USD、「メール登録」が30 USD、「注文確認」が40 USDです。 顧客アクションの1回限りの金銭的価値に応じて重みを付けたい場合、指標の相対的な重みは1、1.5、2になります。
 
-カスタム目標[を](#custom-goal-create)作成したら、[を使用してレポートとアルゴリズムの最適化を行うために、](/help/dsp/campaign-management/packages/package-settings.md)それをパッケージ [!DNL Adobe AI]に割り当てることができます。
+カスタム目標[&#128279;](#custom-goal-create)を作成したら、[!DNL Adobe AI]を使用してレポートとアルゴリズムの最適化を行うために、[それをパッケージ &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)に割り当てることができます。
 
 目標のDSPに関連付けられた指標に対してウェイトのレコメンデーションが自動的に生成され、ワンクリックですべてのウェイトのレコメンデーションを適用できます。 「ADSP_」でプレフィックスが付いた目標に対するすべての重み付けの変更は、DSPで2日以内にアルゴリズムで適用されます。 重み付けの推奨事項について詳しくは、Search, Social, &amp; Commerce内から入手できる「目標」に関する最適化ガイドの章を参照してください。
 
 ## カスタム目標の作成 {#custom-goal-create}
 
-カスタム目標を作成するには、[!DNL Search, Social, & Commerce] クライアント設定から同じDSP組織IDを持つ[!DNL Search, Social, & Commerce] アカウントにAdobe Experience Cloud アカウントをリンクする必要があります。 DSP アカウントが[!DNL Search, Social, & Commerce] アカウントにリンクされていない場合は、Adobe アカウントチームにお問い合わせください。
+カスタム目標を作成するには、[!DNL Search, Social, & Commerce] クライアント設定から同じDSP組織IDを持つ[!DNL Search, Social, & Commerce] アカウントにAdobe CX Enterprise アカウントをリンクする必要があります。 DSP アカウントが[!DNL Search, Social, & Commerce] アカウントにリンクされていない場合は、Adobe アカウントチームにお問い合わせください。
 
 1. [Advertising Search, Social, &amp; Commerce](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}にログインします。
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
   サポート指標をカスタム目標に追加する際には、主要な成功イベントに対する相対的な重要度に従って重み付けをおこない、データポイントの量を考慮します。 これにより、[!DNL Adobe AI]を活用したアルゴリズムで、複数の指標のバランスを取り、目標に向かって最適化することができます。
 
-  次の目標の例には、モバイル以外の重みが異なる3つの指標が含まれています。それぞれ、Application Submit = 1、Application Start = 0.1、Advertiser Landing Page = 0.01です。つまり、アプリケーション送信の各コンバージョンは、平均10件のアプリケーション開始コンバージョンと100件の広告主ランディングページのコンバージョンと同じ値をビジネスに持ちます。
+  次の目標の例には、モバイル以外の重みが異なる3つの指標が含まれています。それぞれ、Application Submit = 1、Application Start = 0.1、Advertiser Landing Page = 0.01です。 つまり、アプリケーション送信の各コンバージョンは、平均10件のアプリケーション開始コンバージョンと100件の広告主ランディングページのコンバージョンと同じ値をビジネスに持ちます。
 
 <!--
  update image or delete it and adjust the wording above

@@ -1,6 +1,6 @@
 ---
 title: ' [!DNL Marketing Channels]の基本'
-description: ' [!DNL Analytics Marketing Channels]  ユーザーが理解する必要がある [!DNL Analytics for Advertising] に関する重要な情報を学習します。'
+description: ' [!DNL Analytics for Advertising]  ユーザーが理解する必要がある [!DNL Analytics Marketing Channels] に関する重要な情報を学習します。'
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
 TQID: https://experienceleague.adobe.com/NJ4LPss-g-J06PuvdCaUktHPyP7MARdJK84-D8gnwAk
@@ -14,16 +14,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: 561
 ht-degree: 0%
 
 ---
 
 # [!DNL Analytics Marketing Channels]の基本
 
-このページでは、[!DNL Analytics Marketing Channels] ユーザーが理解する必要がある[!DNL Analytics for Advertising]に関する重要な情報について説明します。
+このページでは、[!DNL Analytics for Advertising] ユーザーが理解する必要がある[!DNL Analytics Marketing Channels]に関する重要な情報について説明します。
 
 [!DNL Marketing Channels]に関する完全なドキュメントについては、「[&#x200B; [!DNL Marketing Channels]](https://experienceleague.adobe.com/ja/docs/analytics/components/marketing-channels/c-getting-started-mchannel)の基本を学ぶ」を参照してください。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [!DNL Marketing Channels]はAdobe Analyticsの主な機能です。 [!DNL Marketing Channels]件のレポートでは、レポート期間に顧客がweb サイトに到達した方法と、各チャネルが収益またはサイト上の行動にどのような影響を与えたかを示します。
 
-相互訪問ジャーニーの例を考えてみましょう。 web サイトへの各訪問は、訪問者が入力したマーケティングチャネルで示されます。 初回訪問は、ファーストタッチチャネルとも呼ばれ、メールです。 訪問2のディスプレイは参加チャネルであり、自然検索はラストタッチチャネルと見なされます。 [!UICONTROL Last Touch Attribution]内で[!UICONTROL Attribution IQ]を使用する場合、自然検索は$250 コンバージョンイベントに対する完全なクレジットを受け取ります。 Experience Cloud ID サービスを使用すると、これらの個々の訪問を結び付けて、1人の訪問者が1つのジャーニーを表示できます。
+相互訪問ジャーニーの例を考えてみましょう。 web サイトへの各訪問は、訪問者が入力したマーケティングチャネルで示されます。 初回訪問は、ファーストタッチチャネルとも呼ばれ、メールです。 訪問2のディスプレイは参加チャネルであり、自然検索はラストタッチチャネルと見なされます。 [!UICONTROL Attribution IQ]内で[!UICONTROL Last Touch Attribution]を使用する場合、自然検索は$250 コンバージョンイベントに対する完全なクレジットを受け取ります。 Adobe CX Enterprise ID サービスを使用すると、これらの個々の訪問を結び付けて、1人の訪問者が1つのジャーニーを表示できます。
 
 ![&#x200B; マーケティングチャネルでのクロスビジットのコンバージョンジャーニーの例](/help/integrations/assets/a4adc-mc-sample-journey.png)
 
@@ -53,6 +53,6 @@ Adobe Advertisingがカスタムマーケティングチャネルの作成に必
 >
 >* [Adobe Advertising IDを使用して [!DNL Marketing Channels] 処理ルールを作成](mc-ids.md)
 >* [Adobe Advertisingと [!DNL Marketing Channels]](mc-data-variances.md)でチャネルデータが異なる理由
->* [Adobe Advertising data [!DNL Analytics Marketing Channels] での](mc-ac-data.md)の使用
+>* [Adobe Advertising data](mc-ac-data.md)での [!DNL Analytics Marketing Channels] の使用
 >* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/ja/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
 >* [概要： [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

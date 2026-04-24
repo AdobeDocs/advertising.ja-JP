@@ -11,9 +11,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 277
+source-wordcount: 345
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Analytics セグメント
 
-[!DNL Analytics]で作成され、Experience Cloudに公開されたすべてのセグメント。
+[!DNL Analytics]で作成され、Adobe CX Enterprise （旧Adobe） Experience Cloudに公開されたすべてのセグメント。
 
 新しいセグメントがAdobe Advertisingに表示されるまでに24～48時間かかります。 既存のセグメントの更新は、約8時間以内に同期されます。
 

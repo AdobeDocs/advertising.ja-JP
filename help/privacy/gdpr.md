@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1046
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 一般データ保護規則（GDPR）は、2018年5月25日に施行される法律で、欧州連合（EU）の範囲内のすべての個人（データ主体）に個人データを管理させ、国際的なビジネスの規制環境を簡素化します。 この法律は、データ管理者の事業拠点に関係なく、個人データが処理される時点で、EUの国境内の個人に対して商品またはサービスを提供する、個人データの行動を監視または収集するすべての企業（データ管理者）に適用されます。
 
-Adobe Experience Cloudは、顧客のために収集、保存する個人データのデータ処理者として機能します。 データ管理者は、Adobe Experience Cloudがユーザーの代わりに処理および保存する個人データを決定します。
+Adobe CX Enterpriseは、顧客のために収集、保存する個人データのデータ処理者として機能します。 データ管理者は、Adobe CX Enterpriseがユーザーの代わりに処理および保存する個人データを決定します。
 
 このドキュメントでは、Adobe Experience Platform Privacy Service APIとPrivacy Service UIを使用して、[!DNL Advertising Search, Social, & Commerce]、Advertising Creative、Advertising DSP （Demand Side Platform）、[!DNL Advertising DCO]がデータ主体のGDPR データへのアクセス権と削除権をどのようにサポートしているかを説明します。
 
@@ -50,11 +50,11 @@ Adobe Experience Platformでは、次のタスクを実行できます。
 
 Adobe Advertisingのデータへのアクセスと削除をリクエストするには、次の操作を行う必要があります。
 
-1. JavaScript ライブラリをデプロイして、データ主体のCookieを取得および削除します。 同じライブラリ `AdobePrivacy.js`が、すべてのAdobe Experience Cloud ソリューションに使用されます。
+1. JavaScript ライブラリをデプロイして、データ主体のCookieを取得および削除します。 同じライブラリ `AdobePrivacy.js`が、すべてのAdobe CX Enterprise ソリューションに使用されます。
 
    >[!IMPORTANT]
    >
-   >一部のExperience Cloud ソリューションへのリクエストにはJavaScript ライブラリは必要ありませんが、Adobe Advertisingへのリクエストには必要です。
+   >一部のCX Enterprise ソリューションへのリクエストにはJavaScript ライブラリは必要ありませんが、Adobe Advertisingへのリクエストには必要です。
 
    企業のプライバシーポータルなどのアクセス要求や削除要求をデータ主体が送信できるweb ページにライブラリをデプロイする必要があります。 ライブラリは、[!DNL Adobe] Cookie （名前空間ID: `gsurferID`）を取得するのに役立ちます。これにより、Adobe Experience Platform Privacy Service APIを介したアクセス要求と削除要求の一部として、これらのIDを送信できます。
 
@@ -64,17 +64,17 @@ Adobe Advertisingのデータへのアクセスと削除をリクエストする
    >
    >個人データの削除は、オーディエンスセグメントによるエンドユーザーのターゲティングを停止するオプトアウトとは異なります。 ただし、データ主体が[!DNL Creative]、[!DNL DSP]、または[!DNL DCO]から個人データを削除するように求められると、ライブラリはAdobe Advertisingにもリクエストを送信して、セグメントターゲティングからデータ主体をオプトアウトします。 [!DNL Search, Social, & Commerce]を持つ広告主の場合は、データ主体に[https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html)へのリンクを提供することをお勧めします。これにより、オーディエンスセグメントターゲティングをオプトアウトする方法を説明できます。
 
-1. Experience Cloud組織IDを特定し、Adobe Advertising アカウントにリンクされていることを確認します。
+1. CX Enterprise組織IDを特定し、Adobe Advertising アカウントにリンクされていることを確認します。
 
-   Experience Cloud組織IDは、「@AdobeOrg」が付いた24文字の英数字の文字列です。 ほとんどのExperience Cloudのお客様には、組織IDが割り当てられています。 マーケティング部門または社内の[!DNL Adobe] システム管理者が組織IDを把握していない場合、または組織IDがプロビジョニングされているかどうかわからない場合は、Adobe カスタマーケア（gdprsupport@adobe.com）にお問い合わせください。 `imsOrgID`名前空間を使用してPrivacy APIにリクエストを送信するには、組織IDが必要です。
+   CX Enterprise organization IDは、「@AdobeOrg」が付いた24文字の英数字の文字列です。 ほとんどのCX Enterpriseのお客様には、組織IDが割り当てられています。 マーケティング部門または社内の[!DNL Adobe] システム管理者が組織IDを把握していない場合、または組織IDがプロビジョニングされているかどうかわからない場合は、Adobe カスタマーケア（gdprsupport@adobe.com）にお問い合わせください。 `imsOrgID`名前空間を使用してPrivacy APIにリクエストを送信するには、組織IDが必要です。
 
    >[!IMPORTANT]
    >
-   >お客様の組織のすべてのAdobe Advertising アカウント（アカウント [!DNL DSP]または広告主、[!DNL Search, Social, & Commerce] アカウント、[!DNL Creative]または[!DNL DCO] アカウントを含む）がExperience Cloudの組織IDにリンクされていることを確認するには、会社のAdobe Advertising担当者にお問い合わせください。
+   >お客様の組織のすべてのAdobe Advertising アカウント（アカウント [!DNL DSP]または広告主、[!DNL Search, Social, & Commerce] アカウント、[!DNL Creative]または[!DNL DCO] アカウントを含む）がCX Enterpriseの組織IDにリンクされていることを確認するには、会社のAdobe Advertising担当者にお問い合わせください。
 
 1. [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ja) （自動リクエストの場合）または[Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja) （アドホックリクエストの場合）を使用して、データ主体に代わってAdobe Advertisingにアクセス要求と削除要求を送信し、既存の要求のステータスを確認します。
 
-   モバイルアプリを使用してデータ主体と対話し、Experience Cloudでキャンペーンを開始する広告主の場合は、DSP用のプライバシー対応モバイル SDKをダウンロードする必要があります。 Mobile SDKを使用すると、データ管理者はオプトアウトステータスフラグを設定し、データ主体のデバイス ID （名前空間ID: `deviceID`）を取得して、Privacy Service APIにリクエストを送信できます。 モバイルアプリには、SDK バージョン 4.15.0以降が必要です。
+   モバイルアプリを使用してデータ主体と対話し、CX Enterpriseでキャンペーンを開始する広告主の場合は、DSP用のプライバシー対応モバイル SDKをダウンロードする必要があります。 Mobile SDKを使用すると、データ管理者はオプトアウトステータスフラグを設定し、データ主体のデバイス ID （名前空間ID: `deviceID`）を取得して、Privacy Service APIにリクエストを送信できます。 モバイルアプリには、SDK バージョン 4.15.0以降が必要です。
 
    データ主体のアクセスリクエストを送信すると、Privacy Service APIは、指定されたcookieまたはデバイス IDに基づいてデータ主体の情報を返します。その後、データ主体に戻る必要があります。
 
@@ -82,7 +82,7 @@ Adobe Advertisingのデータへのアクセスと削除をリクエストする
 
    >[!NOTE]
    >
-   >会社が複数のExperience Cloud組織IDを持っている場合は、それぞれに個別のAPI リクエストを送信する必要があります。 ただし、複数のAdobe Advertising サブソリューション（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]、および[!DNL DCO]）に1つのAPI リクエストを、サブソリューションごとに1つのアカウントで行うことができます。
+   >会社が複数のCX Enterprise組織IDを持っている場合は、それぞれに個別のAPI リクエストを送信する必要があります。 ただし、複数のAdobe Advertising サブソリューション（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]、および[!DNL DCO]）に1つのAPI リクエストを、サブソリューションごとに1つのアカウントで行うことができます。
 
 すべての手順はAdobe Advertisingに必要です。 Adobe Experience Platform Privacy Serviceを使用して実行する必要があるこれらのタスクと関連タスク、および必要な項目の検索場所について詳しくは、「[Privacy Serviceの概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)」を参照してください。
 
@@ -91,7 +91,7 @@ Adobe Advertisingのデータへのアクセスと削除をリクエストする
 `"company context":`
 
 * `"namespace": **imsOrgID**`
-* `"value":` &lt;*Experience Cloud組織ID*>
+* `"value":` &lt;*CX Enterprise組織ID*>
 
 `"users":`
 

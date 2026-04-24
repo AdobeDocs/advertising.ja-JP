@@ -1,6 +1,6 @@
 ---
-title: ' [!DNL Last Event Service] で [!DNL Web SDK]JavaScript ライブラリを使用する'
-description: ' [!DNL Analytics] [!DNL visitorAPI] ライブラリの使用から [!DNL Experience Platform] [!DNL Web SDK]実装の [!DNL Analytics for Advertising]  ライブラリに切り替える手順について説明します。'
+title: ' [!DNL Web SDK]で [!DNL Last Event Service] JavaScript ライブラリを使用する'
+description: ' [!DNL Analytics] [!DNL visitorAPI] ライブラリの使用から [!DNL Analytics for Advertising] 実装の [!DNL Experience Platform] [!DNL Web SDK] ライブラリに切り替える手順について説明します。'
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
 TQID: https://experienceleague.adobe.com/zT1lQV1yotCfJJdzTBGzSspsNEKQEB5ulxYE0qyWa9Q
@@ -14,18 +14,18 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 193
+source-wordcount: 202
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Platform [!DNL Last Event Service]での[!DNL Web SDK] JavaScript ライブラリの使用
+# Adobe Experience Platform [!DNL Web SDK]での[!DNL Last Event Service] JavaScript ライブラリの使用
 
 *Adobe AdvertisingとAdobe Analyticsの統合のみを使用する広告主*
 
-組織でデータ収集に従来のAdobe Analytics `visitorAPI.js` ライブラリを使用している場合は、オプションで[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) ライブラリ （`alloy.js`）を使用して切り替えることができ、[!DNL Edge Network]を介して様々なExperience Cloud サービスと対話できます。
+組織でデータ収集に従来のAdobe Analytics `visitorAPI.js` ライブラリを使用している場合は、オプションで[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) ライブラリ （`alloy.js`）を使用して切り替えることができ、[!DNL Edge Network]を介して様々なAdobe CX Enterprise サービスと対話できます。
 
 [!DNL Analytics for Advertising] [!DNL Last Event Service] JavaScript ライブラリは、そのまま、ビュースルーおよびクリックスルーのイベントを記録し、補足ID （`SDID`）を使用して関連するコンバージョンにそれらを合成します。 ただし、[!DNL Web SDK] ライブラリは[!DNL stitch ID]を提供していません。 [!DNL Web SDK]を[!DNL Analytics for Advertising]に使用するには、1） web ページで使用する[!DNL Last Event Service] タグを変更し、2）それに応じて[!DNL Web SDK] `sendEvent` コマンドを変更する必要があります。
 
@@ -85,4 +85,4 @@ Web ページで使用する[!DNL Analytics for Advertising] [!DNL Last Event Se
 >[!MORELIKETHIS]
 >
 >* [概要： [!DNL Analytics for Advertising]](overview.md)
->* [の [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)JavaScript コード
+>*  [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/javascript.md)のJavaScript コード

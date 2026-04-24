@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3148634061d8d705608f9686da936d0b5b79e4c4
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 6%
+source-wordcount: '440'
+ht-degree: 0%
 
 ---
 # 記事を投稿
@@ -11,7 +11,7 @@ ht-degree: 6%
 
 ## AdobeオープンSource行動規範
 
-このプロジェクトでは、[アドビオープンソース行動規範](code-of-conduct.md) または [.NET Foundation 行動規範](https://dotnetfoundation.org/code-of-conduct)を採用しています。詳しくは、[投稿](contributing.md)の記事を参照してください。
+このプロジェクトでは、[Adobe Open Source Code of Conduct](code-of-conduct.md)または[.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct)を採用しています。 詳しくは、[寄付](contributing.md)の記事を参照してください。
 
 ## Adobe コンテンツへのコントリビューションについて
 
@@ -35,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Adobe社員の主な変更点
 
-テクニカルライター、プログラムマネージャー、またはAdobe Experience Cloud ソリューションのプロダクトチームの開発者で、技術記事の投稿や作成を担当する場合は、`https://git.corp.adobe.com/AdobeDocs`にあるプライベートリポジトリを使用してください。
+テクニカルライター、プログラムマネージャー、またはAdobe CX Enterprise ソリューションのプロダクトチームの開発者で、技術記事の投稿や作成を担当する場合は、`https://github.com/Adobe-Enterprise-Docs`にあるプライベートリポジトリを使用してください。
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -50,7 +50,7 @@ If you submit a pull request with significant changes to documentation and code 
 このリポジトリ内のすべての記事では、GitHubのマークダウンを使用しています。 Markdownに詳しくない場合は、以下を参照してください。
 
 * [Markdownの基本](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [印刷可能なマークダウンのチートシート &#x200B;](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [印刷可能なマークダウンのチートシート](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## ラベル
 

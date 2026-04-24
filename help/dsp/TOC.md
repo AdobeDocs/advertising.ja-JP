@@ -4,41 +4,41 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: b3eb6f69a643637635ac60e6751d091c5380a397
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 4%
+source-wordcount: '1054'
+ht-degree: 3%
 
 ---
 
 
 # Advertising DSP ガイド {#dsp}
 
-+ [最新情報](/help/dsp/home.md)
++ [新機能](/help/dsp/home.md)
 + [Adobe Advertising DSPにログイン](/help/dsp/introduction/sign-in.md)
 + 概要 {#introduction}
-   + [Adobe Advertising DSPの概要](/help/dsp/introduction/dsp-about.md)
-   + 主な機能 {#features}
-      + [最適化](/help/dsp/introduction/features/optimization.md)
-      + [ブランドセーフティおよびメディア品質](/help/dsp/introduction/features/brand-safety-media-quality.md)
-      + [クロスデバイスソリューション](/help/dsp/introduction/features/cross-device-solutions.md)
-   + [アカウント資金調達](/help/dsp/introduction/billing/account-funding.md)
-   + [サポートされている通貨](/help/dsp/currency.md)
-   + [消費者プライバシーのサポート &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
-   + [&#x200B; ポリシーとガイドライン &#x200B;](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
-   + [高度な測定ソリューション](/help/dsp/introduction/advanced-measurement-services.md)
-+ [AIを活用したチャットで、製品ドキュメントを検索できます](/help/dsp/agent-chat.md)
-+ キャンペーン管理 {#campaign-management}
-   + [Adobe Advertising DSPのキャンペーン管理の概要](/help/dsp/campaign-management/campaign-management-overview.md)
+   + [Introduction to Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
+   + Key features {#features}
+      + [Optimization](/help/dsp/introduction/features/optimization.md)
+      + [Brand safety and media quality](/help/dsp/introduction/features/brand-safety-media-quality.md)
+      + [Cross-device solutions](/help/dsp/introduction/features/cross-device-solutions.md)
+   + [Account funding](/help/dsp/introduction/billing/account-funding.md)
+   + [Currencies supported](/help/dsp/currency.md)
+   + [Support for consumer privacy](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
+   + [Policies and guidelines](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
+   + [Advanced measurement solutions](/help/dsp/introduction/advanced-measurement-services.md)
++ [Search for product documentation using AI-assisted chat](/help/dsp/agent-chat.md)
++ Campaign management {#campaign-management}
+   + [Overview of campaign management in Advertising DSP](/help/dsp/campaign-management/campaign-management-overview.md)
    + キャンペーン {#campaigns}
-      + [Adobe Advertising DSPのキャンペーン管理について](/help/dsp/campaign-management/campaigns/campaign-about.md)
-      + [キャンペーンの作成](/help/dsp/campaign-management/campaigns/campaign-create.md)
+      + [About campaign management in Advertising DSP](/help/dsp/campaign-management/campaigns/campaign-about.md)
+      + [Create a campaign](/help/dsp/campaign-management/campaigns/campaign-create.md)
       + [キャンペーンの編集](/help/dsp/campaign-management/campaigns/campaign-edit.md)
-      + [キャンペーンの複製](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
-      + [キャンペーンの詳細レポートの表示](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
-      + [キャンペーンを一時停止またはアクティブ化](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)
-      + [キャンペーンのアーカイブまたはアーカイブ解除](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
-      + [キャンペーンの変更ログの表示](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
+      + [Duplicate a campaign](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
+      + [View a detailed report for a campaign](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+      + [Pause or activate a campaign](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)
+      + [Archive or unarchive a campaign](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
+      + [View the change log for a campaign](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
       + [バルクシートを使用したキャンペーンコンポーネント設定の確認と編集](/help/dsp/campaign-management/campaign-components-review-edit.md)
       + [キャンペーン開始のチェックリスト](/help/dsp/campaign-management/campaign-launch-checklist.md)
@@ -77,7 +77,7 @@ ht-degree: 4%
       + [バルクシートを使用した広告の詳細の確認と編集](/help/dsp/campaign-management/ads/ad-qa.md)
       + [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
       + [広告の複製](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [&#x200B; プレースメントに広告を添付して削除](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=ja)
+      + [プレースメントへの広告の添付と削除](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=ja)
       + [広告に関連付けられているプレースメントのリスト](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [広告の詳細レポートの表示](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [広告を一時停止またはアクティベート](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -145,27 +145,27 @@ ht-degree: 4%
          + [ユーザーIDを [!DNL Optimizely] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-optimizely.md)
          + [ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-tealium.md)
       + [オーディエンスソースを管理して、ユニバーサル ID オーディエンスをアクティブ化する](/help/dsp/audiences/sources/source-manage.md)
-   + [&#x200B; [!DNL LiveRamp]から認証済みセグメントを手動でインポートします](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
-   + [利用可能なサードパーティデータプロバイダー](/help/dsp/audiences/third-party-data-providers.md)
-+ 在庫 {#inventory}
-   + [Advertising DSPの在庫機能の概要](/help/dsp/inventory/inventory-overview.md)
-   + [&#x200B; [!DNL Roku Inventory]を使用](/help/dsp/inventory/roku-inventory.md)
-   + [SSP パートナー](/help/dsp/inventory/ssp-partners.md)
-   + [!DNL On Demand] インベントリ {#on-demand}
-      + [プレミアム在庫について [!DNL On Demand] 件](/help/dsp/inventory/on-demand-inventory-about.md)
-      + 利用可能な[!DNL On Demand] プレミアム広告在庫パブリッシャー {#publishers}
-         + [アジア太平洋地域の[!DNL On Demand]社のプレミアム広告在庫パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
-         + [オーストラリアとニュージーランドの[!DNL On Demand]社のプレミアム広告在庫パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
-         + [ヨーロッパ、中東、アフリカの[!DNL On Demand]社のプレミアム広告在庫パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
-         + [北米の[!DNL On Demand]社のプレミアム広告在庫パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
-      + [&#x200B; [!DNL On Demand]  プレミアム在庫取引の購読とアクセスのリクエスト](/help/dsp/inventory/on-demand-inventory-subscribe.md)
-      + [プレミアム在庫取引を再申請 [!DNL On Demand] する](/help/dsp/inventory/on-demand-inventory-rerequest.md)
-      + [&#x200B; [!DNL On Demand] 取引依頼とサブスクリプションのステータスを表示します](/help/dsp/inventory/on-demand-inventory-view-status.md)
-   + プライベート在庫 {#private-inventory}
-      + [プライベート在庫について](/help/dsp/inventory/private-inventory-about.md)
-      + 取引ID {#deal-ids}
+   + [Manually import authenticated segments from [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+   + [Available third-party data providers](/help/dsp/audiences/third-party-data-providers.md)
++ Inventory {#inventory}
+   + [Overview of inventory features in Advertising DSP](/help/dsp/inventory/inventory-overview.md)
+   + [Using [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
+   + [SSP partners](/help/dsp/inventory/ssp-partners.md)
+   + [!DNL On Demand] inventory {#on-demand}
+      + [About [!DNL On Demand] premium inventory](/help/dsp/inventory/on-demand-inventory-about.md)
+      + Available [!DNL On Demand] premium inventory publishers {#publishers}
+         + [[!DNL On Demand] premium inventory publishers in Asia Pacific](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
+         + [[!DNL On Demand] premium inventory publishers in Australia and New Zealand](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
+         + [[!DNL On Demand] premium inventory publishers in Europe, the Middle East, and Africa](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
+         + [[!DNL On Demand] premium inventory publishers in North America](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
+      + [Subscribe and request access to [!DNL On Demand] premium inventory deals](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+      + [Re-request [!DNL On Demand] premium inventory deals](/help/dsp/inventory/on-demand-inventory-rerequest.md)
+      + [View the status of your [!DNL On Demand] deal requests and subscriptions](/help/dsp/inventory/on-demand-inventory-view-status.md)
+   + Private inventory {#private-inventory}
+      + [About private inventory](/help/dsp/inventory/private-inventory-about.md)
+      + Deal IDs {#deal-ids}
          + [!UICONTROL Deal ID inbox] {#inbox}
-            + [[!UICONTROL Deal ID Inbox]について](/help/dsp/inventory/deal-id-inbox-about.md)
+            + [About the [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
             + [[!UICONTROL Deal ID Inbox]で取引を承認](/help/dsp/inventory/deal-id-inbox-accept.md)
          + 手動で入力された案件ID {#manual}
             + [取引IDの詳細を手動で作成する](/help/dsp/inventory/deal-id-create.md)
@@ -233,9 +233,9 @@ ht-degree: 4%
    + 通知 {#notifications}
       + [アラート配信について](/help/dsp/admin/alerts-about.md)
       + [アラート購読の管理](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloudとの統合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ja)
++ [Adobe CX Enterpriseとの連携](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ja)
 + [ヘルプを表示](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud リリースノート &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)
++ [Adobe CX Enterprise リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)
 
 
 <!--

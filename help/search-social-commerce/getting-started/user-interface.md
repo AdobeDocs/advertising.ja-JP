@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 1396
+source-wordcount: 1392
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Plan]** サブメニュー：
 
-   * **[!UICONTROL Simulations]** ユーザーが作成したすべてのカスタムシミュレーションと自動生成された週次シミュレーションを表示したり、新しいカスタムシミュレーションを生成したり、既存のシミュレーションを再実行したりできる、新しい[[!UICONTROL Simulations] ビュー](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)を開きます。 [!UICONTROL Spend Planner] ボタンをクリックすると、[!UICONTROL Spend Recommendation] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization]のレガシー[!UICONTROL Spend Recommendation] ツールが開きます。
+   * **[!UICONTROL Simulations]** ユーザーが作成したすべてのカスタムシミュレーションと自動生成された週次シミュレーションを表示したり、新しいカスタムシミュレーションを生成したり、既存のシミュレーションを再実行したりできる、新しい[[!UICONTROL Simulations] ビュー](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)を開きます。 [!UICONTROL Spend Planner] ボタンをクリックすると、[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]のレガシー[!UICONTROL Spend Recommendation] ツールが開きます。
 
    * **[!UICONTROL Spend Planner]**&#x200B;新しいサイトを終了し、従来の[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] ビューを開きます。
 
@@ -148,17 +148,17 @@ Tools > Admin > Data Source Setup
 
 ## 右上のその他のタスクおよび情報ベースのメニュー
 
-### 一番上の行：Experience Cloud メニュー
+### 一番上の行：CX Enterprise メニュー
 
-* アクセスできるExperience Cloud組織の選択可能なリスト。
+* アクセスできるCX Enterprise組織の選択可能なリスト。
 
 * ![&#x200B; ヘルプセンター](/help/search-social-commerce/assets/help-main-menu.png " ヘルプセンター") ドキュメントやその他の情報へのリンクが含まれたヘルプメニュー。
 
-* ![通知](/help/search-social-commerce/assets/notifications-aec.png "通知") Experience Cloudからのリクエスト、通知、通知を一覧表示するパネル。
+* ![通知](/help/search-social-commerce/assets/notifications-aec.png "通知") CX Enterpriseからのリクエスト、通知、通知を一覧表示するパネル。
 
-* ![&#x200B; アプリ &#x200B;](/help/search-social-commerce/assets/apps.png " アプリ ")切り替え可能なAdobe Experience Cloud ソリューションとサービスの一覧。
+* ![&#x200B; アプリ &#x200B;](/help/search-social-commerce/assets/apps.png " アプリ ")切り替え可能なAdobe CX Enterprise ソリューションとサービスの一覧。
 
-* ![&#x200B; アカウント &#x200B;](/help/search-social-commerce/assets/account.png " アカウント ")設定を変更してログアウトできる、Experience Cloud アカウントのプロファイルに関する情報。
+* ![&#x200B; アカウント &#x200B;](/help/search-social-commerce/assets/account.png " アカウント ")設定を変更してログアウトできる、CX Enterprise アカウントのプロファイルに関する情報。
 
 ### 2行目：その他の検索、ソーシャル、Commerce メニュー
 
@@ -208,15 +208,15 @@ Tools > Admin > Data Source Setup
 
 * ![&#x200B; アラート通知](/help/search-social-commerce/assets/notifications-panel.png " アラート通知")検索、ソーシャル、Commerceの通知を一覧表示するパネル。
 
-  Adobe Experience Cloud[を通じて](sign-in.md) ログインすると、このパネルにExperience Cloudからの通知が表示されます。
+  Adobe CX Enterprise[&#128279;](sign-in.md)を通じて ログインすると、このパネルにCX Enterpriseからの通知が表示されます。
 
 * ![&#x200B; ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー") ドキュメントやその他の情報へのリンクが含まれるヘルプメニュー。
 
-* ![&#x200B; ソリューションスイッチャー](/help/search-social-commerce/assets/menu-icon.png " ソリューションスイッチャー")切り替え可能なAdobe Experience Cloud ソリューションとサービスの一覧。
+* ![&#x200B; ソリューションスイッチャー](/help/search-social-commerce/assets/menu-icon.png " ソリューションスイッチャー")切り替え可能なAdobe CX Enterprise ソリューションとサービスの一覧。
 
 * ![&#x200B; ユーザープロファイル &#x200B;](/help/search-social-commerce/assets/user-profile.png " ユーザープロファイル ")あなたのプロファイルへのリンクで、ログアウトできます。
 
-  Adobe Experience Cloud[を使用して](sign-in.md) ログインしている場合は、Experience Cloudのパスワードと通知設定を含むExperience Cloud プロファイルを編集することもできます。
+  Adobe CX Enterprise[&#128279;](sign-in.md)を使用して ログインしている場合は、CX Enterpriseのパスワードと通知設定を含むCX Enterprise プロファイルを編集することもできます。
 
 >[!MORELIKETHIS]
 >

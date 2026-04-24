@@ -18,9 +18,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 517
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe AdvertisingとAudience Managerは、次の方法で統合できます。
 
 *オプトインした広告主で[!DNL Advertising Search, Social, & Commerce]さんのみ*
 
-[!DNL Search, Social, & Commerce]内で、[!DNL Google Ads]と[!UICONTROL Adobe Media Optimizer (HTTP)]を宛先として持つ既存のAudience Manager セグメントを使用して、ユーザーIDから[!UICONTROL Adobe Media Optimizer Batch Destination]個の顧客一致オーディエンスを作成できます。 （[!DNL Media Optimizer]は[!DNL Search, Social, & Commerce]の旧名です）これには、Adobe Experience Cloudに公開されるAdobe Analytics セグメントと、Adobe Experience Cloud [!DNL Audience Library]を使用して作成されるセグメントが含まれます。 詳しくは、「[Create [!DNL Google Ads] customer match audiences from [!DNL Adobe] audiences](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)」を参照してください。
+[!DNL Search, Social, & Commerce]内で、[!UICONTROL Adobe Media Optimizer (HTTP)]と[!UICONTROL Adobe Media Optimizer Batch Destination]を宛先として持つ既存のAudience Manager セグメントを使用して、ユーザーIDから[!DNL Google Ads]個の顧客一致オーディエンスを作成できます。 （[!DNL Media Optimizer]は[!DNL Search, Social, & Commerce]の旧名です）。 これには、Adobe CX Enterpriseに公開されるAdobe Analytics セグメントと、Adobe CX Enterprise [!DNL Audience Library]を使用して作成されるセグメントが含まれます。 詳しくは、「[Create [!DNL Google Ads] customer match audiences from [!DNL Adobe] audiences](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)」を参照してください。
 
 [&#x200B; ユーザーIDの顧客マッチオーディエンス &#x200B;](https://support.google.com/google-ads/answer/9199250)は、web サイトのタグベースのオーディエンスと同様に機能しますが、PII以外のIDは、標準の顧客マッチオーディエンスとweb サイトのタグベースのオーディエンスに対して明確なメリットを得るために、一意のオーディエンスメンバーに割り当てられます。
 
@@ -49,26 +49,26 @@ Adobe AdvertisingとAudience Managerは、次の方法で統合できます。
 
 ### Audience Managerおよびその他[!DNL Adobe] セグメントを使用して広告をターゲティングまたは除外する {#audience-manager-targets}
 
-* （オプトインした広告主と[!DNL Search, Social, & Commerce]）キャンペーン レベルまたは広告グループレベルのターゲットまたは除外として[!DNL Google Ads] セグメント [を使用して [!DNL Adobe] 作成された](#audience-manager-google-audiences)個のオーディエンスを[!DNL Google Ads] キャンペーンで使用できます。
+* （オプトインした広告主と[!DNL Search, Social, & Commerce]）キャンペーン レベルまたは広告グループレベルのターゲットまたは除外として [!DNL Adobe]  セグメント [&#128279;](#audience-manager-google-audiences)を使用して作成された[!DNL Google Ads]個のオーディエンスを[!DNL Google Ads] キャンペーンで使用できます。
 
-* （DSPを使用している広告主）既存の[!DNL Adobe] セグメントを広告プレースメントのターゲットとして使用できます。 オプションで、セグメントを再利用可能なオーディエンスに含めることができます。このオーディエンスは、複数のプレースメントのターゲットまたは除外として使用できます。
+* （DSPを使用している広告主）既存の[!DNL Adobe] セグメントを広告プレースメントのターゲットとして使用できます。 You can optionally include the segments in reusable audiences, which you can use as targets or exclusions for multiple placements.
 
-* （Advertising Creativeを使用している広告主）既存の[!DNL Adobe] セグメントを、広告エクスペリエンスの特定のクリエイティブのターゲットとして使用できます。
+* (Advertisers with Advertising Creative) You can use your existing [!DNL Adobe] segments as targets for specific creatives in your ad experiences.
 
 >[!NOTE]
 >
->Audience ManagerおよびExperience Cloud [!DNL Audience Library] インターフェイスでオーディエンスを作成する方法と、様々なオーディエンスタイプの一般的なユースケースについて詳しくは、「[&#x200B; オーディエンス作成オプション &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja)」を参照してください。
+>For more information about how to create audiences in the Audience Manager and Adobe CX Enterprise [!DNL Audience Library] interfaces, and common use cases for different audience types, see &quot;[Audience creation options](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja).&quot;
 
-## DSPのメディア露出データをAudience Managerに送信
+## Send DSP media exposure data to Audience Manager
 
-*DSPのみの広告主*
+*Advertisers with DSP only*
 
-Adobe Audience Managerを使用しているDSPのお客様は、Audience Managerへのpixel呼び出しを使用して、広告キャンペーンからデータを取得できます。 キャンペーンのデータを使用してルールベースの特性を構築し、新しいセグメントを定義して、より高度なセグメンテーション、頻度の管理、マーケティング分析、レポートインサイトなど、DSPの様々なユースケースを実現できます。
+DSP customers with Adobe Audience Manager can capture data from ad campaigns using pixel calls to Audience Manager. You can then use the campaign data to build rule-based traits, which you can use to define new segments to enable various DSP use cases, such as more advanced segmentation, frequency management, marketing analytics, and reporting insights.
 
-詳しくは、「[Adobe Audience ManagerへのDSP メディア露出データの送信の概要](/help/integrations/audience-manager/media-data-integration/overview.md)」を参照してください。
+See &quot;[Overview of sending DSP media exposure data to Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md)&quot; for more information.
 
-## Audience Analyticsで、サイトのアクティビティに関するより詳細なインサイトを獲得
+## Get richer insights into site activity with Audience Analytics
 
-[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja)のAdobe Advertisingのお客様は、Adobe Advertisingで追跡されたデータとAudience Manager セグメントの両方を[!DNL Analytics]に送信して、サイトのアクティビティに関する詳細なインサイトを得ることができます。
+Adobe Advertising customers with [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja) can send both Adobe Advertising-tracked data and Audience Manager segments to [!DNL Analytics] for enriched insights about site activity.
 
-詳しくは、「[[!DNL Adobe Audience Analytics] Adobe Advertisingのお客様](/help/integrations/audience-manager/audience-analytics.md)」を参照してください。
+For more information, see &quot;[[!DNL Adobe Audience Analytics] for Adobe Advertising customers](/help/integrations/audience-manager/audience-analytics.md).&quot;

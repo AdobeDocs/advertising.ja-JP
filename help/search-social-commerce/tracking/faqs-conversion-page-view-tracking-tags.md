@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 45b15880c20d516e4bab1ec664a45ebdf8ffbdcc
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 新しい実装では、すべてJavaScript バージョン 3を使用します。
->* ECIDを持つJavaScript タグは、[Adobe Experience Cloud ID （ECID） サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)と、従来のef_idおよびgsurferidを使用して、コンバージョンを測定します。 この最新のタグは、[&#x200B; ファーストパーティ Experience Cloud s_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=ja)を作成し、他のExperience Cloud製品との緊密な統合を提供します。
+>* ECIDを持つJavaScript タグは、[Adobe Experience Cloud ID （ECID） サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)と、従来のef_idおよびgsurferidを使用して、コンバージョンを測定します。 この最新のタグは、[&#x200B; ファーストパーティ CX Enterprise s_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=ja)を作成し、他のCX Enterprise製品との緊密な統合を提供します。
 >* JavaScript バージョン 2のタグは、広告主のweb ページにタグが既に実装されている場合にのみ使用します。
 >* ベストプラクティスは、サイトが画像タグの使用に対するポリシーを持っていない限り、画像タグの代わりにJavaScript タグを使用することです。
->* JavaScript タグは、Adobe Experience Cloudで作成されたオーディエンス、Adobe Audience Managerで作成されたオーディエンス、Audience ManagerまたはAdobe AnalyticsからAdobe Experience Cloudに公開されたオーディエンスをターゲットにする広告主に必要です。
+>* JavaScript タグは、Adobe CX Enterpriseで作成されたオーディエンス、Adobe Audience Managerで作成されたオーディエンス、Audience ManagerまたはAdobe AnalyticsからAdobe CX Enterpriseに公開されたオーディエンスをターゲットにする広告主に必要です。
 
 >[!MORELIKETHIS]
 >

@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 363
+source-wordcount: 389
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Search, Social, &amp; Commerceは、ログイン認証のためにAdobe Identity Management Service （IMS）に移行中です。 IMSは、Real-Time Customer Data Platform、Customer Journey Analytics、Target、Analyticsなど、IMSをサポートするすべての[!DNL Adobe]製品に対して、フェデレーション IDを使用したシングルサインオン（SSO）アクセスを提供します。 変更内容：
 
-* 1つの[!DNL Adobe ID]を使用して、Experience Cloudのログインページまたは従来のSearch, Social, &amp; Commerceのログインページから[!DNL Adobe]個の製品間でログインできます。 お客様の[!DNL Adobe ID]は、ユーザープロファイル管理と、上部メニューから別の[!DNL Adobe]製品に切り替える機能を提供しています。 今後のリリースでは、上部メニューからSearch, Social, &amp; Commerce アカウントとIMS organization アカウントを変更できるようになります。
+* 1つの[!DNL Adobe ID]を使用して、CX Enterpriseのログインページまたは従来のSearch, Social, &amp; Commerceのログインページから[!DNL Adobe]個の製品間でログインできます。 お客様の[!DNL Adobe ID]は、ユーザープロファイル管理と、上部メニューから別の[!DNL Adobe]製品に切り替える機能を提供しています。 今後のリリースでは、上部メニューからSearch, Social, &amp; Commerce アカウントとIMS organization アカウントを変更できるようになります。
 
 * エンタープライズ認証がサポートされています。
 
@@ -29,7 +29,7 @@ Search, Social, &amp; Commerceは、ログイン認証のためにAdobe Identity
 
 現在のSearch, Social, &amp; Commerceの資格情報は、変更に備えることができるように、一時的にアクティブなままになります。
 
-ユーザープロファイルの管理など、Experience Cloud インターフェイスについて詳しくは、「[Experience Cloud インターフェイスと管理](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。
+ユーザープロファイルの管理など、CX Enterprise インターフェイスについて詳しくは、「[CX Enterprise インターフェイスと管理](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。
 
 ## 従来のSearch, Social, &amp; Commerce ログインページからのログイン
 
@@ -53,7 +53,7 @@ Search, Social, &amp; Commerceは、ログイン認証のためにAdobe Identity
 
 1. 複数のIMS組織にアクセスできる場合は、ページの右上にある正しい組織を選択します。
 
-## [!DNL Adobe ID]を使用してAdobe Experience Cloudからログイン
+## [!DNL Adobe ID]を使用してAdobe CX Enterpriseからログイン
 
 <!-- Later, give them the new direct URL(s) to our UI so they don't have to select the product. -->
 

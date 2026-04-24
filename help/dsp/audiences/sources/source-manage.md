@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 758
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->顧客データプラットフォームのソースを作成したら、オーディエンスをインポートするためのさらなる手順を完了する必要があります。 [の [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md) ワークフロー、<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->、[の [!DNL Amperity]](source-amperity.md) ワークフロー、[の [!DNL Optimizely]](source-optimizely.md) ワークフロー、[の [!DNL Tealium]](source-tealium.md) ワークフローを参照してください。
+>顧客データプラットフォームのソースを作成したら、オーディエンスをインポートするためのさらなる手順を完了する必要があります。  [!DNL Adobe] [!DNL Real-time CDP][&#128279;](source-adobe-rtcdp.md)の ワークフロー、<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->、 [!DNL Amperity][&#128279;](source-amperity.md)の[&#x200B; ワークフロー、 [!DNL Optimizely]](source-optimizely.md)の[&#x200B; ワークフロー、 [!DNL Tealium]](source-tealium.md)の ワークフローを参照してください。
 
 ## オーディエンスソースのID タイプの変更
 
@@ -81,7 +81,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. ソース行の上にカーソルを置き、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. ソース [に対して選択した](#source-settings)IDを変更します。
+1. ソース [&#128279;](#source-settings)に対して選択したIDを変更します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -119,7 +119,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 **[!UICONTROL Advertiser]:** （広告主レベルの表示のみ） セグメントを利用できる広告主。 アカウントへのアクセス権を持つ広告主のリストから1つを選択します。
 
-**[!UICONTROL Enter IMS Org Id]:** （[!DNL Real-Time CDP] ソースのみ） [!DNL Adobe Experience Platform] アカウントのAdobe Experience Cloud組織ID。
+**[!UICONTROL Enter IMS Org Id]:** （[!DNL Real-Time CDP] ソースのみ） [!DNL Adobe Experience Platform] アカウントのAdobe CX Enterprise組織ID。
 
 **[!UICONTROL Convert PII to the following IDs]:**&#x200B;個人を特定できる情報（PII）を変換するID タイプ。 複数のタイプを選択した場合、生成されたセグメントには、選択した各ID タイプの値が入力されます（例えば、メールアドレスごとに[!DNL RampID]と[!DNL Unified ID2.0]）。 データ料金はそれに応じて適用されます。
 
@@ -129,7 +129,7 @@ All changes to universal IDs translated from the source are applied after you sa
 >
 >1つのプレースメントでターゲットできるIDのタイプは1つだけです。 ID タイプ別にパフォーマンスをテストするには、[&#x200B; セグメント内のID タイプごとに個別のプレースメント &#x200B;](/help/dsp/campaign-management/placements/placement-create.md)を作成します。
 
-* *[!DNL RampID]:* PIIを[!DNL RampID]に変換します。 ログインユーザーのリターゲティングと[!DNL RampIDs]の測定には、[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)を使用できます。
+* *[!DNL RampID]:* PIIを[!DNL RampID]に変換します。 ログインユーザーのリターゲティングと[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)の測定には、[!DNL RampIDs]を使用できます。
 
 * *[!DNL Unified ID2.0]（Beta）:* ログイン ユーザーのリターゲティング用にPIIを[Unified ID 2.0](https://unifiedid.com) IDに変換するには、次の手順を実行します。
 

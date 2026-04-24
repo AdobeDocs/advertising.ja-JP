@@ -1,6 +1,6 @@
 ---
-title: 最新情報
-description: Adobe AdvertisingとAdobe Experience Cloudのその他の製品およびサービスとの統合のアップデートについて説明します。
+title: 新機能
+description: Adobe Advertisingと、Adobe CX Enterprise（旧Adobe Experience Cloud）のその他の製品およびサービスとの統合に関するアップデートについて説明します。
 cloud: Experience Cloud
 product: advertising cloud
 index: true
@@ -20,14 +20,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: 870
 ht-degree: 0%
 
 ---
 
-# 最新情報
+# 新機能
 
 以下の機能は新規または最近変更されました。
 
@@ -42,10 +42,10 @@ ht-degree: 0%
 | 2023年7月13日（PT） | レポート | （DSP ユーザーが[!DNL Analytics for Advertising]）コネクテッド TV （CTV）のプレースメントのビュースルーコンバージョンが、Adobe Analytics内で利用可能なコンバージョンデータに含まれるようになりました。 | 「[&#x200B; [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples)の概要」の「統合の使用例」の節を参照してください。 |
 | 2022年11月1日（PT） | ヘルプ | 新しいドキュメントでは、Advertising DSPとAdobe Target間のクリックスルーおよびビュースルーシグナルの共有を実装する方法、DSP広告用に[!DNL Target]でA/B テストアクティビティを設定する方法、およびテストデータを表示するようにAdobe Analytics Analysis Workspaceを設定する方法について説明します。 | 「[Advertising DSP ads](/help/integrations/target/ab-tests-dsp.md)のAdobe TargetでのA/B テストの設定」を参照してください。 |
 | 2022年8月17日（PT） | ヘルプ | 新しい章では、Adobe AdvertisingとAdobe Audience Managerの統合に関するあらゆる方法について説明します。 | 「[Adobe Audience ManagerとAdobe Audience Manager](/help/integrations/audience-manager/overview.md)」の概要を含む、「Adobe Advertisingとの統合」の章を参照してください。 |
-| 2021年4月27日（PT） | [!DNL Analytics for Advertising] | [!DNL Analytics for Advertising]広告タグに[!DNL Google Campaign Manager 360] マクロを追加してクリックデータをAdobe Analyticsに送信する理由と方法について説明します。 | 「[追加 [!DNL Analytics for Advertising]  マクロを [!DNL Google Campaign Manager 360] 広告タグ &#x200B;](/help/integrations/analytics/macros-google-campaign-manager.md)に追加」を参照してください。 |
+| 2021年4月27日（PT） | [!DNL Analytics for Advertising] | [!DNL Google Campaign Manager 360]広告タグに[!DNL Analytics for Advertising] マクロを追加してクリックデータをAdobe Analyticsに送信する理由と方法について説明します。 | 「[追加 [!DNL Analytics for Advertising]  マクロを [!DNL Google Campaign Manager 360] 広告タグ &#x200B;](/help/integrations/analytics/macros-google-campaign-manager.md)に追加」を参照してください。 |
 | 2021年4月19日（PT） | [!DNL Analytics for Advertising] | クリックデータをAdobe Analyticsに送信するために[!DNL Flashtalking]広告タグにマクロを追加する理由と方法について説明します。 | 「[追加 [!DNL Analytics for Advertising]  マクロを [!DNL Flashtalking] 広告タグ &#x200B;](/help/integrations/analytics/macros-flashtalking.md)に追加」を参照してください。 |
 | 2021年10月27日（PT） | [!DNL Analytics for Advertising] | 組織が従来のAdobe Analytics `visitorAPI.js` ライブラリを使用してから、データ収集のために[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) ライブラリ （`alloy.js`）に切り替える場合は、ID ステッチを有効にするために、いくつかの変更を行う必要があります。 | 「[Adobe Experience Platformでの [!DNL Last Event Service] JavaScript ライブラリの使用 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)」を参照してください。 |
-| 2021年5月26日（PT） | ヘルプ | 章「[!DNL Analytics for Advertising]」には、「Working in [!DNL Analytics Marketing Channels]」のサブチャプターが含まれるようになりました。 | 「[処理ルール  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)," "[Using Adobe Advertising IDs to create [!DNL Marketing Channels] の基本](/help/integrations/analytics/marketing-channels/mc-ids.md)」、「[Adobe Advertising data [!DNL Analytics Marketing Channels] を使用する」および「](/help/integrations/analytics/marketing-channels/mc-ac-data.md)Adobe Advertisingと[の間でチャネルデータが異なる理由」を参照してください。 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md) |
+| 2021年5月26日（PT） | ヘルプ | 章「[!DNL Analytics for Advertising]」には、「Working in [!DNL Analytics Marketing Channels]」のサブチャプターが含まれるようになりました。 | 「[処理ルール  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)," "[Using Adobe Advertising IDs to create [!DNL Marketing Channels] の基本](/help/integrations/analytics/marketing-channels/mc-ids.md)」、「[Adobe Advertising data](/help/integrations/analytics/marketing-channels/mc-ac-data.md)を使用する」および「[Adobe Advertisingと [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)の間でチャネルデータが異なる理由」を参照してください。 [!DNL Analytics Marketing Channels]  |
 | 2021年5月26日（PT） | ヘルプ | [!DNL Analytics for Advertising]に関するすべてのビデオチュートリアルへのリンクが追加されました。 | 「[Adobe Advertising統合に関するビデオチュートリアル &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ja)」を参照してください。 |
 
 {style="table-layout:auto"}
@@ -53,7 +53,7 @@ ht-degree: 0%
 <!--
  At some point, just make this an overview page instead?
 
-Adobe Advertising is integrated with the following Adobe Experience Cloud products:
+Adobe Advertising is integrated with the following Adobe CX Enterprise products:
 
 * [Adobe Analytics](/help/integrations/analytics/overview.md)
 

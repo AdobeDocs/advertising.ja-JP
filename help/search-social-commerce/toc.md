@@ -4,9 +4,9 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '2183'
 ht-degree: 2%
 
 ---
@@ -15,17 +15,17 @@ ht-degree: 2%
 
 <!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
 
-+ [最新情報](home.md)
++ [新機能](home.md)
 + [このガイドについて](help-about.md)
 + 概要 {#intro}
    + [Adobe Advertising Search, Social, &amp; Commerceについて](/help/search-social-commerce/introduction/about.md)
    + [サポートされているインベントリ](/help/search-social-commerce/introduction/supported-inventory.md)
-   + Adobe Experience Cloudとの連携 {#integrations}
-      + [Adobe Experience Cloudのソリューションやサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
+   + Adobe CX Enterpriseとの連携 {#integrations}
+      + [Adobe CX Enterpriseのソリューションやサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
       + [Adobe [!DNL Analytics for Advertising]  （リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja){target="_blank"}
-      + [Adobe Audience Managerとの統合（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ja){target="_blank"}
-   + [消費者プライバシーのサポート（リンク）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
-   + [&#x200B; ポリシーとガイドライン （リンク）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=ja){target="_blank"}
+      + [Adobe Audience Managerとの連携（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ja){target="_blank"}
+   + [消費者のプライバシーのサポート（リンク）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
+   + [ポリシーとガイドライン（リンク）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=ja){target="_blank"}
 + Adobe Experience Managerの導入方法 {#getting-started}
    + [導入の概要](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [必要システム構成](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -97,8 +97,8 @@ ht-degree: 2%
          + [[!UICONTROL Portfolios] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + キャンペーン {#campaigns}
          + [[!UICONTROL Campaigns] ビューについて](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [&#x200B; ポートフォリオへのキャンペーンの割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [&#x200B; ポートフォリオからキャンペーンを削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [キャンペーンのポートフォリオへの割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [ポートフォリオからのキャンペーンの削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
          + [キャンペーンの制約の割り当ての管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [[!UICONTROL Campaigns] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
       + 広告グループ {#ad-groups}
@@ -110,13 +110,13 @@ ht-degree: 2%
          + [[!UICONTROL Ads] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + レポート {#reports}
       + ラベルの分類 {#label-classifications}
-         + [&#x200B; ラベル分類について](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
-         + [&#x200B; ラベル分類を作成](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
-         + [&#x200B; キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当てる](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
-         + [&#x200B; バルクシートを使用してアカウントコンポーネントに分類値を割り当てる](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
-         + [&#x200B; アカウントコンポーネントからラベル分類値を削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
-         + [&#x200B; ラベル分類値を削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
-         + [&#x200B; ラベル分類を削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
+         + [ラベルの分類について](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
+         + [ラベル分類の作成](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
+         + [キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
+         + [バルクシートを使用して、アカウントコンポーネントに分類値を割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
+         + [アカウントコンポーネントからのラベル分類値の削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
+         + [ラベル分類値の削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
+         + [ラベル分類の削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
    + Target {#target}
       + キーワード {#keywords}
          + [[!UICONTROL Keywords] ビューについて](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
@@ -131,56 +131,56 @@ ht-degree: 2%
             + [API接続による広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
             + [API接続を介した広告ネットワークデータの手動同期](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/sync-api-accounts.md)
          + データアップロードアカウント {#data-upload}
-            + [データのアップロード用の広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
-         + [トラッキング専用の [!DNL Naver]  アカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
-   + [ユーザー管理](/help/search-social-commerce/new-ui/user-administration.md)
+            + [Manage ad network accounts for data uploads](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
+         + [Manage [!DNL Naver] accounts for tracking only](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+   + [User administration](/help/search-social-commerce/new-ui/user-administration.md)
 + トラッキング {#tracking}
-   + [トラッキングについて](/help/search-social-commerce/tracking/tracking-about.md)
-   + クリックの追跡 {#click-tracking}
-      + [Cookie ベースのクリック追跡の設定](/help/search-social-commerce/tracking/click-tracking-set-up.md)
-      + [クリックトラッキング URLを生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
-      + クリックトラッキング URLのコンポーネント {#click-tracking-components}
-         + クリックトラッキング URLの標準形式 {#click-tracking-formats}
-            + [クリックトラッキング URL形式について](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
-            + [&#x200B; [!DNL Baidu]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-baidu.md)
-            + [&#x200B; [!DNL Google Ads]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-google.md)
-            + [&#x200B; [!DNL Microsoft Advertising]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)
-            + [&#x200B; [!DNL Naver]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
-            + [&#x200B; [!DNL Yahoo! Display Network]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
-            + [&#x200B; [!DNL Yahoo! Japan Ads]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
-            + [&#x200B; [!DNL Yandex]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
-         + [クリックトラッキング URLのオプションのトラッキングパラメーター](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising cookie （リンク）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ja){target="_blank"}
-      + [AMO ID （s_kwcid） トラッキングパラメーター](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
+   + [About tracking](/help/search-social-commerce/tracking/tracking-about.md)
+   + Click tracking {#click-tracking}
+      + [Set up cookie-based click tracking](/help/search-social-commerce/tracking/click-tracking-set-up.md)
+      + [When and how to generate click-tracking URLs](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
+      + Components of click-tracking URLs {#click-tracking-components}
+         + Standard formats for click-tracking URLs {#click-tracking-formats}
+            + [About click-tracking URL formats](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+            + [Click-tracking formats for [!DNL Baidu]](/help/search-social-commerce/tracking/formats-click-tracking-baidu.md)
+            + [Click-tracking formats for [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)
+            + [Click-tracking formats for [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)
+            + [Click-tracking formats for [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
+            + [Click-tracking formats for [!DNL Yahoo! Display Network]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
+            + [Click-tracking formats for [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
+            + [Click-tracking formats for [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
+         + [Optional tracking parameters for click-tracking URLs](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
+      + [Adobe Advertising cookies (link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ja){target="_blank"}
+      + [The AMO ID (s_kwcid) tracking parameter](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + コンバージョンの追跡 {#conversion-tracking}
-      + [コンバージョン追跡オプション](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe Advertisingのコンバージョン追跡 {#advertising-conversion-tracking}
-         + [Adobe Advertisingのコンバージョントラッキングタグについて](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-         + [Adobe Advertising コンバージョンタグを生成して実装](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
-         + [JavaScript コンバージョントラッキングタグバージョン 3のフォーマット](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
-         + [JavaScript コンバージョントラッキングタグバージョン 2のフォーマット](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
-         + [画像変換トラッキングタグの形式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
-         + [Adobe Advertising JavaScriptのコンバージョンマッピングタグ](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
-         + [コンバージョンとページビューのトラッキングタグに関するFAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
-      + [Adobe Analyticsのコンバージョン追跡](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
-      + フィードを使用して広告主が追跡するコンバージョン{#conversion-feeds}
-         + EF IDを使用したフィード {#ef-ids}
-            + [EF ID フィードを使用したコンバージョンの追跡](/help/search-social-commerce/tracking/feed-efid.md)
-            + [EF IDを使用したデータフィードのデータ要件](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
-         + トランザクション IDを使用したフィード {#transaction-ids}
-            + [トランザクション ID フィードを使用したコンバージョン追跡](/help/search-social-commerce/tracking/feed-transaction-id.md)
-            + [トランザクション IDを使用したデータフィードのデータ要件](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
-         + [変換フィードファイルのファイル要件](/help/search-social-commerce/tracking/feed-file-requirements.md)
-   + [トラッキングに関するFAQ](/help/search-social-commerce/tracking/faqs-tracking.md)
-+ キャンペーン管理 {#campaign-management}
+      + [Conversion tracking options](/help/search-social-commerce/tracking/conversion-tracking-about.md)
+      + Adobe Advertising conversion tracking {#advertising-conversion-tracking}
+         + [About Adobe Advertising conversion-tracking tags](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+         + [Generate and implement an Adobe Advertising conversion tag](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
+         + [Format of JavaScript conversion tracking tags version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
+         + [Format of JavaScript conversion tracking tags version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
+         + [Format of image conversion tracking tags](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
+         + [The Adobe Advertising JavaScript conversion mapping tag](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+         + [FAQs about conversion and page view tracking tags](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
+      + [Adobe Analytics conversion tracking](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
+      + Advertiser-tracked conversions using feeds{#conversion-feeds}
+         + Feeds using EF IDs {#ef-ids}
+            + [Conversion tracking using an EF ID feed](/help/search-social-commerce/tracking/feed-efid.md)
+            + [Data requirements for data feeds using EF IDs](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
+         + Feeds using transaction IDs {#transaction-ids}
+            + [Conversion tracking using a transaction ID feed](/help/search-social-commerce/tracking/feed-transaction-id.md)
+            + [Data requirements for data feeds using a transaction ID](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
+         + [File requirements for conversion feed files](/help/search-social-commerce/tracking/feed-file-requirements.md)
+   + [FAQs about tracking](/help/search-social-commerce/tracking/faqs-tracking.md)
++ Campaign management {#campaign-management}
    + 概要 {#campaign-management-intro}
       + [Search, Social, &amp; Commerceのキャンペーン管理について](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
-      + [広告ネットワークアカウントとキャンペーンの実装の概要](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
-      + [広告ネットワーク施策のパフォーマンスを監視および管理](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
-      + [Search, Social, &amp; Commerceの[!DNL Google Ads] コンバージョンデータ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
-      + [Search, Social, &amp; Commerceの[!DNL Microsoft Advertising] コンバージョンデータ](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
-   + アカウントの設定 {#campaign-management-accounts}
-      + 広告ネットワークアカウント {#ad-network-accounts}
+      + [Overview of implementing ad network accounts and campaigns](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
+      + [Monitor and manage the performance of your ad network campaigns](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
+      + [[!DNL Google Ads] conversion data in Search, Social, &amp; Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Microsoft Advertising] conversion data in Search, Social, &amp; Commerce](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
+   + Setting up accounts {#campaign-management-accounts}
+      + Ad network accounts {#ad-network-accounts}
          + [広告ネットワークアカウントについて](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [広告ネットワーク アカウントの管理](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
          + [&#x200B; [!DNL Google Ads]  アカウントのAMO ID トラッキングコードの更新](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
@@ -248,7 +248,7 @@ ht-degree: 2%
          + Audiences and audience targets {#audiences-and-targets}
             + オーディエンス {#audiences}
                + [&#x200B; オーディエンスについて](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
-               + [&#x200B; [!DNL Google Ads] 件のオーディエンスから [!DNL Adobe] 顧客マッチオーディエンスを作成](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
+               + [&#x200B; [!DNL Adobe] 件のオーディエンスから [!DNL Google Ads] 顧客マッチオーディエンスを作成](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
                + [Adobe Campaignのメールリストから [!DNL Google Ads] 顧客マッチオーディエンスを作成](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
                + [顧客データリストを使用した顧客一致オーディエンスの管理](/help/search-social-commerce/campaign-management/campaigns/audience-from-customer-data-list.md)
                + [動的リマーケティングオーディエンスの管理](/help/search-social-commerce/campaign-management/campaigns/audience-dynamic-remarketing-manage.md)
@@ -465,7 +465,7 @@ ht-degree: 2%
       + [&#x200B; [!DNL Naver]  トラッキング専用アカウントのトラフィックとコンバージョン指標をアップロード](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
       + [&#x200B; [!DNL Naver]  トラッキング専用アカウントの指標データ要件](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
    + [追加のインベントリ同期を有効にする](/help/search-social-commerce/tools/sync-inventory.md)
-   + [&#x200B; [!DNL Google Ads] での [!DNL Microsoft Advertising] キャンペーンのレプリケート](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
+   + [&#x200B; [!DNL Microsoft Advertising]での [!DNL Google Ads]  キャンペーンのレプリケート](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
 + 管理 {#admin}
    + [役割について](/help/search-social-commerce/admin/role-about.md)
    + [ad network manager アカウントの資格情報の管理](/help/search-social-commerce/admin/manager-accounts.md)
