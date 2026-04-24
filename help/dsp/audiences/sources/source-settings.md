@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->1つのプレースメントでターゲットできるIDのタイプは1つだけです。 ID タイプ別にパフォーマンスをテストするには、[ セグメント内のID タイプごとに個別のプレースメント ](/help/dsp/campaign-management/placements/placement-create.md)を作成します。
+>1つのプレースメントでターゲットできるIDのタイプは1つだけです。 ID タイプ別にパフォーマンスをテストするには、[&#x200B; セグメント内のID タイプごとに個別のプレースメント &#x200B;](/help/dsp/campaign-management/placements/placement-create.md)を作成します。
 
 * *[!DNL RampID]:* PIIを[!DNL RampID]に変換します。 ログインユーザーのリターゲティングと[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)の測定には、[!DNL RampIDs]を使用できます。
 
@@ -44,8 +44,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](source-manage.md)
->* [ ファーストパーティのオーディエンスソースについて](source-about.md)
+>* [&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](source-manage.md)
+>* [&#x200B; ファーストパーティのオーディエンスソースについて](source-about.md)
 >* [認証済みセグメントを [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)から手動でインポートします
 >* [Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* [ オーディエンス管理について](/help/dsp/audiences/audience-about.md)
+>* [&#x200B; オーディエンス管理について](/help/dsp/audiences/audience-about.md)

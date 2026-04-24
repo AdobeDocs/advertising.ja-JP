@@ -4,11 +4,18 @@ description: 最小CPAまたは最大ROASに最適化されたパッケージで
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
 TQID: https://experienceleague.adobe.com/xSM4vyVErtNbVqF3eMDeHpgEWaMK6hBwQpvijHEs0dc
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
 source-wordcount: 1207
@@ -30,7 +37,7 @@ ht-degree: 0%
 
 例えば、3つのコンバージョン指標が、キャンペーンの1つの特定のパッケージに関連するとします。例えば、「PDF ダウンロード」が20 USD、「メール登録」が30 USD、「注文確認」が40 USDです。 顧客アクションの1回限りの金銭的価値に応じて重みを付けたい場合、指標の相対的な重みは1、1.5、2になります。
 
-カスタム目標](#custom-goal-create)を[作成したら、[!DNL Adobe AI]を使用してレポートとアルゴリズムの最適化を行うために、[それをパッケージ ](/help/dsp/campaign-management/packages/package-settings.md)に割り当てることができます。
+カスタム目標[&#128279;](#custom-goal-create)を作成したら、[!DNL Adobe AI]を使用してレポートとアルゴリズムの最適化を行うために、[それをパッケージ &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)に割り当てることができます。
 
 目標のDSPに関連付けられた指標に対してウェイトのレコメンデーションが自動的に生成され、ワンクリックですべてのウェイトのレコメンデーションを適用できます。 「ADSP_」でプレフィックスが付いた目標に対するすべての重み付けの変更は、DSPで2日以内にアルゴリズムで適用されます。 重み付けの推奨事項について詳しくは、Search, Social, &amp; Commerce内から入手できる「目標」に関する最適化ガイドの章を参照してください。
 
@@ -54,7 +61,7 @@ ht-degree: 0%
 
    1. 指標が&#x200B;**[!UICONTROL Display Name]**&#x200B;列に値を持たない場合は、セル内をクリックし、表示名を入力して&#x200B;**[!UICONTROL Apply]をクリックします。**
 
-1. [ カスタム目標を&#x200B;*目標*](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md){target="_blank"}&#x200B;として作成します。 次の点を考慮してください。
+1. [&#x200B; カスタム目標を&#x200B;*目標*](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md){target="_blank"}&#x200B;として作成します。 次の点を考慮してください。
 
    * Advertising DSP パッケージに使用する目的の場合、目的の名前の前に「ADSP_Registrations」などの「ADSP_」を付ける必要があります。 接頭辞では大文字と小文字が区別されません。
 
@@ -71,7 +78,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >最適なパフォーマンスを得るには、カスタム目標（目標）内の複合指標を合計して、1日あたり少なくとも10回のコンバージョンを行う必要があります。 そうでない場合は、商品ページやアプリケーションの開始など、サポートするコンバージョン指標を目標に追加するのがベストプラクティスです。 ガイドラインについては、[ カスタム目標を作成するためのベストプラクティス ](#custom-goal-best-practices)を参照してください。
+   >最適なパフォーマンスを得るには、カスタム目標（目標）内の複合指標を合計して、1日あたり少なくとも10回のコンバージョンを行う必要があります。 そうでない場合は、商品ページやアプリケーションの開始など、サポートするコンバージョン指標を目標に追加するのがベストプラクティスです。 ガイドラインについては、[&#x200B; カスタム目標を作成するためのベストプラクティス &#x200B;](#custom-goal-best-practices)を参照してください。
 
 最適化目標「[!UICONTROL Highest Return on Ad Spend (ROAS)"]」または「[!UICONTROL Lowest Cost per Acquisition (CPA)]」を使用するパッケージのDSP パッケージ設定で、目的の名前が[!UICONTROL Custom Goals] リストに含まれるようになりました。 目的をパッケージのカスタム目標として選択すると、[!UICONTROL Conversion Metric] リストには目的のすべての目標指標が含まれます。
 
@@ -142,5 +149,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [最適化の目標とその使用方法](optimization-goals.md)
->* [ パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
 > * [DSPによるキャンペーンの最適化](optimization-how-dsp-optimizes-campaigns.md)

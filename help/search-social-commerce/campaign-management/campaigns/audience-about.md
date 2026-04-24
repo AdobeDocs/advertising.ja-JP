@@ -4,9 +4,12 @@ description: Learn about options to track, create, and manage [!DNL Google Ads] 
 exl-id: f85cbc82-ddbc-4ecd-a17b-b4cb4808cfbc
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/B77S28vEpSkrgNmhc-Ekn7PXh3W-y2g9et2y3gCQPK8
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
 source-wordcount: 545
@@ -52,5 +55,5 @@ You can also create and manage audiences using segments or email lists from your
 >* [Adobe Campaignのメールリストから [!DNL Google Ads] 顧客マッチオーディエンスを作成](google-audience-from-campaign-email-list.md)
 >* [顧客データリストを使用した顧客一致オーディエンスの管理](audience-from-customer-data-list.md)
 >* [動的リマーケティングオーディエンスの管理](audience-dynamic-remarketing-manage.md)
->* [ キャンペーンと広告グループのオーディエンスターゲットの管理](audience-targets-manage.md)
->* [ キャンペーンと広告グループのオーディエンス除外の管理](audience-exclusions-manage.md)
+>* [&#x200B; キャンペーンと広告グループのオーディエンスターゲットの管理](audience-targets-manage.md)
+>* [&#x200B; キャンペーンと広告グループのオーディエンス除外の管理](audience-exclusions-manage.md)
