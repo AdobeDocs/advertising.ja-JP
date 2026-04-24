@@ -2,12 +2,11 @@
 title: 生成AIを使用して再利用可能なオーディエンスを作成する
 description: AIを活用したオーディエンスエージェントを使用して、Adobe Advertising DSPで再利用可能なオーディエンスを作成する方法を説明します。 ターゲットオーディエンスを自然言語プロンプトで説明します。担当者はサードパーティセグメントを提案し、ターゲットまたは除外として使用するオーディエンス式を作成します。
 feature: DSP Audiences
-hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -18,9 +17,9 @@ ht-degree: 0%
 
 *英語のみサポート*
 
-<!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
+<!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-AIを活用したオーディエンスエージェントを使用して、記載された要件に従って利用可能なすべてのサードパーティセグメントを使用して、新しい再利用可能なオーディエンスを生成します。 複数のプレースメントのターゲットまたは除外としてオーディエンスを使用できます。
+AIを活用したオーディエンスエージェントを使用して、記載された要件に従って、利用可能なすべてのファーストパーティセグメントとサードパーティセグメントを使用して、新しい再利用可能なオーディエンスを生成します。 複数のプレースメントのターゲットまたは除外としてオーディエンスを使用できます。
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -29,6 +28,18 @@ AIを活用したオーディエンスエージェントを使用して、記載
 >この機能はベータモードで、一部変更される可能性があります。 オーディエンスを作成してプレースメントに使用する前に、生成されたオーディエンス式が必要なオーディエンスを表していることを確認してください。
 
 ## 生成AIを使用して再利用可能なオーディエンスを作成する
+
+<!--
+*Beta feature*
+
+*Support for English only*
+
+>[!NOTE]
+>
+>This feature is in beta mode and is subject to change. Make sure that the generated audience expression represents the audience you want before creating the audience and using it for your placements.
+-->
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. メインメニューで、**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**&#x200B;をクリックします。
 
@@ -46,9 +57,9 @@ AIを活用したオーディエンスエージェントを使用して、記載
 
    ベータ版の権限を持つユーザーの場合、AI オプションがデフォルトになります。 [自分でオーディエンスを組み立てる](/help/dsp/audiences/reusable-audience-create.md)には、下部にある「手動モードに切り替える」ボタンをクリックします。
 
-   1. 含めたり除外したりするオーディエンス特性を説明する1つ以上のプロンプトを入力します。 各プロンプトを送信するには、![&#x200B; プロンプトを送信](/help/dsp/assets/submit-prompt.png " プロンプトを送信")をクリックします。
+   1. 含めたり除外したりするオーディエンス特性を説明する1つ以上のプロンプトを入力します。 各プロンプトを送信するには、![ プロンプトを送信](/help/dsp/assets/submit-prompt.png " プロンプトを送信")をクリックします。
 
-      詳しくは、「[&#x200B; プロンプトの作成](#writing-prompts)」および「[&#x200B; オーディエンス概要の作成に関するベストプラクティス &#x200B;](#audience-brief-best-practices)」を参照してください。
+      詳しくは、「[ プロンプトの作成](#writing-prompts)」および「[ オーディエンス概要の作成に関するベストプラクティス ](#audience-brief-best-practices)」を参照してください。
 
       オーディエンスエージェントが関連セグメントを見つけると、条件に基づいてブール値のオーディエンス式が作成されます。 また、オーディエンスを作成するための一致するセグメントを探す前に、承認を求めることもできます。
 
@@ -66,9 +77,11 @@ AIを活用したオーディエンスエージェントを使用して、記載
 
    >[!NOTE]
    >
-   >Audience Agentを使用して後でオーディエンスを編集することはできません。 代わりに、[&#x200B; オーディエンス式を手動で編集します](/help/dsp/audiences/reusable-audience-edit.md)。
+   >Audience Agentを使用して後でオーディエンスを編集することはできません。 代わりに、[ オーディエンス式を手動で編集します](/help/dsp/audiences/reusable-audience-edit.md)。
 
 ## プロンプトの作成の基本 {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
 
 ### プロンプトには何を含めるべきですか？
 
@@ -92,20 +105,14 @@ AIを活用したオーディエンスエージェントを使用して、記載
 
   オーディエンスエージェントは、生成されたオーディエンス式をオーディエンスとして自動的に保存しません。 オーディエンスを保存するには、プロンプトエリアの外にある[!UICONTROL Create] ボタンをクリックする必要があるので、保存しない変更を取り消すことができます。
 
-オーディエンスのプロンプトを最適化する方法について詳しくは、「[&#x200B; オーディエンス概要の作成に関するベストプラクティス &#x200B;](#audience-brief-best-practices)」を参照してください。
+オーディエンスのプロンプトを最適化する方法について詳しくは、「[ オーディエンス概要の作成に関するベストプラクティス ](#audience-brief-best-practices)」を参照してください。
 
 <!--
- I think these are happening later:
+Consider starting by asking for what you should include.
 
-DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
+you can give thumbs up or down to [what exactly?].
 
-you can use a predefined prompt (fill in the blanks, and some fields might have selectors where you can choose values)
-
-Over time, DSP XXXX defaults [clarify this]
-
- onsider starting by asking for a general template, which contains placeholder values that you can replace with your desired values. The default template is something like "Create a xxx with NNN xxx."
-
-you can give thumbs up or down to [what exactly?]. Verify what info is carried over from session to session and what starts from scratch.
+Verify what info is carried over from session to session and what starts from scratch.
 
 -->
 
@@ -121,7 +128,7 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 #### 質問をするオーディエンスエージェント
 
-`If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
 あなたの肯定的な返信：「続行」、「OK」、「OK」、「はい」または他の類似の単語
 
