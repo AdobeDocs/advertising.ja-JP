@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: 1089
+source-wordcount: 1100
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** （パッケージレベルのペーシングを持ち、「[!UICONTROL Always Max Bid & Maximize Reach]」および「[!UICONTROL Lowest Cost per Reach]」の最適化目標のみを持つパッケージ）は、キャンペーン内のすべてのプログラムで保証されたプレースメントからの世帯リーチデータを使用して、リーチを増やすように最適化します。
 
-**[!UICONTROL Custom Goal for Model Learning]:** （「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標のみを含むパッケージ）収益またはコンバージョンイベントを含む[&#x200B; カスタム目標](/help/dsp/optimization/custom-goal.md)は、CPAまたはROAS指標の計算に使用されます。 カスタム目標には、パッケージの最適化にCPAまたはROAS指標に加えて、使用する重み付けされた上funnelイベント（ページ訪問やショッピングカートの追加など）を含める必要があります。 カスタム目標とそれを使用するキャンペーンの作成に関するベストプラクティスなど、カスタム目標の詳細については、「[&#x200B; カスタム目標](/help/dsp/optimization/custom-goal.md)」および「[&#x200B; パフォーマンスキャンペーンの設定に関するベストプラクティス &#x200B;](/help/dsp/optimization/campaign-best-practices-performance.md)」を参照してください。「<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->」
+**[!UICONTROL Custom Goal for Model Learning]:** （「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標のみを含むパッケージ） CPAまたはROAS指標の計算に使用される収益またはコンバージョンイベントを含むカスタム目標。 カスタム目標には、パッケージの最適化にCPAまたはROAS指標に加えて、使用する重み付けされた上funnelイベント（ページ訪問やショッピングカートの追加など）を含める必要があります。 カスタム目標について詳しくは、「[&#x200B; カスタム目標の管理](/help/dsp/admin/custom-objectives-manage.md)」、「[&#x200B; カスタム目標のベストプラクティス &#x200B;](/help/dsp/optimization/custom-goal.md)」および「[&#x200B; パフォーマンスキャンペーンの設定に関するベストプラクティス &#x200B;](/help/dsp/optimization/campaign-best-practices-performance.md)」を参照してください。
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** （オプション、「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標を持つパッケージのみ）最適化モデルに、クリックベースのコンバージョンからのみ学習するように指示します。 それ以外の場合、最適化モデルはクリックベースとインプレッションベースの両方のコンバージョンから学習します。
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Flighting]
 
-（パッケージレベルのペーシングを含むパッケージ） パッケージのフライト期間（パッケージ全体の[!UICONTROL Flight Dates]内のカスタム飛行期間を含む）。 カスタムフライトを設定できるのは、[!UICONTROL Activate Custom Flighting] セクションで[!UICONTROL Goals & Budget] オプションが有効になっている場合のみです。
+（パッケージレベルのペーシングを含むパッケージ） パッケージのフライト期間（パッケージ全体の[!UICONTROL Flight Dates]内のカスタム飛行期間を含む）。 カスタムフライトを設定できるのは、[!UICONTROL Goals & Budget] セクションで[!UICONTROL Activate Custom Flighting] オプションが有効になっている場合のみです。
 
 **[!UICONTROL Automatically rollover remaining flight budget to next flight]:** （[!UICONTROL Activate Custom Flighting] オプションが有効になっている場合にのみ使用可能）は、前のフライトの残りの予算を、次のフライトの既存の予算に自動的に追加します。
 

@@ -2,9 +2,9 @@
 title: 広告主のコンバージョン指標の管理
 description: Adobe Advertisingが広告主に対して追跡するコンバージョン指標の使用方法について説明します。
 feature: Conversions
-source-git-commit: 1ada471eccd28607da8edbbcee04fcb6716bd165
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -15,19 +15,19 @@ ht-degree: 0%
 
 * Search, Social, &amp; Commerceでは、コンバージョン指標のデータを、キャンペーンビュー、ポートフォリオビュー、客観的な管理ビューおよびレポートの列に表示できます。 十分なアクセス権限を持つユーザーは、コンバージョン指標を使用して目的を作成し、ポートフォリオの最適化に使用することもできます。
 
-* （Advertising DSPを使用する広告主） DSPでは、キャンペーン管理ビュー、カスタム目標、カスタムレポートにコンバージョン指標を含めることができます。 コンバージョン指標を使用して[&#x200B; カスタム目標](/help/dsp/optimization/custom-goal.md)を作成し、パッケージの最適化に使用することもできます。
+* （Advertising DSPを使用する広告主） DSPでは、キャンペーン管理ビュー、カスタム目標、カスタムレポートにコンバージョン指標を含めることができます。 コンバージョン指標を使用して[&#x200B; カスタム目標](/help/dsp/admin/custom-objectives-manage.md)を作成し、パッケージの最適化に使用することもできます。
 
 利用できる指標は次のとおりです。
 
 * Adobe Advertisingが広告主向けに追跡するコンバージョン指標。
 
-* [&#x200B; コンバージョンとサイトエンゲージメントの指標がAdobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md)から同期されました。
+* [&#x200B; コンバージョンとサイトエンゲージメントの指標がAdobe Analyticsから同期されました](/help/integrations/analytics/analytics-data-in-advertising.md)。
 
-* [&#x200B; サイトイベントがAdobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)から同期されました。
+* [&#x200B; サイトイベントがAdobe Customer Journey Analyticsから同期されました](/help/integrations/customer-journey-analytics/overview.md)。
 
 * [!DNL Google Ads]様が追跡したコンバージョンと、[!DNL Microsoft Advertising]件のユニバーサル イベント トラッキング タグが追跡したコンバージョンです。
 
-* （[&#x200B; アカウント、プロパティ、およびビューの組み合わせを検索、ソーシャル、およびCommerceのデータソース  [!DNL Google Analytics] として設定した場合） &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md)によって追跡されたコンバージョン。[!DNL Google Analytics]
+* （[&#x200B; アカウント、プロパティ、およびビューの組み合わせを検索、ソーシャル、およびCommerceのデータソース &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md)として設定した場合） [!DNL Google Analytics]によって追跡されたコンバージョン。 [!DNL Google Analytics] 
 
 * カスタムフィードからのコンバージョン。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[からの [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md)指標の場合、統合を更新または再認証すると、表示名に対する手動での変更はすべて上書きされます。 同様に、[!DNL Google Analytics]内の名前の変更は、統合を[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)または[再認証](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)しない限り無視されます。
+> [!DNL Google Analytics][&#128279;](/help/search-social-commerce/admin/data-sources/data-source-about.md)からの指標の場合、統合を更新または再認証すると、表示名に対する手動での変更はすべて上書きされます。 同様に、[!DNL Google Analytics]内の名前の変更は、統合を[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)または[再認証](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)しない限り無視されます。
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;をクリックします。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    広告主向けに収集されたすべてのコンバージョン指標と、表示用に指定されたさまざまな名前が一覧表示されます。
 
-1. （オプション）ツールバー[または](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)列の見出し[からリスト &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)をフィルタリングします。
+1. （オプション）ツールバー[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列の見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)からリスト をフィルタリングします。
 
 1. 管理ビューとレポートで使用できるコンバージョン指標を変更します。
 
@@ -95,6 +95,8 @@ ht-degree: 0%
 
       1. （指標を非表示にするには）確認メッセージで「**[!UICONTROL Confirm]**」をクリックし、指標を含む派生指標から指標を削除するなど、指標を非表示にします。
 
+<!--
 >[!MORELIKETHIS]
 >
->* &#x200B;
+>* 
+-->

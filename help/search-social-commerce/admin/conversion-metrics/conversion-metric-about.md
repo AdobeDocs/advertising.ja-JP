@@ -12,20 +12,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
 workflow-type: tm+mt
-source-wordcount: 279
+source-wordcount: 280
 ht-degree: 0%
 
 ---
 
 # 広告主のコンバージョン指標の管理について
 
-Adobe Analytics[から同期された](/help/search-social-commerce/glossary.md#c-d) コンバージョン指標やサイトエンゲージメント指標など、広告主に対してAdobe Advertisingが追跡する[&#x200B; コンバージョン &#x200B;](/help/integrations/analytics/analytics-data-in-advertising.md)指標は、Search, Social, &amp; CommerceおよびAdvertising DSP全体で使用されます。
+Adobe Analytics[&#128279;](/help/integrations/analytics/analytics-data-in-advertising.md)から同期された コンバージョン指標やサイトエンゲージメント指標など、広告主に対してAdobe Advertisingが追跡する[&#x200B; コンバージョン &#x200B;](/help/search-social-commerce/glossary.md#c-d)指標は、Search, Social, &amp; CommerceおよびAdvertising DSP全体で使用されます。
 
 * Search, Social, &amp; Commerceでは、コンバージョン指標を使用して目標を作成し、ポートフォリオを最適化できます。 さらに、コンバージョン指標のデータは、キャンペーンビューとポートフォリオ管理ビューおよびレポートの列に表示できます。
 
-* Advertising DSPでは、コンバージョン指標を使用して[&#x200B; カスタム目標](/help/dsp/optimization/custom-goal.md)を作成し、パッケージの最適化に使用できます。
+* Advertising DSPでは、コンバージョン指標を使用して[&#x200B; カスタム目標を作成](/help/dsp/admin/custom-objectives-manage.md)し、パッケージの最適化に使用できます。
 
 デフォルトでは、広告主のコンバージョン指標（ユニバーサルイベント追跡タグ [!DNL Google Ads]、[!DNL Google Analytics]、[!DNL Microsoft Advertising]によって追跡されるコンバージョンを除く）は、キャンペーンおよびポートフォリオ管理ビューとレポートに使用できません。 これらは、表示される名前である表示名を含め、特定の目的で使用できるようにした場合にのみ使用できます。 コンバージョン指標を使用できるようにするには、取得したデータにスペルが正確に設定されている指標の名前を使用するか、列見出しに表示されている名前を変更して読みやすくします。
 

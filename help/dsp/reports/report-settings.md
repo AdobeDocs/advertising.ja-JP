@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 9c0a1de4a3514cbb28856250b76e79e1b7913963
 workflow-type: tm+mt
-source-wordcount: 1526
+source-wordcount: 1535
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >[&#x200B; ビューから](report-run-now.md)いつでも[!UICONTROL Reports] カスタムレポートを実行することもできます。
+  >[!UICONTROL Reports] ビューから[いつでも](report-run-now.md) カスタムレポートを実行することもできます。
 
 * *[!UICONTROL On]\&lt;Date\>:* アカウントのタイムゾーンで09:00までに完了するように、指定された日付にレポートを実行します。
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Apply Filters] セクション
 
-**[!UICONTROL Filter by]:** （オプション）ディメンションがレポートに列として含まれているかどうかを問わず、データをフィルタリングする追加ディメンション。 使用できるフィルターはレポートの種類によって異なり、*[!UICONTROL Account]*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、*[!UICONTROL Deal]*、*[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]*&#x200B;および&#x200B;*[!UICONTROL Video Duration]*&#x200B;が含まれる場合があります。
+**[!UICONTROL Filter by]:** （オプション）ディメンションがレポートに列として含まれているかどうかを問わず、データをフィルタリングする追加ディメンション。 使用できるフィルターはレポートの種類によって異なり、*[!UICONTROL Account]*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、*[!UICONTROL Deal]*、*[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Traffic Type]*、*[!UICONTROL Video]*、および&#x200B;*[!UICONTROL Video Duration]*&#x200B;が含まれる場合があります。
 
 <!--
  Add when available:
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 **[!UICONTROL Attribution Rule Settings]:**&#x200B;設定はレポートタイプによって異なります：
 
-* **\[Attribution Type\]:** （[!UICONTROL Household Conversion]列または[!UICONTROL Conversion Metrics]列の[!UICONTROL Custom Goals]件のレポート） レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータを属性にする方法：
+* **\[Attribution Type\]:** （[!UICONTROL Conversion Metrics]列または[!UICONTROL Custom Goals]列の[!UICONTROL Household Conversion]件のレポート） レポート内で、コンバージョンにつながる一連のイベントのコンバージョンデータを属性にする方法：
 
    * *[!UICONTROL Unique]:* （既定値）ディメンション値（デバイスやプレースメントなど）がコンバージョンに至るまでのパス上に存在した回数をカウントします。
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 「[Adobe Advertisingのアトリビューションルールの計算方法](/help/search-social-commerce/reports/attribution-rules.md)」も参照してください。
 
-* **ルックバック：** （[!UICONTROL Household Conversion]列または[!UICONTROL Conversion Metrics]列の[!UICONTROL Custom Goals]件のレポート、および[!UICONTROL Path to Conversion]列の[!UICONTROL Path Length]、[!UICONTROL Time to Conversion]または[!UICONTROL Conversion Metrics]件のレポート、Adobe Advertising コンバージョントラッキングのみの広告主）レポート内で、インプレッションイベントまたはクリックイベント後の最大日数（[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]、または[!UICONTROL Time to Conversion]件のレポート）。コンバージョンイベントに起因する可能性があります。 デフォルトは&#x200B;*[!UICONTROL 30 days]*&#x200B;で、最大は92日です。
+* **ルックバック：** （[!UICONTROL Conversion Metrics]列または[!UICONTROL Custom Goals]列の[!UICONTROL Household Conversion]件のレポート、および[!UICONTROL Conversion Metrics]列の[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]または[!UICONTROL Time to Conversion]件のレポート、Adobe Advertising コンバージョントラッキングのみの広告主）レポート内で、インプレッションイベントまたはクリックイベント後の最大日数（[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]、または[!UICONTROL Time to Conversion]件のレポート）。コンバージョンイベントに起因する可能性があります。 デフォルトは&#x200B;*[!UICONTROL 30 days]*&#x200B;で、最大は92日です。
 
   >[!TIP]
   >

@@ -2,7 +2,7 @@
 title: （新しいUI）目的の作成
 description: 目的の作成方法。
 feature: Search Objectives, Search Optimization
-hide: 'yes'
+hide: true
 exl-id: 21516197-d005-4703-8735-c789107dc3c4
 TQID: https://experienceleague.adobe.com/z6aWMsPgU5YScIkdoKILRbZhOo2PTvJBIXxcyOXybgw
 product_v2:
@@ -15,7 +15,7 @@ topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: '2026-04-13T23:57:03.010Z'
-source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
+source-git-commit: 0bd9b32b33ffd430547988f4032c67b3c444351b
 workflow-type: tm+mt
 source-wordcount: 140
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目標をポートフォリオに関連付けるには、[&#x200B; ポートフォリオを作成するか、](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md) ポートフォリオ設定の変更[までに行います。 &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)複数のポートフォリオに対して同じ目的を使用できます。
+>目標をポートフォリオに関連付けるには、[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)&#x200B; ポートフォリオを作成するか、[&#x200B; ポートフォリオ設定の変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)までに行います。 &#x200B;複数のポートフォリオに対して同じ目的を使用できます。
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;をクリックします。
 
