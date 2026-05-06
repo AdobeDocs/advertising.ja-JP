@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Search、Social、およびCommerce アカウントにリンクされているDSP アカウントで使用できます*
 
-目標は、広告主がビジネス目標を達成するために設定する成功イベントを定義します。 目標は、[ カスタム目標](/help/dsp/campaign-management/packages/package-settings.md)としてDSP パッケージで利用できます。 最適化目標「[!UICONTROL Highest Return on Ad Spend (ROAS)"]」または「[!UICONTROL Lowest Cost per Acquisition (CPA)]」を使用する各パッケージには、全体的な最適化目標の達成に役立つカスタム目標が含まれている必要があります。
+目標は、広告主がビジネス目標を達成するために設定する成功イベントを定義します。 目標は、[&#x200B; カスタム目標](/help/dsp/campaign-management/packages/package-settings.md)としてDSP パッケージで利用できます。 最適化目標「[!UICONTROL Highest Return on Ad Spend (ROAS)"]」または「[!UICONTROL Lowest Cost per Acquisition (CPA)]」を使用する各パッケージには、全体的な最適化目標の達成に役立つカスタム目標が含まれている必要があります。
 
 目的は、追跡および最適化される指標（プロパティ）と、これらの指標の相対的な重みによって構成されます。 各目的には、次のようなものがあります。
 
@@ -39,9 +39,9 @@ ht-degree: 0%
 
 目標には、次のいずれかを含めることができます。
 
-* [Adobe Advertising コンバージョントラッキングピクセル ](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)を使用してAdobe Advertisingが追跡する指標。
+* [Adobe Advertising コンバージョントラッキングピクセル &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)を使用してAdobe Advertisingが追跡する指標。
 
-* （広告主と[!DNL Adobe Analytics for Advertising]） [ コンバージョンとサイトエンゲージメントの指標がAdobe Analytics](/help/integrations/analytics/overview.md)から同期されました。
+* （広告主と[!DNL Adobe Analytics for Advertising]） [&#x200B; コンバージョンとサイトエンゲージメントの指標がAdobe Analytics](/help/integrations/analytics/overview.md)から同期されました。
 
 <!-- Do DSP-only clients have these? * [Advertiser-tracked metrics from conversion feed files](/help/search-social-commerce/tracking/conversion-tracking-about.md).  -->
 
@@ -167,12 +167,12 @@ You can delete an objective that's not assigned to a package.
 | 基本情報 | 客観名 | 目的の名前。<br><br>Advertising DSPのすべての目的の名前には、「ADSP_Registrations」など、「ADSP_」のプレフィックスを付ける必要があります（大文字と小文字は区別されません）。 パッケージに割り当てる際に識別しやすい名前を使用します。 |
 |  | 説明 | （オプション）目的の説明。 説明は、カスタム目標リストの名前にカーソルを合わせると表示されます。 説明を含まない場合は、目的の名前が代わりに繰り返されます。 |
 | 入札戦略 |  | 目的の入札戦略。設定できるイベントの種類を決定します。<ul><li><b>[!UICONTROL Automated Bidding]:</b>目標にプロパティ （指標）を[!DNL goal]指標として割り当てます。 [!DNL Adobe AI]は、バランスの取れたfunnel アプローチを使用して、目標イベントを最大化するために、重み付けされたアシスト イベントを自動的に割り当てて更新します。</li><li><b>[!UICONTROL Custom Bidding]:</b> プロパティを&quot;[!DNL goal]&quot;または重み付けされた&quot;[!DNL assist]&quot;イベントとして割り当てることで、独自の入札戦略を設定します。 定義済みの戦略に対して、この詳細オプションを使用します。</li></ul>入札戦略を変更すると、以前に選択したすべての指標が消去されます。 |
-| プロパティ | [!UICONTROL Available Metrics] | 広告主が追跡するすべての指標。 指標を目標として追加するには、指標の名前の横にある<b>[!UICONTROL Goal]</b>をクリックします。 （[!UICONTROL Custom Bidding]のみ）割り当てられた目標指標を支援する指標を追加するには、指標の名前の横にある<b>[!UICONTROL Assist]</b>をクリックします。<br><br><b> メモ：</b> [!DNL Analytics]個のカスタムイベントは、次の命名規則に従います：`custom_event_[*event #*]_[*Analytics report suite ID*]`。 例：`custom_event_16_examplersid.` [!DNL Analytics]のディメンションとセグメントは、Adobe Advertisingの最適化には使用できません。<br><br><b> ヒント：</b>最適なパフォーマンスを得るには、カスタム目標（目標）内の複合指標を1日あたり合計10個まで使用する必要があります。 そうでない場合は、商品ページやアプリケーションの開始など、サポートするコンバージョン指標を目標に追加するのがベストプラクティスです。 ガイドラインについては、[ カスタム目標を作成するためのベストプラクティス ](#custom-goal-best-practices)を参照してください。 |
+| プロパティ | [!UICONTROL Available Metrics] | 広告主が追跡するすべての指標。 指標を目標として追加するには、指標の名前の横にある<b>[!UICONTROL Goal]</b>をクリックします。 （[!UICONTROL Custom Bidding]のみ）割り当てられた目標指標を支援する指標を追加するには、指標の名前の横にある<b>[!UICONTROL Assist]</b>をクリックします。<br><br><b> メモ：</b> [!DNL Analytics]個のカスタムイベントは、次の命名規則に従います：`custom_event_[*event #*]_[*Analytics report suite ID*]`。 例：`custom_event_16_examplersid.` [!DNL Analytics]のディメンションとセグメントは、Adobe Advertisingの最適化には使用できません。<br><br><b> ヒント：</b>最適なパフォーマンスを得るには、カスタム目標（目標）内の複合指標を1日あたり合計10個まで使用する必要があります。 そうでない場合は、商品ページやアプリケーションの開始など、サポートするコンバージョン指標を目標に追加するのがベストプラクティスです。 ガイドラインについては、[&#x200B; カスタム目標を作成するためのベストプラクティス &#x200B;](#custom-goal-best-practices)を参照してください。 |
 |  | 選択した指標 | 目的に含まれる各コンバージョン指標の名前。 次のいずれかの操作を行います。<ul><li>指標を目標として追加するには、[!UICONTROL Available Metrics]列の指標の名前の横にある<b>[!UICONTROL Goal]</b>をクリックします。</li><li>（[!UICONTROL Custom Bidding]戦略のみ）割り当てられた目標指標を支援する指標を追加するには、[!UICONTROL Available Metrics]列の指標名の横にある<b>[!UICONTROL Assist]</b>をクリックします。 次に、目的の他の指標に対する指標の数値ウェイトを入力します。 重みは0.001から1までで、小数を含めることができます。 デフォルトの重みは1です。</li><li>（[!UICONTROL Custom Bidding]戦略のみ）アシスト指標の重みを編集するには、フィールド内をクリックし、目的の他の指標に対する指標の重みの数値を入力します。 重みは0より大きくなければならず、小数点を含めることができます。 デフォルトの重みは1です。</li><li>目的から指標を削除するには、指標の名前にカーソルを合わせて「**[!UICONTROL X]**」をクリックします。/li></ul>**メモ：**<ul><li>さまざまな指標とその重みが比較的意味のあるものであることを確認します。 たとえば、カウントを直接金額と比較することはできません。</li><li>目的の重みの間の大きな相対的な変化は、パフォーマンスの一時的な変動を引き起こす可能性があるので、変更後のパフォーマンスを監視します。</li></ul>. |
 
 >[!MORELIKETHIS]
 >
 >* [最適化の目標とその使用方法](/help/dsp/optimization/optimization-goals.md)
->* [ カスタム目標に関するベストプラクティス ](/help/dsp/optimization/custom-goal.md)
->* [ パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
->* [ コンバージョンの管理](/help/dsp/admin/conversion-metrics-manage.md)
+>* [&#x200B; カスタム目標に関するベストプラクティス &#x200B;](/help/dsp/optimization/custom-goal.md)
+>* [&#x200B; パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; コンバージョンの管理](/help/dsp/admin/conversion-metrics-manage.md)

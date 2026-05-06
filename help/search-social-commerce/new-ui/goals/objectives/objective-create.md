@@ -5,10 +5,15 @@ feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 21516197-d005-4703-8735-c789107dc3c4
 TQID: https://experienceleague.adobe.com/z6aWMsPgU5YScIkdoKILRbZhOo2PTvJBIXxcyOXybgw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: '2026-04-13T23:57:03.010Z'
 source-git-commit: 0bd9b32b33ffd430547988f4032c67b3c444351b
 workflow-type: tm+mt
@@ -25,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目標をポートフォリオに関連付けるには、[ ポートフォリオを作成するか、[ ポートフォリオ設定の変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)までに行います。 ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)複数のポートフォリオに対して同じ目的を使用できます。
+>目標をポートフォリオに関連付けるには、[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)&#x200B; ポートフォリオを作成するか、[&#x200B; ポートフォリオ設定の変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)までに行います。 &#x200B;複数のポートフォリオに対して同じ目的を使用できます。
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;をクリックします。
 
@@ -47,4 +52,4 @@ Advertising DSP パッケージで使用する目的の先頭に「`ADSP_`」を
 >* [目標を編集](objective-edit.md)
 >* [目標に重み付けの推奨事項を適用](objective-apply-weight-recommendations.md)
 >* [目標の設定](objective-settings.md)
->* [目的のパフォーマンスデータをダウンロード ](objective-download-performance-data.md)
+>* [目的のパフォーマンスデータをダウンロード &#x200B;](objective-download-performance-data.md)
