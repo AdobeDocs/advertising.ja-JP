@@ -185,7 +185,7 @@ You can open or save data from either a) the line chart showing cost points and 
 
 -->
 
-## &#x200B;<!--(Legacy UI) -->データを[!DNL Microsoft Excel] ワークブック ファイル  {#spend-recommendations-download-legacy}として開くか保存します
+## &#x200B;<!--(Legacy UI) -->データを[!DNL Microsoft Excel] ワークブック ファイル  として開くか保存します{#spend-recommendations-download-legacy}
 
 1. 選択したポートフォリオの予算推奨レポートを生成します。
 
