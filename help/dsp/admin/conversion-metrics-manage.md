@@ -13,7 +13,7 @@ ht-degree: 0%
 
 広告主のコンバージョン指標は、Adobe Advertising全体で使用されます。
 
-* Advertising DSPでは、キャンペーン管理ビュー、カスタム目標、カスタムレポートにコンバージョン指標を含めることができます。 また、広告主のコンバージョン指標を使用して[&#x200B; カスタム目標](/help/dsp/admin/custom-objectives-manage.md)を作成し、パッケージの最適化に使用することもできます。
+* Advertising DSPでは、キャンペーン管理ビュー、カスタム目標、カスタムレポートにコンバージョン指標を含めることができます。 また、広告主のコンバージョン指標を使用して[ カスタム目標](/help/dsp/admin/custom-objectives-manage.md)を作成し、パッケージの最適化に使用することもできます。
 
 * （Advertising Search, Social, &amp; Commerceの広告主） Search, Social, &amp; Commerceでは、コンバージョン指標のデータを、キャンペーンビュー、ポートフォリオおよび客観的な管理ビューとレポートの列に表示できます。 十分なアクセス権限を持つユーザーは、コンバージョン指標を使用して目的を作成し、ポートフォリオの最適化に使用することもできます。
 
@@ -30,9 +30,9 @@ DSP ユーザーで追跡される指標の種類は次のとおりです。
 
 * Adobe Advertisingが広告主向けに追跡するコンバージョン指標。
 
-* [&#x200B; コンバージョンとサイトエンゲージメントの指標がAdobe Analyticsから同期されました](/help/integrations/analytics/analytics-data-in-advertising.md)。
+* [ コンバージョンとサイトエンゲージメントの指標がAdobe Analyticsから同期されました](/help/integrations/analytics/analytics-data-in-advertising.md)。
 
-* [&#x200B; サイトイベントがAdobe Customer Journey Analyticsから同期されました](/help/integrations/customer-journey-analytics/overview.md)。
+* [ サイトイベントがAdobe Customer Journey Analyticsから同期されました](/help/integrations/customer-journey-analytics/overview.md)。
 
 * カスタムフィードからのコンバージョン。
 
@@ -44,7 +44,7 @@ DSP ユーザーで追跡される指標の種類は次のとおりです。
 
 >[!TIP]
 >
->広告主（または広告ネットワーク）がコンバージョン指標の収集を停止すると、過去データの表示に使用しない限り、[管理表示とレポート &#x200B;](#conversion-metrics-change-available)から非表示にします。
+>広告主（または広告ネットワーク）がコンバージョン指標の収集を停止すると、過去データの表示に使用しない限り、[管理表示とレポート ](#conversion-metrics-change-available)から非表示にします。
 
 ## 広告主が追跡したコンバージョン指標の表示
 
@@ -74,7 +74,7 @@ DSP ユーザーで追跡される指標の種類は次のとおりです。
 
 1. （オプション）リストをフィルタリングします。
 
-   1. リストの上にある「![&#x200B; フィルター](/help/dsp/assets/filter.png " フィルター")」をクリックします。
+   1. リストの上にある「![ フィルター](/help/dsp/assets/filter.png " フィルター")」をクリックします。
 
    1. フィルターを指定し、**[!DNL Apply]**&#x200B;をクリックします。
 
@@ -88,5 +88,5 @@ DSP ユーザーで追跡される指標の種類は次のとおりです。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [&#x200B; カスタム目標の管理](/help/dsp/admin/custom-objectives-manage.md)
+>* [ キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [ カスタム目標の管理](/help/dsp/admin/custom-objectives-manage.md)

@@ -15,7 +15,7 @@ ht-degree: 3%
 # Advertising DSP ガイド {#dsp}
 
 + [新機能](/help/dsp/home.md)
-+ [Adobe Advertising DSPへのログイン](/help/dsp/introduction/sign-in.md)
++ [Adobe Advertising DSPにログイン](/help/dsp/introduction/sign-in.md)
 + 概要 {#introduction}
    + [Adobe Advertising DSPの概要](/help/dsp/introduction/dsp-about.md)
    + 主な機能 {#features}
@@ -24,14 +24,14 @@ ht-degree: 3%
       + [クロスデバイスソリューション](/help/dsp/introduction/features/cross-device-solutions.md)
    + [アカウント資金調達](/help/dsp/introduction/billing/account-funding.md)
    + [サポートされている通貨](/help/dsp/currency.md)
-   + [消費者のプライバシーのサポート](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
-   + [ポリシーとガイドライン](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
+   + [消費者のプライバシーのサポート](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [ポリシーとガイドライン](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [高度な測定ソリューション](/help/dsp/introduction/advanced-measurement-services.md)
 + [AIを活用したチャットで、製品ドキュメントを検索できます](/help/dsp/agent-chat.md)
 + キャンペーン管理 {#campaign-management}
-   + [Advertising DSPにおけるキャンペーン管理の概要](/help/dsp/campaign-management/campaign-management-overview.md)
+   + [Adobe Advertising DSPのキャンペーン管理の概要](/help/dsp/campaign-management/campaign-management-overview.md)
    + キャンペーン {#campaigns}
-      + [Advertising DSPのキャンペーン管理について](/help/dsp/campaign-management/campaigns/campaign-about.md)
+      + [Adobe Advertising DSPのキャンペーン管理について](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [キャンペーンの作成](/help/dsp/campaign-management/campaigns/campaign-create.md)
       + [キャンペーンの編集](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [キャンペーンの複製](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
@@ -73,11 +73,11 @@ ht-degree: 3%
       + [認定広告サービスパートナー](/help/dsp/campaign-management/ads/certified-ad-servers.md)
       + [単一の広告を作成](/help/dsp/campaign-management/ads/ad-create.md)
       + [複数のサードパーティ広告の制作](/help/dsp/campaign-management/ads/ad-create-multiple.md)
-      + [&#x200B; [!DNL Flashtalking]で広告を作成](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [ [!DNL Flashtalking]で広告を作成](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [バルクシートを使用した広告の詳細の確認と編集](/help/dsp/campaign-management/ads/ad-qa.md)
       + [広告の編集](/help/dsp/campaign-management/ads/ad-edit.md)
       + [広告の複製](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [プレースメントへの広告の添付と削除](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=ja)
+      + [プレースメントへの広告の添付と削除](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [広告に関連付けられているプレースメントのリスト](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [広告の詳細レポートの表示](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [広告を一時停止またはアクティベート](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -145,11 +145,11 @@ ht-degree: 3%
          + [ユーザーIDを [!DNL Optimizely] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-optimizely.md)
          + [ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-tealium.md)
       + [オーディエンスソースを管理して、ユニバーサル ID オーディエンスをアクティブ化する](/help/dsp/audiences/sources/source-manage.md)
-   + [&#x200B; [!DNL LiveRamp]から認証済みセグメントを手動でインポートします](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+   + [ [!DNL LiveRamp]から認証済みセグメントを手動でインポートします](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [利用可能なサードパーティデータプロバイダー](/help/dsp/audiences/third-party-data-providers.md)
 + 在庫 {#inventory}
    + [Advertising DSPの在庫機能の概要](/help/dsp/inventory/inventory-overview.md)
-   + [&#x200B; [!DNL Roku Inventory]を使用](/help/dsp/inventory/roku-inventory.md)
+   + [ [!DNL Roku Inventory]を使用](/help/dsp/inventory/roku-inventory.md)
    + [SSP パートナー](/help/dsp/inventory/ssp-partners.md)
    + [!DNL On Demand] インベントリ {#on-demand}
       + [プレミアム在庫について [!DNL On Demand] 件](/help/dsp/inventory/on-demand-inventory-about.md)
@@ -158,9 +158,9 @@ ht-degree: 3%
          + [オーストラリアとニュージーランドの[!DNL On Demand]社のプレミアム広告在庫パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
          + [ヨーロッパ、中東、アフリカの[!DNL On Demand]社のプレミアム広告在庫パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
          + [北米の[!DNL On Demand]社のプレミアム広告在庫パブリッシャー](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
-      + [&#x200B; [!DNL On Demand]  プレミアム在庫取引の購読とアクセスのリクエスト](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+      + [ [!DNL On Demand]  プレミアム在庫取引の購読とアクセスのリクエスト](/help/dsp/inventory/on-demand-inventory-subscribe.md)
       + [プレミアム在庫取引を再申請 [!DNL On Demand] する](/help/dsp/inventory/on-demand-inventory-rerequest.md)
-      + [&#x200B; [!DNL On Demand] 取引依頼とサブスクリプションのステータスを表示します](/help/dsp/inventory/on-demand-inventory-view-status.md)
+      + [ [!DNL On Demand] 取引依頼とサブスクリプションのステータスを表示します](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + プライベート在庫 {#private-inventory}
       + [プライベート在庫について](/help/dsp/inventory/private-inventory-about.md)
       + 取引ID {#deal-ids}
@@ -175,9 +175,9 @@ ht-degree: 3%
             + [プログラムで保証された契約を交渉するためのヒント](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [プログラム的に取引を保証する](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel]件のプログラムで保証された契約 {#freewheel}
-               + [&#x200B; [!DNL FreeWheel]でのプログラマティック保証取引の設定の概要](/help/dsp/inventory/freewheel-overview.md)
+               + [ [!DNL FreeWheel]でのプログラマティック保証取引の設定の概要](/help/dsp/inventory/freewheel-overview.md)
                + [プログラマティック保証取引の広告を [!DNL FreeWheel]に送信します](/help/dsp/inventory/freewheel-submit.md)
-               + [&#x200B; [!DNL FreeWheel] PG取引の広告のステータスを確認する](/help/dsp/inventory/freewheel-check-status.md)
+               + [ [!DNL FreeWheel] PG取引の広告のステータスを確認する](/help/dsp/inventory/freewheel-check-status.md)
                + [FreeWheelと送信のエラーコード](/help/dsp/inventory/freewheel-error-codes.md)
       + [プライベート取引設定の編集](/help/dsp/inventory/deal-id-edit.md)
       + [プライベート取引のプレースメントと広告の指定](/help/dsp/inventory/deal-id-attach-placements.md)
@@ -235,9 +235,9 @@ ht-degree: 3%
    + 通知 {#notifications}
       + [アラート配信について](/help/dsp/admin/alerts-about.md)
       + [アラート購読の管理](/help/dsp/admin/alerts-manage.md)
-+ [Adobe CX Enterpriseとの統合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ja)
++ [Adobe CX Enterpriseとの統合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [ヘルプを表示](/help/dsp/get-help.md)
-+ [Adobe CX Enterprise リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)
++ [Adobe CX Enterprise リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--
