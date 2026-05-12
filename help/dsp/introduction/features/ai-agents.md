@@ -13,6 +13,6 @@ ht-degree: 0%
 
 DSPは、自然言語プロンプトを使用して複数のタスクを支援する、AIを活用したエージェントを提供します。
 
-* [AI支援のチャットインターフェイスを使用して、[Advertising DSP ガイド ](/help/dsp/home.md)および[Advertising Creative ガイド ](/help/creative/home.md)の](/help/dsp/agent-chat.md)の概念的なコンテンツとハウツーコンテンツをAdvertising Creativeの広告主で検索します。
+* [&#128279;](/help/dsp/agent-chat.md)AI支援のチャットインターフェイスを使用して、[Advertising DSP ガイド &#x200B;](/help/dsp/home.md)および[Advertising Creative ガイド &#x200B;](/help/creative/home.md)のの概念的なコンテンツとハウツーコンテンツをAdvertising Creativeの広告主で検索します。
 
-* [生成AIが支援するオーディエンスエージェントを使用して、新しい再利用可能なオーディエンス ](/help/dsp/audiences/reusable-audience-create.md)を生成します。このオーディエンスは、プレースメントのターゲットまたは除外として使用できます。
+* [生成AIが支援するオーディエンスエージェントを使用して、新しい再利用可能なオーディエンス &#x200B;](/help/dsp/audiences/reusable-audience-create.md)を生成します。このオーディエンスは、プレースメントのターゲットまたは除外として使用できます。
