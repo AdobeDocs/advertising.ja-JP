@@ -25,7 +25,7 @@ ht-degree: 0%
 
 1. データテーブルの上で、**[!UICONTROL Set up Conversion]**&#x200B;をクリックします。
 
-1. [ コンバージョンアクション設定](#conversion-action-settings-google)を指定します。
+1. [&#x200B; コンバージョンアクション設定](#conversion-action-settings-google)を指定します。
 
    1. [!UICONTROL Setup Method] *[!UICONTROL Create Conversion]*&#x200B;を選択します。
 
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 1. リードの強化コンバージョンのトラッキングタグを作成する方法に関する情報を読み、**[!UICONTROL Next]**&#x200B;をクリックします。
 
-   コンバージョン指標を追跡するweb サイトで、コンバージョンタグを作成し、必要に応じて実装する必要があります。 また、リードのコンバージョンを強化し、顧客データの利用条件に同意する必要があります。 手順については、「[ リードのコンバージョンを強化するために [!DNL Google]  タグを設定](https://support.google.com/google-ads/answer/11021502)するための[!DNL Google Ads]手順」を参照してください。
+   コンバージョン指標を追跡するweb サイトで、コンバージョンタグを作成し、必要に応じて実装する必要があります。 また、リードのコンバージョンを強化し、顧客データの利用条件に同意する必要があります。 手順については、「[&#x200B; リードのコンバージョンを強化するために [!DNL Google]  タグを設定](https://support.google.com/google-ads/answer/11021502)するための[!DNL Google Ads]手順」を参照してください。
 
-   トランザクション固有のコンバージョン値を追跡する場合は、[ イベントスニペットをカスタマイズ ](https://support.google.com/google-ads/answer/6095947)します。
+   トランザクション固有のコンバージョン値を追跡する場合は、[&#x200B; イベントスニペットをカスタマイズ &#x200B;](https://support.google.com/google-ads/answer/6095947)します。
 
 1. **[!UICONTROL Close].**&#x200B;をクリックします
 
-コンバージョンアクションを作成し、コンバージョントラッキングタグを実装したら、組織がキャプチャしたオフラインのコンバージョンデータをアップロードし、コンバージョンアクションに関連付けることができます。 拡張コンバージョン ](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)については、「[ オフラインのコンバージョンデータをアップロード」を参照してください。「<!-- Update that reference once I move the file to new-ui/ folder. -->」
+コンバージョンアクションを作成し、コンバージョントラッキングタグを実装したら、組織がキャプチャしたオフラインのコンバージョンデータをアップロードし、コンバージョンアクションに関連付けることができます。 拡張コンバージョン [&#128279;](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)については、「 オフラインのコンバージョンデータをアップロード」を参照してください。「<!-- Update that reference once I move the file to new-ui/ folder. -->」
 
 ### コンバージョンアクションの設定 {#conversion-action-settings-google}
 
@@ -79,13 +79,13 @@ ht-degree: 0%
 
 * *[!UICONTROL Don't use a value for this conversion action (Not recommended)]*
 
-**[!UICONTROL Count]:** [ クリックまたはインタラクションごとにカウントするコンバージョン数](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]*&#x200B;または&#x200B;*[!UICONTROL One (Recommended for leads, sign-ups and other conversions for which only the first interaction is valuable)]*。
+**[!UICONTROL Count]:** [&#x200B; クリックまたはインタラクションごとにカウントするコンバージョン数](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]*&#x200B;または&#x200B;*[!UICONTROL One (Recommended for leads, sign-ups and other conversions for which only the first interaction is valuable)]*。
 
 **[!UICONTROL Click-Through Conversion Window]:** コンバージョンを記録する広告インタラクションの後最大日数。 検索キャンペーン、ディスプレイキャンペーン、ショッピングキャンペーンの場合、ウィンドウは1～90日です。 数値を選択するか、**[!UICONTROL Custom]**&#x200B;を選択して数値を入力します。
 
 **[!UICONTROL View-Through Conversion Window]:** ビュースルーコンバージョンが記録される、ユーザーが広告を表示してから経過した最大日数。 検索キャンペーン、ディスプレイキャンペーン、ショッピングキャンペーンの場合、ウィンドウは1～90日です。 数値を選択するか、**[!UICONTROL Custom]**&#x200B;を選択して数値を入力します。
 
-**[!UICONTROL Attribution Model]:** [各広告インタラクションのクレジットを決定するアトリビューションモデル ](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]*&#x200B;または&#x200B;*[!UICONTROL Last click]*。
+**[!UICONTROL Attribution Model]:** [各広告インタラクションのクレジットを決定するアトリビューションモデル &#x200B;](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]*&#x200B;または&#x200B;*[!UICONTROL Last click]*。
 
 ## （レガシーUI）コンバージョンアクションの作成
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 1. データテーブルの上にあるツールバーで、![作成](/help/search-social-commerce/assets/add.png "作成")をクリックします。
 
-1. [ コンバージョンアクション設定](#conversion-action-settings-google-legacy)を指定します。
+1. [&#x200B; コンバージョンアクション設定](#conversion-action-settings-google-legacy)を指定します。
 
    1. アカウントを選択し、変換タイプを選択します：*[!UICONTROL Import conversion]*。
 
@@ -107,13 +107,13 @@ ht-degree: 0%
 
    コンバージョン指標を追跡するweb サイトで、コンバージョンタグを作成し、必要に応じて実装します。 手順については、次を参照してください。
 
-   * [!DNL Google] タグを使用するには、「[ タグを使用したリードの拡張コンバージョンの設定 [!DNL Google]  タグ ](https://support.google.com/google-ads/answer/11347292)」の「[!DNL Google] タグ設定の設定」に関する[!DNL Google Ads]の手順を参照してください。
+   * [!DNL Google] タグを使用するには、「[&#x200B; タグを使用したリードの拡張コンバージョンの設定 [!DNL Google]  タグ &#x200B;](https://support.google.com/google-ads/answer/11347292)」の「[!DNL Google] タグ設定の設定」に関する[!DNL Google Ads]の手順を参照してください。
 
-   * [!DNL Google Tag Manager]を使用するには、「 [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11021502?#configure)」の「[ リードの拡張コンバージョンの設定」の「[!DNL Google] タグ設定の設定」と「設定を確認してコンテナを公開する」の[!DNL Google Ads]の手順を参照してください。
+   * [!DNL Google Tag Manager]を使用するには、「 [!DNL Google Tag Manager][&#128279;](https://support.google.com/google-ads/answer/11021502?#configure)」の「 リードの拡張コンバージョンの設定」の「[!DNL Google] タグ設定の設定」と「設定を確認してコンテナを公開する」の[!DNL Google Ads]の手順を参照してください。
 
 1. **[!UICONTROL Done].**&#x200B;をクリックします
 
-コンバージョンアクションを作成し、コンバージョントラッキングタグを実装したら、組織がキャプチャしたオフラインのコンバージョンデータをアップロードし、コンバージョンアクションに関連付けることができます。 「[ オフラインのコンバージョンデータをアップロードしてコンバージョンを強化する](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)」を参照してください。
+コンバージョンアクションを作成し、コンバージョントラッキングタグを実装したら、組織がキャプチャしたオフラインのコンバージョンデータをアップロードし、コンバージョンアクションに関連付けることができます。 「[&#x200B; オフラインのコンバージョンデータをアップロードしてコンバージョンを強化する](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)」を参照してください。
 
 ### コンバージョンアクションの設定 {#conversion-action-settings-google-legacy}
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Don't use a value for this conversion action (Not recommended)]*
 
-**[!UICONTROL Count]:** [ クリックまたはインタラクションごとにカウントするコンバージョン数](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]*&#x200B;または&#x200B;*[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*。
+**[!UICONTROL Count]:** [&#x200B; クリックまたはインタラクションごとにカウントするコンバージョン数](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]*&#x200B;または&#x200B;*[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*。
 
 **[!UICONTROL Click Through Conversion Window]:** コンバージョンを記録する広告インタラクションの後最大日数。 検索キャンペーン、ディスプレイキャンペーン、ショッピングキャンペーンの場合、ウィンドウは1～90日です。 数値を選択するか、**[!UICONTROL Custom]**&#x200B;を選択して数値を入力します。
 
@@ -145,5 +145,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
->* [実装 [!DNL Google Ads]  リードの拡張コンバージョン ](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
+>* [&#x200B; オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
+>* [実装 [!DNL Google Ads]  リードの拡張コンバージョン &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
