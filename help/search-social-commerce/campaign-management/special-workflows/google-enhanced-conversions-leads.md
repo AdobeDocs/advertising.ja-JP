@@ -4,16 +4,12 @@ description: リードの拡張コンバージョンを設定する [!DNL Google
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
 TQID: https://experienceleague.adobe.com/yFJJ662wcsm2KLzCIpxXo6F8nPsklVItHMTBk1h6wHg
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 341834cab1e23ddae903ecdeb6946cb004ea777e
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -22,11 +18,11 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-[[!DNL Google Ads]  リード向け拡張コンバージョン &#x200B;](https://support.google.com/google-ads/answer/9888656)を使用すると、ファーストパーティのコンバージョンデータを使用して、ユーザーをオフラインコンバージョンにマッピングできます。 クリック IDが使用できない環境（web サイトのリードに起因する電話やメール販売のトラッキングなど）では、リードに対して拡張コンバージョンを使用します。
+[[!DNL Google Ads]  リード向け拡張コンバージョン ](https://support.google.com/google-ads/answer/9888656)を使用すると、ファーストパーティのコンバージョンデータを使用して、ユーザーをオフラインコンバージョンにマッピングできます。 クリック IDが使用できない環境（web サイトのリードに起因する電話やメール販売のトラッキングなど）では、リードに対して拡張コンバージョンを使用します。
 
 Search, Social, &amp; Commerceでは、次のことができます。
 
-* リードの既存の拡張コンバージョンを表示します。
+* リードの既存の拡張コンバージョンを表示します。<!-- Where is this? -->
 
   Search, Social, &amp; Commerceは、広告主のタイムゾーンの05:00に毎日、リード用に既存の拡張コンバージョンを同期します。
 
@@ -48,7 +44,7 @@ Search, Social, &amp; Commerceでは、次のことができます。
 
 1. コンバージョンアクションを追跡するためのタグを設定して実装します。
 
-   手順については、[!DNL Google Ads] ヘルプを参照して、a[&#x200B; タグ  [!DNL Google] を使用するリード &#x200B;](https://support.google.com/google-ads/answer/11021502)または[を使用するリード  [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)の強化コンバージョン用のタグを作成します。
+   手順については、[!DNL Google Ads] ヘルプを参照して、a [!DNL Google]  タグ ](https://support.google.com/google-ads/answer/11021502)を使用するリード [または[を使用するリード  [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)の強化コンバージョン用のタグを作成します。
 
 1. [Search, Social, &amp; Google](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)または[Commerce Ads](https://support.google.com/google-ads/answer/12216226)内のリードに対して、強化されたコンバージョンのコンバージョンアクションを作成します。
 
@@ -64,5 +60,5 @@ Search, Social, &amp; Commerceでは、次のことができます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; リードの強化されたコンバージョン  [!DNL Google Ads] のコンバージョンアクションを作成](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
->* [&#x200B; オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
+>* [ リードの強化されたコンバージョン  [!DNL Google Ads] のコンバージョンアクションを作成](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* [ オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
