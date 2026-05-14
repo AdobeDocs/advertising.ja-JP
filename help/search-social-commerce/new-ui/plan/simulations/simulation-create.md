@@ -5,9 +5,13 @@ feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
 TQID: https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 2504e6a4eebeab74352606a89a5012ab96c89c47
 workflow-type: tm+mt
 source-wordcount: 505
@@ -51,7 +55,7 @@ ht-degree: 0%
 
    1. ポートフォリオ行の上にカーソルを置きます。 ポートフォリオ名の横で、**[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**&#x200B;をクリックします。
 
-1. [ カスタムシミュレーション設定](#custom-simulation-settings)を指定します。
+1. [&#x200B; カスタムシミュレーション設定](#custom-simulation-settings)を指定します。
 
    1. （オプション）シミュレーションに使用するポートフォリオを変更するには、ポートフォリオ名の横にある&#x200B;**[!UICONTROL Change Portfolio]**&#x200B;をクリックし、ポートフォリオを選択してから&#x200B;**[!UICONTROL Proceed]**&#x200B;をクリックします。
 
@@ -83,7 +87,7 @@ ht-degree: 0%
 
 1. データテーブルの上で、**[!UICONTROL Run Simulation]**&#x200B;をクリックします。
 
-1. [ カスタムシミュレーション設定](#custom-simulation-settings)を指定します。
+1. [&#x200B; カスタムシミュレーション設定](#custom-simulation-settings)を指定します。
 
    1. （オプション）シミュレーションに使用するポートフォリオを変更するには、ポートフォリオ名の横にある&#x200B;**[!UICONTROL Change Portfolio]**&#x200B;をクリックし、ポートフォリオを選択してから&#x200B;**[!UICONTROL Proceed]**&#x200B;をクリックします。
 
@@ -123,6 +127,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ シミュレーションについて](simulation-about.md)
->* [ シミュレーションの詳細を表示](simulation-view.md)
->* [ シミュレーションのダウンロード ](simulation-download.md)
+>* [&#x200B; シミュレーションについて](simulation-about.md)
+>* [&#x200B; シミュレーションの詳細を表示](simulation-view.md)
+>* [&#x200B; シミュレーションのダウンロード &#x200B;](simulation-download.md)
