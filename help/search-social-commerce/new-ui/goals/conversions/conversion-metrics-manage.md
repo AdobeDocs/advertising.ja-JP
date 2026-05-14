@@ -2,32 +2,34 @@
 title: 広告主のコンバージョン指標の管理
 description: Adobe Advertisingが広告主に対して追跡するコンバージョン指標の使用方法について説明します。
 feature: Conversions
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
-# 広告主のコンバージョン指標の管理
+# （新しいUI）広告主のコンバージョン指標のパフォーマンスデータを管理および表示する
 
-広告主の[&#x200B; コンバージョン &#x200B;](/help/search-social-commerce/glossary.md#c-d)指標は、Adobe Advertising全体で使用されます。
+*Beta機能*
+
+広告主の[ コンバージョン ](/help/search-social-commerce/glossary.md#c-d)指標は、Adobe Advertising全体で使用されます。
 
 * Search, Social, &amp; Commerceでは、コンバージョン指標のデータを、キャンペーンビュー、ポートフォリオビュー、客観的な管理ビューおよびレポートの列に表示できます。 十分なアクセス権限を持つユーザーは、コンバージョン指標を使用して目的を作成し、ポートフォリオの最適化に使用することもできます。
 
-* （Advertising DSPを使用する広告主） DSPでは、キャンペーン管理ビュー、カスタム目標、カスタムレポートにコンバージョン指標を含めることができます。 コンバージョン指標を使用して[&#x200B; カスタム目標](/help/dsp/admin/custom-objectives-manage.md)を作成し、パッケージの最適化に使用することもできます。
+* （Advertising DSPを使用する広告主） DSPでは、キャンペーン管理ビュー、カスタム目標、カスタムレポートにコンバージョン指標を含めることができます。 コンバージョン指標を使用して[ カスタム目標](/help/dsp/admin/custom-objectives-manage.md)を作成し、パッケージの最適化に使用することもできます。
 
 利用できる指標は次のとおりです。
 
 * Adobe Advertisingが広告主向けに追跡するコンバージョン指標。
 
-* [&#x200B; コンバージョンとサイトエンゲージメントの指標がAdobe Analyticsから同期されました](/help/integrations/analytics/analytics-data-in-advertising.md)。
+* [ コンバージョンとサイトエンゲージメントの指標がAdobe Analyticsから同期されました](/help/integrations/analytics/analytics-data-in-advertising.md)。
 
-* [&#x200B; サイトイベントがAdobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)から同期されました。
+* [ サイトイベントがAdobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)から同期されました。
 
 * [!DNL Google Ads]様が追跡したコンバージョンと、[!DNL Microsoft Advertising]件のユニバーサル イベント トラッキング タグが追跡したコンバージョンです。
 
-* （[&#x200B; アカウント、プロパティ、およびビューの組み合わせを検索、ソーシャル、およびCommerceのデータソース &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md)として設定した場合） [!DNL Google Analytics]によって追跡されたコンバージョン。 [!DNL Google Analytics] 
+* （[ アカウント、プロパティ、およびビューの組み合わせを検索、ソーシャル、およびCommerceのデータソース ](/help/search-social-commerce/admin/data-sources/data-source-about.md)として設定した場合） [!DNL Google Analytics]によって追跡されたコンバージョン。 [!DNL Google Analytics] 
 
 * カスタムフィードからのコンバージョン。
 
@@ -41,7 +43,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->広告主（または広告ネットワーク）がコンバージョン指標の収集を停止すると、過去データの表示に使用しない限り、[管理表示とレポート &#x200B;](#conversion-metrics-change-available)から非表示にします。
+>広告主（または広告ネットワーク）がコンバージョン指標の収集を停止すると、過去データの表示に使用しない限り、[管理表示とレポート ](#conversion-metrics-change-available)から非表示にします。
 
 ## 広告主が追跡したコンバージョン指標の表示
 
@@ -57,7 +59,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> [!DNL Google Analytics][&#128279;](/help/search-social-commerce/admin/data-sources/data-source-about.md)からの指標の場合、統合を更新または再認証すると、表示名に対する手動での変更はすべて上書きされます。 同様に、[!DNL Google Analytics]内の名前の変更は、統合を[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)または[再認証](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)しない限り無視されます。
+> [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md)からの[指標の場合、統合を更新または再認証すると、表示名に対する手動での変更はすべて上書きされます。 同様に、[!DNL Google Analytics]内の名前の変更は、統合を[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)または[再認証](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)しない限り無視されます。
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;をクリックします。
 
@@ -79,7 +81,7 @@ ht-degree: 0%
 
    広告主向けに収集されたすべてのコンバージョン指標と、表示用に指定されたさまざまな名前が一覧表示されます。
 
-1. （オプション）ツールバー[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列の見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)からリスト をフィルタリングします。
+1. （オプション）ツールバー](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列の見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)からリスト [をフィルタリングします。
 
 1. 管理ビューとレポートで使用できるコンバージョン指標を変更します。
 
@@ -94,6 +96,50 @@ ht-degree: 0%
       1. バルクアクションツールバーで、![表示](/help/search-social-commerce/assets/visible.png "表示")をクリックして指標を表示するか、![表示オフ](/help/search-social-commerce/assets/visibility-off.png "表示オフ")をクリックして指標を非表示にします。
 
       1. （指標を非表示にするには）確認メッセージで「**[!UICONTROL Confirm]**」をクリックし、指標を含む派生指標から指標を削除するなど、指標を非表示にします。
+
+## コンバージョンのパフォーマンスデータレポートの管理
+
+トラッキング対象コンバージョンに関する次の情報をダウンロードできます。同期済み指標名、Search、Social、およびCommerce管理ビューおよびレポート内の指標の表示名、指標が管理ビューおよびレポートに表示されているかどうか、コンバージョン ID、および指標ソース。 データを[!DNL Microsoft Excel] ワークブック （XLSX ファイル）形式のファイルにダウンロードします。
+
+### フィルタリングされたデータ行を含むレポートを生成する
+
+1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;をクリックします。
+
+1. データをダウンロードするコンバージョンを指定します。
+
+   * 特定の行のデータをダウンロードするには、行の横にあるチェックボックスをオンにします。
+
+   * すべての行のデータをダウンロードするには、チェックボックスをオンにする必要はありません。 デフォルトでは、すべての行が含まれています。
+
+1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+
+1. [!UICONTROL Grid Reports]設定で、一意のレポート名を入力し、**[!UICONTROL Generate]**&#x200B;をクリックします。
+
+   デフォルトでは、ファイル名は「conversionsReport_YYYYMMDD_NNNNN」で、「NNNN」は順次ジョブ番号（「conversionsReport_20260402_1326」など）です。
+
+   ファイルが[!UICONTROL Recently Generated] リストに追加されます。
+
+1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+
+   ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
+
+### 完成したレポートをダウンロード
+
+1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;をクリックします。
+
+1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+
+1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+
+   ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
+
+### 完了済みレポートの削除
+
+1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;をクリックします。
+
+1. データテーブルの上にあるツールバーで、![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")**[!UICONTROL Reports]**&#x200B;をクリックします。
+
+1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
 
 <!--
 >[!MORELIKETHIS]
