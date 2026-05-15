@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 433b4d40-de83-46ec-8859-44c8bc36f060
 TQID: https://experienceleague.adobe.com/8U2Z7EU4miPXfpgKmoPg2M8zRmY7sKVLzU0V0VtOSzY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 144
+source-wordcount: 156
 ht-degree: 0%
 
 ---
@@ -27,9 +23,11 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;をクリックします。
 
-1. ポートフォリオの横にあるチェックボックスをオンにします。
+1. 次のいずれかの操作を行います。
 
-1. データテーブルの上にあるツールバーで、![複製](/help/search-social-commerce/assets/duplicate.png "複製") **[!UICONTROL Duplicate]**&#x200B;をクリックします。
+   * ポートフォリオ行の上にカーソルを置き、**[!UICONTROL ...]>[!UICONTROL Duplicate]**&#x200B;をクリックします。
+
+   * ポートフォリオの横にあるチェックボックスをオンにします。 一括操作ツールバーで、![複製](/help/search-social-commerce/assets/duplicate.png "複製") **[!UICONTROL Duplicate]**&#x200B;をクリックします。
 
 1. ポートフォリオ設定を編集します。
 
@@ -43,8 +41,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ポートフォリオを作成](portfolio-create.md)
->* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [&#x200B; （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
->* [&#x200B; （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード &#x200B;](portfolio-view-report.md)
->* [&#x200B; ポートフォリオについて](portfolio-about.md)
+>* [ ポートフォリオを作成](portfolio-create.md)
+>* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [ （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
+>* [ （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード ](portfolio-view-report.md)
+>* [ ポートフォリオについて](portfolio-about.md)

@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
 TQID: https://experienceleague.adobe.com/tKCeMIgFKnW8hOU-6uavT9x7K9lL2Uqo2bWZ-H-Q5TE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 393
 ht-degree: 0%
 
 ---
@@ -27,7 +23,7 @@ ht-degree: 0%
 
 * フィールドの編集に関する情報を含む、読み取り専用の[!UICONTROL Instructions] ワークシート。
 
-* 含まれるポートフォリオごとに1行の[!UICONTROL Portfolio Settings Edit] タブ。 必要に応じてフィールドを編集し、ファイルをローカルに保存した後、編集したファイル [をSearch, Social, &amp; Commerceにアップロードすることもできます。 &#x200B;](#portfolio-bulksheet-upload)編集可能なフィールドがカラーでハイライト表示されます。
+* 含まれるポートフォリオごとに1行の[!UICONTROL Portfolio Settings Edit] タブ。 必要に応じてフィールドを編集し、ファイルをローカルに保存した後、編集したファイル ](#portfolio-bulksheet-upload)をSearch, Social, &amp; Commerceにアップロードすることもできます。 [編集可能なフィールドがカラーでハイライト表示されます。
 
 ## ポートフォリオ設定を含むバルクシートファイルのダウンロード
 
@@ -37,7 +33,7 @@ ht-degree: 0%
 
 1. データテーブルの上にあるツールバーで、次をクリックします。
 
-   * （すべてのポートフォリオに対して） **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export All Portfolios]**。
+   * （すべてのポートフォリオについて） ![一括操作](/help/search-social-commerce/assets/chevron-down.png "一括操作") > **[!UICONTROL Export All Portfolios]**。
 
    * （選択したポートフォリオの場合） **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**。
 
@@ -49,7 +45,7 @@ ht-degree: 0%
 
 ファイルはXLSX形式である必要があります。
 
-1. データテーブルの上のツールバーで、**[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![一括操作](/help/search-social-commerce/assets/chevron-down.png "一括操作") > **[!UICONTROL Import Portfolio Details]**&#x200B;をクリックします。
 
 1. [!UICONTROL Import Portfolio Details File] ダイアログで、次の操作を行います。
 
@@ -57,9 +53,9 @@ ht-degree: 0%
 
    1. **[!UICONTROL Import]**&#x200B;をクリックします。
 
-アップロードのステータスは、日付範囲セレクターの横にある[!UICONTROL Global Sync Status] ボタン（![&#x200B; グローバル同期ステータス &#x200B;](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ")）から確認できます。 いずれかの変更が成功しなかった場合は、失敗した内容を示すエラーファイルをダウンロードできます。
+アップロードのステータスは、日付範囲セレクターの横にある[!UICONTROL Global Sync Status] ボタン（![ グローバル同期ステータス ](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ")）から確認できます。 いずれかの変更が成功しなかった場合は、失敗した内容を示すエラーファイルをダウンロードできます。
 
-通知も通知センターに追加され、![&#x200B; ボタン （](/help/search-social-commerce/assets/notifications-new.png "）の横にある")通知[!UICONTROL Global Sync Status]通知![グローバル同期ステータス](/help/search-social-commerce/assets/global-sync-status.png "グローバル同期ステータス") アイコンから通知ペインを開くことができます。
+通知も通知センターに追加され、[!UICONTROL Global Sync Status] ボタン （![グローバル同期ステータス](/help/search-social-commerce/assets/global-sync-status.png "グローバル同期ステータス")）の横にある![通知](/help/search-social-commerce/assets/notifications-new.png "通知") アイコンから通知ペインを開くことができます。
 
 ## アップロードされたバルクシートファイルのデータ要件
 
@@ -93,6 +89,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [&#x200B; ポートフォリオを作成](portfolio-create.md)
->* [&#x200B; （新しいUI） ポートフォリオについて](portfolio-about.md)
+>* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [ ポートフォリオを作成](portfolio-create.md)
+>* [ （新しいUI） ポートフォリオについて](portfolio-about.md)
