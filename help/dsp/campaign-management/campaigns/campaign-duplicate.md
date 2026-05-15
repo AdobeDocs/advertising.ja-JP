@@ -4,19 +4,14 @@ description: キャンペーンを複製する方法を説明します。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
 TQID: https://experienceleague.adobe.com/Oq-1l3Ls2uEul-OQFVfiMoed8NewiX0X-EZzBPlSCHU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 380
+source-wordcount: 385
 ht-degree: 0%
 
 ---
@@ -62,14 +57,14 @@ ht-degree: 0%
    * 地域ターゲット
    * イベントピクセル
    * 広告
-   * プレースメントレベル [!DNL DoubleVerify Authentic Brand Safety] セグメント （広告主レベルのセグメントを上書きする）
+   * プレースメントレベル [!DNL DoubleVerify Authentic Brand Suitability] セグメント （広告主レベルのセグメントを上書きする）
 
 ## 新しいキャンペーンを設定するためのベストプラクティス
 
 >[!TIP]
 >
 >* バルクシートを使用すると、一度に[複数のキャンペーンコンポーネントに変更を加えることができます](/help/dsp/campaign-management/campaign-components-review-edit.md)。
->* 広告タグシートを使用して[複数のサードパーティ広告をアップロード &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
+>* 広告タグシートを使用して[複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
 
 * 新しいキャンペーンをアクティブ化する準備が整うまで一時停止します。
 
@@ -96,7 +91,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのキャンペーン管理について](campaign-about.md)
->* [&#x200B; キャンペーンを作成](campaign-create.md)
->* [&#x200B; キャンペーンを編集](campaign-edit.md)
->* [&#x200B; キャンペーンの変更ログを表示](campaign-change-log.md)
->* [&#x200B; キャンペーン設定](campaign-settings.md)
+>* [ キャンペーンを作成](campaign-create.md)
+>* [ キャンペーンを編集](campaign-edit.md)
+>* [ キャンペーンの変更ログを表示](campaign-change-log.md)
+>* [ キャンペーン設定](campaign-settings.md)
