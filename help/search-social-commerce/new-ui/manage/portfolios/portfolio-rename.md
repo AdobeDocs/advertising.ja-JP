@@ -24,8 +24,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ポートフォリオを作成](portfolio-create.md)
->* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [ （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
->* [ （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード ](portfolio-view-report.md)
->* [ ポートフォリオについて](portfolio-about.md)
+>* [&#x200B; ポートフォリオを作成](portfolio-create.md)
+>* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [&#x200B; （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
+>* [&#x200B; （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード &#x200B;](portfolio-view-report.md)
+>* [&#x200B; ポートフォリオについて](portfolio-about.md)

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!UICONTROL Simulations] ビュー](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)からカスタムシミュレーションを[作成または再実行することもできます。
+>[!UICONTROL Simulations] ビュー[&#128279;](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)からカスタムシミュレーションを作成または再実行することもできます。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;をクリックします。
 
@@ -30,6 +30,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
->* [ ポートフォリオについて](portfolio-about.md)
->* [ カスタムシミュレーションの実行または再実行](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+>* [&#x200B; （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
+>* [&#x200B; ポートフォリオについて](portfolio-about.md)
+>* [&#x200B; カスタムシミュレーションの実行または再実行](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
