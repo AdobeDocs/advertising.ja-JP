@@ -44,4 +44,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ [!UICONTROL Campaigns] ビューについて](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
+>* [&#x200B; [!UICONTROL Campaigns] ビューについて](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)

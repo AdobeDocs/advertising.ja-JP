@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta機能*
 
-完全なポートフォリオ設定を開かずに、[ ポートフォリオのステータス ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses)をすばやく変更できます。
+完全なポートフォリオ設定を開かずに、[&#x200B; ポートフォリオのステータス &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses)をすばやく変更できます。
 
 関連するキャンペーンのコスト/クリック/インプレッションデータと収益データの収集を停止するには、ポートフォリオを削除します。 ポートフォリオを削除すると、Search, Social, &amp; Commerce内で使用できなくなります。
 
@@ -59,6 +59,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ポートフォリオを作成](portfolio-create.md)
->* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [ ポートフォリオについて](portfolio-about.md)
+>* [&#x200B; ポートフォリオを作成](portfolio-create.md)
+>* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [&#x200B; ポートフォリオについて](portfolio-about.md)
