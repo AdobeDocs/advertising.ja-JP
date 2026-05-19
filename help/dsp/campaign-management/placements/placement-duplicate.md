@@ -12,9 +12,9 @@ subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: 445
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
    デフォルトでは、新しいプレースメントは元の広告タイプ用であり、元の広告主とキャンペーンに割り当てられ、現在の日から開始するフライトスケジュールがあり、一時停止され、元の広告は含まれません。
 
-   複数のプレースメントを作成する場合、新しいプレースメント名には番号が順番に追加されます。例えば、「My Placement #2」などの規則&lt;*original_placement_name #N*>を使用します。
+   複数のプレースメントを作成する場合、新しいプレースメント名には番号が順番に追加されます。この際、「My Placement #2」などの規則&lt;*original_placement_name #N*>が使用されます。
 
 1. **[!UICONTROL Submit]**&#x200B;をクリックします。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
    * 地域ターゲット
    * イベントピクセル
    * 広告
-   * プレースメントレベル [!DNL DoubleVerify Authentic Brand Safety] セグメント （広告主レベルのセグメントを上書きする）
+   * プレースメントレベル [!DNL DoubleVerify Authentic Brand Suitability] セグメント （広告主レベルのセグメントを上書きする）
 
 ## 新しいプレースメントを設定するためのベストプラクティス
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
    * 必要に応じて、イベントピクセルをプレースメントと広告に添付します。
 
-   * プレースメントに必要に応じて、地理的ターゲットとプレースメントレベル [!DNL DoubleVerify Authentic Brand Safety]のセグメントを含めます。
+   * プレースメントに必要に応じて、地理的ターゲットとプレースメントレベル [!DNL DoubleVerify Authentic Brand Suitability]のセグメントを含めます。
 
    * プログラマティックな保証取引の場合は、新しい取引IDを使用して、デフォルトのプレースメントを作成します。
 

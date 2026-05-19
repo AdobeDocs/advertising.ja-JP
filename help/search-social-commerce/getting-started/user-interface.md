@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
-source-wordcount: 1392
+source-wordcount: 1422
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ ht-degree: 0%
 
 ### メインメニューオプション
 
-役割によって、使用可能なオプションが決まります：<!-- add link when available -->
+ご利用の[製品プロファイル &#x200B;](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles)によって、使用可能なオプションが決まります。
 
 * **[!UICONTROL Dashboard]** サブメニュー：
 
    * **[!UICONTROL Overview]**&#x200B;すべてのポートフォリオのパフォーマンスのビジュアライゼーションを含む、設定可能な[!UICONTROL Dashboard] ビューを開きます。
 
-   * **[!UICONTROL Recommendations]**：新しいサイトを終了し、従来の[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] ビューを開きます。
+   * **[!UICONTROL Recommendations]**: [!DNL Google Ads]および[!DNL Microsoft Advertising]のメディア企業レコメンデーションの読み取り専用ビューと[!DNL Microsoft Advertising.]のメディア企業インサイトを開きます。レコメンデーションおよびインサイトを表示して対応するには、従来の[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
    * **[!UICONTROL Alerts & Notifications]**：新しいサイトを終了し、従来の[!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts] ビューを開きます。
 
@@ -148,17 +148,17 @@ Tools > Admin > Data Source Setup
 
 ## 右上のその他のタスクおよび情報ベースのメニュー
 
-### 一番上の行：CX Enterprise メニュー
+### 一番上の行：CX エンタープライズメニュー
 
 * アクセスできるCX Enterprise組織の選択可能なリスト。
 
 * ![&#x200B; ヘルプセンター](/help/search-social-commerce/assets/help-main-menu.png " ヘルプセンター") ドキュメントやその他の情報へのリンクが含まれたヘルプメニュー。
 
-* ![通知](/help/search-social-commerce/assets/notifications-aec.png "通知") CX Enterpriseからのリクエスト、通知、通知を一覧表示するパネル。
+* ![通知](/help/search-social-commerce/assets/notifications-aec.png "通知")CX Enterpriseからのリクエスト、通知、通知を一覧表示するパネル。
 
 * ![&#x200B; アプリ &#x200B;](/help/search-social-commerce/assets/apps.png " アプリ ")切り替え可能なAdobe CX Enterprise ソリューションとサービスの一覧。
 
-* ![&#x200B; アカウント &#x200B;](/help/search-social-commerce/assets/account.png " アカウント ")設定を変更してログアウトできる、CX Enterprise アカウントのプロファイルに関する情報。
+* ![&#x200B; アカウント &#x200B;](/help/search-social-commerce/assets/account.png " アカウント ")CX エンタープライズ アカウント プロファイルに関する情報。この情報から、環境設定を編集してログアウトできます。
 
 ### 2行目：その他の検索、ソーシャル、Commerce メニュー
 
@@ -216,7 +216,7 @@ Tools > Admin > Data Source Setup
 
 * ![&#x200B; ユーザープロファイル &#x200B;](/help/search-social-commerce/assets/user-profile.png " ユーザープロファイル ")あなたのプロファイルへのリンクで、ログアウトできます。
 
-  Adobe CX Enterprise[&#128279;](sign-in.md)を使用して ログインしている場合は、CX Enterpriseのパスワードと通知設定を含むCX Enterprise プロファイルを編集することもできます。
+  Adobe CX Enterprise[&#128279;](sign-in.md)を通じて ログインしている場合は、CX Enterprise パスワードと通知設定を含むCX Enterprise プロファイルを編集することもできます。
 
 >[!MORELIKETHIS]
 >

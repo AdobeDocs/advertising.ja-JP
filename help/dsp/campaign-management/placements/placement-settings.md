@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 4439
+source-wordcount: 4499
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 **[!UICONTROL Placement name]** プレースメント名。
 
 >[!TIP]
->状況に合った命名規則を使用します。 推奨される命名規則の1つは、「*\&lt; キャンペーン名\>: \&lt;Ad Unit\>: \&lt;Duration\>: \&lt;Targeting\>*」です。
+>状況に合った命名規則を使用します。 推奨される命名規則の1つは、「*\&lt; キャンペーン名\>: \&lt;広告ユニット\>: \&lt;期間\>: \&lt; ターゲット\>*」です。
 
 **[!UICONTROL Status]:** プレースメント ステータス：*[!UICONTROL Active]* （既定値）または&#x200B;*[!UICONTROL Paused]*。
 
@@ -205,7 +205,7 @@ ht-degree: 0%
 
   「[!UICONTROL Deals]」タブで、キーワード、キー、取引ID、またはカスタムタグでリストを検索できます。 「[!UICONTROL Deal Lists]」タブで、取引リスト名または取引リスト IDでリストを検索できます。
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: [で購読したすべての[!UICONTROL On Demand] プレミアム、保証されていない](/help/dsp/inventory/on-demand-inventory-about.md)在庫[!UICONTROL On Demand] （または[!DNL Roku] プレースメントの[!DNL Roku] [!DNL DSP]件の取引）です。 [!UICONTROL On Demand]在庫を含めることも除外することもできます。
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: [!DNL DSP]で購読したすべての[&#x200B; プレミアム、保証されていない[!UICONTROL On Demand]在庫](/help/dsp/inventory/on-demand-inventory-about.md) （または[!DNL Roku] プレースメントの[!UICONTROL On Demand] [!DNL Roku]件の取引）です。 [!UICONTROL On Demand]在庫を含めることも除外することもできます。
 
   ソース別またはフィード別にリストを表示できます。 フィード別にリストを表示する場合、フィード名、フィード キー、または選択したパブリッシャー地域、カテゴリタグ、または特性タグで検索できます。
 
@@ -326,8 +326,8 @@ ht-degree: 0%
 
 **[!UICONTROL Included Audiences]:** [&#x200B; サードパーティセグメント、ファーストパーティセグメント、Adobe セグメント、カスタムセグメント、保存済みオーディエンス &#x200B;](/help/dsp/audiences/audience-settings.md)など、プレースメントのオーディエンスターゲティング。 選択したすべてのセグメントおよび保存されたオーディエンスの合計およびアクティブな重複排除オーディエンスサイズも表示されます。 既存のオーディエンスを選択したり、後で再利用できるオーディエンスを作成したり、特定のオーディエンスセグメントを選択したりできます。
 
-* 既存のオーディエンスを選択するには、![の横にある](/help/dsp/assets/chevron-down.png)選択[!UICONTROL Included Audiences]をクリックし、オーディエンスを選択します。
-* オーディエンスを作成するには、![の横にある](/help/dsp/assets/chevron-down.png)選択[!UICONTROL Included Audiences]をクリックし、**[!UICONTROL + Create Audience]**&#x200B;を選択します。 手順については、[手順3から始まる再利用可能なオーディエンスの作成](/help/dsp/audiences/reusable-audience-create.md)を参照してください。
+* 既存のオーディエンスを選択するには、[!UICONTROL Included Audiences]の横にある![選択](/help/dsp/assets/chevron-down.png)をクリックし、オーディエンスを選択します。
+* オーディエンスを作成するには、[!UICONTROL Included Audiences]の横にある![選択](/help/dsp/assets/chevron-down.png)をクリックし、**[!UICONTROL + Create Audience]**&#x200B;を選択します。 手順については、[手順3から始まる再利用可能なオーディエンスの作成](/help/dsp/audiences/reusable-audience-create.md)を参照してください。
 * 特定のオーディエンスセグメントを選択するには、**[!UICONTROL Select segments for this placement only]**&#x200B;をクリックします。 セグメントロジックを選択します。手順については、「[再利用可能なオーディエンスを作成](/help/dsp/audiences/reusable-audience-create.md)」の手順6を参照してください。 完了したら、**保存**&#x200B;をクリックします。
 
 >[!NOTE]
@@ -336,9 +336,9 @@ ht-degree: 0%
 
 **[!UICONTROL Excluded Audiences]:** [&#x200B; サードパーティセグメント、ファーストパーティセグメント、Adobe セグメント、カスタムセグメント、保存済みオーディエンス &#x200B;](/help/dsp/audiences/audience-settings.md)を含む、プレースメントで除外するオーディエンス。 除外されたすべてのオーディエンスの合計およびアクティブな重複排除オーディエンスサイズも表示されます。 既存のオーディエンスを選択するか、後で再利用できる新しいオーディエンスを作成できます。
 
-* 既存のオーディエンスを選択するには、![の横にある](/help/dsp/assets/chevron-down.png)選択[!UICONTROL Excluded Audiences]をクリックし、オーディエンスを選択します。
+* 既存のオーディエンスを選択するには、[!UICONTROL Excluded Audiences]の横にある![選択](/help/dsp/assets/chevron-down.png)をクリックし、オーディエンスを選択します。
 
-* オーディエンスを作成するには、![の横にある](/help/dsp/assets/chevron-down.png)選択[!UICONTROL Excluded Audiences]をクリックし、**+ オーディエンスを作成**&#x200B;を選択します。 手順については、[手順3から始まる再利用可能なオーディエンスの作成](/help/dsp/audiences/reusable-audience-create.md)を参照してください。
+* オーディエンスを作成するには、[!UICONTROL Excluded Audiences]の横にある![選択](/help/dsp/assets/chevron-down.png)をクリックし、**+ オーディエンスを作成**&#x200B;を選択します。 手順については、[手順3から始まる再利用可能なオーディエンスの作成](/help/dsp/audiences/reusable-audience-create.md)を参照してください。
 
 **[!UICONTROL Targeting]:** ターゲットにするユーザーIDの種類。 プレースメントの公開後（つまり、フライトの開始後）に、この設定を変更することはできません。
 
@@ -346,13 +346,13 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: （既定値） Cookie、モバイル広告ID、コネクテッド TV （CTV） IDに基づいてユーザーをターゲティングします。 IDは、ブラウザー、アプリ内、CTVのインベントリにもとづいて選択されます。
 
-* *[!UICONTROL Universal ID Beta]*: ユーザーのプライバシーに焦点を当てたIDをターゲットにします。1つのID タイプを選択してください。 使用可能なオプションは、[!UICONTROL Geo-Targeting] セクションで選択した地理的目標によって決まります。 [[!DNL RampID] 個のセグメントをDSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)に直接読み込み、DSPがPIIをユニバーサル ID[に変換する](/help/dsp/audiences/sources/source-about.md)個のセグメント、またはユニバーサル ID[をトラッキングする](/help/dsp/audiences/custom-segment-create.md)個のカスタムセグメントで使用します。
+* *[!UICONTROL Universal ID Beta]*: ユーザーのプライバシーに焦点を当てたIDをターゲットにします。1つのID タイプを選択してください。 使用可能なオプションは、[!UICONTROL Geo-Targeting] セクションで選択した地理的目標によって決まります。 [[!DNL RampID] 個のセグメントをDSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)に直接読み込み、DSPがPIIをユニバーサル ID[&#128279;](/help/dsp/audiences/sources/source-about.md)に変換する[個のセグメント、またはユニバーサル ID](/help/dsp/audiences/custom-segment-create.md)をトラッキングする個のカスタムセグメントで使用します。
 
-   * *[!UICONTROL ID5]*: ターゲット [!DNL ID5] IDは、電子メールアドレスやその他のシグナルから確率的に作成されます。<!-- What countries/geos are these available for? Everywhere?-->個のID5は無料で利用できます。 **注：** [!DNL Eyeota]のサードパーティセグメントには、ID5 IDが含まれる場合があります。
+   * *[!UICONTROL ID5]*: ターゲット [!DNL ID5] IDは、電子メールアドレスおよびその他のシグナルから確率的に作成されました。<!-- What countries/geos are these available for? Everywhere?--> ID5 IDは無料でご利用いただけます。 **注：** [!DNL Eyeota]のサードパーティセグメントには、ID5 IDが含まれる場合があります。
 
    * *[!UICONTROL RampID]*: メールアドレスを使用してサイトにログインしたユーザーの[!DNL LiveRamp] [!DNL RampIDs]をターゲットにします。<!-- Verify --> [!DNL RampIDs]は、北米、オーストラリア、ニュージーランドのユーザーが利用できます。
 
-   * *[!UICONTROL Unified ID2.0]*: メールアドレスを使用してサイトにログインしたユーザーの[!DNL Unified ID2.0] （UID2） IDをターゲットにします。<!-- Verify -->[!DNL UID2 IDs]は、欧州経済領域およびその他の一部の国では利用できません。 [禁止国の一覧](/help/policies/universal-id-policy.md#prohibited-countries-uid2)を参照してください。
+   * *[!UICONTROL Unified ID2.0]*：電子メールアドレスを使用してサイトにログインしたユーザーの[!DNL Unified ID2.0] （UID2） IDをターゲットにします。<!-- Verify -->[!DNL UID2 IDs] 欧州経済領域およびその他の一部の国では、ユーザーは利用できません。 [禁止国の一覧](/help/policies/universal-id-policy.md#prohibited-countries-uid2)を参照してください。
 
   **[!UICONTROL Terms of service]**：ユニバーサル IDを使用するための利用条件。 お客様またはDSP アカウント内の他のユーザーは、データを新しいID タイプに変換する前に、条件に1回同意する必要があります。 マネージドサービス契約を締結しているお客様には、Adobeアカウントチームが同意を得て、組織の代わりに条件に同意します。 条件を読むには、**>**&#x200B;をクリックします。 条件に同意するには、条件の一番下までスクロールして「**[!UICONTROL Accept]**」をクリックします。
 
@@ -420,7 +420,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
-**[!UICONTROL DoubleVerify ABS segment ID]:** （オプション、[!DNL DoubleVerify]のお客様のみ。デスクトッププレロール、標準およびクリックトゥプレイ表示、ネイティブのディスプレイとビデオの配置でのみ使用できます。[&#x200B; ディールのデフォルトのプログラマティック保証配置](/help/dsp/inventory/programmatic-guaranteed-about.md)ではサポートされていません）組織の[!DNL DoubleVerify Authentic Brand Safety] アカウントに関連付けられた[!DNL DoubleVerify] セグメント IDは、配置に使用します。 IDを指定すると、指定したセグメント ID用に設定されたカスタムブランド安全ルールを使用して、入札後のインプレッションがブロックされます。 DSPは、セグメント IDの使用状況についてアカウントに請求します。
+**[!UICONTROL DoubleVerify ABS segment ID]:** （オプション、[!DNL DoubleVerify]のお客様のみ。デスクトッププレロール、標準およびクリックトゥプレイ表示、ネイティブのディスプレイとビデオの配置でのみ使用できます。[&#x200B; ディールのデフォルトのプログラマティック保証配置](/help/dsp/inventory/programmatic-guaranteed-about.md)ではサポートされていません）組織の[!DNL DoubleVerify] アカウントに関連付けられた[!DNL DoubleVerify Authentic Brand Suitability] セグメント IDは、配置に使用します。 IDを指定すると、指定したセグメント ID用に設定されたカスタムブランド安全ルールを使用して、入札後のインプレッションがブロックされます。 DSPは、セグメント IDの使用状況についてアカウントに請求します。
 
 IDは「51」で始まり、8桁で構成されている必要があります。 デフォルトでは、広告主アカウント設定でセグメント IDが指定されている場合、広告主レベルのIDが入力されますが、IDを変更して別のセグメントを使用したり、IDを削除して機能を無効にしたりできます。
 

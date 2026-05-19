@@ -2,7 +2,7 @@
 title: 広告主アカウント設定
 description: 使用可能な広告主設定の説明を参照してください。
 role: User, Admin
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%
@@ -31,15 +31,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-Adobe CX Enterpriseの他の製品を使用している広告主は、CX Enterpriseの組織固有IDを使用して、一部の製品間でデータを共有できます。 [!UICONTROL Integrations] セクションで特定の製品統合を設定できます。
+Adobe CX Enterprise製品を導入している広告主は、CX Enterprise向けの自社固有のIDを使用して、一部の製品間でデータを共有できます。 [!UICONTROL Integrations] セクションで特定の製品統合を設定できます。
 
-**[!UICONTROL Account IMS org and ID]:** （複数の広告主を含むCX Enterprise アカウントを通じてライセンス認証されたCX Enterprise製品を追加する広告主。オプション）広告主のCX Enterprise組織ID。
+**[!UICONTROL Account IMS org and ID]:** （複数の広告主を含むCX Enterprise アカウントを通じてライセンス認証された追加のCX Enterprise製品を持つ広告主。オプション）広告主のCX Enterprise組織ID。
 
-**[!UICONTROL Advertiser IMS org and ID]:** （CX Enterprise製品の直接使用ライセンスを持つ広告主。オプション）広告主のCX Enterprise組織ID。
+**[!UICONTROL Advertiser IMS org and ID]:** （追加のCX Enterprise製品の直接ライセンスを持つ広告主。オプション）広告主のCX Enterprise組織ID。
 
 ### [!UICONTROL Integrations]
 
-（オプション）DSP アカウントにリンクされているCX Enterpriseのその他の製品。 製品は、[!UICONTROL Adobe IMS IDs] セクションで指定されているのと同じCX Enterprise組織IDに関連付けられている必要があります。
+（オプション）DSP アカウントにリンクされている他のCX Enterprise製品。 製品は、[!UICONTROL Adobe IMS IDs] セクションで指定されているのと同じCX Enterprise組織IDに関連付けられている必要があります。
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** （[!DNL Advertising Search, Social, & Commerce]またはAdobe Advertising コンバージョンピクセルを使用する広告主） DSPがアトリビューションデータを交換する[!DNL Search, Social, & Commerce] アカウント。
 
@@ -103,59 +103,59 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ##### [!UICONTROL Integral Ad Science] {#ias-context}
 
-**[!UICONTROL Adult Content]:** (Optional) The degree of adult content for which to block ads by default: *[!UICONTROL Do Not Block]* (the default), *[!UICONTROL Standard]*, or *[!UICONTROL Strict]*. 追加料金が適用される場合があります。
+**[!UICONTROL Adult Content]:** （オプション）デフォルトで広告をブロックするアダルトコンテンツの程度：*[!UICONTROL Do Not Block]* （デフォルト）、*[!UICONTROL Standard]*、または&#x200B;*[!UICONTROL Strict]*。 追加料金が適用される場合があります。
 
-**[!UICONTROL Alcohol Content]:** (Optional) The degree of alcohol content for which to block ads by default: *[!UICONTROL Do Not Block]* (the default), *[!UICONTROL Standard]*, or *[!UICONTROL Strict]*. 追加料金が適用される場合があります。
+**[!UICONTROL Alcohol Content]:** （オプション）既定で広告をブロックするアルコール コンテンツの程度：*[!UICONTROL Do Not Block]* （既定）、*[!UICONTROL Standard]*、または&#x200B;*[!UICONTROL Strict]*。 追加料金が適用される場合があります。
 
 #### [!UICONTROL Pre-Bid Fraud Blocking] {#prebid-fraud-blocking}
 
-Types of sites to block based on fraudulent traffic and suspicious activities measured through [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39]. 広告主レベルの設定は、[&#x200B; プレースメントレベル &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)で上書きできます。
+不正なトラフィックと[!DNL DoubleVerify]、[!DNL Integral Ad Science]、[!DNL Peer39]を通じて測定された疑わしいアクティビティに基づいてブロックするサイトの種類です。 広告主レベルの設定は、[&#x200B; プレースメントレベル &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)で上書きできます。
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-fraud}
 
-**[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** By default, blocks all 100% invalid traffic, including traffic on hijacked devices, for new placements. 追加料金が適用される場合があります。
+**[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** デフォルトでは、新しいプレースメント用に、ハイジャックされたデバイス上のトラフィックを含む、100%無効なすべてのトラフィックをブロックします。 追加料金が適用される場合があります。
 
-**[!UICONTROL Also block sites with]:** (Optional) An additional level of fraud and invalid traffic that causes DSP to block ads by default:  *[!UICONTROL None]* (the default, which doesn&#39;t block additional traffic), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]*, or *[!UICONTROL >25% Average Fraud/IVT levels]*. 追加料金が適用される場合があります。
+**[!UICONTROL Also block sites with]:** （オプション）DSPがデフォルトで広告をブロックする原因となる追加レベルの不正行為および無効なトラフィック：*[!UICONTROL None]* （デフォルトでは、追加のトラフィックがブロックされません）、*[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*、*[!UICONTROL >4% Average Fraud/IVT levels]*、*[!UICONTROL >6% Average Fraud/IVT levels]*、*[!UICONTROL >10% Average Fraud/IVT levels]*、または&#x200B;*[!UICONTROL >25% Average Fraud/IVT levels]*。 追加料金が適用される場合があります。
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 
-**[!UICONTROL Block sites that are]:** (Optional) One or more types of fraud that cause DSP to block ads by default: *[!UICONTROL Fraud]* (which blocks all sites with fraud), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*, and/or *[!UICONTROL Fraud: Zero Ads]*. 追加料金が適用される場合があります。
+**[!UICONTROL Block sites that are]:** （オプション） DSPがデフォルトで広告をブロックする原因となる1つ以上の種類の不正行為：*[!UICONTROL Fraud]* （不正行為を伴うすべてのサイトをブロック）、*[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*&#x200B;または&#x200B;*[!UICONTROL Fraud: Zero Ads]*。 追加料金が適用される場合があります。
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
-**[!UICONTROL Block sites that are]:** (Optional) A type of suspicious website or app activity that causes DSP to block ads by default: *[!UICONTROL None]* (the default, which doesn&#39;t block ads based on suspicious activity), *[!UICONTROL Suspicious Activity - High Risk]*, or *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 追加料金が適用される場合があります。
+**[!UICONTROL Block sites that are]:** （オプション）DSPがデフォルトで広告をブロックする不審なweb サイトまたはアプリのアクティビティのタイプ：*[!UICONTROL None]* （デフォルトでは、不審なアクティビティに基づいて広告をブロックしません）、*[!UICONTROL Suspicious Activity - High Risk]*、または&#x200B;*[!UICONTROL Suspicious Activity - High or Moderate Risk]*。 追加料金が適用される場合があります。
 
 #### [!UICONTROL Pre-Bid Viewability]
 
-Optional pre-bid viewability filters by [!DNL DoubleVerify] and [!DNL Integral Ad Science] to apply to placements. The advertiser-level defaults are selected for new placements. 広告主レベルの設定は、[&#x200B; プレースメントレベル &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)で上書きできます。
+プレースメントに適用するオプションの入札前の表示可能性フィルター：[!DNL DoubleVerify]および[!DNL Integral Ad Science]。 新しいプレースメントには、広告主レベルのデフォルトが選択されます。 広告主レベルの設定は、[&#x200B; プレースメントレベル &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)で上書きできます。
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-viewability}
 
 ###### ビデオ
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. With this option, select the criteria.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. このオプションで、条件を選択します。
 
 **&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. With this option, select the criteria.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. このオプションで、条件を選択します。
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. With this option, select the criteria.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. このオプションで、条件を選択します。
 
 **&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 表示
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. With this option, select the criteria.
+**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. このオプションで、条件を選択します。
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
-* **[!UICONTROL Include Apps and URL's whose average entire creative (100% of pixels) viewable duration is]**. With this option, select the criteria.
+* **[!UICONTROL Include Apps and URL's whose average entire creative (100% of pixels) viewable duration is]**. このオプションで、条件を選択します。
 
 * **[!UICONTROL Impressions with Insufficient BXD Performance Data]**
 
 ##### [!UICONTROL Integral Ad Science] {#ias-viewability}
 
-An optional **[!UICONTROL Video Viewability Targets]** filter and an optional **[!UICONTROL Display Viewability Targets]** filter. 追加料金が適用される場合があります。
+オプションの&#x200B;**[!UICONTROL Video Viewability Targets]** フィルターとオプションの&#x200B;**[!UICONTROL Display Viewability Targets]** フィルター。 追加料金が適用される場合があります。
 
 #### [!UICONTROL Ads.text]
 
@@ -173,7 +173,7 @@ An optional **[!UICONTROL Video Viewability Targets]** filter and an optional **
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]:** （[!DNL DoubleVerify]人のお客様のみ。オプション）組織の[!DNL DoubleVerify] アカウントに関連付けられた[!DNL DoubleVerify Authentic Brand Safety] セグメント IDは、すべてのプレースメントにデフォルトで使用されます。 IDを指定すると、指定したセグメント ID用に設定されたカスタムブランド安全ルールを使用して、入札後のインプレッションがブロックされます。 DSPは、セグメント IDの使用状況についてアカウントに請求します。
+**[!UICONTROL DoubleVerify Account]:** （[!DNL DoubleVerify]人のお客様のみ。オプション）組織の[!DNL DoubleVerify] アカウントに関連付けられた[!DNL DoubleVerify Authentic Brand Suitability] セグメント IDは、すべてのプレースメントにデフォルトで使用されます。 IDを指定すると、指定したセグメント IDに設定されたカスタムブランド適合性ルールを使用して、入札後のインプレッションがブロックされます。 DSPは、セグメント IDの使用状況についてアカウントに請求します。
 
 IDは「51」で始まり、8桁で構成されている必要があります。 広告主レベルのIDは、プレースメントレベルで変更または削除できます。
 

@@ -4,9 +4,9 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2224'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
    + [Adobe Advertising Search, Social, &amp; Commerceについて](/help/search-social-commerce/introduction/about.md)
    + [サポートされているインベントリ](/help/search-social-commerce/introduction/supported-inventory.md)
    + Adobe CX Enterpriseとの連携 {#integrations}
-      + [Adobe CX Enterpriseのソリューションやサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
+      + [Adobe CX Enterpriseのソリューションおよびサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
       + [Adobe [!DNL Analytics for Advertising]  （リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja){target="_blank"}
       + [Adobe Audience Managerとの連携（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ja){target="_blank"}
    + [消費者のプライバシーのサポート（リンク）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
@@ -67,7 +67,7 @@ ht-degree: 2%
          + [パフォーマンス データ レポートまたはバルクシート ファイルを[!UICONTROL Downloads] メニューから削除します](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 + （Beta）新しいユーザーインターフェイス {#new-ui}
    + [新しいユーザーインターフェイスについて](/help/search-social-commerce/new-ui/new-ui-about.md)
-   + [パフォーマンスダッシュボードを見る](/help/search-social-commerce/new-ui/dashboard-view.md)
+   + [パフォーマンスダッシュボードを見る](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
    + プラン {#plan}
       + 課題 {#objectives}
          + [目標について](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
@@ -91,9 +91,13 @@ ht-degree: 2%
          + [ポートフォリオの複製](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-duplicate.md)
          + [ポートフォリオの詳細を編集](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)
          + [バルクシートファイルを使用したポートフォリオ設定の一括編集](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)
+         + [ポートフォリオ名の変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)
+         + [ポートフォリオのステータスの変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-change-status.md)
          + [Portfolioの設定](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
+         + [[!UICONTROL Portfolios] ビューからカスタムシミュレーションを実行します](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
          + [[!UICONTROL Portfolios] ビューでのパフォーマンス グラフの表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
          + [ポートフォリオパフォーマンスの詳細の表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
+         + [ポートフォリオの変更履歴の表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
          + [[!UICONTROL Portfolios] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + キャンペーン {#campaigns}
          + [[!UICONTROL Campaigns] ビューについて](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
@@ -101,10 +105,14 @@ ht-degree: 2%
          + [ポートフォリオからのキャンペーンの削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
          + [キャンペーンの制約の割り当ての管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [[!UICONTROL Campaigns] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+         + [キャンペーンのステータスの変更](/help/search-social-commerce/new-ui/manage/campaigns/campaign-change-status.md)
+         + [キャンペーン名の変更](/help/search-social-commerce/new-ui/manage/campaigns/campaign-rename.md)
       + 広告グループ {#ad-groups}
          + [[!UICONTROL Ad Groups] ビューについて](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
          + [広告グループの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
          + [[!UICONTROL Ad Groups] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
+         + [広告グループのステータスの変更](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-change-status.md)
+         + [広告グループ名の変更](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-rename.md)
       + 広告 {#ads}
          + [[!UICONTROL Ads] ビューについて](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [[!UICONTROL Ads] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
@@ -131,56 +139,56 @@ ht-degree: 2%
             + [API接続による広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
             + [API接続を介した広告ネットワークデータの手動同期](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/sync-api-accounts.md)
          + データアップロードアカウント {#data-upload}
-            + [Manage ad network accounts for data uploads](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
-         + [Manage [!DNL Naver] accounts for tracking only](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
-   + [User administration](/help/search-social-commerce/new-ui/user-administration.md)
+            + [データのアップロード用の広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
+         + [トラッキング専用の [!DNL Naver]  アカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+   + [ユーザー管理](/help/search-social-commerce/new-ui/user-administration.md)
 + トラッキング {#tracking}
-   + [About tracking](/help/search-social-commerce/tracking/tracking-about.md)
-   + Click tracking {#click-tracking}
-      + [Set up cookie-based click tracking](/help/search-social-commerce/tracking/click-tracking-set-up.md)
-      + [When and how to generate click-tracking URLs](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
-      + Components of click-tracking URLs {#click-tracking-components}
-         + Standard formats for click-tracking URLs {#click-tracking-formats}
-            + [About click-tracking URL formats](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
-            + [Click-tracking formats for [!DNL Baidu]](/help/search-social-commerce/tracking/formats-click-tracking-baidu.md)
-            + [Click-tracking formats for [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)
-            + [Click-tracking formats for [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)
-            + [Click-tracking formats for [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
-            + [Click-tracking formats for [!DNL Yahoo! Display Network]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
-            + [Click-tracking formats for [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
-            + [Click-tracking formats for [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
-         + [Optional tracking parameters for click-tracking URLs](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising cookies (link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ja){target="_blank"}
-      + [The AMO ID (s_kwcid) tracking parameter](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
+   + [トラッキングについて](/help/search-social-commerce/tracking/tracking-about.md)
+   + クリックの追跡 {#click-tracking}
+      + [Cookie ベースのクリック追跡の設定](/help/search-social-commerce/tracking/click-tracking-set-up.md)
+      + [クリックトラッキング URLを生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
+      + クリックトラッキング URLのコンポーネント {#click-tracking-components}
+         + クリックトラッキング URLの標準形式 {#click-tracking-formats}
+            + [クリックトラッキング URL形式について](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+            + [&#x200B; [!DNL Baidu]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-baidu.md)
+            + [&#x200B; [!DNL Google Ads]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-google.md)
+            + [&#x200B; [!DNL Microsoft Advertising]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)
+            + [&#x200B; [!DNL Naver]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
+            + [&#x200B; [!DNL Yahoo! Display Network]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
+            + [&#x200B; [!DNL Yahoo! Japan Ads]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
+            + [&#x200B; [!DNL Yandex]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
+         + [クリックトラッキング URLのオプションのトラッキングパラメーター](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
+      + [Adobe Advertising cookie （リンク）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ja){target="_blank"}
+      + [AMO ID （s_kwcid） トラッキングパラメーター](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + コンバージョンの追跡 {#conversion-tracking}
-      + [Conversion tracking options](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe Advertising conversion tracking {#advertising-conversion-tracking}
-         + [About Adobe Advertising conversion-tracking tags](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-         + [Generate and implement an Adobe Advertising conversion tag](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
-         + [Format of JavaScript conversion tracking tags version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
-         + [Format of JavaScript conversion tracking tags version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
-         + [Format of image conversion tracking tags](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
-         + [The Adobe Advertising JavaScript conversion mapping tag](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
-         + [FAQs about conversion and page view tracking tags](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
-      + [Adobe Analytics conversion tracking](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
-      + Advertiser-tracked conversions using feeds{#conversion-feeds}
-         + Feeds using EF IDs {#ef-ids}
-            + [Conversion tracking using an EF ID feed](/help/search-social-commerce/tracking/feed-efid.md)
-            + [Data requirements for data feeds using EF IDs](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
-         + Feeds using transaction IDs {#transaction-ids}
-            + [Conversion tracking using a transaction ID feed](/help/search-social-commerce/tracking/feed-transaction-id.md)
-            + [Data requirements for data feeds using a transaction ID](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
-         + [File requirements for conversion feed files](/help/search-social-commerce/tracking/feed-file-requirements.md)
-   + [FAQs about tracking](/help/search-social-commerce/tracking/faqs-tracking.md)
-+ Campaign management {#campaign-management}
+      + [コンバージョン追跡オプション](/help/search-social-commerce/tracking/conversion-tracking-about.md)
+      + Adobe Advertisingのコンバージョン追跡 {#advertising-conversion-tracking}
+         + [Adobe Advertisingのコンバージョントラッキングタグについて](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+         + [Adobe Advertising コンバージョンタグの生成と実装](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
+         + [JavaScript コンバージョントラッキングタグバージョン 3のフォーマット](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
+         + [JavaScript コンバージョントラッキングタグバージョン 2のフォーマット](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
+         + [画像変換トラッキングタグの形式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
+         + [Adobe Advertising JavaScriptのコンバージョンマッピングタグ](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+         + [コンバージョンとページビューのトラッキングタグに関するFAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
+      + [Adobe Analyticsのコンバージョン追跡](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
+      + フィードを使用して広告主が追跡するコンバージョン{#conversion-feeds}
+         + EF IDを使用したフィード {#ef-ids}
+            + [EF ID フィードを使用したコンバージョンの追跡](/help/search-social-commerce/tracking/feed-efid.md)
+            + [EF IDを使用したデータフィードのデータ要件](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
+         + トランザクション IDを使用したフィード {#transaction-ids}
+            + [トランザクション ID フィードを使用したコンバージョン追跡](/help/search-social-commerce/tracking/feed-transaction-id.md)
+            + [トランザクション IDを使用したデータフィードのデータ要件](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
+         + [変換フィードファイルのファイル要件](/help/search-social-commerce/tracking/feed-file-requirements.md)
+   + [トラッキングに関するFAQ](/help/search-social-commerce/tracking/faqs-tracking.md)
++ キャンペーン管理 {#campaign-management}
    + 概要 {#campaign-management-intro}
       + [Search, Social, &amp; Commerceのキャンペーン管理について](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
-      + [Overview of implementing ad network accounts and campaigns](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
-      + [Monitor and manage the performance of your ad network campaigns](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
-      + [[!DNL Google Ads] conversion data in Search, Social, &amp; Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
-      + [[!DNL Microsoft Advertising] conversion data in Search, Social, &amp; Commerce](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
-   + Setting up accounts {#campaign-management-accounts}
-      + Ad network accounts {#ad-network-accounts}
+      + [広告ネットワークアカウントとキャンペーンの実装の概要](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
+      + [広告ネットワーク施策のパフォーマンスを監視および管理](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
+      + [Search, Social, &amp; Commerceの[!DNL Google Ads] コンバージョンデータ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [Search, Social, &amp; Commerceの[!DNL Microsoft Advertising] コンバージョンデータ](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
+   + アカウントの設定 {#campaign-management-accounts}
+      + 広告ネットワークアカウント {#ad-network-accounts}
          + [広告ネットワークアカウントについて](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [広告ネットワーク アカウントの管理](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
          + [&#x200B; [!DNL Google Ads]  アカウントのAMO ID トラッキングコードの更新](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)

@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 50e002abe0c434e5eba9bd9785d7fc3d7ee7d10c
 workflow-type: tm+mt
-source-wordcount: 786
+source-wordcount: 791
 ht-degree: 0%
 
 ---
@@ -32,28 +32,28 @@ ht-degree: 0%
       * **全体的なパフォーマンス**：合計インプレッション数、クリック数、クリックスルー率（CTR）、ビュースルーコンバージョン数およびクリックスルー率コンバージョン数。
 
      <!--
-     ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
-          -->
+      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
+     -->
 
       * **デフォルトのレート**: （デジジョンツリーのターゲティングのみを使用したエクスペリエンス） ターゲットを絞ったクリエイティブ、ターゲットを持たない汎用的なクリエイティブ、または「他のすべてのユーザー」をターゲットにした汎用的なクリエイティブ、およびエクスペリエンスのデフォルトのクリエイティブから得られるインプレッションの数。
 
      <!--
-     ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
+      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
    * **パフォーマンスの分類** セクション：
 
-      * ** 地域別実績：*：地理的地域別の個別指標
+      * **地域パフォーマンス：**：地理的地域別の個々の指標。
 
-        <!--   
+     <!--
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
       * **デバイスのパフォーマンス：** デバイスの種類、オペレーティングシステム、ブラウザーごとの個々の指標。 オプションで、任意のデバイスカテゴリの値をクリックすると、その条件で配信された上位10人のクリエイターのリストが表示されます。
 
-        <!--    
+     <!--
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
 * 「**Creative パフォーマンス**」タブ*：クリエイティブおよびバンドルまたは広告タグ別のパフォーマンスの概要（以下を含む）。
 

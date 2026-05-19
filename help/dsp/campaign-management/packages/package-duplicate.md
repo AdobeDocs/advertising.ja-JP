@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: 420
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
    * 地域ターゲット
    * イベントピクセル
    * 広告
-   * プレースメントレベル [!DNL DoubleVerify Authentic Brand Safety] セグメント （広告主レベルのセグメントを上書きする）
+   * プレースメントレベル [!DNL DoubleVerify Authentic Brand Suitability] セグメント （広告主レベルのセグメントを上書きする）
 
 ## 新しいパッケージを設定するためのベストプラクティス
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
    * 必要に応じて、イベントピクセルをプレースメントと広告に添付します。
 
-   * プレースメントに必要に応じて、地理的ターゲットとプレースメントレベルの[!DNL DoubleVerify Authentic Brand Safety] セグメントを含めます。
+   * プレースメントに必要に応じて、地理的ターゲットとプレースメントレベルの[!DNL DoubleVerify Authentic Brand Suitability] セグメントを含めます。
 
    * プログラマティックな保証取引の場合は、新しい取引IDを使用して、デフォルトのプレースメントを作成します。
 

@@ -2,14 +2,16 @@
 title: 広告主のコンバージョン指標の管理
 description: Adobe Advertisingが広告主に対して追跡するコンバージョン指標の使用方法について説明します。
 feature: Conversions
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
-# 広告主のコンバージョン指標の管理
+# （新しいUI）広告主のコンバージョン指標のパフォーマンスデータを管理および表示する
+
+*Beta機能*
 
 広告主の[&#x200B; コンバージョン &#x200B;](/help/search-social-commerce/glossary.md#c-d)指標は、Adobe Advertising全体で使用されます。
 
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 * [&#x200B; コンバージョンとサイトエンゲージメントの指標がAdobe Analyticsから同期されました](/help/integrations/analytics/analytics-data-in-advertising.md)。
 
-* [&#x200B; サイトイベントがAdobe Customer Journey Analyticsから同期されました](/help/integrations/customer-journey-analytics/overview.md)。
+* [&#x200B; サイトイベントがAdobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)から同期されました。
 
 * [!DNL Google Ads]様が追跡したコンバージョンと、[!DNL Microsoft Advertising]件のユニバーサル イベント トラッキング タグが追跡したコンバージョンです。
 
@@ -94,6 +96,50 @@ ht-degree: 0%
       1. バルクアクションツールバーで、![表示](/help/search-social-commerce/assets/visible.png "表示")をクリックして指標を表示するか、![表示オフ](/help/search-social-commerce/assets/visibility-off.png "表示オフ")をクリックして指標を非表示にします。
 
       1. （指標を非表示にするには）確認メッセージで「**[!UICONTROL Confirm]**」をクリックし、指標を含む派生指標から指標を削除するなど、指標を非表示にします。
+
+## コンバージョンのパフォーマンスデータレポートの管理
+
+トラッキング対象コンバージョンに関する次の情報をダウンロードできます。同期済み指標名、Search、Social、およびCommerce管理ビューおよびレポート内の指標の表示名、指標が管理ビューおよびレポートに表示されているかどうか、コンバージョン ID、および指標ソース。 データを[!DNL Microsoft Excel] ワークブック （XLSX ファイル）形式のファイルにダウンロードします。
+
+### フィルタリングされたデータ行を含むレポートを生成する
+
+1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;をクリックします。
+
+1. データをダウンロードするコンバージョンを指定します。
+
+   * 特定の行のデータをダウンロードするには、行の横にあるチェックボックスをオンにします。
+
+   * すべての行のデータをダウンロードするには、チェックボックスをオンにする必要はありません。 デフォルトでは、すべての行が含まれています。
+
+1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+
+1. [!UICONTROL Grid Reports]設定で、一意のレポート名を入力し、**[!UICONTROL Generate]**&#x200B;をクリックします。
+
+   デフォルトでは、ファイル名は「conversionsReport_YYYYMMDD_NNNNN」で、「NNNN」は順次ジョブ番号（「conversionsReport_20260402_1326」など）です。
+
+   ファイルが[!UICONTROL Recently Generated] リストに追加されます。
+
+1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+
+   ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
+
+### 完成したレポートをダウンロード
+
+1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;をクリックします。
+
+1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+
+1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+
+   ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
+
+### 完了済みレポートの削除
+
+1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;をクリックします。
+
+1. データテーブルの上にあるツールバーで、![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")**[!UICONTROL Reports]**&#x200B;をクリックします。
+
+1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
 
 <!--
 >[!MORELIKETHIS]

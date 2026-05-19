@@ -2,28 +2,60 @@
 title: オフラインのコンバージョンデータをアップロードしてコンバージョンを向上
 description: 1st パーティのオフラインのコンバージョンデータをアップロードして、リードのコンバージョンを [!DNL Google Ads] 強化し、コンバージョンを [!DNL Microsoft Advertising] 強化する方法を説明します。
 feature: Conversions
-exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-TQID: https://experienceleague.adobe.com/Hfmc5VCw9682cYmOQIcoy1Yy6InkoSmE18qqILbD2oI
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ab69d6b27b86f6e4d9da6be3cd0245d6116469d3
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: 792
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
 # オフラインのコンバージョンデータをアップロードしてコンバージョンを向上
 
+<!-- Renamed file to start with "conversions-"-->
+
+<!-- Added procedure in new UI, which isn't available to all yet -->
+
 *[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントのみ*
 
 ハッシュ化された電子メールアドレスや電話番号を含むファーストパーティのオフラインのコンバージョンデータをアップロードして、既存の[[!DNL Google Ads] 強化コンバージョンのリード &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)および[[!DNL Microsoft Advertising] 強化コンバージョン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178)にマッピングできます。 アップロードされたすべてのデータは、広告ネットワークにリアルタイムで同期されます。
 
-## データをアップロードしてコンバージョンを高める
+## （新しいUI） データをアップロードしてコンバージョンを強化
+
+*Beta機能*
+
+1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;をクリックします。
+
+1. データテーブルの上で、**[!UICONTROL Set up Conversion]**&#x200B;をクリックします。
+
+1. データアップロード設定を指定します。
+
+   1. 「[!UICONTROL Basic Details]」タブ：
+
+      1. [!UICONTROL Setup Method] *[!UICONTROL Data Upload]*&#x200B;を選択します。
+
+      1. [!UICONTROL Platform]: *[!UICONTROL Google]*&#x200B;または&#x200B;*[!UICONTROL Microsoft]*&#x200B;を選択します。
+
+      1. **[!UICONTROL Next]**&#x200B;をクリックします。
+
+   1. 「[!UICONTROL Configure]」タブ：
+
+      1. （オプション）すべての[必須データフィールド &#x200B;](#enhanced-conversions-leads-data)を[!DNL Microsoft Excel]形式で含むテンプレートをダウンロードするには、**[!UICONTROL Download Template]**&#x200B;をクリックし、ブラウザーの通常の手順に従ってファイルをダウンロードします。
+
+         データを含めるようにファイルを編集し、変更を保存してから、指定した広告ネットワークアカウントにファイルをアップロードできます。
+
+      1. データをアップロードする広告ネットワークアカウントを選択します。
+
+      1. [!UICONTROL Upload Conversion File] ボックスで、次のいずれかの操作を行います。
+
+         * ファイルをボックスにドラッグします。
+
+         * **[!UICONTROL Browse File]**&#x200B;をクリックし、デバイスまたはネットワークからアップロードするファイルを選択します。
+
+   1. **[!UICONTROL Review and Save]**&#x200B;をクリックして設定を確認します。
+
+   1. **[!UICONTROL Upload]**&#x200B;をクリックします。
+
+## （従来のUI）データをアップロードしてコンバージョンを強化
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**&#x200B;をクリックし、**[!UICONTROL Upload]** タブをクリックします。
 
@@ -47,14 +79,14 @@ ht-degree: 0%
 
 | 列 | 説明 |
 | ------ | ----------- |
-| メール | ユーザーのメールアドレス。SHA-256 アルゴリズムを使用してハッシュ化する必要があります。 各行には、電子メールの値または電話番号の値を含める必要があります。 |
-| 電話番号 | ユーザーの電話番号。SHA-256 アルゴリズムを使用してハッシュ化する必要があります。 国コードを含める必要があり、ダッシュやその他の記号を含めることができます。 各行には、電子メールの値または電話番号の値を含める必要があります。 |
-| コンバージョン名 | （必須）変換アクションの名前。 |
-| コンバージョン時間 | （必須）コンバージョンイベントが[&#x200B; サポートされている時間形式](https://support.google.com/google-ads/answer/7014069#prepare_data)で発生した時間。 データテーブルの上の`Parameters:TimeZone=insert_timezone`行にアカウントのタイムゾーン IDを含めない場合は、「+」または「 – 」で示されるGMT オフセットを「[&#x200B; サポートされているタイムゾーン ID形式](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids)」または「 – 」を使用して各行のタイムゾーンを含め、4桁の時間差（ニューヨークでは–0500、ベルリンでは+0100、グリニッジ平均時間では+000など）を指定します。 |
-| コンバージョン値 | （必須）数値の変換値。 |
-| コンバージョン通貨 | コンバージョンイベントの通貨コード。 |
-| 広告ユーザーデータ | （欧州経済地域（EEA）または英国（UK）のユーザーに関するデータに適用）広告パーソナライゼーション目的で[!DNL Google]にユーザーデータを送信するためにユーザーの同意が与えられたかどうかを示します。 値には、`Granted`、`Denied`または\[null\]が含まれます（これは[!DNL Google Ads]に`Unspecified`として送信されます）。 **注：** [!DNL Google Ads]は、現在、リードのコンバージョンを強化するための同意を適用していませんが、今後は適用される可能性があります。 |
-| Ad Personalization | （欧州経済地域（EEA）または英国（UK）のユーザーに関するデータに適用）広告目的で[!DNL Google]にユーザーデータを送信することにユーザーの同意が与えられたかどうかを示します。 値には、`Granted`、`Denied`または\[null\]が含まれます（これは[!DNL Google Ads]に`Unspecified`として送信されます）。 **注：** [!DNL Google Ads]は、現在、リードのコンバージョンを強化するための同意を適用していませんが、今後は適用される可能性があります。 |
+| [!UICONTROL Email] | ユーザーのメールアドレス。SHA-256 アルゴリズムを使用してハッシュ化する必要があります。 各行には、[!UICONTROL Email]値または[!UICONTROL Phone Number]値を含める必要があります。 |
+| [!UICONTROL Phone Number] | ユーザーの電話番号。SHA-256 アルゴリズムを使用してハッシュ化する必要があります。 国コードを含める必要があり、ダッシュやその他の記号を含めることができます。 各行には、[!UICONTROL Email]値または[!UICONTROL Phone Number]値を含める必要があります。 |
+| [!UICONTROL Conversion Name] | （必須）変換アクションの名前。 |
+| [!UICONTROL Conversion Time] | （必須）コンバージョンイベントが[&#x200B; サポートされている時間形式](https://support.google.com/google-ads/answer/7014069#prepare_data)で発生した時間。 データテーブルの上の`Parameters:TimeZone=insert_timezone`行にアカウントのタイムゾーン IDを含めない場合は、「+」または「 – 」で示されるGMT オフセットを「[&#x200B; サポートされているタイムゾーン ID形式](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids)」または「 – 」を使用して各行のタイムゾーンを含め、4桁の時間差（ニューヨークでは–0500、ベルリンでは+0100、グリニッジ平均時間では+000など）を指定します。 |
+| [!UICONTROL Conversion Value] | （必須）数値の変換値。 |
+| [!UICONTROL Conversion Currency] | コンバージョンイベントの通貨コード。 |
+| [!UICONTROL Ad User Data] | （欧州経済地域（EEA）または英国（UK）のユーザーに関するデータに適用）広告パーソナライゼーション目的で[!DNL Google]にユーザーデータを送信するためにユーザーの同意が与えられたかどうかを示します。 値には、`Granted`、`Denied`または\[null\]が含まれます（これは[!DNL Google Ads]に`Unspecified`として送信されます）。 **注：** [!DNL Google Ads]は、現在、リードのコンバージョンを強化するための同意を適用していませんが、今後は適用される可能性があります。 |
+| [!UICONTROL Ad Personalization] | （欧州経済地域（EEA）または英国（UK）のユーザーに関するデータに適用）広告目的で[!DNL Google]にユーザーデータを送信することにユーザーの同意が与えられたかどうかを示します。 値には、`Granted`、`Denied`または\[null\]が含まれます（これは[!DNL Google Ads]に`Unspecified`として送信されます）。 **注：** [!DNL Google Ads]は、現在、リードのコンバージョンを強化するための同意を適用していませんが、今後は適用される可能性があります。 |
 
 ### [!DNL Microsoft Advertising]のテーブル列と値
 

@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 144
+source-wordcount: 156
 ht-degree: 0%
 
 ---
@@ -27,9 +27,11 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;をクリックします。
 
-1. ポートフォリオの横にあるチェックボックスをオンにします。
+1. 次のいずれかの操作を行います。
 
-1. データテーブルの上にあるツールバーで、![複製](/help/search-social-commerce/assets/duplicate.png "複製") **[!UICONTROL Duplicate]**&#x200B;をクリックします。
+   * ポートフォリオ行の上にカーソルを置き、**[!UICONTROL ...]>[!UICONTROL Duplicate]**&#x200B;をクリックします。
+
+   * ポートフォリオの横にあるチェックボックスをオンにします。 一括操作ツールバーで、![複製](/help/search-social-commerce/assets/duplicate.png "複製") **[!UICONTROL Duplicate]**&#x200B;をクリックします。
 
 1. ポートフォリオ設定を編集します。
 

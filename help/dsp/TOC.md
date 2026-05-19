@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1056'
 ht-degree: 3%
 
 ---
@@ -117,7 +117,6 @@ ht-degree: 3%
    + [ユニバーサル IDのアクティブ化のサポート](/help/dsp/audiences/universal-ids.md)
    + 再利用可能なオーディエンス {#reusable-audiences}
       + [再利用可能なオーディエンスの作成](/help/dsp/audiences/reusable-audience-create.md)
-      + {hide-from-toc}[生成AIを使用して再利用可能なオーディエンスを作成](/help/dsp/audiences/reusable-audience-create-using-ai.md)
       + [再利用可能なオーディエンスの複製](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [再利用可能なオーディエンスの編集](/help/dsp/audiences/reusable-audience-edit.md)
       + [再利用可能なオーディエンスに関する詳細の表示](/help/dsp/audiences/reusable-audience-view-details.md)

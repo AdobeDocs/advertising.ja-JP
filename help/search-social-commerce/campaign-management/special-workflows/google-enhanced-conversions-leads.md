@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 341834cab1e23ddae903ecdeb6946cb004ea777e
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Search, Social, &amp; Commerceでは、次のことができます。
 
-* リードの既存の拡張コンバージョンを表示します。
+* リードの既存の拡張コンバージョンを表示します。<!-- Where is this? -->
 
   Search, Social, &amp; Commerceは、広告主のタイムゾーンの05:00に毎日、リード用に既存の拡張コンバージョンを同期します。
 
@@ -48,7 +48,7 @@ Search, Social, &amp; Commerceでは、次のことができます。
 
 1. コンバージョンアクションを追跡するためのタグを設定して実装します。
 
-   手順については、[!DNL Google Ads] ヘルプを参照して、a[&#x200B; タグ  [!DNL Google] を使用するリード &#x200B;](https://support.google.com/google-ads/answer/11021502)または[を使用するリード  [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)の強化コンバージョン用のタグを作成します。
+   手順については、[!DNL Google Ads] ヘルプを参照して、a [!DNL Google]  タグ [&#128279;](https://support.google.com/google-ads/answer/11021502)を使用するリード または[を使用するリード  [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)の強化コンバージョン用のタグを作成します。
 
 1. [Search, Social, &amp; Google](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)または[Commerce Ads](https://support.google.com/google-ads/answer/12216226)内のリードに対して、強化されたコンバージョンのコンバージョンアクションを作成します。
 

@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 122
+source-wordcount: 151
 ht-degree: 0%
 
 ---
@@ -25,13 +25,16 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->複数のポートフォリオの設定を一度に編集するには、「[&#x200B; （新しいUI） バルクシート ファイルを使用したポートフォリオ設定の一括編集](portfolio-bulksheets.md)」を参照してください。
+>* 複数のポートフォリオの設定を一度に編集するには、「[&#x200B; （新しいUI） バルクシート ファイルを使用したポートフォリオ設定の一括編集](portfolio-bulksheets.md)」を参照してください。
+>* 完全なポートフォリオ設定を開かずにポートフォリオの名前をすばやく変更するには、「[&#x200B; ポートフォリオの名前を変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)」を参照してください。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;をクリックします。
 
-1. ポートフォリオの横にあるチェックボックスをオンにします。
+1. 次のいずれかの操作を行います。
 
-1. データテーブルの上にあるツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集") **[!UICONTROL Edit]**&#x200B;をクリックします。
+   * ポートフォリオ行の上にカーソルを置き、![Portfolioを編集](/help/search-social-commerce/assets/settings-new.png "Portfolioを編集")をクリックします。
+
+   * ポートフォリオの横にあるチェックボックスをオンにします。 一括操作ツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
 
 1. ポートフォリオ設定を編集します。
 
