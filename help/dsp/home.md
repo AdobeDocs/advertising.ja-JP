@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
+source-git-commit: 845ec19227f14205ec4cd69c2f2f0114bd97cf48
 workflow-type: tm+mt
-source-wordcount: 7264
+source-wordcount: 7338
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年5月20日（PT） | ファーストパーティオーディエンスソース、ユニバーサル ID、[!UICONTROL Placements] | オーストラリアの広告主は、ターゲット広告のセグメントマッピング付きの[!DNL AdFixus] ユニバーサル IDをインポートできるようになりました。 DSPは、ファーストパーティセグメントを他のID タイプに変換することなく、[!DNL AdFixus]からそのまま読み込みます。 このプロセスには、オーディエンスソースの作成と、自動生成されたキーの[!DNL AdFixus] チームとの共有が含まれます。 | 「[1st パーティセグメントを [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)から読み込む」、「[&#x200B; ファーストパーティオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)」、「[&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](/help/dsp/audiences/sources/source-manage.md)」を参照してください。 |
 | 2026年5月11日（PT） | [!UICONTROL Audiences]を再利用 | （Betaの機能） AIを活用したオーディエンスエージェントを使用して、再利用可能なオーディエンスを作成できるようになりました。 ターゲットオーディエンスを自然言語プロンプトで説明し、担当者がサードパーティセグメントを提案し、ターゲットまたは除外として使用するオーディエンス式を作成します。 | 「[再利用可能なオーディエンスの作成](/help/dsp/audiences/reusable-audience-create.md)」を参照してください。 |
 | 2026年4月29日（PT） | [!UICONTROL Conversions] | Adobe AdvertisingがDSPで管理するコンバージョン指標をすべて管理できるようになりました。 指標は、Advertising Search、Social、Commerceで引き続き使用でき、レポートと最適化で使用できます。 | 「[&#x200B; コンバージョンの管理](/help/dsp/admin/conversion-metrics-manage.md)」を参照してください。 |
 | | [!UICONTROL Custom Objectives] | DSP内から、カスタム目標に使用する目標を作成および管理できるようになりました。 | 「[&#x200B; カスタム目標の管理](/help/dsp/admin/custom-objectives-manage.md)」を参照してください。 |
