@@ -2,7 +2,7 @@
 title: ラベル分類の管理
 description: ラベル分類を使用してアカウントコンポーネントをグループ化する方法について説明します。
 feature: Search Label Classifications
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 0%
@@ -161,7 +161,7 @@ ht-degree: 0%
 
    複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-1. 一括操作ツールバーで、**-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**&#x200B;をクリックします。
+1. 一括操作ツールバーで、**[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**&#x200B;をクリックします。
 
 1. 選択したエンティティから削除する各分類値の横にあるチェックボックスをオンにします。<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
 

@@ -4,9 +4,9 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
+source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2189'
 ht-degree: 2%
 
 ---
@@ -117,7 +117,17 @@ ht-degree: 2%
          + [[!UICONTROL Ads] ビューについて](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [[!UICONTROL Ads] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + レポート {#reports}
-      + [スプレッドシート レポート フィードの管理](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
+      + スケジュールレポート {#scheduled}
+         + [レポートについて](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/report-about)
+         + [レポートの初期設定タスク](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup)
+         + [レポートに使用するデータ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports)
+      + レポートの管理 {#report-management}
+         + 自動化 {#automation}
+            + [レポートテンプレートの管理](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
+            + [スプレッドシート レポート フィードの管理](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
+            + [レポートへのFTP アクセス](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
+         + [アトリビューションルールの計算方法](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules)
+         + [カスタムレポートに関するFAQ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report)
       + [[!UICONTROL History Logs] レポートを表示](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [ラベル分類の管理](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
