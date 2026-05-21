@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 4499
+source-wordcount: 4518
 ht-degree: 0%
 
 ---
@@ -346,15 +346,17 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: （既定値） Cookie、モバイル広告ID、コネクテッド TV （CTV） IDに基づいてユーザーをターゲティングします。 IDは、ブラウザー、アプリ内、CTVのインベントリにもとづいて選択されます。
 
-* *[!UICONTROL Universal ID Beta]*: ユーザーのプライバシーに焦点を当てたIDをターゲットにします。1つのID タイプを選択してください。 使用可能なオプションは、[!UICONTROL Geo-Targeting] セクションで選択した地理的目標によって決まります。 [[!DNL RampID] 個のセグメントをDSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)に直接読み込み、DSPがPIIをユニバーサル ID[&#128279;](/help/dsp/audiences/sources/source-about.md)に変換する[個のセグメント、またはユニバーサル ID](/help/dsp/audiences/custom-segment-create.md)をトラッキングする個のカスタムセグメントで使用します。
+* *[!UICONTROL Universal ID]*: ユーザーのプライバシーに焦点を当てたIDをターゲットにします。1つのID タイプを選択してください。 使用可能なオプションは、[!UICONTROL Geo-Targeting] セクションで選択した地理的目標によって決まります。 [[!DNL RampID] 個のセグメントをDSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)に直接読み込み、[個のセグメントを使用して、PIIをDSPがユニバーサル ID](/help/dsp/audiences/sources/source-about.md)に変換します。[&#x200B; ファーストパーティ  [!DNL AdFixus] 個のセグメントをDSP](/help/dsp/audiences/sources/source-adfixus.md)にストリーミングします。または、ユニバーサル ID[&#128279;](/help/dsp/audiences/custom-segment-create.md)をトラッキングする個のカスタムセグメントを使用します。
 
-   * *[!UICONTROL ID5]*: ターゲット [!DNL ID5] IDは、電子メールアドレスおよびその他のシグナルから確率的に作成されました。<!-- What countries/geos are these available for? Everywhere?--> ID5 IDは無料でご利用いただけます。 **注：** [!DNL Eyeota]のサードパーティセグメントには、ID5 IDが含まれる場合があります。
+   * *[!UICONTROL AdFixus]*: ターゲット [!DNL AdFixus] IDがAdvertising DSPにインポートされました。
 
-   * *[!UICONTROL RampID]*: メールアドレスを使用してサイトにログインしたユーザーの[!DNL LiveRamp] [!DNL RampIDs]をターゲットにします。<!-- Verify --> [!DNL RampIDs]は、北米、オーストラリア、ニュージーランドのユーザーが利用できます。
+   * *[!UICONTROL ID5]*: ターゲット [!DNL ID5] IDは、電子メールアドレスやその他のシグナルから確率的に作成されます。 ID5 IDは無料でご利用いただけます。 **注：** [!DNL Eyeota]のサードパーティセグメントには、ID5 IDが含まれる場合があります。
 
-   * *[!UICONTROL Unified ID2.0]*：電子メールアドレスを使用してサイトにログインしたユーザーの[!DNL Unified ID2.0] （UID2） IDをターゲットにします。<!-- Verify -->[!DNL UID2 IDs] 欧州経済領域およびその他の一部の国では、ユーザーは利用できません。 [禁止国の一覧](/help/policies/universal-id-policy.md#prohibited-countries-uid2)を参照してください。
+   * *[!UICONTROL RampID]*: メールアドレスを使用してサイトにログインしたユーザーのうち[!DNL LiveRamp] [!DNL RampIDs]人をターゲットにします。 [!DNL RampIDs]は、北米、オーストラリア、ニュージーランドのユーザーが利用できます。
 
-  **[!UICONTROL Terms of service]**：ユニバーサル IDを使用するための利用条件。 お客様またはDSP アカウント内の他のユーザーは、データを新しいID タイプに変換する前に、条件に1回同意する必要があります。 マネージドサービス契約を締結しているお客様には、Adobeアカウントチームが同意を得て、組織の代わりに条件に同意します。 条件を読むには、**>**&#x200B;をクリックします。 条件に同意するには、条件の一番下までスクロールして「**[!UICONTROL Accept]**」をクリックします。
+   * *[!UICONTROL Unified ID2.0]*: メールアドレスを使用してサイトにログインしたユーザーの[!DNL Unified ID2.0] （UID2） IDをターゲットにします。 [!DNL UID2 IDs]は、欧州経済領域およびその他の一部の国では利用できません。 [禁止国の一覧](/help/policies/universal-id-policy.md#prohibited-countries-uid2)を参照してください。
+
+  **[!UICONTROL Terms of service]**：ユニバーサル IDを使用するための利用条件。 お客様またはDSP アカウント内の他のユーザーは、IDを読み込む、データを新しいID タイプに変換する、またはID タイプをターゲティングする前に、条件に1回同意する必要があります。 マネージドサービス契約を締結しているお客様には、Adobeアカウントチームが同意を得て、組織の代わりに条件に同意します。 条件を読むには、**>**&#x200B;をクリックします。 条件に同意するには、条件の一番下までスクロールして「**[!UICONTROL Accept]**」をクリックします。
 
 **[!UICONTROL Cross Device Targeting]:** （[&#x200B; キャンペーンがピープルベースのクロスデバイスターゲティング用に設定されている場合に使用できます](/help/dsp/campaign-management/campaigns/campaign-settings.md)、レガシーIDのみをターゲットにし（ユニバーサル IDではない）、少なくとも1つのセグメントまたはオーディエンスを選択します。 指定したセグメントに含まれていないデバイスも含め、ユーザーの既知のすべてのデバイス（キャンペーン設定で指定したデバイスグラフごと）にターゲティングを拡張できます。 料金は、キャンペーンに指定されたグラフによって適用される場合があります。 デバイスグラフデータは北米でのみ利用可能です。
 
@@ -480,7 +482,7 @@ IDは「51」で始まり、8桁で構成されている必要があります。
 
 >[!NOTE]
 >
->（[!DNL Roku] プレースメント） [!DNL Roku]によって承認されたサードパーティの追跡ベンダーには、[!DNL Acxiom]、[!DNL Comscore]、[!DNL Data Plus Math]、[!DNL Experian]、[!DNL Factual]、[!DNL Kantar]、[!DNL Marketing Evolution]、[!DNL Neustar]、[!DNL Nielsen]、[!DNL Nielsen Catalina Solutions]、[!DNL NinthDecimal]、[!DNL Oracle]、[!DNL Placed]、[!DNL Polk]、および[!DNL Research Now]が含まれます。
+>（[!DNL Roku]件のプレースメント） [!DNL Roku]によって承認されたサードパーティの追跡ベンダーには、[!DNL Acxiom]、[!DNL Comscore]、[!DNL Data Plus Math]、[!DNL Experian]、[!DNL Factual]、[!DNL Kantar]、[!DNL Marketing Evolution]、[!DNL Nielsen]、[!DNL Nielsen Catalina Solutions]、[!DNL NinthDecimal]、[!DNL Oracle]、[!DNL Placed]、[!DNL Polk]、および[!DNL TransUnion]が含まれます。[!DNL Research Now]
 
 **[!UICONTROL Event Pixels]:** （オプション） プレースメント内のすべての新しい広告にデフォルトで添付するサードパーティのイベントトラッキングピクセル。 イベントピクセルを指定するには：
 

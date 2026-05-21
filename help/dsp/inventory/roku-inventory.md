@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Advertising DSPは[!DNL Roku]に広告の機能を提供します。
 
 ## オーディエンスマッチング
 
-[!DNL Roku]とDSPのパートナーシップは、[!DNL DSP] インベントリ上の1[!DNL Roku]決定論的オーディエンスのターゲティングに対して、:1のオーディエンスを[!DNL Roku]のIDに一致させます。
+[!DNL Roku]とDSPのパートナーシップは、[!DNL Roku] インベントリ上の1:1決定論的オーディエンスのターゲティングに対して、[!DNL DSP]のオーディエンスを[!DNL Roku]のIDに一致させます。
 
 ## [!DNL Roku]個の在庫オプション
 
@@ -44,13 +44,13 @@ Advertising DSPは[!DNL Roku]に広告の機能を提供します。
 >
 >[!DNL Roku]のインベントリは、開いているマーケットプレイスや取引所では利用できません。
 
-* プライベートな契約の場合、[DSP](/help/dsp/inventory/deal-id-create.md)で契約IDに関する情報を設定し、[!UICONTROL Roku Network - Audience]件のプレースメント内で「[!UICONTROL The Roku Channel - Audience]」と「[!DNL Roku]」をターゲットにします。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* プライベートな契約の場合、[DSP](/help/dsp/inventory/deal-id-create.md)で契約IDに関する情報を設定し、[!DNL Roku]件のプレースメント内で「[!UICONTROL Roku Network - Audience]」と「[!UICONTROL The Roku Channel - Audience]」をターゲットにします。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
-* [&#x200B; ギャラリー [!DNL Roku] 内の次の [!DNL On Demand]  インベントリを](/help/dsp/inventory/on-demand-inventory-subscribe.md)購読し、[!DNL Roku] プレースメント内の承認済み契約のいずれかをターゲットにすることができます。
+* [!DNL On Demand]  ギャラリー[&#128279;](/help/dsp/inventory/on-demand-inventory-subscribe.md)内の次の [!DNL Roku]  インベントリを購読し、[!DNL Roku] プレースメント内の承認済み契約のいずれかをターゲットにすることができます。
 
-   * [!UICONTROL Roku Network - Audience]、[!DNL Roku]、[!DNL The CW]など、プレミアムコンテンツパートナーを含む[!DNL ABC] エコシステム全体のインベントリの「[!DNL ESPN]」。
+   * [!DNL The CW]、[!DNL ABC]、[!DNL ESPN]など、プレミアムコンテンツパートナーを含む[!DNL Roku] エコシステム全体のインベントリの「[!UICONTROL Roku Network - Audience]」。
 
-   * [!UICONTROL The Roku Channel - Audience]個の所有および運営（O&amp;O）アプリコンテンツの「[!DNL Roku]」。
+   * [!DNL Roku]個の所有および運営（O&amp;O）アプリコンテンツの「[!UICONTROL The Roku Channel - Audience]」。
 
 ### [!DNL Roku]でプライベートマーケットプレイスをカスタマイズする利点
 
@@ -68,13 +68,13 @@ Advertising DSPは[!DNL Roku]に広告の機能を提供します。
 
 ## [!DNL Roku] プレースメント
 
-DSP キャンペーンでは、プレースメントタイプ「[」を使用して [!DNL Roku]特定のプレースメント &#x200B;](/help/dsp/campaign-management/placements/placement-create.md)を作成[!UICONTROL Connected TV (Roku)]します。 目標が定義された[!DNL Roku]固有のパッケージに[!DNL Roku]個のプレースメントを含めます。
+DSP キャンペーンでは、プレースメントタイプ「[!UICONTROL Connected TV (Roku)]」を使用して[特定のプレースメント  [!DNL Roku]を作成](/help/dsp/campaign-management/placements/placement-create.md)します。 目標が定義された[!DNL Roku]固有のパッケージに[!DNL Roku]個のプレースメントを含めます。
 
 各[!DNL Roku] プレースメントは、少なくとも1つの[!DNL Roku]案件またはソースをターゲットにする必要があります。 [!DNL Roku]と一致するDSPのオーディエンスを使用するには、[!DNL Roku] （オプトイン）決定論的データセットと照合できる1つ以上のオーディエンスセグメントを含めます。
 
 ### [!DNL Roku]件の承認済みサードパーティ追跡ベンダー
 
-[!DNL Roku] プレースメントには、次のベンダーのサードパーティのイベントピクセルとコンバージョンピクセルを含めることができます：[!DNL Acxiom]、[!DNL Comscore]、[!DNL Data Plus Math]、[!DNL Experian]、[!DNL Factual]、[!DNL Kantar]、[!DNL Marketing Evolution]、[!DNL Neustar]、[!DNL Nielsen]、[!DNL Nielsen Catalina Solutions]、[!DNL NinthDecimal]、[!DNL Oracle]、[!DNL Placed]、[!DNL Polk]、および[!DNL Research Now]。
+[!DNL Roku] プレースメントには、次のベンダーのサードパーティのイベントピクセルとコンバージョンピクセルを含めることができます：[!DNL Acxiom]、[!DNL Comscore]、[!DNL Data Plus Math]、[!DNL Experian]、[!DNL Factual]、[!DNL Kantar]、[!DNL Marketing Evolution]、[!DNL Nielsen]、[!DNL Nielsen Catalina Solutions]、[!DNL NinthDecimal]、[!DNL Oracle]、[!DNL Placed]、[!DNL Polk]、[!DNL Research Now]、および[!DNL TransUnion]。
 
 ### プレースメント戦略別のベストプラクティス
 
@@ -82,14 +82,14 @@ DSP キャンペーンでは、プレースメントタイプ「[」を使用し
 
 リーチを拡大する方法：
 
-* [!DNL Roku O&O]を使用して既にリーチしたオーディエンスを除外することで、[!DNL The Roku Channel]で公開されたオーディエンスを抑制します。
+* [!DNL The Roku Channel]を使用して既にリーチしたオーディエンスを除外することで、[!DNL Roku O&O]で公開されたオーディエンスを抑制します。
 
-* [!DNL All Roku] プラットフォームで既にリーチしたオーディエンスを除外することで、[!DNL Roku]で公開されたオーディエンスを抑制します。
+* [!DNL Roku] プラットフォームで既にリーチしたオーディエンスを除外することで、[!DNL All Roku]で公開されたオーディエンスを抑制します。
 
 最速の設定のために：
 
-* [!DNL The Roku Channel] インベントリ [[!DNL On Demand] の](/help/dsp/inventory/on-demand-inventory-subscribe.md)に関する既存の常時対応案件をターゲットにして、所有および操作されている[!DNL Roku]のインベントリにすばやくアクセスします。
-* [!DNL Roku Network]Inventory[[!DNL On Demand] の](/help/dsp/inventory/on-demand-inventory-subscribe.md)に関する既存の常時対応案件をターゲットにして、[!DNL Roku] プラットフォーム全体で迅速に規模を拡大します。
+* [[!DNL On Demand]  インベントリ &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)の[!DNL The Roku Channel]に関する既存の常時対応案件をターゲットにして、所有および操作されている[!DNL Roku]のインベントリにすばやくアクセスします。
+* [[!DNL On Demand] Inventory](/help/dsp/inventory/on-demand-inventory-subscribe.md)の[!DNL Roku Network]に関する既存の常時対応案件をターゲットにして、[!DNL Roku] プラットフォーム全体で迅速に規模を拡大します。
 
 最大スケールまで：
 
