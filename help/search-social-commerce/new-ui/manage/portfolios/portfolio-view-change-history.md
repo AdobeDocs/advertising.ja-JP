@@ -30,9 +30,9 @@ ht-degree: 0%
 
 1. （オプション）表示される情報を変更します。
 
-   * 「![ カレンダー](/help/search-social-commerce/assets/calendar-new.png " カレンダー")」をクリックして、レポートの日付範囲を変更します。
+   * 「![&#x200B; カレンダー](/help/search-social-commerce/assets/calendar-new.png " カレンダー")」をクリックして、レポートの日付範囲を変更します。
 
-   * ![ フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター")をクリックして、変更タイプでデータをフィルタリングします。<!-- Not available as of 5-14: and by the user who performed the action -->。
+   * ![&#x200B; フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター")をクリックして、変更タイプでデータをフィルタリングします。<!-- Not available as of 5-14: and by the user who performed the action -->。
 
    * 「![並べ替え](/help/search-social-commerce/assets/sort.png "並べ替え")」をクリックして、リストを日付で昇順または降順に並べ替えます。
 
@@ -42,9 +42,9 @@ ht-degree: 0%
 
 ### フィルタリングされたデータ行を含むレポートを生成する
 
-1. [ ポートフォリオの変更履歴を開きます](#portfolio-change-history)。
+1. [&#x200B; ポートフォリオの変更履歴を開きます](#portfolio-change-history)。
 
-1. 右上の「![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
+1. 右上の「![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
 
 1. [!UICONTROL Grid Reports]設定で、一意のレポート名を入力し、**[!UICONTROL Generate]**&#x200B;をクリックします。
 
@@ -52,32 +52,32 @@ ht-degree: 0%
 
    ファイルが[!UICONTROL Recently Generated] リストに追加されます。
 
-1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
 ### 完成したレポートをダウンロード
 
-1. [ ポートフォリオの変更履歴を開きます](#portfolio-change-history)。
+1. [&#x200B; ポートフォリオの変更履歴を開きます](#portfolio-change-history)。
 
-1. 右上の「![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
+1. 右上の「![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
 
-1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
 ### 完了済みレポートの削除
 
-1. [ ポートフォリオの変更履歴を開きます](#portfolio-change-history)。
+1. [&#x200B; ポートフォリオの変更履歴を開きます](#portfolio-change-history)。
 
-1. 右上の「![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
+1. 右上の「![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
 
 1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ ポートフォリオを作成](portfolio-create.md)
->* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [ （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
->* [ （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード ](portfolio-view-report.md)
->* [ ポートフォリオについて](portfolio-about.md)
+>* [&#x200B; ポートフォリオを作成](portfolio-create.md)
+>* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [&#x200B; （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
+>* [&#x200B; （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード &#x200B;](portfolio-view-report.md)
+>* [&#x200B; ポートフォリオについて](portfolio-about.md)
