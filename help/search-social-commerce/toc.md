@@ -4,9 +4,9 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2088'
 ht-degree: 2%
 
 ---
@@ -117,14 +117,9 @@ ht-degree: 2%
          + [[!UICONTROL Ads] ビューについて](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [[!UICONTROL Ads] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + レポート {#reports}
-      + ラベルの分類 {#label-classifications}
-         + [ラベルの分類について](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
-         + [ラベル分類の作成](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
-         + [キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
-         + [バルクシートを使用して、アカウントコンポーネントに分類値を割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
-         + [アカウントコンポーネントからのラベル分類値の削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
-         + [ラベル分類値の削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
-         + [ラベル分類の削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
+      + [スプレッドシート レポート フィードの管理](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
+      + [[!UICONTROL History Logs] レポートを表示](/help/search-social-commerce/new-ui/reports/history-logs.md)
+      + [ラベル分類の管理](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
       + キーワード {#keywords}
          + [[!UICONTROL Keywords] ビューについて](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)

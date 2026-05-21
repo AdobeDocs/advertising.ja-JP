@@ -3,7 +3,7 @@ title: （新しいUI） ポートフォリオの変更履歴の表示
 description: ポートフォリオの変更履歴を表示する方法を説明します。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -35,7 +35,6 @@ ht-degree: 0%
    * ![&#x200B; フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター")をクリックして、変更タイプでデータをフィルタリングします。<!-- Not available as of 5-14: and by the user who performed the action -->。
 
    * 「![並べ替え](/help/search-social-commerce/assets/sort.png "並べ替え")」をクリックして、リストを日付で昇順または降順に並べ替えます。
-
 
 ## 変更履歴のパフォーマンスデータレポートを管理する
 
