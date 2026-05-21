@@ -4,22 +4,14 @@ description: プレースメントの作成方法を説明します。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
 TQID: https://experienceleague.adobe.com/QEpUfFvrVq62P64w-7gwFk2ujuCNzkegHKz6UancZDY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 701
+source-wordcount: 713
 ht-degree: 0%
 
 ---
@@ -38,7 +30,7 @@ ht-degree: 0%
 
    プレースメントの種類によって、プレースメントに含めることができる広告の種類が決まります。
 
-1. [&#x200B; プレースメント設定](placement-settings.md)を入力します。
+1. [ プレースメント設定](placement-settings.md)を入力します。
 
    1. [!UICONTROL Placement Basics]設定を指定します。
 
@@ -66,7 +58,7 @@ ht-degree: 0%
 
       1. オーディエンスを絞り込む： これには、プレースメント内でターゲティングするオーディエンスセグメントの選択も含まれます。
 
-         [!DNL Roku]個のプレースメントの場合、[&#x200B; （オプトイン）決定論的データセットと照合できる1つ以上のオーディエンスセグメントを含めることで、 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)と一致する[!DNL Roku]DSPの一意のオーディエンスを活用できます。
+         [!DNL Roku]個のプレースメントの場合、[!DNL Roku] （オプトイン）決定論的データセットと照合できる1つ以上のオーディエンスセグメントを含めることで、 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)と一致する[DSPの一意のオーディエンスを活用できます。
 
          アクティブなプレースメント、スケジュールされたプレースメント、または一時停止されたプレースメントにアタッチされていないファーストパーティのRampID セグメントは一時停止されます。 セグメントは、「自動一時停止」としてセグメントリストに表示されます。
 
@@ -80,7 +72,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >（[!DNL Roku] プレースメント） [!DNL Roku]によって承認されたサードパーティのピクセルベンダーには、[!DNL Acxiom]、[!DNL Comscore]、[!DNL Data Plus Math]、[!DNL Experian]、[!DNL Factual]、[!DNL Kantar]、[!DNL Marketing Evolution]、[!DNL Neustar]、[!DNL Nielsen]、[!DNL Nielsen Catalina Solutions]、[!DNL NinthDecimal]、[!DNL Oracle]、[!DNL Placed]、[!DNL Polk]、および[!DNL Research Now]が含まれます。
+      >（[!DNL Roku] プレースメント） [!DNL Roku]によって承認されたサードパーティのピクセルベンダーには、[!DNL Acxiom]、[!DNL Comscore]、[!DNL Data Plus Math]、[!DNL Experian]、[!DNL Factual]、[!DNL Kantar]、[!DNL Marketing Evolution]、[!DNL Nielsen]、[!DNL Nielsen Catalina Solutions]、[!DNL NinthDecimal]、[!DNL Oracle]、[!DNL Placed]、[!DNL Polk]、[!DNL Research Now]、および[!DNL TransUnion]が含まれます。
 
 1. **[!UICONTROL Create Placement]**&#x200B;をクリックします。
 
@@ -94,7 +86,7 @@ ht-degree: 0%
 
          1. **[!UICONTROL Create a New Ad].**&#x200B;をクリックします
 
-         1. [&#x200B; オーディオ広告](/help/dsp/campaign-management/ads/ad-settings-audio.md)、[&#x200B; コネクテッド TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)、[&#x200B; ディスプレイ広告](/help/dsp/campaign-management/ads/ad-settings-display.md)、[&#x200B; モバイル広告](/help/dsp/campaign-management/ads/ad-settings-mobile.md)、[&#x200B; ネイティブ広告](/help/dsp/campaign-management/ads/ad-settings-native.md)、[&#x200B; プレロール広告](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)、または[&#x200B; ユニバーサルビデオ広告](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)の広告設定を指定します。
+         1. [ オーディオ広告](/help/dsp/campaign-management/ads/ad-settings-audio.md)、[ コネクテッド TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)、[ ディスプレイ広告](/help/dsp/campaign-management/ads/ad-settings-display.md)、[ モバイル広告](/help/dsp/campaign-management/ads/ad-settings-mobile.md)、[ ネイティブ広告](/help/dsp/campaign-management/ads/ad-settings-native.md)、[ プレロール広告](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)、または[ ユニバーサルビデオ広告](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)の広告設定を指定します。
 
         >[!NOTE]
         >
@@ -151,14 +143,14 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのプレースメント管理について](placement-about.md)
->* [&#x200B; プレースメントを編集](placement-edit.md)
->* [&#x200B; プレースメントの入札乗数を管理](placement-manage-bid-multipliers.md)
->* [&#x200B; プレースメントの広告スケジュールを編集](placement-edit-ad-schedule.md)
->* [&#x200B; プレースメントを非アクティブ化またはアクティブ化](placement-pause-activate.md)
->* [&#x200B; プレースメントの変更ログを表示](placement-change-log.md)
+>* [ プレースメントを編集](placement-edit.md)
+>* [ プレースメントの入札乗数を管理](placement-manage-bid-multipliers.md)
+>* [ プレースメントの広告スケジュールを編集](placement-edit-ad-schedule.md)
+>* [ プレースメントを非アクティブ化またはアクティブ化](placement-pause-activate.md)
+>* [ プレースメントの変更ログを表示](placement-change-log.md)
 >* [配置の設定](placement-settings.md)
->* [&#x200B; プレースメント予測レポートを表示](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [&#x200B; ユニバーサルビデオに関するFAQ](/help/dsp/campaign-management/faq-universal-video.md)
->* [&#x200B; キーボードショートカット &#x200B;](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [&#x200B; パフォーマンスのトラブルシューティング &#x200B;](/help/dsp/optimization/troubleshooting-performance.md)
->* [&#x200B; ビデオ：標準の表示配置を作成する方法](https://video.tv.adobe.com/v/345001?captions=jpn)
+>* [ プレースメント予測レポートを表示](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [ ユニバーサルビデオに関するFAQ](/help/dsp/campaign-management/faq-universal-video.md)
+>* [ キーボードショートカット ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+>* [ パフォーマンスのトラブルシューティング ](/help/dsp/optimization/troubleshooting-performance.md)
+>* [ ビデオ：標準の表示配置を作成する方法](https://video.tv.adobe.com/v/340454)
