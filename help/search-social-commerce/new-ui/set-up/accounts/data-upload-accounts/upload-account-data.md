@@ -143,7 +143,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 1. アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Upload Logs]**&#x200B;をクリックします。
 
-1. （オプション）アップロードしたファイルのデータをダウンロードするには、[!UICONTROL Download]列の![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックし、ブラウザーの通常の手順に従ってファイルをダウンロードします。
+1. （オプション）アップロードしたファイルのデータをダウンロードするには、[!UICONTROL Download]列の![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックし、ブラウザーの通常の手順に従ってファイルをダウンロードします。
 
 ## 必要なデータ
 
