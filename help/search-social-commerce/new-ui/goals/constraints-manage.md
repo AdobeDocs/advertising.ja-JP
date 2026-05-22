@@ -29,7 +29,7 @@ ht-degree: 0%
 >
 >* アクティブな制約は、最適化された従来のキーワードレベルのポートフォリオで、割り当てられた入札単位のみに対して入札を制限します。 ハイブリッドポートフォリオ内の入札単位やアクティブなポートフォリオ内の入札単位、またはポートフォリオ内にない入札単位では無視されます。 **ヒント：** ポートフォリオ設定で、「キャンペーンの予算制限を自動調整」に対するポートフォリオオプションをオンにします。 推奨される「複数」の値は「1」です。
 > * 入札制限は、コストと収益モデルを生成するのに十分なデータがない入札単位では無視されます。
->* （CPCまたはeCPC入札戦略を使用したキャンペーン）入札制約がポートフォリオレベルの入札制限と競合する場合、その制約はポートフォリオレベルの入札制限を上書きします。 例えば、ポートフォリオの最低入札額が5 USDであるが、ポートフォリオの入札単位を3 USDの最低入札額に制限する場合、入札単位は3 USD以上に入札されます。 ただし、制限付き入札単位の全体的な支出は、ポートフォリオの[ 「制約を中心に支出」パラメーター](#spend-around-constraints)によって決定されます。
+>* （CPCまたはeCPC入札戦略を使用したキャンペーン）入札制約がポートフォリオレベルの入札制限と競合する場合、その制約はポートフォリオレベルの入札制限を上書きします。 例えば、ポートフォリオの最低入札額が5 USDであるが、ポートフォリオの入札単位を3 USDの最低入札額に制限する場合、入札単位は3 USD以上に入札されます。 ただし、制限付き入札単位の全体的な支出は、ポートフォリオの[&#x200B; 「制約を中心に支出」パラメーター](#spend-around-constraints)によって決定されます。
 >* 制約はベース入札で動作します。 基本入札に対する入札調整（モバイルデバイス上のエンドユーザーの入札の引き上げなど）は、入札を制約の許容範囲から外すことができます。 たとえば、制約で最大CPCが6 USDである場合、基本入札はすでに6 USDで、ポートフォリオはモバイルデバイスの入札調整を50%～60%に自動最適化しているため、最大CPCは6 USDではなく9.00～9.60 USDです。
 
 ### 制約タイプ {#constraint-types}
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 [[!UICONTROL Constraints] ビュー](#constraints-view)を開くだけでなく、次の方法で制約に関連する情報を確認することもできます。
 
-* すべての制約は、「[!UICONTROL Constraints]」と呼ばれる単一の[ ラベル分類](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html)のラベル値です。
+* すべての制約は、「[!UICONTROL Constraints]」と呼ばれる単一の[&#x200B; ラベル分類](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html)のラベル値です。
 
    * 「[!UICONTROL Constraints]」は、デフォルトおよびカスタムビュー設定とスケジュール済みレポートの「[!UICONTROL Classifications]」リストに含まれています。 関連エンティティに割り当てられた制約を表示する場所に列を追加できます。
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Constraints]**&#x200B;をクリックします。
 
-1. （オプション）ツールバー](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列の見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)からリスト [をフィルタリングします。
+1. （オプション）ツールバー[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列の見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)からリスト をフィルタリングします。
 
 1. 編集する制約の横にあるチェックボックスをオンにします。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Constraints]**&#x200B;をクリックします。
 
-1. （オプション）ツールバー](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列の見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)からリスト [をフィルタリングします。
+1. （オプション）ツールバー[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列の見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)からリスト をフィルタリングします。
 
 1. ステータスを変更する各制約の横にあるチェックボックスをオンにします。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 1. 一括操作ツールバーで、ステータスボタンをクリックします。
 
-   * 選択したすべての行をアクティブ化するには、![ アクティブ化](/help/search-social-commerce/assets/activate-new.png " アクティブ化")をクリックします。
+   * 選択したすべての行をアクティブ化するには、![&#x200B; アクティブ化](/help/search-social-commerce/assets/activate-new.png " アクティブ化")をクリックします。
 
    * 選択したすべての行を一時停止するには、![一時停止](/help/search-social-commerce/assets/pause-new.png "一時停止")をクリックします。
 
@@ -158,15 +158,15 @@ ht-degree: 0%
 | | [!UICONTROL Currency] | 適用可能な入札単位が入札される通貨。 別の通貨が使用されている入札単位は無視されます。 |
 | | [!UICONTROL Status] | 制約のステータス：<ul><li>**アクティブ：** （既定値）制約は、指定された条件と日付範囲に適用されます。</li><li>**一時停止：**&#x200B;制約が適用されていません。</li></ul> |
 | [!UICONTROL Constraint Type] | [!UICONTROL Constraint Type] | 制約のタイプ。 制約の種類と各対象となる広告ネットワークについて詳しくは、「[制約の種類](#constraint-types)」を参照してください。 |
-| | [!UICONTROL Start Date] | 制約が有効になる最初の日。 デフォルトは現在の日付です。 日付を変更するには、日付を入力するか、![ カレンダー](/help/search-social-commerce/assets/calendar-new.png " カレンダー")をクリックしてカレンダーを開き、日付を選択します。 |
-| | [終了日] | 制約が特定の日付に無効になるかどうかを確認します。 入札単位が会社のブランドの中心となる場合など、制約を無期限に適用するには、フィールドを空のままにします。 特定の日付で制約を終了するには、日付を入力するか、![ カレンダー](/help/search-social-commerce/assets/calendar-new.png " カレンダー")をクリックしてカレンダーを開き、日付を選択します。 **メモ：**&#x200B;制約は明日までに期限切れにすることはできません。 |
+| | [!UICONTROL Start Date] | 制約が有効になる最初の日。 デフォルトは現在の日付です。 日付を変更するには、日付を入力するか、![&#x200B; カレンダー](/help/search-social-commerce/assets/calendar-new.png " カレンダー")をクリックしてカレンダーを開き、日付を選択します。 |
+| | [終了日] | 制約が特定の日付に無効になるかどうかを確認します。 入札単位が会社のブランドの中心となる場合など、制約を無期限に適用するには、フィールドを空のままにします。 特定の日付で制約を終了するには、日付を入力するか、![&#x200B; カレンダー](/help/search-social-commerce/assets/calendar-new.png " カレンダー")をクリックしてカレンダーを開き、日付を選択します。 **メモ：**&#x200B;制約は明日までに期限切れにすることはできません。 |
 | | [!UICONTROL Set constraint options for Bid] | （[!UICONTROL Bid]個の制約のみ）設定には、次のものが含まれます。<ul><li>**[!UICONTROL Min Bid]:**&#x200B;関連付けられた入札単位の最低基本入札額。</li><li>**[!UICONTROL Max Bid]:**&#x200B;関連付けられた入札単位の最大基本入札額。</li></ul> |
 | | [!UICONTROL Set constraint options for Bid Shift] | （[!UICONTROL Bid Shift]個の制約のみ）入札の種類と金額は、基本入札に継続的に適用されるように変更されます。<ul><li>*[!UICONTROL Increases]:*&#x200B;指定した割合または通貨値で入札額を増やします。 変更する金額を入力し、*$*&#x200B;または&#x200B;*%*&#x200B;のいずれかを選択します。 また、制約が適用されたときに可能な限り高い入札（上限）である&#x200B;**[!UICONTROL Max Limit]**&#x200B;を入力します。 **注：**&#x200B;現在のCPC入札額が[!UICONTROL Max Limit]以上の場合、制約は無視され、入札額は変更されません。</li><li>*[!UICONTROL Decreases]:*&#x200B;指定した割合または通貨値で入札額を減らします。 変更する金額を入力し、*$または%*&#x200B;のいずれかを選択します。 また、制約が適用されたときに、可能な限り低い入札（フロア）である&#x200B;**[!UICONTROL Min Limit]**&#x200B;を入力します。 **注：**&#x200B;現在のCPC入札額が[!UICONTROL Min Limit]と同じかそれ以下の場合、制約は無視され、入札額は変更されません。</li></ul>**メモ：**<ul><li>入札シフトは、ポートフォリオの「[!UICONTROL Spend Around Constraints]」の設定に関係なく、入札シフトによって引き起こされる合計金額で、関連するポートフォリオを過小支出または過小支出にします。</li><li>制約に終了日を指定し、最適化機能がポートフォリオ内のキャンペーンの支出制限を自動的に調整している場合、入札は終了日以降に元の金額に戻るだけでなく、最適に調整されます。</li><li>入札シフトは、コストと収益モデルを生成するのに十分なデータがない入札単位には適用されません。</li></ul> |
 | | [!UICONTROL Set constraint options for Incremental Bidding] | （[!UICONTROL Incremental Bidding]個の制約のみ）入札ターゲット、および入札が目標に達するまで入札を増分に増減する量と頻度：<ul><li>**[!UICONTROL Bid target]:** ターゲット入札金額。</li><li>**[!UICONTROL Incrementally change bids by]**&#x200B;と&#x200B;**[種類]:**&#x200B;入札を増減する金額、および入札を通貨値（**$**）または割合（*%*）で変更するかどうか。</li><li>**[!UICONTROL Every __ days]:**&#x200B;入札を増やす頻度。</li></ul>例えば、キーワードの1つに対する現在の入札額が100 セントで、500 セントの入札目標に達するまで、毎日10%ずつ入札額を変更したいとします。 制約が設定された後の1日目に、そのキーワードの入札は110 セント（現在の入札+ 10%）になります。 2日目の入札は120 セント（1日目の現在の入札+ 20%）です。 ただし、入札目標が50 セントで、他のパラメーターが同じ場合、入札が50 セントに達するまで入札は徐々に減少します。 |
 | | [!UICONTROL Set constraint options for Search Engine Min Bid] | （[!UICONTROL Search Engine Min Bid]個の制約）Google （[!UICONTROL Google First Page CPC]）の検索結果の最初のページに入札単位を表示するために必要な最小入札額を使用します。 必要に応じて、**[!UICONTROL Min Bid]**&#x200B;値または&#x200B;**[!UICONTROL Max Bid]**&#x200B;値を入力して、制約の対象となる入札範囲を定義します。 例えば、2.50 USDの[!UICONTROL Min Bid]と4 USDの[!UICONTROL Max Bid]を指定した場合、[!DNL Google Ads]の最初のページ入札が2.50 USD未満または4 USD以上の場合、入札単位に入札することはありません。 |
 | | [!UICONTROL Set constraint options for Impression Share] | （[!UICONTROL Impression Share]個の制約のみ）設定には、次のものが含まれます。<ul><li>**[!UICONTROL Min Bid]** （オプション）関連付けられた入札単位の最低基本入札額。</li><li>**[!UICONTROL Max Bid]:** （オプション）関連付けられた入札単位の最大基本入札額。</li><li>**[!UICONTROL Min Impression Share]:**&#x200B;適用可能な入札単位の制約をトリガーするインプレッションの最小シェアの割合（パーセント）。 10から90の間である必要があります。 **注意：**&#x200B;制約がコスト効率に優れていない場合、最適化機能によって上書きされる可能性があります。</li><li>**[!UICONTROL Max Impression Share]:**&#x200B;適用可能な入札単位の制約をトリガーする最も高いインプレッションの割合（パーセント）。 10 ～ 90の範囲である必要があります。**注：**&#x200B;制約がコスト効率に優れていない場合、最適化機能によって上書きされる可能性があります。</li></ul>> |
 | [!UICONTROL Conditions] | [!UICONTROL Condition Type] | 制約に条件を適用するかどうか：<ul><li>*[!UICONTROL No Condition]:* （既定値）制約は、指定された日付範囲内に無条件で適用されます。</li><li>*[!UICONTROL Satisfy]:*&#x200B;制約は、指定されたデータ評価期間に指定された条件が満たされた場合にのみ適用されます。</li></ul> |
-| | [!UICONTROL Data Evaluation Period] | （条件が設定されている場合）指定された基準のデータを評価する期間。 *[!UICONTROL Custom date range],**を選択した場合は、形式`MM-DD-YYYY`で各日付を入力するか、![ カレンダーボタン ](/help/search-social-commerce/assets/calendar-new.png " カレンダーボタン ")をクリックしてカレンダーを開き、各日付を選択して&#x200B;**[!UICONTROL Start Date]**&#x200B;と&#x200B;**[!UICONTROL End Date]**&#x200B;を指定します（2026年3月29日など）。 |
+| | [!UICONTROL Data Evaluation Period] | （条件が設定されている場合）指定された基準のデータを評価する期間。 *[!UICONTROL Custom date range],**を選択した場合は、形式`MM-DD-YYYY`で各日付を入力するか、![&#x200B; カレンダーボタン &#x200B;](/help/search-social-commerce/assets/calendar-new.png " カレンダーボタン ")をクリックしてカレンダーを開き、各日付を選択して&#x200B;**&#x200B;[!UICONTROL Start Date]&#x200B;**&#x200B;と&#x200B;**&#x200B;[!UICONTROL End Date]**&#x200B;を指定します（2026年3月29日など）。 |
 | | [!UICONTROL When to Apply Constraints] | （条件が設定されている場合）条件を適用するために満たす必要があるフィルター条件の数：<ul><li>*[!UICONTROL Match All Filters]:*&#x200B;指定したすべてのフィルター条件に一致すると、制約が適用されます。</li><li>*[!UICONTROL Match Any Filters]:*&#x200B;指定されたフィルター条件の少なくとも1つが満たされたときに制約を適用します。</li></ul> |
 | | [!UICONTROL Filters] | （条件が設定されている場合）満たす必要がある1つ以上の基準。 フィルターを作成するには、リストからプロパティまたは指標を選択します。 プロパティ（[!UICONTROL Channel Type]など）の場合は、リスト内の該当する値を選択します。 指標（[!UICONTROL Clicks]など）の場合は、演算子を選択し、該当する値を入力します。 例えば、100 クリックを超える入札単位のみを返すには、「**クリック**」を選択し、「**より大きい**」を選択して、入力フィールドに「`100`」と入力します。</li></ul> |
 
@@ -186,7 +186,7 @@ ht-degree: 0%
 
    <!-- for [campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [ad groups](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [keywords](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md), or [placements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). And ADD LINKS WHEN AVAILABLE for shopping product groups and dynamic search targets. -->
 
-1. （オプション）ツールバー](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列の見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)からリスト [をフィルタリングします。
+1. （オプション）ツールバー[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列の見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)からリスト をフィルタリングします。
 
 1. 1つの拘束を割り当てる各エンティティの横にあるチェックボックスをオンにします。
 
@@ -212,8 +212,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ キャンペーンの制約の割り当ての管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [&#x200B; キャンペーンの制約の割り当ての管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [広告グループの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [ キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
->* [ プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [&#x200B; キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>* [&#x200B; プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
 >* [The [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)

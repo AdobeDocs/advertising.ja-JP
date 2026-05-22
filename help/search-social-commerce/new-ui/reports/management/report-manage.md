@@ -23,21 +23,21 @@ ht-degree: 0%
 
 | レポートカテゴリ | 説明 |
 | ----| ---- |
-| [!UICONTROL Basic Reports] | [すべてのユーザーが利用できる基本レポート ](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)では、ポートフォリオ、広告ネットワークアカウント、特定の広告ネットワークアカウント、キャンペーン、広告グループ、広告、広告、キーワード、製品グループ、ラベル分類とラベル値、入札単位の制約、およびネットワークの制約の実際のコストとクリックデータを表示します。 該当する広告ネットワークから請求されるクリック数に基づいています。オプションで、コンバージョンデータや作成した他の指標を含めることができます。 |
-| [!UICONTROL Advanced Reports] | [高度なレポート ](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)では、広告の設定にinsightが追加されています。これにより、地理的なターゲティングやネットワークの設定を変更することで、どのようなメリットを得られるかを特定できます。 また、キャンペーンおよびポートフォリオ管理ビューにおけるコンバージョンデータや、広告主の内部コンバージョン追跡データに対するレポートの検証にも役立ちます。 |
-| [!UICONTROL Assist Reports] | [ アシストレポート ](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)は、広告主のすべてのキーワードと広告のコンバージョンパスに関するインサイトを提供します。 Adobe Advertisingコンバージョントラッキングサービスを通じて取得したデータを使用し、サービスを提供する広告主に対してのみ生成できます。 |
-| [!UICONTROL Specialty Reports] | [特殊レポート ](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-about.md)は、（Adobe Advertising トラッキングではなく）広告ネットワークによって収集されたデータで構成されます。 |
-| [!UICONTROL Model Accuracy Reports] | [ モデル精度レポート ](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-about.md)は、ポートフォリオの入札、キャンペーン予算、入札戦略目標の最適化に使用されるコストと収益モデルの精度を示します。 |
+| [!UICONTROL Basic Reports] | [すべてのユーザーが利用できる基本レポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)では、ポートフォリオ、広告ネットワークアカウント、特定の広告ネットワークアカウント、キャンペーン、広告グループ、広告、広告、キーワード、製品グループ、ラベル分類とラベル値、入札単位の制約、およびネットワークの制約の実際のコストとクリックデータを表示します。 該当する広告ネットワークから請求されるクリック数に基づいています。オプションで、コンバージョンデータや作成した他の指標を含めることができます。 |
+| [!UICONTROL Advanced Reports] | [高度なレポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)では、広告の設定にinsightが追加されています。これにより、地理的なターゲティングやネットワークの設定を変更することで、どのようなメリットを得られるかを特定できます。 また、キャンペーンおよびポートフォリオ管理ビューにおけるコンバージョンデータや、広告主の内部コンバージョン追跡データに対するレポートの検証にも役立ちます。 |
+| [!UICONTROL Assist Reports] | [&#x200B; アシストレポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)は、広告主のすべてのキーワードと広告のコンバージョンパスに関するインサイトを提供します。 Adobe Advertisingコンバージョントラッキングサービスを通じて取得したデータを使用し、サービスを提供する広告主に対してのみ生成できます。 |
+| [!UICONTROL Specialty Reports] | [特殊レポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-about.md)は、（Adobe Advertising トラッキングではなく）広告ネットワークによって収集されたデータで構成されます。 |
+| [!UICONTROL Model Accuracy Reports] | [&#x200B; モデル精度レポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-about.md)は、ポートフォリオの入札、キャンペーン予算、入札戦略目標の最適化に使用されるコストと収益モデルの精度を示します。 |
 
 ## レポートの自動作成
 
 次のいずれかの方法または両方で、カスタマイズされたレポートを自動的に生成するようにスケジュールします。
 
-* [ レポートテンプレート ](/help/search-social-commerce/reports/automation/templates/template-about.md)を使用して、毎日、または特定の曜日または月にレポートを自動生成します。
+* [&#x200B; レポートテンプレート &#x200B;](/help/search-social-commerce/reports/automation/templates/template-about.md)を使用して、毎日、または特定の曜日または月にレポートを自動生成します。
 
-  オプションで、テンプレートを使用する基本レポートと詳細レポート ](/help/search-social-commerce/new-ui/reports/ftp-reports.md)の[FTP配信を設定できます。
+  オプションで、テンプレートを使用する基本レポートと詳細レポート [&#128279;](/help/search-social-commerce/new-ui/reports/ftp-reports.md)のFTP配信を設定できます。
 
-* [ スプレッドシート フィード ](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)を使用して、カスタマイズしたスプレッドシート テンプレートを毎日のパフォーマンスデータで更新し続けます。
+* [&#x200B; スプレッドシート フィード &#x200B;](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)を使用して、カスタマイズしたスプレッドシート テンプレートを毎日のパフォーマンスデータで更新し続けます。
 
 ## [!UICONTROL Scheduled Reports] ビュー
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create Report]**&#x200B;をクリックし、左側のパネルでレポートカテゴリをクリックしてから、レポートタイプを選択します。<!-- Add link to list of report categories and report types --> **[!UICONTROL Proceed]**&#x200B;をクリックします。
 
-1. （オプション） [!UICONTROL Create Report] ウィンドウで、[基本レポートおよび詳細レポート ](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-settings.md)、[ アシストレポート ](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-settings.md)、[ モデル精度レポート ](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)、および[特殊レポート ](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-settings.md)のデフォルトのレポート設定を変更します。
+1. （オプション） [!UICONTROL Create Report] ウィンドウで、[基本レポートおよび詳細レポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-settings.md)、[&#x200B; アシストレポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-settings.md)、[&#x200B; モデル精度レポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)、および[特殊レポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-settings.md)のデフォルトのレポート設定を変更します。
 
    1. （オプション）レポートとテンプレートのカスタム名を入力します（レポートをテンプレートとして保存する場合）。
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 レポートスケジュールを指定しなかった場合、レポートはすぐに実行されます。指定したスケジュールに従って実行されます。 レポート名が[[!UICONTROL Latest Reports] ビュー](/help/search-social-commerce/reports/report-about.md)に追加されます。 レポートをテンプレートとして保存すると、[[!UICONTROL Templates] ビュー](/help/search-social-commerce/reports/report-about.md)にも追加されます。 レポートが完了すると、ファイルを開いたり保存したりできます。テンプレートはすぐに利用できます。
 
-通知に電子メールアドレスを入力した場合、ユーザーの[ レポート用に設定された通知設定](/help/search-social-commerce/notifications/notification-edit.md)に基づいて、各受信者はレポートジョブが完了または失敗したときに通知を受け取ります。
+通知に電子メールアドレスを入力した場合、ユーザーの[&#x200B; レポート用に設定された通知設定](/help/search-social-commerce/notifications/notification-edit.md)に基づいて、各受信者はレポートジョブが完了または失敗したときに通知を受け取ります。
 
 ### 既存のレポートからのレポートの生成
 

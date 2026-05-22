@@ -72,6 +72,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
 >* [基本および詳細レポート設定](basic-advanced-report-settings.md)
->* 基本レポートと詳細レポートの[ レポート列](basic-advanced-report-columns.md)
+>* 基本レポートと詳細レポートの[&#x200B; レポート列](basic-advanced-report-columns.md)
