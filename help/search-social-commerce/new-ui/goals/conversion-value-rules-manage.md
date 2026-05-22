@@ -2,7 +2,7 @@
 title: （新しいUI）  [!DNL Google Ads]  コンバージョン値ルールの管理
 description: Search, Social, & Commerceで [!DNL Google Ads]  コンバージョン値ルールを表示および管理する方法について説明します。
 feature: Conversions
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 0%

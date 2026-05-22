@@ -10,18 +10,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
-source-wordcount: 211
+source-wordcount: 209
 ht-degree: 0%
 
 ---
 
 # 新しいユーザーインターフェイスについて
 
-新しいユーザーインターフェイス（UI）から目的、シミュレーション、ポートフォリオを管理できるようになりました。 キャンペーンや広告グループに対してタスクを実行することもできます。 新しいSearch, Social, &amp; Commerce UIは、https://experience.adobe.com ドメイン内の新しいURLで実行されます。
+新しいユーザーインターフェイス（UI）から、目的、シミュレーション、ポートフォリオを管理したり、その他多くのタスクを実行したりできるようになりました。 新しいSearch, Social, &amp; Commerce UIは、https://experience.adobe.com ドメイン内の新しいURLで実行されます。
 
-時間の経過とともに、追加機能は新しいUIに移動されます。 また、新しいUIのメインメニューから、従来のUIのほとんどの機能を開くことができます。 新しいUIと従来のUIを簡単に切り替えることもできます。
+時間の経過とともに、残りの機能が新しいUIに追加されます。 また、新しいUIのメインメニューから、従来のUIのほとんどの機能を開くことができます。 新しいUIと従来のUIを簡単に切り替えることもできます。
 
 新しいUIの構成方法について詳しくは、「[&#x200B; ユーザーインターフェイスの構成方法](/help/search-social-commerce/getting-started/user-interface.md)」を参照してください。
 

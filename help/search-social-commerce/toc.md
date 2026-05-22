@@ -4,7 +4,7 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: 64c9c550873ff210d1adb4217ddeca5f67548b77
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 2%
@@ -126,8 +126,6 @@ ht-degree: 2%
          + [レポートの初期設定タスク](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
          + [レポートに使用するデータ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
          + [スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
-         + [レポートテンプレートの管理](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
-         + [レポートへのFTP アクセス](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
          + スケジュール済みレポートタイプ {#report-types}
             + 基本レポートと詳細レポート {#basic-advanced-reports}
                + [基本レポートと詳細レポートについて](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
@@ -187,6 +185,8 @@ ht-degree: 2%
                   + [ザ [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)
                   + [ザ [!UICONTROL Forecast Accuracy (Actuals) Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-actuals-report.md)
                + [モデル精度レポート設定](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
+         + [レポートテンプレートの管理](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
+         + [レポートへのFTP アクセス](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
          + [アトリビューションルールの計算方法](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
          + [カスタムレポートに関するFAQ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [スプレッドシート レポート フィードの管理](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
