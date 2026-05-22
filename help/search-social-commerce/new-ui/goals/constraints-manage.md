@@ -13,7 +13,7 @@ ht-degree: 0%
 
 *従来のキーワードレベルのポートフォリオのCPC キャンペーンの入札単位にのみ適用*
 
-入札単位の制約は、制約に関連付けられたコストと収益モデルを使用して、すべての[入札単位](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html)に対して最適化された入札を制限するルールです。
+入札単位の制約は、制約に関連付けられたコストと収益モデルを使用して、すべての[入札単位](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=ja)に対して最適化された入札を制限するルールです。
 
 ## 制約について
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 [[!UICONTROL Constraints] ビュー](#constraints-view)を開くだけでなく、次の方法で制約に関連する情報を確認することもできます。
 
-* すべての制約は、「[!UICONTROL Constraints]」と呼ばれる単一の[&#x200B; ラベル分類](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html)のラベル値です。
+* すべての制約は、「[!UICONTROL Constraints]」と呼ばれる単一の[&#x200B; ラベル分類](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=ja)のラベル値です。
 
    * 「[!UICONTROL Constraints]」は、デフォルトおよびカスタムビュー設定とスケジュール済みレポートの「[!UICONTROL Classifications]」リストに含まれています。 関連エンティティに割り当てられた制約を表示する場所に列を追加できます。
 
