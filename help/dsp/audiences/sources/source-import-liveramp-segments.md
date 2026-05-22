@@ -12,18 +12,16 @@ subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 152
+source-wordcount: 169
 ht-degree: 0%
 
 ---
 
 # [!DNL LiveRamp]から認証済みセグメントを手動でインポートします
 
-*Beta機能*
-
-[!DNL LiveRamp] [!DNL LiveRamp] ダッシュボードを使用して、認証済み[!DNL Connect] セグメントをDSPに手動で送信できます。 読み込んだセグメントをプレースメントのターゲティングに使用できます。 1st パーティセグメントの場合、配信されたディスプレイ広告インプレッションあたり0.15米ドル、配信されたビデオ広告インプレッションあたり0.25米ドルの料金が発生します。
+[!DNL LiveRamp] [!DNL Connect] ダッシュボードを使用して、認証済み[!DNL LiveRamp] セグメントをDSPに手動で送信できます。 読み込んだセグメントをプレースメントのターゲティングに使用できます。 1st パーティセグメントの場合、配信されたディスプレイ広告インプレッションあたり0.15米ドル、配信されたビデオ広告インプレッションあたり0.25米ドルの料金が発生します。
 
 各インポートジョブのセグメントマッピングとアップロードには、最大7日かかる場合があります。
 
@@ -46,7 +44,7 @@ Is this first step relevant for this process?
 
       ![識別子の設定](/help/dsp/assets/liveramp-tile-settings.png)
 
-   1. （オプション） Cookie ベースのIDを引き続き受け取る場合は、「[!DNL AAC API 1P Onboarding]」、「[!DNL Cookies]」、「[!DNL IDFA]」が選択された2番目の[!DNL AAID]宛先タイルを作成します。
+   1. （オプション） Cookie ベースのIDを引き続き受け取る場合は、「[!DNL Cookies]」、「[!DNL IDFA]」、「[!DNL AAID]」が選択された2番目の[!DNL AAC API 1P Onboarding]宛先タイルを作成します。
 
    1. オーディエンスライブラリ（[!UICONTROL Audiences] > [!UICONTROL All Audiences]またはプレースメント設定内でオーディエンスを作成または編集する際に使用可能）で、セグメント数全体が読み込まれたことを確認します。
 
@@ -56,3 +54,4 @@ Is this first step relevant for this process?
 >* [&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](source-manage.md)
 >* [Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)
 >* [&#x200B; オーディエンス管理について](/help/dsp/audiences/audience-about.md)
+>* [1st パーティセグメントを [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)からインポート

@@ -15,16 +15,14 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: 1118
 ht-degree: 0%
 
 ---
 
 # ユーザーIDを[!DNL Tealium]からユニバーサル IDに変換
-
-*Beta機能*
 
 [!DNL Tealium] Customer Data PlatformとのDSP統合を使用して、組織の1st パーティハッシュ化されたメールアドレスを、ターゲット広告のユニバーサル IDに変換します。 このプロセスでは、[!DNL Amazon Web Services] （AWS） ファイアホースコネクタを使用します。 TealiumからDSPにデータを共有するには、次の手順に従います。
 
@@ -46,11 +44,11 @@ ht-degree: 0%
 
 メールアドレスを[!DNL RampIDs]または[!DNL ID5]のIDに変換するには、次の操作を行う必要があります。
 
-1. （まだ実行していない場合）実装の[前提条件をすべて完了し、 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)AMO IDとEF ID[がトラッキング URLに入力されていることを確認します。](/help/integrations/analytics/ids.md)
+1. （まだ実行していない場合）実装の[&#128279;](/help/integrations/analytics/prerequisites.md)前提条件をすべて完了し、[AMO IDとEF ID](/help/integrations/analytics/ids.md)がトラッキング URLに入力されていることを確認します。 [!DNL Analytics for Advertising]
 
 1. ユニバーサル ID パートナーに登録し、web ページにユニバーサル ID固有のコードをデプロイして、デスクトップおよびモバイルのweb ブラウザー（モバイルアプリは除く）のIDからビュースルーのコンバージョンを一致させます。
 
-   * **[!DNL RampIDs]の場合：** デスクトップおよびモバイル web ブラウザー（モバイルアプリではない）のIDからビュースルーに一致させるには、web ページにJavaScript タグを追加してデプロイする必要があります。 Adobe アカウントチームにお問い合わせください。担当チームは、[!DNL LiveRamp]認証トラフィックソリューションから[!DNL LaunchPad] [!DNL LiveRamp] タグを登録する手順を説明します。 登録は無料ですが、契約書に署名する必要があります。 登録が完了すると、Adobeアカウントチームが独自のタグを生成し、web ページへの導入に使用します。
+   * **[!DNL RampIDs]の場合：** デスクトップおよびモバイル web ブラウザー（モバイルアプリではない）のIDからビュースルーに一致させるには、web ページにJavaScript タグを追加してデプロイする必要があります。 Adobe アカウントチームにお問い合わせください。担当チームは、[!DNL LiveRamp]認証トラフィックソリューションから[!DNL LiveRamp] [!DNL LaunchPad] タグを登録する手順を説明します。 登録は無料ですが、契約書に署名する必要があります。 登録が完了すると、Adobeアカウントチームが独自のタグを生成し、web ページへの導入に使用します。
 
 ## 手順2:DSPでオーディエンスソースを作成する {#source-create}
 
@@ -70,7 +68,7 @@ ht-degree: 0%
 
    1. ハッシュ化されたメール IDを含む列を、訪問者IDのタイプの属性にマッピングします。
 
-   1. `Tealium_visitor_id`属性を使用してオーディエンスを作成します。 適切なエンリッチメントを適用してオーディエンスをトリガーにする： 訪問者ID属性[[!DNL Tealium] に関する](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/) ドキュメントを参照してください。
+   1. `Tealium_visitor_id`属性を使用してオーディエンスを作成します。 適切なエンリッチメントを適用してオーディエンスをトリガーにする： 訪問者ID属性[&#128279;](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/)に関する[!DNL Tealium]  ドキュメントを参照してください。
 
 1. 広告主は、DSPでセグメントを作成するために、Adobe アカウントチームにセグメントマッピングデータを提供する必要があります。 コンマ区切りの値ファイルでは、次の列名と値を使用します。
 
@@ -136,7 +134,7 @@ ht-degree: 0%
 
                * Cookie属性に、カスタムメッセージ `cookies`という名前を付けます。
 
-            1. カスタムフィールドを作成するオプションで、[!DNL Source Key] フィールドに、前の手順で[!UICONTROL External Segment Key] セグメントマッピングデータ [に含まれていた](#map-data)を入力します。
+            1. カスタムフィールドを作成するオプションで、[!DNL Source Key] フィールドに、前の手順で[&#x200B; セグメントマッピングデータ &#x200B;](#map-data)に含まれていた[!UICONTROL External Segment Key]を入力します。
 
                DSPはこのキーを使用してセグメントに情報を入力します。
 
@@ -148,7 +146,7 @@ ht-degree: 0%
 
 1. [!DNL Tealium]で、別のセグメントを作成するセグメントを複製し、新しいセグメントの名前を変更します。
 
-1. [!DNL Tealium]で、前の手順で作成したコネクタ [を複製し、新しいコネクタの名前を「](#tealium-connector)」から新しいセグメント名に変更します。`<original name>-copy`
+1. [!DNL Tealium]で、前の手順で作成したコネクタ [を複製し、新しいコネクタの名前を「`<original name>-copy`」から新しいセグメント名に変更します。](#tealium-connector)
 
 ## 手順6：ユニバーサル IDの数とハッシュ化されたメールアドレスの数を比較する {#compare-id-count}
 

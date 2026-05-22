@@ -15,16 +15,14 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 612
+source-wordcount: 624
 ht-degree: 0%
 
 ---
 
 # ユーザーIDを[!DNL Optimizely]からユニバーサル IDに変換
-
-*Beta機能*
 
 [!DNL Optimizely] Customer Data PlatformとのDSP統合を使用して、組織の1st パーティハッシュ化されたメールアドレスを、ターゲット広告のユニバーサル IDに変換します。
 
@@ -42,11 +40,11 @@ ht-degree: 0%
 
 メールアドレスを[!DNL RampIDs]または[!DNL ID5]のIDに変換するには、次の操作を行う必要があります。
 
-1. （まだ実行していない場合）実装の[前提条件をすべて完了し、 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)AMO IDとEF ID[がトラッキング URLに入力されていることを確認します。](/help/integrations/analytics/ids.md)
+1. （まだ実行していない場合）実装の[&#128279;](/help/integrations/analytics/prerequisites.md)前提条件をすべて完了し、[AMO IDとEF ID](/help/integrations/analytics/ids.md)がトラッキング URLに入力されていることを確認します。 [!DNL Analytics for Advertising]
 
 1. ユニバーサル ID パートナーに登録し、web ページにユニバーサル ID固有のコードをデプロイして、デスクトップおよびモバイルのweb ブラウザー（モバイルアプリは除く）のIDからビュースルーのコンバージョンを一致させます。
 
-   * **[!DNL RampIDs]の場合：** デスクトップおよびモバイル web ブラウザー（モバイルアプリではない）のIDからビュースルーに一致させるには、web ページにJavaScript タグを追加してデプロイする必要があります。 Adobe アカウントチームにお問い合わせください。担当チームは、[!DNL LiveRamp]認証トラフィックソリューションから[!DNL LaunchPad] [!DNL LiveRamp] タグを登録する手順を説明します。 登録は無料ですが、契約書に署名する必要があります。 登録が完了すると、Adobeアカウントチームが独自のタグを生成し、web ページへの導入に使用します。
+   * **[!DNL RampIDs]の場合：** デスクトップおよびモバイル web ブラウザー（モバイルアプリではない）のIDからビュースルーに一致させるには、web ページにJavaScript タグを追加してデプロイする必要があります。 Adobe アカウントチームにお問い合わせください。担当チームは、[!DNL LiveRamp]認証トラフィックソリューションから[!DNL LiveRamp] [!DNL LaunchPad] タグを登録する手順を説明します。 登録は無料ですが、契約書に署名する必要があります。 登録が完了すると、Adobeアカウントチームが独自のタグを生成し、web ページへの導入に使用します。
 
 ## 手順2:DSPでオーディエンスソースを作成する {#source-create}
 
@@ -62,7 +60,7 @@ ht-degree: 0%
 
 1. [!DNL Optimizely Data Platform]内で、SHA-256 アルゴリズムを使用してオーディエンスのメール IDをハッシュ化します。
 
-1. セグメントをDSP[[!DNL Optimizely's] にプッシュするには、次の](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads)の手順に従います。 統合を有効にするには、次の情報を含めます。
+1. セグメントをDSP[&#128279;](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads)にプッシュするには、次の[!DNL Optimizely's] の手順に従います。 統合を有効にするには、次の情報を含めます。
 
    * **Source キー：**&#x200B;これは、[手順2](#source-create)で作成したソース キーです。
 

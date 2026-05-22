@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
+source-git-commit: a5e70555ba2a122db489ce1b73024ad89daee055
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1061'
 ht-degree: 3%
 
 ---
@@ -143,6 +143,7 @@ ht-degree: 3%
          + [ユーザーIDを [!DNL Amperity] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-amperity.md)
          + [ユーザーIDを [!DNL Optimizely] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-optimizely.md)
          + [ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-tealium.md)
+         + [&#x200B; [!DNL AdFixus]から1st パーティセグメントをインポート](/help/dsp/audiences/sources/source-adfixus.md)
       + [オーディエンスソースを管理して、ユニバーサル ID オーディエンスをアクティブ化する](/help/dsp/audiences/sources/source-manage.md)
    + [&#x200B; [!DNL LiveRamp]から認証済みセグメントを手動でインポートします](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [利用可能なサードパーティデータプロバイダー](/help/dsp/audiences/third-party-data-providers.md)

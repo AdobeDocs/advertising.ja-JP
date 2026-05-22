@@ -1,52 +1,50 @@
 ---
-title: ユーザー ID をユニバーサル ID から  [!DNL ActionIQ]  ユニバーサル ID に変換
-description: DSPがファーストパーティセグメントを取り込めるようにする方法  [!DNL ActionIQ]  ついて説明します。
+title: ユーザーIDを [!DNL ActionIQ] からユニバーサル IDに変換
+description: DSPで [!DNL ActionIQ]  ファーストパーティセグメントの取り込みを有効にする方法について説明します。
 feature: DSP Audiences
-source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
 
-# ユーザー ID を [!DNL ActionIQ] からユニバーサル ID に変換
+# ユーザーIDを[!DNL ActionIQ]からユニバーサル IDに変換
 
-*Beta機能*
+[!DNL ActionIQ] Customer Data PlatformとのDSP統合を使用して、ターゲット広告のためにハッシュ化された電子メールアドレスをユニバーサル IDに変換します。
 
-DSPと [!DNL ActionIQ] customer data platform の統合を使用すると、ハッシュ化されたメールアドレスをユニバーサル ID に変換して、ターゲット広告を実現できます。
+[!DNL ActionIQ]のデータをDSPと共有するには、<!-- NN -->の手順があります。
 
-<!-- NN --> からDSP[!DNL ActionIQ] データを共有するには、次のような手順があります。
-
-1. [DSPでオーディエンスソースを作成 &#x200B;](#source-create) します。
+1. [DSPでオーディエンスソースを作成](#source-create)。
 
 1. ?
 
-## 手順 1:DSPでのオーディエンスソースの作成 {#source-create}
+## 手順1:DSPでオーディエンスソースを作成する {#source-create}
 
-1. [&#x200B; オーディエンスソースを作成 &#x200B;](source-manage.md) して、ユーザー識別情報の変換先となる [&#x200B; ユニバーサル ID 形式 &#x200B;](source-about.md) を指定して、オーディエンスをDSP アカウントまたは広告主アカウントにインポートします。
+1. [&#x200B; オーディエンスソース &#x200B;](source-manage.md)を作成して、ユーザーIDを変換する[&#x200B; ユニバーサル ID形式](source-about.md)を指定して、DSP アカウントまたは広告主アカウントにオーディエンスを読み込みます。
 
-1. オーディエンスソースを作成したら、[!DNL ActionIQ] ユーザーとソースコードキーを共有します。
+1. オーディエンスソースを作成したら、ソースコードのキーを[!DNL ActionIQ] ユーザーと共有します。
 
-## 手順 2:
+## ステップ 2:
 
-## 手順 3:
+## ステップ 3:
 
-1. オーディエンスライブラリ（[!UICONTROL Audiences]/[!UICONTROL All Audiences] またはプレースメント設定内でオーディエンスを作成または編集する場合に使用できます）でセグメントが入力されていることを確認し、ユニバーサル ID の数を元のハッシュ化されたメールアドレスの数と比較します。
+1. オーディエンスライブラリ（[!UICONTROL Audiences] > [!UICONTROL All Audiences]またはプレースメント設定内でオーディエンスを作成または編集する際に使用可能）で、セグメントが入力されていることを確認し、ユニバーサル IDの数と元のハッシュ化されたメールアドレスの数を比較します。
 
-   セグメントは、24 時間以内にDSPで使用可能になります。 DSPがセグメントデータを受信したら、9 時間以内にオーディエンスサイズが表示されます。 許容可能な ID 翻訳率と、セグメント数が変化する理由について詳しくは、「[&#x200B; メール ID とユニバーサル ID の間のデータの相違 &#x200B;](#universal-ids-data-variances) を参照してください。
+   これらのセグメントは、24時間以内にDSPで利用できるようになります。 DSPがセグメントデータを受け取った後、オーディエンスサイズは9時間以内に表示されます。 使用可能なIDの翻訳率と、セグメント数が異なる理由については、「[&#x200B; メール IDとユニバーサル IDの間のデータの相違](#universal-ids-data-variances)」を参照してください。
 
-セグメントは 24 時間ごとに更新されます。
+セグメントは24時間ごとに更新されます。
 
 ## トラブルシューティング
 
-翻訳率とユーザー数の問題のトラブルシューティングについては、「[&#x200B; ユニバーサル ID のアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)」を参照してください。
+翻訳率とユーザー数の問題をトラブルシューティングするには、「[&#x200B; ユニバーサル IDのアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)」を参照してください。
 
-コンバージョン手順に関する問題のトラブルシューティングについては、Adobe アカウントチームまたは `adcloud-support@adobe.com` に問い合わせてください。
+変換手順に関する問題をトラブルシューティングするには、Adobe アカウントチームまたは`adcloud-support@adobe.com`にお問い合わせください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ファーストパーティオーディエンスソースについて &#x200B;](/help/dsp/audiences/sources/source-about.md)
->* [&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化 &#x200B;](source-manage.md)
->* [&#x200B; ユーザー ID をユニバーサル ID から  [!DNL Adobe Real-Time CDP]  ユニバーサル ID に変換 &#x200B;](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [&#x200B; ユーザー ID をユニバーサル ID から  [!DNL Tealium]  ユニバーサル ID に変換 &#x200B;](/help/dsp/audiences/sources/source-tealium.md)
->* [Audience Management について &#x200B;](/help/dsp/audiences/audience-about.md)
+>* [&#x200B; ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
+>* [&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](source-manage.md)
+>* [&#x200B; ユーザーIDを [!DNL Adobe Real-Time CDP] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [&#x200B; ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-tealium.md)
+>* [&#x200B; オーディエンス管理について](/help/dsp/audiences/audience-about.md)

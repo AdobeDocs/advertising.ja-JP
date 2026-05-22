@@ -15,26 +15,24 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 595
 ht-degree: 0%
 
 ---
 
 # ユーザーIDを[!DNL Adobe Real-Time CDP]からユニバーサル IDに変換
 
-*Beta機能*
-
 Adobe Experience Platformの一部である[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja)とのDSP統合を使用して、ハッシュ化された電子メールアドレス、Cookie、モバイル広告IDなどのユーザーIDを、ターゲット広告のユニバーサル IDに変換します。
 
 1. （ユーザーIDを[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->に変換するには、[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)を持つ広告主） [!DNL Analytics]の測定に対するトラッキングを設定します。
 
-   1. （まだ実行していない場合）トラッキング URL[で、 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)および[AMO IDとEF IDを実装するための](/help/integrations/analytics/ids.md)すべての前提条件を完了してください。
+   1. （まだ実行していない場合）トラッキング URL[&#128279;](/help/integrations/analytics/ids.md)で、 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)およびAMO IDとEF IDを実装するためのすべての前提条件を完了してください。
 
    1. ユニバーサル ID パートナーに登録し、web ページにユニバーサル ID固有のコードをデプロイして、デスクトップおよびモバイルのweb ブラウザー（モバイルアプリは除く）のIDからビュースルーのコンバージョンを一致させます。
 
-      * **[!DNL RampIDs]の場合：** デスクトップおよびモバイル web ブラウザー（モバイルアプリではない）のIDからビュースルーに一致させるには、web ページにJavaScript タグを追加してデプロイする必要があります。 Adobe アカウントチームにお問い合わせください。担当チームは、[!DNL LiveRamp]認証トラフィックソリューションから[!DNL LaunchPad] [!DNL LiveRamp] タグを登録する手順を説明します。 登録は無料ですが、契約書に署名する必要があります。 登録が完了すると、Adobeアカウントチームが独自のタグを生成し、web ページへの導入に使用します。
+      * **[!DNL RampIDs]の場合：** デスクトップおよびモバイル web ブラウザー（モバイルアプリではない）のIDからビュースルーに一致させるには、web ページにJavaScript タグを追加してデプロイする必要があります。 Adobe アカウントチームにお問い合わせください。担当チームは、[!DNL LiveRamp]認証トラフィックソリューションから[!DNL LiveRamp] [!DNL LaunchPad] タグを登録する手順を説明します。 登録は無料ですが、契約書に署名する必要があります。 登録が完了すると、Adobeアカウントチームが独自のタグを生成し、web ページへの導入に使用します。
 
 1. [&#x200B; オーディエンスソースを作成](source-manage.md)して、DSP アカウントまたは広告主アカウントにオーディエンスを読み込みます。 ユーザーIDを[使用可能なユニバーサル ID形式](source-about.md)のいずれかに変換することを選択できます。
 
