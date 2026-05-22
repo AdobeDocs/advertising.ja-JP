@@ -2,7 +2,7 @@
 title: 基本レポートと詳細レポートのレポート列
 description: 基本レポートと詳細レポートで使用できるデータ列について説明します。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '3841'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 | 列 | 説明 |
 | ---- | ---- |
-| \[広告主固有のカスタム（派生）指標\] | 既存の指標から計算される、作成した[&#x200B; カスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)の値。 |
+| \[広告主固有のカスタム（派生）指標\] | 既存の指標から計算される、作成した[ カスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)の値。 |
 | \[広告主固有ラベル分類\] | 現在エンティティに適用されているラベル分類（エンティティ レベル）。 複数のラベル分類は、コンマ（,）で区切ります。 |
 | \[Advertiser-specific conversion metrics\] | 指定されたコンバージョン指標またはサイトエンゲージメント指標のコンバージョン数。 |
 | \[Googleで追跡されたコンバージョン\] | 「GGL\*、GGL_CT\*、およびGGL_XD_CT\*」のエントリを参照してください。 |
@@ -203,5 +203,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [基本レポートと詳細レポートについて](basic-advanced-report-about.md)
->* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
 >* [基本および詳細レポート設定](basic-advanced-report-settings.md)
