@@ -1,15 +1,15 @@
 ---
-title: メディア企業のレコメンデーションとインサイトのサポートについて
+title: メディア企業のレコメンデーションとインサイトのサポート
 description: パブリッシャーのレコメンデーションとインサイトの表示と管理のサポートについて説明します。
 feature: Search Recommendations
-source-git-commit: cfd8790d6b8384509a77103b8082ed033106431a
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
 
-# メディア企業のレコメンデーションとインサイトのサポートについて
+# メディア企業のレコメンデーションとインサイトのサポート
 
 *[!DNL Google Ads]と[!DNL Microsoft Advertising] アカウント*
 

@@ -2,9 +2,9 @@
 title: （新しいUI）レポートテンプレートの管理
 description: スケジュール済みレポートとオンデマンド済みレポートの再利用可能なレポートテンプレートを作成、表示、編集、削除する方法について説明します。
 feature: Search Reports
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -31,27 +31,29 @@ ht-degree: 0%
 
 1. 次のいずれかの操作を行います。
 
-* [!UICONTROL Latest Reports] タブまたは[!UICONTROL Templates] タブからテンプレートをゼロから作成するには、レポートを作成し、**[!UICONTROL Save as Template]**&#x200B;設定を有効にします。
+   * [!UICONTROL Latest Reports] タブまたは[!UICONTROL Templates] タブからテンプレートをゼロから作成するには、レポートを作成し、**[!UICONTROL Save as Template]**&#x200B;設定を有効にします。
 
-* 既存のテンプレートに基づいてテンプレートを作成するには：
+   * 既存のテンプレートに基づいてテンプレートを作成するには：
 
-   1. 「**[!UICONTROL Templates]**」タブをクリックします。
+      1. 「**[!UICONTROL Templates]**」タブをクリックします。
 
-   1. 既存のテンプレートの横にあるチェックボックスをオンにします。
+      1. 次のいずれかの操作を行います。
 
-   1. 一括アクションツールバーで、[複製](/help/search-social-commerce/assets/duplicate.png)をクリックします。
+         * テンプレート行の上にカーソルを置き、**...** > **[!UICONTROL Duplicate]**&#x200B;をクリックします。
 
-   1. （オプション）テンプレートの名前を変更し、必要に応じてレポート設定を編集します。
+         * 既存のテンプレートの横にあるチェックボックスをオンにします。 一括アクションツールバーで、[複製](/help/search-social-commerce/assets/duplicate.png)をクリックします。
 
-      **[!UICONTROL Next]**&#x200B;をクリックして、設定セクション間を移動します。
+      1. （オプション）テンプレートの名前を変更し、必要に応じてレポート設定を編集します。
 
-   1. **[!UICONTROL Save as Template]**&#x200B;設定を有効にします。
+         **[!UICONTROL Next]**&#x200B;をクリックして、設定セクション間を移動します。
 
-   1. **[!UICONTROL Create]**&#x200B;をクリックします。
+1. **[!UICONTROL Save as Template]**&#x200B;設定を有効にします。
+
+1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## Edit a report template {#template-edit}
 
@@ -75,7 +77,7 @@ You can change the settings for any report template you created. The new setting
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## View a report template {#template-view}
 

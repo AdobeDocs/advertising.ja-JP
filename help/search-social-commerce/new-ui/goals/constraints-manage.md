@@ -2,7 +2,7 @@
 title: 検索入札単位の制約の管理
 description: 従来のキーワードレベルのポートフォリオで、CPC キャンペーンの入札単位の入札を制限する制約について説明します。
 feature: Search Campaign Management, Search Optimization
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
 source-wordcount: '2649'
 ht-degree: 0%
@@ -68,7 +68,7 @@ ht-degree: 0%
 
   [!UICONTROL Constraints]分類は[!UICONTROL Label Classifications] ビューに含まれていません。[!UICONTROL Constraints] ビューは別のビューです。 [!UICONTROL Constraints]分類も30 ラベルの分類制限に含まれていません。
 
-* [[!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)には、ラベル分類アーキテクチャを使用する制約のコスト、クリック、および（オプションで）コンバージョンデータが含まれます。
+* [[!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)には、ラベル分類アーキテクチャを使用する制約のコスト、クリック、および（オプションで）コンバージョンデータが含まれます。
 
 ### [!UICONTROL Constraints] ビュー {#constraints-view}
 
@@ -216,4 +216,4 @@ ht-degree: 0%
 >* [広告グループの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [&#x200B; キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
 >* [&#x200B; プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
->* [The [!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)
+>* [The [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)
