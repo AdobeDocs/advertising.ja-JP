@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Custom Alerts] ビュー
 
-[!UICONTROL Custom Alerts] パネルを開くには、右上の![ カスタムアラート ](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ")をクリックします。
+[!UICONTROL Custom Alerts] パネルを開くには、右上の![&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ")をクリックします。
 
 [!UICONTROL Custom Alerts] パネルには、[!UICONTROL Alert Templates] ビューが含まれています。このビューには、アカウント用に作成されたすべてのアラートテンプレートが一覧表示され、そこからアラートテンプレートを作成、編集、一時停止、再アクティブ化および削除できます。 [!UICONTROL Triggered Alerts] ビューには、生成されたアラート インスタンスが一覧表示されます。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ## トリガーされたアラートの表示 {#alert-view}
 
-1. 任意のページの右上にある「![ カスタムアラート ](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ")」をクリックします。
+1. 任意のページの右上にある「![&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ")」をクリックします。
 
 1. 「**[!UICONTROL Triggered Alerts]**」タブをクリックします。
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 ## カスタムアラートテンプレートの表示 {#alert-template-view}
 
-1. 任意のページの右上にある「![ カスタムアラート ](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ")」をクリックすると、[!UICONTROL Alert Templates] タブが開きます。
+1. 任意のページの右上にある「![&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ")」をクリックすると、[!UICONTROL Alert Templates] タブが開きます。
 
 1. （オプション）リストをフィルタリングして、特定のエンティティタイプのアラートを含めるか、テンプレート名内のテキスト文字列を検索します。 検索クエリでは、大文字と小文字は区別されません。
 
-1. （オプション）アラートテンプレートのすべての条件を表示するには、条件の数をクリックします（![ カスタムアラート条件の例ボタン ](/help/search-social-commerce/assets/custom-alert-criteria.png " カスタムアラート条件の例ボタン ")など）。
+1. （オプション）アラートテンプレートのすべての条件を表示するには、条件の数をクリックします（![&#x200B; カスタムアラート条件の例ボタン &#x200B;](/help/search-social-commerce/assets/custom-alert-criteria.png " カスタムアラート条件の例ボタン ")など）。
 
 ## カスタムアラートテンプレートの作成 {#alert-template-create}
 
@@ -69,11 +69,11 @@ ht-degree: 0%
 
 1. 次のいずれかの操作を行います。
 
-   * 任意のページの右上で、![ カスタムアラート ](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") > **[!UICONTROL Create Custom Alert]**&#x200B;をクリックします。
+   * 任意のページの右上で、![&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") > **[!UICONTROL Create Custom Alert]**&#x200B;をクリックします。
 
-   任意のページの右上にある「![ カスタムアラート ](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") > **[!UICONTROL View Custom Alerts]**」をクリックすると、「[!UICONTROL Alert Templates]」タブが開きます。 **[!UICONTROL Create Alert]**&#x200B;をクリックします。
+   任意のページの右上にある「![&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") > **[!UICONTROL View Custom Alerts]**」をクリックすると、「[!UICONTROL Alert Templates]」タブが開きます。 **[!UICONTROL Create Alert]**&#x200B;をクリックします。
 
-1. [ アラート設定](#alert-template-settings)を&#x200B;**[!UICONTROL Entity]**、**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**&#x200B;および&#x200B;**[!UICONTROL Scheduling and Delivery]** タブで指定します。
+1. [&#x200B; アラート設定](#alert-template-settings)を&#x200B;**[!UICONTROL Entity]**、**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**&#x200B;および&#x200B;**[!UICONTROL Scheduling and Delivery]** タブで指定します。
 
    タブ間を移動するには、タブ名（「フィルター」など）をクリックするか、右下の&#x200B;**[!UICONTROL Next]**&#x200B;をクリックします。
 
@@ -81,13 +81,13 @@ ht-degree: 0%
 
 ## カスタムアラートテンプレートの編集 {#alert-template-edit}
 
-1. 右上の「![ カスタムアラート ](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") > **[!UICONTROL View Custom Alerts]**」をクリックすると、「[!UICONTROL Alert Templates]」タブが開きます。
+1. 右上の「![&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") > **[!UICONTROL View Custom Alerts]**」をクリックすると、「[!UICONTROL Alert Templates]」タブが開きます。
 
 1. （オプション）リストをフィルタリングして、特定のエンティティタイプのアラートを含めるか、テンプレート名内のテキスト文字列を検索します。 検索クエリでは、大文字と小文字は区別されません。
 
 1. テンプレート名の横にある「![編集](/help/search-social-commerce/assets/edit-new.png "編集")」をクリックします。
 
-1. [!UICONTROL Edit Custom Alert] ウィンドウで、**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**、および&#x200B;**[!UICONTROL Scheduling and Delivery]** タブの[ アラート設定](#alert-template-settings)を編集します。
+1. [!UICONTROL Edit Custom Alert] ウィンドウで、**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**、および&#x200B;**[!UICONTROL Scheduling and Delivery]** タブの[&#x200B; アラート設定](#alert-template-settings)を編集します。
 
    タブ間を移動するには、タブ名（「フィルター」など）をクリックするか、右下の&#x200B;**[!UICONTROL Next]**&#x200B;をクリックします。
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 ## カスタムアラートテンプレートの一時停止 {#alert-template-pause}
 
-1. 右上の「![ カスタムアラート ](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") > **[!UICONTROL View Custom Alerts]**」をクリックすると、「[!UICONTROL Alert Templates]」タブが開きます。
+1. 右上の「![&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") > **[!UICONTROL View Custom Alerts]**」をクリックすると、「[!UICONTROL Alert Templates]」タブが開きます。
 
 1. （オプション）リストをフィルタリングして、特定のエンティティタイプのアラートを含めるか、テンプレート名内のテキスト文字列を検索します。 検索クエリでは、大文字と小文字は区別されません。
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ## カスタムアラートテンプレートのアクティベーション {#alert-template-activate}
 
-1. 右上の「![ カスタムアラート ](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") > **[!UICONTROL View Custom Alerts]**」をクリックすると、「[!UICONTROL Alert Templates]」タブが開きます。
+1. 右上の「![&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") > **[!UICONTROL View Custom Alerts]**」をクリックすると、「[!UICONTROL Alert Templates]」タブが開きます。
 
 1. （オプション）リストをフィルタリングして、特定のエンティティタイプのアラートを含めるか、テンプレート名内のテキスト文字列を検索します。 検索クエリでは、大文字と小文字は区別されません。
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 削除できるのは、作成したアラートテンプレートのみです。
 
-1. 右上の「![ カスタムアラート ](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") > **[!UICONTROL View Custom Alerts]**」をクリックすると、「[!UICONTROL Alert Templates]」タブが開きます。
+1. 右上の「![&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") > **[!UICONTROL View Custom Alerts]**」をクリックすると、「[!UICONTROL Alert Templates]」タブが開きます。
 
 1. （オプション）リストをフィルタリングして、特定のエンティティタイプのアラートを含めるか、テンプレート名内のテキスト文字列を検索します。 検索クエリでは、大文字と小文字は区別されません。
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 |  | [!UICONTROL Name] | アラート名。 5文字以上を含める必要があります。 |
 | [!UICONTROL Date Range] | [!UICONTROL Select Entity] | 評価するエンティティの種類：<i>[!UICONTROL Portfolio]</i>、<i>[!UICONTROL Campaign]</i>、または<i>[!UICONTROL Ad Group]</i>。 |
 | [!UICONTROL Date Range] | [!UICONTROL Period] | アラートの条件を評価する日付範囲。 指標は、日付範囲をまたいで集計して評価されます。 オプションの範囲は&#x200B;*[!UICONTROL Yesterday]*&#x200B;から&#x200B;*[!UICONTROL Last 180 Days]*&#x200B;です。 |
-| [!UICONTROL Filters] | \[定義されたフィルター\] | [!UICONTROL Scheduling and Delivery] タブで指定された時点でアラートをトリガーするための条件。 使用可能な列は、エンティティタイプによって異なります。 すべてのフィルターはブール関数ANDを使用して結合されます。つまり、指定したすべての条件を満たす必要があります。<ul><li><p>フィルターを追加するには、次の操作を行います。<p><ol><li><p>（オプション）列名をテキスト文字列でフィルタリングするには、[!UICONTROL ADD FILTER]入力フィールドに検索文字列を入力します。</p></li><li><p>列リストで、列名を選択します。</p></li><li><p>列にフィルターを定義します。</p></li><ul><li><p>（入力フィールドのないフィルター） 2番目のメニューの横にある![下向き矢印](/help/search-social-commerce/assets/arrow-down-expand.png "下向き矢印")をクリックし、含める各値の横にあるチェックボックスを選択します。</p></li><li><p>（入力フィールドを持つその他のすべてのフィルター） 2番目のメニューから演算子を選択し、該当する値を入力します。</p><p>例えば、「クリック数」列を選択し、100回を超えるクリック数の行のみを返す場合は、「より大きい」を選択し、入力フィールドに100と入力します。</p><p>データ型に応じて、使用可能な演算子には、<i>1}より大きい、<i>より小さい</i>、<i>等しい</i>、<i>含む</i>、<i>含まない</i>、<i>から始まる</i>、<i>値なし</i>、<i>値なし</i>、</i>前</i>後<i>または<i>日付3}が含まれます。</i><i></i><i></i></p><p>**注意：** テキスト値では、大文字と小文字は区別されません。 例えば、名前に「ローン」が付いたキャンペーンで絞り込むと、「消費者ローン」や「ローン申し込み」などの結果が得られます。</p></li></ol><li><p>フィルターを削除するには、フィルター定義の横にある![削除](/help/search-social-commerce/assets/delete.png "削除")をクリックします。</p></li></ul> |
+| [!UICONTROL Filters] | \[定義されたフィルター\] | [!UICONTROL Scheduling and Delivery] タブで指定された時点でアラートをトリガーするための条件。 使用可能な列は、エンティティタイプによって異なります。 すべてのフィルターはブール関数ANDを使用して結合されます。つまり、指定したすべての条件を満たす必要があります。<ul><li><p>フィルターを追加するには、次の操作を行います。<p><ol><li><p>（オプション）列名をテキスト文字列でフィルタリングするには、[!UICONTROL ADD FILTER]入力フィールドに検索文字列を入力します。</p></li><li><p>列リストで、列名を選択します。</p></li><li><p>列にフィルターを定義します。</p></li><ul><li><p>（入力フィールドのないフィルター） 2番目のメニューの横にある![下向き矢印](/help/search-social-commerce/assets/arrow-down-expand.png "下向き矢印")をクリックし、含める各値の横にあるチェックボックスを選択します。</p></li><li><p>（入力フィールドを持つその他のすべてのフィルター） 2番目のメニューから演算子を選択し、該当する値を入力します。</p><p>例えば、「クリック数」列を選択し、100回を超えるクリック数の行のみを返す場合は、「より大きい」を選択し、入力フィールドに100と入力します。</p><p>データ型に応じて、使用可能な演算子には、<i>1&rbrace;より大きい、<i>より小さい</i>、<i>等しい</i>、<i>含む</i>、<i>含まない</i>、<i>から始まる</i>、<i>値なし</i>、<i>値なし</i>、</i>前</i>後<i>または<i>日付3&rbrace;が含まれます。</i><i></i><i></i></p><p>**注意：** テキスト値では、大文字と小文字は区別されません。 例えば、名前に「ローン」が付いたキャンペーンで絞り込むと、「消費者ローン」や「ローン申し込み」などの結果が得られます。</p></li></ol><li><p>フィルターを削除するには、フィルター定義の横にある![削除](/help/search-social-commerce/assets/delete.png "削除")をクリックします。</p></li></ul> |
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Trigger this Alert] \[when\] | アラートが指定された条件フィルターをチェックする頻度と、すべての条件が満たされると、メール通知を送信する頻度：<ul><li><p>[!UICONTROL Daily at <*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Weekly on <*週の日*> （&lt;*NN*> `[AM\|PM]`]）</p></li><li><p>[!UICONTROL Every month on <*日NN*> （&lt;*NN*> `[AM\|PM]`]）</p></li></ul>**注：**&#x200B;この値は、評価期間には影響しません。 |
 |  | [!UICONTROL Email Recipients] | （アラートテンプレートの作成者のみが編集できます。他のユーザーは読み取り専用）登録済み検索、ソーシャル、およびCommerce ユーザーがアラートがトリガーされたときに通知を送信する。 デフォルトでは、ユーザーアカウントの名前が選択されています。 オプションで、広告主のデータへのアクセス権を持つユーザーを追加または削除します。<br><br> アラートに最大1000件のレコードが含まれる場合、アラートのCSV バージョンがメールメッセージに添付されます。 |
 

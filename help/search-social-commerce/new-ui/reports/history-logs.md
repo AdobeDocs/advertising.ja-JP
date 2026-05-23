@@ -17,13 +17,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ポートフォリオの変更については、[ ポートフォリオの変更履歴](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)も参照してください。
+>ポートフォリオの変更については、[&#x200B; ポートフォリオの変更履歴](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)も参照してください。
 
 ## [!UICONTROL History Logs] レポートを表示 {#history-logs-open}
 
 1. メインメニューで、**[!UICONTROL Reports]** > **[!UICONTROL History Logs]**&#x200B;をクリックします。
 
-1. （オプション） [ ビューに含まれるデータを変更](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)。
+1. （オプション） [&#x200B; ビューに含まれるデータを変更](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)。
 
 ## [!UICONTROL History Logs]のレポートのダウンロードを管理
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. [履歴ログを開きます](#history-logs-open)。
 
-1. 右上の「![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
+1. 右上の「![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
 
 1. [!UICONTROL Grid Reports]設定で、一意のレポート名を入力し、**[!UICONTROL Generate]**&#x200B;をクリックします。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
    ファイルが[!UICONTROL Recently Generated] リストに追加されます。
 
-1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -47,9 +47,9 @@ ht-degree: 0%
 
 1. [履歴ログを開きます](#history-logs-open)。
 
-1. 右上の「![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
+1. 右上の「![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
 
-1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -57,6 +57,6 @@ ht-degree: 0%
 
 1. [履歴ログを開きます](#history-logs-open)。
 
-1. 右上の「![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
+1. 右上の「![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
 
 1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
