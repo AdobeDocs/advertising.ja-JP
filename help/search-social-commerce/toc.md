@@ -4,9 +4,9 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2302'
 ht-degree: 2%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 2%
          + [アトリビューションルールの計算方法](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
          + [カスタムレポートに関するFAQ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [スプレッドシート レポート フィードの管理](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
-      + [[!UICONTROL History Logs] レポートを表示](/help/search-social-commerce/new-ui/reports/history-logs.md)
+      + [変更履歴ログを表示](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [ラベル分類の管理](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
       + キーワード {#keywords}
@@ -208,6 +208,7 @@ ht-degree: 2%
          + データアップロードアカウント {#data-upload}
             + [データのアップロード用の広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [トラッキング専用の [!DNL Naver]  アカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+   + [カスタムアラートの管理](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [ユーザー管理](/help/search-social-commerce/new-ui/user-administration.md)
 + トラッキング {#tracking}
    + [トラッキングについて](/help/search-social-commerce/tracking/tracking-about.md)

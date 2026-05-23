@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: 1499
 ht-degree: 0%
 
 ---
@@ -28,21 +28,19 @@ ht-degree: 0%
 
 各ページには、メインメニューと、その他のタスクおよび情報ベースのメニューが含まれています。
 
+ご利用の[製品プロファイル &#x200B;](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles)によって、各ビュー内で利用可能な機能を含め、利用可能なオプションが決まります。
+
 ## メインメニュー
 
-新しいユーザーインターフェイスの左側には、新しいメインメニューがあり、作業ステージ別にタスクが整理されています。 従来のユーザーインターフェイスからの追加のサブメニューとオプションは、後で追加されます。
+新しいユーザーインターフェイスの左側には、新しいメインメニューがあり、作業ステージ別にタスクが整理されています。
 
 ### メインメニューオプション
-
-ご利用の[製品プロファイル &#x200B;](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles)によって、使用可能なオプションが決まります。
 
 * **[!UICONTROL Dashboard]** サブメニュー：
 
    * **[!UICONTROL Overview]**&#x200B;すべてのポートフォリオのパフォーマンスのビジュアライゼーションを含む、設定可能な[!UICONTROL Dashboard] ビューを開きます。
 
    * **[!UICONTROL Recommendations]**: [!DNL Google Ads]および[!DNL Microsoft Advertising]のメディア企業レコメンデーションの読み取り専用ビューと[!DNL Microsoft Advertising.]のメディア企業インサイトを開きます。レコメンデーションおよびインサイトを表示して対応するには、従来の[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
-
-   * **[!UICONTROL Alerts & Notifications]**：新しいサイトを終了し、従来の[!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts] ビューを開きます。
 
 * **[!UICONTROL Goals]** サブメニュー：
 
@@ -64,7 +62,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Portfolios]:**&#x200B;広告主のすべてのポートフォリオを一覧表示する新しい[!UICONTROL Portfolios] ビューを開きます。 このビューからポートフォリオを管理できます。 割り当てられた制約のリストを開き、任意のポートフォリオのパフォーマンスとコンポジションの詳細を表示できます。
 
-     ポートフォリオ設定には、目的とキャンペーンの割り当て、支出の管理、制約の管理、最適化の制御などのタブが含まれます。 「エキスパート最適化」の役割以上を持つユーザーのみが[!UICONTROL Control Optimization] タブの設定を編集できます。
+     ポートフォリオ設定には、目的とキャンペーンの割り当て、支出の管理、制約の管理、最適化の制御などのタブが含まれます。 [!UICONTROL Control Optimization] タブの設定を編集できるのは、「エキスパート最適化」プロファイル以上のユーザーのみです。
 
    * **[!UICONTROL Campaigns]:**&#x200B;新しい[!UICONTROL Campaigns] ビューを開きます。このビューには、広告主のすべてのキャンペーンが表示されます。 キャンペーンをポートフォリオに割り当て、選択したキャンペーンの制約の割り当てを管理できます。 データテーブルの内容のレポートをダウンロードすることもできます。<!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
@@ -82,21 +80,19 @@ ht-degree: 0%
 
    * **[!UICONTROL Insights]**：新しいサイトを終了し、従来の[!UICONTROL Insights & Reports] > [!UICONTROL Insights] ビューを開きます。
 
-   * **[!UICONTROL Scheduled Reports]**：新しいサイトを終了し、従来の[!UICONTROL Insights & Reports] > [!UICONTROL Reports] ビューを開きます。
+   * **[!UICONTROL Scheduled Reports]**：新しい[!UICONTROL Scheduled Reports] ビューを開き、スケジュール済みレポートを生成および管理できます。
 
-   * **[!UICONTROL Spreadsheet Feeds]**：新しいサイトを終了し、従来の[!UICONTROL Insights & Reports] > [!UICONTROL Spreadsheets] ビューを開きます。
+   * **[!UICONTROL Spreadsheet Feeds]**：新しい[!UICONTROL Spreadsheets Feeds] ビューを開きます。このビューから、毎日レポート フィードを更新するように設定できます。
 
-   * **[!UICONTROL History Logs]**：新しいサイトを終了し、従来の[!UICONTROL Insights & Reports] > [!UICONTROL Change History] ビューを開きます。
+   * **[!UICONTROL History Logs]**：広告主アカウントに対する最近の変更に関する詳細を含む新しい[!UICONTROL History Logs] ビューを開きます。
 
    * **[!UICONTROL Label Classification]**&#x200B;新しい[!UICONTROL Label Classifications] ビューを開きます。 分類を管理し、新しいUIで使用可能な該当するアカウントコンポーネントに分類値を割り当て/割り当て解除できます。
 
-   * **[!UICONTROL Bulksheets]**：新しいサイトを終了し、従来の[!UICONTROL Campaigns] > [!UICONTROL Bulksheets] ビューを開きます。
-
 * **[!UICONTROL Target]** サブメニュー：
 
-   * **[!UICONTROL Audiences]**：新しい[!UICONTROL Audiences] ビューを開きます。このビューには、広告主の既存のオーディエンス、すべてのオーディエンスターゲット、およびすべてのオーディエンス除外が表示されます。 オーディエンスを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Audiences] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+   * **[!UICONTROL Audiences]**：広告主の既存のオーディエンス、すべてのオーディエンスターゲット、およびすべてのオーディエンス除外を表示する新しいビューを開きます。 オーディエンスを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Audiences] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
-   * **[!UICONTROL Auto Targets]**&#x200B;新しいサイトを終了し、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを開きます。
+   * **[!UICONTROL Auto Targets]**&#x200B;新しいビューを開きます。このビューには、広告主の既存の自動ターゲットがすべて表示されます。 自動ターゲットを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Auto Targets] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
    * **[!UICONTROL Keywords]**&#x200B;新しい[!UICONTROL Keywords] ビューを開き、広告主の既存のキーワードと負のキーワードを表示します。 選択したキーワードの制約の割り当てを管理できます。
 
@@ -108,7 +104,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Assets]** サブメニュー：
 
-   * **[!UICONTROL Creatives]**&#x200B;新しいサイトを終了し、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを開きます。
+   * **[!UICONTROL Creatives]**&#x200B;既存のクリエイティブアセットを一覧表示する新しいビューを開きます。 各クリエイティブをプレビューできます。 アセットライブラリを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Asset Library] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
    * **[!UICONTROL Extensions]**&#x200B;既存の広告拡張機能の読み取り専用ビューを開きます。 拡張機能を管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
@@ -116,23 +112,19 @@ ht-degree: 0%
 
 * **[!UICONTROL Set Up]** サブメニュー：
 
-   * **[!UICONTROL Manager Accounts]**：新しいサイトを終了し、従来の[!UICONTROL Admin] > [!UICONTROL Manager Accounts] ビューを開きます。
+   * **[!UICONTROL Manager Accounts]**：既存のマネージャーアカウントと広告ネットワークの新しいビューを開きます。 マネージャーアカウントを管理するには、従来の[!UICONTROL Admin] > [!UICONTROL Manager Accounts] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
    * **[!UICONTROL Accounts]**：新しい[!UICONTROL Accounts] ビューを開きます。 API接続を介して同期する広告ネットワークアカウントや、データアップロードを介して設定する広告ネットワークアカウントを管理できます。 既存の[!UICONTROL Naver] アカウントも管理できます。
 
-   * **[!UICONTROL Import Campaigns]**：新しいサイトを終了し、従来の[!UICONTROL Tools] > [!UICONTROL Import Campaigns] ビューを開きます。
+   * **[!UICONTROL Import Campaigns]**：新しいビューを開き、そこからキャンペーンデータを読み込むことができます。
+
+   * **[!UICONTROL Bulksheets]**：新しい[!UICONTROL Bulksheets] ビューを開きます。
 
 <!--
  What's happening to these?
 
-Campaigns > Asset Library
-
-Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
-
-Tools > Conversion Upload Setup
 Tools > Generic Tracking
 Tools > Inventory Selection
-
 Tools > Admin > Data Source Setup
 -->
 
@@ -168,13 +160,13 @@ Tools > Admin > Data Source Setup
 
 * 現在のビューの設定可能な日付範囲
 
-* ![UI ツアーを開始](/help/search-social-commerce/assets/take-ui-tour.png "UI ツアーを開始")新しいユーザーインターフェイスのツアーへのリンク。
-
 * ![古いUIに切り替え](/help/search-social-commerce/assets/switch-to-old-ui.png "古いUIに切り替え")新しいタブまたはウィンドウでレガシーユーザーインターフェイスを開きます。
+
+* ![&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") パネルでカスタムアラートを作成または表示できます。
 
 * ![&#x200B; グローバル同期ステータス &#x200B;](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ") <!--what kind -->件の一括操作ジョブのリストを開きます。
 
-* ![通知](/help/search-social-commerce/assets/notifications.png "通知")検索、ソーシャル、Commerceの通知を一覧表示するパネルを開きます。
+* ![通知](/help/search-social-commerce/assets/notifications.png "通知")検索、ソーシャル、Commerceの通知を一覧表示するパネルを開きます。 リストのフィルター、通知設定の編集、または[!UICONTROL Notification Center].mを開くことができます
 
 ## レガシーユーザーインターフェイス
 

@@ -1,15 +1,15 @@
 ---
-title: （新しいUI） [!UICONTROL History Logs] レポートを表示
+title: （新しいUI）変更履歴ログの表示
 description: 広告主アカウントに対する最近の変更を表示する方法を説明します。
 feature: Search Reports
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+source-git-commit: b68aac34cd7e10fcceceb622b5365cb0ecec040d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
-# （新しいUI） [!UICONTROL History Logs] レポートを表示
+# （新しいUI）変更履歴ログの表示
 
 [!UICONTROL History Logs] レポートには、過去31日間に広告主アカウントに加えられた変更のログが含まれます。 このレポートには、ユーザー（広告主）、ポートフォリオ、キャンペーン、広告グループ、広告、キーワード、プレースメント、製品ターゲットの種類に対する変更が含まれます。 任意の列でデータを並べ替え、フィルタリングできます。
 
