@@ -13,7 +13,7 @@ ht-degree: 0%
 
 [!UICONTROL Goals] > [!UICONTROL Conversions] ビューから、次の操作を実行できます。
 
-* [Adobe Advertising コンバージョントラッキングタグを生成](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
+* [Adobe Advertising コンバージョントラッキングタグを生成](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
 
 * 広告主で追跡されているすべてのコンバージョン指標の場合：
 
