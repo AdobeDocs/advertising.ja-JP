@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c3664a71f39c9a45fad739fdf4805c9862c69915
+source-git-commit: e0e44e7b2102ce3c7ec27c5dc4c50d46f1def4cf
 workflow-type: tm+mt
-source-wordcount: 801
+source-wordcount: 1020
 ht-degree: 0%
 
 ---
@@ -46,15 +46,11 @@ ht-degree: 0%
 
 ## （新しいUI） [!UICONTROL Spend Planner] レポートの生成 {#spend-recommendations-generate}
 
-1. 次のいずれかの操作を行います。
-
-   * メインメニューで、**[!UICONTROL Plan]>[!UICONTROL Spend Planner]**&#x200B;をクリックします。
-
-   * メインメニューで、**[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;をクリックします。 データテーブルの上にあるツールバーで、![費用プランナー](/help/search-social-commerce/assets/spend-planner-icon.png "費用プランナー")をクリックします。
-
-   [!UICONTROL Spend Recommendation] ツールが従来のユーザーインターフェイスで開きます。
+1. メインメニューで、**[!UICONTROL Plan]>[!UICONTROL Spend Planner]**&#x200B;をクリックします。
 
 1. 選択したポートフォリオの現在の結合された予算を使用してデータを表示します。
+
+   1. **[!UICONTROL Select Objective]**&#x200B;をクリックします。
 
    1. ポートフォリオ目標を選択します。
 
@@ -62,7 +58,7 @@ ht-degree: 0%
 
    1. （オプション）ポートフォリオ支出戦略を選択して、ポートフォリオリストをさらにフィルタリングします。
 
-   1. 含める各ポートフォリオの横にあるチェックボックスをオンにします。 すべてのポートフォリオを選択するには、[!UICONTROL Portfolios]の横にあるチェックボックスをオンにします。
+   1. 含める各ポートフォリオの横にあるチェックボックスをオンにします。
 
       選択したパラメーターを持つ最適化されたアクティブなポートフォリオのみが一覧表示されます。
 
@@ -70,45 +66,13 @@ ht-degree: 0%
 
    1. （オプション）グラフ上の任意のポイントのコストと収益を表示するには、ポイントの上にカーソルを置きます。
 
-1. （オプション）異なる総支出目標を使用して、ポートフォリオごとに推奨される日別支出目標と予想収益を表示するには、[!UICONTROL Total Spend Target] フィールドにすべてのポートフォリオにわたって提案された日別支出目標を入力します。 次に、**Enter** キーを押します。
+1. （オプション）提案された割り当てとポートフォリオあたりの予想収益をダウンロードするには、右側の列の[!UICONTROL Portfolio Allocation]の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")をクリックします。
+
+   ブラウザーの通常の手順に従って、ファイルを開くか保存します。 詳しくは、ブラウザーのオンラインヘルプを参照してください。
+
+1. （オプション）異なる総支出目標を使用するポートフォリオごとに推奨される1日の支出額と予想収益を表示するには、[!UICONTROL Total Spend Target] フィールドにすべてのポートフォリオで提案される1日の支出合計ターゲットを入力します。 次に、**Enter** キーを押します。
 
    予算分配のレコメンデーションツールは、毎週のシミュレーションのデータを使用するため、推奨される予算合計は、提案された予算目標と最も近い予算配分となり、理想的な予算配分の組み合わせとなります。
-
-<!--
-
-New UI; validate post-Update steps once I get it to generate a report:
-
-## Generate a spend recommendation report {#spend-recommendations-generate}
-
-1. In the main menu, click **[!UICONTROL Plan] > [!UICONTROL Spend Planner]**.
-
-1. View data using the current, combined budgets for the selected portfolios:
-
-   1. Click **[!UICONTROL Select Objective]**.
-
-   1. Select the portfolio objective.
-
-   1. Select the currency.
-
-   1. (Optional) Select a portfolio spend strategy to further filter the portfolios list.
-
-   1. Select the check box next to each portfolio to include.
-
-      Only optimized and active portfolios with the selected parameters are listed.
-
-   1. Click **[!UICONTROL Update]**.
-
-   1. (Optional) To see the cost and revenue for any point on the chart, hold the cursor over the point.
-
-1. (Optional) To download the proposed allocation and expected revenue per portfolio, click ![Download](/help/search-social-commerce/assets/download-spend-recommendation.png "Download") next to [!UICONTROL Portfolio Allocation] in the right column.
-
-   Open or save the file according to your browser's normal procedure. For more information, see your browser's online help.
-
-1. (Optional) To view the recommended daily spend and expected revenue for each of the portfolios using a different total spend target, enter a proposed total daily spend target across all portfolios in the [!UICONTROL Total Spend Target] field. Then press the **Enter** key.
-
-   The spend recommendation tool uses data from weekly simulations, so the total recommended spend is the closest match to your proposed spend target with the ideal spend mix.
-
--->
 
 ## （従来のUI） [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] ビューから[!UICONTROL Spend Recommendation] レポートを生成 {#spend-recommendations-generate-legacy}
 
@@ -134,27 +98,24 @@ New UI; validate post-Update steps once I get it to generate a report:
 
    予算分配のレコメンデーションツールは、毎週のシミュレーションのデータを使用するため、推奨される予算合計は、提案された予算目標と最も近い予算配分となり、理想的な予算配分の組み合わせとなります。
 
-<!--
-## (New UI) Apply spend recommendations {#spend-recommendations-apply}
+## （新しいUI）予算分配のレコメンデーションの適用 {#spend-recommendations-apply}
 
-*Portfolios with daily budgets only*
+日別予算のみ&#x200B;*ポートフォリオ*
 
 >[!NOTE]
 >
->* If the applied changes will increase or decrease the spend target of any portfolio by more than 20%, you must approve the change.
->* When the spend target for a portfolio changes by more than 20%, Search, Social, & Commerce takes up to 3-4 days to adjust its models and achieve the new target.
+>* 適用された変更により、任意のポートフォリオの支出目標が20%以上増加または減少する場合は、変更を承認する必要があります。
+>* ポートフォリオの支出目標が20%以上変化した場合、Search, Social, &amp; Commerceは、モデルを調整し、新しい目標を達成するのに最大3～4日かかります。
 
-1. [Generate a spend recommendation report](#spend-recommendations-generate) for one or more portfolios with daily budgets.
+1. [1日当たりの予算を持つ1つ以上のポートフォリオの予算予算推奨レポート &#x200B;](#spend-recommendations-generate)を生成します。
 
-1. Select the check box next to each portfolio for which you want to apply the recommended spend target. To select all portfolios, select the check box next to **[!UICONTROL Select All Recommendations]**.
+1. 推奨される費用ターゲットを適用する各ポートフォリオの横にあるチェックボックスをオンにします。 すべてのポートフォリオを選択するには、**[!UICONTROL Select All Recommendations]**&#x200B;の横にあるチェックボックスをオンにします。
 
-1. Click **[!UICONTROL Apply Selected Recommendations]**.
+1. **[!UICONTROL Apply Selected Recommendations]**&#x200B;をクリックします。
 
-1. (If any of the budgets will change by more than 20%) In the confirmation message, click **[!UICONTROL Confirm]** to approve the changes.
+1. （いずれかの予算が20%以上変更される場合）確認メッセージで「**[!UICONTROL Confirm]**」をクリックして変更を承認します。
 
--->
-
-## &#x200B;<!--(Legacy UI) -->予算分配の推奨事項を適用 {#spend-recommendations-apply-legacy}
+## （従来のUI）予算分配のレコメンデーションの適用 {#spend-recommendations-apply-legacy}
 
 日別予算のみ&#x200B;*ポートフォリオ*
 
@@ -171,23 +132,17 @@ New UI; validate post-Update steps once I get it to generate a report:
 
 1. （いずれかの予算が20%以上変更される場合）確認メッセージで「**[!UICONTROL Yes]**」をクリックして変更を承認します。
 
-<!--
+## （新しいUI） データを[!DNL Microsoft Excel] ワークブックファイルとして開くか保存する {#spend-recommendations-download}
 
-## (New UI) Open or save data as a [!DNL Microsoft Excel] workbook file {#spend-recommendations-download}
+a）コストポイントと各コストの予想収益を示す折れ線グラフとb）現在および提案されたメディアミックスのドーナツチャートのどちらかのデータを開くか保存できます。 [これはPortfolio割り当てレポートと同じようですが、どのように異なるのでしょうか？]
 
-You can open or save data from either a) the line chart showing cost points and the expected revenue for each cost and b) the donut charts of the current and proposed media mix. [This seems to be identical to the Portfolio Allocation report -- how should these be different?]
+1. [選択したポートフォリオに対する予算推奨レポート &#x200B;](#spend-recommendations-generate)を生成します。
 
-1. [Generate a spend recommendation report](#spend-recommendations-generate) for selected portfolios.
+1. レポートの上にある「![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")」をクリックします。
 
-1. Above the report, click ![Download](/help/search-social-commerce/assets/download-spend-recommendation.png "Download").
+   ブラウザーの通常の手順に従って、ファイルを開くか保存します。 詳しくは、ブラウザーのオンラインヘルプを参照してください。
 
-   Open or save the file according to your browser's normal procedure. For more information, see your browser's online help.
-
--->
-
-<!--(Legacy UI) -->
-
-## データを[!DNL Microsoft Excel] ワークブック ファイルとして開くか保存する {#spend-recommendations-download-legacy}
+## （従来のUI） データを[!DNL Microsoft Excel] ワークブック ファイルとして開くか保存する {#spend-recommendations-download-legacy}
 
 1. 選択したポートフォリオの予算推奨レポートを生成します。
 

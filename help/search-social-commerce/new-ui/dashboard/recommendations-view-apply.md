@@ -2,7 +2,7 @@
 title: メディア企業のレコメンデーションとインサイトのサポート
 description: パブリッシャーのレコメンデーションとインサイトの表示と管理のサポートについて説明します。
 feature: Search Recommendations
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 1328e52509e4111bc0e58412ebf3c3b2de0cb291
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
@@ -237,14 +237,3 @@ ht-degree: 0%
 | [!UICONTROL Measurement] | コンバージョンの追跡と認定制度に関する推奨事項 | Search, Social, &amp; Commerceでは利用できません。 | これらの推奨事項は、パフォーマンスに影響を与える可能性があります。 Adobeのアカウントチームと相談し、レコメンデーションを適用する前に、その長所と短所について話し合いましょう。 |
 | [!UICONTROL Repairs] | アカウントの問題を改善するためのその他の推奨事項 | Search, Social, &amp; Commerceでは利用できません。 | [!DNL Google Ads]内の修復の推奨事項を定期的に手動で確認します。 このレコメンデーションタイプは、未承認の広告、フィードの問題、トラッキングの問題などを特定するのに適した方法です。 |
 | [!UICONTROL Other] | [!DNL Google Ads] モバイルアプリの使用をお勧めします | Search, Social, &amp; Commerceでは利用できません。 | — |
-
-<!--
-
->[!MORELIKETHIS]
->
->* [View your publisher recommendations and performance insights](recommendation-view.md)
->* [Apply or dismiss a publisher recommendation](recommendation-apply-dismiss.md)
->* [View the publisher recommendations log for an account](recommendation-view-log.md)
->* [Best practices for using publisher recommendations with portfolios](recommendation-best-practices.md)
-
--->

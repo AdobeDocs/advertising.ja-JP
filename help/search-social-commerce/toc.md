@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
 workflow-type: tm+mt
-source-wordcount: 2329
+source-wordcount: 2309
 ht-degree: 2%
 
 ---
@@ -79,6 +79,7 @@ ht-degree: 2%
    + [新しいユーザーインターフェイスについて](/help/search-social-commerce/new-ui/new-ui-about.md)
    + ダッシュボード {#dashboard}
       + [パフォーマンスダッシュボードを見る](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
+      + [メディア企業のレコメンデーションとインサイトのサポート](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
    + 目標 {#goals}
       + 課題 {#objectives}
          + [目標について](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
@@ -133,8 +134,9 @@ ht-degree: 2%
          + [[!UICONTROL Ads] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + レポート {#reports}
       + スケジュールレポート {#scheduled}
-         + [レポートの初期設定タスク](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
-         + [レポートに使用するデータ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
+         + [スケジュールレポートについて](/help/search-social-commerce/new-ui/reports/report-about.md)
+         + [レポートの初期設定タスク](/help/search-social-commerce/new-ui/reports/initial-setup.md)
+         + [レポートに使用するデータ](/help/search-social-commerce/new-ui/reports/data-used-for-reports.md)
          + [スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
          + スケジュール済みレポートタイプ {#report-types}
             + 基本レポートと詳細レポート {#basic-advanced-reports}
