@@ -2,8 +2,15 @@
 title: （新しいUI）予定レポートについて
 description: 利用可能な様々なレポートタイプやレポートの自動化方法など、スケジュールされたパフォーマンスレポートについて説明します。
 feature: Search Reports
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: e246c273-d720-4ece-b29b-7aaba7d50169id: c916feea-e212-4773-b673-4daed287b8a3id: adcb1be7-7ed0-464d-a8d4-c905c9d47742id: ff99aaef-142d-4c93-a88c-011e979e3843id: fa0141e5-dc99-4fbd-9c0e-40aff66de606id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
+  - id: c916feea-e212-4773-b673-4daed287b8a3
+  - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+  - id: ff99aaef-142d-4c93-a88c-011e979e3843
+  - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+  - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
 source-git-commit: bd4246ec79684167254a153d2f3d0b917a493096
 workflow-type: tm+mt
 source-wordcount: 857
@@ -25,21 +32,21 @@ ht-degree: 0%
 
 | レポートカテゴリ | 説明 |
 | ----| ---- |
-| [!UICONTROL Basic Reports] | [すべてのユーザーが利用できる基本レポート ](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)では、ポートフォリオ、広告ネットワークアカウント、特定の広告ネットワークアカウント、キャンペーン、広告グループ、広告、広告、キーワード、製品グループ、ラベル分類とラベル値、入札単位の制約、およびネットワークの制約の実際のコストとクリックデータを表示します。 該当する広告ネットワークから請求されるクリック数に基づいています。オプションで、コンバージョンデータや作成した他の指標を含めることができます。 |
-| [!UICONTROL Advanced Reports] | [高度なレポート ](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)では、広告の設定にinsightが追加されています。これにより、地理的なターゲティングやネットワークの設定を変更することで、どのようなメリットを得られるかを特定できます。 また、キャンペーンおよびポートフォリオ管理ビューにおけるコンバージョンデータや、広告主の内部コンバージョン追跡データに対するレポートの検証にも役立ちます。 |
-| [!UICONTROL Assist Reports] | [ アシストレポート ](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)は、広告主のすべてのキーワードと広告のコンバージョンパスに関するインサイトを提供します。 Adobe Advertisingコンバージョントラッキングサービスを通じて取得したデータを使用し、サービスを提供する広告主に対してのみ生成できます。 |
-| [!UICONTROL Specialty Reports] | [特殊レポート ](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-about.md)は、（Adobe Advertising トラッキングではなく）広告ネットワークによって収集されたデータで構成されます。 |
-| [!UICONTROL Model Accuracy Reports] | [ モデル精度レポート ](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-about.md)は、ポートフォリオの入札、キャンペーン予算、入札戦略目標の最適化に使用されるコストと収益モデルの精度を示します。 |
+| [!UICONTROL Basic Reports] | [すべてのユーザーが利用できる基本レポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)では、ポートフォリオ、広告ネットワークアカウント、特定の広告ネットワークアカウント、キャンペーン、広告グループ、広告、広告、キーワード、製品グループ、ラベル分類とラベル値、入札単位の制約、およびネットワークの制約の実際のコストとクリックデータを表示します。 該当する広告ネットワークから請求されるクリック数に基づいています。オプションで、コンバージョンデータや作成した他の指標を含めることができます。 |
+| [!UICONTROL Advanced Reports] | [高度なレポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)では、広告の設定にinsightが追加されています。これにより、地理的なターゲティングやネットワークの設定を変更することで、どのようなメリットを得られるかを特定できます。 また、キャンペーンおよびポートフォリオ管理ビューにおけるコンバージョンデータや、広告主の内部コンバージョン追跡データに対するレポートの検証にも役立ちます。 |
+| [!UICONTROL Assist Reports] | [&#x200B; アシストレポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)は、広告主のすべてのキーワードと広告のコンバージョンパスに関するインサイトを提供します。 Adobe Advertisingコンバージョントラッキングサービスを通じて取得したデータを使用し、サービスを提供する広告主に対してのみ生成できます。 |
+| [!UICONTROL Specialty Reports] | [特殊レポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-about.md)は、（Adobe Advertising トラッキングではなく）広告ネットワークによって収集されたデータで構成されます。 |
+| [!UICONTROL Model Accuracy Reports] | [&#x200B; モデル精度レポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-about.md)は、ポートフォリオの入札、キャンペーン予算、入札戦略目標の最適化に使用されるコストと収益モデルの精度を示します。 |
 
 ## レポートの自動作成
 
 次のいずれかの方法または両方で、カスタマイズされたレポートを自動的に生成するようにスケジュールします。
 
-* [ レポートテンプレート ](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)を使用して、毎日、または特定の曜日または月にレポートを自動生成します。
+* [&#x200B; レポートテンプレート &#x200B;](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)を使用して、毎日、または特定の曜日または月にレポートを自動生成します。
 
-  オプションで、テンプレートを使用する基本レポートと詳細レポート ](/help/search-social-commerce/new-ui/reports/ftp-reports.md)の[FTP配信を設定できます。
+  オプションで、テンプレートを使用する基本レポートと詳細レポート [&#128279;](/help/search-social-commerce/new-ui/reports/ftp-reports.md)のFTP配信を設定できます。
 
-* [ スプレッドシート フィード ](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)を使用して、カスタマイズしたスプレッドシート テンプレートを毎日のパフォーマンスデータで更新し続けます。
+* [&#x200B; スプレッドシート フィード &#x200B;](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)を使用して、カスタマイズしたスプレッドシート テンプレートを毎日のパフォーマンスデータで更新し続けます。
 
 ## [!UICONTROL Scheduled Reports] ビュー
 
@@ -66,6 +73,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ レポートの初期設定タスク ](initial-setup.md)
->* [ レポートに使用されるデータ ](data-used-for-reports.md)
->* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [&#x200B; レポートの初期設定タスク &#x200B;](initial-setup.md)
+>* [&#x200B; レポートに使用されるデータ &#x200B;](data-used-for-reports.md)
+>* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
