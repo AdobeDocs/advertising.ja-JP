@@ -4,9 +4,15 @@ user-guide-title: Adobe Advertising Search, Social & Commerce ガイド
 user-guide-description: このガイドでは、検索、ソーシャル、コマース広告キャンペーンを管理、追跡およびレポートするために必要な主要機能、タスク、設定およびその他のリソースについて説明します。
 breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
-source-git-commit: 1da750a4b26fd4fe90c2552f2dc91fb1575019ab
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: 2329
 ht-degree: 2%
 
 ---
@@ -82,6 +88,10 @@ ht-degree: 2%
          + [目的に合わせて体重を推奨する](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
          + [目的のパフォーマンス指標のダウンロード](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
          + [客観的設定](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
+         + [広告ネットワークへの目標のアップロードを有効にする](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
+      + コンバージョン数 {#conversions}
+         + [広告主のコンバージョン指標のパフォーマンスデータを管理および表示する](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+      + [コンバージョン値ルールの管理 [!DNL Google Ads] 件](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
    + プラン {#plan}
       + [シミュレーションについて](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
       + [カスタムシミュレーションの実行または再実行](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
@@ -204,6 +214,7 @@ ht-degree: 2%
          + [広告ネットワークアカウントについて](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
          + API接続アカウント {#api}
             + [API接続による広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
+            + [&#x200B; [!DNL Google Ads]  マネージャーアカウントの資格情報の管理](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
             + [API接続を介した広告ネットワークデータの手動同期](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/sync-api-accounts.md)
          + データアップロードアカウント {#data-upload}
             + [データのアップロード用の広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)

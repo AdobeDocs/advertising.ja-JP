@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: 1499
+source-wordcount: 1506
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ ht-degree: 0%
 
    * **[!UICONTROL Objectives]**&#x200B;新しい[!UICONTROL Objectives] ビューを開きます。このビューから、既存のすべての目標を表示したり、目標を作成、編集、削除したりできます。
 
-<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
+   * **[!UICONTROL Conversions]**&#x200B;新しいビューを開きます。このビューから、広告主のコンバージョン指標を表示し、管理ビューとレポートで使用できる指標をカスタマイズできます。
 
-* **[!UICONTROL Conversion Value Rules]** キャンペーンレベルおよびアカウントレベルのコンバージョン値ルールの読み取り専用ビューを開きます。 コンバージョン値ルールを管理するには、従来の[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+   * **[!UICONTROL Conversion Value Rules]** [!DNL Google Ads] アカウントのキャンペーンレベルおよびアカウントレベルのコンバージョン値ルールを表示および管理するための新しいビューを開きます。
 
-* **[!UICONTROL Constraints]**&#x200B;既存の制約の読み取り専用ビューを開きます。 制約を管理するには、従来の[!UICONTROL Optimization] > [!UICONTROL Constraints] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+   * **[!UICONTROL Constraints]**&#x200B;既存の制約の読み取り専用ビューを開きます。 制約を管理するには、従来の[!UICONTROL Optimization] > [!UICONTROL Constraints] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
 * **[!UICONTROL Plan]** サブメニュー：
 

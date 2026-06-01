@@ -2,9 +2,16 @@
 title: 広告主のコンバージョン指標の管理
 description: Adobe Advertisingが広告主に対して追跡するコンバージョン指標の使用方法について説明します。
 feature: Conversions
-source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: 937
 ht-degree: 0%
 
 ---
@@ -23,7 +30,7 @@ ht-degree: 0%
 
 * Adobe Advertisingが広告主向けに追跡するコンバージョン指標。
 
-* [&#x200B; コンバージョンとサイトエンゲージメントの指標がAdobe Analyticsから同期されました](/help/integrations/analytics/analytics-data-in-advertising.md)。
+* [&#x200B; コンバージョンとサイトエンゲージメントの指標がAdobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md)から同期されました。
 
 * [&#x200B; サイトイベントがAdobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)から同期されました。
 
