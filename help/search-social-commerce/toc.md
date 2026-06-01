@@ -32,10 +32,10 @@ ht-degree: 2%
    + [サポートされているインベントリ](/help/search-social-commerce/introduction/supported-inventory.md)
    + Adobe CX Enterpriseとの連携 {#integrations}
       + [Adobe CX Enterpriseのソリューションおよびサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising]  （リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
-      + [Adobe Audience Managerとの連携（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
-   + [消費者のプライバシーのサポート（リンク）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-   + [ポリシーとガイドライン（リンク）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising]  （リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja){target="_blank"}
+      + [Adobe Audience Managerとの連携（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ja){target="_blank"}
+   + [消費者のプライバシーのサポート（リンク）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
+   + [ポリシーとガイドライン（リンク）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=ja){target="_blank"}
 + Adobe Experience Managerの導入方法 {#getting-started}
    + [導入の概要](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [必要システム構成](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -117,8 +117,8 @@ ht-degree: 2%
          + [[!UICONTROL Portfolios] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + キャンペーン {#campaigns}
          + [[!UICONTROL Campaigns] ビューについて](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [キャンペーンのポートフォリオへの割り当て](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio){target="_blank"}
-         + [ポートフォリオからのキャンペーンの削除](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio){target="_blank"}
+         + [キャンペーンのポートフォリオへの割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio){target="_blank"}
+         + [ポートフォリオからのキャンペーンの削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio){target="_blank"}
          + [キャンペーンの制約の割り当ての管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [[!UICONTROL Campaigns] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
          + [キャンペーンのステータスの変更](/help/search-social-commerce/new-ui/manage/campaigns/campaign-change-status.md)
@@ -199,8 +199,8 @@ ht-degree: 2%
                + [モデル精度レポート設定](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
          + [レポートテンプレートの管理](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
          + [レポートへのFTP アクセス](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
-         + [アトリビューションルールの計算方法](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
-         + [カスタムレポートに関するFAQ](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
+         + [アトリビューションルールの計算方法](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
+         + [カスタムレポートに関するFAQ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [スプレッドシート レポート フィードの管理](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
       + [変更履歴ログを表示](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [ラベル分類の管理](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
@@ -240,13 +240,13 @@ ht-degree: 2%
             + [&#x200B; [!DNL Yahoo! Japan Ads]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [&#x200B; [!DNL Yandex]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [クリックトラッキング URLのオプションのトラッキングパラメーター](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising cookie （リンク）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
+      + [Adobe Advertising cookie （リンク）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ja){target="_blank"}
       + [AMO ID （s_kwcid） トラッキングパラメーター](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + コンバージョンの追跡 {#conversion-tracking}
       + [コンバージョン追跡オプション](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Adobe Advertisingのコンバージョン追跡 {#advertising-conversion-tracking}
          + [Adobe Advertisingのコンバージョントラッキングタグについて](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-         + [Adobe Advertising コンバージョンタグの生成と実装](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
+         + [Adobe Advertising コンバージョンタグの生成と実装](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
          + [JavaScript コンバージョントラッキングタグバージョン 3のフォーマット](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [JavaScript コンバージョントラッキングタグバージョン 2のフォーマット](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [画像変換トラッキングタグの形式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
