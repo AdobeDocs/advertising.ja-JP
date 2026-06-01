@@ -19,12 +19,12 @@ ht-degree: 0%
 
    * [すべてのコンバージョン指標を表示](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#view-the-conversion-metrics-tracked-for-an-advertiser)。
 
-   * [ コンバージョン指標](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#change-the-display-name-for-a-conversion-metric)の表示名を変更します。
+   * [&#x200B; コンバージョン指標](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#change-the-display-name-for-a-conversion-metric)の表示名を変更します。
 
    * [管理ビュー、目標、レポートで使用できるコンバージョン指標を変更する](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#change-the-conversion-metrics-available-in-management-views-objectives-and-reports)。
 
-   * [ コンバージョンのパフォーマンスデータをダウンロード ](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#manage-performance-data-reports-for-conversions)。
+   * [&#x200B; コンバージョンのパフォーマンスデータをダウンロード &#x200B;](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#manage-performance-data-reports-for-conversions)。
 
 * 個々の[!DNL Google Ads] アカウントで追跡されるリードの[!DNL Google Ads]拡張コンバージョンのコンバージョンアクションを作成します。
 
-* 1st パーティのオフラインのコンバージョンデータをアップロードして、既存の[[!DNL Google Ads] 拡張コンバージョンにマッピングし、リード ](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)と[[!DNL Microsoft Advertising] 拡張コンバージョン ](https://help.ads.microsoft.com/#apex/ads/en/60178)を作成します。
+* 1st パーティのオフラインのコンバージョンデータをアップロードして、既存の[[!DNL Google Ads] 拡張コンバージョンにマッピングし、リード &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)と[[!DNL Microsoft Advertising] 拡張コンバージョン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178)を作成します。

@@ -29,7 +29,7 @@ Search、Social、およびCommerceでクロスアカウントコンバージョ
 
 1. 広告ネットワークを選択し、**[!UICONTROL Next]**&#x200B;をクリックします。
 
-1. [ マネージャーアカウント設定](#manager-account-settings)を指定します。
+1. [&#x200B; マネージャーアカウント設定](#manager-account-settings)を指定します。
 
 1. **[!UICONTROL Authenticate]**&#x200B;をクリックし、マネージャーアカウントの資格情報を使用してログインします。
 
@@ -47,7 +47,7 @@ Search、Social、およびCommerceでクロスアカウントコンバージョ
 
    * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、 （/help/search-social-commerce/assets/edit-new.png「編集」をクリック）をクリックします。
 
-1. [ マネージャーアカウント設定](#manager-account-settings)を編集します。
+1. [&#x200B; マネージャーアカウント設定](#manager-account-settings)を編集します。
 
 1. **[!UICONTROL Re-Authenticate]**&#x200B;をクリックし、マネージャーアカウントの資格情報を使用してログインします。
 
