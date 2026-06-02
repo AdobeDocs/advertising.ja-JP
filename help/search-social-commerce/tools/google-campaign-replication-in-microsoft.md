@@ -1,21 +1,23 @@
 ---
-title: ' [!DNL Google Ads] での [!DNL Microsoft Advertising] キャンペーンのレプリケート'
+title: ' [!DNL Microsoft Advertising]での [!DNL Google Ads]  キャンペーンのレプリケート'
 description: 同期されたキャンペーンを [!DNL Google Ads]  アカウントで同期された [!DNL Microsoft Advertising]  アカウントに直接書き出す方法について説明します。
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
 TQID: https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: 977
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads]での[!DNL Microsoft Advertising] キャンペーンのレプリケート
+# [!DNL Microsoft Advertising]での[!DNL Google Ads] キャンペーンのレプリケート
+
+>[!NOTE]
+>
+>新しいUI内のこのタスクの手順は、「（新しいUI） [ レプリケート  [!DNL Google Ads]  キャンペーンを [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)で使用できます」で確認できます。
 
 同期したキャンペーンを[!DNL Google Ads] アカウントで直接、同期した[!DNL Microsoft Advertising] アカウントに拡張CPC （eCPC） キャンペーンとして書き出すことができます。 既存の入札額とキャンペーン予算が拡張されます。 既存の検索、ソーシャル、Commerce トラッキングは読み込まれません。
 
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 * [!DNL Google Ads]件の検索および表示キャンペーンを[!DNL Microsoft Advertising]件の検索および表示キャンペーンに追加しました。
 
-* Microsoft Audience Networkの[!DNL Google Display Network]個のオーディエンスキャンペーンに、広告画像を含む[!DNL Microsoft Advertising]個のキャンペーンを追加しました。
+* Microsoft Audience Networkの[!DNL Microsoft Advertising]個のオーディエンスキャンペーンに、広告画像を含む[!DNL Google Display Network]個のキャンペーンを追加しました。
 
   ショッピング フィード ベースの表示キャンペーンをレプリケートする場合は、まず[!DNL Google Merchant Center]製品オファーを[!DNL Microsoft Merchant Center]にレプリケートします。 キャンペーンをレプリケートする場合は、読み込みオプションで[!DNL Microsoft Merchant Center] ストアを選択して、ストアをフィードベースのオーディエンスキャンペーンにリンクします。
 
@@ -31,7 +33,7 @@ ht-degree: 0%
 
 キャンペーンは、1回、毎週毎週または毎月更新するか、[!DNL Microsoft Advertising]の推奨スケジュールに従って更新することができます。 インポートジョブが実行されるたびに、またはエラーや変更が発生するたびに、オプションで通知を設定できます。 キャンペーンを[!DNL Microsoft Advertising]に読み込むと、読み込みジョブのステータスを確認したり、エラーログを確認したり、読み込みジョブを手動で実行したり、読み込みスケジュールを編集、一時停止、有効、削除したりできます。
 
-すべてのキャンペーン情報がレプリケートされるわけではなく、[!DNL Microsoft Advertising] キャンペーンに一部の情報を追加する必要がある場合があります。 どのデータが読み込まれるかについて詳しくは、「[!DNL Microsoft Advertising]何が[&#x200B; [!DNL Google Ads]から読み込まれるか」の](https://help.ads.microsoft.com/#apex/ads/en/50851) ヘルプを参照してください。 検索、ソーシャル、およびCommerce トラッキングは読み込まれないので、[account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)、[campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[ad group](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)、[ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)の設定でもトラッキングを追加する必要があります。
+すべてのキャンペーン情報がレプリケートされるわけではなく、[!DNL Microsoft Advertising] キャンペーンに一部の情報を追加する必要がある場合があります。 どのデータが読み込まれるかについて詳しくは、「[何が [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851)から読み込まれるか」の[!DNL Microsoft Advertising] ヘルプを参照してください。 検索、ソーシャル、およびCommerce トラッキングは読み込まれないので、[account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)、[campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[ad group](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)、[ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)の設定でもトラッキングを追加する必要があります。
 
 ## [!DNL Google Ads]件のキャンペーンを複製
 
@@ -39,7 +41,7 @@ ht-degree: 0%
 >
 >ショッピング フィード ベースの表示キャンペーンを複製する場合は、まず[で [!DNL Google Merchant Center] 製品オファーを [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870)に複製します。 キャンペーンをレプリケートする場合は、インポートオプションで[!DNL Microsoft Merchant Center] ストアを選択して、ストアをフィードベースのオーディエンスキャンペーンにリンクします。
 
-[&#x200B; キャンペーン  [!DNL Google Ads] からインポートされたものを](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)確認してください。
+ [!DNL Google Ads]  キャンペーン ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)からインポートされたものを[確認してください。
 
 1. Search, Social, &amp; Commerce メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
@@ -67,13 +69,13 @@ ht-degree: 0%
 
 ## キャンペーン読み込みジョブのスケジュール設定の編集
 
-[&#x200B; キャンペーン  [!DNL Google Ads] からインポートされたものを](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)確認してください。
+ [!DNL Google Ads]  キャンペーン ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)からインポートされたものを[確認してください。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
 1. インポートジョブの横にあるチェックボックスを選択し、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
 
-1. **[!UICONTROL Set schedule]** セクションで、[&#x200B; スケジュール設定](#campaign-import-settings)を指定します。
+1. **[!UICONTROL Set schedule]** セクションで、[ スケジュール設定](#campaign-import-settings)を指定します。
 
 1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
@@ -87,7 +89,7 @@ ht-degree: 0%
 
      デフォルトでは、ビューは[!UICONTROL List of Import Jobs] タブに開きます。
 
-   * [[!UICONTROL Import Logs] タブ &#x200B;](#campaign-import-log)から、「**[!UICONTROL List of Import Jobs]**」タブをクリックします。
+   * [[!UICONTROL Import Logs] タブ ](#campaign-import-log)から、「**[!UICONTROL List of Import Jobs]**」タブをクリックします。
 
 ## キャンペーン読み込みジョブの実行
 
