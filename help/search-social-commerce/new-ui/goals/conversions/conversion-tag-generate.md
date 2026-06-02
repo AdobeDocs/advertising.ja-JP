@@ -71,13 +71,13 @@ ht-degree: 0%
 
 Adobe Experience Platformのタグを使用して、検索、ソーシャル、Commerceのコンバージョントラッキングを設定できます。 Adobe CX Enterpriseをご利用のお客様は、同梱の付加価値機能としてタグを利用できます。
 
-Experience Platform ユーザーインターフェイスまたはExperience Platform Data Collection ユーザーインターフェイスから、Search、Social、Commerceのコンバージョントラッキングタグを設定するには、次のタスクが必要です。 タグの設定の詳細と手順については、「[Tags overview](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)」および「[&#x200B; クイックスタートガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)」で始まるExperience Platform タグガイドを参照してください。
+Experience Platform ユーザーインターフェイスまたはExperience Platform Data Collection ユーザーインターフェイスから、Search、Social、Commerceのコンバージョントラッキングタグを設定するには、次のタスクが必要です。 タグの設定の詳細と手順については、「[Tags overview](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)」および「[&#x200B; クイックスタートガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/get-started/quick-start)」で始まるExperience Platform タグガイドを参照してください。
 
 >[!PREREQUISITES]
 >
 >必要なタグ拡張機能をインストールするには、組織の管理者に対して、`manage_properties`権限を含むUIのデータ収集機能へのアクセス権を求めます。
 
-1. [Data Collection UI](https://experience.adobe.com/#/data-collection/)から、Adobe Advertising [拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)をインストールします。
+1. [Data Collection UI](https://experience.adobe.com/#/data-collection/)から、Adobe Advertising [拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/ui/extensions/overview)をインストールします。
 
    1. 該当するプロパティから、拡張機能カタログを開き、**Adobe Advertising**&#x200B;を選択します。
 
@@ -125,7 +125,7 @@ Experience Platform ユーザーインターフェイスまたはExperience Plat
 
          **変換プロパティ名：**&#x200B;変換プロパティの名前（例：`form_completes`）。
 
-         **値：** コンバージョンプロパティの数値（form_completesを追跡する`1`など）、または既存の[&#x200B; データ要素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)を選択します。
+         **値：** コンバージョンプロパティの数値（form_completesを追跡する`1`など）、または既存の[&#x200B; データ要素](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/ui/data-elements)を選択します。
 
       1. 「**変更を保持**」をクリックします。
 
