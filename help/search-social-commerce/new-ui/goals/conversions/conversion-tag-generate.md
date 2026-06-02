@@ -1,22 +1,21 @@
 ---
-title: Adobe Advertisingのコンバージョン追跡タグを生成して実装する
+title: （新しいUI） Adobe Advertising コンバージョントラッキングタグの生成と実装
 description: Adobe Advertisingのコンバージョンタグを作成して、コンバージョンイベントをトラッキングする方法について説明します。
-exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
 source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertisingのコンバージョン追跡タグを生成して実装する
+# （新しいUI） Adobe Advertising コンバージョントラッキングタグの生成と実装
 
 *Adobe Advertising コンバージョントラッキングのみを使用する広告主*
 
 追跡する指標のセットごとに個別のコンバージョンタグを作成します。 Search、Social、Commerceでタグを生成するか、Adobe Experience Platform（旧Adobe Experience Platform Launch）のタグとAdobe Advertising拡張機能を使用してタグを生成できます。
 
-## （新しいUI） Search, Social, &amp; Commerce内でコンバージョントラッキングタグを生成して実装する
+## Search, Social, &amp; Commerce内でコンバージョントラッキングタグを生成して実装します
 
 >[!NOTE]
 >
@@ -67,64 +66,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >このリストに追加された指標は、どこにも保存されないか、[!UICONTROL Admin] タブのクライアントの[!UICONTROL Conversions] リストと統合されていません。 ただし、Adobe Advertisingが実際に指標のデータを収集すると、指標がクライアントの[!UICONTROL Conversions] リストに自動的に追加されます。これは、コンバージョンタグがページに実装され、エンドユーザーがそのページを開くトランザクションを完了したときに発生します。
-
-## （従来のUI） Search, Social, &amp; Commerce内でコンバージョントラッキングタグを生成して実装する
-
->[!NOTE]
->
->この機能は、広告主のweb ページに画像タグまたは[!DNL JavaScript] タグを追加しません。 広告主または代理店に、各タグを挿入するweb ページのリストを提供します。 タグは、web ページを更新するための広告主の通常の手順に従って追加する必要があります。
-
-1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]**&#x200B;をクリックします。
-
-1. [&#x200B; コンバージョンタグ設定](#conversion-tag-settings-legacy)を指定します。
-
-1. タグを生成：
-
-   * Web サイトでHTTPを使用している場合は、**[!UICONTROL Generate Conversion Tag]**&#x200B;をクリックします。
-
-   * Web サイトが安全なサーバー（HTTPS）で実行されている場合は、**[!UICONTROL Generate Secure Conversion Tag]**&#x200B;をクリックします。
-
-1. ダイアログボックスからタグをコピーし、必要に応じて適切なweb ページに貼り付けます。
-
->[!NOTE]
->
->新しいコンバージョンタグの各指標は、実装されていない場合やweb ページでクリックが行われていない場合でも、[!UICONTROL Admin] > [!UICONTROL Conversions]に自動的に一覧表示されます。 この動作は、手動または他の場所で作成されたタグ内の指標の動作とは異なり、そのタグ内のweb ページの1つがクリックされるまで[!UICONTROL Admin] > [!UICONTROL Conversions]にリストされません。 ただし、いずれの場合も、明示的に使用可能になるまで、各指標は最初にポートフォリオ目標、レポート、ビューから除外されます。 ただし、指標をポートフォリオ目標に追加する前に、まず指標を使用可能にし、クリックを受け取ったタイミングを検証するためにレポートに追加することを検討してください。
-
-### Adobe Advertising変換タグ設定 {#conversion-tag-settings-legacy}
-
-**[!UICONTROL Tag Type]:**&#x200B;作成するタグの種類：
-
-* *[!UICONTROL Image]:*&#x200B;画像タグを作成して、エンドユーザーには見えない1 ピクセル x 1 ピクセルの透明画像（ピクセル）をweb ページに表示します。 ベストプラクティスは、JavaScript タグの使用に対するポリシーがサイトにある場合にのみ、画像タグを使用することです。
-
-* *[!UICONTROL JavaScript]:* JavaScript タグを作成するには。
-
-タグタイプの違いについて詳しくは、「[Adobe Advertising コンバージョンとページビューのトラッキングタグに関するよくある質問](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)」を参照してください。
-
-**[!UICONTROL Tag Properties]:** エンドユーザーがコンバージョンタグを含むページを表示したときに追跡される1つ以上のコンバージョン指標。 リストに指標を追加するには、「[!UICONTROL Add new property]」フィールドに指標の名前を入力し、**[!UICONTROL Add]**&#x200B;をクリックします。
-
-複数の指標が追跡されると、タグ内の`ev_Property1=<Property1>&ev_Property2=<Property2>`などのアンパサンド （`&`）によって結合されます。
-
->[!NOTE]
->
->このリストに追加された指標は、どこにも保存されないか、[!UICONTROL Admin] タブのクライアントの[!UICONTROL Conversions] リストと統合されていません。 ただし、Adobe Advertisingが実際に指標のデータを収集すると、指標がクライアントの[!UICONTROL Conversions] リストに自動的に追加されます。これは、コンバージョンタグがページに実装され、エンドユーザーがそのページを開くトランザクションを完了したときに発生します。
-
-**[!UICONTROL Include unique transaction IDs]:** （オプション）トランザクション ID プロパティ （`ev_transid=<transid>`）がタグに含まれます。 このオプションはデフォルトで選択されています。
-
-このオプションを選択すると、広告主は、トランザクションが完了したときに`<transid>`の一意の値（実際の注文IDなど）を生成し、`ev_transid=0123`などのAdobe Advertisingに渡す必要があります。 Adobe Advertisingでは、トランザクション IDを使用して、同じトランザクション IDとプロパティ値を持つ重複するトランザクションを削除します。 トランザクション IDに、パラメーター区切り記号として予約されているアンパサンド記号（`&`）を含めることはできません。 トランザクション IDは[the [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)に含まれており、Search, Social, &amp; Commerce内のデータを広告主のデータで検証するために使用できます。
-
-データにトランザクションごとに一意のIDが含まれていない場合でも、Adobe Advertisingはトランザクション時間に基づいて一意のIDを生成します。
-
->[!NOTE]
->
->オフライン コンバージョン用のコンバージョンデータを含む[&#x200B; トランザクション ID フィード &#x200B;](/help/search-social-commerce/tracking/feed-transaction-id.md)を送信する場合、トランザクションのオフライン部分のフィード データ内のトランザクションのオンライン部分のトランザクション ID （`ev_transid`）を送信する必要があります。
-
-**[!UICONTROL Page is inside FB app]:**&#x200B;が廃止されました
-
-**[!UICONTROL Segment users]:**&#x200B;が廃止されました
-
-**[!UICONTROL JS Version]:** （[!DNL JavaScript] タグのみ）作成する[!DNL JavaScript] タグのバージョン：*[!UICONTROL v2]* （デフォルト）または&#x200B;*[!UICONTROL v3]*。
-
-「[Adobe Advertising コンバージョンとページビューのトラッキングタグに関するよくある質問](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)」を参照してください。 違いに関する詳細については、こちらを参照してください。
 
 ## Adobe Experience PlatformタグとAdobe Advertising拡張機能を使用して、コンバージョントラッキングタグを実装する
 
@@ -195,10 +136,7 @@ Experience Platform ユーザーインターフェイスまたはExperience Plat
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising コンバージョントラッキングタグについて](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [&#x200B; トラッキングタグを作成およびデコードするツールについて](tracking-tools-about.md)
->* コンバージョンとページビューのトラッキングタグに関する[FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [JavaScript コンバージョントラッキングタグバージョン 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)の形式
 >* [JavaScript コンバージョントラッキングタグバージョン 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)の形式
 >* [画像コンバージョントラッキングタグの形式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 >* [Adobe Advertising JavaScript コンバージョンマッピングタグ &#x200B;](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
->* [広告主のコンバージョン指標の管理について](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)

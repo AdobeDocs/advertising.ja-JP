@@ -2,9 +2,14 @@
 title: （新しいUI） コンバージョン指標を管理するために利用できる機能
 description: コンバージョン指標の管理に使用できるさまざまな機能について説明します。
 feature: Conversions
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+source-git-commit: fe6aa2856831433f9b0673d0cc1e35e92f1728de
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: 114
 ht-degree: 0%
 
 ---
@@ -13,7 +18,7 @@ ht-degree: 0%
 
 [!UICONTROL Goals] > [!UICONTROL Conversions] ビューから、次の操作を実行できます。
 
-* [Adobe Advertising コンバージョントラッキングタグを生成](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
+* [Adobe Advertising コンバージョン追跡タグの生成](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
 
 * 広告主で追跡されているすべてのコンバージョン指標の場合：
 
@@ -25,6 +30,6 @@ ht-degree: 0%
 
    * [&#x200B; コンバージョンのパフォーマンスデータをダウンロード &#x200B;](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#manage-performance-data-reports-for-conversions)。
 
-* 個々の[!DNL Google Ads] アカウントで追跡されるリードの[!DNL Google Ads]拡張コンバージョンのコンバージョンアクションを作成します。
+* [&#x200B; リード &#x200B;](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)の強化コンバージョンの [!DNL Google Ads]  コンバージョンアクションを作成し、個々の[!DNL Google Ads] アカウントで追跡します。
 
-* 1st パーティのオフラインのコンバージョンデータをアップロードして、既存の[[!DNL Google Ads] 拡張コンバージョンにマッピングし、リード &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)と[[!DNL Microsoft Advertising] 拡張コンバージョン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178)を作成します。
+* [&#x200B; ファーストパーティのオフラインコンバージョンデータ &#x200B;](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)をアップロードして、既存の[!DNL Google Ads]強化コンバージョンと[[!DNL Microsoft Advertising] 強化コンバージョン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178)にマッピングします。

@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+source-git-commit: fe6aa2856831433f9b0673d0cc1e35e92f1728de
 workflow-type: tm+mt
-source-wordcount: 2309
+source-wordcount: 2342
 ht-degree: 2%
 
 ---
@@ -91,7 +91,12 @@ ht-degree: 2%
          + [客観的設定](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
          + [広告ネットワークへの目標のアップロードを有効にする](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
       + コンバージョン数 {#conversions}
+         + [コンバージョン指標を管理するために利用できる機能](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
+         + [Adobe Advertisingのコンバージョン追跡タグを生成して実装する](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
          + [広告主のコンバージョン指標のパフォーマンスデータを管理および表示する](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+         + コンバージョンの向上 {#enhanced-conversions}
+            + [リードの [!DNL Google Ads] 強化コンバージョンのコンバージョンアクションを作成します](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
+            + [オフラインのコンバージョンデータをアップロードしてコンバージョンを向上](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
       + [コンバージョン値ルールの管理 [!DNL Google Ads] 件](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
    + プラン {#plan}
       + [シミュレーションについて](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
