@@ -10,16 +10,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
 workflow-type: tm+mt
-source-wordcount: 207
+source-wordcount: 208
 ht-degree: 0%
 
 ---
 
 # 新しいユーザーインターフェイスについて
 
-新しいユーザーインターフェイス（UI）から、目的、シミュレーション、ポートフォリオを管理したり、その他多くのタスクを実行したりできるようになりました。 新しい検索、ソーシャル、およびCommerce UIは、`https://experience.adobe.com` ドメイン内の新しいURLで実行されます。
+新しいユーザーインターフェイス（UI）から、目的、シミュレーション、ポートフォリオを管理したり、その他のほとんどの主要タスクを実行したりできるようになりました。 新しい検索、ソーシャル、およびCommerce UIは、`https://experience.adobe.com` ドメイン内の新しいURLで実行されます。
 
 時間の経過とともに、残りの機能が新しいUIに追加されます。 また、新しいUIのメインメニューから、従来のUIのほとんどの機能を開くことができます。 新しいUIと従来のUIを簡単に切り替えることもできます。
 
