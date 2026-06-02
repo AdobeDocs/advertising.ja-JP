@@ -2,9 +2,9 @@
 title: （新しいUI）通知の管理
 description: プッシュ通知やNotification Center web アプリケーションなど、Search、Social、およびCommerce通知を表示、設定、管理する方法について説明します。
 feature: Search Notifications
-source-git-commit: 000ed245b2ea3381e4ca8fcbdd2d6075d50f4b09
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1711'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Manager Account Missing]**:Search、Social、およびCommerceに[ad network manager アカウント &#x200B;](/help/search-social-commerce/admin/manager-accounts.md)の資格情報が不足していることを知らせる通知。これは、重要な機能を正しく設定するために必要です。<!-- Moving to Campaign Management > Setup Errors at some point -->
 
-   * **[!UICONTROL UI Actions]**：バックグラウンドで実行されたジョブが完了または失敗したことを通知します。 ジョブタイプには、[&#x200B; バルクシートジョブ &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->、データテーブル内の一括編集ジョブ、またはツールバー、エンティティ割り当てジョブ、ユーザーインターフェイス内のその他のアクション（広告ネットワークとの同期、行のペースト、エンティティの名前の変更など）が含まれます。 エンティティの割り当ては、任意のエンティティに[&#x200B; ラベル分類値](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)を割り当てまたは割り当て解除、キャンペーンのポートフォリオへの割り当て、および制約のポートフォリオへの割り当てまたは割り当て解除を含みます。
+   * **[!UICONTROL UI Actions]**：バックグラウンドで実行されたジョブが完了または失敗したことを通知します。 ジョブタイプには、[&#x200B; バルクシートジョブ &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->、データテーブル内の一括編集ジョブ、またはツールバー、エンティティ割り当てジョブ、ユーザーインターフェイス内のその他のアクション（広告ネットワークとの同期、行のペースト、エンティティの名前の変更など）が含まれます。 エンティティの割り当ては、任意のエンティティに[&#x200B; ラベル分類値](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)を割り当てたり割り当てを解除したり、キャンペーンをポートフォリオに割り当てたり、[入札制約をエンティティに割り当てたり割り当てを解除したりします](/help/search-social-commerce/new-ui/goals/constraints-manage.md)。
 
    * [!UICONTROL Data Upload]
 

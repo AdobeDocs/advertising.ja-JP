@@ -2,9 +2,9 @@
 title: 検索入札単位の制約の管理
 description: 従来のキーワードレベルのポートフォリオで、CPC キャンペーンの入札単位の入札を制限する制約について説明します。
 feature: Search Campaign Management, Search Optimization
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: ade0f3ada440b76555b60af97162f7abe454fa0f
 workflow-type: tm+mt
-source-wordcount: '2649'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* アクティブな制約は、最適化された従来のキーワードレベルのポートフォリオで、割り当てられた入札単位のみに対して入札を制限します。 ハイブリッドポートフォリオ内の入札単位やアクティブなポートフォリオ内の入札単位、またはポートフォリオ内にない入札単位では無視されます。 **ヒント：** ポートフォリオ設定で、「キャンペーンの予算制限を自動調整」に対するポートフォリオオプションをオンにします。 推奨される「複数」の値は「1」です。
-> * 入札制限は、コストと収益モデルを生成するのに十分なデータがない入札単位では無視されます。
+>* 入札制限は、コストと収益モデルを生成するのに十分なデータがない入札単位では無視されます。
 >* （CPCまたはeCPC入札戦略を使用したキャンペーン）入札制約がポートフォリオレベルの入札制限と競合する場合、その制約はポートフォリオレベルの入札制限を上書きします。 例えば、ポートフォリオの最低入札額が5 USDであるが、ポートフォリオの入札単位を3 USDの最低入札額に制限する場合、入札単位は3 USD以上に入札されます。 ただし、制限付き入札単位の全体的な支出は、ポートフォリオの[&#x200B; 「制約を中心に支出」パラメーター](#spend-around-constraints)によって決定されます。
 >* 制約はベース入札で動作します。 基本入札に対する入札調整（モバイルデバイス上のエンドユーザーの入札の引き上げなど）は、入札を制約の許容範囲から外すことができます。 たとえば、制約で最大CPCが6 USDである場合、基本入札はすでに6 USDで、ポートフォリオはモバイルデバイスの入札調整を50%～60%に自動最適化しているため、最大CPCは6 USDではなく9.00～9.60 USDです。
 
@@ -172,19 +172,18 @@ ht-degree: 0%
 
 ## 検索入札単位への制約の割り当て {#constraint-assign}
 
-入札単体の制約は、任意のキャンペーン、広告グループ、キーワード、プレースメント、単位レベル（サブディビジョンの最下位レベル）、または動的検索ターゲットに適用できます。
+入札単位の制約は、キャンペーン、広告グループ、キーワード、プレースメント、または動的検索ターゲット（自動ターゲット）に適用できます。
 
 各エンティティには1つの制約しか設定できません。 1つの拘束を1つまたは複数のエンティティに同時に割り当てることができます。
 
 >[!NOTE]
 >
->後で広告のキーワードまたは広告コピーを編集して、新しいキーワードまたは広告を作成した場合、制約は新しいエンティティに割り当てられません。
+>* 後で広告のキーワードまたは広告コピーを編集して、新しいキーワードまたは広告を作成した場合、制約は新しいエンティティに割り当てられません。
+>* [[!UICONTROL Campaigns] ビュー](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)、[[!UICONTROL Ad Groups] ビュー](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords] ビュー](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)、または[[!UICONTROL Placements] ビュー](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)で同じ手順を参照してください。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. メインメニューから、関連する管理ビューを開きます。
 
    例えば、キャンペーンレベルで制約を割り当てるには、[!UICONTROL Manage] > [!UICONTROL Campaigns]に移動します。
-
-   <!-- for [campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [ad groups](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [keywords](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md), or [placements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). And ADD LINKS WHEN AVAILABLE for shopping product groups and dynamic search targets. -->
 
 1. （オプション）ツールバー[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列の見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)からリスト をフィルタリングします。
 
@@ -198,7 +197,10 @@ ht-degree: 0%
 
 ## 検索入札単位からの制約の割り当て解除 {#constraints-unassign}
 
-**メモ：**&#x200B;制約を削除して後で使用できないようにするには、「[制約のステータスを変更](#constraint-change-status)」を参照してください。
+>[!NOTE]
+>
+>* 制約を削除して後で使用できないようにするには、「[制約のステータスを変更](#constraint-change-status)」を参照してください。
+>* [[!UICONTROL Campaigns] ビュー](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)、[[!UICONTROL Ad Groups] ビュー](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords] ビュー](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)、または[[!UICONTROL Placements] ビュー](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)で同じ手順を参照してください。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. メインメニューで、関連する管理ビューを開きます。
 

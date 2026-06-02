@@ -2,7 +2,7 @@
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: データ列を含む予測精度レポートについて説明します。
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >* コスト予測の場合、過去7日間で10%の偏差は許容できると考えられるため、予測された支出の90%から110%の実際の支出は問題ありません。 売上予測については、過去7日間で15%の偏差が許容できると見なされるので、実際の売上は予測された支出の85%から115%の間です。 より大きな偏差を持つ予測を調査する必要があります。
 >
->* ポートフォリオ内のキーワードが入札シフトの制約に関連付けられている場合、入札シフトによって引き起こされる合計金額だけポートフォリオが過小支出または過小支出になります。 その結果、予測コスト列は、目標支出から増減した支出で逸脱する。
+>* ポートフォリオ内のキーワードが[入札シフト制約](/help/search-social-commerce/new-ui/goals/constraints-manage.md)に関連付けられている場合、入札シフトによって発生した合計金額だけポートフォリオが超過または超過します。 その結果、予測コスト列は、目標支出から増減した支出で逸脱する。
 
 ## 使用可能な列
 
