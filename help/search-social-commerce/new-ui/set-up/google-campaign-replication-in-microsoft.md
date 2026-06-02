@@ -36,7 +36,7 @@ ht-degree: 0%
 >
 >ショッピング フィード ベースの表示キャンペーンを複製する場合は、まず[で [!DNL Google Merchant Center] 製品オファーを [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870){target="_blank"}に複製します。 キャンペーンをレプリケートする場合は、インポートオプションで[!DNL Microsoft Merchant Center] ストアを選択して、ストアをフィードベースのオーディエンスキャンペーンにリンクします。
 
- [!DNL Google Ads]  キャンペーン ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}からインポートされたものを[確認してください。
+ [!DNL Google Ads]  キャンペーン [&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}からインポートされたものを確認してください。
 
 1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## キャンペーン読み込みジョブのスケジュール設定の編集
 
- [!DNL Google Ads]  キャンペーン ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}からインポートされたものを[確認してください。
+ [!DNL Google Ads]  キャンペーン [&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}からインポートされたものを確認してください。
 
 1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 1. 読み込みジョブの名前をクリックし、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. **[!UICONTROL Set schedule]** ステップで、[ スケジュール設定](#campaign-import-settings)を指定します。
+1. **[!UICONTROL Set schedule]** ステップで、[&#x200B; スケジュール設定](#campaign-import-settings)を指定します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
