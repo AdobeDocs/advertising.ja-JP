@@ -1,11 +1,17 @@
 ---
 title: （新しいUI） [!UICONTROL Ads] ビューからのデータビューレポートの管理
-description: レポートの[!UICONTROL Ads] ビューの1つ以上の広告のデータ行を含むレポートを生成、ダウンロード、削除する方法について説明します。
+description: '[!UICONTROL Ads] ビューの1つ以上の広告のデータ行を含むレポートを生成、ダウンロード、削除する方法について説明します。'
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -62,6 +68,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [について[!UICONTROL Ads view]](ad-view-about.md)
->* [&#x200B; （レガシーUI） キャンペーン管理ビューからデータをダウンロード &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
->* [&#x200B; （従来のUI） [!UICONTROL Downloads] メニュー](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)からパフォーマンス データ レポートまたはバルクシート ファイルを削除します
+>* [&#x200B; （新しいUI） [!UICONTROL Ads view]](ad-view-about.md)について
+>* [&#x200B; （新しいUI）広告のステータスを変更](ad-change-status.md)
