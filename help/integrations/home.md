@@ -1,6 +1,6 @@
 ---
 title: 新機能
-description: Adobe Advertisingと、Adobe CX Enterprise（旧Adobe Experience Cloud）のその他の製品およびサービスとの統合に関するアップデートについて説明します。
+description: Adobe CX Enterprise （旧Adobe Experience Cloud）における、Adobe Advertisingとその他の製品およびサービスとの統合に関するアップデートについて説明します。
 cloud: Experience Cloud
 product: advertising cloud
 index: true
@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
-source-wordcount: 870
+source-wordcount: 962
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年6月3日（PT） | [!DNL Adobe Analytics for Advertising] | Advertising Creativeおよび[!DNL Adobe Analytics for Advertising]を使用している広告主は、Adobe Analyticsでバリアント レベルおよびブランチ レベルのデータを表示できるようになりました。 [!DNL Creative] エクスペリエンスから広告を実行するために使用されるDSPに関係なく、データが表示されます。 Advertising DSPのプレースメントから広告を実行する場合は、キャンペーンレベルおよびプレースメントレベルのデータと、コスト関連の指標も表示されます。<br><br>追加の設定は必要ありません。 | [!DNL Analytics]に表示されているAdvertising Creative [&#x200B; トラフィック指標](https://experienceleague.adobe.com/ja/docs/analytics/components/metrics/amo-metrics)および[分類](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#classifications)を参照してください。 |
 | 2025年9月8日（PT） | Customer Journey Analyticsとの連携 | （Beta機能）Customer Journey Analyticsを使用しているが[!DNL Analytics for Advertising]ではない広告主は、[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)を使用して、Adobe AdvertisingとCustomer Journey Analytics間でデータをネイティブに交換できるようになりました。 | 「[Adobe AdvertisingとCustomer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)の連携の概要」を参照してください。 |
 | 2025年3月26日（PT） | [!DNL Adobe Analytics for Advertising] | （検索、ソーシャル、およびCommerceを使用する広告主、[!DNL Microsoft Advertising] アカウント、および[!DNL Adobe Analytics for Advertising]） [!UICONTROL Auto Upload] トラッキングオプションを使用するアカウントの場合、すべてのキャンペーンタイプのランディングページサフィックスのAMO ID パラメーターのフォーマットが、最新のフォーマットに更新されました。 以前は、ほとんどのアカウントのパフォーマンスの最大キャンペーンは新しい形式に移行されていました。<br><br>新しい形式に移行されていない[!UICONTROL Auto Upload]追跡オプションを持たないアカウントの場合、新しいAMO ID形式を含めるには、各ランディングページのサフィックスを手動で更新する必要があります。<br><br>現在の形式：`s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}` | 「[概要 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)」および[AMO ID形式](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items)を参照してください。」 |
 | 2024年11月13日（PT） | [!DNL Analytics for Advertising] | （広告主が[!DNL Analytics for Advertising]とAdobe Customer Journey Analyticsを使用している場合）予約済み変数を使用してAMO IDとEF IDを取得する場合は、AMO IDとEF IDの予約済み変数をできるだけ早く標準[!DNL eVars]にコピーすることで、Adobe AdvertisingとAdobe Customer Journey Analyticsの間の今後の統合に備えることができます。 これにより、タスクを完了するとすぐにAMO IDとEF IDの履歴データの収集が可能になり、履歴データは今後の使用に利用できるようになります。 予約済み変数を使用しており、このタスクを完了する必要がある場合は、Adobe アカウントチームから通知されます。 | 「[Adobe Customer Journey Analyticsで使用するAMO IDとEF IDの履歴データを収集する](/help/integrations/analytics/rvars-to-evars.md)」を参照してください。 |
