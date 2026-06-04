@@ -2,10 +2,9 @@
 title: （新しいUI） Microsoft AdvertisingでのGoogle Ads キャンペーンのレプリケート
 description: Google Ads アカウント内の同期済みキャンペーンを、同期済みMicrosoft Advertising アカウントに直接書き出す方法について説明します。
 feature: Search Campaign Management
-exl-id: d4f8e452-7b3d-4a1f-9c3e-6b8d2e5a4917
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+source-git-commit: e6649d66757333660662a058410221b73a45e6cc
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -36,7 +35,7 @@ ht-degree: 0%
 >
 >ショッピング フィード ベースの表示キャンペーンを複製する場合は、まず[で [!DNL Google Merchant Center] 製品オファーを [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870){target="_blank"}に複製します。 キャンペーンをレプリケートする場合は、インポートオプションで[!DNL Microsoft Merchant Center] ストアを選択して、ストアをフィードベースのオーディエンスキャンペーンにリンクします。
 
- [!DNL Google Ads]  キャンペーン [&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}からインポートされたものを確認してください。
+ [!DNL Google Ads]  キャンペーン ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}からインポートされたものを[確認してください。
 
 1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
@@ -44,37 +43,21 @@ ht-degree: 0%
 
 1. [読み込み設定](#campaign-import-settings)を指定します。
 
-   1. **[!UICONTROL Select accounts]** ステップで：
-
-      1. インポート ジョブの名前を&#x200B;**[!UICONTROL Import Name]** フィールドに入力します。
-
-      1. ソース [!DNL Google Ads] アカウントとターゲット [!DNL Microsoft Advertising] アカウントを選択します。
-
-      1. **[!UICONTROL Credential ID]**&#x200B;を入力します。 資格情報IDをお持ちでない場合は、Adobe アカウントチームにお問い合わせください（[!DNL Microsoft Advertising]の制限により、自動生成は利用できません）。
-
-      1. **[!UICONTROL Next]**&#x200B;をクリックします。
-
-   1. **[!UICONTROL Select campaigns & ad groups]** ステップで、読み込むキャンペーンと広告グループを指定し、**[!UICONTROL Next]**&#x200B;をクリックします。
-
-   1. **[!UICONTROL Customize your import]** ステップで、必要に応じてアイテムの種類、入札設定および予算設定、およびその他の読み込みオプションを指定し、**[!UICONTROL Next]**&#x200B;をクリックします。
-
-   1. **[!UICONTROL Set schedule]** ステップで、インポートジョブを実行するタイミングと通知の受信方法を指定します。
+1. 右上の「**[!UICONTROL Review and Save]**」をクリックします。
 
 1. 概要で選択内容を確認し、**[!UICONTROL Start Import]**&#x200B;をクリックします。
 
-1. （オプション）検索、ソーシャル、およびCommerce トラッキングを[account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)、[campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[ad group](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)、または[ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)の設定内に追加します。
+1. （オプション）検索、ソーシャル、およびCommerce トラッキングを[account](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)、[campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[ad group](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)、または[ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)の設定内に追加します。
 
 ## キャンペーン読み込みジョブのスケジュール設定の編集
 
- [!DNL Google Ads]  キャンペーン [&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}からインポートされたものを確認してください。
+ [!DNL Google Ads]  キャンペーン ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}からインポートされたものを[確認してください。
 
 1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL Jobs]**」タブをクリックします。
+1. 「**[!UICONTROL List of Import Jobs]**」タブで、読み込みジョブの名前をクリックし、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. 読み込みジョブの名前をクリックし、**[!UICONTROL Edit]**&#x200B;をクリックします。
-
-1. **[!UICONTROL Set schedule]** ステップで、[&#x200B; スケジュール設定](#campaign-import-settings)を指定します。
+1. **[!UICONTROL Set schedule]** ステップで、[ スケジュール設定](#campaign-import-settings)を指定します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -84,15 +67,13 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
-   ビューはデフォルトで&#x200B;**[!UICONTROL Jobs]** タブに開きます。
+   ビューはデフォルトで&#x200B;**[!UICONTROL List of Import Jobs]** タブに開きます。
 
 ## キャンペーン読み込みジョブの実行
 
 1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL Jobs]**」タブをクリックします。
-
-1. 読み込みジョブの横にあるチェックボックスを選択し、**[!UICONTROL Run Now]**&#x200B;をクリックします。
+1. 「**[!UICONTROL List of Import Jobs]**」タブで、インポートジョブの横にあるチェックボックスを選択し、「**[!UICONTROL Run Now]**」をクリックします。
 
 ## キャンペーン読み込みジョブのログの表示 {#campaign-import-log}
 
@@ -100,13 +81,13 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL Logs]**」タブをクリックします。
+1. 「**[!UICONTROL Import Logs]**」タブをクリックします。
 
 1. （オプション）任意のインポート ジョブの詳細を表示するには、[!UICONTROL Summary]列の値をクリックします。
 
 ## Campaign インポートジョブ設定 {#campaign-import-settings}
 
-### [!UICONTROL Select accounts]
+### [!UICONTROL Select Accounts] タブ
 
 **[!UICONTROL Import Name]:**&#x200B;読み込みジョブを識別する名前。
 
@@ -116,7 +97,7 @@ ht-degree: 0%
 
 **[!UICONTROL Credential ID]:** [!DNL Microsoft Advertising]が[!DNL Google Ads]資格情報を表すために使用するID。 [!DNL Microsoft Advertising]個の制限があるため、インポート用の[!DNL Microsoft Advertising]資格情報の自動生成は使用できません。 Adobeのアカウントチームに連絡すると、チームが資格情報を生成し、IDを提供します。
 
-### [!UICONTROL Select campaigns & ad groups]
+### [!UICONTROL Select Campaigns & Ad Groups] タブ
 
 **\[ インポートするデータ\]:** インポートするデータ：
 
@@ -128,9 +109,9 @@ ht-degree: 0%
 
    * キャンペーンまたは広告グループを選択するには、チェックマークが表示されるようにアイテムを選択します。
 
-   * キャンペーンまたは広告グループを削除するには、項目の選択を解除するか、[!UICONTROL Selected]列の削除アイコンをクリックします。
+   * キャンペーンまたは広告グループを削除するには、項目の選択を解除するか、[!UICONTROL Selection]列の![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
 
-### [!UICONTROL Customize your import]
+### [!UICONTROL Customize Your Import] タブ
 
 **[!UICONTROL Choose specific import options]:**&#x200B;読み込む内容、入札と予算、その他のオプションを指定できます。
 
@@ -140,7 +121,7 @@ ht-degree: 0%
 
 **[!UICONTROL Other options]:**&#x200B;読み込まれたランディングページ URL、トラッキングテンプレート、その他のキャンペーン、広告、ターゲット設定の処理方法を定義します。これには、テキストを検索して置換したり、サフィックスを挿入したりするオプションが含まれます。
 
-### [!UICONTROL Set schedule]
+### [!UICONTROL Set Schedule] タブ
 
 **[!UICONTROL When]:**&#x200B;指定したキャンペーンを読み込むタイミング：*自動* （[!DNL Microsoft Advertising]がキャンペーンを最適にスケジュールを設定できるようにする）、*[!UICONTROL Now]* （ジョブ設定を投稿する際にジョブを実行する）、*[!UICONTROL Once]*、指定した時間に&#x200B;*[!UICONTROL Daily]*、指定した時間に&#x200B;*[!UICONTROL Weekly]*、指定した時間に&#x200B;*[!UICONTROL Monthly]*。
 
