@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Upload]**&#x200B;をクリックします。
 
-タスクが開始されると、ファイルは[!UICONTROL Bulksheets] ビューに表示されます。 バルクシートのメール通知が[!UICONTROL Notification Center] [&#128279;](/help/search-social-commerce/new-ui/notifications/notification-manage.md)内で有効になっている場合、ジョブが完了すると、ファイルへのリンク付きのメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 ファイルの生成に失敗した場合、エラーファイルが[!UICONTROL Bulksheets] ビューに表示され、エラーファイルへのリンクを含むメール通知が送信されます。
+タスクが開始されると、ファイルは[!UICONTROL Bulksheets] ビューに表示されます。 バルクシートのメール通知が[!UICONTROL Notification Center] [&#128279;] (/help/search-social-commerce/new-ui/notifications/notification-manage.md)内で有効になっている場合、ジョブが完了すると、ファイルへのリンク付きのメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 ファイルの生成に失敗した場合、エラーファイルが[!UICONTROL Bulksheets] ビューに表示され、エラーファイルへのリンクを含むメール通知が送信されます。
 
 >[!NOTE]
 >
