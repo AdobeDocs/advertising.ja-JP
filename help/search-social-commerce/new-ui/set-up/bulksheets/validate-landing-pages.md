@@ -57,7 +57,7 @@ ht-degree: 0%
 
    **[!UICONTROL Report redirects as errors]:** ランディングページが別のページにリダイレクトされる場合（ランディングページが見つからず、サイトに代替ページが表示される場合など）、ランディングページエラーファイルの[!UICONTROL EF Errors]列は、ランディングページがリダイレクトされるURLを示します。
 
-タスクが開始されると、新しい行が[!UICONTROL Bulksheets] ビューに追加されます。 バルクシートのメール通知が[!UICONTROL Notification Center] [&#128279;](/help/search-social-commerce/new-ui/notifications/notification-manage.md)内で有効になっている場合、ファイルの作成時に、ファイルへのリンクを含むメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 ファイルをダウンロードして編集し、投稿のために再アップロードするか、ファイルをそのまま投稿できます。
+タスクが開始されると、新しい行が[!UICONTROL Bulksheets] ビューに追加されます。 バルクシートのメール通知が[!UICONTROL Notification Center] [&#128279;] (/help/search-social-commerce/new-ui/notifications/notification-manage.md)内で有効になっている場合、ファイルの作成時に、ファイルへのリンクを含むメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 ファイルをダウンロードして編集し、投稿のために再アップロードするか、ファイルをそのまま投稿できます。
 
 >[!NOTE]
 >
