@@ -38,7 +38,7 @@ ht-degree: 0%
 
    同じ設定が、投稿するすべてのファイルに適用されます。
 
-タスクが開始されると、行のステータスとスケジュールされた投稿日が[!UICONTROL Bulksheets] ビューで更新されます。 バルクシートのメール通知が[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications/notification-manage.md)内で有効になっている場合、ファイルの投稿時に、ファイルへのリンクを含むメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 いずれかのデータを投稿できない場合は、エラーファイルが[!UICONTROL Bulksheets] ビューに表示され、エラーファイルへのリンクを含むメール通知が送信されます。
+タスクが開始されると、行のステータスとスケジュールされた投稿日が[!UICONTROL Bulksheets] ビューで更新されます。 バルクシートのメール通知が[!UICONTROL Notification Center] [&#128279;](/help/search-social-commerce/new-ui/notifications/notification-manage.md)内で有効になっている場合、ファイルの投稿時に、ファイルへのリンクを含むメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 いずれかのデータを投稿できない場合は、エラーファイルが[!UICONTROL Bulksheets] ビューに表示され、エラーファイルへのリンクを含むメール通知が送信されます。
 
 >[!NOTE]
 >
