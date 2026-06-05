@@ -4,17 +4,13 @@ description: すべての認定広告サーバーと広告単位を見る。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
 TQID: https://experienceleague.adobe.com/TGGPFaETQVbzVcselZhGcQAGBt7g3pvyjAaQgIFObqs
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a33b121ebf568ae6b95a64a7392672d74603fe60
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: 362
 ht-degree: 0%
 
 ---
@@ -45,7 +41,8 @@ ht-degree: 0%
 | [!DNL Eyereturn] | | X | | | |
 | [!DNL Flashtalking] | X | X | | X | |
 | [!DNL Frequency] | X | | | | |
-| [!DNL GumGum] | | | X | | In-Slot Hangtime: 21x21; In-Slot Hangtime Mobile Video: 22x22; In-Slot Hangtime Desktop: 24x24; In-Slot Hoverboard: 25x25; In-Slot Velocity: 26x26; Super Skin: 29x29; In-Screen Expandable Corner: 20x20 |
+| [!DNL GumGum] | | X | X | | In-Slot Hangtime: 21x21; In-Slot Hangtime Mobile Video: 22x22; In-Slot Hangtime Desktop: 24x24; In-Slot Hoverboard: 25x25; In-Slot Velocity: 26x26; Super Skin: 29x29; In-Screen Expandable Corner: 20x20 |
+| [!DNL Gum Gum via Celtra] | | X | X | | In-Screen: 17x17; In-Screen Expandable: 18x18; In-Screen Expandable Video: 19x19; In-Screen Frame: 23x23; In-Screen Velocity: 26x26 |
 | [!DNL HUMAN] （旧称[!DNL White Ops]） | X | X | | X | |
 | [!DNL IAS] | X | X | | X | |
 | [!DNL IBM] | | X | | X | |
