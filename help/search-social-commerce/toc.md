@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+source-git-commit: 6474daed0ea0dc7b13fff847f6c327e4e5788dde
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: 2416
 ht-degree: 2%
 
 ---
@@ -229,6 +229,17 @@ ht-degree: 2%
             + [データのアップロード用の広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [トラッキング専用の [!DNL Naver]  アカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
       + [&#x200B; [!DNL Microsoft Advertising]での [!DNL Google Ads]  キャンペーンのレプリケート](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)
+      + Bulksheets {#bulksheets}
+         + [バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)
+         + [バルクシートをアップロードするためのFTP アカウントの設定](/help/search-social-commerce/new-ui/set-up/bulksheets/ftp-account.md)
+         + [バルクシートファイルのダウンロード/作成](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)
+         + [バルクシートファイルでのランディングページの検証](/help/search-social-commerce/new-ui/set-up/bulksheets/validate-landing-pages.md)
+         + [生成またはアップロードされたバルクシートファイルの書き出し](/help/search-social-commerce/new-ui/set-up/bulksheets/export.md)
+         + [バルクシートまたは修正されたエラーファイルのアップロード](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md)
+         + [バルクシートの後またはエラーファイルの修正](/help/search-social-commerce/new-ui/set-up/bulksheets/post.md)
+         + [バルクシートエラー](/help/search-social-commerce/new-ui/set-up/bulksheets/errors.md)
+         + [アップロードされたバルクシートとエラーファイルの削除](/help/search-social-commerce/new-ui/set-up/bulksheets/delete.md)
+         + [進行中のバルクシート ジョブの停止](/help/search-social-commerce/new-ui/set-up/bulksheets/stop-job.md)
    + [カスタムアラートの管理](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [通知の管理](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [ユーザー管理](/help/search-social-commerce/new-ui/user-administration.md)
