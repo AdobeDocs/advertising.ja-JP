@@ -9,14 +9,14 @@ subfeature_v2:
   - id: d068b149-b9d1-421c-9033-a51495366ddc
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 937
+source-wordcount: 932
 ht-degree: 0%
 
 ---
 
-# （新しいUI）広告主のコンバージョン指標のパフォーマンスデータを管理および表示する
+# （新しいUI）広告主のコンバージョン指標の管理
 
 *Beta機能*
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
       1. （指標を非表示にするには）確認メッセージで「**[!UICONTROL Confirm]**」をクリックし、指標を含む派生指標から指標を削除するなど、指標を非表示にします。
 
-## コンバージョンのパフォーマンスデータレポートの管理
+## コンバージョンの可視化とソースレポートの管理
 
 トラッキング対象コンバージョンに関する次の情報をダウンロードできます。同期済み指標名、Search、Social、およびCommerce管理ビューおよびレポート内の指標の表示名、指標が管理ビューおよびレポートに表示されているかどうか、コンバージョン ID、および指標ソース。 データを[!DNL Microsoft Excel] ワークブック （XLSX ファイル）形式のファイルにダウンロードします。
 

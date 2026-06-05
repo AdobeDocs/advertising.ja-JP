@@ -6,9 +6,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 357
+source-wordcount: 352
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 新規ユーザーは、次の初期設定タスクを実行する必要があります。
 
-* Adobe Advertisingが広告主向けにトラッキングしているコンバージョン指標をレポートやその他のビューで使用できるようにし、必要に応じて、列見出しに表示されるコンバージョン指標の名前を変更して読みやすくします。 「[広告主のコンバージョン指標のパフォーマンスデータの管理と表示](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)」を参照してください。
+* Adobe Advertisingが広告主向けにトラッキングしているコンバージョン指標をレポートやその他のビューで使用できるようにし、必要に応じて、列見出しに表示されるコンバージョン指標の名前を変更して読みやすくします。 「[広告主のコンバージョン指標の管理](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)」を参照してください。
 
   トランザクションプロパティは、特に使用可能にしない限り、レポートでは使用できません。
 

@@ -2,9 +2,9 @@
 title: （新しいUI） Adobe Advertising コンバージョントラッキングタグの生成と実装
 description: Adobe Advertisingのコンバージョンタグを作成して、コンバージョンイベントをトラッキングする方法について説明します。
 feature: Search Tools, Search Tracking
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 追跡する指標のセットごとに個別のコンバージョンタグを作成します。 Search、Social、Commerceでタグを生成するか、Adobe Experience Platform（旧Adobe Experience Platform Launch）のタグとAdobe Advertising拡張機能を使用してタグを生成できます。
 
-## Search, Social, &amp; Commerce内でコンバージョントラッキングタグを生成して実装します
+## Search, Social, &amp; Commerce内でコンバージョントラッキングタグを生成する
 
 >[!NOTE]
 >
