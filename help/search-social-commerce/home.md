@@ -18,9 +18,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+source-git-commit: f5aece05b41143c241ae0899f9d3ed3a0bed4c54
 workflow-type: tm+mt
-source-wordcount: 4687
+source-wordcount: 4731
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年6月9日（PT） | Adobe Customer Journey Analyticsとの連携 | Customer Journey Analyticsを使用しているが[!DNL Analytics for Advertising]ではない広告主は、Adobe Experience Platform [!DNL Web SDK]を使用してAdobe AdvertisingとCustomer Journey Analytics間でデータをネイティブに交換できます。 | 「[Adobe AdvertisingとCustomer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)の連携の概要」を参照してください。 |
 | 2026年5月28日（PT） | 新規UI | スケジュール済みレポート、スプレッドシート フィード、バルクシート、ネットワークマネージャーアカウント、および[!DNL Spend Planner] （旧称「[!DNL Spend Recommendations]」）など、ほとんどの機能が新しいUIで利用できるようになりました。 | 「[&#x200B; ユーザーインターフェイスの構成方法](/help/search-social-commerce/getting-started/user-interface.md)」および「新しいUI」の章を参照してください。 |
 | 2026年2月25日（PT） | [!UICONTROL Reports] | [!UICONTROL Google AI Max Search Term Combination Report]は、[!DNL Google Ads AI Max]が検索ネットワーク内の検索に基づいて使用する特定の広告の組み合わせとランディングページのパフォーマンスを示します。 | 「[The [!UICONTROL Google AI Max Search Term Combination Report]](/help/search-social-commerce/reports/management/specialty/google-ai-max-search-term-combination-report.md)」を参照してください。 |
 | | 新しいUI > [!UICONTROL Portfolio]設定 | [!UICONTROL Manage Constraints] タブで、設定「[!UICONTROL Reserve a percentage of the spend target for each campaign]」の名前が「[!UICONTROL Set Campaign Spend Allocation Limits]」に変更され、すべての予算戦略を持つポートフォリオで使用できるようになりました。 以前は、毎日の支出戦略を持つポートフォリオでのみ利用可能でした。<br><br>この設定を使用すると、キャンペーンの支出比率を指定できます。 例えば、ポートフォリオの予算の25%～40%をキャンペーン Aに、最小10%をキャンペーン Bに、最大50%をキャンペーン Cに割り当てることができます。合計は100%を超えることはできません。 | ポートフォリオ設定について詳しくは、Search, Social, &amp; Commerce内から使用できる[!DNL Optimization Guide]を参照してください。 |

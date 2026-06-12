@@ -16,9 +16,9 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
+source-git-commit: 5a926d18f634eb08b6fd329d6b6ba90a8f91d991
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: 191
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
   データセットへの接続を設定し、レポートを設定するには、社内のweb アナリストのサポートが必要です。
 
-* Adobe Experience Platform data modeling and management technologies （[&#x200B; スキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)および[&#x200B; データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)を含む）および[&#x200B; データ収集テクノロジー](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/home) （[&#x200B; データストリーム &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/overview)および[&#x200B; タグ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)を含む）
+* （広告主が[!DNL Analytics for Advertising]）Adobe Experience Platform データモデリングおよび管理テクノロジー（[&#x200B; スキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)および[&#x200B; データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)を含む）および[&#x200B; データ収集テクノロジー](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/home) （[&#x200B; データストリーム &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/overview)および[&#x200B; タグ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)を含む）
 
   これらのテクノロジには、Experience Platform サイト管理者のサポートが必要です。
 

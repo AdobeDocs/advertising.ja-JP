@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c62a18194544bcbe98117b86eccb1b5e2740999c
+source-git-commit: e208432cf19b2661fbce58a898a123bb1224c32b
 workflow-type: tm+mt
-source-wordcount: 1804
+source-wordcount: 1789
 ht-degree: 0%
 
 ---
@@ -31,17 +31,15 @@ ht-degree: 0%
 
 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)を使用してAdobe AdvertisingとCustomer Journey Analytics間でデータをネイティブに交換するには、次のタスクが必要です。 データの転送とアトリビューションはローンチ後に開始されます。履歴データは含まれません。
 
-1. （組織のweb アナリスト、オプション） [AMO IDとEF IDの履歴データを収集](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}。
+これらのタスクは、[!DNL Analytics for Advertising]を持つ広告主には必要ありません。
 
-   この手順は、[!DNL Analytics for Advertising]の広告主にのみ適用されます。
+1. （組織のAdobe Experience Platform サイト管理者） [Experience Platformでデータ収集を設定し、コンバージョン トラッキング タグを実装する](#data-collection)。
 
-2. （組織のAdobe Experience Platform サイト管理者） [Experience Platformでデータ収集を設定し、コンバージョン トラッキング タグを実装する](#data-collection)。
+1. （組織のCustomer Journey Analytics サイト管理者） [Customer Journey AnalyticsでExperience Platform データセットへの接続を作成](#dataset-connection)。
 
-3. （組織のCustomer Journey Analytics サイト管理者） [Customer Journey AnalyticsでExperience Platform データセットへの接続を作成](#dataset-connection)。
+1. （組織のweb アナリスト） [Customer Journey Analyticsでデータビューを設定する](#cja-data-views)。
 
-4. （組織のweb アナリスト） [Customer Journey Analyticsでデータビューを設定する](#cja-data-views)。
-
-5. （組織のweb アナリスト） [Customer Journey Analytics Workspaceでレポートとビジュアライゼーションを設定します](#cja-reports)。
+1. （組織のweb アナリスト） [Customer Journey Analytics Workspaceでレポートとビジュアライゼーションを設定します](#cja-reports)。
 
 以下の節では、詳細な手順を示します。これには、統合に必要なタスクと設定が含まれますが、ワークフロー内で使用可能なすべての機能を説明するものではありません。 詳しくは、リンクされたリソースを参照してください。
 
