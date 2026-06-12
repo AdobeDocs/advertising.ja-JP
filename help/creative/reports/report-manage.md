@@ -4,20 +4,14 @@ description: クロスエクスペリエンス [!UICONTROL Custom Creative Repor
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
 TQID: https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 1479
+source-wordcount: 1485
 ht-degree: 0%
 
 ---
@@ -32,7 +26,7 @@ ht-degree: 0%
 
 1. 右上の「**[!UICONTROL Create]**」をクリックします。
 
-1. [&#x200B; レポート設定](#report-settings)を指定します。
+1. [ レポート設定](#report-settings)を指定します。
 
 1. **[!UICONTROL Create Custom Report]**&#x200B;をクリックします。
 
@@ -44,7 +38,7 @@ ht-degree: 0%
 
 1. レポート名の横で、**[!UICONTROL ...]** > **[!UICONTROL Copy]**&#x200B;をクリックします。
 
-1. （オプション）必要に応じて[&#x200B; レポート設定](#report-settings.md)を編集します。
+1. （オプション）必要に応じて[ レポート設定](#report-settings.md)を編集します。
 
    デフォルトでは、レポート名は「\&lt;*既存のレポート名*\> \#2」（またはシーケンス内の次の番号）です。
 
@@ -54,7 +48,7 @@ ht-degree: 0%
 
 1. レポート名の横で、**[!UICONTROL ...]** > **[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. [&#x200B; レポート設定](#report-settings.md)を編集します。
+1. [ レポート設定](#report-settings.md)を編集します。
 
 1. **[!UICONTROL Edit Custom Report]**&#x200B;をクリックします。
 
@@ -82,13 +76,13 @@ ht-degree: 0%
 
    * レポートの最新のインスタンスをダウンロードするには、**[!UICONTROL Download]**&#x200B;をクリックします。
 
-   * （複数のインスタンスを含むレポート） ![の横にある](/help/dsp/assets/chevron-down.png "下向き矢印")下向き矢印[!UICONTROL Download]をクリックし、ダウンロードするレポートの完了日をクリックします。 ダウンロード可能なレポートインスタンスには、ダウンロードアイコン （![ダウンロードアイコン](/help/dsp/assets/indicator-downloadable.png "ダウンロードアイコン")）が表示されます。
+   * （複数のインスタンスを含むレポート） [!UICONTROL Download]の横にある![下向き矢印](/help/dsp/assets/chevron-down.png "下向き矢印")をクリックし、ダウンロードするレポートの完了日をクリックします。 ダウンロード可能なレポートインスタンスには、ダウンロードアイコン （![ダウンロードアイコン](/help/dsp/assets/indicator-downloadable.png "ダウンロードアイコン")）が表示されます。
 
      多数のインスタンスが使用可能な場合は、必要に応じて、リストの下部にある&#x200B;**[!UICONTROL Load More]**&#x200B;をクリックします。
 
      レポートが同じ日に複数回実行されると、その日のレポートインスタンスが時系列でリストされ、最新のインスタンスが上に表示されます。
 
-     失敗したレポートジョブには、エラーアイコン（![&#x200B; エラーインジケーター](/help/dsp/assets/indicator-critical.png " エラーインジケーター")）が表示され、ダウンロードできません。 エラーアイコンの上にカーソルを置くと、エラーの説明が表示されます。
+     失敗したレポートジョブには、エラーアイコン（![ エラーインジケーター](/help/dsp/assets/indicator-critical.png " エラーインジケーター")）が表示され、ダウンロードできません。 エラーアイコンの上にカーソルを置くと、エラーの説明が表示されます。
 
 ## カスタムレポートの削除
 
@@ -130,9 +124,9 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >[&#x200B; ビューから](#report-run-now)いつでも[!UICONTROL Reports] カスタムレポートを実行することもできます。
+  >[!UICONTROL Reports] ビューから[いつでも](#report-run-now) カスタムレポートを実行することもできます。
 
-* *[!UICONTROL On]\&lt;Date\>:* アカウントのタイムゾーンで09:00までに完了するように、指定された日付にレポートを実行します。
+* *[!UICONTROL On]\&lt;日付\>:* アカウントのタイムゾーンで、指定された完了日にレポートを実行します（09:00）。
 
 * *[!UICONTROL Recurring]:*&#x200B;指定した期間内に、スケジュールに従ってレポートを実行します。
 
@@ -226,7 +220,7 @@ ht-degree: 0%
 
 **[!UICONTROL Email]:** （電子メールの宛先タイプのみ）各アドレスについて、アドレスを入力し、**+**&#x200B;をクリックします。
 
-**[!UICONTROL Destination Name]:** （S3、FTP、sFTP、およびFTP SSL宛先タイプのみ）カスタムレポートを送信する[&#x200B; レポート宛先](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"}の名前。
+**[!UICONTROL Destination Name]:** （S3、FTP、sFTP、およびFTP SSL宛先タイプのみ）カスタムレポートを送信する[ レポート宛先](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"}の名前。
 
 * 既存の宛先を指定するには、リストから宛先名を選択します。 複数の宛先名を個別に選択できます。
 
@@ -234,7 +228,7 @@ ht-degree: 0%
 
    1. 「**新しい宛先を追加**」をクリックします。
 
-   1. [&#x200B; レポートの宛先設定](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"}を入力し、**保存**&#x200B;をクリックします。
+   1. [ レポートの宛先設定](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"}を入力し、**保存**&#x200B;をクリックします。
 
    1. レポート設定に戻り、**宛先名を更新をクリックします。**
 
@@ -341,6 +335,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; エクスペリエンスレベルのパフォーマンスレポート &#x200B;](/help/creative/experiences/experience-performance-details.md)
+>* [ エクスペリエンスレベルのパフォーマンスレポート ](/help/creative/experiences/experience-performance-details.md)
 >* [DSP カスタムレポートについて](/help/dsp/reports/report-about.md){target="_blank"}
->* [&#x200B; レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"}
+>* [ レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"}
