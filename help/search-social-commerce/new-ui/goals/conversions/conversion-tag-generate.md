@@ -25,7 +25,7 @@ ht-degree: 0%
 
 1. メインツールバーで、**[!UICONTROL Conversion Tag]**&#x200B;をクリックします。
 
-1. [ コンバージョンタグ設定](#conversion-tag-settings)を指定します。
+1. [&#x200B; コンバージョンタグ設定](#conversion-tag-settings)を指定します。
 
 1. **[!UICONTROL Generate]**&#x200B;をクリックします。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->オフライン コンバージョン用のコンバージョンデータを含む[ トランザクション ID フィード ](/help/search-social-commerce/tracking/feed-transaction-id.md)を送信する場合、トランザクションのオフライン部分のフィード データ内のトランザクションのオンライン部分のトランザクション ID （`ev_transid`）を送信する必要があります。
+>オフライン コンバージョン用のコンバージョンデータを含む[&#x200B; トランザクション ID フィード &#x200B;](/help/search-social-commerce/tracking/feed-transaction-id.md)を送信する場合、トランザクションのオフライン部分のフィード データ内のトランザクションのオンライン部分のトランザクション ID （`ev_transid`）を送信する必要があります。
 
 **[!UICONTROL JS Version]:** （[!DNL JavaScript] タグのみ）作成する[!DNL JavaScript] タグのバージョン：*[!UICONTROL v2]* （デフォルト）または&#x200B;*[!UICONTROL v3]*。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 Adobe Experience Platformのタグを使用して、検索、ソーシャル、Commerceのコンバージョントラッキングを設定できます。 Adobe CX Enterpriseをご利用のお客様は、同梱の付加価値機能としてタグを利用できます。
 
-Experience Platform ユーザーインターフェイスまたはExperience Platform Data Collection ユーザーインターフェイスから、Search、Social、Commerceのコンバージョントラッキングタグを設定するには、次のタスクが必要です。 タグの設定の詳細と手順については、「[Tags overview](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)」および「[ クイックスタートガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)」で始まるExperience Platform タグガイドを参照してください。
+Experience Platform ユーザーインターフェイスまたはExperience Platform Data Collection ユーザーインターフェイスから、Search、Social、Commerceのコンバージョントラッキングタグを設定するには、次のタスクが必要です。 タグの設定の詳細と手順については、「[Tags overview](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)」および「[&#x200B; クイックスタートガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)」で始まるExperience Platform タグガイドを参照してください。
 
 >[!PREREQUISITES]
 >
@@ -125,7 +125,7 @@ Experience Platform ユーザーインターフェイスまたはExperience Plat
 
          **変換プロパティ名：**&#x200B;変換プロパティの名前（例：`form_completes`）。
 
-         **値：** コンバージョンプロパティの数値（form_completesを追跡する`1`など）、または既存の[ データ要素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)を選択します。
+         **値：** コンバージョンプロパティの数値（form_completesを追跡する`1`など）、または既存の[&#x200B; データ要素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)を選択します。
 
       1. 「**変更を保持**」をクリックします。
 
@@ -139,4 +139,4 @@ Experience Platform ユーザーインターフェイスまたはExperience Plat
 >* [JavaScript コンバージョントラッキングタグバージョン 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)の形式
 >* [JavaScript コンバージョントラッキングタグバージョン 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)の形式
 >* [画像コンバージョントラッキングタグの形式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
->* [Adobe Advertising JavaScript コンバージョンマッピングタグ ](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+>* [Adobe Advertising JavaScript コンバージョンマッピングタグ &#x200B;](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)

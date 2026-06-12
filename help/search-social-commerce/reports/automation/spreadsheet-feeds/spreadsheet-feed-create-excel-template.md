@@ -4,9 +4,12 @@ description: 特別な形式のスプレッドシート テンプレートを作
 exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
 TQID: https://experienceleague.adobe.com/bzrRXYVp7SdGXkdLJpJEaHqYIQKx4GF-Cdi5LxqIIa0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 347
@@ -55,10 +58,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ スプレッドシート レポート フィードについて](spreadsheet-feed-about.md)
->* [ スプレッドシート レポート フィードの作成](spreadsheet-feed-create.md)
->* [ スプレッドシート レポート フィード設定の編集](spreadsheet-feed-edit.md)
->* [ スプレッドシート レポート フィード設定](spreadsheet-feed-settings.md)
->* [ スプレッドシート レポート フィード ファイルを表示または保存する](spreadsheet-feed-view-or-save.md)
->* [ スプレッドシート レポート フィードを手動で更新する](spreadsheet-feed-refresh.md)
->* [ スプレッドシート レポート フィードを削除](spreadsheet-feed-delete.md)
+>* [&#x200B; スプレッドシート レポート フィードについて](spreadsheet-feed-about.md)
+>* [&#x200B; スプレッドシート レポート フィードの作成](spreadsheet-feed-create.md)
+>* [&#x200B; スプレッドシート レポート フィード設定の編集](spreadsheet-feed-edit.md)
+>* [&#x200B; スプレッドシート レポート フィード設定](spreadsheet-feed-settings.md)
+>* [&#x200B; スプレッドシート レポート フィード ファイルを表示または保存する](spreadsheet-feed-view-or-save.md)
+>* [&#x200B; スプレッドシート レポート フィードを手動で更新する](spreadsheet-feed-refresh.md)
+>* [&#x200B; スプレッドシート レポート フィードを削除](spreadsheet-feed-delete.md)

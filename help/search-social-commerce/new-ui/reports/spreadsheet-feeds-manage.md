@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## スプレッドシートレポートフィードの作成 {#spreadsheet-feed-create}
 
-1. [ レポートデータを入力する [!DNL Excel]  テンプレートを作成します](#spreadsheet-feed-create-excel-template)。
+1. [&#x200B; レポートデータを入力する [!DNL Excel]  テンプレートを作成します](#spreadsheet-feed-create-excel-template)。
 
 1. スプレッドシート フィードを作成します。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
    1. 右上の「**[!UICONTROL Create Spreadsheet]**」をクリックします。
 
-   1. **[!UICONTROL Create Spreadsheet Feed]** ダイアログで、[ スプレッドシート フィード設定](#spreadsheet-feed-settings)を指定します。
+   1. **[!UICONTROL Create Spreadsheet Feed]** ダイアログで、[&#x200B; スプレッドシート フィード設定](#spreadsheet-feed-settings)を指定します。
 
    1. **[!UICONTROL Submit]**&#x200B;をクリックします。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. （オプション）スプレッドシート フィードに使用されているレポートテンプレートまたは[!DNL Excel] テンプレートを更新するには、次の手順を実行します。
 
-   * （オプション）フィードに別のレポートテンプレートまたは更新されたレポートテンプレートを使用するには、[ レポートテンプレート ](#spreadsheet-feed-create-excel-template)用に新しい [!DNL Excel]  テンプレートを作成します。
+   * （オプション）フィードに別のレポートテンプレートまたは更新されたレポートテンプレートを使用するには、[&#x200B; レポートテンプレート &#x200B;](#spreadsheet-feed-create-excel-template)用に新しい [!DNL Excel]  テンプレートを作成します。
 
      次の手順では、レポートテンプレートと新しい[!DNL Excel] ファイルの両方をアップロードします。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
    1. 一括操作ツールバーで、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-   1. [!UICONTROL Create Spreadsheet Feed]<!-- sic --> ダイアログで、[ スプレッドシート フィード設定](#spreadsheet-feed-settings)を変更します。
+   1. [!UICONTROL Create Spreadsheet Feed]<!-- sic --> ダイアログで、[&#x200B; スプレッドシート フィード設定](#spreadsheet-feed-settings)を変更します。
 
    1. **[!UICONTROL Submit]**&#x200B;をクリックします。
 
