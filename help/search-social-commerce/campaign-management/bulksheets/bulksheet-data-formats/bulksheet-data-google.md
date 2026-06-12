@@ -249,7 +249,7 @@ ht-degree: 0%
 
 ### dynamic search広告を拡張
 
-この広告タイプは、[!DNL Google Ads]で「動的検索広告」と呼ばれるようになりました。 動的検索広告の作成について詳しくは、「[動的検索広告の実装 [!DNL Google Ads] 2&rbrace;」を参照してください。](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)
+この広告タイプは、[!DNL Google Ads]で「動的検索広告」と呼ばれるようになりました。 動的検索広告の作成について詳しくは、「[動的検索広告の実装 [!DNL Google Ads] 2&rbrace;」を参照してください。](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=ja)
 
 この広告タイプでは、[!UICONTROL Download Bulksheet] ダイアログの「[!UICONTROL Creative (except RSA)]」行を使用します。
 
@@ -274,7 +274,7 @@ ht-degree: 0%
 
 ### 製品リスト/ショッピング広告フィールド
 
-ショッピング広告の作成について詳しくは、「[実装 [!DNL Google Ads]  ショッピングキャンペーン &#x200B;](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)」を参照してください。
+ショッピング広告の作成について詳しくは、「[実装 [!DNL Google Ads]  ショッピングキャンペーン &#x200B;](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=ja)」を参照してください。
 
 この広告タイプでは、[!UICONTROL Download Bulksheet] ダイアログの「[!UICONTROL Creative (except RSA)]」行を使用します。
 
