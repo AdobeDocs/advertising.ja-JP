@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: 351
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Search, Social, &amp; Commerceでは、アカウントレベルのランディングページのサフィックスとトラッキングテンプレートを使用して呼び出し専用の広告をトラッキングしますが、[!DNL Google Ads] Manager内の広告レベルでアカウントレベルのトラッキングをオプションで上書きできます。
 
-アカウントごとの[!DNL Google Ads]広告制限[について、](https://support.google.com/google-ads/answer/6372658?hl=en)のヘルプを参照してください。
+アカウントごとの[広告制限](https://support.google.com/google-ads/answer/6372658?hl=en)について、[!DNL Google Ads]のヘルプを参照してください。
 
 <!-- ## Call-only Ad -->
 

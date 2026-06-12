@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 486
+source-wordcount: 489
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. データテーブルの上にあるツールバーで、![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、**[!UICONTROL Copy]**&#x200B;をクリックします。
 
-   または、**[!DNL Ctrl+C]**&#x200B;の[!DNL Microsoft Windows]や&#x200B;**[!DNL Command-C]**&#x200B;の[!DNL Apple Mac]など、オペレーティングシステムの「コピー」キーボードコマンドを使用することもできます。
+   または、[!DNL Microsoft Windows]の&#x200B;**[!DNL Ctrl+C]**&#x200B;や[!DNL Apple Mac]の&#x200B;**[!DNL Command-C]**&#x200B;など、オペレーティングシステムの「コピー」キーボードコマンドを使用することもできます。
 
 1. [!UICONTROL Copy to Clipboard] ダイアログで、**[!UICONTROL Continue]**&#x200B;をクリックします。 データをコピーする準備ができたら、**[!UICONTROL Copy]**&#x200B;をクリックします。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 1. データテーブルの上にあるツールバーで、![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、**[!UICONTROL Paste]**&#x200B;をクリックします。
 
-   または、オペレーティングシステムの「貼り付け」キーボードコマンド（**[!DNL Ctrl+V]**&#x200B;の場合は[!DNL Microsoft Windows]、**[!DNL Command-V]**&#x200B;の場合は[!DNL Apple Mac]）を使用することもできます。
+   または、オペレーティングシステムの「貼り付け」キーボードコマンド（[!DNL Microsoft Windows]の場合は&#x200B;**[!DNL Ctrl+V]**、[!DNL Apple Mac]の場合は&#x200B;**[!DNL Command-V]**）を使用することもできます。
 
 1. 入力ボックスにデータを貼り付け、**[!UICONTROL Process]**&#x200B;をクリックします。
 

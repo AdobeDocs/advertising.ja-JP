@@ -12,7 +12,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 137
+source-wordcount: 136
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 0%
 
 1. （オプション）特定の名前、評価するデータ範囲、またはその他の条件を含む行を含めるようにビューをフィルタリングします。
 
-   ツールバー[からデータフィルター](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)を適用するか、列ヘッダー[から](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)を適用できます。
+   ツールバー[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)からデータフィルター[を適用するか、列ヘッダー](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)からを適用できます。
 
 1. テンプレート名の横にある「![編集](/help/search-social-commerce/assets/edit.png "編集")」をクリックします。
 
-1. [!UICONTROL Update \[Entity Type\] Alert] ウィンドウで、[、](alert-template-settings.md)、および&#x200B;**[!UICONTROL Date Range]** タブの&#x200B;**[!UICONTROL Filters]** アラート設定&#x200B;**[!UICONTROL Scheduling and Delivery]**&#x200B;を編集します。
+1. [!UICONTROL Update \[Entity Type\] Alert] ウィンドウで、**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**、および&#x200B;**[!UICONTROL Scheduling and Delivery]** タブの[&#x200B; アラート設定](alert-template-settings.md)を編集します。
 
    タブ間を移動するには、タブ名（「フィルター」など）をクリックするか、右下の&#x200B;**[!UICONTROL Next]**&#x200B;をクリックします。
 
