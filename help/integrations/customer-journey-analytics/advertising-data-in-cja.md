@@ -15,9 +15,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 455
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 *Adobe AdvertisingとCustomer Journey Analyticsの統合のみを使用する広告主*
 
-*Beta機能*
-
 Adobe Advertisingは、毎日[!DNL Customer Journey Analytics]にトラフィック指標とディメンションを渡します。 [!DNL Web SDK]は、Adobe Advertisingのクリックとビュースルーをリアルタイムでキャプチャし、Customer Journey Analyticsに渡します。
+
+![Customer Journey AnalyticsのAdobe Advertising データの例](/help/integrations/assets/cja-report-example.png "Customer Journey AnalyticsのAdobe Advertising データの例")
 
 ## Adobe Advertisingのトラフィック指標
 
@@ -108,5 +108,5 @@ Adobe Advertisingは、毎日[!DNL Customer Journey Analytics]にトラフィッ
 >
 >* [概要](overview.md)
 >* [前提条件](prerequisites.md)
->* [様が使用している [!DNL Customer Journey Analytics]](ids.md)Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics][&#128279;](ids.md)様が使用しているAdobe Advertising ID
 >* [&#x200B; データ収集、データ転送、レポートの設定](set-up.md)

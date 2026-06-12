@@ -16,16 +16,14 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
 workflow-type: tm+mt
-source-wordcount: 140
+source-wordcount: 189
 ht-degree: 0%
 
 ---
 
 # Adobe AdvertisingとCustomer Journey Analyticsを統合するための前提条件
-
-*Beta機能*
 
 *Advertising DSPおよび[!DNL Advertising Search, Social, & Commerce]*&#x200B;の広告主
 
@@ -37,10 +35,12 @@ ht-degree: 0%
 
   これらのテクノロジには、Experience Platform サイト管理者のサポートが必要です。
 
+* （[!DNL Analytics for Advertising]を持たない広告主）CollaborationとAdobe アカウントチーム（設定中に様々なタスクを完了する）。
+
 >[!MORELIKETHIS]
 >
 >* [概要](overview.md)
->* [様が使用している [!DNL Customer Journey Analytics]](ids.md)Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics][&#128279;](ids.md)様が使用しているAdobe Advertising ID
 >* [&#x200B; データ収集、データ転送、レポートの設定](set-up.md)
 >* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション &#x200B;](advertising-data-in-cja.md)
 >* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用するAMO IDとEF IDの履歴データを収集](/help/integrations/analytics/rvars-to-evars.md)。
