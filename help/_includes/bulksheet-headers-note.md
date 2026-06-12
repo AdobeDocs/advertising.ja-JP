@@ -10,4 +10,4 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* このリストには、生成されたバルクシートファイル内のすべての可能なヘッダーが表示されます。 バルクシートをダウンロードする際に、使用可能なすべてのバルクシート行とフィールドを含めない場合、バルクシートファイルに含まれるヘッダーが少なくなります。 バルクシートを手動で作成する場合は、実行する操作に必要なヘッダーのみを含めることができます。
->* このリストでは、コンマ区切りの値を使用します。 代わりにタブ区切りの値を使用する場合は、それに応じてデータを調整します。 詳しくは、「[ サポートされているバルクシート ファイル形式](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-file-formats.md)」を参照してください。
+>* このリストでは、コンマ区切りの値を使用します。 代わりにタブ区切りの値を使用する場合は、それに応じてデータを調整します。 詳しくは、「[&#x200B; サポートされているバルクシート ファイル形式](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-file-formats.md)」を参照してください。
