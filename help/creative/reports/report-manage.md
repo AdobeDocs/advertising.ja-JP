@@ -17,7 +17,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 1479
+source-wordcount: 1485
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
    * レポートの最新のインスタンスをダウンロードするには、**[!UICONTROL Download]**&#x200B;をクリックします。
 
-   * （複数のインスタンスを含むレポート） ![の横にある](/help/dsp/assets/chevron-down.png "下向き矢印")下向き矢印[!UICONTROL Download]をクリックし、ダウンロードするレポートの完了日をクリックします。 ダウンロード可能なレポートインスタンスには、ダウンロードアイコン （![ダウンロードアイコン](/help/dsp/assets/indicator-downloadable.png "ダウンロードアイコン")）が表示されます。
+   * （複数のインスタンスを含むレポート） [!UICONTROL Download]の横にある![下向き矢印](/help/dsp/assets/chevron-down.png "下向き矢印")をクリックし、ダウンロードするレポートの完了日をクリックします。 ダウンロード可能なレポートインスタンスには、ダウンロードアイコン （![ダウンロードアイコン](/help/dsp/assets/indicator-downloadable.png "ダウンロードアイコン")）が表示されます。
 
      多数のインスタンスが使用可能な場合は、必要に応じて、リストの下部にある&#x200B;**[!UICONTROL Load More]**&#x200B;をクリックします。
 
@@ -130,9 +130,9 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >[&#x200B; ビューから](#report-run-now)いつでも[!UICONTROL Reports] カスタムレポートを実行することもできます。
+  >[!UICONTROL Reports] ビューから[いつでも](#report-run-now) カスタムレポートを実行することもできます。
 
-* *[!UICONTROL On]\&lt;Date\>:* アカウントのタイムゾーンで09:00までに完了するように、指定された日付にレポートを実行します。
+* *[!UICONTROL On]\&lt;日付\>:* アカウントのタイムゾーンで、指定された完了日にレポートを実行します（09:00）。
 
 * *[!UICONTROL Recurring]:*&#x200B;指定した期間内に、スケジュールに従ってレポートを実行します。
 

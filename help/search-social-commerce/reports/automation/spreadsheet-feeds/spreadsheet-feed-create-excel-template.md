@@ -23,7 +23,7 @@ ht-degree: 0%
 
 スプレッドシート フィードを作成するには、まず、通常のレポートテンプレートを使用して、特殊な形式の[!DNL Microsoft Excel] スプレッドシート テンプレートを作成する必要があります。 必要に応じて、[!DNL Excel] スプレッドシートをカスタマイズして、列とグラフを追加できます。
 
-1. **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;で、「[!UICONTROL Date Aggregation]」の[!UICONTROL Daily] ユニットと、必要な他のすべてのデータパラメーターを使用して、目的のレポートタイプを生成し、レポートをテンプレートとして保存します。
+1. **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;で、「[!UICONTROL Daily]」の[!UICONTROL Date Aggregation] ユニットと、必要な他のすべてのデータパラメーターを使用して、目的のレポートタイプを生成し、レポートをテンプレートとして保存します。
 
    >[!NOTE]
    >

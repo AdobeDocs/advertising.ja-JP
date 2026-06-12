@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
    * CSV、TSV、Microsoft Excel スプレッドシート（XLSX）形式のフィードファイル。各広告バリエーションに1つのヘッダー行と1つのデータ行が含まれている。 `images/image_name`形式（`images/300x250_acme_logo.png`など）を使用して、各行に画像名を含めます。
 
-     広告主固有のフィールド名は、動的な広告フィード ファイル [の](/help/creative/appendix-available-feed-fields.md)利用可能なフィールドにマッピングする必要があります。
+     広告主固有のフィールド名は、動的な広告フィード ファイル [&#128279;](/help/creative/appendix-available-feed-fields.md)の利用可能なフィールドにマッピングする必要があります。
 
    * GIF、JPEG、JPG、またはPNG形式の関連する画像アセット。<!-- Is this true: The maximum file size is two (2) MB. --> [&#x200B; サポートされているクリエイティブサイズ &#x200B;](/help/creative/creative-libraries/creative-sizes.md)を参照してください。
 
@@ -49,9 +49,9 @@ ht-degree: 0%
 
    * CSV、TSV、Microsoft Excel スプレッドシート（XLSX）形式のフィードファイル。各広告バリエーションに1つのヘッダー行と1つのデータ行が含まれている。 `videos/image_name`形式（`videos/300x250_acme_logo.png`など）を使用して、各行にビデオ名を含めます。 ZIP ファイルは、最大512 MB、最大500行までです。
 
-     広告主固有のフィールド名は、動的な広告フィード ファイル [の](/help/creative/appendix-available-feed-fields.md)利用可能なフィールドにマッピングする必要があります。
+     広告主固有のフィールド名は、動的な広告フィード ファイル [&#128279;](/help/creative/appendix-available-feed-fields.md)の利用可能なフィールドにマッピングする必要があります。
 
-     ダイナミック ビデオを使用しているすべてのアカウントの場合、ベストプラクティスは、アセット ファイルと[&#x200B; ユニバーサル フィード テンプレート &#x200B;](catalog-manage.md)のコピーを使用してカタログ [を[!UICONTROL Adobe Creative Template]](feed-template-manage.md)作成し、アセット ファイルの各フィールドをAdvertising Creative バックエンドのフィールドにマッピングすることです。
+     ダイナミック ビデオを使用しているすべてのアカウントの場合、ベストプラクティスは、アセット ファイルと[&#x200B; ユニバーサル フィード テンプレート [!UICONTROL Adobe Creative Template]](feed-template-manage.md)のコピーを使用してカタログ [&#128279;](catalog-manage.md)を作成し、アセット ファイルの各フィールドをAdvertising Creative バックエンドのフィールドにマッピングすることです。
 
    * 関連するビデオアセットをMP4、MOV、またはWEBM形式で保存します。 対応している広告テンプレートには、開始カード、終了カード、上オーバーレイ、下オーバーレイ、L字型などがあります。 各ビデオのデュレーションは1 ～ 90秒の間である必要があります。 [&#x200B; サポートされているクリエイティブサイズ &#x200B;](/help/creative/creative-libraries/creative-sizes.md)を参照してください。
 
