@@ -10,20 +10,14 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
+source-git-commit: 9f028c5710eb34f4e7f8a3c50b46dd4406048c57
 workflow-type: tm+mt
-source-wordcount: 2412
+source-wordcount: 2401
 ht-degree: 2%
 
 ---
 
 # Adobe Advertising Search, Social &amp; Commerce ガイド {#search-social-commerce}
-
-<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
-
-<!--
-    + [Publisher recommendations and insights support](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
--->
 
 + [新機能](home.md)
 + [このガイドについて](help-about.md)
@@ -35,7 +29,7 @@ ht-degree: 2%
       + [Adobe [!DNL Analytics for Advertising]  （リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja){target="_blank"}
       + [Adobe Audience Managerとの連携（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ja){target="_blank"}
    + [消費者のプライバシーのサポート（リンク）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
-   + [ポリシーとガイドライン（リンク）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=ja){target="_blank"}
+   + [ポリシーとガイドライン（リンク）](https://experienceleague.adobe.com/ja/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + Adobe Experience Managerの導入方法 {#getting-started}
    + [導入の概要](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [必要システム構成](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -170,11 +164,11 @@ ht-degree: 2%
                + [基本および詳細レポート設定](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-settings.md)
                + [基本レポートと詳細レポートのレポート列](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-columns.md)
             + アシストレポート {#assist-reports}
-               + [&#x200B; アシストレポートについて](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)
-レポート形式の支援 {#assist-report-formats}
-                  + [The [!UICONTROL Channel Assist Report]]/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md）
-                  + [ザ [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/campaign-assist-report.md)
-                  + [ザ [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/keyword-assist-report.md)
+               + [アシストレポートについて](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)
+                  + レポート形式の支援 {#assist-report-formats}
+                     + [ザ [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)
+                     + [ザ [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/campaign-assist-report.md)
+                     + [ザ [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/keyword-assist-report.md)
                + [レポート設定の支援](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-settings.md)
             + 特殊レポート {#specialty-reports}
                + [特殊レポートについて](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-about.md)
@@ -602,3 +596,9 @@ ht-degree: 2%
 + [ヘルプを表示](get-help.md)
 + [用語集](glossary.md)
 
+
+<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
+
+<!--
+    + [Publisher recommendations and insights support](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
+-->
