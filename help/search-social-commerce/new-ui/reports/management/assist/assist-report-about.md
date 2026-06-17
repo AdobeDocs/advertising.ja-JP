@@ -2,7 +2,7 @@
 title: アシストレポートについて
 description: コンバージョンパスに関するインサイトを提供するレポートについて説明します。
 feature: Search Reports, Search Assist Reports
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -35,3 +35,4 @@ ht-degree: 0%
 >* [The [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [&#x200B; レポート設定の支援](assist-report-settings.md)
 >* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+
