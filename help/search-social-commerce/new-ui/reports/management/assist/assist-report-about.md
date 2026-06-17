@@ -33,6 +33,6 @@ ht-degree: 0%
 >* [The [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
 >* [The [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [The [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
->* [ レポート設定の支援](assist-report-settings.md)
->* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [&#x200B; レポート設定の支援](assist-report-settings.md)
+>* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
 
