@@ -17,9 +17,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: 76
+source-wordcount: 77
 ht-degree: 0%
 
 ---
@@ -86,3 +86,4 @@ For any reporting or auditing within [!DNL Analytics], the best practice is to u
 >* [前提条件](prerequisites.md)
 >* [&#x200B; データ収集、データ転送、レポートの設定](set-up.md)
 >* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション &#x200B;](advertising-data-in-cja.md)
+>* [&#x200B; トラブルシューティング &#x200B;](troubleshooting.md)

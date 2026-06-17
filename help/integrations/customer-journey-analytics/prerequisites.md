@@ -16,9 +16,9 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5a926d18f634eb08b6fd329d6b6ba90a8f91d991
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: 262
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 0%
 
 * （[!DNL Analytics for Advertising]を持たない広告主）CollaborationとAdobe アカウントチーム（設定中に様々なタスクを完了する）。
 
+  Adobe Experience PlatformおよびAdobe Customer Journey Analytics アカウントへのAdobe アカウントレベルのアクセス権を付与する場合は、チームと相談できます。 アクセスは統合を完了する必要はありませんが、アクセスを使用すると、Adobe アカウントチームは、統合のオンボーディング、設定とデータの検証の完了、Adobe Advertising レポートディメンションと指標の使用方法のトレーニングを最大限にサポートできます。
+
 >[!MORELIKETHIS]
 >
 >* [概要](overview.md)
@@ -44,3 +46,4 @@ ht-degree: 0%
 >* [&#x200B; データ収集、データ転送、レポートの設定](set-up.md)
 >* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション &#x200B;](advertising-data-in-cja.md)
 >* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用するAMO IDとEF IDの履歴データを収集](/help/integrations/analytics/rvars-to-evars.md)。
+>* [&#x200B; トラブルシューティング &#x200B;](troubleshooting.md)

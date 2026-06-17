@@ -1,12 +1,12 @@
 ---
-user-guide-title: Adobe CX Enterpriseとの連携
-user-guide-description: Advertising DSPおよびAdvertisingの他のAdobe CX Enterprise（旧Adobe Experience Cloud）製品およびサービスとの検索統合について説明します。
-breadcrumb-title: CX Enterpriseとの連携
+user-guide-title: Adobe CX Enterpriseとの統合
+user-guide-description: Advertising DSPとAdvertisingの連携について説明します。Adobe CX Enterprise （旧Adobe Experience Cloud）の他の製品やサービスとの連携について説明します。
+breadcrumb-title: Cx Enterpriseとの統合
 role: User, Developer
 index: true
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
@@ -53,4 +53,5 @@ ht-degree: 1%
    + [Customer Journey Analyticsで使用されるAdobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
    + [データ収集、データ転送、レポートの設定](/help/integrations/customer-journey-analytics/set-up.md)
    + [Customer Journey AnalyticsのAdobe Advertising指標とディメンション](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
+   + [トラブルシューティング](/help/integrations/customer-journey-analytics/troubleshooting.md)
 + [Adobe Advertising統合に関するビデオチュートリアル](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ja)
