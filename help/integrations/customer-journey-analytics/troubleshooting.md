@@ -2,10 +2,18 @@
 title: Customer Journey AnalyticsでのAdobe Advertising データのトラブルシューティング
 description: Customer Journey AnalyticsのAdobe Advertising データに関する問題のトラブルシューティングと解決方法について説明します。
 feature: Integration with Adobe Customer Journey Analytics
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 3ca788a8a15277a105c065087ad9a5fbc9108311
 workflow-type: tm+mt
 source-wordcount: 627
@@ -112,8 +120,8 @@ Answer
 >[!MORELIKETHIS]
 >
 >* [概要](overview.md)
->*  [!DNL Customer Journey Analytics]](ids.md)様が使用している[Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics][&#128279;](ids.md)様が使用しているAdobe Advertising ID
 >* [前提条件](prerequisites.md)
->* [ データ収集、データ転送、レポートの設定](set-up.md)
->* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション ](advertising-data-in-cja.md)
+>* [&#x200B; データ収集、データ転送、レポートの設定](set-up.md)
+>* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション &#x200B;](advertising-data-in-cja.md)
 >* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用するAMO IDとEF IDの履歴データを収集](/help/integrations/analytics/rvars-to-evars.md)。
