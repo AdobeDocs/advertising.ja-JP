@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 33382b092be521df814a81aad3c7ae661d853174
+source-git-commit: 3ca788a8a15277a105c065087ad9a5fbc9108311
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 627
 ht-degree: 0%
 
 ---
@@ -55,8 +55,7 @@ Adobe AdvertisingからCustomer Journey AnalyticsへのフィードがAdvertiser
 
 Adobe AdvertisingからCustomer Journey Analyticsへのフィードが、特定の広告ネットワークアカウントに対して有効になっていることを確認します。 Adobeのアカウントチームにお問い合わせください。
 
-フィードがアカウントに対して有効になっていても概要データが表示されない場合は、[https://experienceleague.adobe.com/home?lang=ja#support](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support)で組織のサポートチケットを開きます。広告ネットワーク アカウントの[!UICONTROL Account ID]を含めます。
-.
+フィードがアカウントに対して有効になっていても概要データが表示されない場合は、[https://experienceleague.adobe.com/home?lang=ja#support](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support)で組織のサポートチケットを開きます。 広告ネットワーク アカウントの[!UICONTROL Account ID]を含めます。
 
 +++
 
