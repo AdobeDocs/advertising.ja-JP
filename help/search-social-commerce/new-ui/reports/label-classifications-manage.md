@@ -2,16 +2,16 @@
 title: ラベル分類の管理
 description: ラベル分類を使用してアカウントコンポーネントをグループ化する方法について説明します。
 feature: Search Label Classifications
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
 
 # ラベル分類の管理
 
-ラベル分類は、アカウントコンポーネントを意味のあるセットにグループ化するのに役立ちます。 例えば、「Geo」という親ラベル分類を作成し、分類の中で地理的地域（「United Kingdom」や「Japan」など）ごとに異なるラベル値を作成し、そのラベル値を[入札ユニット &#x200B;](/help/search-social-commerce/glossary.md#a-b)または親キャンペーンに割り当てることができます。 その後、任意のラベル値をビューやレポートに別の列として含め、様々な分類グループや値に関するレポートをサブピボットできます。
+ラベル分類は、アカウントコンポーネントを意味のあるセットにグループ化するのに役立ちます。 例えば、「Geo」という親ラベル分類を作成し、分類の中で地理的地域（「United Kingdom」や「Japan」など）ごとに異なるラベル値を作成し、そのラベル値を[入札ユニット ](/help/search-social-commerce/glossary.md#a-b)または親キャンペーンに割り当てることができます。 その後、任意のラベル値をビューやレポートに別の列として含め、様々な分類グループや値に関するレポートをサブピボットできます。
 
 ## ラベル分類の構成要素
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ### ラベル値
 
-各ラベル分類には、最大2000個の値を指定できます。 分類の特定のラベル値を作成したら、キャンペーン管理ビュー[&#128279;](#classification-values-assign-campaign-management)または[から、バルクシート &#x200B;](#classification-values-assign-bulksheets)を使用して、キャンペーン、広告グループ、キーワード、広告、プレースメント、製品グループ にそれらを割り当てることができます。
+各ラベル分類には、最大2000個の値を指定できます。 分類の特定のラベル値を作成したら、キャンペーン管理ビュー](#classification-values-assign-campaign-management)または[から、バルクシート ](#classification-values-assign-bulksheets)を使用して、キャンペーン、広告グループ、キーワード、広告、プレースメント、製品グループ [にそれらを割り当てることができます。
 
 対象となる各エンティティには、複数の分類のラベル値を設定できますが、分類ごとに1つのラベル値のみを設定できます。 ラベル値は子エンティティによって継承されますが、上書きできます。 最下位レベルで割り当てられた値は、常に親レベルで割り当てられた値よりも優先されます。
 
@@ -35,15 +35,15 @@ ht-degree: 0%
 
 * ラベル分類値のデータを表示します。
 
-* [&#x200B; ラベル分類を作成](#classification-create)。
+* [ ラベル分類を作成](#classification-create)。
 
-* バルクシート [&#128279;](#classification-values-assign-bulksheets)を使用して、キャンペーン管理ビュー[&#128279;](#classification-values-assign-campaign-management)またはからアカウントコンポーネント に分類値を割り当てます。
+* バルクシート ](#classification-values-assign-bulksheets)を使用して、キャンペーン管理ビュー](#classification-values-assign-campaign-management)または[からアカウントコンポーネント [に分類値を割り当てます。
 
-* [&#x200B; アカウントコンポーネント &#x200B;](#classification-values-remove)からラベル分類値を削除します。
+* [ アカウントコンポーネント ](#classification-values-remove)からラベル分類値を削除します。
 
-* [&#x200B; ラベル分類値を削除](#classification-values-delete)。
+* [ ラベル分類値を削除](#classification-values-delete)。
 
-* [&#x200B; ラベル分類を削除](#classification-delete)。
+* [ ラベル分類を削除](#classification-delete)。
 
 ## ラベル分類の作成 {#classification-create}
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. 一意のラベル分類名を入力し、**[!UICONTROL Create]**&#x200B;をクリックします。
 
-   名前は、広告主アカウントに対して一意である必要があり、[ASCII文字32 ～ 126](https://www.asciitable.com/)で構成され、最大長は27文字です。 名前は、既存のレポート列または既存のバルクシート列の名前と同じにすることはできません。 [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、[Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)、[Yahoo！のバルクシート列の名前を参照してください。 Japan Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! ネットワーク &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)および[Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)を表示します。
+   名前は、広告主アカウントに対して一意である必要があり、[ASCII文字32 ～ 126](https://www.asciitable.com/)で構成され、最大長は27文字です。 名前は、既存のレポート列または既存のバルクシート列の名前と同じにすることはできません。 [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、[Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)、[Yahoo！のバルクシート列の名前を参照してください。 ネットワーク ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)および[Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)を表示します。
 
 ## キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当て {#classification-values-assign-campaign-management}
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 >
 >一部の広告ネットワークおよびキャンペーンタイプのキーワードと広告コピーは[変更不可](/help/search-social-commerce/campaign-management/faqs-campaigns.md)です。これは、編集すると既存のエンティティが削除され、新しいエンティティが作成されることを意味します。 この方法で既存のエンティティが削除された場合、ラベル分類は新しいエンティティに割り当てられません。
 
-1. [&#x200B; ラベル分類値を割り当てるエンティティを含むバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)をダウンロードします。
+1. [ ラベル分類値を割り当てるエンティティを含むバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)をダウンロードします。
 
    * [!UICONTROL Rows and Columns] タブで、[!UICONTROL Bulksheet Columns] ペインの[!UICONTROL Campaign] リストを展開します。
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
    値を追加するだけでなく、関連する行から既存の値を削除することもできます。 親エンティティとその子エンティティの両方から値を削除するには、a）親エンティティ行のみを含めて既存の分類値を削除するか、b）親エンティティとその子エンティティの両方を含めて、すべての親行と子行から既存の分類値を削除します。
 
-1. [&#x200B; ファイル &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)をアップロードして、関連付けを作成します。<!-- Update once the new bulksheet UI is GA -->
+1. [ ファイル ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)をアップロードして、関連付けを作成します。<!-- Update once the new bulksheet UI is GA -->
 
 アップロードされたラベル値は、関連するエンティティのビューに表示されます。
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ラベル分類から値を削除するには、「[&#x200B; ラベル分類値を削除](#classification-values-delete)」を参照してください。
+>ラベル分類から値を削除するには、「[ ラベル分類値を削除](#classification-values-delete)」を参照してください。
 
 1. **[!UICONTROL Manage]**&#x200B;または&#x200B;**[!UICONTROL Target]** メニューからエンティティ ビューを開きます。
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アカウントコンポーネントから分類値を簡単に関連付け解除するには、「[&#x200B; アカウントコンポーネントからラベル分類値を削除](#classification-values-remove)」を参照してください。
+>アカウントコンポーネントから分類値を簡単に関連付け解除するには、「[ アカウントコンポーネントからラベル分類値を削除](#classification-values-remove)」を参照してください。
 
 1. **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**&#x200B;をクリックします。
 
@@ -199,7 +199,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アカウントコンポーネントから分類値を簡単に関連付け解除するには、「[&#x200B; アカウントコンポーネントからラベル分類値を削除](#classification-values-remove)」を参照してください。
+>アカウントコンポーネントから分類値を簡単に関連付け解除するには、「[ アカウントコンポーネントからラベル分類値を削除](#classification-values-remove)」を参照してください。
 
 1. **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**&#x200B;をクリックします。
 

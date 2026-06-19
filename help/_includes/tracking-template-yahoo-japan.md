@@ -1,21 +1,21 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
-# Yahoo！の追跡テンプレートフィールド 日本広告エンティティ
+# [!DNL LY Ads] エンティティのトラッキングテンプレートフィールド
 
-<!-- Search CRUD and bulk edit of Yahoo! Japan Ads entity settings -->
+<!-- Search CRUD and bulk edit of LY Ads entity settings -->
 
-**[!UICONTROL Tracking Template]:** （任意） トラッキングテンプレートまたはトラッキング URL。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終/ランディングページの URL をパラメーターに埋め込みます。 パラメーター `!{lpurl}` を使用して、ランディングページ URL を指定します。 例：リダイレクトを含めるには、`{lpurl}?source={network}&id=5` または `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` を指定します。
+**[!UICONTROL Tracking Template]:** （オプション）すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終/ランディングページのURLをパラメーターに埋め込むトラッキングテンプレートまたはトラッキング URL。 パラメーター`!{lpurl}`を使用して、ランディングページ URLを示します。 例：リダイレクトを含める`{lpurl}?source={network}&id=5`または`http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`。
 
 オプションで、サードパーティのリダイレクトとトラッキングを追加できます。
 
-キャンペーン設定に「[!UICONTROL EF Redirect]」および「[!UICONTROL Auto Upload]」が含まれる場合に適用されるAdobe Advertisingコンバージョントラッキングの場合、検索、ソーシャルおよびCommerceでは、レコードを保存すると、独自のリダイレクトおよびトラッキングコードが自動的に設定されます。
+キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合、レコードを保存すると、Search, Social, &amp; Commerceは自動的に独自のリダイレクトコードとトラッキングコードの先頭に付けられます。
 
 >[!NOTE]
 >
->* 最も詳細なレベルの追跡テンプレートは、それより上のすべてのレベルの値を上書きします。 例えば、アカウント設定とキーワード設定の両方に値が含まれている場合、キーワード値が適用されます。
->* 広告を承認用に再送信しなくても、任意のレベルでトラッキングテンプレートを更新できます。
+>* 最も詳細なレベルのトラッキングテンプレートは、より高いレベルのすべての値を上書きします。 例えば、アカウント設定とキーワード設定の両方に値が含まれている場合、キーワード値が適用されます。
+>* 承認のために広告を再送信することなく、任意のレベルでトラッキングテンプレートを更新できます。

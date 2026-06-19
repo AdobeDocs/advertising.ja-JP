@@ -2,9 +2,9 @@
 title: 特殊レポートのレポート列
 description: 特殊レポートで使用可能なデータ列について説明します。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3172'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Status] | オーディエンスのステータス。 |
 | [!UICONTROL Average CPC] | クリックあたりの平均コスト。 |
 | [!UICONTROL Average CPM] | インプレッション数千件当たりの平均コスト （ミリ秒）。 |
-| [!UICONTROL Average Position], [!UICONTROL Avg Position] | 指定された日付範囲内の広告の平均位置。<br><br>[!DNL Google Ads]および[!DNL Yahoo! Japan Ads] キャンペーンの場合、このデータは2019年9月までのみ利用できます。 [!DNL Microsoft Advertising]の場合、このデータは2021年1月22日までのみ利用できます。 |
+| [!UICONTROL Average Position], [!UICONTROL Avg Position] | 指定された日付範囲内の広告の平均位置。<br><br>[!DNL Google Ads]および[!DNL LY Ads] キャンペーンの場合、このデータは2019年9月までのみ利用できます。 [!DNL Microsoft Advertising]の場合、このデータは2021年1月22日までのみ利用できます。 |
 | [!UICONTROL Bid Match Type] | （[!UICONTROL MSA Ad Extension]件のレポート）入札されたキーワードに関連付けられた一致タイプ。 |
 | [!UICONTROL Campaign Budget] | （[!UICONTROL Campaign Daily Impression Share Report]） キャンペーンの予算。 |
 | [!UICONTROL Campaign Name] | キャンペーン。 |
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Destination URL] | 広告の最終URLまたは宛先URL （トラッキングパラメーターを含む）。 |
 | [!UICONTROL Creative Display URL] | 広告の表示URL。エンドユーザーが広告に表示するものです。 |
 | [!UICONTROL Creative Status] | （[!UICONTROL MSA Ad Extension]件のレポート）広告のステータス。 |
-| [!UICONTROL Creative Name] | （トランザクションレポート、[!DNL Yahoo! Japan]のみ）広告画像名。 |
+| [!UICONTROL Creative Name] | （トランザクションレポート、[!DNL LY Ads]のみ）広告画像名。 |
 | [!UICONTROL Creative Title] | 広告のタイトルまたは見出し。 |
 | [!UICONTROL Cross Device Conversions] | ユーザーが1つのデバイスで広告をクリックしてから、別のデバイスまたはブラウザーでコンバージョンした場合に発生するコンバージョン （[!UICONTROL Google AI Max Search Term Combination Report]）。 クロスデバイスのコンバージョンは、すべてのコンバージョンに含まれます。 |
 | [!UICONTROL CTR] | クリックスルー率：クリック数を、含まれている広告のインプレッション数で割った値です。 |
@@ -100,9 +100,9 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | 指定した日付範囲の1000 インプレッションあたりの平均コストです。 eCPM値は、CPMまたはCPC キャンペーンで計算されます。 |
 | [!UICONTROL EF Campaign ID] | Search, Social, &amp; Commerceがキャンペーンに割り当てる数値ID。 |
 | [!UICONTROL EF Portfolio Group ID] | ポートフォリオが属するポートフォリオグループの数値ID。 |
-| [!UICONTROL EF Search Engine ID] | Search, Social, &amp; Commerceがアドネットワークに割り当てる数値ID: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> for [!DNL Yahoo! Japan Ads] （非推奨）, [!DNL Pinterest] （非推奨）の<i>[!UICONTROL 106]</i><i>[!UICONTROL 105]</i>[!DNL Yahoo Native] |
+| [!UICONTROL EF Search Engine ID] | Search, Social, &amp; Commerceがアドネットワークに割り当てる数値ID: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> （旧称[!DNL Yahoo! Japan Ads]）, [!DNL Yahoo Native] （非推奨）, <i>[!UICONTROL 106]</i> for [!DNL Pinterest] （非推奨）です。[!DNL LY Ads]<i>[!UICONTROL 105]</i> |
 | [!UICONTROL End Date] | 最終日が報告されました。 |
-| [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension] レポート）拡張機能[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/51001)の表示名。 |
+| [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension] レポート）拡張機能](https://help.ads.microsoft.com/#apex/ads/en/51001)の[表示名。 |
 | [!UICONTROL Extension Type ID] | （[!UICONTROL MSA Ad Extension]件のレポート）広告拡張機能タイプのID。 |
 | [!UICONTROL Final URLs] | （[!UICONTROL Google Asset Group Performance Report]）すべてのクロスドメインリダイレクト後の最終的なURLのリスト。 キャンペーンでURL拡張が有効になっている場合、URLは拡張される場合があります。 |
 | [!UICONTROL Final Mobile URLs] | （[!UICONTROL Google Asset Group Performance Report]）すべてのクロスドメインリダイレクト後のモバイルデバイスの最終的なURLのリスト。 キャンペーンでURL拡張が有効になっている場合、URLは拡張される場合があります。 |
@@ -198,5 +198,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [専門性レポートについて](specialty-report-about.md)
->* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
 >* [特殊レポート設定](specialty-report-settings.md)
