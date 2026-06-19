@@ -69,13 +69,13 @@ Adobeは、各広告主と連携して、広告ネットワークアカウント
 
    1. コンバージョン追跡の設定。 実装に応じて、これには、広告主のweb ページにコンバージョン追跡タグを追加したり、広告主が個別に収集したコンバージョンデータの毎日のフィードドロップを設定したりすることが含まれます。
 
-      Adobe Advertising コンバージョントラッキングサービスを使用している場合は、Search, Social, &amp; Commerce内で[&#x200B; コンバージョントラッキングタグ &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md)を生成するか、Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) （旧Adobe Experience Platform Launch）から タグを使用できます。
+      Adobe Advertising コンバージョントラッキングサービスを使用している場合は、Search, Social, &amp; Commerce内で[&#x200B; コンバージョントラッキングタグ &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md)を生成するか、Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=ja) （旧Adobe Experience Platform Launch）から タグを使用できます。
 
    1. 追跡されたデータを検証します。
 
    トラッキングの設定について詳しくは、「トラッキング」の章を参照してください。
 
-1. （Adobe Analyticsを使用している広告主） [Adobe AdvertisingとAnalytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)を統合してデータを交換できるようにします。
+1. （Adobe Analyticsを使用している広告主） [Adobe AdvertisingとAnalytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja)を統合してデータを交換できるようにします。
 
 1. （Search, Social, &amp; Commerceで入札、キャンペーン予算、および/またはキャンペーン入札戦略のターゲットを最適化できるようにするには、[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)のみ） [&#x200B; キャンペーンをポートフォリオに割り当てます](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
 
