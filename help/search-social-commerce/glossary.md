@@ -4,9 +4,13 @@ description: 主要用語の定義を参照してください。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
 TQID: https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 2377
@@ -56,7 +60,7 @@ ht-degree: 0%
 
 **コンバージョントラッキング：** コンバージョントラッキングでは、Cookieを使用して、a）広告ネットワーク上の広告主の広告をクリックし、b）広告主のweb サイト上で発生したトランザクションを追跡します。
 
-**コストの正確性：** （ポートフォリオを持つ広告主） ポートフォリオの実際の支出を予測支出で割った値。 [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)は、最適化に使用されるコストモデルの精度を示し、[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)には、モデル精度を向上させるための推奨事項に加えて、より詳細な情報が含まれています。
+**コストの正確性：** （ポートフォリオを持つ広告主） ポートフォリオの実際の支出を予測支出で割った値。 [&#x200B; モデル精度レポート &#x200B;](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)は、最適化に使用されるコストモデルの精度を示し、[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)には、モデル精度を向上させるための推奨事項に加えて、より詳細な情報が含まれています。
 
 **コストモデル：** （ポートフォリオを持つ広告主）過去データと数学的な予測手法を使用して、コスト量、各ポジションまたはプレースメントを獲得するために必要な入札額、各入札単位のCPC （検索）またはCPM（ディスプレイ）を予測する検索、ソーシャル、およびCommerce テクノロジー。
 
@@ -96,7 +100,7 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
-**半減期：**数量が初期値の半分に減少するのに必要な時間です。各ポートフォリオについて、「半減期」を指定して、コストモデルや収益モデルに関連するデータの長さを示すことができます。
+**半減期：**&#x200B;数量が初期値の半分に減少するのに必要な時間です。各ポートフォリオについて、「半減期」を指定して、コストモデルや収益モデルに関連するデータの長さを示すことができます。
 「コストモデル半減期」および「収益モデル半減期」を参照してください。
 
 ## I-J {#i-j}
@@ -169,7 +173,7 @@ ht-degree: 0%
 
 **投資収益率：** （ROI）収益からコストを差し引いた額。
 
-**収益精度：** （ポートフォリオを持つ広告主） ポートフォリオの実際の収益を予測収益で割った値。 [ モデル精度レポート ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)は、最適化に使用される収益モデルの精度を示し、[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)には、モデル精度を向上させるための推奨事項に加えて、より詳細な情報が含まれています。
+**収益精度：** （ポートフォリオを持つ広告主） ポートフォリオの実際の収益を予測収益で割った値。 [&#x200B; モデル精度レポート &#x200B;](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)は、最適化に使用される収益モデルの精度を示し、[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)には、モデル精度を向上させるための推奨事項に加えて、より詳細な情報が含まれています。
 
 **収益モデル：** （ポートフォリオを持つ広告主） クリックデータ （検索とソーシャル）またはインプレッションデータ （ディスプレイ）と広告主のコンバージョンデータに基づいて、各入札単位のコンバージョン率と推定リターンを予測するSearch, Social, &amp; Commerce テクノロジ。
 
