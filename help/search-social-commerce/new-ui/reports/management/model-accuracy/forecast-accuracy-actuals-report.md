@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; モデル精度レポートについて](model-accuracy-report-about.md)
+>* [ モデル精度レポートについて](model-accuracy-report-about.md)
 >* [The [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
->* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
->* [&#x200B; モデル精度レポート設定](model-accuracy-report-settings.md)
+>* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [ モデル精度レポート設定](model-accuracy-report-settings.md)
