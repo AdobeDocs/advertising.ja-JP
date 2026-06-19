@@ -2,7 +2,7 @@
 title: 基本レポートと詳細レポートのレポート列
 description: 基本レポートと詳細レポートで使用できるデータ列について説明します。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: '3841'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 | 列 | 説明 |
 | ---- | ---- |
-| \[広告主固有のカスタム（派生）指標\] | 既存の指標から計算される、作成した[&#x200B; カスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)の値。 |
+| \[広告主固有のカスタム（派生）指標\] | 既存の指標から計算される、作成した[ カスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)の値。 |
 | \[広告主固有ラベル分類\] | 現在エンティティに適用されているラベル分類（エンティティ レベル）。 複数のラベル分類は、コンマ（,）で区切ります。 |
 | \[Advertiser-specific conversion metrics\] | 指定されたコンバージョン指標またはサイトエンゲージメント指標のコンバージョン数。 |
 | \[Googleで追跡されたコンバージョン\] | 「GGL\*、GGL_CT\*、およびGGL_XD_CT\*」のエントリを参照してください。 |
@@ -90,7 +90,7 @@ ht-degree: 0%
 | [!UICONTROL Custom Bid Level] | （ディスプレイネットワークのみをターゲットとするGoogle キャンペーン）どのレベルで入札が行われるか：<i>[!UICONTROL Ad Group]</i>、<i>[!UICONTROL Age]</i>、<i>[!UICONTROL Gender]</i>、<i>[!UICONTROL Interest and List]</i>、<i>[!UICONTROL Keyword]</i>、<i>[!UICONTROL Placement]</i>、<i>[!UICONTROL Vertical]</i>、<i>[!UICONTROL None]</i>、または<i>[!UICONTROL Unknown]</i>。 |
 | [!UICONTROL Description1] - [!UICONTROL Description4] | 広告の本文。 クリエイティブタイプによって、必要な説明行とオプションの説明行の数が異なります。 [!DNL Microsoft Advertising]のレスポンシブ広告またはマルチメディア広告の[!UICONTROL Description3]列と[!UICONTROL Description4]列を表示するには、レポート設定に「[!UICONTROL Descriptions]」列を含めます。 |
 | [!UICONTROL Descriptions] | （[!DNL Microsoft Advertising] レスポンシブ広告とマルチメディア広告）広告の説明行（「[!UICONTROL Description1]」～「[!UICONTROL Description4]」）ごとに列を追加します。 この列を含める場合、他の[!UICONTROL Description]列を含める必要はありません。 |
-| [!UICONTROL Device] | （[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Display Network]、および[!DNL Yahoo Native] キャンペーン）広告が表示されたデバイスタイプ：<i>[!UICONTROL Computers]</i>、<i>[!UICONTROL Mobile]</i>、<i>[!UICONTROL Tablets]</i>、<i>[!UICONTROL Other]</i>、または<i>[!UICONTROL N/A]</i> （値なし）。 他の広告ネットワークの行の値はN/Aです。<br><br>検索キャンペーンでは、広告のクリック時に、キーワード、広告、および/または広告拡張機能のトラッキングテンプレートまたは宛先URLに、デバイス （`&ev_dvc={device}&ev_dvm={devicemodel}`）でデータを追跡するパラメーターが含まれている場合、コンバージョンデータも各デバイスタイプの行に含まれます。 それ以外の場合、コンバージョンデータをデバイスタイプに関連付けられない場合は、「[!UICONTROL Device]」値が[!UICONTROL N/A]の別の行に集計されます。 |
+| [!UICONTROL Device] | （[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yaho DSP]、および[!DNL Yahoo Native] キャンペーン）広告が表示されたデバイスタイプ：<i>[!UICONTROL Computers]</i>、<i>[!UICONTROL Mobile]</i>、<i>[!UICONTROL Tablets]</i>、<i>[!UICONTROL Other]</i>、または<i>[!UICONTROL N/A]</i> （値なし）。 他の広告ネットワークの行の値はN/Aです。<br><br>検索キャンペーンでは、広告のクリック時に、キーワード、広告、および/または広告拡張機能のトラッキングテンプレートまたは宛先URLに、デバイス （`&ev_dvc={device}&ev_dvm={devicemodel}`）でデータを追跡するパラメーターが含まれている場合、コンバージョンデータも各デバイスタイプの行に含まれます。 それ以外の場合、コンバージョンデータをデバイスタイプに関連付けられない場合は、「[!UICONTROL Device]」値が[!UICONTROL N/A]の別の行に集計されます。 |
 | [!UICONTROL Display Path 1] | （[!DNL Google Ads]個の拡張テキスト広告のみ）広告のベース URLの後の最初の表示パス。 |
 | [!UICONTROL Display Path 2] | （[!DNL Google Ads]個の拡張テキスト広告のみ）広告のベース URLの後の2番目の表示パス。 |
 | [!UICONTROL Display Type] | 廃止 |
@@ -102,7 +102,7 @@ ht-degree: 0%
 | [!UICONTROL EF ID] | （[!UICONTROL Transaction Report]） （Adobe Advertising コンバージョン トラッキング サービスを使用する広告主と、トークンを使用する&quot;[!UICONTROL EF Redirect]&quot; トラッキング メソッド） クリックまたはコンバージョンのトークン。<ul><li>[!DNL Google Ads]件の検索広告のEF IDは`{gclid}:G:s`で、Google クリック ID （GCLID）とネットワークの種類（検索用に「s」）が含まれます。</li><li> [!DNL Microsoft Advertising]件の検索広告のEF IDは`{msclkid}:G:s`で、Microsoft クリック ID （MSCLKID）とネットワークの種類（検索用に「s」）が含まれます。</li><li>他の広告ネットワークでの検索広告の場合、EF IDには、サーファーID、クリック時間、ネットワークタイプが含まれます。</li><li>ディスプレイ広告の場合、EF IDには、サーファーID、クリックまたはインプレッション時間、ネットワークタイプが含まれます。</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | （[!UICONTROL Geo Distribution Report]；検索、ソーシャル、Commerceのみ）地理的位置の内部ID。データの正規化に使用されます。 |
 | [!UICONTROL EF Portfolio Group ID] | ポートフォリオが属するポートフォリオグループの数値ID。 |
-| [!UICONTROL EF Search Engine ID] | Search, Social, &amp; Commerceがアドネットワークに割り当てる数値ID: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> （旧称[!DNL Yahoo! Japan Ads]）, [!DNL Yahoo Native] （非推奨）, <i>[!UICONTROL 106]</i> for [!DNL Pinterest] （非推奨）です。[!DNL LY Ads]<i>[!UICONTROL 105]</i> |
+| [!UICONTROL EF Search Engine ID] | Search, Social, &amp; Commerceがアドネットワークに割り当てる数値ID: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> （旧称[!DNL Yahoo! Japan Ads]）, [!DNL Yahoo Native] （非推奨）, <i>[!UICONTROL 106]</i> for [!DNL Pinterest] （非推奨）です。[!DNL LY Ads]<i>[!UICONTROL 105]</i> |
 | [!UICONTROL End Date] | 最終日が報告されました。 |
 | [!UICONTROL Engagement Rate] | （動画広告） エンゲージメントの数を、広告が表示された回数で割った値です。 |
 | [!UICONTROL Engagements] | （動画広告） ユーザーが広告を少なくとも10秒間視聴した回数、または広告が10秒未満の場合に完全な広告の回数。 |
@@ -203,5 +203,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [基本レポートと詳細レポートについて](basic-advanced-report-about.md)
->* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
 >* [基本および詳細レポート設定](basic-advanced-report-settings.md)
