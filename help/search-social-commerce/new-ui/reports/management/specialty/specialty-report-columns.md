@@ -102,7 +102,7 @@ ht-degree: 0%
 | [!UICONTROL EF Portfolio Group ID] | ポートフォリオが属するポートフォリオグループの数値ID。 |
 | [!UICONTROL EF Search Engine ID] | Search, Social, &amp; Commerceがアドネットワークに割り当てる数値ID: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> （旧称[!DNL Yahoo! Japan Ads]）, [!DNL Yahoo Native] （非推奨）, <i>[!UICONTROL 106]</i> for [!DNL Pinterest] （非推奨）です。[!DNL LY Ads]<i>[!UICONTROL 105]</i> |
 | [!UICONTROL End Date] | 最終日が報告されました。 |
-| [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension] レポート）拡張機能](https://help.ads.microsoft.com/#apex/ads/en/51001)の[表示名。 |
+| [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension] レポート）拡張機能[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/51001)の表示名。 |
 | [!UICONTROL Extension Type ID] | （[!UICONTROL MSA Ad Extension]件のレポート）広告拡張機能タイプのID。 |
 | [!UICONTROL Final URLs] | （[!UICONTROL Google Asset Group Performance Report]）すべてのクロスドメインリダイレクト後の最終的なURLのリスト。 キャンペーンでURL拡張が有効になっている場合、URLは拡張される場合があります。 |
 | [!UICONTROL Final Mobile URLs] | （[!UICONTROL Google Asset Group Performance Report]）すべてのクロスドメインリダイレクト後のモバイルデバイスの最終的なURLのリスト。 キャンペーンでURL拡張が有効になっている場合、URLは拡張される場合があります。 |
@@ -198,5 +198,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [専門性レポートについて](specialty-report-about.md)
->* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
 >* [特殊レポート設定](specialty-report-settings.md)

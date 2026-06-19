@@ -4,9 +4,14 @@ description: データ列を含む[!UICONTROL Forecast Accuracy (Actuals) Report
 exl-id: 659e11c7-5fed-4d91-a73f-7c435d36634f
 feature: Search Reports, Search Model Accuracy Reports
 TQID: https://experienceleague.adobe.com/wQyO42Dt5McqK23z-adEP-BAxxTrBk9RJi0I-4noP0I
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 318
@@ -39,7 +44,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ モデル精度レポートについて](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [&#x200B; モデル精度レポートについて](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
 >* [The [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
->* [ モデル精度レポートを生成](model-accuracy-report-generate.md)
->* [ モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [&#x200B; モデル精度レポートを生成](model-accuracy-report-generate.md)
+>* [&#x200B; モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)

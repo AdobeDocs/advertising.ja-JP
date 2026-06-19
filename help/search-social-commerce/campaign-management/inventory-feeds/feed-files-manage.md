@@ -4,9 +4,12 @@ description: フィード データの処理方法を制御する設定を構成
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1249
@@ -26,17 +29,17 @@ ht-degree: 0%
 
 データフィードファイルは、次のいずれかの方法でアップロードおよび処理できます。
 
-* **自動的にFTPを使用：** ファイルを直接FTP ディレクトリにアップロードできます。フィード サービスでは、2時間ごとに新しいファイルをチェックします。 初めてファイルをアップロードした後、広告ネットワーク固有のテンプレートにファイルを関連付けることができます。 その後、同じ名前でアップロードしたすべてのファイルが、同じテンプレートに自動的に関連付けられます。 [ フィード データの設定](feed-settings-manage.md)の設定方法に応じて、Search, Social, &amp; Commerceは、該当するすべてのテンプレートを通じてフィード データを自動的に反映し、オプションで結果のキャンペーンと広告データを関連する広告ネットワークに投稿する場合があります。
+* **自動的にFTPを使用：** ファイルを直接FTP ディレクトリにアップロードできます。フィード サービスでは、2時間ごとに新しいファイルをチェックします。 初めてファイルをアップロードした後、広告ネットワーク固有のテンプレートにファイルを関連付けることができます。 その後、同じ名前でアップロードしたすべてのファイルが、同じテンプレートに自動的に関連付けられます。 [&#x200B; フィード データの設定](feed-settings-manage.md)の設定方法に応じて、Search, Social, &amp; Commerceは、該当するすべてのテンプレートを通じてフィード データを自動的に反映し、オプションで結果のキャンペーンと広告データを関連する広告ネットワークに投稿する場合があります。
 
   データファイルをデポジットして自動的に処理するためのFTP ディレクトリを設定するには、Adobe アカウントチームにお問い合わせください。
 
-* **手動処理：** [!UICONTROL Advanced] （ACM）ビューからフィード ファイル ](#feed-file-upload)を手動で[ アップロードできます。 フィードファイルを1つ以上の広告ネットワーク固有の[ テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)に関連付けると、[ フィードデータ設定](feed-settings-manage.md)に従って[ フィードデータをテンプレート ](feed-data-propagate.md)を通じて伝播することにより、キャンペーンおよび広告データを生成できます。 オプションとして、キャンペーン階層ビュー内で生成されたデータをプレビューしたり、レビュー用のバルクシートファイルを生成したり、広告ネットワークに即座に投稿するためのバルクシートファイルを生成したりすることができます。 データをすぐに投稿しない場合は、[ プレビュー](propagated-data-view.md)および[後で投稿](propagated-data-post.md)できます。 後で[既存のフィード ファイルを新しいファイル ](#feed-file-replace)に置き換えても、既存のテンプレートの関連付けは失われません。
+* **手動処理：** [!UICONTROL Advanced] （ACM）ビューからフィード ファイル [&#128279;](#feed-file-upload)を手動で アップロードできます。 フィードファイルを1つ以上の広告ネットワーク固有の[&#x200B; テンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)に関連付けると、[&#x200B; フィードデータ設定](feed-settings-manage.md)に従って[&#x200B; フィードデータをテンプレート &#x200B;](feed-data-propagate.md)を通じて伝播することにより、キャンペーンおよび広告データを生成できます。 オプションとして、キャンペーン階層ビュー内で生成されたデータをプレビューしたり、レビュー用のバルクシートファイルを生成したり、広告ネットワークに即座に投稿するためのバルクシートファイルを生成したりすることができます。 データをすぐに投稿しない場合は、[&#x200B; プレビュー](propagated-data-view.md)および[後で投稿](propagated-data-post.md)できます。 後で[既存のフィード ファイルを新しいファイル &#x200B;](#feed-file-replace)に置き換えても、既存のテンプレートの関連付けは失われません。
 
 ## フィードファイルの要件
 
 個々のファイルに特定のデータフィールドは必要ありませんが、各ファイルには次のものが必要です。
 
-* ファイルの最初の行には、関連付けられたテンプレートの動的パラメーターに対応する列名（*ヘッダー*&#x200B;とも呼ばれます）を含める必要があります。 残りの行には、列名に対応するデータを含める必要があります。 各データ行（行）は、1つのキャンペーンまたは1つの広告など、1つのアカウントコンポーネントのみに関連付ける必要があります。 すべての行の値は、タブまたはコンマで区切る必要があります。 以下の[CSV サンプルファイル ](#example-csv-feed-file)および[TSV サンプルファイル ](#example-tsv-feed-file)を参照してください。
+* ファイルの最初の行には、関連付けられたテンプレートの動的パラメーターに対応する列名（*ヘッダー*&#x200B;とも呼ばれます）を含める必要があります。 残りの行には、列名に対応するデータを含める必要があります。 各データ行（行）は、1つのキャンペーンまたは1つの広告など、1つのアカウントコンポーネントのみに関連付ける必要があります。 すべての行の値は、タブまたはコンマで区切る必要があります。 以下の[CSV サンプルファイル &#x200B;](#example-csv-feed-file)および[TSV サンプルファイル &#x200B;](#example-tsv-feed-file)を参照してください。
 
 * ファイルは任意のサイズにできますが、次のいずれかのファイル拡張子を持つ必要があります：`.tsv` （タブ区切り値の場合）、`.txt` （コンマ区切り値の場合）、`.csv` （コンマ区切り値の場合）、または`.zip` （圧縮されたZIP形式の単一ファイルの場合、TSV ファイルに展開）。[!DNL Unicode]
 
@@ -125,7 +128,7 @@ shoes<TAB>Clarks<TAB>20
 
 1. 次のいずれかの操作を行います。
 
-   * 該当するテンプレートの[!UICONTROL Feed]列で、![その他のオプション ](/help/search-social-commerce/assets/options.png "その他のオプション ")をクリックし、**[!UICONTROL Re-upload]**&#x200B;を選択します。
+   * 該当するテンプレートの[!UICONTROL Feed]列で、![その他のオプション &#x200B;](/help/search-social-commerce/assets/options.png "その他のオプション ")をクリックし、**[!UICONTROL Re-upload]**&#x200B;を選択します。
 
    * データテーブルの上のツールバーで、**[!UICONTROL Feeds]**&#x200B;をクリックします。 フィードファイルリストで、既存のファイル名の横にあるチェックボックスをオンにします。 データテーブルの上で、**[!UICONTROL Upload]**&#x200B;をクリックします。
 
@@ -158,9 +161,9 @@ shoes<TAB>Clarks<TAB>20
 >[!MORELIKETHIS]
 >
 >* [在庫フィードについて](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
->* [ テンプレートを通じてフィード データを伝達](feed-data-propagate.md)
->* [ フィードから生成されたデータを表示](propagated-data-view.md)
->* [ フィードから生成されたデータを編集](propagated-data-edit.md)
->* [ フィードから生成されたキャンペーンデータを広告ネットワークに投稿](propagated-data-post.md)
+>* [&#x200B; テンプレートを通じてフィード データを伝達](feed-data-propagate.md)
+>* [&#x200B; フィードから生成されたデータを表示](propagated-data-view.md)
+>* [&#x200B; フィードから生成されたデータを編集](propagated-data-edit.md)
+>* [&#x200B; フィードから生成されたキャンペーンデータを広告ネットワークに投稿](propagated-data-post.md)
 >* [在庫フィード データの投稿ジョブを停止](stop-job.md)
->* フィードから生成されたデータの[ ステータス ](propagated-data-status.md)
+>* フィードから生成されたデータの[&#x200B; ステータス &#x200B;](propagated-data-status.md)
