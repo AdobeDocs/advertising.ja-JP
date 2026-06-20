@@ -73,6 +73,6 @@ ht-degree: 0%
 
 [^2]：詳細については、「[入札戦略による最適化サポート &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)」を参照してください。
 
-[^3]: Adobe Analyticsとの統合が必要です。 「[Adobe Advertising向けAnalyticsの概要](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)」を参照してください。
+[^3]: Adobe Analyticsとの統合が必要です。 「[Adobe Advertising向けAnalyticsの概要](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja)」を参照してください。
 
 [^4]: [!DNL Analytics] データは、アカウントで通常使用するAMO IDの形式に関係なく、アップグレードされたAMO ID トラッキングパラメーター（`s_kwcid`から始まる）を使用してSearch, Social, &amp; Commerceに送信されます。 通常、古いバージョンのAMO IDを使用している場合は、最適なエクスペリエンスを得るために、新しいAMO ID形式にアップグレードすることをお勧めします。 しかし、クリック/コストデータと収益データが異なるAMO IDを使用して追跡されていても、両方のデータセットは同じキャンペーンとアカウントの下で完全に分類され、集計されます。
