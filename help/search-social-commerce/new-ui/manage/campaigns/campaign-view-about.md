@@ -41,7 +41,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 * 行内からキャンペーンのステータスを削除または変更します。
 
-* [既存または新規のポートフォリオにキャンペーンを割り当て](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)、および[&#x200B; ポートフォリオからキャンペーンを割り当て解除](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [既存または新規のポートフォリオにキャンペーンを割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)、および[&#x200B; ポートフォリオからキャンペーンを割り当て解除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [キャンペーンに制約を割り当て、キャンペーンから制約を割り当て解除します](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
@@ -49,7 +49,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ポートフォリオへのキャンペーンの割り当て](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [&#x200B; ポートフォリオからキャンペーンを削除](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [&#x200B; ポートフォリオへのキャンペーンの割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [&#x200B; ポートフォリオからキャンペーンを削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [&#x200B; キャンペーンの制約の割り当ての管理](campaign-constraint-assignments-manage.md)
 >* [[!UICONTROL Campaigns] ビュー](campaign-view-report.md)からデータビューレポートを管理
