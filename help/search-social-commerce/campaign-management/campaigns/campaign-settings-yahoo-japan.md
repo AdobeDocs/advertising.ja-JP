@@ -4,9 +4,12 @@ description: ' [!DNL LY Ads]  キャンペーンの設定を参照します。'
 exl-id: 29acde0f-13f6-422d-b611-23ebb2ee70d9
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/okWpkqtz0o33r--74ZV2f-f8-1G9ieVY-oei-YSk4hk
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
 source-wordcount: 115
@@ -98,4 +101,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [&#x200B; キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
