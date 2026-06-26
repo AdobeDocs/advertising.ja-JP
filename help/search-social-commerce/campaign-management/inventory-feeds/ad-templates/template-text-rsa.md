@@ -11,16 +11,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 3352
+source-wordcount: 3437
 ht-degree: 0%
 
 ---
 
 # 在庫フィードのテキスト広告とレスポンシブ検索広告のテンプレート設定
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除操作のみ）、[!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
 
 >[!NOTE]
 >
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 * 最終的なURLを埋め込むには：
 
-   * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[!DNL Microsoft Advertising] ドキュメント [[!DNL Microsoft Advertising] の「使用可能な](https://help.ads.microsoft.com/#apex/3/en/56799/2) パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Google Ads]のみ） [!DNL ValueTrack] ドキュメント [[!DNL Google Ads] または（](https://support.google.com/google-ads/answer/6305348)のみ）を参照してください。
+   * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799/2)または（[!DNL Google Ads]のみ）を参照してください。
 
-   * （[!DNL Yahoo! Japan Ads]のみ） パラメーター`!{unescapedurl}`を使用して、ランディングページ URLを示します。
+   * （[!DNL LY Ads]のみ） パラメーター`!{unescapedurl}`を使用して、ランディングページ URLを示します。
 
    * 必要に応じて、URL パラメーターと、キャンペーン用に定義された任意のカスタムパラメーターを、アンパサンド（&amp;）で区切って含めることができます（`{lpurl}?matchtype={matchtype}&device={device}`）。
 
@@ -151,9 +151,9 @@ ht-degree: 0%
 
 サードパーティのリダイレクトとトラッキングの場合は、値を入力します。 ランディングページ URLを指定するには：
 
-* Yahoo! 日本の広告アカウントです。パラメーター{lpurl}を使用してください。
+* LY広告アカウントの場合は、パラメーター{lpurl}を使用します。
 
-* [!DNL Microsoft Advertising]および[!DNL Google Ads] アカウントで使用できるパラメーターについては、[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)の「使用可能な[!DNL ValueTrack] パラメーター」の節の[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)または「トラッキングテンプレートのみ」パラメーターを参照してください。
+* [!DNL Microsoft Advertising]および[!DNL Google Ads] アカウントで使用できるパラメーターについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)または「トラッキングテンプレートのみ」パラメーターを参照してください。
 
 この値は、アカウントレベルとキャンペーンレベルの設定よりも優先されますが、より詳細なレベル（キーワードが最も詳細なレベル）でテンプレートを追跡すると、この値よりも優先されます。
 
@@ -173,13 +173,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Keywords]
 
-指定された広告グループ （または&#x200B;**[!UICONTROL Keywords]アカウントのキャンペーン）の**:[!DNL Yandex] キーワード。静的テキスト、指定されたファイル内の列、および修飾子の任意の組み合わせで構成できます。 指定したフィードファイルがテンプレートを通じて伝播されると、列名と修飾子は実際のデータに置き換えられます。
+指定された広告グループ （または[!DNL Yandex] アカウントのキャンペーン）の&#x200B;**[!UICONTROL Keywords]:** キーワード。静的テキスト、指定されたファイル内の列、および修飾子の任意の組み合わせで構成できます。 指定したフィードファイルがテンプレートを通じて伝播されると、列名と修飾子は実際のデータに置き換えられます。
 
 列名または修飾子グループを動的パラメーターとして挿入するには、入力フィールドをクリックし、列リストの列名または修飾子リストの[修飾子名](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)をクリックします。 同じキーワードに複数のキーワードまたは複数の一致タイプを指定するには、それらを別々の行に入力します。 キーワード一致タイプを指定するには、列名の周りに次の一致タイプ構文を使用します。
 
-* [!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]のテンプレートの場合：
+* [!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]のテンプレートの場合：
 
-   * 動的パラメーターの場合：`[keyword]`列の最初の用語のBroad Match = [!UICONTROL Keyword]、Broad Match Modifier （+blue suede shoesなど） = `+[keyword]`、キーワード列の各用語のBroad Match Modifier （+blue +suede +shoesなど） = `+[keyword]+`、フレーズ Match = `"[keyword]"`、完全一致= `[[keyword]]`
+   * 動的パラメーターの場合：[!UICONTROL Keyword]列の最初の用語のBroad Match = `[keyword]`、Broad Match Modifier （+blue suede shoesなど） = `+[keyword]`、キーワード列の各用語のBroad Match Modifier （+blue +suede +shoesなど） = `+[keyword]+`、フレーズ Match = `"[keyword]"`、完全一致= `[[keyword]]`
 
    * 静的キーワードの場合：Broad Match = `keyword`、Broad Match Modifier = `+keyword`、またはPhrase Match = `"keyword"`
 
@@ -217,9 +217,9 @@ ht-degree: 0%
 
 * ランディングページ URLを指定するには：
 
-   * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[!DNL Microsoft Advertising] ドキュメント [[!DNL Microsoft Advertising] の「使用可能な](https://help.ads.microsoft.com/#apex/3/en/56799) パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Google Ads]のみ） [!DNL ValueTrack] ドキュメント [[!DNL Google Ads] または（](https://support.google.com/google-ads/answer/6305348)のみ）を参照してください。
+   * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）を参照してください。
 
-   * （[!DNL Yahoo! Japan Ads]のみ） パラメーター`!{lpurl}`を使用して、ランディングページ URLを示します。
+   * （[!DNL LY Ads]のみ） パラメーター`!{lpurl}`を使用して、ランディングページ URLを示します。
 
 **[!UICONTROL Param 1]**, **[!UICONTROL Param 2]\[[!DNL Google Ads] templates\]:** （[!DNL Google Ads] templatesのみ）指定されたファイルの列で、[!DNL Google Ads] `{param1}`または`{param2}`変数を表します。この変数は、テンプレートから作成された任意の広告の広告コピーまたは表示URLに含めることができます。 動的パラメーターを挿入するには、入力フィールドのをクリックし、列リストの列名をクリックします。 フィードファイルがテンプレートを通じて伝播されると、列名は実際のデータに置き換えられます。
 
@@ -239,7 +239,7 @@ ht-degree: 0%
 
    * 値の前に通貨記号またはコードを追加できます。 例えば、£2.000,00と2000GBPは有効です。
 
-   * 値には、区切り記号としてコンマ（,）またはピリオド（。）を含めることができ、オプションのピリオド（。）または分数の値にはコンマ（,）を含めることができます。 例えば、1,000.00と2.000,10は有効です。
+   * 値には、コンマ（,）またはピリオド（。）を含めることができます 区切り記号として、オプションのピリオド（。）を指定します。 または、分数の値にはコンマ（,）を使用します。 例えば、1,000.00と2.000,10は有効です。
 
    * 値の前にパーセント記号（%）、プラス記号（+）、マイナス記号（ – ）を付けることもできます。 例えば、20%、208+、-42.32は有効です。
 
@@ -271,7 +271,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Title]:** （既存のMicrosoft Advertising標準テキスト広告のみ。読み取り専用）広告のタイトルまたは1行目。 Microsoft Advertisingでは、標準テキスト広告の作成および編集が非推奨になりました。
 
-**[!UICONTROL Headline 1]**、**[!UICONTROL Headline 2]:** （[!DNL Google Ads]および[!DNL Yahoo! Japan Ads]件の拡張/拡張テキスト広告テンプレートのみ）広告の見出し。 各行の最大長（動的パラメーターを置き換えた後）は、30文字または15文字の2 バイト文字です。
+**[!UICONTROL Headline 1]**、**[!UICONTROL Headline 2]:** （[!DNL Google Ads]および[!DNL LY Ads]件の拡張/拡張テキスト広告テンプレートのみ）広告の見出し。 各行の最大長（動的パラメーターを置き換えた後）は、30文字または15文字の2 バイト文字です。
 
 <!-- using a snippet for the note instead of an include because this is used multiple times on the page, which ExL doesn't support for includes -->
 
@@ -295,7 +295,7 @@ ht-degree: 0%
 
 * （Google Ads expanded text ad templates）最大長（動的パラメーターを置き換えた後）は、90文字または45文字の2 バイトです。
 
-* （Yahoo! 日本広告テンプレート）最大長（動的パラメーターを置き換えた後）は、80文字または40文字の2 バイトです。
+* （Yahoo! LY広告テンプレート）最大長（動的パラメーターを置き換えた後）は、80文字または40文字の2 バイトです。
 
 * （Yandex テンプレート）最大長（動的なパラメーターを置き換えた後）は75文字で、1つの単語を22文字を超えることはできません。
 
@@ -325,13 +325,13 @@ ht-degree: 0%
 
 * [!DNL Microsoft Advertising]: `{CUSTOMIZER.Attribute name:Default text}` （例：`{CUSTOMIZER.Discount:10%}`）
 
-**[!UICONTROL Display URL]:** （既存の[!DNL Microsoft Advertising]および[!DNL Yahoo! Japan Ads]標準テキスト広告のみ。読み取り専用）広告に表示されるURL。
+**[!UICONTROL Display URL]:** （既存の[!DNL LY Ads]および[!DNL Microsoft Advertising]標準テキスト広告のみ。読み取り専用）広告に表示されるURL。
 
-標準テキスト広告の作成と編集は、[!DNL Microsoft Advertising]および[!DNL Yahoo! Japan Ads]によって非推奨（廃止予定）となりました。
+標準テキスト広告の作成と編集は、[!DNL LY Ads]および[!DNL Microsoft Advertising]によって非推奨（廃止予定）となりました。
 
 **[!UICONTROL Base URL]:** （宛先URLを持つアカウントのみ）ユーザーが取得されるページ。 これには、サードパーティのリダイレクトとトラッキングコードを含めることができます。 Adobe Advertising コンバージョントラッキングサービスを使用しており、キャンペーン設定に[!UICONTROL EF Redirect]を使用して広告レベルでトラッキングを追加する場合、Search, Social, &amp; Commerceは自動的に独自のリダイレクトとトラッキングコードを広告に追加します。
 
-列名または修飾子グループを動的パラメーターとして挿入するには、入力フィールドをクリックし、列リストの列名または[&#x200B; リストの](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)修飾子名[!UICONTROL Modifiers]をクリックします。
+列名または修飾子グループを動的パラメーターとして挿入するには、入力フィールドをクリックし、列リストの列名または[!UICONTROL Modifiers] リストの[修飾子名](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)をクリックします。
 
 **[!UICONTROL Final URL]:** （最終/詳細URLを持つアカウント） ユーザーが広告をクリックしたときに取得されるランディングページ URL。 表示URLと同じドメインを含める必要があり、最終的なURLのパラメーターは、広告のクリック後にランディングページ URLのパラメーターと一致する必要があります。 ランディングページドメインまたはサブドメイン内にリダイレクトを含めることができますが、ランディングページドメイン外にリダイレクトを含めることはできません。
 
@@ -348,9 +348,9 @@ ht-degree: 0%
 
 サードパーティのリダイレクトとトラッキングの場合は、値を入力します。 ランディングページ URLを指定するには：
 
-* Yahoo! 日本の広告アカウントです。パラメーター{lpurl}を使用してください。
+* [!DNL LY Ads] アカウントの場合は、パラメーター{lpurl}を使用します。
 
-* [!DNL Microsoft Advertising]および[!DNL Google Ads] アカウントで使用できるパラメーターについては、[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)の「使用可能な[!DNL ValueTrack] パラメーター」の節の[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)または「トラッキングテンプレートのみ」パラメーターを参照してください。
+* [!DNL Microsoft Advertising]および[!DNL Google Ads] アカウントで使用できるパラメーターについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)または「トラッキングテンプレートのみ」パラメーターを参照してください。
 
 **\[元の広告フィールドの下の代替広告フィールド\]:** （オプション）広告の代替の広告コピーのセット。この広告コピーの代替セットは、元の広告コピー内の行のいずれかが、配信中に動的パラメーターにデータを入力した後に許可される最大長を超えた場合に使用できます。
 

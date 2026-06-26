@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 464
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Optimize]:* [!DNL Google Ads]は、広告グループ内の他の広告よりもパフォーマンスが高いと予想される広告を好みます。 これらの広告は、より頻繁に広告オークションに出稿され、時間の経過とともに1つの広告が支持されます。 これは、ビジネス目標や最適化目標と一致していない可能性があります。
 
-* *[!UICONTROL Rotate forever]:*   各広告は、広告オークションに何度も参加するため、Search, Social, &amp; Commerceでは、クリックスルー率だけでなく、コンバージョン率にも基づいて広告をスコアリングできます。
+* *[!UICONTROL Rotate forever]:*&#x200B;各広告は、広告オークションに偶数回参加します。これにより、Search, Social, &amp; Commerceでは、クリックスルー率だけでなく、コンバージョンでも広告をスコアリングできます。
 
 * *[!UICONTROL Use campaign setting]* （新しい広告グループのデフォルト）：既存のキャンペーンレベルの広告ローテーション設定を使用します。 **注意：** キャンペーンレベルの設定は、検索、ソーシャル、およびCommerceでは表示されません。
 

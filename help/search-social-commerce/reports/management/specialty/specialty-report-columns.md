@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 3140
+source-wordcount: 3173
 ht-degree: 0%
 
 ---
@@ -65,13 +65,13 @@ ht-degree: 0%
 | [!UICONTROL Audience Status] | オーディエンスのステータス。 |
 | [!UICONTROL Average CPC] | クリックあたりの平均コスト。 |
 | [!UICONTROL Average CPM] | インプレッション数千件当たりの平均コスト （ミリ秒）。 |
-| [!UICONTROL Average Position]、[!UICONTROL Avg Position] | 指定された日付範囲内の広告の平均位置。<br><br>[!DNL Google Ads]および[!DNL Yahoo! Japan Ads] キャンペーンの場合、このデータは2019年9月までのみ利用できます。 [!DNL Microsoft Advertising]の場合、このデータは2021年1月22日までのみ利用できます。 |
+| [!UICONTROL Average Position], [!UICONTROL Avg Position] | 指定された日付範囲内の広告の平均位置。<br><br>[!DNL Google Ads]および[!DNL LY Ads] キャンペーンの場合、このデータは2019年9月までのみ利用できます。 [!DNL Microsoft Advertising]の場合、このデータは2021年1月22日までのみ利用できます。 |
 | [!UICONTROL Bid Match Type] | （[!UICONTROL MSA Ad Extension]件のレポート）入札されたキーワードに関連付けられた一致タイプ。 |
 | [!UICONTROL Campaign Budget] | （[!UICONTROL Campaign Daily Impression Share Report]） キャンペーンの予算。 |
 | [!UICONTROL Campaign Name] | キャンペーン。 |
 | [!UICONTROL Campaign Start Date] | （[!UICONTROL Campaign Daily Impression Share Report]） キャンペーンの入札が行われた最初の日です。 |
 | [!UICONTROL Campaign Status] | キャンペーンの状態：*[!UICONTROL Active]*、*[!UICONTROL Paused]*、*[!UICONTROL Ended]*、または&#x200B;*[!UICONTROL Deleted]*。 |
-| [!UICONTROL Category] （[!UICONTROL 1st level] - [!UICONTROL 5th level]） | （[!UICONTROL AdWords Shopping Performance Report]）第1 レベルから第5 レベルの[!DNL Google]製品カテゴリ。 |
+| [!UICONTROL Category] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | （[!UICONTROL AdWords Shopping Performance Report]）第1 レベルから第5 レベルの[!DNL Google]製品カテゴリ。 |
 | [!UICONTROL Channel Type] | マーケティングチャネルの種類：*[!UICONTROL Search]*&#x200B;または&#x200B;*[!UICONTROL Content]*。 この列は、レポート設定の[!UICONTROL Search/Content]設定が「[!UICONTROL Combined]」の場合は含まれません。 |
 | [!UICONTROL City] | （[!UICONTROL AdWords Geo Report]および[!UICONTROL Bing Ads Geo Report]） クリックの元の都市。 それはユーザーのIP アドレスから決まります。 |
 | [!UICONTROL Click Match Type] | （[!UICONTROL Keyword Daily Impression Share Report]） クリックされた広告のキーワードマッチタイプ。 この値は、複数の一致タイプを持つ[!DNL Microsoft Advertising] キーワードを除き、リスト一致タイプと同じです。 [!DNL Microsoft Advertising] キーワードの場合、この値は実際にクリックされた一致タイプです。 |
@@ -94,11 +94,11 @@ ht-degree: 0%
 | [!UICONTROL Cost Per Conversion] | （[!UICONTROL Google AI Max Search Term Combination Report]および[!UICONTROL MSA Ad Extension]件のレポート））広告インタラクションのコストをコンバージョンで割った値。 Google Adsの場合、これには、「コンバージョンに含める」が有効になっているコンバージョンアクションからのコンバージョンのみが含まれます。 |
 | [!UICONTROL Country] | （[!UICONTROL AdWords Geo Report]および[!UICONTROL Bing Ads Geo Report]） クリックの送信元の国。 それはユーザーのIP アドレスから決まります。 |
 | [!UICONTROL CPC] | 指定された日付範囲内の広告のクリック単価（CPC）。 |
-| [!UICONTROL Creative Description 1]、[!UICONTROL Creative Description 2] | 広告の1行目と2行目。 |
+| [!UICONTROL Creative Description 1], [!UICONTROL Creative Description 2] | 広告の1行目と2行目。 |
 | [!UICONTROL Creative Destination URL] | 広告の最終URLまたは宛先URL （トラッキングパラメーターを含む）。 |
 | [!UICONTROL Creative Display URL] | 広告の表示URL。エンドユーザーが広告に表示するものです。 |
 | [!UICONTROL Creative Status] | （[!UICONTROL MSA Ad Extension]件のレポート）広告のステータス。 |
-| [!UICONTROL Creative Name] | （トランザクションレポート、[!DNL Yahoo! Japan]のみ）広告画像名。 |
+| [!UICONTROL Creative Name] | （トランザクションレポート、[!DNL LY Ads]のみ）広告画像名。 |
 | [!UICONTROL Creative Title] | 広告のタイトルまたは見出し。 |
 | [!UICONTROL Cross Device Conversions] | ユーザーが1つのデバイスで広告をクリックしてから、別のデバイスまたはブラウザーでコンバージョンした場合に発生するコンバージョン （[!UICONTROL Google AI Max Search Term Combination Report]）。 クロスデバイスのコンバージョンは、すべてのコンバージョンに含まれます。 |
 | [!UICONTROL CTR] | クリックスルー率：クリック数を、含まれている広告のインプレッション数で割った値です。 |
@@ -110,9 +110,9 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | 指定した日付範囲の1000 インプレッションあたりの平均コストです。 eCPM値は、CPMまたはCPC キャンペーンで計算されます。 |
 | [!UICONTROL EF Campaign ID] | Search, Social, &amp; Commerceがキャンペーンに割り当てる数値ID。 |
 | [!UICONTROL EF Portfolio Group ID] | ポートフォリオが属するポートフォリオグループの数値ID。 |
-| [!UICONTROL EF Search Engine ID] | Search, Social, &amp; Commerceがアドネットワークに割り当てる数値ID: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> for [!DNL Yahoo! Japan Ads] （非推奨）, <i>[!UICONTROL 105]</i> （非推奨）の[!DNL Yahoo Native]<i>[!UICONTROL 106]</i>[!DNL Pinterest] |
+| [!UICONTROL EF Search Engine ID] | Search, Social, &amp; Commerceがアドネットワークに割り当てる数値ID: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> （旧称[!DNL Yahoo! Japan Ads]）, [!DNL Yahoo Native] （非推奨）, <i>[!UICONTROL 106]</i> for [!DNL Pinterest] （非推奨）です。[!DNL LY Ads]<i>[!UICONTROL 105]</i> |
 | [!UICONTROL End Date] | 最終日が報告されました。 |
-| [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension] レポート）拡張機能[の](https://help.ads.microsoft.com/#apex/ads/en/51001)表示名。 |
+| [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension] レポート）拡張機能[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/51001)の表示名。 |
 | [!UICONTROL Extension Type ID] | （[!UICONTROL MSA Ad Extension]件のレポート）広告拡張機能タイプのID。 |
 | [!UICONTROL Final URLs] | （[!UICONTROL Google Asset Group Performance Report]）すべてのクロスドメインリダイレクト後の最終的なURLのリスト。 キャンペーンでURL拡張が有効になっている場合、URLは拡張される場合があります。 |
 | [!UICONTROL Final Mobile URLs] | （[!UICONTROL Google Asset Group Performance Report]）すべてのクロスドメインリダイレクト後のモバイルデバイスの最終的なURLのリスト。 キャンペーンでURL拡張が有効になっている場合、URLは拡張される場合があります。 |
@@ -128,7 +128,7 @@ ht-degree: 0%
 | [!UICONTROL Impression Lost To Rank Percent] | 広告ランクが低いため、広告が表示されなかった時間の割合。 |
 | [!UICONTROL Impression Share Percent] | 受け取ったインプレッションを、受け取る資格のあるインプレッションの推定数で割った値。 |
 | [!UICONTROL Impressions] | 指定された日付範囲内の広告インプレッション数。 |
-| [!UICONTROL Keyword] | キーワード。<br><br><b>注：</b> レポートにコンテンツ対応の検索キャンペーンの広告グループからのデータが含まれる場合、この列には該当する広告グループ名（「広告グループ名」など）が含まれます。 検索キャンペーンでサイトをターゲットにしたプレースメントの場合、この列には値がありません。 |
+| [!UICONTROL Keyword] | キーワード。<br><br><b>注：</b> レポートにコンテンツ対応の検索キャンペーンの広告グループからのデータが含まれる場合、この列には、該当する広告グループ名（「（adgroup content） Your Ad Group Name」など）が含まれます。 検索キャンペーンでサイトをターゲットにしたプレースメントの場合、この列には値がありません。 |
 | [!UICONTROL Keyword ID] | 既存のキーワードを識別する一意のID。 |
 | [!UICONTROL Keyword Extension ID] | （[!UICONTROL MSA Ad Extension by Keyword Report]）広告ネットワークが広告拡張機能に割り当てる数値ID。 |
 | [!UICONTROL Keyword Extension Number] | （[!UICONTROL MSA Ad Extension by Keyword Report]）広告拡張機能のバージョン属性。 |
@@ -159,7 +159,7 @@ ht-degree: 0%
 | [!UICONTROL Primary Status] | （[!UICONTROL Google Asset Group Performance Report]）アセットグループがフルキャパシティでサービスを提供している、または提供していない理由。 アセットグループのステータスだけでなく、ポリシーや品質の承認など、その他のシグナルも考慮されます。 値には、*実施要件、* *制限付き、* *非実施要件、* *一時停止、* *保留中、* *削除済み、* *不明、*&#x200B;または&#x200B;*未指定*&#x200B;が含まれます。 |
 | [!UICONTROL Primary Status Reason] | （[!UICONTROL Google Asset Group Performance Report]）アセットグループのプライマリステータスに関する追加詳細。 値には、*ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAUSED,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* UNKNOWN,*または*&#x200B;未指定。** |
 | [!UICONTROL Product ID] | （[!UICONTROL AdWords Shopping Performance Report]）広告と共に表示される製品の製品ID。 <b>注：</b>IDは、製品リストにトラッキングパラメーター`ev_plx=<GMC product ID>`が含まれている場合にのみキャプチャされます。トラッキングパラメーターは[!DNL Google Merchant Center]以内に追加する必要があります。 |
-| [!UICONTROL Product Type] （[!UICONTROL 1st level] - [!UICONTROL 5th level]） | （[!UICONTROL AdWords Shopping Performance Report]）第1 レベルから第5 レベルの製品タイプ （製品グループの自己定義属性）。 |
+| [!UICONTROL Product Type] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | （[!UICONTROL AdWords Shopping Performance Report]）第1 レベルから第5 レベルの製品タイプ （製品グループの自己定義属性）。 |
 | [!UICONTROL Query Match Type] | （AdWords検索クエリレポート）検索クエリのキーワード一致タイプ。 |
 | [!UICONTROL Region] | （[!UICONTROL AdWords Geo Report]および[!UICONTROL Bing Ads Geo Report]）インプレッションまたはクリックが発生した地域または米国/カナダの州。 それはユーザーのIP アドレスから決まります。 |
 | [!UICONTROL Return on Ad Spend] | （[!UICONTROL MSA Ad Extension] レポート）総収益を支出で割った割合で表します。 |
@@ -179,7 +179,7 @@ ht-degree: 0%
 | [!UICONTROL Search IS% Lost to Budget] | （[!UICONTROL Campaign Daily Impression Share Report]と[!UICONTROL Keyword Daily Impression Share Report]） 1日または月次の予算が低すぎたため、広告が受け取らなかったインプレッションの推定割合。 10%未満の割合は「`<10%`」、90%を超える割合は「`>90%`」と表示されます。 |
 | [!UICONTROL Search IS% Lost to Keyword Relevance (Bing)] | （[!DNL Microsoft Advertising]のみ、[!UICONTROL Campaign Daily Impression Share Report]および[!UICONTROL Keyword Daily Impression Share Report]、2019年10月11日までのデータのみ）広告のインプレッション数の推定パーセンテージ。キーワードの関連性が不十分です。 10%未満の割合は「`<10%`」、90%を超える割合は「`>90%`」と表示されます。 |
 | [!UICONTROL Search IS% Lost to Page Relevance (Bing)] | （[!DNL Microsoft Advertising]のみ、[!UICONTROL Campaign Daily Impression Share Report]および[!UICONTROL Keyword Daily Impression Share Report]、2019年10月11日までのデータのみ）ページの関連性が不十分なため、広告が受け取らなかったインプレッションの推定パーセンテージ。 10%未満の割合は「`<10%`」、90%を超える割合は「`>90%`」と表示されます。 |
-| [!UICONTROL Search IS% Lost to Rank] | （[!UICONTROL Campaign Daily Impression Share Report]と[!UICONTROL Keyword Daily Impression Share Report]）広告ランクが不十分なため、広告が受け取れなかった検索ネットワーク上のインプレッションの推定パーセンテージ。 10%未満の割合は「`<10%`」、90%を超える割合は「`>90%`」と表示されます。<br><br><b>注：</b> [!DNL Microsoft Advertising] キャンペーンのデータは、2019年10月11日までのみ利用できます。 |
+| [!UICONTROL Search IS% Lost to Rank] | （[!UICONTROL Campaign Daily Impression Share Report]と[!UICONTROL Keyword Daily Impression Share Report]）広告ランクが不十分なため、広告が受け取れなかった検索ネットワーク上のインプレッションの推定パーセンテージ。 10%未満の割合は「`<10%`」、90%を超える割合は「`>90%`」と表示されます。<br><br><b>注：</b> [!DNL Microsoft Advertising]件のキャンペーンのデータは、2019年10月11日までのみ利用できます。 |
 | [!UICONTROL Search lost abs. top IS (budget)] | （[!DNL Google Ads]と[!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report]と[!UICONTROL Keyword Daily Impression Share Report]）毎日または月々の予算が低すぎるため、オーガニック検索結果を上回る最初の広告が広告されなかった時間の割合。 [!DNL Google Ads]件のキャンペーンの場合、90%を超える割合は「>90%」または「0.9001」と表示されます。 |
 | [!UICONTROL Search lost abs. top IS (rank)] | （[!DNL Google Ads]と[!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report]と[!UICONTROL Keyword Daily Impression Share Report]）広告ランクが低いため、あなたの広告がオーガニック検索結果を上回った最初の広告ではなかった時間の割合。 [!DNL Google Ads] キャンペーンの場合、90%を超える割合は「`>90%`」または「`0.9001`」と表示されます。 |
 | [!UICONTROL Search lost IS (budget)] | （[!DNL Google Ads]のみ；[!UICONTROL Keyword Daily Impression Share Report]）毎日または月々の予算が低すぎたため、広告が表示されなかった時間の割合。 この指標は、キャンペーンレベルでのみ使用できます。 90%を超える割合は、「`>90%`」または「`0.9001`」と表示されます。 |

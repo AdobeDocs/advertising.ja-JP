@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: 881
 ht-degree: 0%
 
 ---
 
 # テンプレートを通じて在庫フィード データを伝達する
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除操作のみ）、[!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
 
 広告ネットワーク固有のフィード テンプレートを作成し、フィード ファイルまたは[!DNL Google]または[!DNL Microsoft]のマーチャント センターのアカウントを関連付けると、[&#x200B; フィード データ設定](feed-settings-manage.md)に従ってテンプレートを通じてフィード データを伝搬することにより、広告を動的に作成できます。 伝播中は、テンプレート内の列名がフィード内のデータ値に置き換えられ、テンプレートで特に指定されていない限り、生成されたキャンペーンとそのコンポーネントにはデフォルトの設定が適用されます。 Search, Social, &amp; Commerceでは、テンプレートオプションに応じて、広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成するか、広告を既存のアカウント構造にマッピングします。
 

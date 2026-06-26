@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: 857
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 1%
 | [!UICONTROL 1st Campaign] ～ [!UICONTROL 5th Campaign] | Default | 広告主の[&#x200B; クリックルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#c-d)と[&#x200B; インプレッションのルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j)内で発生したコンバージョンパス内の5つの初期キャンペーン。<br><br> エンティティ名の後に広告ネットワーク、アカウント名、またはイベントタイプを示すレポートオプションのいずれかを含めた場合、その情報はキャンペーン名の後に含まれます（`"<"campaign name> [Google] [Account1] [impression]`など）。 |
 | [!UICONTROL Path Size] | Default | 広告主の[&#x200B; クリックルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#c-d)および[&#x200B; インプレッション ルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j)内で発生したコンバージョンパス内のキャンペーンの数。 |
 | [!UICONTROL First Campaign] | Default | コンバージョンパスの最初のキャンペーン。 |
-| [!UICONTROL Last Campaign] | Default | コンバージョンに至った最後のキャンペーン（最後のキーワードが指定されたパスサイズを超えている場合でも）。<br><br> エンティティ名の後に広告ネットワーク、アカウント名、またはイベントタイプを示すレポートオプションのいずれかを含めた場合、その情報はキャンペーン名の後に含まれます（`"<"campaign name> [Google] [Account1] [impression]`など）。 |
+| [!UICONTROL Last Campaign] | Default | コンバージョンに至った最後のキャンペーン（最後のキーワードが指定されたパスサイズを超えている場合でも） <br><br> エンティティ名の後に広告ネットワーク、アカウント名、イベントタイプを示すレポートオプションのいずれかを含めた場合、その情報はキャンペーン名の後に含まれます（`"<"campaign name> [Google] [Account1] [impression]`など）。 |
 | \[広告主固有のカスタム（派生）指標\] | カスタム | 既存の指標から計算された、作成したカスタム指標の値。 |
 | \[Advertiser-specific conversion metrics\] | カスタム | 指定されたコンバージョン指標またはサイトエンゲージメント指標のコンバージョン数。 |
 | [!UICONTROL % of Total] \[ コンバージョン指標] | 自動型 | （レポート設定では使用できませんが、含まれるコンバージョン指標ごとにレポート出力に自動的に含まれます） キャンペーンパターンから生じた、指定されたコンバージョン指標のコンバージョン数。 |
@@ -53,7 +53,7 @@ ht-degree: 1%
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[ コンバージョン指標] | 自動型 | （レポート設定では使用できませんが、レポート出力に自動的に含まれます）最後のイベント（最後のキャンペーン）からコンバージョンまでの平均待ち時間（日数）です。 |
 | [!UICONTROL EF Campaign ID] | カスタム | Search, Social, &amp; Commerceがキャンペーンに割り当てる数値ID。 |
 | [!UICONTROL EF Portfolio Group ID] | カスタム | ポートフォリオが属するポートフォリオグループの数値ID。 |
-| [!UICONTROL EF Search Engine ID] | カスタム | Search, Social, &amp; Commerceがアドネットワークに割り当てる数値ID: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> for [!DNL Yahoo! Japan Ads] （非推奨）, <i>[!UICONTROL 105]</i> （非推奨）の[!DNL Yahoo Native]<i>[!UICONTROL 106]</i>[!DNL Pinterest] |
+| [!UICONTROL EF Search Engine ID] | カスタム | Search, Social, &amp; Commerceがアドネットワークに割り当てる数値ID: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> （旧称[!DNL Yahoo! Japan Ads]）, [!DNL Yahoo Native] （非推奨）, <i>[!UICONTROL 106]</i> for [!DNL Pinterest] （非推奨）です。[!DNL LY Ads]<i>[!UICONTROL 105]</i> |
 | [!UICONTROL Portfolio ID] | カスタム | 数値ポートフォリオ ID。 |
 | [!UICONTROL User SE Account ID] | カスタム | Search, Social, &amp; Commerceが広告ネットワークに割り当てる数値ID。 |
 

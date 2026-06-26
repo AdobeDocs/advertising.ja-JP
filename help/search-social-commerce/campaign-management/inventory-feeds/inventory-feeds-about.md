@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 838
+source-wordcount: 846
 ht-degree: 0%
 
 ---
 
 # 在庫フィードを利用した広告管理の自動化について
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除操作のみ）、[!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
 
 高度なキャンペーン管理の[!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] ビューを使用すると、製品またはサービスの在庫に関するデータに基づいて、広告ネットワーク アカウント構造を自動的に作成および更新し、動的な広告を配信できます。 製品データを含む新しいファイルを毎日または好きなだけ頻繁にアップロードするか、[!DNL Google]または[!DNL Microsoft]の加盟店センターのアカウントに直接リンクできます。 この機能を使用して、以下を行います。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 | テンプレートの[!UICONTROL Ad Variation] セクション | Search, Social, &amp; Commerceの修飾子 | フィード内容 | 成果となる広告 |
 |----|----|----|----|
-| タイトル：ハイエンドを購入\{<i>製品カテゴリ </i>\} &lt;<i>CheapList</i>><br><br>説明1: \{<i>製品名</i>\}の膨大な在庫。<br><br>説明2: \{<i>割引率</i>}%の割引で利用できます。 | 修飾子グループ「CheapList」の値：<br><br>&quot;for cheap&quot;<br><br>&quot;at a discount&quot; | 製品カテゴリ，製品名，割引率<br>電子機器，iPods,10<br><br> アパレル，シャツ，15<br><br><b>注：</b>値は、コンマまたはタブで区切ることができます。 | <u> ハイエンド電子機器を安く購入する。</u><br> タブレットの膨大な在庫。 10%割引でご利用いただけます。<br><br><u>高級エレクトロニクスを割引価格で購入します。</u><br> タブレットの膨大な在庫。 10%割引でご利用いただけます。<br><br><u>高級アパレルを安く購入する。</u><br> シャツの膨大な在庫。 15%の割引で利用可能。<br><br><u>高級アパレルを割引価格で購入する。</u><br> シャツの膨大な在庫。 15%の割引で利用可能。 |
+| タイトル：ハイエンド製品を購入する\{<i>製品カテゴリ </i>\} &lt;<i>CheapList</i>>.<br><br>説明1:\{<i>製品名</i>}.<br><br>説明2:\{<i>割引率</i>}の割引で利用できます。 | 修飾子グループ「CheapList」の値：<br><br>&quot;for cheap&quot;<br><br>&quot;at a discount&quot; | 製品カテゴリ，製品名，割引率<br>電子機器，iPods,10<br><br> アパレル，シャツ，15<br><br><b>注：</b>値は、コンマまたはタブで区切ることができます。 | <u> ハイエンド電子機器を安く購入する。</u><br> タブレットの膨大な在庫。 10%割引でご利用いただけます。<br><br><u>高級エレクトロニクスを割引価格で購入します。</u><br> タブレットの膨大な在庫。 10%割引でご利用いただけます。<br><br><u>高級アパレルを安く購入する。</u><br> シャツの膨大な在庫。 15%の割引で利用可能。<br><br><u>高級アパレルを割引価格で購入する。</u><br> シャツの膨大な在庫。 15%の割引で利用可能。 |
 
 広告を生成したら、オプションで広告をレビューし、広告ネットワークに投稿できます。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 在庫フィードを使用したキャンペーンデータ管理のワークフロー
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除操作のみ）、[!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
 
 最初に、少なくとも1つのフィードファイルまたはアカウントをテストし、プロセスを完全に自動化するか、各ステップで引き続き制御できます。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    FTPを使用している場合は、最初に広告ネットワークにデータを自動的に投稿しないでください。 最初のファイルの出力を確認し、結果に満足したら、設定を変更できます。
 
-1. FTP ディレクトリにデータファイルをアップロードするか、[手動で](feed-files-manage.md)にデータファイル [!UICONTROL Advanced (ACM) view]をアップロードするか、[GoogleまたはMicrosoft merchant center アカウントへのアクセスを有効にします](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。
+1. FTP ディレクトリにデータファイルをアップロードするか、[手動で[!UICONTROL Advanced (ACM) view]にデータファイル &#x200B;](feed-files-manage.md)をアップロードするか、[GoogleまたはMicrosoft merchant center アカウントへのアクセスを有効にします](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。
 
 ファイルを手動でアップロードするには、データファイルを使用するテンプレートを作成するまで待ちます。
 

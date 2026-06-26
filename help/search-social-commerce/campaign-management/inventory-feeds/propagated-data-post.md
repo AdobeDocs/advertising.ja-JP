@@ -8,26 +8,26 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 846
+source-wordcount: 850
 ht-degree: 0%
 
 ---
 
 # フィードから広告ネットワークに生成されたキャンペーンデータの投稿
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除操作のみ）、[!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
 
 フィードから生成されたキャンペーンデータを投稿するには、関連するテンプレートを通じて、または別のプロセスとしてデータを伝搬します。 データを投稿すると、既存の伝播されたデータが[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、および[!UICONTROL Ads] リストから削除されます。
 
 投稿を成功させるには、すべての広告グループをキャンペーンに割り当て、すべてのキーワードと広告を広告グループに割り当て、必要なすべての情報を長さ違反なしに含める必要があります。
 
-* このオプションを「[!UICONTROL Propagate and Preview]」に使用した場合は、生成されたバルクシート ファイル [&#x200B; （「](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md)」という名前）を`<feed file name>_<template name>` ビューから[!UICONTROL Bulksheets]投稿します。
+* このオプションを「[!UICONTROL Propagate and Preview]」に使用した場合は、生成されたバルクシート ファイル [&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md) （「`<feed file name>_<template name>`」という名前）を[!UICONTROL Bulksheets] ビューから投稿します。
 
   以前に[&#x200B; ランディングページの検証](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)を行っていない場合は、ファイルを投稿する前に検証できます。
 
-* このオプションを「[!UICONTROL Propagate only]」に使用した場合は、[[!UICONTROL New] タブからキャンペーン階層ビュー内で、](propagated-data-status.md) ステータス [!UICONTROL Templates]のコンポーネントに対して生成されたデータを投稿できます。
+* このオプションを「[!UICONTROL Propagate only]」に使用した場合は、[!UICONTROL Templates] タブからキャンペーン階層ビュー内で、[[!UICONTROL New] ステータス &#x200B;](propagated-data-status.md)のコンポーネントに対して生成されたデータを投稿できます。
 
   >[!NOTE]
   >
@@ -35,7 +35,7 @@ ht-degree: 0%
 
   >[!TIP]
   >
-  >以前にランディングページを検証しておらず、検証する場合は、広告ネットワークに投稿する代わりに、[&#x200B; データを伝播して](feed-data-propagate.md) ビューから[!UICONTROL Bulksheets] プレビューします。 その後、ファイルを広告ネットワークに手動で投稿する前に、[URLを検証できます](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)。
+  >以前にランディングページを検証しておらず、検証する場合は、広告ネットワークに投稿する代わりに、[&#x200B; データを伝播して[!UICONTROL Bulksheets] ビューから](feed-data-propagate.md) プレビューします。 その後、ファイルを広告ネットワークに手動で投稿する前に、[URLを検証できます](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)。
 
    1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;をクリックすると、[!UICONTROL Templates] タブが開きます。
 
@@ -53,9 +53,9 @@ ht-degree: 0%
 
          * *[!UICONTROL Post to search engine on these start/end times (in America/Los_Angeles time)]:*&#x200B;は、バルクシート ファイルを作成し、後で投稿します。 次の項目を指定します。
 
-            * **[!UICONTROL Start Time]:** バルクシート ファイルを広告ネットワークに投稿する日時を指定します。 デフォルトでは、ファイルは翌日の00:00 （午前12:00）に送信されます。 **注意：**&#x200B;長い処理が必要な大きなファイルの場合、投稿されたデータは、キャンペーン管理ビュー内やネットワークの広告マネージャー内ですぐに利用できません。
+            * **[!UICONTROL Start Time]:** バルクシート ファイルを広告ネットワークに投稿する日時を指定します。 デフォルトでは、ファイルは00:00 （午前12:00）に送信されます。 次の日。 **注意：**&#x200B;長い処理が必要な大きなファイルの場合、投稿されたデータは、キャンペーン管理ビュー内やネットワークの広告マネージャー内ですぐに利用できません。
 
-            * **[!UICONTROL End Time]:** 「[」の](feed-settings-manage.md#feed-data-settings) フィード データ設定[!UICONTROL When the Scheduled End Date is reached]に基づいて、投稿された広告を一時停止または削除できる今後の日時。 デフォルトでは、終了時刻は今日から30日後の00:00 （午前12:00）です。 データを無期限に（またはテンプレート用に新しいデータを反映するまで）アクティブにするか、日時を指定するには、**[!UICONTROL None]**&#x200B;を選択します。
+            * **[!UICONTROL End Time]:** 「[!UICONTROL When the Scheduled End Date is reached]」の[&#x200B; フィード データ設定](feed-settings-manage.md#feed-data-settings)に基づいて、投稿された広告を一時停止または削除できる今後の日時。 デフォルトでは、終了時刻は00:00 （午前12:00）です。 本日から30日間。 データを無期限に（またはテンプレート用に新しいデータを反映するまで）アクティブにするか、日時を指定するには、**[!UICONTROL None]**&#x200B;を選択します。
 
               日付を指定するには、DD/MM/YYYYまたはD/M/YYYY形式を使用するか、![&#x200B; カレンダー](/help/search-social-commerce/assets/calendar.png " カレンダー")をクリックしてカレンダーを開き、[日付を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)します。 時間を変更するには、時間を24時間形式HH/MMまたはH/Mで入力するか、リストから時間（30分間隔）を選択します。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
       * **[!UICONTROL Generate Tracking URLs]:** キーワードおよび広告バリエーションのトラッキング URLをバルクシート ファイルに含めるかどうか：*[!UICONTROL Yes]* （デフォルト）または&#x200B;*[!UICONTROL No]*。
 
-        *[!UICONTROL Yes]*&#x200B;を選択すると、URLは、[!UICONTROL Tracking Methods] アカウント設定[の](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) パラメーターに従ってキーワードと広告のベース URLから生成されます。また、データを既存のキャンペーンにマッピングしている場合は、既存の[!UICONTROL Tracking Methods] キャンペーン設定[の](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) パラメーターに生成されます。
+        *[!UICONTROL Yes]*&#x200B;を選択すると、URLは、[&#x200B; アカウント設定](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)の[!UICONTROL Tracking Methods] パラメーターに従ってキーワードと広告のベース URLから生成されます。また、データを既存のキャンペーンにマッピングしている場合は、既存の[&#x200B; キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)の[!UICONTROL Tracking Methods] パラメーターに生成されます。
 
         関連するアイテムにトラッキング URLが存在する場合、新しいURLが必要でない限り再生成されません（例えば、キーワードマッチタイプ、クリエイティブテキスト、アカウントのトラッキングパラメーターが変更された場合など）。
 

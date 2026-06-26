@@ -8,20 +8,20 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 391
 ht-degree: 0%
 
 ---
 
 # 広告ネットワークデータの手動同期
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising] （旧称[!DNL Bing Ads]）、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]、および既存の[!DNL Baidu] アカウントのみ*
+*[!DNL Google Ads]、[!DNL LY Ads] （旧称[!DNL Yahoo! Japan Ads]）、[!DNL Microsoft Advertising] （旧称[!DNL Bing Ads]）、[!DNL Yandex]、および既存の[!DNL Baidu] アカウントのみ*
 
 同期とは、[&#x200B; サポートされている広告ネットワーク &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)上の各広告主の接続された広告ネットワークアカウントに関する更新情報をSearch, Social, &amp; Commerceが収集するプロセスです。 このデータには、広告主のキャンペーン構造とキャンペーンエンティティ（Search, Social, &amp; Commerceで管理または報告されているほとんどの属性を含む）が含まれます。 クリックデータは含まれず、Search, Social, &amp; Commerceの外部に入力された入札額や入札修飾子も含まれません。
 
-Search, Social, &amp; Commerceは、1日に1回、広告ネットワークのアカウントと自動的に同期します。また、広告ネットワークの1つで新しいキャンペーンが検出されるたびに同期します。 さらに、検索、ソーシャル、Commerce内から作成されたキャンペーンデータへのあらゆる変更が、広告ネットワークにすぐに送信されます。
+Search, Social, &amp; Commerceは、広告ネットワークのアカウントと毎日のように自動的に同期します。また、広告ネットワークの1つで新しいキャンペーンが検出されるたびに同期します。 さらに、検索、ソーシャル、Commerce内から作成されたキャンペーンデータへのあらゆる変更が、広告ネットワークにすぐに送信されます。
 
 指定したアカウントまたは特定のアクティブおよび一時停止したキャンペーンのすべてのアクティブおよび一時停止キャンペーンの同期を手動でリクエストできます。 このタスクは、広告ネットワーク上の新しいエンティティまたは変更されたエンティティを収集します。
 

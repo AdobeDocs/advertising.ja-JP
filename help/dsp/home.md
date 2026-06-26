@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ffaa0312ba2e1f583e11326c867838753fa9c6ff
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
-source-wordcount: 7476
+source-wordcount: 7507
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年6月23日（PT） | [!UICONTROL Placements]、郵便番号 | 各国の郵便番号のリストを作成して、プレースメントのターゲットまたは除外として再利用できるようになりました。 | 「[郵便番号リストの管理](/help/dsp/resources/lists-postal-codes-manage.md)」および「[配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)」を参照してください。 |
 | 2026年6月9日（PT） | Adobe Customer Journey Analyticsとの連携 | Customer Journey Analyticsを使用しているが[!DNL Analytics for Advertising]ではない広告主は、Adobe Experience Platform [!DNL Web SDK]を使用してAdobe AdvertisingとCustomer Journey Analytics間でデータをネイティブに交換できます。 | 「[Adobe AdvertisingとCustomer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)の連携の概要」を参照してください。 |
 | 2026年6月3日（PT） | [!DNL Adobe Analytics for Advertising] | Advertising Creativeおよび[!DNL Adobe Analytics for Advertising]を使用している広告主は、Adobe Analyticsでバリアント レベルおよびブランチ レベルのデータを表示できるようになりました。 [!DNL Creative] エクスペリエンスから広告を実行するために使用されるDSPに関係なく、データが表示されます。 Advertising DSPのプレースメントから広告を実行する場合は、キャンペーンレベルおよびプレースメントレベルのデータと、コスト関連の指標も表示されます。<br><br>追加の設定は必要ありません。 | [!DNL Analytics]に表示されているAdvertising Creative [&#x200B; トラフィック指標](https://experienceleague.adobe.com/ja/docs/analytics/components/metrics/amo-metrics)および[分類](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#classifications)を参照してください。 |
 | 2026年5月20日（PT） | ファーストパーティオーディエンスソース、ユニバーサル ID、[!UICONTROL Placements] | オーストラリアの広告主は、ターゲット広告のセグメントマッピング付きの[!DNL AdFixus] ユニバーサル IDをインポートできるようになりました。 DSPは、ファーストパーティセグメントを他のID タイプに変換することなく、[!DNL AdFixus]からそのまま読み込みます。 このプロセスには、オーディエンスソースの作成と、自動生成されたキーの[!DNL AdFixus] チームとの共有が含まれます。 | 「[1st パーティセグメントを [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)から読み込む」、「[&#x200B; ファーストパーティオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)」、「[&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](/help/dsp/audiences/sources/source-manage.md)」を参照してください。 |

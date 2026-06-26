@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 745
+source-wordcount: 738
 ht-degree: 0%
 
 ---
 
 # キャンペーンの管理
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]および既存の[!DNL Baidu] アカウントのみ*
+*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]および既存の[!DNL Baidu] アカウントのみ*
 
 キャンペーンは、広告ネットワークアカウントの主要なコンポーネントです。 ほとんどのキャンペーンタイプでは、一連の広告グループまたは広告セットで構成されます。 キャンペーンの設定には、キャンペーンの予算パラメーター、広告ターゲット、キャンペーン内のすべての広告のオプションのトラッキングパラメーターが含まれます。 キャンペーンレベルのトラッキングパラメーターは、アカウントレベルのパラメーターを上書きしますが、それ自体が下位レベルで上書きされる場合があります。
 
@@ -36,9 +36,9 @@ ht-degree: 0%
 
 1. 広告ネットワーク、アカウント、キャンペーンの種類を選択し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-   各キャンペーンタイプの説明については、[Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)、[Yahoo！を参照してください。 Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、または[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) キャンペーン設定。
+   各キャンペーンの種類の説明については、[Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)、または[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)のキャンペーン設定を参照してください。
 
-1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)、[Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、または[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) キャンペーン設定。
+1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)、または[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)のキャンペーン設定を入力します。
 
    広告ネットワークに応じて、設定は[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Shopping Settings]、[!UICONTROL Campaign Targeting]、[!UICONTROL Conversion Goals]、[!UICONTROL Advanced Device Options]、[!UICONTROL URL Options]、（[!DNL Google Ads]） [!UICONTROL DSA Options]および（[!DNL Google Ads]） [!UICONTROL Customer Acquisition Goals]にグループ化できます。 [!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]、[!UICONTROL Campaign Tracking]、[!UICONTROL Asset Groups]または[!UICONTROL Campaign Goals]の設定を有効な場合は、それぞれ&#x200B;**[!UICONTROL Add Negative Keywords]**、**[!UICONTROL Add Negative Websites]**、**[!UICONTROL Set Campaign Tracking]**、**[!UICONTROL Manage Asset Groups]**&#x200B;または&#x200B;**[!UICONTROL Set Campaign Goals]**&#x200B;をクリックします。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
       * データテーブルの上にあるツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
 
-1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)、[Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、または[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) キャンペーン設定。
+1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)、または[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)のキャンペーン設定を編集します。
 
    複数のキャンペーンの場合、広告ネットワークに応じて、設定を[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]および[!UICONTROL URL Options]にグループ化できます。 編集できるのは、選択したすべてのキャンペーンに共通するフィールドのみです。変更内容は、選択したすべてのキャンペーンに適用されます。 一部の英数字フィールドでは、既存の値を指定された値に変更する、既存の文字列を指定された文字列に置き換える、指定されたプレフィックスを各値の先頭に追加する、またはサフィックスを各値の末尾に追加するオプションがあります。 一部の金銭的なフィールドでは、既存の値を指定した値に変更したり、指定した割合または金額を増減したり、制限を設けたりするオプションがあります。
 
@@ -108,6 +108,6 @@ ht-degree: 0%
 >
 >* [[!DNL Baidu]  キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads]  キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+>* [[!DNL LY Ads]  キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
 >* [[!DNL Microsoft Advertising]  キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
->* [[!DNL Yahoo! Japan Ads]  キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
 >* [[!DNL Yandex]  キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)

@@ -8,20 +8,20 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: 670
 ht-degree: 0%
 
 ---
 
 # 広告グループの管理
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]および既存の[!DNL Baidu] アカウントのみ*
+*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]および既存の[!DNL Baidu] アカウントのみ*
 
 広告グループには、一連の広告とその関連キーワードが含まれます。 ディスプレイネットワークをターゲットとするキャンペーン内の広告グループには、広告を表示できるディスプレイネットワーク上の場所であるプレースメントも含めることができます。 広告グループのすべてのコンポーネントに適用される広告グループの設定は、広告ネットワークによって異なります。
 
-[同期広告ネットワークアカウント &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)内の[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)の広告グループは、検索、ソーシャル、およびCommerce内から作成できます。 また、広告グループのステータスを編集および変更することもできます。
+[同期広告ネットワークアカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)内の[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)の広告グループは、検索、ソーシャル、およびCommerce内から作成できます。 また、広告グループのステータスを編集および変更することもできます。
 
 ## 広告グループの作成
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 広告ネットワーク、アカウント、キャンペーンを選択し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)、[Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)、または[Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)広告グループ設定。
+1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)、[LY Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)、または[Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)広告グループの設定を入力します。
 
    広告ネットワークによっては、設定が[!UICONTROL Ad Group Details]、[!UICONTROL Budget Options]、[!UICONTROL Ad Group Targeting]、[!UICONTROL URL Options]にグループ化される場合があります。 [!UICONTROL Adgroup Frequency Cap Settings]、[!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]の設定を使用できるようにするには、それぞれ&#x200B;**[!UICONTROL Add Frequency Cap Settings]**、**[!UICONTROL Add Negative Keywords]**&#x200B;または&#x200B;**[!UICONTROL Add Negative Websites]**&#x200B;をクリックします。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
       * データテーブルの上にあるツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
 
-1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)、[Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)、または[Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)広告グループ設定。
+1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)、[LY Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)、または[Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)広告グループの設定を編集します。
 
    複数の広告グループの場合、広告ネットワークに応じて、設定を[!UICONTROL Ad Group Details]、[!UICONTROL Budget Options]、[!UICONTROL Ad Group Targeting]および[!UICONTROL URL Options]にグループ化できます。 編集できるのは、選択したすべての広告グループに共通するフィールドのみです。変更内容は、選択したすべての広告グループに適用されます。 一部の英数字フィールドでは、既存の値を指定された値に変更する、既存の文字列を指定された文字列に置き換える、指定されたプレフィックスを各値の先頭に追加する、またはサフィックスを各値の末尾に追加するオプションがあります。 一部の金銭的なフィールドでは、既存の値を指定した値に変更したり、指定した割合または金額を増減したり、制限を設けたりするオプションがあります。
 
@@ -102,6 +102,6 @@ ht-degree: 0%
 >
 >* [[!DNL Baidu] 広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
 >* [[!DNL Google Ads] 広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+>* [[!DNL LY Ads] 広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
 >* [[!DNL Microsoft Advertising] 広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
->* [[!DNL Yahoo! Japan Ads] 広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
 >* [[!DNL Yandex] 広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)

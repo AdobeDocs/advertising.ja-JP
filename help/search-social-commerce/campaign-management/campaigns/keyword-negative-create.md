@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 272
+source-wordcount: 279
 ht-degree: 0%
 
 ---
 
 # 否定的なキーワードを作成
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]および既存の[!DNL Baidu] アカウントのみ*
+*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]および既存の[!DNL Baidu] アカウントのみ*
 
 検索やディスプレイ/ネイティブネットワークをターゲットとする検索広告グループまたはキャンペーンに対して、ネガティブキーワードを作成できます。 ネガティブキーワードは広告をトリガーにしない。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    複数の値をコンマで区切るか、別々の行に入力します。 1回の操作で最大2000個のネガティブキーワードを入力またはペーストできます。 次の要件と制限も参照してください。
 
-   * 最大文字長：[!DNL Baidu]: 30 シングルバイトまたは15 ダブルバイト、[!DNL Microsoft Advertising]: 100 シングルバイトまたは50 ダブルバイト、[!DNL Google Ads]および[!DNL Yahoo! Japan Ads]: 80 シングルバイトまたは40 ダブルバイト。
+   * 最大文字長：[!DNL Baidu]: 30 シングルバイトまたは15 ダブルバイト、[!DNL Microsoft Advertising]: 100 シングルバイトまたは50 ダブルバイト、[!DNL Google Ads]および[!DNL LY Ads]: 80 シングルバイトまたは40 ダブルバイト。
 
    * [!DNL Baidu]では、広告グループごとにキーワードごとに1つの一致タイプのみが許可されます。 例えば、広告グループ 1に`"keyword"`と`[keyword]`の両方を含めることはできません。
 

@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1249
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # 在庫データフィードファイルの管理
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除操作のみ）、[!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
 
 独自のフィードデータを送信する場合、製品データを含むファイルをアップロードして、製品データに基づいてキャンペーン構造、広告、キーワードを動的に作成する必要があります。 その後、広告ネットワーク固有の広告テンプレートにそれらを関連付けて、テンプレートを通じてデータを処理し、最終的に関連する広告ネットワークにデータを投稿します。 複数のテンプレートを1つのフィードファイルに関連付けることはできますが、各テンプレートは1つのフィードファイルにのみ関連付けることができます。
 

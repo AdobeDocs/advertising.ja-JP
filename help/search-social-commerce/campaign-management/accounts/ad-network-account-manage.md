@@ -13,9 +13,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 2100
+source-wordcount: 2136
 ht-degree: 0%
 
 ---
@@ -157,7 +157,7 @@ Adobeのアカウントチームは、新機能に新しいトークンが必要
 
 >[!NOTE]
 >
->Ad network manager アカウントは、ここではサポートされていません。 [!DNL Microsoft Advertising]または[!DNL Yandex]のマネージャーアカウントを特定するには、「マスターアカウント ID」フィールドまたは「MCC アカウント」フィールドをそれぞれ使用します。 [&#x200B; マネージャーアカウント  [!DNL Google Ads] の資格情報を設定するには、](/help/search-social-commerce/admin/manager-accounts.md) \> [!UICONTROL Admin]に移動します。[!UICONTROL Manager Accounts]
+>Ad network manager アカウントは、ここではサポートされていません。 [!DNL Microsoft Advertising]または[!DNL Yandex]のマネージャーアカウントを特定するには、「マスターアカウント ID」フィールドまたは「MCC アカウント」フィールドをそれぞれ使用します。 [&#x200B; マネージャーアカウント &#x200B;](/help/search-social-commerce/admin/manager-accounts.md)の資格情報を設定するには、[!UICONTROL Admin] \> [!UICONTROL Manager Accounts]に移動します。 [!DNL Google Ads] 
 
 **[!UICONTROL Account Name]:**&#x200B;検索、ソーシャル、およびCommerce内のアカウントに表示される名前。
 
@@ -177,7 +177,7 @@ Adobeのアカウントチームは、新機能に新しいトークンが必要
 
 **[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** （[!DNL Microsoft Advertising] [!DNL oAuth]が有効で、[!DNL Meta]と[!DNL Yandex]を除くすべてのネットワーク） アカウントのトークンは、[[!DNL OAuth] 認証プロトコル &#x200B;](https://oauth.net/2/)を使用してログインを認証します。
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** （[!DNL Naver]を除くすべての広告ネットワーク） アカウントのパスワード。 [!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]のパスワードが有効なアカウントの場合、このフィールドは必須です。 [!DNL oAuth]が有効なアカウントの場合、このフィールドはオプションです。アカウントマネージャーが必要に応じてトークンを更新できるように、パスワードを暗号化して保存する場合に使用します。
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** （[!DNL Naver]を除くすべての広告ネットワーク） アカウントのパスワード。 [!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]のパスワードが有効なアカウントの場合、このフィールドは必須です。 [!DNL oAuth]が有効なアカウントの場合、このフィールドはオプションです。アカウントマネージャーが必要に応じてトークンを更新できるように、パスワードを暗号化して保存する場合に使用します。
 
 **[!UICONTROL Login Details]: [!UICONTROL Access Key]:** （[!DNL Yandex] アカウントのみ）使用する開発者アカウントのアクセスキー。
 
@@ -187,27 +187,27 @@ Adobeのアカウントチームは、新機能に新しいトークンが必要
 
 例：`param1=value1&param2=value2`
 
-Adobe Advertising クリック トラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック ID （`msclkid`の[!DNL Microsoft Advertising]; Googleの`gclid`）を含める必要があります。 Adobe Analyticsとの統合を持つアカウントでは、AMO ID パラメーター（`s_kwcid`で始まる）を使用する必要があります。 アカウントにサーバーサイド AMO ID実装がある場合、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、ここで手動で追加する必要があります。 [の [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)必要なサフィックス形式と[の [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)必要なサフィックス形式を参照してください。
+Adobe Advertising クリック トラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック ID （[!DNL Microsoft Advertising]の`msclkid`; Googleの`gclid`）を含める必要があります。 Adobe Analyticsとの統合を持つアカウントでは、AMO ID パラメーター（`s_kwcid`で始まる）を使用する必要があります。 アカウントにサーバーサイド AMO ID実装がある場合、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、ここで手動で追加する必要があります。  [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の必要なサフィックス形式を参照してください。
 
 >[!NOTE]
 >
 >* このフィールドは、[!UICONTROL Auto Upload] トラッキング設定で更新されません。
 >* 下位レベルの最終URL サフィックスは、アカウントレベルのサフィックスを上書きします。 メンテナンスを容易にするために、個々のアカウントコンポーネントに対して異なるトラッキングが必要でない限り、アカウントレベルのサフィックスのみを使用します。 広告グループレベル以下でサフィックスを設定するには、広告ネットワークのエディターを使用します。
 
-**タイムゾーン：** （[!DNL Baidu]と[!DNL Yahoo! Display Network]を除くすべての広告ネットワーク）広告主のタイムゾーン。 このフィールドは、新しい[!DNL Naver] アカウントに対して編集可能でオプションです。 その他のすべての検索ネットワークでは、レコードを保存すると、広告主のSearch, Social, &amp; Commerce アカウント用に設定されたタイムゾーンで値が自動的に入力されます。
+**タイムゾーン：** （[!DNL Baidu]と[!DNL Yahoo DSP]を除くすべての広告ネットワーク）広告主のタイムゾーン。 このフィールドは、新しい[!DNL Naver] アカウントに対して編集可能でオプションです。 その他のすべての検索ネットワークでは、レコードを保存すると、広告主のSearch, Social, &amp; Commerce アカウント用に設定されたタイムゾーンで値が自動的に入力されます。
 
 **ステータス：** Search, Social, &amp; Commerce内のアカウントステータス：
 
 * *有効：*&#x200B;検索、ソーシャル、およびCommerceは、キャンペーンデータをアカウントと（サポートされている場合）同期し、ポートフォリオ内のキャンペーンの自動入札やキャンペーン予算をプッシュします。
 * *無効：*&#x200B;検索、ソーシャル、およびCommerceは、アカウントのすべてのアクティビティを停止します。 アカウントがアクティブであった間に収集されたデータは引き続き保存されますが、キャンペーン管理ビューとレポートには、アカウントが一時停止された期間のデータは含まれません。 後でアカウントを再アクティブ化して、アカウントのアクティビティを再開できます。
 
-**トラッキングテンプレート** - （[!DNL Google Ads]、[!DNL Microsoft Advertising]、および[!DNL Yahoo! Japan Ads] アカウントのみ。オプション）アカウントのデフォルトのトラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最後のページ URLもパラメーターに埋め込みます。 例：リダイレクトを含める`{lpurl}?source={network}&id=5`または`http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`。
+**トラッキングテンプレート** - （[!DNL Google Ads]、[!DNL LY Ads]、および[!DNL Microsoft Advertising] アカウントのみ。オプション）アカウントのデフォルトのトラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最後のページ URLもパラメーターに埋め込みます。 例：リダイレクトを含める`{lpurl}?source={network}&id=5`または`http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`。
 
 * 最終的なURLを埋め込むには：
 
-   * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[!DNL Microsoft Advertising] ドキュメント [[!DNL Microsoft Advertising] の「使用可能な](https://help.ads.microsoft.com/#apex/3/en/56799) パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Google Ads]のみ） [!DNL ValueTrack] ドキュメント [[!DNL Google Ads] または（](https://support.google.com/google-ads/answer/6305348)のみ）を参照してください。
+   * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）を参照してください。
 
-   * （[!DNL Yahoo! Japan Ads]のみ） パラメーター`!{lpurl}`を使用して、ランディングページ URLを示します。
+   * （[!DNL LY Ads]のみ） パラメーター`!{lpurl}`を使用して、ランディングページ URLを示します。
 
 * 必要に応じて、URL パラメーターと、キャンペーン用に定義された任意のカスタムパラメーターを、アンパサンド（&amp;）で区切って含めることができます（`{lpurl}?matchtype={matchtype}&device={device}`）。
 

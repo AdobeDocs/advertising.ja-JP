@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 484
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 宛先URLを持つアカウントの場合は、適切な[!UICONTROL Base URL] フィールドに値を入力します。
 
-最終的なURLを持つアカウントの場合は、適切な[!UICONTROL Tracking Template] フィールドに画面上の値を入力します。 `&url=` パラメーター（`{lpurl}`など）の後に、最終的なURLのパラメーターを追加する必要があります。 [!DNL Yahoo! Japan Ads] アカウントの場合は、パラメーター`{lpurl}`を使用します。 トラッキングテンプレートの最終的なURLを示す[!DNL Google Ads]および[!DNL Microsoft Advertising] パラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348) （「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーターを参照）および[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799/2)を参照してください。
+最終的なURLを持つアカウントの場合は、適切な[!UICONTROL Tracking Template] フィールドに画面上の値を入力します。 `&url=` パラメーター（`{lpurl}`など）の後に、最終的なURLのパラメーターを追加する必要があります。 [!DNL LY Ads] アカウントの場合は、パラメーター`{lpurl}`を使用します。 トラッキングテンプレートの最終的なURLを示す[!DNL Google Ads]および[!DNL Microsoft Advertising] パラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348) （「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーターを参照）および[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799/2)を参照してください。
 
 >[!MORELIKETHIS]
 >

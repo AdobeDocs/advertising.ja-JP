@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1065'
 ht-degree: 3%
 
 ---
@@ -221,6 +221,7 @@ ht-degree: 3%
    + [コネクテッド TVのリーチプランをアーカイブ](/help/dsp/planner/planner-archive.md)
 + リソース {#resources}
    + [URL リストの管理](/help/dsp/resources/lists-url-manage.md)
+   + [郵便番号リストの管理](/help/dsp/resources/lists-postal-codes-manage.md)
 + 設定/管理 {#admin}
    + [ユーザープロファイルの編集](/help/dsp/admin/user-own-profile-edit.md)
    + ユーザー {#users}

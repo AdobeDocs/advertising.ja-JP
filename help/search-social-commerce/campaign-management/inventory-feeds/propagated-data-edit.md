@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 426
 ht-degree: 0%
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # フィードから生成されたデータの編集
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除操作のみ）、[!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
 
 フィード データを広告ネットワークに同時に投稿せずに反映する場合は、次のいずれかの方法でデータを編集できます。 後で、オプションで[&#x200B; データを投稿](propagated-data-post.md)して、いずれかの場所から関連する広告ネットワークに送信できます。
 
 * このオプションを「[!UICONTROL Propagate and Preview]」に使用した場合は、生成されたバルクシート ファイル （「`<feed file name>_<template name>`」という名前）を、[!UICONTROL Bulksheets] ビューからダウンロードし、ファイルを編集して、再度アップロードすることで編集できます。 データが[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]のタブに含まれていません。
 
-* このオプションを「[!UICONTROL Propagate only]」に使用した場合、キャンペーン階層ビュー内の[[!UICONTROL New]、](propagated-data-status.md)、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]のタブから、[!UICONTROL Keywords] ステータス [!UICONTROL Ads]のコンポーネントに対して生成されたデータを編集できます。
+* このオプションを「[!UICONTROL Propagate only]」に使用した場合、キャンペーン階層ビュー内の[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]のタブから、[[!UICONTROL New] ステータス &#x200B;](propagated-data-status.md)のコンポーネントに対して生成されたデータを編集できます。
 
   キャンペーン階層ビューには、フィードファイルから生成されたデータのみが表示され、既存のアカウントコンポーネントは表示されません。 コンポーネントとそのすべてのサブコンポーネントのデータが広告ネットワークに投稿されると、キャンペーン階層にリストされなくなります。
 

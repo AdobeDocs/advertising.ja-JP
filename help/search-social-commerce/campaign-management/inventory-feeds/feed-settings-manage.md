@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 1155
+source-wordcount: 1164
 ht-degree: 0%
 
 ---
 
 # フィードデータ設定の設定
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除操作のみ）、[!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
 
 フィード データ ファイル内の広告グループ、キーワード、広告の処理方法、およびFTP ファイル内のデータの処理方法を、フィード設定を使用して具体的に設定できます。
 
@@ -101,11 +101,11 @@ ht-degree: 0%
 >
 >* FTP ファイルの場合、フィードサービスは2時間ごとにFTP ディレクトリの更新を確認します（PST タイムゾーンの偶数時間数）。 このオプションは、前回のチェック以降にアップロードされたすべてのファイルを処理します。
 >* マーチャント センターのアカウントの場合、Search、Social、およびCommerceは、広告主のタイムゾーンの約06:00で毎日アカウントと同期します。 このオプションは、前回の同期以降に更新されたすべてのデータを処理します。
->* データが広告ネットワークまたは[!UICONTROL Campaigns] ビューに投稿されるまで、伝達されたデータは[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]、[!UICONTROL Bulksheets]のタブから利用できます。
+>* データが広告ネットワークまたは[!UICONTROL Bulksheets] ビューに投稿されるまで、伝達されたデータは[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]のタブから利用できます。
 
 **[!UICONTROL Post to the SE]:** （広告主がFTPまたはマーチャント センターのアカウントを介してデータ ファイルをアップロードしている場合）は、新しいデータが該当するテンプレートを通じて伝達された後、関連する広告ネットワークに適した形式でバルクシート ファイルを自動的に作成します。 このオプションは、サブコンポーネントにエラーがない限り、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]および[!UICONTROL Ads] タブからもデータを削除します。
 
-このオプションはデフォルトでは無効になっています。 このオプションを有効にするには、チェックボックスをオンにし、バルクシートファイルを広告ネットワークに投稿するかどうかを指定します。
+このオプションはデフォルトでは無効です。 このオプションを有効にするには、チェックボックスをオンにし、バルクシートファイルを広告ネットワークに投稿するかどうかを指定します。
 
 * *[!UICONTROL Immediately]* （既定値）: データがテンプレートを通じて伝達された後、一括シート ファイルを関連する広告ネットワークに投稿します。 バルクシートファイルは、30日間[!UICONTROL Bulksheets] ビューで引き続き利用できます。
 

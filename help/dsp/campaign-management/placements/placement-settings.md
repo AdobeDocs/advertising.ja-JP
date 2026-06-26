@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+source-git-commit: 8338485f735af56a90a50b8aa878861b5c0a5894
 workflow-type: tm+mt
-source-wordcount: 4518
+source-wordcount: 4555
 ht-degree: 0%
 
 ---
@@ -173,14 +173,19 @@ ht-degree: 0%
       1. 左側の列で場所の種類を選択します。
       1. （必要に応じて）場所をクリックして展開します。
       1. 場所の横にある「*[!UICONTROL Include]*」をクリックしてターゲットとして含めるか、「*[!UICONTROL Exclude]*」をクリックしてターゲットとして除外します。
+   * [郵便番号リスト &#x200B;](/help/dsp/resources/lists-postal-codes-manage.md)を含めるまたは除外するには：
+      1. 左側の列の&#x200B;**[!UICONTROL Postal Code List]**&#x200B;をクリックします。
+      1. 郵便番号の横にある「*[!UICONTROL Include]*」をクリックしてターゲットとして含めるか、「*[!UICONTROL Exclude]*」をクリックしてターゲットとして除外します。
    * 郵便番号を検索し、選択したすべての結果を含めるまたは除外するには：
-      1. **[!UICONTROL Search Postal Code]**&#x200B;をクリックします。
+      1. 左側の列の&#x200B;**[!UICONTROL Postal Code]**&#x200B;をクリックします。
+      1. 国リストの上の&#x200B;**[!UICONTROL Search]**&#x200B;をクリックします。
       1. 国を選択します。
       1. 市区町村名を入力し、![編集](/help/dsp/assets/search.png)をクリックします。
       1. 正しい検索結果をクリックします。
       1. すべての場所をターゲットとして含めるには、*[!UICONTROL Include All]*&#x200B;をクリックし、すべての場所をターゲットとして除外するには&#x200B;*[!UICONTROL Exclude All]*&#x200B;をクリックします。
    * 郵便番号を入力またはペーストし、すべての郵便番号を含めるまたは除外するには：
-      1. **[!UICONTROL Paste Postal Code]**&#x200B;をクリックします。
+      1. 左側の列の「**[!UICONTROL Postal Code]**」をクリックします。
+      1. 国リストの上の&#x200B;**[!UICONTROL Paste]**&#x200B;をクリックします。
       1. 国を選択します。
       1. 1000件までの郵便番号を入力または貼り付けます。
 1行につき1つの郵便番号を含めるか、コンマまたはタブで区切った複数の値を入力します。

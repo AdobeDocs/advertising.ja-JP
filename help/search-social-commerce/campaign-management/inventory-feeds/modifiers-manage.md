@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 修飾子の管理
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除操作のみ）、[!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
 
 修飾子とは、基本的な文構造を変更することなく、文に追加したり文から削除したりできる形容詞または副詞です。 フィード データ テンプレートの様々なデータ フィールドで変数として使用する修飾子のグループを作成できます。 アカウント構造（キャンペーンと広告グループ）フィールド、キーワード、ベース URL、広告に修飾子を含めることで、関連付けられた各修飾子値に1つの値を作成できます。 例えば、広告の見出しで修飾子グループ変数を使用し、修飾子グループに3つの修飾子（「安い」、「割引」、「手頃な価格」）が含まれている場合、データフィードのデータ行ごとに3つの個別の広告が作成されます。各修飾子に1つずつ作成されます。 同様に、広告グループのベース URLに複数の値を持つ修飾子グループを含める場合、生成されるベース URLごとに1つのキーワード セットが作成されます。
 

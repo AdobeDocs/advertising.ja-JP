@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 1423
+source-wordcount: 1427
 ht-degree: 0%
 
 ---
 
 # 在庫フィードの広告テンプレートを管理する
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （削除操作のみ）、[!DNL Yandex] アカウントのみ*
+*[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
 
 データをアップロードする前またはアップロード後に、データを処理できる検索エンジン固有の広告テンプレートを作成できます。 テキスト広告および拡張/拡張テキスト広告、[!DNL Google Ads]および[!DNL Microsoft Advertising]のレスポンシブ検索広告、および[!DNL Google Ads]および[!DNL Microsoft Advertising]のショッピング広告のテンプレートを作成できます。
 

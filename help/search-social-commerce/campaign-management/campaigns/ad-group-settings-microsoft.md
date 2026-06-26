@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 651
+source-wordcount: 655
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]:** （ディスプレイ/ネイティブネットワーク上のキャンペーンのみ。オプション）広告を表示しないディスプレイネットワーク上のサイト。 www.example.comなどの有効なURLを入力します。 複数の文字列を指定するには、それらをコンマで区切るか、別々の行に入力します。
 
-利用可能性について詳しくは、「[!DNL Microsoft Advertising]特定のweb サイトに広告が表示されないようにする[」の](https://help.ads.microsoft.com/#apex/bae/en/14061/0) ヘルプを参照してください。
+利用可能性について詳しくは、「[特定のweb サイトに広告が表示されないようにする](https://help.ads.microsoft.com/#apex/bae/en/14061/0)」の[!DNL Microsoft Advertising] ヘルプを参照してください。
 
 >[!MORELIKETHIS]
 >

@@ -12,9 +12,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 2617
+source-wordcount: 2700
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search with Display Select]:*&#x200B;検索ネットワーク （検索結果[!DNL Google]件、オプションで検索パートナーサイトを含む）に広告が表示され、ディスプレイネットワークサイトに広告が表示される可能性があります。 ディスプレイ ネットワークでは、[!DNL Google Ads]は、キャンペーンの入札戦略に関係なく、自動入札を使用して選択的に広告を表示します。 検索広告の場合は、各広告グループのキーワードを指定します。ディスプレイ広告の場合は、プレースメントを指定し、オプションで各広告グループのキーワードを指定します。
 
-* *[!UICONTROL Shopping Network]:* [!DNL Google]が商品に基づいて自動的に生成する商品広告を表示します。これは、[!DNL Google Merchant Center]の[!DNL Google Shopping]、[!DNL Google]の検索結果の横にある領域（テキスト広告とは別）、および（オプションで）パートナーのweb サイトを検索します。 キャンペーンの各広告グループに対して、広告する製品グループを指定できます。
+* *[!UICONTROL Shopping Network]:* [!DNL Google]が商品に基づいて自動的に生成する商品広告を表示します。これは、[!DNL Google Shopping]の[!DNL Google Merchant Center]、[!DNL Google]の検索結果の横にある領域（テキスト広告とは別）、および（オプションで）パートナーのweb サイトを検索します。 キャンペーンの各広告グループに対して、広告する製品グループを指定できます。
 
 * *[!UICONTROL Display Network Only]:* ディスプレイ ネットワークに広告を表示します。 広告グループごとに、プレースメントを指定する必要があり、オプションでキーワードを指定できます。
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 **ヒント：**&#x200B;この設定を使用する場合は、[!UICONTROL Inventory Filter]設定でローカル広告を除外しないでください。
 
-**注：**&#x200B;のローカル在庫広告では、[!DNL Google Merchant Center]への2つの追加フィードが必要です。1つはローカル製品データで、もう1つはローカル製品の在庫で必要です。 [!DNL Google Ads] ローカルショッピング広告[について詳しくは、](https://www.google.com/retail/local-inventory-ads/)のドキュメントを参照してください。
+**注：**&#x200B;のローカル在庫広告では、[!DNL Google Merchant Center]への2つの追加フィードが必要です。1つはローカル製品データで、もう1つはローカル製品の在庫で必要です。 [&#x200B; ローカルショッピング広告](https://www.google.com/retail/local-inventory-ads/)について詳しくは、[!DNL Google Ads]のドキュメントを参照してください。
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 

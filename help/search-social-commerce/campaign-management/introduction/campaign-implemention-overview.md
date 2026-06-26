@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 979
+source-wordcount: 992
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Adobeは、各広告主と連携して、広告ネットワークアカウント
 
       * （Google Ads、Microsoft Advertising、Yahoo! 広告、およびYandex アカウントのみ）作成した広告ネットワーク固有の広告テンプレートと、FTPの場所にアップロードした在庫データファイルの内容に従って、在庫内の各項目をターゲットとする動的な広告とキーワードを作成する[自動プロセスを設定します](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)。
 
-      * （Baidu、Google Ads、Microsoft Advertising、Yahoo! Japan Ads、およびYandex アカウントのみ） アカウントに必要な量のデータを含む[&#x200B; バルクシート ファイル &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)をアップロードし、広告ネットワークに投稿します。
+      * （Baidu、Google Ads、[!DNL LY Ads]、Microsoft Advertising、およびYandex アカウントのみ）アカウントに必要な量のデータを含む[&#x200B; バルクシート ファイル &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)をアップロードしてから、アドネットワークに投稿します。
 
-      * （Baidu、Google Ads、Microsoft Advertising、Yahoo! Japan Ads、およびYandex アカウントのみ）個々のコンポーネントのデータをインターフェイスに直接入力します。 ほとんどのキャンペーンと広告タイプでは、キャンペーンレベル、広告グループレベル、個々のキーワード、プレースメント、広告レベルでデータを作成できます。
+      * （Baidu、Google Ads、[!DNL LY Ads]、Microsoft Advertising、およびYandex アカウントのみ）個々のコンポーネントのデータをインターフェイスに直接入力します。 ほとんどのキャンペーンと広告タイプでは、キャンペーンレベル、広告グループレベル、個々のキーワード、プレースメント、広告レベルでデータを作成できます。
 
       ただし、一部のキャンペーンや広告タイプでは、独自のワークフローが必要です。 [[!DNL Microsoft Advertising]  ショッピングキャンペーン &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)、[[!DNL Google Ads] 動的検索広告](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)、[[!DNL Google Ads]  パフォーマンスの最大キャンペーン &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)および[[!DNL Google Ads]  ショッピングキャンペーン &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)の設定に関する手順を参照してください。
 
@@ -61,7 +61,7 @@ Adobeは、各広告主と連携して、広告ネットワークアカウント
 
 1. Adobe Advertisingがコンバージョンをトラッキングするすべての広告にトラッキングを設定します。
 
-   1. （Adobe Advertising コンバージョントラッキングサービスを使用する広告主）必要に応じて、検索、ソーシャル、およびCommerceのクリックトラッキング URLを生成してアップロードすることで、広告のクリックトラッキング [を](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)設定し、オプションでキーワード、プレースメント、および広告拡張機能を設定します。
+   1. （Adobe Advertising コンバージョントラッキングサービスを使用する広告主）必要に応じて、検索、ソーシャル、およびCommerceのクリックトラッキング URLを生成してアップロードすることで、広告のクリックトラッキング [&#128279;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)を設定し、オプションでキーワード、プレースメント、および広告拡張機能を設定します。
 
       パフォーマンスの最大キャンペーン [!DNL Google Ads]件について、[件のキャンペーンのトラッキング設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)ですべてのトラッキングを設定します。
 
@@ -69,7 +69,7 @@ Adobeは、各広告主と連携して、広告ネットワークアカウント
 
    1. コンバージョン追跡の設定。 実装に応じて、これには、広告主のweb ページにコンバージョン追跡タグを追加したり、広告主が個別に収集したコンバージョンデータの毎日のフィードドロップを設定したりすることが含まれます。
 
-      Adobe Advertising コンバージョントラッキングサービスを使用している場合は、Search, Social, &amp; Commerce内で[&#x200B; コンバージョントラッキングタグ &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md)を生成するか、Adobe Experience Platform[&#x200B; （旧Adobe Experience Platform Launch）から](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=ja) タグを使用できます。
+      Adobe Advertising コンバージョントラッキングサービスを使用している場合は、Search, Social, &amp; Commerce内で[&#x200B; コンバージョントラッキングタグ &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md)を生成するか、Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=ja) （旧Adobe Experience Platform Launch）から タグを使用できます。
 
    1. 追跡されたデータを検証します。
 

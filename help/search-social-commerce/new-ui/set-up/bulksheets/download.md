@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 1637
 ht-degree: 0%
@@ -129,30 +129,30 @@ ht-degree: 0%
 
 ## 広告ネットワーク別のバルクシート行 {#bulksheet-rows-by-ad-network}
 
-| バルクシート行 | [!DNL Baidu] | [!DNL Google Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo! Japan Ads] | [!DNL Yahoo Native] | [!DNL Yandex] | メモ |
+| バルクシート行 | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo DSP] | [!DNL Yahoo Native] | [!DNL Yandex] | メモ |
 |----|----|----|----|-------|----|----|----|----|----|----|
 | [!UICONTROL Campaign] | はい | はい | はい | はい | はい | はい | はい | はい | はい | — |
 | [!UICONTROL Adgroup] | はい | はい | はい | はい | はい | はい | はい | はい | はい | — |
-| [!UICONTROL Creative] *または* [!UICONTROL Creative (except RSA)] | はい | はい | はい | — | — | はい | はい | はい | はい | （[!DNL Google Ads]） [!UICONTROL Responsive Search Ad]行にあるレスポンシブ検索広告を除くすべての広告タイプで使用します。 |
-| [!UICONTROL Responsive Search Ad] | — | はい | はい | — | — | — | — | — | — | — |
-| [!UICONTROL Keyword] | はい | はい | はい | はい | はい | — | はい | はい | はい | 非負のキーワードにのみ使用します。 キャンペーンまたは広告グループレベルで作成された否定的なキーワードを表示するには、使用可能な場合は[!UICONTROL Campaign Negative Keyword]行または[!UICONTROL Adgroup Negative Keyword]行を使用します。 |
-| [!UICONTROL Promoted Pin] | — | — | — | — | はい | — | — | — | — | — |
+| [!UICONTROL Creative] *または* [!UICONTROL Creative (except RSA)] | はい | はい | はい | はい | — | — | はい | はい | はい | （[!DNL Google Ads]） [!UICONTROL Responsive Search Ad]行にあるレスポンシブ検索広告を除くすべての広告タイプで使用します。 |
+| [!UICONTROL Responsive Search Ad] | — | はい | — | はい | — | — | — | — | — | — |
+| [!UICONTROL Keyword] | はい | はい | はい | はい | はい | はい | — | はい | はい | 非負のキーワードにのみ使用します。 キャンペーンまたは広告グループレベルで作成された否定的なキーワードを表示するには、使用可能な場合は[!UICONTROL Campaign Negative Keyword]行または[!UICONTROL Adgroup Negative Keyword]行を使用します。 |
+| [!UICONTROL Promoted Pin] | — | — | — | — | — | はい | — | — | — | — |
 | [!UICONTROL Placement] | — | はい | — | — | — | — | — | — | — | — |
-| [!UICONTROL Auto Target] | — | はい | はい | — | — | — | — | — | — | 広告グループの動的検索ターゲットに使用します。 |
-| [!UICONTROL Shopping Product Group] | — | はい | はい | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Site Link] | — | はい | はい | — | — | — | — | はい | — | — |
-| [!UICONTROL Campaign Negative Keyword] | はい | はい | はい | — | — | — | はい | はい | — | キャンペーンまたは広告グループレベルで作成されたネガティブキーワードにのみ使用します。 負でないキーワードを表示するには、使用可能な場合は[!UICONTROL Keyword]行を使用します。 |
-| [!UICONTROL Campaign Negative Website] | — | はい | はい | — | — | — | — | はい | — | — |
+| [!UICONTROL Auto Target] | — | はい | — | はい | — | — | — | — | — | 広告グループの動的検索ターゲットに使用します。 |
+| [!UICONTROL Shopping Product Group] | — | はい | — | はい | — | — | — | — | — | — |
+| [!UICONTROL Campaign Site Link] | — | はい | — | はい | — | — | — | はい | — | — |
+| [!UICONTROL Campaign Negative Keyword] | はい | はい | はい | はい | — | — | — | はい | — | キャンペーンまたは広告グループレベルで作成されたネガティブキーワードにのみ使用します。 負でないキーワードを表示するには、使用可能な場合は[!UICONTROL Keyword]行を使用します。 |
+| [!UICONTROL Campaign Negative Website] | — | はい | — | はい | — | — | — | はい | — | — |
 | [!UICONTROL Adgroup Site Link] | — | はい | — | — | — | — | — | はい | — | — |
 | [!UICONTROL Creative Site Link] | — | — | — | — | — | — | — | — | はい | — |
-| [!UICONTROL Adgroup Negative Keyword] | はい | はい | はい | — | — | — | はい | はい | — | — |
-| [!UICONTROL Adgroup Negative Website] | — | はい | はい | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Location Target] | はい | はい | はい | — | — | — | はい | はい | — | — |
-| [!UICONTROL Adgroup Location Target] | — | — | はい | — | — | — | — | はい | — | — |
-| [!UICONTROL Campaign Device Target] | — | はい | はい | — | — | — | — | はい | — | — |
-| [!UICONTROL Adgroup Device Target] | — | はい | はい | — | — | — | — | はい | — | — |
-| [!UICONTROL Campaign RLSA Target] | — | はい | はい | — | — | — | — | — | — | — |
-| [!UICONTROL Adgroup RLSA Target] | — | はい | はい | — | — | — | — | — | — | — |
+| [!UICONTROL Adgroup Negative Keyword] | はい | はい | はい | はい | — | — | — | はい | — | — |
+| [!UICONTROL Adgroup Negative Website] | — | はい | — | はい | — | — | — | — | — | — |
+| [!UICONTROL Campaign Location Target] | はい | はい | はい | はい | — | — | — | はい | — | — |
+| [!UICONTROL Adgroup Location Target] | — | — | — | はい | — | — | — | はい | — | — |
+| [!UICONTROL Campaign Device Target] | — | はい | — | はい | — | — | — | はい | — | — |
+| [!UICONTROL Adgroup Device Target] | — | はい | — | はい | — | — | — | はい | — | — |
+| [!UICONTROL Campaign RLSA Target] | — | はい | — | はい | — | — | — | — | — | — |
+| [!UICONTROL Adgroup RLSA Target] | — | はい | — | はい | — | — | — | — | — | — |
 | [!UICONTROL Campaign RLSA Negative] | — | はい | — | — | — | — | — | — | — | — |
 | [!UICONTROL Adgroup RLSA Negative] | — | はい | — | — | — | — | — | — | — | — |
 
@@ -160,10 +160,10 @@ ht-degree: 0%
 
 * [&#x200B; [!DNL Baidu]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
 * [&#x200B; [!DNL Google Ads]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [&#x200B; [!DNL LY Ads]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
 * [&#x200B; [!DNL Microsoft Advertising]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
 * [&#x200B; [!DNL Naver]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-* [&#x200B; [!DNL Yahoo! Display Network]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [&#x200B; [!DNL Yahoo! Japan Ads]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+* [&#x200B; [!DNL Yahoo DSP]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
 * [&#x200B; [!DNL Yandex]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]
