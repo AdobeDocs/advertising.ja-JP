@@ -8,20 +8,20 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 76dcbceead386ad4f5117c23e449aa904696f338
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 753
 ht-degree: 0%
 
 ---
 
 # キャンペーンの管理
 
-*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]および既存の[!DNL Baidu] アカウントのみ*
-
 キャンペーンは、広告ネットワークアカウントの主要なコンポーネントです。 ほとんどのキャンペーンタイプでは、一連の広告グループまたは広告セットで構成されます。 キャンペーンの設定には、キャンペーンの予算パラメーター、広告ターゲット、キャンペーン内のすべての広告のオプションのトラッキングパラメーターが含まれます。 キャンペーンレベルのトラッキングパラメーターは、アカウントレベルのパラメーターを上書きしますが、それ自体が下位レベルで上書きされる場合があります。
 
 [広告ネットワークアカウントをアクセス可能にする](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)と、Search, Social, &amp; Commerceがアカウントデータを広告ネットワークと同期したら、[&#x200B; サポートされているキャンペーンの種類](/help/search-social-commerce/introduction/supported-inventory.md)を使用して新しいキャンペーンを作成できます。 キャンペーンのステータスを編集および変更することもできます。
+
+各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 ## キャンペーンの作成
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
       * データテーブルの上にあるツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
 
-1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)、または[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)のキャンペーン設定を編集します。
+1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、[Meta Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-meta.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)または[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) キャンペーンの設定を編集します。
 
    複数のキャンペーンの場合、広告ネットワークに応じて、設定を[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]および[!UICONTROL URL Options]にグループ化できます。 編集できるのは、選択したすべてのキャンペーンに共通するフィールドのみです。変更内容は、選択したすべてのキャンペーンに適用されます。 一部の英数字フィールドでは、既存の値を指定された値に変更する、既存の文字列を指定された文字列に置き換える、指定されたプレフィックスを各値の先頭に追加する、またはサフィックスを各値の末尾に追加するオプションがあります。 一部の金銭的なフィールドでは、既存の値を指定した値に変更したり、指定した割合または金額を増減したり、制限を設けたりするオプションがあります。
 
@@ -109,5 +109,6 @@ ht-degree: 0%
 >* [[!DNL Baidu]  キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads]  キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
 >* [[!DNL LY Ads]  キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+>* [[Meta Ads] キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-meta.md)
 >* [[!DNL Microsoft Advertising]  キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
 >* [[!DNL Yandex]  キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
