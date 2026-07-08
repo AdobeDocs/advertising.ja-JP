@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
+source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 834
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 0%
 
 Search, Social, &amp; Commerceを使用すると、検索、表示/コンテンツ、ソーシャル、ショッピング、オーディエンス、パフォーマンスの最大数キャンペーンを1か所で追跡および/または管理できます。 広告ネットワークとキャンペーンのタイプに応じて、利用可能な機能には、広告ネットワークとの同期、機能の作成と編集、トラッキングとコンバージョンのアトリビューション、レポート、入札と予算の最適化などがあります。 各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
-[!UICONTROL Campaigns] ビューでキャンペーンデータを追加および編集すると、Search, Social, &amp; Commerceは、データの変更を直ちに広告ネットワークにプッシュします。 Search, Social, &amp; Commerceでは、同期された[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントからキャンペーン構造データを取得し、1時間ごとにデータをクリックしたり、同期されたその他の広告ネットワークアカウントを毎日クリックしたりします。新しいキャンペーンが検出されたときに多くの場合があります。 同期されているすべての広告ネットワークに対して、必要に応じてアカウントをオンデマンドで同期することもできます。
+[!UICONTROL Campaigns] ビューでキャンペーンデータを追加および編集すると、Search, Social, &amp; Commerceは、データの変更を直ちに広告ネットワークにプッシュします。 また、Search, Social, &amp; Commerceでは、同期された広告ネットワークアカウントからキャンペーン構造データとクリックデータを毎日取得します。新しいキャンペーンが検出されたときに、より頻繁に取得します。 同期されているすべての広告ネットワークに対して、必要に応じてアカウントをオンデマンドで同期することもできます。
+
+Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!DNL Microsoft Advertising]個のアカウントから毎時間、他の同期された広告ネットワーク アカウントに対して毎日パフォーマンスデータを取得します。
 
 ## 広告ネットワークアカウントへのアクセスの設定
 
