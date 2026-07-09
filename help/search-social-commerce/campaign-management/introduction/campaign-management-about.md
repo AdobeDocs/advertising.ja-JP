@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
+source-git-commit: 61a66d7d35873247de40480f7361f87e2dedde88
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 850
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 広告主の広告ネットワークアカウント内の広告のパフォーマンスを追跡するため（および広告の入札を行う可能性がある）、Adobe アカウントチーム [は、Search, Social, &amp; Commerceで対応するアカウントレコード &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)を作成します。 アカウントレコードには、トラッキングオプションが含まれます。
 
-広告ネットワークのAPIを介して同期されているアカウントの場合、アカウントレコードにはアカウントアクセス資格情報も含まれます。 アカウントが有効になると、アカウントデータが広告ネットワークから取得されます。 その後、既存のアカウントデータを表示したり、キャンペーン構造や広告データを作成および編集したりできます。
+広告ネットワークのAPIを介して同期されているアカウントの場合、アカウントレコードにはアカウントアクセス資格情報も含まれます。 アカウントが有効になると、アカウントデータが広告ネットワークから取得されます。 その後、既存のアカウントデータを表示し、キャンペーン構造と広告データを作成および編集できます。
 
 ## クリックをコンバージョンに結び付けるトラッキング
 
-Adobe Advertising コンバージョントラッキングサービスを使用する場合は、ランディングページのサフィックス、トラッキングテンプレート、広告、キーワード、プレースメント、サイトリンク、商品リストの最終版/宛先URLに、検索、ソーシャル、Commerceのクリックトラッキングコードを含める必要があります。 キャンペーン設定が「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」を含む[&#x200B; サポートされている広告ネットワークおよびキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)の場合、レコードを保存すると、Search, Social, &amp; Commerceは独自のリダイレクトコードとトラッキングコードを自動的に追加するため、手動で追加する必要はありません。 それ以外の場合は、トラッキングテンプレートまたは最終的なURLにコードを手動で追加する必要があります。
+Adobe Advertising コンバージョントラッキングサービスを使用する場合は、ランディングページのサフィックス、トラッキングテンプレート、広告、キーワード、プレースメント、サイトリンク、商品リストの最終版/宛先URLに、検索、ソーシャル、Commerceのクリックトラッキングコードを含める必要があります。 キャンペーン設定が「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」を含む[&#x200B; サポートされている広告ネットワークおよびキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)の場合、レコードを保存すると、Search, Social, &amp; Commerceは独自のリダイレクトコードとトラッキングコードを自動的に追加するため、手動で追加する必要はありません。 それ以外の場合は、Search、Social、およびCommerce内から、または広告ネットワークの独自のエディター内から、トラッキングテンプレートまたは最終的なURLにコードを手動で追加する必要があります。
 
 トラッキングについて詳しくは、「トラッキング」の章を参照してください。
 

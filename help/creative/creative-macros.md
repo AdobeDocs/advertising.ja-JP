@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3c3bffe0c28bb24c0df9385f9cc91be1376a66d2
 workflow-type: tm+mt
-source-wordcount: 237
+source-wordcount: 319
 ht-degree: 0%
 
 ---
@@ -44,7 +44,13 @@ ht-degree: 0%
 | `${TM_RANDOM}` | A random number between 1 and 1000000 | &mdash; | &mdash; |
 | `${TM_TIMESTAMP}` | The Unix Timestamp (in seconds) | &mdash; | &mdash; |
 | `${TM_CLICK_URL_URLENC}` | (For third-party ads from vendors who require URL encoding) The encoded click redirect URL, which enables ad servers to track and count ad clicks. When the ad is served and the user clicks on it, the macro is activated, and the click is recorded and counted for reporting purposes. | Yes | &mdash; |
-
+| `${TC_1}` | Custom tracking code 1. | &mdash; | &mdash; |
+| `${TC_2}` | Custom tracking code 2. | &mdash; | &mdash; |
+| `${TC_3}` | Custom tracking code 3. | &mdash; | &mdash; |
+| `${TC_4}` | Custom tracking code 4. | &mdash; | &mdash; |
+| `${TC_5}` | Custom tracking code 5. | &mdash; | &mdash; |
+| `${GDPR_ENFORCED}` | Whether GDPR enforcement is required for the bid request. Values: **1** = GDPR should be enforced, **0** = GDPR should not be enforced. | &mdash; | &mdash; |
+| `${GDPR_CONSENT}` | The GDPR consent value received from the supply partner in the bid request. Typically: **1** = consent provided, **0** = no consent provided. | &mdash; | &mdash; |
 -->
 
 | マクロ | 説明 | Advertising DSPのエクスペリエンスタグは自動的に生成されますか？ |
@@ -54,16 +60,22 @@ ht-degree: 0%
 | `${TM_PLACEMENT_ID_NUM}` | DSPからプレースメント IDを追跡およびレポートします | はい |
 | `${TM_AD_ID_NUM}` | DSPから広告IDを追跡してレポートします | はい |
 | `${TM_CREATIVE_ID_NUM}` | DSPからクリエイティブ IDをトラッキングおよびレポートします | 該当なし |
-| `${TM_SESSION_ID}` | DSPからインプレッション IDを追跡およびレポートします。 値が返されない場合は、Advertising Creativeによって値が生成されます。 | はい |
+| `${TM_SESSION_ID}` | 広告リクエストに関連付けられたセッション IDを追跡およびレポートします。 値が返されない場合は、Advertising Creativeによって値が生成されます。 | はい |
 | `${TM_ACC_EXPERIENCE_ID}` | Advertising Creative エクスペリエンス IDのトラッキングとレポート | — |
 | `${TM_ACC_CREATIVE_ID}` | Advertising Creativeのクリエイティブ IDをトラッキングおよびレポートします | — |
-| `${TM_RANDOM}` | 1 ～ 1000000の間の乱数 | — |
+| `${TM_RANDOM}` | 1 ～ 1,000,000のランダムに生成された数値。 キャッシュバスティングによく使用されます。 | — |
 | `${TM_TIMESTAMP}` | UNIX® タイムスタンプ （秒単位） | — |
-| `${TM_CLICK_URL_URLENC}` | （URL エンコーディングを必要とするベンダーからのサードパーティ広告の場合）エンコードされたクリックリダイレクト URL。広告サーバーが広告クリックを追跡およびカウントできるようにします。 ユーザーが広告をクリックすると、マクロがアクティブになり、クリックはレポート用に記録され、カウントされます。 | はい |
+| `${TM_CLICK_URL_URLENC}` | （URL エンコーディングを必要とするベンダーからのサードパーティ広告の場合）エンコードされたクリックリダイレクト URL。広告サーバーが広告クリックを追跡およびカウントできるようにします。 ユーザーが広告をクリックすると、マクロがアクティブ化され、クリックはレポート用に記録され、カウントされます。 | はい |
+| `${TC_1}` | カスタムトラッキングコード 1。 | — |
+| `${TC_2}` | カスタムトラッキングコード 2。 | — |
+| `${TC_3}` | カスタムトラッキングコード 3。 | — |
+| `${TC_4}` | カスタムトラッキングコード 4。 | — |
+| `${TC_5}` | カスタムトラッキングコード 5。 | — |
+| `${GDPR_ENFORCED}` | 入札要求にGDPRの適用が必要かどうか。 値：**1** = GDPRは適用する必要があります。**0** = GDPRは適用しないでください。 | — |
+| `${GDPR_CONSENT}` | 入札リクエストでサプライパートナーから受け取ったGDPR同意値。 通常：**1** =同意が提供されました。**0** =同意が提供されていません。 | — |
 
 >[!MORELIKETHIS]
 >
 >* [標準クリエイティブをクリエイティブライブラリに追加](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [標準クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* [&#x200B; ターゲット設定](/help/creative/experiences/experience-settings-targeting.md)
->*[&#x200B; ターゲティングされていないエクスペリエンス設定](/help/creative/experiences/experience-settings-no-targeting.md)
+>* &lbrack; ターゲットエクスペリエンス設定*[&#x200B; ターゲティングされていないエクスペリエンス設定](/help/creative/experiences/experience-settings-no-targeting.md)
