@@ -3,64 +3,70 @@ role: User
 user-guide-title: Advertising Creative ガイド
 user-guide-description: Advertising Creative を使用するために必要な主な機能、タスク、設定、その他のリソースについて学習します。
 breadcrumb-title: Creative ガイド
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 0c7c5962b0e2b0c72147b0ff27ba83acb5cbf326
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 5%
+source-wordcount: '428'
+ht-degree: 4%
 
 ---
 
 
-# Advertising Creative 2.0 Guide {#creative}
+# Advertising Creative 2.0 ガイド {#creative}
 
 + [新機能](/help/creative/home.md)
 + 概要 {#introduction}
-   + [About Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
-   + [Customize your data views](/help/creative/introduction/customize-data-views.md)
-   + [Workflows for dynamic ads](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [Support for consumer privacy](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
-   + [Policies and guidelines](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
+   + [Adobe Advertising Creativeについて](/help/creative/introduction/creative-about.md)
+   + [データビューのカスタマイズ](/help/creative/introduction/customize-data-views.md)
+   + [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)
+   + [消費者のプライバシーのサポート](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [ポリシーとガイドライン](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
++ Creative Studio {#creative-studio}
+   + [Creative Studioについて](/help/creative/creative-studio/creative-studio-about.md)
+   + [標準広告を管理](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
+   + [動的クリエイティブの管理](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
+   + [テンプレートの管理](/help/creative/creative-studio/creative-studio-manage-templates.md)
+   + [アセットの管理](/help/creative/creative-studio/creative-studio-manage-assets.md)
 + Creative libraries {#creative-libraries}
-   + [About your creative libraries](/help/creative/creative-libraries/creative-libraries-about.md)
-   + [Supported creative sizes](/help/creative/creative-libraries/creative-sizes.md)
-   + [Manage creative libraries](/help/creative/creative-libraries/creative-library-manage.md)
-   + Creatives {#creatives}
-      + [Configure access to Adobe Experience Manager image assets](/help/creative/creative-libraries/aem-assets-configure.md)
-      + Standard creatives {#standard-creatives}
-         + [Add standard creatives to a creative library](/help/creative/creative-libraries/creative-add-standard.md)
-         + [Edit standard creatives](/help/creative/creative-libraries/creative-edit-standard.md)
-         + [Standard creative settings](/help/creative/creative-libraries/creative-settings-standard.md)
-         + [HTML5 creative specification](/help/creative/creative-libraries/html5-creative-specification.md)
-      + Dynamic creatives {#dynamic-creatives}
-         + [Add dynamic creatives to a creative library](/help/creative/creative-libraries/creative-add-dynamic.md)
-         + [Edit dynamic creatives](/help/creative/creative-libraries/creative-edit-dynamic.md)
-         + [Dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md)
-      + [Preview a creative](/help/creative/creative-libraries/creative-preview.md)
-      + [Attach creatives to bundles](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
-      + [Duplicate creatives](/help/creative/creative-libraries/creative-duplicate.md)
-      + [Download creatives](/help/creative/creative-libraries/creative-download.md)
-      + [View the change log for a creative](/help/creative/creative-libraries/creative-view-change-log.md)
-      + [Delete creatives](/help/creative/creative-libraries/creative-delete.md)
-   + Creative bundles {#bundles}
-      + [Manage creative bundles](/help/creative/creative-libraries/bundle-manage.md)
-+ Ad experiences {#creative-experiences}
-   + [About experiences in Advertising Creative](/help/creative/experiences/experience-about.md)
-   + Experiences with targeting {#experience-targeted}
-      + [The decision tree layout](/help/creative/experiences/experience-decision-tree.md)
-      + [Create an experience with targeting](/help/creative/experiences/experience-create-targeting.md)
-      + [Edit an experience with targeting](/help/creative/experiences/experience-edit-targeting.md)
-      + [Targeted experience settings](/help/creative/experiences/experience-settings-targeting.md)
-      + Subtasks for creating and editing experiences {#subtasks}
-         + Target nodes {#nodes}
-            + [Add a target node to the final level](/help/creative/experiences/experience-target-node-add-final.md)
-            + [Insert a target node between nodes](/help/creative/experiences/experience-target-node-add-inner.md)
-            + [Add a sibling target node](/help/creative/experiences/experience-target-node-add-sibling.md)
-            + [Copy child nodes to another node at the same level](/help/creative/experiences/experience-target-node-copy.md)
-            + [Delete a target node or creative leaf node](/help/creative/experiences/experience-target-node-delete.md)
-         + Creative bundles and creatives {#bundles}
-            + [Assign and unassign creative bundles to a final node](/help/creative/experiences/experience-assign-creative-bundles.md)
-            + [Customize creative optimization and scheduling](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-            + [Customize the tracking URLs for creatives](/help/creative/experiences/experience-tracking-urls-targeting.md)
+   + [クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
+   + [サポートされているクリエイティブサイズ](/help/creative/creative-libraries/creative-sizes.md)
+   + [クリエイティブライブラリの管理](/help/creative/creative-libraries/creative-library-manage.md)
+   + クリエイター {#creatives}
+      + [Adobe Experience Manager image assetsへのアクセス権の設定](/help/creative/creative-libraries/aem-assets-configure.md)
+      + 標準クリエイター {#standard-creatives}
+         + [標準クリエイティブをクリエイティブライブラリに追加](/help/creative/creative-libraries/creative-add-standard.md)
+         + [標準クリエイティブの編集](/help/creative/creative-libraries/creative-edit-standard.md)
+         + [標準クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md)
+         + [HTML5のクリエイティブ仕様](/help/creative/creative-libraries/html5-creative-specification.md)
+      + 動的なクリエイター {#dynamic-creatives}
+         + [クリエイティブライブラリへの動的クリエイターの追加](/help/creative/creative-libraries/creative-add-dynamic.md)
+         + [動的なクリエイティブの編集](/help/creative/creative-libraries/creative-edit-dynamic.md)
+         + [動的なクリエイティブ設定](/help/creative/creative-libraries/creative-settings-dynamic.md)
+      + [クリエイティブのプレビュー](/help/creative/creative-libraries/creative-preview.md)
+      + [バンドルへのクリエイターの添付](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
+      + [クリエイターの重複](/help/creative/creative-libraries/creative-duplicate.md)
+      + [クリエイターのダウンロード](/help/creative/creative-libraries/creative-download.md)
+      + [クリエイティブの変更ログを表示する](/help/creative/creative-libraries/creative-view-change-log.md)
+      + [クリエイターの削除](/help/creative/creative-libraries/creative-delete.md)
+   + Creative バンドル {#bundles}
+      + [クリエイティブバンドルの管理](/help/creative/creative-libraries/bundle-manage.md)
++ 広告体験 {#creative-experiences}
+   + [Advertising Creative体験について](/help/creative/experiences/experience-about.md)
+   + ターゲティングによる顧客体験 {#experience-targeted}
+      + [決定木のレイアウト](/help/creative/experiences/experience-decision-tree.md)
+      + [ターゲティングによるエクスペリエンスの構築](/help/creative/experiences/experience-create-targeting.md)
+      + [ターゲティングを使用したエクスペリエンスの編集](/help/creative/experiences/experience-edit-targeting.md)
+      + [ターゲット設定](/help/creative/experiences/experience-settings-targeting.md)
+      + エクスペリエンスの作成と編集のためのサブタスク {#subtasks}
+         + ターゲットノード {#nodes}
+            + [最終レベルへのターゲットノードの追加](/help/creative/experiences/experience-target-node-add-final.md)
+            + [ノード間にターゲットノードを挿入する](/help/creative/experiences/experience-target-node-add-inner.md)
+            + [兄弟ターゲットノードの追加](/help/creative/experiences/experience-target-node-add-sibling.md)
+            + [子ノードを同じレベルの別のノードにコピー](/help/creative/experiences/experience-target-node-copy.md)
+            + [ターゲットノードまたはクリエイティブリーフノードの削除](/help/creative/experiences/experience-target-node-delete.md)
+         + Creative バンドルとクリエイティブ {#bundles}
+            + [最終ノードへのクリエイティブバンドルの割り当てと割り当て解除](/help/creative/experiences/experience-assign-creative-bundles.md)
+            + [クリエイティブの最適化とスケジューリングのカスタマイズ](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
+            + [クリエイティブのトラッキング URLのカスタマイズ](/help/creative/experiences/experience-tracking-urls-targeting.md)
    + ターゲティングのない体験 {#experience-nontargeted}
       + [ターゲティングなしでエクスペリエンスを構築](/help/creative/experiences/experience-create-no-targeting.md)
       + [ターゲティングなしでエクスペリエンスを編集](/help/creative/experiences/experience-edit-no-targeting.md)
@@ -79,6 +85,7 @@ ht-degree: 5%
    + [広告タグの名前を変更](/help/creative/experiences/experience-tag-rename.md)
    + [エクスペリエンスの変更ログの表示](/help/creative/experiences/experience-view-change-log.md)
    + [エクスペリエンスの削除](/help/creative/experiences/experience-delete.md)
++ [ブランドプロファイルの管理](/help/creative/brands/brand-manage.md)
 + フィード {#feeds}
    + [アセットファイルの管理](/help/creative/feeds/asset-manage.md)
    + [フィード テンプレートの管理](/help/creative/feeds/feed-template-manage.md)
@@ -95,4 +102,4 @@ ht-degree: 5%
 + [リターゲティングピクセル](/help/creative/pixels/retargeting-pixel-manage.md)
 + [トラッキング URLに使用できるマクロ](/help/creative/creative-macros.md)
 + [ヘルプを表示](/help/creative/get-help.md)
-+ [Adobe CX Enterprise リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target="_blank"}
++ [Adobe CX Enterprise リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
