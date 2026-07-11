@@ -1,9 +1,12 @@
 ---
 title: Creative Studioでの広告テンプレートの管理
 description: Adobe Advertising Creativeの「Creative Studio テンプレート」タブで、広告テンプレートを作成、読み込み、整理、管理する方法について説明します。
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
 workflow-type: tm+mt
 source-wordcount: 2509
@@ -21,7 +24,7 @@ ht-degree: 2%
 
 「**[!UICONTROL Templates]**」タブには、新しい広告テンプレートを作成または読み込むためのクイックアクションが表示されます。
 
-このタブには、ページ <!-- Only in the Templates tab -->の下部にある既存の広告テンプレートも、[個々のカード（デフォルト）またはテーブル/リスト ](/help/creative/introduction/customize-data-views.md)として一覧表示されます。 広告テンプレートリストには、[!UICONTROL All]、[!UICONTROL System Templates] （Adobe アカウントチームによってアカウントにアップロードされます）、および[!UICONTROL User Templates]のタブが含まれます。 デフォルトでは、すべての広告主向けの広告テンプレートが表示されます。 特定の広告主の広告テンプレートのみを表示するには、ページ上部の広告主リストから選択します。
+このタブには、ページ <!-- Only in the Templates tab -->の下部にある既存の広告テンプレートも、[個々のカード（デフォルト）またはテーブル/リスト &#x200B;](/help/creative/introduction/customize-data-views.md)として一覧表示されます。 広告テンプレートリストには、[!UICONTROL All]、[!UICONTROL System Templates] （Adobe アカウントチームによってアカウントにアップロードされます）、および[!UICONTROL User Templates]のタブが含まれます。 デフォルトでは、すべての広告主向けの広告テンプレートが表示されます。 特定の広告主の広告テンプレートのみを表示するには、ページ上部の広告主リストから選択します。
 
 <!-- 
 
@@ -140,7 +143,7 @@ ZIP ファイルとしてパッケージ化された1つ以上の事前定義済
 
 1. （広告を表示）広告テンプレートのサイズを選択し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-1. テンプレートエディター](#template-controls)の[ コントロールを使用して、テンプレート設定を構成します。
+1. テンプレートエディター[&#128279;](#template-controls)の コントロールを使用して、テンプレート設定を構成します。
 
 1. （オプション）定義されたテンプレートのコピーをダウンロードするには、**[!UICONTROL ...]** > **[!UICONTROL Download]**&#x200B;をクリックします。
 
@@ -170,7 +173,7 @@ ZIP ファイルとしてパッケージ化された1つ以上の事前定義済
 
 1. テンプレートカードまたはテーブルの行にカーソルを置き、**[!UICONTROL ...]** > **[!UICONTROL Edit Template]**&#x200B;をクリックします。
 
-1. テンプレートエディター](#template-controls)の[ コントロールを使用して、テンプレートレイアウトまたは要素を編集します。
+1. テンプレートエディター[&#128279;](#template-controls)の コントロールを使用して、テンプレートレイアウトまたは要素を編集します。
 
 1. （オプション）定義されたテンプレートのコピーをダウンロードするには、**[!UICONTROL ...]** > **[!UICONTROL Download]**&#x200B;をクリックします。
 
@@ -225,7 +228,7 @@ The top toolbar above the canvas is the same for both display and video template
 | **[!UICONTROL Links]** | テンプレート内の要素に添付されたクリックスルーURLを管理するパネルを開きます。 |
 | ズームコントロール | 「**[!UICONTROL Zoom out]**」または「**[!UICONTROL Zoom in]**」をクリックして、カンバスの倍率を調整します（10% ～ 150%、10%単位）。 ズームレベルのラベル（キャンバスが自動的にフィットする場合は&#x200B;**[!UICONTROL Auto]**、手動で設定する場合は割合）をクリックして、オプションのメニューを開きます（**[!UICONTROL Auto-Fit Page]**、**[!UICONTROL 100% Zoom]**、**[!UICONTROL 50% Zoom]**、**[!UICONTROL Zoom In]**、および&#x200B;**[!UICONTROL Zoom Out]**）。 |
 | 広告サイズ | 現在の広告ディメンションを表示します（例：300 × 250）。 クリックしてサイズピッカーを開きます。このサイズピッカーには、一般的に使用される6つのIAB標準サイズがカードとして表示され、さらに19の標準IAB ディスプレイ広告サイズすべてを含むドロップダウンが表示されます。 新しいテンプレートのデフォルトサイズは300 × 250 （Medium Rectangle）です。 |
-| ![ レイヤーパネルを開く](/help/creative/assets/layers-panel-open.png " レイヤーパネルを開く") | [!UICONTROL Layers] パネルを開きます。 [!UICONTROL Layers] パネルを閉じた場合にのみ表示されます。 |
+| ![&#x200B; レイヤーパネルを開く](/help/creative/assets/layers-panel-open.png " レイヤーパネルを開く") | [!UICONTROL Layers] パネルを開きます。 [!UICONTROL Layers] パネルを閉じた場合にのみ表示されます。 |
 
 #### ビデオ広告テンプレート
 
@@ -233,7 +236,7 @@ The top toolbar above the canvas is the same for both display and video template
 | --- | --- |
 | **[!UICONTROL Undo]** / ![やり直し](/help/creative/assets/cs-icon-redo.png) **[!UICONTROL Redo]** | 最後のアクションを取り消すか、やり直します。 |
 | ズームコントロール | **[!UICONTROL Zoom out]**&#x200B;または&#x200B;**[!UICONTROL Zoom in]**&#x200B;をクリックして、キャンバスの倍率を調整します。 ズームレベルをクリックして、オプション **[!UICONTROL Auto-Fit Page]**、**[!UICONTROL 100% Zoom]**、**[!UICONTROL 50% Zoom]**、**[!UICONTROL Zoom In]**、**[!UICONTROL Zoom Out]**&#x200B;のメニューを開きます。 |
-| ![ レイヤーパネルを開く](/help/creative/assets/layers-panel-open.png " レイヤーパネルを開く") | [!UICONTROL Layers] パネルを開きます。 [!UICONTROL Layers] パネルを閉じた場合にのみ表示されます。 |
+| ![&#x200B; レイヤーパネルを開く](/help/creative/assets/layers-panel-open.png " レイヤーパネルを開く") | [!UICONTROL Layers] パネルを開きます。 [!UICONTROL Layers] パネルを閉じた場合にのみ表示されます。 |
 
 <!-- Not there as of 7/10:  | **[!UICONTROL Preview]** | Opens a preview of the video template. | -->
 
@@ -302,7 +305,7 @@ The top toolbar above the canvas is the same for both display and video template
 | **[!UICONTROL Typeface]**, **[!UICONTROL Bold]**, **[!UICONTROL Italic]**, **[!UICONTROL Font size]**, **[!UICONTROL Align horizontal]**, **[!UICONTROL Advanced]** | テキスト | フォントファミリー、太さ、サイズ、水平方向の整列、その他の高度なタイポグラフィ設定を調整します。 |
 | **[!UICONTROL Image]** / **[!UICONTROL Video]** | 画像とビデオ | エレメントの塗りつぶし画像またはビデオソースを設定します。 |
 | **[!UICONTROL Trim]** | ビデオとオーディオ | トリミングモードを開いて、クリップの開始点と終了点を設定します。 |
-| ![ ボリューム ](/help/creative/assets/volume.png " ボリューム ") （[!UICONTROL Volume]） | ビデオとオーディオ | オーディオレベルを調整します。 |
+| ![&#x200B; ボリューム &#x200B;](/help/creative/assets/volume.png " ボリューム ") （[!UICONTROL Volume]） | ビデオとオーディオ | オーディオレベルを調整します。 |
 | ![再生速度](/help/creative/assets/speed.png "再生速度") （[!UICONTROL Playback speed]） | ビデオとオーディオ | 再生率を調整します。 |
 | ![切り抜き](/help/creative/assets/crop.png "切り抜き") （[!UICONTROL Crop]） | すべて | 要素をカスタム領域に切り抜きます。 |
 | ![線](/help/creative/assets/stroke.png "線") （[!UICONTROL Stroke]） | すべて | 境界線の色と幅を設定します。 |
@@ -379,10 +382,10 @@ The top toolbar above the canvas is the same for both display and video template
 
 | アクション | 説明 |
 | --- | --- |
-| ![ レイヤー名を変更](/help/creative/assets/edit.png) **[!UICONTROL Rename layer]** | パネルに新しいレイヤー名を入力できます。 |
-| ![ レイヤーをロック ](/help/creative/assets/cs-icon-lock.png) **[!UICONTROL Lock layer]** / ![ レイヤーをロック解除](/help/creative/assets/cs-icon-unlock.png) **[!UICONTROL Unlock layer]** | レイヤーの移動、編集、並べ替えを防止または許可します。 |
-| ![ レイヤーを非表示](/help/creative/assets/cs-icon-hidden.png) **[!UICONTROL Hide layer]** / ![ レイヤーを表示](/help/creative/assets/cs-icon-visible.png) **[!UICONTROL Show layer]** | カンバス上のレイヤーを表示または非表示にします。 非表示のレイヤーはテンプレート内に保持されますが、テンプレートのレンダリング時には表示されません。 |
-| ![ ドラッグして並べ替え](/help/creative/assets/cs-icon-drag.png) ドラッグして並べ替え | （広告テンプレートの表示のみ）並べ替えアイコンをドラッグして、レイヤーの重なり順の位置を変更します。 レイヤーをロック解除して並べ替える必要があります。 |
+| ![&#x200B; レイヤー名を変更](/help/creative/assets/edit.png) **[!UICONTROL Rename layer]** | パネルに新しいレイヤー名を入力できます。 |
+| ![&#x200B; レイヤーをロック &#x200B;](/help/creative/assets/cs-icon-lock.png) **[!UICONTROL Lock layer]** / ![&#x200B; レイヤーをロック解除](/help/creative/assets/cs-icon-unlock.png) **[!UICONTROL Unlock layer]** | レイヤーの移動、編集、並べ替えを防止または許可します。 |
+| ![&#x200B; レイヤーを非表示](/help/creative/assets/cs-icon-hidden.png) **[!UICONTROL Hide layer]** / ![&#x200B; レイヤーを表示](/help/creative/assets/cs-icon-visible.png) **[!UICONTROL Show layer]** | カンバス上のレイヤーを表示または非表示にします。 非表示のレイヤーはテンプレート内に保持されますが、テンプレートのレンダリング時には表示されません。 |
+| ![&#x200B; ドラッグして並べ替え](/help/creative/assets/cs-icon-drag.png) ドラッグして並べ替え | （広告テンプレートの表示のみ）並べ替えアイコンをドラッグして、レイヤーの重なり順の位置を変更します。 レイヤーをロック解除して並べ替える必要があります。 |
 
 **パネルフッター**
 

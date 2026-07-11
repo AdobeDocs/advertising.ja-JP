@@ -2,9 +2,12 @@
 title: Creative Studioで標準広告を管理する
 description: Creative Studio クリエイティブライブラリで、標準ディスプレイ広告を作成、編集、複製、ダウンロード、削除する方法について説明します。
 exl-id: 01d3cdec-80d0-494c-94dd-d9d0ae8ca53c
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
 workflow-type: tm+mt
 source-wordcount: 1181
@@ -76,7 +79,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >AI アシスタントは、テキスト（見出し、サブヘッドライン、CTA、ボディコピー）の生成と変更、背景画像の入れ替え、ブランドカラーの適用、ロゴバージョンの切り替え、新しいサイズテンプレートの作成を可能にします。 テンプレートの構造（エレメントの位置、レイアウト、間隔、パディング、フォントファミリー、フォントサイズ、境界線）は変更できません。 セッションを開始する前に、テンプレートエディターで構造的な変更を行います。 [ テンプレートの編集](creative-studio-manage-templates.md#edit-template)を参照してください。
+      >AI アシスタントは、テキスト（見出し、サブヘッドライン、CTA、ボディコピー）の生成と変更、背景画像の入れ替え、ブランドカラーの適用、ロゴバージョンの切り替え、新しいサイズテンプレートの作成を可能にします。 テンプレートの構造（エレメントの位置、レイアウト、間隔、パディング、フォントファミリー、フォントサイズ、境界線）は変更できません。 セッションを開始する前に、テンプレートエディターで構造的な変更を行います。 [&#x200B; テンプレートの編集](creative-studio-manage-templates.md#edit-template)を参照してください。
 
    1. （オプション）リクエストにビジュアル参照を含めるには、チャット入力領域の「**[!UICONTROL +]**」ボタンをクリックします。 **[!UICONTROL Select from Asset Library]** ダイアログで、次の操作を行います。
 
