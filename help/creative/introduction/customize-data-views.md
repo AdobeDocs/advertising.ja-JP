@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
 workflow-type: tm+mt
-source-wordcount: 281
+source-wordcount: 273
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ ht-degree: 0%
 
 ## データをカードまたはテーブルとして表示
 
-[!UICONTROL Creative Libraries]および[!UICONTROL Experiences] ビューのデータを個々のカードまたはテーブル/リストとして表示します。 デフォルトでは、データはカード表示モードで表示されます。 カード表示：関連するクリエイティブのサムネールが表示されます。
+<!-- Different images in Creative Studio, although pretty close -->
+
+[!UICONTROL Creative Studio]、[!UICONTROL Creative Libraries]および[!UICONTROL Experiences]のビューのデータを個々のカードまたはテーブル/リストとして表示します。 デフォルトでは、データはカード表示モードで表示されます。 カード表示：関連するクリエイティブのサムネールが表示されます。
 
 カード表示とテーブル表示を切り替えると、フィルターと選択範囲が保持されます。
 

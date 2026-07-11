@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
 workflow-type: tm+mt
-source-wordcount: 600
+source-wordcount: 617
 ht-degree: 0%
 
 ---
@@ -29,13 +29,17 @@ ht-degree: 0%
 
 ## ファイル要件
 
+最大データ行：200万
+
+最大ファイルサイズ：2 GB
+
 * ダイナミックHTML5広告：
 
    * CSV、TSV、Microsoft Excel スプレッドシート（XLSX）形式のフィードファイル。各広告バリエーションに1つのヘッダー行と1つのデータ行が含まれている。 `images/image_name`形式（`images/300x250_acme_logo.png`など）を使用して、各行に画像名を含めます。
 
      広告主固有のフィールド名は、動的な広告フィード ファイル [&#128279;](/help/creative/appendix-available-feed-fields.md)の利用可能なフィールドにマッピングする必要があります。
 
-   * GIF、JPEG、JPG、またはPNG形式の関連する画像アセット。<!-- Is this true: The maximum file size is two (2) MB. --> [&#x200B; サポートされているクリエイティブサイズ &#x200B;](/help/creative/creative-libraries/creative-sizes.md)を参照してください。
+   * GIF、JPEG、JPG、またはPNG形式の関連する画像アセット。 最大ファイルサイズは10 MBです。 [&#x200B; サポートされているクリエイティブサイズ &#x200B;](/help/creative/creative-libraries/creative-sizes.md)を参照してください。
 
   1つのXLSX ファイル、1つの画像ファイル、またはXLSXと画像ファイルの任意の組み合わせを含む1つのZIP ファイルをアップロードできます。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
