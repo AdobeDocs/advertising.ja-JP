@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+source-git-commit: 57e8552cd8b71fe06be153954294063fe810b327
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: 1558
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Extensions]**&#x200B;既存の広告拡張機能の読み取り専用ビューを開きます。 拡張機能を管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
-   * **[!UICONTROL Shopping]**&#x200B;新しいサイトを終了し、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを開きます。<!-- Should this go to Campaigns > Products? -->
+   * **[!UICONTROL Shopping]**&#x200B;既存のショッピング製品グループの読み取り専用ビューを開きます。 製品グループを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Product Groups] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
 * **[!UICONTROL Set Up]** サブメニュー：
 
@@ -119,6 +119,8 @@ ht-degree: 0%
    * **[!UICONTROL Import Campaigns]**：新しいビューを開き、そこからキャンペーンデータを読み込むことができます。
 
    * **[!UICONTROL Bulksheets]**：新しい[!UICONTROL Bulksheets] ビューを開きます。
+
+   * **[!UICONTROL Products]**&#x200B;既存のマーチャント センターのアカウントと製品の読み取り専用ビューを開きます。 マーチャント センターのアカウントを追加するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Products] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
 <!--
  What's happening to these?
