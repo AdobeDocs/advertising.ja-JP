@@ -18,8 +18,8 @@ ht-degree: 4%
    + [Adobe Advertising Creativeについて](/help/creative/introduction/creative-about.md)
    + [データビューのカスタマイズ](/help/creative/introduction/customize-data-views.md)
    + [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [消費者のプライバシーのサポート](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-   + [ポリシーとガイドライン](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [消費者のプライバシーのサポート](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
+   + [ポリシーとガイドライン](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
 + Creative Studio {#creative-studio}
    + [Creative Studioについて](/help/creative/creative-studio/creative-studio-about.md)
    + [標準広告を管理](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
@@ -102,4 +102,4 @@ ht-degree: 4%
 + [リターゲティングピクセル](/help/creative/pixels/retargeting-pixel-manage.md)
 + [トラッキング URLに使用できるマクロ](/help/creative/creative-macros.md)
 + [ヘルプを表示](/help/creative/get-help.md)
-+ [Adobe CX Enterprise リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
++ [Adobe CX Enterprise リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target="_blank"}
