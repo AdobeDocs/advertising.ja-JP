@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3095c6a8f35d390d7d9b46df14f83b5e610c8e81
+source-git-commit: 836dbc21997c7af7b8a2bc4e0c5e59d3c3605ea8
 workflow-type: tm+mt
-source-wordcount: 1897
+source-wordcount: 1890
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細 |
 | ---- | ------- | ----------- | -------------------- |
-| 2026年7月1日（PT） | [!DNL Creative Studio], [!DNL Brands] | 以下のベータ機能を利用できます。<ul><li>**[!UICONTROL Creative Studio]**&#x200B;は、単一のセッションで複数の形式のディスプレイ広告を作成、サイズ変更、調整できるAI支援の環境です。 自然言語のチャットインターフェイスを通じてAIと対話し、広告コンテンツを生成および変更します。コンテンツフィールドのデザイン作業は手作業で行う必要はありません。</li><li>ロゴ、カラーパレット、音声ガイドライン、画像標準、チャネル固有のコピーガイドラインなど、ブランドのビジュアルおよびメッセージング IDを反映する&#x200B;**[!UICONTROL brand profiles]**&#x200B;を作成および管理します。 [!UICONTROL Creative Studio]で広告を作成する場合、AI エージェントはブランド プロファイル情報を使用して、特定のブランドのコンテンツ生成をグラウンド化します。</li></ul> | 「[Creative Studioについて](/help/creative/creative-studio/creative-studio-about.md)」および「[&#x200B; ブランドプロファイルの管理](/help/creative/brands/brand-manage.md)」を参照してください。 |
+| 2026年7月1日（PT） | [!DNL Creative Studio], [!DNL Brands] | 以下のベータ機能を利用できます。<ul><li>**[!UICONTROL Creative Studio]**&#x200B;は、生成AIを使用して、単一のセッションで複数の形式のディスプレイ広告を作成、サイズ変更、および調整できます。 自然言語のチャットインターフェイスを使用して、広告コンテンツを生成、変更できます。コンテンツフィールドのデザインに手作業は必要ありません。</li><li>ロゴ、カラーパレット、音声ガイドライン、画像標準、チャネル固有のコピーガイドラインなど、ブランドのビジュアルおよびメッセージング IDを反映する&#x200B;**[!UICONTROL brand profiles]**&#x200B;を作成および管理します。 [!UICONTROL Creative Studio]で広告を作成する場合、AI エージェントはブランド プロファイル情報を使用して、特定のブランドのコンテンツ生成をグラウンド化します。</li></ul> | 「[Creative Studioについて](/help/creative/creative-studio/creative-studio-about.md)」および「[&#x200B; ブランドプロファイルの管理](/help/creative/brands/brand-manage.md)」を参照してください。 |
 | 2026年6月3日（PT） | [!DNL Adobe Analytics for Advertising] | Advertising Creativeおよび[!DNL Adobe Analytics for Advertising]を使用している広告主は、Adobe Analyticsでバリアント レベルおよびブランチ レベルのデータを表示できるようになりました。 [!DNL Creative] エクスペリエンスから広告を実行するために使用されるDSPに関係なく、データが表示されます。 Advertising DSPのプレースメントから広告を実行する場合は、キャンペーンレベルおよびプレースメントレベルのデータと、コスト関連の指標も表示されます。<br><br>追加の設定は必要ありません。 | [!DNL Analytics]に表示されているAdvertising Creative [&#x200B; トラフィック指標](https://experienceleague.adobe.com/ja/docs/analytics/components/metrics/amo-metrics)および[分類](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#classifications)を参照してください。 |
 | 2025年2月25日（PT） | [!DNL experiences]のCreativeの最適化とスケジュール | 改善点は次のとおりです。<ul><li>決定木ターゲティングを使用したエクスペリエンスでは、クリエイティブバンドルを割り当て、クリエイティブの最適化とスケジュール設定を、同じ画面の別のタブで行えるようになりました。</li><li>広告スケジュールには、開始時間と終了時間が含まれるようになりました。 デフォルトでは、スケジュールは午前12:00時に開始し、午後11:59時に終了します。</li><li>[!UICONTROL Weighted]回転オプションには、指定されたすべてのバンドルに同じ重みを適用するためのボタン（![同じ重みを適用](/help/creative/assets/apply-equal-weight.png "同じ重みを適用")）が含まれています。</li></ul> | ターゲティングを含む[&#128279;](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&#x200B; エクスペリエンスとターゲティングを含まない[&#x200B; エクスペリエンス &#x200B;](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)の手順を参照してください。 |
 | 2026年2月18日（PT） | 動的なクリエイター | フィードを使用してVAST準拠の動画広告を生成し、CTV、web、モバイルアプリをまたいで使用できるようになりました。<ul><li>ビデオ広告テンプレートはZIP形式で、.scene ファイルが含まれている必要があります。</li><li>アセットファイルには、MP4、MOV、またはWEBM形式のビデオアセットを含める必要があります。 サポートされる広告テンプレートには、開始カード、終了カード、上オーバーレイ、下オーバーレイ、またはL字型が含まれ、各ビデオのデュレーションは1 ～ 90秒である必要があります。 各フィードファイルは、ビデオアセットで最大500行まで処理できます。</li><li>クリエイティブライブラリで、動的クリエイターの設定に[!UICONTROL Creative Type]設定が含まれ、オプション「[!UICONTROL Display]」と「[!UICONTROL Video]」が指定されるようになりました。 バンドルの設定には、「[!UICONTROL Dynamic Video]」も含まれます。</li><li>広告エクスペリエンスの設定には、「[!UICONTROL Dynamic Video]」も含まれます。</li><li>[!UICONTROL Custom Creative Report]には、フィードベースのビデオのバリエーション用に、様々なビデオ指標（インプレッション、四分位数、ミュート/ミュート解除など）が含まれるようになりました。</li></ul> | 「[動的な広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)」、「[動的なクリエイティブをクリエイティブライブラリに追加](/help/creative/creative-libraries/creative-add-dynamic.md)」、「[動的なクリエイティブ設定](/help/creative/creative-libraries/creative-settings-dynamic.md)」、「[&#x200B; アセットファイルを管理](/help/creative/feeds/asset-manage.md)」を参照してください。 |

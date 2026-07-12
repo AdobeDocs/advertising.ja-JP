@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 82946754a9bd29908e00adad8721063964130999
+source-git-commit: 836dbc21997c7af7b8a2bc4e0c5e59d3c3605ea8
 workflow-type: tm+mt
-source-wordcount: 7672
+source-wordcount: 7665
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細 |
 | ---- | ------- | ----------- | -------------------- |
-| 2026年7月1日（PT） | [!DNL Creative] | Advertising Creativeでは、次のベータ機能を利用できます。<ul><li>**[!UICONTROL Creative Studio]**&#x200B;は、単一のセッションで複数の形式のディスプレイ広告を作成、サイズ変更、調整できるAI支援の環境です。 自然言語のチャットインターフェイスを通じてAIと対話し、広告コンテンツを生成および変更します。コンテンツフィールドのデザイン作業は手作業で行う必要はありません。</li><li>ロゴ、カラーパレット、音声ガイドライン、画像標準、チャネル固有のコピーガイドラインなど、ブランドのビジュアルおよびメッセージング IDを反映する&#x200B;**[!UICONTROL brand profiles]**&#x200B;を作成および管理します。 [!UICONTROL Creative Studio]で広告を作成する場合、AI エージェントはブランド プロファイル情報を使用して、特定のブランドのコンテンツ生成をグラウンド化します。</li></ul> | 「[Creative Studioについて](/help/creative/creative-studio/creative-studio-about.md)」および「[&#x200B; ブランドプロファイルの管理](/help/creative/brands/brand-manage.md)」を参照してください。 |
+| 2026年7月1日（PT） | [!DNL Creative] | Advertising Creativeでは、次のベータ機能を利用できます。<ul><li>**[!UICONTROL Creative Studio]**&#x200B;は、生成AIを使用して、単一のセッションで複数の形式のディスプレイ広告を作成、サイズ変更、および調整できます。 自然言語のチャットインターフェイスを使用して、広告コンテンツを生成、変更できます。コンテンツフィールドのデザインに手作業は必要ありません。</li><li>ロゴ、カラーパレット、音声ガイドライン、画像標準、チャネル固有のコピーガイドラインなど、ブランドのビジュアルおよびメッセージング IDを反映する&#x200B;**[!UICONTROL brand profiles]**&#x200B;を作成および管理します。 [!UICONTROL Creative Studio]で広告を作成する場合、AI エージェントはブランド プロファイル情報を使用して、特定のブランドのコンテンツ生成をグラウンド化します。</li></ul> | 「[Creative Studioについて](/help/creative/creative-studio/creative-studio-about.md)」および「[&#x200B; ブランドプロファイルの管理](/help/creative/brands/brand-manage.md)」を参照してください。 |
 | 2026年6月23日（PT） | [!UICONTROL Placements]、郵便番号 | 各国の郵便番号のリストを作成して、プレースメントのターゲットまたは除外として再利用できるようになりました。 | 「[郵便番号リストの管理](/help/dsp/resources/lists-postal-codes-manage.md)」および「[配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)」を参照してください。 |
 | 2026年6月9日（PT） | Adobe Customer Journey Analyticsとの連携 | Customer Journey Analyticsを使用しているが[!DNL Analytics for Advertising]ではない広告主は、Adobe Experience Platform [!DNL Web SDK]を使用してAdobe AdvertisingとCustomer Journey Analytics間でデータをネイティブに交換できます。 | 「[Adobe AdvertisingとCustomer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)の連携の概要」を参照してください。 |
 | 2026年6月3日（PT） | [!DNL Adobe Analytics for Advertising] | Advertising Creativeおよび[!DNL Adobe Analytics for Advertising]を使用している広告主は、Adobe Analyticsでバリアント レベルおよびブランチ レベルのデータを表示できるようになりました。 [!DNL Creative] エクスペリエンスから広告を実行するために使用されるDSPに関係なく、データが表示されます。 Advertising DSPのプレースメントから広告を実行する場合は、キャンペーンレベルおよびプレースメントレベルのデータと、コスト関連の指標も表示されます。<br><br>追加の設定は必要ありません。 | [!DNL Analytics]に表示されているAdvertising Creative [&#x200B; トラフィック指標](https://experienceleague.adobe.com/ja/docs/analytics/components/metrics/amo-metrics)および[分類](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#classifications)を参照してください。 |
