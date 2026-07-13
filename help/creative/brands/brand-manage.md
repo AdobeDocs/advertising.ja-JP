@@ -1,9 +1,12 @@
 ---
 title: Advertising Creativeでのブランドプロファイルの管理
 description: Adobe Advertising Creativeでブランドプロファイルを作成、編集、複製、削除する方法について説明します。
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 1085
@@ -51,7 +54,7 @@ ht-degree: 0%
 
    ブランドの詳細ページが開き、「**[!UICONTROL Overview]**」タブがアクティブになります。
 
-1. （オプション）各タブに[ ブランドプロファイル設定](#brand-profile-settings)を入力します。
+1. （オプション）各タブに[&#x200B; ブランドプロファイル設定](#brand-profile-settings)を入力します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -63,7 +66,7 @@ ht-degree: 0%
 
 1. 編集するブランドプロファイルをクリックします。
 
-1. 任意のタブの[ ブランドプロファイル設定](#brand-profile-settings)を更新します。
+1. 任意のタブの[&#x200B; ブランドプロファイル設定](#brand-profile-settings)を更新します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
