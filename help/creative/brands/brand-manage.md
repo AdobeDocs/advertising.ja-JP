@@ -1,13 +1,10 @@
 ---
 title: Advertising Creativeでのブランドプロファイルの管理
 description: Adobe Advertising Creativeでブランドプロファイルを作成、編集、複製、削除する方法について説明します。
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 1085
 ht-degree: 0%
@@ -54,7 +51,7 @@ ht-degree: 0%
 
    ブランドの詳細ページが開き、「**[!UICONTROL Overview]**」タブがアクティブになります。
 
-1. （オプション）各タブに[&#x200B; ブランドプロファイル設定](#brand-profile-settings)を入力します。
+1. （オプション）各タブに[ ブランドプロファイル設定](#brand-profile-settings)を入力します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -66,7 +63,7 @@ ht-degree: 0%
 
 1. 編集するブランドプロファイルをクリックします。
 
-1. 任意のタブの[&#x200B; ブランドプロファイル設定](#brand-profile-settings)を更新します。
+1. 任意のタブの[ ブランドプロファイル設定](#brand-profile-settings)を更新します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -126,11 +123,11 @@ ht-degree: 0%
 
 ブランドの詳細ページは、次のタブに整理されています。
 
-### **[!UICONTROL Overview]**
+### [!UICONTROL Overview]
 
 ブランド名を表示します。 説明を追加するには、**[!UICONTROL When to use this brand]**&#x200B;をクリックし、説明テキストを入力して、**[!UICONTROL Save]**&#x200B;をクリックします。 説明はすぐに保存され、ページレベル **[!UICONTROL Save]** ボタンをクリックする必要はありません。
 
-### **[!UICONTROL Brand voice guidelines]**
+### [!UICONTROL Brand voice guidelines]
 
 （オプション）ブランドのボイスとメッセージ基準を定義します。 AI エージェントは、見出しとコピーの生成時に、これらのガイドラインを使用します。
 
@@ -142,7 +139,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Editorial Restrictions]:** （オプション）回避するルールを記述しています。 例：「専門用語の使用を避ける」、「価格設定について主張しない」、「競合他社の名前を絶対に使用しない」
 
-### **[!UICONTROL Image guidelines]**
+### [!UICONTROL Image guidelines]
 
 （オプション）背景と製品画像の基準を定義し、最大10個のカテゴリに整理します。 AI エージェントは、背景画像プロンプトを生成する際にこれらのガイドラインを使用します。
 
@@ -168,7 +165,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Restrictions]:** （オプション）避けるべきこと。 最大5つの項目を含めます。 例：「ストック写真のデザインなし」または「忙しい背景を避ける」
 
-### **[!UICONTROL Channel guidelines]**
+### [!UICONTROL Channel guidelines]
 
 最大10個のコピー標準を<!-- Just one set of guidelines as of 7/9: channel-specific -->に定義します。 AI エージェントは、コピーのバリエーションを生成する際にチャネルガイドラインを使用します。
 
@@ -186,7 +183,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Examples]:** （オプション）指定された<!-- Just one set of guidelines as of 7/9: channel's -->のスタイルを示すサンプル広告コピー（見出し、小見出し、本文、CTA）。 ガイドラインに基づく広告コピーの例を表示するには、**[!UICONTROL Create example]**&#x200B;をクリックします。
 
-### **[!UICONTROL Logos]**
+### [!UICONTROL Logos]
 
 （オプション）ロゴは、ロゴ要素を含む広告で使用され、ロゴバージョンをスワップする際にAI エージェントが使用できます。 サポートされている画像タイプはJPG、PNG、SVGであり、各ファイルは最大5 MBです。 各ブランドには、最大10個のロゴを含めることができます。
 
@@ -212,7 +209,7 @@ ht-degree: 0%
 
    * ブランド設定からロゴを削除するには、**[!UICONTROL ...]** > **[!UICONTROL Delete]**&#x200B;をクリックします。 確認メッセージで、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
-### **[!UICONTROL Colors]**
+### [!UICONTROL Colors]
 
 （オプション）ブランドのカラーパレットを定義します。 AI エージェントは、カラーベースの広告バリエーションを生成する際に、指定されたカラーを使用します。
 
