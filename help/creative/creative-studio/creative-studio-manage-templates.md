@@ -7,9 +7,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 2509
+source-wordcount: 2512
 ht-degree: 2%
 
 ---
@@ -27,13 +27,11 @@ ht-degree: 2%
 このタブには、ページ <!-- Only in the Templates tab -->の下部にある既存の広告テンプレートも、[個々のカード（デフォルト）またはテーブル/リスト &#x200B;](/help/creative/introduction/customize-data-views.md)として一覧表示されます。 広告テンプレートリストには、[!UICONTROL All]、[!UICONTROL System Templates] （Adobe アカウントチームによってアカウントにアップロードされます）、および[!UICONTROL User Templates]のタブが含まれます。 デフォルトでは、すべての広告主向けの広告テンプレートが表示されます。 特定の広告主の広告テンプレートのみを表示するには、ページ上部の広告主リストから選択します。
 
 <!-- 
-
 Probably not necessary:
 
 * **[!UICONTROL Card view]** &mdash; Displays templates as cards. Each card shows a preview thumbnail and the ad dimensions. Hovering a card reveals action controls.
 
 * **[!UICONTROL Table view]** &mdash; Displays templates in a table with columns for **[!UICONTROL Name]**, **[!UICONTROL Type]**, **[!UICONTROL Status]**, **[!UICONTROL Size/Duration]**, **[!UICONTROL Advertiser]**, and **[!UICONTROL Updated]**. Click the **[!UICONTROL Name]** or **[!UICONTROL Updated]** column header to sort ascending or descending. Pagination controls appear at the bottom of the list.
-
 -->
 
 ### 使用可能なアクション
@@ -249,7 +247,7 @@ The top toolbar above the canvas is the same for both display and video template
 | アイコン | 説明 |
 | --- | --- |
 | **[!UICONTROL Search]** | ライブラリ内のすべてのアセットタイプを検索します。 |
-| **[!UICONTROL Upload]** | 画像<!-- not there as of 7/10:  or font files (TTF, OTF, WOFF, WOFF2)-->をエディターにアップロードして、現在のテンプレートで使用します。 一度に最大20個のファイルをアップロードできます。 |
+| **[!UICONTROL Upload]** | 画像またはフォントファイルをエディターにアップロードして、現在のテンプレートで使用します。 一度に最大20個のファイルをアップロードできます。 |
 | **[!UICONTROL Templates]** | Creative Studio ライブラリから広告テンプレートを参照し、ベースレイヤーや参照要素として使用できます。 |
 | **[!UICONTROL My Assets]** | Creative Studioの「Assets」タブにアップロードしたすべてのアセットを参照します。 |
 | **[!UICONTROL Images]** | Creative Studioの「Assets」タブにアップロードした画像アセットのみを参照します。 |
@@ -516,3 +514,4 @@ These are all saved with the template, but they aren't what you see, as-is, in t
 >* [Creative Studioでアセットを管理](creative-studio-manage-assets.md)
 >* [Creative Studioで標準広告を管理](creative-studio-manage-standard-ads.md)
 >* [Creative Studioで動的なクリエイティブを管理](creative-studio-manage-dynamic-ads.md)
+
