@@ -2,7 +2,7 @@
 title: （新しいUI）通知の管理
 description: プッシュ通知やNotification Center web アプリケーションなど、Search、Social、およびCommerce通知を表示、設定、管理する方法について説明します。
 feature: Search Notifications
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
@@ -45,45 +45,45 @@ ht-degree: 0%
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**: [&#x200B; バルクシート操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)が完了または失敗したことを通知します。<!-- Update link once file for new UI available-->
+   * **[!UICONTROL Bulksheets]**: [ バルクシート操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)が完了または失敗したことを通知します。<!-- Update link once file for new UI available-->
 
-   * **[!UICONTROL Manager Account Missing]**:Search、Social、およびCommerceに[ad network manager アカウント &#x200B;](/help/search-social-commerce/admin/manager-accounts.md)の資格情報が不足していることを知らせる通知。これは、重要な機能を正しく設定するために必要です。<!-- Moving to Campaign Management > Setup Errors at some point -->
+   * **[!UICONTROL Manager Account Missing]**:Search、Social、およびCommerceに[ad network manager アカウント ](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)の資格情報が不足していることを知らせる通知。これは、重要な機能を正しく設定するために必要です。<!-- Moving to Campaign Management > Setup Errors at some point -->
 
-   * **[!UICONTROL UI Actions]**：バックグラウンドで実行されたジョブが完了または失敗したことを通知します。 ジョブタイプには、[&#x200B; バルクシートジョブ &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->、データテーブル内の一括編集ジョブ、またはツールバー、エンティティ割り当てジョブ、ユーザーインターフェイス内のその他のアクション（広告ネットワークとの同期、行のペースト、エンティティの名前の変更など）が含まれます。 エンティティの割り当ては、任意のエンティティに[&#x200B; ラベル分類値](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)を割り当てたり割り当てを解除したり、キャンペーンをポートフォリオに割り当てたり、[入札制約をエンティティに割り当てたり割り当てを解除したりします](/help/search-social-commerce/new-ui/goals/constraints-manage.md)。
+   * **[!UICONTROL UI Actions]**：バックグラウンドで実行されたジョブが完了または失敗したことを通知します。 ジョブタイプには、[ バルクシートジョブ ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->、データテーブル内の一括編集ジョブ、またはツールバー、エンティティ割り当てジョブ、ユーザーインターフェイス内のその他のアクション（広告ネットワークとの同期、行のペースト、エンティティの名前の変更など）が含まれます。 エンティティの割り当ては、任意のエンティティに[ ラベル分類値](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)を割り当てたり割り当てを解除したり、キャンペーンをポートフォリオに割り当てたり、[入札制約をエンティティに割り当てたり割り当てを解除したりします](/help/search-social-commerce/new-ui/goals/constraints-manage.md)。
 
    * [!UICONTROL Data Upload]
 
-      * **[!UICONTROL Direct File Upload]**: アカウント データ ファイルがアップロードされたか、アカウント データのアップロードに失敗したという通知が、[&#x200B; アカウント データの手動アップロード &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/upload-account-data.md)を介して送信されました。<!-- Verify description-->
+      * **[!UICONTROL Direct File Upload]**: アカウント データ ファイルがアップロードされたか、アカウント データのアップロードに失敗したという通知が、[ アカウント データの手動アップロード ](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/upload-account-data.md)を介して送信されました。<!-- Verify description-->
 
-      * **[!UICONTROL File Upload to Cloud Storage]**：アカウントデータファイルがアップロードされたか、アカウントデータのアップロードに失敗したという通知（[&#x200B; アカウントデータを [!DNL Amazon] [!DNL S3] バケットにアップロード &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/upload-account-data.md)経由）。<!-- Verify description-->
+      * **[!UICONTROL File Upload to Cloud Storage]**：アカウントデータファイルがアップロードされたか、アカウントデータのアップロードに失敗したという通知（[ アカウントデータを [!DNL Amazon] [!DNL S3] バケットにアップロード ](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/upload-account-data.md)経由）。<!-- Verify description-->
 
    * [!UICONTROL Network Errors]
 
       * **[!UICONTROL Account Auth Error]**：資格情報が無効であるか、認証トークンが無効または期限切れであることが原因で、Search, Social, &amp; Commerceが[ad network account](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)にアクセスできなかったことを知らせる通知。
 
-      * **[!UICONTROL Account Missing]**: Search, Social, &amp; Commerceに[広告ネットワークアカウント &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)の資格情報が欠落していることを知らせる通知。
+      * **[!UICONTROL Account Missing]**: Search, Social, &amp; Commerceに[広告ネットワークアカウント ](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)の資格情報が欠落していることを知らせる通知。
 
-      * **[!UICONTROL Manager Account Auth Error]**：無効な資格情報または無効または期限切れの認証トークンが原因で、Search, Social, &amp; Commerceが[ad network manager アカウント &#x200B;](/help/search-social-commerce/admin/manager-accounts.md)と同期できなかったことを知らせる通知。<!-- Update link once file for new UI available-->
+      * **[!UICONTROL Manager Account Auth Error]**：無効な資格情報または無効または期限切れの認証トークンが原因で、Search, Social, &amp; Commerceが[ad network manager アカウント ](/help/search-social-commerce/admin/manager-accounts.md)と同期できなかったことを知らせる通知。<!-- Update link once file for new UI available-->
 
 * [!UICONTROL Insights & Reports]
 
    * **[!UICONTROL Advertising Insights]**: [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md)が完了または失敗したことを通知します。
 
-   * **[!UICONTROL Custom Alerts]**: アラートテンプレートに対して[&#x200B; アラートインスタンス &#x200B;](/help/search-social-commerce/new-ui/alerts-manage.md)がトリガーされたという通知。
+   * **[!UICONTROL Custom Alerts]**: アラートテンプレートに対して[ アラートインスタンス ](/help/search-social-commerce/new-ui/alerts-manage.md)がトリガーされたという通知。
 
-   * **[!UICONTROL Spreadsheet Feeds]**: [&#x200B; スプレッドシート フィード &#x200B;](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)が完了または失敗したことを通知します。
+   * **[!UICONTROL Spreadsheet Feeds]**: [ スプレッドシート フィード ](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)が完了または失敗したことを通知します。
 
    * [!UICONTROL Reports]
 
       * **[!UICONTROL Grid Reports]**：特定のビューからのデータビューレポート（[!UICONTROL Camapigns] ビューのデータテーブルの内容など）が完了または失敗したことの通知。
 
-      * **[!UICONTROL Reports]**: [&#x200B; カスタムレポートまたはスケジュール済みレポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/report-manage.md)が完了または失敗したことを通知します。
+      * **[!UICONTROL Reports]**: [ カスタムレポートまたはスケジュール済みレポート ](/help/search-social-commerce/new-ui/reports/management/report-manage.md)が完了または失敗したことを通知します。
 
    * [!UICONTROL Portfolio Management]
 
       * **[!UICONTROL Intraday Optimization]**：日内最適化が無効になっている場合の通知。
 
-      * **[!UICONTROL Simulation Report]**: [&#x200B; シミュレーションジョブ &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)に関する通知。
+      * **[!UICONTROL Simulation Report]**: [ シミュレーションジョブ ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)に関する通知。
 
       * [!UICONTROL Objective & Conversion Configuration]
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
       * [!UICONTROL Portfolios]
 
-         * **[!UICONTROL Portfolio Bulksheet Diagnostic Report]**: [&#x200B; ポートフォリオ一括編集ジョブに関する通知をバルクシート &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)経由で送信します。
+         * **[!UICONTROL Portfolio Bulksheet Diagnostic Report]**: [ ポートフォリオ一括編集ジョブに関する通知をバルクシート ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)経由で送信します。
 
          * **[!UICONTROL Portfolio Settings]**: ポートフォリオ設定の[変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)に関する通知。
 
@@ -144,7 +144,7 @@ In Campaign Management:
 
      一部の通知では、[!UICONTROL Action Recommended] セクションに、影響を受けるエンティティまたは責任あるエンティティのフィルタービューを開くリンクが含まれている場合があります。
 
-   * 通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;としてマークするには、アラート名の上にカーソルを置き、![既読または未読としてマーク &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
+   * 通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;としてマークするには、アラート名の上にカーソルを置き、![既読または未読としてマーク ](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
 
      *読み取り*&#x200B;とマークされた通知は、明るい色のテキストですが、削除するまで利用できます。
 
@@ -170,7 +170,7 @@ In Campaign Management:
 
      一部の通知では、[!UICONTROL Action Recommended] セクションに、影響を受けるエンティティまたは責任あるエンティティのフィルタービューを開くリンクが含まれている場合があります。
 
-   * 通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;としてマークするには、アラート名の上にカーソルを置き、![既読または未読としてマーク &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
+   * 通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;としてマークするには、アラート名の上にカーソルを置き、![既読または未読としてマーク ](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
 
      *読み取り*&#x200B;とマークされた通知は、明るい色のテキストですが、削除するまで利用できます。
 
@@ -200,13 +200,13 @@ In Campaign Management:
 
    * （[!UICONTROL Subscribe]が無効になっている場合） Search, Social, &amp; Commerce内のweb通知を購読し、ブラウザーで有効になっている場合はプッシュ通知を行うには、**[!UICONTROL Web]**&#x200B;列のチェックボックスをオンにします。
 
-     Web通知は、[&#x200B; プッシュ通知](#notification-push-enable-disable)をブラウザーに対して有効にした場合にのみ配信されます。
+     Web通知は、[ プッシュ通知](#notification-push-enable-disable)をブラウザーに対して有効にした場合にのみ配信されます。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## 通知を既読または未読としてマーク {#notification-mark-read-unread}
 
-通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;とマークすると、各ページの上部にある[!UICONTROL Notifications] リンクに表示されている未読の通知の数が変更されます（未読の通知カウンターを含む![通知アイコン &#x200B;](/help/search-social-commerce/assets/notifications-unread.png "未読の通知カウンター")など）。
+通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;とマークすると、各ページの上部にある[!UICONTROL Notifications] リンクに表示されている未読の通知の数が変更されます（未読の通知カウンターを含む![通知アイコン ](/help/search-social-commerce/assets/notifications-unread.png "未読の通知カウンター")など）。
 
 *読み取り*&#x200B;とマークされた通知は、明るい色のテキストですが、削除するまで利用できます。
 
@@ -214,7 +214,7 @@ In Campaign Management:
 
 1. [通知パネルまたは通知センター](#notification-view)を開きます。
 
-1. アラート名の上にカーソルを置き、![既読または未読としてマーク &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
+1. アラート名の上にカーソルを置き、![既読または未読としてマーク ](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
 
 ## 通知の削除 {#notification-delete}
 
@@ -254,7 +254,7 @@ Search、Social、およびCommerce内で通知を有効にし、ブラウザー
 
 1. **[!UICONTROL View All]**&#x200B;をクリックします。
 
-1. 右下の「![&#x200B; プッシュ通知を有効にする](/help/search-social-commerce/assets/notifications-push.png " プッシュ通知を有効にする")」をクリックします。
+1. 右下の「![ プッシュ通知を有効にする](/help/search-social-commerce/assets/notifications-push.png " プッシュ通知を有効にする")」をクリックします。
 
 1. 確認メッセージで、**[!UICONTROL Enable]**&#x200B;をクリックします。
 
@@ -278,7 +278,7 @@ Search、Social、およびCommerce内で通知を有効にし、ブラウザー
 
 [!UICONTROL Notification Center] アプリケーションをインストールすると、ブラウザーのアプリケーション マネージャーで自動的に有効になり、ウィンドウ サイズに基づいてレイアウトが動的に配置される別のウィンドウとして読み込まれます。 ブラウザーのアプリケーションマネージャーからアプリケーションを開いて閉じるか、オペレーティングシステムのタスクバーまたはドックに固定できます。 アプリケーションが自動的に更新されます。
 
-![Microsoft Windows タスクバーの通知センターアイコン &#x200B;](/help/search-social-commerce/assets/windows-taskbar.png "Microsoft Windows タスクバーの通知センターアイコン ")
+![Microsoft Windows タスクバーの通知センターアイコン ](/help/search-social-commerce/assets/windows-taskbar.png "Microsoft Windows タスクバーの通知センターアイコン ")
 
 ブラウザーのアプリケーションマネージャーからアプリケーションを無効にしたり、アンインストールしたりできます。 Web アプリケーションの管理について詳しくは、ブラウザーのヘルプを参照してください。
 
@@ -288,7 +288,7 @@ Search、Social、およびCommerce内で通知を有効にし、ブラウザー
 
 1. **[!UICONTROL View All]**&#x200B;をクリックします。
 
-1. 右下の「![通知センターweb アプリのインストール &#x200B;](/help/search-social-commerce/assets/notifications-install-app.png "通知センターweb アプリのインストール ")」をクリックします。
+1. 右下の「![通知センターweb アプリのインストール ](/help/search-social-commerce/assets/notifications-install-app.png "通知センターweb アプリのインストール ")」をクリックします。
 
 1. 確認メッセージで、**[!UICONTROL Add]**&#x200B;をクリックします。
 
@@ -302,7 +302,7 @@ Search、Social、およびCommerce内で通知を有効にし、ブラウザー
 
    1. **[!UICONTROL View All]**&#x200B;をクリックします。
 
-   1. 右下の「![通知センターweb アプリのインストール &#x200B;](/help/search-social-commerce/assets/notifications-install-app.png "通知センターweb アプリのインストール ")」をクリックします。
+   1. 右下の「![通知センターweb アプリのインストール ](/help/search-social-commerce/assets/notifications-install-app.png "通知センターweb アプリのインストール ")」をクリックします。
 
    1. 確認メッセージで、**[!UICONTROL Add]**&#x200B;をクリックします。
 

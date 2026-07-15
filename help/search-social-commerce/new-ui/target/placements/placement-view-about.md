@@ -4,9 +4,9 @@ description: '[!UICONTROL Placements] ビューで何ができるかを説明し
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: d31afcd7-86f0-4ea0-8050-aab0027faa76
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,10 @@ ht-degree: 0%
 
 ## 使用可能なアクション
 
-* [プレースメントに制約を割り当て、プレースメントから制約を割り当て解除する](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+* [プレースメントに制約を割り当て、プレースメントから制約を割り当て解除する](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+
+* [ ラベル分類](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)をプレースメントに割り当てる
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [ プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)

@@ -2,16 +2,11 @@
 title: （新しいUI）バルクシートの後またはエラーファイルの修正
 description: 新しいSearch, Social, & Commerce UIで、バルクシートファイルを広告ネットワークに投稿する方法について説明します。
 feature: Search Bulksheets
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: e58024d1-d6da-420c-80af-6be211808316
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 739034010787c2016720bef37fb75dc8efbae58b
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: 752
 ht-degree: 0%
@@ -20,7 +15,7 @@ ht-degree: 0%
 
 # （新しいUI）バルクシートの後またはエラーファイルの修正
 
-既存のバルクシートファイルまたは修正されたエラーファイルを、[&#x200B; サポートされている広告ネットワーク &#x200B;](about.md#bulksheet-functionality-by-network)の関連アカウントに投稿できます。 ファイルがZIP形式の場合は、最初に解凍する必要はありません。
+既存のバルクシートファイルまたは修正されたエラーファイルを、[ サポートされている広告ネットワーク ](about.md#bulksheet-functionality-by-network)の関連アカウントに投稿できます。 ファイルがZIP形式の場合は、最初に解凍する必要はありません。
 
 バルクシートファイルとエラーファイルは、アップロードまたは生成されてから30日後に自動的に削除されます。
 
@@ -38,7 +33,7 @@ ht-degree: 0%
 
    同じ設定が、投稿するすべてのファイルに適用されます。
 
-タスクが開始されると、行のステータスとスケジュールされた投稿日が[!UICONTROL Bulksheets] ビューで更新されます。 バルクシートのメール通知が[!UICONTROL Notification Center] [&#128279;] (/help/search-social-commerce/new-ui/notifications/notification-manage.md)内で有効になっている場合、ファイルの投稿時に、ファイルへのリンクを含むメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 いずれかのデータを投稿できない場合は、エラーファイルが[!UICONTROL Bulksheets] ビューに表示され、エラーファイルへのリンクを含むメール通知が送信されます。
+タスクが開始されると、行のステータスとスケジュールされた投稿日が[!UICONTROL Bulksheets] ビューで更新されます。 バルクシートのメール通知が[!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md)内で[有効になっている場合、ファイルの投稿時に、ファイルへのリンクを含むメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 いずれかのデータを投稿できない場合は、エラーファイルが[!UICONTROL Bulksheets] ビューに表示され、エラーファイルへのリンクを含むメール通知が送信されます。
 
 >[!NOTE]
 >
@@ -59,8 +54,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI）バルクシートを使用したキャンペーンデータの管理について](about.md)
->* [&#x200B; （新しいUI） バルクシート ファイルのダウンロードと作成](download.md)
->* [&#x200B; （新しいUI） バルクシートまたは修正されたエラーファイルをアップロード &#x200B;](upload.md)
->* [&#x200B; （新しいUI）バルクシート ファイルのランディングページを検証](validate-landing-pages.md)
->* [&#x200B; （新しいUI） アップロードされたバルクシートとエラーファイルを削除](delete.md)
+>* [ （新しいUI）バルクシートを使用したキャンペーンデータの管理について](about.md)
+>* [ （新しいUI） バルクシート ファイルのダウンロードと作成](download.md)
+>* [ （新しいUI） バルクシートまたは修正されたエラーファイルをアップロード ](upload.md)
+>* [ （新しいUI）バルクシート ファイルのランディングページを検証](validate-landing-pages.md)
+>* [ （新しいUI） アップロードされたバルクシートとエラーファイルを削除](delete.md)

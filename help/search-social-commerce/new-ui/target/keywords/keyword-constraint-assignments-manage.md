@@ -1,21 +1,17 @@
 ---
-title: キャンペーンの制約の割り当ての管理
-description: キャンペーンに制約を割り当てる方法を説明します。
+title: キーワードの制約の割り当ての管理
+description: キーワードに制約を割り当てる方法を説明します。
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
-TQID: https://experienceleague.adobe.com/qwisQ3OqMeymlREsTVY-Wf59ln37hBLR0X4R7RjkuTM
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
 source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# （新しいUI）キャンペーンの制約の割り当ての管理
+# （新しいUI） キーワードの制約の割り当ての管理
 
 *Beta機能*
 
@@ -30,13 +26,13 @@ ht-degree: 0%
 >* 後で変更不可の広告のキーワードまたは広告コピーを編集し、それによって新しいキーワードまたは広告を作成した場合、制約は新しいエンティティに割り当てられません。
 >* アクティブな制約は、最適化された従来のキーワードレベルのポートフォリオで、割り当てられた入札単位のみに対して入札を制限します。 アクティブなポートフォリオにある、ハイブリッドポートフォリオにある、またはポートフォリオにない入札単位については無視されます。
 
-## 新しい[!UICONTROL Campaigns] ビューから選択したキャンペーンに制約を割り当てます
+## 新しい[!UICONTROL Keywords] ビューから選択した広告に制約を割り当てます
 
 1つ以上のキャンペーンに1つの制約を割り当てることができます。
 
-1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Target]>[!UICONTROL Keywords]**&#x200B;をクリックします。
 
-1. 1つの制約を割り当てる各キャンペーンの横にあるチェックボックスをオンにします。
+1. 「**[!UICONTROL Keywords]**」タブで、1つの制約を割り当てる各キーワードの横にあるチェックボックスをオンにします。
 
 1. 一括操作ツールバーで、**+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**&#x200B;をクリックします。
 
@@ -64,11 +60,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
-## 新しい[!UICONTROL Campaigns] ビューから選択したキャンペーンから制約を割り当て解除
+## 新しい[!UICONTROL Keywords] ビューから選択したキャンペーンから制約を割り当て解除
 
-1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Target]>[!UICONTROL Keywords]**&#x200B;をクリックします。
 
-1. 制約の割り当てを解除する各キャンペーンの横にあるチェックボックスをオンにします。
+1. 「**[!UICONTROL Keywords]**」タブで、制約の割り当てを解除する各キーワードの横にあるチェックボックスをオンにします。
 
 1. 一括操作ツールバーで、**-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**&#x200B;をクリックします。
 
@@ -93,6 +89,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [ （新しいUI）検索入札単位の制約を管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
+>* [ （新しいUI） キャンペーンの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [ （新しいUI）広告グループの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [ （新しいUI） キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
 >* [ （新しいUI） プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
