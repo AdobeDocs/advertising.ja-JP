@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
 workflow-type: tm+mt
 source-wordcount: 585
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
 
    **[!UICONTROL Report redirects as errors]:** ランディングページが別のページにリダイレクトされる場合（ランディングページが見つからず、サイトに代替ページが表示される場合など）、ランディングページエラーファイルの[!UICONTROL EF Errors]列は、ランディングページがリダイレクトされるURLを示します。
 
-タスクが開始されると、新しい行が[!UICONTROL Bulksheets] ビューに追加されます。 バルクシートのメール通知が[!UICONTROL Notification Center] [&#128279;] (/help/search-social-commerce/new-ui/notifications/notification-manage.md)内で有効になっている場合、ファイルの作成時に、ファイルへのリンクを含むメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 ファイルをダウンロードして編集し、投稿のために再アップロードするか、ファイルをそのまま投稿できます。
+タスクが開始されると、新しい行が[!UICONTROL Bulksheets] ビューに追加されます。 バルクシートのメール通知が[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications-manage.md)内で有効になっている場合、ファイルの作成時に、ファイルへのリンクを含むメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 ファイルをダウンロードして編集し、投稿のために再アップロードするか、ファイルをそのまま投稿できます。
 
 >[!NOTE]
 >

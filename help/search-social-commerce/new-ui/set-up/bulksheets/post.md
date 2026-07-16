@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 739034010787c2016720bef37fb75dc8efbae58b
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: 752
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    同じ設定が、投稿するすべてのファイルに適用されます。
 
-タスクが開始されると、行のステータスとスケジュールされた投稿日が[!UICONTROL Bulksheets] ビューで更新されます。 バルクシートのメール通知が[!UICONTROL Notification Center] [&#128279;] (/help/search-social-commerce/new-ui/notifications/notification-manage.md)内で有効になっている場合、ファイルの投稿時に、ファイルへのリンクを含むメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 いずれかのデータを投稿できない場合は、エラーファイルが[!UICONTROL Bulksheets] ビューに表示され、エラーファイルへのリンクを含むメール通知が送信されます。
+タスクが開始されると、行のステータスとスケジュールされた投稿日が[!UICONTROL Bulksheets] ビューで更新されます。 バルクシートのメール通知が[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications-manage.md)内で有効になっている場合、ファイルの投稿時に、ファイルへのリンクを含むメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 いずれかのデータを投稿できない場合は、エラーファイルが[!UICONTROL Bulksheets] ビューに表示され、エラーファイルへのリンクを含むメール通知が送信されます。
 
 >[!NOTE]
 >

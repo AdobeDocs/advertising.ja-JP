@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 38fd7ff63b177f13bdfb19b980fb1d1e14edcf56
+source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
 workflow-type: tm+mt
 source-wordcount: 830
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Upload]**&#x200B;をクリックします。
 
-タスクが開始されると、ファイルは[!UICONTROL Bulksheets] ビューに表示されます。 バルクシートのメール通知が[!UICONTROL Notification Center] [&#128279;] (/help/search-social-commerce/new-ui/notifications/notification-manage.md)内で有効になっている場合、ジョブが完了すると、ファイルへのリンク付きのメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 ファイルの生成に失敗した場合、エラーファイルが[!UICONTROL Bulksheets] ビューに表示され、エラーファイルへのリンクを含むメール通知が送信されます。
+タスクが開始されると、ファイルは[!UICONTROL Bulksheets] ビューに表示されます。 バルクシートのメール通知が[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications-manage.md)内で有効になっている場合、ジョブが完了すると、ファイルへのリンク付きのメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 ファイルの生成に失敗した場合、エラーファイルが[!UICONTROL Bulksheets] ビューに表示され、エラーファイルへのリンクを含むメール通知が送信されます。
 
 >[!NOTE]
 >

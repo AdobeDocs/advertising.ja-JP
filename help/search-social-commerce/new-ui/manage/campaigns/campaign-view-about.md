@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
 workflow-type: tm+mt
-source-wordcount: 252
+source-wordcount: 257
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 * [既存または新規のポートフォリオにキャンペーンを割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)、および[&#x200B; ポートフォリオからキャンペーンを割り当て解除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [キャンペーンに制約を割り当て、キャンペーンから制約を割り当て解除します](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+
+* [&#x200B; ラベル分類をキャンペーンに割り当て](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
 
 * [[!UICONTROL Campaigns] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 
