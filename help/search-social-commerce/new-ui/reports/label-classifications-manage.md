@@ -2,7 +2,7 @@
 title: ラベル分類の管理
 description: ラベル分類を使用してアカウントコンポーネントをグループ化する方法について説明します。
 feature: Search Label Classifications
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
@@ -111,7 +111,7 @@ ht-degree: 0%
 >
 >一部の広告ネットワークおよびキャンペーンタイプのキーワードと広告コピーは[変更不可](/help/search-social-commerce/campaign-management/faqs-campaigns.md)です。これは、編集すると既存のエンティティが削除され、新しいエンティティが作成されることを意味します。 この方法で既存のエンティティが削除された場合、ラベル分類は新しいエンティティに割り当てられません。
 
-1. [&#x200B; ラベル分類値を割り当てるエンティティを含むバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)をダウンロードします。
+1. [&#x200B; ラベル分類値を割り当てるエンティティを含むバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)をダウンロードします。
 
    * [!UICONTROL Rows and Columns] タブで、[!UICONTROL Bulksheet Columns] ペインの[!UICONTROL Campaign] リストを展開します。
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
    値を追加するだけでなく、関連する行から既存の値を削除することもできます。 親エンティティとその子エンティティの両方から値を削除するには、a）親エンティティ行のみを含めて既存の分類値を削除するか、b）親エンティティとその子エンティティの両方を含めて、すべての親行と子行から既存の分類値を削除します。
 
-1. [&#x200B; ファイル &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)をアップロードして、関連付けを作成します。<!-- Update once the new bulksheet UI is GA -->
+1. [&#x200B; ファイル &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md)をアップロードして、関連付けを作成します。
 
 アップロードされたラベル値は、関連するエンティティのビューに表示されます。
 
