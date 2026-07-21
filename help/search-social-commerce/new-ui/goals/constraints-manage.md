@@ -6,7 +6,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: 2660
 ht-degree: 0%
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 * すべての制約は、「[!UICONTROL Constraints]」と呼ばれる単一の[&#x200B; ラベル分類](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=ja)のラベル値です。
 
-   * 「[!UICONTROL Constraints]」は、デフォルトおよびカスタムビュー設定とスケジュール済みレポートの「[!UICONTROL Classifications]」リストに含まれています。 関連エンティティに割り当てられた制約を表示する場所に列を追加できます。
+  * 「[!UICONTROL Constraints]」は、デフォルトおよびカスタムビュー設定とスケジュール済みレポートの「[!UICONTROL Classifications]」リストに含まれています。 関連エンティティに割り当てられた制約を表示する場所に列を追加できます。
 
-   * バルクシートをダウンロードすると、[!UICONTROL Download Bulksheet] ダイアログの該当するエンティティの「[!UICONTROL Classifications]」列の下に「[!UICONTROL Constraints]」が表示されます。 列を含めると、ダウンロードされたバルクシートには、関連するエンティティに割り当てられた制約が含まれます。
+  * バルクシートをダウンロードすると、[!UICONTROL Download Bulksheet] ダイアログの該当するエンティティの「[!UICONTROL Classifications]」列の下に「[!UICONTROL Constraints]」が表示されます。 列を含めると、ダウンロードされたバルクシートには、関連するエンティティに割り当てられた制約が含まれます。
 
   [!UICONTROL Constraints]分類は[!UICONTROL Label Classifications] ビューに含まれていません。[!UICONTROL Constraints] ビューは別のビューです。 [!UICONTROL Constraints]分類も30 ラベルの分類制限に含まれていません。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 アクティブなコンストレインを一時停止して無効にすることができます。 後でステータスを&#x200B;*アクティブ*&#x200B;に戻して有効にすることができます。
 
-また、制約を削除して、アカウントコンポーネントとの関連付けをすべて削除し、後で使用できないようにすることもできます。 制約のレポートデータは使用できなくなります。 **メモ：**&#x200B;単にアカウント コンポーネントから制約を解除するには、「[検索入札単位からの制約の割り当て解除](#constraints-unassign)」を参照してください。
+また、制約を削除して、アカウントコンポーネントとの関連付けをすべて削除し、後で使用できないようにすることもできます。 制約のレポートデータは使用できなくなります。 **メモ：** アカウントコンポーネントから制約を単に関連付けを解除するには、「[検索入札単位から制約を削除](#constraints-unassign)」を参照してください。
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Constraints]**&#x200B;をクリックします。
 

@@ -12,9 +12,9 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 82db1b4d0d8703229a4002e932d5b2f52f845814
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
-source-wordcount: 718
+source-wordcount: 702
 ht-degree: 0%
 
 ---
@@ -43,11 +43,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Auto Targets] ビュー
 
-[!UICONTROL Auto Targets] ビューには、選択した広告主アカウントのフィルター処理されたビュー内のすべての動的検索ターゲットが一覧表示されます。
-
-[!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] ビューで、動的検索ターゲットのステータスを作成、編集、変更できます。
-
-任意のターゲットに[&#x200B; ラベル &#x200B;](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md)を適用することもできます。
+[!UICONTROL Target] > [!UICONTROL Auto Targets] ビューには、選択した広告主アカウントのフィルター処理されたビュー内のすべての動的検索ターゲットが一覧表示されます。 また、動的検索目標を管理することもできます。
 
 ### 使用可能なアクション
 
@@ -59,7 +55,7 @@ ht-degree: 0%
 * Change the status of dynamic search targets
 -->
 
-* [動的検索ターゲットに制約を割り当て](#constraint-assign)、および[動的検索ターゲットから制約を割り当て解除](#constraint-unassign)
+* [動的検索対象に制約](#constraint-assign)を割り当て、[動的検索対象から制約](#constraint-unassign)を削除します
 
 * [&#x200B; ラベル分類](#classification-values-assign)を動的検索対象に割り当て、[動的検索対象からラベル分類](#classification-values-remove)を削除します
 
@@ -192,7 +188,7 @@ You can also delete any dynamic target.
 
 1. **[!UICONTROL Assign Now]**&#x200B;をクリックします。
 
-## 選択した動的検索対象から新しい[!UICONTROL Auto Targets] ビューから制約を割り当て解除する {#constraint-unassign}
+## 選択した動的検索対象から新しい[!UICONTROL Auto Targets] ビューから制約を削除します {#constraint-unassign}
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Auto Targets]**&#x200B;をクリックします。
 
@@ -236,7 +232,7 @@ You can also delete any dynamic target.
 
 1. **+[!UICONTROL Assign Now]**&#x200B;をクリックします。
 
-## 動的検索対象からラベル分類値を削除します{#classification-values-remove}
+## 動的検索対象からラベル分類値を削除します {#classification-values-remove}
 
 分類値を削除すると、アカウントコンポーネントとそのすべての子コンポーネントとの関連付けが削除されます。 分類値のレポートデータは、これらのコンポーネントでは使用できなくなりました。 分類値を削除しても、値やアカウントコンポーネントは削除されません。
 
