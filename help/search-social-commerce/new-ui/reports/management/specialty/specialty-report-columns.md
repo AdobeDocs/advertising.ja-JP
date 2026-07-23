@@ -2,7 +2,7 @@
 title: 特殊レポートのレポート列
 description: 特殊レポートで使用可能なデータ列について説明します。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: 43b3d16233aec1fce0f3db092b9911717686f448
 workflow-type: tm+mt
 source-wordcount: '3172'
 ht-degree: 0%
