@@ -28,13 +28,13 @@ ht-degree: 0%
 *Advertising DSPおよび[!DNL Advertising Search, Social, & Commerce]*&#x200B;の広告主
 
 
-* （Customer Journey Analyticsを使用しているが[!DNL Analytics for Advertising]を使用していない広告主） [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) バージョン 2.36以降。
+* （Customer Journey Analyticsを使用しているが[!DNL Analytics for Advertising]を使用していない広告主） [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) バージョン 2.36以降。
 
 * Adobe Customer Journey Analyticsからデータ管理ツールにアクセス
 
   データセットへの接続を設定し、レポートを設定するには、社内のweb アナリストのサポートが必要です。
 
-* （広告主が[!DNL Analytics for Advertising]）Adobe Experience Platform データモデリングおよび管理テクノロジー（[&#x200B; スキーマ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)および[&#x200B; データセット &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)を含む）および[&#x200B; データ収集テクノロジー](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) （[&#x200B; データストリーム &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)および[&#x200B; タグ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)を含む）
+* （広告主が[!DNL Analytics for Advertising]）Adobe Experience Platform データモデリングおよび管理テクノロジー（[&#x200B; スキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)および[&#x200B; データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)を含む）および[&#x200B; データ収集テクノロジー](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/home) （[&#x200B; データストリーム &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/overview)および[&#x200B; タグ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)を含む）
 
   これらのテクノロジには、Experience Platform サイト管理者のサポートが必要です。
 
