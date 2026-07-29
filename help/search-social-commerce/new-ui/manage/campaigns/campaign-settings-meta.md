@@ -26,8 +26,6 @@ Search, Social, &amp; Commerceでは[!DNL Meta Ads] キャンペーンを作成�
 
 <!-- **[!UICONTROL End Date]:** -->
 
-{{$include /help/_includes/end-date.md}}
-
 **[!UICONTROL Status]:** キャンペーンの表示ステータス：*アクティブ*&#x200B;または&#x200B;*一時停止*。
 
 ## [!UICONTROL Campaign Tracking]
@@ -40,4 +38,4 @@ Search, Social, &amp; Commerceでは[!DNL Meta Ads] キャンペーンを作成�
 
 >[!MORELIKETHIS]
 >
->* [ キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [ キャンペーンの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
