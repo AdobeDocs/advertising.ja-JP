@@ -22,7 +22,7 @@ ht-degree: 0%
 
 <!-- Move out info about Naver into a separate page -->
 
-各広告ネットワークで使用できる機能について詳しくは、「[ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 ## 広告ネットワークアカウントの詳細の作成 {#create-account}
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. （広告主の資格情報を使用して、広告ネットワークにログインします（[!DNL Yandex]を除くすべての広告ネットワーク）。 「このアカウントのアカウントトラッキング」オプションを選択します。 次に、右上の「**[!UICONTROL Next]**」をクリックします。
 
-1. 使用可能な各タブで[ アカウント設定](#account-settings-api)を指定します。
+1. 使用可能な各タブで[&#x200B; アカウント設定](#account-settings-api)を指定します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
    * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. 使用可能なタブで[ アカウント設定](#account-settings-api)を編集します。
+1. 使用可能なタブで[&#x200B; アカウント設定](#account-settings-api)を編集します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 >
 >Search、Social、CommerceとAdobe Analyticsの統合があり、検索アカウントの名前を変更した場合は、Adobe アカウントチームにマッピングを更新するように依頼します。
 
-**[!DNL [Ad Network] アカウント ]:** （アカウント作成中に表示）同期する広告ネットワークアカウント。
+**[!DNL [Ad Network] アカウント &#x200B;]:** （アカウント作成中に表示）同期する広告ネットワークアカウント。
 
 **[ログインの詳細]:** （Yandex アカウントのみ）使用するアカウント資格情報：
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Ad network manager アカウントは、ここではサポートされていません。 [!DNL Microsoft Advertising]のマネージャーアカウントを特定するには、「マスターアカウント ID」フィールドまたは「MCC アカウント」フィールドをそれぞれ使用します。 [ マネージャーアカウント ](/help/search-social-commerce/admin/manager-accounts.md)の資格情報を設定するには、[!UICONTROL Admin] \> [!UICONTROL Manager Accounts]に移動します。 [!DNL Google Ads] 
+>Ad network manager アカウントは、ここではサポートされていません。 [!DNL Microsoft Advertising]のマネージャーアカウントを特定するには、「マスターアカウント ID」フィールドまたは「MCC アカウント」フィールドをそれぞれ使用します。 [&#x200B; マネージャーアカウント &#x200B;](/help/search-social-commerce/admin/manager-accounts.md)の資格情報を設定するには、[!UICONTROL Admin] \> [!UICONTROL Manager Accounts]に移動します。 [!DNL Google Ads] 
 
 **[!UICONTROL Currency]:** （読み取り専用）アカウントに使用される通貨の略語。 この値は、レコードを保存すると、広告ネットワーク上のアカウントに設定された通貨で自動的に入力されます。
 
@@ -207,7 +207,7 @@ ht-degree: 0%
 
 例：`param1=value1&param2=value2`
 
-Adobe Advertising クリック トラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック ID （[!DNL Microsoft Advertising]の`msclkid`; Googleの`gclid`）を含める必要があります。 Adobe Analyticsとの統合を持つアカウントでは、AMO ID パラメーター（`s_kwcid`で始まる）を使用する必要があります。 アカウントにサーバーサイド AMO ID実装がある場合、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、ここで手動で追加する必要があります。  [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の[必要なサフィックス形式を参照してください。
+Adobe Advertising クリック トラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック ID （[!DNL Microsoft Advertising]の`msclkid`; Googleの`gclid`）を含める必要があります。 Adobe Analyticsとの統合を持つアカウントでは、AMO ID パラメーター（`s_kwcid`で始まる）を使用する必要があります。 アカウントにサーバーサイド AMO ID実装がある場合、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、ここで手動で追加する必要があります。  [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の必要なサフィックス形式を参照してください。
 
 >[!NOTE]
 >
@@ -218,7 +218,7 @@ Adobe Advertising クリック トラッキングを使用するアカウント�
 
 * 最終的なURLを埋め込むには：
 
-  * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）を参照してください。
+  * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）を参照してください。
 
   * （[!DNL LY Ads]のみ） パラメーター`!{lpurl}`を使用して、ランディングページ URLを示します。
 
@@ -247,5 +247,5 @@ Adobe Advertising クリック トラッキングを使用するアカウント�
 >[!MORELIKETHIS]
 >
 >* [広告ネットワークアカウントについて](../ad-network-account-about.md)
->* [ マーチャント センターのアカウントの管理](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
->* [ アカウント  [!DNL Google Ads] のs_kwcid トラッキングコードを更新します](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
+>* [&#x200B; マーチャント センターのアカウントの管理](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
+>* [&#x200B; アカウント  [!DNL Google Ads] のs_kwcid トラッキングコードを更新します](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)

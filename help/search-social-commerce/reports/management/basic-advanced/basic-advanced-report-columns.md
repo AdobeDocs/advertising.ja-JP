@@ -4,9 +4,15 @@ description: 基本レポートと詳細レポートで使用できるデータ�
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
 TQID: https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 41a9add10a9d12e8452d18825fd732720b27243f
 workflow-type: tm+mt
 source-wordcount: 3847
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 | 列 | 説明 |
 | ---- | ---- |
-| \[広告主固有のカスタム（派生）指標\] | 既存の指標から計算される、作成した[ カスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)の値。 |
+| \[広告主固有のカスタム（派生）指標\] | 既存の指標から計算される、作成した[&#x200B; カスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)の値。 |
 | \[広告主固有ラベル分類\] | 現在エンティティに適用されているラベル分類（エンティティ レベル）。 複数のラベル分類は、コンマ（,）で区切ります。 |
 | \[Advertiser-specific conversion metrics\] | 指定されたコンバージョン指標またはサイトエンゲージメント指標のコンバージョン数。 |
 | \[Googleで追跡されたコンバージョン\] | 「GGL\*、GGL_CT\*、およびGGL_XD_CT\*」のエントリを参照してください。 |

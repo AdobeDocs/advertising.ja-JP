@@ -2,10 +2,14 @@
 title: クリエイティブアセットの表示と作成
 description: ' [!DNL Google Ads] および [!DNL Microsoft Advertising]  アカウントレベルのアセットライブラリで再利用可能な画像、ビデオ、テキストアセットを表示および作成する方法について説明します。'
 feature: Search Campaign Management
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47301d06bc2a06c2601107abd988e787114e36bb
 workflow-type: tm+mt
 source-wordcount: 492
@@ -18,7 +22,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントのみ*
 
-[!UICONTROL Assets] > [!UICONTROL Creatives]では、[!DNL Google Ads]および[!DNL Microsoft Advertising]のアカウントレベルのアセットライブラリで、再利用可能なすべての画像、ビデオ、および（2}の場合のみ）テキストアセットを表示できます。 [!DNL Google Ads]このリストには、[!DNL AI Max]対応キャンペーンの[!DNL Google Ads]広告グループに対してAIが生成したアセットが含まれています。
+[!UICONTROL Assets] > [!UICONTROL Creatives]では、[!DNL Google Ads]および[!DNL Microsoft Advertising]のアカウントレベルのアセットライブラリで、再利用可能なすべての画像、ビデオ、および（2&rbrace;の場合のみ）テキストアセットを表示できます。 [!DNL Google Ads]このリストには、[!DNL AI Max]対応キャンペーンの[!DNL Google Ads]広告グループに対してAIが生成したアセットが含まれています。
 
 広告ネットワークアカウントの新しいアセットを手動で作成し、広告ネットワークにアップロードできます。 <!-- Verify if you can use the AI-generated ones --> アップロードしたアセットは、パフォーマンスの最大化キャンペーンに使用できます。
 
@@ -102,7 +106,7 @@ AIが生成したテキストアセットを、関連する広告グループか
 
 1. 一括操作ツールバーで、**[!UICONTROL Remove]**&#x200B;をクリックします。
 
-1. <!-- VERIFY -->確認メッセージで、**[!UICONTROL Remove]**&#x200B;をクリックします。
+1. &#x200B;<!-- VERIFY -->確認メッセージで、**[!UICONTROL Remove]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
