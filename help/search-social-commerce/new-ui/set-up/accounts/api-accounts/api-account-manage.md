@@ -3,9 +3,9 @@ title: （新しいUI）広告ネットワークアカウントの管理
 description: 広告ネットワーク APIを介して同期された広告ネットワークの新しいUIで、アカウントの詳細を設定および管理する方法について説明します。
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 694cc3c6bc6217cf6f1febf5da28fd7988690622
+source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2143'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,7 @@ ht-degree: 0%
 
 1. （広告主の資格情報を使用して、広告ネットワークにログインします（[!DNL Yandex]を除くすべての広告ネットワーク）。 「このアカウントのアカウントトラッキング」オプションを選択します。 次に、右上の「**[!UICONTROL Next]**」をクリックします。
 
-1. [&#x200B; アカウント設定](#account-settings-api)を指定します。
-
-   1. 「**[!UICONTROL Select Accounts]**」タブで、一般的なアカウント設定を指定します。 [!DNL Yandex] アカウントの場合は、アカウントの資格情報を指定します。
-
-   1. 「**[!UICONTROL Setup Tracking]**」タブをクリックし、トラッキング設定を入力します。
-
-   1. （[[!DNL Adobe Analytics for Advertising] 統合](/help/integrations/analytics/overview.md)を持つ広告主）「**[!UICONTROL Set up Adobe Analytics]**」タブをクリックし、追跡およびレポートのキャンペーンアクティビティに使用するすべての[!DNL Analytics] レポートスイートを選択します。
+1. 使用可能な各タブで[&#x200B; アカウント設定](#account-settings-api)を指定します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -68,15 +62,7 @@ ht-degree: 0%
 
    * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. [&#x200B; アカウント設定](#account-settings-api)を編集します。
-
-   1. （オプション）「**[!UICONTROL Account Details]**」タブで、アカウントの詳細を編集します。
-
-   1. （オプション）「**[!UICONTROL Setup Tracking]**」タブをクリックし、トラッキング設定を編集します。
-
-   1. （オプション、[[!DNL Adobe Analytics for Advertising] 統合](/help/integrations/analytics/overview.md)を持つ広告主）「**[!UICONTROL Set up Adobe Analytics]**」タブをクリックし、[!DNL Analytics] レポートスイートを編集して、キャンペーンアクティビティの追跡とレポートに使用します。
-
-   <!-- What are the repercussions of changing the suites? Timing of updated data? -->
+1. 使用可能なタブで[&#x200B; アカウント設定](#account-settings-api)を編集します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -114,21 +100,21 @@ ht-degree: 0%
 
    * （[!UICONTROL Accounts] ビューから）:
 
-      * （アカウントを有効にするには） アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Activate]**」をクリックします。
+     * （アカウントを有効にするには） アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Activate]**」をクリックします。
 
-      * （アカウントを無効にするには） アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Pause]**」をクリックします。
+     * （アカウントを無効にするには） アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Pause]**」をクリックします。
 
    * （アカウント設定から）:
 
-      1. 次のいずれかの方法でアカウントを選択します。
+     1. 次のいずれかの方法でアカウントを選択します。
 
-         * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
+        * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-         * アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Edit]**」をクリックします。
+        * アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Edit]**」をクリックします。
 
-      1. 「**[!UICONTROL Account Details]**」タブで「**[!UICONTROL Account enabled]**」をオフにします。
+     1. 「**[!UICONTROL Account Details]**」タブで「**[!UICONTROL Account enabled]**」をオフにします。
 
-      1. **[!UICONTROL Save]**&#x200B;をクリックします。
+     1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## 広告ネットワークアカウント設定 {#account-settings-api}
 
@@ -232,9 +218,9 @@ Adobe Advertising クリック トラッキングを使用するアカウント�
 
 * 最終的なURLを埋め込むには：
 
-   * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）を参照してください。
+  * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）を参照してください。
 
-   * （[!DNL LY Ads]のみ） パラメーター`!{lpurl}`を使用して、ランディングページ URLを示します。
+  * （[!DNL LY Ads]のみ） パラメーター`!{lpurl}`を使用して、ランディングページ URLを示します。
 
 * 必要に応じて、URL パラメーターと、キャンペーン用に定義された任意のカスタムパラメーターを、アンパサンド（&amp;）で区切って含めることができます（`{lpurl}?matchtype={matchtype}&device={device}`）。
 
@@ -248,11 +234,11 @@ Adobe Advertising クリック トラッキングを使用するアカウント�
 >* 最も詳細なレベルのトラッキングテンプレートは、より高いレベルのすべての値を上書きします。 例えば、アカウント設定とキーワード設定の両方に値が含まれている場合、キーワード値が適用されます。
 >* 広告、サイトリンク、またはキーワードレベルでトラッキングテンプレートを更新すると、関連する広告がレビュー用に再送信されます。 承認のために広告を再送信することなく、アカウントレベル、キャンペーンレベル、広告グループレベルでトラッキングテンプレートを更新できます。
 
-## [!UICONTROL Setup Analytics] タブ
+## [!UICONTROL Set up Adobe Analytics] タブ
 
 これらの設定は、[[!DNL Adobe Analytics for Advertising] 統合](/help/integrations/analytics/overview.md)を持つ広告主が使用できます。
 
-**[!UICONTROL Adobe Analytics Report Suite]:** （オプション） Search, Social, &amp; Commerceがアドネットワークから収集したデータを送信する1つ以上のAnalytics レポートスイート （アカウントのエンティティ分類とクリックデータを含む）。 この機能は、サポートされている広告ネットワークでのみ使用できます。
+**[!UICONTROL Adobe Analytics Report Suite]:** （オプション） Search, Social, &amp; Commerceがアドネットワークから収集したデータを送信する1つ以上のAnalytics レポートスイート （アカウントのエンティティ分類とクリックデータを含む）。 この機能は、サポートされている広告ネットワークでのみ使用できます。<!-- What are the repercussions of changing the suites? Timing of updated data? -->
 
 レポートスイートにデータを表示するには、（a）アカウントにサーバーサイド AMO ID機能を設定するか、（b）広告主レベルの「[!UICONTROL Enable Advertising reporting in Analytics]」設定を有効にする必要があります。 さらに、広告主の[!DNL Analytics] アカウントは、Search、Social、およびCommerceからデータを受信するように設定する必要があります。 詳しくは、Adobe アカウントチームにお問い合わせください。
 

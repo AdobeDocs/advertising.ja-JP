@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e27316a62339036414dc1c624a35b398ad1cf392
+source-git-commit: 3d853c1ce30e8891baf37b14d20f166c4f79437d
 workflow-type: tm+mt
-source-wordcount: 2413
+source-wordcount: 2371
 ht-degree: 2%
 
 ---
@@ -117,19 +117,21 @@ ht-degree: 2%
       + [ポートフォリオの変更履歴の表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
       + [[!UICONTROL Portfolios] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
     + キャンペーン {#campaigns}
-      + [[!UICONTROL Campaigns] ビューについて](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-      + [キャンペーンのポートフォリオへの割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio){target="_blank"}
-      + [ポートフォリオからのキャンペーンの削除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio){target="_blank"}
-      + [キャンペーンの制約の割り当ての管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
-      + [[!UICONTROL Campaigns] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
-      + [キャンペーンのステータスの変更](/help/search-social-commerce/new-ui/manage/campaigns/campaign-change-status.md)
-      + [キャンペーン名の変更](/help/search-social-commerce/new-ui/manage/campaigns/campaign-rename.md)
+      + [キャンペーンの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
+      + 広告ネットワーク別のキャンペーン設定 {#campaign-settings-by-network}
+        + [[!DNL Baidu] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
+        + [[!DNL Google Ads] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
+        + [[!DNL LY Ads] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yahoo-japan.md)
+        + [[!DNL Microsoft Advertising] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
+        + [[!DNL Yandex] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)
     + 広告グループ {#ad-groups}
-      + [[!UICONTROL Ad Groups] ビューについて](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
-      + [広告グループの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-      + [[!UICONTROL Ad Groups] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
-      + [広告グループのステータスの変更](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-change-status.md)
-      + [広告グループ名の変更](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-rename.md)
+      + [広告グループの管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)
+      + 広告ネットワーク別の広告グループ設定 {#ad-group-settings-by-network}
+        + [[!DNL Baidu]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
+        + [[!DNL Google Ads]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
+        + [[!DNL LY Ads]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yahoo-japan.md)
+        + [[!DNL Microsoft Advertising]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
+        + [[!DNL Yandex]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)
     + 広告 {#ads}
       + [[!UICONTROL Ads] ビューについて](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
       + [[!UICONTROL Ads] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
@@ -146,6 +148,7 @@ ht-degree: 2%
           + 基本的なレポート形式 {#basic-report-formats}
             + [ザ [!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)
             + [ザ [!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)
+            + [ザ [!UICONTROL Asset Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/asset-report.md)
             + [ザ [!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)
             + [ザ [!UICONTROL Campaign Hourly Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-hourly-report.md)
             + [ザ [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)
@@ -215,6 +218,7 @@ ht-degree: 2%
       + [プレースメントの制約の割り当ての管理](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
     + [&#x200B; [!DNL Google Ads] 動的検索ターゲットの管理](/help/search-social-commerce/new-ui/target/dynamic-search-target-manage.md)
   + アセット {#assets}
+    + [クリエイティブアセットの表示と作成](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)
     + [ショッピング商品グループの管理](/help/search-social-commerce/new-ui/assets/product-groups-manage.md)
   + 設定 {#setup}
     + アカウント {#accounts}

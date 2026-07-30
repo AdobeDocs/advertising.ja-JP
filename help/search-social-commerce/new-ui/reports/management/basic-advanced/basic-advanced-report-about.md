@@ -2,9 +2,9 @@
 title: 基本レポートと詳細レポートについて
 description: カスタマイズ可能な基本レポートと詳細レポートをご確認ください。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 169857badb39b94538c04439956439c2ad259a9d
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 0%
 * [ザ [!UICONTROL Keyword Report]](keyword-report.md)
 
 * [ザ [!UICONTROL Product Group Report]](product-group-report.md)
+
+* [ザ [!UICONTROL Asset Report]](asset-report.md)
 
 ### 分類レポート
 

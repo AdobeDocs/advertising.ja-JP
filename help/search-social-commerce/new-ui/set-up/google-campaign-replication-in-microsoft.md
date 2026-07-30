@@ -2,7 +2,7 @@
 title: （新しいUI） Microsoft AdvertisingでのGoogle Ads キャンペーンのレプリケート
 description: Google Ads アカウント内の同期済みキャンペーンを、同期済みMicrosoft Advertising アカウントに直接書き出す方法について説明します。
 feature: Search Campaign Management
-source-git-commit: e6649d66757333660662a058410221b73a45e6cc
+source-git-commit: 75e264e213f60ae45c4f51f0a21352f690d6d699
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 キャンペーンを1回、日単位、週単位、月単位で更新するか、[!DNL Microsoft Advertising]の推奨スケジュールに従って更新するかを選択できます。 インポートジョブが実行されるたびに、またはエラーや変更が発生するたびに、オプションで通知を設定できます。 キャンペーンを[!DNL Microsoft Advertising]に読み込むと、読み込みジョブのステータスを確認したり、エラーログを確認したり、読み込みジョブを手動で実行したり、読み込みスケジュールを編集、一時停止、有効、削除したりできます。
 
-すべてのキャンペーン情報がレプリケートされるわけではなく、[!DNL Microsoft Advertising] キャンペーンに一部の情報を追加する必要がある場合があります。 どのデータが読み込まれるかについて詳しくは、「[何が [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851){target="_blank"}から読み込まれるか」の[!DNL Microsoft Advertising] ヘルプを参照してください。 検索、ソーシャル、およびCommerce トラッキングは読み込まれないので、[account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)、[campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[ad group](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)、[ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)の設定でもトラッキングを追加する必要があります。
+すべてのキャンペーン情報がレプリケートされるわけではなく、[!DNL Microsoft Advertising] キャンペーンに一部の情報を追加する必要がある場合があります。 どのデータが読み込まれるかについて詳しくは、「[何が [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851){target="_blank"}から読み込まれるか」の[!DNL Microsoft Advertising] ヘルプを参照してください。 検索、ソーシャル、およびCommerce トラッキングは読み込まれないので、[account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)、[campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[ad group](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)、[ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)の設定でもトラッキングを追加する必要があります。
 
 ## [!DNL Google Ads]件のキャンペーンを複製
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. 概要で選択内容を確認し、**[!UICONTROL Start Import]**&#x200B;をクリックします。
 
-1. （オプション）検索、ソーシャル、およびCommerce トラッキングを[account](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)、[campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[ad group](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)、または[ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)の設定内に追加します。
+1. （オプション）検索、ソーシャル、およびCommerce トラッキングを[account](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)、[campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[ad group](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)、または[ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)の設定内に追加します。
 
 ## キャンペーン読み込みジョブのスケジュール設定の編集
 
@@ -105,11 +105,11 @@ ht-degree: 0%
 
 * *[!UICONTROL Import specific campaigns and adgroups]:*&#x200B;特定のキャンペーンと広告グループを選択します。
 
-   * キャンペーンを子の広告グループに展開するには、キャンペーン名の後の&#x200B;**[!UICONTROL >]**&#x200B;をクリックします。
+  * キャンペーンを子の広告グループに展開するには、キャンペーン名の後の&#x200B;**[!UICONTROL >]**&#x200B;をクリックします。
 
-   * キャンペーンまたは広告グループを選択するには、チェックマークが表示されるようにアイテムを選択します。
+  * キャンペーンまたは広告グループを選択するには、チェックマークが表示されるようにアイテムを選択します。
 
-   * キャンペーンまたは広告グループを削除するには、項目の選択を解除するか、[!UICONTROL Selection]列の![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
+  * キャンペーンまたは広告グループを削除するには、項目の選択を解除するか、[!UICONTROL Selection]列の![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
 
 ### [!UICONTROL Customize Your Import] タブ
 

@@ -2,9 +2,9 @@
 title: 基本レポートと詳細レポートのレポート列
 description: 基本レポートと詳細レポートで使用できるデータ列について説明します。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
 workflow-type: tm+mt
-source-wordcount: '3841'
+source-wordcount: '3992'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,18 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | 広告のサイズ。 |
 | [!UICONTROL AD Strength] | （[!DNL Google Ads] レスポンシブ検索広告）広告の有効性：<i>[!UICONTROL average]</i>、<i>[!UICONTROL excellent]</i>、<i>[!UICONTROL good]</i>、<i>[!UICONTROL no_ads]</i>、<i>[!UICONTROL pending]</i>、<i>[!UICONTROL poor]</i>、<i>[!UICONTROL unknown]</i>または<i>[!UICONTROL unspecified]</i>。 |
 | [!UICONTROL Adgroup MBA] | （[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] キャンペーン）現在の広告グループレベルのモバイル入札調整。この調整は、広告がモバイルデバイスに表示されるときに入札額がどのように調整されるかを決定します。 |
-| [!UICONTROL AI Max Bundling Required] | （検索ネットワークのみをターゲットとするキャンペーン、AI最大機能が有効になっているキャンペーン、読み取り専用）バンドルが必要かどうか：*[!UICONTROL REQUIRED]*、*[!UICONTROL NOT_REQUIRED]*、*[!UICONTROL UNSPECIFIED]*、またはnull。 |
-| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]機能](https://support.google.com/google-ads/answer/15910366)が有効かどうか：[!UICONTROL true]*、*[!UICONTROL false]*、またはnull。 |
+| [!UICONTROL AI Max Bundling Required] | （検索ネットワークのみをターゲットとするキャンペーン、AI Max機能を使用したキャンペーン、読み取り専用） キャンペーンのテキストのカスタマイズとブランドリストの制御を尊重または変更するために[!UICONTROL AI Max]を有効にする必要があるかどうか：*[!UICONTROL REQUIRED]*、*[!UICONTROL NOT_REQUIRED]*、*[!UICONTROL UNSPECIFIED]*、またはnull。 |
+| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]機能](https://support.google.com/google-ads/answer/15910366)が有効かどうか：*[!UICONTROL true]*、*[!UICONTROL false]*、またはnull。 |
 | [!UICONTROL AI Max Search Term Matching] | （検索ネットワークをターゲットとし、[AI Max機能](https://support.google.com/google-ads/answer/15910366)とキャンペーンレベルの検索語句の照合機能が有効になっているキャンペーン。読み取り専用）広告グループレベルの検索語句の照合が有効かどうか：*[!UICONTROL true]*、*[!UICONTROL false]*、またはnull。 |
 | [!UICONTROL Advertiser] | 広告主名。 |
 | [!UICONTROL Advertiser ID] | 広告主のSearch, Social, &amp; Commerce アカウントの数値ID。 |
+| [!UICONTROL All Conversions] | （[!UICONTROL Asset Report]）追跡された[!DNL Google] コンバージョンの合計数（メインのコンバージョン列に含まれていないコンバージョンアクションからのコンバージョンを含む）。 |
+| [!UICONTROL All Conversions Value] | （[!UICONTROL Asset Report]）メインのコンバージョン列に含まれていないコンバージョンアクションを含め、追跡されたすべての[!DNL Google]件のコンバージョンの値。 |
+| [!UICONTROL Asset ID] | 既存のアセットを識別する一意のID。 |
+| [!UICONTROL Asset] | アセット名。 |
+| [!UICONTROL Asset Type] | アセットの種類：*[!UICONTROL Image]*、*[!UICONTROL Text]* （見出しや説明など）、または&#x200B;*[!UICONTROL Video]*。 |
+| [!UICONTROL Asset Performance Label] | （[!UICONTROL Asset Report]） アセットのアルゴリズムで生成されたパフォーマンス ラベル：*[!UICONTROL Best]*、*[!UICONTROL Good]*、*[!UICONTROL Low]*、または&#x200B;*[!UICONTROL Learning]*。 |
+| [!UICONTROL Average CPC] | クリックあたりの平均コスト。 |
 | [!UICONTROL Avg Position] | 指定された日付範囲内の広告の平均位置。<br><br>[!DNL Google Ads]および[!DNL LY Ads] キャンペーンの場合、このデータは2019年9月までのみ利用できます。 [!DNL Microsoft Advertising]の場合、このデータは2021年1月22日までのみ利用できます。 |
 | [!UICONTROL Base URL] | キャンペーンまたはアカウントに設定された追加パラメーターを含む、キーワードのベース URL。 検索、ソーシャル、Commerceのリダイレクトとトラッキングコードは含まれていません。 |
 | [!UICONTROL Bid Strategy] | （ほとんどの広告ネットワーク）キャンペーンまたはキャンペーンコンポーネントの場合、これはキャンペーンの入札戦略です。 マネージャーアカウントにリンクされている広告ネットワークアカウントの場合、これはクロスアカウント入札戦略です。 使用可能な値は、広告ネットワークによって異なります。 |
@@ -73,6 +80,8 @@ ht-degree: 0%
 | [!UICONTROL Content IS Lost (budget)] | ディスプレイ/オーディエンスネットワーク上の広告が受け取らなかったインプレッションの推定パーセンテージ。1日または1か月の予算が低すぎたためです。 [!DNL Microsoft Advertising]では、これは「[!UICONTROL Audience lost IS (budget)]」と呼ばれます。 |
 | [!UICONTROL Content IS Lost (rank)] | 広告ランクが低いため、ディスプレイ/オーディエンスネットワーク上の広告が表示されなかったインプレッションの推定パーセンテージ。 [!DNL Microsoft Advertising]では、これは「[!UICONTROL Audience lost IS (rank)]」と呼ばれます。 |
 | [!UICONTROL Conversion Type] | （[!UICONTROL Transaction Report]）変換の前のアクション：<ul><li><i>[!UICONTROL Click:]</i> コンバージョンの前に、少なくとも1回の有料クリックが発生しました。</li><li><i>[!UICONTROL Impression:]</i> コンバージョンの前に有料クリックが発生しなかったため、コンバージョンはビュースルー（有料クリックのないインプレッション）に起因しました。</li></ul> |
+| [!UICONTROL Conversions] | （[!UICONTROL Asset Report]）「コンバージョンに含める」が有効になっているコンバージョンアクションから指定された期間に追跡された合計[!DNL Google]件のコンバージョン数。 |
+| [!UICONTROL Conversions Value] | （[!UICONTROL Asset Report]） 「コンバージョンに含める」が有効になっているコンバージョンアクションから追跡されたすべての[!DNL Google] コンバージョンの値。 |
 | [!UICONTROL Cost] | 指定された日付範囲内の広告の合計費用。 |
 | [!UICONTROL Country] | （[!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]） クリックが発生した国。 それはユーザーのIP アドレスから決まります。 |
 | [!UICONTROL CPC] | 指定された日付範囲内の広告のクリック単価（CPC）。 |
@@ -109,6 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Est. Clicks] | （[!UICONTROL Geo Distribution Report]；検索および表示キャンペーンのみ）広告グループ/キャンペーン/ポートフォリオの組み合わせのクリック数の推定値。 この値は、広告ネットワークによって提供される値とは異なる場合があります。 |
 | [!UICONTROL Estimated Cost] | Search, Social, &amp; Commerceが追跡した関連する広告の見積もり費用の合計。 この値は、広告ネットワークによって提供される値とは異なる場合があります。 |
 | [!UICONTROL Estimated Impressions] | （ディスプレイキャンペーンのみ） Search, Social, &amp; Commerceが追跡した広告インプレッションの推定数。 この値は、広告ネットワークによって提供される値を示す[!UICONTROL Impressions]列（使用可能な場合）の値とは異なる場合があります。 |
+| [!UICONTROL Event Date] | イベントが記録された日付。 値は、「[!UICONTROL Daily]」のデータ集計を持つレポートにのみ含まれます。 |
 | [!UICONTROL Exclude (yes/no)] | 一致する製品の広告に対して、入札が除外されているか（<i>[!UICONTROL Yes]</i>）、または入札が許可されているか（<i>[!UICONTROL No]</i>）。 |
 | [!UICONTROL First Page CPC] | （Google キャンペーンのみ）指定した日付範囲の検索結果の最初のページに表示される広告のクリック単価（CPC）。 |
 | [!UICONTROL Frequency] | （[!DNL Meta] キャンペーンのみ）ユーザーが広告を閲覧した平均回数。 |
@@ -125,7 +135,7 @@ ht-degree: 0%
 | [!UICONTROL Label Classification] | （[!UICONTROL Label Classification Report]および[!UICONTROL Label Value Report]） ラベル分類。 |
 | [!UICONTROL Label Value] | （[!UICONTROL Label Classification Report]および[!UICONTROL Label Value Report]） ラベル分類の値。 |
 | [!UICONTROL Language] | （ディスプレイキャンペーン）ターゲットオーディエンス言語。 |
-| [!UICONTROL Link Type] | （[!UICONTROL Keyword Report]; [!DNL Google Ads]および[!DNL Microsoft Advertising] キャンペーンのみ。データは、レポートに指定されたアトリビューションルールが「最後のイベント」の場合にのみ使用できます）行が、広告拡張機能（広告自体ではなく）または製品/ショッピング広告のクリックに起因するコンバージョンをレポートする場合、この列には、クリックされたリンクのタイプとタイトルが表示されます。<ul><li>`pla:*` – 製品広告は、「プラン :8525822」など、`pla:<product ID>`として表示されます。</li><li>`sl:*` — サイトリンクは、「sl:See Current Offers」のように`sl:<Sitelink text>`として表示されます。</li></ul> |
+| [!UICONTROL Link Type] | （[!UICONTROL Keyword Report]; [!DNL Google Ads]および[!DNL Microsoft Advertising] キャンペーンのみ。データは、レポートに指定されたアトリビューションルールが「最後のイベント」の場合にのみ使用できます）行が、広告拡張機能（広告自体ではなく）または製品/ショッピング広告のクリックに起因するコンバージョンをレポートする場合、この列には、クリックされたリンクのタイプとタイトルが表示されます。<ul><li>`pla:*` – 製品広告は、「pla:8525822」のように`pla:<product ID>`として表示されます。</li><li>`sl:*` — サイトリンクは、「sl:See Current Offers」のように`sl:<Sitelink text>`として表示されます。</li></ul> |
 | [!UICONTROL Listing Match Type] | 広告リストのキーワード一致タイプ、コンテンツ ターゲットキャンペーンの広告の<i>[!UICONTROL Content]</i>、サイト ターゲットキャンペーンのプレースメントのキーワード一致タイプ。<i>[!UICONTROL Sitecpc]</i> [!DNL Microsoft Advertising] キーワードの場合、これには複数の一致タイプ （「[!UICONTROL Broad],[!UICONTROL Exact]」など）が含まれる場合があります。 |
 | [!UICONTROL Location] | （ディスプレイキャンペーン）ターゲットオーディエンスの場所。 |
 | [!UICONTROL Long Creative Title1] - [!UICONTROL Long Creative Title5] | （レスポンシブ広告およびマルチメディア広告[!DNL Microsoft Advertising]件の完了したレポート行）広告の長い見出し。 これらの列を表示するには、レポート設定に「[!UICONTROL Long Creative Titles]」列を含めます。 |
@@ -137,6 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Metro Code] | （[!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]） インプレッションまたはクリックが発生したメトロコード （Denverの場合はus-751など）。 検索ユーザーのIP アドレスから決定されます。 |
 | [!UICONTROL Min Spend (%)] | （[!UICONTROL Network Constraint Report]）広告ネットワーク用に構成されているポートフォリオの支出の最小割合。 制約タイプ「[!UICONTROL Min-Max]」を使用するポートフォリオの場合、[!UICONTROL Min %]が設定されている場合、これは[!UICONTROL Min %]値です。 制約タイプ「[!UICONTROL Target Spend]」を使用するポートフォリオの場合、これは[!UICONTROL Target Spend]値です。 |
 | [!UICONTROL Network Account ID] | ネットワークによって割り当てられたアカウント ID。 |
+| [!UICONTROL Network Ad ID] | ネットワークによって割り当てられた広告ID。 |
 | [!UICONTROL Network Ad Group ID] | ネットワークによって割り当てられた広告グループ ID。 |
 | [!UICONTROL Network Campaign ID] | ネットワークによって割り当てられたキャンペーン ID。 |
 | [!UICONTROL Network Campaign Objective] | （[!DNL Meta] キャンペーンのみ）キャンペーンの目的。 |
@@ -149,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Path Position] | （[!UICONTROL Transaction Report]） コンバージョンパス内のイベントの位置。 |
 | [!UICONTROL Path Total] | （[!UICONTROL Transaction Report]） パス位置のイベントの合計数。 |
 | [!UICONTROL Portfolio] | ポートフォリオ。 |
-| [!UICONTROL Portfolio Count] | （[!UICONTROL Portfolio Report]）目的に関連付けられているポートフォリオの数。<!-- This count is different than what I see within the Objectives view. --> |
+| [!UICONTROL Portfolio Count] | （[!UICONTROL Portfolio Report]）目的に関連付けられているポートフォリオの数。 |
 | [!UICONTROL Portfolio Group Name] | ポートフォリオが属するポートフォリオグループの名前。 |
 | [!UICONTROL Portfolio ID] | 数値ポートフォリオ ID。 |
 | [!UICONTROL Portfolio Spend Strategy] | （[!UICONTROL Portfolio Report]） ポートフォリオの支出戦略：<i>[!UICONTROL Daily]</i>、<i>[!UICONTROL Weekly]</i>、<i>[!UICONTROL Monthly]</i>、<i>[!UICONTROL ROI]</i>、<i>[!UICONTROL Day of week]</i>、<i>[!UICONTROL Day of month]</i>、<i>[!UICONTROL CPT]</i>、<i>[!UICONTROL Marginal CPT]</i>、<i>[!UICONTROL Google Target CPA]</i>または<i>[!UICONTROL Google Target ROAS]</i>。 |
@@ -179,8 +190,10 @@ ht-degree: 0%
 | [!UICONTROL Search Term] | （[!UICONTROL Transaction Report]） ユーザーがクエリした検索語句。 |
 | [!UICONTROL SETrackingOnly] | アカウントを追跡しているが入札を行っていない場合：<i>[!UICONTROL TRUE]</i>または<i>[!UICONTROL FALSE]</i>。 |
 | [!UICONTROL Site] | （ドメイン紹介レポートと[!UICONTROL Keyword Report]; サイトのターゲット設定プレースメント） クリックが発生したサイト。 |
+| [!UICONTROL Source] | （[!UICONTROL Asset Report]） アセットソース。 |
 | [!UICONTROL Start Date] | 最初の日が報告されました。 |
-| [!UICONTROL State] | （地域分布レポート、[!UICONTROL Keyword Report]）トランザクションの発生元の状態。 それはユーザーのIP アドレスから決まります。 |
+| [!UICONTROL State] | （[!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]） トランザクションの発信元の状態。 それはユーザーのIP アドレスから決まります。 |
+| [!UICONTROL Status] | （[!UICONTROL Asset Report]） アセットの状態。 |
 | [!UICONTROL Surfer ID] | （[!UICONTROL Transaction Report]） トランザクションを完了したユーザーのID。 |
 | [!UICONTROL Thru Plays] | （[!DNL Meta] キャンペーンのみ）広告全体を視聴したビューの数。 |
 | [!UICONTROL Top of Page CPC] | （Google キャンペーンのみ）指定した日付範囲の検索結果ページの上部に表示される広告のクリック単価（CPC）。 |

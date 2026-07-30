@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3d87bfab8f577b69a86abd0a6b50d07f70ae60a8
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: 251
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;をクリックします。
 
-1. データテーブルの上にあるツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集") **[!UICONTROL Edit]**&#x200B;をクリックします。
+1. ポートフォリオの横にあるチェックボックスをオンにします。
+
+1. 一括操作ツールバーで、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. ポートフォリオ設定で、[!UICONTROL Assign Campaigns] セクションに移動し、キャンペーンの割り当てを変更します。
 
@@ -43,7 +45,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**&#x200B;をクリックし、ポートフォリオを見つけます。
 
-   ポートフォリオグループまたは[!UICONTROL Portfolios] ノードを選択すると、左側のパネルの[!UICONTROL Ungrouped Portfolios] メニューからポートフォリオリストをフィルタリングできます。
+   ポートフォリオグループまたは[!UICONTROL Ungrouped Portfolios] ノードを選択すると、左側のパネルの[!UICONTROL Portfolios] メニューからポートフォリオリストをフィルタリングできます。
 
 1. ポートフォリオ名の横にある「![設定の表示/編集」ボタン &#x200B;](/help/search-social-commerce/assets/settings.png "設定の表示/編集ボタン ")」をクリックします。
 

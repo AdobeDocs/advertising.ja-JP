@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: 41a9add10a9d12e8452d18825fd732720b27243f
 workflow-type: tm+mt
-source-wordcount: 3846
+source-wordcount: 3847
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL AD Strength] | （[!DNL Google Ads] レスポンシブ検索広告）広告の有効性：<i>[!UICONTROL average]</i>、<i>[!UICONTROL excellent]</i>、<i>[!UICONTROL good]</i>、<i>[!UICONTROL no_ads]</i>、<i>[!UICONTROL pending]</i>、<i>[!UICONTROL poor]</i>、<i>[!UICONTROL unknown]</i>または<i>[!UICONTROL unspecified]</i>。 |
 | [!UICONTROL Adgroup MBA] | （[!DNL Google Ads]、[!DNL LY Ads]、および[!DNL Microsoft Advertising] キャンペーン）現在の広告グループレベルのモバイル入札調整。この調整は、広告がモバイルデバイスに表示されたときに入札額がどのように調整されるかを決定します。 |
 | [!UICONTROL AI Max Bundling Required] | （検索ネットワークのみをターゲットとするキャンペーン、AI最大機能が有効になっているキャンペーン、読み取り専用）バンドルが必要かどうか：*[!UICONTROL REQUIRED]*、*[!UICONTROL NOT_REQUIRED]*、*[!UICONTROL UNSPECIFIED]*、またはnull。 |
-| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]機能](https://support.google.com/google-ads/answer/15910366)が有効かどうか：[!UICONTROL true]*、*[!UICONTROL false]*、またはnull。 |
+| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]機能](https://support.google.com/google-ads/answer/15910366)が有効かどうか：*[!UICONTROL true]*、*[!UICONTROL false]*、またはnull。 |
 | [!UICONTROL AI Max Search Term Matching] | （検索ネットワークをターゲットとし、[AI Max機能](https://support.google.com/google-ads/answer/15910366)とキャンペーンレベルの検索語句の照合機能が有効になっているキャンペーン。読み取り専用）広告グループレベルの検索語句の照合が有効かどうか：*[!UICONTROL true]*、*[!UICONTROL false]*、またはnull。 |
 | [!UICONTROL Advertiser] | 広告主名。 |
 | [!UICONTROL Advertiser ID] | 広告主のSearch, Social, &amp; Commerce アカウントの数値ID。 |
@@ -136,7 +136,7 @@ ht-degree: 0%
 | [!UICONTROL Label Classification] | （[!UICONTROL Label Classification Report]および[!UICONTROL Label Value Report]） ラベル分類。 |
 | [!UICONTROL Label Value] | （[!UICONTROL Label Classification Report]および[!UICONTROL Label Value Report]） ラベル分類の値。 |
 | [!UICONTROL Language] | （ディスプレイキャンペーン）ターゲットオーディエンス言語。 |
-| [!UICONTROL Link Type] | （[!UICONTROL Keyword Report]; [!DNL Google Ads]および[!DNL Microsoft Advertising] キャンペーンのみ。データは、レポートに指定されたアトリビューションルールが「最後のイベント」の場合にのみ使用できます）行が、広告拡張機能（広告自体ではなく）または製品/ショッピング広告のクリックに起因するコンバージョンをレポートする場合、この列には、クリックされたリンクのタイプとタイトルが表示されます。<ul><li>`pla:*` – 製品広告は、「プラン :8525822」など、`pla:<product ID>`として表示されます。</li><li>`sl:*` — サイトリンクは、「sl:See Current Offers」のように`sl:<Sitelink text>`として表示されます。</li></ul> |
+| [!UICONTROL Link Type] | （[!UICONTROL Keyword Report]; [!DNL Google Ads]および[!DNL Microsoft Advertising] キャンペーンのみ。データは、レポートに指定されたアトリビューションルールが「最後のイベント」の場合にのみ使用できます）行が、広告拡張機能（広告自体ではなく）または製品/ショッピング広告のクリックに起因するコンバージョンをレポートする場合、この列には、クリックされたリンクのタイプとタイトルが表示されます。<ul><li>`pla:*` – 製品広告は、「pla:8525822」のように`pla:<product ID>`として表示されます。</li><li>`sl:*` — サイトリンクは、「sl:See Current Offers」のように`sl:<Sitelink text>`として表示されます。</li></ul> |
 | [!UICONTROL Listing Match Type] | 広告リストのキーワード一致タイプ、コンテンツ ターゲットキャンペーンの広告の<i>[!UICONTROL Content]</i>、サイト ターゲットキャンペーンのプレースメントのキーワード一致タイプ。<i>[!UICONTROL Sitecpc]</i> [!DNL Microsoft Advertising] キーワードの場合、これには複数の一致タイプ （「[!UICONTROL Broad],[!UICONTROL Exact]」など）が含まれる場合があります。 |
 | [!UICONTROL Location] | （ディスプレイキャンペーン）ターゲットオーディエンスの場所。 |
 | [!UICONTROL Long Creative Title1] - [!UICONTROL Long Creative Title5] | （レスポンシブ広告およびマルチメディア広告[!DNL Microsoft Advertising]件の完了したレポート行）広告の長い見出し。 これらの列を表示するには、レポート設定に「[!UICONTROL Long Creative Titles]」列を含めます。 |
