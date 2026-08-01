@@ -2,15 +2,11 @@
 title: ショッピング商品グループの管理
 description: Google AdsおよびMicrosoft Advertisingのショッピング商品グループについて説明します。
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
 workflow-type: tm+mt
 source-wordcount: 2337
 ht-degree: 0%
@@ -34,7 +30,7 @@ ht-degree: 0%
 
 同じ製品が複数のキャンペーンに含まれている場合、広告ネットワークはまずキャンペーンの優先順位を使用して、どのキャンペーン（および関連する入札）が広告オークションの対象となるかを決定します。 すべてのキャンペーンの優先順位が同じ場合、入札額が最も高いキャンペーンが実施要件を満たします。
 
-[!DNL Google]個のショッピング キャンペーンと広告について詳しくは、「[実装 [!DNL Google Ads]  ショッピング キャンペーン &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)」および[Google広告のドキュメント &#x200B;](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&rd=1)を参照してください。 [!DNL Microsoft]個のショッピング キャンペーンについて詳しくは、「[実装 [!DNL Microsoft Advertising]  ショッピング キャンペーン &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)」および[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)を参照してください。
+[!DNL Google]個のショッピング キャンペーンと広告について詳しくは、「[実装 [!DNL Google Ads]  ショッピング キャンペーン ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)」および[Google広告のドキュメント ](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&rd=1)を参照してください。 [!DNL Microsoft]個のショッピング キャンペーンについて詳しくは、「[実装 [!DNL Microsoft Advertising]  ショッピング キャンペーン ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)」および[[!DNL Microsoft Advertising]  ドキュメント ](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)を参照してください。
 
 >[!NOTE]
 >
@@ -89,11 +85,11 @@ ht-degree: 0%
 
 * [製品グループに制約](#constraint-assign)を割り当て、[製品グループから制約](#constraint-unassign)を削除
 
-* [&#x200B; ラベル分類](#classification-values-assign)を製品グループに割り当て、[&#x200B; ラベル分類](#classification-values-remove)を製品グループから削除
+* [ ラベル分類](#classification-values-assign)を製品グループに割り当て、[ ラベル分類](#classification-values-remove)を製品グループから削除
 
 >[!NOTE]
 >
->[&#x200B; バルクシート ファイル &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)をアップロードして広告ネットワークに投稿すると、大量の製品グループデータ（ラベルや制約の割り当てを含む）を一度に作成および編集できます。
+>[ バルクシート ファイル ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)をアップロードして広告ネットワークに投稿すると、大量の製品グループデータ（ラベルや制約の割り当てを含む）を一度に作成および編集できます。
 
 ## 「[!UICONTROL All Products]」製品グループの作成 {#product-group-create-all-products}
 
@@ -101,7 +97,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->多くのアカウントコンポーネントを一度に作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>多くのアカウントコンポーネントを一度に作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;をクリックします。
 
@@ -113,7 +109,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Review and Save]**&#x200B;をクリックします。
 
-1. 必要に応じて、![編集](/help/search-social-commerce/assets/edit-new.png "編集")をクリックし、[Google Ads product group settings](#google-ads-product-group-settings)または[Microsoft Advertising product group settings](#microsoft-advertising-product-group-settings)を変更します。
+1. 必要に応じて、![編集](/help/search-social-commerce/assets/edit-new.png "編集") **[!UICONTROL Edit]**&#x200B;をクリックし、[Google Ads製品グループ設定](#google-ads-product-group-settings)または[Microsoft Advertising製品グループ設定](#microsoft-advertising-product-group-settings)を変更します。
 
 1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
@@ -347,6 +343,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ショッピング キャンペーン  [!DNL Google Ads] を実装](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
->* [&#x200B; ショッピング キャンペーン  [!DNL Microsoft Advertising] を実装](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+>* [ ショッピング キャンペーン  [!DNL Google Ads] を実装](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [ ショッピング キャンペーン  [!DNL Microsoft Advertising] を実装](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
 >* [The [!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md)
