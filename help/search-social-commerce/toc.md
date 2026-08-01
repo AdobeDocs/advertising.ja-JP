@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3d853c1ce30e8891baf37b14d20f166c4f79437d
+source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
 workflow-type: tm+mt
-source-wordcount: 2371
+source-wordcount: 2396
 ht-degree: 2%
 
 ---
@@ -133,9 +133,17 @@ ht-degree: 2%
         + [[!DNL Microsoft Advertising]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
         + [[!DNL Yandex]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)
     + 広告 {#ads}
-      + [[!UICONTROL Ads] ビューについて](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
-      + [[!UICONTROL Ads] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
-      + [広告のステータスの変更](/help/search-social-commerce/new-ui/manage/ads/ad-change-status.md)
+      + [広告を管理](/help/search-social-commerce/new-ui/manage/ads/ad-manage.md)
+      + 広告ネットワーク別の広告設定 {#ad-settings-by-network}
+        + [[!DNL Baidu] テキスト広告の設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-baidu-text.md)
+        + [[!DNL Google Ads]さんが動的検索広告の設定を拡張しました](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-dsa.md)
+        + [[!DNL Google Ads]件のレスポンシブ検索広告の設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-rsa.md)
+        + [[!DNL Microsoft Advertising]さんが動的検索広告の設定を拡張しました](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-dsa.md)
+        + [[!DNL Microsoft Advertising] マルチメディア広告の設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-multimedia.md)
+        + [[!DNL Microsoft Advertising]個の製品広告の設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-product.md)
+        + [[!DNL Microsoft Advertising]個のレスポンシブ （オーディエンス）広告の設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-responsive.md)
+        + [[!DNL Microsoft Advertising]件のレスポンシブ検索広告の設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-rsa.md)
+        + [[!DNL Yandex] テキスト広告の設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-yandex-text.md)
   + レポート {#reports}
     + スケジュールレポート {#scheduled}
       + [スケジュールレポートについて](/help/search-social-commerce/new-ui/reports/report-about.md)
