@@ -2,10 +2,14 @@
 title: 広告を管理
 description: 利用可能な広告タイプなど、広告の作成および管理方法について説明します。
 feature: Search Campaign Management
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 6a479ae0bb30d609b16a343efcec296137b9ab43
 workflow-type: tm+mt
 source-wordcount: 1733
@@ -21,9 +25,9 @@ ht-degree: 0%
 
 広告は広告グループに属し、広告ネットワークと広告の種類に応じて、見出し、説明、画像、その他のクリエイティブ要素など、ユーザーに表示されるコンテンツを含みます。
 
-[API接続を介して広告ネットワークアカウントにアクセスできるようにし](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)、Search, Social, &amp; Commerceがアカウントデータを広告ネットワークと同期したら、[ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md)の広告を作成できます。 また、広告のステータスを編集および変更することもできます。
+[API接続を介して広告ネットワークアカウントにアクセスできるようにし](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)、Search, Social, &amp; Commerceがアカウントデータを広告ネットワークと同期したら、[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)の広告を作成できます。 また、広告のステータスを編集および変更することもできます。
 
-各広告ネットワークで使用できる機能について詳しくは、「[ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 ## [!UICONTROL Ads] ビューについて {#ad-view-about}
 
@@ -61,19 +65,19 @@ ht-degree: 0%
 
 * **検索キャンペーンの[!DNL Google Ads]および[!DNL Microsoft Advertising]の動的検索広告グループに対して、動的検索広告** （現在は広告ネットワーク上で「動的検索広告」と呼ばれています）を拡張しました。 動的検索広告では、広告を表示するタイミングを決定するために、キーワードではなくweb サイトのコンテンツを使用します。 広告ネットワークは、見出しを動的に生成し、ランディングページのURLと表示URLを選択し、最終的なURLを自動的に生成します。
 
-  動的検索広告について詳しくは、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/2471185)および[[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/ads/en/56794)を参照してください。
+  動的検索広告について詳しくは、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/2471185)および[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56794)を参照してください。
 
 * [!DNL Microsoft Advertising]件の検索キャンペーンの&#x200B;**マルチメディア広告**。 マルチメディア広告は、メインラインとサイドバーの目立つ位置に表示される大きな画像広告で、ページごとに1つのマルチメディア広告のみが表示されます。 レスポンシブ広告のように、複数のテキストや画像のアセットを含めることができます。また、広告ネットワークは、広告要素の最も効果的な組み合わせを使用して広告を組み立てます。 マルチメディア広告がテキスト広告の配置を置き換えることはありません。
 
 * ショッピング ネットワーク上の&#x200B;**[!DNL Microsoft Advertising]製品（ショッピング）広告**&#x200B;のプロモーション ライン。 ショッピング広告では、広告の表示方法と場所を決定するために、キーワードの代わりに既存の[!DNL Microsoft Merchant Center]製品フィードで製品を使用します。 広告のコピーとランディングページのURLは、フィード内の製品情報から自動的に生成されますが、オプションで広告グループに含めるプロモーションラインを設定できます。
 
-  商品の広告について詳しくは、[Microsoft Advertising ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/51082)を参照してください。
+  商品の広告について詳しくは、[Microsoft Advertising ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/51082)を参照してください。
 
 * 検索ネットワーク上の[!DNL Google Ads]および[!DNL Microsoft Advertising] キャンペーンの&#x200B;**レスポンシブ検索広告**。 広告ネットワークは、一連の広告タイトルと説明からテキストベースのレスポンシブ検索広告を動的に組み合わせ、パフォーマンスが高い組み合わせを好みます。 この広告には、最大3つの見出し、2つの説明、およびベース URLとオプションのpath1およびpath2 フィールドからのカスタマイズ可能なURLが含まれます。 オプションで、特定の位置に広告タイトルと説明をピン留めすることができます。
 
   >[!NOTE]
   >
-  >[!DNL Google Ads]は、ネイティブエディター以外では、広告として表示されたテキストの組み合わせに関するデータを提供しません。 各テキストの組み合わせのレポートについて詳しくは、[Google Ads ドキュメント ](https://support.google.com/google-ads/answer/7684791)を参照してください。
+  >[!DNL Google Ads]は、ネイティブエディター以外では、広告として表示されたテキストの組み合わせに関するデータを提供しません。 各テキストの組み合わせのレポートについて詳しくは、[Google Ads ドキュメント &#x200B;](https://support.google.com/google-ads/answer/7684791)を参照してください。
 
 ### 広告レベルのパフォーマンスデータ
 
@@ -99,7 +103,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->一度に多数の広告を作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
+>一度に多数の広告を作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Ads]**&#x200B;をクリックします。
 
@@ -107,7 +111,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Basic Settings]** ステップで、ネットワーク、アカウント、キャンペーン、広告グループ、広告タイプを選択します。
 
-   使用可能な広告タイプについて詳しくは、「[使用可能な広告タイプ ](#ad-types)」を参照してください。
+   使用可能な広告タイプについて詳しくは、「[使用可能な広告タイプ &#x200B;](#ad-types)」を参照してください。
 
 1. [Baidu テキスト広告](ad-settings-baidu-text.md)、[Google Ads expanded dynamic search ad](ad-settings-google-dsa.md) （Google Adsでは「動的検索広告」と呼ばれます）、[Google Ads responsive search ad](ad-settings-google-rsa.md)、[Microsoft Advertising expanded dynamic search ad](ad-settings-microsoft-dsa.md)、[Microsoft Advertising multimedia ad](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising product ad](ad-settings-microsoft-product.md)、[Microsoft Advertising responsive （audience） ad](ad-settings-microsoft-responsive.md)、[Microsoft Advertising responsive search ad](ad-settings-microsoft-rsa.md)、または[yandex テキストのの残の残の残りの設定ad](ad-settings-yandex-text.md)設定。
 
@@ -121,7 +125,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
-1. <!-- Add link to where to generate this once available to users-->（Adobe Advertising コンバージョントラッキングを使用したキャンペーンでのショッピング広告。オプション）広告のクリックをトラッキングするには、アカウント、キャンペーン、または商品グループの設定にトラッキング URLを手動で追加します。
+1. &#x200B;<!-- Add link to where to generate this once available to users-->（Adobe Advertising コンバージョントラッキングを使用したキャンペーンでのショッピング広告。オプション）広告のクリックをトラッキングするには、アカウント、キャンペーン、または商品グループの設定にトラッキング URLを手動で追加します。
 
 ## 広告の名前を変更 {#ad-rename}
 
@@ -193,7 +197,7 @@ ht-degree: 0%
 
 生成されたレポートはすべて削除できます。
 
-「[ （従来のUI） キャンペーン管理ビューからデータをダウンロード ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)」および「[ （従来のUI） [!UICONTROL Downloads] メニュー](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)からパフォーマンスデータレポートまたはバルクシートファイルを削除」も参照してください。
+「[&#x200B; （従来のUI） キャンペーン管理ビューからデータをダウンロード &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)」および「[&#x200B; （従来のUI） [!UICONTROL Downloads] メニュー](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)からパフォーマンスデータレポートまたはバルクシートファイルを削除」も参照してください。
 
 ### フィルタリングされたデータ行を含むレポートを生成する
 
@@ -205,7 +209,7 @@ ht-degree: 0%
 
    * すべての広告のデータをダウンロードするには、チェックボックスをオンにする必要はありません。 すべての広告はデフォルトで含まれています。
 
-1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. [!UICONTROL Grid Reports]設定で、一意のレポート名を入力し、**[!UICONTROL Generate]**&#x200B;をクリックします。
 
@@ -213,7 +217,7 @@ ht-degree: 0%
 
    ファイルが[!UICONTROL Recently Generated] リストに追加されます。
 
-1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -221,9 +225,9 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Ads]**&#x200B;をクリックします。
 
-1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
-1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -231,7 +235,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Ads]**&#x200B;をクリックします。
 
-1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
 
