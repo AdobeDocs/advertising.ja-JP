@@ -2,10 +2,8 @@
 title: '[!DNL Microsoft Advertising]件のレスポンシブ広告の設定'
 description: ' [!DNL Microsoft Advertising]  レスポンシブ広告の設定を参照してください。'
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
 workflow-type: tm+mt
 source-wordcount: 243
@@ -45,7 +43,7 @@ ht-degree: 0%
 >
 >広告ネットワークは、加盟店の商品情報と広告グループレベルのユーザーターゲティングを使用して、加盟店センターのストアにリンクされたオーディエンスキャンペーンの広告を自動的に作成します。 手動で広告を作成する必要はありません。
 
-**[!UICONTROL Images]:**&#x200B;広告用のJPEGまたはPNG画像は最大15枚です。 1.91:1の縦横比を持つ画像を少なくとも1つ含めます。 [&#x200B; オーディエンスと画像](https://help.ads.microsoft.com/#apex/ads/en/56912/0)の許可された縦横比とディメンションを参照してください。
+**[!UICONTROL Images]:**&#x200B;広告用のJPEGまたはPNG画像は最大15枚です。 1.91:1の縦横比を持つ画像を少なくとも1つ含めます。 [ オーディエンスと画像](https://help.ads.microsoft.com/#apex/ads/en/56912/0)の許可された縦横比とディメンションを参照してください。
 
 オーディエンス広告の場合、[!DNL Microsoft Advertising]はこの画像をすべての可能な縦横比で自動的に切り抜きます。
 
