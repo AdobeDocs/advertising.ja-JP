@@ -2,8 +2,10 @@
 title: '[!DNL Microsoft Advertising] マルチメディア広告の設定'
 description: ' [!DNL Microsoft Advertising]  マルチメディア広告の設定を参照してください。'
 feature: Search Campaign Management
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
 workflow-type: tm+mt
 source-wordcount: 208
@@ -35,7 +37,7 @@ ht-degree: 0%
 
 * 少なくとも1つの正方形（1:1）画像
 
-[ マルチメディア広告](https://help.ads.microsoft.com/#apex/ads/en/60107/0)の許可された縦横比とディメンションを参照してください。
+[&#x200B; マルチメディア広告](https://help.ads.microsoft.com/#apex/ads/en/60107/0)の許可された縦横比とディメンションを参照してください。
 
 <!-- Instructions -->
 
