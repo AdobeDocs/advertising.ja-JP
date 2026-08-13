@@ -3,10 +3,18 @@ title: Customer Journey AnalyticsでのAdobe Advertising データのトラブ�
 description: Customer Journey AnalyticsのAdobe Advertising データに関する問題のトラブルシューティングと解決方法について説明します。
 feature: Integration with Adobe Customer Journey Analytics
 hide: true
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 3bc3225fe8cc510b26c40f6c66febc9b7e166702
 workflow-type: tm+mt
 source-wordcount: 3027
@@ -22,27 +30,27 @@ ht-degree: 0%
 
 | 症状 | 詳細 |
 | ------- | ---------------- |
-| ブラウザーの「ネットワーク」タブにalloy （）呼び出しはありません | 「[ インストールとセットアップの問題](#issues-installation-setup)」/「[WebSDK拡張機能が](#websdk-extension-doesn't-initialize)」を参照してください |
-| コンソールエラー：合金が定義されていません | 「[ インストールとセットアップの問題](#issues-installation-setup)」を参照してください> 「[WebSDK拡張機能が](#websdk-extension-doesn't-initialize)」を初期化しません |
-| edge.adobedc.netに対するインタラクションまたは収集リクエストはありません | 「[ インストールとセットアップの問題](#issues-installation-setup)」を参照してください> 「[WebSDK拡張機能が](#websdk-extension-doesn't-initialize)」を初期化しません |
-| リクエストはエッジに到達するが、400または500 エラーを返す | 「[ インストールとセットアップの問題](#issues-installation-setup)」/「[ データストリームが設定されていないか、設定が正しくありません](#datastream-not-configured-or-misconfigured)」を参照してください |
-| Adobe AnalyticsまたはAdobe Advertising レポートにデータが表示されない | 「[ インストールとセットアップの問題](#issues-installation-setup)」/「[ データストリームが設定されていないか、設定が正しくありません](#datastream-not-configured-or-misconfigured)」を参照してください |
-| ネットワーク応答のエラー：「データストリームが見つかりません」 | 「[ インストールとセットアップの問題](#issues-installation-setup)」/「[ データストリームが設定されていないか、設定が正しくありません](#datastream-not-configured-or-misconfigured)」を参照してください |
-| ページ間で訪問者IDが変更される | 「[ インストールとセットアップの問題](#issues-installation-setup)」/「[IDとECIDの問題](#identity-and-ecid-issues)」の節を参照してください |
-| Advertisingのオーディエンスセグメントが一致しない | 「[ インストールとセットアップの問題](#issues-installation-setup)」/「[IDとECIDの問題](#identity-and-ecid-issues)」の節を参照してください |
-| デバッガーは、ルール条件が満たされていないことを示します | 「[ インストールとセットアップの問題](#issues-installation-setup)」の「[ ルールまたはイベントが実行されていません](#rules-or-events-aren't-firing)」の節を参照してください |
-| [!UICONTROL Send Event] アクションは実行されません | 「[ インストールとセットアップの問題](#issues-installation-setup)」の「[ ルールまたはイベントが実行されていません](#rules-or-events-aren't-firing)」の節を参照してください |
-| [!DNL Tags]で行われた変更は、ライブサイトに反映されません | 「[ インストールとセットアップの問題](#issues-installation-setup)」/「[ ライブラリのビルドと公開の問題](#library-build-and-publishing-issues)」の節を参照してください |
-| 拡張機能の更新が適用されましたが、古い動作は保持されます | 「[ インストールとセットアップの問題](#issues-installation-setup)」/「[ ライブラリのビルドと公開の問題](#library-build-and-publishing-issues)」の節を参照してください |
-| `alloy()`送信イベント呼び出しは成功しましたが（応答は200件）、Adobe Advertising コンバージョンデータがレポートに見つかりません | 「[ インストールとセットアップの問題](#issues-installation-setup)」/「[Advertising フィールドのスキーマ検証の問題](#schema-validation-for-advertising-fields)」の節を参照してください |
-| デバッガーのXDM ペイロードに`_experience.adcloud` オブジェクトが表示されません | 「[ インストールとセットアップの問題](#issues-installation-setup)」/「[Advertising フィールドのスキーマ検証の問題](#schema-validation-for-advertising-fields)」の節を参照してください |
+| ブラウザーの「ネットワーク」タブにalloy （）呼び出しはありません | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[WebSDK拡張機能が](#websdk-extension-doesn't-initialize)」を参照してください |
+| コンソールエラー：合金が定義されていません | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」を参照してください> 「[WebSDK拡張機能が](#websdk-extension-doesn't-initialize)」を初期化しません |
+| edge.adobedc.netに対するインタラクションまたは収集リクエストはありません | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」を参照してください> 「[WebSDK拡張機能が](#websdk-extension-doesn't-initialize)」を初期化しません |
+| リクエストはエッジに到達するが、400または500 エラーを返す | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[&#x200B; データストリームが設定されていないか、設定が正しくありません](#datastream-not-configured-or-misconfigured)」を参照してください |
+| Adobe AnalyticsまたはAdobe Advertising レポートにデータが表示されない | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[&#x200B; データストリームが設定されていないか、設定が正しくありません](#datastream-not-configured-or-misconfigured)」を参照してください |
+| ネットワーク応答のエラー：「データストリームが見つかりません」 | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[&#x200B; データストリームが設定されていないか、設定が正しくありません](#datastream-not-configured-or-misconfigured)」を参照してください |
+| ページ間で訪問者IDが変更される | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[IDとECIDの問題](#identity-and-ecid-issues)」の節を参照してください |
+| Advertisingのオーディエンスセグメントが一致しない | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[IDとECIDの問題](#identity-and-ecid-issues)」の節を参照してください |
+| デバッガーは、ルール条件が満たされていないことを示します | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」の「[&#x200B; ルールまたはイベントが実行されていません](#rules-or-events-aren't-firing)」の節を参照してください |
+| [!UICONTROL Send Event] アクションは実行されません | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」の「[&#x200B; ルールまたはイベントが実行されていません](#rules-or-events-aren't-firing)」の節を参照してください |
+| [!DNL Tags]で行われた変更は、ライブサイトに反映されません | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[&#x200B; ライブラリのビルドと公開の問題](#library-build-and-publishing-issues)」の節を参照してください |
+| 拡張機能の更新が適用されましたが、古い動作は保持されます | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[&#x200B; ライブラリのビルドと公開の問題](#library-build-and-publishing-issues)」の節を参照してください |
+| `alloy()`送信イベント呼び出しは成功しましたが（応答は200件）、Adobe Advertising コンバージョンデータがレポートに見つかりません | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[Advertising フィールドのスキーマ検証の問題](#schema-validation-for-advertising-fields)」の節を参照してください |
+| デバッガーのXDM ペイロードに`_experience.adcloud` オブジェクトが表示されません | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[Advertising フィールドのスキーマ検証の問題](#schema-validation-for-advertising-fields)」の節を参照してください |
 | web ページのビュースルーコンバージョンまたはクリックスルーコンバージョンは記録されません | 「[Advertising拡張機能の設定に関する問題](#advertising-extension-setup-issues)」を参照してください。 |
 | クリックスルー用のExperience Data Model （XDM） ペイロードに`_experience.adcloud`がありません | 「[Advertising拡張機能の設定に関する問題](#advertising-extension-setup-issues)」を参照してください。 |
 | コンバージョンはデバッガーツールで確認されますが、Adobe Advertising レポートには表示されません | 「[Advertising拡張機能の設定に関する問題](#advertising-extension-setup-issues)」を参照してください。 |
 
 ## インストールとセットアップの問題 {#issues-installation-setup}
 
-### WebSDK拡張機能が{#websdk-extension-doesn&#39;t-initialize}を初期化しません
+### WebSDK拡張機能がを初期化しません{#websdk-extension-doesn&#39;t-initialize}
 
 症状：
 
@@ -67,8 +75,8 @@ ht-degree: 0%
 
 | 原因 | 修正 |
 | ----- | --- |
-| タグプロパティのデータストリーム IDが見つからないか、正しくありません。 | <ol><li>[!DNL Tags]で、タグプロパティの[ データストリーム設定設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)を開きます。</li><li>[!UICONTROL Datastream] フィールドが、各環境（開発、ステージング、実稼動）の正しいデータストリーム、および正しいスキーマとデータセットを指していることを確認します。<br><br>3つの環境すべてで1つのデータストリームを明示的に共有しない限り、各環境には独自のデータストリームが必要です。</li></ol> |
-| タグプロパティに対してデータストリームサービスが有効になっていません。 | [ データストリーム設定](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)を開き、次のサービスが有効になっていることを確認します。<ul><li>Adobe Advertising（コンバージョン/オーディエンス同期用）</li><li>Adobe Experience Platform（プロファイル取得用）</li></ul> |
+| タグプロパティのデータストリーム IDが見つからないか、正しくありません。 | <ol><li>[!DNL Tags]で、タグプロパティの[&#x200B; データストリーム設定設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)を開きます。</li><li>[!UICONTROL Datastream] フィールドが、各環境（開発、ステージング、実稼動）の正しいデータストリーム、および正しいスキーマとデータセットを指していることを確認します。<br><br>3つの環境すべてで1つのデータストリームを明示的に共有しない限り、各環境には独自のデータストリームが必要です。</li></ol> |
+| タグプロパティに対してデータストリームサービスが有効になっていません。 | [&#x200B; データストリーム設定](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)を開き、次のサービスが有効になっていることを確認します。<ul><li>Adobe Advertising（コンバージョン/オーディエンス同期用）</li><li>Adobe Experience Platform（プロファイル取得用）</li></ul> |
 | サンドボックスの不一致 | データストリームが、スキーマおよびデータセットと同じAdobe Experience Platform サンドボックスに属していることを確認します。 よくある間違いは、実稼動サンドボックスにデータストリームを作成する際に、開発サンドボックスにスキーマを指定することです。 |
 
 ### IDとECIDの問題 {#identity-and-ecid-issues}
@@ -194,8 +202,8 @@ AEP Debuggerまたはブラウザー[!UICONTROL Network] タブを開き、`edge
 
 | 原因 | 修正 |
 | ----- | --- |
-| データストリームに`Adobe Advertising` サービスが有効になっていません | <ol><li>[!DNL Tags]で、タグプロパティの[ データストリーム設定設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)を開きます。</li><li>次のサービスを有効にし、設定を保存します。<ul><li>Adobe Advertising（コンバージョン/オーディエンス同期用）</li><li>Adobe Experience Platform（プロファイル取得用）</li></ul></ol> |
-| `Adobe Advertising` コンポーネントは[!UICONTROL WebSDK]拡張機能に対して有効になっていません | WebSDK拡張機能の`Adobe Advertising` コンポーネントはデフォルトで無効になっており、XDM スキーマまたはルールの設定方法に関係なく、Adobe Advertising クリックスルーまたはビュースルーのトラッキングが機能する前に、明示的に有効にする必要があります。<ol><li>[!DNL Tags]で、Adobe Experience Platform Web SDKの設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)で、プロパティの[ ビルドオプションを開きます。</li><li>**Advertising** コンポーネントを有効にし、設定を保存します。</li><li>ライブラリを再構築して再公開します。</li></ol> |
+| データストリームに`Adobe Advertising` サービスが有効になっていません | <ol><li>[!DNL Tags]で、タグプロパティの[&#x200B; データストリーム設定設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)を開きます。</li><li>次のサービスを有効にし、設定を保存します。<ul><li>Adobe Advertising（コンバージョン/オーディエンス同期用）</li><li>Adobe Experience Platform（プロファイル取得用）</li></ul></ol> |
+| `Adobe Advertising` コンポーネントは[!UICONTROL WebSDK]拡張機能に対して有効になっていません | WebSDK拡張機能の`Adobe Advertising` コンポーネントはデフォルトで無効になっており、XDM スキーマまたはルールの設定方法に関係なく、Adobe Advertising クリックスルーまたはビュースルーのトラッキングが機能する前に、明示的に有効にする必要があります。<ol><li>[!DNL Tags]で、Adobe Experience Platform Web SDKの設定[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)で、プロパティの ビルドオプションを開きます。</li><li>**Advertising** コンポーネントを有効にし、設定を保存します。</li><li>ライブラリを再構築して再公開します。</li></ol> |
 | クリックスルーコンバージョンのみが記録されます。ビュースルーコンバージョンは表示されません | これは期待されるデフォルトの動作です。 `Adobe Advertising` コンポーネントが有効になると、`s_kwcid`および`ef_id`のURL クエリパラメーターを使用して、クリックスルー追跡が自動的にアクティブになります。 ビュースルートラッキングはデフォルトで無効になっており、追加の設定が必要です。次の行を参照してください。 |
 | ビュースルー追跡が有効になっていないか、設定されていません | <ol><li>データストリームのAdobe Advertising サービスを有効にする</li><ol><li>Adobe Experience Platformの[!UICONTROL Data Collection] > [!UICONTROL Datastreams]に移動し、[!DNL Tags] プロパティで使用されているデータストリームを開きます。</li><li>**サービスを追加**&#x200B;を選択し、**Adobe Advertising**&#x200B;および&#x200B;**Adobe Experience Platform**&#x200B;を選択してから、**保存**&#x200B;を選択します。</li></ol><li>Adobe Advertising DSPでの広告主の設定</li><ol><li>[!DNL Tags]で、[!UICONTROL Extensions] > [!UICONTROL Installed] > **Adobe Experience Platform Web SDK** > [!UICONTROL Configure]に移動します。</li><li>「[!UICONTROL Advertiser]」セクションで、ドロップダウンから広告主を選択して有効にします。 複数の広告主を設定するには、**広告主を追加**&#x200B;を選択します。</li></ol><li>ビュースルーコンバージョンピクセルが起動していることを確認します</li><ol><li>AEP Debuggerで、インタラクトコールに`xdm.query` フィールドの下に`stitchId`が含まれていることを確認します。</li><li>ブラウザー[!UICONTROL Network] タブで、タイプ `advertising.enrichment`のイベントが発生し、`xdm.query`の下に`stitchId`が含まれていることを確認します。</li></ol></ol> ビュースルーコンバージョンは、訪問数に関係なく、30分ごとに実行されます。 インタラクション呼び出しが表示されない場合は、ブラウザーのキャッシュをクリアして、もう一度試してください。 |
 | （Viewthrough インタラクション呼び出し後にExperience Platformでビュースルーイベントが発生しない場合）広告主は、ドロップダウンから選択するのではなく、手動で入力されました | 広告主を手動で入力する代わりに、[!UICONTROL Advertiser] ドロップダウンから広告主を再選択します。 |
@@ -396,8 +404,8 @@ Answer
 >[!MORELIKETHIS]
 >
 >* [概要](overview.md)
->*  [!DNL Customer Journey Analytics]](ids.md)様が使用している[Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics][&#128279;](ids.md)様が使用しているAdobe Advertising ID
 >* [前提条件](prerequisites.md)
->* [ データ収集、データ転送、レポートの設定](set-up.md)
->* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション ](advertising-data-in-cja.md)
+>* [&#x200B; データ収集、データ転送、レポートの設定](set-up.md)
+>* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション &#x200B;](advertising-data-in-cja.md)
 >* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用するAMO IDとEF IDの履歴データを収集](/help/integrations/analytics/rvars-to-evars.md)。
