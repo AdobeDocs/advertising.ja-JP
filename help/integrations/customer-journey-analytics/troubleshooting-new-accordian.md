@@ -15,9 +15,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: b3b90fc7d453a9450f5858e47ae4c05243808a03
+source-git-commit: eeb21c1e06f6e10409a3afde9ea0743539a01a42
 workflow-type: tm+mt
-source-wordcount: 3018
+source-wordcount: 3209
 ht-degree: 0%
 
 ---
@@ -28,35 +28,42 @@ ht-degree: 0%
 
 ## すべての潜在的な症状のリスト
 
-| 症状 | 詳細 |
+| イシュー | 詳細 |
 | ------- | ---------------- |
 | ブラウザーの「ネットワーク」タブにalloy （）呼び出しはありません | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[WebSDK拡張機能が](#websdk-extension-doesn't-initialize)」を参照してください |
 | コンソールエラー：合金が定義されていません | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」を参照してください> 「[WebSDK拡張機能が](#websdk-extension-doesn't-initialize)」を初期化しません |
 | edge.adobedc.netに対するインタラクションまたは収集リクエストはありません | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」を参照してください> 「[WebSDK拡張機能が](#websdk-extension-doesn't-initialize)」を初期化しません |
-| リクエストはエッジに到達するが、400または500 エラーを返す | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[&#x200B; データストリームが設定されていないか、設定が正しくありません](#datastream-not-configured-or-misconfigured)」を参照してください |
+| リクエストはExperience Platform Edge Networkに到達しますが、400または500 エラーが返されます | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[&#x200B; データストリームが設定されていないか、設定が正しくありません](#datastream-not-configured-or-misconfigured)」を参照してください |
 | Adobe AnalyticsまたはAdobe Advertising レポートにデータが表示されない | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[&#x200B; データストリームが設定されていないか、設定が正しくありません](#datastream-not-configured-or-misconfigured)」を参照してください |
 | ネットワーク応答のエラー：「データストリームが見つかりません」 | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[&#x200B; データストリームが設定されていないか、設定が正しくありません](#datastream-not-configured-or-misconfigured)」を参照してください |
-| ページ間で訪問者IDが変更される | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[IDとECIDの問題](#identity-and-ecid-issues)」の節を参照してください |
-| Advertisingのオーディエンスセグメントが一致しない | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[IDとECIDの問題](#identity-and-ecid-issues)」の節を参照してください |
-| デバッガーは、ルール条件が満たされていないことを示します | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」の「[&#x200B; ルールまたはイベントが実行されていません](#rules-or-events-aren't-firing)」の節を参照してください |
-| [!UICONTROL Send Event] アクションは実行されません | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」の「[&#x200B; ルールまたはイベントが実行されていません](#rules-or-events-aren't-firing)」の節を参照してください |
-| [!DNL Tags]で行われた変更は、ライブサイトに反映されません | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[&#x200B; ライブラリのビルドと公開の問題](#library-build-and-publishing-issues)」の節を参照してください |
-| 拡張機能の更新が適用されましたが、古い動作は保持されます | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[&#x200B; ライブラリのビルドと公開の問題](#library-build-and-publishing-issues)」の節を参照してください |
-| `alloy()`送信イベント呼び出しは成功しましたが（応答は200件）、Adobe Advertising コンバージョンデータがレポートに見つかりません | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[Advertising フィールドのスキーマ検証の問題](#schema-validation-for-advertising-fields)」の節を参照してください |
-| デバッガーのXDM ペイロードに`_experience.adcloud` オブジェクトが表示されません | 「[&#x200B; インストールとセットアップの問題](#issues-installation-setup)」/「[Advertising フィールドのスキーマ検証の問題](#schema-validation-for-advertising-fields)」の節を参照してください |
 | web ページのビュースルーコンバージョンまたはクリックスルーコンバージョンは記録されません | 「[Advertising拡張機能の設定に関する問題](#advertising-extension-setup-issues)」を参照してください。 |
 | クリックスルー用のExperience Data Model （XDM） ペイロードに`_experience.adcloud`がありません | 「[Advertising拡張機能の設定に関する問題](#advertising-extension-setup-issues)」を参照してください。 |
 | コンバージョンはデバッガーツールで確認されますが、Adobe Advertising レポートには表示されません | 「[Advertising拡張機能の設定に関する問題](#advertising-extension-setup-issues)」を参照してください。 |
+| ページ間で訪問者IDが変更される | 「[IDとECIDの問題](#identity-and-ecid-issues)」を参照してください |
+| Advertisingのオーディエンスセグメントが一致しない | 「[IDとECIDの問題](#identity-and-ecid-issues)」を参照してください |
+| デバッガーは、ルール条件が満たされていないことを示します | 「[&#x200B; ルールまたはイベントが実行されていません](#rules-or-events-aren't-firing)」の節を参照してください |
+| [!UICONTROL Send Event] アクションは実行されません | 「[&#x200B; ルールまたはイベントが実行されていません](#rules-or-events-aren't-firing)」の節を参照してください |
+| [!DNL Tags]で行われた変更は、ライブサイトに反映されません | 「[&#x200B; ライブラリのビルドと公開の問題](#library-build-and-publishing-issues)」の節を参照してください |
+| 拡張機能の更新が適用されましたが、古い動作は保持されます | 「[&#x200B; ライブラリのビルドと公開の問題](#library-build-and-publishing-issues)」の節を参照してください |
+| `alloy()`送信イベント呼び出しは成功しましたが（応答は200件）、Adobe Advertising コンバージョンデータがレポートに見つかりません | 「[Advertising フィールドのスキーマ検証の問題](#schema-validation-for-advertising-fields)」の節を参照してください。 |
+| デバッガーのXDM ペイロードに`_experience.adcloud` オブジェクトが表示されません | 「[Advertising フィールドのスキーマ検証の問題](#schema-validation-for-advertising-fields)」の節を参照してください。 |
+| Customer Journey Analytics for Advertising DSPまたはAdvertising Search, Social, &amp; Commerceでは、概要レポートデータは利用できません。 | 「[問題の報告](#reporting-issues)」 > 「[概要レポート &#x200B;](#summary-reporting)」の節を参照してください |
+| 概要レポートデータは、Customer Journey Analytics for Advertiser 1では利用できますが、Advertiser 2では利用できません。 | 「[問題の報告](#reporting-issues)」 > 「[概要レポート &#x200B;](#summary-reporting)」の節を参照してください |
+| （Search, Social, &amp; Commerce ユーザー）概要レポート データは、Customer Journey Analyticsで1つの[!DNL Google Ads]、[!DNL Meta Ads]、または[!DNL Microsoft Advertising] アカウントで利用できますが、別のアカウントでは利用できません。 | 「[問題の報告](#reporting-issues)」 > 「[概要レポート &#x200B;](#summary-reporting)」の節を参照してください |
+| Customer Journey Analytics Workspaceの概要レポートデータは、Advertising DSPまたはAdvertising Search, Social, &amp; Commerceのデータと異なり、一部のキャンペーンおよびキャンペーンエンティティの概要データが見つかりません。 | 「[問題の報告](#reporting-issues)」 > 「[概要レポート &#x200B;](#summary-reporting)」の節を参照してください |
+| コンバージョンデータ （`Page Views`など）は、CJA Customer Journey Analytics Workspaceのレポートディメンション （`Campaign`など）では使用できません。 | 「[問題の報告](#reporting-issues)」 > 「[&#x200B; イベントレベルの報告](#event-level-reporting)」の節を参照してください |
 
 ## インストールとセットアップの問題 {#issues-installation-setup}
 
 ### WebSDK拡張機能がを初期化しません#websdk-extension-doesn&#39;t-initialize
 
-症状：
+#### 問題：
 
 * ブラウザーの「ネットワーク」タブにalloy （）呼び出しはありません
 * コンソールエラー：合金が定義されていません
 * edge.adobedc.netに対するインタラクションまたは収集リクエストはありません
+
+#### 考えられる原因と検証/解決
 
 +++ ライブラリが公開されていないか、ドラフト状態です
 
@@ -84,11 +91,13 @@ CSP `connect-src`および`script-src` ディレクティブに`edge.adobedc.net
 
 ### データストリームが設定されていないか、設定が正しくありません {#datastream-not-configured-or-misconfigured}
 
-症状：
+#### 問題：
 
-* リクエストはエッジに到達するが、400または500 エラーを返す
+* リクエストはExperience Platform Edge Networkに到達しますが、400または500 エラーが返されます
 * Adobe AnalyticsまたはAdobe Advertising レポートにデータが表示されません<!-- It's not useful to organize this info by cause, not symptom -->
 * ネットワーク応答のエラー：「データストリームが見つかりません」
+
+#### 考えられる原因と検証/解決
 
 +++ タグプロパティのデータストリーム IDが見つからないか、正しくありません
 
@@ -114,138 +123,9 @@ CSP `connect-src`および`script-src` ディレクティブに`edge.adobedc.net
 
 +++
 
-### IDとECIDの問題 {#identity-and-ecid-issues}
+### [!UICONTROL Advertising]拡張機能の設定に関する問題 {#advertising-extension-setup-issues}
 
-症状：
-
-* ページ間で訪問者IDが変更される
-* Advertisingのオーディエンスセグメントが一致しない
-
-+++ サードパーティ Cookieはブロックされています
-
-データストリームのエッジ設定でファーストパーティドメインを設定することで、ファーストパーティ CNAME データ収集に移行します。
-
-+++
-
-+++ レガシー`s_ecid` Cookieが存在する間、`idMigrationEnabled`は`false`に設定されています
-
-WebSDK ベース設定で`idMigrationEnabled: true`を設定して、既存のECIDを`s_ecid`または`AMCV_` Cookieから移行します。
-
-+++
-
-### ルールまたはイベントが実行されない#rules-or-events-aren&#39;t-firing
-
-症状：
-
-* デバッガーは、ルール条件が満たされていないことを示します
-* [!UICONTROL Send Event] アクションは実行されません
-
-次の点を確認します。
-
-* ルールが保存され、アクティブなライブラリビルドに含まれます。
-* イベントタイプは、実際のページ動作（[!UICONTROL Library Loaded]対[!UICONTROL DOM Ready]対[!UICONTROL Window Loaded]など）と一致します。
-* ルールの条件はそれほど制限されていません。 問題を特定するために、条件を一時的に削除してテストします。
-* ルールの順序は正しいです。 複数のルールが同じイベントを共有する場合は、ルールの順序を確認します。
-* ページの以前のJavaScript エラーで実行が停止することはありません。 ブラウザーコンソールで捕捉されない例外がないか確認します。
-
-### ライブラリのビルドと公開の問題 {#library-build-and-publishing-issues}
-
-症状：
-
-* [!DNL Tags]で行われた変更は、ライブサイトに反映されません
-* 拡張機能の更新が適用されましたが、古い動作は保持されます
-
-+++ 変更がライブラリに追加されませんでした
-
-[!UICONTROL Publishing Flow]で、変更内容が開発環境のライブラリに追加されたことを確認します。 [!UICONTROL Libraries]に移動し、作業ライブラリを開き、**変更されたすべてのリソースを追加**&#x200B;を選択してから、**保存とビルド**&#x200B;を選択します。
-
-+++
-
-+++ ブラウザーが古いライブラリをキャッシュしています
-
-ハードリフレッシュ（Ctrl+Shift+RまたはCmd+Shift+R）を実行するか、シークレットウィンドウまたはプライベートウィンドウでページを開きます。 問題が解決しない場合は、ブラウザーのキャッシュを完全にクリアします。
-
-+++
-
-+++ 埋め込みコードは環境が正しくありません
-
-実稼動動作をテストする場合は、ページの埋め込みコードが実稼動用埋め込みコードであることを確認します。
-
-+++
-
-+++ ライブラリのビルドがサイレントに失敗しました
-
-[!UICONTROL Publishing Flow]に移動し、ライブラリに[!UICONTROL Build Failed]状態が表示されているかどうかを確認します。 ライブラリを開き、ビルドログを確認します。一般的な原因は、無効なルール設定または拡張機能のバージョンの競合です。
-
-+++
-
-### Advertising フィールドのスキーマ検証の問題 {#schema-validation-for-advertising-fields}
-
-症状：
-
-* `alloy()`送信イベント呼び出しは成功しましたが（応答は200件）、Adobe Advertising コンバージョンデータがレポートに見つかりません
-* デバッガーのXDM ペイロードに`_experience.adcloud` オブジェクトが表示されません
-
-#### 手順1: [!UICONTROL Advertising] フィールドグループがスキーマに追加されていることを確認する
-
-1. Adobe Experience Platform > [!UICONTROL Data Management] > [!UICONTROL Schemas]に移動します。
-1. データストリームで使用するスキーマを開きます。
-1. [!UICONTROL Field Groups] パネルで、**Adobe Advertising Cloud ExperienceEvent Full Extension**&#x200B;がリストされていることを確認します。
-1. 見つからない場合は、**追加**&#x200B;を選択し、**Adobe Advertising Cloud**&#x200B;を検索し、**Adobe Advertising Cloud ExperienceEvent Full Extension**&#x200B;を選択してから、**保存**&#x200B;を選択します。
-
->[!NOTE]
->スキーマの変更だけでは[!DNL Tags] ライブラリを再公開する必要はありませんが、新しいフィールドが追加された場合は、[!DNL Tags]でXDM データ要素を再マッピングする必要があります。
-
-#### 手順2：必須のAdobe Advertising フィールドが`_experience.adcloud.conversionDetails`の下のスキーマに存在することを確認します
-
-| フィールドパス | タイプ | 説明 |
-| ----- | --- | --- |
-| `_experience.adcloud.conversionDetails.trackingCode` | 文字列 | コンバージョンを元の広告クリックにマッピングします。 ランディングページ URLの`s_kwcid` クエリパラメーターから入力されました。 |
-| `_experience.adcloud.conversionDetails.trackingIdentity` | 文字列 | 追跡されたビュースルーまたはクリックスルーのコンバージョンイベントの一意のIDおよびその他の詳細を保存します。 ランディングページ URLの`ef_id` クエリパラメーターから入力されました。 |
-
-いずれかのフィールドが見つからない場合は、**Adobe Advertising Cloud ExperienceEvent Full Extension** フィールドグループがスキーマに保存されていることを確認してから、スキーマエディターを更新します。
-
-#### 手順3：ランディングページ URLにクエリパラメーターが含まれていることを確認する
-
-広告クリックスルーの場合、ランディングページのURLには、次のような両方のクエリパラメーターを含める必要があります。
-
-`https://www.example.com/landing-page?s_kwcid=AL!12345!3!abc123&ef_id=abc123xyz:G:s`
-
-| パラメーターがありません | 考えられる原因 |
-| ----- | --- |
-| `s_kwcid` | Adobe Advertising検索またはDSP キャンペーン設定では、自動タグ付けは有効になっていません。 |
-| `ef_id` | ランディングページのURLがAdobe Advertisingで追跡されたリダイレクトを使用していないか、キャンペーン設定でEF IDの追加が有効になっていません。 |
-
-#### 手順4：送信XDM ペイロードの検証
-
-AEP Debuggerまたはブラウザー[!UICONTROL Network] タブを開き、`edge.adobedc.net`のフィルターを実行し、インタラクションリクエスト本文を調べます。 有効なクリックスルーペイロードは、次のようになります。
-
-```json
-{
-  "events": [{
-    "xdm": {
-      "eventType": "advertising.clicks",
-      "_experience": {
-        "adcloud": {
-          "conversionDetails": {
-            "trackingCode": "AL!12345!3!abc123",
-            "trackingIdentity": "abc123xyz:G:s"
-          }
-        }
-      }
-    }
-  }]
-}
-```
-
-`trackingCode`または`trackingIdentity`が空または見つからない場合：
-
-* ルールが実行されたときに、クエリ パラメーターがページに存在しませんでした。 URLとルールのイベントタイミングを確認します。
-* フィールドグループがスキーマにありません。 上記のスキーマ手順を再確認します。
-
-## [!UICONTROL Advertising]拡張機能の設定に関する問題 {#advertising-extension-setup-issues}
-
-症状：
+#### 問題：
 
 * web ページのビュースルーコンバージョンまたはクリックスルーコンバージョンは記録されません。
 
@@ -258,6 +138,8 @@ AEP Debuggerまたはブラウザー[!UICONTROL Network] タブを開き、`edge
 * クリックスルー用のExperience Data Model （XDM） ペイロードに`_experience.adcloud`がありません。
 
 * コンバージョンはデバッガーツールで確認されますが、Adobe Advertising レポートには表示されません
+
+#### 考えられる原因と検証/解決
 
 +++ データストリームに`Adobe Advertising` サービスが有効になっていません
 
@@ -293,7 +175,7 @@ WebSDK拡張機能の`Adobe Advertising` コンポーネントはデフォルト
    1. [!DNL Tags]で、[!UICONTROL Extensions] > [!UICONTROL Installed] > **Adobe Experience Platform Web SDK** > [!UICONTROL Configure]に移動します。
    1. 「[!UICONTROL Advertiser]」セクションで、ドロップダウンから広告主を選択して有効にします。 複数の広告主を設定するには、**広告主を追加**&#x200B;を選択します。
 1. ビュースルーコンバージョンピクセルが起動していることを確認します。
-   1. AEP Debuggerで、インタラクトコールに`xdm.query` フィールドの下に`stitchId`が含まれていることを確認します。
+   1. [!DNL Adobe Experience Platform] デバッガーで、`xdm.query` フィールドの下に`stitchId`が含まれていることを確認します。
    1. ブラウザー[!UICONTROL Network] タブで、タイプ `advertising.enrichment`のイベントが発生し、`xdm.query`の下に`stitchId`が含まれていることを確認します。
 
 ビュースルーコンバージョンは、訪問数に関係なく、30分ごとに実行されます。 インタラクション呼び出しが表示されない場合は、ブラウザーのキャッシュをクリアして、もう一度試してください。
@@ -321,9 +203,160 @@ WebSDK拡張機能の設定の[!UICONTROL Advertiser] セクションで広告�
 * ビュースルートラッキングの場合、広告主はAdobe Advertising DSPで正しい広告主IDで設定されます。
 * WebSDK拡張機能は、バージョン 2.36.0以降です。
 
-## レポートの問題
+## IDとECIDの問題 {#identity-and-ecid-issues}
 
-### 概要レポート
+### 問題：
+
+* ページ間で訪問者IDが変更される
+* Advertisingのオーディエンスセグメントが一致しない
+
+### 考えられる原因と検証/解決
+
++++ サードパーティ Cookieはブロックされています
+
+データストリームのEdge Network設定でファーストパーティドメインを設定することで、ファーストパーティ CNAME データ収集に移行します。
+
++++
+
++++ レガシー`s_ecid` Cookieが存在する間、`idMigrationEnabled`は`false`に設定されています
+
+WebSDK ベース設定で`idMigrationEnabled: true`を設定して、既存のECIDを`s_ecid`または`AMCV_` Cookieから移行します。
+
++++
+
+### ルールまたはイベントが実行されない#rules-or-events-aren&#39;t-firing
+
+#### 問題：
+
+* デバッガーは、ルール条件が満たされていないことを示します
+* [!UICONTROL Send Event] アクションは実行されません
+
+#### 検証と解決
+
++++ 次の点を確認します。
+
+* ルールが保存され、アクティブなライブラリビルドに含まれます。
+* イベントタイプは、実際のページ動作（[!UICONTROL Library Loaded]対[!UICONTROL DOM Ready]対[!UICONTROL Window Loaded]など）と一致します。
+* ルールの条件はそれほど制限されていません。 問題を特定するために、条件を一時的に削除してテストします。
+* ルールの順序は正しいです。 複数のルールが同じイベントを共有する場合は、ルールの順序を確認します。
+* ページの以前のJavaScript エラーで実行が停止することはありません。 ブラウザーコンソールで捕捉されない例外がないか確認します。
+
++++
+
+### ライブラリのビルドと公開の問題 {#library-build-and-publishing-issues}
+
+#### 問題：
+
+* [!DNL Tags]で行われた変更は、ライブサイトに反映されません
+* 拡張機能の更新が適用されましたが、古い動作は保持されます
+
+#### 考えられる原因と検証/解決
+
++++ 変更がライブラリに追加されませんでした
+
+[!UICONTROL Publishing Flow]で、変更内容が開発環境のライブラリに追加されたことを確認します。 [!UICONTROL Libraries]に移動し、作業ライブラリを開き、**変更されたすべてのリソースを追加**&#x200B;を選択してから、**保存とビルド**&#x200B;を選択します。
+
++++
+
++++ ブラウザーが古いライブラリをキャッシュしています
+
+ハードリフレッシュ（Ctrl+Shift+RまたはCmd+Shift+R）を実行するか、シークレットウィンドウまたはプライベートウィンドウでページを開きます。 問題が解決しない場合は、ブラウザーのキャッシュを完全にクリアします。
+
++++
+
++++ 埋め込みコードは環境が正しくありません
+
+実稼動動作をテストする場合は、ページの埋め込みコードが実稼動用埋め込みコードであることを確認します。
+
++++
+
++++ ライブラリのビルドがサイレントに失敗しました
+
+[!UICONTROL Publishing Flow]に移動し、ライブラリに[!UICONTROL Build Failed]状態が表示されているかどうかを確認します。 ライブラリを開き、ビルドログを確認します。一般的な原因は、無効なルール設定または拡張機能のバージョンの競合です。
+
++++
+
+### Advertising フィールドのスキーマ検証の問題 {#schema-validation-for-advertising-fields}
+
+#### 問題：
+
+* `alloy()`送信イベント呼び出しは成功しましたが（応答は200件）、Adobe Advertising コンバージョンデータがレポートに見つかりません
+* デバッガーのXDM ペイロードに`_experience.adcloud` オブジェクトが表示されません
+
+#### 考えられる原因と検証/解決
+
++++ スキーマに[!UICONTROL Advertising] フィールドグループがありません
+
+[!UICONTROL Advertising] フィールドグループがスキーマに追加されていることを確認します。
+
+1. Adobe Experience Platform > [!UICONTROL Data Management] > [!UICONTROL Schemas]に移動します。
+1. データストリームで使用するスキーマを開きます。
+1. [!UICONTROL Field Groups] パネルで、**Adobe Advertising Cloud ExperienceEvent Full Extension**&#x200B;がリストされていることを確認します。
+1. 見つからない場合は、**追加**&#x200B;を選択し、**Adobe Advertising Cloud**&#x200B;を検索し、**Adobe Advertising Cloud ExperienceEvent Full Extension**&#x200B;を選択して、設定を保存します。
+
+>[!NOTE]
+>スキーマの変更だけでは[!DNL Tags] ライブラリを再公開する必要はありませんが、新しいフィールドが追加された場合は、[!DNL Tags]でXDM データ要素を再マッピングする必要があります。
+
++++
+
++++ 必須のAdobe Advertising フィールドがスキーマにありません。
+
+必須のAdobe Advertising フィールドが`_experience.adcloud.conversionDetails`の下のスキーマに存在することを確認してください。
+
+| フィールドパス | タイプ | 説明 |
+| ----- | --- | --- |
+| `_experience.adcloud.conversionDetails.trackingCode` | 文字列 | コンバージョンを元の広告クリックにマッピングします。 ランディングページ URLの`s_kwcid` クエリパラメーターから入力されました。 |
+| `_experience.adcloud.conversionDetails.trackingIdentity` | 文字列 | 追跡されたビュースルーまたはクリックスルーのコンバージョンイベントの一意のIDおよびその他の詳細を保存します。 ランディングページ URLの`ef_id` クエリパラメーターから入力されました。 |
+
+いずれかのフィールドが見つからない場合は、**Adobe Advertising Cloud ExperienceEvent Full Extension** フィールドグループがスキーマに保存されていることを確認してから、スキーマエディターを更新します。
+
++++
+
++++ ランディングページのURLには、必要なクエリパラメーターが含まれていません。
+
+ランディングページのURLに、必要なクエリパラメーターが含まれていることを確認します。 広告のクリックスルーでは、ランディングページ URLに両方のクエリパラメーター（例：`https://www.example.com/landing-page?s_kwcid=AL!12345!3!abc123&ef_id=abc123xyz:G:s`）を含める必要があります
+
+| パラメーターがありません | 考えられる原因 |
+| ----- | --- |
+| `s_kwcid` | Adobe Advertising検索またはDSP キャンペーン設定では、自動タグ付けは有効になっていません。 |
+| `ef_id` | ランディングページのURLがAdobe Advertisingで追跡されたリダイレクトを使用していないか、キャンペーン設定でEF IDの追加が有効になっていません。 |
+
++++
+
++++ XDM ペイロードの一部のパラメーターが見つからないか、空です。
+
+アウトバウンド XDM ペイロードを検証するには、[!DNL Adobe Experience Platform] デバッガーまたはブラウザー[!UICONTROL Network] タブを開き、`edge.adobedc.net`用にフィルターを実行し、インタラクションリクエスト本文を調べます。 有効なクリックスルーペイロードは、次のようになります。
+
+```json
+{
+  "events": [{
+    "xdm": {
+      "eventType": "advertising.clicks",
+      "_experience": {
+        "adcloud": {
+          "conversionDetails": {
+            "trackingCode": "AL!12345!3!abc123",
+            "trackingIdentity": "abc123xyz:G:s"
+          }
+        }
+      }
+    }
+  }]
+}
+```
+
+`trackingCode`または`trackingIdentity`が空または見つからない場合：
+
+* ルールが実行されたときに、クエリ パラメーターがページに存在しませんでした。 URLとルールのイベントタイミングを確認します。
+* フィールドグループがスキーマにありません。 上記のスキーマ手順を再確認します。
+
++++
+
+## レポートの問題 {#reporting-issues}
+
+### 概要レポート {#summary-reporting}
+
+#### 問題と検証/解決
 
 +++ Customer Journey Analytics for Advertising DSPまたはAdvertising Search, Social, &amp; Commerceでは、概要レポートデータは利用できません。
 
@@ -377,7 +410,9 @@ Adobe AdvertisingからCustomer Journey Analyticsへのフィードが、特定�
 
 +++
 
-### イベントレベルのレポート
+### イベントレベルのレポート {#event-level-reporting}
+
+#### 問題と検証/解決
 
 +++ コンバージョンデータ （`Page Views`など）は、CJA Customer Journey Analytics Workspaceのレポートディメンション （`Campaign`など）では使用できません。
 
@@ -425,7 +460,7 @@ Answer
 
 ### Adobe Experience Platform Debugger
 
-[!DNL Chrome]の[!DNL Adobe Experience Platform Debugger]拡張機能をインストールします。 次のようなメリットがあります。
+[!DNL Chrome]の[!DNL Adobe Experience Platform Debugger]拡張機能をインストールします：
 
 * すべてのWebSDK `alloy()`呼び出しのリアルタイム ビュー
 * データストリーム IDと環境の検証
@@ -437,12 +472,12 @@ Answer
 | Tab | 確認すべきこと |
 | ----- | --- |
 | [!UICONTROL Summary] | WebSDKが検出され、インストールされているバージョンが表示されることを確認します。 |
-| [!UICONTROL AEP Web SDK] | 発生した各イベント、完全なXDM ペイロード、およびエッジ応答を表示します。 |
+| [!UICONTROL Adobe Experience Platform WebSDK] | 発生した各イベント、完全なXDM ペイロード、Edge Network応答を示します。 |
 | [!UICONTROL Adobe Advertising] | AMO ID キャプチャとXDM インタラクション呼び出しを`advertising.enrichment` イベントタイプで確認します。 |
 
 ### 「ブラウザーネットワーク」タブ
 
-`edge.adobedc.net`でフィルタリングして、生のエッジリクエストを検査します。
+生のEdge Network リクエストを調べるために`edge.adobedc.net`でフィルタリングします。
 
 * リクエスト URL: `https://[org-id].data.adobedc.net/ee/v2/interact`
 * メソッド：`POST`
@@ -487,20 +522,20 @@ alloy("sendEvent", {
 * [!UICONTROL Advertising] コンポーネントはWebSDK拡張機能の設定で有効になっており、DSP広告主IDが設定されています。
 * XDM スキーマには、[!UICONTROL Advertising] フィールドグループが含まれています。
 * [!UICONTROL Send Event] ルールにはID マップが含まれており、正しいイベントに対して実行されます。
-* エッジリクエストをブロックしているCSPまたはブラウザープライバシー設定はありません。
-* AEP Debuggerは、イベントがエッジに到達していることを確認します。
+* Edge Network リクエストをブロックしているCSPまたはブラウザーのプライバシー設定はありません。
+* [!DNL Adobe Experience Platform] デバッガーは、イベントがEdge Networkに到達していることを確認します。
 * ブラウザーコンソールで実行を停止しているJavaScript エラーはありません。
-* **Adobe Advertising Cloud ExperienceEvent Full Extension** フィールドグループがスキーマに追加されます。
+* `Adobe Advertising Cloud ExperienceEvent Full Extension` フィールドグループがスキーマに追加されます。
 * `_experience.adcloud.conversionDetails.trackingCode`はスキーマに存在します。
 * `_experience.adcloud.conversionDetails.trackingIdentity`はスキーマに存在します。
-* ランディングページ URLには、クリックスルー時の`s_kwcid`と`ef_id`の両方が含まれています。
-* AEP Debuggerは、`conversionDetails`がアウトバウンドペイロードに入力されていることを確認します。
+* ランディングページ URLには、クリックスルー時に`s_kwcid`と`ef_id`の両方のパラメーターが含まれています。
+* [!DNL Adobe Experience Platform] デバッガーは、`conversionDetails`がアウトバウンドペイロードに入力されていることを確認します。
 
 ## エスカレーションするタイミング
 
 次の場合は、Adobe アカウントチームまたはエンジニアリングチームにエスカレーションします。
 
-* Edge リクエストは、データストリームの検証後に永続的な`500` エラーを返します。
+* Edge Network リクエストは、データストリームの検証後に永続的な`500` エラーを返します。
 * [!UICONTROL Advertising]個のコンバージョンがデバッガーで確認されますが、24 ～ 48時間後にレポートに表示されません。
 * WebSDK バージョンのアップデートでは、以前のバージョンには存在しなかった回帰が導入されます。 サポートチケットに特定のバージョン番号を含めます。
 
