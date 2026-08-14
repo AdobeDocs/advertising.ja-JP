@@ -60,7 +60,7 @@ ht-degree: 0%
 
 | 原因 | 修正 |
 | ----- | --- |
-| ライブラリが公開されていないか、ドラフト状態です | [公開フロー](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)に移動し、WebSDK拡張機能を含むライブラリが承認済み/公開済み状態であることを確認します。 |
+| ライブラリが公開されていないか、ドラフト状態です | [公開フロー](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/publish/publishing-flow)に移動し、WebSDK拡張機能を含むライブラリが承認済み/公開済み状態であることを確認します。 |
 | 埋め込みコード環境が見つからないか間違っています | Web ページの[!DNL Tags]埋め込みコードが正しい環境（開発/ステージ/実稼動）を参照していることを確認します。 `//assets.adobedtm.com/...` スクリプトタグの`<head>` タグで環境を探します。 |
 | 非同期と同期読み込みの競合 | Web ページごとに[!DNL Tags]埋め込みコードが1つだけ存在することを確認してください。 重複した埋め込みコードが競合状態の原因となります。 |
 | コンテンツセキュリティポリシー（CSP）によるブロック | CSP `connect-src`および`script-src` ディレクティブに`edge.adobedc.net` `and assets.adobedtm.com`を追加します。 |
@@ -75,8 +75,8 @@ ht-degree: 0%
 
 | 原因 | 修正 |
 | ----- | --- |
-| タグプロパティのデータストリーム IDが見つからないか、正しくありません。 | <ol><li>[!DNL Tags]で、タグプロパティの[&#x200B; データストリーム設定設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)を開きます。</li><li>[!UICONTROL Datastream] フィールドが、各環境（開発、ステージング、実稼動）の正しいデータストリーム、および正しいスキーマとデータセットを指していることを確認します。<br><br>3つの環境すべてで1つのデータストリームを明示的に共有しない限り、各環境には独自のデータストリームが必要です。</li></ol> |
-| タグプロパティに対してデータストリームサービスが有効になっていません。 | [&#x200B; データストリーム設定](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)を開き、次のサービスが有効になっていることを確認します。<ul><li>Adobe Advertising（コンバージョン/オーディエンス同期用）</li><li>Adobe Experience Platform（プロファイル取得用）</li></ul> |
+| タグプロパティのデータストリーム IDが見つからないか、正しくありません。 | <ol><li>[!DNL Tags]で、タグプロパティの[&#x200B; データストリーム設定設定](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)を開きます。</li><li>[!UICONTROL Datastream] フィールドが、各環境（開発、ステージング、実稼動）の正しいデータストリーム、および正しいスキーマとデータセットを指していることを確認します。<br><br>3つの環境すべてで1つのデータストリームを明示的に共有しない限り、各環境には独自のデータストリームが必要です。</li></ol> |
+| タグプロパティに対してデータストリームサービスが有効になっていません。 | [&#x200B; データストリーム設定](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure)を開き、次のサービスが有効になっていることを確認します。<ul><li>Adobe Advertising（コンバージョン/オーディエンス同期用）</li><li>Adobe Experience Platform（プロファイル取得用）</li></ul> |
 | サンドボックスの不一致 | データストリームが、スキーマおよびデータセットと同じAdobe Experience Platform サンドボックスに属していることを確認します。 よくある間違いは、実稼動サンドボックスにデータストリームを作成する際に、開発サンドボックスにスキーマを指定することです。 |
 
 ### IDとECIDの問題 {#identity-and-ecid-issues}
@@ -194,7 +194,7 @@ AEP Debuggerまたはブラウザー[!UICONTROL Network] タブを開き、`edge
 
   1. URLに`ef_id=test&s_kwcid=test`が追加されたweb ページを開きます。
   1. ブラウザーのコード検査ツール（[!DNL Inspect]と呼ばれることが多い）を開き、「[!DNL Network]」タブを開き、Adobe Experience Platformのevent_type=&quot;advertising.enrichment_ct&quot;のインタラクティブ呼び出しを探します。
-  1. データ収集インターフェイスで、[収集するweb サイト データのスキーマ定義](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas)を開き、`xdm->_experience->adcloud->conversionDetails->trackingCode`と`trackingIdentities`に`ef_id`と`s_kwcid`が含まれていることを確認します。
+  1. データ収集インターフェイスで、[収集するweb サイト データのスキーマ定義](https://experienceleague.adobe.com/ja/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas)を開き、`xdm->_experience->adcloud->conversionDetails->trackingCode`と`trackingIdentities`に`ef_id`と`s_kwcid`が含まれていることを確認します。
 
 * クリックスルー用のExperience Data Model （XDM） ペイロードに`_experience.adcloud`がありません。
 
@@ -202,8 +202,8 @@ AEP Debuggerまたはブラウザー[!UICONTROL Network] タブを開き、`edge
 
 | 原因 | 修正 |
 | ----- | --- |
-| データストリームに`Adobe Advertising` サービスが有効になっていません | <ol><li>[!DNL Tags]で、タグプロパティの[&#x200B; データストリーム設定設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)を開きます。</li><li>次のサービスを有効にし、設定を保存します。<ul><li>Adobe Advertising（コンバージョン/オーディエンス同期用）</li><li>Adobe Experience Platform（プロファイル取得用）</li></ul></ol> |
-| `Adobe Advertising` コンポーネントは[!UICONTROL WebSDK]拡張機能に対して有効になっていません | WebSDK拡張機能の`Adobe Advertising` コンポーネントはデフォルトで無効になっており、XDM スキーマまたはルールの設定方法に関係なく、Adobe Advertising クリックスルーまたはビュースルーのトラッキングが機能する前に、明示的に有効にする必要があります。<ol><li>[!DNL Tags]で、Adobe Experience Platform Web SDKの設定[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)で、プロパティの ビルドオプションを開きます。</li><li>**Advertising** コンポーネントを有効にし、設定を保存します。</li><li>ライブラリを再構築して再公開します。</li></ol> |
+| データストリームに`Adobe Advertising` サービスが有効になっていません | <ol><li>[!DNL Tags]で、タグプロパティの[&#x200B; データストリーム設定設定](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)を開きます。</li><li>次のサービスを有効にし、設定を保存します。<ul><li>Adobe Advertising（コンバージョン/オーディエンス同期用）</li><li>Adobe Experience Platform（プロファイル取得用）</li></ul></ol> |
+| `Adobe Advertising` コンポーネントは[!UICONTROL WebSDK]拡張機能に対して有効になっていません | WebSDK拡張機能の`Adobe Advertising` コンポーネントはデフォルトで無効になっており、XDM スキーマまたはルールの設定方法に関係なく、Adobe Advertising クリックスルーまたはビュースルーのトラッキングが機能する前に、明示的に有効にする必要があります。<ol><li>[!DNL Tags]で、Adobe Experience Platform Web SDKの設定[&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)で、プロパティの ビルドオプションを開きます。</li><li>**Advertising** コンポーネントを有効にし、設定を保存します。</li><li>ライブラリを再構築して再公開します。</li></ol> |
 | クリックスルーコンバージョンのみが記録されます。ビュースルーコンバージョンは表示されません | これは期待されるデフォルトの動作です。 `Adobe Advertising` コンポーネントが有効になると、`s_kwcid`および`ef_id`のURL クエリパラメーターを使用して、クリックスルー追跡が自動的にアクティブになります。 ビュースルートラッキングはデフォルトで無効になっており、追加の設定が必要です。次の行を参照してください。 |
 | ビュースルー追跡が有効になっていないか、設定されていません | <ol><li>データストリームのAdobe Advertising サービスを有効にする</li><ol><li>Adobe Experience Platformの[!UICONTROL Data Collection] > [!UICONTROL Datastreams]に移動し、[!DNL Tags] プロパティで使用されているデータストリームを開きます。</li><li>**サービスを追加**&#x200B;を選択し、**Adobe Advertising**&#x200B;および&#x200B;**Adobe Experience Platform**&#x200B;を選択してから、**保存**&#x200B;を選択します。</li></ol><li>Adobe Advertising DSPでの広告主の設定</li><ol><li>[!DNL Tags]で、[!UICONTROL Extensions] > [!UICONTROL Installed] > **Adobe Experience Platform Web SDK** > [!UICONTROL Configure]に移動します。</li><li>「[!UICONTROL Advertiser]」セクションで、ドロップダウンから広告主を選択して有効にします。 複数の広告主を設定するには、**広告主を追加**&#x200B;を選択します。</li></ol><li>ビュースルーコンバージョンピクセルが起動していることを確認します</li><ol><li>AEP Debuggerで、インタラクトコールに`xdm.query` フィールドの下に`stitchId`が含まれていることを確認します。</li><li>ブラウザー[!UICONTROL Network] タブで、タイプ `advertising.enrichment`のイベントが発生し、`xdm.query`の下に`stitchId`が含まれていることを確認します。</li></ol></ol> ビュースルーコンバージョンは、訪問数に関係なく、30分ごとに実行されます。 インタラクション呼び出しが表示されない場合は、ブラウザーのキャッシュをクリアして、もう一度試してください。 |
 | （Viewthrough インタラクション呼び出し後にExperience Platformでビュースルーイベントが発生しない場合）広告主は、ドロップダウンから選択するのではなく、手動で入力されました | 広告主を手動で入力する代わりに、[!UICONTROL Advertiser] ドロップダウンから広告主を再選択します。 |
@@ -234,7 +234,7 @@ AEP Debuggerまたはブラウザー[!UICONTROL Network] タブを開き、`edge
 
 * Adobe Advertisingのディメンションと概要指標は、Customer Journey Analytics データビューに含まれます。
 
-上記のすべての設定を確認しても概要データが表示されない場合は、[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)で組織のサポートチケットを開きます。
+上記のすべての設定を確認しても概要データが表示されない場合は、[https://experienceleague.adobe.com/home?lang=ja#support](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support)で組織のサポートチケットを開きます。
 
 +++
 
@@ -246,7 +246,7 @@ AEP Debuggerまたはブラウザー[!UICONTROL Network] タブを開き、`edge
 
 * 設定「[!UICONTROL Backfill all existing data]」は、Customer Journey Analytics接続の3つのデータセット（ディメンション/分類/ルックアップ、サマリー、イベント指標）に対して有効になっています。
 
-上記の条件をすべて確認しても概要データが表示されない場合は、[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)で組織のサポートチケットを開きます。
+上記の条件をすべて確認しても概要データが表示されない場合は、[https://experienceleague.adobe.com/home?lang=ja#support](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support)で組織のサポートチケットを開きます。
 
 +++
 
@@ -254,7 +254,7 @@ AEP Debuggerまたはブラウザー[!UICONTROL Network] タブを開き、`edge
 
 Adobe AdvertisingからCustomer Journey Analyticsへのフィードが、特定の広告ネットワークアカウントに対して有効になっていることを確認します。 Adobeのアカウントチームにお問い合わせください。
 
-フィードがアカウントに対して有効になっていても概要データが表示されない場合は、[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)で組織のサポートチケットを開きます。 広告ネットワーク アカウントの[!UICONTROL Account ID]を含めます。
+フィードがアカウントに対して有効になっていても概要データが表示されない場合は、[https://experienceleague.adobe.com/home?lang=ja#support](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support)で組織のサポートチケットを開きます。 広告ネットワーク アカウントの[!UICONTROL Account ID]を含めます。
 
 +++
 
@@ -270,7 +270,7 @@ Adobe AdvertisingからCustomer Journey Analyticsへのフィードが、特定�
 
 * 設定「[!UICONTROL Backfill all existing data]」は、Customer Journey Analytics接続の3つのデータセット（ディメンション/分類/ルックアップ、サマリー、イベント指標）に対して有効になっています。
 
-データの相違が確認できる場合は、[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)で組織のサポートチケットを開きます。 広告ネットワーク アカウントの[!UICONTROL Account ID]を含めます。 食い違いの証拠を示すには、スクリーンショットとスプレッドシートを含めます。 Adobe アカウントチームは、必要に応じてデータフィードを過去にさかのぼって修正し、差異を解決できます。
+データの相違が確認できる場合は、[https://experienceleague.adobe.com/home?lang=ja#support](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support)で組織のサポートチケットを開きます。 広告ネットワーク アカウントの[!UICONTROL Account ID]を含めます。 食い違いの証拠を示すには、スクリーンショットとスプレッドシートを含めます。 Adobe アカウントチームは、必要に応じてデータフィードを過去にさかのぼって修正し、差異を解決できます。
 
 +++
 
@@ -292,7 +292,7 @@ Adobe AdvertisingからCustomer Journey Analyticsへのフィードが、特定�
 
 * Adobe Advertisingの設定は、WebSDK拡張機能で正しく設定され、公開されます。
 
-上記の設定をすべて確認しても、コンバージョンデータが表示されない場合は、[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)で組織のサポートチケットを開きます。 広告ネットワーク アカウントの[!UICONTROL Account ID]を含めます。
+上記の設定をすべて確認しても、コンバージョンデータが表示されない場合は、[https://experienceleague.adobe.com/home?lang=ja#support](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support)で組織のサポートチケットを開きます。 広告ネットワーク アカウントの[!UICONTROL Account ID]を含めます。
 
 +++
 
