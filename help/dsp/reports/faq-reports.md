@@ -14,14 +14,26 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
 workflow-type: tm+mt
-source-wordcount: 1170
+source-wordcount: 1336
 ht-degree: 0%
 
 ---
 
 # カスタムレポートに関するFAQ
+
+## コンバージョンレポート
+
+### [!UICONTROL Conversion] レポートと[!UICONTROL DSP Self-Attributed Conversions] レポートはどのように異なりますか？
+
+どちらのレポートも、クリックスルーやビュースルーの内訳など、同じディメンション、指標、アトリビューションモデルを使用しています。
+
+[!UICONTROL Conversion] レポートを含むほとんどのレポートでは、コンバージョンはコンバージョンの前の最後のクリックに記録されます。 顧客がDSPの広告を見た後、コンバージョンする前に検索広告をクリックすると、そのDSPの露出はコンバージョン番号に表示されないことが多いです。
+
+ただし、[!UICONTROL DSP Self-Attributed Conversions] レポートでは、コンバージョンをDSP インプレッション数とクリック数に関連付け、カスタマージャーニーに対するDSPのより広範な貢献度を把握できるようにします。 このレポートは、[!UICONTROL Conversion]報告書の修正ではなく、DSPの貢献を補完的に示すものと考えてください。 これは、Advertising DSPとAdvertising Search, Social, &amp; Commerceの両方を使用する広告主にとって最も有用です。
+
+2つのレポートではコンバージョンを広告に結びつけるために異なる方法を使用するため、指標の合計が一致しません。 これは期待されており、矛盾ではありません。
 
 ## 世帯レポート
 
@@ -35,7 +47,7 @@ ht-degree: 0%
 
 ##### サポートされているディメンション
 
-[!UICONTROL Household Reach & Frequency] レポートでは、「[次のディメンション &#x200B;](/help/dsp/reports/report-columns.md): &quot;[!UICONTROL Campaign],&quot; &quot;[!UICONTROL Package],&quot; &quot;[!UICONTROL Placement],&quot; &quot;[!UICONTROL Site/Apps]&quot; （重複する指標へのアクセス権を提供しません）、&quot;[!UICONTROL Media Type],&quot; &quot;[!UICONTROL Feed Type],&quot; &quot;[!UICONTROL Device],&quot; &quot;[!UICONTROL Publisher],&quot; &quot;[!UICONTROL Audience],&quot; &quot;[!UICONTROL Creative Length]&quot;、ユーザー作成のプレースメント &quot;[!UICONTROL Tags]&quot;がサポートされています。
+[!UICONTROL Household Reach & Frequency] レポートでは、「[次のディメンション &#x200B;](/help/dsp/reports/report-columns.md): &quot;[!UICONTROL Campaign],&quot; &quot;[!UICONTROL Package],&quot; &quot;[!UICONTROL Placement],&quot; &quot;[!UICONTROL Site/Apps]&quot; （重複する指標へのアクセスを提供しません）、&quot;[!UICONTROL Media Type],&quot; &quot;[!UICONTROL Feed Type],&quot; &quot;[!UICONTROL Device],&quot; &quot;[!UICONTROL Publisher],&quot; &quot;[!UICONTROL Audience],&quot; &quot;[!UICONTROL Creative Length]&quot;、ユーザー作成のプレースメント &quot;[!UICONTROL Tags]&quot;がサポートされています。 |
 
 ##### サポートされる指標
 
@@ -71,7 +83,7 @@ ht-degree: 0%
 
 重なり指標を含むレポートでは、最大3つの値の積集合が出力されます。 例えば、10件の配置に対して指標[!UICONTROL Unique Household (Overlap)]を使用すると、個々の配置で到達したユニーク世帯、任意の2つの配置の組み合わせで到達した一般的な世帯、および任意の3つの配置の組み合わせで到達した一般的な世帯を確認できます。 4つ以上のプレースメントに達した一般的な世帯を表示することはできません。
 
-キャンペーン、パッケージまたはプレースメント以外のディメンションの場合、各ディメンションで最大10個の値をサポートします。 例えば、[!UICONTROL Unique Household Reached] ディメンションの[!UICONTROL Audience] レポートを生成するには、一意のオーディエンスの数が10個以下である必要があります。 10個を超える固有オーディエンスを含めると、空白のレポートが生成されます。
+キャンペーン、パッケージまたはプレースメント以外のディメンションの場合、各ディメンションで最大10個の値をサポートします。 例えば、[!UICONTROL Audience] ディメンションの[!UICONTROL Unique Household Reached] レポートを生成するには、一意のオーディエンスの数が10個以下である必要があります。 10個を超える固有オーディエンスを含めると、空白のレポートが生成されます。
 
 #### [!UICONTROL Custom] レポートと[!UICONTROL Household Reach & Frequency] レポートの間で、頻度と一意のリーチ値が異なるのはなぜですか？
 
@@ -89,7 +101,7 @@ ht-degree: 0%
 
 次の2種類のアトリビューション方法がサポートされています。
 
-* [!UICONTROL Unique]: ディメンション値（デバイスやプレースメントなど）がコンバージョンに至るまでのパス上にある回数をカウントします。
+* [!UICONTROL Unique]&#x200B;: ディメンション値（デバイスやプレースメントなど）がコンバージョンに至るまでのパス上にある回数をカウントします。
 
 * [!UICONTROL Multi-Touch Attribution (MTA)]: コンバージョンへのパス上のディメンション値（デバイスやプレースメントなど）の発生頻度に基づいて、各コンバージョンのクレジットを分配します。 例えば、コンバージョンまでにCTVで8つ、モバイルで2つの、合計10のインプレッションがあった場合、クレジット（0.8）はCTV スクリーン、0.2はモバイルに割り当てられます。
 
