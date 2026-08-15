@@ -15,9 +15,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1377772b3d43be341d4c40497fa186ebfbc29bc9
+source-git-commit: c3ffa88d5df4fa2ff7e52813503c10b67d7c6eb7
 workflow-type: tm+mt
-source-wordcount: 3291
+source-wordcount: 3290
 ht-degree: 0%
 
 ---
@@ -183,18 +183,18 @@ ht-degree: 0%
 | 原因 | 修正 |
 | ----- | --- |
 | スキーマに[!UICONTROL Advertising] フィールドグループがありません | <ol><li>Adobe Experience Platform > [!UICONTROL Data Management] > [!UICONTROL Schemas]に移動します。</li><li>データストリームで使用するスキーマを開きます。</li><li>[!UICONTROL Field Groups] パネルで、**Adobe Advertising Cloud ExperienceEvent Full Extension**&#x200B;がリストされていることを確認します。</li><li>見つからない場合は、**追加**&#x200B;を選択し、**Adobe Advertising Cloud**&#x200B;を検索し、**Adobe Advertising Cloud ExperienceEvent Full Extension**&#x200B;を選択して、設定を保存します。</li></ol>スキーマの変更だけでは[!DNL Tags] ライブラリを再公開する必要はありませんが、新しいフィールドが追加された場合は、[!DNL Tags]でXDM データ要素を再マッピングする必要があります。 |
-| 必須のAdobe Advertising フィールドがスキーマにありません | 必須のAdobe Advertising フィールドが`_experience.adcloud.conversionDetails`の下のスキーマに存在することを確認します（以下のフィールド参照テーブルを参照）。<br><br>いずれかのフィールドが見つからない場合は、**Adobe Advertising Cloud ExperienceEvent Full Extension** フィールドグループがスキーマに保存されていることを確認してから、スキーマエディターを更新します。 |
-| ランディングページのURLには、必要なクエリパラメーターが含まれていません | ランディングページのURLに、必要なクエリパラメーターが含まれていることを確認します。 広告のクリックスルーでは、ランディングページのURLに両方のクエリパラメーター（例：`https://www.example.com/landing-page?s_kwcid=AL!12345!3!abc123&ef_id=abc123xyz:G:s`）を含める必要があります（可能性のある原因については、以下の参照表を参照）。 |
+| 必須のAdobe Advertising フィールドがスキーマにありません | 必須のAdobe Advertising フィールドが`_experience.adcloud.conversionDetails`の下のスキーマに存在することを確認してください。 「[参照：必須スキーマフィールド &#x200B;](#required-schema-fields)」を参照してください。<br><br>いずれかのフィールドが見つからない場合は、**Adobe Advertising Cloud ExperienceEvent Full Extension** フィールドグループがスキーマに保存されていることを確認してから、スキーマエディターを更新してください。 |
+| ランディングページのURLには、必要なクエリパラメーターが含まれていません | ランディングページのURLに、必要なクエリパラメーターが含まれていることを確認します。 広告のクリックスルーでは、ランディングページ URLに両方のクエリパラメーター（例：`https://www.example.com/landing-page?s_kwcid=AL!12345!3!abc123&ef_id=abc123xyz:G:s`）を含める必要があります。 考えられる原因については、「[参照：見つからないクエリパラメーター](#missing-query-parameters)」を参照してください。 |
 | XDM ペイロードの一部のパラメーターが見つからないか、空です | アウトバウンド XDM ペイロードを検証するには、ブラウザーのコード インスペクションツールの「Adobe Experience Platform Debugger」タブまたは「[!DNL Network]」タブを開き、`edge.adobedc.net`のフィルターを実行し、インタラクトリクエスト本文を調べます（以下のペイロードの例を参照）。<br><br>もし`trackingCode`または`trackingIdentity`が空または見つからない場合：ルールが実行されたときにクエリパラメーターがページに存在しない（URLとルールのイベントタイミングを確認）。 |
 
-**参照：必須スキーマフィールド**
+##### 参照：必須スキーマフィールド {#required-schema-fields}
 
 | フィールドパス | タイプ | 説明 |
 | ----- | --- | --- |
 | `_experience.adcloud.conversionDetails.trackingCode` | 文字列 | コンバージョンを元の広告クリックにマッピングします。 ランディングページ URLの`s_kwcid` クエリパラメーターから入力されました。 |
 | `_experience.adcloud.conversionDetails.trackingIdentity` | 文字列 | 追跡されたビュースルーまたはクリックスルーのコンバージョンイベントの一意のIDおよびその他の詳細を保存します。 ランディングページ URLの`ef_id` クエリパラメーターから入力されました。 |
 
-**参照：クエリパラメーターがありません**
+##### 参照：クエリパラメーターがありません {#missing-query-parameters}
 
 | パラメーターがありません | 考えられる原因 |
 | ----- | --- |

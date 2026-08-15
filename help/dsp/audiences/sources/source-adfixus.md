@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+source-git-commit: f796a4002b9136299c414b789cd2c34c8d6dc11c
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: 467
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 0%
       ソース設定には、自動生成されたソースキーが含まれます。
 
    1. ソース キーを[!DNL AdFixus] チームと共有して、必要なセグメントをDSPにストリーミングできるようにします。
+
+      すべての[!DNL AdFixus] データに対して引き続き同じソースキーを使用し、アカウントまたは広告主と共有できます。
 
 1. オーディエンスライブラリの[!UICONTROL First Party Segments] セクションで、セグメントが入力されていることを確認します（[!UICONTROL Audiences] > [!UICONTROL All Audiences]またはプレースメント設定内でオーディエンスを作成または編集する際に使用できます）。 [!DNL AdFixus] IDの数と[!DNL AdFixus]内のユーザーIDの数を比較します。
 

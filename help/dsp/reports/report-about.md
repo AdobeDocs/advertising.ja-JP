@@ -17,9 +17,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
+source-git-commit: 8259705179c77085be82b416f62a093186b03745
 workflow-type: tm+mt
-source-wordcount: 1788
+source-wordcount: 1716
 ht-degree: 0%
 
 ---
@@ -65,11 +65,9 @@ ht-degree: 0%
 
   * **[!UICONTROL Device]:**&#x200B;この事前入力されたテンプレートを使用して、デバイス関連のディメンション別の主要指標を表示します。
 
-  * **[DSP Self-Attributed Conversions]:**&#x200B;このレポートを使用して、Advertising DSPがコンバージョンに貢献したことを確認します。これには、DSPが役割を果たしたカスタマージャーニーと、Adobe Advertisingの検索クリックなどの後のタッチが他のレポートでラストクリッククレジットを受け取ったカスタマージャーニーが含まれます。
+  * **[!UICONTROL DSP Self-Attributed Conversions]:**&#x200B;このレポートを使用して、Advertising DSPがコンバージョンに貢献したことを確認します。これには、DSPが役割を果たしたカスタマージャーニーが含まれますが、Adobe Advertising検索クリックなどの後のタッチは、他のレポートでラストクリッククレジットを受け取りました。 詳しくは、「[&#x200B; カスタムレポートに関するFAQ](/help/dsp/reports/faq-reports.md)」を参照してください。
 
-    標準レポートでは、コンバージョン前の最後のクリックの情報が記録されます。 顧客がDSPの広告を見た後、コンバージョンする前に検索広告をクリックすると、そのDSPの露出はコンバージョン番号に表示されないことが多いです。 このレポートでは、コンバージョンをDSPのインプレッション数やクリック数に結びつけ、ラストタッチでなくてもDSPの役割を確認できるようにします。 これは、Advertising DSPとAdvertising Search, Social, &amp; Commerceの両方を使用する広告主にとって最も有用です。
-
-    **重要：**&#x200B;このレポートは、アトリビューション Adobe Analytics レポートまたは既存のアトリビューション手法を変更するものではありません。 DSP独自のコンバージョン貢献度ビューを補完的に提供します。
+    **重要：**&#x200B;このレポートは、Adobe Analytics レポートの既存のアトリビューション手法またはアトリビューションを変更するものではありません。 DSP独自のコンバージョン貢献度ビューを補完的に提供します。
 
   * **[!UICONTROL Frequency (by Impression)]:**&#x200B;このレポートを使用して、ユニーク視聴者に表示されるインプレッションの分布を把握します（例えば、1つのインプレッション、2つのインプレッション、3つのインプレッションなどを見たユニーク視聴者の数）。 データは、プレースメントまたはキャンペーンで利用できます。
 
@@ -88,9 +86,9 @@ ht-degree: 0%
 
   * **[!UICONTROL Geo]**：この事前入力テンプレートを使用して、地理的ディメンション別の主要指標を確認します。
 
-  * **[!UICONTROL Household Conversions]:**&#x200B;このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルでのビュースルーコンバージョンを確認します。 インサイトを活用して、キャンペーンのパフォーマンスを測定および最適化できます。 詳しくは、「[世帯レポートに関するFAQ](/help/dsp/reports/faq-reports.md)」を参照してください。 ユニバーサル IDをターゲットとするプレースメントでは、データは使用できません。
+  * **[!UICONTROL Household Conversions]:**&#x200B;このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルでのビュースルーコンバージョンを確認します。 インサイトを活用して、キャンペーンのパフォーマンスを測定および最適化できます。 詳しくは、「[&#x200B; カスタムレポートに関するFAQ](/help/dsp/reports/faq-reports.md)」を参照してください。 ユニバーサル IDをターゲットとするプレースメントでは、データは使用できません。
 
-  * **[!UICONTROL Household Reach & Frequency]:**&#x200B;このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルで、広告フォーマット全体の単一ディメンションのインプレッション、リーチ、頻度を確認します。 インサイトを活用して、メディアミックスを最適化し、パフォーマンスを向上させ、リーチを拡大する機会を特定します。 詳しくは、「[世帯レポートに関するFAQ](/help/dsp/reports/faq-reports.md)」を参照してください。 ユニバーサル IDをターゲットとするプレースメントでは、データは使用できません。
+  * **[!UICONTROL Household Reach & Frequency]:**&#x200B;このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルで、広告フォーマット全体の単一ディメンションのインプレッション、リーチ、頻度を確認します。 インサイトを活用して、メディアミックスを最適化し、パフォーマンスを向上させ、リーチを拡大する機会を特定します。 詳しくは、「[&#x200B; カスタムレポートに関するFAQ](/help/dsp/reports/faq-reports.md)」を参照してください。 ユニバーサル IDをターゲットとするプレースメントでは、データは使用できません。
 
   * **[!UICONTROL Margin]:**&#x200B;このレポートを使用して、キャンペーンまたはプレースメント別の利益率、利益、その他の支出指標などの主要指標を確認します。 ユニバーサル IDをターゲットとするプレースメントでは、データは使用できません。
 
@@ -158,7 +156,7 @@ ht-degree: 0%
 >* [&#x200B; カスタムレポートを作成](/help/dsp/reports/report-create.md)
 >* [&#x200B; カスタムレポートをダウンロード &#x200B;](/help/dsp/reports/report-download.md)
 >* [&#x200B; カスタムレポート設定](/help/dsp/reports/report-settings.md)
->* [世帯レポートに関するFAQ](/help/dsp/reports/faq-reports.md)
+>* カスタムレポートに関する[FAQ](/help/dsp/reports/faq-reports.md)
 >* [&#x200B; キャンペーン管理ビューのパフォーマンスレポートの種類](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [使用可能なレポート列](/help/dsp/reports/report-columns.md)
 >* [&#x200B; レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md)
