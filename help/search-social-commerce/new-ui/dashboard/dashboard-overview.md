@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 0%
@@ -41,21 +41,21 @@ ht-degree: 0%
 
 * （オプション）すべてのレポートに適用されるポートフォリオを変更します。
 
-   1. **[!UICONTROL Select Portfolios]**&#x200B;の横にある現在のパラメーターをクリックします。
+  1. **[!UICONTROL Select Portfolios]**&#x200B;の横にある現在のパラメーターをクリックします。
 
-   1. （オプション） **[!UICONTROL Select by]**&#x200B;の横で、ポートフォリオの選択方法を選択します。
+  1. （オプション） **[!UICONTROL Select by]**&#x200B;の横で、ポートフォリオの選択方法を選択します。
 
-      * *[!UICONTROL All Portfolios]* （既定値）：指定したポートフォリオに関するレポート。 指定された&#x200B;**[!UICONTROL Currency].**&#x200B;を変更することで、ポートフォリオのリストをオプションでフィルタリングできます デフォルトでは、USDを使用するすべてのポートフォリオが選択されています。
+     * *[!UICONTROL All Portfolios]* （既定値）：指定したポートフォリオに関するレポート。 指定された&#x200B;**[!UICONTROL Currency].**&#x200B;を変更することで、ポートフォリオのリストをオプションでフィルタリングできます デフォルトでは、USDを使用するすべてのポートフォリオが選択されています。
 
-      * *[!UICONTROL Portfolio Groups]:*&#x200B;指定された&#x200B;**[!UICONTROL Portfolio Group].**&#x200B;の指定されたポートフォリオに関するレポート 指定された&#x200B;**[!UICONTROL Currency].**&#x200B;を変更することで、ポートフォリオのリストをオプションでフィルタリングできます デフォルトでは、指定したポートフォリオグループでUSDを使用しているすべてのポートフォリオが選択されます。
+     * *[!UICONTROL Portfolio Groups]:*&#x200B;指定された&#x200B;**[!UICONTROL Portfolio Group].**&#x200B;の指定されたポートフォリオに関するレポート 指定された&#x200B;**[!UICONTROL Currency].**&#x200B;を変更することで、ポートフォリオのリストをオプションでフィルタリングできます デフォルトでは、指定したポートフォリオグループでUSDを使用しているすべてのポートフォリオが選択されます。
 
-      * *[!UICONTROL Objectives]:*&#x200B;指定された&#x200B;**[!UICONTROL Objective].**&#x200B;の指定されたポートフォリオに関するレポート . 指定した&#x200B;**[!UICONTROL Currency].**&#x200B;を変更して、ポートフォリオのリストを任意に絞り込むことができます デフォルトでは、指定した目的でUSDを使用するすべてのポートフォリオが選択されます。
+     * *[!UICONTROL Objectives]:*&#x200B;指定された&#x200B;**[!UICONTROL Objective].**&#x200B;の指定されたポートフォリオに関するレポート . 指定した&#x200B;**[!UICONTROL Currency].**&#x200B;を変更して、ポートフォリオのリストを任意に絞り込むことができます デフォルトでは、指定した目的を持つUSDを使用するすべてのポートフォリオが選択されます。
 
-   1. 「[!UICONTROL Selected Portfolios]」セクションにレポート対象のポートフォリオが一覧表示されるまで、必要に応じてポートフォリオの横にあるチェックボックスを選択して選択解除します。
+  1. 「[!UICONTROL Selected Portfolios]」セクションにレポート対象のポートフォリオが一覧表示されるまで、必要に応じてポートフォリオの横にあるチェックボックスを選択して選択解除します。
 
-   1. **[!UICONTROL Select]**&#x200B;をクリックします。
+  1. **[!UICONTROL Select]**&#x200B;をクリックします。
 
-* （オプション）すべてのレポート（*[!UICONTROL Daily]* \[ デフォルト\]、*[!UICONTROL Weekly]* \[日付範囲\]に適用される場合、または&#x200B;*[!UICONTROL Monthly]* \[日付範囲\]に適用される場合）のデータの精度を&#x200B;**[!UICONTROL Granularity]** メニューから変更します。
+* （オプション）すべてのレポートのデータ集計を変更（*[!UICONTROL Daily]* \[ デフォルト\]、*[!UICONTROL Weekly]* \[日付範囲に適用される場合\]、または&#x200B;*[!UICONTROL Monthly]* \[日付範囲に適用される場合\]）するには、**[!UICONTROL Data Aggregation]** メニューを使用します。
 
 * （オプション）すべてのレポートの日付範囲を&#x200B;**[!UICONTROL Date range]** メニューから変更します。 過去90日間のデータを含めることができます。 デフォルトは&#x200B;*[!UICONTROL Last 7 Days]*&#x200B;です。
 
@@ -63,8 +63,8 @@ ht-degree: 0%
 
 * （[!UICONTROL Biggest Movers] レポート；任意）次のいずれかの操作を行います。
 
-   * 報告されたエンティティを変更します。 現在のオプションは&#x200B;*[!UICONTROL Portfolio]*&#x200B;のみです。
+  * 報告されたエンティティを変更します。 現在のオプションは&#x200B;*[!UICONTROL Portfolio]*&#x200B;のみです。
 
-   * レポートされる指標（[!UICONTROL Cost] \[ デフォルトで選択\]、[!UICONTROL Clicks]または[!UICONTROL Objective Value]）を変更します。
+  * レポートされる指標（[!UICONTROL Cost] \[ デフォルトで選択\]、[!UICONTROL Clicks]または[!UICONTROL Objective Value]）を変更します。
 
-   * [!UICONTROL Portfolios] ビューを開くには、グラフの右下にある&#x200B;**[!UICONTROL View More]**&#x200B;をクリックします。<!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
+  * [!UICONTROL Portfolios] ビューを開くには、グラフの右下にある&#x200B;**[!UICONTROL View More]**&#x200B;をクリックします。<!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
