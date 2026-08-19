@@ -1,10 +1,15 @@
 ---
 title: AIが支援した[!UICONTROL Troubleshooting Agent]を使用して、パフォーマンスと配信の問題を診断します
 description: AI支援のトラブルシューティングエージェントを使用して、DSP パッケージとプレースメントの支出、ペーシング、配信の問題を診断する方法を説明します。
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 6032b798baa78c9c28196aa58024b8ed1061af9d
 workflow-type: tm+mt
 source-wordcount: 455
@@ -18,7 +23,7 @@ AI支援の[!UICONTROL Troubleshooting Agent]では、次のことが可能で�
 
 * 選択したライブパッケージまたはプレースメントのパフォーマンスと配信の問題の診断に役立ちます。 予算の課題（支出の失敗、低支出、過剰支出）、ペーシングの課題（過小評価、過小評価）、オークションと配信の課題（低入札、低成約率、インプレッションなし）、パフォーマンスの課題（CPA、ROAS、CTR、CVRの変更など）について質問できます。
 
-* [ エージェント チャット インターフェイス ](/help/dsp/agent-chat.md)と同じ方法で、[Advertising DSP ガイド ](/help/dsp/home.md)および[Advertising Creative ガイド ](/help/creative/home.md)のAdvertising Creative ガイド と（を使用している広告主）全体で概念コンテンツとハウツー情報を検索します。 キャンペーン管理、最適化、オーディエンス管理、セール情報、レポートなど、製品の機能について質問することができます。
+* [&#x200B; エージェント チャット インターフェイス &#x200B;](/help/dsp/agent-chat.md)と同じ方法で、[Advertising DSP ガイド &#x200B;](/help/dsp/home.md)および[Advertising Creative ガイド &#x200B;](/help/creative/home.md)のAdvertising Creative ガイド と（を使用している広告主）全体で概念コンテンツとハウツー情報を検索します。 キャンペーン管理、最適化、オーディエンス管理、セール情報、レポートなど、製品の機能について質問することができます。
 
 エージェントは、設定を変更したり、キャンペーンやキャンペーンコンポーネントを作成または編集したりすることはできません。 また、一時停止、完了、アーカイブ、スケジュールされたパッケージまたはプレースメントの問題を診断することはできません。
 
@@ -70,7 +75,7 @@ AI支援の[!UICONTROL Troubleshooting Agent]では、次のことが可能で�
 
    * （プレースメントの場合） サブメニューで、**[!UICONTROL Placements]**&#x200B;をクリックします。 プレースメント名の横にある「**[!UICONTROL ...]** > **[!UICONTROL Troubleshooting Agent]**」をクリックします。
 
-1. クエリを入力し、![送信プロンプト ](/help/dsp/assets/submit-prompt.png "送信プロンプト ")をクリックします。
+1. クエリを入力し、![送信プロンプト &#x200B;](/help/dsp/assets/submit-prompt.png "送信プロンプト ")をクリックします。
 
    <!-- For more information, see "[Writing prompts](#writing-prompts)." -->
 
