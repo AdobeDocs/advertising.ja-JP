@@ -3,9 +3,9 @@ title: （新しいUI）広告ネットワークへの目的のアップロー�
 description: ハイブリッドポートフォリオの目標をGoogle AdsとMicrosoft Advertisingにアップロードする方法について説明します。
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+source-git-commit: 4342b75f27a412803b0f96192e96cba9ebfbc347
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 *ハイブリッド最適化のみ有効な広告主*
 
-Search, Social, &amp; Commerceでは、広告主アカウントのポートフォリオの目標を[!DNL Google Ads]および[!DNL Microsoft Advertising]にアップロードできるため、ハイブリッド最適化に使用できます。 アップロードされた目標は、アカウントレベルおよびキャンペーンレベルのカスタムコンバージョン目標のコンバージョンアクションとして使用できます。
+Search, Social, &amp; Commerceでは、広告主アカウントのポートフォリオの目標を[!DNL Google Ads]および[!DNL Microsoft Advertising]にアップロードできるため、ハイブリッド最適化に使用できます。 アップロードされた目標は、アカウントレベルおよびキャンペーンレベルのカスタムコンバージョン目標のコンバージョンアクションとして使用できます。 ポートフォリオ設定の「[!UICONTROL Manage Objectives]」タブから、特定のポートフォリオの客観的な値データを広告ネットワークに送信しないように選択できます。
 
 このオプションを有効にすると、スマート入札戦略を含むキャンペーンを含むポートフォリオ内の目標のアップロードが自動的にトリガーされます。 Search, Social, &amp; Commerceは、該当する各目的に対して、広告ネットワーク上でコンバージョンを生み出します。 コンバージョンは、EF ID （クリック ID）レベルで、目的のすべての重み付けされたコンバージョン指標を表します。 [!DNL Google Ads] クリックの場合、EF IDは[!DNL Google Ads] `gclid`です。[!DNL Microsoft Advertising] クリックの場合、EF IDは[!DNL Microsoft Advertising] `msclkid`です。 このクリック IDにより、コンバージョンデータを特定のキーワードとクリック時間にマッピングできます。
 
@@ -40,7 +40,7 @@ Search, Social, &amp; Commerceでは、広告主アカウントのポートフ�
 
 1. [!UICONTROL Objective Upload Setup] ダイアログで、**[!UICONTROL Enable Objective Upload]** トグルを&#x200B;**[!UICONTROL On]**&#x200B;に設定します。
 
-1. （欧州経済地域（EEA）または英国（UK）でビジネスを行う[!DNL Google Ads]人のアカウントを持つ広告主。オプション）広告目的でデータをアップロードするためにEEAおよび英国のユーザーから同意を得た場合は、チェックボックスを選択して、EEA/英国のユーザーの同意が収集されたことを確認します。 これにより、同意ステータスが&#x200B;**[!UICONTROL GRANTED]**&#x200B;として[!DNL Google Ads]および[!DNL Microsoft Advertising]に送信されます。 チェックを外した場合、同意ステータスは&#x200B;**[!UICONTROL UNSPECIFIED]**&#x200B;として送信されます。
+1. （欧州経済地域（EEA）または英国（UK）でビジネスを行う[!DNL Google Ads] アカウントを持つ広告主。オプション）広告目的でデータをアップロードするためにEEAおよび英国のユーザーから同意を得ている場合は、チェックボックスを選択します。 これにより、同意ステータスが&#x200B;**[!UICONTROL GRANTED]**&#x200B;として[!DNL Google Ads]および[!DNL Microsoft Advertising]に送信されます。 チェックボックスを選択しない場合、同意ステータスは&#x200B;**[!UICONTROL UNSPECIFIED]**&#x200B;として送信されます。
 
 1. （コンバージョンがマネージャーのアカウントレベルで追跡されている場合） [保存する前にマネージャーのアカウントの資格情報](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)を追加します。
 
@@ -67,7 +67,7 @@ Search, Social, &amp; Commerceでは、広告主アカウントのポートフ�
 * 50 ダウンロード
 * 5 GGL_Lead
 
-GGL_LeadはGoogle Adsで追跡される指標であるため、計算/アップロードには含まれません。 したがって、重み付けされた目標値は（（10 x 25） + （500 x 1） + （50 x 0.5）） = 775として計算されます。
+GGL_Leadは[!DNL Google Ads]追跡された指標であるため、計算/アップロードに含まれていません。 したがって、重み付けされた目標値は（（10 x 25） + （500 x 1） + （50 x 0.5）） = 775として計算されます。
 
 >[!TIP]
 >
@@ -79,9 +79,9 @@ GGL_LeadはGoogle Adsで追跡される指標であるため、計算/アップ�
 
 * （[!DNL Google Ads]） コンバージョンをアカウントレベルまたはマネージャーレベルにアップロードする必要があるかどうかを確認します。 マネージャーレベルでアップロードする必要がある場合：
 
-   * [!DNL Google Ads] マネージャーアカウントの資格情報が提供されているかどうかを確認します。 必要に応じて、マネージャーアカウントの資格情報を[追加します](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)。
+  * [!DNL Google Ads] マネージャーアカウントの資格情報が提供されているかどうかを確認します。 必要に応じて、マネージャーアカウントの資格情報を[追加します](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)。
 
-   * 広告ネットワークアカウントに同じメトリック名が既に含まれているかどうかを確認します。 有効な場合は、指標の名前を変更して、適切なマネージャーレベルのプロパティを作成できるようにします。
+  * 広告ネットワークアカウントに同じメトリック名が既に含まれているかどうかを確認します。 有効な場合は、指標の名前を変更して、適切なマネージャーレベルのプロパティを作成できるようにします。
 
 * ポートフォリオの「ハイブリッド」オプションが選択されており、目的に有効な収益があることを確認します。
 

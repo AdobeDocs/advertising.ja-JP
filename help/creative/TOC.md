@@ -3,9 +3,9 @@ role: User
 user-guide-title: Advertising Creative ガイド
 user-guide-description: Advertising Creative を使用するために必要な主な機能、タスク、設定、その他のリソースについて学習します。
 breadcrumb-title: Creative ガイド
-source-git-commit: 0edb79512588498b323ffc4197da0612e2e6d3e6
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '428'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
   + [ポリシーとガイドライン](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
 + Creative Studio {#creative-studio}
   + [Creative Studioについて](/help/creative/creative-studio/creative-studio-about.md)
-  + [[!UICONTROL Creative Studio]のC2PA メタデータ](/help/creative/creative-studio/creative-studio-content-credentials.md)
+
   + [標準広告を管理](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
   + [動的クリエイティブの管理](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
   + [テンプレートの管理](/help/creative/creative-studio/creative-studio-manage-templates.md)

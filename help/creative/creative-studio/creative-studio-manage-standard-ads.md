@@ -8,7 +8,7 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
 source-wordcount: 1181
 ht-degree: 0%
@@ -39,19 +39,19 @@ ht-degree: 0%
 
    * **「[!UICONTROL Creatives]」タブから：**
 
-      1. メインメニューで、**[!UICONTROL Creative Studio]**&#x200B;をクリックします。
+     1. メインメニューで、**[!UICONTROL Creative Studio]**&#x200B;をクリックします。
 
-      1. **[!UICONTROL Creatives]** タブで、**[!UICONTROL Generate standard ads from templates]** クイックアクションカードの&#x200B;**[!UICONTROL Generate]**&#x200B;をクリックします。
+     1. **[!UICONTROL Creatives]** タブで、**[!UICONTROL Generate standard ads from templates]** クイックアクションカードの&#x200B;**[!UICONTROL Generate]**&#x200B;をクリックします。
 
-      1. テンプレート選択ダイアログで、テンプレートをクリックして選択し、**[!UICONTROL Use this template]**&#x200B;をクリックします。
+     1. テンプレート選択ダイアログで、テンプレートをクリックして選択し、**[!UICONTROL Use this template]**&#x200B;をクリックします。
 
    * （ディスプレイ広告のみ） **「[!UICONTROL Templates]」タブから：**
 
-      1. メインメニューで、**[!UICONTROL Creative Studio]**&#x200B;をクリックします。
+     1. メインメニューで、**[!UICONTROL Creative Studio]**&#x200B;をクリックします。
 
-      1. 「**[!UICONTROL Templates]**」タブをクリックします。
+     1. 「**[!UICONTROL Templates]**」タブをクリックします。
 
-      1. テンプレートカードの上にカーソルを置き、**[!UICONTROL ...]** > **[!UICONTROL Generate ad variations]**&#x200B;をクリックします。
+     1. テンプレートカードの上にカーソルを置き、**[!UICONTROL ...]** > **[!UICONTROL Generate ad variations]**&#x200B;をクリックします。
 
    [!UICONTROL Ad Variations Generator]が開きます。 キャンバスには、テンプレートの使用可能な広告フォーマットを含む&#x200B;**[!UICONTROL Template Sizes]** セクションと、生成されたコンテンツが表示される&#x200B;**[!UICONTROL Ad Concepts]** セクションが表示されます。
 
@@ -100,14 +100,14 @@ ht-degree: 0%
 
    * コンセプトを管理するには、コンセプトラベルの上にカーソルを置き（例：**[!UICONTROL Concept 3]**）、**[!UICONTROL ...]**&#x200B;をクリックしてから、オプションを選択します。
 
-      * **[!UICONTROL Add to chat]:**&#x200B;次のプロンプトでコンセプトを参照します。
-      * **[!UICONTROL Delete]:**&#x200B;概念を削除します。
+     * **[!UICONTROL Add to chat]:**&#x200B;次のプロンプトでコンセプトを参照します。
+     * **[!UICONTROL Delete]:**&#x200B;概念を削除します。
 
    * 個々のバリエーションを管理するには、バリエーション カードにカーソルを合わせて&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、次のオプションを選択します。
 
-      * **[!UICONTROL Add to Chat]:**&#x200B;次のプロンプトでバリエーションを参照します。 また、バリエーションのカード本文を直接クリックして、メンションを切り替えることもできます。
-      * **[!UICONTROL Edit Data]:** バリエーション **[!UICONTROL Name]**&#x200B;と、テンプレートで定義された各クリックタグのクリックスルーURLを更新できるダイアログが開きます。 **[!UICONTROL Save]**&#x200B;をクリックして適用します。
-      * **[!UICONTROL Delete]:** バリエーションを削除します。
+     * **[!UICONTROL Add to Chat]:**&#x200B;次のプロンプトでバリエーションを参照します。 また、バリエーションのカード本文を直接クリックして、メンションを切り替えることもできます。
+     * **[!UICONTROL Edit Data]:** バリエーション **[!UICONTROL Name]**&#x200B;と、テンプレートで定義された各クリックタグのクリックスルーURLを更新できるダイアログが開きます。 **[!UICONTROL Save]**&#x200B;をクリックして適用します。
+     * **[!UICONTROL Delete]:** バリエーションを削除します。
 
 1. 生成された概念に満足したら、ヘッダーの&#x200B;**[!UICONTROL Save Standard Ads]**&#x200B;をクリックします。
 
@@ -204,4 +204,3 @@ ht-degree: 0%
 >* [Creative Studioで動的なクリエイティブを管理](creative-studio-manage-dynamic-ads.md)
 >* [Creative Studioでテンプレートを管理](creative-studio-manage-templates.md)
 >* [Advertising Creativeでブランドプロファイルを管理](/help/creative/brands/brand-manage.md)
-

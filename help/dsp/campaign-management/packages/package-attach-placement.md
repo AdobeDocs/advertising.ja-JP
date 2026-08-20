@@ -12,7 +12,7 @@ subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: ee8a01e002bda7042e2c04f362ea9ba0276bdc69
 workflow-type: tm+mt
 source-wordcount: 209
 ht-degree: 0%
@@ -45,11 +45,11 @@ ht-degree: 0%
 
    * 新しいプレースメントを作成するには：
 
-      1. **[!UICONTROL Create New Placement]**&#x200B;をクリックします。
+     1. **[!UICONTROL Create New Placement]**&#x200B;をクリックします。
 
-      1. プレースメントの広告タイプを選択し、**[!UICONTROL Build this placement]**&#x200B;をクリックします。
+     1. プレースメントの広告タイプを選択し、**[!UICONTROL Build this placement]**&#x200B;をクリックします。
 
-      1. [&#x200B; プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)を入力し、**[!UICONTROL Create Placement]**&#x200B;をクリックします。
+     1. [&#x200B; プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)を入力し、**[!UICONTROL Create Placement]**&#x200B;をクリックします。
 
    * キャンペーン内の既存のプレースメントをアタッチするには：
 
@@ -57,13 +57,13 @@ ht-degree: 0%
      >
      >各プレースメントは、1つのパッケージにのみ含めることができます。 パッケージにまだ含まれていないプレースメントのみが一覧表示されます。
 
-      1. **[!UICONTROL Select a Placement].**&#x200B;をクリックします
+     1. **[!UICONTROL Select a Placement].**&#x200B;をクリックします
 
-      1. プレースメント名の横にある「**[!UICONTROL Select].**」をクリックします
+     1. プレースメント名の横にある「**[!UICONTROL Select].**」をクリックします
 
-      1. （オプション）添付する追加のプレースメントごとに、**[!UICONTROL Attach Another Placement]**&#x200B;をクリックし、手順1 ～ 2を繰り返します。
+     1. （オプション）添付する追加のプレースメントごとに、**[!UICONTROL Attach Another Placement]**&#x200B;をクリックし、手順1 ～ 2を繰り返します。
 
-      1. **[!UICONTROL I'm done for now]**&#x200B;をクリックします。
+     1. **[!UICONTROL I'm done for now]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
