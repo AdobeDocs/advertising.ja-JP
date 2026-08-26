@@ -3,9 +3,9 @@ title: （新しいUI）広告ネットワークへの目的のアップロー�
 description: ハイブリッドポートフォリオの目標をGoogle AdsとMicrosoft Advertisingにアップロードする方法について説明します。
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 4342b75f27a412803b0f96192e96cba9ebfbc347
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 *ハイブリッド最適化のみ有効な広告主*
 
-Search, Social, &amp; Commerceでは、広告主アカウントのポートフォリオの目標を[!DNL Google Ads]および[!DNL Microsoft Advertising]にアップロードできるため、ハイブリッド最適化に使用できます。 アップロードされた目標は、アカウントレベルおよびキャンペーンレベルのカスタムコンバージョン目標のコンバージョンアクションとして使用できます。 ポートフォリオ設定の「[!UICONTROL Manage Objectives]」タブから、特定のポートフォリオの客観的な値データを広告ネットワークに送信しないように選択できます。
+Search, Social, &amp; Commerceでは、広告主アカウントのポートフォリオの目標を[!DNL Google Ads]および[!DNL Microsoft Advertising]にアップロードできるため、ハイブリッド最適化に使用できます。 アップロードされた目標は、アカウントレベルおよびキャンペーンレベルのカスタムコンバージョン目標のコンバージョンアクションとして使用できます。<!-- You can opt not to send objective value data for a specific portfolio to ad networks from the [!UICONTROL Manage Objectives] tab in the portfolio settings. -->
 
 このオプションを有効にすると、スマート入札戦略を含むキャンペーンを含むポートフォリオ内の目標のアップロードが自動的にトリガーされます。 Search, Social, &amp; Commerceは、該当する各目的に対して、広告ネットワーク上でコンバージョンを生み出します。 コンバージョンは、EF ID （クリック ID）レベルで、目的のすべての重み付けされたコンバージョン指標を表します。 [!DNL Google Ads] クリックの場合、EF IDは[!DNL Google Ads] `gclid`です。[!DNL Microsoft Advertising] クリックの場合、EF IDは[!DNL Microsoft Advertising] `msclkid`です。 このクリック IDにより、コンバージョンデータを特定のキーワードとクリック時間にマッピングできます。
 
@@ -48,7 +48,7 @@ Search, Social, &amp; Commerceでは、広告主アカウントのポートフ�
 
 1. `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`という名前の各目的が2日以内に広告ネットワークに表示されることを確認します。
 
-   [!DNL Google Ads] エディターで、[&#x200B; コンバージョンアクション &#x200B;](https://support.google.com/google-ads/answer/11461796){target="_blank"}を検索します。 [!DNL Microsoft Advertising] エディターで、[&#x200B; コンバージョン目標](https://help.ads.microsoft.com/#apex/ads/en/56709){target="_blank"}を検索します。
+   [!DNL Google Ads] エディターで、[ コンバージョンアクション ](https://support.google.com/google-ads/answer/11461796){target="_blank"}を検索します。 [!DNL Microsoft Advertising] エディターで、[ コンバージョン目標](https://help.ads.microsoft.com/#apex/ads/en/56709){target="_blank"}を検索します。
 
    必要に応じて、アップロード日を含めるように日付範囲を更新します。
 
@@ -89,7 +89,7 @@ GGL_Leadは[!DNL Google Ads]追跡された指標であるため、計算/アッ
 >
 >* [目標について](objective-about.md)
 >* [広告主のコンバージョン指標を管理](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
->* [&#x200B; マネージャーアカウント &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)の資格情報の管理 [!DNL Google Ads] 
+>* [ マネージャーアカウント ](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)の資格情報の管理 [!DNL Google Ads] 
 
 <!--
 I don't see this yet in new UI:

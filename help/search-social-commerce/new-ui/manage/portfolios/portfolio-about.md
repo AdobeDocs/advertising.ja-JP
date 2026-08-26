@@ -5,18 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
 TQID: https://experienceleague.adobe.com/w-NpuD1q3atytkO8AL-ekUWzwhX3NHH-byW9ZIY7WdU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebef6e6f-6552-40b6-b842-0c5256698a4e
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: 729
+source-wordcount: 779
 ht-degree: 0%
 
 ---
@@ -29,7 +23,7 @@ ht-degree: 0%
 
 一部のユーザーの役割では、ポートフォリオを作成および設定できます。 ポートフォリオのタイプに応じて、ポートフォリオ設定には、ポートフォリオ目標、割り当てられたキャンペーン、支出戦略、ポートフォリオレベルの入札制約、モデリングおよび最適化パラメーターが含まれます。 Search, Social, &amp; Commerceでポートフォリオの最適化を開始する準備ができたら、ステータスを「最適化」に変更します。
 
-オプションでポートフォリオを[&#x200B; ポートフォリオグループ &#x200B;](portfolio-group-manage.md)にグループ化して、グループ全体の複合データを表示できます。
+オプションでポートフォリオを[ ポートフォリオグループ ](portfolio-group-manage.md)にグループ化して、グループ全体の複合データを表示できます。
 
 役割によっては、パフォーマンス シミュレーションを生成できる場合があります。予測モデリングを使用して、最適な支出項目と詳細な予測精度レポートを特定します。<!-- Mention this now? In addition, all users can use the Spend Recommendation Tool to identify the optimal budget distribution across portfolios. -->
 
@@ -64,11 +58,12 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolios] ビュー
 
-[!UICONTROL Portfolios] ビューには、フィルターされたビュー内の既存のポートフォリオがすべて一覧表示され、カスタマイズ可能なパフォーマンスデータが表示されます。 [&#x200B; ビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)内の列をカスタマイズし、データをフィルタリングして、ツールバー[または](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)列見出し[から特定のポートフォリオ &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)を含めることができます。
+[!UICONTROL Portfolios] ビューには、フィルターされたビュー内の既存のポートフォリオがすべて一覧表示され、カスタマイズ可能なパフォーマンスデータが表示されます。 [ ビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)内の列をカスタマイズし、データをフィルタリングして、ツールバー](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)から特定のポートフォリオ [を含めることができます。
 
-データテーブルの上では、指定した日付範囲のビュー内のすべてのポートフォリオをまたいで合計される最大3つの指標を含むパフォーマンスグラフを開くことができます。
+データテーブルの上では、指定した日付範囲のビュー内のすべてのポートフォリオをまたいで合計される最大3つの指標を含むパフォーマンスグラフを開くことができます。 また、ポートフォリオのパフォーマンスや正確性などのポートフォリオの詳細のほか、ポートフォリオ内の各キャンペーン、広告グループ、キーワードのパフォーマンスデータを開くこともできます。
 
-<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group, edit the Target column, or import/export DOW targets. -->
+ポートフォリオのステータスなど、一部の設定は、ポートフォリオ行で直接編集できます。
+<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
 
 ### 使用可能なアクション
 
@@ -95,11 +90,11 @@ ht-degree: 0%
 
 * [ポートフォリオパフォーマンスの詳細の表示](portfolio-details.md)
 
-* [&#x200B; データを[!UICONTROL Portfolios] ビューでダウンロード &#x200B;](portfolio-view-report.md)
+* [ データを[!UICONTROL Portfolios] ビューでダウンロード ](portfolio-view-report.md)
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ポートフォリオを作成](portfolio-create.md)
->* [&#x200B; ポートフォリオを複製](portfolio-duplicate.md)
->* [&#x200B; ポートフォリオの編集](portfolio-edit.md)
+>* [ ポートフォリオを作成](portfolio-create.md)
+>* [ ポートフォリオを複製](portfolio-duplicate.md)
+>* [ ポートフォリオの編集](portfolio-edit.md)
 >* [[!UICONTROL Portfolios] ビュー](portfolio-view-report.md)からデータビューレポートを管理
