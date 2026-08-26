@@ -48,7 +48,7 @@ Search, Social, &amp; Commerceでは、広告主アカウントのポートフ�
 
 1. `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`という名前の各目的が2日以内に広告ネットワークに表示されることを確認します。
 
-   [!DNL Google Ads] エディターで、[ コンバージョンアクション ](https://support.google.com/google-ads/answer/11461796){target="_blank"}を検索します。 [!DNL Microsoft Advertising] エディターで、[ コンバージョン目標](https://help.ads.microsoft.com/#apex/ads/en/56709){target="_blank"}を検索します。
+   [!DNL Google Ads] エディターで、[&#x200B; コンバージョンアクション &#x200B;](https://support.google.com/google-ads/answer/11461796){target="_blank"}を検索します。 [!DNL Microsoft Advertising] エディターで、[&#x200B; コンバージョン目標](https://help.ads.microsoft.com/#apex/ads/en/56709){target="_blank"}を検索します。
 
    必要に応じて、アップロード日を含めるように日付範囲を更新します。
 
@@ -89,7 +89,7 @@ GGL_Leadは[!DNL Google Ads]追跡された指標であるため、計算/アッ
 >
 >* [目標について](objective-about.md)
 >* [広告主のコンバージョン指標を管理](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
->* [ マネージャーアカウント ](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)の資格情報の管理 [!DNL Google Ads] 
+>* [&#x200B; マネージャーアカウント &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)の資格情報の管理 [!DNL Google Ads] 
 
 <!--
 I don't see this yet in new UI:
