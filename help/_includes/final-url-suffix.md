@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Adobe Advertising コンバージョントラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック識別子（[!DNL Microsoft Advertising]の場合は`msclkid`、[!DNL Google Ads]の場合は`gclid`）を含める必要があります。
 
-Adobe Analytics統合を持つアカウントでは、[AMO ID](/help/integrations/analytics/ids.md) パラメーターを使用する必要があります。 アカウントにサーバーサイド AMO ID実装がある場合、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、ここで手動で追加する必要があります。  [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の[必要なサフィックス形式を参照してください。
+Adobe Analytics統合を持つアカウントでは、[AMO ID](/help/integrations/analytics/ids.md) パラメーターを使用する必要があります。 アカウントにサーバーサイド AMO ID実装がある場合、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、ここで手動で追加する必要があります。  [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の必要なサフィックス形式を参照してください。
 
 >[!NOTE]
 >
