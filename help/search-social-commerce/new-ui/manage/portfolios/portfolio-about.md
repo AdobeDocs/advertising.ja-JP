@@ -14,9 +14,9 @@ topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: 729
+source-wordcount: 779
 ht-degree: 0%
 
 ---
@@ -64,11 +64,12 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolios] ビュー
 
-[!UICONTROL Portfolios] ビューには、フィルターされたビュー内の既存のポートフォリオがすべて一覧表示され、カスタマイズ可能なパフォーマンスデータが表示されます。 [&#x200B; ビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)内の列をカスタマイズし、データをフィルタリングして、ツールバー[または](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)列見出し[から特定のポートフォリオ &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)を含めることができます。
+[!UICONTROL Portfolios] ビューには、フィルターされたビュー内の既存のポートフォリオがすべて一覧表示され、カスタマイズ可能なパフォーマンスデータが表示されます。 [&#x200B; ビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)内の列をカスタマイズし、データをフィルタリングして、ツールバー[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)から特定のポートフォリオ を含めることができます。
 
-データテーブルの上では、指定した日付範囲のビュー内のすべてのポートフォリオをまたいで合計される最大3つの指標を含むパフォーマンスグラフを開くことができます。
+データテーブルの上では、指定した日付範囲のビュー内のすべてのポートフォリオをまたいで合計される最大3つの指標を含むパフォーマンスグラフを開くことができます。 また、ポートフォリオのパフォーマンスや正確性などのポートフォリオの詳細のほか、ポートフォリオ内の各キャンペーン、広告グループ、キーワードのパフォーマンスデータを開くこともできます。
 
-<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group, edit the Target column, or import/export DOW targets. -->
+ポートフォリオのステータスなど、一部の設定は、ポートフォリオ行で直接編集できます。
+<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
 
 ### 使用可能なアクション
 

@@ -18,9 +18,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cffcb243a4e2274b3e064548730d6c899831ec9d
+source-git-commit: 8321f27c6fb89234646119b3a34470d08ecec6c8
 workflow-type: tm+mt
-source-wordcount: 5013
+source-wordcount: 4986
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 1%
 
 | 日付 | 機能 | 説明 | 詳細 |
 | ---- | ------- | ----------- | -------------------- |
-| 8月19日（PT） | [!UICONTROL Objective Upload]、[!UICONTROL Portfolio]設定 | ポートフォリオ設定の「[!UICONTROL Manage Objectives]」タブから、特定のポートフォリオの客観的な値データを広告ネットワークに送信しないように選択できるようになりました。 | — |
 | 2026年7月29日 | [!UICONTROL Campaigns], [!UICONTROL Reports] | （[!DNL Google Ads] アカウント）次のAI Max サポートが、検索ネットワーク上のGoogle Ads キャンペーンの新しいUIで利用できるようになりました。<ul><li>管理/キャンペーンでAIの最大有効なキャンペーンを作成および管理できます。 キャンペーン設定には、AI Maxを有効にするオプション、自動テキストカスタマイズ、最終的なURL拡張を含む新しい「AI Max」タブが含まれます。 また、広告グループが地理的興味関心ターゲットを使用しているかどうかも確認できます。</li><li>AIが最大有効なキャンペーンの広告グループは、管理/広告グループで作成および管理できます。 設定には、キーワードレス検索キーワードの一致やターゲットとなる場所が含まれます。</li><li>AIで生成されたクリエイティブアセットは、Assets / Creativeで利用できます。 このビューから、関連する広告グループからテキストアセットを削除できます。</li><li>新しい[!UICONTROL Asset Report]には、AI Max対応キャンペーンでAIが生成した各アセットのアセットレベルのパフォーマンスデータが含まれます。 このレポートには、Adobe Analyticsのコンバージョンは含まれていません。</li></ul> | 「[&#x200B; キャンペーンの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)」および「[[!DNL Google Ads]  キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)」、「[広告グループの管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)」および「[[!DNL Google Ads] 広告グループ設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)」、「[&#x200B; クリエイティブアセットの表示と作成](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)」を参照してください。 と「[The [!UICONTROL Asset Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/asset-report.md)」。 |
 | 2026年6月9日（PT） | Adobe Customer Journey Analyticsとの連携 | Customer Journey Analyticsを使用しているが[!DNL Analytics for Advertising]ではない広告主は、Adobe Experience Platform [!DNL Web SDK]を使用してAdobe AdvertisingとCustomer Journey Analytics間でデータをネイティブに交換できます。 | 「[Adobe AdvertisingとCustomer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)の連携の概要」を参照してください。 |
 | 2026年5月28日（PT） | 新規UI | スケジュール済みレポート、スプレッドシート フィード、バルクシート、ネットワークマネージャーアカウント、および[!DNL Spend Planner] （旧称「[!DNL Spend Recommendations]」）など、ほとんどの機能が新しいUIで利用できるようになりました。 | 「[&#x200B; ユーザーインターフェイスの構成方法](/help/search-social-commerce/getting-started/user-interface.md)」および「新しいUI」の章を参照してください。 |
