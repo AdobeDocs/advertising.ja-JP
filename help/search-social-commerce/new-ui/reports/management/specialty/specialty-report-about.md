@@ -2,9 +2,9 @@
 title: 特殊レポートについて
 description: 特殊レポートについて詳しく見る。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: b5fadff06a523e2b1b248c2d262cbd6cd03669c3
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ほとんどの特殊レポートでは、データは前日の23:00 （午後11:00）にプルされます。 得ることができます。 例えば、6月18日の23:00に、6月17日のデータを取得します。 6月18日のデータが取り込まれる前の6月19日（09:00）にレポートを実行すると、レポートには6月17日（23:00）までのデータが含まれます。 このデータ同期は、すべての[!DNL Google Ads]専門性レポートと[!UICONTROL Bing Ads Geo Report]および[!UICONTROL Bing Ads Search Query Report]に適用されます。
+>ほとんどの特殊レポートでは、前日の23:00 （午後11:00）にデータが取得されます。 得ることができます。 例えば、6月18日の23:00に、6月17日のデータを取得します。 6月19日の09:00 （6月18日のデータが取得される前）にレポートを実行すると、レポートには6月17日の23:00までのデータが含まれます。 このデータ同期は、すべての[!DNL Google Ads]専門性レポートと[!UICONTROL Bing Ads Geo Report]および[!UICONTROL Bing Ads Search Query Report]に適用されます。
 
 ## 特殊レポートの種類
 
@@ -34,6 +34,12 @@ ht-degree: 0%
 * [ザ [!UICONTROL Bing Ads Search Query Report]](bing-ads-search-query-report.md)
 
 * [ザ [!UICONTROL Campaign Daily Impression Share Report]](campaign-daily-impression-share-report.md)
+
+* [ザ [!UICONTROL Google AI Max Search Term Combination Report]](google-ai-max-search-term-combination-report.md)
+
+* [ザ [!UICONTROL Google Asset Group Performance Report]](google-asset-group-performance-report.md)
+
+* [ザ [!UICONTROL Google Performance Max Placement Report]](google-performance-max-placement-report.md)
 
 * [ザ [!UICONTROL Keyword Daily Impression Share Report]](keyword-daily-impression-share-report.md)
 
