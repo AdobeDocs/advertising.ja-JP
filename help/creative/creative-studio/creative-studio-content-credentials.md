@@ -60,7 +60,7 @@ ht-degree: 2%
 
 ## 関連資料
 
-* [&#x200B; [!DNL Adobe CX Enterprise]の生成AI コンテンツの透明性](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [&#x200B; [!DNL Adobe CX Enterprise]の生成AI コンテンツの透明性](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
 
 * [生成AI ユーザーガイドラインが[!DNL Adobe]件](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
