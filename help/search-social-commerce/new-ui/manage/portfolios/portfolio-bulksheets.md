@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 433
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 0%
 * フィールドの編集に関する情報を含む、読み取り専用の[!UICONTROL Instructions] ワークシート。
 
 * 含まれるポートフォリオごとに1行の[!UICONTROL Portfolio Settings Edit] タブ。 必要に応じてフィールドを編集し、ファイルをローカルに保存した後、編集したファイル [&#128279;](#portfolio-bulksheet-upload)をSearch, Social, &amp; Commerceにアップロードすることもできます。 編集可能なフィールドがカラーでハイライト表示されます。
+
+この機能は、日次、週次、月次、および曜日の支出戦略を持つポートフォリオで使用できます。
 
 ## ポートフォリオ設定を含むバルクシートファイルのダウンロード
 
@@ -47,7 +49,7 @@ ht-degree: 0%
 
 ## 更新されたポートフォリオ設定を含むバルクシートファイルのアップロード {#portfolio-bulksheet-upload}
 
-ファイルはXLSX形式である必要があります。
+ファイルはXLSX形式で、ファイルサイズは1 KBから1 MBの間で、ファイル名の最大長は100文字である必要があります。
 
 1. データテーブルの上にあるツールバーで、![一括操作](/help/search-social-commerce/assets/chevron-down.png "一括操作") > **[!UICONTROL Import Portfolio Details]**&#x200B;をクリックします。
 

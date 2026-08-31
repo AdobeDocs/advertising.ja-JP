@@ -16,9 +16,9 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3a493b159d0cb6a1216f6d795e33a2173cfd9e1b
+source-git-commit: d2b474e24ef2dbf951ea40c42497f6d6d37993ee
 workflow-type: tm+mt
-source-wordcount: 283
+source-wordcount: 321
 ht-degree: 0%
 
 ---
@@ -27,8 +27,11 @@ ht-degree: 0%
 
 *Advertising DSPおよび[!DNL Advertising Search, Social, & Commerce]*&#x200B;の広告主
 
+* （Customer Journey Analyticsを使用しているが[!DNL Analytics for Advertising]ではない広告主）:
 
-* （Customer Journey Analyticsを使用しているが[!DNL Analytics for Advertising]を使用していない広告主） [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) バージョン 2.36以降。
+  * [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) バージョン 2.36以降。
+
+  * [Adobe Experience Platform タグ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home) （バージョン 2.37以降の[[!DNL Web SDK] 拡張機能](https://experienceleague.adobe.com/ja/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension)を含む）。
 
 * Adobe Customer Journey Analyticsからデータ管理ツールにアクセス
 
@@ -45,7 +48,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [概要](overview.md)
->*  [!DNL Customer Journey Analytics][&#128279;](ids.md)様が使用しているAdobe Advertising ID
+>*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)様が使用しているAdobe Advertising ID
 >* [&#x200B; データ収集、データ転送、レポートの設定](set-up.md)
 >* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション &#x200B;](advertising-data-in-cja.md)
 >* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用するAMO IDとEF IDの履歴データを収集](/help/integrations/analytics/rvars-to-evars.md)。
