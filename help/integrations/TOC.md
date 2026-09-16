@@ -4,34 +4,32 @@ user-guide-description: Advertising DSPとAdvertisingの連携について説明
 breadcrumb-title: Cx Enterpriseとの統合
 role: User, Developer
 index: true
-source-git-commit: de60dcf0a1f0e5d751fb4e85a6e64bca22fadc8b
+source-git-commit: 49214a600892e2c3c6aa323c9c50f2862a92c7b0
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '267'
 ht-degree: 1%
-
 ---
-
 
 # Adobe AdvertisingとAdobe CX Enterpriseの統合 {#integrations}
 
 + [新機能](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
-  + [&#x200B; [!DNL Analytics for Advertising]の概要](/help/integrations/analytics/overview.md)
-  + [&#x200B; [!DNL Analytics]様が使用しているAdobe Advertising ID](/help/integrations/analytics/ids.md)
+  + [ [!DNL Analytics for Advertising]の概要](/help/integrations/analytics/overview.md)
+  + [ [!DNL Analytics]様が使用しているAdobe Advertising ID](/help/integrations/analytics/ids.md)
   + Adobe Experience Manager Sites導入の成功に向けて {#planning}
-    + [&#x200B; [!DNL Analytics for Advertising]を実装するための前提条件と主要情報](/help/integrations/analytics/prerequisites.md)
+    + [ [!DNL Analytics for Advertising]を実装するための前提条件と主要情報](/help/integrations/analytics/prerequisites.md)
     + [（DSP）  [!DNL Analytics for Advertising]のJavaScript コード](/help/integrations/analytics/javascript.md)
     + [Adobe Experience Platform [!DNL Web SDK]での [!DNL Last Event Service] JavaScript ライブラリの使用](/help/integrations/analytics/web-sdk.md)
     + [Adobe Customer Journey Analyticsで使用するAMO IDとEF IDの履歴データを収集する](/help/integrations/analytics/rvars-to-evars.md)
     + （DSP）広告タグのマクロ {#macros}
-      + [&#x200B; [!DNL Analytics for Advertising]  マクロを [!DNL Flashtalking] 広告タグに追加](/help/integrations/analytics/macros-flashtalking.md)
-      + [&#x200B; [!DNL Analytics for Advertising]  マクロを [!DNL Google Campaign Manager 360] 広告タグに追加](/help/integrations/analytics/macros-google-campaign-manager.md)
+      + [ [!DNL Analytics for Advertising]  マクロを [!DNL Flashtalking] 広告タグに追加](/help/integrations/analytics/macros-flashtalking.md)
+      + [ [!DNL Analytics for Advertising]  マクロを [!DNL Google Campaign Manager 360] 広告タグに追加](/help/integrations/analytics/macros-google-campaign-manager.md)
   + データ交換 {#data}
     + [Analysis WorkspaceのAdobe Advertising指標](/help/integrations/analytics/advertising-metrics-in-analytics.md)
     + [Adobe Advertisingの[!DNL Analytics] データ](/help/integrations/analytics/analytics-data-in-advertising.md)
-    + [&#x200B; [!DNL Analytics] とAdobe Advertisingの間の予想されるデータの差異](/help/integrations/analytics/data-variances.md)
+    + [ [!DNL Analytics] とAdobe Advertisingの間の予想されるデータの差異](/help/integrations/analytics/data-variances.md)
   + [!DNL Analytics Marketing Channels]で作業中 {#mc}
-    + [&#x200B; [!DNL Marketing Channels]の基本](/help/integrations/analytics/marketing-channels/mc-overview.md)
+    + [ [!DNL Marketing Channels]の基本](/help/integrations/analytics/marketing-channels/mc-overview.md)
     + [Adobe Advertising IDを使用して [!DNL Marketing Channels] 処理ルールを作成する](/help/integrations/analytics/marketing-channels/mc-ids.md)
     + [Adobe Advertising データで [!DNL Marketing Channels] を使用する](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
     + [Adobe Advertisingと [!DNL Marketing Channels]でチャネルデータが異なる理由](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
@@ -54,7 +52,4 @@ ht-degree: 1%
   + [データ収集、データ転送、レポートの設定](/help/integrations/customer-journey-analytics/set-up.md)
   + [Customer Journey AnalyticsのAdobe Advertising指標とディメンション](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
   + [トラブルシューティング](/help/integrations/customer-journey-analytics/troubleshooting.md)
-  + {hide-from-toc}[&#x200B; トラブルシューティング &#x200B;](/help/integrations/customer-journey-analytics/troubleshooting-new.md)
-  + {hide-from-toc}[&#x200B; トラブルシューティング &#x200B;](/help/integrations/customer-journey-analytics/troubleshooting-new-accordian.md)
-  + {hide-from-toc}[&#x200B; トラブルシューティング &#x200B;](/help/integrations/customer-journey-analytics/troubleshooting-new-tables.md)
-+ [Adobe Advertising統合に関するビデオチュートリアル](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ja)
++ [Adobe Advertising統合に関するビデオチュートリアル](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)
