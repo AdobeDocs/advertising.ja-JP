@@ -7,18 +7,20 @@ exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
 TQID: https://experienceleague.adobe.com/tKCeMIgFKnW8hOU-6uavT9x7K9lL2Uqo2bWZ-H-Q5TE
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
+    internal-label: Optimization
+source-git-commit: 8cf70396fd75bf14a6723aeb86db9c48b57c55ce
 workflow-type: tm+mt
-source-wordcount: 433
+source-wordcount: '433'
 ht-degree: 0%
-
 ---
-
 # バルクシートファイルを使用したポートフォリオ設定の一括編集
 
 *Beta機能*
@@ -27,7 +29,7 @@ ht-degree: 0%
 
 * フィールドの編集に関する情報を含む、読み取り専用の[!UICONTROL Instructions] ワークシート。
 
-* 含まれるポートフォリオごとに1行の[!UICONTROL Portfolio Settings Edit] タブ。 必要に応じてフィールドを編集し、ファイルをローカルに保存した後、編集したファイル [&#128279;](#portfolio-bulksheet-upload)をSearch, Social, &amp; Commerceにアップロードすることもできます。 編集可能なフィールドがカラーでハイライト表示されます。
+* 含まれるポートフォリオごとに1行の[!UICONTROL Portfolio Settings Edit] タブ。 必要に応じてフィールドを編集し、ファイルをローカルに保存した後、編集したファイル ](#portfolio-bulksheet-upload)をSearch, Social, &amp; Commerceにアップロードすることもできます。 [編集可能なフィールドがカラーでハイライト表示されます。
 
 この機能は、日次、週次、月次、および曜日の支出戦略を持つポートフォリオで使用できます。
 
@@ -59,7 +61,7 @@ ht-degree: 0%
 
    1. **[!UICONTROL Import]**&#x200B;をクリックします。
 
-アップロードのステータスは、日付範囲セレクターの横にある[!UICONTROL Global Sync Status] ボタン（![&#x200B; グローバル同期ステータス &#x200B;](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ")）から確認できます。 いずれかの変更が成功しなかった場合は、失敗した内容を示すエラーファイルをダウンロードできます。
+アップロードのステータスは、日付範囲セレクターの横にある[!UICONTROL Global Sync Status] ボタン（![ グローバル同期ステータス ](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ")）から確認できます。 いずれかの変更が成功しなかった場合は、失敗した内容を示すエラーファイルをダウンロードできます。
 
 通知も通知センターに追加され、[!UICONTROL Global Sync Status] ボタン （![グローバル同期ステータス](/help/search-social-commerce/assets/global-sync-status.png "グローバル同期ステータス")）の横にある![通知](/help/search-social-commerce/assets/notifications-new.png "通知") アイコンから通知ペインを開くことができます。
 
@@ -90,11 +92,13 @@ ht-degree: 0%
 | Max. Target CPA |  |  |
 | Min. Target ROAS |  |  |
 | Max. Target ROAS |  |  |
+| Enable Intraday for Smart Portfolios |  |  |
+| Upload Excluded |  |  |
 
 -->
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [&#x200B; ポートフォリオを作成](portfolio-create.md)
->* [&#x200B; （新しいUI） ポートフォリオについて](portfolio-about.md)
+>* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [ ポートフォリオを作成](portfolio-create.md)
+>* [ （新しいUI） ポートフォリオについて](portfolio-about.md)
