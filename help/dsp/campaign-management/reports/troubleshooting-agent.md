@@ -34,7 +34,7 @@ AIを活用した[!UICONTROL Troubleshooting Agent]は、パフォーマンス�
 
   エージェントは、設定を変更したり、キャンペーンやキャンペーンコンポーネントを作成または編集したりすることはできません。 また、一時停止、完了、アーカイブ、スケジュールされたパッケージまたはプレースメントの問題を診断することはできません。
 
-* [ エージェント チャット インターフェイス ](/help/dsp/agent-chat.md)と同じ方法で、[Advertising DSP ガイド ](/help/dsp/home.md)および[Advertising Creative ガイド ](/help/creative/home.md)のAdvertising Creative ガイド と（を使用している広告主）全体で概念コンテンツとハウツー情報を検索します。 キャンペーン管理、最適化、オーディエンス管理、セール情報、レポートなど、製品の機能について質問することができます。
+* [&#x200B; エージェント チャット インターフェイス &#x200B;](/help/dsp/agent-chat.md)と同じ方法で、[Advertising DSP ガイド &#x200B;](/help/dsp/home.md)および[Advertising Creative ガイド &#x200B;](/help/creative/home.md)のAdvertising Creative ガイド と（を使用している広告主）全体で概念コンテンツとハウツー情報を検索します。 キャンペーン管理、最適化、オーディエンス管理、セール情報、レポートなど、製品の機能について質問することができます。
 
 >[!IMPORTANT]
 >
@@ -98,7 +98,7 @@ AIを活用した[!UICONTROL Troubleshooting Agent]は、パフォーマンス�
 
    * （プレースメントの場合） サブメニューで、**[!UICONTROL Placements]**&#x200B;をクリックします。 プレースメント名の横にある「**[!UICONTROL ...]** > **[!UICONTROL Troubleshooting Agent]**」をクリックします。
 
-1. クエリを入力し、![送信プロンプト ](/help/dsp/assets/submit-prompt.png "送信プロンプト ")をクリックします。
+1. クエリを入力し、![送信プロンプト &#x200B;](/help/dsp/assets/submit-prompt.png "送信プロンプト ")をクリックします。
 
    <!-- For more information, see "[Writing prompts](#writing-prompts)." -->
 

@@ -29,7 +29,7 @@ ht-degree: 0%
 
 * フィールドの編集に関する情報を含む、読み取り専用の[!UICONTROL Instructions] ワークシート。
 
-* 含まれるポートフォリオごとに1行の[!UICONTROL Portfolio Settings Edit] タブ。 必要に応じてフィールドを編集し、ファイルをローカルに保存した後、編集したファイル ](#portfolio-bulksheet-upload)をSearch, Social, &amp; Commerceにアップロードすることもできます。 [編集可能なフィールドがカラーでハイライト表示されます。
+* 含まれるポートフォリオごとに1行の[!UICONTROL Portfolio Settings Edit] タブ。 必要に応じてフィールドを編集し、ファイルをローカルに保存した後、編集したファイル [&#128279;](#portfolio-bulksheet-upload)をSearch, Social, &amp; Commerceにアップロードすることもできます。 編集可能なフィールドがカラーでハイライト表示されます。
 
 この機能は、日次、週次、月次、および曜日の支出戦略を持つポートフォリオで使用できます。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    1. **[!UICONTROL Import]**&#x200B;をクリックします。
 
-アップロードのステータスは、日付範囲セレクターの横にある[!UICONTROL Global Sync Status] ボタン（![ グローバル同期ステータス ](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ")）から確認できます。 いずれかの変更が成功しなかった場合は、失敗した内容を示すエラーファイルをダウンロードできます。
+アップロードのステータスは、日付範囲セレクターの横にある[!UICONTROL Global Sync Status] ボタン（![&#x200B; グローバル同期ステータス &#x200B;](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ")）から確認できます。 いずれかの変更が成功しなかった場合は、失敗した内容を示すエラーファイルをダウンロードできます。
 
 通知も通知センターに追加され、[!UICONTROL Global Sync Status] ボタン （![グローバル同期ステータス](/help/search-social-commerce/assets/global-sync-status.png "グローバル同期ステータス")）の横にある![通知](/help/search-social-commerce/assets/notifications-new.png "通知") アイコンから通知ペインを開くことができます。
 
@@ -99,6 +99,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [ ポートフォリオを作成](portfolio-create.md)
->* [ （新しいUI） ポートフォリオについて](portfolio-about.md)
+>* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [&#x200B; ポートフォリオを作成](portfolio-create.md)
+>* [&#x200B; （新しいUI） ポートフォリオについて](portfolio-about.md)
