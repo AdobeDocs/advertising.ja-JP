@@ -4,13 +4,11 @@ user-guide-description: Advertising DSPとAdvertisingの連携について説明
 breadcrumb-title: Cx Enterpriseとの統合
 role: User, Developer
 index: true
-source-git-commit: de60dcf0a1f0e5d751fb4e85a6e64bca22fadc8b
+source-git-commit: 49214a600892e2c3c6aa323c9c50f2862a92c7b0
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '267'
 ht-degree: 1%
-
 ---
-
 
 # Adobe AdvertisingとAdobe CX Enterpriseの統合 {#integrations}
 
@@ -54,7 +52,4 @@ ht-degree: 1%
   + [データ収集、データ転送、レポートの設定](/help/integrations/customer-journey-analytics/set-up.md)
   + [Customer Journey AnalyticsのAdobe Advertising指標とディメンション](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
   + [トラブルシューティング](/help/integrations/customer-journey-analytics/troubleshooting.md)
-  + {hide-from-toc}[&#x200B; トラブルシューティング &#x200B;](/help/integrations/customer-journey-analytics/troubleshooting-new.md)
-  + {hide-from-toc}[&#x200B; トラブルシューティング &#x200B;](/help/integrations/customer-journey-analytics/troubleshooting-new-accordian.md)
-  + {hide-from-toc}[&#x200B; トラブルシューティング &#x200B;](/help/integrations/customer-journey-analytics/troubleshooting-new-tables.md)
 + [Adobe Advertising統合に関するビデオチュートリアル](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ja)
