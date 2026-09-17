@@ -6,17 +6,18 @@ breadcrumb-title: Adobe Advertising Search, Social & Commerce ガイド
 index: true
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
+    internal-label: User
+source-git-commit: 19e8de1ab13ab8a5451702e6130219277cf09631
 workflow-type: tm+mt
-source-wordcount: 2396
+source-wordcount: '2396'
 ht-degree: 2%
-
 ---
-
 # Adobe Advertising Search, Social &amp; Commerce ガイド {#search-social-commerce}
 
 + [新機能](home.md)
@@ -121,7 +122,7 @@ ht-degree: 2%
       + 広告ネットワーク別のキャンペーン設定 {#campaign-settings-by-network}
         + [[!DNL Baidu] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
         + [[!DNL Google Ads] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
-        + [[!DNL LY Ads] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yahoo-japan.md)
+        + [[!DNL LY Ads] キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
         + [[!DNL Microsoft Advertising] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
         + [[!DNL Yandex] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)
     + 広告グループ {#ad-groups}
@@ -129,7 +130,7 @@ ht-degree: 2%
       + 広告ネットワーク別の広告グループ設定 {#ad-group-settings-by-network}
         + [[!DNL Baidu]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
         + [[!DNL Google Ads]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
-        + [[!DNL LY Ads]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yahoo-japan.md)
+        + [[!DNL LY Ads]広告グループの設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
         + [[!DNL Microsoft Advertising]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
         + [[!DNL Yandex]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)
     + 広告 {#ads}
