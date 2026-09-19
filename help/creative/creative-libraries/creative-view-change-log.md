@@ -1,32 +1,31 @@
 ---
-title: クリエイティブの変更ログの表示
-description: 指定した時間範囲（変更を加えたユーザーを含む）でのクリエイティブに対する変更に関する詳細を表示する方法を説明します。
+title: クリエイティブの変更ログを表示する
+description: 変更を加えたユーザーを含め、指定した時間範囲におけるクリエイティブの変更に関する詳細を表示する方法について説明します。
 feature: Creative Standard Creatives
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+exl-id: 3ab23f6f-9f40-4478-aebb-8f70105c5c1c
+source-git-commit: 29a679e99560c6776932f5da2d06fa0331c934a8
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
-
 ---
+# クリエイティブの変更ログを表示する
 
-# クリエイティブの変更ログの表示
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
 
-1. メインメニューで、**[!UICONTROL Creative]**/**[!UICONTROL Creative Libraries]** をクリックします。
-
-1. （任意） [&#x200B; ビューをカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md) して、特定のライブラリを含めます。
+1. （オプション） [特定のライブラリを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
 
 1. ライブラリ名をクリックします。
 
-1. [**[!UICONTROL Creatives]**] タブをクリックし、[**[!UICONTROL Standard Ads]**] タブまたは [**[!UICONTROL Dynamic Ads]**] タブを開きます。
+1. 「**[!UICONTROL Creatives]**」タブをクリックし、「**[!UICONTROL Standard Ads]**」または「**[!UICONTROL Dynamic Ads]**」タブを開きます。
 
-1. クリエイティブを選択：
+1. クリエイティブを選択します。
 
-   * カード表示で、クリエイティブ名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Change Log]**」をクリックします。
+   * カード表示で、クリエイティブ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Change Log]**&#x200B;をクリックします。
 
-   * テーブル・ビューで、行の上にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Change Log]** をクリックします。
+   * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Change Log]**&#x200B;をクリックします。
 
-1. （任意）レポートされる時間範囲を変更します。
+1. （オプション）報告される時間範囲を変更します。
 
-1. （オプション）メモを追加するには、行の上にカーソルを置いてクリック **[!UICONTROL Add Notes]** ます。 メモを入力し、「**[!UICONTROL Save]**」をクリックします。
+1. （オプション）メモを追加するには、行の上にカーソルを置いて「**[!UICONTROL Add Notes]**」をクリックします。 メモを入力し、**[!UICONTROL Save]**&#x200B;をクリックします。
 
 1. （オプション）追加されたメモを含む変更ログエントリを表示するには、行の上にカーソルを置いて「**[!UICONTROL View Details]**」をクリックします。
