@@ -67,4 +67,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ キャンペーンの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
+>* [&#x200B; キャンペーンの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
