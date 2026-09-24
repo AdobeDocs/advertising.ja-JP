@@ -6,23 +6,28 @@ exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
 TQID: https://experienceleague.adobe.com/2NzvUNMqkGVsPaEDM3ifXGNOAIuR1qifdC1-pacbK7U
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: '392'
 ht-degree: 0%
-
 ---
-
 # Advertising DSPでのプレースメント管理について
 
 プレースメントには、同じ広告タイプの1つ以上の広告のターゲティングパラメーターが含まれます。 単一のキャンペーンまたはパッケージのプレースメントを作成し、それに広告を割り当てることができます。 各キャンペーンまたはプレースメントには、指定された広告ローテーションを含む複数のプレースメントを含めることができます。 デフォルトでは、広告は均等に回転します。 様々なプレースメントターゲットタイプに対して入札乗数を個別に設定できます。
@@ -45,7 +50,7 @@ ht-degree: 0%
 
 [!UICONTROL Placements] ダッシュボードは、すべてのプレースメントのパフォーマンスと経済レポートを一元化し、指定した日付範囲内でのプレースメントのパフォーマンスを素早く把握します。
 
-![配置ダッシュボード &#x200B;](/help/dsp/assets/placement-dashboard.png)
+![配置ダッシュボード ](/help/dsp/assets/placement-dashboard.png)
 
 ダッシュボードには、3つの指標を含む、カスタマイズ可能で大まかなトレンドチャートが用意されています。
 
@@ -55,12 +60,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[&#x200B; カスタムレポート &#x200B;](/help/dsp/reports/report-about.md)を使用して、プレースメントレポートのコンテンツと配信をさらにカスタマイズできます。
+>[ カスタムレポート ](/help/dsp/reports/report-about.md)を使用して、プレースメントレポートのコンテンツと配信をさらにカスタマイズできます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメントの作成](placement-create.md)
->* [&#x200B; プレースメントの入札乗数を管理](placement-manage-bid-multipliers.md)
->* [&#x200B; プレースメントの変更ログを表示](placement-change-log.md)
+>* [ プレースメントの作成](placement-create.md)
+>* [ プレースメントの入札乗数を管理](placement-manage-bid-multipliers.md)
+>* [ プレースメントの変更ログを表示](placement-change-log.md)
 >* [配置の設定](placement-settings.md)
->* [&#x200B; パフォーマンスのトラブルシューティング &#x200B;](/help/dsp/optimization/troubleshooting-performance.md)
+>* [ パフォーマンスの問題の理由](/help/dsp/optimization/troubleshooting-performance.md)

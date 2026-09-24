@@ -1,6 +1,6 @@
 ---
-title: AIが支援した[!UICONTROL Troubleshooting Agent]を使用して、パフォーマンスと配信の問題を診断します
-description: AI支援のトラブルシューティングエージェントを使用して、DSP パッケージとプレースメントの支出、ペーシング、配信の問題を診断する方法を説明します。
+title: AI アシスタントを使用したパフォーマンスと配信の問題のトラブルシューティング
+description: AI アシスタントのトラブルシューティングエージェントを使用して、DSP パッケージとプレースメントの支出、ペーシング、配信の問題を診断する方法を説明します。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -15,14 +15,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 31ddb7928ca4e43132087b73829af55ae6315b0d
+source-git-commit: 2e97652901e16bd1079fac445f9a2a4794dcda56
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '652'
 ht-degree: 0%
 ---
-# AIが支援した[!UICONTROL Troubleshooting Agent]を使用して、パフォーマンスと配信の問題を診断します
+# DSP AI アシスタントを使用したパフォーマンスと配信の問題のトラブルシューティング
 
-AIを活用した[!UICONTROL Troubleshooting Agent]は、パフォーマンスを制限する要因を特定し、問題を解決するための推奨事項を提供します。 [!UICONTROL Troubleshooting Agent]は次の操作を実行できます。
+AI アシスタントのトラブルシューティングエージェントは、パフォーマンスを制限する要因を特定し、問題を解決するための推奨事項を提供します。 トラブルシューティングエージェントでは、次の操作を行うことができます。
 
 * 選択したライブパッケージまたはプレースメントのパフォーマンスと配信の問題の診断に役立ちます。
 
@@ -34,7 +34,7 @@ AIを活用した[!UICONTROL Troubleshooting Agent]は、パフォーマンス�
 
   エージェントは、設定を変更したり、キャンペーンやキャンペーンコンポーネントを作成または編集したりすることはできません。 また、一時停止、完了、アーカイブ、スケジュールされたパッケージまたはプレースメントの問題を診断することはできません。
 
-* [&#x200B; エージェント チャット インターフェイス &#x200B;](/help/dsp/agent-chat.md)と同じ方法で、[Advertising DSP ガイド &#x200B;](/help/dsp/home.md)および[Advertising Creative ガイド &#x200B;](/help/creative/home.md)のAdvertising Creative ガイド と（を使用している広告主）全体で概念コンテンツとハウツー情報を検索します。 キャンペーン管理、最適化、オーディエンス管理、セール情報、レポートなど、製品の機能について質問することができます。
+* [ エージェント チャット インターフェイス ](/help/dsp/agent-chat.md)と同じ方法で、[Advertising DSP ガイド ](/help/dsp/home.md)および[Advertising Creative ガイド ](/help/creative/home.md)のAdvertising Creative ガイド と（を使用している広告主）全体で概念コンテンツとハウツー情報を検索します。 キャンペーン管理、最適化、オーディエンス管理、セール情報、レポートなど、製品の機能について質問することができます。
 
 >[!IMPORTANT]
 >
@@ -98,7 +98,7 @@ AIを活用した[!UICONTROL Troubleshooting Agent]は、パフォーマンス�
 
    * （プレースメントの場合） サブメニューで、**[!UICONTROL Placements]**&#x200B;をクリックします。 プレースメント名の横にある「**[!UICONTROL ...]** > **[!UICONTROL Troubleshooting Agent]**」をクリックします。
 
-1. クエリを入力し、![送信プロンプト &#x200B;](/help/dsp/assets/submit-prompt.png "送信プロンプト ")をクリックします。
+1. クエリを入力し、![送信プロンプト ](/help/dsp/assets/submit-prompt.png "送信プロンプト ")をクリックします。
 
    <!-- For more information, see "[Writing prompts](#writing-prompts)." -->
 
