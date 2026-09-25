@@ -3,13 +3,11 @@ title: （新しいUI）広告ネットワークアカウントの管理
 description: 広告ネットワーク APIを介して同期された広告ネットワークの新しいUIで、アカウントの詳細を設定および管理する方法について説明します。
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
+source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 0%
-
 ---
-
 # （新しいUI） API接続による広告ネットワークアカウントの管理
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
@@ -207,7 +205,7 @@ ht-degree: 0%
 
 例：`param1=value1&param2=value2`
 
-Adobe Advertising クリック トラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック ID （[!DNL Microsoft Advertising]の`msclkid`; Googleの`gclid`）を含める必要があります。 Adobe Analyticsとの統合を持つアカウントでは、AMO ID パラメーター（`s_kwcid`で始まる）を使用する必要があります。 アカウントにサーバーサイド AMO ID実装がある場合、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、ここで手動で追加する必要があります。  [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の必要なサフィックス形式を参照してください。
+Adobe Advertising クリック トラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック ID （[!DNL Microsoft Advertising]の`msclkid`; Googleの`gclid`）を含める必要があります。 Adobe Analyticsとの統合を持つアカウントでは、AMO ID パラメーター（`s_kwcid`で始まる）を使用する必要があります。 アカウントにサーバーサイド AMO ID実装がある場合、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、ここで手動で追加する必要があります。  [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の必要なサフィックス形式を参照してください。
 
 >[!NOTE]
 >
