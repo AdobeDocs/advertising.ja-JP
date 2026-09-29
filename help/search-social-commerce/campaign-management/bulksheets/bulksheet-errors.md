@@ -57,7 +57,7 @@ Search, Social, &amp; Commerceでは、バルクシート処理中に2種類の�
 |  | [!UICONTROL Invalid row given] | 行には、エンティティタイプを決定するのに十分な情報が含まれていません。 行を編集して、エンティティタイプのすべての必須フィールドを含めます。 |
 | アカウント | [!UICONTROL Provide Valid Account Details] | （複数のアカウントのバルクシート） アカウント IDはすべての行に含まれません。 各行の列の次のいずれかの組み合わせの値を入力します：a） &quot;[!UICONTROL AMO ID]&quot;またはb） &quot;[!UICONTROL Account Name]&quot;および&quot;[!UICONTROL Platform]&quot;。 |
 |  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | Search, Social, &amp; Commerceでは、広告ネットワークアカウントにアクセスできないため、キャンペーンデータを作成または編集できません。 検索アカウントの資格情報が正しく、アカウントが有効になっていることを確認します。 |
-| キャンペーン | [!UICONTROL Invalid Shopping Country specified] | （ショッピングキャンペーン）「[!UICONTROL Sales Country]」フィールドの値が無効です。  [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable)の有効な国[と [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083)の[の一覧を参照してください。 |
+| キャンペーン | [!UICONTROL Invalid Shopping Country specified] | （ショッピングキャンペーン）「[!UICONTROL Sales Country]」フィールドの値が無効です。  [!DNL Google Ads]&#x200B;[&#128279;](https://support.google.com/merchants/answer/160637#countrytable)の有効な国[と [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083)のの一覧を参照してください。 |
 | すべてのキャンペーンコンポーネント | [!UICONTROL Campaign creation failed] | 親キャンペーンは作成されていないので、このエンティティは作成されませんでした。 すべての親エンティティにすべての必須フィールドが含まれていることを確認します。 |
 | 広告グループ | [!UICONTROL Campaign Row missing] | 指定された親キャンペーンは存在しないため、広告グループは作成されませんでした。 新しい行に親キャンペーンを作成します。 |
 |  | [!UICONTROL New adgroup has both keywords and placement] | 広告グループには、キーワードとプレースメントのどちらかを含めることができますが、両方を含めることはできません。 キーワードとプレースメント用に個別の広告グループを作成します。 |
@@ -94,8 +94,8 @@ Search, Social, &amp; Commerceでは、バルクシート処理中に2種類の�
 
 >[!MORELIKETHIS]
 >
->* [ バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
->* [ バルクシート ファイルのダウンロードと作成](bulksheet-download.md)
->* [ バルクシート ファイル内のランディングページの検証](bulksheet-validate-landing-pages.md)
->* [ バルクシート ファイルをアップロードするか、エラーファイルを修正](bulksheet-upload.md)
->* [ バルクシートの投稿またはエラーファイルの修正](bulksheet-post.md)
+>* [&#x200B; バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
+>* [&#x200B; バルクシート ファイルのダウンロードと作成](bulksheet-download.md)
+>* [&#x200B; バルクシート ファイル内のランディングページの検証](bulksheet-validate-landing-pages.md)
+>* [&#x200B; バルクシート ファイルをアップロードするか、エラーファイルを修正](bulksheet-upload.md)
+>* [&#x200B; バルクシートの投稿またはエラーファイルの修正](bulksheet-post.md)
