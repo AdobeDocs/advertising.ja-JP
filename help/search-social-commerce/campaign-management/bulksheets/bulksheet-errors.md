@@ -6,15 +6,15 @@ feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/7jGIKXI-Un6mnstJlPDqk0q4yB6k3tEsqHngD1cCyEw
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 247087a18783a7f1c77088ffb2d1133ca9bb6e8d
 workflow-type: tm+mt
-source-wordcount: 1137
+source-wordcount: '1147'
 ht-degree: 1%
-
 ---
-
 # バルクシートエラー
 
 Search, Social, &amp; Commerceでは、バルクシート処理中に2種類のエラーファイルが生成されます。
@@ -34,7 +34,7 @@ Search, Social, &amp; Commerceでは、バルクシート処理中に2種類の�
 
 ## [!UICONTROL EF Error]件のメッセージ
 
-次のエラーは、[!UICONTROL EF Error] ファイルの[!UICONTROL EF Errors]列に含まれる可能性があります。
+次のエラーは、[!UICONTROL EF Errors] ファイルの[!UICONTROL EF Error]列に含まれる可能性があります。
 
 ### エラーのダウンロード/作成
 
@@ -50,14 +50,14 @@ Search, Social, &amp; Commerceでは、バルクシート処理中に2種類の�
 | 一般 | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | 操作は完全に失敗しました。 問題が解決しない場合は、Adobe アカウントチームにお問い合わせください。 |
 | すべてのエンティティ | [!UICONTROL Invalid Fields.] \[無効なフィールドとエラー\] | 指定されたデータが見つからないか、無効です。 |
 |  | [!UICONTROL Invalid Reference Given] | 広告ネットワーク上のエンティティのID、または親エンティティのID （アカウント IDなど）が、Search, Social, &amp; Commerceのエンティティに対応しません。 これは、バルクシートでIDを編集したときに発生する可能性があります。 |
-|  | [!UICONTROL &lt;Entity> is deleted or expired] | エンティティが期限切れになっているか削除されました。プロパティを変更することはできません。 誰かが手動でステータスを編集すると、エンティティが削除される場合があります。 |
-|  | [!UICONTROL &lt;Entity> status should be Active or Paused] | （新しいエンティティ）新しいエンティティは「アクティブ」または「一時停止」のみです。 |
+|  | [!UICONTROL <Entity> is deleted or expired] | エンティティが期限切れになっているか削除されました。プロパティを変更することはできません。 誰かが手動でステータスを編集すると、エンティティが削除される場合があります。 |
+|  | [!UICONTROL <Entity> status should be Active or Paused] | （新しいエンティティ）新しいエンティティは「アクティブ」または「一時停止」のみです。 |
 |  | [!UICONTROL Duplicate Entries are present] | 同じエンティティに対して、各行に異なる属性を持つ複数の行が含まれます。 変更を1行に統合します。 |
 |  | [!UICONTROL Invalid AMO ID given] | 行のAMO IDが存在しません。 これは、バルクシートでIDを編集した場合に発生する可能性があります。 |
 |  | [!UICONTROL Invalid row given] | 行には、エンティティタイプを決定するのに十分な情報が含まれていません。 行を編集して、エンティティタイプのすべての必須フィールドを含めます。 |
 | アカウント | [!UICONTROL Provide Valid Account Details] | （複数のアカウントのバルクシート） アカウント IDはすべての行に含まれません。 各行の列の次のいずれかの組み合わせの値を入力します：a） &quot;[!UICONTROL AMO ID]&quot;またはb） &quot;[!UICONTROL Account Name]&quot;および&quot;[!UICONTROL Platform]&quot;。 |
 |  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | Search, Social, &amp; Commerceでは、広告ネットワークアカウントにアクセスできないため、キャンペーンデータを作成または編集できません。 検索アカウントの資格情報が正しく、アカウントが有効になっていることを確認します。 |
-| キャンペーン | [!UICONTROL Invalid Shopping Country specified] | （ショッピングキャンペーン）「[!UICONTROL Sales Country]」フィールドの値が無効です。 [&#x200B; [!DNL Google Ads]の有効な国](https://support.google.com/merchants/answer/160637#countrytable)と[&#x200B; [!DNL Microsoft Advertising]の](https://help.ads.microsoft.com/#apex/3/en/51083)の一覧を参照してください。 |
+| キャンペーン | [!UICONTROL Invalid Shopping Country specified] | （ショッピングキャンペーン）「[!UICONTROL Sales Country]」フィールドの値が無効です。  [!DNL Google Ads]&#x200B;[&#128279;](https://support.google.com/merchants/answer/160637#countrytable)の有効な国[と [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083)のの一覧を参照してください。 |
 | すべてのキャンペーンコンポーネント | [!UICONTROL Campaign creation failed] | 親キャンペーンは作成されていないので、このエンティティは作成されませんでした。 すべての親エンティティにすべての必須フィールドが含まれていることを確認します。 |
 | 広告グループ | [!UICONTROL Campaign Row missing] | 指定された親キャンペーンは存在しないため、広告グループは作成されませんでした。 新しい行に親キャンペーンを作成します。 |
 |  | [!UICONTROL New adgroup has both keywords and placement] | 広告グループには、キーワードとプレースメントのどちらかを含めることができますが、両方を含めることはできません。 キーワードとプレースメント用に個別の広告グループを作成します。 |
@@ -67,7 +67,7 @@ Search, Social, &amp; Commerceでは、バルクシート処理中に2種類の�
 | すべての広告グループコンポーネント | [!UICONTROL Adgroup creation failed] | 親広告グループが作成されていないので、このエンティティを作成できませんでした。 これは、広告グループフィールドのエラー、または親キャンペーンの失敗が原因である可能性があります。 すべての親エンティティにすべての必須フィールドが含まれていることを確認します。 |
 |  | [!UICONTROL Adgroup Row Missing] | 指定された親広告グループは存在しないため、エンティティを作成できませんでした。 新しい行に親広告グループを作成します。 |
 |  | [!UICONTROL Cannot modify Tracking Template at Keyword / Creative / Site Link level until Account has been migrated to use Upgraded URLs. Please retry after migration] | 「[!UICONTROL Tracking Template]」フィールドは、最終/詳細URLを使用するアカウント専用です。 最終/詳細URLを使用するようにアカウントを移行するまで、この値を削除します。 |
-| 広告 | [!UICONTROL Cannot modify attributes other than status code and url for &lt;ad type>] | （テキスト、拡張テキスト、製品、アプリのインストール、動的検索以外の広告タイプ）この広告タイプのステータスとURLのみを編集できます。 |
+| 広告 | [!UICONTROL Cannot modify attributes other than status code and url for <ad type>] | （テキスト、拡張テキスト、製品、アプリのインストール、動的検索以外の広告タイプ）この広告タイプのステータスとURLのみを編集できます。 |
 |  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | 各広告グループには最大50の広告を掲載でき、このバルクシートには50を超える広告が掲載されています。 広告の数を減らす。 |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | 広告は期限切れまたは削除された親エンティティにあるため、編集できません。 |
 | キーワード | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | 親キャンペーンまたは広告グループは削除または期限切れのため、エンティティを変更できません。 |
@@ -90,7 +90,7 @@ Search, Social, &amp; Commerceでは、バルクシート処理中に2種類の�
 |----|----|----|
 | 一般 | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | 操作は完全に失敗しました。 問題が解決しない場合は、Adobe アカウントチームにお問い合わせください。 |
 | すべてのエンティティ | [!UICONTROL Entity]は広告ネットワークに投稿されています | エンティティは広告ネットワークに投稿されましたが、同時にSearch、Social、およびCommerceに同期されなかったため、エンティティ データはSearch、Social、およびCommerceですぐに利用できません。 同期プロセスが自動的にトリガーされます。<br><br>大量のデータが同期されると、Search、Social、Commerceでデータが数時間以上利用できなくなる場合があります。 |
-| | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | 親エンティティを作成できなかったため、この子エンティティは作成されませんでした。 |
+| | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | 親エンティティを作成できなかったため、この子エンティティは作成されませんでした。 |
 
 >[!MORELIKETHIS]
 >
