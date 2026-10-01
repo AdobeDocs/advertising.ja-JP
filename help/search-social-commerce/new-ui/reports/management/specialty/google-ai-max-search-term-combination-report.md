@@ -17,7 +17,7 @@ ht-degree: 0%
 
   このシートを使用して、クエリごとに結果として得られる広告要素の意図とパフォーマンスを分析し、強固な負のキーワードリストを構築できるようにします。
 
-* <!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1] シート：[!DNL Google Ads]は、各検索語句と一致タイプのコンバージョンアクションによって追跡されたコンバージョンデータです。 各行には、コンバージョンアクション、コンバージョン数、コンバージョン値、およびレポート設定で指定されたその他のオプションの[!DNL Google Ads]追跡されたコンバージョン指標が含まれます。 デフォルトでは、データには、指定したデータ範囲の各検索語とコンバージョンアクションの組み合わせごとに1行が含まれます。 行は、最初のシートの行と同じ順序になります。
+* &#x200B;<!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1] シート：[!DNL Google Ads]は、各検索語句と一致タイプのコンバージョンアクションによって追跡されたコンバージョンデータです。 各行には、コンバージョンアクション、コンバージョン数、コンバージョン値、およびレポート設定で指定されたその他のオプションの[!DNL Google Ads]追跡されたコンバージョン指標が含まれます。 デフォルトでは、データには、指定したデータ範囲の各検索語とコンバージョンアクションの組み合わせごとに1行が含まれます。 行は、最初のシートの行と同じ順序になります。
 
   <!-- Should it be this?  The sheet includes the number of conversions and the conversion value, all conversions and the all conversions value, and cross-device conversions. -->
 
@@ -50,6 +50,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [専門性レポートについて](specialty-report-about.md)
->* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
 >* [特殊レポート設定](specialty-report-settings.md)
 >* [専門性レポートのレポート列](specialty-report-columns.md)
