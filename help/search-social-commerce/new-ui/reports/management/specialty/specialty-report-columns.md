@@ -2,13 +2,11 @@
 title: 特殊レポートのレポート列
 description: 特殊レポートで使用可能なデータ列について説明します。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 43b3d16233aec1fce0f3db092b9911717686f448
+source-git-commit: fb089f61670a2c0029ac7857db55df3b93f781de
 workflow-type: tm+mt
-source-wordcount: '3172'
-ht-degree: 0%
-
+source-wordcount: '3223'
+ht-degree: 1%
 ---
-
 # 特殊レポートのレポート列
 
 | 列 | 説明 |
@@ -70,6 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | （[!DNL Google Ads]のみ；[!UICONTROL Campaign Daily Impression Share Report]） ディスプレイ/オーディエンスネットワーク上の広告に対して受け取ったインプレッションの数を、受け取る資格のあるインプレッションの推定数で割った数。 10%未満の割合は「`<10%`」、90%を超える割合は「`>90%`」と表示されます。 |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | （[!DNL Google Ads]のみ；[!UICONTROL Campaign Daily Impression Share Report]）ディスプレイ/オーディエンスネットワーク上の広告が受け取らなかったインプレッションの推定パーセンテージ。毎日または月々の予算が低すぎたためです。 10%未満の割合は「`<10%`」、90%を超える割合は「`>90%`」と表示されます。 |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | （[!DNL Google Ads]のみ；[!UICONTROL Campaign Daily Impression Share Report]）広告ランクが低いため、ディスプレイ/オーディエンスネットワーク上の広告が表示されなかったインプレッションの推定割合。 10%未満の割合は「`<10%`」、90%を超える割合は「`>90%`」と表示されます。 |
+| [!UICONTROL Conversion Actions] | （[!UICONTROL Google AI Max Search Term Combination]件のレポート） コンバージョンに至ったコンバージョンアクション。 |
 | [!UICONTROL Conversion Rate] | コンバージョン数をクリック数で割った値です。 |
 | [!UICONTROL Conversion Type] | 広告主のweb サイトで追跡された、ユーザー定義のコンバージョンタイプ。 |
 | [!UICONTROL Conversions] | （[!UICONTROL Google AI Max Search Term Combination]、[!UICONTROL Google Asset Group Performance]および[!UICONTROL MSA Ad Extension]件のレポート）指定した期間の合計コンバージョン数。 [!UICONTROL MSA Ad Extension] レポートの場合、これは、販売または別の成功指標に結び付いたクリック数です。 [!UICONTROL Google AI Max Search Term Combination] レポートの場合、「コンバージョンに含める」が有効になっているコンバージョンアクションからのコンバージョンの合計数です |
@@ -102,7 +101,7 @@ ht-degree: 0%
 | [!UICONTROL EF Portfolio Group ID] | ポートフォリオが属するポートフォリオグループの数値ID。 |
 | [!UICONTROL EF Search Engine ID] | Search, Social, &amp; Commerceがアドネットワークに割り当てる数値ID: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> （旧称[!DNL Yahoo! Japan Ads]）, [!DNL Yahoo Native] （非推奨）, <i>[!UICONTROL 106]</i> for [!DNL Pinterest] （非推奨）です。[!DNL LY Ads]<i>[!UICONTROL 105]</i> |
 | [!UICONTROL End Date] | 最終日が報告されました。 |
-| [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension] レポート）拡張機能[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/51001)の表示名。 |
+| [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension] レポート）拡張機能](https://help.ads.microsoft.com/#apex/ads/en/51001)の[表示名。 |
 | [!UICONTROL Extension Type ID] | （[!UICONTROL MSA Ad Extension]件のレポート）広告拡張機能タイプのID。 |
 | [!UICONTROL Final URLs] | （[!UICONTROL Google Asset Group Performance Report]）すべてのクロスドメインリダイレクト後の最終的なURLのリスト。 キャンペーンでURL拡張が有効になっている場合、URLは拡張される場合があります。 |
 | [!UICONTROL Final Mobile URLs] | （[!UICONTROL Google Asset Group Performance Report]）すべてのクロスドメインリダイレクト後のモバイルデバイスの最終的なURLのリスト。 キャンペーンでURL拡張が有効になっている場合、URLは拡張される場合があります。 |
@@ -198,5 +197,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [専門性レポートについて](specialty-report-about.md)
->* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
 >* [特殊レポート設定](specialty-report-settings.md)
