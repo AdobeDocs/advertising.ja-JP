@@ -1,24 +1,26 @@
 ---
-title: ' [!DNL Google Ads] 動的検索ターゲットの管理'
-description: ' [!DNL Google Ads] 動的検索ターゲットを作成および管理する方法について説明します。'
+title: '[!DNL Google Ads]の動的検索ターゲットを管理'
+description: '[!DNL Google Ads]動的検索ターゲットを作成および管理する方法について説明します。'
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
 TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '705'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]の動的検索ターゲットを管理
 
 *[!DNL Google Ads]アカウントのみ*
@@ -43,7 +45,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Auto Targets] ビュー
 
-[!UICONTROL Target] > [!UICONTROL Auto Targets] ビューには、選択した広告主アカウントのフィルター処理されたビュー内のすべての動的検索ターゲットが一覧表示されます。 また、動的検索目標を管理することもできます。
+[!UICONTROL Targeting] > [!UICONTROL Auto Targets] ビューには、選択した広告主アカウントのフィルター処理されたビュー内のすべての動的検索ターゲットが一覧表示されます。 また、動的検索目標を管理することもできます。
 
 ### 使用可能なアクション
 
@@ -178,7 +180,7 @@ You can also delete any dynamic target.
 
 ## 新しい[!UICONTROL Auto Targets] ビューから選択した動的検索ターゲットに制約を割り当てます {#constraint-assign}
 
-1. メインメニューで、**[!UICONTROL Target]>[!UICONTROL Auto Targets]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**&#x200B;をクリックします。
 
 1. 1つの制約を割り当てる各動的検索ターゲットの横にあるチェックボックスをオンにします。
 
@@ -190,7 +192,7 @@ You can also delete any dynamic target.
 
 ## 選択した動的検索対象から新しい[!UICONTROL Auto Targets] ビューから制約を削除します {#constraint-unassign}
 
-1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Auto Targets]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**&#x200B;をクリックします。
 
 1. 制約の割り当てを解除する動的検索ターゲットの横にあるチェックボックスをオンにします。
 
@@ -204,7 +206,7 @@ You can also delete any dynamic target.
 >
 >ラベル値は子エンティティによって継承されるので、継承された値を上書きする場合を除き、子エンティティの値を入力しないでください。
 
-1. メインメニューで、**[!UICONTROL Target]>[!UICONTROL Auto Targets]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**&#x200B;をクリックします。
 
 1. ラベル値を割り当てる各動的検索ターゲットの横にあるチェックボックスをオンにします。
 
@@ -236,7 +238,7 @@ You can also delete any dynamic target.
 
 分類値を削除すると、アカウントコンポーネントとそのすべての子コンポーネントとの関連付けが削除されます。 分類値のレポートデータは、これらのコンポーネントでは使用できなくなりました。 分類値を削除しても、値やアカウントコンポーネントは削除されません。
 
-1. メインメニューで、**[!UICONTROL Target]>[!UICONTROL Auto Targets]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**&#x200B;をクリックします。
 
 1. ラベル値を削除する各動的検索ターゲットの横にあるチェックボックスをオンにします。
 
@@ -253,4 +255,4 @@ You can also delete any dynamic target.
 >[!MORELIKETHIS]
 >
 >* [&#x200B; （新しいUI）検索入札単位の制約を管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [&#x200B; （新しいUI） ラベル分類の管理](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
+>* [&#x200B; （新しいUI） ラベル分類の管理](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)

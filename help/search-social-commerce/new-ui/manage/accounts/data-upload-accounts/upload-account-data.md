@@ -1,13 +1,11 @@
 ---
 title: レポートとシミュレーション用のオフラインアカウントデータのアップロード
-description: レポートとシミュレーションのサポートのために、オフラインのアカウントデータを手動または [!DNL Amazon] [!DNL S3] バケットにアップロードする方法について説明します。 ログファイルは、アップロードジョブの進行状況を追跡します。
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+description: レポートとシミュレーションのサポートのために、オフラインのアカウントデータを手動または[!DNL Amazon] [!DNL S3] バケットにアップロードする方法について説明します。 ログファイルは、アップロードジョブの進行状況を追跡します。
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
-
 ---
-
 # レポートとシミュレーション用のオフラインアカウントデータのアップロード
 
 *アカウントデータのアップロードが有効になっている広告主*
@@ -30,31 +28,31 @@ See "XXX" for information about supported ad networks and account structures.
 [supported ad networks and campaign types](/help/search-social-commerce/introduction/supported-inventory.md)
 -->
 
-1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
 
 1. 次のいずれかの操作を行います。
 
    * （[!UICONTROL Accounts] ビューから）:
 
-      1. アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Upload]**」をクリックします。
+     1. アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Upload]**」をクリックします。
 
-      1. ファイルをボックスにドラッグするか、**[!UICONTROL Browse Files]**&#x200B;をクリックして、デバイスまたはネットワークからファイルを選択します。
+     1. ファイルをボックスにドラッグするか、**[!UICONTROL Browse Files]**&#x200B;をクリックして、デバイスまたはネットワークからファイルを選択します。
 
-      1. **[!UICONTROL Upload Files]**&#x200B;をクリックします。
+     1. **[!UICONTROL Upload Files]**&#x200B;をクリックします。
 
    * （アカウント設定から）:
 
-      1. 次のいずれかの方法でアカウントを選択します。
+     1. 次のいずれかの方法でアカウントを選択します。
 
-         * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
+        * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-         * アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Edit]**」をクリックします。
+        * アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Edit]**」をクリックします。
 
-      1. 「**[!UICONTROL Upload File]**」タブをクリックします。
+     1. 「**[!UICONTROL Upload File]**」タブをクリックします。
 
-      1. ファイルをボックスにドラッグするか、**[!UICONTROL Browse Files]**&#x200B;をクリックして、デバイスまたはネットワークからファイルを選択します。
+     1. ファイルをボックスにドラッグするか、**[!UICONTROL Browse Files]**&#x200B;をクリックして、デバイスまたはネットワークからファイルを選択します。
 
-      1. **[!UICONTROL Save]**&#x200B;をクリックします。
+     1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## アカウントデータを[!DNL Amazon] [!DNL S3] バケットにアップロード {#data-upload-s3}
 
@@ -71,45 +69,45 @@ See "XXX" for information about supported ad networks and account structures.
 >* Search, Social, &amp; Commerce広告主アカウントのアカウントデータのアップロードを有効にするには、Adobe アカウントチームにお問い合わせください。 チームは、[!DNL S3] バケット内の組織固有のフォルダーの作成を促進し、完了したら通知を受け取ります。<!-- Add more context about the bucket we'll use here or in the intro. Do we have one bucket (potentially with multiple folders) per client, or do we share them (if so, do we need to state how in docs? -->
 >* アカウントの[!DNL S3] クラウド ストレージ パス、アクセス キーID、および秘密アクセス キーを取得します。 同じアクセス キーIDと秘密アクセス キーが、組織のすべてのデータ アップロード <!-- naming convention?--> アカウントに使用されます。
 
-1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
 
 1. 次のいずれかの操作を行います。
 
    * （[!UICONTROL Accounts] ビューから）:
 
-      1. アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Upload]**」をクリックします。
+     1. アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Upload]**」をクリックします。
 
-      1. [!UICONTROL Cloud Storage Link] ボックスで、**[!UICONTROL Go to the Link]**&#x200B;をクリックします。
+     1. [!UICONTROL Cloud Storage Link] ボックスで、**[!UICONTROL Go to the Link]**&#x200B;をクリックします。
 
-      1. **[!UICONTROL Show Access Key and Secret]**&#x200B;をクリックします。
+     1. **[!UICONTROL Show Access Key and Secret]**&#x200B;をクリックします。
 
-      1. 「[!UICONTROL Storage Link]」フィールドの横にある「**[!UICONTROL Copy]**」をクリックしてリンクをクリップボードにコピーし、リンクを安全な場所に保存します。
+     1. 「[!UICONTROL Storage Link]」フィールドの横にある「**[!UICONTROL Copy]**」をクリックしてリンクをクリップボードにコピーし、リンクを安全な場所に保存します。
 
-      1. 同様に、[!UICONTROL Access Key]と[!UICONTROL Secret Key]の値をコピーして安全に保存します。
+     1. 同様に、[!UICONTROL Access Key]と[!UICONTROL Secret Key]の値をコピーして安全に保存します。
 
-      1. **[!UICONTROL Done]**&#x200B;をクリックします。
+     1. **[!UICONTROL Done]**&#x200B;をクリックします。
 
    * （アカウント設定から）:
 
-      1. 次のいずれかの方法でアカウントを選択します。
+     1. 次のいずれかの方法でアカウントを選択します。
 
-         * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
+        * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-         * アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Edit]**」をクリックします。
+        * アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Edit]**」をクリックします。
 
-      1. 「**[!UICONTROL Upload File]**」タブをクリックします。
+     1. 「**[!UICONTROL Upload File]**」タブをクリックします。
 
-      1. [!UICONTROL Cloud Storage Link] ボックスで、**[!UICONTROL Go to the Link]**&#x200B;をクリックします。
+     1. [!UICONTROL Cloud Storage Link] ボックスで、**[!UICONTROL Go to the Link]**&#x200B;をクリックします。
 
-      1. **[!UICONTROL Show Access Key and Secret]**&#x200B;をクリックします。
+     1. **[!UICONTROL Show Access Key and Secret]**&#x200B;をクリックします。
 
-      1. 「[!UICONTROL Storage Link]」フィールドの横にある「**[!UICONTROL Copy]**」をクリックしてリンクをクリップボードにコピーし、リンクを安全な場所に保存します。
+     1. 「[!UICONTROL Storage Link]」フィールドの横にある「**[!UICONTROL Copy]**」をクリックしてリンクをクリップボードにコピーし、リンクを安全な場所に保存します。
 
-      1. 同様に、[!UICONTROL Access Key]と[!UICONTROL Secret Key]の値をコピーして安全に保存します。
+     1. 同様に、[!UICONTROL Access Key]と[!UICONTROL Secret Key]の値をコピーして安全に保存します。
 
-      1. **[!UICONTROL Done]**&#x200B;をクリックします。
+     1. **[!UICONTROL Done]**&#x200B;をクリックします。
 
-      1. **[!UICONTROL Save]**&#x200B;をクリックします。
+     1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 1. （組織ごとに1回）ローカル AWS環境を設定します。
 
@@ -139,7 +137,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 ## アップロードされたアカウントデータファイルのログを表示する
 
-1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
 
 1. アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Upload Logs]**&#x200B;をクリックします。
 

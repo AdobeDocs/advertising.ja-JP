@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/Q6BgNtx1bPMVXDNdamwGvzcxKh9I8dnm0PRj1ByIktE
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 219
+source-wordcount: '217'
 ht-degree: 0%
-
 ---
-
 # ラベル分類の削除
 
 分類を削除すると、その子値とアカウントコンポーネント間のすべての関連付けが削除されます。 削除された分類とその値は、今後の使用に使用できません。 分類値のレポートデータが使用できるようになりました。
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## （新しいUI）ラベル分類の削除
 
-1. **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**&#x200B;をクリックします。
+1. **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**&#x200B;をクリックします。
 
 1. （オプション）特定のラベル分類を含めるようにリストをフィルタリングします。
 

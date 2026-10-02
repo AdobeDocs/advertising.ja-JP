@@ -2,13 +2,11 @@
 title: スケジュール済みレポートの管理
 description: スケジュールレポートの管理方法を説明します。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports, Search Assist Reports, Search Model Accuracy Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
-
 ---
-
 # スケジュール済みレポートの管理
 
 パフォーマンスレポートを使用すると、ポートフォリオ、広告ネットワーク、広告ネットワークアカウントエンティティのパフォーマンスを、必要に応じて詳細に追跡および管理できます。 多くのレポートでは、各マーケティングチャネルの広告がコンバージョン率に与える影響を包括的に把握できます。
@@ -39,9 +37,9 @@ ht-degree: 0%
 
 * [&#x200B; スプレッドシート フィード &#x200B;](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)を使用して、カスタマイズしたスプレッドシート テンプレートを毎日のパフォーマンスデータで更新し続けます。
 
-## [!UICONTROL Scheduled Reports] ビュー
+## [!UICONTROL Reports] ビュー
 
-[!UICONTROL Reports] > [!UICONTROL Scheduled Reports] ビューでは、レポートとレポートテンプレートを作成および管理できます。
+[!UICONTROL Reports] > [!UICONTROL Reports] ビューでは、レポートとレポートテンプレートを作成および管理できます。
 
 * 「**[!UICONTROL Latest Reports]**」タブには、手動で削除されたレポートを除き、利用可能なすべてのレポートが一覧表示されます。デフォルトでは、最新のレポートが上部に表示されます。 <!-- Doesn't seem to be true: that were requested in the last seven days -->各レポートに表示される情報には、レポートを実行するスケジュール（該当する場合）、データが生成されたか生成される開始日と終了日、レポートを作成したユーザー、レポートのステータス （*[!UICONTROL Finished]*、*[!UICONTROL In Progress]*、または&#x200B;*[!UICONTROL Error]*）が含まれます。
 
@@ -66,7 +64,7 @@ ht-degree: 0%
 
 ### 新しいレポートを生成
 
-1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. **[!UICONTROL Create Report]**&#x200B;をクリックし、左側のパネルでレポートカテゴリをクリックしてから、レポートタイプを選択します。<!-- Add link to list of report categories and report types --> **[!UICONTROL Proceed]**&#x200B;をクリックします。
 
@@ -96,7 +94,7 @@ ht-degree: 0%
 
 ### 既存のレポートからのレポートの生成
 
-1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;をクリックすると、**[!UICONTROL Latest Reports]** タブが開きます。
+1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;をクリックすると、**[!UICONTROL Latest Reports]** タブが開きます。
 
 1. 次のいずれかの操作を行います。
 
@@ -110,7 +108,7 @@ ht-degree: 0%
 
 ### 既存のテンプレートからのレポートの生成
 
-1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL Templates]**」タブをクリックします。
 
@@ -136,45 +134,45 @@ Web ブラウザーでレポートをプレビューするか、レポートデ�
 >
 >Adobe アカウントチームのメンバーと一部の管理者ユーザーは、広告主や代理店のユーザーが作成したレポートを表示できます。
 
-1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;をクリックすると、**[!UICONTROL Latest Reports]** タブが開きます。
+1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;をクリックすると、**[!UICONTROL Latest Reports]** タブが開きます。
 
 1. 次のいずれかの操作を行います。
 
    * （Web ブラウザーでレポートを表示するには）次のいずれかの操作を行います。
 
-      * テンプレート行の上にカーソルを置き、**...** > **[!UICONTROL Preview]**&#x200B;をクリックします。
+     * テンプレート行の上にカーソルを置き、**...** > **[!UICONTROL Preview]**&#x200B;をクリックします。
 
-      * 既存のテンプレートの横にあるチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL Preview]**&#x200B;をクリックします。
+     * 既存のテンプレートの横にあるチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL Preview]**&#x200B;をクリックします。
 
    * （ファイル内のレポートデータを開いたり保存したりするには） レポート名の横にある[!UICONTROL Export]列で、形式の名前をクリックし、ブラウザーの通常の手順に従ってファイルを開いたり保存したりします。
 
-      * **[!UICONTROL XLS]:**&#x200B;単一のワークシート （XLSX形式）を持つ[!DNL Excel] ワークブックの場合。 このレポートには、上部にパラメーターのラベルが付いた1つのワークシートが含まれており、コンポーネントのデータが使用可能な場合に各コンポーネントに1行がレポートされます。 データのない行は省略されます。
+     * **[!UICONTROL XLS]:**&#x200B;単一のワークシート （XLSX形式）を持つ[!DNL Excel] ワークブックの場合。 このレポートには、上部にパラメーターのラベルが付いた1つのワークシートが含まれており、コンポーネントのデータが使用可能な場合に各コンポーネントに1行がレポートされます。 データのない行は省略されます。
 
-        基本レポートには、各数値列の合計が含まれます。
+       基本レポートには、各数値列の合計が含まれます。
 
-      * TSV ファイルの&#x200B;**[!UICONTROL TSV]:**。 レポートには、レポートされる各コンポーネントのパラメーターと1行が含まれます。
+     * TSV ファイルの&#x200B;**[!UICONTROL TSV]:**。 レポートには、レポートされる各コンポーネントのパラメーターと1行が含まれます。
 
-      * **[!UICONTROL CSV]:** CSV ファイルの場合。 レポートには、レポートされる各コンポーネントのパラメーターと1行が含まれます。
+     * **[!UICONTROL CSV]:** CSV ファイルの場合。 レポートには、レポートされる各コンポーネントのパラメーターと1行が含まれます。
 
 ## レポートの削除
 
-1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;をクリックすると、**[!UICONTROL Latest Reports]** タブが開きます。
+1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;をクリックすると、**[!UICONTROL Latest Reports]** タブが開きます。
 
 1. 次のいずれかの操作を行います。
 
    * （1つのレポートを削除するには）:
 
-      1. レポート行の上にカーソルを置き、**...** > **[!UICONTROL Run]**&#x200B;をクリックします。
+     1. レポート行の上にカーソルを置き、**...** > **[!UICONTROL Run]**&#x200B;をクリックします。
 
-      1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
+     1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
 
    * （1つ以上のレポートを削除するには）:
 
-      1. 削除する各レポートの横にあるチェックボックスをオンにします。
+     1. 削除する各レポートの横にあるチェックボックスをオンにします。
 
-      1. 一括操作ツールバーで、[削除](/help/search-social-commerce/assets/delete-new.png "削除") **[!UICONTROL Delete]**&#x200B;をクリックします。
+     1. 一括操作ツールバーで、[削除](/help/search-social-commerce/assets/delete-new.png "削除") **[!UICONTROL Delete]**&#x200B;をクリックします。
 
-      1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
+     1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
 
 <!--
 

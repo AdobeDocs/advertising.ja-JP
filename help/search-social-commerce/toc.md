@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
 workflow-type: tm+mt
-source-wordcount: '2396'
+source-wordcount: '2395'
 ht-degree: 2%
 ---
 # Adobe Advertising Search, Social &amp; Commerce ガイド {#search-social-commerce}
@@ -26,7 +26,7 @@ ht-degree: 2%
   + [Adobe Advertising Search, Social, &amp; Commerceについて](/help/search-social-commerce/introduction/about.md)
   + [サポートされているインベントリ](/help/search-social-commerce/introduction/supported-inventory.md)
   + Adobe CX Enterpriseとの連携 {#integrations}
-    + [Adobe CX Enterpriseのソリューションおよびサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
+    + [Adobe CX Enterpriseのソリューションやサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
     + [Adobe [!DNL Analytics for Advertising]  （リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja){target="_blank"}
     + [Adobe Audience Managerとの連携（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ja){target="_blank"}
   + [消費者のプライバシーのサポート（リンク）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
@@ -75,32 +75,6 @@ ht-degree: 2%
   + ダッシュボード {#dashboard}
     + [パフォーマンスダッシュボードを見る](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
     + [メディア企業のレコメンデーションとインサイトのサポート](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
-  + 目標 {#goals}
-    + 課題 {#objectives}
-      + [目標について](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
-      + [目標の設定](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md)
-      + [目標の編集](/help/search-social-commerce/new-ui/goals/objectives/objective-edit.md)
-      + [目標の削除](/help/search-social-commerce/new-ui/goals/objectives/objective-delete.md)
-      + [目的に合わせて体重を推奨する](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
-      + [目的のパフォーマンス指標のダウンロード](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
-      + [客観的設定](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
-      + [広告ネットワークへの目標のアップロードを有効にする](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
-    + コンバージョン数 {#conversions}
-      + [コンバージョン指標を管理するために利用できる機能](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
-      + [Adobe Advertisingのコンバージョン追跡タグを生成して実装する](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
-      + [広告主のコンバージョン指標の管理](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
-      + コンバージョンの向上 {#enhanced-conversions}
-        + [リードの [!DNL Google Ads] 強化コンバージョンのコンバージョンアクションを作成します](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
-        + [オフラインのコンバージョンデータをアップロードしてコンバージョンを向上](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
-    + [コンバージョン値ルールの管理 [!DNL Google Ads] 件](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
-    + [検索入札単位の制約の管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
-  + プラン {#plan}
-    + シミュレーション {#simulations}
-      + [シミュレーションについて](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
-      + [カスタムシミュレーションの実行または再実行](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
-      + [シミュレーションの詳細を表示](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
-      + [シミュレーションのダウンロード](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
-    + [[!UICONTROL Spend Planner]の使用](/help/search-social-commerce/new-ui/plan/spend-planner.md)
   + 管理 {#manage}
     + ポートフォリオ {#portfolios}
       + [ポートフォリオについて](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)
@@ -117,8 +91,17 @@ ht-degree: 2%
       + [ポートフォリオパフォーマンスの詳細の表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
       + [ポートフォリオの変更履歴の表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
       + [[!UICONTROL Portfolios] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+    + アカウント {#accounts}
+      + [広告ネットワークアカウントについて](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)
+      + API接続アカウント {#api}
+        + [API接続による広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)
+        + [API接続を介した広告ネットワークデータの手動同期](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/sync-api-accounts.md)
+      + データアップロードアカウント {#data-upload}
+        + [データのアップロード用の広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/data-upload-account-manage.md)
+      + [トラッキング専用の [!DNL Naver]  アカウントの管理](/help/search-social-commerce/new-ui/manage/accounts/template-account-manage.md)
     + キャンペーン {#campaigns}
       + [キャンペーンの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
+      + [&#x200B; [!DNL Microsoft Advertising]での [!DNL Google Ads]  キャンペーンのレプリケート](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md)
       + 広告ネットワーク別のキャンペーン設定 {#campaign-settings-by-network}
         + [[!DNL Baidu] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
         + [[!DNL Google Ads] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
@@ -145,13 +128,17 @@ ht-degree: 2%
         + [[!DNL Microsoft Advertising]個のレスポンシブ （オーディエンス）広告の設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-responsive.md)
         + [[!DNL Microsoft Advertising]件のレスポンシブ検索広告の設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-rsa.md)
         + [[!DNL Yandex] テキスト広告の設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-yandex-text.md)
+    + キーワード {#keywords}
+      + [[!UICONTROL Keywords] ビューについて](/help/search-social-commerce/new-ui/manage/keywords/keyword-view-about.md)
+      + [キーワードの制約の割り当ての管理](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+    + [ショッピング商品グループの管理](/help/search-social-commerce/new-ui/manage/product-groups-manage.md)
   + レポート {#reports}
     + スケジュールレポート {#scheduled}
       + [スケジュールレポートについて](/help/search-social-commerce/new-ui/reports/report-about.md)
       + [レポートの初期設定タスク](/help/search-social-commerce/new-ui/reports/initial-setup.md)
       + [レポートに使用するデータ](/help/search-social-commerce/new-ui/reports/data-used-for-reports.md)
       + [スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
-      + スケジュール済みレポートタイプ {#report-types}
+      + レポートタイプ {#report-types}
         + 基本レポートと詳細レポート {#basic-advanced-reports}
           + [基本レポートと詳細レポートについて](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
           + 基本的なレポート形式 {#basic-report-formats}
@@ -217,29 +204,14 @@ ht-degree: 2%
       + [カスタムレポートに関するFAQ](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
     + [スプレッドシート レポート フィードの管理](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
     + [変更履歴ログを表示](/help/search-social-commerce/new-ui/reports/history-logs.md)
-    + [ラベル分類の管理](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
-  + Target {#target}
-    + キーワード {#keywords}
-      + [[!UICONTROL Keywords] ビューについて](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
-      + [キーワードの制約の割り当ての管理](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
-    + 配置 {#placements}
-      + [[!UICONTROL Placements] ビューについて](/help/search-social-commerce/new-ui/target/placements/placement-view-about.md)
-      + [プレースメントの制約の割り当ての管理](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
-    + [&#x200B; [!DNL Google Ads] 動的検索ターゲットの管理](/help/search-social-commerce/new-ui/target/dynamic-search-target-manage.md)
-  + アセット {#assets}
-    + [クリエイティブアセットの表示と作成](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)
-    + [ショッピング商品グループの管理](/help/search-social-commerce/new-ui/assets/product-groups-manage.md)
+  + プラン {#plan}
+    + シミュレーション {#simulations}
+      + [シミュレーションについて](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
+      + [カスタムシミュレーションの実行または再実行](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+      + [シミュレーションの詳細を表示](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
+      + [シミュレーションのダウンロード](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+    + [[!UICONTROL Spend Planner]の使用](/help/search-social-commerce/new-ui/plan/spend-planner.md)
   + 設定 {#setup}
-    + アカウント {#accounts}
-      + [広告ネットワークアカウントについて](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
-      + API接続アカウント {#api}
-        + [API接続による広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
-        + [&#x200B; [!DNL Google Ads]  マネージャーアカウントの資格情報の管理](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
-        + [API接続を介した広告ネットワークデータの手動同期](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/sync-api-accounts.md)
-      + データアップロードアカウント {#data-upload}
-        + [データのアップロード用の広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
-      + [トラッキング専用の [!DNL Naver]  アカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
-    + [&#x200B; [!DNL Microsoft Advertising]での [!DNL Google Ads]  キャンペーンのレプリケート](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)
     + Bulksheets {#bulksheets}
       + [バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)
       + [バルクシートをアップロードするためのFTP アカウントの設定](/help/search-social-commerce/new-ui/set-up/bulksheets/ftp-account.md)
@@ -251,6 +223,34 @@ ht-degree: 2%
       + [バルクシートエラー](/help/search-social-commerce/new-ui/set-up/bulksheets/errors.md)
       + [アップロードされたバルクシートとエラーファイルの削除](/help/search-social-commerce/new-ui/set-up/bulksheets/delete.md)
       + [進行中のバルクシート ジョブの停止](/help/search-social-commerce/new-ui/set-up/bulksheets/stop-job.md)
+    + [ラベル分類の管理](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
+    + [&#x200B; [!DNL Google Ads]  マネージャーアカウントの資格情報の管理](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
+  + 目標 {#goals}
+    + 課題 {#objectives}
+      + [目標について](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
+      + [目標の設定](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md)
+      + [目標の編集](/help/search-social-commerce/new-ui/goals/objectives/objective-edit.md)
+      + [目標の削除](/help/search-social-commerce/new-ui/goals/objectives/objective-delete.md)
+      + [目的に合わせて体重を推奨する](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
+      + [目的のパフォーマンス指標のダウンロード](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
+      + [客観的設定](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
+      + [広告ネットワークへの目標のアップロードを有効にする](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
+    + コンバージョン数 {#conversions}
+      + [コンバージョン指標を管理するために利用できる機能](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
+      + [Adobe Advertisingのコンバージョン追跡タグを生成して実装する](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
+      + [広告主のコンバージョン指標の管理](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+      + コンバージョンの向上 {#enhanced-conversions}
+        + [リードの [!DNL Google Ads] 強化コンバージョンのコンバージョンアクションを作成します](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
+        + [オフラインのコンバージョンデータをアップロードしてコンバージョンを向上](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
+    + [コンバージョン値ルールの管理 [!DNL Google Ads] 件](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
+    + [検索入札単位の制約の管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
+  + ターゲティング {#targeting}
+    + [&#x200B; [!DNL Google Ads] 動的検索ターゲットの管理](/help/search-social-commerce/new-ui/targeting/dynamic-search-target-manage.md)
+    + 配置 {#placements}
+      + [[!UICONTROL Placements] ビューについて](/help/search-social-commerce/new-ui/targeting/placements/placement-view-about.md)
+      + [プレースメントの制約の割り当ての管理](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+  + Library {#library}
+    + [クリエイティブアセットの表示と作成](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)
   + [カスタムアラートの管理](/help/search-social-commerce/new-ui/alerts-manage.md)
   + [通知の管理](/help/search-social-commerce/new-ui/notifications-manage.md)
   + [ユーザー管理](/help/search-social-commerce/new-ui/user-administration.md)

@@ -2,13 +2,11 @@
 title: （新しいUI）スプレッドシートのレポートフィードの管理
 description: カスタム形式のスプレッドシートで日々のパフォーマンスデータを配信するスプレッドシートレポートフィードを作成、設定、更新、表示、削除する方法について説明します。
 feature: Search Reports
-source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1498'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）スプレッドシートのレポートフィードの管理
 
 *基本レポートおよびモデル精度レポートのみ*
@@ -41,14 +39,14 @@ ht-degree: 0%
 
 スプレッドシート フィードを作成するには、まず、通常のレポートテンプレートを使用して、特殊な形式の[!DNL Microsoft Excel] スプレッドシート テンプレートを作成する必要があります。 必要に応じて、[!DNL Excel] スプレッドシートをカスタマイズして、列とグラフを追加できます。
 
-1. **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;で、「[!UICONTROL Daily]」の[!UICONTROL Date Aggregation] ユニットと、必要な他のすべてのデータパラメーターを使用して、目的のレポートタイプを生成し、レポートをテンプレートとして保存します。
+1. **[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;で、「[!UICONTROL Daily]」の[!UICONTROL Date Aggregation] ユニットと、必要な他のすべてのデータパラメーターを使用して、目的のレポートタイプを生成し、レポートをテンプレートとして保存します。
 
    >[!NOTE]
    >
    > * [!UICONTROL Portfolio]、[!UICONTROL Search Engine]、[!UICONTROL Search Engine Account]、[!UICONTROL Campaign]、[!UICONTROL Ad Group]、[!UICONTROL Ad Variation]、[!UICONTROL Keyword]、および[!UICONTROL Forecast Accuracy]のレポート用のスプレッドシート フィードを作成できます。 [!UICONTROL Ad Group Report]を使用する場合は、より迅速な結果を得るために含める広告グループの数を制限してください。
    > * テンプレートで定義されている[!UICONTROL Date Range] ユニットは使用されていません。 スプレッドシート フィードを後で設定する際に、データを更新する日付を定義します。
 
-1. レポートを生成したら、**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;に移動し、レポート出力のTSVまたはXLS バージョンをファイルに書き出します。
+1. レポートを生成したら、**[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;に移動し、レポート出力のTSVまたはXLS バージョンをファイルに書き出します。
 
 1. [!DNL Excel]で、レポート用のカスタムテンプレートを作成します。
 
@@ -128,7 +126,7 @@ ht-degree: 0%
    >
    > フィードに関連付けられているレポートテンプレートが後で削除された場合、フィードも削除されます。
 
-   スプレッドシート フィードは、広告主のタイムゾーンで毎日08:00に自動的に更新されます。 レポートテンプレートにメール受信者のアドレスが含まれている場合、スプレッドシートが更新されたときに、それらのアドレスに通知が送信されます。
+   スプレッドシートのフィードは、広告主のタイムゾーンでは毎日08:00に自動的に更新されます。 レポートテンプレートにメール受信者のアドレスが含まれている場合、スプレッドシートが更新されたときに、それらのアドレスに通知が送信されます。
 
 ## スプレッドシートレポートフィード設定 {#spreadsheet-feed-settings}
 
@@ -140,7 +138,7 @@ ht-degree: 0%
 | [!UICONTROL Back Fill From] | [!UICONTROL RAW] タブ上の既存のデータが更新される開始日。過去の日数で表されます。 最大90日の値を入力します。デフォルトは7日です。<br><br>例えば、値が7で、今日が3月7日の場合、3月1日から始まる[!UICONTROL RAW] タブの既存のデータが更新されます（[!UICONTROL Back Fill Until] パラメーターで指定された終了日まで）。 3月1日より前の日付の既存のデータ行は削除されませんが、更新されません。 |
 | [!UICONTROL Back Fill Until] | [!UICONTROL RAW] タブの既存のデータが更新される終了日。過去の日数で表されます。 デフォルト値は1日（1）です。<br><br>例えば、この値が1で、今日が3月7日の場合、[!UICONTROL RAW] タブの既存のデータは3月6日まで（および[!UICONTROL Back Fill From] パラメーターで指定された開始日から）更新されます。 この値が1で、[!UICONTROL Back Fill Until] パラメーターが7で、今日が3月7日の場合、[!UICONTROL RAW] タブの既存のデータは3月1日から3月6日の間に更新されます。 いずれの例でも、3月6日以降の日付の既存のデータ行は削除されませんが、更新されません。 |
 | [!UICONTROL Email Recipients] | レポートが更新されるたびに、またはテンプレートにスケジュールが含まれている場合にレポートが実行されるたびに、通知を送信する電子メールアドレス。 デフォルトでは、ユーザーアカウントのアドレスが入力されます。 複数のアドレスを指定するには、コンマ、スペース、または新しい行で区切ります。 |
-| [!UICONTROL Schedule Time] | スプレッドシート フィードが更新される時間：広告主のタイムゾーンの08:00または10:00 ～ 23:00の間の任意の時間。 新しいスプレッドシート フィードのデフォルトは10:00です。<br><br><b>注：</b> パフォーマンス上の理由から、他のレポートが生成される場合、09:00でスプレッドシート フィードを更新することはできません。 |
+| [!UICONTROL Schedule Time] | スプレッドシートのフィードが更新される時間（広告主のタイムゾーンでは、08:00または10:00～23:00の任意の時間）。 新しいスプレッドシート フィードのデフォルトは10:00です。<br><br><b>注：</b> パフォーマンス上の理由から、他のレポートが生成される09:00にスプレッドシート フィードを更新することはできません。 |
 | [!UICONTROL Email Notification] | （メール受信者が指定されている場合）指定されたアドレスへのメール通知に含めるもの：<ul><li><i>[!UICONTROL Attach feed]</i>  – 完成したレポートのコピーをXLSX形式で送信します。 ファイルが10 MBを超える場合、通知には添付ファイルは含まれません。</li><li><i>[!UICONTROL Notification Only]</i> （既定値） – レポートへのリンクを含む、レポートの完了または失敗の通知のみを送信します。</li></ul> |
 
 ## スプレッドシート レポート フィード ファイルの表示または保存 {#spreadsheet-feed-view-or-save}
@@ -155,7 +153,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->スプレッドシート フィードは、毎日08:00にローカル タイム ゾーンで自動的に更新されます。
+>スプレッドシートのフィードは、毎日08:00にローカルタイムゾーンで自動的に更新されます。
 
 1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**&#x200B;をクリックします。
 

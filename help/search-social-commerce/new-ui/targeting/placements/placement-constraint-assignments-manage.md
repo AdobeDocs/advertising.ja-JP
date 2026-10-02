@@ -4,13 +4,11 @@ description: プレースメントに拘束を割り当てる方法について�
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）プレースメントの制約の割り当てを管理する
 
 *Beta機能*
@@ -30,7 +28,7 @@ ht-degree: 0%
 
 1つ以上のプレースメントに1つのコンストレインを割り当てることができます。
 
-1. メインメニューで、**[!UICONTROL Target]>[!UICONTROL Placements]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Targeting]>[!UICONTROL Placements]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL Placements]**」タブで、1つの制約を割り当てる各配置の横にあるチェックボックスをオンにします。
 
@@ -62,7 +60,7 @@ ht-degree: 0%
 
 ## 新しい[!UICONTROL Placements] ビューから選択したプレースメントから制約を削除します
 
-1. メインメニューで、**[!UICONTROL Target]>[!UICONTROL Placements]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Targeting]>[!UICONTROL Placements]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL Placements]**」タブで、制約の割り当てを解除する各プレースメントの横にあるチェックボックスをオンにします。
 
@@ -91,4 +89,4 @@ ht-degree: 0%
 >* [&#x200B; （新しいUI）検索入札単位の制約を管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [&#x200B; （新しいUI） キャンペーンの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [&#x200B; （新しいUI）広告グループの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [&#x200B; （新しいUI） キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
+>* [&#x200B; （新しいUI） キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)

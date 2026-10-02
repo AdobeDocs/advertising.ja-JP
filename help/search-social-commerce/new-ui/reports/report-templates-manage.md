@@ -2,13 +2,11 @@
 title: （新しいUI）レポートテンプレートの管理
 description: スケジュール済みレポートとオンデマンド済みレポートの再利用可能なレポートテンプレートを作成、表示、編集、削除する方法について説明します。
 feature: Search Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）レポートテンプレートの管理
 
 レポートテンプレートは、ほとんどのレポートを生成するときに再利用できる、事前定義されたレポートレイアウトです。 テンプレートを使用すると、デフォルト以外のパラメーターを使用したり、同じレポートのバリエーションを実行したり、同じスケジュールに従って同じレポートを実行したりする場合の時間を節約できます。 保存されたレポートテンプレートは、レポートページの「レポートテンプレート」セクションから使用できます。
@@ -27,7 +25,7 @@ ht-degree: 0%
 
 <!-- Add xrefs to report procedures and settings once available -->
 
-1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. 次のいずれかの操作を行います。
 
@@ -35,17 +33,17 @@ ht-degree: 0%
 
    * 既存のテンプレートに基づいてテンプレートを作成するには：
 
-      1. 「**[!UICONTROL Templates]**」タブをクリックします。
+     1. 「**[!UICONTROL Templates]**」タブをクリックします。
 
-      1. 次のいずれかの操作を行います。
+     1. 次のいずれかの操作を行います。
 
-         * テンプレート行の上にカーソルを置き、**...** > **[!UICONTROL Duplicate]**&#x200B;をクリックします。
+        * テンプレート行の上にカーソルを置き、**...** > **[!UICONTROL Duplicate]**&#x200B;をクリックします。
 
-         * 既存のテンプレートの横にあるチェックボックスをオンにします。 一括アクションツールバーで、[複製](/help/search-social-commerce/assets/duplicate.png)をクリックします。
+        * 既存のテンプレートの横にあるチェックボックスをオンにします。 一括アクションツールバーで、[複製](/help/search-social-commerce/assets/duplicate.png)をクリックします。
 
-      1. （オプション）テンプレートの名前を変更し、必要に応じてレポート設定を編集します。
+     1. （オプション）テンプレートの名前を変更し、必要に応じてレポート設定を編集します。
 
-         **[!UICONTROL Next]**&#x200B;をクリックして、設定セクション間を移動します。
+        **[!UICONTROL Next]**&#x200B;をクリックして、設定セクション間を移動します。
 
 1. **[!UICONTROL Save as Template]**&#x200B;設定を有効にします。
 
@@ -97,7 +95,7 @@ Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 1つ以上のテンプレートに対するレポートは、いつでも実行できます。
 
-1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL Templates]**」タブをクリックします。
 
@@ -105,23 +103,23 @@ Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
    * （単一テンプレートを実行するには）:
 
-      1. テンプレート行の上にカーソルを置き、**...** > **[!UICONTROL Run]**&#x200B;をクリックします。
+     1. テンプレート行の上にカーソルを置き、**...** > **[!UICONTROL Run]**&#x200B;をクリックします。
 
-      1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
+     1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
 
    * （1つ以上のテンプレートを実行するには）:
 
-      1. 実行する各テンプレートの横にあるチェックボックスをオンにします。
+     1. 実行する各テンプレートの横にあるチェックボックスをオンにします。
 
-      1. 一括操作ツールバーで、[実行](/help/search-social-commerce/assets/run-new.png "実行")をクリックします。
+     1. 一括操作ツールバーで、[実行](/help/search-social-commerce/assets/run-new.png "実行")をクリックします。
 
-      1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
+     1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
 
 ## レポートテンプレートの削除 {#template-delete}
 
 使用可能な任意のレポートテンプレートを削除できます。 スケジュールを含むテンプレートを削除しても、そのレポートは今後生成されません。
 
-1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL Templates]**」タブをクリックします。
 
@@ -129,14 +127,14 @@ Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
    * （単一のテンプレートを削除するには）:
 
-      1. テンプレート行の上にカーソルを置き、**...** > **[!UICONTROL Delete]**&#x200B;をクリックします。
+     1. テンプレート行の上にカーソルを置き、**...** > **[!UICONTROL Delete]**&#x200B;をクリックします。
 
-      1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
+     1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
 
    * （1つ以上のテンプレートを削除するには）:
 
-      1. 削除する各テンプレートの横にあるチェックボックスをオンにします。
+     1. 削除する各テンプレートの横にあるチェックボックスをオンにします。
 
-      1. 一括操作ツールバーで、[削除](/help/search-social-commerce/assets/delete-new.png)をクリックします。
+     1. 一括操作ツールバーで、[削除](/help/search-social-commerce/assets/delete-new.png)をクリックします。
 
-      1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
+     1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。

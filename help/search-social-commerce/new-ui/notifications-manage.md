@@ -2,13 +2,11 @@
 title: （新しいUI）通知の管理
 description: プッシュ通知やNotification Center web アプリケーションなど、Search、Social、およびCommerce通知を表示、設定、管理する方法について説明します。
 feature: Search Notifications
-source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）通知の管理
 
 *Beta機能*
@@ -45,57 +43,57 @@ ht-degree: 0%
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**: [&#x200B; バルクシート操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)が完了または失敗したことを通知します。<!-- Update link once file for new UI available-->
+  * **[!UICONTROL Bulksheets]**: [&#x200B; バルクシート操作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)が完了または失敗したことを通知します。<!-- Update link once file for new UI available-->
 
-   * **[!UICONTROL Manager Account Missing]**:Search、Social、およびCommerceに[ad network manager アカウント &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)の資格情報が不足していることを知らせる通知。これは、重要な機能を正しく設定するために必要です。<!-- Moving to Campaign Management > Setup Errors at some point -->
+  * **[!UICONTROL Manager Account Missing]**:Search、Social、およびCommerceに[ad network manager アカウント &#x200B;](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)の資格情報が不足していることを知らせる通知。これは、重要な機能を正しく設定するために必要です。<!-- Moving to Campaign Management > Setup Errors at some point -->
 
-   * **[!UICONTROL UI Actions]**：バックグラウンドで実行されたジョブが完了または失敗したことを通知します。 ジョブタイプには、[&#x200B; バルクシートジョブ &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->、データテーブル内の一括編集ジョブ、またはツールバー、エンティティ割り当てジョブ、ユーザーインターフェイス内のその他のアクション（広告ネットワークとの同期、行のペースト、エンティティの名前の変更など）が含まれます。 エンティティの割り当ては、任意のエンティティに[&#x200B; ラベル分類値](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)を割り当てたり割り当てを解除したり、キャンペーンをポートフォリオに割り当てたり、[入札制約をエンティティに割り当てたり割り当てを解除したりします](/help/search-social-commerce/new-ui/goals/constraints-manage.md)。
+  * **[!UICONTROL UI Actions]**：バックグラウンドで実行されたジョブが完了または失敗したことを通知します。 ジョブタイプには、[&#x200B; バルクシートジョブ &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->、データテーブル内の一括編集ジョブ、またはツールバー、エンティティ割り当てジョブ、ユーザーインターフェイス内のその他のアクション（広告ネットワークとの同期、行のペースト、エンティティの名前の変更など）が含まれます。 エンティティの割り当ては、任意のエンティティに[&#x200B; ラベル分類値](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)を割り当てたり割り当てを解除したり、キャンペーンをポートフォリオに割り当てたり、[入札制約をエンティティに割り当てたり割り当てを解除したりします](/help/search-social-commerce/new-ui/goals/constraints-manage.md)。
 
-   * [!UICONTROL Data Upload]
+  * [!UICONTROL Data Upload]
 
-      * **[!UICONTROL Direct File Upload]**: アカウント データ ファイルがアップロードされたか、アカウント データのアップロードに失敗したという通知が、[&#x200B; アカウント データの手動アップロード &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/upload-account-data.md)を介して送信されました。<!-- Verify description-->
+    * **[!UICONTROL Direct File Upload]**: アカウント データ ファイルがアップロードされたか、アカウント データのアップロードに失敗したという通知が、[&#x200B; アカウント データの手動アップロード &#x200B;](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/upload-account-data.md)を介して送信されました。<!-- Verify description-->
 
-      * **[!UICONTROL File Upload to Cloud Storage]**：アカウントデータファイルがアップロードされたか、アカウントデータのアップロードに失敗したという通知（[&#x200B; アカウントデータを [!DNL Amazon] [!DNL S3] バケットにアップロード &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/upload-account-data.md)経由）。<!-- Verify description-->
+    * **[!UICONTROL File Upload to Cloud Storage]**：アカウントデータファイルがアップロードされたか、アカウントデータのアップロードに失敗したという通知（[&#x200B; アカウントデータを [!DNL Amazon] [!DNL S3] バケットにアップロード &#x200B;](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/upload-account-data.md)経由）。<!-- Verify description-->
 
-   * [!UICONTROL Network Errors]
+  * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Account Auth Error]**：資格情報が無効であるか、認証トークンが無効または期限切れであることが原因で、Search, Social, &amp; Commerceが[ad network account](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)にアクセスできなかったことを知らせる通知。
+    * **[!UICONTROL Account Auth Error]**：資格情報が無効であるか、認証トークンが無効または期限切れであることが原因で、Search, Social, &amp; Commerceが[ad network account](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)にアクセスできなかったことを知らせる通知。
 
-      * **[!UICONTROL Account Missing]**: Search, Social, &amp; Commerceに[広告ネットワークアカウント &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)の資格情報が欠落していることを知らせる通知。
+    * **[!UICONTROL Account Missing]**: Search, Social, &amp; Commerceに[広告ネットワークアカウント &#x200B;](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)の資格情報が欠落していることを知らせる通知。
 
-      * **[!UICONTROL Manager Account Auth Error]**：無効な資格情報または無効または期限切れの認証トークンが原因で、Search, Social, &amp; Commerceが[ad network manager アカウント &#x200B;](/help/search-social-commerce/admin/manager-accounts.md)と同期できなかったことを知らせる通知。<!-- Update link once file for new UI available-->
+    * **[!UICONTROL Manager Account Auth Error]**：無効な資格情報または無効または期限切れの認証トークンが原因で、Search, Social, &amp; Commerceが[ad network manager アカウント &#x200B;](/help/search-social-commerce/admin/manager-accounts.md)と同期できなかったことを知らせる通知。<!-- Update link once file for new UI available-->
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Advertising Insights]**: [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md)が完了または失敗したことを通知します。
+  * **[!UICONTROL Advertising Insights]**: [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md)が完了または失敗したことを通知します。
 
-   * **[!UICONTROL Custom Alerts]**: アラートテンプレートに対して[&#x200B; アラートインスタンス &#x200B;](/help/search-social-commerce/new-ui/alerts-manage.md)がトリガーされたという通知。
+  * **[!UICONTROL Custom Alerts]**: アラートテンプレートに対して[&#x200B; アラートインスタンス &#x200B;](/help/search-social-commerce/new-ui/alerts-manage.md)がトリガーされたという通知。
 
-   * **[!UICONTROL Spreadsheet Feeds]**: [&#x200B; スプレッドシート フィード &#x200B;](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)が完了または失敗したことを通知します。
+  * **[!UICONTROL Spreadsheet Feeds]**: [&#x200B; スプレッドシート フィード &#x200B;](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)が完了または失敗したことを通知します。
 
-   * [!UICONTROL Reports]
+  * [!UICONTROL Reports]
 
-      * **[!UICONTROL Grid Reports]**：特定のビューからのデータビューレポート（[!UICONTROL Camapigns] ビューのデータテーブルの内容など）が完了または失敗したことの通知。
+    * **[!UICONTROL Grid Reports]**：特定のビューからのデータビューレポート（[!UICONTROL Camapigns] ビューのデータテーブルの内容など）が完了または失敗したことの通知。
 
-      * **[!UICONTROL Reports]**: [&#x200B; カスタムレポートまたはスケジュール済みレポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/report-manage.md)が完了または失敗したことを通知します。
+    * **[!UICONTROL Reports]**: [&#x200B; カスタムレポートまたはスケジュール済みレポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/report-manage.md)が完了または失敗したことを通知します。
 
-   * [!UICONTROL Portfolio Management]
+  * [!UICONTROL Portfolio Management]
 
-      * **[!UICONTROL Intraday Optimization]**：日内最適化が無効になっている場合の通知。
+    * **[!UICONTROL Intraday Optimization]**：日内最適化が無効になっている場合の通知。
 
-      * **[!UICONTROL Simulation Report]**: [&#x200B; シミュレーションジョブ &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)に関する通知。
+    * **[!UICONTROL Simulation Report]**: [&#x200B; シミュレーションジョブ &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)に関する通知。
 
-      * [!UICONTROL Objective & Conversion Configuration]
+    * [!UICONTROL Objective & Conversion Configuration]
 
-         * **[!UICONTROL Auto Assign Campaign Conversion Goal - Advertiser Level]**: キャンペーンコンバージョン目標の自動割り当ての成功および失敗に関する広告主レベルの通知。
+      * **[!UICONTROL Auto Assign Campaign Conversion Goal - Advertiser Level]**: キャンペーンコンバージョン目標の自動割り当ての成功および失敗に関する広告主レベルの通知。
 
-         * **[!UICONTROL Auto Assign Campaign Conversion Goal - Portfolio Level]**: キャンペーンコンバージョン目標の自動割り当ての成功および失敗に関するポートフォリオレベルの通知。
+      * **[!UICONTROL Auto Assign Campaign Conversion Goal - Portfolio Level]**: キャンペーンコンバージョン目標の自動割り当ての成功および失敗に関するポートフォリオレベルの通知。
 
-      * [!UICONTROL Portfolios]
+    * [!UICONTROL Portfolios]
 
-         * **[!UICONTROL Portfolio Bulksheet Diagnostic Report]**: [&#x200B; ポートフォリオ一括編集ジョブに関する通知をバルクシート &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)経由で送信します。
+      * **[!UICONTROL Portfolio Bulksheet Diagnostic Report]**: [&#x200B; ポートフォリオ一括編集ジョブに関する通知をバルクシート &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)経由で送信します。
 
-         * **[!UICONTROL Portfolio Settings]**: ポートフォリオ設定の[変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)に関する通知。
+      * **[!UICONTROL Portfolio Settings]**: ポートフォリオ設定の[変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)に関する通知。
 
 <!--
 
@@ -192,9 +190,9 @@ In Campaign Management:
 
    * 通知を購読または購読解除するには、[!UICONTROL Subscribe]列のスライダーを移動します。
 
-      * すべての通知タイプの購読を解除するには、スライダーを左（無効）に移動します。
+     * すべての通知タイプの購読を解除するには、スライダーを左（無効）に移動します。
 
-      * 1つ以上の通知タイプを購読するには、スライダーを右（有効）に移動します。
+     * 1つ以上の通知タイプを購読するには、スライダーを右（有効）に移動します。
 
    * （[!UICONTROL Subscribe]が有効になっている場合）電子メール通知を購読するには、**[!UICONTROL Email]**&#x200B;列のチェックボックスをオンにします。
 
@@ -298,21 +296,21 @@ Search、Social、およびCommerce内で通知を有効にし、ブラウザー
 
 * Search, Social, &amp; Commerceから：
 
-   1. 任意のページの右上にある「![通知](/help/search-social-commerce/assets/notifications.png "通知")」をクリックします。
+  1. 任意のページの右上にある「![通知](/help/search-social-commerce/assets/notifications.png "通知")」をクリックします。
 
-   1. **[!UICONTROL View All]**&#x200B;をクリックします。
+  1. **[!UICONTROL View All]**&#x200B;をクリックします。
 
-   1. 右下の「![通知センターweb アプリのインストール &#x200B;](/help/search-social-commerce/assets/notifications-install-app.png "通知センターweb アプリのインストール ")」をクリックします。
+  1. 右下の「![通知センターweb アプリのインストール &#x200B;](/help/search-social-commerce/assets/notifications-install-app.png "通知センターweb アプリのインストール ")」をクリックします。
 
-   1. 確認メッセージで、**[!UICONTROL Add]**&#x200B;をクリックします。
+  1. 確認メッセージで、**[!UICONTROL Add]**&#x200B;をクリックします。
 
-   1. [!UICONTROL Install Notification Center] アプリ メッセージで、**[!UICONTROL Install]**&#x200B;をクリックします。
+  1. [!UICONTROL Install Notification Center] アプリ メッセージで、**[!UICONTROL Install]**&#x200B;をクリックします。
 
 * [!DNL Edge] メインメニューから：
 
-   1. ブラウザーのツールバーで、**...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**&#x200B;をクリックします。
+  1. ブラウザーのツールバーで、**...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**&#x200B;をクリックします。
 
-   1. [!UICONTROL Install Notification Center] アプリ メッセージで、**[!UICONTROL Install]**&#x200B;をクリックします。
+  1. [!UICONTROL Install Notification Center] アプリ メッセージで、**[!UICONTROL Install]**&#x200B;をクリックします。
 
 ### [!DNL Google Chrome]の[!UICONTROL Notification Center] Web アプリケーションをアンインストールします
 

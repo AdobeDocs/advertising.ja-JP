@@ -4,20 +4,25 @@ description: 利用可能な様々なレポートタイプやレポートの自�
 feature: Search Reports
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
+    internal-label: Reports
   - id: c916feea-e212-4773-b673-4daed287b8a3
+    internal-label: Assist reports
   - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+    internal-label: Basic reports
   - id: ff99aaef-142d-4c93-a88c-011e979e3843
+    internal-label: Advanced reports
   - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+    internal-label: Model accuracy reports
   - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
-source-git-commit: bd4246ec79684167254a153d2f3d0b917a493096
+    internal-label: Specialty reports
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）予定レポートについて
 
 スケジュールされたパフォーマンスレポートを使用すると、ポートフォリオ、広告ネットワーク、広告ネットワークアカウントエンティティのパフォーマンスを必要に応じて詳細に追跡および管理できます。 多くのレポートでは、各マーケティングチャネルの広告がコンバージョン率に与える影響を包括的に把握できます。
@@ -28,7 +33,7 @@ ht-degree: 0%
 
 ## 使用可能なレポートカテゴリ
 
-次のレポートカテゴリは、[!UICONTROL Scheduled Reports] ビューから利用できます。 それらのすべてにアクセスできない場合があります。使用可能なレポートと生成されるデータは、お客様の役割と顧客アカウントの設定方法によって決まります。
+次のレポートカテゴリは、[!UICONTROL Reports] > [!UICONTROL Reports] ビューで使用できます。 それらのすべてにアクセスできない場合があります。使用可能なレポートと生成されるデータは、お客様の役割と顧客アカウントの設定方法によって決まります。
 
 | レポートカテゴリ | 説明 |
 | ----| ---- |
@@ -48,9 +53,9 @@ ht-degree: 0%
 
 * [&#x200B; スプレッドシート フィード &#x200B;](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)を使用して、カスタマイズしたスプレッドシート テンプレートを毎日のパフォーマンスデータで更新し続けます。
 
-## [!UICONTROL Scheduled Reports] ビュー
+## [!UICONTROL Reports] ビュー
 
-[!UICONTROL Reports] > [!UICONTROL Scheduled Reports] ビューでは、レポート、テンプレート、スプレッドシート フィードを作成および管理できます。 ビューには、次の2つのタブがあります。
+[!UICONTROL Reports] > [!UICONTROL Reports] ビューでは、レポート、テンプレート、スプレッドシート フィードを作成および管理できます。 ビューには、次の2つのタブがあります。
 
 * 「**[!UICONTROL Latest Reports]**」タブには、過去7日間にリクエストされたすべてのレポートが一覧表示されます。ただし、手動で削除されたものを除きます。デフォルトでは、最新のレポートが上部に表示されます。 各レポートに表示される情報には、実行スケジュール（該当する場合）、データが生成された、または生成される開始日と終了日、レポートのステータス（*[!UICONTROL Finished]*、*[!UICONTROL In Progress]*、または&#x200B;*[!UICONTROL Error]*）が含まれます。
 

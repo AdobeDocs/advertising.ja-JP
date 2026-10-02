@@ -2,13 +2,11 @@
 title: （新しいUI） Microsoft AdvertisingでのGoogle Ads キャンペーンのレプリケート
 description: Google Ads アカウント内の同期済みキャンペーンを、同期済みMicrosoft Advertising アカウントに直接書き出す方法について説明します。
 feature: Search Campaign Management
-source-git-commit: 75e264e213f60ae45c4f51f0a21352f690d6d699
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '987'
 ht-degree: 0%
-
 ---
-
 # （新しいUI） [!DNL Google Ads]件のキャンペーンを[!DNL Microsoft Advertising]にレプリケート
 
 *Beta機能*
@@ -37,9 +35,11 @@ ht-degree: 0%
 
  [!DNL Google Ads]  キャンペーン [&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}からインポートされたものを確認してください。
 
-1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
-1. **[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
+1. キャンペーン リストの上で、**[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
+
+1. **[!UICONTROL + Import Campaigns]**&#x200B;をクリックします。
 
 1. [読み込み設定](#campaign-import-settings)を指定します。
 
@@ -47,13 +47,15 @@ ht-degree: 0%
 
 1. 概要で選択内容を確認し、**[!UICONTROL Start Import]**&#x200B;をクリックします。
 
-1. （オプション）検索、ソーシャル、およびCommerce トラッキングを[account](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)、[campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[ad group](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)、または[ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)の設定内に追加します。
+1. （オプション）検索、ソーシャル、およびCommerce トラッキングを[account](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、[campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[ad group](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)、または[ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)の設定内に追加します。
 
 ## キャンペーン読み込みジョブのスケジュール設定の編集
 
  [!DNL Google Ads]  キャンペーン [&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}からインポートされたものを確認してください。
 
-1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
+
+1. キャンペーン リストの上で、**[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL List of Import Jobs]**」タブで、読み込みジョブの名前をクリックし、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
@@ -65,13 +67,17 @@ ht-degree: 0%
 
 ソース [!DNL Google Ads] アカウント、ターゲット [!DNL Microsoft Advertising] アカウント、インポート時間またはスケジュール、ジョブを作成したユーザーなど、すべてのインポート ジョブを一覧表示できます。 定期的にスケジュールされたインポート中を含め、インポートジョブを複数回実行すると、各オカレンスは個別のジョブとしてリストされます。
 
-1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
+
+1. キャンペーン リストの上で、**[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
    ビューはデフォルトで&#x200B;**[!UICONTROL List of Import Jobs]** タブに開きます。
 
 ## キャンペーン読み込みジョブの実行
 
-1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
+
+1. キャンペーン リストの上で、**[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL List of Import Jobs]**」タブで、インポートジョブの横にあるチェックボックスを選択し、「**[!UICONTROL Run Now]**」をクリックします。
 
@@ -79,7 +85,9 @@ ht-degree: 0%
 
 開始時間、ソース [!DNL Google Ads] アカウント、ターゲット [!DNL Microsoft Advertising] アカウント、ジョブを作成したユーザー、成功および失敗した操作の数、各ジョブの通知を受信した電子メールアドレスなど、完了または失敗したすべてのインポートジョブを一覧表示できます。 アカウント内の各エンティティレベル（キャンペーンやキーワードなど）で追加、同期、削除されたアイテムの数、生成されたエラーなど、各ジョブで発生したターゲット [!DNL Microsoft Advertising] アカウントへの変更に関する詳細を表示できます。
 
-1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
+
+1. キャンペーン リストの上で、**[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL Import Logs]**」タブをクリックします。
 
@@ -131,4 +139,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
+>* [広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)

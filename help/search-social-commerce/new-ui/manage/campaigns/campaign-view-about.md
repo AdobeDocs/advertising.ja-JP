@@ -7,18 +7,20 @@ exl-id: 7d261ac3-5d89-4357-9866-19a7e3aab837
 TQID: https://experienceleague.adobe.com/G--2kvUQgSzS2pvzybW--3YOQ4apkV-WnqI-e0CKZ98
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
+    internal-label: Optimization
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 257
+source-wordcount: '257'
 ht-degree: 0%
-
 ---
-
 # （新しいUI） [!UICONTROL Campaigns] ビューについて
 
 *Beta機能*
@@ -45,7 +47,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 * [キャンペーンに制約を割り当て、キャンペーンから制約を割り当て解除します](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
-* [&#x200B; ラベル分類をキャンペーンに割り当て](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
+* [&#x200B; ラベル分類をキャンペーンに割り当て](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
 
 * [[!UICONTROL Campaigns] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 

@@ -4,13 +4,11 @@ description: '[!UICONTROL Keywords] ビューで何ができるかを説明し�
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: e89e47d3-b41c-4330-8b72-f601194d5ddc
-source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
-
 ---
-
 # （新しいUI） [!UICONTROL Keywords] ビューについて
 
 *Beta機能*
@@ -23,10 +21,10 @@ ht-degree: 0%
 
 ## 使用可能なアクション
 
-* [キーワードに制約を割り当て、キーワードから制約を割り当て解除する](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
+* [キーワードに制約を割り当て、キーワードから制約を割り当て解除する](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
 
-* [&#x200B; キーワードにラベル分類](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)を割り当てる
+* [&#x200B; キーワードにラベル分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)を割り当てる
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
+>* [&#x200B; キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)

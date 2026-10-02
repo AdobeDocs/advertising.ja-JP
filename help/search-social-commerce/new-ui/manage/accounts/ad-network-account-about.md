@@ -3,13 +3,11 @@ title: （新しいUI）広告ネットワークアカウントについて
 description: 新しい検索、ソーシャル、およびCommerce UIの広告ネットワークアカウントについて説明します。
 feature: Search Campaign Management
 exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）広告ネットワークアカウントについて
 
 Search, Social, &amp; Commerceは、サポートされている広告ネットワーク上で広告主のアカウントをトラッキングできます。 アカウントのトラッキングを有効にするには、対応するアカウントレコードを作成する必要があります。 Search, Social, &amp; Commerceと同期するか、広告で入札や予算を最適化するかにかかわらず、あらゆるタイプのアカウントの詳細を設定する必要があります。
@@ -42,8 +40,8 @@ Search, Social, &amp; Commerceで新しい[!DNL Naver] アカウントを設定�
 
 >[!MORELIKETHIS]
 >
->* [API接続による広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
->* [&#x200B; データのアップロード用の広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
->* [&#x200B; トラッキング専用の [!DNL Naver]  アカウントの管理](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+>* [API接続による広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)
+>* [&#x200B; データのアップロード用の広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/data-upload-account-manage.md)
+>* [&#x200B; トラッキング専用の [!DNL Naver]  アカウントの管理](/help/search-social-commerce/new-ui/manage/accounts/template-account-manage.md)
 >* [&#x200B; トラッキング専用アカウントを実装 [!DNL Naver] します](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [&#x200B; マーチャント センターのアカウントの管理](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)

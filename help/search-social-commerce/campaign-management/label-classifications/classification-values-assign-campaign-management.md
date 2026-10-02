@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/r08RxDrdXIkUP7ZJgw8x-g47m0Ioxjo9SySjg71-PkM
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 764
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当て
 
 キャンペーン管理ビューから、キャンペーン、広告グループ、キーワード、広告、プレースメント、ユニットレベルの製品グループ、動的検索ターゲットの次の検索エンティティの分類値を割り当てて削除できます。 必要に応じて、割り当てプロセス中に分類と分類値を作成できます。 各ラベル分類には、最大2000個の値を指定できます。
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 新しいUIで使用可能な該当するアカウントコンポーネントに分類値を割り当てることができます。
 
-1. **[!UICONTROL Manage]**&#x200B;または&#x200B;**[!UICONTROL Target]** メニューからエンティティ ビューを開きます。
+1. **[!UICONTROL Manage]**&#x200B;または&#x200B;**[!UICONTROL Targeting]** メニューからエンティティ ビューを開きます。
 
 1. 各関連行の横にあるチェックボックスをオンにします。
 
@@ -69,11 +69,11 @@ ht-degree: 0%
 
    * （1つ以上のエンティティに値を割り当てるには）次の操作を行います。
 
-      * 各関連行の横にあるチェックボックスをオンにします。
+     * 各関連行の横にあるチェックボックスをオンにします。
 
-        複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
+       複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-      * データテーブルの上にあるツールバーで、![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、**[!UICONTROL Classification]**&#x200B;をクリックします。
+     * データテーブルの上にあるツールバーで、![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、**[!UICONTROL Classification]**&#x200B;をクリックします。
 
 1. [!UICONTROL Assignment Details]で、次のいずれかの操作を行います。
 

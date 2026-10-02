@@ -1,28 +1,30 @@
 ---
 title: クリエイティブアセットの表示と作成
-description: ' [!DNL Google Ads] および [!DNL Microsoft Advertising]  アカウントレベルのアセットライブラリで再利用可能な画像、ビデオ、テキストアセットを表示および作成する方法について説明します。'
+description: '[!DNL Google Ads]および[!DNL Microsoft Advertising]のアカウントレベルのアセットライブラリで再利用可能な画像、ビデオ、テキストアセットを表示および作成する方法について説明します。'
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47301d06bc2a06c2601107abd988e787114e36bb
+    internal-label: User
+source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '494'
 ht-degree: 0%
-
 ---
-
 
 # クリエイティブアセットの表示と作成
 
 *[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントのみ*
 
-[!UICONTROL Assets] > [!UICONTROL Creatives]では、[!DNL Google Ads]および[!DNL Microsoft Advertising]のアカウントレベルのアセットライブラリで、再利用可能なすべての画像、ビデオ、および（2&rbrace;の場合のみ）テキストアセットを表示できます。 [!DNL Google Ads]このリストには、[!DNL AI Max]対応キャンペーンの[!DNL Google Ads]広告グループに対してAIが生成したアセットが含まれています。
+[!UICONTROL Library] > [!UICONTROL Creatives]では、[!DNL Google Ads]および[!DNL Microsoft Advertising]のアカウントレベルのアセットライブラリで、再利用可能なすべての画像、ビデオ、および（2&rbrace;の場合のみ）テキストアセットを表示できます。 [!DNL Google Ads]このリストには、[!DNL AI Max]対応キャンペーンの[!DNL Google Ads]広告グループに対してAIが生成したアセットが含まれています。
 
 広告ネットワークアカウントの新しいアセットを手動で作成し、広告ネットワークにアップロードできます。 <!-- Verify if you can use the AI-generated ones --> アップロードしたアセットは、パフォーマンスの最大化キャンペーンに使用できます。
 
@@ -30,7 +32,7 @@ AIが生成したテキストアセットを、関連する広告グループか
 
 ## クリエイティブアセットを表示
 
-1. メインメニューで、**[!UICONTROL Assets]>[!UICONTROL Creatives]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Library]>[!UICONTROL Creatives]**&#x200B;をクリックします。
 
 1. ツールバーで、広告ネットワークとアカウントを選択します。
 
@@ -42,7 +44,7 @@ AIが生成したテキストアセットを、関連する広告グループか
 
 ## アセットの作成とアップロード
 
-1. メインメニューで、**[!UICONTROL Assets]>[!UICONTROL Creatives]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Library]>[!UICONTROL Creatives]**&#x200B;をクリックします。
 
 1. ツールバーで、広告ネットワークとアカウントを選択します。
 
@@ -90,7 +92,7 @@ AIが生成したテキストアセットを、関連する広告グループか
 
 削除されたテキストアセットは再度提供されませんが、パフォーマンスデータはレポートで引き続き利用できます。
 
-1. メインメニューで、**[!UICONTROL Assets]>[!UICONTROL Creatives]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Library]>[!UICONTROL Creatives]**&#x200B;をクリックします。
 
 1. ツールバーで、広告ネットワークとアカウントを選択します。
 

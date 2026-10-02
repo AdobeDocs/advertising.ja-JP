@@ -6,22 +6,22 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/zdshElTCMuExmxn7sV-9fXY8hyjRximonpWr7hAkDtI
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: '302'
 ht-degree: 0%
-
 ---
-
 # ラベル分類の作成
 
 各広告主は、最大30個のラベル分類を持つことができます。
 
 ## （新しいUI）ラベル分類の作成
 
-1. **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**&#x200B;をクリックします。
+1. **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**&#x200B;をクリックします。
 
 1. 右上の「**[!UICONTROL Create Classification]**」をクリックします。
 

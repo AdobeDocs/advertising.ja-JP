@@ -2,13 +2,11 @@
 title: ラベル分類の管理
 description: ラベル分類を使用してアカウントコンポーネントをグループ化する方法について説明します。
 feature: Search Label Classifications
-source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
-
 ---
-
 # ラベル分類の管理
 
 ラベル分類は、アカウントコンポーネントを意味のあるセットにグループ化するのに役立ちます。 例えば、「Geo」という親ラベル分類を作成し、分類の中で地理的地域（「United Kingdom」や「Japan」など）ごとに異なるラベル値を作成し、そのラベル値を[入札ユニット &#x200B;](/help/search-social-commerce/glossary.md#a-b)または親キャンペーンに割り当てることができます。 その後、任意のラベル値をビューやレポートに別の列として含め、様々な分類グループや値に関するレポートをサブピボットできます。
@@ -49,7 +47,7 @@ ht-degree: 0%
 
 <!-- Update links to bulksheet columns once I have new files/paths -->
 
-1. **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**&#x200B;をクリックします。
+1. **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**&#x200B;をクリックします。
 
 1. 右上の「**[!UICONTROL Create Classification]**」をクリックします。
 
@@ -69,7 +67,7 @@ ht-degree: 0%
 >
 >一部の広告ネットワークおよびキャンペーンタイプのキーワードと広告コピーは[変更不可](/help/search-social-commerce/campaign-management/faqs-campaigns.md)です。これは、編集すると既存のエンティティが削除され、新しいエンティティが作成されることを意味します。 この方法で既存のエンティティが削除された場合、ラベル分類は新しいエンティティに割り当てられません。
 
-1. **[!UICONTROL Manage]**&#x200B;または&#x200B;**[!UICONTROL Target]** メニューからエンティティ ビューを開きます。
+1. **[!UICONTROL Manage]**&#x200B;または&#x200B;**[!UICONTROL Targeting]** メニューからエンティティ ビューを開きます。
 
 1. 各関連行の横にあるチェックボックスをオンにします。
 
@@ -155,7 +153,7 @@ ht-degree: 0%
 >
 >ラベル分類から値を削除するには、「[&#x200B; ラベル分類値を削除](#classification-values-delete)」を参照してください。
 
-1. **[!UICONTROL Manage]**&#x200B;または&#x200B;**[!UICONTROL Target]** メニューからエンティティ ビューを開きます。
+1. **[!UICONTROL Manage]**&#x200B;または&#x200B;**[!UICONTROL Targeting]** メニューからエンティティ ビューを開きます。
 
 1. 各関連行の横にあるチェックボックスをオンにします。
 
@@ -177,7 +175,7 @@ ht-degree: 0%
 >
 >アカウントコンポーネントから分類値を簡単に関連付け解除するには、「[&#x200B; アカウントコンポーネントからラベル分類値を削除](#classification-values-remove)」を参照してください。
 
-1. **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**&#x200B;をクリックします。
+1. **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL Label Values]**」タブをクリックします。
 
@@ -201,7 +199,7 @@ ht-degree: 0%
 >
 >アカウントコンポーネントから分類値を簡単に関連付け解除するには、「[&#x200B; アカウントコンポーネントからラベル分類値を削除](#classification-values-remove)」を参照してください。
 
-1. **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**&#x200B;をクリックします。
+1. **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**&#x200B;をクリックします。
 
 1. （オプション）特定のラベル分類を含めるようにリストをフィルタリングします。
 

@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/xT4LpYXeTtuptPWK-HNQPylOzCFi1TT2FfbfEiuSJeo
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: '334'
 ht-degree: 0%
-
 ---
-
 # アカウントコンポーネントからのラベル分類値の削除
 
 分類値を削除すると、アカウントコンポーネントとそのすべての子コンポーネントとの関連付けが削除されます。 分類値のレポートデータは、これらのコンポーネントでは使用できなくなりました。 分類値を削除しても、値やアカウントコンポーネントは削除されません。
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 新しいUIで使用可能な該当するアカウントコンポーネントから分類値を削除できます。
 
-1. **[!UICONTROL Manage]**&#x200B;または&#x200B;**[!UICONTROL Target]** メニューからエンティティ ビューを開きます。
+1. **[!UICONTROL Manage]**&#x200B;または&#x200B;**[!UICONTROL Targeting]** メニューからエンティティ ビューを開きます。
 
 1. 各関連行の横にあるチェックボックスをオンにします。
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
    * （1つ以上のエンティティから値を削除するには）次の操作を行います。
 
-      * 各行の横にあるチェックボックスをオンにします。
+     * 各行の横にあるチェックボックスをオンにします。
 
-        複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
+       複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-      * データテーブルの上にあるツールバーで、![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、**[!UICONTROL Classification]**&#x200B;をクリックします。
+     * データテーブルの上にあるツールバーで、![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、**[!UICONTROL Classification]**&#x200B;をクリックします。
 
 1. [!UICONTROL Assignment Details]で、**[!UICONTROL Remove]**&#x200B;を選択します。
 

@@ -1,19 +1,20 @@
 ---
-title: （新しいUI）  [!DNL Google Ads]  コンバージョン値ルールの管理
-description: Search, Social, & Commerceで [!DNL Google Ads]  コンバージョン値ルールを表示および管理する方法について説明します。
+title: （新しいUI） [!DNL Google Ads]のコンバージョン値ルールの管理
+description: Search, Social, & Commerceで[!DNL Google Ads] コンバージョン値ルールを表示および管理する方法について説明します。
 feature: Conversions
 feature_v2:
   - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
-source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
+    internal-label: Conversion value rules
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 1854
+source-wordcount: '1856'
 ht-degree: 0%
-
 ---
-
 # （新しいUI） [!DNL Google Ads]のコンバージョン値ルールの管理
 
 *Beta機能*
@@ -30,7 +31,7 @@ Search, Social, &amp; Commerceは、[!DNL Google Ads] アカウントのコン�
 
 * 個人アカウントまたはキャンペーンレベルでコンバージョンが追跡されるアカウントでは、アカウントレベルおよびキャンペーンレベルのルールのステータス [&#128279;](#google-conversion-value-rule-change-status)を[作成](#google-conversion-value-rule-create)、[編集](#google-conversion-value-rule-edit)、変更できます。
 
-  アカウントは[[!DNL Google Ads]  マネージャーアカウント &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)にリンクできますが、クロスアカウントコンバージョントラッキングを使用することはできません（マネージャーアカウント内のすべてのアカウントでコンバージョンがトラッキングされます）。
+  アカウントは[[!DNL Google Ads]  マネージャーアカウント &#x200B;](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)にリンクできますが、クロスアカウントコンバージョントラッキングを使用することはできません（マネージャーアカウント内のすべてのアカウントでコンバージョンがトラッキングされます）。
 
 * クロスアカウントのコンバージョントラッキングを使用するアカウントでは、アカウントレベルのルールとキャンペーンレベルのルールがマネージャーアカウントから継承され、読み取り専用です。
 
@@ -40,7 +41,7 @@ Search, Social, &amp; Commerceは、[!DNL Google Ads] アカウントのコン�
 
 例えば、目標が単一のコンバージョン指標「リード」を使用し、モバイルデバイスからのコンバージョンに10の重みを与え、非モバイルデバイスからのコンバージョンに10の重みを与えるとします。 Search, Social, &amp; Commerceでは、いずれかのデバイスタイプのイベントを1回のコンバージョンとしてカウントし、コンバージョン値を10としてクレジットします。 ただし、そのポートフォリオのキャンペーンで「デバイスがモバイルの場合は、2を掛ける」というコンバージョン値ルールが使用されているとします。 モバイルリードイベントがそのキャンペーンで追跡されると、[!DNL Google Ads]はコンバージョン数を1つ（1）とクレジットしますが、コンバージョン値は（10 x 2） = 20とクレジットします。
 
-ルールが適用される前の元のコンバージョン値を含む、ルールの詳細については、 [!DNL Google Ads][&#128279;](https://support.google.com/google-ads/answer/10519848)の コンバージョン値ルール レポートを参照してください。
+ルールが適用される前の元のコンバージョン値を含む、ルールの詳細については、 [!DNL Google Ads]&#x200B;[&#128279;](https://support.google.com/google-ads/answer/10519848)の コンバージョン値ルール レポートを参照してください。
 
 ## [!DNL Google Ads] コンバージョン値ルールの作成 {#google-conversion-value-rule-create}
 

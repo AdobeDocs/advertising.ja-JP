@@ -2,13 +2,11 @@
 title: （新しいUI）Google Ads Manager アカウントの資格情報の管理
 description: 新しいUIでGoogle Ads Manager アカウントの資格情報を設定および管理する方法について説明します。
 feature: Search Admin
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
-
 ---
-
 # （新しいUI） [!DNL Google Ads] マネージャーアカウントの資格情報の管理
 
 *Beta機能*

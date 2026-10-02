@@ -4,25 +4,27 @@ description: Google AdsおよびMicrosoft Advertisingのショッピング商品
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 2337
-ht-degree: 0%
-
+source-wordcount: '2386'
+ht-degree: 2%
 ---
-
 
 # ショッピング商品グループの管理
 
 *[!DNL Google Ads]および[!DNL Microsoft Advertising]個のショッピング キャンペーンのみ*
 
-製品グループは、[!UICONTROL Assets] > [!UICONTROL Shopping]の[!UICONTROL Product Groups] ビューで作成および管理できます。
+製品グループは、[!UICONTROL Manage] > [!UICONTROL Product Groups] ビューで作成および管理できます。
 
 製品グループに関するデータは、[の[!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md)で表示できます。
 
@@ -69,7 +71,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Groups] ビュー
 
-[!UICONTROL Assets] > [!UICONTROL Shopping] ビューの[!UICONTROL Product Groups] ビューには、選択した広告主アカウントのフィルター処理されたビュー内のすべての製品グループが一覧表示されます。 また、製品グループを作成し管理することもできます。
+[!UICONTROL Manage] > [!UICONTROL Product Groups] ビューには、選択した広告主アカウントのフィルター処理されたビュー内のすべての製品グループが一覧表示されます。 また、製品グループを作成し管理することもできます。
 
 ### 使用可能なアクション <!-- Go through all -->
 
@@ -103,7 +105,7 @@ ht-degree: 0%
 >
 >多くのアカウントコンポーネントを一度に作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
-1. メインメニューで、**[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
 1. データテーブルの上のツールバーで、**[!UICONTROL Create Product Group]**&#x200B;をクリックします。
 
@@ -125,7 +127,7 @@ ht-degree: 0%
 >
 >「[!UICONTROL Everything Else]」製品グループの子製品グループを作成することはできません。
 
-1. メインメニューで、**[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
 1. （オプション）製品グループとその子製品グループノードをツリービューで表示するには、製品グループ名にカーソルを合わせ、**[!UICONTROL ...]>[!UICONTROL Tree View]**&#x200B;をクリックします。
 
@@ -139,7 +141,7 @@ ht-degree: 0%
 
 広告グループに含まれるユニット製品グループノード（子製品グループノードのない製品グループ）の入札および追跡テンプレートを編集できます。 除外単位製品グループ、または子の製品グループノードを持つ製品グループである含まれるサブディビジョン ノードまたは除外されたサブディビジョン ノードの情報を編集することはできません。
 
-1. メインメニューで、**[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
 1. （オプション）製品グループとその子製品グループノードをツリービューで表示するには、製品グループ名にカーソルを合わせ、**[!UICONTROL ...]>[!UICONTROL Tree View]**&#x200B;をクリックします。
 
@@ -151,7 +153,7 @@ ht-degree: 0%
 
 ## 製品グループ ノードの[!UICONTROL Tracking Template]のみを編集 {#node-edit-tracking-template}
 
-1. メインメニューで、**[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
 1. 製品グループ名の上にカーソルを置き、**[!UICONTROL ...]>[!UICONTROL Tree View]**&#x200B;をクリックして、製品グループとその子製品グループノードをツリー表示で表示します。
 
@@ -161,7 +163,7 @@ ht-degree: 0%
 
 ## 製品グループ ノードの[!UICONTROL Max CPC]のみを編集 {#node-edit-maxcpc}
 
-1. メインメニューで、**[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
 1. 製品グループ名の上にカーソルを置き、**[!UICONTROL ...]>[!UICONTROL Tree View]**&#x200B;をクリックして、製品グループとその子製品グループノードをツリー表示で表示します。
 
@@ -173,7 +175,7 @@ ht-degree: 0%
 
 他の商品グループが同じレベルに存在する場合は、「その他すべて」グループを除いて、あらゆる商品グループを削除できます。このグループは、マーチャント センターのアカウントのどの商品が広告グループのショッピング広告に含まれているかを判断するために使用されます。 製品グループを削除すると、すべての子製品グループが削除されます。
 
-1. メインメニューで、**[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
 1. 製品グループ名の上にカーソルを置き、**[!UICONTROL ...]>[!UICONTROL Tree View]**&#x200B;をクリックして、製品グループとその子製品グループノードをツリー表示で表示します。
 
@@ -183,7 +185,7 @@ ht-degree: 0%
 
 ## 選択した製品グループへの制約の割り当て {#constraint-assign}
 
-1. メインメニューで、**[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
 1. 1つの制約を割り当てる各製品グループの横にあるチェックボックスをオンにします。
 
@@ -195,7 +197,7 @@ ht-degree: 0%
 
 ## 選択した製品グループから制約を削除 {#constraint-unassign}
 
-1. メインメニューで、**[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
 1. 制約の割り当てを解除する各製品グループの横にあるチェックボックスをオンにします。
 
@@ -209,7 +211,7 @@ ht-degree: 0%
 >
 >ラベル値は子エンティティによって継承されるので、継承された値を上書きする場合を除き、子エンティティの値を入力しないでください。
 
-1. メインメニューで、**[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
 1. ラベル値を割り当てる各製品グループの横にあるチェックボックスをオンにします。
 
@@ -241,7 +243,7 @@ ht-degree: 0%
 
 分類値を削除すると、アカウントコンポーネントとそのすべての子コンポーネントとの関連付けが削除されます。 分類値のレポートデータは、これらのコンポーネントでは使用できなくなりました。 分類値を削除しても、値やアカウントコンポーネントは削除されません。
 
-1. メインメニューで、**[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
 1. ラベル値を削除する各製品グループの横にあるチェックボックスをオンにします。
 

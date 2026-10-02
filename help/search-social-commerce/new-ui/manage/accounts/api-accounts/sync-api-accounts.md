@@ -3,13 +3,11 @@ title: （新しいUI）広告ネットワークデータを手動で同期す�
 description: 新しいUIから、サポートされている広告ネットワークのキャンペーン構造とキャンペーンエンティティの同期を手動でトリガーする方法について説明します。
 feature: Search Campaign Management
 exl-id: 5e857713-53f0-4d90-8b7a-18a3675d320e
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '368'
 ht-degree: 0%
-
 ---
-
 # （新しいUI） API接続を介した広告ネットワークデータの手動同期
 
 <!-- EDIT ALL -- FROM LEGACY UI -->
@@ -26,23 +24,30 @@ Search, Social, &amp; Commerceは、1日に1回、広告ネットワークのア
 
 >[!NOTE]
 >
->[&#x200B; バルクシートを作成するときはいつでも](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)、オプションでバルクシートを作成する前に広告ネットワークと同期できます。
+>[&#x200B; バルクシートを作成するときはいつでも](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)、オプションでバルクシートを作成する前に広告ネットワークと同期できます。
 
-## 広告ネットワークアカウントでのキャンペーンの同期
+## 広告ネットワークアカウント内のすべてのキャンペーンを同期
 
-1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
 
-1. アカウント名の横にあるチェックボックスをオンにします。
+1. 同期する各アカウントの名前の横にあるチェックボックスをオンにします。
 
    <!-- As of 2/23, you can sync only one acct at a time:  Select the check box next to each account or campaign that you want to sync. You can sync up to 50 campaigns at a time. If you sync more than five accounts at a time, the job is broken into batches of up to five accounts each. -->
 
+1. 一括操作ツールバーで、**[!UICONTROL Sync]**&#x200B;をクリックします。
+
+ジョブが完了するまでに1時間以上かかる場合があります。
+
+## [!UICONTROL Campaigns] ビューからキャンペーンを同期します。
+
+1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Campaigns]**&#x200B;をクリックします。
+
+1. 同期する各キャンペーンの名前の横にあるチェックボックスをオンにします。
+
 1. 一括操作ツールバーで、**[!UICONTROL ... More Actions]** > **[!UICONTROL Sync]**&#x200B;をクリックします。
 
-   * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
-
-同期ジョブのステータスは、[!UICONTROL Workspace] ビューで確認できます。 その仕事はかかるかもしれない
-1時間以上表示されます。
+ジョブが完了するまでに1時間以上かかる場合があります。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; バルクシート ファイルのダウンロードと作成](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+>* [&#x200B; バルクシート ファイルのダウンロードと作成](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)
