@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントのみ*
 
-[!UICONTROL Library] > [!UICONTROL Creatives]では、[!DNL Google Ads]および[!DNL Microsoft Advertising]のアカウントレベルのアセットライブラリで、再利用可能なすべての画像、ビデオ、および（2}の場合のみ）テキストアセットを表示できます。 [!DNL Google Ads]このリストには、[!DNL AI Max]対応キャンペーンの[!DNL Google Ads]広告グループに対してAIが生成したアセットが含まれています。
+[!UICONTROL Library] > [!UICONTROL Creatives]では、[!DNL Google Ads]および[!DNL Microsoft Advertising]のアカウントレベルのアセットライブラリで、再利用可能なすべての画像、ビデオ、および（2&rbrace;の場合のみ）テキストアセットを表示できます。 [!DNL Google Ads]このリストには、[!DNL AI Max]対応キャンペーンの[!DNL Google Ads]広告グループに対してAIが生成したアセットが含まれています。
 
 広告ネットワークアカウントの新しいアセットを手動で作成し、広告ネットワークにアップロードできます。 <!-- Verify if you can use the AI-generated ones --> アップロードしたアセットは、パフォーマンスの最大化キャンペーンに使用できます。
 
@@ -108,7 +108,7 @@ AIが生成したテキストアセットを、関連する広告グループか
 
 1. 一括操作ツールバーで、**[!UICONTROL Remove]**&#x200B;をクリックします。
 
-1. <!-- VERIFY -->確認メッセージで、**[!UICONTROL Remove]**&#x200B;をクリックします。
+1. &#x200B;<!-- VERIFY -->確認メッセージで、**[!UICONTROL Remove]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
