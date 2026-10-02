@@ -8,29 +8,37 @@ exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
 TQID: https://experienceleague.adobe.com/9zlMhoA39Q5Yt5g39oXrl8LNn9mkD0VPusAOf6qBGBg
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8321f27c6fb89234646119b3a34470d08ecec6c8
+    internal-label: Privacy
+source-git-commit: 2b4f293120d206dbc6f7dca724198eded7769f32
 workflow-type: tm+mt
-source-wordcount: 4986
+source-wordcount: '5019'
 ht-degree: 1%
-
 ---
-
 # 新機能
 
 以下の機能は新規または最近変更されました。
 
 | 日付 | 機能 | 説明 | 詳細 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年8月26日（PT） | [!UICONTROL Reports] | [!UICONTROL Google AI Max Search Term Combination Report]には、各検索語と一致タイプに対するコンバージョンアクションによって[!DNL Google Ads]が追跡されたコンバージョンデータを含む2番目のシートが含まれるようになりました。 データは、[!DNL AI Max]が有効なキャンペーンの広告に表示されます。 | 「[The [!UICONTROL Google AI Max Search Term Combination Report]](/help/search-social-commerce/reports/management/specialty/google-ai-max-search-term-combination-report.md)」を参照してください。 |
 | 2026年7月29日 | [!UICONTROL Campaigns], [!UICONTROL Reports] | （[!DNL Google Ads] アカウント）次のAI Max サポートが、検索ネットワーク上のGoogle Ads キャンペーンの新しいUIで利用できるようになりました。<ul><li>管理/キャンペーンでAIの最大有効なキャンペーンを作成および管理できます。 キャンペーン設定には、AI Maxを有効にするオプション、自動テキストカスタマイズ、最終的なURL拡張を含む新しい「AI Max」タブが含まれます。 また、広告グループが地理的興味関心ターゲットを使用しているかどうかも確認できます。</li><li>AIが最大有効なキャンペーンの広告グループは、管理/広告グループで作成および管理できます。 設定には、キーワードレス検索キーワードの一致やターゲットとなる場所が含まれます。</li><li>AIで生成されたクリエイティブアセットは、Assets / Creativeで利用できます。 このビューから、関連する広告グループからテキストアセットを削除できます。</li><li>新しい[!UICONTROL Asset Report]には、AI Max対応キャンペーンでAIが生成した各アセットのアセットレベルのパフォーマンスデータが含まれます。 このレポートには、Adobe Analyticsのコンバージョンは含まれていません。</li></ul> | 「[&#x200B; キャンペーンの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)」および「[[!DNL Google Ads]  キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)」、「[広告グループの管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)」および「[[!DNL Google Ads] 広告グループ設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)」、「[&#x200B; クリエイティブアセットの表示と作成](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)」を参照してください。 と「[The [!UICONTROL Asset Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/asset-report.md)」。 |
 | 2026年6月9日（PT） | Adobe Customer Journey Analyticsとの連携 | Customer Journey Analyticsを使用しているが[!DNL Analytics for Advertising]ではない広告主は、Adobe Experience Platform [!DNL Web SDK]を使用してAdobe AdvertisingとCustomer Journey Analytics間でデータをネイティブに交換できます。 | 「[Adobe AdvertisingとCustomer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)の連携の概要」を参照してください。 |
 | 2026年5月28日（PT） | 新規UI | スケジュール済みレポート、スプレッドシート フィード、バルクシート、ネットワークマネージャーアカウント、および[!DNL Spend Planner] （旧称「[!DNL Spend Recommendations]」）など、ほとんどの機能が新しいUIで利用できるようになりました。 | 「[&#x200B; ユーザーインターフェイスの構成方法](/help/search-social-commerce/getting-started/user-interface.md)」および「新しいUI」の章を参照してください。 |
@@ -57,7 +65,7 @@ ht-degree: 1%
 | | [!UICONTROL Portfolios] | （Beta機能）新しいユーザーインターフェイスで、ポートフォリオグループの作成と管理がサポートされるようになりました。 | 「[&#x200B; ポートフォリオグループの管理](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-group-manage.md)」を参照してください。 |
 | | [!UICONTROL Campaigns], [!UICONTROL Ad Groups] | （Beta機能） エンティティ名、ステータス、予算（キャンペーン）および入札（広告グループ）を、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups] ビューの1行内で編集できるようになりました。 | 「[行](/help/search-social-commerce/common-tasks/settings-edit-within-row.md)内で直接設定を編集」を参照してください。 |
 | 2025年7月30日（PT） | [!DNL Google Ads] [!DNL AI Max]機能 | [!DNL Google Ads]は、既存の検索キャンペーンタイプの強化として[!DNL AI Max]を導入しました。 これらのキャンペーンは[!DNL Google Ads]内で引き続き機能し、Search, Social, &amp; Commerceに表示されますが、[!DNL Google Ads] APIはまだ[!DNL AI Max]をサポートしていません。 その結果、この機能を有効にすると、レポートに矛盾やデータ不足が発生し、パフォーマンス分析と最適化の不整合が生じます。<br><br>今後数か月以内に[!DNL Google Ads]がAPIに[!DNL AI Max]のサポートを追加すると、Search, Social, &amp; Commerceが実装します。 このアップグレードにより、AIを最大有効にしたキャンペーンを適切に検出してサポートできるようになり、データの問題を再評価して、これらのキャンペーンの完全なレポートと最適化を再開できます。<br><br>**推奨事項：**&#x200B;完全なAPI サポートが利用可能になるまで、Search, Social, &amp; Commerceで最適化されたキャンペーンについては、[!DNL AI Max]をオプトインしないことを強くお勧めします。 これにより、レポートが正確かつ実行可能なものとなり、正しいデータにもとづいて最適化が行われるようになります。 Search, Social, &amp; Commerceで最適化されていないキャンペーンで[!DNL AI Max]を使用している場合は、[!DNL Google Ads]内のデータを分析とペーシングに使用してください。 | — |
-| 2025年7月2日（PT） | ログイン | Search, Social, &amp; Commerceは、ログイン認証のためにAdobe Identity Management Service （IMS）に移行中です。 IMSでは、Real-Time Customer Data Platform、Customer Journey Analytics、Target、Analyticsなど、IMSをサポートするすべての[!DNL Adobe]製品にシングルサインオン（SSO）アクセスを提供します。 1つの[!DNL Adobe ID]を使用して、CX Enterpriseのサインインページまたは従来のSearch, Social, &amp; Commerceのサインインページから[!DNL Adobe]製品間でログインできるようになりました。 現在のSearch, Social, &amp; Commerceの資格情報は短期間アクティブのままなので、変更に備えることができます。 | 「[&#x200B; ログイン &#x200B;](/help/search-social-commerce/getting-started/sign-in.md)」を参照してください。「<br><br> ユーザープロファイルの管理を含むCX Enterprise インターフェイスについて詳しくは、「[CX Enterprise インターフェイスと管理](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。 |
+| 2025年7月2日（PT） | ログイン | Search, Social, &amp; Commerceは、ログイン認証のためにAdobe Identity Management Service （IMS）に移行中です。 IMSでは、Real-Time Customer Data Platform、Customer Journey Analytics、Target、Analyticsなど、IMSをサポートするすべての[!DNL Adobe]製品にシングルサインオン（SSO）アクセスを提供します。 1つの[!DNL Adobe ID]を使用して、CX Enterpriseのログインページまたは従来のSearch, Social, &amp; Commerceのログインページから[!DNL Adobe]製品間でログインできるようになりました。 現在のSearch, Social, &amp; Commerceの資格情報は短期間アクティブのままなので、変更に備えることができます。 | 「[&#x200B; ログイン &#x200B;](/help/search-social-commerce/getting-started/sign-in.md)」を参照してください。「<br><br> ユーザープロファイルの管理など、CX Enterprise インターフェイスについて詳しくは、「[CX Enterprise インターフェイスと管理](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。 |
 | 2025年6月21日（PT）リリース | [!UICONTROL Objectives] | [!DNL Google Ads]および[!DNL Microsoft Advertising]への目的のアップロードは、以前と同様に毎日ではなく、1日ごと、場合によっては1時間ごとに行われるようになりました。 大規模なアカウントやカスタム設定を持つ広告主の場合、1日に少なくとも3回はアップロードが発生します。<br><br>広告ネットワークのスマート入札システムは、頻度の増加により、季節的または特別なイベントの日の日中のトレンドに対応できるようになります。 | 「[広告ネットワークへの目標のアップロードを有効にする](/help/search-social-commerce/tools/objective-upload-to-networks.md)」を参照してください。 |
 | 2025年3月26日（PT） | [!UICONTROL Tracking], [!DNL Adobe Analytics for Advertising] | （アカウントが[!DNL Adobe Analytics for Advertising]と[!DNL Microsoft Advertising]の広告主） [!UICONTROL Auto Upload]追跡オプションを持つアカウントの場合、すべてのキャンペーンタイプのランディングページ接尾辞のAMO ID パラメーターの形式が最新の形式に更新されました。 以前は、ほとんどのアカウントのパフォーマンスの最大キャンペーンは新しい形式に移行されていました。<br><br>新しい形式に移行されていない[!UICONTROL Auto Upload]追跡オプションを持たないアカウントの場合、新しいAMO ID形式を含めるには、各ランディングページのサフィックスを手動で更新する必要があります。<br><br>現在の形式：`s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}` | 「[概要 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)」および[AMO ID形式](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items)を参照してください。」 |
 | 2025年2月 | [!UICONTROL Campaign Management] | Search, Social, &amp; Commerceは、[!DNL Google Ads]件の需要創出キャンペーン（以前はディスカバリーキャンペーンと呼ばれていました）の商品広告と動画広告を同期するようになりました。 Search, Social, &amp; CommerceおよびAdobe Analyticsのレポート（[!DNL Adobe Analytics for Advertising]を持つ広告主向け）には、利用可能なすべての広告タイプの広告レベルのパフォーマンスと支出データが含まれるようになりました。 [!UICONTROL Ads] ビューおよび[!UICONTROL Ad Variation Report]では、[!UICONTROL Creative Type]列をフィルタリングして、[!UICONTROL Demand Gen Image Ad]、[!UICONTROL Demand Gen Carousel Ad]、[!UICONTROL Demand Gen Product Ad]、[!UICONTROL Demand Gen Video Ad]を含めることができます。<br><br>目標アップロードのサポートは、サポートされているすべての広告タイプで利用できます。 製品広告と動画広告の最適化は、まだ完全にサポートされていません。 | 詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。 |
