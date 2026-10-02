@@ -23,8 +23,8 @@ ht-degree: 0%
 
 * [キーワードに制約を割り当て、キーワードから制約を割り当て解除する](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
 
-* [ キーワードにラベル分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)を割り当てる
+* [&#x200B; キーワードにラベル分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)を割り当てる
 
 >[!MORELIKETHIS]
 >
->* [ キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [&#x200B; キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)

@@ -59,11 +59,11 @@ ht-degree: 0%
 
 * [動的検索対象に制約](#constraint-assign)を割り当て、[動的検索対象から制約](#constraint-unassign)を削除します
 
-* [ ラベル分類](#classification-values-assign)を動的検索対象に割り当て、[動的検索対象からラベル分類](#classification-values-remove)を削除します
+* [&#x200B; ラベル分類](#classification-values-assign)を動的検索対象に割り当て、[動的検索対象からラベル分類](#classification-values-remove)を削除します
 
 >[!NOTE]
 >
->[ バルクシート ファイル ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)をアップロードして広告ネットワークに投稿すると、大量のターゲットデータ（ラベルや制約の割り当てを含む）を一度に作成および編集できます。
+>[&#x200B; バルクシート ファイル &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)をアップロードして広告ネットワークに投稿すると、大量のターゲットデータ（ラベルや制約の割り当てを含む）を一度に作成および編集できます。
 
 <!--
 Not available yet:
@@ -254,5 +254,5 @@ You can also delete any dynamic target.
 
 >[!MORELIKETHIS]
 >
->* [ （新しいUI）検索入札単位の制約を管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [ （新しいUI） ラベル分類の管理](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
+>* [&#x200B; （新しいUI）検索入札単位の制約を管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
+>* [&#x200B; （新しいUI） ラベル分類の管理](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)

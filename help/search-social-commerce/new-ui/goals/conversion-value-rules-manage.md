@@ -19,9 +19,9 @@ ht-degree: 0%
 
 *Beta機能*
 
-[!DNL Google Ads] [ コンバージョン値ルール ](https://support.google.com/google-ads/answer/10518330)を使用すると、デバイスの種類、場所、オーディエンスセグメントなどのユーザー情報に基づいて、コンバージョンイベントの値を調整できます。 Google Smart Biddingを使用すると、検索、表示、ショッピング、パフォーマンスの最大化キャンペーンでバリューベース入札のルールを使用できます。 コンバージョンの最大化とターゲット ROAS入札戦略を使用するキャンペーンの場合、[!DNL Google Ads] アルゴリズムは、より高い値のコンバージョンを優先します。
+[!DNL Google Ads] [&#x200B; コンバージョン値ルール &#x200B;](https://support.google.com/google-ads/answer/10518330)を使用すると、デバイスの種類、場所、オーディエンスセグメントなどのユーザー情報に基づいて、コンバージョンイベントの値を調整できます。 Google Smart Biddingを使用すると、検索、表示、ショッピング、パフォーマンスの最大化キャンペーンでバリューベース入札のルールを使用できます。 コンバージョンの最大化とターゲット ROAS入札戦略を使用するキャンペーンの場合、[!DNL Google Ads] アルゴリズムは、より高い値のコンバージョンを優先します。
 
-キャンペーンレベルのコンバージョン値ルールは、アカウントレベルのルールを上書きします。 コンバージョンが複数のコンバージョン値ルールを満たす場合、ルールのうち1つだけが適用されます。 通常、最も特定のルールが適用されますが、様々なルール条件タイプの優先順位に関する[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/10520348)を参照してください。
+キャンペーンレベルのコンバージョン値ルールは、アカウントレベルのルールを上書きします。 コンバージョンが複数のコンバージョン値ルールを満たす場合、ルールのうち1つだけが適用されます。 通常、最も特定のルールが適用されますが、様々なルール条件タイプの優先順位に関する[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/10520348)を参照してください。
 
 ## [!UICONTROL Conversion Value Rules] ビューと機能
 
@@ -29,9 +29,9 @@ Search, Social, &amp; Commerceは、[!DNL Google Ads] アカウントのコン�
 
 一部のアカウントでは、コンバージョン値のルールを管理できます。
 
-* 個人アカウントまたはキャンペーンレベルでコンバージョンが追跡されるアカウントでは、アカウントレベルおよびキャンペーンレベルのルールのステータス ](#google-conversion-value-rule-change-status)を[作成](#google-conversion-value-rule-create)、[編集](#google-conversion-value-rule-edit)、[変更できます。
+* 個人アカウントまたはキャンペーンレベルでコンバージョンが追跡されるアカウントでは、アカウントレベルおよびキャンペーンレベルのルールのステータス [&#128279;](#google-conversion-value-rule-change-status)を[作成](#google-conversion-value-rule-create)、[編集](#google-conversion-value-rule-edit)、変更できます。
 
-  アカウントは[[!DNL Google Ads]  マネージャーアカウント ](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)にリンクできますが、クロスアカウントコンバージョントラッキングを使用することはできません（マネージャーアカウント内のすべてのアカウントでコンバージョンがトラッキングされます）。
+  アカウントは[[!DNL Google Ads]  マネージャーアカウント &#x200B;](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)にリンクできますが、クロスアカウントコンバージョントラッキングを使用することはできません（マネージャーアカウント内のすべてのアカウントでコンバージョンがトラッキングされます）。
 
 * クロスアカウントのコンバージョントラッキングを使用するアカウントでは、アカウントレベルのルールとキャンペーンレベルのルールがマネージャーアカウントから継承され、読み取り専用です。
 
@@ -41,7 +41,7 @@ Search, Social, &amp; Commerceは、[!DNL Google Ads] アカウントのコン�
 
 例えば、目標が単一のコンバージョン指標「リード」を使用し、モバイルデバイスからのコンバージョンに10の重みを与え、非モバイルデバイスからのコンバージョンに10の重みを与えるとします。 Search, Social, &amp; Commerceでは、いずれかのデバイスタイプのイベントを1回のコンバージョンとしてカウントし、コンバージョン値を10としてクレジットします。 ただし、そのポートフォリオのキャンペーンで「デバイスがモバイルの場合は、2を掛ける」というコンバージョン値ルールが使用されているとします。 モバイルリードイベントがそのキャンペーンで追跡されると、[!DNL Google Ads]はコンバージョン数を1つ（1）とクレジットしますが、コンバージョン値は（10 x 2） = 20とクレジットします。
 
-ルールが適用される前の元のコンバージョン値を含む、ルールの詳細については、 [!DNL Google Ads]](https://support.google.com/google-ads/answer/10519848)の[ コンバージョン値ルール レポートを参照してください。
+ルールが適用される前の元のコンバージョン値を含む、ルールの詳細については、 [!DNL Google Ads]&#x200B;[&#128279;](https://support.google.com/google-ads/answer/10519848)の コンバージョン値ルール レポートを参照してください。
 
 ## [!DNL Google Ads] コンバージョン値ルールの作成 {#google-conversion-value-rule-create}
 
@@ -51,7 +51,7 @@ Search, Social, &amp; Commerceは、[!DNL Google Ads] アカウントのコン�
 
 キャンペーンごとに複数のキャンペーンレベルのルールを作成できます。 ただし、[!DNL Google Ads]では、アカウントレベルのルールが既に存在する場合、[!DNL Google Ads] エディター以外で新しいアカウントレベルのルールを作成する機能はまだ提供されていません。 追加のアカウントレベルのルールを作成するには、[!DNL Google Ads]に直接ログインし、[!DNL Google Ads] エディターを使用します。
 
-**注：** キャンペーンレベルのコンバージョン値ルールは、アカウントレベルのルールを上書きし、コンバージョンに適用できるルールは1つのみです。 詳細については、[how [!DNL Google Ads]  コンバージョンが複数のルール ](https://support.google.com/google-ads/answer/10520348)の条件を満たしているときに、コンバージョンに適用されるルールを決定するを参照してください。
+**注：** キャンペーンレベルのコンバージョン値ルールは、アカウントレベルのルールを上書きし、コンバージョンに適用できるルールは1つのみです。 詳細については、[how [!DNL Google Ads]  コンバージョンが複数のルール &#x200B;](https://support.google.com/google-ads/answer/10520348)の条件を満たしているときに、コンバージョンに適用されるルールを決定するを参照してください。
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversion Value Rules]**&#x200B;をクリックします。
 
@@ -63,7 +63,7 @@ Search, Social, &amp; Commerceは、[!DNL Google Ads] アカウントのコン�
 
 1. 広告ネットワークとアカウントを選択します。 キャンペーンレベルのルールの場合は、キャンペーンも選択します。 次に、**[!UICONTROL Next]**&#x200B;をクリックします。
 
-1. [ コンバージョンルール設定](#google-ads-conversion-value-rule-settings)を構成します。
+1. [&#x200B; コンバージョンルール設定](#google-ads-conversion-value-rule-settings)を構成します。
 
    プライマリ条件と値の調整を設定する必要があります。 オプションでセカンダリ条件を設定できます。
 
@@ -89,7 +89,7 @@ Search, Social, &amp; Commerceは、[!DNL Google Ads] アカウントのコン�
 
 1. 一括操作ツールバーで、 （/help/search-social-commerce/assets/edit-new.png &quot;編集）をクリックします。
 
-1. [ コンバージョンルール設定](#google-ads-conversion-value-rule-settings)を編集します。
+1. [&#x200B; コンバージョンルール設定](#google-ads-conversion-value-rule-settings)を編集します。
 
    既存のルールの条件タイプを編集することはできませんが、条件と値の調整を編集することはできます。
 

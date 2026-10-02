@@ -41,7 +41,7 @@ ht-degree: 0%
 
 * [広告グループへの制約の割り当て、広告グループからの制約の割り当て解除](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 
-* [ ラベル分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)を広告グループに割り当てる
+* [&#x200B; ラベル分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)を広告グループに割り当てる
 
 * [[!UICONTROL Ad Groups] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
 

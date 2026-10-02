@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ラベル分類から値を削除するには、「[ ラベル分類値を削除](classification-values-delete.md)」を参照してください。
+>ラベル分類から値を削除するには、「[&#x200B; ラベル分類値を削除](classification-values-delete.md)」を参照してください。
 
 ## （新しいUI）アカウントコンポーネントからのラベル分類値の削除
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. 次のいずれかの操作を行います。
 
-   * （単一のエンティティから値を削除するには） エンティティ名の上にカーソルを置き、![ メニューボタン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューボタン ")をクリックし、**[!UICONTROL Classification]**&#x200B;を選択します。
+   * （単一のエンティティから値を削除するには） エンティティ名の上にカーソルを置き、![&#x200B; メニューボタン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューボタン ")をクリックし、**[!UICONTROL Classification]**&#x200B;を選択します。
 
    * （1つ以上のエンティティから値を削除するには）次の操作を行います。
 
@@ -75,9 +75,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ラベル分類について](classification-about.md)
->* [ ラベル分類を作成](classification-create.md)
->* [ キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当てる](classification-values-assign-campaign-management.md)
->* [ バルクシートを使用してアカウントコンポーネントに分類値を割り当てる](classification-values-assign-bulksheets.md)
->* [ ラベル分類値を削除](classification-values-delete.md)
->* [ ラベル分類を削除](classification-delete.md)
+>* [&#x200B; ラベル分類について](classification-about.md)
+>* [&#x200B; ラベル分類を作成](classification-create.md)
+>* [&#x200B; キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当てる](classification-values-assign-campaign-management.md)
+>* [&#x200B; バルクシートを使用してアカウントコンポーネントに分類値を割り当てる](classification-values-assign-bulksheets.md)
+>* [&#x200B; ラベル分類値を削除](classification-values-delete.md)
+>* [&#x200B; ラベル分類を削除](classification-delete.md)
