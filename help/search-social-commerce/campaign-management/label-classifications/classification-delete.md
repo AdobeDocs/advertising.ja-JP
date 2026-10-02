@@ -6,26 +6,26 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/Q6BgNtx1bPMVXDNdamwGvzcxKh9I8dnm0PRj1ByIktE
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 219
+source-wordcount: '217'
 ht-degree: 0%
-
 ---
-
 # ラベル分類の削除
 
 分類を削除すると、その子値とアカウントコンポーネント間のすべての関連付けが削除されます。 削除された分類とその値は、今後の使用に使用できません。 分類値のレポートデータが使用できるようになりました。
 
 >[!NOTE]
 >
->アカウントコンポーネントから分類値を簡単に関連付け解除するには、「[&#x200B; キャンペーンコンポーネントから分類値を削除](classification-values-remove.md)」を参照してください。
+>アカウントコンポーネントから分類値を簡単に関連付け解除するには、「[ キャンペーンコンポーネントから分類値を削除](classification-values-remove.md)」を参照してください。
 
 ## （新しいUI）ラベル分類の削除
 
-1. **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**&#x200B;をクリックします。
+1. **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**&#x200B;をクリックします。
 
 1. （オプション）特定のラベル分類を含めるようにリストをフィルタリングします。
 
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ラベル分類について](classification-about.md)
->* [&#x200B; ラベル分類を作成](classification-create.md)
->* [&#x200B; キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当てる](classification-values-assign-campaign-management.md)
->* [&#x200B; バルクシートを使用してアカウントコンポーネントに分類値を割り当てる](classification-values-assign-bulksheets.md)
->* [&#x200B; アカウントコンポーネントからラベル分類値を削除](classification-values-remove.md)
->* [&#x200B; ラベル分類値を削除](classification-values-delete.md)
+>* [ ラベル分類について](classification-about.md)
+>* [ ラベル分類を作成](classification-create.md)
+>* [ キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当てる](classification-values-assign-campaign-management.md)
+>* [ バルクシートを使用してアカウントコンポーネントに分類値を割り当てる](classification-values-assign-bulksheets.md)
+>* [ アカウントコンポーネントからラベル分類値を削除](classification-values-remove.md)
+>* [ ラベル分類値を削除](classification-values-delete.md)

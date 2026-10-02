@@ -3,13 +3,11 @@ title: （新しいUI）広告ネットワークへの目的のアップロー�
 description: ハイブリッドポートフォリオの目標をGoogle AdsとMicrosoft Advertisingにアップロードする方法について説明します。
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）広告ネットワークへの目的のアップロードを有効にする
 
 *Beta機能*
@@ -42,13 +40,13 @@ Search, Social, &amp; Commerceでは、広告主アカウントのポートフ�
 
 1. （欧州経済地域（EEA）または英国（UK）でビジネスを行う[!DNL Google Ads] アカウントを持つ広告主。オプション）広告目的でデータをアップロードするためにEEAおよび英国のユーザーから同意を得ている場合は、チェックボックスを選択します。 これにより、同意ステータスが&#x200B;**[!UICONTROL GRANTED]**&#x200B;として[!DNL Google Ads]および[!DNL Microsoft Advertising]に送信されます。 チェックボックスを選択しない場合、同意ステータスは&#x200B;**[!UICONTROL UNSPECIFIED]**&#x200B;として送信されます。
 
-1. （コンバージョンがマネージャーのアカウントレベルで追跡されている場合） [保存する前にマネージャーのアカウントの資格情報](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)を追加します。
+1. （コンバージョンがマネージャーのアカウントレベルで追跡されている場合） [保存する前にマネージャーのアカウントの資格情報](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)を追加します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 1. `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`という名前の各目的が2日以内に広告ネットワークに表示されることを確認します。
 
-   [!DNL Google Ads] エディターで、[&#x200B; コンバージョンアクション &#x200B;](https://support.google.com/google-ads/answer/11461796){target="_blank"}を検索します。 [!DNL Microsoft Advertising] エディターで、[&#x200B; コンバージョン目標](https://help.ads.microsoft.com/#apex/ads/en/56709){target="_blank"}を検索します。
+   [!DNL Google Ads] エディターで、[ コンバージョンアクション ](https://support.google.com/google-ads/answer/11461796){target="_blank"}を検索します。 [!DNL Microsoft Advertising] エディターで、[ コンバージョン目標](https://help.ads.microsoft.com/#apex/ads/en/56709){target="_blank"}を検索します。
 
    必要に応じて、アップロード日を含めるように日付範囲を更新します。
 
@@ -79,7 +77,7 @@ GGL_Leadは[!DNL Google Ads]追跡された指標であるため、計算/アッ
 
 * （[!DNL Google Ads]） コンバージョンをアカウントレベルまたはマネージャーレベルにアップロードする必要があるかどうかを確認します。 マネージャーレベルでアップロードする必要がある場合：
 
-  * [!DNL Google Ads] マネージャーアカウントの資格情報が提供されているかどうかを確認します。 必要に応じて、マネージャーアカウントの資格情報を[追加します](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)。
+  * [!DNL Google Ads] マネージャーアカウントの資格情報が提供されているかどうかを確認します。 必要に応じて、マネージャーアカウントの資格情報を[追加します](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)。
 
   * 広告ネットワークアカウントに同じメトリック名が既に含まれているかどうかを確認します。 有効な場合は、指標の名前を変更して、適切なマネージャーレベルのプロパティを作成できるようにします。
 
@@ -89,7 +87,7 @@ GGL_Leadは[!DNL Google Ads]追跡された指標であるため、計算/アッ
 >
 >* [目標について](objective-about.md)
 >* [広告主のコンバージョン指標を管理](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
->* [&#x200B; マネージャーアカウント &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)の資格情報の管理 [!DNL Google Ads] 
+>* [ マネージャーアカウント ](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)の資格情報の管理 [!DNL Google Ads] 
 
 <!--
 I don't see this yet in new UI:

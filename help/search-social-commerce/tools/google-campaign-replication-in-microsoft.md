@@ -1,25 +1,25 @@
 ---
-title: ' [!DNL Microsoft Advertising]での [!DNL Google Ads]  キャンペーンのレプリケート'
-description: 同期されたキャンペーンを [!DNL Google Ads]  アカウントで同期された [!DNL Microsoft Advertising]  アカウントに直接書き出す方法について説明します。
+title: '[!DNL Microsoft Advertising]での[!DNL Google Ads] キャンペーンのレプリケート'
+description: '[!DNL Google Ads] アカウント内の同期キャンペーンを、同期された[!DNL Microsoft Advertising] アカウントに直接書き出す方法について説明します。'
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
 TQID: https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: '981'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]での[!DNL Google Ads] キャンペーンのレプリケート
 
 >[!NOTE]
 >
->新しいUI内のこのタスクの手順は、「（新しいUI） [&#x200B; レプリケート  [!DNL Google Ads]  キャンペーンを [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)で使用できます」で確認できます。
+>新しいUI内のこのタスクの手順は、「（新しいUI） [ レプリケート  [!DNL Google Ads]  キャンペーンを [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md)で使用できます」で確認できます。
 
 同期したキャンペーンを[!DNL Google Ads] アカウントで直接、同期した[!DNL Microsoft Advertising] アカウントに拡張CPC （eCPC） キャンペーンとして書き出すことができます。 既存の入札額とキャンペーン予算が拡張されます。 既存の検索、ソーシャル、Commerce トラッキングは読み込まれません。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 >
 >ショッピング フィード ベースの表示キャンペーンを複製する場合は、まず[で [!DNL Google Merchant Center] 製品オファーを [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870)に複製します。 キャンペーンをレプリケートする場合は、インポートオプションで[!DNL Microsoft Merchant Center] ストアを選択して、ストアをフィードベースのオーディエンスキャンペーンにリンクします。
 
- [!DNL Google Ads]  キャンペーン [&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)からインポートされたものを確認してください。
+ [!DNL Google Ads]  キャンペーン ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)からインポートされたものを[確認してください。
 
 1. Search, Social, &amp; Commerce メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
@@ -71,13 +71,13 @@ ht-degree: 0%
 
 ## キャンペーン読み込みジョブのスケジュール設定の編集
 
- [!DNL Google Ads]  キャンペーン [&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)からインポートされたものを確認してください。
+ [!DNL Google Ads]  キャンペーン ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)からインポートされたものを[確認してください。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
 1. インポートジョブの横にあるチェックボックスを選択し、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
 
-1. **[!UICONTROL Set schedule]** セクションで、[&#x200B; スケジュール設定](#campaign-import-settings)を指定します。
+1. **[!UICONTROL Set schedule]** セクションで、[ スケジュール設定](#campaign-import-settings)を指定します。
 
 1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
@@ -87,11 +87,11 @@ ht-degree: 0%
 
 * 次のいずれかの操作を行います。
 
-   * メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
+  * メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
-     デフォルトでは、ビューは[!UICONTROL List of Import Jobs] タブに開きます。
+    デフォルトでは、ビューは[!UICONTROL List of Import Jobs] タブに開きます。
 
-   * [[!UICONTROL Import Logs] タブ &#x200B;](#campaign-import-log)から、「**[!UICONTROL List of Import Jobs]**」タブをクリックします。
+  * [[!UICONTROL Import Logs] タブ ](#campaign-import-log)から、「**[!UICONTROL List of Import Jobs]**」タブをクリックします。
 
 ## キャンペーン読み込みジョブの実行
 
@@ -131,15 +131,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Import specific campaigns and adgroups]:*&#x200B;特定のキャンペーンと広告グループを選択します。
 
-   * キャンペーンを子の広告グループに展開するには、キャンペーン名の後の&#x200B;**[!UICONTROL >]**&#x200B;をクリックします。
+  * キャンペーンを子の広告グループに展開するには、キャンペーン名の後の&#x200B;**[!UICONTROL >]**&#x200B;をクリックします。
 
-   * キャンペーンまたは広告グループを選択するには、チェックマークが表示されるようにアイテムを選択します。
+  * キャンペーンまたは広告グループを選択するには、チェックマークが表示されるようにアイテムを選択します。
 
-   * キャンペーンまたは広告グループを削除するには：
+  * キャンペーンまたは広告グループを削除するには：
 
-      * [!UICONTROL Campaigns]または[!UICONTROL Adgroups]列で、チェックマークが消えるように、キャンペーンまたは広告グループの選択を解除します。
+    * [!UICONTROL Campaigns]または[!UICONTROL Adgroups]列で、チェックマークが消えるように、キャンペーンまたは広告グループの選択を解除します。
 
-      * [!UICONTROL Selected]列で、![削除](/help/search-social-commerce/assets/delete.png "削除")をクリックします。
+    * [!UICONTROL Selected]列で、![削除](/help/search-social-commerce/assets/delete.png "削除")をクリックします。
 
 ### [!UICONTROL Customize your import]
 
