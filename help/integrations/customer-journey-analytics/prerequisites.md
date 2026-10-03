@@ -3,41 +3,52 @@ title: Adobe AdvertisingとCustomer Journey Analyticsを統合するための前
 description: Adobe AdvertisingとCustomer Journey Analyticsを統合するための前提条件
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-TQID: https://experienceleague.adobe.com/I86BXjKORkYZIBn9EqPy3eWPJZi27n5STWcXUtp9gwo
+TQID: 'https://experienceleague.adobe.com/I86BXjKORkYZIBn9EqPy3eWPJZi27n5STWcXUtp9gwo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: ea6cf12e-f4da-4e2b-a9c1-e64da280b6f3
+    internal-label: Adobe Customer Journey Analytics Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+    internal-label: Data modeling
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: d2b474e24ef2dbf951ea40c42497f6d6d37993ee
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 321
+source-wordcount: '321'
 ht-degree: 0%
-
 ---
-
 # Adobe AdvertisingとCustomer Journey Analyticsを統合するための前提条件
 
 *Advertising DSPおよび[!DNL Advertising Search, Social, & Commerce]*&#x200B;の広告主
 
 * （Customer Journey Analyticsを使用しているが[!DNL Analytics for Advertising]ではない広告主）:
 
-  * [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) バージョン 2.36以降。
+  * [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) バージョン 2.36以降。
 
-  * [Adobe Experience Platform タグ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home) （バージョン 2.37以降の[[!DNL Web SDK] 拡張機能](https://experienceleague.adobe.com/ja/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension)を含む）。
+  * [Adobe Experience Platform タグ ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) （バージョン 2.37以降の[[!DNL Web SDK] 拡張機能](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension)を含む）。
 
 * Adobe Customer Journey Analyticsからデータ管理ツールにアクセス
 
   データセットへの接続を設定し、レポートを設定するには、社内のweb アナリストのサポートが必要です。
 
-* （広告主が[!DNL Analytics for Advertising]）Adobe Experience Platform データモデリングおよび管理テクノロジー（[&#x200B; スキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)および[&#x200B; データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)を含む）および[&#x200B; データ収集テクノロジー](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/home) （[&#x200B; データストリーム &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/overview)および[&#x200B; タグ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)を含む）
+* （広告主が[!DNL Analytics for Advertising]）Adobe Experience Platform データモデリングおよび管理テクノロジー（[ スキーマ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)および[ データセット ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)を含む）および[ データ収集テクノロジー](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) （[ データストリーム ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)および[ タグ ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)を含む）
 
   これらのテクノロジには、Experience Platform サイト管理者のサポートが必要です。
 
@@ -48,8 +59,8 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [概要](overview.md)
->*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)様が使用しているAdobe Advertising ID
->* [&#x200B; データ収集、データ転送、レポートの設定](set-up.md)
->* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション &#x200B;](advertising-data-in-cja.md)
+>*  [!DNL Customer Journey Analytics]](ids.md)様が使用している[Adobe Advertising ID
+>* [ データ収集、データ転送、レポートの設定](set-up.md)
+>* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション ](advertising-data-in-cja.md)
 >* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用するAMO IDとEF IDの履歴データを収集](/help/integrations/analytics/rvars-to-evars.md)。
->* [&#x200B; トラブルシューティング &#x200B;](troubleshooting.md)
+>* [ トラブルシューティング ](troubleshooting.md)

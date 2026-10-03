@@ -1,20 +1,23 @@
 ---
-title: ' [!DNL LY Ads]のクリックトラッキング形式'
-description: ' [!DNL LY Ads]  アカウントのクリックトラッキング形式について説明します。'
+title: '[!DNL LY Ads]のクリックトラッキング形式'
+description: '[!DNL LY Ads] アカウントのクリックトラッキング形式について説明します。'
 exl-id: 79e45205-5c72-4612-9b60-36538e3c48c4
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/ZFNzA0bfxKhlNW6fvPWMwBc4naT7rOhvym-wSpxvYXg
+TQID: 'https://experienceleague.adobe.com/ZFNzA0bfxKhlNW6fvPWMwBc4naT7rOhvym-wSpxvYXg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 115
+source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 # [!DNL LY Ads]のスポンサー広告のクリックトラッキング形式
 
 スポンサー広告には、次の基本トラッキングテンプレート形式が適用されます。
@@ -40,4 +43,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising コンバージョントラッキングサービスのクリックトラッキング URL形式について](formats-click-tracking-about.md)
->* [AMO ID形式](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID形式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

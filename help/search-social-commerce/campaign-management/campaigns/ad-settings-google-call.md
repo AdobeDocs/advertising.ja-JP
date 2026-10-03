@@ -1,20 +1,23 @@
 ---
 title: '[!DNL Google Ads]件の呼び出し専用の広告設定'
-description: ' [!DNL Google Ads] 呼び出し専用の広告の設定を参照します。'
+description: '[!DNL Google Ads]件の呼び出し専用広告の設定を参照してください。'
 exl-id: 10672771-53fd-4ce9-9d67-6b1f8f5a41b8
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/KtnceFJbgZ-jPcNzl1c6XychNzr4tOIs5B9mMbXegxo
+TQID: 'https://experienceleague.adobe.com/KtnceFJbgZ-jPcNzl1c6XychNzr4tOIs5B9mMbXegxo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 351
+source-wordcount: '352'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]件の呼び出し専用の広告設定
 
 検索ネットワークを使用するキャンペーンでは、呼び出し専用のテキスト広告を作成できます。

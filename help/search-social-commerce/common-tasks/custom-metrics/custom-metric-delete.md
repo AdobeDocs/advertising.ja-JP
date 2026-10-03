@@ -3,18 +3,23 @@ title: カスタム指標の削除
 description: 標準指標から計算されるカスタム指標を削除する方法について説明します。
 exl-id: 8956afa3-d165-4a5b-b68b-99d519cf6ab6
 feature: Search Common Tasks, Search Custom Metrics
-TQID: https://experienceleague.adobe.com/u6LSq4sjhGLW1gmQqJlTtH0DFyTIsq-1t3Ga7NEXPko
+TQID: 'https://experienceleague.adobe.com/u6LSq4sjhGLW1gmQqJlTtH0DFyTIsq-1t3Ga7NEXPko'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: a1695a4d-41fb-5bb6-a22a-9e7a1b3222d7
+    internal-label: Search Custom Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 340
+source-wordcount: '335'
 ht-degree: 0%
-
 ---
-
 # カスタム指標の削除
 
 カスタム指標が現在のビューの列として含まれている場合、列を削除すると、すぐに削除されます。 別のデフォルトのビューまたはカスタムビュー、またはレポートテンプレートに含まれている場合は、次にビューを更新するか、テンプレートを表示するときにそれぞれ列の変更が表示されます。
@@ -25,11 +30,11 @@ ht-degree: 0%
 
 1. データテーブルの上で、次のいずれかの操作を行います。
 
-   * 現在適用されているビューの名前（![&#x200B; ビュー](/help/search-social-commerce/assets/view.png " ビュー")）をクリックします。 編集可能なビューの名前の上にカーソルを置き、![Edit](/help/search-social-commerce/assets/edit-new.png "Edit")をクリックしてビュー設定を開きます。
+   * 現在適用されているビューの名前（![ ビュー](/help/search-social-commerce/assets/view.png " ビュー")）をクリックします。 編集可能なビューの名前の上にカーソルを置き、![Edit](/help/search-social-commerce/assets/edit-new.png "Edit")をクリックしてビュー設定を開きます。
 
      カスタム指標はすべてのビューから削除されます。
 
-   * ![&#x200B; カスタム列](/help/search-social-commerce/assets/custom-columns-new.png " カスタム列")をクリックして、列構成設定を開きます。
+   * ![ カスタム列](/help/search-social-commerce/assets/custom-columns-new.png " カスタム列")をクリックして、列構成設定を開きます。
 
 1. 列名の上にカーソルを置き、列名の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
 
@@ -41,7 +46,7 @@ ht-degree: 0%
 
    * デフォルトのビューまたはカスタムビューの名前をクリックして、ビュー設定を開きます。
 
-   * ![&#x200B; カスタム列](/help/search-social-commerce/assets/custom-columns.png " カスタム列")をクリックして、列構成設定を開きます。
+   * ![ カスタム列](/help/search-social-commerce/assets/custom-columns.png " カスタム列")をクリックして、列構成設定を開きます。
 
 1. 列名の上にカーソルを置きます。 列名の横にある「![削除](/help/search-social-commerce/assets/delete.png "削除")」をクリックします。
 
@@ -67,7 +72,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタム指標について](custom-metric-about.md)
->* [&#x200B; カスタム指標を作成](custom-metric-create.md)
->* [&#x200B; カスタム指標を編集](custom-metric-edit.md)
->* [&#x200B; カスタム指標設定](custom-metric-settings.md)
+>* [ カスタム指標について](custom-metric-about.md)
+>* [ カスタム指標を作成](custom-metric-create.md)
+>* [ カスタム指標を編集](custom-metric-edit.md)
+>* [ カスタム指標設定](custom-metric-settings.md)

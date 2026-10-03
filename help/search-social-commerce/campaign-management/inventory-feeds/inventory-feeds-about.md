@@ -3,18 +3,21 @@ title: 在庫フィードを利用した広告管理の自動化について
 description: アカウント構造を自動的に管理し、商品やサービスの在庫に関するデータにもとづいて動的な広告を配信できる、高度なキャンペーン管理について解説します。
 exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg
+TQID: 'https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 846
+source-wordcount: '846'
 ht-degree: 0%
-
 ---
-
 # 在庫フィードを利用した広告管理の自動化について
 
 *[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
@@ -36,7 +39,7 @@ ht-degree: 0%
 広告を生成したら、オプションで広告をレビューし、広告ネットワークに投稿できます。
 
 >[!NOTE]
->スプレッドシート ファイルを使用してキャンペーンデータを一括で作成または編集するには、「[&#x200B; バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)」を参照してください。
+>スプレッドシート ファイルを使用してキャンペーンデータを一括で作成または編集するには、「[ バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)」を参照してください。
 
 ## 在庫フィードを使用したキャンペーンデータ管理のワークフロー
 
@@ -50,25 +53,25 @@ ht-degree: 0%
 
    それ以外の場合は、[!UICONTROL Advanced (ACM)] ビューでファイルを手動でアップロードできます。
 
-1. フィード データを処理するための[&#x200B; パラメーター](feed-settings-manage.md#feed-data-settings)を設定します。
+1. フィード データを処理するための[ パラメーター](feed-settings-manage.md#feed-data-settings)を設定します。
 
    FTPを使用している場合は、最初に広告ネットワークにデータを自動的に投稿しないでください。 最初のファイルの出力を確認し、結果に満足したら、設定を変更できます。
 
-1. FTP ディレクトリにデータファイルをアップロードするか、[手動で[!UICONTROL Advanced (ACM) view]にデータファイル &#x200B;](feed-files-manage.md)をアップロードするか、[GoogleまたはMicrosoft merchant center アカウントへのアクセスを有効にします](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。
+1. FTP ディレクトリにデータファイルをアップロードするか、[手動で[!UICONTROL Advanced (ACM) view]にデータファイル ](feed-files-manage.md)をアップロードするか、[GoogleまたはMicrosoft merchant center アカウントへのアクセスを有効にします](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。
 
 ファイルを手動でアップロードするには、データファイルを使用するテンプレートを作成するまで待ちます。
 
 1. （オプション）フィード データ テンプレートの様々なデータ フィールドで変数として使用する[修飾子](modifiers-manage.md)のグループを作成します。
 
-1. [&#x200B; データ列を使用して、特定の広告ネットワークアカウントのキャンペーン、広告グループ、キーワード、広告コピーを作成する1つ以上のテンプレート &#x200B;](ad-templates/ad-template-manage.md)を作成します。
+1. [ データ列を使用して、特定の広告ネットワークアカウントのキャンペーン、広告グループ、キーワード、広告コピーを作成する1つ以上のテンプレート ](ad-templates/ad-template-manage.md)を作成します。
 
-1. [&#x200B; テンプレート &#x200B;](feed-data-propagate.md)を通じてフィード データを伝達します。テンプレート内の列名をファイルまたはアカウント内のデータで置き換えます。 Search, Social, &amp; Commerceでは、テンプレートオプションに応じて、デフォルト設定を使用して広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成するか、広告を既存のアカウント構造にマッピングします。
+1. [ テンプレート ](feed-data-propagate.md)を通じてフィード データを伝達します。テンプレート内の列名をファイルまたはアカウント内のデータで置き換えます。 Search, Social, &amp; Commerceでは、テンプレートオプションに応じて、デフォルト設定を使用して広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成するか、広告を既存のアカウント構造にマッピングします。
 
 1. （オプション） [出力](propagated-data-view.md)を[!UICONTROL Advanced (ACM)] ビューでプレビューし、オプションで[!UICONTROL Propagations] タブのデータ変更の概要を表示します。
 
-1. [関連する広告ネットワーク アカウントにデータ &#x200B;](propagated-data-post.md)を投稿します。
+1. [関連する広告ネットワーク アカウントにデータ ](propagated-data-post.md)を投稿します。
 
-1. （FTPまたはマーチャント センターのアカウントを使用してデータをアップロードする場合。オプション）最初のフィード ファイルからの出力を検証した後、[&#x200B; パラメーター](feed-settings-manage.md#feed-data-settings)を編集して、関連するテンプレートを介して後続のデータを自動的に伝播し、関連する広告ネットワークに投稿します。
+1. （FTPまたはマーチャント センターのアカウントを使用してデータをアップロードする場合。オプション）最初のフィード ファイルからの出力を検証した後、[ パラメーター](feed-settings-manage.md#feed-data-settings)を編集して、関連するテンプレートを介して後続のデータを自動的に伝播し、関連する広告ネットワークに投稿します。
 
 1. （新しいデータファイルがある場合）必要に応じて、新しいファイルをアップロードし、テンプレートを通じてデータを伝搬し、関連する広告ネットワークにデータを投稿します。 必要に応じて、データを1つの手順で伝達および投稿できます。
 

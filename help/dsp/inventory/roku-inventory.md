@@ -1,36 +1,46 @@
 ---
-title: ' [!DNL Roku] 在庫を使用しています'
-description: 在庫オプション、承認済みのサードパーティ追跡ベンダー、 [!DNL Roku]固有の配置に関するベストプラクティスなど、 [!DNL Roku]とのDSPのパートナーシップについて説明します。
+title: '[!DNL Roku] インベントリを使用しています'
+description: 在庫オプション、承認済みのサードパーティ追跡ベンダー、[!DNL Roku]固有の配置に関するベストプラクティスなど、[!DNL Roku]とのDSPのパートナーシップについて説明します。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-TQID: https://experienceleague.adobe.com/6CdN1InBGyd9pkECHBITFv1l8JjVdQ6Ot2MUDIAvDjY
+TQID: 'https://experienceleague.adobe.com/6CdN1InBGyd9pkECHBITFv1l8JjVdQ6Ot2MUDIAvDjY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Customer experience
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: '460'
 ht-degree: 0%
-
 ---
-
 # [!DNL Roku] インベントリを使用しています
 
 Advertising DSPは[!DNL Roku]に広告の機能を提供します。
 
 ## オーディエンスマッチング
 
-[!DNL Roku]とDSPのパートナーシップは、[!DNL Roku] インベントリ上の1:1決定論的オーディエンスのターゲティングに対して、[!DNL DSP]のオーディエンスを[!DNL Roku]のIDに一致させます。
+[!DNL Roku]とDSPのパートナーシップは、[!DNL Roku] インベントリでの1:1決定論的オーディエンスのターゲティングに対して、[!DNL DSP]のオーディエンスを[!DNL Roku]のIDに一致させます。
 
 ## [!DNL Roku]個の在庫オプション
 
@@ -46,11 +56,11 @@ Advertising DSPは[!DNL Roku]に広告の機能を提供します。
 
 * プライベートな契約の場合、[DSP](/help/dsp/inventory/deal-id-create.md)で契約IDに関する情報を設定し、[!DNL Roku]件のプレースメント内で「[!UICONTROL Roku Network - Audience]」と「[!UICONTROL The Roku Channel - Audience]」をターゲットにします。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
-* [!DNL On Demand]  ギャラリー[&#128279;](/help/dsp/inventory/on-demand-inventory-subscribe.md)内の次の [!DNL Roku]  インベントリを購読し、[!DNL Roku] プレースメント内の承認済み契約のいずれかをターゲットにすることができます。
+*  [!DNL On Demand]  ギャラリー](/help/dsp/inventory/on-demand-inventory-subscribe.md)内の次の [!DNL Roku]  インベントリを[購読し、[!DNL Roku] プレースメント内の承認済み契約のいずれかをターゲットにすることができます。
 
-   * [!DNL The CW]、[!DNL ABC]、[!DNL ESPN]など、プレミアムコンテンツパートナーを含む[!DNL Roku] エコシステム全体のインベントリの「[!UICONTROL Roku Network - Audience]」。
+  * [!DNL The CW]、[!DNL ABC]、[!DNL ESPN]など、プレミアムコンテンツパートナーを含む[!DNL Roku] エコシステム全体のインベントリの「[!UICONTROL Roku Network - Audience]」。
 
-   * [!DNL Roku]個の所有および運営（O&amp;O）アプリコンテンツの「[!UICONTROL The Roku Channel - Audience]」。
+  * [!DNL Roku]個の所有および運営（O&amp;O）アプリコンテンツの「[!UICONTROL The Roku Channel - Audience]」。
 
 ### [!DNL Roku]でプライベートマーケットプレイスをカスタマイズする利点
 
@@ -88,7 +98,7 @@ DSP キャンペーンでは、プレースメントタイプ「[!UICONTROL Conn
 
 最速の設定のために：
 
-* [[!DNL On Demand]  インベントリ &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)の[!DNL The Roku Channel]に関する既存の常時対応案件をターゲットにして、所有および操作されている[!DNL Roku]のインベントリにすばやくアクセスします。
+* [[!DNL On Demand]  インベントリ ](/help/dsp/inventory/on-demand-inventory-subscribe.md)の[!DNL The Roku Channel]に関する既存の常時対応案件をターゲットにして、所有および操作されている[!DNL Roku]のインベントリにすばやくアクセスします。
 * [[!DNL On Demand] Inventory](/help/dsp/inventory/on-demand-inventory-subscribe.md)の[!DNL Roku Network]に関する既存の常時対応案件をターゲットにして、[!DNL Roku] プラットフォーム全体で迅速に規模を拡大します。
 
 最大スケールまで：
@@ -98,5 +108,5 @@ DSP キャンペーンでは、プレースメントタイプ「[!UICONTROL Conn
 >[!MORELIKETHIS]
 >
 >* [取引IDの詳細を手動で作成する](/help/dsp/inventory/deal-id-create.md)
-> * [&#x200B; プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)
->* [&#x200B; プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)
+> * [ プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト ](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+>* [ プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)

@@ -3,29 +3,32 @@ title: 入札可能なキーワードの管理
 description: 検索広告グループの入札可能なキーワードを作成および管理する方法について説明します。
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/rvAZIAdcUmWSl4GKm4TCvDwkS-jdWFZ1S5vUYYEPRzU
+TQID: 'https://experienceleague.adobe.com/rvAZIAdcUmWSl4GKm4TCvDwkS-jdWFZ1S5vUYYEPRzU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 410
+source-wordcount: '410'
 ht-degree: 0%
-
 ---
-
 # 入札可能なキーワードの管理
 
 *[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]および既存の[!DNL Baidu] アカウントのみ*
 
-[同期広告ネットワークアカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)内の検索および表示/ネイティブネットワークをターゲットとする[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)で、検索広告グループのキーワードを作成および編集できます
+[同期広告ネットワークアカウント ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)内の検索および表示/ネイティブネットワークをターゲットとする[ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md)で、検索広告グループのキーワードを作成および編集できます
 
 ## キーワードの作成
 
 >[!TIP]
 >
->一度に多くのキーワードを作成するには、[&#x200B; コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>一度に多くのキーワードを作成するには、[ コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**&#x200B;をクリックします。
 
@@ -53,7 +56,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->異なる広告ネットワーク上のキーワードを含む、大量のキーワードデータを一度に編集するには、[&#x200B; コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>異なる広告ネットワーク上のキーワードを含む、大量のキーワードデータを一度に編集するには、[ コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**&#x200B;をクリックします。
 
@@ -75,11 +78,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キーワードについて](keyword-about.md)
+>* [ キーワードについて](keyword-about.md)
 >* [[!DNL Baidu]  キーワード設定](keyword-settings-baidu.md)
 >* [[!DNL Google Ads]  キーワード設定](keyword-settings-google.md)
 >* [[!DNL LY Ads]  キーワード設定](keyword-settings-yahoo-japan.md)
 >* [[!DNL Microsoft Advertising]  キーワード設定](keyword-settings-microsoft.md)
 >* [[!DNL Yandex]  キーワード設定](keyword-settings-yandex.md)
 >* [否定的なキーワードを作成](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
->* [&#x200B; キーワードと否定的なキーワードのステータスを変更](keyword-status-edit.md)
+>* [ キーワードと否定的なキーワードのステータスを変更](keyword-status-edit.md)

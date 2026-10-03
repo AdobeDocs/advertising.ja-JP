@@ -3,18 +3,21 @@ title: フィードデータ設定の設定
 description: フィード データの処理方法を制御する設定を構成する方法について説明します。
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
+TQID: 'https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: '1165'
 ht-degree: 0%
-
 ---
-
 # フィードデータ設定の設定
 
 *[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
@@ -25,7 +28,7 @@ ht-degree: 0%
 
 1. データテーブルの上のツールバーで、**[!UICONTROL Settings]**&#x200B;をクリックします。
 
-1. [&#x200B; フィード データ設定](#feed-data-settings)を指定します。
+1. [ フィード データ設定](#feed-data-settings)を指定します。
 
    1. 「[!UICONTROL Obsolete Item Auto-Processing]」セクションで、フィールドの情報を選択します。
 
@@ -100,7 +103,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* FTP ファイルの場合、フィードサービスは2時間ごとにFTP ディレクトリの更新を確認します（PST タイムゾーンの偶数時間数）。 このオプションは、前回のチェック以降にアップロードされたすべてのファイルを処理します。
->* マーチャント センターのアカウントの場合、Search、Social、およびCommerceは、広告主のタイムゾーンの約06:00で毎日アカウントと同期します。 このオプションは、前回の同期以降に更新されたすべてのデータを処理します。
+>* マーチャントセンターのアカウントの場合、広告主のタイムゾーンの約06:00に、Search、Social、Commerceが毎日アカウントと同期します。 このオプションは、前回の同期以降に更新されたすべてのデータを処理します。
 >* データが広告ネットワークまたは[!UICONTROL Bulksheets] ビューに投稿されるまで、伝達されたデータは[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]のタブから利用できます。
 
 **[!UICONTROL Post to the SE]:** （広告主がFTPまたはマーチャント センターのアカウントを介してデータ ファイルをアップロードしている場合）は、新しいデータが該当するテンプレートを通じて伝達された後、関連する広告ネットワークに適した形式でバルクシート ファイルを自動的に作成します。 このオプションは、サブコンポーネントにエラーがない限り、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]および[!UICONTROL Ads] タブからもデータを削除します。
@@ -109,7 +112,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Immediately]* （既定値）: データがテンプレートを通じて伝達された後、一括シート ファイルを関連する広告ネットワークに投稿します。 バルクシートファイルは、30日間[!UICONTROL Bulksheets] ビューで引き続き利用できます。
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]:**は、バルクシート ファイルを関連する広告ネットワークに投稿しませんが、後で投稿できる[!UICONTROL Bulksheets] ビューに一覧表示します。 バルクシートファイルは、30日間[!UICONTROL Bulksheets] ビューで引き続き利用できます。 バルクシートファイルが10 MBを超えて2 GB未満の場合、ファイルはZIP形式になります。投稿するためにファイルを解凍する必要はありません。 &#x200B;** ヒント：**&#x200B;以前にランディングページを検証していない場合は、このオプションを使用して、データを広告ネットワークに投稿する前に[!UICONTROL Bulksheets] ビューから検証できます。
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]:**は、バルクシート ファイルを関連する広告ネットワークに投稿しませんが、後で投稿できる[!UICONTROL Bulksheets] ビューに一覧表示します。 バルクシートファイルは、30日間[!UICONTROL Bulksheets] ビューで引き続き利用できます。 バルクシートファイルが10 MBを超えて2 GB未満の場合、ファイルはZIP形式になります。投稿するためにファイルを解凍する必要はありません。 **ヒント：**&#x200B;以前にランディングページを検証していない場合は、このオプションを使用して、データを広告ネットワークに投稿する前に[!UICONTROL Bulksheets] ビューから検証できます。
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]:**&#x200B;は、指定された文字数以上のキーワードフレーズを広告ネットワークに投稿することを禁止します。 このオプションを選択すると、最大文字数を超えるキーワードフレーズが反映され、[!UICONTROL Keywords] タブに表示されますが、データを投稿しようとすると投稿されません。
 
@@ -118,5 +121,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [在庫フィードについて](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
->* [&#x200B; テンプレートを通じてフィード データを伝達](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
->* [&#x200B; フィードから生成されたキャンペーンデータを広告ネットワークに投稿](propagated-data-post.md)
+>* [ テンプレートを通じてフィード データを伝達](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
+>* [ フィードから生成されたキャンペーンデータを広告ネットワークに投稿](propagated-data-post.md)

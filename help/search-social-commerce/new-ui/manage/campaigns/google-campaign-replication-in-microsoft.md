@@ -2,7 +2,13 @@
 title: （新しいUI） Microsoft AdvertisingでのGoogle Ads キャンペーンのレプリケート
 description: Google Ads アカウント内の同期済みキャンペーンを、同期済みMicrosoft Advertising アカウントに直接書き出す方法について説明します。
 feature: Search Campaign Management
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -33,7 +39,7 @@ ht-degree: 0%
 >
 >ショッピング フィード ベースの表示キャンペーンを複製する場合は、まず[で [!DNL Google Merchant Center] 製品オファーを [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870){target="_blank"}に複製します。 キャンペーンをレプリケートする場合は、インポートオプションで[!DNL Microsoft Merchant Center] ストアを選択して、ストアをフィードベースのオーディエンスキャンペーンにリンクします。
 
- [!DNL Google Ads]  キャンペーン [&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}からインポートされたものを確認してください。
+ [!DNL Google Ads]  キャンペーン ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}からインポートされたものを[確認してください。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
@@ -51,7 +57,7 @@ ht-degree: 0%
 
 ## キャンペーン読み込みジョブのスケジュール設定の編集
 
- [!DNL Google Ads]  キャンペーン [&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}からインポートされたものを確認してください。
+ [!DNL Google Ads]  キャンペーン ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}からインポートされたものを[確認してください。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
@@ -59,7 +65,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL List of Import Jobs]**」タブで、読み込みジョブの名前をクリックし、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. **[!UICONTROL Set schedule]** ステップで、[&#x200B; スケジュール設定](#campaign-import-settings)を指定します。
+1. **[!UICONTROL Set schedule]** ステップで、[ スケジュール設定](#campaign-import-settings)を指定します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 

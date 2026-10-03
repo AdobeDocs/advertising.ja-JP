@@ -1,20 +1,23 @@
 ---
-title: 動的リマーケティングオーディエンスを [!DNL Microsoft Advertising] 管理
-description: '動的リマーケティングオーディエンスを作成および管理する方法について説明します。 [!DNL Microsoft Advertising] '
+title: '[!DNL Microsoft Advertising]動的リマーケティングオーディエンスの管理'
+description: '[!DNL Microsoft Advertising]動的リマーケティングオーディエンスを作成および管理する方法について説明します。'
 exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/ev1y2UpkEHJhIgS3vQz8GRF0LNJwG9BHSxufQeeQAfA
+TQID: 'https://experienceleague.adobe.com/ev1y2UpkEHJhIgS3vQz8GRF0LNJwG9BHSxufQeeQAfA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '515'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]動的リマーケティングオーディエンスの管理
 
 *[!DNL Microsoft Advertising]アカウントのみ*
@@ -23,7 +26,7 @@ web ページで検索エンジンのJavaScript コンバージョンおよび�
 
 動的リマーケティングオーディエンスには、オーディエンスタイプ「[!UICONTROL Dynamic Remarketing] \&lt;訪問者タイプ\>」（「動的リマーケティングの過去の購入者」など）があります。
 
-動的リマーケティングと必要なJavaScript タグの実装方法について詳しくは、[[!DNL Microsoft Advertising] 動的リマーケティングに関するドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56910)を参照してください。
+動的リマーケティングと必要なJavaScript タグの実装方法について詳しくは、[[!DNL Microsoft Advertising] 動的リマーケティングに関するドキュメント ](https://help.ads.microsoft.com/#apex/ads/en/56910)を参照してください。
 
 ## 動的リマーケティングオーディエンスの作成
 
@@ -97,7 +100,7 @@ web ページで検索エンジンのJavaScript コンバージョンおよび�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンスについて](audience-about.md)
->* [顧客マッチオーディエンスを [!DNL Google Ads]  オーディエンス  [!DNL Adobe] から](google-audience-from-adobe-audience.md)作成
+>* [ オーディエンスについて](audience-about.md)
+>* [顧客マッチオーディエンスを [!DNL Adobe]  オーディエンス ](google-audience-from-adobe-audience.md)から [!DNL Google Ads] 作成
 >* [Adobe Campaignのメールリストから [!DNL Google Ads] 顧客マッチオーディエンスを作成](google-audience-from-campaign-email-list.md)
 >* [顧客データリストを使用した顧客一致オーディエンスの管理](audience-from-customer-data-list.md)

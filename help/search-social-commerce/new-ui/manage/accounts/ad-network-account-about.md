@@ -3,7 +3,13 @@ title: （新しいUI）広告ネットワークアカウントについて
 description: 新しい検索、ソーシャル、およびCommerce UIの広告ネットワークアカウントについて説明します。
 feature: Search Campaign Management
 exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -36,12 +42,12 @@ Search, Social, &amp; CommerceがAPI サポートを提供しないオンライ�
 
 Search, Social, &amp; Commerceでコンバージョンをクリックに関連付けられるようにするには、アカウントレコードにトラッキングオプションを設定し、アカウントレコードを有効にします。 次に、バルクシートを使用して広告とキーワードのトラッキング URLを生成し、[!DNL Naver]広告マネージャー内にトラッキング URLを手動で追加できます。
 
-Search, Social, &amp; Commerceで新しい[!DNL Naver] アカウントを設定することはできません。 [!DNL Naver]件のトラッキング専用キャンペーンについて詳しくは、「[実装 [!DNL Naver]  トラッキング専用アカウント &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)」を参照してください。
+Search, Social, &amp; Commerceで新しい[!DNL Naver] アカウントを設定することはできません。 [!DNL Naver]件のトラッキング専用キャンペーンについて詳しくは、「[実装 [!DNL Naver]  トラッキング専用アカウント ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)」を参照してください。
 
 >[!MORELIKETHIS]
 >
 >* [API接続による広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)
->* [&#x200B; データのアップロード用の広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/data-upload-account-manage.md)
->* [&#x200B; トラッキング専用の [!DNL Naver]  アカウントの管理](/help/search-social-commerce/new-ui/manage/accounts/template-account-manage.md)
->* [&#x200B; トラッキング専用アカウントを実装 [!DNL Naver] します](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
->* [&#x200B; マーチャント センターのアカウントの管理](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
+>* [ データのアップロード用の広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/data-upload-account-manage.md)
+>* [ トラッキング専用の [!DNL Naver]  アカウントの管理](/help/search-social-commerce/new-ui/manage/accounts/template-account-manage.md)
+>* [ トラッキング専用アカウントを実装 [!DNL Naver] します](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [ マーチャント センターのアカウントの管理](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)

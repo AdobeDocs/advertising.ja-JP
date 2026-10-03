@@ -3,18 +3,21 @@ title: トレンドチャートの表示と非表示
 description: 一部のキャンペーン管理ビューで、データのトレンドチャートを表示および非表示にする方法について説明します。
 exl-id: fa58b123-648f-4a95-86f0-3c38fa89cb28
 feature: Search Common Tasks
-TQID: https://experienceleague.adobe.com/1pWiwFSlyTdsH3-dIBk3Z8rMFKZuZEzmeflNWqFaABc
+TQID: 'https://experienceleague.adobe.com/1pWiwFSlyTdsH3-dIBk3Z8rMFKZuZEzmeflNWqFaABc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 229
+source-wordcount: '228'
 ht-degree: 0%
-
 ---
-
 # トレンドチャートの表示と非表示
 
 *レガシーユーザーインターフェイスのみ*
@@ -27,7 +30,7 @@ ht-degree: 0%
 >
 >2つの日付範囲のデータを比較する場合、トレンドチャートは使用できません。
 
-1. データテーブルの上で、![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/trend-chart.png " グラフ ")をクリックして、非表示のトレンドチャートを表示するか、表示されているトレンドチャートを非表示にします。
+1. データテーブルの上で、![ グラフ ](/help/search-social-commerce/assets/trend-chart.png " グラフ ")をクリックして、非表示のトレンドチャートを表示するか、表示されているトレンドチャートを非表示にします。
 
 1. （表示されるトレンドチャートの場合はオプション）異なる通貨と異なる指標を選択して比較します。
 

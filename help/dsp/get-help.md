@@ -3,22 +3,26 @@ title: ヘルプを表示
 description: オンラインドキュメントやコミュニティリソースを確認する方法と、テクニカルサポートを受ける方法について説明します。
 feature: DSP Introduction
 exl-id: 2e0226ea-bcd3-4a38-8907-d2e078c758d0
-TQID: https://experienceleague.adobe.com/7Ag7-NfA31va0JFwpmUp3h-Xzh-h2Yl7g2Q8WwE2gsc
+TQID: 'https://experienceleague.adobe.com/7Ag7-NfA31va0JFwpmUp3h-Xzh-h2Yl7g2Q8WwE2gsc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Troubleshooting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 165
+source-wordcount: '179'
 ht-degree: 0%
-
 ---
-
 # ヘルプを表示
 
 AI支援のクエリをすべての[!DNL DSP]および（Advertising Creativeを使用する広告主） [!DNL Creative]のドキュメントに送信するか、[!DNL DSP]の完全なユーザーガイドを開くことができます。 ご質問にお答えできない場合は、お問い合わせください。
@@ -34,14 +38,14 @@ AI支援のクエリをすべての[!DNL DSP]および（Advertising Creativeを
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=ja).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## [!DNL Adobe]へのお問い合わせ
 
 製品またはアカウントの問題については、次の操作を行います。
 
-* （セルフサービス契約を持つ広告主） [https://experienceleague.adobe.com/home?lang=ja#support](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support)で組織のチケットを開きます。
+* （セルフサービス契約を持つ広告主） [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)で組織のチケットを開きます。
 
   製品に「[!UICONTROL Advertising - DSP]」を選択します。
 

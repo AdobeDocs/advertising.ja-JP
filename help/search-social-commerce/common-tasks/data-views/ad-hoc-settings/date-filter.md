@@ -3,20 +3,26 @@ title: 日付範囲でデータをフィルタリング
 description: グローバル日付範囲フィルターの使用方法を説明します。
 exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/1zB1NSise7wN1B68fUTq6ef824eiJx3zEglI0iUzwKQ
+TQID: 'https://experienceleague.adobe.com/1zB1NSise7wN1B68fUTq6ef824eiJx3zEglI0iUzwKQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 398
+source-wordcount: '400'
 ht-degree: 0%
-
 ---
-
 # 日付範囲でデータをフィルタリング
 
 <!-- The same in new UI and legacy CM views -->
@@ -31,7 +37,7 @@ ht-degree: 0%
 >
 >* 過去13か月間のデータを表示できますが、既存のカスタムビューには、過去180日間までのデータのみを含めることができます。
 >* 以前のデータを表示するには、[[!UICONTROL Reports] ビュー](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)に移動し、基本レポートを実行します。
->* [&#x200B; デフォルトビューまたはカスタムビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)の日付範囲を保存することもできます。
+>* [ デフォルトビューまたはカスタムビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)の日付範囲を保存することもできます。
 
 ## キャンペーンビューでのグローバル日付フィルターの変更
 
@@ -43,7 +49,7 @@ ht-degree: 0%
 
    * 特定の範囲の場合：**[!UICONTROL Custom Date Range]**&#x200B;を選択し、開始日と終了日を指定します。
 
-     MM/DD/YYYYまたはMM-DD-YYYY形式で日付を入力するか、各フィールドの横にある![&#x200B; カレンダーアイコン &#x200B;](/help/search-social-commerce/assets/calendar.png " カレンダーアイコン ")をクリックしてカレンダーを開き、日付を選択します。
+     MM/DD/YYYYまたはMM-DD-YYYY形式で日付を入力するか、各フィールドの横にある![ カレンダーアイコン ](/help/search-social-commerce/assets/calendar.png " カレンダーアイコン ")をクリックしてカレンダーを開き、日付を選択します。
 
 1. （オプション）指定した日付範囲のデータと2番目の日付範囲のデータを比較します。
 

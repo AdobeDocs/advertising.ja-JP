@@ -3,22 +3,26 @@ title: パッケージの変更ログの表示
 description: パッケージに加えられた変更を表示する方法を説明します。
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-TQID: https://experienceleague.adobe.com/VEvu-gLTJObtSpwo1vKRf8yReubnGAJ-tY1916CWXdI
+TQID: 'https://experienceleague.adobe.com/VEvu-gLTJObtSpwo1vKRf8yReubnGAJ-tY1916CWXdI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 214
+source-wordcount: '213'
 ht-degree: 0%
-
 ---
-
 # パッケージの変更ログの表示
 
 変更ログ パッケージ名、エンティティの種類（パッケージ）、変更の種類、新しい値と古い値、変更を加えたユーザー、日付など、選択した日付範囲でパッケージに加えられた変更を表示します。 オプションで、任意のエントリにメモを追加できます。
@@ -42,7 +46,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのパッケージ管理について](package-about.md)
->* [&#x200B; パッケージを作成](package-create.md)
->* [&#x200B; パッケージの編集](package-edit.md)
->* [&#x200B; プレースメントをパッケージに添付](package-attach-placement.md)
->* [&#x200B; パッケージ設定](package-settings.md)
+>* [ パッケージを作成](package-create.md)
+>* [ パッケージの編集](package-edit.md)
+>* [ プレースメントをパッケージに添付](package-attach-placement.md)
+>* [ パッケージ設定](package-settings.md)

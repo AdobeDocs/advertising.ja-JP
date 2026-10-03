@@ -3,30 +3,43 @@ title: パフォーマンスキャンペーンの設定に関するベストプ�
 description: パフォーマンスに重点を置いたキャンペーンを設定するためのベストプラクティスを説明します。これには、最小CPAまたは最も高いROASに最適化された配置が含まれます。
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-TQID: https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs
+TQID: 'https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
+  - id: 1065ba73-45b2-5aee-bca8-3ae622f2c15d
+    internal-label: DSP Best Practices
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: Optimization
   - id: e9bcaec6-1079-409c-9aee-942e06c44d0a
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 0%
-
+source-wordcount: '1304'
+ht-degree: 1%
 ---
-
 # パフォーマンスキャンペーンの設定に関するベストプラクティス
 
 DSPなら、パフォーマンスに重点を置いた施策を最適化できます。 パフォーマンスキャンペーンについては、次のベストプラクティスを参照してください。
@@ -43,7 +56,7 @@ DSPなら、パフォーマンスに重点を置いた施策を最適化でき�
 
 ![最適化の目標](/help/dsp/assets/optimization-goals.png)
 
-また、全体的な目標につながる成功イベントを決定し、それに応じてカスタム目標を作成する必要があります。 各パッケージについて、[!DNL Adobe AI]を使用したレポートとアルゴリズムの最適化の全体的な最適化目標と共に使用するカスタム目標を指定します。 カスタム目標について詳しくは、「[&#x200B; カスタム目標の管理](/help/dsp/admin/custom-objectives-manage.md)」および「[&#x200B; カスタム目標のベストプラクティス &#x200B;](custom-goal.md)」を参照してください。
+また、全体的な目標につながる成功イベントを決定し、それに応じてカスタム目標を作成する必要があります。 各パッケージについて、[!DNL Adobe AI]を使用したレポートとアルゴリズムの最適化の全体的な最適化目標と共に使用するカスタム目標を指定します。 カスタム目標について詳しくは、「[ カスタム目標の管理](/help/dsp/admin/custom-objectives-manage.md)」および「[ カスタム目標のベストプラクティス ](custom-goal.md)」を参照してください。
 
 ## ステップ 2 – 戦略の策定
 
@@ -55,10 +68,10 @@ Funnelの上位パッケージには、新規顧客にリーチするための�
 
 * 次の戦術を活用して、コンバージョンする可能性の高い新しいオーディエンスを発見しましょう。
 
-   * Adobe Audience Managerなどのデータ管理プラットフォーム（DMP）からの類似（look-alike）モデリング。
-   * サードパーティデータを使用した行動ターゲティング。
-   * コンテクストにもとづくターゲティング :
-   * サイト/カテゴリーターゲティング：
+  * Adobe Audience Managerなどのデータ管理プラットフォーム（DMP）からの類似（look-alike）モデリング。
+  * サードパーティデータを使用した行動ターゲティング。
+  * コンテクストにもとづくターゲティング :
+  * サイト/カテゴリーターゲティング：
 
 * ネットワーク実行（RON）ターゲティングの使用：オーディエンスターゲティングを使用せず、広範な在庫ターゲティングを使用して、ネットワーク配置の実行を含めることが重要です。 これにより、[!DNL Adobe AI]を活用したアルゴリズムは、まだオーディエンスに分類されていない新しいCookieを持つ可能性のある価値あるユーザーを見つけることができます。
 
@@ -93,8 +106,8 @@ Funnelの下位パッケージには、既に広告主のweb ページにアク�
 * **最適化の目標：** パッケージの目標に応じて、2つのパフォーマンス最適化の目標（*[!UICONTROL Highest Return on Ad Spend]*&#x200B;または&#x200B;*[!UICONTROL Lowest Cost per Acquisition]*）のいずれかを使用します。 これらの目標は、パッケージを最高のROASまたは最低のCPA配置に向けて自動的に最適化します。
 
 * **カスタム目標：**
-   * 新しいパッケージに既存のパッケージと同じ目標がある場合は、アルゴリズムが既存のマシンラーニングデータを使用できるように、オプションで既存のパッケージをリンクできます。
-   * 適切な[!UICONTROL Target CPA]または[!UICONTROL Target ROAS]を入力してください。
+  * 新しいパッケージに既存のパッケージと同じ目標がある場合は、アルゴリズムが既存のマシンラーニングデータを使用できるように、オプションで既存のパッケージをリンクできます。
+  * 適切な[!UICONTROL Target CPA]または[!UICONTROL Target ROAS]を入力してください。
 
 * **フライトのペーシングと日中のペーシング：**&#x200B;両方のタイプのペーシングについて、*[!UICONTROL Even]*&#x200B;を選択すると、毎日全体およびフライト全体にわたって均一にペーシングを行い、パフォーマンス目標を最大化できます。
 
@@ -115,16 +128,16 @@ Funnelの下位パッケージには、既に広告主のweb ページにアク�
 CPAまたはROASの最適化は、パッケージレベルで設定する必要がありますが（手順3 - パッケージの作成を参照）、プレースメントレベルの設定を追加できます。
 
 * **最大入札額：**
-   * 見込み客のプレースメントには、低入札額（$5）を使用します。
-   * リターゲティングのプレースメントには、高い最大入札額（$12）を使用します。
+  * 見込み客のプレースメントには、低入札額（$5）を使用します。
+  * リターゲティングのプレースメントには、高い最大入札額（$12）を使用します。
 
 * **入札前のフィルター：**&#x200B;入札前のフィルターを最小限に抑えるか、理想的には回避して、アグレッシブな入札前のフィルターを設定すると、プレースメントがスケールを達成できなくなります。 ベストプラクティスには次のようなものがあります。
 
-   * プレースメントごとに1つの（1）入札前フィルターを使用します。 複数の入札前フィルターを使用する場合、両方を満たす必要があり、規模が縮小されます。
+  * プレースメントごとに1つの（1）入札前フィルターを使用します。 複数の入札前フィルターを使用する場合、両方を満たす必要があり、規模が縮小されます。
 
-   * 追加のターゲティング（オーディエンス、地域、サイトターゲティングなど）が適用される場合は、入札前のフィルターを設定することを検討してください。
+  * 追加のターゲティング（オーディエンス、地域、サイトターゲティングなど）が適用される場合は、入札前のフィルターを設定することを検討してください。
 
-[&#x200B; プレースメントレベルの入札前フィルターで各入札前フィルターを使用するタイミングと使用方法について説明します](/help/dsp/optimization/optimization-pre-bid-filters.md)。
+[ プレースメントレベルの入札前フィルターで各入札前フィルターを使用するタイミングと使用方法について説明します](/help/dsp/optimization/optimization-pre-bid-filters.md)。
 
 ### 在庫
 
@@ -140,10 +153,10 @@ CPAまたはROASの最適化は、パッケージレベルで設定する必要�
 <!-- Say something about limiting unnecessary constraints/limitations, including dayparting, which limit your chances for ad exposure. Use only when it's required for your audience. -->
 
 * **[!UICONTROL Included Audiences]:**
-   * 見込み客のプレースメントの場合、類似のオーディエンスカテゴリと類似のオーディエンスサイズを1つのプレースメントにグループ化します。 次に、パフォーマンスに基づいて、次のいずれかの操作を行います。
-      * 既存のプレースメントから、パフォーマンスの低いオーディエンスを削除。
-      * 最もパフォーマンスの高いオーディエンスを別の場所に移動し、予算をより適切に管理できます。
-   * リターゲティングのプレースメントの場合、入札と予算を簡単に管理するために、プレースメントごとに1つのオーディエンスセグメントを含めることが理想です。
+  * 見込み客のプレースメントの場合、類似のオーディエンスカテゴリと類似のオーディエンスサイズを1つのプレースメントにグループ化します。 次に、パフォーマンスに基づいて、次のいずれかの操作を行います。
+    * 既存のプレースメントから、パフォーマンスの低いオーディエンスを削除。
+    * 最もパフォーマンスの高いオーディエンスを別の場所に移動し、予算をより適切に管理できます。
+  * リターゲティングのプレースメントの場合、入札と予算を簡単に管理するために、プレースメントごとに1つのオーディエンスセグメントを含めることが理想です。
 
 >[!NOTE]
 >
@@ -152,13 +165,13 @@ CPAまたはROASの最適化は、パッケージレベルで設定する必要�
 > オーディエンスを階層化することで、オーディエンスの重複を回避できます。これにより、必要に応じて、より高く、より包括的な階層をプレースメントから除外することができます。
 
 * **[!UICONTROL Frequency Capping]:**
-   * 見込み客のプレースメントには、厳密なフリークエンシーキャップ（1日に1回のインプレッション）を使用します。
-   * リターゲティングプレースメントの場合は、プライマリプレースメントキャップを1日あたり6～10 インプレッションに、セカンダリキャップを1時間あたり1 インプレッションに設定します。
+  * 見込み客のプレースメントには、厳密なフリークエンシーキャップ（1日に1回のインプレッション）を使用します。
+  * リターゲティングプレースメントの場合は、プライマリプレースメントキャップを1日あたり6～10 インプレッションに、セカンダリキャップを1時間あたり1 インプレッションに設定します。
 
 * **[!UICONTROL Device Targeting]**:
-   * [!UICONTROL Computer]、[!UICONTROL Mobile]および[!UICONTROL Tablet]を含めます。
-   * ターゲティングと測定の制限により、[!UICONTROL Firefox]と[!UICONTROL Safari]をターゲットにしないでください。 [!DNL Safari ITP]の[!DNL Adobe]のサポートについて詳しくは、Adobe アカウントチームにお問い合わせください。
-   * モバイル web トラフィックをターゲットにする場合は、[!UICONTROL Chrome]と[!UICONTROL Edge]を除くすべてのモバイルブラウザーを無効にします。
+  * [!UICONTROL Computer]、[!UICONTROL Mobile]および[!UICONTROL Tablet]を含めます。
+  * ターゲティングと測定の制限により、[!UICONTROL Firefox]と[!UICONTROL Safari]をターゲットにしないでください。 [!DNL Safari ITP]の[!DNL Adobe]のサポートについて詳しくは、Adobe アカウントチームにお問い合わせください。
+  * モバイル web トラフィックをターゲットにする場合は、[!UICONTROL Chrome]と[!UICONTROL Edge]を除くすべてのモバイルブラウザーを無効にします。
 
 ### ブランドセーフティおよびメディア品質
 
@@ -172,9 +185,9 @@ CPAまたはROASの最適化は、パッケージレベルで設定する必要�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [DSPによるキャンペーンの最適化](optimization-how-dsp-optimizes-campaigns.md)
 >* [最適化の目標とその使用方法](optimization-goals.md)
->* [&#x200B; プレースメントレベルの入札前フィルターとその使用方法](optimization-pre-bid-filters.md)
->* [&#x200B; キャンペーン開始のチェックリスト &#x200B;](/help/dsp/campaign-management/campaign-launch-checklist.md)
+>* [ プレースメントレベルの入札前フィルターとその使用方法](optimization-pre-bid-filters.md)
+>* [ キャンペーン開始のチェックリスト ](/help/dsp/campaign-management/campaign-launch-checklist.md)

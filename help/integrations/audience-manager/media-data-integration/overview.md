@@ -3,28 +3,39 @@ title: Adobe Audience ManagerへのDSP メディア露出データの送信の�
 description: Audience Manager イベントピクセルを使用して、Advertising DSP キャンペーンからインプレッションレベルおよびクリックレベルのデータを取得する方法について説明します
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-TQID: https://experienceleague.adobe.com/MqAVZH8WKVulxVDOD3SDbROYnkRG0tlm028WGBL9wOM
+TQID: 'https://experienceleague.adobe.com/MqAVZH8WKVulxVDOD3SDbROYnkRG0tlm028WGBL9wOM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 529
+source-wordcount: '574'
 ht-degree: 0%
-
 ---
-
 # Adobe Audience ManagerへのDSP メディア露出データの送信の概要
 
 *Advertising DSPのみの広告主*
@@ -47,7 +58,7 @@ DSPでは、Audience Managerにこれらのシグナルを送信する料金は�
 
 * クリエイターをまたいだ配信頻度の上限、過去のキャンペーンに触れた利用者のリターゲティング、下流サイトの行動やエントリポイントの分析など、ユースケースごとにキャンペーンデータを活用できます。
 
-* 集約されたデータは、キャンペーンのパフォーマンスの統合ビューを提供し、カスタムコンバージョンパスの特定に役立ちます。Audience Manager [!DNL Audience Optimization Reports]またはAdobe Analytics [[!DNL Audience Analytics] との](/help/integrations/audience-manager/audience-analytics.md)統合を通じて、コンバージョンにつながるイベントのシーケンスを改善するために使用できます。
+* 集約されたデータは、キャンペーンのパフォーマンスの統合ビューを提供し、カスタムコンバージョンパスの特定に役立ちます。Audience Manager [!DNL Audience Optimization Reports]またはAdobe Analytics ](/help/integrations/audience-manager/audience-analytics.md)との[[!DNL Audience Analytics] 統合を通じて、コンバージョンにつながるイベントのシーケンスを改善するために使用できます。
 
 ## データの追跡方法
 
@@ -55,17 +66,17 @@ Audience Managerのインプレッションとクリックのイベントピク�
 
 ### インプレッション追跡ピクセル
 
-Audience Managerは、1xl ピクセルの透明なイベントトラッキングピクセルを広告にアタッチすると、広告のインプレッションデータをトラッキングします。 イベントピクセルは、広告がユーザーに配信され、web ブラウザーによって読み込まれるたびに読み込まれます。 ピクセルは、Audience Managerのレガシードメインである[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja)のクライアント固有のサブドメインから読み込まれ、キーと値のペアとしてパラメーターを含みます。 イベント呼び出しは、インプレッションとコンバージョンデータを収集し、それをAudience Manager データ収集サーバーに送信します。
+Audience Managerは、1xl ピクセルの透明なイベントトラッキングピクセルを広告にアタッチすると、広告のインプレッションデータをトラッキングします。 イベントピクセルは、広告がユーザーに配信され、web ブラウザーによって読み込まれるたびに読み込まれます。 ピクセルは、Audience Managerのレガシードメインである[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)のクライアント固有のサブドメインから読み込まれ、キーと値のペアとしてパラメーターを含みます。 イベント呼び出しは、インプレッションとコンバージョンデータを収集し、それをAudience Manager データ収集サーバーに送信します。
 
 ### クリックトラッキングピクセル
 
-Audience Managerでは、広告が配信されるたびに透明なイベントピクセルが読み込まれない点を除いて、クリック数はインプレッション数と同様に追跡されます。 代わりに、クリックデータは広告のクリックスルーURLで追跡されます。 この広告は、Audience Manager データ コレクション サーバーによる処理のために、Audience Managerのレガシードメインである[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja)のクライアント固有のサブドメインを指しています。 その後、サーバーはユーザーを意図したランディングページにリダイレクトします。 URLには、キーと値のペアとしてパラメーターが含まれています。
+Audience Managerでは、広告が配信されるたびに透明なイベントピクセルが読み込まれない点を除いて、クリック数はインプレッション数と同様に追跡されます。 代わりに、クリックデータは広告のクリックスルーURLで追跡されます。 この広告は、Audience Manager データ コレクション サーバーによる処理のために、Audience Managerのレガシードメインである[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)のクライアント固有のサブドメインを指しています。 その後、サーバーはユーザーを意図したランディングページにリダイレクトします。 URLには、キーと値のペアとしてパラメーターが含まれています。
 
 >[!NOTE]
 >
->お客様の組織で[!DNL Analytics] トラッキングを使用している場合は、Audience Manager クリック トラッキングが不要になる可能性があります。 Adobe Analyticsはクリックのシグナルをキャプチャし、[&#x200B; サーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja)を通じてAudience Managerに送信できます。
+>お客様の組織で[!DNL Analytics] トラッキングを使用している場合は、Audience Manager クリック トラッキングが不要になる可能性があります。 Adobe Analyticsはクリックのシグナルをキャプチャし、[ サーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)を通じてAudience Managerに送信できます。
 
 >[!MORELIKETHIS]
 >
 >* [Advertising DSP キャンペーンからクリックとインプレッションのデータを収集](collect.md)
->* [&#x200B; ユースケース &#x200B;](use-cases.md)
+>* [ ユースケース ](use-cases.md)

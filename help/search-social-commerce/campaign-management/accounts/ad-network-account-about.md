@@ -3,20 +3,24 @@ title: 広告ネットワークアカウントについて
 description: Search, Social, & Commerceの広告ネットワークアカウントについて説明します。
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/90Dq2tehH-k2aY3Ij30aHF-XQGdvlPY346moWkg3xmk
+TQID: 'https://experienceleague.adobe.com/90Dq2tehH-k2aY3Ij30aHF-XQGdvlPY346moWkg3xmk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: '430'
 ht-degree: 0%
-
 ---
-
 # 広告ネットワークアカウントについて
 
 *代理店アカウントマネージャー、Adobe アカウントマネージャー、管理者ユーザーの役割のみ*
@@ -43,10 +47,10 @@ Search, Social, &amp; Commerceは、同期中に、広告主のキャンペー�
 
 Search, Social, &amp; Commerceでコンバージョンをクリックに関連付けられるようにするには、アカウントレコードにトラッキングオプションを設定し、アカウントレコードを有効にします。 次に、バルクシートを使用して広告とキーワードのトラッキング URLを生成し、[!DNL Naver]広告マネージャー内にトラッキング URLを手動で追加できます。
 
-[!DNL Naver]件のトラッキング専用キャンペーンについて詳しくは、「[実装 [!DNL Naver]  トラッキング専用アカウント &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)」を参照してください。
+[!DNL Naver]件のトラッキング専用キャンペーンについて詳しくは、「[実装 [!DNL Naver]  トラッキング専用アカウント ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)」を参照してください。
 
 >[!MORELIKETHIS]
 >
 >* [広告ネットワークアカウントの管理](ad-network-account-manage.md)
->* [&#x200B; マーチャント センターのアカウントの管理](merchant-account-manage.md)
->* [&#x200B; アカウント  [!DNL Google Ads] のAMO ID トラッキングコードを更新します](update-amo-id-google.md)
+>* [ マーチャント センターのアカウントの管理](merchant-account-manage.md)
+>* [ アカウント  [!DNL Google Ads] のAMO ID トラッキングコードを更新します](update-amo-id-google.md)

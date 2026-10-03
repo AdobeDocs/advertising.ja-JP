@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL Google Ads] 動的検索ターゲットの管理'
-description: ' [!DNL Google Ads] 動的検索ターゲットを作成および管理する方法について説明します。'
+title: '[!DNL Google Ads]の動的検索ターゲットを管理'
+description: '[!DNL Google Ads]動的検索ターゲットを作成および管理する方法について説明します。'
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0
+TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '676'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]の動的検索ターゲットを管理
 
 *[!DNL Google Ads]アカウントのみ*
@@ -25,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[&#x200B; バルクシート ファイル &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)をアップロードして広告ネットワークに投稿すると、大量のターゲットデータを一度に作成および編集できます。
+>[ バルクシート ファイル ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)をアップロードして広告ネットワークに投稿すると、大量のターゲットデータを一度に作成および編集できます。
 
 ## [!DNL Google Ads]動的検索ターゲットの作成
 
@@ -39,7 +43,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->多くのアカウントコンポーネントを一度に作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>多くのアカウントコンポーネントを一度に作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Auto Targets]**&#x200B;をクリックします。
 
@@ -57,7 +61,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->大量のデータを一度に編集するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>大量のデータを一度に編集するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Auto Targets]**&#x200B;をクリックします。
 
@@ -93,13 +97,13 @@ ht-degree: 0%
 
    * 1つ以上の動的ターゲットを削除するには、次の操作を行います。
 
-      1. 削除する各ダイナミックターゲットの横にあるチェックボックスをオンにします。
+     1. 削除する各ダイナミックターゲットの横にあるチェックボックスをオンにします。
 
      複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-      1. ツールバーで、![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、**[!UICONTROL Delete]**&#x200B;を選択します。
+     1. ツールバーで、![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、**[!UICONTROL Delete]**&#x200B;を選択します。
 
-      1. 確認メッセージで、**[!UICONTROL Delete]**&#x200B;をクリックします。
+     1. 確認メッセージで、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
 ## [!DNL Google Ads]動的検索ターゲット設定 {#dynamic-search-target-settings}
 
@@ -111,13 +115,13 @@ ht-degree: 0%
 
 * *\[特定のターゲット\]:* インデックス付きページの最大3つの条件をターゲットにします。 これを選択する場合は、広告のターゲットとなる情報カテゴリと特定の値を指定して条件を指定する必要があります（例：「URLにshoes.example.comが含まれる」）。 複数の条件を指定するには、**[!UICONTROL + And]**&#x200B;をクリックします。 ターゲット基準には、次のものが含まれます。
 
-   * *[!UICONTROL Category]:*&#x200B;特定の[!DNL Google Ads] コンテンツカテゴリを持つインデックス付きページの広告を表示します。
+  * *[!UICONTROL Category]:*&#x200B;特定の[!DNL Google Ads] コンテンツカテゴリを持つインデックス付きページの広告を表示します。
 
-   * *[!UICONTROL URL]:*&#x200B;特定のURLを持つインデックス付きページの広告を表示するには、URL内の任意の場所に値を含めることができます。
+  * *[!UICONTROL URL]:*&#x200B;特定のURLを持つインデックス付きページの広告を表示するには、URL内の任意の場所に値を含めることができます。
 
-   * *[!UICONTROL Page Title]:* ページタイトルに特定のテキストを含むインデックスページの広告を表示します。
+  * *[!UICONTROL Page Title]:* ページタイトルに特定のテキストを含むインデックスページの広告を表示します。
 
-   * *[!UICONTROL Page Content]:*&#x200B;特定のコンテンツを含むインデックス付きページの広告を表示します。
+  * *[!UICONTROL Page Content]:*&#x200B;特定のコンテンツを含むインデックス付きページの広告を表示します。
 
 **ステータス：** ターゲット設定のステータス：
 

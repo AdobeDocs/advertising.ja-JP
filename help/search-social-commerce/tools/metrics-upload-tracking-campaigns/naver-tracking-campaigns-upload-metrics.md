@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL Naver]  トラッキング専用アカウントのトラフィックとコンバージョン指標をアップロード'
-description: ' [!DNL Naver]  アカウントのトラッキングとレポート用のトラフィックとコンバージョン指標をアップロードする方法について説明します。'
+title: '[!DNL Naver]個のトラッキング専用アカウントのトラフィックとコンバージョン指標をアップロード'
+description: '[!DNL Naver] アカウントのトラッキングとレポート用のトラフィックとコンバージョン指標をアップロードする方法について説明します。'
 exl-id: 2e4c26fa-16a8-4f36-bc17-b3a38a18120b
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/vmx5EJXshqcimgaiZLntRL2ydVi7S-toZHdmIaVlFwE
+TQID: 'https://experienceleague.adobe.com/vmx5EJXshqcimgaiZLntRL2ydVi7S-toZHdmIaVlFwE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 137
+source-wordcount: '139'
 ht-degree: 0%
-
 ---
-
 # [!DNL Naver]個のトラッキング専用アカウントのトラフィックとコンバージョン指標をアップロード
 
 *ネイバーアカウントのみ*
@@ -35,6 +39,6 @@ Search, Social, &amp; Commerceでは、データが広告ネットワークと�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; トラッキング専用アカウントを実装 [!DNL Naver] します](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
->* [付録 –  [!DNL Naver]  アカウント &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)に必要なバルクシート データ
->* [&#x200B; トラッキング専用アカウント  [!DNL Naver] の](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)指標データ要件
+>* [ トラッキング専用アカウントを実装 [!DNL Naver] します](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [付録 –  [!DNL Naver]  アカウント ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)に必要なバルクシート データ
+>*  [!DNL Naver]  トラッキング専用アカウント ](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)の[指標データ要件

@@ -3,21 +3,24 @@ title: バルクシートファイルのダウンロード/作成
 description: 広告ネットワークのアカウントデータをダウンロードして、バルクシートファイルを作成する方法について説明します。
 exl-id: a3fcef52-3d36-462e-a975-c741d003326e
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/2naHFI92HnVZ7Vi1gRnTtBtI1PbfTmfkeLQGRJJCSgs
+TQID: 'https://experienceleague.adobe.com/2naHFI92HnVZ7Vi1gRnTtBtI1PbfTmfkeLQGRJJCSgs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1768
+source-wordcount: '1768'
 ht-degree: 0%
-
 ---
-
 # バルクシートファイルのダウンロード/作成
 
-1つ以上の[&#x200B; サポートされている広告ネットワーク &#x200B;](bulksheet-about.md#bulksheet-functionality-by-network)で、1つ以上のアカウントのカスタム設定を使用してバルクシートを作成できます。 Bulksheetsには、Search, Social, &amp; Commerce内のデータが含まれます。
+1つ以上の[ サポートされている広告ネットワーク ](bulksheet-about.md#bulksheet-functionality-by-network)で、1つ以上のアカウントのカスタム設定を使用してバルクシートを作成できます。 Bulksheetsには、Search, Social, &amp; Commerce内のデータが含まれます。
 
 同期済みキャンペーンの場合は、データをダウンロードする前にオプションで広告ネットワークと同期して、広告ネットワーク側の最近のデータ変更を確実に含めることができます。 すべての広告ネットワークに対して、オプションで、ファイルに含める新しいクリックトラッキング URLを生成できます。
 
@@ -29,7 +32,7 @@ ht-degree: 0%
 
 1. ツールバーで、**[!UICONTROL Download Bulksheet]**&#x200B;をクリックします。
 
-1. [&#x200B; バルクシート設定](#bulksheet-download-settings)を指定します。
+1. [ バルクシート設定](#bulksheet-download-settings)を指定します。
 
 1. 「**[!UICONTROL Selections]**」タブで、フィールドに情報を入力または選択します。
 
@@ -91,7 +94,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
->* [&#x200B; バルクシートの投稿またはエラーファイルの修正](bulksheet-post.md)
->* [&#x200B; バルクシート ファイル内のランディングページの検証](bulksheet-validate-landing-pages.md)
+>* [ バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
+>* [ バルクシートの投稿またはエラーファイルの修正](bulksheet-post.md)
+>* [ バルクシート ファイル内のランディングページの検証](bulksheet-validate-landing-pages.md)
 >* [生成またはアップロードされたバルクシート ファイルを書き出す](bulksheet-export.md)

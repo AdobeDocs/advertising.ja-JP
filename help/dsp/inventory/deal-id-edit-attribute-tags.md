@@ -1,33 +1,41 @@
 ---
-title: 取引 ID の属性タグの編集
-description: 取引 ID の属性タグを作成および編集する方法を説明します。
+title: 取引IDの属性タグの編集
+description: 案件IDの属性タグを作成および編集する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
+  - id: ea1cb503-33dd-595d-833b-f365576083b6
+    internal-label: DSP Programmatic Guaranteed Deals
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
-
 ---
+# 取引IDの属性タグの編集
 
-# 取引 ID の属性タグの編集
+取引IDにタグを作成して割り当て、類似の取引をまとめてグループ化できます。 プレースメントを作成または編集する際に、タグ名で利用可能な在庫を検索できます。
 
-タグを作成して取引 ID に割り当てると、類似した取引をグループ化できます。 プレースメントを作成または編集する際に、タグ名で使用可能な在庫を検索できます。
+1. メインメニューで、**[!UICONTROL Inventory]** > **[!UICONTROL Deals]**&#x200B;をクリックします。
 
-1. メインメニューで、**[!UICONTROL Inventory]**/**[!UICONTROL Deals]** をクリックします。
+1. 取引行で、![ オプション メニュー](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]**&#x200B;をクリックします。
 
-1. 取引行で、![&#x200B; オプションメニュー &#x200B;](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]** をクリックします。
+1. [!UICONTROL Ad & Deal Tagging]設定で、次のいずれかの操作を行います。
 
-1. [!UICONTROL Ad & Deal Tagging] の設定で、次のいずれかの操作を行います。
+   * 既存のタグを取引に割り当てるには、[!UICONTROL Custom Tags] リストの取引の横にあるチェックボックスを選択します。
 
-   * 既存のタグを取引に割り当てるには、取引リストの取引の横にあるチェックボックスをオンに [!UICONTROL Custom Tags] ます。
+   * タグを作成して契約に関連付けるには、**[!UICONTROL Create new tag(s)]** フィールドにタグ名を入力し、**[!UICONTROL Create and Associate Tag]**&#x200B;をクリックします。
 
-   * タグを作成して取引に関連付けるには、「**[!UICONTROL Create new tag(s)]**」フィールドにタグ名を入力し、「**[!UICONTROL Create and Associate Tag]**」をクリックします。
+   * 取引から既存のタグを削除するには、[!UICONTROL Custom Tags] リストの取引の横にあるチェックボックスをオフにします。
 
-   * 既存のタグを取引から削除するには、取引リストの取引の横にあるチェックボックスをオフに [!UICONTROL Custom Tags] ます。
-
-1. 「**[!UICONTROL Update]**」をクリックします。
+1. **[!UICONTROL Update]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プライベートインベントリについて &#x200B;](private-inventory-about.md)
->* [&#x200B; プライベート取引設定の編集 &#x200B;](/help/dsp/inventory/deal-id-edit.md)
+>* [ プライベートインベントリについて](private-inventory-about.md)
+>* [ プライベート取引設定の編集](/help/dsp/inventory/deal-id-edit.md)

@@ -4,7 +4,15 @@ description: キーワードに制約を割り当てる方法を説明します�
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
-source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -86,7 +94,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI）検索入札単位の制約を管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [&#x200B; （新しいUI） キャンペーンの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [&#x200B; （新しいUI）広告グループの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [&#x200B; （新しいUI） プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+>* [ （新しいUI）検索入札単位の制約を管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
+>* [ （新しいUI） キャンペーンの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [ （新しいUI）広告グループの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
+>* [ （新しいUI） プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)

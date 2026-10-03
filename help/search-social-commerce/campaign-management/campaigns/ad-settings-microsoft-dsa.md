@@ -1,20 +1,23 @@
 ---
 title: '[!DNL Microsoft Advertising]さんが動的検索広告の設定を拡張しました'
-description: ' [!DNL Microsoft Advertising] 拡張された動的検索広告の設定を参照します。'
+description: '[!DNL Microsoft Advertising]件の拡張動的検索広告の設定を参照してください。'
 exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/fMR1RR6uS47cLevFEEmnfOvMUiENPiwlhQA-fFx22pA
+TQID: 'https://experienceleague.adobe.com/fMR1RR6uS47cLevFEEmnfOvMUiENPiwlhQA-fFx22pA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 112
+source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]さんが動的検索広告の設定を拡張しました
 
 拡張された動的検索広告（eDSA）は、検索ネットワーク上のキャンペーンの動的広告グループでのみ使用できます。 広告ネットワークは動的に見出しを生成し、動的な検索広告のランディングページを選択してから、最終的なURLを自動的に生成します。

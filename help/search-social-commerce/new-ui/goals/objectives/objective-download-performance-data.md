@@ -4,13 +4,19 @@ description: スプレッドシートファイルで目的をダウンロード�
 feature: Search Optimization, Search Portfolios
 hide: true
 exl-id: fbd0e58b-9f9b-4c8e-8a85-197bca220c10
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）目的のパフォーマンスデータのダウンロード
 
 *Beta機能*
@@ -29,7 +35,7 @@ ht-degree: 0%
 
    * すべての目的のデータをダウンロードするには、チェックボックスをオンにする必要はありません。 すべての目標はデフォルトで含まれています。
 
-1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. [!UICONTROL Grid Reports]設定で、一意のレポート名を入力し、**[!UICONTROL Generate]**&#x200B;をクリックします。
 
@@ -37,7 +43,7 @@ ht-degree: 0%
 
    ファイルが[!UICONTROL Recently Generated] リストに追加されます。
 
-1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -45,9 +51,9 @@ ht-degree: 0%
 
 メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;をクリックします。
 
-1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
-1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -55,7 +61,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;をクリックします。
 
-1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
 

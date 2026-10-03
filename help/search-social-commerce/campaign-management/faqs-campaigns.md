@@ -3,22 +3,28 @@ title: キャンペーンに関するよくある質問
 description: キャンペーン管理とキャンペーンデータビューに関する質問への回答を参照してください。
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/5I3xvxMaW-VmMn1UhxtTgt7O68vi--W38VNpV1fE6Rs
+TQID: 'https://experienceleague.adobe.com/5I3xvxMaW-VmMn1UhxtTgt7O68vi--W38VNpV1fE6Rs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1585
+source-wordcount: '1601'
 ht-degree: 0%
-
 ---
-
 # キャンペーン管理に関するよくある質問
 
 ## 一般情報
@@ -30,7 +36,7 @@ ht-degree: 0%
 
 +++広告ネットワークからクリックデータが更新されるのはいつですか？
 
-検索エンジンから前日のクリックデータを取得するプロセスは、広告主のタイムゾーンの06:00から始まります。
+検索エンジンから前日のクリックデータを取得するプロセスは、広告主のタイムゾーンの6時から始まります。
 
 さらに、現在の日の検索ネットワーク上の[!DNL Google Ads]個のキャンペーンレベルのパフォーマンス指標は、広告主のタイムゾーンの08:00と16:00にプルされます。
 +++
@@ -65,7 +71,7 @@ ht-degree: 0%
 
 * 新しいフィードファイルには、a）以前のファイルにあったがb）以降に省略され、フィードデータの設定に従って一時停止または削除された広告またはキーワードの行が含まれます。
 
-[&#x200B; フィード データ設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings)に応じて、次の場合に既存の広告またはキーワードが削除される場合があります。
+[ フィード データ設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings)に応じて、次の場合に既存の広告またはキーワードが削除される場合があります。
 
 * 新しいフィード ファイルには、既存の広告またはキーワードの行が含まれていません。
 
@@ -81,7 +87,7 @@ Search、Social、およびCommerceでコンバージョン指標の表示名を
 
 +++（Google Ads キャンペーン） ポートフォリオのキャンペーンに共有予算を使用できますか？
 
-最良の結果を得るには、「[!DNL Google Ads]」に設定された最適化されたポートフォリオにあるキャンペーンを[!DNL Google Ads]の共有予算に[!UICONTROL Auto adjust campaign budget limits]件を追加しないでください。 この場合、[!DNL Google Ads]がSearch, Social, &amp; Commerceに最適化されたキャンペーン予算を上書きするため、入札が非効率になる可能性があります。
+最良の結果を得るには、「[!UICONTROL Auto adjust campaign budget limits]」に設定された最適化されたポートフォリオにあるキャンペーンを[!DNL Google Ads]の共有予算に[!DNL Google Ads]件を追加しないでください。 この場合、[!DNL Google Ads]がSearch, Social, &amp; Commerceに最適化されたキャンペーン予算を上書きするため、入札が非効率になる可能性があります。
 +++
 
 +++（[!DNL Google Ads] キャンペーン） モバイルユーザーとモバイルユーザー以外のユーザーを異なるランディングページに送信できますか？
@@ -106,9 +112,9 @@ Search、Social、およびCommerceでコンバージョン指標の表示名を
 
 +++（検索ネットワーク上の[!DNL Google Ads] キャンペーン）今日のデータは何ですか？
 
-現在の日の検索ネットワーク上の[!DNL Google Ads]個のキャンペーンレベルのパフォーマンス指標が、広告主のタイムゾーンの08:00と16:00にプルされます。
+現在の日の検索ネットワークの[!DNL Google Ads]個のキャンペーンレベルのパフォーマンス指標は、広告主のタイムゾーンの08:00と16:00にプルされます。
 
-[!UICONTROL Campaigns] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] ビューと[!UICONTROL Campaigns] > [!UICONTROL Optimization] ビューの両方の[!UICONTROL Portfolios] タブで、[!UICONTROL Today]または現在の日付を含むカスタム日付範囲についてレポートする場合、データには最近同期されたデータが含まれます。
+[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューと[!UICONTROL Optimization] > [!UICONTROL Portfolios] ビューの両方の[!UICONTROL Campaigns] タブで、[!UICONTROL Today]または現在の日付を含むカスタム日付範囲についてレポートする場合、データには最近同期されたデータが含まれます。
 
 >[!NOTE]
 >
@@ -120,7 +126,7 @@ Search、Social、およびCommerceでコンバージョン指標の表示名を
 
 ランディングページのサフィックスは、並列トラッキングをサポートする広告ネットワークにのみ使用します。 Search, Social, &amp; Commerceでは、トラッキングテンプレートとランディングページのサフィックスの両方に広告ネットワークのクリック識別子を含める必要がありますが、トラッキングテンプレートには追加のトラッキングパラメーターが含まれています。
 
-ユーザーが広告をクリックしたときにトラッキングテンプレートとランディングページのサフィックスが読み込まれる方法について詳しくは、[&#x200B; パラレルトラッキングサポート &#x200B;](#parallel-tracking)に関する次のFAQを参照してください。
+ユーザーが広告をクリックしたときにトラッキングテンプレートとランディングページのサフィックスが読み込まれる方法について詳しくは、[ パラレルトラッキングサポート ](#parallel-tracking)に関する次のFAQを参照してください。
 
 +++
 
@@ -128,14 +134,14 @@ Search、Social、およびCommerceでコンバージョン指標の表示名を
 
 パラレルトラッキングは、広告から最終的なURLに顧客を直接送信します。これには、最終的なURL サフィックスや「ランディングページサフィックス」から追加されたパラメーターが含まれます。 トラッキングテンプレートのURL （クリック測定用の追加パラメーターを含む）は、バックグラウンドで個別に読み込まれます。その結果、ランディングページがより迅速に読み込まれます。
 
-Search, Social, &amp; Commerceでは、広告ネットワークのクリック識別子（`msclkid`は[!DNL Microsoft Advertising]、`gclid`は[!DNL Google Ads]）を使用して、検索キャンペーンとショッピングキャンペーンを並行して追跡できます。 ランディングページ URLに追加される[&#x200B; アカウントレベル &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)または[&#x200B; キャンペーンレベル &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix]を使用して、並列追跡をサポートするブラウザーからの子広告のクリックを追跡します。 [!DNL final URL suffix][の [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)必要なサフィックス形式と[の [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)必要なサフィックス形式を参照してください。
+Search, Social, &amp; Commerceでは、広告ネットワークのクリック識別子（[!DNL Microsoft Advertising]は`msclkid`、[!DNL Google Ads]は`gclid`）を使用して、検索キャンペーンとショッピングキャンペーンを並行して追跡できます。 ランディングページ URLに追加される[ アカウントレベル ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)または[ キャンペーンレベル ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)[!UICONTROL Landing Page Suffix]を使用して、並列追跡をサポートするブラウザーからの子広告のクリックを追跡します。 [!DNL final URL suffix] [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の[必要なサフィックス形式を参照してください。
 
-ユーザーが並列トラッキングをサポートしていないブラウザーで広告を表示する場合、広告ネットワークは代わりにシーケンシャルトラッキングを使用します。顧客はまずトラッキングテンプレート URLに送信され、中間追跡サーバーに顧客をリダイレクトしてから最終的なURL （ランディングページサフィックスに追加のパラメーターを含む場合がある）にリダイレクトされます。 広告ネットワークアカウントのすべてのトラッキングテンプレートには、[!UICONTROL Landing Page Suffix]で使用するのと同じクリック識別子パラメーターを含める必要があります。 [の [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) トラッキングテンプレート形式と[の [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md) トラッキングテンプレート形式を参照してください。
+ユーザーが並列トラッキングをサポートしていないブラウザーで広告を表示する場合、広告ネットワークは代わりにシーケンシャルトラッキングを使用します。顧客はまずトラッキングテンプレート URLに送信され、中間追跡サーバーに顧客をリダイレクトしてから最終的なURL （ランディングページサフィックスに追加のパラメーターを含む場合がある）にリダイレクトされます。 広告ネットワークアカウントのすべてのトラッキングテンプレートには、[!UICONTROL Landing Page Suffix]で使用するのと同じクリック識別子パラメーターを含める必要があります。  [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[ トラッキングテンプレート形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の[ トラッキングテンプレート形式を参照してください。
 +++
 
 +++広告のトラッキング URLに「`&EV_HASH={<hash>}`」が含まれているのはなぜですか？
 
-Search, Social, &amp; Commerce ピクセルリダイレクトを使用し、キーワードレベルおよびクリエイティブレベルのトラッキングを使用するアカウントの[商品インベントリフィード &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)を使用して広告をアップロードすると、Search, Social, &amp; Commerceは、広告のトラッキングテンプレートまたは宛先URLにハッシュパラメーターと値を追加して、インベントリフィード機能を使用して作成されたことを識別します。
+Search, Social, &amp; Commerce ピクセルリダイレクトを使用し、キーワードレベルおよびクリエイティブレベルのトラッキングを使用するアカウントの[商品インベントリフィード ](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)を使用して広告をアップロードすると、Search, Social, &amp; Commerceは、広告のトラッキングテンプレートまたは宛先URLにハッシュパラメーターと値を追加して、インベントリフィード機能を使用して作成されたことを識別します。
 +++
 
 ## 在庫フィード
@@ -160,14 +166,14 @@ Search, Social, &amp; Commerce ピクセルリダイレクトを使用し、キ�
 
 価格データに`{Param 1}`または`{Param 2}`変数を使用するには、データファイルの価格列を適切なフィード テンプレートの変数にマッピングし、その変数を広告バリエーション テンプレートに含めます。
 
-例えば、列が「価格」と呼ばれる場合、広告を作成するフィードテンプレートを開き、**[!UICONTROL Param 1]**&#x200B;の横にある入力フィールドをクリックし、**[!UICONTROL Price]** リストの[!UICONTROL Feeds/Available Columns]列をクリックします。この列では、`[Price]`が[!UICONTROL Param 1]の値として挿入されます。 次に、フィード テンプレートの下部にある広告バリエーション テンプレートに`{param1:default text}`を挿入します。フィード ファイルのパラメーター列が広告行に対して空の場合に使用する「デフォルト テキスト」はテキストです。
+例えば、列が「価格」と呼ばれる場合、広告を作成するフィードテンプレートを開き、**[!UICONTROL Param 1]**&#x200B;の横にある入力フィールドをクリックし、[!UICONTROL Feeds/Available Columns] リストの&#x200B;**[!UICONTROL Price]**&#x200B;列をクリックします。この列では、`[Price]`が[!UICONTROL Param 1]の値として挿入されます。 次に、フィード テンプレートの下部にある広告バリエーション テンプレートに`{param1:default text}`を挿入します。フィード ファイルのパラメーター列が広告行に対して空の場合に使用する「デフォルト テキスト」はテキストです。
 
 データを送信する場合、[!UICONTROL Param1]列と[!UICONTROL Param2]列のデータフィールドには、数値データ、通貨記号と通貨コード、および次の非数値文字を含む、最大25文字を含めることができます：`, . % + - /`
 +++
 
 +++在庫フィードから生成されたキャンペーンには、孤立したトランザクションが多く含まれています。
 
-[&#x200B; フィードデータ設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings)が様々な状況で広告を削除するように設定されている場合、広告をクリックした後に発生するコンバージョンの遅延は、[孤立トランザクション &#x200B;](/help/search-social-commerce/glossary.md#o-p)の原因となる可能性があります。 広告を削除する代わりに、広告を一時停止することをお勧めします。 広告がまだ長い間収益を受け取っていない場合は、バルクシートまたは広告管理ビューを使用して広告を削除できます。
+[ フィードデータ設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings)が様々な状況で広告を削除するように設定されている場合、広告をクリックした後に発生するコンバージョンの遅延は、[孤立トランザクション ](/help/search-social-commerce/glossary.md#o-p)の原因となる可能性があります。 広告を削除する代わりに、広告を一時停止することをお勧めします。 広告がまだ長い間収益を受け取っていない場合は、バルクシートまたは広告管理ビューを使用して広告を削除できます。
 +++
 
 ## アカウントおよびキャンペーン関連のパフォーマンスの問題

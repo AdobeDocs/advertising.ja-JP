@@ -1,25 +1,33 @@
 ---
-title: Adobe Advertising データで [!DNL Marketing Channels] を使用する
-description: ' [!DNL Analytics Marketing Channels]でのAdobe Advertising データの使用方法について説明します。'
+title: Adobe Advertising データで[!DNL Marketing Channels]を使用する
+description: '[!DNL Analytics Marketing Channels]でのAdobe Advertising データの使用方法について説明します。'
 feature: Integration with Adobe Analytics
 exl-id: 522c7f01-1138-477d-8018-36030caab55e
-TQID: https://experienceleague.adobe.com/VQMlRz2xtbbr6Nns5EZOh9zUUKIifKy-DGN-9JateJs
+TQID: 'https://experienceleague.adobe.com/VQMlRz2xtbbr6Nns5EZOh9zUUKIifKy-DGN-9JateJs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 713
+source-wordcount: '728'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising データで[!DNL Analytics Marketing Channels]を使用する
 
 *Adobe AdvertisingとAdobe Analyticsの統合のみを使用する広告主*
@@ -46,7 +54,7 @@ AMO IDは訪問者のジャーニーを通じて保持されるので、AMO ID �
 
 * ただし、[!DNL Marketing Channels] データセットでは、641 アプリケーションの開始は他のマーケティングチャネルに起因しています。 最後の2つの列は641 Applications Startsを取り、データを[!UICONTROL Display Click-Through]および[!UICONTROL Display View-Through] チャネルに制限し、ラストタッチアトリビューションモデルで発生するコンバージョンを示します。
 
-![&#x200B; ディスプレイ広告がサイトコンバージョンに与える影響の例](/help/integrations/assets/a4adc-mc-display-impact.png)
+![ ディスプレイ広告がサイトコンバージョンに与える影響の例](/help/integrations/assets/a4adc-mc-display-impact.png)
 
 この分析をさらに一歩進めることができます。 マーケティングチャネル別にAdobe Advertisingの行をさらに分割して、Adobe Advertising コンバージョンが641 Applications Startsに起因する場所を確認できます。 これらのコンバージョンのうち5つはラストタッチディスプレイのクリックスルーに起因するもので、19はラストタッチディスプレイのビュースルーに起因するものであることはすでにわかっています。 それでも617件の申し込みが他のマーケティングチャネルから始まっている。 最後のタッチチャネルのディメンションをAdvertising DSPの行の上にドラッグ&amp;ドロップすると、アプリケーションの開始の残りの部分のチャネルアトリビューションが表示され、表示チャネルのクロスチャネルの影響が表示されます。
 
@@ -65,5 +73,5 @@ AMO IDは訪問者のジャーニーを通じて保持されるので、AMO ID �
 >* [の基本 [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe Advertising IDを使用して [!DNL Marketing Channels] 処理ルールを作成](mc-ids.md)
 >* [Adobe Advertisingと [!DNL Marketing Channels]](mc-data-variances.md)でチャネルデータが異なる理由
->* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ja)
+>* [ ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [概要： [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

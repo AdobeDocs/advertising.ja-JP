@@ -3,22 +3,26 @@ title: プレースメントへの広告の添付と削除
 description: プレースメントに広告を添付し、プレースメントから広告を削除する方法について説明します。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-TQID: https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU
+TQID: 'https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '365'
 ht-degree: 0%
-
 ---
-
 # プレースメントへの広告の添付と削除
 
 プレースメントから広告を添付および削除できます。
@@ -59,27 +63,27 @@ ht-degree: 0%
 
    * 新しいプレースメントを作成し、広告をアタッチするには：
 
-      1. **[!UICONTROL Create a New Placement]**&#x200B;をクリックします。
+     1. **[!UICONTROL Create a New Placement]**&#x200B;をクリックします。
 
-      1. [&#x200B; プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)を入力し、**[!UICONTROL Create Placement]**&#x200B;をクリックします。
+     1. [ プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)を入力し、**[!UICONTROL Create Placement]**&#x200B;をクリックします。
 
-         配置タイプは、広告タイプによって決まります。
+        配置タイプは、広告タイプによって決まります。
 
-      1. **[!UICONTROL Attach ad]**&#x200B;をクリックします。
+     1. **[!UICONTROL Attach ad]**&#x200B;をクリックします。
 
-      1. プレースメントにアタッチする各広告の横にあるチェックボックスをオンにします。
+     1. プレースメントにアタッチする各広告の横にあるチェックボックスをオンにします。
 
-      1. **[!UICONTROL Attach Selected Ads]**&#x200B;をクリックします。
+     1. **[!UICONTROL Attach Selected Ads]**&#x200B;をクリックします。
 
    * 既存のプレースメントに広告をアタッチするには：
 
-      1. **[!UICONTROL Select a Placement].**&#x200B;をクリックします
+     1. **[!UICONTROL Select a Placement].**&#x200B;をクリックします
 
-      1. プレースメント名の横にある「**[!UICONTROL Select].**」をクリックします
+     1. プレースメント名の横にある「**[!UICONTROL Select].**」をクリックします
 
-      1. （オプション）追加のプレースメントごとに、**[!UICONTROL Attach To Another Placement]**&#x200B;をクリックし、前の手順を繰り返します。
+     1. （オプション）追加のプレースメントごとに、**[!UICONTROL Attach To Another Placement]**&#x200B;をクリックし、前の手順を繰り返します。
 
-      1. **[!UICONTROL I'm done for now]**&#x200B;をクリックします。
+     1. **[!UICONTROL I'm done for now]**&#x200B;をクリックします。
 
 ## [!UICONTROL Placements] ビューからプレースメントから広告を削除 {#remove-ads-placement}
 
@@ -121,5 +125,5 @@ ht-degree: 0%
 >* [複数のサードパーティ広告を作成](ad-create-multiple.md)
 >* [広告を編集](ad-edit.md)
 >* [広告に関連付けられているプレースメントを一覧表示](ad-list-placements.md)
->* [&#x200B; プレースメントの広告スケジュールを編集](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
->* [&#x200B; ユニバーサルビデオに関するFAQ](/help/dsp/campaign-management/faq-universal-video.md)
+>* [ プレースメントの広告スケジュールを編集](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [ ユニバーサルビデオに関するFAQ](/help/dsp/campaign-management/faq-universal-video.md)

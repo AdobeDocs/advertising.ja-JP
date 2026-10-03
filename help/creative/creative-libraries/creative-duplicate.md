@@ -3,18 +3,26 @@ title: クリエイターの重複
 description: クリエイティブライブラリでクリエイティブを複製する方法を説明します。
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-TQID: https://experienceleague.adobe.com/6bYzgOvJsLMr56-nTkPIe3AWsTST--he0xQ9-btQ2nA
+TQID: 'https://experienceleague.adobe.com/6bYzgOvJsLMr56-nTkPIe3AWsTST--he0xQ9-btQ2nA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 195
+source-wordcount: '195'
 ht-degree: 0%
-
 ---
-
 # クリエイターの重複
 
 クリエイターを複製して、同じ設定の新しいクリエイターを同じライブラリに追加します。 後で新しいクリエイティブの名前を変更し、必要に応じてクリエイティブ設定を編集できます。
@@ -31,9 +39,9 @@ ht-degree: 0%
 
    * 1つのクリエイティブを複製するには：
 
-      * カード表示で、クリエイティブ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Duplicate]**&#x200B;をクリックします。
+     * カード表示で、クリエイティブ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Duplicate]**&#x200B;をクリックします。
 
-      * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Duplicate]**&#x200B;をクリックします。
+     * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Duplicate]**&#x200B;をクリックします。
 
    * 1つまたは複数のクリエイティブを複製するには、複製する各クリエイティブのチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL Duplicate]**&#x200B;をクリックします。
 
@@ -53,4 +61,4 @@ ht-degree: 0%
 >* [標準クリエイティブをクリエイティブライブラリに追加](creative-add-standard.md)
 >* [標準クリエイティブの編集](creative-edit-standard.md)
 >* [標準クリエイティブ設定](creative-settings-standard.md)
->* [&#x200B; クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
+>* [ クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)

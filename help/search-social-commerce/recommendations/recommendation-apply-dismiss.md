@@ -3,20 +3,24 @@ title: パブリッシャーのレコメンデーションの適用または却�
 description: パブリッシャーのレコメンデーションを表示、適用、または却下する方法について説明します。
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-TQID: https://experienceleague.adobe.com/2g788jomfgn7tLHsuRlOO5MRwWfI-hZLCIVsTyJ11vU
+TQID: 'https://experienceleague.adobe.com/2g788jomfgn7tLHsuRlOO5MRwWfI-hZLCIVsTyJ11vU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae143aa5-b8d8-5a93-93ab-45e919f0c418
+    internal-label: Search Recommendations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 209
+source-wordcount: '211'
 ht-degree: 0%
-
 ---
-
 # パブリッシャーのレコメンデーションの適用または却下
 
 *[!DNL Google Ads]と[!DNL Microsoft Advertising] アカウント*
@@ -49,8 +53,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; メディア企業のレコメンデーションとインサイトのサポートについて](recommendation-support.md)
->* [&#x200B; メディア企業のレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
->* [&#x200B; アカウントの発行者のレコメンデーションログを表示](recommendation-view-log.md)
->* [&#x200B; ポートフォリオでパブリッシャーのレコメンデーションを使用するためのベストプラクティス &#x200B;](recommendation-best-practices.md)
+>* [ メディア企業のレコメンデーションとインサイトのサポートについて](recommendation-support.md)
+>* [ メディア企業のレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
+>* [ アカウントの発行者のレコメンデーションログを表示](recommendation-view-log.md)
+>* [ ポートフォリオでパブリッシャーのレコメンデーションを使用するためのベストプラクティス ](recommendation-best-practices.md)
 

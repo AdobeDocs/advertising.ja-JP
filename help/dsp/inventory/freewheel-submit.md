@@ -1,30 +1,37 @@
 ---
-title: ' [!DNL FreeWheel]へのPG契約の広告の送信'
-description: ' [!DNL FreeWheel]のパブリッシャーとのプログラマティック保証取引の広告の承認をリクエストする方法を説明します。'
+title: '[!DNL FreeWheel]へのPG契約の広告を送信'
+description: '[!DNL FreeWheel]のパブリッシャーとのプログラマティック保証取引の広告の承認をリクエストする方法について説明します。'
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-TQID: https://experienceleague.adobe.com/f6Cu6mG77YOjwshI4xVbkLSkykAhqXonfSMg5ynDK5g
+TQID: 'https://experienceleague.adobe.com/f6Cu6mG77YOjwshI4xVbkLSkykAhqXonfSMg5ynDK5g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 237
+source-wordcount: '235'
 ht-degree: 0%
-
 ---
-
 # プログラムで保証された契約の広告を[!DNL FreeWheel]に送信します
 
-*のプログラムで保証された権限を持つ[!DNL FreeWheel] アカウントのみ*
+[!DNL FreeWheel]のプログラムで保証された権限を持つ&#x200B;*アカウントのみ*
 
-広告の選択や、取引に使用するプログラマティック保証のデフォルトプレースメントの作成など、FreeWheel[上のパブリッシャーとのプログラマティック保証取引を](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)承認したら、広告を[!DNL FreeWheel]に送信して承認を得る必要があります。
+広告の選択や、取引に使用するプログラマティック保証のデフォルトプレースメントの作成など、FreeWheel](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)上のパブリッシャーとのプログラマティック保証取引を[承認したら、広告を[!DNL FreeWheel]に送信して承認を得る必要があります。
 
 >[!PREREQUISITES]
 >
@@ -52,7 +59,7 @@ ht-degree: 0%
 
       * 広告名の横にある「**[!UICONTROL ...]** > **[!UICONTROL submit to FreeWheel]**」をクリックします。
 
-      * メインメニューで、**[!UICONTROL Inventory]** > **[!UICONTROL Deals]**&#x200B;をクリックします。 取引行で、![&#x200B; オプション メニュー](/help/dsp/assets/options-menu.png)/**[!UICONTROL submit to FreeWheel]**&#x200B;をクリックします。
+      * メインメニューで、**[!UICONTROL Inventory]** > **[!UICONTROL Deals]**&#x200B;をクリックします。 取引行で、![ オプション メニュー](/help/dsp/assets/options-menu.png)/**[!UICONTROL submit to FreeWheel]**&#x200B;をクリックします。
 
    1. 取引IDを確認し、手順1でコピーした&#x200B;**[!UICONTROL Ad Key]**&#x200B;を入力し、**[!UICONTROL Submit]**&#x200B;をクリックします。
 
@@ -65,4 +72,4 @@ ht-degree: 0%
 >* [でのプログラムによる保証取引の設定の概要 [!DNL FreeWheel]](freewheel-overview.md)
 >* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)で取引を承諾
 >* [PG取引 [!DNL FreeWheel] の広告のステータスを確認する](freewheel-check-status.md)
->* [広告の送信 [!DNL FreeWheel] のエラーコード](freewheel-error-codes.md)
+>* [広告の送信](freewheel-error-codes.md)のエラーコード [!DNL FreeWheel] 

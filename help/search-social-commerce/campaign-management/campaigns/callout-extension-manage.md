@@ -1,27 +1,30 @@
 ---
-title: ' [!DNL Google Ads] 吹き出し拡張機能を管理'
-description: ' [!DNL Google Ads]  コールアウト拡張機能の作成と管理方法について説明します。'
+title: '[!DNL Google Ads]個のコールアウト拡張機能を管理'
+description: '[!DNL Google Ads]のコールアウト拡張機能を作成および管理する方法について説明します。'
 exl-id: b1be553e-49a1-47b8-8dd2-84db56fa249e
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/Nb5xgWsDs-7L9krhFqtrD1um1KmbUPlBGUSv-DLiHKY
+TQID: 'https://experienceleague.adobe.com/Nb5xgWsDs-7L9krhFqtrD1um1KmbUPlBGUSv-DLiHKY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: '374'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]個の共有コールアウト拡張機能を管理
 
 *[!DNL Google Ads]アカウントのみ*
 
-[&#x200B; >  [!DNL Google Ads] から同期された](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) アカウント [!UICONTROL Extensions] アカウント [!UICONTROL Callout library]のアカウントレベルの共有コールアウト拡張機能を作成および管理します。
+[!UICONTROL Extensions] > [!UICONTROL Callout library]から同期された[ アカウント  [!DNL Google Ads]  アカウント ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)のアカウントレベルの共有コールアウト拡張機能を作成および管理します。
 
 ## [!DNL Google Ads]の共有コールアウトの作成
 
@@ -35,7 +38,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
-サイトリンクを作成したら、[&#x200B; アカウント、キャンペーン、または広告グループに割り当てることができます](callout-extension-associate.md)。
+サイトリンクを作成したら、[ アカウント、キャンペーン、または広告グループに割り当てることができます](callout-extension-associate.md)。
 
 ## [!DNL Google Ads]の共有コールアウト設定の編集
 
@@ -65,13 +68,13 @@ ht-degree: 0%
 
 ## [!DNL Google Ads]の共有コールアウト設定 {#shared-callout-settings}
 
-追加の[!DNL Google Ads] ポリシーとコールアウトの非承認の理由については、[&#x200B; コールアウト拡張機能の要件](https://support.google.com/adspolicy/answer/1054212)を参照してください。
+追加の[!DNL Google Ads] ポリシーとコールアウトの非承認の理由については、[ コールアウト拡張機能の要件](https://support.google.com/adspolicy/answer/1054212)を参照してください。
 
 **[!UICONTROL Callout Text]:**&#x200B;表示されるテキスト。 これには、最大25文字または12個の2 バイト文字を含めることができます。 テキストの先頭に感嘆符や句読点を含めることはできません。
 
-**[!UICONTROL Start Date]:** （オプション）コールアウトが広告と共に表示される最初の日付。 新規コールアウトのデフォルトは現在の日付です。 今後の開始日を指定するには、MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、![&#x200B; カレンダー](/help/search-social-commerce/assets/calendar.png " カレンダー")をクリックして日付を選択します。
+**[!UICONTROL Start Date]:** （オプション）コールアウトが広告と共に表示される最初の日付。 新規コールアウトのデフォルトは現在の日付です。 今後の開始日を指定するには、MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、![ カレンダー](/help/search-social-commerce/assets/calendar.png " カレンダー")をクリックして日付を選択します。
 
-**[!UICONTROL End Date]:** （オプション）コールアウトが広告と共に表示される最後の日付。 デフォルトでは、コールアウトは無期限に表示される場合があります。 終了日を指定するには、MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、![&#x200B; カレンダー](/help/search-social-commerce/assets/calendar.png " カレンダー")をクリックして日付を選択します。
+**[!UICONTROL End Date]:** （オプション）コールアウトが広告と共に表示される最後の日付。 デフォルトでは、コールアウトは無期限に表示される場合があります。 終了日を指定するには、MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、![ カレンダー](/help/search-social-commerce/assets/calendar.png " カレンダー")をクリックして日付を選択します。
 
 **[!UICONTROL Mobile Preference]:** （オプション） [!DNL Google Ads]が、デスクトップやタブレットのユーザーではなく、モバイルデバイスのユーザーに広告を表示しようとすることを許可します。 それ以外の場合（「オフ」の場合）、[!DNL Google Ads]は任意のデバイスタイプで広告を表示します。
 
@@ -81,5 +84,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; コールアウト拡張機能 [!DNL Google Ads] について](callout-extension-about.md)
->* [&#x200B; コールアウト拡張機能をキャンペーンまたは広告グループに関連付ける [!DNL Google Ads] 共有](callout-extension-associate.md)
+>* [ コールアウト拡張機能 [!DNL Google Ads] について](callout-extension-about.md)
+>* [ コールアウト拡張機能をキャンペーンまたは広告グループに関連付ける [!DNL Google Ads] 共有](callout-extension-associate.md)

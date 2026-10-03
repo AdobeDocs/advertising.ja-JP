@@ -1,27 +1,35 @@
 ---
-title: ' [!DNL Analytics for Advertising]  マクロを [!DNL Flashtalking] 広告タグに追加'
-description: ' [!DNL Analytics for Advertising] 広告タグに [!DNL Flashtalking]  マクロを追加する理由と方法について説明します'
+title: '[!DNL Analytics for Advertising]個のマクロを[!DNL Flashtalking]個の広告タグに追加'
+description: '[!DNL Flashtalking]広告タグに[!DNL Analytics for Advertising] マクロを追加する理由と方法について説明します'
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-TQID: https://experienceleague.adobe.com/fgmEHPEGMS9vA6P3QDeZMT7MBBTRDtnQcz-qMbMDw3Y
+TQID: 'https://experienceleague.adobe.com/fgmEHPEGMS9vA6P3QDeZMT7MBBTRDtnQcz-qMbMDw3Y'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 # [!DNL Analytics for Advertising]個のマクロを[!DNL Flashtalking]個の広告タグに追加
 
 *Adobe AdvertisingとAdobe Analyticsの統合のみを使用する広告主*
@@ -34,9 +42,9 @@ Advertising DSP広告に[!DNL Flashtalking]の広告タグを使用する場合�
 
 >[!NOTE]
 >
->組織が[!DNL Flashtalking]と直接パートナーシップを締結している場合、この手順は必要ありません。 代わりに、[!DNL Flashtalking] アカウントにログインし、[!DNL Flashtalking]https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[の](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) サポートドキュメントに従って、`s_kwcid`および`ef_id` トラッキングパラメーターを追跡するためにデータパスマクロを使用します。
+>組織が[!DNL Flashtalking]と直接パートナーシップを締結している場合、この手順は必要ありません。 代わりに、[!DNL Flashtalking] アカウントにログインし、[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)の[!DNL Flashtalking] サポートドキュメントに従って、`s_kwcid`および`ef_id` トラッキングパラメーターを追跡するためにデータパスマクロを使用します。
 
-次の種類の[!DNL Flashtalking]実装では、[!DNL Analytics for Advertising]件のディスプレイ広告とビデオ広告にマクロを使用します。
+次の種類の[!DNL Analytics for Advertising]実装では、[!DNL Flashtalking]件のディスプレイ広告とビデオ広告にマクロを使用します。
 
 * **Web サイトに実装された[!DNL Adobe] [!DNL Analytics for Advertising] JavaScript コードを持つ広告主**: JavaScript コードには、AMO ID （`s_kwcid`）と`ef_id` クエリ文字列パラメーターが既に記録されています。 ただし、マクロを使用すると、サードパーティのCookieがサポートされていない場合に、トラッキングを拡張してクリックベースのコンバージョンを含めることができます。 ベストプラクティスは、次のセクションのマクロを広告タグに追加して、JavaScript コードでキャプチャされないクリックスルーのデータを取り込むことです。
 
@@ -58,9 +66,9 @@ Advertising DSP広告に[!DNL Flashtalking]の広告タグを使用する場合�
 
 例：
 
-`https://www.adobe.com/jp/products/photoshop?[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
 
-`https://www.adobe.com/jp/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## 動画広告タグ
 
@@ -74,13 +82,13 @@ Advertising DSP広告に[!DNL Flashtalking]の広告タグを使用する場合�
 
 例：
 
-`https://www.adobe.com/jp/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
-`https://www.adobe.com/jp/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >
 >* [概要： [!DNL Analytics for Advertising]](overview.md)
->* [様が使用している [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID
->* [追加 [!DNL Analytics for Advertising]  マクロを [!DNL Google Campaign Manager 360] 広告タグ &#x200B;](/help/integrations/analytics/macros-google-campaign-manager.md)に追加
+>*  [!DNL Analytics]](/help/integrations/analytics/ids.md)様が使用している[Adobe Advertising ID
+>* [追加 [!DNL Analytics for Advertising]  マクロを [!DNL Google Campaign Manager 360] 広告タグ ](/help/integrations/analytics/macros-google-campaign-manager.md)に追加
 

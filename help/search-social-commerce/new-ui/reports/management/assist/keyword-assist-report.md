@@ -2,13 +2,19 @@
 title: '[!UICONTROL Keyword Assist Report]'
 description: '[!UICONTROL Keyword Assist Report]について説明します。'
 feature: Search Reports, Search Assist Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
+    internal-label: Search Assist Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 0%
-
 ---
-
 # ザ [!UICONTROL Keyword Assist Report]
 
 *検索、ソーシャル、およびCommerceのクリック追跡と、Adobe AdvertisingとAdobe Analyticsのコンバージョン追跡を備えた広告主（[!DNL Analytics]統合）、またはトークン（`ef_id`）のみを使用したフィードで提供された広告主*
@@ -32,22 +38,22 @@ ht-degree: 0%
 
 | 列 | デフォルト？ | 説明 |
 | ---- | ---- | ---- |
-| [!UICONTROL 1st Keyword] ～ [!UICONTROL 5th Keyword] | Default | 広告主の[&#x200B; クリックのルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#c-d)および[&#x200B; インプレッションのルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j)内で発生したコンバージョンパス内の5つの最も初期の有料検索キーワードまたはプレースメントクリック。<br><br><b>注：</b> レポートにコンテンツが有効な検索キャンペーンのプレースメントが含まれている場合（キーワードが含まれていない）、これらの列には該当する広告グループ名（「（adgroup content） Your Ad Group Name）」など）がです。」 |
-| [!UICONTROL Path Size] | Default | 広告主の[&#x200B; クリックルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#c-d)および[&#x200B; インプレッションのルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j)内で発生したコンバージョンパス内のキーワードおよび/またはプレースメントの数。 |
+| [!UICONTROL 1st Keyword] ～ [!UICONTROL 5th Keyword] | Default | 広告主の[ クリックのルックバックウィンドウ ](/help/search-social-commerce/glossary.md#c-d)および[ インプレッションのルックバックウィンドウ ](/help/search-social-commerce/glossary.md#i-j)内で発生したコンバージョンパス内の5つの最も初期の有料検索キーワードまたはプレースメントクリック。<br><br><b>注：</b> レポートにコンテンツが有効な検索キャンペーンのプレースメントが含まれている場合（キーワードが含まれていない）、これらの列には該当する広告グループ名（「（adgroup content） Your Ad Group Name）」など）がです。」 |
+| [!UICONTROL Path Size] | Default | 広告主の[ クリックルックバックウィンドウ ](/help/search-social-commerce/glossary.md#c-d)および[ インプレッションのルックバックウィンドウ ](/help/search-social-commerce/glossary.md#i-j)内で発生したコンバージョンパス内のキーワードおよび/またはプレースメントの数。 |
 | [!UICONTROL First Keyword] | Default | コンバージョンパスの最初のキーワードまたはプレースメント。 |
 | [!UICONTROL Last Keyword] | Default | コンバージョンに至った最後のキーワードまたはプレースメント（最後のキーワードが指定したパスサイズを超えている場合でも）。 |
 | \[広告主固有のカスタム（派生）指標\] | カスタム | 既存の指標から計算された、作成したカスタム指標の値。 |
 | \[Advertiser-specific conversion metrics\] | カスタム | 指定されたコンバージョン指標またはサイトエンゲージメント指標のコンバージョン数。 |
 | [!UICONTROL % of Total] \[ コンバージョン指標] | 自動型 | （レポート設定では使用できませんが、含まれるコンバージョン指標ごとにレポート出力に自動的に含まれます） キーワードや配置パターンに起因するポートフォリオ全体のコンバージョンの割合。 |
-| [!UICONTROL 6th Keyword] ～ [!UICONTROL 10th Keyword] | カスタム | 広告主の[&#x200B; クリックのルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#c-d)および[&#x200B; インプレッションのルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j)内で発生したコンバージョンパスで、6番目から10番目までの有料検索キーワードまたはプレースメントのクリック。<br><br><b>注：</b> レポートにコンテンツが有効な検索キャンペーンのプレースメントが含まれている場合（キーワードが含まれていない）、これらの列には該当する広告グループ名（「広告グループ名」など）。 |
+| [!UICONTROL 6th Keyword] ～ [!UICONTROL 10th Keyword] | カスタム | 広告主の[ クリックのルックバックウィンドウ ](/help/search-social-commerce/glossary.md#c-d)および[ インプレッションのルックバックウィンドウ ](/help/search-social-commerce/glossary.md#i-j)内で発生したコンバージョンパスで、6番目から10番目までの有料検索キーワードまたはプレースメントのクリック。<br><br><b>注：</b> レポートにコンテンツが有効な検索キャンペーンのプレースメントが含まれている場合（キーワードが含まれていない）、これらの列には該当する広告グループ名（「広告グループ名」など）。 |
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[ コンバージョン指標] | 自動型 | （レポート設定では使用できませんが、含まれるコンバージョン指標ごとにレポート出力に自動的に含まれます）最初のイベント（最初のキーワードまたはプレースメント）からコンバージョンまでの平均待ち時間（日数）です。 |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[ コンバージョン指標] | 自動型 | （レポート設定では使用できませんが、レポート出力に自動的に含まれます）最後のイベント（最後のキーワードまたはプレースメント）からコンバージョンまでの平均待ち時間（日数）です。 |
 | [!UICONTROL Path Frequency] | カスタム | この行のパスが変換前に発生した回数。 |
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; アシストレポートについて](assist-report-about.md)
+>* [ アシストレポートについて](assist-report-about.md)
 >* [The [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
 >* [The [!UICONTROL Channel Assist Report]](channel-assist-report.md)
->* [&#x200B; レポート設定の支援](assist-report-settings.md)
->* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [ レポート設定の支援](assist-report-settings.md)
+>* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)

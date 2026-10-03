@@ -3,25 +3,29 @@ title: 通知を表示
 description: 通知を表示する様々な方法について説明します。
 exl-id: d449937a-02cf-4f4c-8171-da89c914c119
 feature: Search Notifications
-TQID: https://experienceleague.adobe.com/bUv28qmWvYXXv6RZO3mRqQf-rccr1xoXR-Nf7zFGIBY
+TQID: 'https://experienceleague.adobe.com/bUv28qmWvYXXv6RZO3mRqQf-rccr1xoXR-Nf7zFGIBY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 348
+source-wordcount: '342'
 ht-degree: 0%
-
 ---
-
 # 通知を表示
 
 *Beta機能*
 
-アカウント認証エラー、トリガーされるカスタムアラート、生成される[に関する通知](notification-edit.md)購読している場合は、[!UICONTROL Advertising Insights] パネルまたは[!UICONTROL Notifications]で通知を表示できます。[!UICONTROL Notification Center]
+アカウント認証エラー、トリガーされるカスタムアラート、生成される[!UICONTROL Advertising Insights]に関する通知[購読している場合は、[!UICONTROL Notifications] パネルまたは[!UICONTROL Notification Center]で通知を表示できます。](notification-edit.md)
 
 ## [!UICONTROL Notifications] パネル内の通知の表示
 
@@ -33,7 +37,7 @@ ht-degree: 0%
 
      一部の通知では、[!UICONTROL Action Recommended] セクションに、影響を受けるエンティティまたは責任あるエンティティのフィルタービューを開くリンクが含まれている場合があります。
 
-   * 通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;としてマークするには、アラート名の上にカーソルを置き、![既読または未読としてマーク &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
+   * 通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;としてマークするには、アラート名の上にカーソルを置き、![既読または未読としてマーク ](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
 
      *読み取り*&#x200B;とマークされた通知は、明るい色のテキストですが、削除するまで利用できます。
 
@@ -57,7 +61,7 @@ ht-degree: 0%
 
      一部の通知では、[!UICONTROL Action Recommended] セクションに、影響を受けるエンティティまたは責任あるエンティティのフィルタービューを開くリンクが含まれている場合があります。
 
-   * 通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;としてマークするには、アラート名の上にカーソルを置き、![既読または未読としてマーク &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
+   * 通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;としてマークするには、アラート名の上にカーソルを置き、![既読または未読としてマーク ](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
 
      *読み取り*&#x200B;とマークされた通知は、明るい色のテキストですが、削除するまで利用できます。
 
@@ -68,8 +72,8 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [通知について](/help/search-social-commerce/notifications/notification-about.md)
->* [通知を既読または未読としてマーク &#x200B;](notification-mark-read-unread.md)
+>* [通知を既読または未読としてマーク ](notification-mark-read-unread.md)
 >* [通知を削除](notification-delete.md)
 >* [通知設定を編集](notification-edit.md)
->* [&#x200B; プッシュ通知を[!UICONTROL Notification Center]](notifications-push-enable-disable.md)から有効または無効にする
+>* [ プッシュ通知を[!UICONTROL Notification Center]](notifications-push-enable-disable.md)から有効または無効にする
 >* [Web アプリケーション [!UICONTROL Notification Center]をインストールしてアンインストールする](notification-app-install-uninstall.md)

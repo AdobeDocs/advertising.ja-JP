@@ -3,25 +3,28 @@ title: 在庫フィードの広告テンプレートを管理する
 description: 在庫データを処理してアカウント構造を管理し、動的な広告を配信するための広告テンプレートの管理について説明します。
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM
+TQID: 'https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: '1427'
 ht-degree: 0%
-
 ---
-
 # 在庫フィードの広告テンプレートを管理する
 
 *[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
 
 データをアップロードする前またはアップロード後に、データを処理できる検索エンジン固有の広告テンプレートを作成できます。 テキスト広告および拡張/拡張テキスト広告、[!DNL Google Ads]および[!DNL Microsoft Advertising]のレスポンシブ検索広告、および[!DNL Google Ads]および[!DNL Microsoft Advertising]のショッピング広告のテンプレートを作成できます。
 
-各テンプレートを1つのフィードファイル、[!DNL Google Merchant Center] アカウントまたは[!DNL Microsoft Merchant Center] アカウントに関連付けることができ、複数のテンプレートを同じフィードファイルまたはアカウントに関連付けることができます。 広告テンプレートには、変数を含めることができます。変数は、アップロードされたファイルまたはアカウントの実際のデータ列で置き換えられます。 ほとんどの場合、変数には、検索、ソーシャル、およびCommerceで設定した[修飾子グループ &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)を含めることもできます。これにより、データファイルの該当する行ごとに複数の広告、キーワード、キャンペーン、または広告グループを作成できます。 テンプレートオプションを使用すると、広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成するか、広告を既存のアカウント構造にマッピングできます。
+各テンプレートを1つのフィードファイル、[!DNL Google Merchant Center] アカウントまたは[!DNL Microsoft Merchant Center] アカウントに関連付けることができ、複数のテンプレートを同じフィードファイルまたはアカウントに関連付けることができます。 広告テンプレートには、変数を含めることができます。変数は、アップロードされたファイルまたはアカウントの実際のデータ列で置き換えられます。 ほとんどの場合、変数には、検索、ソーシャル、およびCommerceで設定した[修飾子グループ ](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)を含めることもできます。これにより、データファイルの該当する行ごとに複数の広告、キーワード、キャンペーン、または広告グループを作成できます。 テンプレートオプションを使用すると、広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成するか、広告を既存のアカウント構造にマッピングできます。
 
 新しいテンプレートをゼロから作成するだけでなく、既存のテンプレートを複製したり、既存のテンプレートを編集したりして、新しいテンプレートをオプションで作成できます。
 
@@ -41,13 +44,13 @@ ht-degree: 0%
 
    * 既存のテンプレートを複製するには：
 
-      1. コピーするテンプレートの横にあるチェックボックスをオンにします。
+     1. コピーするテンプレートの横にあるチェックボックスをオンにします。
 
-      1. データテーブルの上のツールバーで「**[!UICONTROL Create/Clone]**」をクリックし、該当する広告ネットワークを選択します。
+     1. データテーブルの上のツールバーで「**[!UICONTROL Create/Clone]**」をクリックし、該当する広告ネットワークを選択します。
 
    * （既存のテンプレートを編集するには） テンプレート名の横にある![設定の表示/編集](/help/search-social-commerce/assets/settings.png "設定の表示/編集")をクリックします。
 
-1. [&#x200B; テキスト広告テンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)、[[!DNL Google Ads]  ショッピング広告テンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)または[[!DNL Microsoft Advertising]  ショッピング広告テンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)の設定を指定します。
+1. [ テキスト広告テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)、[[!DNL Google Ads]  ショッピング広告テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)または[[!DNL Microsoft Advertising]  ショッピング広告テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)の設定を指定します。
 
    1. テンプレート設定ウィンドウの上部で、テンプレート名と該当するアカウントを指定します。
 
@@ -72,47 +75,47 @@ ht-degree: 0%
       >* 標準テキスト広告テンプレートごとに最大4つの広告バリエーションのテンプレート、拡張/拡張テキスト広告テンプレートごとに5つの広告バリエーションのテンプレート、レスポンシブ検索広告テンプレートごとに3つの広告バリエーションのテンプレートを含めることができます。
       >* 各広告グループには、有効なレスポンシブ検索広告を3つまで含めることができます。
       >* 既存の標準テキスト広告のバリエーションを編集することはできず、既存のテンプレートは標準テキスト広告を生成しなくなりました。
-      >* 広告バリエーション テンプレートを変更すると、既存の広告が削除され、広告の種類と広告ネットワークに応じて[&#x200B; テンプレートを通じてデータを伝搬する際に新しい広告が作成される場合があります](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)。
+      >* 広告バリエーション テンプレートを変更すると、既存の広告が削除され、広告の種類と広告ネットワークに応じて[ テンプレートを通じてデータを伝搬する際に新しい広告が作成される場合があります](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)。
 
       * 広告バリエーションを追加するには、次の操作を行います。
 
-         1. **[!UICONTROL Add Ad Variation]**&#x200B;をクリックしてテキスト広告を作成し、**[!UICONTROL Add ETA Variation]**&#x200B;をクリックして拡張/拡張テキスト広告を作成するか、**[!UICONTROL Add RSA Variation]**&#x200B;をクリックしてレスポンシブテキスト広告を作成します。
+        1. **[!UICONTROL Add Ad Variation]**&#x200B;をクリックしてテキスト広告を作成し、**[!UICONTROL Add ETA Variation]**&#x200B;をクリックして拡張/拡張テキスト広告を作成するか、**[!UICONTROL Add RSA Variation]**&#x200B;をクリックしてレスポンシブテキスト広告を作成します。
 
-            広告タイプを指定すると、その広告タイプのみをテンプレートで作成できます。
+           広告タイプを指定すると、その広告タイプのみをテンプレートで作成できます。
 
-         1. 広告設定を指定します。
+        1. 広告設定を指定します。
 
-            レスポンシブ検索広告の場合は、3～15個の見出しと2～4個の説明文を含めることができます。
+           レスポンシブ検索広告の場合は、3～15個の見出しと2～4個の説明文を含めることができます。
 
-         1. （オプション）すべての代替広告コピーフィールドに、元の広告コピーフィールドのテキストを事前に入力するには、**[!UICONTROL Prefill]**&#x200B;の横にあるチェックボックスをオンにします。
+        1. （オプション）すべての代替広告コピーフィールドに、元の広告コピーフィールドのテキストを事前に入力するには、**[!UICONTROL Prefill]**&#x200B;の横にあるチェックボックスをオンにします。
 
-         1. （オプション）広告コピーに別の広告コピーのセットを追加するには、伝播中に動的パラメーターがデータで置換された後、元の広告コピーのいずれかの行が最大長を超えた場合に使用できる広告コピーを追加するには、「**[!UICONTROL Add Alternate]**」をクリックし、代替値を追加します。
+        1. （オプション）広告コピーに別の広告コピーのセットを追加するには、伝播中に動的パラメーターがデータで置換された後、元の広告コピーのいずれかの行が最大長を超えた場合に使用できる広告コピーを追加するには、「**[!UICONTROL Add Alternate]**」をクリックし、代替値を追加します。
 
-            >[!NOTE]
-            >
-            >* 「[!UICONTROL Prefill]」オプションが選択されている場合、代替フィールドには元のフィールドが事前入力され、必要に応じて編集できます。
-            >* 最大長を超える広告コピーフィールドのみが代替値に置き換えられます。 例えば、元の見出しまたはタイトルのみが長すぎる場合、生成された広告バリエーションでは、代替の見出しまたはタイトルと元の説明が使用されます。 したがって、元の広告コピーと組み合わせると、代替の広告コピーが意味のあるものであることを確認してください。
-            >* 元の広告コピーが検索エンジンの長さ要件を満たしている場合、代替の広告コピーは破棄されます。
-            >* 広告コピーフィールドごとに最大4つの代替案を指定できます。
+           >[!NOTE]
+           >
+           >* 「[!UICONTROL Prefill]」オプションが選択されている場合、代替フィールドには元のフィールドが事前入力され、必要に応じて編集できます。
+           >* 最大長を超える広告コピーフィールドのみが代替値に置き換えられます。 例えば、元の見出しまたはタイトルのみが長すぎる場合、生成された広告バリエーションでは、代替の見出しまたはタイトルと元の説明が使用されます。 したがって、元の広告コピーと組み合わせると、代替の広告コピーが意味のあるものであることを確認してください。
+           >* 元の広告コピーが検索エンジンの長さ要件を満たしている場合、代替の広告コピーは破棄されます。
+           >* 広告コピーフィールドごとに最大4つの代替案を指定できます。
 
-         * 広告バリエーションを編集するには、次の操作を行います。
+        * 広告バリエーションを編集するには、次の操作を行います。
 
-            1. 広告設定を編集します。
+          1. 広告設定を編集します。
 
-               レスポンシブ検索広告の場合は、3～15個の見出しと2～4個の説明文を含めることができます。
+             レスポンシブ検索広告の場合は、3～15個の見出しと2～4個の説明文を含めることができます。
 
-            1. （オプション）すべての代替広告コピーフィールドに、元の広告コピーフィールドのテキストを事前に入力するには、**[!UICONTROL Prefill]**&#x200B;の横にあるチェックボックスをオンにします。
+          1. （オプション）すべての代替広告コピーフィールドに、元の広告コピーフィールドのテキストを事前に入力するには、**[!UICONTROL Prefill]**&#x200B;の横にあるチェックボックスをオンにします。
 
-            1. （オプション）広告コピーに別の広告コピーのセットを追加するには、伝播中に動的パラメーターがデータで置換された後、元の広告コピーのいずれかの行が最大長を超えた場合に使用できる広告コピーを追加するには、「**[!UICONTROL Add Alternate]**」をクリックし、代替値を追加します。
+          1. （オプション）広告コピーに別の広告コピーのセットを追加するには、伝播中に動的パラメーターがデータで置換された後、元の広告コピーのいずれかの行が最大長を超えた場合に使用できる広告コピーを追加するには、「**[!UICONTROL Add Alternate]**」をクリックし、代替値を追加します。
 
-               >[!NOTE]
-               >
-               >* 「[!UICONTROL Prefill]」オプションが選択されている場合、代替フィールドには元のフィールドが事前入力され、必要に応じて編集できます。
-               >* 最大長を超える広告コピーフィールドのみが代替値に置き換えられます。 例えば、元の見出しまたはタイトルのみが長すぎる場合、生成された広告バリエーションでは、代替の見出しまたはタイトルと元の説明が使用されます。 したがって、元の広告コピーと組み合わせると、代替の広告コピーが意味のあるものであることを確認してください。
-               >* 元の広告コピーが検索エンジンの長さ要件を満たしている場合、代替の広告コピーは破棄されます。
-               >* 広告コピーフィールドごとに最大4つの代替案を指定できます。
+             >[!NOTE]
+             >
+             >* 「[!UICONTROL Prefill]」オプションが選択されている場合、代替フィールドには元のフィールドが事前入力され、必要に応じて編集できます。
+             >* 最大長を超える広告コピーフィールドのみが代替値に置き換えられます。 例えば、元の見出しまたはタイトルのみが長すぎる場合、生成された広告バリエーションでは、代替の見出しまたはタイトルと元の説明が使用されます。 したがって、元の広告コピーと組み合わせると、代替の広告コピーが意味のあるものであることを確認してください。
+             >* 元の広告コピーが検索エンジンの長さ要件を満たしている場合、代替の広告コピーは破棄されます。
+             >* 広告コピーフィールドごとに最大4つの代替案を指定できます。
 
-         * 広告バリエーションを削除するには、該当する場合、広告バリエーションの横にある&#x200B;**[!UICONTROL Remove ETA Variation]** （拡張/拡張テキスト広告の場合）または&#x200B;**[!UICONTROL Remove RSA Variation]** （レスポンシブ検索広告の場合）をクリックします。
+        * 広告バリエーションを削除するには、該当する場合、広告バリエーションの横にある&#x200B;**[!UICONTROL Remove ETA Variation]** （拡張/拡張テキスト広告の場合）または&#x200B;**[!UICONTROL Remove RSA Variation]** （レスポンシブ検索広告の場合）をクリックします。
 
    1. （ショッピングテンプレートのみ）「**[!UICONTROL Product Groups]**」タブをクリックし、ターゲットにする製品グループに関する情報を指定します。
 
@@ -161,7 +164,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [在庫フィードを使用した広告管理の自動化について](../inventory-feeds-about.md)
->* [&#x200B; テキスト広告とレスポンシブ検索広告テンプレートの設定](template-text-rsa.md)
+>* [ テキスト広告とレスポンシブ検索広告テンプレートの設定](template-text-rsa.md)
 >* [[!DNL Google Ads]  ショッピング広告テンプレート設定](template-google-shopping.md)
 >* [[!DNL Microsoft Advertising]  ショッピング広告テンプレート設定](template-microsoft-shopping.md)
->* [&#x200B; テンプレートを通じてフィード データを伝達](../feed-data-propagate.md)
+>* [ テンプレートを通じてフィード データを伝達](../feed-data-propagate.md)

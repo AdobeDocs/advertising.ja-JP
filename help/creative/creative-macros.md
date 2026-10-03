@@ -3,23 +3,31 @@ title: トラッキング URLに使用できるマクロ
 description: ランディングページのURL、トラッキング URL、サードパーティのクリエイティブに追加できるマクロを参照します。
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-TQID: https://experienceleague.adobe.com/J5jfIECrL29NngVOulEgHKZBHYqBmoz4680HzEzhIng
+TQID: 'https://experienceleague.adobe.com/J5jfIECrL29NngVOulEgHKZBHYqBmoz4680HzEzhIng'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e1ce403e53ed6da4b16f5d7e4bfbbc50e1317ea8
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 312
+source-wordcount: '312'
 ht-degree: 0%
-
 ---
-
 # トラッキング URLに使用できるマクロ
 
 <!-- More feature metadata???  -->
@@ -78,5 +86,5 @@ ht-degree: 0%
 >
 >* [標準クリエイティブをクリエイティブライブラリに追加](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [標準クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* [&#x200B; ターゲット設定](/help/creative/experiences/experience-settings-targeting.md)
->* [&#x200B; ターゲティングされていないエクスペリエンス設定](/help/creative/experiences/experience-settings-no-targeting.md)
+>* [ ターゲット設定](/help/creative/experiences/experience-settings-targeting.md)
+>* [ ターゲティングされていないエクスペリエンス設定](/help/creative/experiences/experience-settings-no-targeting.md)

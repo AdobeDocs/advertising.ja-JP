@@ -3,22 +3,26 @@ title: '[!UICONTROL Simple Ad Serving]件の取引を作成'
 description: '[!UICONTROL Simple Ad Serving]件のトラッキングピクセルの作成方法を説明します。'
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-TQID: https://experienceleague.adobe.com/HcfL-Lh8-64QbufAL-otB4gHupVKllJAzXL8f4TpAIA
+TQID: 'https://experienceleague.adobe.com/HcfL-Lh8-64QbufAL-otB4gHupVKllJAzXL8f4TpAIA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 384
+source-wordcount: '388'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Simple Ad Serving]件の取引を作成
 
 1. メインメニューで、**[!UICONTROL Inventory]** > **[!UICONTROL Deals].**&#x200B;をクリックします
@@ -35,7 +39,7 @@ ht-degree: 0%
 
          * 既存の広告の場合は、使用する広告を選択します。
 
-         * 新しい広告の場合は、プロキシ [&#x200B; サードパーティ広告](/help/dsp/campaign-management/ads/ad-create-multiple.md)を作成します。
+         * 新しい広告の場合は、プロキシ [ サードパーティ広告](/help/dsp/campaign-management/ads/ad-create-multiple.md)を作成します。
 
       >[!NOTE]
       > DSPでは、指定した広告は配信されません。 発行者が広告を配信します。
@@ -44,7 +48,7 @@ ht-degree: 0%
 
    1. フィードの詳細で、フィードの詳細を編集し、**[!UICONTROL Next]**&#x200B;をクリックします。
 
-      DSPは、広告の「SAS Placement - &lt;*契約名*>」という名前のプレースメントを自動的に生成します。 プレースメントでは、契約は[!UICONTROL Inventory Targets] セクションで自動的にターゲット設定されます。 その他のターゲティングオプションは適用できません。
+      DSPは、広告用に「SAS Placement - &lt;*deal name*>」という名前のプレースメントを自動的に生成します。 プレースメントでは、契約は[!UICONTROL Inventory Targets] セクションで自動的にターゲット設定されます。 その他のターゲティングオプションは適用できません。
 
 1. イベントトラッキングピクセルをパブリッシャーに送信して、次のいずれかの方法で実装します。
 
@@ -52,21 +56,21 @@ ht-degree: 0%
 
      前の手順を完了すると、DSPによってパブリッシャーに送信できるメールメッセージが生成されます。 メッセージには、取引の詳細、取引タグを取得するためのリンク、およびリンクの認証コードが含まれます。
 
-      1. 取引の詳細を確認し、次のいずれかの操作を行います。
+     1. 取引の詳細を確認し、次のいずれかの操作を行います。
 
-         * デバイス上の電子メールアプリケーションの電子メールメッセージに情報を貼り付けるには、**[!UICONTROL Email & Done]**&#x200B;をクリックし、電子メールアプリケーションを選択します。 [!UICONTROL CC:] フィールドには、[!DNL Adobe] サポート アドレスが事前入力されています。 その後、パブリッシャーの適切な連絡先にメッセージを送信できます。
+        * デバイス上の電子メールアプリケーションの電子メールメッセージに情報を貼り付けるには、**[!UICONTROL Email & Done]**&#x200B;をクリックし、電子メールアプリケーションを選択します。 [!UICONTROL CC:] フィールドには、[!DNL Adobe] サポート アドレスが事前入力されています。 その後、パブリッシャーの適切な連絡先にメッセージを送信できます。
 
-         * 情報をクリップボードにコピーするには、**[!UICONTROL Copy Email]をクリックします。**&#x200B;その後、コンテンツを手動で電子メール メッセージに貼り付け、発行者の適切な担当者に送信できます。 `publisher-support-global@adobe.com`へのコピー（CC:）を含めます。 メッセージのコピーが完了したら、**[!UICONTROL Email & Done]**&#x200B;をクリックします。
+        * 情報をクリップボードにコピーするには、**[!UICONTROL Copy Email]をクリックします。** その後、コンテンツを手動でメールメッセージに貼り付け、パブリッシャーの適切な連絡先に送信できます。 `publisher-support-global@adobe.com`へのコピー（CC:）を含めます。 メッセージのコピーが完了したら、**[!UICONTROL Email & Done]**&#x200B;をクリックします。
 
-      1. （必要に応じて）発行者にフォローアップして、タグが発行者の広告サーバーと連携するように、適切なマクロが含まれているかどうかを確認します。
+     1. （必要に応じて）発行者にフォローアップして、タグが発行者の広告サーバーと連携するように、適切なマクロが含まれているかどうかを確認します。
 
    * （オプション）イベントトラッキングピクセルをパブリッシャーに手動で送信します。
 
-      1. [!UICONTROL Deals] ビュー内の取引行で、![&#x200B; オプション メニュー](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**&#x200B;をクリックします。
+     1. [!UICONTROL Deals] ビュー内の取引行で、![ オプション メニュー](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**&#x200B;をクリックします。
 
-         イベントピクセルは、[!UICONTROL Clickthrough] ピクセルと[!UICONTROL Impression] ピクセルとを含む。 ビデオ広告およびオーディオ広告には、完了した四分位数ごとのイベントピクセルも含まれます（[!UICONTROL 25% Complete]から[!UICONTROL 100% Complete]）。
+        イベントピクセルは、[!UICONTROL Clickthrough] ピクセルと[!UICONTROL Impression] ピクセルとを含む。 ビデオ広告およびオーディオ広告には、完了した四分位数ごとのイベントピクセルも含まれます（[!UICONTROL 25% Complete]から[!UICONTROL 100% Complete]）。
 
-      1. イベントトラッキングピクセルをコピーし、パブリッシャーに提供します。
+     1. イベントトラッキングピクセルをコピーし、パブリッシャーに提供します。
 
 >[!MORELIKETHIS]
 >

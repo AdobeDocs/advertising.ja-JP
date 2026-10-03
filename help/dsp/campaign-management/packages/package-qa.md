@@ -3,22 +3,26 @@ title: バルクシートを使用したパッケージ設定の確認と編集
 description: スプレッドシートを使用して、主要なパッケージ設定を一括で確認および編集する方法について説明します。
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-TQID: https://experienceleague.adobe.com/daZta9ZI28ZyskwnM9RvJO3yGhFCi-DFKapeq5rtuNg
+TQID: 'https://experienceleague.adobe.com/daZta9ZI28ZyskwnM9RvJO3yGhFCi-DFKapeq5rtuNg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 715
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # バルクシートを使用したパッケージ設定の確認と編集
 
 レビュー用に、XLSX （[!DNL Microsoft Excel] スプレッドシート）形式の1つ以上のパッケージの設定をダウンロードできます。 *バルクシート* ファイルには、フライト情報を含む別のタブが含まれています。
@@ -27,13 +31,13 @@ ht-degree: 0%
 
 * フィールドを選択し、ファイルを保存し、編集したバルクシートファイルをDSPにアップロードします。
 
-* キャンペーン内の追加のパッケージ、プレースメントまたは広告に変更を加えるには、キャンペーンのバルクシートをダウンロードします。 更新された設定をファイルに入力または貼り付け、ファイルをアップロードして変更を加えます。 手順については、「[&#x200B; バルクシートを使用したキャンペーンコンポーネント設定の確認と編集](/help/dsp/campaign-management/campaign-components-review-edit.md)」を参照してください。
+* キャンペーン内の追加のパッケージ、プレースメントまたは広告に変更を加えるには、キャンペーンのバルクシートをダウンロードします。 更新された設定をファイルに入力または貼り付け、ファイルをアップロードして変更を加えます。 手順については、「[ バルクシートを使用したキャンペーンコンポーネント設定の確認と編集](/help/dsp/campaign-management/campaign-components-review-edit.md)」を参照してください。
 
 編集可能なフィールドには、通常は編集可能なほとんどの設定が含まれています。
 
 >[!TIP]
 >
->1つ以上のパッケージのフィールドをすばやく編集するには、「[&#x200B; パッケージを編集](/help/dsp/campaign-management/packages/package-edit.md)」を参照してください。
+>1つ以上のパッケージのフィールドをすばやく編集するには、「[ パッケージを編集](/help/dsp/campaign-management/packages/package-edit.md)」を参照してください。
 
 ## キャンペーン内のすべてのパッケージの設定のダウンロード
 
@@ -57,7 +61,7 @@ ht-degree: 0%
 
    * 通知メッセージで、**[!UICONTROL Download].**&#x200B;をクリックします
 
-   * 上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある&#x200B;**[!UICONTROL Download]**&#x200B;をクリックします。
+   * 上部のメニューバーの右側にある「![ ジョブ ](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある&#x200B;**[!UICONTROL Download]**&#x200B;をクリックします。
 
      ファイルはブラウザーのダウンロード フォルダーに保存されます。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -83,9 +87,9 @@ ht-degree: 0%
 
    * 通知メッセージで、**[!UICONTROL Download].**&#x200B;をクリックします
 
-   * 上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある&#x200B;**[!UICONTROL Download]**&#x200B;をクリックします。
+   * 上部のメニューバーの右側にある「![ ジョブ ](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある&#x200B;**[!UICONTROL Download]**&#x200B;をクリックします。
 
-     ファイルはブラウザーのダウンロードフォルダーに保存されます。 含まれる列のリストについては、「[&#x200B; ダウンロードまたはアップロード済みのバルクシートに列を配置](#qa-sheet-columns)」を参照してください。
+     ファイルはブラウザーのダウンロードフォルダーに保存されます。 含まれる列のリストについては、「[ ダウンロードまたはアップロード済みのバルクシートに列を配置](#qa-sheet-columns)」を参照してください。
 
      いずれかの設定を編集するには、ファイルを直接編集し、変更をアップロードします。 編集可能なすべての列が青色で強調表示されます。 フィールドに正しい形式を使用するには、関連するパッケージ設定またはプレースメント設定から値を選択してコピーします。 日分割、カスタム目標、コンバージョン指標などの一部のターゲット設定では、設定内でコピーオプションを使用できます。
 
@@ -111,7 +115,7 @@ ht-degree: 0%
 
    1. **[!UICONTROL Upload]**&#x200B;をクリックします。
 
-1. （オプション）更新が処理されたことを確認するには、上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。
+1. （オプション）更新が処理されたことを確認するには、上部のメニューバーの右側にある「![ ジョブ ](/help/dsp/assets/downloads.png)」をクリックします。
 
 設定の更新に失敗した場合は、カラーコーディング付きのバルクシート エラーファイルをダウンロードして、各失敗の理由とともに、どの設定（行）が保存され、どの失敗したかを示すことができます。 その後、同じファイル内の問題に対処し、修正された情報を処理するために再度アップロードできます。
 
@@ -175,6 +179,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; バルクシートを使用したキャンペーンコンポーネント設定のレビューと編集](/help/dsp/campaign-management/campaign-components-review-edit.md)
->* [&#x200B; パッケージの編集](/help/dsp/campaign-management/packages/package-edit.md)
->* [&#x200B; パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ バルクシートを使用したキャンペーンコンポーネント設定のレビューと編集](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [ パッケージの編集](/help/dsp/campaign-management/packages/package-edit.md)
+>* [ パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)

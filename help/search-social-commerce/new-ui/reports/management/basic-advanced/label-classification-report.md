@@ -2,13 +2,19 @@
 title: '[!UICONTROL Label Classification Report]'
 description: '[!UICONTROL Label Classification Report]について説明します。'
 feature: Search Reports, Search Basic Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Label Classification Report]
 
 [!UICONTROL Label Classification Report]には、広告ネットワーク、アカウント、キャンペーン、または広告グループをまたいで集計された、キーワードレベルまたは広告レベルのラベル分類によるコスト、クリック、および（オプションで）コンバージョンデータが含まれます。 デフォルトでは、データには、指定された日付範囲の時間単位ごとにインプレッションを受け取ったキーワード、広告、プレースメントに対する該当するキーワードレベルのラベル分類ごとに1行が含まれます。 行は、最初に時間単位の開始日、次にラベル分類、次にラベル値で昇順になります。
@@ -19,7 +25,7 @@ ht-degree: 0%
 >
 >* 広告レベルのラベル分類によるレポートは、[!DNL Microsoft Advertising]件の動的検索広告（DSA）キャンペーンでは使用できません。
 >* 同じエンティティに複数のラベル分類が適用される場合があるため、各指標の合計がエンティティの実際の合計よりも高くなる場合があります。 例えば、「スエードシューズ」というキーワードに「スエード」と「フットウェア」という2つのラベル値があり、キーワードが100 クリックを受け取ったとします。 クリック数の列には、それぞれのラベル値に対して「100」が表示されるので、両方の行の合計は「200」になります。
->* エンティティの分類と子ラベルの値をラベル付けするために行った変更は、約1時間で表示されます。
+* エンティティの分類と子ラベルの値をラベル付けするために行った変更は、約1時間で表示されます。
 
 ## デフォルトの列
 
@@ -40,5 +46,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [基本レポートと詳細レポートについて](basic-advanced-report-about.md)
->* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
 >* [基本および詳細レポート設定](basic-advanced-report-settings.md)

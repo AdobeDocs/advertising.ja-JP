@@ -3,29 +3,35 @@ title: 決定木のレイアウト
 description: ターゲティングを使用したエクスペリエンスの決定木レイアウトについて説明します。
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-TQID: https://experienceleague.adobe.com/JFrcVBHxv90Fchk-VfkmxAITQJswboszNMFOfaAQlL4
+TQID: 'https://experienceleague.adobe.com/JFrcVBHxv90Fchk-VfkmxAITQJswboszNMFOfaAQlL4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 555
+source-wordcount: '557'
 ht-degree: 0%
-
 ---
-
 # [!DNL Creative] エクスペリエンスの決定木レイアウト
 
 エクスペリエンスに「[!UICONTROL Targeting]」オプションを有効にする場合は、デシジョンツリーを使用してエクスペリエンスを設定します。
 
 最初に、各決定ツリーはルートレベル「All」で始まります。 1つ以上のターゲットノードを追加し、決定ツリーの各ブランチの最終ノードにクリエイティブバンドルを割り当てることができます。 デフォルトでは、決定ツリーは垂直方向に表示されますが、オプションでツリーを水平方向に表示することもできます。
 
-![&#x200B; ターゲットのない垂直方向の決定ツリーの例](/help/creative/assets/experience-decision-tree-no-targets.png " ターゲットのない垂直方向の決定ツリーの例")
+![ ターゲットのない垂直方向の決定ツリーの例](/help/creative/assets/experience-decision-tree-no-targets.png " ターゲットのない垂直方向の決定ツリーの例")
 
-![&#x200B; ターゲットのない水平方向の決定ツリーの例](/help/creative/assets/experience-decision-tree-no-targets-horizontal.png " ターゲットのない水平方向の決定ツリーの例")
+![ ターゲットのない水平方向の決定ツリーの例](/help/creative/assets/experience-decision-tree-no-targets-horizontal.png " ターゲットのない水平方向の決定ツリーの例")
 
 <!--
 >[!NOTE]
@@ -49,7 +55,7 @@ ht-degree: 0%
 
 各ターゲットレベルには、複数の分岐を含めることができ、それぞれ同じターゲットタイプ（オーディエンスセグメント、地理的な場所タイプ、指定されたデータパスキーの値、指定されたリターゲティングピクセルの属性、デバイスカテゴリ）を持つ1つ以上のノードを持ちます。 デフォルトの画像クリエイティブまたはビデオクリエイティブを指定した各広告サイズのクリエイティブバンドルを、最下位レベルのターゲットノードに割り当てることができます。
 
-![&#x200B; ターゲットを持つ決定ツリーの例](/help/creative/assets/experience-decision-tree.png " ターゲットを持つ決定ツリーの例")
+![ ターゲットを持つ決定ツリーの例](/help/creative/assets/experience-decision-tree.png " ターゲットを持つ決定ツリーの例")
 
 最終レベルにターゲットノードを追加する場合は、新しいノードのターゲットを指定します。 指定したターゲットと一致しないユーザー全員に対して、「その他のすべてのもの」という追加の兄弟ノードが自動的に作成されます。 その後、同じタイプの異なるターゲットを持つ兄弟ノードを追加できます。
 
@@ -68,5 +74,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising Creative 2.0](experience-about.md)での体験について
->* [&#x200B; ターゲティングでエクスペリエンスを作成](/help/creative/experiences/experience-create-targeting.md)
->* [&#x200B; ターゲット設定](/help/creative/experiences/experience-settings-targeting.md)
+>* [ ターゲティングでエクスペリエンスを作成](/help/creative/experiences/experience-create-targeting.md)
+>* [ ターゲット設定](/help/creative/experiences/experience-settings-targeting.md)

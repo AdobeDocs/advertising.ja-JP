@@ -3,18 +3,21 @@ title: キャンペーン管理ビューからデータをダウンロードす�
 description: ほとんどのキャンペーン管理ビューからデータをダウンロードする方法を説明します。
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-TQID: https://experienceleague.adobe.com/Wg-OZ-59-SkdA96KQgLWuY8seK10bK0tnt94TdKXzeQ
+TQID: 'https://experienceleague.adobe.com/Wg-OZ-59-SkdA96KQgLWuY8seK10bK0tnt94TdKXzeQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 433
+source-wordcount: '429'
 ht-degree: 0%
-
 ---
-
 # （従来のUI） キャンペーン管理ビューからのデータのダウンロード
 
 *レガシーユーザーインターフェイス*
@@ -37,13 +40,13 @@ ht-degree: 0%
 
    それ以外の場合は、ビュー内のすべてのデータが含まれます。
 
-1. ツールバーの右側にある「![&#x200B; レポートのダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートのダウンロード ")」をクリックします。
+1. ツールバーの右側にある「![ レポートのダウンロード ](/help/search-social-commerce/assets/download.png " レポートのダウンロード ")」をクリックします。
 
 1. ![作成](/help/search-social-commerce/assets/add.png "作成") **[!UICONTROL Create]**&#x200B;をクリックし、オプションでファイル名を追加してから、**[!UICONTROL Report]**&#x200B;または&#x200B;**[!UICONTROL Bulksheet]**&#x200B;のいずれかをクリックします。
 
-1. （オプション）レポートジョブが完了したら、![&#x200B; レポートのダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートのダウンロード ")をクリックして[!UICONTROL Available Reports] パネルを表示し、レポートをダウンロードまたは削除します。
+1. （オプション）レポートジョブが完了したら、![ レポートのダウンロード ](/help/search-social-commerce/assets/download.png " レポートのダウンロード ")をクリックして[!UICONTROL Available Reports] パネルを表示し、レポートをダウンロードまたは削除します。
 
-   * ブラウザーの通常の手順に従ってファイルを開くか保存するには、![&#x200B; スプレッドシートのダウンロード &#x200B;](/help/search-social-commerce/assets/download-spreadsheet.png " スプレッドシートのダウンロード ")をクリックします。
+   * ブラウザーの通常の手順に従ってファイルを開くか保存するには、![ スプレッドシートのダウンロード ](/help/search-social-commerce/assets/download-spreadsheet.png " スプレッドシートのダウンロード ")をクリックします。
 
      ブラウザーの手順について詳しくは、ブラウザーのオンラインヘルプを参照してください。
 
@@ -51,7 +54,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （従来のUI） [!UICONTROL Downloads] メニュー](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)からパフォーマンス データ レポートまたはバルクシート ファイルを削除します
->* [&#x200B; （新しいUI） [!UICONTROL Portfolios] ビュー](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)からデータビューレポートを管理します
->* [&#x200B; （新しいUI） [!UICONTROL Campaigns] ビュー](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)からデータビューレポートを管理します
->* [&#x200B; （新しいUI） [!UICONTROL Ad Groups] ビュー](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)からデータビューレポートを管理します
+>* [ （従来のUI） [!UICONTROL Downloads] メニュー](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)からパフォーマンス データ レポートまたはバルクシート ファイルを削除します
+>* [ （新しいUI） [!UICONTROL Portfolios] ビュー](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)からデータビューレポートを管理します
+>* [ （新しいUI） [!UICONTROL Campaigns] ビュー](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)からデータビューレポートを管理します
+>* [ （新しいUI） [!UICONTROL Ad Groups] ビュー](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)からデータビューレポートを管理します

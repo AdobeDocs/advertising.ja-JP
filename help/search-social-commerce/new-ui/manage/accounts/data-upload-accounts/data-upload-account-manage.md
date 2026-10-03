@@ -3,7 +3,13 @@ title: データのアップロード用に広告ネットワークアカウン�
 description: 広告ネットワークアカウントのアカウント詳細を設定および管理する方法について説明します。
 feature: Search Campaign Management
 exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 以下は、アカウントデータをアップロードするアドネットワークアカウントのアカウントの詳細を管理する手順です。
 
-各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+各広告ネットワークで使用できる機能について詳しくは、「[ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 >[!NOTE]
 >
@@ -28,7 +34,7 @@ ht-degree: 0%
 
 1. 広告ネットワークの名前をクリックし、**[!UICONTROL Next]**&#x200B;をクリックします。
 
-1. [&#x200B; アカウント設定](#account-settings)を指定します。
+1. [ アカウント設定](#account-settings)を指定します。
 
    1. 「**[!UICONTROL Account Details]**」タブで、アカウントの詳細を編集します。
 
@@ -48,7 +54,7 @@ ht-degree: 0%
 
    * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. [&#x200B; アカウント設定](#account-settings-upload)を編集します。
+1. [ アカウント設定](#account-settings-upload)を編集します。
 
    1. （オプション）「**[!UICONTROL Account Details]**」タブで、アカウントの詳細を編集します。
 

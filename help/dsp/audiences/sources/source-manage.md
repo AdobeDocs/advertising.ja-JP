@@ -3,24 +3,29 @@ title: オーディエンスソースを管理して、ユニバーサル ID オ
 description: ソースを作成および管理して、顧客データプラットフォームからオーディエンスをインポートし、ユニバーサル IDを含むセグメントに変換する方法を説明します。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-TQID: https://experienceleague.adobe.com/us8NC8BEngb240MAW8hEo-DHGoW7MRDWvu0HedMsnFs
+TQID: 'https://experienceleague.adobe.com/us8NC8BEngb240MAW8hEo-DHGoW7MRDWvu0HedMsnFs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: '881'
 ht-degree: 0%
-
 ---
-
 # オーディエンスソースを管理して、ユニバーサル ID オーディエンスをアクティブ化する
 
 Adobe DSPで、Customer Data Platformの各ファーストパーティオーディエンス用のソースを作成します。このソースをインポートするか、指定したユニバーサル ID タイプを含むセグメントに変換します。 セグメントは、組織のDSP アカウントまたは広告主アカウントにインポートできます。 オーディエンスをユニバーサル IDに変換すると、選択したユニバーサル ID タイプに基づいて料金が適用されます。 ソースを作成したら、各顧客データプラットフォームからソースオーディエンスをストリーミングするために、追加の手順が必要です。 ソースを作成するには、手順の最後にあるメモを参照してください。
@@ -37,7 +42,7 @@ Adobe DSPで、Customer Data Platformの各ファーストパーティオーデ�
 
 1. **[!UICONTROL Add Source]**&#x200B;をクリックします。
 
-1. [!UICONTROL Select a Type] メニューで、[顧客データプラットフォーム &#x200B;](source-about.md)を選択します。
+1. [!UICONTROL Select a Type] メニューで、[顧客データプラットフォーム ](source-about.md)を選択します。
 
    * *[!UICONTROL RT-CDP]*: [!DNL Adobe Real-Time CDP]。
 
@@ -53,7 +58,7 @@ Adobe DSPで、Customer Data Platformの各ファーストパーティオーデ�
 
 1. [!UICONTROL Data Visibility Level]を指定します：*[!UICONTROL Advertiser]*&#x200B;または&#x200B;*[!UICONTROL Account]*。
 
-1. 残りの[&#x200B; ソース設定](#source-settings)を入力します。
+1. 残りの[ ソース設定](#source-settings)を入力します。
 
    生成された[!UICONTROL Source Key]のコピーを保持します。 後で値が必要になります。
 
@@ -63,7 +68,7 @@ Adobe DSPで、Customer Data Platformの各ファーストパーティオーデ�
 >
 >顧客データプラットフォームのソースを作成したら、オーディエンスをインポートするためにさらなる手順を完了する必要があります。
 >* [!DNL ActionIQ]のソースについては、Adobe アカウントチームにお問い合わせください。
->* その他のソースタイプについては、<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->、 [!DNL AdFixus][&#128279;](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)の[&#x200B; ワークフロー、 [!DNL Amperity]](source-amperity.md)の[&#x200B; ワークフロー、 [!DNL Optimizely]](source-optimizely.md)の[&#x200B; ワークフロー、 [!DNL Tealium]](source-tealium.md)の ワークフローを参照してください。
+>* その他のソースタイプについては、<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->、 [!DNL AdFixus]](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)の[ ワークフロー、 [!DNL Amperity]](source-amperity.md)の[ ワークフロー、 [!DNL Optimizely]](source-optimizely.md)の[ ワークフロー、 [!DNL Tealium]](source-tealium.md)の[ ワークフローを参照してください。
 
 ## オーディエンスソースのID タイプの変更
 
@@ -80,7 +85,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. ソース行の上にカーソルを置き、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. ソース [&#128279;](#source-settings)に対して選択したIDを変更します。
+1. ソース ](#source-settings)に対して選択した[IDを変更します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -118,7 +123,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 **[!UICONTROL Advertiser]:** （広告主レベルの表示のみ） セグメントを利用できる広告主。 アカウントへのアクセス権を持つ広告主のリストから1つを選択します。
 
-**[!UICONTROL Enter IMS Org Id]:** （[!DNL Real-Time CDP] ソースのみ） [!DNL Adobe Experience Platform] アカウントのAdobe CX Enterprise Organization ID。
+**[!UICONTROL Enter IMS Org Id]:** （[!DNL Real-Time CDP] ソースのみ） [!DNL Adobe Experience Platform] アカウントのAdobe CX Enterprise組織ID。
 
 **[!UICONTROL Convert PII to the following IDs]:** （[!DNL AdFixus]を除くすべてのサポート対象の顧客データプラットフォームで利用可能）個人を特定できる情報（PII）に変換するID タイプ。 複数のタイプを選択した場合、生成されたセグメントには、選択した各ID タイプの値が入力されます（例えば、メールアドレスごとに[!DNL RampID]と[!DNL Unified ID2.0]）。 データ料金はそれに応じて適用されます。
 
@@ -126,7 +131,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 >[!NOTE]
 >
->1つのプレースメントでターゲットできるIDのタイプは1つだけです。 ID タイプ別にパフォーマンスをテストするには、[&#x200B; セグメント内のID タイプごとに個別のプレースメント &#x200B;](/help/dsp/campaign-management/placements/placement-create.md)を作成します。
+>1つのプレースメントでターゲットできるIDのタイプは1つだけです。 ID タイプ別にパフォーマンスをテストするには、[ セグメント内のID タイプごとに個別のプレースメント ](/help/dsp/campaign-management/placements/placement-create.md)を作成します。
 
 * *[!DNL RampID]:* PIIを[!DNL RampID]に変換します。 ログインユーザーのリターゲティングと[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)の測定には、[!DNL RampIDs]を使用できます。
 
@@ -144,11 +149,11 @@ All changes to universal IDs translated from the source are applied after you sa
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ファーストパーティのオーディエンスソースについて](source-about.md)
->* [&#x200B; ユニバーサル IDのアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)
->* [&#x200B; ユーザーIDを [!DNL Adobe Real-Time CDP] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [&#x200B; ユーザーIDを [!DNL Amperity] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-amperity.md)
->* [&#x200B; ユーザーIDを [!DNL Optimizely] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-optimizely.md)
->* [&#x200B; ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-tealium.md)
+>* [ ファーストパーティのオーディエンスソースについて](source-about.md)
+>* [ ユニバーサル IDのアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)
+>* [ ユーザーIDを [!DNL Adobe Real-Time CDP] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [ ユーザーIDを [!DNL Amperity] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-amperity.md)
+>* [ ユーザーIDを [!DNL Optimizely] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-optimizely.md)
+>* [ ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-tealium.md)
 >* [1st パーティセグメントを [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)からインポート
->* [&#x200B; オーディエンス管理について](/help/dsp/audiences/audience-about.md)
+>* [ オーディエンス管理について](/help/dsp/audiences/audience-about.md)

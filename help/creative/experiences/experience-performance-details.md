@@ -3,20 +3,27 @@ title: エクスペリエンス全体のパフォーマンスレポート
 description: エクスペリエンスレベルのパフォーマンスレポートを表示する方法について説明します。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-TQID: https://experienceleague.adobe.com/1k8mcvg9-anlNxZQ43czfxpLEweDr-TolaaEIrDz-Fg
+TQID: 'https://experienceleague.adobe.com/1k8mcvg9-anlNxZQ43czfxpLEweDr-TolaaEIrDz-Fg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 50e002abe0c434e5eba9bd9785d7fc3d7ee7d10c
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 791
+source-wordcount: '791'
 ht-degree: 0%
-
 ---
-
 # エクスペリエンス全体のパフォーマンスレポート
 
 あらゆるエクスペリエンスの詳細なパフォーマンスデータを表示できます。
@@ -27,39 +34,39 @@ ht-degree: 0%
 
 * **概要** タブ：エクスペリエンス全体<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." -->のすべてのコンバージョン指標に関するパフォーマンスの概要（次を含む）:
 
-   * **全体的なパフォーマンス** セクション：
+  * **全体的なパフォーマンス** セクション：
 
-      * **全体的なパフォーマンス**：合計インプレッション数、クリック数、クリックスルー率（CTR）、ビュースルーコンバージョン数およびクリックスルー率コンバージョン数。
+    * **全体的なパフォーマンス**：合計インプレッション数、クリック数、クリックスルー率（CTR）、ビュースルーコンバージョン数およびクリックスルー率コンバージョン数。
 
-     <!--
+    <!--
       ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
      -->
 
-      * **デフォルトのレート**: （デジジョンツリーのターゲティングのみを使用したエクスペリエンス） ターゲットを絞ったクリエイティブ、ターゲットを持たない汎用的なクリエイティブ、または「他のすべてのユーザー」をターゲットにした汎用的なクリエイティブ、およびエクスペリエンスのデフォルトのクリエイティブから得られるインプレッションの数。
+    * **デフォルトのレート**: （デジジョンツリーのターゲティングのみを使用したエクスペリエンス） ターゲットを絞ったクリエイティブ、ターゲットを持たない汎用的なクリエイティブ、または「他のすべてのユーザー」をターゲットにした汎用的なクリエイティブ、およびエクスペリエンスのデフォルトのクリエイティブから得られるインプレッションの数。
 
-     <!--
+    <!--
       ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-   * **パフォーマンスの分類** セクション：
+  * **パフォーマンスの分類** セクション：
 
-      * **地域パフォーマンス：**：地理的地域別の個々の指標。
+    * **地域パフォーマンス：**：地理的地域別の個々の指標。
 
-     <!--
+    <!--
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
      -->
 
-      * **デバイスのパフォーマンス：** デバイスの種類、オペレーティングシステム、ブラウザーごとの個々の指標。 オプションで、任意のデバイスカテゴリの値をクリックすると、その条件で配信された上位10人のクリエイターのリストが表示されます。
+    * **デバイスのパフォーマンス：** デバイスの種類、オペレーティングシステム、ブラウザーごとの個々の指標。 オプションで、任意のデバイスカテゴリの値をクリックすると、その条件で配信された上位10人のクリエイターのリストが表示されます。
 
-     <!--
+    <!--
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
      -->
 
 * 「**Creative パフォーマンス**」タブ*：クリエイティブおよびバンドルまたは広告タグ別のパフォーマンスの概要（以下を含む）。
 
-   * **Creative** サブタブ：エクスペリエンス内の各クリエイティブのインプレッション数、クリック数、CTRの合計数<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
+  * **Creative** サブタブ：エクスペリエンス内の各クリエイティブのインプレッション数、クリック数、CTRの合計数<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
-   * **バンドル/タグ** サブタブ：エクスペリエンス内の個々のバンドル（デシジョンツリーターゲティングを使用したエクスペリエンス）または広告タグ（デシジョンツリーターゲティングを使用しないエクスペリエンス）のインプレッション、クリック、およびCTRの合計数。
+  * **バンドル/タグ** サブタブ：エクスペリエンス内の個々のバンドル（デシジョンツリーターゲティングを使用したエクスペリエンス）または広告タグ（デシジョンツリーターゲティングを使用しないエクスペリエンス）のインプレッション、クリック、およびCTRの合計数。
 
 ## エクスペリエンスのパフォーマンスレポートの表示
 
@@ -79,13 +86,13 @@ ht-degree: 0%
 
    * （オプション）パフォーマンスデータの日付範囲を変更するには、日付メニューでオプションを選択します。
 
-      * プリセット期間を指定するには、次のレポートを選択します：（*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today],*&#x200B;または&#x200B;*[!UICONTROL Yesterday]*。
+     * プリセット期間を指定するには、次のレポートを選択します：（*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today],*&#x200B;または&#x200B;*[!UICONTROL Yesterday]*。
 
-      * カスタムの日付範囲を指定するには、開始日と終了日を入力するか、フィールドの横にある![&#x200B; カレンダーアイコン &#x200B;](/help/search-social-commerce/assets/calendar.png)をクリックして、日付を選択します。
+     * カスタムの日付範囲を指定するには、開始日と終了日を入力するか、フィールドの横にある![ カレンダーアイコン ](/help/search-social-commerce/assets/calendar.png)をクリックして、日付を選択します。
 
    * （オプション）コンバージョンにつながる一連のイベントのコンバージョンデータの属性に使用するルールを変更するには、![設定](/help/creative/assets/settings.png)をクリックし、**[!UICONTROL Attribution Rule]**&#x200B;を変更します。
 
-     アトリビューションルールについて詳しくは、「[&#x200B; アトリビューションルールの計算方法](/help/search-social-commerce/reports/attribution-rules.md)」を参照してください。
+     アトリビューションルールについて詳しくは、「[ アトリビューションルールの計算方法](/help/search-social-commerce/reports/attribution-rules.md)」を参照してください。
 
    * （オプション）報告されたコンバージョンを変更するには、![設定](/help/creative/assets/settings.png)をクリックし、**[!UICONTROL Conversions]** メニューでコンバージョン名を選択します。 現在、利用可能な指標は、すべてのコンバージョン指標を含む「すべてを選択」のみです。
 
@@ -97,31 +104,31 @@ ht-degree: 0%
 
    * （オプション）「[!UICONTROL Regional Performance]」セクションで、次のいずれかの操作を行います。
 
-      * 指標の名前（[!UICONTROL Impressions]など）をクリックすると、その指標が表示されます。
+     * 指標の名前（[!UICONTROL Impressions]など）をクリックすると、その指標が表示されます。
 
-      * [!UICONTROL Region] メニューで地域を選択します。
+     * [!UICONTROL Region] メニューで地域を選択します。
 
-      * 国または州の上にカーソルを置くと、その地域のデータが表示されます。
+     * 国または州の上にカーソルを置くと、その地域のデータが表示されます。
 
    * （オプション）「[!UICONTROL Device Performance]」セクションで、次のいずれかの操作を行います。
 
-      * 任意のデバイスカテゴリの値にカーソルを合わせると、その条件のデータが表示されます。
+     * 任意のデバイスカテゴリの値にカーソルを合わせると、その条件のデータが表示されます。
 
-      * 任意のデバイスカテゴリの値をクリックすると、その条件で配信された上位<!-- NN-->人のクリエイターのリストが表示されます。
+     * 任意のデバイスカテゴリの値をクリックすると、その条件で配信された上位<!-- NN-->人のクリエイターのリストが表示されます。
 
 1. （オプション）クリエイティブ別、バンドル別または広告タグ別にデータを表示するには、「**[!UICONTROL Creative Performance]**」タブをクリックします。
 
    * 「[!UICONTROL Creatives]」サブタブでは、次のいずれかを実行できます。
 
-      * （オプション）グラフ表示とグリッド表示を切り替えるには、それぞれ![&#x200B; グラフ &#x200B;](/help/creative/assets/chart-view-button.png " グラフ ")と![グリッド](/help/creative/assets/table-view-button.png "グリッド")をクリックします。
+     * （オプション）グラフ表示とグリッド表示を切り替えるには、それぞれ![ グラフ ](/help/creative/assets/chart-view-button.png " グラフ ")と![グリッド](/help/creative/assets/table-view-button.png "グリッド")をクリックします。
 
-      * （オプション）グラフ表示で、グラフ内のポイントにカーソルを合わせると、そのポイントのデータが表示されます。
+     * （オプション）グラフ表示で、グラフ内のポイントにカーソルを合わせると、そのポイントのデータが表示されます。
 
-      * （決定木ターゲティングのエクスペリエンスのみ。オプション）適用された各広告ターゲットのパフォーマンスを分割するには、**[!UICONTROL Split targeting]**&#x200B;を有効にします。
+     * （決定木ターゲティングのエクスペリエンスのみ。オプション）適用された各広告ターゲットのパフォーマンスを分割するには、**[!UICONTROL Split targeting]**&#x200B;を有効にします。
 
 1. バンドル別（デシジョンツリーターゲティングを使用したエクスペリエンス）または広告タグ別（デシジョンツリーターゲティングを使用しないエクスペリエンス）にデータを表示するには、**[!UICONTROL Bundles]** サブタブをクリックします。 次のいずれかを実行できます。
 
-   * （オプション）グラフ表示とグリッド表示を切り替えるには、それぞれ![&#x200B; グラフ &#x200B;](/help/creative/assets/chart-view-button.png " グラフ ")と![グリッド](/help/creative/assets/table-view-button.png "グリッド")をクリックします。
+   * （オプション）グラフ表示とグリッド表示を切り替えるには、それぞれ![ グラフ ](/help/creative/assets/chart-view-button.png " グラフ ")と![グリッド](/help/creative/assets/table-view-button.png "グリッド")をクリックします。
 
    * （オプション）グラフ表示で、グラフ内のポイントにカーソルを合わせると、そのポイントのデータが表示されます。
 
@@ -129,15 +136,15 @@ ht-degree: 0%
 
 ## エクスペリエンスのパフォーマンスレポートのダウンロード
 
-* パフォーマンスレポートの上部にあるツールバーで、![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ")をクリックします。
+* パフォーマンスレポートの上部にあるツールバーで、![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")をクリックします。
 
   ファイルは、ブラウザーの通常の手順に従って、スプレッドシート （XLSX）形式の[!DNL Microsoft Excel] ファイルでダウンロードされます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて](/help/creative/reports/reports-about.md)
->* [&#x200B; カスタムレポートの管理](/help/creative/reports/report-manage.md)
->* [&#x200B; ビュー内のすべてのエクスペリエンスをダウンロード &#x200B;](/help/creative/experiences/experience-download-view.md)
->* [&#x200B; エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)
+>* [ カスタムレポートについて](/help/creative/reports/reports-about.md)
+>* [ カスタムレポートの管理](/help/creative/reports/report-manage.md)
+>* [ ビュー内のすべてのエクスペリエンスをダウンロード ](/help/creative/experiences/experience-download-view.md)
+>* [ エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)
 >* [Advertising Creativeでの体験について](/help/creative/experiences/experience-about.md)
->* [&#x200B; アラートの表示](/help/creative/reports/alerts-view.md)
+>* [ アラートの表示](/help/creative/reports/alerts-view.md)

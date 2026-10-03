@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL LY Ads]  アカウントの一括シートデータ'
-description: ' [!DNL LY Ads]  アカウントのダウンロード済みバルクシートのヘッダーフィールドとデータフィールドを参照します。'
+title: '[!DNL LY Ads] アカウントの一括シートデータ'
+description: '[!DNL LY Ads] アカウントのダウンロード済みバルクシートのヘッダーフィールドとデータフィールドを参照します。'
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA
+TQID: 'https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2668
-ht-degree: 0%
-
+source-wordcount: '2697'
+ht-degree: 1%
 ---
-
 # 付録 – [!DNL LY Ads] アカウントの一括シートデータ
 
 [!DNL LY Ads] （旧[!DNL Yahoo! Japan]）アカウントのデータを一括でダウンロードできますが、バルクシートを広告ネットワークにアップロードまたは投稿することはできません。
@@ -75,8 +79,8 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [付録 – バルクシート エラー](../bulksheet-errors.md)
->* [&#x200B; バルクシートで実行できる操作](bulksheet-operations.md)
->* [&#x200B; サポートされているバルクシート ファイル形式](bulksheet-file-formats.md)
->* [&#x200B; バルクシート ファイルのダウンロードと作成](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の クリックトラッキング形式
->* [&#x200B; バルクシート ファイルをアップロードするか、エラーファイルを修正](../bulksheet-upload.md)
+>* [ バルクシートで実行できる操作](bulksheet-operations.md)
+>* [ サポートされているバルクシート ファイル形式](bulksheet-file-formats.md)
+>* [ バルクシート ファイルのダウンロードと作成](../bulksheet-download.md)
+>*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の[ クリックトラッキング形式
+>* [ バルクシート ファイルをアップロードするか、エラーファイルを修正](../bulksheet-upload.md)

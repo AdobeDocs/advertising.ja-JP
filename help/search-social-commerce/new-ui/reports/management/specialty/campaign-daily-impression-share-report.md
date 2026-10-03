@@ -2,20 +2,26 @@
 title: '[!UICONTROL Campaign Daily Impression Share Report]'
 description: '[!UICONTROL Campaign Daily Impression Share Report]について説明します。'
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Campaign Daily Impression Share Report]
 
 *[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントのみ*
 
 [!UICONTROL Campaign Daily Impression Share Report]には、1つ以上のキャンペーンのデバイスタイプ別の日次インプレッション共有指標が含まれています。 デフォルトでは、データには、指定された日付範囲の日ごとに1つ以上のインプレッションまたはクリックを受け取ったキャンペーンごとに1つの行が含まれ、行は日付ごとに昇順になります。 レポートには、[!DNL Adobe]および派生指標によって追跡されたデータを含めることもできます。
 
-インプレッション共有の指標は、前日の広告主のタイムゾーンの13:00で使用できます。 過去2か月間のデータを表示できます。
+インプレッション共有の指標は、前日の広告主のタイムゾーンの13:00に利用できます。 過去2か月間のデータを表示できます。
 
 ## デフォルトの列
 
@@ -43,5 +49,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [専門性レポートについて](specialty-report-about.md)
->* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
 >* [特殊レポート設定](specialty-report-settings.md)

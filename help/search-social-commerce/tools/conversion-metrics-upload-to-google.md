@@ -1,25 +1,29 @@
 ---
-title: 検索、ソーシャル、Commerceで追跡したコンバージョン指標を [!DNL Google Ads]にアップロードします
-description: 検索、ソーシャル、Commerceで追跡されたコンバージョン指標を [!DNL Google Ads]にアップロードする方法について説明します。
+title: 検索、ソーシャル、Commerceで追跡したコンバージョン指標を[!DNL Google Ads]にアップロードします
+description: 検索、ソーシャル、Commerceで追跡されたコンバージョン指標を[!DNL Google Ads]にアップロードする方法について説明します。
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/ayxUfDgkrnPz0s-pFAdkmvYy94Il5szQHl6lYg8DpF8
+TQID: 'https://experienceleague.adobe.com/ayxUfDgkrnPz0s-pFAdkmvYy94Il5szQHl6lYg8DpF8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 212
+source-wordcount: '216'
 ht-degree: 0%
-
 ---
-
 # 検索、ソーシャル、Commerceで追跡したコンバージョン指標を[!DNL Google Ads]にアップロードします
 
-*件のアカウントを持つ[!DNL Google Ads]広告主とAdobe Advertising コンバージョンのトラッキングのみ*
+[!DNL Google Ads]件のアカウントを持つ&#x200B;*広告主とAdobe Advertising コンバージョンのトラッキングのみ*
 
 Search, Social, &amp; Commerceでは、Adobe Advertising コンバージョン追跡サービスを使用する[!DNL Google Ads]件のキャンペーンで追跡するすべてのコンバージョン指標を、オプションで[!DNL Google Ads]にアップロードできます。 このオプションでは、ハイブリッド最適化でコンバージョンを利用することはできません。 Adobe コンバージョンをハイブリッド最適化に使用する場合は、「[広告ネットワークへの目標のアップロードを有効にする](objective-upload-to-networks.md)」を参照してください。
 
@@ -37,7 +41,7 @@ Search, Social, &amp; Commerceでは、Adobe Advertising コンバージョン�
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
-1. （コンバージョンがマネージャーアカウントレベルで追跡されている場合） [&#x200B; マネージャーアカウントの資格情報](/help/search-social-commerce/admin/manager-accounts.md)を&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;に追加します。
+1. （コンバージョンがマネージャーアカウントレベルで追跡されている場合） [ マネージャーアカウントの資格情報](/help/search-social-commerce/admin/manager-accounts.md)を&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;に追加します。
 
 >[!MORELIKETHIS]
 >

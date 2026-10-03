@@ -4,23 +4,28 @@ description: 新しいSearch, Social, & Commerce UIで、バルクシートフ�
 feature: Search Bulksheets
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 subfeature_v2:
   - id: e58024d1-d6da-420c-80af-6be211808316
+    internal-label: Bulksheets
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 830
+source-wordcount: '831'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）バルクシートまたは修正されたエラーファイルのアップロード
 
-[&#x200B; サポートされている広告ネットワーク &#x200B;](about.md#bulksheet-functionality-by-network)のバルクシート ファイル、修正されたランディングページ検証エラーファイル、およびその他の修正されたエラーファイルを、お使いのデバイスまたはネットワークからアップロードできます。 ファイルをアップロードすると、ファイル内のカスタム列はすべて削除されます。
+[ サポートされている広告ネットワーク ](about.md#bulksheet-functionality-by-network)のバルクシート ファイル、修正されたランディングページ検証エラーファイル、およびその他の修正されたエラーファイルを、お使いのデバイスまたはネットワークからアップロードできます。 ファイルをアップロードすると、ファイル内のカスタム列はすべて削除されます。
 
 1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Bulksheets]**&#x200B;をクリックします。
 
@@ -30,7 +35,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Upload]**&#x200B;をクリックします。
 
-タスクが開始されると、ファイルは[!UICONTROL Bulksheets] ビューに表示されます。 バルクシートのメール通知が[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications-manage.md)内で有効になっている場合、ジョブが完了すると、ファイルへのリンク付きのメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 ファイルの生成に失敗した場合、エラーファイルが[!UICONTROL Bulksheets] ビューに表示され、エラーファイルへのリンクを含むメール通知が送信されます。
+タスクが開始されると、ファイルは[!UICONTROL Bulksheets] ビューに表示されます。 バルクシートのメール通知が[!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md)内で[有効になっている場合、ジョブが完了すると、ファイルへのリンク付きのメール通知が送信されます。 収集されたデータ量によっては、メール通知に数分以上かかる場合があります。 ファイルの生成に失敗した場合、エラーファイルが[!UICONTROL Bulksheets] ビューに表示され、エラーファイルへのリンクを含むメール通知が送信されます。
 
 >[!NOTE]
 >
@@ -44,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL Single Account] | ファイルが1つのアカウントに適用されるかどうか：*[!UICONTROL Yes]* （1つのアカウントの場合）または&#x200B;*[!UICONTROL No]* （複数のアカウントの場合）。 |
 | [!UICONTROL Account (Search Engine)] | （ファイルが1つのアカウントに適用される場合）データをアップロードするアカウント。 |
 | [!UICONTROL Search Engine] | （ファイルが複数のアカウントに適用される場合）データをアップロードする広告ネットワーク。<br><br>**注：**&#x200B;最適化されたポートフォリオのキーワードの入札変更は、複数アカウントのバルクシートではサポートされていません。 |
-| [!UICONTROL Scheduling] | 指定した広告ネットワークにファイルを投稿するタイミングまたは場合：<ul><li>*[!UICONTROL Post to search engine now]* （既定値）: データの投稿をすぐに開始します。</li><li>*[!UICONTROL Post to search engine on \[specified date\] \[specified time\]]:*&#x200B;指定された日時にデータの投稿を開始します。デフォルトは明日の02:00 （午前2時）です。 日付を変更するには、DD/MM/YYYY形式で日付を入力するか、カレンダーアイコンをクリックしてカレンダーを開き、日付を選択します。 時間を変更するには、リストから時間（15分間隔）を選択します。</li><li>*[!UICONTROL Preview only]:* データをアドネットワークに投稿せずに、ファイルをSearch、Social、およびCommerceにアップロードします。後でファイルを投稿することもできます。 バルクシートファイルが10 MBを超えて2 GB未満の場合、ファイルはZIP形式になります。投稿するためにファイルを解凍する必要はありません。</li></ul> |
+| [!UICONTROL Scheduling] | 指定した広告ネットワークにファイルを投稿するタイミングまたは場合：<ul><li>*[!UICONTROL Post to search engine now]* （既定値）: データの投稿をすぐに開始します。</li><li>*[!UICONTROL Post to search engine on \[specified date\] \[specified time\]]:*&#x200B;指定された日時にデータの投稿を開始します。デフォルトは明日の午前2時（午前2時）です。 日付を変更するには、DD/MM/YYYY形式で日付を入力するか、カレンダーアイコンをクリックしてカレンダーを開き、日付を選択します。 時間を変更するには、リストから時間（15分間隔）を選択します。</li><li>*[!UICONTROL Preview only]:* データをアドネットワークに投稿せずに、ファイルをSearch、Social、およびCommerceにアップロードします。後でファイルを投稿することもできます。 バルクシートファイルが10 MBを超えて2 GB未満の場合、ファイルはZIP形式になります。投稿するためにファイルを解凍する必要はありません。</li></ul> |
 | [!UICONTROL Generate Tracking URLs] | トラッキングテンプレートを含むアカウントにトラッキングテンプレートとランディングページのサフィックス（該当する広告ネットワークの場合）を含めるか、宛先URLを含むアカウントにトラッキングコードを埋め込む宛先URLを含めるか、投稿のすべてのキーワード、広告、プレースメント、サイトリンク、および[!DNL Google Ads]製品グループについて、*[!UICONTROL Yes]* （デフォルト）または&#x200B;*[!UICONTROL No]*&#x200B;です。 入札単位がポートフォリオにあるかどうかは関係ありません。<br><br> 「*[!UICONTROL Yes]*」を選択すると、関連するアカウント設定またはキャンペーン設定の「[!UICONTROL Tracking Methods]」セクションのパラメーターに従ってURLが生成されます。 デフォルトでは、トラッキング URLが存在する場合は、新しいURLが必要でない限り再生成されません（キーワードマッチタイプ、広告テキスト、関連アカウントのトラッキングパラメーターが変更された場合など）。<br><br> アップロードされたファイルを手動で投稿することで、後でトラッキング URLを生成できます。<br><br>**メモ：**&#x200B;広告主がAdobe Advertising コンバージョントラッキングを使用しており、ベース URLが変更されている場合は、アカウントが自動生成およびトラッキング URL アップロードをアップロード作成しない必要です。*[!UICONTROL No]* |
 | [!UICONTROL Replace Media Optimizer Tracking] | （[!UICONTROL Generate Tracking URLs]が&#x200B;*[!UICONTROL Yes]*&#x200B;の場合に使用可能）アップロードされたファイルのURLにある既存のAdobe Advertising トラッキングを、新しく生成されたトラッキングに置き換えます。 |
 | [!UICONTROL Enable budget changes on optimized campaigns] | 投稿されたデータにもとづいて、最適化されたポートフォリオでキャンペーンの予算を変更できます。 デフォルトでは、このオプションは選択されていません。 このオプションを選択すると、最適化機能が（通常は次の入札サイクルで）予算を再割り当てする必要があると判断するまで、指定されたキャンペーン予算の変更が適用されます。<br><br>**注意：**&#x200B;最適化されていないポートフォリオのキャンペーンに関する投稿データから生じる予算変更は、ファイルの投稿時に発生します。 変更は、翌日のキャンペーン管理ビューに表示されます。 |
@@ -52,7 +57,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI）バルクシートを使用したキャンペーンデータの管理について](about.md)
->* [&#x200B; （新しいUI） バルクシート ファイルのダウンロードと作成](download.md)
->* [&#x200B; （新しいUI）バルクシートの投稿またはエラーファイルの修正](post.md)
->* [&#x200B; （新しいUI）バルクシート ファイルのランディングページを検証](validate-landing-pages.md)
+>* [ （新しいUI）バルクシートを使用したキャンペーンデータの管理について](about.md)
+>* [ （新しいUI） バルクシート ファイルのダウンロードと作成](download.md)
+>* [ （新しいUI）バルクシートの投稿またはエラーファイルの修正](post.md)
+>* [ （新しいUI）バルクシート ファイルのランディングページを検証](validate-landing-pages.md)

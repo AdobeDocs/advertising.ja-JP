@@ -3,7 +3,13 @@ title: （新しいUI）トラッキング専用の[!DNL Naver] アカウント�
 description: '[!DNL Naver] アカウントの新しいUIでアカウントの詳細を設定および管理する方法について説明します。'
 feature: Search Campaign Management
 exl-id: bc4be409-9935-448b-bfba-f93eb30bd5ca
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
@@ -12,9 +18,9 @@ ht-degree: 1%
 
 *Beta機能*
 
-以下は、広告ネットワークから直接購入した広告のパフォーマンスを追跡、報告、可視化するために[[!DNL Naver]  アカウント &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)を管理する手順です。 Search, Social, &amp; Commerceでは、データと広告ネットワークの同期が取れず、自動入札も提供されず、あらゆる種類の最適化やシミュレーションも提供されません。
+以下は、広告ネットワークから直接購入した広告のパフォーマンスを追跡、報告、可視化するために[[!DNL Naver]  アカウント ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)を管理する手順です。 Search, Social, &amp; Commerceでは、データと広告ネットワークの同期が取れず、自動入札も提供されず、あらゆる種類の最適化やシミュレーションも提供されません。
 
-使用可能な機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+使用可能な機能について詳しくは、「[ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 ## 広告ネットワークアカウントの詳細の作成 {#create-account}
 
@@ -30,7 +36,7 @@ ht-degree: 1%
 
 1. 広告ネットワークの名前をクリックし、**[!UICONTROL Next]**&#x200B;をクリックします。
 
-1. [&#x200B; アカウント設定](#account-settings-naver)を指定します。
+1. [ アカウント設定](#account-settings-naver)を指定します。
 
    1. 「**[!UICONTROL Enter Account Details]**」タブで、一般的なアカウント設定を指定します。
 
@@ -54,7 +60,7 @@ ht-degree: 1%
 
    * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. [&#x200B; アカウント設定](#account-settings-api)を編集します。
+1. [ アカウント設定](#account-settings-api)を編集します。
 
    1. （オプション）「**[!UICONTROL Account Details]**」タブで、アカウントの詳細を編集します。
 
@@ -123,5 +129,5 @@ When you enable an ad network account, Search, Social, & Commerce synchronizes c
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; トラッキング専用アカウントを実装 [!DNL Naver] します](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [ トラッキング専用アカウントを実装 [!DNL Naver] します](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [広告ネットワークアカウントについて](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)

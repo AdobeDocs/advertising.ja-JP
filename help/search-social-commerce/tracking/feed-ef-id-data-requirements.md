@@ -3,20 +3,24 @@ title: EF IDを使用したデータフィードのデータ要件
 description: EF IDを使用してデータフィードのデータ要件を参照します。
 exl-id: 507ed42c-349f-4311-af61-8f7a27794162
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/p66X8xVlx-JwKjGgXxonJRRu78Q8F4109VkaIVtUbwU
+TQID: 'https://experienceleague.adobe.com/p66X8xVlx-JwKjGgXxonJRRu78Q8F4109VkaIVtUbwU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 261
+source-wordcount: '261'
 ht-degree: 0%
-
 ---
-
 # EF IDを使用したデータフィードのデータ要件
 
 以下は、フィードファイルの各タイプに必要なヘッダーフィールドと対応するデータフィールドです。

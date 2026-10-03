@@ -3,18 +3,21 @@ title: 否定的なキーワードを作成
 description: 検索キャンペーンと広告グループに対して否定的なキーワードを作成する方法を説明します。
 exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/NjLsCcI2-1kWIAfZOv4-IJytuPKUfQWO0OG7ptEDe9w
+TQID: 'https://experienceleague.adobe.com/NjLsCcI2-1kWIAfZOv4-IJytuPKUfQWO0OG7ptEDe9w'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 279
+source-wordcount: '279'
 ht-degree: 0%
-
 ---
-
 # 否定的なキーワードを作成
 
 *[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]および既存の[!DNL Baidu] アカウントのみ*
@@ -22,10 +25,10 @@ ht-degree: 0%
 検索やディスプレイ/ネイティブネットワークをターゲットとする検索広告グループまたはキャンペーンに対して、ネガティブキーワードを作成できます。 ネガティブキーワードは広告をトリガーにしない。
 
 >[!NOTE]
->また、[広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)および[&#x200B; キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)で、否定的なキーワードを作成および編集することもできます。
+>また、[広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)および[ キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)で、否定的なキーワードを作成および編集することもできます。
 
 >[!TIP]
->一度に多くの否定的なキーワードを作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>一度に多くの否定的なキーワードを作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Negatives]**&#x200B;をクリックします。
 
@@ -55,6 +58,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キーワードについて](keyword-about.md)
+>* [ キーワードについて](keyword-about.md)
 >* [入札可能なキーワードの管理](keyword-manage.md)
->* [&#x200B; キーワードと否定的なキーワードのステータスを変更](keyword-status-edit.md)
+>* [ キーワードと否定的なキーワードのステータスを変更](keyword-status-edit.md)

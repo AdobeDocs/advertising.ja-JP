@@ -1,22 +1,26 @@
 ---
 title: '[!DNL Google Ads]製品グループの設定'
-description: ' [!DNL Google Ads] 買い物商品グループの設定を参照します。'
+description: '[!DNL Google Ads]個のショッピング製品グループの設定を参照してください。'
 exl-id: 2cfef9de-b265-4fa5-b1bd-84e6cba79914
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/TkiKzm1sNZZdcu1ghpySElcQb7OIjnNZVqsVqzrK2uE
+TQID: 'https://experienceleague.adobe.com/TkiKzm1sNZZdcu1ghpySElcQb7OIjnNZVqsVqzrK2uE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]製品グループの設定
 
 ## 「すべての製品」製品グループ
@@ -37,7 +41,7 @@ ht-degree: 0%
 
 特定の商品ディメンション（つまり「すべての商品」ではなく）の商品グループを作成すると、Search, Social, &amp; Commerceは、「その他」の商品グループを自動的に作成します。
 
-使用可能な製品ディメンションのリストについては、「[&#x200B; ショッピングキャンペーン製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。 ディメンションのリストは、キャンペーンの[!UICONTROL Inventory Filter]設定に基づいて制限される場合があります。
+使用可能な製品ディメンションのリストについては、「[ ショッピングキャンペーン製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。 ディメンションのリストは、キャンペーンの[!UICONTROL Inventory Filter]設定に基づいて制限される場合があります。
 
 **[!UICONTROL Excluded]:** （新製品グループの場合はオプション、既存製品グループの場合は読み取り専用）一致する製品の広告の入札を除外します。
 
@@ -57,7 +61,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ショッピング商品グループについて](product-group-about.md)
->* [&#x200B; ショッピング商品グループの管理](product-group-manage.md)
->* [&#x200B; ショッピングキャンペーン製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [&#x200B; ショッピング キャンペーン  [!DNL Google Ads] を実装](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [ ショッピング商品グループについて](product-group-about.md)
+>* [ ショッピング商品グループの管理](product-group-manage.md)
+>* [ ショッピングキャンペーン製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
+>* [ ショッピング キャンペーン  [!DNL Google Ads] を実装](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)

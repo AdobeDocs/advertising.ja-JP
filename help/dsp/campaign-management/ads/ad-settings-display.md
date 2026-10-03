@@ -3,22 +3,26 @@ title: 広告設定の表示
 description: ディスプレイ広告で使用できる広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-TQID: https://experienceleague.adobe.com/bcuGR2fzcwjvPcWisdQZBbU8vcaZhgW2qZPAXjV5ndM
+TQID: 'https://experienceleague.adobe.com/bcuGR2fzcwjvPcWisdQZBbU8vcaZhgW2qZPAXjV5ndM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 317
+source-wordcount: '328'
 ht-degree: 0%
-
 ---
-
 # 広告設定の表示
 
 次の設定は、標準ディスプレイ広告用です。
@@ -47,9 +51,9 @@ ht-degree: 0%
 
 **[!UICONTROL Display Code]:** （サードパーティ広告のみ） サードパーティのクリエイティブアセットのURL。 [timestamp]および[[timestamp]]のパラメーターはすべて、実際の値に置き換えられます。
 
-**[!UICONTROL Final Display Code]:** （サードパーティ広告のみ）必要な[Advertising DSP トラッキングマクロ &#x200B;](/help/dsp/campaign-management/macros.md)が挿入されたサードパーティのクリエイティブアセットのURL （該当する場合）。
+**[!UICONTROL Final Display Code]:** （サードパーティ広告のみ）必要な[Advertising DSP トラッキングマクロ ](/help/dsp/campaign-management/macros.md)が挿入されたサードパーティのクリエイティブアセットのURL （該当する場合）。
 
-**[!UICONTROL Ad Size]:**&#x200B;広告の幅と高さ。 [&#x200B; サポートされている標準ディスプレイ広告サイズ &#x200B;](ad-specs.md)である必要があります。 広告をアップロードする前に広告サイズを手動で入力するか、[!UICONTROL Display Code]を入力します。 広告サイズを入力しない場合、アップロードされた広告または広告タグのサイズは、自動的に読み取り専用として入力されます。
+**[!UICONTROL Ad Size]:**&#x200B;広告の幅と高さ。 [ サポートされている標準ディスプレイ広告サイズ ](ad-specs.md)である必要があります。 広告をアップロードする前に広告サイズを手動で入力するか、[!UICONTROL Display Code]を入力します。 広告サイズを入力しない場合、アップロードされた広告または広告タグのサイズは、自動的に読み取り専用として入力されます。
 
 >[!IMPORTANT]
 >
@@ -67,4 +71,4 @@ ht-degree: 0%
 >* [単一の広告を作成](ad-create.md)
 >* [広告に関連付けられているプレースメントを一覧表示](ad-list-placements.md)
 >* [広告の仕様](ad-specs.md)
->* [DSP マクロ &#x200B;](/help/dsp/campaign-management/macros.md)
+>* [DSP マクロ ](/help/dsp/campaign-management/macros.md)

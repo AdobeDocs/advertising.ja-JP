@@ -3,18 +3,21 @@ title: Cookie ベースのクリック追跡の設定
 description: クリックトラッキングタグの設定と検証方法について説明します。
 exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/cs39NoKUXfx4PdrzULocZEOW0SUGtXrpmO4I3IXefwA
+TQID: 'https://experienceleague.adobe.com/cs39NoKUXfx4PdrzULocZEOW0SUGtXrpmO4I3IXefwA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: '548'
 ht-degree: 0%
-
 ---
-
 # Cookie ベースのクリック追跡の設定
 
 Search, Social, &amp; Commerceでクリックをトラッキングするには、次の要素を設定して検証する必要があります。
@@ -23,7 +26,7 @@ Search, Social, &amp; Commerceでクリックをトラッキングするには�
 
 1. [広告主の広告ネットワークアカウントとキャンペーンごとに正しいトラッキングオプションを指定](#set-up-click-tracking-options)。
 
-1. 必要に応じて、[&#x200B; トラッキング URLを生成し、一部のキャンペーン要素に](#generate-upload-tracking-urls) アップロードします。
+1. 必要に応じて、[ トラッキング URLを生成し、一部のキャンペーン要素に](#generate-upload-tracking-urls) アップロードします。
 
 1. [いくつかのクリックトラッキング URLの形式を検証し、それらをテストして、正しいランディングページが開くことを検証します](#validate-tracking-urls)。
 
@@ -35,7 +38,7 @@ Search, Social, &amp; Commerceでクリックをトラッキングするには�
 
    1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Accounts]**&#x200B;をクリックします。
 
-   1. アカウント名の上にカーソルを置き、![&#x200B; メニューアイコン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
+   1. アカウント名の上にカーソルを置き、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
 
    1. **[!UICONTROL Set Account Tracking]**&#x200B;をクリックします。
 
@@ -49,7 +52,7 @@ Search, Social, &amp; Commerceでクリックをトラッキングするには�
 
    1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
-   1. キャンペーン名の上にカーソルを置き、![&#x200B; メニューアイコン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
+   1. キャンペーン名の上にカーソルを置き、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
 
    1. **[!UICONTROL Set Campaign Tracking]**&#x200B;をクリックします。 次に、オプションを&#x200B;**[!UICONTROL Override Account Tracking]**&#x200B;に選択します。
 
@@ -61,7 +64,7 @@ Search, Social, &amp; Commerceでクリックをトラッキングするには�
 
 ## トラッキング URLの生成とアップロード {#generate-upload-tracking-urls}
 
-「[&#x200B; クリックトラッキング URLを生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)」を参照してください。
+「[ クリックトラッキング URLを生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)」を参照してください。
 
 ### クリックトラッキング URLの形式をテストする {#validate-tracking-urls}
 
@@ -92,4 +95,4 @@ Search, Social, &amp; Commerceでクリックをトラッキングするには�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; クリックトラッキング URLを生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
+>* [ クリックトラッキング URLを生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)

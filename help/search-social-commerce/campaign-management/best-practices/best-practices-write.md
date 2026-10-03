@@ -3,20 +3,24 @@ title: 効果的なテキストとコピーの作成
 description: 効果的な広告コピーを作成するためのベストプラクティスをご紹介します。
 exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-TQID: https://experienceleague.adobe.com/GFofyYALATcgqvrjz-2SuI90ct0M-PzOoLtjmvL2Djo
+TQID: 'https://experienceleague.adobe.com/GFofyYALATcgqvrjz-2SuI90ct0M-PzOoLtjmvL2Djo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4448d932-c6c2-59c8-8d0c-d940413abe6b
+    internal-label: Search Best Practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '586'
 ht-degree: 0%
-
 ---
-
 # 効果的なテキストとコピーの作成
 
 >[!TIP]
@@ -75,7 +79,7 @@ ht-degree: 0%
 
 * 競合他社の動向を調査。 スペースの上位の広告（www.spyfu.comなどのサイト）を見て、どの広告が機能しているかを理解しようとします。
 
-[1]&#x200B;: キーワード挿入を使用する場合は、挿入コードに正しい大文字と小文字を使用します。
+[1]: キーワード挿入を使用する場合は、挿入コードに正しい大文字と小文字を使用します。
 
 `{keyword:default}` =芝刈り機
 
@@ -91,5 +95,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; レポートを分析してキーワードとキャンペーン設定を調整する](best-practices-analyze.md)
+>* [ レポートを分析してキーワードとキャンペーン設定を調整する](best-practices-analyze.md)
 >* [web サイトのランディングページの最適化](best-practices-optimize.md)

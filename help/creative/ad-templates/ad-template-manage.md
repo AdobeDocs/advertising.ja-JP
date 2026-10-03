@@ -3,18 +3,24 @@ title: 動的広告テンプレートの管理
 description: 動的広告テンプレートを管理し、そのテンプレートから広告を作成する方法について説明します。
 feature: Creative Templates
 exl-id: 248f1467-ebd3-47f2-a24c-043bbfadcc6e
-TQID: https://experienceleague.adobe.com/-kYWprVYmg-AsTH-L--U08dnlESVQx-f2TYTDohc1jc
+TQID: 'https://experienceleague.adobe.com/-kYWprVYmg-AsTH-L--U08dnlESVQx-f2TYTDohc1jc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ed6ac2c4-a9bd-4406-807a-6cff66d34585
+    internal-label: Creative templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 # 動的広告テンプレートの管理
 
 必要な広告フォーマットを含む圧縮されたHTML5 ファイルをアップロードすることで、広告タイプ（静的HTML5または動的HTML5）と広告サイズの組み合わせごとに個別の広告テンプレートを作成できます。 動的なHTML5広告の場合は、広告属性<!-- more clarification? -->を含むファイルもアップロードします。
@@ -122,7 +128,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)
->* [&#x200B; アセットファイルの管理](/help/creative/feeds/asset-manage.md)
->* [&#x200B; フィード テンプレートの管理](/help/creative/feeds/feed-template-manage.md)
->* [&#x200B; カタログの管理](/help/creative/feeds/catalog-manage.md)
->* [&#x200B; クリエイティブライブラリに動的なクリエイティブを追加](/help/creative/creative-libraries/creative-add-dynamic.md)
+>* [ アセットファイルの管理](/help/creative/feeds/asset-manage.md)
+>* [ フィード テンプレートの管理](/help/creative/feeds/feed-template-manage.md)
+>* [ カタログの管理](/help/creative/feeds/catalog-manage.md)
+>* [ クリエイティブライブラリに動的なクリエイティブを追加](/help/creative/creative-libraries/creative-add-dynamic.md)

@@ -3,27 +3,34 @@ title: 該当するクリエイティブサイズの広告タグを手動で作�
 description: 特定のクリエイティブサイズ向けの広告タグを作成する方法をご紹介します。
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-TQID: https://experienceleague.adobe.com/xeWVCvDYgNAoZlNeEmHIAuajuMy5QZL73oFJO4gFfFE
+TQID: 'https://experienceleague.adobe.com/xeWVCvDYgNAoZlNeEmHIAuajuMy5QZL73oFJO4gFfFE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 276
+source-wordcount: '277'
 ht-degree: 0%
-
 ---
-
 # （ターゲティングのないエクスペリエンス）該当するクリエイティブサイズの広告タグを手動で作成する
 
 *決定木ターゲティングなしのエクスペリエンスのみ*
 
-エクスペリエンスに使用するクリエイティブサイズ（ビデオ以外のクリエイティブ）またはビデオのデュレーションごとに、言語ごとに1つ以上の広告タグを作成できます。 後で[&#x200B; クリエイターを広告タグに割り当てることができます](experience-tag-assign-creatives.md)。
+エクスペリエンスに使用するクリエイティブサイズ（ビデオ以外のクリエイティブ）またはビデオのデュレーションごとに、言語ごとに1つ以上の広告タグを作成できます。 後で[ クリエイターを広告タグに割り当てることができます](experience-tag-assign-creatives.md)。
 
 >[!NOTE]
 >
@@ -53,9 +60,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
->* [&#x200B; ターゲットを設定せずにエクスペリエンスのトラッキング URLをカスタマイズする](experience-tracking-urls-no-targeting.md)
->* [&#x200B; クリエイティブの最適化とスケジュールをカスタマイズして、ターゲットを設定せずにエクスペリエンスを利用](experience-optimization-scheduling-no-targeting.md)
->* [&#x200B; ビデオ広告エクスペリエンスタグのトランスコーディングオプションをカスタマイズ &#x200B;](experience-tag-video-transcoding.md)
->* [&#x200B; ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](experience-tag-export.md)
+>* [ ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
+>* [ ターゲットを設定せずにエクスペリエンスのトラッキング URLをカスタマイズする](experience-tracking-urls-no-targeting.md)
+>* [ クリエイティブの最適化とスケジュールをカスタマイズして、ターゲットを設定せずにエクスペリエンスを利用](experience-optimization-scheduling-no-targeting.md)
+>* [ ビデオ広告エクスペリエンスタグのトランスコーディングオプションをカスタマイズ ](experience-tag-video-transcoding.md)
+>* [ ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](experience-tag-export.md)
 >* [広告タグの名前を変更](experience-tag-rename.md)

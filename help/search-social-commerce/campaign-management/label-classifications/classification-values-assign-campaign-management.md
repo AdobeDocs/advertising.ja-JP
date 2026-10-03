@@ -3,14 +3,17 @@ title: キャンペーン管理ビューからアカウントコンポーネン�
 description: アカウントコンポーネントに分類値を割り当てる方法について説明します。
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-TQID: https://experienceleague.adobe.com/r08RxDrdXIkUP7ZJgw8x-g47m0Ioxjo9SySjg71-PkM
+TQID: 'https://experienceleague.adobe.com/r08RxDrdXIkUP7ZJgw8x-g47m0Ioxjo9SySjg71-PkM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -65,7 +68,7 @@ ht-degree: 0%
 
 1. 次のいずれかの操作を行います。
 
-   * （1つのエンティティに値を割り当てるには） エンティティ名の上にカーソルを置き、![&#x200B; メニューボタン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューボタン ")をクリックし、**[!UICONTROL Classification]**&#x200B;を選択します。
+   * （1つのエンティティに値を割り当てるには） エンティティ名の上にカーソルを置き、![ メニューボタン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューボタン ")をクリックし、**[!UICONTROL Classification]**&#x200B;を選択します。
 
    * （1つ以上のエンティティに値を割り当てるには）次の操作を行います。
 
@@ -119,9 +122,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ラベル分類について](classification-about.md)
->* [&#x200B; ラベル分類を作成](classification-create.md)
->* [&#x200B; バルクシートを使用してアカウントコンポーネントに分類値を割り当てる](classification-values-assign-bulksheets.md)
->* [&#x200B; アカウントコンポーネントからラベル分類値を削除](classification-values-remove.md)
->* [&#x200B; ラベル分類値を削除](classification-values-delete.md)
->* [&#x200B; ラベル分類を削除](classification-delete.md)
+>* [ ラベル分類について](classification-about.md)
+>* [ ラベル分類を作成](classification-create.md)
+>* [ バルクシートを使用してアカウントコンポーネントに分類値を割り当てる](classification-values-assign-bulksheets.md)
+>* [ アカウントコンポーネントからラベル分類値を削除](classification-values-remove.md)
+>* [ ラベル分類値を削除](classification-values-delete.md)
+>* [ ラベル分類を削除](classification-delete.md)

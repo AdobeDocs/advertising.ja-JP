@@ -3,23 +3,32 @@ title: プログラム的に取引を保証する
 description: パブリッシャーと交渉したプログラマティック保証（PG）取引を設定する方法について説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-TQID: https://experienceleague.adobe.com/z7kz7dnCjgCGmlgDlFvbZXTn8d9-OMEunv-Sm-k6TzY
+TQID: 'https://experienceleague.adobe.com/z7kz7dnCjgCGmlgDlFvbZXTn8d9-OMEunv-Sm-k6TzY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
+  - id: ea1cb503-33dd-595d-833b-f365576083b6
+    internal-label: DSP Programmatic Guaranteed Deals
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: '456'
 ht-degree: 0%
-
 ---
-
 # プログラム的に取引を保証する
 
 *[サポートされているサプライサイドプラットフォームのみ](programmatic-guaranteed-about.md)*
@@ -30,7 +39,7 @@ ht-degree: 0%
 >
 > PG取引の場合、発行者はすべての予算ペーシング、予算上限設定、およびターゲティングを処理します。 PGからDSPを使用できるすべてのSSPは、発行者が予算上限を設定できることを確認します。
 >
-> [!DNL FreeWheel]でパブリッシャーとのプログラム的な保証取引を設定するには、追加の権限と手順が必要です。 詳しくは、「[でのプログラマティック保証取引の設定の概要」を参照してください。 [!DNL FreeWheel]](freewheel-overview.md)
+> [!DNL FreeWheel]でパブリッシャーとのプログラム的な保証取引を設定するには、追加の権限と手順が必要です。 詳しくは、「 [!DNL FreeWheel]](freewheel-overview.md)でのプログラマティック保証取引の設定の概要」を参照してください。[
 
 ## [!DNL Deal ID Inbox]を使用してプログラムによる保証契約を設定します {#pg-setup-deal-id-inbox}
 
@@ -48,7 +57,7 @@ ht-degree: 0%
 
    * 複数のPG取引IDを持つ提案を受け入れる場合は、作成する必要がある各PGのデフォルトプレースメントを特定します。 必要なプレースメントをすべて作成すると、「続行」ボタンが有効になります。
 
-1. （オプション） ![&#x200B; オプションメニュー](/help/dsp/assets/options-menu.png)**>[!UICONTROL Attach new placement]**&#x200B;をクリックして、追加のPGまたは非PG配置でPG取引をターゲットにします。
+1. （オプション） ![ オプションメニュー](/help/dsp/assets/options-menu.png)**>[!UICONTROL Attach new placement]**&#x200B;をクリックして、追加のPGまたは非PG配置でPG取引をターゲットにします。
 
    取引では、あらゆるメディアタイプ（コネクテッド TV、デスクトップ PC、オーディオなど）の組み合わせをサポートする複数の配置をターゲットにすることができます。
 
@@ -62,14 +71,14 @@ ht-degree: 0%
 
    取引のPG デフォルトプレースメントを作成することは、購入の100%を提供するために必須です。 この種類のプレースメントにはターゲティングがないので、DSPはパブリッシャーからのすべての入札リクエストに入札を返すことができます。
 
-1. （オプション） ![&#x200B; オプションメニュー](/help/dsp/assets/options-menu.png)**>[!UICONTROL Attach new placement]**&#x200B;をクリックして、追加のPGまたは非PG配置でPG取引をターゲットにします。
+1. （オプション） ![ オプションメニュー](/help/dsp/assets/options-menu.png)**>[!UICONTROL Attach new placement]**&#x200B;をクリックして、追加のPGまたは非PG配置でPG取引をターゲットにします。
 
    取引では、あらゆるメディアタイプ（コネクテッド TV、デスクトップ PC、オーディオなど）の組み合わせをサポートする複数の配置をターゲットにすることができます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プログラマティック保証取引について](programmatic-guaranteed-about.md)
->* [&#x200B; プログラマティック保証取引の交渉に関するヒント &#x200B;](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [ プログラマティック保証取引について](programmatic-guaranteed-about.md)
+>* [ プログラマティック保証取引の交渉に関するヒント ](/help/dsp/inventory/programmatic-guaranteed-tips.md)
 >* [様とのプログラムで保証された契約の広告を送信 [!DNL FreeWheel]](freewheel-submit.md)
 >* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)で取引を承諾
 >* [取引IDの詳細を手動で作成する](deal-id-create.md)

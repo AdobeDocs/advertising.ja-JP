@@ -3,24 +3,29 @@ title: 使用可能なレポート列
 description: カスタムレポートで使用可能な列の説明を参照してください。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-TQID: https://experienceleague.adobe.com/xFQ-Qf74tmXr4qCwTD7MXnsvypjepRuP1MJP3ytCKv0
+TQID: 'https://experienceleague.adobe.com/xFQ-Qf74tmXr4qCwTD7MXnsvypjepRuP1MJP3ytCKv0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a8f4be51-fec2-5e52-b41e-a611c28e444c
+    internal-label: DSP Custom Reports
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2947
+source-wordcount: '2989'
 ht-degree: 0%
-
 ---
-
 # 使用可能なレポート列
 
 <!--
@@ -144,8 +149,8 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Frequency] | [!UICONTROL Extended Impressions] | 人物ベースのクロスデバイス ターゲティングにデバイスグラフを使用した結果として提供されたインプレッションの合計数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Frequency] | 1世帯当たりのインプレッション数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Frequency Overlap] | ディメンションの最大3つの値の交差を含め、報告されたディメンションのみで世帯にリーチする頻度。 例えば、[!UICONTROL Placement] ディメンションを使用すると、個々のプレースメントで到達した頻度、任意の2つのプレースメントの組み合わせで到達した頻度、および任意の3つのプレースメントの組み合わせで到達した頻度を確認できます。 |
-| [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Incremental Household Reached] | 報告されたディメンションのみによってリーチされた世帯数。報告されたディメンションのみによってリーチされた<code>[IP アドレス ] - [他のディメンションによってリーチされたIP アドレス ]として計算されます</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL % Incremental Household Reached] | 報告されたディメンションのみがリーチした世帯の割合。ディメンションがリーチしたIP アドレスの割合<code>[他のディメンションがリーチしたIP アドレスの割合] - [他のディメンションがリーチしたIP アドレスの割合]として計算</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Incremental Household Reached] | 報告されたディメンションのみによってリーチされた世帯数。報告されたディメンションのみによってリーチされた<code>[IP アドレス ] - [他のディメンションによってリーチされたIP アドレス ]として計算されます</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL % Incremental Household Reached] | 報告されたディメンションのみがリーチした世帯の割合。ディメンションがリーチしたIP アドレスの割合<code>[他のディメンションがリーチしたIP アドレスの割合] - [他のディメンションがリーチしたIP アドレスの割合]として計算</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Impressions] | 提供された広告インプレッションの合計数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Measurable Impressions] | 表示可能性のために測定されたインプレッションの合計数です。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Measurable Impressions (Overlap)] | ディメンションの最大3つの値の交差を含め、報告されたディメンションのみで提供される測定可能なインプレッションの合計数。 例えば、[!UICONTROL Placement] ディメンションを使用すると、個々の配置によって到達した測定可能なインプレッション数、任意の2つの配置の組み合わせによって到達した測定可能なインプレッション数、および任意の3つの配置の組み合わせによって到達した測定可能なインプレッション数を確認できます。 |
@@ -163,21 +168,21 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Unique Household Reached] | 合計一意の世帯（個別のIP アドレス）に到達しました。 |
 | [!UICONTROL Metrics] | [!UICONTROL Identifier] | [!UICONTROL Identifier Type] | ターゲットにするIDのタイプ。 |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Max CPMで入札された合計入札額の割合。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | 顧客獲得当たりの平均総費用（<code>[!UICONTROL Gross Spend] / [!UICONTROL conversion metric]で計算）</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | 広告クリックあたりの平均総費用（<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]別）</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | 完了済みビデオ表示あたりの平均コストは、<code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]によって計算されます</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPE] | 広告エンゲージメントあたりの平均総費用（<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Engagements]別）</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPI] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Impressions]で計算された、広告インプレッションあたりの平均総費用</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | 1000 インプレッションあたりの平均コストは、<code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000で計算されます</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Views]によって計算されたビデオ表示当たりの平均コスト</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | 顧客獲得当たりの平均総費用（<code>[!UICONTROL Gross Spend] / [!UICONTROL conversion metric]で計算）</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | 広告クリックあたりの平均総費用（<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]別）</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | 完了済みビデオ表示あたりの平均コストは、<code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]によって計算されます</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPE] | 広告エンゲージメントあたりの平均総費用（<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Engagements]別）</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPI] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Impressions]で計算された、広告インプレッションあたりの平均総費用</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | 1000 インプレッションあたりの平均コストは、<code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000で計算されます</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Views]によって計算されたビデオ表示当たりの平均コスト</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross Custom Goal CPA] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>ここで、[!UICONTROL Custom Goal]は、カスタム目標に添付されたすべてのコンバージョンの目標の重みです。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | 表示可能なインプレッション 1000個あたりの平均コストは、<code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000で計算されます</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | 広告クリックあたりの平均正味コストは、<code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]によって計算されます</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | 完了済みビデオビューあたりの平均正味費用（<code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]別）</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPI] | 広告インプレッションあたりの平均正味コストは、<code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Impressions]によって計算されます</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | 1000 インプレッションあたりの平均正味コスト （単位：<code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000）</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | <code>[!UICONTROL Net Spend] / [!UICONTROL Views]で計算された、ビデオビューあたりの平均正味費用</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net vCPM] | 表示可能なインプレッション 1000個あたりの平均正味費用（単位：<code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000）</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | 表示可能なインプレッション 1000個あたりの平均コストは、<code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000で計算されます</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | 広告クリックあたりの平均正味コストは、<code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]によって計算されます</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | 完了済みビデオビューあたりの平均正味費用（<code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]別）</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPI] | 広告インプレッションあたりの平均正味コストは、<code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Impressions]によって計算されます</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | 1000 インプレッションあたりの平均正味コスト （単位：<code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000）</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | <code>[!UICONTROL Net Spend] / [!UICONTROL Views]で計算された、ビデオビューあたりの平均正味費用</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net vCPM] | 表示可能なインプレッション 1000個あたりの平均正味費用（単位：<code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000）</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | DSPがプレースメントに入札する個別ユーザーの数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Agency Fee] | 代理店手数料について。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Billable Creative Spend] | Adobe Creativeから配信された広告の総費用。 |
@@ -189,9 +194,9 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | DSPのメディア費用請求および技術手数料サービスに適用される税を含むメディアに対する推定税。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | その他のサービス料金（サードパーティの検証パートナー、トピックターゲティングなどを含む）に対する税金の見積もりは、DSPを通じて請求されます。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Gross Spend] | 総支出です。 |
-| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Margin %] | （マージン管理が有効になっている場合） マージンの割合。計算式は<code> （[!UICONTROL Gross Spend] - [!UICONTROL Net Spend]） / [!UICONTROL Gross Spend]です</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Margin %] | （マージン管理が有効になっている場合） マージンの割合。計算式は<code> （[!UICONTROL Gross Spend] - [!UICONTROL Net Spend]） / [!UICONTROL Gross Spend]です</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Media Cost] | テクノロジー料金なしで、請求不可および請求可能なメディアコストの合計。 |
-| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | 表示可能なインプレッション 1000個あたりの平均正味費用（単位：<code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000）</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | 表示可能なインプレッション 1000個あたりの平均正味費用（単位：<code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000）</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Non Billable Creative Spend] | Adobe Creativeを通じて請求されない広告の総費用。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Spend] | DSPを通じて請求されないオーディエンスセグメントデータ料金の正味費用の合計。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Spend] | DSPを通じて請求されないテクノロジー料金を含む、請求不可メディアの正味総費用。 |
@@ -200,13 +205,13 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Billable Spend] | [!UICONTROL Billable Spend (Media)]、[!UICONTROL Billable Spend (Data)]および[!UICONTROL Billable Spend (Other)]の合計。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Creative CPM] | Adobe Creativeから配信される広告の1000 インプレッションあたりの平均正味メディアコスト。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Creative Spend] | Adobe Creativeから配信された広告に対する請求可能および請求不可の総支出。 |
-| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Data eCPM] | 1000 インプレッションあたりの平均正味データコスト （単位：<code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000）</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Data eCPM] | 1000 インプレッションあたりの平均正味データコスト （単位：<code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000）</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Data Spend] | オーディエンスセグメントデータ料金の正味費用の合計。 |
-| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Media CPM] | 1000 インプレッションあたりの平均正味メディアコスト （単位：<code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000）</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Media CPM] | 1000 インプレッションあたりの平均正味メディアコスト （単位：<code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000）</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Media Spend] | 技術コストを含むメディアの総純費用。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Net Spend] | [!UICONTROL Net Spend (Media)]、[!UICONTROL Net Spend (Data)]および[!UICONTROL Net Spend (Other)]の合計。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | [!UICONTROL Non-billable Spend (Media)]、[!UICONTROL Non-billable Spend (Data)]および[!UICONTROL Non-billable Spend (Other)]の合計。 |
-| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | 他の手数料に対する1000 インプレッションあたりの平均正味費用は、<code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000で計算されます</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | 他の手数料に対する1000 インプレッションあたりの平均正味費用は、<code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000で計算されます</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other Spend] | その他のサービス料金（サードパーティの検証パートナー、広告配信など）の正味費用の合計。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Clicks] | 合計クリック数： |
 | [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL CTR] | クリック数の割合をインプレッションで割った値。 |
@@ -267,17 +272,17 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Views] | （カスタム Creative レポート）ビデオ広告の合計表示数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Avg. Player Width x Height] | プレイヤーの平均身長と幅。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Impressions] | 表示可能性のために測定されたインプレッションの合計数です。 |
-| [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | 表示可能性を測定できるインプレッションの割合（<code>[!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]として計算）</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | 表示可能性を測定できるインプレッションの割合（<code>[!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]として計算）</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - iFrame (%)] | 互換性のないiFrameが原因で、表示可能性に対して測定できないインプレッションの割合。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - Not Supported (%)] | 広告ユニットでサポートされていない視認性トラッキングが原因で、視認性に対して測定できないインプレッションの数。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - Other (%)] | 他の理由により、視認性に関して測定できないインプレッションの割合。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Impressions] | 広告インプレッションの数は、ビューアビリティでは測定できません。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Rate (%)] | 広告インプレッションの割合。ビューアビリティでは測定できません。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable rate (Not supported)] | この広告ユニットでサポートされていないビューアビリティトラッキングが原因で、ビューアビリティに対して測定できないインプレッションの割合。 |
-| [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | すべての測定可能なインプレッションのうち、表示可能なインプレッションの割合（<code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]として計算）</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | すべての測定可能なインプレッションのうち、表示可能なインプレッションの割合（<code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]として計算）</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | 表示可能と見なされる広告インプレッションの数。 |
 | [!UICONTROL Conversion Metrics] | [ レポート設定で広告主別にグループ化] | [広告主固有のコンバージョン ] | 指定された広告主固有のコンバージョン指標またはAdobe Analytics イベントの合計。 |
-| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化] | [広告主固有のカスタム目標] | 指定された[&#x200B; カスタム目標](/help/dsp/optimization/custom-goal.md)に含まれるすべてのコンバージョンの重み付け合計。 |
+| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化] | [広告主固有のカスタム目標] | 指定された[ カスタム目標](/help/dsp/optimization/custom-goal.md)に含まれるすべてのコンバージョンの重み付け合計。 |
 
 {style="table-layout:auto"}
 
@@ -285,8 +290,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて](/help/dsp/reports/report-about.md)
->* [&#x200B; カスタムレポートを作成](/help/dsp/reports/report-create.md)
->* [&#x200B; カスタムレポートを複製](/help/dsp/reports/report-copy.md)
->* [&#x200B; カスタムレポートを編集](/help/dsp/reports/report-edit.md)
->* [&#x200B; カスタムレポート設定](/help/dsp/reports/report-settings.md)
+>* [ カスタムレポートについて](/help/dsp/reports/report-about.md)
+>* [ カスタムレポートを作成](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートを複製](/help/dsp/reports/report-copy.md)
+>* [ カスタムレポートを編集](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポート設定](/help/dsp/reports/report-settings.md)

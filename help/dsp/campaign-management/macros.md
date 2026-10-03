@@ -3,27 +3,35 @@ title: Advertising DSP マクロ
 description: 一般的なトラッキングに使用できるマクロを参照し、サードパーティのディスプレイ広告のクリックをトラッキングします。
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-TQID: https://experienceleague.adobe.com/4jT3XQq555z7FwlwIj0wkCps3D3Dg-dWD0He3FnlLiQ
+TQID: 'https://experienceleague.adobe.com/4jT3XQq555z7FwlwIj0wkCps3D3Dg-dWD0He3FnlLiQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Troubleshooting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 940
-ht-degree: 0%
-
+source-wordcount: '990'
+ht-degree: 3%
 ---
-
 # Advertising DSP マクロ
 
 マクロは、命令の短いコマンドまたは略語であり、通常は`${MACRO_NAME}`形式に従います。 クリエイティブコードまたはクリックスルーURLに含まれるマクロは、広告サーバーが理解できる長いコード文字列に展開されます。 DSP広告サーバーは、広告が配信またはクリックされたときにマクロを実行します。
@@ -57,7 +65,7 @@ VAST タグ、任意のURL、DSPまたはサードパーティのイベントピ
 | ` ${TM_SITE_NAME}` | プレースメントのサイト名。 | 文字列 |
 | `${TM_SITE_URL_URLENC}` | 入札リクエストで渡されたURL。URL エンコードです。 バナー内でクリックして再生する広告ではサポートされていません。 | 文字列 |
 | `${TM_SITE_ID_NUM}` | プレースメントのサイト ID。 | 整数 |
-| `${TM_TIMESTAMP}` | 1970年1月1日の深夜（00:00 UTC）からの経過秒数を示すUnix タイムスタンプ。 | 長い |
+| `${TM_TIMESTAMP}` | 1970年1月1日の深夜0時（UTC）からの経過秒数を示すUnix タイムスタンプ。 | 長い |
 | ` ${TM_VIDEO_DURATION}` | 広告動画のデュレーション（秒単位）。 | 整数 |
 
 {style="table-layout:auto"}
@@ -102,7 +110,7 @@ DSPでは、次の操作を行うと、サードパーティの表示タグに�
 
 ## [!DNL Analytics for Advertising]個のマクロ
 
-[[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)のお客様向けに特別に使用できる追加のマクロについては、「[追加 [!DNL Analytics for Advertising]  マクロを [!DNL Flashtalking] 広告タグ &#x200B;](/help/integrations/analytics/macros-flashtalking.md)」および「[追加 [!DNL Analytics for Advertising]  マクロを [!DNL Google Campaign Manager 360] 広告タグ &#x200B;](/help/integrations/analytics/macros-google-campaign-manager.md)」を参照してください。
+[[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)のお客様向けに特別に使用できる追加のマクロについては、「[追加 [!DNL Analytics for Advertising]  マクロを [!DNL Flashtalking] 広告タグ ](/help/integrations/analytics/macros-flashtalking.md)」および「[追加 [!DNL Analytics for Advertising]  マクロを [!DNL Google Campaign Manager 360] 広告タグ ](/help/integrations/analytics/macros-google-campaign-manager.md)」を参照してください。
 
 ## マクロエラーのトラブルシューティング
 
@@ -115,10 +123,10 @@ DSPでは、次の操作を行うと、サードパーティの表示タグに�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディオ広告設定](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [&#x200B; コネクテッド TV広告の設定](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [ オーディオ広告設定](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [ コネクテッド TV広告の設定](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
 >* [広告設定の表示](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [&#x200B; モバイル広告設定](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [&#x200B; ネイティブ広告設定](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [広告設定のプレロール &#x200B;](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
->* [&#x200B; ユニバーサル動画広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
+>* [ モバイル広告設定](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [ ネイティブ広告設定](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [広告設定のプレロール ](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [ ユニバーサル動画広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

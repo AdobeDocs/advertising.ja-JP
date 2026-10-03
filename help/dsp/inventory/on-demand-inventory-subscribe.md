@@ -1,24 +1,28 @@
 ---
-title: ' [!DNL On Demand]  プレミアム在庫取引の購読とアクセスのリクエスト'
+title: '[!DNL On Demand]件のプレミアム広告在庫のお得な情報を購読してアクセスをリクエスト'
 description: '[!DNL On Demand]件の取引を購読してアクセスを要求する方法について説明します。'
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-TQID: https://experienceleague.adobe.com/k3uCoU7U-K-TfHrlpFPn8XYtb-Vk5XWwmxCXby57tKs
+TQID: 'https://experienceleague.adobe.com/k3uCoU7U-K-TfHrlpFPn8XYtb-Vk5XWwmxCXby57tKs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '395'
 ht-degree: 0%
-
 ---
-
 # [!DNL On Demand]件のプレミアム広告在庫のお得な情報を購読してアクセスをリクエスト
 
 *アカウントタイプ [!UICONTROL Ad Network]、[!UICONTROL Publisher Audience Extension]、[!UICONTROL Other]のユーザー、カテゴリ [!UICONTROL Other]の広告主、およびリセラー*&#x200B;のユーザーは利用できません
@@ -81,15 +85,15 @@ ht-degree: 0%
 
    * 最近追加した契約をリクエストするには：
 
-      1. パブリッシャーの上部カルーセルで、パブリッシャーのロゴの上にカーソルを置き、**[!UICONTROL See Deals]**&#x200B;をクリックします。
+     1. パブリッシャーの上部カルーセルで、パブリッシャーのロゴの上にカーソルを置き、**[!UICONTROL See Deals]**&#x200B;をクリックします。
 
-      1. 個別の契約を購読するには、関連する行の&#x200B;**[!UICONTROL Request]**&#x200B;列の[!UICONTROL Action]をクリックします。
+     1. 個別の契約を購読するには、関連する行の[!UICONTROL Action]列の&#x200B;**[!UICONTROL Request]**&#x200B;をクリックします。
 
    * [!UICONTROL Deal] ビューから取引を要求するには：
 
-      1. **[!UICONTROL Deal view]**&#x200B;をクリックします。
+     1. **[!UICONTROL Deal view]**&#x200B;をクリックします。
 
-      1. 関連する行の&#x200B;**[!UICONTROL Request]**&#x200B;列の[!UICONTROL Action]をクリックします。
+     1. 関連する行の[!UICONTROL Action]列の&#x200B;**[!UICONTROL Request]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >

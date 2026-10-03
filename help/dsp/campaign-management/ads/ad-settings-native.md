@@ -3,22 +3,26 @@ title: ネイティブ広告の設定
 description: ネイティブディスプレイ広告で使用できる広告設定の説明を参照してください。
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-TQID: https://experienceleague.adobe.com/e8QS9qdzTGrlRMjbgvQDZEhlsh4BdYZ-tJ6b7D-cGfQ
+TQID: 'https://experienceleague.adobe.com/e8QS9qdzTGrlRMjbgvQDZEhlsh4BdYZ-tJ6b7D-cGfQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '224'
 ht-degree: 0%
-
 ---
-
 # ネイティブ広告の設定
 
 ## [!UICONTROL Ad Options]
@@ -41,13 +45,13 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page]:**&#x200B;視聴者が広告をクリックしたときに表示されるURL。
 
-**[!UICONTROL Final Landing Page]:**&#x200B;必要な[!UICONTROL Landing Page]Advertising DSP トラッキングマクロ [が挿入された](/help/dsp/campaign-management/macros.md) URL （該当する場合）。
+**[!UICONTROL Final Landing Page]:**&#x200B;必要な[Advertising DSP トラッキングマクロ ](/help/dsp/campaign-management/macros.md)が挿入された[!UICONTROL Landing Page] URL （該当する場合）。
 
 **[!UICONTROL Sponsored By (Advertiser Name)]:**&#x200B;広告の広告主。
 
 **[!UICONTROL Call to Action]:** （オプション）視聴者がこの広告を見たら実行する手順。
 
-**[!UICONTROL Advertiser Logo]:** （オプション）より多くのブランド認知度を高めるために、広告に含める1:1比率のロゴ。 **[!UICONTROL Browse]**&#x200B;をクリックして、デバイスまたはネットワーク上のファイルを見つけ、**[!UICONTROL Upload]**&#x200B;をクリックします。
+**[!UICONTROL Advertiser Logo]:** （オプション）ブランド認知度を高めるために、広告に含める1:1の比率のロゴ。 **[!UICONTROL Browse]**&#x200B;をクリックして、デバイスまたはネットワーク上のファイルを見つけ、**[!UICONTROL Upload]**&#x200B;をクリックします。
 
 ### [!UICONTROL Pixel]
 
@@ -61,4 +65,4 @@ ht-degree: 0%
 >* [単一の広告を作成](ad-create.md)
 >* [広告に関連付けられているプレースメントを一覧表示](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [広告の仕様](ad-specs.md)
->* [DSP マクロ &#x200B;](/help/dsp/campaign-management/macros.md)
+>* [DSP マクロ ](/help/dsp/campaign-management/macros.md)

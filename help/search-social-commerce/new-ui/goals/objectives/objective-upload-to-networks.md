@@ -3,7 +3,15 @@ title: （新しいUI）広告ネットワークへの目的のアップロー�
 description: ハイブリッドポートフォリオの目標をGoogle AdsとMicrosoft Advertisingにアップロードする方法について説明します。
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -46,7 +54,7 @@ Search, Social, &amp; Commerceでは、広告主アカウントのポートフ�
 
 1. `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`という名前の各目的が2日以内に広告ネットワークに表示されることを確認します。
 
-   [!DNL Google Ads] エディターで、[&#x200B; コンバージョンアクション &#x200B;](https://support.google.com/google-ads/answer/11461796){target="_blank"}を検索します。 [!DNL Microsoft Advertising] エディターで、[&#x200B; コンバージョン目標](https://help.ads.microsoft.com/#apex/ads/en/56709){target="_blank"}を検索します。
+   [!DNL Google Ads] エディターで、[ コンバージョンアクション ](https://support.google.com/google-ads/answer/11461796){target="_blank"}を検索します。 [!DNL Microsoft Advertising] エディターで、[ コンバージョン目標](https://help.ads.microsoft.com/#apex/ads/en/56709){target="_blank"}を検索します。
 
    必要に応じて、アップロード日を含めるように日付範囲を更新します。
 
@@ -87,7 +95,7 @@ GGL_Leadは[!DNL Google Ads]追跡された指標であるため、計算/アッ
 >
 >* [目標について](objective-about.md)
 >* [広告主のコンバージョン指標を管理](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
->* [&#x200B; マネージャーアカウント &#x200B;](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)の資格情報の管理 [!DNL Google Ads] 
+>* [ マネージャーアカウント ](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)の資格情報の管理 [!DNL Google Ads] 
 
 <!--
 I don't see this yet in new UI:

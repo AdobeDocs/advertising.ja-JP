@@ -3,18 +3,23 @@ title: '[!UICONTROL Custom Columns] アイコンから列セットを編集し�
 description: 列カスタマイザーを使用して表示列を変更する方法について説明します。
 exl-id: bc03b53f-179a-426f-bc31-20be25915506
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/LLIbApYJXT6AZ4m7VpcJAzED1nevloYNhFyzZGUx-DI
+TQID: 'https://experienceleague.adobe.com/LLIbApYJXT6AZ4m7VpcJAzED1nevloYNhFyzZGUx-DI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 308
+source-wordcount: '303'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Custom Columns] アイコンから列セットを編集して並べ替え
 
 <!-- The same in new UI and legacy CM views except for icon -->
@@ -25,13 +30,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ビューの任意の列見出し[から並べ替え順序](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)を変更せずに、ビューの列を一時的に変更することもできます。
+>ビューの任意の列見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)から並べ替え順序[を変更せずに、ビューの列を一時的に変更することもできます。
 >
->デフォルトのビューを編集するか[&#x200B; カスタムビューを作成することで、特定の広告主向けに含まれている列に変更を保存できます](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)。
+>デフォルトのビューを編集するか[ カスタムビューを作成することで、特定の広告主向けに含まれている列に変更を保存できます](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)。
 
-1. ツールバーの右側で、![&#x200B; カスタム列](/help/search-social-commerce/assets/custom-columns.png " カスタム列")または![カスタム列](/help/search-social-commerce/assets/custom-columns-new.png "カスタム列")をクリックします。
+1. ツールバーの右側で、![ カスタム列](/help/search-social-commerce/assets/custom-columns.png " カスタム列")または![カスタム列](/help/search-social-commerce/assets/custom-columns-new.png "カスタム列")をクリックします。
 
-1. （オプション） [&#x200B; カスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)を作成して、列として含めます。
+1. （オプション） [ カスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)を作成して、列として含めます。
 
 1. ビューに含める列を指定します。
 
@@ -43,7 +48,7 @@ ht-degree: 0%
 
    * （列を削除するには） [!UICONTROL Selected Columns & Ordering] リストで列名をクリックし、列名を[!UICONTROL Available Columns] リストにドラッグするか、![削除](/help/search-social-commerce/assets/chevron-left.png "削除")をクリックしてそこに移動します。
 
-   * （新しい収益列が追加され、表示されていない場合に列リストを更新するには）「![」の横にある「](/help/search-social-commerce/assets/refresh.png "更新")更新[!UICONTROL Available Columns]」をクリックします。
+   * （新しい収益列が追加され、表示されていない場合に列リストを更新するには）「[!UICONTROL Available Columns]」の横にある「![更新](/help/search-social-commerce/assets/refresh.png "更新")」をクリックします。
 
 1. 並べ替えオプションを指定します。
 
@@ -51,8 +56,8 @@ ht-degree: 0%
 
    * （オプション）選択した列の値の並べ替え順序を指定します。
 
-      * （新しいUI） **[!UICONTROL Ascending]**&#x200B;または&#x200B;**[!UICONTROL Descending]**&#x200B;を選択します。
+     * （新しいUI） **[!UICONTROL Ascending]**&#x200B;または&#x200B;**[!UICONTROL Descending]**&#x200B;を選択します。
 
-      * （従来のUI）スライダーを&#x200B;**[!UICONTROL Ascending]**&#x200B;または&#x200B;**[!UICONTROL Descending]**&#x200B;に移動します。
+     * （従来のUI）スライダーを&#x200B;**[!UICONTROL Ascending]**&#x200B;または&#x200B;**[!UICONTROL Descending]**&#x200B;に移動します。
 
 1. **[!UICONTROL Apply]**&#x200B;をクリックします。

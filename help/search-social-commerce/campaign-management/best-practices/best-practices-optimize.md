@@ -3,23 +3,30 @@ title: web サイトのランディングページを最適化する
 description: web サイトのランディングページを最適化するためのベストプラクティスについて解説します。
 exl-id: cd94277c-a340-4161-8630-86a249eb3465
 feature: Search Best Practices
-TQID: https://experienceleague.adobe.com/W-jWR37BWiSfwdR-CozewBAEbaIOGIRd-S4CLsPATVI
+TQID: 'https://experienceleague.adobe.com/W-jWR37BWiSfwdR-CozewBAEbaIOGIRd-S4CLsPATVI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4448d932-c6c2-59c8-8d0c-d940413abe6b
+    internal-label: Search Best Practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 724
+source-wordcount: '730'
 ht-degree: 0%
-
 ---
-
 # web サイトのランディングページを最適化する
 
 ユーザーエクスペリエンスとコンバージョン率を向上させるには、異なるレイアウトやメッセージを作成し、そのパフォーマンスをテストすることで、広告用のランディングページを最適化することが重要です。 ランディングページのテストは、あらゆる広告主にとって継続的に実施すべき取り組みです。
@@ -66,5 +73,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; レポートを分析してキーワードとキャンペーン設定を調整する](best-practices-analyze.md)
+>* [ レポートを分析してキーワードとキャンペーン設定を調整する](best-practices-analyze.md)
 >* [効果的なテキストとコピーの作成](best-practices-write.md)

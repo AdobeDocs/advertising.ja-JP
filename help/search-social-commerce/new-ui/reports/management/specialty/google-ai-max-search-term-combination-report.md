@@ -2,7 +2,15 @@
 title: '[!UICONTROL Google AI Max Search Term Combination Report]'
 description: '[!UICONTROL Google AI Max Search Term Combination Report]について説明します。'
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a595c7d6245fa5d65e704e88230f2eab0a336e72
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -17,7 +25,7 @@ ht-degree: 0%
 
   このシートを使用して、クエリごとに結果として得られる広告要素の意図とパフォーマンスを分析し、強固な負のキーワードリストを構築できるようにします。
 
-* &#x200B;<!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1] シート：[!DNL Google Ads]は、各検索語句と一致タイプのコンバージョンアクションによって追跡されたコンバージョンデータです。 各行には、コンバージョンアクション、コンバージョン数、コンバージョン値、およびレポート設定で指定されたその他のオプションの[!DNL Google Ads]追跡されたコンバージョン指標が含まれます。 デフォルトでは、データには、指定したデータ範囲の各検索語とコンバージョンアクションの組み合わせごとに1行が含まれます。 行は、最初のシートの行と同じ順序になります。
+* <!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1] シート：[!DNL Google Ads]は、各検索語句と一致タイプのコンバージョンアクションによって追跡されたコンバージョンデータです。 各行には、コンバージョンアクション、コンバージョン数、コンバージョン値、およびレポート設定で指定されたその他のオプションの[!DNL Google Ads]追跡されたコンバージョン指標が含まれます。 デフォルトでは、データには、指定したデータ範囲の各検索語とコンバージョンアクションの組み合わせごとに1行が含まれます。 行は、最初のシートの行と同じ順序になります。
 
   <!-- Should it be this?  The sheet includes the number of conversions and the conversion value, all conversions and the all conversions value, and cross-device conversions. -->
 
@@ -50,6 +58,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [専門性レポートについて](specialty-report-about.md)
->* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
 >* [特殊レポート設定](specialty-report-settings.md)
 >* [専門性レポートのレポート列](specialty-report-columns.md)

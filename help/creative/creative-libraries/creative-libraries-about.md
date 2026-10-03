@@ -3,34 +3,46 @@ title: クリエイティブライブラリについて
 description: 広告体験のためのクリエイティブの管理について詳しく見る。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-TQID: https://experienceleague.adobe.com/rvm3BAkRlgbJKdpHNoN5oH9sOhqGwOA-3I-XIol0RXc
+TQID: 'https://experienceleague.adobe.com/rvm3BAkRlgbJKdpHNoN5oH9sOhqGwOA-3I-XIol0RXc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: bb1b8bb7-b991-4ae3-96c9-1fe852ffecbf
+    internal-label: Creative libraries
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1586
+source-wordcount: '1644'
 ht-degree: 0%
-
 ---
-
 # クリエイティブライブラリについて
 
 クリエイティブライブラリでは、広告エクスペリエンスで使用するクリエイティブを管理できます。 複数のライブラリを作成できます。各ライブラリには、一連のクリエイターと&#x200B;*クリエイティブバンドル*&#x200B;が含まれており、これらは1つのユニットとしてエクスペリエンスに追加できるクリエイターのグループです。
 
 ライブラリには、次のものが含まれます。
 
-* **個々のクリエイター：** ユーザーターゲットが定義されていない広告エクスペリエンス内で、個々のクリエイターを直接含めることができます。 クリエイティブを使用してバンドルを作成し、対象となる[広告エクスペリエンス &#x200B;](/help/creative/experiences/experience-about.md)に含めることもできます。
+* **個々のクリエイター：** ユーザーターゲットが定義されていない広告エクスペリエンス内で、個々のクリエイターを直接含めることができます。 クリエイティブを使用してバンドルを作成し、対象となる[広告エクスペリエンス ](/help/creative/experiences/experience-about.md)に含めることもできます。
 
-   * **標準クリエイティブ：** [様々な形式](#creative-creative-formats)でクリエイティブをアップロードおよび管理できます。 各クリエイティブについて、クリエイティブを関連付ける各広告のデフォルトの言語と、ユーザーがクリエイティブを含む広告をクリックしたときに開くデフォルトのランディングページを指定します。 [!DNL Creative]内の様々なビュー内のフィルターとして使用するラベルと、[!UICONTROL Custom Creative Report] ディメンションを使用する場合は[!UICONTROL Creative Label]の列値として使用するラベルをオプションで指定できます。
+  * **標準クリエイティブ：** [様々な形式](#creative-creative-formats)でクリエイティブをアップロードおよび管理できます。 各クリエイティブについて、クリエイティブを関連付ける各広告のデフォルトの言語と、ユーザーがクリエイティブを含む広告をクリックしたときに開くデフォルトのランディングページを指定します。 [!DNL Creative]内の様々なビュー内のフィルターとして使用するラベルと、[!UICONTROL Creative Label] ディメンションを使用する場合は[!UICONTROL Custom Creative Report]の列値として使用するラベルをオプションで指定できます。
 
-   * **動的なクリエイティブ：**&#x200B;広告テンプレートの動的変数をフィードファイルの値にマッピングすることで、動的に生成されたクリエイティブを作成できます。 すべてのユーザーは、既存の動的広告をプレビュー、複製、削除できます。
+  * **動的なクリエイティブ：**&#x200B;広告テンプレートの動的変数をフィードファイルの値にマッピングすることで、動的に生成されたクリエイティブを作成できます。 すべてのユーザーは、既存の動的広告をプレビュー、複製、削除できます。
 
 * **クリエイティブバンドル：** クリエイターをバンドルにグループ化して、定義されたユーザーターゲットを持つ複数のエクスペリエンスで使用します。 標準ディスプレイ広告で構成される&#x200B;*標準ディスプレイバンドル*、標準ビデオ広告で構成される&#x200B;*標準ビデオバンドル*、動的に生成されるディスプレイ広告で構成される&#x200B;*動的ディスプレイバンドル*、動的に生成されるビデオ広告で構成される&#x200B;*動的ビデオバンドル*&#x200B;を作成できます。
 
@@ -38,7 +50,7 @@ ht-degree: 0%
 
 ### 標準的なクリエイティブの形式
 
-[&#x200B; サポートされるクリエイティブサイズ &#x200B;](creative-sizes.md)で、次のクリエイティブタイプを追加および管理できます。
+[ サポートされるクリエイティブサイズ ](creative-sizes.md)で、次のクリエイティブタイプを追加および管理できます。
 
 >[!IMPORTANT]
 >
@@ -61,7 +73,7 @@ ht-degree: 0%
 
 ##### HTML5のクリエイティブ
 
-* **GenStudio エクスペリエンス：** [GenStudio for Performance Marketing](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)の[&#x200B; ディスプレイ広告エクスペリエンス &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)からすべての広告バリエーションを個々のHTML5 クリエイターとして読み込むことができます。 外部リンクはローカル参照に変換されます。 HTML コンテンツは最大20 MB、個々の画像は最大50 MBです。
+* **GenStudio エクスペリエンス：** [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)の[ ディスプレイ広告エクスペリエンス ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)からすべての広告バリエーションを個々のHTML5 クリエイターとして読み込むことができます。 外部リンクはローカル参照に変換されます。 HTML コンテンツは最大20 MB、個々の画像は最大50 MBです。
 
   GenStudio エクスペリエンスを読み込むと、読み込んだクリエイティブのメタデータ（名前、言語、タグ）は編集できますが、クリエイティブコンテンツは編集できません。 GenStudio内でGenStudio エクスペリエンスを編集する場合は、[!DNL Creative]でエクスペリエンスを再インポートして最新バージョンを使用します。
 
@@ -69,7 +81,7 @@ ht-degree: 0%
   >
   >この機能を使用するには、GenStudio アカウントとAdvertising Creative アカウントの両方で同じ組織IDを使用し、ユーザーがGenStudioにアクセスするための権限を持っている必要があります。
 
-* **アップロードしたファイル：**&#x200B;すべての属性と画像を指定したシンプルまたは静的なHTML5 クリエイティブをZIP ファイルとしてアップロードすることもできます。 属性を編集したり画像を追加したりすることはできません。代わりに、新しいクリエイティブを追加するために新しいZIP ファイルをアップロードしてください。 シンプルで静的なHTML5 クリエイター[については、](html5-creative-specification.md)仕様を参照してください。
+* **アップロードしたファイル：**&#x200B;すべての属性と画像を指定したシンプルまたは静的なHTML5 クリエイティブをZIP ファイルとしてアップロードすることもできます。 属性を編集したり画像を追加したりすることはできません。代わりに、新しいクリエイティブを追加するために新しいZIP ファイルをアップロードしてください。 シンプルで静的なHTML5 クリエイター](html5-creative-specification.md)については、[仕様を参照してください。
 
 ##### 画像クリエイター
 
@@ -87,9 +99,9 @@ GIF、JPEG、JPG、またはPNG形式で画像クリエイティブを含める�
 
 #### 動画クリエイター {#creative-video-specs}
 
-web、モバイル、コネクテッド TV用の1st パーティビデオのクリエイティブを、デバイスやネットワークからアップロードできます。 各動画広告エクスペリエンスには、エクスペリエンスに割り当てられたクリエイティブ期間ごとに、デフォルトの動画クリエイティブが必要です。 DSPでは、すべてのビデオクリエイティブがVAST 2.0 タグとして自動的にトランスコードされるので、プレビューできます。 [!UICONTROL Tag Manager]では、オプションで[DSP固有のトランスコーディング &#x200B;](/help/creative/experiences/experience-tag-video-transcoding.md)を任意のビデオ広告エクスペリエンスタグに適用できます。
+web、モバイル、コネクテッド TV用の1st パーティビデオのクリエイティブを、デバイスやネットワークからアップロードできます。 各動画広告エクスペリエンスには、エクスペリエンスに割り当てられたクリエイティブ期間ごとに、デフォルトの動画クリエイティブが必要です。 DSPでは、すべてのビデオクリエイティブがVAST 2.0 タグとして自動的にトランスコードされるので、プレビューできます。 [!UICONTROL Tag Manager]では、オプションで[DSP固有のトランスコーディング ](/help/creative/experiences/experience-tag-video-transcoding.md)を任意のビデオ広告エクスペリエンスタグに適用できます。
 
-次のビデオクリエイティブ要件を参照してください。 **注：** ビデオ エクスペリエンスをAdvertising DSPにアップロードする場合は、[DSPの高精細ビデオの要件](https://experienceleague.adobe.com/ja/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)も参照してください。これは、より制限されている可能性があります。
+次のビデオクリエイティブ要件を参照してください。 **注：** ビデオ エクスペリエンスをAdvertising DSPにアップロードする場合は、[DSPの高精細ビデオの要件](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)も参照してください。これは、より制限されている可能性があります。
 
 **ファイルの種類：** .mov、.mp4、.webm
 
@@ -127,13 +139,13 @@ web、モバイル、コネクテッド TV用の1st パーティビデオのク�
 
 #### 動的な動画クリエイティブ
 
-ダイナミック動画クリエイティブには、通常の動画クリエイティブと同じ仕様の動画ファイルが含まれます。 「[&#x200B; ビデオクリエイティブ &#x200B;](#creative-video-specs)」を参照してください。
+ダイナミック動画クリエイティブには、通常の動画クリエイティブと同じ仕様の動画ファイルが含まれます。 「[ ビデオクリエイティブ ](#creative-video-specs)」を参照してください。
 
 サポートされている広告フォーマットには、開始カード、終了カード、トップオーバーレイ、ボトムオーバーレイ、L字型などがあります。
 
 ## [!UICONTROL Creative Libraries] ビュー
 
-各ビューのカスタマイズについて詳しくは、「[&#x200B; データビューのカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md)」を参照してください。
+各ビューのカスタマイズについて詳しくは、「[ データビューのカスタマイズ ](/help/creative/introduction/customize-data-views.md)」を参照してください。
 
 ### [!UICONTROL Creative Libraries] メインビュー
 
@@ -147,11 +159,11 @@ web、モバイル、コネクテッド TV用の1st パーティビデオのク�
 
 * 各クリエイティブライブラリについて：
 
-   * [ライブラリ名の編集](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+  * [ライブラリ名の編集](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
 
-   * [ライブラリを開き、ライブラリに割り当てられたクリエイティブとバンドルを表示します](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+  * [ライブラリを開き、ライブラリに割り当てられたクリエイティブとバンドルを表示します](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
 
-   * [ライブラリの削除](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+  * [ライブラリの削除](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
 
 ### [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] ビュー
 
@@ -179,7 +191,7 @@ web、モバイル、コネクテッド TV用の1st パーティビデオのク�
 
 #### [!UICONTROL Dynamic Ads]
 
-「[!UICONTROL Dynamic Ads]」タブには、クリエイティブカタログ用に動的に作成されたすべての動的クリエイターが表示されます。ただし、[&#x200B; タブから](creative-delete.md)手動で[!UICONTROL Dynamic Ads]削除した動的クリエイターは表示されません。 動的なクリエイティブ [を](creative-duplicate.md)手動で<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->複製した場合、そのカタログのクリエイターのリストには、複製されたクリエイターも含まれます。
+「[!UICONTROL Dynamic Ads]」タブには、クリエイティブカタログ用に動的に作成されたすべての動的クリエイターが表示されます。ただし、[!UICONTROL Dynamic Ads] タブから[手動で](creative-delete.md)削除した動的クリエイターは表示されません。 動的なクリエイティブ <!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->を[手動で](creative-duplicate.md)複製した場合、そのカタログのクリエイターのリストには、複製されたクリエイターも含まれます。
 
 各クリエイティブのデータには、クリエイティブタイプ、クリエイティブサイズ、クリエイティブが属するカタログ数、作成日が含まれます。 テーブルモードには、クリエイティブが生成された広告テンプレートとオファー数の列も含まれます。
 
@@ -225,7 +237,7 @@ web、モバイル、コネクテッド TV用の1st パーティビデオのク�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; クリエイティブライブラリの管理](/help/creative/creative-libraries/creative-library-manage.md)
+>* [ クリエイティブライブラリの管理](/help/creative/creative-libraries/creative-library-manage.md)
 >* [標準クリエイティブをライブラリに追加](creative-add-standard.md)
->* [&#x200B; クリエイティブバンドルの管理](bundle-manage.md)
->* [&#x200B; データビューのカスタマイズ &#x200B;](/help/creative/introduction/customize-data-views.md)
+>* [ クリエイティブバンドルの管理](bundle-manage.md)
+>* [ データビューのカスタマイズ ](/help/creative/introduction/customize-data-views.md)

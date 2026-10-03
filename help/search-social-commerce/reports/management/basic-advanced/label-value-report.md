@@ -3,20 +3,26 @@ title: '[!UICONTROL Label Value Report]'
 description: '[!UICONTROL Label Value Report]について説明します。'
 exl-id: 6d279267-f7ee-475b-b4c3-72af6256330d
 feature: Search Reports, Search Basic Reports
-TQID: https://experienceleague.adobe.com/8VN9NxaR69t2AzGfj408oJGNAbWEogYFBD4FRXSWdI0
+TQID: 'https://experienceleague.adobe.com/8VN9NxaR69t2AzGfj408oJGNAbWEogYFBD4FRXSWdI0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 159
+source-wordcount: '159'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Label Value Report]
 
 [!UICONTROL Label Value Report]には、ポートフォリオ、広告ネットワーク、アカウント、キャンペーン、広告グループをまたいで集計されたラベル分類値によるコスト、クリック、および（オプションで）コンバージョンデータが含まれます。 デフォルトでは、データには、指定された日付範囲の時間単位ごとにインプレッションを受け取ったキーワード、広告、プレースメントに適用できる値ごとに1行が含まれます。 行は、最初に時間単位の開始日、次にコスト、次にラベル値で昇順になります。 ラベル値が割り当てられている各エンティティタイプの数を表示することもできます。

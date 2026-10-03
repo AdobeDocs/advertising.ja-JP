@@ -3,18 +3,21 @@ title: Adobe Advertising コンバージョントラッキングサービスの�
 description: サポートされている広告ネットワークのクリックトラッキング形式について説明します。
 exl-id: b6f225d5-2268-4b2a-9927-063155ba0dc5
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg
+TQID: 'https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 274
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising コンバージョントラッキングサービスのクリックトラッキング URL形式について
 
 Adobe Advertising コンバージョントラッキングサービスを使用する広告アカウントおよびキャンペーンのトラッキングテンプレート、ランディングページサフィックス（最終URL サフィックス）、および宛先URLは、次のフォーマットになります。
@@ -29,9 +32,9 @@ Adobe Advertising コンバージョントラッキングサービスを使用�
 
 * `<token passing parameter>`は次のいずれかの変数です：
 
-   * `cq?`または`rq`は、トークンの渡しが有効であることを示します。
+  * `cq?`または`rq`は、トークンの渡しが有効であることを示します。
 
-   * `c?`または`r`は、トークンの渡しが無効であることを示します。
+  * `c?`または`r`は、トークンの渡しが無効であることを示します。
 
 * `<ad network ID>`は、指定された広告ネットワークの数値IDの変数です。[!DNL Google Ads]の&#x200B;*3*、[!DNL Microsoft Advertising]の&#x200B;*10*、[!DNL Meta]の&#x200B;*45*、[!DNL Yahoo DSP]のの&#x200B;*86*、[!DNL Naver]の&#x200B;*87*、[!DNL Baidu]の&#x200B;*88*、*90*、[!DNL Yandex] [!DNL LY Ads]の&#x200B;*94* （旧称[!DNL Yahoo! Japan Ads]）、[!DNL Yahoo Native]の&#x200B;*105* （非推奨）、[!DNL Pinterest]の&#x200B;*106* （非推奨）。
 
@@ -43,10 +46,10 @@ Adobe Advertising コンバージョントラッキングサービスを使用�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; スポンサー広告のクリックトラッキング形式（ [!DNL Baidu]](formats-click-tracking-baidu.md)）
->*  [!DNL Google Ads][&#128279;](formats-click-tracking-google.md)の クリックトラッキング形式
->* [&#x200B; スポンサー広告のクリックトラッキング形式（ [!DNL LY Ads]](formats-click-tracking-yahoo-japan.md)）
->*  [!DNL Microsoft Advertising][&#128279;](formats-click-tracking-microsoft.md)の クリックトラッキング形式
->* [&#x200B; スポンサー広告のクリックトラッキング形式（ [!DNL Naver]](formats-click-tracking-naver.md)）
->* [&#x200B; スポンサー広告のクリックトラッキング形式（ [!DNL Yahoo DSP]](formats-click-tracking-yahoo-display-network.md)）
->* [&#x200B; スポンサー広告のクリックトラッキング形式（ [!DNL Yandex]](formats-click-tracking-yandex.md)）
+>* [ スポンサー広告のクリックトラッキング形式（ [!DNL Baidu]](formats-click-tracking-baidu.md)）
+>*  [!DNL Google Ads]](formats-click-tracking-google.md)の[ クリックトラッキング形式
+>* [ スポンサー広告のクリックトラッキング形式（ [!DNL LY Ads]](formats-click-tracking-yahoo-japan.md)）
+>*  [!DNL Microsoft Advertising]](formats-click-tracking-microsoft.md)の[ クリックトラッキング形式
+>* [ スポンサー広告のクリックトラッキング形式（ [!DNL Naver]](formats-click-tracking-naver.md)）
+>* [ スポンサー広告のクリックトラッキング形式（ [!DNL Yahoo DSP]](formats-click-tracking-yahoo-display-network.md)）
+>* [ スポンサー広告のクリックトラッキング形式（ [!DNL Yandex]](formats-click-tracking-yandex.md)）

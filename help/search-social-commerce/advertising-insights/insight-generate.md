@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL Advertising Insight]を生成'
-description: ' [!DNL Advertising Insight]の作成方法を説明します。'
+title: '[!DNL Advertising Insight]を生成'
+description: '[!DNL Advertising Insight]の作成方法を説明します。'
 exl-id: e6b692be-189e-4c6c-a536-e6c78801853d
 feature: Search Advertising Insights
-TQID: https://experienceleague.adobe.com/meXmiqRiNyUxVnnMdl8S-GfHk0xWWu-62tU0W5Ogtd8
+TQID: 'https://experienceleague.adobe.com/meXmiqRiNyUxVnnMdl8S-GfHk0xWWu-62tU0W5Ogtd8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bc8b5578-58f6-5342-a640-fce94e5ff4a7
+    internal-label: Search Advertising Insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: '337'
 ht-degree: 0%
-
 ---
-
 # [!DNL Advertising Insight]を生成
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**&#x200B;をクリックします。
@@ -49,7 +53,7 @@ ht-degree: 0%
 
          すべてのファイルは、CSV、TSV、TXT、またはZIP （圧縮CSV、TSV、またはTXT）形式である必要があります。
 
-   5. （[!UICONTROL Location Target Performance] insightのみ。オプション）要約ではなく毎日データを集計するには、**[!UICONTROL Time Aggregation]**&#x200B;の&#x200B;*[!UICONTROL Daily]*&#x200B;を選択します。
+   5. （[!UICONTROL Location Target Performance] insightのみ。オプション）要約ではなく毎日データを集計するには、*[!UICONTROL Daily]*&#x200B;の&#x200B;**[!UICONTROL Time Aggregation]**&#x200B;を選択します。
 
    6. （[!UICONTROL Normalized Sim (Combined)] insightのみ）次の操作を行います。
 
@@ -69,7 +73,7 @@ ht-degree: 0%
 
 4. **[!UICONTROL Generate Insight]**&#x200B;をクリックします。
 
-   ジョブが完了または失敗したときに、[の](/help/search-social-commerce/notifications/notification-edit.md)設定済みの通知設定[!UICONTROL Advertising Insights]に基づいて通知を受け取ります。
+   ジョブが完了または失敗したときに、[!UICONTROL Advertising Insights]の[設定済みの通知設定](/help/search-social-commerce/notifications/notification-edit.md)に基づいて通知を受け取ります。
 
 >[!MORELIKETHIS]
 >

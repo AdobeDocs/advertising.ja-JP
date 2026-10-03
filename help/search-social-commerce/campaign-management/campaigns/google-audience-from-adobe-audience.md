@@ -1,24 +1,28 @@
 ---
-title: ' [!DNL Adobe] 件のオーディエンスから [!DNL Google Ads] 顧客マッチオーディエンスを作成'
-description: 既存のAdobe AnalyticsおよびAudience Manager オーディエンスから [!DNL Google Ads]  カスタマーマッチオーディエンスを作成する方法について説明します。
+title: '[!DNL Adobe]人のオーディエンスから[!DNL Google Ads]人の顧客一致オーディエンスを作成'
+description: 既存のAdobe AnalyticsとAudience Managerのオーディエンスから[!DNL Google Ads]個のカスタマーマッチオーディエンスを作成する方法について説明します。
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/Ep3X-eo2kcGlW3NsV3CJEKBkEapa-oAv0HLexc1xnhM
+TQID: 'https://experienceleague.adobe.com/Ep3X-eo2kcGlW3NsV3CJEKBkEapa-oAv0HLexc1xnhM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 586
+source-wordcount: '589'
 ht-degree: 0%
-
 ---
-
 # Adobe AnalyticsおよびAudience Manager オーディエンスから[!DNL Google Ads]件のカスタマーマッチオーディエンスを作成
 
 顧客の一致のみ&#x200B;*の対象となる*[!DNL Google Ads] アカウント
@@ -43,7 +47,7 @@ ht-degree: 0%
 
    1. （ユーザーID リマーケティングリストのオーディエンスを作成するには） [!DNL Adobe]管理者ユーザーまたはアカウントマネージャーは、顧客一致オーディエンスを有効にするために、広告主レベルの設定を選択する必要があります。
 
-   1. [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) バージョン 2.0以降を実装します。
+   1. [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) バージョン 2.0以降を実装します。
 
    1. オーディエンスを追跡する必要がある広告主のweb ページに、次のタグをできるだけ高くデプロイします
 
@@ -77,7 +81,7 @@ ht-degree: 0%
 
    1. 作成する&#x200B;**[!UICONTROL Audience Type]**&#x200B;を選択：**[!UICONTROL Customer List_User ID]**。
 
-      広告主の[!DNL Google Ads] アカウントは[&#x200B; カスタムマッチの対象](https://support.google.com/adspolicy/answer/6299717)で、[&#x200B; ユーザーID リマーケティング &#x200B;](https://support.google.com/google-ads/answer/9199250)にオプトインしている必要があります。
+      広告主の[!DNL Google Ads] アカウントは[ カスタムマッチの対象](https://support.google.com/adspolicy/answer/6299717)で、[ ユーザーID リマーケティング ](https://support.google.com/google-ads/answer/9199250)にオプトインしている必要があります。
 
    1. 「[!DNL Adobe]」および広告ネットワークのプライバシーポリシーの条件に同意することを示すチェックボックスをオンにします。
 
@@ -91,11 +95,11 @@ ht-degree: 0%
 >
 >* [!DNL Google]は、ファイルの処理に最大24時間かかる場合があります。
 >
->* 顧客の一致の仕組みと制限に関する[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/displayvideo/answer/9539301)を参照してください。
+>* 顧客の一致の仕組みと制限に関する[[!DNL Google Ads]  ドキュメント ](https://support.google.com/displayvideo/answer/9539301)を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンスについて](audience-about.md)
+>* [ オーディエンスについて](audience-about.md)
 >* [Adobe Campaignのメールリストから [!DNL Google Ads] 顧客マッチオーディエンスを作成](google-audience-from-campaign-email-list.md)
 >* [顧客データリストを使用した顧客一致オーディエンスの管理](audience-from-customer-data-list.md)
 >* [動的リマーケティングオーディエンスの管理](audience-dynamic-remarketing-manage.md)

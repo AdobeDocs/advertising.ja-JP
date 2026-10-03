@@ -3,21 +3,27 @@ title: 管理ビューとレポートで使用できるコンバージョン指�
 description: コンバージョン指標を管理ビューとレポートで利用できるようにする方法について説明します。
 feature: Conversions
 exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
-TQID: https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU
+TQID: 'https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '504'
 ht-degree: 0%
-
 ---
-
 # 管理ビューとレポートで使用できるコンバージョン指標の変更
 
-Adobe Advertisingが広告主の[&#x200B; コンバージョン &#x200B;](/help/search-social-commerce/glossary.md#c-d)指標を追跡する場合、最初はポートフォリオ目標、レポート、管理ビューから除外されます。 コンバージョン指標を表示するには、指標を明示的に使用可能にし、オプションでデフォルトの表示名（表示されている名前）を変更する必要があります。 唯一の例外は、[!DNL Google Ads]、[!DNL Google Analytics]、[!DNL Microsoft Advertising]のユニバーサルイベントトラッキングタグによってトラッキングされたコンバージョンが、自動的に使用可能で表示されることです。
+Adobe Advertisingが広告主の[ コンバージョン ](/help/search-social-commerce/glossary.md#c-d)指標を追跡する場合、最初はポートフォリオ目標、レポート、管理ビューから除外されます。 コンバージョン指標を表示するには、指標を明示的に使用可能にし、オプションでデフォルトの表示名（表示されている名前）を変更する必要があります。 唯一の例外は、[!DNL Google Ads]、[!DNL Google Analytics]、[!DNL Microsoft Advertising]のユニバーサルイベントトラッキングタグによってトラッキングされたコンバージョンが、自動的に使用可能で表示されることです。
 
 同様に、ポートフォリオ目標、レポート、管理ビューからコンバージョン指標を非表示にすることもできます。 以前に表示されていたコンバージョン指標を非表示にすると、コンバージョン指標を含む派生指標から削除されます。
 
@@ -33,7 +39,7 @@ Adobe Advertisingが広告主の[&#x200B; コンバージョン &#x200B;](/help/
 
      フレーズ内の任意の場所（最初の文字や最後の3文字など）に表示される文字列を検索できますが、検索語は[大文字と小文字を区別しません](/help/search-social-commerce/glossary.md#c-d)。
 
-   * 管理ビューとレポートの可用性でコンバージョン指標を検索するには、![&#x200B; フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、フィルター&#x200B;**[!UICONTROL Show in UI and Reports]**&#x200B;を選択します。 次に、**[!UICONTROL Show]** （レポートと管理ビューに含めることができるコンバージョン指標を表示する場合）または&#x200B;**[!UICONTROL Hide]** （レポートと管理ビューで使用できないコンバージョン指標を表示する場合）を選択します。
+   * 管理ビューとレポートの可用性でコンバージョン指標を検索するには、![ フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、フィルター&#x200B;**[!UICONTROL Show in UI and Reports]**&#x200B;を選択します。 次に、**[!UICONTROL Show]** （レポートと管理ビューに含めることができるコンバージョン指標を表示する場合）または&#x200B;**[!UICONTROL Hide]** （レポートと管理ビューで使用できないコンバージョン指標を表示する場合）を選択します。
 
 1. 管理ビューとレポートで使用できるコンバージョン指標を変更します。
 
@@ -41,13 +47,13 @@ Adobe Advertisingが広告主の[&#x200B; コンバージョン &#x200B;](/help/
 
    * 複数の指標を表示または非表示にするには、次の操作を行います。
 
-      1. 各コンバージョン指標の横にあるチェックボックスをオンにします。
+     1. 各コンバージョン指標の横にあるチェックボックスをオンにします。
 
-         複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
+        複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-      1. データテーブルの上にあるツールバーで、![表示](/help/search-social-commerce/assets/show.png "表示")をクリックして指標を表示するか、![非表示](/help/search-social-commerce/assets/hide.png "非表示")をクリックして指標を非表示にします。
+     1. データテーブルの上にあるツールバーで、![表示](/help/search-social-commerce/assets/show.png "表示")をクリックして指標を表示するか、![非表示](/help/search-social-commerce/assets/hide.png "非表示")をクリックして指標を非表示にします。
 
-      1. （指標を非表示にするには）確認メッセージで「**[!UICONTROL Yes]**」をクリックし、指標を含む派生指標から指標を削除するなど、指標を非表示にします。
+     1. （指標を非表示にするには）確認メッセージで「**[!UICONTROL Yes]**」をクリックし、指標を含む派生指標から指標を削除するなど、指標を非表示にします。
 
 1. （オプション） [任意のコンバージョン指標の列見出し](conversion-metric-edit-display-name.md)に表示される名前を変更します。
 
@@ -61,4 +67,4 @@ Adobe Advertisingが広告主の[&#x200B; コンバージョン &#x200B;](/help/
 >
 >* [広告主のコンバージョン指標の管理について](conversion-metric-about.md)
 >* [広告主に対して追跡されたコンバージョン指標を表示](conversion-metric-view-tracked.md)
->* [&#x200B; コンバージョン指標の表示名を変更](conversion-metric-edit-display-name.md)
+>* [ コンバージョン指標の表示名を変更](conversion-metric-edit-display-name.md)

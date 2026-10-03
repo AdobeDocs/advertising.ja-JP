@@ -10,13 +10,15 @@ product_v2:
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
     internal-label: Search, Social, & Commerce
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
     internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 0%
@@ -59,11 +61,11 @@ ht-degree: 0%
 
 * [動的検索対象に制約](#constraint-assign)を割り当て、[動的検索対象から制約](#constraint-unassign)を削除します
 
-* [&#x200B; ラベル分類](#classification-values-assign)を動的検索対象に割り当て、[動的検索対象からラベル分類](#classification-values-remove)を削除します
+* [ ラベル分類](#classification-values-assign)を動的検索対象に割り当て、[動的検索対象からラベル分類](#classification-values-remove)を削除します
 
 >[!NOTE]
 >
->[&#x200B; バルクシート ファイル &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)をアップロードして広告ネットワークに投稿すると、大量のターゲットデータ（ラベルや制約の割り当てを含む）を一度に作成および編集できます。
+>[ バルクシート ファイル ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)をアップロードして広告ネットワークに投稿すると、大量のターゲットデータ（ラベルや制約の割り当てを含む）を一度に作成および編集できます。
 
 <!--
 Not available yet:
@@ -254,5 +256,5 @@ You can also delete any dynamic target.
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI）検索入札単位の制約を管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [&#x200B; （新しいUI） ラベル分類の管理](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
+>* [ （新しいUI）検索入札単位の制約を管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
+>* [ （新しいUI） ラベル分類の管理](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)

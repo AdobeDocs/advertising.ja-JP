@@ -3,18 +3,24 @@ title: クリエイティブのプレビュー
 description: クリエイティブのプレビューを開く方法を説明します。
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-TQID: https://experienceleague.adobe.com/T6NV9uopJw7nQ2Janpw6BMGK0N2Ya0tzGckB75qbg0M
+TQID: 'https://experienceleague.adobe.com/T6NV9uopJw7nQ2Janpw6BMGK0N2Ya0tzGckB75qbg0M'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 198
+source-wordcount: '202'
 ht-degree: 0%
-
 ---
-
 # クリエイティブのプレビュー
 
 ハイパーリンクを含むクリエイティブは、ビューアに表示されるので、プレビューできます。
@@ -47,7 +53,7 @@ ht-degree: 0%
 
    <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
-1. （オプション）クリエイティブをダウンロードするには、![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ")をクリックします。
+1. （オプション）クリエイティブをダウンロードするには、![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -55,5 +61,5 @@ ht-degree: 0%
 >
 >* [標準クリエイティブをクリエイティブライブラリに追加](/help/creative/creative-libraries/creative-add-standard.md)
 >* [標準クリエイティブの編集](/help/creative/creative-libraries/creative-edit-standard.md)
->* [&#x200B; クリエイティブをダウンロード &#x200B;](/help/creative/creative-libraries/creative-download.md)
->* [&#x200B; クリエイティブを削除](/help/creative/creative-libraries/creative-delete.md)
+>* [ クリエイティブをダウンロード ](/help/creative/creative-libraries/creative-download.md)
+>* [ クリエイティブを削除](/help/creative/creative-libraries/creative-delete.md)

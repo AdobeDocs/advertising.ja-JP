@@ -1,26 +1,33 @@
 ---
-title: ' [!DNL Google Analytics]  データソースを設定するための前提条件'
-description: ' [!DNL Google Analytics]  データソースを設定する前に完了する必要がある手順について説明します。'
+title: '[!DNL Google Analytics] データソースを設定するための前提条件'
+description: '[!DNL Google Analytics] データソースを設定する前に完了する必要がある手順について説明します。'
 role: User, Admin
 exl-id: 97b0c149-5f82-4a1e-a5d9-aeab43cbd88f
 feature: Search Admin, Search Data Sources
-TQID: https://experienceleague.adobe.com/viBRqiwqJm2BabtLP7b3h1TMTjkeITeSVA1vMMmbrPY
+TQID: 'https://experienceleague.adobe.com/viBRqiwqJm2BabtLP7b3h1TMTjkeITeSVA1vMMmbrPY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+  - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
+    internal-label: Search Data Sources
 subfeature_v2:
   - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+    internal-label: Data sources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '407'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Analytics] データソースを設定するための前提条件
 
 [!DNL Google Analytics] データソースを設定する前に、[!DNL Google Analytics]からSearch, Social, &amp; Commerceにデータを渡すプライマリキーとして、Search, Social, &amp; Commerce クエリ文字列パラメーター「ef_id」を設定する必要があります。 データを同期する[!DNL Google Analytics] アカウントとプロパティの組み合わせごとにプライマリキーを設定します。 組織内の他のユーザーがこれらのタスクを完了する必要がある場合があります。詳しくは、以下を参照してください。
@@ -39,7 +46,7 @@ ef_idが含まれていない場合は、Adobe アカウントチームにお問
 
 ## 前提条件2：関連する各[!DNL Google Analytics] プロパティのカスタムディメンションで、Search、Social、およびCommerce トークン（「ef_id」クエリ文字列パラメーター）をキャプチャする
 
-データを同期する[!DNL Google Analytics] アカウントとプロパティの組み合わせごとに、次のタスクを繰り返します。 これらのタスクのヘルプについては、[[!DNL Google Analytics]  カスタムディメンションの作成と実装に関するドキュメント &#x200B;](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article)を参照してください。
+データを同期する[!DNL Google Analytics] アカウントとプロパティの組み合わせごとに、次のタスクを繰り返します。 これらのタスクのヘルプについては、[[!DNL Google Analytics]  カスタムディメンションの作成と実装に関するドキュメント ](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article)を参照してください。
 
 1. [!DNL Google Analytics]で、「`ef_id`」という名前のカスタムディメンションを作成します。 ディメンションの範囲を[!DNL User]に設定し、ディメンションをアクティブに設定します。
 
@@ -62,9 +69,9 @@ ef_idが含まれていない場合は、Adobe アカウントチームにお問
 >[!MORELIKETHIS]
 >
 >* [同期について [!DNL Google Analytics]  コンバージョン指標](data-source-about.md)
->* [&#x200B; データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
->* [&#x200B; データソースの編集 [!DNL Google Analytics] &#x200B;](data-source-edit.md)
->* [&#x200B; データソースの同期を一時停止](data-source-pause.md)
->* [&#x200B; データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
+>* [ データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
+>* [ データソースの編集 [!DNL Google Analytics] ](data-source-edit.md)
+>* [ データソースの同期を一時停止](data-source-pause.md)
+>* [ データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics]  データソース設定](data-source-settings.md)
 >* [付録 – 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)

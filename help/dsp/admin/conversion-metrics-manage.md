@@ -1,21 +1,28 @@
 ---
-title: DSPで広告主のコンバージョン指標を管理します。
-description: Adobe AdvertisingがDSP広告主に追跡するコンバージョン指標の使用方法について説明します。
+title: DSPで広告主のコンバージョン指標を管理する。
+description: DSP広告主に対してAdobe Advertisingが追跡するコンバージョン指標を使用する方法について説明します。
 feature: Conversions
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 0%
-
 ---
-
 # 広告主のコンバージョン指標の管理
 
 広告主のコンバージョン指標は、Adobe Advertising全体で使用されます。
 
-* Advertising DSPでは、キャンペーン管理ビュー、カスタム目標、カスタムレポートにコンバージョン指標を含めることができます。 また、広告主のコンバージョン指標を使用して[&#x200B; カスタム目標](/help/dsp/admin/custom-objectives-manage.md)を作成し、パッケージの最適化に使用することもできます。
+* Advertising DSPでは、キャンペーン管理ビュー、カスタム目標、カスタムレポートにコンバージョン指標を含めることができます。 また、広告主のコンバージョン指標を使用して[ カスタム目標](/help/dsp/admin/custom-objectives-manage.md)を作成し、パッケージの最適化に使用することもできます。
 
-* （Advertising Search, Social, &amp; Commerceの広告主） Search, Social, &amp; Commerceでは、コンバージョン指標のデータを、キャンペーンビュー、ポートフォリオおよび客観的な管理ビューとレポートの列に表示できます。 十分なアクセス権限を持つユーザーは、コンバージョン指標を使用して目的を作成し、ポートフォリオの最適化に使用することもできます。
+* （Advertising Search, Social, &amp; Commerceの広告主） Search, Social, &amp; Commerceでは、コンバージョン指標のデータをキャンペーンビュー、ポートフォリオビュー、客観的な管理ビューおよびレポートの列に表示できます。 十分なアクセス権限を持つユーザーは、コンバージョン指標を使用して目的を作成し、ポートフォリオの最適化に使用することもできます。
 
 <!--
 The conversion metrics that Adobe Advertising tracks for an advertiser &mdash; including [conversion and site engagement metrics synced from Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md), [site events synced from Adobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md), and custom feeds &mdash; are used throughout Advertising DSP. You can include conversion metrics in campaign management views, custom objectives, and custom reports. You can also use conversion metrics to create [custom objectives](/help/dsp/admin/custom-objectives-manage.md), which are used to optimize packages.
@@ -30,9 +37,9 @@ DSP ユーザーで追跡される指標の種類は次のとおりです。
 
 * Adobe Advertisingが広告主向けに追跡するコンバージョン指標。
 
-* [&#x200B; コンバージョンとサイトエンゲージメントの指標がAdobe Analyticsから同期されました](/help/integrations/analytics/analytics-data-in-advertising.md)。
+* [ コンバージョンとサイトエンゲージメントの指標がAdobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md)から同期されました。
 
-* [&#x200B; サイトイベントがAdobe Customer Journey Analyticsから同期されました](/help/integrations/customer-journey-analytics/overview.md)。
+* [ サイトイベントがAdobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)から同期されました。
 
 * カスタムフィードからのコンバージョン。
 
@@ -44,7 +51,7 @@ DSP ユーザーで追跡される指標の種類は次のとおりです。
 
 >[!TIP]
 >
->広告主（または広告ネットワーク）がコンバージョン指標の収集を停止すると、過去データの表示に使用しない限り、[管理表示とレポート &#x200B;](#conversion-metrics-change-available)から非表示にします。
+>広告主（または広告ネットワーク）がコンバージョン指標の収集を停止すると、過去データの表示に使用しない限り、[管理表示とレポート ](#conversion-metrics-change-available)から非表示にします。
 
 ## 広告主が追跡したコンバージョン指標の表示
 
@@ -74,7 +81,7 @@ DSP ユーザーで追跡される指標の種類は次のとおりです。
 
 1. （オプション）リストをフィルタリングします。
 
-   1. リストの上にある「![&#x200B; フィルター](/help/dsp/assets/filter.png " フィルター")」をクリックします。
+   1. リストの上にある「![ フィルター](/help/dsp/assets/filter.png " フィルター")」をクリックします。
 
    1. フィルターを指定し、**[!DNL Apply]**&#x200B;をクリックします。
 
@@ -88,5 +95,5 @@ DSP ユーザーで追跡される指標の種類は次のとおりです。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [&#x200B; カスタム目標の管理](/help/dsp/admin/custom-objectives-manage.md)
+>* [ キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [ カスタム目標の管理](/help/dsp/admin/custom-objectives-manage.md)

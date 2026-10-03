@@ -3,20 +3,24 @@ title: EF ID フィードを使用したコンバージョンの追跡
 description: コンバージョン トラッキング データにEF ID フィードを使用する方法について説明します。
 exl-id: fd065313-3d27-4bb9-a934-e815e02cf405
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/D4OpKvTL-jjIOgMaakH78aYA7q9p2BXcc2P-RI8blfY
+TQID: 'https://experienceleague.adobe.com/D4OpKvTL-jjIOgMaakH78aYA7q9p2BXcc2P-RI8blfY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 349
+source-wordcount: '352'
 ht-degree: 0%
-
 ---
-
 # EF ID フィードを使用したコンバージョンの追跡
 
 この方法では、ユーザーがクリックして広告をクリックし、ランディングページに到着するたびに`ef_id`値がAdvertising Cloudによって収集され、広告主は`ef_id`値をコンバージョンデータと共に保存し、データフィードに送信します。
@@ -39,11 +43,11 @@ ht-degree: 0%
 
 1. （オプションですが推奨）広告主は、フィードファイルに含めるトランザクションごとに一意のトランザクション IDを作成できます。
 
-1. 広告主は、[必要な変換データ &#x200B;](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)を含むファイルを、指定されたサーバーの場所にアップロードします。
+1. 広告主は、[必要な変換データ ](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)を含むファイルを、指定されたサーバーの場所にアップロードします。
 
 1. テクニカルサービスは、アップロードされたファイル内のコンバージョンデータを解析し、そのデータをAdobe Advertisingにアップロードします。 続いて、Adobe Advertisingを利用して、個々のキーワード、広告、プレースメントに関するデータを追跡し、それぞれに対する売上予測を作成します。
 
-1. テクニカルサービスは、処理されたデータをフィードデータに対して検証し、[孤立トランザクション &#x200B;](/help/search-social-commerce/glossary.md#o-p)をチェックします。
+1. テクニカルサービスは、処理されたデータをフィードデータに対して検証し、[孤立トランザクション ](/help/search-social-commerce/glossary.md#o-p)をチェックします。
 
 >[!MORELIKETHIS]
 >

@@ -2,7 +2,13 @@
 title: （新しいUI）Google Ads Manager アカウントの資格情報の管理
 description: 新しいUIでGoogle Ads Manager アカウントの資格情報を設定および管理する方法について説明します。
 feature: Search Admin
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
@@ -27,7 +33,7 @@ Search、Social、およびCommerceでクロスアカウントコンバージョ
 
 1. 広告ネットワークを選択し、**[!UICONTROL Next]**&#x200B;をクリックします。
 
-1. [&#x200B; マネージャーアカウント設定](#manager-account-settings)を指定します。
+1. [ マネージャーアカウント設定](#manager-account-settings)を指定します。
 
 1. **[!UICONTROL Authenticate]**&#x200B;をクリックし、マネージャーアカウントの資格情報を使用してログインします。
 
@@ -45,7 +51,7 @@ Search、Social、およびCommerceでクロスアカウントコンバージョ
 
    * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、 （/help/search-social-commerce/assets/edit-new.png「編集」をクリック）をクリックします。
 
-1. [&#x200B; マネージャーアカウント設定](#manager-account-settings)を編集します。
+1. [ マネージャーアカウント設定](#manager-account-settings)を編集します。
 
 1. **[!UICONTROL Re-Authenticate]**&#x200B;をクリックし、マネージャーアカウントの資格情報を使用してログインします。
 

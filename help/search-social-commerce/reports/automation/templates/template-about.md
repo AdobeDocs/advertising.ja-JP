@@ -3,20 +3,24 @@ title: レポートテンプレートについて
 description: 再利用可能なレポートテンプレートの詳細。
 exl-id: 8ac30a16-7fa9-4da3-9375-98efd05c6e74
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/8ADgYYht2dTa96mTWXKItzUk7VhuQJJKrJ4aaRatgYs
+TQID: 'https://experienceleague.adobe.com/8ADgYYht2dTa96mTWXKItzUk7VhuQJJKrJ4aaRatgYs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 186
+source-wordcount: '187'
 ht-degree: 0%
-
 ---
-
 # レポートテンプレートについて
 
 レポートテンプレートは、ほとんどのレポートを生成するときに再利用できる、事前定義されたレポートレイアウトです。 テンプレートを使用すると、デフォルト以外のパラメーターを使用したり、同じレポートのバリエーションを実行したり、同じスケジュールに従って同じレポートを実行したりする場合の時間を節約できます。 保存されたレポートテンプレートは、レポートページの「レポートテンプレート」セクションから使用できます。
@@ -29,7 +33,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; レポートテンプレートを作成](template-create.md)
->* [&#x200B; レポートテンプレートを編集](template-edit.md)
->* [&#x200B; レポートテンプレートを表示](template-view.md)
->* [&#x200B; レポートテンプレートを削除](template-delete.md)
+>* [ レポートテンプレートを作成](template-create.md)
+>* [ レポートテンプレートを編集](template-edit.md)
+>* [ レポートテンプレートを表示](template-view.md)
+>* [ レポートテンプレートを削除](template-delete.md)

@@ -1,20 +1,24 @@
 ---
 title: '[!DNL Yandex] キャンペーン設定'
-description: ' [!DNL Yandex]  キャンペーンの設定を参照します。'
+description: '[!DNL Yandex] キャンペーンの設定を参照します。'
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 252
+source-wordcount: '253'
 ht-degree: 0%
-
 ---
-
 # [!DNL Yandex] キャンペーン設定
 
 ## \[ ページの先頭]
@@ -47,7 +51,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Budget Options] タブ
 
-**[!UICONTROL Budget]:**&#x200B;予算。アカウントの予算タイプに応じて、毎日（平均）またはキャンペーン期間中に費やしたい金額です。 最低予算は6,300円、10 ユーロ、10米ドルです。
+**[!UICONTROL Budget]:**&#x200B;予算。アカウントの予算タイプに応じて、毎日（平均）またはキャンペーン期間中に費やしたい金額です。 最低予算は6,300円、10 ユーロ、またはUSD10です。
 
 **メモ：**
 
@@ -99,4 +103,4 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーンの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
+>* [ キャンペーンの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)

@@ -2,47 +2,57 @@
 title: （新しいUI）レポートに使用するデータ
 description: データビューとカスタムレポートで利用できるさまざまな種類のデータについて説明します。
 feature: Search Reports
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 subfeature_v2:
   - id: ff99aaef-142d-4c93-a88c-011e979e3843
+    internal-label: Advanced reports
   - id: c916feea-e212-4773-b673-4daed287b8a3
+    internal-label: Assist reports
   - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+    internal-label: Basic reports
   - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+    internal-label: Model accuracy reports
   - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+    internal-label: Specialty reports
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+    internal-label: Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 604
-ht-degree: 0%
-
+source-wordcount: '643'
+ht-degree: 6%
 ---
-
 # （新しいUI）レポートに使用するデータ
 
 Search, Social, &amp; Commerceには、クリックとコンバージョンのデータにもとづく包括的なパフォーマンスレポートが用意されています。 ポートフォリオまたは広告アカウントの様々なコンポーネントの基本的なパフォーマンスデータを、[!UICONTROL Portfolios]および[!UICONTROL Campaigns] ビューから表示できます。また、様々な基本および高度なレポートを生成することもできます。
 
-Adobe Advertising コンバージョン追跡サービスを使用する広告主は、参照web サイトの地理的な場所またはドメイン名のクリック数、各チャネルの広告とコンバージョンにつながる様々なイベントが全体的なコンバージョン率にどのように貢献しているか、マーケティングチャネル別の単一の[&#x200B; コンバージョン指標](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)のコンバージョンの分布も特定できます。 利用できるレポートは、ユーザーアカウントの種類によって異なります。 Adobeアカウントチームは、すべてのレポートにアクセスできます。
+Adobe Advertising コンバージョン追跡サービスを使用する広告主は、参照web サイトの地理的な場所またはドメイン名のクリック数、各チャネルの広告とコンバージョンにつながる様々なイベントが全体的なコンバージョン率にどのように貢献しているか、マーケティングチャネル別の単一の[ コンバージョン指標](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)のコンバージョンの分布も特定できます。 利用できるレポートは、ユーザーアカウントの種類によって異なります。 Adobeアカウントチームは、すべてのレポートにアクセスできます。
 
 ほとんどのレポートは、表示する情報のみを表示するようにカスタマイズできます。 ほとんどのレポートでは、次の標準指標を使用でき、広告レベルで計算されます。
 
 * **標準パフォーマンス指標：**
 
-   * **[!UICONTROL Impressions]:**&#x200B;広告が配置された合計回数。
+  * **[!UICONTROL Impressions]:**&#x200B;広告が配置された合計回数。
 
-   * **[!UICONTROL Clicks]:**&#x200B;広告内のリンクがクリックされた合計回数。
+  * **[!UICONTROL Clicks]:**&#x200B;広告内のリンクがクリックされた合計回数。
 
-   * **[!UICONTROL Cost]:**&#x200B;広告の総費用。 PPC （クリック報酬型）広告のコストは、常に、クリック数にクリック単価を掛けたものです。
+  * **[!UICONTROL Cost]:**&#x200B;広告の総費用。 PPC （クリック報酬型）広告のコストは、常に、クリック数にクリック単価を掛けたものです。
 
-   * **[!UICONTROL Cost per Click]:**&#x200B;広告の1 クリックの平均コスト。広告のコストを、広告の総クリック数で割ったものです。 例えば、広告インプレッションに100米ドルを費やし、広告が10 クリックを生成した場合、クリックあたりのコストは100米ドル/10=10米ドルです。
+  * **[!UICONTROL Cost per Click]:**&#x200B;広告の1 クリックの平均コスト。広告のコストを、広告の総クリック数で割ったものです。 例えば、広告インプレッションに100 USDを費やし、広告が10 クリックを生成した場合、クリックあたりのコストは100 USD/10=10 USD/クリックあたりのコストになります。
 
-   * **[!UICONTROL Average Position]:** （該当する場合）配置された広告の平均位置を、インプレッション数で重み付けします。
+  * **[!UICONTROL Average Position]:** （該当する場合）配置された広告の平均位置を、インプレッション数で重み付けします。
 
-   * **[!UICONTROL Estimated Clicks]:** （Adobe Advertising コンバージョントラッキングサービスを使用する広告主向けの高度なレポートに含まれる）参照元web サイトの市区町村またはドメイン名の推定クリック数。 これには、広告主が広告アカウントを持っていない広告ネットワークのデータが含まれます。
+  * **[!UICONTROL Estimated Clicks]:** （Adobe Advertising コンバージョントラッキングサービスを使用する広告主向けの高度なレポートに含まれる）参照元web サイトの市区町村またはドメイン名の推定クリック数。 これには、広告主が広告アカウントを持っていない広告ネットワークのデータが含まれます。
 
 * **コンバージョン指標：**&#x200B;広告主のコンバージョン指標、またはコンバージョン指標に向けて追跡されたトランザクションデータのそれぞれのコンバージョンの合計数。 これには、コンバージョンやサイトエンゲージメントの指標は含まれますが、Adobe Analyticsから同期される計算指標や高度な計算指標は含まれません。
 
-  これには、広告主アカウント用に同期されている[[!DNL Google Ads]件のトラッキング済みコンバージョン &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)と[[!DNL Google Analytics]件のトラッキング済みコンバージョン &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md)が含まれる場合もあります。
+  これには、広告主アカウント用に同期されている[[!DNL Google Ads]件のトラッキング済みコンバージョン ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)と[[!DNL Google Analytics]件のトラッキング済みコンバージョン ](/help/search-social-commerce/admin/data-sources/data-source-about.md)が含まれる場合もあります。
 
 * **カスタム指標：**&#x200B;既存の指標（注文単価など）に基づいて数式を作成して導き出す独自の指標。
 
@@ -69,5 +79,5 @@ Adobe Advertising コンバージョン追跡サービスを使用する広告�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; レポートについて](report-about.md)
->* [&#x200B; レポートの初期設定タスク &#x200B;](initial-setup.md)
+>* [ レポートについて](report-about.md)
+>* [ レポートの初期設定タスク ](initial-setup.md)

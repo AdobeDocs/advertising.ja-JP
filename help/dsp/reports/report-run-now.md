@@ -3,22 +3,26 @@ title: カスタムレポートの実行
 description: カスタムレポートをすぐに実行する方法について説明します。
 feature: DSP Custom Reports
 exl-id: b256803d-45f9-445f-bf42-22cc7ce76792
-TQID: https://experienceleague.adobe.com/2lIyhq6owIIT1D21g62NGrrpNCOBx71JxZL3e-U8JSc
+TQID: 'https://experienceleague.adobe.com/2lIyhq6owIIT1D21g62NGrrpNCOBx71JxZL3e-U8JSc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a8f4be51-fec2-5e52-b41e-a611c28e444c
+    internal-label: DSP Custom Reports
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 91
+source-wordcount: '91'
 ht-degree: 0%
-
 ---
-
 # カスタムレポートの実行
 
 有効期限が切れていない、現在実行されていないレポートを実行できます。
@@ -35,10 +39,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて](/help/dsp/reports/report-about.md)
->* [&#x200B; カスタムレポートをダウンロード &#x200B;](/help/dsp/reports/report-download.md)
->* [&#x200B; カスタムレポートを作成](/help/dsp/reports/report-create.md)
->* [&#x200B; カスタムレポートを複製](/help/dsp/reports/report-copy.md)
->* [&#x200B; カスタムレポートを編集](/help/dsp/reports/report-edit.md)
->* [&#x200B; カスタムレポート設定](/help/dsp/reports/report-settings.md)
+>* [ カスタムレポートについて](/help/dsp/reports/report-about.md)
+>* [ カスタムレポートをダウンロード ](/help/dsp/reports/report-download.md)
+>* [ カスタムレポートを作成](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートを複製](/help/dsp/reports/report-copy.md)
+>* [ カスタムレポートを編集](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポート設定](/help/dsp/reports/report-settings.md)
 >* [使用可能なレポート列](/help/dsp/reports/report-columns.md)

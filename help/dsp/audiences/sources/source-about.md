@@ -3,24 +3,29 @@ title: 1st パーティオーディエンスソースについて
 description: クッキーレスターゲティングのために、ファーストパーティセグメント内の他のユーザーIDをユニバーサル IDに変換する方法について説明します。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-TQID: https://experienceleague.adobe.com/8wdjwhNF-KDspEa1wSYWwlDOJxc3LiyqnSwEE-Fq9bY
+TQID: 'https://experienceleague.adobe.com/8wdjwhNF-KDspEa1wSYWwlDOJxc3LiyqnSwEE-Fq9bY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 710
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # 1st パーティオーディエンスソースについて
 
 オーディエンスソース機能を使用すると、ユニバーサル IDを含むファーストパーティセグメントをそのまま読み込んだり、指定したユニバーサル ID タイプを含むセグメントに変換したりできます。
@@ -46,21 +51,21 @@ Using your first-party data, you can create segments with IDs from the following
 
 * [[!DNL LiveRamp] [!DNL RampIDs]](https://liveramp.com/identity-resolution):
 
-   * フォームフィールドを使用できます。
+  * フォームフィールドを使用できます。
 
-     [!DNL RampIDs]は、北米、オーストラリア、ニュージーランドのユーザーが利用できます。
+    [!DNL RampIDs]は、北米、オーストラリア、ニュージーランドのユーザーが利用できます。
 
-     料金は、配信されたディスプレイ広告インプレッションあたり0.15 USD、配信されたビデオ広告インプレッションあたり0.25 USDです。
+    料金は、配信されたディスプレイ広告インプレッションあたりUSD 0.15、配信されたビデオ広告インプレッションあたりUSD 0.25です。
 
-   * [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)を使用した測定の場合。
+  * [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)を使用した測定の場合。
 
 * [[!DNL Unified ID 2.0 (UID2.0)] ID](https://unifiedid.com):
 
-   * フォームフィールドを使用できます。
+  * フォームフィールドを使用できます。
 
-     [!DNL UID2 IDs]は、欧州経済領域およびその他の一部の国では利用できません。 [禁止国の一覧](/help/policies/universal-id-policy.md#prohibited-countries-uid2)を参照してください。
+    [!DNL UID2 IDs]は、欧州経済領域およびその他の一部の国では利用できません。 [禁止国の一覧](/help/policies/universal-id-policy.md#prohibited-countries-uid2)を参照してください。
 
-     料金は、配信されたディスプレイ広告インプレッションあたり0.15 USD、配信されたビデオ広告インプレッションあたり0.25 USDです。
+    料金は、配信されたディスプレイ広告インプレッションあたりUSD 0.15、配信されたビデオ広告インプレッションあたりUSD 0.25です。
 
 <!--
  Not yet
@@ -92,11 +97,11 @@ DSPは、バッチ、ストリーミング、API ベースのデータ共有機�
 
 ### [!DNL Adobe Real-Time CDP]
 
-DSPは、Adobe Experience Platformの一部である[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja)の統合&#x200B;*destination*&#x200B;です。
+DSPは、Adobe Experience Platformの一部である[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)の統合&#x200B;*destination*&#x200B;です。
 
-[!DNL Real-Time CDP]では、宛先は、シームレスなデータのアクティベーションを可能にする外部データプラットフォームへの接続です。 宛先を使用して、DSPのターゲット広告に対して、ハッシュ化されたメールアドレス、Cookie、モバイル広告IDをアクティブ化できます。 宛先について詳しくは、Experience Platform [宛先ガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja)を参照してください。これには、製品の概要、[宛先ワークスペースの作成](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=ja)および[宛先の接続の作成](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=ja)、[宛先へのデータのアクティブ化](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=ja)に関する説明が含まれます。
+[!DNL Real-Time CDP]では、宛先は、シームレスなデータのアクティベーションを可能にする外部データプラットフォームへの接続です。 宛先を使用して、DSPのターゲット広告に対して、ハッシュ化されたメールアドレス、Cookie、モバイル広告IDをアクティブ化できます。 宛先について詳しくは、Experience Platform [宛先ガイド ](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)を参照してください。これには、製品の概要、[宛先ワークスペースの作成](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html)および[宛先の接続の作成](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)、[宛先へのデータのアクティブ化](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html)に関する説明が含まれます。
 
-DSPで[!DNL Adobe] [!DNL Real-time CDP]のファーストパーティセグメントを取り込み、ハッシュ化された電子メールアドレス、Cookie、モバイル広告IDをユニバーサル IDに変換できるようにするには、「[&#x200B; ユーザーIDを [!DNL Adobe Real-Time CDP] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-adobe-rtcdp.md)」を参照してください。
+DSPで[!DNL Adobe] [!DNL Real-time CDP]のファーストパーティセグメントを取り込み、ハッシュ化された電子メールアドレス、Cookie、モバイル広告IDをユニバーサル IDに変換できるようにするには、「[ ユーザーIDを [!DNL Adobe Real-Time CDP] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-adobe-rtcdp.md)」を参照してください。
 
 ### [!DNL AdFixus]
 
@@ -104,24 +109,24 @@ DSPで[!DNL Adobe] [!DNL Real-time CDP]のファーストパーティセグメ�
 
 ### [!DNL Amperity]
 
-組織のファーストパーティデータを[!DNL Amperity]のCustomer Data PlatformからDSPと共有して、DSPでターゲット広告のためにハッシュ化されたメールアドレスをユニバーサル IDに変換できます。 詳しくは、「[&#x200B; ユーザーIDを [!DNL Amperity] からユニバーサル ID](/help/dsp/audiences/sources/source-amperity.md)に変換する」を参照してください。
+組織のファーストパーティデータを[!DNL Amperity]のCustomer Data PlatformからDSPと共有して、DSPでターゲット広告のためにハッシュ化されたメールアドレスをユニバーサル IDに変換できます。 詳しくは、「[ ユーザーIDを [!DNL Amperity] からユニバーサル ID](/help/dsp/audiences/sources/source-amperity.md)に変換する」を参照してください。
 
 ### [!DNL Optimizely]
 
-組織のファーストパーティデータを[!DNL Optimizely]のCustomer Data PlatformからDSPと共有して、DSPでターゲット広告のためにハッシュ化されたメールアドレスをユニバーサル IDに変換できます。 詳しくは、「[&#x200B; ユーザーIDを [!DNL Optimizely] からユニバーサル ID](/help/dsp/audiences/sources/source-optimizely.md)に変換する」を参照してください。
+組織のファーストパーティデータを[!DNL Optimizely]のCustomer Data PlatformからDSPと共有して、DSPでターゲット広告のためにハッシュ化されたメールアドレスをユニバーサル IDに変換できます。 詳しくは、「[ ユーザーIDを [!DNL Optimizely] からユニバーサル ID](/help/dsp/audiences/sources/source-optimizely.md)に変換する」を参照してください。
 
 ### [!DNL Tealium]
 
-[!DNL Amazon Web Services]を使用して、組織の1st パーティデータを[!DNL Tealium]顧客データプラットフォームから共有できます。 DSPでのターゲット広告のためにハッシュ化された電子メールアドレスをユニバーサル IDに変換する方法について詳しくは、「[&#x200B; ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-tealium.md)」を参照してください。
+[!DNL Amazon Web Services]を使用して、組織の1st パーティデータを[!DNL Tealium]顧客データプラットフォームから共有できます。 DSPでのターゲット広告のためにハッシュ化された電子メールアドレスをユニバーサル IDに変換する方法について詳しくは、「[ ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-tealium.md)」を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](source-manage.md)
->* [&#x200B; ユニバーサル IDのアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)
->* [&#x200B; ユーザーIDを [!DNL Adobe Real-Time CDP] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [&#x200B; ユーザーIDを [!DNL Amperity] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-amperity.md)
->* [&#x200B; ユーザーIDを [!DNL Optimizely] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-optimizely.md)
->* [&#x200B; ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-tealium.md)
+>* [ オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](source-manage.md)
+>* [ ユニバーサル IDのアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)
+>* [ ユーザーIDを [!DNL Adobe Real-Time CDP] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [ ユーザーIDを [!DNL Amperity] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-amperity.md)
+>* [ ユーザーIDを [!DNL Optimizely] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-optimizely.md)
+>* [ ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-tealium.md)
 >* [1st パーティセグメントを [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)からインポート
->* [&#x200B; オーディエンス管理について](/help/dsp/audiences/audience-about.md)
+>* [ オーディエンス管理について](/help/dsp/audiences/audience-about.md)
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)

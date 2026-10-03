@@ -3,22 +3,26 @@ title: プレースメントの広告スケジュールの編集
 description: プレースメントにアタッチされた広告の広告スケジュールを変更する方法について説明します。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-TQID: https://experienceleague.adobe.com/-5TLojZnwpnYonGlRARUUljuNMd2ZDGpnU9u1jzsHyw
+TQID: 'https://experienceleague.adobe.com/-5TLojZnwpnYonGlRARUUljuNMd2ZDGpnU9u1jzsHyw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 442
+source-wordcount: '444'
 ht-degree: 0%
-
 ---
-
 # プレースメントの広告スケジュールの編集
 
 ## 1つ以上のプレースメントの広告スケジュールの編集
@@ -37,7 +41,7 @@ ht-degree: 0%
 
 1. ファイルが使用可能になったら、ブラウザーページの上部にある通知の&#x200B;**[!UICONTROL Download]**&#x200B;をクリックして、ブラウザーの通常の手順に従って（XLSX形式の）ワークシートファイルをダウンロードします。
 
-   ![&#x200B; ダウンロード準備完了の通知](/help/dsp/assets/download-ready.png " ダウンロード準備完了の通知")
+   ![ ダウンロード準備完了の通知](/help/dsp/assets/download-ready.png " ダウンロード準備完了の通知")
 
 1. ダウンロードしたファイルを開き、フライトに含める各広告行のフライト情報フィールドを編集し、更新したファイルを保存します。
 
@@ -45,9 +49,9 @@ ht-degree: 0%
 
    * **[!UICONTROL Flight N Weight]** （[!UICONTROL Flight 1 Weight]など）：フライトの広告を回転させる方法。 値を入力：
 
-      * フライトの広告を均等に回転させるには、`[!UICONTROL Even]`と入力します。
+     * フライトの広告を均等に回転させるには、`[!UICONTROL Even]`と入力します。
 
-      * フライトの広告を不均等に回転させるには、各広告を回転させる相対的な重みをパーセントで入力します（例：`40`、40%）。 フライトの総重みは100に等しくなければなりません。
+     * フライトの広告を不均等に回転させるには、各広告を回転させる相対的な重みをパーセントで入力します（例：`40`、40%）。 フライトの総重みは100に等しくなければなりません。
 
 1. 編集した広告スケジュール テンプレートをアップロードします。
 
@@ -77,9 +81,9 @@ ht-degree: 0%
 
    * 広告から既存のフライトを削除するには、フライト列の広告行の&#x200B;**[!UICONTROL x]**&#x200B;をクリックします。
 
-      * （複数の広告に同じフライトがある場合）広告を不均等に回転させるには、フライト情報の&#x200B;**[!UICONTROL Even Rotation]**&#x200B;をクリックし、各広告を回転させる相対的な重みをパーセント単位で入力します。
+     * （複数の広告に同じフライトがある場合）広告を不均等に回転させるには、フライト情報の&#x200B;**[!UICONTROL Even Rotation]**&#x200B;をクリックし、各広告を回転させる相対的な重みをパーセント単位で入力します。
 
-        重みの合計は100に等しくなければなりません。
+       重みの合計は100に等しくなければなりません。
 
 1. 右上の「**[!UICONTROL Continue]**」をクリックします。
 
@@ -88,6 +92,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのプレースメント管理について](placement-about.md)
->* [&#x200B; プレースメントを編集](placement-edit.md)
->* [&#x200B; プレースメントの変更ログを表示](placement-change-log.md)
+>* [ プレースメントを編集](placement-edit.md)
+>* [ プレースメントの変更ログを表示](placement-change-log.md)
 >* [配置の設定](placement-settings.md)

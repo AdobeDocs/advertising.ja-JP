@@ -4,10 +4,15 @@ description: バルクシート ファイルを使用して複数のポートフ
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-TQID: https://experienceleague.adobe.com/tKCeMIgFKnW8hOU-6uavT9x7K9lL2Uqo2bWZ-H-Q5TE
+TQID: 'https://experienceleague.adobe.com/tKCeMIgFKnW8hOU-6uavT9x7K9lL2Uqo2bWZ-H-Q5TE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
+feature_v2:
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -16,7 +21,7 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 8cf70396fd75bf14a6723aeb86db9c48b57c55ce
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
@@ -29,7 +34,7 @@ ht-degree: 0%
 
 * フィールドの編集に関する情報を含む、読み取り専用の[!UICONTROL Instructions] ワークシート。
 
-* 含まれるポートフォリオごとに1行の[!UICONTROL Portfolio Settings Edit] タブ。 必要に応じてフィールドを編集し、ファイルをローカルに保存した後、編集したファイル [&#128279;](#portfolio-bulksheet-upload)をSearch, Social, &amp; Commerceにアップロードすることもできます。 編集可能なフィールドがカラーでハイライト表示されます。
+* 含まれるポートフォリオごとに1行の[!UICONTROL Portfolio Settings Edit] タブ。 必要に応じてフィールドを編集し、ファイルをローカルに保存した後、編集したファイル ](#portfolio-bulksheet-upload)をSearch, Social, &amp; Commerceにアップロードすることもできます。 [編集可能なフィールドがカラーでハイライト表示されます。
 
 この機能は、日次、週次、月次、および曜日の支出戦略を持つポートフォリオで使用できます。
 
@@ -61,7 +66,7 @@ ht-degree: 0%
 
    1. **[!UICONTROL Import]**&#x200B;をクリックします。
 
-アップロードのステータスは、日付範囲セレクターの横にある[!UICONTROL Global Sync Status] ボタン（![&#x200B; グローバル同期ステータス &#x200B;](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ")）から確認できます。 いずれかの変更が成功しなかった場合は、失敗した内容を示すエラーファイルをダウンロードできます。
+アップロードのステータスは、日付範囲セレクターの横にある[!UICONTROL Global Sync Status] ボタン（![ グローバル同期ステータス ](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ")）から確認できます。 いずれかの変更が成功しなかった場合は、失敗した内容を示すエラーファイルをダウンロードできます。
 
 通知も通知センターに追加され、[!UICONTROL Global Sync Status] ボタン （![グローバル同期ステータス](/help/search-social-commerce/assets/global-sync-status.png "グローバル同期ステータス")）の横にある![通知](/help/search-social-commerce/assets/notifications-new.png "通知") アイコンから通知ペインを開くことができます。
 
@@ -99,6 +104,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [&#x200B; ポートフォリオを作成](portfolio-create.md)
->* [&#x200B; （新しいUI） ポートフォリオについて](portfolio-about.md)
+>* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [ ポートフォリオを作成](portfolio-create.md)
+>* [ （新しいUI） ポートフォリオについて](portfolio-about.md)

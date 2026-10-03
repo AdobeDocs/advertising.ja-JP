@@ -3,18 +3,23 @@ title: クリックトラッキング URLの生成
 description: Search, Social, & Commerceのクリックトラッキング URLを手動で生成する方法について説明します。
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-TQID: https://experienceleague.adobe.com/RqD0SAUXXlSNvMUJFgrjspFoGjpJHmx0ThZGAHFFdi0
+TQID: 'https://experienceleague.adobe.com/RqD0SAUXXlSNvMUJFgrjspFoGjpJHmx0ThZGAHFFdi0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: '484'
 ht-degree: 0%
-
 ---
-
 # トラッキング URL ツールを使用して、検索、ソーシャル、Commerceのクリックトラッキング URLを生成します
 
 *Adobe Advertising コンバージョントラッキングのみを使用する広告主*
@@ -39,47 +44,47 @@ ht-degree: 0%
 
       * 完全なパスとファイル名を入力するか、**[!UICONTROL Browse]**&#x200B;をクリックしてデバイスまたはネットワーク上のファイルを検索して、情報を含むファイルを指定します。 ファイルは、次の形式の行ごとに1つの項目を持つタブ区切りのテキストファイルである必要があります。
 
-         * （クリエイティブ、標準広告） `**landing_page**`
+        * （クリエイティブ、標準広告） `**landing_page**`
 
-           ここで、`landing_page`は有効なランディングページ URLまたはベース URLです。
+          ここで、`landing_page`は有効なランディングページ URLまたはベース URLです。
 
-           例：http://www.example.com/travel.html
+          例：http://www.example.com/travel.html
 
-         * （[!DNL Microsoft Advertising] サイトリンク） `sitelink <tab> ** <tab> landing_page`
+        * （[!DNL Microsoft Advertising] サイトリンク） `sitelink <tab> ** <tab> landing_page`
 
-           ここで、`sitelink`はサイトリンク名、`landing_page`は有効なランディングページ URLまたはベース URLです。
+          ここで、`sitelink`はサイトリンク名、`landing_page`は有効なランディングページ URLまたはベース URLです。
 
-           例：`Careers <tab> ** <tab> http://www.example.com/careers.html`
+          例：`Careers <tab> ** <tab> http://www.example.com/careers.html`
 
-           ファイルには最大10,000行を含めることができます。
+          ファイルには最大10,000行を含めることができます。
 
-         * （[!DNL Google Merchant Center]個の製品グループと[!DNL Microsoft Advertising]個の製品広告） `product name <tab> ** <tab> landing_page`
+        * （[!DNL Google Merchant Center]個の製品グループと[!DNL Microsoft Advertising]個の製品広告） `product name <tab> ** <tab> landing_page`
 
-           ここで、`product name`は製品名、`landing_page`は有効なランディングページ URLまたはベース URLです。
+          ここで、`product name`は製品名、`landing_page`は有効なランディングページ URLまたはベース URLです。
 
-           例：`Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
+          例：`Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
 
-           ファイルには最大10,000行を含めることができます。
+          ファイルには最大10,000行を含めることができます。
 
       * 入力フィールドに、1行につき1つの項目を次の形式で入力します。
 
-         * （クリエイティブ、標準広告） `landing_page`
+        * （クリエイティブ、標準広告） `landing_page`
 
-           ここで、`landing_page`は有効なランディングページ URLまたはベース URLです。
+          ここで、`landing_page`は有効なランディングページ URLまたはベース URLです。
 
-           例：http://www.example.com/travel.html
+          例：http://www.example.com/travel.html
 
-         * （[!DNL Microsoft Advertising] サイトリンク） `sitelink**landing_page`
+        * （[!DNL Microsoft Advertising] サイトリンク） `sitelink**landing_page`
 
-           ここで、`sitelink`はサイトリンク名、`landing_page`は有効なランディングページ URLまたはベース URLです。
+          ここで、`sitelink`はサイトリンク名、`landing_page`は有効なランディングページ URLまたはベース URLです。
 
-           例：`Careers**http://www.example.com/careers.html`
+          例：`Careers**http://www.example.com/careers.html`
 
-         * （[!DNL Google Merchant Center]個の製品グループと[!DNL Microsoft Advertising]個の製品広告） `product name**landing_page`
+        * （[!DNL Google Merchant Center]個の製品グループと[!DNL Microsoft Advertising]個の製品広告） `product name**landing_page`
 
-           ここで、`product name`は製品名、`landing_page`は有効なランディングページ URLまたはベース URLです。
+          ここで、`product name`は製品名、`landing_page`は有効なランディングページ URLまたはベース URLです。
 
-           例：Acme PR208**http://www.example.com/travel.html
+          例：Acme PR208**http://www.example.com/travel.html
 
    1. **[!UICONTROL Generate Tracking URLs]**&#x200B;をクリックします。
 
@@ -87,10 +92,10 @@ ht-degree: 0%
 
 宛先URLを持つアカウントの場合は、適切な[!UICONTROL Base URL] フィールドに値を入力します。
 
-最終的なURLを持つアカウントの場合は、適切な[!UICONTROL Tracking Template] フィールドに画面上の値を入力します。 `&url=` パラメーター（`{lpurl}`など）の後に、最終的なURLのパラメーターを追加する必要があります。 [!DNL LY Ads] アカウントの場合は、パラメーター`{lpurl}`を使用します。 トラッキングテンプレートの最終的なURLを示す[!DNL Google Ads]および[!DNL Microsoft Advertising] パラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348) （「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーターを参照）および[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799/2)を参照してください。
+最終的なURLを持つアカウントの場合は、適切な[!UICONTROL Tracking Template] フィールドに画面上の値を入力します。 `&url=` パラメーター（`{lpurl}`など）の後に、最終的なURLのパラメーターを追加する必要があります。 [!DNL LY Ads] アカウントの場合は、パラメーター`{lpurl}`を使用します。 トラッキングテンプレートの最終的なURLを示す[!DNL Google Ads]および[!DNL Microsoft Advertising] パラメーターのリストについては、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/6305348) （「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーターを参照）および[[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799/2)を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; トラッキングタグを作成およびデコードするツールについて](tracking-tools-about.md)
->* [&#x200B; クリックトラッキング URLを生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
->* [検索、ソーシャル、Commerceのクリックトラッキング URLをデコード &#x200B;](click-tracking-url-decode.md)
+>* [ トラッキングタグを作成およびデコードするツールについて](tracking-tools-about.md)
+>* [ クリックトラッキング URLを生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
+>* [検索、ソーシャル、Commerceのクリックトラッキング URLをデコード ](click-tracking-url-decode.md)

@@ -3,21 +3,28 @@ title: '[!UICONTROL Spend Planner]の使用'
 description: ポートフォリオ全体で最適な支出配分を実現するために、ポートフォリオの予算レコメンデーションを生成、ダウンロード、適用する方法について説明します。
 feature: Search Optimization, Search Portfolios
 exl-id: 966b8968-68b6-4385-9efb-e639a6729362
-TQID: https://experienceleague.adobe.com/8BAQij06MRhxYoCoFNjhHsgC4o38lQnj9vpmTzYyqGg
+TQID: 'https://experienceleague.adobe.com/8BAQij06MRhxYoCoFNjhHsgC4o38lQnj9vpmTzYyqGg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e0e44e7b2102ce3c7ec27c5dc4c50d46f1def4cf
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1020
+source-wordcount: '1020'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Spend Planner]の使用
 
 [!UICONTROL Spend Planner] （従来のユーザーインターフェイスでは「[!UICONTROL Spend Recommendation Tool]」と呼ばれます）は、最適化されたポートフォリオとアクティブなポートフォリオ間の最適な支出配分を同じ目的と通貨で特定するため、ポートフォリオセットの収益または目標目標を最大化できます。
@@ -66,7 +73,7 @@ ht-degree: 0%
 
    1. （オプション）グラフ上の任意のポイントのコストと収益を表示するには、ポイントの上にカーソルを置きます。
 
-1. （オプション）提案された割り当てとポートフォリオあたりの予想収益をダウンロードするには、右側の列の[!UICONTROL Portfolio Allocation]の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")をクリックします。
+1. （オプション）提案された割り当てとポートフォリオあたりの予想収益をダウンロードするには、右側の列の[!UICONTROL Portfolio Allocation]の横にある![ ダウンロード ](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")をクリックします。
 
    ブラウザーの通常の手順に従って、ファイルを開くか保存します。 詳しくは、ブラウザーのオンラインヘルプを参照してください。
 
@@ -107,7 +114,7 @@ ht-degree: 0%
 >* 適用された変更により、任意のポートフォリオの支出目標が20%以上増加または減少する場合は、変更を承認する必要があります。
 >* ポートフォリオの支出目標が20%以上変化した場合、Search, Social, &amp; Commerceは、モデルを調整し、新しい目標を達成するのに最大3～4日かかります。
 
-1. [1日当たりの予算を持つ1つ以上のポートフォリオの予算予算推奨レポート &#x200B;](#spend-recommendations-generate)を生成します。
+1. [1日当たりの予算を持つ1つ以上のポートフォリオの予算予算推奨レポート ](#spend-recommendations-generate)を生成します。
 
 1. 推奨される費用ターゲットを適用する各ポートフォリオの横にあるチェックボックスをオンにします。 すべてのポートフォリオを選択するには、**[!UICONTROL Select All Recommendations]**&#x200B;の横にあるチェックボックスをオンにします。
 
@@ -124,7 +131,7 @@ ht-degree: 0%
 >* 適用された変更により、任意のポートフォリオの支出目標が20%以上増加または減少する場合は、変更を承認する必要があります。
 >* ポートフォリオの支出目標が20%以上変化した場合、Search, Social, &amp; Commerceは、モデルを調整し、新しい目標を達成するのに最大3～4日かかります。
 
-1. [1日当たりの予算を持つ1つ以上のポートフォリオの予算予算推奨レポート &#x200B;](#spend-recommendations-generate-legacy)を生成します。
+1. [1日当たりの予算を持つ1つ以上のポートフォリオの予算予算推奨レポート ](#spend-recommendations-generate-legacy)を生成します。
 
 1. 推奨される費用ターゲットを適用する各ポートフォリオの横にあるチェックボックスをオンにします。 すべてのポートフォリオを選択するには、**[!UICONTROL Select All Recommendations]**&#x200B;の横にあるチェックボックスをオンにします。
 
@@ -136,9 +143,9 @@ ht-degree: 0%
 
 a）コストポイントと各コストの予想収益を示す折れ線グラフとb）現在および提案されたメディアミックスのドーナツチャートのどちらかのデータを開くか保存できます。 [これはPortfolio割り当てレポートと同じようですが、どのように異なるのでしょうか？]
 
-1. [選択したポートフォリオに対する予算推奨レポート &#x200B;](#spend-recommendations-generate)を生成します。
+1. [選択したポートフォリオに対する予算推奨レポート ](#spend-recommendations-generate)を生成します。
 
-1. レポートの上にある「![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")」をクリックします。
+1. レポートの上にある「![ ダウンロード ](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")」をクリックします。
 
    ブラウザーの通常の手順に従って、ファイルを開くか保存します。 詳しくは、ブラウザーのオンラインヘルプを参照してください。
 
@@ -146,6 +153,6 @@ a）コストポイントと各コストの予想収益を示す折れ線グラ�
 
 1. 選択したポートフォリオの予算推奨レポートを生成します。
 
-1. レポートの右上にある「![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")」をクリックします。
+1. レポートの右上にある「![ ダウンロード ](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")」をクリックします。
 
    ブラウザーの通常の手順に従って、ファイルを開くか保存します。 詳しくは、ブラウザーのオンラインヘルプを参照してください。

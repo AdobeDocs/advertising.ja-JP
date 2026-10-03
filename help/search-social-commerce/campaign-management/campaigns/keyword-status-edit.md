@@ -3,18 +3,21 @@ title: キーワードと否定的なキーワードのステータスの変更
 description: キーワードとネガティブキーワードのステータスを変更する方法を説明します。
 exl-id: 46b000af-14a0-4f00-8f3c-c3ef2c93fd19
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2MBvYvI1Zf-5KrnhtPegv9gZDwkIFkLcZMzRCWPw-Es
+TQID: 'https://experienceleague.adobe.com/2MBvYvI1Zf-5KrnhtPegv9gZDwkIFkLcZMzRCWPw-Es'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 179
+source-wordcount: '176'
 ht-degree: 0%
-
 ---
-
 # キーワードと否定的なキーワードのステータスの変更
 
 アクティブで入札可能な検索キーワードを一時停止して、入札を無効にすることができます。 後でステータスをアクティブに戻すことで、入札を再開できます。
@@ -31,7 +34,7 @@ ht-degree: 0%
 
 1. ツールバーで、ステータスボタンをクリックします。
 
-   * （入札可能なキーワードのみ）行をアクティブ化するには、![&#x200B; アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
+   * （入札可能なキーワードのみ）行をアクティブ化するには、![ アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
 
    * （入札可能なキーワードのみ）行を一時停止するには、![一時停止](/help/search-social-commerce/assets/pause.png "一時停止")をクリックします。
 
@@ -39,6 +42,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キーワードについて](keyword-about.md)
+>* [ キーワードについて](keyword-about.md)
 >* [入札可能なキーワードの管理](keyword-manage.md)
 >* [否定的なキーワードを作成](keyword-negative-create.md)

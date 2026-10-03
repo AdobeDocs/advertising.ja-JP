@@ -1,42 +1,48 @@
 ---
-title: ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換
-description: DSPで [!DNL Tealium]  ファーストパーティセグメントの取り込みを有効にする方法について説明します。
+title: ユーザーIDを[!DNL Tealium]からユニバーサル IDに変換
+description: DSPで[!DNL Tealium] ファーストパーティセグメントの取り込みを有効にする方法について説明します。
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-TQID: https://experienceleague.adobe.com/X8mcqFiON6JMoB5KdS5Z0GVLYp-htw2ddCtmuZFflqo
+TQID: 'https://experienceleague.adobe.com/X8mcqFiON6JMoB5KdS5Z0GVLYp-htw2ddCtmuZFflqo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 50af5a8fc6e5e82268489259073e27911ca5a45c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: '1122'
 ht-degree: 0%
-
 ---
-
 # ユーザーIDを[!DNL Tealium]からユニバーサル IDに変換
 
 [!DNL Tealium] Customer Data PlatformとのDSP統合を使用して、組織の1st パーティハッシュ化されたメールアドレスを、ターゲット広告のユニバーサル IDに変換します。 このプロセスでは、[!DNL Amazon Web Services] （AWS） ファイアホースコネクタを使用します。 TealiumからDSPにデータを共有するには、次の手順に従います。
 
-1. （電子メールアドレスを[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->に変換するには、[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)を持つ広告主） [&#x200B; トラッキングを設定して [!DNL Analytics] 測定](#analytics-tracking)を有効にします。
+1. （電子メールアドレスを[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->に変換するには、[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)を持つ広告主） [ トラッキングを設定して [!DNL Analytics] 測定](#analytics-tracking)を有効にします。
 
 1. [DSPでオーディエンスソースを作成](#source-create)。
 
-1. [&#x200B; セグメントマッピングデータの準備と共有](#map-data)。
+1. [ セグメントマッピングデータの準備と共有](#map-data)。
 
 1. [でコネクタを作成して [!DNL Tealium]  セグメントデータを共有](#tealium-connector)します。
 
 1. [で既存のコネクタを複製して [!DNL Tealium]  セグメントを引き続き共有します](#duplicate-connector)。
 
-1. [&#x200B; ユニバーサル IDの数とハッシュ化された電子メールアドレスの数を比較](#compare-id-count)。
+1. [ ユニバーサル IDの数とハッシュ化された電子メールアドレスの数を比較](#compare-id-count)。
 
 ## 手順1: [!DNL Analytics]測定用トラッキングの設定 {#analytics-tracking}
 
@@ -44,7 +50,7 @@ ht-degree: 0%
 
 メールアドレスを[!DNL RampIDs]または[!DNL ID5]のIDに変換するには、次の操作を行う必要があります。
 
-1. （まだ実行していない場合）実装の[&#128279;](/help/integrations/analytics/prerequisites.md)前提条件をすべて完了し、[AMO IDとEF ID](/help/integrations/analytics/ids.md)がトラッキング URLに入力されていることを確認します。 [!DNL Analytics for Advertising]
+1. （まだ実行していない場合）実装の[前提条件をすべて完了し、[AMO IDとEF ID](/help/integrations/analytics/ids.md)がトラッキング URLに入力されていることを確認します。 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)
 
 1. ユニバーサル ID パートナーに登録し、web ページにユニバーサル ID固有のコードをデプロイして、デスクトップおよびモバイルのweb ブラウザー（モバイルアプリは除く）のIDからビュースルーのコンバージョンを一致させます。
 
@@ -52,7 +58,7 @@ ht-degree: 0%
 
 ## 手順2:DSPでオーディエンスソースを作成する {#source-create}
 
-1. [&#x200B; オーディエンスソースを作成](source-manage.md)して、DSP アカウントまたは広告主アカウントにオーディエンスを読み込みます。 ユーザーIDを[使用可能なユニバーサル ID形式](source-about.md)のいずれかに変換することを選択できます。
+1. [ オーディエンスソースを作成](source-manage.md)して、DSP アカウントまたは広告主アカウントにオーディエンスを読み込みます。 ユーザーIDを[使用可能なユニバーサル ID形式](source-about.md)のいずれかに変換することを選択できます。
 
    ソース設定には、自動生成されたソースキーが含まれ、セグメントマッピングデータの準備に使用します。
 
@@ -68,7 +74,7 @@ ht-degree: 0%
 
    1. ハッシュ化されたメール IDを含む列を、訪問者IDのタイプの属性にマッピングします。
 
-   1. `Tealium_visitor_id`属性を使用してオーディエンスを作成します。 適切なエンリッチメントを適用してオーディエンスをトリガーにする： 訪問者ID属性[&#128279;](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/)に関する[!DNL Tealium]  ドキュメントを参照してください。
+   1. `Tealium_visitor_id`属性を使用してオーディエンスを作成します。 適切なエンリッチメントを適用してオーディエンスをトリガーにする： 訪問者ID属性](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/)に関する[[!DNL Tealium]  ドキュメントを参照してください。
 
 1. 広告主は、DSPでセグメントを作成するために、Adobe アカウントチームにセグメントマッピングデータを提供する必要があります。 コンマ区切りの値ファイルでは、次の列名と値を使用します。
 
@@ -92,7 +98,7 @@ ht-degree: 0%
 
 1. Adobe アカウントチームは、広告主にAWS ファイアホースコネクタの資格情報を提供します。
 
-1. [!DNL Tealium]で、[次のオプションを使用してコネクタ &#x200B;](https://docs.tealium.com/server-side/connectors/add/)を追加します。
+1. [!DNL Tealium]で、[次のオプションを使用してコネクタ ](https://docs.tealium.com/server-side/connectors/add/)を追加します。
 
    1. [!DNL AWS Firehose] コネクタを選択します。
 
@@ -128,17 +134,17 @@ ht-degree: 0%
 
          * **メッセージデータ：**&#x200B;次の操作を行います。
 
-            1. セグメントの属性を1つ選択します。
+           1. セグメントの属性を1つ選択します。
 
-               * Hashed_Email属性に、カスタムメッセージに`hashed_email`という名前を付けます。
+              * Hashed_Email属性に、カスタムメッセージに`hashed_email`という名前を付けます。
 
-               * Cookie属性に、カスタムメッセージ `cookies`という名前を付けます。
+              * Cookie属性に、カスタムメッセージ `cookies`という名前を付けます。
 
-            1. カスタムフィールドを作成するオプションで、[!DNL Source Key] フィールドに、前の手順で[&#x200B; セグメントマッピングデータ &#x200B;](#map-data)に含まれていた[!UICONTROL External Segment Key]を入力します。
+           1. カスタムフィールドを作成するオプションで、[!DNL Source Key] フィールドに、前の手順で[ セグメントマッピングデータ ](#map-data)に含まれていた[!UICONTROL External Segment Key]を入力します。
 
-               DSPはこのキーを使用してセグメントに情報を入力します。
+              DSPはこのキーを使用してセグメントに情報を入力します。
 
-            1. （推奨）更新アクションを作成して、セグメントを新鮮な状態に保ちます。
+           1. （推奨）更新アクションを作成して、セグメントを新鮮な状態に保ちます。
 
 ## 手順5: セグメントの共有を続行するには、[!DNL Tealium]の既存のコネクタを複製します {#duplicate-connector}
 
@@ -152,19 +158,19 @@ ht-degree: 0%
 
 これらのセグメントは、24時間以内にDSPで利用できるようになります。 DSPがセグメントデータを受け取った後、オーディエンスサイズは9時間以内に表示されます。
 
-オーディエンスライブラリ（[!UICONTROL Audiences] > [!UICONTROL All Audiences]またはプレースメント設定内でオーディエンスを作成または編集する際に使用可能）で、セグメントが入力されていることを確認し、ユニバーサル IDの数と元のハッシュ化されたメールアドレスの数を比較します。 使用可能なIDの翻訳率と、セグメント数が異なる理由については、「[&#x200B; メール IDとユニバーサル IDの間のデータの相違](#universal-ids-data-variances)」を参照してください。
+オーディエンスライブラリ（[!UICONTROL Audiences] > [!UICONTROL All Audiences]またはプレースメント設定内でオーディエンスを作成または編集する際に使用可能）で、セグメントが入力されていることを確認し、ユニバーサル IDの数と元のハッシュ化されたメールアドレスの数を比較します。 使用可能なIDの翻訳率と、セグメント数が異なる理由については、「[ メール IDとユニバーサル IDの間のデータの相違](#universal-ids-data-variances)」を参照してください。
 
 セグメントは24時間ごとに更新されます。 ただし、セグメントに含めるには、デフォルトで30日が経過するか、顧客が指定した有効期限が経過した後に有効期限が切れます。 有効期限が切れる前に[!DNL Tealium]からセグメントを再プッシュして、セグメントを更新します。 カスタムセグメントの有効期限をリクエストするには、Adobe アカウントチームにお問い合わせください。
 
 ## トラブルシューティング
 
-翻訳率とユーザー数の問題をトラブルシューティングするには、「[&#x200B; ユニバーサル IDのアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)」を参照してください。
+翻訳率とユーザー数の問題をトラブルシューティングするには、「[ ユニバーサル IDのアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)」を参照してください。
 
 変換手順に関する問題をトラブルシューティングするには、Adobe アカウントチームまたは`adcloud-support@adobe.com`にお問い合わせください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
->* [&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](source-manage.md)
->* [&#x200B; ユニバーサル IDのアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)
->* [&#x200B; オーディエンス管理について](/help/dsp/audiences/audience-about.md)
+>* [ ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
+>* [ オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](source-manage.md)
+>* [ ユニバーサル IDのアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)
+>* [ オーディエンス管理について](/help/dsp/audiences/audience-about.md)

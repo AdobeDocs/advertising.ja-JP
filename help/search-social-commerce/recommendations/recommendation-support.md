@@ -3,21 +3,26 @@ title: メディア企業のレコメンデーションとインサイトのサ�
 description: パブリッシャーのレコメンデーションとインサイトの表示と管理のサポートについて説明します。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-TQID: https://experienceleague.adobe.com/Ual5eWu0z8jyBAPFOkJw1nUuYnOadW-FqezsD4rXySE
+TQID: 'https://experienceleague.adobe.com/Ual5eWu0z8jyBAPFOkJw1nUuYnOadW-FqezsD4rXySE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae143aa5-b8d8-5a93-93ab-45e919f0c418
+    internal-label: Search Recommendations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: '734'
 ht-degree: 0%
-
 ---
-
 # メディア企業のレコメンデーションとインサイトのサポートについて
 
 *[!DNL Google Ads]と[!DNL Microsoft Advertising] アカウント*
@@ -52,7 +57,7 @@ ht-degree: 0%
 
 | レコメンデーションカテゴリー | レコメンデーションタイプ | 説明 |
 | --- | --- | --- |
-| [!UICONTROL Ads and extensions] （[!DNL Ads and assets]では「[!DNL Google Ads]」と呼ばれるようになりました） | [!UICONTROL Call extension] | キャンペーンへの呼び出し拡張機能の追加 |
+| [!UICONTROL Ads and extensions] （[!DNL Google Ads]では「[!DNL Ads and assets]」と呼ばれるようになりました） | [!UICONTROL Call extension] | キャンペーンへの呼び出し拡張機能の追加 |
 | | [!UICONTROL Callout extension] | キャンペーンへのコールアウト拡張機能の追加 |
 |  | [!UICONTROL Improve demand gen ad strength] | 需要創出広告の広告強度を向上させるための提案 |
 | | [!UICONTROL Optimize ad rotation] | 最適化された広告ローテーションの使用 |
@@ -81,8 +86,8 @@ ht-degree: 0%
 | | [!UICONTROL Set Target CPA] | キャンペーンのターゲット CPAを設定する |
 | | [!UICONTROL Set Target ROAS] | 施策の目標ROASを設定する |
 | | [!UICONTROL Target CPA opt in] | [!UICONTROL Target CPA]入札戦略への変更 |
-| | [!UICONTROL Target CPA raising] | 過去のコンバージョンから計算された[!UICONTROL Target CPA]の予測に基づいて[!DNL Google Ads]を上げます |
-| | [!UICONTROL Target ROAS lowering] | 過去のコンバージョンから計算される[!UICONTROL Target ROAS]の予測に基づいて[!DNL Google Ads]を下げます |
+| | [!UICONTROL Target CPA raising] | 過去のコンバージョンから計算された[!DNL Google Ads]の予測に基づいて[!UICONTROL Target CPA]を上げます |
+| | [!UICONTROL Target ROAS lowering] | 過去のコンバージョンから計算される[!DNL Google Ads]の予測に基づいて[!UICONTROL Target ROAS]を下げます |
 | | [!UICONTROL Target ROAS opt in] | [!UICONTROL Target ROAS]入札戦略への変更 |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | ディスプレイの拡張を使用するようにキャンペーンを更新してリーチを拡大する |
 | | [!UICONTROL Keyword] | 新しいキーワードを追加 |
@@ -100,7 +105,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; メディア企業のレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
+>* [ メディア企業のレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
 >* [発行者のレコメンデーションを適用または却下](recommendation-apply-dismiss.md)
->* [&#x200B; アカウントの発行者のレコメンデーションログを表示](recommendation-view-log.md)
->* [&#x200B; ポートフォリオでパブリッシャーのレコメンデーションを使用するためのベストプラクティス &#x200B;](recommendation-best-practices.md)
+>* [ アカウントの発行者のレコメンデーションログを表示](recommendation-view-log.md)
+>* [ ポートフォリオでパブリッシャーのレコメンデーションを使用するためのベストプラクティス ](recommendation-best-practices.md)

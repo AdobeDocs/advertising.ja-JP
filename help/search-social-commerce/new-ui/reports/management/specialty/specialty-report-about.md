@@ -2,13 +2,19 @@
 title: 特殊レポートについて
 description: 特殊レポートについて詳しく見る。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: b5fadff06a523e2b1b248c2d262cbd6cd03669c3
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
-
 ---
-
 # 特殊レポートについて
 
 多くの特殊レポートは、広告ネットワークによって収集されたデータのみで構成されます。 ただし、[!UICONTROL Google Ads Shopping Performance Report]、[!UICONTROL Keyword Impression Share Report]および[!UICONTROL Campaign Impression Share Report]には、[!DNL Adobe]によって収集された収益データを含めることができます。 専門性レポートは、すべてのユーザーが利用できます。
@@ -57,6 +63,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
 >* [特殊レポート設定](specialty-report-settings.md)
 >* [専門性レポートのレポート列](specialty-report-columns.md)

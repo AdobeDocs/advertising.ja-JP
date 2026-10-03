@@ -3,22 +3,26 @@ title: キーボードショートカット
 description: プレースメント設定内で使用可能なキーボードショートカットを参照します。
 feature: DSP Placements
 exl-id: d1711166-8f20-4641-a1f5-c865a40ad387
-TQID: https://experienceleague.adobe.com/W9csfJ-c6BmvUfL5u9I3mLRonCFefSU3bi7QY4q1ueo
+TQID: 'https://experienceleague.adobe.com/W9csfJ-c6BmvUfL5u9I3mLRonCFefSU3bi7QY4q1ueo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 97
+source-wordcount: '97'
 ht-degree: 1%
-
 ---
-
 # キーボードショートカット
 
 プレースメント設定内で、キーボードショートカットを使用して<!-- and to create ads and placements -->をすばやく移動できます。
@@ -43,6 +47,6 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)
->* [&#x200B; プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [ プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)
+>* [ プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)

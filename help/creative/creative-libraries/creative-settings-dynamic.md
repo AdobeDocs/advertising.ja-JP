@@ -3,20 +3,26 @@ title: 動的なクリエイティブ設定
 description: 動的なクリエイティブの設定を参照します。
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-TQID: https://experienceleague.adobe.com/b7R-MWHypydFbqdZY2sVwvoaq4sxwK5Wcf-OJc5x0LM
+TQID: 'https://experienceleague.adobe.com/b7R-MWHypydFbqdZY2sVwvoaq4sxwK5Wcf-OJc5x0LM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 405
-ht-degree: 0%
-
+source-wordcount: '421'
+ht-degree: 2%
 ---
-
 # 動的なクリエイティブ設定
 
 <!-- add a description -->
@@ -45,7 +51,7 @@ ht-degree: 0%
 
 続行するには、**[!UICONTROL Select Ad Template]**&#x200B;をクリックします。
 
-**[!UICONTROL Size]:** （動的ディスプレイ広告のみ、読み取り専用）選択した広告テンプレートの[広告ディメンション &#x200B;](/help/creative/creative-libraries/creative-sizes.md)。広告の作成に使用されます。
+**[!UICONTROL Size]:** （動的ディスプレイ広告のみ、読み取り専用）選択した広告テンプレートの[広告ディメンション ](/help/creative/creative-libraries/creative-sizes.md)。広告の作成に使用されます。
 
 **[!UICONTROL Card Count (Max 50)]:** （ディスプレイ広告のみ）カルーセルに表示する商品の数。
 
@@ -73,6 +79,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; クリエイティブライブラリに動的なクリエイティブを追加](creative-add-dynamic.md)
->* [&#x200B; クリエイティブライブラリでの動的クリエイティブの編集](creative-edit-dynamic.md)
+>* [ クリエイティブライブラリに動的なクリエイティブを追加](creative-add-dynamic.md)
+>* [ クリエイティブライブラリでの動的クリエイティブの編集](creative-edit-dynamic.md)
 >* [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)

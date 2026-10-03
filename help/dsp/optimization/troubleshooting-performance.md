@@ -3,16 +3,18 @@ title: パフォーマンスの問題の理由
 description: 一般的なパフォーマンスの問題を参照し、トラブルシューティング方法を確認します。
 feature: DSP Optimization
 exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
-TQID: https://experienceleague.adobe.com/CLEAjCOYzIKDaAbH4-mZxna7MK5jmpvaCjdhGScwzQs
+TQID: 'https://experienceleague.adobe.com/CLEAjCOYzIKDaAbH4-mZxna7MK5jmpvaCjdhGScwzQs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
     internal-label: Demand Side Platform
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
-    internal-label: DSP Optimization
+    internal-label: Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -21,7 +23,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -40,7 +42,7 @@ ht-degree: 0%
 | | 口座は十分な資金を持っていません。 | アカウントが適切に資金調達されているかどうかを確認するには、**[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;に移動し、[!UICONTROL Usable Funds]の金額を確認します。 さらに資金を追加する必要がある場合は、Adobeアカウントチームにお問い合わせください。 |
 | | 在庫はありません。 | 指定されたインベントリ ソース （[!UICONTROL Public]、[!UICONTROL Private]または[!UICONTROL On Demand]）が次の場合に確認します。<ul><li>正しく設定する。</li><li>アクティブでオークションを通して送信します。</li><li>該当する広告とプレースメントタイプに対応しています。</li></ul><br>在庫ソースがすべて有効でアクティブな場合は、可能な限り、追加またはすべての在庫ソースをターゲットにします。 |
 | | 使用できるユーザーはありません。 | 指定したオーディエンスターゲットに十分なアクティブユーザーが含まれていることを確認します。 機能しない場合は、オーディエンスを追加してターゲットを拡大します。 |
-| プレースメントへの支出が少ない | プレースメントの診断レポートの[!UICONTROL Non Bids] セクションには、プレースメントが入札しなかった理由として考えられる理由が表示されます。 | [&#x200B; プレースメントが入札しなかった理由を理解するには、[!UICONTROL Non Bids] レポート &#x200B;](/help/dsp/campaign-management/reports/placement-diagnostics.md)を確認してください。 <!-- add link/edit text when file available: See the [in-depth guide to possible Non-Bid Reasons (NBR)](link) for more information. --> |
+| プレースメントへの支出が少ない | プレースメントの診断レポートの[!UICONTROL Non Bids] セクションには、プレースメントが入札しなかった理由として考えられる理由が表示されます。 | [ プレースメントが入札しなかった理由を理解するには、[!UICONTROL Non Bids] レポート ](/help/dsp/campaign-management/reports/placement-diagnostics.md)を確認してください。 <!-- add link/edit text when file available: See the [in-depth guide to possible Non-Bid Reasons (NBR)](link) for more information. --> |
 | | プレースメントでは、入札を制限する[入札前フィルター](/help/dsp/campaign-management/placements/placement-settings.md)を使用します。 | 入札前のフィルターのしきい値を5%下げて、支出とパフォーマンスのバランスを評価します。 <!-- wording? and are users just supposed to manually monitor whether it makes a difference? --><br><br>入札前のフィルター、地域、在庫、オーディエンスなど、複数の配置ターゲットを使用すると、入札と支出が累積的に制限される場合があることに注意してください。 |
 | | プレースメントの勝率は低くなります。 | [!UICONTROL Max Bid]を増やして勝率を向上させます。<br><br><b> メモ：</b>在庫価格は、プレースメントのターゲティングによって異なる場合があります。<br><br>10%の勝率は正常と見なされます。 |
 | | 在庫数が少ない。 | 可能な場合は、追加またはすべての在庫ソースをターゲットにする。<br><br>入札前のフィルター、地域、在庫、オーディエンスなど、複数の配置ターゲットを使用すると、入札と支出が累積的に制限される場合があることに注意してください。 |
@@ -52,5 +54,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)
->* [&#x200B; パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
->* [&#x200B; キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [ パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)

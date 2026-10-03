@@ -1,20 +1,23 @@
 ---
-title: 約 [!DNL Google Ads]  コールアウト拡張機能
-description: Search, Social, & Commerceの [!DNL Google Ads]  コールアウト拡張機能について説明します。
+title: '[!DNL Google Ads]個のコールアウト拡張機能について'
+description: Search, Social, & Commerceの[!DNL Google Ads]のコールアウト拡張機能について説明します。
 exl-id: d821067f-7ec6-4cd3-a6eb-e1e194cea0df
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/aB0vtxy3oiu3kWLKqyYyatkhohTmFU2VnHw-Wf4-JB8
+TQID: 'https://experienceleague.adobe.com/aB0vtxy3oiu3kWLKqyYyatkhohTmFU2VnHw-Wf4-JB8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 258
+source-wordcount: '263'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]個のコールアウト拡張機能について
 
 *[!DNL Google Ads]アカウントのみ*
@@ -25,7 +28,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Callouts]と[!UICONTROL Associations] ビュー
 
-[!UICONTROL Extensions] > [!UICONTROL Callout]の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ライブラリには、アカウントレベルのコールアウトがすべて一覧表示され、そこで共有コールアウトを作成および管理できます。 [&#x200B; アカウント  [!DNL Google Ads] あたりの広告拡張機能の最大数](https://support.google.com/google-ads/answer/6372658?hl=en)については、広告ネットワークのヘルプを参照してください。
+[!UICONTROL Campaigns] > [!UICONTROL Campaigns]の[!UICONTROL Extensions] > [!UICONTROL Callout] ライブラリには、アカウントレベルのコールアウトがすべて一覧表示され、そこで共有コールアウトを作成および管理できます。  [!DNL Google Ads]  アカウント ](https://support.google.com/google-ads/answer/6372658?hl=en)あたりの広告拡張機能の最大数[については、広告ネットワークのヘルプを参照してください。
 
 ライブラリ内のコールアウトは、キャンペーンまたは広告グループに割り当てるまで、広告で使用されません。 [!UICONTROL Extensions] > [!UICONTROL Associations] ビューでは、キャンペーンレベルまたは広告グループレベルのすべての広告に、可能な限り任意のコールアウトを割り当てることができます。 広告がコールアウトと共に表示されるように、キャンペーンまたは広告グループごとに少なくとも2つのコールアウトを割り当てる必要があります。 広告グループレベルのコールアウトは、キャンペーンレベルのコールアウトを上書きします。
 
@@ -37,5 +40,5 @@ Search, Social, &amp; Commerceは、広告拡張機能のクリック数と、�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; コールアウト拡張機能 [!DNL Google Ads] を管理](callout-extension-manage.md)
->* [&#x200B; コールアウト拡張機能をキャンペーンまたは広告グループに関連付ける [!DNL Google Ads] 共有](callout-extension-associate.md)
+>* [ コールアウト拡張機能 [!DNL Google Ads] を管理](callout-extension-manage.md)
+>* [ コールアウト拡張機能をキャンペーンまたは広告グループに関連付ける [!DNL Google Ads] 共有](callout-extension-associate.md)

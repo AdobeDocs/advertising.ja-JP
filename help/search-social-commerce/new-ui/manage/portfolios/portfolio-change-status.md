@@ -3,18 +3,24 @@ title: （新しいUI）ポートフォリオのステータスの変更
 description: ポートフォリオ設定を開かずにポートフォリオのステータスを変更したり、非アクティブなポートフォリオを削除したりする方法を説明します。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）ポートフォリオのステータスの変更
 
 *Beta機能*
 
-完全なポートフォリオ設定を開かずに、[&#x200B; ポートフォリオのステータス &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses)をすばやく変更できます。
+完全なポートフォリオ設定を開かずに、[ ポートフォリオのステータス ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses)をすばやく変更できます。
 
 関連するキャンペーンのコスト/クリック/インプレッションデータと収益データの収集を停止するには、ポートフォリオを削除します。 ポートフォリオを削除すると、Search, Social, &amp; Commerce内で使用できなくなります。
 
@@ -59,6 +65,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ポートフォリオを作成](portfolio-create.md)
->* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [&#x200B; ポートフォリオについて](portfolio-about.md)
+>* [ ポートフォリオを作成](portfolio-create.md)
+>* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [ ポートフォリオについて](portfolio-about.md)

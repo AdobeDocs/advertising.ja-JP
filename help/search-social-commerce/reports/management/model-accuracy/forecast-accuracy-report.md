@@ -3,21 +3,28 @@ title: '[!UICONTROL Forecast Accuracy Report]'
 description: データ列を含む予測精度レポートについて説明します。
 exl-id: f0c42323-eb0d-461a-ab09-440fd1bfc960
 feature: Search Reports, Search Model Accuracy Reports
-TQID: https://experienceleague.adobe.com/FHLlU9t-6rhRH9XpgF6pxPviMDucJllzsLX-x7FEuTY
+TQID: 'https://experienceleague.adobe.com/FHLlU9t-6rhRH9XpgF6pxPviMDucJllzsLX-x7FEuTY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
+    internal-label: Search Model Accuracy Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 446
+source-wordcount: '451'
 ht-degree: 0%
-
 ---
-
 # ザ [!UICONTROL Forecast Accuracy Report]
 
 このレポートは、指定されたポートフォリオの日別のコストと収益モデルの精度を示します。 デフォルトでは、各ポートフォリオの1日の予測収益と実際の収益、コスト、クリック数、予測の精度が含まれます。 現在ポートフォリオにマッピングされているキャンペーンのデータが含まれます。
@@ -59,7 +66,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; モデル精度レポートについて](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [ モデル精度レポートについて](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
 >* [The [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [&#x200B; モデル精度レポートを生成](model-accuracy-report-generate.md)
->* [&#x200B; モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [ モデル精度レポートを生成](model-accuracy-report-generate.md)
+>* [ モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)

@@ -1,20 +1,23 @@
 ---
-title: ' [!DNL Google Ads] 動的検索ターゲットについて'
-description: ' [!DNL Google Ads] 動的検索ターゲットについて説明します。'
+title: '[!DNL Google Ads]個の動的検索対象について'
+description: '[!DNL Google Ads]の動的検索ターゲットについて説明します。'
 exl-id: e6a8a426-5848-4161-99f3-1140aa3e4b9f
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/zOz7erv8gCjyfXxxlEfXBa4BkZbDzG0lSfUF52TJ8KM
+TQID: 'https://experienceleague.adobe.com/zOz7erv8gCjyfXxxlEfXBa4BkZbDzG0lSfUF52TJ8KM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 192
+source-wordcount: '196'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]個の動的検索対象について
 
 *[!DNL Google Ads]アカウントのみ*
@@ -37,7 +40,7 @@ ht-degree: 0%
 
 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] ビューで、動的検索ターゲットのステータスを作成、編集、変更できます。
 
-任意のターゲットに[&#x200B; ラベル &#x200B;](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md)を適用することもできます。
+任意のターゲットに[ ラベル ](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md)を適用することもできます。
 
 >[!MORELIKETHIS]
 >

@@ -1,20 +1,23 @@
 ---
 title: プレースメントとネガティブプレースメントのステータスの変更
-description: ' [!DNL Google Ads]のプレースメントと負のプレースメントのステータスを変更する方法を説明します。'
+description: '[!DNL Google Ads]のプレースメントとネガティブプレースメントのステータスを変更する方法について説明します。'
 exl-id: 3c54a80e-6f4c-4936-97b1-67ac8de24830
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/-V9u4kusa44SSH95feX1PKCrVTyxWfTX96KBqU4UtZg
+TQID: 'https://experienceleague.adobe.com/-V9u4kusa44SSH95feX1PKCrVTyxWfTX96KBqU4UtZg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 180
+source-wordcount: '177'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]個のプレースメントと負のプレースメントのステータスを変更する
 
 アクティブで入札可能なプレースメントを一時停止して、入札を無効にすることができます。 後でステータスをアクティブに戻すことで、入札を再開できます。
@@ -31,7 +34,7 @@ ht-degree: 0%
 
 1. ツールバーで、ステータスボタンをクリックします。
 
-   * （入札可能なプレースメントのみ）行をアクティブ化するには、![&#x200B; アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
+   * （入札可能なプレースメントのみ）行をアクティブ化するには、![ アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
 
    * （入札可能なプレースメントのみ）行を一時停止するには、![一時停止](/help/search-social-commerce/assets/pause.png "一時停止")をクリックします。
 
@@ -39,6 +42,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメントについて](placement-about.md)
+>* [ プレースメントについて](placement-about.md)
 >* [入札可能なプレースメントの管理](placement-manage.md)
 >* [負のプレースメントを作成](placement-negative-create.md)

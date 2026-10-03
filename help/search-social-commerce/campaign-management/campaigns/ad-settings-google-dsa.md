@@ -1,27 +1,31 @@
 ---
 title: '[!DNL Google Ads]さんが動的検索広告の設定を拡張しました'
-description: ' [!DNL Google Ads] 拡張された動的検索広告の設定を参照します。'
+description: '[!DNL Google Ads]件の拡張動的検索広告の設定を参照してください。'
 exl-id: 62142e37-c7c6-42d8-883b-f288a2903f44
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/5KJJ7b3UJiKGeqimzHbwS4k-wxpHyIcLh1N9AUaU-SQ
+TQID: 'https://experienceleague.adobe.com/5KJJ7b3UJiKGeqimzHbwS4k-wxpHyIcLh1N9AUaU-SQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 114
+source-wordcount: '123'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]さんが動的検索広告の設定を拡張しました
 
 動的検索広告（DSA）は、検索専用キャンペーンの[!DNL Google Ads]件の動的広告グループでのみ使用できます。 広告ネットワークは、見出しを動的に生成し、動的な検索広告のランディングページと表示URLを選択し、最終的なURLを自動的に生成します。
 
-アカウントごとの[!DNL Google Ads]広告制限[について、](https://support.google.com/google-ads/answer/6372658?hl=en)のヘルプを参照してください。
+アカウントごとの[広告制限](https://support.google.com/google-ads/answer/6372658?hl=en)について、[!DNL Google Ads]のヘルプを参照してください。
 
 >[!NOTE]
 >

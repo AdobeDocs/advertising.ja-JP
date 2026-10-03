@@ -1,19 +1,23 @@
 ---
-title: （新しいUI）リードの [!DNL Google Ads] 拡張コンバージョンのコンバージョンアクションを作成する
-description: リードのコンバージョンを強化するための [!DNL Google Ads]  コンバージョンアクションの作成方法について説明します。
+title: （新しいUI）リードの[!DNL Google Ads]強化コンバージョンのコンバージョンアクションを作成
+description: リードのコンバージョンを強化するための[!DNL Google Ads] コンバージョンアクションの作成方法について説明します。
 feature: Conversions
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
   - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
 subfeature_v2:
   - id: d068b149-b9d1-421c-9033-a51495366ddc
-source-git-commit: 0bfee2b52410b5cab8e9b3dfba35effc36fc40e1
+    internal-label: Conversions
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 510
+source-wordcount: '512'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）リードの[!DNL Google Ads]強化コンバージョンのコンバージョンアクションを作成
 
 *Beta機能*
@@ -22,7 +26,7 @@ ht-degree: 0%
 
 マネージャーのアカウントレベルで追跡されるコンバージョンではなく、個々の[!DNL Google Ads] アカウントで追跡されるリードの強化コンバージョンの[!DNL Google Ads]個のコンバージョンアクションを作成できます。
 
-コンバージョンアクションを作成し、コンバージョントラッキングタグを実装すると、組織がキャプチャしたオフラインのコンバージョンデータを[&#x200B; アップロードして](conversions-upload-offline-enhanced-conversions.md) コンバージョンアクションに関連付けることができます。
+コンバージョンアクションを作成し、コンバージョントラッキングタグを実装すると、組織がキャプチャしたオフラインのコンバージョンデータを[ アップロードして](conversions-upload-offline-enhanced-conversions.md) コンバージョンアクションに関連付けることができます。
 
 [!DNL Microsoft Advertising] アカウントではサポートを利用できません。
 
@@ -32,7 +36,7 @@ ht-degree: 0%
 
 1. データテーブルの上で、**[!UICONTROL Set up Conversion]**&#x200B;をクリックします。
 
-1. [&#x200B; コンバージョンアクション設定](#conversion-action-settings-google)を指定します。
+1. [ コンバージョンアクション設定](#conversion-action-settings-google)を指定します。
 
    1. [!UICONTROL Setup Method] *[!UICONTROL Create Conversion]*&#x200B;を選択します。
 
@@ -48,9 +52,9 @@ ht-degree: 0%
 
 1. リードの強化コンバージョンのトラッキングタグを作成する方法に関する情報を読み、**[!UICONTROL Next]**&#x200B;をクリックします。
 
-   コンバージョン指標を追跡するweb サイトで、コンバージョンタグを作成し、必要に応じて実装する必要があります。 また、リードのコンバージョンを強化し、顧客データの利用条件に同意する必要があります。 手順については、「[&#x200B; リードのコンバージョンを強化するために [!DNL Google]  タグを設定](https://support.google.com/google-ads/answer/11021502)するための[!DNL Google Ads]手順」を参照してください。
+   コンバージョン指標を追跡するweb サイトで、コンバージョンタグを作成し、必要に応じて実装する必要があります。 また、リードのコンバージョンを強化し、顧客データの利用条件に同意する必要があります。 手順については、「[ リードのコンバージョンを強化するために [!DNL Google]  タグを設定](https://support.google.com/google-ads/answer/11021502)するための[!DNL Google Ads]手順」を参照してください。
 
-   トランザクション固有のコンバージョン値を追跡する場合は、[&#x200B; イベントスニペットをカスタマイズ &#x200B;](https://support.google.com/google-ads/answer/6095947)します。
+   トランザクション固有のコンバージョン値を追跡する場合は、[ イベントスニペットをカスタマイズ ](https://support.google.com/google-ads/answer/6095947)します。
 
 1. **[!UICONTROL Close].**&#x200B;をクリックします
 
@@ -84,16 +88,16 @@ ht-degree: 0%
 
 * *[!UICONTROL Don't use a value for this conversion action (Not recommended)]*
 
-**[!UICONTROL Count]:** [&#x200B; クリックまたはインタラクションごとにカウントするコンバージョン数](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]*&#x200B;または&#x200B;*[!UICONTROL One (Recommended for leads, sign-ups and other conversions for which only the first interaction is valuable)]*。
+**[!UICONTROL Count]:** [ クリックまたはインタラクションごとにカウントするコンバージョン数](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]*&#x200B;または&#x200B;*[!UICONTROL One (Recommended for leads, sign-ups and other conversions for which only the first interaction is valuable)]*。
 
 **[!UICONTROL Click-Through Conversion Window]:** コンバージョンを記録する広告インタラクションの後最大日数。 検索キャンペーン、ディスプレイキャンペーン、ショッピングキャンペーンの場合、ウィンドウは1～90日です。 数値を選択するか、**[!UICONTROL Custom]**&#x200B;を選択して数値を入力します。
 
 **[!UICONTROL View-Through Conversion Window]:** ビュースルーコンバージョンが記録される、ユーザーが広告を表示してから経過した最大日数。 検索キャンペーン、ディスプレイキャンペーン、ショッピングキャンペーンの場合、ウィンドウは1～90日です。 数値を選択するか、**[!UICONTROL Custom]**&#x200B;を選択して数値を入力します。
 
-**[!UICONTROL Attribution Model]:** [各広告インタラクションのクレジットを決定するアトリビューションモデル &#x200B;](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]*&#x200B;または&#x200B;*[!UICONTROL Last click]*。
+**[!UICONTROL Attribution Model]:** [各広告インタラクションのクレジットを決定するアトリビューションモデル ](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]*&#x200B;または&#x200B;*[!UICONTROL Last click]*。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI） オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
->* [&#x200B; オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
->* [実装 [!DNL Google Ads]  リードの拡張コンバージョン &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
+>* [ （新しいUI） オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
+>* [ オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
+>* [実装 [!DNL Google Ads]  リードの拡張コンバージョン ](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)

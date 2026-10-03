@@ -3,21 +3,28 @@ title: ターゲット設定
 description: ターゲット広告エクスペリエンスに関するすべての設定の説明を参照してください。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-TQID: https://experienceleague.adobe.com/u5o-it-rntU70Ugf-3m7G4zcxjJrhkg0hubs34HVHFw
+TQID: 'https://experienceleague.adobe.com/u5o-it-rntU70Ugf-3m7G4zcxjJrhkg0hubs34HVHFw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1184
+source-wordcount: '1207'
 ht-degree: 0%
-
 ---
-
 # ターゲット広告エクスペリエンスの設定
 
 ## [!UICONTROL Experience basics] セクション
@@ -68,7 +75,7 @@ ht-degree: 0%
 
 **ラベル：**<!-- should be "Labels" --> （オプション）エクスペリエンスに適用する[!DNL Creative]固有のラベル。 エクスペリエンスビューでラベルでエクスペリエンスをフィルタリングし、[!UICONTROL Experience Label] ディメンションを[!UICONTROL Custom Creative Report]に含めることができます。
 
-* 既存のラベルを選択するには、![&#x200B; ダウン &#x200B;](/help/creative/assets/chevron-down.png " ダウン ")をクリックし、適用する各ラベルの横にあるチェックボックスをオンにします。
+* 既存のラベルを選択するには、![ ダウン ](/help/creative/assets/chevron-down.png " ダウン ")をクリックし、適用する各ラベルの横にあるチェックボックスをオンにします。
 
 * 既存のラベルを検索するには、ラベル名の中にテキスト文字列を入力します。
 
@@ -78,7 +85,7 @@ ht-degree: 0%
 
 **インプレッション追跡URL:** （オプション） エクスペリエンスから作成された広告のランディングページ URLに追加する、サードパーティのインプレッション追跡URL。 5つまでURLを含めることができます。 追加のURLを追加するには、![icon](/help/creative/assets/create.png) **[!UICONTROL Add More]をクリックし、URLを入力します。
 
-URLを入力すると、使用可能なすべての[&#x200B; マクロ &#x200B;](/help/creative/creative-macros.md)と、その代わりに使用するデータがページの下部に表示されます。 URLにマクロのいずれかを挿入するには、マクロの説明にカーソルを合わせて![&#x200B; クリップボードにコピー](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー")をクリックし、URL フィールドにマクロを任意の場所に貼り付けます。
+URLを入力すると、使用可能なすべての[ マクロ ](/help/creative/creative-macros.md)と、その代わりに使用するデータがページの下部に表示されます。 URLにマクロのいずれかを挿入するには、マクロの説明にカーソルを合わせて![ クリップボードにコピー](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー")をクリックし、URL フィールドにマクロを任意の場所に貼り付けます。
 
 >[!NOTE]
 >
@@ -88,7 +95,7 @@ URLを入力すると、使用可能なすべての[&#x200B; マクロ &#x200B;]
 
 **クリックトラッキング URL:** （オプション） （オプション） ランディングページ URLに追加するサードパーティのクリックトラッキング URL。 5つまでURLを含めることができます。 追加のURLを追加するには、![icon](/help/creative/assets/create.png) **[!UICONTROL Add More]をクリックし、URLを入力します。
 
-URLを入力すると、使用可能なすべての[&#x200B; マクロ &#x200B;](/help/creative/creative-macros.md)と、その代わりに使用するデータがページの下部に表示されます。 URLにマクロのいずれかを挿入するには、マクロの説明にカーソルを合わせて![&#x200B; クリップボードにコピー](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー")をクリックし、URL フィールドにマクロを任意の場所に貼り付けます。
+URLを入力すると、使用可能なすべての[ マクロ ](/help/creative/creative-macros.md)と、その代わりに使用するデータがページの下部に表示されます。 URLにマクロのいずれかを挿入するには、マクロの説明にカーソルを合わせて![ クリップボードにコピー](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー")をクリックし、URL フィールドにマクロを任意の場所に貼り付けます。
 
 >[!NOTE]
 >
@@ -105,4 +112,4 @@ URLを入力すると、使用可能なすべての[&#x200B; マクロ &#x200B;]
 >
 >* [決定木ターゲティングでエクスペリエンスを作成](experience-create-targeting.md)
 >* [決定木ターゲティングでエクスペリエンスを編集](experience-edit-targeting.md)
->* [URLのトラッキングに使用できるマクロ &#x200B;](/help/creative/creative-macros.md)
+>* [URLのトラッキングに使用できるマクロ ](/help/creative/creative-macros.md)

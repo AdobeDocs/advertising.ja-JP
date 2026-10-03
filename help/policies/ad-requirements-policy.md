@@ -3,28 +3,37 @@ title: Adobe Advertisingの広告要件ポリシー
 description: 広告要件に関するポリシーを参照してください。
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-TQID: https://experienceleague.adobe.com/Od9i55zraQgaZGD1iWLFX6CcfXnUqCsrHQHt58tiHfU
+TQID: 'https://experienceleague.adobe.com/Od9i55zraQgaZGD1iWLFX6CcfXnUqCsrHQHt58tiHfU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: bc1ebc31-ef28-453d-ab0e-79fb34941421
+    internal-label: Policies
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
   - id: fcb67316-5ddd-4bee-82b6-d36475c67b56
+    internal-label: Privacy
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2224'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertisingの広告要件ポリシー
 
 *ポリシーの最終更新日：2024年7月17日<!-- (except for formatting changes unrelated to content)-->*
@@ -67,7 +76,7 @@ ht-degree: 0%
 
 * **たばこ** 広告は、電子タバコを含むたばこ製品または器具類の販売または使用を提供または促進することはできません。
 
-* **冒涜的で下品な、わいせつな言葉。**&#x200B;広告には、冒涜的な表現、下品な表現、わいせつな表現は使用できません。 広告には、同じ効果を達成しようとする言葉が含まれていないこともありますが、冒涜的な表現を隠しています。
+* **冒涜的で下品な言葉やわいせつな言葉。** 広告には、冒涜的な表現、下品な表現、わいせつな表現は含まれません。 広告には、同じ効果を達成しようとする言葉が含まれていないこともありますが、冒涜的な表現を隠しています。
 
 * **嫌な広告**。 広告は、ヘイトスピーチや宗教的不寛容を助長したり、関連させたりしてはならず、人種や民族的出自、宗教、障害、医学的または遺伝的状態、年齢、国籍または国籍、退役軍人の地位、難民の地位、移民状況、性的指向、性別、性自認、または体系的な差別や周辺化に関連するその他の特徴に基づいて個人やグループを軽視してはなりません。
 
@@ -125,22 +134,22 @@ ht-degree: 0%
 
 
 
-   * 宗教的または類似の信念または所属
-   * 人種、色、または民族的起源
-   * 性歴、興味、指向
-   * トランスジェンダー認識
-   * 遺伝情報または生体情報
-   * マイナスの財務状況（クレジットスコアなど）、犯罪歴、履歴、有罪判決
-   * 医療記録（処方記録を含む）
-   * 個人的な苦境（離婚、死別など）に関連する関係または関係状況
-   * 犯罪、虐待、またはトラウマ的出来事の犠牲者としての地位を含む、虐待およびトラウマ
-   * 社会的カースト、移民、難民などの地位に基づくなどの、社会から取り残された集団または脆弱な集団への所属
+  * 宗教的または類似の信念または所属
+  * 人種、色、または民族的起源
+  * 性歴、興味、指向
+  * トランスジェンダー認識
+  * 遺伝情報または生体情報
+  * マイナスの財務状況（クレジットスコアなど）、犯罪歴、履歴、有罪判決
+  * 医療記録（処方記録を含む）
+  * 個人的な苦境（離婚、死別など）に関連する関係または関係状況
+  * 犯罪、虐待、またはトラウマ的出来事の犠牲者としての地位を含む、虐待およびトラウマ
+  * 社会的カースト、移民、難民などの地位に基づくなどの、社会から取り残された集団または脆弱な集団への所属
 
 * **欧州連合**。 さらに、欧州連合（EU）では、ユーザーについて既知または推測される次の要素にもとづいて、オーディエンスをターゲットにしたり、ターゲットにしたりすることはできません。
 
-   * 所属政党
-   * 労働組合の組合員
-   * その他の特別なカテゴリーの個人データ
+  * 所属政党
+  * 労働組合の組合員
+  * その他の特別なカテゴリーの個人データ
 
 * **ヘルス関連のターゲット設定**。 お客様は、本サービスを使用して、機密性の高い健康関連データを収集したり、ユーザーの機密性の高い健康または医療に関する推測を行ったりすることはできません。 特に、お客様は、本サービスを使用して、あらゆる種類のがん、メンタルヘルス関連の疾患、または性感染症に関する広告をターゲットにすることはできません。 広告は、にきび、アレルギー、歯科、視力、胸焼け、風邪やインフルエンザ、副鼻腔、頭痛、背部痛、応急処置、喉の痛み、血糖管理、食事やフィットネス、脱毛、ビタミンやサプリメントなど、非感受性の健康状態をターゲットにすることができます。
 
@@ -150,4 +159,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [使用可能なヘルスセグメントガイドライン &#x200B;](/help/policies/health-segment-guidelines.md)
+>* [使用可能なヘルスセグメントガイドライン ](/help/policies/health-segment-guidelines.md)

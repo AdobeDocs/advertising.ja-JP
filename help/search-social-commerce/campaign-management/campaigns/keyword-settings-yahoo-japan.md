@@ -1,22 +1,26 @@
 ---
 title: '[!DNL LY Ads] キーワード設定'
-description: ' [!DNL LY Ads]  キーワードの設定を参照してください。'
+description: '[!DNL LY Ads] キーワードの設定を参照してください。'
 exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/QE-TpsuMQW3Tmqv5clGPcMvyeJIYDPMQJMiK79eOKms
+TQID: 'https://experienceleague.adobe.com/QE-TpsuMQW3Tmqv5clGPcMvyeJIYDPMQJMiK79eOKms'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 162
+source-wordcount: '163'
 ht-degree: 0%
-
 ---
-
 # [!DNL LY Ads] キーワード設定
 
 ## [!UICONTROL Keyword Details]
@@ -40,9 +44,9 @@ ht-degree: 0%
 
 ## プレースホルダー
 
-**[!UICONTROL Param1]:** ベース URLまたはトラッキングテンプレートに`{param1}` [&#x200B; カスタムパラメーター](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US)が含まれている場合に、代用値として使用する文字列。
+**[!UICONTROL Param1]:** ベース URLまたはトラッキングテンプレートに`{param1}` [ カスタムパラメーター](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US)が含まれている場合に、代用値として使用する文字列。
 
-**[!UICONTROL Param2]:** ベース URLまたはトラッキングテンプレートに`{param2}` [&#x200B; カスタムパラメーター](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US)が含まれている場合に、代用値として使用する文字列。
+**[!UICONTROL Param2]:** ベース URLまたはトラッキングテンプレートに`{param2}` [ カスタムパラメーター](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US)が含まれている場合に、代用値として使用する文字列。
 
 ## URL オプション
 
@@ -56,4 +60,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [ キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

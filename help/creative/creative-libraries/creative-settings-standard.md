@@ -3,20 +3,26 @@ title: 標準クリエイティブ設定
 description: 標準クリエイティブの設定を参照します。
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-TQID: https://experienceleague.adobe.com/WO5ViZMhKZBWTHbxgSIxTC79tydB5P765ueJ9EvyEUQ
+TQID: 'https://experienceleague.adobe.com/WO5ViZMhKZBWTHbxgSIxTC79tydB5P765ueJ9EvyEUQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2106
+source-wordcount: '2119'
 ht-degree: 0%
-
 ---
-
 # 標準クリエイティブ設定
 
 設定はクリエイティブの種類によって異なります。
@@ -48,7 +54,7 @@ ht-degree: 0%
 
 **ラベル：** （オプション）選択したすべてのクリエイターに適用するラベル。 [!DNL Creative]内の様々なビューでクリエイティブをラベルでフィルタリングし、[!UICONTROL Creative Label] ディメンションを[!UICONTROL Custom Creative Report]に含めることができます。
 
-* 既存のラベルを選択するには、![&#x200B; ダウン &#x200B;](/help/creative/assets/chevron-down.png " ダウン ")をクリックし、適用する各ラベルの横にあるチェックボックスをオンにします。
+* 既存のラベルを選択するには、![ ダウン ](/help/creative/assets/chevron-down.png " ダウン ")をクリックし、適用する各ラベルの横にあるチェックボックスをオンにします。
 
 * 既存のラベルを検索するには、ラベル名の中にテキスト文字列を入力します。
 
@@ -64,7 +70,7 @@ ht-degree: 0%
 >
 >また、クリエイティブをエクスペリエンスに含める場合は、任意のクリエイティブ属性のデフォルト値をカスタム値に置き換えることもできます。 エクスペリエンス内の属性を編集すると、親クリエイティブのバリエーションが作成されます。
 
-定義済みテンプレートで使用できる属性について詳しくは、「[使用可能な柔軟なクリエイティブテンプレート &#x200B;](#flexible-creative-templates-available)」を参照してください。
+定義済みテンプレートで使用できる属性について詳しくは、「[使用可能な柔軟なクリエイティブテンプレート ](#flexible-creative-templates-available)」を参照してください。
 
 ### 「テンプレート」タブ
 
@@ -90,7 +96,7 @@ ht-degree: 0%
 
    [柔軟な広告仕様](#flexible-ad-spec)を参照してください。
 
-1. 必要に応じて、新しい[&#x200B; フレキシブル HTML広告の設定](#flexible-ad-settings)を編集します。
+1. 必要に応じて、新しい[ フレキシブル HTML広告の設定](#flexible-ad-settings)を編集します。
 
 1. **[!UICONTROL Edit]**&#x200B;をクリック
 
@@ -112,13 +118,13 @@ ht-degree: 0%
 >
 >クリエイティブをエクスペリエンスに含める場合、任意のクリックタグのデフォルト値をカスタムランディングページ URLに置き換えて、基本クリエイティブの派生を生成できます。
 
-**ランディングページのURL:** （1つのランディングページを持つSimple HTML5 クリエイターのみ）クリエイターを関連付ける各広告のデフォルトのランディングページのURL。 http://またはhttps://で始まる有効なURLである必要があります。 サードパーティのトラッキングパラメーターまたは[[!DNL Creative]  マクロ &#x200B;](/help/creative/creative-macros.md)を含むことができます（自分で使用できます）。
+**ランディングページのURL:** （1つのランディングページを持つSimple HTML5 クリエイターのみ）クリエイターを関連付ける各広告のデフォルトのランディングページのURL。 http://またはhttps://で始まる有効なURLである必要があります。 サードパーティのトラッキングパラメーターまたは[[!DNL Creative]  マクロ ](/help/creative/creative-macros.md)を含むことができます（自分で使用できます）。
 
 クリエイティブをバンドルに含め、そのバンドルをエクスペリエンスに割り当てる場合、オプションでランディングページ URLを変更したり、バンドル内の各クリエイティブにインプレッションおよびクリックトラッキング URLとJavaScriptを追加したりできます。<!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **ラベル：** （オプション）選択したすべてのクリエイターに適用するラベル。 [!DNL Creative]内の様々なビューで、クリエイティブをラベルでフィルタリングできます。
 
-* 既存のラベルを選択するには、![&#x200B; ダウン &#x200B;](/help/creative/assets/chevron-down.png " ダウン ")をクリックし、適用する各ラベルの横にあるチェックボックスをオンにします。
+* 既存のラベルを選択するには、![ ダウン ](/help/creative/assets/chevron-down.png " ダウン ")をクリックし、適用する各ラベルの横にあるチェックボックスをオンにします。
 
 * 既存のラベルを検索するには、ラベル名の中にテキスト文字列を入力します。
 
@@ -162,13 +168,13 @@ ht-degree: 0%
 
 **Creative サイズ：** （読み取り専用） アップロードされた画像のサイズ。
 
-**ランディングページのURL:** クリエイティブを関連付ける各広告のデフォルトのランディングページのURL。 ランディングページ URLは、http://またはhttps://で始まる有効なURLである必要があります。 サードパーティのトラッキングパラメーターまたは[[!DNL Creative]  マクロ &#x200B;](/help/creative/creative-macros.md)を含むことができます（自分で使用できます）。 選択したすべての画像に同じ値が適用されます。
+**ランディングページのURL:** クリエイティブを関連付ける各広告のデフォルトのランディングページのURL。 ランディングページ URLは、http://またはhttps://で始まる有効なURLである必要があります。 サードパーティのトラッキングパラメーターまたは[[!DNL Creative]  マクロ ](/help/creative/creative-macros.md)を含むことができます（自分で使用できます）。 選択したすべての画像に同じ値が適用されます。
 
 クリエイティブをバンドルに含めて、そのバンドルをエクスペリエンスに割り当てる場合、オプションでランディングページ URLを変更したり、バンドル内の各クリエイティブにインプレッションおよびクリックトラッキング URLとJavaScriptを追加したりできます。<!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **ラベル：** （オプション）選択したすべてのクリエイターに適用するラベル。 [!DNL Creative]内の様々なビューで、クリエイティブをラベルでフィルタリングできます。
 
-* 既存のラベルを選択するには、![&#x200B; ダウン &#x200B;](/help/creative/assets/chevron-down.png " ダウン ")をクリックし、適用する各ラベルの横にあるチェックボックスをオンにします。
+* 既存のラベルを選択するには、![ ダウン ](/help/creative/assets/chevron-down.png " ダウン ")をクリックし、適用する各ラベルの横にあるチェックボックスをオンにします。
 
 * 既存のラベルを検索するには、ラベル名の中にテキスト文字列を入力します。
 
@@ -180,7 +186,7 @@ ht-degree: 0%
 
 **JavaScriptCode:** サードパーティ広告サーバー上のクリエイティブを指すJavaScript タグ（およびJavaScriptをサポートしていないブラウザーの代替タグもオプションで使用できます）。 スクリプトは広告サーバーによって異なる場合があります。 複数のクリエイティブを編集すると、選択した各クリエイティブに同じ値が適用されます。
 
-使用可能なすべての[&#x200B; マクロ &#x200B;](/help/creative/creative-macros.md)と、その代わりに使用するデータは、入力フィールドの下に一覧表示されます。 タグにマクロのいずれかを挿入するには、マクロの説明の上にカーソルを置き、![&#x200B; クリップボードにコピー](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー")をクリックしてから、タグ内の任意の場所に画像を貼り付けます。
+使用可能なすべての[ マクロ ](/help/creative/creative-macros.md)と、その代わりに使用するデータは、入力フィールドの下に一覧表示されます。 タグにマクロのいずれかを挿入するには、マクロの説明の上にカーソルを置き、![ クリップボードにコピー](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー")をクリックしてから、タグ内の任意の場所に画像を貼り付けます。
 
 DSPから広告として実装するエクスペリエンスにこのクリエイティブを含めると、DSPはこのタグの情報を使用して広告を表示し、その広告のインプレッションとクリック数を追跡します。 その後、DSPがタグをAd Exchangeにプッシュします。 広告が表示され、クリックされると、広告サーバー、DSPおよび[!DNL Creative]はイベントを追跡します。
 
@@ -196,7 +202,7 @@ DSPから広告として実装するエクスペリエンスにこのクリエ�
 
 **ラベル：** （オプション）選択したすべてのクリエイターに適用するラベル。 [!DNL Creative]内の様々なビューで、クリエイティブをラベルでフィルタリングできます。
 
-* 既存のラベルを選択するには、![&#x200B; ダウン &#x200B;](/help/creative/assets/chevron-down.png " ダウン ")をクリックし、適用する各ラベルの横にあるチェックボックスをオンにします。
+* 既存のラベルを選択するには、![ ダウン ](/help/creative/assets/chevron-down.png " ダウン ")をクリックし、適用する各ラベルの横にあるチェックボックスをオンにします。
 
 * 既存のラベルを検索するには、ラベル名の中にテキスト文字列を入力します。
 
@@ -212,13 +218,13 @@ DSPから広告として実装するエクスペリエンスにこのクリエ�
 
 **言語：** クリエイターを関連付ける各広告の既定の言語。 選択したすべての画像に同じ値が適用されます。 クリエイティブをエクスペリエンスに含める場合は、オプションでエクスペリエンスの言語設定をカスタマイズできます。
 
-**ランディングページのURL:** クリエイティブを関連付ける各広告のデフォルトのランディングページのURL。 ランディングページ URLは、http://またはhttps://で始まる有効なURLである必要があります。 サードパーティのトラッキングパラメーターまたは[[!DNL Creative]  マクロ &#x200B;](/help/creative/creative-macros.md)を含むことができます（自分で使用できます）。 選択したすべての画像に同じ値が適用されます。
+**ランディングページのURL:** クリエイティブを関連付ける各広告のデフォルトのランディングページのURL。 ランディングページ URLは、http://またはhttps://で始まる有効なURLである必要があります。 サードパーティのトラッキングパラメーターまたは[[!DNL Creative]  マクロ ](/help/creative/creative-macros.md)を含むことができます（自分で使用できます）。 選択したすべての画像に同じ値が適用されます。
 
 クリエイティブをバンドルに含めて、そのバンドルをエクスペリエンスに割り当てる場合、オプションでランディングページ URLを変更したり、バンドル内の各クリエイティブにインプレッションおよびクリックトラッキング URLとJavaScriptを追加したりできます。<!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **ラベル：** （オプション）選択したすべてのクリエイターに適用するラベル。 [!DNL Creative]内の様々なビューで、クリエイティブをラベルでフィルタリングできます。
 
-* 既存のラベルを選択するには、![&#x200B; ダウン &#x200B;](/help/creative/assets/chevron-down.png " ダウン ")をクリックし、適用する各ラベルの横にあるチェックボックスをオンにします。
+* 既存のラベルを選択するには、![ ダウン ](/help/creative/assets/chevron-down.png " ダウン ")をクリックし、適用する各ラベルの横にあるチェックボックスをオンにします。
 
 * 既存のラベルを検索するには、ラベル名の中にテキスト文字列を入力します。
 
@@ -230,4 +236,4 @@ DSPから広告として実装するエクスペリエンスにこのクリエ�
 >
 >* [標準クリエイティブをクリエイティブライブラリに追加](/help/creative/creative-libraries/creative-add-standard.md)
 >* [標準クリエイティブの編集](/help/creative/creative-libraries/creative-edit-standard.md)
->* [URLのトラッキングに使用できるマクロ &#x200B;](/help/creative/creative-macros.md)
+>* [URLのトラッキングに使用できるマクロ ](/help/creative/creative-macros.md)

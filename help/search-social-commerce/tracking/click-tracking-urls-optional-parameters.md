@@ -3,18 +3,21 @@ title: クリックトラッキング URLのオプションのトラッキング
 description: オプションの検索、ソーシャル、およびCommerce トラッキングパラメーターと、クリックトラッキング URLに追加できる広告ネットワーク固有のトラッキングパラメーターについて説明します。
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E
+TQID: 'https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: '1146'
 ht-degree: 0%
-
 ---
-
 # クリックトラッキング URLのオプションのトラッキングパラメーター
 
 *[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]および[!DNL Yandex] アカウントのみ*
@@ -25,11 +28,11 @@ ht-degree: 0%
 
 * アカウント/キャンペーンのベース URLにAdobe Advertising固有および広告ネットワーク固有のパラメーターを追加して、より多くのデータをトラッキングできます。
 
-   * Adobe Advertising パラメーターは半静的です。 Adobe Advertisingは、ベース URLをアドネットワークにアップロードするときにデータ値を挿入します。 例えば、ベース URLに`campaign={ef_campaign}`を追加すると、URLをアップロードするときに、Adobe Advertisingは`{ef_campaign}`を実際のキャンペーン名（「Back-to-school-Campaign」など）に置き換えます。
+  * Adobe Advertising パラメーターは半静的です。 Adobe Advertisingは、ベース URLをアドネットワークにアップロードするときにデータ値を挿入します。 例えば、ベース URLに`campaign={ef_campaign}`を追加すると、URLをアップロードするときに、Adobe Advertisingは`{ef_campaign}`を実際のキャンペーン名（「Back-to-school-Campaign」など）に置き換えます。
 
-     **メモ：**&#x200B;値を挿入すると、静的なままになります。 キーワードまたは広告を別の広告グループに移動する場合、または広告グループを別のキャンペーンに移動する場合、{ef_adgroup}または{ef_campaign} パラメーターは自動的に更新されないため、新しい宛先URLまたはベース（最終） URLを手動で生成する必要があります。
+    **メモ：**&#x200B;値を挿入すると、静的なままになります。 キーワードまたは広告を別の広告グループに移動する場合、または広告グループを別のキャンペーンに移動する場合、{ef_adgroup}または{ef_campaign} パラメーターは自動的に更新されないため、新しい宛先URLまたはベース（最終） URLを手動で生成する必要があります。
 
-   * 広告ネットワーク固有のパラメーターは動的であり、ユーザーが広告をクリックすると、検索エンジンがデータ値を挿入します。 例えば、ベース URLに`{param1}`を追加すると、エンドユーザーが広告をクリックしたときに、広告ネットワークは実際の{param1}値に置き換えます。
+  * 広告ネットワーク固有のパラメーターは動的であり、ユーザーが広告をクリックすると、検索エンジンがデータ値を挿入します。 例えば、ベース URLに`{param1}`を追加すると、エンドユーザーが広告をクリックしたときに、広告ネットワークは実際の{param1}値に置き換えます。
 
 >[!NOTE]
 >
@@ -38,7 +41,7 @@ ht-degree: 0%
 >* 追加されたパラメーター内の特殊文字は、生成された宛先URLまたはベース（最終） URLで次のように置換されます。
 >  * `=`は`%3D`に置換されています
 >  * `?`は`%26`に置換されています
->  * 空のスペースは`%2B`で置き換えられます
+>  * 空のスペースは、で置き換えられます `%2B`
 >  例えば、キーワードのベース URL http://www.example.comにパラメーター`campaign={ef_campaign}`を追加すると、そのキーワードのベース URLは`http://www.example.com/campaign%3D{ef_campaign}`として生成されます。
 
 ## Search, Social, &amp; Commerceの静的トラッキングパラメーター
@@ -49,7 +52,7 @@ ht-degree: 0%
 
 | パラメーター | 説明 |
 | ---- | ---- |
-| <code>{custom_code}</code> | アップロードされたバルクシートファイルの「カスタム URL パラメーター」列のデータをトラッキング URLに挿入するには、次の手順を実行します。 {custom_code}は、トラッキング URLの1つ以上のキーと値のペアの値の末尾でのみ使用できます。 例：<code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>注意：</b> バルクシート ファイルのカスタム値をトラッキング URLに挿入するには、「トラッキング URLを生成」オプションを使用してバルクシート ファイルをアップロードします。 バルクシート ファイルの使用について詳しくは、「[&#x200B; バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)」を参照してください。 |
+| <code>{custom_code}</code> | アップロードされたバルクシートファイルの「カスタム URL パラメーター」列のデータをトラッキング URLに挿入するには、次の手順を実行します。 {custom_code}は、トラッキング URLの1つ以上のキーと値のペアの値の末尾でのみ使用できます。 例：<code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>注意：</b> バルクシート ファイルのカスタム値をトラッキング URLに挿入するには、「トラッキング URLを生成」オプションを使用してバルクシート ファイルをアップロードします。 バルクシート ファイルの使用について詳しくは、「[ バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)」を参照してください。 |
 | <code>{ef_uniqueid}</code> | Adobe Advertisingで作成された一意のIDを挿入します。 トラッキング方法が「EF リダイレクト」の場合に自動的に追加されます。 |
 | <code>{ef_userid}</code> | Adobe Advertisingが広告主に割り当てる一意のユーザーIDを挿入します。 |
 | <code>{ef_sid}</code> | Search, Social, &amp; Commerceが広告ネットワークに割り当てる数値IDを挿入するには：<i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> for [!DNL Naver], [!DNL Baidu], <i>[!UICONTROL 88]</i>, <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> for [!DNL LY Ads] （旧称[!DNL Yahoo! Japan Ads]）, <i>[!UICONTROL 105]</i> for [!DNL Yahoo Native] （非推奨）, <i>[!UICONTROL 106]</i> （非推奨）。[!DNL Pinterest] |

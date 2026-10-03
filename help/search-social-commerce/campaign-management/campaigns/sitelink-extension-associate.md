@@ -3,18 +3,21 @@ title: 共有サイトリンクをアカウント、キャンペーン、広告�
 description: アカウント、キャンペーン、広告グループに共有サイトリンク拡張機能を割り当てる方法について説明します。
 exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/at7jX7JhnEMMl-DF-AtpY8fXjoqs2aQs6gtKB1-vPJk
+TQID: 'https://experienceleague.adobe.com/at7jX7JhnEMMl-DF-AtpY8fXjoqs2aQs6gtKB1-vPJk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '295'
 ht-degree: 0%
-
 ---
-
 # 共有サイトリンクをアカウント、キャンペーン、広告グループに関連付ける
 
 *[!DNL Google Ads]と[!DNL Microsoft Advertising]のみ*
@@ -39,7 +42,7 @@ ht-degree: 0%
 
    * （オプション）アカウントを展開してキャンペーンを表示するには、アカウント名をクリックします。 同様に、キャンペーンを展開して子広告グループを表示するには、キャンペーン名をクリックします。
 
-   * （オプション）キャンペーンリストまたは広告グループリストを、名前に含まれるテキスト文字列でフィルタリングするには、![&#x200B; フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、テキスト文字列を入力フィールドに入力または貼り付け、**Enter** キーを押します。
+   * （オプション）キャンペーンリストまたは広告グループリストを、名前に含まれるテキスト文字列でフィルタリングするには、![ フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、テキスト文字列を入力フィールドに入力または貼り付け、**Enter** キーを押します。
 
    * サイトリンクが割り当てられている各エンティティの横にある円（![選択](/help/search-social-commerce/assets/include.png "選択")）を選択します。
 
@@ -47,5 +50,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; サイトリンク拡張機能について](sitelink-extension-about.md)
+>* [ サイトリンク拡張機能について](sitelink-extension-about.md)
 >* [共有サイトリンク拡張機能の管理](sitelink-extension-manage.md)

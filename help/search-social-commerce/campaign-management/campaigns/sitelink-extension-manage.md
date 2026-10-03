@@ -3,27 +3,31 @@ title: 共有サイトリンクの管理
 description: 共有サイトリンク拡張機能の作成と管理方法について説明します。
 exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI
+TQID: 'https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '952'
 ht-degree: 0%
-
 ---
-
 # 共有サイトリンクの管理
 
 *[!DNL Google Ads]と[!DNL Microsoft Advertising]のみ*
 
-[!DNL Google Ads] > [!DNL Microsoft Advertising] ライブラリから、同期された[!UICONTROL Extensions]または[!UICONTROL Sitelinks] アカウントのアカウントレベルの共有サイトリンクを作成および管理します。
+[!UICONTROL Extensions] > [!UICONTROL Sitelinks] ライブラリから、同期された[!DNL Google Ads]または[!DNL Microsoft Advertising] アカウントのアカウントレベルの共有サイトリンクを作成および管理します。
 
 ## 共有サイトリンクの作成
 
@@ -37,7 +41,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
-サイトリンクを作成したら、[&#x200B; アカウント、キャンペーン、または広告グループに割り当てることができます](sitelink-extension-associate.md)。
+サイトリンクを作成したら、[ アカウント、キャンペーン、または広告グループに割り当てることができます](sitelink-extension-associate.md)。
 
 ## 共有サイトリンク設定の編集
 
@@ -81,9 +85,9 @@ ht-degree: 0%
 
 **[!UICONTROL Description Line 1], [!UICONTROL Description Line 2]:**&#x200B;検索エンジンがリンクテキストの下に表示できる追加テキスト。 説明を含めるには、両方の説明フィールドに値を入力します。 各説明フィールドには、最大35個の1 バイト文字または17個の2 バイト文字を含めることができます。
 
-**[!UICONTROL Start Date]:** （既存のサイトリンクがあるキャンペーンまたはサイトリンクがないキャンペーンのみ。オプション） サイトリンクがキャンペーン内の広告と共に表示される最初の日付。 新しいサイトリンクのデフォルトは現在の日付です。 今後の開始日を指定するには、MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、クリックします   日付を選択します。
+**[!UICONTROL Start Date]:** （既存のサイトリンクがあるキャンペーンまたはサイトリンクがないキャンペーンのみ。オプション） サイトリンクがキャンペーン内の広告と共に表示される最初の日付。 新しいサイトリンクのデフォルトは現在の日付です。 今後の開始日を指定するには、MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、クリックして日付を選択します。
 
-**[!UICONTROL End Date]:** （オプション） サイトリンクがキャンペーン内の広告と共に表示される最後の日付。 デフォルトでは、サイトリンクは無期限に表示される場合があります。 終了日を指定するには、MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、クリックします   日付を選択します。
+**[!UICONTROL End Date]:** （オプション） サイトリンクがキャンペーン内の広告と共に表示される最後の日付。 デフォルトでは、サイトリンクは無期限に表示される場合があります。 終了日を指定するには、MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、クリックして日付を選択します。
 
 **[!UICONTROL Mobile Preference]:** （オプション） ネットワークが、デスクトップ ユーザーやタブレット ユーザーではなく、モバイル デバイス ユーザーに広告拡張機能を表示しようとすることを許可します。 デフォルトでは、このオプションは有効になっておらず、広告拡張機能は任意のデバイスタイプに表示されます。
 
@@ -107,7 +111,7 @@ ht-degree: 0%
 
 * キャンペーン設定に「[!UICONTROL EF Redirect]」と「自動アップロード」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合、レコードを保存すると、Search, Social, &amp; Commerceは自動的に独自のクリックトラッキングコードの先頭に付きます。
 
-* サポートされているパラメーターで最終的なURLを埋め込むには、[!DNL Microsoft Advertising] ドキュメント [[!DNL Microsoft Advertising] の「使用可能な](https://help.ads.microsoft.com/#apex/3/en/56799) パラメーター」の節の「[!DNL Google Ads]のみ） [!DNL ValueTrack] ドキュメント [[!DNL Google Ads] または（](https://support.google.com/google-ads/answer/6305348)のみ）トラッキングテンプレートのみ」パラメーターを参照してください。
+* サポートされているパラメーターで最終的なURLを埋め込むには、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）トラッキングテンプレートのみ」パラメーターを参照してください。
 
 * 必要に応じて、URL パラメーターと、キャンペーン用に定義された任意のカスタムパラメーターを、アンパサンド（&amp;）で区切って含めることができます（`{lpurl}?matchtype={matchtype}&device={device}`）。
 
@@ -123,5 +127,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; サイトリンク拡張機能について](sitelink-extension-about.md)
+>* [ サイトリンク拡張機能について](sitelink-extension-about.md)
 >* [共有サイトリンクをアカウント、キャンペーン、広告グループに関連付ける](sitelink-extension-associate.md)

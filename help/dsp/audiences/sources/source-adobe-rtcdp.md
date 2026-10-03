@@ -1,40 +1,46 @@
 ---
-title: ' [!DNL Adobe] [!DNL Real-time CDP]とのDSP統合の使用'
-description: DSPで [!DNL Adobe] [!DNL Real-time CDP] ファーストパーティセグメントの取り込みを有効にする方法について説明します。
+title: '[!DNL Adobe] [!DNL Real-time CDP]とのDSP統合を使用しています'
+description: DSPで[!DNL Adobe] [!DNL Real-time CDP] 1st パーティセグメントの取り込みを有効にする方法について説明します。
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-TQID: https://experienceleague.adobe.com/Ggt-YiAoGurfI5eET66xJwMBTSq-w5FO7wH60WZshEk
+TQID: 'https://experienceleague.adobe.com/Ggt-YiAoGurfI5eET66xJwMBTSq-w5FO7wH60WZshEk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 50af5a8fc6e5e82268489259073e27911ca5a45c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: '596'
 ht-degree: 0%
-
 ---
-
 # ユーザーIDを[!DNL Adobe Real-Time CDP]からユニバーサル IDに変換
 
-Adobe Experience Platformの一部である[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja)とのDSP統合を使用して、ハッシュ化された電子メールアドレス、Cookie、モバイル広告IDなどのユーザーIDを、ターゲット広告のユニバーサル IDに変換します。
+Adobe Experience Platformの一部である[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)とのDSP統合を使用して、ハッシュ化された電子メールアドレス、Cookie、モバイル広告IDなどのユーザーIDを、ターゲット広告のユニバーサル IDに変換します。
 
 1. （ユーザーIDを[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->に変換するには、[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)を持つ広告主） [!DNL Analytics]の測定に対するトラッキングを設定します。
 
-   1. （まだ実行していない場合）トラッキング URL[&#128279;](/help/integrations/analytics/ids.md)で、 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)およびAMO IDとEF IDを実装するためのすべての前提条件を完了してください。
+   1. （まだ実行していない場合）トラッキング URL](/help/integrations/analytics/ids.md)で、 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)および[AMO IDとEF IDを実装するための[すべての前提条件を完了してください。
 
    1. ユニバーサル ID パートナーに登録し、web ページにユニバーサル ID固有のコードをデプロイして、デスクトップおよびモバイルのweb ブラウザー（モバイルアプリは除く）のIDからビュースルーのコンバージョンを一致させます。
 
       * **[!DNL RampIDs]の場合：** デスクトップおよびモバイル web ブラウザー（モバイルアプリではない）のIDからビュースルーに一致させるには、web ページにJavaScript タグを追加してデプロイする必要があります。 [!DNL LiveRamp]認証トラフィックソリューション（ats.js）から[!DNL LiveRamp] [!DNL LaunchPad] タグを登録する手順については、Adobe アカウントチームにお問い合わせください。 登録は無料ですが、契約書に署名する必要があります。 登録が完了すると、Adobeアカウントチームが独自のタグを生成し、web ページへの導入に使用します。
 
-1. [&#x200B; オーディエンスソースを作成](source-manage.md)して、DSP アカウントまたは広告主アカウントにオーディエンスを読み込みます。 ユーザーIDを[使用可能なユニバーサル ID形式](source-about.md)のいずれかに変換することを選択できます。
+1. [ オーディエンスソースを作成](source-manage.md)して、DSP アカウントまたは広告主アカウントにオーディエンスを読み込みます。 ユーザーIDを[使用可能なユニバーサル ID形式](source-about.md)のいずれかに変換することを選択できます。
 
    ソース設定には、自動生成されたソースキーが含まれ、次の手順で使用します。
 
@@ -42,29 +48,29 @@ Adobe Experience Platformの一部である[the [!DNL Adobe Real-Time CDP]](http
 
    メールアドレスは、SHA-256 アルゴリズムを使用してハッシュ化する必要があります。
 
-   DSP宛先接続のアクティブ化、オーディエンスのアクティブ化、データ書き出しの検証の手順については、「[Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)」を参照してください。
+   DSP宛先接続のアクティブ化、オーディエンスのアクティブ化、データ書き出しの検証の手順については、「[Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)」を参照してください。
 
    >[!NOTE]
    >
-   >ハッシュ化された電子メールアドレスのみをサポートする従来の接続は、「[Legacy Adobe Advertising Cloud DSP connection](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy)」と呼ばれるようになりました。 既に従来の接続を使用している場合は、すぐに変更を加える必要はありません。 ただし、従来の接続は最終的に削除されます。
+   >ハッシュ化された電子メールアドレスのみをサポートする従来の接続は、「[Legacy Adobe Advertising Cloud DSP connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy)」と呼ばれるようになりました。 既に従来の接続を使用している場合は、すぐに変更を加える必要はありません。 ただし、従来の接続は最終的に削除されます。
 
 1. オーディエンスライブラリ（[!UICONTROL Audiences] > [!UICONTROL All Audiences]またはプレースメント設定内でオーディエンスを作成または編集する際に使用可能）で、セグメントが入力されていることを確認し、ユニバーサル IDの数と元のユーザーIDの数を比較します。
 
-   これらのセグメントは、24時間以内にDSPで利用できるようになります。 DSPがセグメントデータを受け取った後、オーディエンスサイズは9時間以内に表示されます。 使用可能なIDの翻訳率と、セグメント数が異なる理由については、「[&#x200B; メール IDとユニバーサル IDの間のデータの相違](#universal-ids-data-variances)」を参照してください。
+   これらのセグメントは、24時間以内にDSPで利用できるようになります。 DSPがセグメントデータを受け取った後、オーディエンスサイズは9時間以内に表示されます。 使用可能なIDの翻訳率と、セグメント数が異なる理由については、「[ メール IDとユニバーサル IDの間のデータの相違](#universal-ids-data-variances)」を参照してください。
 
 セグメントは24時間ごとに更新されます。 ただし、セグメントに含めるには、デフォルトで30日が経過するか、顧客が指定した有効期限が経過した後に有効期限が切れます。 有効期限が切れる前にReal-Time CDPからセグメントを再プッシュして、セグメントを更新します。 カスタムセグメントの有効期限をリクエストするには、Adobe アカウントチームにお問い合わせください。
 
 ## トラブルシューティング
 
-翻訳率とユーザー数の問題をトラブルシューティングするには、「[&#x200B; ユニバーサル IDのアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)」を参照してください。
+翻訳率とユーザー数の問題をトラブルシューティングするには、「[ ユニバーサル IDのアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)」を参照してください。
 
 変換手順に関する問題をトラブルシューティングするには、Adobe アカウントチームまたは`adcloud-support@adobe.com`にお問い合わせください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
->* [&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](source-manage.md)
->* [Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)
->* Adobe Experience Platform [宛先カタログの概要](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ja)
->* [&#x200B; ユニバーサル IDのアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)
->* [&#x200B; オーディエンス管理について](/help/dsp/audiences/audience-about.md)
+>* [ ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
+>* [ オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](source-manage.md)
+>* [Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Adobe Experience Platform [宛先カタログの概要](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [ ユニバーサル IDのアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)
+>* [ オーディエンス管理について](/help/dsp/audiences/audience-about.md)

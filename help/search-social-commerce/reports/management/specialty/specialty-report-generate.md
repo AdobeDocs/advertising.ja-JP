@@ -3,27 +3,33 @@ title: 特殊レポートの生成
 description: 専門性に関するレポートを生成する方法をご確認ください。
 exl-id: 2428fafa-109a-4a17-9004-a32941cd5519
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/07Y3trfC76LSKTfxMQig34wXASS1noGms2QHl3dEA1s
+TQID: 'https://experienceleague.adobe.com/07Y3trfC76LSKTfxMQig34wXASS1noGms2QHl3dEA1s'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 343
+source-wordcount: '343'
 ht-degree: 0%
-
 ---
-
 # 特殊レポートの生成
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;をクリックします。
 
-1. データテーブルの上のツールバーで「**[!UICONTROL Create Report]**」をクリックし、**[!UICONTROL Specialty Reports]**&#x200B;にカーソルを合わせ、[&#x200B; レポートタイプ &#x200B;](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)をクリックします。
+1. データテーブルの上のツールバーで「**[!UICONTROL Create Report]**」をクリックし、**[!UICONTROL Specialty Reports]**&#x200B;にカーソルを合わせ、[ レポートタイプ ](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)をクリックします。
 
-1. （オプション） [!UICONTROL Report Settings] ウィンドウで、デフォルトの[&#x200B; レポート設定](specialty-report-settings.md)を変更します。
+1. （オプション） [!UICONTROL Report Settings] ウィンドウで、デフォルトの[ レポート設定](specialty-report-settings.md)を変更します。
 
    1. （オプション）レポートとテンプレートのカスタム名を入力します（レポートをテンプレートとして保存する場合）。
 
@@ -47,11 +53,11 @@ ht-degree: 0%
 
 レポートスケジュールを指定しなかった場合、レポートはすぐに実行されます。指定したスケジュールに従って実行されます。 レポート名が[[!UICONTROL Latest Reports] ビュー](/help/search-social-commerce/reports/report-about.md)に追加されます。 レポートをテンプレートとして保存すると、[[!UICONTROL Templates] ビュー](/help/search-social-commerce/reports/report-about.md)にも追加されます。 レポートが完了すると、ファイルを開いたり保存したりできます。テンプレートはすぐに利用できます。
 
-通知に電子メールアドレスを入力した場合、ユーザーの[&#x200B; レポート用に設定された通知設定](/help/search-social-commerce/notifications/notification-edit.md)に基づいて、各受信者はレポートジョブが完了または失敗したときに通知を受け取ります。
+通知に電子メールアドレスを入力した場合、ユーザーの[ レポート用に設定された通知設定](/help/search-social-commerce/notifications/notification-edit.md)に基づいて、各受信者はレポートジョブが完了または失敗したときに通知を受け取ります。
 
 >[!MORELIKETHIS]
 >
 >* [専門性レポートについて](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
 >* [特殊レポート設定](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
 >* [専門性レポートのレポート列](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
->* [&#x200B; レポートの削除](/help/search-social-commerce/reports/management/report-delete.md)
+>* [ レポートの削除](/help/search-social-commerce/reports/management/report-delete.md)

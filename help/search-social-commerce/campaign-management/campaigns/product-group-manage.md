@@ -3,18 +3,21 @@ title: ショッピング商品グループの管理
 description: ショッピング施策でショッピング商品グループを作成および管理する方法について説明します。
 exl-id: cf818b87-ee4b-4cf5-a4e8-0b9a7fc32182
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/x-B0Ybah1ySNsyIKQz9iY2IT8fhvSawTx-mRDB0da6k
+TQID: 'https://experienceleague.adobe.com/x-B0Ybah1ySNsyIKQz9iY2IT8fhvSawTx-mRDB0da6k'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 720
+source-wordcount: '716'
 ht-degree: 0%
-
 ---
-
 # ショッピング商品グループの管理
 
 *[!DNL Google Ads]および[!DNL Microsoft Advertising]個のショッピング キャンペーンのみ*
@@ -27,7 +30,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->多くのアカウントコンポーネントを一度に作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>多くのアカウントコンポーネントを一度に作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
@@ -49,11 +52,11 @@ ht-degree: 0%
 
 >[!TIP]
 >
->多くのアカウントコンポーネントを一度に作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>多くのアカウントコンポーネントを一度に作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
-1. （オプション）製品グループとその子製品グループノードをツリービューで表示するには、製品グループ名にカーソルを合わせ、![&#x200B; メニューアイコン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Tree View]**&#x200B;を選択します。
+1. （オプション）製品グループとその子製品グループノードをツリービューで表示するには、製品グループ名にカーソルを合わせ、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Tree View]**&#x200B;を選択します。
 
 1. 製品グループ名の上にカーソルを置き、![矢印ドロップダウンメニュー](/help/search-social-commerce/assets/arrow-dropdown-menu.png "矢印ドロップダウンメニュー")をクリックし、**[!UICONTROL + Add Node]**&#x200B;を選択します。
 
@@ -67,11 +70,11 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
-1. （オプション）製品グループとその子製品グループノードをツリービューで表示するには、製品グループ名にカーソルを合わせ、![&#x200B; メニューアイコン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Tree View]**&#x200B;を選択します。
+1. （オプション）製品グループとその子製品グループノードをツリービューで表示するには、製品グループ名にカーソルを合わせ、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Tree View]**&#x200B;を選択します。
 
 1. 次のいずれかの操作を行います。
 
-   1. （単一の製品グループノードの設定を編集するには）製品グループ名にカーソルを合わせ、![&#x200B; メニューアイコン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL + Edit Node]**&#x200B;を選択します。
+   1. （単一の製品グループノードの設定を編集するには）製品グループ名にカーソルを合わせ、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL + Edit Node]**&#x200B;を選択します。
 
    1. （1つ以上の広告グループの設定を編集するには）次の操作を行います。
 
@@ -103,16 +106,16 @@ ht-degree: 0%
 
    * 1つ以上の製品グループを削除するには、次の操作を行います。
 
-      1. 削除する各製品グループの横にあるチェックボックスをオンにします。
+     1. 削除する各製品グループの横にあるチェックボックスをオンにします。
 
-         複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
+        複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-      1. ツールバーで、![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、**[!UICONTROL Delete]**&#x200B;を選択します。
+     1. ツールバーで、![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、**[!UICONTROL Delete]**&#x200B;を選択します。
 
-      1. 確認メッセージで、**[!UICONTROL Delete]**&#x200B;をクリックします。
+     1. 確認メッセージで、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ショッピング商品グループについて](product-group-about.md)
+>* [ ショッピング商品グループについて](product-group-about.md)
 >* [[!DNL Google Ads] 製品グループ設定](product-group-settings-google.md)
 >* [[!DNL Microsoft Advertising] 製品グループ設定](product-group-settings-microsoft.md)

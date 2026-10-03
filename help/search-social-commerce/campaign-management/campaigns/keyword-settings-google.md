@@ -1,28 +1,33 @@
 ---
 title: '[!DNL Google Ads] キーワード設定'
-description: ' [!DNL Google Ads]  キーワードの設定を参照してください。'
+description: '[!DNL Google Ads] キーワードの設定を参照してください。'
 exl-id: b2937d18-565a-43f0-ba33-d46d4c77ec07
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/XwutnbHVQrg8mfimzVjv-Px6OeUsOWzT7-347-ff2C0
+TQID: 'https://experienceleague.adobe.com/XwutnbHVQrg8mfimzVjv-Px6OeUsOWzT7-347-ff2C0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: '204'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] キーワード設定
 
 検索ネットワークと表示ネットワークを使用するキャンペーンのキーワードを作成できます。
 
-アカウントごとの[!DNL Google Ads] キーワード制限[について、](https://support.google.com/google-ads/answer/6372658)のヘルプを参照してください。
+アカウントごとの[ キーワード制限](https://support.google.com/google-ads/answer/6372658)について、[!DNL Google Ads]のヘルプを参照してください。
 
 ## [!UICONTROL Keyword Details]
 
@@ -68,4 +73,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [ キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

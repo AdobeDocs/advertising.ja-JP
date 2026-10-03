@@ -3,20 +3,24 @@ title: カスタムアラートテンプレートの一時停止
 description: アクティブなアラートテンプレートを一時停止する方法を説明します。
 exl-id: c0ce222d-5478-467b-abe2-bb0fc4906160
 feature: Search Alerts
-TQID: https://experienceleague.adobe.com/KeCTZl9wyvTVo8f-QMACUQ0UAZDmadi5bdc8ZhDAIF4
+TQID: 'https://experienceleague.adobe.com/KeCTZl9wyvTVo8f-QMACUQ0UAZDmadi5bdc8ZhDAIF4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 130
+source-wordcount: '129'
 ht-degree: 0%
-
 ---
-
 # カスタムアラートテンプレートの一時停止
 
 アクティブなアラートテンプレートは一時停止できます。
@@ -33,11 +37,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムアラートについて](alert-about.md)
->* [&#x200B; カスタムアラートテンプレートを作成](alert-template-create.md)
->* [&#x200B; カスタムアラートテンプレートの編集](alert-template-edit.md)
->* [&#x200B; カスタムアラートテンプレートをアクティブ化](alert-template-activate.md)
->* [&#x200B; カスタムアラートテンプレートを削除](alert-template-delete.md)
->* [&#x200B; カスタムアラートテンプレート設定](alert-template-settings.md)
->* [&#x200B; カスタムアラートの表示](alert-view.md)
->* [&#x200B; カスタムアラート用にデータを書き出し](alert-export-data.md)
+>* [ カスタムアラートについて](alert-about.md)
+>* [ カスタムアラートテンプレートを作成](alert-template-create.md)
+>* [ カスタムアラートテンプレートの編集](alert-template-edit.md)
+>* [ カスタムアラートテンプレートをアクティブ化](alert-template-activate.md)
+>* [ カスタムアラートテンプレートを削除](alert-template-delete.md)
+>* [ カスタムアラートテンプレート設定](alert-template-settings.md)
+>* [ カスタムアラートの表示](alert-view.md)
+>* [ カスタムアラート用にデータを書き出し](alert-export-data.md)

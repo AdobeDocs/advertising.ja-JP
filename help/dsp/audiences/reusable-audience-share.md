@@ -3,22 +3,26 @@ title: 再利用可能なオーディエンスの共有
 description: アカウントで利用可能な他の広告主と再利用可能なオーディエンスを共有する方法を説明します。
 feature: DSP Audiences
 exl-id: c0369efe-464d-43d1-9b21-1113a38fc9bb
-TQID: https://experienceleague.adobe.com/LKnDvwtK9CkPunLEfKy8YRiatgQUDUtLD6bow8s7XSw
+TQID: 'https://experienceleague.adobe.com/LKnDvwtK9CkPunLEfKy8YRiatgQUDUtLD6bow8s7XSw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 121
+source-wordcount: '122'
 ht-degree: 0%
-
 ---
-
 # 再利用可能なオーディエンスの共有
 
 アカウントで利用可能な広告主とオーディエンスをまだ共有していない場合は、いつでも共有を開始できます。
@@ -35,7 +39,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンス管理について](audience-about.md)
+>* [ オーディエンス管理について](audience-about.md)
 >* [再利用可能なオーディエンスを作成](reusable-audience-create.md)
 >* [再利用可能なオーディエンスを複製](reusable-audience-duplicate.md)
 >* [再利用可能なオーディエンスの編集](reusable-audience-edit.md)
@@ -43,6 +47,6 @@ ht-degree: 0%
 >* [再利用可能なオーディエンスの書き出し](reusable-audience-export.md)
 >* [再利用可能なオーディエンスのセグメントキーをクリップボードにコピー](reusable-audience-clipboard.md)
 >* [再利用可能なオーディエンスを削除](reusable-audience-delete.md)
->* [&#x200B; オーディエンス設定](audience-settings.md)
->* [&#x200B; オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
+>* [ オーディエンス設定](audience-settings.md)
+>* [ オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
 >* [使用可能なサードパーティのデータプロバイダー](third-party-data-providers.md)

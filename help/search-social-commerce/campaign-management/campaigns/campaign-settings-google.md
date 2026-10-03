@@ -1,24 +1,30 @@
 ---
 title: '[!DNL Google Ads] キャンペーン設定'
-description: ' [!DNL Google Ads]  キャンペーンの設定を参照します。'
+description: '[!DNL Google Ads] キャンペーンの設定を参照します。'
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4
+TQID: 'https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2700
+source-wordcount: '2703'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] キャンペーン設定
 
 ## \[ キャンペーン作成画面\]
@@ -37,13 +43,13 @@ ht-degree: 0%
 
   **メモ：**
 
-   * 必要な設定のみが使用できます。 オプションの設定については、[!DNL Google Ads] エディターにログインしてください。
+  * 必要な設定のみが使用できます。 オプションの設定については、[!DNL Google Ads] エディターにログインしてください。
 
-   * [!DNL Google Merchant Center]個の製品フィードへのリンクはサポートされていません。
+  * [!DNL Google Merchant Center]個の製品フィードへのリンクはサポートされていません。
 
-   * リストグループのサポートは利用できません。 リスト グループのデータを管理および表示するには、[!DNL Google Ads] エディターにログインします。
+  * リストグループのサポートは利用できません。 リスト グループのデータを管理および表示するには、[!DNL Google Ads] エディターにログインします。
 
-   * ハイブリッド最適化がサポートされています。 入札戦略目標とキャンペーン予算は、キャンペーンレベルで設定されます。
+  * ハイブリッド最適化がサポートされています。 入札戦略目標とキャンペーン予算は、キャンペーンレベルで設定されます。
 
 ## [!UICONTROL Campaign Details]
 
@@ -107,7 +113,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Manual CPC]* （デフォルト）: （パフォーマンスの最大キャンペーンでは使用できません） クリック単価（CPC）モデルを使用します。 オプションで、広告ネットワークがキャンペーンの入札額を変更できるようにすることができます。
 
-   * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）：これは、非推奨の「[!UICONTROL Enhanced CPC]」オプションを使用するのと同じです。 [!DNL Google Ads]は、2025年3月15日に既存の[拡張CPC入札戦略](https://support.google.com/google-ads/answer/2464964)を手動CPCに自動的に変更し始めました。
+  * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）：これは、非推奨の「[!UICONTROL Enhanced CPC]」オプションを使用するのと同じです。 [!DNL Google Ads]は、2025年3月15日に既存の[拡張CPC入札戦略](https://support.google.com/google-ads/answer/2464964)を手動CPCに自動的に変更し始めました。
 
 * *[!UICONTROL Maximize Clicks]:* （検索、表示、ショッピング キャンペーン）検索、ソーシャル、Commerceではなく、広告ネットワークが入札を最適化してクリック数を最大化します。 オプションで&#x200B;**[!UICONTROL Max CPC]** （クリック単価）を入力して、広告ネットワークがクリックごとに特定の金額を超えて支払わないようにします。 **注意：**&#x200B;この戦略を含むキャンペーンをポートフォリオに追加すると、入札はポートフォリオの目的ではなく、クリックの重みによって行われます。
 
@@ -144,7 +150,7 @@ ht-degree: 0%
 
 **ヒント：**&#x200B;この設定を使用する場合は、[!UICONTROL Inventory Filter]設定でローカル広告を除外しないでください。
 
-**注：**&#x200B;のローカル在庫広告では、[!DNL Google Merchant Center]への2つの追加フィードが必要です。1つはローカル製品データで、もう1つはローカル製品の在庫で必要です。 [&#x200B; ローカルショッピング広告](https://www.google.com/retail/local-inventory-ads/)について詳しくは、[!DNL Google Ads]のドキュメントを参照してください。
+**注：**&#x200B;のローカル在庫広告では、[!DNL Google Merchant Center]への2つの追加フィードが必要です。1つはローカル製品データで、もう1つはローカル製品の在庫で必要です。 [ ローカルショッピング広告](https://www.google.com/retail/local-inventory-ads/)について詳しくは、[!DNL Google Ads]のドキュメントを参照してください。
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 
@@ -162,19 +168,19 @@ ht-degree: 0%
 
 * 特定の場所をターゲティングまたは除外するには：
 
-   * （国、州、大都市圏、または都市） **[!UICONTROL Location Target]** （![場所ターゲット &#x200B;](/help/search-social-commerce/assets/location-target.png "場所ターゲット ")）をクリックし、含める場所と除外する場所を見つけます。
+  * （国、州、大都市圏、または都市） **[!UICONTROL Location Target]** （![場所ターゲット ](/help/search-social-commerce/assets/location-target.png "場所ターゲット ")）をクリックし、含める場所と除外する場所を見つけます。
 
-      * 場所とその子の場所を含めるには、隣接する円を1回クリックして、青いチェックマーク（![含める](/help/search-social-commerce/assets/include.png "含める")）が表示されます。
+    * 場所とその子の場所を含めるには、隣接する円を1回クリックして、青いチェックマーク（![含める](/help/search-social-commerce/assets/include.png "含める")）が表示されます。
 
-      * 場所を除外するには、赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されるように、隣接する円を2回クリックします。
+    * 場所を除外するには、赤いチェックマーク（![除外](/help/search-social-commerce/assets/exclude.png "除外")）が表示されるように、隣接する円を2回クリックします。
 
-      * 場所をサブコンポーネント（米国の州、都市圏、都市など）に展開するには、場所名をクリックします。
+    * 場所をサブコンポーネント（米国の州、都市圏、都市など）に展開するには、場所名をクリックします。
 
-      * 場所を検索するには、入力フィールドに場所の最初の3文字を入力または貼り付けます。 検索結果で、含める場所の横にある&#x200B;**[!UICONTROL Include]**&#x200B;をクリックするか、除外する場所の横にある&#x200B;**[!UICONTROL Exclude]**&#x200B;をクリックします。
+    * 場所を検索するには、入力フィールドに場所の最初の3文字を入力または貼り付けます。 検索結果で、含める場所の横にある&#x200B;**[!UICONTROL Include]**&#x200B;をクリックするか、除外する場所の横にある&#x200B;**[!UICONTROL Exclude]**&#x200B;をクリックします。
 
-   * （アドレスの近くの場所、含まれるターゲットのみ）をクリックし、**[!UICONTROL Radius Target]** （![半径ターゲット &#x200B;](/help/search-social-commerce/assets/radius-target.png "半径ターゲット ")）をクリックしてから、**[!UICONTROL Address]**&#x200B;をクリックします。 ターゲットとするアドレスの周りのアドレスと半径をマイルまたはキロメートル単位で入力し、**[!UICONTROL Add]**&#x200B;をクリックします。
+  * （アドレスの近くの場所、含まれるターゲットのみ）をクリックし、**[!UICONTROL Radius Target]** （![半径ターゲット ](/help/search-social-commerce/assets/radius-target.png "半径ターゲット ")）をクリックしてから、**[!UICONTROL Address]**&#x200B;をクリックします。 ターゲットとするアドレスの周りのアドレスと半径をマイルまたはキロメートル単位で入力し、**[!UICONTROL Add]**&#x200B;をクリックします。
 
-   * （地理座標の近くの場所、含まれるターゲットのみ）をクリックし、**[!UICONTROL Radius Target]** （![半径ターゲット &#x200B;](/help/search-social-commerce/assets/radius-target.png "半径ターゲット ")）をクリックしてから、**[!UICONTROL Coordinate]**&#x200B;をクリックします。 ターゲットとなる場所の緯度と経度と半径をマイルまたはキロメートル単位で入力し、**[!UICONTROL Add]**&#x200B;をクリックします。
+  * （地理座標の近くの場所、含まれるターゲットのみ）をクリックし、**[!UICONTROL Radius Target]** （![半径ターゲット ](/help/search-social-commerce/assets/radius-target.png "半径ターゲット ")）をクリックしてから、**[!UICONTROL Coordinate]**&#x200B;をクリックします。 ターゲットとなる場所の緯度と経度と半径をマイルまたはキロメートル単位で入力し、**[!UICONTROL Add]**&#x200B;をクリックします。
 
 * （含まれるターゲット場所の入札調整を追加するには）入札調整値を入力します。
 
@@ -186,9 +192,9 @@ ht-degree: 0%
 
 * Search, Social, &amp; Commerceでは、[!DNL Google Ads]が提供するサーファーの場所と場所ターゲットのマッピングに関するデータに制限があるため、次の場所ターゲットに対して自動調整された入札調整を提供していません。
 
-   * 半径ターゲット：
+  * 半径ターゲット：
 
-   * [!DNL Google Ads]がサーファーのURLに親の場所を送信しない州/県/地域/県レベル以下の場所（空港や米国議会地区を含む）。
+  * [!DNL Google Ads]がサーファーのURLに親の場所を送信しない州/県/地域/県レベル以下の場所（空港や米国議会地区を含む）。
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -297,43 +303,43 @@ ht-degree: 0%
 
 * 画像をアップロードするには：
 
-   1. 「[!UICONTROL Upload from Device]」タブで「**[!UICONTROL +]**」をクリックし、デバイスまたはネットワークから画像を選択します。
+  1. 「[!UICONTROL Upload from Device]」タブで「**[!UICONTROL +]**」をクリックし、デバイスまたはネットワークから画像を選択します。
 
-   1. 各画像について：
+  1. 各画像について：
 
-      1. 縦横比を選択します。
+     1. 縦横比を選択します。
 
-      1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能部分を選択し、可能な限り画像の表示可能部分のサイズを変更します。
+     1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能部分を選択し、可能な限り画像の表示可能部分のサイズを変更します。
 
-      1. （オプション）追加の縦横比を選択し、オプションで、選択した縦横比ごとに必要に応じて画像の位置とサイズを変更します。
+     1. （オプション）追加の縦横比を選択し、オプションで、選択した縦横比ごとに必要に応じて画像の位置とサイズを変更します。
 
-         選択した縦横比ごとに1つのアセットが作成されます。
+        選択した縦横比ごとに1つのアセットが作成されます。
 
-      1. **[!UICONTROL Proceed]**&#x200B;をクリックします。
+     1. **[!UICONTROL Proceed]**&#x200B;をクリックします。
 
-   1. 画像の指定が完了したら、**[!UICONTROL Upload]**&#x200B;をクリックします。
+  1. 画像の指定が完了したら、**[!UICONTROL Upload]**&#x200B;をクリックします。
 
 * [!UICONTROL Asset Library]から画像を選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックして画像を選択します。
 
-**[!UICONTROL Logos]:**&#x200B;少なくとも1つの正方形（1:1）ロゴと1つの風景（4:1）ロゴ。 各サイズに5つまで含めることができます。 [[!DNL Google Ads]  ロゴの仕様](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)を参照してください。 画像をアップロードするか、[!UICONTROL Asset Library]から選択できますが、両方を同じ操作で選択することはできません。
+**[!UICONTROL Logos]:**&#x200B;少なくとも1つの正方形（1:1）ロゴと1つの横長（4:1）ロゴ。 各サイズに5つまで含めることができます。 [[!DNL Google Ads]  ロゴの仕様](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)を参照してください。 画像をアップロードするか、[!UICONTROL Asset Library]から選択できますが、両方を同じ操作で選択することはできません。
 
 * 画像をアップロードするには：
 
-   1. 「[!UICONTROL Upload from Device]」タブで「**[!UICONTROL +]**」をクリックし、デバイスまたはネットワークから画像を選択します。
+  1. 「[!UICONTROL Upload from Device]」タブで「**[!UICONTROL +]**」をクリックし、デバイスまたはネットワークから画像を選択します。
 
-   1. 各画像について：
+  1. 各画像について：
 
-      1. 縦横比を選択します。
+     1. 縦横比を選択します。
 
-      1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能部分を選択し、可能な限り画像の表示可能部分のサイズを変更します。
+     1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能部分を選択し、可能な限り画像の表示可能部分のサイズを変更します。
 
-      1. （オプション）追加の縦横比を選択し、オプションで、選択した縦横比ごとに必要に応じて画像の位置とサイズを変更します。
+     1. （オプション）追加の縦横比を選択し、オプションで、選択した縦横比ごとに必要に応じて画像の位置とサイズを変更します。
 
-         選択した縦横比ごとに1つのアセットが作成されます。
+        選択した縦横比ごとに1つのアセットが作成されます。
 
-      1. **[!UICONTROL Proceed]**&#x200B;をクリックします。
+     1. **[!UICONTROL Proceed]**&#x200B;をクリックします。
 
-   1. 画像の指定が完了したら、**[!UICONTROL Upload]**&#x200B;をクリックします。
+  1. 画像の指定が完了したら、**[!UICONTROL Upload]**&#x200B;をクリックします。
 
 * [!UICONTROL Asset Library]から画像を選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックして画像を選択します。
 
@@ -341,9 +347,9 @@ ht-degree: 0%
 
 * URLを入力するには：
 
-   1. 「[!UICONTROL Enter Video Url]」タブで、URLを入力します。
+  1. 「[!UICONTROL Enter Video Url]」タブで、URLを入力します。
 
-   1. （オプション）別のURLを追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、URLを入力します。
+  1. （オプション）別のURLを追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、URLを入力します。
 
 * [!UICONTROL Asset Library]からビデオを選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックしてビデオを選択します。
 
@@ -353,9 +359,9 @@ ht-degree: 0%
 
 * テキストを入力するには：
 
-   1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
+  1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
 
-   1. （オプション）別のテキスト文字列を追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、文字列を入力します。
+  1. （オプション）別のテキスト文字列を追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、文字列を入力します。
 
 * [!UICONTROL Asset Library]からアセットを選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックしてアセットを選択します。
 
@@ -363,9 +369,9 @@ ht-degree: 0%
 
 * テキストを入力するには：
 
-   1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
+  1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
 
-   1. （オプション）別のテキスト文字列を追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、文字列を入力します。
+  1. （オプション）別のテキスト文字列を追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、文字列を入力します。
 
 * [!UICONTROL Asset Library]からアセットを選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックしてアセットを選択します。
 
@@ -373,9 +379,9 @@ ht-degree: 0%
 
 * テキストを入力するには：
 
-   1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
+  1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
 
-   1. （オプション）別のテキスト文字列を追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、文字列を入力します。
+  1. （オプション）別のテキスト文字列を追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、文字列を入力します。
 
 * [!UICONTROL Asset Library]からアセットを選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックしてアセットを選択します。
 
@@ -386,7 +392,7 @@ ht-degree: 0%
 **[!UICONTROL Audience Signal]:** （オプション） キャンペーンのオーディエンスシグナルとして使用する[!DNL Google Ads] オーディエンス。 [!DNL Google Ads]個のマシンラーニング モデルは、オーディエンスを使用して、ターゲットとする類似のweb サーファーを見つけます。また、シグナルとして指定されていないオーディエンスに広告を表示して、パフォーマンス目標を達成するのに役立てることもできます。 コンバージョンに至る可能性が最も高いオーディエンスを特定：
 
 >[!NOTE]
->オーディエンスシグナルは、[&#x200B; キャンペーンレベルおよび広告グループレベルのオーディエンスターゲット &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)とは異なります。
+>オーディエンスシグナルは、[ キャンペーンレベルおよび広告グループレベルのオーディエンスターゲット ](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)とは異なります。
 
 **[!UICONTROL Primary Status]:** （パフォーマンスの最大キャンペーンの既存のアセットグループの読み取り専用フィールド）アセットグループがフルキャパシティで提供されている、または提供されていない理由。 アセットグループのステータスだけでなく、ポリシーや品質の承認など、その他のシグナルも考慮されます。 値には、*実施要件、* *制限付き、* *非実施要件、* *一時停止、* *保留中、* *削除済み、* *不明、*&#x200B;または&#x200B;*未指定*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->&#x200B;が含まれます。
 
@@ -398,14 +404,14 @@ ht-degree: 0%
 
 目標は毎日同期されるため、過去24時間に作成された既存の目標は一覧表示されない場合があります。 リストを更新するには、[広告ネットワークデータを手動で同期します](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)。
 
-カスタムコンバージョン目標を作成するには、**[!UICONTROL + Add custom goal]**&#x200B;をクリックし、カスタム目標名を入力し、カスタム目標に含める[&#x200B; コンバージョンアクション &#x200B;](https://support.google.com/google-ads/answer/6032150)を選択して、**[!UICONTROL Save]**&#x200B;をクリックします。 **注：**&#x200B;各キャンペーンには、1つのカスタム目標のみを設定できます。
+カスタムコンバージョン目標を作成するには、**[!UICONTROL + Add custom goal]**&#x200B;をクリックし、カスタム目標名を入力し、カスタム目標に含める[ コンバージョンアクション ](https://support.google.com/google-ads/answer/6032150)を選択して、**[!UICONTROL Save]**&#x200B;をクリックします。 **注：**&#x200B;各キャンペーンには、1つのカスタム目標のみを設定できます。
 
 >[!TIP]
 >
 >キャンペーンがハイブリッドポートフォリオの一部である場合、ベストプラクティスは、ポートフォリオの目的のコンバージョン目標に一致するキャンペーンレベルの目標を使用することです。追加のコンバージョン目標を含めると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
 >
->ただし、[目標を広告ネットワーク &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md)にアップロードするハイブリッドポートフォリオのキャンペーンの場合は、ここで代わりに広告ネットワークのエディター内で次の操作を行います。a）アップロードされた検索、ソーシャル、およびCommerce ポートフォリオの目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョンアクションとして追加し、b）広告目標を追跡した指標が目的を広告ネットワークにアップロードされないため、[!DNL Google]追跡コンバージョンが含含まれます。
+>ただし、[目標を広告ネットワーク ](/help/search-social-commerce/tools/objective-upload-to-networks.md)にアップロードするハイブリッドポートフォリオのキャンペーンの場合は、ここで設定する代わりに、広告ネットワークのエディター内で次の操作を行います。a）アップロードされた検索、ソーシャル、およびCommerce ポートフォリオの目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョンアクションとして追加し、b）広告目標を追跡した指標が広告ネットワークにアップロードされないため、[!DNL Google] コンバージョンが追加されます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [ キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)

@@ -1,20 +1,23 @@
 ---
 title: '[!DNL Microsoft Advertising] マルチメディア広告の設定'
-description: ' [!DNL Microsoft Advertising]  マルチメディア広告の設定を参照してください。'
+description: '[!DNL Microsoft Advertising] マルチメディア広告の設定を参照してください。'
 exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/BmzclS43QHM1mtVus2pIdJqEh0B-tUQVKyUFdzH4iEw
+TQID: 'https://experienceleague.adobe.com/BmzclS43QHM1mtVus2pIdJqEh0B-tUQVKyUFdzH4iEw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 203
+source-wordcount: '211'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] マルチメディア広告の設定
 
 マルチメディア広告は、検索ネットワークで利用できます。 広告ネットワークは、広告要素の最も効果的な組み合わせを使用して、マルチメディア広告を動的に組み立てます。
@@ -23,11 +26,11 @@ ht-degree: 0%
 
 **[!UICONTROL Images]:**&#x200B;広告用のJPEG、JPG、またはPNG画像を最大15枚（以下のサイズを含む）:
 
-* アスペクト比が1.91:1の画像が少なくとも1つ。
+* 1.91:1のアスペクト比を持つ画像が少なくとも1つ。
 
-* 少なくとも1つの正方形（1:1）画像。
+* 少なくとも1つの正方形（1:1）画像
 
-[&#x200B; マルチメディア広告](https://help.ads.microsoft.com/#apex/ads/en/60107/0)の許可された縦横比とディメンションを参照してください。
+[ マルチメディア広告](https://help.ads.microsoft.com/#apex/ads/en/60107/0)の許可された縦横比とディメンションを参照してください。
 
 <!-- Instructions -->
 

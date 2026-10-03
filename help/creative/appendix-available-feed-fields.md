@@ -3,21 +3,27 @@ title: 動的な広告フィードファイルに使用できるフィールド
 description: 動的広告の作成に使用するフィードファイルに含めることができるフィールドについて説明します。
 feature: Creative Dynamic Creatives
 exl-id: 9cd3fa29-d4db-4e9f-9ffd-87b44b62a3e2
-TQID: https://experienceleague.adobe.com/oBlhGgChyoHBSkfx4gqlC-mnleraVrtf3lMzper7vgY
+TQID: 'https://experienceleague.adobe.com/oBlhGgChyoHBSkfx4gqlC-mnleraVrtf3lMzper7vgY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: '392'
 ht-degree: 0%
-
 ---
-
 # 付録：動的な広告フィード ファイルの使用可能なフィールド
 
-Advertising Creative バックエンドでは、次のフィード フィールドを使用できます。 組織固有のフィールド名を使用する[&#x200B; フィードファイル &#x200B;](/help/creative/feeds/asset-manage.md)をアップロードできます。 ただし、フィード ファイルから[&#x200B; カタログ &#x200B;](/help/creative/feeds/catalog-manage.md)を作成する前に、フィード ファイルの各フィールドを、カタログの作成に使用する[&#x200B; フィード テンプレート &#x200B;](/help/creative/feeds/feed-template-manage.md)の次のいずれかのフィールドにマッピングする必要があります。
+Advertising Creative バックエンドでは、次のフィード フィールドを使用できます。 組織固有のフィールド名を使用する[ フィードファイル ](/help/creative/feeds/asset-manage.md)をアップロードできます。 ただし、フィード ファイルから[ カタログ ](/help/creative/feeds/catalog-manage.md)を作成する前に、フィード ファイルの各フィールドを、カタログの作成に使用する[ フィード テンプレート ](/help/creative/feeds/feed-template-manage.md)の次のいずれかのフィールドにマッピングする必要があります。
 
 フィード ファイルに同等のフィールドを含める必要があるのは`PART_NUM`のみです。
 
@@ -127,6 +133,6 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 >[!MORELIKETHIS]
 >
 >* [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)
->* [&#x200B; アセットファイルの管理](/help/creative/feeds/asset-manage.md)
->* [&#x200B; フィード テンプレートの管理](/help/creative/feeds/feed-template-manage.md)
->* [&#x200B; カタログの管理](/help/creative/feeds/catalog-manage.md)
+>* [ アセットファイルの管理](/help/creative/feeds/asset-manage.md)
+>* [ フィード テンプレートの管理](/help/creative/feeds/feed-template-manage.md)
+>* [ カタログの管理](/help/creative/feeds/catalog-manage.md)

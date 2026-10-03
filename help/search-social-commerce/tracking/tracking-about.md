@@ -3,29 +3,35 @@ title: Search, Social, & Commerceのトラッキングについて
 description: Search, Social, & Commerceのトラッキングオプションについて説明します。
 exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/IpPgzsMgRsOCmLv3dyEKBp4EPQwgN90UkVIQy9SaXB8
+TQID: 'https://experienceleague.adobe.com/IpPgzsMgRsOCmLv3dyEKBp4EPQwgN90UkVIQy9SaXB8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 756
+source-wordcount: '772'
 ht-degree: 0%
-
 ---
-
 # Search, Social, &amp; Commerceのトラッキングについて
 
 広告の効果を追跡するには、Search, Social, &amp; Commerceで広告のインプレッション、クリック、コスト、コンバージョン（取引）データが必要です。 Search, Social, &amp; Commerceでは、収集したデータを使用して、広告ポートフォリオを最適化するために必要なデータ予測モデルを構築します。
 
 ## コスト、クリック、インプレッションデータ
 
-Search, Social, &amp; Commerceは、毎日[&#x200B; サポートされている広告ネットワーク &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)からインプレッション、クリック、コストのデータを直接取得します。 さらに、Search, Social, &amp; Commerceでは、トラッキングテンプレートと宛先URLに固有のクリックトラッキングコード（トラッキングサーバーへのリダイレクトを含む）を追加して、表示/コンテンツのインプレッション数、クリック数、コストを追跡し、後でイベントをコンバージョンに結び付けることができます。
+Search, Social, &amp; Commerceは、毎日[ サポートされている広告ネットワーク ](/help/search-social-commerce/introduction/supported-inventory.md)からインプレッション、クリック、コストのデータを直接取得します。 さらに、Search, Social, &amp; Commerceでは、トラッキングテンプレートと宛先URLに固有のクリックトラッキングコード（トラッキングサーバーへのリダイレクトを含む）を追加して、表示/コンテンツのインプレッション数、クリック数、コストを追跡し、後でイベントをコンバージョンに結び付けることができます。
 
 Search, Social, &amp; Commerceがデータを同期しない広告ネットワーク上のキャンペーンをトラッキングする場合は、インプレッション、クリック、コストデータを含む日次フィードファイルを送信して、キャンペーンのデータを提供する必要があります。
 
@@ -39,7 +45,7 @@ Search, Social, &amp; Commerceの導入チームは、同期された広告キ�
 
 * それ以外の場合は、アドネットワークが直接Adobe Advertising ピクセルサーバーにクリックを送信します。 ピクセルサーバーは、ユーザーのコンピューターにCookieを配置し（まだ存在しない場合）、ユーザーをweb サイト上の関連URLにリダイレクトします。 エンドユーザーの全体的なエクスペリエンスは、リダイレクトなしと同じです。
 
-Cookieは、[!DNL Adobe] ドメイン （`everesttech.net`）で1st パーティ Cookieとして設定されます。 リダイレクトの後、ユーザーは広告主のドメイン上に存在し、その後、Cookieはサードパーティ Cookieとして扱われます。 Adobe Advertising Cookieについて詳しくは、「[Adobe Advertising Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ja)」を参照してください。
+Cookieは、[!DNL Adobe] ドメイン （`everesttech.net`）で1st パーティ Cookieとして設定されます。 リダイレクトの後、ユーザーは広告主のドメイン上に存在し、その後、Cookieはサードパーティ Cookieとして扱われます。 Adobe Advertising Cookieについて詳しくは、「[Adobe Advertising Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)」を参照してください。
 
 ## コンバージョンデータ
 
@@ -49,10 +55,10 @@ Cookieは、[!DNL Adobe] ドメイン （`everesttech.net`）で1st パーティ
 
 ### コンバージョン追跡タグ
 
-様々なベンダー[の](/help/search-social-commerce/tracking/conversion-tracking-about.md) コンバージョンタグを使用できます。
+様々なベンダー](/help/search-social-commerce/tracking/conversion-tracking-about.md)の[ コンバージョンタグを使用できます。
 
 Adobe Advertising コンバージョンタグを使用してトランザクションを成功し、「成功」ページに移動すると、Adobe Advertising ピクセルサーバーは、クリックリダイレクト時に設定されたユーザーのコンピューター上のCookieの有無を確認します。 Cookieが見つかると、トランザクションイベントに関する情報がef_transid パラメーターを使用して渡され、トランザクションがコンバージョンとして認識され、前の広告クリックまたは表示インプレッションにクレジットされます。
 
-オーディエンスが複数の広告をクリックした場合、Adobe Advertisingは、特に指定しない限り、最終的な広告クリックまたは（ディスプレイまたは動画キャンペーンの場合）最終的な広告インプレッションにトランザクションをクレジットします。 [&#x200B; クリックのルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#c-d)と[&#x200B; インプレッションのルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j)は、イベントがコンバージョンに起因する可能性がある、有料クリックまたはディスプレイ/ビデオインプレッション（それぞれ）が発生してから何日経過したかを判断します。
+オーディエンスが複数の広告をクリックした場合、Adobe Advertisingは、特に指定しない限り、最終的な広告クリックまたは（ディスプレイまたは動画キャンペーンの場合）最終的な広告インプレッションにトランザクションをクレジットします。 [ クリックのルックバックウィンドウ ](/help/search-social-commerce/glossary.md#c-d)と[ インプレッションのルックバックウィンドウ ](/help/search-social-commerce/glossary.md#i-j)は、イベントがコンバージョンに起因する可能性がある、有料クリックまたはディスプレイ/ビデオインプレッション（それぞれ）が発生してから何日経過したかを判断します。
 
 Adobe Advertising導入チームは、広告主と協力して、広告主が実装する必要のあるコンバージョンタグのフォーマットを決定し、各コンバージョンタグを挿入するweb ページを特定し、実装するコンバージョンタグを提供します。

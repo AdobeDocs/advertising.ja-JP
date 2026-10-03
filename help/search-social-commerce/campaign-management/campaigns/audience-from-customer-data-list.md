@@ -1,29 +1,33 @@
 ---
 title: 顧客データリストを使用した顧客一致オーディエンスの管理
-description: 顧客データリストから [!DNL Google Ads] および [!DNL Microsoft Advertising] 顧客一致オーディエンスを作成および編集する方法について説明します。
+description: 顧客データリストから[!DNL Google Ads]および[!DNL Microsoft Advertising]の顧客一致オーディエンスを作成および編集する方法について説明します。
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/XoDGbJAFowx-KX0hWQH4XoFrc0R2YiftT-mN6f4KWDE
+TQID: 'https://experienceleague.adobe.com/XoDGbJAFowx-KX0hWQH4XoFrc0R2YiftT-mN6f4KWDE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 840
+source-wordcount: '866'
 ht-degree: 0%
-
 ---
-
 # 顧客データリストを使用して、[!DNL Google Ads]および[!DNL Microsoft Advertising]の顧客一致オーディエンスを管理します
 
-顧客データリストから[!DNL Google Ads]および[!DNL Microsoft Advertising]の顧客一致オーディエンスを作成できます。 [!DNL Google Ads]人のオーディエンスから作成された[!DNL Microsoft Advertising]人のオーディエンスを除き、[!DNL Google Ads]人または[!DNL Adobe]人の顧客一致オーディエンスを更新することもできます。
+顧客データリストから[!DNL Google Ads]および[!DNL Microsoft Advertising]の顧客一致オーディエンスを作成できます。 [!DNL Adobe]人のオーディエンスから作成された[!DNL Google Ads]人のオーディエンスを除き、[!DNL Google Ads]人または[!DNL Microsoft Advertising]人の顧客一致オーディエンスを更新することもできます。
 
 ## 顧客データリストからカスタマーマッチオーディエンスを作成する
 
-顧客の一致のみ&#x200B;*[!DNL Google Ads]の対象となる[!DNL Microsoft Advertising]および* アカウント
+顧客の一致のみ&#x200B;*の対象となる*[!DNL Google Ads]&#x200B;および[!DNL Microsoft Advertising] アカウント
 
 顧客関係管理（CRM）システムから生成したデータファイルから、[!DNL Google Ads]または[!DNL Microsoft Advertising]の顧客データベースのリストを作成できます。
 
@@ -31,11 +35,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Search, Social, &amp; Commerceには、[!DNL Adobe]または[!DNL Google Ads]のオーディエンスの作成または編集に使用した[!DNL Microsoft Advertising] セグメントからアップロードした顧客データは保存されません。
+>Search, Social, &amp; Commerceには、[!DNL Google Ads]または[!DNL Microsoft Advertising]のオーディエンスの作成または編集に使用した[!DNL Adobe] セグメントからアップロードした顧客データは保存されません。
 
 1. 顧客データを含むファイルを必要な形式で生成します。
 
-   氏名、メールアドレス、電話番号は、SHA-256 アルゴリズムを使用してハッシュ化する必要があります。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads]人のオーディエンスについては、許可されている連絡先情報フィールドと要件のリストについては、「[!DNL Google Ads] ハッシュ化されたデータのアップロードに関する書式設定ガイドライン [」の](https://support.google.com/google-ads/answer/7476159)のドキュメントを参照してください。 [!DNL Microsoft Advertising]人のオーディエンスについては、[!DNL Microsoft Advertising]顧客マッチリストの準備[に関する](https://help.ads.microsoft.com/#apex/ads/en/56921)のドキュメントを参照してください。 必要に応じて、連絡先情報の[!DNL Microsoft Excel] テンプレートをダウンロードできます。
+   氏名、メールアドレス、電話番号は、SHA-256 アルゴリズムを使用してハッシュ化する必要があります。<!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads]人のオーディエンスについて、許可されている連絡先情報フィールドと要件のリストについては、「[ ハッシュ化されたデータのアップロードに関する書式設定ガイドライン ](https://support.google.com/google-ads/answer/7476159)」の[!DNL Google Ads]のドキュメントを参照してください。 [!DNL Microsoft Advertising]人のオーディエンスについては、[顧客マッチリストの準備](https://help.ads.microsoft.com/#apex/ads/en/56921)に関する[!DNL Microsoft Advertising]のドキュメントを参照してください。 必要に応じて、連絡先情報の[!DNL Microsoft Excel] テンプレートをダウンロードできます。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**&#x200B;をクリックします。
 
@@ -53,13 +57,13 @@ ht-degree: 0%
 
       1. [!UICONTROL Data Upload Type]を選択します：*[!UICONTROL Emails, Phones, and/or Mailing Addresses]*、*[!UICONTROL User IDs]*、または&#x200B;*[!UICONTROL Mobile Device IDs]*。
 
-         ユーザーID オプションは、[!DNL Google Ads] ユーザーID セグメント [にオプトインしている米国の](https://support.google.com/google-ads/answer/9199250)広告主のみが利用できます
+         ユーザーID オプションは、[ ユーザーID セグメント ](https://support.google.com/google-ads/answer/9199250)にオプトインしている米国の[!DNL Google Ads]広告主のみが利用できます
 
       1. （モバイルデバイス ID リストのみ） **[!UICONTROL OS Type]** （*[!UICONTROL Android™]*&#x200B;または&#x200B;*[!UICONTROL iOS]*）を選択し、**[!UICONTROL App ID]**&#x200B;を入力します。
 
          アプリ IDは、モバイルオペレーティングシステムがアプリケーションをGoogle PlayまたはApple App Storeに接続するために使用する一意のIDです。
 
-         * （[!DNL Android™] アプリ）「[!DNL Android™]」によって識別される[!DNL Google Play]内の`id=<package_name>` パッケージ名。
+         * （[!DNL Android™] アプリ）「`id=<package_name>`」によって識別される[!DNL Google Play]内の[!DNL Android™] パッケージ名。
 
            例えば、`https://play.google.com/store/apps/details?id=com.example.game`では、パッケージ名はcom.example.gameです。
 
@@ -88,17 +92,17 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 広告ネットワークがファイルを処理するのに最大24時間かかる場合があります。
->* 顧客の一致の仕組みと制限に関する[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/displayvideo/answer/9539301)を参照してください。
+>* 顧客の一致の仕組みと制限に関する[[!DNL Google Ads]  ドキュメント ](https://support.google.com/displayvideo/answer/9539301)を参照してください。
 
 ## 顧客データリストを使用した顧客マッチオーディエンスの編集
 
-[!DNL Google Ads]人のオーディエンスから作成された[!DNL Microsoft Advertising]人のオーディエンスを除き、[!DNL Google Ads]人または[!DNL Adobe]人の顧客一致オーディエンスを更新できます。 オーディエンスの既存のすべてのデータを追加、削除、置き換えるためにデータをアップロードできます。
+[!DNL Adobe]人のオーディエンスから作成された[!DNL Google Ads]人のオーディエンスを除き、[!DNL Google Ads]人または[!DNL Microsoft Advertising]人の顧客一致オーディエンスを更新できます。 オーディエンスの既存のすべてのデータを追加、削除、置き換えるためにデータをアップロードできます。
 
 データは、元の顧客リストと同じタイプ（特定のモバイルオペレーティングシステム上の特定のアプリのメールアドレス、郵送先住所、電話番号、ユーザーID、モバイルデバイス ID）である必要があります。
 
 1. 既存のデータタイプに必要な形式の顧客データを含むファイルを生成します。
 
-氏名、メールアドレス、電話番号は、SHA-256 アルゴリズムを使用してハッシュ化する必要があります。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads]人のオーディエンスについては、許可されている連絡先情報フィールドと要件のリストについては、「[!DNL Google Ads] ハッシュ化されたデータのアップロードに関する書式設定ガイドライン [」の](https://support.google.com/google-ads/answer/7476159)のドキュメントを参照してください。 [!DNL Microsoft Advertising]人のオーディエンスについては、[!DNL Microsoft Advertising]顧客マッチリストの準備[ （https://help.ads.microsoft.com/#apex/ads/en/56921）に関する]のドキュメントを参照してください。 必要に応じて、連絡先情報の[!DNL Microsoft Excel] テンプレートをダウンロードできます。
+氏名、メールアドレス、電話番号は、SHA-256 アルゴリズムを使用してハッシュ化する必要があります。<!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads]人のオーディエンスについて、許可されている連絡先情報フィールドと要件のリストについては、「[ ハッシュ化されたデータのアップロードに関する書式設定ガイドライン ](https://support.google.com/google-ads/answer/7476159)」の[!DNL Google Ads]のドキュメントを参照してください。 [!DNL Microsoft Advertising]人のオーディエンスについては、[顧客マッチリストの準備] （https://help.ads.microsoft.com/#apex/ads/en/56921）に関する[!DNL Microsoft Advertising]のドキュメントを参照してください。 必要に応じて、連絡先情報の[!DNL Microsoft Excel] テンプレートをダウンロードできます。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**&#x200B;をクリックします。
 
@@ -124,7 +128,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンスについて](audience-about.md)
->* [顧客マッチオーディエンスを [!DNL Google Ads]  オーディエンス  [!DNL Adobe] から](google-audience-from-adobe-audience.md)作成
+>* [ オーディエンスについて](audience-about.md)
+>* [顧客マッチオーディエンスを [!DNL Adobe]  オーディエンス ](google-audience-from-adobe-audience.md)から [!DNL Google Ads] 作成
 >* [Adobe Campaignのメールリストから [!DNL Google Ads] 顧客マッチオーディエンスを作成](google-audience-from-campaign-email-list.md)
 >* [動的リマーケティングオーディエンスの管理](audience-dynamic-remarketing-manage.md)

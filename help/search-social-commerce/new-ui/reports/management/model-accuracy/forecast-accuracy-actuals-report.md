@@ -2,13 +2,19 @@
 title: '[!UICONTROL Forecast Accuracy (Actuals) Report]'
 description: データ列を含む[!UICONTROL Forecast Accuracy (Actuals) Report]について説明します。
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
+    internal-label: Search Model Accuracy Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
-
 ---
-
 # ザ [!UICONTROL Forecast Accuracy (Actuals) Report]
 
 このレポートには、各ポートフォリオの日別の広告ネットワークの実際のインプレッション、クリック、コスト、収益データが表示されます。
@@ -34,7 +40,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; モデル精度レポートについて](model-accuracy-report-about.md)
+>* [ モデル精度レポートについて](model-accuracy-report-about.md)
 >* [The [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
->* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
->* [&#x200B; モデル精度レポート設定](model-accuracy-report-settings.md)
+>* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [ モデル精度レポート設定](model-accuracy-report-settings.md)

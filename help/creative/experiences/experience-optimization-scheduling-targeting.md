@@ -3,22 +3,29 @@ title: エクスペリエンスのクリエイティブの最適化とスケジ�
 description: ターゲットエクスペリエンスの最適化と広告スケジュールを設定する方法について説明します。
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-TQID: https://experienceleague.adobe.com/gDBTQn7F0ZNeiEylTDA9HNgDockR6FHE3MSvr0bJaDM
+TQID: 'https://experienceleague.adobe.com/gDBTQn7F0ZNeiEylTDA9HNgDockR6FHE3MSvr0bJaDM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1190
+source-wordcount: '1190'
 ht-degree: 0%
-
 ---
-
 # 決定木ターゲティングにより、エクスペリエンスのクリエイティブの最適化とスケジュールをカスタマイズ
 
 *既存のクリエイターのみを含むTarget ノード*
@@ -39,7 +46,7 @@ ht-degree: 0%
 
       * 既存のバンドルの場合は、**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**&#x200B;をクリックします。
 
-      * 新しいバンドルの場合は、**[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]**&#x200B;をクリックし、[&#x200B; バンドルを割り当てます](experience-assign-creative-bundles.md)。
+      * 新しいバンドルの場合は、**[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]**&#x200B;をクリックし、[ バンドルを割り当てます](experience-assign-creative-bundles.md)。
 
 1. 「**[!UICONTROL Creative Optimization]**」タブをクリックします。
 
@@ -51,17 +58,17 @@ ht-degree: 0%
 
    * *[!UICONTROL Algorithmic]:*&#x200B;指定された目標に基づいて、最も効果的な広告バリエーションをより頻繁に表示します。
 
-      * **[!UICONTROL Optimization Goal]**&#x200B;の場合、*[!UICONTROL Click Through Rate]*、（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*&#x200B;または&#x200B;*[!UICONTROL Custom Objective]*&#x200B;を選択します。  *[!UICONTROL Custom Objective]*&#x200B;を選択した場合は、既存の[Advertising DSP カスタム目標](/help/dsp/optimization/custom-goal.md)を選択します。
+     * **[!UICONTROL Optimization Goal]**&#x200B;の場合、*[!UICONTROL Click Through Rate]*、（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*&#x200B;または&#x200B;*[!UICONTROL Custom Objective]*&#x200B;を選択します。  *[!UICONTROL Custom Objective]*&#x200B;を選択した場合は、既存の[Advertising DSP カスタム目標](/help/dsp/optimization/custom-goal.md)を選択します。
 
    * *[!UICONTROL Sequencing]:*&#x200B;関連付けられたクリエイティブ バンドルを、指定された順序（バンドル 1が最初に提供され、バンドル 2が2番目に提供されるなど）で、各バンドル シーケンスに対するインプレッションの合計数が指定された順で表示します。 提供される広告のサイズは、利用可能な在庫によって決まります。 シーケンス内の最終バンドルをa\）に設定すると、無期限（デフォルト）またはb\）ループで最初のバンドルに戻すことができます。 例えば、バンドル 1の広告バリエーションを3つの（3）インプレッションに対して表示し、バンドル 2の広告バリエーションを1つの（1）インプレッションに対して表示し、バンドル 3の広告バリエーションを2つの（2）インプレッションに対して表示し、ループを再開できます。 あるいは、バンドル 3の広告バリエーションが表示されたら、ループを作成するのではなく、バンドル 3の広告バリエーションを無期限に表示し続けることができます。 シーケンスを有効にする場合：
 
-      1. 割り当てられたバンドルを目的の順序にドラッグ&amp;ドロップします。
+     1. 割り当てられたバンドルを目的の順序にドラッグ&amp;ドロップします。
 
      デフォルトでは、割り当てられたバンドルは、エクスペリエンスに追加された順序で順序付けされます。
 
-      1. 各シーケンスのインプレッション数を入力します。
+     1. 各シーケンスのインプレッション数を入力します。
 
-      1. 最後のシーケンスに対して、a\）でシーケンスの最終バンドルを無期限に表示するか（*[!UICONTROL Infinite]* （デフォルト）またはb\）でループして、最終バンドルが表示された後の最初のバンドルに戻るか（*[!UICONTROL Keep in Loop]*）を変更します。
+     1. 最後のシーケンスに対して、a\）でシーケンスの最終バンドルを無期限に表示するか（*[!UICONTROL Infinite]* （デフォルト）またはb\）でループして、最終バンドルが表示された後の最初のバンドルに戻るか（*[!UICONTROL Keep in Loop]*）を変更します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -77,7 +84,7 @@ ht-degree: 0%
 
       * 既存のバンドルの場合は、**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**&#x200B;をクリックします。
 
-      * 新しいバンドルの場合は、**[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]**&#x200B;をクリックし、[&#x200B; バンドルを割り当てます](experience-assign-creative-bundles.md)。
+      * 新しいバンドルの場合は、**[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]**&#x200B;をクリックし、[ バンドルを割り当てます](experience-assign-creative-bundles.md)。
 
 1. 「**[!UICONTROL Creative Optimization]**」タブをクリックします。
 
@@ -95,17 +102,17 @@ ht-degree: 0%
 
       * *[!UICONTROL Algorithmic]:*&#x200B;指定された最適化目標に従って、各バンドルのクリエイティブをアルゴリズムで回転させます。
 
-         * **[!UICONTROL Optimization Goal]**&#x200B;の場合、*[!UICONTROL Click Through Rate]*、（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*&#x200B;または&#x200B;*[!UICONTROL Custom Objective]*&#x200B;を選択します。  *[!UICONTROL Custom Objective]*&#x200B;を選択した場合は、既存の[Advertising DSP カスタム目標](/help/dsp/optimization/custom-goal.md)を選択します。
+        * **[!UICONTROL Optimization Goal]**&#x200B;の場合、*[!UICONTROL Click Through Rate]*、（標準ビデオ広告エクスペリエンス） *[!UICONTROL Completion Rate]*&#x200B;または&#x200B;*[!UICONTROL Custom Objective]*&#x200B;を選択します。  *[!UICONTROL Custom Objective]*&#x200B;を選択した場合は、既存の[Advertising DSP カスタム目標](/help/dsp/optimization/custom-goal.md)を選択します。
 
       * *[!UICONTROL Sequencing]:*&#x200B;関連付けられたクリエイティブ バンドルを、各バンドル シーケンスのインプレッションの合計数を指定して、指定された順序（バンドル 1が最初に提供され、バンドル 2が2番目に提供されるなど）で回転します。 提供される広告のサイズは、利用可能な在庫によって決まります。 シーケンス内の最終バンドルをa\）に設定すると、無期限（デフォルト）またはb\）ループで最初のバンドルに戻すことができます。 例えば、バンドル 1の任意のクリエイターを3つの（3）インプレッション用に表示し、バンドル 2の任意のクリエイティブを1つの（1）インプレッション用に表示し、バンドル 3の任意のクリエイターを2つの（2）インプレッション用に表示してから、ループを再開できます。 または、バンドル 3のクリエイターが表示されたら、ループを作成するのではなく、バンドル 3のクリエイターを無期限で引き続き表示することもできます。 シーケンスを有効にする場合：
 
-         1. 割り当てられたバンドルを目的の順序にドラッグ&amp;ドロップします。
+        1. 割り当てられたバンドルを目的の順序にドラッグ&amp;ドロップします。
 
-            デフォルトでは、割り当てられたバンドルは、エクスペリエンスに追加された順序で順序付けされます。
+           デフォルトでは、割り当てられたバンドルは、エクスペリエンスに追加された順序で順序付けされます。
 
-         1. 各シーケンスのインプレッション数を入力します。
+        1. 各シーケンスのインプレッション数を入力します。
 
-         1. 最後のシーケンスに対して、a\）でシーケンスの最終バンドルを無期限に表示するか（*[!UICONTROL Infinite]* （デフォルト）またはb\）でループして、最終バンドルが表示された後の最初のバンドルに戻るか（*[!UICONTROL Keep in Loop]*）を変更します。
+        1. 最後のシーケンスに対して、a\）でシーケンスの最終バンドルを無期限に表示するか（*[!UICONTROL Infinite]* （デフォルト）またはb\）でループして、最終バンドルが表示された後の最初のバンドルに戻るか（*[!UICONTROL Keep in Loop]*）を変更します。
 
 1. 追加の各スケジュールについて：
 
@@ -121,22 +128,22 @@ ht-degree: 0%
 
       * *[!UICONTROL Algorithmic]:*&#x200B;指定された最適化目標に従って、各バンドルのクリエイティブをアルゴリズムで回転させます。
 
-         * **[!UICONTROL Optimization Goal]**&#x200B;に対して、*[!UICONTROL Click Through Rate]*&#x200B;または&#x200B;*[!UICONTROL Custom Objective]*&#x200B;のいずれかを選択します。  *[!UICONTROL Custom Objective]*&#x200B;を選択した場合は、既存の[Advertising DSP カスタム目標](/help/dsp/optimization/custom-goal.md)を選択します。
+        * **[!UICONTROL Optimization Goal]**&#x200B;に対して、*[!UICONTROL Click Through Rate]*&#x200B;または&#x200B;*[!UICONTROL Custom Objective]*&#x200B;のいずれかを選択します。  *[!UICONTROL Custom Objective]*&#x200B;を選択した場合は、既存の[Advertising DSP カスタム目標](/help/dsp/optimization/custom-goal.md)を選択します。
 
       * *[!UICONTROL Sequencing]:*&#x200B;関連するクリエイティブ バンドルを、各バンドル シーケンスで指定された合計インプレッション数で、指定された順序で回転します。 シーケンスを有効にする場合：
 
-         1. 割り当てられたバンドルを目的の順序にドラッグ&amp;ドロップします。
+        1. 割り当てられたバンドルを目的の順序にドラッグ&amp;ドロップします。
 
-            デフォルトでは、割り当てられたバンドルは、エクスペリエンスに追加された順序で順序付けされます。
+           デフォルトでは、割り当てられたバンドルは、エクスペリエンスに追加された順序で順序付けされます。
 
-         1. 各シーケンスのインプレッション数を入力します。
+        1. 各シーケンスのインプレッション数を入力します。
 
-         1. 最後のシーケンスに対して、a\）でシーケンスの最終バンドルを無期限に表示するか（*[!UICONTROL Infinite]* （デフォルト）またはb\）でループして、最終バンドルが表示された後の最初のバンドルに戻るか（*[!UICONTROL Keep in Loop]*）を変更します。
+        1. 最後のシーケンスに対して、a\）でシーケンスの最終バンドルを無期限に表示するか（*[!UICONTROL Infinite]* （デフォルト）またはb\）でループして、最終バンドルが表示された後の最初のバンドルに戻るか（*[!UICONTROL Keep in Loop]*）を変更します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除](/help/creative/experiences/experience-assign-creative-bundles.md)
->* [&#x200B; クリエイティブのトラッキング URLのカスタマイズ &#x200B;](/help/creative/experiences/experience-tracking-urls-targeting.md)
->* [&#x200B; エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)
+>* [ エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [ クリエイティブのトラッキング URLのカスタマイズ ](/help/creative/experiences/experience-tracking-urls-targeting.md)
+>* [ エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)

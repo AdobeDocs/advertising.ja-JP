@@ -1,20 +1,23 @@
 ---
 title: キャンペーンと広告グループのオーディエンス除外の管理
-description: ' [!DNL Google Ads] および [!DNL Microsoft Advertising]  キャンペーンと広告グループのオーディエンス除外を設定および管理する方法について説明します。'
+description: '[!DNL Google Ads]および[!DNL Microsoft Advertising] キャンペーンと広告グループのオーディエンス除外を設定および管理する方法について説明します。'
 exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/fvSuGLpCoCFqIVN2IA97aV2jybg3dKCDdde9Z2xL2G4
+TQID: 'https://experienceleague.adobe.com/fvSuGLpCoCFqIVN2IA97aV2jybg3dKCDdde9Z2xL2G4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 349
+source-wordcount: '344'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]および[!DNL Microsoft Advertising]のキャンペーンと広告グループのオーディエンス除外を管理します
 
 *[!DNL Google Ads]と[!DNL Microsoft Advertising]のみ*
@@ -49,7 +52,7 @@ ht-degree: 0%
 
       1. （オプション）キャンペーンを展開して子広告グループを表示するには、キャンペーン名をクリックします。
 
-      1. （オプション）キャンペーンリストまたは広告グループリストを、名前に含まれるテキスト文字列でフィルタリングするには、![&#x200B; フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、テキスト文字列を入力フィールドに入力または貼り付け、[!UICONTROL Enter] キーを押します。
+      1. （オプション）キャンペーンリストまたは広告グループリストを、名前に含まれるテキスト文字列でフィルタリングするには、![ フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、テキスト文字列を入力フィールドに入力または貼り付け、[!UICONTROL Enter] キーを押します。
 
       1. 次のいずれかの操作を行います。
 
@@ -69,11 +72,11 @@ ht-degree: 0%
 
    複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-1. ツールバーで、![その他のアクション &#x200B;](/help/search-social-commerce/assets/more.png "その他のアクション ")をクリックし、**[!UICONTROL Delete]**&#x200B;を選択します。
+1. ツールバーで、![その他のアクション ](/help/search-social-commerce/assets/more.png "その他のアクション ")をクリックし、**[!UICONTROL Delete]**&#x200B;を選択します。
 
 1. 確認メッセージで、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンスについて](audience-about.md)
->* [&#x200B; キャンペーンと広告グループのオーディエンスターゲットの管理](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
+>* [ オーディエンスについて](audience-about.md)
+>* [ キャンペーンと広告グループのオーディエンスターゲットの管理](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)

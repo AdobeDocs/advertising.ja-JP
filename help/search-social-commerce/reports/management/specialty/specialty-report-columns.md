@@ -3,22 +3,30 @@ title: 特殊レポートのレポート列
 description: 特殊レポートで使用可能なデータ列について説明します。
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/RI7bIXkj-J3Zf9-0cQozmrvRKZhTTDcbICnJCV22IxM
+TQID: 'https://experienceleague.adobe.com/RI7bIXkj-J3Zf9-0cQozmrvRKZhTTDcbICnJCV22IxM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3173
-ht-degree: 0%
-
+source-wordcount: '3216'
+ht-degree: 1%
 ---
-
 # 特殊レポートのレポート列
 
 | 列 | 説明 |
@@ -112,7 +120,7 @@ ht-degree: 0%
 | [!UICONTROL EF Portfolio Group ID] | ポートフォリオが属するポートフォリオグループの数値ID。 |
 | [!UICONTROL EF Search Engine ID] | Search, Social, &amp; Commerceがアドネットワークに割り当てる数値ID: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> （旧称[!DNL Yahoo! Japan Ads]）, [!DNL Yahoo Native] （非推奨）, <i>[!UICONTROL 106]</i> for [!DNL Pinterest] （非推奨）です。[!DNL LY Ads]<i>[!UICONTROL 105]</i> |
 | [!UICONTROL End Date] | 最終日が報告されました。 |
-| [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension] レポート）拡張機能[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/51001)の表示名。 |
+| [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension] レポート）拡張機能](https://help.ads.microsoft.com/#apex/ads/en/51001)の[表示名。 |
 | [!UICONTROL Extension Type ID] | （[!UICONTROL MSA Ad Extension]件のレポート）広告拡張機能タイプのID。 |
 | [!UICONTROL Final URLs] | （[!UICONTROL Google Asset Group Performance Report]）すべてのクロスドメインリダイレクト後の最終的なURLのリスト。 キャンペーンでURL拡張が有効になっている場合、URLは拡張される場合があります。 |
 | [!UICONTROL Final Mobile URLs] | （[!UICONTROL Google Asset Group Performance Report]）すべてのクロスドメインリダイレクト後のモバイルデバイスの最終的なURLのリスト。 キャンペーンでURL拡張が有効になっている場合、URLは拡張される場合があります。 |

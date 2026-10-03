@@ -3,18 +3,24 @@ title: データビューのカスタマイズ
 description: 使用可能な各ビュー内のデータをカスタマイズする方法について説明します。
 feature: Creative Introduction
 exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
-TQID: https://experienceleague.adobe.com/hOby2-Do4TakO04FrP6zzfdIyCf6OCcjXjBzyTBuHc8
+TQID: 'https://experienceleague.adobe.com/hOby2-Do4TakO04FrP6zzfdIyCf6OCcjXjBzyTBuHc8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ba946348-465d-45f3-8d28-c42d0a2599c5
+    internal-label: Creative introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 273
+source-wordcount: '273'
 ht-degree: 0%
-
 ---
-
 # データビューのカスタマイズ
 
 ## 別の広告主のデータを表示
@@ -31,13 +37,13 @@ ht-degree: 0%
 
 カード表示とテーブル表示を切り替えると、フィルターと選択範囲が保持されます。
 
-![&#x200B; カード表示](/help/creative/assets/card-view-button.png " カード表示") カード表示を開く
+![ カード表示](/help/creative/assets/card-view-button.png " カード表示") カード表示を開く
 
-![&#x200B; カードビューの例](/help/creative/assets/card-view-example.png " カードビューの例")
+![ カードビューの例](/help/creative/assets/card-view-example.png " カードビューの例")
 
-![&#x200B; テーブル/リスト表示](/help/creative/assets/table-view-button.png " テーブル表示") テーブル表示を開く
+![ テーブル/リスト表示](/help/creative/assets/table-view-button.png " テーブル表示") テーブル表示を開く
 
-![&#x200B; テーブルビューの例](/help/creative/assets/table-view-example.png " テーブルビューの例")
+![ テーブルビューの例](/help/creative/assets/table-view-example.png " テーブルビューの例")
 
 <!--
  not implemented as of 11-26:
@@ -52,7 +58,7 @@ Refresh the pane to see any changes that other users have made.
 
 ## ビューのフィルタリング
 
-（使用可能な場合） フィルター（![&#x200B; フィルターボタン &#x200B;](/help/creative/assets/filter.png " フィルターボタン ")）表示されるエンティティには、次の項目のみが含まれます。
+（使用可能な場合） フィルター（![ フィルターボタン ](/help/creative/assets/filter.png " フィルターボタン ")）表示されるエンティティには、次の項目のみが含まれます。
 
 * **[!UICONTROL Creative Libraries]> [!UICONTROL Creatives] > [!UICONTROL Standard Ads]:**&#x200B;特定のクリエイティブのサイズ、クリエイティブの種類、サイズ、関連するラベル、または言語
 

@@ -3,35 +3,39 @@ title: プレースメントの入札乗数の管理
 description: プレースメントターゲットの入札乗数を作成および編集する方法について説明します。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-TQID: https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0
+TQID: 'https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: '912'
 ht-degree: 1%
-
 ---
-
 # プレースメントの入札乗数の管理
 
-[適格なターゲットタイプ &#x200B;](#bid-multiplier-by-target)の既存のプレースメントターゲットに対して、入札額を増減するためにアルゴリズムで計算された入札額を乗算する入札乗数を作成および管理できます。 1つのプレースメントの入札乗算値を手動で編集するか、1つ以上のプレースメントの値を含むスプレッドシートをアップロードできます。
+[適格なターゲットタイプ ](#bid-multiplier-by-target)の既存のプレースメントターゲットに対して、入札額を増減するためにアルゴリズムで計算された入札額を乗算する入札乗数を作成および管理できます。 1つのプレースメントの入札乗算値を手動で編集するか、1つ以上のプレースメントの値を含むスプレッドシートをアップロードできます。
 
-デフォルトでは、ターゲットの入札乗数は1.00です。つまり、入札はそのターゲットに合わせて調整されません。 値は0.10 ～ 10.00の範囲で指定できます。例えば、入札乗数が0.5の場合、6米ドルの入札は3米ドル（0.5 x 6）に減少します。 オークションが複数の入札修飾子に適格である場合、該当するすべての入札乗数が乗算されます。 例えば、カリフォルニア州の入札乗数が2で、サンフランシスコ州の入札乗数が3の場合、サンフランシスコで実行される広告の最終的な入札乗数は6です。
+デフォルトでは、ターゲットの入札乗数は1.00です。つまり、入札はそのターゲットに合わせて調整されません。 値は0.10 ～ 10.00の範囲で指定できます。 例えば、入札乗数が0.5の場合、USD 6の入札はUSD 3 （0.5 x 6）に減少します。 オークションが複数の入札修飾子に適格である場合、該当するすべての入札乗数が乗算されます。 例えば、カリフォルニア州の入札乗数が2で、サンフランシスコ州の入札乗数が3の場合、サンフランシスコで実行される広告の最終的な入札乗数は6です。
 
 >[!NOTE]
 >
 >入札乗数は、入札額を最大入札額より大きくすることはありません。
 
-[個の制限されたターゲット &#x200B;](#bid-multiplier-limits-by-target)に対して（1.00以外の値で）入札乗数を設定できます。
+[個の制限されたターゲット ](#bid-multiplier-limits-by-target)に対して（1.00以外の値で）入札乗数を設定できます。
 
-この機能は、既存の配置ターゲットと連携します。 プレースメントに選択したターゲットを変更するには、「[&#x200B; プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)」を参照してください。
+この機能は、既存の配置ターゲットと連携します。 プレースメントに選択したターゲットを変更するには、「[ プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)」を参照してください。
 
 ## 1つのプレースメントの入札乗数を管理します
 
@@ -47,27 +51,27 @@ ht-degree: 1%
 
 1. 対象ターゲットの入札乗数を調整します。
 
-   * 入札乗数の値を手動で調整するには、各[&#x200B; ターゲット固有のタブ &#x200B;](#bid-multiplier-by-target) （[!UICONTROL Geo]、[!UICONTROL Inventory]、[!UICONTROL Sites]、[!UICONTROL Audience]、および[!UICONTROL Brand Safety]）に移動し、プレースメントターゲットの既存の値を編集します。
+   * 入札乗数の値を手動で調整するには、各[ ターゲット固有のタブ ](#bid-multiplier-by-target) （[!UICONTROL Geo]、[!UICONTROL Inventory]、[!UICONTROL Sites]、[!UICONTROL Audience]、および[!UICONTROL Brand Safety]）に移動し、プレースメントターゲットの既存の値を編集します。
 
      多くのターゲットカテゴリでは、左側にサブカテゴリが一覧表示されています。 サブカテゴリをクリックして、そのサブカテゴリの入札乗数を必要に応じて管理します。
 
    * 入札乗数の値を含むCSV ファイルをアップロードして、既存のすべての値を上書きするには：
 
-      1. 右上の「**[!UICONTROL CSV File Edit]**」をクリックします。
+     1. 右上の「**[!UICONTROL CSV File Edit]**」をクリックします。
 
-      1. a） **[!UICONTROL Download Template]**&#x200B;をクリックしてファイルを編集するか、b）以前にダウンロードしたテンプレートを編集します。 編集したファイルをデバイスまたはネットワークに保存します。
+     1. a） **[!UICONTROL Download Template]**&#x200B;をクリックしてファイルを編集するか、b）以前にダウンロードしたテンプレートを編集します。 編集したファイルをデバイスまたはネットワークに保存します。
 
-         ダウンロードしたスプレッドシートには、ターゲットタイプ（国、ソース、サイトカテゴリなど）ごとに1枚のシートが含まれます。 値が1.0未満または1.0を超える既存の入札乗数のみが含まれます。
+        ダウンロードしたスプレッドシートには、ターゲットタイプ（国、ソース、サイトカテゴリなど）ごとに1枚のシートが含まれます。 値が1.0未満または1.0を超える既存の入札乗数のみが含まれます。
 
-         * 既存のターゲットに入札乗算器を追加するには、ユーザーインターフェイスに表示されているのと同じ構文と、対応する入札乗算器の値を使用してターゲットを入力します。
+        * 既存のターゲットに入札乗算器を追加するには、ユーザーインターフェイスに表示されているのと同じ構文と、対応する入札乗算器の値を使用してターゲットを入力します。
 
-         * 入札修飾子を削除するには、入札乗算値を1.0に設定するか、行のすべての情報を削除します。
+        * 入札修飾子を削除するには、入札乗算値を1.0に設定するか、行のすべての情報を削除します。
 
-         ![入札乗算用スプレッドシート ファイルの行の例](/help/dsp/assets/bid-multiplier-spreadsheet.png "入札乗算用スプレッドシート ファイルの行の例")
+        ![入札乗算用スプレッドシート ファイルの行の例](/help/dsp/assets/bid-multiplier-spreadsheet.png "入札乗算用スプレッドシート ファイルの行の例")
 
-      1. **[!UICONTROL Next]**&#x200B;をクリックして[!UICONTROL Upload File] セクションに移動し、a）編集したファイルをボックスにドラッグ&amp;ドロップするか、b）ボックス内をクリックして、デバイスまたはネットワークからファイルを選択します。
+     1. **[!UICONTROL Next]**&#x200B;をクリックして[!UICONTROL Upload File] セクションに移動し、a）編集したファイルをボックスにドラッグ&amp;ドロップするか、b）ボックス内をクリックして、デバイスまたはネットワークからファイルを選択します。
 
-      1. [!UICONTROL Review & Submit] セクションでアップロードされたデータを確認し、**[!UICONTROL Save]**&#x200B;をクリックします。
+     1. [!UICONTROL Review & Submit] セクションでアップロードされたデータを確認し、**[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## 1つ以上のプレースメントの入札乗数をアップロードする
 
@@ -135,6 +139,6 @@ ht-degree: 1%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのプレースメント管理について](placement-about.md)
->* [&#x200B; プレースメントを編集](placement-edit.md)
->* [&#x200B; プレースメントの変更ログを表示](placement-change-log.md)
+>* [ プレースメントを編集](placement-edit.md)
+>* [ プレースメントの変更ログを表示](placement-change-log.md)
 >* [配置の設定](placement-settings.md)
