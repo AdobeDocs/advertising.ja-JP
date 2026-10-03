@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アーカイブされたキャンペーンを表示するには、[!UICONTROL Campaigns]表示をフィルターします。![ フィルターボタン ](/help/dsp/assets/filter.png)をクリックし、**[!UICONTROL Campaign status]**&#x200B;をクリックして&#x200B;**[!UICONTROL Archived]**&#x200B;を選択し、**[!UICONTROL Apply]をクリックします。**
+>アーカイブされたキャンペーンを表示するには、[!UICONTROL Campaigns]表示をフィルターします。![&#x200B; フィルターボタン &#x200B;](/help/dsp/assets/filter.png)をクリックし、**[!UICONTROL Campaign status]**&#x200B;をクリックして&#x200B;**[!UICONTROL Archived]**&#x200B;を選択し、**[!UICONTROL Apply]をクリックします。**
 
 ## キャンペーンのアーカイブ解除
 
@@ -50,6 +50,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ キャンペーンを編集](campaign-edit.md)
->* [ キャンペーンの変更ログを表示](campaign-change-log.md)
->* [ キャンペーンを一時停止またはアクティブ化](campaign-pause-activate.md)
+>* [&#x200B; キャンペーンを編集](campaign-edit.md)
+>* [&#x200B; キャンペーンの変更ログを表示](campaign-change-log.md)
+>* [&#x200B; キャンペーンを一時停止またはアクティブ化](campaign-pause-activate.md)

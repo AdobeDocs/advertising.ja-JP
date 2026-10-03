@@ -40,11 +40,11 @@ ht-degree: 0%
 
 1. データテーブルの上にあるツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
 
-1. [ データソース設定](data-source-settings.md)を編集します。
+1. [&#x200B; データソース設定](data-source-settings.md)を編集します。
 
    1. 「[!UICONTROL Connect to Google Analytics]」セクションで、次の操作を行います。
 
-      1. （必要に応じて）このデータソースのデータへのアクセスに使用する新しいメールアドレスを入力します。 メールアドレスは[!DNL Google] アカウントに登録し、[!DNL Google Analytics] アカウントに「読み取りと分析」権限を持っている必要があります。  [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587)でユーザー権限を割り当てる方法については、[の手順を参照してください。
+      1. （必要に応じて）このデータソースのデータへのアクセスに使用する新しいメールアドレスを入力します。 メールアドレスは[!DNL Google] アカウントに登録し、[!DNL Google Analytics] アカウントに「読み取りと分析」権限を持っている必要があります。  [!DNL Google Analytics]&#x200B;[&#128279;](https://support.google.com/analytics/answer/9305587)でユーザー権限を割り当てる方法については、の手順を参照してください。
 
          >[!TIP]
          >
@@ -59,9 +59,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [同期について [!DNL Google Analytics]  コンバージョン指標](data-source-about.md)
->* [ データソースを設定するための前提条件 [!DNL Google Analytics] ](data-source-prerequisites.md)
->* [ データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
->* [ データソースの編集 [!DNL Google Analytics] ](data-source-edit.md)
->* [ データソースの同期を一時停止](data-source-pause.md)
+>* [&#x200B; データソースを設定するための前提条件 [!DNL Google Analytics] &#x200B;](data-source-prerequisites.md)
+>* [&#x200B; データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
+>* [&#x200B; データソースの編集 [!DNL Google Analytics] &#x200B;](data-source-edit.md)
+>* [&#x200B; データソースの同期を一時停止](data-source-pause.md)
 >* [[!DNL Google Analytics]  データソース設定](data-source-settings.md)
 >* [付録 – 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)

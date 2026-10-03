@@ -43,7 +43,7 @@ ht-degree: 0%
 >
 >* [通知について](/help/search-social-commerce/notifications/notification-about.md)
 >* [通知を表示](notification-view.md)
->* [通知を既読または未読としてマーク ](notification-mark-read-unread.md)
+>* [通知を既読または未読としてマーク &#x200B;](notification-mark-read-unread.md)
 >* [通知設定を編集](notification-edit.md)
->* [ プッシュ通知を[!UICONTROL Notification Center]](notifications-push-enable-disable.md)から有効または無効にする
+>* [&#x200B; プッシュ通知を[!UICONTROL Notification Center]](notifications-push-enable-disable.md)から有効または無効にする
 >* [Web アプリケーション [!UICONTROL Notification Center]をインストールしてアンインストールする](notification-app-install-uninstall.md)

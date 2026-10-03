@@ -25,11 +25,11 @@ ht-degree: 0%
 ---
 # 標準クリエイティブをクリエイティブライブラリに追加
 
-標準のクリエイティブを[ クリエイティブライブラリ ](creative-library-manage.md)に追加して、標準の[広告エクスペリエンス ](/help/creative/experiences/experience-about.md)で使用します。
+標準のクリエイティブを[&#x200B; クリエイティブライブラリ &#x200B;](creative-library-manage.md)に追加して、標準の[広告エクスペリエンス &#x200B;](/help/creative/experiences/experience-about.md)で使用します。
 
 >[!NOTE]
 >
-> ユーザーターゲットが定義されていない広告エクスペリエンスに、個々のクリエイターを直接含めることができます。 クリエイティブを[ バンドル ](bundle-manage.md)でグループ化して、ターゲット広告エクスペリエンスに含めることもできます。
+> ユーザーターゲットが定義されていない広告エクスペリエンスに、個々のクリエイターを直接含めることができます。 クリエイティブを[&#x200B; バンドル &#x200B;](bundle-manage.md)でグループ化して、ターゲット広告エクスペリエンスに含めることもできます。
 
 ## HTMLの柔軟な広告をクリエイティブライブラリに追加 {#flexible-creative-add}
 
@@ -65,9 +65,9 @@ ht-degree: 0%
 
    * ファイルを削除するには、そのファイルの横にあるチェックボックスの選択を解除します。
 
-1. （オプション）クリエイティブをプレビューするには、画像の上にある![ プレビュー](/help/creative/assets/preview.png " プレビュー")をクリックします。
+1. （オプション）クリエイティブをプレビューするには、画像の上にある![&#x200B; プレビュー](/help/creative/assets/preview.png " プレビュー")をクリックします。
 
-1. [ フレキシブル HTML5の広告設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)を指定します。
+1. [&#x200B; フレキシブル HTML5の広告設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)を指定します。
 
    デフォルトでは、アップロードしたばかりのクリエイティブがすべて選択されます。 1つの値のみを持つ設定は、選択したすべてのクリエイティブに適用されます。一部の設定では、個々の値を指定できます。 特定のクリエイティブの設定を入力するには、該当しない各クリエイティブの横にあるチェックボックスをオフにします。
 
@@ -102,7 +102,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. テンプレート名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Use Selected]**」をクリックします。
 
-1. [ フレキシブル HTML5 クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)を編集して、言語を指定し、独自のクリックタグ、画像、その他の属性を含めます。
+1. [&#x200B; フレキシブル HTML5 クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)を編集して、言語を指定し、独自のクリックタグ、画像、その他の属性を含めます。
 
    クリエイティブの最大ファイルサイズは、圧縮されると2 MBになります。<!-- Still true? -->
 
@@ -112,7 +112,7 @@ For information about the attributes available in predefined templates, see "[Av
 
    * ファイルを削除するには、そのファイルの横にあるチェックボックスの選択を解除します。
 
-1. （オプション）クリエイティブをプレビューするには、画像の上にある![ プレビュー](/help/creative/assets/preview.png " プレビュー")をクリックします。
+1. （オプション）クリエイティブをプレビューするには、画像の上にある![&#x200B; プレビュー](/help/creative/assets/preview.png " プレビュー")をクリックします。
 
 1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
@@ -120,7 +120,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 通常のディスプレイクリエイティブには、Adobe Experience ManagerやAdobe GenStudio for Performance Marketingから読み込んだクリエイティブを含む、画像やHTML5のクリエイティブが含まれます。
 
-* 画像のクリエイティブは、GIF、JPEG、JPG、PNG形式で作成できます。 最大ファイルサイズは2 MBです。 [ サポートされているクリエイティブサイズ ](/help/creative/creative-libraries/creative-sizes.md)を参照してください。
+* 画像のクリエイティブは、GIF、JPEG、JPG、PNG形式で作成できます。 最大ファイルサイズは2 MBです。 [&#x200B; サポートされているクリエイティブサイズ &#x200B;](/help/creative/creative-libraries/creative-sizes.md)を参照してください。
 
 * 一度に複数のExperience Manager アセット、複数のGenStudio エクスペリエンス、または1つのタイプ（シンプルまたは静的）の複数のローカル HTML 5 クリエイターを追加できます。 HTML5のクリエイティブについては、[HTML5広告の仕様](/help/creative/creative-libraries/html5-creative-specification.md)を参照してください。
 
@@ -147,7 +147,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
      * **[!UICONTROL Select a file]**&#x200B;をクリックして、デバイスまたはネットワーク上のファイルを検索します。
 
-   * DSP アカウント ](/help/creative/creative-libraries/aem-assets-configure.md)に接続された[Experience Manager ライブラリ内の承認済み画像の場合は、次の操作を行います。
+   * DSP アカウント [&#128279;](/help/creative/creative-libraries/aem-assets-configure.md)に接続されたExperience Manager ライブラリ内の承認済み画像の場合は、次の操作を行います。
 
      1. **[!UICONTROL AEM Asset Library]**&#x200B;をクリックします。
 
@@ -191,15 +191,15 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. **[!UICONTROL Creatives]** タブで、**[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL 3rd Party]**&#x200B;をクリックします。
 
-1. [ サードパーティのクリエイティブ設定](#creative-settings-third-party)で、クリエイティブのJavaScript タグとその他の設定を指定します。
+1. [&#x200B; サードパーティのクリエイティブ設定](#creative-settings-third-party)で、クリエイティブのJavaScript タグとその他の設定を指定します。
 
-   使用可能な[ マクロ ](/help/creative/creative-macros.md)のいずれかをJavaScript タグにコピーして貼り付けることができます。
+   使用可能な[&#x200B; マクロ &#x200B;](/help/creative/creative-macros.md)のいずれかをJavaScript タグにコピーして貼り付けることができます。
 
 1. **[!UICONTROL Create]**&#x200B;をクリック
 
 ## クリエイティブライブラリへのビデオクリエイティブの追加
 
-[ ビデオクリエイティブの仕様](/help/creative/creative-libraries/creative-libraries-about.md#creative-video-specs)と[ サポートされているクリエイティブサイズ ](/help/creative/creative-libraries/creative-sizes.md)を参照してください。
+[&#x200B; ビデオクリエイティブの仕様](/help/creative/creative-libraries/creative-libraries-about.md#creative-video-specs)と[&#x200B; サポートされているクリエイティブサイズ &#x200B;](/help/creative/creative-libraries/creative-sizes.md)を参照してください。
 
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
 
@@ -213,7 +213,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * **[!UICONTROL Select a file]**&#x200B;をクリックして、デバイスまたはネットワーク上のファイルを検索します。
 
-1. [ ビデオクリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video)を指定します。
+1. [&#x200B; ビデオクリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video)を指定します。
 
    デフォルトでは、アップロードしたクリエイティブが選択され、指定した設定は選択したクリエイティブに適用されます。<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
 
@@ -223,10 +223,10 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 >
 >* [標準クリエイティブの編集](/help/creative/creative-libraries/creative-edit-standard.md)
 >* [標準クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md)
->* [ クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
->* [URLのトラッキングに使用できるマクロ ](/help/creative/creative-macros.md)
->* [ サポートされているクリエイティブサイズ ](/help/creative/creative-libraries/creative-sizes.md)
->* [ クリエイティブをプレビュー](/help/creative/creative-libraries/creative-preview.md)
->* [ バンドルからクリエイティブを添付および分離](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
->* [ クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
->* [ クリエイティブライブラリの管理](/help/creative/creative-libraries/creative-library-manage.md)
+>* [&#x200B; クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
+>* [URLのトラッキングに使用できるマクロ &#x200B;](/help/creative/creative-macros.md)
+>* [&#x200B; サポートされているクリエイティブサイズ &#x200B;](/help/creative/creative-libraries/creative-sizes.md)
+>* [&#x200B; クリエイティブをプレビュー](/help/creative/creative-libraries/creative-preview.md)
+>* [&#x200B; バンドルからクリエイティブを添付および分離](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
+>* [&#x200B; クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
+>* [&#x200B; クリエイティブライブラリの管理](/help/creative/creative-libraries/creative-library-manage.md)

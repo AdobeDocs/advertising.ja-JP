@@ -52,7 +52,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ モデル精度レポートについて](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [&#x200B; モデル精度レポートについて](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
 >* [The [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
->* [ モデル精度レポートを生成](model-accuracy-report-generate.md)
->* [ モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [&#x200B; モデル精度レポートを生成](model-accuracy-report-generate.md)
+>* [&#x200B; モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)

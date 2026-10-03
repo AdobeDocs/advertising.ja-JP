@@ -37,13 +37,13 @@ ht-degree: 0%
 
 カード表示とテーブル表示を切り替えると、フィルターと選択範囲が保持されます。
 
-![ カード表示](/help/creative/assets/card-view-button.png " カード表示") カード表示を開く
+![&#x200B; カード表示](/help/creative/assets/card-view-button.png " カード表示") カード表示を開く
 
-![ カードビューの例](/help/creative/assets/card-view-example.png " カードビューの例")
+![&#x200B; カードビューの例](/help/creative/assets/card-view-example.png " カードビューの例")
 
-![ テーブル/リスト表示](/help/creative/assets/table-view-button.png " テーブル表示") テーブル表示を開く
+![&#x200B; テーブル/リスト表示](/help/creative/assets/table-view-button.png " テーブル表示") テーブル表示を開く
 
-![ テーブルビューの例](/help/creative/assets/table-view-example.png " テーブルビューの例")
+![&#x200B; テーブルビューの例](/help/creative/assets/table-view-example.png " テーブルビューの例")
 
 <!--
  not implemented as of 11-26:
@@ -58,7 +58,7 @@ Refresh the pane to see any changes that other users have made.
 
 ## ビューのフィルタリング
 
-（使用可能な場合） フィルター（![ フィルターボタン ](/help/creative/assets/filter.png " フィルターボタン ")）表示されるエンティティには、次の項目のみが含まれます。
+（使用可能な場合） フィルター（![&#x200B; フィルターボタン &#x200B;](/help/creative/assets/filter.png " フィルターボタン ")）表示されるエンティティには、次の項目のみが含まれます。
 
 * **[!UICONTROL Creative Libraries]> [!UICONTROL Creatives] > [!UICONTROL Standard Ads]:**&#x200B;特定のクリエイティブのサイズ、クリエイティブの種類、サイズ、関連するラベル、または言語
 

@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * 事前設定済みのレポートテンプレートから選択し、オプションでさらにカスタマイズできます。
 
-レポートを1回作成するか、指定したタイムゾーンの03:00に、指定した条件（15日ごと、毎月1日など）に日次、週次、または月次でスケジュールできます。 レポートを生成したら、[!UICONTROL Reports] > [!UICONTROL Custom Reports]から、または次のタイプのリンクされた[ レポート宛先](/help/dsp/reports/report-destinations/report-destination-about.md)からレポートをダウンロードできます。
+レポートを1回作成するか、指定したタイムゾーンの03:00に、指定した条件（15日ごと、毎月1日など）に日次、週次、または月次でスケジュールできます。 レポートを生成したら、[!UICONTROL Reports] > [!UICONTROL Custom Reports]から、または次のタイプのリンクされた[&#x200B; レポート宛先](/help/dsp/reports/report-destinations/report-destination-about.md)からレポートをダウンロードできます。
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->関連するキャンペーン管理ビュー](/help/dsp/campaign-management/reports/campaign-reports-about.md)内で、キャンペーン（キャンペーン、パッケージ、プレースメント、または広告）のあらゆるレベルのオンデマンドデータを表示することもできます[。
+>関連するキャンペーン管理ビュー[&#128279;](/help/dsp/campaign-management/reports/campaign-reports-about.md)内で、キャンペーン（キャンペーン、パッケージ、プレースメント、または広告）のあらゆるレベルのオンデマンドデータを表示することもできます。
 
 ## 使用可能なレポートタイプ
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
   * **[!UICONTROL Device]:**&#x200B;この事前入力されたテンプレートを使用して、デバイス関連のディメンション別の主要指標を表示します。
 
-  * **[!UICONTROL DSP Self-Attributed Conversions]:**&#x200B;このレポートを使用して、Advertising DSPがコンバージョンに貢献したことを確認します。これには、DSPが役割を果たしたカスタマージャーニーが含まれますが、Adobe Advertising検索クリックなどの後のタッチは、他のレポートでラストクリッククレジットを受け取りました。 詳しくは、「[ カスタムレポートに関するFAQ](/help/dsp/reports/faq-reports.md)」を参照してください。
+  * **[!UICONTROL DSP Self-Attributed Conversions]:**&#x200B;このレポートを使用して、Advertising DSPがコンバージョンに貢献したことを確認します。これには、DSPが役割を果たしたカスタマージャーニーが含まれますが、Adobe Advertising検索クリックなどの後のタッチは、他のレポートでラストクリッククレジットを受け取りました。 詳しくは、「[&#x200B; カスタムレポートに関するFAQ](/help/dsp/reports/faq-reports.md)」を参照してください。
 
     **重要：**&#x200B;このレポートは、Adobe Analytics レポートの既存のアトリビューション手法またはアトリビューションを変更するものではありません。 DSP独自のコンバージョン貢献度ビューを補完的に提供します。
 
@@ -94,9 +94,9 @@ ht-degree: 0%
 
   * **[!UICONTROL Geo]**：この事前入力テンプレートを使用して、地理的ディメンション別の主要指標を確認します。
 
-  * **[!UICONTROL Household Conversions]:**&#x200B;このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルでのビュースルーコンバージョンを確認します。 インサイトを活用して、キャンペーンのパフォーマンスを測定および最適化できます。 詳しくは、「[ カスタムレポートに関するFAQ](/help/dsp/reports/faq-reports.md)」を参照してください。 ユニバーサル IDをターゲットとするプレースメントでは、データは使用できません。
+  * **[!UICONTROL Household Conversions]:**&#x200B;このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルでのビュースルーコンバージョンを確認します。 インサイトを活用して、キャンペーンのパフォーマンスを測定および最適化できます。 詳しくは、「[&#x200B; カスタムレポートに関するFAQ](/help/dsp/reports/faq-reports.md)」を参照してください。 ユニバーサル IDをターゲットとするプレースメントでは、データは使用できません。
 
-  * **[!UICONTROL Household Reach & Frequency]:**&#x200B;このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルで、広告フォーマット全体の単一ディメンションのインプレッション、リーチ、頻度を確認します。 インサイトを活用して、メディアミックスを最適化し、パフォーマンスを向上させ、リーチを拡大する機会を特定します。 詳しくは、「[ カスタムレポートに関するFAQ](/help/dsp/reports/faq-reports.md)」を参照してください。 ユニバーサル IDをターゲットとするプレースメントでは、データは使用できません。
+  * **[!UICONTROL Household Reach & Frequency]:**&#x200B;このレポートを使用して、デバイス/cookie レベルではなく、IP アドレスに基づく世帯レベルで、広告フォーマット全体の単一ディメンションのインプレッション、リーチ、頻度を確認します。 インサイトを活用して、メディアミックスを最適化し、パフォーマンスを向上させ、リーチを拡大する機会を特定します。 詳しくは、「[&#x200B; カスタムレポートに関するFAQ](/help/dsp/reports/faq-reports.md)」を参照してください。 ユニバーサル IDをターゲットとするプレースメントでは、データは使用できません。
 
   * **[!UICONTROL Margin]:**&#x200B;このレポートを使用して、キャンペーンまたはプレースメント別の利益率、利益、その他の支出指標などの主要指標を確認します。 ユニバーサル IDをターゲットとするプレースメントでは、データは使用できません。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
     最新の10個のインタラクションポイントまで含まれます。 パスの行は、コンバージョン数で並べ替えられます。
 
-    このレポートと[!DNL Advanced Measurement Services]とAdobe Analyticsによって作成されたレポートの比較については、「[ カスタムレポートに関するよくある質問](/help/dsp/reports/faq-reports.md)」を参照してください。
+    このレポートと[!DNL Advanced Measurement Services]とAdobe Analyticsによって作成されたレポートの比較については、「[&#x200B; カスタムレポートに関するよくある質問](/help/dsp/reports/faq-reports.md)」を参照してください。
 
   * **[!UICONTROL Path Length]:**&#x200B;このレポートを使用して、コンバージョンに必要なユーザーインタラクションポイントの数を経時的に追跡し、最適な広告頻度を選択できるようにします。 このレポートは、パスの長さ（インタラクションポイント）別のコンバージョン数を示します。例えば、ユーザーが1つの広告インタラクションと2つの広告インタラクションのみを行った後に発生したコンバージョン数などを示します。 このレポートには、複数のコンバージョン指標のデータを含めることができ、最初のインタラクションとコンバージョンの間に指定されたルックバック期間を使用します。 レポートの列には、「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt; コンバージョン指標名1\>」、「% \&lt; コンバージョン指標名1\>」、「\&lt; コンバージョン指標名2\>」、「% \&lt; コンバージョン指標名2\>」などが含まれます。
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 複数のDSPアカウントを持つ組織では、組織のニーズに応じて、カスタムレポートでクロスアカウントデータをオプションで有効にすることができます。 例えば、アカウント Aにアカウント Bのデータへのアクセス権を付与し、アカウント Bにアカウント Cのデータへのアクセス権を付与できます（アカウント Aには付与されません）。 この機能を有効にして設定するには、Adobe アカウントチームにお問い合わせください。
 
-この機能が組織で有効になると、アカウント別に次のレポートタイプのいずれかを[ フィルター](report-settings.md)できます：[!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]、および[!UICONTROL Conversion]。
+この機能が組織で有効になると、アカウント別に次のレポートタイプのいずれかを[&#x200B; フィルター](report-settings.md)できます：[!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]、および[!UICONTROL Conversion]。
 
 [!UICONTROL Settings] > [!UICONTROL Account]のアカウント設定は、a）自分のアカウントでデータを利用できる他のアカウント、およびb）自分のアカウントのデータにアクセスできる他のアカウントを示します。
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ready to download]:** （繰り返しレポートのみ） レポートの1つ以上のインスタンスをダウンロードでき、複数のレポートインスタンスがスケジュールされています。
 
-* **[!UICONTROL Failed]:** レポートジョブが失敗しました。 レポートのインスタンスが2回作成できなかった理由を確認するには、[!UICONTROL Download]の横にある下向き矢印](/help/dsp/assets/chevron-down.png "下向き矢印")をクリックします。 ![失敗したレポートジョブには、エラーアイコン （![エラーインジケーター](/help/dsp/assets/indicator-critical.png "エラーインジケーター")）が表示されます。 エラーアイコンの上にカーソルを置くと、エラーの説明が表示されます。
+* **[!UICONTROL Failed]:** レポートジョブが失敗しました。 レポートのインスタンスが2回作成できなかった理由を確認するには、[!UICONTROL Download]の横にある下向き矢印![&#128279;](/help/dsp/assets/chevron-down.png "下向き矢印")をクリックします。 失敗したレポートジョブには、エラーアイコン （![エラーインジケーター](/help/dsp/assets/indicator-critical.png "エラーインジケーター")）が表示されます。 エラーアイコンの上にカーソルを置くと、エラーの説明が表示されます。
 
 * **[!UICONTROL Completed]:**&#x200B;非定期レポートの場合、レポートは完了します。 定期的なレポートの場合、すべてのレポートインスタンスが完了します。 過去4か月間に完了したすべてのレポートをダウンロードできます。
 
@@ -161,10 +161,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ カスタムレポートを作成](/help/dsp/reports/report-create.md)
->* [ カスタムレポートをダウンロード ](/help/dsp/reports/report-download.md)
->* [ カスタムレポート設定](/help/dsp/reports/report-settings.md)
+>* [&#x200B; カスタムレポートを作成](/help/dsp/reports/report-create.md)
+>* [&#x200B; カスタムレポートをダウンロード &#x200B;](/help/dsp/reports/report-download.md)
+>* [&#x200B; カスタムレポート設定](/help/dsp/reports/report-settings.md)
 >* カスタムレポートに関する[FAQ](/help/dsp/reports/faq-reports.md)
->* [ キャンペーン管理ビューのパフォーマンスレポートの種類](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [&#x200B; キャンペーン管理ビューのパフォーマンスレポートの種類](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [使用可能なレポート列](/help/dsp/reports/report-columns.md)
->* [ レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [&#x200B; レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md)

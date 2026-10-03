@@ -31,7 +31,7 @@ ht-degree: 0%
 
 同じ製品が複数のキャンペーンに含まれている場合、広告ネットワークはまずキャンペーンの優先順位を使用して、どのキャンペーン（および関連する入札）が広告オークションの対象となるかを決定します。 すべてのキャンペーンの優先順位が同じ場合、入札額が最も高いキャンペーンが実施要件を満たします。
 
-[!DNL Google]個のショッピング キャンペーンと広告について詳しくは、「[実装 [!DNL Google Ads]  ショッピング キャンペーン ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)」および[Google広告のドキュメント ](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&rd=1)を参照してください。 [!DNL Microsoft]個のショッピング キャンペーンについて詳しくは、「[実装 [!DNL Microsoft Advertising]  ショッピング キャンペーン ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)」および[[!DNL Microsoft Advertising]  ドキュメント ](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)を参照してください。
+[!DNL Google]個のショッピング キャンペーンと広告について詳しくは、「[実装 [!DNL Google Ads]  ショッピング キャンペーン &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)」および[Google広告のドキュメント &#x200B;](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&rd=1)を参照してください。 [!DNL Microsoft]個のショッピング キャンペーンについて詳しくは、「[実装 [!DNL Microsoft Advertising]  ショッピング キャンペーン &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)」および[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)を参照してください。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ## ショッピング商品グループのトラッキングとパフォーマンスデータ
 
-（「[!UICONTROL EF Redirect]」トラッキングオプションを使用したアカウント/キャンペーン） Search、Social、およびCommerceで商品グループのコンバージョンをトラッキングできるようにするには、[ トラッキング URL ツールを使用して商品グループのトラッキング URLを生成し](/help/search-social-commerce/tools/click-tracking-url-generate.md)、次のいずれかの操作を行います。
+（「[!UICONTROL EF Redirect]」トラッキングオプションを使用したアカウント/キャンペーン） Search、Social、およびCommerceで商品グループのコンバージョンをトラッキングできるようにするには、[&#x200B; トラッキング URL ツールを使用して商品グループのトラッキング URLを生成し](/help/search-social-commerce/tools/click-tracking-url-generate.md)、次のいずれかの操作を行います。
 
 * （必須：[!DNL Google Ads]、ベストプラクティス：[!DNL Microsoft Advertising]） アカウント、キャンペーン、または製品グループの設定の[!DNL Tracking Template] フィールドにトラッキング URLを追加します。 メンテナンスを容易にするために、できるだけ高いレベルで追加してください。 アカウントまたはキャンペーンに指定された追加パラメーターは含まれません。
 
@@ -67,8 +67,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ショッピング商品グループの管理](product-group-manage.md)
+>* [&#x200B; ショッピング商品グループの管理](product-group-manage.md)
 >* [[!DNL Google Ads] 製品グループ設定](product-group-settings-google.md)
->* [ ショッピング キャンペーン  [!DNL Google Ads] を実装](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [&#x200B; ショッピング キャンペーン  [!DNL Google Ads] を実装](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
 >* [[!DNL Microsoft Advertising] 製品グループ設定](product-group-settings-microsoft.md)
->* [ ショッピング キャンペーン  [!DNL Microsoft Advertising] を実装](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+>* [&#x200B; ショッピング キャンペーン  [!DNL Microsoft Advertising] を実装](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

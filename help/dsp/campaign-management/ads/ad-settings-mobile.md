@@ -53,7 +53,7 @@ ht-degree: 0%
 
 **[!UICONTROL Display Code]:** サードパーティのクリエイティブアセットのURL。 [timestamp]および[[timestamp]]のパラメーターはすべて、実際の値に置き換えられます。
 
-**[!UICONTROL Final Display Code]:**&#x200B;必要な[Advertising DSP トラッキングマクロ ](/help/dsp/campaign-management/macros.md)が挿入されたサードパーティのクリエイティブアセットのURL （該当する場合）。
+**[!UICONTROL Final Display Code]:**&#x200B;必要な[Advertising DSP トラッキングマクロ &#x200B;](/help/dsp/campaign-management/macros.md)が挿入されたサードパーティのクリエイティブアセットのURL （該当する場合）。
 
 ### [!UICONTROL Basic]：ビデオ広告
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 **[!UICONTROL VAST Tag]:** （VAST タグを使用した広告のみ。読み取り専用） クリエイティブアセットとして入力したサードパーティのVAST タグ。
 
-**[!UICONTROL Final VAST Tag]:** （VAST タグを使用した広告のみ。読み取り専用）必要な[Advertising DSP トラッキングマクロ ](/help/dsp/campaign-management/macros.md)が挿入されたクリエイティブアセットとして入力したサードパーティ VAST タグ（該当する場合）。
+**[!UICONTROL Final VAST Tag]:** （VAST タグを使用した広告のみ。読み取り専用）必要な[Advertising DSP トラッキングマクロ &#x200B;](/help/dsp/campaign-management/macros.md)が挿入されたクリエイティブアセットとして入力したサードパーティ VAST タグ（該当する場合）。
 
 **[!UICONTROL Wmode]:** （一部の広告タイプ）ウィンドウ モード：*[!UICONTROL window]*、*[!UICONTROL transparent]*、または&#x200B;*[!UICONTROL opaque]*。
 
@@ -109,4 +109,4 @@ ht-degree: 0%
 >* [単一の広告を作成](ad-create.md)
 >* [広告に関連付けられているプレースメントを一覧表示](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [広告の仕様](ad-specs.md)
->* [DSP マクロ ](/help/dsp/campaign-management/macros.md)
+>* [DSP マクロ &#x200B;](/help/dsp/campaign-management/macros.md)

@@ -50,9 +50,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [ （新しいUI）一括シートファイルを使用したポートフォリオ設定の一括編集](portfolio-bulksheets.md)
->* [ （新しいUI） ポートフォリオを複製](portfolio-duplicate.md)
->* [ （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
->* [ （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード ](portfolio-view-report.md)
->* [ （新しいUI） ポートフォリオについて](portfolio-about.md)
+>* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [&#x200B; （新しいUI）一括シートファイルを使用したポートフォリオ設定の一括編集](portfolio-bulksheets.md)
+>* [&#x200B; （新しいUI） ポートフォリオを複製](portfolio-duplicate.md)
+>* [&#x200B; （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
+>* [&#x200B; （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード &#x200B;](portfolio-view-report.md)
+>* [&#x200B; （新しいUI） ポートフォリオについて](portfolio-about.md)

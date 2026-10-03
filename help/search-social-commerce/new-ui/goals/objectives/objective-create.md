@@ -37,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目標をポートフォリオに関連付けるには、[ ポートフォリオを作成するか、[ ポートフォリオ設定の変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)までに行います。 ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)複数のポートフォリオに対して同じ目的を使用できます。
+>目標をポートフォリオに関連付けるには、[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)&#x200B; ポートフォリオを作成するか、[&#x200B; ポートフォリオ設定の変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)までに行います。 &#x200B;複数のポートフォリオに対して同じ目的を使用できます。
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;をクリックします。
 
@@ -59,4 +59,4 @@ Advertising DSP パッケージで使用する目的の先頭に「`ADSP_`」を
 >* [目標を編集](objective-edit.md)
 >* [目標に重み付けの推奨事項を適用](objective-apply-weight-recommendations.md)
 >* [目標の設定](objective-settings.md)
->* [目的のパフォーマンスデータをダウンロード ](objective-download-performance-data.md)
+>* [目的のパフォーマンスデータをダウンロード &#x200B;](objective-download-performance-data.md)

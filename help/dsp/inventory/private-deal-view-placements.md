@@ -46,7 +46,7 @@ ht-degree: 0%
 
    * プレースメントがプライベート ディールに入札できなかった理由を確認するには、プレースメント行にカーソルを合わせて「**[!UICONTROL Non bid reasons]**」をクリックします。
 
-   * プレースメントの設定を編集するには、プレースメント行の上にカーソルを置き、**[!UICONTROL Edit]**&#x200B;をクリックします。 [ プレースメント設定を編集](/help/dsp/campaign-management/placements/placement-settings.md)し、**[!UICONTROL Update placement]**&#x200B;をクリックします。
+   * プレースメントの設定を編集するには、プレースメント行の上にカーソルを置き、**[!UICONTROL Edit]**&#x200B;をクリックします。 [&#x200B; プレースメント設定を編集](/help/dsp/campaign-management/placements/placement-settings.md)し、**[!UICONTROL Update placement]**&#x200B;をクリックします。
 
    * プレースメントの在庫目標から取引を削除するには、プレースメント行の上にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Detach Placement]**&#x200B;をクリックします。 確認メッセージで、**[!UICONTROL Yes]**&#x200B;をクリックします。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プライベートインベントリについて](private-inventory-about.md)
+>* [&#x200B; プライベートインベントリについて](private-inventory-about.md)
 >* [取引IDのプレースメントと広告を指定](deal-id-attach-placements.md)
 >* [取引に関する詳細なレポートを表示](deal-view-report.md)
->* [ プレースメント診断レポートを表示](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [&#x200B; プレースメント診断レポートを表示](/help/dsp/campaign-management/reports/placement-diagnostics.md)

@@ -44,7 +44,7 @@ Auction Insightsは、保証されたプライベート取引と保証されて�
 
 >[!NOTE]
 >
->オークションインサイトは、配置[!UICONTROL Inspector] ツールからも利用できます。 それらを開くには、[ プレースメント [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md)を[!UICONTROL Inventory tab]に開き、取引行の&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**&#x200B;をクリックします。
+>オークションインサイトは、配置[!UICONTROL Inspector] ツールからも利用できます。 それらを開くには、[&#x200B; プレースメント [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md)を[!UICONTROL Inventory tab]に開き、取引行の&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**&#x200B;をクリックします。
 
 ## オークション属性 {#auction-attributes}
 
@@ -64,7 +64,7 @@ Auction Insightsは、保証されたプライベート取引と保証されて�
 
 * **MIME タイプ：** オークションでリクエストされた広告クリエイティブ MIME タイプ（mp4またはmovなど）。
 
-![ オークションインサイト ](/help/dsp/assets/auction-insights.png)
+![&#x200B; オークションインサイト &#x200B;](/help/dsp/assets/auction-insights.png)
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Auction Insightsは、保証されたプライベート取引と保証されて�
 
 >[!MORELIKETHIS]
 >
->* [ プライベートインベントリについて](private-inventory-about.md)
+>* [&#x200B; プライベートインベントリについて](private-inventory-about.md)
 >* [取引IDのプレースメントと広告を指定](deal-id-attach-placements.md)
 >* [取引に関する詳細なレポートを表示](deal-view-report.md)
->* [ キャンペーン管理ビューのパフォーマンスレポートの種類](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [&#x200B; キャンペーン管理ビューのパフォーマンスレポートの種類](/help/dsp/campaign-management/reports/campaign-reports-about.md)

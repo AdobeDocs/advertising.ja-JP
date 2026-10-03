@@ -47,6 +47,6 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [ プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)
->* [ プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [&#x200B; プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)
+>* [&#x200B; プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)

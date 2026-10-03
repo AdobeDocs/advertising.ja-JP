@@ -23,7 +23,7 @@ ht-degree: 0%
 ---
 # 付録：動的な広告フィード ファイルの使用可能なフィールド
 
-Advertising Creative バックエンドでは、次のフィード フィールドを使用できます。 組織固有のフィールド名を使用する[ フィードファイル ](/help/creative/feeds/asset-manage.md)をアップロードできます。 ただし、フィード ファイルから[ カタログ ](/help/creative/feeds/catalog-manage.md)を作成する前に、フィード ファイルの各フィールドを、カタログの作成に使用する[ フィード テンプレート ](/help/creative/feeds/feed-template-manage.md)の次のいずれかのフィールドにマッピングする必要があります。
+Advertising Creative バックエンドでは、次のフィード フィールドを使用できます。 組織固有のフィールド名を使用する[&#x200B; フィードファイル &#x200B;](/help/creative/feeds/asset-manage.md)をアップロードできます。 ただし、フィード ファイルから[&#x200B; カタログ &#x200B;](/help/creative/feeds/catalog-manage.md)を作成する前に、フィード ファイルの各フィールドを、カタログの作成に使用する[&#x200B; フィード テンプレート &#x200B;](/help/creative/feeds/feed-template-manage.md)の次のいずれかのフィールドにマッピングする必要があります。
 
 フィード ファイルに同等のフィールドを含める必要があるのは`PART_NUM`のみです。
 
@@ -133,6 +133,6 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 >[!MORELIKETHIS]
 >
 >* [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)
->* [ アセットファイルの管理](/help/creative/feeds/asset-manage.md)
->* [ フィード テンプレートの管理](/help/creative/feeds/feed-template-manage.md)
->* [ カタログの管理](/help/creative/feeds/catalog-manage.md)
+>* [&#x200B; アセットファイルの管理](/help/creative/feeds/asset-manage.md)
+>* [&#x200B; フィード テンプレートの管理](/help/creative/feeds/feed-template-manage.md)
+>* [&#x200B; カタログの管理](/help/creative/feeds/catalog-manage.md)

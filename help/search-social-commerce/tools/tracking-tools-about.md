@@ -24,20 +24,20 @@ ht-degree: 0%
 
 Adobe Advertising コンバージョントラッキングサービスを使用する場合は、次のツールを使用してトラッキングタグを作成およびデコードできます。
 
-* [[!UICONTROL Conversion Tags] ツール ](conversion-tag-generate.md)を使用すると、Adobe Advertising コンバージョン トラッキング タグを手動で生成して、web サイトの「成功」ページまたは「ありがとうございます」ページに追加できます。
+* [[!UICONTROL Conversion Tags] ツール &#x200B;](conversion-tag-generate.md)を使用すると、Adobe Advertising コンバージョン トラッキング タグを手動で生成して、web サイトの「成功」ページまたは「ありがとうございます」ページに追加できます。
 
   >[!NOTE]
   >
   >通常、Adobeのアカウントチームは、Adobeのコンバージョン追跡タグを提供します。そのため、この機能は必要ない場合があります。
 
-* [[!UICONTROL Tracking URLs] ツール ](click-tracking-url-generate.md)を使用すると、クリック トラッキング URLを手動で生成できます。これは、[ サポートされている広告ネットワーク ](/help/search-social-commerce/introduction/supported-inventory.md)のキーワード、広告、動的検索広告、プレースメント、商品グループ、またはサイトリンクを検索、ソーシャル、およびCommerce トラッキングでトラッキングするトラッキングテンプレートまたはトラッキング先URLです。
+* [[!UICONTROL Tracking URLs] ツール &#x200B;](click-tracking-url-generate.md)を使用すると、クリック トラッキング URLを手動で生成できます。これは、[&#x200B; サポートされている広告ネットワーク &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)のキーワード、広告、動的検索広告、プレースメント、商品グループ、またはサイトリンクを検索、ソーシャル、およびCommerce トラッキングでトラッキングするトラッキングテンプレートまたはトラッキング先URLです。
 
   クリックトラッキング URLを手動で生成するかどうかについて詳しくは、「[いつ、どのようにクリックトラッキング URLを生成するか](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)」を参照してください。
 
-* （宛先URLを持つアカウントのみ） [[!UICONTROL Decode Tracking URLs] ツール ](click-tracking-url-decode.md)を使用すると、トラッキングが有効な宛先URLから検索、ソーシャル、およびCommerce コードを削除して、ベース URLを確認できます。
+* （宛先URLを持つアカウントのみ） [[!UICONTROL Decode Tracking URLs] ツール &#x200B;](click-tracking-url-decode.md)を使用すると、トラッキングが有効な宛先URLから検索、ソーシャル、およびCommerce コードを削除して、ベース URLを確認できます。
 
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising コンバージョンタグを生成](conversion-tag-generate.md)
->* [ トラッキング URL ツールを使用して、検索、ソーシャル、Commerceのクリック トラッキング URLを生成](click-tracking-url-generate.md)
->* [検索、ソーシャル、Commerceのクリックトラッキング URLをデコード ](click-tracking-url-decode.md)
+>* [&#x200B; トラッキング URL ツールを使用して、検索、ソーシャル、Commerceのクリック トラッキング URLを生成](click-tracking-url-generate.md)
+>* [検索、ソーシャル、Commerceのクリックトラッキング URLをデコード &#x200B;](click-tracking-url-decode.md)

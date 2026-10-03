@@ -23,7 +23,7 @@ ht-degree: 0%
 ---
 # クリエイティブライブラリの管理
 
-広告主ごとに複数のクリエイティブライブラリを作成できます。 後で、各ライブラリに[標準クリエイティブ ](creative-add-standard.md)、[動的クリエイティブ ](creative-add-dynamic.md)、[ クリエイティブバンドル ](bundle-manage.md)を追加できます。
+広告主ごとに複数のクリエイティブライブラリを作成できます。 後で、各ライブラリに[標準クリエイティブ &#x200B;](creative-add-standard.md)、[動的クリエイティブ &#x200B;](creative-add-dynamic.md)、[&#x200B; クリエイティブバンドル &#x200B;](bundle-manage.md)を追加できます。
 
 ## クリエイティブライブラリの作成
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## クリエイティブライブラリの削除
 
-[live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないクリエイティブとバンドルを含むライブラリを削除できます。 ライブ ターゲティングされたエクスペリエンスの場合は、続行する前に、エクスペリエンスの決定ツリー](/help/creative/experiences/experience-target-node-delete.md)からクリエイティブまたはバンドルを[削除してください。<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
+[live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないクリエイティブとバンドルを含むライブラリを削除できます。 ライブ ターゲティングされたエクスペリエンスの場合は、続行する前に、エクスペリエンスの決定ツリー[&#128279;](/help/creative/experiences/experience-target-node-delete.md)からクリエイティブまたはバンドルを削除してください。<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
 
@@ -83,6 +83,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
+>* [&#x200B; クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
 >* [標準クリエイティブをクリエイティブライブラリに追加](creative-add-standard.md)
->* [ クリエイティブバンドルの管理](bundle-manage.md)
+>* [&#x200B; クリエイティブバンドルの管理](bundle-manage.md)

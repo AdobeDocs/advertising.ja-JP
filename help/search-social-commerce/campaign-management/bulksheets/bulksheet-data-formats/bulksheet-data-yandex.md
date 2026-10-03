@@ -20,7 +20,7 @@ ht-degree: 0%
 ---
 # 付録 – [!DNL Yandex] アカウントに必要なバルクシート データ
 
-[!DNL Yandex]件のキャンペーンデータを一括で作成および更新するには、[!DNL Yandex]件のアカウントに特化してフォーマットされたSearch、Social、およびCommerceのバルクシート ファイルを使用できます。 a） [必要なファイル形式で既存のアカウントの一括シートファイルを生成するか、b）手動で作成できます（サポートされているファイル形式に関する一般的な情報については、「[ サポートされている一括シートファイル形式](bulksheet-file-formats.md)」を参照）。](../bulksheet-download.md)
+[!DNL Yandex]件のキャンペーンデータを一括で作成および更新するには、[!DNL Yandex]件のアカウントに特化してフォーマットされたSearch、Social、およびCommerceのバルクシート ファイルを使用できます。 a） [&#128279;](../bulksheet-download.md)必要なファイル形式で既存のアカウントの一括シートファイルを生成するか、b）手動で作成できます（サポートされているファイル形式に関する一般的な情報については、「[&#x200B; サポートされている一括シートファイル形式](bulksheet-file-formats.md)」を参照）。
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Group Status] | なし | オプション：作成または編集<br>必須：削除 | なし | なし | なし | 広告グループの表示ステータス：<i>[!UICONTROL active]</i>、<i>[!UICONTROL archived]</i>、<i>[!UICONTROL deleted]</i>、<i>[!UICONTROL disapproved]</i>、<i>[!UICONTROL pending]</i>または<i>[!UICONTROL stop]</i> （一時停止）。 新しい広告グループのデフォルトは<i>[!UICONTROL active]</i>です。<br><br><b> メモ：</b><ul></li>広告グループがアクティブになったことがある場合、削除することはできません。 アーカイブ化しましょう。</li><li>ステータスを<i>[!UICONTROL disapproved]</i>または<i>[!UICONTROL pending]</i>に手動で設定したり、ステータスを変更したりすることはできません。</li></ul> |
 | [!UICONTROL Ad Status] | なし | なし | なし | オプション：作成または編集<br>必須：削除 | なし | バナー（広告）の表示ステータス：<i>[!UICONTROL active]</i>、<i>[!UICONTROL archived]</i>、<i>[!UICONTROL deleted]</i>、<i>[!UICONTROL disapproved]</i>、<i>[!UICONTROL pending]</i>または<i>[!UICONTROL stop]</i> （一時停止）。 新しいバナーのデフォルトは<i>[!UICONTROL active]</i>です。<br><br><b>注意：ステータスを<i>[!UICONTROL disapproved]</i>または<i>[!UICONTROL pending]</i>に手動で設定したり、これらのステータスを変更したりすることはできません。 |
 | [!UICONTROL Keyword Status] | なし | なし | オプション：作成または編集<br>必須：削除 | なし | なし | 語句（キーワード）の表示ステータス：<i>[!UICONTROL active]</i>。 新しいフレーズのデフォルトは<i>[!UICONTROL active]</i>です。<br><br><b>注意：ステータスを<i>[!UICONTROL disapproved]</i>または<i>[!UICONTROL pending]</i>に手動で設定したり、ステータスを変更したりすることはできません。 |
-| [!UICONTROL SiteLink Status] | なし | なし | なし | なし | オプション：作成または編集<br>必須：削除 | サイトリンクの表示ステータス：<i>[*UICONTROL Active]</i>または<i>[*UICONTROL Paused]</i>。 新しいサイトリンクのデフォルトは<i>[*UICONTROL Active]</i>です。 |
+| [!UICONTROL SiteLink Status] | なし | なし | なし | なし | オプション：作成または編集<br>必須：削除 | サイトリンクの表示ステータス：<i>[!UICONTROL * Active]</i>または<i>[!UICONTROL * Paused]</i>。 新しいサイトリンクのデフォルトは<i>[!UICONTROL * Active]</i>です。 |
 | [!UICONTROL Campaign ID] | なし：作成<br>必須/オプション：編集<br> オプション：削除 | オプション | オプション | オプション | オプション | 既存のキャンペーンを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1]この行にキャンペーンのAMO IDが含まれていない限り、キャンペーン名を変更する場合にのみ必要です。 |
 | [!UICONTROL Ad Group ID] | なし | なし：作成<br>必須/オプション：編集<br> オプション：削除 | オプション | オプション | なし | 既存の広告グループを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1]広告グループ名を変更する場合にのみ必要です。ただし、行に広告グループのAMO IDが含まれている場合は除きます。 |
 | [!UICONTROL Ad ID] | なし | なし | なし | なし：作成<br>必須/オプション：編集または削除 | なし | 既存のキーワードを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1] キーワード名を変更する場合にのみ必要です。行にa）キーワードを識別するのに十分なプロパティ列またはb） AMO IDが含まれていない限り必要です。 |
@@ -75,8 +75,8 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [付録 – バルクシート エラー](../bulksheet-errors.md)
->* [ バルクシートで実行できる操作](bulksheet-operations.md)
->* [ サポートされているバルクシート ファイル形式](bulksheet-file-formats.md)
->* [ バルクシート ファイルのダウンロードと作成](../bulksheet-download.md)
->*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の[ クリックトラッキング形式
->* [ バルクシート ファイルをアップロードするか、エラーファイルを修正](../bulksheet-upload.md)
+>* [&#x200B; バルクシートで実行できる操作](bulksheet-operations.md)
+>* [&#x200B; サポートされているバルクシート ファイル形式](bulksheet-file-formats.md)
+>* [&#x200B; バルクシート ファイルのダウンロードと作成](../bulksheet-download.md)
+>*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の クリックトラッキング形式
+>* [&#x200B; バルクシート ファイルをアップロードするか、エラーファイルを修正](../bulksheet-upload.md)

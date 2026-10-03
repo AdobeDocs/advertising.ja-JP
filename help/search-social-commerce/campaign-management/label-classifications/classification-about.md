@@ -20,7 +20,7 @@ ht-degree: 0%
 ---
 # ラベルの分類について
 
-ラベル分類は、アカウントコンポーネントを意味のあるセットにグループ化するのに役立ちます。 例えば、「Geo」という親ラベル分類を作成し、分類の中で地理的地域（「United Kingdom」や「Japan」など）ごとに異なるラベル値を作成し、そのラベル値を[入札ユニット ](/help/search-social-commerce/glossary.md#a-b)または親キャンペーンに割り当てることができます。 その後、任意のラベル値をビューやレポートに別の列として含め、様々な分類グループや値に関するレポートをサブピボットできます。
+ラベル分類は、アカウントコンポーネントを意味のあるセットにグループ化するのに役立ちます。 例えば、「Geo」という親ラベル分類を作成し、分類の中で地理的地域（「United Kingdom」や「Japan」など）ごとに異なるラベル値を作成し、そのラベル値を[入札ユニット &#x200B;](/help/search-social-commerce/glossary.md#a-b)または親キャンペーンに割り当てることができます。 その後、任意のラベル値をビューやレポートに別の列として含め、様々な分類グループや値に関するレポートをサブピボットできます。
 
 ## ラベルの分類
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## ラベル値
 
-各ラベル分類には、最大2000個の値を指定できます。 分類の特定のラベル値を作成したら、キャンペーン管理ビュー](classification-values-assign-campaign-management.md)または[から、バルクシート ](classification-values-assign-bulksheets.md)を使用して、キャンペーン、広告グループ、キーワード、広告、プレースメント、製品グループ [にそれらを割り当てることができます。
+各ラベル分類には、最大2000個の値を指定できます。 分類の特定のラベル値を作成したら、キャンペーン管理ビュー[&#128279;](classification-values-assign-campaign-management.md)または[から、バルクシート &#x200B;](classification-values-assign-bulksheets.md)を使用して、キャンペーン、広告グループ、キーワード、広告、プレースメント、製品グループ にそれらを割り当てることができます。
 
 対象となる各エンティティには、複数の分類のラベル値を設定できますが、分類ごとに1つのラベル値のみを設定できます。 ラベル値は子エンティティによって継承されますが、上書きできます。 最下位レベルで割り当てられた値は、常に親レベルで割り当てられた値よりも優先されます。
 
@@ -42,9 +42,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ラベル分類を作成](classification-create.md)
->* [ キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当てる](classification-values-assign-campaign-management.md)
->* [ バルクシートを使用してアカウントコンポーネントに分類値を割り当てる](classification-values-assign-bulksheets.md)
->* [ アカウントコンポーネントからラベル分類値を削除](classification-values-remove.md)
->* [ ラベル分類値を削除](classification-values-delete.md)
->* [ ラベル分類を削除](classification-delete.md)
+>* [&#x200B; ラベル分類を作成](classification-create.md)
+>* [&#x200B; キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当てる](classification-values-assign-campaign-management.md)
+>* [&#x200B; バルクシートを使用してアカウントコンポーネントに分類値を割り当てる](classification-values-assign-bulksheets.md)
+>* [&#x200B; アカウントコンポーネントからラベル分類値を削除](classification-values-remove.md)
+>* [&#x200B; ラベル分類値を削除](classification-values-delete.md)
+>* [&#x200B; ラベル分類を削除](classification-delete.md)

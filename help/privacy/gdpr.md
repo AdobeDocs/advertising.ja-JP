@@ -45,7 +45,7 @@ Adobe CX Enterpriseは、顧客のために収集、保存する個人データ�
 
 このドキュメントでは、Adobe Experience Platform Privacy Service APIとPrivacy Service UIを使用して、[!DNL Advertising Search, Social, & Commerce]、Advertising Creative、Advertising DSP （Demand Side Platform）、[!DNL Advertising DCO]がデータ主体のGDPR データへのアクセス権と削除権をどのようにサポートしているかを説明します。
 
-ビジネスにおけるGDPRの意味について詳しくは、[GDPRとビジネス ](https://www.adobe.com/privacy/general-data-protection-regulation.html)を参照してください。
+ビジネスにおけるGDPRの意味について詳しくは、[GDPRとビジネス &#x200B;](https://www.adobe.com/privacy/general-data-protection-regulation.html)を参照してください。
 
 ## Adobe Advertisingでサポートされているデータリクエストタイプ
 

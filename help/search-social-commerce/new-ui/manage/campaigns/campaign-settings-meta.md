@@ -47,4 +47,4 @@ Search, Social, &amp; Commerceでは[!DNL Meta Ads] キャンペーンを作成�
 
 >[!MORELIKETHIS]
 >
->* [ キャンペーンの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
+>* [&#x200B; キャンペーンの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)

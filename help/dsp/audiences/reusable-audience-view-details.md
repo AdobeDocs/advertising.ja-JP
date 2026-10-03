@@ -29,13 +29,13 @@ ht-degree: 0%
 
 1. オーディエンス行の上にカーソルを置き、**[!UICONTROL View Details]**&#x200B;をクリックします。
 
-1. （オプション）デバイスの種類（cookie ベースのIDの場合）およびユニバーサル IDの種類ごとにアクティブなオーディエンスメンバーの数を表示するには、オーディエンスサイズの横にある「![ デバイスの分類](/help/dsp/assets/device-breakdown.png)」をクリックします。
+1. （オプション）デバイスの種類（cookie ベースのIDの場合）およびユニバーサル IDの種類ごとにアクティブなオーディエンスメンバーの数を表示するには、オーディエンスサイズの横にある「![&#x200B; デバイスの分類](/help/dsp/assets/device-breakdown.png)」をクリックします。
 
-1. （オプション）オーディエンス設定を編集するには、**[!UICONTROL Edit Audience]**&#x200B;をクリックし、[ オーディエンス名と設定を編集](reusable-audience-edit.md)します。
+1. （オプション）オーディエンス設定を編集するには、**[!UICONTROL Edit Audience]**&#x200B;をクリックし、[&#x200B; オーディエンス名と設定を編集](reusable-audience-edit.md)します。
 
 >[!MORELIKETHIS]
 >
->* [ オーディエンス管理について](audience-about.md)
+>* [&#x200B; オーディエンス管理について](audience-about.md)
 >* [再利用可能なオーディエンスを作成](reusable-audience-create.md)
 >* [再利用可能なオーディエンスを複製](reusable-audience-duplicate.md)
 >* [再利用可能なオーディエンスの編集](reusable-audience-edit.md)
@@ -43,6 +43,6 @@ ht-degree: 0%
 >* [再利用可能なオーディエンスの書き出し](reusable-audience-export.md)
 >* [再利用可能なオーディエンスのセグメントキーをクリップボードにコピー](reusable-audience-clipboard.md)
 >* [再利用可能なオーディエンスを削除](reusable-audience-delete.md)
->* [ オーディエンス設定](audience-settings.md)
->* [ オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
+>* [&#x200B; オーディエンス設定](audience-settings.md)
+>* [&#x200B; オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
 >* [使用可能なサードパーティのデータプロバイダー](third-party-data-providers.md)

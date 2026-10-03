@@ -46,10 +46,10 @@ Adobe Advertising コンバージョントラッキングサービスを使用�
 
 >[!MORELIKETHIS]
 >
->* [ スポンサー広告のクリックトラッキング形式（ [!DNL Baidu]](formats-click-tracking-baidu.md)）
->*  [!DNL Google Ads]](formats-click-tracking-google.md)の[ クリックトラッキング形式
->* [ スポンサー広告のクリックトラッキング形式（ [!DNL LY Ads]](formats-click-tracking-yahoo-japan.md)）
->*  [!DNL Microsoft Advertising]](formats-click-tracking-microsoft.md)の[ クリックトラッキング形式
->* [ スポンサー広告のクリックトラッキング形式（ [!DNL Naver]](formats-click-tracking-naver.md)）
->* [ スポンサー広告のクリックトラッキング形式（ [!DNL Yahoo DSP]](formats-click-tracking-yahoo-display-network.md)）
->* [ スポンサー広告のクリックトラッキング形式（ [!DNL Yandex]](formats-click-tracking-yandex.md)）
+>* [&#x200B; スポンサー広告のクリックトラッキング形式（ [!DNL Baidu]](formats-click-tracking-baidu.md)）
+>*  [!DNL Google Ads]&#x200B;[&#128279;](formats-click-tracking-google.md)の クリックトラッキング形式
+>* [&#x200B; スポンサー広告のクリックトラッキング形式（ [!DNL LY Ads]](formats-click-tracking-yahoo-japan.md)）
+>*  [!DNL Microsoft Advertising]&#x200B;[&#128279;](formats-click-tracking-microsoft.md)の クリックトラッキング形式
+>* [&#x200B; スポンサー広告のクリックトラッキング形式（ [!DNL Naver]](formats-click-tracking-naver.md)）
+>* [&#x200B; スポンサー広告のクリックトラッキング形式（ [!DNL Yahoo DSP]](formats-click-tracking-yahoo-display-network.md)）
+>* [&#x200B; スポンサー広告のクリックトラッキング形式（ [!DNL Yandex]](formats-click-tracking-yandex.md)）

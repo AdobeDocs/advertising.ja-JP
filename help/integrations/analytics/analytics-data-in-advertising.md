@@ -45,7 +45,7 @@ ht-degree: 0%
 >* [!DNL Analytics]は毎時間Adobe Advertisingにデータを渡します。
 
 * [!UICONTROL Timespent_secs_1stvisit]：訪問者の最初の訪問中にサイトに滞在した秒数。
-* [!UICONTROL Timespent_secs_total]: クリックのルックバックウィンドウ内のすべての訪問でサイトに費やされた合計秒数。
+* [!UICONTROL Timespent_secs_total]&#x200B;: クリックのルックバックウィンドウ内のすべての訪問でサイトに費やされた合計秒数。
 * [!UICONTROL Pageviews_1stvisit]：訪問者の初回訪問時のサイトのページビュー数。
 * [!UICONTROL Pageviews_total]: クリック ルックバック ウィンドウ内のすべての訪問における、サイト上のページビューの合計数。
 * [[!UICONTROL Bounces]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)

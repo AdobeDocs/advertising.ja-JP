@@ -227,7 +227,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]:** アセットグループから作成されたすべての広告の最終URL。
 
-**[!UICONTROL Images]:**&#x200B;少なくとも1つの正方形の画像と1つの横長の画像を含む、広告の最大20枚の画像。 [[!DNL Microsoft Advertising] 画像のガイドライン ](https://help.ads.microsoft.com/#apex/ads/en/60204/0)を参照してください。 画像をアップロードするか、[!UICONTROL Asset Library]から選択できますが、両方を同じ操作で選択することはできません。
+**[!UICONTROL Images]:**&#x200B;少なくとも1つの正方形の画像と1つの横長の画像を含む、広告の最大20枚の画像。 [[!DNL Microsoft Advertising] 画像のガイドライン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60204/0)を参照してください。 画像をアップロードするか、[!UICONTROL Asset Library]から選択できますが、両方を同じ操作で選択することはできません。
 
 * 画像をアップロードするには：
 
@@ -249,7 +249,7 @@ ht-degree: 0%
 
 * [!UICONTROL Asset Library]から画像を選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックして画像を選択します。
 
-**[!UICONTROL Logos]:**&#x200B;少なくとも1つのロゴ。 5つまで含めることができます。 [[!DNL Microsoft Advertising]  アセットガイドライン ](https://help.ads.microsoft.com/#apex/ads/en/60204/0)を参照してください。 画像をアップロードするか、[!UICONTROL Asset Library]から選択できますが、両方を同じ操作で選択することはできません。
+**[!UICONTROL Logos]:**&#x200B;少なくとも1つのロゴ。 5つまで含めることができます。 [[!DNL Microsoft Advertising]  アセットガイドライン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60204/0)を参照してください。 画像をアップロードするか、[!UICONTROL Asset Library]から選択できますが、両方を同じ操作で選択することはできません。
 
 * 画像をアップロードするには：
 
@@ -308,7 +308,7 @@ ht-degree: 0%
 **[!UICONTROL Audience Signal]:** （オプション） キャンペーンのオーディエンスシグナルとして使用する[!DNL Microsoft Advertising] オーディエンス。 [!DNL Microsoft Advertising]個のマシンラーニング モデルは、オーディエンスを使用して、ターゲットとする類似のweb サーファーを見つけます。また、シグナルとして指定されていないオーディエンスに広告を表示して、パフォーマンス目標を達成するのに役立てることもできます。 コンバージョンに至る可能性が最も高いオーディエンスを特定：
 
 >[!NOTE]
->オーディエンスシグナルは、[広告グループレベルのオーディエンスターゲット ](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)とは異なります。
+>オーディエンスシグナルは、[広告グループレベルのオーディエンスターゲット &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)とは異なります。
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 
@@ -324,8 +324,8 @@ ht-degree: 0%
 >
 >キャンペーンがハイブリッドポートフォリオの一部である場合、ベストプラクティスは、ポートフォリオの目的のコンバージョン目標に一致するキャンペーンレベルの目標を使用することです。追加のコンバージョン目標を含めると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
 >
-> ただし、[目標を広告ネットワークにアップロード ](/help/search-social-commerce/tools/objective-upload-to-networks.md)するハイブリッドポートフォリオのキャンペーンの場合は、アップロードしたSearch, Social, &amp; Commerce ポートフォリオの目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョン目標として追加し、[!DNL Microsoft Advertising] ユニバーサルイベントトラッキング （UET）タグでトラッキングしたコンバージョンを含むキャンペーン目標を追加します。これは、目標と共に広告ネットワークにアップロードされないためです。
+> ただし、[目標を広告ネットワークにアップロード &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md)するハイブリッドポートフォリオのキャンペーンの場合は、アップロードしたSearch, Social, &amp; Commerce ポートフォリオの目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョン目標として追加し、[!DNL Microsoft Advertising] ユニバーサルイベントトラッキング （UET）タグでトラッキングしたコンバージョンを含むキャンペーン目標を追加します。これは、目標と共に広告ネットワークにアップロードされないためです。
 
 >[!MORELIKETHIS]
 >
->* [ キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [&#x200B; キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)

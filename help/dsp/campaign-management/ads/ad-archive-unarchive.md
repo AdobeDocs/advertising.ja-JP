@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アーカイブされた広告を表示するには、[!UICONTROL Ads] ビューをフィルターします。![[!UICONTROL Filter] ボタン ](/help/dsp/assets/filter.png)をクリックし、**[!UICONTROL Ad status]**&#x200B;をクリックして&#x200B;**[!UICONTROL Archived]**&#x200B;を選択し、**[!UICONTROL Apply]をクリックします。**
+>アーカイブされた広告を表示するには、[!UICONTROL Ads] ビューをフィルターします。![[!UICONTROL Filter] ボタン &#x200B;](/help/dsp/assets/filter.png)をクリックし、**[!UICONTROL Ad status]**&#x200B;をクリックして&#x200B;**[!UICONTROL Archived]**&#x200B;を選択し、**[!UICONTROL Apply]をクリックします。**
 
 ## 広告のアーカイブ解除
 

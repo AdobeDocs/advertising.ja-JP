@@ -45,6 +45,6 @@ ht-degree: 0%
 1. **[!UICONTROL Save]**&#x200B;をクリックして、取引設定を保存します。
 
 >[!MORELIKETHIS]
->* [ プライベートインベントリについて](private-inventory-about.md)
+>* [&#x200B; プライベートインベントリについて](private-inventory-about.md)
 >* [非公開取引へのアクセス権を持つアカウントの編集](/help/dsp/inventory/deal-id-share.md)
 >* [取引情報IDの手動設定](deal-id-settings.md)

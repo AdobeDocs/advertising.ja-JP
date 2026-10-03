@@ -109,7 +109,7 @@ Search, Social &amp; Commerceの新しいユーザーインターフェイスに
 
    1. [!DNL Adobe] IDを入力し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-   1. **[!UICONTROL Personal Account]&quot;または&#x200B;**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->のいずれかを選択します
+   1. **[!UICONTROL Personal Account]&quot;または&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->のいずれかを選択します
 
    1. 該当するCX Enterprise組織を選択します。
 
@@ -137,7 +137,7 @@ Search, Social, &amp; Commerceの各クライアントインスタンスにつ�
 
 1. 必要に応じて、[個別に](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)または[一括で](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) エンドユーザーを作成します。
 
-1. （オプション）インスタンスの[ ユーザーグループ ](https://helpx.adobe.com/enterprise/using/user-groups.html)を作成し、各ユーザーグループにユーザーを割り当てます。
+1. （オプション）インスタンスの[&#x200B; ユーザーグループ &#x200B;](https://helpx.adobe.com/enterprise/using/user-groups.html)を作成し、各ユーザーグループにユーザーを割り当てます。
 
    インスタンスに多数のユーザーがいる場合は、ユーザーグループを作成して、ユーザーがそのレベルの専門知識に基づいて適切なプロファイルを割り当てられていることを確認します。 （製品プロファイルへのユーザーグループの割り当てについては、手順4を参照してください）。 事業部門、ユーザーアクセスのニーズ、ユーザーの採用日などの基準にもとづいて、ユーザーグループを作成できます。
 
@@ -145,7 +145,7 @@ Search, Social, &amp; Commerceの各クライアントインスタンスにつ�
    >
    >ユーザーグループ名は、ユーザーグループに割り当てる権限を明確に伝える必要があります。 例えば、「読み取り専用」権限を持つユーザーグループを作成する場合、「Acme_Uk_ReadOnly」や「Acme_ReadOnly」などのユーザーグループ名に「読み取り専用」を含めます。
 
-1. （オプション） [定義された権限セットを持つカスタム製品プロファイル ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)を作成します。
+1. （オプション） [定義された権限セットを持つカスタム製品プロファイル &#x200B;](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)を作成します。
 
    カスタムプロファイルには、既に使用可能な4つのデフォルト製品プロファイルが含まれています。
 
@@ -153,7 +153,7 @@ Search, Social, &amp; Commerceの各クライアントインスタンスにつ�
 
    **注意：**&#x200B;製品の権限は非常に詳細です。 カスタム製品プロファイルを設定する場合や、含める機能を省略する場合は注意してください。
 
-1. [各ユーザーまたはユーザーグループを、手動または一括で関連する製品プロファイル ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)に割り当てます。
+1. [各ユーザーまたはユーザーグループを、手動または一括で関連する製品プロファイル &#x200B;](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)に割り当てます。
 
 ## 完全なユーザー管理ガイドとその他のリンク
 

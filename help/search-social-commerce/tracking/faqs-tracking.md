@@ -29,7 +29,7 @@ ht-degree: 0%
 
 +++Adobe Advertisingで管理できないキャンペーンを追跡できますか？
 
-はい。 Search, Social, &amp; Commerceのいずれかの広告ネットワークアカウントを同期している場合、そのアカウントでサポートされているすべての[種類のキャンペーン ](/help/search-social-commerce/introduction/supported-inventory.md)について、広告ネットワークのクリックデータを追跡します。 また、検索、ソーシャル、Commerceのリダイレクトを広告やキーワードの宛先URLまたはトラッキングテンプレートに追加し、コンバージョンページにコンバージョントラッキングを実装した場合も、コンバージョンデータを追跡します。 Adobeのアカウントチームが、Search, Social, &amp; Commerceで追跡したいキャンペーンと、管理したいキャンペーンを明確にします。
+はい。 Search, Social, &amp; Commerceのいずれかの広告ネットワークアカウントを同期している場合、そのアカウントでサポートされているすべての[種類のキャンペーン &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)について、広告ネットワークのクリックデータを追跡します。 また、検索、ソーシャル、Commerceのリダイレクトを広告やキーワードの宛先URLまたはトラッキングテンプレートに追加し、コンバージョンページにコンバージョントラッキングを実装した場合も、コンバージョンデータを追跡します。 Adobeのアカウントチームが、Search, Social, &amp; Commerceで追跡したいキャンペーンと、管理したいキャンペーンを明確にします。
 +++
 
 +++マルチイベントアトリビューションを取得するにはどうすればよいですか？

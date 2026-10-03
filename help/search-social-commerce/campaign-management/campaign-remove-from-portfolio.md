@@ -51,16 +51,16 @@ ht-degree: 0%
 
    ポートフォリオグループまたは[!UICONTROL Ungrouped Portfolios] ノードを選択すると、左側のパネルの[!UICONTROL Portfolios] メニューからポートフォリオリストをフィルタリングできます。
 
-1. ポートフォリオ名の横にある「![設定の表示/編集」ボタン ](/help/search-social-commerce/assets/settings.png "設定の表示/編集ボタン ")」をクリックします。
+1. ポートフォリオ名の横にある「![設定の表示/編集」ボタン &#x200B;](/help/search-social-commerce/assets/settings.png "設定の表示/編集ボタン ")」をクリックします。
 
 1. 左側のメニューで「**[!UICONTROL Campaigns]**」をクリックし、キャンペーンを削除します。
 
    * 割り当てられたすべてのキャンペーンを削除するには、![すべてのキャンペーンをポートフォリオから削除](/help/search-social-commerce/assets/arrow-remove-all.png "すべてのキャンペーンをポートフォリオから削除")をクリックします。
 
-   * 個々のキャンペーンを削除するには、キャンペーンをクリックし、キャンペーンを[!UICONTROL Available Campaigns] リストにドラッグするか、![ ポートフォリオからキャンペーンを削除](/help/search-social-commerce/assets/arrow-remove.png " ポートフォリオからキャンペーンを削除")をクリックします。
+   * 個々のキャンペーンを削除するには、キャンペーンをクリックし、キャンペーンを[!UICONTROL Available Campaigns] リストにドラッグするか、![&#x200B; ポートフォリオからキャンペーンを削除](/help/search-social-commerce/assets/arrow-remove.png " ポートフォリオからキャンペーンを削除")をクリックします。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ ポートフォリオへのキャンペーンの割り当て](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
+>* [&#x200B; ポートフォリオへのキャンペーンの割り当て](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)

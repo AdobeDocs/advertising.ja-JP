@@ -40,7 +40,7 @@ ht-degree: 0%
 
 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] ビューで、動的検索ターゲットのステータスを作成、編集、変更できます。
 
-任意のターゲットに[ ラベル ](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md)を適用することもできます。
+任意のターゲットに[&#x200B; ラベル &#x200B;](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md)を適用することもできます。
 
 >[!MORELIKETHIS]
 >

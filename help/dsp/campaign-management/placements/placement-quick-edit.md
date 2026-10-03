@@ -22,24 +22,24 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> プレースメント設定を編集するには、「[ プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)」を参照してください。
+> プレースメント設定を編集するには、「[&#x200B; プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)」を参照してください。
 
 1. メインメニューで、**[!UICONTROL Campaigns]**&#x200B;をクリックします。
 1. キャンペーンの名前をクリックします。
 1. サブメニューで、**[!UICONTROL Placements]**&#x200B;をクリックします。
 1. プレースメント名の横で、**[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Quick Edit]**&#x200B;をクリックします。
-1. 使用可能な[ プレースメント設定](placement-settings.md)のいずれかを編集します：**[!UICONTROL Placement Name]**、**[!UICONTROL Status]**、**[!UICONTROL Max Bid]**、および&#x200B;**[!UICONTROL Budget]**。
+1. 使用可能な[&#x200B; プレースメント設定](placement-settings.md)のいずれかを編集します：**[!UICONTROL Placement Name]**、**[!UICONTROL Status]**、**[!UICONTROL Max Bid]**、および&#x200B;**[!UICONTROL Budget]**。
 1. **[!UICONTROL Apply]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのプレースメント管理について](placement-about.md)
->* [ プレースメントの作成](placement-create.md)
->* [ プレースメントを編集](placement-edit.md)
->* [ プレースメントを複製](placement-duplicate.md)
->* [ プレースメントの入札乗数を管理](placement-manage-bid-multipliers.md)
->* [ プレースメントの広告スケジュールを編集](placement-edit-ad-schedule.md)
->* [ プレースメントを非アクティブ化またはアクティブ化](placement-pause-activate.md)
->* [ プレースメントの変更ログを表示](placement-change-log.md)
+>* [&#x200B; プレースメントの作成](placement-create.md)
+>* [&#x200B; プレースメントを編集](placement-edit.md)
+>* [&#x200B; プレースメントを複製](placement-duplicate.md)
+>* [&#x200B; プレースメントの入札乗数を管理](placement-manage-bid-multipliers.md)
+>* [&#x200B; プレースメントの広告スケジュールを編集](placement-edit-ad-schedule.md)
+>* [&#x200B; プレースメントを非アクティブ化またはアクティブ化](placement-pause-activate.md)
+>* [&#x200B; プレースメントの変更ログを表示](placement-change-log.md)
 >* [配置の設定](placement-settings.md)
->* [ ビデオ：一括編集ツールを使用してプレースメントを編集する方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [&#x200B; ビデオ：一括編集ツールを使用してプレースメントを編集する方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

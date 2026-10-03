@@ -53,15 +53,15 @@ ht-degree: 0%
 
 1. [1つ以上のアカウント、キャンペーン、または広告グループのデータを一括シートファイルにダウンロードします](bulksheet-download.md)。 オプションで、広告ネットワーク固有のバルクシートを手動で入力し、ファイルをアップロードできます。
 
-1. [ ランディングページ ](bulksheet-validate-landing-pages.md)を基本（最終） URLまたはファイル内の宛先URLで検証します。
+1. [&#x200B; ランディングページ &#x200B;](bulksheet-validate-landing-pages.md)を基本（最終） URLまたはファイル内の宛先URLで検証します。
 
 1. データの追加や修正が必要な場合：
 
-   1. [ ファイル ](bulksheet-export.md)をデスクトップにエクスポートし、[!DNL Microsoft Excel]で編集します。
+   1. [&#x200B; ファイル &#x200B;](bulksheet-export.md)をデスクトップにエクスポートし、[!DNL Microsoft Excel]で編集します。
 
-   1. [編集したファイル ](bulksheet-upload.md)をSearch、Social、およびCommerceに手動でアップロードするか、[指定したFTP アカウント ](bulksheet-ftp-account.md)にファイルをアップロードして自動投稿します。
+   1. [編集したファイル &#x200B;](bulksheet-upload.md)をSearch、Social、およびCommerceに手動でアップロードするか、[指定したFTP アカウント &#x200B;](bulksheet-ftp-account.md)にファイルをアップロードして自動投稿します。
 
-1. （手動でアップロードされたファイルの場合） [ アップロード時またはアップロード後に、ファイル ](bulksheet-post.md)を広告ネットワークに投稿します。
+1. （手動でアップロードされたファイルの場合） [&#x200B; アップロード時またはアップロード後に、ファイル &#x200B;](bulksheet-post.md)を広告ネットワークに投稿します。
 
 1. （必要に応じて）新しいエラーファイルをダウンロードし、行を修正して、ファイルを再投稿します。
 
@@ -91,7 +91,7 @@ Search, Social, &amp; Commerceは、必要に応じて生成されるトラッ�
 
 >[!MORELIKETHIS]
 >
->* [ バルクシート ファイルのダウンロードと作成](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
->* [ バルクシートまたは修正されたエラーファイルをアップロード ](bulksheet-upload.md)
->* [ バルクシートの投稿またはエラーファイルの修正](bulksheet-post.md)
+>* [&#x200B; バルクシート ファイルのダウンロードと作成](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+>* [&#x200B; バルクシートまたは修正されたエラーファイルをアップロード &#x200B;](bulksheet-upload.md)
+>* [&#x200B; バルクシートの投稿またはエラーファイルの修正](bulksheet-post.md)
 >* [生成またはアップロードされたバルクシート ファイルを書き出す](bulksheet-export.md)

@@ -30,8 +30,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* ビューの列を一時的に変更し、ツールバーの右側にある[!UICONTROL Columns] アイコン ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)から並べ替え順序[を変更することもできます。
->* デフォルトのビューを編集するか[ カスタムビューを作成することで、特定の広告主向けに含まれる列を変更できます](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)。
+>* ビューの列を一時的に変更し、ツールバーの右側にある[!UICONTROL Columns] アイコン [&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)から並べ替え順序を変更することもできます。
+>* デフォルトのビューを編集するか[&#x200B; カスタムビューを作成することで、特定の広告主向けに含まれる列を変更できます](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)。
 
 * （すべての広告主に対して特定の列を表示するには）列の見出しの右側で、![下向き矢印](/help/search-social-commerce/assets/arrow-down-expand.png "下向き矢印")をクリックし、**[!UICONTROL Select Columns]**&#x200B;を強調表示して、含める各列の横にあるチェックボックスを選択し、**[!UICONTROL Apply]**&#x200B;をクリックします。
 

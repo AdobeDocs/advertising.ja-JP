@@ -58,7 +58,7 @@ DSPでは、Audience Managerにこれらのシグナルを送信する料金は�
 
 * クリエイターをまたいだ配信頻度の上限、過去のキャンペーンに触れた利用者のリターゲティング、下流サイトの行動やエントリポイントの分析など、ユースケースごとにキャンペーンデータを活用できます。
 
-* 集約されたデータは、キャンペーンのパフォーマンスの統合ビューを提供し、カスタムコンバージョンパスの特定に役立ちます。Audience Manager [!DNL Audience Optimization Reports]またはAdobe Analytics ](/help/integrations/audience-manager/audience-analytics.md)との[[!DNL Audience Analytics] 統合を通じて、コンバージョンにつながるイベントのシーケンスを改善するために使用できます。
+* 集約されたデータは、キャンペーンのパフォーマンスの統合ビューを提供し、カスタムコンバージョンパスの特定に役立ちます。Audience Manager [!DNL Audience Optimization Reports]またはAdobe Analytics [&#128279;](/help/integrations/audience-manager/audience-analytics.md)との[!DNL Audience Analytics] 統合を通じて、コンバージョンにつながるイベントのシーケンスを改善するために使用できます。
 
 ## データの追跡方法
 
@@ -74,9 +74,9 @@ Audience Managerでは、広告が配信されるたびに透明なイベント�
 
 >[!NOTE]
 >
->お客様の組織で[!DNL Analytics] トラッキングを使用している場合は、Audience Manager クリック トラッキングが不要になる可能性があります。 Adobe Analyticsはクリックのシグナルをキャプチャし、[ サーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)を通じてAudience Managerに送信できます。
+>お客様の組織で[!DNL Analytics] トラッキングを使用している場合は、Audience Manager クリック トラッキングが不要になる可能性があります。 Adobe Analyticsはクリックのシグナルをキャプチャし、[&#x200B; サーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)を通じてAudience Managerに送信できます。
 
 >[!MORELIKETHIS]
 >
 >* [Advertising DSP キャンペーンからクリックとインプレッションのデータを収集](collect.md)
->* [ ユースケース ](use-cases.md)
+>* [&#x200B; ユースケース &#x200B;](use-cases.md)

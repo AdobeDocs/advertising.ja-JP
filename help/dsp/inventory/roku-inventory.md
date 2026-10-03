@@ -56,7 +56,7 @@ Advertising DSPは[!DNL Roku]に広告の機能を提供します。
 
 * プライベートな契約の場合、[DSP](/help/dsp/inventory/deal-id-create.md)で契約IDに関する情報を設定し、[!DNL Roku]件のプレースメント内で「[!UICONTROL Roku Network - Audience]」と「[!UICONTROL The Roku Channel - Audience]」をターゲットにします。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
-*  [!DNL On Demand]  ギャラリー](/help/dsp/inventory/on-demand-inventory-subscribe.md)内の次の [!DNL Roku]  インベントリを[購読し、[!DNL Roku] プレースメント内の承認済み契約のいずれかをターゲットにすることができます。
+* [!DNL On Demand]  ギャラリー[&#128279;](/help/dsp/inventory/on-demand-inventory-subscribe.md)内の次の [!DNL Roku]  インベントリを購読し、[!DNL Roku] プレースメント内の承認済み契約のいずれかをターゲットにすることができます。
 
   * [!DNL The CW]、[!DNL ABC]、[!DNL ESPN]など、プレミアムコンテンツパートナーを含む[!DNL Roku] エコシステム全体のインベントリの「[!UICONTROL Roku Network - Audience]」。
 
@@ -98,7 +98,7 @@ DSP キャンペーンでは、プレースメントタイプ「[!UICONTROL Conn
 
 最速の設定のために：
 
-* [[!DNL On Demand]  インベントリ ](/help/dsp/inventory/on-demand-inventory-subscribe.md)の[!DNL The Roku Channel]に関する既存の常時対応案件をターゲットにして、所有および操作されている[!DNL Roku]のインベントリにすばやくアクセスします。
+* [[!DNL On Demand]  インベントリ &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)の[!DNL The Roku Channel]に関する既存の常時対応案件をターゲットにして、所有および操作されている[!DNL Roku]のインベントリにすばやくアクセスします。
 * [[!DNL On Demand] Inventory](/help/dsp/inventory/on-demand-inventory-subscribe.md)の[!DNL Roku Network]に関する既存の常時対応案件をターゲットにして、[!DNL Roku] プラットフォーム全体で迅速に規模を拡大します。
 
 最大スケールまで：
@@ -108,5 +108,5 @@ DSP キャンペーンでは、プレースメントタイプ「[!UICONTROL Conn
 >[!MORELIKETHIS]
 >
 >* [取引IDの詳細を手動で作成する](/help/dsp/inventory/deal-id-create.md)
-> * [ プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト ](/help/dsp/inventory/on-demand-inventory-subscribe.md)
->* [ プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)
+> * [&#x200B; プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+>* [&#x200B; プレースメントの作成](/help/dsp/campaign-management/placements/placement-create.md)

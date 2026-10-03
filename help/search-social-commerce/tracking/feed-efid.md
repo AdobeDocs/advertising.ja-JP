@@ -43,11 +43,11 @@ ht-degree: 0%
 
 1. （オプションですが推奨）広告主は、フィードファイルに含めるトランザクションごとに一意のトランザクション IDを作成できます。
 
-1. 広告主は、[必要な変換データ ](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)を含むファイルを、指定されたサーバーの場所にアップロードします。
+1. 広告主は、[必要な変換データ &#x200B;](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)を含むファイルを、指定されたサーバーの場所にアップロードします。
 
 1. テクニカルサービスは、アップロードされたファイル内のコンバージョンデータを解析し、そのデータをAdobe Advertisingにアップロードします。 続いて、Adobe Advertisingを利用して、個々のキーワード、広告、プレースメントに関するデータを追跡し、それぞれに対する売上予測を作成します。
 
-1. テクニカルサービスは、処理されたデータをフィードデータに対して検証し、[孤立トランザクション ](/help/search-social-commerce/glossary.md#o-p)をチェックします。
+1. テクニカルサービスは、処理されたデータをフィードデータに対して検証し、[孤立トランザクション &#x200B;](/help/search-social-commerce/glossary.md#o-p)をチェックします。
 
 >[!MORELIKETHIS]
 >

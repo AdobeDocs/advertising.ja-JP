@@ -26,15 +26,15 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
-1つの列に1つずつ、必要な数のフィルターを適用できます。<!-- True only for entity names, I think: All filters are joined using the AND operator. --> 使用可能なすべての指標を使用して一度に複数のフィルターを追加するには、「[ ツールバーからデータフィルターを適用](column-filter-apply-from-toolbar.md)」を参照してください。
+1つの列に1つずつ、必要な数のフィルターを適用できます。<!-- True only for entity names, I think: All filters are joined using the AND operator. --> 使用可能なすべての指標を使用して一度に複数のフィルターを追加するには、「[&#x200B; ツールバーからデータフィルターを適用](column-filter-apply-from-toolbar.md)」を参照してください。
 
 1. 列見出しの右側で、![下向き矢印](/help/search-social-commerce/assets/arrow-down-dropdown.png "下向き矢印")をクリックし、**[!UICONTROL Add Filter]**&#x200B;をクリックします。
 
 1. 列にフィルターを定義します。
 
-   * （入力フィールドのないフィルター）含める各値の横にあるチェックボックスを選択し、![ フィルターを更新](/help/search-social-commerce/assets/select.png "追加")をクリックします。
+   * （入力フィールドのないフィルター）含める各値の横にあるチェックボックスを選択し、![&#x200B; フィルターを更新](/help/search-social-commerce/assets/select.png "追加")をクリックします。
 
-   * （入力フィールドを含むフィルター） 2番目のメニューから演算子を選択し、該当する値を入力して、![ フィルターを更新](/help/search-social-commerce/assets/select.png "追加")をクリックします。
+   * （入力フィールドを含むフィルター） 2番目のメニューから演算子を選択し、該当する値を入力して、![&#x200B; フィルターを更新](/help/search-social-commerce/assets/select.png "追加")をクリックします。
 
      例えば、「[!UICONTROL Clicks]」列を選択し、100 クリックを超える行のみを返す場合は、「*[!UICONTROL greater than]*」を選択して入力フィールドに「`100`」と入力します。データタイプによっては、使用可能な演算子に&#x200B;*[!UICONTROL greater than]*、*[!UICONTROL less than]*、*[!UICONTROL equals]*、*[!UICONTROL contains]*、*[!UICONTROL doesn't contain]*、*[!UICONTROL starts with]*、*[!UICONTROL ends with]*、*[!UICONTROL no value]*、*[!UICONTROL has value]*、*[!UICONTROL before]*、*[!UICONTROL no date]が含まれる場合があります。*[!UICONTROL after]**
 
@@ -45,6 +45,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ツールバーからデータフィルターを適用](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [&#x200B; ツールバーからデータフィルターを適用](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
 >* [列フィルターの編集](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
 >* [列フィルターを削除] （/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/

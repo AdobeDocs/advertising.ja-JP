@@ -45,7 +45,7 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page]:**&#x200B;視聴者が広告をクリックしたときに表示されるURL。
 
-**[!UICONTROL Final Landing Page]:**&#x200B;必要な[Advertising DSP トラッキングマクロ ](/help/dsp/campaign-management/macros.md)が挿入された[!UICONTROL Landing Page] URL （該当する場合）。
+**[!UICONTROL Final Landing Page]:**&#x200B;必要な[Advertising DSP トラッキングマクロ &#x200B;](/help/dsp/campaign-management/macros.md)が挿入された[!UICONTROL Landing Page] URL （該当する場合）。
 
 **[!UICONTROL Sponsored By (Advertiser Name)]:**&#x200B;広告の広告主。
 
@@ -65,4 +65,4 @@ ht-degree: 0%
 >* [単一の広告を作成](ad-create.md)
 >* [広告に関連付けられているプレースメントを一覧表示](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [広告の仕様](ad-specs.md)
->* [DSP マクロ ](/help/dsp/campaign-management/macros.md)
+>* [DSP マクロ &#x200B;](/help/dsp/campaign-management/macros.md)

@@ -32,13 +32,13 @@ ht-degree: 0%
 
 [!DNL Optimizely] Customer Data PlatformとのDSP統合を使用して、組織の1st パーティハッシュ化されたメールアドレスを、ターゲット広告のユニバーサル IDに変換します。
 
-1. （電子メールアドレスを[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->に変換するには、[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)を持つ広告主） [ トラッキングを設定して [!DNL Analytics] 測定](#analytics-tracking)を有効にします。
+1. （電子メールアドレスを[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->に変換するには、[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)を持つ広告主） [&#x200B; トラッキングを設定して [!DNL Analytics] 測定](#analytics-tracking)を有効にします。
 
 1. [DSPでオーディエンスソースを作成](#source-create)。
 
-1. [ セグメントデータを準備してプッシュ ](#push-data)。
+1. [&#x200B; セグメントデータを準備してプッシュ &#x200B;](#push-data)。
 
-1. [ ユニバーサル IDの数とハッシュ化された電子メールアドレスの数を比較](#compare-id-count)。
+1. [&#x200B; ユニバーサル IDの数とハッシュ化された電子メールアドレスの数を比較](#compare-id-count)。
 
 ## 手順1: [!DNL Analytics]測定用トラッキングの設定 {#analytics-tracking}
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 メールアドレスを[!DNL RampIDs]または[!DNL ID5]のIDに変換するには、次の操作を行う必要があります。
 
-1. （まだ実行していない場合）実装の[前提条件をすべて完了し、[AMO IDとEF ID](/help/integrations/analytics/ids.md)がトラッキング URLに入力されていることを確認します。 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)
+1. （まだ実行していない場合）実装の[&#128279;](/help/integrations/analytics/prerequisites.md)前提条件をすべて完了し、[AMO IDとEF ID](/help/integrations/analytics/ids.md)がトラッキング URLに入力されていることを確認します。 [!DNL Analytics for Advertising]
 
 1. ユニバーサル ID パートナーに登録し、web ページにユニバーサル ID固有のコードをデプロイして、デスクトップおよびモバイルのweb ブラウザー（モバイルアプリは除く）のIDからビュースルーのコンバージョンを一致させます。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 手順2:DSPでオーディエンスソースを作成する {#source-create}
 
-1. [ オーディエンスソースを作成](source-manage.md)して、DSP アカウントまたは広告主アカウントにオーディエンスを読み込みます。 ユーザーIDを[使用可能なユニバーサル ID形式](source-about.md)のいずれかに変換することを選択できます。
+1. [&#x200B; オーディエンスソースを作成](source-manage.md)して、DSP アカウントまたは広告主アカウントにオーディエンスを読み込みます。 ユーザーIDを[使用可能なユニバーサル ID形式](source-about.md)のいずれかに変換することを選択できます。
 
    ソース設定には、自動生成されたソースキーが含まれ、セグメントデータのプッシュに使用します。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 1. [!DNL Optimizely Data Platform]内で、SHA-256 アルゴリズムを使用してオーディエンスのメール IDをハッシュ化します。
 
-1. セグメントをDSP](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads)にプッシュするには、次の[[!DNL Optimizely's] の手順に従います。 統合を有効にするには、次の情報を含めます。
+1. セグメントをDSP[&#128279;](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads)にプッシュするには、次の[!DNL Optimizely's] の手順に従います。 統合を有効にするには、次の情報を含めます。
 
    * **Source キー：**&#x200B;これは、[手順2](#source-create)で作成したソース キーです。
 
@@ -78,17 +78,17 @@ ht-degree: 0%
 
 これらのセグメントは、24時間以内にDSPで利用できるようになります。 DSPがセグメントデータを受け取った後、オーディエンスサイズは9時間以内に表示されます。
 
-オーディエンスライブラリ（[!UICONTROL Audiences] > [!UICONTROL All Audiences]またはプレースメント設定内でオーディエンスを作成または編集する際に使用できる）で、セグメントが使用可能で入力されていることを確認し、ユニバーサル IDの数と元のハッシュ化されたメールアドレスの数を比較します。 使用可能なIDの翻訳率と、セグメント数が異なる理由については、「[ メール IDとユニバーサル IDの間のデータの相違](#universal-ids-data-variances)」を参照してください。
+オーディエンスライブラリ（[!UICONTROL Audiences] > [!UICONTROL All Audiences]またはプレースメント設定内でオーディエンスを作成または編集する際に使用できる）で、セグメントが使用可能で入力されていることを確認し、ユニバーサル IDの数と元のハッシュ化されたメールアドレスの数を比較します。 使用可能なIDの翻訳率と、セグメント数が異なる理由については、「[&#x200B; メール IDとユニバーサル IDの間のデータの相違](#universal-ids-data-variances)」を参照してください。
 
 ## トラブルシューティング
 
-翻訳率とユーザー数の問題をトラブルシューティングするには、「[ ユニバーサル IDのアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)」を参照してください。
+翻訳率とユーザー数の問題をトラブルシューティングするには、「[&#x200B; ユニバーサル IDのアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)」を参照してください。
 
 変換手順に関する問題をトラブルシューティングするには、Adobe アカウントチームまたは`adcloud-support@adobe.com`にお問い合わせください。
 
 >[!MORELIKETHIS]
 >
->* [ ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
->* [ オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](source-manage.md)
->* [ ユニバーサル IDのアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)
->* [ オーディエンス管理について](/help/dsp/audiences/audience-about.md)
+>* [&#x200B; ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
+>* [&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](source-manage.md)
+>* [&#x200B; ユニバーサル IDのアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)
+>* [&#x200B; オーディエンス管理について](/help/dsp/audiences/audience-about.md)

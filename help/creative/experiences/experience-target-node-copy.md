@@ -37,7 +37,7 @@ ht-degree: 0%
 
    * ノードのすべての子ノードとクリエイターを置き換えるには、コピーした情報を貼り付けるノードをクリックし、**...**&#x200B;をクリックしてから、**[!UICONTROL Replace ctrl+shift+v]**&#x200B;またはb\）を選択し、キーボードに&#x200B;**[!UICONTROL Ctrl+Shift+V]** （[!DNL Microsoft Windows]）または&#x200B;**[!UICONTROL Command-Shift-V]** （[!DNL Apple Macintosh]）と入力します。
 
-   * （複数の子ターゲットを持つノード、すべての「すべての」ノードなし、およびクリエイターのみ）既存のノードを削除せずに、すべての子ノードとクリエイターをノードに追加するには、コピーした情報を貼り付けるノードをクリックし、**...**&#x200B;をクリックし、a\）を選択します。**[!UICONTROL Add ctrl+v]** **またはb\）キーボードで&#x200B;**[!UICONTROL Ctrl+V]** （[!DNL Microsoft Windows]）または[!DNL Apple Macintosh]）と入力します。**[!UICONTROL Command-V]**
+   * （複数の子ターゲットを持つノード、すべての「すべての」ノードなし、およびクリエイターのみ）既存のノードを削除せずに、すべての子ノードとクリエイターをノードに追加するには、コピーした情報を貼り付けるノードをクリックし、**...**&#x200B;をクリックし、a\）を選択します。**[!UICONTROL Add ctrl+v]** **またはb\）キーボードで&#x200B;**&#x200B;[!UICONTROL Ctrl+V] **&#x200B; （[!DNL Microsoft Windows]）または[!DNL Apple Macintosh]）と入力します。**&#x200B;[!UICONTROL Command-V]**
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
@@ -51,10 +51,10 @@ These formatted steps are inserted automatically from text in the following file
 >[!MORELIKETHIS]
 >
 >* [最終レベルにターゲットノードを追加](experience-target-node-add-final.md)
->* [ ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
->* [ ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)
->* [ クリエイティブを最終ノードに割り当て](experience-assign-creative-bundles.md)
->* [ ターゲットノードまたはクリエイティブリーフノードを削除](/help/creative/experiences/experience-target-node-delete.md)
+>* [&#x200B; ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
+>* [&#x200B; ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)
+>* [&#x200B; クリエイティブを最終ノードに割り当て](experience-assign-creative-bundles.md)
+>* [&#x200B; ターゲットノードまたはクリエイティブリーフノードを削除](/help/creative/experiences/experience-target-node-delete.md)
 >* [決定木ターゲティングでエクスペリエンスを作成](experience-create-targeting.md)
 >* [決定木ターゲティングでエクスペリエンスを編集](experience-edit-targeting.md)
->* [ ターゲット設定](experience-settings-targeting.md)
+>* [&#x200B; ターゲット設定](experience-settings-targeting.md)

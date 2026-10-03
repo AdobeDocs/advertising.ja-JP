@@ -54,7 +54,7 @@ AMO IDは訪問者のジャーニーを通じて保持されるので、AMO ID �
 
 * ただし、[!DNL Marketing Channels] データセットでは、641 アプリケーションの開始は他のマーケティングチャネルに起因しています。 最後の2つの列は641 Applications Startsを取り、データを[!UICONTROL Display Click-Through]および[!UICONTROL Display View-Through] チャネルに制限し、ラストタッチアトリビューションモデルで発生するコンバージョンを示します。
 
-![ ディスプレイ広告がサイトコンバージョンに与える影響の例](/help/integrations/assets/a4adc-mc-display-impact.png)
+![&#x200B; ディスプレイ広告がサイトコンバージョンに与える影響の例](/help/integrations/assets/a4adc-mc-display-impact.png)
 
 この分析をさらに一歩進めることができます。 マーケティングチャネル別にAdobe Advertisingの行をさらに分割して、Adobe Advertising コンバージョンが641 Applications Startsに起因する場所を確認できます。 これらのコンバージョンのうち5つはラストタッチディスプレイのクリックスルーに起因するもので、19はラストタッチディスプレイのビュースルーに起因するものであることはすでにわかっています。 それでも617件の申し込みが他のマーケティングチャネルから始まっている。 最後のタッチチャネルのディメンションをAdvertising DSPの行の上にドラッグ&amp;ドロップすると、アプリケーションの開始の残りの部分のチャネルアトリビューションが表示され、表示チャネルのクロスチャネルの影響が表示されます。
 
@@ -73,5 +73,5 @@ AMO IDは訪問者のジャーニーを通じて保持されるので、AMO ID �
 >* [の基本 [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe Advertising IDを使用して [!DNL Marketing Channels] 処理ルールを作成](mc-ids.md)
 >* [Adobe Advertisingと [!DNL Marketing Channels]](mc-data-variances.md)でチャネルデータが異なる理由
->* [ ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [概要： [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

@@ -51,7 +51,7 @@ Search, Social, &amp; Commerceは、ログイン認証のためにAdobe Identity
 
 1. [!DNL Adobe] IDを入力し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-1. ** プロンプトが表示されたら、「[!UICONTROL Personal Account]」または「**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->」のどちらかを選択します。
+1. **&#x200B; プロンプトが表示されたら、「[!UICONTROL Personal Account]」または「**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->」のどちらかを選択します。
 
    新しいユーザーインターフェイスがデフォルトで開きます。
 
@@ -65,11 +65,11 @@ Search, Social, &amp; Commerceは、ログイン認証のためにAdobe Identity
 
 1. [!DNL Adobe] IDを入力し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-1. ** プロンプトが表示されたら、「[!UICONTROL Personal Account]」または「**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->」のどちらかを選択します。
+1. **&#x200B; プロンプトが表示されたら、「[!UICONTROL Personal Account]」または「**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->」のどちらかを選択します。
 
 1. ホームページの「[!UICONTROL Quick Access]」セクションで、「**[!UICONTROL Advertising Search, Social, & Commerce]**」をクリックします。
 
-![Advertising Search, Social, &amp; Commerce） ](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising Search, Social, &amp; Commerce） ")
+![Advertising Search, Social, &amp; Commerce） &#x200B;](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising Search, Social, &amp; Commerce） ")
 
 新しいユーザーインターフェイスがデフォルトで開きます。
 
@@ -78,6 +78,6 @@ Search, Social, &amp; Commerceは、ログイン認証のためにAdobe Identity
 >[!MORELIKETHIS]
 >
 >* [新しいユーザーインターフェイスと従来のユーザーインターフェイスを切り替える](ui-switch.md)
->* [ ログアウト ](sign-out.md)
->* [ パスワードを変更](/help/search-social-commerce/tools/password-change.md)
->* [ ユーザーインターフェイスの構成方法](user-interface.md)
+>* [&#x200B; ログアウト &#x200B;](sign-out.md)
+>* [&#x200B; パスワードを変更](/help/search-social-commerce/tools/password-change.md)
+>* [&#x200B; ユーザーインターフェイスの構成方法](user-interface.md)

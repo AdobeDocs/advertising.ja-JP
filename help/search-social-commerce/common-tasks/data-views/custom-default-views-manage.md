@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ### （新しいUI）管理ビューにデフォルトまたはカスタムビューを適用する
 
-1. データテーブルの上で、現在適用されているビュー（![ ビュー](/help/search-social-commerce/assets/view.png " ビュー")）の名前をクリックします。
+1. データテーブルの上で、現在適用されているビュー（![&#x200B; ビュー](/help/search-social-commerce/assets/view.png " ビュー")）の名前をクリックします。
 
 1. 必要に応じて、任意のタブ（[!UICONTROL All Views]、[!UICONTROL Private]、[!UICONTROL Shared by Me]、および[!UICONTROL From Others]）をクリックしてビューを見つけます。
 
@@ -73,11 +73,11 @@ ht-degree: 0%
 
 カスタムビューは、単一のビュー（[!UICONTROL Portfolios] ビューなど）に固有です。
 
-1. データテーブルの上で、現在適用されているビュー（![ ビュー](/help/search-social-commerce/assets/view.png " ビュー")）の名前をクリックします。
+1. データテーブルの上で、現在適用されているビュー（![&#x200B; ビュー](/help/search-social-commerce/assets/view.png " ビュー")）の名前をクリックします。
 
 1. **[!UICONTROL Create View]**&#x200B;をクリックします。
 
-1. [ カスタムビュー設定](#view-settings-new-ui)を指定します。
+1. [&#x200B; カスタムビュー設定](#view-settings-new-ui)を指定します。
 
 1. ビューを保存します。
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 1. データテーブルの上にあるツールバーの右側で、現在のビューの名前（「[!UICONTROL Default]」など）をクリックします。
 
-1. [ カスタムビュー設定](#view-settings)を指定します。
+1. [&#x200B; カスタムビュー設定](#view-settings)を指定します。
 
 1. **[!UICONTROL Save as New]**&#x200B;をクリックします。
 
@@ -107,13 +107,13 @@ ht-degree: 0%
 
 *[!UICONTROL Simulations]、[!UICONTROL Portfolios]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups] ビューで利用可能*
 
-1. データテーブルの上で、現在適用されているビュー（![ ビュー](/help/search-social-commerce/assets/view.png " ビュー")）の名前をクリックします。
+1. データテーブルの上で、現在適用されているビュー（![&#x200B; ビュー](/help/search-social-commerce/assets/view.png " ビュー")）の名前をクリックします。
 
 1. 必要に応じて、任意のタブ（[!UICONTROL All Views]、[!UICONTROL Private]、[!UICONTROL Shared by Me]、および[!UICONTROL From Others]）をクリックしてビューを見つけます。
 
 1. ビュー名の上にカーソルを置き、![編集](/help/search-social-commerce/assets/edit-new.png)をクリックします。
 
-1. [ カスタムビュー設定](#view-settings-new-ui)を編集します。
+1. [&#x200B; カスタムビュー設定](#view-settings-new-ui)を編集します。
 
 1. ビューを保存します。
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
    * （既にビューを適用している場合） データテーブルの上にあるツールバーの右側で、現在のビューの名前（「[!UICONTROL Default]」など）をクリックします。
 
-   * （適用されていないカスタムビュー）左側のパネルで、![ カスタムビュー](/help/search-social-commerce/assets/custom-views-left-rail_icon.png " カスタムビュー")をクリックして、[!UICONTROL Custom Views] メニューを展開します。 カスタムビュー名をクリックします。
+   * （適用されていないカスタムビュー）左側のパネルで、![&#x200B; カスタムビュー](/help/search-social-commerce/assets/custom-views-left-rail_icon.png " カスタムビュー")をクリックして、[!UICONTROL Custom Views] メニューを展開します。 カスタムビュー名をクリックします。
 
 1. [表示設定](#view-settings)を編集します。
 
@@ -149,13 +149,13 @@ ht-degree: 0%
 
 *[!UICONTROL Simulations]、[!UICONTROL Portfolios]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups] ビューで利用可能*
 
-1. データテーブルの上で、現在適用されているビュー（![ ビュー](/help/search-social-commerce/assets/view.png " ビュー")）の名前をクリックします。
+1. データテーブルの上で、現在適用されているビュー（![&#x200B; ビュー](/help/search-social-commerce/assets/view.png " ビュー")）の名前をクリックします。
 
 1. 必要に応じて、任意のタブ（[!UICONTROL All Views]、[!UICONTROL Private]、[!UICONTROL Shared by Me]、および[!UICONTROL From Others]）をクリックしてビューを見つけます。
 
-1. ビュー名の上にカーソルを置き、![ クローン ](/help/search-social-commerce/assets/clone-new.png)をクリックします。
+1. ビュー名の上にカーソルを置き、![&#x200B; クローン &#x200B;](/help/search-social-commerce/assets/clone-new.png)をクリックします。
 
-1. 新しいビュー名を入力し、必要に応じて[ カスタムビュー設定](#view-settings-new-ui)を編集します。
+1. 新しいビュー名を入力し、必要に応じて[&#x200B; カスタムビュー設定](#view-settings-new-ui)を編集します。
 
 1. ビューを保存します。
 
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 * 新しいユーザーインターフェイスから：
 
-  1. データテーブルの上で、現在適用されているビュー（![ ビュー](/help/search-social-commerce/assets/view.png " ビュー")）の名前をクリックします。
+  1. データテーブルの上で、現在適用されているビュー（![&#x200B; ビュー](/help/search-social-commerce/assets/view.png " ビュー")）の名前をクリックします。
 
   1. 必要に応じて、任意のタブ（[!UICONTROL All Views]、[!UICONTROL Private]、[!UICONTROL Shared by Me]、および[!UICONTROL From Others]）をクリックしてビューを見つけます。
 
@@ -179,21 +179,21 @@ ht-degree: 0%
 
 * 従来のキャンペーン管理ビューから：
 
-  1. 左側のパネルで、![ カスタムビュー](/help/search-social-commerce/assets/custom-views-left-rail_icon.png " カスタムビュー")をクリックして、[!UICONTROL Custom Views] メニューを展開します。
+  1. 左側のパネルで、![&#x200B; カスタムビュー](/help/search-social-commerce/assets/custom-views-left-rail_icon.png " カスタムビュー")をクリックして、[!UICONTROL Custom Views] メニューを展開します。
 
      ビューは、該当するエンティティで並べ替えられます。
 
-  1. ビュー名の横にある「![ デフォルト設定に復元](/help/search-social-commerce/assets/restore.png " デフォルト設定に復元")」をクリックします。
+  1. ビュー名の横にある「![&#x200B; デフォルト設定に復元](/help/search-social-commerce/assets/restore.png " デフォルト設定に復元")」をクリックします。
 
 ## カスタムビューの削除
 
 作成したカスタムビューはすべて削除できます。
 
-現在のタブに適用されているカスタムビューを削除した場合、別の広告主](/help/search-social-commerce/common-tasks/change-advertiser.md)のデータを[表示する際に、ビューセットの外（例：[!UICONTROL Search] メニュー内のビューから[!UICONTROL Reports] メニューへ）または（該当する場合）に移動するまで、そのタブにはカスタムビューが引き続き表示されます。
+現在のタブに適用されているカスタムビューを削除した場合、別の広告主[&#128279;](/help/search-social-commerce/common-tasks/change-advertiser.md)のデータを表示する際に、ビューセットの外（例：[!UICONTROL Search] メニュー内のビューから[!UICONTROL Reports] メニューへ）または（該当する場合）に移動するまで、そのタブにはカスタムビューが引き続き表示されます。
 
 * 新しいユーザーインターフェイスから：
 
-  1. データテーブルの上で、現在適用されているビュー（![ ビュー](/help/search-social-commerce/assets/view.png " ビュー")）の名前をクリックします。
+  1. データテーブルの上で、現在適用されているビュー（![&#x200B; ビュー](/help/search-social-commerce/assets/view.png " ビュー")）の名前をクリックします。
 
   1. 必要に応じて、任意のタブ（[!UICONTROL All Views]、[!UICONTROL Private]、[!UICONTROL Shared by Me]、および[!UICONTROL From Others]）をクリックしてビューを見つけます。
 
@@ -203,7 +203,7 @@ ht-degree: 0%
 
 * 従来のキャンペーン管理ビューから：
 
-  1. 左側のパネルで、![ カスタムビュー](/help/search-social-commerce/assets/custom-views-left-rail_icon.png " カスタムビュー")をクリックして、[!UICONTROL Custom Views] メニューを展開します。
+  1. 左側のパネルで、![&#x200B; カスタムビュー](/help/search-social-commerce/assets/custom-views-left-rail_icon.png " カスタムビュー")をクリックして、[!UICONTROL Custom Views] メニューを展開します。
 
   1. カスタムビュー名の上にカーソルを置き、![削除](/help/search-social-commerce/assets/delete.png "削除")をクリックします。
 
@@ -219,11 +219,11 @@ ht-degree: 0%
 | --- | --- | --- |
 | [すべてのタブの上] | 名前 | ビューの一意の名前。 デフォルトビューの名前は編集できません。<p><b> ヒント：</b> タブとその適用先の情報を特定するのに役立つ名前を使用します（「一時停止したキャンペーン」や「上位50件の広告」など）。 |
 |   | 他のユーザーと共有 | （カスタムビューのみ、オプション）広告主のデータを表示できるすべてのユーザーがビューを使用できるようにします。 他のユーザーは、ビューを編集または削除することはできませんが、設定から新しいビューを作成することはできます。 |
-| 列 | 選択した列と順序 | 表示されるデータの列とその順序：<ul><li> （列を追加するには）使用可能な列リストで列名をクリックし、選択した列と順序リストにドラッグするか、![右矢印](/help/search-social-commerce/assets/chevron-right.png)をクリックして列を移動します。</li><li>（列の水平方向の位置を変更するには）選択した列と順序のリストで、列名をクリックし、目的の位置にドラッグするか、![上向き矢印](/help/search-social-commerce/assets/chevron-up.png)または![下向き矢印](/help/search-social-commerce/assets/chevron-down.png)をクリックして移動します。 一番上の列名が左側の列に表示されます。</li><li>（列を削除するには）選択した列と順序リストで列名をクリックし、使用可能な列リストにドラッグするか、![左向き矢印](/help/search-social-commerce/assets/chevron-left.png)をクリックして列を移動します。</li></ul><b> データの絞り込み</b><p>特定の種類のデータのみをリストするには、リストの横にあるアイコンのいずれかをクリックします。<ul><li>[!UICONTROL Portfolio Name]や[!UICONTROL Status]など、プロパティ名とIDの![ プロパティアイコン ](/help/search-social-commerce/assets/properties-icon-new.png)</li><li>インプレッション数やクリック数などの標準トラフィック指標の![ トラフィックアイコン ](/help/search-social-commerce/assets/traffic-metrics-icon-new.png)</li><li>![収益アイコン ](/help/search-social-commerce/assets/revenue-metrics-icon-new.png) （広告主が追跡するコンバージョン指標の場合、Analyticsから同期されたコンバージョン指標とサイトエンゲージメント指標を含む）</li><li>![ カスタムアイコン ](/help/search-social-commerce/assets/custom-metrics-icon-new.png) （広告主が作成したカスタム指標の場合）</li><li>![分類アイコン ](/help/search-social-commerce/assets/classifications-icon-new.png) （ラベル分類の場合）。</li></ul> <b>その他のメモ：</b><ul><li>新しい指標を追加、作成、または編集するには、「[ カスタム指標を作成](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)」、「[ カスタム指標を編集](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)」、「[ カスタム指標を削除](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-delete.md)」を参照してください。</li><li>レポートに通貨が異なるアカウントのデータが含まれる場合、通貨ベースの列（コストやCPCなど）の合計は含まれません。</li><li>列の見出しメニュー](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)から列セットを[一時的に編集し、[列セットを[!UICONTROL Columns] アイコン ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)から編集して並べ替えることができます。 （![列アイコン ](/help/search-social-commerce/assets/custom-columns.png "列アイコン ")）。</li></ul> |
+| 列 | 選択した列と順序 | 表示されるデータの列とその順序：<ul><li> （列を追加するには）使用可能な列リストで列名をクリックし、選択した列と順序リストにドラッグするか、![右矢印](/help/search-social-commerce/assets/chevron-right.png)をクリックして列を移動します。</li><li>（列の水平方向の位置を変更するには）選択した列と順序のリストで、列名をクリックし、目的の位置にドラッグするか、![上向き矢印](/help/search-social-commerce/assets/chevron-up.png)または![下向き矢印](/help/search-social-commerce/assets/chevron-down.png)をクリックして移動します。 一番上の列名が左側の列に表示されます。</li><li>（列を削除するには）選択した列と順序リストで列名をクリックし、使用可能な列リストにドラッグするか、![左向き矢印](/help/search-social-commerce/assets/chevron-left.png)をクリックして列を移動します。</li></ul><b> データの絞り込み</b><p>特定の種類のデータのみをリストするには、リストの横にあるアイコンのいずれかをクリックします。<ul><li>[!UICONTROL Portfolio Name]や[!UICONTROL Status]など、プロパティ名とIDの![&#x200B; プロパティアイコン &#x200B;](/help/search-social-commerce/assets/properties-icon-new.png)</li><li>インプレッション数やクリック数などの標準トラフィック指標の![&#x200B; トラフィックアイコン &#x200B;](/help/search-social-commerce/assets/traffic-metrics-icon-new.png)</li><li>![収益アイコン &#x200B;](/help/search-social-commerce/assets/revenue-metrics-icon-new.png) （広告主が追跡するコンバージョン指標の場合、Analyticsから同期されたコンバージョン指標とサイトエンゲージメント指標を含む）</li><li>![&#x200B; カスタムアイコン &#x200B;](/help/search-social-commerce/assets/custom-metrics-icon-new.png) （広告主が作成したカスタム指標の場合）</li><li>![分類アイコン &#x200B;](/help/search-social-commerce/assets/classifications-icon-new.png) （ラベル分類の場合）。</li></ul> <b>その他のメモ：</b><ul><li>新しい指標を追加、作成、または編集するには、「[&#x200B; カスタム指標を作成](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)」、「[&#x200B; カスタム指標を編集](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)」、「[&#x200B; カスタム指標を削除](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-delete.md)」を参照してください。</li><li>レポートに通貨が異なるアカウントのデータが含まれる場合、通貨ベースの列（コストやCPCなど）の合計は含まれません。</li><li>列の見出しメニュー[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)から列セットを一時的に編集し、[列セットを[!UICONTROL Columns] アイコン &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)から編集して並べ替えることができます。 （![列アイコン &#x200B;](/help/search-social-commerce/assets/custom-columns.png "列アイコン ")）。</li></ul> |
 |   | 並べ替え基準 | データを並べ替える列。 デフォルト値は、レポートタイプごとに異なります。 |
 |   | ソート順序 | データを&#x200B;**昇順**&#x200B;または&#x200B;**降順**&#x200B;で並べ替えるかどうか。 |
-| フィルター | [ フィルター定義] | （オプション）データに適用するフィルター。 フィルターを適用すると、列の値が指定された条件を満たす場合にのみ、行が返されます。<p>適用する各フィルターについて：<ol><li>[!UICONTROL Add Filter] メニューで、列名を選択します。 リストには、使用可能なすべての列が含まれ、列タイプで並べ替えられ、最初にプロパティ列が表示されます。</li><li>列にフィルターを定義します</li></ol>（入力フィールドを含むフィルター） 2番目のメニューから演算子を選択し、該当する値を入力します。 値では大文字と小文字は区別されません。<p>例えば、「クリック」列を選択し、100 クリックを超える行のみを返す場合は、「_\>_」を選択し、入力フィールドに「`100`」と入力します。<p>データ型に応じて、使用可能な演算子には、<i>1}より大きい、<i>より小さい</i>、<i>等しい</i>、<i>含む</i>、<i>含まない</i>、<i>から始まる</i>、<i>で終わる</i>、<i>値なし</i>、または<i>値</i>が含まれます</i> <i>前</i>、<i>後</i>、または<i>日付なし</i>。<p>（入力フィールドのないフィルター） リスト項目を選択メニューの横にある![下向き矢印](/help/search-social-commerce/assets/arrow-down-expand.png)をクリックし、含める各値の横にあるチェックボックスを選択します。<p><b> メモ：</b><ul><li>フィルターの変更は、デフォルトのビュー設定に適用できますが、保存することはできません。</li><li>ビュー内の該当するフィルター](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)を[一時的に変更することもできます。</li></ul> |
-| 追加設定 | 日付範囲 | （「日付範囲を含める」が選択されている場合）<p>データを生成する日付範囲。 次の1つのオプションを選択します。<ul><li><i>[ プリセット範囲]</i>：過去180日間</i>の<i>今日</i>から<i>までの一般的な時間増分のリスト。 リストから1つを選択します。デフォルトは<i>昨日</i>です。 注意：<i>先月</i>、<i>過去3か月</i>、<i>過去6か月</i>は、過去の暦月のデータを表示します。</li><li><i> カスタム日付範囲：</i>開始日と終了日を指定します。 MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、フィールドの横にある![ カレンダーアイコン ](/help/search-social-commerce/assets/calendar.png)をクリックして日付を選択します。</li></ul> |
+| フィルター | [ フィルター定義] | （オプション）データに適用するフィルター。 フィルターを適用すると、列の値が指定された条件を満たす場合にのみ、行が返されます。<p>適用する各フィルターについて：<ol><li>[!UICONTROL Add Filter] メニューで、列名を選択します。 リストには、使用可能なすべての列が含まれ、列タイプで並べ替えられ、最初にプロパティ列が表示されます。</li><li>列にフィルターを定義します</li></ol>（入力フィールドを含むフィルター） 2番目のメニューから演算子を選択し、該当する値を入力します。 値では大文字と小文字は区別されません。<p>例えば、「クリック」列を選択し、100 クリックを超える行のみを返す場合は、「_\>_」を選択し、入力フィールドに「`100`」と入力します。<p>データ型に応じて、使用可能な演算子には、<i>1&rbrace;より大きい、<i>より小さい</i>、<i>等しい</i>、<i>含む</i>、<i>含まない</i>、<i>から始まる</i>、<i>で終わる</i>、<i>値なし</i>、または<i>値</i>が含まれます</i> <i>前</i>、<i>後</i>、または<i>日付なし</i>。<p>（入力フィールドのないフィルター） リスト項目を選択メニューの横にある![下向き矢印](/help/search-social-commerce/assets/arrow-down-expand.png)をクリックし、含める各値の横にあるチェックボックスを選択します。<p><b> メモ：</b><ul><li>フィルターの変更は、デフォルトのビュー設定に適用できますが、保存することはできません。</li><li>ビュー内の該当するフィルター[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)を一時的に変更することもできます。</li></ul> |
+| 追加設定 | 日付範囲 | （「日付範囲を含める」が選択されている場合）<p>データを生成する日付範囲。 次の1つのオプションを選択します。<ul><li><i>[ プリセット範囲]</i>：過去180日間</i>の<i>今日</i>から<i>までの一般的な時間増分のリスト。 リストから1つを選択します。デフォルトは<i>昨日</i>です。 注意：<i>先月</i>、<i>過去3か月</i>、<i>過去6か月</i>は、過去の暦月のデータを表示します。</li><li><i> カスタム日付範囲：</i>開始日と終了日を指定します。 MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、フィールドの横にある![&#x200B; カレンダーアイコン &#x200B;](/help/search-social-commerce/assets/calendar.png)をクリックして日付を選択します。</li></ul> |
 |   | 比較 | 指定した日付範囲のデータと2番目の日付範囲のデータを比較します。 このオプションを選択する場合は、2番目の日付範囲を指定します。 通常のデータ列ごとに2つの追加の列が追加されます。 例えば、レポートには、「インプレッション」の列を1つだけ含めるのではなく、「インプレッション範囲1」、「インプレッション範囲2」、「インプレッションの差分」の列も含まれます。<p><b> メモ：</b><ul><li>差分カラムは派生指標には表示されません。</li><li>大規模な日付範囲を比較するレポートの生成に時間がかかる場合があります。</li></ul> |
 |   | 比較形式 | （[!UICONTROL Comparison]が有効になっている場合）「[_データフィールド_]&#x200B;差異」列で、選択した2つの日付範囲のデータの違いを表現する方法。 次の1つのオプションを選択します。<ul><li><i>分散</i> （既定値）：差分を数値として表示します。</li><li><i>%変更</i>：差分をパーセントで表示します。</li></ul> |
 |   | アトリビューションルール | （Adobe Advertising ピクセルベースのコンバージョントラッキングサービスを使用する広告主のみ）このタブ内で、コンバージョンにつながる一連のイベントで、複数の広告チャネルやポートフォリオにわたるコンバージョンデータをアトリビューションする方法について説明します。 デフォルトでは、広告主レベルのコンバージョンアトリビューション設定で指定されたルールが選択されます。<ul><li> <i>最初のイベント </i>：広告主のクリックのルックバックウィンドウ内のシリーズ内の最初の有料クリック、または有料クリックが発生しなかった場合は、広告主のインプレッションのルックバックウィンドウ内の最後のインプレッションにコンバージョンを割り当てます。</li><li><i>最初のイベントの重み付け詳細</i>：広告主のクリックのルックバックウィンドウとインプレッションのルックバックウィンドウ内で発生したシリーズ内のすべてのイベントにコンバージョンを割り当てますが、最初のイベントに最も重み付けを行い、次のイベントに対する重み付けを連続的に減らします。 コンバージョンの前に有料クリックとインプレッションの両方が表示された場合、指定したインプレッションのオーバーライドの重みがインプレッションにさらに適用されます。 コンバージョンの前にインプレッションのみが表示される場合、インプレッションは、インプレッションの上書き重みではなく、広告主のビュースルー重みに応じて重み付けされます。</li><li><i>均等ディストリビューション </i>：広告主のクリックのルックバックウィンドウとインプレッションのルックバックウィンドウ内で発生したシリーズ内の各イベントにコンバージョンを均等に割り当てます。 コンバージョンの前に有料クリックとインプレッションの両方が表示された場合、指定したインプレッションのオーバーライドの重みがインプレッションにさらに適用されます。 コンバージョンの前にインプレッションのみが表示される場合、インプレッションは、インプレッションの上書き重みではなく、広告主のビュースルー重みに応じて重み付けされます。</li><li><i>最後のイベントの重み付け詳細</i>：広告主のクリックのルックバックウィンドウとインプレッションのルックバックウィンドウ内で発生したシリーズ内のすべてのイベントにコンバージョンを割り当てますが、最後のイベントに最も重み付けを行い、前のイベントに対する重み付けを連続的に減らします。 コンバージョンの前に有料クリックとインプレッションの両方が表示された場合、指定したインプレッションのオーバーライドの重みがインプレッションにさらに適用されます。 コンバージョンの前にインプレッションのみが表示される場合、インプレッションは、インプレッションの上書き重みではなく、広告主のビュースルー重みに応じて重み付けされます。</li><li><i>最後のイベント </i> （デフォルト）：広告主のクリックルックバックウィンドウ内のシリーズ内の最後の有料クリックへのコンバージョン、または有料クリックが発生しなかった場合は、広告主のインプレッションのルックバックウィンドウ内の最後のインプレッションへのコンバージョンの属性を設定します。</li><li><i>U字型</i>：広告主のクリックルックバックウィンドウとインプレッションのルックバックウィンドウ内で発生したシリーズ内のすべてのイベントにコンバージョンの属性を割り当てますが、最初のイベントと最後のイベントに最も多くの重み付けを与え、コンバージョンパスの中央のイベントに対する重み付けを連続的に減らします。 コンバージョンの前に有料クリックとインプレッションの両方が表示された場合、指定したインプレッションのオーバーライドの重みがインプレッションにさらに適用されます。 コンバージョンの前にインプレッションのみが表示される場合、インプレッションは、インプレッションの上書き重みではなく、広告主のビュースルー重みに応じて重み付けされます。</li></ul><p><b> メモ：</b><ul><li>最後のイベント以外のすべてのアトリビューションルールは、Adobe Advertisingのクリックトラッキングと、Adobe AdvertisingまたはAdobe Analytics（Analyticsとの統合）のコンバージョントラッキングを使用する広告主のみが使用できます。</li><li>アトリビューションルールは、あらゆるチャネルにおける有料広告のクリックに適用されます。 イベントレベルで追跡できない検索連動型検索連動型広告のインプレッションには適用されません。</li><li>「最後のイベント」ルールの1つを除くアトリビューションルールを使用してコンバージョンデータをレポートする場合、コンバージョンにつながるイベントが複数のポートフォリオで発生する可能性があります。 この場合、これらのポートフォリオ内の広告またはキーワードがビューに含まれている場合にのみ、ビューにコンバージョン用のデータが含まれます。</li><li>デフォルトのビューの場合は、入札最適化時に各入札単位の[目標値](/help/search-social-commerce/glossary.md#o-p) （旧称「加重収益」）を計算するために使用されるデフォルトのアトリビューションルールを維持することをお勧めします。</li></ul> |
@@ -236,12 +236,12 @@ ht-degree: 0%
 | [すべてのタブの上] | 名前 | ビューの一意の名前。 デフォルトビューの名前は編集できません。<p><b> ヒント：</b> タブとその適用先の情報を特定するのに役立つ名前を使用します（「一時停止したキャンペーン」や「上位50件の広告」など）。 |
 |   | ユニバーサルビュー | （既存のビューの読み取り専用）すべてのエンティティビュー（キャンペーン、広告など）でデータ設定を使用できるようにします。 ユニバーサルビューには、指標とラベルの分類列を含めることができますが、エンティティの種類や他のすべてのビュー属性によって異なるため、プロパティ列（エンティティ名やステータスなど）は含まれません。 フィルター条件は、適用可能な場合はエンティティビューに適用され、それ以外の場合は無視されます。 すべての指標フィルターはローカルで評価されます（例えば、\> 1000 クリックの場合、キャンペーンビューには1000 クリックを超えるキャンペーンが表示され、広告グループビューには1000 クリックを超える広告グループが表示されます）。<p>ユニバーサルビューのプロパティ列は、エンティティのデフォルトビューから取得されます。 特定のエンティティのデフォルトのプロパティ列は、デフォルトのビュー設定で変更できます。<p>このオプションを有効または無効にすると、既存のビューに変更を保存することはできませんが、変更を適用して新しいビューを作成できます。 |
 |   | 共有 | （既存のカスタムビューのみ。オプション）広告主のデータを表示できるすべてのユーザーがビューを使用できるようにします。 他のユーザーは、ビューを編集または削除することはできませんが、設定から新しいビューを作成することはできます。 ビューリストでは、他のユーザーが共有している各ビューは、「_最もパフォーマンスの高いキャンペーン_」のように斜体で表示されます。 |
-| 列 | 選択した列と順序 | 表示されるデータの列とその順序：<ul><li> （列を追加するには）使用可能な列リストで列名をクリックし、選択した列と順序リストにドラッグするか、![右矢印](/help/search-social-commerce/assets/chevron-right.png)をクリックして列を移動します。</li><li>（列の水平方向の位置を変更するには）選択した列と順序のリストで、列名をクリックし、目的の位置にドラッグするか、![上向き矢印](/help/search-social-commerce/assets/chevron-up.png)または![下向き矢印](/help/search-social-commerce/assets/chevron-down.png)をクリックして移動します。 一番上の列名が左側の列に表示されます。</li><li>（列を削除するには）選択した列と順序リストで列名をクリックし、使用可能な列リストにドラッグするか、![左向き矢印](/help/search-social-commerce/assets/chevron-left.png)をクリックして列を移動します。</li></ul><b> データの絞り込み</b><p>特定の種類のデータのみをリストするには、リストの横にあるアイコンのいずれかをクリックします。<ul><li>![ プロパティ アイコン ](/help/search-social-commerce/assets/properties-icon.png) （ステータスなど、検索コンポーネントのプロパティ名およびID）</li><li>インプレッション数やクリック数などの標準トラフィック指標の![ トラフィックアイコン ](/help/search-social-commerce/assets/traffic-metrics-icon.png)</li><li>![収益アイコン ](/help/search-social-commerce/assets/revenue-metrics-icon.png) （広告主が追跡するコンバージョン指標の場合、Analyticsから同期されたコンバージョン指標とサイトエンゲージメント指標を含む）</li><li>![ カスタムアイコン ](/help/search-social-commerce/assets/custom-metrics-icon.png) （広告主が作成したカスタム派生指標の場合）</li><li>![分類アイコン ](/help/search-social-commerce/assets/classifications-icon.png) （ラベル分類の場合）。</li></ul> <b>その他のメモ：</b><ul><li>新しい指標を追加、作成、または編集するには、「[ カスタム指標を作成](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)」、「[ カスタム指標を編集](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)」、「[ カスタム指標を削除](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-delete.md)」を参照してください。</li><li>レポートに通貨が異なるアカウントのデータが含まれる場合、通貨ベースの列（コストやCPCなど）の合計は含まれません。</li><li>列の見出しメニュー](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)から列セットを[一時的に編集し、[列セットを[!UICONTROL Columns] アイコン ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)から編集して並べ替えることができます。 （![列アイコン ](/help/search-social-commerce/assets/custom-columns.png "列アイコン ")）。</li></ul> |
+| 列 | 選択した列と順序 | 表示されるデータの列とその順序：<ul><li> （列を追加するには）使用可能な列リストで列名をクリックし、選択した列と順序リストにドラッグするか、![右矢印](/help/search-social-commerce/assets/chevron-right.png)をクリックして列を移動します。</li><li>（列の水平方向の位置を変更するには）選択した列と順序のリストで、列名をクリックし、目的の位置にドラッグするか、![上向き矢印](/help/search-social-commerce/assets/chevron-up.png)または![下向き矢印](/help/search-social-commerce/assets/chevron-down.png)をクリックして移動します。 一番上の列名が左側の列に表示されます。</li><li>（列を削除するには）選択した列と順序リストで列名をクリックし、使用可能な列リストにドラッグするか、![左向き矢印](/help/search-social-commerce/assets/chevron-left.png)をクリックして列を移動します。</li></ul><b> データの絞り込み</b><p>特定の種類のデータのみをリストするには、リストの横にあるアイコンのいずれかをクリックします。<ul><li>![&#x200B; プロパティ アイコン &#x200B;](/help/search-social-commerce/assets/properties-icon.png) （ステータスなど、検索コンポーネントのプロパティ名およびID）</li><li>インプレッション数やクリック数などの標準トラフィック指標の![&#x200B; トラフィックアイコン &#x200B;](/help/search-social-commerce/assets/traffic-metrics-icon.png)</li><li>![収益アイコン &#x200B;](/help/search-social-commerce/assets/revenue-metrics-icon.png) （広告主が追跡するコンバージョン指標の場合、Analyticsから同期されたコンバージョン指標とサイトエンゲージメント指標を含む）</li><li>![&#x200B; カスタムアイコン &#x200B;](/help/search-social-commerce/assets/custom-metrics-icon.png) （広告主が作成したカスタム派生指標の場合）</li><li>![分類アイコン &#x200B;](/help/search-social-commerce/assets/classifications-icon.png) （ラベル分類の場合）。</li></ul> <b>その他のメモ：</b><ul><li>新しい指標を追加、作成、または編集するには、「[&#x200B; カスタム指標を作成](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)」、「[&#x200B; カスタム指標を編集](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)」、「[&#x200B; カスタム指標を削除](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-delete.md)」を参照してください。</li><li>レポートに通貨が異なるアカウントのデータが含まれる場合、通貨ベースの列（コストやCPCなど）の合計は含まれません。</li><li>列の見出しメニュー[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)から列セットを一時的に編集し、[列セットを[!UICONTROL Columns] アイコン &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)から編集して並べ替えることができます。 （![列アイコン &#x200B;](/help/search-social-commerce/assets/custom-columns.png "列アイコン ")）。</li></ul> |
 |   | 並べ替え基準 | データを並べ替える列。 デフォルト値は、レポートタイプごとに異なります。 |
 |   | ソート順序 | データを&#x200B;**昇順**&#x200B;または&#x200B;**降順**&#x200B;で並べ替えるかどうか。 スライダーを移動してオプションを選択します。 |
-| フィルター | [ フィルター定義] | （オプション）データに適用するフィルター。 フィルターを適用すると、列の値が指定された条件を満たす場合にのみ、行が返されます。<p>適用する各フィルターについて：<ol><li>[!UICONTROL Add Filter] メニューで、列名を選択します。 リストには、使用可能なすべての列が含まれ、列タイプで並べ替えられ、最初にプロパティ列が表示されます。</li><li>列にフィルターを定義します</li></ol>（入力フィールドを含むフィルター） 2番目のメニューから演算子を選択し、該当する値を入力します。 値では大文字と小文字は区別されません。<p>例えば、「クリック」列を選択し、100 クリックを超える行のみを返す場合は、「_\>_」を選択し、入力フィールドに「`100`」と入力します。<p>データ型に応じて、使用可能な演算子には、<i>1}より大きい、<i>より小さい</i>、<i>等しい</i>、<i>含む</i>、<i>含まない</i>、<i>から始まる</i>、<i>で終わる</i>、<i>値なし</i>、または<i>値</i>が含まれます</i> <i>前</i>、<i>後</i>、または<i>日付なし</i>。<p>（入力フィールドのないフィルター） リスト項目を選択メニューの横にある![下向き矢印](/help/search-social-commerce/assets/arrow-down-expand.png)をクリックし、含める各値の横にあるチェックボックスを選択します。<p><b> メモ：</b><ul><li>フィルターの変更は、デフォルトのビュー設定に適用できますが、保存することはできません。</li><li>ビュー内の該当するフィルター](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)を[一時的に変更することもできます。</li></ul> |
+| フィルター | [ フィルター定義] | （オプション）データに適用するフィルター。 フィルターを適用すると、列の値が指定された条件を満たす場合にのみ、行が返されます。<p>適用する各フィルターについて：<ol><li>[!UICONTROL Add Filter] メニューで、列名を選択します。 リストには、使用可能なすべての列が含まれ、列タイプで並べ替えられ、最初にプロパティ列が表示されます。</li><li>列にフィルターを定義します</li></ol>（入力フィールドを含むフィルター） 2番目のメニューから演算子を選択し、該当する値を入力します。 値では大文字と小文字は区別されません。<p>例えば、「クリック」列を選択し、100 クリックを超える行のみを返す場合は、「_\>_」を選択し、入力フィールドに「`100`」と入力します。<p>データ型に応じて、使用可能な演算子には、<i>1&rbrace;より大きい、<i>より小さい</i>、<i>等しい</i>、<i>含む</i>、<i>含まない</i>、<i>から始まる</i>、<i>で終わる</i>、<i>値なし</i>、または<i>値</i>が含まれます</i> <i>前</i>、<i>後</i>、または<i>日付なし</i>。<p>（入力フィールドのないフィルター） リスト項目を選択メニューの横にある![下向き矢印](/help/search-social-commerce/assets/arrow-down-expand.png)をクリックし、含める各値の横にあるチェックボックスを選択します。<p><b> メモ：</b><ul><li>フィルターの変更は、デフォルトのビュー設定に適用できますが、保存することはできません。</li><li>ビュー内の該当するフィルター[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)を一時的に変更することもできます。</li></ul> |
 |   | パフォーマンスデータのみに行を含める | （広告グループ、キーワード、製品グループ、プレースメント、自動ターゲットビューのみ） <p>指定した日付のパフォーマンスデータを含む行のみを含めます。 デフォルトでは、ページ読み込み時間を短縮するためにこのオプションが選択されています。 <p><b>警告</b>：このオプションを選択解除し、パフォーマンス データのない多数のエンティティがビューに含まれる場合、データの表示に時間がかかります。<p> <b>注意</b>: フィルターの変更は、デフォルトのビュー設定に適用できますが、保存することはできません。 デフォルトのビューには、パフォーマンスデータを持つエンティティのみが表示されます。 |
-| 日付 | 日付範囲 | （「日付範囲を含める」が選択されている場合）<p>データを生成する日付範囲。 次の1つのオプションを選択します。<ul><li><i>[ プリセット範囲]</i>：過去180日間</i>の<i>今日</i>から<i>までの一般的な時間増分のリスト。 リストから1つを選択します。デフォルトは<i>昨日</i>です。 注意：<i>先月</i>、<i>過去3か月</i>、<i>過去6か月</i>は、過去の暦月のデータを表示します。</li><li><i> カスタム日付範囲：</i>開始日と終了日を指定します。 MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、フィールドの横にある![ カレンダーアイコン ](/help/search-social-commerce/assets/calendar.png)をクリックして日付を選択します。</li></ul> |
+| 日付 | 日付範囲 | （「日付範囲を含める」が選択されている場合）<p>データを生成する日付範囲。 次の1つのオプションを選択します。<ul><li><i>[ プリセット範囲]</i>：過去180日間</i>の<i>今日</i>から<i>までの一般的な時間増分のリスト。 リストから1つを選択します。デフォルトは<i>昨日</i>です。 注意：<i>先月</i>、<i>過去3か月</i>、<i>過去6か月</i>は、過去の暦月のデータを表示します。</li><li><i> カスタム日付範囲：</i>開始日と終了日を指定します。 MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、フィールドの横にある![&#x200B; カレンダーアイコン &#x200B;](/help/search-social-commerce/assets/calendar.png)をクリックして日付を選択します。</li></ul> |
 |   | 比較 | 指定した日付範囲のデータと2番目の日付範囲のデータを比較します。 このオプションを選択する場合は、2番目の日付範囲を指定します。 通常のデータ列ごとに2つの追加の列が追加されます。 例えば、レポートには、「インプレッション」の列を1つだけ含めるのではなく、「インプレッション範囲1」、「インプレッション範囲2」、「インプレッションの差分」の列も含まれます。<p><b> メモ：</b><ul><li>差分カラムは派生指標には表示されません。</li><li>大規模な日付範囲を比較するレポートの生成に時間がかかる場合があります。</li></ul> |
 |   | 比較形式 | （[!UICONTROL Comparison]が有効になっている場合）「[_データフィールド_]&#x200B;差異」列で、選択した2つの日付範囲のデータの違いを表現する方法。 次の1つのオプションを選択します。<ul><li><i>分散</i> （既定値）：差分を数値として表示します。</li><li><i>%変更</i>：差分をパーセントで表示します。</li></ul> |
 | 追加設定 | デフォルトを使用 | 広告主レベルのコンバージョン属性設定で指定された属性設定を適用します。 |

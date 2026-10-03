@@ -64,6 +64,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プライベートインベントリについて](private-inventory-about.md)
+>* [&#x200B; プライベートインベントリについて](private-inventory-about.md)
 >* [取引IDへのアクセス権を持つ広告主を編集](/help/dsp/inventory/deal-id-edit-advertisers.md)
 >* [取引情報IDの手動設定](deal-id-settings.md)

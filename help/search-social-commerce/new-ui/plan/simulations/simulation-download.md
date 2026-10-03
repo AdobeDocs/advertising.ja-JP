@@ -41,19 +41,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* [ シミュレーション結果を画面で表示することもできます](simulation-view.md)。
->* [追加の多くの指標とほとんどのシミュレーション設定の列を含めるように[!UICONTROL Simulations] ビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)をカスタマイズできます。 含めることができる列について詳しくは、「[ シミュレーションについて](simulation-about.md#simulations-actions)」の「使用可能なアクション」の節を参照してください。
+>* [&#x200B; シミュレーション結果を画面で表示することもできます](simulation-view.md)。
+>* [追加の多くの指標とほとんどのシミュレーション設定の列を含めるように[!UICONTROL Simulations] ビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)をカスタマイズできます。 含めることができる列について詳しくは、「[&#x200B; シミュレーションについて](simulation-about.md#simulations-actions)」の「使用可能なアクション」の節を参照してください。
 
 1. メインメニューで、**[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;をクリックします。
 
 1. ダウンロードするシミュレーションの横にあるチェックボックスをオンにします。
 
-1. データテーブルの上にあるツールバーで、![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")**[!UICONTROL Simulation Report]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")**[!UICONTROL Simulation Report]**&#x200B;をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。 ZIP ファイルを解凍して、シミュレーションを表示します。
 
 >[!MORELIKETHIS]
 >
->* [ シミュレーションについて](simulation-about.md)
->* [ シミュレーションの実行または再実行](simulation-create.md)
->* [ シミュレーションの詳細を表示](simulation-view.md)
+>* [&#x200B; シミュレーションについて](simulation-about.md)
+>* [&#x200B; シミュレーションの実行または再実行](simulation-create.md)
+>* [&#x200B; シミュレーションの詳細を表示](simulation-view.md)

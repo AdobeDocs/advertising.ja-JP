@@ -40,11 +40,11 @@ DSPは、DSPでサポートされているデジタル形式をまたいで、�
 
 * [!DNL LiveRamp] [!DNL Connect] ダッシュボードを使用して、認証済み[[!DNL LiveRamp] [!DNL RampIDs]]を手動でDSPに直接送信できます。 「[認証済みセグメントを [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)から手動で読み込む」を参照してください。
 
-* DSPは、Customer Data Platform （CDP）内に構築されたファーストパーティセグメントを取り込み、[!DNL LiveRamp] [!DNL RampIDs]および[!DNL Unified ID 2.0 (UID2.0)]のIDに変換できます。 サポートされている顧客データプラットフォームとユーザーIDのタイプ、サポートされている各ユニバーサル ID タイプで使用できる機能、および関連するワークフローについて詳しくは、「[ ファーストパーティオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)」を参照してください。
+* DSPは、Customer Data Platform （CDP）内に構築されたファーストパーティセグメントを取り込み、[!DNL LiveRamp] [!DNL RampIDs]および[!DNL Unified ID 2.0 (UID2.0)]のIDに変換できます。 サポートされている顧客データプラットフォームとユーザーIDのタイプ、サポートされている各ユニバーサル ID タイプで使用できる機能、および関連するワークフローについて詳しくは、「[&#x200B; ファーストパーティオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)」を参照してください。
 
 * オーストラリアの広告主は、[!UICONTROL AdFixus ID]個のオーディエンスソースを使用して、[!DNL AdFixus]個のユニバーサル IDを含むファーストパーティセグメントをインポートできます。 DSPは、[!DNL AdFixus] IDと他のユニバーサル ID タイプの間で変換されません。 「[1st パーティセグメントを [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)からインポートする」を参照してください。
 
-* ID5 ユニバーサル IDに関連付けられたユーザーを追跡するカスタムセグメントを作成できます。このユーザーは、デスクトップおよびモバイルデバイスの広告に表示され、特定のweb ページにアクセスします。 ID5は、確率的モデルを使用して、様々なユーザー信号とブラウザー信号から導き出されたIDを割り当てます。 手順については、「[ カスタムセグメントの作成と実装](/help/dsp/audiences/custom-segment-create.md)」を参照してください。
+* ID5 ユニバーサル IDに関連付けられたユーザーを追跡するカスタムセグメントを作成できます。このユーザーは、デスクトップおよびモバイルデバイスの広告に表示され、特定のweb ページにアクセスします。 ID5は、確率的モデルを使用して、様々なユーザー信号とブラウザー信号から導き出されたIDを割り当てます。 手順については、「[&#x200B; カスタムセグメントの作成と実装](/help/dsp/audiences/custom-segment-create.md)」を参照してください。
 
 * 一部のベンダーのサードパーティセグメントでは、Cookieやデバイス IDによって追跡されたユーザーに加えて、ユニバーサル IDが自動的に含まれる場合があります。 例えば、[!DNL Eyeota]のセグメントにはID5 IDが自動的に含まれ、[!DNL Lotame]のセグメントにはUID 2.0 IDが含まれる場合があります。 セグメントの詳細には、各タイプのサイズが含まれます。 セグメント名の横に記載されている各セグメントの通常の使用料が適用されます。ID5 IDに追加料金は発生しません。
 
@@ -96,7 +96,7 @@ Adobe Analytics measurementが利用可能な[!DNL RampID] ベースのセグメ
 
 * セグメントをアクティブ化してから約24時間後、[!UICONTROL Audiences] > [!UICONTROL All Audiences]の範囲内で、セグメントの変換済みID数を確認します。 ID数が予期しない場合は、Adobe アカウントチームにお問い合わせください。
 
-  セグメント数の違いについて詳しくは、「[ メール IDとユニバーサル IDの間のデータの相違](#universal-ids-data-variances)」を参照してください。
+  セグメント数の違いについて詳しくは、「[&#x200B; メール IDとユニバーサル IDの間のデータの相違](#universal-ids-data-variances)」を参照してください。
 
 * 既存のパッケージやプレースメントは変更しないでください。 ただし、ユニバーサル IDをテストするための増分予算がない場合は、テストに予算を割り当てるために元の予算を削減します。
 
@@ -162,10 +162,10 @@ Adobe Analytics measurementが利用可能な[!DNL RampID] ベースのセグメ
 
 >[!MORELIKETHIS]
 >
->* [ ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
->* [ オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](/help/dsp/audiences/sources/source-manage.md)
->* [ カスタムセグメントを作成して実装](/help/dsp/audiences/custom-segment-create.md)
+>* [&#x200B; ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
+>* [&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](/help/dsp/audiences/sources/source-manage.md)
+>* [&#x200B; カスタムセグメントを作成して実装](/help/dsp/audiences/custom-segment-create.md)
 >* [認証済みセグメントを [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)から手動でインポートします
 >* [1st パーティセグメントを [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)からインポート
->* [ オーディエンス管理について](/help/dsp/audiences/audience-about.md)
+>* [&#x200B; オーディエンス管理について](/help/dsp/audiences/audience-about.md)
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)

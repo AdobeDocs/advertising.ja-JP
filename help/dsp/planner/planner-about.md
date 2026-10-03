@@ -40,7 +40,7 @@ ht-degree: 0%
 
 各予測は、リーチと予算の予測曲線で構成され、計画設定で達成可能なリーチの量を示します。 ビジュアライゼーションの上にカーソルを置くと、より高い予算でリーチの機会が増えます。
 
-![ プランナー予測](/help/dsp/assets/planner-forecast.png " プランナー予測")
+![&#x200B; プランナー予測](/help/dsp/assets/planner-forecast.png " プランナー予測")
 
 予測出力には、[!UICONTROL Inventory Breakdown] セクションも含まれており、異なるパブリッシャーがどのようにユニークリーチに貢献しているかを示し、貴重な発見の機会を提供します。
 
@@ -92,10 +92,10 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [DSP [!UICONTROL Planner] ツールについて](planner-about.md)
->* [ コネクテッド TV リーチ プランの作成](planner-create.md)
->* [ コネクテッド TV リーチ プランを複製](planner-duplicate.md)
->* [ コネクテッド TV リーチ プランの編集](planner-edit.md)
->* [ コネクテッド TV リーチ プランの書き出し](planner-export.md)
->* [ コネクテッド TV リーチ プランの予測を再生成](planner-forecast.md)
->* [ コネクテッド TV リーチ プランのアーカイブ ](planner-archive.md)
->* [ コネクテッド TV リーチ プランの設定](planner-settings.md)
+>* [&#x200B; コネクテッド TV リーチ プランの作成](planner-create.md)
+>* [&#x200B; コネクテッド TV リーチ プランを複製](planner-duplicate.md)
+>* [&#x200B; コネクテッド TV リーチ プランの編集](planner-edit.md)
+>* [&#x200B; コネクテッド TV リーチ プランの書き出し](planner-export.md)
+>* [&#x200B; コネクテッド TV リーチ プランの予測を再生成](planner-forecast.md)
+>* [&#x200B; コネクテッド TV リーチ プランのアーカイブ &#x200B;](planner-archive.md)
+>* [&#x200B; コネクテッド TV リーチ プランの設定](planner-settings.md)

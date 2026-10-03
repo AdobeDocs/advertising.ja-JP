@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. ツールバーで、ステータスボタンをクリックします。
 
-   * （入札可能なキーワードのみ）行をアクティブ化するには、![ アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
+   * （入札可能なキーワードのみ）行をアクティブ化するには、![&#x200B; アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
 
    * （入札可能なキーワードのみ）行を一時停止するには、![一時停止](/help/search-social-commerce/assets/pause.png "一時停止")をクリックします。
 
@@ -42,6 +42,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ キーワードについて](keyword-about.md)
+>* [&#x200B; キーワードについて](keyword-about.md)
 >* [入札可能なキーワードの管理](keyword-manage.md)
 >* [否定的なキーワードを作成](keyword-negative-create.md)

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントのみ*
 
-[!UICONTROL Campaigns] > [!UICONTROL Asset Library]では、[!DNL Google Ads]および[!DNL Microsoft Advertising]のアカウントレベルのアセットライブラリで、再利用可能なすべての画像、ビデオ、および（2}の場合のみ）テキストアセットを表示できます。 [!DNL Google Ads]また、広告ネットワークアカウント用に新しいアセットを作成し、広告ネットワークにアップロードすることもできます。
+[!UICONTROL Campaigns] > [!UICONTROL Asset Library]では、[!DNL Google Ads]および[!DNL Microsoft Advertising]のアカウントレベルのアセットライブラリで、再利用可能なすべての画像、ビデオ、および（2&rbrace;の場合のみ）テキストアセットを表示できます。 [!DNL Google Ads]また、広告ネットワークアカウント用に新しいアセットを作成し、広告ネットワークにアップロードすることもできます。
 
 パフォーマンスの最大化キャンペーンには、任意のアセットを使用できます。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 右上で、広告ネットワークとアカウントを選択します。
 
-1. データテーブルの上にあるツールバーで、![ アップロード ](/help/search-social-commerce/assets/add.png " アップロード ")をクリックします。
+1. データテーブルの上にあるツールバーで、![&#x200B; アップロード &#x200B;](/help/search-social-commerce/assets/add.png " アップロード ")をクリックします。
 
 1. 各アセットタイプを指定します。
 

@@ -96,6 +96,6 @@ For any reporting or auditing within [!DNL Analytics], the best practice is to u
 >
 >* [概要](overview.md)
 >* [前提条件](prerequisites.md)
->* [ データ収集、データ転送、レポートの設定](set-up.md)
->* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション ](advertising-data-in-cja.md)
->* [ トラブルシューティング ](troubleshooting.md)
+>* [&#x200B; データ収集、データ転送、レポートの設定](set-up.md)
+>* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション &#x200B;](advertising-data-in-cja.md)
+>* [&#x200B; トラブルシューティング &#x200B;](troubleshooting.md)

@@ -89,7 +89,7 @@ Adobe Advertising コンバージョントラッキングを使用するアカ�
 
     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-    アカウントにサーバーサイド AMO ID実装があり、アカウントまたはキャンペーン設定「[!UICONTROL Auto Upload]」が有効になっている場合、パラメーターが自動的に追加されます。 それ以外は、手動で追加する必要があります。 「 [!DNL Analytics]](/help/integrations/analytics/ids.md)様が使用するAdobe Advertising ID [を参照してください。」
+    アカウントにサーバーサイド AMO ID実装があり、アカウントまたはキャンペーン設定「[!UICONTROL Auto Upload]」が有効になっている場合、パラメーターが自動的に追加されます。 それ以外は、手動で追加する必要があります。 「 [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)様が使用するAdobe Advertising ID を参照してください。」
 
   * その他[!DNL Google Ads] アカウントすべて：
 

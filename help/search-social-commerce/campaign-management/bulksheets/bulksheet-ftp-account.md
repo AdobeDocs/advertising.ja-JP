@@ -36,5 +36,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
->* [ バルクシートまたは修正されたエラーファイルをアップロード ](bulksheet-upload.md)
+>* [&#x200B; バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
+>* [&#x200B; バルクシートまたは修正されたエラーファイルをアップロード &#x200B;](bulksheet-upload.md)

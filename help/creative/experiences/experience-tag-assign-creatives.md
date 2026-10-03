@@ -30,7 +30,7 @@ ht-degree: 0%
 
 エクスペリエンスに使用する広告タグに、該当するクリエイティブサイズのクリエイティブを割り当てることができます。 エクスペリエンス設定で指定したクリエイティブライブラリのクリエイティブを使用できます。 標準的な広告エクスペリエンスでは、標準的なクリエイターのみを割り当てることができます。 動的な広告エクスペリエンスの場合は、動的なクリエイターのみを割り当てることができます。<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
 
-後で[ トラッキング URLをカスタマイズ ](experience-tracking-urls-no-targeting.md)し、広告タグに使用されるクリエイティブに対して[ クリエイティブの最適化とスケジュール ](experience-optimization-scheduling-no-targeting.md)をカスタマイズできます。
+後で[&#x200B; トラッキング URLをカスタマイズ &#x200B;](experience-tracking-urls-no-targeting.md)し、広告タグに使用されるクリエイティブに対して[&#x200B; クリエイティブの最適化とスケジュール &#x200B;](experience-optimization-scheduling-no-targeting.md)をカスタマイズできます。
 
 >[!NOTE]
 >
@@ -52,13 +52,13 @@ ht-degree: 0%
 
 1. **[!UICONTROL Add Creatives]**&#x200B;をクリックします。
 
-1. （オプション） [ クリエイティブのトラッキング URLをカスタマイズ ](experience-tracking-urls-no-targeting.md)。
+1. （オプション） [&#x200B; クリエイティブのトラッキング URLをカスタマイズ &#x200B;](experience-tracking-urls-no-targeting.md)。
 
-1. （オプション） [ クリエイティブの最適化とクリエイティブのスケジュール設定](experience-optimization-scheduling-no-targeting.md)をカスタマイズします。
+1. （オプション） [&#x200B; クリエイティブの最適化とクリエイティブのスケジュール設定](experience-optimization-scheduling-no-targeting.md)をカスタマイズします。
 
 >[!MORELIKETHIS]
 >* [該当するクリエイティブサイズの広告タグを手動で作成する](experience-tag-create-manually.md)
->* [ クリエイティブのトラッキング URLをカスタマイズする](experience-tracking-urls-no-targeting.md)。
->* [ クリエイティブの最適化とクリエイティブのスケジュールのカスタマイズ ](experience-optimization-scheduling-no-targeting.md)
->* [ ビデオ広告エクスペリエンスタグのトランスコーディングオプションをカスタマイズ ](experience-tag-video-transcoding.md)
->* [ ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](experience-tag-export.md)
+>* [&#x200B; クリエイティブのトラッキング URLをカスタマイズする](experience-tracking-urls-no-targeting.md)。
+>* [&#x200B; クリエイティブの最適化とクリエイティブのスケジュールのカスタマイズ &#x200B;](experience-optimization-scheduling-no-targeting.md)
+>* [&#x200B; ビデオ広告エクスペリエンスタグのトランスコーディングオプションをカスタマイズ &#x200B;](experience-tag-video-transcoding.md)
+>* [&#x200B; ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](experience-tag-export.md)

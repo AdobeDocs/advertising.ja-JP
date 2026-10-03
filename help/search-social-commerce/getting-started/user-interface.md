@@ -29,11 +29,11 @@ ht-degree: 0%
 
 *Beta機能*
 
-![ ユーザーインターフェイス ](/help/search-social-commerce/assets/ui-new.png " ユーザーインターフェイス ")
+![&#x200B; ユーザーインターフェイス &#x200B;](/help/search-social-commerce/assets/ui-new.png " ユーザーインターフェイス ")
 
 各ページには、メインメニューと、その他のタスクおよび情報ベースのメニューが含まれています。
 
-ご利用の[製品プロファイル ](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles)によって、各ビュー内で利用可能な機能を含め、利用可能なオプションが決まります。
+ご利用の[製品プロファイル &#x200B;](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles)によって、各ビュー内で利用可能な機能を含め、利用可能なオプションが決まります。
 
 ## メインメニュー
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
   * **[!UICONTROL Overview]**&#x200B;すべてのポートフォリオのパフォーマンスのビジュアライゼーションを含む、設定可能な[!UICONTROL Dashboard] ビューを開きます。
 
-  * **[!UICONTROL Recommendations]**: [!DNL Google Ads]および[!DNL Microsoft Advertising]のメディア企業レコメンデーションの読み取り専用ビューと[!DNL Microsoft Advertising.]のメディア企業インサイトを開きます。レコメンデーションおよびインサイトを表示して対応するには、従来の[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン ](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+  * **[!UICONTROL Recommendations]**: [!DNL Google Ads]および[!DNL Microsoft Advertising]のメディア企業レコメンデーションの読み取り専用ビューと[!DNL Microsoft Advertising.]のメディア企業インサイトを開きます。レコメンデーションおよびインサイトを表示して対応するには、従来の[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
 * **[!UICONTROL Manage]** サブメニュー：
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
   * **[!UICONTROL Keywords]**&#x200B;新しい[!UICONTROL Keywords] ビューを開き、広告主の既存のキーワードと負のキーワードを表示します。 選択したキーワードの制約の割り当てを管理できます。
 
-    キーワードと否定的なキーワードを作成、編集、削除するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン ](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+    キーワードと否定的なキーワードを作成、編集、削除するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
   * **[!UICONTROL Product Groups]**&#x200B;新しい[!UICONTROL Keywords] ビューが開き、既存のショッピング商品グループが表示されます。 制約やラベルの割り当てなど、製品グループを管理できます。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
   * **[!UICONTROL Label Classification]**&#x200B;新しい[!UICONTROL Label Classifications] ビューを開きます。 分類を管理し、新しいUIで使用可能な該当するアカウントコンポーネントに分類値を割り当て/割り当て解除できます。
 
-  * **[!UICONTROL Manager Accounts]**：既存のマネージャーアカウントと広告ネットワークの新しいビューを開きます。 マネージャーアカウントを管理するには、従来の[!UICONTROL Admin] > [!UICONTROL Manager Accounts] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン ](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+  * **[!UICONTROL Manager Accounts]**：既存のマネージャーアカウントと広告ネットワークの新しいビューを開きます。 マネージャーアカウントを管理するには、従来の[!UICONTROL Admin] > [!UICONTROL Manager Accounts] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
 * **[!UICONTROL Goals]** サブメニュー：
 
@@ -99,25 +99,25 @@ ht-degree: 0%
 
   * **[!UICONTROL Conversion Value Rules]** [!DNL Google Ads] アカウントのキャンペーンレベルおよびアカウントレベルのコンバージョン値ルールを表示および管理するための新しいビューを開きます。
 
-  * **[!UICONTROL Constraints]**&#x200B;既存の制約の読み取り専用ビューを開きます。 制約を管理するには、従来の[!UICONTROL Optimization] > [!UICONTROL Constraints] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン ](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+  * **[!UICONTROL Constraints]**&#x200B;既存の制約の読み取り専用ビューを開きます。 制約を管理するには、従来の[!UICONTROL Optimization] > [!UICONTROL Constraints] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
 * **[!UICONTROL Targeting]** サブメニュー：
 
-  * **[!UICONTROL Audiences]**：広告主の既存のオーディエンス、すべてのオーディエンスターゲット、およびすべてのオーディエンス除外を表示する新しいビューを開きます。 オーディエンスを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Audiences] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン ](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+  * **[!UICONTROL Audiences]**：広告主の既存のオーディエンス、すべてのオーディエンスターゲット、およびすべてのオーディエンス除外を表示する新しいビューを開きます。 オーディエンスを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Audiences] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
-  * **[!UICONTROL Auto Targets]**&#x200B;新しいビューを開きます。このビューには、広告主の既存の自動ターゲットがすべて表示されます。 自動ターゲットを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Auto Targets] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン ](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+  * **[!UICONTROL Auto Targets]**&#x200B;新しいビューを開きます。このビューには、広告主の既存の自動ターゲットがすべて表示されます。 自動ターゲットを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Auto Targets] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
   * **[!UICONTROL Placements]**&#x200B;新しい[!UICONTROL Placements] ビューを開きます。このビューには、広告主の既存のプレースメントと負のプレースメントが表示されます。 選択したプレースメントの制約の割り当てを管理できます。
 
-    プレースメントと負のプレースメントを作成、編集、削除するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン ](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+    プレースメントと負のプレースメントを作成、編集、削除するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
 * **[!UICONTROL Library]** サブメニュー：
 
-  * **[!UICONTROL Assets]**&#x200B;既存のクリエイティブアセットを一覧表示する新しいビューを開きます。 各クリエイティブをプレビューできます。 アセットライブラリを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Asset Library] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン ](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+  * **[!UICONTROL Assets]**&#x200B;既存のクリエイティブアセットを一覧表示する新しいビューを開きます。 各クリエイティブをプレビューできます。 アセットライブラリを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Asset Library] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
-  * **[!UICONTROL Extensions]**&#x200B;既存の広告拡張機能の読み取り専用ビューを開きます。 拡張機能を管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン ](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+  * **[!UICONTROL Extensions]**&#x200B;既存の広告拡張機能の読み取り専用ビューを開きます。 拡張機能を管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
-  * **[!UICONTROL Products]**&#x200B;既存のマーチャント センターのアカウントと製品の読み取り専用ビューを開きます。 マーチャント センターのアカウントを追加するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Products] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン ](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+  * **[!UICONTROL Products]**&#x200B;既存のマーチャント センターのアカウントと製品の読み取り専用ビューを開きます。 マーチャント センターのアカウントを追加するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Products] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
 <!--
  What's happening to these?
@@ -143,13 +143,13 @@ Tools > Admin > Data Source Setup
 
 * アクセスできるCX Enterprise組織の選択可能なリスト。
 
-* ![ ヘルプセンター](/help/search-social-commerce/assets/help-main-menu.png " ヘルプセンター") ドキュメントやその他の情報へのリンクが含まれたヘルプメニュー。
+* ![&#x200B; ヘルプセンター](/help/search-social-commerce/assets/help-main-menu.png " ヘルプセンター") ドキュメントやその他の情報へのリンクが含まれたヘルプメニュー。
 
 * ![通知](/help/search-social-commerce/assets/notifications-aec.png "通知") CX Enterpriseからのリクエスト、通知、通知を一覧表示するパネル。
 
-* ![ アプリ ](/help/search-social-commerce/assets/apps.png " アプリ ")切り替え可能なAdobe CX Enterprise ソリューションとサービスの一覧。
+* ![&#x200B; アプリ &#x200B;](/help/search-social-commerce/assets/apps.png " アプリ ")切り替え可能なAdobe CX Enterprise ソリューションとサービスの一覧。
 
-* ![ アカウント ](/help/search-social-commerce/assets/account.png " アカウント ")設定を変更してログアウトできる、CX Enterprise アカウントのプロファイルに関する情報。
+* ![&#x200B; アカウント &#x200B;](/help/search-social-commerce/assets/account.png " アカウント ")設定を変更してログアウトできる、CX Enterprise アカウントのプロファイルに関する情報。
 
 ### 2行目：その他の検索、ソーシャル、Commerce メニュー
 
@@ -161,15 +161,15 @@ Tools > Admin > Data Source Setup
 
 * ![古いUIに切り替え](/help/search-social-commerce/assets/switch-to-old-ui.png "古いUIに切り替え")新しいタブまたはウィンドウでレガシーユーザーインターフェイスを開きます。
 
-* ![ カスタムアラート ](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") パネルでカスタムアラートを作成または表示できます。
+* ![&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") パネルでカスタムアラートを作成または表示できます。
 
-* ![ グローバル同期ステータス ](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ") <!--what kind -->件の一括操作ジョブのリストを開きます。
+* ![&#x200B; グローバル同期ステータス &#x200B;](/help/search-social-commerce/assets/global-sync-status.png " グローバル同期ステータス ") <!--what kind -->件の一括操作ジョブのリストを開きます。
 
 * ![通知](/help/search-social-commerce/assets/notifications.png "通知")検索、ソーシャル、Commerceの通知を一覧表示するパネルを開きます。 リストのフィルター、通知設定の編集、または[!UICONTROL Notification Center].mを開くことができます
 
 ## レガシーユーザーインターフェイス
 
-![ ユーザーインターフェイス ](/help/search-social-commerce/assets/ui.png " ユーザーインターフェイス ")
+![&#x200B; ユーザーインターフェイス &#x200B;](/help/search-social-commerce/assets/ui.png " ユーザーインターフェイス ")
 
 各ページの上部には、メインメニューやその他のタスクおよび情報ベースのメニューが表示されます。
 
@@ -185,7 +185,7 @@ Tools > Admin > Data Source Setup
 
 * **[!UICONTROL Optimization]** – このメニューには、ビジネス目標の管理、ビジネス目標に基づくポートフォリオの管理、ポートフォリオのパフォーマンスの監視、クロスポートフォリオ [!UICONTROL Spend Recommendation Report]の生成、入札制限の管理、[!DNL Google Ads]のコンバージョン値ルールの表示および管理（一部のユーザー）のオプションがあります。
 
-  これらの機能に関する個別のドキュメントは、[!UICONTROL Help] メニュー（![ ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から入手できます。
+  これらの機能に関する個別のドキュメントは、[!UICONTROL Help] メニュー（![&#x200B; ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から入手できます。
 
 * **[!UICONTROL Insights & Reports]** – このメニューには、詳細なインサイトとレポートの生成、スプレッドシート フィードを使用したレポート作成の自動化、アラートの作成と監視、通知設定の設定、広告ネットワークのレコメンデーションの表示、広告主アカウントに対して行われた変更のログの表示などのオプションが含まれます。
 
@@ -197,20 +197,20 @@ Tools > Admin > Data Source Setup
 
 * （該当する場合）管理中の広告主の選択可能なリスト。
 
-* ![ アラート通知](/help/search-social-commerce/assets/notifications-panel.png " アラート通知")検索、ソーシャル、Commerceの通知を一覧表示するパネル。
+* ![&#x200B; アラート通知](/help/search-social-commerce/assets/notifications-panel.png " アラート通知")検索、ソーシャル、Commerceの通知を一覧表示するパネル。
 
-  Adobe CX Enterprise](sign-in.md)を通じて[ ログインすると、このパネルにCX Enterpriseからの通知が表示されます。
+  Adobe CX Enterprise[&#128279;](sign-in.md)を通じて ログインすると、このパネルにCX Enterpriseからの通知が表示されます。
 
-* ![ ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー") ドキュメントやその他の情報へのリンクが含まれるヘルプメニュー。
+* ![&#x200B; ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー") ドキュメントやその他の情報へのリンクが含まれるヘルプメニュー。
 
-* ![ ソリューションスイッチャー](/help/search-social-commerce/assets/menu-icon.png " ソリューションスイッチャー")切り替え可能なAdobe CX Enterprise ソリューションとサービスの一覧。
+* ![&#x200B; ソリューションスイッチャー](/help/search-social-commerce/assets/menu-icon.png " ソリューションスイッチャー")切り替え可能なAdobe CX Enterprise ソリューションとサービスの一覧。
 
-* ![ ユーザープロファイル ](/help/search-social-commerce/assets/user-profile.png " ユーザープロファイル ")あなたのプロファイルへのリンクで、ログアウトできます。
+* ![&#x200B; ユーザープロファイル &#x200B;](/help/search-social-commerce/assets/user-profile.png " ユーザープロファイル ")あなたのプロファイルへのリンクで、ログアウトできます。
 
-  Adobe CX Enterprise](sign-in.md)を使用して[ ログインしている場合は、CX Enterpriseのパスワードと通知設定を含むCX Enterprise プロファイルを編集することもできます。
+  Adobe CX Enterprise[&#128279;](sign-in.md)を使用して ログインしている場合は、CX Enterpriseのパスワードと通知設定を含むCX Enterprise プロファイルを編集することもできます。
 
 >[!MORELIKETHIS]
 >
->* [ ログイン ](sign-in.md)
->* [ ログアウト ](sign-out.md)
+>* [&#x200B; ログイン &#x200B;](sign-in.md)
+>* [&#x200B; ログアウト &#x200B;](sign-out.md)
 >* [新しいUIと従来のUIを切り替える](ui-switch.md)

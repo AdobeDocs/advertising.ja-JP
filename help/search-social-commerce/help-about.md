@@ -51,4 +51,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->従来のユーザーインターフェイスでの入札にポートフォリオを使用するなど、最適化に関する追加のヘルプは、Search、Social、およびCommerce内の任意のページの右上にある[!UICONTROL Help] メニュー（![ ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から利用できます。
+>従来のユーザーインターフェイスでの入札にポートフォリオを使用するなど、最適化に関する追加のヘルプは、Search、Social、およびCommerce内の任意のページの右上にある[!UICONTROL Help] メニュー（![&#x200B; ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から利用できます。

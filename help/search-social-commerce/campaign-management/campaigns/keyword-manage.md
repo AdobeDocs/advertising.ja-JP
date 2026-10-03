@@ -22,13 +22,13 @@ ht-degree: 0%
 
 *[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]および既存の[!DNL Baidu] アカウントのみ*
 
-[同期広告ネットワークアカウント ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)内の検索および表示/ネイティブネットワークをターゲットとする[ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md)で、検索広告グループのキーワードを作成および編集できます
+[同期広告ネットワークアカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)内の検索および表示/ネイティブネットワークをターゲットとする[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)で、検索広告グループのキーワードを作成および編集できます
 
 ## キーワードの作成
 
 >[!TIP]
 >
->一度に多くのキーワードを作成するには、[ コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>一度に多くのキーワードを作成するには、[&#x200B; コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**&#x200B;をクリックします。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->異なる広告ネットワーク上のキーワードを含む、大量のキーワードデータを一度に編集するには、[ コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>異なる広告ネットワーク上のキーワードを含む、大量のキーワードデータを一度に編集するには、[&#x200B; コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**&#x200B;をクリックします。
 
@@ -78,11 +78,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ キーワードについて](keyword-about.md)
+>* [&#x200B; キーワードについて](keyword-about.md)
 >* [[!DNL Baidu]  キーワード設定](keyword-settings-baidu.md)
 >* [[!DNL Google Ads]  キーワード設定](keyword-settings-google.md)
 >* [[!DNL LY Ads]  キーワード設定](keyword-settings-yahoo-japan.md)
 >* [[!DNL Microsoft Advertising]  キーワード設定](keyword-settings-microsoft.md)
 >* [[!DNL Yandex]  キーワード設定](keyword-settings-yandex.md)
 >* [否定的なキーワードを作成](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
->* [ キーワードと否定的なキーワードのステータスを変更](keyword-status-edit.md)
+>* [&#x200B; キーワードと否定的なキーワードのステータスを変更](keyword-status-edit.md)

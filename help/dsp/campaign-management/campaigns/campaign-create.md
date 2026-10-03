@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Campaigns]**&#x200B;をクリックします。
 1. [!UICONTROL Campaigns] ビューで、**[!UICONTROL Create campaign]**&#x200B;をクリックします。
-1. [ キャンペーン設定](campaign-settings.md)を入力します。
+1. [&#x200B; キャンペーン設定](campaign-settings.md)を入力します。
    1. [!UICONTROL Basic Campaign Details]を指定します。
    1. （管理者ユーザーのみ）「[!UICONTROL Ad Cloud Admin Fields]」セクションで、管理設定を指定します。
    1. [!UICONTROL Campaign Goals] セクションで、予算を指定します。 必要に応じて、デフォルトの目標設定を変更し、必要に応じて既存のパッケージを選択したり、キャンペーンに含めるパッケージを作成したりできます。
@@ -40,8 +40,8 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのキャンペーン管理について](campaign-about.md)
->* [ キャンペーンを複製](campaign-duplicate.md)
->* [ キャンペーンを編集](campaign-edit.md)
->* [ キャンペーンの変更ログを表示](campaign-change-log.md)
->* [ キャンペーン設定](campaign-settings.md)
->* [ キャンペーンを一時停止またはアクティブ化](campaign-pause-activate.md)
+>* [&#x200B; キャンペーンを複製](campaign-duplicate.md)
+>* [&#x200B; キャンペーンを編集](campaign-edit.md)
+>* [&#x200B; キャンペーンの変更ログを表示](campaign-change-log.md)
+>* [&#x200B; キャンペーン設定](campaign-settings.md)
+>* [&#x200B; キャンペーンを一時停止またはアクティブ化](campaign-pause-activate.md)

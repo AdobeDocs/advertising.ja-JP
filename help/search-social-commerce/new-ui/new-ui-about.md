@@ -27,14 +27,14 @@ ht-degree: 0%
 
 時間の経過とともに、残りの機能が新しいUIに追加されます。 また、新しいUIのメインメニューから、従来のUIのほとんどの機能を開くことができます。 新しいUIと従来のUIを簡単に切り替えることもできます。
 
-新しいUIの構成方法について詳しくは、「[ ユーザーインターフェイスの構成方法](/help/search-social-commerce/getting-started/user-interface.md)」を参照してください。
+新しいUIの構成方法について詳しくは、「[&#x200B; ユーザーインターフェイスの構成方法](/help/search-social-commerce/getting-started/user-interface.md)」を参照してください。
 
 >[!NOTE]
 >
->新しいUI内の一部の設定に関する説明、概念情報、ベストプラクティス、レガシー機能のヘルプは、「[!DNL Search, Social, & Commerce Optimization Guide]」で引き続き利用できます。 [!DNL Optimization Guide]は、Search, Social, &amp; Commerce内の任意のページの右上にある[!UICONTROL Help] メニュー（![ ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から利用できます。
+>新しいUI内の一部の設定に関する説明、概念情報、ベストプラクティス、レガシー機能のヘルプは、「[!DNL Search, Social, & Commerce Optimization Guide]」で引き続き利用できます。 [!DNL Optimization Guide]は、Search, Social, &amp; Commerce内の任意のページの右上にある[!UICONTROL Help] メニュー（![&#x200B; ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から利用できます。
 
 >[!MORELIKETHIS]
 >
->* [ ユーザーインターフェイスの構成方法](/help/search-social-commerce/getting-started/user-interface.md)
+>* [&#x200B; ユーザーインターフェイスの構成方法](/help/search-social-commerce/getting-started/user-interface.md)
 >* [新しいユーザーインターフェイスと従来のユーザーインターフェイスを切り替える](/help/search-social-commerce/getting-started/ui-switch.md)
 >* カスタムビューとデフォルトビューの管理、別の広告主のデータの表示、データフィルターの適用、新しいユーザーインターフェイスとレガシーユーザーインターフェイス間の他のナビゲーションやデータ関連タスクについて詳しくは、「共通タスク」の章を参照してください

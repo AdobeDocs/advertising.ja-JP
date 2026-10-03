@@ -30,11 +30,11 @@ ht-degree: 0%
 
 1. データテーブルの上で、次のいずれかの操作を行います。
 
-   * 現在適用されているビューの名前（![ ビュー](/help/search-social-commerce/assets/view.png " ビュー")）をクリックします。 編集可能なビューの名前の上にカーソルを置き、![Edit](/help/search-social-commerce/assets/edit-new.png "Edit")をクリックしてビュー設定を開きます。
+   * 現在適用されているビューの名前（![&#x200B; ビュー](/help/search-social-commerce/assets/view.png " ビュー")）をクリックします。 編集可能なビューの名前の上にカーソルを置き、![Edit](/help/search-social-commerce/assets/edit-new.png "Edit")をクリックしてビュー設定を開きます。
 
      カスタム指標はすべてのビューから削除されます。
 
-   * ![ カスタム列](/help/search-social-commerce/assets/custom-columns-new.png " カスタム列")をクリックして、列構成設定を開きます。
+   * ![&#x200B; カスタム列](/help/search-social-commerce/assets/custom-columns-new.png " カスタム列")をクリックして、列構成設定を開きます。
 
 1. 列名の上にカーソルを置き、列名の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    * デフォルトのビューまたはカスタムビューの名前をクリックして、ビュー設定を開きます。
 
-   * ![ カスタム列](/help/search-social-commerce/assets/custom-columns.png " カスタム列")をクリックして、列構成設定を開きます。
+   * ![&#x200B; カスタム列](/help/search-social-commerce/assets/custom-columns.png " カスタム列")をクリックして、列構成設定を開きます。
 
 1. 列名の上にカーソルを置きます。 列名の横にある「![削除](/help/search-social-commerce/assets/delete.png "削除")」をクリックします。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ カスタム指標について](custom-metric-about.md)
->* [ カスタム指標を作成](custom-metric-create.md)
->* [ カスタム指標を編集](custom-metric-edit.md)
->* [ カスタム指標設定](custom-metric-settings.md)
+>* [&#x200B; カスタム指標について](custom-metric-about.md)
+>* [&#x200B; カスタム指標を作成](custom-metric-create.md)
+>* [&#x200B; カスタム指標を編集](custom-metric-edit.md)
+>* [&#x200B; カスタム指標設定](custom-metric-settings.md)

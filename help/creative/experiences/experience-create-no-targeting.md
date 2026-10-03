@@ -38,33 +38,33 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create New Experience]**&#x200B;をクリックします。
 
-1. [ エクスペリエンス設定](experience-settings-no-targeting.md)を入力します。
+1. [&#x200B; エクスペリエンス設定](experience-settings-no-targeting.md)を入力します。
 
 1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
 1. （オプション）引き続きエクスペリエンスを設定します。
 
-   * [該当するクリエイティブサイズ ](experience-tag-create-manually.md)の広告タグを手動で作成します。
+   * [該当するクリエイティブサイズ &#x200B;](experience-tag-create-manually.md)の広告タグを手動で作成します。
 
      その後、[広告タグを書き出して、DSP](/help/creative/experiences/experience-tag-export.md)に実装できます。
 
      [!DNL Creative]は、非ターゲティング エクスペリエンス用の広告タグを自動的に作成しません。
 
-   * [ クリエイティブを広告タグに割り当てる](experience-tag-assign-creatives.md)。
+   * [&#x200B; クリエイティブを広告タグに割り当てる](experience-tag-assign-creatives.md)。
 
      エクスペリエンスの設定内ではなく、広告タグにクリエイターを割り当てます。
 
-   * [ クリエイティブの最適化とスケジュールのカスタマイズ ](experience-optimization-scheduling-no-targeting.md)。
+   * [&#x200B; クリエイティブの最適化とスケジュールのカスタマイズ &#x200B;](experience-optimization-scheduling-no-targeting.md)。
 
    * [トラッキング URLのカスタマイズ](experience-tracking-urls-no-targeting.md)
 
 >[!MORELIKETHIS]
 >
->* [ ターゲティングされていないエクスペリエンスの設定](experience-settings-no-targeting.md)
+>* [&#x200B; ターゲティングされていないエクスペリエンスの設定](experience-settings-no-targeting.md)
 >* [決定木ターゲティングを使用せずにエクスペリエンスを編集](experience-edit-no-targeting.md)
 >* [該当するクリエイティブサイズの広告タグを手動で作成する](/help/creative/experiences/experience-tag-create-manually.md)
->* [ ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
->* [ ターゲットを設定せずにエクスペリエンスのトラッキング URLをカスタマイズする](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
->* [ クリエイティブの最適化とスケジュールをカスタマイズして、ターゲットを設定せずにエクスペリエンスを利用](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
->* [ ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](/help/creative/experiences/experience-tag-export.md)
->* [ エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)
+>* [&#x200B; ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
+>* [&#x200B; ターゲットを設定せずにエクスペリエンスのトラッキング URLをカスタマイズする](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
+>* [&#x200B; クリエイティブの最適化とスケジュールをカスタマイズして、ターゲットを設定せずにエクスペリエンスを利用](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
+>* [&#x200B; ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](/help/creative/experiences/experience-tag-export.md)
+>* [&#x200B; エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)

@@ -94,4 +94,4 @@ Web ページで使用する[!DNL Analytics for Advertising] [!DNL Last Event Se
 >[!MORELIKETHIS]
 >
 >* [概要： [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)の[JavaScript コード
+>*  [!DNL Analytics for Advertising]&#x200B;[&#128279;](/help/integrations/analytics/javascript.md)のJavaScript コード

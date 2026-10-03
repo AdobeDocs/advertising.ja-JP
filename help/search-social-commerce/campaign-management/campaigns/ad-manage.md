@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->一度に多くの広告を作成するには、[ コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>一度に多くの広告を作成するには、[&#x200B; コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ads]**&#x200B;をクリックします。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
-1. （Adobe Advertising コンバージョントラッキングを使用したキャンペーンでのショッピング広告。オプション）広告のクリックをトラッキングするには、[ トラッキング URL ツールを使用してトラッキング URLを生成し](/help/search-social-commerce/tools/click-tracking-url-generate.md)、アカウント、キャンペーン、または商品グループの設定に手動で追加します。
+1. （Adobe Advertising コンバージョントラッキングを使用したキャンペーンでのショッピング広告。オプション）広告のクリックをトラッキングするには、[&#x200B; トラッキング URL ツールを使用してトラッキング URLを生成し](/help/search-social-commerce/tools/click-tracking-url-generate.md)、アカウント、キャンペーン、または商品グループの設定に手動で追加します。
 
 ## 広告設定の編集
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->大量のデータを一度に編集するには、[ コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>大量のデータを一度に編集するには、[&#x200B; コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ads]**&#x200B;をクリックします。
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 1. ツールバーで、ステータスボタンをクリックします。
 
-   * 行をアクティブ化するには、![ アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
+   * 行をアクティブ化するには、![&#x200B; アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
 
    * 行を一時停止するには、![一時停止](/help/search-social-commerce/assets/pause.png "一時停止")をクリックします。
 

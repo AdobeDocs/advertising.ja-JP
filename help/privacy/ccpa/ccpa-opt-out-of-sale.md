@@ -47,7 +47,7 @@ ht-degree: 0%
 
 このドキュメントでは、Adobe Advertising Demand Side Platform（DSP）が、CCPAによって定義される「個人情報」の「販売」をオプトアウトする消費者の権利をサービスプロバイダーとしてサポートする方法について説明します。 このレポートには、販売停止リクエストをAdobe Advertisingに送信する方法と、組織の販売停止リクエストのレポートを取得する方法に関する情報が含まれています。
 
-[!DNL Advertising Search, Social, & Commerce]、Advertising Creative、および[!DNL Advertising DCO]が消費者の個人情報へのアクセスおよび削除権をどのようにサポートしているかについては、[Adobe Advertising消費者プライバシー法のサポート：消費者データへのアクセスおよび削除のサポート ](/help/privacy/ccpa/ccpa-access-delete.md)を参照してください。
+[!DNL Advertising Search, Social, & Commerce]、Advertising Creative、および[!DNL Advertising DCO]が消費者の個人情報へのアクセスおよび削除権をどのようにサポートしているかについては、[Adobe Advertising消費者プライバシー法のサポート：消費者データへのアクセスおよび削除のサポート &#x200B;](/help/privacy/ccpa/ccpa-access-delete.md)を参照してください。
 
 CCPA向けAdobe Privacy Servicesについて詳しくは、[Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html)を参照してください。
 
@@ -88,7 +88,7 @@ CCPA向けAdobe Privacy Servicesについて詳しくは、[Adobe Privacy Center
    >
    >お客様の組織のすべてのAdobe Advertising アカウント（アカウント [!DNL DSP]または広告主、[!DNL Search, Social, & Commerce] アカウント、[!DNL Creative]または[!DNL DCO] アカウントを含む）がCX Enterpriseの組織IDにリンクされていることを確認するには、会社のAdobe Advertising担当者にお問い合わせください。
 
-1. Adobe Experience Platform Privacy Service APIを使用して、消費者に代わってAdobe Advertisingにオプトアウトリクエスト ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html)を[送信し、既存のリクエストのステータスを確認します。
+1. Adobe Experience Platform Privacy Service APIを使用して、消費者に代わってAdobe Advertisingにオプトアウトリクエスト [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html)を送信し、既存のリクエストのステータスを確認します。
 
    オプトアウトオブセールリクエストの例については、以下の付録を参照してください。
 
@@ -108,7 +108,7 @@ Advertising DSP内またはAdvertising DSP [!DNL Trafficking API]を使用して
 
 1. Advertising DSPの広告主アカウント（[https://advertising.adobe.com/](https://advertising.adobe.com/)）にログインします。
 
-1. [ レポートを取得](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)。
+1. [&#x200B; レポートを取得](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)。
 
 ### 方法2: Advertising DSP [!DNL Trafficking API]を使用してコンシューマーの販売拒否レポートを取得する
 
