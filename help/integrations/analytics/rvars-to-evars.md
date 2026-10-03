@@ -34,7 +34,7 @@ ht-degree: 0%
 
 <!-- Solution built but not tested. Move to the CJA chapter once it's available?  If so, then create a redirect. -->
 
-予約済み変数を使用して[!DNL Analytics for Advertising]統合の[AMO IDとEF ID](ids.md)を取得する場合は、できるだけ早くAMO IDとEF IDの予約済み変数を[標準 [!DNL eVars]](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/evar)にコピーすることで、Adobe Advertisingと[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)の間で統合するためのデータを準備できます。これはAdobeの次世代型[!DNL analytics] ソリューションです。 これにより、タスクを完了するとすぐに、AMO IDとEF IDの履歴データの収集が可能になります。 予約済み変数を使用しており、このタスクを完了する必要がある場合は、Adobe アカウントチームから通知されます。
+予約済み変数を使用して[!DNL Analytics for Advertising]統合の[AMO IDとEF ID](ids.md)を取得する場合は、できるだけ早くAMO IDとEF IDの予約済み変数を[標準 [!DNL eVars]](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/evar)にコピーすることで、Adobe Advertisingと[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)の間で統合するためのデータを準備できます。これはAdobeの次世代型[!DNL analytics] ソリューションです。 これにより、タスクを完了するとすぐに、AMO IDとEF IDの履歴データの収集が可能になります。 予約済み変数を使用しており、このタスクを完了する必要がある場合は、Adobe アカウントチームから通知されます。
 
 <!-- 
 You can also do the same for any other reserved variables you use for your [!DNL Analytics for Advertising] implementation.
@@ -50,7 +50,7 @@ Customer Journey Analyticsでは、Adobe Experience Platformから[!DNL Workspac
 
 Adobe Advertisingでは、Customer Journey Analyticsにデータを自動的に送信するソリューションを構築しています。 ソリューションがリリースされると、Adobe AdvertisingはCustomer Journey Analyticsで使用するためにAMO IDとEF IDのデータの送信を開始しますが、リリース日以前の履歴データは存在しません。
 
-ただし、AMO IDとEF IDのデータの収集を開始するには、簡単な[[!DNL Analytics] 処理ルール &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)を作成してAMO IDとEF IDを[!DNL eVars]にコピーします。 処理ルールを作成すると、AMO IDとEF IDが新しいイベントを追跡するとすぐに、それらのIDのデータの取得が開始されます。 過去のデータは、ソリューションが利用可能になるとCustomer Journey Analytics内で利用できるようになります。
+ただし、AMO IDとEF IDのデータの収集を開始するには、簡単な[[!DNL Analytics] 処理ルール &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)を作成してAMO IDとEF IDを[!DNL eVars]にコピーします。 処理ルールを作成すると、AMO IDとEF IDが新しいイベントを追跡するとすぐに、それらのIDのデータの取得が開始されます。 過去のデータは、ソリューションが利用可能になるとCustomer Journey Analytics内で利用できるようになります。
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Adobe Advertisingでは、Customer Journey Analyticsにデータを自動的に�
 
 この手順は手作業で、今後Adobe Advertisingと統合する予定のAMO IDとEF ID <!-- [!DNL rVars] -->を追跡する各レポートスイートで完了する必要があります。
 
-1. [次の設定で処理ルール &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules)を作成します。
+1. [次の設定で処理ルール &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules)を作成します。
 
    * AMO IDおよびEF ID <!-- [!DNL rVar] --> データをCustomer Journey Analyticsで使用するためにExperience Platformに移行するレポートスイートを選択します。
 
@@ -95,7 +95,7 @@ Adobe Advertisingでは、Customer Journey Analyticsにデータを自動的に�
 
    例えば、新しいeVar `eVar142`が`amo.s_kwcid(Context Data)`にマッピングされている場合、`eVar142`と`AMO ID`のデータは同じである必要があります。
 
-処理ルールの適用方法について詳しくは、「[処理ルールの仕組み](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)」を参照してください。
+処理ルールの適用方法について詳しくは、「[処理ルールの仕組み](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)」を参照してください。
 
 >[!MORELIKETHIS]
 >

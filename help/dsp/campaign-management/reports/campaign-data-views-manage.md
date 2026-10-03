@@ -194,4 +194,4 @@ DSPでは、最新のビューがデフォルトのビューとして保存さ�
 >* [&#x200B; プレースメント予測レポートを表示](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [&#x200B; プレースメント診断レポートを表示](placement-diagnostics.md)
 >* [&#x200B; キャンペーン管理ビューからデータをエクスポート &#x200B;](campaign-export-data.md)
->* [&#x200B; ビデオ：DSP アカウント構造とユーザーインターフェイス &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [&#x200B; ビデオ：DSP アカウント構造とユーザーインターフェイス &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ja)

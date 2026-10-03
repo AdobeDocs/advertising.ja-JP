@@ -69,7 +69,7 @@ Adobe Advertising導入チームに以下を提供します。
 * 有料メディアアクティビティのレポートと、Adobe Advertisingでの最適化とレポート作成のためのサイトアクティビティのフィードに使用する[!DNL Analytics] レポートスイート ID
 * 会社のCX Enterprise Organization ID （組織ID）。
 
-両方のIDは、Adobe Experience Platform Debugger[&#128279;](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)の「概要」タブにあります。
+両方のIDは、Adobe Experience Platform Debugger[&#128279;](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ja)の「概要」タブにあります。
 
 ![Experience Platform デバッガーの概要画面](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -96,7 +96,7 @@ Adobe Advertising![&#128279;](/help/integrations/assets/a4adc-lookbacks.png)の�
 
 >[!NOTE]
 >
->異なる期間のデータをセグメント化するには、Analysis Workspace内で異なるルックバックウィンドウを使用して[&#x200B; カスタムセグメント &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)を設定できます。
+>異なる期間のデータをセグメント化するには、Analysis Workspace内で異なるルックバックウィンドウを使用して[&#x200B; カスタムセグメント &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ja)を設定できます。
 
 ## サポートされる広告環境
 
@@ -139,7 +139,7 @@ Experience Cloud Identity Serviceがサイトに実装されると、[!DNL Analy
 
 正確なデータ統合を行うには、[!DNL Analytics for Advertising] アクティビティがコンテンツの配信または目標指標の記録に使用するすべてのAdobe Advertising呼び出しに、同じ補足IDを共有する対応する[!DNL Analytics] ヒットが必要です。
 
-[!DNL Analytics]でトラブルシューティングを行う場合は、必ず[!DNL Analytics] ヒットの補足IDが存在することを確認してください。 [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)では、このIDを「`sdid`」パラメーターとして「Adobe Advertising」タブに表示できます。
+[!DNL Analytics]でトラブルシューティングを行う場合は、必ず[!DNL Analytics] ヒットの補足IDが存在することを確認してください。 [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ja)では、このIDを「`sdid`」パラメーターとして「Adobe Advertising」タブに表示できます。
 
 >[!NOTE]
 >

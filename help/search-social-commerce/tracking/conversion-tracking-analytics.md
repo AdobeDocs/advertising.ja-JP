@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Adobe AdvertisingとAdobe Analyticsの統合を持つ広告主の場合、[入札ユニット &#x200B;](/help/search-social-commerce/glossary.md#a-b)のクリックトラッキング URLでトークン （`ef_id` パラメーター）を使用すると、Advertising Cloudは、広告クリックとインプレッションを[!DNL Analytics]によって追跡されたサイトエンゲージメントとコンバージョン指標に結び付けることができます。 [!DNL Analytics] データは、毎日のフィード ファイルを介して自動的にAdvertising Cloudに送信されます。
 
-統合について詳しくは、「[概要 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview){target="_blank"}」を参照してください。
+統合について詳しくは、「[概要 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/ja/docs/advertising/integrations/analytics/overview){target="_blank"}」を参照してください。
 
 >[!PREREQUISITES]
 >
