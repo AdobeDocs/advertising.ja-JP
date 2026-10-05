@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2c5cc3a9b50bf58aa7d44300471716674e244451
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '497'
 ht-degree: 0%
 ---
 # Adobe AdvertisingとCustomer Journey Analyticsの連携の概要
@@ -44,7 +44,7 @@ Adobe Advertisingは、Adobe Customer Journey Analyticsと統合されている�
 
 * [!DNL Analytics for Advertising]とCustomer Journey Analyticsの両方を持つ広告主は、[!DNL Analytics for Advertising]を通じて持つ機能と同じ機能を持ち、Customer Journey Analyticsにビジュアライゼーションが追加されています。
 
-  Adobe Experience Platform Web SDK （`alloy.js`）またはAdobe Experience Cloud Identity Service （`visitorAPI.js`）を使用して、クリックスルーを追跡できます。 Advertising DSPを導入している広告主は、引き続きJavaScriptスニペットを使用してビュースルーイベントを追跡します。 Customer Journey Analyticsでは、次のデータを利用できます。
+  Adobe Experience Platform Web SDK （`alloy.js`）またはAdobe Visitor ID サービス （`visitorAPI.js`）を使用して、クリックスルーのイベントを引き続き追跡します。 Advertising DSPを導入している広告主は、引き続きJavaScriptスニペットを使用してビュースルーイベントを追跡します。 Customer Journey Analyticsでは、次のデータを利用できます。
 
   * Customer Journey AnalyticsのAdobe Advertisingからのキャンペーンパフォーマンスデータ
 
@@ -52,13 +52,13 @@ Adobe Advertisingは、Adobe Customer Journey Analyticsと統合されている�
 
   * Adobe Advertisingの[!DNL Analytics]からのアトリビューションデータ。最適化とレポートに使用できます
 
-  この使用例では、Customer Journey Analytics[&#128279;](/help/integrations/analytics/rvars-to-evars.md)で使用するAMO IDとEF IDの履歴データをオプションで収集する必要があります。
+  この使用例では、Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)で使用するAMO IDとEF IDの履歴データをオプションで[収集する必要があります。
 
 <!--
   In this use case, you don't need to perform any extra steps except to optionally [collect historical data for AMO IDs and EF IDs for use in Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 -->
 
-* [!DNL Analytics for Advertising]ではなく[Customer Journey Analyticsを使用している広告主は、Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)を使用して、Adobe AdvertisingとCustomer Journey Analytics間でデータをネイティブに交換できます。 Cookie、ハッシュ化されたIP、ユニバーサル ID （[!DNL LiveRamp RampIDs]およびID5 ID）を使用してサイトイベントを追跡し、サイトイベントを有料メディアのアクティビティに関連付けることができます。 キャンペーン、広告グループ、パッケージ、プレースメント、キーワードの各レベルで、次のデータを利用できます。
+* [!DNL Analytics for Advertising]ではなく[Customer Journey Analyticsを使用している広告主は、Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)を使用して、Adobe AdvertisingとCustomer Journey Analytics間でデータをネイティブに交換できます。 Cookie、ハッシュ化されたIP、ユニバーサル ID （[!DNL LiveRamp RampIDs]およびID5 ID）を使用してサイトイベントを追跡し、サイトイベントを有料メディアのアクティビティに関連付けることができます。 キャンペーン、広告グループ、パッケージ、プレースメント、キーワードの各レベルで、次のデータを利用できます。
 
   * Customer Journey AnalyticsのAdobe Advertisingからのキャンペーンパフォーマンスデータ
 
@@ -85,8 +85,8 @@ Adobeのアカウントチームにお問い合わせください。最初に必
 >[!MORELIKETHIS]
 >
 >* [前提条件](prerequisites.md)
->*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)様が使用しているAdobe Advertising ID
->* [&#x200B; データ収集、データ転送、レポートの設定](set-up.md)
->* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション &#x200B;](advertising-data-in-cja.md)
+>*  [!DNL Customer Journey Analytics]](ids.md)様が使用している[Adobe Advertising ID
+>* [ データ収集、データ転送、レポートの設定](set-up.md)
+>* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション ](advertising-data-in-cja.md)
 >* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用するAMO IDとEF IDの履歴データを収集](/help/integrations/analytics/rvars-to-evars.md)。
->* [&#x200B; トラブルシューティング &#x200B;](troubleshooting.md)
+>* [ トラブルシューティング ](troubleshooting.md)
