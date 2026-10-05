@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2304'
 ht-degree: 0%
 ---
 # キャンペーンの管理
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 キャンペーンは、広告ネットワークアカウントの主要なコンポーネントです。 ほとんどのキャンペーンタイプでは、一連の広告グループまたは広告セットで構成されます。 キャンペーンの設定には、キャンペーンの予算パラメーター、広告ターゲット、キャンペーン内のすべての広告のオプションのトラッキングパラメーターが含まれます。 キャンペーンレベルのトラッキングパラメーターは、アカウントレベルのパラメーターを上書きしますが、それ自体が下位レベルで上書きされる場合があります。
 
-[API接続を介して広告ネットワークアカウントにアクセスできるようにし](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、Search, Social, &amp; Commerceがアカウントデータを広告ネットワークと同期したら、[&#x200B; サポートされているキャンペーンの種類](/help/search-social-commerce/introduction/supported-inventory.md)を使用して新しいキャンペーンを作成できます。 キャンペーンのステータスを編集および変更することもできます。
+[API接続を介して広告ネットワークアカウントにアクセスできるようにし](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、Search, Social, &amp; Commerceがアカウントデータを広告ネットワークと同期したら、[ サポートされているキャンペーンの種類](/help/search-social-commerce/introduction/supported-inventory.md)を使用して新しいキャンペーンを作成できます。 キャンペーンのステータスを編集および変更することもできます。
 
-各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+各広告ネットワークで使用できる機能について詳しくは、「[ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 ## [!UICONTROL Campaigns] ビューについて {#campaign-view-about}
 
@@ -65,14 +65,14 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 >[!NOTE]
 >
->* キャンペーンを作成する前に、広告主のweb ページに[&#x200B; コンバージョン追跡タグ &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-about.md)を実装します。
->* 一度に多数のキャンペーンを作成するには、<!-- Not available in new UI as of 7/21: the [copy and paste feature](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) or-->を使用します [&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)。
+>* キャンペーンを作成する前に、広告主のweb ページに[ コンバージョン追跡タグ ](/help/search-social-commerce/tracking/conversion-tracking-about.md)を実装します。
+>* 一度に多数のキャンペーンを作成するには、<!-- Not available in new UI as of 7/21: the [copy and paste feature](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) or-->を使用します [ キャンペーンのバルクシート ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
 1. **[!UICONTROL Create Campaign]**&#x200B;をクリックします。
 
-1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)、または[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)のキャンペーン設定を指定します。
+1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)、[Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)または[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)のキャンペーン設定を指定します。
 
 1. **[!UICONTROL Review and Save]**&#x200B;をクリックします。
 
@@ -98,7 +98,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 >[!TIP]
 >
-><!-- Not available in new UI as of 7/21: the [copy and paste feature](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) or-->を使用してデータを一括編集することもできます [&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)。
+><!-- Not available in new UI as of 7/21: the [copy and paste feature](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) or-->を使用してデータを一括編集することもできます [ キャンペーンのバルクシート ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
@@ -108,7 +108,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
    * キャンペーンの横にあるチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、<!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), -->を編集します [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)または[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)のキャンペーン設定。
+1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)、[Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、<!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), -->を編集します [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)または[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)のキャンペーン設定。
 
 1. **[!UICONTROL Review and Save]**&#x200B;をクリックします。
 
@@ -124,7 +124,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 サポートされている広告ネットワークでアクティブなキャンペーンを一時停止して、入札を無効にすることができます。 後でステータスをアクティブに戻すことで、入札を再開できます。
 
-アクティブなキャンペーンまたは一時停止したキャンペーンを削除することもできます。 削除されたキャンペーンは、広告ネットワークから削除されます。 データフィルターに含めても表示されますが、変更することはできません。
+アクティブなキャンペーンまたは一時停止したキャンペーンを削除（[!DNL ChatGPT Ads Manager]内で「アーカイブ」と呼ばれます）することもできます。 削除またはアーカイブされたキャンペーンは、広告ネットワークから削除またはアーカイブされます。 データフィルターに含めても表示されますが、変更することはできません。
 
 ### キャンペーンの有効化または一時停止
 
@@ -138,7 +138,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
    * アクティブなキャンペーンを一時停止するには、**[!UICONTROL Paused]**&#x200B;を選択します。
 
-### キャンペーンの削除
+### キャンペーンの削除またはアーカイブ
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
@@ -152,7 +152,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 キャンペーンを最適化されたポートフォリオに割り当てることで、Search, Social, &amp; Commerceで、キャンペーン内のキーワードと広告の入札額、キャンペーン予算、入札戦略目標を最適化できます。 ポートフォリオを作成する際、またはポートフォリオの設定を編集する際に、[!UICONTROL Campaigns] ビューからキャンペーンをポートフォリオに割り当てることができます。
 
-すべてのキャンペーンタイプと広告ネットワークが最適化の対象になるわけではありません。ポートフォリオに含めることができる[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)のリストを参照してください。 さらに、各キャンペーン入札戦略[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)に対する最適化サポートを確認します。
+すべてのキャンペーンタイプと広告ネットワークが最適化の対象になるわけではありません。ポートフォリオに含めることができる[ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md)のリストを参照してください。 さらに、各キャンペーン入札戦略](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)に対する[最適化サポートを確認します。
 
 >[!NOTE]
 >
@@ -209,6 +209,8 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 1. 設定を確認し、必要に応じて変更を加え、**[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## キャンペーンの入札制約の割り当てを管理 {#campaign-constraints}
+
+*[!DNL ChatGPT Ads]*&#x200B;では利用できません
 
 各エンティティには1つの制約しか設定できません。 制約は子エンティティによって継承されるため、継承された値を上書きしない限り、子エンティティに制約を割り当てる必要はありません。
 
@@ -279,6 +281,8 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 1. 確認ダイアログで、**[!UICONTROL Yes, Unassign]**&#x200B;を選択します。
 
 ## キャンペーンのターゲット制約の割り当てを管理 {#campaign-target-constraints}
+
+*[!DNL ChatGPT Ads]*&#x200B;では利用できません
 
 ### 新しい[!UICONTROL Campaigns] ビューから選択したキャンペーンにターゲット制約を割り当てます
 
@@ -364,13 +368,13 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 ### パフォーマンスグラフを表示
 
-1. データテーブルの上にある「![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
+1. データテーブルの上にある「![ グラフ ](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
 
 1. （オプション）通貨と、チャートに含める最大3つの指標を指定します。
 
 ### 表示されているパフォーマンスグラフを非表示にする
 
-* データテーブルの上にある「![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
+* データテーブルの上にある「![ グラフ ](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
 
 ## [!UICONTROL Campaigns] ビューからのデータビューレポートの管理 {#campaign-reports}
 
@@ -380,7 +384,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 生成されたレポートはすべて削除できます。
 
-「>* [&#x200B; （従来のUI） キャンペーン管理ビューからデータをダウンロード &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)」および「[&#x200B; （従来のUI） [!UICONTROL Downloads] メニュー](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)からパフォーマンスデータレポートまたはバルクシートファイルを削除」も参照してください。
+「>* [ （従来のUI） キャンペーン管理ビューからデータをダウンロード ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)」および「[ （従来のUI） [!UICONTROL Downloads] メニュー](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)からパフォーマンスデータレポートまたはバルクシートファイルを削除」も参照してください。
 
 ### フィルタリングされたデータ行を含むレポートを生成する
 
@@ -392,7 +396,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
    * すべてのキャンペーンのデータをダウンロードするには、チェックボックスをオンにする必要はありません。 すべてのキャンペーンはデフォルトで含まれています。
 
-1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. [!UICONTROL Grid Reports]設定で、一意のレポート名を入力し、**[!UICONTROL Generate]**&#x200B;をクリックします。
 
@@ -400,7 +404,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
    ファイルが[!UICONTROL Recently Generated] リストに追加されます。
 
-1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -408,9 +412,9 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
-1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
-1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -418,7 +422,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
-1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
 
@@ -426,10 +430,10 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 >
 >* [検索入札単位の制約の管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [広告グループの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [&#x200B; キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
->* [&#x200B; プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
->* [&#x200B; （レガシーUI） キャンペーン管理ビューからデータをダウンロード &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
->* [&#x200B; （従来のUI） [!UICONTROL Downloads] メニュー](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)からパフォーマンス データ レポートまたはバルクシート ファイルを削除します
+>* [ キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [ プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+>* [ （レガシーUI） キャンペーン管理ビューからデータをダウンロード ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ （従来のUI） [!UICONTROL Downloads] メニュー](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)からパフォーマンス データ レポートまたはバルクシート ファイルを削除します
 >* [[!DNL Baidu]  キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads]  キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
 >* [[!DNL LY Ads]  キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)
