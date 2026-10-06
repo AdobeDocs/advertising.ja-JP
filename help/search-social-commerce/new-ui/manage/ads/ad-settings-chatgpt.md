@@ -1,6 +1,6 @@
 ---
-title: '[!DNL ChatGPT]個の広告設定'
-description: '[!DNL ChatGPT]広告の設定を参照してください。'
+title: '[!DNL ChatGPT] グラフ カードの広告設定'
+description: '[!DNL ChatGPT]件のチャットカード広告の設定を参照してください。'
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
@@ -14,12 +14,12 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '158'
 ht-degree: 0%
 ---
-# [!DNL ChatGPT Ads]個の広告設定
+# [!DNL ChatGPT Ads]件のチャットカード広告の設定
 
 [!DNL ChatGPT]の&#x200B;*広告は、[!DNL OpenAI]*&#x200B;による試験的な機能です
 

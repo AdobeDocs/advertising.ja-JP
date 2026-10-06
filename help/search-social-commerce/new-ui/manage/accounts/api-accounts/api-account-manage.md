@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!-- Move out info about Naver into a separate page -->
 
-各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+各広告ネットワークで使用できる機能について詳しくは、「[ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 ## 広告ネットワークアカウントの詳細の作成 {#create-account}
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >広告ネットワークで実際のアカウントを作成するには、広告ネットワークのweb サイトに移動します。
 
-1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
 
 1. **[!UICONTROL Create Account]**&#x200B;をクリックします。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. （広告主の資格情報を使用して広告ネットワークにログインします（[!DNL ChatGPT Ads]と[!DNL Yandex]を除くすべての広告ネットワーク）。 「このアカウントのアカウントトラッキング」オプションを選択します。 次に、右上の「**[!UICONTROL Next]**」をクリックします。
 
-1. 使用可能な各タブで[&#x200B; アカウント設定](#account-settings-api)を指定します。
+1. 使用可能な各タブで[ アカウント設定](#account-settings-api)を指定します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 >広告ネットワーク上の実際のアカウントを編集するには、広告ネットワークのweb サイトに移動します。
 
-1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
 
 1. 次のいずれかの方法でアカウントを選択します。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. 使用可能なタブで[&#x200B; アカウント設定](#account-settings-api)を編集します。
+1. 使用可能なタブで[ アカウント設定](#account-settings-api)を編集します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. （同じブラウザーアプリケーションで同じ広告ネットワークの別のアカウントにログインしている場合）広告主以外のアカウントからログアウトします。
 
-1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 広告ネットワークアカウントを有効にすると、Search, Social, &amp; Commerceは、キャンペーンデータをアカウントと（サポートされている場合）同期し、ポートフォリオ内のキャンペーンの自動入札やキャンペーン予算をプッシュします。 広告ネットワークアカウントを無効にすると、Search、Social、およびCommerceは、アカウント上のすべてのアクティビティを停止します。 アカウントがアクティブな間に収集されたデータは引き続き保存されますが、キャンペーン管理ビューとレポートには、アカウントが無効になっている期間のデータは含まれません。 後でアカウントを再度有効にして、アカウントのアクティビティを再開できます。
 
-1. メインメニューで、**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
+1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
 
 1. 次のいずれかの操作を行います。
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 >
 >Search、Social、CommerceとAdobe Analyticsの統合があり、検索アカウントの名前を変更した場合は、Adobe アカウントチームにマッピングを更新するように依頼します。
 
-**[!DNL [Ad Network] アカウント &#x200B;]:** （アカウント作成中に表示）同期する広告ネットワークアカウント。
+**[!DNL [Ad Network] アカウント ]:** （アカウント作成中に表示）同期する広告ネットワークアカウント。
 
 **[ログインの詳細]:** （[!DNL Yandex] アカウントのみ）使用するアカウント資格情報：
 
@@ -184,7 +184,7 @@ ht-degree: 0%
 >* [!UICONTROL Standard]から[!UICONTROL Token]に切り替える場合、またはその逆の場合は、アカウントのトラッキング URLを再生成する必要があります。
 >* アカウントレベルの設定は、キャンペーンレベルで上書きできます。
 
-**[!UICONTROL Auto Update]:** （検索、ソーシャル、およびCommerce トラッキングが有効になっている場合）は、ブラウザーとサーバー間で互換性を保つためにトラッキング URLを標準化します。 Search, Social, &amp; Commerceは、次の同期中に、次の情報を自動的にアドネットワークにアップロードします。（a） トラッキングテンプレートのSearch, Social, &amp; Commerce トラッキングパラメーターと、最終的なURLに追加された同じパラメーター、または（b） Search, Social, &amp; Commerce トラッキングコードが埋め込まれた新しい宛先URL。 [Adobe AdvertisingとAdobe Analyticsの統合](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja)およびサーバーサイド AMO ID （s_kwcid）設定を持つ広告主の場合、アップロードには[!DNL Google Ads] アカウントと[!DNL Microsoft Advertising] アカウントの[AMO ID パラメーター](/help/integrations/analytics/ids.md#amo-id)も含まれます。 デフォルトのアカウントレベル設定は、広告主のトラッキング設定から継承されます。 アカウントレベルの設定は、キャンペーンレベルで上書きできます。
+**[!UICONTROL Auto Update]:** （検索、ソーシャル、およびCommerce トラッキングが有効になっている場合）は、ブラウザーとサーバー間で互換性を保つためにトラッキング URLを標準化します。 Search, Social, &amp; Commerceは、次の同期中に、次の情報を自動的にアドネットワークにアップロードします。（a） トラッキングテンプレートのSearch, Social, &amp; Commerce トラッキングパラメーターと、最終的なURLに追加された同じパラメーター、または（b） Search, Social, &amp; Commerce トラッキングコードが埋め込まれた新しい宛先URL。 [Adobe AdvertisingとAdobe Analyticsの統合](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)およびサーバーサイド AMO ID （s_kwcid）設定を持つ広告主の場合、アップロードには[!DNL Google Ads] アカウントと[!DNL Microsoft Advertising] アカウントの[AMO ID パラメーター](/help/integrations/analytics/ids.md#amo-id)も含まれます。 デフォルトのアカウントレベル設定は、広告主のトラッキング設定から継承されます。 アカウントレベルの設定は、キャンペーンレベルで上書きできます。
 
 トラッキング URLは、同期されていないエンティティ（つまり、追加された新しいエンティティとプロパティが変更された既存のエンティティ）に対してのみ毎日更新されます。 したがって、既存の広告主/アカウント/キャンペーンに対してこの設定を「無効」から「有効」に変更した場合、既に同期している既存のエンティティのトラッキング URLは更新されません。 既存の同期中のエンティティのURLにトラッキングを追加するには、Adobe アカウントチームに連絡し、1回限りの手動同期プロセスをリクエストしてください。 自動アップロードプロセスは、今後の変更を処理します。
 
@@ -202,7 +202,7 @@ ht-degree: 0%
 
 例：`param1=value1&param2=value2`
 
-Adobe Advertising クリック トラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック ID （[!DNL Microsoft Advertising]の`msclkid`; Googleの`gclid`）を含める必要があります。 Adobe Analyticsとの統合を持つアカウントでは、AMO ID パラメーター（`s_kwcid`で始まる）を使用する必要があります。 アカウントにサーバーサイド AMO ID実装がある場合、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、ここで手動で追加する必要があります。  [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の必要なサフィックス形式を参照してください。
+Adobe Advertising クリック トラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック ID （[!DNL Microsoft Advertising]の`msclkid`; Googleの`gclid`）を含める必要があります。 Adobe Analyticsとの統合を持つアカウントでは、AMO ID パラメーター（`s_kwcid`で始まる）を使用する必要があります。 アカウントにサーバーサイド AMO ID実装がある場合、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、ここで手動で追加する必要があります。  [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の[必要なサフィックス形式を参照してください。
 
 >[!NOTE]
 >
@@ -213,7 +213,7 @@ Adobe Advertising クリック トラッキングを使用するアカウント�
 
 * 最終的なURLを埋め込むには：
 
-  * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）を参照してください。
+  * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）を参照してください。
 
   * （[!DNL LY Ads]のみ） パラメーター`!{lpurl}`を使用して、ランディングページ URLを示します。
 
@@ -242,5 +242,5 @@ Adobe Advertising クリック トラッキングを使用するアカウント�
 >[!MORELIKETHIS]
 >
 >* [広告ネットワークアカウントについて](../ad-network-account-about.md)
->* [&#x200B; マーチャント センターのアカウントの管理](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
->* [&#x200B; アカウント  [!DNL Google Ads] のs_kwcid トラッキングコードを更新します](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
+>* [ マーチャント センターのアカウントの管理](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
+>* [ アカウント  [!DNL Google Ads] のs_kwcid トラッキングコードを更新します](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
