@@ -3,25 +3,33 @@ title: Advertising Creative体験について
 description: パーソナライズされた広告エクスペリエンスを設定し、パフォーマンスに基づいて広告要素を最適化する方法を説明します。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-TQID: https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo
+TQID: 'https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1169
+source-wordcount: '1181'
 ht-degree: 0%
-
 ---
-
 # Advertising Creative 2.0のエクスペリエンスについて
 
 各広告エクスペリエンスには、1つの広告タイプ（標準ディスプレイ、標準ビデオ、ダイナミックディスプレイ、またはダイナミックビデオ）を含めることができます。 [!DNL Advertising Creative 2.0]は、1つのクリエイティブ ライブラリ内の広告に2つの異なる広告エクスペリエンス構造を提供します。
@@ -32,15 +40,15 @@ ht-degree: 0%
 
   ターゲティングオプションには、次のようなものがあります。
 
-   * Adobe Audience Manager、Adobe Analytics、Advertising DSPのオーディエンスセグメント、アカウント用に読み込まれたその他のファーストパーティセグメント、Advertising DSPのカスタムセグメント、Advertising DSPが提供するサードパーティセグメント、オーディエンスライブラリに組み込まれた既存のAdvertising DSP オーディエンス
+  * Adobe Audience Manager、Adobe Analytics、Advertising DSPのオーディエンスセグメント、アカウント用に読み込まれたその他のファーストパーティセグメント、Advertising DSPのカスタムセグメント、Advertising DSPが提供するサードパーティセグメント、オーディエンスライブラリに組み込まれた既存のAdvertising DSP オーディエンス
 
-   * 特定の地域（国、州、米国内のDMA、都市、郵便番号など）
+  * 特定の地域（国、州、米国内のDMA、都市、郵便番号など）
 
-   * DSP、パブリッシャー、またはパートナーから特定のキーと値のペア（データパスターゲット）が渡されるビューア（SKU=01234567890123またはCart=emptyなど）
+  * DSP、パブリッシャー、またはパートナーから特定のキーと値のペア（データパスターゲット）が渡されるビューア（SKU=01234567890123またはCart=emptyなど）
 
-   * [!DNL Creative]個のリターゲティングピクセルと指定された属性値
+  * [!DNL Creative]個のリターゲティングピクセルと指定された属性値
 
-   * 特定のデバイスタイプ、オペレーティングシステム、ブラウザー
+  * 特定のデバイスタイプ、オペレーティングシステム、ブラウザー
 
   決定ツリーでターゲットオーディエンスブランチを作成したら、クリエイティブのバンドルをブランチに割り当てることで、ターゲットオーディエンスと潜在的なクリエイターを組み合わせることができます。 エクスペリエンスごとに、クリエイティブバンドルの最適化とスケジュールをカスタマイズし、各バンドル内の個々のクリエイターのデフォルトのランディングページとトラッキング URL<!-- later: and any flexible attributes -->を変更できます。
 
@@ -79,11 +87,11 @@ ht-degree: 0%
 
 次のパフォーマンスデータを使用できます。
 
-* [!UICONTROL Metrics] > [!UICONTROL Creative] ビューで[!UICONTROL Experiences] オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。
+* [!UICONTROL Creative] > [!UICONTROL Experiences] ビューで[!UICONTROL Metrics] オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。
 
   ![指標オプション &#x200B;](/help/creative/assets/metrics-option.png "指標オプション ")
 
-* [&#x200B; ビューから](experience-performance-details.md)任意のエクスペリエンスの詳細なパフォーマンスデータを[!UICONTROL Experiences]表示できます。
+* [!UICONTROL Experiences] ビューから[任意のエクスペリエンスの詳細なパフォーマンスデータを](experience-performance-details.md)表示できます。
 
 * エクスペリエンス全体のパフォーマンスを監視するには、[&#x200B; カスタムクリエイティブレポート &#x200B;](/help/creative/reports/report-manage.md)を作成します。
 
@@ -108,7 +116,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experiences] ビュー
 
-[!UICONTROL Experiences] ビューには、ターゲット設定されたすべてのエクスペリエンスと非ターゲット設定されたすべてのエクスペリエンスが表示されます。 割り当てられたクリエイティブまたはクリエイティブバンドルのエクスペリエンス名、ステータス、開始日と終了日、番号とディメンション、およびエクスペリエンスに動的広告が含まれているかどうかを確認できます。 [!UICONTROL Metrics] ビューで[!UICONTROL Experiences] オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。 カードモードの場合は、&lt; ボタンと> ボタンを使用して、複数のクリエイターでエクスペリエンス内のクリエイターをスクロールできます。
+[!UICONTROL Experiences] ビューには、ターゲット設定されたすべてのエクスペリエンスと非ターゲット設定されたすべてのエクスペリエンスが表示されます。 割り当てられたクリエイティブまたはクリエイティブバンドルのエクスペリエンス名、ステータス、開始日と終了日、番号とディメンション、およびエクスペリエンスに動的広告が含まれているかどうかを確認できます。 [!UICONTROL Experiences] ビューで[!UICONTROL Metrics] オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。 カードモードの場合は、&lt; ボタンと> ボタンを使用して、複数のクリエイターでエクスペリエンス内のクリエイターをスクロールできます。
 
 エクスペリエンスの作成と管理、エクスペリエンスタグの作成と名前変更、JavaScriptおよびiframe形式でのタグの書き出しを行って、DSPに実装できます。 Advertising DSPを使用している広告主は、オプションで、広告タグをAdvertising DSPキャンペーンに直接アップロードできます。
 

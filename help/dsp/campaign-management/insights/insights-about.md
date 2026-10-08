@@ -3,26 +3,37 @@ title: インサイトについて
 description: ビジュアライゼーションを通じてパフォーマンスインサイトを把握。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-TQID: https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4
+TQID: 'https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1369
+source-wordcount: '1384'
 ht-degree: 0%
-
 ---
-
 # インサイトについて
 
 高度なパフォーマンスインサイトとビジュアライゼーションにより、施策を効率的に最適化し、パフォーマンスを拡張するための新たな機会を発見するために必要な情報を得ることができます。 指定した広告主のキャンペーン全体のデータを表示したり、より低いレベルにドリルダウンしたりできます。
@@ -43,7 +54,7 @@ Microsoft Excel スプレッドシート（XLSX）形式でビジュアライゼ
 
 ### [!UICONTROL Home] タブ
 
-「[!UICONTROL Home]」タブには、広告主のすべてのキャンペーンに関する主要な標準、パフォーマンスおよび表示性指標が表示されます。 デフォルトでは、特定の広告主とカスタム目標のクロスプレースメントデータが表示されます。 必要に応じて、フィルターを設定して、別の広告主、別のカスタム目標、または特定のプレースメントのデータを表示できます。 <!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. --> インサイトには、次のものが含まれます。
+「[!UICONTROL Home]」タブには、広告主のすべてのキャンペーンに関する主要な標準、パフォーマンスおよび表示性指標が表示されます。 デフォルトでは、特定の広告主とカスタム目標のクロスプレースメントデータが表示されます。 必要に応じて、フィルターを設定して、別の広告主、別のカスタム目標、または特定のプレースメントのデータを表示できます。<!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. --> インサイトには、次のようなものがあります。
 
 * **[!UICONTROL Trends]:**&#x200B;顧客が指定した3つの指標（デフォルトでは、[!UICONTROL Net Spend]、[!UICONTROL Impressions]、および[!UICONTROL Net CPM]）のトレンドチャート。
 
@@ -69,9 +80,9 @@ Microsoft Excel スプレッドシート（XLSX）形式でビジュアライゼ
 
   影響レベルは次のとおりです。
 
-   * **効果が高い：**&#x200B;予算を増やすことを検討してください。
-   * **中程度の影響**
-   * **限定的な影響：**&#x200B;注意が必要
+  * **効果が高い：**&#x200B;予算を増やすことを検討してください。
+  * **中程度の影響**
+  * **限定的な影響：**&#x200B;注意が必要
 
 ### [!UICONTROL Household Conversion] タブ
 
@@ -91,9 +102,9 @@ Microsoft Excel スプレッドシート（XLSX）形式でビジュアライゼ
 
   影響レベルは次のとおりです。
 
-   * **効果が高い：**&#x200B;予算を増やすことを検討してください。
-   * **中程度の影響**
-   * **限定的な影響：**&#x200B;注意が必要
+  * **効果が高い：**&#x200B;予算を増やすことを検討してください。
+  * **中程度の影響**
+  * **限定的な影響：**&#x200B;注意が必要
 
 ### [!UICONTROL Audience Analysis] タブ
 
@@ -109,15 +120,15 @@ Microsoft Excel スプレッドシート（XLSX）形式でビジュアライゼ
 
 * **[!UICONTROL Audience Funnel Analysis]:**&#x200B;すべてのターゲティングおよび適格性フィルターが適用された後、ターゲットオーディエンスが利用可能なプールの合計から実際のインプレッションの獲得までにどのように絞り込まれるかを示す日次の時系列テーブル。 データは前日に表示されます。 Funnelには、最も広い指標から最も狭い指標まで、次の指標が含まれています。
 
-   * **[!UICONTROL Total Target Audience]:**&#x200B;集計されたオーディエンス内の一意のユーザーの合計数。
+  * **[!UICONTROL Total Target Audience]:**&#x200B;集計されたオーディエンス内の一意のユーザーの合計数。
 
-   * **[!UICONTROL Reachable Audience (Last 24 Hours)]:**&#x200B;過去24時間に入札ストリームでアクティブだったターゲットオーディエンスのユーザー数。 このカウントには、プレースメント入札かどうかに関係なく、スコープ内のすべてのユーザーが含まれます。 [!UICONTROL Total Target Audience]から[!UICONTROL Reachable Audience]への減少は、レポート期間中に入札ストリームでアクティブではなかったオーディエンスの部分を反映していますが、これは入札パフォーマンスの反映ではありません。
+  * **[!UICONTROL Reachable Audience (Last 24 Hours)]:**&#x200B;過去24時間に入札ストリームでアクティブだったターゲットオーディエンスのユーザー数。 このカウントには、プレースメント入札かどうかに関係なく、スコープ内のすべてのユーザーが含まれます。 [!UICONTROL Total Target Audience]から[!UICONTROL Reachable Audience]への減少は、レポート期間中に入札ストリームでアクティブではなかったオーディエンスの部分を反映していますが、これは入札パフォーマンスの反映ではありません。
 
-   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:**&#x200B;地域、デバイスの種類、オペレーティングシステム、ブラウザーのフィルターが適用された後に残る、到達可能なユーザーのサブセット。 この数値が[!UICONTROL Reachable Audience]よりも大幅に低い場合は、地域またはデバイス タイプのターゲティングが制限されすぎているかどうかを確認することを検討してください。
+  * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:**&#x200B;地域、デバイスの種類、オペレーティングシステム、ブラウザーのフィルターが適用された後に残る、到達可能なユーザーのサブセット。 この数値が[!UICONTROL Reachable Audience]よりも大幅に低い場合は、地域またはデバイス タイプのターゲティングが制限されすぎているかどうかを確認することを検討してください。
 
   **[!UICONTROL Devices/Ad Opportunities Bid On]:** プレースメントが入札を送信した対象となる商談件数。 この段階で急激に落ち込むと、入札量に制限がある予算やペースの制約が示されている場合があります。
 
-   * **[!UICONTROL Impression Wins]:** プレースメントがインプレッションを獲得した商談件数。 成約率が入札額よりもはるかに低い場合、入札価格がターゲット在庫の一般的な市場金利を下回っている可能性があります。
+  * **[!UICONTROL Impression Wins]:** プレースメントがインプレッションを獲得した商談件数。 成約率が入札額よりもはるかに低い場合、入札価格がターゲット在庫の一般的な市場金利を下回っている可能性があります。
 
 ## パフォーマンスインサイトの表示
 

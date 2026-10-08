@@ -3,24 +3,29 @@ title: DSP [!UICONTROL Planner] ツールについて
 description: プランナーツールについて学び、指定された予算とターゲティング基準に従って、コネクテッド TV （CTV）の配置のユニークリーチを予測します。
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-TQID: https://experienceleague.adobe.com/dvO9ZtGs76Tm-AxE8ljLsnBXqUcX-q2J0HueG1-HASA
+TQID: 'https://experienceleague.adobe.com/dvO9ZtGs76Tm-AxE8ljLsnBXqUcX-q2J0HueG1-HASA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a516b982-58a0-530b-84c5-9b83f41039ad
+    internal-label: DSP Planner
 subfeature_v2:
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: '544'
 ht-degree: 0%
-
 ---
-
 # DSP [!UICONTROL Planner] ツールについて
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
@@ -60,7 +65,7 @@ ht-degree: 0%
 
 +++「[!UICONTROL Unable to generate forecast]」が表示されるのはなぜですか？
 
-このエラーの最も一般的な理由の1つは、予算が不十分か、入札額が最大であるためです。 最良の結果を得るには、5000米ドルの最小予算を使用してください。 [!UICONTROL Connected TV] メディアタイプが選択されている場合は、少なくとも10 USDの最大入札額を入力します。
+このエラーの最も一般的な理由の1つは、予算が不十分か、入札額が最大であるためです。 最適な結果を得るには、最低5,000 USDの予算を使用してください。 [!UICONTROL Connected TV] メディアタイプが選択されている場合は、10 USD以上の最大入札額を入力します。
 
 また、含まれているパブリッシャーまたは取引先情報がアクティブであり、インプレッションのアクティビティが最近あることを確認します。
 
@@ -80,7 +85,7 @@ ht-degree: 0%
 
 +++プランナ予測出力を保存できますか？
 
-はい。右上の[!DNL Microsoft Excel] > **[!UICONTROL ...]**&#x200B;をクリックすると、予測を&#x200B;**[!UICONTROL Export]** スプレッドシートに書き出すことができます。 スプレッドシートは、2つのデータ列[!UICONTROL Budget]と[!UICONTROL Reach]を使用して、リーチ予算曲線に表示される情報をキャプチャします。
+はい。右上の&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Export]**&#x200B;をクリックすると、予測を[!DNL Microsoft Excel] スプレッドシートに書き出すことができます。 スプレッドシートは、2つのデータ列[!UICONTROL Budget]と[!UICONTROL Reach]を使用して、リーチ予算曲線に表示される情報をキャプチャします。
 
 +++
 

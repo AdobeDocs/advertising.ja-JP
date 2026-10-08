@@ -1,23 +1,28 @@
 ---
 title: 在庫フィードのショッピングとテンプレート設定[!DNL Microsoft Ads]
-description: 在庫フィードの [!DNL Microsoft Ads]  ショッピング広告テンプレートの設定を参照します。
+description: 在庫フィードの[!DNL Microsoft Ads] ショッピング広告テンプレートの設定を参照します。
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/Q-TmSKd7yk8Infwx-Nyar61Bu-oqK8NUd2qgJbAOTDA
+TQID: 'https://experienceleague.adobe.com/Q-TmSKd7yk8Infwx-Nyar61Bu-oqK8NUd2qgJbAOTDA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '549'
 ht-degree: 0%
-
 ---
-
 # 在庫フィードのショッピングとテンプレート設定[!DNL Microsoft Ads]
 
 ショッピング広告テンプレートを使用したショッピング広告の設定。
@@ -68,9 +73,9 @@ ht-degree: 0%
 
 * キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合は、次のいずれかの操作を行います。
 
-   * （推奨）Microsoft ショッピングキャンペーンに[&#x200B; トラッキングテンプレート形式を使用](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
+  * （推奨）Microsoft ショッピングキャンペーンに[&#x200B; トラッキングテンプレート形式を使用](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
 
-   * 代わりに、「[!DNL bingads_redirect]」列（[正しい形式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)を使用）を使用してフィードに各製品の値を含める場合は、パラメーター`{lpurl}`を入力します。 オプションで、サードパーティのリダイレクトとトラッキングを`{lpurl}` パラメーターに追加できます。
+  * 代わりに、「[!DNL bingads_redirect]」列（[正しい形式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)を使用）を使用してフィードに各製品の値を含める場合は、パラメーター`{lpurl}`を入力します。 オプションで、サードパーティのリダイレクトとトラッキングを`{lpurl}` パラメーターに追加できます。
 
 * サードパーティのリダイレクトとトラッキングの場合は、値を入力します。
 
@@ -106,7 +111,7 @@ ht-degree: 0%
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
 **[!UICONTROL Campaign Priority]:**&#x200B;複数のキャンペーンが次のキャンペーンを宣伝する場合にキャンペーンが使用される優先度
-同じ製品：*[!UICONTROL Low]* （新しいキャンペーンのデフォルト）、*[!UICONTROL Medium]*、または&#x200B;*[!UICONTROL High]*。 同じ商品が複数のキャンペーンに含まれる場合、広告ネットワークは
+同じ製品：*[!UICONTROL Low]* （新しいキャンペーンのデフォルト）、*[!UICONTROL Medium]*&#x200B;または&#x200B;*[!UICONTROL High]*。 同じ商品が複数のキャンペーンに含まれる場合、広告ネットワークは
 最初にキャンペーンの優先順位を指定して、どのキャンペーン（および関連する入札）が広告オークションの対象となるかを決定します。 すべてのキャンペーンの優先順位が同じ場合、入札額が最も高いキャンペーンが実施要件を満たします。
 
 <!-- **[!UICONTROL Locations]:** -->

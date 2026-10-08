@@ -2,13 +2,19 @@
 title: '[!UICONTROL Ad Variation Report]'
 description: '[!UICONTROL Ad Variation Report]について説明します。'
 feature: Search Reports, Search Basic Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Ad Variation Report]
 
 [!UICONTROL Ad Variation Report]には、1つ以上の広告グループでインプレッションを受け取った該当する広告バリエーション（クリエイティブ）ごとに、コスト、クリック、および（オプション）コンバージョンデータが含まれます。 デフォルトでは、データには、指定された日付範囲の時間単位ごとにインプレッションを受け取った該当する広告ごとに1行が含まれます。 行は、最初にクリエイティブ（広告）タイトルで昇順になり、次にデフォルトで広告ネットワークで昇順になります。

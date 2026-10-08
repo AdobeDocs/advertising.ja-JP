@@ -3,24 +3,33 @@ title: 約[!UICONTROL CCPA Opt-out-of-Sale]個のセグメントとレポート
 description: CCPA オプトアウトのリクエストからIDを追跡するためのセグメントの作成と、IDのレポートを取得する方法について説明します。
 feature: CCPA, DSP Segments
 exl-id: 28b5e00b-a695-46f1-abbf-7bbd78f05411
-TQID: https://experienceleague.adobe.com/Bp8Fj0z7lqSXmHd-aJQa6ocQyj6FVQuydArNBucpJp4
+TQID: 'https://experienceleague.adobe.com/Bp8Fj0z7lqSXmHd-aJQa6ocQyj6FVQuydArNBucpJp4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
+  - id: c867fa1b-f589-43fa-b071-3c62f0038f23
+    internal-label: CCPA
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 245
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # 約[!UICONTROL CCPA Opt-out-of-Sale]個のセグメントとレポート
 
 ユーザーIDは、カリフォルニア州消費者プライバシー法（CCPA）に従って、web サイト上の消費者オプトアウトの要求から、[CCPA オプトアウトの販売セグメントを作成して実装することで](ccpa-opt-out-segment-create.md)追跡できます。 ユーザーはCCPAの販売不可セグメントに無期限で残ります。
@@ -33,7 +42,7 @@ Adobe Advertisingは、お客様がアカウントのオプトアウト要求を
 
 各レポートは、GZIP形式に圧縮されたタブ区切りのテキストファイルとして使用できます。 CCPAのオプトアウトオブセールスセグメントで取得されたユーザーIDは、セグメントおよび広告主によって識別されます。
 
-DSP内またはDSP [を使用して、過去3か月間に作成された月次レポート &#x200B;](ccpa-opt-out-segment-report-retrieve.md)へのリンクを[!DNL Trafficking API]取得できます。 各リンクは7日間有効ですが、顧客が取得するたびに更新されます。
+DSP内またはDSP [!DNL Trafficking API]を使用して、過去3か月間に作成された月次レポート [&#128279;](ccpa-opt-out-segment-report-retrieve.md)へのリンクを取得できます。 各リンクは7日間有効ですが、顧客が取得するたびに更新されます。
 
 >[!MORELIKETHIS]
 >

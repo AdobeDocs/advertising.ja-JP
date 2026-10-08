@@ -2,13 +2,17 @@
 title: （新しいUI）カスタムアラートの管理
 description: カスタムアラートとアラートテンプレートを作成、設定、一時停止、アクティベート、削除、表示、エクスポートする方法について説明します。
 feature: Search Alerts
-source-git-commit: 0fddeb8f01bd7c310544973ae2aff78339eb2144
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）カスタムアラートの管理
 
 ポートフォリオ、キャンペーン、広告グループが、指定された期間内にパフォーマンス指標などの特定の条件を満たしたかどうかを特定するためのアラートテンプレートを作成し、アラートを生成します。 アラートは、1人の広告主に対して使用できます。 アラートには、関連するデフォルトビューのすべての列が含まれます。 例えば、キャンペーンレベルのアラートでは、デフォルトの[!UICONTROL Campaigns] ビューにすべての列が含まれます。

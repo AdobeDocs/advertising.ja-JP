@@ -3,18 +3,21 @@ title: フィードデータ設定の設定
 description: フィード データの処理方法を制御する設定を構成する方法について説明します。
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
+TQID: 'https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: '1165'
 ht-degree: 0%
-
 ---
-
 # フィードデータ設定の設定
 
 *[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
@@ -100,7 +103,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* FTP ファイルの場合、フィードサービスは2時間ごとにFTP ディレクトリの更新を確認します（PST タイムゾーンの偶数時間数）。 このオプションは、前回のチェック以降にアップロードされたすべてのファイルを処理します。
->* マーチャント センターのアカウントの場合、Search、Social、およびCommerceは、広告主のタイムゾーンの約06:00で毎日アカウントと同期します。 このオプションは、前回の同期以降に更新されたすべてのデータを処理します。
+>* マーチャントセンターのアカウントの場合、広告主のタイムゾーンの約06:00に、Search、Social、Commerceが毎日アカウントと同期します。 このオプションは、前回の同期以降に更新されたすべてのデータを処理します。
 >* データが広告ネットワークまたは[!UICONTROL Bulksheets] ビューに投稿されるまで、伝達されたデータは[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]のタブから利用できます。
 
 **[!UICONTROL Post to the SE]:** （広告主がFTPまたはマーチャント センターのアカウントを介してデータ ファイルをアップロードしている場合）は、新しいデータが該当するテンプレートを通じて伝達された後、関連する広告ネットワークに適した形式でバルクシート ファイルを自動的に作成します。 このオプションは、サブコンポーネントにエラーがない限り、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]および[!UICONTROL Ads] タブからもデータを削除します。

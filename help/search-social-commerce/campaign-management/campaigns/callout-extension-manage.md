@@ -1,27 +1,30 @@
 ---
-title: ' [!DNL Google Ads] 吹き出し拡張機能を管理'
-description: ' [!DNL Google Ads]  コールアウト拡張機能の作成と管理方法について説明します。'
+title: '[!DNL Google Ads]個のコールアウト拡張機能を管理'
+description: '[!DNL Google Ads]のコールアウト拡張機能を作成および管理する方法について説明します。'
 exl-id: b1be553e-49a1-47b8-8dd2-84db56fa249e
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/Nb5xgWsDs-7L9krhFqtrD1um1KmbUPlBGUSv-DLiHKY
+TQID: 'https://experienceleague.adobe.com/Nb5xgWsDs-7L9krhFqtrD1um1KmbUPlBGUSv-DLiHKY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: '374'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]個の共有コールアウト拡張機能を管理
 
 *[!DNL Google Ads]アカウントのみ*
 
-[&#x200B; >  [!DNL Google Ads] から同期された](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) アカウント [!UICONTROL Extensions] アカウント [!UICONTROL Callout library]のアカウントレベルの共有コールアウト拡張機能を作成および管理します。
+[!UICONTROL Extensions] > [!UICONTROL Callout library]から同期された[&#x200B; アカウント  [!DNL Google Ads]  アカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)のアカウントレベルの共有コールアウト拡張機能を作成および管理します。
 
 ## [!DNL Google Ads]の共有コールアウトの作成
 

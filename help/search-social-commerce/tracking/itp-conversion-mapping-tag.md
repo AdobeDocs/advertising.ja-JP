@@ -3,18 +3,21 @@ title: Adobe Advertising コンバージョンマッピングタグ
 description: Adobe Advertisingがランディングページ以外のページで発生するコンバージョンイベントをトラッキングできるITP 2.2のJavaScript ベースのコンバージョンマッピングタグについて説明します。
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+TQID: 'https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 637
+source-wordcount: '643'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising JavaScriptのコンバージョンマッピングタグ
 
 *Adobe Advertising コンバージョントラッキングのみを使用する広告主*
@@ -27,7 +30,7 @@ Adobe Advertising JavaScript ベースのコンバージョンマッピングタ
 
 1. [&#x200B; コンバージョンマッピングタグ &#x200B;](#deploy-conversion-mapping-tag)をデプロイします。
 
-1. 組織で複数のAdobe Experience Cloud ID サービス組織ID （旧称IMS組織ID）を使用している場合は、[&#x200B; コンバージョンタグを更新して](#update-conversion-tags)組織IDを含めます。
+1. 組織で複数のAdobe Experience Cloud Identity Service組織ID （旧称IMS組織ID）を使用している場合は、[組織IDを含めるようにコンバージョンタグ &#x200B;](#update-conversion-tags)を更新します。
 
 1. [&#x200B; タグのデプロイメントを検証](#validate-conversion-mapping)。
 
@@ -49,9 +52,9 @@ Adobe Advertising JavaScript ベースのコンバージョンマッピングタ
 
   どこで：
 
-   * 値`{xxxxxx@AdobeOrg}`を、ページのコンバージョンが追跡される組織IDに置き換えます。 すべてのコンバージョンページに同じ組織IDを使用します。
+  * 値`{xxxxxx@AdobeOrg}`を、ページのコンバージョンが追跡される組織IDに置き換えます。 すべてのコンバージョンページに同じ組織IDを使用します。
 
-   * `{AMO User ID}`は、Search、Social、およびCommerce アカウントの一意のユーザーIDに置き換えられます。
+  * `{AMO User ID}`は、Search、Social、およびCommerce アカウントの一意のユーザーIDに置き換えられます。
 
 * スクリプトタグへの`imsorgid`変数の追加をサポートしていないタグ管理システムを使用している場合は、代わりに次のコードを使用してください。
 
@@ -67,22 +70,22 @@ Adobe Advertising JavaScript ベースのコンバージョンマッピングタ
 
   ここで、`{AMO User ID}`をSearch, Social, &amp; Commerce アカウントの一意のユーザーIDに置き換えます。
 
-   * 組織が複数の組織IDを使用する場合：
+  * 組織が複数の組織IDを使用する場合：
 
-     ```
-     <script>
-     window.ad_cloud = window.ad_cloud || {};
-     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-     window.ad_cloud.userid = "{AMO User ID}"
-     </script>
-     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-     ```
+    ```
+    <script>
+    window.ad_cloud = window.ad_cloud || {};
+    window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+    window.ad_cloud.userid = "{AMO User ID}"
+    </script>
+    <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+    ```
 
-     どこで：
+    どこで：
 
-      * 値`{xxxxxx@AdobeOrg}`を、ページのコンバージョンが追跡される組織IDに置き換えます。 すべてのコンバージョンページに同じ組織IDを使用します。
+    * 値`{xxxxxx@AdobeOrg}`を、ページのコンバージョンが追跡される組織IDに置き換えます。 すべてのコンバージョンページに同じ組織IDを使用します。
 
-      * `{AMO User ID}`は、Search、Social、およびCommerce アカウントの一意のユーザーIDに置き換えられます。
+    * `{AMO User ID}`は、Search、Social、およびCommerce アカウントの一意のユーザーIDに置き換えられます。
 
 組織IDまたはSearch, Social, &amp; Commerce ユーザーIDの値がわからない場合は、Adobe アカウントチームにお問い合わせください。
 

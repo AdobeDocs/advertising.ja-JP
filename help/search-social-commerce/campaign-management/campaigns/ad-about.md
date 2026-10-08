@@ -3,20 +3,24 @@ title: 広告を管理
 description: Search, Social, & Commerceの広告について説明します。
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU
+TQID: 'https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '911'
 ht-degree: 0%
-
 ---
-
 # 広告について
 
 *[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]および既存の[!DNL Baidu] アカウントのみ*
@@ -31,9 +35,9 @@ ht-degree: 0%
 
 * [!DNL Microsoft Audience Network]の[!DNL Microsoft Advertising]件のキャンペーンに対するクロスデバイスのネイティブ **オーディエンス広告**。 キャンペーン設定に基づいて、オーディエンス広告には2つのオプションがあります。
 
-   * キャンペーンが加盟店センターストアにリンクされている場合、広告ネットワークは、ストアの商品情報を使用して、キャンペーン用の広告フィードベースの広告を自動的に生成します。 キャンペーン用にフィードベースの広告を作成する必要はありませんが、ユーザーターゲティングを使用して広告グループを作成する必要があります。
+  * キャンペーンが加盟店センターストアにリンクされている場合、広告ネットワークは、ストアの商品情報を使用して、キャンペーン用の広告フィードベースの広告を自動的に生成します。 キャンペーン用にフィードベースの広告を作成する必要はありませんが、ユーザーターゲティングを使用して広告グループを作成する必要があります。
 
-   * キャンペーンが加盟店センターのアカウントにリンクされていない場合は、複数のテキストや画像アセットを含むレスポンシブ広告フォーマットを使用して、画像ベースのオーディエンス広告を作成します。 広告ネットワークは、広告要素の最も効果的な組み合わせを使用して広告を組み立て、[!DNL MSN]、[!DNL Outlook.com]、[!DNL Microsoft Edge]などのサイトに表示します。
+  * キャンペーンが加盟店センターのアカウントにリンクされていない場合は、複数のテキストや画像アセットを含むレスポンシブ広告フォーマットを使用して、画像ベースのオーディエンス広告を作成します。 広告ネットワークは、広告要素の最も効果的な組み合わせを使用して広告を組み立て、[!DNL MSN]、[!DNL Outlook.com]、[!DNL Microsoft Edge]などのサイトに表示します。
 
 * 検索ネットワーク上の[!DNL Google Ads]件のキャンペーンに対する&#x200B;**呼び出し専用広告**。 通話のみの広告は、電話番号を含むテキスト広告です。 オプションで、高度な通話レポートに[!DNL Google Ads]割り当てられた転送番号を使用できます。
 

@@ -3,19 +3,20 @@ title: （新しいUI）広告ネットワークアカウントの管理
 description: 広告ネットワーク APIを介して同期された広告ネットワークの新しいUIで、アカウントの詳細を設定および管理する方法について説明します。
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2100'
 ht-degree: 0%
 ---
 # （新しいUI） API接続による広告ネットワークアカウントの管理
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
-
-*Beta機能*
-
-<!-- Move out info about Naver into a separate page -->
-
 以下は、Search、Social、およびCommerceが広告ネットワークのAPIを使用して同期する広告ネットワークアカウントを管理する手順です。
 
 <!-- Move out info about Naver into a separate page -->
@@ -36,7 +37,7 @@ ht-degree: 0%
 
 1. 広告ネットワークの名前をクリックし、**[!UICONTROL Next]**&#x200B;をクリックします。
 
-1. （広告主の資格情報を使用して、広告ネットワークにログインします（[!DNL Yandex]を除くすべての広告ネットワーク）。 「このアカウントのアカウントトラッキング」オプションを選択します。 次に、右上の「**[!UICONTROL Next]**」をクリックします。
+1. （広告主の資格情報を使用して広告ネットワークにログインします（[!DNL ChatGPT Ads]と[!DNL Yandex]を除くすべての広告ネットワーク）。 「このアカウントのアカウントトラッキング」オプションを選択します。 次に、右上の「**[!UICONTROL Next]**」をクリックします。
 
 1. 使用可能な各タブで[&#x200B; アカウント設定](#account-settings-api)を指定します。
 
@@ -69,6 +70,8 @@ ht-degree: 0%
    >Search, Social, &amp; Commerceは、新しいアカウントデータを広告ネットワーク上のアカウントデータと同期させる必要があります。 Search, Social, &amp; Commerceによって広告ネットワーク上の変化が検出されると、1日に1回、またはそれ以上の頻度で自動的に行われます。
 
 ## 広告ネットワークアカウントの再認証 {#reauthenticate}
+
+*該当しない[!DNL ChatGPT Ads] アカウント*
 
 アカウントの広告ネットワーク接続を更新したり、権限を更新したりするには、アカウントを再認証します。
 
@@ -135,7 +138,7 @@ ht-degree: 0%
 
 **[!DNL [Ad Network] アカウント &#x200B;]:** （アカウント作成中に表示）同期する広告ネットワークアカウント。
 
-**[ログインの詳細]:** （Yandex アカウントのみ）使用するアカウント資格情報：
+**[ログインの詳細]:** （[!DNL Yandex] アカウントのみ）使用するアカウント資格情報：
 
 * **[!UICONTROL Login]:** アカウントへのAPI アクセスを有効にするログイン名またはID。
 
@@ -148,12 +151,6 @@ ht-degree: 0%
 * **[!UICONTROL Purse Campaign ID]:** （[!DNL Yandex] アカウント （共有アカウント設定が無効になっているアカウントのみ、オプション）アカウント内のすべての広告キャンペーンの支払いに使用されるキャンペーンの数値ID。
 
 * **[!UICONTROL Finance Token]:** （[!DNL Yandex] アカウントで、共有アカウント設定が無効になっている場合のみ、オプション）金融関連のAPI呼び出しに使用する開発者トークン。例えば、ポートフォリオの最適化に必要に応じて、広告主のキャンペーン間でウォレットから資金を再配分する場合などに使用します。
-
-**[!UICONTROL Network Account ID]:** （[!DNL Yandex]を除くすべての広告ネットワーク広告ネットワークによって割り当てられたアカウント ID。
-
->[!NOTE]
->
->Ad network manager アカウントは、ここではサポートされていません。 [!DNL Microsoft Advertising]のマネージャーアカウントを特定するには、「マスターアカウント ID」フィールドまたは「MCC アカウント」フィールドをそれぞれ使用します。 [&#x200B; マネージャーアカウント &#x200B;](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)の資格情報を設定するには、[!UICONTROL Setup] \> [!UICONTROL Manager Accounts]に移動します。 [!DNL Google Ads] 
 
 **[!UICONTROL Currency]:** （読み取り専用）アカウントに使用される通貨の略語。 この値は、レコードを保存すると、広告ネットワーク上のアカウントに設定された通貨で自動的に入力されます。
 
@@ -245,5 +242,5 @@ Adobe Advertising クリック トラッキングを使用するアカウント�
 >[!MORELIKETHIS]
 >
 >* [広告ネットワークアカウントについて](../ad-network-account-about.md)
->* [&#x200B; マーチャント センターのアカウントの管理](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
+>* [&#x200B; マーチャント センターのアカウントの管理](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 >* [&#x200B; アカウント  [!DNL Google Ads] のs_kwcid トラッキングコードを更新します](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)

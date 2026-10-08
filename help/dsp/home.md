@@ -8,31 +8,43 @@ exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
 TQID: https://experienceleague.adobe.com/HgUQENjtjLRyizGpXGBRYZOanvoouKfGdcjDyf5Dlaw
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: DSP Planner
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: DSP Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f39dd5f12876b2ff486b6de57c0578fd5a7abf89
+    internal-label: Privacy
+source-git-commit: cbbbdbcf073cf593f49b3e481cd0e2482358063a
 workflow-type: tm+mt
-source-wordcount: 7727
+source-wordcount: '7729'
 ht-degree: 0%
-
 ---
-
-# 新機能
+# DSPの新機能
 
 以下の機能は新規または最近変更されました。
 
@@ -81,9 +93,9 @@ ht-degree: 0%
 | 2025年5月5日（PT） | [!UICONTROL Inventory Targeting], [!UICONTROL Placements] | DSPは現在、Amazon Publisher Services （APS）との戦略的パートナーシップを結んでおり、DSP ユーザーはFire TV、Twitch、IMDb、Goodreads、および午後6時など、APS Unified Ad Marketplaceのサイトに直接アクセスできます。 パブリックインベントリ、オンデマンド在庫、プライベート在庫をまたいで、プログラムで保証されていないプライベート取引にアクセスできます。 サポートされている広告タイプには、ディスプレイ、オンライン動画、コネクテッド TVなどがあります。<br><br> アクセスは、EU、ブラジル、日本を除くすべての地域で利用できますが、現在Twitchはオーストラリアとニュージーランドでのみパイロットモードになっています。 | — |
 | 2025年4月25日（PT） | [!UICONTROL Placements]、ブランドセーフティおよびメディア品質 | DSPでは、標準のコネクテッド TV プレースメントに対して[!DNL DoubleVerify]件の入札前の不正ブロッキングがサポートされるようになりました。 新しいプレースメントは、広告主レベルの不正ブロック設定を自動的に継承します。 継承された設定を除外するには、手動で削除します。<br><br>今後のリリースでは、ユニバーサルビデオのプレースメントのサポートが利用できるようになります。 | 「[配置の設定](/help/dsp/campaign-management/placements/placement-settings.md#prebid-fraud-blocking)」を参照してください。 |
 | 2025年4月24日（PT） | パフォーマンス [!UICONTROL Insights] | （Betaの機能）高度なパフォーマンスインサイトとビジュアライゼーションにより、施策を効率的に最適化し、パフォーマンスを拡張するための新たな機会を発見するために必要な情報を得ることができます。 キャンペーン間でデータを表示したり、より低いレベルにドリルダウンしたりできます。 | 「[&#x200B; インサイトについて](/help/dsp/campaign-management/insights/insights-about.md)」を参照してください。 |
-| 2025年3月26日（PT） | ログイン | DSPは、ログイン認証のためにAdobe Identity Management サービス（IMS）に移行中です。 IMSでは、Real-Time Customer Data Platform、Customer Journey Analytics、Target、Analyticsなど、IMSをサポートするすべての[!DNL Adobe]製品にシングルサインオン（SSO）アクセスを提供します。 1つの[!DNL Adobe ID]を使用して、CX Enterpriseのサインインページまたは従来のDSPのサインインページから[!DNL Adobe]製品間でログインできるようになりました。 現在のDSP資格情報は90日間有効なので、変更に備えることができます。 | 「[Adobe Advertising DSPにログイン &#x200B;](/help/dsp/introduction/sign-in.md)」を参照してください。「<br><br> ユーザープロファイルの管理など、CX Enterprise インターフェイスについて詳しくは、「[CX Enterprise インターフェイスと管理](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。 |
+| 2025年3月26日（PT） | ログイン | DSPは、ログイン認証のためにAdobe Identity Management サービス（IMS）に移行中です。 IMSでは、Real-Time Customer Data Platform、Customer Journey Analytics、Target、Analyticsなど、IMSをサポートするすべての[!DNL Adobe]製品にシングルサインオン（SSO）アクセスを提供します。 1つの[!DNL Adobe ID]を使用して、CX Enterpriseのログインページまたは従来のDSPのログインページから[!DNL Adobe]製品全体にログインできるようになりました。 現在のDSP資格情報は90日間有効なので、変更に備えることができます。 | 「[Adobe Advertising DSPにログイン &#x200B;](/help/dsp/introduction/sign-in.md)」を参照してください。「<br><br> ユーザープロファイルの管理など、CX Enterprise インターフェイスについて詳しくは、「[CX Enterprise インターフェイスと管理](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)」を参照してください。 |
 | | [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads] | 次の一括編集機能が使用できるようになりました。<ul><li>キャンペーンのパッケージ、プレースメント、広告の設定を含むキャンペーンレベルのスプレッドシートを直接編集して、再アップロードできます。 以前は、テンプレートファイルをダウンロードし、変更を手動で入力してアップロードする必要がありました。</li><li>ファイルは、「*bulksheets*」と呼ばれ、「[!UICONTROL Download Bulksheet]」と「[!UICONTROL Upload Bulksheet]」のオプションを選択した後、[!UICONTROL Campaigns] ビュー全体で「QA シート」と呼ばれるようになりました。</li><li>ほとんどの配置の設定は、バルクシートで使用できるようになりました。</li></ul> | 「[&#x200B; バルクシートを使用したキャンペーンコンポーネント設定のレビューと編集](/help/dsp/campaign-management/campaign-components-review-edit.md)」を参照してください。「[&#x200B; バルクシートを使用したパッケージ設定のレビューと編集](/help/dsp/campaign-management/packages/package-qa.md)」および「[&#x200B; バルクシートを使用したプレースメント設定のレビューと編集](/help/dsp/campaign-management/placements/placement-qa.md)」も参照してください。<br><br> |
-| 2025年3月10日（PT）リリース | プライバシー | デジタルAdvertising アライアンス（DAA）との[!DNL Adobe's]の提携により、エンドユーザーは、「Adobe Marketing Cloud - Advertising サービス」（以前はAdobe Experience Cloudとも呼ばれていました、DSP + Audience Manager Cookieを含むAdobe CX Enterpriseのレガシー名）から、ハッシュ化されたメールアドレスに依存するすべての行動ターゲティングをオプトアウトできるようになりました。 以前は、DSPはCookie ベースのオプトアウトのみをサポートしていました。<br><br> エンドユーザーが行動ターゲティングをオプトアウトすると、DSPはエンドユーザーのCookie、モバイル ID、またはハッシュ化されたメールアドレス（[!DNL Unified ID 2.0 (UID2.0)] IDまたは[!DNL LiveRamp] [!DNL RampID]にDSPが関連付ける場合がある）をキャプチャします。 その後、DSPは、エンドユーザーがオプトアウト Cookieを5年間保持する限り、そのエンドユーザーに対する広告インプレッションに対する行動ターゲティングを除外します。<br><br> エンドユーザーは、[https://optout.aboutads.info](https://optout.aboutads.info)からブラウザー上の広告をオプトアウトするか、b\）ブラウザー、アプリ上の広告をオプトアウトするか、[https://youradchoices.com/control](https://youradchoices.com/control)からトークン IDを使用するか、どちらかを選択できます。<br><br>広告主は作業を必要としません。 | 「[Adobe プライバシーポリシー](https://www.adobe.com/privacy/policy.html)」を参照してください。 |
+| 2025年3月10日（PT）リリース | プライバシー | デジタルAdvertising アライアンス（DAA）との[!DNL Adobe's]の提携により、エンドユーザーは、「Adobe Marketing Cloud - Advertising サービス」（以前はAdobe Experience Cloudとも呼ばれていましたが、DSP + Audience Manager Cookieを含むAdobe CX Enterpriseのレガシー名）から、ハッシュ化されたメールアドレスに依存するすべての行動ターゲティングをオプトアウトできるようになりました。 以前は、DSPはCookie ベースのオプトアウトのみをサポートしていました。<br><br> エンドユーザーが行動ターゲティングをオプトアウトすると、DSPはエンドユーザーのCookie、モバイル ID、またはハッシュ化されたメールアドレス（[!DNL Unified ID 2.0 (UID2.0)] IDまたは[!DNL LiveRamp] [!DNL RampID]にDSPが関連付ける場合がある）をキャプチャします。 その後、DSPは、エンドユーザーがオプトアウト Cookieを5年間保持する限り、そのエンドユーザーに対する広告インプレッションに対する行動ターゲティングを除外します。<br><br> エンドユーザーは、[https://optout.aboutads.info](https://optout.aboutads.info)からブラウザー上の広告をオプトアウトするか、b\）ブラウザー、アプリ上の広告をオプトアウトするか、[https://youradchoices.com/control](https://youradchoices.com/control)からトークン IDを使用するか、どちらかを選択できます。<br><br>広告主は作業を必要としません。 | 「[Adobe プライバシーポリシー](https://www.adobe.com/privacy/policy.html)」を参照してください。 |
 |  | オーディエンスターゲティング | DSPでは、コネクテッド TV IDとモバイル広告IDを、対応するハッシュ化されたIP アドレスとCookie IDにマッピングする機能を強化し、デジタル接点をまたいでより効果的なパフォーマンスターゲティングを提供しました。 | — |
 | 2025年2月3日（PT） | [!UICONTROL Packages] | [!UICONTROL Highest Return on Ad Spend]および[!UICONTROL Lowest Cost per Acquisition]の最適化目標を持つパッケージの場合、[!UICONTROL Conversion Metric]設定が必要になりました。 以前はオプションでした。<br><br> [!UICONTROL Conversion Metric]は、広告費用対効果または獲得単価の計算に使用する最終的なコンバージョンイベント（サインアップなど）または収益イベント/販売額（購入および購入金額など）です。 | 「[&#x200B; パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)」を参照してください。 |
 | 2024年12月12日（PT） | [!UICONTROL Placements]、ブランドセーフティ | プレースメントレベルで[!DNL DoubleVerify Authentic Brand Suitability] セグメント IDをターゲットにできるようになりました。 以前は、広告主レベルでのみターゲティングできました。<br><br> デフォルトでは、広告主アカウント設定でセグメント IDが指定されている場合、広告主レベルのIDがプレースメント設定に入力されますが、IDを変更して別のセグメントを使用したり、IDを削除して機能を無効にしたりできます。<br><br>広告主レベルの設定では、機能を有効にするオプションが削除されました。セグメント IDを指定すると、機能を有効にできるようになりました。 既存の広告主のいずれかで機能が無効になっている場合、セグメント ID フィールドが空白になります。 ユーザーの操作は必要ありません。 | 「[配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)」を参照してください。 |

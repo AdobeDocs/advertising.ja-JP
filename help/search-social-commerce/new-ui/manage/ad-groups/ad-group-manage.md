@@ -8,15 +8,17 @@ product_v2:
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
     internal-label: Search, Social, & Commerce
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
     internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1721'
 ht-degree: 0%
 ---
 # 広告グループの管理
@@ -63,7 +65,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create Ad Group]**&#x200B;をクリックします。
 
-1. [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)、[Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)、[LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)、または[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)広告グループの設定を指定します。
+1. [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)、[ChatGPT Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)、[Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)、[LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)、または[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)広告グループの設定を指定します。
 
 1. **[!UICONTROL Review and Save]**&#x200B;をクリックします。
 
@@ -99,7 +101,7 @@ ht-degree: 0%
 
    * 広告グループの横にあるチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)、[Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)、[LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)、または[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)広告グループの設定を編集します。
+1. [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)、[ChatGPT Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)、[Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)、[LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)、または[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)広告グループの設定を編集します。
 
 1. **[!UICONTROL Review and Save]**&#x200B;をクリックします。
 
@@ -113,7 +115,9 @@ ht-degree: 0%
 
 サポートされている広告ネットワーク上のアクティブな広告グループを一時停止して、入札を無効にすることができます。 後でステータスをアクティブに戻すことで、入札を再開できます。
 
-アクティブな広告グループまたは一時停止した広告グループを削除することもできます。 削除された広告グループは、広告ネットワークから削除されます。 データフィルターに含めても表示されますが、変更することはできません。
+サポートされている広告ネットワーク上のアクティブな広告グループを一時停止して、入札を無効にすることができます。 後でステータスをアクティブに戻すことで、入札を再開できます。
+
+アクティブな広告グループまたは一時停止した広告グループを削除（[!DNL ChatGPT Ads Manager]内で「アーカイブ」と呼ばれます）することもできます。 削除またはアーカイブされた広告グループは、広告ネットワークから削除またはアーカイブされます。 データフィルターに含めても表示されますが、変更することはできません。
 
 ### 広告グループをアクティブ化または一時停止する
 
@@ -127,7 +131,7 @@ ht-degree: 0%
 
    * アクティブな広告グループを一時停止するには、**[!UICONTROL Paused]**&#x200B;を選択します。
 
-### 広告グループの削除
+### 広告グループの削除またはアーカイブ
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Ad Groups]**&#x200B;をクリックします。
 
@@ -138,6 +142,8 @@ ht-degree: 0%
    * 広告グループの行にカーソルを置き、[!UICONTROL Status]列の横にある![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。 **[!UICONTROL Deleted]**&#x200B;を選択します。
 
 ## 広告グループの入札制限の割り当てを管理 {#ad-group-constraints}
+
+*[!DNL ChatGPT Ads]*&#x200B;では利用できません
 
 各エンティティには1つの制約しか設定できません。 制約は子エンティティによって継承されるため、継承された値を上書きしない限り、子エンティティに制約を割り当てる必要はありません。
 

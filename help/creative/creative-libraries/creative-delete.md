@@ -3,18 +3,28 @@ title: クリエイターの削除
 description: クリエイティブライブラリでクリエイティブを削除する方法を説明します。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 5dc197dc-c4bb-489a-8395-b7c8efa47ea1
-TQID: https://experienceleague.adobe.com/NcC9nj1ON2en8H0HqDH0MGR241XoZDEyzIcE6r7Ch5c
+TQID: 'https://experienceleague.adobe.com/NcC9nj1ON2en8H0HqDH0MGR241XoZDEyzIcE6r7Ch5c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: bb1b8bb7-b991-4ae3-96c9-1fe852ffecbf
+    internal-label: Creative libraries
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 181
+source-wordcount: '182'
 ht-degree: 0%
-
 ---
-
 # クリエイティブライブラリからのクリエイティブの削除
 
 次の項目を削除できます。
@@ -35,9 +45,9 @@ ht-degree: 0%
 
    * 1つのクリエイティブを削除するには：
 
-      * カード表示で、クリエイティブ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Delete]**&#x200B;をクリックします。
+     * カード表示で、クリエイティブ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
-      * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Delete]**&#x200B;をクリックします。
+     * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
    * 1人以上のクリエイティブを削除するには、削除する各クリエイティブのチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL Delete]**&#x200B;をクリックします。
 

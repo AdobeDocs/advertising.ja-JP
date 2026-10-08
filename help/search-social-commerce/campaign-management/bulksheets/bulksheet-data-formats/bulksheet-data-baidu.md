@@ -1,27 +1,33 @@
 ---
-title: ' [!DNL Baidu]  アカウントに必要なバルクシートデータ'
-description: ' [!DNL Baidu]  アカウントの必須ヘッダーフィールドとデータフィールドを一括シートで参照します。'
+title: '[!DNL Baidu] アカウントに必要なバルクシート データ'
+description: '[!DNL Baidu] アカウントの必須ヘッダーフィールドとデータフィールドを一括シートで参照します。'
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/-MST6KDJBF73Dcbi4zwIbqK9W8EiV7UvUMpGq2aYeGE
+TQID: 'https://experienceleague.adobe.com/-MST6KDJBF73Dcbi4zwIbqK9W8EiV7UvUMpGq2aYeGE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 subfeature_v2:
   - id: e58024d1-d6da-420c-80af-6be211808316
+    internal-label: Bulksheets
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a8176f810ef6ff35620526bb93e2520ecab74bd9
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1954
+source-wordcount: '1956'
 ht-degree: 0%
-
 ---
-
 # 付録 – [!DNL Baidu] アカウントに必要なバルクシート データ
 
 [!DNL Baidu]件のキャンペーンデータを一括で作成および更新するには、[!DNL Baidu]件のアカウントに特化してフォーマットされたSearch、Social、およびCommerceのバルクシート ファイルを使用できます。 a） [&#128279;](../bulksheet-download.md)必要なファイル形式で既存のアカウントの一括シートファイルを生成するか、b）手動で作成できます（サポートされているファイル形式に関する一般的な情報については、「[&#x200B; サポートされている一括シートファイル形式](bulksheet-file-formats.md)」を参照）。
@@ -79,5 +85,5 @@ ht-degree: 0%
 >* [&#x200B; バルクシートで実行できる操作](bulksheet-operations.md)
 >* [&#x200B; サポートされているバルクシート ファイル形式](bulksheet-file-formats.md)
 >* [&#x200B; バルクシート ファイルのダウンロードと作成](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の クリックトラッキング形式
+>*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の クリックトラッキング形式
 >* [&#x200B; バルクシート ファイルをアップロードするか、エラーファイルを修正](../bulksheet-upload.md)

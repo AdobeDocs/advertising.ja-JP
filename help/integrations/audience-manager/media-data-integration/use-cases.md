@@ -3,28 +3,39 @@ title: ユースケース
 description: Advertising DSP メディアデータをAudience Managerと共有するユースケースについて説明します
 feature: Integration with Adobe Audience Manager
 exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
-TQID: https://experienceleague.adobe.com/bEvS7Wb-Xk0nHAchL60c3AUNm7K4S2p3tBxJ2aWWevA
+TQID: 'https://experienceleague.adobe.com/bEvS7Wb-Xk0nHAchL60c3AUNm7K4S2p3tBxJ2aWWevA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: '854'
 ht-degree: 0%
-
 ---
-
 # Adobe Audience Managerでメディア露出データを取得するユースケース
 
 *Advertising DSPのみの広告主*
@@ -37,7 +48,7 @@ Audience ManagerでAdvertising DSP メディア露出データ <!-- ad impressio
 
 Audience Managerでインプレッションデータを取得すると、特定の広告やキャンペーンに接触したオーディエンスのセグメントを作成することで、頻度の管理を強化できます。 これらのセグメントは、頻度を上げる場合は広告ターゲティングに、頻度を制限する場合は広告サプレッションに使用できます。
 
-また、Audience Manager [!DNL Segment Builder]では、実用的なシグナルを含む[&#x200B; ルールベースの特性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html?lang=ja)に[最新性と頻度の制御](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=ja)を適用できます。 これにより、例えば、ユーザーがメディアキャンペーン内で特定のクリエイティブを表示される回数を制限できます。 この方法については、「[即時クロスデバイス抑制](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html?lang=ja)」を参照してください。<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
+また、Audience Manager [!DNL Segment Builder]では、実用的なシグナルを含む[&#x200B; ルールベースの特性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=ja)に[最新性と頻度の制御](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html?lang=ja)を適用できます。 これにより、例えば、ユーザーがメディアキャンペーン内で特定のクリエイティブを表示される回数を制限できます。 この方法については、「[即時クロスデバイス抑制](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html?lang=ja)」を参照してください。<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
 
 ## シーケンシャルメッセージ
 
@@ -73,7 +84,7 @@ Audience Managerでインプレッションデータを取得すると、特定�
 
 Audience Managerでキャンペーンのインプレッション数とクリック数のデータを利用できるようになると、特定のキャンペーンや戦術に接触したり、接触したりしたオーディエンスの特性とセグメントを構築できます。 [[!DNL Audience Analytics] 統合](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja)を使用すると、Audience Manager セグメントを[!DNL Analytics]と同期して、さらに詳しく分析できます。 次のようなユースケースが考えられます。
 
-* **DSPと[!DNL Advertising Search, Social, & Commerce]広告のインタラクション分析：**&#x200B;標準の[[!DNL Analytics for Advertising] 統合](/help/integrations/analytics/overview.md)では、DSPと[!DNL Search, Social, & Commerce]のインタラクションに関するインサイトは提供されません。これは、両方のチャネルでAMO ID アトリビューションルールに従うAMO IDが使用され、検索クリックで表示ビュースルーが上書きされるためです。 Audience ManagerでDSP露出セグメントを作成すると、[!DNL Audience Analytics]を使用して、[!DNL Search, Social, & Commerce]のDSP広告と[!DNL Analytics]広告のインタラクションを分析できます。
+* **DSPと[!DNL Advertising Search, Social, & Commerce]広告のインタラクション分析：**&#x200B;標準の[[!DNL Analytics for Advertising] 統合](/help/integrations/analytics/overview.md)では、DSPと[!DNL Search, Social, & Commerce]のインタラクションに関するインサイトは提供されません。これは、両方のチャネルでAMO ID アトリビューションルールに従うAMO IDが使用され、検索クリックで表示ビュースルーが上書きされるためです。 Audience ManagerでDSP露出セグメントを作成すると、[!DNL Audience Analytics]を使用して、[!DNL Analytics]のDSP広告と[!DNL Search, Social, & Commerce]広告のインタラクションを分析できます。
 
 * **頻度分析：** ユーザーが特定の広告またはキャンペーンに接触した回数に基づいて、Audience Managerでセグメントを作成できます。 次に、Analyticsで様々な露出セグメントを分析して、DSPの露出の数に応じてユーザーの動作がどのように変化するかを確認できます。
 

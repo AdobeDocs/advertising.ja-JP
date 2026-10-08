@@ -3,18 +3,24 @@ title: クリエイティブライブラリの管理
 description: クリエイティブライブラリを作成、名前変更、削除する方法について説明します。
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-TQID: https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0
+TQID: 'https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: bb1b8bb7-b991-4ae3-96c9-1fe852ffecbf
+    internal-label: Creative libraries
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 266
+source-wordcount: '266'
 ht-degree: 0%
-
 ---
-
 # クリエイティブライブラリの管理
 
 広告主ごとに複数のクリエイティブライブラリを作成できます。 後で、各ライブラリに[標準クリエイティブ &#x200B;](creative-add-standard.md)、[動的クリエイティブ &#x200B;](creative-add-dynamic.md)、[&#x200B; クリエイティブバンドル &#x200B;](bundle-manage.md)を追加できます。
@@ -55,7 +61,7 @@ ht-degree: 0%
 
 ## クリエイティブライブラリの削除
 
-[live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないクリエイティブとバンドルを含むライブラリを削除できます。 ライブ ターゲティングされたエクスペリエンスの場合は、続行する前に、エクスペリエンスの決定ツリー[からクリエイティブまたはバンドルを](/help/creative/experiences/experience-target-node-delete.md)削除してください。<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
+[live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないクリエイティブとバンドルを含むライブラリを削除できます。 ライブ ターゲティングされたエクスペリエンスの場合は、続行する前に、エクスペリエンスの決定ツリー[&#128279;](/help/creative/experiences/experience-target-node-delete.md)からクリエイティブまたはバンドルを削除してください。<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
 
@@ -65,9 +71,9 @@ ht-degree: 0%
 
    * 1つのライブラリを削除するには：
 
-      * カード表示で、ライブラリ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Delete]**&#x200B;をクリックします。
+     * カード表示で、ライブラリ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
-      * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Delete]**&#x200B;をクリックします。
+     * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
    * 1つ以上のライブラリを削除するには、削除する各ライブラリのチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL Delete]**&#x200B;をクリックします。
 

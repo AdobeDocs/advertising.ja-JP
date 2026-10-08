@@ -1,22 +1,26 @@
 ---
-title: パフォーマンスの最大キャンペーンを [!DNL Google Ads] 実装する
-description: 'パフォーマンスの最大キャンペーンを設定するワークフローについて説明します。 [!DNL Google Ads] '
+title: パフォーマンスの最大数[!DNL Google Ads]件のキャンペーンを実装
+description: '[!DNL Google Ads] パフォーマンス最大キャンペーンを設定するためのワークフローについて説明します。'
 exl-id: 4208774c-e4dd-499d-987e-933fe073c04f
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2vNnyo0W66ZuIZ3cY1nlSYWTjEPOiNXkc-ppbuxNMnI
+TQID: 'https://experienceleague.adobe.com/2vNnyo0W66ZuIZ3cY1nlSYWTjEPOiNXkc-ppbuxNMnI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 286
+source-wordcount: '297'
 ht-degree: 0%
-
 ---
-
 # パフォーマンスの最大数[!DNL Google Ads]件のキャンペーンを実装
 
 [!DNL Google Ads] パフォーマンスの最大キャンペーンでは、広告グループ、広告、キーワードを設定していません。 代わりに、キャンペーン設定内で、見出し、説明、アップロードされた画像、ロゴ、および[!DNL YouTube videos]を含む1つ以上のアセットグループを指定します。 [!DNL Google Ads]は、チャネル （[!DNL YouTube]、[!DNL Gmail]、または[!DNL Search]など）に基づいて、アセットを自動的に組み合わせて広告を配信します。
@@ -33,7 +37,7 @@ ht-degree: 0%
 
 パフォーマンスの最大キャンペーンは、[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューから個別に設定できます。
 
-1. [&#x200B; キャンペーンの種類](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)を含むキャンペーン **[!UICONTROL Performance Max]**&#x200B;を作成します。
+1. [&#x200B; キャンペーンの種類&#x200B;**[!UICONTROL Performance Max]**&#x200B;を含むキャンペーン &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)を作成します。
 
    [!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Campaign Targeting]、[!UICONTROL URL Options]を指定します。 オプションで[!UICONTROL Negative Keywords]を入力し、[!UICONTROL Negative Websites]と入力するか、[!UICONTROL Campaign Tracking] オプションを上書きします。
 

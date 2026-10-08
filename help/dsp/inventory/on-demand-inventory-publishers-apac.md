@@ -1,24 +1,28 @@
 ---
 title: アジア太平洋地域の[!DNL On Demand]社のプレミアム広告在庫パブリッシャー
-description: アジア太平洋地域で利用可能な [!DNL On Demand]  プレミアム広告在庫パブリッシャーをご覧ください。
+description: アジア太平洋地域で利用可能な[!DNL On Demand]のプレミアム広告在庫パブリッシャーをご覧ください。
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
-TQID: https://experienceleague.adobe.com/9PUXdICywm-p3FNlNp-hB6Hu8llInJbwlQ17OwJGZkY
+TQID: 'https://experienceleague.adobe.com/9PUXdICywm-p3FNlNp-hB6Hu8llInJbwlQ17OwJGZkY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 0%
-
+source-wordcount: '465'
+ht-degree: 4%
 ---
-
 # アジア太平洋地域の[!DNL On Demand]社のプレミアム広告在庫パブリッシャー{#on-demand-inventory-publishers-apac}
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
@@ -122,7 +126,7 @@ ht-degree: 0%
 | [!DNL BuzzFeed] | 日本 |
 | [!DNL CNN International] | 日本 |
 | [!DNL Conde Nast] | 日本 |
-| [!DNL DAZN] （[!DNL Perform Media]） | 日本 |
+| [!DNL DAZN] ([!DNL Perform Media]) | 日本 |
 | [!DNL Discovery] | 日本 |
 | [!DNL EA] | 日本 |
 | [!DNL Gameloft] | 日本 |
@@ -147,7 +151,7 @@ ht-degree: 0%
 | [!DNL CNBC] | マレーシア |
 | [!DNL CNN International] | マレーシア |
 | [!DNL Conde Nast] | マレーシア |
-| [!DNL DAZN] （[!DNL Perform Media]） | マレーシア |
+| [!DNL DAZN] ([!DNL Perform Media]) | マレーシア |
 | [!DNL Digital Trends] | マレーシア |
 | [!DNL EA] | マレーシア |
 | [!DNL Gameloft] | マレーシア |
@@ -207,7 +211,7 @@ ht-degree: 0%
 | [!DNL CNN International] | 海 |
 | [!DNL Coconuts] | 海 |
 | [!DNL Conde Nast] | 海 |
-| [!DNL DAZN] （[!DNL Perform Media]） | 海 |
+| [!DNL DAZN] ([!DNL Perform Media]) | 海 |
 | [!DNL Dek-D] | 海 |
 | [!DNL Detik] | 海 |
 | [!DNL Doisongphapluat] | 海 |
@@ -279,7 +283,7 @@ ht-degree: 0%
 | [!DNL CNBC] | シンガポール |
 | [!DNL CNN International] | シンガポール |
 | [!DNL Conde Nast] | シンガポール |
-| [!DNL DAZN] （[!DNL Perform Media]） | シンガポール |
+| [!DNL DAZN] ([!DNL Perform Media]) | シンガポール |
 | [!DNL EA] | シンガポール |
 | [!DNL Gameloft] | シンガポール |
 | [!DNL Investopedia] | シンガポール |

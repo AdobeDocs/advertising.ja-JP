@@ -2,13 +2,19 @@
 title: '[!UICONTROL Label Classification Report]'
 description: '[!UICONTROL Label Classification Report]について説明します。'
 feature: Search Reports, Search Basic Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Label Classification Report]
 
 [!UICONTROL Label Classification Report]には、広告ネットワーク、アカウント、キャンペーン、または広告グループをまたいで集計された、キーワードレベルまたは広告レベルのラベル分類によるコスト、クリック、および（オプションで）コンバージョンデータが含まれます。 デフォルトでは、データには、指定された日付範囲の時間単位ごとにインプレッションを受け取ったキーワード、広告、プレースメントに対する該当するキーワードレベルのラベル分類ごとに1行が含まれます。 行は、最初に時間単位の開始日、次にラベル分類、次にラベル値で昇順になります。

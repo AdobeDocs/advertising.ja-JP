@@ -4,19 +4,23 @@ description: 配置ターゲティング用の郵便番号リストを作成お�
 feature: DSP Placements
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 405
+source-wordcount: '405'
 ht-degree: 0%
-
 ---
-
 # 郵便番号リストの管理
 
 プレースメントのターゲットとなる国ごとに郵便番号のリストを作成および管理できます。 プレースメント設定内の特定の郵便番号リストをターゲットまたは除外します。
@@ -43,33 +47,33 @@ ht-degree: 0%
 
    * 追加する郵便番号を手動で入力または貼り付けるには：
 
-      1. **[!UICONTROL Add Postal Codes]**&#x200B;をクリックします。
+     1. **[!UICONTROL Add Postal Codes]**&#x200B;をクリックします。
 
-      1. 1行に25,000件までの郵便番号を入力または貼り付けます。
+     1. 1行に25,000件までの郵便番号を入力または貼り付けます。
 
-      1. 郵便番号が有効かどうかを確認するには、**[!UICONTROL Validate]**&#x200B;をクリックします。
+     1. 郵便番号が有効かどうかを確認するには、**[!UICONTROL Validate]**&#x200B;をクリックします。
 
-         無効な郵便番号は[!UICONTROL Validation Results]で識別されます。 続行する場合は、有効な郵便番号のみが追加されます。
+        無効な郵便番号は[!UICONTROL Validation Results]で識別されます。 続行する場合は、有効な郵便番号のみが追加されます。
 
-         * 無効な郵便番号をXLSX （[!DNL Microsoft Excel] スプレッドシート）形式にダウンロードするには、**[!UICONTROL Download invalid codes]**&#x200B;をクリックします。 ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
+        * 無効な郵便番号をXLSX （[!DNL Microsoft Excel] スプレッドシート）形式にダウンロードするには、**[!UICONTROL Download invalid codes]**&#x200B;をクリックします。 ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
-      1. **[!UICONTROL Add to list]**&#x200B;をクリックします。
+     1. **[!UICONTROL Add to list]**&#x200B;をクリックします。
 
    * 特定の郵便番号を削除するには、次のいずれかの操作を行います。
 
-      * 削除する郵便番号を選択するには：
+     * 削除する郵便番号を選択するには：
 
-         1. リストから削除する各郵便番号の横にあるチェックボックスをオンにします。
+       1. リストから削除する各郵便番号の横にあるチェックボックスをオンにします。
 
-         1. **[!UICONTROL Remove]**&#x200B;をクリックします。
+       1. **[!UICONTROL Remove]**&#x200B;をクリックします。
 
-         1. 確認メッセージで、**[!UICONTROL Remove]**&#x200B;をクリックします。
+       1. 確認メッセージで、**[!UICONTROL Remove]**&#x200B;をクリックします。
 
-      * すべての郵便番号を削除するには：
+     * すべての郵便番号を削除するには：
 
-         1. **[!UICONTROL Remove All]**&#x200B;をクリックします。
+       1. **[!UICONTROL Remove All]**&#x200B;をクリックします。
 
-         1. 確認メッセージで、**[!UICONTROL Remove All]**&#x200B;をクリックします。
+       1. 確認メッセージで、**[!UICONTROL Remove All]**&#x200B;をクリックします。
 
 ## 郵便番号リストの編集
 
@@ -81,33 +85,33 @@ ht-degree: 0%
 
    * 追加する郵便番号を手動で入力または貼り付けるには：
 
-      1. **[!UICONTROL Add Postal Codes]**&#x200B;をクリックします。
+     1. **[!UICONTROL Add Postal Codes]**&#x200B;をクリックします。
 
-      1. 1行に25,000件までの郵便番号を入力または貼り付けます。
+     1. 1行に25,000件までの郵便番号を入力または貼り付けます。
 
-      1. 郵便番号が有効かどうかを確認するには、**[!UICONTROL Validate]**&#x200B;をクリックします。
+     1. 郵便番号が有効かどうかを確認するには、**[!UICONTROL Validate]**&#x200B;をクリックします。
 
-         無効な郵便番号は[!UICONTROL Validation Results]で識別されます。 続行する場合は、有効な郵便番号のみが追加されます。
+        無効な郵便番号は[!UICONTROL Validation Results]で識別されます。 続行する場合は、有効な郵便番号のみが追加されます。
 
-         * 無効な郵便番号をXLSX （[!DNL Microsoft Excel] スプレッドシート）形式にダウンロードするには、**[!UICONTROL Download invalid codes]**&#x200B;をクリックします。 ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
+        * 無効な郵便番号をXLSX （[!DNL Microsoft Excel] スプレッドシート）形式にダウンロードするには、**[!UICONTROL Download invalid codes]**&#x200B;をクリックします。 ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
-      1. **[!UICONTROL Add to list]**&#x200B;をクリックします。
+     1. **[!UICONTROL Add to list]**&#x200B;をクリックします。
 
    * 特定の郵便番号を削除するには、次のいずれかの操作を行います。
 
-      * 削除する郵便番号を選択するには：
+     * 削除する郵便番号を選択するには：
 
-         1. リストから削除する各郵便番号の横にあるチェックボックスをオンにします。
+       1. リストから削除する各郵便番号の横にあるチェックボックスをオンにします。
 
-         1. **[!UICONTROL Remove]**&#x200B;をクリックします。
+       1. **[!UICONTROL Remove]**&#x200B;をクリックします。
 
-         1. 確認メッセージで、**[!UICONTROL Remove]**&#x200B;をクリックします。
+       1. 確認メッセージで、**[!UICONTROL Remove]**&#x200B;をクリックします。
 
-      * すべての郵便番号を削除するには：
+     * すべての郵便番号を削除するには：
 
-         1. **[!UICONTROL Remove All]**&#x200B;をクリックします。
+       1. **[!UICONTROL Remove All]**&#x200B;をクリックします。
 
-         1. 確認メッセージで、**[!UICONTROL Remove All]**&#x200B;をクリックします。
+       1. 確認メッセージで、**[!UICONTROL Remove All]**&#x200B;をクリックします。
 
 ## 郵便番号リストのエクスポート
 

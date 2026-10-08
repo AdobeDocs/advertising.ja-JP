@@ -2,13 +2,21 @@
 title: 基本および詳細レポート設定
 description: 基本レポートと詳細レポートの必須およびオプション設定について説明します。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 169857badb39b94538c04439956439c2ad259a9d
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '3682'
+source-wordcount: '3691'
 ht-degree: 0%
-
 ---
-
 # 基本および詳細レポート設定
 
 レポート設定は、レポートタイプによって異なります。 次の設定はすべて使用可能です。
@@ -46,8 +54,8 @@ ht-degree: 0%
 |  | [!UICONTROL Discrete columns for click & view-through conversions] | （[!UICONTROL Conversion Attribution]設定「[!UICONTROL Clicks + View-throughs]」のレポートのみ）含めるコンバージョンタイプごとに3つの別々の列が含まれます。1つのクリックスルーコンバージョンに対してそれぞれ1つ、「[!UICONTROL (CT)]」が追加され、2つのビュースルーコンバージョンに「[!UICONTROL (VT)]」が追加され、3つのコンバージョンに「[!UICONTROL (CT+VT)]」が追加されています。 このオプションを選択すると、「[!UICONTROL Filter & sort using]」リストからフィルタリングと並べ替えに使用する3つの列のうち、どれかを選択します。<i>[!UICONTROL click]</i> （デフォルト）、<i>[!UICONTROL view-through]</i>、または<i>[!UICONTROL click + view-through]</i>。<br><br><b>注：</b>検索キャンペーンのコンバージョンは、クリックスルーの列には表示されますが、ビュースルーコンバージョンの列には表示されません。 |
 |  | [!UICONTROL Discrete columns for cross device conversions] | 廃止 |
 | [!UICONTROL Scheduling] | [!UICONTROL Frequency] | （「[!UICONTROL Save as template]」オプションが選択されている場合にのみ編集可能。それ以外は「[!UICONTROL Now]」に設定されます）レポートを実行するタイミング：<i>[!UICONTROL Now]</i> （デフォルトでは、1回レポートを実行する場合）、<i>[!UICONTROL Daily]</i>、<i>[!UICONTROL Weekly on] [曜日]</i>、または<i>[!UICONTROL Every Month] [月]</i>日。 <i>[!UICONTROL Now]</i>を除くすべての期間について、広告主のタイムゾーンの午前9時から開始する時間を選択します。 |
-|  | [!UICONTROL Email Recipients] | <b>注意：</b>この設定は、[!UICONTROL Reports]のメール通知が[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md)内で有効になっている場合にのみ使用されます。<br><br>登録済みの検索、ソーシャル、およびCommerce ユーザーが、レポートが完了したか、エラーが発生したため通知を送信する対象です。 デフォルトでは、ユーザーアカウントの名前が選択されています。 オプションで、広告主のデータへのアクセス権を持つユーザーを追加または削除します。 レポートを繰り返し実行するようにスケジュールすると、レポートが完了するたびに通知が送信されます。 |
-|  | [!UICONTROL Email Notification Format] | <b>注意：</b>この設定は、[!UICONTROL Reports]のメール通知が[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md)内で有効になっている場合にのみ使用されます。<br><br> （[!UICONTROL Email Recipients]が指定されている場合）指定されたアドレスへのメール通知に含める内容：<ul><li><i>[!UICONTROL Notification Only]</i> （既定値）: レポートの完了または失敗の通知のみを添付ファイルなしで送信します。 通知には、すべてのレポート形式の一時的なダウンロードリンクが含まれています。</li><li><i>[!UICONTROL XLS Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをXLS形式で含めるには。 1 MBを超えるファイルは圧縮されます。</li><li><i>[!UICONTROL TSV Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをTSV形式で含めるには。 1 MBを超えるファイルは圧縮されます。</li><li><i>[!UICONTROL CSV Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをCSV形式で含めるには。 1 MBを超えるファイルは圧縮されます。 |
+|  | [!UICONTROL Email Recipients] | <b>注意：</b>この設定は、[!UICONTROL Reports]のメール通知が[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md)内で有効になっている場合にのみ使用されます。<br><br>登録済みの検索、ソーシャル、およびCommerce ユーザーが、レポートが完了したか、エラーが発生したため通知を送信する対象です。 デフォルトでは、ユーザーアカウントの名前が選択されています。 オプションで、広告主のデータへのアクセス権を持つユーザーを追加または削除します。 レポートを繰り返し実行するようにスケジュールすると、レポートが完了するたびに通知が送信されます。 |
+|  | [!UICONTROL Email Notification Format] | <b>注意：</b>この設定は、[!UICONTROL Reports]のメール通知が[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md)内で有効になっている場合にのみ使用されます。<br><br> （[!UICONTROL Email Recipients]が指定されている場合）指定されたアドレスへのメール通知に含める内容：<ul><li><i>[!UICONTROL Notification Only]</i> （既定値）: レポートの完了または失敗の通知のみを添付ファイルなしで送信します。 通知には、すべてのレポート形式の一時的なダウンロードリンクが含まれています。</li><li><i>[!UICONTROL XLS Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをXLS形式で含めるには。 1 MBを超えるファイルは圧縮されます。</li><li><i>[!UICONTROL TSV Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをTSV形式で含めるには。 1 MBを超えるファイルは圧縮されます。</li><li><i>[!UICONTROL CSV Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをCSV形式で含めるには。 1 MBを超えるファイルは圧縮されます。 |
 
 >[!MORELIKETHIS]
 >

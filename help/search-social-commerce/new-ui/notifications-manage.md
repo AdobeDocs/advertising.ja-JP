@@ -2,7 +2,13 @@
 title: （新しいUI）通知の管理
 description: プッシュ通知やNotification Center web アプリケーションなど、Search、Social、およびCommerce通知を表示、設定、管理する方法について説明します。
 feature: Search Notifications
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%

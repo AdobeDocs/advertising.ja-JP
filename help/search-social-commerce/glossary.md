@@ -3,21 +3,26 @@ title: 用語集
 description: 主要用語の定義を参照してください。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw
+TQID: 'https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2377
+source-wordcount: '2408'
 ht-degree: 0%
-
 ---
-
 # 用語集 {#glossary}
 
 ## A-B {#a-b}
@@ -72,7 +77,7 @@ ht-degree: 0%
 
 **顧客獲得単価：** （CPA）広告のコストをコンバージョン数で割った値です。 CPT （Cost Per Transaction）やCPO （Cost Per Order）とも呼ばれます。
 
-**クリック単価：** （CPC） 1）広告のコストを、広告のクリック総数で割った値。 例えば、広告インプレッションに100米ドルを費やし、広告が10 クリックを生成した場合、クリックあたりのコストは100米ドル/10=10米ドルです。 2）広告のクリックごとに広告主に課金する価格設定モデル。
+**クリック単価：** （CPC） 1）広告のコストを、広告のクリック総数で割った値。 例えば、広告インプレッションに100 USDを費やし、広告が10 クリックを生成した場合、クリックあたりのコストは100 USD/10=10 USD/クリックあたりのコストになります。 2）広告のクリックごとに広告主に課金する価格設定モデル。
 
 **注文単価：** （CPO）広告のコストを注文数で割った値。 CPA （顧客獲得単価）またはCPT （取引単価）とも呼ばれます。
 
@@ -100,7 +105,7 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
-**半減期：**&#x200B;数量が初期値の半分に減少するのに必要な時間です。各ポートフォリオについて、「半減期」を指定して、コストモデルや収益モデルに関連するデータの長さを示すことができます。
+**半減期：**&#x200B;数量が初期値の半分に減少するのに必要な時間です。 各ポートフォリオについて、「半減期」を指定して、コストモデルや収益モデルに関連するデータの長さを示すことができます。
 「コストモデル半減期」および「収益モデル半減期」を参照してください。
 
 ## I-J {#i-j}

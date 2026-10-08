@@ -3,27 +3,35 @@ title: 配置の設定
 description: 使用可能なプレースメント設定の説明を参照してください。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-TQID: https://experienceleague.adobe.com/V9gGiuXBnP2TBFUY3ZB7EkZ2TNeBttOgr-qzHUSdMmk
+TQID: 'https://experienceleague.adobe.com/V9gGiuXBnP2TBFUY3ZB7EkZ2TNeBttOgr-qzHUSdMmk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8338485f735af56a90a50b8aa878861b5c0a5894
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 4555
+source-wordcount: '4577'
 ht-degree: 0%
-
 ---
-
 # 配置の設定
 
 ## [!UICONTROL Basics]
@@ -77,9 +85,9 @@ ht-degree: 0%
 * *[!UICONTROL Optimize based on performance]:* パッケージレベルで予算を制御します。
 * *[!UICONTROL Set a Fixed Minimum or Maximum Budget]:*&#x200B;最小および/または最大プレースメント予算を設定できます。 少なくとも1つのタイプの予算を指定します。
 
-   * *[!UICONTROL Maximum Budget]*：値と期間（*[!UICONTROL All time]*、*[!UICONTROL Daily]*、*[!UICONTROL Weekly]*、*[!UICONTROL Monthly]*）を入力します。
+  * *[!UICONTROL Maximum Budget]*：値と期間（*[!UICONTROL All time]*、*[!UICONTROL Daily]*、*[!UICONTROL Weekly]*、*[!UICONTROL Monthly]*）を入力します。
 
-   * *[!UICONTROL Minimum Budget]*: パッケージ予算に対する最小予算の割合。 間隔キャップを指定すると、最小予算値は常に間隔キャップのパーセンテージとして計算されます。 それ以外は、パッケージ予算に対する割合として計算されます。
+  * *[!UICONTROL Minimum Budget]*: パッケージ予算に対する最小予算の割合。 間隔キャップを指定すると、最小予算値は常に間隔キャップのパーセンテージとして計算されます。 それ以外は、パッケージ予算に対する割合として計算されます。
 
 **[!UICONTROL Max Bid]:** インプレッション数1000に対する支払い上限です。
 
@@ -98,8 +106,8 @@ ht-degree: 0%
 1. ![編集](/help/dsp/assets/edit.png)をクリックします。
 1. 次のいずれかの操作を行います。
    * フィルターを追加するには：
-      1. **[!UICONTROL Add Filter]**&#x200B;をクリックします。
-      1. **[!UICONTROL Only bid if]**&#x200B;の横にある指標を選択し、値を入力します。
+     1. **[!UICONTROL Add Filter]**&#x200B;をクリックします。
+     1. **[!UICONTROL Only bid if]**&#x200B;の横にある指標を選択し、値を入力します。
    * フィルターを削除するには、フィルター行の&#x200B;**[!UICONTROL X]**&#x200B;をクリックします。
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -152,8 +160,8 @@ ht-degree: 0%
 1. ![編集](/help/dsp/assets/edit.png)をクリックします。
 1. 次のいずれかの操作を行います。
    * フィルターを追加するには：
-      1. **[!UICONTROL Add Filter]**&#x200B;をクリックします。
-      1. **[!UICONTROL Only bid if]**&#x200B;の横にある指標を選択し、値を入力します。
+     1. **[!UICONTROL Add Filter]**&#x200B;をクリックします。
+     1. **[!UICONTROL Only bid if]**&#x200B;の横にある指標を選択し、値を入力します。
    * フィルターを削除するには、フィルター行の&#x200B;**[!UICONTROL X]**&#x200B;をクリックします。
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -170,26 +178,26 @@ ht-degree: 0%
 1. ![編集](/help/dsp/assets/edit.png)をクリックします。
 1. 次のいずれかの操作を行います。
    * 国、州、市、DMA、連邦立法地区または州立法地区を含めるまたは除外するには：
-      1. 左側の列で場所の種類を選択します。
-      1. （必要に応じて）場所をクリックして展開します。
-      1. 場所の横にある「*[!UICONTROL Include]*」をクリックしてターゲットとして含めるか、「*[!UICONTROL Exclude]*」をクリックしてターゲットとして除外します。
+     1. 左側の列で場所の種類を選択します。
+     1. （必要に応じて）場所をクリックして展開します。
+     1. 場所の横にある「*[!UICONTROL Include]*」をクリックしてターゲットとして含めるか、「*[!UICONTROL Exclude]*」をクリックしてターゲットとして除外します。
    * [郵便番号リスト &#x200B;](/help/dsp/resources/lists-postal-codes-manage.md)を含めるまたは除外するには：
-      1. 左側の列の&#x200B;**[!UICONTROL Postal Code List]**&#x200B;をクリックします。
-      1. 郵便番号の横にある「*[!UICONTROL Include]*」をクリックしてターゲットとして含めるか、「*[!UICONTROL Exclude]*」をクリックしてターゲットとして除外します。
+     1. 左側の列の&#x200B;**[!UICONTROL Postal Code List]**&#x200B;をクリックします。
+     1. 郵便番号の横にある「*[!UICONTROL Include]*」をクリックしてターゲットとして含めるか、「*[!UICONTROL Exclude]*」をクリックしてターゲットとして除外します。
    * 郵便番号を検索し、選択したすべての結果を含めるまたは除外するには：
-      1. 左側の列の&#x200B;**[!UICONTROL Postal Code]**&#x200B;をクリックします。
-      1. 国リストの上の&#x200B;**[!UICONTROL Search]**&#x200B;をクリックします。
-      1. 国を選択します。
-      1. 市区町村名を入力し、![編集](/help/dsp/assets/search.png)をクリックします。
-      1. 正しい検索結果をクリックします。
-      1. すべての場所をターゲットとして含めるには、*[!UICONTROL Include All]*&#x200B;をクリックし、すべての場所をターゲットとして除外するには&#x200B;*[!UICONTROL Exclude All]*&#x200B;をクリックします。
+     1. 左側の列の&#x200B;**[!UICONTROL Postal Code]**&#x200B;をクリックします。
+     1. 国リストの上の&#x200B;**[!UICONTROL Search]**&#x200B;をクリックします。
+     1. 国を選択します。
+     1. 市区町村名を入力し、![編集](/help/dsp/assets/search.png)をクリックします。
+     1. 正しい検索結果をクリックします。
+     1. すべての場所をターゲットとして含めるには、*[!UICONTROL Include All]*&#x200B;をクリックし、すべての場所をターゲットとして除外するには&#x200B;*[!UICONTROL Exclude All]*&#x200B;をクリックします。
    * 郵便番号を入力またはペーストし、すべての郵便番号を含めるまたは除外するには：
-      1. 左側の列の「**[!UICONTROL Postal Code]**」をクリックします。
-      1. 国リストの上の&#x200B;**[!UICONTROL Paste]**&#x200B;をクリックします。
-      1. 国を選択します。
-      1. 1000件までの郵便番号を入力または貼り付けます。
-1行につき1つの郵便番号を含めるか、コンマまたはタブで区切った複数の値を入力します。
-      1. すべての場所をターゲットとして含めるには、*[!UICONTROL Include All]*&#x200B;をクリックし、すべての場所をターゲットとして除外するには&#x200B;*[!UICONTROL Exclude All]*&#x200B;をクリックします。
+     1. 左側の列の「**[!UICONTROL Postal Code]**」をクリックします。
+     1. 国リストの上の&#x200B;**[!UICONTROL Paste]**&#x200B;をクリックします。
+     1. 国を選択します。
+     1. 1000件までの郵便番号を入力または貼り付けます。
+        1行につき1つの郵便番号を含めるか、コンマまたはタブで区切った複数の値を入力します。
+     1. すべての場所をターゲットとして含めるには、*[!UICONTROL Include All]*&#x200B;をクリックし、すべての場所をターゲットとして除外するには&#x200B;*[!UICONTROL Exclude All]*&#x200B;をクリックします。
    * [!UICONTROL Included]または[!UICONTROL Excluded] リストから場所を削除するには、右側の列の場所の横にある&#x200B;**[!UICONTROL X]**&#x200B;をクリックします。
 1. **[!UICONTROL Done]**&#x200B;をクリックします。
 
@@ -218,22 +226,22 @@ ht-degree: 0%
 
 * 在庫タイプを除外するには、名前の横にあるチェックボックスをオフにします。
 * 在庫タイプをターゲットにするには：
-   1. 在庫タイプ名の横にあるチェックボックスをオンにします。
-   1. （オプション）ソースを次のように変更します。
-      1. ![編集](/help/dsp/assets/edit.png)をクリックします。
-      1. （[!UICONTROL Public]および[!UICONTROL On Demand] インベントリ）ソースの表示方法を変更するには、**[!UICONTROL View by Source]**&#x200B;または&#x200B;**[!UICONTROL View by Feed]**&#x200B;をクリックします。
-      1. （該当する場合）必要に応じて在庫をフィルタリングします。
-      1. 含めるソースと除外するソースを指定します。
-         * [!UICONTROL Public]または[!UICONTROL On Demand]在庫の場合：
-            * ソースを含めるには、ソース名の横にある「**[!UICONTROL Include]**」をクリックします。
-            * ソースを除外するには、ソース名の横にある「**[!UICONTROL Exclude]**」をクリックします。
-         * [!UICONTROL Private] インベントリの場合：
-            * 「[!UICONTROL Deals]」タブ：
-               * すべての在庫を取引に含めるには、取引名の横にある&#x200B;**[!UICONTROL Include all]**&#x200B;をクリックします。
-               * 個々の在庫ソースを含めるには、取引名を展開し、ソース名の横にあるチェックボックスをクリックします。
-            * 「[!UICONTROL Deal Lists]」タブで、取引リスト名の横にあるチェックボックスをクリックします。
-   1. （オプション）ターゲティング情報を含むCSV ファイルをブラウザーのダウンロード場所にダウンロードするには、**[!UICONTROL Export]**&#x200B;をクリックします。
-   1. **[!UICONTROL Save]**&#x200B;をクリックします。
+  1. 在庫タイプ名の横にあるチェックボックスをオンにします。
+  1. （オプション）ソースを次のように変更します。
+     1. ![編集](/help/dsp/assets/edit.png)をクリックします。
+     1. （[!UICONTROL Public]および[!UICONTROL On Demand] インベントリ）ソースの表示方法を変更するには、**[!UICONTROL View by Source]**&#x200B;または&#x200B;**[!UICONTROL View by Feed]**&#x200B;をクリックします。
+     1. （該当する場合）必要に応じて在庫をフィルタリングします。
+     1. 含めるソースと除外するソースを指定します。
+        * [!UICONTROL Public]または[!UICONTROL On Demand]在庫の場合：
+          * ソースを含めるには、ソース名の横にある「**[!UICONTROL Include]**」をクリックします。
+          * ソースを除外するには、ソース名の横にある「**[!UICONTROL Exclude]**」をクリックします。
+        * [!UICONTROL Private] インベントリの場合：
+          * 「[!UICONTROL Deals]」タブ：
+            * すべての在庫を取引に含めるには、取引名の横にある&#x200B;**[!UICONTROL Include all]**&#x200B;をクリックします。
+            * 個々の在庫ソースを含めるには、取引名を展開し、ソース名の横にあるチェックボックスをクリックします。
+          * 「[!UICONTROL Deal Lists]」タブで、取引リスト名の横にあるチェックボックスをクリックします。
+  1. （オプション）ターゲティング情報を含むCSV ファイルをブラウザーのダウンロード場所にダウンロードするには、**[!UICONTROL Export]**&#x200B;をクリックします。
+  1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 >[!TIP]
 >
@@ -276,11 +284,11 @@ ht-degree: 0%
 1. ![編集](/help/dsp/assets/edit.png)をクリックします。
 1. 含める、または除外するサイト カテゴリを指定します。
    * サイトカテゴリを含めるには：
-      1. **[!UICONTROL Include categories]**&#x200B;をクリックします。
-      1. ターゲットにする各カテゴリの横にあるチェックボックスをオンにします。
+     1. **[!UICONTROL Include categories]**&#x200B;をクリックします。
+     1. ターゲットにする各カテゴリの横にあるチェックボックスをオンにします。
    * サイトカテゴリを除外するには：
-      1. **[!UICONTROL Exclude categories]**&#x200B;をクリックします。
-      1. 除外する各カテゴリの横にあるチェックボックスをオンにします。
+     1. **[!UICONTROL Exclude categories]**&#x200B;をクリックします。
+     1. 除外する各カテゴリの横にあるチェックボックスをオンにします。
 1. （オプション）ターゲティング情報を含むCSV ファイルをブラウザーのダウンロード場所にダウンロードするには、**[!UICONTROL Export]**&#x200B;をクリックします。
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -289,19 +297,19 @@ ht-degree: 0%
 1. ![編集](/help/dsp/assets/edit.png)をクリックします。
 1. サイトを指定します。
    * 「[!UICONTROL Paste URL]」タブから：
-      * サイトを検索するには：
-         1. **[!UICONTROL Search]**&#x200B;をクリックします。
-         1. キーワードを入力し、サイト階層を選択するか、サイト カテゴリを選択します。
-         1. 検索結果で、除外するサイトを選択します。
-            * 個々のサイトを除外するには、隣接するチェックボックスをオンにします。
-            * （50件を超える結果が使用可能な場合）最初の50件の結果を除外するには、**[!UICONTROL Exclude these 50]**&#x200B;をクリックします。 すべての検索結果を除外するには、**[!UICONTROL Exclude these \<*NN *\>]**&#x200B;をクリックします。
-      * ドメイン名を入力するには：
-         1. **[!UICONTROL Paste]**&#x200B;をクリックします。
-         1. 1つ以上のドメイン名を別々の行に入力します。
-         1. **[!UICONTROL Exclude All]**&#x200B;をクリックします。
+     * サイトを検索するには：
+       1. **[!UICONTROL Search]**&#x200B;をクリックします。
+       1. キーワードを入力し、サイト階層を選択するか、サイト カテゴリを選択します。
+       1. 検索結果で、除外するサイトを選択します。
+          * 個々のサイトを除外するには、隣接するチェックボックスをオンにします。
+          * （50件を超える結果が使用可能な場合）最初の50件の結果を除外するには、**[!UICONTROL Exclude these 50]**&#x200B;をクリックします。 すべての検索結果を除外するには、**[!UICONTROL Exclude these \<*NN *\>]**&#x200B;をクリックします。
+     * ドメイン名を入力するには：
+       1. **[!UICONTROL Paste]**&#x200B;をクリックします。
+       1. 1つ以上のドメイン名を別々の行に入力します。
+       1. **[!UICONTROL Exclude All]**&#x200B;をクリックします。
    * 「[!UICONTROL URL Lists]」タブから：
-      1. （オプション）検索フィールドにリスト名の全部または一部を入力して、URL リストを検索します。
-      1. 除外する各URL リストの横にあるチェックボックスをオンにします。
+     1. （オプション）検索フィールドにリスト名の全部または一部を入力して、URL リストを検索します。
+     1. 除外する各URL リストの横にあるチェックボックスをオンにします。
 1. 完了したら、**[!UICONTROL Done]**&#x200B;をクリックします。
 
 >[!NOTE]
@@ -353,13 +361,13 @@ ht-degree: 0%
 
 * *[!UICONTROL Universal ID]*: ユーザーのプライバシーに焦点を当てたIDをターゲットにします。1つのID タイプを選択してください。 使用可能なオプションは、[!UICONTROL Geo-Targeting] セクションで選択した地理的目標によって決まります。 [[!DNL RampID] 個のセグメントをDSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)に直接読み込み、[個のセグメントを使用して、PIIをDSPがユニバーサル ID](/help/dsp/audiences/sources/source-about.md)に変換します。[&#x200B; ファーストパーティ  [!DNL AdFixus] 個のセグメントをDSP](/help/dsp/audiences/sources/source-adfixus.md)にストリーミングします。または、ユニバーサル ID[&#128279;](/help/dsp/audiences/custom-segment-create.md)をトラッキングする個のカスタムセグメントを使用します。
 
-   * *[!UICONTROL AdFixus]*: ターゲット [!DNL AdFixus] IDがAdvertising DSPにインポートされました。
+  * *[!UICONTROL AdFixus]*: ターゲット [!DNL AdFixus] IDがAdvertising DSPにインポートされました。
 
-   * *[!UICONTROL ID5]*: ターゲット [!DNL ID5] IDは、電子メールアドレスやその他のシグナルから確率的に作成されます。 ID5 IDは無料でご利用いただけます。 **注：** [!DNL Eyeota]のサードパーティセグメントには、ID5 IDが含まれる場合があります。
+  * *[!UICONTROL ID5]*: ターゲット [!DNL ID5] IDは、電子メールアドレスやその他のシグナルから確率的に作成されます。 ID5 IDは無料でご利用いただけます。 **注：** [!DNL Eyeota]のサードパーティセグメントには、ID5 IDが含まれる場合があります。
 
-   * *[!UICONTROL RampID]*: メールアドレスを使用してサイトにログインしたユーザーのうち[!DNL LiveRamp] [!DNL RampIDs]人をターゲットにします。 [!DNL RampIDs]は、北米、オーストラリア、ニュージーランドのユーザーが利用できます。
+  * *[!UICONTROL RampID]*: メールアドレスを使用してサイトにログインしたユーザーのうち[!DNL LiveRamp] [!DNL RampIDs]人をターゲットにします。 [!DNL RampIDs]は、北米、オーストラリア、ニュージーランドのユーザーが利用できます。
 
-   * *[!UICONTROL Unified ID2.0]*: メールアドレスを使用してサイトにログインしたユーザーの[!DNL Unified ID2.0] （UID2） IDをターゲットにします。 [!DNL UID2 IDs]は、欧州経済領域およびその他の一部の国では利用できません。 [禁止国の一覧](/help/policies/universal-id-policy.md#prohibited-countries-uid2)を参照してください。
+  * *[!UICONTROL Unified ID2.0]*: メールアドレスを使用してサイトにログインしたユーザーの[!DNL Unified ID2.0] （UID2） IDをターゲットにします。 [!DNL UID2 IDs]は、欧州経済領域およびその他の一部の国では利用できません。 [禁止国の一覧](/help/policies/universal-id-policy.md#prohibited-countries-uid2)を参照してください。
 
   **[!UICONTROL Terms of service]**：ユニバーサル IDを使用するための利用条件。 お客様またはDSP アカウント内の他のユーザーは、IDを読み込む、データを新しいID タイプに変換する、またはID タイプをターゲティングする前に、条件に1回同意する必要があります。 マネージドサービス契約を締結しているお客様には、Adobeアカウントチームが同意を得て、組織の代わりに条件に同意します。 条件を読むには、**>**&#x200B;をクリックします。 条件に同意するには、条件の一番下までスクロールして「**[!UICONTROL Accept]**」をクリックします。
 
@@ -415,13 +423,13 @@ ht-degree: 0%
 1. ![編集](/help/dsp/assets/edit.png)をクリックします。
 1. 含めるISPまたは除外するISPを指定します。
    * ISPを含めるには：
-      1. **[!UICONTROL Include ISPs]**&#x200B;をクリックします。
-      1. （オプション）キーワードでリストをフィルタリングします。
-      1. ターゲットにする各ISPの横にあるチェックボックスをオンにします。
+     1. **[!UICONTROL Include ISPs]**&#x200B;をクリックします。
+     1. （オプション）キーワードでリストをフィルタリングします。
+     1. ターゲットにする各ISPの横にあるチェックボックスをオンにします。
    * ISPを除外するには：
-      1. **[!UICONTROL Exclude ISPs]**&#x200B;をクリックします。
-      1. （オプション）キーワードでリストをフィルタリングします。
-      1. 除外する各ISPの横にあるチェックボックスをオンにします。
+     1. **[!UICONTROL Exclude ISPs]**&#x200B;をクリックします。
+     1. （オプション）キーワードでリストをフィルタリングします。
+     1. 除外する各ISPの横にあるチェックボックスをオンにします。
 1. （オプション） ISP ターゲティング情報を含むCSV ファイルをブラウザーのダウンロード場所にダウンロードするには、**[!UICONTROL Export]**&#x200B;をクリックします。
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -440,37 +448,37 @@ IDは「51」で始まり、8桁で構成されている必要があります。
 
 * [!UICONTROL DoubleVerify]:
 
-   * **[!UICONTROL Block sites that are]:** （オプション）既定でブロックする1つ以上の種類のインベントリ コンテキスト。 追加料金が適用される場合があります。
+  * **[!UICONTROL Block sites that are]:** （オプション）既定でブロックする1つ以上の種類のインベントリ コンテキスト。 追加料金が適用される場合があります。
 
 * [!UICONTROL Peer 39]:
 
-   * **デフォルトでターゲットにするインベントリ属性の種類を**&#x200B;個または複数指定するサイトをターゲットにします。 追加料金が適用される場合があります。
+  * **デフォルトでターゲットにするインベントリ属性の種類を**&#x200B;個または複数指定するサイトをターゲットにします。 追加料金が適用される場合があります。
 
 * [!UICONTROL ComScore]:
 
-   * **次のサイトをブロック：** （オプション）既定でブロックする1つ以上の種類のインベントリ属性。 追加料金が適用される場合があります。
+  * **次のサイトをブロック：** （オプション）既定でブロックする1つ以上の種類のインベントリ属性。 追加料金が適用される場合があります。
 
 * [!UICONTROL Integral Ad Science]
 
-   * **[!UICONTROL Adult Content]:** （オプション）デフォルトで広告をブロックするアダルトコンテンツの程度：*[!UICONTROL Do Not Block]* （デフォルト）、*[!UICONTROL Standard]*、または&#x200B;*[!UICONTROL Strict]*。 追加料金が適用される場合があります。
+  * **[!UICONTROL Adult Content]:** （オプション）デフォルトで広告をブロックするアダルトコンテンツの程度：*[!UICONTROL Do Not Block]* （デフォルト）、*[!UICONTROL Standard]*、または&#x200B;*[!UICONTROL Strict]*。 追加料金が適用される場合があります。
 
-   * **[!UICONTROL Alcohol Content]:** （オプション）既定で広告をブロックするアルコール コンテンツの程度：*[!UICONTROL Do Not Block]* （既定）、*[!UICONTROL Standard]*、または&#x200B;*[!UICONTROL Strict]*。 追加料金が適用される場合があります。
+  * **[!UICONTROL Alcohol Content]:** （オプション）既定で広告をブロックするアルコール コンテンツの程度：*[!UICONTROL Do Not Block]* （既定）、*[!UICONTROL Standard]*、または&#x200B;*[!UICONTROL Strict]*。 追加料金が適用される場合があります。
 
 **[!UICONTROL Pre-bid fraud blocking]:**&#x200B;詐欺トラフィックと[!DNL DoubleVerify]、[!DNL Integral Ad Science]、[!DNL Peer39]を通じて測定された疑わしいアクティビティに基づいて、ブロックするサイトの種類。 広告主レベルのデフォルトは、新しいプレースメントに対して選択されますが、設定は次のように変更できます。
 
 * [!UICONTROL DoubleVerify]: （デスクトップおよびモバイル web ディスプレイ、ネイティブ、ビデオ、および標準のコネクテッド TV広告に適用可能）
 
-   * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** デフォルトでは、新しいプレースメント用に、ハイジャックされたデバイス上のトラフィックを含む、100%無効なすべてのトラフィックをブロックします。 追加料金が適用される場合があります。
+  * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** デフォルトでは、新しいプレースメント用に、ハイジャックされたデバイス上のトラフィックを含む、100%無効なすべてのトラフィックをブロックします。 追加料金が適用される場合があります。
 
-   * **[!UICONTROL Also block sites with]:** （オプション）DSPがデフォルトで広告をブロックする原因となる追加レベルの不正行為および無効なトラフィック：*[!UICONTROL None]* （デフォルトでは、追加のトラフィックがブロックされません）、*[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*、*[!UICONTROL >4% Average Fraud/IVT levels]*、*[!UICONTROL >6% Average Fraud/IVT levels]*、*[!UICONTROL >10% Average Fraud/IVT levels]*、または&#x200B;*[!UICONTROL >25% Average Fraud/IVT levels]*。 追加料金が適用される場合があります。
+  * **[!UICONTROL Also block sites with]:** （オプション）DSPがデフォルトで広告をブロックする原因となる追加レベルの不正行為および無効なトラフィック：*[!UICONTROL None]* （デフォルトでは、追加のトラフィックがブロックされません）、*[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*、*[!UICONTROL >4% Average Fraud/IVT levels]*、*[!UICONTROL >6% Average Fraud/IVT levels]*、*[!UICONTROL >10% Average Fraud/IVT levels]*、または&#x200B;*[!UICONTROL >25% Average Fraud/IVT levels]*。 追加料金が適用される場合があります。
 
 * [!UICONTROL Peer 39]: （デスクトップおよびモバイル web ディスプレイ、ネイティブ、ビデオ広告に適用可能）
 
-   * **[!UICONTROL Block sites that are]:** （オプション） DSPがデフォルトで広告をブロックする原因となる1つ以上の種類の不正行為：*[!UICONTROL Fraud]* （不正行為を伴うすべてのサイトをブロック）、*[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*&#x200B;または&#x200B;*[!UICONTROL Fraud: Zero Ads]*。 追加料金が適用される場合があります。
+  * **[!UICONTROL Block sites that are]:** （オプション） DSPがデフォルトで広告をブロックする原因となる1つ以上の種類の不正行為：*[!UICONTROL Fraud]* （不正行為を伴うすべてのサイトをブロック）、*[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*&#x200B;または&#x200B;*[!UICONTROL Fraud: Zero Ads]*。 追加料金が適用される場合があります。
 
 * [!UICONTROL Integral Ad Science]: （デスクトップおよびモバイル web ディスプレイ、ネイティブ、ビデオ広告に適用可能）
 
-   * **[!UICONTROL Block sites that are]:** （オプション）DSPがデフォルトで広告をブロックする不審なweb サイトまたはアプリのアクティビティのタイプ：*[!UICONTROL None]* （デフォルトでは、不審なアクティビティに基づいて広告をブロックしません）、*[!UICONTROL Suspicious Activity - High Risk]*、または&#x200B;*[!UICONTROL Suspicious Activity - High or Moderate Risk]*。 追加料金が適用される場合があります。
+  * **[!UICONTROL Block sites that are]:** （オプション）DSPがデフォルトで広告をブロックする不審なweb サイトまたはアプリのアクティビティのタイプ：*[!UICONTROL None]* （デフォルトでは、不審なアクティビティに基づいて広告をブロックしません）、*[!UICONTROL Suspicious Activity - High Risk]*、または&#x200B;*[!UICONTROL Suspicious Activity - High or Moderate Risk]*。 追加料金が適用される場合があります。
 
 **[!UICONTROL Pre-bid viewability]:** （デスクトップおよびモバイルのweb ディスプレイ、ネイティブ、ビデオ広告に適用）入札前にプレースメントを申し込むビューアビリティフィルター：[!DNL DoubleVerify]、および[!DNL Integral Ad Science]。 広告主レベルのデフォルトは、新しいプレースメントに対して選択されますが、設定は変更できます。 追加料金が適用される場合があります。
 
@@ -495,13 +503,13 @@ IDは「51」で始まり、8桁で構成されている必要があります。
 1. 次のいずれかの操作を行います。
    * 既存のピクセルを選択するには、ピクセル行のチェックボックスをオンにします。
    * ピクセルを作成するには：
-      1. **[!UICONTROL Create]**&#x200B;をクリックします。
-      1. 次の情報を入力します。
-         * **[!UICONTROL Pixel name]:** ピクセル名。最大長は500文字です。 ピクセルを簡単に識別できる名前を使用します。
-         * **[!UICONTROL Pixel event fires on]:** ピクセルをトリガーして起動するイベント。 利用可能なイベントは、広告の種類によって異なります。
-         * **[!UICONTROL Pixel type]:** ピクセルが&#x200B;*[!UICONTROL IMG URL]* （1x1 ピクセル画像ファイル）、*[!UICONTROL HTML]*、または&#x200B;*[!UICONTROL JavaScript URL]*&#x200B;のいずれであるか。
-         * **[!UICONTROL Pixel URL]:** ピクセル画像のURL。
-      1. **[!UICONTROL Create and attach]**&#x200B;をクリックします。
+     1. **[!UICONTROL Create]**&#x200B;をクリックします。
+     1. 次の情報を入力します。
+        * **[!UICONTROL Pixel name]:** ピクセル名。最大長は500文字です。 ピクセルを簡単に識別できる名前を使用します。
+        * **[!UICONTROL Pixel event fires on]:** ピクセルをトリガーして起動するイベント。 利用可能なイベントは、広告の種類によって異なります。
+        * **[!UICONTROL Pixel type]:** ピクセルが&#x200B;*[!UICONTROL IMG URL]* （1x1 ピクセル画像ファイル）、*[!UICONTROL HTML]*、または&#x200B;*[!UICONTROL JavaScript URL]*&#x200B;のいずれであるか。
+        * **[!UICONTROL Pixel URL]:** ピクセル画像のURL。
+     1. **[!UICONTROL Create and attach]**&#x200B;をクリックします。
    1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 **[!UICONTROL Conversion Pixels]:** （オプション） プレースメント内のすべての新しい広告にデフォルトで添付するコンバージョントラッキングピクセル。 コンバージョンピクセルを指定するには：
@@ -510,20 +518,20 @@ IDは「51」で始まり、8桁で構成されている必要があります。
 1. 次のいずれかの操作を行います。
    * 既存のピクセルを選択するには、ピクセル行のチェックボックスをオンにします。
    * ピクセルを作成するには：
-      1. **[!UICONTROL Create]**&#x200B;をクリックします。
-      1. 次の情報を入力します。
-         * **[!UICONTROL Conversion pixel name]:** ピクセル名。最大長は500文字です。 ピクセルを簡単に識別できる名前を使用します。
-         * **[!UICONTROL Conversion category]:** コンバージョンの種類。
-         * **[!UICONTROL Impression conversion window]:**&#x200B;広告インプレッションが発生してから、インプレッションがコンバージョンに起因する可能性がある日数。 デフォルトは30日です。
-         * **[!UICONTROL Click conversion window]:**&#x200B;広告のクリックが発生してからクリックするまでの日数。クリックがコンバージョンに起因する可能性があります。 デフォルトは30日です。
-         * **[!UICONTROL Notes]:** （オプション） ピクセルに関する説明またはその他の情報。
-      1. **[!UICONTROL Create and attach]**&#x200B;をクリックします。
-      1. 関連するweb ページにコンバージョンピクセルを実装します。
-         1. メインメニューで、**[!UICONTROL Resources]** > **[!UICONTROL Conversion pixels]**&#x200B;に移動します。
-         1. ピクセル行で、**[!UICONTROL edit]**&#x200B;をクリックします。
-         1. 必要に応じて、[!UICONTROL HTML Tag]および[!UICONTROL Flash Tag] フィールドの値をコピーして、広告主またはweb サイトの連絡先に提供します。
+     1. **[!UICONTROL Create]**&#x200B;をクリックします。
+     1. 次の情報を入力します。
+        * **[!UICONTROL Conversion pixel name]:** ピクセル名。最大長は500文字です。 ピクセルを簡単に識別できる名前を使用します。
+        * **[!UICONTROL Conversion category]:** コンバージョンの種類。
+        * **[!UICONTROL Impression conversion window]:**&#x200B;広告インプレッションが発生してから、インプレッションがコンバージョンに起因する可能性がある日数。 デフォルトは30日です。
+        * **[!UICONTROL Click conversion window]:**&#x200B;広告のクリックが発生してからクリックするまでの日数。クリックがコンバージョンに起因する可能性があります。 デフォルトは30日です。
+        * **[!UICONTROL Notes]:** （オプション） ピクセルに関する説明またはその他の情報。
+     1. **[!UICONTROL Create and attach]**&#x200B;をクリックします。
+     1. 関連するweb ページにコンバージョンピクセルを実装します。
+        1. メインメニューで、**[!UICONTROL Resources]** > **[!UICONTROL Conversion pixels]**&#x200B;に移動します。
+        1. ピクセル行で、**[!UICONTROL edit]**&#x200B;をクリックします。
+        1. 必要に応じて、[!UICONTROL HTML Tag]および[!UICONTROL Flash Tag] フィールドの値をコピーして、広告主またはweb サイトの連絡先に提供します。
 
-            広告主のIT部門やその他のグループは、タグのデプロイメントをスケジュールする、または情報を得る必要がある場合があります。
+           広告主のIT部門やその他のグループは、タグのデプロイメントをスケジュールする、または情報を得る必要がある場合があります。
    1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 **[!UICONTROL 3rd-party Fees]:** （オプション） 1000 インプレッションあたりの請求不可コストとして追跡される、静的なサードパーティ料金率。 パッケージレベルのデフォルトは、別の値を入力しない限り、該当する場合、新しいプレースメントに自動的に適用されます。

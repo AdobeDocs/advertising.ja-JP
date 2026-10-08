@@ -4,22 +4,32 @@ description: ポートフォリオシミュレーションの詳細。
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
-TQID: https://experienceleague.adobe.com/9B4gKrZnnUmgj0LzxwM2CIkJsIO9Pe9R8RDR4mAmIwo
+TQID: 'https://experienceleague.adobe.com/9B4gKrZnnUmgj0LzxwM2CIkJsIO9Pe9R8RDR4mAmIwo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
+    internal-label: Search Simulations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1182
+source-wordcount: '1208'
 ht-degree: 0%
-
 ---
-
 # シミュレーションについて
 
 *Beta機能*
@@ -75,7 +85,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 #### カスタムシミュレーションのダウンロード
 
-ダウンロードされた各カスタムシミュレーションは、1つのワークブックで構成されます。 各ワークブックには、指定されたエンティティ レベルのシミュレーション （ポートフォリオ、キャンペーン、広告グループ、入札単位）ごとに、そのレベルでデータが使用可能な場合に1つのワークシートが含まれます。 デバイスレベルのデータを指定すると、各ワークシートには[!UICONTROL Device]列が含まれます。 各ワークシートには、該当するエンティティおよび（レポートに指定されている場合） 20 ステップごとに1行とデバイスタイプ（キャンペーンごとに1行など）のデータが含まれます。 各行のデータには、対応するターゲットに基づいて、予測される限界売上原価、コスト、クリック数、加重収益（目標値）、デバイスタイプ、および目標に含まれるコンバージョン指標が含まれます。 ポートフォリオレベルのワークシートには、ステップレベルのターゲットも含まれ、エンティティレベルのワークシートには、広告ネットワーク、アカウント、キャンペーン、および（該当する場合）広告グループも含まれます。   <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
+ダウンロードされた各カスタムシミュレーションは、1つのワークブックで構成されます。 各ワークブックには、指定されたエンティティ レベルのシミュレーション （ポートフォリオ、キャンペーン、広告グループ、入札単位）ごとに、そのレベルでデータが使用可能な場合に1つのワークシートが含まれます。 デバイスレベルのデータを指定すると、各ワークシートには[!UICONTROL Device]列が含まれます。 各ワークシートには、該当するエンティティおよび（レポートに指定されている場合） 20 ステップごとに1行とデバイスタイプ（キャンペーンごとに1行など）のデータが含まれます。 各行のデータには、対応するターゲットに基づいて、予測される限界売上原価、コスト、クリック数、加重収益（目標値）、デバイスタイプ、および目標に含まれるコンバージョン指標が含まれます。 ポートフォリオレベルのワークシートには、ステップレベルのターゲットも含まれ、エンティティレベルのワークシートには、広告ネットワーク、アカウント、キャンペーン、および（該当する場合）広告グループも含まれます。  <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
 
 #### 画面上のカスタムシミュレーションの詳細
 
@@ -125,7 +135,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 * ポートフォリオを起動する前に、対応するポートフォリオ設定で期待できるパフォーマンスを見積もることができます。少なくとも2週間のデータを使用してください。 シミュレーション結果が、含まれるキャンペーンの過去データに基づいて予想よりもパフォーマンスが低いことを示している場合は、ポートフォリオを起動する前に、問題を調査して解決します。
 
-* キャンペーンの追加や目的の変更など、ポートフォリオに大きな変更があった後。 ポートフォリオのモデリング開始日、コンバージョン指標の重み付け、目標のクリック値に変更を加えた場合は、17:00 PSTの後で次の日まで待って、更新されたコストと収益モデルが使用可能な場合にシミュレーションを実行します。
+* キャンペーンの追加や目的の変更など、ポートフォリオに大きな変更があった後。 ポートフォリオのモデリング開始日、コンバージョン指標の重み付け、目標のクリック値に変更を加えた場合は、17:00 PST後の次の日まで待って、更新されたコストと収益モデルが使用可能な場合にシミュレーションを実行します。
 
 * コンバージョン指標レベルでパフォーマンスの傾向を定期的に監視します。
 

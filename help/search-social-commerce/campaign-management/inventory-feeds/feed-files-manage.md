@@ -3,20 +3,24 @@ title: 在庫データフィードファイルの管理
 description: フィード データの処理方法を制御する設定を構成する方法について説明します。
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
+TQID: 'https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: '1249'
 ht-degree: 0%
-
 ---
-
 # 在庫データフィードファイルの管理
 
 *[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
@@ -75,15 +79,15 @@ shoes<TAB>Clarks<TAB>20
 
 * 手作業によるレビューや編集が限定的で、繰り返し可能なプロセスを実現するには、フィードファイルとアカウント構造データを次のように設定します。
 
-   * アカウント構造を作成したり、既存のアカウント構造にマッピングしたりするのに十分なデータを含む列や行を含めます。 理想的には、製品分類と密接に関連し、フィードデータが簡単にマッピングされる既存のアカウント構造を使用します。
+  * アカウント構造を作成したり、既存のアカウント構造にマッピングしたりするのに十分なデータを含む列や行を含めます。 理想的には、製品分類と密接に関連し、フィードデータが簡単にマッピングされる既存のアカウント構造を使用します。
 
-   * 広告のコピーに使用できる程度に短い説明を含めます。
+  * 広告のコピーに使用できる程度に短い説明を含めます。
 
-   * 製品行をまたいで一貫したデータパターンと命名規則を使用。
+  * 製品行をまたいで一貫したデータパターンと命名規則を使用。
 
-   * 先頭のスペースと末尾のスペースをすべて削除します。
+  * 先頭のスペースと末尾のスペースをすべて削除します。
 
-   * 文字化けした文字を削除します。
+  * 文字化けした文字を削除します。
 
 ## フィードファイルの表示またはダウンロード
 

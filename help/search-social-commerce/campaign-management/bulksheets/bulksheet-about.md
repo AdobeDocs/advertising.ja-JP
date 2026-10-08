@@ -3,18 +3,21 @@ title: バルクシートを使用したキャンペーンデータの管理に�
 description: 広告ネットワークで使用できるバルクシート機能、バルクシート ワークフロー、エラー処理について説明します。
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/VvfpRiNIhOEk15R4eJn-BP-NmPeNvYVzRN6evnJK45U
+TQID: 'https://experienceleague.adobe.com/VvfpRiNIhOEk15R4eJn-BP-NmPeNvYVzRN6evnJK45U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 358bcf190b36bd3c01e33a3d5762361a4a015393
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 775
+source-wordcount: '775'
 ht-degree: 0%
-
 ---
-
 # バルクシートを使用したキャンペーンデータの管理について
 
 バルクシートは、特定の形式のキャンペーンデータを含むファイルで、キャンペーンおよび広告グループの構造データとテキスト広告をすばやく作成または変更するために使用できます。 1つ以上のアカウント、特定のキャンペーンや広告グループ、または特定のテキスト広告、プレースメント、製品グループのデータを含むバルクシートを生成（ダウンロード）できます。 バルクシートを使用して、大規模なデータセットを管理したり、小さな変更を加えたりすることができます。 各広告ネットワークには、異なる情報列が必要です。

@@ -1,23 +1,28 @@
 ---
-title: ' [!DNL Naver]  トラッキング専用アカウントを実装'
-description: 広告ネットワークから直接購入した広告のパフォーマンスを追跡、報告、視覚化できるように、 [!DNL Naver]  アカウントのトラッキングキャンペーンを設定する方法について説明します。
+title: '[!DNL Naver]個のトラッキング専用アカウントを実装'
+description: 広告ネットワークから直接購入した広告のパフォーマンスを追跡、報告、視覚化できるように、[!DNL Naver] アカウントに対するトラッキングキャンペーンを設定する方法について説明します。
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/ny0Bdmm-faAvcnnS77oGVJGwGr3tAHOtFpQ-EGhcBVs
+TQID: 'https://experienceleague.adobe.com/ny0Bdmm-faAvcnnS77oGVJGwGr3tAHOtFpQ-EGhcBVs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 687
+source-wordcount: '690'
 ht-degree: 0%
-
 ---
-
 # [!DNL Naver]個のトラッキング専用アカウントを実装
 
 *[!DNL Naver]アカウントのみ*
@@ -26,7 +31,7 @@ ht-degree: 0%
 
 トラッキング施策では、既存の施策、広告グループ、キーワードをレプリケートします。 Search, Social, &amp; Commerceでアカウント構造を作成し、広告ネットワーク内の元のキャンペーンにトラッキングを追加したら、キーワードまたは広告の毎日のネットワークトラフィック指標をアップロードできます。 Search, Social, &amp; Commerceは、コンバージョンが広告やキーワードに起因するものであると考えます。
 
-あらゆるキャンペーンをまたいで、個々のキャンペーン、広告グループ、キーワード/広告のパフォーマンス指標を追跡できます。 また、最も基本的なレポート、高度なレポート、アシストレポートに、他の広告ネットワークのデータなどの情報を含めることもできます。 Adobe Analyticsへの指標の書き出しのサポートは利用できませんが、Search, Social, &amp; Commerceでは、 [!DNL Analytics][&#128279;](/help/integrations/analytics/analytics-data-in-advertising.md)でトラッキングしている指標をSearch, Social, &amp; Commerceに同期できます。
+あらゆるキャンペーンをまたいで、個々のキャンペーン、広告グループ、キーワード/広告のパフォーマンス指標を追跡できます。 また、最も基本的なレポート、高度なレポート、アシストレポートに、他の広告ネットワークのデータなどの情報を含めることもできます。 Adobe Analyticsへの指標の書き出しのサポートは利用できませんが、Search, Social, &amp; Commerceでは、 [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/analytics-data-in-advertising.md)でトラッキングしている指標をSearch, Social, &amp; Commerceに同期できます。
 
 >[!NOTE]
 >
@@ -83,4 +88,4 @@ ht-degree: 0%
 >* [付録 –  [!DNL Naver]  アカウント &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)に必要なバルクシート データ
 >* [&#x200B; トラッキング専用アカウント  [!DNL Naver] のトラフィックとコンバージョン指標をアップロード &#x200B;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
 >*  [!DNL Naver]  トラッキング専用アカウント [&#128279;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)の指標データ要件
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の クリックトラッキング形式
+>*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の クリックトラッキング形式

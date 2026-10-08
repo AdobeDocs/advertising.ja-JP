@@ -3,22 +3,26 @@ title: SSP パートナー
 description: 利用可能なサプライサイドプラットフォーム（SSP）とオープンエクスチェンジパートナーの一覧をご覧ください。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-TQID: https://experienceleague.adobe.com/A41OF1vywMSxgMF2hOTD0X4bKjvroZFMzqeCHolkITY
+TQID: 'https://experienceleague.adobe.com/A41OF1vywMSxgMF2hOTD0X4bKjvroZFMzqeCHolkITY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 505
+source-wordcount: '485'
 ht-degree: 3%
-
 ---
-
 # SSP パートナー
 
 サプライサイドプラットフォーム（SSP）とは、デジタルメディアの所有者とパブリッシャーが、自動オークションでデジタル広告を販売するのを支援する広告技術プラットフォームです。 デジタルメディアの所有者やメディア企業は、広告在庫の供給と配信を調整、管理、収益化するためにSSPを使用しています。 Advertising DSPは、あらゆる主要なSSPと統合されているため、広告主は、広告ニーズに合わせて高品質な広告在庫を容易に確認できます。
@@ -35,10 +39,10 @@ ht-degree: 3%
 | --- | --- | --- | --- | --- | --- | --- |
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | PG サポート | グローバル | USD、EUR、GBP | オーディオデスクトップとモバイル |
 | [!DNL Cadent] | [!DNL Cadent] （以前の[!DNL EMX Digital]） | Adobe Advertising | — | US/CA | USD | デスクトップとモバイルの表示<br><br> ビデオデスクトップ、モバイル、およびCTV |
-| [!DNL DailyMotion] |  | [!DNL TubeMogul]またはAdobe Advertising | — | 米国+ EMEA | USD、EUR | デスクトップとモバイルの表示<br><br> ビデオデスクトップ、モバイル、およびCTV |
-| [!DNL Equativ] | [!DNL Equativ] （以前の[!DNL Smart AdServer]） | [!DNL TubeMogul]またはAdobe Advertising | — | EMEA | USD、EUR | デスクトップとモバイルの表示<br><br> デスクトップとモバイルのビデオ |
+| [!DNL DailyMotion] |  | [!DNL TubeMogul]またはAdobe Advertising | — | 米国+ EMEA | USD、ユーロ | デスクトップとモバイルの表示<br><br> ビデオデスクトップ、モバイル、およびCTV |
+| [!DNL Equativ] | [!DNL Equativ] （以前の[!DNL Smart AdServer]） | [!DNL TubeMogul]またはAdobe Advertising | — | EMEA | USD、ユーロ | デスクトップとモバイルの表示<br><br> デスクトップとモバイルのビデオ |
 | [!DNL FreeWheel] | [!DNL Comcast] | [!DNL TubeMogul]またはAdobe Advertising | PG サポート | グローバル | USD、EUR、AUD、GBP | ビデオデスクトップ、モバイル、CTV |
-| [!DNL Google Authorized Buyers] （以前の[!DNL Google AdX]） | [!DNL Google] | Adobe NA - 44912714<br>Adobe APACおよびEU - 89185975 | PG サポート | グローバル | USD, BRL | オーディオ デスクトップとモバイル <br><br> ディスプレイ デスクトップとモバイル <br><br> ビデオ デスクトップ、モバイル、およびCTV |
+| [!DNL Google Authorized Buyers] （以前の[!DNL Google AdX]） | [!DNL Google] | Adobe NA - 44912714<br>Adobe APACおよびEU - 89185975 | PG サポート | グローバル | USD、BRL | オーディオ デスクトップとモバイル <br><br> ディスプレイ デスクトップとモバイル <br><br> ビデオ デスクトップ、モバイル、およびCTV |
 | [!DNL GumGum] |  | Adobe Advertising | — | グローバル | USD | デスクトップとモバイルの表示<br><br> デスクトップとモバイルのビデオ |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | — | グローバル | USD | デスクトップとモバイルの表示<br><br> ビデオデスクトップ、モバイル、およびCTV |
 | [!DNL Magnite DV+] | [!DNL Magnite] （以前の[!DNL Rubicon]） | [!DNL TubeMogul]またはAdobe Advertising | PG サポート | グローバル | USD | オーディオ デスクトップとモバイル <br><br> ディスプレイ デスクトップとモバイル <br><br> ビデオ デスクトップ、モバイル、およびCTV |

@@ -3,22 +3,26 @@ title: プレースメント [!UICONTROL Diagnostics] レポートを表示
 description: プレースメントの設定とペーシングに関する問題を診断する方法について説明します。
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-TQID: https://experienceleague.adobe.com/aRELxvUfrIZVu7-qzxO8QfrlMGNP17YJk0ru04oRFQQ
+TQID: 'https://experienceleague.adobe.com/aRELxvUfrIZVu7-qzxO8QfrlMGNP17YJk0ru04oRFQQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '306'
 ht-degree: 0%
-
 ---
-
 # プレースメント [!UICONTROL Diagnostics] レポートを表示
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
@@ -51,31 +55,31 @@ ht-degree: 0%
 
    * 変更ログを表示するには：
 
-      1. **[!UICONTROL Change Log]**&#x200B;をクリックします。
+     1. **[!UICONTROL Change Log]**&#x200B;をクリックします。
 
-      1. （オプション）レポート結果をフィルタリングします。
+     1. （オプション）レポート結果をフィルタリングします。
 
-         * 日付メニューで、レポート期間をデフォルトの過去14日間から別の期間（*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],*, *[!UICONTROL Last 1 year]*）に変更します。
+        * 日付メニューで、レポート期間をデフォルトの過去14日間から別の期間（*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],*, *[!UICONTROL Last 1 year]*）に変更します。
 
-         * 左側のメニューで、特定のユーザー名でレポートをフィルタリングします。
+        * 左側のメニューで、特定のユーザー名でレポートをフィルタリングします。
 
-         * 右側のメニューで、特定の配置設定でレポートをフィルタリングします。
+        * 右側のメニューで、特定の配置設定でレポートをフィルタリングします。
 
    * 広告承認のステータスを表示するには：
 
-      1. 右上の「**[!UICONTROL Ad Approvals]**」をクリックします。
+     1. 右上の「**[!UICONTROL Ad Approvals]**」をクリックします。
 
-      1. （オプション）広告を一時停止またはアクティブにするには、広告列のステータススイッチ（![&#x200B; ステータススイッチ &#x200B;](/help/dsp/assets/status-switch.png)）をクリックします。
+     1. （オプション）広告を一時停止またはアクティブにするには、広告列のステータススイッチ（![&#x200B; ステータススイッチ &#x200B;](/help/dsp/assets/status-switch.png)）をクリックします。
 
-      1. （オプション）広告の設定を開くには、広告の横にある「**[!UICONTROL View Ad]**」をクリックします。
+     1. （オプション）広告の設定を開くには、広告の横にある「**[!UICONTROL View Ad]**」をクリックします。
 
    * DSPが入札しなかった理由を確認するには：
 
-      1. 右上の「**[!UICONTROL Non Bids]**」をクリックします。
+     1. 右上の「**[!UICONTROL Non Bids]**」をクリックします。
 
-      1. （オプション）特定のプライベート契約ターゲットでプレースメントをフィルタリングするには、契約を選択します。<!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
+     1. （オプション）特定のプライベート契約ターゲットでプレースメントをフィルタリングするには、契約を選択します。<!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
-      1. （オプション）日付範囲を変更するには、日付フィールドをクリックし、別の日付または日付範囲を選択します。
+     1. （オプション）日付範囲を変更するには、日付フィールドをクリックし、別の日付または日付範囲を選択します。
 
 <!-- Later, add link to >* Definitions for NBRs (Reading No Bid Reports (NBRs)) -->
 

@@ -1,7 +1,10 @@
 ---
 title: レポートとシミュレーション用のオフラインアカウントデータのアップロード
 description: レポートとシミュレーションのサポートのために、オフラインのアカウントデータを手動または[!DNL Amazon] [!DNL S3] バケットにアップロードする方法について説明します。 ログファイルは、アップロードジョブの進行状況を追跡します。
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%

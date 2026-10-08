@@ -3,23 +3,26 @@ title: 加盟店アカウントの管理
 description: Merchant Center アカウントのアカウント詳細を設定および管理する方法について説明します。
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY
+TQID: 'https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 789
+source-wordcount: '797'
 ht-degree: 0%
-
 ---
-
 # 加盟店アカウントの管理
 
 *代理店アカウントマネージャー、Adobe アカウントマネージャー、管理者ユーザーの役割のみ*
 
-Search, Social, &amp; Commerceは、広告主のGoogle Merchant CenterまたはMicrosoft Merchant Centerの各アカウントの商品データを毎日ダウンロードして表示できます。 さらに、Search, Social, &amp; Commerceでは、加盟店アカウントの内容に基づいて広告作成を自動的に行うことができます。Search, Social, &amp; Commerceで商品データを直接操作するには、アカウントのアクセス資格情報を含み、アクセス *が有効になっている対応するアカウントレコードを作成する必要があります*。
+Search, Social, &amp; Commerceは、広告主のGoogle Merchant CenterまたはMicrosoft Merchant Centerの各アカウントの商品データを毎日ダウンロードして表示できます。 さらに、Search, Social, &amp; Commerceでは、加盟店アカウントの内容に基づいて広告制作を自動化できます。Search, Social, &amp; Commerceで商品データを直接操作するには、アカウントのアクセス資格情報とアクセス *有効*&#x200B;を含む対応するアカウントレコードを作成する必要があります。
 
 >[!NOTE]
 >
@@ -67,7 +70,7 @@ Search, Social, &amp; Commerceは、広告主のGoogle Merchant CenterまたはM
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
-   アカウント内のすべての商品の属性データは、次の日次の同期プロセス（ユーザーのローカルタイムゾーンで約06:00）の後、検索、ソーシャル、およびCommerceで利用できます。 その後、商品データを使用して、在庫フィードを使用した広告作成を自動化できます。
+   アカウント内のすべての商品の属性データは、次の日次の同期プロセス（ユーザーのローカルタイムゾーンでは約06:00）の後、検索、ソーシャル、およびCommerceで利用できます。 その後、商品データを使用して、在庫フィードを使用した広告作成を自動化できます。
 
 ## 加盟店アカウントの詳細を編集 {#edit-merchant-account}
 
@@ -89,7 +92,7 @@ Search, Social, &amp; Commerceは、広告主のGoogle Merchant CenterまたはM
 
 >[!NOTE]
 >
->Search, Social, &amp; Commerceは、新しいアカウントデータと加盟店ネットワーク上のアカウントデータを同期する必要があります。 これは、ユーザーのローカルタイムゾーンの約06:00で1日1回自動的に発生します。
+>Search, Social, &amp; Commerceは、新しいアカウントデータと加盟店ネットワーク上のアカウントデータを同期する必要があります。 これは、ユーザーのローカルタイムゾーンの約06:00に1日1回自動的に発生します。
 
 ## 加盟店アカウントへのアクセスを無効にする {#disable-merchant-account}
 

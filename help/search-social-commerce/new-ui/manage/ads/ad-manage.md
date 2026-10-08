@@ -8,15 +8,17 @@ product_v2:
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
     internal-label: Search, Social, & Commerce
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
     internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1761'
 ht-degree: 0%
 ---
 # 広告を管理
@@ -64,6 +66,8 @@ ht-degree: 0%
   >[!NOTE]
   >
   >現在、呼び出し専用の広告を作成または編集することはできません。 既存の呼び出し専用広告の表示、ステータスの変更、または削除を行うことができます。
+
+* [!DNL ChatGPT Ads] キャンペーンの広告グループの&#x200B;**会話型広告**。 会話型広告は、AI チャットのコンバージョンの横に表示されます。
 
 * **検索キャンペーンの[!DNL Google Ads]および[!DNL Microsoft Advertising]の動的検索広告グループに対して、動的検索広告** （現在は広告ネットワーク上で「動的検索広告」と呼ばれています）を拡張しました。 動的検索広告では、広告を表示するタイミングを決定するために、キーワードではなくweb サイトのコンテンツを使用します。 広告ネットワークは、見出しを動的に生成し、ランディングページのURLと表示URLを選択し、最終的なURLを自動的に生成します。
 
@@ -115,7 +119,7 @@ ht-degree: 0%
 
    使用可能な広告タイプについて詳しくは、「[使用可能な広告タイプ &#x200B;](#ad-types)」を参照してください。
 
-1. [Baidu テキスト広告](ad-settings-baidu-text.md)、[Google Ads expanded dynamic search ad](ad-settings-google-dsa.md) （Google Adsでは「動的検索広告」と呼ばれます）、[Google Ads responsive search ad](ad-settings-google-rsa.md)、[Microsoft Advertising expanded dynamic search ad](ad-settings-microsoft-dsa.md)、[Microsoft Advertising multimedia ad](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising product ad](ad-settings-microsoft-product.md)、[Microsoft Advertising responsive （audience） ad](ad-settings-microsoft-responsive.md)、[Microsoft Advertising responsive search ad](ad-settings-microsoft-rsa.md)、または[yandex テキストのの残の残の残りの設定ad](ad-settings-yandex-text.md)設定。
+1. [Baidu テキスト広告](ad-settings-baidu-text.md)、[[!DNL ChatGPT Ads] 広告](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)、[Google Ads expanded dynamic search ad](ad-settings-google-dsa.md) （Google Adsでは「動的検索広告」と呼ばれます）、[Google Ads responsive search ad](ad-settings-google-rsa.md)、[Microsoft Advertising expanded dynamic search ad](ad-settings-microsoft-dsa.md)、[Microsoft Advertising multimedia ad](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising product ad](ad-settings-microsoft-product.md)、[Microsoft Advertising responsive （audience） ad](ad-settings-microsoft-responsive.md)、[Microsoft Advertising responsive search ad](ad-settings-microsoft-rsa.md) [Yandex テキスト広告](ad-settings-yandex-text.md)設定。
 
    >[!NOTE]
    >
@@ -155,7 +159,7 @@ ht-degree: 0%
 
 1. 一括操作ツールバーで、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. [Baiduのテキスト広告](ad-settings-baidu-text.md)、[Google Ads expanded dynamic search ad](ad-settings-google-dsa.md) （現在はGoogle Adsで「動的検索広告」と呼ばれています）、[Google Ads responsive search ad](ad-settings-google-rsa.md)、[Microsoft Advertising expanded dynamic search ad](ad-settings-microsoft-dsa.md)、[Microsoft Advertising multimedia ad](ad-settings-microsoft-multimedia.md)、[Microsoft product ad](ad-settings-microsoft-product.md)、[Microsoft Advertising responsive （audience） ad](ad-settings-microsoft-responsive.md)、[Microsoft Advertising responsive search ad](ad-settings-microsoft-rsa.md)、または[Yandex ad](ad-settings-yandex-text.md)設定。
+1. [Baidu テキスト広告](ad-settings-baidu-text.md)、[[!DNL ChatGPT Ads] 広告](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)、[Google Ads expanded dynamic search ad](ad-settings-google-dsa.md) （現在はGoogle Adsで「動的検索広告」と呼ばれています）、[Google Ads レスポンシブ検索ad](ad-settings-google-rsa.md)、[Microsoft Advertising expanded dynamic search ad](ad-settings-microsoft-dsa.md)、[Microsoft Advertising multimedia ad](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising product ad](ad-settings-microsoft-product.md)、[Microsoft Advertising （audience） ad](ad-settings-microsoft-responsive.md)、[Microsoft レスポンシブ ad](ad-settings-microsoft-rsa.md) [Yandex テキスト広告](ad-settings-yandex-text.md)設定。
 
 1. **[!UICONTROL Review and Save]**&#x200B;をクリックします。
 
@@ -169,7 +173,7 @@ ht-degree: 0%
 
 サポートされている広告ネットワーク上のアクティブな広告を一時停止して、入札を無効にすることができます。 後でステータスをアクティブに戻すことで、入札を再開できます。
 
-アクティブな広告または一時停止した広告を削除することもできます。 削除された広告は、広告ネットワークから削除されます。 データフィルターに含めても表示されますが、変更することはできません。
+アクティブな広告または一時停止した広告を削除することもできます（[!DNL ChatGPT Ads Manager]内で「アーカイブ」と呼ばれます）。 削除またはアーカイブされた広告は、広告ネットワークから削除またはアーカイブされます。 データフィルターに含めても表示されますが、変更することはできません。
 
 ### 広告のアクティベートまたは一時停止
 
@@ -183,7 +187,7 @@ ht-degree: 0%
 
    * アクティブな広告を一時停止するには、**[!UICONTROL Pause]**&#x200B;をクリックします。
 
-### 広告の削除
+### 広告の削除またはアーカイブ
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Ads]**&#x200B;をクリックします。
 

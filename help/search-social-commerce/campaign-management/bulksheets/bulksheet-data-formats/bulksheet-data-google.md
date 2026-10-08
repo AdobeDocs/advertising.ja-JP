@@ -1,23 +1,28 @@
 ---
-title: ' [!DNL Google Ads]  アカウントに必要なバルクシートデータ'
-description: ' [!DNL Google Ads]  アカウントの必須ヘッダーフィールドとデータフィールドを一括シートで参照します。'
+title: '[!DNL Google Ads] アカウントに必要なバルクシート データ'
+description: '[!DNL Google Ads] アカウントの必須ヘッダーフィールドとデータフィールドを一括シートで参照します。'
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA
+TQID: 'https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a534a6eb822a22dcff7ca7ca9e8dcd4f3d75712c
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 8027
+source-wordcount: '8101'
 ht-degree: 0%
-
 ---
-
 # 付録 – [!DNL Google Ads] アカウントに必要なバルクシート データ
 
 [!DNL Google Ads]件のキャンペーンデータを一括で作成および更新するには、[!DNL Google Ads]件のアカウントに特化してフォーマットされたSearch、Social、およびCommerceのバルクシート ファイルを使用できます。 a） [&#128279;](../bulksheet-download.md)必要なファイル形式で既存のアカウントの一括シートファイルを生成するか、b）手動で作成できます（サポートされているファイル形式に関する一般的な情報については、「[&#x200B; サポートされている一括シートファイル形式](bulksheet-file-formats.md)」を参照）。
@@ -75,7 +80,7 @@ Add in when released:
 | [!UICONTROL Location Type] | （場所を含める場合） [場所タイプ &#x200B;](https://developers.google.com/google-ads/api/data/geotargets)。 |
 | [!UICONTROL Device] | キャンペーンまたは広告グループレベルで入札調整が行われるデバイスタイプ：<i>[!UICONTROL smartphone]</i>、<i>[!UICONTROL tablet]</i>、または<i>[!UICONTROL desktop]</i>。 |
 | [!UICONTROL Bid Adjustment] | <p>（ターゲット [!UICONTROL Location]、[!UICONTROL Device]または[!UICONTROL RLSA]を含める場合）特定の場所、特定のデバイスタイプ、または特定のオーディエンスターゲットを使用して広告の入札額を調整するかどうか：</p><ul><li><p>キーワードレベルの入札（0%の差）を使用するには、0と入力します。 新しいターゲットの場合は、空白のままにすることもできます。</p></li><li><p>このターゲットに別の入札額を使用するには、入札額を増減する割合を入力します。</p></li><ul><li><p>場所とRLSAのターゲットの場合、有効な割合は–90 ～ 900です。</p></li><li><p>デバイス入札調整の場合、有効なパーセンテージは次のとおりです。</p></li><ul><li><p>（キャンペーン）–100 （デバイスタイプの広告には入札しない）、-90 ～ 900の範囲で設定します。</p></li><li><p>（広告グループ） - 100 スマートフォンやタブレットの場合（デバイスの種類に入札しない場合）、およびすべてのデバイスの種類に対して–90から900まで。</p></li></ul></ul><li><p>（既存のキャンペーンと広告グループ）既存の入札調整を使用するには、空白のままにします。</p></li></ul> |
-| [!UICONTROL Adobe Rec Bid Adjustment] | （情報目的で生成されたバルクシートに含まれる） Adobeがキャンペーンレベルの場所ターゲットまたはRLSAに推奨する読み取り専用の入札調整。 キャンペーンが重み付けされたコンバージョン指標を使用する目的を持つポートフォリオ内にあり（[!UICONTROL Maximize Clicks]の目的ではない）、キャンペーンに少なくとも2つのロケーションターゲットまたは過去90日間のコストが少なくとも5 クリックまたは5米ドルのRLSAが含まれている場合にのみ計算されます。</p><p>推奨値を使用するために位置情報ターゲットまたはRLSAを手動で編集する場合は、位置情報ターゲットまたはRLSAを作成してから少なくとも2週間待って、十分なデータ収集を行い、値を週に1回以上変更しないでください。 |
+| [!UICONTROL Adobe Rec Bid Adjustment] | （情報目的で生成されたバルクシートに含まれる） Adobeがキャンペーンレベルの場所ターゲットまたはRLSAに推奨する読み取り専用の入札調整。 キャンペーンが重み付けされたコンバージョン指標を使用する目的を持つポートフォリオ内にあり（[!UICONTROL Maximize Clicks]の目的ではない）、キャンペーンに少なくとも2つの場所ターゲットまたは少なくとも5回のクリックまたは過去90日間のコストで5つのUSDを持つRLSAが含まれている場合にのみ計算されます。</p><p>推奨値を使用するために位置情報ターゲットまたはRLSAを手動で編集する場合は、位置情報ターゲットまたはRLSAを作成してから少なくとも2週間待って、十分なデータ収集を行い、値を週に1回以上変更しないでください。 |
 | [!UICONTROL Device Targets] | <p>（従来のキャンペーンタイプのみ）広告を表示するデバイス：<i>[!UICONTROL All]</i>、<i>[!UICONTROL Computers]</i>、<i>[!UICONTROL Smartphones]</i>、または<i>[!UICONTROL Tablets]</i>。 新しいキャンペーンの場合、デフォルトは<i>[!UICONTROL All]</i>です。</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | （従来のキャンペーンの種類のみ。デバイス ターゲットに「スマートフォン」または「タブレット」が含まれている場合に適用されます）広告が表示されるオペレーティングシステム：<i>[!UICONTROL All]</i>、<i>[!UICONTROL Android]</i>、<i>[!UICONTROL iOS]</i>、または<i>[!UICONTROL Palm]</i>。 新しいキャンペーンの場合、デフォルトは<i>[!UICONTROL All]</i>です。</p> |
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>（従来のキャンペーンの種類のみ。[!UICONTROL Device Targets]に「[!UICONTROL All]」または「[!UICONTROL Smartphones]」が含まれている場合にのみ適用されます） スマートフォンが接続される可能性のある携帯電話会社：<i>[!UICONTROL All]</i>、または[!DNL Google Ads]</a>の<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">利用可能な通信事業者とコードのリストを使用して&lt;c<i>通信事業者コード </i>>、&lt;<i>国コード </i>> （T-Mobile、USなど）で示される1つ以上の通信事業者。 複数のキャリアをセミコロンで区切ります（T-Mobile,US;T-Mobile,GBなど）。 新しいキャンペーンの場合、デフォルトは<i>[!UICONTROL All]</i>です。</p> |
@@ -109,7 +114,7 @@ Add in when released:
 | [!UICONTROL Start Date] | <p>（拡張サイトリンクのみ）広告主のタイムゾーンおよび次のいずれかの形式で、サイトリンクに入札を配置できる最初の日付：<i>m/d/yyyy</i>、<i>m/d/yy</i>、<i>m-d-yyyy</i>、または<i>m-d-yy</i>。 新しい拡張サイトリンクのデフォルトは現在の日付です。</p><p><b>注意：</b>新しい拡張サイトリンクは、既存の拡張サイトリンクを含むキャンペーン内でのみ作成できます。または、サイトリンクは作成できません。</p> |
 | [!UICONTROL End Date] | <p>（拡張サイトリンクのみ）広告主のタイムゾーンおよび次のいずれかの形式で、サイトリンクに入札を配置できる最終日：<i>m/d/yyyy</i>、<i>m/d/yy</i>、<i>m-d-yyyy</i>、または<i>m-d-yy</i>。 デフォルトはnone （終了日なし）です。</p><p><b>注意：</b>新しい拡張サイトリンクは、既存の拡張サイトリンクを含むキャンペーン内でのみ作成できます。または、サイトリンクは作成できません。</p> |
 | [!UICONTROL Exclude Tablet (Google Adwords)] | （既存のアプリインストール広告のみ）</p><p>（オプション） [!DNL Google Ads]がタブレット ユーザーに広告を表示しないようにします。 値には、<i>yes</i>と<i>no</i>を含めることができます。 |
-| [!UICONTROL Landing Page Suffix] | 最後のURLの末尾に追加するパラメーターを指定して、情報を追跡します。 例：`param2=value1&param3=value2`<br><br>詳しくは、 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の「 クリックトラッキング形式」を参照してください。「<br><br>下位レベルの最終URL サフィックスは、アカウントレベルのサフィックスを上書きします。 メンテナンスを容易にするために、個々のアカウントコンポーネントに対して異なるトラッキングが必要でない限り、アカウントレベルのサフィックスのみを使用します。 広告グループレベル以下でサフィックスを設定するには、[!DNL Google Ads] エディターを使用します。 |
+| [!UICONTROL Landing Page Suffix] | 最後のURLの末尾に追加するパラメーターを指定して、情報を追跡します。 例：`param2=value1&param3=value2`<br><br>詳しくは、 [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の「 クリックトラッキング形式」を参照してください。「<br><br>下位レベルの最終URL サフィックスは、アカウントレベルのサフィックスを上書きします。 メンテナンスを容易にするために、個々のアカウントコンポーネントに対して異なるトラッキングが必要でない限り、アカウントレベルのサフィックスのみを使用します。 広告グループレベル以下でサフィックスを設定するには、[!DNL Google Ads] エディターを使用します。 |
 | [!UICONTROL Tracking Template] | トラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的なURLを[!DNL ValueTrack] パラメーターに埋め込みます。 最も詳細なレベル（キーワードが最も詳細）のトラッキングテンプレートは、より高いレベルのすべての値を上書きします。<br><br> キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合、レコードを保存すると、Search, Social, &amp; Commerceに独自のリダイレクトコードとトラッキングコードが自動的に追加されます。<br><br> サードパーティのリダイレクトとトラッキングの場合は、値を入力します。 トラッキングテンプレートの最終的なURLを示す[!DNL ValueTrack] パラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/2375447)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーターを参照してください。<br><br>既存の値を削除するには、値`[delete]` （括弧を含む）を使用します。 |
 | [!UICONTROL Base URL/Final URL] | 検索エンジンユーザーが広告をクリックしたときに取得されるランディングページのURL （キャンペーンまたはアカウントに設定された追加パラメーターを含む）。 キーワードレベルのベース/最終URLは、広告レベル以上のURLを上書きします。<br><br>既存の値を削除するには、値`[delete]` （括弧を含む）を使用します。 |
 | [!UICONTROL Destination URL] | （情報目的で生成されたバルクシートに含まれ、検索エンジンには投稿されません）宛先URLを持つアカウントの場合、これは、広告を広告主のweb サイト上のベース URL/ランディングページにリンクするURLです（クリックを追跡し、ユーザーをランディングページにリダイレクトする別のサイトを介して送信する場合もあります）。 これには、検索、ソーシャル、Commerceのキャンペーンまたはアカウント用に設定された追加パラメーターが含まれます。 トラッキング URLを生成した場合、これは、アカウント設定とキャンペーン設定のトラッキングパラメーターに基づきます。 検索エンジン固有のパラメーターを追加した場合は、検索、ソーシャル、Commerceの同等のパラメーターに置き換えることができます。<br><br>最終URLを持つアカウントの場合、この列には基本URL/最終URL列と同じ値が表示されます。 |
@@ -493,5 +498,5 @@ Add in when released:
 >* [&#x200B; バルクシートで実行できる操作](bulksheet-operations.md)
 >* [&#x200B; サポートされているバルクシート ファイル形式](bulksheet-file-formats.md)
 >* [&#x200B; バルクシート ファイルのダウンロードと作成](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の クリックトラッキング形式
+>*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の クリックトラッキング形式
 >* [&#x200B; バルクシート ファイルをアップロードするか、エラーファイルを修正](../bulksheet-upload.md)

@@ -3,18 +3,21 @@ title: ショッピング商品グループの管理
 description: ショッピング施策でショッピング商品グループを作成および管理する方法について説明します。
 exl-id: cf818b87-ee4b-4cf5-a4e8-0b9a7fc32182
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/x-B0Ybah1ySNsyIKQz9iY2IT8fhvSawTx-mRDB0da6k
+TQID: 'https://experienceleague.adobe.com/x-B0Ybah1ySNsyIKQz9iY2IT8fhvSawTx-mRDB0da6k'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 720
+source-wordcount: '716'
 ht-degree: 0%
-
 ---
-
 # ショッピング商品グループの管理
 
 *[!DNL Google Ads]および[!DNL Microsoft Advertising]個のショッピング キャンペーンのみ*
@@ -103,13 +106,13 @@ ht-degree: 0%
 
    * 1つ以上の製品グループを削除するには、次の操作を行います。
 
-      1. 削除する各製品グループの横にあるチェックボックスをオンにします。
+     1. 削除する各製品グループの横にあるチェックボックスをオンにします。
 
-         複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
+        複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-      1. ツールバーで、![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、**[!UICONTROL Delete]**&#x200B;を選択します。
+     1. ツールバーで、![詳細](/help/search-social-commerce/assets/more.png "詳細")をクリックし、**[!UICONTROL Delete]**&#x200B;を選択します。
 
-      1. 確認メッセージで、**[!UICONTROL Delete]**&#x200B;をクリックします。
+     1. 確認メッセージで、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >

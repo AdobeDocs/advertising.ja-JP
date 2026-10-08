@@ -1,25 +1,32 @@
 ---
 title: '[!UICONTROL Deal ID Inbox]について'
-description: '[!UICONTROL Deal ID Inbox]機能について説明します。この機能を使用すると、既に [!DNL FreeWheel], [!DNL Google Authorized Buyers]  （旧称 [!DNL AdX]), and [!DNL Magnite DV+] ）でパブリッシャーと交渉したプライベート取引を受け入れることができます。 [!DNL Rubicon]'
+description: '[!UICONTROL Deal ID Inbox]機能について説明します。この機能を使用すると、[!DNL FreeWheel]、[!DNL Google Authorized Buyers] （旧称[!DNL AdX]）、[!DNL Magnite DV+] （旧称[!DNL Rubicon]）でパブリッシャーと既に交渉したプライベート取引を受け入れることができます。'
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-TQID: https://experienceleague.adobe.com/d0XqOq7lHLtUZh9UqPNV9ai3VfET3LNT937qZG4PxJI
+TQID: 'https://experienceleague.adobe.com/d0XqOq7lHLtUZh9UqPNV9ai3VfET3LNT937qZG4PxJI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 487
+source-wordcount: '491'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Deal ID Inbox]について
 
 Advertising DSP [!UICONTROL Deal ID Inbox]を使用すると、DSPがパブリッシャーからサプライサイドプラットフォーム（SSP）を通じて読み込んだ契約をすばやく設定できるので、各契約を手動で設定する必要はありません。 [!DNL FreeWheel]、[!DNL Google Authorized Buyers] （旧称[!DNL AdX]）、[!DNL Magnite DV+] （旧称[!DNL Rubicon]）でパブリッシャーと既に交渉した保証および保証されていないプライベート在庫取引を、[!UICONTROL Deal ID Inbox]から受け入れることができます。
@@ -40,13 +47,13 @@ You can accept any available deal or move an incorrect deal to the Ignored Deals
 For each deal, you can select one publisher and one media type (Desktop Video, Mobile Video, Connected TV, Display, or Audio), and you can share the deal with specific advertisers and with all advertisers for a specific account.
  -->
 
-DSPでは、東部標準時の午前4:30時に、すべての取引詳細が毎日自動的に更新されます。 また、すべての[!DNL FreeWheel]件の取引が更新され、1時間ごとに[!DNL Google]と[!DNL Magnite DV+]から既存の取引が更新されます。 また、取引の詳細を手動で更新して、いつでも新しい取引を入力することもできます。
+DSPでは、東部標準時午前4時30分に、あらゆる取引情報が毎日自動的に更新されます。 また、すべての[!DNL FreeWheel]件の取引が更新され、1時間ごとに[!DNL Google]と[!DNL Magnite DV+]から既存の取引が更新されます。 また、取引の詳細を手動で更新して、いつでも新しい取引を入力することもできます。
 
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
 
 >[!NOTE]
 >
->[!DNL Google Authorized Buyers]を通じてプログラムで保証された契約の場合、予算の90%以上を提供する必要があります。そうしないと、[!DNL Google]で[!UICONTROL Deal ID Inbox]件の契約へのアクセス権をアカウントが失います。
+>[!DNL Google Authorized Buyers]を通じてプログラムで保証された契約の場合、予算の90%以上を提供する必要があります。そうしないと、[!UICONTROL Deal ID Inbox]で[!DNL Google]件の契約へのアクセス権をアカウントが失います。
 
 ## [!UICONTROL Deal ID Inbox]を実装しています
 
@@ -60,9 +67,9 @@ DSPでは、東部標準時の午前4:30時に、すべての取引詳細が毎�
 
 * **お得な情報を確認した後**&#x200B;に同意すると、[!UICONTROL Deal ID Inbox]には表示されなくなります。 承認されたお得な情報は[!UICONTROL Inventory] > [!UICONTROL Deals]に一覧表示され、広告主のプレースメント内でターゲットする準備ができています。
 
-* **不要な取引**&#x200B;または未承諾の取引を無視します。 無視された取引は、[!UICONTROL Ignored Deals]内の[!UICONTROL Deal ID Inbox] タブに移動され、アーカイブとして機能します。 DSPでは、取引を無視しても、SSPやパブリッシャーにアラートは通知されません。
+* **不要な取引**&#x200B;または未承諾の取引を無視します。 無視された取引は、[!UICONTROL Deal ID Inbox]内の[!UICONTROL Ignored Deals] タブに移動され、アーカイブとして機能します。 DSPでは、取引を無視しても、SSPやパブリッシャーにアラートは通知されません。
 
-* **既に受け入れられている取引**&#x200B;の詳細を[!UICONTROL Inventory] > [!UICONTROL Deals]から変更します（[!UICONTROL Deal ID Inbox]には含まれません）。 同様に、広告主が契約に変更を送信する場合、契約の設定後に[!UICONTROL Inventory]がSSPからの変更を同期しないため、広告主は[!UICONTROL Deals] > [!UICONTROL Deal ID Inbox]でそれらの変更を実装する責任があります。
+* **既に受け入れられている取引**&#x200B;の詳細を[!UICONTROL Inventory] > [!UICONTROL Deals]から変更します（[!UICONTROL Deal ID Inbox]には含まれません）。 同様に、広告主が契約に変更を送信する場合、契約の設定後に[!UICONTROL Deal ID Inbox]がSSPからの変更を同期しないため、広告主は[!UICONTROL Inventory] > [!UICONTROL Deals]でそれらの変更を実装する責任があります。
 
 ## どのような取引が認められないのか。
 
@@ -70,9 +77,9 @@ DSPでは、東部標準時の午前4:30時に、すべての取引詳細が毎�
 
 次の種類のお得な情報は受け取ることができません。
 
-* 米ドル以外の[!DNL Google]件の取引。
+* USDに含まれていない[!DNL Google]件の案件。
 
-* USD以外の[!DNL Magnite DV+]件の案件
+* USDに含まれていない[!DNL Magnite DV+]件の案件
 
 * アカウント通貨に含まれていない[!DNL FreeWheel]件の取引。
 

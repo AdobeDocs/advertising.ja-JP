@@ -1,23 +1,33 @@
 ---
-title: リードの強化されたコンバージョンを [!DNL Google Ads] 実装する
-description: リードの拡張コンバージョンを設定する [!DNL Google Ads]  ワークフローについて説明します。
+title: リードの[!DNL Google Ads]強化コンバージョンを実装します
+description: リードの[!DNL Google Ads]拡張コンバージョンを設定するためのワークフローについて説明します。
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
-TQID: https://experienceleague.adobe.com/yFJJ662wcsm2KLzCIpxXo6F8nPsklVItHMTBk1h6wHg
+TQID: 'https://experienceleague.adobe.com/yFJJ662wcsm2KLzCIpxXo6F8nPsklVItHMTBk1h6wHg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 341834cab1e23ddae903ecdeb6946cb004ea777e
+    internal-label: Personalization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: '416'
 ht-degree: 0%
-
 ---
-
 # リードの[!DNL Google Ads]強化コンバージョンを実装します
 
 *[!DNL Google Ads]アカウントのみ*
@@ -28,7 +38,7 @@ Search, Social, &amp; Commerceでは、次のことができます。
 
 * リードの既存の拡張コンバージョンを表示します。<!-- Where is this? -->
 
-  Search, Social, &amp; Commerceは、広告主のタイムゾーンの05:00に毎日、リード用に既存の拡張コンバージョンを同期します。
+  Search, Social, &amp; Commerceは、広告主のタイムゾーンである毎日05:00に、既存の強化されたコンバージョンをリードに同期します。
 
 * リードのコンバージョンを向上。
 

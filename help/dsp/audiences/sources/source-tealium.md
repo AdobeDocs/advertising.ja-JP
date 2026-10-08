@@ -1,27 +1,33 @@
 ---
-title: ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換
-description: DSPで [!DNL Tealium]  ファーストパーティセグメントの取り込みを有効にする方法について説明します。
+title: ユーザーIDを[!DNL Tealium]からユニバーサル IDに変換
+description: DSPで[!DNL Tealium] ファーストパーティセグメントの取り込みを有効にする方法について説明します。
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-TQID: https://experienceleague.adobe.com/X8mcqFiON6JMoB5KdS5Z0GVLYp-htw2ddCtmuZFflqo
+TQID: 'https://experienceleague.adobe.com/X8mcqFiON6JMoB5KdS5Z0GVLYp-htw2ddCtmuZFflqo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 50af5a8fc6e5e82268489259073e27911ca5a45c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: '1122'
 ht-degree: 0%
-
 ---
-
 # ユーザーIDを[!DNL Tealium]からユニバーサル IDに変換
 
 [!DNL Tealium] Customer Data PlatformとのDSP統合を使用して、組織の1st パーティハッシュ化されたメールアドレスを、ターゲット広告のユニバーサル IDに変換します。 このプロセスでは、[!DNL Amazon Web Services] （AWS） ファイアホースコネクタを使用します。 TealiumからDSPにデータを共有するには、次の手順に従います。
@@ -128,17 +134,17 @@ ht-degree: 0%
 
          * **メッセージデータ：**&#x200B;次の操作を行います。
 
-            1. セグメントの属性を1つ選択します。
+           1. セグメントの属性を1つ選択します。
 
-               * Hashed_Email属性に、カスタムメッセージに`hashed_email`という名前を付けます。
+              * Hashed_Email属性に、カスタムメッセージに`hashed_email`という名前を付けます。
 
-               * Cookie属性に、カスタムメッセージ `cookies`という名前を付けます。
+              * Cookie属性に、カスタムメッセージ `cookies`という名前を付けます。
 
-            1. カスタムフィールドを作成するオプションで、[!DNL Source Key] フィールドに、前の手順で[&#x200B; セグメントマッピングデータ &#x200B;](#map-data)に含まれていた[!UICONTROL External Segment Key]を入力します。
+           1. カスタムフィールドを作成するオプションで、[!DNL Source Key] フィールドに、前の手順で[&#x200B; セグメントマッピングデータ &#x200B;](#map-data)に含まれていた[!UICONTROL External Segment Key]を入力します。
 
-               DSPはこのキーを使用してセグメントに情報を入力します。
+              DSPはこのキーを使用してセグメントに情報を入力します。
 
-            1. （推奨）更新アクションを作成して、セグメントを新鮮な状態に保ちます。
+           1. （推奨）更新アクションを作成して、セグメントを新鮮な状態に保ちます。
 
 ## 手順5: セグメントの共有を続行するには、[!DNL Tealium]の既存のコネクタを複製します {#duplicate-connector}
 

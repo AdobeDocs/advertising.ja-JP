@@ -1,28 +1,39 @@
 ---
-title: ' [!DNL Analytics]様が使用しているAdobe Advertising ID'
-description: ' [!DNL Analytics]様が使用しているAdobe Advertising ID'
+title: '[!DNL Analytics]が使用するAdobe Advertising ID'
+description: '[!DNL Analytics]が使用するAdobe Advertising ID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-TQID: https://experienceleague.adobe.com/OX1JFaA2CvN19DTTEWOPP9bb0Aajy0MbNBpNIxdg4RI
+TQID: 'https://experienceleague.adobe.com/OX1JFaA2CvN19DTTEWOPP9bb0Aajy0MbNBpNIxdg4RI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9f19d84117f68a7672c9090116474570e0625cab
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1105
+source-wordcount: '1105'
 ht-degree: 0%
-
 ---
-
 # [!DNL Analytics]が使用するAdobe Advertising ID
 
 *Adobe AdvertisingとAdobe Analyticsの統合のみを使用する広告主*
@@ -37,15 +48,15 @@ Adobe Advertisingでは、web サイトへのクリックスルーまたはビ�
 
 * ビュースルーエントリは、オーディエンスが広告を閲覧したものの、クリックしなかった場合にサイトにアクセスしたときに取得されます。 [!DNL Analytics]は、次の2つの条件が満たされた場合にビュースルーを記録します。
 
-   * 訪問者には、[&#x200B; クリックのルックバックウィンドウ &#x200B;](/help/integrations/analytics/prerequisites.md#lookback-a4adc)の間に[!DNL DSP]または[!DNL Search, Social, & Commerce]広告のクリックスルーがありません。
+  * 訪問者には、[&#x200B; クリックのルックバックウィンドウ &#x200B;](/help/integrations/analytics/prerequisites.md#lookback-a4adc)の間に[!DNL DSP]または[!DNL Search, Social, & Commerce]広告のクリックスルーがありません。
 
-   * 訪問者は、[&#x200B; インプレッションのルックバックウィンドウ &#x200B;](/help/integrations/analytics/prerequisites.md#lookback-a4adc)中に少なくとも1つの[!DNL DSP]広告を見ました。 最後のインプレッションはビュースルーとして渡されます。
+  * 訪問者は、[&#x200B; インプレッションのルックバックウィンドウ &#x200B;](/help/integrations/analytics/prerequisites.md#lookback-a4adc)中に少なくとも1つの[!DNL DSP]広告を見ました。 最後のインプレッションはビュースルーとして渡されます。
 
 * クリックスルーエントリは、サイト訪問者がサイトに入る前に広告をクリックしたときにキャプチャされます。 次のいずれかの条件が発生した場合、[!DNL Analytics]はクリックスルーをキャプチャします。
 
-   * URLには、Adobe Advertisingによってランディングページ URLに追加されたEF IDとAMO IDが含まれます。
+  * URLには、Adobe Advertisingによってランディングページ URLに追加されたEF IDとAMO IDが含まれます。
 
-   * このURLにはトラッキングコードはありませんが、Adobe Advertising JavaScriptのコードでは、過去2分以内にクリックが検出されます。
+  * このURLにはトラッキングコードはありませんが、Adobe Advertising JavaScriptのコードでは、過去2分以内にクリックが検出されます。
 
 ![Adobe Advertising ビューベースの[!DNL Analytics]統合](/help/integrations/assets/a4adc-view-through-process.png)
 
@@ -134,27 +145,27 @@ EF IDは、Analysis Workspaceの500 kの一意のID制限の対象となりま�
 
 * （推奨）サーバーサイド挿入機能を実装する場合。
 
-   * DSPのお客様：エンドユーザーがAdobe Advertising ピクセルを使用してディスプレイ広告を表示すると、pixel serverはs_kwcid パラメーターをランディングページのサフィックスに自動的に追加します。
+  * DSPのお客様：エンドユーザーがAdobe Advertising ピクセルを使用してディスプレイ広告を表示すると、pixel serverはs_kwcid パラメーターをランディングページのサフィックスに自動的に追加します。
 
-   * Search, Social, &amp; Commerceのユーザー：
+  * Search, Social, &amp; Commerceのユーザー：
 
-      * アカウントまたはキャンペーンに対して[!UICONTROL Auto Upload]設定が有効になっている[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントの場合、エンドユーザーがAdobe Advertising ピクセルで広告をクリックすると、ピクセルサーバーはs_kwcid パラメーターをランディングページのサフィックスに自動的に追加します。
+    * アカウントまたはキャンペーンに対して[!UICONTROL Auto Upload]設定が有効になっている[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントの場合、エンドユーザーがAdobe Advertising ピクセルで広告をクリックすると、ピクセルサーバーはs_kwcid パラメーターをランディングページのサフィックスに自動的に追加します。
 
-      * 他の広告ネットワーク、または[!UICONTROL Auto Upload]設定が無効になっている[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントの場合は、パラメーターを[&#x200B; アカウントレベルの追加パラメーター](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}に手動で追加し、ベース URLに追加します。
+    * 他の広告ネットワーク、または[!UICONTROL Auto Upload]設定が無効になっている[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントの場合は、パラメーターを[&#x200B; アカウントレベルの追加パラメーター](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}に手動で追加し、ベース URLに追加します。
 
 * サーバーサイド挿入機能が実装されていない場合：
 
-   * DSPのお客様：[JavaScript コード &#x200B;](javascript.md)は、クリックスルーとビュースルーを自動的に記録します。 ブラウザーがサードパーティ Cookieをサポートしていない場合でも、次の広告タイプのクリックベースのコンバージョンを追跡できます。
+  * DSPのお客様：[JavaScript コード &#x200B;](javascript.md)は、クリックスルーとビュースルーを自動的に記録します。 ブラウザーがサードパーティ Cookieをサポートしていない場合でも、次の広告タイプのクリックベースのコンバージョンを追跡できます。
 
-      * [!DNL Flashtalking]個の広告タグの場合、「[追加 [!DNL Analytics for Advertising] 個のマクロを [!DNL Flashtalking] 個の広告タグ &#x200B;](/help/integrations/analytics/macros-flashtalking.md)に手動で追加マクロを挿入します。」 **注：**&#x200B;組織が[!DNL Flashtalking]と直接パートナーシップを締結しており、データ渡しマクロを使用して`s_kwcid`および`ef_id`のトラッキングパラメーターを[!DNL Flashtalking] サポート ドキュメント（[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)）で追跡する場合、この手順は必要ありません。
+    * [!DNL Flashtalking]個の広告タグの場合、「[追加 [!DNL Analytics for Advertising] 個のマクロを [!DNL Flashtalking] 個の広告タグ &#x200B;](/help/integrations/analytics/macros-flashtalking.md)に手動で追加マクロを挿入します。」 **注：**&#x200B;組織が[!DNL Flashtalking]と直接パートナーシップを締結しており、データ渡しマクロを使用して`s_kwcid`および`ef_id`のトラッキングパラメーターを[!DNL Flashtalking] サポート ドキュメント（[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)）で追跡する場合、この手順は必要ありません。
 
-      * [!DNL Google Campaign Manager 360]個の広告タグの場合、「[追加 [!DNL Analytics for Advertising] 個のマクロを [!DNL Google Campaign Manager 360] 個の広告タグ &#x200B;](/help/integrations/analytics/macros-google-campaign-manager.md)に手動で追加マクロを挿入します。」
+    * [!DNL Google Campaign Manager 360]個の広告タグの場合、「[追加 [!DNL Analytics for Advertising] 個のマクロを [!DNL Google Campaign Manager 360] 個の広告タグ &#x200B;](/help/integrations/analytics/macros-google-campaign-manager.md)に手動で追加マクロを挿入します。」
 
-   * Search, Social, &amp; Commerceのユーザー：
+  * Search, Social, &amp; Commerceのユーザー：
 
-      * （[!DNL Google Ads]および[!DNL Microsoft Advertising]）広告の場合、個々のアカウントコンポーネントに対して異なるトラッキングが必要な場合を除き、AMO ID パラメーターを手動でランディングページのサフィックスに追加します。理想的には、[&#x200B; アカウントレベル &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}で追加します。
+    * （[!DNL Google Ads]および[!DNL Microsoft Advertising]）広告の場合、個々のアカウントコンポーネントに対して異なるトラッキングが必要な場合を除き、AMO ID パラメーターを手動でランディングページのサフィックスに追加します。理想的には、[&#x200B; アカウントレベル &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}で追加します。
 
-      * 他のすべての広告ネットワークの広告の場合は、AMO ID パラメーターを[&#x200B; アカウントレベルの追加パラメーター](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}に手動で追加し、ベース URLに追加します。
+    * 他のすべての広告ネットワークの広告の場合は、AMO ID パラメーターを[&#x200B; アカウントレベルの追加パラメーター](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}に手動で追加し、ベース URLに追加します。
 
 サーバーサイド挿入機能を導入する場合や、自社に最適な方法を判断する場合は、Adobeのアカウントチームにお問い合わせください。
 
@@ -162,7 +173,7 @@ EF IDは、Analysis Workspaceの500 kの一意のID制限の対象となりま�
 
 [!DNL Analytics] レポートでは、[!UICONTROL AMO ID] ディメンションを検索し、[!UICONTROL AMO ID Instances]指標を使用してAMO ID データを検索できます。 [!UICONTROL AMO ID] ディメンションには、キャプチャされたすべてのAMO ID値が格納されますが、[!UICONTROL AMO ID Instances]指標は、AMO ID値がサイトによってキャプチャされた頻度を示します。 例えば、同じ検索広告が4回クリックされ、[!DNL Analytics]が7つのサイトエントリをトラッキングした場合、[!UICONTROL AMO ID Instances]は7つ（7）、[!UICONTROL Clicks]は4つ（4）になります。
 
-[!DNL Analytics]内のレポートまたは監査の場合、AMO IDと対応するインスタンスを使用することをお勧めします。 詳しくは、「[!DNL Analytics]とAdobe Advertising間の予想されるデータの差異」の「 [!DNL Analytics for Advertising][&#128279;](data-variances.md#data-validation)のクリックスルーのデータ検証」を参照してください。
+[!DNL Analytics]内のレポートまたは監査の場合、AMO IDと対応するインスタンスを使用することをお勧めします。 詳しくは、「[!DNL Analytics]とAdobe Advertising間の予想されるデータの差異」の「 [!DNL Analytics for Advertising]&#x200B;[&#128279;](data-variances.md#data-validation)のクリックスルーのデータ検証」を参照してください。
 
 ## 約[!DNL Analytics]分類
 

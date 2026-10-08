@@ -3,25 +3,33 @@ title: カスタムレポートの管理
 description: クロスエクスペリエンス [!UICONTROL Custom Creative Report]を生成および管理する方法について説明します。
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
-TQID: https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo
+TQID: 'https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
+  - id: a3569322-a66e-4c29-8778-b189087b9ed5
+    internal-label: Creative reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1485
+source-wordcount: '1486'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Manage custom reports]
 
 カスタムレポートを作成、複製、編集、実行、ダウンロード、削除できます。
@@ -132,21 +140,21 @@ ht-degree: 0%
   >
   >[!UICONTROL Reports] ビューから[いつでも](#report-run-now) カスタムレポートを実行することもできます。
 
-* *[!UICONTROL On]\&lt;日付\>:* アカウントのタイムゾーンで、指定された完了日にレポートを実行します（09:00）。
+* *[!UICONTROL On]\&lt;日付\>:* アカウントのタイムゾーンの09:00までに、指定された完了日にレポートを実行します。
 
 * *[!UICONTROL Recurring]:*&#x200B;指定した期間内に、スケジュールに従ってレポートを実行します。
 
-   * **\[ スケジュール\]:** レポートを実行する頻度：
+  * **\[ スケジュール\]:** レポートを実行する頻度：
 
-      * *日単位*:N日単位でレポートを実行します。 例えば、2週間（14日）ごとにレポートを実行するには、このオプションを選択し、**14**&#x200B;と入力します。
+    * *日単位*:N日単位でレポートを実行します。 例えば、2週間（14日）ごとにレポートを実行するには、このオプションを選択し、**14**&#x200B;と入力します。
 
-      * *毎週*&#x200B;を使用して、指定した曜日にレポートを実行します。 例えば、毎週月曜日と金曜日にレポートを実行するには、このオプションを選択し、**月曜日**&#x200B;と&#x200B;**金曜日**&#x200B;の横にあるチェックボックスをオンにします。
+    * *毎週*&#x200B;を使用して、指定した曜日にレポートを実行します。 例えば、毎週月曜日と金曜日にレポートを実行するには、このオプションを選択し、**月曜日**&#x200B;と&#x200B;**金曜日**&#x200B;の横にあるチェックボックスをオンにします。
 
-      * *月単位*&#x200B;で、1から30までの特定の日付にレポートを実行します。 例えば、毎月最初の日にレポートを実行するには、このオプションを選択し、**1**&#x200B;と入力します。
+    * *月単位*&#x200B;で、1から30までの特定の日付にレポートを実行します。 例えば、毎月最初の日にレポートを実行するには、このオプションを選択し、**1**&#x200B;と入力します。
 
-   * **送信元**: レポートを実行できる最初の日付。 指定したスケジュールによっては、最初のレポートインスタンスがこの日付以降に発生する場合があります。
+  * **送信元**: レポートを実行できる最初の日付。 指定したスケジュールによっては、最初のレポートインスタンスがこの日付以降に発生する場合があります。
 
-   * **まで**: レポートの有効期限（最大4か月後まで）。 レポートの有効期限が切れる前に、指定されたすべてのメール宛先に、有効期限の7日前と1日前にメールアラートが送信されます。 レポートを長く保持するには、この日付を変更します。
+  * **まで**: レポートの有効期限（最大4か月後まで）。 レポートの有効期限が切れる前に、指定されたすべてのメール宛先に、有効期限の7日前と1日前にメールアラートが送信されます。 レポートを長く保持するには、この日付を変更します。
 
 ### [!UICONTROL Apply Filters] セクション
 
@@ -178,21 +186,21 @@ ht-degree: 0%
   >
   >コンバージョンパスには、広告主のインプレッションまたはクリックバックウィンドウ内のインプレッションとクリックが含まれ、[!DNL Advertising Search, Social, & Commerce]に設定されています。 コンバージョンのアトリビューションでは、クリック数はインプレッション数に優先されます。 コンバージョンパス内のクリックに対しては、アトリビューションルールにもとづいて完全なクレジットを獲得します。 インプレッションは、コンバージョンパスでクリックが追跡されない場合にのみクレジットを受け取ります。
 
-   * *[!UICONTROL Last Event]:* コンバージョンパスの最後のクリックまたはインプレッションにコンバージョンを属性します。
+  * *[!UICONTROL Last Event]:* コンバージョンパスの最後のクリックまたはインプレッションにコンバージョンを属性します。
 
-   * *[!UICONTROL Weight Last More]:*&#x200B;は、コンバージョンパス内のすべてのイベントにコンバージョンを割り当てますが、最後のイベントに最も多くの重みを割り当て、前のイベントに対する重みを連続して減らします。
+  * *[!UICONTROL Weight Last More]:*&#x200B;は、コンバージョンパス内のすべてのイベントにコンバージョンを割り当てますが、最後のイベントに最も多くの重みを割り当て、前のイベントに対する重みを連続して減らします。
 
-   * *[!UICONTROL Even Distribution]:* コンバージョンパスの各イベントにコンバージョンを均等に属性します。
+  * *[!UICONTROL Even Distribution]:* コンバージョンパスの各イベントにコンバージョンを均等に属性します。
 
-   * *[!UICONTROL Weight First More]:*&#x200B;は、コンバージョンパス内のすべてのイベントにコンバージョンを割り当てますが、最初のイベントに最も多くの重みを割り当て、次のイベントに対する重みを連続して減らします。
+  * *[!UICONTROL Weight First More]:*&#x200B;は、コンバージョンパス内のすべてのイベントにコンバージョンを割り当てますが、最初のイベントに最も多くの重みを割り当て、次のイベントに対する重みを連続して減らします。
 
-   * *[!UICONTROL First Event]:* コンバージョンパスの最初のクリックまたはインプレッションにコンバージョンを属性します。
+  * *[!UICONTROL First Event]:* コンバージョンパスの最初のクリックまたはインプレッションにコンバージョンを属性します。
 
-   * *[!UICONTROL U-shaped]:* コンバージョンは、コンバージョンパス内のすべてのイベントに属しますが、最初と最後のイベントに最も多くの重みを与え、コンバージョンパスの中央にあるイベントに対する重みが順次減ります。
+  * *[!UICONTROL U-shaped]:* コンバージョンは、コンバージョンパス内のすべてのイベントに属しますが、最初と最後のイベントに最も多くの重みを与え、コンバージョンパスの中央にあるイベントに対する重みが順次減ります。
 
-   * *[!UICONTROL Display Only]:* コンバージョンパス内の最後のDSPのクリックまたはインプレッションへのコンバージョンを属性します。 これには、ビデオ広告やコネクテッド TV広告が含まれ、[!DNL Advertising Search, Social, & Commerce]広告のクリックは含まれません。
+  * *[!UICONTROL Display Only]:* コンバージョンパス内の最後のDSPのクリックまたはインプレッションへのコンバージョンを属性します。 これには、ビデオ広告やコネクテッド TV広告が含まれ、[!DNL Advertising Search, Social, & Commerce]広告のクリックは含まれません。
 
-   * *[!UICONTROL Social Only]:*&#x200B;が廃止されました
+  * *[!UICONTROL Social Only]:*&#x200B;が廃止されました
 
 「[Adobe Advertisingのアトリビューションルールの計算方法](/help/search-social-commerce/reports/attribution-rules.md)」も参照してください。
 
@@ -232,13 +240,13 @@ ht-degree: 0%
 
 * 新しい宛先を作成するには：
 
-   1. 「**新しい宛先を追加**」をクリックします。
+  1. 「**新しい宛先を追加**」をクリックします。
 
-   1. [&#x200B; レポートの宛先設定](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"}を入力し、**保存**&#x200B;をクリックします。
+  1. [&#x200B; レポートの宛先設定](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"}を入力し、**保存**&#x200B;をクリックします。
 
-   1. レポート設定に戻り、**宛先名を更新をクリックします。**
+  1. レポート設定に戻り、**宛先名を更新をクリックします。**
 
-      新しい宛先が既存の宛先のリストから使用可能になり、オプションでレポートに追加できます。
+     新しい宛先が既存の宛先のリストから使用可能になり、オプションでレポートに追加できます。
 
 
 <!--

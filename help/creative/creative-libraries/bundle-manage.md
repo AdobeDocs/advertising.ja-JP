@@ -3,20 +3,27 @@ title: クリエイティブバンドルの管理
 description: クリエイティブグループの管理と使用方法について説明します。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-TQID: https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg
+TQID: 'https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ea400851-fc23-4174-bc9c-b50ea0ed4d00
+    internal-label: Creative Bundles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 # クリエイティブバンドルの管理
 
 <!--
@@ -75,9 +82,9 @@ ht-degree: 0%
 
    * 1つのバンドルを複製するには：
 
-      * カード表示で、バンドル名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Duplicate]**&#x200B;をクリックします。
+     * カード表示で、バンドル名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Duplicate]**&#x200B;をクリックします。
 
-      * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Duplicate]**&#x200B;をクリックします。
+     * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Duplicate]**&#x200B;をクリックします。
 
    * 1つまたは複数のバンドルを複製するには、複製する各バンドルのチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL Duplicate].**&#x200B;をクリックします
 
@@ -113,7 +120,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->標準広告および動的広告ビュー[からクリエイティブをバンドルに](creative-attach-detach-bundles.md)添付することもできます。
+>標準広告および動的広告ビュー[&#128279;](creative-attach-detach-bundles.md)からクリエイティブをバンドルに添付することもできます。
 
 ### バンドルリストからバンドルへのクリエイティブの添付
 
@@ -175,9 +182,9 @@ ht-degree: 0%
 
    * 単一のクリエイティブを切り離すには：
 
-      * カード表示で、クリエイティブ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Detach]**&#x200B;をクリックします。
+     * カード表示で、クリエイティブ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Detach]**&#x200B;をクリックします。
 
-      * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Detach]**&#x200B;をクリックします。
+     * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Detach]**&#x200B;をクリックします。
 
    * 1人以上のクリエイティブを分離するには、分離する各クリエイティブのチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL Detach]**&#x200B;をクリックします。
 
@@ -302,7 +309,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## バンドルの削除
 
-[live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないバンドルを削除できます。 バンドルがライブエクスペリエンスに割り当てられている場合は、続行する前に、そのバンドルを決定ツリー[から削除してください。](/help/creative/experiences/experience-target-node-delete.md)
+[live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないバンドルを削除できます。 バンドルがライブエクスペリエンスに割り当てられている場合は、続行する前に、そのバンドルを決定ツリー[&#128279;](/help/creative/experiences/experience-target-node-delete.md)から削除してください。
 
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
 
@@ -316,9 +323,9 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
    * 単一のバンドルを削除するには：
 
-      * カード表示で、バンドル名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Delete]**&#x200B;をクリックします。
+     * カード表示で、バンドル名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
-      * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Delete]**&#x200B;をクリックします。
+     * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
    * 1つまたは複数のバンドルを削除するには、削除する各バンドルのチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL Delete].**&#x200B;をクリックします
 

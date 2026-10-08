@@ -3,18 +3,24 @@ title: フィード テンプレートの管理
 description: フィードテンプレートの管理方法を説明します。
 feature: Creative Dynamic Creatives
 exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
-TQID: https://experienceleague.adobe.com/5bEvYLuXmwYHifo--x98vtfZ7-tVsLcRq5LGSLilFvM
+TQID: 'https://experienceleague.adobe.com/5bEvYLuXmwYHifo--x98vtfZ7-tVsLcRq5LGSLilFvM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # フィード テンプレートの管理
 
 <!-- I have a "Retail" feed template that was created by rkarthik@adobe. Ask product if this is available to all clients or just internal.  -->
@@ -109,7 +115,7 @@ ht-degree: 0%
 
 **[!UICONTROL Is Unique]:** フィールドが一意のID （キー）であることを示します。 フィード テンプレートごとに少なくとも1つのフィールドは一意である必要があります。 このオプションを選択するには、ボタンをクリックして右に移動します。<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** フィード ファイルの指定された[にマッピングするAdvertising Creative バックエンド &#x200B;](/help/creative/appendix-available-feed-fields.md)の[!UICONTROL Field Name] フィールド。
+**[!UICONTROL Backend Field]:** フィード ファイルの指定された[!UICONTROL Field Name]にマッピングするAdvertising Creative バックエンド [&#128279;](/help/creative/appendix-available-feed-fields.md)の フィールド。
 
 >[!MORELIKETHIS]
 >

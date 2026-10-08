@@ -1,20 +1,23 @@
 ---
 title: キャンペーンと広告グループのオーディエンスターゲットの管理
-description: ' [!DNL Google Ads] および [!DNL Microsoft Advertising]  キャンペーンと広告グループのオーディエンスターゲットを設定および管理する方法について説明します。'
+description: '[!DNL Google Ads]および[!DNL Microsoft Advertising] キャンペーンと広告グループのオーディエンスターゲットを設定および管理する方法について説明します。'
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY
+TQID: 'https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]および[!DNL Microsoft Advertising]のキャンペーンと広告グループのオーディエンスターゲットを管理します
 
 *[!DNL Google Ads]と[!DNL Microsoft Advertising]のみ*
@@ -65,7 +68,7 @@ ht-degree: 0%
 
    * *0%:*&#x200B;このオーディエンスの広告の入札額を調整しない場合。
 
-   * /[*その他の値（–90%から900%*/]）：このオーディエンスの広告の入札額を増減するには、次の操作を行います。 例えば、キーワードレベルの入札が1米ドルで、特定のオーディエンスのターゲットの入札調整が50%の場合、そのオーディエンスの入札は1.50米ドルに増加します。
+   * /[*その他の値（–90%から900%*/]）：このオーディエンスの広告の入札額を増減するには、次の操作を行います。 例えば、キーワードレベルの入札が1 USDで、特定のオーディエンス目標の入札調整が50%の場合、そのオーディエンスの入札は1.50 USDに増加します。
 
 ## オーディエンスターゲットの入札修飾子の編集
 
@@ -83,27 +86,27 @@ ht-degree: 0%
 
    * 1つ以上のターゲットの入札修飾子を編集するには、次の操作を行います。
 
-      1. 編集する各ターゲットの横にあるチェックボックスをオンにします。
+     1. 編集する各ターゲットの横にあるチェックボックスをオンにします。
 
-         複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
+        複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-      1. データテーブルの上にあるツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
+     1. データテーブルの上にあるツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
 
-      1. **[!UICONTROL Bid Modifier]**&#x200B;および/または&#x200B;**[!UICONTROL Status]** フィールドを編集します。
+     1. **[!UICONTROL Bid Modifier]**&#x200B;および/または&#x200B;**[!UICONTROL Status]** フィールドを編集します。
 
-         [!UICONTROL Bid Modifier] フィールドには、既存の値を指定した値に変更するか、指定した割合または金額で金額を増減するか、制限を設けるかを選択できます。
+        [!UICONTROL Bid Modifier] フィールドには、既存の値を指定した値に変更するか、指定した割合または金額で金額を増減するか、制限を設けるかを選択できます。
 
-         設定された値の場合、値には次を含めることができます。
+        設定された値の場合、値には次を含めることができます。
 
-         * *0%:*&#x200B;このオーディエンスの広告の入札額を調整しない場合。
+        * *0%:*&#x200B;このオーディエンスの広告の入札額を調整しない場合。
 
-         * /[*その他の値（–90%から900%*/]）：このオーディエンスの広告の入札額を増減するには、次の操作を行います。 例えば、キーワードレベルの入札が1米ドルで、特定のオーディエンスのターゲットの入札調整が50%の場合、そのオーディエンスの入札は1.50米ドルに増加します。
+        * /[*その他の値（–90%から900%*/]）：このオーディエンスの広告の入札額を増減するには、次の操作を行います。 例えば、キーワードレベルの入札が1 USDで、特定のオーディエンス目標の入札調整が50%の場合、そのオーディエンスの入札は1.50 USDに増加します。
 
-         複数のターゲットの場合、変更は選択したすべてのターゲットに適用されます。
+        複数のターゲットの場合、変更は選択したすべてのターゲットに適用されます。
 
-      1. （オプション）「**[!UICONTROL Additional Details]**」をクリックし、必要に応じてプロジェクト名と説明を入力します。
+     1. （オプション）「**[!UICONTROL Additional Details]**」をクリックし、必要に応じてプロジェクト名と説明を入力します。
 
-      1. **[!UICONTROL Post]**&#x200B;をクリックします。
+     1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
 ## オーディエンスターゲティングのステータスの変更
 

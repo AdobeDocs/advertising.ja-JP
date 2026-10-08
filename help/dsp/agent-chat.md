@@ -1,15 +1,24 @@
 ---
 title: AIを活用したチャットで、製品ドキュメントを検索できます
-description: AI支援チャットを使用してAdobe Advertising DSPと [!DNL Creative]  ドキュメントを検索する方法について説明します。 引用や提案されたフォローアッププロンプトを使用して、回答を得ることができます。
+description: AI支援チャットを使用してAdobe Advertising DSPと[!DNL Creative]のドキュメントを検索する方法について説明します。 引用や提案されたフォローアッププロンプトを使用して、回答を得ることができます。
 feature: DSP Introduction, Creative Introduction
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 99308b5a6f529abf003f38566c19bfda0e6eb25c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ba946348-465d-45f3-8d28-c42d0a2599c5
+    internal-label: Creative introduction
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '486'
 ht-degree: 0%
-
 ---
-
 # AIを活用したチャットインターフェイスで、製品ドキュメントを検索できます
 
 *英語のみサポート*
@@ -72,13 +81,13 @@ AI チャットインターフェイスを使用して、[Advertising Creative �
 
 * [!UICONTROL Documentation Sources] リストの横：
 
-   * 役に立つ回答については、「![親指を上げる](/help/dsp/assets/thumbs-up.png "親指を上げる")」をクリックしてください。
+  * 役に立つ回答については、「![親指を上げる](/help/dsp/assets/thumbs-up.png "親指を上げる")」をクリックしてください。
 
-   * 役に立たない回答の場合は、![&#x200B; サムズダウン &#x200B;](/help/dsp/assets/thumbs-down.png " サムズダウン ")をクリックします。
+  * 役に立たない回答の場合は、![&#x200B; サムズダウン &#x200B;](/help/dsp/assets/thumbs-down.png " サムズダウン ")をクリックします。
 
 ## プロンプトの作成の基本 {#writing-prompts}
 
-* **明確かつ具体的に説明する。**&#x200B;完全な質問（「オンデマンド インベントリの購読方法」）、タスク フレーズ（「オンデマンド インベントリの購読」）、またはトピック フレーズ（「オンデマンド インベントリ」）を使用します。
+* **明確かつ具体的にする。** 完全な質問（「オンデマンド在庫の購読方法」）、タスクフレーズ（「オンデマンド在庫の購読」）、またはトピックフレーズ（「オンデマンド在庫」）を使用します。
 
 * **製品の機能（「キャンペーン」や「お得な情報」など）について、可能であればUI用語**&#x200B;を一致させます。
 

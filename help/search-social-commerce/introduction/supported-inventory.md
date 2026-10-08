@@ -3,22 +3,28 @@ title: サポートされているインベントリ
 description: サポートされている広告ネットワーク、キャンペーンの種類、広告の種類を参照します。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/l2PmtgKVgNVGjWsbJqfxbTdh9P8qo2wIxjjcDQeYcMQ
+TQID: 'https://experienceleague.adobe.com/l2PmtgKVgNVGjWsbJqfxbTdh9P8qo2wIxjjcDQeYcMQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c0c71a175245b4f9096ca85eb33326daca12f904
+    internal-label: Insights
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
-source-wordcount: 2829
+source-wordcount: '2855'
 ht-degree: 0%
-
 ---
-
 # サポートされているインベントリ
 
 サポートされている広告ネットワーク、キャンペーンの種類、広告の種類、各広告の種類で利用できる機能を次に示します。
@@ -30,6 +36,7 @@ ht-degree: 0%
 | Source | ネットワーク | キャンペーンタイプ | 広告の種類 | 同期と表示 | 作成/編集 | トラック [^1] | 最適化[^2] | レポート | Adobe Analytics サポート [^3] |
 |----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu]: *Search、Social、およびCommerceの既存のアカウントのみをサポート* | 検索ネットワーク | 手動 | テキスト広告 | API経由の自動同期 | [&#x200B; キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)と[&#x200B; バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用して作成/編集 | はい | 手動CPC入札戦略のみのキャンペーン | 広告レベルのデータ | Search, Social, &amp; Commerceへの[!DNL Analytics] データ <br><br>Search, Social, &amp; Commerceから[!DNL Analytics]への広告レベルのデータ |
+| [!DNL ChatGPT Ads] | ChatGPT | Standard | チャットカード | API経由の自動同期 | [&#x200B; キャンペーン管理ビュー](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)を使用した作成/編集 | — | — | キャンペーン管理ビュー内の広告レベルのデータ（インプレッション数、クリック数、コストのみ） | — |
 | [!DNL Google Ads] | すべての[!DNL Google] フィード | 需要創出 | デマンドジェネレーションカルーセル広告（マルチイメージ広告） <br><br> デマンドジェネレーション画像の広告<br><br> デマンドジェネレーション製品の広告<br><br> デマンドジェネレーション動画広告 | API経由の自動同期 | 作成/編集オプションがありません | はい | カルーセル広告と画像広告のみ。ハイブリッドポートフォリオのみ<br><br>入札と入札戦略のターゲットは、キャンペーンの予算とともに、最適化タイプに応じてキャンペーンレベルで設定されます。 | 広告レベルのデータ | アップグレードされたAMO ID トラッキングコードを使用して、広告レベルのデータをSearch, Social, &amp; Commerce [に送信](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items) [^4]<br><br>Search, Social, &amp; Commerceから[!DNL Analytics]に送信 |
 | [!DNL Google Ads] | すべてのネットワーク | 標準的なパフォーマンスの最大値 | すべての広告の種類 | API経由の自動同期 | キャンペーンを作成/編集し、[!UICONTROL Campaigns] > [!UICONTROL Campaigns]<br><br>のキャンペーン設定内に広告アセットをアップロードするには、必要な設定のみを使用します。 オプション設定とリストグループの場合は、[!DNL [!DNL Google Ads] Ads] エディターにログインします。 | はい | ハイブリッドポートフォリオでは、<br><br>入札戦略目標のみが、キャンペーン予算と共にキャンペーンレベルで設定されます。 | キャンペーンレベルのデータ <br><br> リストグループのデータは利用できず、広告ネットワークは広告レベルのデータを提供しません。 | Search, Social, &amp; Commerceに[!DNL Analytics]件のデータ <br><br>Search, Social, &amp; CommerceからAnalyticsへのキャンペーンレベルのデータ。 アップグレードされた[AMO ID トラッキングコード &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items)が必要です。 |
 | [!DNL Google Ads] | 検索、[!DNL Google Play]、[!DNL YouTube]、[!DNL Discover on Google Search]、および[!DNL Google Display Network] | アプリキャンペーン、エンゲージメント用アプリキャンペーン、事前登録用アプリキャンペーン | アプリ広告、アプリのエンゲージメント広告、アプリの事前登録広告 | API経由の自動同期 | — | はい、広告ネットワーク内のトラッキングテンプレートにクリックトラッキングタグを手動で追加する場合 | — | 広告レベルのデータ | [!DNL Analytics]からSearch, Social, &amp; Commerceへの広告レベルのデータ <br><br>広告レベルの標準指標（アプリのインストール広告に対してGoogle Adsで追跡されるコンバージョンは除く）。Search, Social, &amp; CommerceからAnalyticsへの広告レベルのデータ。 |

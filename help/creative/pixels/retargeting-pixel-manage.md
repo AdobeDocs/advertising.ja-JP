@@ -3,27 +3,33 @@ title: リターゲティングピクセルの管理
 description: 広告エクスペリエンスのターゲットとして使用するリターゲティングピクセルを作成して実装する方法について説明します。
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-TQID: https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg
+TQID: 'https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: c6a20e0e-e1b3-4d7d-b454-3943a711b15e
+    internal-label: Creative Pixels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 936
+source-wordcount: '942'
 ht-degree: 0%
-
 ---
-
 # リターゲティングピクセルの管理
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
 リターゲティングピクセルを作成し、ユーザーCookieやユニバーサル IDを使用して、広告主のランディングページやコンバージョンページへの訪問者を識別することができます。 ピクセルは、訪問者がページで実行した最新のイベントを追跡し、ページがその訪問者に対して追跡している特定の属性をキャプチャします。 ピクセルを作成したら、関連するweb ページに挿入するピクセルタグを生成して、訪問者のトラッキングを開始します。<!-- Note to self: surfer id=cookie or universal ID -->
 
-その後、ピクセルを広告エクスペリエンス内の任意のクリエイティブのターゲットとして使用して、ピクセルに関連付けられたweb ページを以前に訪問したことがある特定の属性を持つユーザーにのみ広告を表示できます。 例えば、web ページでこれらの属性値が追跡されている場合、サイズが10の赤い靴を見た訪問者をターゲットにすることができます。<!-- better example? Make sure they match attribute examples below --> エクスペリエンスレベルのターゲットは、DSPのターゲティングオプションと組み合わせて適用されます。階層的なターゲティング動作は、DSPによって異なる場合があります。
+その後、ピクセルを広告エクスペリエンス内の任意のクリエイティブのターゲットとして使用して、ピクセルに関連付けられたweb ページを以前に訪問したことがある特定の属性を持つユーザーにのみ広告を表示できます。 例えば、web ページでこれらの属性値が追跡されている場合、サイズ 10の赤い靴を見た訪問者をターゲットにすることができます。<!-- better example? Make sure they match attribute examples below --> エクスペリエンスレベルのターゲットは、DSPのターゲティングオプションと組み合わせて適用されます。階層的なターゲティング動作は、DSPによって異なる場合があります。
 
 リターゲティングプロファイルは180日間保存されます。
 
@@ -80,7 +86,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Copy to Clipboard]**&#x200B;をクリックして、タグをコンピューターのクリップボードにコピーし、そこからテキストをファイルに貼り付けて保存します。
 
-1. ピクセルタグで、各「`<img src>`」を値に置き換えて、`<script src>`および`Insert <attribute>` セクションの各属性の値を指定します。 タグがユニバーサル IDをキャプチャする場合は、ID5 パートナーIDを指定します。
+1. ピクセルタグで、各「`Insert <attribute>`」を値に置き換えて、`<img src>`および`<script src>` セクションの各属性の値を指定します。 タグがユニバーサル IDをキャプチャする場合は、ID5 パートナーIDを指定します。
 
    属性を手動で追加する場合は、URL エンコーディングを含めます。
 

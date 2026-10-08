@@ -3,25 +3,33 @@ title: キャンペーン管理に関するよくある質問
 description: 変更の待ち時間や、フライト中に予算が変更された場合の状況など、キャンペーン管理について詳しく説明します。
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-TQID: https://experienceleague.adobe.com/PgO4aktP20KQzNe6SG6Vw7ahvYqHTSISQ10FCum-vQg
+TQID: 'https://experienceleague.adobe.com/PgO4aktP20KQzNe6SG6Vw7ahvYqHTSISQ10FCum-vQg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 405
+source-wordcount: '410'
 ht-degree: 0%
-
 ---
-
 # キャンペーン管理に関するよくある質問
 
 <!-- Most of this information should be moved into the relevant topics (especially editing topics). -->
@@ -40,7 +48,7 @@ ht-degree: 0%
 
   予算配分はプレースメントのパフォーマンスにもとづいて行われ、14日間の平均を用いて評価されます。 プレースメントに変更を加えると、14日間の平均でパフォーマンスが変化する場合にのみ、予算配分が変更されます。
 
-  パフォーマンスの変更が発生すると、DSPは、キャンペーンのタイムゾーンの午前0時（00:00）頃に発生する次の予算最適化サイクル中に、それに応じてプレースメント間のパッケージ予算を再割り当てします。
+  パフォーマンスの変更が発生すると、DSPは、キャンペーンのタイムゾーンの午前0時頃（00:00）に発生する次の予算最適化サイクル中に、それに応じてプレースメント間のパッケージ予算を再割り当てします。
 
 * プレースメントがパッケージから削除され、別のパッケージに追加された場合、予算はどのように再割り当てされますか？
 
@@ -52,7 +60,7 @@ ht-degree: 0%
 
 * フライト最終日のパッケージペーシングはどのように変更されますか？
 
-  最終日の24時間から23時間に短縮し、荷物の予算を超えないようにします。 また、パッケージのペーシングの塗りつぶし戦略は、「[!UICONTROL Frontload]」に設定されていても、自動的に「[!UICONTROL even]」に変更されます。 つまり、東部標準時午前11:30時までに、1日の予算の65%を確保する必要があります。
+  最終日の24時間から23時間に短縮し、荷物の予算を超えないようにします。 また、パッケージのペーシングの塗りつぶし戦略は、「[!UICONTROL even]」に設定されていても、自動的に「[!UICONTROL Frontload]」に変更されます。 つまり、東部標準時午前11時30分までに、1日の予算の65%を確保できるのです。
 
 >[!MORELIKETHIS]
 >

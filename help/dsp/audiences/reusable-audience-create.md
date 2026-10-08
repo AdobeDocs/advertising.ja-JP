@@ -3,22 +3,26 @@ title: 再利用可能なオーディエンスの作成
 description: オーディエンスセグメントやその他の保存されたオーディエンスで構成される再利用可能なオーディエンスを作成する方法について説明します。 オプションで、AI支援オーディエンスエージェントを使用して、自然言語プロンプトでターゲットオーディエンスを説明します。エージェントは、サードパーティセグメントを提案し、ターゲットまたは除外として使用するオーディエンス式を構築します。
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-TQID: https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ
+TQID: 'https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a4b509995f362ed81e00485409b0c729b5130e35
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1667
+source-wordcount: '1667'
 ht-degree: 0%
-
 ---
-
 # 再利用可能なオーディエンスの作成
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
@@ -57,49 +61,49 @@ ht-degree: 0%
 
    * [[!UICONTROL Third Party Segments]、[!UICONTROL First Party Segments]、[!UICONTROL Adobe Segments]、[!UICONTROL Custom Segments]、および[!UICONTROL Saved Audiences] タブ &#x200B;](audience-settings.md)で使用可能なセグメントを使用して、セグメントロジックを手動で作成するには、次の操作を行います。
 
-      * （オプション）セグメント名、説明、またはパスを検索します。
+     * （オプション）セグメント名、説明、またはパスを検索します。
 
-        検索結果には、使用した用語にもとづいたセグメントが表示されます。 複数の用語を入力すると、1つのセグメントに対するすべての用語が見つかる必要があります。
+       検索結果には、使用した用語にもとづいたセグメントが表示されます。 複数の用語を入力すると、1つのセグメントに対するすべての用語が見つかる必要があります。
 
-      * 最初のセグメントを追加するには、左側のパネルでセグメントを見つけ、セグメント名の横にあるチェックボックスを選択します。
+     * 最初のセグメントを追加するには、左側のパネルでセグメントを見つけ、セグメント名の横にあるチェックボックスを選択します。
 
-      * 既存のセグメントグループにセグメントを追加するには：
+     * 既存のセグメントグループにセグメントを追加するには：
 
-         1. 右側のパネルでセグメントグループをクリックします。
+       1. 右側のパネルでセグメントグループをクリックします。
 
-         1. （オプション）必要に応じて、グループロジックを&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;または&#x200B;*[!UICONTROL Exclude All]*&#x200B;に変更します。
+       1. （オプション）必要に応じて、グループロジックを&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;または&#x200B;*[!UICONTROL Exclude All]*&#x200B;に変更します。
 
-            *[!UICONTROL Exclude All]*&#x200B;は、最初のセグメント グループでは使用できません。 除外のみを含むオーディエンスの場合は、このオーディエンスを&#x200B;*[!UICONTROL Include Any]*&#x200B;として作成し、プレースメント内の除外オーディエンス メニューからそのオーディエンスを選択します。
+          *[!UICONTROL Exclude All]*&#x200B;は、最初のセグメント グループでは使用できません。 除外のみを含むオーディエンスの場合は、このオーディエンスを&#x200B;*[!UICONTROL Include Any]*&#x200B;として作成し、プレースメント内の除外オーディエンス メニューからそのオーディエンスを選択します。
 
-         1. 左側のパネルで新しいセグメントを見つけ、セグメント名の横にあるチェックボックスを選択します。
+       1. 左側のパネルで新しいセグメントを見つけ、セグメント名の横にあるチェックボックスを選択します。
 
-            セグメントグループは、新しいセグメントで自動的に更新されます。
+          セグメントグループは、新しいセグメントで自動的に更新されます。
 
-      * 新しいセグメントグループを追加するには：
+     * 新しいセグメントグループを追加するには：
 
-         1. 右側のパネルで「**[!UICONTROL + New Group]**」をクリックします。
+       1. 右側のパネルで「**[!UICONTROL + New Group]**」をクリックします。
 
-            1. （オプション）必要に応じて、前のグループと新しいグループの間のロジックを&#x200B;*[!UICONTROL And]*&#x200B;または&#x200B;*[!UICONTROL Or]*&#x200B;に変更します。
+          1. （オプション）必要に応じて、前のグループと新しいグループの間のロジックを&#x200B;*[!UICONTROL And]*&#x200B;または&#x200B;*[!UICONTROL Or]*&#x200B;に変更します。
 
-            1. 左側のパネルで新しいグループのセグメントを探し、セグメント名の横にあるチェックボックスを選択します。
+          1. 左側のパネルで新しいグループのセグメントを探し、セグメント名の横にあるチェックボックスを選択します。
 
-            1. （オプション）必要に応じて、グループロジックを&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;または&#x200B;*[!UICONTROL Exclude All]*&#x200B;に変更します。
+          1. （オプション）必要に応じて、グループロジックを&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;または&#x200B;*[!UICONTROL Exclude All]*&#x200B;に変更します。
 
    * 既存のオーディエンスからセグメントロジックを使用するには：
 
-      1. 次のいずれかの方法で、既存のオーディエンスからセグメントロジックをコピーします。
+     1. 次のいずれかの方法で、既存のオーディエンスからセグメントロジックをコピーします。
 
-         * すべてのオーディエンス ビューで、オーディエンス行の上にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**&#x200B;をクリックします。
+        * すべてのオーディエンス ビューで、オーディエンス行の上にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**&#x200B;をクリックします。
 
-         * 既存のオーディエンスの設定で、セグメントロジックパネルの上部にある「**[!UICONTROL More]**」 > 「**[!UICONTROL Copy to Clipboard]**」をクリックします。
+        * 既存のオーディエンスの設定で、セグメントロジックパネルの上部にある「**[!UICONTROL More]**」 > 「**[!UICONTROL Copy to Clipboard]**」をクリックします。
 
-         * テキストエディターで、英数字のセグメント IDと[&#x200B; ブール構文](audience-segment-logic-syntax.md)を使用してセグメントロジックを手動で作成し、クリップボードにコピーします。
+        * テキストエディターで、英数字のセグメント IDと[&#x200B; ブール構文](audience-segment-logic-syntax.md)を使用してセグメントロジックを手動で作成し、クリップボードにコピーします。
 
-      1. **[!UICONTROL paste in an audience rule to begin building]**&#x200B;をクリックし、既存のセグメントロジックを入力フィールドに貼り付け、**[!UICONTROL Apply]**&#x200B;をクリックします。
+     1. **[!UICONTROL paste in an audience rule to begin building]**&#x200B;をクリックし、既存のセグメントロジックを入力フィールドに貼り付け、**[!UICONTROL Apply]**&#x200B;をクリックします。
 
-         >[!NOTE]
-         >
-         >オーディエンスにセグメントロジックが既に含まれている場合、新しいセグメントロジックにペーストすると、既存のロジックが上書きされます。
+        >[!NOTE]
+        >
+        >オーディエンスにセグメントロジックが既に含まれている場合、新しいセグメントロジックにペーストすると、既存のロジックが上書きされます。
 
 1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
@@ -161,11 +165,11 @@ ht-degree: 0%
 
 * ターゲットオーディエンスについて、わかりやすい言葉を使って説明します。
 
-   * 完全な文章または特性の文字列のみを入力できます。 明確にするために必要な場合を除いて、句読点は必要ありません。
+  * 完全な文章または特性の文字列のみを入力できます。 明確にするために必要な場合を除いて、句読点は必要ありません。
 
-   * 一般に、プロンプトでは大文字と小文字が区別されません。
+  * 一般に、プロンプトでは大文字と小文字が区別されません。
 
-   * オーディエンスエージェントは、最も一般的な類義語を認識します。
+  * オーディエンスエージェントは、最も一般的な類義語を認識します。
 
 * 含めたいオーディエンスの特徴と、除外したいオーディエンスの特徴を具体的に提示します。 詳細情報を提供すればするほど、ニーズに合った結果を得られる可能性が高くなります。
 

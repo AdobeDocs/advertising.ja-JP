@@ -3,28 +3,33 @@ title: レポートについて
 description: 利用可能なさまざまなレポートタイプや、レポートの自動化方法など、パフォーマンスレポートについて説明します。
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/2Cw55tN9cx9vfc6sEHdOQfW5VcLIUZdbNtMkKdINkZM
+TQID: 'https://experienceleague.adobe.com/2Cw55tN9cx9vfc6sEHdOQfW5VcLIUZdbNtMkKdINkZM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: '865'
 ht-degree: 0%
-
 ---
-
 # レポートについて
 
 パフォーマンスレポートを使用すると、ポートフォリオ、広告ネットワーク、広告ネットワークアカウントエンティティのパフォーマンスを、必要に応じて詳細に追跡および管理できます。 多くのレポートでは、各マーケティングチャネルの広告がコンバージョン率に与える影響を包括的に把握できます。
 
 レポートのデータは、レポートを実行するたびに動的にコンパイルされます。 必要に応じて、既存のレポートから新しいレポートを生成できます。 使用可能なレポートパラメーターは、レポートタイプによって異なります。 ほとんどのレポートでは、レポート全体を生成する代わりに、最初の50行をプレビューするオプションがあります。 レポートを生成すると、レポートの完了時に、1つ以上の電子メールアドレスにダウンロードリンクを含む通知を送信でき、受信者は[で通知を管理できます（[!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md)）。
 
-完成したすべてのレポートは、[!UICONTROL Latest Reports] ビューの[!UICONTROL Reports] セクションで利用できます。ブラウザーウィンドウでテーブル形式で表示するか、ファイルとして開いたりダウンロードしたりできます。
+完成したすべてのレポートは、[!UICONTROL Reports] ビューの[!UICONTROL Latest Reports] セクションで利用できます。ブラウザーウィンドウでテーブル形式で表示するか、ファイルとして開いたりダウンロードしたりできます。
 
 ## 使用可能なレポートカテゴリ
 
@@ -44,13 +49,13 @@ ht-degree: 0%
 
 * [&#x200B; レポートテンプレート &#x200B;](/help/search-social-commerce/reports/automation/templates/template-about.md)を使用して、毎日、または特定の曜日または月にレポートを自動生成します。
 
-  オプションで、テンプレートを使用する基本レポートと詳細レポート [の](/help/search-social-commerce/reports/automation/ftp-reports.md)FTP配信を設定できます。
+  オプションで、テンプレートを使用する基本レポートと詳細レポート [&#128279;](/help/search-social-commerce/reports/automation/ftp-reports.md)のFTP配信を設定できます。
 
 * [&#x200B; スプレッドシート フィード &#x200B;](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)を使用して、カスタマイズしたスプレッドシート テンプレートを毎日のパフォーマンスデータで更新し続けます。
 
 ## レポートビューでは
 
-[!UICONTROL Reports] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports]の[!UICONTROL Reports] ビューでは、レポート、テンプレート、スプレッドシート フィードを作成および管理できます。 ビューには、次の2つのタブがあります。
+[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Reports]の[!UICONTROL Reports] ビューでは、レポート、テンプレート、スプレッドシート フィードを作成および管理できます。 ビューには、次の2つのタブがあります。
 
 * 「**[!UICONTROL Latest Reports]**」タブには、過去7日間にリクエストされたすべてのレポートが一覧表示されます。ただし、手動で削除されたものを除きます。デフォルトでは、最新のレポートが上部に表示されます。 各レポートに表示される情報には、実行スケジュール（該当する場合）、データが生成された、または生成される開始日と終了日、レポートのステータス（*[!UICONTROL Finished]*、*[!UICONTROL In Progress]*、または&#x200B;*[!UICONTROL Error]*）が含まれます。
 

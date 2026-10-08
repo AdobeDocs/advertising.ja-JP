@@ -3,26 +3,37 @@ title: データ収集、データ転送、レポートの設定
 description: データ収集、データ転送、レポートの設定方法について説明します。
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: a955e2b0-ea1b-4b5c-937b-f8c66603cd36
-TQID: https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8
+TQID: 'https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: ea6cf12e-f4da-4e2b-a9c1-e64da280b6f3
+    internal-label: Adobe Customer Journey Analytics Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ede5b5b1eb8ab449b982fdadba93e944cd2e062f
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2103
+source-wordcount: '2103'
 ht-degree: 1%
-
 ---
-
 # データ収集、データ転送、レポートの設定
 
 *Advertising DSPおよび[!DNL Advertising Search, Social, & Commerce]*&#x200B;の広告主
@@ -87,7 +98,7 @@ Experience Platformでデータ収集を設定し、コンバージョントラ�
 
      各データストリームは、1つのデータセットにのみデータを挿入できます。
 
-### 組織のweb サイト データを<!-- ?? -->Experience Platform データストリーム  に送信する{#tags-websdk}
+### 組織のweb サイト データを<!-- ?? -->Experience Platform データストリーム に送信する {#tags-websdk}
 
 Adobe TagsでAdobe Experience Platform Web SDK拡張機能を使用して、組織のweb サイトデータをExperience Platform データストリームに送信します。
 
@@ -107,29 +118,29 @@ Adobe TagsでAdobe Experience Platform Web SDK拡張機能を使用して、組�
 
    * [&#x200B; カスタム Web SDK ビルド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build)を作成します。
 
-      * [!UICONTROL Custom build components] セクションで、**Advertising** コンポーネントを有効にします。
+     * [!UICONTROL Custom build components] セクションで、**Advertising** コンポーネントを有効にします。
 
-        このコンポーネントには、Adobe Advertisingに必要なすべてのJavaScript コードがタグに含まれており、Advertising DSPとAdvertisingの検索、ソーシャル、Commerceのお客様の両方に必要です。 このコンポーネントは、アトリビューション測定に広告データを使用する方法を定義するために、タグルール（オプション）に「Advertising」設定も追加します。
+       このコンポーネントには、Adobe Advertisingに必要なすべてのJavaScript コードがタグに含まれており、Advertising DSPとAdvertisingの検索、ソーシャル、Commerceのお客様の両方に必要です。 このコンポーネントは、アトリビューション測定に広告データを使用する方法を定義するために、タグルール（オプション）に「Advertising」設定も追加します。
 
-        必要に応じて、追加のコンポーネントを有効にすることもできます。
+       必要に応じて、追加のコンポーネントを有効にすることもできます。
 
-      * [!UICONTROL SDK Instances] セクション：
+     * [!UICONTROL SDK Instances] セクション：
 
-         * [!UICONTROL Datastreams]設定で、各web環境（実稼動、ステージング、開発）で使用するデータストリームを選択します。
+       * [!UICONTROL Datastreams]設定で、各web環境（実稼動、ステージング、開発）で使用するデータストリームを選択します。
 
-         * （Adobe Advertising DSPを持つ組織のみ） [[!UICONTROL Adobe Advertising]設定](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)で、**[!UICONTROL Adobe Advertising DSP]**&#x200B;を有効にしてビュースルートラッキングを許可し、ビュースルートラッキングを有効にする広告主を指定します。 オプションとして、組織のID5 パートナーIDおよび/または[!DNL RampIDs]の[!DNL LiveRamp] [!DNL LaunchPad] JavaScript コード （ats.js）へのパスを追加することで、（組織の[&#x200B; ファーストパーティオーディエンスソース &#x200B;](/help/dsp/audiences/sources/source-about.md)から変換された）ユニバーサル IDからIDを収集できます。
+       * （Adobe Advertising DSPを持つ組織のみ） [[!UICONTROL Adobe Advertising]設定](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)で、**[!UICONTROL Adobe Advertising DSP]**&#x200B;を有効にしてビュースルートラッキングを許可し、ビュースルートラッキングを有効にする広告主を指定します。 オプションとして、組織のID5 パートナーIDおよび/または[!DNL RampIDs]の[!DNL LiveRamp] [!DNL LaunchPad] JavaScript コード （ats.js）へのパスを追加することで、（組織の[&#x200B; ファーストパーティオーディエンスソース &#x200B;](/help/dsp/audiences/sources/source-about.md)から変換された）ユニバーサル IDからIDを収集できます。
 
-           広告主がリストにない場合は、各広告主の広告主IDを入力します。 必要に応じて、AdobeのアカウントチームにIDを確認します。
+         広告主がリストにない場合は、各広告主の広告主IDを入力します。 必要に応じて、AdobeのアカウントチームにIDを確認します。
 
-           誤ったIDを入力すると、アドビアカウントチームに通知されます。
+         誤ったIDを入力すると、アドビアカウントチームに通知されます。
 
-           [!DNL RampID] JavaScript パスの例：`https://launchpad-wrapper.privacymanager.io/<customer-specific-id>/launchpad-liveramp.js`
+         [!DNL RampID] JavaScript パスの例：`https://launchpad-wrapper.privacymanager.io/<customer-specific-id>/launchpad-liveramp.js`
 
-         * ビルドを保存します。
+       * ビルドを保存します。
 
    * （オプション） Web SDKがEdge Networkにデータを送信するタイミングを決定するために、必要に応じて[&#x200B; ルール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/ui/rules)を作成します。
 
-      * `[sendEvent](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)` アクションの場合、[[!UICONTROL Advertising]設定](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)を使用して、広告データをアトリビューション測定に使用する方法を定義します。 この設定は、ルールに複数のアクションのシーケンスが含まれており、カスタムビルドコンポーネントの「[!UICONTROL Advertising]」コンポーネントを選択した場合にのみ使用できます。
+     * `[sendEvent](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)` アクションの場合、[[!UICONTROL Advertising]設定](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)を使用して、広告データをアトリビューション測定に使用する方法を定義します。 この設定は、ルールに複数のアクションのシーケンスが含まれており、カスタムビルドコンポーネントの「[!UICONTROL Advertising]」コンポーネントを選択した場合にのみ使用できます。
 
    * Web サイト上の変数を以前に作成したXDM スキーマの構造にマッピングするために、必要に応じて[&#x200B; データ要素](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/ui/data-elements)を作成します。
 
@@ -173,33 +184,33 @@ Experience Platform データセットからAdobe Advertising データをCustom
 
    * データセット設定を設定します。
 
-      * [!UICONTROL Event Dataset]設定の場合：
+     * [!UICONTROL Event Dataset]設定の場合：
 
-         * **[!UICONTROL Person ID]:** `Identity Map`
+       * **[!UICONTROL Person ID]:** `Identity Map`
 
-         * **[!UICONTROL Use primary identity namespace]:** Customer Journey AnalyticsとAdobe Real-Time CDPの両方に1つのデータセットとスキーマを使用する場合は、この設定を有効にして、`IdentityMap` フィールドグループでプライマリ IDを定義します。 `Required Field`もサポートされています。
+       * **[!UICONTROL Use primary identity namespace]:** Customer Journey AnalyticsとAdobe Real-Time CDPの両方に1つのデータセットとスキーマを使用する場合は、この設定を有効にして、`IdentityMap` フィールドグループでプライマリ IDを定義します。 `Required Field`もサポートされています。
 
-         * **[!UICONTROL Data Source Type]:** `Web Data > Others` <!-- I don't see "Others" in the screen shot example -->
+       * **[!UICONTROL Data Source Type]:** `Web Data > Others` <!-- I don't see "Others" in the screen shot example -->
 
-         * **[!UICONTROL Import all new data]:**&#x200B;設定を有効にする
+       * **[!UICONTROL Import all new data]:**&#x200B;設定を有効にする
 
-      * 分類（[!UICONTROL Lookup Dataset]）設定の場合、ディメンション データセットをイベント データセットにマッピングします。
+     * 分類（[!UICONTROL Lookup Dataset]）設定の場合、ディメンション データセットをイベント データセットにマッピングします。
 
-         * **[!UICONTROL Key]** （ディメンション データセットのキーとして使用するフィールド）: `Tracking Code` （スキーマの`trackingCode` フィールドと同じ）。
+       * **[!UICONTROL Key]** （ディメンション データセットのキーとして使用するフィールド）: `Tracking Code` （スキーマの`trackingCode` フィールドと同じ）。
 
-         * **[!UICONTROL Matching key]** （イベントデータセットの一致キーとして使用するフィールド）: `Tracking Code (Event datasets)`。
+       * **[!UICONTROL Matching key]** （イベントデータセットの一致キーとして使用するフィールド）: `Tracking Code (Event datasets)`。
 
-         * **[!UICONTROL Import all new data]:**&#x200B;設定を有効にする
+       * **[!UICONTROL Import all new data]:**&#x200B;設定を有効にする
 
-         * **[!UICONTROL Backfill all existing data]:**&#x200B;設定を有効にする
+       * **[!UICONTROL Backfill all existing data]:**&#x200B;設定を有効にする
 
-      * [!UICONTROL Metrics Dataset]設定の場合：
+     * [!UICONTROL Metrics Dataset]設定の場合：
 
-         * **[!UICONTROL Person ID]:** `Identity Map`
+       * **[!UICONTROL Person ID]:** `Identity Map`
 
-         * **[!UICONTROL Timestamp]:**&#x200B;値を確認してください
+       * **[!UICONTROL Timestamp]:**&#x200B;値を確認してください
 
-         * **[!UICONTROL Import all new data]:**&#x200B;設定を有効にする
+       * **[!UICONTROL Import all new data]:**&#x200B;設定を有効にする
 
 2. 3時間以内に、Customer Journey Analyticsでデータが利用可能であることを確認します。
 
@@ -219,11 +230,11 @@ Customer Journey Analyticsで、1つ以上のデータビューを作成して�
 
    * 「[!UICONTROL Components]」タブ：
 
-      * ルックアップデータセット（ディメンション/分類データ）、イベントデータセット（イベントレベルのデータ）、概要データセット（クリックなどの他の指標）を追加できます。
+     * ルックアップデータセット（ディメンション/分類データ）、イベントデータセット（イベントレベルのデータ）、概要データセット（クリックなどの他の指標）を追加できます。
 
-      * イベントデータセットとルックアップデータセットから指標を選択し、データビューに含めます。
+     * イベントデータセットとルックアップデータセットから指標を選択し、データビューに含めます。
 
-      * 「[!UICONTROL Tracking Code]」（スキーマパス `_experience.adcloud.conversionDetails.trackingCode`を持つイベントデータセットの一部）を検索します。 **[!UICONTROL Persistence]**&#x200B;を&#x200B;*[!UICONTROL Most Recent]*&#x200B;に設定します。
+     * 「[!UICONTROL Tracking Code]」（スキーマパス `_experience.adcloud.conversionDetails.trackingCode`を持つイベントデータセットの一部）を検索します。 **[!UICONTROL Persistence]**&#x200B;を&#x200B;*[!UICONTROL Most Recent]*&#x200B;に設定します。
 
 <!--
 
@@ -286,7 +297,8 @@ Customer Journey Analytics Workspaceでレポートとビジュアライゼー�
 
 >[!TIP]
 >
->サマリーイベントは、通常、レポートに少量の追加データを追加します。例えば、少数の追加イベント、1日に1回の追加セッション、レポートごとに1人の追加データなどが含まれます。 これらの追加機能は、標準的なweb イベントと比較すると無視できます。 ただし、ダミーの人物ID `00000000-0000-0000-0000-000000000000`のデータを除外することで、この追加の概要イベントデータを除外できます。人物IDを使用してデータを除外する例&rbrack;(/help/integrations/assets/cja-report-with-person-id.png "人物IDを使用してデータを除外する例")
+>サマリーイベントは、通常、レポートに少量の追加データを追加します。例えば、少数の追加イベント、1日に1回の追加セッション、レポートごとに1人の追加データなどが含まれます。 これらの追加機能は、標準的なweb イベントと比較すると無視できます。 ただし、ダミーの人物ID `00000000-0000-0000-0000-000000000000`のデータを除外することで、この追加の概要イベントデータを除外できます。
+>![人物IDを使用してデータを除外する例](/help/integrations/assets/cja-report-with-person-id.png "人物IDを使用してデータを除外する例")
 
 ![&#x200B; データセットがCustomer Journey Analyticsでどのように表示されるか](/help/integrations/assets/cja-report-example.png " データセットがCustomer Journey Analyticsでどのように表示されるか")
 
@@ -294,7 +306,7 @@ Customer Journey Analytics Workspaceでレポートとビジュアライゼー�
 >
 >* [概要](overview.md)
 >* [前提条件](prerequisites.md)
->*  [!DNL Customer Journey Analytics][&#128279;](ids.md)様が使用しているAdobe Advertising ID
+>*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)様が使用しているAdobe Advertising ID
 >* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション &#x200B;](advertising-data-in-cja.md)
 >* [Adobe Customer Journey Analyticsで使用するAMO IDとEF IDの履歴データを収集します](/help/integrations/analytics/rvars-to-evars.md)。
 >* [&#x200B; トラブルシューティング &#x200B;](troubleshooting.md)

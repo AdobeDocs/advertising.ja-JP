@@ -1,20 +1,23 @@
 ---
-title: ' [!DNL Google Ads] 動的検索広告を実装'
-description: ' [!DNL Google Ads] 動的検索広告の設定ワークフローについて説明します。'
+title: '[!DNL Google Ads]件の動的検索広告を実装'
+description: '[!DNL Google Ads]動的検索広告を設定するためのワークフローについて説明します。'
 exl-id: 69e5069f-3f82-4ee3-841a-0c1292677223
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE
+TQID: 'https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]件の動的検索広告を実装
 
 クリエイティブレベルまたはキーワードレベルおよびクリエイティブレベルのトラッキングのみを含む&#x200B;*[!DNL Google Ads]件の検索専用キャンペーン*
@@ -45,7 +48,7 @@ ht-degree: 0%
 
    1. （オプション）アカウントレベルのトラッキングテンプレートを上書きしますが、下位レベルで上書きできるキャンペーンレベルのトラッキングテンプレートを設定します。
 
-      （サーバーサイドトラッキングを使用しないAdobe Analyticsを使用する広告主）検索、ソーシャル、およびCommerceからAnalyticsへのリバースフィードのトラッキングを含める場合は、アカウントレベルの追加パラメーターにAMO ID トラッキングコードを追加し、コードを最終URLに追加します。 「[様が使用するAdobe Advertising ID  [!DNL Analytics]](/help/integrations/analytics/ids.md)を参照してください。」
+      （サーバーサイドトラッキングを使用しないAdobe Analyticsを使用する広告主）検索、ソーシャル、およびCommerceからAnalyticsへのリバースフィードのトラッキングを含める場合は、アカウントレベルの追加パラメーターにAMO ID トラッキングコードを追加し、コードを最終URLに追加します。 「 [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)様が使用するAdobe Advertising ID を参照してください。」
 
 1. 次の手順を含め、キャンペーン内で[広告グループ &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)を作成します。
 
@@ -62,7 +65,7 @@ ht-degree: 0%
 1. [広告グループ内の各動的検索広告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)を作成します。
 
    [!DNL Google Ads]は、各広告の見出し、表示URL、およびランディングページ URLを動的に生成します。 オプションで、広告レベルのトラッキングテンプレートにリダイレクトとトラッキングを追加できます。これにより、トラッキングテンプレートをより高いレベルで上書きできます。
-広告レベルのトラッキングでAdobe Analyticsのトラッキングをより高いレベルで上書きする場合は、ここに追加します。 手順1eおよび2cを参照してください。
+   広告レベルのトラッキングでAdobe Analyticsのトラッキングをより高いレベルで上書きする場合は、ここに追加します。 手順1eおよび2cを参照してください。
 
 1. （キャンペーン設定の「DSA オプション」セクションにドメインのルートドメインと言語を含めない場合は必須です。それ以外の場合はオプション）広告グループの[動的検索ターゲット &#x200B;](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)を作成します。 オプションで、広告グループレベルの入札をターゲットレベルの入札で上書きできます。
 

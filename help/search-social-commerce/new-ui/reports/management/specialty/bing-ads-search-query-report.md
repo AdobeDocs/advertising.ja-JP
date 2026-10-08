@@ -2,13 +2,19 @@
 title: '[!UICONTROL Bing Ads Search Query Report]'
 description: '[!UICONTROL Bing Ads Search Query Report]について説明します。'
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '178'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Bing Ads Search Query Report]
 
 *[!DNL Microsoft Advertising]アカウントのみ*
@@ -17,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このレポートのデータは、前日の23:00 （午後11:00）にプルされます。 得ることができます。 例えば、6月18日の23:00に、6月17日のデータを取得します。 6月18日のデータがプルされる前の6月19日（09:00）にレポートを実行すると、レポートには6月17日（23:00）までのデータが含まれます。
+>報告書用のデータは、前日の午後23時（11時）に取り込まれます。 得ることができます。 例えば、6月18日の23:00に、6月17日のデータを取得します。 6月19日の09:00 （6月18日のデータが取り込まれる前）にレポートを実行すると、レポートには6月17日の23:00までのデータが含まれます。
 
 ## デフォルトの列
 

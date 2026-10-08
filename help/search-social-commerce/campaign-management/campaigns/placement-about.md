@@ -1,27 +1,30 @@
 ---
-title: ' [!DNL Google Ads]  プレースメントについて'
-description: ' [!DNL Google Ads]の入札可能なプレースメントと負のプレースメントのオプションについて説明します。'
+title: '[!DNL Google Ads]件について'
+description: '[!DNL Google Ads]の入札可能なプレースメントと負のプレースメントのオプションについて説明します。'
 exl-id: c0a2d888-8afa-47c8-a89e-da4de527e6ea
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/mLsl1Jx5cbPCvdSpNjff9aU1O4vPPDsFW-eYPX7PfG8
+TQID: 'https://experienceleague.adobe.com/mLsl1Jx5cbPCvdSpNjff9aU1O4vPPDsFW-eYPX7PfG8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 166
+source-wordcount: '167'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]件について
 
 *[!DNL Google Ads]アカウントのみ*
 
 プレースメントは、広告を表示できるディスプレイネットワーク上の場所です。 配置の設定には、最大入札額とオプションのトラッキングパラメーターが含まれます。 配置レベルの設定は、広告グループまたはキャンペーンの設定を上書きします。
 
-[同期検索エンジンアカウント  [!DNL Google Ads] 内の表示ネットワークをターゲットとする](/help/search-social-commerce/introduction/supported-inventory.md) サポート対象[&#x200B; キャンペーンタイプ &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)の任意の広告グループに対してプレースメントを作成できます。
+[同期検索エンジンアカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)内の表示ネットワークをターゲットとする[&#x200B; サポート対象 [!DNL Google Ads]  キャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)の任意の広告グループに対してプレースメントを作成できます。
 
 ## [!UICONTROL Placements] ビュー
 

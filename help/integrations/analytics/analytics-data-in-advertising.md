@@ -3,21 +3,28 @@ title: Adobe Advertisingの[!DNL Analytics] データ
 description: Adobe Advertisingの[!DNL Analytics] データ
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-TQID: https://experienceleague.adobe.com/Op96b-n8lH2vLwBfUjlJdunp65Y5o2-gYxaEWFwH2m8
+TQID: 'https://experienceleague.adobe.com/Op96b-n8lH2vLwBfUjlJdunp65Y5o2-gYxaEWFwH2m8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+    internal-label: Developer
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: '345'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertisingの[!DNL Analytics] データ
 
 *Adobe AdvertisingとAdobe Analyticsの統合のみを使用する広告主*
@@ -38,7 +45,7 @@ ht-degree: 0%
 >* [!DNL Analytics]は毎時間Adobe Advertisingにデータを渡します。
 
 * [!UICONTROL Timespent_secs_1stvisit]：訪問者の最初の訪問中にサイトに滞在した秒数。
-* [!UICONTROL Timespent_secs_total]: クリックのルックバックウィンドウ内のすべての訪問でサイトに費やされた合計秒数。
+* [!UICONTROL Timespent_secs_total]&#x200B;: クリックのルックバックウィンドウ内のすべての訪問でサイトに費やされた合計秒数。
 * [!UICONTROL Pageviews_1stvisit]：訪問者の初回訪問時のサイトのページビュー数。
 * [!UICONTROL Pageviews_total]: クリック ルックバック ウィンドウ内のすべての訪問における、サイト上のページビューの合計数。
 * [[!UICONTROL Bounces]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html?lang=ja)

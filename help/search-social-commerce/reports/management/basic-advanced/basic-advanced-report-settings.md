@@ -3,23 +3,34 @@ title: 基本および詳細レポート設定
 description: 基本レポートと詳細レポートの必須およびオプション設定について説明します。
 exl-id: 856d7bc2-7316-4556-a04e-33346591b18f
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-TQID: https://experienceleague.adobe.com/WYVC76Mkfe5-VXa1hjyphXW34xqkbV7VEq9lHPhGPT8
+TQID: 'https://experienceleague.adobe.com/WYVC76Mkfe5-VXa1hjyphXW34xqkbV7VEq9lHPhGPT8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3822
+source-wordcount: '3838'
 ht-degree: 0%
-
 ---
-
 # 基本および詳細レポート設定
 
 | Tab | パラメーター | 説明 |
@@ -51,9 +62,9 @@ ht-degree: 0%
 |  | [!UICONTROL Impression Override Weight] | （[!UICONTROL Last Event]または[!UICONTROL First Event]を除くすべてのアトリビューションルールについて）コンバージョンの前に有料クリックとインプレッションが表示される場合、コンバージョン値の指定された割合を、広告主の[&#x200B; インプレッションのルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j)内で発生したインプレッションに関連付けます。 デフォルトでは、この値は10%です。値は0 ～ 100の任意の整数に変更できます。 この値は、レポート内でのみ使用されます。<br><br> コンバージョンの前にインプレッションのみが表示された場合、インプレッションのオーバーライドの重みではなく、広告主の[&#x200B; ビュースルーの重み](/help/search-social-commerce/glossary.md#u-v)がインプレッションに適用されます。 |
 |  | [!UICONTROL Conversion Attribution] | （キャンペーンの表示にのみ適用できます。[!UICONTROL Keyword Report]、[!UICONTROL Product Group Report]、[!UICONTROL Campaign Hourly Report]を除くすべてのレポート）以前のイベントが発生したときに報告するコンバージョンの種類：<ul><li><i>[!UICONTROL Clicks]:</i> クリックに起因するコンバージョンのみをレポートします。 各コンバージョン名には「[!UICONTROL (CT)]」が付加されます。</li><li><i>[!UICONTROL View-throughs Only]:</i> ビュースルーに起因するコンバージョンのみをレポートします。 各コンバージョン名には「[!UICONTROL (VT)]」が付加されます。 このオプションを選択すると、各コンバージョンに提供する値を選択できます。 「ビュースルー評価方法」ボックスで、次のオプションを選択します。<ul><li><i>[!UICONTROL Raw]:</i>重みを適用せずにコンバージョンを報告します。</li><li><i>[!UICONTROL Weighted]</i> （既定値）：広告主に指定されたビュースルーの重みに応じて各コンバージョンの重みを設定します。</li></ul></li><li><i>[!UICONTROL Clicks + View-throughs]:</i>すべてのコンバージョンを報告します。 デフォルトでは、各コンバージョン名には「[!UICONTROL (CT+VT)]」が付加されます。 このコンバージョンアトリビューションタイプには、次の2つのオプションがあります。<ul><li>[!UICONTROL Discrete columns for click & view-through conversions]：含めるコンバージョンタイプごとに3つの別々の列が含まれます。1） クリックスルーコンバージョン用にそれぞれ1つ、「[!UICONTROL (CT)]」が付加され、2） ビュースルーコンバージョン用に「[!UICONTROL (VT)]」が付加され、3）とすべてのコンバージョン用に「[!UICONTROL (CT+VT)]」が付加されます。 このオプションを選択すると、「[!UICONTROL Filter & sort using]」リストからフィルタリングと並べ替えに使用する3つの列のうち、どれかを選択します。<i>[!UICONTROL click]</i> （デフォルト）、<i>[!UICONTROL view-through]</i>、または<i>[!UICONTROL click + view-through]</i>。<br><br><b>注：</b>検索キャンペーンのコンバージョンは、クリックスルーの列には表示されますが、ビュースルーコンバージョンの列には表示されません。</li><li>[!UICONTROL View-through valuation method]: ビュースルーの結果として発生する各コンバージョンに与える値：</li><ul><i>[!UICONTROL Weighted]</i> （既定値）：広告主に指定されたビュースルーの重みに応じて各コンバージョンの重みを設定します。</li><li><i>[!UICONTROL Raw]:</i>重みを適用せずにコンバージョンを報告します。</li></ul></li></ul> |
 |  | [!UICONTROL Conversion Attribution] > [!UICONTROL Discrete columns for cross device conversions] | 廃止 |
-| [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | （オプション、「[!UICONTROL Save as template]」オプションが選択されている場合にのみ使用できます） レポートを実行するタイミング：<i>[!UICONTROL Now]</i> （デフォルトでは、1回レポートを実行する）、<i>[!UICONTROL Daily]</i>、<i>[!UICONTROL Weekly on] [週の日]</i>、または<i>[!UICONTROL Every Month] [月の日]</i>。 <i>[!UICONTROL Now]</i>を除くすべての期間について、広告主のタイムゾーンの午前09:00から始まる時間を選択します。 |
-|  | [!UICONTROL Email Recipients] | <b>注意：</b>この設定は、[!UICONTROL Reports]のメール通知が[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md)内で有効になっている場合にのみ使用されます。<br><br>登録済みのSearch、Social、およびCommerce ユーザーのメールアドレス。レポートが完了した場合やエラーが発生した場合に通知を送信できます。 デフォルトでは、ユーザーアカウントのアドレスが入力されます。 複数のアドレスを指定するには、コンマ、スペース、または新しい行で区切ります。 レポートを繰り返し実行するようにスケジュールすると、レポートが完了するたびに通知が送信されます。 |
-|  | [!UICONTROL Email Notification] | <b>注意：</b>この設定は、[!UICONTROL Reports]のメール通知が[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md)内で有効になっている場合にのみ使用されます。<br><br> （[!UICONTROL Email Recipients]が指定されている場合）指定されたアドレスへのメール通知に含める内容：<ul><li><i>[!UICONTROL Notification Only]</i> （既定値）: レポートの完了または失敗の通知のみを添付ファイルなしで送信します。 通知には、すべてのレポート形式の一時的なダウンロードリンクが含まれています。</li><li><i>[!UICONTROL XLS Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをXLS形式で含めるには。 1 MBを超えるファイルは圧縮されます。</li><li><i>[!UICONTROL TSV Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをTSV形式で含めるには。 1 MBを超えるファイルは圧縮されます。</li><li><i>[!UICONTROL CSV Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをCSV形式で含めるには。 1 MBを超えるファイルは圧縮されます。 |
+| [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | （オプション、「[!UICONTROL Save as template]」オプションが選択されている場合にのみ使用できます） レポートを実行するタイミング：<i>[!UICONTROL Now]</i> （デフォルトでは、1回レポートを実行する）、<i>[!UICONTROL Daily]</i>、<i>[!UICONTROL Weekly on] [週の日]</i>、または<i>[!UICONTROL Every Month] [月の日]</i>。 <i>[!UICONTROL Now]</i>を除くすべての期間について、広告主のタイムゾーンの午前9時から開始する時間を選択します。 |
+|  | [!UICONTROL Email Recipients] | <b>注意：</b>この設定は、[!UICONTROL Reports]のメール通知が[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md)内で有効になっている場合にのみ使用されます。<br><br>登録済みのSearch、Social、およびCommerce ユーザーのメールアドレス。レポートが完了した場合やエラーが発生した場合に通知を送信できます。 デフォルトでは、ユーザーアカウントのアドレスが入力されます。 複数のアドレスを指定するには、コンマ、スペース、または新しい行で区切ります。 レポートを繰り返し実行するようにスケジュールすると、レポートが完了するたびに通知が送信されます。 |
+|  | [!UICONTROL Email Notification] | <b>注意：</b>この設定は、[!UICONTROL Reports]のメール通知が[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md)内で有効になっている場合にのみ使用されます。<br><br> （[!UICONTROL Email Recipients]が指定されている場合）指定されたアドレスへのメール通知に含める内容：<ul><li><i>[!UICONTROL Notification Only]</i> （既定値）: レポートの完了または失敗の通知のみを添付ファイルなしで送信します。 通知には、すべてのレポート形式の一時的なダウンロードリンクが含まれています。</li><li><i>[!UICONTROL XLS Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをXLS形式で含めるには。 1 MBを超えるファイルは圧縮されます。</li><li><i>[!UICONTROL TSV Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをTSV形式で含めるには。 1 MBを超えるファイルは圧縮されます。</li><li><i>[!UICONTROL CSV Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをCSV形式で含めるには。 1 MBを超えるファイルは圧縮されます。 |
 
 >[!MORELIKETHIS]
 >

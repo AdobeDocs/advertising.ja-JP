@@ -1,22 +1,29 @@
 ---
-title: リードの [!DNL Google Ads] 強化コンバージョンのコンバージョンアクションを作成します
-description: リードのコンバージョンを強化するための [!DNL Google Ads]  コンバージョンアクションの作成方法について説明します。
+title: リードの[!DNL Google Ads]強化コンバージョンのコンバージョンアクションを作成します
+description: リードのコンバージョンを強化するための[!DNL Google Ads] コンバージョンアクションの作成方法について説明します。
 feature: Conversions
 exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
-TQID: https://experienceleague.adobe.com/KqFHgxjc-4snyo3nf-3-ry6nsyapMPcwKEWvgi-pxGc
+TQID: 'https://experienceleague.adobe.com/KqFHgxjc-4snyo3nf-3-ry6nsyapMPcwKEWvgi-pxGc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: '879'
 ht-degree: 0%
-
 ---
-
 # リードの[!DNL Google Ads]強化コンバージョンのコンバージョンアクションを作成します
 
 *[!DNL Google Ads]アカウントのみ*
@@ -115,7 +122,7 @@ ht-degree: 0%
 
    * [!DNL Google] タグを使用するには、「[&#x200B; タグを使用したリードの拡張コンバージョンの設定 [!DNL Google]  タグ &#x200B;](https://support.google.com/google-ads/answer/11347292)」の「[!DNL Google] タグ設定の設定」に関する[!DNL Google Ads]の手順を参照してください。
 
-   * [!DNL Google Tag Manager]を使用するには、「 [!DNL Google Tag Manager][&#128279;](https://support.google.com/google-ads/answer/11021502?#configure)」の「 リードの拡張コンバージョンの設定」の「[!DNL Google] タグ設定の設定」と「設定を確認してコンテナを公開する」の[!DNL Google Ads]の手順を参照してください。
+   * [!DNL Google Tag Manager]を使用するには、「 [!DNL Google Tag Manager]&#x200B;[&#128279;](https://support.google.com/google-ads/answer/11021502?#configure)」の「 リードの拡張コンバージョンの設定」の「[!DNL Google] タグ設定の設定」と「設定を確認してコンテナを公開する」の[!DNL Google Ads]の手順を参照してください。
 
 1. **[!UICONTROL Done].**&#x200B;をクリックします
 

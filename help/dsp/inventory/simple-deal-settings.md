@@ -3,20 +3,23 @@ title: '[!UICONTROL Simple Ad Serving]件の取引設定'
 description: '[!UICONTROL Simple Ad Serving]件の取引で使用可能な設定について説明します。'
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-TQID: https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M
+TQID: 'https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 468
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Simple Ad Serving]件の取引設定
 
 ## 新規[!UICONTROL Simple Ad Serving]件の取引
@@ -45,10 +48,10 @@ ht-degree: 0%
 
 | パラメーター | 説明 |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | 1000 インプレッションあたりのコスト（CPM）は、契約のレートカードに反映されます。 この値については、Adobe アカウントチームにお問い合わせください。 <br><br>取引の通貨も指定します。 すべてのユーザーがUSDを選択するか、SSPが追加通貨をサポートしている場合は、DSP アカウントの通貨を選択できます。 |
-| **[!UICONTROL Third Party Billed Fees]** | （オプション）請求されないコストとして追跡される静的なサードパーティ料金、および取引の通貨。<br><br>すべてのユーザーがUSDを選択できます。また、SSPが追加通貨をサポートしている場合は、DSP アカウントの通貨を選択できます。 **メモ：**&#x200B;請求可能な手数料は、[!UICONTROL Net CPM]指標に反映されます。 |
+| **[!UICONTROL Media CPM]** | 1000 インプレッションあたりのコスト（CPM）は、契約のレートカードに反映されます。 この値については、Adobe アカウントチームにお問い合わせください。 <br><br>取引の通貨も指定します。 すべてのユーザーがUSDを選択できます。また、SSPが追加通貨をサポートしている場合は、DSP アカウントの通貨を選択できます。 |
+| **[!UICONTROL Third Party Billed Fees]** | （オプション）請求されないコストとして追跡される静的なサードパーティ料金、および取引の通貨。<br><br>すべてのユーザーがUSDを選択できます。または、SSPが追加通貨をサポートしている場合は、DSP アカウントの通貨を選択できます。 **メモ：**&#x200B;請求可能な手数料は、[!UICONTROL Net CPM]指標に反映されます。 |
 | **[!UICONTROL Third Party Fee Description]** | （オプション）サードパーティ手数料の説明。 |
-| **[!UICONTROL Flight Dates]** | この取引を使用したトラフィックの開始日と終了日。 フライト日は、キャンペーンのフライト日に含める必要があります。 広告タグは、指定されたフライト中にのみ応答を返します。<br><br>1年間の期間を持つシンプルな広告配信キャンペーンを個別に作成し、その中にトラッキングピクセルを構築するためのベストプラクティスです。 |
+| **[!UICONTROL Flight Dates]** | この取引を使用したトラフィックの開始日と終了日。 フライト日は、キャンペーンのフライト日に含める必要があります。 広告タグは、指定されたフライト中にのみ応答を返します。<br><br> 1年間の期間を持つ個別のシンプルな広告配信キャンペーンを作成し、その中にトラッキングピクセルを構築するためのベストプラクティスです。 |
 | **[!UICONTROL Impressions]** | （オプション）この契約を使用して実行するインプレッションの推定数。 この値は、追跡目的でのみ使用され、配信目標が達成されたときにフラグを立てるために使用されます。パブリッシャーは実際の広告配信を制御します。 DSP内でタグをアクティブに保ち、必要に応じて更新または拡張できるように、インプレッション数を多く入力することをお勧めします。 |
 | **[!UICONTROL Deal Name]** | 取引名です。 名前を入力するか、*[!UICONTROL Auto Generate Deal Name]*&#x200B;を選択して、DSPが取引詳細に基づいて名前を生成できるようにします。<br><br>自動生成された名前の例：`Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
 | **[!UICONTROL Attached Ads]** | （読み取り専用）契約に含まれる広告。 広告を編集するには、広告名をクリックします。 取引から広告を削除するには、広告名の横にある&#x200B;**[!UICONTROL X]**&#x200B;をクリックします。 |

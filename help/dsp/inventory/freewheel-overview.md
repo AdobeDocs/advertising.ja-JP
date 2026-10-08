@@ -1,25 +1,32 @@
 ---
-title: ' [!DNL FreeWheel]でのPG取引の設定の概要'
-description: ' [!DNL FreeWheel]でパブリッシャーとのプログラマティック保証取引の広告を実行するために必要な前提条件と追加の手順について説明します。'
+title: '[!DNL FreeWheel]でのPG取引の設定の概要'
+description: '[!DNL FreeWheel]でパブリッシャーとのプログラム的な保証取引の広告を実行するために必要な前提条件と追加の手順について説明します。'
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-TQID: https://experienceleague.adobe.com/8ovkE7w5qXW7Csibxy-PyHvUud0wwrhdSTulQP7bIeM
+TQID: 'https://experienceleague.adobe.com/8ovkE7w5qXW7Csibxy-PyHvUud0wwrhdSTulQP7bIeM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: '220'
 ht-degree: 0%
-
 ---
-
 # [!DNL FreeWheel]でのプログラマティック保証取引の設定の概要
 
 [!DNL FreeWheel]でパブリッシャーとのプログラム的な保証取引を設定するには、追加の権限と手順が必要です。
@@ -38,7 +45,7 @@ ht-degree: 0%
 
    一部の英国のパブリッシャーの場合は、広告に[!DNL Clearcast] クロック番号を含める必要があります。
 
-1. [取引ID インボックスを使用して、既に](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)の発行者と交渉した取引ID[!DNL FreeWheel]を承認します。
+1. [取引ID インボックスを使用して、既に[!DNL FreeWheel]の発行者と交渉した取引ID](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)を承認します。
 
    取引を承認したら、プロンプトに従って、1）取引に使用する広告を選択し、2）広告を配信するためのプログラマティックな保証されたデフォルトのプレースメントを作成します。
 
@@ -53,4 +60,4 @@ ht-degree: 0%
 >* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)で取引を承諾
 >* [&#x200B; プログラマティック保証取引の広告を [!DNL FreeWheel]](freewheel-submit.md)に送信します
 >* [PG取引 [!DNL FreeWheel] の広告のステータスを確認する](freewheel-check-status.md)
->* [広告の送信 [!DNL FreeWheel] のエラーコード](freewheel-error-codes.md)
+>* [広告の送信](freewheel-error-codes.md)のエラーコード [!DNL FreeWheel] 

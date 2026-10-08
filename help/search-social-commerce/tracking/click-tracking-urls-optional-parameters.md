@@ -3,18 +3,21 @@ title: クリックトラッキング URLのオプションのトラッキング
 description: オプションの検索、ソーシャル、およびCommerce トラッキングパラメーターと、クリックトラッキング URLに追加できる広告ネットワーク固有のトラッキングパラメーターについて説明します。
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E
+TQID: 'https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: '1146'
 ht-degree: 0%
-
 ---
-
 # クリックトラッキング URLのオプションのトラッキングパラメーター
 
 *[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]および[!DNL Yandex] アカウントのみ*
@@ -25,11 +28,11 @@ ht-degree: 0%
 
 * アカウント/キャンペーンのベース URLにAdobe Advertising固有および広告ネットワーク固有のパラメーターを追加して、より多くのデータをトラッキングできます。
 
-   * Adobe Advertising パラメーターは半静的です。 Adobe Advertisingは、ベース URLをアドネットワークにアップロードするときにデータ値を挿入します。 例えば、ベース URLに`campaign={ef_campaign}`を追加すると、URLをアップロードするときに、Adobe Advertisingは`{ef_campaign}`を実際のキャンペーン名（「Back-to-school-Campaign」など）に置き換えます。
+  * Adobe Advertising パラメーターは半静的です。 Adobe Advertisingは、ベース URLをアドネットワークにアップロードするときにデータ値を挿入します。 例えば、ベース URLに`campaign={ef_campaign}`を追加すると、URLをアップロードするときに、Adobe Advertisingは`{ef_campaign}`を実際のキャンペーン名（「Back-to-school-Campaign」など）に置き換えます。
 
-     **メモ：**&#x200B;値を挿入すると、静的なままになります。 キーワードまたは広告を別の広告グループに移動する場合、または広告グループを別のキャンペーンに移動する場合、{ef_adgroup}または{ef_campaign} パラメーターは自動的に更新されないため、新しい宛先URLまたはベース（最終） URLを手動で生成する必要があります。
+    **メモ：**&#x200B;値を挿入すると、静的なままになります。 キーワードまたは広告を別の広告グループに移動する場合、または広告グループを別のキャンペーンに移動する場合、{ef_adgroup}または{ef_campaign} パラメーターは自動的に更新されないため、新しい宛先URLまたはベース（最終） URLを手動で生成する必要があります。
 
-   * 広告ネットワーク固有のパラメーターは動的であり、ユーザーが広告をクリックすると、検索エンジンがデータ値を挿入します。 例えば、ベース URLに`{param1}`を追加すると、エンドユーザーが広告をクリックしたときに、広告ネットワークは実際の{param1}値に置き換えます。
+  * 広告ネットワーク固有のパラメーターは動的であり、ユーザーが広告をクリックすると、検索エンジンがデータ値を挿入します。 例えば、ベース URLに`{param1}`を追加すると、エンドユーザーが広告をクリックしたときに、広告ネットワークは実際の{param1}値に置き換えます。
 
 >[!NOTE]
 >
@@ -38,7 +41,7 @@ ht-degree: 0%
 >* 追加されたパラメーター内の特殊文字は、生成された宛先URLまたはベース（最終） URLで次のように置換されます。
 >  * `=`は`%3D`に置換されています
 >  * `?`は`%26`に置換されています
->  * 空のスペースは`%2B`で置き換えられます
+>  * 空のスペースは、で置き換えられます `%2B`
 >  例えば、キーワードのベース URL http://www.example.comにパラメーター`campaign={ef_campaign}`を追加すると、そのキーワードのベース URLは`http://www.example.com/campaign%3D{ef_campaign}`として生成されます。
 
 ## Search, Social, &amp; Commerceの静的トラッキングパラメーター

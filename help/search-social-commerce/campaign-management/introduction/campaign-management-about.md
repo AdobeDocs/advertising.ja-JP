@@ -3,21 +3,26 @@ title: Search, Social, & Commerceのキャンペーン管理について
 description: Search, Social, & Commerceのキャンペーン管理機能について説明します。
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
+TQID: 'https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 61a66d7d35873247de40480f7361f87e2dedde88
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 850
+source-wordcount: '850'
 ht-degree: 0%
-
 ---
-
 # Search, Social, &amp; Commerceのキャンペーン管理について
 
 Search, Social, &amp; Commerceを使用すると、検索、表示/コンテンツ、ソーシャル、ショッピング、オーディエンス、パフォーマンスの最大数キャンペーンを1か所で追跡および/または管理できます。 広告ネットワークとキャンペーンのタイプに応じて、利用可能な機能には、広告ネットワークとの同期、機能の作成と編集、トラッキングとコンバージョンのアトリビューション、レポート、入札と予算の最適化などがあります。 各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
@@ -60,7 +65,7 @@ Adobe Advertising コンバージョントラッキングサービスを使用�
 
 * **[!UICONTROL Bulksheets]** - [!UICONTROL Bulksheets] ビューを使用して、[&#x200B; サポートされている広告ネットワーク &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)上のアカウントに必要な量のデータを含む[&#x200B; バルクシート ファイル &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を作成し、広告ネットワークに投稿します。
 
-* **[!UICONTROL Audiences]** — [&#x200B; [!UICONTROL Audiences] ビュー](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)には、様々なタイプのユーザーリストから生成されたすべての[!DNL Google Ads]および[!DNL Microsoft Advertising] オーディエンスが一覧表示されます。 既存のAdobe CX Enterprise オーディエンスと顧客メールリストから[!DNL Google Ads]個のオーディエンスを作成できます。 また、[!DNL Google Ads]および[!DNL Microsoft Advertising]広告のオーディエンスのターゲットと除外を表示および管理することもできます。
+* **[!UICONTROL Audiences]** — [&#x200B; [!UICONTROL Audiences] ビュー](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)には、様々なタイプのユーザーリストから生成されたすべての[!DNL Google Ads]および[!DNL Microsoft Advertising] オーディエンスが一覧表示されます。 既存のAdobe CX Enterprise オーディエンスと顧客のメールリストから[!DNL Google Ads]個のオーディエンスを作成できます。 また、[!DNL Google Ads]および[!DNL Microsoft Advertising]広告のオーディエンスのターゲットと除外を表示および管理することもできます。
 
 * **[!UICONTROL Label Classifications]** – このビューを使用して[&#x200B; ラベル分類](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)を作成および削除します。これにより、ラベルを意味のあるセットにグループ化できます。
 

@@ -6,19 +6,23 @@ exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
 TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9c0e1d04187ee5f80d4b5899ab36833f202b16a
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1082
+source-wordcount: '1082'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）検索、ソーシャル、コマースのユーザー管理
 
 一部のユーザーは、すべてのAdobeの使用権限とユーザー管理を一元管理する[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)を使用して、新しいSearch, Social, &amp; Commerce ユーザーインターフェイスへのアクセスを管理できます。 ユーザーは、エンドユーザーまたは管理者に分類されます。 管理者は、Adobe アカウントチームから通知を受け取ります。 管理者の場合は、次の節を参照して、ユーザーを管理するための権限とワークフローを特定してください。

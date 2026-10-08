@@ -1,31 +1,36 @@
 ---
-title: プレミアム在庫について [!DNL On Demand] 件
+title: '[!DNL On Demand]件のプレミアム在庫について'
 description: DSPがプレミアムパブリッシャーパートナーと事前に交渉した契約について説明します。
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-TQID: https://experienceleague.adobe.com/eQWPc1b2GRmORoOHXR6AzFFE1TdjI1fJe9Jr8pMjPZo
+TQID: 'https://experienceleague.adobe.com/eQWPc1b2GRmORoOHXR6AzFFE1TdjI1fJe9Jr8pMjPZo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '461'
 ht-degree: 0%
-
 ---
-
 # [!DNL On Demand]件のプレミアム在庫について
 
 *アカウントタイプ [!UICONTROL Ad Network]、[!UICONTROL Publisher Audience Extension]、[!UICONTROL Other]のユーザー、カテゴリ [!UICONTROL Other]の広告主、およびリセラー*&#x200B;のユーザーは利用できません
 
-[!DNL On Demand] ギャラリーは、DSPがプレミアムパブリッシャーパートナーと調整した事前交渉済みの取引を探索するためのプレミアム在庫検索ツールです。 1:1件の交渉や契約を必要とせずに、地域のトップクラスのパブリッシャーから保証されていない在庫にアクセスできます。 個々の契約をリクエストし、パブリッシャーを購読して、パブリッシャーのすべての契約を一度にリクエストできます。
+[!DNL On Demand] ギャラリーは、DSPがプレミアムパブリッシャーパートナーと調整した事前交渉済みの取引を探索するためのプレミアム在庫検索ツールです。 一対一の交渉や契約を必要とせずに、地域のトップクラスのパブリッシャーから保証されていない在庫にアクセスすることができます。 個々の契約をリクエストし、パブリッシャーを購読して、パブリッシャーのすべての契約を一度にリクエストできます。
 
 DSP premium Marketplaceでは、次のことが可能です。
 
@@ -56,7 +61,7 @@ DSP premium Marketplaceでは、次のことが可能です。
 各取引の詳細には、次の列のデータが含まれます。
 
 * **[!UICONTROL TVB]:**&#x200B;発行者がテレビ放送局である場合を示します
-* **[!UICONTROL Tune]:**&#x200B;発行者が「チューンイン」のクリエイティブを受け入れた日時を示します（例：「今夜の午後9時にチューニングして、新しいエピソードの\*私たちの番組*\>）
+* **[!UICONTROL Tune]:**&#x200B;発行者が「チューンイン」のクリエイティブを受け入れるタイミングを示します（例：「今夜の午後9時にチューニングして、番組&#x200B;*\>の新しいエピソードを制作する」）*
 * **[!UICONTROL LDA]:** （法定飲酒年齢）出版社が21以上のターゲティングを適用し、アルコール広告を受け入れたことを示します
 * **[!UICONTROL CPM]:**&#x200B;広告主が契約へのアクセスを許可されるまで、契約のフロアまたは固定レートのCPMが表示されないことを示します
 * **[!UICONTROL Status]:** サブスクリプションのリクエストのステータス （該当する場合）

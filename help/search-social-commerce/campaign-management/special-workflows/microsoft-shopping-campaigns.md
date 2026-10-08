@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL Microsoft Advertising] 個のショッピング キャンペーンを実装'
-description: 'ショッピング キャンペーンを設定するためのワークフローについて説明します。 [!DNL Microsoft Advertising] '
+title: '[!DNL Microsoft Advertising]件のショッピング キャンペーンを実装'
+description: '[!DNL Microsoft Advertising]個のショッピング キャンペーンを設定するためのワークフローについて説明します。'
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8
+TQID: 'https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 587
+source-wordcount: '598'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]件のショッピング キャンペーンを実装
 
 ショッピング キャンペーンの広告では、既存の[!DNL Microsoft Merchant Center]製品フィードの製品に関するデータを使用して、広告を表示する方法と場所を決定します。
@@ -27,7 +31,7 @@ ht-degree: 0%
 
 ## [!DNL Microsoft Advertising]件のショッピング キャンペーンを設定する手順
 
-[の](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)在庫フィード テンプレート [!DNL Microsoft Advertising]を使用するか、[&#x200B; バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用するか、個別にショッピング キャンペーンを設定できます。 次の手順には、個々のエンティティを作成するためのリンクが含まれています。
+[!DNL Microsoft Advertising]の[在庫フィード テンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)を使用するか、[&#x200B; バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用するか、個別にショッピング キャンペーンを設定できます。 次の手順には、個々のエンティティを作成するためのリンクが含まれています。
 
 1. [!DNL Microsoft Merchant Center] アカウントを設定し、製品データを入力します。
 
@@ -45,7 +49,7 @@ ht-degree: 0%
 
    1. （オプション） [子製品グループを作成](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)。
 
-   1. 広告グループ内の各ショッピング広告[に含める可能性のある](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) プロモーション行を含む[製品広告](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)を作成します。
+   1. 広告グループ内の各ショッピング広告[&#128279;](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)に含める可能性のある プロモーション行を含む[製品広告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)を作成します。
 
       Microsoft Advertisingは、各広告の広告コピーとランディングページのURLを動的に生成します。
 
@@ -57,7 +61,7 @@ ht-degree: 0%
 
    または、[!DNL Microsoft Merchant Center] アカウント内の製品データにトラッキング URLを追加することもできます。 これを行うには、トラッキング URLを、必要に応じて「リンク」または「mobile_link」フィールドの値と共に、製品フィード内のカスタム列「[bingads_redirect](https://help.ads.microsoft.com/#apex/3/en/51084)」に含めます。 「bingads_redirect」フィールドの値は、「link」フィールドと「mobile_link」フィールドの値に置き換わります。 この方法で生成されたURLには、Search, Social, &amp; Commerce アカウントまたはキャンペーン設定で指定されたトラッキングパラメーターが含まれていません。
 
-1. [を生成して[!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md) パフォーマンスを監視します。
+1. [!UICONTROL Product Group Report]&#x200B;[&#128279;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)を生成して パフォーマンスを監視します。
 
 1. 必要に応じて：
 
@@ -69,5 +73,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* [!DNL Microsoft Shopping] バルクシート [と](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)在庫フィード テンプレート [を使用して](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md) キャンペーンと製品グループを管理するための必須フィールドを参照してください。
+>* [&#x200B; バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)と[在庫フィード テンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)を使用して[!DNL Microsoft Shopping] キャンペーンと製品グループを管理するための必須フィールドを参照してください。
 >* [!DNL Microsoft Shopping] キャンペーンについて詳しくは、[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/50903)を参照してください。

@@ -3,7 +3,13 @@ title: （新しいUI）広告グループの名前の変更
 description: 広告グループ設定を開かずに広告グループの名前を変更する方法を説明します。
 feature: Search Campaign Management
 hide: true
-source-git-commit: 19e8de1ab13ab8a5451702e6130219277cf09631
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 0%

@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2404'
 ht-degree: 2%
 ---
 # Adobe Advertising Search, Social &amp; Commerce ガイド {#search-social-commerce}
@@ -104,6 +104,7 @@ ht-degree: 2%
       + [&#x200B; [!DNL Microsoft Advertising]での [!DNL Google Ads]  キャンペーンのレプリケート](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md)
       + 広告ネットワーク別のキャンペーン設定 {#campaign-settings-by-network}
         + [[!DNL Baidu] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
+        + [[!DNL ChatGPT Ads] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)
         + [[!DNL Google Ads] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
         + [[!DNL LY Ads] キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
         + [[!DNL Microsoft Advertising] キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
@@ -112,6 +113,7 @@ ht-degree: 2%
       + [広告グループの管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)
       + 広告ネットワーク別の広告グループ設定 {#ad-group-settings-by-network}
         + [[!DNL Baidu]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
+        + [[!DNL ChatGPT Ads]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)
         + [[!DNL Google Ads]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
         + [[!DNL LY Ads]広告グループの設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
         + [[!DNL Microsoft Advertising]広告グループの設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
@@ -120,6 +122,7 @@ ht-degree: 2%
       + [広告を管理](/help/search-social-commerce/new-ui/manage/ads/ad-manage.md)
       + 広告ネットワーク別の広告設定 {#ad-settings-by-network}
         + [[!DNL Baidu] テキスト広告の設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-baidu-text.md)
+        + [[!DNL ChatGPT Ads]件のチャットカード広告の設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)
         + [[!DNL Google Ads]さんが動的検索広告の設定を拡張しました](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-dsa.md)
         + [[!DNL Google Ads]件のレスポンシブ検索広告の設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-rsa.md)
         + [[!DNL Microsoft Advertising]さんが動的検索広告の設定を拡張しました](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-dsa.md)

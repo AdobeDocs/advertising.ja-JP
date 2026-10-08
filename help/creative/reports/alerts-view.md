@@ -3,20 +3,26 @@ title: アラートを表示
 description: エクスペリエンスのアラートと推奨解決策を表示する方法について説明します。
 feature: Creative Experiences
 exl-id: faea1b1f-62f5-4277-acc4-6d99cf166906
-TQID: https://experienceleague.adobe.com/Urf5XnCRFNYEUyost27hI3upY0UYflTk0-G0kO-egms
+TQID: 'https://experienceleague.adobe.com/Urf5XnCRFNYEUyost27hI3upY0UYflTk0-G0kO-egms'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '399'
 ht-degree: 0%
-
 ---
-
 # アラートを表示
 
 [!DNL Creative]は、エクスペリエンス内のクリエイターを含め、エクスペリエンスに問題がある場合を特定するのに役立ちます。 各問題に対して、[!DNL Creative]はタイムスタンプと、問題を解決するための推奨アクションを含むアラートを発行します。 アラートの理由には、ライブ体験の有効期限や、ターゲット広告ではなくデフォルト広告の配信率が高いことなどが含まれます。 エクスペリエンスレベルでアラートを利用できます。
@@ -27,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Advertising DSP内では、[&#x200B; エクスペリエンス  [!DNL Creative] から作成されたプレースメントに関する](/help/dsp/campaign-management/reports/campaign-alerts.md) アラートをキャンペーンレベルで利用できます。
+>Advertising DSP内では、 [!DNL Creative]  エクスペリエンス [&#128279;](/help/dsp/campaign-management/reports/campaign-alerts.md)から作成されたプレースメントに関する アラートをキャンペーンレベルで利用できます。
 
 ## [!UICONTROL Pulse Panel]でアラートを表示
 
@@ -45,7 +51,7 @@ ht-degree: 0%
 
 アクションを元に戻すアラートを無視してから数秒経過します。 オプションメッセージが閉じると、アクションをキャンセルすることはできません。
 
-1. （オプション）無視されたアラートを取得するには、アラートをフィルタリングして、「[!UICONTROL Alert Status]」または「[!UICONTROL All]」の[!UICONTROL Ignored]を表示します。 アラートを無視するには、コンポーネント名の上にカーソルを置き、![無視しない](/help/creative/assets/alert-un-ignore.png "無視しない")をクリックします。
+1. （オプション）無視されたアラートを取得するには、アラートをフィルタリングして、「[!UICONTROL All]」または「[!UICONTROL Ignored]」の[!UICONTROL Alert Status]を表示します。 アラートを無視するには、コンポーネント名の上にカーソルを置き、![無視しない](/help/creative/assets/alert-un-ignore.png "無視しない")をクリックします。
 
 ## [!UICONTROL Pulse Panel]を閉じる
 

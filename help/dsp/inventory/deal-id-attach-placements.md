@@ -3,30 +3,39 @@ title: プライベート取引のプレースメントと広告の指定
 description: 追加のプレースメントと広告でプライベート契約を使用する方法を説明します。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-TQID: https://experienceleague.adobe.com/ZCFqnc6cQLEqahDoElttE7DzeZCR3IRx2lkyyb3BPMs
+TQID: 'https://experienceleague.adobe.com/ZCFqnc6cQLEqahDoElttE7DzeZCR3IRx2lkyyb3BPMs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
+  - id: ea1cb503-33dd-595d-833b-f365576083b6
+    internal-label: DSP Programmatic Guaranteed Deals
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 # プライベート取引のプレースメントと広告の指定
 
 保証されていない取引の場合は、[!UICONTROL Placements] ビューから、新しいプレースメントの在庫ターゲットとして取引を指定できます。
 
 プログラマティック保証（PG）取引の場合、[!UICONTROL Deals] ビューから、指定した広告を含むプレースメントを作成できます。
 
-PGおよび保証されていない契約に関連するプレースメント [に](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)広告を添付することもできます。
+PGおよび保証されていない契約に関連するプレースメント [&#128279;](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)に広告を添付することもできます。
 
 ## プレースメントの在庫目標として、保証されていない取引を指定します
 

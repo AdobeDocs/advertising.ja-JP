@@ -2,20 +2,25 @@
 title: 広告主のコンバージョン指標の管理
 description: Adobe Advertisingが広告主に対して追跡するコンバージョン指標の使用方法について説明します。
 feature: Conversions
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
   - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
 subfeature_v2:
   - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）広告主のコンバージョン指標の管理
 
 *Beta機能*
@@ -66,7 +71,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> [!DNL Google Analytics][&#128279;](/help/search-social-commerce/admin/data-sources/data-source-about.md)からの指標の場合、統合を更新または再認証すると、表示名に対する手動での変更はすべて上書きされます。 同様に、[!DNL Google Analytics]内の名前の変更は、統合を[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)または[再認証](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)しない限り無視されます。
+> [!DNL Google Analytics]&#x200B;[&#128279;](/help/search-social-commerce/admin/data-sources/data-source-about.md)からの指標の場合、統合を更新または再認証すると、表示名に対する手動での変更はすべて上書きされます。 同様に、[!DNL Google Analytics]内の名前の変更は、統合を[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)または[再認証](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)しない限り無視されます。
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;をクリックします。
 
@@ -96,13 +101,13 @@ ht-degree: 0%
 
    * 複数の指標を表示または非表示にするには、次の操作を行います。
 
-      1. 各コンバージョン指標の横にあるチェックボックスをオンにします。
+     1. 各コンバージョン指標の横にあるチェックボックスをオンにします。
 
-         複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
+        複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-      1. バルクアクションツールバーで、![表示](/help/search-social-commerce/assets/visible.png "表示")をクリックして指標を表示するか、![表示オフ](/help/search-social-commerce/assets/visibility-off.png "表示オフ")をクリックして指標を非表示にします。
+     1. バルクアクションツールバーで、![表示](/help/search-social-commerce/assets/visible.png "表示")をクリックして指標を表示するか、![表示オフ](/help/search-social-commerce/assets/visibility-off.png "表示オフ")をクリックして指標を非表示にします。
 
-      1. （指標を非表示にするには）確認メッセージで「**[!UICONTROL Confirm]**」をクリックし、指標を含む派生指標から指標を削除するなど、指標を非表示にします。
+     1. （指標を非表示にするには）確認メッセージで「**[!UICONTROL Confirm]**」をクリックし、指標を含む派生指標から指標を削除するなど、指標を非表示にします。
 
 ## コンバージョンの可視化とソースレポートの管理
 

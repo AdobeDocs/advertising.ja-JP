@@ -3,49 +3,60 @@ title: Advertising DSPのオーディエンス管理について
 description: オーディエンス管理機能の詳細。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-TQID: https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA
+TQID: 'https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: '1457'
 ht-degree: 0%
-
 ---
-
 # Advertising DSPのオーディエンス管理について
 
 DSPでは、オーディエンスセグメントとオーディエンスセットを作成および管理でき、プレースメントのターゲットとして使用できます。
 
 * DSPセグメントを作成して実装することで、独自の1st パーティオーディエンスデータを収集できます。 後で、セグメント内のユーザーを広告でリターゲティングしたり、セグメント内のユーザーが広告を受信するのを防ぐことができます。 セグメントには、次のタイプを作成できます。
 
-   * [&#x200B; カスタムセグメント &#x200B;](/help/dsp/audiences/custom-segment-create.md)を使用して、a） デスクトップおよびモバイルデバイスの広告に表示されたユーザー、およびb）特定のweb ページにアクセスしたユーザーを追跡できます。 トラッキングタグは、Cookie ベースのユーザーまたはID5のユニバーサル IDに関連付けられたユーザーのいずれかを追跡できます。
+  * [&#x200B; カスタムセグメント &#x200B;](/help/dsp/audiences/custom-segment-create.md)を使用して、a） デスクトップおよびモバイルデバイスの広告に表示されたユーザー、およびb）特定のweb ページにアクセスしたユーザーを追跡できます。 トラッキングタグは、Cookie ベースのユーザーまたはID5のユニバーサル IDに関連付けられたユーザーのいずれかを追跡できます。
 
-   * カリフォルニア州消費者プライバシー法（CCPA）に従って、web サイト上の消費者の販売拒否リクエストからユーザーIDを追跡する[CCPA販売拒否セグメント &#x200B;](/help/dsp/audiences/ccpa-opt-out-segment-create.md)。 オプトアウト要求からユーザーIDの月次レポートを取得できます。
+  * カリフォルニア州消費者プライバシー法（CCPA）に従って、web サイト上の消費者の販売拒否リクエストからユーザーIDを追跡する[CCPA販売拒否セグメント &#x200B;](/help/dsp/audiences/ccpa-opt-out-segment-create.md)。 オプトアウト要求からユーザーIDの月次レポートを取得できます。
 
-     CCPAのオプトアウト要求に対するAdobe Advertising サポートの詳細については、[Adobe AdvertisingのCalifornia Consumer Privacy Act: Consumer opt-out of sale サポート &#x200B;](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)を参照してください。
+    CCPAのオプトアウト要求に対するAdobe Advertising サポートの詳細については、[Adobe AdvertisingのCalifornia Consumer Privacy Act: Consumer opt-out of sale サポート &#x200B;](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)を参照してください。
 
 * [&#x200B; クッキーレスターゲティング用のユニバーサル IDを取得して使用](/help/dsp/audiences/universal-ids.md):
 
-   * 認証済み[!DNL LiveRamp] [!DNL RampID] セグメントを手動でDSPに直接送信します。
+  * 認証済み[!DNL LiveRamp] [!DNL RampID] セグメントを手動でDSPに直接送信します。
 
-   * DSPでCDPからファーストパーティセグメントをインポートし、サポートされているユニバーサル ID タイプに変換できます。
+  * DSPでCDPからファーストパーティセグメントをインポートし、サポートされているユニバーサル ID タイプに変換できます。
 
-   * [!DNL AdFixus]個のユニバーサル IDを含むファーストパーティ [!DNL AdFixus] セグメントを読み込みます（オーストラリアのみ）。 その後、プレースメントを[!DNL AdFixus]IDにターゲット化し、これらのセグメントを[再利用可能なオーディエンス &#x200B;](/help/dsp/audiences/reusable-audience-create.md)に追加し、「[1st パーティセグメントを [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)からインポート」で説明されているレポートを使用できます。
+  * [!DNL AdFixus]個のユニバーサル IDを含むファーストパーティ [!DNL AdFixus] セグメントを読み込みます（オーストラリアのみ）。 その後、プレースメントを[!DNL AdFixus]IDにターゲット化し、これらのセグメントを[再利用可能なオーディエンス &#x200B;](/help/dsp/audiences/reusable-audience-create.md)に追加し、「[1st パーティセグメントを [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)からインポート」で説明されているレポートを使用できます。
 
-   * 追加の手順を実行することなく、プレースメントターゲットにユニバーサル IDを含むサードパーティセグメントを含めます。
+  * 追加の手順を実行することなく、プレースメントターゲットにユニバーサル IDを含むサードパーティセグメントを含めます。
 
 * [再利用可能なオーディエンス &#x200B;](/help/dsp/audiences/reusable-audience-create.md)のオーディエンスライブラリを作成します。 保存されたオーディエンスは、利用可能なあらゆるオーディエンスセグメントと、保存されたその他のオーディエンスで構成されます。 保存したオーディエンスに加えた変更は、オーディエンスをターゲットまたは除外するすべてのプレースメントと、保存したオーディエンスを含むその他すべてのオーディエンスに自動的に適用されます。
 
@@ -79,11 +90,11 @@ DSPのユーザーインターフェイスやカスタムインポートサー�
 
 * DSPで作成されたすべてのユーザー作成オーディエンスセグメント：
 
-   * 特定のweb ページを訪問したユーザーや、特定の広告のインプレッションに接触したユーザー向けのカスタムセグメント。
+  * 特定のweb ページを訪問したユーザーや、特定の広告のインプレッションに接触したユーザー向けのカスタムセグメント。
 
-     ユニバーサル IDに配信されたインプレッションに対して、料金は発生しません。
+    ユニバーサル IDに配信されたインプレッションに対して、料金は発生しません。
 
-   * カリフォルニア州消費者プライバシー法（CCPA）に従って、web サイトで販売拒否リクエストを送信したユーザーを対象とした、CCPA販売拒否オーディエンスセグメント。
+  * カリフォルニア州消費者プライバシー法（CCPA）に従って、web サイトで販売拒否リクエストを送信したユーザーを対象とした、CCPA販売拒否オーディエンスセグメント。
 
 * ユニバーサル IDに変換されたセグメントや、インポートした[!DNL AdFixus] ユニバーサル IDを含むセグメントなど、インポートしたファーストパーティデータセグメントのすべてを含みます。
 
@@ -97,11 +108,11 @@ DSPのユーザーインターフェイスやカスタムインポートサー�
 
   サードパーティセグメントには追加料金が発生し、各セグメント名の横に表示されます。
 
-* （Adobe Experience Platformおよび[!DNL Real-Time CDP]、Adobe Audience Manager、またはAdobe Analyticsを使用し、Adobe Advertising JavaScript コンバージョンタグのみを使用する広告主）すべての利用可能なファーストパーティ、セカンドパーティ、またはサードパーティのオーディエンスセグメントが[!DNL Real-Time CDP]で作成され、Audience Managerで作成され、Audience Managerまたは[!DNL Analytics]からAdobe CX Enterpriseに公開されます。
+* （Adobe Experience Platformおよび[!DNL Real-Time CDP]、Adobe Audience Manager、またはAdobe Analyticsを使用する広告主で、Adobe Advertising JavaScript コンバージョンタグのみを使用する場合）すべての利用可能なファーストパーティ、セカンドパーティ、またはサードパーティのオーディエンスセグメントが[!DNL Real-Time CDP]で作成され、Audience Managerで作成され、Audience Managerまたは[!DNL Analytics]からAdobe CX Enterpriseに公開されます。
 
   セグメントの利用価格は事前に交渉されており、DSPには表示されません。
 
-  [!DNL Analytics]のセグメントは、CX Enterprise オーディエンスとして作成または公開してから約1時間後に利用できます。 Audience Managerまたは[!DNL Real-Time CDP]から直接取得したセグメントは、共有してから24時間以内に利用できます。
+  [!DNL Analytics]のセグメントは、作成またはCX Enterprise オーディエンスとして公開してから約1時間後に利用できます。 Audience Managerまたは[!DNL Real-Time CDP]から直接取得したセグメントは、共有してから24時間以内に利用できます。
 
   >[!NOTE]
   >

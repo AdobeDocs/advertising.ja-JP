@@ -3,24 +3,29 @@ title: パッケージの複製
 description: パッケージを複製する方法を説明します。
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-TQID: https://experienceleague.adobe.com/fbOXyvipyiJ7rOlCroMLHvSqCqXPIEL9FTHmqm7CQu8
+TQID: 'https://experienceleague.adobe.com/fbOXyvipyiJ7rOlCroMLHvSqCqXPIEL9FTHmqm7CQu8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 # パッケージの複製
 
 パッケージを複製して、同様の設定を持つパッケージを作成します。 次の操作を実行できます。
@@ -69,10 +74,10 @@ ht-degree: 0%
 * （広告を添付しない場合） カスタム広告の重み付けとスケジュール設定
 * プログラマティック保証（PG）取引のデフォルトのプレースメントと[!UICONTROL Simple Ad Serving]取引のプレースメント
 * （プレースメントを別のキャンペーンにコピーした場合）:
-   * 地域ターゲット
-   * イベントピクセル
-   * 広告
-   * プレースメントレベル [!DNL DoubleVerify Authentic Brand Suitability] セグメント （広告主レベルのセグメントを上書きする）
+  * 地域ターゲット
+  * イベントピクセル
+  * 広告
+  * プレースメントレベル [!DNL DoubleVerify Authentic Brand Suitability] セグメント （広告主レベルのセグメントを上書きする）
 
 ## 新しいパッケージを設定するためのベストプラクティス
 
@@ -85,21 +90,21 @@ ht-degree: 0%
 
 * 次の点を考慮し、必要に応じて新しいパッケージを編集します。
 
-   * 新しいパッケージの予算に対応するのに十分な資金をアカウントに確保していますか？
+  * 新しいパッケージの予算に対応するのに十分な資金をアカウントに確保していますか？
 
-   * 新しいパッケージには、以前のパッケージとは異なる予算が必要ですか？
+  * 新しいパッケージには、以前のパッケージとは異なる予算が必要ですか？
 
-   * どのプレースメントにも最低予算は必要ですか？
+  * どのプレースメントにも最低予算は必要ですか？
 
-   * 必要なカスタム広告の重み付けやスケジュールなどを含むクリエイティブをアップロードし、プレースメントに添付します。
+  * 必要なカスタム広告の重み付けやスケジュールなどを含むクリエイティブをアップロードし、プレースメントに添付します。
 
-   * 必要に応じて、イベントピクセルをプレースメントと広告に添付します。
+  * 必要に応じて、イベントピクセルをプレースメントと広告に添付します。
 
-   * プレースメントに必要に応じて、地理的ターゲットとプレースメントレベルの[!DNL DoubleVerify Authentic Brand Suitability] セグメントを含めます。
+  * プレースメントに必要に応じて、地理的ターゲットとプレースメントレベルの[!DNL DoubleVerify Authentic Brand Suitability] セグメントを含めます。
 
-   * プログラマティックな保証取引の場合は、新しい取引IDを使用して、デフォルトのプレースメントを作成します。
+  * プログラマティックな保証取引の場合は、新しい取引IDを使用して、デフォルトのプレースメントを作成します。
 
-   * 必要に応じて、[!UICONTROL Simple Ad Serving]件の取引用に新しいプレースメントを作成します。
+  * 必要に応じて、[!UICONTROL Simple Ad Serving]件の取引用に新しいプレースメントを作成します。
 
 * カスタム最適化目標を使用するパッケージの場合、各パッケージに[[!UICONTROL Linked Package for Optimization Learnings Carryover]設定](/help/dsp/campaign-management/packages/package-settings.md)を使用して、パッケージを最適化するための入力として前のキャンペーンの履歴データを使用します。
 

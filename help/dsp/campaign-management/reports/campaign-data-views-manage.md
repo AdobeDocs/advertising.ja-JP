@@ -3,25 +3,31 @@ title: キャンペーンデータビューの管理
 description: キャンペーン、パッケージ、プレースメント、広告のデータビューをカスタマイズする方法について説明します。
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-TQID: https://experienceleague.adobe.com/iHIvQ5-7AJxfvMb5g3VlNfWkIR7a6ZwdvQtDKczrDw8
+TQID: 'https://experienceleague.adobe.com/iHIvQ5-7AJxfvMb5g3VlNfWkIR7a6ZwdvQtDKczrDw8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2cfe5a2c-1e84-5461-b310-20f6bb734742
+    internal-label: DSP Campaign Data Views
 subfeature_v2:
   - id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
+    internal-label: Campaign Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 927
+source-wordcount: '927'
 ht-degree: 0%
-
 ---
-
 # キャンペーンデータビューの管理
 
 キャンペーン管理ビュー（[!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements]、[!UICONTROL Ads]）に表示されるデータをカスタマイズできます。
@@ -121,38 +127,38 @@ DSPでは、最新のビューがデフォルトのビューとして保存さ�
 次のフィルターは、[!UICONTROL Campaigns]、[!UICONTROL Packages]、および[!UICONTROL Placements] ビューで使用できます。
 
 * [!UICONTROL Campaigns]表示フィルター：
-   * [!UICONTROL Campaign status]
-   * [!UICONTROL Advertiser]
+  * [!UICONTROL Campaign status]
+  * [!UICONTROL Advertiser]
 * [!UICONTROL Packages]表示フィルター：
-   * [!UICONTROL Custom flights] （それらが存在するかどうかに関係なく）
-   * [!UICONTROL Custom goal] （該当する場合）
-   * [!UICONTROL End end date]
-   * [!UICONTROL Optimization goal]
-   * [!UICONTROL Flight pacing]
-   * [!UICONTROL Intraday pacing]
-   * [!UICONTROL Package status]
-   * [!UICONTROL Start date]
+  * [!UICONTROL Custom flights] （それらが存在するかどうかに関係なく）
+  * [!UICONTROL Custom goal] （該当する場合）
+  * [!UICONTROL End end date]
+  * [!UICONTROL Optimization goal]
+  * [!UICONTROL Flight pacing]
+  * [!UICONTROL Intraday pacing]
+  * [!UICONTROL Package status]
+  * [!UICONTROL Start date]
 * [!UICONTROL Placements]表示フィルター：
-   * [!UICONTROL Custom ad scheduling]
-   * [!UICONTROL Custom goal] （該当する場合）
-   * [!UICONTROL End date]
-   * [!UICONTROL Max bid] （[!UICONTROL less than]、[!UICONTROL greater than]、または[!UICONTROL equal to]を指定した値）
-   * [!UICONTROL Optimization goal]
-   * [!UICONTROL Pacing on] （[!UICONTROL impressions]または[!UICONTROL spend]）
-   * [!UICONTROL Flight pacing]
-   * [!UICONTROL Intraday pacing]
-   * [!UICONTROL Package]
-   * [!UICONTROL Placement status]
-   * [!UICONTROL Placement type]
-   * [!UICONTROL Placement sub-type]
-   * [!UICONTROL Start date]
-   * [!UICONTROL Creation date]
+  * [!UICONTROL Custom ad scheduling]
+  * [!UICONTROL Custom goal] （該当する場合）
+  * [!UICONTROL End date]
+  * [!UICONTROL Max bid] （[!UICONTROL less than]、[!UICONTROL greater than]、または[!UICONTROL equal to]を指定した値）
+  * [!UICONTROL Optimization goal]
+  * [!UICONTROL Pacing on] （[!UICONTROL impressions]または[!UICONTROL spend]）
+  * [!UICONTROL Flight pacing]
+  * [!UICONTROL Intraday pacing]
+  * [!UICONTROL Package]
+  * [!UICONTROL Placement status]
+  * [!UICONTROL Placement type]
+  * [!UICONTROL Placement sub-type]
+  * [!UICONTROL Start date]
+  * [!UICONTROL Creation date]
 * [!UICONTROL Ads]表示フィルター：
-   * [!UICONTROL Adobe ad approval status]
-   * [!UICONTROL Ad ID]
-   * [!UICONTROL Ad name]
-   * [!UICONTROL Ad type]
-   * [!UICONTROL Creation date]
+  * [!UICONTROL Adobe ad approval status]
+  * [!UICONTROL Ad ID]
+  * [!UICONTROL Ad name]
+  * [!UICONTROL Ad type]
+  * [!UICONTROL Creation date]
 
 ### 日付範囲の変更
 
@@ -164,11 +170,11 @@ DSPでは、最新のビューがデフォルトのビューとして保存さ�
 
 * 特定の範囲の場合は、次のいずれかの操作を行います。
 
-   * ![&#x200B; カレンダー](/help/dsp/assets/calendar.png " カレンダー")をクリックし、カレンダー内の開始日と終了日をクリックします。
+  * ![&#x200B; カレンダー](/help/dsp/assets/calendar.png " カレンダー")をクリックし、カレンダー内の開始日と終了日をクリックします。
 
-   * 日付範囲内をクリックし、開始日と終了日を入力するか、カレンダー内で選択します。
+  * 日付範囲内をクリックし、開始日と終了日を入力するか、カレンダー内で選択します。
 
-     数値（M-D-YYからMM-DD-YYYYまで）および/または月名または省略形（1月または1月など）を入力できます。
+    数値（M-D-YYからMM-DD-YYYYまで）および/または月名または省略形（1月または1月など）を入力できます。
 
 ### データ列の並べ替え
 

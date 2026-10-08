@@ -3,18 +3,24 @@ title: クリエイティブライブラリでの標準クリエイティブの�
 description: クリエイティブライブラリの標準（動的でない）クリエイティブの設定を変更する方法について説明します。
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-TQID: https://experienceleague.adobe.com/Z199ySghpKmaYCQiWz05YQiFX9beF4fmY9Gu3-MHv-w
+TQID: 'https://experienceleague.adobe.com/Z199ySghpKmaYCQiWz05YQiFX9beF4fmY9Gu3-MHv-w'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 414
+source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 # クリエイティブライブラリでの標準クリエイティブの編集
 
 標準クリエイティブの種類ごとに、いくつかの設定を編集できます。 同じクリエイティブタイプの複数のクリエイティブを編集できます（シンプルなHTML5、1つのランディングページのみを使用する静的なHTML5、複数のランディングページを使用する静的なHTML5、柔軟性の高い5、画像、またはサードパーティのクリエイティブのみ）。
@@ -35,9 +41,9 @@ ht-degree: 0%
 
    * 単一のクリエイティブを編集するには：
 
-      * カード表示で、クリエイティブ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Edit]**&#x200B;をクリックします。
+     * カード表示で、クリエイティブ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-      * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Edit]**&#x200B;をクリックします。
+     * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
    * 1つまたは複数のクリエイティブを編集するには、編集する各クリエイティブのチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL Edit]**&#x200B;をクリックします。
 

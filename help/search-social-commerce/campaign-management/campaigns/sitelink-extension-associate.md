@@ -3,18 +3,21 @@ title: 共有サイトリンクをアカウント、キャンペーン、広告�
 description: アカウント、キャンペーン、広告グループに共有サイトリンク拡張機能を割り当てる方法について説明します。
 exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/at7jX7JhnEMMl-DF-AtpY8fXjoqs2aQs6gtKB1-vPJk
+TQID: 'https://experienceleague.adobe.com/at7jX7JhnEMMl-DF-AtpY8fXjoqs2aQs6gtKB1-vPJk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '295'
 ht-degree: 0%
-
 ---
-
 # 共有サイトリンクをアカウント、キャンペーン、広告グループに関連付ける
 
 *[!DNL Google Ads]と[!DNL Microsoft Advertising]のみ*

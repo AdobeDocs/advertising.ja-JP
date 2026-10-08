@@ -1,20 +1,23 @@
 ---
 title: ネガティブプレースメントを作成
-description: ' [!DNL Google Ads] 件のキャンペーンと広告グループに対してネガティブプレースメントを作成する方法について説明します。'
+description: '[!DNL Google Ads]件のキャンペーンと広告グループのネガティブプレースメントを作成する方法について説明します。'
 exl-id: 9cc2dd8d-5563-4e02-af8f-6181165494d8
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/LFHoipRyiY36uTj-0G3lFahitrT9ZHD958V-4T-XIUA
+TQID: 'https://experienceleague.adobe.com/LFHoipRyiY36uTj-0G3lFahitrT9ZHD958V-4T-XIUA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 202
+source-wordcount: '220'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]件のネガティブプレースメント用に作成
 
 *[!DNL Google Ads]アカウントのみ*

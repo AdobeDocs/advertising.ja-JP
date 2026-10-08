@@ -1,25 +1,32 @@
 ---
 title: '[!DNL Microsoft Advertising] キャンペーン設定'
-description: ' [!DNL Microsoft Advertising]  キャンペーンの設定を参照します。'
+description: '[!DNL Microsoft Advertising] キャンペーンの設定を参照します。'
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w
+TQID: 'https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2112
+source-wordcount: '2113'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] キャンペーン設定
 
 ## \[ キャンペーン作成画面\]
@@ -83,7 +90,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Manual CPC]*: （ブランドのショッピング キャンペーン；[!DNL Microsoft Store Ads] キャンペーン。他のキャンペーンタイプでは非推奨）クリック単価（CPC）モデルを使用します。 一部の広告タイプでは、オプションで広告ネットワークがキャンペーンの入札額を変更できるようにすることができます。
 
-   * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）：このオプションは、「[!UICONTROL Enhanced CPC]」オプションを使用する場合と同じです。
+  * **[!UICONTROL Enable Enhanced CPC]** （デフォルトでは無効）：このオプションは、「[!UICONTROL Enhanced CPC]」オプションを使用する場合と同じです。
 
 * *[!UICONTROL Manual CPA]:* （[!DNL Microsoft Store Ads] キャンペーン）は、CPA （顧客獲得単価）モデルを使用します。
 
@@ -224,21 +231,21 @@ ht-degree: 0%
 
 * 画像をアップロードするには：
 
-   1. 「[!UICONTROL Upload from Device]」タブで「**[!UICONTROL +]**」をクリックし、デバイスまたはネットワークから画像を選択します。
+  1. 「[!UICONTROL Upload from Device]」タブで「**[!UICONTROL +]**」をクリックし、デバイスまたはネットワークから画像を選択します。
 
-   1. 各画像について：
+  1. 各画像について：
 
-      1. 縦横比を選択します。
+     1. 縦横比を選択します。
 
-      1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能部分を選択し、可能な限り画像の表示可能部分のサイズを変更します。
+     1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能部分を選択し、可能な限り画像の表示可能部分のサイズを変更します。
 
-      1. （オプション）追加の縦横比を選択し、オプションで、選択した縦横比ごとに必要に応じて画像の位置とサイズを変更します。
+     1. （オプション）追加の縦横比を選択し、オプションで、選択した縦横比ごとに必要に応じて画像の位置とサイズを変更します。
 
-         選択した縦横比ごとに1つのアセットが作成されます。
+        選択した縦横比ごとに1つのアセットが作成されます。
 
-      1. **[!UICONTROL Proceed]**&#x200B;をクリックします。
+     1. **[!UICONTROL Proceed]**&#x200B;をクリックします。
 
-   1. 画像の指定が完了したら、**[!UICONTROL Upload]**&#x200B;をクリックします。
+  1. 画像の指定が完了したら、**[!UICONTROL Upload]**&#x200B;をクリックします。
 
 * [!UICONTROL Asset Library]から画像を選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックして画像を選択します。
 
@@ -246,21 +253,21 @@ ht-degree: 0%
 
 * 画像をアップロードするには：
 
-   1. 「[!UICONTROL Upload from Device]」タブで「**[!UICONTROL +]**」をクリックし、デバイスまたはネットワークから画像を選択します。
+  1. 「[!UICONTROL Upload from Device]」タブで「**[!UICONTROL +]**」をクリックし、デバイスまたはネットワークから画像を選択します。
 
-   1. 各画像について：
+  1. 各画像について：
 
-      1. 縦横比を選択します。
+     1. 縦横比を選択します。
 
-      1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能部分を選択し、可能な限り画像の表示可能部分のサイズを変更します。
+     1. 必要に応じて切り抜きボックスをドラッグして配置し、画像の表示可能部分を選択し、可能な限り画像の表示可能部分のサイズを変更します。
 
-      1. （オプション）追加の縦横比を選択し、オプションで、選択した縦横比ごとに必要に応じて画像の位置とサイズを変更します。
+     1. （オプション）追加の縦横比を選択し、オプションで、選択した縦横比ごとに必要に応じて画像の位置とサイズを変更します。
 
-         選択した縦横比ごとに1つのアセットが作成されます。
+        選択した縦横比ごとに1つのアセットが作成されます。
 
-      1. **[!UICONTROL Proceed]**&#x200B;をクリックします。
+     1. **[!UICONTROL Proceed]**&#x200B;をクリックします。
 
-   1. 画像の指定が完了したら、**[!UICONTROL Upload]**&#x200B;をクリックします。
+  1. 画像の指定が完了したら、**[!UICONTROL Upload]**&#x200B;をクリックします。
 
 * [!UICONTROL Asset Library]から画像を選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックして画像を選択します。
 
@@ -268,9 +275,9 @@ ht-degree: 0%
 
 * テキストを入力するには：
 
-   1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
+  1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
 
-   1. （オプション）別のテキスト文字列を追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、文字列を入力します。
+  1. （オプション）別のテキスト文字列を追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、文字列を入力します。
 
 * [!UICONTROL Asset Library]からアセットを選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックしてアセットを選択します。
 
@@ -278,9 +285,9 @@ ht-degree: 0%
 
 * テキストを入力するには：
 
-   1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
+  1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
 
-   1. （オプション）別のテキスト文字列を追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、文字列を入力します。
+  1. （オプション）別のテキスト文字列を追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、文字列を入力します。
 
 * [!UICONTROL Asset Library]からアセットを選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックしてアセットを選択します。
 
@@ -288,9 +295,9 @@ ht-degree: 0%
 
 * テキストを入力するには：
 
-   1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
+  1. 「[!UICONTROL Enter Text]」タブで、テキストを入力します。
 
-   1. （オプション）別のテキスト文字列を追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、文字列を入力します。
+  1. （オプション）別のテキスト文字列を追加するには、**[!UICONTROL + Add]**&#x200B;をクリックし、文字列を入力します。
 
 * [!UICONTROL Asset Library]からアセットを選択するには、**[!UICONTROL Asset Library]**&#x200B;をクリックしてアセットを選択します。
 
@@ -317,7 +324,7 @@ ht-degree: 0%
 >
 >キャンペーンがハイブリッドポートフォリオの一部である場合、ベストプラクティスは、ポートフォリオの目的のコンバージョン目標に一致するキャンペーンレベルの目標を使用することです。追加のコンバージョン目標を含めると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
 >
-> ただし、[目標を広告ネットワークにアップロード &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md)するハイブリッドポートフォリオのキャンペーンの場合は、ここで設定する代わりに、広告ネットワークのエディター内で次の操作を行います。a）アップロードされたSearch, Social, &amp; Commerce ポートフォリオの目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョン目標として追加し、b）広告ネットワークにアップロードされた指標が広告ネットワークにアップロードされないので、[!DNL Microsoft Advertising] ユニバーサルイベントトラッキング（UET）タグが含されます。
+> ただし、[目標を広告ネットワークにアップロード &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md)するハイブリッドポートフォリオのキャンペーンの場合は、アップロードしたSearch, Social, &amp; Commerce ポートフォリオの目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョン目標として追加し、[!DNL Microsoft Advertising] ユニバーサルイベントトラッキング （UET）タグでトラッキングしたコンバージョンを含むキャンペーン目標を追加します。これは、目標と共に広告ネットワークにアップロードされないためです。
 
 >[!MORELIKETHIS]
 >

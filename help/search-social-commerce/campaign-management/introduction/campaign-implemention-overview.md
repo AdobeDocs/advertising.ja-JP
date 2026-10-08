@@ -3,22 +3,28 @@ title: 広告ネットワークアカウントとキャンペーンの実装の�
 description: 広告ネットワークアカウントの設定、同期、管理に関するタスクについて説明します。
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY
+TQID: 'https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 992
+source-wordcount: '992'
 ht-degree: 0%
-
 ---
-
 # 広告ネットワークアカウントとキャンペーンの実装の概要
 
 Adobeは、各広告主と連携して、広告ネットワークアカウントとキャンペーンを設定します。 これには、Search, Social, &amp; Commerceを設定して広告主のアカウントと連携および同期させる、必要に応じて新しいキャンペーンおよびキャンペーンコンポーネントを作成する、コンポーネント広告のトラッキングを設定する、オプションでキャンペーンをポートフォリオに追加してSearch, Social, &amp; Commerceが広告の入札を最適化できるようにする、初期費用、クリック、収益データを検証することが含まれます。

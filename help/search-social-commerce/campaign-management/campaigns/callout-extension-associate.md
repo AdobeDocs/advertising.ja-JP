@@ -1,25 +1,28 @@
 ---
-title: ' [!DNL Google Ads] 共有コールアウト拡張機能をキャンペーンまたは広告グループに関連付ける'
-description: ' [!DNL Google Ads] 共有コールアウト拡張機能をキャンペーンまたは広告グループに割り当てる方法について説明します。'
+title: '[!DNL Google Ads]個の共有コールアウト拡張機能をキャンペーンまたは広告グループに関連付ける'
+description: '[!DNL Google Ads]個の共有コールアウト拡張機能をキャンペーンまたは広告グループに割り当てる方法について説明します。'
 exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/Mz52mqUJIG6-uN5gk6ySuih3mUi7XjTJVihrB2mxh2c
+TQID: 'https://experienceleague.adobe.com/Mz52mqUJIG6-uN5gk6ySuih3mUi7XjTJVihrB2mxh2c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 226
+source-wordcount: '219'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]個の共有コールアウト拡張機能をキャンペーンまたは広告グループに関連付ける
 
 *[!DNL Google Ads]アカウントのみ*
 
-[同期済み [!DNL Google Ads]  アカウント &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)内の検索ネットワークでサポートされている[&#x200B; キャンペーンまたは広告グループ  [!DNL Google Ads] にコールアウト拡張機能を作成し、割り当てることができます。](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
+[同期済み [!DNL Google Ads]  アカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)内の検索ネットワークでサポートされている[&#x200B; キャンペーンまたは広告グループ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)にコールアウト拡張機能を作成し、割り当てることができます。 [!DNL Google Ads] 
 
 広告がコールアウトと共に表示されるように、キャンペーンまたは広告グループごとに少なくとも2つのコールアウトを割り当てます。
 

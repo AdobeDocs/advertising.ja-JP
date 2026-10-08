@@ -3,30 +3,43 @@ title: Advertising DSPのキャンペーンからクリック&インプレッシ
 description: Audience Manager pixelsを使用してAdvertising DSP広告からCookie ベースのインプレッションをキャプチャし、クリックイベントをキャプチャする方法を説明します
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-TQID: https://experienceleague.adobe.com/UXP1gmCmLCHH-l7a1WYxlmYfSRIgJPLpxWHyHujIdX0
+TQID: 'https://experienceleague.adobe.com/UXP1gmCmLCHH-l7a1WYxlmYfSRIgJPLpxWHyHujIdX0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 991
+source-wordcount: '1127'
 ht-degree: 0%
-
 ---
-
 # Advertising DSPのキャンペーンからメディア露出データを収集します
 
 *Advertising DSPのみの広告主*
@@ -39,7 +52,7 @@ ht-degree: 0%
 
 ## 手順1: Audience Managerでのデータソースの設定 {#set-up-data-source}
 
-Audience Managerで、DSP インプレッション用の[&#x200B; データソース &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=ja)を作成し、「データ」をクリックします。 追跡されたすべてのイベントがデータソースに関連付けられるように、各イベントタグ [にデータソース ID &#x200B;](#implement-dsp-pixels)を含めます。
+Audience Managerで、DSP インプレッション用の[&#x200B; データソース &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=ja)を作成し、「データ」をクリックします。 追跡されたすべてのイベントがデータソースに関連付けられるように、各イベントタグ [&#128279;](#implement-dsp-pixels)にデータソース ID を含めます。
 
 >[!NOTE]
 > 単一のデータソース内で、複数のDSPで実行されている広告キャンペーンのインプレッションとクリックのデータをすべて収集することができます。

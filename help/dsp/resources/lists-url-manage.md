@@ -3,22 +3,26 @@ title: URL リストの管理
 description: プレースメントターゲティング用のURL リストを作成および管理する方法について説明します。
 feature: DSP Placements
 exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
-TQID: https://experienceleague.adobe.com/evxwpbMXExxa30xpsojzTxcRfAxrozOSmwoJuCHPVPw
+TQID: 'https://experienceleague.adobe.com/evxwpbMXExxa30xpsojzTxcRfAxrozOSmwoJuCHPVPw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '698'
 ht-degree: 0%
-
 ---
-
 # URL リストの管理
 
 プレースメントターゲティング用のweb サイトとアプリのURLのリストを作成および管理できます。 プレースメント設定内の特定のURL リストをターゲットまたは除外します。
@@ -45,63 +49,63 @@ ht-degree: 0%
 
    * 追加するURLを手動で入力または貼り付けるには：
 
-      1. **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**&#x200B;をクリックします。
+     1. **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**&#x200B;をクリックします。
 
-      1. 1行に各URLを含めて、最大10,000個のURLを入力または貼り付けます。
+     1. 1行に各URLを含めて、最大10,000個のURLを入力または貼り付けます。
 
-      1. 「**[!UICONTROL Validate]**」をクリックして、URLが有効かどうかを確認します。
+     1. 「**[!UICONTROL Validate]**」をクリックして、URLが有効かどうかを確認します。
 
-         無効なURLが識別されます。 続行する場合は、有効なURLのみが追加されます。
+        無効なURLが識別されます。 続行する場合は、有効なURLのみが追加されます。
 
-      1. **[!UICONTROL Add to list]**&#x200B;をクリックします。
+     1. **[!UICONTROL Add to list]**&#x200B;をクリックします。
 
    * ファイルからURLを追加するには：
 
-      1. **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**&#x200B;をクリックします。
+     1. **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**&#x200B;をクリックします。
 
-      1. URLを含むローカルのCSV ファイルをドラッグ&amp;ドロップし、各URLを別々の行に置きます。
+     1. URLを含むローカルのCSV ファイルをドラッグ&amp;ドロップし、各URLを別々の行に置きます。
 
-         ファイルには、列ヘッダー行のないデータ列を1つだけ含める必要があります。 既存のリストを書き出して行を編集した場合は、ファイルを再インポートする前に、ヘッダー行と2番目と3番目の列を削除します。 無効な値を持つ行は、続行しても追加されません。
+        ファイルには、列ヘッダー行のないデータ列を1つだけ含める必要があります。 既存のリストを書き出して行を編集した場合は、ファイルを再インポートする前に、ヘッダー行と2番目と3番目の列を削除します。 無効な値を持つ行は、続行しても追加されません。
 
-      1. **[!UICONTROL Add to list]**&#x200B;をクリックします。
+     1. **[!UICONTROL Add to list]**&#x200B;をクリックします。
 
-         通知メッセージは、タスクがいつ完了したかを示します。 ページを更新して、更新されたリストを表示します。
+        通知メッセージは、タスクがいつ完了したかを示します。 ページを更新して、更新されたリストを表示します。
 
-      1. 追加されたURLの数や失敗した値の数など、タスクのステータスを確認するには、次の手順を実行します。
+     1. 追加されたURLの数や失敗した値の数など、タスクのステータスを確認するには、次の手順を実行します。
 
-         1. 上部メニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。
+        1. 上部メニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。
 
-         1. （行が追加されていない場合）失敗した値を含むエラーファイルをダウンロードするには、ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
+        1. （行が追加されていない場合）失敗した値を含むエラーファイルをダウンロードするには、ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
 
-            ファイルはブラウザーのダウンロードフォルダーに保存されます。
+           ファイルはブラウザーのダウンロードフォルダーに保存されます。
 
    * 特定のURLを削除するには、次のいずれかの操作を行います。
 
-      * 削除するURLを選択するには：
+     * 削除するURLを選択するには：
 
-         1. リストから削除する各URLの横にあるチェックボックスをオンにします。
+       1. リストから削除する各URLの横にあるチェックボックスをオンにします。
 
-         1. **[!UICONTROL Remove from List]**&#x200B;をクリックします。
+       1. **[!UICONTROL Remove from List]**&#x200B;をクリックします。
 
-         1. 確認メッセージで、**[!UICONTROL Remove]**&#x200B;をクリックします。
+       1. 確認メッセージで、**[!UICONTROL Remove]**&#x200B;をクリックします。
 
-      * 削除するURLを入力または貼り付けるには：
+     * 削除するURLを入力または貼り付けるには：
 
-         1. **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**&#x200B;をクリックします。
+       1. **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**&#x200B;をクリックします。
 
-         1. 1行に各URLを含めて、最大10,000個のURLを入力または貼り付けます。
+       1. 1行に各URLを含めて、最大10,000個のURLを入力または貼り付けます。
 
-         1. 「**[!UICONTROL Validate]**」をクリックして、URLが有効であり、現在リストに含まれているかどうかを確認します。
+       1. 「**[!UICONTROL Validate]**」をクリックして、URLが有効であり、現在リストに含まれているかどうかを確認します。
 
-         1. **[!UICONTROL Remove from list]**&#x200B;をクリックします。
+       1. **[!UICONTROL Remove from list]**&#x200B;をクリックします。
 
    * すべてのURLを削除するには：
 
-      1. **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**&#x200B;をクリックします。
+     1. **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**&#x200B;をクリックします。
 
-      1. **[!UICONTROL Remove All URLs]**&#x200B;をクリックします。
+     1. **[!UICONTROL Remove All URLs]**&#x200B;をクリックします。
 
-      1. **[!UICONTROL Remove]**&#x200B;をクリックします。
+     1. **[!UICONTROL Remove]**&#x200B;をクリックします。
 
 ## URL リストの編集
 
@@ -113,63 +117,63 @@ ht-degree: 0%
 
    * 追加するURLを手動で入力または貼り付けるには：
 
-      1. **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**&#x200B;をクリックします。
+     1. **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**&#x200B;をクリックします。
 
-      1. 1行に各URLを含めて、最大10,000個のURLを入力または貼り付けます。
+     1. 1行に各URLを含めて、最大10,000個のURLを入力または貼り付けます。
 
-      1. 「**[!UICONTROL Validate]**」をクリックして、URLが有効かどうかを確認します。
+     1. 「**[!UICONTROL Validate]**」をクリックして、URLが有効かどうかを確認します。
 
-         無効なURLが識別されます。 続行する場合は、有効なURLのみが追加されます。
+        無効なURLが識別されます。 続行する場合は、有効なURLのみが追加されます。
 
-      1. **[!UICONTROL Add to list]**&#x200B;をクリックします。
+     1. **[!UICONTROL Add to list]**&#x200B;をクリックします。
 
    * ファイルからURLを追加するには：
 
-      1. **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**&#x200B;をクリックします。
+     1. **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**&#x200B;をクリックします。
 
-      1. URLを含むローカルのCSV ファイルをドラッグ&amp;ドロップし、各URLを別々の行に置きます。
+     1. URLを含むローカルのCSV ファイルをドラッグ&amp;ドロップし、各URLを別々の行に置きます。
 
-         ファイルには、列ヘッダー行のないデータ列を1つだけ含める必要があります。 既存のリストを書き出して行を編集した場合は、ファイルを再インポートする前に、ヘッダー行と2番目と3番目の列を削除します。 無効な値を持つ行は、続行しても追加されません。
+        ファイルには、列ヘッダー行のないデータ列を1つだけ含める必要があります。 既存のリストを書き出して行を編集した場合は、ファイルを再インポートする前に、ヘッダー行と2番目と3番目の列を削除します。 無効な値を持つ行は、続行しても追加されません。
 
-      1. **[!UICONTROL Add to list]**&#x200B;をクリックします。
+     1. **[!UICONTROL Add to list]**&#x200B;をクリックします。
 
-         通知メッセージは、タスクがいつ完了したかを示します。
+        通知メッセージは、タスクがいつ完了したかを示します。
 
-      1. 追加されたURLの数や失敗した値の数など、タスクのステータスを確認するには、次の手順を実行します。
+     1. 追加されたURLの数や失敗した値の数など、タスクのステータスを確認するには、次の手順を実行します。
 
-         1. 上部メニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。
+        1. 上部メニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。
 
-         1. （行が追加されていない場合）失敗した値を含むエラーファイルをダウンロードするには、ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
+        1. （行が追加されていない場合）失敗した値を含むエラーファイルをダウンロードするには、ジョブの横にある「**[!UICONTROL Download]**」をクリックします。
 
-            ファイルはブラウザーのダウンロードフォルダーに保存されます。
+           ファイルはブラウザーのダウンロードフォルダーに保存されます。
 
    * 特定のURLを削除するには、次のいずれかの操作を行います。
 
-      * 削除するURLを選択するには：
+     * 削除するURLを選択するには：
 
-         1. リストから削除する各URLの横にあるチェックボックスをオンにします。
+       1. リストから削除する各URLの横にあるチェックボックスをオンにします。
 
-         1. **[!UICONTROL Remove from List]**&#x200B;をクリックします。
+       1. **[!UICONTROL Remove from List]**&#x200B;をクリックします。
 
-         1. 確認メッセージで、**[!UICONTROL Remove]**&#x200B;をクリックします。
+       1. 確認メッセージで、**[!UICONTROL Remove]**&#x200B;をクリックします。
 
-      * 削除するURLを入力または貼り付けるには：
+     * 削除するURLを入力または貼り付けるには：
 
-         1. **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**&#x200B;をクリックします。
+       1. **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**&#x200B;をクリックします。
 
-         1. 1行に各URLを含めて、最大10,000個のURLを入力または貼り付けます。
+       1. 1行に各URLを含めて、最大10,000個のURLを入力または貼り付けます。
 
-         1. 「**[!UICONTROL Validate]**」をクリックして、URLが有効であり、現在リストに含まれているかどうかを確認します。
+       1. 「**[!UICONTROL Validate]**」をクリックして、URLが有効であり、現在リストに含まれているかどうかを確認します。
 
-         1. **[!UICONTROL Remove from list]**&#x200B;をクリックします。
+       1. **[!UICONTROL Remove from list]**&#x200B;をクリックします。
 
    * すべてのURLを削除するには：
 
-      1. **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**&#x200B;をクリックします。
+     1. **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**&#x200B;をクリックします。
 
-      1. **[!UICONTROL Remove All URLs]**&#x200B;をクリックします。
+     1. **[!UICONTROL Remove All URLs]**&#x200B;をクリックします。
 
-      1. **[!UICONTROL Remove]**&#x200B;をクリックします。
+     1. **[!UICONTROL Remove]**&#x200B;をクリックします。
 
 ## URL リストの書き出し
 

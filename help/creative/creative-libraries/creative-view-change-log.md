@@ -3,7 +3,16 @@ title: クリエイティブの変更ログを表示する
 description: 変更を加えたユーザーを含め、指定した時間範囲におけるクリエイティブの変更に関する詳細を表示する方法について説明します。
 feature: Creative Standard Creatives
 exl-id: 3ab23f6f-9f40-4478-aebb-8f70105c5c1c
-source-git-commit: 29a679e99560c6776932f5da2d06fa0331c934a8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%

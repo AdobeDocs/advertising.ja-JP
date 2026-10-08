@@ -1,24 +1,30 @@
 ---
-title: ' [!DNL Google Ads]のクリックトラッキング形式'
-description: ' [!DNL Google Ads]  アカウントのクリックトラッキング形式について説明します。'
+title: '[!DNL Google Ads]のクリックトラッキング形式'
+description: '[!DNL Google Ads] アカウントのクリックトラッキング形式について説明します。'
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/zlglYQa3JRxc5hz07rdjPQUMk7ogdrFKf2mxVkByCjU
+TQID: 'https://experienceleague.adobe.com/zlglYQa3JRxc5hz07rdjPQUMk7ogdrFKf2mxVkByCjU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 24a5511c46132725ff82dac81e671ab4ec6f4482
+    internal-label: Customer experience
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: '579'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]のクリックトラッキング形式
 
 次に、Search、Social、およびCommerceで[!DNL Google Ads]に必要な基本トラッキングテンプレートとランディングページのサフィックス（最終URL サフィックス）形式を示します。
@@ -39,7 +45,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`は、Adobe Advertising内の広告主の一意のIDの変数です。
 >
->* この形式は、キャンペーンに対してトークン渡しが有効になっていることを示します（デフォルト）。 トークンの渡しが無効な場合は、`cq?`の後の`<advertiser_ID>`を`c?`に置き換えます。
+>* この形式は、キャンペーンに対してトークン渡しが有効になっていることを示します（デフォルト）。 トークンの渡しが無効な場合は、`<advertiser_ID>`の後の`cq?`を`c?`に置き換えます。
 >
 >* トラッキングテンプレートの最終的なURLを示す[!DNL ValueTrack] パラメーターは、`{lpurl}`または`!{unescapedurl}`である必要があります。
 >
@@ -49,7 +55,7 @@ ht-degree: 0%
 >
 >* （動的検索広告） [!DNL Google Ads]は最終的なURLを動的に決定するので、入力する必要はありません。
 >
->* （サイトリンク） [!UICONTROL Transaction Report]を生成すると、サイトリンクをクリックした結果のコンバージョンを確認できます。 サイトリンクの[!UICONTROL Link Type]列の値は`sl:<Sitelink text>`など`sl:See Current Offers`です。
+>* （サイトリンク） [!UICONTROL Transaction Report]を生成すると、サイトリンクをクリックした結果のコンバージョンを確認できます。 サイトリンクの[!UICONTROL Link Type]列の値は`sl:See Current Offers`など`sl:<Sitelink text>`です。
 
 ### ショッピングネットワーク
 
@@ -65,29 +71,29 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`は、Adobe Advertising内の広告主の一意のIDの変数です。
 >
->* この形式は、キャンペーンに対してトークン渡しが有効になっていることを示します（デフォルト）。 トークンの渡しが無効な場合は、`cq?`の後の`<advertiser_ID>`を`c?`に置き換えます。
+>* この形式は、キャンペーンに対してトークン渡しが有効になっていることを示します（デフォルト）。 トークンの渡しが無効な場合は、`<advertiser_ID>`の後の`cq?`を`c?`に置き換えます。
 >
 >* トラッキングテンプレートの最終的なURLを示す[!DNL ValueTrack] パラメーターは、`{lpurl}`または`!{unescapedurl}`である必要があります。
 >
 >* [!DNL Google Ads]は、Google Merchant Center フィードの商品URLを最終的なURLとして使用するので、商品データまたは商品グループの最終的なURLを入力する必要はありません。
 >
->* [!UICONTROL Transaction Report]を生成すると、ショッピング広告をクリックした結果のコンバージョンを確認できます。 製品広告の[!UICONTROL Link Type]列の値は、`<product ID>`など、プラン：`pla:8525822`です。
+>* [!UICONTROL Transaction Report]を生成すると、ショッピング広告をクリックした結果のコンバージョンを確認できます。 製品広告の[!UICONTROL Link Type]列の値は、`pla:8525822`など、プラン：`<product ID>`です。
 
 ## ランディングページサフィックス（最終URL サフィックス）形式
 
-Adobe Advertising コンバージョントラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック ID （`gclid`の[!DNL Google Ads]）を含める必要があります。
+Adobe Advertising コンバージョントラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック ID （[!DNL Google Ads]の`gclid`）を含める必要があります。
 
 * 広告主がAdobe Analytics統合を持っている場合、接尾辞には次のいずれかを含める必要があります。
 
-   * パフォーマンスの最大キャンペーン、ドラフト、および実験キャンペーンのキャンペーンレベルおよび広告グループレベルのレポートをサポートする最新の[!DNL Google Ads]AMO ID形式[&#x200B; （](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items)から始まる）を使用する`s_kwcid` アカウント：
+  * パフォーマンスの最大キャンペーン、ドラフト、および実験キャンペーンのキャンペーンレベルおよび広告グループレベルのレポートをサポートする最新の[AMO ID形式](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items) （`s_kwcid`から始まる）を使用する[!DNL Google Ads] アカウント：
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+    `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     アカウントにサーバーサイド AMO ID実装があり、アカウントまたはキャンペーン設定「[!UICONTROL Auto Upload]」が有効になっている場合、パラメーターが自動的に追加されます。 それ以外は、手動で追加する必要があります。 「[様が使用するAdobe Advertising ID  [!DNL Analytics]](/help/integrations/analytics/ids.md)を参照してください。」
+    アカウントにサーバーサイド AMO ID実装があり、アカウントまたはキャンペーン設定「[!UICONTROL Auto Upload]」が有効になっている場合、パラメーターが自動的に追加されます。 それ以外は、手動で追加する必要があります。 「 [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)様が使用するAdobe Advertising ID を参照してください。」
 
-   * その他[!DNL Google Ads] アカウントすべて：
+  * その他[!DNL Google Ads] アカウントすべて：
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+    `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * 広告主がAdobe Analyticsとの統合を持っていない場合、接尾辞には次を含める必要があります。
 

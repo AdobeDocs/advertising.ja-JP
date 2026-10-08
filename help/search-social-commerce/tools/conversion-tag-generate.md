@@ -3,13 +3,19 @@ title: Adobe Advertisingのコンバージョン追跡タグを生成して実�
 description: Adobe Advertisingのコンバージョンタグを作成して、コンバージョンイベントをトラッキングする方法について説明します。
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertisingのコンバージョン追跡タグを生成して実装する
 
 *Adobe Advertising コンバージョントラッキングのみを使用する広告主*
@@ -128,7 +134,7 @@ ht-degree: 0%
 
 ## Adobe Experience PlatformタグとAdobe Advertising拡張機能を使用して、コンバージョントラッキングタグを実装する
 
-Adobe Experience Platformのタグを使用して、検索、ソーシャル、Commerceのコンバージョントラッキングを設定できます。 Adobe CX Enterpriseをご利用のお客様は、同梱の付加価値機能としてタグを利用できます。
+Adobe Experience Platformのタグを使用して、検索、ソーシャル、Commerceのコンバージョントラッキングを設定できます。 Adobe CX Enterpriseをご利用のお客様は、タグの付加価値機能を含む機能としてタグを利用できます。
 
 Experience Platform ユーザーインターフェイスまたはExperience Platform Data Collection ユーザーインターフェイスから、Search、Social、Commerceのコンバージョントラッキングタグを設定するには、次のタスクが必要です。 タグの設定の詳細と手順については、「[Tags overview](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)」および「[&#x200B; クイックスタートガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/get-started/quick-start)」で始まるExperience Platform タグガイドを参照してください。
 

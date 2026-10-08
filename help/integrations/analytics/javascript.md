@@ -1,33 +1,42 @@
 ---
-title: ' [!DNL Analytics for Advertising]のJavaScript コード'
-description: ' [!DNL Analytics for Advertising]のJavaScript コード'
+title: '[!DNL Analytics for Advertising]のJavaScript コード'
+description: '[!DNL Analytics for Advertising]のJavaScript コード'
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-TQID: https://experienceleague.adobe.com/g9onwe1IQl1kbyQ82W2KmODPGUAReKiotxy65yCZcNY
+TQID: 'https://experienceleague.adobe.com/g9onwe1IQl1kbyQ82W2KmODPGUAReKiotxy65yCZcNY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Measurement
+source-git-commit: 2c5cc3a9b50bf58aa7d44300471716674e244451
 workflow-type: tm+mt
-source-wordcount: 941
+source-wordcount: '941'
 ht-degree: 0%
-
 ---
-
 # [!DNL Analytics for Advertising]のJavaScript コード
 
 *Advertising DSPのみの広告主*
 
 Advertising DSPの場合、[!DNL Analytics for Advertising]統合は、ビュースルーとクリックスルーのサイトインタラクションを追跡します。 クリックスルー訪問は、web ページ上の標準のAdobe Analytics コードによって追跡されます。[!DNL Analytics] コードは、ランディングページ URLのAMO IDおよびEF ID パラメーターをキャプチャし、それぞれの予約[!DNL eVars]で追跡します。 JavaScriptスニペットをweb ページにデプロイすることで、ビュースルー訪問を追跡できます。
 
-Adobe Advertising JavaScriptのコードにより、サイトへの訪問の最初のページビューで、訪問者が以前に広告を見たりクリックしたりしたことがあるかどうかを確認します。 ユーザーがクリックスルーでサイトにアクセスしたことがある、広告が表示されていない場合、訪問者は無視されます。 Adobe Advertising内で設定された[&#x200B; クリックルックバックウィンドウ &#x200B;](/help/integrations/analytics/prerequisites.md#lookback-a4adc)の間に、訪問者が広告を見てクリックスルーでサイトに入っていない場合、Adobe Advertising JavaScript コードは、a）が[Experience Cloud ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を使用して追加ID （`SDID`）を生成するか、b）がAdobe Experience Platform [!DNL Web SDK] `generateRandomID` メソッドを使用して`[!DNL StitchID]`を生成します。 どちらのIDも、Adobe Advertisingから訪問者のAdobe Analytics ヒットにデータを合成するために使用されます。 次に、Adobe AnalyticsはAdobe Advertisingに対して、広告露出に関連付けられたAMO IDとEF IDを問い合わせます。 次に、AMO IDとEF IDがそれぞれの[!DNL eVars]に入力されます。 これらの値は、指定した期間（デフォルトでは60日）保持されます。
+Adobe Advertising JavaScriptのコードにより、サイトへの訪問の最初のページビューで、訪問者が以前に広告を見たりクリックしたりしたことがあるかどうかを確認します。 ユーザーがクリックスルーでサイトにアクセスしたことがある、広告が表示されていない場合、訪問者は無視されます。 Adobe Advertising内で設定された[&#x200B; クリックルックバックウィンドウ &#x200B;](/help/integrations/analytics/prerequisites.md#lookback-a4adc)の間に、訪問者が広告を見てクリックスルーでサイトに入っていない場合、Adobe Advertising JavaScript コードは、[Experience Cloud ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を使用して追加ID （`SDID`）を生成するか、b）はAdobe Experience Platform [!DNL Web SDK] `generateRandomID` メソッドを使用して`[!DNL StitchID]`を生成します。 どちらのIDも、Adobe Advertisingから訪問者のAdobe Analytics ヒットにデータを合成するために使用されます。 次に、Adobe AnalyticsはAdobe Advertisingに対して、広告露出に関連付けられたAMO IDとEF IDを問い合わせます。 次に、AMO IDとEF IDがそれぞれの[!DNL eVars]に入力されます。 これらの値は、指定した期間（デフォルトでは60日）保持されます。
 
 [!DNL Analytics]は、EF IDをキーとして使用して、サイトトラフィック指標（ページビュー、訪問数、滞在時間など）と[!DNL Analytics]個のカスタムイベントまたは標準イベントをAdobe Advertisingに毎時送信します。 これらの[!DNL Analytics]指標は、Adobe Advertisingアトリビューションシステムを通じて実行され、コンバージョンをクリック履歴や露出の履歴に結び付けます。
 
@@ -48,7 +57,7 @@ Users who want to convert first-party segments from their customer data platform
 
 The standard JavaScript library consists of two lines that allow [!DNL Analytics] and Adobe Advertising to communicate with each other. If the [!DNL Analytics for Advertising] integration was completed during the Adobe Advertising implementation, then you should have already received this code with instructions on how to deploy it.
 
-#### Implementations that use the Experience Cloud Identity Service `visitorAPI.js` code
+#### Implementations that use the Adobe Visitor ID Service `visitorAPI.js` code
 
 ```
 <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
@@ -75,7 +84,7 @@ JavaScript ライブラリは、[!DNL Analytics]とAdobe Advertisingが互いに
 
 ### コード
 
-#### Experience Cloud Identity Service `visitorAPI.js` コードを使用する実装
+#### Adobe Visitor ID サービス `visitorAPI.js` コードを使用する実装
 
 ```
 <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
@@ -97,7 +106,7 @@ JavaScript ライブラリは、[!DNL Analytics]とAdobe Advertisingが互いに
 
 ### コードを配置する場所
 
-[!DNL Analytics for Advertising] JavaScript関数は、Experience Cloud ID サービスの後で、Analytics アプリ測定コードの前に指定する必要があります。 これにより、補足ID （`SDID`）または`[!DNL StitchID]`がAnalytics呼び出しに含まれるようになります。
+[!DNL Analytics for Advertising] JavaScript関数は、Experience Cloud ID サービスの後、Analytics アプリ測定コードの前に指定する必要があります。 これにより、補足ID （`SDID`）または`[!DNL StitchID]`がAnalytics呼び出しに含まれるようになります。
 
 ![&#x200B; コード プレースメント &#x200B;](/help/integrations/assets/a4adc-code-placement.png)
 
@@ -123,7 +132,7 @@ JavaScript ライブラリは、[!DNL Analytics]とAdobe Advertisingが互いに
    1. 「アプリケーション」タブで、`adcloud` Cookieを見つけ、Cookieに`_les_v` （前回の訪問）の値`y`と30分で有効期限が切れるUTC エポックタイムスタンプが含まれていることを確認します。
       1. `adcloud` Cookieを削除してページを更新します。
 
-1. （`/b/ss`のExperience Cloud ID サービス `visitorAPI.js` コードを使用する実装）フィルターを使用して、Analytics ヒットを確認します。
+1. （Analytics ヒットを確認するために、`/b/ss`のAdobe Visitor ID サービス `visitorAPI.js` コード）フィルターを使用する実装。
 
    ![&#x200B; フィルター：`/b/ss`](/help/integrations/assets/a4adc-code-validation-filter-bss.png)
 
@@ -150,13 +159,13 @@ JavaScript ライブラリは、[!DNL Analytics]とAdobe Advertisingが互いに
 1. [!UICONTROL Solutions Filter] ツールバーで、[!UICONTROL Adobe Advertising]と[!UICONTROL Analytics]をクリックします。
 1. [!UICONTROL Request URL - Hostname] パラメーター行で、`lasteventf-tm.everesttech.net`を見つけます。
 1. 「[&#x200B; コードを [!DNL Chrome Developer Tools]](#validate-js-chrome)で確認する方法」のステップ 3と同様に、[!UICONTROL Request - Parameters]行で、生成されたシグナルを監査します。
-   * (Implementations that use the Experience Cloud Identity Service `visitorAPI.js` code) Make sure the `Sdid` parameter matches the `Supplemental Data ID` in the Adobe Analytics filter.
-   * (Implementations that use the Experience Platform [!DNL Web SDK] `alloy.js`code) Make sure the value of the `advertisingStitchID` parameter matches the `Sdid` sent to the Experience Platform Edge Network.
-   * If the code isn&#39;t generating, then check to make sure the Adobe Advertising cookie has been removed in the [!UICONTROL Application] tab. Once it&#39;s removed, refresh the page and repeat the process.
+   * （Adobe Visitor ID Service `visitorAPI.js` コードを使用する実装）Adobe Analytics フィルターの`Sdid` パラメーターが`Supplemental Data ID`と一致することを確認してください。
+   * （Experience Platform [!DNL Web SDK] `alloy.js` コードを使用する実装） `advertisingStitchID` パラメーターの値が、Experience Platform Edge Networkに送信された`Sdid`と一致することを確認します。
+   * コードが生成されない場合は、「[!UICONTROL Application]」タブでAdobe Advertising Cookieが削除されていることを確認します。 削除したら、ページを更新して、このプロセスを繰り返します。
 
-   ![Auditing [!DNL Analytics for Advertising] JavaScript code in [!DNL Platform Cloud Debugger]](/help/integrations/assets/a4adc-js-audit-debugger.png)
+   ![JavaScript コードを[!DNL Platform Cloud Debugger]](/help/integrations/assets/a4adc-js-audit-debugger.png)で[!DNL Analytics for Advertising]監査しています
 
 >[!MORELIKETHIS]
 >
 >* [概要： [!DNL Analytics for Advertising]](overview.md)
->* [Prerequisites and key information for implementing [!DNL Analytics for Advertising]](prerequisites.md)
+>* [実装の前提条件と主要情報 [!DNL Analytics for Advertising]](prerequisites.md)

@@ -1,23 +1,28 @@
 ---
 title: 在庫フィードのショッピングとテンプレート設定[!DNL Google Ads]
-description: 在庫フィードの [!DNL Google Ads]  ショッピング広告テンプレートの設定を参照します。
+description: 在庫フィードの[!DNL Google Ads] ショッピング広告テンプレートの設定を参照します。
 exl-id: 36cbe719-f984-4456-8575-94b9d3e6094e
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/IIgGNn0rpJsvZjRnrqbT6EIQXpf4BRx2C1GgtU4AdbA
+TQID: 'https://experienceleague.adobe.com/IIgGNn0rpJsvZjRnrqbT6EIQXpf4BRx2C1GgtU4AdbA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: '530'
 ht-degree: 0%
-
 ---
-
 # 在庫フィードのショッピングとテンプレート設定[!DNL Google Ads]
 
 ショッピング広告テンプレートを使用したショッピング広告の設定。
@@ -66,7 +71,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]:** （クライアントフィードファイルのテンプレートの場合はオプション） キャンペーンレベルのトラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的なURLをパラメーターに埋め込みます。 この値はアカウントレベルの設定よりも優先されますが、より詳細なレベル（キーワードが最も詳細なレベル）でテンプレートを追跡すると、この値よりも優先されます。
 
-キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合は、[&#x200B; ショッピングキャンペーン  [!DNL Google Ads] の](/help/search-social-commerce/tracking/formats-click-tracking-google.md) トラッキングテンプレート形式を使用します。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
+キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合は、 [!DNL Google Ads]  ショッピングキャンペーン [&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の トラッキングテンプレート形式を使用します。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
 
 サードパーティのリダイレクトとトラッキングの場合は、値を入力します。
 
@@ -104,7 +109,7 @@ ht-degree: 0%
 **[!UICONTROL Networks]:**&#x200B;広告を配置するネットワーク。 *[!UICONTROL Search]*&#x200B;は既に選択されています。 [!DNL Google Ads]件の検索パートナーのリストに入札を含めるには、**[!UICONTROL Search partners]**&#x200B;の横にあるチェックボックスをオンにします。
 
 **[!UICONTROL Campaign Priority]:**&#x200B;複数のキャンペーンが次のキャンペーンを宣伝する場合にキャンペーンが使用される優先度
-同じ製品：*[!UICONTROL Low]* （新しいキャンペーンのデフォルト）、*[!UICONTROL Medium]*、または&#x200B;*[!UICONTROL High]*。 同じ商品が複数のキャンペーンに含まれる場合、広告ネットワークは
+同じ製品：*[!UICONTROL Low]* （新しいキャンペーンのデフォルト）、*[!UICONTROL Medium]*&#x200B;または&#x200B;*[!UICONTROL High]*。 同じ商品が複数のキャンペーンに含まれる場合、広告ネットワークは
 最初にキャンペーンの優先順位を指定して、どのキャンペーン（および関連する入札）が広告オークションの対象となるかを決定します。 すべてのキャンペーンの優先順位が同じ場合、入札額が最も高いキャンペーンが実施要件を満たします。
 
 <!-- **[!UICONTROL Locations]:** -->

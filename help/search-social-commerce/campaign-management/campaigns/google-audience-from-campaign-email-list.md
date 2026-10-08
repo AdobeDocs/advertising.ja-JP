@@ -1,27 +1,31 @@
 ---
-title: Adobe Campaignのメールリストから [!DNL Google Ads] 顧客マッチオーディエンスを作成
-description: 既存のAdobe Campaign メールリストから [!DNL Google Ads]  カスタマッチオーディエンスを作成する方法を説明します。
+title: Adobe Campaignのメールリストから[!DNL Google Ads]の顧客マッチオーディエンスを作成する
+description: 既存のAdobe Campaign メールリストから[!DNL Google Ads]の顧客一致オーディエンスを作成する方法を説明します。
 exl-id: 92812af2-ac31-48cd-badf-ea287799bddb
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g
+TQID: 'https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 669
+source-wordcount: '693'
 ht-degree: 0%
-
 ---
-
 # Adobe Campaignのメールリストから[!DNL Google Ads]の顧客マッチオーディエンスを作成する
 
-顧客の一致のみ&#x200B;*[!DNL Google Ads]の対象となる* アカウント
+顧客の一致のみ&#x200B;*の対象となる*[!DNL Google Ads] アカウント
 
-アカウントリンクとワークフローを[!DNL Google Ads]に設定することで、Adobe Campaign内のメールリストから[!DNL Campaign]の顧客マッチオーディエンスを作成できます。
+アカウントリンクとワークフローを[!DNL Campaign]に設定することで、Adobe Campaign内のメールリストから[!DNL Google Ads]の顧客マッチオーディエンスを作成できます。
 
 そのためには、[!DNL Campaign] インスタンスにアクセスし、必要なワークフローを含むXML ファイルにアクセスする必要があります。これには、Adobe アカウントチームから提供されます。 手順は、[!DNL Campaign]のバージョンによって異なる場合があります。 必要に応じて、Adobe アカウントチームが[!DNL Campaign]でのワークフローの設定を支援します。
 
@@ -99,11 +103,11 @@ ht-degree: 0%
 
          * （オプション）「**[!UICONTROL Schedule]**」タブで、ファイル転送の別のスケジュールを指定します。
 
-           デフォルトでは、ワークフローは00:00 （真夜中）に実行され、すべてのレコードが処理されます。 待ち時間を最小限に抑えるには、ワークフローを18:00までに実行するようにスケジュールします。
+           デフォルトでは、ワークフローは00:00 （真夜中）に実行され、すべてのレコードが処理されます。 遅延を最小限に抑えるには、ワークフローを18:00までに実行するようにスケジュールします。
 
          * **[!UICONTROL Ok]**&#x200B;をクリックします。
 
-Search, Social, &amp; Commerceは、30分ごとに（広告主のタイムゾーンのNN:30とNN:59で）ディレクトリをチェックし、見つかったファイルを別の場所に移動し、データからオーディエンスを自動的に作成し、22:00 （午後10時）にGoogleにプッシュします。 Search, Social, &amp; Commerceでは、30分ごとにメールリストの更新（追加と減算）を確認し続け、毎日22[!DNL Google Ads]に応じて:00のオーディエンスを更新します。
+Search, Social, &amp; Commerceは、30分ごとに（広告主のタイムゾーンのNN:30とNN:59）ディレクトリをチェックし、見つかったファイルを別の場所に移動し、データからオーディエンスを自動的に作成し、22:00 （午後10時）にGoogleにプッシュします。 Search, Social, &amp; Commerceでは、30分ごとにメールリストの更新（追加と減算）を確認し続け、毎日22:00に適宜[!DNL Google Ads]のオーディエンスを更新します。
 
 >[!NOTE]
 >
@@ -118,6 +122,6 @@ Search, Social, &amp; Commerceは、30分ごとに（広告主のタイムゾー
 >[!MORELIKETHIS]
 >
 >* [&#x200B; オーディエンスについて](audience-about.md)
->* [顧客マッチオーディエンスを [!DNL Google Ads]  オーディエンス  [!DNL Adobe] から](google-audience-from-adobe-audience.md)作成
+>* [顧客マッチオーディエンスを [!DNL Adobe]  オーディエンス &#x200B;](google-audience-from-adobe-audience.md)から [!DNL Google Ads] 作成
 >* [顧客データリストを使用した顧客一致オーディエンスの管理](audience-from-customer-data-list.md)
 >* [動的リマーケティングオーディエンスの管理](audience-dynamic-remarketing-manage.md)

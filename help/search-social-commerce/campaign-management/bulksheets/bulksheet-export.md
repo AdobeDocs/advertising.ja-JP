@@ -3,18 +3,21 @@ title: 生成またはアップロードされたバルクシートファイル�
 description: エラーファイルやランディングページ検証ファイルなど、バルクシートファイルをダウンロードする方法について説明します。
 exl-id: 25868c67-5e6e-4570-9d8f-1a56b9bb88ac
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/oZMa0CsCnMfae-Op8wp90vfpgPvnWKG-mDV5RZbcO34
+TQID: 'https://experienceleague.adobe.com/oZMa0CsCnMfae-Op8wp90vfpgPvnWKG-mDV5RZbcO34'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 141
+source-wordcount: '141'
 ht-degree: 0%
-
 ---
-
 # 生成またはアップロードされたバルクシートファイルをローカルに書き出す
 
 エラーファイルやランディングページ検証ファイルなど、生成またはアップロードされたバルクシートファイルを30日間ダウンロードできます。 ファイルは、アップロードまたは生成されてから30日後に自動的に削除されます。

@@ -2,13 +2,19 @@
 title: '[!UICONTROL Network Constraint Report]'
 description: '[!UICONTROL Network Constraint Report]について説明します。'
 feature: Search Reports, Search Basic Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Network Constraint Report]
 
 [!UICONTROL Network Constraint Report]には、指定されたすべての最小値および最大値の広告ネットワーク予算と、実際の費用（コスト）が表示されます。 レポートには、1つ以上のポートフォリオのコスト、クリック、インプレッション、ビュースルー、および（オプションで）コンバージョンデータが含まれます。 デフォルトでは、データには、指定された日付範囲の該当する広告ネットワークアカウントごとに1つの行が含まれ、行はポートフォリオ順に、次に広告ネットワーク順に昇順になります。

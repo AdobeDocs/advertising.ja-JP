@@ -3,20 +3,24 @@ title: サイトリンク拡張機能について
 description: サイトリンク拡張機能について詳しく見る。
 exl-id: c2d96440-62da-4b57-a98e-d7b94882d6c5
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/lOrTOUXOFT7cvY5cEilRiROSfIbmcI9v8vU2MVZlg7U
+TQID: 'https://experienceleague.adobe.com/lOrTOUXOFT7cvY5cEilRiROSfIbmcI9v8vU2MVZlg7U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 344
+source-wordcount: '355'
 ht-degree: 0%
-
 ---
-
 # サイトリンク拡張機能について
 
 *[!DNL Google Ads]と[!DNL Microsoft Advertising]のみ*
@@ -27,7 +31,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Sitelinks]と[!UICONTROL Associations] ビュー
 
-[!UICONTROL Extensions] > [!UICONTROL Sitelinks]の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ライブラリには、アカウントレベルのサイトリンクがすべて一覧表示され、そこに共有サイトリンクを作成および管理できます。 [[!DNL Google Ads]  アカウント &#x200B;](https://support.google.com/google-ads/answer/6372658)および[[!DNL Microsoft Advertising]  アカウント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/52001)あたりの広告拡張機能の最大数については、広告ネットワークのヘルプを参照してください。 ライブラリ内のサイトリンクは、アカウントエンティティに割り当てるまで、広告で使用されません。
+[!UICONTROL Campaigns] > [!UICONTROL Campaigns]の[!UICONTROL Extensions] > [!UICONTROL Sitelinks] ライブラリには、アカウントレベルのサイトリンクがすべて一覧表示され、そこに共有サイトリンクを作成および管理できます。 [[!DNL Google Ads]  アカウント &#x200B;](https://support.google.com/google-ads/answer/6372658)および[[!DNL Microsoft Advertising]  アカウント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/52001)あたりの広告拡張機能の最大数については、広告ネットワークのヘルプを参照してください。 ライブラリ内のサイトリンクは、アカウントエンティティに割り当てるまで、広告で使用されません。
 
 [!UICONTROL Extensions] > [!UICONTROL Associations] ビューから、アカウントレベル （[!DNL Google Ads]のみ）、キャンペーンレベル、または広告グループレベル （[!DNL Google Ads]のみ）のすべての広告に、サイトリンクを可能な限り割り当てることができます。
 

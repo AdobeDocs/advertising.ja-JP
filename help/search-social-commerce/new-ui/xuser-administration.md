@@ -3,21 +3,26 @@ title: （新しいUI） ユーザー管理
 description: ユーザーアクセスの管理方法について説明します。
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
-TQID: https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo
+TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1045
+source-wordcount: '1045'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）検索、ソーシャル、コマースのユーザー管理
 
 一部のユーザーは、すべてのAdobeの使用権限とユーザー管理を一元管理する[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)を使用して、新しいSearch, Social, &amp; Commerce ユーザーインターフェイスへのアクセスを管理できます。 ユーザーは、エンドユーザーまたは管理者に分類されます。 管理者の場合は、Adobe アカウントチームから通知されます。 管理者の場合は、次の節を参照して、ユーザーを管理するための権限とワークフローを特定してください。
@@ -44,49 +49,49 @@ Search, Social &amp; Commerceの新しいユーザーインターフェイスに
 
 * **[!UICONTROL Basic Optimization]:**&#x200B;このプロファイルは次の機能を提供します：
 
-   * [!UICONTROL Objectives]：完全アクセス
+  * [!UICONTROL Objectives]：完全アクセス
 
-   * [!UICONTROL Simulations]：完全アクセス
+  * [!UICONTROL Simulations]：完全アクセス
 
-   * [!UICONTROL Portfolio Groups]：完全アクセス
+  * [!UICONTROL Portfolio Groups]：完全アクセス
 
-   * [!UICONTROL Portfolios]: [!UICONTROL Objectives]、[!UICONTROL Campaigns]、および費用[!UICONTROL Management]のポートフォリオ設定へのアクセス権を作成/編集します。残りのポートフォリオ設定への読み取り専用アクセス権があります。
+  * [!UICONTROL Portfolios]: [!UICONTROL Objectives]、[!UICONTROL Campaigns]、および費用[!UICONTROL Management]のポートフォリオ設定へのアクセス権を作成/編集します。残りのポートフォリオ設定への読み取り専用アクセス権があります。
 
-   * [!UICONTROL Campaigns]: キャンペーン設定への読み取り専用アクセス （作成、編集、削除機能は使用できません）。制約およびポートフォリオ割り当てに対する完全アクセス権
+  * [!UICONTROL Campaigns]: キャンペーン設定への読み取り専用アクセス （作成、編集、削除機能は使用できません）。制約およびポートフォリオ割り当てに対する完全アクセス権
 
-   * [!UICONTROL Ad Groups]：広告グループ設定への読み取り専用アクセス（作成、編集、削除機能は使用できません）。制約およびポートフォリオの割り当てに対する完全アクセス権
+  * [!UICONTROL Ad Groups]：広告グループ設定への読み取り専用アクセス（作成、編集、削除機能は使用できません）。制約およびポートフォリオの割り当てに対する完全アクセス権
 
   このアクセスレベルは、まだSearch、Social、およびCommerceの使用を学んでいるユーザーに適しています。
 
 * **[!UICONTROL Expert Optimization]:**&#x200B;このプロファイルは次の機能を提供します：
 
-   * [!UICONTROL Objectives]：完全アクセス
+  * [!UICONTROL Objectives]：完全アクセス
 
-   * [!UICONTROL Simulations]：完全アクセス
+  * [!UICONTROL Simulations]：完全アクセス
 
-   * [!UICONTROL Portfolio Groups]：完全アクセス
+  * [!UICONTROL Portfolio Groups]：完全アクセス
 
-   * [!UICONTROL Portfolios]：完全アクセス
+  * [!UICONTROL Portfolios]：完全アクセス
 
-   * [!UICONTROL Campaigns]: キャンペーンリストへの読み取り専用アクセス （キャンペーンの作成、編集、または削除機能はまだ利用できません）。制約とポートフォリオの割り当てに完全にアクセスできます
+  * [!UICONTROL Campaigns]: キャンペーンリストへの読み取り専用アクセス （キャンペーンの作成、編集、または削除機能はまだ利用できません）。制約とポートフォリオの割り当てに完全にアクセスできます
 
-   * [!UICONTROL Ad Groups]：広告グループリストへの読み取り専用アクセス（キャンペーンの作成、編集、または削除機能はまだ利用できません）。制約とポートフォリオの割り当てに完全にアクセスできます
+  * [!UICONTROL Ad Groups]：広告グループリストへの読み取り専用アクセス（キャンペーンの作成、編集、または削除機能はまだ利用できません）。制約とポートフォリオの割り当てに完全にアクセスできます
 
   このアクセスレベルは、Search、Social、およびCommerceのエキスパートユーザーにお勧めします。
 
 * **[!UICONTROL Read-Only]:**&#x200B;このプロファイルは次の機能を提供します：
 
-   * [!UICONTROL Objectives]：読み取り専用アクセス
+  * [!UICONTROL Objectives]：読み取り専用アクセス
 
-   * [!UICONTROL Simulations]：読み取り専用アクセス
+  * [!UICONTROL Simulations]：読み取り専用アクセス
 
-   * [!UICONTROL Portfolio Groups]：読み取り専用アクセス
+  * [!UICONTROL Portfolio Groups]：読み取り専用アクセス
 
-   * [!UICONTROL Portfolios]：読み取り専用アクセス
+  * [!UICONTROL Portfolios]：読み取り専用アクセス
 
-   * [!UICONTROL Campaigns]：読み取り専用アクセス
+  * [!UICONTROL Campaigns]：読み取り専用アクセス
 
-   * [!UICONTROL Ad Groups]：読み取り専用アクセス
+  * [!UICONTROL Ad Groups]：読み取り専用アクセス
 
 * **[!UICONTROL Admin]:**&#x200B;このプロファイルは、利用可能なすべての機能に完全なアクセス権を付与し、ユーザーが新しいクライアントインスタンスを作成できるようにします（組織IDごとに1つ以上のインスタンスを持つレガシー広告主アカウントと同じ）。 正当な事業上の理由がない限り、この権利を誰にも割り当てないでください。
 

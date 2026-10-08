@@ -3,21 +3,29 @@ title: エクスペリエンスのプレビュー
 description: 広告エクスペリエンスでクリエイティブをプレビューする方法について説明します。
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-TQID: https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI
+TQID: 'https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 554
+source-wordcount: '552'
 ht-degree: 0%
-
 ---
-
 # エクスペリエンスのプレビュー
 
 すべてのハイパーリンクを含む、ターゲットビューアがエクスペリエンスに表示する特定の広告サイズのクリエイティブをプレビューできます。 決定木ターゲティングを使用するエクスペリエンスでは、単一のクリエイティブ、特定のブランチのクリエイティブ（ターゲットタイプ）、またはエクスペリエンス内のすべてのクリエイティブをプレビューできます。 決定木のターゲティングがないエクスペリエンスの場合は、1つのクリエイティブをプレビューできます。<!-- verify -->
@@ -26,11 +34,11 @@ ht-degree: 0%
 
 * 1つのクリエイティブをプレビューし、複数のクリエイティブを条件に合わせてプレビューすると、プレビューを更新するたびに表示されるクリエイティブは、エクスペリエンスの広告ローテーション設定に基づきます。
 
-   * アルゴリズム広告のローテーションでは、最適化目標に基づいてクリエイティブが選択されます。
+  * アルゴリズム広告のローテーションでは、最適化目標に基づいてクリエイティブが選択されます。
 
-   * スケジュールされた広告ローテーションの場合、スケジュールの最初のクリエイティブが表示されます。 シーケンスを続行するには、プレビューの更新を続けることができます。
+  * スケジュールされた広告ローテーションの場合、スケジュールの最初のクリエイティブが表示されます。 シーケンスを続行するには、プレビューの更新を続けることができます。
 
-   * 重み付けされた広告のローテーションでは、指定された重み（Creative Aが表示される可能性が80%、Creative Bが表示される可能性が20%など）に基づいてクリエイティブが選択されます。
+  * 重み付けされた広告のローテーションでは、指定された重み（Creative Aが表示される可能性が80%、Creative Bが表示される可能性が20%など）に基づいてクリエイティブが選択されます。
 
 ## 決定木ターゲティングによるエクスペリエンス内のクリエイティブのプレビュー
 
@@ -48,24 +56,24 @@ ht-degree: 0%
 
    * 単一のクリエイティブをプレビューするには：
 
-      1. **[!UICONTROL Creative]**&#x200B;をクリックします。
+     1. **[!UICONTROL Creative]**&#x200B;をクリックします。
 
-      1. 広告のサイズを選択。
+     1. 広告のサイズを選択。
 
-      1. 「[!UICONTROL Decision Tree Targeting]」セクションで、クリエイティブのターゲットを選択します。
+     1. 「[!UICONTROL Decision Tree Targeting]」セクションで、クリエイティブのターゲットを選択します。
 
    * 特定のブランチのクリエイティブをプレビューするには：
 
-      1. **[!UICONTROL Particular branch]**&#x200B;をクリックします。
+     1. **[!UICONTROL Particular branch]**&#x200B;をクリックします。
 
-      1. 広告のサイズを選択。
+     1. 広告のサイズを選択。
 
      <!--
       I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
-      1. クリエイティブターゲットを選択します。
+     1. クリエイティブターゲットを選択します。
 
    * エクスペリエンス内のすべてのクリエイターをプレビューするには、**[!UICONTROL Entire Tree]**&#x200B;をクリックします。
 

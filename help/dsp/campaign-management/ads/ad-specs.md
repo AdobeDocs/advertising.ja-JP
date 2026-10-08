@@ -3,25 +3,31 @@ title: 広告の仕様
 description: 一般的な広告とパブリッシャー固有の広告の仕様を参照します。
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-TQID: https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ
+TQID: 'https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 0%
-
+source-wordcount: '950'
+ht-degree: 1%
 ---
-
 # サポートされる広告タイプの仕様
 
 ## 動画広告（プレロール、CTV、ユニバーサルビデオ）
@@ -70,17 +76,17 @@ ht-degree: 0%
 
 * **検出：**&#x200B;検出の[広告の仕様](/help/dsp/assets/discovery-networks-ad-specs.pdf)を参照してください。
 
-* **ディズニー（含む。 Hulu）:** ディズニーの[広告の仕様](https://www.disneyadvertising.com/mediakit/#specifications)を参照してください。
+* **ディズニー（Huluを含む）:** ディズニーの[広告仕様](https://www.disneyadvertising.com/mediakit/#specifications)を参照してください。
 
 * **HBO Max:** HBO Maxの[広告の仕様](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx)を参照してください。
 
 * **NBCUniversal:**
 
-   * [&#x200B; デジタルビデオ &#x200B;](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
+  * [デジタルビデオ](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
-   * [&#x200B; ライブストリーム &#x200B;](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+  * [ライブストリーム](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
-   * [Peacock](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
+  * [Peacock](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
 * **Paramount:** Paramountの[広告仕様](https://www.paramount.com/digital-ads)を参照してください。
 
@@ -129,35 +135,35 @@ ht-degree: 0%
 #### その他の公開者要件
 
 * **[!DNL iHeartRadio]**
-   * 長さ：5、15、30または60秒
-   * ファイル形式：MP3
-   * 最大ファイルサイズ：320 kbps
-   * 音量：44.1 kHz
+  * 長さ：5、15、30または60秒
+  * ファイル形式：MP3
+  * 最大ファイルサイズ：320 kbps
+  * 音量：44.1 kHz
 
 * **[!DNL Pandora]**
-   * 所要時間：15秒または30秒
-   * ファイル形式：MP4 （アプリ内）、MP3 （デスクトップ）
-   * 最大ファイルサイズ：2.2 MB
+  * 所要時間：15秒または30秒
+  * ファイル形式：MP4 （アプリ内）、MP3 （デスクトップ）
+  * 最大ファイルサイズ：2.2 MB
 
 * **[!DNL SoundCloud]**
-   * 所要時間：6、15、または30秒
-   * ファイル形式：MP3
-   * 最大ファイルサイズ：5 MB
+  * 所要時間：6、15、または30秒
+  * ファイル形式：MP3
+  * 最大ファイルサイズ：5 MB
 
 * **[!DNL Spotify]**
-   * 長さ：最大30秒
-   * ファイル形式：OGG
-   * 最大ファイルサイズ：500 MB
-   * ボリューム：RMSは–14に正規化、dBFS ピークは–0.2 dBFSに正規化
+  * 長さ：最大30秒
+  * ファイル形式：OGG
+  * 最大ファイルサイズ：500 MB
+  * ボリューム：RMSは–14に正規化、dBFS ピークは–0.2 dBFSに正規化
 
 * **[!DNL TargetSpot]**
-   * 所要時間：15秒、30秒、60秒
-   * ファイル形式：MP3
+  * 所要時間：15秒、30秒、60秒
+  * ファイル形式：MP3
 
 * **[!DNL TuneIn]**
-   * 所要時間：10、15、または30秒
-   * ファイル形式：MP3、OGG
-   * 音量：44.1 kHz
+  * 所要時間：10、15、または30秒
+  * ファイル形式：MP3、OGG
+  * 音量：44.1 kHz
 
 ### コンパニオンバナー広告の要件（オプション）
 
@@ -166,29 +172,29 @@ ht-degree: 0%
 #### その他の公開者要件
 
 * **[!DNL iHeartRadio]:**
-   * ファイル形式：JPEG、JPG、PNG、GIF、SWF、HTML
-   * 最大ファイルサイズ：2.2 MB
-   * 寸法：300x250
+  * ファイル形式：JPEG、JPG、PNG、GIF、SWF、HTML
+  * 最大ファイルサイズ：2.2 MB
+  * 寸法：300x250
 
 * **[!DNL Pandora]:**
-   * ファイル形式：JPEG、GIF
-   * 最大ファイルサイズ：サイズ：100 KB
-   * 寸法：300x250 （モバイルまたはデスクトップ）、または500x500 （デスクトップ）
+  * ファイル形式：JPEG、GIF
+  * 最大ファイルサイズ：サイズ：100 KB
+  * 寸法：300x250 （モバイルまたはデスクトップ）、または500x500 （デスクトップ）
 
 * **[!DNL SoundCloud]:**
-   * ファイル形式：静的JPG、PNG
-   * 最大ファイルサイズ：400 KB未満
-   * 寸法：1024x1024
+  * ファイル形式：静的JPG、PNG
+  * 最大ファイルサイズ：400 KB未満
+  * 寸法：1024x1024
 
 * **[!DNL Spotify]:**
-   * ファイル形式：静的JPG、PNG
-   * 最大ファイルサイズ：200 KB
-   * 寸法：300x250
+  * ファイル形式：静的JPG、PNG
+  * 最大ファイルサイズ：200 KB
+  * 寸法：300x250
 
 * **[!DNL TuneIn]:**
-   * ファイル形式：JPEG、JPG、PNG、GIF、HTML
-   * 最大ファイルサイズ：2 MB
-   * 寸法：300x250
+  * ファイル形式：JPEG、JPG、PNG、GIF、HTML
+  * 最大ファイルサイズ：2 MB
+  * 寸法：300x250
 
 ## ネイティブ広告
 

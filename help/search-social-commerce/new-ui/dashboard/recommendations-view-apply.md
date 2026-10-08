@@ -2,13 +2,17 @@
 title: メディア企業のレコメンデーションとインサイトのサポート
 description: パブリッシャーのレコメンデーションとインサイトの表示と管理のサポートについて説明します。
 feature: Search Recommendations
-source-git-commit: 1328e52509e4111bc0e58412ebf3c3b2de0cb291
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae143aa5-b8d8-5a93-93ab-45e919f0c418
+    internal-label: Search Recommendations
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
-
 ---
-
 # メディア企業のレコメンデーションとインサイトのサポート
 
 *[!DNL Google Ads]と[!DNL Microsoft Advertising] アカウント*

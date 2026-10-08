@@ -3,21 +3,26 @@ title: キャンペーンのパフォーマンスを監視および管理
 description: 各キャンペーンやポートフォリオのパフォーマンスを監視し、目標に合わせて変更を加える方法について説明します。
 exl-id: dad9d218-37ee-4949-ae61-ac91f7723906
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/h2A5-yD17ScGBWJxVC39wfbTBIGhheITAsJ-zEJE6lU
+TQID: 'https://experienceleague.adobe.com/h2A5-yD17ScGBWJxVC39wfbTBIGhheITAsJ-zEJE6lU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 293
+source-wordcount: '293'
 ht-degree: 0%
-
 ---
-
 # 広告ネットワーク施策のパフォーマンスを監視および管理
 
 Adobe アカウントチーム、エージェンシーチーム、または広告主（service level agreementの条件によって異なります）は、各キャンペーンとポートフォリオ（該当する場合）のパフォーマンスを監視し、広告主の目標を達成するために必要に応じて関連するコンポーネントと設定を変更する必要があります。

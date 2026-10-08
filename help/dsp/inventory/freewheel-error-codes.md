@@ -1,28 +1,35 @@
 ---
-title: ' [!DNL FreeWheel] 広告の送信に関するエラーコード'
-description: 広告送信用に返されるエラーコードを [!DNL FreeWheel]に参照します。
+title: '[!DNL FreeWheel]件の広告送信のエラーコード'
+description: 広告送信用に返されるエラーコードを[!DNL FreeWheel]に参照します。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-TQID: https://experienceleague.adobe.com/z2fbEvduZZcevSEsUVLQmIpGKoZp2P2luGI1pmOrbic
+TQID: 'https://experienceleague.adobe.com/z2fbEvduZZcevSEsUVLQmIpGKoZp2P2luGI1pmOrbic'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 641
+source-wordcount: '641'
 ht-degree: 3%
-
 ---
-
 # [!DNL FreeWheel]件の広告送信のエラーコード
 
-失敗した広告の送信に関するエラーメッセージは、Advertising DSPまたは[!DNL FreeWheel]から送信できます。 [!UICONTROL API Response] ダイアログ [[!UICONTROL FreeWheel Status]の](freewheel-check-status.md)列でエラーメッセージを検索します。
+失敗した広告の送信に関するエラーメッセージは、Advertising DSPまたは[!DNL FreeWheel]から送信できます。 [[!UICONTROL FreeWheel Status] ダイアログ &#x200B;](freewheel-check-status.md)の[!UICONTROL API Response]列でエラーメッセージを検索します。
 
 ## Advertising DSPの内部エラー
 
@@ -45,8 +52,8 @@ ht-degree: 3%
 |--- |--- |--- |--- |
 | 401 | 未承認 | アクセス資格情報が正しくないか、見つからないか、無効です。 | Adobeのアカウントチームにお問い合わせください。 |
 | 403 | 禁止 | サーバーはリクエストを理解しましたが、承認を拒否しました。 | Adobeのアカウントチームにお問い合わせください。 |
-| 404 | 見つかりません | リクエストされたリソースは利用できません。 PUT操作でCreative IDが見つからない場合は、404が返されます。 | Adobeのアカウントチームにお問い合わせください。 |
-| 405 | メソッドは許可されていません | リクエストは、そのリソースでサポートされていないリクエストメソッドを使用するリソースで作成されました（例えば、POSTでデータを送信する必要があるメソッドでGETを使用するか、読み取り専用リソースでPUTを使用するなど）。 | Adobeのアカウントチームにお問い合わせください。 |
+| 404 | 見つかりません | リクエストされたリソースは利用できません。 PUT処理でCreative IDが見つからない場合は、404が返されます。 | Adobeのアカウントチームにお問い合わせください。 |
+| 405 | メソッドは許可されていません | リクエストは、そのリソースでサポートされていないリクエストメソッド（例えば、POSTでデータを送信する必要があるメソッドでGETを使用するか、読み取り専用リソースでPUTを使用する）を使用してリソースで作成されました。 | Adobeのアカウントチームにお問い合わせください。 |
 | 408 | 要求タイムアウト | この要求の処理中にタイムアウトが発生しました。 タイムアウトは通常、特定のリソースへの排他的なアクセスのリクエストが同時に発生することが原因です。 | このステータスを受け取ったら、リクエストを再送信します。 問題が解決しない場合は、Adobe アカウントチームにお問い合わせください。 |
 | 422 | 未処理エンティティ | 無効なリソースです。 このエラーは、リクエスト本文が無効であるか、作成または更新されたリソースが無効な場合（取引IDが見つからない場合など）に発生します。 詳しくは、[FreeWheel API 422 エラー](#freewheel-422-errors)を参照してください。 | Adobeのアカウントチームにお問い合わせください。 |
 | 500 | 内部サーバーエラー | API システムエラー。 | Adobeのアカウントチームにお問い合わせください。 |

@@ -4,20 +4,25 @@ description: 新しい検索、ソーシャル、およびCommerce UIで、広�
 feature: Search Bulksheets
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 subfeature_v2:
   - id: e58024d1-d6da-420c-80af-6be211808316
+    internal-label: Bulksheets
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 0%
-
 ---
-
 # （新UI）バルクシートを使用したキャンペーンデータの管理について
 
 バルクシートは、特定の形式のキャンペーンデータを含むファイルで、キャンペーンおよび広告グループの構造データとテキスト広告をすばやく作成または変更するために使用できます。 1つ以上のアカウント、特定のキャンペーンや広告グループ、または特定のテキスト広告、プレースメント、製品グループのデータを含むバルクシートを生成（ダウンロード）できます。 バルクシートを使用して、大規模なデータセットを管理したり、小さな変更を加えたりすることができます。 各広告ネットワークには、異なる情報列が必要です。

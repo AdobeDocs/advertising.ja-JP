@@ -3,25 +3,29 @@ title: 通知を表示
 description: 通知を表示する様々な方法について説明します。
 exl-id: d449937a-02cf-4f4c-8171-da89c914c119
 feature: Search Notifications
-TQID: https://experienceleague.adobe.com/bUv28qmWvYXXv6RZO3mRqQf-rccr1xoXR-Nf7zFGIBY
+TQID: 'https://experienceleague.adobe.com/bUv28qmWvYXXv6RZO3mRqQf-rccr1xoXR-Nf7zFGIBY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 348
+source-wordcount: '342'
 ht-degree: 0%
-
 ---
-
 # 通知を表示
 
 *Beta機能*
 
-アカウント認証エラー、トリガーされるカスタムアラート、生成される[に関する通知](notification-edit.md)購読している場合は、[!UICONTROL Advertising Insights] パネルまたは[!UICONTROL Notifications]で通知を表示できます。[!UICONTROL Notification Center]
+アカウント認証エラー、トリガーされるカスタムアラート、生成される[!UICONTROL Advertising Insights]に関する通知[購読している場合は、[!UICONTROL Notifications] パネルまたは[!UICONTROL Notification Center]で通知を表示できます。](notification-edit.md)
 
 ## [!UICONTROL Notifications] パネル内の通知の表示
 

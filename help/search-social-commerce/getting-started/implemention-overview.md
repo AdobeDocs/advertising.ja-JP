@@ -3,23 +3,30 @@ title: Search, Social, & Commerce導入の概要
 description: ポートフォリオを起動および管理するための一般的なワークフローについて説明します。
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-TQID: https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY
+TQID: 'https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 54967645-9f46-5896-8af7-b943b426aadf
+    internal-label: Search Getting Started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 0%
-
 ---
-
 # Search, Social, &amp; Commerce導入の概要
 
 [!DNL Adobe]またはそのアフィリエイトエージェンシーは、各広告主と協力してオンライン広告ポートフォリオを立ち上げ、追加の広告キャンペーンを追跡します。 最初のローンチ後、継続的な追加作業により、広告主の目標を継続的に達成できます。
@@ -106,16 +113,16 @@ Search, Social, &amp; Commerceを実装および使用するための一般的�
 
 * ポートフォリオの実際および予測されるパフォーマンスと成長の機会に基づいて、必要に応じて、ポートフォリオセットの管理に使用する様々な戦略と設定を調整します。
 
-   * ポートフォリオ予算、目的、その他の設定を調整します。
+  * ポートフォリオ予算、目的、その他の設定を調整します。
 
-   * マーケティング戦略の変更に対応するために、アカウント/キャンペーン構造を調整します。
+  * マーケティング戦略の変更に対応するために、アカウント/キャンペーン構造を調整します。
 
-   * キャンペーンコンポーネントの追加/一時停止/削除。 これには、検索語句分析に基づくキーワードセットの拡張や、広告コピーとランディングページのテストなどが含まれます。
+  * キャンペーンコンポーネントの追加/一時停止/削除。 これには、検索語句分析に基づくキーワードセットの拡張や、広告コピーとランディングページのテストなどが含まれます。
 
-   * 高度なパフォーマンスレポートにもとづいて、位置情報およびサイトターゲティング戦略を更新できます。
+  * 高度なパフォーマンスレポートにもとづいて、位置情報およびサイトターゲティング戦略を更新できます。
 
-   * （オプション）個々の検索キーワードまたは広告グループ、キャンペーン、ポートフォリオ内のすべてのキーワードに入札制限を追加します。
+  * （オプション）個々の検索キーワードまたは広告グループ、キャンペーン、ポートフォリオ内のすべてのキーワードに入札制限を追加します。
 
-   * 新しいポートフォリオを追加します。
+  * 新しいポートフォリオを追加します。
 
 ポートフォリオの監視とポートフォリオ戦略の調整の手順については、Search, Social, &amp; Commerce内の任意のページの右上にある[!UICONTROL Help] メニュー（![&#x200B; ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から利用できるヘルプサブチャプター「最適化」/「ポートフォリオの管理」/「パフォーマンスの監視と管理」を参照してください。

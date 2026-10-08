@@ -4,24 +4,31 @@ description: ビジネス目標を達成する方法を解説します。
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
-TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
+autotag-review: '2026-04-14T00:06:19.870Z'
+TQID: 'https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-autotag-review: '2026-04-14T00:06:19.870Z'
-source-git-commit: 604fb0c3541ba9c3b1fdb1c3cae5464bfcf67d4d
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # （新しいUI）目的について
 
 <!-- no subfeature tag for objectives -->
@@ -34,7 +41,7 @@ ht-degree: 0%
 
 * DSPでは、目標は、Search、Social、およびCommerce アカウントにリンクされているDSP アカウントのカスタム目標として表示されます。 最適化目標「広告費用対効果（ROAS）の最大化」または「顧客獲得単価（CPA）」を使用する各パッケージには、全体的な最適化目標の達成に役立つカスタム目標が含まれている必要があります。
 
-目的は、追跡および最適化されるコンバージョン指標と、これらの指標の相対的な重みによって構成されます。 例えば、2つのオンライン購読レベルと1つの印刷物の購読レベルを持つオンライン雑誌で、目的の「利益を最大化」が3つの指標を持つとします。20米ドルの「基本的なオンライン購読」、40米ドルの「プレミアムオンライン購読」、30米ドルの「印刷物の購読」です。 雑誌が購読の1回限りの金銭的価値に応じて重みを与えたい場合、指標の相対的な重みはそれぞれ1、2、および1.5になります。
+目的は、追跡および最適化されるコンバージョン指標と、これらの指標の相対的な重みによって構成されます。 例えば、2つのオンライン購読レベルと1つの印刷購読レベルを持つオンラインマガジンで、「収益を最大化」という目標が3つの指標を持つとします。20 USDの「基本的なオンライン購読」、40 USDの「プレミアムオンライン購読」、30 USDの「印刷購読」です。 雑誌が購読の1回限りの金銭的価値に応じて重みを与えたい場合、指標の相対的な重みはそれぞれ1、2、および1.5になります。
 
 目的の各指標について、次のことができます。
 
@@ -64,11 +71,11 @@ ht-degree: 0%
 
 * [!DNL Google]指標：<!-- Search only, or might DSP-only clients also have these? -->
 
-   * 同期した[!DNL Google Ads] アカウントから[[!DNL Google Ads]件のトラッキングされたコンバージョン &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)。
+  * 同期した[!DNL Google Ads] アカウントから[[!DNL Google Ads]件のトラッキングされたコンバージョン &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)。
 
-   * （統合[[!DNL Google Analytics] の広告主](/help/search-social-commerce/admin/data-sources/data-source-about.md)） ページビュー、セッション、直帰率（バウンス/セッションとして計算）、セッション時間。
+  * （統合[[!DNL Google Analytics] の広告主](/help/search-social-commerce/admin/data-sources/data-source-about.md)） ページビュー、セッション、直帰率（バウンス/セッションとして計算）、セッション時間。
 
-     Search, Social, &amp; Commerceでは、これらの指標は自動的にポートフォリオ入札アルゴリズムに組み込まれます。
+    Search, Social, &amp; Commerceでは、これらの指標は自動的にポートフォリオ入札アルゴリズムに組み込まれます。
 
 ## 広告ネットワークに目的をアップロードするオプション
 

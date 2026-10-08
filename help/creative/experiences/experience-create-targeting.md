@@ -3,22 +3,29 @@ title: 決定木ターゲティングによるエクスペリエンスの作成
 description: 意思決定ツリーを使用して、ターゲット広告エクスペリエンスを作成する方法を説明します。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-TQID: https://experienceleague.adobe.com/nxegtoNEqfAk7LUyb-3qD6YJYaGfx3M3QdrLx-q5y14
+TQID: 'https://experienceleague.adobe.com/nxegtoNEqfAk7LUyb-3qD6YJYaGfx3M3QdrLx-q5y14'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '629'
 ht-degree: 0%
-
 ---
-
 # 決定木ターゲティングによるエクスペリエンスの作成
 
 デジジョンツリーを使用して、ターゲットを絞った広告体験を構築。 各エクスペリエンスでは、単一のクリエイティブライブラリの広告を使用します。
@@ -50,23 +57,23 @@ ht-degree: 0%
 
       * 目標：
 
-         * [最終レベル &#x200B;](experience-target-node-add-final.md)にターゲットノードを追加します。
+        * [最終レベル &#x200B;](experience-target-node-add-final.md)にターゲットノードを追加します。
 
-         * [&#x200B; ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)。
+        * [&#x200B; ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)。
 
-         * [&#x200B; ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)。
+        * [&#x200B; ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)。
 
-         * [子ノードとクリエイターを同じレベルの別のノードにコピー](experience-target-node-copy.md)。
+        * [子ノードとクリエイターを同じレベルの別のノードにコピー](experience-target-node-copy.md)。
 
       * Creative バンドル：
 
-         * [&#x200B; クリエイターを最終ノードに割り当て解除](experience-assign-creative-bundles.md)。
+        * [&#x200B; クリエイターを最終ノードに割り当て解除](experience-assign-creative-bundles.md)。
 
-           最後のノードごとに少なくとも1つのバンドルを割り当てない場合は、エクスペリエンスを保存するときに、割り当てられていないノードごとにデフォルトのクリエイティブを使用することを選択できます。 エクスペリエンスを公開するには、バンドルを割り当てるか、最終的なノードごとにデフォルトのクリエイターを使用する必要があります。
+          最後のノードごとに少なくとも1つのバンドルを割り当てない場合は、エクスペリエンスを保存するときに、割り当てられていないノードごとにデフォルトのクリエイティブを使用することを選択できます。 エクスペリエンスを公開するには、バンドルを割り当てるか、最終的なノードごとにデフォルトのクリエイターを使用する必要があります。
 
-         * [割り当てられたバンドルのクリエイティブの最適化とスケジュール &#x200B;](experience-optimization-scheduling-targeting.md)をカスタマイズします。
+        * [割り当てられたバンドルのクリエイティブの最適化とスケジュール &#x200B;](experience-optimization-scheduling-targeting.md)をカスタマイズします。
 
-         * [割り当てられたバンドル内のクリエイティブのトラッキング URLをカスタマイズする](experience-tracking-urls-targeting.md)。
+        * [割り当てられたバンドル内のクリエイティブのトラッキング URLをカスタマイズする](experience-tracking-urls-targeting.md)。
 
 1. （オプション）決定ツリーと一般設定を切り替えます。
 
@@ -80,13 +87,13 @@ ht-degree: 0%
 
    * （最下位レベルの各ノードに少なくとも1つのクリエイティブバンドルが含まれていない場合）次のいずれかの操作を行います。
 
-      * 必要なすべてのクリエイティブ バンドルを含まないエクスペリエンスを保存するには、**[!UICONTROL Save as Draft]**&#x200B;をクリックします。
+     * 必要なすべてのクリエイティブ バンドルを含まないエクスペリエンスを保存するには、**[!UICONTROL Save as Draft]**&#x200B;をクリックします。
 
-        [&#x200B; ドラフト &#x200B;](experience-about.md#experience-statuses) エクスペリエンスの広告タグを作成することはできません。
+       [&#x200B; ドラフト &#x200B;](experience-about.md#experience-statuses) エクスペリエンスの広告タグを作成することはできません。
 
-      * クリエイティブバンドルがまだ割り当てられていない各ターゲットにデフォルトのクリエイティブを割り当てるには、**[!UICONTROL Assign Default Creatives]**&#x200B;をクリックします。 デフォルトのクリエイターが割り当てられている更新されたツリーを確認したら、「**[!UICONTROL Save]**」と「**[!UICONTROL OK]**」をクリックします。
+     * クリエイティブバンドルがまだ割り当てられていない各ターゲットにデフォルトのクリエイティブを割り当てるには、**[!UICONTROL Assign Default Creatives]**&#x200B;をクリックします。 デフォルトのクリエイターが割り当てられている更新されたツリーを確認したら、「**[!UICONTROL Save]**」と「**[!UICONTROL OK]**」をクリックします。
 
-      * 決定ツリーの編集を続行するには、**[!UICONTROL Continue Edit]**&#x200B;をクリックします。
+     * 決定ツリーの編集を続行するには、**[!UICONTROL Continue Edit]**&#x200B;をクリックします。
 
 エクスペリエンスがライブになると、[!DNL Creative]は、該当するクリエイティブサイズまたはビデオのデュレーションごとに1つの広告タグを自動的に作成します。 その後、[広告タグを書き出して、DSP](/help/creative/experiences/experience-tag-export.md)に実装できます。
 

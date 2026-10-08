@@ -1,24 +1,35 @@
 ---
 title: '[!DNL Microsoft Advertising] コンバージョンデータ'
-description: Search, Social, & Commerceで利用できる [!DNL Microsoft Advertising]追跡されたコンバージョンデータの種類について説明します。
+description: Search, Social, & Commerceで利用できる[!DNL Microsoft Advertising] トラッキングされたコンバージョンデータの種類について説明します。
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-TQID: https://experienceleague.adobe.com/ZK-uDqw0sThnMzX6bdR-d33gh-AlLTaytJr1fS7pdgs
+TQID: 'https://experienceleague.adobe.com/ZK-uDqw0sThnMzX6bdR-d33gh-AlLTaytJr1fS7pdgs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 629
+source-wordcount: '646'
 ht-degree: 0%
-
 ---
-
 # Search, Social, &amp; Commerceの[!DNL Microsoft Advertising] コンバージョンデータ
 
 Search, Social, &amp; Commerceは、[[!DNL Microsoft Advertising]  ユニバーサルイベントトラッキング（UET）タグ &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/53056)によって追跡されたすべてのコンバージョンを、ビュースルーコンバージョンを含むweb サイトコンバージョン用に自動的に同期し、レポートと最適化を行います。
@@ -49,7 +60,7 @@ Search, Social, &amp; Commerceは、[[!DNL Microsoft Advertising]  ユニバー�
 
 >[!NOTE]
 >
->* 同じコンバージョン名を持つ複数のアカウントがある場合、Adobe Advertisingでコンバージョン名が重複する場合があります。 この問題が発生した場合は、[&#x200B; > &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)の重複する指標の1つに対して、[!UICONTROL Admin]表示名[!UICONTROL Conversions]を変更します。 2つの異なる指標が同じ名前を持つ場合、レポートは正確ではありません。
+>* 同じコンバージョン名を持つ複数のアカウントがある場合、Adobe Advertisingでコンバージョン名が重複する場合があります。 この問題が発生した場合は、[!UICONTROL Admin] > [!UICONTROL Conversions]の重複する指標の1つに対して、[表示名](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)を変更します。 2つの異なる指標が同じ名前を持つ場合、レポートは正確ではありません。
 >* 入札単位レベルのデータは、広告ネットワークのデータと同じレベルのデータと一致します。 しかし、より高いレベルの広告ネットワーク独自のコンバージョンデータには、子入札単位に起因しない追加のコンバージョンが含まれる場合があります。 Search, Social, &amp; Commerceのデータは常に入札単位レベルからロールアップされるため、例えば、キャンペーンレベルのレポートは、広告ネットワークのキャンペーンレベルのレポートと同じ合計が表示されない場合があります。
 >* 通常、追加のコンバージョンがまだ同期されていない場合、朝の同期後よりもデータの分散が少なくなります。 午前中にデータを検証することをお勧めします。
 >* データはオーディエンスや地理的な場所レベルでは利用できないため、RLSAや場所の入札調整の自動最適化には使用されません。

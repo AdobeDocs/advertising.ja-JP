@@ -1,22 +1,29 @@
 ---
-title: ' [!DNL Google Ads]のコンバージョンタグを作成'
-description: ' [!DNL Google Ads]  コンバージョンタグの作成方法について説明します。'
+title: '[!DNL Google Ads]のコンバージョンタグを作成'
+description: '[!DNL Google Ads] コンバージョンタグの作成方法について説明します。'
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-TQID: https://experienceleague.adobe.com/pskBpQ12sQXj9RyLd3IQAG0MktlOvV2JvZBl5rGtQT0
+TQID: 'https://experienceleague.adobe.com/pskBpQ12sQXj9RyLd3IQAG0MktlOvV2JvZBl5rGtQT0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: '436'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]のコンバージョンタグを作成
 
 マネージャーのアカウントレベルで追跡するのではなく、個々の[!DNL Google Ads] アカウントで追跡する新しいコンバージョンのコンバージョンタグを作成できます。
@@ -39,7 +46,7 @@ ht-degree: 0%
 
 1. コンバージョンタグをコピーし、コンバージョン指標を追跡するweb サイトに実装します。
 
-   「[!DNL Google]2」の[!DNL Google Ads] ヘルプの「[&#x200B; タグのインストール」を参照してください。 Google タグ &#x200B;](https://support.google.com/google-ads/answer/12215519)を設定します。」
+   「[2」の[!DNL Google Ads] ヘルプの「[!DNL Google] タグのインストール」を参照してください。 Google タグ &#x200B;](https://support.google.com/google-ads/answer/12215519)を設定します。」
 
 1. **[!UICONTROL Done].**&#x200B;をクリックします
 

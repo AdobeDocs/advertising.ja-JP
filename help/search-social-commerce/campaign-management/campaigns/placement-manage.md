@@ -1,28 +1,33 @@
 ---
-title: ' [!DNL Google Ads]  プレースメントを管理'
-description: ' [!DNL Google Ads] 広告グループの入札可能なプレースメントを作成および管理する方法について説明します。'
+title: '[!DNL Google Ads]件のプレースメントを管理'
+description: '[!DNL Google Ads]広告グループの入札可能なプレースメントを作成および管理する方法について説明します。'
 exl-id: 80cb6fc6-e778-4b19-9e52-e0b57bde0d73
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/rvRv9LNnt-HX4u3hCsdhqbcl3XdNRvhLCqlVrX-tbm8
+TQID: 'https://experienceleague.adobe.com/rvRv9LNnt-HX4u3hCsdhqbcl3XdNRvhLCqlVrX-tbm8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 367
+source-wordcount: '368'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]件のプレースメントを管理
 
 *[!DNL Google Ads]アカウントのみ*
 
-[同期広告ネットワークアカウント &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)内の表示ネットワークをターゲットとする[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)の広告グループのプレースメントを作成および編集できます
+[同期広告ネットワークアカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)内の表示ネットワークをターゲットとする[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)の広告グループのプレースメントを作成および編集できます
 
 ## [!DNL Google Ads]個のプレースメントを作成
 
@@ -69,7 +74,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Placement Details]
 
-**[!UICONTROL Placements]:**：広告を表示できるコンテンツネットワーク上のサイト。 www.example.com、example.com、www.example.com/shoes/kidsなどの有効なURLを入力します。 複数の文字列を指定するには、それらをコンマで区切るか、別々の行に入力します。 URLに疑問符（`?`）を含めることはできません。 **メモ：** Web サイトのプレースメント [を](placement-negative-create.md) > [!UICONTROL Placements] ビューから除外し、広告グループおよびキャンペーン設定で除外できます。[!UICONTROL Negatives]
+**[!UICONTROL Placements]:**：広告を表示できるコンテンツネットワーク上のサイト。 www.example.com、example.com、www.example.com/shoes/kidsなどの有効なURLを入力します。 複数の文字列を指定するには、それらをコンマで区切るか、別々の行に入力します。 URLに疑問符（`?`）を含めることはできません。 **メモ：** Web サイトのプレースメント [&#128279;](placement-negative-create.md)を[!UICONTROL Placements] > [!UICONTROL Negatives] ビューから除外し、広告グループおよびキャンペーン設定で除外できます。
 
 **[!UICONTROL Status]:** プレースメントの表示ステータス：*アクティブ* （入札を有効にする場合、デフォルト）、*一時停止* （入札を無効にする場合）、または&#x200B;*削除* （プレースメントを削除する場合、既存のプレースメントのみ）。
 

@@ -3,21 +3,26 @@ title: ADOBE ADVERTISINGのコンバージョンおよびページビューの�
 description: Adobe Advertisingのコンバージョンタグとページビューのトラッキングタグの比較を参照してください。
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/ckLRjqXGTShwM2TTyULRKjPwL5RYVWkiVVSkwMmvxE8
+TQID: 'https://experienceleague.adobe.com/ckLRjqXGTShwM2TTyULRKjPwL5RYVWkiVVSkwMmvxE8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 45b15880c20d516e4bab1ec664a45ebdf8ffbdcc
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 327
+source-wordcount: '327'
 ht-degree: 0%
-
 ---
-
 # ADOBE ADVERTISINGのコンバージョンおよびページビューのトラッキングタグに関するFAQ
 
 以下は、Adobe Advertising コンバージョントラッキングタグおよびページビュートラッキングタグに適用されます。
@@ -35,7 +40,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 新しい実装では、すべてJavaScript バージョン 3を使用します。
->* ECIDを持つJavaScript タグは、[Adobe Experience Cloud ID （ECID） サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)と、従来のef_idおよびgsurferidを使用して、コンバージョンを測定します。 この最新のタグは、[&#x200B; ファーストパーティ CX Enterprise s_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=ja)を作成し、他のCX Enterprise製品との緊密な統合を提供します。
+>* ECIDを持つJavaScript タグは、[Adobe Experience Cloud ID （ECID） Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ja)と、従来のef_idおよびgsurferidを使用して、コンバージョンを測定します。 この最新のタグは、[&#x200B; ファーストパーティ CX Enterprise s_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=ja)を作成し、他のCX Enterprise製品との緊密な統合を提供します。
 >* JavaScript バージョン 2のタグは、広告主のweb ページにタグが既に実装されている場合にのみ使用します。
 >* ベストプラクティスは、サイトが画像タグの使用に対するポリシーを持っていない限り、画像タグの代わりにJavaScript タグを使用することです。
 >* JavaScript タグは、Adobe CX Enterpriseで作成されたオーディエンス、Adobe Audience Managerで作成されたオーディエンス、Audience ManagerまたはAdobe AnalyticsからAdobe CX Enterpriseに公開されたオーディエンスをターゲットにする広告主に必要です。

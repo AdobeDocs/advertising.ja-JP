@@ -3,22 +3,26 @@ title: プレースメントの重複
 description: 1つ以上のプレースメントを複製する方法について説明します。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-TQID: https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM
+TQID: 'https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '445'
 ht-degree: 0%
-
 ---
-
 # プレースメントの重複
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
@@ -44,9 +48,9 @@ ht-degree: 0%
 
    * 複数の配置を複製するには：
 
-      1. 複製する各プレースメントの横にあるチェックボックスをオンにします。
+     1. 複製する各プレースメントの横にあるチェックボックスをオンにします。
 
-      1. 一括操作ツールバーで、**[!UICONTROL Duplicate]**&#x200B;をクリックします。
+     1. 一括操作ツールバーで、**[!UICONTROL Duplicate]**&#x200B;をクリックします。
 
 1. 新しい配置設定を指定します。
 
@@ -74,10 +78,10 @@ ht-degree: 0%
 * （広告を添付しない場合） カスタム広告の重み付けとスケジュール設定
 * プログラマティック保証（PG）取引のデフォルトのプレースメントと[!UICONTROL Simple Ad Serving]取引のプレースメント
 * （プレースメントを別のキャンペーンにコピーした場合）:
-   * 地域ターゲット
-   * イベントピクセル
-   * 広告
-   * プレースメントレベル [!DNL DoubleVerify Authentic Brand Suitability] セグメント （広告主レベルのセグメントを上書きする）
+  * 地域ターゲット
+  * イベントピクセル
+  * 広告
+  * プレースメントレベル [!DNL DoubleVerify Authentic Brand Suitability] セグメント （広告主レベルのセグメントを上書きする）
 
 ## 新しいプレースメントを設定するためのベストプラクティス
 
@@ -90,19 +94,19 @@ ht-degree: 0%
 
 * 次の点を考慮し、必要に応じて新しいプレースメントを編集します。
 
-   * アカウントには、新しいプレースメント予算に対応するのに十分な資金がありますか？
+  * アカウントには、新しいプレースメント予算に対応するのに十分な資金がありますか？
 
-   * 新しいプレースメントには、以前のプレースメントとは異なる予算が必要ですか？ 最低予算は必要ですか？
+  * 新しいプレースメントには、以前のプレースメントとは異なる予算が必要ですか？ 最低予算は必要ですか？
 
-   * 必要なカスタム広告の重み付けやスケジュールなどを含むクリエイティブをアップロードし、プレースメントに添付します。
+  * 必要なカスタム広告の重み付けやスケジュールなどを含むクリエイティブをアップロードし、プレースメントに添付します。
 
-   * 必要に応じて、イベントピクセルをプレースメントと広告に添付します。
+  * 必要に応じて、イベントピクセルをプレースメントと広告に添付します。
 
-   * プレースメントに必要に応じて、地理的ターゲットとプレースメントレベル [!DNL DoubleVerify Authentic Brand Suitability]のセグメントを含めます。
+  * プレースメントに必要に応じて、地理的ターゲットとプレースメントレベル [!DNL DoubleVerify Authentic Brand Suitability]のセグメントを含めます。
 
-   * プログラマティックな保証取引の場合は、新しい取引IDを使用して、デフォルトのプレースメントを作成します。
+  * プログラマティックな保証取引の場合は、新しい取引IDを使用して、デフォルトのプレースメントを作成します。
 
-   * 必要に応じて、[!UICONTROL Simple Ad Serving]件の取引用に新しいプレースメントを作成します。
+  * 必要に応じて、[!UICONTROL Simple Ad Serving]件の取引用に新しいプレースメントを作成します。
 
 >[!MORELIKETHIS]
 >

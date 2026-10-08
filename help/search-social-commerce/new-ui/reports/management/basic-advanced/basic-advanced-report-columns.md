@@ -2,13 +2,21 @@
 title: 基本レポートと詳細レポートのレポート列
 description: 基本レポートと詳細レポートで使用できるデータ列について説明します。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '3992'
+source-wordcount: '4023'
 ht-degree: 0%
-
 ---
-
 # 基本レポートと詳細レポートのレポート列
 
 | 列 | 説明 |
@@ -92,7 +100,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Titles] | （マルチメディアおよびレスポンシブ検索広告の場合のみ）広告の短い見出し（「[!UICONTROL Creative Title]」～「[!UICONTROL Creative Title15]」）ごとに列を追加します。 この列を含める場合、他の[!UICONTROL Creative Title]列を含める必要はありませんが、[!UICONTROL Order Results/Limit Rows By] セクションを編集して、[!UICONTROL Creative Title]ではなく[!UICONTROL Creative Titles]で並べ替えます。 |
 | [!UICONTROL Creative Type] | 広告のフォーマット： 次の値が可能です：<i>[!UICONTROL App Install Ad]</i>、<i>[!UICONTROL Call Only Ad]</i>、<i>[!UICONTROL Demand Gen Carousel Ad]</i> （マルチイメージカルーセル広告）、<i>[!UICONTROL Demand Gen Image Ad (single-image ads)]</i>、<i>[!UICONTROL Demand Gen Product Ad]</i>、および<i>[!UICONTROL Demand Gen Video Ad]</i>、<i>[!UICONTROL Display Ad]</i>、<i>[!UICONTROL Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Text Ad]</i>、<i>[!UICONTROL Legacy Text Ad]</i>、<i>[!UICONTROL Multimedia Ad]</i>、<i>[!UICONTROL Product Ad]</i>、<i>[!UICONTROL Responsive Ad]</i>、<i>[!UICONTROL Responsive Search Ad]</i>、または<i>[!UICONTROL Text Ad]</i>。 |
 | [!UICONTROL CTR] | クリックスルー率：クリック数を、含まれている広告のインプレッション数で割った値です。 |
-| [!UICONTROL Currency] | 該当する通貨タイプ（「USD」または「GBP」など）。<br><br><b>注意：</b> レポートに異なる通貨を持つアカウントのデータが含まれている場合、「[!UICONTROL Total]」の金銭的価値は、通貨に関係なく、列のすべての数値の合計になります。 |
+| [!UICONTROL Currency] | 該当する通貨の種類（「USD」や「GBP」など）。<br><br><b>注意：</b> レポートに異なる通貨を持つ口座のデータが含まれている場合、「[!UICONTROL Total]」の金銭的価値は、通貨に関係なく、列のすべての数値の合計になります。 |
 | [!UICONTROL Current Bid] | ターゲットの現在の入札額。 |
 | [!UICONTROL Current First Page Bid] | （[!DNL Google Ads] キャンペーンのみ） [!DNL Google]検索クエリがキーワードと一致する場合に、検索結果の最初のページに広告を配置するために現在必要なクリック単価（CPC）の見積もり入札。<br><br>単一のキーワードと一致タイプの組み合わせの場合、この値は、現在その組み合わせに必要な最初のページ入札です。 同じキーワードと一致タイプの組み合わせを複数のキャンペーンで使用する場合、この値は、すべてのインスタンスで現在必要な最初のページ入札の最小値です。 |
 | [!UICONTROL Current Quality Score] | （[!DNL Google Ads]および[!DNL Microsoft Advertising] キャンペーンのみ）広告ネットワークによって指定された、キーワードまたは入札単位の現在の品質スコア。 範囲は1 （低）から10 （完全）です。 単一のキーワードと一致タイプの組み合わせの場合、この値はその組み合わせの現在のスコアです。 複数のキャンペーンで同じキーワードと一致タイプの組み合わせが使用されている場合、この値は、すべてのインスタンス間の最大の現在のスコアです。<br><br>広告ネットワークは、入札価格と広告掲載順位を決定するために品質スコアを使用します。 キーワードと関連する広告の関連性、利用者の検索クエリ、ランディングページの品質など、多くの要因にもとづいて計算されます。 [!DNL Google Ads]のキーワードの場合は、キーワードのクリック率も考慮され、[!DNL Microsoft Advertising]のキーワードの場合は、ランディングページが提供するユーザーエクスペリエンスも考慮されます。 |
@@ -172,7 +180,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group Status] | 製品グループのステータス。 |
 | [!UICONTROL Product Groupings] | 親製品グループ。 |
 | [!UICONTROL Product ID] | （[!UICONTROL Keyword Report]; [!DNL Google Ads]製品リスト広告）広告に表示された製品の製品ID。<br><br><b>注：</b>製品リストにトラッキングパラメーター`ev_plx=<GMC product ID>`が含まれている場合にのみIDがキャプチャされます。このパラメーターは[!DNL Google Merchant Center]以内に追加する必要があります。 |
-| [!UICONTROL Raw Transaction Data] | （[!UICONTROL Transaction Report]） コンバージョン指標の収益（1件の登録では1件、12米ドルの注文では12件など）。 複数の入札単位が同じトランザクション IDを持つ場合、トラッキング IDの収益は、指定したクリック日のクリック数（クリックデータが使用可能な場合）に応じて分割されます。 |
+| [!UICONTROL Raw Transaction Data] | （[!UICONTROL Transaction Report]）コンバージョン指標の収益（1件の登録の場合は1件、12件のUSD注文の場合は12件など）。 複数の入札単位が同じトランザクション IDを持つ場合、トラッキング IDの収益は、指定したクリック日のクリック数（クリックデータが使用可能な場合）に応じて分割されます。 |
 | [!UICONTROL Reach] | （[!DNL Meta] キャンペーンのみ）少なくとも1回は広告を見たユーザーの数。 注意：[!DNL Meta]では、ユーザープロファイルのリーチが毎日重複しているため、[!DNL Meta]とSearch, Social, &amp; Commerceで報告される数値は異なる場合があります。 |
 | [!UICONTROL Region] | （[!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]） インプレッションまたはクリックが発生した地域または米国/カナダの州。 それはユーザーのIP アドレスから決まります。 |
 | [!UICONTROL SE Creative ID] | ネットワークによって割り当てられた広告ID。 |

@@ -1,22 +1,28 @@
 ---
 title: '[!DNL Google Ads] キャンペーン設定'
-description: ' [!DNL Google Ads]  キャンペーンの設定を参照します。'
+description: '[!DNL Google Ads] キャンペーンの設定を参照します。'
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3057
+source-wordcount: '3058'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] キャンペーン設定
 
 ## \[ ページの先頭]
@@ -425,7 +431,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 >
 >キャンペーンがハイブリッドポートフォリオの一部である場合、ベストプラクティスは、ポートフォリオの目的のコンバージョン目標に一致するキャンペーンレベルの目標を使用することです。追加のコンバージョン目標を含めると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
 >
->ただし、[目標を広告ネットワーク &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md)にアップロードするハイブリッドポートフォリオのキャンペーンの場合は、ここで代わりに広告ネットワークのエディター内で次の操作を行います。a）アップロードされた検索、ソーシャル、およびCommerce ポートフォリオの目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョンアクションとして追加し、b）広告目標を追跡した指標が目的を広告ネットワークにアップロードされないため、[!DNL Google]追跡コンバージョンが含含まれます。
+>ただし、[目標を広告ネットワーク &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md)にアップロードするハイブリッドポートフォリオのキャンペーンの場合は、ここで設定する代わりに、広告ネットワークのエディター内で次の操作を行います。a）アップロードされた検索、ソーシャル、およびCommerce ポートフォリオの目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョンアクションとして追加し、b）広告目標を追跡した指標が広告ネットワークにアップロードされないため、[!DNL Google] コンバージョンが追加されます。
 
 ### [!UICONTROL Set Customer Acquisition Goal]
 

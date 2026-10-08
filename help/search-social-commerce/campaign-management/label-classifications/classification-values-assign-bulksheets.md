@@ -3,18 +3,21 @@ title: バルクシートを使用して、アカウントコンポーネント�
 description: バルクシートを使用して、アカウントコンポーネントに分類値を割り当てる方法を説明します。
 exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-TQID: https://experienceleague.adobe.com/zLEy6MglSGlf6WnoO2oEgSdPLwlp-5cBdmxi-XXiv5g
+TQID: 'https://experienceleague.adobe.com/zLEy6MglSGlf6WnoO2oEgSdPLwlp-5cBdmxi-XXiv5g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
 # バルクシートを使用して、アカウントコンポーネントに分類値を割り当て
 
 ラベル分類を、キャンペーン、広告グループ、キーワード、広告、プレースメント、単位レベルの製品グループ、動的検索ターゲットなどのバルクシートを使用して、次の検索エンティティの値に関連付けることができます。 各ラベル分類には、最大2000個の値を指定できます。
@@ -29,7 +32,7 @@ ht-degree: 0%
 
 1. [&#x200B; ラベル分類値を割り当てるエンティティを含むバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)をダウンロードします。
 
-   * [!UICONTROL Rows and Columns] タブで、[!UICONTROL Campaign] ペインの[!UICONTROL Bulksheet Columns] リストを展開します。
+   * [!UICONTROL Rows and Columns] タブで、[!UICONTROL Bulksheet Columns] ペインの[!UICONTROL Campaign] リストを展開します。
 
    * [!UICONTROL Label Classification] リストを展開します。
 

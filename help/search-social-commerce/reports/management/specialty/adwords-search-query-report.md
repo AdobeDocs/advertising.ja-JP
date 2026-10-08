@@ -3,20 +3,26 @@ title: '[!UICONTROL AdWords Search Query Report]'
 description: '[!UICONTROL AdWords Search Query Report]について説明します。'
 exl-id: cf472731-f9e5-4878-9a83-59f5c022ec69
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/iZ2j7QXg4-u3rfN6gzVZ7CYhgb-k03-GkwJowaaMg4E
+TQID: 'https://experienceleague.adobe.com/iZ2j7QXg4-u3rfN6gzVZ7CYhgb-k03-GkwJowaaMg4E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 186
+source-wordcount: '191'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL AdWords Search Query Report]
 
 *[!DNL Google Ads]アカウントのみ*
@@ -25,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このレポートのデータは、毎日23:00 （午後11:00）の前日に取得されます。 例えば、6月18日の23:00に、6月17日のデータを取得します。 6月18日のデータがプルされる前の6月19日（09:00）にレポートを実行すると、レポートには6月17日（23:00）までのデータが含まれます。
+>報告書用のデータは、前日の午後23時（11時）に取り込まれます。 得ることができます。 例えば、6月18日の23:00に、6月17日のデータを取得します。 6月19日の09:00 （6月18日のデータが取り込まれる前）にレポートを実行すると、レポートには6月17日の23:00までのデータが含まれます。
 
 ## デフォルトの列
 

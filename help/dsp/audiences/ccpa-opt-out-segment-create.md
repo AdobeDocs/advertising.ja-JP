@@ -3,25 +3,35 @@ title: CCPA販売停止セグメントを作成して実装する
 description: 消費者のオプトアウト要求からユーザーIDを追跡するセグメントを作成して実装する方法について説明します。
 feature: CCPA, DSP Segments
 exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
-TQID: https://experienceleague.adobe.com/NYXgnUkEw4uSilL8LO8qlRPp5AVAjXeXNS0pVeIZl3Y
+TQID: 'https://experienceleague.adobe.com/NYXgnUkEw4uSilL8LO8qlRPp5AVAjXeXNS0pVeIZl3Y'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
+  - id: c867fa1b-f589-43fa-b071-3c62f0038f23
+    internal-label: CCPA
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 405
+source-wordcount: '453'
 ht-degree: 0%
-
 ---
-
 # CCPA販売停止セグメントを作成して実装する
 
 カリフォルニア州消費者プライバシー法（CCPA）に従って、web サイト上の消費者のオプトアウト要求からユーザーIDを追跡するセグメントを作成できます。 ユーザーはCCPAの販売不可セグメントに無期限で残ります。
@@ -41,7 +51,7 @@ ht-degree: 0%
 
    1. 一意の&#x200B;**[!UICONTROL Segment Name]**&#x200B;を入力してください。
 
-      推奨されるセグメント名：「&lt;*広告主名*> - CCPA オプトアウトの販売」（「Acme - CCPA オプトアウトの販売」など）
+      推奨されるセグメント名：「&lt;*広告主名*> - CCPAが販売停止をオプトアウト」（「Acme - CCPAが販売停止をオプトアウト」など）
 
    1. [!UICONTROL Segment Type]の場合は、**[!UICONTROL CCPA Opt-out of sale]**&#x200B;を選択します。
 

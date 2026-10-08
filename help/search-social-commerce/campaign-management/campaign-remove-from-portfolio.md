@@ -3,20 +3,24 @@ title: ポートフォリオからのキャンペーンの削除
 description: ポートフォリオからキャンペーンを削除する方法を説明します。
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/0fmf5-BIR03Mm2iEU78xdvR-VczJ-i0d0ZpjR8dYYj4
+TQID: 'https://experienceleague.adobe.com/0fmf5-BIR03Mm2iEU78xdvR-VczJ-i0d0ZpjR8dYYj4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3d87bfab8f577b69a86abd0a6b50d07f70ae60a8
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 251
+source-wordcount: '251'
 ht-degree: 0%
-
 ---
-
 # ポートフォリオからのキャンペーンの削除
 
 ポートフォリオから施策を削除すると、Search, Social, &amp; Commerceでは、その施策の入札額、施策の予算、入札戦略の目標を最適化できません。

@@ -8,15 +8,17 @@ product_v2:
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
     internal-label: Search, Social, & Commerce
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
     internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2304'
 ht-degree: 0%
 ---
 # キャンペーンの管理
@@ -70,7 +72,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 1. **[!UICONTROL Create Campaign]**&#x200B;をクリックします。
 
-1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)、または[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)のキャンペーン設定を指定します。
+1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)、[Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)または[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)のキャンペーン設定を指定します。
 
 1. **[!UICONTROL Review and Save]**&#x200B;をクリックします。
 
@@ -106,7 +108,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
    * キャンペーンの横にあるチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、<!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), -->を編集します [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)または[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)のキャンペーン設定。
+1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)、[Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、<!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), -->を編集します [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)または[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)のキャンペーン設定。
 
 1. **[!UICONTROL Review and Save]**&#x200B;をクリックします。
 
@@ -122,7 +124,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 サポートされている広告ネットワークでアクティブなキャンペーンを一時停止して、入札を無効にすることができます。 後でステータスをアクティブに戻すことで、入札を再開できます。
 
-アクティブなキャンペーンまたは一時停止したキャンペーンを削除することもできます。 削除されたキャンペーンは、広告ネットワークから削除されます。 データフィルターに含めても表示されますが、変更することはできません。
+アクティブなキャンペーンまたは一時停止したキャンペーンを削除（[!DNL ChatGPT Ads Manager]内で「アーカイブ」と呼ばれます）することもできます。 削除またはアーカイブされたキャンペーンは、広告ネットワークから削除またはアーカイブされます。 データフィルターに含めても表示されますが、変更することはできません。
 
 ### キャンペーンの有効化または一時停止
 
@@ -136,7 +138,7 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
    * アクティブなキャンペーンを一時停止するには、**[!UICONTROL Paused]**&#x200B;を選択します。
 
-### キャンペーンの削除
+### キャンペーンの削除またはアーカイブ
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
@@ -208,6 +210,8 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 ## キャンペーンの入札制約の割り当てを管理 {#campaign-constraints}
 
+*[!DNL ChatGPT Ads]*&#x200B;では利用できません
+
 各エンティティには1つの制約しか設定できません。 制約は子エンティティによって継承されるため、継承された値を上書きしない限り、子エンティティに制約を割り当てる必要はありません。
 
 制約の割り当てを解除すると、アカウントコンポーネントとそのすべての子コンポーネントとの関連付けが削除され、制約のレポートデータはそれらのコンポーネントでは使用できなくなります。 制約の割り当てを解除しても、制約やアカウントコンポーネント自体は削除されません。
@@ -277,6 +281,8 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 1. 確認ダイアログで、**[!UICONTROL Yes, Unassign]**&#x200B;を選択します。
 
 ## キャンペーンのターゲット制約の割り当てを管理 {#campaign-target-constraints}
+
+*[!DNL ChatGPT Ads]*&#x200B;では利用できません
 
 ### 新しい[!UICONTROL Campaigns] ビューから選択したキャンペーンにターゲット制約を割り当てます
 

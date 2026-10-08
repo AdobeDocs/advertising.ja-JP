@@ -3,27 +3,35 @@ title: ユニバーサル IDのアクティブ化のサポート
 description: ユニバーサル ID セグメントのインポート、ユニバーサル IDの追跡のためのカスタムセグメントの作成、ファーストパーティセグメント内の他のユーザーIDのクッキーレスターゲティングのためのユニバーサル IDへの変換のサポートをご紹介します。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-TQID: https://experienceleague.adobe.com/A4fMoTW9gHD1i9Gdg1FALrBlz0XxMqhHOp9YO6kf3BQ
+TQID: 'https://experienceleague.adobe.com/A4fMoTW9gHD1i9Gdg1FALrBlz0XxMqhHOp9YO6kf3BQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1610
+source-wordcount: '1610'
 ht-degree: 0%
-
 ---
-
 # ユニバーサル IDのアクティブ化のサポート
 
 <!-- Once we have CDP support for ID5 and can set up activation via sources, then maybe I can move this info into "About Sources" and "About Audiences." Or maybe make this the go-to page, removing info from those other pages? -->
@@ -94,19 +102,19 @@ Adobe Analytics measurementが利用可能な[!DNL RampID] ベースのセグメ
 
 * 元のパッケージとプレースメントをコピーし、テストのサイズに基づいて予算を調整し、[!DNL RampID] ベースのセグメント （認証済みユーザーの場合）またはID5 ベースのセグメント （未認証ユーザーの場合）を使用するようにオーディエンスを変更し、新しいパッケージとプレースメントが完全な予算を費やしていることを確認します。
 
-   * ユニバーサル ID ベースのセグメントのパフォーマンスと、Cookieやモバイル広告IDなどの他のオーディエンス IDをターゲットとするプレースメントのパフォーマンスを比較するには、別のユニバーサル ID ベースのプレースメントと従来のID ベースのプレースメントを使用したキャンペーンを作成します。
+  * ユニバーサル ID ベースのセグメントのパフォーマンスと、Cookieやモバイル広告IDなどの他のオーディエンス IDをターゲットとするプレースメントのパフォーマンスを比較するには、別のユニバーサル ID ベースのプレースメントと従来のID ベースのプレースメントを使用したキャンペーンを作成します。
 
-     包括的なリターゲティングテストでは、認証済みユーザーのRampIDと未認証ユーザーのID5の両方をターゲットにします。
+    包括的なリターゲティングテストでは、認証済みユーザーのRampIDと未認証ユーザーのID5の両方をターゲットにします。
 
-     最も優れたパフォーマンスを得ることが、最初の比較となるわけではありません。 その代わりに、どのIDが適切に拡張されているかを判断し、後で最適化や予算配分に役立てることができます。 長期的な目標は、Cookieが廃止されたときに失われたインプレッションとサイトトラフィックを補うことです。
+    最も優れたパフォーマンスを得ることが、最初の比較となるわけではありません。 その代わりに、どのIDが適切に拡張されているかを判断し、後で最適化や予算配分に役立てることができます。 長期的な目標は、Cookieが廃止されたときに失われたインプレッションとサイトトラフィックを補うことです。
 
-   * ブラウザーのリーチ全体を比較するには、ユニバーサル ID ベースのセグメントと従来のID ベースのセグメントを同じプレースメントでターゲットにします。 キャンペーン予算を分割する必要がない点を除いて、以前のユースケースと同じキャンペーン設定を使用します。
+  * ブラウザーのリーチ全体を比較するには、ユニバーサル ID ベースのセグメントと従来のID ベースのセグメントを同じプレースメントでターゲットにします。 キャンペーン予算を分割する必要がない点を除いて、以前のユースケースと同じキャンペーン設定を使用します。
 
-     入札設定はユニバーサル IDに与えられますが、ユニバーサル IDが使用できない場合はレガシーIDが入札を受け取ります。 さまざまなブラウザー（Chrome、Safari、Mozillaなど）でのリーチを比較してください。
+    入札設定はユニバーサル IDに与えられますが、ユニバーサル IDが使用できない場合はレガシーIDが入札を受け取ります。 さまざまなブラウザー（Chrome、Safari、Mozillaなど）でのリーチを比較してください。
 
-     >[!NOTE]
-     >
-     >頻度の上限は、個々のIDに適用されます。 ユーザーが複数のID タイプを持っている場合、そのユーザーに期待よりも多くリーチできる可能性があります。
+    >[!NOTE]
+    >
+    >頻度の上限は、個々のIDに適用されます。 ユーザーが複数のID タイプを持っている場合、そのユーザーに期待よりも多くリーチできる可能性があります。
 
 * 認証されたオーディエンスセグメントのリーチは、Cookie ベースのセグメントのリーチよりも自然に小さく、追加のターゲティングオプションを使用すると、リーチがさらに減少することを忘れないでください。 詳細なターゲティングを使用する場合は、特に複数のターゲットをAND ステートメントで結合する場合は、慎重に行う必要があります。
 
@@ -128,11 +136,11 @@ Adobe Analytics measurementが利用可能な[!DNL RampID] ベースのセグメ
 
 * ハッシュ化されたメール IDが[!DNL RampIDs]に変換されました：
 
-   * 複数のプロファイルが同じメール IDを使用する場合、DSP セグメント数は、CDP内のプロファイル数よりも少ない可能性があります。 例えば、Adobe Photoshopでは、1つの電子メール IDを使用して、会社アカウントと個人アカウントを作成できます。 しかし、両方のプロファイルが同じ人物に属している場合、プロファイルは1つのメール IDにマッピングされ、対応する1つの[!DNL RampID]にマッピングされます。
+  * 複数のプロファイルが同じメール IDを使用する場合、DSP セグメント数は、CDP内のプロファイル数よりも少ない可能性があります。 例えば、Adobe Photoshopでは、1つの電子メール IDを使用して、会社アカウントと個人アカウントを作成できます。 しかし、両方のプロファイルが同じ人物に属している場合、プロファイルは1つのメール IDにマッピングされ、対応する1つの[!DNL RampID]にマッピングされます。
 
-   * [!DNL RampID]を新しい値にアップグレードできます。 [!DNL LiveRamp]が電子メール IDを認識しないか、データベース内の既存の[!DNL RampID]にマッピングできない場合は、新しい[!DNL RampID]を電子メール IDに割り当てます。 将来的には、電子メール IDを別の[!DNL RampID]にマッピングしたり、同じ電子メール IDに関する詳細情報を収集したりできる場合、[!DNL RampID]を新しい値にアップグレードします。 [!DNL LiveRamp]は、このアクションを「派生」から「維持」へのアップグレード [!DNL RampID]と呼んでいます。 [!DNL RampID]ただし、DSPでは、派生と維持された[!DNL RampIDs]の間にマッピングが取得されないため、以前のバージョンのRampIDをDSP セグメントから削除できません。 この場合、セグメント数はプロファイル数を超えることができます。
+  * [!DNL RampID]を新しい値にアップグレードできます。 [!DNL LiveRamp]が電子メール IDを認識しないか、データベース内の既存の[!DNL RampID]にマッピングできない場合は、新しい[!DNL RampID]を電子メール IDに割り当てます。 将来的には、電子メール IDを別の[!DNL RampID]にマッピングしたり、同じ電子メール IDに関する詳細情報を収集したりできる場合、[!DNL RampID]を新しい値にアップグレードします。 [!DNL LiveRamp]は、このアクションを「派生」から「維持」へのアップグレード [!DNL RampID]と呼んでいます。 [!DNL RampID]ただし、DSPでは、派生と維持された[!DNL RampIDs]の間にマッピングが取得されないため、以前のバージョンのRampIDをDSP セグメントから削除できません。 この場合、セグメント数はプロファイル数を超えることができます。
 
-     例：ユーザーが[!DNL Adobe] web サイトにログインし、Photoshop ページにアクセスします。 [!DNL LiveRamp]に電子メール IDに関する既存の情報がない場合は、派生した[!DNL RampID]を割り当てます（例：D123）。 15日後、ユーザーは同じページにアクセスしますが、[!DNL LiveRamp]はその15日間に[!DNL RampID]をアップグレードし、[!DNL RampID]をM123に再割り当てしました。 Customer Data Platformのセグメント「Photoshop Enthusiast」には、ユーザー用のメール IDが1つしかありませんが、DSP セグメントには、D123とM123の2つのRampIDがあります。
+    例：ユーザーが[!DNL Adobe] web サイトにログインし、Photoshop ページにアクセスします。 [!DNL LiveRamp]に電子メール IDに関する既存の情報がない場合は、派生した[!DNL RampID]を割り当てます（例：D123）。 15日後、ユーザーは同じページにアクセスしますが、[!DNL LiveRamp]はその15日間に[!DNL RampID]をアップグレードし、[!DNL RampID]をM123に再割り当てしました。 Customer Data Platformのセグメント「Photoshop Enthusiast」には、ユーザー用のメール IDが1つしかありませんが、DSP セグメントには、D123とM123の2つのRampIDがあります。
 
 ## トラブルシューティング
 

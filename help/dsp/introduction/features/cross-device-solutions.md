@@ -3,24 +3,30 @@ title: クロスデバイスソリューション
 description: クロスデバイス機能の関連リソース。
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-TQID: https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg
+TQID: 'https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: '1027'
 ht-degree: 0%
-
 ---
-
 # クロスデバイスソリューション
 
 [!DNL LiveRamp]とのAdvertising DSP統合により、ブランドが追跡したデバイスだけでなく、個人の既知のすべてのデバイスにオーディエンスを拡張できます。 また、統合により、あらゆるデバイスをまたいで頻度の上限とアトリビューション測定が提供されます。
@@ -77,13 +83,13 @@ ht-degree: 0%
 
 カスタムレポートには、次の指標を含めることができます。
 
-* **拡張インプレッション :** （[!UICONTROL Build Your Report] > [!UICONTROL Metrics]の[!UICONTROL Std. Metrics] セクション内）デバイスグラフを活用して配信された増分インプレッションの量（元のオーディエンスセグメント内には見つかりません）。 この指標は、サードパーティのデバイスグラフの使用に関連する適用手数料の計算にも使用されます。
+* **拡張インプレッション :** （[!UICONTROL Metrics] > [!UICONTROL Std. Metrics]の[!UICONTROL Build Your Report] セクション内）デバイスグラフを活用して配信された増分インプレッションの量（元のオーディエンスセグメント内には見つかりません）。 この指標は、サードパーティのデバイスグラフの使用に関連する適用手数料の計算にも使用されます。
 
   期間中の拡張インプレッションのコストを決定するには、[!UICONTROL Extended Impressions]列を含むカスタムレポートを実行し、拡張インプレッションの合計数に$0.00035 （$0.35/1000 インプレッション）を掛けます。
 
   集計されたコストは[!UICONTROL Billable Other Net Spend]列（[!UICONTROL Metrics] > [!UICONTROL Spend]の下）にも含まれていますが、この指標には、追加した他のキャンペーン料金も含まれています。
 
-* **デバイスグラフ：** （[!UICONTROL Build Your Report] > [!UICONTROL Dimensions]の[!UICONTROL Campaign] セクション内）特定のキャンペーン、パッケージ、またはプレースメントに対して選択したデバイスグラフ。
+* **デバイスグラフ：** （[!UICONTROL Dimensions] > [!UICONTROL Campaign]の[!UICONTROL Build Your Report] セクション内）特定のキャンペーン、パッケージ、またはプレースメントに対して選択したデバイスグラフ。
 
 ## ピープルベースアトリビューション測定
 

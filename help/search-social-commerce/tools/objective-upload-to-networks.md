@@ -1,26 +1,31 @@
 ---
 title: 広告ネットワークへの目標のアップロードを有効にする
-description: ハイブリッド ポートフォリオの目標を [!DNL Google Ads] および [!DNL Microsoft Advertising]にアップロードする方法を説明します。
+description: ハイブリッド ポートフォリオの目標を[!DNL Google Ads]および[!DNL Microsoft Advertising]にアップロードする方法を説明します。
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0
+TQID: 'https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # 広告ネットワークへの目標のアップロードを有効にする
 
-*アカウントと[!DNL Google Ads] アカウントのみを持つ[!DNL Microsoft Advertising]広告主*
+[!DNL Google Ads] アカウントと[!DNL Microsoft Advertising] アカウントのみを持つ&#x200B;*広告主*
 
 *ハイブリッド最適化のみ有効な広告主*
 
@@ -83,9 +88,9 @@ GGL_LeadはGoogle Adsで追跡される指標であるため、計算/アップ�
 
 * （[!DNL Google Ads]） コンバージョンをアカウントレベルまたはマネージャーレベルにアップロードする必要があるかどうかを確認します。 マネージャーレベルでアップロードする必要がある場合：
 
-   * [!DNL Google Ads] マネージャーアカウントの資格情報が&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;に提供されているかどうかを確認します。 必要に応じて、マネージャーアカウントの資格情報を[追加します](/help/search-social-commerce/admin/manager-accounts.md)。
+  * [!DNL Google Ads] マネージャーアカウントの資格情報が&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;に提供されているかどうかを確認します。 必要に応じて、マネージャーアカウントの資格情報を[追加します](/help/search-social-commerce/admin/manager-accounts.md)。
 
-   * 広告ネットワークアカウントに同じメトリック名が既に含まれているかどうかを確認します。 その場合は、適切なマネージャーレベルのプロパティを作成できるように、指標の名前を変更します。
+  * 広告ネットワークアカウントに同じメトリック名が既に含まれているかどうかを確認します。 その場合は、適切なマネージャーレベルのプロパティを作成できるように、指標の名前を変更します。
 
 * ポートフォリオの「ハイブリッド」オプションが選択されており、目的に有効な収益があることを確認します。
 

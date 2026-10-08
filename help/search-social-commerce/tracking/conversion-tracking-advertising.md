@@ -3,20 +3,24 @@ title: Adobe Advertisingのコンバージョントラッキングタグにつ�
 description: Adobe Advertisingのコンバージョントラッキングタグの使用について説明します。
 exl-id: 8194d5eb-9a5d-4c4e-bb02-e578ffb84d18
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/SKNAm2olxXOI-qdf67XVYpo9GtQCpQO9acywqE7YTv0
+TQID: 'https://experienceleague.adobe.com/SKNAm2olxXOI-qdf67XVYpo9GtQCpQO9acywqE7YTv0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 500
+source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertisingのコンバージョントラッキングタグについて
 
 Adobe Advertisingは、「成功」ページなど、コンバージョンイベントが発生したときに開くweb ページに挿入されるAdobe Advertising コンバージョントラッキングタグを使用して、広告のクリックに起因するコンバージョンをトラッキングします。 このタグには、トランザクションデータとユーザーのAdobe Advertising cookieをトラッキングサーバーに送信するための埋め込み情報が含まれており、トラッキングサーバーから適切な広告のクリックまたはインプレッション（広告主のコンバージョンアトリビューション設定に従って）にトランザクションがクレジットされます。

@@ -3,20 +3,24 @@ title: レポートに使用するデータ
 description: データビューとカスタムレポートで利用できるさまざまな種類のデータについて説明します。
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU
+TQID: 'https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 599
-ht-degree: 0%
-
+source-wordcount: '639'
+ht-degree: 6%
 ---
-
 # レポートに使用するデータ
 
 Search, Social, &amp; Commerceには、クリックとコンバージョンのデータにもとづく包括的なパフォーマンスレポートが用意されています。 ポートフォリオまたは広告アカウントの様々なコンポーネントの基本的なパフォーマンスデータを、[!UICONTROL Portfolios]および[!UICONTROL Campaigns] ビューから表示できます。また、様々な基本および高度なレポートを生成することもできます。
@@ -27,17 +31,17 @@ Adobe Advertising コンバージョン追跡サービスを使用する広告�
 
 * **標準パフォーマンス指標：**
 
-   * **[!UICONTROL Impressions]:**&#x200B;広告が配置された合計回数。
+  * **[!UICONTROL Impressions]:**&#x200B;広告が配置された合計回数。
 
-   * **[!UICONTROL Clicks]:**&#x200B;広告内のリンクがクリックされた合計回数。
+  * **[!UICONTROL Clicks]:**&#x200B;広告内のリンクがクリックされた合計回数。
 
-   * **[!UICONTROL Cost]:**&#x200B;広告の総費用。 PPC （クリック報酬型）広告のコストは、常に、クリック数にクリック単価を掛けたものです。
+  * **[!UICONTROL Cost]:**&#x200B;広告の総費用。 PPC （クリック報酬型）広告のコストは、常に、クリック数にクリック単価を掛けたものです。
 
-   * **[!UICONTROL Cost per Click]:**&#x200B;広告の1 クリックの平均コスト。広告のコストを、広告の総クリック数で割ったものです。 例えば、広告インプレッションに100米ドルを費やし、広告が10 クリックを生成した場合、クリックあたりのコストは100米ドル/10=10米ドルです。
+  * **[!UICONTROL Cost per Click]:**&#x200B;広告の1 クリックの平均コスト。広告のコストを、広告の総クリック数で割ったものです。 例えば、広告インプレッションに100 USDを費やし、広告が10 クリックを生成した場合、クリックあたりのコストは100 USD/10=10 USD/クリックあたりのコストになります。
 
-   * **[!UICONTROL Average Position]:** （該当する場合）配置された広告の平均位置を、インプレッション数で重み付けします。
+  * **[!UICONTROL Average Position]:** （該当する場合）配置された広告の平均位置を、インプレッション数で重み付けします。
 
-   * **[!UICONTROL Estimated Clicks]:** （Adobe Advertising コンバージョントラッキングサービスを使用する広告主向けの高度なレポートに含まれる）参照元web サイトの市区町村またはドメイン名の推定クリック数。 これには、広告主が広告アカウントを持っていない広告ネットワークのデータが含まれます。
+  * **[!UICONTROL Estimated Clicks]:** （Adobe Advertising コンバージョントラッキングサービスを使用する広告主向けの高度なレポートに含まれる）参照元web サイトの市区町村またはドメイン名の推定クリック数。 これには、広告主が広告アカウントを持っていない広告ネットワークのデータが含まれます。
 
 * **コンバージョン指標：**&#x200B;広告主のコンバージョン指標、またはコンバージョン指標に向けて追跡されたトランザクションデータのそれぞれのコンバージョンの合計数。 これには、コンバージョンやサイトエンゲージメントの指標は含まれますが、Adobe Analyticsから同期される計算指標や高度な計算指標は含まれません。
 
@@ -53,14 +57,14 @@ Adobe Advertising コンバージョン追跡サービスを使用する広告�
 
 | レポートグループ | レポート | データが使用可能な日付 |
 | --- | --- | --- |
-| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 2021年5月15日より。<br><br><b>例外：</b> プロミネンス指標データは、2022年9月8日から利用できます。 |
-| | その他すべての[!UICONTROL Basic Reports] | 過去36か月。<br><br><b>例外：</b> プロミネンス指標データは、2022年9月8日から利用できます。 |
+| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 2021年5月15日以降。<br><br><b>例外：</b> プロミネンス指標データは、2022年9月8日から利用できます。 |
+| | その他すべての[!UICONTROL Basic Reports] | 過去36か月間の例外：<br><br><b>例外：</b> プロミネンス指標データは、2022年9月8日から利用できます。 |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | 過去45日間。 |
-| | [!UICONTROL Domain Referral Report]、[!UICONTROL Geo Distribution Report] | 前の2か月（2）と現在の月。 |
+| | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | 前の2か月（2）と現在の月。 |
 | [!UICONTROL Assist Reports] | すべて | 過去18か月。 |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | 前年です。 |
 | | [!UICONTROL Google Asset Group Performance Report] | 制限なし |
-| | [!UICONTROL MSA Ad Extension by Ad Report]、[!UICONTROL MSA Ad Extension by Keyword Report]、[!UICONTROL MSA Ad Extension Detail Report]、[!UICONTROL MSA Network Impression Share Report]、[!UICONTROL MSA Network Performance Report] | 過去180日間。 |
+| | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | 過去180日間。 |
 | | [!UICONTROL RSA Assets Report] | 2022年8月10日より。 |
 | | その他すべての[!UICONTROL Specialty Reports] | 過去2か月（2）。 |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | 過去18か月。 |

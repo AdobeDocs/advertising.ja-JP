@@ -1,24 +1,35 @@
 ---
 title: '[!DNL Google Ads] コンバージョンデータ'
-description: Search, Social, & Commerceで利用できる [!DNL Google Ads]追跡されたコンバージョンデータの種類について説明します。
+description: Search, Social, & Commerceで利用できる[!DNL Google Ads] トラッキングされたコンバージョンデータの種類について説明します。
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-TQID: https://experienceleague.adobe.com/7qqQKfVhueHMc7hJDEac86la9dp36hwtrLF5ikxJzJM
+TQID: 'https://experienceleague.adobe.com/7qqQKfVhueHMc7hJDEac86la9dp36hwtrLF5ikxJzJM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 661
+source-wordcount: '671'
 ht-degree: 0%
-
 ---
-
 # Search, Social, &amp; Commerceの[!DNL Google Ads] コンバージョンデータ
 
 Search, Social, &amp; Commerceは、[!DNL Google Ads]の検索およびショッピングネットワーク上のすべてのキャンペーンに関する[!DNL Google Ads]追跡されたコンバージョンデータを、レポートと最適化のためにSearch, Social, &amp; Commerceに自動的に同期します。
@@ -51,7 +62,7 @@ Search, Social, &amp; Commerceは、[!DNL Google Ads]の検索およびショッ
 
 >[!NOTE]
 >
->* 同じコンバージョン名を持つ複数のアカウントがある場合、Adobe Advertisingでコンバージョン名が重複する場合があります。 この問題が発生した場合は、[&#x200B; > &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)の重複する指標の1つに対して、[!UICONTROL Admin]表示名[!UICONTROL Conversions]を変更します。 2つの異なる指標が同じ名前を持つ場合、レポートは正確ではありません。
+>* 同じコンバージョン名を持つ複数のアカウントがある場合、Adobe Advertisingでコンバージョン名が重複する場合があります。 この問題が発生した場合は、[!UICONTROL Admin] > [!UICONTROL Conversions]の重複する指標の1つに対して、[表示名](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)を変更します。 2つの異なる指標が同じ名前を持つ場合、レポートは正確ではありません。
 >* 入札単位レベルのデータは、同じレベルの[!DNL Google Ads]のデータと一致します。 ただし、上位レベルの[!DNL Google Ads]独自のコンバージョンデータには、子入札単位に起因しない追加のコンバージョンが含まれる場合があります。 Search, Social, &amp; Commerceのデータは常に入札単位レベルからロールアップされるため、例えば、キャンペーンレベルのレポートは、Google Adsのキャンペーンレベルのレポートと同じ合計が得られない場合があります。
 >* 通常、追加のコンバージョンがまだ同期されていない場合、朝の同期後よりもデータの分散が少なくなります。 午前中にデータを検証することをお勧めします。
 >* コンバージョンデータは、[!DNL Google Display Network]、[!DNL Gmail]、[!DNL Mobile App]、[!DNL YouTube]の広告では利用できません。 [!DNL Google Ads]のデータをSearch, Social, &amp; Commerceのデータと比較する際に、これらのタイプの広告をフィルタリングします。

@@ -3,22 +3,26 @@ title: バルクシートを使用したキャンペーンコンポーネント�
 description: スプレッドシートを使用して、主要なパッケージ、プレースメント、広告の設定を一括で確認および編集する方法について説明します。
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-TQID: https://experienceleague.adobe.com/xHMqjoe7pRUjZJp09hNNZassE-xG4xWCKeM0t1ntTaM
+TQID: 'https://experienceleague.adobe.com/xHMqjoe7pRUjZJp09hNNZassE-xG4xWCKeM0t1ntTaM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: '571'
 ht-degree: 0%
-
 ---
-
 # バルクシートを使用したキャンペーンコンポーネント設定の確認と編集
 
 パッケージ、プレースメント、広告の設定をXLSX （[!DNL Microsoft Excel] スプレッドシート）形式の1つのキャンペーンでダウンロードして、設定を確認および編集できます。 デフォルトでは、ダウンロードされたファイル（*バルクシート、*&#x200B;と呼ばれる）には、パッケージ設定、パッケージフライト情報、プレースメント設定、プレースメントおよびスケジュール用の個別のタブが含まれます。 一部のキャンペーンコンポーネントタイプの設定は、オプションで除外できます。

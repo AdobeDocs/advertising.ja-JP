@@ -3,18 +3,21 @@ title: コピー&ペースト機能を利用してキャンペーンデータを
 description: コピー&ペースト機能を使用してキャンペーンデータを一括管理する方法について説明します。
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c
+TQID: 'https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: '489'
 ht-degree: 0%
-
 ---
-
 # コピー&amp;ペースト機能を利用してキャンペーンデータを一括作成、編集できます
 
 *[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]および既存の[!DNL Baidu] アカウントのみ*
@@ -47,9 +50,9 @@ ht-degree: 0%
 
    * 貼り付けられたデータには、ヘッダー行と必要なキャンペーンオブジェクトの値が含まれている必要があります。[Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、[Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)、[Yahoo！の必要なバルクシート列を参照してください。 ネットワーク &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)および[Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)を表示します。 列の順序は問題ありません。
 
-      * 編集する既存のオブジェクトの場合は、編集する関連ID列、エンティティ名、属性をすべて含める必要があります。 オブジェクトの数値IDは編集しないでください。
+     * 編集する既存のオブジェクトの場合は、編集する関連ID列、エンティティ名、属性をすべて含める必要があります。 オブジェクトの数値IDは編集しないでください。
 
-      * 新しいキャンペーンオブジェクトの場合は、関連するすべてのエンティティ名と属性を含めますが、（自動生成される）オブジェクト IDは含みません。 例えば、新しい広告を作成する場合は、[!UICONTROL Ad ID] フィールドを空白のままにします。 オブジェクトを投稿すると、広告ネットワークが自動的にIDを作成します。
+     * 新しいキャンペーンオブジェクトの場合は、関連するすべてのエンティティ名と属性を含めますが、（自動生成される）オブジェクト IDは含みません。 例えば、新しい広告を作成する場合は、[!UICONTROL Ad ID] フィールドを空白のままにします。 オブジェクトを投稿すると、広告ネットワークが自動的にIDを作成します。
 
    * 必須でない列の値はnull （空白）である可能性がありますが、各行には同じ数のタブ区切り値が必要です。
 

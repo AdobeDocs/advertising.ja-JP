@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL Microsoft Advertising]  アカウントに必要なバルクシートデータ'
-description: ' [!DNL Microsoft Advertising]  アカウントの必須ヘッダーフィールドとデータフィールドを一括シートで参照します。'
+title: '[!DNL Microsoft Advertising] アカウントに必要なバルクシート データ'
+description: '[!DNL Microsoft Advertising] アカウントの必須ヘッダーフィールドとデータフィールドを一括シートで参照します。'
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+TQID: 'https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 7024
-ht-degree: 0%
-
+source-wordcount: '7150'
+ht-degree: 1%
 ---
-
 # 付録 – [!DNL Microsoft Advertising] アカウントに必要なバルクシート データ
 
 [!DNL Microsoft Advertising]件のキャンペーンデータを一括で作成および更新するには、[!DNL Microsoft Advertising]件のアカウントに特化してフォーマットされたSearch、Social、およびCommerceのバルクシート ファイルを使用できます。 a） [&#128279;](../bulksheet-download.md)必要なファイル形式で既存のアカウントの一括シートファイルを生成するか、b）手動で作成できます（サポートされているファイル形式に関する一般的な情報については、「[&#x200B; サポートされている一括シートファイル形式](bulksheet-file-formats.md)」を参照）。
@@ -82,13 +86,13 @@ ht-degree: 0%
 | [!UICONTROL Ad Group Start Date] | 広告グループの入札が最初に行われる日付。広告主のタイムゾーンで、m/d/yyyy、m/d/yy、m-d-yyyy、またはm-d-yyのいずれかの形式で行われます。 新しい広告グループの場合、デフォルトは現在の日付です。 |
 | [!UICONTROL Ad Group End Date] | 広告主のタイムゾーンで、広告グループに入札を行うことができる最後の日付。m/d/yyyy、m/d/yy、m-d-yyyy、またはm-d-yyのいずれかの形式です。 新しい広告グループの場合、デフォルトは[blank]です（つまり、終了日はありません）。 |
 | [!UICONTROL Tracking Template] | （オプション）すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的なURLをパラメーターに埋め込むトラッキングテンプレート。 最も詳細なレベル（キーワードが最も詳細）のトラッキングテンプレートは、より高いレベルのすべての値を上書きします。<br><br> キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合、レコードを保存すると、Search, Social, &amp; Commerceはリダイレクトコードとトラッキングコードを自動的に追加します。<br><br> サードパーティのリダイレクトとトラッキングの場合は、値を入力します。<br><br> トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[!DNL Microsoft Advertising] ドキュメントを参照してください。<br><br> 既存の値を削除するには、値`[delete]` （括弧を含む）を使用します。 |
-| [!UICONTROL Landing Page Suffix] | 最後のURLの末尾に追加するパラメーターを指定して、情報を追跡します。 例：`param2=value1&param3=value2`<br><br>詳しくは、 [!DNL Microsoft Advertising][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の「 クリックトラッキング形式」を参照してください。「<br><br>下位レベルの最終URL サフィックスは、アカウントレベルのサフィックスを上書きします。 メンテナンスを容易にするために、個々のアカウントコンポーネントに対して異なるトラッキングが必要でない限り、アカウントレベルのサフィックスのみを使用します。 広告グループレベル以下でサフィックスを設定するには、[!DNL Microsoft Advertising] エディターを使用します。 |
+| [!UICONTROL Landing Page Suffix] | 最後のURLの末尾に追加するパラメーターを指定して、情報を追跡します。 例：`param2=value1&param3=value2`<br><br>詳しくは、 [!DNL Microsoft Advertising]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の「 クリックトラッキング形式」を参照してください。「<br><br>下位レベルの最終URL サフィックスは、アカウントレベルのサフィックスを上書きします。 メンテナンスを容易にするために、個々のアカウントコンポーネントに対して異なるトラッキングが必要でない限り、アカウントレベルのサフィックスのみを使用します。 広告グループレベル以下でサフィックスを設定するには、[!DNL Microsoft Advertising] エディターを使用します。 |
 | 検索ネットワークステータス | 検索ネットワークの様々な要素に広告グループの広告を配置するかどうか：<ul><li><i>すべて：</i>すべてのBing検索ネットワークと同時検索パートナーに広告を配置します。</li><li><i>OwnedAndOperatedOnly:</i>BingとYahoo！にのみ広告を掲載するには web サイト：</li><li><i>SyndicatedSearchOnly:</i> BingとYahoo！にのみ広告を掲載する 同時検索パートナー：</li><li><i> オフ：</i> コンテンツ ネットワークにのみ広告を配置するには（検索ネットワークではなく）。</li></ul> 新しい広告グループの場合、デフォルトはオンです。 |
 | [!UICONTROL Content Network Status] | 非推奨 |
 | [!UICONTROL Languages] | 広告グループの広告のターゲット言語：[!UICONTROL English]、[!UICONTROL French]、[!UICONTROL Finnish]、[!UICONTROL German]、[!UICONTROL Norwegian]、[!UICONTROL Spanish]、または[!UICONTROL Swedish]。 新しいキャンペーンのデフォルトは[!UICONTROL English]です。<br><br>この設定により、広告を表示できる国と地域が決まります。 キャンペーンの位置情報ターゲットに対応した言語を選ぶようにしましょう。 |
 | [!UICONTROL Budget Type] | 予算が<i>[!UICONTROL Daily]</i> （デフォルト）か<i>[!UICONTROL Monthly]</i>かのどちらかです。<br><br>注意：キャンペーンを最適化されたポートフォリオに割り当てると、この値は自動的に[!UICONTROL Daily]に設定されます。 |
 | [!UICONTROL Device] | キャンペーンまたは広告グループレベルで入札調整が行われるデバイスタイプ：<i>[!UICONTROL smartphone]</i>、<i>[!UICONTROL tablet]</i>、または<i>[!UICONTROL desktop]</i>。 |
-| [!UICONTROL Bid Adjustment] | 指定したターゲットタイプの入札調整。 例えば、キーワードレベルの入札が1米ドルで、スマートフォンの入札調整が50%の場合、スマートフォンの入札は1.50米ドルになります。 デフォルトでは、すべてのターゲットはキーワードレベルの入札で入札されます。 有効なパーセンテージには、次のものが含まれます。<ul><li>スマートフォンとタブレット：-100 （デバイスタイプに入札しない場合）、-90～900</li><li>デスクトップ：0 ～ 900</li></ul> |
+| [!UICONTROL Bid Adjustment] | 指定したターゲットタイプの入札調整。 例えば、キーワードレベルの入札が1 USDで、スマートフォンの入札調整が50%の場合、スマートフォンの入札は1.50 USDになります。 デフォルトでは、すべてのターゲットはキーワードレベルの入札で入札されます。 有効なパーセンテージには、次のものが含まれます。<ul><li>スマートフォンとタブレット：-100 （デバイスタイプに入札しない場合）、-90～900</li><li>デスクトップ：0 ～ 900</li></ul> |
 | [!UICONTROL Creative Preferred Devices] | 広告またはサイトリンクを表示するデバイスの種類：<i>[!UICONTROL All]</i> （デフォルト）または<i>[!UICONTROL Mobile]</i>。 Mobileを指定すると、ネットワークはデスクトップやタブレットユーザーではなく、モバイルデバイスユーザーに広告やサイトリンクを表示しようとします。 それ以外の場合、ネットワークは任意のデバイスタイプに広告またはサイトリンクを表示します。 <b>注意：</b> ネットワークは、好みのデバイスタイプで広告が表示されることを保証するものではありません。 |
 | [!UICONTROL Param2] | キーワードのベース URLまたは広告のタイトル、説明、ベース URLに`{Param2}`動的な置換文字列が含まれている場合に、置換値として使用する文字列。 最大長は70文字ですが、使用する広告要素の最大長に注意してください（例えば、タイトル 1とタイトル 2の組み合わせは最大76文字です）。 既存の値を削除するには、値`[delete]` （括弧を含む）を使用します。 |
 | [!UICONTROL Param3] | キーワードのベース URLまたは広告のタイトル、説明、ベース URLに`{Param3}`動的な置換文字列が含まれている場合に、置換値として使用する文字列。 最大長は70文字ですが、使用する広告要素の最大長に注意してください（例えば、タイトル 1とタイトル 2の組み合わせは最大76文字です）。 既存の値を削除するには、値`[delete]` （括弧を含む）を使用します。 |
@@ -475,5 +479,5 @@ ht-degree: 0%
 >* [&#x200B; バルクシートで実行できる操作](bulksheet-operations.md)
 >* [&#x200B; サポートされているバルクシート ファイル形式](bulksheet-file-formats.md)
 >* [&#x200B; バルクシート ファイルのダウンロードと作成](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の クリックトラッキング形式
+>*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の クリックトラッキング形式
 >* [&#x200B; バルクシート ファイルをアップロードするか、エラーファイルを修正](../bulksheet-upload.md)

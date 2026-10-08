@@ -1,27 +1,37 @@
 ---
-title: Adobe Advertising IDを使用した [!DNL Marketing Channels]  ルールの作成
-description: Adobe Advertising IDを使用して [!DNL Analytics Marketing Channels]の処理ルールを作成する方法を説明します。
+title: Adobe Advertising IDを使用して[!DNL Marketing Channels] ルールを作成する
+description: Adobe Advertising IDを使用して[!DNL Analytics Marketing Channels]の処理ルールを作成する方法を説明します。
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
-TQID: https://experienceleague.adobe.com/mBjU1jKifWk35v43sGsBO5aHDQA5ftmyI9GJ4Xujz9A
+TQID: 'https://experienceleague.adobe.com/mBjU1jKifWk35v43sGsBO5aHDQA5ftmyI9GJ4Xujz9A'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1448
+source-wordcount: '1510'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising IDを使用して[!DNL Marketing Channels]処理ルールを作成する
 
 *Adobe AdvertisingとAdobe Analyticsの統合のみを使用する広告主*
@@ -82,7 +92,7 @@ EF ID ディメンションは、[!DNL Analytics] レポートでは直接使用
 
 >[!IMPORTANT]
 >
->ルールを処理する順序について詳しくは、「[&#x200B; ルール  [!DNL Marketing Channels] 」の「](#rule-order)操作順序」を参照してください。
+>ルールを処理する順序について詳しくは、「 [!DNL Marketing Channels]  ルール [&#128279;](#rule-order)」の「操作順序」を参照してください。
 
 ![処理ルールのセットの例](/help/integrations/assets/a4adc-mc-rule-set-example.png)
 
@@ -92,7 +102,7 @@ EF ID ディメンションは、[!DNL Analytics] レポートでは直接使用
 
 * コスト/クリック/インプレッションデータにはAMO IDが含まれているので、AMO IDを含めます。 AMO IDは「AL!」で始まる必要があります。 クリック/コスト/インプレッションのデータを[!UICONTROL Paid Search]に正しく割り当てる。<!-- Is this just called AMO ID there, not s_kwcid=XXX? What's the difference? -->
 
-* [!UICONTROL Paid Search] クリックスルーのURLには、常に`s_kwcid` クエリ文字列パラメーターが含まれるため、訪問者がランディングページに戻る場合に適切な重複排除が行われるように、URLを含めます。 「AL!」を含める クリック/コスト/インプレッション データを`s_kwcid`に正しく割り当てるために[!UICONTROL Paid Search]の前に行います。
+* [!UICONTROL Paid Search] クリックスルーのURLには、常に`s_kwcid` クエリ文字列パラメーターが含まれるため、訪問者がランディングページに戻る場合に適切な重複排除が行われるように、URLを含めます。 「AL!」を含める クリック/コスト/インプレッション データを[!UICONTROL Paid Search]に正しく割り当てるために`s_kwcid`の前に行います。
 
 チャネルの値をAMO IDに設定しないでください。 代わりに、「参照ドメイン」、「検索エンジン + キーワード」、「ページ」などに設定します。 （これは、すべての[!DNL Marketing Channels]に関連しています）。
 
@@ -136,7 +146,7 @@ EF ID ディメンションは、[!DNL Analytics] レポートでは直接使用
 
 ### クリックスルー規則#2の表示
 
-2つ目のクリックスルー表示ルールの場合、**AMO IDは「AC!」で始まります。**。 この2つ目のルールは、Adobe Advertisingから[!DNL Analytics]に直接送られる表示チャネルのクリック/コスト/インプレッションデータを取得するために存在します。 このデータはAMO IDに関連付けられていますが、`ef_id` クエリ文字列を持つURLが含まれていないため、これらのヒットはAMO EF IDに接続されません。これは、最初の表示クリックスルールールでキャプチャしたものです。
+2つ目のクリックスルー表示ルールに対して、**AMO IDを「AC!」で始まる**&#x200B;に設定します。 この2つ目のルールは、Adobe Advertisingから[!DNL Analytics]に直接送られる表示チャネルのクリック/コスト/インプレッションデータを取得するために存在します。 このデータはAMO IDに関連付けられていますが、`ef_id` クエリ文字列を持つURLが含まれていないため、これらのヒットはAMO EF IDに接続されません。これは、最初の表示クリックスルールールでキャプチャしたものです。
 
 ![2番目の表示クリックスルー規則の例](/help/integrations/assets/a4adc-mc-rule-display-ct2.png "2番目の表示クリックスルー規則の例")
 
@@ -150,11 +160,11 @@ EF ID ディメンションは、[!DNL Analytics] レポートでは直接使用
 
 * [!UICONTROL CTV view-throughs]を使用する場合は、*before* [!UICONTROL Display ViewThroughs]と入力します。 それ以外の場合、CTV ビュースルーはディスプレイビュースルーとしてキャプチャされます。
 
-* ビュースルーと[!UICONTROL Display ViewThroughs]以外のクリックスルーが同じランディングイベントで発生する可能性があるので、**&#x200B;後[!UICONTROL Internal]の他のチャネルを[!UICONTROL Direct]および[!DNL Advertising]前に配置します。 例えば、訪問者がAdobe Advertisingの広告を見てインプレッションを受け取り、[!UICONTROL Natural Search]経由でサイトに移動する場合があります。
+* ビュースルーと[!DNL Advertising]以外のクリックスルーが同じランディングイベントで発生する可能性があるので、[!UICONTROL Display ViewThroughs] *後*&#x200B;の他のチャネルを[!UICONTROL Internal]および[!UICONTROL Direct]前に配置します。 例えば、訪問者がAdobe Advertisingの広告を見てインプレッションを受け取り、[!UICONTROL Natural Search]経由でサイトに移動する場合があります。
 
   ベストプラクティスは、ビュースルーよりも他のチャネル（[!UICONTROL Internal]と[!UICONTROL Direct]を除く）を優先することです。
 
-* 一部の広告主は、[!UICONTROL Display ViewThroughs]よりも[!UICONTROL Natural Referring Domains]を優先する場合があります。 これは、2つのルールの処理順序を入れ替えて行います。
+* 一部の広告主は、[!UICONTROL Natural Referring Domains]よりも[!UICONTROL Display ViewThroughs]を優先する場合があります。 これは、2つのルールの処理順序を入れ替えて行います。
 
 * **second** [!UICONTROL Display ClickThrough] ルールは、Adobe Advertisingから[!DNL Analytics]に直接送られてくるクリック/コスト/インプレッションのデータを取得するためのものです。 このデータはAMO IDにのみ関連付けられているため、これらのヒットはAMO EF IDに接続されません。 このルールを設定しない場合、すべてのクリック/コスト/インプレッション データは[!UICONTROL Direct] チャネルに属します。これは、[!DNL Marketing Channel]と一致しないデータのデフォルト チャネルです。 このルールは、ビュースルー規則の&#x200B;*後*&#x200B;に来る必要があります。そうしないと、ビュースルー規則が取得されます。
 
@@ -164,6 +174,6 @@ EF ID ディメンションは、[!DNL Analytics] レポートでは直接使用
 >
 >* [の基本 [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe Advertisingと [!DNL Marketing Channels]](mc-data-variances.md)でチャネルデータが異なる理由
->* [Adobe Advertising data [!DNL Analytics Marketing Channels] での](mc-ac-data.md)の使用
+>* [Adobe Advertising data](mc-ac-data.md)での [!DNL Analytics Marketing Channels] の使用
 >* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ja)
->* [様が使用している [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID
+>*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)様が使用しているAdobe Advertising ID

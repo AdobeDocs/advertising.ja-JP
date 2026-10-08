@@ -2,13 +2,19 @@
 title: 広告主アカウント設定
 description: 使用可能な広告主設定の説明を参照してください。
 role: User, Admin
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
-
+source-wordcount: '1035'
+ht-degree: 7%
 ---
-
 # 広告主アカウント設定
 
 *読み取り専用ユーザーは利用できません*
@@ -31,15 +37,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-Adobe CX Enterprise製品を導入している広告主は、CX Enterprise向けの自社固有のIDを使用して、一部の製品間でデータを共有できます。 [!UICONTROL Integrations] セクションで特定の製品統合を設定できます。
+Adobe CX Enterpriseの他の製品を使用している広告主は、CX Enterpriseの組織固有IDを使用して、一部の製品間でデータを共有できます。 [!UICONTROL Integrations] セクションで特定の製品統合を設定できます。
 
-**[!UICONTROL Account IMS org and ID]:** （複数の広告主を含むCX Enterprise アカウントを通じてライセンス認証された追加のCX Enterprise製品を持つ広告主。オプション）広告主のCX Enterprise組織ID。
+**[!UICONTROL Account IMS org and ID]:** （複数の広告主を含むCX Enterprise アカウントを通じてライセンス認証されたCX Enterprise製品を追加する広告主。オプション）広告主のCX Enterprise組織ID。
 
-**[!UICONTROL Advertiser IMS org and ID]:** （追加のCX Enterprise製品の直接ライセンスを持つ広告主。オプション）広告主のCX Enterprise組織ID。
+**[!UICONTROL Advertiser IMS org and ID]:** （CX Enterprise製品の直接使用ライセンスを持つ広告主。オプション）広告主のCX Enterprise組織ID。
 
 ### [!UICONTROL Integrations]
 
-（オプション）DSP アカウントにリンクされている他のCX Enterprise製品。 製品は、[!UICONTROL Adobe IMS IDs] セクションで指定されているのと同じCX Enterprise組織IDに関連付けられている必要があります。
+（オプション）DSP アカウントにリンクされているCX Enterpriseのその他の製品。 製品は、[!UICONTROL Adobe IMS IDs] セクションで指定されているのと同じCX Enterprise組織IDに関連付けられている必要があります。
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** （[!DNL Advertising Search, Social, & Commerce]またはAdobe Advertising コンバージョンピクセルを使用する広告主） DSPがアトリビューションデータを交換する[!DNL Search, Social, & Commerce] アカウント。
 

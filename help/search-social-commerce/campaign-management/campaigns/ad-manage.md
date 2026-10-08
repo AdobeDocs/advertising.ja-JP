@@ -3,20 +3,24 @@ title: 広告を管理
 description: 広告の作成と管理方法を説明します。
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/qH3BE5BwU8614rZdk-tKqvtw9cqY1uK0Z3zOUh0QRv8
+TQID: 'https://experienceleague.adobe.com/qH3BE5BwU8614rZdk-tKqvtw9cqY1uK0Z3zOUh0QRv8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 743
+source-wordcount: '743'
 ht-degree: 0%
-
 ---
-
 # 広告を管理
 
 *[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]および既存の[!DNL Baidu] アカウントのみ*
@@ -71,11 +75,11 @@ ht-degree: 0%
 
    * （1つ以上の広告の設定を編集するには）次の操作を行います。
 
-      1. 各行の横にあるチェックボックスをオンにします。
+     1. 各行の横にあるチェックボックスをオンにします。
 
-         複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
+        複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-      1. データテーブルの上にあるツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
+     1. データテーブルの上にあるツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
 
 1. [[!DNL Baidu] text ad](ad-settings-baidu-text.md)、[[!DNL Google Ads] 通話専用ad](ad-settings-google-call.md)、[[!DNL Google Ads] 拡張dynamic search ad](ad-settings-google-dsa.md) （現在はGoogle Adsで「dynamic search ad」と呼ばれています）、[[!DNL Google Ads] responsive search ad](ad-settings-google-rsa.md)、[[!DNL Microsoft Advertising] 拡張dynamic search ad](ad-settings-microsoft-dsa.md)、[[!DNL Microsoft Advertising] multimedia ad](ad-settings-microsoft-multimedia.md)、[[!DNL Microsoft Advertising] product ad](ad-settings-microsoft-product.md)、[[!DNL Microsoft Advertising] responsive （audience） ad](ad-settings-microsoft-responsive.md)、[[!DNL Microsoft Advertising] responsive search ad](ad-settings-microsoft-rsa.md)、または[[!DNL Yandex] text ad](ad-settings-yandex-text.md)設定を編集します。
 
