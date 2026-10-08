@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**&#x200B;をクリックします。
 
-1. （オプション）バルクシート リストの上に、[&#x200B; フィルター](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)を追加して、リストに含まれるファイルを制限します。
+1. （オプション）バルクシート リストの上に、[ フィルター](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)を追加して、リストに含まれるファイルを制限します。
 
 1. バルクシート リストで、ファイルの名前をクリックします。
 
@@ -34,8 +34,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
->* [&#x200B; バルクシート ファイルのダウンロードと作成](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
->* [&#x200B; バルクシート ファイル内のランディングページの検証](bulksheet-validate-landing-pages.md)
->* [&#x200B; バルクシートの投稿またはエラーファイルの修正](bulksheet-post.md)
->* [&#x200B; バルクシートをアップロードするためのFTP アカウントの設定](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)
+>* [ バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
+>* [ バルクシート ファイルのダウンロードと作成](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+>* [ バルクシート ファイル内のランディングページの検証](bulksheet-validate-landing-pages.md)
+>* [ バルクシートの投稿またはエラーファイルの修正](bulksheet-post.md)
+>* [ バルクシートをアップロードするためのFTP アカウントの設定](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)

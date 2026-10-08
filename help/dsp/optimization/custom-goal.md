@@ -40,9 +40,9 @@ ht-degree: 0%
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-各カスタム目標（目的）は、追跡および最適化される1つ以上のコンバージョン指標と、これらの指標の相対的な重みとで構成されます。 [!DNL Adobe AI]を使用して、レポートとアルゴリズムの最適化のために[&#x200B; カスタム目標をパッケージ &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)に割り当てることができます。
+各カスタム目標（目的）は、追跡および最適化される1つ以上のコンバージョン指標と、これらの指標の相対的な重みとで構成されます。 [!DNL Adobe AI]を使用して、レポートとアルゴリズムの最適化のために[ カスタム目標をパッケージ ](/help/dsp/campaign-management/packages/package-settings.md)に割り当てることができます。
 
-カスタム目標を作成および管理するには、「[&#x200B; カスタム目標を管理](/help/dsp/admin/custom-objectives-manage.md)」を参照してください。
+カスタム目標を作成および管理するには、「[ カスタム目標を管理](/help/dsp/admin/custom-objectives-manage.md)」を参照してください。
 
 ## 単一の指標でカスタム目標を設定
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタム目標の管理](/help/dsp/admin/custom-objectives-manage.md)
+>* [ カスタム目標の管理](/help/dsp/admin/custom-objectives-manage.md)
 >* [最適化の目標とその使用方法](optimization-goals.md)
->* [&#x200B; パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
 >* [DSPによるキャンペーンの最適化](optimization-how-dsp-optimizes-campaigns.md)

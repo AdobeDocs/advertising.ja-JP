@@ -33,12 +33,12 @@ ht-degree: 0%
 
 1. 右上で、広告ネットワークとアカウントを選択します。
 
-1. 右上の「![&#x200B; レコメンデーションログ &#x200B;](/help/search-social-commerce/assets/recommendations-log-view.png " レコメンデーションログ ")」をクリックします。
+1. 右上の「![ レコメンデーションログ ](/help/search-social-commerce/assets/recommendations-log-view.png " レコメンデーションログ ")」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; メディア企業のレコメンデーションとインサイトのサポートについて](recommendation-support.md)
->* [&#x200B; メディア企業のレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
+>* [ メディア企業のレコメンデーションとインサイトのサポートについて](recommendation-support.md)
+>* [ メディア企業のレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
 >* [発行者のレコメンデーションを適用または却下](recommendation-apply-dismiss.md)
->* [&#x200B; ポートフォリオでパブリッシャーのレコメンデーションを使用するためのベストプラクティス &#x200B;](recommendation-best-practices.md)
+>* [ ポートフォリオでパブリッシャーのレコメンデーションを使用するためのベストプラクティス ](recommendation-best-practices.md)
 

@@ -43,10 +43,10 @@ ht-degree: 0%
 
    * （リスト内のオプション） リストから新しいオプションを選択します。
 
-   * （日付）新しい日付を入力するか、![&#x200B; カレンダー](/help/search-social-commerce/assets/calendar.png " カレンダー")をクリックしてカレンダーを開き、[新しい日付を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)します。
+   * （日付）新しい日付を入力するか、![ カレンダー](/help/search-social-commerce/assets/calendar.png " カレンダー")をクリックしてカレンダーを開き、[新しい日付を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)します。
 
    * （フリーフォーム値）新しい値を入力し、![保存](/help/search-social-commerce/assets/select.png "保存")をクリックするか、**Enter** キーを押します。
 
    >[!MORELIKETHIS]
    >
-   >* [&#x200B; コピー&amp;ペースト &#x200B;](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)を使用してキャンペーンデータを一括作成および編集
+   >* [ コピー&amp;ペースト ](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)を使用してキャンペーンデータを一括作成および編集

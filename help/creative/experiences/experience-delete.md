@@ -28,7 +28,7 @@ ht-degree: 0%
 
 <!-- No multiselect for experiences as of 1/30 -->
 
-[&#x200B; ライブ &#x200B;](experience-about.md#experience-statuses)以外のエクスペリエンスを削除できます。 削除されたエクスペリエンスは引き続きレポートに使用できます。<!-- Verify -->
+[ ライブ ](experience-about.md#experience-statuses)以外のエクスペリエンスを削除できます。 削除されたエクスペリエンスは引き続きレポートに使用できます。<!-- Verify -->
 
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;をクリックします。
 

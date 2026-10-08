@@ -37,7 +37,7 @@ ht-degree: 0%
 
      一部の通知では、[!UICONTROL Action Recommended] セクションに、影響を受けるエンティティまたは責任あるエンティティのフィルタービューを開くリンクが含まれている場合があります。
 
-   * 通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;としてマークするには、アラート名の上にカーソルを置き、![既読または未読としてマーク &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
+   * 通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;としてマークするには、アラート名の上にカーソルを置き、![既読または未読としてマーク ](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
 
      *読み取り*&#x200B;とマークされた通知は、明るい色のテキストですが、削除するまで利用できます。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
      一部の通知では、[!UICONTROL Action Recommended] セクションに、影響を受けるエンティティまたは責任あるエンティティのフィルタービューを開くリンクが含まれている場合があります。
 
-   * 通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;としてマークするには、アラート名の上にカーソルを置き、![既読または未読としてマーク &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
+   * 通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;としてマークするには、アラート名の上にカーソルを置き、![既読または未読としてマーク ](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
 
      *読み取り*&#x200B;とマークされた通知は、明るい色のテキストですが、削除するまで利用できます。
 
@@ -72,8 +72,8 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [通知について](/help/search-social-commerce/notifications/notification-about.md)
->* [通知を既読または未読としてマーク &#x200B;](notification-mark-read-unread.md)
+>* [通知を既読または未読としてマーク ](notification-mark-read-unread.md)
 >* [通知を削除](notification-delete.md)
 >* [通知設定を編集](notification-edit.md)
->* [&#x200B; プッシュ通知を[!UICONTROL Notification Center]](notifications-push-enable-disable.md)から有効または無効にする
+>* [ プッシュ通知を[!UICONTROL Notification Center]](notifications-push-enable-disable.md)から有効または無効にする
 >* [Web アプリケーション [!UICONTROL Notification Center]をインストールしてアンインストールする](notification-app-install-uninstall.md)

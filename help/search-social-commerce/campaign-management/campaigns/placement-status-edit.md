@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. ツールバーで、ステータスボタンをクリックします。
 
-   * （入札可能なプレースメントのみ）行をアクティブ化するには、![&#x200B; アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
+   * （入札可能なプレースメントのみ）行をアクティブ化するには、![ アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
 
    * （入札可能なプレースメントのみ）行を一時停止するには、![一時停止](/help/search-social-commerce/assets/pause.png "一時停止")をクリックします。
 
@@ -42,6 +42,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメントについて](placement-about.md)
+>* [ プレースメントについて](placement-about.md)
 >* [入札可能なプレースメントの管理](placement-manage.md)
 >* [負のプレースメントを作成](placement-negative-create.md)

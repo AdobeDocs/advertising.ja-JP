@@ -55,4 +55,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; [!UICONTROL Ad Groups] ビューについて](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
+>* [ [!UICONTROL Ad Groups] ビューについて](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)

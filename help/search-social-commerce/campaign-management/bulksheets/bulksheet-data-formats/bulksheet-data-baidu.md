@@ -30,7 +30,7 @@ ht-degree: 0%
 ---
 # 付録 – [!DNL Baidu] アカウントに必要なバルクシート データ
 
-[!DNL Baidu]件のキャンペーンデータを一括で作成および更新するには、[!DNL Baidu]件のアカウントに特化してフォーマットされたSearch、Social、およびCommerceのバルクシート ファイルを使用できます。 a） [&#128279;](../bulksheet-download.md)必要なファイル形式で既存のアカウントの一括シートファイルを生成するか、b）手動で作成できます（サポートされているファイル形式に関する一般的な情報については、「[&#x200B; サポートされている一括シートファイル形式](bulksheet-file-formats.md)」を参照）。
+[!DNL Baidu]件のキャンペーンデータを一括で作成および更新するには、[!DNL Baidu]件のアカウントに特化してフォーマットされたSearch、Social、およびCommerceのバルクシート ファイルを使用できます。 a） [必要なファイル形式で既存のアカウントの一括シートファイルを生成するか、b）手動で作成できます（サポートされているファイル形式に関する一般的な情報については、「[ サポートされている一括シートファイル形式](bulksheet-file-formats.md)」を参照）。](../bulksheet-download.md)
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
 
@@ -82,8 +82,8 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [付録 – バルクシート エラー](../bulksheet-errors.md)
->* [&#x200B; バルクシートで実行できる操作](bulksheet-operations.md)
->* [&#x200B; サポートされているバルクシート ファイル形式](bulksheet-file-formats.md)
->* [&#x200B; バルクシート ファイルのダウンロードと作成](../bulksheet-download.md)
->*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の クリックトラッキング形式
->* [&#x200B; バルクシート ファイルをアップロードするか、エラーファイルを修正](../bulksheet-upload.md)
+>* [ バルクシートで実行できる操作](bulksheet-operations.md)
+>* [ サポートされているバルクシート ファイル形式](bulksheet-file-formats.md)
+>* [ バルクシート ファイルのダウンロードと作成](../bulksheet-download.md)
+>*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の[ クリックトラッキング形式
+>* [ バルクシート ファイルをアップロードするか、エラーファイルを修正](../bulksheet-upload.md)

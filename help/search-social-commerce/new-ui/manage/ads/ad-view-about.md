@@ -42,5 +42,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI） [!UICONTROL Ads] ビュー](ad-view-report.md)からデータビューレポートを管理します
->* [&#x200B; （新しいUI）広告のステータスを変更](ad-change-status.md)
+>* [ （新しいUI） [!UICONTROL Ads] ビュー](ad-view-report.md)からデータビューレポートを管理します
+>* [ （新しいUI）広告のステータスを変更](ad-change-status.md)

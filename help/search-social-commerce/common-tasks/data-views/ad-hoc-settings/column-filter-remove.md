@@ -26,12 +26,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[&#x200B; フィルターセットを編集](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)することで、フィルターセット内の複数のフィルターを削除することもできます。
+>[ フィルターセットを編集](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)することで、フィルターセット内の複数のフィルターを削除することもできます。
 
 * （使用可能な場合） データテーブルの上で、フィルター定義の「**[!UICONTROL X]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
 >* [列見出しメニューからデータフィルターを適用](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
->* [&#x200B; ツールバーからデータフィルターを適用](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [ ツールバーからデータフィルターを適用](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
 >* [列フィルターの編集](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)

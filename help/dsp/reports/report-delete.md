@@ -33,10 +33,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて](/help/dsp/reports/report-about.md)
->* [&#x200B; カスタムレポートを作成](/help/dsp/reports/report-create.md)
->* [&#x200B; カスタムレポートを複製](/help/dsp/reports/report-copy.md)
->* [&#x200B; カスタムレポートを編集](/help/dsp/reports/report-edit.md)
->* [&#x200B; カスタムレポートをダウンロード &#x200B;](/help/dsp/reports/report-download.md)
->* [&#x200B; カスタムレポート設定](/help/dsp/reports/report-settings.md)
+>* [ カスタムレポートについて](/help/dsp/reports/report-about.md)
+>* [ カスタムレポートを作成](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートを複製](/help/dsp/reports/report-copy.md)
+>* [ カスタムレポートを編集](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポートをダウンロード ](/help/dsp/reports/report-download.md)
+>* [ カスタムレポート設定](/help/dsp/reports/report-settings.md)
 >* [使用可能なレポート列](/help/dsp/reports/report-columns.md)

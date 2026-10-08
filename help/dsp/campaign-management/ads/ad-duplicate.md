@@ -39,7 +39,7 @@ ht-degree: 0%
 
    1. （オプション）デフォルトの広告名を変更します。 デフォルトでは、新しい広告は「元の広告名&#x200B;*\>のコピー」と呼ばれます。*
 
-   1. （オプション） [&#x200B; オーディオ広告](ad-settings-audio.md)、[&#x200B; コネクテッド TV](ad-settings-connected-tv.md)、[&#x200B; ディスプレイ広告](ad-settings-display.md)、[&#x200B; モバイル広告](ad-settings-mobile.md)、[&#x200B; ネイティブ広告](ad-settings-native.md)、[&#x200B; プレロール広告](ad-settings-pre-roll.md)、または[&#x200B; ユニバーサルビデオ広告](ad-settings-universal-video.md)の広告設定を変更します。
+   1. （オプション） [ オーディオ広告](ad-settings-audio.md)、[ コネクテッド TV](ad-settings-connected-tv.md)、[ ディスプレイ広告](ad-settings-display.md)、[ モバイル広告](ad-settings-mobile.md)、[ ネイティブ広告](ad-settings-native.md)、[ プレロール広告](ad-settings-pre-roll.md)、または[ ユニバーサルビデオ広告](ad-settings-universal-video.md)の広告設定を変更します。
 
 1. **[!UICONTROL Save & Submit for Review]**&#x200B;をクリックします。
 

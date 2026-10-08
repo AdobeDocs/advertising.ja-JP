@@ -41,7 +41,7 @@ Search、Social、およびCommerce内で通知を有効にし、ブラウザー
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**&#x200B;をクリックします。
 
-2. 右下の「![&#x200B; プッシュ通知を有効にする](/help/search-social-commerce/assets/notifications-push.png " プッシュ通知を有効にする")」をクリックします。
+2. 右下の「![ プッシュ通知を有効にする](/help/search-social-commerce/assets/notifications-push.png " プッシュ通知を有効にする")」をクリックします。
 
 3. 確認メッセージで、**[!UICONTROL Enable]**&#x200B;をクリックします。
 
@@ -63,7 +63,7 @@ Search、Social、およびCommerce内で通知を有効にし、ブラウザー
 >
 >* [通知について](/help/search-social-commerce/notifications/notification-about.md)
 >* [通知を表示](notification-view.md)
->* [通知を既読または未読としてマーク &#x200B;](notification-mark-read-unread.md)
+>* [通知を既読または未読としてマーク ](notification-mark-read-unread.md)
 >* [通知を削除](notification-delete.md)
 >* [通知設定を編集](notification-edit.md)
 >* [Web アプリケーション [!UICONTROL Notification Center]をインストールしてアンインストールする](notification-app-install-uninstall.md)

@@ -45,9 +45,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プライベートインベントリについて](private-inventory-about.md)
+>* [ プライベートインベントリについて](private-inventory-about.md)
 >* [取引IDの詳細を手動で作成する](deal-id-create.md)
 >* [取引情報IDの手動設定](deal-id-settings.md)
->* [&#x200B; プログラム的な保証契約の設定](programmatic-guaranteed-set-up.md)
+>* [ プログラム的な保証契約の設定](programmatic-guaranteed-set-up.md)
 >* [非公開取引のプレースメントと広告の指定](/help/dsp/inventory/deal-id-attach-placements.md)
 >* [非公開契約のアーカイブまたはアーカイブ解除](/help/dsp/inventory/private-deal-archive-unarchive.md)

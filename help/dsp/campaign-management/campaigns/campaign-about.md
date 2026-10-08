@@ -37,18 +37,18 @@ ht-degree: 0%
 <!-- standardize on "dashboard" or "view" -->
 [!UICONTROL Campaigns] ダッシュボードは、すべてのキャンペーンのパフォーマンスと経済レポートを一元化し、指定した日付範囲におけるキャンペーンのパフォーマンスを素早く把握するのに役立ちます。
 
-![&#x200B; キャンペーンダッシュボード &#x200B;](/help/dsp/assets/campaign-dashboard.png)
+![ キャンペーンダッシュボード ](/help/dsp/assets/campaign-dashboard.png)
 
 デフォルトでは、ダッシュボードにはキャンペーン別のペーシングと配信の指標が表示されます。 オプションで、キャンペーンのパフォーマンス指標を表示したり、カスタム列セットを作成したりできます。 XLSM （マクロ対応のExcel スプレッドシート）形式のレポートとして、データテーブル全体または1つのキャンペーン内のすべてのプレースメントのデータをブラウザーのデフォルトのダウンロードフォルダーに書き出すことができます。
 
 >[!NOTE]
 >
->[&#x200B; カスタムレポート &#x200B;](/help/dsp/reports/report-about.md)を使用して、キャンペーンレポートのコンテンツと配信をさらにカスタマイズできます。
+>[ カスタムレポート ](/help/dsp/reports/report-about.md)を使用して、キャンペーンレポートのコンテンツと配信をさらにカスタマイズできます。
 
 キャンペーン内のすべてのパッケージ、プレースメント、広告を表示するには、キャンペーン名をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーンを作成](campaign-create.md)
->* [&#x200B; キャンペーン設定](campaign-settings.md)
->* [&#x200B; ビデオ：DSP アカウント構造とユーザーインターフェイス &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ja)
+>* [ キャンペーンを作成](campaign-create.md)
+>* [ キャンペーン設定](campaign-settings.md)
+>* [ ビデオ：DSP アカウント構造とユーザーインターフェイス ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

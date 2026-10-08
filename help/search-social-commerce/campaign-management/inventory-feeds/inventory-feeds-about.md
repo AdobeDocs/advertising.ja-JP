@@ -39,7 +39,7 @@ ht-degree: 0%
 広告を生成したら、オプションで広告をレビューし、広告ネットワークに投稿できます。
 
 >[!NOTE]
->スプレッドシート ファイルを使用してキャンペーンデータを一括で作成または編集するには、「[&#x200B; バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)」を参照してください。
+>スプレッドシート ファイルを使用してキャンペーンデータを一括で作成または編集するには、「[ バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)」を参照してください。
 
 ## 在庫フィードを使用したキャンペーンデータ管理のワークフロー
 
@@ -53,25 +53,25 @@ ht-degree: 0%
 
    それ以外の場合は、[!UICONTROL Advanced (ACM)] ビューでファイルを手動でアップロードできます。
 
-1. フィード データを処理するための[&#x200B; パラメーター](feed-settings-manage.md#feed-data-settings)を設定します。
+1. フィード データを処理するための[ パラメーター](feed-settings-manage.md#feed-data-settings)を設定します。
 
    FTPを使用している場合は、最初に広告ネットワークにデータを自動的に投稿しないでください。 最初のファイルの出力を確認し、結果に満足したら、設定を変更できます。
 
-1. FTP ディレクトリにデータファイルをアップロードするか、[手動で[!UICONTROL Advanced (ACM) view]にデータファイル &#x200B;](feed-files-manage.md)をアップロードするか、[GoogleまたはMicrosoft merchant center アカウントへのアクセスを有効にします](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。
+1. FTP ディレクトリにデータファイルをアップロードするか、[手動で[!UICONTROL Advanced (ACM) view]にデータファイル ](feed-files-manage.md)をアップロードするか、[GoogleまたはMicrosoft merchant center アカウントへのアクセスを有効にします](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。
 
 ファイルを手動でアップロードするには、データファイルを使用するテンプレートを作成するまで待ちます。
 
 1. （オプション）フィード データ テンプレートの様々なデータ フィールドで変数として使用する[修飾子](modifiers-manage.md)のグループを作成します。
 
-1. [&#x200B; データ列を使用して、特定の広告ネットワークアカウントのキャンペーン、広告グループ、キーワード、広告コピーを作成する1つ以上のテンプレート &#x200B;](ad-templates/ad-template-manage.md)を作成します。
+1. [ データ列を使用して、特定の広告ネットワークアカウントのキャンペーン、広告グループ、キーワード、広告コピーを作成する1つ以上のテンプレート ](ad-templates/ad-template-manage.md)を作成します。
 
-1. [&#x200B; テンプレート &#x200B;](feed-data-propagate.md)を通じてフィード データを伝達します。テンプレート内の列名をファイルまたはアカウント内のデータで置き換えます。 Search, Social, &amp; Commerceでは、テンプレートオプションに応じて、デフォルト設定を使用して広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成するか、広告を既存のアカウント構造にマッピングします。
+1. [ テンプレート ](feed-data-propagate.md)を通じてフィード データを伝達します。テンプレート内の列名をファイルまたはアカウント内のデータで置き換えます。 Search, Social, &amp; Commerceでは、テンプレートオプションに応じて、デフォルト設定を使用して広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成するか、広告を既存のアカウント構造にマッピングします。
 
 1. （オプション） [出力](propagated-data-view.md)を[!UICONTROL Advanced (ACM)] ビューでプレビューし、オプションで[!UICONTROL Propagations] タブのデータ変更の概要を表示します。
 
-1. [関連する広告ネットワーク アカウントにデータ &#x200B;](propagated-data-post.md)を投稿します。
+1. [関連する広告ネットワーク アカウントにデータ ](propagated-data-post.md)を投稿します。
 
-1. （FTPまたはマーチャント センターのアカウントを使用してデータをアップロードする場合。オプション）最初のフィード ファイルからの出力を検証した後、[&#x200B; パラメーター](feed-settings-manage.md#feed-data-settings)を編集して、関連するテンプレートを介して後続のデータを自動的に伝播し、関連する広告ネットワークに投稿します。
+1. （FTPまたはマーチャント センターのアカウントを使用してデータをアップロードする場合。オプション）最初のフィード ファイルからの出力を検証した後、[ パラメーター](feed-settings-manage.md#feed-data-settings)を編集して、関連するテンプレートを介して後続のデータを自動的に伝播し、関連する広告ネットワークに投稿します。
 
 1. （新しいデータファイルがある場合）必要に応じて、新しいファイルをアップロードし、テンプレートを通じてデータを伝搬し、関連する広告ネットワークにデータを投稿します。 必要に応じて、データを1つの手順で伝達および投稿できます。
 

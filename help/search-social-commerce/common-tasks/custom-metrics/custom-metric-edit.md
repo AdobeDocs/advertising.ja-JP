@@ -34,15 +34,15 @@ ht-degree: 0%
 
 1. データテーブルの上で、次のいずれかの操作を行います。
 
-   * 現在適用されているビューの名前（![&#x200B; ビュー](/help/search-social-commerce/assets/view.png " ビュー")）をクリックします。 編集可能なビューの名前の上にカーソルを置き、![Edit](/help/search-social-commerce/assets/edit-new.png "Edit")をクリックしてビュー設定を開きます。
+   * 現在適用されているビューの名前（![ ビュー](/help/search-social-commerce/assets/view.png " ビュー")）をクリックします。 編集可能なビューの名前の上にカーソルを置き、![Edit](/help/search-social-commerce/assets/edit-new.png "Edit")をクリックしてビュー設定を開きます。
 
      変更内容はすべてのビューに表示されます。
 
-   * ![&#x200B; カスタム列](/help/search-social-commerce/assets/custom-columns-new.png " カスタム列")をクリックして、列構成設定を開きます。
+   * ![ カスタム列](/help/search-social-commerce/assets/custom-columns-new.png " カスタム列")をクリックして、列構成設定を開きます。
 
 1. 列名の上にカーソルを置き、列名の横にある![編集](/help/search-social-commerce/assets/edit-new.png "編集")をクリックします。
 
-1. [&#x200B; カスタム指標設定](custom-metric-settings.md)を指定します。
+1. [ カスタム指標設定](custom-metric-settings.md)を指定します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -52,11 +52,11 @@ ht-degree: 0%
 
    * デフォルトのビューまたはカスタムビューの名前をクリックして、ビュー設定を開きます。
 
-   * ![&#x200B; カスタム列](/help/search-social-commerce/assets/custom-columns.png " カスタム列")をクリックして、列構成設定を開きます。
+   * ![ カスタム列](/help/search-social-commerce/assets/custom-columns.png " カスタム列")をクリックして、列構成設定を開きます。
 
 1. 列名の上にカーソルを置き、列名の横にある![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
 
-1. [&#x200B; カスタム指標設定](custom-metric-settings.md)を指定します。
+1. [ カスタム指標設定](custom-metric-settings.md)を指定します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 1. 左側の列または右側の列の列名をクリックし、右側のセクションの&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. [&#x200B; カスタム指標設定](custom-metric-settings.md)を編集します。
+1. [ カスタム指標設定](custom-metric-settings.md)を編集します。
 
 1. **[!UICONTROL Submit]**&#x200B;をクリックします。
 
@@ -78,13 +78,13 @@ ht-degree: 0%
 
 1. [!UICONTROL Available Metrics]または[!UICONTROL Table Columns] リストの列名をクリックし、右側のセクションの&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. [&#x200B; カスタム指標設定](custom-metric-settings.md)を編集します。
+1. [ カスタム指標設定](custom-metric-settings.md)を編集します。
 
 1. **[!UICONTROL Submit]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタム指標について](custom-metric-about.md)
->* [&#x200B; カスタム指標を作成](custom-metric-create.md)
->* [&#x200B; カスタム指標を削除](custom-metric-delete.md)
->* [&#x200B; カスタム指標設定](custom-metric-settings.md)
+>* [ カスタム指標について](custom-metric-about.md)
+>* [ カスタム指標を作成](custom-metric-create.md)
+>* [ カスタム指標を削除](custom-metric-delete.md)
+>* [ カスタム指標設定](custom-metric-settings.md)

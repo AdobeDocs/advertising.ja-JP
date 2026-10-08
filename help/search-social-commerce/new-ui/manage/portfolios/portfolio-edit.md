@@ -32,8 +32,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 複数のポートフォリオの設定を一度に編集するには、「[&#x200B; （新しいUI） バルクシート ファイルを使用したポートフォリオ設定の一括編集](portfolio-bulksheets.md)」を参照してください。
->* 完全なポートフォリオ設定を開かずにポートフォリオの名前をすばやく変更するには、「[&#x200B; ポートフォリオの名前を変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)」を参照してください。
+>* 複数のポートフォリオの設定を一度に編集するには、「[ （新しいUI） バルクシート ファイルを使用したポートフォリオ設定の一括編集](portfolio-bulksheets.md)」を参照してください。
+>* 完全なポートフォリオ設定を開かずにポートフォリオの名前をすばやく変更するには、「[ ポートフォリオの名前を変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)」を参照してください。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;をクリックします。
 
@@ -53,8 +53,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI）一括シートファイルを使用したポートフォリオ設定の一括編集](portfolio-bulksheets.md)
->* [&#x200B; ポートフォリオを作成](portfolio-create.md)
->* [&#x200B; （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
->* [&#x200B; （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード &#x200B;](portfolio-view-report.md)
->* [&#x200B; ポートフォリオについて](portfolio-about.md)
+>* [ （新しいUI）一括シートファイルを使用したポートフォリオ設定の一括編集](portfolio-bulksheets.md)
+>* [ ポートフォリオを作成](portfolio-create.md)
+>* [ （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
+>* [ （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード ](portfolio-view-report.md)
+>* [ ポートフォリオについて](portfolio-about.md)

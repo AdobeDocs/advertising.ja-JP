@@ -54,7 +54,7 @@ DSPでは、次の広告タイプをすべて利用できます。 各広告タ�
 
   ユニバーサルビデオ広告は、ユニバーサルビデオの配置にのみ添付できます。
 
-  ユニバーサルビデオ広告について詳しくは、「[&#x200B; ユニバーサルビデオに関するよくある質問](/help/dsp/campaign-management/faq-universal-video.md)」を参照してください。
+  ユニバーサルビデオ広告について詳しくは、「[ ユニバーサルビデオに関するよくある質問](/help/dsp/campaign-management/faq-universal-video.md)」を参照してください。
 
 ## DSP広告の承認
 
@@ -64,7 +64,7 @@ DSPでは、次の広告タイプをすべて利用できます。 各広告タ�
 
 DSPが広告を承認すると、広告の「ステータス」列に緑のドットが表示されます。
 
-[!UICONTROL Status]列![&#128279;](/help/dsp/assets/ad-approval-status.png)の承認指標
+[!UICONTROL Status]列](/help/dsp/assets/ad-approval-status.png)の![承認指標
 
 >[!NOTE]
 >

@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Add Destination]**&#x200B;をクリックします。
 
-1. 宛先タイプによって異なる[&#x200B; レポート宛先設定](/help/dsp/reports/report-destinations/report-destination-settings.md)を指定します。
+1. 宛先タイプによって異なる[ レポート宛先設定](/help/dsp/reports/report-destinations/report-destination-settings.md)を指定します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [ レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md)
 >* [宛先の設定を報告](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)を編集
->* [&#x200B; レポートの宛先を削除](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [ レポートの宛先を削除](/help/dsp/reports/report-destinations/report-destination-delete.md)

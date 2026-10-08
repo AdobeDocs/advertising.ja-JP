@@ -47,7 +47,7 @@ ht-degree: 0%
 
    1. （ユーザーID リマーケティングリストのオーディエンスを作成するには） [!DNL Adobe]管理者ユーザーまたはアカウントマネージャーは、顧客一致オーディエンスを有効にするために、広告主レベルの設定を選択する必要があります。
 
-   1. [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) バージョン 2.0以降を実装します。
+   1. [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) バージョン 2.0以降を実装します。
 
    1. オーディエンスを追跡する必要がある広告主のweb ページに、次のタグをできるだけ高くデプロイします
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    1. 作成する&#x200B;**[!UICONTROL Audience Type]**&#x200B;を選択：**[!UICONTROL Customer List_User ID]**。
 
-      広告主の[!DNL Google Ads] アカウントは[&#x200B; カスタムマッチの対象](https://support.google.com/adspolicy/answer/6299717)で、[&#x200B; ユーザーID リマーケティング &#x200B;](https://support.google.com/google-ads/answer/9199250)にオプトインしている必要があります。
+      広告主の[!DNL Google Ads] アカウントは[ カスタムマッチの対象](https://support.google.com/adspolicy/answer/6299717)で、[ ユーザーID リマーケティング ](https://support.google.com/google-ads/answer/9199250)にオプトインしている必要があります。
 
    1. 「[!DNL Adobe]」および広告ネットワークのプライバシーポリシーの条件に同意することを示すチェックボックスをオンにします。
 
@@ -95,11 +95,11 @@ ht-degree: 0%
 >
 >* [!DNL Google]は、ファイルの処理に最大24時間かかる場合があります。
 >
->* 顧客の一致の仕組みと制限に関する[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/displayvideo/answer/9539301)を参照してください。
+>* 顧客の一致の仕組みと制限に関する[[!DNL Google Ads]  ドキュメント ](https://support.google.com/displayvideo/answer/9539301)を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンスについて](audience-about.md)
+>* [ オーディエンスについて](audience-about.md)
 >* [Adobe Campaignのメールリストから [!DNL Google Ads] 顧客マッチオーディエンスを作成](google-audience-from-campaign-email-list.md)
 >* [顧客データリストを使用した顧客一致オーディエンスの管理](audience-from-customer-data-list.md)
 >* [動的リマーケティングオーディエンスの管理](audience-dynamic-remarketing-manage.md)

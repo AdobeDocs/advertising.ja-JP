@@ -71,7 +71,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]:** （クライアントフィードファイルのテンプレートの場合はオプション） キャンペーンレベルのトラッキングテンプレート。すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的なURLをパラメーターに埋め込みます。 この値はアカウントレベルの設定よりも優先されますが、より詳細なレベル（キーワードが最も詳細なレベル）でテンプレートを追跡すると、この値よりも優先されます。
 
-キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合は、 [!DNL Google Ads]  ショッピングキャンペーン [&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の トラッキングテンプレート形式を使用します。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
+キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合は、 [!DNL Google Ads]  ショッピングキャンペーン ](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[ トラッキングテンプレート形式を使用します。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
 
 サードパーティのリダイレクトとトラッキングの場合は、値を入力します。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]:**&#x200B;広告を配置するネットワーク。 *[!UICONTROL Search]*&#x200B;は既に選択されています。 [!DNL Google Ads]件の検索パートナーのリストに入札を含めるには、**[!UICONTROL Search partners]**&#x200B;の横にあるチェックボックスをオンにします。
 
-**[!UICONTROL Campaign Priority]:**&#x200B;複数のキャンペーンが次のキャンペーンを宣伝する場合にキャンペーンが使用される優先度
+**[!UICONTROL Campaign Priority]:**複数のキャンペーンが次のキャンペーンを宣伝する場合にキャンペーンが使用される優先度
 同じ製品：*[!UICONTROL Low]* （新しいキャンペーンのデフォルト）、*[!UICONTROL Medium]*&#x200B;または&#x200B;*[!UICONTROL High]*。 同じ商品が複数のキャンペーンに含まれる場合、広告ネットワークは
 最初にキャンペーンの優先順位を指定して、どのキャンペーン（および関連する入札）が広告オークションの対象となるかを決定します。 すべてのキャンペーンの優先順位が同じ場合、入札額が最も高いキャンペーンが実施要件を満たします。
 
@@ -180,5 +180,5 @@ Adobe Advertisingのコンバージョントラッキングでは、値を入力
 >* [在庫フィードを使用した広告管理の自動化について](../inventory-feeds-about.md)
 >* [修飾子の管理](../modifiers-manage.md)
 >* [在庫データフィードファイルの管理](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
->* [&#x200B; テンプレートを通じてフィード データを伝達](../feed-data-propagate.md)
+>* [ テンプレートを通じてフィード データを伝達](../feed-data-propagate.md)
 >* [在庫フィードのキャンペーンデータを広告ネットワークに投稿](../propagated-data-post.md)

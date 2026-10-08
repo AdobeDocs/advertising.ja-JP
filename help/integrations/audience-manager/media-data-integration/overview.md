@@ -58,7 +58,7 @@ DSPでは、Audience Managerにこれらのシグナルを送信する料金は�
 
 * クリエイターをまたいだ配信頻度の上限、過去のキャンペーンに触れた利用者のリターゲティング、下流サイトの行動やエントリポイントの分析など、ユースケースごとにキャンペーンデータを活用できます。
 
-* 集約されたデータは、キャンペーンのパフォーマンスの統合ビューを提供し、カスタムコンバージョンパスの特定に役立ちます。Audience Manager [!DNL Audience Optimization Reports]またはAdobe Analytics [&#128279;](/help/integrations/audience-manager/audience-analytics.md)との[!DNL Audience Analytics] 統合を通じて、コンバージョンにつながるイベントのシーケンスを改善するために使用できます。
+* 集約されたデータは、キャンペーンのパフォーマンスの統合ビューを提供し、カスタムコンバージョンパスの特定に役立ちます。Audience Manager [!DNL Audience Optimization Reports]またはAdobe Analytics ](/help/integrations/audience-manager/audience-analytics.md)との[[!DNL Audience Analytics] 統合を通じて、コンバージョンにつながるイベントのシーケンスを改善するために使用できます。
 
 ## データの追跡方法
 
@@ -66,17 +66,17 @@ Audience Managerのインプレッションとクリックのイベントピク�
 
 ### インプレッション追跡ピクセル
 
-Audience Managerは、1xl ピクセルの透明なイベントトラッキングピクセルを広告にアタッチすると、広告のインプレッションデータをトラッキングします。 イベントピクセルは、広告がユーザーに配信され、web ブラウザーによって読み込まれるたびに読み込まれます。 ピクセルは、Audience Managerのレガシードメインである[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja)のクライアント固有のサブドメインから読み込まれ、キーと値のペアとしてパラメーターを含みます。 イベント呼び出しは、インプレッションとコンバージョンデータを収集し、それをAudience Manager データ収集サーバーに送信します。
+Audience Managerは、1xl ピクセルの透明なイベントトラッキングピクセルを広告にアタッチすると、広告のインプレッションデータをトラッキングします。 イベントピクセルは、広告がユーザーに配信され、web ブラウザーによって読み込まれるたびに読み込まれます。 ピクセルは、Audience Managerのレガシードメインである[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)のクライアント固有のサブドメインから読み込まれ、キーと値のペアとしてパラメーターを含みます。 イベント呼び出しは、インプレッションとコンバージョンデータを収集し、それをAudience Manager データ収集サーバーに送信します。
 
 ### クリックトラッキングピクセル
 
-Audience Managerでは、広告が配信されるたびに透明なイベントピクセルが読み込まれない点を除いて、クリック数はインプレッション数と同様に追跡されます。 代わりに、クリックデータは広告のクリックスルーURLで追跡されます。 この広告は、Audience Manager データ コレクション サーバーによる処理のために、Audience Managerのレガシードメインである[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja)のクライアント固有のサブドメインを指しています。 その後、サーバーはユーザーを意図したランディングページにリダイレクトします。 URLには、キーと値のペアとしてパラメーターが含まれています。
+Audience Managerでは、広告が配信されるたびに透明なイベントピクセルが読み込まれない点を除いて、クリック数はインプレッション数と同様に追跡されます。 代わりに、クリックデータは広告のクリックスルーURLで追跡されます。 この広告は、Audience Manager データ コレクション サーバーによる処理のために、Audience Managerのレガシードメインである[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)のクライアント固有のサブドメインを指しています。 その後、サーバーはユーザーを意図したランディングページにリダイレクトします。 URLには、キーと値のペアとしてパラメーターが含まれています。
 
 >[!NOTE]
 >
->お客様の組織で[!DNL Analytics] トラッキングを使用している場合は、Audience Manager クリック トラッキングが不要になる可能性があります。 Adobe Analyticsはクリックのシグナルをキャプチャし、[&#x200B; サーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja)を通じてAudience Managerに送信できます。
+>お客様の組織で[!DNL Analytics] トラッキングを使用している場合は、Audience Manager クリック トラッキングが不要になる可能性があります。 Adobe Analyticsはクリックのシグナルをキャプチャし、[ サーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)を通じてAudience Managerに送信できます。
 
 >[!MORELIKETHIS]
 >
 >* [Advertising DSP キャンペーンからクリックとインプレッションのデータを収集](collect.md)
->* [&#x200B; ユースケース &#x200B;](use-cases.md)
+>* [ ユースケース ](use-cases.md)

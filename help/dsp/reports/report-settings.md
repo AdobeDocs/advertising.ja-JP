@@ -93,7 +93,7 @@ ht-degree: 0%
 * （オプション）フィルターに条件を追加します。
 * （オプション）フィルターを追加し、各フィルターに1つ以上の条件を追加します。
 
-\* *[!UICONTROL Account]*&#x200B;は、組織が[&#x200B; クロスアカウントレポート &#x200B;](report-about.md#cross-account-reporting)用に設定されている場合にのみ、次のレポートタイプで利用できます：[!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]、および[!UICONTROL Conversion]。 クロスアカウントレポートについて詳しくは、Adobe アカウントチームにお問い合わせください。
+\* *[!UICONTROL Account]*&#x200B;は、組織が[ クロスアカウントレポート ](report-about.md#cross-account-reporting)用に設定されている場合にのみ、次のレポートタイプで利用できます：[!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]、および[!UICONTROL Conversion]。 クロスアカウントレポートについて詳しくは、Adobe アカウントチームにお問い合わせください。
 
 **[!UICONTROL Include data from Adobe Advertising SSC]:** （[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]、および[!UICONTROL Time to Conversion]件のレポートのみ）指定したAdvertising Search、Social、およびCommerce キャンペーンの検索広告のクリックに関するデータが含まれます。 このオプションを選択すると、次のようになります。
 
@@ -216,7 +216,7 @@ ht-degree: 0%
 
   1. 「**新しい宛先を追加**」をクリックします。
 
-  1. [&#x200B; レポートの宛先設定](/help/dsp/reports/report-destinations/report-destination-settings.md)を入力し、**保存**&#x200B;をクリックします。
+  1. [ レポートの宛先設定](/help/dsp/reports/report-destinations/report-destination-settings.md)を入力し、**保存**&#x200B;をクリックします。
 
   1. レポート設定に戻り、**宛先名を更新をクリックします。**
 
@@ -224,12 +224,12 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて](/help/dsp/reports/report-about.md)
->* [&#x200B; カスタムレポートを作成](/help/dsp/reports/report-create.md)
->* [&#x200B; カスタムレポートを複製](/help/dsp/reports/report-copy.md)
->* [&#x200B; カスタムレポートを編集](/help/dsp/reports/report-edit.md)
->* [&#x200B; カスタムレポートをダウンロード &#x200B;](/help/dsp/reports/report-download.md)
->* [&#x200B; カスタムレポートを実行](/help/dsp/reports/report-run-now.md)
->* [&#x200B; カスタムレポート設定](/help/dsp/reports/report-settings.md)
->* [&#x200B; レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [ カスタムレポートについて](/help/dsp/reports/report-about.md)
+>* [ カスタムレポートを作成](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートを複製](/help/dsp/reports/report-copy.md)
+>* [ カスタムレポートを編集](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポートをダウンロード ](/help/dsp/reports/report-download.md)
+>* [ カスタムレポートを実行](/help/dsp/reports/report-run-now.md)
+>* [ カスタムレポート設定](/help/dsp/reports/report-settings.md)
+>* [ レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md)
 >* [使用可能なレポート列](/help/dsp/reports/report-columns.md)

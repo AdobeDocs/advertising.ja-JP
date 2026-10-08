@@ -23,7 +23,7 @@ ht-degree: 0%
 ---
 # [!DNL Google Ads]件のレスポンシブ検索広告の設定
 
-[!DNL Google Ads]は、最大3つの見出しと2つの説明を含む[&#x200B; レスポンシブ検索広告](https://support.google.com/google-ads/answer/7684791?hl=en) （RSA）を動的に組み立てます。
+[!DNL Google Ads]は、最大3つの見出しと2つの説明を含む[ レスポンシブ検索広告](https://support.google.com/google-ads/answer/7684791?hl=en) （RSA）を動的に組み立てます。
 
 >[!NOTE]
 >

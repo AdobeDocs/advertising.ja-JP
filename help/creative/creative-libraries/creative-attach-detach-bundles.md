@@ -32,7 +32,7 @@ ht-degree: 0%
 
 <!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
-標準ディスプレイクリエイティブを標準ディスプレイバンドルに、標準ビデオクリエイティブを標準ビデオバンドルに、動的ディスプレイクリエイティブを動的ディスプレイバンドルに、動的ビデオクリエイティブを動的ビデオバンドルに添付して、[広告エクスペリエンス &#x200B;](/help/creative/experiences/experience-about.md)に追加できます。 各バンドルには、各\[ クリエイティブサイズまたはデュレーション+言語\]の組み合わせのいずれかを1つだけ含めることができます。
+標準ディスプレイクリエイティブを標準ディスプレイバンドルに、標準ビデオクリエイティブを標準ビデオバンドルに、動的ディスプレイクリエイティブを動的ディスプレイバンドルに、動的ビデオクリエイティブを動的ビデオバンドルに添付して、[広告エクスペリエンス ](/help/creative/experiences/experience-about.md)に追加できます。 各バンドルには、各\[ クリエイティブサイズまたはデュレーション+言語\]の組み合わせのいずれかを1つだけ含めることができます。
 
 <!--
 You can also detach a creative from a bundle to remove the association between the two, so that the creative is no longer used for experiences that target the bundle. Detaching a creative from the bundle doesn't delete the creative from the Creatives tab in your creative library.
@@ -40,7 +40,7 @@ You can also detach a creative from a bundle to remove the association between t
 
 >[!NOTE]
 >
-><!-- also -->できます [&#x200B; クリエイティブをバンドルに添付し、バンドルビューからクリエイティブをバンドルから分離](/help/creative/creative-libraries/bundle-manage.md)。
+><!-- also -->できます [ クリエイティブをバンドルに添付し、バンドルビューからクリエイティブをバンドルから分離](/help/creative/creative-libraries/bundle-manage.md)。
 
 <!--
  Hide header until second procedure is available (if we add that):
@@ -63,7 +63,7 @@ You can also detach a creative from a bundle to remove the association between t
 
    クリエイティブタイプの対象となる各バンドルは、右側のフレームに一覧表示されます。 クリエイティブが既にアタッチされているバンドルは一覧表示されますが、選択できません。
 
-1. （オプション） ![&#x200B; カード表示](/help/creative/assets/card-view-button.png " カード表示")をクリックしてカード表示を開くか、![表/リスト表示](/help/creative/assets/table-view-button.png "テーブルビュー")をクリックしてテーブル表示に戻すことで、デフォルトのテーブルビューと使用可能なバンドルのカード表示を切り替えます。
+1. （オプション） ![ カード表示](/help/creative/assets/card-view-button.png " カード表示")をクリックしてカード表示を開くか、![表/リスト表示](/help/creative/assets/table-view-button.png "テーブルビュー")をクリックしてテーブル表示に戻すことで、デフォルトのテーブルビューと使用可能なバンドルのカード表示を切り替えます。
 
 1. 右側のフレームで、クリエイティブを添付する各バンドルの横にあるチェックボックスをオンにし、**[!UICONTROL Attach Creative to Bundle]**&#x200B;をクリックします。
 
@@ -119,5 +119,5 @@ You can also detach a creative from a bundle to remove the association between t
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; クリエイティブバンドルの管理](/help/creative/creative-libraries/bundle-manage.md)
+>* [ クリエイティブバンドルの管理](/help/creative/creative-libraries/bundle-manage.md)
 >* [標準クリエイティブをクリエイティブライブラリに追加](creative-add-standard.md)

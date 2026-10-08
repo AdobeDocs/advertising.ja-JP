@@ -31,8 +31,8 @@ ht-degree: 0%
 
 * [プレースメントに制約を割り当て、プレースメントから制約を割り当て解除する](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 
-* [&#x200B; ラベル分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)をプレースメントに割り当てる
+* [ ラベル分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)をプレースメントに割り当てる
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+>* [ プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)

@@ -65,7 +65,7 @@ ht-degree: 0%
 
      1. **[!UICONTROL Create a New Placement]**&#x200B;をクリックします。
 
-     1. [&#x200B; プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)を入力し、**[!UICONTROL Create Placement]**&#x200B;をクリックします。
+     1. [ プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)を入力し、**[!UICONTROL Create Placement]**&#x200B;をクリックします。
 
         配置タイプは、広告タイプによって決まります。
 
@@ -125,5 +125,5 @@ ht-degree: 0%
 >* [複数のサードパーティ広告を作成](ad-create-multiple.md)
 >* [広告を編集](ad-edit.md)
 >* [広告に関連付けられているプレースメントを一覧表示](ad-list-placements.md)
->* [&#x200B; プレースメントの広告スケジュールを編集](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
->* [&#x200B; ユニバーサルビデオに関するFAQ](/help/dsp/campaign-management/faq-universal-video.md)
+>* [ プレースメントの広告スケジュールを編集](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [ ユニバーサルビデオに関するFAQ](/help/dsp/campaign-management/faq-universal-video.md)

@@ -33,13 +33,13 @@ ht-degree: 0%
 
 1. 目的の宛先で、「編集」をクリックします
 
-1. [&#x200B; レポートの宛先設定](/help/dsp/reports/report-destinations/report-destination-settings.md)を編集します。
+1. [ レポートの宛先設定](/help/dsp/reports/report-destinations/report-destination-settings.md)を編集します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [&#x200B; レポートの宛先を作成](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [ レポートの宛先について](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [ レポートの宛先を作成](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [宛先の設定を報告](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [&#x200B; レポートの宛先を削除](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [ レポートの宛先を削除](/help/dsp/reports/report-destinations/report-destination-delete.md)

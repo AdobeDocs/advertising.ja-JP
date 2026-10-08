@@ -58,9 +58,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
->* [&#x200B; アップロードされたバルクシートとエラーファイルを削除](bulksheet-delete.md)
->* [&#x200B; バルクシートの投稿またはエラーファイルの修正](bulksheet-post.md)
+>* [ バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
+>* [ アップロードされたバルクシートとエラーファイルを削除](bulksheet-delete.md)
+>* [ バルクシートの投稿またはエラーファイルの修正](bulksheet-post.md)
 >* [進行中のバルクシート ジョブの停止](bulksheet-stop-job.md)
->* [&#x200B; バルクシートまたは修正されたエラーファイルをアップロード &#x200B;](bulksheet-upload.md)
+>* [ バルクシートまたは修正されたエラーファイルをアップロード ](bulksheet-upload.md)
 >* [生成またはアップロードされたバルクシート ファイルを書き出す](bulksheet-export.md)

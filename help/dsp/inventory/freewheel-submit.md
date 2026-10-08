@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [!DNL FreeWheel]のプログラムで保証された権限を持つ&#x200B;*アカウントのみ*
 
-広告の選択や、取引に使用するプログラマティック保証のデフォルトプレースメントの作成など、FreeWheel[&#128279;](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)上のパブリッシャーとのプログラマティック保証取引を承認したら、広告を[!DNL FreeWheel]に送信して承認を得る必要があります。
+広告の選択や、取引に使用するプログラマティック保証のデフォルトプレースメントの作成など、FreeWheel](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)上のパブリッシャーとのプログラマティック保証取引を[承認したら、広告を[!DNL FreeWheel]に送信して承認を得る必要があります。
 
 >[!PREREQUISITES]
 >
@@ -59,7 +59,7 @@ ht-degree: 0%
 
       * 広告名の横にある「**[!UICONTROL ...]** > **[!UICONTROL submit to FreeWheel]**」をクリックします。
 
-      * メインメニューで、**[!UICONTROL Inventory]** > **[!UICONTROL Deals]**&#x200B;をクリックします。 取引行で、![&#x200B; オプション メニュー](/help/dsp/assets/options-menu.png)/**[!UICONTROL submit to FreeWheel]**&#x200B;をクリックします。
+      * メインメニューで、**[!UICONTROL Inventory]** > **[!UICONTROL Deals]**&#x200B;をクリックします。 取引行で、![ オプション メニュー](/help/dsp/assets/options-menu.png)/**[!UICONTROL submit to FreeWheel]**&#x200B;をクリックします。
 
    1. 取引IDを確認し、手順1でコピーした&#x200B;**[!UICONTROL Ad Key]**&#x200B;を入力し、**[!UICONTROL Submit]**&#x200B;をクリックします。
 

@@ -38,73 +38,73 @@ ht-degree: 0%
 
 ### チャートビュー {#chart-view}
 
-3つの指標を使用して、すべてのキャンペーンをまたいで[時系列トレンドチャート &#x200B;](campaign-data-views-manage.md#data-visualizations-manage)をカスタマイズできます。 デフォルトでは、[!UICONTROL Net Spend]、[!UICONTROL Impressions]および[!UICONTROL Net CPM]のデータは別々のグラフ（トレリス グラフ）に含まれます。 オプションで指標を変更できます。 時系列トレンド チャートで時間別データを有効にするには、日付の選択を1日（[!UICONTROL Today]、[!UICONTROL Yesterday]、または特定の日）に変更します。
+3つの指標を使用して、すべてのキャンペーンをまたいで[時系列トレンドチャート ](campaign-data-views-manage.md#data-visualizations-manage)をカスタマイズできます。 デフォルトでは、[!UICONTROL Net Spend]、[!UICONTROL Impressions]および[!UICONTROL Net CPM]のデータは別々のグラフ（トレリス グラフ）に含まれます。 オプションで指標を変更できます。 時系列トレンド チャートで時間別データを有効にするには、日付の選択を1日（[!UICONTROL Today]、[!UICONTROL Yesterday]、または特定の日）に変更します。
 
-![3つの指標に対する個別の傾向チャート &#x200B;](/help/dsp/assets/trend-chart-separate.png)
+![3つの指標に対する個別の傾向チャート ](/help/dsp/assets/trend-chart-separate.png)
 
 また、オプションで3つの指標をオーバーレイして、異常値を簡単に検出し、スケールやパフォーマンスを向上させる領域を検出することもできます。
 
-![&#x200B; オーバーレイ付きトレンドチャート &#x200B;](/help/dsp/assets/trend-chart.png)
+![ オーバーレイ付きトレンドチャート ](/help/dsp/assets/trend-chart.png)
 
 ### テーブルビュー
 
-![&#x200B; キャンペーンリスト &#x200B;](/help/dsp/assets/campaigns-list.png)
+![ キャンペーンリスト ](/help/dsp/assets/campaigns-list.png)
 
-デフォルトでは、各キャンペーン行にはペーシングと配信の指標が含まれています。 ペーシング指標には[!UICONTROL Gross Spend (Lifetime)]が含まれます。これには、キャンペーン内のすべてのパッケージの実際のターゲット内支出と予想されるターゲット内支出のゲージが含まれます。これにより、パフォーマンスの低いキャンペーンを一目で特定できます。 オプションで[列ビュー](campaign-data-views-manage.md#column-view-change)を変更するか、[&#x200B; カスタム列ビュー](campaign-data-views-manage.md#column-view-create)を作成することもできます。
+デフォルトでは、各キャンペーン行にはペーシングと配信の指標が含まれています。 ペーシング指標には[!UICONTROL Gross Spend (Lifetime)]が含まれます。これには、キャンペーン内のすべてのパッケージの実際のターゲット内支出と予想されるターゲット内支出のゲージが含まれます。これにより、パフォーマンスの低いキャンペーンを一目で特定できます。 オプションで[列ビュー](campaign-data-views-manage.md#column-view-change)を変更するか、[ カスタム列ビュー](campaign-data-views-manage.md#column-view-create)を作成することもできます。
 
-さらに[追加の方法でデータテーブル &#x200B;](campaign-data-views-manage.md#data-tables-manage)をカスタマイズし、[表示データをフィルタリング &#x200B;](campaign-data-views-manage.md#filter-data-tables)できます。
+さらに[追加の方法でデータテーブル ](campaign-data-views-manage.md#data-tables-manage)をカスタマイズし、[表示データをフィルタリング ](campaign-data-views-manage.md#filter-data-tables)できます。
 
 キャンペーンをより詳細に表示するには、キャンペーン名をクリックします。
 
 #### アラート指標
 
-「[!UICONTROL Alerts]」列は、キャンペーンまたはその下の子エンティティに問題がある場合を示します。 ツールバーの右側にある[!UICONTROL Pulse Panel] アイコンは、リストされているエンティティに対してアラートが使用可能かどうかを示します。 詳しくは、「[&#x200B; アラートを表示](campaign-alerts.md)」を参照してください。
+「[!UICONTROL Alerts]」列は、キャンペーンまたはその下の子エンティティに問題がある場合を示します。 ツールバーの右側にある[!UICONTROL Pulse Panel] アイコンは、リストされているエンティティに対してアラートが使用可能かどうかを示します。 詳しくは、「[ アラートを表示](campaign-alerts.md)」を参照してください。
 
 ## 単一キャンペーンレポート {#single-campaign-reporting}
 
 キャンペーン内で、キャンペーンエンティティ [!UICONTROL Packages]、[!UICONTROL Placements]および[!UICONTROL Ads]に基づいてデータをフィルタリングできます。 さらに[表示データをフィルタリングして、表示するパッケージ、プレースメント、または広告のみを含めることができます](campaign-data-views-manage.md#filter-data-tables)。
 
-![&#x200B; キャンペーンエンティティのタブ &#x200B;](/help/dsp/assets/campaign-subtabs.png)
+![ キャンペーンエンティティのタブ ](/help/dsp/assets/campaign-subtabs.png)
 
 ### チャートビュー
 
-各キャンペーンについて、3つの指標を含む時系列トレンドチャート [&#128279;](campaign-data-views-manage.md#data-visualizations-manage)を カスタマイズできます。これらの指標は、各エンティティビューで利用できます。 キャンペーンのすべてのトレンドチャートで、同じ指標が保持されます。
+各キャンペーンについて、3つの指標を含む時系列トレンドチャート ](campaign-data-views-manage.md#data-visualizations-manage)を[ カスタマイズできます。これらの指標は、各エンティティビューで利用できます。 キャンペーンのすべてのトレンドチャートで、同じ指標が保持されます。
 
-詳しくは、クロスキャンペーン指標[&#128279;](#chart-view)に関する「 「チャートビュー」の節を参照してください。
+詳しくは、クロスキャンペーン指標](#chart-view)に関する「[ 「チャートビュー」の節を参照してください。
 
 ### テーブルビュー
 
-各エンティティタブでは、デフォルトで各行にペーシングと配信の指標が含まれますが、[列ビュー](campaign-data-views-manage.md#column-view-change)を変更するか、[&#x200B; カスタム列ビュー](campaign-data-views-manage.md#column-view-create)を作成して、キャンペーンのすべてのサブタブに適用できます。 さらに[&#x200B; データテーブル &#x200B;](campaign-data-views-manage.md#data-tables-manage)を追加の方法でカスタマイズできます。 各データテーブルには[!UICONTROL Subtotals]行が含まれており、表示されているすべての行に対する各指標の合計または平均値が表示されます。
+各エンティティタブでは、デフォルトで各行にペーシングと配信の指標が含まれますが、[列ビュー](campaign-data-views-manage.md#column-view-change)を変更するか、[ カスタム列ビュー](campaign-data-views-manage.md#column-view-create)を作成して、キャンペーンのすべてのサブタブに適用できます。 さらに[ データテーブル ](campaign-data-views-manage.md#data-tables-manage)を追加の方法でカスタマイズできます。 各データテーブルには[!UICONTROL Subtotals]行が含まれており、表示されているすべての行に対する各指標の合計または平均値が表示されます。
 
 #### アラート指標
 
-「[!UICONTROL Alerts]」列は、パッケージ、プレースメント、または広告（またはパッケージまたはプレースメントの下にあるすべての子エンティティ）に問題がある場合を示します。 「[!UICONTROL Alerts]」列は、キャンペーンまたはその下の子エンティティに問題がある場合を示します。 ツールバーの右側にある[!UICONTROL Pulse Panel] アイコンは、リストされているエンティティに対してアラートが使用可能かどうかを示します。 詳しくは、「[&#x200B; アラートを表示](campaign-alerts.md)」を参照してください。
+「[!UICONTROL Alerts]」列は、パッケージ、プレースメント、または広告（またはパッケージまたはプレースメントの下にあるすべての子エンティティ）に問題がある場合を示します。 「[!UICONTROL Alerts]」列は、キャンペーンまたはその下の子エンティティに問題がある場合を示します。 ツールバーの右側にある[!UICONTROL Pulse Panel] アイコンは、リストされているエンティティに対してアラートが使用可能かどうかを示します。 詳しくは、「[ アラートを表示](campaign-alerts.md)」を参照してください。
 
 ### その他の種類のキャンペーンレベルのレポート
 
-その他のデータの分類については、[&#x200B; キャンペーンレベルのレポートページ &#x200B;](/help/dsp/campaign-management/campaigns/campaign-view-report.md)を参照してください。 レポートには、[!UICONTROL Geography]、[!UICONTROL Device]、[!UICONTROL Viewability]、[!UICONTROL Audience Performance]のデータに関するセクションが含まれています。
+その他のデータの分類については、[ キャンペーンレベルのレポートページ ](/help/dsp/campaign-management/campaigns/campaign-view-report.md)を参照してください。 レポートには、[!UICONTROL Geography]、[!UICONTROL Device]、[!UICONTROL Viewability]、[!UICONTROL Audience Performance]のデータに関するセクションが含まれています。
 
 ### その他の種類のプレースメントレベルのレポート
 
-その他のデータ分類については、[&#x200B; プレースメントレベルのレポートページ &#x200B;](/help/dsp/campaign-management/placements/placement-view-report.md)を参照してください。 レポートには、[!UICONTROL Geography]、[!UICONTROL Device]、[!UICONTROL Viewability]、[!UICONTROL Audience Performance]、[!UICONTROL Notifications]および[!UICONTROL Ads]のデータに関するセクションが含まれています。
+その他のデータ分類については、[ プレースメントレベルのレポートページ ](/help/dsp/campaign-management/placements/placement-view-report.md)を参照してください。 レポートには、[!UICONTROL Geography]、[!UICONTROL Device]、[!UICONTROL Viewability]、[!UICONTROL Audience Performance]、[!UICONTROL Notifications]および[!UICONTROL Ads]のデータに関するセクションが含まれています。
 
 さらに、プレースメント設定内で次のデータを表示できます。
 
-* [A （詳細ビュー[!UICONTROL Inspector]） &#x200B;](placement-details-view.md)。プレースメントのターゲットサイト、広告、頻度データ、お得な情報をすべて表示します。
+* [A （詳細ビュー[!UICONTROL Inspector]） ](placement-details-view.md)。プレースメントのターゲットサイト、広告、頻度データ、お得な情報をすべて表示します。
 
-* [&#x200B; プレースメント予測レポート &#x200B;](/help/dsp/campaign-management/reports/placement-forecast.md)。
+* [ プレースメント予測レポート ](/help/dsp/campaign-management/reports/placement-forecast.md)。
 
-* [配置診断レポート &#x200B;](/help/dsp/campaign-management/reports/placement-diagnostics.md)。
+* [配置診断レポート ](/help/dsp/campaign-management/reports/placement-diagnostics.md)。
 
 
 ### その他の種類の広告レベルのレポート
 
-その他のデータの分類については、[広告レベルのレポートページ &#x200B;](/help/dsp/campaign-management/ads/ad-view-report.md)を参照してください。 レポートには、[!UICONTROL Overview]、[!UICONTROL Geography]および[!UICONTROL Viewability]のデータが含まれています。
+その他のデータの分類については、[広告レベルのレポートページ ](/help/dsp/campaign-management/ads/ad-view-report.md)を参照してください。 レポートには、[!UICONTROL Overview]、[!UICONTROL Geography]および[!UICONTROL Viewability]のデータが含まれています。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメントのサイト、広告、頻度の詳細を表示](placement-details-view.md)
->* [&#x200B; キャンペーンデータビューの管理](campaign-data-views-manage.md)
->* [&#x200B; キャンペーン管理ビューからデータをエクスポート &#x200B;](campaign-export-data.md)
->* [&#x200B; キャンペーンの詳細レポートを表示](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [&#x200B; アラートの表示](campaign-alerts.md)
+>* [ プレースメントのサイト、広告、頻度の詳細を表示](placement-details-view.md)
+>* [ キャンペーンデータビューの管理](campaign-data-views-manage.md)
+>* [ キャンペーン管理ビューからデータをエクスポート ](campaign-export-data.md)
+>* [ キャンペーンの詳細レポートを表示](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [ アラートの表示](campaign-alerts.md)

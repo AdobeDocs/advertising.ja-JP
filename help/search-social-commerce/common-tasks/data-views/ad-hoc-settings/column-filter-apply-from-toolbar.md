@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## （新しいUI）管理ビューのツールバーからデータフィルターを適用する
 
-1. ツールバーで、![&#x200B; フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター")をクリックします。
+1. ツールバーで、![ フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター")をクリックします。
 
 1. フィルター設定で、次のいずれかの操作を行います。
 
@@ -56,11 +56,11 @@ ht-degree: 0%
 
 ## （従来のUI）キャンペーン管理ビューのツールバーからデータフィルターを適用する
 
-1. ツールバーで、![&#x200B; フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックします。
+1. ツールバーで、![ フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックします。
 
 1. フィルター設定で、次のいずれかの操作を行います。
 
-   * フィルターを追加するには、![&#x200B; フィルターを追加](/help/search-social-commerce/assets/add.png " フィルターを追加") **[!UICONTROL ADD FILTER]**&#x200B;をクリックし、次の操作を行います。
+   * フィルターを追加するには、![ フィルターを追加](/help/search-social-commerce/assets/add.png " フィルターを追加") **[!UICONTROL ADD FILTER]**&#x200B;をクリックし、次の操作を行います。
 
      1. （オプション）列名をテキスト文字列でフィルタリングするには、**[!UICONTROL ADD FILTER]**&#x200B;入力フィールドに検索文字列を入力します。
 

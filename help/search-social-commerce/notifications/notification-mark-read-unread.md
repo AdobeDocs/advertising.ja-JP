@@ -25,7 +25,7 @@ ht-degree: 0%
 
 *Beta機能*
 
-通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;とマークすると、各ページの上部にある[!UICONTROL Notifications] リンクに表示されている未読の通知の数が変更されます（未読の通知カウンターを含む![通知アイコン &#x200B;](/help/search-social-commerce/assets/notifications-unread.png "未読の通知カウンター")など）。
+通知を&#x200B;*読み取り*&#x200B;または&#x200B;*未読*&#x200B;とマークすると、各ページの上部にある[!UICONTROL Notifications] リンクに表示されている未読の通知の数が変更されます（未読の通知カウンターを含む![通知アイコン ](/help/search-social-commerce/assets/notifications-unread.png "未読の通知カウンター")など）。
 
 *読み取り*&#x200B;とマークされた通知は、明るい色のテキストですが、削除するまで利用できます。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. [通知パネルまたは通知センター](notification-view.md)を開きます。
 
-1. アラート名の上にカーソルを置き、![既読または未読としてマーク &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
+1. アラート名の上にカーソルを置き、![既読または未読としてマーク ](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
 
 >[!MORELIKETHIS]
 >
@@ -41,5 +41,5 @@ ht-degree: 0%
 >* [通知を表示](notification-view.md)
 >* [通知を削除](notification-delete.md)
 >* [通知設定を編集](notification-edit.md)
->* [&#x200B; プッシュ通知を[!UICONTROL Notification Center]](notifications-push-enable-disable.md)から有効または無効にする
+>* [ プッシュ通知を[!UICONTROL Notification Center]](notifications-push-enable-disable.md)から有効または無効にする
 >* [Web アプリケーション [!UICONTROL Notification Center]をインストールしてアンインストールする](notification-app-install-uninstall.md)

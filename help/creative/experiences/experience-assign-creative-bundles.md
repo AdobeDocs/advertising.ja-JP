@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->最終ノードごとに少なくとも1つのクリエイティブバンドルを割り当てない場合は、[&#x200B; エクスペリエンスを保存](experience-create-targeting.md)するときに、割り当てられていない各ノードにデフォルトのクリエイティブを使用することを選択できます。 エクスペリエンスを公開するには、バンドルを割り当てるか、最終的なノードごとにデフォルトのクリエイターを使用する必要があります。
+>最終ノードごとに少なくとも1つのクリエイティブバンドルを割り当てない場合は、[ エクスペリエンスを保存](experience-create-targeting.md)するときに、割り当てられていない各ノードにデフォルトのクリエイティブを使用することを選択できます。 エクスペリエンスを公開するには、バンドルを割り当てるか、最終的なノードごとにデフォルトのクリエイターを使用する必要があります。
 
 <!-- 1. [ways to get to the decision tree] -->
 
@@ -50,9 +50,9 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
-1. （オプション） [割り当てられたバンドルのクリエイティブの最適化とスケジュール &#x200B;](experience-optimization-scheduling-targeting.md)をカスタマイズします。
+1. （オプション） [割り当てられたバンドルのクリエイティブの最適化とスケジュール ](experience-optimization-scheduling-targeting.md)をカスタマイズします。
 
-1. （オプション） [割り当てられたバンドル内のクリエイティブのトラッキング URLをカスタマイズ &#x200B;](experience-tracking-urls-targeting.md)。
+1. （オプション） [割り当てられたバンドル内のクリエイティブのトラッキング URLをカスタマイズ ](experience-tracking-urls-targeting.md)。
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
@@ -66,11 +66,11 @@ These formatted steps are inserted automatically from text in the following file
 >[!MORELIKETHIS]
 >
 >* [最終レベルにターゲットノードを追加](experience-target-node-add-final.md)
->* [&#x200B; ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
->* [&#x200B; ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)
+>* [ ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
+>* [ ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)
 >* [子ノードとクリエイターを同じレベルの別のノードにコピー](experience-target-node-copy.md)
 >* [決定木ターゲティングでエクスペリエンスを作成](experience-create-targeting.md)
 >* [決定木ターゲティングでエクスペリエンスを編集](experience-edit-targeting.md)
->* [&#x200B; ターゲット設定](experience-settings-targeting.md)
->* [&#x200B; ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](experience-tag-export.md)
->* [&#x200B; エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)
+>* [ ターゲット設定](experience-settings-targeting.md)
+>* [ ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](experience-tag-export.md)
+>* [ エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)

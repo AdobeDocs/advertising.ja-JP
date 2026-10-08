@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ## エクスペリエンスの導入と管理
 
-（必要なすべての広告要素を含む）ライブエクスペリエンスを作成したら、[&#x200B; エクスペリエンス全体のJavaScriptまたはiframe タグを生成できます](experience-tag-export.md)。 エクスペリエンスタグを広告としてAdobe Advertising DSPのキャンペーンにアップロードするか、サードパーティのDSPに広告として実装できます。
+（必要なすべての広告要素を含む）ライブエクスペリエンスを作成したら、[ エクスペリエンス全体のJavaScriptまたはiframe タグを生成できます](experience-tag-export.md)。 エクスペリエンスタグを広告としてAdobe Advertising DSPのキャンペーンにアップロードするか、サードパーティのDSPに広告として実装できます。
 
 >[!NOTE]
 >
@@ -89,15 +89,15 @@ ht-degree: 0%
 
 * [!UICONTROL Creative] > [!UICONTROL Experiences] ビューで[!UICONTROL Metrics] オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。
 
-  ![指標オプション &#x200B;](/help/creative/assets/metrics-option.png "指標オプション ")
+  ![指標オプション ](/help/creative/assets/metrics-option.png "指標オプション ")
 
 * [!UICONTROL Experiences] ビューから[任意のエクスペリエンスの詳細なパフォーマンスデータを](experience-performance-details.md)表示できます。
 
-* エクスペリエンス全体のパフォーマンスを監視するには、[&#x200B; カスタムクリエイティブレポート &#x200B;](/help/creative/reports/report-manage.md)を作成します。
+* エクスペリエンス全体のパフォーマンスを監視するには、[ カスタムクリエイティブレポート ](/help/creative/reports/report-manage.md)を作成します。
 
 ## アラート指標
 
-「[!UICONTROL Alerts]」列は、エクスペリエンスまたはその下にあるすべての子クリエイティブに問題がある場合を示します。 ツールバーの右側にある[!UICONTROL Pulse Panel] アイコンは、子クリエイティブを含め、エクスペリエンスにアラートが使用できるかどうかを示します。 詳しくは、「[&#x200B; アラートを表示](/help/creative/reports/alerts-view.md)」を参照してください。
+「[!UICONTROL Alerts]」列は、エクスペリエンスまたはその下にあるすべての子クリエイティブに問題がある場合を示します。 ツールバーの右側にある[!UICONTROL Pulse Panel] アイコンは、子クリエイティブを含め、エクスペリエンスにアラートが使用できるかどうかを示します。 詳しくは、「[ アラートを表示](/help/creative/reports/alerts-view.md)」を参照してください。
 
 ## 顧客体験のステータス {#experience-statuses}
 
@@ -128,19 +128,19 @@ ht-degree: 0%
 
 * ターゲティングを使用したエクスペリエンスを[作成](/help/creative/experiences/experience-create-targeting.md)および[編集](/help/creative/experiences/experience-edit-targeting.md)する
 
-* [Create](/help/creative/experiences/experience-create-no-targeting.md)、[edit](/help/creative/experiences/experience-edit-no-targeting.md)、および[&#x200B; ターゲティングなしでエクスペリエンスの広告タグ &#x200B;](/help/creative/experiences/experience-tag-create-manually.md)を手動で作成する
+* [Create](/help/creative/experiences/experience-create-no-targeting.md)、[edit](/help/creative/experiences/experience-edit-no-targeting.md)、および[ ターゲティングなしでエクスペリエンスの広告タグ ](/help/creative/experiences/experience-tag-create-manually.md)を手動で作成する
 
-* [&#x200B; エクスペリエンスを複製](experience-clone.md)
+* [ エクスペリエンスを複製](experience-clone.md)
 
-* [&#x200B; エクスペリエンスをプレビュー](experience-preview.md)
+* [ エクスペリエンスをプレビュー](experience-preview.md)
 
-* [&#x200B; エクスペリエンスのデモ URL &#x200B;](experience-share-demo-url.md)を共有
+* [ エクスペリエンスのデモ URL ](experience-share-demo-url.md)を共有
 
-* [&#x200B; エクスペリエンスの広告タグを書き出します](experience-tag-export.md)。オプションで、広告タグをAdvertising DSP キャンペーンに直接アップロードすることもできます
+* [ エクスペリエンスの広告タグを書き出します](experience-tag-export.md)。オプションで、広告タグをAdvertising DSP キャンペーンに直接アップロードすることもできます
 
-* [&#x200B; エクスペリエンスを削除](experience-delete.md)
+* [ エクスペリエンスを削除](experience-delete.md)
 
 >[!MORELIKETHIS]
 >
 >* [決定木ターゲティングでエクスペリエンスを作成](experience-create-targeting.md)
->* [&#x200B; ターゲティングせずにエクスペリエンスを作成](experience-create-no-targeting.md)
+>* [ ターゲティングせずにエクスペリエンスを作成](experience-create-no-targeting.md)

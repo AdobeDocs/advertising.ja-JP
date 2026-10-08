@@ -29,13 +29,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ポートフォリオの変更については、[&#x200B; ポートフォリオの変更履歴](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)も参照してください。
+>ポートフォリオの変更については、[ ポートフォリオの変更履歴](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)も参照してください。
 
 ## （新しいUI） [!UICONTROL History Logs] レポートを表示 {#history-logs-open}
 
 1. メインメニューで、**[!UICONTROL Reports]** > **[!UICONTROL History Logs]**&#x200B;をクリックします。
 
-1. （オプション） [&#x200B; ビューに含まれるデータを変更](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)。
+1. （オプション） [ ビューに含まれるデータを変更](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)。
 
 ### [!UICONTROL History Logs]のレポートのダウンロードを管理
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. [履歴ログを開きます](#history-logs-open)。
 
-1. 右上の「![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
+1. 右上の「![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
 
 1. [!UICONTROL Grid Reports]設定で、一意のレポート名を入力し、**[!UICONTROL Generate]**&#x200B;をクリックします。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
    ファイルが[!UICONTROL Recently Generated] リストに追加されます。
 
-1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -59,9 +59,9 @@ ht-degree: 0%
 
 1. [履歴ログを開きます](#history-logs-open)。
 
-1. 右上の「![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
+1. 右上の「![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
 
-1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 1. [履歴ログを開きます](#history-logs-open)。
 
-1. 右上の「![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
+1. 右上の「![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
 
 1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    * （列の値でデータをフィルタリングするには）次のいずれかの操作を行います。
 
-     * [**[!UICONTROL Add Filter]** リンク &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)を使用してフィルターを適用します。
+     * [**[!UICONTROL Add Filter]** リンク ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)を使用してフィルターを適用します。
 
      * [列見出しメニュー](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)からフィルターを適用します。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
         * （特定の範囲の場合） - **[!UICONTROL Custom Date Range]**&#x200B;を選択し、開始日と終了日を指定します。
 
-          MM/DD/YYYYまたはMM-DD-YYYY形式で日付を入力するか、各フィールドの横にある![&#x200B; カレンダー](/help/search-social-commerce/assets/calendar.png " カレンダー")をクリックしてカレンダーを開き、日付を選択します。 過去31日間のデータのみを含めることができます。
+          MM/DD/YYYYまたはMM-DD-YYYY形式で日付を入力するか、各フィールドの横にある![ カレンダー](/help/search-social-commerce/assets/calendar.png " カレンダー")をクリックしてカレンダーを開き、日付を選択します。 過去31日間のデータのみを含めることができます。
 
      1. **[!UICONTROL Apply]**&#x200B;をクリックします。
 
@@ -109,6 +109,6 @@ ht-degree: 0%
 
       レポートが完了すると、[!UICONTROL Download] メニューに表示されます。
 
-   1. （レポートデータをファイルで開いたり保存したりするには） ファイル名の横にある![&#x200B; レポートをXLSとしてダウンロード &#x200B;](/help/search-social-commerce/assets/download-spreadsheet2.png " レポートをXLSとしてダウンロード ")をクリックし、ブラウザーの通常の手順に従ってファイルを開いたり保存したりします。
+   1. （レポートデータをファイルで開いたり保存したりするには） ファイル名の横にある![ レポートをXLSとしてダウンロード ](/help/search-social-commerce/assets/download-spreadsheet2.png " レポートをXLSとしてダウンロード ")をクリックし、ブラウザーの通常の手順に従ってファイルを開いたり保存したりします。
 
       詳しくは、ブラウザーのオンラインヘルプを参照してください。

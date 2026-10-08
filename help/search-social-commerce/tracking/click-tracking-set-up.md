@@ -26,7 +26,7 @@ Search, Social, &amp; Commerceでクリックをトラッキングするには�
 
 1. [広告主の広告ネットワークアカウントとキャンペーンごとに正しいトラッキングオプションを指定](#set-up-click-tracking-options)。
 
-1. 必要に応じて、[&#x200B; トラッキング URLを生成し、一部のキャンペーン要素に](#generate-upload-tracking-urls) アップロードします。
+1. 必要に応じて、[ トラッキング URLを生成し、一部のキャンペーン要素に](#generate-upload-tracking-urls) アップロードします。
 
 1. [いくつかのクリックトラッキング URLの形式を検証し、それらをテストして、正しいランディングページが開くことを検証します](#validate-tracking-urls)。
 
@@ -38,7 +38,7 @@ Search, Social, &amp; Commerceでクリックをトラッキングするには�
 
    1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Accounts]**&#x200B;をクリックします。
 
-   1. アカウント名の上にカーソルを置き、![&#x200B; メニューアイコン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
+   1. アカウント名の上にカーソルを置き、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
 
    1. **[!UICONTROL Set Account Tracking]**&#x200B;をクリックします。
 
@@ -52,7 +52,7 @@ Search, Social, &amp; Commerceでクリックをトラッキングするには�
 
    1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
-   1. キャンペーン名の上にカーソルを置き、![&#x200B; メニューアイコン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
+   1. キャンペーン名の上にカーソルを置き、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
 
    1. **[!UICONTROL Set Campaign Tracking]**&#x200B;をクリックします。 次に、オプションを&#x200B;**[!UICONTROL Override Account Tracking]**&#x200B;に選択します。
 
@@ -64,7 +64,7 @@ Search, Social, &amp; Commerceでクリックをトラッキングするには�
 
 ## トラッキング URLの生成とアップロード {#generate-upload-tracking-urls}
 
-「[&#x200B; クリックトラッキング URLを生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)」を参照してください。
+「[ クリックトラッキング URLを生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)」を参照してください。
 
 ### クリックトラッキング URLの形式をテストする {#validate-tracking-urls}
 
@@ -95,4 +95,4 @@ Search, Social, &amp; Commerceでクリックをトラッキングするには�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; クリックトラッキング URLを生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
+>* [ クリックトラッキング URLを生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)

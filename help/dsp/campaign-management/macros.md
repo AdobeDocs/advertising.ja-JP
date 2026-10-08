@@ -110,7 +110,7 @@ DSPでは、次の操作を行うと、サードパーティの表示タグに�
 
 ## [!DNL Analytics for Advertising]個のマクロ
 
-[[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)のお客様向けに特別に使用できる追加のマクロについては、「[追加 [!DNL Analytics for Advertising]  マクロを [!DNL Flashtalking] 広告タグ &#x200B;](/help/integrations/analytics/macros-flashtalking.md)」および「[追加 [!DNL Analytics for Advertising]  マクロを [!DNL Google Campaign Manager 360] 広告タグ &#x200B;](/help/integrations/analytics/macros-google-campaign-manager.md)」を参照してください。
+[[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)のお客様向けに特別に使用できる追加のマクロについては、「[追加 [!DNL Analytics for Advertising]  マクロを [!DNL Flashtalking] 広告タグ ](/help/integrations/analytics/macros-flashtalking.md)」および「[追加 [!DNL Analytics for Advertising]  マクロを [!DNL Google Campaign Manager 360] 広告タグ ](/help/integrations/analytics/macros-google-campaign-manager.md)」を参照してください。
 
 ## マクロエラーのトラブルシューティング
 
@@ -123,10 +123,10 @@ DSPでは、次の操作を行うと、サードパーティの表示タグに�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディオ広告設定](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [&#x200B; コネクテッド TV広告の設定](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [ オーディオ広告設定](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [ コネクテッド TV広告の設定](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
 >* [広告設定の表示](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [&#x200B; モバイル広告設定](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [&#x200B; ネイティブ広告設定](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [広告設定のプレロール &#x200B;](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
->* [&#x200B; ユニバーサル動画広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
+>* [ モバイル広告設定](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [ ネイティブ広告設定](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [広告設定のプレロール ](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [ ユニバーサル動画広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

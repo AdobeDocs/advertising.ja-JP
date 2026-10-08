@@ -39,7 +39,7 @@ ht-degree: 0%
 >
 > PG取引の場合、発行者はすべての予算ペーシング、予算上限設定、およびターゲティングを処理します。 PGからDSPを使用できるすべてのSSPは、発行者が予算上限を設定できることを確認します。
 >
-> [!DNL FreeWheel]でパブリッシャーとのプログラム的な保証取引を設定するには、追加の権限と手順が必要です。 詳しくは、「 [!DNL FreeWheel]&#x200B;[&#128279;](freewheel-overview.md)でのプログラマティック保証取引の設定の概要」を参照してください。
+> [!DNL FreeWheel]でパブリッシャーとのプログラム的な保証取引を設定するには、追加の権限と手順が必要です。 詳しくは、「 [!DNL FreeWheel]](freewheel-overview.md)でのプログラマティック保証取引の設定の概要」を参照してください。[
 
 ## [!DNL Deal ID Inbox]を使用してプログラムによる保証契約を設定します {#pg-setup-deal-id-inbox}
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
    * 複数のPG取引IDを持つ提案を受け入れる場合は、作成する必要がある各PGのデフォルトプレースメントを特定します。 必要なプレースメントをすべて作成すると、「続行」ボタンが有効になります。
 
-1. （オプション） ![&#x200B; オプションメニュー](/help/dsp/assets/options-menu.png)**>[!UICONTROL Attach new placement]**&#x200B;をクリックして、追加のPGまたは非PG配置でPG取引をターゲットにします。
+1. （オプション） ![ オプションメニュー](/help/dsp/assets/options-menu.png)**>[!UICONTROL Attach new placement]**&#x200B;をクリックして、追加のPGまたは非PG配置でPG取引をターゲットにします。
 
    取引では、あらゆるメディアタイプ（コネクテッド TV、デスクトップ PC、オーディオなど）の組み合わせをサポートする複数の配置をターゲットにすることができます。
 
@@ -71,14 +71,14 @@ ht-degree: 0%
 
    取引のPG デフォルトプレースメントを作成することは、購入の100%を提供するために必須です。 この種類のプレースメントにはターゲティングがないので、DSPはパブリッシャーからのすべての入札リクエストに入札を返すことができます。
 
-1. （オプション） ![&#x200B; オプションメニュー](/help/dsp/assets/options-menu.png)**>[!UICONTROL Attach new placement]**&#x200B;をクリックして、追加のPGまたは非PG配置でPG取引をターゲットにします。
+1. （オプション） ![ オプションメニュー](/help/dsp/assets/options-menu.png)**>[!UICONTROL Attach new placement]**&#x200B;をクリックして、追加のPGまたは非PG配置でPG取引をターゲットにします。
 
    取引では、あらゆるメディアタイプ（コネクテッド TV、デスクトップ PC、オーディオなど）の組み合わせをサポートする複数の配置をターゲットにすることができます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プログラマティック保証取引について](programmatic-guaranteed-about.md)
->* [&#x200B; プログラマティック保証取引の交渉に関するヒント &#x200B;](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [ プログラマティック保証取引について](programmatic-guaranteed-about.md)
+>* [ プログラマティック保証取引の交渉に関するヒント ](/help/dsp/inventory/programmatic-guaranteed-tips.md)
 >* [様とのプログラムで保証された契約の広告を送信 [!DNL FreeWheel]](freewheel-submit.md)
 >* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)で取引を承諾
 >* [取引IDの詳細を手動で作成する](deal-id-create.md)

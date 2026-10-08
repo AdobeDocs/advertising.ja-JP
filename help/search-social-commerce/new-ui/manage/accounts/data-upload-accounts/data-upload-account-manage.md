@@ -20,7 +20,7 @@ ht-degree: 0%
 
 以下は、アカウントデータをアップロードするアドネットワークアカウントのアカウントの詳細を管理する手順です。
 
-各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+各広告ネットワークで使用できる機能について詳しくは、「[ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 広告ネットワークの名前をクリックし、**[!UICONTROL Next]**&#x200B;をクリックします。
 
-1. [&#x200B; アカウント設定](#account-settings)を指定します。
+1. [ アカウント設定](#account-settings)を指定します。
 
    1. 「**[!UICONTROL Account Details]**」タブで、アカウントの詳細を編集します。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. [&#x200B; アカウント設定](#account-settings-upload)を編集します。
+1. [ アカウント設定](#account-settings-upload)を編集します。
 
    1. （オプション）「**[!UICONTROL Account Details]**」タブで、アカウントの詳細を編集します。
 

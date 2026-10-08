@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->画像タグとJavaScript タグの使用状況について詳しくは、「[&#x200B; トラッキングタグに関するFAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)」を参照してください。
+>画像タグとJavaScript タグの使用状況について詳しくは、「[ トラッキングタグに関するFAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)」を参照してください。
 
 * HTTPを使用するサイトの安全でないタグ：
 

@@ -24,7 +24,7 @@ ht-degree: 0%
 
 プレースメントは、広告を表示できるディスプレイネットワーク上の場所です。 配置の設定には、最大入札額とオプションのトラッキングパラメーターが含まれます。 配置レベルの設定は、広告グループまたはキャンペーンの設定を上書きします。
 
-[同期検索エンジンアカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)内の表示ネットワークをターゲットとする[&#x200B; サポート対象 [!DNL Google Ads]  キャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)の任意の広告グループに対してプレースメントを作成できます。
+[同期検索エンジンアカウント ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)内の表示ネットワークをターゲットとする[ サポート対象 [!DNL Google Ads]  キャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md)の任意の広告グループに対してプレースメントを作成できます。
 
 ## [!UICONTROL Placements] ビュー
 
@@ -40,4 +40,4 @@ ht-degree: 0%
 >
 >* [入札可能なプレースメントの管理](placement-manage.md)
 >* [負のプレースメントを作成](placement-negative-create.md)
->* [&#x200B; プレースメントとネガティブプレースメントのステータスを変更](placement-status-edit.md)
+>* [ プレースメントとネガティブプレースメントのステータスを変更](placement-status-edit.md)

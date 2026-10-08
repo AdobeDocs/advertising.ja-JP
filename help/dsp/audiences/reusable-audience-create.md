@@ -57,9 +57,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >オーディエンスを作成すると、右側のパネルに詳細な[&#x200B; オーディエンスサイズデータ &#x200B;](audience-about.md)が更新されます
+   >オーディエンスを作成すると、右側のパネルに詳細な[ オーディエンスサイズデータ ](audience-about.md)が更新されます
 
-   * [[!UICONTROL Third Party Segments]、[!UICONTROL First Party Segments]、[!UICONTROL Adobe Segments]、[!UICONTROL Custom Segments]、および[!UICONTROL Saved Audiences] タブ &#x200B;](audience-settings.md)で使用可能なセグメントを使用して、セグメントロジックを手動で作成するには、次の操作を行います。
+   * [[!UICONTROL Third Party Segments]、[!UICONTROL First Party Segments]、[!UICONTROL Adobe Segments]、[!UICONTROL Custom Segments]、および[!UICONTROL Saved Audiences] タブ ](audience-settings.md)で使用可能なセグメントを使用して、セグメントロジックを手動で作成するには、次の操作を行います。
 
      * （オプション）セグメント名、説明、またはパスを検索します。
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
         * 既存のオーディエンスの設定で、セグメントロジックパネルの上部にある「**[!UICONTROL More]**」 > 「**[!UICONTROL Copy to Clipboard]**」をクリックします。
 
-        * テキストエディターで、英数字のセグメント IDと[&#x200B; ブール構文](audience-segment-logic-syntax.md)を使用してセグメントロジックを手動で作成し、クリップボードにコピーします。
+        * テキストエディターで、英数字のセグメント IDと[ ブール構文](audience-segment-logic-syntax.md)を使用してセグメントロジックを手動で作成し、クリップボードにコピーします。
 
      1. **[!UICONTROL paste in an audience rule to begin building]**&#x200B;をクリックし、既存のセグメントロジックを入力フィールドに貼り付け、**[!UICONTROL Apply]**&#x200B;をクリックします。
 
@@ -135,9 +135,9 @@ ht-degree: 0%
 
 1. オーディエンスの構築：
 
-   1. 含めたり除外したりするオーディエンス特性を説明する1つ以上のプロンプトを入力します。 各プロンプトを送信するには、![&#x200B; プロンプトを送信](/help/dsp/assets/submit-prompt.png " プロンプトを送信")をクリックします。
+   1. 含めたり除外したりするオーディエンス特性を説明する1つ以上のプロンプトを入力します。 各プロンプトを送信するには、![ プロンプトを送信](/help/dsp/assets/submit-prompt.png " プロンプトを送信")をクリックします。
 
-      詳しくは、「[&#x200B; プロンプトの作成](#writing-prompts)」および「[&#x200B; オーディエンス概要の作成に関するベストプラクティス &#x200B;](#audience-brief-best-practices)」を参照してください。
+      詳しくは、「[ プロンプトの作成](#writing-prompts)」および「[ オーディエンス概要の作成に関するベストプラクティス ](#audience-brief-best-practices)」を参照してください。
 
       該当する場合、担当者は、より効果的なオーディエンス概要の作成に役立つ追加のセグメントフィルターを提案します。 提案を承認または却下できます。
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Audience Agentを使用して後でオーディエンスを編集することはできません。 代わりに、[&#x200B; オーディエンス式を手動で編集します](/help/dsp/audiences/reusable-audience-edit.md)。
+   >Audience Agentを使用して後でオーディエンスを編集することはできません。 代わりに、[ オーディエンス式を手動で編集します](/help/dsp/audiences/reusable-audience-edit.md)。
 
 ### プロンプトの作成の基本 {#writing-prompts}
 
@@ -183,7 +183,7 @@ ht-degree: 0%
 
   オーディエンスエージェントは、生成されたオーディエンス式をオーディエンスとして自動的に保存しません。 オーディエンスを保存するには、プロンプトエリアの外にある[!UICONTROL Create] ボタンをクリックする必要があるので、保存しない変更を取り消すことができます。
 
-オーディエンスのプロンプトを最適化する方法について詳しくは、「[&#x200B; オーディエンス概要の作成に関するベストプラクティス &#x200B;](#audience-brief-best-practices)」を参照してください。
+オーディエンスのプロンプトを最適化する方法について詳しくは、「[ オーディエンス概要の作成に関するベストプラクティス ](#audience-brief-best-practices)」を参照してください。
 
 <!--
 Consider starting by asking for what you should include.
@@ -281,10 +281,10 @@ Verify what info is carried over from session to session and what starts from sc
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンス管理について](audience-about.md)
->* [&#x200B; オーディエンス設定](audience-settings.md)
->* [&#x200B; オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
+>* [ オーディエンス管理について](audience-about.md)
+>* [ オーディエンス設定](audience-settings.md)
+>* [ オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
 >* [使用可能なサードパーティのデータプロバイダー](third-party-data-providers.md)
->* [&#x200B; カスタムセグメントを作成して実装](custom-segment-create.md)
+>* [ カスタムセグメントを作成して実装](custom-segment-create.md)
 >* [[!UICONTROL CCPA Opt-Out-of-Sale] セグメントを作成して実装](ccpa-opt-out-segment-create.md)
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)

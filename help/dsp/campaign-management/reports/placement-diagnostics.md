@@ -69,7 +69,7 @@ ht-degree: 0%
 
      1. 右上の「**[!UICONTROL Ad Approvals]**」をクリックします。
 
-     1. （オプション）広告を一時停止またはアクティブにするには、広告列のステータススイッチ（![&#x200B; ステータススイッチ &#x200B;](/help/dsp/assets/status-switch.png)）をクリックします。
+     1. （オプション）広告を一時停止またはアクティブにするには、広告列のステータススイッチ（![ ステータススイッチ ](/help/dsp/assets/status-switch.png)）をクリックします。
 
      1. （オプション）広告の設定を開くには、広告の横にある「**[!UICONTROL View Ad]**」をクリックします。
 
@@ -85,6 +85,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーン管理ビューのパフォーマンスレポートの種類](campaign-reports-about.md)
->* [&#x200B; プレースメント予測レポートを表示](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [ キャンペーン管理ビューのパフォーマンスレポートの種類](campaign-reports-about.md)
+>* [ プレースメント予測レポートを表示](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -49,7 +49,7 @@ ht-degree: 0%
 
      すべての行を選択するには、左上の「グローバル」チェックボックスをオンにします。
 
-1. [画像クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)、[HTML5 クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)、[柔軟性の高いHTML5 クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)、または[&#x200B; サードパーティのクリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)を編集します。
+1. [画像クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)、[HTML5 クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)、[柔軟性の高いHTML5 クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)、または[ サードパーティのクリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)を編集します。
 
    複数のクリエイターを同時に編集する場合：
 
@@ -61,7 +61,7 @@ ht-degree: 0%
    >
    >* （柔軟なHTML5 クリエイターのみ）属性は、1人のクリエイターに対してのみ編集できます。
 
-1. （柔軟なHTML5 クリエイティブ、オプション）変更を加えたら、画像の上にある![&#x200B; プレビュー](/help/creative/assets/preview.png " プレビュー")をクリックして、新しいクリエイティブをプレビューします。
+1. （柔軟なHTML5 クリエイティブ、オプション）変更を加えたら、画像の上にある![ プレビュー](/help/creative/assets/preview.png " プレビュー")をクリックして、新しいクリエイティブをプレビューします。
 
 1. **保存**&#x200B;をクリックします。
 
@@ -69,5 +69,5 @@ ht-degree: 0%
 >
 >* [標準クリエイティブをクリエイティブライブラリに追加](creative-add-standard.md)
 >* [標準クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md)
->* [&#x200B; クリエイティブをプレビュー](/help/creative/creative-libraries/creative-preview.md)
->* [&#x200B; クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
+>* [ クリエイティブをプレビュー](/help/creative/creative-libraries/creative-preview.md)
+>* [ クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)

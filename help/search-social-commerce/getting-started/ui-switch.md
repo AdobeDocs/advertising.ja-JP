@@ -35,4 +35,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ユーザーインターフェイスの構成方法](user-interface.md)
+>* [ ユーザーインターフェイスの構成方法](user-interface.md)

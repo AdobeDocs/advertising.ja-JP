@@ -50,4 +50,4 @@ ht-degree: 0%
 >
 >* [基本レポートと詳細レポートについて](basic-advanced-report-about.md)
 >* [基本および詳細レポート設定](basic-advanced-report-settings.md)
->* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)

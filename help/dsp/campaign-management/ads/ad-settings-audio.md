@@ -55,7 +55,7 @@ ht-degree: 0%
 
 **[!UICONTROL VAST Tag]:** （VAST タグを使用した広告のみ）サードパーティ広告ソースのURL。 VAST タグにオーディオメディアファイルのみが含まれていることを確認します。
 
-**[!UICONTROL Final VAST Tag]:** （VAST タグを使用した広告のみ）必要な[Advertising DSP トラッキングマクロ &#x200B;](/help/dsp/campaign-management/macros.md)が挿入されたサードパーティ広告ソースのURL （該当する場合）。
+**[!UICONTROL Final VAST Tag]:** （VAST タグを使用した広告のみ）必要な[Advertising DSP トラッキングマクロ ](/help/dsp/campaign-management/macros.md)が挿入されたサードパーティ広告ソースのURL （該当する場合）。
 
 **[!UICONTROL Select Rate]:** （権限を持つユーザーのみ） Adobeを通じて請求された事前交渉済み料金、または交渉した料金のうち、ベンダーを通じて請求された料金。 料金を追加するには、Adobe アカウントチームにお問い合わせください。
 
@@ -71,4 +71,4 @@ ht-degree: 0%
 >* [単一の広告を作成](ad-create.md)
 >* [広告に関連付けられているプレースメントを一覧表示](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [広告の仕様](ad-specs.md)
->* [DSP マクロ &#x200B;](/help/dsp/campaign-management/macros.md)
+>* [DSP マクロ ](/help/dsp/campaign-management/macros.md)

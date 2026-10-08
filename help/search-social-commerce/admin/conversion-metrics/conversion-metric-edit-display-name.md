@@ -23,13 +23,13 @@ ht-degree: 0%
 ---
 # コンバージョン指標の表示名の変更
 
-[&#x200B; コンバージョン &#x200B;](/help/search-social-commerce/glossary.md#c-d)指標がキャンペーンビューとポートフォリオ管理ビューおよびレポート [&#128279;](conversion-metric-edit-available.md)で使用可能な場合に、読みやすさのために、列見出しに表示される名前をオプションで変更できます。 例えば、*reg*&#x200B;という名前の変換指標を使用して登録データを収集する場合、オプションで表示名を変更して、「登録」として表示されるようにすることができます。
+[ コンバージョン ](/help/search-social-commerce/glossary.md#c-d)指標がキャンペーンビューとポートフォリオ管理ビューおよびレポート ](conversion-metric-edit-available.md)で[使用可能な場合に、読みやすさのために、列見出しに表示される名前をオプションで変更できます。 例えば、*reg*&#x200B;という名前の変換指標を使用して登録データを収集する場合、オプションで表示名を変更して、「登録」として表示されるようにすることができます。
 
 既存の表示名は削除できません。
 
 >[!NOTE]
 >
->Google Analytics[&#128279;](/help/search-social-commerce/admin/data-sources/data-source-about.md)の指標の場合、統合を更新または再認証すると、表示名に対する手動での変更はすべて上書きされます。 同様に、[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)または[再認証](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)しない限り、Google Analytics内での名前の変更は無視されます。
+>Google Analytics](/help/search-social-commerce/admin/data-sources/data-source-about.md)の[指標の場合、統合を更新または再認証すると、表示名に対する手動での変更はすべて上書きされます。 同様に、[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)または[再認証](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)しない限り、Google Analytics内での名前の変更は無視されます。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**&#x200B;をクリックします。
 

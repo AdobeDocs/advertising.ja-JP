@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新しいUI内のこのタスクの手順は、「（新しいUI） [&#x200B; レプリケート  [!DNL Google Ads]  キャンペーンを [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md)で使用できます」で確認できます。
+>新しいUI内のこのタスクの手順は、「（新しいUI） [ レプリケート  [!DNL Google Ads]  キャンペーンを [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md)で使用できます」で確認できます。
 
 同期したキャンペーンを[!DNL Google Ads] アカウントで直接、同期した[!DNL Microsoft Advertising] アカウントに拡張CPC （eCPC） キャンペーンとして書き出すことができます。 既存の入札額とキャンペーン予算が拡張されます。 既存の検索、ソーシャル、Commerce トラッキングは読み込まれません。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 >
 >ショッピング フィード ベースの表示キャンペーンを複製する場合は、まず[で [!DNL Google Merchant Center] 製品オファーを [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870)に複製します。 キャンペーンをレプリケートする場合は、インポートオプションで[!DNL Microsoft Merchant Center] ストアを選択して、ストアをフィードベースのオーディエンスキャンペーンにリンクします。
 
- [!DNL Google Ads]  キャンペーン [&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)からインポートされたものを確認してください。
+ [!DNL Google Ads]  キャンペーン ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)からインポートされたものを[確認してください。
 
 1. Search, Social, &amp; Commerce メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
@@ -74,13 +74,13 @@ ht-degree: 0%
 
 ## キャンペーン読み込みジョブのスケジュール設定の編集
 
- [!DNL Google Ads]  キャンペーン [&#128279;](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)からインポートされたものを確認してください。
+ [!DNL Google Ads]  キャンペーン ](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)からインポートされたものを[確認してください。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**&#x200B;をクリックします。
 
 1. インポートジョブの横にあるチェックボックスを選択し、![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックします。
 
-1. **[!UICONTROL Set schedule]** セクションで、[&#x200B; スケジュール設定](#campaign-import-settings)を指定します。
+1. **[!UICONTROL Set schedule]** セクションで、[ スケジュール設定](#campaign-import-settings)を指定します。
 
 1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
     デフォルトでは、ビューは[!UICONTROL List of Import Jobs] タブに開きます。
 
-  * [[!UICONTROL Import Logs] タブ &#x200B;](#campaign-import-log)から、「**[!UICONTROL List of Import Jobs]**」タブをクリックします。
+  * [[!UICONTROL Import Logs] タブ ](#campaign-import-log)から、「**[!UICONTROL List of Import Jobs]**」タブをクリックします。
 
 ## キャンペーン読み込みジョブの実行
 

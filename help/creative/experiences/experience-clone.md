@@ -42,4 +42,4 @@ ht-degree: 0%
 >
 >* [決定木ターゲティングでエクスペリエンスを作成](experience-create-targeting.md)
 >* [決定木ターゲティングを使用せずにエクスペリエンスを作成](experience-create-no-targeting.md)
->* [&#x200B; エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)
+>* [ エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)

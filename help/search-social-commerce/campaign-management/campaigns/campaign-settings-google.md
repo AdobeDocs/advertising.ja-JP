@@ -150,7 +150,7 @@ ht-degree: 0%
 
 **ヒント：**&#x200B;この設定を使用する場合は、[!UICONTROL Inventory Filter]設定でローカル広告を除外しないでください。
 
-**注：**&#x200B;のローカル在庫広告では、[!DNL Google Merchant Center]への2つの追加フィードが必要です。1つはローカル製品データで、もう1つはローカル製品の在庫で必要です。 [&#x200B; ローカルショッピング広告](https://www.google.com/retail/local-inventory-ads/)について詳しくは、[!DNL Google Ads]のドキュメントを参照してください。
+**注：**&#x200B;のローカル在庫広告では、[!DNL Google Merchant Center]への2つの追加フィードが必要です。1つはローカル製品データで、もう1つはローカル製品の在庫で必要です。 [ ローカルショッピング広告](https://www.google.com/retail/local-inventory-ads/)について詳しくは、[!DNL Google Ads]のドキュメントを参照してください。
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 * 特定の場所をターゲティングまたは除外するには：
 
-  * （国、州、大都市圏、または都市） **[!UICONTROL Location Target]** （![場所ターゲット &#x200B;](/help/search-social-commerce/assets/location-target.png "場所ターゲット ")）をクリックし、含める場所と除外する場所を見つけます。
+  * （国、州、大都市圏、または都市） **[!UICONTROL Location Target]** （![場所ターゲット ](/help/search-social-commerce/assets/location-target.png "場所ターゲット ")）をクリックし、含める場所と除外する場所を見つけます。
 
     * 場所とその子の場所を含めるには、隣接する円を1回クリックして、青いチェックマーク（![含める](/help/search-social-commerce/assets/include.png "含める")）が表示されます。
 
@@ -178,9 +178,9 @@ ht-degree: 0%
 
     * 場所を検索するには、入力フィールドに場所の最初の3文字を入力または貼り付けます。 検索結果で、含める場所の横にある&#x200B;**[!UICONTROL Include]**&#x200B;をクリックするか、除外する場所の横にある&#x200B;**[!UICONTROL Exclude]**&#x200B;をクリックします。
 
-  * （アドレスの近くの場所、含まれるターゲットのみ）をクリックし、**[!UICONTROL Radius Target]** （![半径ターゲット &#x200B;](/help/search-social-commerce/assets/radius-target.png "半径ターゲット ")）をクリックしてから、**[!UICONTROL Address]**&#x200B;をクリックします。 ターゲットとするアドレスの周りのアドレスと半径をマイルまたはキロメートル単位で入力し、**[!UICONTROL Add]**&#x200B;をクリックします。
+  * （アドレスの近くの場所、含まれるターゲットのみ）をクリックし、**[!UICONTROL Radius Target]** （![半径ターゲット ](/help/search-social-commerce/assets/radius-target.png "半径ターゲット ")）をクリックしてから、**[!UICONTROL Address]**&#x200B;をクリックします。 ターゲットとするアドレスの周りのアドレスと半径をマイルまたはキロメートル単位で入力し、**[!UICONTROL Add]**&#x200B;をクリックします。
 
-  * （地理座標の近くの場所、含まれるターゲットのみ）をクリックし、**[!UICONTROL Radius Target]** （![半径ターゲット &#x200B;](/help/search-social-commerce/assets/radius-target.png "半径ターゲット ")）をクリックしてから、**[!UICONTROL Coordinate]**&#x200B;をクリックします。 ターゲットとなる場所の緯度と経度と半径をマイルまたはキロメートル単位で入力し、**[!UICONTROL Add]**&#x200B;をクリックします。
+  * （地理座標の近くの場所、含まれるターゲットのみ）をクリックし、**[!UICONTROL Radius Target]** （![半径ターゲット ](/help/search-social-commerce/assets/radius-target.png "半径ターゲット ")）をクリックしてから、**[!UICONTROL Coordinate]**&#x200B;をクリックします。 ターゲットとなる場所の緯度と経度と半径をマイルまたはキロメートル単位で入力し、**[!UICONTROL Add]**&#x200B;をクリックします。
 
 * （含まれるターゲット場所の入札調整を追加するには）入札調整値を入力します。
 
@@ -392,7 +392,7 @@ ht-degree: 0%
 **[!UICONTROL Audience Signal]:** （オプション） キャンペーンのオーディエンスシグナルとして使用する[!DNL Google Ads] オーディエンス。 [!DNL Google Ads]個のマシンラーニング モデルは、オーディエンスを使用して、ターゲットとする類似のweb サーファーを見つけます。また、シグナルとして指定されていないオーディエンスに広告を表示して、パフォーマンス目標を達成するのに役立てることもできます。 コンバージョンに至る可能性が最も高いオーディエンスを特定：
 
 >[!NOTE]
->オーディエンスシグナルは、[&#x200B; キャンペーンレベルおよび広告グループレベルのオーディエンスターゲット &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)とは異なります。
+>オーディエンスシグナルは、[ キャンペーンレベルおよび広告グループレベルのオーディエンスターゲット ](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)とは異なります。
 
 **[!UICONTROL Primary Status]:** （パフォーマンスの最大キャンペーンの既存のアセットグループの読み取り専用フィールド）アセットグループがフルキャパシティで提供されている、または提供されていない理由。 アセットグループのステータスだけでなく、ポリシーや品質の承認など、その他のシグナルも考慮されます。 値には、*実施要件、* *制限付き、* *非実施要件、* *一時停止、* *保留中、* *削除済み、* *不明、*&#x200B;または&#x200B;*未指定*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->&#x200B;が含まれます。
 
@@ -404,14 +404,14 @@ ht-degree: 0%
 
 目標は毎日同期されるため、過去24時間に作成された既存の目標は一覧表示されない場合があります。 リストを更新するには、[広告ネットワークデータを手動で同期します](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)。
 
-カスタムコンバージョン目標を作成するには、**[!UICONTROL + Add custom goal]**&#x200B;をクリックし、カスタム目標名を入力し、カスタム目標に含める[&#x200B; コンバージョンアクション &#x200B;](https://support.google.com/google-ads/answer/6032150)を選択して、**[!UICONTROL Save]**&#x200B;をクリックします。 **注：**&#x200B;各キャンペーンには、1つのカスタム目標のみを設定できます。
+カスタムコンバージョン目標を作成するには、**[!UICONTROL + Add custom goal]**&#x200B;をクリックし、カスタム目標名を入力し、カスタム目標に含める[ コンバージョンアクション ](https://support.google.com/google-ads/answer/6032150)を選択して、**[!UICONTROL Save]**&#x200B;をクリックします。 **注：**&#x200B;各キャンペーンには、1つのカスタム目標のみを設定できます。
 
 >[!TIP]
 >
 >キャンペーンがハイブリッドポートフォリオの一部である場合、ベストプラクティスは、ポートフォリオの目的のコンバージョン目標に一致するキャンペーンレベルの目標を使用することです。追加のコンバージョン目標を含めると、ポートフォリオのパフォーマンスに影響を与える可能性があります。
 >
->ただし、[目標を広告ネットワーク &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md)にアップロードするハイブリッドポートフォリオのキャンペーンの場合は、ここで設定する代わりに、広告ネットワークのエディター内で次の操作を行います。a）アップロードされた検索、ソーシャル、およびCommerce ポートフォリオの目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョンアクションとして追加し、b）広告目標を追跡した指標が広告ネットワークにアップロードされないため、[!DNL Google] コンバージョンが追加されます。
+>ただし、[目標を広告ネットワーク ](/help/search-social-commerce/tools/objective-upload-to-networks.md)にアップロードするハイブリッドポートフォリオのキャンペーンの場合は、ここで設定する代わりに、広告ネットワークのエディター内で次の操作を行います。a）アップロードされた検索、ソーシャル、およびCommerce ポートフォリオの目標指標（「O_ACS_OBJ」で始まる）をキャンペーンのコンバージョンアクションとして追加し、b）広告目標を追跡した指標が広告ネットワークにアップロードされないため、[!DNL Google] コンバージョンが追加されます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [ キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)

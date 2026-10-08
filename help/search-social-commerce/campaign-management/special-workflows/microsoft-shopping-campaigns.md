@@ -31,15 +31,15 @@ ht-degree: 0%
 
 ## [!DNL Microsoft Advertising]件のショッピング キャンペーンを設定する手順
 
-[!DNL Microsoft Advertising]の[在庫フィード テンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)を使用するか、[&#x200B; バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用するか、個別にショッピング キャンペーンを設定できます。 次の手順には、個々のエンティティを作成するためのリンクが含まれています。
+[!DNL Microsoft Advertising]の[在庫フィード テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)を使用するか、[ バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用するか、個別にショッピング キャンペーンを設定できます。 次の手順には、個々のエンティティを作成するためのリンクが含まれています。
 
 1. [!DNL Microsoft Merchant Center] アカウントを設定し、製品データを入力します。
 
-1. [Search、Social、およびCommerceが [!DNL Microsoft Merchant Center]  アカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)からデータをダウンロードできるようにします。
+1. [Search、Social、およびCommerceが [!DNL Microsoft Merchant Center]  アカウント ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)からデータをダウンロードできるようにします。
 
-1. [&#x200B; ショッピング ネットワークでキャンペーン &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)を作成します。
+1. [ ショッピング ネットワークでキャンペーン ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)を作成します。
 
-1. [&#x200B; キャンペーン内で広告グループ &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)を作成し、すべての広告のデフォルト入札を設定します。
+1. [ キャンペーン内で広告グループ ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)を作成し、すべての広告のデフォルト入札を設定します。
 
    個々の製品グループのデフォルト入札を上書きできます。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    1. （オプション） [子製品グループを作成](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)。
 
-   1. 広告グループ内の各ショッピング広告[&#128279;](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)に含める可能性のある プロモーション行を含む[製品広告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)を作成します。
+   1. 広告グループ内の各ショッピング広告](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)に含める可能性のある[ プロモーション行を含む[製品広告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)を作成します。
 
       Microsoft Advertisingは、各広告の広告コピーとランディングページのURLを動的に生成します。
 
@@ -57,15 +57,15 @@ ht-degree: 0%
       >
       >広告グループに広告エンティティが含まれていない場合でも、[!DNL Microsoft Advertising]には製品の広告が表示されます。
 
-1. （オプション）広告のクリックを追跡するには、[&#x200B; トラッキング URL ツールを使用してトラッキング URLを生成します](/help/search-social-commerce/tools/click-tracking-url-generate.md)。 ベストプラクティスは、アカウント、キャンペーン、または製品グループの設定の[!UICONTROL Tracking Template] フィールドにトラッキング URLを追加することです。 メンテナンスを容易にするために、可能な限り高いレベルで追加してください。
+1. （オプション）広告のクリックを追跡するには、[ トラッキング URL ツールを使用してトラッキング URLを生成します](/help/search-social-commerce/tools/click-tracking-url-generate.md)。 ベストプラクティスは、アカウント、キャンペーン、または製品グループの設定の[!UICONTROL Tracking Template] フィールドにトラッキング URLを追加することです。 メンテナンスを容易にするために、可能な限り高いレベルで追加してください。
 
    または、[!DNL Microsoft Merchant Center] アカウント内の製品データにトラッキング URLを追加することもできます。 これを行うには、トラッキング URLを、必要に応じて「リンク」または「mobile_link」フィールドの値と共に、製品フィード内のカスタム列「[bingads_redirect](https://help.ads.microsoft.com/#apex/3/en/51084)」に含めます。 「bingads_redirect」フィールドの値は、「link」フィールドと「mobile_link」フィールドの値に置き換わります。 この方法で生成されたURLには、Search, Social, &amp; Commerce アカウントまたはキャンペーン設定で指定されたトラッキングパラメーターが含まれていません。
 
-1. [!UICONTROL Product Group Report]&#x200B;[&#128279;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)を生成して パフォーマンスを監視します。
+1. [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)を生成して[ パフォーマンスを監視します。
 
 1. 必要に応じて：
 
-   1. [&#x200B; キャンペーン設定を編集](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)して、キャンペーン予算を調整します。
+   1. [ キャンペーン設定を編集](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)して、キャンペーン予算を調整します。
 
       キャンペーンがポートフォリオの一部である場合、ポートフォリオ設定「[!UICONTROL Auto adjust campaign budget limits]」を使用すると、Search, Social, &amp; Commerceでポートフォリオ内のすべてのキャンペーンの予算を最適化できます。
 
@@ -73,5 +73,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* [&#x200B; バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)と[在庫フィード テンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)を使用して[!DNL Microsoft Shopping] キャンペーンと製品グループを管理するための必須フィールドを参照してください。
->* [!DNL Microsoft Shopping] キャンペーンについて詳しくは、[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/50903)を参照してください。
+>* [ バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)と[在庫フィード テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)を使用して[!DNL Microsoft Shopping] キャンペーンと製品グループを管理するための必須フィールドを参照してください。
+>* [!DNL Microsoft Shopping] キャンペーンについて詳しくは、[[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/50903)を参照してください。

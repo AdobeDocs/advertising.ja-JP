@@ -45,11 +45,11 @@ ht-degree: 0%
 >* [!DNL Analytics]は毎時間Adobe Advertisingにデータを渡します。
 
 * [!UICONTROL Timespent_secs_1stvisit]：訪問者の最初の訪問中にサイトに滞在した秒数。
-* [!UICONTROL Timespent_secs_total]&#x200B;: クリックのルックバックウィンドウ内のすべての訪問でサイトに費やされた合計秒数。
+* [!UICONTROL Timespent_secs_total]: クリックのルックバックウィンドウ内のすべての訪問でサイトに費やされた合計秒数。
 * [!UICONTROL Pageviews_1stvisit]：訪問者の初回訪問時のサイトのページビュー数。
 * [!UICONTROL Pageviews_total]: クリック ルックバック ウィンドウ内のすべての訪問における、サイト上のページビューの合計数。
-* [[!UICONTROL Bounces]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html?lang=ja)
-* [[!UICONTROL Visits]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=ja)
+* [[!UICONTROL Bounces]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
+* [[!UICONTROL Visits]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
 * [!UICONTROL ef_id_instances]: [!DNL Analytics]が[!UICONTROL EF ID]を収集した回数。
 
 ## コンバージョン指標
@@ -58,14 +58,14 @@ ht-degree: 0%
 
 ### 標準コンバージョン指標
 
-* [[!UICONTROL Revenue]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html?lang=ja)
-* [[!UICONTROL Orders]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html?lang=ja)
-* [[!UICONTROL Units]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html?lang=ja)
-* [[!UICONTROL Carts]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html?lang=ja)
-* [[!UICONTROL Cart Views]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html?lang=ja)
-* [[!UICONTROL Checkouts]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html?lang=ja)
-* [[!UICONTROL Cart Additions]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html?lang=ja)
-* [[!UICONTROL Cart Removals]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html?lang=ja)
+* [[!UICONTROL Revenue]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html)
+* [[!UICONTROL Orders]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html)
+* [[!UICONTROL Units]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html)
+* [[!UICONTROL Carts]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html)
+* [[!UICONTROL Cart Views]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html)
+* [[!UICONTROL Checkouts]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html)
+* [[!UICONTROL Cart Additions]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html)
+* [[!UICONTROL Cart Removals]指標](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html)
 
 ### カスタムコンバージョン指標
 

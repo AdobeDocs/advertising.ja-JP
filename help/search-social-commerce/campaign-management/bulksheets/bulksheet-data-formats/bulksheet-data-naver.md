@@ -54,9 +54,9 @@ Search, Social, &amp; Commerceに[!DNL Naver] アカウントを設定するに�
 >[!MORELIKETHIS]
 >
 >* [付録 – バルクシート エラー](../bulksheet-errors.md)
->* [&#x200B; バルクシートで実行できる操作](bulksheet-operations.md)
->* [&#x200B; サポートされているバルクシート ファイル形式](bulksheet-file-formats.md)
->* [&#x200B; バルクシート ファイルのダウンロードと作成](../bulksheet-download.md)
->*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の クリックトラッキング形式
->* [&#x200B; バルクシート ファイルをアップロードするか、エラーファイルを修正](../bulksheet-upload.md)
->* [&#x200B; トラッキング専用アカウントを実装 [!DNL Naver] します](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [ バルクシートで実行できる操作](bulksheet-operations.md)
+>* [ サポートされているバルクシート ファイル形式](bulksheet-file-formats.md)
+>* [ バルクシート ファイルのダウンロードと作成](../bulksheet-download.md)
+>*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の[ クリックトラッキング形式
+>* [ バルクシート ファイルをアップロードするか、エラーファイルを修正](../bulksheet-upload.md)
+>* [ トラッキング専用アカウントを実装 [!DNL Naver] します](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)

@@ -85,11 +85,11 @@ Adobe Advertising コンバージョントラッキングを使用するアカ�
 
 * 広告主がAdobe Analytics統合を持っている場合、接尾辞には次のいずれかを含める必要があります。
 
-  * パフォーマンスの最大キャンペーン、ドラフト、および実験キャンペーンのキャンペーンレベルおよび広告グループレベルのレポートをサポートする最新の[AMO ID形式](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items) （`s_kwcid`から始まる）を使用する[!DNL Google Ads] アカウント：
+  * パフォーマンスの最大キャンペーン、ドラフト、および実験キャンペーンのキャンペーンレベルおよび広告グループレベルのレポートをサポートする最新の[AMO ID形式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) （`s_kwcid`から始まる）を使用する[!DNL Google Ads] アカウント：
 
     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-    アカウントにサーバーサイド AMO ID実装があり、アカウントまたはキャンペーン設定「[!UICONTROL Auto Upload]」が有効になっている場合、パラメーターが自動的に追加されます。 それ以外は、手動で追加する必要があります。 「 [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)様が使用するAdobe Advertising ID を参照してください。」
+    アカウントにサーバーサイド AMO ID実装があり、アカウントまたはキャンペーン設定「[!UICONTROL Auto Upload]」が有効になっている場合、パラメーターが自動的に追加されます。 それ以外は、手動で追加する必要があります。 「 [!DNL Analytics]](/help/integrations/analytics/ids.md)様が使用するAdobe Advertising ID [を参照してください。」
 
   * その他[!DNL Google Ads] アカウントすべて：
 
@@ -108,4 +108,4 @@ Adobe Advertising コンバージョントラッキングを使用するアカ�
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising コンバージョントラッキングサービスのクリックトラッキング URL形式について](formats-click-tracking-about.md)
->* [AMO ID形式](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID形式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

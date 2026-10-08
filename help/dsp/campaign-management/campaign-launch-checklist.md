@@ -50,6 +50,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [ キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)
->* [&#x200B; パフォーマンスキャンペーンの設定に関するベストプラクティス &#x200B;](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [ パフォーマンスキャンペーンの設定に関するベストプラクティス ](/help/dsp/optimization/campaign-best-practices-performance.md)

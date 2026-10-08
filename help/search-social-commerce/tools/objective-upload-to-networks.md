@@ -53,11 +53,11 @@ Search, Social, &amp; Commerceでは、広告主アカウントのポートフ�
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
-1. （コンバージョンがマネージャーアカウントレベルで追跡されている場合） [&#x200B; マネージャーアカウントの資格情報](/help/search-social-commerce/admin/manager-accounts.md)を&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;に追加します。
+1. （コンバージョンがマネージャーアカウントレベルで追跡されている場合） [ マネージャーアカウントの資格情報](/help/search-social-commerce/admin/manager-accounts.md)を&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;に追加します。
 
 1. `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`という名前の各目的が2日以内に広告ネットワークに表示されることを確認します。
 
-   [!DNL Google Ads] エディターで、[&#x200B; コンバージョンアクション &#x200B;](https://support.google.com/google-ads/answer/11461796)を検索します。 [!DNL Microsoft Advertising] エディターで、[&#x200B; コンバージョン目標](https://help.ads.microsoft.com/#apex/ads/en/56709)を検索します。
+   [!DNL Google Ads] エディターで、[ コンバージョンアクション ](https://support.google.com/google-ads/answer/11461796)を検索します。 [!DNL Microsoft Advertising] エディターで、[ コンバージョン目標](https://help.ads.microsoft.com/#apex/ads/en/56709)を検索します。
 
    必要に応じて、アップロード日を含めるように日付範囲を更新します。
 

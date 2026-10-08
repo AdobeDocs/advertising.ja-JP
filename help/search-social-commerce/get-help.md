@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## オンラインヘルプを開く
 
-* 隣接するヘルプアイコン（![&#x200B; ヘルプアイコン &#x200B;](/help/search-social-commerce/assets/help-field.png " ヘルプアイコン ")）を含む用語の説明を表示するには、ヘルプアイコンの上にカーソルを置いて終了するか、ヘルプポップアップ内をクリックしてコンテンツをスクロールします。
+* 隣接するヘルプアイコン（![ ヘルプアイコン ](/help/search-social-commerce/assets/help-field.png " ヘルプアイコン ")）を含む用語の説明を表示するには、ヘルプアイコンの上にカーソルを置いて終了するか、ヘルプポップアップ内をクリックしてコンテンツをスクロールします。
 
   ヘルプ トピック内のリンクを開くには、使用する検索、ソーシャル、Commerce サイト（北米ユーザーの場合はhttps://enterprise-na.efrontier.com、その他のユーザーの場合はhttps://enterprise-intl.efrontier.comなど）のポップアップを許可するようにブラウザー設定を設定する必要があります。
 
@@ -37,19 +37,19 @@ ht-degree: 0%
 
   * ![Help](/help/search-social-commerce/assets/help-main-menu.png "Help") > **Search, Social, &amp; Commerce Help**。
 
-  * ![&#x200B; ヘルプ &#x200B;](/help/search-social-commerce/assets/help-main-menu.png " ヘルプ ") > **検索、ソーシャル、Commerce最適化ガイド**。
+  * ![ ヘルプ ](/help/search-social-commerce/assets/help-main-menu.png " ヘルプ ") > **検索、ソーシャル、Commerce最適化ガイド**。
 
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=ja).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## [!DNL Adobe]へのお問い合わせ
 
 製品またはアカウントの問題については、次の操作を行います。
 
-* （セルフサービス契約を持つ広告主） [https://experienceleague.adobe.com/home?lang=ja#support](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support)で組織のチケットを開きます。
+* （セルフサービス契約を持つ広告主） [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)で組織のチケットを開きます。
 
   製品に「[!UICONTROL Advertising - Search, Social, & Commerce]」を選択します。
 

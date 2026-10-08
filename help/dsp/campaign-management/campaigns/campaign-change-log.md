@@ -44,7 +44,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのキャンペーン管理について](campaign-about.md)
->* [&#x200B; キャンペーンを作成](campaign-create.md)
->* [&#x200B; キャンペーンを編集](campaign-edit.md)
->* [&#x200B; キャンペーン設定](campaign-settings.md)
->* [&#x200B; キャンペーンを一時停止またはアクティブ化](campaign-pause-activate.md)
+>* [ キャンペーンを作成](campaign-create.md)
+>* [ キャンペーンを編集](campaign-edit.md)
+>* [ キャンペーン設定](campaign-settings.md)
+>* [ キャンペーンを一時停止またはアクティブ化](campaign-pause-activate.md)

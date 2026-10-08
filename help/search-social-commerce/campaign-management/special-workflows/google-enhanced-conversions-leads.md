@@ -32,7 +32,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-[[!DNL Google Ads]  リード向け拡張コンバージョン &#x200B;](https://support.google.com/google-ads/answer/9888656)を使用すると、ファーストパーティのコンバージョンデータを使用して、ユーザーをオフラインコンバージョンにマッピングできます。 クリック IDが使用できない環境（web サイトのリードに起因する電話やメール販売のトラッキングなど）では、リードに対して拡張コンバージョンを使用します。
+[[!DNL Google Ads]  リード向け拡張コンバージョン ](https://support.google.com/google-ads/answer/9888656)を使用すると、ファーストパーティのコンバージョンデータを使用して、ユーザーをオフラインコンバージョンにマッピングできます。 クリック IDが使用できない環境（web サイトのリードに起因する電話やメール販売のトラッキングなど）では、リードに対して拡張コンバージョンを使用します。
 
 Search, Social, &amp; Commerceでは、次のことができます。
 
@@ -58,7 +58,7 @@ Search, Social, &amp; Commerceでは、次のことができます。
 
 1. コンバージョンアクションを追跡するためのタグを設定して実装します。
 
-   手順については、[!DNL Google Ads] ヘルプを参照して、a [!DNL Google]  タグ [&#128279;](https://support.google.com/google-ads/answer/11021502)を使用するリード または[を使用するリード  [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)の強化コンバージョン用のタグを作成します。
+   手順については、[!DNL Google Ads] ヘルプを参照して、a [!DNL Google]  タグ ](https://support.google.com/google-ads/answer/11021502)を使用するリード [または[を使用するリード  [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)の強化コンバージョン用のタグを作成します。
 
 1. [Search, Social, &amp; Google](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)または[Commerce Ads](https://support.google.com/google-ads/answer/12216226)内のリードに対して、強化されたコンバージョンのコンバージョンアクションを作成します。
 
@@ -74,5 +74,5 @@ Search, Social, &amp; Commerceでは、次のことができます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; リードの強化されたコンバージョン  [!DNL Google Ads] のコンバージョンアクションを作成](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
->* [&#x200B; オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
+>* [ リードの強化されたコンバージョン  [!DNL Google Ads] のコンバージョンアクションを作成](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* [ オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)

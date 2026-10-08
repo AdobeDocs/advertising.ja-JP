@@ -32,7 +32,7 @@ ht-degree: 0%
 1. メインメニューで、**[!UICONTROL Campaigns]**&#x200B;をクリックします。
 1. パッケージを作成するキャンペーンの名前をクリックします。
 1. 「パッケージ」タブで、**[!UICONTROL Create]** > **[!UICONTROL Package]**&#x200B;をクリックします。
-1. [&#x200B; パッケージ設定](package-settings.md)を入力します。
+1. [ パッケージ設定](package-settings.md)を入力します。
 1. **[!UICONTROL Save and Close]**&#x200B;をクリックします。
 
 パッケージを作成したら、そこにプレースメントを割り当てることができます。
@@ -40,9 +40,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのパッケージ管理について](package-about.md)
->* [&#x200B; パッケージの編集](package-edit.md)
->* [&#x200B; プレースメントをパッケージに添付](package-attach-placement.md)
->* [&#x200B; パッケージの変更ログを表示](package-change-log.md)
->* [&#x200B; パッケージを一時停止またはアクティブ化](package-pause-activate.md)
->* [&#x200B; パッケージ設定](package-settings.md)
->* [&#x200B; ビデオ：パッケージの作成方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=ja)
+>* [ パッケージの編集](package-edit.md)
+>* [ プレースメントをパッケージに添付](package-attach-placement.md)
+>* [ パッケージの変更ログを表示](package-change-log.md)
+>* [ パッケージを一時停止またはアクティブ化](package-pause-activate.md)
+>* [ パッケージ設定](package-settings.md)
+>* [ ビデオ：パッケージの作成方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)

@@ -82,7 +82,7 @@ ht-degree: 0%
 
 * 最終的なURLを埋め込むには：
 
-  * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799/2)または（[!DNL Google Ads]のみ）を参照してください。
+  * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799/2)または（[!DNL Google Ads]のみ）を参照してください。
 
   * （[!DNL LY Ads]のみ） パラメーター`!{unescapedurl}`を使用して、ランディングページ URLを示します。
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 * LY広告アカウントの場合は、パラメーター{lpurl}を使用します。
 
-* [!DNL Microsoft Advertising]および[!DNL Google Ads] アカウントで使用できるパラメーターについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)または「トラッキングテンプレートのみ」パラメーターを参照してください。
+* [!DNL Microsoft Advertising]および[!DNL Google Ads] アカウントで使用できるパラメーターについては、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の[[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799)または「トラッキングテンプレートのみ」パラメーターを参照してください。
 
 この値は、アカウントレベルとキャンペーンレベルの設定よりも優先されますが、より詳細なレベル（キーワードが最も詳細なレベル）でテンプレートを追跡すると、この値よりも優先されます。
 
@@ -201,7 +201,7 @@ ht-degree: 0%
 >* キーワードパラメーターの前または後の括弧内にコンマ区切りの値を囲むことで、「キーワード」フィールドに複数の修飾子値を手動で含めることができます（両方の場所にはありません）。 例えば、`(cheap, discount, affordable)[product]`は、各製品に対して3つの個別の広告を生成します。
 >* 一致タイプを指定しない場合、デフォルトの一致タイプ「broad」が使用されます。
 >* 負の一致はサポートされていません。
->* Googleの部分一致モディファイアは、一部の言語でフレーズ一致と同じマッチング動作を持つようになり、新しい部分一致モディファイアのキーワードを作成できません。 詳しくは、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/10286719)を参照してください。
+>* Googleの部分一致モディファイアは、一部の言語でフレーズ一致と同じマッチング動作を持つようになり、新しい部分一致モディファイアのキーワードを作成できません。 詳しくは、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/10286719)を参照してください。
 
 **[!UICONTROL Map Only]:**&#x200B;新しいキーワードを作成するのではなく、指定されたキーワードが見つかった広告グループ （または[!DNL Yandex] アカウントのキャンペーン）に新しい広告を追加します。 このオプションを有効にするには、チェックボックスをオンにします。 このオプションを有効にすると、キーワードが存在するため、指定したキーワードのパラメーター1変数とパラメーター2変数は適用されません。
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 
 * ランディングページ URLを指定するには：
 
-  * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）を参照してください。
+  * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）を参照してください。
 
   * （[!DNL LY Ads]のみ） パラメーター`!{lpurl}`を使用して、ランディングページ URLを示します。
 
@@ -355,7 +355,7 @@ ht-degree: 0%
 
 * [!DNL LY Ads] アカウントの場合は、パラメーター{lpurl}を使用します。
 
-* [!DNL Microsoft Advertising]および[!DNL Google Ads] アカウントで使用できるパラメーターについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)または「トラッキングテンプレートのみ」パラメーターを参照してください。
+* [!DNL Microsoft Advertising]および[!DNL Google Ads] アカウントで使用できるパラメーターについては、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の[[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799)または「トラッキングテンプレートのみ」パラメーターを参照してください。
 
 **\[元の広告フィールドの下の代替広告フィールド\]:** （オプション）広告の代替の広告コピーのセット。この広告コピーの代替セットは、元の広告コピー内の行のいずれかが、配信中に動的パラメーターにデータを入力した後に許可される最大長を超えた場合に使用できます。
 
@@ -404,5 +404,5 @@ ht-degree: 0%
 >* [在庫フィードを使用した広告管理の自動化について](../inventory-feeds-about.md)
 >* [修飾子の管理](../modifiers-manage.md)
 >* [在庫データフィードファイルの管理](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
->* [&#x200B; テンプレートを通じてフィード データを伝達](../feed-data-propagate.md)
+>* [ テンプレートを通じてフィード データを伝達](../feed-data-propagate.md)
 >* [在庫フィードのキャンペーンデータを広告ネットワークに投稿](../propagated-data-post.md)

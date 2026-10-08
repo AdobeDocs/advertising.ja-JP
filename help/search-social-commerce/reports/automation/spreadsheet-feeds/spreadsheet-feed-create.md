@@ -27,7 +27,7 @@ ht-degree: 0%
 
 通常のレポートテンプレートから作成する、特殊な形式の[!DNL Excel] スプレッドシート テンプレートを使用して、スプレッドシート フィードを設定します。
 
-1. [&#x200B; レポートデータを入力する [!DNL Excel]  テンプレートを作成します](spreadsheet-feed-create-excel-template.md)。
+1. [ レポートデータを入力する [!DNL Excel]  テンプレートを作成します](spreadsheet-feed-create-excel-template.md)。
 
 2. スプレッドシート フィードを作成します。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    1. データテーブルの上のツールバーで、**[!UICONTROL Create]**&#x200B;をクリックします。
 
-   1. **[!UICONTROL Add Spreadsheet Feed]** ダイアログで、[&#x200B; スプレッドシート フィード設定](spreadsheet-feed-settings.md)を指定します。
+   1. **[!UICONTROL Add Spreadsheet Feed]** ダイアログで、[ スプレッドシート フィード設定](spreadsheet-feed-settings.md)を指定します。
 
    1. **[!UICONTROL Submit]**&#x200B;をクリックします。
 
@@ -49,10 +49,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; スプレッドシート レポート フィードについて](spreadsheet-feed-about.md)
->* [&#x200B; スプレッドシート レポート フィード用の [!DNL Excel]  テンプレートを作成](spreadsheet-feed-create-excel-template.md)
->* [&#x200B; スプレッドシート レポート フィード設定の編集](spreadsheet-feed-edit.md)
->* [&#x200B; スプレッドシート レポート フィード設定](spreadsheet-feed-settings.md)
->* [&#x200B; スプレッドシート レポート フィード ファイルを表示または保存する](spreadsheet-feed-view-or-save.md)
->* [&#x200B; スプレッドシート レポート フィードを手動で更新する](spreadsheet-feed-refresh.md)
->* [&#x200B; スプレッドシート レポート フィードを削除](spreadsheet-feed-delete.md)
+>* [ スプレッドシート レポート フィードについて](spreadsheet-feed-about.md)
+>* [ スプレッドシート レポート フィード用の [!DNL Excel]  テンプレートを作成](spreadsheet-feed-create-excel-template.md)
+>* [ スプレッドシート レポート フィード設定の編集](spreadsheet-feed-edit.md)
+>* [ スプレッドシート レポート フィード設定](spreadsheet-feed-settings.md)
+>* [ スプレッドシート レポート フィード ファイルを表示または保存する](spreadsheet-feed-view-or-save.md)
+>* [ スプレッドシート レポート フィードを手動で更新する](spreadsheet-feed-refresh.md)
+>* [ スプレッドシート レポート フィードを削除](spreadsheet-feed-delete.md)

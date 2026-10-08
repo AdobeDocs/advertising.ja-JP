@@ -63,7 +63,7 @@ ht-degree: 0%
 
       1. プレースメント名を入力します。
 
-      1. （オプション） [&#x200B; プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)を編集します。これには、取引のCPM値が自動的に入力されるデフォルト入札額の上書き、日付範囲の変更、追加の広告の添付などが含まれます。
+      1. （オプション） [ プレースメント設定](/help/dsp/campaign-management/placements/placement-settings.md)を編集します。これには、取引のCPM値が自動的に入力されるデフォルト入札額の上書き、日付範囲の変更、追加の広告の添付などが含まれます。
 
       取引は、「在庫目標」セクションで自動的にターゲット設定されます。 その他のターゲティングオプションは適用できません。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [取引情報IDの手動設定](deal-id-settings.md)
->* [&#x200B; プログラム的な保証契約の設定](programmatic-guaranteed-set-up.md)
+>* [ プログラム的な保証契約の設定](programmatic-guaranteed-set-up.md)
 >* [様とのプログラムで保証された契約の広告を送信 [!DNL FreeWheel]](freewheel-submit.md)
->* [&#x200B; プログラマティック保証契約について](programmatic-guaranteed-about.md)
+>* [ プログラマティック保証契約について](programmatic-guaranteed-about.md)
 <!-- >* [Specify placements and ads for a private deal](deal-id-attach-placements.md)-->

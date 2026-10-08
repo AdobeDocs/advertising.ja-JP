@@ -105,7 +105,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; メディア企業のレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
+>* [ メディア企業のレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
 >* [発行者のレコメンデーションを適用または却下](recommendation-apply-dismiss.md)
->* [&#x200B; アカウントの発行者のレコメンデーションログを表示](recommendation-view-log.md)
->* [&#x200B; ポートフォリオでパブリッシャーのレコメンデーションを使用するためのベストプラクティス &#x200B;](recommendation-best-practices.md)
+>* [ アカウントの発行者のレコメンデーションログを表示](recommendation-view-log.md)
+>* [ ポートフォリオでパブリッシャーのレコメンデーションを使用するためのベストプラクティス ](recommendation-best-practices.md)

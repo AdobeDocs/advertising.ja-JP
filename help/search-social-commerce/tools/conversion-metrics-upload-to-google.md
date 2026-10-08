@@ -41,7 +41,7 @@ Search, Social, &amp; Commerceでは、Adobe Advertising コンバージョン�
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
-1. （コンバージョンがマネージャーアカウントレベルで追跡されている場合） [&#x200B; マネージャーアカウントの資格情報](/help/search-social-commerce/admin/manager-accounts.md)を&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;に追加します。
+1. （コンバージョンがマネージャーアカウントレベルで追跡されている場合） [ マネージャーアカウントの資格情報](/help/search-social-commerce/admin/manager-accounts.md)を&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;に追加します。
 
 >[!MORELIKETHIS]
 >

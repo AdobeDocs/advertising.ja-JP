@@ -36,6 +36,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
+>* [ バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
 >* [進行中のバルクシート ジョブの停止](bulksheet-stop-job.md)
 >* [生成またはアップロードされたバルクシート ファイルを書き出す](bulksheet-export.md)

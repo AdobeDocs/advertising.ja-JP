@@ -51,9 +51,9 @@ ht-degree: 0%
 
 **[!UICONTROL Display Code]:** （サードパーティ広告のみ） サードパーティのクリエイティブアセットのURL。 [timestamp]および[[timestamp]]のパラメーターはすべて、実際の値に置き換えられます。
 
-**[!UICONTROL Final Display Code]:** （サードパーティ広告のみ）必要な[Advertising DSP トラッキングマクロ &#x200B;](/help/dsp/campaign-management/macros.md)が挿入されたサードパーティのクリエイティブアセットのURL （該当する場合）。
+**[!UICONTROL Final Display Code]:** （サードパーティ広告のみ）必要な[Advertising DSP トラッキングマクロ ](/help/dsp/campaign-management/macros.md)が挿入されたサードパーティのクリエイティブアセットのURL （該当する場合）。
 
-**[!UICONTROL Ad Size]:**&#x200B;広告の幅と高さ。 [&#x200B; サポートされている標準ディスプレイ広告サイズ &#x200B;](ad-specs.md)である必要があります。 広告をアップロードする前に広告サイズを手動で入力するか、[!UICONTROL Display Code]を入力します。 広告サイズを入力しない場合、アップロードされた広告または広告タグのサイズは、自動的に読み取り専用として入力されます。
+**[!UICONTROL Ad Size]:**&#x200B;広告の幅と高さ。 [ サポートされている標準ディスプレイ広告サイズ ](ad-specs.md)である必要があります。 広告をアップロードする前に広告サイズを手動で入力するか、[!UICONTROL Display Code]を入力します。 広告サイズを入力しない場合、アップロードされた広告または広告タグのサイズは、自動的に読み取り専用として入力されます。
 
 >[!IMPORTANT]
 >
@@ -71,4 +71,4 @@ ht-degree: 0%
 >* [単一の広告を作成](ad-create.md)
 >* [広告に関連付けられているプレースメントを一覧表示](ad-list-placements.md)
 >* [広告の仕様](ad-specs.md)
->* [DSP マクロ &#x200B;](/help/dsp/campaign-management/macros.md)
+>* [DSP マクロ ](/help/dsp/campaign-management/macros.md)

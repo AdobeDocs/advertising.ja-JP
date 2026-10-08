@@ -16,13 +16,13 @@ ht-degree: 0%
 ---
 # カレンダーを使用して日付を指定
 
-1. 「![&#x200B; カレンダーボタン &#x200B;](/help/search-social-commerce/assets/calendar-date-range.png " カレンダーボタン ")」をクリックして、カレンダーを開きます。
+1. 「![ カレンダーボタン ](/help/search-social-commerce/assets/calendar-date-range.png " カレンダーボタン ")」をクリックして、カレンダーを開きます。
 
    >[!NOTE]
    >
    >カレンダーボタンは、日付入力オプションが選択されている場合にのみ有効にできます。
 
-   ![&#x200B; カレンダーを開いた](/help/search-social-commerce/assets/calendar-full.png " カレンダーを開いた")
+   ![ カレンダーを開いた](/help/search-social-commerce/assets/calendar-full.png " カレンダーを開いた")
 
 1. 次のいずれかのオプションを使用して日付を選択します。
 

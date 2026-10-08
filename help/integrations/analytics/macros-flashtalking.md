@@ -66,9 +66,9 @@ Advertising DSP広告に[!DNL Flashtalking]の広告タグを使用する場合�
 
 例：
 
-`https://www.adobe.com/jp/products/photoshop?[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
 
-`https://www.adobe.com/jp/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## 動画広告タグ
 
@@ -82,13 +82,13 @@ Advertising DSP広告に[!DNL Flashtalking]の広告タグを使用する場合�
 
 例：
 
-`https://www.adobe.com/jp/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
-`https://www.adobe.com/jp/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >
 >* [概要： [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)様が使用しているAdobe Advertising ID
->* [追加 [!DNL Analytics for Advertising]  マクロを [!DNL Google Campaign Manager 360] 広告タグ &#x200B;](/help/integrations/analytics/macros-google-campaign-manager.md)に追加
+>*  [!DNL Analytics]](/help/integrations/analytics/ids.md)様が使用している[Adobe Advertising ID
+>* [追加 [!DNL Analytics for Advertising]  マクロを [!DNL Google Campaign Manager 360] 広告タグ ](/help/integrations/analytics/macros-google-campaign-manager.md)に追加
 

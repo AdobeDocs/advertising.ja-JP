@@ -44,7 +44,7 @@ ht-degree: 0%
 >
 >請求可能な手数料は、[!UICONTROL Net CPM]指標に反映されます。
 
-パッケージレベルの設定は、[&#x200B; プレースメントレベル &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)で上書きできます。
+パッケージレベルの設定は、[ プレースメントレベル ](/help/dsp/campaign-management/placements/placement-settings.md)で上書きできます。
 
 ## [!UICONTROL Goals & Budget]
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** （パッケージレベルのペーシングを持ち、「[!UICONTROL Always Max Bid & Maximize Reach]」および「[!UICONTROL Lowest Cost per Reach]」の最適化目標のみを持つパッケージ）は、キャンペーン内のすべてのプログラムで保証されたプレースメントからの世帯リーチデータを使用して、リーチを増やすように最適化します。
 
-**[!UICONTROL Custom Goal for Model Learning]:** （「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標のみを含むパッケージ） CPAまたはROAS指標の計算に使用される収益またはコンバージョンイベントを含むカスタム目標。 カスタム目標には、パッケージの最適化にCPAまたはROAS指標に加えて、使用する重み付けされた上funnelイベント（ページ訪問やショッピングカートの追加など）を含める必要があります。 カスタム目標について詳しくは、「[&#x200B; カスタム目標の管理](/help/dsp/admin/custom-objectives-manage.md)」、「[&#x200B; カスタム目標のベストプラクティス &#x200B;](/help/dsp/optimization/custom-goal.md)」および「[&#x200B; パフォーマンスキャンペーンの設定に関するベストプラクティス &#x200B;](/help/dsp/optimization/campaign-best-practices-performance.md)」を参照してください。
+**[!UICONTROL Custom Goal for Model Learning]:** （「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標のみを含むパッケージ） CPAまたはROAS指標の計算に使用される収益またはコンバージョンイベントを含むカスタム目標。 カスタム目標には、パッケージの最適化にCPAまたはROAS指標に加えて、使用する重み付けされた上funnelイベント（ページ訪問やショッピングカートの追加など）を含める必要があります。 カスタム目標について詳しくは、「[ カスタム目標の管理](/help/dsp/admin/custom-objectives-manage.md)」、「[ カスタム目標のベストプラクティス ](/help/dsp/optimization/custom-goal.md)」および「[ パフォーマンスキャンペーンの設定に関するベストプラクティス ](/help/dsp/optimization/campaign-best-practices-performance.md)」を参照してください。
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** （オプション、「[!UICONTROL Highest Return on Ad Spend]」および「[!UICONTROL Lowest Cost per Acquisition]」の最適化目標を持つパッケージのみ）最適化モデルに、クリックベースのコンバージョンからのみ学習するように指示します。 それ以外の場合、最適化モデルはクリックベースとインプレッションベースの両方のコンバージョンから学習します。
 
@@ -144,8 +144,8 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのパッケージ管理について](package-about.md)
->* [&#x200B; パッケージを作成](package-create.md)
->* [&#x200B; パッケージの編集](package-edit.md)
->* [&#x200B; プレースメントをパッケージに添付](package-attach-placement.md)
->* [&#x200B; パッケージの変更ログを表示](package-change-log.md)
+>* [ パッケージを作成](package-create.md)
+>* [ パッケージの編集](package-edit.md)
+>* [ プレースメントをパッケージに添付](package-attach-placement.md)
+>* [ パッケージの変更ログを表示](package-change-log.md)
 >* キャンペーン管理に関する[FAQ](/help/dsp/campaign-management/faq-campaign-management.md)

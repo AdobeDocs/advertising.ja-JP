@@ -42,7 +42,7 @@ ht-degree: 1%
 
 <!-- may need to remove references to Experience Platform if it's not really required, just Data Collection? In that case, I may need to change all of the links accordingly.... -->
 
-[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)を使用してAdobe AdvertisingとCustomer Journey Analytics間でデータをネイティブに交換するには、次のタスクが必要です。 データの転送とアトリビューションはローンチ後に開始されます。履歴データは含まれません。
+[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)を使用してAdobe AdvertisingとCustomer Journey Analytics間でデータをネイティブに交換するには、次のタスクが必要です。 データの転送とアトリビューションはローンチ後に開始されます。履歴データは含まれません。
 
 これらのタスクは、[!DNL Analytics for Advertising]を持つ広告主には必要ありません。
 
@@ -64,19 +64,19 @@ Experience Platformでデータ収集を設定し、コンバージョントラ�
 
 この手順には、スキーマの作成が含まれます。 オプションで、代わりに既存のスキーマを編集できます。その場合、データセットやデータストリームを作成する必要はありません。
 
-1. データ収集インターフェイスで、[Experience Data Model （XDM）を使用して収集するweb サイト データのスキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas)を定義します。
+1. データ収集インターフェイスで、[Experience Data Model （XDM）を使用して収集するweb サイト データのスキーマ ](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas)を定義します。
 
    web サイトデータのスキーマが既にある場合は、代わりに次の設定を使用できます。
 
    * [!UICONTROL Schema Details]で、サイトイベントをキャプチャするスキーマのベースクラスとして&#x200B;**[!UICONTROL Experience Event]**&#x200B;を選択します。 スキーマに名前を付けて、**[!UICONTROL Finish]**&#x200B;をクリックします。
 
-   * 左側のパネルで、フィールドグループ [Adobe Advertising Cloud ExperienceEvent Full Extension](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)を追加して、Adobe Advertisingに固有のフィールドを追加します。 最低でも、[AMO IDとEF ID](ids.md)を含む`trackingCode`および`trackingIdentities` プロパティを持つconversionDetails オブジェクトを含めてください。 その他のフィールドはオプションです。 他の設定は必要ありません。
+   * 左側のパネルで、フィールドグループ [Adobe Advertising Cloud ExperienceEvent Full Extension](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)を追加して、Adobe Advertisingに固有のフィールドを追加します。 最低でも、[AMO IDとEF ID](ids.md)を含む`trackingCode`および`trackingIdentities` プロパティを持つconversionDetails オブジェクトを含めてください。 その他のフィールドはオプションです。 他の設定は必要ありません。
 
    * （オプション）必要に応じてフィールドグループを追加し、データフィールドをAdobe Advertising データに接続します。
 
    **注意：**&#x200B;複数のスキーマを作成できますが、次の手順で作成するスキーマは、データセットごと、およびデータストリームごとに1つしか使用できません。
 
-1. [&#x200B; スキーマに基づいてデータセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/create)を作成し、イベントデータの収集を保存および管理します。 これは&#x200B;*イベントデータセット*&#x200B;になります。 データセットを使用して既存のスキーマを編集する場合は、この手順をスキップできます。
+1. [ スキーマに基づいてデータセット ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create)を作成し、イベントデータの収集を保存および管理します。 これは&#x200B;*イベントデータセット*&#x200B;になります。 データセットを使用して既存のスキーマを編集する場合は、この手順をスキップできます。
 
    * **[!UICONTROL Create dataset from schema]**&#x200B;のオプションを選択し、スキーマを選択します。
 
@@ -86,7 +86,7 @@ Experience Platformでデータ収集を設定し、コンバージョントラ�
    >
    >実稼動データセットを使用する前に、まずダミーイベントデータセットを作成してデータフローを検証します。
 
-1. [&#x200B; データストリーム &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure)を作成して、web サイトまたはアプリからデータを送信する場所と、受信データの処理方法を指定します。
+1. [ データストリーム ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)を作成して、web サイトまたはアプリからデータを送信する場所と、受信データの処理方法を指定します。
 
    * [!UICONTROL Mapping schema]設定で、手順1で作成したスキーマを選択します。
 
@@ -106,17 +106,17 @@ Adobe TagsでAdobe Experience Platform Web SDK拡張機能を使用して、組�
 >
 >Adobe タグのみがサポートされています。 スタンドアロンのExperience Platform Web SDK （`alloy.js`）またはサードパーティのタグマネージャーはサポートを利用できません。
 
-1. Experience Platform [tags](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home) （旧称[!DNL Launch]）を使用して、JavaScript タグを生成し、組織のweb サイトデータをデータストリームに送信します。
+1. Experience Platform [tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) （旧称[!DNL Launch]）を使用して、JavaScript タグを生成し、組織のweb サイトデータをデータストリームに送信します。
 
    * タグ設定のコンテナであるタグプロパティを作成します。
 
-   * プロパティの場合は、拡張機能カタログから拡張機能「Adobe Experience Platform Web SDK」 [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)を インストールします。
+   * プロパティの場合は、拡張機能カタログから拡張機能「Adobe Experience Platform Web SDK」 ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)を[ インストールします。
 
      この拡張機能は、web プロパティからExperience Platform Edge Networkを介してAdobe CX Enterpriseにデータを送信します。
 
      Adobe Advertising拡張機能は使用しないでください。
 
-   * [&#x200B; カスタム Web SDK ビルド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build)を作成します。
+   * [ カスタム Web SDK ビルド ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build)を作成します。
 
      * [!UICONTROL Custom build components] セクションで、**Advertising** コンポーネントを有効にします。
 
@@ -128,7 +128,7 @@ Adobe TagsでAdobe Experience Platform Web SDK拡張機能を使用して、組�
 
        * [!UICONTROL Datastreams]設定で、各web環境（実稼動、ステージング、開発）で使用するデータストリームを選択します。
 
-       * （Adobe Advertising DSPを持つ組織のみ） [[!UICONTROL Adobe Advertising]設定](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)で、**[!UICONTROL Adobe Advertising DSP]**&#x200B;を有効にしてビュースルートラッキングを許可し、ビュースルートラッキングを有効にする広告主を指定します。 オプションとして、組織のID5 パートナーIDおよび/または[!DNL RampIDs]の[!DNL LiveRamp] [!DNL LaunchPad] JavaScript コード （ats.js）へのパスを追加することで、（組織の[&#x200B; ファーストパーティオーディエンスソース &#x200B;](/help/dsp/audiences/sources/source-about.md)から変換された）ユニバーサル IDからIDを収集できます。
+       * （Adobe Advertising DSPを持つ組織のみ） [[!UICONTROL Adobe Advertising]設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)で、**[!UICONTROL Adobe Advertising DSP]**&#x200B;を有効にしてビュースルートラッキングを許可し、ビュースルートラッキングを有効にする広告主を指定します。 オプションとして、組織のID5 パートナーIDおよび/または[!DNL RampIDs]の[!DNL LiveRamp] [!DNL LaunchPad] JavaScript コード （ats.js）へのパスを追加することで、（組織の[ ファーストパーティオーディエンスソース ](/help/dsp/audiences/sources/source-about.md)から変換された）ユニバーサル IDからIDを収集できます。
 
          広告主がリストにない場合は、各広告主の広告主IDを入力します。 必要に応じて、AdobeのアカウントチームにIDを確認します。
 
@@ -138,27 +138,27 @@ Adobe TagsでAdobe Experience Platform Web SDK拡張機能を使用して、組�
 
        * ビルドを保存します。
 
-   * （オプション） Web SDKがEdge Networkにデータを送信するタイミングを決定するために、必要に応じて[&#x200B; ルール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/ui/rules)を作成します。
+   * （オプション） Web SDKがEdge Networkにデータを送信するタイミングを決定するために、必要に応じて[ ルール ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules)を作成します。
 
-     * `[sendEvent](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)` アクションの場合、[[!UICONTROL Advertising]設定](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)を使用して、広告データをアトリビューション測定に使用する方法を定義します。 この設定は、ルールに複数のアクションのシーケンスが含まれており、カスタムビルドコンポーネントの「[!UICONTROL Advertising]」コンポーネントを選択した場合にのみ使用できます。
+     * `[sendEvent](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)` アクションの場合、[[!UICONTROL Advertising]設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)を使用して、広告データをアトリビューション測定に使用する方法を定義します。 この設定は、ルールに複数のアクションのシーケンスが含まれており、カスタムビルドコンポーネントの「[!UICONTROL Advertising]」コンポーネントを選択した場合にのみ使用できます。
 
-   * Web サイト上の変数を以前に作成したXDM スキーマの構造にマッピングするために、必要に応じて[&#x200B; データ要素](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/ui/data-elements)を作成します。
+   * Web サイト上の変数を以前に作成したXDM スキーマの構造にマッピングするために、必要に応じて[ データ要素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)を作成します。
 
-1. Adobe Experience Platform管理者に対し、[&#x200B; タグをテスト環境に公開するよう依頼します。この環境では、タグの作成を繰り返し行うことができます。](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/publish/publishing-flow)
+1. Adobe Experience Platform管理者に対し、[ タグをテスト環境に公開するよう依頼します。この環境では、タグの作成を繰り返し行うことができます。](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)
 
 ### データ配信の検証
 
 1. Adobeのアカウントチームに、web サイトでのトラッキングを検証するように依頼します。
 
-   ![&#x200B; クリックスルー追跡ペイロード検証の例](/help/integrations/assets/cja-example-click-through-validation.png " クリックスルー追跡ペイロード検証の例")
+   ![ クリックスルー追跡ペイロード検証の例](/help/integrations/assets/cja-example-click-through-validation.png " クリックスルー追跡ペイロード検証の例")
 
-   ![&#x200B; ビュースルートラッキングペイロード検証の例](/help/integrations/assets/cja-example-view-through-validation.png " ビュースルートラッキングペイロード検証の例")
+   ![ ビュースルートラッキングペイロード検証の例](/help/integrations/assets/cja-example-view-through-validation.png " ビュースルートラッキングペイロード検証の例")
 
-1. 3つのデータセット [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#view-datasets) （web サイトのイベントデータセット、Adobe Advertisingの分類データセット、Adobe Advertisingの概要メトリックデータセット）ごとにアクティビティを確認して、 データ配信を検証します。
+1. 3つのデータセット ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets) （web サイトのイベントデータセット、Adobe Advertisingの分類データセット、Adobe Advertisingの概要メトリックデータセット）ごとにアクティビティを確認して、[ データ配信を検証します。
 
-   毎日のバッチ取り込みのデータセットアクティビティが表示されます。 24時間後にイベントデータセットにレコードがゼロになる場合は、[&#x200B; データストリーム &#x200B;](#dataset-datastream)と[Web SDK拡張機能の設定をAdobe Tags](#tags-websdk)で再確認します。
+   毎日のバッチ取り込みのデータセットアクティビティが表示されます。 24時間後にイベントデータセットにレコードがゼロになる場合は、[ データストリーム ](#dataset-datastream)と[Web SDK拡張機能の設定をAdobe Tags](#tags-websdk)で再確認します。
 
-1. Adobe Experience Platform管理者にライブ実稼動環境へのタグの公開[を依頼します](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/publish/publishing-flow)。
+1. Adobe Experience Platform管理者にライブ実稼動環境へのタグの公開[を依頼します](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)。
 
    組織のIT部門またはその他のグループは、タグのデプロイメントをスケジュールする必要があるか、情報を得る必要がある場合があります。
 
@@ -168,7 +168,7 @@ Experience Platform データセットからAdobe Advertising データをCustom
 
 オプションで、同じ情報を持つ既存の接続を編集することもできます。
 
-1. Customer Journey Analyticsで、[Experience Platform データセットとスキーマを含む接続](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-connections/create-connection)を作成または編集します。
+1. Customer Journey Analyticsで、[Experience Platform データセットとスキーマを含む接続](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)を作成または編集します。
 
    <!-- **Note:** You must send data for all DSP and Search, Social, & Commerce accounts to a single Experience Platform instance and sandbox.  -->
 
@@ -222,7 +222,7 @@ Experience Platform データセットからAdobe Advertising データをCustom
 
 Customer Journey Analyticsで、1つ以上のデータビューを作成して、レポートの指標とディメンションを定義します。 web アナリストはこれらのタスクを実行できます。
 
-1. Customer Journey Analyticsで、[&#x200B; データビューを作成](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/create-dataview)。
+1. Customer Journey Analyticsで、[ データビューを作成](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)。
 
 1. 次の情報を含めるようにビューを設定します。
 
@@ -245,7 +245,7 @@ Seems to not be necessary now:
      
      *  Join the events dataset to the summary dataset, which isn't yet joined to anything:
      
-       * For each dimension with summary data that you want to be available in Customer Journey Analytics, [create a derived field](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/derived-fields).
+       * For each dimension with summary data that you want to be available in Customer Journey Analytics, [create a derived field](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields).
 
          For example, to view summary data for campaigns, create a derived field for the dimension `Adobe Advertising Campaign`.
          
@@ -285,7 +285,7 @@ Seems to not be necessary now:
 
 Customer Journey Analytics Workspaceでレポートとビジュアライゼーションを設定するには、次の手順に従います。 web アナリストはこれらのタスクを実行できます。
 
-1. Workspaceで[&#x200B; プロジェクト &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)を作成し、データビュー内で設定されたディメンションと指標に基づいてレポートとビジュアライゼーションを作成します。
+1. Workspaceで[ プロジェクト ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)を作成し、データビュー内で設定されたディメンションと指標に基づいてレポートとビジュアライゼーションを作成します。
 
    例えば、ディメンション [!UICONTROL Tracking Code (2)] （キャンペーンメタデータへのイベントのリンク）、[!UICONTROL Adobe Advertising Campaign] （キャンペーンレベルのデータの場合）、[!UICONTROL Adobe Advertising Placement]または[!UICONTROL Adobe Advertising Ad Group] （プレースメントレベルまたは広告グループレベルのデータの場合）、[!UICONTROL Events]、[!UICONTROL Impressions]、および[!UICONTROL Clicks]を含めます。
 
@@ -300,15 +300,15 @@ Customer Journey Analytics Workspaceでレポートとビジュアライゼー�
 >サマリーイベントは、通常、レポートに少量の追加データを追加します。例えば、少数の追加イベント、1日に1回の追加セッション、レポートごとに1人の追加データなどが含まれます。 これらの追加機能は、標準的なweb イベントと比較すると無視できます。 ただし、ダミーの人物ID `00000000-0000-0000-0000-000000000000`のデータを除外することで、この追加の概要イベントデータを除外できます。
 >![人物IDを使用してデータを除外する例](/help/integrations/assets/cja-report-with-person-id.png "人物IDを使用してデータを除外する例")
 
-![&#x200B; データセットがCustomer Journey Analyticsでどのように表示されるか](/help/integrations/assets/cja-report-example.png " データセットがCustomer Journey Analyticsでどのように表示されるか")
+![ データセットがCustomer Journey Analyticsでどのように表示されるか](/help/integrations/assets/cja-report-example.png " データセットがCustomer Journey Analyticsでどのように表示されるか")
 
 >[!MORELIKETHIS]
 >
 >* [概要](overview.md)
 >* [前提条件](prerequisites.md)
->*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)様が使用しているAdobe Advertising ID
->* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション &#x200B;](advertising-data-in-cja.md)
+>*  [!DNL Customer Journey Analytics]](ids.md)様が使用している[Adobe Advertising ID
+>* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション ](advertising-data-in-cja.md)
 >* [Adobe Customer Journey Analyticsで使用するAMO IDとEF IDの履歴データを収集します](/help/integrations/analytics/rvars-to-evars.md)。
->* [&#x200B; トラブルシューティング &#x200B;](troubleshooting.md)
->* [Customer Journey Analytics ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing)
->* Customer Journey Analytics [Adobe Analytics ユーザー向けユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
+>* [ トラブルシューティング ](troubleshooting.md)
+>* [Customer Journey Analytics ガイド ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
+>* Customer Journey Analytics [Adobe Analytics ユーザー向けユーザーガイド ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)

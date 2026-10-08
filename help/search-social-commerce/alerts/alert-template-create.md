@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. ツールバーで、![作成](/help/search-social-commerce/assets/add.png "作成")をクリックし、評価するエンティティの種類（[!UICONTROL Portfolio]、[!UICONTROL Account]、[!UICONTROL Campaign]、[!UICONTROL Ad Group]、[!UICONTROL Keyword]、[!UICONTROL Ad]、または[!UICONTROL Product Group]）を選択します。
 
-1. [!UICONTROL Create \[Entity\] Alert] ウィンドウで、**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**、および&#x200B;**[!UICONTROL Scheduling and Delivery]** タブで[&#x200B; アラート設定](alert-template-settings.md)を指定します。
+1. [!UICONTROL Create \[Entity\] Alert] ウィンドウで、**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**、および&#x200B;**[!UICONTROL Scheduling and Delivery]** タブで[ アラート設定](alert-template-settings.md)を指定します。
 
    タブ間を移動するには、タブ名（「フィルター」など）をクリックするか、右下の&#x200B;**[!UICONTROL Next]**&#x200B;をクリックします。
 
@@ -47,13 +47,13 @@ ht-degree: 0%
 
    例えば、キーワードレベルのアラートテンプレートを作成するには、[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]に移動し、[!UICONTROL Keywords]を選択します。
 
-1. データテーブルの上にあるツールバーの右側で、![&#x200B; アラートの作成](/help/search-social-commerce/assets/add-alert.png " アラートの作成")をクリックします。
+1. データテーブルの上にあるツールバーの右側で、![ アラートの作成](/help/search-social-commerce/assets/add-alert.png " アラートの作成")をクリックします。
 
    >[!NOTE]
    >
    >特定の行を選択する必要はありません。
 
-1. [!UICONTROL Create \[Entity type\] Alert] ウィンドウで、**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**、および&#x200B;**[!UICONTROL Scheduling and Delivery]** タブで[&#x200B; アラート設定](alert-template-settings.md)を指定します。
+1. [!UICONTROL Create \[Entity type\] Alert] ウィンドウで、**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**、および&#x200B;**[!UICONTROL Scheduling and Delivery]** タブで[ アラート設定](alert-template-settings.md)を指定します。
 
    タブ間を移動するには、タブ名（「フィルター」など）をクリックするか、右下の&#x200B;**[!UICONTROL Next]**&#x200B;をクリックします。
 
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムアラートについて](alert-about.md)
->* [&#x200B; カスタムアラートテンプレートの編集](alert-template-edit.md)
->* [&#x200B; カスタムアラートテンプレートを一時停止](alert-template-pause.md)
->* [&#x200B; カスタムアラートテンプレートをアクティブ化](alert-template-activate.md)
->* [&#x200B; カスタムアラートテンプレートを削除](alert-template-delete.md)
->* [&#x200B; カスタムアラートテンプレート設定](alert-template-settings.md)
->* [&#x200B; カスタムアラートの表示](alert-view.md)
->* [&#x200B; カスタムアラート用にデータを書き出し](alert-export-data.md)
+>* [ カスタムアラートについて](alert-about.md)
+>* [ カスタムアラートテンプレートの編集](alert-template-edit.md)
+>* [ カスタムアラートテンプレートを一時停止](alert-template-pause.md)
+>* [ カスタムアラートテンプレートをアクティブ化](alert-template-activate.md)
+>* [ カスタムアラートテンプレートを削除](alert-template-delete.md)
+>* [ カスタムアラートテンプレート設定](alert-template-settings.md)
+>* [ カスタムアラートの表示](alert-view.md)
+>* [ カスタムアラート用にデータを書き出し](alert-export-data.md)

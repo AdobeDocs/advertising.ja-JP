@@ -54,7 +54,7 @@ Search, Social, &amp; Commerceは、広告主のGoogle Merchant CenterまたはM
    
    -->
 
-   1. （[!DNL Google Ads] アカウントに必要。オプションは[!DNL Microsoft Advertising] アカウントに対して必要）検索、ソーシャル、およびCommerceが[[!DNL OAuth] 認証プロトコル &#x200B;](https://oauth.net/2/)を使用してアカウントにアクセスできるようにします。
+   1. （[!DNL Google Ads] アカウントに必要。オプションは[!DNL Microsoft Advertising] アカウントに対して必要）検索、ソーシャル、およびCommerceが[[!DNL OAuth] 認証プロトコル ](https://oauth.net/2/)を使用してアカウントにアクセスできるようにします。
 
       1. （[!DNL Microsoft Advertising] アカウントのみ）「**[!UICONTROL oAuth]**」を選択します。
 
@@ -116,13 +116,13 @@ Search, Social, &amp; Commerceは、広告主のGoogle Merchant CenterまたはM
 
 **[!UICONTROL Product Source]:** マーチャント ネットワーク。 既存のアカウントの値は変更できません。
 
-**[!UICONTROL OAuth Token]:** （[!DNL Google Merchant Center] アカウントのみ） アカウントのトークンは、[[!DNL OAuth] 認証プロトコル &#x200B;](https://oauth.net/2/)を使用してログインを認証します。
+**[!UICONTROL OAuth Token]:** （[!DNL Google Merchant Center] アカウントのみ） アカウントのトークンは、[[!DNL OAuth] 認証プロトコル ](https://oauth.net/2/)を使用してログインを認証します。
 
 **[!UICONTROL Auth Type]:** （[!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center]のみ）次を使用してアカウントへのログインを許可するかどうか：
 
 * *[!UICONTROL Client login]:* クライアントのログインを使用します。
 
-* *[!UICONTROL oAuth]* （デフォルト）: [[!DNL OAuth] 認証プロトコル &#x200B;](https://oauth.net/2/)を使用するには。
+* *[!UICONTROL oAuth]* （デフォルト）: [[!DNL OAuth] 認証プロトコル ](https://oauth.net/2/)を使用するには。
 
 **[!UICONTROL Access Key]:** （[!DNL Microsoft Merchant Center]のみ）開発者アカウントが使用するアクセスキー。
 

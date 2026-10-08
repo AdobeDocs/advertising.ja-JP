@@ -64,8 +64,8 @@ DSPで在庫取引にアクセスするか特定したら、それをキャン�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オンデマンド在庫について](on-demand-inventory-about.md)
+>* [ オンデマンド在庫について](on-demand-inventory-about.md)
 >* [案件IDの受信トレイについて](deal-id-inbox-about.md)
->* [&#x200B; プログラマティック保証取引について](programmatic-guaranteed-about.md)
+>* [ プログラマティック保証取引について](programmatic-guaranteed-about.md)
 >* [SSP パートナー](ssp-partners.md)
->* [&#x200B; プライベートインベントリについて](private-inventory-about.md)
+>* [ プライベートインベントリについて](private-inventory-about.md)

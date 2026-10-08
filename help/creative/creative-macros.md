@@ -86,5 +86,5 @@ ht-degree: 0%
 >
 >* [標準クリエイティブをクリエイティブライブラリに追加](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [標準クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* [&#x200B; ターゲット設定](/help/creative/experiences/experience-settings-targeting.md)
->* [&#x200B; ターゲティングされていないエクスペリエンス設定](/help/creative/experiences/experience-settings-no-targeting.md)
+>* [ ターゲット設定](/help/creative/experiences/experience-settings-targeting.md)
+>* [ ターゲティングされていないエクスペリエンス設定](/help/creative/experiences/experience-settings-no-targeting.md)

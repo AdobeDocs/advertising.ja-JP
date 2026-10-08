@@ -31,7 +31,7 @@ ht-degree: 0%
 
   * **[!DNL Ctrl+Click]**：連続しない複数の行を選択するには、最初の行をクリックしてから&#x200B;**[!DNL Ctrl]**&#x200B;を押しながら、追加の各行をクリックします。
 
-* 左上列見出しのグローバル チェックボックス （![&#x200B; チェックボックス &#x200B;](/help/search-social-commerce/assets/check-box.png) 「チェックボックス」）:
+* 左上列見出しのグローバル チェックボックス （![ チェックボックス ](/help/search-social-commerce/assets/check-box.png) 「チェックボックス」）:
 
   * 現在のページのすべての行（適用されたフィルターで使用できる一部またはすべての行を含む）を選択するには、表示している行が25行、50行、100行、200行、または（従来のキャンペーン管理ビューのみ） [!UICONTROL Continuous Scroll]に基づいて、グローバル チェックボックスをオンにします。
 
@@ -44,6 +44,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [列見出しメニューからデータフィルターを適用](../data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
->* [&#x200B; ツールバーからデータフィルターを適用](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
->* [日付範囲でデータをフィルタリング &#x200B;](../data-views/ad-hoc-settings/date-filter.md)
->* [&#x200B; フィルターを削除](../data-views/ad-hoc-settings/column-filter-remove.md)
+>* [ ツールバーからデータフィルターを適用](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [日付範囲でデータをフィルタリング ](../data-views/ad-hoc-settings/date-filter.md)
+>* [ フィルターを削除](../data-views/ad-hoc-settings/column-filter-remove.md)

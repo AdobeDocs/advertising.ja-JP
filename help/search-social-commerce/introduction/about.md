@@ -65,7 +65,7 @@ Search, Social, &amp; Commerceは、広告ネットワークをまたいだ包�
 
   * ポートフォリオでは、規範的なインサイトにより、パフォーマンスを向上させるために利用できる、視覚的で実用的なデータも提供されます。
 
-様々な広告ネットワークと広告タイプのサポートについて詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+様々な広告ネットワークと広告タイプのサポートについて詳しくは、「[ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 ## Adobe CX Enterpriseのソリューションやサービスとの統合
 
@@ -83,5 +83,5 @@ Adobe Advertisingでは、web サイトにリンクする広告のオンライ�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; サポートされているインベントリ &#x200B;](supported-inventory.md)
+>* [ サポートされているインベントリ ](supported-inventory.md)
 >* [Adobe CX Enterprise ソリューションおよびサービスとの統合](integrations.md)

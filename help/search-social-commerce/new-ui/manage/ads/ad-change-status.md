@@ -53,5 +53,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI） [!UICONTROL Ads] ビューについて](ad-view-about.md)
->* [&#x200B; （新しいUI） [!UICONTROL Ads] ビュー](ad-view-report.md)からデータビューレポートを管理します
+>* [ （新しいUI） [!UICONTROL Ads] ビューについて](ad-view-about.md)
+>* [ （新しいUI） [!UICONTROL Ads] ビュー](ad-view-report.md)からデータビューレポートを管理します

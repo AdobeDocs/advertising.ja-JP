@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. ファイルが使用可能になったら、ブラウザーページの上部にある通知の&#x200B;**[!UICONTROL Download]**&#x200B;をクリックして、ブラウザーの通常の手順に従って（XLSX形式の）ワークシートファイルをダウンロードします。
 
-   ![&#x200B; ダウンロード準備完了の通知](/help/dsp/assets/download-ready.png " ダウンロード準備完了の通知")
+   ![ ダウンロード準備完了の通知](/help/dsp/assets/download-ready.png " ダウンロード準備完了の通知")
 
 1. ダウンロードしたファイルを開き、フライトに含める各広告行のフライト情報フィールドを編集し、更新したファイルを保存します。
 
@@ -92,6 +92,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのプレースメント管理について](placement-about.md)
->* [&#x200B; プレースメントを編集](placement-edit.md)
->* [&#x200B; プレースメントの変更ログを表示](placement-change-log.md)
+>* [ プレースメントを編集](placement-edit.md)
+>* [ プレースメントの変更ログを表示](placement-change-log.md)
 >* [配置の設定](placement-settings.md)

@@ -94,7 +94,7 @@ ht-degree: 0%
 
 1. ツールバーで、**[!UICONTROL Portfolio Groups]**&#x200B;をクリックします。
 
-1. ポートフォリオグループ名の上にカーソルを置き、![Portfolio グループでフィルタリング &#x200B;](/help/search-social-commerce/assets/filter-new.png "Portfolio グループでフィルタリング ")をクリックします。
+1. ポートフォリオグループ名の上にカーソルを置き、![Portfolio グループでフィルタリング ](/help/search-social-commerce/assets/filter-new.png "Portfolio グループでフィルタリング ")をクリックします。
 
 ## ポートフォリオグループの削除
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ポートフォリオを作成](portfolio-create.md)
->* [&#x200B; （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
->* [&#x200B; （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード &#x200B;](portfolio-view-report.md)
->* [&#x200B; ポートフォリオについて](portfolio-about.md)
+>* [ ポートフォリオを作成](portfolio-create.md)
+>* [ （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
+>* [ （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード ](portfolio-view-report.md)
+>* [ ポートフォリオについて](portfolio-about.md)

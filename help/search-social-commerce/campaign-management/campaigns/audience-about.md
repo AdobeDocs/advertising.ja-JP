@@ -34,7 +34,7 @@ ht-degree: 0%
 
   * （Audience Manager アカウントを持つ広告主）検索、ソーシャル、およびCommerceを宛先とするAudience Manager セグメントのユーザーIDを使用して、[!DNL Google Ads]人のカスタマーマッチオーディエンスを作成できます。 これには、Adobe CX Enterpriseに公開されるAdobe Analytics セグメントや、Adobe CX Enterprise Audience Libraryを使用して作成されたセグメントが含まれます。
 
-  顧客一致オーディエンスを作成するには、広告主の[!DNL Google Ads] アカウントが[&#x200B; カスタムマッチ &#x200B;](https://support.google.com/adspolicy/answer/6299717)の対象となり、[&#x200B; ユーザーID セグメント &#x200B;](https://support.google.com/google-ads/answer/9199250)に対してオプトインしている必要があります。 また、検索、ソーシャル、およびCommerceの広告主アカウントは、カスタマーマッチオーディエンスの作成を許可するように設定する必要があります。
+  顧客一致オーディエンスを作成するには、広告主の[!DNL Google Ads] アカウントが[ カスタムマッチ ](https://support.google.com/adspolicy/answer/6299717)の対象となり、[ ユーザーID セグメント ](https://support.google.com/google-ads/answer/9199250)に対してオプトインしている必要があります。 また、検索、ソーシャル、およびCommerceの広告主アカウントは、カスタマーマッチオーディエンスの作成を許可するように設定する必要があります。
 
   顧客データベースのオーディエンスの[!DNL Adobe]個のセグメントデータとcookie同期ファイルは、毎日[!DNL Google Ads]個に同期されます。
 
@@ -54,9 +54,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [顧客マッチオーディエンスを [!DNL Adobe]  オーディエンス &#x200B;](google-audience-from-adobe-audience.md)から [!DNL Google Ads] 作成
+>* [顧客マッチオーディエンスを [!DNL Adobe]  オーディエンス ](google-audience-from-adobe-audience.md)から [!DNL Google Ads] 作成
 >* [Adobe Campaignのメールリストから [!DNL Google Ads] 顧客マッチオーディエンスを作成](google-audience-from-campaign-email-list.md)
 >* [顧客データリストを使用した顧客一致オーディエンスの管理](audience-from-customer-data-list.md)
 >* [動的リマーケティングオーディエンスの管理](audience-dynamic-remarketing-manage.md)
->* [&#x200B; キャンペーンと広告グループのオーディエンスターゲットの管理](audience-targets-manage.md)
->* [&#x200B; キャンペーンと広告グループのオーディエンス除外の管理](audience-exclusions-manage.md)
+>* [ キャンペーンと広告グループのオーディエンスターゲットの管理](audience-targets-manage.md)
+>* [ キャンペーンと広告グループのオーディエンス除外の管理](audience-exclusions-manage.md)

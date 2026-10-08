@@ -40,8 +40,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* Adobe Experience Platform Privacy Service APIを使用してCCPA オプトアウトオブセールリクエストをAdobe Advertisingに通知する方法について詳しくは、[https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=ja](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=ja)を参照してください。
->* CCPA オプトアウトオブセールスイベントのトラッキングに関連しない目的でweb ページにアクセスするユーザーと、デスクトップ、モバイル、およびCTV デバイスから広告に露出したユーザーを追跡するには、[&#x200B; カスタムセグメント &#x200B;](/help/dsp/audiences/custom-segment-create.md)を作成します。
+>* Adobe Experience Platform Privacy Service APIを使用してCCPA オプトアウトオブセールリクエストをAdobe Advertisingに通知する方法について詳しくは、[https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html)を参照してください。
+>* CCPA オプトアウトオブセールスイベントのトラッキングに関連しない目的でweb ページにアクセスするユーザーと、デスクトップ、モバイル、およびCTV デバイスから広告に露出したユーザーを追跡するには、[ カスタムセグメント ](/help/dsp/audiences/custom-segment-create.md)を作成します。
 
 1. セグメントを作成します。
 
@@ -82,8 +82,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertisingのカリフォルニア州消費者プライバシー法に対するサポート：消費者の販売拒否サポート &#x200B;](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [約[!UICONTROL CCPA Opt-out-of-Sale]個のセグメントとレポート &#x200B;](ccpa-opt-out-about.md)
+>* [Adobe Advertisingのカリフォルニア州消費者プライバシー法に対するサポート：消費者の販売拒否サポート ](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [約[!UICONTROL CCPA Opt-out-of-Sale]個のセグメントとレポート ](ccpa-opt-out-about.md)
 >* [消費者のオプトアウトに関するレポートを取得](ccpa-opt-out-segment-report-retrieve.md)
->* [&#x200B; カスタムセグメントを作成して実装](custom-segment-create.md)
->* [&#x200B; オーディエンス管理について](audience-about.md)
+>* [ カスタムセグメントを作成して実装](custom-segment-create.md)
+>* [ オーディエンス管理について](audience-about.md)

@@ -34,7 +34,7 @@ DSPのカスタムセグメントを作成して実装することで、独自�
 
 >[!NOTE]
 >
->Web サイトの消費者のオプトアウト要求からユーザーIDを追跡するには、カリフォルニア州消費者プライバシー法（CCPA）に従って、[CCPA オプトアウト アウト アウト販売セグメント &#x200B;](ccpa-opt-out-segment-create.md)を作成します。
+>Web サイトの消費者のオプトアウト要求からユーザーIDを追跡するには、カリフォルニア州消費者プライバシー法（CCPA）に従って、[CCPA オプトアウト アウト アウト販売セグメント ](ccpa-opt-out-segment-create.md)を作成します。
 
 ## セグメントがID5を追跡するための前提条件
 
@@ -42,9 +42,9 @@ DSPのカスタムセグメントを作成して実装することで、独自�
 
 * Adobe Analyticsで測定を行うには、次の操作が必要です。
 
-  1. 実装 [!DNL Analytics for Advertising]&#x200B;[&#128279;](/help/integrations/analytics/prerequisites.md)の前提条件をすべて完了し、[AMO IDとEF ID](/help/integrations/analytics/ids.md)がトラッキング URLに入力されていることを確認します。
+  1. 実装 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)の前提条件をすべて完了し、[AMO IDとEF ID](/help/integrations/analytics/ids.md)がトラッキング URLに入力されていることを確認します。[
 
-  1. 次のパラメーターを、 [!DNL Analytics for Advertising]&#x200B;[&#128279;](/help/integrations/analytics/javascript.md)に必要なJavaScript コードの前または中（最後のイベントサービスが初期化される前）にweb ページに追加します。
+  1. 次のパラメーターを、 [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)に必要な[JavaScript コードの前または中（最後のイベントサービスが初期化される前）にweb ページに追加します。
 
      `window.id5PartnerId=ID5_PartnerID;`
 
@@ -125,7 +125,7 @@ DSPのカスタムセグメントを作成して実装することで、独自�
 
         1. 「[!UICONTROL Desktop or mobile ads]」というラベルが付いたインプレッション追跡タグをコピーします。
 
-        1. 関連する各広告の[!UICONTROL Pixel] タブ、または関連する各配置の[[!UICONTROL Tracking]設定の[!UICONTROL Event Pixels] セクション &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking)にタグを追加します。
+        1. 関連する各広告の[!UICONTROL Pixel] タブ、または関連する各配置の[[!UICONTROL Tracking]設定の[!UICONTROL Event Pixels] セクション ](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking)にタグを追加します。
 
 トラッキングタグを実装したら、オーディエンスターゲットまたは除外のセグメントを任意のプレースメントに使用できます。
 
@@ -135,11 +135,11 @@ DSPのカスタムセグメントを作成して実装することで、独自�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンス管理について](audience-about.md)
->* [&#x200B; セグメント情報を編集](segment-edit.md)
->* [&#x200B; セグメントを削除](segment-delete.md)
->* [&#x200B; セグメントのトラッキングピクセルを表示](segment-view-pixels.md)
->* [&#x200B; セグメントの共有または共有を停止](segment-share.md)
+>* [ オーディエンス管理について](audience-about.md)
+>* [ セグメント情報を編集](segment-edit.md)
+>* [ セグメントを削除](segment-delete.md)
+>* [ セグメントのトラッキングピクセルを表示](segment-view-pixels.md)
+>* [ セグメントの共有または共有を停止](segment-share.md)
 >* [[!UICONTROL CCPA Opt-Out-of-Sale] セグメントを作成して実装](ccpa-opt-out-segment-create.md)
 >* [再利用可能なオーディエンスを作成](reusable-audience-create.md)
 >* [使用可能なサードパーティのデータプロバイダー](third-party-data-providers.md)

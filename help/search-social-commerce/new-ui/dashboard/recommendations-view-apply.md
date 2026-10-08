@@ -211,7 +211,7 @@ ht-degree: 0%
 
 1. ツールバーで、広告ネットワークとアカウントを選択します。
 
-1. 右上の「![&#x200B; レコメンデーションログ &#x200B;](/help/search-social-commerce/assets/recommendations-log-view-new.png " レコメンデーションログ ")」をクリックします。
+1. 右上の「![ レコメンデーションログ ](/help/search-social-commerce/assets/recommendations-log-view-new.png " レコメンデーションログ ")」をクリックします。
 
 ### （従来のUI） アカウントの発行者レコメンデーションのログを表示する
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 
 1. 右上で、広告ネットワークとアカウントを選択します。
 
-1. 右上の「![&#x200B; レコメンデーションログ &#x200B;](/help/search-social-commerce/assets/recommendations-log-view.png " レコメンデーションログ ")」をクリックします。
+1. 右上の「![ レコメンデーションログ ](/help/search-social-commerce/assets/recommendations-log-view.png " レコメンデーションログ ")」をクリックします。
 
 ## ポートフォリオでメディア企業のレコメンデーションを使用するためのベストプラクティス
 

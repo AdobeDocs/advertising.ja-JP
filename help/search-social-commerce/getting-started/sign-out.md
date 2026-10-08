@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 新しいユーザーインターフェイスからログアウトする
 
-* 任意のページの右上にある「![&#x200B; アカウント &#x200B;](/help/search-social-commerce/assets/account.png " アカウント ")」をクリックし、「**[!UICONTROL Sign Out]**」をクリックします。
+* 任意のページの右上にある「![ アカウント ](/help/search-social-commerce/assets/account.png " アカウント ")」をクリックし、「**[!UICONTROL Sign Out]**」をクリックします。
 
 ## 従来のユーザーインターフェイスからログアウトする
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 >
 >ブラウザーウィンドウが30分間アイドル状態の場合、セッションは自動的に終了します。
 
-* 任意のページの右上にある「![&#x200B; ユーザープロファイル &#x200B;](/help/search-social-commerce/assets/user-profile.png " ユーザープロファイル ")」をクリックし、「**[!UICONTROL Sign Out]**」をクリックします。
+* 任意のページの右上にある「![ ユーザープロファイル ](/help/search-social-commerce/assets/user-profile.png " ユーザープロファイル ")」をクリックし、「**[!UICONTROL Sign Out]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ログイン &#x200B;](sign-in.md)
->* [&#x200B; ユーザーインターフェイスの構成方法](user-interface.md)
+>* [ ログイン ](sign-in.md)
+>* [ ユーザーインターフェイスの構成方法](user-interface.md)

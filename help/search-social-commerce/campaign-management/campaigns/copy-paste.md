@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. 次の要件に従ってデータを編集します。
 
-   * 貼り付けられたデータには、ヘッダー行と必要なキャンペーンオブジェクトの値が含まれている必要があります。[Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、[Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)、[Yahoo！の必要なバルクシート列を参照してください。 ネットワーク &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)および[Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)を表示します。 列の順序は問題ありません。
+   * 貼り付けられたデータには、ヘッダー行と必要なキャンペーンオブジェクトの値が含まれている必要があります。[Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、[Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)、[Yahoo！の必要なバルクシート列を参照してください。 ネットワーク ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)および[Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)を表示します。 列の順序は問題ありません。
 
      * 編集する既存のオブジェクトの場合は、編集する関連ID列、エンティティ名、属性をすべて含める必要があります。 オブジェクトの数値IDは編集しないでください。
 
@@ -85,9 +85,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)
+>* [ バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)
 >* [行内で直接設定を編集](/help/search-social-commerce/common-tasks/settings-edit-within-row.md)
->* [&#x200B; キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [ キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
 >* [広告グループの管理](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
->* [&#x200B; キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [ キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
 >* [広告の管理](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)

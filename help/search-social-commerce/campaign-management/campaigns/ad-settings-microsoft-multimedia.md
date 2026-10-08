@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * 少なくとも1つの正方形（1:1）画像
 
-[&#x200B; マルチメディア広告](https://help.ads.microsoft.com/#apex/ads/en/60107/0)の許可された縦横比とディメンションを参照してください。
+[ マルチメディア広告](https://help.ads.microsoft.com/#apex/ads/en/60107/0)の許可された縦横比とディメンションを参照してください。
 
 <!-- Instructions -->
 

@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アカウントコンポーネントから分類値を簡単に関連付け解除するには、「[&#x200B; キャンペーンコンポーネントから分類値を削除](classification-values-remove.md)」を参照してください。
+>アカウントコンポーネントから分類値を簡単に関連付け解除するには、「[ キャンペーンコンポーネントから分類値を削除](classification-values-remove.md)」を参照してください。
 
 ## （新しいUI）ラベル分類の削除
 
@@ -60,9 +60,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ラベル分類について](classification-about.md)
->* [&#x200B; ラベル分類を作成](classification-create.md)
->* [&#x200B; キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当てる](classification-values-assign-campaign-management.md)
->* [&#x200B; バルクシートを使用してアカウントコンポーネントに分類値を割り当てる](classification-values-assign-bulksheets.md)
->* [&#x200B; アカウントコンポーネントからラベル分類値を削除](classification-values-remove.md)
->* [&#x200B; ラベル分類値を削除](classification-values-delete.md)
+>* [ ラベル分類について](classification-about.md)
+>* [ ラベル分類を作成](classification-create.md)
+>* [ キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当てる](classification-values-assign-campaign-management.md)
+>* [ バルクシートを使用してアカウントコンポーネントに分類値を割り当てる](classification-values-assign-bulksheets.md)
+>* [ アカウントコンポーネントからラベル分類値を削除](classification-values-remove.md)
+>* [ ラベル分類値を削除](classification-values-delete.md)

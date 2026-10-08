@@ -22,7 +22,7 @@ ht-degree: 0%
 
 広告の本文は、広告グループの対象となる製品グループに基づいて、[!DNL Microsoft Merchant Center]の製品情報から自動的に作成されます。 オプションで、ショッピングネットワークを使用するキャンペーンに製品広告に含めるプロモーション行を作成できます。
 
-[!DNL Microsoft Advertising]個の商品の広告について詳しくは、[Microsoft Advertising ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/51082)を参照してください。
+[!DNL Microsoft Advertising]個の商品の広告について詳しくは、[Microsoft Advertising ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/51082)を参照してください。
 
 ## [!UICONTROL Product Ad]
 

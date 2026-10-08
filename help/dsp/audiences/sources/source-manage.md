@@ -42,7 +42,7 @@ Adobe DSPで、Customer Data Platformの各ファーストパーティオーデ�
 
 1. **[!UICONTROL Add Source]**&#x200B;をクリックします。
 
-1. [!UICONTROL Select a Type] メニューで、[顧客データプラットフォーム &#x200B;](source-about.md)を選択します。
+1. [!UICONTROL Select a Type] メニューで、[顧客データプラットフォーム ](source-about.md)を選択します。
 
    * *[!UICONTROL RT-CDP]*: [!DNL Adobe Real-Time CDP]。
 
@@ -58,7 +58,7 @@ Adobe DSPで、Customer Data Platformの各ファーストパーティオーデ�
 
 1. [!UICONTROL Data Visibility Level]を指定します：*[!UICONTROL Advertiser]*&#x200B;または&#x200B;*[!UICONTROL Account]*。
 
-1. 残りの[&#x200B; ソース設定](#source-settings)を入力します。
+1. 残りの[ ソース設定](#source-settings)を入力します。
 
    生成された[!UICONTROL Source Key]のコピーを保持します。 後で値が必要になります。
 
@@ -68,7 +68,7 @@ Adobe DSPで、Customer Data Platformの各ファーストパーティオーデ�
 >
 >顧客データプラットフォームのソースを作成したら、オーディエンスをインポートするためにさらなる手順を完了する必要があります。
 >* [!DNL ActionIQ]のソースについては、Adobe アカウントチームにお問い合わせください。
->* その他のソースタイプについては、<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->、 [!DNL AdFixus]&#x200B;[&#128279;](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)の[&#x200B; ワークフロー、 [!DNL Amperity]](source-amperity.md)の[&#x200B; ワークフロー、 [!DNL Optimizely]](source-optimizely.md)の[&#x200B; ワークフロー、 [!DNL Tealium]](source-tealium.md)の ワークフローを参照してください。
+>* その他のソースタイプについては、<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->、 [!DNL AdFixus]](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)の[ ワークフロー、 [!DNL Amperity]](source-amperity.md)の[ ワークフロー、 [!DNL Optimizely]](source-optimizely.md)の[ ワークフロー、 [!DNL Tealium]](source-tealium.md)の[ ワークフローを参照してください。
 
 ## オーディエンスソースのID タイプの変更
 
@@ -85,7 +85,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. ソース行の上にカーソルを置き、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. ソース [&#128279;](#source-settings)に対して選択したIDを変更します。
+1. ソース ](#source-settings)に対して選択した[IDを変更します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -131,7 +131,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 >[!NOTE]
 >
->1つのプレースメントでターゲットできるIDのタイプは1つだけです。 ID タイプ別にパフォーマンスをテストするには、[&#x200B; セグメント内のID タイプごとに個別のプレースメント &#x200B;](/help/dsp/campaign-management/placements/placement-create.md)を作成します。
+>1つのプレースメントでターゲットできるIDのタイプは1つだけです。 ID タイプ別にパフォーマンスをテストするには、[ セグメント内のID タイプごとに個別のプレースメント ](/help/dsp/campaign-management/placements/placement-create.md)を作成します。
 
 * *[!DNL RampID]:* PIIを[!DNL RampID]に変換します。 ログインユーザーのリターゲティングと[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)の測定には、[!DNL RampIDs]を使用できます。
 
@@ -149,11 +149,11 @@ All changes to universal IDs translated from the source are applied after you sa
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ファーストパーティのオーディエンスソースについて](source-about.md)
->* [&#x200B; ユニバーサル IDのアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)
->* [&#x200B; ユーザーIDを [!DNL Adobe Real-Time CDP] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [&#x200B; ユーザーIDを [!DNL Amperity] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-amperity.md)
->* [&#x200B; ユーザーIDを [!DNL Optimizely] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-optimizely.md)
->* [&#x200B; ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-tealium.md)
+>* [ ファーストパーティのオーディエンスソースについて](source-about.md)
+>* [ ユニバーサル IDのアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)
+>* [ ユーザーIDを [!DNL Adobe Real-Time CDP] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [ ユーザーIDを [!DNL Amperity] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-amperity.md)
+>* [ ユーザーIDを [!DNL Optimizely] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-optimizely.md)
+>* [ ユーザーIDを [!DNL Tealium] からユニバーサル IDに変換](/help/dsp/audiences/sources/source-tealium.md)
 >* [1st パーティセグメントを [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)からインポート
->* [&#x200B; オーディエンス管理について](/help/dsp/audiences/audience-about.md)
+>* [ オーディエンス管理について](/help/dsp/audiences/audience-about.md)

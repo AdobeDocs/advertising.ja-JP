@@ -34,9 +34,9 @@ ht-degree: 0%
 >
 >* この形式は、キャンペーンに対してトークン渡しが有効になっていることを示します（デフォルト）。 トークンの渡しが無効な場合は、`<advertiser_ID>`の後の`cq?`を`c?`に置き換えます。
 >
->* `<the landing page>`は、エンドユーザーの宛先となるサイト上のURLを表す変数です。
+* `<the landing page>`は、エンドユーザーの宛先となるサイト上のURLを表す変数です。
 
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising コンバージョントラッキングサービスのクリックトラッキング URL形式について](formats-click-tracking-about.md)
->* [AMO ID形式](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID形式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

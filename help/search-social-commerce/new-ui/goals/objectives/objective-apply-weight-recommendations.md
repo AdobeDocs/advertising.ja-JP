@@ -39,4 +39,4 @@ ht-degree: 0%
 >* [目標を編集](objective-edit.md)
 >* [目標を削除](objective-delete.md)
 >* [目標の設定](objective-settings.md)
->* [目的のパフォーマンスデータをダウンロード &#x200B;](objective-download-performance-data.md)
+>* [目的のパフォーマンスデータをダウンロード ](objective-download-performance-data.md)

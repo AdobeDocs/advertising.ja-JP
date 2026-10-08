@@ -67,7 +67,7 @@ ht-degree: 0%
 
       * 広告を削除するには、広告行の&#x200B;**[!UICONTROL X]**&#x200B;をクリックします。
 
-1. **[!UICONTROL Create *N *個の広告]**&#x200B;をクリックします。
+1. **[!UICONTROL Create *N *個の広告]**をクリックします。
 
 1. 次のいずれかの操作を行います。
 
@@ -90,5 +90,5 @@ ht-degree: 0%
 >* [Advertising DSPの広告管理について](ad-about.md)
 >* [広告の仕様](ad-specs.md)
 >* [単一の広告を作成](ad-create.md)
->* [&#x200B; ビデオ：サードパーティの広告タグを一括アップロードする方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=ja)
->* [&#x200B; ユニバーサルビデオに関するFAQ](/help/dsp/campaign-management/faq-universal-video.md)
+>* [ ビデオ：サードパーティの広告タグを一括アップロードする方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [ ユニバーサルビデオに関するFAQ](/help/dsp/campaign-management/faq-universal-video.md)

@@ -52,7 +52,7 @@ ht-degree: 0%
 
       1. （オプション）キャンペーンを展開して子広告グループを表示するには、キャンペーン名をクリックします。
 
-      1. （オプション）キャンペーンリストまたは広告グループリストを、名前に含まれるテキスト文字列でフィルタリングするには、![&#x200B; フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、テキスト文字列を入力フィールドに入力または貼り付け、[!UICONTROL Enter] キーを押します。
+      1. （オプション）キャンペーンリストまたは広告グループリストを、名前に含まれるテキスト文字列でフィルタリングするには、![ フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、テキスト文字列を入力フィールドに入力または貼り付け、[!UICONTROL Enter] キーを押します。
 
       1. 次のいずれかの操作を行います。
 
@@ -72,11 +72,11 @@ ht-degree: 0%
 
    複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-1. ツールバーで、![その他のアクション &#x200B;](/help/search-social-commerce/assets/more.png "その他のアクション ")をクリックし、**[!UICONTROL Delete]**&#x200B;を選択します。
+1. ツールバーで、![その他のアクション ](/help/search-social-commerce/assets/more.png "その他のアクション ")をクリックし、**[!UICONTROL Delete]**&#x200B;を選択します。
 
 1. 確認メッセージで、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンスについて](audience-about.md)
->* [&#x200B; キャンペーンと広告グループのオーディエンスターゲットの管理](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
+>* [ オーディエンスについて](audience-about.md)
+>* [ キャンペーンと広告グループのオーディエンスターゲットの管理](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)

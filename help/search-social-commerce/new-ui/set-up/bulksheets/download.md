@@ -25,7 +25,7 @@ ht-degree: 0%
 ---
 # （新しいUI）バルクシートファイルのダウンロード/作成
 
-1つ以上の[&#x200B; サポートされている広告ネットワーク &#x200B;](about.md#bulksheet-functionality-by-network)で、1つ以上のアカウントのカスタム設定を使用してバルクシートを作成できます。 Bulksheetsには、Search, Social, &amp; Commerce内のデータが含まれます。
+1つ以上の[ サポートされている広告ネットワーク ](about.md#bulksheet-functionality-by-network)で、1つ以上のアカウントのカスタム設定を使用してバルクシートを作成できます。 Bulksheetsには、Search, Social, &amp; Commerce内のデータが含まれます。
 
 同期済みキャンペーンの場合は、データをダウンロードする前にオプションで広告ネットワークと同期して、広告ネットワーク側の最近のデータ変更を確実に含めることができます。 すべての広告ネットワークに対して、オプションで、ファイルに含める新しいクリックトラッキング URLを生成できます。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. ツールバーで、**[!UICONTROL Bulk Operations]** \> **[!UICONTROL Download Bulksheet]**&#x200B;をクリックします。
 
-1. [&#x200B; バルクシート設定](#bulksheet-settings)を指定します。
+1. [ バルクシート設定](#bulksheet-settings)を指定します。
 
    1. 「**[!UICONTROL Selections]**」タブで、バルクシートのオプションを含めたり設定したりするアカウント、キャンペーン、または広告グループを選択します。
 
@@ -163,17 +163,17 @@ ht-degree: 0%
 
 各広告ネットワークの必須列とオプション列について詳しくは、広告ネットワーク固有のバルクシート データ形式の記事を参照してください。
 
-* [&#x200B; [!DNL Baidu]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-* [&#x200B; [!DNL Google Ads]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-* [&#x200B; [!DNL LY Ads]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-* [&#x200B; [!DNL Microsoft Advertising]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-* [&#x200B; [!DNL Naver]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-* [&#x200B; [!DNL Yahoo DSP]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [&#x200B; [!DNL Yandex]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+* [ [!DNL Baidu]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+* [ [!DNL Google Ads]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [ [!DNL LY Ads]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+* [ [!DNL Microsoft Advertising]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+* [ [!DNL Naver]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+* [ [!DNL Yahoo DSP]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+* [ [!DNL Yandex]  アカウントの必須およびオプションのバルクシート データ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI）バルクシートを使用したキャンペーンデータの管理について](about.md)
->* [&#x200B; （新しいUI） バルクシートまたは修正されたエラーファイルをアップロード &#x200B;](upload.md)
->* [&#x200B; （新しいUI）バルクシートの投稿またはエラーファイルの修正](post.md)
->* [&#x200B; （新しいUI）バルクシート ファイルのランディングページを検証](validate-landing-pages.md)
+>* [ （新しいUI）バルクシートを使用したキャンペーンデータの管理について](about.md)
+>* [ （新しいUI） バルクシートまたは修正されたエラーファイルをアップロード ](upload.md)
+>* [ （新しいUI）バルクシートの投稿またはエラーファイルの修正](post.md)
+>* [ （新しいUI）バルクシート ファイルのランディングページを検証](validate-landing-pages.md)

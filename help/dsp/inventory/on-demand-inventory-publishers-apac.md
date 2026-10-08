@@ -385,7 +385,7 @@ ht-degree: 4%
 >[!MORELIKETHIS]
 >
 >* [概要 [!DNL On Demand]  プレミアム在庫](on-demand-inventory-about.md)
->* [&#x200B; プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト &#x200B;](on-demand-inventory-subscribe.md)
+>* [ プレミアム広告在庫のお得な情報 [!DNL On Demand] への登録とアクセスのリクエスト ](on-demand-inventory-subscribe.md)
 >* [[!DNL On Demand]  オーストラリアとニュージーランドのプレミアム広告在庫パブリッシャー](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand]  ヨーロッパ、中東、アフリカのプレミアム広告在庫パブリッシャー](on-demand-inventory-publishers-emea.md)
 >* [[!DNL On Demand] 北米のプレミアム広告在庫パブリッシャー](on-demand-inventory-publishers-na.md)

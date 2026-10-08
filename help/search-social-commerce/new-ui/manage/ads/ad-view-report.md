@@ -29,7 +29,7 @@ ht-degree: 0%
 
 生成されたレポートはすべて削除できます。
 
-「[&#x200B; （従来のUI） キャンペーン管理ビューからデータをダウンロード &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)」および「[&#x200B; （従来のUI） [!UICONTROL Downloads] メニュー](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)からパフォーマンスデータレポートまたはバルクシートファイルを削除」も参照してください。
+「[ （従来のUI） キャンペーン管理ビューからデータをダウンロード ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)」および「[ （従来のUI） [!UICONTROL Downloads] メニュー](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)からパフォーマンスデータレポートまたはバルクシートファイルを削除」も参照してください。
 
 ## フィルタリングされたデータ行を含むレポートを生成する
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    * すべての広告のデータをダウンロードするには、チェックボックスをオンにする必要はありません。 すべての広告はデフォルトで含まれています。
 
-1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. [!UICONTROL Grid Reports]設定で、一意のレポート名を入力し、**[!UICONTROL Generate]**&#x200B;をクリックします。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    ファイルが[!UICONTROL Recently Generated] リストに追加されます。
 
-1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Ads]**&#x200B;をクリックします。
 
-1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
-1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -67,11 +67,11 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Ads]**&#x200B;をクリックします。
 
-1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI） [!UICONTROL Ads view]](ad-view-about.md)について
->* [&#x200B; （新しいUI）広告のステータスを変更](ad-change-status.md)
+>* [ （新しいUI） [!UICONTROL Ads view]](ad-view-about.md)について
+>* [ （新しいUI）広告のステータスを変更](ad-change-status.md)

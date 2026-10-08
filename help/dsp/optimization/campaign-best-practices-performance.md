@@ -56,7 +56,7 @@ DSPなら、パフォーマンスに重点を置いた施策を最適化でき�
 
 ![最適化の目標](/help/dsp/assets/optimization-goals.png)
 
-また、全体的な目標につながる成功イベントを決定し、それに応じてカスタム目標を作成する必要があります。 各パッケージについて、[!DNL Adobe AI]を使用したレポートとアルゴリズムの最適化の全体的な最適化目標と共に使用するカスタム目標を指定します。 カスタム目標について詳しくは、「[&#x200B; カスタム目標の管理](/help/dsp/admin/custom-objectives-manage.md)」および「[&#x200B; カスタム目標のベストプラクティス &#x200B;](custom-goal.md)」を参照してください。
+また、全体的な目標につながる成功イベントを決定し、それに応じてカスタム目標を作成する必要があります。 各パッケージについて、[!DNL Adobe AI]を使用したレポートとアルゴリズムの最適化の全体的な最適化目標と共に使用するカスタム目標を指定します。 カスタム目標について詳しくは、「[ カスタム目標の管理](/help/dsp/admin/custom-objectives-manage.md)」および「[ カスタム目標のベストプラクティス ](custom-goal.md)」を参照してください。
 
 ## ステップ 2 – 戦略の策定
 
@@ -137,7 +137,7 @@ CPAまたはROASの最適化は、パッケージレベルで設定する必要�
 
   * 追加のターゲティング（オーディエンス、地域、サイトターゲティングなど）が適用される場合は、入札前のフィルターを設定することを検討してください。
 
-[&#x200B; プレースメントレベルの入札前フィルターで各入札前フィルターを使用するタイミングと使用方法について説明します](/help/dsp/optimization/optimization-pre-bid-filters.md)。
+[ プレースメントレベルの入札前フィルターで各入札前フィルターを使用するタイミングと使用方法について説明します](/help/dsp/optimization/optimization-pre-bid-filters.md)。
 
 ### 在庫
 
@@ -185,9 +185,9 @@ CPAまたはROASの最適化は、パッケージレベルで設定する必要�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [DSPによるキャンペーンの最適化](optimization-how-dsp-optimizes-campaigns.md)
 >* [最適化の目標とその使用方法](optimization-goals.md)
->* [&#x200B; プレースメントレベルの入札前フィルターとその使用方法](optimization-pre-bid-filters.md)
->* [&#x200B; キャンペーン開始のチェックリスト &#x200B;](/help/dsp/campaign-management/campaign-launch-checklist.md)
+>* [ プレースメントレベルの入札前フィルターとその使用方法](optimization-pre-bid-filters.md)
+>* [ キャンペーン開始のチェックリスト ](/help/dsp/campaign-management/campaign-launch-checklist.md)

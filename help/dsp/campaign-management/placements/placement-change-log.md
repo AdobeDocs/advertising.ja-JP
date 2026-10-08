@@ -49,9 +49,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのプレースメント管理について](placement-about.md)
->* [&#x200B; プレースメントの作成](placement-create.md)
->* [&#x200B; プレースメントを編集](placement-edit.md)
->* [&#x200B; プレースメントを複製](placement-duplicate.md)
->* [&#x200B; プレースメントの広告スケジュールを編集](placement-edit-ad-schedule.md)
->* [&#x200B; プレースメントを非アクティブ化またはアクティブ化](placement-pause-activate.md)
+>* [ プレースメントの作成](placement-create.md)
+>* [ プレースメントを編集](placement-edit.md)
+>* [ プレースメントを複製](placement-duplicate.md)
+>* [ プレースメントの広告スケジュールを編集](placement-edit-ad-schedule.md)
+>* [ プレースメントを非アクティブ化またはアクティブ化](placement-pause-activate.md)
 >* [配置の設定](placement-settings.md)

@@ -29,7 +29,7 @@ ht-degree: 3%
 ---
 # [!DNL FreeWheel]件の広告送信のエラーコード
 
-失敗した広告の送信に関するエラーメッセージは、Advertising DSPまたは[!DNL FreeWheel]から送信できます。 [[!UICONTROL FreeWheel Status] ダイアログ &#x200B;](freewheel-check-status.md)の[!UICONTROL API Response]列でエラーメッセージを検索します。
+失敗した広告の送信に関するエラーメッセージは、Advertising DSPまたは[!DNL FreeWheel]から送信できます。 [[!UICONTROL FreeWheel Status] ダイアログ ](freewheel-check-status.md)の[!UICONTROL API Response]列でエラーメッセージを検索します。
 
 ## Advertising DSPの内部エラー
 
@@ -83,5 +83,5 @@ ht-degree: 3%
 >
 >* [でのプログラムによる保証取引の設定の概要 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
 >* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)で取引を承諾
->* [&#x200B; プログラマティック保証取引の広告を [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)に送信します
+>* [ プログラマティック保証取引の広告を [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)に送信します
 >* [PG取引 [!DNL FreeWheel] の広告のステータスを確認する](/help/dsp/inventory/freewheel-check-status.md)

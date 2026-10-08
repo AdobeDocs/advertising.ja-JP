@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->多くのアカウントコンポーネントを一度に作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>多くのアカウントコンポーネントを一度に作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
@@ -52,11 +52,11 @@ ht-degree: 0%
 
 >[!TIP]
 >
->多くのアカウントコンポーネントを一度に作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>多くのアカウントコンポーネントを一度に作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
-1. （オプション）製品グループとその子製品グループノードをツリービューで表示するには、製品グループ名にカーソルを合わせ、![&#x200B; メニューアイコン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Tree View]**&#x200B;を選択します。
+1. （オプション）製品グループとその子製品グループノードをツリービューで表示するには、製品グループ名にカーソルを合わせ、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Tree View]**&#x200B;を選択します。
 
 1. 製品グループ名の上にカーソルを置き、![矢印ドロップダウンメニュー](/help/search-social-commerce/assets/arrow-dropdown-menu.png "矢印ドロップダウンメニュー")をクリックし、**[!UICONTROL + Add Node]**&#x200B;を選択します。
 
@@ -70,11 +70,11 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Product Groups]**&#x200B;をクリックします。
 
-1. （オプション）製品グループとその子製品グループノードをツリービューで表示するには、製品グループ名にカーソルを合わせ、![&#x200B; メニューアイコン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Tree View]**&#x200B;を選択します。
+1. （オプション）製品グループとその子製品グループノードをツリービューで表示するには、製品グループ名にカーソルを合わせ、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Tree View]**&#x200B;を選択します。
 
 1. 次のいずれかの操作を行います。
 
-   1. （単一の製品グループノードの設定を編集するには）製品グループ名にカーソルを合わせ、![&#x200B; メニューアイコン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL + Edit Node]**&#x200B;を選択します。
+   1. （単一の製品グループノードの設定を編集するには）製品グループ名にカーソルを合わせ、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL + Edit Node]**&#x200B;を選択します。
 
    1. （1つ以上の広告グループの設定を編集するには）次の操作を行います。
 
@@ -116,6 +116,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ショッピング商品グループについて](product-group-about.md)
+>* [ ショッピング商品グループについて](product-group-about.md)
 >* [[!DNL Google Ads] 製品グループ設定](product-group-settings-google.md)
 >* [[!DNL Microsoft Advertising] 製品グループ設定](product-group-settings-microsoft.md)

@@ -52,5 +52,5 @@ ht-degree: 0%
 >
 >* [非公開取引のオークションインサイトを表示](/help/dsp/inventory/private-deal-auction-insights.md)
 >* [概要 [!DNL On Demand]  プレミアム在庫](on-demand-inventory-about.md)
->* [&#x200B; プライベートインベントリについて](private-inventory-about.md)
+>* [ プライベートインベントリについて](private-inventory-about.md)
 >* [約[!UICONTROL Simple Ad Serving]](simple-deal-about.md)

@@ -58,4 +58,4 @@ Adobe Advertising コンバージョントラッキングサービスを使用�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [ キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

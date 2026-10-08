@@ -25,7 +25,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;をクリックすると、**[!UICONTROL Latest Reports]** タブが開きます。
 
-1. 既存のレポートの横にある「![類似を作成する」ボタン &#x200B;](/help/search-social-commerce/assets/create-similar.png "類似を作成ボタン ")をクリックします。
+1. 既存のレポートの横にある「![類似を作成する」ボタン ](/help/search-social-commerce/assets/create-similar.png "類似を作成ボタン ")をクリックします。
 
 1. 必要に応じて、レポート設定を編集します。
 
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; レポートについて](/help/search-social-commerce/reports/report-about.md)
->* [&#x200B; テンプレートからレポートを生成](/help/search-social-commerce/reports/management/report-generate-from-template.md)
+>* [ レポートについて](/help/search-social-commerce/reports/report-about.md)
+>* [ テンプレートからレポートを生成](/help/search-social-commerce/reports/management/report-generate-from-template.md)
 >* [基本および詳細レポート設定](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
->* [&#x200B; モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [ モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
 >* [特殊レポート設定](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
->* [&#x200B; レポートの削除](/help/search-social-commerce/reports/management/report-delete.md)
+>* [ レポートの削除](/help/search-social-commerce/reports/management/report-delete.md)

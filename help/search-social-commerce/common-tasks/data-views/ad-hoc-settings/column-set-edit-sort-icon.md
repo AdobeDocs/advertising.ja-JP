@@ -30,13 +30,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ビューの任意の列見出し[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)から並べ替え順序を変更せずに、ビューの列を一時的に変更することもできます。
+>ビューの任意の列見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)から並べ替え順序[を変更せずに、ビューの列を一時的に変更することもできます。
 >
->デフォルトのビューを編集するか[&#x200B; カスタムビューを作成することで、特定の広告主向けに含まれている列に変更を保存できます](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)。
+>デフォルトのビューを編集するか[ カスタムビューを作成することで、特定の広告主向けに含まれている列に変更を保存できます](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)。
 
-1. ツールバーの右側で、![&#x200B; カスタム列](/help/search-social-commerce/assets/custom-columns.png " カスタム列")または![カスタム列](/help/search-social-commerce/assets/custom-columns-new.png "カスタム列")をクリックします。
+1. ツールバーの右側で、![ カスタム列](/help/search-social-commerce/assets/custom-columns.png " カスタム列")または![カスタム列](/help/search-social-commerce/assets/custom-columns-new.png "カスタム列")をクリックします。
 
-1. （オプション） [&#x200B; カスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)を作成して、列として含めます。
+1. （オプション） [ カスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)を作成して、列として含めます。
 
 1. ビューに含める列を指定します。
 

@@ -26,9 +26,9 @@ ht-degree: 0%
 
 Adobe Advertisingは、広告チャネルと広告ネットワーク固有の要素で構成される`s_kwcid` パラメーターとも呼ばれるAMO ID append パラメーターを使用して、Adobe Analyticsでキャンペーンに関するデータを共有します。
 
-AMO ID パラメーターをトラッキング URLに追加する方法と、DSPおよびSearch, Social, &amp; CommerceのAMO ID フォーマットについて詳しくは、「 [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md#amo-id)が使用するAdobe Advertising ID」を参照してください。
+AMO ID パラメーターをトラッキング URLに追加する方法と、DSPおよびSearch, Social, &amp; CommerceのAMO ID フォーマットについて詳しくは、「 [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id)が使用するAdobe Advertising ID」を参照してください。[
 
 >[!MORELIKETHIS]
 >
 >* [概要： [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md){target="_blank"}
->*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md#amo-id){target="_blank"}様が使用しているAdobe Advertising ID
+>*  [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id){target="_blank"}様が使用している[Adobe Advertising ID

@@ -128,7 +128,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)
->* [&#x200B; アセットファイルの管理](/help/creative/feeds/asset-manage.md)
->* [&#x200B; フィード テンプレートの管理](/help/creative/feeds/feed-template-manage.md)
->* [&#x200B; カタログの管理](/help/creative/feeds/catalog-manage.md)
->* [&#x200B; クリエイティブライブラリに動的なクリエイティブを追加](/help/creative/creative-libraries/creative-add-dynamic.md)
+>* [ アセットファイルの管理](/help/creative/feeds/asset-manage.md)
+>* [ フィード テンプレートの管理](/help/creative/feeds/feed-template-manage.md)
+>* [ カタログの管理](/help/creative/feeds/catalog-manage.md)
+>* [ クリエイティブライブラリに動的なクリエイティブを追加](/help/creative/creative-libraries/creative-add-dynamic.md)

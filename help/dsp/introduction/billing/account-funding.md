@@ -36,10 +36,10 @@ DSPは、次の2つの方法のいずれかでメディアとサービスの購�
 
 クライアントアカウントの資金調達は、[!DNL DSP]でほぼリアルタイムで更新されます。 使用可能な残高を表示するには、アカウントの購買通貨で「[!UICONTROL Usable Funds]」と表示されます。[!UICONTROL Settings] > [!UICONTROL Account]に移動します。 [!UICONTROL General]および[!UICONTROL Admin] ユーザーロールを持つDSP ユーザーのみが[!UICONTROL Usable Funds]を表示できます。
 
-![&#x200B; アカウントの使用可能な資金](/help/dsp/assets/account-usable-funds.png)
+![ アカウントの使用可能な資金](/help/dsp/assets/account-usable-funds.png)
 
 Adobeは、DSP [広告要件ポリシー](/help/policies/ad-requirements-policy.md)またはプライバシー条件への違反を含む理由により、アカウントがDSPへの支出をブロックする権利を留保します。 Adobeがアカウントをブロックする場合は、ブロックされた通知がアカウント設定に含まれます。 Adobe アカウントチームと協力して、ブロックの理由とエラーの修正方法を確認します。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; サポートされている通貨](/help/dsp/currency.md)
+>* [ サポートされている通貨](/help/dsp/currency.md)

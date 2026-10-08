@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; レポートテンプレートについて](template-about.md)
->* [&#x200B; レポートテンプレートを作成](template-create.md)
->* [&#x200B; レポートテンプレートを編集](template-edit.md)
->* [&#x200B; レポートテンプレートを削除](template-delete.md)
+>* [ レポートテンプレートについて](template-about.md)
+>* [ レポートテンプレートを作成](template-create.md)
+>* [ レポートテンプレートを編集](template-edit.md)
+>* [ レポートテンプレートを削除](template-delete.md)

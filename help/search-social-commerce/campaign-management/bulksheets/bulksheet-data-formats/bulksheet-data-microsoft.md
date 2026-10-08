@@ -23,9 +23,9 @@ ht-degree: 1%
 ---
 # 付録 – [!DNL Microsoft Advertising] アカウントに必要なバルクシート データ
 
-[!DNL Microsoft Advertising]件のキャンペーンデータを一括で作成および更新するには、[!DNL Microsoft Advertising]件のアカウントに特化してフォーマットされたSearch、Social、およびCommerceのバルクシート ファイルを使用できます。 a） [&#128279;](../bulksheet-download.md)必要なファイル形式で既存のアカウントの一括シートファイルを生成するか、b）手動で作成できます（サポートされているファイル形式に関する一般的な情報については、「[&#x200B; サポートされている一括シートファイル形式](bulksheet-file-formats.md)」を参照）。
+[!DNL Microsoft Advertising]件のキャンペーンデータを一括で作成および更新するには、[!DNL Microsoft Advertising]件のアカウントに特化してフォーマットされたSearch、Social、およびCommerceのバルクシート ファイルを使用できます。 a） [必要なファイル形式で既存のアカウントの一括シートファイルを生成するか、b）手動で作成できます（サポートされているファイル形式に関する一般的な情報については、「[ サポートされている一括シートファイル形式](bulksheet-file-formats.md)」を参照）。](../bulksheet-download.md)
 
-各バルクシートには、実行する[特定の操作（広告の作成など）に必要なヘッダーフィールドと対応するデータフィールドを含める必要があります。 &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)フィールドが必須でない場合は、ヘッダー行とデータ行からフィールドを省略できます。 一括シートファイルをアップロードすると、すべてのカスタム列が削除されます。
+各バルクシートには、実行する[特定の操作（広告の作成など）に必要なヘッダーフィールドと対応するデータフィールドを含める必要があります。 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)フィールドが必須でない場合は、ヘッダー行とデータ行からフィールドを省略できます。 一括シートファイルをアップロードすると、すべてのカスタム列が削除されます。
 
 次に、利用可能なすべてのデータフィールドの表と、個々のエンティティ（キャンペーンやキーワードなど）のデータを追加、編集、または削除するために必要なフィールドを示す追加の表を示します。
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 次の表に、使用可能なすべてのデータフィールドを示します。
 
-アカウントエンティティに関連するデータフィールドについては、「[各アカウントコンポーネントの作成、編集、または削除に必要なフィールド &#x200B;](#bulksheet-fields-per-component-microsoft)」を参照してください。
+アカウントエンティティに関連するデータフィールドについては、「[各アカウントコンポーネントの作成、編集、または削除に必要なフィールド ](#bulksheet-fields-per-component-microsoft)」を参照してください。
 
 | フィールド | 説明 |
 |----|----|
@@ -47,7 +47,7 @@ ht-degree: 1%
 | [!UICONTROL Has EU Political Ads] | （欧州連合（EU）のオーディエンスをターゲットとするキャンペーンに適用されます） キャンペーンに、EU規則2024/90に基づいて欧州連合で提供される広告の要件に従った政治的広告が含まれているかどうか：<i>[!UICONTROL Yes]</i>または<i>[!UICONTROL No]</i>。 |
 | [!UICONTROL Merchant ID] | （ショッピングキャンペーンとオーディエンスキャンペーンは加盟店フィードにリンクされている場合のみ）キャンペーンに使用される製品の加盟店アカウントの顧客ID。 |
 | [!UICONTROL Sales Country] | （ショッピングキャンペーンのみ。既存のキャンペーンの読み取り専用）キャンペーンの製品が販売される国。 製品はターゲット国に関連付けられているため、この設定によって、キャンペーンで宣伝される製品が決まります。 |
-| [!UICONTROL Product Scope Filter] | （ショッピングネットワークを使用したキャンペーンのみ）キャンペーンに対して商品広告を作成できる加盟店アカウント内の商品。 dimension=attribute形式を使用して、商品をフィルタリングする商品ディメンションと属性の組み合わせを最大7つ入力できます。 「>>」区切りで複数のフィルターを区切ります。 使用可能な製品ディメンションのリストについては、「[&#x200B; ショッピングキャンペーン製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。「<br><br>」 例：&quot;`CategoryL1==Animals & Pet Supplies>>CategoryL2=Pet Supplies>>Brand=Acme Pet Supplies`&quot;<br><br>既存の値を削除するには、値`[delete]` （括弧を含む）を使用します。 |
+| [!UICONTROL Product Scope Filter] | （ショッピングネットワークを使用したキャンペーンのみ）キャンペーンに対して商品広告を作成できる加盟店アカウント内の商品。 dimension=attribute形式を使用して、商品をフィルタリングする商品ディメンションと属性の組み合わせを最大7つ入力できます。 「>>」区切りで複数のフィルターを区切ります。 使用可能な製品ディメンションのリストについては、「[ ショッピングキャンペーン製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。「<br><br>」 例：&quot;`CategoryL1==Animals & Pet Supplies>>CategoryL2=Pet Supplies>>Brand=Acme Pet Supplies`&quot;<br><br>既存の値を削除するには、値`[delete]` （括弧を含む）を使用します。 |
 | [!UICONTROL DSA Domain Name] | （タイプ aのキャンペーン） 「<i>[!UICONTROL DynamicSearchAds]</i>」または「<i>[!UICONTROL Search]</i>」 （[!DNL ExperimentId]要素が設定されていない場合）動的検索広告のターゲットとなるweb サイトのドメイン名。 最大長は2,048文字です。 ドメイン名に`www`が含まれる場合、トリミングされ、使用されません。<br><br>既存のキャンペーンの場合、ドメインは編集できませんが、他のプロパティを更新するには、ドメインを含める必要があります。 |
 | [!UICONTROL DSA Domain Language] | （タイプ aのキャンペーン）「<i>[!UICONTROL DynamicSearchAds]</i>」または「<i>[!UICONTROL Search]</i>」 （[!DNL ExperimentId]要素が設定されていない場合）動的検索広告のターゲットとなるweb サイトページの言語。 サポートされているドメイン言語は[!UICONTROL Dutch]、[!UICONTROL English]、[!UICONTROL French]、[!UICONTROL German]、[!UICONTROL Italian]、[!UICONTROL Spanish]、および[!UICONTROL Swedish]です。<br><br>既存のキャンペーンの場合、言語を編集することはできませんが、他のプロパティを更新するには、言語を含める必要があります。 |
 | [!UICONTROL Ad Group Name] | 広告グループを識別する一意の名前。 最大長は128文字です。 末尾の空白文字は保存されません（例えば、「広告グループ 1」は「広告グループ 1」として保存されます）。 |
@@ -86,7 +86,7 @@ ht-degree: 1%
 | [!UICONTROL Ad Group Start Date] | 広告グループの入札が最初に行われる日付。広告主のタイムゾーンで、m/d/yyyy、m/d/yy、m-d-yyyy、またはm-d-yyのいずれかの形式で行われます。 新しい広告グループの場合、デフォルトは現在の日付です。 |
 | [!UICONTROL Ad Group End Date] | 広告主のタイムゾーンで、広告グループに入札を行うことができる最後の日付。m/d/yyyy、m/d/yy、m-d-yyyy、またはm-d-yyのいずれかの形式です。 新しい広告グループの場合、デフォルトは[blank]です（つまり、終了日はありません）。 |
 | [!UICONTROL Tracking Template] | （オプション）すべてのオフランディングドメインのリダイレクトとトラッキングパラメーターを指定し、最終的なURLをパラメーターに埋め込むトラッキングテンプレート。 最も詳細なレベル（キーワードが最も詳細）のトラッキングテンプレートは、より高いレベルのすべての値を上書きします。<br><br> キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合、レコードを保存すると、Search, Social, &amp; Commerceはリダイレクトコードとトラッキングコードを自動的に追加します。<br><br> サードパーティのリダイレクトとトラッキングの場合は、値を入力します。<br><br> トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[!DNL Microsoft Advertising] ドキュメントを参照してください。<br><br> 既存の値を削除するには、値`[delete]` （括弧を含む）を使用します。 |
-| [!UICONTROL Landing Page Suffix] | 最後のURLの末尾に追加するパラメーターを指定して、情報を追跡します。 例：`param2=value1&param3=value2`<br><br>詳しくは、 [!DNL Microsoft Advertising]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の「 クリックトラッキング形式」を参照してください。「<br><br>下位レベルの最終URL サフィックスは、アカウントレベルのサフィックスを上書きします。 メンテナンスを容易にするために、個々のアカウントコンポーネントに対して異なるトラッキングが必要でない限り、アカウントレベルのサフィックスのみを使用します。 広告グループレベル以下でサフィックスを設定するには、[!DNL Microsoft Advertising] エディターを使用します。 |
+| [!UICONTROL Landing Page Suffix] | 最後のURLの末尾に追加するパラメーターを指定して、情報を追跡します。 例：`param2=value1&param3=value2`<br><br>詳しくは、 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の「[ クリックトラッキング形式」を参照してください。「<br><br>下位レベルの最終URL サフィックスは、アカウントレベルのサフィックスを上書きします。 メンテナンスを容易にするために、個々のアカウントコンポーネントに対して異なるトラッキングが必要でない限り、アカウントレベルのサフィックスのみを使用します。 広告グループレベル以下でサフィックスを設定するには、[!DNL Microsoft Advertising] エディターを使用します。 |
 | 検索ネットワークステータス | 検索ネットワークの様々な要素に広告グループの広告を配置するかどうか：<ul><li><i>すべて：</i>すべてのBing検索ネットワークと同時検索パートナーに広告を配置します。</li><li><i>OwnedAndOperatedOnly:</i>BingとYahoo！にのみ広告を掲載するには web サイト：</li><li><i>SyndicatedSearchOnly:</i> BingとYahoo！にのみ広告を掲載する 同時検索パートナー：</li><li><i> オフ：</i> コンテンツ ネットワークにのみ広告を配置するには（検索ネットワークではなく）。</li></ul> 新しい広告グループの場合、デフォルトはオンです。 |
 | [!UICONTROL Content Network Status] | 非推奨 |
 | [!UICONTROL Languages] | 広告グループの広告のターゲット言語：[!UICONTROL English]、[!UICONTROL French]、[!UICONTROL Finnish]、[!UICONTROL German]、[!UICONTROL Norwegian]、[!UICONTROL Spanish]、または[!UICONTROL Swedish]。 新しいキャンペーンのデフォルトは[!UICONTROL English]です。<br><br>この設定により、広告を表示できる国と地域が決まります。 キャンペーンの位置情報ターゲットに対応した言語を選ぶようにしましょう。 |
@@ -113,7 +113,7 @@ ht-degree: 1%
 | [!UICONTROL Campaign ID] | 既存のキャンペーンを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1] キャンペーン名を変更する場合にのみ必要です。行にキャンペーンの「[!UICONTROL AMO ID]」が含まれていない限り、この行は必須です。 |
 | [!UICONTROL Ad Group ID] | 既存の広告グループを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1]広告グループの「[!UICONTROL AMO ID]」が行に含まれていない限り、キャンペーン名を変更する場合にのみ必要です。 |
 | [!UICONTROL Placement ID] | 非推奨 |
-| [!UICONTROL Keyword ID] | 既存のキーワードを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1]行にキーワードを識別するのに十分なプロパティ列（a）またはb）「2&rbrace;」が含まれていない限り、キーワードを変更する場合にのみ必要です。」[!UICONTROL AMO ID] |
+| [!UICONTROL Keyword ID] | 既存のキーワードを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1]行にキーワードを識別するのに十分なプロパティ列（a）またはb）「2}」が含まれていない限り、キーワードを変更する場合にのみ必要です。」[!UICONTROL AMO ID] |
 | [!UICONTROL Ad ID] | <p>既存の広告を識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1] レスポンシブ検索広告の場合、広告データを編集または削除するには、広告IDまたはAMO IDが必要です。 その他のすべてのエンティティタイプでは、行に広告を識別するのに十分な広告プロパティ列（a）またはb）「[!UICONTROL AMO ID]」が含まれていない限り、AMO IDは広告ステータスを変更する場合にのみ必要です。」 ただし、[!UICONTROL Ad ID]と[!UICONTROL AMO ID]のどちらも含めず、広告プロパティ列が複数の広告に一致する場合、広告の1つのみのステータスが変更されます。</p><p><b>注意：</b>既存の広告のステータスを除くa）広告プロパティ列またはb）レスポンシブ検索広告のデータを編集し、[!UICONTROL Ad ID]または[!UICONTROL AMO ID]のいずれも含まない場合、新しい広告が作成され、既存の広告は変更されません。 </p> |
 | [!UICONTROL Sitelink ID] | 既存のサイトリンクを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1]行にサイトリンクを識別するのに十分なプロパティ列がa）またはb） an &quot;[!UICONTROL AMO ID]&quot;が含まれていない限り、サイトリンクを変更または削除する場合にのみ必要です。 ただし、[!UICONTROL Sitelink ID]と[!UICONTROL AMO ID]のどちらも含めず、プロパティ列が複数のサイトリンクに一致する場合、サイトリンクの1つのみのステータスが変更されます。</p><p><b>注意：</b>既存のサイトリンクのステータス以外のサイトリンクプロパティ列を編集し、[!UICONTROL Sitelink ID]と[!UICONTROL AMO ID]のどちらも含まない場合、新しいサイトリンクが作成され、既存のサイトリンクは変更されません。 |
 | [!UICONTROL Product Group ID] | 既存の製品グループを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1]製品グループを変更または削除する場合にのみ必要です。行に製品グループを識別するのに十分なプロパティ列が含まれていない限り、または行に「[!UICONTROL AMO ID]」。 |
@@ -138,7 +138,7 @@ ht-degree: 1%
 
 ### キャンペーンフィールド
 
-各データフィールドの説明については、「[使用可能なすべてのデータフィールド &#x200B;](#bulksheet-fields-all-microsoft)」を参照してください。
+各データフィールドの説明については、「[使用可能なすべてのデータフィールド ](#bulksheet-fields-all-microsoft)」を参照してください。
 
 | フィールド | 必要ですか？ |
 | ---- | ---- |
@@ -167,7 +167,7 @@ ht-degree: 1%
 
 ### 広告グループフィールド
 
-各データフィールドの説明については、「[使用可能なすべてのデータフィールド &#x200B;](#bulksheet-fields-all-microsoft)」を参照してください。
+各データフィールドの説明については、「[使用可能なすべてのデータフィールド ](#bulksheet-fields-all-microsoft)」を参照してください。
 
 | フィールド | 必要ですか？ |
 | ---- | ---- |
@@ -191,7 +191,7 @@ ht-degree: 1%
 
 ### キーワードフィールド
 
-各データフィールドの説明については、「[使用可能なすべてのデータフィールド &#x200B;](#bulksheet-fields-all-microsoft)」を参照してください。
+各データフィールドの説明については、「[使用可能なすべてのデータフィールド ](#bulksheet-fields-all-microsoft)」を参照してください。
 
 | フィールド | 必要ですか？ |
 | ---- | ---- |
@@ -222,7 +222,7 @@ ht-degree: 1%
 
 この広告タイプでは、[!UICONTROL Download Bulksheet] ダイアログの「[!UICONTROL Creative (except RSA)]」行を使用します。
 
-各データフィールドの説明については、「[使用可能なすべてのデータフィールド &#x200B;](#bulksheet-fields-all-microsoft)」を参照してください。
+各データフィールドの説明については、「[使用可能なすべてのデータフィールド ](#bulksheet-fields-all-microsoft)」を参照してください。
 
 | フィールド | 必要ですか？ |
 | ---- | ---- |
@@ -243,11 +243,11 @@ ht-degree: 1%
 
 ### 商品（ショッピング）広告フィールド
 
-ショッピング広告の作成について詳しくは、「[実装 [!DNL Microsoft Advertising]  ショッピングキャンペーン &#x200B;](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=ja)」を参照してください。
+ショッピング広告の作成について詳しくは、「[実装 [!DNL Microsoft Advertising]  ショッピングキャンペーン ](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)」を参照してください。
 
 この広告タイプでは、[!UICONTROL Download Bulksheet] ダイアログの「[!UICONTROL Creative (except RSA)]」行を使用します。
 
-各データフィールドの説明については、「[使用可能なすべてのデータフィールド &#x200B;](#bulksheet-fields-all-microsoft)」を参照してください。
+各データフィールドの説明については、「[使用可能なすべてのデータフィールド ](#bulksheet-fields-all-microsoft)」を参照してください。
 
 | フィールド | 必要ですか？ |
 | ---- | ---- |
@@ -271,7 +271,7 @@ ht-degree: 1%
 
 この広告タイプでは、[!UICONTROL Download Bulksheet] ダイアログの「[!UICONTROL Creative (except RSA)]」行を使用します。
 
-各データフィールドの説明については、「[使用可能なすべてのデータフィールド &#x200B;](#bulksheet-fields-all-microsoft)」を参照してください。
+各データフィールドの説明については、「[使用可能なすべてのデータフィールド ](#bulksheet-fields-all-microsoft)」を参照してください。
 
 | フィールド | 必要ですか？ |
 | ---- | ---- |
@@ -297,7 +297,7 @@ ht-degree: 1%
 
 この広告タイプでは、[!UICONTROL Download Bulksheet] ダイアログの「[!UICONTROL Responsive Search Ad]」行を使用します。
 
-各データフィールドの説明については、「[使用可能なすべてのデータフィールド &#x200B;](#bulksheet-fields-all-microsoft)」を参照してください。
+各データフィールドの説明については、「[使用可能なすべてのデータフィールド ](#bulksheet-fields-all-microsoft)」を参照してください。
 
 | フィールド | 必要ですか？ |
 | ---- | ---- |
@@ -329,7 +329,7 @@ ht-degree: 1%
 >
 >拡張テキスト広告は非推奨（廃止予定）になりました。 既存のテキスト広告のみを削除できます。
 
-各データフィールドの説明については、「[使用可能なすべてのデータフィールド &#x200B;](#bulksheet-fields-all-microsoft)」を参照してください。
+各データフィールドの説明については、「[使用可能なすべてのデータフィールド ](#bulksheet-fields-all-microsoft)」を参照してください。
 
 | フィールド | 必要ですか？ |
 | ---- | ---- |
@@ -359,7 +359,7 @@ ht-degree: 1%
 >
 >作成サポートは利用できません。
 
-各データフィールドの説明については、「[使用可能なすべてのデータフィールド &#x200B;](#bulksheet-fields-all-microsoft)」を参照してください。
+各データフィールドの説明については、「[使用可能なすべてのデータフィールド ](#bulksheet-fields-all-microsoft)」を参照してください。
 
 | フィールド | 必要ですか？ |
 | ---- | ---- |
@@ -380,7 +380,7 @@ ht-degree: 1%
 
 ### 買い物商品のグループフィールド
 
-各データフィールドの説明については、「[使用可能なすべてのデータフィールド &#x200B;](#bulksheet-fields-all-microsoft)」を参照してください。
+各データフィールドの説明については、「[使用可能なすべてのデータフィールド ](#bulksheet-fields-all-microsoft)」を参照してください。
 
 | フィールド | 必要ですか？ |
 | ---- | ---- |
@@ -404,7 +404,7 @@ ht-degree: 1%
 
 ### キャンペーンレベルのサイトリンクフィールド
 
-各データフィールドの説明については、「[使用可能なすべてのデータフィールド &#x200B;](#bulksheet-fields-all-microsoft)」を参照してください。
+各データフィールドの説明については、「[使用可能なすべてのデータフィールド ](#bulksheet-fields-all-microsoft)」を参照してください。
 
 | フィールド | 必要ですか？ |
 | ---- | ---- |
@@ -426,7 +426,7 @@ ht-degree: 1%
 
 ### 場所ターゲットフィールド
 
-各データフィールドの説明については、「[使用可能なすべてのデータフィールド &#x200B;](#bulksheet-fields-all-microsoft)」を参照してください。
+各データフィールドの説明については、「[使用可能なすべてのデータフィールド ](#bulksheet-fields-all-microsoft)」を参照してください。
 
 | フィールド | 必要ですか？ |
 | ---- | ---- |
@@ -441,7 +441,7 @@ ht-degree: 1%
 
 ### キャンペーンレベルおよび広告グループレベルのデバイスターゲットフィールド
 
-各データフィールドの説明については、「[使用可能なすべてのデータフィールド &#x200B;](#bulksheet-fields-all-microsoft)」を参照してください。
+各データフィールドの説明については、「[使用可能なすべてのデータフィールド ](#bulksheet-fields-all-microsoft)」を参照してください。
 
 | フィールド | 必要ですか？ |
 | ---- | ---- |
@@ -457,7 +457,7 @@ ht-degree: 1%
 
 ### キャンペーンレベルおよび広告グループレベルのRLSA ターゲットフィールド
 
-各データフィールドの説明については、「[使用可能なすべてのデータフィールド &#x200B;](#bulksheet-fields-all-microsoft)」を参照してください。
+各データフィールドの説明については、「[使用可能なすべてのデータフィールド ](#bulksheet-fields-all-microsoft)」を参照してください。
 
 | フィールド | 必要ですか？ |
 | ---- | ---- |
@@ -476,8 +476,8 @@ ht-degree: 1%
 >[!MORELIKETHIS]
 >
 >* [付録 – バルクシート エラー](../bulksheet-errors.md)
->* [&#x200B; バルクシートで実行できる操作](bulksheet-operations.md)
->* [&#x200B; サポートされているバルクシート ファイル形式](bulksheet-file-formats.md)
->* [&#x200B; バルクシート ファイルのダウンロードと作成](../bulksheet-download.md)
->*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の クリックトラッキング形式
->* [&#x200B; バルクシート ファイルをアップロードするか、エラーファイルを修正](../bulksheet-upload.md)
+>* [ バルクシートで実行できる操作](bulksheet-operations.md)
+>* [ サポートされているバルクシート ファイル形式](bulksheet-file-formats.md)
+>* [ バルクシート ファイルのダウンロードと作成](../bulksheet-download.md)
+>*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の[ クリックトラッキング形式
+>* [ バルクシート ファイルをアップロードするか、エラーファイルを修正](../bulksheet-upload.md)

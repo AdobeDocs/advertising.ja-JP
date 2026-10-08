@@ -92,10 +92,10 @@ ht-degree: 0%
 
 宛先URLを持つアカウントの場合は、適切な[!UICONTROL Base URL] フィールドに値を入力します。
 
-最終的なURLを持つアカウントの場合は、適切な[!UICONTROL Tracking Template] フィールドに画面上の値を入力します。 `&url=` パラメーター（`{lpurl}`など）の後に、最終的なURLのパラメーターを追加する必要があります。 [!DNL LY Ads] アカウントの場合は、パラメーター`{lpurl}`を使用します。 トラッキングテンプレートの最終的なURLを示す[!DNL Google Ads]および[!DNL Microsoft Advertising] パラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348) （「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーターを参照）および[[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799/2)を参照してください。
+最終的なURLを持つアカウントの場合は、適切な[!UICONTROL Tracking Template] フィールドに画面上の値を入力します。 `&url=` パラメーター（`{lpurl}`など）の後に、最終的なURLのパラメーターを追加する必要があります。 [!DNL LY Ads] アカウントの場合は、パラメーター`{lpurl}`を使用します。 トラッキングテンプレートの最終的なURLを示す[!DNL Google Ads]および[!DNL Microsoft Advertising] パラメーターのリストについては、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/6305348) （「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーターを参照）および[[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799/2)を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; トラッキングタグを作成およびデコードするツールについて](tracking-tools-about.md)
->* [&#x200B; クリックトラッキング URLを生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
->* [検索、ソーシャル、Commerceのクリックトラッキング URLをデコード &#x200B;](click-tracking-url-decode.md)
+>* [ トラッキングタグを作成およびデコードするツールについて](tracking-tools-about.md)
+>* [ クリックトラッキング URLを生成するタイミングと方法](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
+>* [検索、ソーシャル、Commerceのクリックトラッキング URLをデコード ](click-tracking-url-decode.md)

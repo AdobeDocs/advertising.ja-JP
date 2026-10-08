@@ -61,4 +61,4 @@ ht-degree: 0%
 >* [標準クリエイティブをクリエイティブライブラリに追加](creative-add-standard.md)
 >* [標準クリエイティブの編集](creative-edit-standard.md)
 >* [標準クリエイティブ設定](creative-settings-standard.md)
->* [&#x200B; クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
+>* [ クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)

@@ -35,7 +35,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 指定したすべてのセグメントグループは、先頭にが付いていない限り含まれます。 （除外されます）。
->* オーディエンス [&#128279;](reusable-audience-clipboard.md)のセグメント IDは、[!UICONTROL Audiences] > [!UICONTROL All audiences]から検索できます。
+>* オーディエンス ](reusable-audience-clipboard.md)のセグメント IDは、[!UICONTROL Audiences] > [!UICONTROL All audiences]から[検索できます。
 
 例えば、次のロジックを使用します。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [再利用可能なオーディエンスのセグメントキーをクリップボードにコピー](reusable-audience-clipboard.md)
->* [&#x200B; オーディエンス管理について](audience-about.md)
+>* [ オーディエンス管理について](audience-about.md)
 >* [再利用可能なオーディエンスを作成](reusable-audience-create.md)
->* [&#x200B; オーディエンス設定](audience-settings.md)
+>* [ オーディエンス設定](audience-settings.md)
 >* [使用可能なサードパーティのデータプロバイダー](third-party-data-providers.md)

@@ -27,13 +27,13 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Campaigns]**&#x200B;をクリックします。
 1. キャンペーン名の横にある「**[!UICONTROL ...]** > **[!UICONTROL Edit]**」をクリックします。
-1. [&#x200B; キャンペーン設定](campaign-settings.md)を編集します。
+1. [ キャンペーン設定](campaign-settings.md)を編集します。
 1. **[!UICONTROL Save Campaign]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのキャンペーン管理について](campaign-about.md)
->* [&#x200B; キャンペーンを作成](campaign-create.md)
->* [&#x200B; キャンペーンの変更ログを表示](campaign-change-log.md)
->* [&#x200B; キャンペーンを一時停止またはアクティブ化](campaign-pause-activate.md)
->* [&#x200B; キャンペーン設定](campaign-settings.md)
+>* [ キャンペーンを作成](campaign-create.md)
+>* [ キャンペーンの変更ログを表示](campaign-change-log.md)
+>* [ キャンペーンを一時停止またはアクティブ化](campaign-pause-activate.md)
+>* [ キャンペーン設定](campaign-settings.md)

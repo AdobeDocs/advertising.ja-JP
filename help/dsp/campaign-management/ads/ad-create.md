@@ -25,7 +25,7 @@ ht-degree: 0%
 ---
 # 単一の広告を作成
 
-様々な[広告タイプ &#x200B;](ad-about.md#ad-types)で、個々のネイティブなディスプレイ広告またはサードパーティの広告を作成できます。
+様々な[広告タイプ ](ad-about.md#ad-types)で、個々のネイティブなディスプレイ広告またはサードパーティの広告を作成できます。
 
 一度に複数のサードパーティ広告を作成するには、[複数のサードパーティ広告の作成](ad-create-multiple.md)を参照してください。
 
@@ -37,9 +37,9 @@ ht-degree: 0%
 
 1. 広告を含めるキャンペーンの名前をクリックします。
 
-1. データテーブルの上で、**[!UICONTROL Create]**&#x200B;をクリックします。 メニューの[!UICONTROL Ad Types] セクションで、[広告タイプ &#x200B;](ad-about.md#ad-types)をクリックします。
+1. データテーブルの上で、**[!UICONTROL Create]**&#x200B;をクリックします。 メニューの[!UICONTROL Ad Types] セクションで、[広告タイプ ](ad-about.md#ad-types)をクリックします。
 
-1. [&#x200B; オーディオ広告](ad-settings-audio.md)、[&#x200B; コネクテッド TV](ad-settings-connected-tv.md)、[&#x200B; ディスプレイ広告](ad-settings-display.md)、[&#x200B; モバイル広告](ad-settings-mobile.md)、[&#x200B; ネイティブ広告](ad-settings-native.md)、[&#x200B; プレロール広告](ad-settings-pre-roll.md)、または[&#x200B; ユニバーサルビデオ広告](ad-settings-universal-video.md)の広告設定を指定します。
+1. [ オーディオ広告](ad-settings-audio.md)、[ コネクテッド TV](ad-settings-connected-tv.md)、[ ディスプレイ広告](ad-settings-display.md)、[ モバイル広告](ad-settings-mobile.md)、[ ネイティブ広告](ad-settings-native.md)、[ プレロール広告](ad-settings-pre-roll.md)、または[ ユニバーサルビデオ広告](ad-settings-universal-video.md)の広告設定を指定します。
 
    >[!NOTE]
    >
@@ -67,4 +67,4 @@ ht-degree: 0%
 >* [複数のサードパーティ広告を作成](ad-create-multiple.md)
 >* [広告を編集](ad-edit.md)
 >* [広告の仕様](ad-specs.md)
->* [&#x200B; ユニバーサルビデオに関するFAQ](/help/dsp/campaign-management/faq-universal-video.md)
+>* [ ユニバーサルビデオに関するFAQ](/help/dsp/campaign-management/faq-universal-video.md)

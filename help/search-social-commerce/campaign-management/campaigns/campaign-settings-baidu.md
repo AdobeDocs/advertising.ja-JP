@@ -96,4 +96,4 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [ キャンペーンの管理](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)

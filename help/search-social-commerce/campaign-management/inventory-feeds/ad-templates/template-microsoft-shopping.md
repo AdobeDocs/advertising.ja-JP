@@ -73,7 +73,7 @@ ht-degree: 0%
 
 * キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合は、次のいずれかの操作を行います。
 
-  * （推奨）Microsoft ショッピングキャンペーンに[&#x200B; トラッキングテンプレート形式を使用](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
+  * （推奨）Microsoft ショッピングキャンペーンに[ トラッキングテンプレート形式を使用](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)。 アカウント全体がショッピング広告専用の場合は、代わりにアカウントレベルでトラッキングテンプレートを定義できます。
 
   * 代わりに、「[!DNL bingads_redirect]」列（[正しい形式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)を使用）を使用してフィードに各製品の値を含める場合は、パラメーター`{lpurl}`を入力します。 オプションで、サードパーティのリダイレクトとトラッキングを`{lpurl}` パラメーターに追加できます。
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
-**[!UICONTROL Campaign Priority]:**&#x200B;複数のキャンペーンが次のキャンペーンを宣伝する場合にキャンペーンが使用される優先度
+**[!UICONTROL Campaign Priority]:**複数のキャンペーンが次のキャンペーンを宣伝する場合にキャンペーンが使用される優先度
 同じ製品：*[!UICONTROL Low]* （新しいキャンペーンのデフォルト）、*[!UICONTROL Medium]*&#x200B;または&#x200B;*[!UICONTROL High]*。 同じ商品が複数のキャンペーンに含まれる場合、広告ネットワークは
 最初にキャンペーンの優先順位を指定して、どのキャンペーン（および関連する入札）が広告オークションの対象となるかを決定します。 すべてのキャンペーンの優先順位が同じ場合、入札額が最も高いキャンペーンが実施要件を満たします。
 
@@ -192,5 +192,5 @@ Adobe Advertisingのコンバージョントラッキングでは、値を入力
 >* [在庫フィードを使用した広告管理の自動化について](../inventory-feeds-about.md)
 >* [修飾子の管理](../modifiers-manage.md)
 >* [在庫データフィードファイルの管理](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
->* [&#x200B; テンプレートを通じてフィード データを伝達](../feed-data-propagate.md)
+>* [ テンプレートを通じてフィード データを伝達](../feed-data-propagate.md)
 >* [在庫フィードのキャンペーンデータを広告ネットワークに投稿](../propagated-data-post.md)

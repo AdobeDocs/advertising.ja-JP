@@ -27,7 +27,7 @@ ht-degree: 0%
 
 検索ネットワークと表示ネットワークを使用するキャンペーンのキーワードを作成できます。
 
-アカウントごとの[&#x200B; キーワード制限](https://support.google.com/google-ads/answer/6372658)について、[!DNL Google Ads]のヘルプを参照してください。
+アカウントごとの[ キーワード制限](https://support.google.com/google-ads/answer/6372658)について、[!DNL Google Ads]のヘルプを参照してください。
 
 ## [!UICONTROL Keyword Details]
 
@@ -73,4 +73,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [ キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

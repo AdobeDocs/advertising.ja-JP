@@ -31,17 +31,17 @@ ht-degree: 0%
 
    * （1つのテンプレートをアクティブ化するには） テンプレート行で、[!UICONTROL Status]列内をクリックし、*[!UICONTROL Active]*&#x200B;を選択します。
 
-   * （1つ以上のテンプレートをアクティベートするには）アクティベートする各アラートテンプレートの横にあるチェックボックスをオンにします。 ツールバーで、![&#x200B; アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。 ダイアログボックスで、**[!UICONTROL Activate]**&#x200B;をクリックします。
+   * （1つ以上のテンプレートをアクティベートするには）アクティベートする各アラートテンプレートの横にあるチェックボックスをオンにします。 ツールバーで、![ アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。 ダイアログボックスで、**[!UICONTROL Activate]**&#x200B;をクリックします。
 
      複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムアラートについて](alert-about.md)
->* [&#x200B; カスタムアラートテンプレートを作成](alert-template-create.md)
->* [&#x200B; カスタムアラートテンプレートの編集](alert-template-edit.md)
->* [&#x200B; カスタムアラートテンプレートを一時停止](alert-template-pause.md)
->* [&#x200B; カスタムアラートテンプレートを削除](alert-template-delete.md)
->* [&#x200B; カスタムアラートテンプレート設定](alert-template-settings.md)
->* [&#x200B; カスタムアラートの表示](alert-view.md)
->* [&#x200B; カスタムアラート用にデータを書き出し](alert-export-data.md)
+>* [ カスタムアラートについて](alert-about.md)
+>* [ カスタムアラートテンプレートを作成](alert-template-create.md)
+>* [ カスタムアラートテンプレートの編集](alert-template-edit.md)
+>* [ カスタムアラートテンプレートを一時停止](alert-template-pause.md)
+>* [ カスタムアラートテンプレートを削除](alert-template-delete.md)
+>* [ カスタムアラートテンプレート設定](alert-template-settings.md)
+>* [ カスタムアラートの表示](alert-view.md)
+>* [ カスタムアラート用にデータを書き出し](alert-export-data.md)

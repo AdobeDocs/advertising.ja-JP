@@ -84,7 +84,7 @@ ht-degree: 0%
 >[!TIP]
 >
 >* バルクシートを使用すると、一度に[複数のキャンペーンコンポーネントに変更を加えることができます](/help/dsp/campaign-management/campaign-components-review-edit.md)。
->* 広告タグシートを使用して[複数のサードパーティ広告をアップロード &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
+>* 広告タグシートを使用して[複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
 
 * 新しいパッケージをアクティブ化する準備ができるまで一時停止します。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのパッケージ管理について](package-about.md)
->* [&#x200B; パッケージを作成](package-create.md)
->* [&#x200B; パッケージの編集](package-edit.md)
->* [&#x200B; パッケージの変更ログを表示](package-change-log.md)
->* [&#x200B; パッケージ設定](package-settings.md)
+>* [ パッケージを作成](package-create.md)
+>* [ パッケージの編集](package-edit.md)
+>* [ パッケージの変更ログを表示](package-change-log.md)
+>* [ パッケージ設定](package-settings.md)

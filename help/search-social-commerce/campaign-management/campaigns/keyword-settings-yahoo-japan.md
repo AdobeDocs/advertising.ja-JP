@@ -44,9 +44,9 @@ ht-degree: 0%
 
 ## プレースホルダー
 
-**[!UICONTROL Param1]:** ベース URLまたはトラッキングテンプレートに`{param1}` [&#x200B; カスタムパラメーター](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US)が含まれている場合に、代用値として使用する文字列。
+**[!UICONTROL Param1]:** ベース URLまたはトラッキングテンプレートに`{param1}` [ カスタムパラメーター](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US)が含まれている場合に、代用値として使用する文字列。
 
-**[!UICONTROL Param2]:** ベース URLまたはトラッキングテンプレートに`{param2}` [&#x200B; カスタムパラメーター](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US)が含まれている場合に、代用値として使用する文字列。
+**[!UICONTROL Param2]:** ベース URLまたはトラッキングテンプレートに`{param2}` [ カスタムパラメーター](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US)が含まれている場合に、代用値として使用する文字列。
 
 ## URL オプション
 
@@ -60,4 +60,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [ キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

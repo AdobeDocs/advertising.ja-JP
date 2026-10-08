@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-[!UICONTROL Extensions] > [!UICONTROL Callout library]から同期された[&#x200B; アカウント  [!DNL Google Ads]  アカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)のアカウントレベルの共有コールアウト拡張機能を作成および管理します。
+[!UICONTROL Extensions] > [!UICONTROL Callout library]から同期された[ アカウント  [!DNL Google Ads]  アカウント ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)のアカウントレベルの共有コールアウト拡張機能を作成および管理します。
 
 ## [!DNL Google Ads]の共有コールアウトの作成
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
-サイトリンクを作成したら、[&#x200B; アカウント、キャンペーン、または広告グループに割り当てることができます](callout-extension-associate.md)。
+サイトリンクを作成したら、[ アカウント、キャンペーン、または広告グループに割り当てることができます](callout-extension-associate.md)。
 
 ## [!DNL Google Ads]の共有コールアウト設定の編集
 
@@ -68,13 +68,13 @@ ht-degree: 0%
 
 ## [!DNL Google Ads]の共有コールアウト設定 {#shared-callout-settings}
 
-追加の[!DNL Google Ads] ポリシーとコールアウトの非承認の理由については、[&#x200B; コールアウト拡張機能の要件](https://support.google.com/adspolicy/answer/1054212)を参照してください。
+追加の[!DNL Google Ads] ポリシーとコールアウトの非承認の理由については、[ コールアウト拡張機能の要件](https://support.google.com/adspolicy/answer/1054212)を参照してください。
 
 **[!UICONTROL Callout Text]:**&#x200B;表示されるテキスト。 これには、最大25文字または12個の2 バイト文字を含めることができます。 テキストの先頭に感嘆符や句読点を含めることはできません。
 
-**[!UICONTROL Start Date]:** （オプション）コールアウトが広告と共に表示される最初の日付。 新規コールアウトのデフォルトは現在の日付です。 今後の開始日を指定するには、MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、![&#x200B; カレンダー](/help/search-social-commerce/assets/calendar.png " カレンダー")をクリックして日付を選択します。
+**[!UICONTROL Start Date]:** （オプション）コールアウトが広告と共に表示される最初の日付。 新規コールアウトのデフォルトは現在の日付です。 今後の開始日を指定するには、MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、![ カレンダー](/help/search-social-commerce/assets/calendar.png " カレンダー")をクリックして日付を選択します。
 
-**[!UICONTROL End Date]:** （オプション）コールアウトが広告と共に表示される最後の日付。 デフォルトでは、コールアウトは無期限に表示される場合があります。 終了日を指定するには、MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、![&#x200B; カレンダー](/help/search-social-commerce/assets/calendar.png " カレンダー")をクリックして日付を選択します。
+**[!UICONTROL End Date]:** （オプション）コールアウトが広告と共に表示される最後の日付。 デフォルトでは、コールアウトは無期限に表示される場合があります。 終了日を指定するには、MM/DD/YYYYまたはM/D/YYYY形式で日付を入力するか、![ カレンダー](/help/search-social-commerce/assets/calendar.png " カレンダー")をクリックして日付を選択します。
 
 **[!UICONTROL Mobile Preference]:** （オプション） [!DNL Google Ads]が、デスクトップやタブレットのユーザーではなく、モバイルデバイスのユーザーに広告を表示しようとすることを許可します。 それ以外の場合（「オフ」の場合）、[!DNL Google Ads]は任意のデバイスタイプで広告を表示します。
 
@@ -84,5 +84,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; コールアウト拡張機能 [!DNL Google Ads] について](callout-extension-about.md)
->* [&#x200B; コールアウト拡張機能をキャンペーンまたは広告グループに関連付ける [!DNL Google Ads] 共有](callout-extension-associate.md)
+>* [ コールアウト拡張機能 [!DNL Google Ads] について](callout-extension-about.md)
+>* [ コールアウト拡張機能をキャンペーンまたは広告グループに関連付ける [!DNL Google Ads] 共有](callout-extension-associate.md)

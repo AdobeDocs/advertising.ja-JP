@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## [!DNL Google Ads]件の動的検索広告を設定する手順
 
-1. [動的検索広告用のキャンペーン &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)を作成します：
+1. [動的検索広告用のキャンペーン ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)を作成します：
 
    1. 最初に、キャンペーンの予算を1日の検索キャンペーン費用の10%に設定しました。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
       >
       >ターゲットにするドメインは、[!DNL Google Ads] オーガニック検索インデックスでインデックス付けする必要があります。 また、ドメインに複数の言語のページが含まれており、そのすべてをターゲットにする場合は、言語別にキャンペーンを作成します。
 
-      web サイトドメインを使用して広告をターゲティングしない場合は、広告グループごとに動的検索ターゲットを作成します（ステップ 4を参照）。 ターゲット [個別](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)を作成するか、[&#x200B; バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用できます。
+      web サイトドメインを使用して広告をターゲティングしない場合は、広告グループごとに動的検索ターゲットを作成します（ステップ 4を参照）。 ターゲット [個別](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)を作成するか、[ バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用できます。
 
    1. キャンペーンが検索チャネルと、[!DNL Google Ads]検索ネットワーク （表示ネットワークではなく）のみをターゲットにしていることを確認してください。 これらの設定は、[!UICONTROL Networks and Devices] タブから利用できます。
 
@@ -48,9 +48,9 @@ ht-degree: 0%
 
    1. （オプション）アカウントレベルのトラッキングテンプレートを上書きしますが、下位レベルで上書きできるキャンペーンレベルのトラッキングテンプレートを設定します。
 
-      （サーバーサイドトラッキングを使用しないAdobe Analyticsを使用する広告主）検索、ソーシャル、およびCommerceからAnalyticsへのリバースフィードのトラッキングを含める場合は、アカウントレベルの追加パラメーターにAMO ID トラッキングコードを追加し、コードを最終URLに追加します。 「 [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)様が使用するAdobe Advertising ID を参照してください。」
+      （サーバーサイドトラッキングを使用しないAdobe Analyticsを使用する広告主）検索、ソーシャル、およびCommerceからAnalyticsへのリバースフィードのトラッキングを含める場合は、アカウントレベルの追加パラメーターにAMO ID トラッキングコードを追加し、コードを最終URLに追加します。 「 [!DNL Analytics]](/help/integrations/analytics/ids.md)様が使用するAdobe Advertising ID [を参照してください。」
 
-1. 次の手順を含め、キャンペーン内で[広告グループ &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)を作成します。
+1. 次の手順を含め、キャンペーン内で[広告グループ ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)を作成します。
 
    1. [!UICONTROL Ad Group Type]を&#x200B;**[!UICONTROL Search Dynamic]に設定します。**
 
@@ -67,8 +67,8 @@ ht-degree: 0%
    [!DNL Google Ads]は、各広告の見出し、表示URL、およびランディングページ URLを動的に生成します。 オプションで、広告レベルのトラッキングテンプレートにリダイレクトとトラッキングを追加できます。これにより、トラッキングテンプレートをより高いレベルで上書きできます。
    広告レベルのトラッキングでAdobe Analyticsのトラッキングをより高いレベルで上書きする場合は、ここに追加します。 手順1eおよび2cを参照してください。
 
-1. （キャンペーン設定の「DSA オプション」セクションにドメインのルートドメインと言語を含めない場合は必須です。それ以外の場合はオプション）広告グループの[動的検索ターゲット &#x200B;](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)を作成します。 オプションで、広告グループレベルの入札をターゲットレベルの入札で上書きできます。
+1. （キャンペーン設定の「DSA オプション」セクションにドメインのルートドメインと言語を含めない場合は必須です。それ以外の場合はオプション）広告グループの[動的検索ターゲット ](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)を作成します。 オプションで、広告グループレベルの入札をターゲットレベルの入札で上書きできます。
 
    ターゲットは、広告ネットワークが動的検索広告のターゲットとしてweb サイト内のページのすべてまたはサブセットを使用するかどうかを定義します。 パフォーマンスを最適に追跡するには、動的検索ターゲットごとに1つの広告グループでキャンペーンを設定し、すべての条件をターゲットとする広告グループを含めます。
 
-1. 必要に応じて、[&#x200B; キャンペーン設定を編集](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)して、キャンペーンの予算を調整し、キャンペーンから追加のキーワードを除外してトラフィックを絞り込みます。
+1. 必要に応じて、[ キャンペーン設定を編集](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)して、キャンペーンの予算を調整し、キャンペーンから追加のキーワードを除外してトラフィックを絞り込みます。

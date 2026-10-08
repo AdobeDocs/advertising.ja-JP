@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Inventory]** > **[!UICONTROL Deals]**&#x200B;をクリックします。
 
-1. 取引行で、![&#x200B; オプション メニュー](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**&#x200B;をクリックします。
+1. 取引行で、![ オプション メニュー](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**&#x200B;をクリックします。
 
 1. イベントトラッキングピクセルをコピーし、パブリッシャーに提供します。
 

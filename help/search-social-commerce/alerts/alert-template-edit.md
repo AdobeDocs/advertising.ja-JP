@@ -27,11 +27,11 @@ ht-degree: 0%
 
 1. （オプション）特定の名前、評価するデータ範囲、またはその他の条件を含む行を含めるようにビューをフィルタリングします。
 
-   ツールバー[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)からデータフィルター[を適用するか、列ヘッダー](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)からを適用できます。
+   ツールバー](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)からデータフィルター[を適用するか、列ヘッダー](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)から[を適用できます。
 
 1. テンプレート名の横にある「![編集](/help/search-social-commerce/assets/edit.png "編集")」をクリックします。
 
-1. [!UICONTROL Update \[Entity Type\] Alert] ウィンドウで、**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**、および&#x200B;**[!UICONTROL Scheduling and Delivery]** タブの[&#x200B; アラート設定](alert-template-settings.md)を編集します。
+1. [!UICONTROL Update \[Entity Type\] Alert] ウィンドウで、**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**、および&#x200B;**[!UICONTROL Scheduling and Delivery]** タブの[ アラート設定](alert-template-settings.md)を編集します。
 
    タブ間を移動するには、タブ名（「フィルター」など）をクリックするか、右下の&#x200B;**[!UICONTROL Next]**&#x200B;をクリックします。
 
@@ -39,11 +39,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムアラートについて](alert-about.md)
->* [&#x200B; カスタムアラートテンプレートを作成](alert-template-create.md)
->* [&#x200B; カスタムアラートテンプレートを一時停止](alert-template-pause.md)
->* [&#x200B; カスタムアラートテンプレートをアクティブ化](alert-template-activate.md)
->* [&#x200B; カスタムアラートテンプレートを削除](alert-template-delete.md)
->* [&#x200B; カスタムアラートテンプレート設定](alert-template-settings.md)
->* [&#x200B; カスタムアラートの表示](alert-view.md)
->* [&#x200B; カスタムアラート用にデータを書き出し](alert-export-data.md)
+>* [ カスタムアラートについて](alert-about.md)
+>* [ カスタムアラートテンプレートを作成](alert-template-create.md)
+>* [ カスタムアラートテンプレートを一時停止](alert-template-pause.md)
+>* [ カスタムアラートテンプレートをアクティブ化](alert-template-activate.md)
+>* [ カスタムアラートテンプレートを削除](alert-template-delete.md)
+>* [ カスタムアラートテンプレート設定](alert-template-settings.md)
+>* [ カスタムアラートの表示](alert-view.md)
+>* [ カスタムアラート用にデータを書き出し](alert-export-data.md)

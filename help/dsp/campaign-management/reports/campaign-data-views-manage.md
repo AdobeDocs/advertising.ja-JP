@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### データビジュアライゼーションの表示モードの変更
 
-* データビジュアライゼーションの右上にある[!UICONTROL Overlay] スイッチ （![&#x200B; オーバーレイスイッチ &#x200B;](/help/dsp/assets/overlay.png)）をクリックして、オーバーレイモード （すべてのチャートがオーバーレイされている）とトレリスチャートモード （3つの個別のチャート）を切り替えます。
+* データビジュアライゼーションの右上にある[!UICONTROL Overlay] スイッチ （![ オーバーレイスイッチ ](/help/dsp/assets/overlay.png)）をクリックして、オーバーレイモード （すべてのチャートがオーバーレイされている）とトレリスチャートモード （3つの個別のチャート）を切り替えます。
 
 ## データテーブルの管理 {#data-tables-manage}
 
@@ -118,7 +118,7 @@ DSPでは、最新のビューがデフォルトのビューとして保存さ�
 
 フィルターは、現在のタブに表示されるデータを変更します。 利用できるフィルターはエンティティのタイプによって異なりますが、エンティティ名、ステータス、追加のプロパティ列が含まれる場合があります。
 
-1. メインツールバーで、![&#x200B; フィルターボタン &#x200B;](/help/dsp/assets/filter.png)をクリックします。
+1. メインツールバーで、![ フィルターボタン ](/help/dsp/assets/filter.png)をクリックします。
 1. 適用する各フィルターについて、左側の列のフィルター名をクリックし、フィルター値を指定します。
 1. **[!UICONTROL Apply]**&#x200B;をクリックします。
 
@@ -170,7 +170,7 @@ DSPでは、最新のビューがデフォルトのビューとして保存さ�
 
 * 特定の範囲の場合は、次のいずれかの操作を行います。
 
-  * ![&#x200B; カレンダー](/help/dsp/assets/calendar.png " カレンダー")をクリックし、カレンダー内の開始日と終了日をクリックします。
+  * ![ カレンダー](/help/dsp/assets/calendar.png " カレンダー")をクリックし、カレンダー内の開始日と終了日をクリックします。
 
   * 日付範囲内をクリックし、開始日と終了日を入力するか、カレンダー内で選択します。
 
@@ -189,9 +189,9 @@ DSPでは、最新のビューがデフォルトのビューとして保存さ�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーン管理ビューのパフォーマンスレポートの種類](campaign-reports-about.md)
->* [&#x200B; プレースメントのサイト、広告、頻度の詳細を表示](placement-details-view.md)
->* [&#x200B; プレースメント予測レポートを表示](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [&#x200B; プレースメント診断レポートを表示](placement-diagnostics.md)
->* [&#x200B; キャンペーン管理ビューからデータをエクスポート &#x200B;](campaign-export-data.md)
->* [&#x200B; ビデオ：DSP アカウント構造とユーザーインターフェイス &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ja)
+>* [ キャンペーン管理ビューのパフォーマンスレポートの種類](campaign-reports-about.md)
+>* [ プレースメントのサイト、広告、頻度の詳細を表示](placement-details-view.md)
+>* [ プレースメント予測レポートを表示](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [ プレースメント診断レポートを表示](placement-diagnostics.md)
+>* [ キャンペーン管理ビューからデータをエクスポート ](campaign-export-data.md)
+>* [ ビデオ：DSP アカウント構造とユーザーインターフェイス ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

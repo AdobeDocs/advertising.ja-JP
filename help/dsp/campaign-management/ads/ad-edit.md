@@ -37,7 +37,7 @@ ht-degree: 0%
 
 1. 広告名の横にある「**[!UICONTROL ...]** > **[!UICONTROL Edit]**」をクリックします。
 
-1. [&#x200B; オーディオ広告](ad-settings-audio.md)、[&#x200B; コネクテッド TV](ad-settings-connected-tv.md)、[&#x200B; ディスプレイ広告](ad-settings-display.md)、[&#x200B; モバイル広告](ad-settings-mobile.md)、[&#x200B; ネイティブ広告](ad-settings-native.md)、[&#x200B; プレロール広告](ad-settings-pre-roll.md)、または[&#x200B; ユニバーサルビデオ広告](ad-settings-universal-video.md)の広告設定を編集します。
+1. [ オーディオ広告](ad-settings-audio.md)、[ コネクテッド TV](ad-settings-connected-tv.md)、[ ディスプレイ広告](ad-settings-display.md)、[ モバイル広告](ad-settings-mobile.md)、[ ネイティブ広告](ad-settings-native.md)、[ プレロール広告](ad-settings-pre-roll.md)、または[ ユニバーサルビデオ広告](ad-settings-universal-video.md)の広告設定を編集します。
 
    >[!NOTE]
    >

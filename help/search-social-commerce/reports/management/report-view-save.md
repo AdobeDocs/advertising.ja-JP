@@ -47,11 +47,11 @@ Web ブラウザーでレポートを表示したり、レポートデータを[
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; レポートについて](/help/search-social-commerce/reports/report-about.md)
+>* [ レポートについて](/help/search-social-commerce/reports/report-about.md)
 >* [基本レポートまたは詳細レポートを生成](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
->* [&#x200B; モデル精度レポートを生成](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-generate.md)
+>* [ モデル精度レポートを生成](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-generate.md)
 >* [専門性レポートの生成](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [&#x200B; アシストレポートを生成](/help/search-social-commerce/reports/management/assist/assist-report-generate.md)
->* [&#x200B; テンプレートからレポートを生成](/help/search-social-commerce/reports/management/report-generate-from-template.md)
+>* [ アシストレポートを生成](/help/search-social-commerce/reports/management/assist/assist-report-generate.md)
+>* [ テンプレートからレポートを生成](/help/search-social-commerce/reports/management/report-generate-from-template.md)
 >* [既存のレポートからレポートを生成](/help/search-social-commerce/reports/management/report-generate-from-existing.md)
->* [&#x200B; レポートの削除](/help/search-social-commerce/reports/management/report-delete.md)
+>* [ レポートの削除](/help/search-social-commerce/reports/management/report-delete.md)

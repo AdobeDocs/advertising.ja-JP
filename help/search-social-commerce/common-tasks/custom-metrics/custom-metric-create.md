@@ -28,15 +28,15 @@ ht-degree: 0%
 
 1. データテーブルの上で、次のいずれかの操作を行います。
 
-   * 現在適用されているビューの名前（![&#x200B; ビュー](/help/search-social-commerce/assets/view.png " ビュー")）をクリックします。 編集可能なビューの名前の上にカーソルを置き、![Edit](/help/search-social-commerce/assets/edit-new.png "Edit")をクリックしてビュー設定を開きます。
+   * 現在適用されているビューの名前（![ ビュー](/help/search-social-commerce/assets/view.png " ビュー")）をクリックします。 編集可能なビューの名前の上にカーソルを置き、![Edit](/help/search-social-commerce/assets/edit-new.png "Edit")をクリックしてビュー設定を開きます。
 
      作成したカスタム指標は、すべてのビューで使用できるようになります。
 
-   * ![&#x200B; カスタム列](/help/search-social-commerce/assets/custom-columns-new.png " カスタム列")をクリックして、列構成設定を開きます。
+   * ![ カスタム列](/help/search-social-commerce/assets/custom-columns-new.png " カスタム列")をクリックして、列構成設定を開きます。
 
-1. 開いた列リストの下で、![&#x200B; カスタム指標の作成](/help/search-social-commerce/assets/add.png " カスタム指標の作成") **[!UICONTROL Create Custom Metric]**&#x200B;をクリックします。
+1. 開いた列リストの下で、![ カスタム指標の作成](/help/search-social-commerce/assets/add.png " カスタム指標の作成") **[!UICONTROL Create Custom Metric]**&#x200B;をクリックします。
 
-1. [&#x200B; カスタム指標設定](custom-metric-settings.md)を指定します。
+1. [ カスタム指標設定](custom-metric-settings.md)を指定します。
 
 1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
@@ -46,11 +46,11 @@ ht-degree: 0%
 
    * デフォルトのビューまたはカスタムビューの名前をクリックして、ビュー設定を開きます。
 
-   * ![&#x200B; カスタム列](/help/search-social-commerce/assets/custom-columns.png " カスタム列")をクリックして、列構成設定を開きます。
+   * ![ カスタム列](/help/search-social-commerce/assets/custom-columns.png " カスタム列")をクリックして、列構成設定を開きます。
 
 1. 開いた列リストの下で、![新しいカスタム指標を作成](/help/search-social-commerce/assets/add.png "新しいカスタム指標を作成") **[!UICONTROL Create New Custom Metric]**&#x200B;をクリックします。
 
-1. [&#x200B; カスタム指標設定](custom-metric-settings.md)を指定します。
+1. [ カスタム指標設定](custom-metric-settings.md)を指定します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 右側のセクションで、**[!UICONTROL Create]**&#x200B;をクリックします。
 
-1. [&#x200B; カスタム指標設定](custom-metric-settings.md)を指定します。
+1. [ カスタム指標設定](custom-metric-settings.md)を指定します。
 
 1. **[!UICONTROL Submit]**&#x200B;をクリックします。
 
@@ -72,13 +72,13 @@ ht-degree: 0%
 
 1. 右側のセクションで、**[!UICONTROL Create]**&#x200B;をクリックします。
 
-1. [&#x200B; カスタム指標設定](custom-metric-settings.md)を指定します。
+1. [ カスタム指標設定](custom-metric-settings.md)を指定します。
 
 1. **[!UICONTROL Submit]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタム指標について](custom-metric-about.md)
->* [&#x200B; カスタム指標を編集](custom-metric-edit.md)
->* [&#x200B; カスタム指標を削除](custom-metric-delete.md)
->* [&#x200B; カスタム指標設定](custom-metric-settings.md)
+>* [ カスタム指標について](custom-metric-about.md)
+>* [ カスタム指標を編集](custom-metric-edit.md)
+>* [ カスタム指標を削除](custom-metric-delete.md)
+>* [ カスタム指標設定](custom-metric-settings.md)

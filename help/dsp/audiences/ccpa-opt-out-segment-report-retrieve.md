@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertisingのカリフォルニア州消費者プライバシー法に対するサポート：消費者の販売拒否サポート &#x200B;](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [約[!UICONTROL CCPA Opt-out-of-Sale]個のセグメントとレポート &#x200B;](ccpa-opt-out-about.md)
+>* [Adobe Advertisingのカリフォルニア州消費者プライバシー法に対するサポート：消費者の販売拒否サポート ](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [約[!UICONTROL CCPA Opt-out-of-Sale]個のセグメントとレポート ](ccpa-opt-out-about.md)
 >* [[!UICONTROL CCPA Opt-Out-of-Sale] セグメントを作成して実装](ccpa-opt-out-segment-create.md)
->* [&#x200B; オーディエンス管理について](audience-about.md)
+>* [ オーディエンス管理について](audience-about.md)

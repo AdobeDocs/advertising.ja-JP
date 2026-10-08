@@ -144,7 +144,7 @@ Microsoft Excel スプレッドシート（XLSX）形式でビジュアライゼ
 
 ## タブへのフィルターの適用
 
-1. タブ上部のツールバーで、![&#x200B; フィルターボタン &#x200B;](/help/dsp/assets/filter.png)をクリックします。
+1. タブ上部のツールバーで、![ フィルターボタン ](/help/dsp/assets/filter.png)をクリックします。
 
 1. 左側の列で、ディメンションを選択し、右側の列で必要に応じて1つ以上の値を選択します。
 
@@ -178,7 +178,7 @@ Microsoft Excel スプレッドシート（XLSX）形式でビジュアライゼ
 
 ## 特定のinsightをXLSX ファイルにダウンロードする
 
-* Insightの右上にある「![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
+* Insightの右上にある「![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
 
   ファイルは、ブラウザーのデフォルトのダウンロードフォルダーに保存されます。
 
@@ -189,7 +189,7 @@ Add:
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて](/help/dsp/reports/report-about.md)
->* [&#x200B; キャンペーン管理ビューのパフォーマンスレポートの種類](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [ カスタムレポートについて](/help/dsp/reports/report-about.md)
+>* [ キャンペーン管理ビューのパフォーマンスレポートの種類](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [使用可能なレポート列](/help/dsp/reports/report-columns.md)
->* [&#x200B; キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [ キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

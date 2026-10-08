@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## コスト、クリック、インプレッションデータ
 
-Search, Social, &amp; Commerceは、毎日[&#x200B; サポートされている広告ネットワーク &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)からインプレッション、クリック、コストのデータを直接取得します。 さらに、Search, Social, &amp; Commerceでは、トラッキングテンプレートと宛先URLに固有のクリックトラッキングコード（トラッキングサーバーへのリダイレクトを含む）を追加して、表示/コンテンツのインプレッション数、クリック数、コストを追跡し、後でイベントをコンバージョンに結び付けることができます。
+Search, Social, &amp; Commerceは、毎日[ サポートされている広告ネットワーク ](/help/search-social-commerce/introduction/supported-inventory.md)からインプレッション、クリック、コストのデータを直接取得します。 さらに、Search, Social, &amp; Commerceでは、トラッキングテンプレートと宛先URLに固有のクリックトラッキングコード（トラッキングサーバーへのリダイレクトを含む）を追加して、表示/コンテンツのインプレッション数、クリック数、コストを追跡し、後でイベントをコンバージョンに結び付けることができます。
 
 Search, Social, &amp; Commerceがデータを同期しない広告ネットワーク上のキャンペーンをトラッキングする場合は、インプレッション、クリック、コストデータを含む日次フィードファイルを送信して、キャンペーンのデータを提供する必要があります。
 
@@ -45,7 +45,7 @@ Search, Social, &amp; Commerceの導入チームは、同期された広告キ�
 
 * それ以外の場合は、アドネットワークが直接Adobe Advertising ピクセルサーバーにクリックを送信します。 ピクセルサーバーは、ユーザーのコンピューターにCookieを配置し（まだ存在しない場合）、ユーザーをweb サイト上の関連URLにリダイレクトします。 エンドユーザーの全体的なエクスペリエンスは、リダイレクトなしと同じです。
 
-Cookieは、[!DNL Adobe] ドメイン （`everesttech.net`）で1st パーティ Cookieとして設定されます。 リダイレクトの後、ユーザーは広告主のドメイン上に存在し、その後、Cookieはサードパーティ Cookieとして扱われます。 Adobe Advertising Cookieについて詳しくは、「[Adobe Advertising Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ja)」を参照してください。
+Cookieは、[!DNL Adobe] ドメイン （`everesttech.net`）で1st パーティ Cookieとして設定されます。 リダイレクトの後、ユーザーは広告主のドメイン上に存在し、その後、Cookieはサードパーティ Cookieとして扱われます。 Adobe Advertising Cookieについて詳しくは、「[Adobe Advertising Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)」を参照してください。
 
 ## コンバージョンデータ
 
@@ -55,10 +55,10 @@ Cookieは、[!DNL Adobe] ドメイン （`everesttech.net`）で1st パーティ
 
 ### コンバージョン追跡タグ
 
-様々なベンダー[&#128279;](/help/search-social-commerce/tracking/conversion-tracking-about.md)の コンバージョンタグを使用できます。
+様々なベンダー](/help/search-social-commerce/tracking/conversion-tracking-about.md)の[ コンバージョンタグを使用できます。
 
 Adobe Advertising コンバージョンタグを使用してトランザクションを成功し、「成功」ページに移動すると、Adobe Advertising ピクセルサーバーは、クリックリダイレクト時に設定されたユーザーのコンピューター上のCookieの有無を確認します。 Cookieが見つかると、トランザクションイベントに関する情報がef_transid パラメーターを使用して渡され、トランザクションがコンバージョンとして認識され、前の広告クリックまたは表示インプレッションにクレジットされます。
 
-オーディエンスが複数の広告をクリックした場合、Adobe Advertisingは、特に指定しない限り、最終的な広告クリックまたは（ディスプレイまたは動画キャンペーンの場合）最終的な広告インプレッションにトランザクションをクレジットします。 [&#x200B; クリックのルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#c-d)と[&#x200B; インプレッションのルックバックウィンドウ &#x200B;](/help/search-social-commerce/glossary.md#i-j)は、イベントがコンバージョンに起因する可能性がある、有料クリックまたはディスプレイ/ビデオインプレッション（それぞれ）が発生してから何日経過したかを判断します。
+オーディエンスが複数の広告をクリックした場合、Adobe Advertisingは、特に指定しない限り、最終的な広告クリックまたは（ディスプレイまたは動画キャンペーンの場合）最終的な広告インプレッションにトランザクションをクレジットします。 [ クリックのルックバックウィンドウ ](/help/search-social-commerce/glossary.md#c-d)と[ インプレッションのルックバックウィンドウ ](/help/search-social-commerce/glossary.md#i-j)は、イベントがコンバージョンに起因する可能性がある、有料クリックまたはディスプレイ/ビデオインプレッション（それぞれ）が発生してから何日経過したかを判断します。
 
 Adobe Advertising導入チームは、広告主と協力して、広告主が実装する必要のあるコンバージョンタグのフォーマットを決定し、各コンバージョンタグを挿入するweb ページを特定し、実装するコンバージョンタグを提供します。

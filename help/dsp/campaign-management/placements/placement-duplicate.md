@@ -56,7 +56,7 @@ ht-degree: 0%
 
    1. （単一のプレースメント）新しいプレースメント名を入力します。
 
-   1. **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**[!UICONTROL No package]*&#x200B;のいずれかを選択します。
+   1. **[!UICONTROL Choose Package (Required)]** メニューで、親パッケージまたは**[!UICONTROL No package]*のいずれかを選択します。
 
    1. （オプション）デフォルト設定を変更します。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 >[!TIP]
 >
 >* バルクシートを使用すると、一度に[複数のキャンペーンコンポーネントに変更を加えることができます](/help/dsp/campaign-management/campaign-components-review-edit.md)。
->* 広告タグシートを使用して[複数のサードパーティ広告をアップロード &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
+>* 広告タグシートを使用して[複数のサードパーティ広告をアップロード ](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
 
 * 新しいプレースメントをアクティブ化する準備ができるまで一時停止します。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのプレースメント管理について](placement-about.md)
->* [&#x200B; プレースメントの作成](placement-create.md)
->* [&#x200B; プレースメントを編集](placement-edit.md)
->* [&#x200B; プレースメントの変更ログを表示](placement-change-log.md)
+>* [ プレースメントの作成](placement-create.md)
+>* [ プレースメントを編集](placement-edit.md)
+>* [ プレースメントの変更ログを表示](placement-change-log.md)
 >* [配置の設定](placement-settings.md)

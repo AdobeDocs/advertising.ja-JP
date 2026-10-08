@@ -35,7 +35,7 @@ ht-degree: 0%
 | | [!UICONTROL External deal ID] | この取引を識別するためにパブリッシャーとSSPが使用するID。 | はい | いいえ |
 | | [!UICONTROL Publisher] | この在庫を販売している発行者の名前。 | はい | いいえ |
 | | [!UICONTROL SSP] | この取引を実行するサプライサイドプラットフォーム（SSP）。 | はい | いいえ |
-| | [!UICONTROL Media type] | この契約で購入したメディアの種類：*[!UICONTROL Desktop video]*、*[!UICONTROL Mobile video]*、*[!UICONTROL Connected TV]*、*[!UICONTROL Display]*、*[!UICONTROL Audio]*、または&#x200B;*[!UICONTROL Publisher Managed]*。 オプションはSSPによって異なります。<br><br> 取引で複数のメディアタイプが許可されている場合は、取引の作成時にデフォルトのプレースメントのメディアタイプを選択します。 後で、値を変更するか、追加のメディアタイプ [&#128279;](deal-id-attach-placements.md)で新しいプレースメントを アタッチするだけです。<!-- It would be ideal if this field was multi-select rather than a radio button, so you don't have to "change" the value later. --> | はい | いいえ |
+| | [!UICONTROL Media type] | この契約で購入したメディアの種類：*[!UICONTROL Desktop video]*、*[!UICONTROL Mobile video]*、*[!UICONTROL Connected TV]*、*[!UICONTROL Display]*、*[!UICONTROL Audio]*、または&#x200B;*[!UICONTROL Publisher Managed]*。 オプションはSSPによって異なります。<br><br> 取引で複数のメディアタイプが許可されている場合は、取引の作成時にデフォルトのプレースメントのメディアタイプを選択します。 後で、値を変更するか、追加のメディアタイプ ](deal-id-attach-placements.md)で新しいプレースメントを[ アタッチするだけです。<!-- It would be ideal if this field was multi-select rather than a radio button, so you don't have to "change" the value later. --> | はい | いいえ |
 | | [!UICONTROL Deal type] | 契約のコミットメントと価格構造：<br><ul><li>*[!UICONTROL Non guaranteed (floor)]*：あなたとパブリッシャーは、インプレッション配信の数が固定されていません。 この取引は、在庫の最低価格を規定していますが、CPMは市場の状況によって変動し、増加する可能性があります。</li><li>*[!UICONTROL Non guaranteed (fixed)]*：あなたとパブリッシャーは、インプレッション配信の数が固定されていません。 価格は交渉済みの固定レートで設定されています。</li><li>*[!UICONTROL Guaranteed (fixed)]*：お客様とパブリッシャーは、事前に定義されたインプレッション数、ターゲティング、フライト日、固定価格について合意しました。<br><br><b>注意：</b>保証された契約には、フライト日と[!UICONTROL Tracking] セクションで指定されたインプレッション数が必要です。 また、取引のデフォルトのプログラマティック保証（PG）プレースメントを作成する必要があり、オプションで他のプレースメントに取引を使用することもできます。</li></ul> | はい | いいえ |
 | | [!UICONTROL CPM] | 1000 インプレッションあたりの交渉済みコスト（CPM）。 | はい | はい |
 | | [通貨] | 取引の通貨。<br><br>すべてのSSPがUSDでのお得な情報を受け入れます。 SSPがDSP アカウントの通貨を受け入れると、その通貨も使用可能になります。 | はい | いいえ |
@@ -51,4 +51,4 @@ ht-degree: 0%
 >
 >* [取引IDの詳細を手動で作成する](deal-id-create.md)
 >* [SSP パートナー](ssp-partners.md)
->* [&#x200B; プライベートインベントリについて](private-inventory-about.md)
+>* [ プライベートインベントリについて](private-inventory-about.md)

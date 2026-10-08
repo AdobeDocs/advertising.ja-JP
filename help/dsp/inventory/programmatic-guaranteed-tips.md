@@ -67,6 +67,6 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プログラマティック保証取引について](programmatic-guaranteed-about.md)
->* [&#x200B; プログラム的な保証契約の設定](programmatic-guaranteed-set-up.md)
+>* [ プログラマティック保証取引について](programmatic-guaranteed-about.md)
+>* [ プログラム的な保証契約の設定](programmatic-guaranteed-set-up.md)
 >* [SSP パートナー](ssp-partners.md)

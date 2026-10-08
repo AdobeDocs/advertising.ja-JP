@@ -35,9 +35,9 @@ ht-degree: 0%
 
 <!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
-各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+各広告ネットワークで使用できる機能について詳しくは、「[ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
-新しいUIでの広告ネットワークアカウントの管理方法については、「[&#x200B; （新しいUI） API接続を介した広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)」を参照してください。
+新しいUIでの広告ネットワークアカウントの管理方法については、「[ （新しいUI） API接続を介した広告ネットワークアカウントの管理](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)」を参照してください。
 
 ## 広告ネットワークアカウントの詳細の作成 {#create-account}
 
@@ -54,13 +54,13 @@ ht-degree: 0%
 
 1. データテーブルの上にあるツールバーで、![作成](/help/search-social-commerce/assets/add.png "作成")をクリックします。
 
-1. [&#x200B; アカウント設定](#account-settings)を指定します。
+1. [ アカウント設定](#account-settings)を指定します。
 
    1. 広告ネットワークの名前をクリックし、**[!UICONTROL Next]**&#x200B;をクリックします。
 
    1. 「**[!UICONTROL Account Details]**」セクションで、アカウントの詳細を入力します。
 
-      ログイン認証タイプ「[!UICONTROL oAuth]」を使用するアドネットワークの場合、Search、Social、およびCommerceが[OAuth認証プロトコル &#x200B;](https://oauth.net/2/)を使用してアカウントにアクセスできるようにします。
+      ログイン認証タイプ「[!UICONTROL oAuth]」を使用するアドネットワークの場合、Search、Social、およびCommerceが[OAuth認証プロトコル ](https://oauth.net/2/)を使用してアカウントにアクセスできるようにします。
 
       1. アカウントの&#x200B;**[!UICONTROL Login]**&#x200B;値を入力し、必要に応じてパスワードを入力し、**[!UICONTROL Authenticate]**&#x200B;をクリックします。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 1. アカウント名の上にカーソルを置き、![詳細](/help/search-social-commerce/assets/more-filters.png "詳細")をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
 
-1. [&#x200B; アカウント設定](#account-settings)を編集します。
+1. [ アカウント設定](#account-settings)を編集します。
 
    1. （オプション）アカウントの詳細を編集します。
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 *代理店アカウントマネージャー、Adobe アカウントマネージャー、管理者ユーザーの役割のみ*
 
-Search, Social, &amp; Commerceが[OAuth認証プロトコル &#x200B;](https://oauth.net/2/)を使用してアカウントにアクセスし、アカウントの資格情報が変更された場合、またはSearch, Social, &amp; Commerceの新機能をサポートするために追加のアクセスが必要な場合は、アカウントの新しいアクセストークンを取得する必要があります。
+Search, Social, &amp; Commerceが[OAuth認証プロトコル ](https://oauth.net/2/)を使用してアカウントにアクセスし、アカウントの資格情報が変更された場合、またはSearch, Social, &amp; Commerceの新機能をサポートするために追加のアクセスが必要な場合は、アカウントの新しいアクセストークンを取得する必要があります。
 
 Adobeのアカウントチームは、新機能に新しいトークンが必要な場合にお知らせします。
 
@@ -150,7 +150,7 @@ Adobeのアカウントチームは、新機能に新しいトークンが必要
 
         複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
-     1. データテーブルの上にあるツールバーで、![&#x200B; アクティベーションアイコン &#x200B;](/help/search-social-commerce/assets/activate.png " アクティベーションアイコン ")をクリックしてアカウントを有効にするか、![無効にするアイコン](/help/search-social-commerce/assets/disable.png "無効にするアイコン")してアカウントを無効にします。
+     1. データテーブルの上にあるツールバーで、![ アクティベーションアイコン ](/help/search-social-commerce/assets/activate.png " アクティベーションアイコン ")をクリックしてアカウントを有効にするか、![無効にするアイコン](/help/search-social-commerce/assets/disable.png "無効にするアイコン")してアカウントを無効にします。
 
 ## 広告ネットワークアカウント設定 {#account-settings}
 
@@ -164,7 +164,7 @@ Adobeのアカウントチームは、新機能に新しいトークンが必要
 
 >[!NOTE]
 >
->Ad network manager アカウントは、ここではサポートされていません。 [!DNL Microsoft Advertising]または[!DNL Yandex]のマネージャーアカウントを特定するには、「マスターアカウント ID」フィールドまたは「MCC アカウント」フィールドをそれぞれ使用します。 [&#x200B; マネージャーアカウント &#x200B;](/help/search-social-commerce/admin/manager-accounts.md)の資格情報を設定するには、[!UICONTROL Admin] \> [!UICONTROL Manager Accounts]に移動します。 [!DNL Google Ads] 
+>Ad network manager アカウントは、ここではサポートされていません。 [!DNL Microsoft Advertising]または[!DNL Yandex]のマネージャーアカウントを特定するには、「マスターアカウント ID」フィールドまたは「MCC アカウント」フィールドをそれぞれ使用します。 [ マネージャーアカウント ](/help/search-social-commerce/admin/manager-accounts.md)の資格情報を設定するには、[!UICONTROL Admin] \> [!UICONTROL Manager Accounts]に移動します。 [!DNL Google Ads] 
 
 **[!UICONTROL Account Name]:**&#x200B;検索、ソーシャル、およびCommerce内のアカウントに表示される名前。
 
@@ -174,7 +174,7 @@ Adobeのアカウントチームは、新機能に新しいトークンが必要
 
 **[!UICONTROL Login Details]: \[Login Type\]** - （[!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center]のみ）次を使用してアカウントへのログインを許可するかどうか：
 
-* *[!UICONTROL oAuth]* （デフォルト）: [[!DNL OAuth] 認証プロトコル &#x200B;](https://oauth.net/2/)を使用するには。
+* *[!UICONTROL oAuth]* （デフォルト）: [[!DNL OAuth] 認証プロトコル ](https://oauth.net/2/)を使用するには。
 
 * *[!UICONTROL Password]:* クライアントのパスワードを使用します。
 
@@ -182,7 +182,7 @@ Adobeのアカウントチームは、新機能に新しいトークンが必要
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** （[!DNL Naver]を除くすべての広告ネットワーク） アカウントへのAPI アクセスを有効にするログイン名またはID。
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** （[!DNL Microsoft Advertising] [!DNL oAuth]が有効で、[!DNL Meta]と[!DNL Yandex]を除くすべてのネットワーク） アカウントのトークンは、[[!DNL OAuth] 認証プロトコル &#x200B;](https://oauth.net/2/)を使用してログインを認証します。
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** （[!DNL Microsoft Advertising] [!DNL oAuth]が有効で、[!DNL Meta]と[!DNL Yandex]を除くすべてのネットワーク） アカウントのトークンは、[[!DNL OAuth] 認証プロトコル ](https://oauth.net/2/)を使用してログインを認証します。
 
 **[!UICONTROL Login Details]: [!UICONTROL Password]:** （[!DNL Naver]を除くすべての広告ネットワーク） アカウントのパスワード。 [!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]のパスワードが有効なアカウントの場合、このフィールドは必須です。 [!DNL oAuth]が有効なアカウントの場合、このフィールドはオプションです。アカウントマネージャーが必要に応じてトークンを更新できるように、パスワードを暗号化して保存する場合に使用します。
 
@@ -194,7 +194,7 @@ Adobeのアカウントチームは、新機能に新しいトークンが必要
 
 例：`param1=value1&param2=value2`
 
-Adobe Advertising クリック トラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック ID （[!DNL Microsoft Advertising]の`msclkid`; Googleの`gclid`）を含める必要があります。 Adobe Analyticsとの統合を持つアカウントでは、AMO ID パラメーター（`s_kwcid`で始まる）を使用する必要があります。 アカウントにサーバーサイド AMO ID実装がある場合、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、ここで手動で追加する必要があります。  [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の必要なサフィックス形式を参照してください。
+Adobe Advertising クリック トラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック ID （[!DNL Microsoft Advertising]の`msclkid`; Googleの`gclid`）を含める必要があります。 Adobe Analyticsとの統合を持つアカウントでは、AMO ID パラメーター（`s_kwcid`で始まる）を使用する必要があります。 アカウントにサーバーサイド AMO ID実装がある場合、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、ここで手動で追加する必要があります。  [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の[必要なサフィックス形式を参照してください。
 
 >[!NOTE]
 >
@@ -212,7 +212,7 @@ Adobe Advertising クリック トラッキングを使用するアカウント�
 
 * 最終的なURLを埋め込むには：
 
-  * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）を参照してください。
+  * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）を参照してください。
 
   * （[!DNL LY Ads]のみ） パラメーター`!{lpurl}`を使用して、ランディングページ URLを示します。
 
@@ -268,13 +268,13 @@ Adobe Advertising クリック トラッキングを使用するアカウント�
 
 * **S_kwcid形式：** （Adobe AdvertisingとAdobe Analyticsの統合を持ち、AMO ID （s_kwcid）がまだ移行されていない広告主向けの既存の[!DNL Google Ads] アカウント）
 
-このアカウントは、AMO ID トラッキングコードの従来のフォーマットを使用しています。これにより、Adobe Advertisingはアカウントに関するデータをAdobe Analyticsと共有できます。 [最新の形式](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items)には、キャンペーン IDと広告グループ IDのパラメーターが含まれています。これらは、[!DNL Google Ads]件のパフォーマンスの最大キャンペーン、ドラフト、およびAnalyticsの実験キャンペーンについて、キャンペーンおよび広告グループ レベルで正確にレポートするために必要です。
+このアカウントは、AMO ID トラッキングコードの従来のフォーマットを使用しています。これにより、Adobe Advertisingはアカウントに関するデータをAdobe Analyticsと共有できます。 [最新の形式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)には、キャンペーン IDと広告グループ IDのパラメーターが含まれています。これらは、[!DNL Google Ads]件のパフォーマンスの最大キャンペーン、ドラフト、およびAnalyticsの実験キャンペーンについて、キャンペーンおよび広告グループ レベルで正確にレポートするために必要です。
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
 このアカウントをキャンペーンおよび広告グループのレベルで報告する必要がある場合は、[!UICONTROL Edit] （鉛筆）アイコンをクリックし、**[!UICONTROL Migrate to new s_kwcid format]**&#x200B;をクリックして新しい形式に変更します。 これらのキャンペーンタイプを含まないアカウントの場合、新しい形式への移行はオプションですが、推奨されます。
 
-詳細な手順については、「[&#x200B; アカウント  [!DNL Google Ads] のAMO ID トラッキングコードの更新](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)」を参照してください。
+詳細な手順については、「[ アカウント  [!DNL Google Ads] のAMO ID トラッキングコードの更新](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)」を参照してください。
 
 **レポートスイート名：** （EF リダイレクトとトークンの場合のみ、Adobe AdvertisingとAdobe Analyticsの統合を持つ広告主、オプション） Search, Social, &amp; Commerceが広告ネットワークから収集したデータを送信する1つ以上のAnalytics レポートスイート（エンティティの分類やアカウントのクリックデータを含む）。 この機能は、サポートされている広告ネットワークでのみ使用できます。
 
@@ -283,5 +283,5 @@ Adobe Advertising クリック トラッキングを使用するアカウント�
 >[!MORELIKETHIS]
 >
 >* [広告ネットワークアカウントについて](ad-network-account-about.md)
->* [&#x200B; マーチャント センターのアカウントの管理](merchant-account-manage.md)
->* [&#x200B; アカウント  [!DNL Google Ads] のs_kwcid トラッキングコードを更新します](update-amo-id-google.md)
+>* [ マーチャント センターのアカウントの管理](merchant-account-manage.md)
+>* [ アカウント  [!DNL Google Ads] のs_kwcid トラッキングコードを更新します](update-amo-id-google.md)

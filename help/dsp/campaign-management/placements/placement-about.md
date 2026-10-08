@@ -52,7 +52,7 @@ ht-degree: 0%
 
 [!UICONTROL Placements] ダッシュボードは、すべてのプレースメントのパフォーマンスと経済レポートを一元化し、指定した日付範囲内でのプレースメントのパフォーマンスを素早く把握します。
 
-![配置ダッシュボード &#x200B;](/help/dsp/assets/placement-dashboard.png)
+![配置ダッシュボード ](/help/dsp/assets/placement-dashboard.png)
 
 ダッシュボードには、3つの指標を含む、カスタマイズ可能で大まかなトレンドチャートが用意されています。
 
@@ -62,12 +62,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[&#x200B; カスタムレポート &#x200B;](/help/dsp/reports/report-about.md)を使用して、プレースメントレポートのコンテンツと配信をさらにカスタマイズできます。
+>[ カスタムレポート ](/help/dsp/reports/report-about.md)を使用して、プレースメントレポートのコンテンツと配信をさらにカスタマイズできます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; プレースメントの作成](placement-create.md)
->* [&#x200B; プレースメントの入札乗数を管理](placement-manage-bid-multipliers.md)
->* [&#x200B; プレースメントの変更ログを表示](placement-change-log.md)
+>* [ プレースメントの作成](placement-create.md)
+>* [ プレースメントの入札乗数を管理](placement-manage-bid-multipliers.md)
+>* [ プレースメントの変更ログを表示](placement-change-log.md)
 >* [配置の設定](placement-settings.md)
->* [&#x200B; パフォーマンスの問題の理由](/help/dsp/optimization/troubleshooting-performance.md)
+>* [ パフォーマンスの問題の理由](/help/dsp/optimization/troubleshooting-performance.md)

@@ -81,7 +81,7 @@ Search, Social, &amp; Commerceを実装および使用するための一般的�
 
    1. （広告主、[!DNL Google Analytics]）最適化とレポート用に、[!DNL Google Analytics] アカウント、プロパティ、ビューの組み合わせのコンバージョン指標を同期します。
 
-      ヘルプサブチャプター「管理者」/「[&#x200B; データソースの設定](/help/search-social-commerce/admin/data-sources/data-source-about.md)」を参照してください。
+      ヘルプサブチャプター「管理者」/「[ データソースの設定](/help/search-social-commerce/admin/data-sources/data-source-about.md)」を参照してください。
 
 1. ポートフォリオを設定して起動する：
 
@@ -93,7 +93,7 @@ Search, Social, &amp; Commerceを実装および使用するための一般的�
 
    1. 十分なデータが収集され、ベースラインを構築できたら、RTCDPでポートフォリオを立ち上げます。それにより、Search, Social, &amp; Commerceが、最適化のタイプに基づいてポートフォリオの入札や予算を最適化できます。
 
-   ポートフォリオの設定と起動について詳しくは、Search, Social, &amp; Commerce内の任意のページの右上にある[!UICONTROL Help] メニュー（![&#x200B; ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から利用できる「最適化」に関するヘルプを参照してください。
+   ポートフォリオの設定と起動について詳しくは、Search, Social, &amp; Commerce内の任意のページの右上にある[!UICONTROL Help] メニュー（![ ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から利用できる「最適化」に関するヘルプを参照してください。
 
 1. ポートフォリオのパフォーマンスを監視する：
 
@@ -103,7 +103,7 @@ Search, Social, &amp; Commerceを実装および使用するための一般的�
 
    広告インサイトの実行とレポートの設定について詳しくは、「インサイトとレポート」のヘルプページを参照してください。
 
-1. （オプション） [&#x200B; パフォーマンスデータビュー](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)を設定して、表示するデータを表示します。
+1. （オプション） [ パフォーマンスデータビュー](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)を設定して、表示するデータを表示します。
 
 ## 進行中のタスク
 
@@ -125,4 +125,4 @@ Search, Social, &amp; Commerceを実装および使用するための一般的�
 
   * 新しいポートフォリオを追加します。
 
-ポートフォリオの監視とポートフォリオ戦略の調整の手順については、Search, Social, &amp; Commerce内の任意のページの右上にある[!UICONTROL Help] メニュー（![&#x200B; ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から利用できるヘルプサブチャプター「最適化」/「ポートフォリオの管理」/「パフォーマンスの監視と管理」を参照してください。
+ポートフォリオの監視とポートフォリオ戦略の調整の手順については、Search, Social, &amp; Commerce内の任意のページの右上にある[!UICONTROL Help] メニュー（![ ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から利用できるヘルプサブチャプター「最適化」/「ポートフォリオの管理」/「パフォーマンスの監視と管理」を参照してください。

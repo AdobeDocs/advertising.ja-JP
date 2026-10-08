@@ -43,6 +43,6 @@ ht-degree: 0%
 >
 >* [The [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
 >* [The [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [&#x200B; モデル精度レポートを生成](model-accuracy-report-generate.md)
->* [&#x200B; モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
->* [&#x200B; レポートについて](/help/search-social-commerce/reports/report-about.md)
+>* [ モデル精度レポートを生成](model-accuracy-report-generate.md)
+>* [ モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [ レポートについて](/help/search-social-commerce/reports/report-about.md)

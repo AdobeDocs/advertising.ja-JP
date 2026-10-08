@@ -49,4 +49,4 @@ Transaction ID,Transaction Date,Product,Revenue
 >[!MORELIKETHIS]
 >
 >* [変換フィード ファイルの必要ファイル数](feed-file-requirements.md)
->* [&#x200B; トランザクション ID フィードを使用したコンバージョン追跡](/help/search-social-commerce/tracking/feed-transaction-id.md)
+>* [ トランザクション ID フィードを使用したコンバージョン追跡](/help/search-social-commerce/tracking/feed-transaction-id.md)

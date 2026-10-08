@@ -30,7 +30,7 @@ ht-degree: 0%
 
 *決定木ターゲティングなしのエクスペリエンスのみ*
 
-エクスペリエンスに使用するクリエイティブサイズ（ビデオ以外のクリエイティブ）またはビデオのデュレーションごとに、言語ごとに1つ以上の広告タグを作成できます。 後で[&#x200B; クリエイターを広告タグに割り当てることができます](experience-tag-assign-creatives.md)。
+エクスペリエンスに使用するクリエイティブサイズ（ビデオ以外のクリエイティブ）またはビデオのデュレーションごとに、言語ごとに1つ以上の広告タグを作成できます。 後で[ クリエイターを広告タグに割り当てることができます](experience-tag-assign-creatives.md)。
 
 >[!NOTE]
 >
@@ -60,9 +60,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
->* [&#x200B; ターゲットを設定せずにエクスペリエンスのトラッキング URLをカスタマイズする](experience-tracking-urls-no-targeting.md)
->* [&#x200B; クリエイティブの最適化とスケジュールをカスタマイズして、ターゲットを設定せずにエクスペリエンスを利用](experience-optimization-scheduling-no-targeting.md)
->* [&#x200B; ビデオ広告エクスペリエンスタグのトランスコーディングオプションをカスタマイズ &#x200B;](experience-tag-video-transcoding.md)
->* [&#x200B; ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](experience-tag-export.md)
+>* [ ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
+>* [ ターゲットを設定せずにエクスペリエンスのトラッキング URLをカスタマイズする](experience-tracking-urls-no-targeting.md)
+>* [ クリエイティブの最適化とスケジュールをカスタマイズして、ターゲットを設定せずにエクスペリエンスを利用](experience-optimization-scheduling-no-targeting.md)
+>* [ ビデオ広告エクスペリエンスタグのトランスコーディングオプションをカスタマイズ ](experience-tag-video-transcoding.md)
+>* [ ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](experience-tag-export.md)
 >* [広告タグの名前を変更](experience-tag-rename.md)

@@ -71,7 +71,7 @@ ht-degree: 0%
 
 * 新しいフィードファイルには、a）以前のファイルにあったがb）以降に省略され、フィードデータの設定に従って一時停止または削除された広告またはキーワードの行が含まれます。
 
-[&#x200B; フィード データ設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings)に応じて、次の場合に既存の広告またはキーワードが削除される場合があります。
+[ フィード データ設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings)に応じて、次の場合に既存の広告またはキーワードが削除される場合があります。
 
 * 新しいフィード ファイルには、既存の広告またはキーワードの行が含まれていません。
 
@@ -126,7 +126,7 @@ Search、Social、およびCommerceでコンバージョン指標の表示名を
 
 ランディングページのサフィックスは、並列トラッキングをサポートする広告ネットワークにのみ使用します。 Search, Social, &amp; Commerceでは、トラッキングテンプレートとランディングページのサフィックスの両方に広告ネットワークのクリック識別子を含める必要がありますが、トラッキングテンプレートには追加のトラッキングパラメーターが含まれています。
 
-ユーザーが広告をクリックしたときにトラッキングテンプレートとランディングページのサフィックスが読み込まれる方法について詳しくは、[&#x200B; パラレルトラッキングサポート &#x200B;](#parallel-tracking)に関する次のFAQを参照してください。
+ユーザーが広告をクリックしたときにトラッキングテンプレートとランディングページのサフィックスが読み込まれる方法について詳しくは、[ パラレルトラッキングサポート ](#parallel-tracking)に関する次のFAQを参照してください。
 
 +++
 
@@ -134,14 +134,14 @@ Search、Social、およびCommerceでコンバージョン指標の表示名を
 
 パラレルトラッキングは、広告から最終的なURLに顧客を直接送信します。これには、最終的なURL サフィックスや「ランディングページサフィックス」から追加されたパラメーターが含まれます。 トラッキングテンプレートのURL （クリック測定用の追加パラメーターを含む）は、バックグラウンドで個別に読み込まれます。その結果、ランディングページがより迅速に読み込まれます。
 
-Search, Social, &amp; Commerceでは、広告ネットワークのクリック識別子（[!DNL Microsoft Advertising]は`msclkid`、[!DNL Google Ads]は`gclid`）を使用して、検索キャンペーンとショッピングキャンペーンを並行して追跡できます。 ランディングページ URLに追加される[&#x200B; アカウントレベル &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)または[&#x200B; キャンペーンレベル &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix]を使用して、並列追跡をサポートするブラウザーからの子広告のクリックを追跡します。 [!DNL final URL suffix] [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の必要なサフィックス形式を参照してください。
+Search, Social, &amp; Commerceでは、広告ネットワークのクリック識別子（[!DNL Microsoft Advertising]は`msclkid`、[!DNL Google Ads]は`gclid`）を使用して、検索キャンペーンとショッピングキャンペーンを並行して追跡できます。 ランディングページ URLに追加される[ アカウントレベル ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)または[ キャンペーンレベル ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)[!UICONTROL Landing Page Suffix]を使用して、並列追跡をサポートするブラウザーからの子広告のクリックを追跡します。 [!DNL final URL suffix] [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の[必要なサフィックス形式を参照してください。
 
-ユーザーが並列トラッキングをサポートしていないブラウザーで広告を表示する場合、広告ネットワークは代わりにシーケンシャルトラッキングを使用します。顧客はまずトラッキングテンプレート URLに送信され、中間追跡サーバーに顧客をリダイレクトしてから最終的なURL （ランディングページサフィックスに追加のパラメーターを含む場合がある）にリダイレクトされます。 広告ネットワークアカウントのすべてのトラッキングテンプレートには、[!UICONTROL Landing Page Suffix]で使用するのと同じクリック識別子パラメーターを含める必要があります。  [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[&#x200B; トラッキングテンプレート形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の トラッキングテンプレート形式を参照してください。
+ユーザーが並列トラッキングをサポートしていないブラウザーで広告を表示する場合、広告ネットワークは代わりにシーケンシャルトラッキングを使用します。顧客はまずトラッキングテンプレート URLに送信され、中間追跡サーバーに顧客をリダイレクトしてから最終的なURL （ランディングページサフィックスに追加のパラメーターを含む場合がある）にリダイレクトされます。 広告ネットワークアカウントのすべてのトラッキングテンプレートには、[!UICONTROL Landing Page Suffix]で使用するのと同じクリック識別子パラメーターを含める必要があります。  [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[ トラッキングテンプレート形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の[ トラッキングテンプレート形式を参照してください。
 +++
 
 +++広告のトラッキング URLに「`&EV_HASH={<hash>}`」が含まれているのはなぜですか？
 
-Search, Social, &amp; Commerce ピクセルリダイレクトを使用し、キーワードレベルおよびクリエイティブレベルのトラッキングを使用するアカウントの[商品インベントリフィード &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)を使用して広告をアップロードすると、Search, Social, &amp; Commerceは、広告のトラッキングテンプレートまたは宛先URLにハッシュパラメーターと値を追加して、インベントリフィード機能を使用して作成されたことを識別します。
+Search, Social, &amp; Commerce ピクセルリダイレクトを使用し、キーワードレベルおよびクリエイティブレベルのトラッキングを使用するアカウントの[商品インベントリフィード ](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)を使用して広告をアップロードすると、Search, Social, &amp; Commerceは、広告のトラッキングテンプレートまたは宛先URLにハッシュパラメーターと値を追加して、インベントリフィード機能を使用して作成されたことを識別します。
 +++
 
 ## 在庫フィード
@@ -173,7 +173,7 @@ Search, Social, &amp; Commerce ピクセルリダイレクトを使用し、キ�
 
 +++在庫フィードから生成されたキャンペーンには、孤立したトランザクションが多く含まれています。
 
-[&#x200B; フィードデータ設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings)が様々な状況で広告を削除するように設定されている場合、広告をクリックした後に発生するコンバージョンの遅延は、[孤立トランザクション &#x200B;](/help/search-social-commerce/glossary.md#o-p)の原因となる可能性があります。 広告を削除する代わりに、広告を一時停止することをお勧めします。 広告がまだ長い間収益を受け取っていない場合は、バルクシートまたは広告管理ビューを使用して広告を削除できます。
+[ フィードデータ設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings)が様々な状況で広告を削除するように設定されている場合、広告をクリックした後に発生するコンバージョンの遅延は、[孤立トランザクション ](/help/search-social-commerce/glossary.md#o-p)の原因となる可能性があります。 広告を削除する代わりに、広告を一時停止することをお勧めします。 広告がまだ長い間収益を受け取っていない場合は、バルクシートまたは広告管理ビューを使用して広告を削除できます。
 +++
 
 ## アカウントおよびキャンペーン関連のパフォーマンスの問題

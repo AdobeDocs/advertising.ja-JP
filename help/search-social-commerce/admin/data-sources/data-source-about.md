@@ -37,7 +37,7 @@ ht-degree: 0%
 ---
 # [!DNL Google Analytics]のコンバージョン指標の同期について
 
-Search, Social, &amp; Commerceでは、特定の[!DNL Google Analytics] アカウント、プロパティ、ビューの組み合わせのコンバージョン指標を同期して、最適化とレポートを行うことができます。 [&#x200B; ページビュー](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=page_tracking&jump=ga_pageviews)、[&#x200B; セッション &#x200B;](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessions)、[直帰率](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_bouncerate) （バウンス/セッションとして計算）、[&#x200B; セッション期間](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessionduration)が自動的に含まれます。 データソースごとに最大16個の追加指標を含めることができます。
+Search, Social, &amp; Commerceでは、特定の[!DNL Google Analytics] アカウント、プロパティ、ビューの組み合わせのコンバージョン指標を同期して、最適化とレポートを行うことができます。 [ ページビュー](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=page_tracking&jump=ga_pageviews)、[ セッション ](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessions)、[直帰率](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_bouncerate) （バウンス/セッションとして計算）、[ セッション期間](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessionduration)が自動的に含まれます。 データソースごとに最大16個の追加指標を含めることができます。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Search, Social, &amp; Commerceでは、特定の[!DNL Google Analytics] アカ�
 
    * [!DNL Google Analytics]の[!DNL Custom Dimension]にAdobe Advertising トークン （`ef_id` クエリ文字列パラメーター）をキャプチャします。
 
-1. （代理店アカウント管理者、代理店アカウントマネージャー、[!DNL Adobe] アカウントマネージャー、および管理者ユーザーのみ） [&#x200B; アカウント、プロパティ、ビューの組み合わせごとに1つのデータソースを作成](data-source-configure.md)。 [!DNL Google Analytics] 
+1. （代理店アカウント管理者、代理店アカウントマネージャー、[!DNL Adobe] アカウントマネージャー、および管理者ユーザーのみ） [ アカウント、プロパティ、ビューの組み合わせごとに1つのデータソースを作成](data-source-configure.md)。 [!DNL Google Analytics] 
 
    複数のプロパティまたは1つのプロパティの複数のビューの指標を統合するには、それぞれに個別のデータソースを設定します。
 
@@ -61,10 +61,10 @@ Search, Social, &amp; Commerceでは、特定の[!DNL Google Analytics] アカ�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; データソースを設定するための前提条件 [!DNL Google Analytics] &#x200B;](data-source-prerequisites.md)
->* [&#x200B; データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
->* [&#x200B; データソースの編集 [!DNL Google Analytics] &#x200B;](data-source-edit.md)
->* [&#x200B; データソースの同期を一時停止](data-source-pause.md)
->* [&#x200B; データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
+>* [ データソースを設定するための前提条件 [!DNL Google Analytics] ](data-source-prerequisites.md)
+>* [ データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
+>* [ データソースの編集 [!DNL Google Analytics] ](data-source-edit.md)
+>* [ データソースの同期を一時停止](data-source-pause.md)
+>* [ データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics]  データソース設定](data-source-settings.md)
 >* [付録 – 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)

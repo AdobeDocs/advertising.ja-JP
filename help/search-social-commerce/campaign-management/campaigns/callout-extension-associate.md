@@ -22,7 +22,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-[同期済み [!DNL Google Ads]  アカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)内の検索ネットワークでサポートされている[&#x200B; キャンペーンまたは広告グループ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)にコールアウト拡張機能を作成し、割り当てることができます。 [!DNL Google Ads] 
+[同期済み [!DNL Google Ads]  アカウント ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)内の検索ネットワークでサポートされている[ キャンペーンまたは広告グループ ](/help/search-social-commerce/introduction/supported-inventory.md)にコールアウト拡張機能を作成し、割り当てることができます。 [!DNL Google Ads] 
 
 広告がコールアウトと共に表示されるように、キャンペーンまたは広告グループごとに少なくとも2つのコールアウトを割り当てます。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
       * （オプション）キャンペーンを展開して子広告グループを表示するには、キャンペーン名をクリックします。
 
-      * （オプション）キャンペーンリストまたは広告グループリストを、名前に含まれるテキスト文字列でフィルタリングするには、![&#x200B; フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、テキスト文字列を入力フィールドに入力または貼り付け、**Enter** キーを押します。
+      * （オプション）キャンペーンリストまたは広告グループリストを、名前に含まれるテキスト文字列でフィルタリングするには、![ フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、テキスト文字列を入力フィールドに入力または貼り付け、**Enter** キーを押します。
 
       * エンティティを選択するには、隣接する円（![選択](/help/search-social-commerce/assets/include.png "選択")）をクリックします。
 
@@ -48,6 +48,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; コールアウト拡張機能 [!DNL Google Ads] について](callout-extension-about.md)
->* [&#x200B; コールアウト拡張機能 [!DNL Google Ads] を管理](callout-extension-manage.md)
->* [&#x200B; キャンペーンおよび広告グループとの広告拡張機能の関連付けを削除](/help/search-social-commerce/campaign-management/campaigns/ad-extension-association-delete.md)
+>* [ コールアウト拡張機能 [!DNL Google Ads] について](callout-extension-about.md)
+>* [ コールアウト拡張機能 [!DNL Google Ads] を管理](callout-extension-manage.md)
+>* [ キャンペーンおよび広告グループとの広告拡張機能の関連付けを削除](/help/search-social-commerce/campaign-management/campaigns/ad-extension-association-delete.md)

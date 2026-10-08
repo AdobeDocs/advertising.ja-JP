@@ -41,7 +41,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンス管理について](audience-about.md)
+>* [ オーディエンス管理について](audience-about.md)
 >* [再利用可能なオーディエンスを作成](reusable-audience-create.md)
 >* [再利用可能なオーディエンスの編集](reusable-audience-edit.md)
 >* [再利用可能なオーディエンスに関する詳細を表示](reusable-audience-view-details.md)
@@ -49,6 +49,6 @@ ht-degree: 0%
 >* [再利用可能なオーディエンスの書き出し](reusable-audience-export.md)
 >* [再利用可能なオーディエンスのセグメントキーをクリップボードにコピー](reusable-audience-clipboard.md)
 >* [再利用可能なオーディエンスを削除](reusable-audience-delete.md)
->* [&#x200B; オーディエンス設定](audience-settings.md)
->* [&#x200B; オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
+>* [ オーディエンス設定](audience-settings.md)
+>* [ オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
 >* [使用可能なサードパーティのデータプロバイダー](third-party-data-providers.md)

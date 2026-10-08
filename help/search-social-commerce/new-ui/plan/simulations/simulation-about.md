@@ -34,7 +34,7 @@ ht-degree: 0%
 
 *Beta機能*
 
-シミュレーションレポートには、さまざまなレベルの支出（コスト）および対応する日々の予算やその他の目標でポートフォリオに期待できる限界費用対目標額、コスト、クリック数、および目標値の見積もりが表示されます。 オプションで[&#x200B; ビューをカスタマイズ &#x200B;](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)して、追加のトラフィック指標、シミュレーション設定、特定のシミュレーションタイプ （[!UICONTROL Weekly]または[!UICONTROL Custom]）のみを表示できます。
+シミュレーションレポートには、さまざまなレベルの支出（コスト）および対応する日々の予算やその他の目標でポートフォリオに期待できる限界費用対目標額、コスト、クリック数、および目標値の見積もりが表示されます。 オプションで[ ビューをカスタマイズ ](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)して、追加のトラフィック指標、シミュレーション設定、特定のシミュレーションタイプ （[!UICONTROL Weekly]または[!UICONTROL Custom]）のみを表示できます。
 
 <!--
  Not available as of 6/21/25:
@@ -49,7 +49,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 ### 週次シミュレーションの自動化
 
-シミュレーションレポートは、現在のポートフォリオ設定を使用して毎週自動的に実行されます。 毎週の自動シミュレーションは、ポートフォリオが[最適化またはアクティブ &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)である期間にのみ使用できます。
+シミュレーションレポートは、現在のポートフォリオ設定を使用して毎週自動的に実行されます。 毎週の自動シミュレーションは、ポートフォリオが[最適化またはアクティブ ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)である期間にのみ使用できます。
 
 #### 週次シミュレーションのダウンロード
 
@@ -57,7 +57,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 #### 画面上の週次シミュレーションの詳細
 
-画面上のシミュレーションの詳細では、ポートフォリオレベルの視覚的および表形式のインサイトが表示されます。 キャンペーン、広告グループ、入札単位、またはデバイス別のデータの場合は、代わりに[&#x200B; シミュレーションをダウンロード &#x200B;](simulation-download.md)してください。
+画面上のシミュレーションの詳細では、ポートフォリオレベルの視覚的および表形式のインサイトが表示されます。 キャンペーン、広告グループ、入札単位、またはデバイス別のデータの場合は、代わりに[ シミュレーションをダウンロード ](simulation-download.md)してください。
 
 ##### グラフビュー
 
@@ -89,7 +89,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 #### 画面上のカスタムシミュレーションの詳細
 
-画面上のシミュレーションの詳細では、ポートフォリオレベルの視覚的および表形式のインサイトが表示されます。 キャンペーン、広告グループ、入札単位、またはデバイス別のデータの場合は、代わりに[&#x200B; シミュレーションをダウンロード &#x200B;](simulation-download.md)してください。
+画面上のシミュレーションの詳細では、ポートフォリオレベルの視覚的および表形式のインサイトが表示されます。 キャンペーン、広告グループ、入札単位、またはデバイス別のデータの場合は、代わりに[ シミュレーションをダウンロード ](simulation-download.md)してください。
 
 #### グラフビュー
 
@@ -121,11 +121,11 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 * [予測インプレッション、実際のコスト、クリック数、インプレッション数、目標値、コスト対目標値、コストの正確性、クリック精度、目標値の正確性、予測値と実際の目標値と目標値の差分（差分）などの追加指標を含めるように、ビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)をカスタマイズします。 ほとんどのシミュレーション設定とシミュレーションの種類（[!UICONTROL Custom]または[!UICONTROL Weekly]）の列を含めることもできます。
 
-* [単一のポートフォリオのカスタムシミュレーション &#x200B;](simulation-create.md)を生成または再実行します。 新しいシミュレーションを作成するか、リスト内の既存のシミュレーションを再生成できます。
+* [単一のポートフォリオのカスタムシミュレーション ](simulation-create.md)を生成または再実行します。 新しいシミュレーションを作成するか、リスト内の既存のシミュレーションを再生成できます。
 
 * [週ごとのシミュレーションまたはカスタムシミュレーションを画面に表示](simulation-view.md)。
 
-* [週次およびカスタムのシミュレーション &#x200B;](simulation-download.md)を[!DNL Microsoft Excel]個のワークブックとしてZIP ファイルにダウンロードします。
+* [週次およびカスタムのシミュレーション ](simulation-download.md)を[!DNL Microsoft Excel]個のワークブックとしてZIP ファイルにダウンロードします。
 
 * [!UICONTROL Spend Planner] ボタンを使用して、従来の予算分配の推奨ツールを開きます。これは、ポートフォリオ全体で最適な予算配分を特定するのに役立ちます。
 
@@ -141,6 +141,6 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; シミュレーションの実行または再実行](simulation-create.md)
->* [&#x200B; シミュレーションの詳細を表示](simulation-view.md)
->* [&#x200B; シミュレーションのダウンロード &#x200B;](simulation-download.md)
+>* [ シミュレーションの実行または再実行](simulation-create.md)
+>* [ シミュレーションの詳細を表示](simulation-view.md)
+>* [ シミュレーションのダウンロード ](simulation-download.md)

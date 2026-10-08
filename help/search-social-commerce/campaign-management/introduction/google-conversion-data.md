@@ -40,7 +40,7 @@ Search, Social, &amp; Commerceは、[!DNL Google Ads]の検索およびショッ
 
 「[!DNL Include in 'Conversions']」オプションが有効になっているコンバージョンのSearch, Social, &amp; Commerceはデータを同期し、過去35日間のデータを引き出した後、広告主のタイムゾーンの09:00-10:00までに毎日データに変更を引き出します。 過去のデータは、クリックごとに新しいコンバージョンを追跡するため、日々変化します。
 
-[[!DNL Google Ads]で追跡されたコンバージョン &#x200B;](https://support.google.com/google-ads/answer/4677036)ごとに最大3つの指標（[!DNL Google Ads]で設定）が、検索、ソーシャル、およびCommerceで、[!DNL Google Ads]で設定されたコンバージョン名を使用して自動的に使用できます。 各コンバージョンの指標には、次のようなものがあります。
+[[!DNL Google Ads]で追跡されたコンバージョン ](https://support.google.com/google-ads/answer/4677036)ごとに最大3つの指標（[!DNL Google Ads]で設定）が、検索、ソーシャル、およびCommerceで、[!DNL Google Ads]で設定されたコンバージョン名を使用して自動的に使用できます。 各コンバージョンの指標には、次のようなものがあります。
 
 <!--
 
@@ -125,5 +125,5 @@ Search, Social, &amp; Commerceでは、「表示」または「レポート」�
 >* [広告ネットワークアカウントとキャンペーンの実装の概要](campaign-implemention-overview.md)
 >* [広告ネットワークキャンペーンのパフォーマンスを監視および管理](monitor-performance-campaigns.md)
 >* [広告主に対して追跡されたコンバージョン指標を表示](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
->* [&#x200B; [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)のコンバージョンタグを作成
->* [&#x200B; オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
+>* [ [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)のコンバージョンタグを作成
+>* [ オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)

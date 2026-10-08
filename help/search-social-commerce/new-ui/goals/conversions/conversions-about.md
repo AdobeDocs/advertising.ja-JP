@@ -28,12 +28,12 @@ ht-degree: 0%
 
   * [すべてのコンバージョン指標を表示](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#view-the-conversion-metrics-tracked-for-an-advertiser)。
 
-  * [&#x200B; コンバージョン指標](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#change-the-display-name-for-a-conversion-metric)の表示名を変更します。
+  * [ コンバージョン指標](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#change-the-display-name-for-a-conversion-metric)の表示名を変更します。
 
   * [管理ビュー、目標、レポートで使用できるコンバージョン指標を変更する](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#change-the-conversion-metrics-available-in-management-views-objectives-and-reports)。
 
-  * [&#x200B; コンバージョンのパフォーマンスデータをダウンロード &#x200B;](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#manage-performance-data-reports-for-conversions)。
+  * [ コンバージョンのパフォーマンスデータをダウンロード ](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#manage-performance-data-reports-for-conversions)。
 
-* [&#x200B; リード &#x200B;](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)の強化コンバージョンの [!DNL Google Ads]  コンバージョンアクションを作成し、個々の[!DNL Google Ads] アカウントで追跡します。
+* [ リード ](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)の強化コンバージョンの [!DNL Google Ads]  コンバージョンアクションを作成し、個々の[!DNL Google Ads] アカウントで追跡します。
 
-* [&#x200B; ファーストパーティのオフラインコンバージョンデータ &#x200B;](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)をアップロードして、既存の[!DNL Google Ads]強化コンバージョンと[[!DNL Microsoft Advertising] 強化コンバージョン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178)にマッピングします。
+* [ ファーストパーティのオフラインコンバージョンデータ ](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)をアップロードして、既存の[!DNL Google Ads]強化コンバージョンと[[!DNL Microsoft Advertising] 強化コンバージョン ](https://help.ads.microsoft.com/#apex/ads/en/60178)にマッピングします。

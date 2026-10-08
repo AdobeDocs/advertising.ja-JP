@@ -25,7 +25,7 @@ ht-degree: 0%
 ---
 # 再利用可能なオーディエンスのセグメントキーをクリップボードにコピーします
 
-オーディエンスの英数字セグメントキー（ID）をクリップボードにコピーできます。 セグメントキーを使用すると、他の再利用可能なオーディエンスに対して[手動でセグメントロジック &#x200B;](audience-segment-logic-syntax.md)を定義できます。
+オーディエンスの英数字セグメントキー（ID）をクリップボードにコピーできます。 セグメントキーを使用すると、他の再利用可能なオーディエンスに対して[手動でセグメントロジック ](audience-segment-logic-syntax.md)を定義できます。
 
 1. メインメニューで、**[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**&#x200B;をクリックします。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンス管理について](audience-about.md)
+>* [ オーディエンス管理について](audience-about.md)
 >* [再利用可能なオーディエンスを作成](reusable-audience-create.md)
 >* [再利用可能なオーディエンスを複製](reusable-audience-duplicate.md)
 >* [再利用可能なオーディエンスの編集](reusable-audience-edit.md)
@@ -45,6 +45,6 @@ ht-degree: 0%
 >* [再利用可能なオーディエンスを削除](reusable-audience-delete.md)
 >* [再利用可能なオーディエンスを共有](reusable-audience-share.md)
 >* [再利用可能なオーディエンスを削除](reusable-audience-delete.md)
->* [&#x200B; オーディエンス設定](audience-settings.md)
->* [&#x200B; オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
+>* [ オーディエンス設定](audience-settings.md)
+>* [ オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
 >* [使用可能なサードパーティのデータプロバイダー](third-party-data-providers.md)

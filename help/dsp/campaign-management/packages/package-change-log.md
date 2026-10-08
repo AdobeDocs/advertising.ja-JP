@@ -46,7 +46,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのパッケージ管理について](package-about.md)
->* [&#x200B; パッケージを作成](package-create.md)
->* [&#x200B; パッケージの編集](package-edit.md)
->* [&#x200B; プレースメントをパッケージに添付](package-attach-placement.md)
->* [&#x200B; パッケージ設定](package-settings.md)
+>* [ パッケージを作成](package-create.md)
+>* [ パッケージの編集](package-edit.md)
+>* [ プレースメントをパッケージに添付](package-attach-placement.md)
+>* [ パッケージ設定](package-settings.md)

@@ -50,7 +50,7 @@ ht-degree: 0%
 
       1. （オプション）キャンペーンの子の広告グループを展開するには、キャンペーン名をクリックします。
 
-      1. （オプション）キャンペーンリストまたは広告グループリストを、名前に含まれるテキスト文字列でフィルタリングするには、![&#x200B; フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、テキスト文字列を入力フィールドに入力または貼り付け、**[!UICONTROL Enter]** キーを押します。
+      1. （オプション）キャンペーンリストまたは広告グループリストを、名前に含まれるテキスト文字列でフィルタリングするには、![ フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、テキスト文字列を入力フィールドに入力または貼り付け、**[!UICONTROL Enter]** キーを押します。
 
       1. 青いチェックマーク（![選択](/help/search-social-commerce/assets/include.png "選択")）が表示されるように、隣接する空の円をクリックして、指定された広告ネットワークの各キャンペーンと広告グループのターゲットを指定します。
 
@@ -124,13 +124,13 @@ ht-degree: 0%
 
 1. ツールバーで、ステータスボタンをクリックします。
 
-   * 行をアクティブ化するには、![&#x200B; アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
+   * 行をアクティブ化するには、![ アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
 
    * 行を一時停止するには、![一時停止](/help/search-social-commerce/assets/pause.png "一時停止")をクリックします。
 
-   * 行を削除するには、![その他のアクション &#x200B;](/help/search-social-commerce/assets/more.png "その他のアクション ")をクリックし、**[!UICONTROL Delete]**&#x200B;を選択します。 確認メッセージで、**[!UICONTROL Delete]**&#x200B;をクリックします。
+   * 行を削除するには、![その他のアクション ](/help/search-social-commerce/assets/more.png "その他のアクション ")をクリックし、**[!UICONTROL Delete]**&#x200B;を選択します。 確認メッセージで、**[!UICONTROL Delete]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンスについて](audience-about.md)
->* [&#x200B; キャンペーンと広告グループのオーディエンス除外の管理](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
+>* [ オーディエンスについて](audience-about.md)
+>* [ キャンペーンと広告グループのオーディエンス除外の管理](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)

@@ -60,7 +60,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->  [!DNL Analytics for Advertising]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=ja#analytics)に関する ビデオの概要をご覧ください。
+>  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics)に関する[ ビデオの概要をご覧ください。
 
 ## Analyticsを使用した有料メディアレポート
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 有料メディアレポートツールとして[!DNL Analytics]を使用するには、Analysis WorkspaceにアクセスできるAdobe CX Enterprise（旧Adobe Experience Cloud）ログインが必要です。 Adobe Advertising チームは、Adobe Advertising データをAnalysis Workspaceの個々のレポートスイートにマッピングするのに役立ちます。 Adobe Advertising データを任意のレポートスイートに送信できますが、Adobe Advertisingにマッピングされたレポートスイートとそうでないレポートスイートを認識しておく必要があります。 レポートスイートによっては、レポートされるデータが変更される場合があります。
 
- [!DNL Analytics]&#x200B;[&#128279;](ids.md)内のAdobe Advertising IDは、他の[!DNL eVars]と同様に、カスタムの永続的な有効期限で機能します。 デフォルトでは、Adobe Advertisingの実装中はアトリビューションルックバックウィンドウが60日に設定されます。 この設定を変更するには、Adobe アカウントチームと連携してください。
+ [!DNL Analytics]](ids.md)内の[Adobe Advertising IDは、他の[!DNL eVars]と同様に、カスタムの永続的な有効期限で機能します。 デフォルトでは、Adobe Advertisingの実装中はアトリビューションルックバックウィンドウが60日に設定されます。 この設定を変更するには、Adobe アカウントチームと連携してください。
 
 Adobe Advertising ディメンションには、接尾辞「（AMO ID）」（「Ad Type （AMO ID）」など）が追加されます。 使用可能なディメンションの一覧については、「[Analysis WorkspaceのAdobe Advertising指標](advertising-metrics-in-analytics.md)」を参照してください。
 
@@ -112,17 +112,17 @@ Adobe Advertising チームは、有料メディアのパフォーマンスに�
 
 Adobe Advertisingは、[!DNL Analytics]とCX EnterpriseのネイティブなCX Enterprise Audiences統合を使用して、[!DNL Creative]、[!DNL DSP]、[!DNL Search, Social, & Commerce]の広告のリマーケティング目的で[!DNL Analytics] セグメントを取り込むことができます。
 
-[!DNL Analytics] セグメントにアクセスするには、広告主アカウントで[Experience Cloud ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を有効にする必要があります。 ID サービスが有効になっている場合、すべてのCX Enterprise セグメントは、処理されるとすぐにAdobe Advertising内で利用できるようになります。 CX Enterprise セグメントには、[!DNL Analytics]で作成されCX Enterpriseに公開されたセグメント、Adobe Audience Managerで作成されたセグメント、[!DNL People core service]を使用してCX Enterpriseで作成されたセグメント、Adobe Experience Platformで作成されAudience Managerを介してAdobe Advertisingに送信されたセグメントが含まれます。
+[!DNL Analytics] セグメントにアクセスするには、広告主アカウントで[Experience Cloud ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html)を有効にする必要があります。 ID サービスが有効になっている場合、すべてのCX Enterprise セグメントは、処理されるとすぐにAdobe Advertising内で利用できるようになります。 CX Enterprise セグメントには、[!DNL Analytics]で作成されCX Enterpriseに公開されたセグメント、Adobe Audience Managerで作成されたセグメント、[!DNL People core service]を使用してCX Enterpriseで作成されたセグメント、Adobe Experience Platformで作成されAudience Managerを介してAdobe Advertisingに送信されたセグメントが含まれます。
 
 [!DNL Analytics]個のセグメントは24時間以内に利用でき、毎日更新されます。
 
-CX Enterprise Audiences サービスについて詳しくは、[CX Enterprise Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)を参照してください。
+CX Enterprise Audiences サービスについて詳しくは、[CX Enterprise Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)を参照してください。
 
 ## 統合機能の使用例 {#integration-examples}
 
 ### Analysis WorkspaceでのAdobe Advertising データの使用
 
-Adobe Advertising データを使用してAnalysis Workspaceでビジュアルレポートを作成する方法については、ビデオ「[Workspaceとレポートの概要](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=ja)」を参照してください。
+Adobe Advertising データを使用してAnalysis Workspaceでビジュアルレポートを作成する方法については、ビデオ「[Workspaceとレポートの概要](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html)」を参照してください。
 
 #### レポートでのコネクテッド TV ビュースルーコンバージョンの使用
 
@@ -158,11 +158,11 @@ CTV ビュースルーコンバージョン指標を表示するには、Analysi
 
 ### Adobe Advertising ダッシュボードの作成
 
-Adobe Analyticsで目標に対してAdobe Advertising データを追跡する方法については、ビデオ「[Analysis WorkspaceでAdobe Advertising ダッシュボードを作成](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=ja)」を参照してください。
+Adobe Analyticsで目標に対してAdobe Advertising データを追跡する方法については、ビデオ「[Analysis WorkspaceでAdobe Advertising ダッシュボードを作成](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)」を参照してください。
 
 ### Adobe Advertising IDを使用したサイトエントリ分析
 
-Adobe Advertising サイト入口レポートを作成して、曜日、時間帯、ブラウザー、地理的な影響をモニターする方法については、ビデオ「[Adobe Advertising サイト入口レポートを作成](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=ja)」を参照してください。
+Adobe Advertising サイト入口レポートを作成して、曜日、時間帯、ブラウザー、地理的な影響をモニターする方法については、ビデオ「[Adobe Advertising サイト入口レポートを作成](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html)」を参照してください。
 
 ## [!DNL Analytics for Advertising]実装の開始方法
 
@@ -170,10 +170,10 @@ Adobeのアカウントチームにお問い合わせください。最初に必
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ビデオ： [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=ja)の概要
+>* [ ビデオ： [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)の概要
 >* [実装の前提条件と主要情報 [!DNL Analytics for Advertising]](prerequisites.md)
 >* Analyticsで使用される[Adobe Advertising ID](ids.md)
->* [Advertising向けAnalyticsのJavaScript コード &#x200B;](/help/integrations/analytics/javascript.md)
->* [&#x200B; [!DNL Analytics] とAdobe Advertising](data-variances.md)の間の予期されるデータの差異
+>* [Advertising向けAnalyticsのJavaScript コード ](/help/integrations/analytics/javascript.md)
+>* [ [!DNL Analytics] とAdobe Advertising](data-variances.md)の間の予期されるデータの差異
 >* [Analysis WorkspaceのAdobe Advertising指標](/help/integrations/analytics/advertising-metrics-in-analytics.md)
->* [[!DNL Analytics] Adobe Advertisingのデータ &#x200B;](/help/integrations/analytics/analytics-data-in-advertising.md)
+>* [[!DNL Analytics] Adobe Advertisingのデータ ](/help/integrations/analytics/analytics-data-in-advertising.md)

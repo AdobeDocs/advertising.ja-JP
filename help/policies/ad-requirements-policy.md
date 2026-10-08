@@ -159,4 +159,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [使用可能なヘルスセグメントガイドライン &#x200B;](/help/policies/health-segment-guidelines.md)
+>* [使用可能なヘルスセグメントガイドライン ](/help/policies/health-segment-guidelines.md)

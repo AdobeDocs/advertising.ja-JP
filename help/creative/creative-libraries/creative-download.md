@@ -46,5 +46,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [標準クリエイティブをクリエイティブライブラリに追加](creative-add-standard.md)
->* [&#x200B; クリエイティブをプレビュー](creative-preview.md)
->* [&#x200B; クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
+>* [ クリエイティブをプレビュー](creative-preview.md)
+>* [ クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)

@@ -25,7 +25,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**&#x200B;をクリックします。
 
-2. 左側のメニューで、![&#x200B; レポート &#x200B;](/help/search-social-commerce/assets/insight-reports.png " レポート ")をクリックします。
+2. 左側のメニューで、![ レポート ](/help/search-social-commerce/assets/insight-reports.png " レポート ")をクリックします。
 
 3. [!UICONTROL Report History] パネルで、レポートインスタンスの上にカーソルを置き、![削除](/help/search-social-commerce/assets/insight-delete.png "削除")をクリックします。
 

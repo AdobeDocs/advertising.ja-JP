@@ -45,9 +45,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [同期について [!DNL Google Analytics]  コンバージョン指標](data-source-about.md)
->* [&#x200B; データソースを設定するための前提条件 [!DNL Google Analytics] &#x200B;](data-source-prerequisites.md)
->* [&#x200B; データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
->* [&#x200B; データソースの編集 [!DNL Google Analytics] &#x200B;](data-source-edit.md)
->* [&#x200B; データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
+>* [ データソースを設定するための前提条件 [!DNL Google Analytics] ](data-source-prerequisites.md)
+>* [ データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
+>* [ データソースの編集 [!DNL Google Analytics] ](data-source-edit.md)
+>* [ データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics]  データソース設定](data-source-settings.md)
 >* [付録 – 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)

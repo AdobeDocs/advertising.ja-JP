@@ -87,11 +87,11 @@ In an existing experience,
 
    * データパスターゲットの場合は、オプションでデータパスキーをカスタマイズし、単一のデータパス値を入力して、**[!UICONTROL Apply]**&#x200B;をクリックします。
 
-     キーと値のペアのキーのデフォルト値は、[&#x200B; エクスペリエンス設定](experience-settings-targeting.md)の[!UICONTROL Advanced] セクションの&#x200B;**[!UICONTROL Data Pass]** フィールドで既に設定されています。 オプションでキーをカスタマイズできます。
+     キーと値のペアのキーのデフォルト値は、[ エクスペリエンス設定](experience-settings-targeting.md)の[!UICONTROL Advanced] セクションの&#x200B;**[!UICONTROL Data Pass]** フィールドで既に設定されています。 オプションでキーをカスタマイズできます。
 
    * リターゲティングピクセルターゲットの場合は、使用するリターゲティングピクセルと、クリエイターを表示するために存在する必要があるピクセルの属性の必要な値を選択します。 次に、**[!UICONTROL Apply]**&#x200B;をクリックします。
 
-     リターゲティングピクセルの属性は、[&#x200B; リターゲティングピクセル設定](/help/creative/pixels/retargeting-pixel-manage.md)で設定されます。
+     リターゲティングピクセルの属性は、[ リターゲティングピクセル設定](/help/creative/pixels/retargeting-pixel-manage.md)で設定されます。
 
    * デバイスターゲットの場合は、次の操作を行います。
 
@@ -134,10 +134,10 @@ In an existing experience,
 >[!MORELIKETHIS]
 >
 >* [最終レベルにターゲットノードを追加](experience-target-node-add-final.md)
->* [&#x200B; ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
+>* [ ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
 >* [子ノードとクリエイターを同じレベルの別のノードにコピー](experience-target-node-copy.md)
->* [&#x200B; クリエイティブを最終ノードに割り当て](experience-assign-creative-bundles.md)
->* [&#x200B; ターゲットノードまたはクリエイティブリーフノードを削除](/help/creative/experiences/experience-target-node-delete.md)
+>* [ クリエイティブを最終ノードに割り当て](experience-assign-creative-bundles.md)
+>* [ ターゲットノードまたはクリエイティブリーフノードを削除](/help/creative/experiences/experience-target-node-delete.md)
 >* [決定木ターゲティングでエクスペリエンスを作成](experience-create-targeting.md)
 >* [決定木ターゲティングでエクスペリエンスを編集](experience-edit-targeting.md)
->* [&#x200B; ターゲット設定](experience-settings-targeting.md)
+>* [ ターゲット設定](experience-settings-targeting.md)

@@ -36,10 +36,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; スプレッドシート レポート フィードについて](spreadsheet-feed-about.md)
->* [&#x200B; スプレッドシート レポート フィードの作成](spreadsheet-feed-create.md)
->* [&#x200B; スプレッドシート レポート フィード用の [!DNL Excel]  テンプレートを作成](spreadsheet-feed-create-excel-template.md)
->* [&#x200B; スプレッドシート レポート フィード設定の編集](spreadsheet-feed-edit.md)
->* [&#x200B; スプレッドシート レポート フィード ファイルを表示または保存する](spreadsheet-feed-view-or-save.md)
->* [&#x200B; スプレッドシート レポート フィードを手動で更新する](spreadsheet-feed-refresh.md)
->* [&#x200B; スプレッドシート レポート フィードを削除](spreadsheet-feed-delete.md)
+>* [ スプレッドシート レポート フィードについて](spreadsheet-feed-about.md)
+>* [ スプレッドシート レポート フィードの作成](spreadsheet-feed-create.md)
+>* [ スプレッドシート レポート フィード用の [!DNL Excel]  テンプレートを作成](spreadsheet-feed-create-excel-template.md)
+>* [ スプレッドシート レポート フィード設定の編集](spreadsheet-feed-edit.md)
+>* [ スプレッドシート レポート フィード ファイルを表示または保存する](spreadsheet-feed-view-or-save.md)
+>* [ スプレッドシート レポート フィードを手動で更新する](spreadsheet-feed-refresh.md)
+>* [ スプレッドシート レポート フィードを削除](spreadsheet-feed-delete.md)

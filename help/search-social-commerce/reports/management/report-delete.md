@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->レポートが[&#x200B; テンプレート &#x200B;](/help/search-social-commerce/reports/automation/templates/template-about.md)を使用して作成された場合、レポートを削除しても、作成に使用されたテンプレートは削除されないため、スケジュールされている今後のレポートインスタンスには影響しません。 レポートスケジュールを削除するには、[&#x200B; レポートテンプレートを削除します](/help/search-social-commerce/reports/automation/templates/template-delete.md)。
+>レポートが[ テンプレート ](/help/search-social-commerce/reports/automation/templates/template-about.md)を使用して作成された場合、レポートを削除しても、作成に使用されたテンプレートは削除されないため、スケジュールされている今後のレポートインスタンスには影響しません。 レポートスケジュールを削除するには、[ レポートテンプレートを削除します](/help/search-social-commerce/reports/automation/templates/template-delete.md)。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;をクリックすると、**[!UICONTROL Latest Reports]** タブが開きます。
 
@@ -39,5 +39,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; レポートについて](/help/search-social-commerce/reports/report-about.md)
->* [&#x200B; レポートの表示または保存](/help/search-social-commerce/reports/management/report-view-save.md)
+>* [ レポートについて](/help/search-social-commerce/reports/report-about.md)
+>* [ レポートの表示または保存](/help/search-social-commerce/reports/management/report-view-save.md)

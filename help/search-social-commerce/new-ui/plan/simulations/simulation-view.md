@@ -59,5 +59,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; シミュレーションについて](simulation-about.md)
->* [&#x200B; シミュレーションの実行または再実行](simulation-create.md)
+>* [ シミュレーションについて](simulation-about.md)
+>* [ シミュレーションの実行または再実行](simulation-create.md)

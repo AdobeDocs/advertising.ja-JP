@@ -29,7 +29,7 @@ ht-degree: 0%
 
 [!UICONTROL Notification Center] アプリケーションをインストールすると、ブラウザーのアプリケーション マネージャーで自動的に有効になり、ウィンドウ サイズに基づいてレイアウトが動的に配置される別のウィンドウとして読み込まれます。 ブラウザーのアプリケーションマネージャーからアプリケーションを開いて閉じるか、オペレーティングシステムのタスクバーまたはドックに固定できます。 アプリケーションが自動的に更新されます。
 
-![Microsoft Windows タスクバーの通知センターアイコン &#x200B;](/help/search-social-commerce/assets/windows-taskbar.png "Microsoft Windows タスクバーの通知センターアイコン ")
+![Microsoft Windows タスクバーの通知センターアイコン ](/help/search-social-commerce/assets/windows-taskbar.png "Microsoft Windows タスクバーの通知センターアイコン ")
 
 ブラウザーのアプリケーションマネージャーからアプリケーションを無効にしたり、アンインストールしたりできます。 Web アプリケーションの管理について詳しくは、ブラウザーのヘルプを参照してください。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**&#x200B;をクリックします。
 
-1. 右下の「![通知センターweb アプリのインストール &#x200B;](/help/search-social-commerce/assets/notifications-install-app.png "通知センターweb アプリのインストール ")」をクリックします。
+1. 右下の「![通知センターweb アプリのインストール ](/help/search-social-commerce/assets/notifications-install-app.png "通知センターweb アプリのインストール ")」をクリックします。
 
 1. 確認メッセージで、**[!UICONTROL Add]**&#x200B;をクリックします。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
   1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**&#x200B;をクリックします。
 
-  1. 右下の「![通知センターweb アプリのインストール &#x200B;](/help/search-social-commerce/assets/notifications-install-app.png "通知センターweb アプリのインストール ")」をクリックします。
+  1. 右下の「![通知センターweb アプリのインストール ](/help/search-social-commerce/assets/notifications-install-app.png "通知センターweb アプリのインストール ")」をクリックします。
 
   1. 確認メッセージで、**[!UICONTROL Add]**&#x200B;をクリックします。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 >
 >* [通知について](/help/search-social-commerce/notifications/notification-about.md)
 >* [通知を表示](notification-view.md)
->* [通知を既読または未読としてマーク &#x200B;](notification-mark-read-unread.md)
+>* [通知を既読または未読としてマーク ](notification-mark-read-unread.md)
 >* [通知を削除](notification-delete.md)
 >* [通知設定を編集](notification-edit.md)
->* [&#x200B; プッシュ通知を[!UICONTROL Notification Center]](notifications-push-enable-disable.md)から有効または無効にする
+>* [ プッシュ通知を[!UICONTROL Notification Center]](notifications-push-enable-disable.md)から有効または無効にする

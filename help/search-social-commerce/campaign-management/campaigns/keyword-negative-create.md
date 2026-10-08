@@ -25,10 +25,10 @@ ht-degree: 0%
 検索やディスプレイ/ネイティブネットワークをターゲットとする検索広告グループまたはキャンペーンに対して、ネガティブキーワードを作成できます。 ネガティブキーワードは広告をトリガーにしない。
 
 >[!NOTE]
->また、[広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)および[&#x200B; キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)で、否定的なキーワードを作成および編集することもできます。
+>また、[広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)および[ キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)で、否定的なキーワードを作成および編集することもできます。
 
 >[!TIP]
->一度に多くの否定的なキーワードを作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>一度に多くの否定的なキーワードを作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Negatives]**&#x200B;をクリックします。
 
@@ -58,6 +58,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キーワードについて](keyword-about.md)
+>* [ キーワードについて](keyword-about.md)
 >* [入札可能なキーワードの管理](keyword-manage.md)
->* [&#x200B; キーワードと否定的なキーワードのステータスを変更](keyword-status-edit.md)
+>* [ キーワードと否定的なキーワードのステータスを変更](keyword-status-edit.md)

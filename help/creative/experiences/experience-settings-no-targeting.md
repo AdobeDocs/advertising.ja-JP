@@ -74,7 +74,7 @@ ht-degree: 0%
 
 **[!UICONTROL Label]:**<!-- should be "Labels" --> （オプション）エクスペリエンスに適用する[!DNL Creative]固有のラベル。 エクスペリエンスビューでラベルでエクスペリエンスをフィルタリングし、[!UICONTROL Experience Label] ディメンションを[!UICONTROL Custom Creative Report]に含めることができます。
 
-* 既存のラベルを選択するには、![&#x200B; ダウン &#x200B;](/help/creative/assets/chevron-down.png " ダウン ")をクリックし、適用する各ラベルの横にあるチェックボックスをオンにします。
+* 既存のラベルを選択するには、![ ダウン ](/help/creative/assets/chevron-down.png " ダウン ")をクリックし、適用する各ラベルの横にあるチェックボックスをオンにします。
 
 * 既存のラベルを検索するには、ラベル名の中にテキスト文字列を入力します。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 **[!UICONTROL Impression Tracking URL]:** （オプション） エクスペリエンスから作成された任意の広告のランディングページ URLに追加する、サードパーティのインプレッション追跡URL。 5つまでURLを含めることができます。 追加のURLを追加するには、![icon](/help/creative/assets/create.png) **[!UICONTROL Add More]をクリックし、URLを入力します。
 
-URLを入力すると、使用可能なすべての[&#x200B; マクロ &#x200B;](/help/creative/creative-macros.md)と、その代わりに使用するデータがページの下部に表示されます。 URLにマクロのいずれかを挿入するには、マクロの説明にカーソルを合わせて![&#x200B; クリップボードにコピー](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー")をクリックし、URL フィールドにマクロを任意の場所に貼り付けます。
+URLを入力すると、使用可能なすべての[ マクロ ](/help/creative/creative-macros.md)と、その代わりに使用するデータがページの下部に表示されます。 URLにマクロのいずれかを挿入するには、マクロの説明にカーソルを合わせて![ クリップボードにコピー](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー")をクリックし、URL フィールドにマクロを任意の場所に貼り付けます。
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ URLを入力すると、使用可能なすべての[&#x200B; マクロ &#x200B;]
 
 **[!UICONTROL Click Tracking URL]:** （オプション） （オプション） ランディングページ URLに追加するサードパーティのクリックトラッキング URL。 5つまでURLを含めることができます。 追加のURLを追加するには、![icon](/help/creative/assets/create.png) **[!UICONTROL Add More]**&#x200B;をクリックし、URLを入力します。
 
-URLを入力すると、使用可能なすべての[&#x200B; マクロ &#x200B;](/help/creative/creative-macros.md)と、その代わりに使用するデータがページの下部に表示されます。 URLにマクロのいずれかを挿入するには、マクロの説明にカーソルを合わせて![&#x200B; クリップボードにコピー](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー")をクリックし、URL フィールドにマクロを任意の場所に貼り付けます。
+URLを入力すると、使用可能なすべての[ マクロ ](/help/creative/creative-macros.md)と、その代わりに使用するデータがページの下部に表示されます。 URLにマクロのいずれかを挿入するには、マクロの説明にカーソルを合わせて![ クリップボードにコピー](/help/creative/assets/copy-to-clipboard.png " クリップボードにコピー")をクリックし、URL フィールドにマクロを任意の場所に貼り付けます。
 
 >[!NOTE]
 >
@@ -111,8 +111,8 @@ URLを入力すると、使用可能なすべての[&#x200B; マクロ &#x200B;]
 >
 >* [決定木ターゲティングを使用せずにエクスペリエンスを作成](experience-create-no-targeting.md)
 >* [決定木ターゲティングを使用せずにエクスペリエンスを編集](experience-edit-no-targeting.md)
->* [URLのトラッキングに使用できるマクロ &#x200B;](/help/creative/creative-macros.md)
+>* [URLのトラッキングに使用できるマクロ ](/help/creative/creative-macros.md)
 >* [該当するクリエイティブサイズの広告タグを手動で作成する](experience-tag-create-manually.md)
->* [&#x200B; ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
->* [&#x200B; ターゲットを設定せずにエクスペリエンスのトラッキング URLをカスタマイズする](experience-tracking-urls-no-targeting.md)
->* [&#x200B; クリエイティブの最適化とスケジュールをカスタマイズして、ターゲットを設定せずにエクスペリエンスを利用](experience-optimization-scheduling-no-targeting.md)
+>* [ ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
+>* [ ターゲットを設定せずにエクスペリエンスのトラッキング URLをカスタマイズする](experience-tracking-urls-no-targeting.md)
+>* [ クリエイティブの最適化とスケジュールをカスタマイズして、ターゲットを設定せずにエクスペリエンスを利用](experience-optimization-scheduling-no-targeting.md)

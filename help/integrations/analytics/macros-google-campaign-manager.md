@@ -36,7 +36,7 @@ ht-degree: 0%
 
 *Advertising DSPにのみ適用*
 
-Advertising DSP広告に[!DNL Google Campaign Manager 360]の広告タグを使用する場合は、[`%p` マクロ &#x200B;](https://support.google.com/campaignmanager/table/6096962)を使用して、ランディングページ URLに[!DNL Analytics for Advertising]個のパラメーターを追加します。 パラメーターは、ランディングページ URLのAMO ID （`s_kwcid`）と`ef_id` クエリ文字列パラメーターを記録し、Adobe Advertisingが広告のクリックデータをAdobe Analyticsに送信できるようにします。
+Advertising DSP広告に[!DNL Google Campaign Manager 360]の広告タグを使用する場合は、[`%p` マクロ ](https://support.google.com/campaignmanager/table/6096962)を使用して、ランディングページ URLに[!DNL Analytics for Advertising]個のパラメーターを追加します。 パラメーターは、ランディングページ URLのAMO ID （`s_kwcid`）と`ef_id` クエリ文字列パラメーターを記録し、Adobe Advertisingが広告のクリックデータをAdobe Analyticsに送信できるようにします。
 
 次の種類の[!DNL Analytics for Advertising]実装では、[!DNL Campaign Manager 360]件のディスプレイ広告とビデオ広告にマクロを使用します。
 
@@ -62,7 +62,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->&#x200B;>* ランディングページのURLにハッシュ記号（#）が含まれている場合は、ハッシュ記号の前に`amo` パラメーターを配置します。
+>>* ランディングページのURLにハッシュ記号（#）が含まれている場合は、ハッシュ記号の前に`amo` パラメーターを配置します。
 >* `amo` パラメーターの後に他のパラメーターが含まれていない場合は、その後にパラメーター（&amp;a=bなど）を追加します。 例：`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### 広告主レベルのランディングページ URL サフィックスの設定
@@ -84,7 +84,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 DSPで、[!DNL Analytics for Advertising] パラメーター（`amo`）を含む広告を作成すると、`ef_id`および`s_kwcid` マクロが自動的にクリック URLに追加されます。 ベストプラクティスは、DSPでタグを確認して、`ef_id`および`s_kwcid` マクロが存在することを確認することです。
 
-次に、DSPに表示される[!DNL Google Campaign Manager 360] [ins タグ &#x200B;](https://support.google.com/campaignmanager/answer/6080468)の例を示します。
+次に、DSPに表示される[!DNL Google Campaign Manager 360] [ins タグ ](https://support.google.com/campaignmanager/answer/6080468)の例を示します。
 
 ```
 <ins class='dcmads' style='display:inline-block;width:160px;height:600px'
@@ -103,5 +103,5 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 >[!MORELIKETHIS]
 >
 >* [概要： [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)様が使用しているAdobe Advertising ID
->* [追加 [!DNL Analytics for Advertising]  マクロを [!DNL Flashtalking] 広告タグ &#x200B;](macros-flashtalking.md)に追加
+>*  [!DNL Analytics]](/help/integrations/analytics/ids.md)様が使用している[Adobe Advertising ID
+>* [追加 [!DNL Analytics for Advertising]  マクロを [!DNL Flashtalking] 広告タグ ](macros-flashtalking.md)に追加
