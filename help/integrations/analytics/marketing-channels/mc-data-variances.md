@@ -56,4 +56,4 @@ Adobe Advertisingで追跡されたデータと[!DNL Analytics]で追跡され�
 >* [の基本 [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe Advertising IDを使用して [!DNL Marketing Channels] 処理ルールを作成](mc-ids.md)
 >* [Adobe Advertising data](mc-ac-data.md)での [!DNL Analytics Marketing Channels] の使用
->* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ja)

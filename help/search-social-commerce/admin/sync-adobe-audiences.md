@@ -37,7 +37,7 @@ Search, Social, &amp; Commerceを使用して、広告主または代理店の�
 
 * Adobe CX Enterprise [!DNL Audience Library]を使用して作成されたセグメント
 
-広告主または代理店が資格を得るには、[Adobe Experience Platform ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html)を実装し、その組織ID （旧称[!DNL IMS Org ID]）を提供する必要があります。
+広告主または代理店が資格を得るには、[Adobe Experience Platform ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を実装し、その組織ID （旧称[!DNL IMS Org ID]）を提供する必要があります。
 
 最初の同期は約24時間かかります。 その後、データはリアルタイムで同期され、1～2秒間の遅延が発生します。
 

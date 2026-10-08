@@ -45,7 +45,7 @@ Search, Social, &amp; Commerceの導入チームは、同期された広告キ�
 
 * それ以外の場合は、アドネットワークが直接Adobe Advertising ピクセルサーバーにクリックを送信します。 ピクセルサーバーは、ユーザーのコンピューターにCookieを配置し（まだ存在しない場合）、ユーザーをweb サイト上の関連URLにリダイレクトします。 エンドユーザーの全体的なエクスペリエンスは、リダイレクトなしと同じです。
 
-Cookieは、[!DNL Adobe] ドメイン （`everesttech.net`）で1st パーティ Cookieとして設定されます。 リダイレクトの後、ユーザーは広告主のドメイン上に存在し、その後、Cookieはサードパーティ Cookieとして扱われます。 Adobe Advertising Cookieについて詳しくは、「[Adobe Advertising Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)」を参照してください。
+Cookieは、[!DNL Adobe] ドメイン （`everesttech.net`）で1st パーティ Cookieとして設定されます。 リダイレクトの後、ユーザーは広告主のドメイン上に存在し、その後、Cookieはサードパーティ Cookieとして扱われます。 Adobe Advertising Cookieについて詳しくは、「[Adobe Advertising Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ja)」を参照してください。
 
 ## コンバージョンデータ
 

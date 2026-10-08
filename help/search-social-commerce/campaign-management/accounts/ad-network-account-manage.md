@@ -268,7 +268,7 @@ Adobe Advertising クリック トラッキングを使用するアカウント�
 
 * **S_kwcid形式：** （Adobe AdvertisingとAdobe Analyticsの統合を持ち、AMO ID （s_kwcid）がまだ移行されていない広告主向けの既存の[!DNL Google Ads] アカウント）
 
-このアカウントは、AMO ID トラッキングコードの従来のフォーマットを使用しています。これにより、Adobe Advertisingはアカウントに関するデータをAdobe Analyticsと共有できます。 [最新の形式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)には、キャンペーン IDと広告グループ IDのパラメーターが含まれています。これらは、[!DNL Google Ads]件のパフォーマンスの最大キャンペーン、ドラフト、およびAnalyticsの実験キャンペーンについて、キャンペーンおよび広告グループ レベルで正確にレポートするために必要です。
+このアカウントは、AMO ID トラッキングコードの従来のフォーマットを使用しています。これにより、Adobe Advertisingはアカウントに関するデータをAdobe Analyticsと共有できます。 [最新の形式](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#dimension-items)には、キャンペーン IDと広告グループ IDのパラメーターが含まれています。これらは、[!DNL Google Ads]件のパフォーマンスの最大キャンペーン、ドラフト、およびAnalyticsの実験キャンペーンについて、キャンペーンおよび広告グループ レベルで正確にレポートするために必要です。
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

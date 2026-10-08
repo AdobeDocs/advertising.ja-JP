@@ -73,5 +73,5 @@ AMO IDは訪問者のジャーニーを通じて保持されるので、AMO ID �
 >* [の基本 [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe Advertising IDを使用して [!DNL Marketing Channels] 処理ルールを作成](mc-ids.md)
 >* [Adobe Advertisingと [!DNL Marketing Channels]](mc-data-variances.md)でチャネルデータが異なる理由
->* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ja)
 >* [概要： [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
