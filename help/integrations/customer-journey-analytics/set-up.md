@@ -98,7 +98,7 @@ Experience Platformでデータ収集を設定し、コンバージョントラ�
 
      各データストリームは、1つのデータセットにのみデータを挿入できます。
 
-### 組織のweb サイト データを<!-- ?? -->Experience Platform データストリーム  {#tags-websdk}に送信する
+### 組織のweb サイト データを<!-- ?? -->Experience Platform データストリーム に送信する {#tags-websdk}
 
 Adobe TagsでAdobe Experience Platform Web SDK拡張機能を使用して、組織のweb サイトデータをExperience Platform データストリームに送信します。
 
