@@ -54,4 +54,4 @@ Yandex キーワードは、検索ネットワークとディスプレイ（コ�
 
 >[!MORELIKETHIS]
 >
->* [ キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [&#x200B; キーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

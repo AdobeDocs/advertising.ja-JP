@@ -35,13 +35,13 @@ ht-degree: 22%
 
 >[!MORELIKETHIS]
 >
->* [ ショッピング キャンペーン  [!DNL Google Ads] を実装](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
->* [ ショッピング キャンペーン  [!DNL Microsoft Advertising] を実装](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
->* [ ショッピング商品グループについて](product-group-about.md)
->* [ ショッピング商品グループの管理](product-group-manage.md)
+>* [&#x200B; ショッピング キャンペーン  [!DNL Google Ads] を実装](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [&#x200B; ショッピング キャンペーン  [!DNL Microsoft Advertising] を実装](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+>* [&#x200B; ショッピング商品グループについて](product-group-about.md)
+>* [&#x200B; ショッピング商品グループの管理](product-group-manage.md)
 >* [[!DNL Google Ads] 製品グループ設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
 >* [[!DNL Microsoft Advertising] 製品グループ設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
 >* [[!DNL Google Ads] 在庫フィードのショッピング広告テンプレート設定](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
 >* [[!DNL Microsoft Advertising] 在庫フィードのショッピング広告テンプレート設定](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
->* [ バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)に必要なデータ [!DNL Google Ads] 
->* [ バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)に必要なデータ [!DNL Microsoft Advertising] 
+>* [&#x200B; バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)に必要なデータ [!DNL Google Ads] 
+>* [&#x200B; バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)に必要なデータ [!DNL Microsoft Advertising] 

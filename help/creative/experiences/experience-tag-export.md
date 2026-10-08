@@ -28,14 +28,14 @@ ht-degree: 0%
 ---
 # ライブ体験用の広告エクスペリエンスタグの書き出しと実装
 
-特定のクリエイティブサイズまたはビデオのデュレーションに対応する広告タグを[ ライブ ](experience-about.md#experience-statuses)体験で使用できるようになったら、そのタグをJavaScript、iframe、ビデオ形式で生成してコピーし、Advertising DSPまたはその他のDSPに実装できます。 DSPのタグには、DSPに必要なすべてのマクロが含まれています。
+特定のクリエイティブサイズまたはビデオのデュレーションに対応する広告タグを[&#x200B; ライブ &#x200B;](experience-about.md#experience-statuses)体験で使用できるようになったら、そのタグをJavaScript、iframe、ビデオ形式で生成してコピーし、Advertising DSPまたはその他のDSPに実装できます。 DSPのタグには、DSPに必要なすべてのマクロが含まれています。
 
 Advertising DSPを使用している広告主は、オプションとして、広告タイプ「標準ディスプレイ」または「ユニバーサルビデオ」を含む広告として、タグをAdvertising DSP キャンペーンに直接アップロードできます。
 
 >[!NOTE]
 >
 >* 決定木ターゲティングでエクスペリエンスを作成する場合、[!DNL Creative]は、該当するクリエイティブサイズ（ビデオ以外のクリエイティブ）またはビデオのデュレーション（ビデオのクリエイティブ）ごとに自動的に広告タグを作成します。
->* 決定木ターゲティングを使用しないエクスペリエンスを作成する場合、該当するクリエイティブサイズ（ビデオ以外のクリエイター）またはビデオのデュレーション（ビデオのクリエイター）ごとに、[手動で広告タグ ](experience-tag-create-manually.md)を作成する必要があります。
+>* 決定木ターゲティングを使用しないエクスペリエンスを作成する場合、該当するクリエイティブサイズ（ビデオ以外のクリエイター）またはビデオのデュレーション（ビデオのクリエイター）ごとに、[手動で広告タグ &#x200B;](experience-tag-create-manually.md)を作成する必要があります。
 >* エクスペリエンスのタグは動的です。 エクスペリエンスを編集する場合、タグを更新する必要はありません。
 >* 広告エクスペリエンスを実装するキャンペーンには、エクスペリエンスと互換性のあるターゲティングが含まれていることを確認します。 階層的なターゲティングの動作は、DSPによって異なる場合があります。 Advertising DSPでは、広告レベルのターゲティングは、プレースメントレベルのターゲティングの上に適用されます（代わりに）。
 
@@ -47,7 +47,7 @@ Advertising DSPを使用している広告主は、オプションとして、�
 
    * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL More]**&#x200B;をクリックしてから、**[!UICONTROL Tag Manager]**&#x200B;をクリックします。
 
-1. 該当する広告タグの行の上にカーソルを置き、![広告タグの書き出し](/help/creative/assets/export.png "広告タグの書き出し") **[!UICONTROL Export ad tags]**&#x200B;または**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**&#x200B;のいずれかをクリックします。
+1. 該当する広告タグの行の上にカーソルを置き、![広告タグの書き出し](/help/creative/assets/export.png "広告タグの書き出し") **[!UICONTROL Export ad tags]**&#x200B;または&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**&#x200B;のいずれかをクリックします。
 
 >[!NOTE]
 >
@@ -65,25 +65,25 @@ Advertising DSPを使用している広告主は、オプションとして、�
 
 1. タグタイプを選択します。
 
-   * （ビデオ以外のエクスペリエンス）** *JavaScript* **または*Iframe* ****使用できます。
+   * （ビデオ以外のエクスペリエンス）**&#x200B; *JavaScript* &#x200B;** または*Iframe* **&#x200B;**&#x200B;使用できます。
 
-   * （ビデオ エクスペリエンス） ** * ビデオ * **。
+   * （ビデオ エクスペリエンス） **&#x200B; * ビデオ * &#x200B;**。
 
 1. [!UICONTROL Destinations] リストで、エクスペリエンスの広告を作成する場所を選択します。
 
-   * *汎用：*&#x200B;他のDSPで作成する広告。 **メモ：**&#x200B;必要に応じて、[追加のマクロ ](/help/creative/creative-macros.md)を手動で含める必要がある場合があります。
+   * *汎用：*&#x200B;他のDSPで作成する広告。 **メモ：**&#x200B;必要に応じて、[追加のマクロ &#x200B;](/help/creative/creative-macros.md)を手動で含める必要がある場合があります。
 
    * *Adobe AdCloud:* Advertising DSPで作成する広告の場合。
 
-   * *Google CM360:* [!DNL Google Campaign Manager 360]で作成する広告の場合。 **メモ：**&#x200B;必要に応じて、[追加のマクロ ](/help/creative/creative-macros.md)を手動で含める必要がある場合があります。
+   * *Google CM360:* [!DNL Google Campaign Manager 360]で作成する広告の場合。 **メモ：**&#x200B;必要に応じて、[追加のマクロ &#x200B;](/help/creative/creative-macros.md)を手動で含める必要がある場合があります。
 
 1. **[!UICONTROL Generate tags]**&#x200B;をクリックします。
 
 1. タグをコピーまたはダウンロードします。
 
-   * 1つの広告サイズ（ビデオ以外の広告）またはデュレーション（ビデオ広告）のタグをコピーするには、タグ行を展開し、行の上にカーソルを置いて、![ コピー](/help/creative/assets/copy.png " コピー")**[!UICONTROL Copy]**&#x200B;をクリックします。<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
+   * 1つの広告サイズ（ビデオ以外の広告）またはデュレーション（ビデオ広告）のタグをコピーするには、タグ行を展開し、行の上にカーソルを置いて、![&#x200B; コピー](/help/creative/assets/copy.png " コピー")**[!UICONTROL Copy]**&#x200B;をクリックします。<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
 
-   * 生成されたすべてのタグをブラウザーのデフォルトのダウンロード場所にファイルとしてダウンロードするには、「![ タグをダウンロード ](/help/creative/assets/download.png " タグをダウンロード ")」をクリックします。
+   * 生成されたすべてのタグをブラウザーのデフォルトのダウンロード場所にファイルとしてダウンロードするには、「![&#x200B; タグをダウンロード &#x200B;](/help/creative/assets/download.png " タグをダウンロード ")」をクリックします。
 
    テキストエディターでファイルを開いて、各タグをコピーできます。 JavaScript タグの場合、タグは`<script></script>`および`<noscript></noscript>` タグで囲まれます。 iframe タグの場合、タグは`<iframe></iframe>` タグで囲まれます。
 
@@ -119,6 +119,6 @@ Advertising DSPを使用している広告主は、オプションとして、�
 >[!MORELIKETHIS]
 >
 >* [該当するクリエイティブサイズの広告タグを手動で作成する](experience-tag-create-manually.md)
->* [ ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
+>* [&#x200B; ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
 >* [広告タグの名前を変更](experience-tag-rename.md)
->* [ ビデオ広告エクスペリエンスタグのトランスコーディングオプションをカスタマイズ ](experience-tag-video-transcoding.md)
+>* [&#x200B; ビデオ広告エクスペリエンスタグのトランスコーディングオプションをカスタマイズ &#x200B;](experience-tag-video-transcoding.md)

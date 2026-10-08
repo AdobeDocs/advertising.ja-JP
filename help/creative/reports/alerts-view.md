@@ -33,19 +33,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Advertising DSP内では、 [!DNL Creative]  エクスペリエンス ](/help/dsp/campaign-management/reports/campaign-alerts.md)から作成されたプレースメントに関する[ アラートをキャンペーンレベルで利用できます。
+>Advertising DSP内では、 [!DNL Creative]  エクスペリエンス [&#128279;](/help/dsp/campaign-management/reports/campaign-alerts.md)から作成されたプレースメントに関する アラートをキャンペーンレベルで利用できます。
 
 ## [!UICONTROL Pulse Panel]でアラートを表示
 
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;をクリックします。
 
-1. ツールバーの右側にある「![ アラートが使用可能な場合はPulse Panel アイコン」をクリックします。](/help/dsp/assets/alerts-panel.png " アラートが使用可能な場合はPulse Panel アイコンをクリックします。")。
+1. ツールバーの右側にある「![&#x200B; アラートが使用可能な場合はPulse Panel アイコン」をクリックします。](/help/dsp/assets/alerts-panel.png " アラートが使用可能な場合はPulse Panel アイコンをクリックします。")。
 
 広告主のすべてのアラートが一覧表示されます。 デフォルトでは、クリティカルアラートが最初にリストされます。
 
-1. （オプション）最初の検出日に従ってアラートをグループ化するか、アラートをアラートステータスでフィルタリングするには、パネルの右上にある「![ フィルターボタン ](/help/creative/assets/filter.png)」をクリックし、フィルターオプションを選択してから「**[!UICONTROL Apply]**」をクリックします。
+1. （オプション）最初の検出日に従ってアラートをグループ化するか、アラートをアラートステータスでフィルタリングするには、パネルの右上にある「![&#x200B; フィルターボタン &#x200B;](/help/creative/assets/filter.png)」をクリックし、フィルターオプションを選択してから「**[!UICONTROL Apply]**」をクリックします。
 
-1. 特定のアラートタイプの影響を受けるすべてのエクスペリエンスのリストを表示するには、アラート名をクリックします。 推奨アクションを含め、影響を受ける各コンポーネントの詳細を表示するには、[!UICONTROL EXPAND ALL]をクリックするか、コンポーネント名をクリックします。 関連するエクスペリエンスまたはクリエイティブを開いて、推奨される変更を行えるようにするには、コンポーネント名の上にカーソルを置き、![ ビューに移動](/help/creative/assets/go-to-view.png " ビューに移動")をクリックします。
+1. 特定のアラートタイプの影響を受けるすべてのエクスペリエンスのリストを表示するには、アラート名をクリックします。 推奨アクションを含め、影響を受ける各コンポーネントの詳細を表示するには、[!UICONTROL EXPAND ALL]をクリックするか、コンポーネント名をクリックします。 関連するエクスペリエンスまたはクリエイティブを開いて、推奨される変更を行えるようにするには、コンポーネント名の上にカーソルを置き、![&#x200B; ビューに移動](/help/creative/assets/go-to-view.png " ビューに移動")をクリックします。
 
 1. （オプション）アラートを無視（非表示）するには、コンポーネント名の上にカーソルを置いて![無視](/help/creative/assets/alert-ignore.png "無視")をクリックし、**[!UICONTROL Ignore alert till next check]**、**[!UICONTROL Ignore alert for 3 days]**&#x200B;または&#x200B;**[!UICONTROL Ignore indefinitely]**&#x200B;をクリックします。
 
@@ -55,8 +55,8 @@ ht-degree: 0%
 
 ## [!UICONTROL Pulse Panel]を閉じる
 
-* ツールバーの右側で、![ アラートが使用可能な場合はPulse Panel アイコン ](/help/dsp/assets/alerts-panel.png " アラートが使用可能な場合はPulse Panel アイコン ")または![アラートがない場合のパルスパネルアイコン](/help/creative/assets/alerts-panel-empty.png "アラートがない場合のパルスパネルアイコン")をクリックします。
+* ツールバーの右側で、![&#x200B; アラートが使用可能な場合はPulse Panel アイコン &#x200B;](/help/dsp/assets/alerts-panel.png " アラートが使用可能な場合はPulse Panel アイコン ")または![アラートがない場合のパルスパネルアイコン](/help/creative/assets/alerts-panel-empty.png "アラートがない場合のパルスパネルアイコン")をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ エクスペリエンスレベルのパフォーマンスレポート ](/help/creative/experiences/experience-performance-details.md)
+>* [&#x200B; エクスペリエンスレベルのパフォーマンスレポート &#x200B;](/help/creative/experiences/experience-performance-details.md)

@@ -92,7 +92,7 @@ EF ID ディメンションは、[!DNL Analytics] レポートでは直接使用
 
 >[!IMPORTANT]
 >
->ルールを処理する順序について詳しくは、「 [!DNL Marketing Channels]  ルール ](#rule-order)」の「[操作順序」を参照してください。
+>ルールを処理する順序について詳しくは、「 [!DNL Marketing Channels]  ルール [&#128279;](#rule-order)」の「操作順序」を参照してください。
 
 ![処理ルールのセットの例](/help/integrations/assets/a4adc-mc-rule-set-example.png)
 
@@ -112,7 +112,7 @@ EF ID ディメンションは、[!DNL Analytics] レポートでは直接使用
 
 ### 自然検索ルール
 
-[!UICONTROL Natural Search]の場合、[[!UICONTROL Paid Search]検出ルール ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection)に`ef_id`と`s_kwcid`のクエリ文字列パラメーターが含まれていることを確認してください。 （通常、これはAdvertising Search、Social、およびCommerceが[!DNL Analytics]に統合されている場合に自動的に設定されますが、統合が設定された後に[!DNL Analytics]管理者がロジックを変更した場合は検証します）。
+[!UICONTROL Natural Search]の場合、[[!UICONTROL Paid Search]検出ルール &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection)に`ef_id`と`s_kwcid`のクエリ文字列パラメーターが含まれていることを確認してください。 （通常、これはAdvertising Search、Social、およびCommerceが[!DNL Analytics]に統合されている場合に自動的に設定されますが、統合が設定された後に[!DNL Analytics]管理者がロジックを変更した場合は検証します）。
 
 ルールを「自然検索検出ルールに一致」に設定します（通常、このチャネルのデフォルト設定です）。
 
@@ -136,7 +136,7 @@ EF ID ディメンションは、[!DNL Analytics] レポートでは直接使用
 
 [!DNL DSP]個のコネクテッド TV （CTV） ビュースルーを追跡するには、AMO IDが`"!ctv"`で終わるルールを作成します。 訪問者が広告をクリックしていないため、ビュースルートラッキングにはURLに`ef_id`または`s_kwcid`が含まれず、ルールには1つの条件のみが必要です。
 
-![ ディスプレイ CTV ビュースルー規則の例](/help/integrations/assets/a4adc-mc-rule-display-ctv-vt.png " ディスプレイ CTV ビュースルー規則の例")
+![&#x200B; ディスプレイ CTV ビュースルー規則の例](/help/integrations/assets/a4adc-mc-rule-display-ctv-vt.png " ディスプレイ CTV ビュースルー規則の例")
 
 ### ビュースルー規則の表示
 
@@ -175,5 +175,5 @@ EF ID ディメンションは、[!DNL Analytics] レポートでは直接使用
 >* [の基本 [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe Advertisingと [!DNL Marketing Channels]](mc-data-variances.md)でチャネルデータが異なる理由
 >* [Adobe Advertising data](mc-ac-data.md)での [!DNL Analytics Marketing Channels] の使用
->* [ ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
->*  [!DNL Analytics]](/help/integrations/analytics/ids.md)様が使用している[Adobe Advertising ID
+>* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)様が使用しているAdobe Advertising ID

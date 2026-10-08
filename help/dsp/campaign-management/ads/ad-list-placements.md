@@ -36,5 +36,5 @@ ht-degree: 0%
 >
 >* [Advertising DSPの広告管理について](ad-about.md)
 >* [広告を編集](ad-edit.md)
->* [ プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)
->* [ プレースメントの詳細レポートを表示](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [&#x200B; プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [&#x200B; プレースメントの詳細レポートを表示](/help/dsp/campaign-management/placements/placement-view-report.md)

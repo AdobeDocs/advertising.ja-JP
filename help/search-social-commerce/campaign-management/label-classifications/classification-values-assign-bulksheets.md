@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >一部の広告ネットワークおよびキャンペーンタイプのキーワードと広告コピーは[変更不可](/help/search-social-commerce/campaign-management/faqs-campaigns.md)です。これは、編集すると既存のエンティティが削除され、新しいエンティティが作成されることを意味します。 この方法で既存のエンティティが削除された場合、ラベル分類は新しいエンティティに割り当てられません。
 
-1. [ ラベル分類値を割り当てるエンティティを含むバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)をダウンロードします。
+1. [&#x200B; ラベル分類値を割り当てるエンティティを含むバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)をダウンロードします。
 
    * [!UICONTROL Rows and Columns] タブで、[!UICONTROL Bulksheet Columns] ペインの[!UICONTROL Campaign] リストを展開します。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    値を追加するだけでなく、関連する行から既存の値を削除することもできます。 親エンティティとその子エンティティの両方から値を削除するには、a）親エンティティ行のみを含めて既存の分類値を削除するか、b）親エンティティとその子エンティティの両方を含めて、すべての親行と子行から既存の分類値を削除します。
 
-1. [ ファイル ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)をアップロードして、関連付けを作成します。<!-- Update once the new bulksheet UI is GA -->
+1. [&#x200B; ファイル &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)をアップロードして、関連付けを作成します。<!-- Update once the new bulksheet UI is GA -->
 
 アップロードされたラベル値は、関連するエンティティのビューに表示されます。
 
@@ -68,9 +68,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ラベル分類について](classification-about.md)
->* [ ラベル分類を作成](classification-create.md)
->* [ キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当てる](classification-values-assign-campaign-management.md)
->* [ アカウントコンポーネントからラベル分類値を削除](classification-values-remove.md)
->* [ ラベル分類値を削除](classification-values-delete.md)
->* [ ラベル分類を削除](classification-delete.md)
+>* [&#x200B; ラベル分類について](classification-about.md)
+>* [&#x200B; ラベル分類を作成](classification-create.md)
+>* [&#x200B; キャンペーン管理ビューからアカウントコンポーネントに分類値を割り当てる](classification-values-assign-campaign-management.md)
+>* [&#x200B; アカウントコンポーネントからラベル分類値を削除](classification-values-remove.md)
+>* [&#x200B; ラベル分類値を削除](classification-values-delete.md)
+>* [&#x200B; ラベル分類を削除](classification-delete.md)

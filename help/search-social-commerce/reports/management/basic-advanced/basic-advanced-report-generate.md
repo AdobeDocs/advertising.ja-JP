@@ -29,9 +29,9 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;をクリックします。
 
-1. データテーブルの上のツールバーで「**[!UICONTROL Create Report]**」をクリックし、**[!UICONTROL Basic Reports]**&#x200B;または&#x200B;**[!UICONTROL Advanced Reports]**&#x200B;にカーソルを合わせ、[ レポートタイプ ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)をクリックします。
+1. データテーブルの上のツールバーで「**[!UICONTROL Create Report]**」をクリックし、**[!UICONTROL Basic Reports]**&#x200B;または&#x200B;**[!UICONTROL Advanced Reports]**&#x200B;にカーソルを合わせ、[&#x200B; レポートタイプ &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)をクリックします。
 
-1. （オプション） [!UICONTROL Report Settings] ウィンドウで、デフォルトの[ レポート設定](basic-advanced-report-settings.md)を変更します。
+1. （オプション） [!UICONTROL Report Settings] ウィンドウで、デフォルトの[&#x200B; レポート設定](basic-advanced-report-settings.md)を変更します。
 
    1. （オプション）レポートとテンプレートのカスタム名を入力します（レポートをテンプレートとして保存する場合）。
 
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 レポートスケジュールを指定しなかった場合、レポートはすぐに実行されます。指定したスケジュールに従って実行されます。 レポート名が[[!UICONTROL Latest Reports] ビュー](/help/search-social-commerce/reports/report-about.md)に追加されます。 レポートをテンプレートとして保存すると、[[!UICONTROL Templates] ビュー](/help/search-social-commerce/reports/report-about.md)にも追加されます。 レポートが完了すると、ファイルを開いたり保存したりできます。テンプレートはすぐに利用できます。
 
-通知に電子メールアドレスを入力した場合、ユーザーの[ レポート用に設定された通知設定](/help/search-social-commerce/notifications/notification-edit.md)に基づいて、各受信者はレポートジョブが完了または失敗したときに通知を受け取ります。
+通知に電子メールアドレスを入力した場合、ユーザーの[&#x200B; レポート用に設定された通知設定](/help/search-social-commerce/notifications/notification-edit.md)に基づいて、各受信者はレポートジョブが完了または失敗したときに通知を受け取ります。
 
 >[!MORELIKETHIS]
 >
 >* [基本レポートと詳細レポートについて](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
 >* [基本および詳細レポート設定](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
->* 基本レポートと詳細レポートの[ レポート列](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
->* [ レポートの削除](/help/search-social-commerce/reports/management/report-delete.md)
+>* 基本レポートと詳細レポートの[&#x200B; レポート列](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
+>* [&#x200B; レポートの削除](/help/search-social-commerce/reports/management/report-delete.md)

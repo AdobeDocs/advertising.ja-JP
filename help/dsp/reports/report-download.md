@@ -25,7 +25,7 @@ ht-degree: 0%
 ---
 # カスタムレポートをダウンロード
 
-過去4か月間に完了したレポートインスタンスをダウンロードできます。このインスタンスには、[ ステータス ](report-about.md#custom-report-status) 「[!UICONTROL Ready to Download]」または「[!UICONTROL Completed]」が含まれています。
+過去4か月間に完了したレポートインスタンスをダウンロードできます。このインスタンスには、[&#x200B; ステータス &#x200B;](report-about.md#custom-report-status) 「[!UICONTROL Ready to Download]」または「[!UICONTROL Completed]」が含まれています。
 
 1. メインメニューで、**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**&#x200B;をクリックします。
 
@@ -39,14 +39,14 @@ ht-degree: 0%
 
      レポートが同じ日に複数回実行されると、その日のレポートインスタンスが時系列でリストされ、最新のインスタンスが上に表示されます。
 
-     失敗したレポートジョブには、エラーアイコン（![ エラーインジケーター](/help/dsp/assets/indicator-critical.png " エラーインジケーター")）が表示され、ダウンロードできません。 エラーアイコンの上にカーソルを置くと、エラーの説明が表示されます。
+     失敗したレポートジョブには、エラーアイコン（![&#x200B; エラーインジケーター](/help/dsp/assets/indicator-critical.png " エラーインジケーター")）が表示され、ダウンロードできません。 エラーアイコンの上にカーソルを置くと、エラーの説明が表示されます。
 
 >[!MORELIKETHIS]
 >
->* [ カスタムレポートについて](/help/dsp/reports/report-about.md)
->* [ カスタムレポートを作成](/help/dsp/reports/report-create.md)
->* [ カスタムレポートを複製](/help/dsp/reports/report-copy.md)
->* [ カスタムレポートを編集](/help/dsp/reports/report-edit.md)
->* [ カスタムレポートを実行](/help/dsp/reports/report-run-now.md)
->* [ カスタムレポート設定](/help/dsp/reports/report-settings.md)
+>* [&#x200B; カスタムレポートについて](/help/dsp/reports/report-about.md)
+>* [&#x200B; カスタムレポートを作成](/help/dsp/reports/report-create.md)
+>* [&#x200B; カスタムレポートを複製](/help/dsp/reports/report-copy.md)
+>* [&#x200B; カスタムレポートを編集](/help/dsp/reports/report-edit.md)
+>* [&#x200B; カスタムレポートを実行](/help/dsp/reports/report-run-now.md)
+>* [&#x200B; カスタムレポート設定](/help/dsp/reports/report-settings.md)
 >* [使用可能なレポート列](/help/dsp/reports/report-columns.md)

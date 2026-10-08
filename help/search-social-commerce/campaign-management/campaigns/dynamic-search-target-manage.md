@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[ バルクシート ファイル ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)をアップロードして広告ネットワークに投稿すると、大量のターゲットデータを一度に作成および編集できます。
+>[&#x200B; バルクシート ファイル &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)をアップロードして広告ネットワークに投稿すると、大量のターゲットデータを一度に作成および編集できます。
 
 ## [!DNL Google Ads]動的検索ターゲットの作成
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->多くのアカウントコンポーネントを一度に作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>多くのアカウントコンポーネントを一度に作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Auto Targets]**&#x200B;をクリックします。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->大量のデータを一度に編集するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>大量のデータを一度に編集するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Auto Targets]**&#x200B;をクリックします。
 

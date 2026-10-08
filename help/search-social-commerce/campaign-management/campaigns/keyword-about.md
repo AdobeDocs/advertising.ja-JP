@@ -37,4 +37,4 @@ ht-degree: 0%
 >
 >* [入札可能なキーワードの管理](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
 >* [否定的なキーワードを作成](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
->* [ キーワードと否定的なキーワードのステータスを変更](keyword-status-edit.md)
+>* [&#x200B; キーワードと否定的なキーワードのステータスを変更](keyword-status-edit.md)

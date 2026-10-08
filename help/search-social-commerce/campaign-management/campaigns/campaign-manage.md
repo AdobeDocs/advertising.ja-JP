@@ -22,16 +22,16 @@ ht-degree: 0%
 
 キャンペーンは、広告ネットワークアカウントの主要なコンポーネントです。 ほとんどのキャンペーンタイプでは、一連の広告グループまたは広告セットで構成されます。 キャンペーンの設定には、キャンペーンの予算パラメーター、広告ターゲット、キャンペーン内のすべての広告のオプションのトラッキングパラメーターが含まれます。 キャンペーンレベルのトラッキングパラメーターは、アカウントレベルのパラメーターを上書きしますが、それ自体が下位レベルで上書きされる場合があります。
 
-[広告ネットワークアカウントをアクセス可能にする](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)と、Search, Social, &amp; Commerceがアカウントデータを広告ネットワークと同期したら、[ サポートされているキャンペーンの種類](/help/search-social-commerce/introduction/supported-inventory.md)を使用して新しいキャンペーンを作成できます。 キャンペーンのステータスを編集および変更することもできます。
+[広告ネットワークアカウントをアクセス可能にする](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)と、Search, Social, &amp; Commerceがアカウントデータを広告ネットワークと同期したら、[&#x200B; サポートされているキャンペーンの種類](/help/search-social-commerce/introduction/supported-inventory.md)を使用して新しいキャンペーンを作成できます。 キャンペーンのステータスを編集および変更することもできます。
 
-各広告ネットワークで使用できる機能について詳しくは、「[ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 ## キャンペーンの作成
 
 >[!NOTE]
 >
->* キャンペーンを作成する前に、広告主のweb ページに[ コンバージョン追跡タグ ](/help/search-social-commerce/tracking/conversion-tracking-about.md)を実装します。
->* 一度に多数のキャンペーンを作成するには、[ コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>* キャンペーンを作成する前に、広告主のweb ページに[&#x200B; コンバージョン追跡タグ &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-about.md)を実装します。
+>* 一度に多数のキャンペーンを作成するには、[&#x200B; コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. 次のいずれかの操作を行います。
 
-   1. （1つのキャンペーンの設定を編集するには） エンティティ名にカーソルを合わせ、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
+   1. （1つのキャンペーンの設定を編集するには） エンティティ名にカーソルを合わせ、![&#x200B; メニューアイコン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
 
    1. （1つ以上のキャンペーンの設定を編集するには）次の操作を行います。
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 1. ツールバーで、ステータスボタンをクリックします。
 
-   * 行をアクティブ化するには、![ アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
+   * 行をアクティブ化するには、![&#x200B; アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
 
    * 行を一時停止するには、![一時停止](/help/search-social-commerce/assets/pause.png "一時停止")をクリックします。
 

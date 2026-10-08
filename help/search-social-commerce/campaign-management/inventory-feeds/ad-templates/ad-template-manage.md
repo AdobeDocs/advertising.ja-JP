@@ -24,7 +24,7 @@ ht-degree: 0%
 
 データをアップロードする前またはアップロード後に、データを処理できる検索エンジン固有の広告テンプレートを作成できます。 テキスト広告および拡張/拡張テキスト広告、[!DNL Google Ads]および[!DNL Microsoft Advertising]のレスポンシブ検索広告、および[!DNL Google Ads]および[!DNL Microsoft Advertising]のショッピング広告のテンプレートを作成できます。
 
-各テンプレートを1つのフィードファイル、[!DNL Google Merchant Center] アカウントまたは[!DNL Microsoft Merchant Center] アカウントに関連付けることができ、複数のテンプレートを同じフィードファイルまたはアカウントに関連付けることができます。 広告テンプレートには、変数を含めることができます。変数は、アップロードされたファイルまたはアカウントの実際のデータ列で置き換えられます。 ほとんどの場合、変数には、検索、ソーシャル、およびCommerceで設定した[修飾子グループ ](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)を含めることもできます。これにより、データファイルの該当する行ごとに複数の広告、キーワード、キャンペーン、または広告グループを作成できます。 テンプレートオプションを使用すると、広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成するか、広告を既存のアカウント構造にマッピングできます。
+各テンプレートを1つのフィードファイル、[!DNL Google Merchant Center] アカウントまたは[!DNL Microsoft Merchant Center] アカウントに関連付けることができ、複数のテンプレートを同じフィードファイルまたはアカウントに関連付けることができます。 広告テンプレートには、変数を含めることができます。変数は、アップロードされたファイルまたはアカウントの実際のデータ列で置き換えられます。 ほとんどの場合、変数には、検索、ソーシャル、およびCommerceで設定した[修飾子グループ &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)を含めることもできます。これにより、データファイルの該当する行ごとに複数の広告、キーワード、キャンペーン、または広告グループを作成できます。 テンプレートオプションを使用すると、広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成するか、広告を既存のアカウント構造にマッピングできます。
 
 新しいテンプレートをゼロから作成するだけでなく、既存のテンプレートを複製したり、既存のテンプレートを編集したりして、新しいテンプレートをオプションで作成できます。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    * （既存のテンプレートを編集するには） テンプレート名の横にある![設定の表示/編集](/help/search-social-commerce/assets/settings.png "設定の表示/編集")をクリックします。
 
-1. [ テキスト広告テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)、[[!DNL Google Ads]  ショッピング広告テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)または[[!DNL Microsoft Advertising]  ショッピング広告テンプレート ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)の設定を指定します。
+1. [&#x200B; テキスト広告テンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)、[[!DNL Google Ads]  ショッピング広告テンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)または[[!DNL Microsoft Advertising]  ショッピング広告テンプレート &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)の設定を指定します。
 
    1. テンプレート設定ウィンドウの上部で、テンプレート名と該当するアカウントを指定します。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
       >* 標準テキスト広告テンプレートごとに最大4つの広告バリエーションのテンプレート、拡張/拡張テキスト広告テンプレートごとに5つの広告バリエーションのテンプレート、レスポンシブ検索広告テンプレートごとに3つの広告バリエーションのテンプレートを含めることができます。
       >* 各広告グループには、有効なレスポンシブ検索広告を3つまで含めることができます。
       >* 既存の標準テキスト広告のバリエーションを編集することはできず、既存のテンプレートは標準テキスト広告を生成しなくなりました。
-      >* 広告バリエーション テンプレートを変更すると、既存の広告が削除され、広告の種類と広告ネットワークに応じて[ テンプレートを通じてデータを伝搬する際に新しい広告が作成される場合があります](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)。
+      >* 広告バリエーション テンプレートを変更すると、既存の広告が削除され、広告の種類と広告ネットワークに応じて[&#x200B; テンプレートを通じてデータを伝搬する際に新しい広告が作成される場合があります](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)。
 
       * 広告バリエーションを追加するには、次の操作を行います。
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [在庫フィードを使用した広告管理の自動化について](../inventory-feeds-about.md)
->* [ テキスト広告とレスポンシブ検索広告テンプレートの設定](template-text-rsa.md)
+>* [&#x200B; テキスト広告とレスポンシブ検索広告テンプレートの設定](template-text-rsa.md)
 >* [[!DNL Google Ads]  ショッピング広告テンプレート設定](template-google-shopping.md)
 >* [[!DNL Microsoft Advertising]  ショッピング広告テンプレート設定](template-microsoft-shopping.md)
->* [ テンプレートを通じてフィード データを伝達](../feed-data-propagate.md)
+>* [&#x200B; テンプレートを通じてフィード データを伝達](../feed-data-propagate.md)

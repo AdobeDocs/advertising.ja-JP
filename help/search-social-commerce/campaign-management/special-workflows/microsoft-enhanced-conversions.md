@@ -30,7 +30,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft Advertising]アカウントのみ*
 
-[[!DNL Microsoft Advertising] 拡張コンバージョン ](https://help.ads.microsoft.com/#apex/ads/en/60178)を使用すると、1st パーティのコンバージョンデータを使用して、ユーザーをオフラインコンバージョンにマッピングできます。 クリック IDが使用できない環境で拡張コンバージョンを使用して、web サイトのリードに起因する電話やメール販売を追跡します。
+[[!DNL Microsoft Advertising] 拡張コンバージョン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178)を使用すると、1st パーティのコンバージョンデータを使用して、ユーザーをオフラインコンバージョンにマッピングできます。 クリック IDが使用できない環境で拡張コンバージョンを使用して、web サイトのリードに起因する電話やメール販売を追跡します。
 
 Search, Social, &amp; Commerceでは、次のことができます。
 
@@ -44,9 +44,9 @@ Search, Social, &amp; Commerceでは、次のことができます。
 
 この機能を使用するには、次の手順を実行します。
 
-1. 「[拡張コンバージョン ](https://help.ads.microsoft.com/#apex/ads/en/60178)」に関する[!DNL Microsoft Advertising] ヘルプのすべての前提条件に従ってください。
+1. 「[拡張コンバージョン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178)」に関する[!DNL Microsoft Advertising] ヘルプのすべての前提条件に従ってください。
 
-1. [ [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/60178)内で強化コンバージョン目標を設定します。
+1. [&#x200B; [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/60178)内で強化コンバージョン目標を設定します。
 
 1. 必要に応じて、ハッシュ化されたメールアドレスや電話番号などのファーストパーティデータをアップロードし、指定したアカウントのコンバージョンに関連付けます。 この手順は、[検索、ソーシャル、Commerce](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)または[!DNL Microsoft Advertising]内から実行できます。
 
@@ -54,8 +54,8 @@ Search, Social, &amp; Commerceでは、次のことができます。
 
      アップロードされたすべてのデータは、リアルタイムで[!DNL Microsoft Advertising]に同期されます。
 
-   * [!DNL Microsoft Advertising]内のデータのアップロードについて詳しくは、「[拡張コンバージョン ](https://help.ads.microsoft.com/#apex/ads/en/60178)」の[!DNL Microsoft Advertising] ヘルプの「オフラインコンバージョン用の拡張コンバージョンの設定」の節を参照してください。
+   * [!DNL Microsoft Advertising]内のデータのアップロードについて詳しくは、「[拡張コンバージョン &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178)」の[!DNL Microsoft Advertising] ヘルプの「オフラインコンバージョン用の拡張コンバージョンの設定」の節を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
+>* [&#x200B; オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)

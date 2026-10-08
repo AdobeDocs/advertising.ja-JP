@@ -73,5 +73,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ レポートを分析してキーワードとキャンペーン設定を調整する](best-practices-analyze.md)
+>* [&#x200B; レポートを分析してキーワードとキャンペーン設定を調整する](best-practices-analyze.md)
 >* [効果的なテキストとコピーの作成](best-practices-write.md)

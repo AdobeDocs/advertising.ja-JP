@@ -126,7 +126,7 @@ ht-degree: 0%
 >
 > 広告の表示頻度の上限は、キャンペーン、パッケージ、プレースメントレベルで設定できます。 DSPは、キャンペーン階層で最も厳格な頻度キャップを尊重しています。
 
-**[!UICONTROL Packages]:** キャンペーンに含める[ パッケージ ](/help/dsp/campaign-management/packages/package-about.md)。 既存のパッケージを選択するか、含めるパッケージを作成します。 パッケージを作成する場合は、詳細については、[ パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)に関する説明を参照してください。
+**[!UICONTROL Packages]:** キャンペーンに含める[&#x200B; パッケージ &#x200B;](/help/dsp/campaign-management/packages/package-about.md)。 既存のパッケージを選択するか、含めるパッケージを作成します。 パッケージを作成する場合は、詳細については、[&#x200B; パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)に関する説明を参照してください。
 
 ## [!UICONTROL Campaign measurement]
 
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 [!UICONTROL Attention Score] フィールドは、レポートの[!UICONTROL Metrics] セクション、[!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements] ビュー、および[配置の詳細ビュー](/help/dsp/campaign-management/reports/placement-details-view.md)の[!UICONTROL Sites]、[!UICONTROL Ads]、および[!UICONTROL Inventory] タブで使用できます。
 
-[!DNL Adelaide] セグメントを測定に使用すると、[!DNL Adelaide]個の測定タグを持つ広告から配信されたインプレッションごとにCPM料金が発生します。 この料金は、[ プレースメントレベルの注意ターゲティング ](/help/dsp/campaign-management/placements/placement-settings.md)の料金とは別です。
+[!DNL Adelaide] セグメントを測定に使用すると、[!DNL Adelaide]個の測定タグを持つ広告から配信されたインプレッションごとにCPM料金が発生します。 この料金は、[&#x200B; プレースメントレベルの注意ターゲティング &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md)の料金とは別です。
 
 <!--
 Example JavaScript tag:
@@ -185,6 +185,6 @@ Example JavaScript tag:
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのキャンペーン管理について](campaign-about.md)
->* [ キャンペーンを作成](campaign-create.md)
->* [ キャンペーンを編集](campaign-edit.md)
->* [ キャンペーンの変更ログを表示](campaign-change-log.md)
+>* [&#x200B; キャンペーンを作成](campaign-create.md)
+>* [&#x200B; キャンペーンを編集](campaign-edit.md)
+>* [&#x200B; キャンペーンの変更ログを表示](campaign-change-log.md)

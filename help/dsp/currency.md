@@ -38,7 +38,7 @@ Adobe Advertisingは以下の通貨をサポートしています。
 
 >[!NOTE]
 >
->Adobe Analyticsでは、[より大きな通貨セット ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html)をサポートしています。
+>Adobe Analyticsでは、[より大きな通貨セット &#x200B;](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html)をサポートしています。
 
 ## DSPとCreative
 
@@ -70,5 +70,5 @@ Adobe Advertisingは以下の通貨をサポートしています。
 
 ## [!DNL Adobe Advertising Search, Social, & Commerce]
 
-サポートされている検索エンジンでサポートされているすべての通貨。 これは、 [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes)によってサポートされている[個と同じです。
+サポートされている検索エンジンでサポートされているすべての通貨。 これは、 [!DNL Google Ads]&#x200B;[&#128279;](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes)によってサポートされている個と同じです。
 

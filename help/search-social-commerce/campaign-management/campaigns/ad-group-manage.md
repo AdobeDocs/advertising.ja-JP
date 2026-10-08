@@ -24,13 +24,13 @@ ht-degree: 0%
 
 広告グループには、一連の広告とその関連キーワードが含まれます。 ディスプレイネットワークをターゲットとするキャンペーン内の広告グループには、広告を表示できるディスプレイネットワーク上の場所であるプレースメントも含めることができます。 広告グループのすべてのコンポーネントに適用される広告グループの設定は、広告ネットワークによって異なります。
 
-[同期広告ネットワークアカウント ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)内の[ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md)の広告グループは、検索、ソーシャル、およびCommerce内から作成できます。 また、広告グループのステータスを編集および変更することもできます。
+[同期広告ネットワークアカウント &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)内の[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)の広告グループは、検索、ソーシャル、およびCommerce内から作成できます。 また、広告グループのステータスを編集および変更することもできます。
 
 ## 広告グループの作成
 
 >[!TIP]
 >
->大量の広告グループデータを一度に追加するには、[ コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>大量の広告グループデータを一度に追加するには、[&#x200B; コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ad Groups]**&#x200B;をクリックします。
 
@@ -52,13 +52,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->大量のデータを一度に編集するには、[ コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[ バルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>大量のデータを一度に編集するには、[&#x200B; コピー&amp;ペースト機能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)または[&#x200B; バルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]>[!UICONTROL Ad Groups]**&#x200B;をクリックします。
 
 1. 次のいずれかの操作を行います。
 
-   1. （1つの広告グループの設定を編集するには） エンティティ名にカーソルを合わせ、![ メニューアイコン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
+   1. （1つの広告グループの設定を編集するには） エンティティ名にカーソルを合わせ、![&#x200B; メニューアイコン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューアイコン ")をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
 
    1. （1つ以上の広告グループの設定を編集するには）次の操作を行います。
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    複数の行を選択する際のヒントについては、「[複数の行を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)」を参照してください。
 
 1. ツールバーで、ステータスボタンをクリックします。
-   * 行をアクティブ化するには、![ アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
+   * 行をアクティブ化するには、![&#x200B; アクティブ化](/help/search-social-commerce/assets/activate.png " アクティブ化")をクリックします。
 
    * 行を一時停止するには、![一時停止](/help/search-social-commerce/assets/pause.png "一時停止")をクリックします。
 

@@ -92,4 +92,4 @@ ht-degree: 0%
 >
 >* [基本レポートまたは詳細レポートを生成](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [基本および詳細レポート設定](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
->* 基本レポートと詳細レポートの[ レポート列](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
+>* 基本レポートと詳細レポートの[&#x200B; レポート列](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)

@@ -47,7 +47,7 @@ ht-degree: 0%
 
 このドキュメントでは、[!DNL Advertising Search, Social, & Commerce]、Advertising Creative、Advertising DSP （Demand Side Platform）、および[!DNL Advertising DCO]がサービスプロバイダーとして、Adobe [!DNL Experience Platform Privacy Service API]および[!DNL Privacy Service UI]を使用して個人情報にアクセスおよび削除する消費者の権利をどのようにサポートしているかを説明します。
 
-Advertising DSPが個人情報の販売をオプトアウトする消費者の権利をどのようにサポートしているかについて詳しくは、[Adobe Advertising消費者プライバシー法に関するカリフォルニア州サポート：消費者の販売停止サポート ](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)を参照してください。
+Advertising DSPが個人情報の販売をオプトアウトする消費者の権利をどのようにサポートしているかについて詳しくは、[Adobe Advertising消費者プライバシー法に関するカリフォルニア州サポート：消費者の販売停止サポート &#x200B;](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)を参照してください。
 
 CCPA向けAdobe Privacy Servicesについて詳しくは、[Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html)を参照してください。
 
@@ -114,7 +114,7 @@ Adobe Advertisingからサポートを受けるには、すべての手順が必
 
 * `"user IDs":`
 
-  * `"namespace": **411**` （[[!DNL AdCloud] cookie スペース ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)を示します）
+  * `"namespace": **411**` （[[!DNL AdCloud] cookie スペース &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)を示します）
 
   * `"value":` &lt;*実際の顧客のcookie ID値（`AdobePrivacy.js`*>から取得）
 

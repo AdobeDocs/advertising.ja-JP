@@ -42,8 +42,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 > * [!DNL Creative]は、Advertising DSPのユニバーサル IDのみをサポートしています。
->* また、Adobe Audience ManagerとAdobe Analyticsの1st パーティオーディエンスを、エクスペリエンスの[ クリエイティブ目標](/help/creative/experiences/experience-settings-targeting.md)として使用することもできます。
->* Advertising DSP プレースメント内の広告としてエクスペリエンスを使用する場合、DSPで使用可能なすべてのオーディエンスにプレースメントをターゲティングできます。 また、[ カスタムオーディエンスセグメントタグ ](/help/dsp/audiences/custom-segment-create.md)を作成して、特定のランディングページに対するすべての訪問者を追跡し、それらのセグメントをプレースメントのクリエイティブターゲットとして使用することもできます。 Advertising DSPでは、プレースメントレベルのターゲティングの上に（代わりに）広告レベルのターゲティングを適用します。
+>* また、Adobe Audience ManagerとAdobe Analyticsの1st パーティオーディエンスを、エクスペリエンスの[&#x200B; クリエイティブ目標](/help/creative/experiences/experience-settings-targeting.md)として使用することもできます。
+>* Advertising DSP プレースメント内の広告としてエクスペリエンスを使用する場合、DSPで使用可能なすべてのオーディエンスにプレースメントをターゲティングできます。 また、[&#x200B; カスタムオーディエンスセグメントタグ &#x200B;](/help/dsp/audiences/custom-segment-create.md)を作成して、特定のランディングページに対するすべての訪問者を追跡し、それらのセグメントをプレースメントのクリエイティブターゲットとして使用することもできます。 Advertising DSPでは、プレースメントレベルのターゲティングの上に（代わりに）広告レベルのターゲティングを適用します。
 >* 広告ターゲティングのトラッキングをオプトアウトしたweb サイト訪問者は、オーディエンスセグメントやリターゲティングプロファイルにもとづいてパーソナライズされたクリエイティブコンテンツを含む広告を受け取ることはできません。
 
 ## リターゲティングピクセルの作成
@@ -52,11 +52,11 @@ ht-degree: 0%
 
 1. データテーブルの上で「**[!UICONTROL Creative]**」をクリックし、> **[!UICONTROL Retargeting Pixel]**」を選択します。
 
-1. [ リターゲティングピクセル設定](#retargeting-pixel-settings)を指定します。
+1. [&#x200B; リターゲティングピクセル設定](#retargeting-pixel-settings)を指定します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
-1. [広告主またはweb サイトの連絡先に提供するピクセルタグ ](#retargeting-pixel-generate)を生成します。
+1. [広告主またはweb サイトの連絡先に提供するピクセルタグ &#x200B;](#retargeting-pixel-generate)を生成します。
 
    リターゲティングピクセルタグは、ページの最後のアクションである必要があります。<!-- verify here and below -->
 
@@ -68,11 +68,11 @@ ht-degree: 0%
 
 1. ピクセル名の上にカーソルを置き、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. [ リターゲティングピクセル設定](#retargeting-pixel-settings)を編集します。
+1. [&#x200B; リターゲティングピクセル設定](#retargeting-pixel-settings)を編集します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
-1. [ ピクセルタグ ](#retargeting-pixel-generate)を生成して、広告主またはweb サイトの連絡先に提供し、元のタグを置き換えることができるようにします。
+1. [&#x200B; ピクセルタグ &#x200B;](#retargeting-pixel-generate)を生成して、広告主またはweb サイトの連絡先に提供し、元のタグを置き換えることができるようにします。
 
    リターゲティングピクセルタグは、ランディングページの最後のアクションである必要があります。
 
@@ -132,5 +132,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ターゲット広告エクスペリエンス設定](/help/creative/experiences/experience-settings-targeting.md)
+>* [&#x200B; ターゲット広告エクスペリエンス設定](/help/creative/experiences/experience-settings-targeting.md)
 >* [広告体験について](/help/creative/experiences/experience-about.md)

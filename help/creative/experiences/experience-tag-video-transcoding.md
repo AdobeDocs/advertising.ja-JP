@@ -59,7 +59,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
->* [ ターゲティングでエクスペリエンスを作成](/help/creative/experiences/experience-create-targeting.md)
+>* [&#x200B; クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
+>* [&#x200B; ターゲティングでエクスペリエンスを作成](/help/creative/experiences/experience-create-targeting.md)
 >* [該当するクリエイティブサイズの広告タグを手動で作成する](experience-tag-create-manually.md)
->* [ ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](experience-tag-export.md)
+>* [&#x200B; ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](experience-tag-export.md)

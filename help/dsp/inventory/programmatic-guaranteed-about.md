@@ -61,7 +61,7 @@ PG取引には、PGのデフォルトのプレースメントと広告（また�
 
 >[!MORELIKETHIS]
 >
->* [ プログラマティック保証取引の交渉に関するヒント ](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [ プログラム的な保証契約の設定](programmatic-guaranteed-set-up.md)
+>* [&#x200B; プログラマティック保証取引の交渉に関するヒント &#x200B;](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [&#x200B; プログラム的な保証契約の設定](programmatic-guaranteed-set-up.md)
 >* [SSP パートナー](ssp-partners.md)
 >* [Advertising DSPの在庫機能の概要](inventory-overview.md)

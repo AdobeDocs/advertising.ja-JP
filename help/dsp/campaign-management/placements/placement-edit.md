@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、XLSX （Excel スプレッドシート）形式で1つ以上のプレースメントの設定をダウンロードしたり、キャンペーン内のすべてのプレースメントの設定をダウンロードしたり、ほとんどのフィールドに変更を加えたり、一度にDSPにアップロードしたりすることもできます。 「[ バルクシートを使用したプレースメント設定の確認と編集](placement-qa.md)」を参照してください。
+>また、XLSX （Excel スプレッドシート）形式で1つ以上のプレースメントの設定をダウンロードしたり、キャンペーン内のすべてのプレースメントの設定をダウンロードしたり、ほとんどのフィールドに変更を加えたり、一度にDSPにアップロードしたりすることもできます。 「[&#x200B; バルクシートを使用したプレースメント設定の確認と編集](placement-qa.md)」を参照してください。
 
 ## キーの配置の設定をすばやく編集 {#placement-quick-edit}
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 1. キャンペーンの名前をクリックします。
 1. サブメニューで、**[!UICONTROL Placements]**&#x200B;をクリックします。
 1. プレースメント名の横で、**[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Quick Edit]**&#x200B;をクリックします。
-1. 使用可能な[ プレースメント設定](placement-settings.md)のいずれかを編集します：**[!UICONTROL Placement Name]**、**[!UICONTROL Status]**、**[!UICONTROL Max Bid]**、および&#x200B;**[!UICONTROL Budget]**。
+1. 使用可能な[&#x200B; プレースメント設定](placement-settings.md)のいずれかを編集します：**[!UICONTROL Placement Name]**、**[!UICONTROL Status]**、**[!UICONTROL Max Bid]**、および&#x200B;**[!UICONTROL Budget]**。
 1. **[!UICONTROL Apply]**&#x200B;をクリックします。
 
 ## 単一のプレースメントの編集
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. プレースメント名の横にある「**[!UICONTROL ...]** > **[!UICONTROL Edit]** **[!UICONTROL Full Edit]** >」をクリックします。
 
-1. [ プレースメント設定](placement-settings.md)を編集します。
+1. [&#x200B; プレースメント設定](placement-settings.md)を編集します。
 
 1. **[!UICONTROL Update placement]**&#x200B;をクリックします。
 
@@ -98,21 +98,21 @@ ht-degree: 0%
 
       * **Remove** （指定した値を削除するには）
 
-   1. [ プレースメント設定](placement-settings.md)を編集します。
+   1. [&#x200B; プレースメント設定](placement-settings.md)を編集します。
 
 1. **[!UICONTROL Submit]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのプレースメント管理について](placement-about.md)
->* [ バルクシートを使用したプレースメント設定のレビューと編集](placement-qa.md)
->* [ プレースメントの作成](placement-create.md)
->* [ プレースメントを複製](placement-duplicate.md)
->* [ プレースメントの入札乗数を管理](placement-manage-bid-multipliers.md)
->* [ プレースメントの広告スケジュールを編集](placement-edit-ad-schedule.md)
->* [ プレースメントを非アクティブ化またはアクティブ化](placement-pause-activate.md)
->* [ プレースメントの変更ログを表示](placement-change-log.md)
+>* [&#x200B; バルクシートを使用したプレースメント設定のレビューと編集](placement-qa.md)
+>* [&#x200B; プレースメントの作成](placement-create.md)
+>* [&#x200B; プレースメントを複製](placement-duplicate.md)
+>* [&#x200B; プレースメントの入札乗数を管理](placement-manage-bid-multipliers.md)
+>* [&#x200B; プレースメントの広告スケジュールを編集](placement-edit-ad-schedule.md)
+>* [&#x200B; プレースメントを非アクティブ化またはアクティブ化](placement-pause-activate.md)
+>* [&#x200B; プレースメントの変更ログを表示](placement-change-log.md)
 >* [配置の設定](placement-settings.md)
->* [ プレースメント予測レポートを表示](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [ キーボードショートカット ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [ ビデオ：一括編集ツールを使用してプレースメントを編集する方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [&#x200B; プレースメント予測レポートを表示](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [&#x200B; キーボードショートカット &#x200B;](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+>* [&#x200B; ビデオ：一括編集ツールを使用してプレースメントを編集する方法](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

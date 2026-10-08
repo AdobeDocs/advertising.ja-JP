@@ -42,11 +42,11 @@ Adobe Advertisingは、お客様がアカウントのオプトアウト要求を
 
 各レポートは、GZIP形式に圧縮されたタブ区切りのテキストファイルとして使用できます。 CCPAのオプトアウトオブセールスセグメントで取得されたユーザーIDは、セグメントおよび広告主によって識別されます。
 
-DSP内またはDSP [!DNL Trafficking API]を使用して、過去3か月間に作成された月次レポート ](ccpa-opt-out-segment-report-retrieve.md)へのリンクを[取得できます。 各リンクは7日間有効ですが、顧客が取得するたびに更新されます。
+DSP内またはDSP [!DNL Trafficking API]を使用して、過去3か月間に作成された月次レポート [&#128279;](ccpa-opt-out-segment-report-retrieve.md)へのリンクを取得できます。 各リンクは7日間有効ですが、顧客が取得するたびに更新されます。
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertisingのカリフォルニア州消費者プライバシー法に対するサポート：消費者の販売拒否サポート ](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [Adobe Advertisingのカリフォルニア州消費者プライバシー法に対するサポート：消費者の販売拒否サポート &#x200B;](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [[!UICONTROL CCPA Opt-Out-of-Sale] セグメントを作成して実装](ccpa-opt-out-segment-create.md)
 >* [消費者のオプトアウトに関するレポートを取得](ccpa-opt-out-segment-report-retrieve.md)
->* [ オーディエンス管理について](audience-about.md)
+>* [&#x200B; オーディエンス管理について](audience-about.md)

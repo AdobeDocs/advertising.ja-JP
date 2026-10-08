@@ -34,10 +34,10 @@ ht-degree: 0%
 
 1. （オプション） [特定のエクスペリエンスを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
 
-1. 右上のツールバーで、![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")をクリックします。
+1. 右上のツールバーで、![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーのデフォルトのダウンロードフォルダーに保存されます。
 
 >[!MORELIKETHIS]
 >* [Advertising Creativeでの体験について](/help/creative/experiences/experience-about.md)
->* [ エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)
+>* [&#x200B; エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)

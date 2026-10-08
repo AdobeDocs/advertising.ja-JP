@@ -30,9 +30,9 @@ ht-degree: 0%
 ---
 # プレースメントのサイト、広告、頻度、インベントリの詳細を表示します
 
-プレースメントごとに、[ プレースメント内のすべてのターゲットサイト、広告、取引を一覧表示する（詳細ビュー[!UICONTROL Inspector]） ](placement-details-view.md)を開くことができます。 また、配置の頻度データも含まれます。 オプションで、任意のタブからデータを書き出すことができます。
+プレースメントごとに、[&#x200B; プレースメント内のすべてのターゲットサイト、広告、取引を一覧表示する（詳細ビュー[!UICONTROL Inspector]） &#x200B;](placement-details-view.md)を開くことができます。 また、配置の頻度データも含まれます。 オプションで、任意のタブからデータを書き出すことができます。
 
-![ プレースメントインスペクター](/help/dsp/assets/placement-inspector.png)
+![&#x200B; プレースメントインスペクター](/help/dsp/assets/placement-inspector.png)
 
 ## プレースメント [!UICONTROL Inspector]の情報 {#placement-inspector}
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ## プレースメントから[!UICONTROL Inspector]から広告を削除する {#remove-ads-placement-inspector}
 
-1. [ プレースメント [!UICONTROL Inspector]](#inspector-open)を開きます。
+1. [&#x200B; プレースメント [!UICONTROL Inspector]](#inspector-open)を開きます。
 
 1. 「**[!UICONTROL Ads]**」タブをクリックします。
 
@@ -108,5 +108,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ キャンペーン管理ビューのパフォーマンスレポートの種類](campaign-reports-about.md)
->* [ キャンペーンデータビューの管理](campaign-data-views-manage.md)
+>* [&#x200B; キャンペーン管理ビューのパフォーマンスレポートの種類](campaign-reports-about.md)
+>* [&#x200B; キャンペーンデータビューの管理](campaign-data-views-manage.md)

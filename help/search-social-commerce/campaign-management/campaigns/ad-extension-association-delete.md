@@ -36,5 +36,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ コールアウト拡張機能 [!DNL Google Ads] を管理](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
->* [ サイトリンク拡張機能の管理](sitelink-extension-manage.md)
+>* [&#x200B; コールアウト拡張機能 [!DNL Google Ads] を管理](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
+>* [&#x200B; サイトリンク拡張機能の管理](sitelink-extension-manage.md)

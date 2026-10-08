@@ -50,7 +50,7 @@ ht-degree: 0%
 
    1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
-1. 該当する広告タグの行の上にカーソルを置き、![ トラッキング URLの編集](/help/creative/assets/edit-gray.png " トラッキング URLの編集") **[!UICONTROL Tracking URLs]**&#x200B;をクリックします。<!-- For targeted experiences, this is "EDIT Tracking URLs"  Tag Manager has only a list view, but no card view, as of 2/2. -->
+1. 該当する広告タグの行の上にカーソルを置き、![&#x200B; トラッキング URLの編集](/help/creative/assets/edit-gray.png " トラッキング URLの編集") **[!UICONTROL Tracking URLs]**&#x200B;をクリックします。<!-- For targeted experiences, this is "EDIT Tracking URLs"  Tag Manager has only a list view, but no card view, as of 2/2. -->
 
    「[!UICONTROL Click Tracking URLs]」、「[!UICONTROL Impression Tracking URLs]」、「[!UICONTROL Landing URLs]」タブには、割り当てられたバンドル内の該当するサイズのすべてのクリエイターの名前が一覧表示されます。 エクスペリエンスの既定のクリエイターのサイズによって、使用可能なサイズが決まります。<!-- There's no distinct "Creative Sizes" setting. -->
 
@@ -72,5 +72,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
+>* [&#x200B; ターゲティングせずにエクスペリエンス用の広告タグにクリエイターを割り当てる](experience-tag-assign-creatives.md)
 >* [決定木ターゲティングを使用したエクスペリエンスのトラッキング URLをカスタマイズする](experience-tracking-urls-targeting.md)

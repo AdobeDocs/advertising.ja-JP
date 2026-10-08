@@ -47,6 +47,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ パッケージの編集](package-edit.md)
->* [ パッケージの変更ログを表示](package-change-log.md)
->* [ パッケージをアーカイブ ](package-archive-unarchive.md)
+>* [&#x200B; パッケージの編集](package-edit.md)
+>* [&#x200B; パッケージの変更ログを表示](package-change-log.md)
+>* [&#x200B; パッケージをアーカイブ &#x200B;](package-archive-unarchive.md)

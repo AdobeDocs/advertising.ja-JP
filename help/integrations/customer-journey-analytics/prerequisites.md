@@ -42,13 +42,13 @@ ht-degree: 0%
 
   * [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) バージョン 2.36以降。
 
-  * [Adobe Experience Platform タグ ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) （バージョン 2.37以降の[[!DNL Web SDK] 拡張機能](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension)を含む）。
+  * [Adobe Experience Platform タグ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) （バージョン 2.37以降の[[!DNL Web SDK] 拡張機能](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension)を含む）。
 
 * Adobe Customer Journey Analyticsからデータ管理ツールにアクセス
 
   データセットへの接続を設定し、レポートを設定するには、社内のweb アナリストのサポートが必要です。
 
-* （広告主が[!DNL Analytics for Advertising]）Adobe Experience Platform データモデリングおよび管理テクノロジー（[ スキーマ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)および[ データセット ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)を含む）および[ データ収集テクノロジー](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) （[ データストリーム ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)および[ タグ ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)を含む）
+* （広告主が[!DNL Analytics for Advertising]）Adobe Experience Platform データモデリングおよび管理テクノロジー（[&#x200B; スキーマ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)および[&#x200B; データセット &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)を含む）および[&#x200B; データ収集テクノロジー](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) （[&#x200B; データストリーム &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)および[&#x200B; タグ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)を含む）
 
   これらのテクノロジには、Experience Platform サイト管理者のサポートが必要です。
 
@@ -59,8 +59,8 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [概要](overview.md)
->*  [!DNL Customer Journey Analytics]](ids.md)様が使用している[Adobe Advertising ID
->* [ データ収集、データ転送、レポートの設定](set-up.md)
->* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション ](advertising-data-in-cja.md)
+>*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)様が使用しているAdobe Advertising ID
+>* [&#x200B; データ収集、データ転送、レポートの設定](set-up.md)
+>* [Customer Journey AnalyticsのAdobe Advertising指標とディメンション &#x200B;](advertising-data-in-cja.md)
 >* （Adobe Analytics ユーザー） [Adobe Customer Journey Analyticsで使用するAMO IDとEF IDの履歴データを収集](/help/integrations/analytics/rvars-to-evars.md)。
->* [ トラブルシューティング ](troubleshooting.md)
+>* [&#x200B; トラブルシューティング &#x200B;](troubleshooting.md)

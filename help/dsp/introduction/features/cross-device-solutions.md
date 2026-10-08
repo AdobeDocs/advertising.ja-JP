@@ -59,7 +59,7 @@ ht-degree: 0%
 
 * **キャンペーン：**&#x200B;新しいキャンペーンを作成する際に、[!UICONTROL Cross-Device Level]設定を指定できます。 「[!UICONTROL Same Device]」 – > 「[!UICONTROL People]」を有効にし、デバイスグラフを選択します。 指定されたデバイスグラフは、プレースメントレベルでのクロスデバイスターゲティングと、キャンペーン、パッケージ、プレースメントレベルでのピープルベースの周波数管理の両方に使用されます。 広告の表示頻度の上限は、オーディエンスの既知のデバイスすべてに適用されます。
 
-詳しくは、[ キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)を参照してください。
+詳しくは、[&#x200B; キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)を参照してください。
 
 キャンペーンを保存すると、その[!UICONTROL Cross Device Level]設定を変更することはできません。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 * **キャンペーン：**&#x200B;新しいキャンペーンを作成する際に、[!UICONTROL Cross-Device Level]設定を指定できます。 「[!UICONTROL Same Device]」 – > 「[!UICONTROL People]」を有効にし、デバイスグラフを選択します。 指定されたデバイスグラフは、プレースメントレベルでのクロスデバイスのターゲティングとピープルベースの周波数管理の両方に使用されます。
 
-詳しくは、[ キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)を参照してください。
+詳しくは、[&#x200B; キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)を参照してください。
 
 * **プレースメント：**&#x200B;指定したデバイスグラフを含むキャンペーンのプレースメントに対してオーディエンスターゲティングを選択する場合、[!UICONTROL Cross-Device Targeting] オプションを使用すると、指定したセグメントに含まれていないデバイスも含め、ユーザーの既知のデバイス（キャンペーン設定で指定したデバイスグラフごと）すべてにターゲティングを拡張できます。
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ レポート設定](/help/dsp/reports/report-settings.md)
->* [ キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [ パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; レポート設定](/help/dsp/reports/report-settings.md)
+>* [&#x200B; キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [&#x200B; パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)

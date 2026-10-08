@@ -25,7 +25,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-AI チャットインターフェイスを使用して、[Advertising Creative ガイド ](/help/dsp/home.md)および[Advertising DSP ガイド ](/help/creative/home.md)の概念的なコンテンツとハウツーコンテンツを検索します（Advertising Creativeの広告主）。 回答は、[Experience League](https://experienceleague.adobe.com/en/docs/advertising)に記載されている商品に関する情報に基づいています。
+AI チャットインターフェイスを使用して、[Advertising Creative ガイド &#x200B;](/help/dsp/home.md)および[Advertising DSP ガイド &#x200B;](/help/creative/home.md)の概念的なコンテンツとハウツーコンテンツを検索します（Advertising Creativeの広告主）。 回答は、[Experience League](https://experienceleague.adobe.com/en/docs/advertising)に記載されている商品に関する情報に基づいています。
 
 回答には、引用だけでなく、追加のプロンプトやフォローアップの質問も含まれており、クエリを絞り込んで詳細を確認するのに役立ちます。 チャット履歴はセッション全体を通して保持され、クエリは他のユーザーと共有されません。
 
@@ -33,7 +33,7 @@ AI チャットインターフェイスを使用して、[Advertising Creative �
 >
 >クエリは、キャンペーン、取引、オーディエンスの設定、ステータス、パフォーマンスなど、アカウントに関するデータを返しません。 また、問題のトラブルシューティングにも役立ちません。
 
-![ クエリと応答の例](/help/dsp/assets/agent-chat-response.png " クエリと応答の例")
+![&#x200B; クエリと応答の例](/help/dsp/assets/agent-chat-response.png " クエリと応答の例")
 
 >[!IMPORTANT]
 >
@@ -61,11 +61,11 @@ AI チャットインターフェイスを使用して、[Advertising Creative �
 
 一度に1つのメッセージで複数の質問を行うことはできますが、一度に1つのメッセージのみ行うことができます。 別の応答を送信する前に、応答を待ちます。
 
-1. 任意のページの右上にある「![ エージェント型チャット ](/help/dsp/assets/agent-chat.png " エージェント型チャット ")」をクリックします。
+1. 任意のページの右上にある「![&#x200B; エージェント型チャット &#x200B;](/help/dsp/assets/agent-chat.png " エージェント型チャット ")」をクリックします。
 
-1. クエリを入力し、![送信プロンプト ](/help/dsp/assets/submit-prompt.png "送信プロンプト ")をクリックします。
+1. クエリを入力し、![送信プロンプト &#x200B;](/help/dsp/assets/submit-prompt.png "送信プロンプト ")をクリックします。
 
-   詳しくは、「[ プロンプトの書き込み](#writing-prompts)」を参照してください。
+   詳しくは、「[&#x200B; プロンプトの書き込み](#writing-prompts)」を参照してください。
 
    応答には、インラインの引用と下部の&#x200B;**[!UICONTROL Documentation Sources]** リストが含まれています。 フォローアップの質問や提案が表示されることもあります。
 
@@ -83,7 +83,7 @@ AI チャットインターフェイスを使用して、[Advertising Creative �
 
   * 役に立つ回答については、「![親指を上げる](/help/dsp/assets/thumbs-up.png "親指を上げる")」をクリックしてください。
 
-  * 役に立たない回答の場合は、![ サムズダウン ](/help/dsp/assets/thumbs-down.png " サムズダウン ")をクリックします。
+  * 役に立たない回答の場合は、![&#x200B; サムズダウン &#x200B;](/help/dsp/assets/thumbs-down.png " サムズダウン ")をクリックします。
 
 ## プロンプトの作成の基本 {#writing-prompts}
 

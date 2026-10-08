@@ -118,6 +118,6 @@ Adobe Advertisingは、毎日[!DNL Customer Journey Analytics]にトラフィッ
 >
 >* [概要](overview.md)
 >* [前提条件](prerequisites.md)
->*  [!DNL Customer Journey Analytics]](ids.md)様が使用している[Adobe Advertising ID
->* [ データ収集、データ転送、レポートの設定](set-up.md)
->* [ トラブルシューティング ](troubleshooting.md)
+>*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)様が使用しているAdobe Advertising ID
+>* [&#x200B; データ収集、データ転送、レポートの設定](set-up.md)
+>* [&#x200B; トラブルシューティング &#x200B;](troubleshooting.md)

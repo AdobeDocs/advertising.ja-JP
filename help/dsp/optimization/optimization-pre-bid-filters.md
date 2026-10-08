@@ -43,7 +43,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [DSPによるキャンペーンの最適化](optimization-how-dsp-optimizes-campaigns.md)
->* [ パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)
->* [ キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [&#x200B; キャンペーン設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [最適化の目標とその使用方法](optimization-goals.md)

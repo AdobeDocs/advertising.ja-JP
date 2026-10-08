@@ -62,4 +62,4 @@ ht-degree: 0%
 >
 >* [単一の広告を作成](ad-create.md)
 >* [複数のサードパーティ広告を作成](ad-create-multiple.md)
->* [広告をアーカイブ ](ad-archive-unarchive.md)
+>* [広告をアーカイブ &#x200B;](ad-archive-unarchive.md)

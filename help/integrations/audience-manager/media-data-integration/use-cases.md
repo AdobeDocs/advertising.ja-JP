@@ -48,7 +48,7 @@ Audience ManagerでAdvertising DSP メディア露出データ <!-- ad impressio
 
 Audience Managerでインプレッションデータを取得すると、特定の広告やキャンペーンに接触したオーディエンスのセグメントを作成することで、頻度の管理を強化できます。 これらのセグメントは、頻度を上げる場合は広告ターゲティングに、頻度を制限する場合は広告サプレッションに使用できます。
 
-また、Audience Manager [!DNL Segment Builder]では、実用的なシグナルを含む[ ルールベースの特性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html)に[最新性と頻度の制御](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html)を適用できます。 これにより、例えば、ユーザーがメディアキャンペーン内で特定のクリエイティブを表示される回数を制限できます。 この方法については、「[即時クロスデバイス抑制](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html)」を参照してください。<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
+また、Audience Manager [!DNL Segment Builder]では、実用的なシグナルを含む[&#x200B; ルールベースの特性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html)に[最新性と頻度の制御](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html)を適用できます。 これにより、例えば、ユーザーがメディアキャンペーン内で特定のクリエイティブを表示される回数を制限できます。 この方法については、「[即時クロスデバイス抑制](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html)」を参照してください。<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
 
 ## シーケンシャルメッセージ
 
@@ -96,10 +96,10 @@ Audience Managerでキャンペーンのインプレッション数とクリッ�
 
 | レポート | 説明 |
 | ------ | ----------- |
-| [[!UICONTROL Segment Performance] レポート ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html) | インプレッションとコンバージョン率によって、マッピングされたセグメントとマッピングされていないセグメントを比較します。 |
+| [[!UICONTROL Segment Performance] レポート &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html) | インプレッションとコンバージョン率によって、マッピングされたセグメントとマッピングされていないセグメントを比較します。 |
 | [[!UICONTROL Trend Analysis and Volume Analysis] レポート ]9https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/trend-analysis-volume-analysis.html） | 幅広い広告ディメンションのインプレッション、クリックスルー率、コンバージョンに関するデータを返します。 |
-| [[!UICONTROL Optimal Frequency] レポート ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/optimal-frequency.html) | 配信されたインプレッション数とコンバージョン数の最適なバランスを把握するのに役立ちます。 リターンの減少を確認する前に、表示するインプレッション数を調整できます。 |
-| [[!UICONTROL Unique User Reach] レポート ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html) | バブルチャート：選択したディメンションのユニークユーザー数に直接比例して、各バブルのサイズが表示されます。 |
+| [[!UICONTROL Optimal Frequency] レポート &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/optimal-frequency.html) | 配信されたインプレッション数とコンバージョン数の最適なバランスを把握するのに役立ちます。 リターンの減少を確認する前に、表示するインプレッション数を調整できます。 |
+| [[!UICONTROL Unique User Reach] レポート &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html) | バブルチャート：選択したディメンションのユニークユーザー数に直接比例して、各バブルのサイズが表示されます。 |
 
 ### 検討事項
 

@@ -39,11 +39,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >オーディエンスセグメントロジックを編集すると、右側のパネルで詳細な[ オーディエンスサイズデータ ](audience-about.md)が更新されます。
+   >オーディエンスセグメントロジックを編集すると、右側のパネルで詳細な[&#x200B; オーディエンスサイズデータ &#x200B;](audience-about.md)が更新されます。
 
    * （オプション）オーディエンス名の横にある![編集](/help/dsp/assets/edit.png)をクリックして&#x200B;**[!UICONTROL Audience Name]**&#x200B;を編集するには、一意のオーディエンス名を入力し、**[!UICONTROL Apply]**&#x200B;をクリックします。
 
-   * （オプション） [[!UICONTROL Third Party Segments]、[!UICONTROL First Party Segments]、[!UICONTROL Adobe Segments]、[!UICONTROL Custom Segments]、および[!UICONTROL Saved Audiences] タブ ](audience-settings.md)で使用可能なセグメントを使用して、セグメントロジックを手動で編集するには、次の操作を行います。
+   * （オプション） [[!UICONTROL Third Party Segments]、[!UICONTROL First Party Segments]、[!UICONTROL Adobe Segments]、[!UICONTROL Custom Segments]、および[!UICONTROL Saved Audiences] タブ &#x200B;](audience-settings.md)で使用可能なセグメントを使用して、セグメントロジックを手動で編集するには、次の操作を行います。
 
      * 既存のセグメントグループにセグメントを追加するには：
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
         * 既存のオーディエンスの設定で、セグメントロジックパネルの上部にある「**[!UICONTROL More]**」 > 「**[!UICONTROL Copy to Clipboard]**」をクリックします。
 
-        * テキストエディターで、英数字のセグメント IDと[ ブール構文](audience-segment-logic-syntax.md)を使用してセグメントロジックを手動で作成し、クリップボードにコピーします。
+        * テキストエディターで、英数字のセグメント IDと[&#x200B; ブール構文](audience-segment-logic-syntax.md)を使用してセグメントロジックを手動で作成し、クリップボードにコピーします。
 
      1. **[!UICONTROL paste in an audience rule to begin building]**&#x200B;をクリックし、既存のセグメントロジックを入力フィールドに貼り付け、**[!UICONTROL Apply]**&#x200B;をクリックします。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ オーディエンス管理について](audience-about.md)
+>* [&#x200B; オーディエンス管理について](audience-about.md)
 >* [再利用可能なオーディエンスを作成](reusable-audience-create.md)
 >* [再利用可能なオーディエンスを複製](reusable-audience-duplicate.md)
 >* [再利用可能なオーディエンスに関する詳細を表示](reusable-audience-view-details.md)
@@ -97,6 +97,6 @@ ht-degree: 0%
 >* [再利用可能なオーディエンスの書き出し](reusable-audience-export.md)
 >* [再利用可能なオーディエンスのセグメントキーをクリップボードにコピー](reusable-audience-clipboard.md)
 >* [再利用可能なオーディエンスを削除](reusable-audience-delete.md)
->* [ オーディエンス設定](audience-settings.md)
->* [ オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
+>* [&#x200B; オーディエンス設定](audience-settings.md)
+>* [&#x200B; オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
 >* [使用可能なサードパーティのデータプロバイダー](third-party-data-providers.md)

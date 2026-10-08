@@ -98,12 +98,12 @@ DSPは、ペーシングロジックを実行した後、清算価格予測モ�
 >
 >使用可能な事前入札フィルターは、広告タイプによって異なります。 例えば、標準的な表示位置の場合、クリックスルー率と表示可能性でフィルタリングできますが、完了率でフィルタリングすることはできません。
 
-[ プレースメントレベルの入札前フィルターとそれらを使用する方法](optimization-pre-bid-filters.md)を参照して、どの入札前フィルターがKPIの達成に役立つかを判断してください。
+[&#x200B; プレースメントレベルの入札前フィルターとそれらを使用する方法](optimization-pre-bid-filters.md)を参照して、どの入札前フィルターがKPIの達成に役立つかを判断してください。
 
 >[!MORELIKETHIS]
 >
->* [ パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; パッケージ設定](/help/dsp/campaign-management/packages/package-settings.md)
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [最適化の目標とその使用方法](optimization-goals.md)
->* [ プレースメントレベルの入札前フィルターとその使用方法](optimization-pre-bid-filters.md)
->* [ パフォーマンスの問題の理由](/help/dsp/optimization/troubleshooting-performance.md)
+>* [&#x200B; プレースメントレベルの入札前フィルターとその使用方法](optimization-pre-bid-filters.md)
+>* [&#x200B; パフォーマンスの問題の理由](/help/dsp/optimization/troubleshooting-performance.md)

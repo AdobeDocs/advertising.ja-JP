@@ -22,7 +22,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
 
-広告ネットワーク固有のフィード テンプレートを作成し、フィード ファイルまたは[!DNL Google]または[!DNL Microsoft]のマーチャント センターのアカウントを関連付けると、[ フィード データ設定](feed-settings-manage.md)に従ってテンプレートを通じてフィード データを伝搬することにより、広告を動的に作成できます。 伝播中は、テンプレート内の列名がフィード内のデータ値に置き換えられ、テンプレートで特に指定されていない限り、生成されたキャンペーンとそのコンポーネントにはデフォルトの設定が適用されます。 Search, Social, &amp; Commerceでは、テンプレートオプションに応じて、広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成するか、広告を既存のアカウント構造にマッピングします。
+広告ネットワーク固有のフィード テンプレートを作成し、フィード ファイルまたは[!DNL Google]または[!DNL Microsoft]のマーチャント センターのアカウントを関連付けると、[&#x200B; フィード データ設定](feed-settings-manage.md)に従ってテンプレートを通じてフィード データを伝搬することにより、広告を動的に作成できます。 伝播中は、テンプレート内の列名がフィード内のデータ値に置き換えられ、テンプレートで特に指定されていない限り、生成されたキャンペーンとそのコンポーネントにはデフォルトの設定が適用されます。 Search, Social, &amp; Commerceでは、テンプレートオプションに応じて、広告の新しいアカウント構造（キャンペーン、広告グループ、キーワード）を作成するか、広告を既存のアカウント構造にマッピングします。
 
 新しいフィードデータに項目の新しいデータ値が含まれている場合、またはテンプレートが変更された場合、既存の広告は削除され、新しい広告が作成されます。 唯一の変更が[!DNL Google Ads] パラメーター1とパラメーター2の指定である場合、それらの値のみが更新されます。 重複した広告（同じ広告コピーとランディングページ）は作成されません。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Propagations]**」タブをクリックします。
 
-1. テンプレート名の横にある「![設定の表示/編集アイコン ](/help/search-social-commerce/assets/settings.png "設定の表示/編集アイコン ")」をクリックします。
+1. テンプレート名の横にある「![設定の表示/編集アイコン &#x200B;](/help/search-social-commerce/assets/settings.png "設定の表示/編集アイコン ")」をクリックします。
 
 ## 伝播ジョブの停止
 
@@ -98,8 +98,8 @@ ht-degree: 0%
 >
 >* [在庫フィードについて](inventory-feeds-about.md)
 >* [在庫フィードの広告テンプレートを管理](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
->* [ フィードから生成されたデータを表示](propagated-data-view.md)
->* [ フィードから生成されたデータを編集](propagated-data-edit.md)
->* [ フィードから生成されたキャンペーンデータを広告ネットワークに投稿](propagated-data-post.md)
+>* [&#x200B; フィードから生成されたデータを表示](propagated-data-view.md)
+>* [&#x200B; フィードから生成されたデータを編集](propagated-data-edit.md)
+>* [&#x200B; フィードから生成されたキャンペーンデータを広告ネットワークに投稿](propagated-data-post.md)
 >* [在庫フィード データの投稿ジョブを停止](stop-job.md)
->* フィードから生成されたデータの[ ステータス ](propagated-data-status.md)
+>* フィードから生成されたデータの[&#x200B; ステータス &#x200B;](propagated-data-status.md)

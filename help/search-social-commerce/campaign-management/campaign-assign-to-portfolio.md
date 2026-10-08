@@ -25,7 +25,7 @@ ht-degree: 0%
 
 キャンペーンを最適化されたポートフォリオに割り当てることで、Search, Social, &amp; Commerceで、キャンペーン内のキーワードと広告の入札額、キャンペーン予算、入札戦略目標を最適化できます。 ポートフォリオを作成する際、またはポートフォリオの設定を編集する際に、[!UICONTROL Campaigns] ビューからキャンペーンをポートフォリオに割り当てることができます。
 
-すべてのキャンペーンタイプと広告ネットワークが最適化の対象になるわけではありません。ポートフォリオに含めることができる[ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md)のリストを参照してください。 さらに、各キャンペーン入札戦略](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)に対する[最適化サポートを確認します。
+すべてのキャンペーンタイプと広告ネットワークが最適化の対象になるわけではありません。ポートフォリオに含めることができる[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)のリストを参照してください。 さらに、各キャンペーン入札戦略[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)に対する最適化サポートを確認します。
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. 次のいずれかの操作を行います。
 
-   * （1つのキャンペーンをポートフォリオに追加するには） キャンペーン名にカーソルを合わせ、![ メニューボタン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューボタン ")をクリックし、**[!UICONTROL Assign]>[!UICONTROL Portfolio]**&#x200B;を選択します。
+   * （1つのキャンペーンをポートフォリオに追加するには） キャンペーン名にカーソルを合わせ、![&#x200B; メニューボタン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューボタン ")をクリックし、**[!UICONTROL Assign]>[!UICONTROL Portfolio]**&#x200B;を選択します。
 
    * （同じポートフォリオに1つ以上のキャンペーンを追加するには）次の操作を行います。
 
@@ -103,20 +103,20 @@ ht-degree: 0%
 
    ポートフォリオグループまたは[!UICONTROL Ungrouped Portfolios] ノードを選択すると、左側のパネルの[!UICONTROL Portfolios] メニューからポートフォリオリストをフィルタリングできます。
 
-1. ポートフォリオ名の横にある「![設定の表示/編集」ボタン ](/help/search-social-commerce/assets/settings.png "設定の表示/編集ボタン ")」をクリックします。
+1. ポートフォリオ名の横にある「![設定の表示/編集」ボタン &#x200B;](/help/search-social-commerce/assets/settings.png "設定の表示/編集ボタン ")」をクリックします。
 
 1. 左側のメニューで「**[!UICONTROL Campaigns]**」をクリックし、ポートフォリオのキャンペーンを変更します。
 
    * [!UICONTROL Available Campaigns] セクションでフィルターされたすべてのキャンペーンを追加するには、![すべてのキャンペーンをポートフォリオに割り当て](/help/search-social-commerce/assets/arrow-assign-all.png "すべてのキャンペーンをポートフォリオに割り当て")をクリックします。
 
-   * [!UICONTROL Available Campaigns] セクションで個々のキャンペーンを追加するには、キャンペーンをクリックし、キャンペーンを[!UICONTROL Assigned Campaigns] リストにドラッグするか、![ キャンペーンをポートフォリオに割り当て](/help/search-social-commerce/assets/arrow-assign.png " キャンペーンをポートフォリオに割り当て")をクリックします。
+   * [!UICONTROL Available Campaigns] セクションで個々のキャンペーンを追加するには、キャンペーンをクリックし、キャンペーンを[!UICONTROL Assigned Campaigns] リストにドラッグするか、![&#x200B; キャンペーンをポートフォリオに割り当て](/help/search-social-commerce/assets/arrow-assign.png " キャンペーンをポートフォリオに割り当て")をクリックします。
 
    * 割り当てられたすべてのキャンペーンを削除するには、![すべてのキャンペーンをポートフォリオから削除](/help/search-social-commerce/assets/arrow-remove-all.png "すべてのキャンペーンをポートフォリオから削除")をクリックします。
 
-   * 個々のキャンペーンを削除するには、キャンペーンをクリックし、キャンペーンを[!UICONTROL Available Campaigns] リストにドラッグするか、![ ポートフォリオからキャンペーンを削除](/help/search-social-commerce/assets/arrow-remove.png " ポートフォリオからキャンペーンを削除")をクリックします。
+   * 個々のキャンペーンを削除するには、キャンペーンをクリックし、キャンペーンを[!UICONTROL Available Campaigns] リストにドラッグするか、![&#x200B; ポートフォリオからキャンペーンを削除](/help/search-social-commerce/assets/arrow-remove.png " ポートフォリオからキャンペーンを削除")をクリックします。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ ポートフォリオからキャンペーンを削除](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
+>* [&#x200B; ポートフォリオからキャンペーンを削除](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)

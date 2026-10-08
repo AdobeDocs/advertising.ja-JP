@@ -31,11 +31,11 @@ Adobe アカウントチーム、エージェンシーチーム、または広�
 
 各キャンペーンのパフォーマンスを、次の方法で定期的に監視します。
 
-* ご利用いただける[ カスタムアラート ](/help/search-social-commerce/alerts/alert-view.md)を表示しています。
+* ご利用いただける[&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/alerts/alert-view.md)を表示しています。
 
 * 含まれるキャンペーンに関するアカウントの概要とパフォーマンスの詳細を表示します。
 
-* [ レポート ](/help/search-social-commerce/reports/report-about.md)を実行しています。これには、[件の[!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) （該当する場合）、[件の[!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)、[件の[!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)件の追加パフォーマンスレポートが含まれます。 ポートフォリオを利用する際には、予測したパフォーマンスと実際のパフォーマンスを比較するようにします。
+* [&#x200B; レポート &#x200B;](/help/search-social-commerce/reports/report-about.md)を実行しています。これには、[件の[!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) （該当する場合）、[件の[!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)、[件の[!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)件の追加パフォーマンスレポートが含まれます。 ポートフォリオを利用する際には、予測したパフォーマンスと実際のパフォーマンスを比較するようにします。
 
 ## パフォーマンスの管理、キャンペーンとポートフォリオの構造の調整
 
@@ -59,4 +59,4 @@ Adobe アカウントチーム、エージェンシーチーム、または広�
 >
 >* [Search, Social, &amp; Commerceでのキャンペーン管理について](campaign-management-about.md)
 >* [広告ネットワークアカウントとキャンペーンの実装の概要](campaign-implemention-overview.md)
->* Search, Social, &amp; Commerceの[Google Ads コンバージョンデータ ](google-conversion-data.md)
+>* Search, Social, &amp; Commerceの[Google Ads コンバージョンデータ &#x200B;](google-conversion-data.md)

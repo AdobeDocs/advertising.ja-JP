@@ -25,10 +25,10 @@ ht-degree: 0%
 ディスプレイ ネットワークをターゲットとするキャンペーンの[!DNL Google Ads]広告グループに対して、ネガティブなプレースメントを作成できます。 ネガティブプレースメントは、広告をトリガーしないディスプレイネットワーク内のサイトです。
 
 >[!NOTE]
->また、[広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)および[ キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)でネガティブプレースメントを作成および編集することもできます。
+>また、[広告グループ設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)および[&#x200B; キャンペーン設定](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)でネガティブプレースメントを作成および編集することもできます。
 
 >[!TIP]
->一度に多数のネガティブプレースメントを作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
+>一度に多数のネガティブプレースメントを作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;をクリックします。 サブメニューで、**[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**&#x200B;をクリックします。
 
@@ -42,12 +42,12 @@ ht-degree: 0%
 
    * Web サイト：www.example.comなどの有効なURLを入力します。 許可される形式は、https://support.google.com/google-ads/answer/2454012の「除外URLを追加する方法」を参照してください。
 
-   * トピック、カテゴリ、ドキュメントの垂直方向。 [[!DNL Google Ads]  ガイドライン ](https://support.google.com/google-ads/editor/answer/30517)とすべての業種の[ リスト ](https://developers.google.com/adwords/api/docs/appendix/verticals)を参照してください。 例：`category::Industries > Energy & Utilities > Oil & Gas`。
+   * トピック、カテゴリ、ドキュメントの垂直方向。 [[!DNL Google Ads]  ガイドライン &#x200B;](https://support.google.com/google-ads/editor/answer/30517)とすべての業種の[&#x200B; リスト &#x200B;](https://developers.google.com/adwords/api/docs/appendix/verticals)を参照してください。 例：`category::Industries > Energy & Utilities > Oil & Gas`。
 
 1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ プレースメントについて](placement-about.md)
+>* [&#x200B; プレースメントについて](placement-about.md)
 >* [入札可能なプレースメントの管理](placement-manage.md)
->* [ プレースメントとネガティブプレースメントのステータスを変更](placement-status-edit.md)
+>* [&#x200B; プレースメントとネガティブプレースメントのステータスを変更](placement-status-edit.md)

@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * データテーブルの上のツールバーで、広告主を選択します。
 
-  ![ ツールバーの広告主セレクター](/help/search-social-commerce/assets/advertiser-selector.png " ツールバーの広告主セレクター")
+  ![&#x200B; ツールバーの広告主セレクター](/help/search-social-commerce/assets/advertiser-selector.png " ツールバーの広告主セレクター")
 
 ## （レガシーUI）別の広告主のデータの表示
 

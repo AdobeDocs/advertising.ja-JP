@@ -41,7 +41,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アーカイブされたパッケージを表示するには、[!UICONTROL Packages] ビューをフィルターします。![ フィルターボタン ](/help/dsp/assets/filter.png)をクリックし、**[!UICONTROL Package status]**&#x200B;をクリックして&#x200B;**[!UICONTROL Archived]**&#x200B;を選択し、**[!UICONTROL Apply]をクリックします。**
+>アーカイブされたパッケージを表示するには、[!UICONTROL Packages] ビューをフィルターします。![&#x200B; フィルターボタン &#x200B;](/help/dsp/assets/filter.png)をクリックし、**[!UICONTROL Package status]**&#x200B;をクリックして&#x200B;**[!UICONTROL Archived]**&#x200B;を選択し、**[!UICONTROL Apply]をクリックします。**
 
 ## パッケージのアーカイブ解除
 
@@ -52,6 +52,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ パッケージの編集](package-edit.md)
->* [ パッケージの変更ログを表示](package-change-log.md)
->* [ パッケージを一時停止またはアクティブ化](package-pause-activate.md)
+>* [&#x200B; パッケージの編集](package-edit.md)
+>* [&#x200B; パッケージの変更ログを表示](package-change-log.md)
+>* [&#x200B; パッケージを一時停止またはアクティブ化](package-pause-activate.md)

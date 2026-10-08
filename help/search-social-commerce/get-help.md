@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## オンラインヘルプを開く
 
-* 隣接するヘルプアイコン（![ ヘルプアイコン ](/help/search-social-commerce/assets/help-field.png " ヘルプアイコン ")）を含む用語の説明を表示するには、ヘルプアイコンの上にカーソルを置いて終了するか、ヘルプポップアップ内をクリックしてコンテンツをスクロールします。
+* 隣接するヘルプアイコン（![&#x200B; ヘルプアイコン &#x200B;](/help/search-social-commerce/assets/help-field.png " ヘルプアイコン ")）を含む用語の説明を表示するには、ヘルプアイコンの上にカーソルを置いて終了するか、ヘルプポップアップ内をクリックしてコンテンツをスクロールします。
 
   ヘルプ トピック内のリンクを開くには、使用する検索、ソーシャル、Commerce サイト（北米ユーザーの場合はhttps://enterprise-na.efrontier.com、その他のユーザーの場合はhttps://enterprise-intl.efrontier.comなど）のポップアップを許可するようにブラウザー設定を設定する必要があります。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
   * ![Help](/help/search-social-commerce/assets/help-main-menu.png "Help") > **Search, Social, &amp; Commerce Help**。
 
-  * ![ ヘルプ ](/help/search-social-commerce/assets/help-main-menu.png " ヘルプ ") > **検索、ソーシャル、Commerce最適化ガイド**。
+  * ![&#x200B; ヘルプ &#x200B;](/help/search-social-commerce/assets/help-main-menu.png " ヘルプ ") > **検索、ソーシャル、Commerce最適化ガイド**。
 
 <!--
 ## Ask the Adobe Advertising community

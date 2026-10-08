@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アーカイブされたプレースメントを表示するには、[!UICONTROL Placements] ビューをフィルタリングします。![ フィルターボタン ](/help/dsp/assets/filter.png)をクリックし、**[!UICONTROL Placement status]**&#x200B;をクリックして&#x200B;**[!UICONTROL Archived]**&#x200B;を選択し、**[!UICONTROL Apply]をクリックします。**
+>アーカイブされたプレースメントを表示するには、[!UICONTROL Placements] ビューをフィルタリングします。![&#x200B; フィルターボタン &#x200B;](/help/dsp/assets/filter.png)をクリックし、**[!UICONTROL Placement status]**&#x200B;をクリックして&#x200B;**[!UICONTROL Archived]**&#x200B;を選択し、**[!UICONTROL Apply]をクリックします。**
 
 ## プレースメントのアーカイブ解除
 
@@ -56,6 +56,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ プレースメントを非アクティブ化またはアクティブ化](placement-pause-activate.md)
->* [ プレースメントを編集](placement-edit.md)
->* [ プレースメントの変更ログを表示](placement-change-log.md)
+>* [&#x200B; プレースメントを非アクティブ化またはアクティブ化](placement-pause-activate.md)
+>* [&#x200B; プレースメントを編集](placement-edit.md)
+>* [&#x200B; プレースメントの変更ログを表示](placement-change-log.md)

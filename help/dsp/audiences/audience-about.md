@@ -42,23 +42,23 @@ DSPでは、オーディエンスセグメントとオーディエンスセッ�
 
 * DSPセグメントを作成して実装することで、独自の1st パーティオーディエンスデータを収集できます。 後で、セグメント内のユーザーを広告でリターゲティングしたり、セグメント内のユーザーが広告を受信するのを防ぐことができます。 セグメントには、次のタイプを作成できます。
 
-  * [ カスタムセグメント ](/help/dsp/audiences/custom-segment-create.md)を使用して、a） デスクトップおよびモバイルデバイスの広告に表示されたユーザー、およびb）特定のweb ページにアクセスしたユーザーを追跡できます。 トラッキングタグは、Cookie ベースのユーザーまたはID5のユニバーサル IDに関連付けられたユーザーのいずれかを追跡できます。
+  * [&#x200B; カスタムセグメント &#x200B;](/help/dsp/audiences/custom-segment-create.md)を使用して、a） デスクトップおよびモバイルデバイスの広告に表示されたユーザー、およびb）特定のweb ページにアクセスしたユーザーを追跡できます。 トラッキングタグは、Cookie ベースのユーザーまたはID5のユニバーサル IDに関連付けられたユーザーのいずれかを追跡できます。
 
-  * カリフォルニア州消費者プライバシー法（CCPA）に従って、web サイト上の消費者の販売拒否リクエストからユーザーIDを追跡する[CCPA販売拒否セグメント ](/help/dsp/audiences/ccpa-opt-out-segment-create.md)。 オプトアウト要求からユーザーIDの月次レポートを取得できます。
+  * カリフォルニア州消費者プライバシー法（CCPA）に従って、web サイト上の消費者の販売拒否リクエストからユーザーIDを追跡する[CCPA販売拒否セグメント &#x200B;](/help/dsp/audiences/ccpa-opt-out-segment-create.md)。 オプトアウト要求からユーザーIDの月次レポートを取得できます。
 
-    CCPAのオプトアウト要求に対するAdobe Advertising サポートの詳細については、[Adobe AdvertisingのCalifornia Consumer Privacy Act: Consumer opt-out of sale サポート ](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)を参照してください。
+    CCPAのオプトアウト要求に対するAdobe Advertising サポートの詳細については、[Adobe AdvertisingのCalifornia Consumer Privacy Act: Consumer opt-out of sale サポート &#x200B;](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)を参照してください。
 
-* [ クッキーレスターゲティング用のユニバーサル IDを取得して使用](/help/dsp/audiences/universal-ids.md):
+* [&#x200B; クッキーレスターゲティング用のユニバーサル IDを取得して使用](/help/dsp/audiences/universal-ids.md):
 
   * 認証済み[!DNL LiveRamp] [!DNL RampID] セグメントを手動でDSPに直接送信します。
 
   * DSPでCDPからファーストパーティセグメントをインポートし、サポートされているユニバーサル ID タイプに変換できます。
 
-  * [!DNL AdFixus]個のユニバーサル IDを含むファーストパーティ [!DNL AdFixus] セグメントを読み込みます（オーストラリアのみ）。 その後、プレースメントを[!DNL AdFixus]IDにターゲット化し、これらのセグメントを[再利用可能なオーディエンス ](/help/dsp/audiences/reusable-audience-create.md)に追加し、「[1st パーティセグメントを [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)からインポート」で説明されているレポートを使用できます。
+  * [!DNL AdFixus]個のユニバーサル IDを含むファーストパーティ [!DNL AdFixus] セグメントを読み込みます（オーストラリアのみ）。 その後、プレースメントを[!DNL AdFixus]IDにターゲット化し、これらのセグメントを[再利用可能なオーディエンス &#x200B;](/help/dsp/audiences/reusable-audience-create.md)に追加し、「[1st パーティセグメントを [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)からインポート」で説明されているレポートを使用できます。
 
   * 追加の手順を実行することなく、プレースメントターゲットにユニバーサル IDを含むサードパーティセグメントを含めます。
 
-* [再利用可能なオーディエンス ](/help/dsp/audiences/reusable-audience-create.md)のオーディエンスライブラリを作成します。 保存されたオーディエンスは、利用可能なあらゆるオーディエンスセグメントと、保存されたその他のオーディエンスで構成されます。 保存したオーディエンスに加えた変更は、オーディエンスをターゲットまたは除外するすべてのプレースメントと、保存したオーディエンスを含むその他すべてのオーディエンスに自動的に適用されます。
+* [再利用可能なオーディエンス &#x200B;](/help/dsp/audiences/reusable-audience-create.md)のオーディエンスライブラリを作成します。 保存されたオーディエンスは、利用可能なあらゆるオーディエンスセグメントと、保存されたその他のオーディエンスで構成されます。 保存したオーディエンスに加えた変更は、オーディエンスをターゲットまたは除外するすべてのプレースメントと、保存したオーディエンスを含むその他すべてのオーディエンスに自動的に適用されます。
 
   保存されたオーディエンスを使用して複数のセグメントを含めたり除外したりすることで、メディアプランナーは必要に応じてオーディエンスをグループ化できます。 オーディエンスを構築すると、各セグメントの（ターゲティング可能な）サイズとアクティブなオーディエンスサイズ全体が表示されます。 キャンペーン管理者は、各プレースメントにオーディエンスターゲットを手動で設定するのではなく、プレースメントのターゲットとして保存された1つ以上のオーディエンスを選択するだけです。
 
@@ -70,9 +70,9 @@ DSPのユーザーインターフェイスやカスタムインポートサー�
 
 * DSPは、Adobe Audience Managerおよびその他の[!DNL Adobe]人のオーディエンスをターゲティング用に取り込むことができます。 前提条件と手順については、「[広告ターゲティング用にAdobe Audience Manager セグメントを読み込む](/help/integrations/audience-manager/import-audiences.md)」を参照してください。
 
-* DSPは、[ ソース機能](/help/dsp/audiences/sources/source-about.md)を使用して、サポートされている顧客データプラットフォームの1st パーティデータセグメントを、ユニバーサル IDを持つセグメントに変換できます。
+* DSPは、[&#x200B; ソース機能](/help/dsp/audiences/sources/source-about.md)を使用して、サポートされている顧客データプラットフォームの1st パーティデータセグメントを、ユニバーサル IDを持つセグメントに変換できます。
 
-* オーストラリアの広告主は、[!DNL AdFixus]のユニバーサル IDを他のID タイプに変換することなく、[ ソース機能](/help/dsp/audiences/sources/source-about.md)を使用して[!DNL AdFixus]のファーストパーティセグメントを読み込むことができます。
+* オーストラリアの広告主は、[!DNL AdFixus]のユニバーサル IDを他のID タイプに変換することなく、[&#x200B; ソース機能](/help/dsp/audiences/sources/source-about.md)を使用して[!DNL AdFixus]のファーストパーティセグメントを読み込むことができます。
 
 * DSPは[!DNL LiveRamp]の宛先プラットフォームなので、認証済み [!DNL LiveRamp] [!DNL RampID] セグメントを[手動でDSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)に直接送信できます。
 
@@ -98,7 +98,7 @@ DSPのユーザーインターフェイスやカスタムインポートサー�
 
 * ユニバーサル IDに変換されたセグメントや、インポートした[!DNL AdFixus] ユニバーサル IDを含むセグメントなど、インポートしたファーストパーティデータセグメントのすべてを含みます。
 
-  ユニバーサル IDに配信されたインプレッションには、追加料金が発生します。 料金については、「[ ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)」を参照してください。
+  ユニバーサル IDに配信されたインプレッションには、追加料金が発生します。 料金については、「[&#x200B; ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)」を参照してください。
 
 * インポートしたカスタムのサードパーティデータセグメントはすべて。
 
@@ -122,17 +122,17 @@ DSPのユーザーインターフェイスやカスタムインポートサー�
 
 オーディエンス/すべてのオーディエンスおよびプレースメント設定の「オーディエンスのターゲット設定」セクションでは、特定のデバイスタイプまたはユニバーサル ID タイプに対する個別の範囲を含む、サイズ範囲で各セグメントリストをフィルタリングできます。
 
-![ オーディエンスサイズでフィルター](/help/dsp/assets/audience-size-filter.png)
+![&#x200B; オーディエンスサイズでフィルター](/help/dsp/assets/audience-size-filter.png)
 
 また、次の詳細なオーディエンスサイズデータも確認できます。
 
 * 選択したすべてのセグメントおよび保存されたオーディエンスのアクティブな重複排除オーディエンスサイズが表示され、デバイスタイプ（ブラウザー、モバイル、またはコネクテッド TV）別の詳細を表示できます。
 
-  ![組み合わせたオーディエンスサイズ ](/help/dsp/assets/audience-size.png)
+  ![組み合わせたオーディエンスサイズ &#x200B;](/help/dsp/assets/audience-size.png)
 
 * 個々のセグメントの場合、アクティブなオーディエンスサイズとCPM（該当する場合）がセグメント名の横に表示されます。
 
-  ![個々のセグメントサイズ ](/help/dsp/assets/audience-size-segment.png)
+  ![個々のセグメントサイズ &#x200B;](/help/dsp/assets/audience-size-segment.png)
 
 * ブラウザー別、モバイル別、コネクテッド TV別、ユニバーサル ID タイプパートナー別など、個々のセグメントや保存されたオーディエンスに関する詳細を表示できます。 保存されたオーディエンスの場合、アクティブなオーディエンスの合計サイズは重複排除された合計になります。
 
@@ -170,18 +170,18 @@ DSPのユーザーインターフェイスやカスタムインポートサー�
 
 [!UICONTROL Sources] ビューでは、指定したユニバーサル ID タイプを含むセグメントに変換するサポート対象の顧客データプラットフォームのファーストパーティセグメントのソースを設定できます。 [!DNL AdFixus]個のユニバーサル IDを持つセグメントをインポートするように[!UICONTROL AdFixus ID]個のソースを設定することもできます（オーストラリアのみ）。 ソース設定には、CDPまたは[!DNL AdFixus] チームと共有するための自動生成ソースキーが含まれています。
 
-サポートされているプラットフォーム、サポートされているユニバーサル ID タイプ、設定ワークフローについて詳しくは、「[ ファーストパーティオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)」を参照してください。
+サポートされているプラットフォーム、サポートされているユニバーサル ID タイプ、設定ワークフローについて詳しくは、「[&#x200B; ファーストパーティオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)」を参照してください。
 
 [!UICONTROL Sources]を通じて読み込まれたセグメントは、再利用可能なオーディエンスと、該当する場合はプレースメント設定で[!UICONTROL Universal ID]のターゲティングに使用できます。
 
 >[!MORELIKETHIS]
 >
->* [ ユニバーサル IDのアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)
+>* [&#x200B; ユニバーサル IDのアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)
 >* [再利用可能なオーディエンスを作成](reusable-audience-create.md)
->* [ カスタムセグメントを作成して実装](custom-segment-create.md)
+>* [&#x200B; カスタムセグメントを作成して実装](custom-segment-create.md)
 >* [[!UICONTROL CCPA Opt-Out-of-Sale] セグメントを作成して実装](ccpa-opt-out-segment-create.md)
->* [ ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
->* [ オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](/help/dsp/audiences/sources/source-manage.md)
+>* [&#x200B; ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
+>* [&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](/help/dsp/audiences/sources/source-manage.md)
 >* [認証済みセグメントを [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)から手動でインポートします
 >* [1st パーティセグメントを [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)からインポート
 >* [使用可能なサードパーティのデータプロバイダー](third-party-data-providers.md)

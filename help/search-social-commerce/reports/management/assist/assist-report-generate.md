@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. データテーブルの上のツールバーで「**[!UICONTROL Create Report]**」をクリックし、**[!UICONTROL Assist Reports]**&#x200B;にカーソルを合わせ、レポートタイプをクリックします。
 
-1. （オプション） [!UICONTROL Report Settings] ウィンドウで、デフォルトの[ レポート設定](assist-report-settings.md)を変更します。
+1. （オプション） [!UICONTROL Report Settings] ウィンドウで、デフォルトの[&#x200B; レポート設定](assist-report-settings.md)を変更します。
 
    1. （オプション）レポートとテンプレートのカスタム名を入力します（レポートをテンプレートとして保存する場合）。
 
@@ -51,13 +51,13 @@ ht-degree: 0%
 
 レポートスケジュールを指定しなかった場合、レポートはすぐに実行されます。指定したスケジュールに従って実行されます。 レポート名が[[!UICONTROL Latest Reports] ビュー](/help/search-social-commerce/reports/report-about.md)に追加されます。 レポートをテンプレートとして保存すると、[[!UICONTROL Templates] ビュー](/help/search-social-commerce/reports/report-about.md)にも追加されます。 レポートが完了すると、ファイルを開いたり保存したりできます。テンプレートはすぐに利用できます。
 
-通知に電子メールアドレスを入力した場合、ユーザーの[ レポート用に設定された通知設定](/help/search-social-commerce/notifications/notification-edit.md)に基づいて、各受信者はレポートジョブが完了または失敗したときに通知を受け取ります。
+通知に電子メールアドレスを入力した場合、ユーザーの[&#x200B; レポート用に設定された通知設定](/help/search-social-commerce/notifications/notification-edit.md)に基づいて、各受信者はレポートジョブが完了または失敗したときに通知を受け取ります。
 
 >[!MORELIKETHIS]
 >
->* [ レポート設定の支援](assist-report-settings.md)
+>* [&#x200B; レポート設定の支援](assist-report-settings.md)
 >* [The [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
 >* [The [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [The [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
->* [ レポートについて](/help/search-social-commerce/reports/report-about.md)
->* [ レポートの削除](/help/search-social-commerce/reports/management/report-delete.md)
+>* [&#x200B; レポートについて](/help/search-social-commerce/reports/report-about.md)
+>* [&#x200B; レポートの削除](/help/search-social-commerce/reports/management/report-delete.md)

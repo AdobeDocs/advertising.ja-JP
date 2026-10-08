@@ -46,7 +46,7 @@ ht-degree: 0%
 
    プレースメントの種類によって、プレースメントに含めることができる広告の種類が決まります。
 
-1. [ プレースメント設定](placement-settings.md)を入力します。
+1. [&#x200B; プレースメント設定](placement-settings.md)を入力します。
 
    1. [!UICONTROL Placement Basics]設定を指定します。
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
       1. オーディエンスを絞り込む： これには、プレースメント内でターゲティングするオーディエンスセグメントの選択も含まれます。
 
-         [!DNL Roku]個のプレースメントの場合、[!DNL Roku] （オプトイン）決定論的データセットと照合できる1つ以上のオーディエンスセグメントを含めることで、 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)と一致する[DSPの一意のオーディエンスを活用できます。
+         [!DNL Roku]個のプレースメントの場合、[!DNL Roku] （オプトイン）決定論的データセットと照合できる1つ以上のオーディエンスセグメントを含めることで、 [!DNL Roku]&#x200B;[&#128279;](/help/dsp/inventory/roku-inventory.md)と一致するDSPの一意のオーディエンスを活用できます。
 
          アクティブなプレースメント、スケジュールされたプレースメント、または一時停止されたプレースメントにアタッチされていないファーストパーティのRampID セグメントは一時停止されます。 セグメントは、「自動一時停止」としてセグメントリストに表示されます。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
         1. **[!UICONTROL Create a New Ad].**&#x200B;をクリックします
 
-        1. [ オーディオ広告](/help/dsp/campaign-management/ads/ad-settings-audio.md)、[ コネクテッド TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)、[ ディスプレイ広告](/help/dsp/campaign-management/ads/ad-settings-display.md)、[ モバイル広告](/help/dsp/campaign-management/ads/ad-settings-mobile.md)、[ ネイティブ広告](/help/dsp/campaign-management/ads/ad-settings-native.md)、[ プレロール広告](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)、または[ ユニバーサルビデオ広告](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)の広告設定を指定します。
+        1. [&#x200B; オーディオ広告](/help/dsp/campaign-management/ads/ad-settings-audio.md)、[&#x200B; コネクテッド TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)、[&#x200B; ディスプレイ広告](/help/dsp/campaign-management/ads/ad-settings-display.md)、[&#x200B; モバイル広告](/help/dsp/campaign-management/ads/ad-settings-mobile.md)、[&#x200B; ネイティブ広告](/help/dsp/campaign-management/ads/ad-settings-native.md)、[&#x200B; プレロール広告](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)、または[&#x200B; ユニバーサルビデオ広告](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)の広告設定を指定します。
 
         >[!NOTE]
         >
@@ -159,14 +159,14 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのプレースメント管理について](placement-about.md)
->* [ プレースメントを編集](placement-edit.md)
->* [ プレースメントの入札乗数を管理](placement-manage-bid-multipliers.md)
->* [ プレースメントの広告スケジュールを編集](placement-edit-ad-schedule.md)
->* [ プレースメントを非アクティブ化またはアクティブ化](placement-pause-activate.md)
->* [ プレースメントの変更ログを表示](placement-change-log.md)
+>* [&#x200B; プレースメントを編集](placement-edit.md)
+>* [&#x200B; プレースメントの入札乗数を管理](placement-manage-bid-multipliers.md)
+>* [&#x200B; プレースメントの広告スケジュールを編集](placement-edit-ad-schedule.md)
+>* [&#x200B; プレースメントを非アクティブ化またはアクティブ化](placement-pause-activate.md)
+>* [&#x200B; プレースメントの変更ログを表示](placement-change-log.md)
 >* [配置の設定](placement-settings.md)
->* [ プレースメント予測レポートを表示](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [ ユニバーサルビデオに関するFAQ](/help/dsp/campaign-management/faq-universal-video.md)
->* [ キーボードショートカット ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [ パフォーマンスの問題の理由](/help/dsp/optimization/troubleshooting-performance.md)
->* [ ビデオ：標準の表示配置を作成する方法](https://video.tv.adobe.com/v/340454)
+>* [&#x200B; プレースメント予測レポートを表示](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [&#x200B; ユニバーサルビデオに関するFAQ](/help/dsp/campaign-management/faq-universal-video.md)
+>* [&#x200B; キーボードショートカット &#x200B;](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+>* [&#x200B; パフォーマンスの問題の理由](/help/dsp/optimization/troubleshooting-performance.md)
+>* [&#x200B; ビデオ：標準の表示配置を作成する方法](https://video.tv.adobe.com/v/340454)

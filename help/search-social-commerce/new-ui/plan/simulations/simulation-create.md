@@ -68,7 +68,7 @@ ht-degree: 0%
 
      * ポートフォリオの横にあるチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL Run Simulation]**&#x200B;をクリックします。
 
-1. [ カスタムシミュレーション設定](#custom-simulation-settings)を指定します。
+1. [&#x200B; カスタムシミュレーション設定](#custom-simulation-settings)を指定します。
 
    1. （オプション）シミュレーションに使用するポートフォリオを変更するには、ポートフォリオ名の横にある&#x200B;**[!UICONTROL Change Portfolio]**&#x200B;をクリックし、ポートフォリオを選択してから&#x200B;**[!UICONTROL Proceed]**&#x200B;をクリックします。
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 1. データテーブルの上で、**[!UICONTROL Run Simulation]**&#x200B;をクリックします。
 
-1. [ カスタムシミュレーション設定](#custom-simulation-settings)を指定します。
+1. [&#x200B; カスタムシミュレーション設定](#custom-simulation-settings)を指定します。
 
    1. （オプション）シミュレーションに使用するポートフォリオを変更するには、ポートフォリオ名の横にある&#x200B;**[!UICONTROL Change Portfolio]**&#x200B;をクリックし、ポートフォリオを選択してから&#x200B;**[!UICONTROL Proceed]**&#x200B;をクリックします。
 
@@ -140,6 +140,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ シミュレーションについて](simulation-about.md)
->* [ シミュレーションの詳細を表示](simulation-view.md)
->* [ シミュレーションのダウンロード ](simulation-download.md)
+>* [&#x200B; シミュレーションについて](simulation-about.md)
+>* [&#x200B; シミュレーションの詳細を表示](simulation-view.md)
+>* [&#x200B; シミュレーションのダウンロード &#x200B;](simulation-download.md)

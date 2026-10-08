@@ -53,19 +53,19 @@ ht-degree: 0%
 
    * [!UICONTROL Deal ID Inbox]の下の「**[!UICONTROL View FreeWheel creative status]**」をクリックします。
 
-   * 任意の取引行で、![ オプション メニュー](/help/dsp/assets/options-menu.png) **>[!UICONTROL See FreeWheel status]**&#x200B;をクリックします。
+   * 任意の取引行で、![&#x200B; オプション メニュー](/help/dsp/assets/options-menu.png) **>[!UICONTROL See FreeWheel status]**&#x200B;をクリックします。
 
 1. （オプション）データをフィルタリングして、特定の取引や広告を見つけやすくします。
 
    [!UICONTROL Submission Status]列は、広告が送信および承認されたかどうかを示します。
 
-   失敗した送信の場合、[!UICONTROL API]応答列はエラーを示します。 失敗した送信のエラーコードの完全なリストと、それを修正するための次の手順については、「 [!DNL FreeWheel] ad送信](freewheel-error-codes.md)」の「[ エラーコード」を参照してください。
+   失敗した送信の場合、[!UICONTROL API]応答列はエラーを示します。 失敗した送信のエラーコードの完全なリストと、それを修正するための次の手順については、「 [!DNL FreeWheel] ad送信[&#128279;](freewheel-error-codes.md)」の「 エラーコード」を参照してください。
 
 1. （オプション）承認のために広告を再送信するには、広告行にカーソルを置いて、**[!UICONTROL More]** > **[!UICONTROL Resubmit]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
 >* [でのプログラムによる保証取引の設定の概要 [!DNL FreeWheel]](freewheel-overview.md)
->* [ プログラマティック保証取引の広告を [!DNL FreeWheel]](freewheel-submit.md)に送信します
+>* [&#x200B; プログラマティック保証取引の広告を [!DNL FreeWheel]](freewheel-submit.md)に送信します
 >* [広告の送信](freewheel-error-codes.md)のエラーコード [!DNL FreeWheel] 
 >* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)で取引を承諾

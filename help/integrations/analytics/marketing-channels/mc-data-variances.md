@@ -52,8 +52,8 @@ Adobe Advertisingで追跡されたデータと[!DNL Analytics]で追跡され�
 
 >[!MORELIKETHIS]
 >
->* [ [!DNL Analytics] とAdobe Advertising](/help/integrations/analytics/data-variances.md)の間の予期されるデータの差異
+>* [&#x200B; [!DNL Analytics] とAdobe Advertising](/help/integrations/analytics/data-variances.md)の間の予期されるデータの差異
 >* [の基本 [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe Advertising IDを使用して [!DNL Marketing Channels] 処理ルールを作成](mc-ids.md)
 >* [Adobe Advertising data](mc-ac-data.md)での [!DNL Analytics Marketing Channels] の使用
->* [ ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [&#x200B; ビデオ： [!DNL Marketing Channels] をAdobe Advertising レポートに使用](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)

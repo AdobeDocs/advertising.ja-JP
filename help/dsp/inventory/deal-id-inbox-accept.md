@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. （以前に契約を無視した場合）「**[!UICONTROL Ignored Deals]**」タブをクリックします。
 
-1. 発行者や日付などの取引詳細を確認するには、取引行にカーソルを置き、![ レビュー](/help/dsp/assets/review.png)をクリックします。
+1. 発行者や日付などの取引詳細を確認するには、取引行にカーソルを置き、![&#x200B; レビュー](/help/dsp/assets/review.png)をクリックします。
 
 1. 次のいずれかの操作を行います。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [について[!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md)
->* [ プログラム的な保証契約の設定](programmatic-guaranteed-set-up.md)
+>* [&#x200B; プログラム的な保証契約の設定](programmatic-guaranteed-set-up.md)
 >* [様とのプログラムで保証された契約の広告を送信 [!DNL FreeWheel]](freewheel-submit.md)
->* [ プログラマティック保証取引について](programmatic-guaranteed-about.md)
+>* [&#x200B; プログラマティック保証取引について](programmatic-guaranteed-about.md)
 >* [在庫機能の概要](inventory-overview.md)

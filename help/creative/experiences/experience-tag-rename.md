@@ -31,7 +31,7 @@ ht-degree: 0%
 
    * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL More]**&#x200B;をクリックしてから、**[!UICONTROL Tag Manager]**&#x200B;をクリックします。
 
-1. 該当する広告タグの行の上にカーソルを置き、![ タグを編集](/help/creative/assets/edit-gray.png " タグを編集") **[!UICONTROL Edit Tag]**&#x200B;または&#x200B;**[!UICONTROL ... More]** > ![タグを編集](/help/creative/assets/edit-gray.png "タグを編集") **[!UICONTROL Edit Tag]**&#x200B;のいずれかをクリックします。<!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
+1. 該当する広告タグの行の上にカーソルを置き、![&#x200B; タグを編集](/help/creative/assets/edit-gray.png " タグを編集") **[!UICONTROL Edit Tag]**&#x200B;または&#x200B;**[!UICONTROL ... More]** > ![タグを編集](/help/creative/assets/edit-gray.png "タグを編集") **[!UICONTROL Edit Tag]**&#x200B;のいずれかをクリックします。<!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
 1. 一意の&#x200B;**[!UICONTROL Tag Name]**&#x200B;を入力してください。
 
@@ -39,6 +39,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ （ターゲティングのないエクスペリエンス）該当するクリエイティブサイズの広告タグを手動で作成](experience-tag-create-manually.md)
->* [ ビデオ広告エクスペリエンスタグのトランスコーディングオプションをカスタマイズ ](experience-tag-video-transcoding.md)
->* [ ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](experience-tag-export.md)
+>* [&#x200B; （ターゲティングのないエクスペリエンス）該当するクリエイティブサイズの広告タグを手動で作成](experience-tag-create-manually.md)
+>* [&#x200B; ビデオ広告エクスペリエンスタグのトランスコーディングオプションをカスタマイズ &#x200B;](experience-tag-video-transcoding.md)
+>* [&#x200B; ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](experience-tag-export.md)

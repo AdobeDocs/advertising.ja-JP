@@ -29,7 +29,7 @@ ht-degree: 0%
 
 XLSX （Excel スプレッドシート）形式でキャンペーン内のすべての広告に関する詳細をダウンロードしてレビューできます。 *バルクシート*&#x200B;の詳細には、各広告の設定と関連プレースメントを含む1つのタブと、キャンペーンの広告に使用される各ピクセルを含む別のタブが含まれます。
 
-広告の詳細を編集するには、「[ バルクシートを使用したキャンペーンコンポーネント設定のレビューと編集](/help/dsp/campaign-management/campaign-components-review-edit.md)」を参照してください。
+広告の詳細を編集するには、「[&#x200B; バルクシートを使用したキャンペーンコンポーネント設定のレビューと編集](/help/dsp/campaign-management/campaign-components-review-edit.md)」を参照してください。
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ XLSX （Excel スプレッドシート）形式でキャンペーン内のすべ
 
    * 通知メッセージで、**[!UICONTROL Download].**&#x200B;をクリックします
 
-   * 上部のメニューバーの右側にある「![ ジョブ ](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある&#x200B;**[!UICONTROL Download]**&#x200B;をクリックします。
+   * 上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある&#x200B;**[!UICONTROL Download]**&#x200B;をクリックします。
 
      ファイルはブラウザーのダウンロード フォルダーに保存されます。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -64,10 +64,10 @@ XLSX （Excel スプレッドシート）形式でキャンペーン内のすべ
 >
 >* [広告を編集](/help/dsp/campaign-management/ads/ad-edit.md)
 >* [広告をプレースメントに添付](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
->* [ オーディオ広告設定](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [ テレビ設定を接続](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [&#x200B; オーディオ広告設定](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [&#x200B; テレビ設定を接続](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
 >* [広告設定の表示](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [ モバイル広告設定](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [ ネイティブのディスプレイ広告設定](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [広告設定のプレロール ](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
->* [ ユニバーサル動画広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
+>* [&#x200B; モバイル広告設定](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [&#x200B; ネイティブのディスプレイ広告設定](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [広告設定のプレロール &#x200B;](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [&#x200B; ユニバーサル動画広告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

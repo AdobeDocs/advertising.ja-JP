@@ -32,7 +32,7 @@ ht-degree: 6%
 
 Search, Social, &amp; Commerceには、クリックとコンバージョンのデータにもとづく包括的なパフォーマンスレポートが用意されています。 ポートフォリオまたは広告アカウントの様々なコンポーネントの基本的なパフォーマンスデータを、[!UICONTROL Portfolios]および[!UICONTROL Campaigns] ビューから表示できます。また、様々な基本および高度なレポートを生成することもできます。
 
-Adobe Advertising コンバージョン追跡サービスを使用する広告主は、参照web サイトの地理的な場所またはドメイン名のクリック数、各チャネルの広告とコンバージョンにつながる様々なイベントが全体的なコンバージョン率にどのように貢献しているか、マーケティングチャネル別の単一の[ コンバージョン指標](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)のコンバージョンの分布も特定できます。 利用できるレポートは、ユーザーアカウントの種類によって異なります。 Adobeアカウントチームは、すべてのレポートにアクセスできます。
+Adobe Advertising コンバージョン追跡サービスを使用する広告主は、参照web サイトの地理的な場所またはドメイン名のクリック数、各チャネルの広告とコンバージョンにつながる様々なイベントが全体的なコンバージョン率にどのように貢献しているか、マーケティングチャネル別の単一の[&#x200B; コンバージョン指標](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)のコンバージョンの分布も特定できます。 利用できるレポートは、ユーザーアカウントの種類によって異なります。 Adobeアカウントチームは、すべてのレポートにアクセスできます。
 
 ほとんどのレポートは、表示する情報のみを表示するようにカスタマイズできます。 ほとんどのレポートでは、次の標準指標を使用でき、広告レベルで計算されます。
 
@@ -52,7 +52,7 @@ Adobe Advertising コンバージョン追跡サービスを使用する広告�
 
 * **コンバージョン指標：**&#x200B;広告主のコンバージョン指標、またはコンバージョン指標に向けて追跡されたトランザクションデータのそれぞれのコンバージョンの合計数。 これには、コンバージョンやサイトエンゲージメントの指標は含まれますが、Adobe Analyticsから同期される計算指標や高度な計算指標は含まれません。
 
-  これには、広告主アカウント用に同期されている[[!DNL Google Ads]件のトラッキング済みコンバージョン ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)と[[!DNL Google Analytics]件のトラッキング済みコンバージョン ](/help/search-social-commerce/admin/data-sources/data-source-about.md)が含まれる場合もあります。
+  これには、広告主アカウント用に同期されている[[!DNL Google Ads]件のトラッキング済みコンバージョン &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)と[[!DNL Google Analytics]件のトラッキング済みコンバージョン &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md)が含まれる場合もあります。
 
 * **カスタム指標：**&#x200B;既存の指標（注文単価など）に基づいて数式を作成して導き出す独自の指標。
 
@@ -79,5 +79,5 @@ Adobe Advertising コンバージョン追跡サービスを使用する広告�
 
 >[!MORELIKETHIS]
 >
->* [ レポートについて](report-about.md)
->* [ レポートの初期設定タスク ](initial-setup.md)
+>* [&#x200B; レポートについて](report-about.md)
+>* [&#x200B; レポートの初期設定タスク &#x200B;](initial-setup.md)
