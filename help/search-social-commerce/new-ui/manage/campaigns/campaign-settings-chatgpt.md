@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d62377d2bc68c5f0030dfea4c5410a443d529e5e
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '220'
 ht-degree: 0%
 ---
 # [!DNL ChatGPT Ads] キャンペーン設定
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 **[!UICONTROL Budget]:**&#x200B;指定したキャンペーンタイプの予算。
 
-**[!UICONTROL Conversion events]:** （オプション）キャンペーンに関連付ける既存のコンバージョンイベント。 **注：**&#x200B;追跡された[!DNL OpenAI]件のコンバージョンのパフォーマンスデータは、Search, Social, &amp; Commerceでは利用できません。 [!DNL ChatGPT Ads Manager]内の[!DNL OpenAI]で追跡されたコンバージョンを監視します。
+**[!UICONTROL Conversion events]:** （オプション）キャンペーンに関連付けるために[!DNL ChatGPT Ads]内で設定された既存のコンバージョンイベント。 **注：**&#x200B;追跡された[!DNL OpenAI]件のコンバージョンのパフォーマンスデータは、Search, Social, &amp; Commerceでは利用できません。 [!DNL ChatGPT Ads Manager]内の[!DNL OpenAI]で追跡されたコンバージョンを監視します。
 
 <!-- **[!UICONTROL Start Date]:** -->
 
@@ -67,4 +67,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; キャンペーンの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
+>* [ キャンペーンの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
