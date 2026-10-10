@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # クリエイティブライブラリへの動的クリエイターの追加
@@ -54,11 +54,33 @@ ht-degree: 0%
 
 ## ダイナミックなHTML5広告テンプレートを使用して、ダイナミックなクリエイティブを追加する
 
+## 新しいUIから
+
+<!-- NEED TO ADD SAME INSTRUCTIONS AS FOR CREATIVE STUDIO -->
+
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. （オプション） [特定のライブラリを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
+
+1. 次のいずれかの方法でライブラリを開きます。
+
+   * ライブラリ名をクリックします。
+
+   * ライブラリ名の横にある「**[!UICONTROL ...]**」 > 「**[!UICONTROL Open]**」をクリックします。
+
+1. **[!UICONTROL Creatives]** タブで、**[!UICONTROL Add new]** > **[!UICONTROL Creative Studio]** > **[!UICONTROL Dynamic Ad]**&#x200B;をクリックします。
+
+1. 「[!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)の動的クリエイティブを管理」の手順2から始まる[!DNL Creative Studio]内で動的な広告設定を指定します。
+
+## レガシーUIから
+
 1. 次のいずれかの操作を行います。
 
    * クリエイティブライブラリから：
 
      1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+     1. **[!UICONTROL Switch to classic UI]**&#x200B;をクリックします。
 
      1. ライブラリ名をクリックします。
 

@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    * テーブル表示で、行の上にカーソルを置き、**[!UICONTROL More]**&#x200B;をクリックしてから、**[!UICONTROL Preview]**&#x200B;をクリックします。
 
-1. プレビューの右上にある「![共有](/help/creative/assets/share.png "共有")」をクリックします。
+1. プレビューの右上にある「![共有](/help/creative/assets/share-legacy.png "共有")」をクリックします。
 
 1. [!UICONTROL Share Demo URL] ダイアログで、**[!UICONTROL Copy]**&#x200B;をクリックしてURLをクリップボードにコピーし、他のユーザーと共有できるようにします。
 

@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '216'
 ht-degree: 0%
 ---
 # クリエイターのダウンロード
@@ -27,7 +27,29 @@ ht-degree: 0%
 
 選択したすべてのクリエイティブを、ブラウザーの通常の手順に従ってZIP形式でファイルにダウンロードします。
 
+## 新しいUIから
+
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. 次のいずれかの操作を行います。
+
+   * ライブラリ名をクリックします。
+
+   * ライブラリ名の横にある「**[!UICONTROL ...]**」 > 「**[!UICONTROL Open]**」をクリックします。
+
+1. 「**[!UICONTROL Creatives]**」タブで、次のクリエイターを選択します。
+
+   * 1つのクリエイティブをダウンロードするには、クリエイティブ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Download]**&#x200B;をクリックします。
+
+   * 1つ以上のクリエイティブをダウンロードするには、ダウンロードする各クリエイティブのチェックボックスをオンにします。 一括操作ツールバーで、![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ") （**[!UICONTROL Download]**）をクリックします。
+
+     すべての行を選択するには、左上の「グローバル」チェックボックスをオンにします。
+
+## レガシーUIから
+
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;をクリックします。
 
 1. ライブラリ名をクリックします。
 

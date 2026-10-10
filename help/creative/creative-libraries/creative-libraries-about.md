@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1643'
 ht-degree: 0%
 ---
 # クリエイティブライブラリについて
@@ -155,63 +155,55 @@ web、モバイル、コネクテッド TV用の1st パーティビデオのク�
 
 #### 使用可能なアクション
 
-* [新しいライブラリを作成](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
+* [新しいライブラリを作成](/help/creative/creative-libraries/creative-library-manage.md#library-create)
 
 * 各クリエイティブライブラリについて：
 
-  * [ライブラリ名の編集](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+  * [ライブラリ名の変更](/help/creative/creative-libraries/creative-library-manage.md#library-rename)
 
-  * [ライブラリを開き、ライブラリに割り当てられたクリエイティブとバンドルを表示します](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+  * [ライブラリを開き、ライブラリに割り当てられたクリエイティブとバンドルを表示します](/help/creative/creative-libraries/creative-library-manage.md#library-open)
 
-  * [ライブラリの削除](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+  * [ライブラリの削除](/help/creative/creative-libraries/creative-library-manage.md#library-delete)
 
 ### [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] ビュー
 
-#### [!UICONTROL Standard Ads]
+[!UICONTROL Creatives] ビューには次が表示されます。
 
-「[!UICONTROL Standard Ads]」タブには、作成したすべての標準クリエイティブが表示されます。 各クリエイティブのデータには、クリエイティブサイズ、クリエイティブタイプ、作成日が含まれます。 テーブルモードには、デフォルト言語とデフォルトのランディングページの列も含まれます。
+* 作成したすべての標準クリエイティブ。
 
-##### 使用可能なアクション
+  各クリエイティブのデータには、クリエイティブサイズ、クリエイティブタイプ、作成日が含まれます。 テーブルモードには、デフォルト言語とデフォルトのランディングページの列も含まれます。
 
-* [標準クリエイティブをライブラリに追加](creative-add-standard.md)
+* クリエイティブカタログ用に動的に作成されたすべての動的クリエイティブ（手動で削除した動的クリエイティブを除く） [&#128279;](creative-delete.md)。 動的なクリエイティブ <!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->を[手動で](creative-duplicate.md)複製した場合、そのカタログのクリエイターのリストには、複製されたクリエイターも含まれます。
 
-* [標準クリエイティブの編集](creative-edit-standard.md)
+  各ダイナミッククリエイティブのデータには、クリエイティブタイプ、クリエイティブサイズ、クリエイティブが属するカタログ数、作成日が含まれます。 テーブルモードには、クリエイティブが生成された広告テンプレートとオファー数の列も含まれます。
 
-* [標準クリエイティブのプレビュー](creative-preview.md)
+  >[!NOTE]
+  >
+  >カタログが処理されるたびに、そのカタログの既存の動的クリエイターのデータが更新されます。<!-- Verify this!!! And is there anything more to say w/regard to  -->
+
+>[!NOTE]
+>
+>従来のUIでは、[!UICONTROL Creative Libraries] > [!UICONTROL Creatives]が個別の[!UICONTROL Standard Ads] タブと[!UICONTROL Dynamic Ads] タブに整理されています。
+
+#### 使用可能なアクション
+
+* ライブラリに[標準クリエイティブ &#x200B;](creative-add-standard.md)と[動的クリエイティブ &#x200B;](creative-add-dynamic.md)を追加
+
+* [標準クリエイティブ &#x200B;](creative-edit-standard.md)と[動的クリエイティブ &#x200B;](creative-edit-dynamic.md)を編集
+
+* [標準クリエイティブ &#x200B;](creative-preview.md)と[動的クリエイティブ &#x200B;](creative-preview.md)のプレビュー
 
 * [標準クリエイターを標準ディスプレイバンドルに追加し、標準クリエイターを標準ディスプレイバンドルから削除する](creative-attach-detach-bundles.md)
 
 * [ビデオクリエイティブを標準ビデオバンドルに追加し、標準ビデオバンドルからビデオクリエイティブを削除する](creative-attach-detach-bundles.md)
 
-* [標準クリエイティブの複製](creative-duplicate.md)
+* [動的なクリエイターを動的なディスプレイバンドルに追加し、動的なクリエイターを動的なディスプレイバンドルから削除する](creative-attach-detach-bundles.md)
+
+* [標準クリエイティブ &#x200B;](creative-duplicate.md)と[動的クリエイティブ &#x200B;](creative-duplicate.md)を複製
 
 * [標準のクリエイティブをダウンロード](creative-download.md)
 
-* [標準クリエイティブの削除](creative-delete.md)
-
-#### [!UICONTROL Dynamic Ads]
-
-「[!UICONTROL Dynamic Ads]」タブには、クリエイティブカタログ用に動的に作成されたすべての動的クリエイターが表示されます。ただし、[!UICONTROL Dynamic Ads] タブから[手動で](creative-delete.md)削除した動的クリエイターは表示されません。 動的なクリエイティブ <!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->を[手動で](creative-duplicate.md)複製した場合、そのカタログのクリエイターのリストには、複製されたクリエイターも含まれます。
-
-各クリエイティブのデータには、クリエイティブタイプ、クリエイティブサイズ、クリエイティブが属するカタログ数、作成日が含まれます。 テーブルモードには、クリエイティブが生成された広告テンプレートとオファー数の列も含まれます。
-
->[!NOTE]
->
->カタログが処理されるたびに、そのカタログの既存の動的クリエイターのデータが更新されます。<!-- Verify this!!! And is there anything more to say w/regard to  -->
-
-##### 使用可能なアクション
-
-* [ライブラリへの動的クリエイターの追加](creative-add-dynamic.md)
-
-* [ダイナミッククリエイティブの編集](creative-edit-dynamic.md)
-
-* [動的なクリエイティブのプレビュー](creative-preview.md)
-
-* [動的なクリエイターを動的なディスプレイバンドルに追加し、動的なクリエイターを動的なディスプレイバンドルから削除する](creative-attach-detach-bundles.md)
-
-* [動的なクリエイティブの複製](creative-duplicate.md)
-
-* [動的なクリエイティブの削除](creative-delete.md)
+* [標準クリエイティブ &#x200B;](creative-delete.md)と[動的クリエイティブ &#x200B;](creative-delete.md)を削除
 
 <!-- Later:  Dynamic creatives are generated automatically when you save a catalog, but can regenerate the catalog using the contents of an updated asset file [using the Run Now option]. -->
 
@@ -225,7 +217,7 @@ web、モバイル、コネクテッド TV用の1st パーティビデオのク�
 
 * バンドル内のクリエイティブのリストとプレビュー
 
-* バンドル名の編集
+* バンドル名の変更
 
 * 標準ディスプレイクリエイティブを標準ディスプレイバンドルに追加し、標準ディスプレイクリエイティブを標準ディスプレイバンドルから削除する
 

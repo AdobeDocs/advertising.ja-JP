@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1538'
 ht-degree: 0%
 ---
 # 標準クリエイティブをクリエイティブライブラリに追加
@@ -133,7 +133,67 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 >
 >また、[柔軟なHTML5 クリエイター](#flexible-creative-add)を追加することもできます。これは、[!DNL Creative]内で直接編集できる標準のHTML タグとしてすべての属性を持つHTML5 クリエイターです。
 
+### 新しいUIから
+
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. （オプション） [特定のライブラリを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
+
+1. 次のいずれかの方法でライブラリを開きます。
+
+   * ライブラリ名をクリックします。
+
+   * ライブラリ名の横にある「**[!UICONTROL ...]**」 > 「**[!UICONTROL Open]**」をクリックします。
+
+1. **[!UICONTROL Creatives]** タブで、**[!UICONTROL Create]** > **[!UICONTROL Upload]** > **[!UICONTROL Display]**&#x200B;をクリックします。
+
+1. クリエイターを指定します。
+
+   * ローカル画像またはHTML5 アセットの場合は、次のいずれかの操作を行います。
+
+     * デバイスまたはネットワーク上のファイルをボックスにドラッグ&amp;ドロップします。
+
+     * **[!UICONTROL Select a file]**&#x200B;をクリックして、デバイスまたはネットワーク上のファイルを検索します。
+
+   * DSP アカウント [&#128279;](/help/creative/creative-libraries/aem-assets-configure.md)に接続されたExperience Manager ライブラリ内の承認済み画像の場合は、次の操作を行います。
+
+     1. **[!UICONTROL AEM Asset Library]**&#x200B;をクリックします。
+
+     1. （Experience Manager アカウントにまだログインしていない場合） Experience Manager アカウントにログインします。
+
+     1. [!UICONTROL Assets]または[!UICONTROL Collections] ビューでファイルを見つけて選択し、右上の&#x200B;**[!UICONTROL Select]**&#x200B;をクリックします。
+
+        <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
+
+   * GenStudio エクスペリエンスの場合は、次の操作を行います。
+
+     1. **[!UICONTROL GenStudio Library]**&#x200B;をクリックします。
+
+     1. （GenStudio アカウントにまだログインしていない場合） GenStudio アカウントにログインします。
+
+        ディスプレイ広告エクスペリエンスはデフォルトで表示されます。 必要に応じて、キャンペーンやその他の属性によってエクスペリエンスをフィルタリングすることもできます。
+
+     1. ディスプレイ広告エクスペリエンスを見つけて選択し、右上の「**[!UICONTROL Select]**」をクリックします。
+
+     選択したエクスペリエンスの各クリエイティブのバリエーションは、個別のHTML5 クリエイティブとして読み込まれます。
+
+1. クリエイターを追加または削除する：
+
+   * 画像を追加するには、左上の「![追加](/help/creative/assets/create.png "追加")」をクリックし、デバイスまたはネットワーク上でファイルを見つけます。
+
+   * 画像を削除するには、その画像の横にあるチェックボックスの選択を解除します。
+
+1. [HTML5 クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)または[画像クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)を指定します。
+
+   デフォルトでは、アップロードしたばかりのクリエイティブエクスペリエンスまたはGenStudio エクスペリエンスがすべて選択され、指定した設定は選択したすべての項目に適用されます。 1つだけの値を持つ設定は、選択したすべての項目に適用されます。 特定のクリエイティブまたはGenStudio エクスペリエンスの設定を入力するには、該当しない各クリエイティブまたはエクスペリエンスの選択を解除します。
+
+1. **[!UICONTROL Save Creative]**&#x200B;をクリックします。
+
+### レガシーUIから
+
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;をクリックします。
 
 1. ライブラリ名をクリックします。
 
@@ -185,7 +245,33 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 [!DNL Creative]は、ほとんどのサードパーティ広告サーバーでホストされているクリエイターに対して、JavaScript トラッキングタグをサポートしています。
 
+### 新しいUIから
+
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. （オプション） [特定のライブラリを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
+
+1. 次のいずれかの方法でライブラリを開きます。
+
+   * ライブラリ名をクリックします。
+
+   * ライブラリ名の横にある「**[!UICONTROL ...]**」 > 「**[!UICONTROL Open]**」をクリックします。
+
+1. **[!UICONTROL Creatives]** タブで、**[!UICONTROL Add new]** > **[!UICONTROL Upload]** > **[!UICONTROL 3rd Party]**&#x200B;をクリックします。
+
+1. [&#x200B; サードパーティのクリエイティブ設定](#creative-settings-third-party)で、クリエイティブのJavaScript タグとその他の設定を指定します。
+
+   使用可能な[&#x200B; マクロ &#x200B;](/help/creative/creative-macros.md)のいずれかをJavaScript タグにコピーして貼り付けることができます。
+
+1. **[!UICONTROL Create]**&#x200B;をクリックします。
+
+### レガシーUIから
+
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;をクリックします。
+
+1. （オプション） [特定のライブラリを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
 
 1. ライブラリ名をクリックします。
 
@@ -195,13 +281,43 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    使用可能な[&#x200B; マクロ &#x200B;](/help/creative/creative-macros.md)のいずれかをJavaScript タグにコピーして貼り付けることができます。
 
-1. **[!UICONTROL Create]**&#x200B;をクリック
+1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
-## クリエイティブライブラリへのビデオクリエイティブの追加
+## クリエイティブライブラリへのビデオクリエイティブのアップロード
 
 [&#x200B; ビデオクリエイティブの仕様](/help/creative/creative-libraries/creative-libraries-about.md#creative-video-specs)と[&#x200B; サポートされているクリエイティブサイズ &#x200B;](/help/creative/creative-libraries/creative-sizes.md)を参照してください。
 
+### 新しいUIから
+
+一度に1つのビデオをアップロードできます。
+
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. （オプション） [特定のライブラリを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
+
+1. 次のいずれかの方法でライブラリを開きます。
+
+   * ライブラリ名をクリックします。
+
+   * ライブラリ名の横にある「**[!UICONTROL ...]**」 > 「**[!UICONTROL Open]**」をクリックします。
+
+1. **[!UICONTROL Creatives]** タブで、**[!UICONTROL Create]** > **[!UICONTROL Upload]** > **[!UICONTROL Video]**&#x200B;をクリックします。
+
+1. 次のいずれかの方法でビデオファイルを指定します。
+
+   * デバイスまたはネットワーク上のファイルをボックスにドラッグ&amp;ドロップします。
+
+   * **[!UICONTROL Select a file]**&#x200B;をクリックして、デバイスまたはネットワーク上のファイルを検索します。
+
+1. [&#x200B; ビデオクリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video)を指定します。
+
+1. **[!UICONTROL Save Creative]**&#x200B;をクリックします。
+
+### レガシーUIから
+
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;をクリックします。
 
 1. ライブラリ名をクリックします。
 

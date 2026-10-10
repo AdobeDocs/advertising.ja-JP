@@ -16,16 +16,50 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '354'
 ht-degree: 0%
 ---
 # クリエイティブのプレビュー
 
 ハイパーリンクを含むクリエイティブは、ビューアに表示されるので、プレビューできます。
 
+## 新しいUIから
+
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. （オプション） [特定のライブラリを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
+
+1. 次のいずれかの方法でライブラリを開きます。
+
+   * ライブラリ名をクリックします。
+
+   * ライブラリ名の横にある「**[!UICONTROL ...]**」 > 「**[!UICONTROL Open]**」をクリックします。
+
+1. 「**[!UICONTROL Creatives]**」タブで、クリエイティブ名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Preview]**」をクリックします。
+
+   HTML5と柔軟性の高いHTML5のクリエイティブの場合は、「レイヤー」、「詳細」および「属性」タブを切り替えて、詳細を確認できます。
+
+1. （オプション）クリエイティブのランディングページを開くには、クリエイティブをクリックします。
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. （オプション、使用可能な場合）クリエイティブをダウンロードするには、![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ")をクリックします。
+
+   ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
+
+1. （オプション、使用可能な場合）デモ URLを共有して、[!DNL Creative]にログインしていない他のユーザーがクリエイティブをプレビューできるようにするには、次の手順を実行します。
+
+   1. プレビューの右上にある「![共有](/help/creative/assets/share.png "共有")」をクリックします。
+
+   1. [!UICONTROL Share demo URL] ダイアログで、**[!UICONTROL Copy]**&#x200B;をクリックしてURLをクリップボードにコピーし、他のユーザーと共有できるようにします。
+
+## レガシーUIから
+
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;をクリックします。
 
 1. ライブラリ名をクリックします。
 

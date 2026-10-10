@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '275'
 ht-degree: 0%
 ---
 # クリエイティブライブラリからのクリエイティブの削除
@@ -37,7 +37,31 @@ ht-degree: 0%
 >
 >動的クリエイティブを削除し、元のクリエイティブの作成に使用したのと同じデータを使用してカタログの新しい広告を生成すると、クリエイティブがカタログに追加されます。
 
+## 新しいUIから
+
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. 次のいずれかの操作を行います。
+
+   * ライブラリ名をクリックします。
+
+   * ライブラリ名の横にある「**[!UICONTROL ...]**」 > 「**[!UICONTROL Open]**」をクリックします。
+
+1. 「**[!UICONTROL Creatives]**」タブで、削除するクリエイターを選択します。
+
+   * 1つのクリエイティブを削除するには、クリエイティブ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Delete]**&#x200B;をクリックします。
+
+   * 1人以上のクリエイティブを削除するには、削除する各クリエイティブのチェックボックスをオンにします。 一括操作ツールバーで、![削除](/help/creative/assets/delete.png "削除") （**[!UICONTROL Delete]**）をクリックします。
+
+     すべての行を選択するには、左上の「グローバル」チェックボックスをオンにします。
+
+1. 確認メッセージで、**[!UICONTROL Delete].**&#x200B;をクリックします
+
+## レガシーUIから
+
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;をクリックします。
 
 1. ライブラリ名をクリックします。
 
