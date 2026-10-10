@@ -41,4 +41,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ エクスペリエンスをプレビュー](/help/creative/experiences/experience-preview.md)
+>* [&#x200B; エクスペリエンスをプレビュー](/help/creative/experiences/experience-preview.md)

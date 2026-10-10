@@ -220,7 +220,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->標準広告および動的広告ビュー](creative-attach-detach-bundles.md)からクリエイティブをバンドルに[添付することもできます。
+>標準広告および動的広告ビュー[&#128279;](creative-attach-detach-bundles.md)からクリエイティブをバンドルに添付することもできます。
 
 ### バンドルリストからバンドルへのクリエイティブの添付
 
@@ -262,7 +262,7 @@ ht-degree: 0%
 
    バンドルタイプの対象となる各クリエイティブは、右側のフレームに一覧表示されます。 バンドルに既に添付されているクリエイターはリストに表示されますが、選択できません。
 
-1. （オプション） ![ カード表示](/help/creative/assets/card-view-button.png " カード表示")をクリックしてカード表示を開くか、![表/リスト表示](/help/creative/assets/table-view-button.png "テーブルビュー")をクリックしてテーブル表示に戻すことで、デフォルトのテーブルビューと使用可能なバンドルのカード表示を切り替えます。
+1. （オプション） ![&#x200B; カード表示](/help/creative/assets/card-view-button.png " カード表示")をクリックしてカード表示を開くか、![表/リスト表示](/help/creative/assets/table-view-button.png "テーブルビュー")をクリックしてテーブル表示に戻すことで、デフォルトのテーブルビューと使用可能なバンドルのカード表示を切り替えます。
 
 1. 右側のパネルで、バンドルに添付する各クリエイティブの横にあるチェックボックスをオンにし、**[!UICONTROL Attach Creative to Bundle]**&#x200B;をクリックします。
 
@@ -390,7 +390,7 @@ ht-degree: 0%
 
 <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
-1. （オプション、使用可能な場合）クリエイティブをダウンロードするには、![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")をクリックします。
+1. （オプション、使用可能な場合）クリエイティブをダウンロードするには、![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -428,7 +428,7 @@ ht-degree: 0%
 
 <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
-1. （オプション）クリエイティブをダウンロードするには、![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")をクリックします。
+1. （オプション）クリエイティブをダウンロードするには、![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -452,7 +452,7 @@ ht-degree: 0%
 
 <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
-1. （オプション、使用可能な場合）クリエイティブをダウンロードするには、![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")をクリックします。
+1. （オプション、使用可能な場合）クリエイティブをダウンロードするには、![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -559,7 +559,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## バンドルの削除
 
-[live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないバンドルを削除できます。 バンドルがライブエクスペリエンスに割り当てられている場合は、続行する前に、そのバンドルを決定ツリー](/help/creative/experiences/experience-target-node-delete.md)から削除してください。[
+[live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) エクスペリエンスに割り当てられていないバンドルを削除できます。 バンドルがライブエクスペリエンスに割り当てられている場合は、続行する前に、そのバンドルを決定ツリー[&#128279;](/help/creative/experiences/experience-target-node-delete.md)から削除してください。
 
 ### 新しいUIから
 
@@ -618,8 +618,8 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 >[!MORELIKETHIS]
 >
->* [ エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除](/help/creative/experiences/experience-assign-creative-bundles.md)
->* [ クリエイティブをプレビュー](/help/creative/creative-libraries/creative-preview.md)
+>* [&#x200B; エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [&#x200B; クリエイティブをプレビュー](/help/creative/creative-libraries/creative-preview.md)
 >* [標準クリエイティブをクリエイティブライブラリに追加](/help/creative/creative-libraries/creative-add-standard.md)
->* [ クリエイティブライブラリの管理](/help/creative/creative-libraries/creative-library-manage.md)
->* [ クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)
+>* [&#x200B; クリエイティブライブラリの管理](/help/creative/creative-libraries/creative-library-manage.md)
+>* [&#x200B; クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)

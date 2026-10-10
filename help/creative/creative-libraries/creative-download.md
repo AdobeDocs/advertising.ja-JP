@@ -41,7 +41,7 @@ ht-degree: 0%
 
    * 1つのクリエイティブをダウンロードするには、クリエイティブ名の横にある&#x200B;**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Download]**&#x200B;をクリックします。
 
-   * 1つ以上のクリエイティブをダウンロードするには、ダウンロードする各クリエイティブのチェックボックスをオンにします。 一括操作ツールバーで、![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ") （**[!UICONTROL Download]**）をクリックします。
+   * 1つ以上のクリエイティブをダウンロードするには、ダウンロードする各クリエイティブのチェックボックスをオンにします。 一括操作ツールバーで、![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ") （**[!UICONTROL Download]**）をクリックします。
 
      すべての行を選択するには、左上の「グローバル」チェックボックスをオンにします。
 
@@ -68,5 +68,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [標準クリエイティブをクリエイティブライブラリに追加](creative-add-standard.md)
->* [ クリエイティブをプレビュー](creative-preview.md)
->* [ クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
+>* [&#x200B; クリエイティブをプレビュー](creative-preview.md)
+>* [&#x200B; クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
