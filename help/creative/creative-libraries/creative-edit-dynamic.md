@@ -16,14 +16,62 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '546'
 ht-degree: 0%
 ---
 # クリエイティブライブラリでのダイナミッククリエイティブの編集
 
+## 新しいUIから
+
+1. クリエイティブ設定を開きます。
+
+   * クリエイティブライブラリから：
+
+     1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+     1. 次のいずれかの方法でライブラリを開きます。
+
+        * ライブラリ名をクリックします。
+
+        * ライブラリ名の横にある「**[!UICONTROL ...]**」 > 「**[!UICONTROL Open]**」をクリックします。
+
+     1. 「**[!UICONTROL Creatives]**」タブで、クリエイティブ名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Edit]**」をクリックします。
+
+   * [!UICONTROL Creative Studio]から：
+
+     1. メインメニューで、**[!UICONTROL Creative]>[!UICONTROL Creative Studio]**&#x200B;をクリックします。
+
+     1. 「**[!UICONTROL Creatives]**」タブで、クリエイティブカードの上にカーソルを置き、**[!UICONTROL ...]** > **[!UICONTROL Edit]**&#x200B;をクリックします。
+
+        左側に広告プレビュー、右側に設定パネルが表示されたフルスクリーンエディターが開きます。
+
+1. 「**[!UICONTROL Details]**」タブと「**[!UICONTROL Attribute Mapping]**」タブを使用して、クリエイティブ設定を編集します。
+
+   **[!UICONTROL Details]** タブ：
+
+   * **[!UICONTROL Advertiser]**、**[!UICONTROL Ad Library]**&#x200B;および&#x200B;**[!UICONTROL Ad template]**&#x200B;は読み取り専用です。
+   * **[!UICONTROL Dynamic creative name]:** クリエイティブの表示名。
+   * **[!UICONTROL Number of cards]:**&#x200B;各広告の組み合わせに含まれるカタログ オファーの数（1 ～ 50）。
+   * （オプション） **[!UICONTROL Catalogs]**&#x200B;で、カタログの選択を更新します。
+     * **[!UICONTROL Catalog template]**&#x200B;を使用して、使用可能なカタログをフィルタリングします。 必要に応じてテンプレートファイルをダウンロードするには、**[!UICONTROL Download feed template]**&#x200B;をクリックします。
+     * リストからカタログを検索して選択するか、アップロードエリアにドラッグするか、**[!UICONTROL Browse Files]**&#x200B;をクリックして新しいカタログファイルをアップロードします（サポートされている形式：JPG、PNG、JPEG、XLS、XLSX、CSV、TSV、ZIP、MP4、最大25 MB、一度に1つのファイル）。 アップロードされたカタログは、チップリストに「**（アップロード）**」というラベルが付けられます。
+
+     すべてのカタログは、同じカタログテンプレートファミリーに属している必要があります。
+
+   **[!UICONTROL Attribute Mapping]** タブ：
+
+   * **[!UICONTROL Targeting]**&#x200B;で、少なくとも1つのデータソースを選択してください：**[!UICONTROL Profile data]**、**[!UICONTROL Geographic data]**、**[!UICONTROL Data pass]**、または&#x200B;**[!UICONTROL Audience Segment]**。
+   * **[!UICONTROL Attribute Mapping]**&#x200B;で、各テンプレートレイヤー名から対応するカタログ列ラベルへのマッピングを更新します。
+
+1. **[!UICONTROL Update Creative]**&#x200B;をクリックします。
+
+## レガシーUIから
+
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;をクリックします。
 
 1. ライブラリ名をクリックします。
 
@@ -55,7 +103,7 @@ ht-degree: 0%
 
 1. クリエイターを救う：
 
-   * 広告を保存し、ライブラリの[&#x200B; クリエイティブバンドル &#x200B;](bundle-manage.md)に追加するには：
+   * 広告を保存し、ライブラリの[ クリエイティブバンドル ](bundle-manage.md)に追加するには：
 
      1. **[!UICONTROL Save and Attach to Bundle]**&#x200B;をクリックします。
 
@@ -68,6 +116,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [動的なクリエイティブ設定](creative-settings-dynamic.md)
->* [&#x200B; クリエイティブライブラリに動的なクリエイティブを追加](creative-add-dynamic.md)
->* [&#x200B; クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
+>* [ クリエイティブライブラリに動的なクリエイティブを追加](creative-add-dynamic.md)
+>* [ クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)

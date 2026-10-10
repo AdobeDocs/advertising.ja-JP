@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 1. （オプション）エクスペリエンスのデモ URLをコピーして、ログインせずに他のユーザーと共有するには、[!DNL Creative]にアクセスします。
 
-   1. プレビューの右上にある「![共有](/help/creative/assets/share.png "共有")」をクリックします。
+   1. プレビューの右上にある「![共有](/help/creative/assets/share-legacy.png "共有")」をクリックします。
 
    1. [!UICONTROL Share Demo URL] ダイアログで、**[!UICONTROL Copy]**&#x200B;をクリックしてURLをクリップボードにコピーし、他のユーザーと共有できるようにします。
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 1. （オプション）エクスペリエンスのデモ URLをコピーして、ログインせずに他のユーザーと共有するには、[!DNL Creative]にアクセスします。
 
-   1. プレビューの右上にある「![共有](/help/creative/assets/share.png "共有")」をクリックします。
+   1. プレビューの右上にある「![共有](/help/creative/assets/share-legacy.png "共有")」をクリックします。
 
    1. [!UICONTROL Share Demo URL] ダイアログで、**[!UICONTROL Copy]**&#x200B;をクリックしてURLをクリップボードにコピーし、他のユーザーと共有できるようにします。
 

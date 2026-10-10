@@ -16,14 +16,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # クリエイティブライブラリへの動的クリエイターの追加
 
-動的なクリエイティブを[&#x200B; クリエイティブライブラリ &#x200B;](creative-library-manage.md)に追加して、動的な[広告エクスペリエンス &#x200B;](/help/creative/experiences/experience-about.md)で使用します。 1つの静的なHTML5広告または1つの広告テンプレートから動的なHTML5広告を作成できます。 動的なHTML5広告の場合は、フィードファイルから作成された指定されたカタログ内のアセットを使用します。
+動的なクリエイティブを[ クリエイティブライブラリ ](creative-library-manage.md)に追加して、動的な[広告エクスペリエンス ](/help/creative/experiences/experience-about.md)で使用します。 1つの静的なHTML5広告または1つの広告テンプレートから動的なHTML5広告を作成できます。 動的なHTML5広告の場合は、フィードファイルから作成された指定されたカタログ内のアセットを使用します。
 
 >[!PREREQUISITES]
 >
@@ -54,11 +54,33 @@ ht-degree: 0%
 
 ## ダイナミックなHTML5広告テンプレートを使用して、ダイナミックなクリエイティブを追加する
 
+## 新しいUIから
+
+<!-- NEED TO ADD SAME INSTRUCTIONS AS FOR CREATIVE STUDIO -->
+
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. （オプション） [特定のライブラリを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
+
+1. 次のいずれかの方法でライブラリを開きます。
+
+   * ライブラリ名をクリックします。
+
+   * ライブラリ名の横にある「**[!UICONTROL ...]**」 > 「**[!UICONTROL Open]**」をクリックします。
+
+1. **[!UICONTROL Creatives]** タブで、**[!UICONTROL Add new]** > **[!UICONTROL Creative Studio]** > **[!UICONTROL Dynamic Ad]**&#x200B;をクリックします。
+
+1. 「[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)の動的クリエイティブを管理」の[手順2から始まる[!DNL Creative Studio]内で動的な広告設定を指定します。
+
+## レガシーUIから
+
 1. 次のいずれかの操作を行います。
 
    * クリエイティブライブラリから：
 
      1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+     1. **[!UICONTROL Switch to classic UI]**&#x200B;をクリックします。
 
      1. ライブラリ名をクリックします。
 
@@ -108,7 +130,7 @@ ht-degree: 0%
 
 1. クリエイターを救う：
 
-   * 広告を保存し、ライブラリの[&#x200B; クリエイティブバンドル &#x200B;](/help/creative/creative-libraries/bundle-manage.md)に追加するには：
+   * 広告を保存し、ライブラリの[ クリエイティブバンドル ](/help/creative/creative-libraries/bundle-manage.md)に追加するには：
 
      1. **[!UICONTROL Save and Attach to Bundle]**&#x200B;をクリックします。
 
@@ -121,6 +143,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [動的なクリエイティブ設定](creative-settings-dynamic.md)
->* [&#x200B; クリエイティブライブラリでの動的クリエイティブの編集](creative-edit-dynamic.md)
->* [&#x200B; クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
+>* [ クリエイティブライブラリでの動的クリエイティブの編集](creative-edit-dynamic.md)
+>* [ クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)

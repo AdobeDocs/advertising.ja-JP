@@ -18,14 +18,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '452'
 ht-degree: 2%
 ---
 # 動的なクリエイティブ設定
 
 <!-- add a description -->
+
+以下の設定は、従来のUIを使用して作成された動的広告に適用されます。 新しいUIまたは[!DNL Creative Studio]を使用して動的広告を作成する場合は、「[動的クリエイティブを[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)で管理」の設定を参照してください。
 
 ## 動的な広告設定<!-- for dynamic HTML5 ads {#dynamic-ad-settings-dynamic-html5}-->
 
@@ -51,7 +53,7 @@ ht-degree: 2%
 
 続行するには、**[!UICONTROL Select Ad Template]**&#x200B;をクリックします。
 
-**[!UICONTROL Size]:** （動的ディスプレイ広告のみ、読み取り専用）選択した広告テンプレートの[広告ディメンション &#x200B;](/help/creative/creative-libraries/creative-sizes.md)。広告の作成に使用されます。
+**[!UICONTROL Size]:** （動的ディスプレイ広告のみ、読み取り専用）選択した広告テンプレートの[広告ディメンション ](/help/creative/creative-libraries/creative-sizes.md)。広告の作成に使用されます。
 
 **[!UICONTROL Card Count (Max 50)]:** （ディスプレイ広告のみ）カルーセルに表示する商品の数。
 
@@ -79,6 +81,6 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; クリエイティブライブラリに動的なクリエイティブを追加](creative-add-dynamic.md)
->* [&#x200B; クリエイティブライブラリでの動的クリエイティブの編集](creative-edit-dynamic.md)
+>* [ クリエイティブライブラリに動的なクリエイティブを追加](creative-add-dynamic.md)
+>* [ クリエイティブライブラリでの動的クリエイティブの編集](creative-edit-dynamic.md)
 >* [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)

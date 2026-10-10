@@ -16,20 +16,46 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '494'
 ht-degree: 0%
 ---
 # クリエイティブライブラリでの標準クリエイティブの編集
 
-標準クリエイティブの種類ごとに、いくつかの設定を編集できます。 同じクリエイティブタイプの複数のクリエイティブを編集できます（シンプルなHTML5、1つのランディングページのみを使用する静的なHTML5、複数のランディングページを使用する静的なHTML5、柔軟性の高い5、画像、またはサードパーティのクリエイティブのみ）。
+標準クリエイティブの種類ごとに、いくつかの設定を編集できます。
 
 柔軟なHTML5と静的なHTML5のクリエイティブの場合は、異なるレイアウトを持ちながら、同じ属性名のセットを持つ新しいテンプレートファイルをアップロードできます。 シンプルなHTML5のクリエイターの場合は、新しい属性または画像を含む新しいテンプレートをアップロードすることで、任意の属性を編集したり、画像を追加したりできます。 すべての場合、テンプレートは最大2 MBのZIP形式のローカルファイルである必要があります。
 
 バンドルに含まれるクリエイティブを編集すると、そのバンドルを含むすべてのエクスペリエンスに変更が自動的に適用されます。ただし、エクスペリエンスレベルで指定されたカスタムランディングページとトラッキング URLは、そのエクスペリエンスに添付されたバンドルに対して引き続き適用されます。
 
+## 新しいUIから
+
+1つのクリエイティブを編集することができます。
+
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. （オプション） [特定のライブラリを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
+
+1. 次のいずれかの方法でライブラリを開きます。
+
+   * ライブラリ名をクリックします。
+
+   * ライブラリ名の横にある「**[!UICONTROL ...]**」 > 「**[!UICONTROL Open]**」をクリックします。
+
+1. 「**[!UICONTROL Creatives]**」タブで、クリエイティブ名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL Edit]**」をクリックします。
+
+1. [画像クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)、[HTML5 クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)、[柔軟性の高いHTML5 クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)、または[ サードパーティのクリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)を編集します。
+
+1. **[!UICONTROL Update Creative]**&#x200B;をクリックします。
+
+## レガシーUIから
+
+同じクリエイティブタイプの複数のクリエイティブを編集できます（シンプルなHTML5、1つのランディングページのみを使用する静的なHTML5、複数のランディングページを使用する静的なHTML5、柔軟性の高い5、画像、またはサードパーティのクリエイティブのみ）。
+
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;をクリックします。
 
 1. （オプション） [特定のライブラリを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
 
@@ -49,7 +75,7 @@ ht-degree: 0%
 
      すべての行を選択するには、左上の「グローバル」チェックボックスをオンにします。
 
-1. [画像クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)、[HTML5 クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)、[柔軟性の高いHTML5 クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)、または[&#x200B; サードパーティのクリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)を編集します。
+1. [画像クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)、[HTML5 クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)、[柔軟性の高いHTML5 クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)、または[ サードパーティのクリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)を編集します。
 
    複数のクリエイターを同時に編集する場合：
 
@@ -61,7 +87,7 @@ ht-degree: 0%
    >
    >* （柔軟なHTML5 クリエイターのみ）属性は、1人のクリエイターに対してのみ編集できます。
 
-1. （柔軟なHTML5 クリエイティブ、オプション）変更を加えたら、画像の上にある![&#x200B; プレビュー](/help/creative/assets/preview.png " プレビュー")をクリックして、新しいクリエイティブをプレビューします。
+1. （柔軟なHTML5 クリエイティブ、オプション）変更を加えたら、画像の上にある![ プレビュー](/help/creative/assets/preview.png " プレビュー")をクリックして、新しいクリエイティブをプレビューします。
 
 1. **保存**&#x200B;をクリックします。
 
@@ -69,5 +95,5 @@ ht-degree: 0%
 >
 >* [標準クリエイティブをクリエイティブライブラリに追加](creative-add-standard.md)
 >* [標準クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md)
->* [&#x200B; クリエイティブをプレビュー](/help/creative/creative-libraries/creative-preview.md)
->* [&#x200B; クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
+>* [ クリエイティブをプレビュー](/help/creative/creative-libraries/creative-preview.md)
+>* [ クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
