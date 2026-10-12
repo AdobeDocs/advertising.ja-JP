@@ -36,7 +36,7 @@ ht-degree: 0%
 ---
 # Adobe Advertisingのお客様向け[!DNL Adobe] [!DNL Audience Analytics]
 
-[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)は、Adobe Audience ManagerとAdobe Analytics間の統合であり、Audience Managerのお客様は、サイトのアクティビティに関する詳細なインサイトを得るために[!DNL Analytics]にセグメントを送信できます。
+[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja)は、Adobe Audience ManagerとAdobe Analytics間の統合であり、Audience Managerのお客様は、サイトのアクティビティに関する詳細なインサイトを得るために[!DNL Analytics]にセグメントを送信できます。
 
 Adobe Advertisingのお客様は、[!DNL Audience Analytics]を使用することでメリットを得ることができます。 この統合により、次のことが可能になります。
 
@@ -44,7 +44,7 @@ Adobe Advertisingのお客様は、[!DNL Audience Analytics]を使用するこ�
 
 * Funnelにおける露出が高い広告から、マーケティングチャネルとサイトのエントリーポイントを特定します。
 
-* [!DNL Analytics for Advertising]との統合をレイヤー化して、[Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html)のサードパーティのデモグラフィックセグメントを[!DNL Analytics for Advertising] データに組み込み、ユーザープロファイルに関する詳細なインサイトを入手します。
+* [!DNL Analytics for Advertising]との統合をレイヤー化して、[Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html?lang=ja)のサードパーティのデモグラフィックセグメントを[!DNL Analytics for Advertising] データに組み込み、ユーザープロファイルに関する詳細なインサイトを入手します。
 
   [!DNL Audience Marketplace]は、「アクティベーション」サブスクリプションモデルを使用してサードパーティのデータフィードへのアクセスを提供します。このモデルを使用すると、購入者は宛先にデータを送信できます。 データが[!DNL Analytics]宛先内で使用されている場合、アクティベーション料金は適用されません。
 
@@ -52,7 +52,7 @@ Adobe Advertisingのお客様は、[!DNL Audience Analytics]を使用するこ�
 
   Advertising DSPは、Adobe Experience PlatformまたはAudience Managerのインプレッショントラッキングピクセルを実装することで、露出データをAudience Managerに実用的なシグナルとして送信できます。 同じデータを[!DNL Analytics]に転送すると、高度なデータ分析が可能になります。 詳しくは、「[Adobe Audience ManagerへのDSP メディア露出データの送信の概要](/help/integrations/audience-manager/media-data-integration/overview.md)」を参照してください。
 
-前提条件やワークフローを含む[!DNL Audience Analytics]について詳しくは、「[Audience Analyticsの概要](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)」を参照してください。
+前提条件やワークフローを含む[!DNL Audience Analytics]について詳しくは、「[Audience Analyticsの概要](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja)」を参照してください。
 
 ## Adobe Advertising データで[!DNL Audience Analytics] データを使用する方法の例
 
