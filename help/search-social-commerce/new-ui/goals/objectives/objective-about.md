@@ -10,12 +10,15 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
-  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-    internal-label: ''
   - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
     internal-label: Search Objectives
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+subfeature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -24,7 +27,7 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -52,8 +55,8 @@ ht-degree: 0%
 * 指標に重み付けの推奨事項を適用します。
 
 >[!NOTE]
->* （検索、ソーシャル、およびCommerce）ポートフォリオを[作成](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)するか、後で[&#x200B; ポートフォリオ設定を変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)することで、目標をポートフォリオに関連付けることができます。
->* （Search、Social、およびCommerce アカウントにリンクされたDSP アカウントを持つ広告主） Advertising DSPでは、目的をパッケージレベルのペーシングを持つパッケージの[&#x200B; カスタム最適化目標](/help/dsp/campaign-management/packages/package-settings.md)として選択できます。
+>* （検索、ソーシャル、およびCommerce）ポートフォリオを[作成](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)するか、後で[ ポートフォリオ設定を変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)することで、目標をポートフォリオに関連付けることができます。
+>* （Search、Social、およびCommerce アカウントにリンクされたDSP アカウントを持つ広告主） Advertising DSPでは、目的をパッケージレベルのペーシングを持つパッケージの[ カスタム最適化目標](/help/dsp/campaign-management/packages/package-settings.md)として選択できます。
 >* 複数のSearch、Social、およびCommerce ポートフォリオや複数のDSP パッケージに同じ目的を使用できます。
 >* [!UICONTROL Objectives] ビューの各目的の指標には、DSPのデータは含まれていません。
 
@@ -61,17 +64,17 @@ ht-degree: 0%
 
 目標には、次のいずれかを含めることができます。
 
-* [Adobe Advertising コンバージョントラッキングピクセル &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)を使用してAdobe Advertisingが追跡する指標。
+* [Adobe Advertising コンバージョントラッキングピクセル ](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)を使用してAdobe Advertisingが追跡する指標。
 
-* [&#x200B; コンバージョンフィード ファイルから広告主が追跡した指標](/help/search-social-commerce/tracking/conversion-tracking-about.md).<!-- Search only, or might DSP-only clients also have these? -->
+* [ コンバージョンフィード ファイルから広告主が追跡した指標](/help/search-social-commerce/tracking/conversion-tracking-about.md).<!-- Search only, or might DSP-only clients also have these? -->
 
-* （広告主と[!DNL Adobe Analytics for Advertising]） [&#x200B; コンバージョンとサイトエンゲージメントの指標がAdobe Analytics](/help/integrations/analytics/overview.md)から同期されました。
+* （広告主と[!DNL Adobe Analytics for Advertising]） [ コンバージョンとサイトエンゲージメントの指標がAdobe Analytics](/help/integrations/analytics/overview.md)から同期されました。
 
-  Search, Social, &amp; Commerceでは、次の[&#x200B; サイトエンゲージメント指標](/help/integrations/analytics/analytics-data-in-advertising.md)がポートフォリオ入札アルゴリズムに自動的に組み込まれます：`timespent_secs_1stvisit`、`timespent_secs_total`、`pageviews_1stvisit`、`pageviews_total`、および`bounces`。
+  Search, Social, &amp; Commerceでは、次の[ サイトエンゲージメント指標](/help/integrations/analytics/analytics-data-in-advertising.md)がポートフォリオ入札アルゴリズムに自動的に組み込まれます：`timespent_secs_1stvisit`、`timespent_secs_total`、`pageviews_1stvisit`、`pageviews_total`、および`bounces`。
 
 * [!DNL Google]指標：<!-- Search only, or might DSP-only clients also have these? -->
 
-  * 同期した[!DNL Google Ads] アカウントから[[!DNL Google Ads]件のトラッキングされたコンバージョン &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)。
+  * 同期した[!DNL Google Ads] アカウントから[[!DNL Google Ads]件のトラッキングされたコンバージョン ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)。
 
   * （統合[[!DNL Google Analytics] の広告主](/help/search-social-commerce/admin/data-sources/data-source-about.md)） ページビュー、セッション、直帰率（バウンス/セッションとして計算）、セッション時間。
 
@@ -79,7 +82,7 @@ ht-degree: 0%
 
 ## 広告ネットワークに目的をアップロードするオプション
 
-オプションで[&#x200B; アカウントのポートフォリオの目標を [!DNL Google Ads] および/または [!DNL Microsoft Advertising]  コンバージョン &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md)として アップロードして、キャンペーンレベルまたは広告グループレベルの最適化に使用できます。 このオプションを有効にすると、Search, Social, &amp; Commerceは、EF ID （クリック ID）レベルの重み付けされた収益データを毎日アドネットワークに渡します。 ネットワークで追跡される広告の指標が省略されます。
+オプションで[ アカウントのポートフォリオの目標を [!DNL Google Ads] および/または [!DNL Microsoft Advertising]  コンバージョン ](/help/search-social-commerce/tools/objective-upload-to-networks.md)として アップロードして、キャンペーンレベルまたは広告グループレベルの最適化に使用できます。 このオプションを有効にすると、Search, Social, &amp; Commerceは、EF ID （クリック ID）レベルの重み付けされた収益データを毎日アドネットワークに渡します。 ネットワークで追跡される広告の指標が省略されます。
 
 >[!MORELIKETHIS]
 >
@@ -88,4 +91,4 @@ ht-degree: 0%
 >* [目標を削除](objective-delete.md)
 >* [目標に重み付けの推奨事項を適用](objective-apply-weight-recommendations.md)
 >* [目標の設定](objective-settings.md)
->* [目的のパフォーマンスデータをダウンロード &#x200B;](objective-download-performance-data.md)
+>* [目的のパフォーマンスデータをダウンロード ](objective-download-performance-data.md)

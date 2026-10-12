@@ -9,15 +9,17 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
-  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-    internal-label: ''
   - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
     internal-label: Search Admin
   - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
     internal-label: Search Data Sources
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
     internal-label: Data sources
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -28,7 +30,7 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -41,7 +43,7 @@ ht-degree: 0%
 
 複数のプロパティまたは1つのプロパティの複数のビューの指標を統合するには、それぞれに個別のデータソースを設定します。
 
-1. [&#x200B; アカウント  [!DNL Google Analytics] を統合するためのすべての前提条件を実行します](data-source-prerequisites.md)。
+1. [ アカウント  [!DNL Google Analytics] を統合するためのすべての前提条件を実行します](data-source-prerequisites.md)。
 
 1. メインメニューで、**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**&#x200B;をクリックします。
 
@@ -51,13 +53,13 @@ ht-degree: 0%
 
    一部の前提条件は、組織内の他の役割によって実行された可能性があります。 前提条件についてご不明な点がある場合は、Adobeアカウントチームにお問い合わせください。
 
-1. [&#x200B; データソース設定](data-source-settings.md)を入力します。
+1. [ データソース設定](data-source-settings.md)を入力します。
 
    1. 「**[!UICONTROL Connect to [!DNL Google Analytics]]**」セクションで、次の操作を行います。
 
       1. [!DNL Google Analytics] アカウントの数値IDを入力してください。
 
-      1. このデータソースのデータへのアクセスに使用する電子メールアドレスを入力してください。 メールアドレスは[!DNL Google] アカウントに登録し、[!DNL Google Analytics] アカウントに「読み取りと分析」権限を持っている必要があります。  [!DNL Google Analytics]&#x200B;[&#128279;](https://support.google.com/analytics/answer/9305587)でユーザー権限を割り当てる方法については、の手順を参照してください。
+      1. このデータソースのデータへのアクセスに使用する電子メールアドレスを入力してください。 メールアドレスは[!DNL Google] アカウントに登録し、[!DNL Google Analytics] アカウントに「読み取りと分析」権限を持っている必要があります。  [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587)でユーザー権限を割り当てる方法については、[の手順を参照してください。
 
          >[!TIP]
          >
@@ -79,7 +81,7 @@ ht-degree: 0%
 
       >[!WARNING]
       >
-      >[!DNL Google Analytics]は、1つのデータフィードで最大10個の指標を許可します。 Search, Social, &amp; Commerceは、合計20個の指標で最大2つのフィードをサポートできますが、2番目のフィードを使用すると、API呼び出しが[!DNL Google Analytics]に倍増します。 多数の指標がある場合は、目的で最適化に使用する指標のみを選択します。  [!DNL Google Analytics]&#x200B;[&#128279;](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)へのAPI リクエストの割り当てと呼び出し制限について詳しく説明します。
+      >[!DNL Google Analytics]は、1つのデータフィードで最大10個の指標を許可します。 Search, Social, &amp; Commerceは、合計20個の指標で最大2つのフィードをサポートできますが、2番目のフィードを使用すると、API呼び出しが[!DNL Google Analytics]に倍増します。 多数の指標がある場合は、目的で最適化に使用する指標のみを選択します。  [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)へのAPI リクエストの[割り当てと呼び出し制限について詳しく説明します。
 
    1. 「[!UICONTROL Metric Tag]」セクションで、データソースの各指標に追加するタグの名前を入力します。
 
@@ -94,9 +96,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [同期について [!DNL Google Analytics]  コンバージョン指標](data-source-about.md)
->* [&#x200B; データソースを設定するための前提条件 [!DNL Google Analytics] &#x200B;](data-source-prerequisites.md)
->* [&#x200B; データソースの編集 [!DNL Google Analytics] &#x200B;](data-source-edit.md)
->* [&#x200B; データソースの同期を一時停止](data-source-pause.md)
->* [&#x200B; データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
+>* [ データソースを設定するための前提条件 [!DNL Google Analytics] ](data-source-prerequisites.md)
+>* [ データソースの編集 [!DNL Google Analytics] ](data-source-edit.md)
+>* [ データソースの同期を一時停止](data-source-pause.md)
+>* [ データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics]  データソース設定](data-source-settings.md)
 >* [付録 – 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)

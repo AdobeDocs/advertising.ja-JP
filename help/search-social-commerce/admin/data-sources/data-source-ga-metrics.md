@@ -9,15 +9,17 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
-  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-    internal-label: ''
   - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
     internal-label: Search Admin
   - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
     internal-label: Search Data Sources
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
     internal-label: Data sources
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -26,7 +28,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -60,9 +62,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [同期について [!DNL Google Analytics]  コンバージョン指標](data-source-about.md)
->* [&#x200B; データソースを設定するための前提条件 [!DNL Google Analytics] &#x200B;](data-source-prerequisites.md)
->* [&#x200B; データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
->* [&#x200B; データソースの編集 [!DNL Google Analytics] &#x200B;](data-source-edit.md)
->* [&#x200B; データソースの同期を一時停止](data-source-pause.md)
->* [&#x200B; データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
+>* [ データソースを設定するための前提条件 [!DNL Google Analytics] ](data-source-prerequisites.md)
+>* [ データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
+>* [ データソースの編集 [!DNL Google Analytics] ](data-source-edit.md)
+>* [ データソースの同期を一時停止](data-source-pause.md)
+>* [ データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics]  データソース設定](data-source-settings.md)

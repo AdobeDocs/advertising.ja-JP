@@ -9,17 +9,19 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
-  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-    internal-label: ''
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
     internal-label: Demand Side Platform
   - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
     internal-label: Search Admin
   - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
     internal-label: Search Data Sources
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
     internal-label: Data sources
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,14 +32,14 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
 ---
 # [!DNL Google Analytics]のコンバージョン指標の同期について
 
-Search, Social, &amp; Commerceでは、特定の[!DNL Google Analytics] アカウント、プロパティ、ビューの組み合わせのコンバージョン指標を同期して、最適化とレポートを行うことができます。 [&#x200B; ページビュー](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=page_tracking&jump=ga_pageviews)、[&#x200B; セッション &#x200B;](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessions)、[直帰率](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_bouncerate) （バウンス/セッションとして計算）、[&#x200B; セッション期間](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessionduration)が自動的に含まれます。 データソースごとに最大16個の追加指標を含めることができます。
+Search, Social, &amp; Commerceでは、特定の[!DNL Google Analytics] アカウント、プロパティ、ビューの組み合わせのコンバージョン指標を同期して、最適化とレポートを行うことができます。 [ ページビュー](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=page_tracking&jump=ga_pageviews)、[ セッション ](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessions)、[直帰率](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_bouncerate) （バウンス/セッションとして計算）、[ セッション期間](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessionduration)が自動的に含まれます。 データソースごとに最大16個の追加指標を含めることができます。
 
 >[!NOTE]
 >
@@ -53,7 +55,7 @@ Search, Social, &amp; Commerceでは、特定の[!DNL Google Analytics] アカ�
 
    * [!DNL Google Analytics]の[!DNL Custom Dimension]にAdobe Advertising トークン （`ef_id` クエリ文字列パラメーター）をキャプチャします。
 
-1. （代理店アカウント管理者、代理店アカウントマネージャー、[!DNL Adobe] アカウントマネージャー、および管理者ユーザーのみ） [&#x200B; アカウント、プロパティ、ビューの組み合わせごとに1つのデータソースを作成](data-source-configure.md)。 [!DNL Google Analytics] 
+1. （代理店アカウント管理者、代理店アカウントマネージャー、[!DNL Adobe] アカウントマネージャー、および管理者ユーザーのみ） [ アカウント、プロパティ、ビューの組み合わせごとに1つのデータソースを作成](data-source-configure.md)。 [!DNL Google Analytics] 
 
    複数のプロパティまたは1つのプロパティの複数のビューの指標を統合するには、それぞれに個別のデータソースを設定します。
 
@@ -61,10 +63,10 @@ Search, Social, &amp; Commerceでは、特定の[!DNL Google Analytics] アカ�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; データソースを設定するための前提条件 [!DNL Google Analytics] &#x200B;](data-source-prerequisites.md)
->* [&#x200B; データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
->* [&#x200B; データソースの編集 [!DNL Google Analytics] &#x200B;](data-source-edit.md)
->* [&#x200B; データソースの同期を一時停止](data-source-pause.md)
->* [&#x200B; データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
+>* [ データソースを設定するための前提条件 [!DNL Google Analytics] ](data-source-prerequisites.md)
+>* [ データソースとして [!DNL Google Analytics]  ビューを設定](data-source-configure.md)
+>* [ データソースの編集 [!DNL Google Analytics] ](data-source-edit.md)
+>* [ データソースの同期を一時停止](data-source-pause.md)
+>* [ データソースを再認証 [!DNL Google Analytics] します](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics]  データソース設定](data-source-settings.md)
 >* [付録 – 利用可能 [!DNL Google Analytics] 指標](data-source-ga-metrics.md)
