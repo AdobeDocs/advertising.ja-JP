@@ -85,7 +85,7 @@ Audience Managerのサードパーティセグメントを利用して、利用�
 
 [!DNL Analysis Workspace]で作成できるレポートの例を次に示します。
 
-![ サードパーティのセグメントを使用したユーザープロファイル分析の強化](/help/integrations/assets/audience-analytics-third-party-report.png)
+![&#x200B; サードパーティのセグメントを使用したユーザープロファイル分析の強化](/help/integrations/assets/audience-analytics-third-party-report.png)
 
 >[!MORELIKETHIS]
 >

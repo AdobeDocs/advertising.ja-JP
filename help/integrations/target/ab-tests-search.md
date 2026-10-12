@@ -45,7 +45,7 @@ Adobe AdvertisingとAdobe Targetを使用すると、デジタル広告トラフ
 
 * 広告に合わせて、よりパーソナライズされたランディングページ体験を提供します（例えば、画像/動画のクリエイティブ、コピー、キーワード、その他の広告シグナルをランディングページに一致させます）。
 
-また、Adobe Analyticsに統合されたAdvertising](/help/integrations/analytics/overview.md)用のネイティブ [[!DNL Analytics] と [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)用の[[!DNL Analytics] 統合レポートディメンションを組み合わせて、[!DNL Analytics]個の指標と成功イベントを使用してテストデータを測定および視覚化することもできます。
+また、Adobe Analyticsに統合されたAdvertising[&#128279;](/help/integrations/analytics/overview.md)用のネイティブ [[!DNL Analytics] と [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)用の[!DNL Analytics] 統合レポートディメンションを組み合わせて、[!DNL Analytics]個の指標と成功イベントを使用してテストデータを測定および視覚化することもできます。
 
 Search, Social, &amp; Commerceの広告からのクリックスルーのトラフィックについて、[!DNL Target]でA/B テストを設定する手順と、[!DNL Analytics]でテストを測定して視覚化する方法に関するヒントについては、次の節を参照してください。
 
@@ -60,15 +60,15 @@ Search, Social, &amp; Commerceの広告からのクリックスルーのトラ�
 
 * [!DNL Analytics]
 
-* Advertising](/help/integrations/analytics/overview.md)統合<!-- necessary for testing view-throughs, which most advertisers want to do -->の[[!DNL Analytics] 
+* Advertising&rbrack;(/help/integrations/analytics/overview.md)統合<!-- necessary for testing view-throughs, which most advertisers want to do -->の&lbrack;[!DNL Analytics] 
 
-*  [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)統合用[[!DNL Analytics] 
+* [!DNL Target]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)統合用[!DNL Analytics] 
 
 ## 手順1: Search, Social, &amp; Commerce用に[!DNL Target]でA/B テストアクティビティを作成する
 
 次の手順では、Search, Social, &amp; Commerceのユースケースに関する情報を強調表示します。
 
-1. [Adobe Targetにログイン ](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html)。
+1. [Adobe Targetにログイン &#x200B;](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html)。
 
 1. [A/B テストを作成](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
 
@@ -85,7 +85,7 @@ Search, Social, &amp; Commerceの広告からのクリックスルーのトラ�
 
    1. **[!UICONTROL Reporting Settings]**&#x200B;内で、Search, Social, &amp; Commerce アカウントに接続されている&#x200B;**[!UICONTROL Company Name]**&#x200B;と&#x200B;**[!UICONTROL Report Suite]**&#x200B;を選択します。
 
-      その他のレポートのヒントについては、「[ レポートのベストプラクティスとトラブルシューティング ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html)」を参照してください。
+      その他のレポートのヒントについては、「[&#x200B; レポートのベストプラクティスとトラブルシューティング &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html)」を参照してください。
 
    1. 「**[!UICONTROL Date Range]**」フィールドに、テストの適切な開始日と終了日を入力します。
 
@@ -93,7 +93,7 @@ Search, Social, &amp; Commerceの広告からのクリックスルーのトラ�
 
       IDは、[関連するID列をエンティティビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)に追加することで見つけることができます。
 
-      [!UICONTROL Accounts] ビュー")の[!UICONTROL Accounts] ビュー](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID]列の![[!UICONTROL Network Account ID]列
+      [!UICONTROL Accounts] ビュー")の[!UICONTROL Accounts] ビュー&rbrack;(/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID]列の!&lbrack;[!UICONTROL Network Account ID]列
 
       サポートが必要な場合は、Adobe アカウントチームにお問い合わせください。
 
@@ -115,7 +115,7 @@ Search, Social, &amp; Commerceの広告からのクリックスルーのトラ�
 
 [!DNL Analytics for Target] （A4T）は、広告主が[!DNL Analytics]個のコンバージョン指標とオーディエンスセグメントに基づいて[!DNL Target]個のアクティビティを作成し、[!DNL Analytics]をレポートソースとして使用して結果を測定できるクロスソリューション統合です。 そのアクティビティのすべてのレポートとセグメント化は、[!DNL Analytics] データ収集に基づいています。
 
-実装手順へのリンクを含む[!DNL Analytics for Target]について詳しくは、「[Adobe Analytics as the reporting source for Adobe Target （A4T） ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)」を参照してください。
+実装手順へのリンクを含む[!DNL Analytics for Target]について詳しくは、「[Adobe Analytics as the reporting source for Adobe Target （A4T） &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)」を参照してください。
 
 ### [!DNL Analytics for Target] パネルの設定
 
