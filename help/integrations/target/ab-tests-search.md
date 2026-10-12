@@ -1,30 +1,38 @@
 ---
 title: Adobe TargetでAdobe Advertising Search、Social、Commerce広告のA/B テストを設定する
-description: Search, Social, & Commerceで [!DNL Google Ads] 広告および [!DNL Microsoft Advertising] 広告の [!DNL Target] でA/B テストを設定する方法について説明します。
+description: Search, Social, & Commerceで[!DNL Google Ads]広告と[!DNL Microsoft Advertising]広告に[!DNL Target]でA/B テストを設定する方法を説明します。
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-TQID: https://experienceleague.adobe.com/eu1dRdsQlJX4IlHLTUDyJ69r0txFvFUdzUiXpSAlpU8
+TQID: 'https://experienceleague.adobe.com/eu1dRdsQlJX4IlHLTUDyJ69r0txFvFUdzUiXpSAlpU8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Personalization
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '961'
 ht-degree: 0%
-
 ---
-
 # Adobe TargetでAdvertising Search、Social、Commerce広告のA/B テストを設定する
 
 *Advertising Search, Social, &amp; Commerceのみの広告主*
@@ -54,11 +62,11 @@ Search, Social, &amp; Commerceの広告からのクリックスルーのトラ�
 
 * Advertising&rbrack;(/help/integrations/analytics/overview.md)統合<!-- necessary for testing view-throughs, which most advertisers want to do -->の&lbrack;[!DNL Analytics] 
 
-* [!DNL Target][&#128279;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)統合用[!DNL Analytics] 
+* [!DNL Target]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)統合用[!DNL Analytics] 
 
-## Step 1: Create an A/B test activity in [!DNL Target] for Search, Social, &amp; Commerce
+## 手順1: Search, Social, &amp; Commerce用に[!DNL Target]でA/B テストアクティビティを作成する
 
-The following instructions highlight information pertaining to the Search, Social, &amp; Commerce use case.
+次の手順では、Search, Social, &amp; Commerceのユースケースに関する情報を強調表示します。
 
 1. [Adobe Targetにログイン &#x200B;](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=ja)。
 
@@ -72,40 +80,40 @@ The following instructions highlight information pertaining to the Search, Socia
       >
       >[!DNL Analytics]が[!DNL Target]内のデータソースとして有効になっており、正しいレポートスイートが選択されていることを確認してください。
 
-   1. Set the **[!UICONTROL Priority]** to `High` or `999` to prevent conflicts when users in the test segment receive an incorrect on-site experience.
+   1. **[!UICONTROL Priority]**&#x200B;を`High`または`999`に設定して、テストセグメントのユーザーが誤ったオンサイトエクスペリエンスを受け取ったときに競合を防ぎます。
 
 
-   1. Within **[!UICONTROL Reporting Settings]**, select the **[!UICONTROL Company Name]** and **[!UICONTROL Report Suite]** connected to your Search, Social, &amp; Commerce account.
+   1. **[!UICONTROL Reporting Settings]**&#x200B;内で、Search, Social, &amp; Commerce アカウントに接続されている&#x200B;**[!UICONTROL Company Name]**&#x200B;と&#x200B;**[!UICONTROL Report Suite]**&#x200B;を選択します。
 
-      For additional reporting tips, see &quot;[Reporting best practices and troubleshooting](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=ja).&quot;
+      その他のレポートのヒントについては、「[&#x200B; レポートのベストプラクティスとトラブルシューティング &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=ja)」を参照してください。
 
-   1. In the **[!UICONTROL Date Range]** field, enter the appropriate start and end dates for the test.
+   1. 「**[!UICONTROL Date Range]**」フィールドに、テストの適切な開始日と終了日を入力します。
 
-   1. Select **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. In the **[!UICONTROL Value]** field, enter the [!UICONTROL Network Account ID], [!UICONTROL Network Campaign ID], [!UICONTROL Network Adgroup ID], or [!UICONTROL Network Ad ID] for the relevant ad network entity in Search, Social, &amp; Commerce. This allows you to use the [!DNL Target] query string parameters for click-through audiences for the entity.
+   1. **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**&#x200B;を選択します。 「**[!UICONTROL Value]**」フィールドに、Search, Social, &amp; Commerceの関連する広告ネットワークエンティティの[!UICONTROL Network Account ID]、[!UICONTROL Network Campaign ID]、[!UICONTROL Network Adgroup ID]または[!UICONTROL Network Ad ID]を入力します。 これにより、エンティティのクリックスルーオーディエンスに[!DNL Target] クエリ文字列パラメーターを使用できます。
 
-      You can find the ID by [adding the relevant ID column to the entity view](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
+      IDは、[関連するID列をエンティティビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)に追加することで見つけることができます。
 
-      ![[!UICONTROL Network Account ID] column in the [!UICONTROL Accounts] view](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] column in the [!UICONTROL Accounts] view")
+      [!UICONTROL Accounts] ビュー")の[!UICONTROL Accounts] ビュー&rbrack;(/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID]列の!&lbrack;[!UICONTROL Network Account ID]列
 
-      Work with your Adobe Account Team if you need assistance.
+      サポートが必要な場合は、Adobe アカウントチームにお問い合わせください。
 
-   1. For the **[!UICONTROL Traffic Allocation Method]**, select **[!UICONTROL Manual (Default)]** and split the audience 50/50.
+   1. **[!UICONTROL Traffic Allocation Method]**&#x200B;の場合、**[!UICONTROL Manual (Default)]**&#x200B;を選択し、オーディエンスを50/50に分割します。
 
-   1. Save the activity.
+   1. アクティビティを保存します。
 
-1. Use [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ja) to make design changes to the A/B test landing page template.
+1. [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ja)を使用して、A/B テスト ランディングページ テンプレートにデザイン変更を加えます。
 
-   * Experience A: Don&#39;t edit because it&#39;s the default/control landing page experience without personalization.
+   * エクスペリエンス A: パーソナライゼーションなしでデフォルト/コントロールのランディングページエクスペリエンスであるため、編集しないでください。
 
-   * Experience B: Use the [!DNL Target] user interface to customize the landing page template based on the assets included in the test (such as headlines, copy, button placement, and creatives).
+   * エクスペリエンス B: [!DNL Target] ユーザーインターフェイスを使用して、テストに含まれるアセット（見出し、コピー、ボタンの配置、クリエイティブなど）に基づいてランディングページテンプレートをカスタマイズします。
 
    >[!NOTE]
    >
-   >For example creative test use cases, contact your Adobe Account Team.
+   >クリエイティブテストのユースケースなど、Adobeのアカウントチームにお問い合わせください。
 
-## Step 2: Set up your [!DNL Analytics for Target] Analysis Workspace in [!DNL Analytics]
+## 手順2: [!DNL Analytics]で[!DNL Analytics for Target] Analysis Workspaceを設定する
 
-[!DNL Analytics for Target] (A4T) is a cross-solution integration that lets advertisers create [!DNL Target] activities based on [!DNL Analytics] conversion metrics and audience segments and then measure the results using [!DNL Analytics] as the reporting source. そのアクティビティのすべてのレポートとセグメント化は、[!DNL Analytics] データ収集に基づいています。
+[!DNL Analytics for Target] （A4T）は、広告主が[!DNL Analytics]個のコンバージョン指標とオーディエンスセグメントに基づいて[!DNL Target]個のアクティビティを作成し、[!DNL Analytics]をレポートソースとして使用して結果を測定できるクロスソリューション統合です。 そのアクティビティのすべてのレポートとセグメント化は、[!DNL Analytics] データ収集に基づいています。
 
 実装手順へのリンクを含む[!DNL Analytics for Target]について詳しくは、「[Adobe Analytics as the reporting source for Adobe Target （A4T） &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)」を参照してください。
 

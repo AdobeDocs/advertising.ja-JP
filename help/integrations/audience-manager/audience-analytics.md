@@ -1,31 +1,39 @@
 ---
-title: 'Adobe Advertisingのお客様向け[!DNL Adobe] [!DNL Audience Analytics] '
-description: 広告のユースケースに [!DNL Adobe] [!DNL Audience Analytics]を使用する方法について説明します
+title: Adobe Advertisingのお客様向け[!DNL Adobe] [!DNL Audience Analytics]
+description: 広告のユースケースに[!DNL Adobe] [!DNL Audience Analytics]を使用する方法について説明します
 feature: Integration with Adobe Audience Manager
 exl-id: 457d4335-2762-4aab-94b8-12f8a79d109b
-TQID: https://experienceleague.adobe.com/XFaacUNElL25w5SMS5fzWkfRwnXr2WxhsBLe3sTccg4
+TQID: 'https://experienceleague.adobe.com/XFaacUNElL25w5SMS5fzWkfRwnXr2WxhsBLe3sTccg4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
   - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+    internal-label: Audience Manager integration
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: '505'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertisingのお客様向け[!DNL Adobe] [!DNL Audience Analytics]
 
 [[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja)は、Adobe Audience ManagerとAdobe Analytics間の統合であり、Audience Managerのお客様は、サイトのアクティビティに関する詳細なインサイトを得るために[!DNL Analytics]にセグメントを送信できます。
@@ -73,7 +81,7 @@ Audience Managerの露出セグメントを使用して、funnelの上部サイ�
 Audience Managerのサードパーティセグメントを利用して、利用者がサイトとどのようにやり取りしているのかをより詳細に分析できます。 サードパーティセグメントのプロファイルとメディアキャンペーンのサイトの主要業績評価指標とのエンゲージメントに基づいて、メディアをアクティベートする新しいサードパーティオーディエンスを決定するために情報を使用できます。
 
 >[!TIP]
-> `Audiences ID`が収集するその他のディメンションと同様に、`Audiences Name`全体でAudience Manager [!DNL Analytics]および[!DNL Analytics] ディメンションを使用します。
+> [!DNL Analytics]が収集するその他のディメンションと同様に、[!DNL Analytics]全体でAudience Manager `Audiences ID`および`Audiences Name` ディメンションを使用します。
 
 [!DNL Analysis Workspace]で作成できるレポートの例を次に示します。
 
