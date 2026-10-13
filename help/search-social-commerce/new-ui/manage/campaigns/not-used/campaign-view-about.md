@@ -65,7 +65,7 @@ Links to unused (separate) pages:
 
 >[!MORELIKETHIS]
 >
->* [ ポートフォリオへのキャンペーンの割り当て](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [ ポートフォリオからキャンペーンを削除](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
->* [ キャンペーンの制約の割り当ての管理](campaign-constraint-assignments-manage.md)
+>* [&#x200B; ポートフォリオへのキャンペーンの割り当て](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [&#x200B; ポートフォリオからキャンペーンを削除](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [&#x200B; キャンペーンの制約の割り当ての管理](campaign-constraint-assignments-manage.md)
 >* [[!UICONTROL Campaigns] ビュー](campaign-view-report.md)からデータビューレポートを管理
