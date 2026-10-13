@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -25,11 +25,11 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* バルクシート ファイルを削除すると、[!UICONTROL Downloads] リストからも、[!UICONTROL Bulksheets] ビューからも削除されます。
->* 「[[!UICONTROL Portfolios] ビュー](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)」、「[[!UICONTROL Campaigns] ビュー](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)」、「[[!UICONTROL Ad Groups] ビュー](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)」から新しいユーザーインターフェイスにデータをダウンロードする際のヘルプも参照してください。
+>* 「[[!UICONTROL Portfolios] ビュー](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)」、「[[!UICONTROL Campaigns] ビュー](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)」、「[[!UICONTROL Ad Groups] ビュー](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)」から新しいユーザーインターフェイスにデータをダウンロードする際のヘルプも参照してください。
 
 1. メインメニューで、[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]をクリックし、任意のエンティティ表示を開きます。
 
-1. ツールバーの右側にある「![&#x200B; レポートのダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートのダウンロード ")」をクリックして、ダウンロードパネルを表示します。
+1. ツールバーの右側にある「![ レポートのダウンロード ](/help/search-social-commerce/assets/download.png " レポートのダウンロード ")」をクリックして、ダウンロードパネルを表示します。
 
 1. レポートまたはバルクシートの横にある「![削除](/help/search-social-commerce/assets/delete.png "削除")」をクリックします。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （レガシーUI） キャンペーン管理ビューからデータをダウンロード &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
->* [&#x200B; （新しいUI） [!UICONTROL Portfolios] ビュー](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)からデータビューレポートを管理します
->* [&#x200B; （新しいUI） [!UICONTROL Campaigns] ビュー](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)からデータビューレポートを管理します
->* [&#x200B; （新しいUI） [!UICONTROL Ad Groups] ビュー](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)からデータビューレポートを管理します
+>* [ （レガシーUI） キャンペーン管理ビューからデータをダウンロード ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ （新しいUI） [!UICONTROL Portfolios] ビュー](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)からデータビューレポートを管理します
+>* [ （新しいUI） [!UICONTROL Campaigns] ビュー](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)からデータビューレポートを管理します
+>* [ （新しいUI） [!UICONTROL Ad Groups] ビュー](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)からデータビューレポートを管理します

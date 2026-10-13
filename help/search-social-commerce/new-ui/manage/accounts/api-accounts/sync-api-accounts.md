@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 9aa8125392f6025110113334399b0ab1e406987e
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]、[!DNL LY Ads] （旧称[!DNL Yahoo! Japan Ads]）、[!DNL Microsoft Advertising] （旧称[!DNL Bing Ads]）、[!DNL Yandex]、および既存の[!DNL Baidu] アカウントのみ*
 
-同期とは、[&#x200B; サポートされている広告ネットワーク &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)上の各広告主の接続された広告ネットワークアカウントに関する更新情報をSearch, Social, &amp; Commerceが収集するプロセスです。 このデータには、広告主のキャンペーン構造とキャンペーンエンティティ（Search, Social, &amp; Commerceで管理または報告されているほとんどの属性を含む）が含まれます。 クリックデータは含まれず、Search, Social, &amp; Commerceの外部に入力された入札額や入札修飾子も含まれません。
+同期とは、[ サポートされている広告ネットワーク ](/help/search-social-commerce/introduction/supported-inventory.md)上の各広告主の接続された広告ネットワークアカウントに関する更新情報をSearch, Social, &amp; Commerceが収集するプロセスです。 このデータには、広告主のキャンペーン構造とキャンペーンエンティティ（Search, Social, &amp; Commerceで管理または報告されているほとんどの属性を含む）が含まれます。 クリックデータは含まれず、Search, Social, &amp; Commerceの外部に入力された入札額や入札修飾子も含まれません。
 
 Search, Social, &amp; Commerceは、1日に1回、広告ネットワークのアカウントと自動的に同期します。また、広告ネットワークの1つで新しいキャンペーンが検出されるたびに同期します。 さらに、検索、ソーシャル、Commerce内から作成されたキャンペーンデータへのあらゆる変更が、広告ネットワークにすぐに送信されます。
 
@@ -30,7 +30,7 @@ Search, Social, &amp; Commerceは、1日に1回、広告ネットワークのア
 
 >[!NOTE]
 >
->[&#x200B; バルクシートを作成するときはいつでも](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)、オプションでバルクシートを作成する前に広告ネットワークと同期できます。
+>[ バルクシートを作成するときはいつでも](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)、オプションでバルクシートを作成する前に広告ネットワークと同期できます。
 
 ## 広告ネットワークアカウント内のすべてのキャンペーンを同期
 
@@ -44,7 +44,7 @@ Search, Social, &amp; Commerceは、1日に1回、広告ネットワークのア
 
 ジョブが完了するまでに1時間以上かかる場合があります。
 
-## [!UICONTROL Campaigns] ビューからキャンペーンを同期します。
+## [!UICONTROL Campaigns] ビューからキャンペーンを同期
 
 1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Campaigns]**&#x200B;をクリックします。
 
@@ -56,4 +56,4 @@ Search, Social, &amp; Commerceは、1日に1回、広告ネットワークのア
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; バルクシート ファイルのダウンロードと作成](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)
+>* [ バルクシート ファイルのダウンロードと作成](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)
