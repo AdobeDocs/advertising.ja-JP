@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b495d4e7b4309f8933d29489d77896645bebc538
 workflow-type: tm+mt
-source-wordcount: '7729'
+source-wordcount: '7809'
 ht-degree: 0%
 ---
 # DSPの新機能
@@ -50,6 +50,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細 |
 | ---- | ------- | ----------- | -------------------- |
+| 10月8日 | [!UICONTROL Insights] | （広告主が[!DNL Analytics for Advertising]のみ）Adobe Analytics コンバージョンデータのオーディエンスインテリジェンスに基づく2つの新しいインサイトを利用できます。<ul><li>[!UICONTROL Delivery Composition]は、コンバージョンの可能性が異なるユーザー間でのDSP ユーザーモデルの入札方法を示します。 このinsightを使用して、配信しているプレースメントを確認します。</li><li>[!UICONTROL Organic Seed Profile]には、コンバーターに関連付けられている興味、時間、場所、デバイスが表示されます。 このinsightを使用して、パッケージまたはプレースメントのローンチを計画したり、次のキャンペーンに情報を提供したりします。</li></ul> | 「[&#x200B; インサイトについて](/help/dsp/campaign-management/insights/insights-about.md)」を参照してください。 |
 | 2026年8月14日（PT） | [!UICONTROL Reports] | 新しい[!UICONTROL DSP Self-Attributed Conversions] レポートは、Advertising DSPがコンバージョンに貢献したことを示しています。これには、DSPが役割を果たしたカスタマージャーニーが含まれますが、Adobe Advertisingの検索クリックなどの後のタッチは、他のレポートでラストクリッククレジットを受け取りました。 これは、Advertising DSPとAdvertising Search, Social, &amp; Commerceの両方を使用する広告主にとって最も有用です。 | 「[&#x200B; カスタムレポートについて](/help/dsp/reports/report-about.md)」および「[&#x200B; カスタムレポートに関するよくある質問](/help/dsp/reports/faq-reports.md)」を参照してください。 |
 | 2026年7月1日（PT） | [!DNL Creative] | Advertising Creativeでは、次のベータ機能を利用できます。<ul><li>**[!UICONTROL Creative Studio]**&#x200B;は、生成AIを使用して、単一のセッションで複数の形式のディスプレイ広告を作成、サイズ変更、および調整できます。 自然言語のチャットインターフェイスを使用して、広告コンテンツを生成、変更できます。コンテンツフィールドのデザインに手作業は必要ありません。</li><li>ロゴ、カラーパレット、音声ガイドライン、画像標準、チャネル固有のコピーガイドラインなど、ブランドのビジュアルおよびメッセージング IDを反映する&#x200B;**[!UICONTROL brand profiles]**&#x200B;を作成および管理します。 [!UICONTROL Creative Studio]で広告を作成する場合、AI エージェントはブランド プロファイル情報を使用して、特定のブランドのコンテンツ生成をグラウンド化します。</li></ul> | 「[Creative Studioについて](/help/creative/creative-studio/creative-studio-about.md)」および「[&#x200B; ブランドプロファイルの管理](/help/creative/brands/brand-manage.md)」を参照してください。 |
 | 2026年6月23日（PT） | [!UICONTROL Placements]、郵便番号 | 各国の郵便番号のリストを作成して、プレースメントのターゲットまたは除外として再利用できるようになりました。 | 「[郵便番号リストの管理](/help/dsp/resources/lists-postal-codes-manage.md)」および「[配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)」を参照してください。 |
