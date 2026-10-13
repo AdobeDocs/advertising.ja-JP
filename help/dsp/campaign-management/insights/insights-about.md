@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 4d0f262a450d478903d0a182a71bb25f8a766b02
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1986'
 ht-degree: 0%
 ---
 # インサイトについて
@@ -130,6 +130,52 @@ Microsoft Excel スプレッドシート（XLSX）形式でビジュアライゼ
 
   * **[!UICONTROL Impression Wins]:** プレースメントがインプレッションを獲得した商談件数。 成約率が入札額よりもはるかに低い場合、入札価格がターゲット在庫の一般的な市場金利を下回っている可能性があります。
 
+### [!UICONTROL Delivery Composition] タブ
+
+「[!UICONTROL Delivery Composition]」タブには、コンバージョンの可能性が異なるユーザー間で、モデルがどのように入札されるかが表示されます。 このinsight セットを使用して、配信しているプレースメントをレビューします。
+
+デフォルトでは、特定の広告主と特定のプレースメントのデータが表示されます。 レポートの日付範囲、データが更新された最後の日付、およびレポートが更新される次の日付が含まれます。 必要に応じて、フィルターを設定して、別の広告主のデータを表示したり、別のプレースメントを選択したりできます。
+
+インサイトには、次のようなものがあります。
+
+* **[!UICONTROL Placement Summary]:** （パッケージ内のプレースメント）関連するパッケージとパッケージの目標を示します。
+
+* **[!UICONTROL Propensity Breakdown]:**&#x200B;は、コンバーターに一致したユーザーを、予測されるコンバージョンの可能性に基づいて[!UICONTROL High Propensity]、[!UICONTROL Medium Propensity]および[!UICONTROL Low Propensity]の階層に分離します。 各グループのデータには、[!UICONTROL Avg Bid]、[!UICONTROL Conversion Rate]、[!UICONTROL Share of Conversions]および[!UICONTROL Conversion Rate Lift]が含まれます（参照ベースラインに対するグループのコンバージョン率）。 データは、モデルが予測したユーザーのうち、コンバージョンに達する可能性が高いオーディエンスに対して、より多くの入札額を割り当てる方法を示しています。  **注：** データは観察されたパフォーマンスに基づいています。モデルがコンバージョンの増分増加を引き起こしたことを証明するものではありません。
+
+* **[!UICONTROL Bid Multiplier Graph]:**&#x200B;は、20のオーディエンスバケットごとに入札乗数を示し、ユーザーがコンバージョンする可能性を予測するのに比例して支出を拡大します。 バケット 20は、最も傾向の高いユーザーを含み、最も高い乗数を受け取ります。 「高」、「Medium」、「低」は、固定オーディエンス率ではなく、それらのバケットの簡素化されたグループです。
+
+  乗数が1.0xの場合、基礎となる入札に調整は行われません。 1.0倍を超える乗数は入札額が高くなり、1.0倍未満の乗数は入札額が低くなります。
+
+### [!UICONTROL Organic Seed Profile] タブ
+
+「[!UICONTROL Organic Seed Profile]」タブには、コンバーターに関連付けられている興味、時間、場所、デバイスが表示されます。 Insight セットは、Adobe Analytics オーガニックコンバーターデータを使用します。これは、プログラマティック広告の機会で観察されるユーザーの母集団である、プログラマティック入札ストリームのユーザーに一致します。 このinsightは、キャンペーンの配信ではなく既存のコンバーターデータを使用するため、適切なシードデータが利用可能な場合は、DSPの費用が発生する前に計画を立てることができます。 この内部を使用して、パッケージまたはプレースメントの立ち上げを計画したり、次のキャンペーンに情報を提供したりします。
+
+デフォルトでは、特定の広告主と特定のパッケージまたはプレースメントのデータが表示されます。 レポートの日付範囲、データが更新された最後の日付、およびレポートが更新される次の日付が含まれます。 必要に応じて、フィルターを設定して、別の広告主向けのデータを表示したり、別のパッケージやプレースメントを選択したりできます。
+
+インサイトには、次のようなものがあります。
+
+* **[!UICONTROL Affinity Insights]:** コンバーターのメディア消費から得られる関心と行動特性を、母集団全体に対するコンバージョン率の上昇率でランク付けして表示します。
+
+* **[!UICONTROL Temporal Insights]:**&#x200B;この広告主のオーディエンスが最もアクティブなタイミングを特定できるように、コンバーターのアクティビティが&#x200B;*曜日*&#x200B;または&#x200B;*時間*&#x200B;ごとに集計されて表示されます。
+
+* **[!UICONTROL Geographic Insights]:**&#x200B;は、*国*&#x200B;または&#x200B;*地域*&#x200B;によって集計されたコンバーター活動を、母集団全体に対するコンバージョン率の上昇率で重み付けして表示します。
+
+* **[!UICONTROL Device Insights]:**&#x200B;は、デバイス タイプのミックス別に集計されたコンバーターのアクティビティを表示し、全体の母集団に対するコンバージョン率の上昇率で重み付けします。
+
+各insightには、次の列が含まれます。
+
+**[!UICONTROL Bid-stream Users]:** グループに属する入札ストリームのユーザー。
+
+**[!UICONTROL Converters]:** グループに属するコンバーター。
+
+**[!UICONTROL Precision]:** コンバージョンしたグループ内のユーザーの割合。 **注意：**&#x200B;小さいゼロ以外のレートは、表示された精度で0.0%に丸めることができます。 値が0であるということは、必ずしもコンバーターが存在しないということではありません。[!UICONTROL Converters] カウントを確認してください。
+
+**[!UICONTROL Recall]:** グループに属するすべてのコンバーターの割合。 **注：** グループのコンバージョン上昇率は高くなりますが、コンバーターのシェアはわずかです。
+
+**[!UICONTROL Bid-stream %]:** グループに属する入札ストリーム ユーザーの割合。
+
+**[!UICONTROL Conv. Rate Lift]:**&#x200B;参照ベースラインに対するグループのコンバージョン率。 1.00xはベースラインと同じレートを意味し、1.50xは50%高く、0.50xは50%低くなります。 **注意：**&#x200B;上昇率は、予測でも増分コンバージョンの証明でもありません。
+
 ## パフォーマンスインサイトの表示
 
 1. 一連のインサイトを開きます。
@@ -144,7 +190,7 @@ Microsoft Excel スプレッドシート（XLSX）形式でビジュアライゼ
 
 ## タブへのフィルターの適用
 
-1. タブ上部のツールバーで、![&#x200B; フィルターボタン &#x200B;](/help/dsp/assets/filter.png)をクリックします。
+1. タブ上部のツールバーで、![ フィルターボタン ](/help/dsp/assets/filter.png)をクリックします。
 
 1. 左側の列で、ディメンションを選択し、右側の列で必要に応じて1つ以上の値を選択します。
 
@@ -178,7 +224,7 @@ Microsoft Excel スプレッドシート（XLSX）形式でビジュアライゼ
 
 ## 特定のinsightをXLSX ファイルにダウンロードする
 
-* Insightの右上にある「![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
+* Insightの右上にある「![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")」をクリックします。
 
   ファイルは、ブラウザーのデフォルトのダウンロードフォルダーに保存されます。
 
@@ -189,7 +235,7 @@ Add:
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて](/help/dsp/reports/report-about.md)
->* [&#x200B; キャンペーン管理ビューのパフォーマンスレポートの種類](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [ カスタムレポートについて](/help/dsp/reports/report-about.md)
+>* [ キャンペーン管理ビューのパフォーマンスレポートの種類](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [使用可能なレポート列](/help/dsp/reports/report-columns.md)
->* [&#x200B; キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [ キャンペーンデータビューの管理](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
