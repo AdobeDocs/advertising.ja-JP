@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '113'
 ht-degree: 0%
 ---
 # （新しいUI）目的の編集
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;をクリックします。
 
-1. 目的の横にあるチェックボックスをオンにします。 データテーブルの上にあるツールバーで、![編集](/help/search-social-commerce/assets/edit.png "編集") **[!UICONTROL Edit]**&#x200B;をクリックします。
+1. 目的の名前の上にカーソルを置き、**[!UICONTROL ...]>[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. 目的の設定のいずれかを変更します。
 
@@ -51,4 +51,5 @@ ht-degree: 0%
 >* [目標を削除](objective-delete.md)
 >* [目標に重み付けの推奨事項を適用](objective-apply-weight-recommendations.md)
 >* [目標の設定](objective-settings.md)
->* [目的のパフォーマンスデータをダウンロード &#x200B;](objective-download-performance-data.md)
+>* [目的の設定を書き出し](objective-export.md)
+>* [目的のパフォーマンスデータをダウンロード ](objective-download-performance-data.md)

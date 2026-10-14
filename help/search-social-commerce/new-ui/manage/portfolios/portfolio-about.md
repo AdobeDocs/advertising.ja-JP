@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '826'
 ht-degree: 0%
 ---
 # （新しいUI）ポートフォリオについて
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 一部のユーザーの役割では、ポートフォリオを作成および設定できます。 ポートフォリオのタイプに応じて、ポートフォリオ設定には、ポートフォリオ目標、割り当てられたキャンペーン、支出戦略、ポートフォリオレベルの入札制約、モデリングおよび最適化パラメーターが含まれます。 Search, Social, &amp; Commerceでポートフォリオの最適化を開始する準備ができたら、ステータスを「最適化」に変更します。
 
-オプションでポートフォリオを[&#x200B; ポートフォリオグループ &#x200B;](portfolio-group-manage.md)にグループ化して、グループ全体の複合データを表示できます。
+オプションでポートフォリオを[ ポートフォリオグループ ](portfolio-group-manage.md)にグループ化して、グループ全体の複合データを表示できます。
 
 役割によっては、パフォーマンス シミュレーションを生成できる場合があります。予測モデリングを使用して、最適な支出項目と詳細な予測精度レポートを特定します。<!-- Mention this now? In addition, all users can use the Spend Recommendation Tool to identify the optimal budget distribution across portfolios. -->
 
@@ -73,11 +73,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolios] ビュー
 
-[!UICONTROL Portfolios] ビューには、フィルターされたビュー内の既存のポートフォリオがすべて一覧表示され、カスタマイズ可能なパフォーマンスデータが表示されます。 [&#x200B; ビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)内の列をカスタマイズし、データをフィルタリングして、ツールバー[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)から特定のポートフォリオ を含めることができます。
+[!UICONTROL Portfolios] ビューには、フィルターされたビュー内の既存のポートフォリオがすべて一覧表示され、カスタマイズ可能なパフォーマンスデータが表示されます。 [ ビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)内の列をカスタマイズし、データをフィルタリングして、ツールバー](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)から特定のポートフォリオ [を含めることができます。
 
 データテーブルの上では、指定した日付範囲のビュー内のすべてのポートフォリオをまたいで合計される最大3つの指標を含むパフォーマンスグラフを開くことができます。 また、ポートフォリオのパフォーマンスや正確性などのポートフォリオの詳細のほか、ポートフォリオ内の各キャンペーン、広告グループ、キーワードのパフォーマンスデータを開くこともできます。
 
-ポートフォリオのステータスなど、一部の設定は、ポートフォリオ行で直接編集できます。
+ポートフォリオのステータスなど、一部の設定は、ポートフォリオ行で直接編集できます。 ポートフォリオまたはその関連するキャンペーンと子キャンペーンエンティティが、支出に影響を与える制約（ネットワーク、キャンペーン予算、ターゲット、CPC制限、入札単位の制約など）で設定されている場合は、[!UICONTROL Constraints]列の[!UICONTROL Yes]をクリックして、制約レベルとタイプを含むすべての制約のリストを表示します。
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
 
 ### 使用可能なアクション
@@ -105,11 +105,11 @@ ht-degree: 0%
 
 * [ポートフォリオパフォーマンスの詳細の表示](portfolio-details.md)
 
-* [&#x200B; データを[!UICONTROL Portfolios] ビューでダウンロード &#x200B;](portfolio-view-report.md)
+* [ データを[!UICONTROL Portfolios] ビューでダウンロード ](portfolio-view-report.md)
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ポートフォリオを作成](portfolio-create.md)
->* [&#x200B; ポートフォリオを複製](portfolio-duplicate.md)
->* [&#x200B; ポートフォリオの編集](portfolio-edit.md)
+>* [ ポートフォリオを作成](portfolio-create.md)
+>* [ ポートフォリオを複製](portfolio-duplicate.md)
+>* [ ポートフォリオの編集](portfolio-edit.md)
 >* [[!UICONTROL Portfolios] ビュー](portfolio-view-report.md)からデータビューレポートを管理

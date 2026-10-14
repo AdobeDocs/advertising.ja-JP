@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Objectives
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '717'
 ht-degree: 0%
 ---
 # （新しいUI）広告ネットワークへの目的のアップロードを有効にする
@@ -42,7 +42,7 @@ Search, Social, &amp; Commerceでは、広告主アカウントのポートフ�
 
 1. メインメニューで、**[!UICONTROL Goals]** > **[!UICONTROL Objectives]**&#x200B;をクリックします。
 
-1. ツールバーで、**[!UICONTROL Upload Objective]**&#x200B;をクリックします。
+1. ツールバーで、**[!UICONTROL Objective Upload]**&#x200B;をクリックします。
 
 1. [!UICONTROL Objective Upload Setup] ダイアログで、**[!UICONTROL Enable Objective Upload]** トグルを&#x200B;**[!UICONTROL On]**&#x200B;に設定します。
 
@@ -54,7 +54,7 @@ Search, Social, &amp; Commerceでは、広告主アカウントのポートフ�
 
 1. `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`という名前の各目的が2日以内に広告ネットワークに表示されることを確認します。
 
-   [!DNL Google Ads] エディターで、[&#x200B; コンバージョンアクション &#x200B;](https://support.google.com/google-ads/answer/11461796){target="_blank"}を検索します。 [!DNL Microsoft Advertising] エディターで、[&#x200B; コンバージョン目標](https://help.ads.microsoft.com/#apex/ads/en/56709){target="_blank"}を検索します。
+   [!DNL Google Ads] エディターで、[ コンバージョンアクション ](https://support.google.com/google-ads/answer/11461796){target="_blank"}を検索します。 [!DNL Microsoft Advertising] エディターで、[ コンバージョン目標](https://help.ads.microsoft.com/#apex/ads/en/56709){target="_blank"}を検索します。
 
    必要に応じて、アップロード日を含めるように日付範囲を更新します。
 
@@ -94,8 +94,9 @@ GGL_Leadは[!DNL Google Ads]追跡された指標であるため、計算/アッ
 >[!MORELIKETHIS]
 >
 >* [目標について](objective-about.md)
+>* [目的の設定を書き出し](objective-export.md)
 >* [広告主のコンバージョン指標を管理](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
->* [&#x200B; マネージャーアカウント &#x200B;](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)の資格情報の管理 [!DNL Google Ads] 
+>* [ マネージャーアカウント ](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)の資格情報の管理 [!DNL Google Ads] 
 
 <!--
 I don't see this yet in new UI:

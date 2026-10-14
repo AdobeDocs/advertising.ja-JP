@@ -11,22 +11,26 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '410'
 ht-degree: 0%
 ---
 # （新しいUI）ポートフォリオのステータスの変更
 
 *Beta機能*
 
-完全なポートフォリオ設定を開かずに、[&#x200B; ポートフォリオのステータス &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses)をすばやく変更できます。
+完全なポートフォリオ設定を開かずに、[ ポートフォリオのステータス ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses)をすばやく変更できます。
 
 関連するキャンペーンのコスト/クリック/インプレッションデータと収益データの収集を停止するには、ポートフォリオを削除します。 ポートフォリオを削除すると、Search, Social, &amp; Commerce内で使用できなくなります。
 
 ポートフォリオステータスへのすべての変更は、ポートフォリオの変更履歴に記録されます。
 
-## ポートフォリオの最適化、アクティブ化、非アクティブ化
+>[!NOTE]
+>
+>[ ポートフォリオバルクシート ](portfolio-bulksheets.md)を使用して、複数のポートフォリオのステータスを変更できます。
+
+## [!UICONTROL Portfolios] ビューからポートフォリオを最適化、アクティブ化、または非アクティブ化する
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;をクリックします。
 
@@ -49,7 +53,7 @@ ht-degree: 0%
      >* Search, Social, &amp; Commerceがポートフォリオの最適化を開始したら、今後のキャンペーン予算と（該当する場合）入札変更（該当する場合）をすべて管理します。 Search, Social, &amp; Commerceは、広告ネットワーク内から加えた変更を上書きします。
      >* キャンペーンのバルクシートを作成して投稿することで、ポートフォリオで最適化されたCPC キャンペーンに一時的に手動入札を設定できます。 投稿されたデータから生じる入札変更は、1日適用されます。 その後、Search, Social, &amp; Commerceは、独自の最適化戦略に従って入札額の設定を再開します。
 
-## 非アクティブなポートフォリオの削除
+## 非アクティブなポートフォリオを[!UICONTROL Portfolios] ビューから削除します
 
 削除できるのは、非アクティブなポートフォリオのみです。 ポートフォリオが最適化またはアクティブな場合は、削除するオプションが表示される前に、まずステータスを非アクティブに変更する必要があります。
 
@@ -65,6 +69,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ポートフォリオを作成](portfolio-create.md)
->* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [&#x200B; ポートフォリオについて](portfolio-about.md)
+>* [ ポートフォリオを作成](portfolio-create.md)
+>* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [ ポートフォリオについて](portfolio-about.md)

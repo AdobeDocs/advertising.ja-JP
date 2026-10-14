@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '1080'
 ht-degree: 0%
 ---
 # （新しいUI） ポートフォリオパフォーマンスの詳細の表示
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 * アクティブなポートフォリオのモデル精度データ。モデルが予測からどの程度偏差しているかを示します。 このレポートには、毎日またはローリングの7日間のコスト精度、クリック精度、および目標値の精度が全体的に表示されます。
 
-  クリック日（デフォルト）またはトランザクション日別にデータを表示できます。   データは、トレンドチャート（デフォルト）またはテーブルとして表示することもできます。
+  クリック日（デフォルト）またはトランザクション日別にデータを表示できます。 データは、トレンドチャート（デフォルト）またはテーブルとして表示することもできます。
 
 * アクティブなポートフォリオの実際の費用に対するターゲット支出。 オプションで、ポートフォリオのキャンペーン予算合計も含めることができます。
 
@@ -48,11 +48,23 @@ ht-degree: 0%
 
   必要に応じて、ポートフォリオ設定を開いて編集できます。
 
+* ポートフォリオ内のキャンペーン、広告グループ、キーワードのリスト。 個々のキーワードについて、予測、履歴情報、階層情報などの入札単位の詳細を表示できます。
+
+  [!UICONTROL Bid Unit Details] ビューには、選択した入札単位に関する次の予測、履歴情報、および階層情報が含まれます。
+
+  * [!UICONTROL Forecast] タブ：異なる入札価格での入札単位の現在の予測クリック数、コスト、クリック単価、位置、収益。 すべてのデバイスと各デバイスタイプ （[!UICONTROL Mobile]、[!UICONTROL Computer]、および[!UICONTROL Tablet]）のデータが表示されます。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
+
+    **注：** デバイス固有のデータが不十分で、そのデバイス タイプのモデルの構築や調整の設定に利用できない場合、デバイス タイプの予測データは利用できません。 **注意：**&#x200B;特定の日付範囲でクリックを受けたポートフォリオ内の各入札単位のコスト精度または収益精度を確認するには、ポートフォリオのコスト精度の詳細または収益精度の詳細をそれぞれ表示します。
+
+  * [!UICONTROL History] タブ：入札日ごとに表示された日付と時刻、インプレッション数、クリック数、総費用、平均CPC、平均順位、クリック日で表示された加重収益など、過去36日間のすべての入札。 データは、すべてのデバイスおよび各デバイスの種類（モバイル、コンピューター、タブレット）について表示されます。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
+
+  * [!UICONTROL Detail] タブ：一致タイプ（該当する場合）、入札単位が属する親広告グループ、キャンペーン、広告ネットワークアカウント、およびポートフォリオ。
+
 ## ポートフォリオのパフォーマンスの詳細を開く
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;をクリックします。
 
-1. ポートフォリオ名をクリックします。
+1. ポートフォリオ名の上にカーソルを置き、 （/help/search-social-commerce/assets/portfolio-overview.png「Portfolioの概要」をクリック）をクリックします。
 
 1. （オプション） **[!UICONTROL Data Aggregation]** メニューから、各行に含まれるデータの時間単位を変更します：*[!UICONTROL Daily]、*、*[!UICONTROL Weekly]、*&#x200B;または&#x200B;*[!UICONTROL Monthly]。*
 
@@ -70,13 +82,13 @@ ht-degree: 0%
 
     * **[!UICONTROL Display predictions]**&#x200B;の横にあるスイッチを移動して、予測指標の値を表示または非表示にします。
 
-    * グラフ ビュー（![&#x200B; グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
+    * グラフ ビュー（![ グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
 
     * （グラフ表示）グラフ上の任意のポイントのデータを表示するには、そのポイントにカーソルを合わせます。
 
 * （オプション） [!UICONTROL Model accuracy]傾向グラフをカスタマイズするには、次のいずれかの操作を行います。
 
-  * グラフ ビュー（![&#x200B; グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
+  * グラフ ビュー（![ グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
 
   * *[!UICONTROL Click Date]*&#x200B;と&#x200B;*[!UICONTROL Transaction Date]*&#x200B;によるデータの表示を切り替えます。
 
@@ -114,19 +126,23 @@ ht-degree: 0%
 
 * ポートフォリオ内のキャンペーン内のすべての広告グループを表示するには、「**[!UICONTROL Campaigns]**」タブをクリックし、キャンペーン名をクリックします。
 
-## ポートフォリオ内のキーワードのリスト
+## ポートフォリオ内のキーワードに関する詳細のリストと表示
 
-各キーワードの詳細には、入札単位ID、照合タイプ、実際のコストと予測コスト、クリック数、目標値、コスト、クリック数、目標値の違いなどがあります。
+各キーワードの詳細には、入札単位ID、照合タイプ、実際のコストと予測コスト、クリック数、目標値、コスト、クリック数、目標値の違いなどがあります。 個々のキーワードに関する入札単位の詳細を表示できます。
 
-* ポートフォリオ内のすべてのキーワードを表示するには、「**[!UICONTROL Keywords]**」タブをクリックします。
+1. キーワードのリスト：
 
-* ポートフォリオ内の広告グループ内のすべてのキーワードを表示するには、「**[!UICONTROL Ad Groups]**」タブをクリックし、広告グループ名をクリックします。
+   * ポートフォリオ内のすべてのキーワードを表示するには、「**[!UICONTROL Keywords]**」タブをクリックします。
+
+   * ポートフォリオ内の広告グループ内のすべてのキーワードを表示するには、「**[!UICONTROL Ad Groups]**」タブをクリックし、広告グループ名をクリックします。
+
+1. （オプション）特定の入札単位に関する詳細を表示するには、**[!UICONTROL Bid Unit ID]**&#x200B;列の値をクリックします。 詳細については、[!UICONTROL Bid Unit Details]の任意のタブをクリックしてください。
 
 ## ポートフォリオ設定の表示と編集
 
 * ポートフォリオ設定を表示または非表示にするには、**[!UICONTROL Portfolio Settings]**&#x200B;をクリックします。
 
-  * 表示されているポートフォリオ設定を編集するには、設定セクションの横にある![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックし、[&#x200B; ポートフォリオ設定を編集](portfolio-edit.md)します。
+  * 表示されているポートフォリオ設定を編集するには、設定セクションの横にある![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックし、[ ポートフォリオ設定を編集](portfolio-edit.md)します。
 
 ポートフォリオ設定について詳しくは、Search, Social, &amp; Commerce内から入手できる最適化ガイドを参照してください。
 
@@ -152,6 +168,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI） ポートフォリオについて](portfolio-about.md)
->* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [&#x200B; （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード &#x200B;](portfolio-view-report.md)
+>* [ （新しいUI） ポートフォリオについて](portfolio-about.md)
+>* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [ （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード ](portfolio-view-report.md)

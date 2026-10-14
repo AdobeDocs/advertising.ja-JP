@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 [!DNL AdFixus] セグメントをDSPに読み込むと、プレースメントを[!DNL AdFixus] IDに、特定の1st パーティセグメントを[!DNL AdFixus]にターゲティングできます。 [!DNL AdFixus] セグメントを再利用可能なオーディエンスに追加することもできます。 任意のセグメントの詳細には、該当する[!DNL AdFixus] IDの数が含まれます。
 
-カスタムレポートで[!DNL AdFixus] IDを持つユーザーのインプレッション、クリック数、頻度などの指標を表示できます。 [!DNL Analytics for Advertising]を持つ広告主は、Adobe Analyticsの[!DNL AdFixus] IDのビュースルーデータと、DSP内のAdobe Analyticsのデータも表示できます。
+カスタムレポートで[!DNL AdFixus] IDを持つユーザーのインプレッション、クリック数、頻度などの指標を表示できます。 [!DNL Analytics for Advertising]を持つ広告主は、Adobe Analyticsの[!DNL AdFixus] IDと、DSP内のAdobe Analyticsのデータのビュースルーデータも確認できます。
 
 1. [!DNL AdFixus]を使用して、組織の1st パーティデータを[!DNL AdFixus]のIDを持つセグメントに変換します。
 
@@ -42,13 +42,13 @@ ht-degree: 0%
 
 1. （広告主、[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)）次の[!DNL Analytics]の測定に対するトラッキングを設定します：
 
-   1. （まだ実行していない場合）トラッキング URL[&#128279;](/help/integrations/analytics/ids.md)で、 [!DNL Analytics for Advertising]&#x200B;[&#128279;](/help/integrations/analytics/prerequisites.md)およびAMO IDとEF IDを実装するためのすべての前提条件を完了してください。
+   1. （まだ実行していない場合）トラッキング URL](/help/integrations/analytics/ids.md)で、 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)および[AMO IDとEF IDを実装するための[すべての前提条件を完了してください。
 
    1. Web ページに[!DNL AdFixus]固有のコードをデプロイして、デスクトップおよびモバイル web ブラウザー（モバイルアプリではなく）の[!DNL AdFixus] IDからビュースルーへのコンバージョンを一致させます。
 
 1. ファーストパーティ [!DNL AdFixus] セグメントをインポートします。
 
-   1. [&#x200B; オーディエンスソースを作成](source-manage.md) / [!UICONTROL Type] **[!UICONTROL AdFixus ID]**。 利用規約に同意する必要があります。
+   1. [ オーディエンスソースを作成](source-manage.md) / [!UICONTROL Type] **[!UICONTROL AdFixus ID]**。 利用規約に同意する必要があります。
 
       ソース設定には、自動生成されたソースキーが含まれます。
 
@@ -64,9 +64,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
->* [&#x200B; オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](source-manage.md)
->* [Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ja)
->* Adobe Experience Platform [宛先カタログの概要](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ja)
->* [&#x200B; ユニバーサル IDのアクティブ化のサポート &#x200B;](/help/dsp/audiences/universal-ids.md)
->* [&#x200B; オーディエンス管理について](/help/dsp/audiences/audience-about.md)
+>* [ ファーストパーティのオーディエンスソースについて](/help/dsp/audiences/sources/source-about.md)
+>* [ オーディエンスソースを管理してユニバーサル ID オーディエンスをアクティブ化](source-manage.md)
+>* [Adobe Advertising DSP接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Adobe Experience Platform [宛先カタログの概要](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [ ユニバーサル IDのアクティブ化のサポート ](/help/dsp/audiences/universal-ids.md)
+>* [ オーディエンス管理について](/help/dsp/audiences/audience-about.md)

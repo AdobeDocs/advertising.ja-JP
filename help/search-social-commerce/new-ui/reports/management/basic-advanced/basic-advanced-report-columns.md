@@ -12,16 +12,16 @@ feature_v2:
     internal-label: Search Basic Reports
   - id: c51771d4-46e9-5151-913c-59d4e047a4f1
     internal-label: Search Advanced Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '4023'
+source-wordcount: '3993'
 ht-degree: 0%
 ---
 # 基本レポートと詳細レポートのレポート列
 
 | 列 | 説明 |
 | ---- | ---- |
-| \[広告主固有のカスタム（派生）指標\] | 既存の指標から計算される、作成した[&#x200B; カスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)の値。 |
+| \[広告主固有のカスタム（派生）指標\] | 既存の指標から計算される、作成した[ カスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)の値。 |
 | \[広告主固有ラベル分類\] | 現在エンティティに適用されているラベル分類（エンティティ レベル）。 複数のラベル分類は、コンマ（,）で区切ります。 |
 | \[Advertiser-specific conversion metrics\] | 指定されたコンバージョン指標またはサイトエンゲージメント指標のコンバージョン数。 |
 | \[Googleで追跡されたコンバージョン\] | 「GGL\*、GGL_CT\*、およびGGL_XD_CT\*」のエントリを参照してください。 |
@@ -57,7 +57,6 @@ ht-degree: 0%
 | [!UICONTROL Asset Type] | アセットの種類：*[!UICONTROL Image]*、*[!UICONTROL Text]* （見出しや説明など）、または&#x200B;*[!UICONTROL Video]*。 |
 | [!UICONTROL Asset Performance Label] | （[!UICONTROL Asset Report]） アセットのアルゴリズムで生成されたパフォーマンス ラベル：*[!UICONTROL Best]*、*[!UICONTROL Good]*、*[!UICONTROL Low]*、または&#x200B;*[!UICONTROL Learning]*。 |
 | [!UICONTROL Average CPC] | クリックあたりの平均コスト。 |
-| [!UICONTROL Avg Position] | 指定された日付範囲内の広告の平均位置。<br><br>[!DNL Google Ads]および[!DNL LY Ads] キャンペーンの場合、このデータは2019年9月までのみ利用できます。 [!DNL Microsoft Advertising]の場合、このデータは2021年1月22日までのみ利用できます。 |
 | [!UICONTROL Base URL] | キャンペーンまたはアカウントに設定された追加パラメーターを含む、キーワードのベース URL。 検索、ソーシャル、Commerceのリダイレクトとトラッキングコードは含まれていません。 |
 | [!UICONTROL Bid Strategy] | （ほとんどの広告ネットワーク）キャンペーンまたはキャンペーンコンポーネントの場合、これはキャンペーンの入札戦略です。 マネージャーアカウントにリンクされている広告ネットワークアカウントの場合、これはクロスアカウント入札戦略です。 使用可能な値は、広告ネットワークによって異なります。 |
 | [!UICONTROL Business Name] | （[!DNL Microsoft Advertising]件のレスポンシブ広告） ビジネス名。 |
@@ -103,7 +102,7 @@ ht-degree: 0%
 | [!UICONTROL Currency] | 該当する通貨の種類（「USD」や「GBP」など）。<br><br><b>注意：</b> レポートに異なる通貨を持つ口座のデータが含まれている場合、「[!UICONTROL Total]」の金銭的価値は、通貨に関係なく、列のすべての数値の合計になります。 |
 | [!UICONTROL Current Bid] | ターゲットの現在の入札額。 |
 | [!UICONTROL Current First Page Bid] | （[!DNL Google Ads] キャンペーンのみ） [!DNL Google]検索クエリがキーワードと一致する場合に、検索結果の最初のページに広告を配置するために現在必要なクリック単価（CPC）の見積もり入札。<br><br>単一のキーワードと一致タイプの組み合わせの場合、この値は、現在その組み合わせに必要な最初のページ入札です。 同じキーワードと一致タイプの組み合わせを複数のキャンペーンで使用する場合、この値は、すべてのインスタンスで現在必要な最初のページ入札の最小値です。 |
-| [!UICONTROL Current Quality Score] | （[!DNL Google Ads]および[!DNL Microsoft Advertising] キャンペーンのみ）広告ネットワークによって指定された、キーワードまたは入札単位の現在の品質スコア。 範囲は1 （低）から10 （完全）です。 単一のキーワードと一致タイプの組み合わせの場合、この値はその組み合わせの現在のスコアです。 複数のキャンペーンで同じキーワードと一致タイプの組み合わせが使用されている場合、この値は、すべてのインスタンス間の最大の現在のスコアです。<br><br>広告ネットワークは、入札価格と広告掲載順位を決定するために品質スコアを使用します。 キーワードと関連する広告の関連性、利用者の検索クエリ、ランディングページの品質など、多くの要因にもとづいて計算されます。 [!DNL Google Ads]のキーワードの場合は、キーワードのクリック率も考慮され、[!DNL Microsoft Advertising]のキーワードの場合は、ランディングページが提供するユーザーエクスペリエンスも考慮されます。 |
+| [!UICONTROL Current Quality Score] | （[!DNL Google Ads]および[!DNL Microsoft Advertising] キャンペーンのみ）広告ネットワークによって指定された、キーワードまたは入札単位の現在の品質スコア。 範囲は1 （低）から10 （完全）です。 単一のキーワードと一致タイプの組み合わせの場合、この値はその組み合わせの現在のスコアです。 複数のキャンペーンで同じキーワードと一致タイプの組み合わせが使用されている場合、この値は、すべてのインスタンス間の最大の現在のスコアです。<br><br>広告ネットワークは、入札価格と（該当する場合）広告位置を決定するために品質スコアを使用します。 キーワードと関連する広告の関連性、利用者の検索クエリ、ランディングページの品質など、多くの要因にもとづいて計算されます。 [!DNL Google Ads]のキーワードの場合は、キーワードのクリック率も考慮され、[!DNL Microsoft Advertising]のキーワードの場合は、ランディングページが提供するユーザーエクスペリエンスも考慮されます。 |
 | [!UICONTROL Custom Bid Level] | （ディスプレイネットワークのみをターゲットとするGoogle キャンペーン）どのレベルで入札が行われるか：<i>[!UICONTROL Ad Group]</i>、<i>[!UICONTROL Age]</i>、<i>[!UICONTROL Gender]</i>、<i>[!UICONTROL Interest and List]</i>、<i>[!UICONTROL Keyword]</i>、<i>[!UICONTROL Placement]</i>、<i>[!UICONTROL Vertical]</i>、<i>[!UICONTROL None]</i>、または<i>[!UICONTROL Unknown]</i>。 |
 | [!UICONTROL Description1] - [!UICONTROL Description4] | 広告の本文。 クリエイティブタイプによって、必要な説明行とオプションの説明行の数が異なります。 [!DNL Microsoft Advertising]のレスポンシブ広告またはマルチメディア広告の[!UICONTROL Description3]列と[!UICONTROL Description4]列を表示するには、レポート設定に「[!UICONTROL Descriptions]」列を含めます。 |
 | [!UICONTROL Descriptions] | （[!DNL Microsoft Advertising] レスポンシブ広告とマルチメディア広告）広告の説明行（「[!UICONTROL Description1]」～「[!UICONTROL Description4]」）ごとに列を追加します。 この列を含める場合、他の[!UICONTROL Description]列を含める必要はありません。 |
@@ -224,5 +223,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [基本レポートと詳細レポートについて](basic-advanced-report-about.md)
->* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [ スケジュール済みレポートの管理](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
 >* [基本および詳細レポート設定](basic-advanced-report-settings.md)
