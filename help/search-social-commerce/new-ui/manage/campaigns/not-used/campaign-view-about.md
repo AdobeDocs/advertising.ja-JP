@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '177'
 ht-degree: 0%
 ---
 # （新しいUI） [!UICONTROL Campaigns] ビューについて
@@ -44,17 +44,24 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 * [View a performance graph across all campaigns in the view](campaign-view-performance-graph.md)
 -->
 
-* 行内からキャンペーンの名前を変更します。
 
-* 行内からキャンペーンのステータスを削除または変更します。
+<!--
 
-* [既存または新規のポートフォリオにキャンペーンを割り当て](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)、および[&#x200B; ポートフォリオからキャンペーンを割り当て解除](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+Links to unused (separate) pages:
 
-* [キャンペーンに制約を割り当て、キャンペーンから制約を割り当て解除します](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+* Rename a campaign from within the row.
 
-* [&#x200B; ラベル分類をキャンペーンに割り当て](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
+* Delete or change the status of a campaign from within the row.
 
-* [[!UICONTROL Campaigns] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+* [Assign campaigns to existing or new portfolios](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio), and [unassign campaigns from portfolios](https://experienceleague.adobe.com/ja/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+
+* [Assign constraints to campaigns, and unassign constraints from campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
+
+* [Assign label classifications](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) to campaigns
+
+* [Manage data view reports from the [!UICONTROL Campaigns] view](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)
+
+-->
 
 >[!MORELIKETHIS]
 >

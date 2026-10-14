@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 0%
@@ -326,7 +326,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [検索入札単位の制約の管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [&#x200B; キャンペーンの制約の割り当ての管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [&#x200B; キャンペーンの制約の割り当ての管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
 >* [&#x200B; キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
 >* [&#x200B; プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 >* [&#x200B; （レガシーUI） キャンペーン管理ビューからデータをダウンロード &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)

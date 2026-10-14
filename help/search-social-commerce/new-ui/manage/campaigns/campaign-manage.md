@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2363'
 ht-degree: 0%
 ---
 # キャンペーンの管理
@@ -60,6 +60,8 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 * [キャンペーンにラベル分類を割り当て、キャンペーンからラベル分類を削除します](#campaign-classifications)
 
 * [[!UICONTROL Campaigns] ビューからのデータビューレポートの管理](#campaign-reports)
+
+* [キャンペーンデータを広告ネットワークと同期する](#campaign-sync)
 
 ## キャンペーンの作成 {#campaign-create}
 
@@ -425,6 +427,18 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. [!UICONTROL Grid Reports] ダイアログの[!UICONTROL Recently Generated] リストで、ファイル名の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
+
+## キャンペーンデータを広告ネットワークと同期する {#campaign-sync}
+
+アカウント内のすべてのキャンペーンのデータを[同期することもできます](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/sync-api-accounts.md)。
+
+1. メインメニューで、**[!UICONTROL Manage]** > **[!UICONTROL Campaigns]**&#x200B;をクリックします。
+
+1. 同期する各キャンペーンの名前の横にあるチェックボックスをオンにします。
+
+1. 一括操作ツールバーで、**[!UICONTROL ... More Actions]** > **[!UICONTROL Sync]**&#x200B;をクリックします。
+
+ジョブが完了するまでに1時間以上かかる場合があります。
 
 >[!MORELIKETHIS]
 >
