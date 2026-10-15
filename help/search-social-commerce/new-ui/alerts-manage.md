@@ -8,14 +8,14 @@ product_v2:
 feature_v2:
   - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
     internal-label: Search Alerts
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1070'
 ht-degree: 0%
 ---
 # （新しいUI）カスタムアラートの管理
 
-ポートフォリオ、キャンペーン、広告グループが、指定された期間内にパフォーマンス指標などの特定の条件を満たしたかどうかを特定するためのアラートテンプレートを作成し、アラートを生成します。 アラートは、1人の広告主に対して使用できます。 アラートには、関連するデフォルトビューのすべての列が含まれます。 例えば、キャンペーンレベルのアラートでは、デフォルトの[!UICONTROL Campaigns] ビューにすべての列が含まれます。
+ポートフォリオ、アカウント、キャンペーン、広告グループ、広告、キーワード、製品グループが、指定された期間内にパフォーマンス指標などの特定の条件を満たしたかどうかを特定するためのアラートテンプレートを作成し、アラートを生成します。 アラートは、1人の広告主に対して使用できます。 アラートには、関連するデフォルトビューのすべての列が含まれます。 例えば、キャンペーンレベルのアラートでは、デフォルトの[!UICONTROL Campaigns] ビューにすべての列が含まれます。
 
 アラートテンプレートは、[!UICONTROL Custom Alerts] パネルの[!UICONTROL Alert Templates] タブまたは任意のページの上部から作成できます。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    * 任意のページの右上で、![&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") > **[!UICONTROL Create Custom Alert]**&#x200B;をクリックします。
 
-   任意のページの右上にある「![&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") > **[!UICONTROL View Custom Alerts]**」をクリックすると、「[!UICONTROL Alert Templates]」タブが開きます。 **[!UICONTROL Create Alert]**&#x200B;をクリックします。
+   * 任意のページの右上にある「![&#x200B; カスタムアラート &#x200B;](/help/search-social-commerce/assets/custom-alert.png " カスタムアラート ") > **[!UICONTROL View Custom Alerts]**」をクリックすると、「[!UICONTROL Alert Templates]」タブが開きます。 **[!UICONTROL Create Alert]**&#x200B;をクリックします。
 
 1. [&#x200B; アラート設定](#alert-template-settings)を&#x200B;**[!UICONTROL Entity]**、**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**&#x200B;および&#x200B;**[!UICONTROL Scheduling and Delivery]** タブで指定します。
 

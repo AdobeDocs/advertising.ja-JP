@@ -10,9 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
     internal-label: Search Assist Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '2055'
+source-wordcount: '2041'
 ht-degree: 0%
 ---
 # レポート設定の支援
@@ -37,8 +37,8 @@ ht-degree: 0%
 |  | [!UICONTROL Indicate event  type after entity name] | （[!UICONTROL Campaign Assist Report]のみ）キャンペーン名の後ろにイベントタイプを角括弧で囲みます。 例：`<campaign name> [click]`または`<campaign name> [Google Adwords] [Account1] [impression]` |
 | [!UICONTROL Filters] | [!UICONTROL Report Filters] | （[!UICONTROL Campaign Assist Report]のみ）指標の値が指定された条件を満たす場合にのみ、行を返します。 指標をレポートの列として含める必要はありません。 使用可能な指標のリストはレポートタイプによって異なりますが、広告主のカスタム派生指標、各検索エンジンおよびポートフォリオコンポーネントのIDとプロパティ名（[!UICONTROL Campaign ID]や[!UICONTROL Campaign Status]など）、広告主のコンバージョン指標、広告ネットワークのクリック関連の指標が含まれる場合があります。 使用可能な演算子には、<i>[!UICONTROL contains]</i>、<i>[!UICONTROL starts with]</i>、<i>[!UICONTROL equals]</i>、<i>[!UICONTROL is greater than]</i>、<i>[!UICONTROL is greater than or equal to]</i>、<i>[!UICONTROL is less than]</i>、<i>[!UICONTROL is less than or equal to]</i>、または<i>[!UICONTROL isn't equal to]</i>が含まれます。<br><br>1つ以上のフィルターを適用するには、次の操作を行います。<ul><li>指標と演算子を選択し、該当する値を入力します。 例えば、クリック数が100回を超えるキーワードのみを返すには、[!UICONTROL Clicks]を選択し、[!UICONTROL >]を選択して、入力フィールドに100を入力します。</li><li>（追加のフィルターを適用するには）追加の各フィルターについて、**[!UICONTROL +Add Filter]**&#x200B;をクリックし、**[!UICONTROL AND]**&#x200B;または&#x200B;**[!UICONTROL OR]**&#x200B;を選択し、指標と演算子を選択してから、該当する値を入力します。</li></ul> |
 | [!UICONTROL Scheduling] | [!UICONTROL Frequency] | （「[!UICONTROL Save as template]」オプションが選択されている場合にのみ編集可能。それ以外は「[!UICONTROL Now]」に設定されます）レポートを実行するタイミング：<i>[!UICONTROL Now]</i> （デフォルトでは、1回レポートを実行する場合）、<i>[!UICONTROL Daily]</i>、<i>[!UICONTROL Weekly on] [曜日]</i>、または<i>[!UICONTROL Every Month] [月]</i>日。 <i>[!UICONTROL Now]</i>を除くすべての期間について、広告主のタイムゾーンの午前9時から開始する時間を選択します。 |
-|  | [!UICONTROL Email Recipients] | <b>注意：</b>この設定は、[!UICONTROL Reports]のメール通知が[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md)内で有効になっている場合にのみ使用されます。<br><br>登録済みの検索、ソーシャル、およびCommerce ユーザーが、レポートが完了したか、エラーが発生したため通知を送信する対象です。 デフォルトでは、ユーザーアカウントの名前が選択されています。 オプションで、広告主のデータへのアクセス権を持つユーザーを追加または削除します。 レポートを繰り返し実行するようにスケジュールすると、レポートが完了するたびに通知が送信されます。 |
-|  | [!UICONTROL Email Notification Format] | <b>注意：</b>この設定は、[!UICONTROL Reports]のメール通知が[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md)内で有効になっている場合にのみ使用されます。<br><br> （[!UICONTROL Email Recipients]が指定されている場合）指定されたアドレスへのメール通知に含める内容：<ul><li><i>[!UICONTROL Notification Only]</i> （既定値）: レポートの完了または失敗の通知のみを添付ファイルなしで送信します。 通知には、すべてのレポート形式の一時的なダウンロードリンクが含まれています。</li><li><i>[!UICONTROL XLS Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをXLS形式で含めるには。 1 MBを超えるファイルは圧縮されます。</li><li><i>[!UICONTROL TSV Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをTSV形式で含めるには。 1 MBを超えるファイルは圧縮されます。</li><li><i>[!UICONTROL CSV Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをCSV形式で含めるには。 1 MBを超えるファイルは圧縮されます。 |
+|  | [!UICONTROL Email Recipients] | レポートが完了したとき、またはエラーが原因でキャンセルされたときに通知を送信するメールアドレス。 デフォルトでは、ユーザーアカウントの名前が選択されています。 必要に応じて、メールアドレスを追加または削除します。 レポートの繰り返し実行がスケジュールされている場合、レポートが完了するたびに通知が送信されます。<br><br><b>注：</b>検索、ソーシャル、およびCommerce ユーザーの場合、この設定は、[!UICONTROL Reports]のメール通知が[内のそれらのユーザーに対して有効になっている場合にのみ使用されます[!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md)。 |
+|  | [!UICONTROL Email Notification Format] | （[!UICONTROL Email Recipients]が指定されている場合）指定されたアドレスへのメール通知に含める内容：<ul><li><i>[!UICONTROL Notification Only]</i> （既定値）: レポートの完了または失敗の通知のみを添付ファイルなしで送信します。 通知には、すべてのレポート形式の一時的なダウンロードリンクが含まれています。</li><li><i>[!UICONTROL XLS Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをXLS形式で含めるには。 1 MBを超えるファイルは圧縮されます。</li><li><i>[!UICONTROL TSV Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをTSV形式で含めるには。 1 MBを超えるファイルは圧縮されます。</li><li><i>[!UICONTROL CSV Attachment]:</i> ファイルが約10 MB未満の場合、完成したレポートのコピーをCSV形式で含めるには。 1 MBを超えるファイルは圧縮されます。 |
 
 >[!MORELIKETHIS]
 >

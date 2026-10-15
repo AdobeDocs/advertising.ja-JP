@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 [!DNL AdFixus] セグメントをDSPに読み込むと、プレースメントを[!DNL AdFixus] IDに、特定の1st パーティセグメントを[!DNL AdFixus]にターゲティングできます。 [!DNL AdFixus] セグメントを再利用可能なオーディエンスに追加することもできます。 任意のセグメントの詳細には、該当する[!DNL AdFixus] IDの数が含まれます。
 
-カスタムレポートで[!DNL AdFixus] IDを持つユーザーのインプレッション、クリック数、頻度などの指標を表示できます。 [!DNL Analytics for Advertising]を持つ広告主は、Adobe Analyticsの[!DNL AdFixus] IDのビュースルーデータと、DSP内のAdobe Analyticsのデータも表示できます。
+カスタムレポートで[!DNL AdFixus] IDを持つユーザーのインプレッション、クリック数、頻度などの指標を表示できます。 [!DNL Analytics for Advertising]を持つ広告主は、Adobe Analyticsの[!DNL AdFixus] IDと、DSP内のAdobe Analyticsのデータのビュースルーデータも確認できます。
 
 1. [!DNL AdFixus]を使用して、組織の1st パーティデータを[!DNL AdFixus]のIDを持つセグメントに変換します。
 

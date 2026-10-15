@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2407'
 ht-degree: 2%
 ---
 # Adobe Advertising Search, Social &amp; Commerce ガイド {#search-social-commerce}
@@ -235,6 +235,7 @@ ht-degree: 2%
       + [目標の編集](/help/search-social-commerce/new-ui/goals/objectives/objective-edit.md)
       + [目標の削除](/help/search-social-commerce/new-ui/goals/objectives/objective-delete.md)
       + [目的に合わせて体重を推奨する](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
+      + [目的の設定のエクスポート](/help/search-social-commerce/new-ui/goals/objectives/objective-export.md)
       + [目的のパフォーマンス指標のダウンロード](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
       + [客観的設定](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
       + [広告ネットワークへの目標のアップロードを有効にする](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)

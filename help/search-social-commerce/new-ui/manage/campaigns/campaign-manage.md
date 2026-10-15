@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2401'
 ht-degree: 0%
 ---
 # キャンペーンの管理
@@ -47,17 +47,19 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 
 * [キャンペーン設定の編集](#campaign-edit)
 
-* [行内からキャンペーンのステータスを変更または削除する](#campaign-status)
+* [行内からキャンペーンのステータスを変更する](#campaign-status)
 
 * [キャンペーンをポートフォリオに割り当て、キャンペーンをポートフォリオから削除する](#campaign-portfolio)
-
-* [[!UICONTROL Campaigns] ビューでのパフォーマンス グラフの表示](#campaign-performance-graph)
 
 * [キャンペーンに入札制約を割り当て、キャンペーンから制約を割り当て解除します](#campaign-constraints)
 
 * [キャンペーンにターゲット制約を割り当て、キャンペーンからターゲット制約を割り当て解除します](#campaign-target-constraints)
 
 * [キャンペーンにラベル分類を割り当て、キャンペーンからラベル分類を削除します](#campaign-classifications)
+
+* [[!UICONTROL Campaigns] ビューでのパフォーマンス グラフの表示](#campaign-performance-graph)
+
+* [キャンペーンの予算履歴の表示](#campaign-budget-history)
 
 * [[!UICONTROL Campaigns] ビューからのデータビューレポートの管理](#campaign-reports)
 
@@ -377,6 +379,14 @@ Search, Social, &amp; Commerceは、同期された[!DNL Google Ads]および[!D
 ### 表示されているパフォーマンスグラフを非表示にする
 
 * データテーブルの上にある「![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
+
+## キャンペーンの予算履歴の表示 {#campaign-budget-history}
+
+予算履歴には、変更のソースを含め、キャンペーン予算に対する各変更が一覧表示されます。
+
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;をクリックします。
+
+1. キャンペーン名の上にカーソルを置き、**[!UICONTROL ...]>[!UICONTROL Budget Change History]**&#x200B;をクリックします。
 
 ## [!UICONTROL Campaigns] ビューからのデータビューレポートの管理 {#campaign-reports}
 

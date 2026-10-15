@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 # （新しいUI）目的について
@@ -82,7 +82,21 @@ ht-degree: 0%
 
 ## 広告ネットワークに目的をアップロードするオプション
 
-オプションで[&#x200B; アカウントのポートフォリオの目標を [!DNL Google Ads] および/または [!DNL Microsoft Advertising]  コンバージョン &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md)として アップロードして、キャンペーンレベルまたは広告グループレベルの最適化に使用できます。 このオプションを有効にすると、Search, Social, &amp; Commerceは、EF ID （クリック ID）レベルの重み付けされた収益データを毎日アドネットワークに渡します。 ネットワークで追跡される広告の指標が省略されます。
+オプションで[&#x200B; アカウントのポートフォリオの目標を [!DNL Google Ads] および/または [!DNL Microsoft Advertising]  コンバージョン &#x200B;](objective-upload-to-networks.md)として アップロードして、キャンペーンレベルまたは広告グループレベルの最適化に使用できます。 このオプションを有効にすると、Search, Social, &amp; Commerceは、EF ID （クリック ID）レベルの重み付けされた収益データを毎日アドネットワークに渡します。 ネットワークで追跡される広告の指標が省略されます。
+
+## 使用可能なアクション
+
+* [目標の設定](objective-create.md)
+
+* [目標の編集](objective-edit.md)
+
+* [目的に合わせて体重を推奨する](objective-apply-weight-recommendations.md)
+
+* [目標設定を [!DNL Microsoft Excel]  ワークシートにエクスポートする](objective-export.md)
+
+* [目的のパフォーマンスデータのダウンロード](objective-download-performance-data.md)
+
+* [目標の削除](objective-delete.md)
 
 >[!MORELIKETHIS]
 >
@@ -91,4 +105,5 @@ ht-degree: 0%
 >* [目標を削除](objective-delete.md)
 >* [目標に重み付けの推奨事項を適用](objective-apply-weight-recommendations.md)
 >* [目標の設定](objective-settings.md)
+>* [目的の設定を書き出し](objective-export.md)
 >* [目的のパフォーマンスデータをダウンロード &#x200B;](objective-download-performance-data.md)

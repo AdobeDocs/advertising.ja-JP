@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
     internal-label: Search Notifications
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1724'
 ht-degree: 0%
 ---
 # （新しいUI）通知の管理
@@ -119,7 +119,6 @@ In Campaign Management:
   * **[!UICONTROL Accuracy]**: Notifications when a portfolio's model accuracy deviates [by how much?] from expectations.
 -->
 
-
 ## 使用可能なアクション
 
 * [通知を表示](#notification-view)
@@ -218,7 +217,11 @@ In Campaign Management:
 
 1. [通知パネルまたは通知センター](#notification-view)を開きます。
 
-1. アラート名の上にカーソルを置き、![既読または未読としてマーク &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
+1. 次のいずれかの操作を行います。
+
+   * 1回の通知の場合は、アラート名の上にカーソルを置き、![既読または未読としてマーク &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "既読または未読としてマーク ")をクリックします。
+
+   * すべての通知を既読としてマークするには、**[!UICONTROL Mark all as read]**&#x200B;をクリックします。
 
 ## 通知の削除 {#notification-delete}
 

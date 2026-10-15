@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '826'
 ht-degree: 0%
 ---
 # （新しいUI）ポートフォリオについて
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 データテーブルの上では、指定した日付範囲のビュー内のすべてのポートフォリオをまたいで合計される最大3つの指標を含むパフォーマンスグラフを開くことができます。 また、ポートフォリオのパフォーマンスや正確性などのポートフォリオの詳細のほか、ポートフォリオ内の各キャンペーン、広告グループ、キーワードのパフォーマンスデータを開くこともできます。
 
-ポートフォリオのステータスなど、一部の設定は、ポートフォリオ行で直接編集できます。
+ポートフォリオのステータスなど、一部の設定は、ポートフォリオ行で直接編集できます。 ポートフォリオまたはその関連するキャンペーンと子キャンペーンエンティティが、支出に影響を与える制約（ネットワーク、キャンペーン予算、ターゲット、CPC制限、入札単位の制約など）で設定されている場合は、[!UICONTROL Constraints]列の[!UICONTROL Yes]をクリックして、制約レベルとタイプを含むすべての制約のリストを表示します。
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
 
 ### 使用可能なアクション

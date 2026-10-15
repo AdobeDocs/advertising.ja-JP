@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '144'
 ht-degree: 0%
 ---
 # （新しいUI）目的の作成
@@ -62,4 +62,5 @@ Advertising DSP パッケージで使用する目的の先頭に「`ADSP_`」を
 >* [目標を編集](objective-edit.md)
 >* [目標に重み付けの推奨事項を適用](objective-apply-weight-recommendations.md)
 >* [目標の設定](objective-settings.md)
+>* [目的の設定を書き出し](objective-export.md)
 >* [目的のパフォーマンスデータをダウンロード &#x200B;](objective-download-performance-data.md)
