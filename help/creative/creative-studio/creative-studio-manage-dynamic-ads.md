@@ -3,20 +3,19 @@ title: Creative Studioで動的なクリエイティブを管理する
 description: Adobe Advertising Creative Studioで、カタログを活用した動的クリエイティブを構築、編集、複製、削除する方法を説明します。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: '1042'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Creative Studio]での動的クリエイティブの管理
-
-*Beta機能*
 
 [!UICONTROL Creative Studio]の「**[!UICONTROL Creatives]**」タブには、動的なクリエイターがライブラリ別に一覧表示されます。 ここから、新しいカタログ駆動型の動的クリエイティブを作成したり、既存のクリエイティブの詳細と属性マッピングを編集したり、変更ログを表示したり、クリエイティブを複製したり、クリエイティブを削除したりできます。
 
@@ -96,26 +95,26 @@ ht-degree: 0%
 
       * 広告の組み合わせを編集するには：
 
-         1. カタログ行の上にカーソルを置き、**[!UICONTROL Edit]**&#x200B;をクリックします。
+        1. カタログ行の上にカーソルを置き、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-         1. **[!UICONTROL Edit Row]** ダイアログで、フィールド値を更新します。
+        1. **[!UICONTROL Edit Row]** ダイアログで、フィールド値を更新します。
 
-         1. **[!UICONTROL Save]**&#x200B;をクリックします。
+        1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
         カンバスが更新され、更新された値が反映されます。
 
       * **[!UICONTROL AI Assistant]** チャットパネルを使用して、カタログの組み合わせを分析およびフィルタリングします。 **[!UICONTROL Ask anything]** フィールドにリクエストを入力するか、提案されたプロンプトのいずれかをクリックします。
 
-         * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
-         * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
-         * **[!UICONTROL Show me all ads for millennial women in urban markets]**
+        * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
+        * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
+        * **[!UICONTROL Show me all ads for millennial women in urban markets]**
 
         AI エージェントは次のことが可能です。
 
-         * キャンバスをフィルタリングして、特定のオーディエンスセグメント、地域、言語、カテゴリー、その他のカタログフィールドに一致する広告を表示できます。
-         * 文字数制限の超過、コンテンツのオーバーフローや裁ち落とし、画像リンクの破損、免責条項の表示など、品質の問題を確認します。
-         * A/B テスト分析のための広告の組み合わせを比較します。
-         * 広告をグループ化して並べてレビューできます。
+        * キャンバスをフィルタリングして、特定のオーディエンスセグメント、地域、言語、カテゴリー、その他のカタログフィールドに一致する広告を表示できます。
+        * 文字数制限の超過、コンテンツのオーバーフローや裁ち落とし、画像リンクの破損、免責条項の表示など、品質の問題を確認します。
+        * A/B テスト分析のための広告の組み合わせを比較します。
+        * 広告をグループ化して並べてレビューできます。
 
         AI エージェントは、カタログから取得したコンテンツを変更できません。 広告コンテンツを変更するには、ソースカタログを更新します。
 
@@ -139,8 +138,8 @@ ht-degree: 0%
    * **[!UICONTROL Dynamic creative name]:** クリエイティブの表示名。
    * **[!UICONTROL Number of cards]:**&#x200B;各広告の組み合わせに含まれるカタログ オファーの数（1 ～ 50）。
    * （オプション） **[!UICONTROL Catalogs]**&#x200B;で、カタログの選択を更新します。
-      * **[!UICONTROL Catalog template]**&#x200B;を使用して、使用可能なカタログをフィルタリングします。 必要に応じてテンプレートファイルをダウンロードするには、**[!UICONTROL Download feed template]**&#x200B;をクリックします。
-      * リストからカタログを検索して選択するか、アップロードエリアにドラッグするか、**[!UICONTROL Browse Files]**&#x200B;をクリックして新しいカタログファイルをアップロードします（サポートされている形式：JPG、PNG、JPEG、XLS、XLSX、CSV、TSV、ZIP、MP4、最大25 MB、一度に1つのファイル）。 アップロードされたカタログは、チップリストに「**（アップロード）**」というラベルが付けられます。
+     * **[!UICONTROL Catalog template]**&#x200B;を使用して、使用可能なカタログをフィルタリングします。 必要に応じてテンプレートファイルをダウンロードするには、**[!UICONTROL Download feed template]**&#x200B;をクリックします。
+     * リストからカタログを検索して選択するか、アップロードエリアにドラッグするか、**[!UICONTROL Browse Files]**&#x200B;をクリックして新しいカタログファイルをアップロードします（サポートされている形式：JPG、PNG、JPEG、XLS、XLSX、CSV、TSV、ZIP、MP4、最大25 MB、一度に1つのファイル）。 アップロードされたカタログは、チップリストに「**（アップロード）**」というラベルが付けられます。
 
      すべてのカタログは、同じカタログテンプレートファミリーに属している必要があります。
 
