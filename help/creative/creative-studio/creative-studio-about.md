@@ -39,7 +39,7 @@ ht-degree: 0%
 
 * **マルチサイズのサポート：**&#x200B;広告をIAB標準ディメンションにサイズ変更するには、1つの手順で行います。 AIがフォーマットごとにコンテンツの配置とサイズを自動的に調整し、キャンバスのコントロール（ズームイン/アウト、画面に合わせる、アニメーションを再生する）が各サイズのレビューに役立ちます。
 
-* **ブランドに沿った出力：** [ ブランドプロファイル ](/help/creative/brands/brand-manage.md)が適用されると、AIはブランドのロゴ、カラーパレット、音声ガイドライン、画像標準、チャネルガイドラインを使用して、生成されたコンテンツをブランドに即したものにします。
+* **ブランドに沿った出力：** [&#x200B; ブランドプロファイル &#x200B;](/help/creative/brands/brand-manage.md)が適用されると、AIはブランドのロゴ、カラーパレット、音声ガイドライン、画像標準、チャネルガイドラインを使用して、生成されたコンテンツをブランドに即したものにします。
 
 * **アセットライブラリへのアクセス：** アセットライブラリから選択して、画像やその他のアセットをAI チャットメッセージに直接添付し、コンテンツ生成中もビジュアルコンテキストを利用できるようにします。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 | ワークフロー | 使用するタイミング |
 | --- | --- |
-| [ テンプレートから標準広告を生成](creative-studio-manage-standard-ads.md) | ディスプレイまたはビデオ テンプレートを選択し、[!UICONTROL Ad Variations Generator]を使用して、AIが生成したコンテンツのバリエーションを作成します。 テンプレートが既に存在していて、AIによるコンテンツ生成が必要な場合に最適です。 |
+| [&#x200B; テンプレートから標準広告を生成](creative-studio-manage-standard-ads.md) | ディスプレイまたはビデオ テンプレートを選択し、[!UICONTROL Ad Variations Generator]を使用して、AIが生成したコンテンツのバリエーションを作成します。 テンプレートが既に存在していて、AIによるコンテンツ生成が必要な場合に最適です。 |
 | [動的なクリエイティブの管理](creative-studio-manage-dynamic-ads.md) | 製品またはコンテンツカタログをテンプレートに接続し、カタログフィールドをテンプレート要素にマッピングしてから、AI エージェントを使用して生成されたすべての広告の組み合わせをプレビューおよびQAします。 カタログ主導の大規模なキャンペーンに最適です。 |
 | 新しいテンプレートを作成する | 空白のキャンバスから開始して、ディスプレイまたはビデオテンプレートを作成します。 既存のテンプレートがお客様のニーズを満たしていない場合に最適です。 |
 | HTML 5 テンプレートのアップロード | ZIP ファイルとしてパッケージ化された1つ以上のHTML5広告テンプレートを読み込みます。 実稼動対応のHTML5 クリエイターが[!DNL Advertising Creative]以外で作成されている場合に最適です。 |
@@ -73,4 +73,4 @@ ht-degree: 0%
 >* [Creative Studioでテンプレートを管理](creative-studio-manage-templates.md)
 >* [Creative Studioでアセットを管理](creative-studio-manage-assets.md)
 >* [Advertising Creativeでブランドプロファイルを管理](/help/creative/brands/brand-manage.md)
->* [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)の[C2PA メタデータ
+>* [!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-content-credentials.md)のC2PA メタデータ

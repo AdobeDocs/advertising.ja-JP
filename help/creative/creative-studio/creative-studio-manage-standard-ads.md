@@ -78,7 +78,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >AI アシスタントは、テキスト（見出し、サブヘッドライン、CTA、ボディコピー）の生成と変更、背景画像の入れ替え、ブランドカラーの適用、ロゴバージョンの切り替え、新しいサイズテンプレートの作成を可能にします。 テンプレートの構造（エレメントの位置、レイアウト、間隔、パディング、フォントファミリー、フォントサイズ、境界線）は変更できません。 セッションを開始する前に、テンプレートエディターで構造的な変更を行います。 [ テンプレートの編集](creative-studio-manage-templates.md#edit-template)を参照してください。
+      >AI アシスタントは、テキスト（見出し、サブヘッドライン、CTA、ボディコピー）の生成と変更、背景画像の入れ替え、ブランドカラーの適用、ロゴバージョンの切り替え、新しいサイズテンプレートの作成を可能にします。 テンプレートの構造（エレメントの位置、レイアウト、間隔、パディング、フォントファミリー、フォントサイズ、境界線）は変更できません。 セッションを開始する前に、テンプレートエディターで構造的な変更を行います。 [&#x200B; テンプレートの編集](creative-studio-manage-templates.md#edit-template)を参照してください。
 
    1. （オプション）リクエストにビジュアル参照を含めるには、チャット入力領域の「**[!UICONTROL +]**」ボタンをクリックします。 **[!UICONTROL Select from Asset Library]** ダイアログで、次の操作を行います。
 
@@ -203,4 +203,4 @@ ht-degree: 0%
 >* [Creative Studioで動的なクリエイティブを管理](creative-studio-manage-dynamic-ads.md)
 >* [Creative Studioでテンプレートを管理](creative-studio-manage-templates.md)
 >* [Advertising Creativeでブランドプロファイルを管理](/help/creative/brands/brand-manage.md)
->* [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)の[C2PA メタデータ
+>* [!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-content-credentials.md)のC2PA メタデータ
