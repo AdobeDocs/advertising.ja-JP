@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: 8569a5238e934d3170ac021ffff6a3e1fa31eaa1
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1923'
 ht-degree: 0%
 ---
 # [!DNL Creative] 2.0の新機能
@@ -35,6 +35,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年10月15日（PT） | [!DNL Creative Studio] | （Beta機能）既存の静的ディスプレイ広告イメージを編集可能なディスプレイ広告テンプレートに変換するために、[!UICONTROL Creative Studio]でAIを使用して生成できるようになりました。 | 「[[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md)の広告テンプレートの管理」を参照してください。 |
 | 2026年7月1日（PT） | [!DNL Creative Studio], [!DNL Brands] | 以下のベータ機能を利用できます。<ul><li>**[!UICONTROL Creative Studio]**&#x200B;は、生成AIを使用して、単一のセッションで複数の形式のディスプレイ広告を作成、サイズ変更、および調整できます。 自然言語のチャットインターフェイスを使用して、広告コンテンツを生成、変更できます。コンテンツフィールドのデザインに手作業は必要ありません。</li><li>ロゴ、カラーパレット、音声ガイドライン、画像標準、チャネル固有のコピーガイドラインなど、ブランドのビジュアルおよびメッセージング IDを反映する&#x200B;**[!UICONTROL brand profiles]**&#x200B;を作成および管理します。 [!UICONTROL Creative Studio]で広告を作成する場合、AI エージェントはブランド プロファイル情報を使用して、特定のブランドのコンテンツ生成をグラウンド化します。</li></ul> | 「[Creative Studioについて](/help/creative/creative-studio/creative-studio-about.md)」および「[&#x200B; ブランドプロファイルの管理](/help/creative/brands/brand-manage.md)」を参照してください。 |
 | 2026年6月3日（PT） | [!DNL Adobe Analytics for Advertising] | Advertising Creativeおよび[!DNL Adobe Analytics for Advertising]を使用している広告主は、Adobe Analyticsでバリアント レベルおよびブランチ レベルのデータを表示できるようになりました。 [!DNL Creative] エクスペリエンスから広告を実行するために使用されるDSPに関係なく、データが表示されます。 Advertising DSPのプレースメントから広告を実行する場合は、キャンペーンレベルおよびプレースメントレベルのデータと、コスト関連の指標も表示されます。<br><br>追加の設定は必要ありません。 | [!DNL Analytics]に表示されているAdvertising Creative [&#x200B; トラフィック指標](https://experienceleague.adobe.com/ja/docs/analytics/components/metrics/amo-metrics)および[分類](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-id#classifications)を参照してください。 |
 | 2025年2月25日（PT） | [!DNL experiences]のCreativeの最適化とスケジュール | 改善点は次のとおりです。<ul><li>決定木ターゲティングを使用したエクスペリエンスでは、クリエイティブバンドルを割り当て、クリエイティブの最適化とスケジュール設定を、同じ画面の別のタブで行えるようになりました。</li><li>広告スケジュールには、開始時間と終了時間が含まれるようになりました。 デフォルトでは、スケジュールは午前12時に始まり、午後11時59分に終了します。</li><li>[!UICONTROL Weighted]回転オプションには、指定されたすべてのバンドルに同じ重みを適用するためのボタン（![同じ重みを適用](/help/creative/assets/apply-equal-weight.png "同じ重みを適用")）が含まれています。</li></ul> | ターゲティングを含む[&#128279;](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&#x200B; エクスペリエンスとターゲティングを含まない[&#x200B; エクスペリエンス &#x200B;](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)の手順を参照してください。 |
