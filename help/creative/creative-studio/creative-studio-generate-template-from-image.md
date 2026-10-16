@@ -61,7 +61,7 @@ Creative ライブラリに既存の静止画像の広告が必要です。 こ�
 
 ## テンプレートの編集と保存 {#template-save}
 
-1. テンプレートエディターで、生成された要素を確認し、[ テンプレートエディターコントロール ](creative-studio-manage-templates.md#template-controls)を使用して残りの変更を行います。
+1. テンプレートエディターで、生成された要素を確認し、[&#x200B; テンプレートエディターコントロール &#x200B;](creative-studio-manage-templates.md#template-controls)を使用して残りの変更を行います。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
