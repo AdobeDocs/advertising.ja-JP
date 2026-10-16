@@ -3,20 +3,19 @@ title: Creative Studioでの広告テンプレートの管理
 description: Adobe Advertising Creativeの「Creative Studio テンプレート」タブで、広告テンプレートを作成、読み込み、整理、管理する方法について説明します。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 2512
+source-wordcount: '2510'
 ht-degree: 2%
-
 ---
-
 # [!UICONTROL Creative Studio]での広告テンプレートの管理
-
-*Beta機能*
 
 広告生成セッションで使用するディスプレイ広告とビデオ広告のテンプレートを作成、インポート、管理します。
 
@@ -40,9 +39,9 @@ Probably not necessary:
 
 制作：
 
-* [HTML5広告テンプレートの読み込み](#templates-import)
-
 * [広告テンプレートを手動で作成](#template-create)
+
+* [HTML5広告テンプレートの読み込み](#templates-import)
 
 既存のテンプレートに対するアクション：
 
@@ -97,6 +96,34 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 -->
 
+## 広告テンプレートを手動で作成 {#template-create}
+
+テンプレートエディターを使用して、空白のディスプレイまたはビデオテンプレートを作成します。
+
+1. メインメニューで、**[!UICONTROL Creative Studio].**&#x200B;をクリックします
+
+1. 「**[!UICONTROL Templates]**」タブをクリックします。
+
+1. **[!UICONTROL Create New Ad Template]** ボックスで、**[!UICONTROL Create]**&#x200B;をクリックし、**[!UICONTROL Display Ad Template]**&#x200B;または&#x200B;**[!UICONTROL Video Ad Template]**&#x200B;を選択します。
+
+1. （広告を表示）広告テンプレートのサイズを選択し、**[!UICONTROL Continue]**&#x200B;をクリックします。
+
+1. テンプレートエディター[&#128279;](#template-controls)の コントロールを使用して、テンプレート設定を構成します。
+
+1. （オプション）定義されたテンプレートのコピーをダウンロードするには、**[!UICONTROL ...]** > **[!UICONTROL Download]**&#x200B;をクリックします。
+
+   ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
+
+1. テンプレートを保存します。
+
+   1. 次のいずれかの操作を行います。
+
+      * **[!UICONTROL Save]**&#x200B;をクリックします。
+
+      * テンプレートをドラフトとして保存するには、**[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**&#x200B;をクリックします。
+
+   1. **[!UICONTROL Template name]**&#x200B;を入力し、**[!UICONTROL Advertiser]**&#x200B;を選択し、必要に応じて既存のタグを選択するか、新しいタグをテンプレートに追加してから、**[!UICONTROL Save]**&#x200B;をクリックします。
+
 ## HTML5広告テンプレートの読み込み {#templates-import}
 
 ZIP ファイルとしてパッケージ化された1つ以上の事前定義済みHTML 5 テンプレートをアップロードします。 テンプレートは読み込み時に検証されます。HTMLが200,000文字を超えた場合、CSSが60,000文字を超えた場合、テンプレートに5,000を超えるDOM要素が含まれている場合、またはテンプレートにサポートされていないスクリプトタグが含まれている場合、読み込みは失敗します。
@@ -128,34 +155,6 @@ ZIP ファイルとしてパッケージ化された1つ以上の事前定義済
 >[!NOTE]
 >
 >インポートが失敗した場合は、テンプレートを簡略化するか、Adobeアカウントチームにお問い合わせください。
-
-## 広告テンプレートを手動で作成 {#template-create}
-
-テンプレートエディターを使用して、空白のディスプレイまたはビデオテンプレートを作成します。
-
-1. メインメニューで、**[!UICONTROL Creative Studio].**&#x200B;をクリックします
-
-1. 「**[!UICONTROL Templates]**」タブをクリックします。
-
-1. **[!UICONTROL Create New Ad Template]** ボックスで、**[!UICONTROL Create]**&#x200B;をクリックし、**[!UICONTROL Display Ad Template]**&#x200B;または&#x200B;**[!UICONTROL Video Ad Template]**&#x200B;を選択します。
-
-1. （広告を表示）広告テンプレートのサイズを選択し、**[!UICONTROL Continue]**&#x200B;をクリックします。
-
-1. テンプレートエディター[&#128279;](#template-controls)の コントロールを使用して、テンプレート設定を構成します。
-
-1. （オプション）定義されたテンプレートのコピーをダウンロードするには、**[!UICONTROL ...]** > **[!UICONTROL Download]**&#x200B;をクリックします。
-
-   ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
-
-1. テンプレートを保存します。
-
-   1. 次のいずれかの操作を行います。
-
-      * **[!UICONTROL Save]**&#x200B;をクリックします。
-
-      * テンプレートをドラフトとして保存するには、**[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**&#x200B;をクリックします。
-
-   1. **[!UICONTROL Template name]**&#x200B;を入力し、**[!UICONTROL Advertiser]**&#x200B;を選択し、必要に応じて既存のタグを選択するか、新しいタグをテンプレートに追加してから、**[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## 広告テンプレートの編集 {#template-edit}
 

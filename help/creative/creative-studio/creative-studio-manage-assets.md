@@ -3,20 +3,19 @@ title: Creative Studioでのアセットの管理
 description: Adobe Advertising Creativeの「Creative Studio Assets」タブで、アセットをアップロード、参照、管理する方法について説明します。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '294'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Creative Studio]のアセットの管理
-
-*Beta機能*
 
 画像、動画、オーディオ、フォントアセットをアップロードして広告テンプレートで参照し、広告生成セッション中にAI エージェントのチャットメッセージに添付できます。
 
