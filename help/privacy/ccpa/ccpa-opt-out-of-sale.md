@@ -49,7 +49,7 @@ ht-degree: 0%
 
 [!DNL Advertising Search, Social, & Commerce]、Advertising Creative、および[!DNL Advertising DCO]が消費者の個人情報へのアクセスおよび削除権をどのようにサポートしているかについては、[Adobe Advertising消費者プライバシー法のサポート：消費者データへのアクセスおよび削除のサポート &#x200B;](/help/privacy/ccpa/ccpa-access-delete.md)を参照してください。
 
-CCPA向けAdobe Privacy Servicesについて詳しくは、[Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html)を参照してください。
+CCPA向けAdobe Privacy Servicesについて詳しくは、[Adobe Privacy Center](https://www.adobe.com/jp/privacy/ccpa.html)を参照してください。
 
 ## 消費者のオプトアウトのリクエストをAdobe Advertisingに伝える
 

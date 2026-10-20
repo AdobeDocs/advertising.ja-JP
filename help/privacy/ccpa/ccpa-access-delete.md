@@ -49,7 +49,7 @@ ht-degree: 0%
 
 Advertising DSPが個人情報の販売をオプトアウトする消費者の権利をどのようにサポートしているかについて詳しくは、[Adobe Advertising消費者プライバシー法に関するカリフォルニア州サポート：消費者の販売停止サポート &#x200B;](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)を参照してください。
 
-CCPA向けAdobe Privacy Servicesについて詳しくは、[Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html)を参照してください。
+CCPA向けAdobe Privacy Servicesについて詳しくは、[Adobe Privacy Center](https://www.adobe.com/jp/privacy/ccpa.html)を参照してください。
 
 ## Adobe Advertisingでサポートされているデータリクエストタイプ
 
@@ -75,7 +75,7 @@ Adobe Advertisingから消費者の個人情報にアクセスして削除する
 
    >[!NOTE]
    >
-   >個人データの削除は、オーディエンスセグメントを使用してエンドユーザーをターゲティングするオプトアウトとは異なります。 ただし、消費者が[!DNL Creative]、[!DNL DSP]、または[!DNL DCO]から個人データを削除するように求めると、ライブラリはAdobe Advertisingにもリクエストを送信して、セグメントターゲティングからお客様をオプトアウトします。 [!DNL Search, Social, & Commerce]を持つ広告主の場合は、オーディエンスセグメントターゲティングをオプトアウトする方法を説明した[https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse)へのリンクを顧客に提供することをお勧めします。
+   >個人データの削除は、オーディエンスセグメントを使用してエンドユーザーをターゲティングするオプトアウトとは異なります。 ただし、消費者が[!DNL Creative]、[!DNL DSP]、または[!DNL DCO]から個人データを削除するように求めると、ライブラリはAdobe Advertisingにもリクエストを送信して、セグメントターゲティングからお客様をオプトアウトします。 [!DNL Search, Social, & Commerce]を持つ広告主の場合は、オーディエンスセグメントターゲティングをオプトアウトする方法を説明した[https://www.adobe.com/jp/privacy/opt-out.html#customeruse](https://www.adobe.com/jp/privacy/opt-out.html#customeruse)へのリンクを顧客に提供することをお勧めします。
 
 1. CX Enterprise組織IDを特定し、Adobe Advertising アカウントにリンクされていることを確認します。
 
