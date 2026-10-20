@@ -45,7 +45,7 @@ Adobe CX Enterpriseは、顧客のために収集、保存する個人データ�
 
 このドキュメントでは、Adobe Experience Platform Privacy Service APIとPrivacy Service UIを使用して、[!DNL Advertising Search, Social, & Commerce]、Advertising Creative、Advertising DSP （Demand Side Platform）、[!DNL Advertising DCO]がデータ主体のGDPR データへのアクセス権と削除権をどのようにサポートしているかを説明します。
 
-ビジネスにおけるGDPRの意味について詳しくは、[GDPRとビジネス &#x200B;](https://www.adobe.com/privacy/general-data-protection-regulation.html)を参照してください。
+ビジネスにおけるGDPRの意味について詳しくは、[GDPRとビジネス &#x200B;](https://www.adobe.com/jp/privacy/general-data-protection-regulation.html)を参照してください。
 
 ## Adobe Advertisingでサポートされているデータリクエストタイプ
 
@@ -71,7 +71,7 @@ Adobe Advertisingのデータへのアクセスと削除をリクエストする
 
    >[!NOTE]
    >
-   >個人データの削除は、オーディエンスセグメントによるエンドユーザーのターゲティングを停止するオプトアウトとは異なります。 ただし、データ主体が[!DNL Creative]、[!DNL DSP]、または[!DNL DCO]から個人データを削除するように求められると、ライブラリはAdobe Advertisingにもリクエストを送信して、セグメントターゲティングからデータ主体をオプトアウトします。 [!DNL Search, Social, & Commerce]を持つ広告主の場合は、データ主体に[https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html)へのリンクを提供することをお勧めします。これにより、オーディエンスセグメントターゲティングをオプトアウトする方法を説明できます。
+   >個人データの削除は、オーディエンスセグメントによるエンドユーザーのターゲティングを停止するオプトアウトとは異なります。 ただし、データ主体が[!DNL Creative]、[!DNL DSP]、または[!DNL DCO]から個人データを削除するように求められると、ライブラリはAdobe Advertisingにもリクエストを送信して、セグメントターゲティングからデータ主体をオプトアウトします。 [!DNL Search, Social, & Commerce]を持つ広告主の場合は、データ主体に[https://www.adobe.com/jp/privacy/opt-out.html](https://www.adobe.com/jp/privacy/opt-out.html)へのリンクを提供することをお勧めします。これにより、オーディエンスセグメントターゲティングをオプトアウトする方法を説明できます。
 
 1. CX Enterprise組織IDを特定し、Adobe Advertising アカウントにリンクされていることを確認します。
 
