@@ -23,7 +23,7 @@ ht-degree: 0%
 
 *英語のみサポート*
 
-DSP用AI アシスタントを使用して、チャットインターフェイスを使用して、[Advertising DSP ガイド &#x200B;](/help/dsp/home.md)および[Advertising Creative ガイド &#x200B;](/help/creative/home.md)の ガイド および（Advertising Creativeを使用している広告主）全体の概念とハウツーコンテンツを検索します。 回答は、[Experience League](https://experienceleague.adobe.com/en/docs/advertising)に記載されている商品に関する情報に基づいています。
+DSP用AI アシスタントを使用して、チャットインターフェイスを使用して、[Advertising DSP ガイド &#x200B;](/help/dsp/home.md)および[Advertising Creative ガイド &#x200B;](/help/creative/home.md)の ガイド および（Advertising Creativeを使用している広告主）全体の概念とハウツーコンテンツを検索します。 回答は、[Experience League](https://experienceleague.adobe.com/ja/docs/advertising)に記載されている商品に関する情報に基づいています。
 
 キャンペーン管理、最適化、オーディエンス管理、セール情報、レポートなど、製品の機能について質問することができます。 回答には、引用だけでなく、追加のクエリやフォローアップの質問も含まれており、クエリを絞り込んで詳細を確認するのに役立ちます。
 
