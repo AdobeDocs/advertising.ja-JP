@@ -23,13 +23,13 @@ ht-degree: 0%
 
 ## 以前の会話のリスト
 
-1. 任意のページの右上にある「![ エージェント型チャット ](/help/dsp/assets/agent-chat.png " エージェント型チャット ")」をクリックします。
+1. 任意のページの右上にある「![&#x200B; エージェント型チャット &#x200B;](/help/dsp/assets/agent-chat.png " エージェント型チャット ")」をクリックします。
 
 1. チャットボックスの上部で、![Threads履歴](/help/dsp/assets/threads.png "Threads履歴")をクリックします。
 
 ## 前の会話を開く
 
-1. 任意のページの右上にある「![ エージェント型チャット ](/help/dsp/assets/agent-chat.png " エージェント型チャット ")」をクリックします。
+1. 任意のページの右上にある「![&#x200B; エージェント型チャット &#x200B;](/help/dsp/assets/agent-chat.png " エージェント型チャット ")」をクリックします。
 
 1. チャットボックスの上部で、![Threads履歴](/help/dsp/assets/threads.png "Threads履歴")をクリックします。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 前の会話の名前を変更
 
-1. 任意のページの右上にある「![ エージェント型チャット ](/help/dsp/assets/agent-chat.png " エージェント型チャット ")」をクリックします。
+1. 任意のページの右上にある「![&#x200B; エージェント型チャット &#x200B;](/help/dsp/assets/agent-chat.png " エージェント型チャット ")」をクリックします。
 
 1. チャットボックスの上部で、![Threads履歴](/help/dsp/assets/threads.png "Threads履歴")をクリックします。
 
@@ -51,5 +51,5 @@ ht-degree: 0%
 >
 >* [Advertising DSPのAI アシスタントについて](ai-assistant-about.md)
 >* [AI アシスタントを使用してレポートを作成](insights-agent.md)
->* [AI アシスタントを使用したパフォーマンスと配信の問題のトラブルシューティング ](troubleshooting-agent.md)
+>* [AI アシスタントを使用したパフォーマンスと配信の問題のトラブルシューティング &#x200B;](troubleshooting-agent.md)
 >* [AI アシスタントを使用して製品ドキュメントを検索](documentation-search.md)

@@ -30,10 +30,10 @@ DSPは、自然言語プロンプトを使用して複数のタスクを支援�
 
 * 統合AI アシスタント：
 
-  * [ キャンペーン、キャンペーンコンポーネント、Advertising Creative エクスペリエンス、広告主、および広告ターゲットのレポートを作成します](/help/dsp/ai-assistant/insights-agent.md)。
+  * [&#x200B; キャンペーン、キャンペーンコンポーネント、Advertising Creative エクスペリエンス、広告主、および広告ターゲットのレポートを作成します](/help/dsp/ai-assistant/insights-agent.md)。
 
-  * [ パッケージとプレースメントのパフォーマンスと配信に関する問題のトラブルシューティング ](/help/dsp/ai-assistant/troubleshooting-agent.md)。
+  * [&#x200B; パッケージとプレースメントのパフォーマンスと配信に関する問題のトラブルシューティング &#x200B;](/help/dsp/ai-assistant/troubleshooting-agent.md)。
 
-  * [Advertising Creative ガイド [と[Advertising DSP ガイド ](/help/creative/home.md)の広告主の両方で、商品ドキュメント ](/help/dsp/ai-assistant/documentation-search.md)を検索します。Advertising Creative ガイド ](/help/dsp/home.md)および（広告主との両方）。
+  * [&#128279;](/help/dsp/home.md)Advertising Creative ガイド [&#128279;](/help/dsp/ai-assistant/documentation-search.md)と[Advertising DSP ガイド &#x200B;](/help/creative/home.md)の広告主の両方で、商品ドキュメント &#x200B;を検索します。Advertising Creative ガイド &#x200B;および（広告主との両方）。
 
-* [生成AIが支援するオーディエンスエージェント（[!UICONTROL Audiences] > [!UICONTROL All Audiences]）を使用して、新しい再利用可能なオーディエンス ](/help/dsp/audiences/reusable-audience-create.md)を生成します。このオーディエンスは、プレースメントのターゲットまたは除外として使用できます。
+* [生成AIが支援するオーディエンスエージェント（[!UICONTROL Audiences] > [!UICONTROL All Audiences]）を使用して、新しい再利用可能なオーディエンス &#x200B;](/help/dsp/audiences/reusable-audience-create.md)を生成します。このオーディエンスは、プレースメントのターゲットまたは除外として使用できます。
