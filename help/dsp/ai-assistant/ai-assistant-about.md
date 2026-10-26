@@ -36,9 +36,9 @@ DSPのAI アシスタントは、DSPで利用可能なあらゆるエージェ�
 
 | 機能 | 説明 | 回答数 |
 | --- | --- | --- |
-| [ トラブルシューティング ](troubleshooting-agent.md) | （Beta機能）ライブパッケージとプレースメントのパフォーマンスと配信の問題を診断します。 | 応答には、パフォーマンスを制限する要因が含まれており、問題を解決するための推奨事項が提供されます。 |
-| [ インサイト ](insights-agent.md) | （Betaの機能） レポートを手動で作成することなく、キャンペーンの指標と完全なレポートを取得します。 結果はCSV ファイルとしてダウンロードできます。 | レポートの最初の数行が表示され、レポート全体をプレビューするためのリンクと、レポートを[!DNL Microsoft Excel] コンマ区切りの値ファイル （.csv）としてダウンロードするためのリンクが表示されます。 |
-| [製品ドキュメント検索](documentation-search.md) | [Advertising DSP ガイド ](/help/dsp/home.md)で概念的なコンテンツとハウツーのコンテンツを検索し、Advertising Creativeを使用している広告主については、[Advertising Creative ガイド ](/help/creative/home.md)を検索します。 | 応答には、インラインの引用と下部の拡張可能な[!UICONTROL Documentation Sources] リストが含まれています。 任意の引用またはソースリストをクリックして、関連するページを開きます。<br><br>応答には、質問を絞り込み、詳細な情報を見つけるのに役立つフォローアップの質問や提案が含まれる場合もあります。 |
+| [&#x200B; トラブルシューティング &#x200B;](troubleshooting-agent.md) | （Beta機能）ライブパッケージとプレースメントのパフォーマンスと配信の問題を診断します。 | 応答には、パフォーマンスを制限する要因が含まれており、問題を解決するための推奨事項が提供されます。 |
+| [&#x200B; インサイト &#x200B;](insights-agent.md) | （Betaの機能） レポートを手動で作成することなく、キャンペーンの指標と完全なレポートを取得します。 結果はCSV ファイルとしてダウンロードできます。 | レポートの最初の数行が表示され、レポート全体をプレビューするためのリンクと、レポートを[!DNL Microsoft Excel] コンマ区切りの値ファイル （.csv）としてダウンロードするためのリンクが表示されます。 |
+| [製品ドキュメント検索](documentation-search.md) | [Advertising DSP ガイド &#x200B;](/help/dsp/home.md)で概念的なコンテンツとハウツーのコンテンツを検索し、Advertising Creativeを使用している広告主については、[Advertising Creative ガイド &#x200B;](/help/creative/home.md)を検索します。 | 応答には、インラインの引用と下部の拡張可能な[!UICONTROL Documentation Sources] リストが含まれています。 任意の引用またはソースリストをクリックして、関連するページを開きます。<br><br>応答には、質問を絞り込み、詳細な情報を見つけるのに役立つフォローアップの質問や提案が含まれる場合もあります。 |
 
 ## クエリとプロンプトの作成に関するベストプラクティス {#writing-queries}
 
@@ -59,7 +59,7 @@ DSPのAI アシスタントは、DSPで利用可能なあらゆるエージェ�
 >[!MORELIKETHIS]
 >
 >* [AI アシスタントを使用してレポートを作成](insights-agent.md)
->* [AI アシスタントを使用したパフォーマンスと配信の問題のトラブルシューティング ](troubleshooting-agent.md)
+>* [AI アシスタントを使用したパフォーマンスと配信の問題のトラブルシューティング &#x200B;](troubleshooting-agent.md)
 >* [再利用可能なオーディエンスを作成](/help/dsp/audiences/reusable-audience-create.md)
 >* [AI アシスタントを使用して製品ドキュメントを検索](documentation-search.md)
 >* [以前のAI アシスタントの会話を操作](previous-conversations.md)
