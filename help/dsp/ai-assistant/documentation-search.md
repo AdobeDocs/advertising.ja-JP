@@ -14,28 +14,26 @@ feature_v2:
 subfeature_v2:
   - id: ba946348-465d-45f3-8d28-c42d0a2599c5
     internal-label: Creative introduction
-source-git-commit: 8bab50fe8bf737d208d059d89b2592e16bc40c69
+source-git-commit: c6ab712d47cafc8e9590a212253949a053b7c476
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '471'
 ht-degree: 0%
 ---
 # AI アシスタントを使用して製品ドキュメントを検索する
 
 *英語のみサポート*
 
-DSP用AI アシスタントを使用して、チャットインターフェイスを使用して、[Advertising DSP ガイド &#x200B;](/help/dsp/home.md)および[Advertising Creative ガイド &#x200B;](/help/creative/home.md)の ガイド および（Advertising Creativeを使用している広告主）全体の概念とハウツーコンテンツを検索します。 回答は、[Experience League](https://experienceleague.adobe.com/ja/docs/advertising)に記載されている商品に関する情報に基づいています。
+DSP用AI アシスタントを使用して、チャットインターフェイスを使用して、[Advertising DSP ガイド ](/help/dsp/home.md)および[Advertising Creative ガイド ](/help/creative/home.md)の ガイド および（Advertising Creativeを使用している広告主）全体の概念とハウツーコンテンツを検索します。 回答は、[Experience League](https://experienceleague.adobe.com/en/docs/advertising)に記載されている商品に関する情報に基づいています。
 
-回答には、引用だけでなく、追加のクエリやフォローアップの質問も含まれており、クエリを絞り込んで詳細を確認するのに役立ちます。
+キャンペーン管理、最適化、オーディエンス管理、セール情報、レポートなど、製品の機能について質問することができます。 回答には、引用だけでなく、追加のクエリやフォローアップの質問も含まれており、クエリを絞り込んで詳細を確認するのに役立ちます。
 
-![&#x200B; クエリと応答の例](/help/dsp/assets/agent-chat-response.png " クエリと応答の例")
+![ クエリと応答の例](/help/dsp/assets/agent-chat-response.png " クエリと応答の例")
 
 >[!IMPORTANT]
 >
 >AIによる回答は、不正確または誤解を招く可能性があります。 コストや労力に影響を与える意思決定に役立つ回答や情報源を常に確認しましょう。
 
 ## クエリの例
-
-キャンペーン管理、最適化、オーディエンス管理、セール情報、レポートなど、製品の機能について質問することができます。 次に例を示します。
 
 * プレースメントに広告を添付するにはどうすればよいですか？
 
@@ -51,7 +49,7 @@ DSP用AI アシスタントを使用して、チャットインターフェイ�
 
 一度に1つのメッセージで複数の質問を行うことはできますが、一度に1つのメッセージのみ行うことができます。 別の応答を送信する前に、応答を待ちます。
 
-1. 任意のページの右上にある「![&#x200B; エージェント型チャット &#x200B;](/help/dsp/assets/agent-chat.png " エージェント型チャット ")」をクリックします。
+1. 任意のページの右上にある「![ エージェント型チャット ](/help/dsp/assets/agent-chat.png " エージェント型チャット ")」をクリックします。
 
 1. クエリを作成します。
 
@@ -65,9 +63,9 @@ DSP用AI アシスタントを使用して、チャットインターフェイ�
 
         1. （オプション）ニーズに合わせてテキストを編集します。
 
-   クエリについて詳しくは、「[&#x200B; クエリとプロンプトの作成に関するベストプラクティス &#x200B;](ai-assistant-about.md#writing-queries)」を参照してください。
+   クエリについて詳しくは、「[ クエリとプロンプトの作成に関するベストプラクティス ](ai-assistant-about.md#writing-queries)」を参照してください。
 
-1. ![&#x200B; クエリを送信](/help/dsp/assets/submit-prompt.png " クエリを送信")をクリックするか、キーボードの&#x200B;**Enter** キーを押します。
+1. ![ クエリを送信](/help/dsp/assets/submit-prompt.png " クエリを送信")をクリックするか、キーボードの&#x200B;**Enter** キーを押します。
 
    応答には、インラインの引用と下部の&#x200B;**[!UICONTROL Documentation Sources]** リストが含まれています。 フォローアップの質問や提案が表示されることもあります。
 
@@ -87,9 +85,9 @@ DSP用AI アシスタントを使用して、チャットインターフェイ�
 
 会話（クエリスレッド）ごとに個別に保存されるため、以前の会話を区別できます。
 
-1. [&#x200B; チャットボックス &#x200B;](#ai-assistant-open)の上部で、![新しい会話を開始](/help/dsp/assets/new-selection.png "新しい会話を開始")をクリックします。
+1. [ チャットボックス ](#ai-assistant-open)の上部で、![新しい会話を開始](/help/dsp/assets/new-selection.png "新しい会話を開始")をクリックします。
 
-1. [&#x200B; クエリを送信](#query-submit)。
+1. [ クエリを送信](#query-submit)。
 
 <!-- 
 
@@ -123,7 +121,7 @@ Not there as of 10/22/26. Anyway, this feature isn't actionable in terms of impr
 
 ## チャットボックスの拡大と最小化
 
-1. [&#x200B; チャットボックス &#x200B;](#ai-assistant-open)の上部にある「![&#x200B; フルスクリーンに入る](/help/dsp/assets/fullscreen.png " フルスクリーンに入る")」をクリックして、フルスクリーンモードに入ります。
+1. [ チャットボックス ](#ai-assistant-open)の上部にある「![ フルスクリーンに入る](/help/dsp/assets/fullscreen.png " フルスクリーンに入る")」をクリックして、フルスクリーンモードに入ります。
 
 1. チャットボックスをパネルモードに戻すには、**[!UICONTROL < Back>]**&#x200B;をクリックします。
 
