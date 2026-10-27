@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 58b07a3c997005bbeb394f4925a894ea5960b9f7
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '727'
 ht-degree: 0%
 ---
 # [!DNL Google Ads]広告グループの設定
@@ -109,7 +109,7 @@ ht-degree: 0%
 >* キャンペーンレベル [!UICONTROL Final URL expansion]の設定が&#x200B;*無効*&#x200B;の場合、[!DNL Google Ads]は指定されたURLのみを広告グループの動的ランディングページとして使用します。
 >* （ピン留めされたアセットを含むレスポンシブ検索広告）この設定でURL インクルージョンを指定する場合、最終的なURLがユーザーの意図と一致しないランディングページにルーティングされる場合、[!DNL Google Ads]はピン留めされたアセットを使用しません。 常にピン留めされたアセットを使用するには、URLのインクルージョンを指定せず、キャンペーンレベルの[!UICONTROL Final URL expansion]設定を無効にします。
 
-**[!UICONTROL Brand inclusions]:** （[!DNL AI Max]が有効になっているキャンペーン）ブランド関連のクエリが一致する可能性のあるアカウントのブランド。 含める各ブランドリストの横にあるチェックボックスを選択します。 この設定は、キャンペーンレベルの設定を上書きします。
+**[!UICONTROL Brand inclusions]:** （[!DNL AI Max]が有効になっているキャンペーン）ブランド関連のクエリが一致する可能性のあるブランドを含むブランドリスト。 [!DNL Google Ads] エディターでアカウントに設定されているすべてのブランドリストのリストから、含める各ブランドリストの横にあるチェックボックスを選択します。 この設定は、キャンペーンレベルの設定を上書きします。
 
 ## [!UICONTROL URL Options] タブ
 
