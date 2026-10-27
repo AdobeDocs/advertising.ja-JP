@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
+source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1097'
 ht-degree: 3%
 ---
 
@@ -25,7 +25,12 @@ ht-degree: 3%
   + [消費者のプライバシーのサポート](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
   + [ポリシーとガイドライン](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja)
   + [高度な測定ソリューション](/help/dsp/introduction/advanced-measurement-services.md)
-+ [AIを活用したチャットで、製品ドキュメントを検索できます](/help/dsp/agent-chat.md)
++ ADVERTISING DSPのAI アシスタント {#ai-assistant}
+  + [Advertising DSPのAI アシスタントについて](/help/dsp/ai-assistant/ai-assistant-about.md)
+  + [AI アシスタントを使用してレポートを作成する](/help/dsp/ai-assistant/insights-agent.md)
+  + [AI アシスタントを使用したパフォーマンスと配信の問題のトラブルシューティング](/help/dsp/ai-assistant/troubleshooting-agent.md)
+  + [AI アシスタントを使用して製品ドキュメントを検索する](/help/dsp/ai-assistant/documentation-search.md)
+  + [以前のAI アシスタント会話との連携](/help/dsp/ai-assistant/previous-conversations.md)
 + キャンペーン管理 {#campaign-management}
   + [Adobe Advertising DSPのキャンペーン管理の概要](/help/dsp/campaign-management/campaign-management-overview.md)
   + キャンペーン {#campaigns}

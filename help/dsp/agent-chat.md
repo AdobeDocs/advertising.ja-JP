@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: ba946348-465d-45f3-8d28-c42d0a2599c5
     internal-label: Creative introduction
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a461e1f9377bdb5db07dcb38cd5a1cf8fea510aa
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '472'
 ht-degree: 0%
 ---
 # AIを活用したチャットインターフェイスで、製品ドキュメントを検索できます
@@ -63,7 +63,7 @@ AI チャットインターフェイスを使用して、[Advertising Creative �
 
 1. 任意のページの右上にある「![&#x200B; エージェント型チャット &#x200B;](/help/dsp/assets/agent-chat.png " エージェント型チャット ")」をクリックします。
 
-1. クエリを入力し、![送信プロンプト &#x200B;](/help/dsp/assets/submit-prompt.png "送信プロンプト ")をクリックします。
+1. クエリを入力し、![送信プロンプト &#x200B;](/help/dsp/assets/submit-prompt.png "送信プロンプト ")をクリックするか、キーボードの&#x200B;**Enter** キーを押します。
 
    詳しくは、「[&#x200B; プロンプトの書き込み](#writing-prompts)」を参照してください。
 
@@ -75,15 +75,19 @@ AI チャットインターフェイスを使用して、[Advertising Creative �
 
    * **[!UICONTROL Documentation Sources]**&#x200B;をクリックして、応答で引用されたすべてのページのリストを表示し、ページリンクをクリックします。
 
-## 回答に関するフィードバックを提供する
+<!-- 
 
-<!-- Not actionable in terms of improving page content -->
+Not there as of 10/22/26. Anyway, this feature isn't actionable in terms of improving page content.
 
-* [!UICONTROL Documentation Sources] リストの横：
+## Provide feedback about a response
 
-  * 役に立つ回答については、「![親指を上げる](/help/dsp/assets/thumbs-up.png "親指を上げる")」をクリックしてください。
+* Next to the [!UICONTROL Documentation Sources] list:
 
-  * 役に立たない回答の場合は、![&#x200B; サムズダウン &#x200B;](/help/dsp/assets/thumbs-down.png " サムズダウン ")をクリックします。
+  * For helpful responses, click ![Thumbs up](/help/dsp/assets/thumbs-up.png "Thumbs up").
+
+  * For unhelpful responses, click ![Thumbs down](/help/dsp/assets/thumbs-down.png "Thumbs down").
+
+ -->
 
 ## プロンプトの作成の基本 {#writing-prompts}
 

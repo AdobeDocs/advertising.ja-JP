@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 8a8985dd3088be745752489b2101bd80000d4a00
+source-git-commit: b749a2b5285a9bf0ad1bcef28843bb48b9689cac
 workflow-type: tm+mt
-source-wordcount: '7840'
+source-wordcount: '7920'
 ht-degree: 0%
 ---
 # DSPの新機能
@@ -50,6 +50,7 @@ ht-degree: 0%
 
 | 日付 | 機能 | 説明 | 詳細 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年10月26日（PT） | DSPの[!DNL AI Assistant] | DSPのAI アシスタントを使用して、次のいずれかの操作を行います。<ul><li>（Beta機能） レポートを手動で作成することなく、キャンペーンの指標と完全なレポートを取得します</li>（Beta機能）ライブパッケージとプレースメントのパフォーマンスと配信の問題を診断します<li><li>DSPと[!UICONTROL Creative]の使用方法について、製品ドキュメントを検索します。 これは既に利用可能でした。</li></ul> | 「[Advertising DSPのAI アシスタントについて](/help/dsp/ai-assistant/ai-assistant-about.md)」を参照し、[AI アシスタントを使用したレポートの作成](/help/dsp/ai-assistant/insights-agent.md)および[AI アシスタントを使用したパフォーマンスと配信の問題のトラブルシューティング &#x200B;](/help/dsp/ai-assistant/troubleshooting-agent.md)の手順を確認してください |
 | 2026年10月15日（PT） | [!DNL Creative] | （Beta機能）既存の静的ディスプレイ広告イメージを編集可能なディスプレイ広告テンプレートに変換するために、[!UICONTROL Creative Studio]でAIを使用して生成できるようになりました。 | 「[[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md){target="_blank"}の広告テンプレートの管理」を参照してください。 |
 | 10月8日 | [!UICONTROL Insights] | （広告主が[!DNL Analytics for Advertising]のみ）Adobe Analytics コンバージョンデータのオーディエンスインテリジェンスに基づく2つの新しいインサイトを利用できます。<ul><li>[!UICONTROL Delivery Composition]は、コンバージョンの可能性が異なるユーザー間でのDSP ユーザーモデルの入札方法を示します。 このinsightを使用して、配信しているプレースメントを確認します。</li><li>[!UICONTROL Organic Seed Profile]には、コンバーターに関連付けられている興味、時間、場所、デバイスが表示されます。 このinsightを使用して、パッケージまたはプレースメントのローンチを計画したり、次のキャンペーンに情報を提供したりします。</li></ul> | 「[&#x200B; インサイトについて](/help/dsp/campaign-management/insights/insights-about.md)」を参照してください。 |
 | 2026年8月14日（PT） | [!UICONTROL Reports] | 新しい[!UICONTROL DSP Self-Attributed Conversions] レポートは、Advertising DSPがコンバージョンに貢献したことを示しています。これには、DSPが役割を果たしたカスタマージャーニーが含まれますが、Adobe Advertisingの検索クリックなどの後のタッチは、他のレポートでラストクリッククレジットを受け取りました。 これは、Advertising DSPとAdvertising Search, Social, &amp; Commerceの両方を使用する広告主にとって最も有用です。 | 「[&#x200B; カスタムレポートについて](/help/dsp/reports/report-about.md)」および「[&#x200B; カスタムレポートに関するよくある質問](/help/dsp/reports/faq-reports.md)」を参照してください。 |

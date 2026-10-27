@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 6f8a328e104d2d1acdbb7411dda8a3d0a3463903
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '536'
 ht-degree: 0%
 ---
 # パフォーマンスの問題の理由
 
 <!-- Rename file and set up a redirect -->
 
-<!-- Reword/change path as needed:  See also "[Diagnose performance and delivery issues using the AI assistant](/help\dsp\campaign-management\reports\troubleshooting-agent.md)." -->
+「[AI アシスタントを使用したパフォーマンスと配信の問題のトラブルシューティング &#x200B;](/help/dsp/ai-assistant/troubleshooting-agent.md)」も参照してください。
 
 | イシュー | 考えられる原因 | 取るべきアクション |
 | --- | --- | --- |
