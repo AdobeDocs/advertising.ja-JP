@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 889cc027476f205f00dfc183772963f7e53c2ee2
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '712'
 ht-degree: 0%
 ---
 # [!DNL Google Ads]広告グループの設定
@@ -100,6 +100,16 @@ ht-degree: 0%
 **[!UICONTROL AI Search Term Matching]:** （[!DNL AI Max]が有効なキャンペーンのみ） AI主導のキーワードレス検索語句マッチングを使用して、リーチと最適化を強化するかどうか。<!--SUPPOSEDLY, BUT THIS IS OFF FOR ME:  It's enabled by default for campaigns with [!DNL AI Max], but you can disable it at the ad group level. -->
 
 **[!UICONTROL Locations of Interest]:** （[!DNL AI Max]が有効なキャンペーンのみ） ターゲットにする地理的インテントの特定の場所（ただし、除外しない）。ユーザーはキャンペーンの地理的ターゲティングにも対応する必要があります。 デフォルトでは、すべての地理的な場所のユーザー、定期的なユーザー、または興味のあるユーザーがターゲットになります。 ターゲットを絞り込むには、ターゲットの各場所を選択します。
+
+**[!UICONTROL URL inclusions]:** （[!DNL AI Max]および[!UICONTROL Text customization]が有効になっているキャンペーン）のURLを、最終的なURL拡張から生成されたランディングページとして含める必要があります。 URLを追加するには、入力フィールドにURL フラグメントまたはURL フラグメントを入力し、**+**&#x200B;をクリックします。
+
+>[!NOTE]
+>
+>* キャンペーンレベル [!UICONTROL Final URL expansion]の設定が&#x200B;*enabled*&#x200B;の場合、[!DNL Google Ads]は、指定されたURLとGoogleで選択した追加のURLを広告グループの動的ランディングページとして使用します。
+>* キャンペーンレベル [!UICONTROL Final URL expansion]の設定が&#x200B;*無効*&#x200B;の場合、[!DNL Google Ads]は指定されたURLのみを広告グループの動的ランディングページとして使用します。
+>* （ピン留めされたアセットを含むレスポンシブ検索広告）この設定でURL インクルージョンを指定する場合、最終的なURLがユーザーの意図と一致しないランディングページにルーティングされる場合、[!DNL Google Ads]はピン留めされたアセットを使用しません。 常にピン留めされたアセットを使用するには、URLのインクルージョンを指定せず、キャンペーンレベルの[!UICONTROL Final URL expansion]設定を無効にします。
+
+**[!UICONTROL Brand inclusions]:** （[!DNL AI Max]が有効になっているキャンペーン）ブランド関連のクエリが一致する可能性のあるアカウントのブランド。 含める各ブランドリストの横にあるチェックボックスを選択します。 この設定は、キャンペーンレベルの設定を上書きします。
 
 ## [!UICONTROL URL Options] タブ
 
