@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9ee595a7f1c8d21758735d13732408f780e84ace
+source-git-commit: a90376f4a049a35b62d8d426416f511181a67e05
 workflow-type: tm+mt
-source-wordcount: '5499'
+source-wordcount: '5606'
 ht-degree: 1%
 ---
 # Search, Social, &amp; Commerceの新機能
@@ -38,6 +38,7 @@ ht-degree: 1%
 
 | 日付 | 機能 | 説明 | 詳細 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年10月26日（PT） | [!UICONTROL Campaigns], [!UICONTROL Bulksheets] | （[!DNL AI Max]が有効な[!DNL Google Ads] キャンペーン）新しい検索、ソーシャル、Commerce ユーザーインターフェイスで次の設定を行えるようになりました。<ul><li>キャンペーンレベル：<ul><li>**[!UICONTROL Brand inclusions]**&#x200B;と&#x200B;**[!UICONTROL Brand exclusions]:** ブランド関連のクエリでアカウントのブランドリストを一致させることができるものを指定します。</li><li>**[!UICONTROL URL inclusions]:**&#x200B;最終的なURL拡張から生成されたランディングページとして除外するURLを指定します。 この設定は、[!UICONTROL Text customization]と[!UICONTROL Final URL expansion]が有効になっている場合に使用できます。</li></ul></li><li>広告グループレベル：<ul><li>**[!UICONTROL URL inclusions]:**&#x200B;最終的なURL拡張から生成されたランディングページとして除外するURLを指定します。 この設定は、[!UICONTROL Text customization]が有効になっているキャンペーンで使用できます。</li></ul></li></ul>バルクシートのサポートも設定で利用できます。 | 「[[!DNL Google Ads]  キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)」、「[[!DNL Google Ads] 広告グループ設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)」、「[&#x200B; アカウントに必要なバルクシート データ &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)」を参照してください。 [!DNL Google Ads]  |
 | 2026年10月5日（PT） | [!UICONTROL Campaigns], [!UICONTROL Reports] | （Beta機能） [!DNL OpenAI ChatGPT Ads]個の広告アカウントを持つ広告主は、新しい検索、ソーシャル、Commerce ユーザーインターフェイスでキャンペーンを管理およびレポートできるようになりました。 [!DNL OpenAI]の試験的な機能である[!DNL Chat card]広告は、AI チャットのコンバージョンの横に表示される画像ベースのスポンサー付きプレースメントであり、チャットのコンバージョン、ユーザーの場所、言語のコンテキストと意図をターゲットにすることができます。 在庫は非公開で、入札ではなくパブリッシャーが管理します。 [!DNL ChatGPT]広告は、中国を除くほとんどの主要市場で利用できます。 医療サービスや金融サービスに関する広告は禁止されています。<br><br> サポートは、アカウント、キャンペーン、広告グループおよび広告の作成と管理、およびキャンペーン管理ビューでのパフォーマンスデータ（インプレッション数、クリック数、コスト数など）の表示に利用できますが、[!DNL ChatGPT Ads] トラッキングされたコンバージョン数は表示されません。 [!DNL Adobe]またはサードパーティのトラッキング、ファーストパーティのオーディエンスターゲティング、スケジュールされたレポート、Adobe AnalyticsまたはAdobe Customer Journey Analyticsでのレポート、最適化、バルクシートを使用したキャンペーン管理では、サポートを利用できません。[!DNL ChatGPT Ads]のサポートは、今年後半にAdvertising DSPでも提供される予定です。 <br><br>Search、Social、Commerce、DSPの両方を利用している場合は、Search、Social、Commerceのみを使用して在庫を購入します。ここでは、他の広告ネットワークのデータと並行してパフォーマンスデータを確認できます。<br><br>この機能を使用するには、Adobe アカウントチームに連絡してレート情報を入手し、オンボーディングプロセスを開始してください。 | [[!DNL ChatGPT Ads]  アカウント設定](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、[&#x200B; キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)、[広告グループ設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)および[広告設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)を参照してください。<br><br>詳細については、[ChatGPT広告](https://help.openai.com/en/articles/20001207-ads-in-chatgpt-the-basics)および[!DNL OpenAI]広告ポリシー[&#128279;](https://openai.com/policies/ad-policies)を参照してください。 |
 | 2026年9月30日（PT） | 新しいユーザーインターフェイス | 新しいユーザーインターフェイスのメインメニューは、ユーザーからのフィードバックに基づいて再編成されました。 ログインすると、新しいメニューのチュートリアルが表示されます。 | — |
 | | [!UICONTROL Portfolios] | （新しいUI）ポートフォリオに制約を持つ入札単位が含まれる場合は、[!UICONTROL Constraints]列の[!UICONTROL Yes]をクリックして、制約レベルとタイプを含むすべての制約のリストを表示します。 | 「[&#x200B; ポートフォリオについて](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)」を参照してください。 |

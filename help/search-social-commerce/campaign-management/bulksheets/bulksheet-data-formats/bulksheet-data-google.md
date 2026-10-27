@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: ff1657a7f005eb93c83fdc7fd2e53810d9e03bd8
 workflow-type: tm+mt
-source-wordcount: '8101'
+source-wordcount: '8378'
 ht-degree: 0%
 ---
 # 付録 – [!DNL Google Ads] アカウントに必要なバルクシート データ
@@ -44,20 +44,6 @@ ht-degree: 0%
 >* 以下に指定されていないフィールドの場合、広告ネットワークのデフォルト値が使用されます。
 >* [!UICONTROL Download Bulksheet] ダイアログで使用可能なバルクシート行のリストについては、「[広告ネットワーク別バルクシート行](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)」を参照してください。
 
-
-<!--
-
-Add in when released:
-
-| [!UICONTROL AI Max Enabled] | Whether the [[!UICONTROL AI Max] feature](https://support.google.com/google-ads/answer/15910366) is enabled for the campaign: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
-| [!UICONTROL AI Max Asset Automation] | Whether the "Text Automation" setting for [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
-
-| [!UICONTROL AI Max Search Term Matching] | Whether the "[!UICONTROL AI Max Search Term Matching]" setting for ad groups in [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
--->
-
 | フィールド | 説明 |
 | ---- | ---- |
 | [!UICONTROL Platform] | （情報目的で生成されたバルクシートに含まれる）広告プラットフォーム。 各行にエンティティの「[!UICONTROL AMO ID]」が含まれていない限り、必須です。 |
@@ -72,6 +58,8 @@ Add in when released:
 | [!UICONTROL GDN Custom Bid Level] | （ディスプレイネットワークのみをターゲットとするキャンペーン）入札方法：<i>[!UICONTROL Ad Group]</i> （デフォルト）、<i>[!UICONTROL Keyword]</i>、<i>[!UICONTROL Placement]</i> （web サイト）、または<i>[!UICONTROL None]</i> （既存の値をリセットする）による。 その他のディメンション（<i>Age</i>、<i>Gender</i>、<i>Interest and List</i>、<i>Topic</i>、および<i>Vertical</i>）は、[!DNL Google Ads] インターフェイスから利用できます。 [!DNL Google Ads] インターフェイスを使用して別のディメンションによる入札を設定した場合、その値は表示されますが、これらのディメンションを選択または入力することはできません。</p><p><b> メモ：</b></p><ul><li><p>キーワードで入札する場合は、キーワードレベルでトラッキングテンプレートを作成します。 同様に、プレースメントで入札する場合は、プレースメントレベルでトラッキングテンプレートを作成します。 その他のディメンションについては、広告レベルでトラッキングテンプレートを作成します。</p></li><li><p>サポートされていないディメンション（年齢、性別、興味関心、リスト、トピック）で入札した場合、Search, Social, &amp; Commerceではディメンションの入札が最適化されず、すべてのアトリビューションが広告グループに適用されます。</p></li><li><p>検索ネットワーク上の広告は、常にキーワード入札を使用します。</p></li></ul> |
 | [!UICONTROL Campaign Priority] | <p>（ショッピングキャンペーンのみ）複数のキャンペーンが同じ製品を宣伝する際にキャンペーンが使用される優先度：<i>[!UICONTROL Low]</i> （新しいキャンペーンのデフォルト）、<i>[!UICONTROL Medium]</i>、または<i>[!UICONTROL High]</i>。</p><p>同じ製品が複数のキャンペーンに含まれている場合、広告ネットワークは、最初にキャンペーンの優先順位を使用して、どのキャンペーン（および関連する入札）が広告オークションの対象となるかを決定します。 すべてのキャンペーンの優先順位が同じ場合、入札額が最も高いキャンペーンが実施要件を満たします。 |
 | [!UICONTROL Has EU Political Ads] | （欧州連合（EU）のオーディエンスをターゲットとするキャンペーンに適用されます） キャンペーンに、EU規則2024/90に基づいて欧州連合で提供される広告の要件に従った政治的広告が含まれているかどうか：<i>[!UICONTROL Yes]</i>または<i>[!UICONTROL No]</i>。 |
+| [!UICONTROL AI Max Enabled] | キャンペーンで[[!UICONTROL AI Max]機能](https://support.google.com/google-ads/answer/15910366)が有効になっているかどうか：*[!UICONTROL true]*、*[!UICONTROL false]*、またはnull。 |
+| [!UICONTROL AI Max Asset Automation] | [!UICONTROL AI Max]対応キャンペーンの「テキスト自動処理」設定が有効かどうか：*[!UICONTROL true]*、*[!UICONTROL false]*、またはnull。 |
 | [!UICONTROL Merchant ID] | （ショッピングキャンペーンとオーディエンスキャンペーンは加盟店フィードにリンクされている場合のみ）キャンペーンに使用される製品の加盟店アカウントの顧客ID。 |
 | [!UICONTROL Sales Country] | （ショッピングキャンペーンのみ。既存のキャンペーンの読み取り専用）キャンペーンの製品が販売される国。 製品はターゲット国に関連付けられているため、この設定によって、キャンペーンで宣伝される製品が決まります。 |
 | [!UICONTROL Product Scope Filter] | （ショッピングネットワーク [!DNL Google Ads]を使用するキャンペーンのみ） キャンペーン用にショッピング広告を作成できる[!DNL Google Merchant Center] アカウント内の製品。 dimension=attribute形式を使用して、商品をフィルタリングする商品ディメンションと属性の組み合わせを最大7つ入力できます。 「>>」区切りで複数のフィルターを区切ります。 使用可能な製品ディメンションのリストについては、「[&#x200B; ショッピングキャンペーン製品フィルター](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)」を参照してください。</p><p>例：「CategoryL1=animals>>CategoryL2=pet supplies>>Brand=Acme Pet Supplies」</p><p>既存の値を削除するには、値<code>[delete]を使用します</code> （括弧を含む）。</p> |
@@ -86,12 +74,20 @@ Add in when released:
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>（従来のキャンペーンの種類のみ。[!UICONTROL Device Targets]に「[!UICONTROL All]」または「[!UICONTROL Smartphones]」が含まれている場合にのみ適用されます） スマートフォンが接続される可能性のある携帯電話会社：<i>[!UICONTROL All]</i>、または[!DNL Google Ads]</a>の<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">利用可能な通信事業者とコードのリストを使用して&lt;c<i>通信事業者コード </i>>、&lt;<i>国コード </i>> （T-Mobile、USなど）で示される1つ以上の通信事業者。 複数のキャリアをセミコロンで区切ります（T-Mobile,US;T-Mobile,GBなど）。 新しいキャンペーンの場合、デフォルトは<i>[!UICONTROL All]</i>です。</p> |
 | [!UICONTROL Ad Group Name] | <p>広告グループを識別する一意の名前。 最大長は255文字です。末尾の空白文字は保存されません（例えば、「広告グループ 1」は「広告グループ 1」として保存されます）。 このフィールドは、キャンペーンレベルのサイトリンクまたはキャンペーンレベルのデバイスターゲットには適用されません。</p> |
 | [!UICONTROL Ad Group Type] | <p>広告グループの種類：<i>[!UICONTROL Demand Gen]</i> （デマンドジェネレーションキャンペーンのみ）、<i>[!UICONTROL Display]</i> （ディスプレイキャンペーンの場合）、<i>[!UICONTROL Search Dynamic]</i> （拡張動的検索広告の場合）、<i>[!UICONTROL Search Standard]</i> （検索広告の場合）、<i>[!UICONTROL Shopping Product]</i> （ショッピング製品広告の場合）、<i>[!UICONTROL Shopping Showcase]</i> （作成と編集はサポートされていません）、または<i>[!UICONTROL Unknown]</i>。</p> |
+| [!UICONTROL AI Max Search Term Matching] | [!UICONTROL AI Max]対応キャンペーンの広告グループの「[!UICONTROL AI Max Search Term Matching]」設定が有効かどうか：*[!UICONTROL true]*、*[!UICONTROL false]*、またはnull。 |
 | [!UICONTROL Max CPC] | <p>（CPC キャンペーンのみ）広告ネットワーク上の広告クリックに対して支払う最大クリック単価（CPC）で、金銭的な記号と句読点の有無にかかわらず支払われる最高額です。 広告グループとキーワード、商品グループ、動的検索対象の値を設定できます。 新しいキーワードのデフォルトは、広告グループレベルから継承されます。 製品グループの場合は、最も低い製品グループ層の値を設定できます。新しい層のデフォルトは、親層から継承されます。</p><p>最適化されたポートフォリオ内の既存の製品グループと動的検索対象の場合、更新は1日のみ有効で、次の最適化サイクル中に上書きされます。</p> |
 | [!UICONTROL Max Content CPC] | <p>（CPC キャンペーンのみ）最大クリック単価（CPC）。これは、表示用ネットワークサイトからの広告クリックに対する支払い額として最も高い金額で、金銭記号と句読点の有無にかかわらず使用されます。 プレースメントのターゲットではないキャンペーンでは、広告グループレベルで値を設定および編集できます。</p> |
 | [!UICONTROL Audience Target Method] | <p>（検索ネットワークのみのキャンペーン、およびディスプレイネットワーク上の既存の読み取り専用[!DNL Gmail] キャンペーン）次の項目を実行するかどうか：</p><ul><li><p><i>[!UICONTROL Target and Bid]</i>：広告グループの他のターゲットも満たすターゲットオーディエンスに関連付けられたユーザーにのみ広告を表示します。</p></li><li><p><i>[!UICONTROL Bid Only]</i>：他の広告グループレベルの目標を満たす限り、ターゲットオーディエンスに関連付けられていない人にも広告を表示します。</p><p>ただし、特定のオーディエンスに対して高い入札額を設定することで、広告が表示される可能性を高めることができます。</p></li></ul> |
 | [!UICONTROL Keyword] | キーワード文字列。 最大長は80文字、10文字以下で、文字、数字、および次の特殊文字のみを含めることができます：スペース `# $ & _ - " [ ] ' + . / :`</p><p><b> メモ：</b></p><ul><li><p>広告グループまたはキャンペーンレベルでキーワードを除外するには、[!UICONTROL Match Type]を<i>[!UICONTROL Negative]</i>に設定します。 行に広告グループ名が含まれている場合、広告グループのキーワードは除外されます。 行に広告グループ名が含まれていない場合、キャンペーン全体でキーワードが除外されます。</p></li><li><p>[!DNL Google Ads] キーワードまたは一致タイプを変更すると、既存のキーワードが削除され、新しいキーワードが作成されます。</p></li></ul> |
 | [!UICONTROL Placement] | （コンテンツマッチを使用したキャンペーンのみ）広告を表示するディスプレイネットワーク内のプレースメント。 次のいずれかを指定します。</p><ul><li><p>Web サイト：有効なURLを入力してください。 トップレベルのドメイン、ファーストレベルのサブドメイン、または単一のディレクトリ名を持つドメインを指定できます。 URLに疑問符（?）を含めることはできません。 例：<code><br />www.example.com<br />example.com<br />autos.example.com<br />example.com/widgets</code></p></li><li><p>特定のページの広告位置：`<URL> >> <location,sublocation>`形式（`finance.google.com >> Company pages,Top right`など）を使用します。</p></li><li><p>トピック カテゴリ：構文`<category::<category> > <subcategory>`などを使用します（`category::Industries > Energy & Utilities > Oil & Gas`など）。</p></li></ul><p><b> メモ：</b>広告グループまたはキャンペーンレベルでプレースメントを除外するには、[!UICONTROL Match Type]を<i>[!UICONTROL Negative]</i>に設定します。 行に広告グループ名が含まれている場合、広告グループのプレースメントは除外されます。 行に広告グループ名が含まれていない場合、キャンペーン全体のプレースメントは除外されます。</p> |
 | [!UICONTROL Auto Target Expression] | <p>（キャンペーン設定で「[!UICONTROL Use my website contents to target my ads]」が有効になっていない場合は必須。それ以外の場合はオプション）広告グループの動的検索ターゲット。</p><p>すべてのターゲットには、アスタリスク（*）を使用します。</p><p>最大3つの動的検索条件をターゲットにするには、形式`<category>=<target>`を使用します。ここで、`<category>`には以下のカテゴリのいずれかを含めることができます。 個々のカテゴリの複数のターゲットを&quot;\[空白\]と\[空白\]&quot;で結合し、&quot;[空白]と[空白]&quot;で複数のカテゴリを結合します。</p><ul><li><p><i>[!UICONTROL Category]</i>：特定の[!DNL Google Ads] コンテンツカテゴリを持つインデックス付きページの拡張動的検索広告を表示します。</p></li><li><p><i>[!UICONTROL URL]</i>：特定のURLを持つインデックス付きページの拡張動的検索広告を表示するには、URL内の任意の場所に値を含めることができます。</p></li><li><p><i>[!UICONTROL Page Title]</i>: ページタイトルに特定のテキストを含むインデックス付きページの拡張動的検索広告を表示します。</p></li><li><p><i>[!UICONTROL Page Content]</i>：特定のコンテンツを含むインデックス付きページの拡張動的検索広告を表示します。</p></li></ul><p>例：url=shoes.example.com and page title=footwear</p> |
+| [!UICONTROL Campaign Excluded URL] | キャンペーンの最終的なURL拡張から生成されたランディングページとして除外するURL。 オプションで、広告グループレベルでURLのインクルージョン（除外ではなく）を追加できます。 例：「URLに`https://www.example.com`が含まれています。」 |
+| [!UICONTROL Ad Group Included URL] | 広告グループの最終的なURL拡張から生成されたランディングページとして含めるURL。  例：「URLに`https://www.example.com`が含まれています。」 |
+| [!UICONTROL Campaign Brand List] | ブランド関連のクエリが一致する可能性があるアカウントのブランドリストは、キャンペーンに対して除外する必要があります。 [!UICONTROL Campaign Brand List Type] フィールドを使用して、動作を指定します。 |
+| [!UICONTROL Campaign Brand List ID] | キャンペーンレベルのインクルードまたは除外されたブランドリストのID。 |
+| [!UICONTROL Campaign Brand List Type] | ブランド関連のクエリが一致するアカウントに指定されたブランドリストかどうか、またはブランド関連のクエリから除外する必要があるかどうか：*inclusion*&#x200B;または&#x200B;*exclusion*。 |
+| [!UICONTROL Ad Group Brand List] | ブランド関連のクエリが広告グループに一致する可能性があるアカウントのブランド。 |
+| [!UICONTROL Ad Group Brand List ID] | 広告グループレベルのインクルードブランドリストのID。 |
 | [!UICONTROL Parent Product Groupings] | 任意の親製品グループの階層。<br><br>例：`All Products>>ProductTypeL1=a>>ProductTypeL2=b` |
 | [!UICONTROL Product Grouping] | <p>製品グループ （「brand=acme」や「すべての製品」など）。</p><p><b> メモ：</b></p><ul><li><p>指定した商品グループが[!UICONTROL Parent Product Groupings]階層に存在しない場合、Search, Social, &amp; Commerceは、階層の必要な部分を作成します。</p></li><li><p>Search, Social, &amp; Commerceでは、[!DNL Google Ads] ショッピング キャンペーンで広告グループを作成し、デフォルトの入札額を広告グループのデフォルト入札額に設定すると、「[!UICONTROL All Products]」グループが自動的に作成されます。 Search, Social, &amp; Commerceは、商品グループ階層の各レベルで広告グループのデフォルト入札額を使用して、「[!UICONTROL Everything Else]」グループを自動的に作成します。 これらのデフォルトグループを明示的に作成し、それらを除外するか、入札を変更することができます。</p></li><li><p>各広告グループには、「[!UICONTROL All Products]」やその他7つの階層を含め、最大8つの階層の製品グループを含めることができます。</p></li></ul> |
 | [!UICONTROL Partition Type] | 製品グループのパーティションの種類：<i> サブディビジョン </i> （子製品グループがある場合）または<i> ユニット </i> （子製品グループがない場合）。 |
@@ -133,6 +129,10 @@ Add in when released:
 | [!UICONTROL Product Group Status] | 製品グループの表示ステータス：<i>[!UICONTROL Active]</i> <span>または</span> <i>[!UICONTROL Deleted]</i> （既存の製品グループのみ）。 新しい製品グループのデフォルトは<i>[!UICONTROL Active]</i>です。 アクティブな製品グループを削除するには、値<i>[!UICONTROL Deleted]</i>を入力します。 |
 | [!UICONTROL Sitelink Status] | サイトリンクの表示ステータス：<i> アクティブまたは削除済み</i> （既存のサイトリンクのみ）。 新しいサイトリンクのデフォルトは<i>[!UICONTROL Active]</i>です。 アクティブなサイトリンクを削除するには、値<i>[!UICONTROL Deleted]</i>を入力します。 |
 | [!UICONTROL Location Status] | 場所ターゲットの状態：<i>[!UICONTROL Active]</i>または<i>[!UICONTROL Deleted]</i> （既存の場所のみ）。 新しい場所のデフォルトは[!UICONTROL Active]です。 アクティブな場所を削除するには、値<i>[!UICONTROL Deleted]</i>を入力します。 |
+| [!UICONTROL Campaign Excluded URL Status] | キャンペーンの除外URLのステータス：*アクティブ*&#x200B;または`null`。 |
+| [!UICONTROL Ad Group Included URL Status] | キャンペーンに含まれるURLのステータス：*アクティブ*&#x200B;または`null`。 |
+| [!UICONTROL Campaign Brand List Status] | キャンペーンに含まれるブランドリストまたは除外されたブランドリストのステータス：*アクティブ*&#x200B;または`null`。 |
+| [!UICONTROL Ad Group Brand List Status] | 広告グループに含まれるブランドリストのステータス：*アクティブ*&#x200B;または`null`。 |
 | [!UICONTROL RLSA Target Status] | キャンペーンまたは広告グループレベルのRLSA ターゲットまたは除外のステータス：<i>[!UICONTROL Active]</i>または[!UICONTROL Deleted]</i> （既存のターゲットのみ）。 新しいターゲットまたは除外のデフォルトは<i>[!UICONTROL Active]</i>です。 アクティブなターゲットまたは除外を削除するには、値<i>[!UICONTROL Deleted]</i>を入力します。 |
 | [!UICONTROL Device Target Status] | <p>キャンペーン レベルまたは広告グループ レベルのデバイス ターゲットの状態：<i>[!UICONTROL Active]</i>または<i>[!UICONTROL Deleted]</i>。 新しいキャンペーンと広告グループの場合、デフォルトは<i>[!UICONTROL Active]</i>です。</p> |
 | \[広告主固有ラベル分類\] | （広告主固有のラベル分類の名前。例えば、「カラー」というラベル分類の「カラー」など）エンティティに関連付けられている指定された分類の値。 エンティティごとに分類ごとに1つの値のみを含めることができます（キャンペーン Aの「カラー」ラベル分類の「赤」など）。 最大長は100文字で、値にはASCII文字と非ASCII文字を含めることができます。<br><br> ラベル分類とそのラベル値は、すべての子コンポーネントに適用されます。後で追加される新しいコンポーネントは、ラベルに自動的に関連付けられます。 製品グループのラベル分類は、単位（最も詳細）レベルに適用されます。<br><br>分類名も分類値も大文字と小文字を区別しません。 |
@@ -147,6 +147,10 @@ Add in when released:
 | [!UICONTROL Sitelink ID] | 既存のサイトリンクを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1]行にサイトリンクを識別するのに十分なプロパティ列がa）またはb） an &quot;[!UICONTROL AMO ID]&quot;が含まれていない限り、サイトリンクを変更または削除する場合にのみ必要です。 ただし、[!UICONTROL Sitelink ID]と[!UICONTROL AMO ID]のどちらも含めず、プロパティ列が複数のサイトリンクに一致する場合、サイトリンクの1つのみのステータスが変更されます。</p><p><b>注意：</b>既存のサイトリンクのステータス以外のサイトリンクプロパティ列を編集し、[!UICONTROL Sitelink ID]と[!UICONTROL AMO ID]のどちらも含まない場合、新しいサイトリンクが作成され、既存のサイトリンクは変更されません。 |
 | [!UICONTROL RLSA Target ID] | 既存のキャンペーンレベルまたは広告グループレベルのRLSA ターゲットまたは除外を識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1] ターゲットまたは除外を変更または削除する場合にのみ必要です。ただし、行にターゲットの「[!UICONTROL AMO ID]」が含まれていない場合は例外です。 |
 | [!UICONTROL Device Target ID] | <p>既存のキャンペーンレベルまたは広告グループレベルのデバイスターゲットまたは除外を識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1] ターゲットを変更または削除する場合にのみ必要です。ただし、行にターゲットの「[!UICONTROL AMO ID]」が含まれている場合を除きます。</p> |
+| [!UICONTROL Campaign Excluded URL ID] | キャンペーンの除外されたURL式のID。 |
+| [!UICONTROL Ad Group Included URL ID] | 広告グループに含まれるURL式のID。 |
+| [!UICONTROL Campaign Brand Criterion ID] | キャンペーンのブランドリスト基準のID。 |
+| [!UICONTROL Ad Group Brand Criterion ID] | 広告グループのブランドリスト基準のID。 |
 | [!UICONTROL AMO ID] | （生成されたバルクシート内）同期されたエンティティに対してAdobeが生成した一意のID。 レスポンシブ検索広告の場合、広告IDを含めない限り、AMO IDは広告の編集または削除に必要です。 AMO IDを持つ他のすべてのエンティティの種類のデータを編集するには、エンティティ IDと親エンティティ IDを含まない限り、AMO IDがデータの編集または削除を行う必要があります。<br><br>Search, Social, &amp; Commerceでは、値を使用して正しいIDを判断しますが、IDをアドネットワークに投稿しません。 |
 | [!UICONTROL EF Error Message] | （情報目的で生成されたバルクシートに含まれる）行のデータに関する広告ネットワークからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは[!UICONTROL EF Errors] ファイルに含まれます。 この値は広告ネットワークに投稿されません。 |
 | [!UICONTROL SE Error Message] | （情報目的で生成されたバルクシートに含まれる）行のデータに関する広告ネットワークからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは[!UICONTROL SE Errors] ファイルに含まれます。 この値は広告ネットワークに投稿されません。 |
@@ -172,24 +176,34 @@ Add in when released:
 | [!UICONTROL Acct Name] | 各行にエンティティの「[!UICONTROL AMO ID]」が含まれていない限り、必須です。 |
 | [!UICONTROL Campaign Name] | 必須 |
 | [!UICONTROL Campaign Budget] | キャンペーンの作成に必要です。 |
+| [!UICONTROL Campaign Status] | キャンペーンを削除する場合にのみ必要です。 |
 | [!UICONTROL Delivery Method] | キャンペーンの作成に必要です。 |
-| [!UICONTROL Channel Type] | キャンペーンの作成に必要です。 |
+| [!UICONTROL Device Targets] | オプション |
+| [!UICONTROL Device OS Targets (Google Adwords)] | オプション |
+| [!UICONTROL Languages] | オプション |
+| [!UICONTROL Mobile Carriers (Google Adwords)] | オプション |
 | [!UICONTROL Networks] | キャンペーンの作成に必要です。 |
-| [!UICONTROL DSA Domain Name] | 検索ネットワーク上に動的検索広告を含むキャンペーンを作成する必要があります。 |
-| [!UICONTROL DSA Domain Language] | 検索ネットワーク上に動的検索広告を含むキャンペーンを作成する必要があります。 |
+| [!UICONTROL Tracking Template] | オプション |
+| [!UICONTROL Channel Type] | キャンペーンの作成に必要です。 |
 | [!UICONTROL Campaign Priority] | ショッピングキャンペーンの作成が必要です。 |
 | [!UICONTROL Has EU Political Ads] | キャンペーンの作成に必要です。 |
 | [!UICONTROL Merchant ID] | ショッピングキャンペーンの作成が必要です。 |
 | [!UICONTROL Sales Country] | ショッピングキャンペーンの作成が必要です。 |
-| [!UICONTROL Product Scope Filter] | （ショッピングキャンペーン）オプション |
-| [!UICONTROL Languages] | オプション |
-| [!UICONTROL Device Targets] | オプション |
-| [!UICONTROL Device Targets (Google Adwords)] | オプション |
-| [!UICONTROL Mobile Carriers (Google Adwords)] | オプション |
 | [!UICONTROL Audience Target Method] | なし |
+| [!UICONTROL Product Scope Filter] | （ショッピングキャンペーン）オプション |
+| [!UICONTROL DSA Domain Name] | 検索ネットワーク上に動的検索広告を含むキャンペーンを作成する必要があります。 |
+| [!UICONTROL DSA Domain Language] | 検索ネットワーク上に動的検索広告を含むキャンペーンを作成する必要があります。 |
 | [!UICONTROL Landing Page Suffix] | オプション |
-| [!UICONTROL Tracking Template] | オプション |
-| [!UICONTROL Campaign Status] | キャンペーンを削除する場合にのみ必要です。 |
+| [!UICONTROL AI Max Enabled] | オプション |
+| [!UICONTROL AI Max Asset Automation] | オプション |
+| [!UICONTROL Campaign Brand Criterion ID] | オプション |
+| [!UICONTROL Campaign Brand List] | オプション |
+| [!UICONTROL Campaign Brand List ID] | オプション |
+| [!UICONTROL Campaign Brand List Status] | オプション |
+| [!UICONTROL Campaign Brand List Type] | オプション |
+| [!UICONTROL Included URL] | オプション |
+| [!UICONTROL Included URL ID] | オプション |
+| [!UICONTROL Included URL Status] | オプション |
 | \[広告主固有ラベル分類\] | オプション |
 | [!UICONTROL Constraints] | オプション |
 | [!UICONTROL Campaign ID] | キャンペーン名を変更する場合にのみ必須です。行にキャンペーンの「[!UICONTROL AMO ID]」が含まれていない限り例外です。 |
@@ -203,15 +217,23 @@ Add in when released:
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 各行にエンティティの「[!UICONTROL AMO ID]」が含まれていない限り、必須です。 |
 | [!UICONTROL Campaign Name] | 必須 |
-| [!UICONTROL Networks] | なし |
-| [!UICONTROL GDN Custom Bid Level] | オプション |
 | [!UICONTROL Ad Group Name] | 必須 |
 | [!UICONTROL Ad Group Type] | 広告グループの作成に必要です。 |
+| [!UICONTROL GDN Custom Bid Level] | オプション |
+| [!UICONTROL Networks] | なし |
+| [!UICONTROL Ad Group Status] | 広告グループを削除する場合にのみ必要です。 |
 | [!UICONTROL Max CPC] | オプション |
 | [!UICONTROL Max Content CPC] | オプション |
-| [!UICONTROL Audience Target Method] | 必須 |
 | [!UICONTROL Tracking Template] | オプション |
-| [!UICONTROL Ad Group Status] | 広告グループを削除する場合にのみ必要です。 |
+| [!UICONTROL Audience Target Method] | 必須 |
+| [!UICONTROL AI Max Search Term Matching] | オプション |
+| [!UICONTROL Ad Group Brand Criterion ID] | オプション |
+| [!UICONTROL Ad Group Brand List] | オプション |
+| [!UICONTROL Ad Group Brand List ID] | オプション |
+| [!UICONTROL Ad Group Brand List Status] | オプション |
+| [!UICONTROL Ad Group Included URL] | オプション |
+| [!UICONTROL Ad Group Included URL ID] | オプション |
+| [!UICONTROL Ad Group Included URL Status] | オプション |
 | \[広告主固有ラベル分類\] | オプション |
 | [!UICONTROL Constraints] | オプション |
 | [!UICONTROL Ad Group ID] | 広告グループ名を変更する場合にのみ必要です。行に広告グループの「[!UICONTROL AMO ID]」が含まれていない限り除きます。 |

@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3d982df6837633d7e21b7acb85e8d7fd2c3e1655
 workflow-type: tm+mt
-source-wordcount: '3058'
+source-wordcount: '3216'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] キャンペーン設定
@@ -239,13 +239,21 @@ ht-degree: 0%
 
 * **[!UICONTROL Final URL expansion]:** [!DNL Google Ads]が検索意図に基づいて、web サイト上で最も関連性の高いランディングページにトラフィックをルーティングするかどうか。 この設定は、**[!UICONTROL Text customization]**&#x200B;が有効になっている場合にのみ使用できます。
 
-<!-- Clarify why this is "Unspecified" and read-only for me as of 7/23. Also, shouldn't we reword this? -->
+  >[!NOTE]
+  >
+  >（ピン留めされたアセットを含むレスポンシブ検索広告）この設定が有効になっている場合、最終的なURLがユーザーの意図と一致しないランディングページにルーティングされる場合、[!DNL Google Ads]はピン留めされたアセットを使用しません。 常にピン留めされたアセットを使用するには、[!UICONTROL Final URL expansion]を無効にし、広告グループレベル [!UICONTROL URL inclusions]を指定しないでください。
 
 **[!UICONTROL Bundling required]:** （[!UICONTROL AI Max]機能が有効になっている既存のキャンペーンのみ。読み取り専用）キャンペーンのテキストのカスタマイズとブランドリストの制御を尊重または変更するために[!UICONTROL AI Max]を有効にする必要があるかどうか：*[!UICONTROL Required]*、*[!UICONTROL Not required]*、または&#x200B;*[!UICONTROL Unspecified]*。
 
 <!-- Is this based on the advanced location options set elsewhere in Google Ads editor? -->
 
 **[!UICONTROL Geo Targeting Type]:** （[!UICONTROL AI Max]機能を有効にした既存のキャンペーン、読み取り専用）キャンペーンの広告グループに[!UICONTROL Locations of Interest]個のターゲットが含まれている場合、ターゲットとなるユーザーの関心の種類は&#x200B;*[!UICONTROL Search Interest]* （指定された場所に興味があるユーザー）、*[!UICONTROL Presence]* （指定された場所にいるユーザー、定期的に興味があるユーザー）または&#x200B;*[!UICONTROL Presence or Interest]* （指定された場所にいるユーザー、定期的に興味があるユーザー）と表示されます。
+
+**[!UICONTROL URL exclusions]:** （[!DNL AI Max]、[!UICONTROL Text customization]、[!UICONTROL Final URL expansion]が有効になっているキャンペーン）のURLを、最終的なURL拡張から生成されたランディングページとして除外します。 オプションで、URL *inclusions* （除外ではない）を広告グループレベルで追加できます。 URLを追加するには、入力フィールドにURL フラグメントまたはURL フラグメントを入力し、**+**&#x200B;をクリックします。
+
+**[!UICONTROL Brand inclusions]:** （[!DNL AI Max]が有効になっているキャンペーン）ブランド関連のクエリが一致する可能性のあるアカウントのブランドリスト。 含める各ブランドリストの横にあるチェックボックスを選択します。 この設定は、広告グループレベルで上書きできます。
+
+**[!UICONTROL Brand exclusions]:** （[!DNL AI Max]が有効になっているキャンペーン）ブランド関連のクエリが一致しない可能性があるアカウントのブランドリスト。 除外する各ブランドリストの横にあるチェックボックスをオンにします。
 
 ## [!UICONTROL Additional Campaign Information] タブ
 
