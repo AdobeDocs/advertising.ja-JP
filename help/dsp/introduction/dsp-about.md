@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '381'
 ht-degree: 0%
 ---
 # Adobe Advertising DSPについて
@@ -43,9 +43,9 @@ Adobe Advertising DSP（DSP）は、高度なファーストパーティデー�
 
 * [**Premiere コネクテッド TV体験[!DNL Roku]**](/help/dsp/inventory/roku-inventory.md): [!DNL Roku]とDSPには、独自のパートナーシップがあり、[!DNL Roku] インベントリ全体でファーストパーティデータとサードパーティデータを活用して、大画面でオーディエンスに効率的に大規模にリーチできます。 [!DNL Roku]個のIDと同期できる機能を備えた唯一のプラットフォームを活用することで、マーケターは、正確かつ正確な決定論的1:1 ターゲティングを活用できるだけでなく、[!DNL Roku]個のインベントリと独自の測定インサイトにもアクセスできます。
 
-* [**AIを活用した機能**](/help/dsp/introduction/features/ai-agents.md): DSPでは、AIを活用したエージェントを提供して、再利用可能なオーディエンスの作成や、製品の使用手順やベストプラクティスの検索を支援します。
+* [**AIを活用した機能**](/help/dsp/introduction/features/ai-agents.md): DSPは、再利用可能なオーディエンスの作成、レポートの生成、パフォーマンスのトラブルシューティング、製品の使用手順やベストプラクティスの検索を支援する、統合AI アシスタントを含むAIを活用したエージェントを提供します。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ビデオ：Advertising DSPの概要](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html?lang=ja)
->* [&#x200B; ビデオ：DSP アカウント構造とユーザーインターフェイス &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ja)
+>* [ ビデオ：Advertising DSPの概要](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html)
+>* [ ビデオ：DSP アカウント構造とユーザーインターフェイス ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

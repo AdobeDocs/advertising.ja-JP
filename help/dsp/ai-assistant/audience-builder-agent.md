@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a5cff4dbddc5c50b0678b56f8a071e19bd6af5b1
+source-git-commit: fe1a63dbe2c03335a5fbd0dfd3ab5902ca3c0527
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '268'
 ht-degree: 0%
 ---
 # AI アシスタントを使用して再利用可能なオーディエンスを生成
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 *英語のみサポート*
 
-AI アシスタントのオーディエンスビルダーエージェントを使用して、再利用可能なオーディエンスのグループ（利用可能なファーストパーティセグメントとサードパーティセグメントを含む）および他の保存されたオーディエンスも含む、オーディエンスセグメントのグループ）を生成します。 後で、複数のプレースメントのターゲットまたは除外としてオーディエンスを使用できます。
+AI アシスタントのオーディエンスビルダーエージェントを使用して、[再利用可能なオーディエンス ](/help/dsp/audiences/audience-about.md)を生成します。 再利用可能なオーディエンスには、自社が利用できるファーストパーティセグメントとサードパーティセグメント、さらには保存されたオーディエンスを含めることができます。
 
 >[!IMPORTANT]
 >
@@ -48,13 +48,13 @@ AI アシスタントのオーディエンスビルダーエージェントを�
 
 会話（クエリスレッド）ごとに個別に保存されるため、以前の会話を区別できます。
 
-1. [&#x200B; チャットボックス &#x200B;](#ai-assistant-open)の上部で、![新しい会話を開始](/help/dsp/assets/new-selection.png "新しい会話を開始")をクリックします。
+1. [ チャットボックス ](#ai-assistant-open)の上部で、![新しい会話を開始](/help/dsp/assets/new-selection.png "新しい会話を開始")をクリックします。
 
-1. [&#x200B; クエリを送信](#query-submit)。
+1. [ クエリを送信](#query-submit)。
 
 ## チャットボックスの拡大と最小化
 
-1. [&#x200B; チャットボックス &#x200B;](#ai-assistant-open)の上部にある「![&#x200B; フルスクリーンに入る](/help/dsp/assets/fullscreen.png " フルスクリーンに入る")」をクリックして、フルスクリーンモードに入ります。
+1. [ チャットボックス ](#ai-assistant-open)の上部にある「![ フルスクリーンに入る](/help/dsp/assets/fullscreen.png " フルスクリーンに入る")」をクリックして、フルスクリーンモードに入ります。
 
 1. チャットボックスをパネルモードに戻すには、**[!UICONTROL < Back>]**&#x200B;をクリックします。
 
