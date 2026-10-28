@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff1657a7f005eb93c83fdc7fd2e53810d9e03bd8
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '8378'
+source-wordcount: '8452'
 ht-degree: 0%
 ---
 # 付録 – [!DNL Google Ads] アカウントに必要なバルクシート データ
@@ -146,11 +146,11 @@ ht-degree: 0%
 | [!UICONTROL Product Group ID] | 既存の製品グループを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1]製品グループを変更または削除する場合にのみ必要です。行に製品グループを識別するのに十分なプロパティ列が含まれていない限り、または行に「[!UICONTROL AMO ID]」。 |
 | [!UICONTROL Sitelink ID] | 既存のサイトリンクを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1]行にサイトリンクを識別するのに十分なプロパティ列がa）またはb） an &quot;[!UICONTROL AMO ID]&quot;が含まれていない限り、サイトリンクを変更または削除する場合にのみ必要です。 ただし、[!UICONTROL Sitelink ID]と[!UICONTROL AMO ID]のどちらも含めず、プロパティ列が複数のサイトリンクに一致する場合、サイトリンクの1つのみのステータスが変更されます。</p><p><b>注意：</b>既存のサイトリンクのステータス以外のサイトリンクプロパティ列を編集し、[!UICONTROL Sitelink ID]と[!UICONTROL AMO ID]のどちらも含まない場合、新しいサイトリンクが作成され、既存のサイトリンクは変更されません。 |
 | [!UICONTROL RLSA Target ID] | 既存のキャンペーンレベルまたは広告グループレベルのRLSA ターゲットまたは除外を識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1] ターゲットまたは除外を変更または削除する場合にのみ必要です。ただし、行にターゲットの「[!UICONTROL AMO ID]」が含まれていない場合は例外です。 |
-| [!UICONTROL Device Target ID] | <p>既存のキャンペーンレベルまたは広告グループレベルのデバイスターゲットまたは除外を識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1] ターゲットを変更または削除する場合にのみ必要です。ただし、行にターゲットの「[!UICONTROL AMO ID]」が含まれている場合を除きます。</p> |
-| [!UICONTROL Campaign Excluded URL ID] | キャンペーンの除外されたURL式のID。 |
-| [!UICONTROL Ad Group Included URL ID] | 広告グループに含まれるURL式のID。 |
-| [!UICONTROL Campaign Brand Criterion ID] | キャンペーンのブランドリスト基準のID。 |
-| [!UICONTROL Ad Group Brand Criterion ID] | 広告グループのブランドリスト基準のID。 |
+| [!UICONTROL Device Target ID] | 既存のキャンペーンレベルまたは広告グループレベルのデバイスターゲットまたは除外を識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1] ターゲットを変更または削除する場合にのみ必要です。ただし、行にターゲットの「[!UICONTROL AMO ID]」が含まれている場合を除きます。 |
+| [!UICONTROL Campaign Excluded URL ID] | キャンペーンの除外URLを識別する一意のID。 URL除外リストを変更または削除する場合にのみ必要です。 |
+| [!UICONTROL Ad Group Included URL ID] | 広告グループに含まれるURLを識別する一意のID。 URL含めるリストを変更または削除する場合にのみ必要です。 |
+| [!UICONTROL Campaign Brand Criterion ID] | （読み取り専用）各キャンペーンのブランドリストの基準を識別する一意のID。 [!DNL Google Ads]は、ブランドリストの包含または除外を追加した後にこのIDを作成します。 値を入力または編集しないでください。 |
+| [!UICONTROL Ad Group Brand Criterion ID] | （読み取り専用）広告グループのブランドリストのそれぞれの基準を識別する一意のID。 [!DNL Google Ads]は、ブランドリストの包含または除外を追加した後にこのIDを作成します。 値を入力または編集しないでください。 |
 | [!UICONTROL AMO ID] | （生成されたバルクシート内）同期されたエンティティに対してAdobeが生成した一意のID。 レスポンシブ検索広告の場合、広告IDを含めない限り、AMO IDは広告の編集または削除に必要です。 AMO IDを持つ他のすべてのエンティティの種類のデータを編集するには、エンティティ IDと親エンティティ IDを含まない限り、AMO IDがデータの編集または削除を行う必要があります。<br><br>Search, Social, &amp; Commerceでは、値を使用して正しいIDを判断しますが、IDをアドネットワークに投稿しません。 |
 | [!UICONTROL EF Error Message] | （情報目的で生成されたバルクシートに含まれる）行のデータに関する広告ネットワークからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは[!UICONTROL EF Errors] ファイルに含まれます。 この値は広告ネットワークに投稿されません。 |
 | [!UICONTROL SE Error Message] | （情報目的で生成されたバルクシートに含まれる）行のデータに関する広告ネットワークからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは[!UICONTROL SE Errors] ファイルに含まれます。 この値は広告ネットワークに投稿されません。 |

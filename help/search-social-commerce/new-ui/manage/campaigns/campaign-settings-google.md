@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 3d982df6837633d7e21b7acb85e8d7fd2c3e1655
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3244'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] キャンペーン設定
@@ -251,9 +251,9 @@ ht-degree: 0%
 
 **[!UICONTROL URL exclusions]:** （[!DNL AI Max]、[!UICONTROL Text customization]、[!UICONTROL Final URL expansion]が有効になっているキャンペーン）のURLを、最終的なURL拡張から生成されたランディングページとして除外します。 オプションで、URL *inclusions* （除外ではない）を広告グループレベルで追加できます。 URLを追加するには、入力フィールドにURL フラグメントまたはURL フラグメントを入力し、**+**&#x200B;をクリックします。
 
-**[!UICONTROL Brand inclusions]:** （[!DNL AI Max]が有効になっているキャンペーン）ブランド関連のクエリが一致する可能性のあるアカウントのブランドリスト。 含める各ブランドリストの横にあるチェックボックスを選択します。 この設定は、広告グループレベルで上書きできます。
+**[!UICONTROL Brand inclusions]:** （[!DNL AI Max]が有効になっているキャンペーン）ブランド関連のクエリが一致する可能性のあるブランドを含むブランドリスト。 [!DNL Google Ads] エディターでアカウントに設定されているすべてのブランドリストのリストから、含める各ブランドリストの横にあるチェックボックスを選択します。 この設定は、広告グループレベルで上書きできます。
 
-**[!UICONTROL Brand exclusions]:** （[!DNL AI Max]が有効になっているキャンペーン）ブランド関連のクエリが一致しない可能性があるアカウントのブランドリスト。 除外する各ブランドリストの横にあるチェックボックスをオンにします。
+**[!UICONTROL Brand exclusions]:** （[!DNL AI Max]が有効になっているキャンペーン） ブランド関連のクエリが一致しない可能性があるブランドを含むブランドリスト。 [!DNL Google Ads] エディターでアカウントに設定されたすべてのブランドリストのリストから、除外する各ブランドリストの横にあるチェックボックスを選択します。
 
 ## [!UICONTROL Additional Campaign Information] タブ
 
