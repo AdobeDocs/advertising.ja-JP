@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: AI features
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
     internal-label: Audiences
-source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 ---
 # ADOBE ADVERTISING DSPのAIを活用した機能
@@ -30,10 +30,12 @@ DSPは、自然言語プロンプトを使用して複数のタスクを支援�
 
 * 統合AI アシスタント：
 
-  * [&#x200B; キャンペーン、キャンペーンコンポーネント、Advertising Creative エクスペリエンス、広告主、および広告ターゲットのレポートを作成します](/help/dsp/ai-assistant/insights-agent.md)。
+  * [再利用可能なオーディエンスを生成](/help/dsp/ai-assistant/audience-builder-agent.md)。
 
-  * [&#x200B; パッケージとプレースメントのパフォーマンスと配信に関する問題のトラブルシューティング &#x200B;](/help/dsp/ai-assistant/troubleshooting-agent.md)。
+  * [ キャンペーン、キャンペーンコンポーネント、Advertising Creative エクスペリエンス、広告主、および広告ターゲットのレポートを作成します](/help/dsp/ai-assistant/insights-agent.md)。
 
-  * [&#128279;](/help/dsp/home.md)Advertising Creative ガイド [&#128279;](/help/dsp/ai-assistant/documentation-search.md)と[Advertising DSP ガイド &#x200B;](/help/creative/home.md)の広告主の両方で、商品ドキュメント &#x200B;を検索します。Advertising Creative ガイド &#x200B;および（広告主との両方）。
+  * [ パッケージとプレースメントのパフォーマンスと配信に関する問題のトラブルシューティング ](/help/dsp/ai-assistant/troubleshooting-agent.md)。
 
-* [生成AIが支援するオーディエンスエージェント（[!UICONTROL Audiences] > [!UICONTROL All Audiences]）を使用して、新しい再利用可能なオーディエンス &#x200B;](/help/dsp/audiences/reusable-audience-create.md)を生成します。このオーディエンスは、プレースメントのターゲットまたは除外として使用できます。
+  * [Advertising Creative ガイド [と[Advertising DSP ガイド ](/help/creative/home.md)の広告主の両方で、商品ドキュメント ](/help/dsp/ai-assistant/documentation-search.md)を検索します。Advertising Creative ガイド ](/help/dsp/home.md)および（広告主との両方）。
+
+* [生成AIが支援するオーディエンスエージェント（[!UICONTROL Audiences] > [!UICONTROL All Audiences]）を使用して、新しい再利用可能なオーディエンス ](/help/dsp/audiences/reusable-audience-create.md)を生成します。このオーディエンスは、プレースメントのターゲットまたは除外として使用できます。

@@ -15,14 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 ---
-# AI アシスタントを使用してレポートを作成する
+# AI アシスタントを使用してレポートを作成
 
 *Beta機能*
+
+*英語のみサポート*
 
 AI アシスタントのインサイトエージェントを使用すると、レポートを手作業で作成することなく、キャンペーン、キャンペーンコンポーネント、Advertising Creativeエクスペリエンス、広告主、広告目標に関する指標や詳細なレポートを取得できます。 キャンペーンの費用やCPAなど、特定の指標に関する簡単な質問をしたり、特定のディメンション（単一のキャンペーンやオーディエンスなど）やディメンション全体（キャンペーンや広告主ごとの内訳）に関する、より複雑なレポートを要求したりできます。 結果はCSV ファイルとしてダウンロードできます。
 
@@ -46,7 +48,7 @@ AI アシスタントのインサイトエージェントを使用すると、�
 
 一度に1つのメッセージで複数の質問を行うことはできますが、一度に1つのメッセージのみ行うことができます。 別の応答を送信する前に、応答を待ちます。
 
-1. 任意のページの右上にある「![&#x200B; エージェント型チャット &#x200B;](/help/dsp/assets/agent-chat.png " エージェント型チャット ")」をクリックします。
+1. 任意のページの右上にある「![ エージェント型チャット ](/help/dsp/assets/agent-chat.png " エージェント型チャット ")」をクリックします。
 
 1. クエリを作成します。
 
@@ -64,7 +66,7 @@ AI アシスタントのインサイトエージェントを使用すると、�
 
            1. （オプション）ニーズに合わせてテキストを編集します。
 
-   1. （オプション）特定のディメンション値（特定のキャンペーンなど）にクエリをフォーカスするには、ディメンション値を表示する場所にカーソルをオプションで挿入し、![&#x200B; エンティティのメンション &#x200B;](/help/dsp/assets/prompt-entity.png " エンティティのメンション ")をクリックし、ディメンションを選択して、ディメンション値を選択します。
+   1. （オプション）特定のディメンション値（特定のキャンペーンなど）にクエリをフォーカスするには、ディメンション値を表示する場所にカーソルをオプションで挿入し、![ エンティティのメンション ](/help/dsp/assets/prompt-entity.png " エンティティのメンション ")をクリックし、ディメンションを選択して、ディメンション値を選択します。
 
       例えば、ディメンション [!UICONTROL Campaign]の場合、すべてのキャンペーンのリストからレポート対象を選択できます。
 
@@ -75,9 +77,9 @@ AI アシスタントのインサイトエージェントを使用すると、�
       * Advertising Creative エンティティ：[!UICONTROL Experience]
       * 広告目標：[!UICONTROL Audience]、[!UICONTROL City]、[!UICONTROL Country]、[!UICONTROL State]、[!UICONTROL DMA]、[!UICONTROL Retargeting Pixel]、[!UICONTROL Device OS]、[!UICONTROL Device Browser]、[!UICONTROL Device Type]、[!UICONTROL Zip Code]
 
-   クエリについて詳しくは、「[&#x200B; クエリとプロンプトの作成に関するベストプラクティス &#x200B;](ai-assistant-about.md#writing-queries)」を参照してください。
+   クエリについて詳しくは、「[ クエリとプロンプトの作成に関するベストプラクティス ](ai-assistant-about.md#writing-queries)」を参照してください。
 
-1. ![&#x200B; クエリを送信](/help/dsp/assets/submit-prompt.png " クエリを送信")をクリックするか、キーボードの&#x200B;**Enter** キーを押します。 担当者が追加情報を要求する場合は、必要な情報を提供します。
+1. ![ クエリを送信](/help/dsp/assets/submit-prompt.png " クエリを送信")をクリックするか、キーボードの&#x200B;**Enter** キーを押します。 担当者が追加情報を要求する場合は、必要な情報を提供します。
 
    レポートの最初の数行が表示され、レポート全体をプレビューおよびダウンロードするためのリンクが表示されます。
 
@@ -93,7 +95,7 @@ AI アシスタントのインサイトエージェントを使用すると、�
 
   ファイルは、ブラウザーの通常の手順に従って、[!DNL Microsoft Excel]個のコンマ区切り値ファイル（.csv）としてダウンロードされます。 ファイル名は「DSP_Insights_Report_&lt;job_number>」です。
 
-* サイドパネルでレポート全体をプレビューするには、![&#x200B; プレビュー](/help/dsp/assets/agent-chat-preview.png " プレビュー")をクリックします。 プレビューからレポートをダウンロードするには、![書き出し](/help/dsp/assets/download.png "書き出し")をクリックします。
+* サイドパネルでレポート全体をプレビューするには、![ プレビュー](/help/dsp/assets/agent-chat-preview.png " プレビュー")をクリックします。 プレビューからレポートをダウンロードするには、![書き出し](/help/dsp/assets/download.png "書き出し")をクリックします。
 
   レポートをダウンロードすると、ブラウザーの通常の手順に従って、[!DNL Microsoft Excel]個のコンマ区切り値ファイル（.csv）としてダウンロードされます。 ファイル名は「DSP_Insights_Report_&lt;job_number>」です。
 
@@ -101,13 +103,13 @@ AI アシスタントのインサイトエージェントを使用すると、�
 
 会話（クエリスレッド）ごとに個別に保存されるため、以前の会話を区別できます。
 
-1. [&#x200B; チャットボックス &#x200B;](#ai-assistant-open)の上部で、![新しい会話を開始](/help/dsp/assets/new-selection.png "新しい会話を開始")をクリックします。
+1. [ チャットボックス ](#ai-assistant-open)の上部で、![新しい会話を開始](/help/dsp/assets/new-selection.png "新しい会話を開始")をクリックします。
 
-1. [&#x200B; クエリを送信](#query-submit)。
+1. [ クエリを送信](#query-submit)。
 
 ## チャットボックスの拡大と最小化
 
-1. [&#x200B; チャットボックス &#x200B;](#ai-assistant-open)の上部にある「![&#x200B; フルスクリーンに入る](/help/dsp/assets/fullscreen.png " フルスクリーンに入る")」をクリックして、フルスクリーンモードに入ります。
+1. [ チャットボックス ](#ai-assistant-open)の上部にある「![ フルスクリーンに入る](/help/dsp/assets/fullscreen.png " フルスクリーンに入る")」をクリックして、フルスクリーンモードに入ります。
 
 1. チャットボックスをパネルモードに戻すには、**[!UICONTROL < Back>]**&#x200B;をクリックします。
 
