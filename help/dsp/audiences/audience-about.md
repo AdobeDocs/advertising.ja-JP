@@ -116,7 +116,7 @@ DSPのユーザーインターフェイスやカスタムインポートサー�
 
   >[!NOTE]
   >
-  >これらのソリューションのセグメントの設定と収集について詳しくは、[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)、[Analytics](https://experienceleague.adobe.com/docs/analytics.html)、[the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)のドキュメントを参照してください。
+  >これらのソリューションのセグメントの設定と収集について詳しくは、[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=ja)、[Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=ja)、[the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=ja)のドキュメントを参照してください。
 
 ## オーディエンスサイズデータ
 
