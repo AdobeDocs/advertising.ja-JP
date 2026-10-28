@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 9d4ed06ec7196fc10be86a3e8c5c94701c90d170
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '471'
 ht-degree: 3%
 ---
 # SSP パートナー
@@ -40,7 +40,7 @@ ht-degree: 3%
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | PG サポート | グローバル | USD、EUR、GBP | オーディオデスクトップとモバイル |
 | [!DNL Cadent] | [!DNL Cadent] （以前の[!DNL EMX Digital]） | Adobe Advertising | — | US/CA | USD | デスクトップとモバイルの表示<br><br> ビデオデスクトップ、モバイル、およびCTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul]またはAdobe Advertising | — | 米国+ EMEA | USD、ユーロ | デスクトップとモバイルの表示<br><br> ビデオデスクトップ、モバイル、およびCTV |
-| [!DNL Equativ] | [!DNL Equativ] （以前の[!DNL Smart AdServer]） | [!DNL TubeMogul]またはAdobe Advertising | — | EMEA | USD、ユーロ | デスクトップとモバイルの表示<br><br> デスクトップとモバイルのビデオ |
+| [!DNL Equativ/Sharethrough] | [!DNL Equativ] | [!DNL TubeMogul]またはAdobe Advertising | — | グローバル | USD | ディスプレイ デスクトップとモバイル <br><br> ネイティブ ディスプレイ <br><br> ビデオ デスクトップ、モバイル、およびCTV |
 | [!DNL FreeWheel] | [!DNL Comcast] | [!DNL TubeMogul]またはAdobe Advertising | PG サポート | グローバル | USD、EUR、AUD、GBP | ビデオデスクトップ、モバイル、CTV |
 | [!DNL Google Authorized Buyers] （以前の[!DNL Google AdX]） | [!DNL Google] | Adobe NA - 44912714<br>Adobe APACおよびEU - 89185975 | PG サポート | グローバル | USD、BRL | オーディオ デスクトップとモバイル <br><br> ディスプレイ デスクトップとモバイル <br><br> ビデオ デスクトップ、モバイル、およびCTV |
 | [!DNL GumGum] |  | Adobe Advertising | — | グローバル | USD | デスクトップとモバイルの表示<br><br> デスクトップとモバイルのビデオ |
@@ -51,7 +51,6 @@ ht-degree: 3%
 | [!DNL Nexxen] | [!DNL Nexxen] （以前の[!DNL Unruly]） | Adobe Advertising | — | 米国+ EMEA | USD | デスクトップとモバイルの表示<br><br> ビデオデスクトップ、モバイル、およびCTV |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul]またはAdobe Advertising | PG サポート | グローバル | USD | デスクトップとモバイルの表示<br><br> ビデオデスクトップ、モバイル、およびCTV |
 | [!DNL PubMatic] | [!DNL Pubmatic] | [!DNL TubeMogul]またはAdobe Advertising | — | グローバル | USD | デスクトップとモバイルの表示<br><br> ビデオデスクトップ、モバイル、およびCTV |
-| [!DNL ShareThrough] |  | [!DNL TubeMogul]またはAdobe Advertising | — | グローバル | USD | ディスプレイ デスクトップとモバイル <br><br> ネイティブ ディスプレイ <br><br> ビデオ デスクトップ、モバイル、およびCTV |
 | [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | すべての通貨 | デスクトップとモバイルの表示<br><br> ビデオデスクトップ、モバイル、およびCTV |
 | [!DNL Taboola] |  | Adobe Advertising | — | US/CA | USD | ビデオデスクトップとモバイル |
 | [!DNL Teads] |  | [!DNL TubeMogul]またはAdobe Advertising | — | Outstream Video = Global<br>Display = NA + EMEA | USD | デスクトップとモバイルの表示<br><br> ビデオデスクトップ、モバイル、およびCTV |
