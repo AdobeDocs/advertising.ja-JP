@@ -48,13 +48,13 @@ AI アシスタントのオーディエンスビルダーエージェントを�
 
 会話（クエリスレッド）ごとに個別に保存されるため、以前の会話を区別できます。
 
-1. [ チャットボックス ](#ai-assistant-open)の上部で、![新しい会話を開始](/help/dsp/assets/new-selection.png "新しい会話を開始")をクリックします。
+1. [&#x200B; チャットボックス &#x200B;](#ai-assistant-open)の上部で、![新しい会話を開始](/help/dsp/assets/new-selection.png "新しい会話を開始")をクリックします。
 
-1. [ クエリを送信](#query-submit)。
+1. [&#x200B; クエリを送信](#query-submit)。
 
 ## チャットボックスの拡大と最小化
 
-1. [ チャットボックス ](#ai-assistant-open)の上部にある「![ フルスクリーンに入る](/help/dsp/assets/fullscreen.png " フルスクリーンに入る")」をクリックして、フルスクリーンモードに入ります。
+1. [&#x200B; チャットボックス &#x200B;](#ai-assistant-open)の上部にある「![&#x200B; フルスクリーンに入る](/help/dsp/assets/fullscreen.png " フルスクリーンに入る")」をクリックして、フルスクリーンモードに入ります。
 
 1. チャットボックスをパネルモードに戻すには、**[!UICONTROL < Back>]**&#x200B;をクリックします。
 
