@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
+source-git-commit: 59d4abad49f2684a4b0a5d46774757bffcd7afee
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2109'
 ht-degree: 0%
 ---
 # 再利用可能なオーディエンスの作成
@@ -29,13 +29,15 @@ ht-degree: 0%
 
 再利用可能なオーディエンスを保存および管理できます。これは、複数のプレースメントのターゲットまたは除外として使用できるオーディエンスセグメントのグループです。 再利用可能なオーディエンスには、自社が利用できるファーストパーティセグメントとサードパーティセグメント、さらには保存されたオーディエンスを含めることができます。
 
-統合[AI アシスタント &#x200B;](/help/dsp/ai-assistant/ai-assistant-about.md)または[!UICONTROL Audiences] > [!UICONTROL All Audiences] ビューでAI支援オーディエンスエージェントを使用してオーディエンスを作成するか、手動でオーディエンスを作成します。
+統合[AI アシスタント ](/help/dsp/ai-assistant/ai-assistant-about.md)または[!UICONTROL Audiences] > [!UICONTROL All Audiences] ビューでAI支援オーディエンスエージェントを使用してオーディエンスを作成するか、手動でオーディエンスを作成します。
 
 >[!NOTE]
 >
 >（DSPがハッシュ化されたメール IDをLiveRamp RampID セグメントに変換する広告主）アクティブなプレースメント、スケジュール済みプレースメント、または一時停止されたプレースメントにアタッチされていないファーストパーティのRampID セグメントは一時停止されます。 セグメントは、「自動一時停止」としてセグメントリストに表示されます。
 
-## AI アシスタントで生成AIを活用して、再利用可能なオーディエンスを作成する
+## 生成AIを使用して再利用可能なオーディエンスを生成する
+
+### AI アシスタントを使用して再利用可能なオーディエンスを作成する
 
 *Beta機能*
 
@@ -51,7 +53,7 @@ ht-degree: 0%
 
    * メインメニューで、**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**&#x200B;をクリックします。 データテーブルの上で、**[!UICONTROL Create]>[!UICONTROL Create with AI]**&#x200B;をクリックします。
 
-   * 任意のページの右上にある「![&#x200B; エージェント型チャット &#x200B;](/help/dsp/assets/agent-chat.png " エージェント型チャット ")」をクリックします。
+   * 任意のページの右上にある「![ エージェント型チャット ](/help/dsp/assets/agent-chat.png " エージェント型チャット ")」をクリックします。
 
 1. オーディエンスの定義：
 
@@ -69,9 +71,9 @@ ht-degree: 0%
 
            1. （オプション）ニーズに合わせてテキストを編集します。
 
-      「[&#x200B; プロンプト作成の基本](#writing-prompts)」および「[&#x200B; オーディエンスブリーフ作成のベストプラクティス &#x200B;](#audience-brief-best-practices)」を参照してください。
+      「[ プロンプトを書き込み、audience agent](#writing-prompts)」および「[ オーディエンス概要の作成に関するベストプラクティス ](#audience-brief-best-practices)」を参照してください。
 
-   1. プロンプトを送信するには、![送信プロンプト &#x200B;](/help/dsp/assets/submit-prompt.png "送信プロンプト ")をクリックします。
+   1. プロンプトを送信するには、![送信プロンプト ](/help/dsp/assets/submit-prompt.png "送信プロンプト ")をクリックします。
 
       1つのプロンプトで複数の質問を行うことはできますが、一度に1つのプロンプトのみ行うことができます。 別のプロンプトを送信する前に、応答を待ちます。
 
@@ -81,7 +83,7 @@ ht-degree: 0%
 
    1. （オプション）いずれかのファーストパーティセグメントを除外するには、AI アシスタントに対して実行を促すか、**[!UICONTROL First-party segments to exclude]** セクションの![編集](/help/dsp/assets/edit-ai.png "編集")をクリックし、オーディエンスに対して除外するセグメントを選択して、**[!UICONTROL Apply]**&#x200B;をクリックします。
 
-   1. （オプション）含めたり除外したりしたいオーディエンス特性を説明するために、必要に応じて追加のプロンプトを送信します。 各プロンプトを送信するには、![&#x200B; プロンプトを送信](/help/dsp/assets/submit-prompt.png " プロンプトを送信")をクリックします。
+   1. （オプション）含めたり除外したりしたいオーディエンス特性を説明するために、必要に応じて追加のプロンプトを送信します。 各プロンプトを送信するには、![ プロンプトを送信](/help/dsp/assets/submit-prompt.png " プロンプトを送信")をクリックします。
 
 1. オーディエンスの定義が基準を満たしたら、次の要素を含めるセグメントを指定します。
 
@@ -101,9 +103,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >後でオーディエンスを編集するには、[&#x200B; オーディエンス式を手動で編集します](/help/dsp/audiences/reusable-audience-edit.md)。
+   >後でオーディエンスを編集するには、[ オーディエンス式を手動で編集します](/help/dsp/audiences/reusable-audience-edit.md)。
 
-## [!UICONTROL Audiences] > [!UICONTROL All audiences] ビューの生成AIを使用して、再利用可能なオーディエンスを作成します
+### [!UICONTROL Audiences] > [!UICONTROL All audiences] ビューのオーディエンスエージェントを使用して、再利用可能なオーディエンスを作成します
 
 *Beta機能*
 
@@ -131,9 +133,9 @@ ht-degree: 0%
 
 1. オーディエンスの構築：
 
-   1. 含めたり除外したりするオーディエンス特性を説明する1つ以上のプロンプトを入力します。 各プロンプトを送信するには、![&#x200B; プロンプトを送信](/help/dsp/assets/submit-prompt.png " プロンプトを送信")をクリックします。
+   1. 含めたり除外したりするオーディエンス特性を説明する1つ以上のプロンプトを入力します。 各プロンプトを送信するには、![ プロンプトを送信](/help/dsp/assets/submit-prompt.png " プロンプトを送信")をクリックします。
 
-      詳しくは、「[&#x200B; プロンプトの作成](#writing-prompts)」および「[&#x200B; オーディエンス概要の作成に関するベストプラクティス &#x200B;](#audience-brief-best-practices)」を参照してください。
+      詳しくは、「[ プロンプトを書き込み、audience agent](#writing-prompts)」および「[ オーディエンス概要の作成に関するベストプラクティス ](#audience-brief-best-practices)」を参照してください。
 
       該当する場合、担当者は、より効果的なオーディエンス概要の作成に役立つ追加のセグメントフィルターを提案します。 提案を承認または却下できます。
 
@@ -151,153 +153,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >後でオーディエンスを編集するには、[&#x200B; オーディエンス式を手動で編集します](/help/dsp/audiences/reusable-audience-edit.md)。
-
-## 再利用可能なオーディエンスを手作業で作成する
-
-1. メインメニューで、**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**&#x200B;をクリックします。
-
-1. データテーブルの上で、**[!UICONTROL Create]>[!UICONTROL Create manually]**&#x200B;をクリックします。
-
-1. [!UICONTROL New Audience]設定で：
-
-   1. 一意の&#x200B;**[!UICONTROL Audience Name]**&#x200B;を入力してください。
-
-   1. （オプション）オプションの選択を&#x200B;**[!UICONTROL Share with all advertisers in my account]**&#x200B;に解除します。
-
-      オーディエンスを共有すると、そのオーディエンスは、アカウント内のすべての広告主に対してターゲットまたは除外として使用できるようになります。 ただし、オーディエンス内の個々のセグメントは、セグメントを共有するユーザーのみが使用できます。 例えば、Adobe Analytics セグメントを含むオーディエンスを、同じ[!DNL Analytics] アカウントにマッピングされていない広告主と共有する場合、そのセグメントはその広告主のそのオーディエンスでプレビューされません。 その広告主が利用できるセグメントのみが、オーディエンスでプレビューされます。
-
-   1. **[!UICONTROL Save]**&#x200B;をクリックします。
-
-1. 右側のパネルの「**[!UICONTROL Switch to manual mode]**」ボタンをクリックします。
-
-   AI オプションがデフォルトです。
-
-1. オーディエンスの構築：
-
-   >[!NOTE]
-   >
-   >オーディエンスを作成すると、右側のパネルに詳細な[&#x200B; オーディエンスサイズデータ &#x200B;](audience-about.md)が更新されます
-
-   * セグメントロジックを手動で作成するには、[[!UICONTROL Third Party Segments]、[!UICONTROL First Party Segments]、[!UICONTROL Adobe Segments]、[!UICONTROL Custom Segments]、および[!UICONTROL Saved Audiences] タブ &#x200B;](audience-settings.md)で使用可能なセグメントを使用して、次の操作を行います。
-
-     * （オプション）セグメント名、説明、またはパスを検索します。
-
-       検索結果には、使用した用語にもとづいたセグメントが表示されます。 複数の用語を入力すると、1つのセグメントに対するすべての用語が見つかる必要があります。
-
-     * 最初のセグメントを追加するには、左側のパネルでセグメントを見つけ、セグメント名の横にあるチェックボックスを選択します。
-
-     * 既存のセグメントグループにセグメントを追加するには：
-
-       1. 右側のパネルでセグメントグループをクリックします。
-
-       1. （オプション）必要に応じて、グループロジックを&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;または&#x200B;*[!UICONTROL Exclude All]*&#x200B;に変更します。
-
-          *[!UICONTROL Exclude All]*&#x200B;は、最初のセグメント グループでは使用できません。 除外のみを含むオーディエンスの場合は、このオーディエンスを&#x200B;*[!UICONTROL Include Any]*&#x200B;として作成し、プレースメント内の除外オーディエンス メニューからそのオーディエンスを選択します。
-
-       1. 左側のパネルで新しいセグメントを見つけ、セグメント名の横にあるチェックボックスを選択します。
-
-          セグメントグループは、新しいセグメントで自動的に更新されます。
-
-     * 新しいセグメントグループを追加するには：
-
-       1. 右側のパネルで「**[!UICONTROL + New Group]**」をクリックします。
-
-          1. （オプション）必要に応じて、前のグループと新しいグループの間のロジックを&#x200B;*[!UICONTROL And]*&#x200B;または&#x200B;*[!UICONTROL Or]*&#x200B;に変更します。
-
-          1. 左側のパネルで新しいグループのセグメントを探し、セグメント名の横にあるチェックボックスを選択します。
-
-          1. （オプション）必要に応じて、グループロジックを&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;または&#x200B;*[!UICONTROL Exclude All]*&#x200B;に変更します。
-
-   * 既存のオーディエンスからセグメントロジックを使用するには：
-
-     1. 次のいずれかの方法で、既存のオーディエンスからセグメントロジックをコピーします。
-
-        * すべてのオーディエンス ビューで、オーディエンス行の上にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**&#x200B;をクリックします。
-
-        * 既存のオーディエンスの設定で、セグメントロジックパネルの上部にある「**[!UICONTROL More]**」 > 「**[!UICONTROL Copy to Clipboard]**」をクリックします。
-
-        * テキストエディターで、英数字のセグメント IDと[&#x200B; ブール構文](audience-segment-logic-syntax.md)を使用してセグメントロジックを手動で作成し、クリップボードにコピーします。
-
-     1. **[!UICONTROL paste in an audience rule to begin building]**&#x200B;をクリックし、既存のセグメントロジックを入力フィールドに貼り付け、**[!UICONTROL Apply]**&#x200B;をクリックします。
-
-        >[!NOTE]
-        >
-        >オーディエンスにセグメントロジックが既に含まれている場合、新しいセグメントロジックにペーストすると、既存のロジックが上書きされます。
-
-1. **[!UICONTROL Create]**&#x200B;をクリックします。
-
-### プロンプトの作成の基本 {#writing-prompts}
-
-<!-- Change heading level for this whole section to fit under AI procedure -->
-
-#### オーディエンスプロンプトの作成方法のガイドライン
-
-* ターゲットオーディエンスについて、わかりやすい言葉を使って説明します。
-
-  * 完全な文章や特徴の文字列を入力できます。 明確にするために必要な場合を除いて、句読点は必要ありません。
-
-  * 一般に、プロンプトでは大文字と小文字が区別されません。
-
-  * オーディエンスエージェントは、最も一般的な類義語を認識します。
-
-* 含めたいオーディエンスの特徴と、除外したいオーディエンスの特徴を具体的に提示します。 詳細を示すことで、ニーズに合った結果を得られる可能性が高まります。
-
-* 含めるまたは除外する場所、デバイスの種類、データプロバイダーを特定します。
-
-* オーディエンスを保存する前に、基準と生成されたオーディエンス式を調整するための詳細を繰り返し提供します。
-
-* テストによるプロンプトの作成についてご確認ください。
-
-  プロンプトが明確でない場合は、オーディエンスエージェントが別のプロンプトをリクエストするため、もう一度試すことができます。
-
-  オーディエンスエージェントは、生成されたオーディエンス式をオーディエンスとして自動的に保存しません。 オーディエンスを保存するには、プロンプトエリアの外にある[!UICONTROL Create] ボタンをクリックする必要があるので、保存しない変更を取り消すことができます。
-
-オーディエンスのプロンプトを最適化する方法について詳しくは、「[&#x200B; オーディエンス概要の作成に関するベストプラクティス &#x200B;](#audience-brief-best-practices)」を参照してください。
-
-<!--
-Consider starting by asking for what you should include.
-
-you can give thumbs up or down to [what exactly?].
-
-Verify what info is carried over from session to session and what starts from scratch.
-
--->
-
-#### プロンプトに含めることができないものは何か？
-
-* 既存のオーディエンス式への参照。
-
-* 英語以外の言語のテキスト。
-
-#### オーディエンスエージェントの応答の例と返信方法
-
-オーディエンスエージェントがユーザーからの応答を必要とする場合、リクエストのキーワードを使用するか、一般的な類義語を使用して返信できます。
-
-#### 質問をするオーディエンスエージェント
-
-`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
-
-あなたの肯定的な返信：「続行」、「OK」、「OK」、「はい」、または他の類似する単語
-
-また、リクエストを無視して、代わりに追加のオーディエンス条件を引き続き指定することもできます。
-
-##### 複数のオプションから選択するよう求めるオーディエンスエージェント
-
-`Would you like to:`
-`1) Proceed with this expression,`
-`2) Get maximum reach alternatives, or`
-`3) Modify the expression manually?`
-
-返信：`1`、`proceed`、`2`、`maximum reach`など。
-
-また、リクエストを無視して、代わりに追加のオーディエンス条件を引き続き指定することもできます。
+   >後でオーディエンスを編集するには、[ オーディエンス式を手動で編集します](/help/dsp/audiences/reusable-audience-edit.md)。
 
 ### オーディエンス概要の作成に関するベストプラクティス {#audience-brief-best-practices}
 
 オーディエンス概要は、施策のターゲットオーディエンスを定義する戦略的な文章です。 DSPのオーディエンス担当者は、綿密に作成されたブリーフをもとに、最も関連性の高いセグメントを特定し、ターゲットを絞ったオーディエンスを作成できます。
 
-#### 効果的なオーディエンスブリーフの要素
+#### 効果的なオーディエンス概要の要素
 
 オーディエンス属性の種類を、次のリストからできるだけ多く含めるようにしましょう。 除外する属性を具体的に設定する。
 
@@ -349,12 +211,152 @@ Verify what info is carried over from session to session and what starts from sc
 
 `The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
 
+### プロンプトの作成とオーディエンスエージェントへの応答 {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
+#### オーディエンスプロンプトの作成方法のガイドライン
+
+* ターゲットオーディエンスについて、わかりやすい言葉を使って説明します。
+
+  * 完全な文章や特徴の文字列を入力できます。 明確にするために必要な場合を除いて、句読点は必要ありません。
+
+  * 一般に、プロンプトでは大文字と小文字が区別されません。
+
+  * オーディエンスエージェントは、最も一般的な類義語を認識します。
+
+* 含めたいオーディエンスの特徴と、除外したいオーディエンスの特徴を具体的に提示します。 詳細を示すことで、ニーズに合った結果を得られる可能性が高まります。
+
+* 含めるまたは除外する場所、デバイスの種類、データプロバイダーを特定します。
+
+* オーディエンスを保存する前に、基準と生成されたオーディエンス式を調整するための詳細を繰り返し提供します。
+
+* テストによるプロンプトの作成についてご確認ください。
+
+  プロンプトが明確でない場合は、オーディエンスエージェントが別のプロンプトをリクエストするため、もう一度試すことができます。
+
+  オーディエンスエージェントは、生成されたオーディエンス式をオーディエンスとして自動的に保存しません。 オーディエンスを保存するには、プロンプトエリアの外にある[!UICONTROL Create] ボタンをクリックする必要があるので、保存しない変更を取り消すことができます。
+
+オーディエンスのプロンプトを最適化する方法について詳しくは、「[ オーディエンス概要の作成に関するベストプラクティス ](#audience-brief-best-practices)」を参照してください。
+
+<!--
+Consider starting by asking for what you should include.
+
+you can give thumbs up or down to [what exactly?].
+
+Verify what info is carried over from session to session and what starts from scratch.
+
+-->
+
+#### プロンプトの制限
+
+* 既存オーディエンスへの参照：
+
+* 英語以外の言語のテキスト。
+
+#### audience agentへの対応方法
+
+オーディエンスエージェントがユーザーからの応答を必要とする場合、リクエストのキーワードを使用するか、一般的な類義語を使用して返信できます。
+
+##### 続行するかどうかを確認する
+
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+
+あなたの肯定的な返信：「続行」、「OK」、「OK」、「はい」、または他の類似する単語
+
+また、リクエストを無視して、代わりに追加のオーディエンス条件を引き続き指定することもできます。
+
+##### 候補から選択
+
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
+
+返信：`1`、`proceed`、`2`、`maximum reach`など。
+
+また、リクエストを無視して、代わりに追加のオーディエンス条件を引き続き指定することもできます。
+
+## 再利用可能なオーディエンスを手作業で作成する
+
+1. メインメニューで、**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**&#x200B;をクリックします。
+
+1. データテーブルの上で、**[!UICONTROL Create]>[!UICONTROL Create manually]**&#x200B;をクリックします。
+
+1. [!UICONTROL New Audience]設定で：
+
+   1. 一意の&#x200B;**[!UICONTROL Audience Name]**&#x200B;を入力してください。
+
+   1. （オプション）オプションの選択を&#x200B;**[!UICONTROL Share with all advertisers in my account]**&#x200B;に解除します。
+
+      オーディエンスを共有すると、そのオーディエンスは、アカウント内のすべての広告主に対してターゲットまたは除外として使用できるようになります。 ただし、オーディエンス内の個々のセグメントは、セグメントを共有するユーザーのみが使用できます。 例えば、Adobe Analytics セグメントを含むオーディエンスを、同じ[!DNL Analytics] アカウントにマッピングされていない広告主と共有する場合、そのセグメントはその広告主のそのオーディエンスでプレビューされません。 その広告主が利用できるセグメントのみが、オーディエンスでプレビューされます。
+
+   1. **[!UICONTROL Save]**&#x200B;をクリックします。
+
+1. 右側のパネルの「**[!UICONTROL Switch to manual mode]**」ボタンをクリックします。
+
+   AI オプションがデフォルトです。
+
+1. オーディエンスの構築：
+
+   >[!NOTE]
+   >
+   >オーディエンスを作成すると、右側のパネルに詳細な[ オーディエンスサイズデータ ](audience-about.md)が更新されます
+
+   * セグメントロジックを手動で作成するには、[[!UICONTROL Third Party Segments]、[!UICONTROL First Party Segments]、[!UICONTROL Adobe Segments]、[!UICONTROL Custom Segments]、および[!UICONTROL Saved Audiences] タブ ](audience-settings.md)で使用可能なセグメントを使用して、次の操作を行います。
+
+     * （オプション）セグメント名、説明、またはパスを検索します。
+
+       検索結果には、使用した用語にもとづいたセグメントが表示されます。 複数の用語を入力すると、1つのセグメントに対するすべての用語が見つかる必要があります。
+
+     * 最初のセグメントを追加するには、左側のパネルでセグメントを見つけ、セグメント名の横にあるチェックボックスを選択します。
+
+     * 既存のセグメントグループにセグメントを追加するには：
+
+       1. 右側のパネルでセグメントグループをクリックします。
+
+       1. （オプション）必要に応じて、グループロジックを&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;または&#x200B;*[!UICONTROL Exclude All]*&#x200B;に変更します。
+
+          *[!UICONTROL Exclude All]*&#x200B;は、最初のセグメント グループでは使用できません。 除外のみを含むオーディエンスの場合は、このオーディエンスを&#x200B;*[!UICONTROL Include Any]*&#x200B;として作成し、プレースメント内の除外オーディエンス メニューからそのオーディエンスを選択します。
+
+       1. 左側のパネルで新しいセグメントを見つけ、セグメント名の横にあるチェックボックスを選択します。
+
+          セグメントグループは、新しいセグメントで自動的に更新されます。
+
+     * 新しいセグメントグループを追加するには：
+
+       1. 右側のパネルで「**[!UICONTROL + New Group]**」をクリックします。
+
+          1. （オプション）必要に応じて、前のグループと新しいグループの間のロジックを&#x200B;*[!UICONTROL And]*&#x200B;または&#x200B;*[!UICONTROL Or]*&#x200B;に変更します。
+
+          1. 左側のパネルで新しいグループのセグメントを探し、セグメント名の横にあるチェックボックスを選択します。
+
+          1. （オプション）必要に応じて、グループロジックを&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;または&#x200B;*[!UICONTROL Exclude All]*&#x200B;に変更します。
+
+   * 既存のオーディエンスからセグメントロジックを使用するには：
+
+     1. 次のいずれかの方法で、既存のオーディエンスからセグメントロジックをコピーします。
+
+        * すべてのオーディエンス ビューで、オーディエンス行の上にカーソルを置き、**[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**&#x200B;をクリックします。
+
+        * 既存のオーディエンスの設定で、セグメントロジックパネルの上部にある「**[!UICONTROL More]**」 > 「**[!UICONTROL Copy to Clipboard]**」をクリックします。
+
+        * テキストエディターで、英数字のセグメント IDと[ ブール構文](audience-segment-logic-syntax.md)を使用してセグメントロジックを手動で作成し、クリップボードにコピーします。
+
+     1. **[!UICONTROL paste in an audience rule to begin building]**&#x200B;をクリックし、既存のセグメントロジックを入力フィールドに貼り付け、**[!UICONTROL Apply]**&#x200B;をクリックします。
+
+        >[!NOTE]
+        >
+        >オーディエンスにセグメントロジックが既に含まれている場合、新しいセグメントロジックにペーストすると、既存のロジックが上書きされます。
+
+1. **[!UICONTROL Create]**&#x200B;をクリックします。
+
 >[!MORELIKETHIS]
 >
->* [&#x200B; オーディエンス管理について](audience-about.md)
->* [&#x200B; オーディエンス設定](audience-settings.md)
->* [&#x200B; オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
+>* [ オーディエンス管理について](audience-about.md)
+>* [ オーディエンス設定](audience-settings.md)
+>* [ オーディエンスセグメントロジックの構文](audience-segment-logic-syntax.md)
 >* [使用可能なサードパーティのデータプロバイダー](third-party-data-providers.md)
->* [&#x200B; カスタムセグメントを作成して実装](custom-segment-create.md)
+>* [ カスタムセグメントを作成して実装](custom-segment-create.md)
 >* [[!UICONTROL CCPA Opt-Out-of-Sale] セグメントを作成して実装](ccpa-opt-out-segment-create.md)
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)
