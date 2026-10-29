@@ -19,7 +19,7 @@ ht-degree: 0%
 
 *Beta機能*
 
-[会話型広告アカウント ](account-manage.md)内の[!DNL ChatGPT Ads]件のキャンペーン、広告グループ、チャットカード広告を管理します。
+[会話型広告アカウント &#x200B;](account-manage.md)内の[!DNL ChatGPT Ads]件のキャンペーン、広告グループ、チャットカード広告を管理します。
 
 月末に、他の請求書とともに[!DNL ChatGPT Ads]の使用状況に対する請求が行われます。 お支払いに関するご質問は、Adobeのアカウントチームにお問い合わせください。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. 右上で、**[!UICONTROL Create]>[!UICONTROL Campaign]**&#x200B;をクリックします。
 
-1. [ キャンペーン設定](#campaign-settings)を指定します。
+1. [&#x200B; キャンペーン設定](#campaign-settings)を指定します。
 
 1. **[!UICONTROL Next]**&#x200B;をクリックして、キャンペーン設定を保存します。
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 1. 行の上にカーソルを置き、**[!UICONTROL ...]>[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. [ キャンペーン設定](#campaign-settings)、[広告グループ設定](#ad-group-settings)、[広告設定](#ad-settings)のいずれかを編集します。
+1. [&#x200B; キャンペーン設定](#campaign-settings)、[広告グループ設定](#ad-group-settings)、[広告設定](#ad-settings)のいずれかを編集します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 1. 行の上にカーソルを置き、**[!UICONTROL ...]>[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. [広告グループ ](#ad-group-settings)の設定を編集します。
+1. [広告グループ &#x200B;](#ad-group-settings)の設定を編集します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
