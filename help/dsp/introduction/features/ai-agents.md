@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: AI features
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
     internal-label: Audiences
-source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 ---
 # ADOBE ADVERTISING DSPのAIを活用した機能
@@ -29,6 +29,8 @@ DSPは、自然言語プロンプトを使用して複数のタスクを支援�
 * [概念コンテンツやハウツーコンテンツの検索](/help/dsp/agent-chat.md)
 
 * 統合AI アシスタント：
+
+  * [再利用可能なオーディエンスを生成](/help/dsp/ai-assistant/audience-builder-agent.md)。
 
   * [&#x200B; キャンペーン、キャンペーンコンポーネント、Advertising Creative エクスペリエンス、広告主、および広告ターゲットのレポートを作成します](/help/dsp/ai-assistant/insights-agent.md)。
 

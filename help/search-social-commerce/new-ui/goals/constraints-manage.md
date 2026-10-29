@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
     internal-label: Portfolios
-source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
+source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
 workflow-type: tm+mt
 source-wordcount: '2660'
 ht-degree: 0%
@@ -190,7 +190,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 後で広告のキーワードまたは広告コピーを編集して、新しいキーワードまたは広告を作成した場合、制約は新しいエンティティに割り当てられません。
->* [[!UICONTROL Campaigns] ビュー](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)、[[!UICONTROL Ad Groups] ビュー](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords] ビュー](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)、または[[!UICONTROL Placements] ビュー](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)で同じ手順を参照してください。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* [[!UICONTROL Campaigns] ビュー](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)、[[!UICONTROL Ad Groups] ビュー](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords] ビュー](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraint-assign)、または[[!UICONTROL Placements] ビュー](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraint-assign)で同じ手順を参照してください。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. メインメニューから、関連する管理ビューを開きます。
 
@@ -211,7 +211,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 制約を削除して後で使用できないようにするには、「[制約のステータスを変更](#constraint-change-status)」を参照してください。
->* [[!UICONTROL Campaigns] ビュー](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)、[[!UICONTROL Ad Groups] ビュー](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords] ビュー](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)、または[[!UICONTROL Placements] ビュー](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)で同じ手順を参照してください。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* [[!UICONTROL Campaigns] ビュー](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)、[[!UICONTROL Ad Groups] ビュー](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords] ビュー](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraint-unassign)、または[[!UICONTROL Placements] ビュー](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraint-unassign)で同じ手順を参照してください。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. メインメニューで、関連する管理ビューを開きます。
 
@@ -227,6 +227,6 @@ ht-degree: 0%
 >
 >* [&#x200B; キャンペーンの制約の割り当ての管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
 >* [広告グループの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [&#x200B; キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
->* [&#x200B; プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+>* [&#x200B; キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraints)
+>* [&#x200B; プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraints)
 >* [The [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)

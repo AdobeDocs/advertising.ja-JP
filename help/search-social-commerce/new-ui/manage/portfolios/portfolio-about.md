@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 700d05fb39b04918ae2662ce24746ed1e84f110e
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '897'
 ht-degree: 0%
 ---
 # （新しいUI）ポートフォリオについて
@@ -75,12 +75,7 @@ ht-degree: 0%
 
 [!UICONTROL Portfolios] ビューには、フィルターされたビュー内の既存のポートフォリオがすべて一覧表示され、カスタマイズ可能なパフォーマンスデータが表示されます。 [&#x200B; ビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)内の列をカスタマイズし、データをフィルタリングして、ツールバー[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)または[列見出し](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)から特定のポートフォリオ を含めることができます。
 
-データテーブルの上では、指定した日付範囲のビュー内のすべてのポートフォリオをまたいで合計される最大3つの指標を含むパフォーマンスグラフを開くことができます。 また、ポートフォリオのパフォーマンスや正確性などのポートフォリオの詳細のほか、ポートフォリオ内の各キャンペーン、広告グループ、キーワードのパフォーマンスデータを開くこともできます。
-
-ポートフォリオのステータスなど、一部の設定は、ポートフォリオ行で直接編集できます。 ポートフォリオまたはその関連するキャンペーンと子キャンペーンエンティティが、支出に影響を与える制約（ネットワーク、キャンペーン予算、ターゲット、CPC制限、入札単位の制約など）で設定されている場合は、[!UICONTROL Constraints]列の[!UICONTROL Yes]をクリックして、制約レベルとタイプを含むすべての制約のリストを表示します。
-<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
-
-### 使用可能なアクション
+### 使用可能なアクション {#available-actions}
 
 <!-- Update with any new options -->
 
@@ -90,22 +85,37 @@ ht-degree: 0%
 
 * [View the constraints for a portfolio](portfolio-view-constraint.md)
 
-* [View the change history for a portfolio](portfolio-view-change-history.md)
 -->
 
 * [ポートフォリオの作成](portfolio-create.md)
 
 * [ポートフォリオの複製](portfolio-duplicate.md)
 
-* [ポートフォリオ設定の編集](portfolio-edit.md)
+* 設定を編集：
 
-* [バルクシートファイルを使用したポートフォリオ設定の一括編集](portfolio-bulksheets.md)
+  * [ポートフォリオ名の変更](portfolio-rename.md)
+
+  * [ポートフォリオ全体の設定の編集](portfolio-edit.md)
+
+  * ポートフォリオのステータスなど、一部の設定をポートフォリオ行で直接編集します。
+
+  * [バルクシートファイルを使用したポートフォリオ設定の一括編集](portfolio-bulksheets.md)
+
+* ポートフォリオに含まれる広告ネットワーク、アカウント、キャンペーン、広告グループ、広告をドリルダウンし、オプションで含まれるキャンペーンのキーワードをドリルダウンします。 まず、ポートフォリオ名をクリックします。 情報は、最初にフィルタリングされた[!UICONTROL Networks] ビューに広告ネットワークによって一覧表示されます。 広告ネットワークをクリックして、フィルター処理された[!UICONTROL Accounts] ビューに含まれるアカウントを表示したり、アカウントをクリックしてフィルター処理された[!UICONTROL Campaigns] ビューにキャンペーンを表示したりします。
+
+  フィルター処理された[!UICONTROL Campaigns] ビューから[!UICONTROL Keywords] ビューのキーワードのリストを開くには、[!UICONTROL Keywords]列の値をクリックします。
+
+* 制約レベルとタイプを含む、ポートフォリオのすべての制約のリストを開きます。 制約リストを表示するには、[!UICONTROL Constraints]列の[!UICONTROL Yes]をクリックします。 このオプションは、ポートフォリオまたはその関連するキャンペーンと子キャンペーンエンティティが、支出に影響を与える制約（ネットワーク、キャンペーン予算、ターゲット、CPC制限、入札単位の制約など）を使用して設定されている場合に使用できます。
 
 * [ビュー内のすべてのポートフォリオのパフォーマンスグラフを表示](portfolio-view-performance-graph.md)
 
 * [ポートフォリオパフォーマンスの詳細の表示](portfolio-details.md)
 
-* [&#x200B; データを[!UICONTROL Portfolios] ビューでダウンロード &#x200B;](portfolio-view-report.md)
+* [ポートフォリオの変更履歴の表示](portfolio-view-change-history.md)
+
+* [[!UICONTROL Portfolios] ビューでデータをダウンロード](portfolio-view-report.md)
+
+* [ポートフォリオグループへのポートフォリオの追加とポートフォリオグループの管理](portfolio-group-manage.md)
 
 >[!MORELIKETHIS]
 >

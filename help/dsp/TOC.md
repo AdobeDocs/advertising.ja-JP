@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP ガイド
 user-guide-description: Advertising DSP を使用してディスプレイ広告戦略を管理、最適化およびレポートするために必要となる、主な機能、タスク、設定およびその他のリソースについて学習します。
 breadcrumb-title: DSP ガイド
 index: true
-source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1103'
 ht-degree: 3%
 ---
 
@@ -27,7 +27,8 @@ ht-degree: 3%
   + [高度な測定ソリューション](/help/dsp/introduction/advanced-measurement-services.md)
 + ADVERTISING DSPのAI アシスタント {#ai-assistant}
   + [Advertising DSPのAI アシスタントについて](/help/dsp/ai-assistant/ai-assistant-about.md)
-  + [AI アシスタントを使用してレポートを作成する](/help/dsp/ai-assistant/insights-agent.md)
+  + [AI アシスタントを使用して再利用可能なオーディエンスを生成](/help/dsp/ai-assistant/audience-builder-agent.md)
+  + [AI アシスタントを使用してレポートを作成](/help/dsp/ai-assistant/insights-agent.md)
   + [AI アシスタントを使用したパフォーマンスと配信の問題のトラブルシューティング](/help/dsp/ai-assistant/troubleshooting-agent.md)
   + [AI アシスタントを使用して製品ドキュメントを検索する](/help/dsp/ai-assistant/documentation-search.md)
   + [以前のAI アシスタント会話との連携](/help/dsp/ai-assistant/previous-conversations.md)

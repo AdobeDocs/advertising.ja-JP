@@ -15,15 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '808'
 ht-degree: 0%
 ---
 # AI アシスタントを使用したパフォーマンスと配信の問題のトラブルシューティング
 
-
 *Beta機能*
+
+*英語のみサポート*
 
 AI アシスタントのトラブルシューティングエージェントは、ライブパッケージやプレースメントのパフォーマンスを制限する要因を特定し、過去のデータにもとづいてステップバイステップの手順や推奨事項を提供して問題を解決します。 トラブルシューティングエージェントは、次の種類のパフォーマンスと配信の問題を診断するのに役立ちます。
 

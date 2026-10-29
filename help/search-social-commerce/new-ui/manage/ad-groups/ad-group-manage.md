@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
+source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 0%
@@ -327,8 +327,8 @@ ht-degree: 0%
 >
 >* [検索入札単位の制約の管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [&#x200B; キャンペーンの制約の割り当ての管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
->* [&#x200B; キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
->* [&#x200B; プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+>* [&#x200B; キーワードの制約の割り当てを管理](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraints)
+>* [&#x200B; プレースメントの制約の割り当てを管理](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraints)
 >* [&#x200B; （レガシーUI） キャンペーン管理ビューからデータをダウンロード &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [&#x200B; （従来のUI） [!UICONTROL Downloads] メニュー](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)からパフォーマンス データ レポートまたはバルクシート ファイルを削除します
 >* [[!DNL Baidu] 広告グループ設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)

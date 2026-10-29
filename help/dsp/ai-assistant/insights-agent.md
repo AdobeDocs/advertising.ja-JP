@@ -15,14 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 ---
-# AI アシスタントを使用してレポートを作成する
+# AI アシスタントを使用してレポートを作成
 
 *Beta機能*
+
+*英語のみサポート*
 
 AI アシスタントのインサイトエージェントを使用すると、レポートを手作業で作成することなく、キャンペーン、キャンペーンコンポーネント、Advertising Creativeエクスペリエンス、広告主、広告目標に関する指標や詳細なレポートを取得できます。 キャンペーンの費用やCPAなど、特定の指標に関する簡単な質問をしたり、特定のディメンション（単一のキャンペーンやオーディエンスなど）やディメンション全体（キャンペーンや広告主ごとの内訳）に関する、より複雑なレポートを要求したりできます。 結果はCSV ファイルとしてダウンロードできます。
 

@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '455'
 ht-degree: 0%
 ---
 # Advertising DSPのAI アシスタントについて
@@ -36,6 +36,7 @@ DSPのAI アシスタントは、DSPで利用可能なあらゆるエージェ�
 
 | 機能 | 説明 | 回答数 |
 | --- | --- | --- |
+| [Audience builder エージェント &#x200B;](/help/dsp/ai-assistant/audience-builder-agent.md) | （Betaの機能）再利用可能なオーディエンスを生成します。このオーディエンスには、自社で利用できるファーストパーティセグメントとサードパーティセグメント、さらには保存されたオーディエンスも含めることができます。 | 回答には、まずオーディエンス定義が含まれ、次に結果として得られるオーディエンスセグメントが含まれ、これらはオーディエンスとして保存できます。 |
 | [&#x200B; トラブルシューティング &#x200B;](troubleshooting-agent.md) | （Beta機能）ライブパッケージとプレースメントのパフォーマンスと配信の問題を診断します。 | 応答には、パフォーマンスを制限する要因が含まれ、問題を解決するためのステップバイステップの指示と推奨事項が提供されます。 |
 | [&#x200B; インサイト &#x200B;](insights-agent.md) | （Betaの機能） レポートを手動で作成することなく、キャンペーンの指標と完全なレポートを取得します。 結果はCSV ファイルとしてダウンロードできます。 | レポートの最初の数行が表示され、レポート全体をプレビューするためのリンクと、レポートを[!DNL Microsoft Excel] コンマ区切りの値ファイル （.csv）としてダウンロードするためのリンクが表示されます。 |
 | [製品ドキュメント検索](documentation-search.md) | [Advertising DSP ガイド &#x200B;](/help/dsp/home.md)で概念的なコンテンツとハウツーのコンテンツを検索し、Advertising Creativeを使用している広告主については、[Advertising Creative ガイド &#x200B;](/help/creative/home.md)を検索します。 | 応答には、インラインの引用と下部の拡張可能な[!UICONTROL Documentation Sources] リストが含まれています。 任意の引用またはソースリストをクリックして、関連するページを開きます。<br><br>応答には、質問を絞り込み、詳細な情報を見つけるのに役立つフォローアップの質問や提案が含まれる場合もあります。 |

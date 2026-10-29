@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3d3a87acf3e963eb0ebbc8528c154d4193457c69
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '444'
 ht-degree: 0%
 ---
 # （新しいUI） ポートフォリオの変更履歴の表示
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 データをスプレッドシート ファイルにダウンロードすることもできます。
 
-## （新しいUI） ポートフォリオの変更履歴の表示 {#portfolio-change-history}
+## ポートフォリオの変更履歴の表示 {#portfolio-change-history}
 
 各変更の情報には、日付、変更を行ったユーザーのユーザー名、変更タイプ、変更された値が含まれます。
 
