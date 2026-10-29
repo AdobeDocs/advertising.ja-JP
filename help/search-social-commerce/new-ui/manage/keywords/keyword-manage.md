@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1282'
 ht-degree: 0%
 ---
 # キーワードの管理
@@ -31,9 +31,9 @@ ht-degree: 0%
 
 キーワードとは、広告に関連付けられた単語またはフレーズのことです。 キーワード設定には、キーワード一致タイプ、キーワードによって広告がトリガーされたときに使用される最大入札額、および（一部の広告ネットワークの場合）オプションのトラッキングパラメーターが含まれます。 キーワードレベルの設定は、広告グループまたはキャンペーンの設定を上書きします。 ネガティブキーワードは、一致する検索に対して広告が表示されるのを防ぎます。
 
-[API接続を介して広告ネットワークアカウントにアクセスできるようにし](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、Search, Social, &amp; Commerceがアカウントデータを広告ネットワークと同期したら、[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)で検索広告グループのキーワードを作成できます。 また、キーワードのステータスを編集および変更したり、負のキーワードを作成および削除したりすることもできます。
+[API接続を介して広告ネットワークアカウントにアクセスできるようにし](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、Search, Social, &amp; Commerceがアカウントデータを広告ネットワークと同期したら、[ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md)で検索広告グループのキーワードを作成できます。 また、キーワードのステータスを編集および変更したり、負のキーワードを作成および削除したりすることもできます。
 
-各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+各広告ネットワークで使用できる機能について詳しくは、「[ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 ## [!UICONTROL Keywords] ビューについて {#keyword-view-about}
 
@@ -57,13 +57,13 @@ ht-degree: 0%
 
 * [キーワードに制約を割り当て、キーワードから制約を割り当て解除する](#keyword-constraints)
 
-* [&#x200B; キーワードにラベル分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)を割り当てる
+* [ キーワードにラベル分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)を割り当てる
 
 ## キーワードの作成 {#keyword-create}
 
 >[!TIP]
 >
->一度に多数のキーワードを作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
+>一度に多数のキーワードを作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Keywords]**&#x200B;をクリックします。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Review and Save]**&#x200B;をクリックします。
 
-1. 必要に応じて、![編集](/help/search-social-commerce/assets/edit-new.png "編集") **[!UICONTROL Edit]**&#x200B;をクリックし、エンティティやキーワードの設定を変更します。
+1. 設定を確認します。 設定を変更するには、該当するセクションの![編集](/help/search-social-commerce/assets/edit-new.png "編集") **[!UICONTROL Edit]**&#x200B;をクリックし、設定を変更します。
 
 1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->異なる広告ネットワーク上のキーワードを含む、大量のキーワードデータを一度に編集するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
+>異なる広告ネットワーク上のキーワードを含む、大量のキーワードデータを一度に編集するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Keywords]**&#x200B;をクリックします。
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Review and Save]**&#x200B;をクリックします。
 
-1. 必要に応じて、![編集](/help/search-social-commerce/assets/edit-new.png "編集") **[!UICONTROL Edit]**&#x200B;をクリックし、キーワード設定を変更します。
+1. 設定を確認します。 設定を変更するには、該当するセクションの![編集](/help/search-social-commerce/assets/edit-new.png "編集") **[!UICONTROL Edit]**&#x200B;をクリックし、設定を変更します。
 
 1. **[!UICONTROL Update]**&#x200B;をクリックします。
 
@@ -117,11 +117,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、[広告グループ設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)および[&#x200B; キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)で、否定的なキーワードを作成および編集することもできます。
+>また、[広告グループ設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)および[ キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)で、否定的なキーワードを作成および編集することもできます。
 
 >[!TIP]
 >
->一度に多数の否定的なキーワードを作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
+>一度に多数の否定的なキーワードを作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Keywords]**&#x200B;をクリックします。
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Review and Save]**&#x200B;をクリックします。
 
-1. 必要に応じて、![編集](/help/search-social-commerce/assets/edit-new.png "編集") **[!UICONTROL Edit]**&#x200B;をクリックし、エンティティおよび/または負のキーワードを変更します。
+1. 設定を確認します。 設定を変更するには、該当するセクションの![編集](/help/search-social-commerce/assets/edit-new.png "編集") **[!UICONTROL Edit]**&#x200B;をクリックし、設定を変更します。
 
 1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
@@ -234,4 +234,4 @@ ht-degree: 0%
 >* [[!DNL Microsoft Advertising]  キーワード設定](keyword-settings-microsoft.md)
 >* [[!DNL Yandex]  キーワード設定](keyword-settings-yandex.md)
 >* [検索入札単位の制約の管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [&#x200B; ラベル分類の管理](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
+>* [ ラベル分類の管理](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)

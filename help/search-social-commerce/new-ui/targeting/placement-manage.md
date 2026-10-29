@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1390'
 ht-degree: 0%
 ---
 # プレースメントの管理
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 プレースメントは、広告を表示できるディスプレイネットワーク上の場所です。 配置の設定には、最大入札額とオプションのトラッキングパラメーターが含まれます。 配置レベルの設定は、広告グループまたはキャンペーンの設定を上書きします。 ネガティブな配置は、指定したサイトに広告が表示されないようにします。
 
-[API接続を介して広告ネットワークアカウントにアクセスできるようにし](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、Search, Social, &amp; Commerceがアカウントデータを広告ネットワークと同期したら、ディスプレイネットワークをターゲットとする[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)で広告グループのプレースメントを作成できます。 また、プレースメントのステータスを編集および変更したり、負のプレースメントを作成および削除することもできます。
+[API接続を介して広告ネットワークアカウントにアクセスできるようにし](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、Search, Social, &amp; Commerceがアカウントデータを広告ネットワークと同期したら、ディスプレイネットワークをターゲットとする[ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md)で広告グループのプレースメントを作成できます。 また、プレースメントのステータスを編集および変更したり、負のプレースメントを作成および削除することもできます。
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->一度に多数のプレースメントを作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
+>一度に多数のプレースメントを作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Targeting]>[!UICONTROL Placements]**&#x200B;をクリックします。
 
@@ -80,13 +80,13 @@ ht-degree: 0%
 
 1. **[!UICONTROL Basic Settings]** ステップで、ネットワーク、アカウント、キャンペーン、および広告グループを選択します。
 
-1. [&#x200B; プレースメント設定](#placement-create-settings)を入力します。
+1. [ プレースメント設定](#placement-create-settings)を入力します。
 
    複数のプレースメントを作成するには、web サイトのURLをコンマで区切ります。
 
 1. **[!UICONTROL Review and Save]**&#x200B;をクリックします。
 
-1. 必要に応じて、![編集](/help/search-social-commerce/assets/edit-new.png "編集") **[!UICONTROL Edit]**&#x200B;をクリックし、エンティティやプレースメント設定を変更します。
+1. 設定を確認します。 設定を変更するには、該当するセクションの![編集](/help/search-social-commerce/assets/edit-new.png "編集") **[!UICONTROL Edit]**&#x200B;をクリックし、設定を変更します。
 
 1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
@@ -96,11 +96,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、[広告グループ設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)および[&#x200B; キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)でネガティブプレースメントを作成および編集することもできます。
+>また、[広告グループ設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)および[ キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)でネガティブプレースメントを作成および編集することもできます。
 
 >[!TIP]
 >
->一度に多数のネガティブプレースメントを作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
+>一度に多数のネガティブプレースメントを作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Targeting]>[!UICONTROL Placements]**&#x200B;をクリックします。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Review and Save]**&#x200B;をクリックします。
 
-1. 必要に応じて、![編集](/help/search-social-commerce/assets/edit-new.png "編集") **[!UICONTROL Edit]**&#x200B;をクリックし、エンティティおよび/またはネガティブ web サイト URLを変更します。
+1. 設定を確認します。 設定を変更するには、該当するセクションの![編集](/help/search-social-commerce/assets/edit-new.png "編集") **[!UICONTROL Edit]**&#x200B;をクリックし、設定を変更します。
 
 1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->大量の配置データを一度に編集するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
+>大量の配置データを一度に編集するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Targeting]>[!UICONTROL Placements]**&#x200B;をクリックします。
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 1. 一括操作ツールバーで、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. **[!UICONTROL Edit Placements]** パネルで、[&#x200B; プレースメント設定](#placement-edit-settings)を編集します。
+1. **[!UICONTROL Edit Placements]** パネルで、[ プレースメント設定](#placement-edit-settings)を編集します。
 
    複数のプレースメントの場合、変更は選択したすべてのプレースメントに適用されます。 入札を指定した値に設定したり、指定した割合または金額だけ入札を増減したりできます。制限があります。 URLの場合、既存の値を置き換えたり、テキストを検索して置換したり、接頭辞を追加したり、接尾辞を追加したりできます。
 
@@ -237,7 +237,7 @@ ht-degree: 0%
 
 広告を表示できるディスプレイ ネットワーク上の&#x200B;**[!UICONTROL Placements]:** サイト `www.example.com`、`example.com`、`example.com/shoes`など、有効なWeb サイト URLを入力してください。 複数のURLをコンマで区切ります。 URLに疑問符（`?`）を含めることはできません。
 
-代わりにweb サイトを除外するには、[!UICONTROL Targeting] > [!UICONTROL Placements] > [!UICONTROL Negatives] タブから[&#x200B; ネガティブプレースメント &#x200B;](#placement-negative-create)を作成するか、広告グループとキャンペーン設定を使用します。
+代わりにweb サイトを除外するには、[!UICONTROL Targeting] > [!UICONTROL Placements] > [!UICONTROL Negatives] タブから[ ネガティブプレースメント ](#placement-negative-create)を作成するか、広告グループとキャンペーン設定を使用します。
 
 **[!UICONTROL Status]:** プレースメントの表示ステータス：*[!UICONTROL Active]* （入札を有効にする場合）または&#x200B;*[!UICONTROL Paused]* （入札を無効にする場合）。
 
@@ -302,4 +302,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [検索入札単位の制約の管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [&#x200B; ラベル分類の管理](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
+>* [ ラベル分類の管理](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
