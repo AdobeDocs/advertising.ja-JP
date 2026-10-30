@@ -43,7 +43,7 @@ ht-degree: 0%
 
    ツリー構造がサポートしていない場合、アクションは無効になります。 続行する前に警告を確認してください。
 
-1. 宛先ブランチを確認し、[ エクスペリエンスを保存](#save)します。
+1. 宛先ブランチを確認し、[&#x200B; エクスペリエンスを保存](#save)します。
 
 ## 手動エディターの使用 {#manual-editor}
 
@@ -66,10 +66,10 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [最終レベルにターゲットノードを追加](experience-target-node-add-final.md)
->* [ ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
->* [ ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)
->* [ クリエイティブを最終ノードに割り当て](experience-assign-creative-bundles.md)
->* [ ターゲットノードまたはクリエイティブリーフノードを削除](/help/creative/experiences/experience-target-node-delete.md)
+>* [&#x200B; ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
+>* [&#x200B; ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)
+>* [&#x200B; クリエイティブを最終ノードに割り当て](experience-assign-creative-bundles.md)
+>* [&#x200B; ターゲットノードまたはクリエイティブリーフノードを削除](/help/creative/experiences/experience-target-node-delete.md)
 >* [決定木ターゲティングでエクスペリエンスを作成](experience-create-targeting.md)
 >* [決定木ターゲティングでエクスペリエンスを編集](experience-edit-targeting.md)
->* [ ターゲット設定](experience-settings-targeting.md)
+>* [&#x200B; ターゲット設定](experience-settings-targeting.md)

@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * 最終ノードにクリエイターがない場合は、次のいずれかを選択します。
 
-     * **[!UICONTROL Save as Draft]**&#x200B;をクリックすると、公開せずに保存されます。 [ ドラフト ](/help/creative/experiences/experience-about.md#experience-statuses) エクスペリエンスの広告タグを生成することはできません。
+     * **[!UICONTROL Save as Draft]**&#x200B;をクリックすると、公開せずに保存されます。 [&#x200B; ドラフト &#x200B;](/help/creative/experiences/experience-about.md#experience-statuses) エクスペリエンスの広告タグを生成することはできません。
 
      * **[!UICONTROL Assign Default Creatives]**&#x200B;をクリックして、未割り当てのノードに対するエクスペリエンスのデフォルトのクリエイティブを使用します。 更新されたツリーを確認し、**[!UICONTROL Save]**&#x200B;と&#x200B;**[!UICONTROL OK]**&#x200B;をクリックします。
 

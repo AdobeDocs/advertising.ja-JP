@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. ダイアログで「**[!UICONTROL Save]**」をクリックして、作業ツリーを更新します。
 
-1. [ ツリーヘッダーからエクスペリエンス ](#save)を保存します。
+1. [&#x200B; ツリーヘッダーからエクスペリエンス &#x200B;](#save)を保存します。
 
 ## 手動エディターの使用 {#manual-editor}
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 1. ダイアログで「**[!UICONTROL Save]**」をクリックして、作業ツリーを更新します。
 
-1. [ ツリーヘッダーからエクスペリエンス ](#save)を保存します。
+1. [&#x200B; ツリーヘッダーからエクスペリエンス &#x200B;](#save)を保存します。
 
 ## エクスペリエンスを保存 {#save}
 
@@ -88,5 +88,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [&#x200B; エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除](/help/creative/experiences/experience-assign-creative-bundles.md)
 >* [決定木ターゲティングを使用しないエクスペリエンスのトラッキング URLをカスタマイズする](experience-tracking-urls-no-targeting.md)

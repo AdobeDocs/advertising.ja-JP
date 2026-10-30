@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## AIを活用したエディターを使用した編集（Beta） {#ai-editor}
 
-1. [ エクスペリエンスを開く](#experience-open)。
+1. [&#x200B; エクスペリエンスを開く](#experience-open)。
 
 1. 会話で変更したいターゲティングを記述します。 ターゲットによって影響を受けるブランチを特定するか、キャンバスに表示されている場合はノード IDを特定します。
 
@@ -60,21 +60,21 @@ ht-degree: 0%
 
 1. （オプション）キャンバスで直接変更を行います。
 
-   * [最終レベルのターゲットを追加](experience-target-node-add-final.md#ai-editor)、[ ターゲットレベルを挿入](experience-target-node-add-inner.md#ai-editor)、または[兄弟ターゲットを追加](experience-target-node-add-sibling.md#ai-editor)。
+   * [最終レベルのターゲットを追加](experience-target-node-add-final.md#ai-editor)、[&#x200B; ターゲットレベルを挿入](experience-target-node-add-inner.md#ai-editor)、または[兄弟ターゲットを追加](experience-target-node-add-sibling.md#ai-editor)。
 
    * ターゲットの横にある&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit]**&#x200B;をクリックして値を変更し、**[!UICONTROL Edit Node]**&#x200B;をクリックして、ターゲットの条件を編集します。
 
-   * [子ノードとクリエイティブをコピー](experience-target-node-copy.md#ai-editor)または[ ノードを削除](experience-target-node-delete.md#ai-editor)。
+   * [子ノードとクリエイティブをコピー](experience-target-node-copy.md#ai-editor)または[&#x200B; ノードを削除](experience-target-node-delete.md#ai-editor)。
 
-   * [ クリエイティブバンドルの割り当てまたは割り当て解除](experience-assign-creative-bundles.md#ai-editor)。
+   * [&#x200B; クリエイティブバンドルの割り当てまたは割り当て解除](experience-assign-creative-bundles.md#ai-editor)。
 
-   * [ クリエイティブの最適化とスケジュールのカスタマイズ ](experience-optimization-scheduling-targeting.md)または[ トラッキング URL](experience-tracking-urls-targeting.md#ai-editor)。
+   * [&#x200B; クリエイティブの最適化とスケジュールのカスタマイズ &#x200B;](experience-optimization-scheduling-targeting.md)または[&#x200B; トラッキング URL](experience-tracking-urls-targeting.md#ai-editor)。
 
-1. [ エクスペリエンスを保存](#save)。
+1. [&#x200B; エクスペリエンスを保存](#save)。
 
 ## 手動エディターを使用した編集 {#manual-editor}
 
-1. [ エクスペリエンスを開く](#experience-open)。
+1. [&#x200B; エクスペリエンスを開く](#experience-open)。
 
 1. （ステータス `[processing](experience-about.md#experience-statuses)`のエクスペリエンス）既存の未投稿のドラフトについてプロンプトが表示された場合は、次のいずれかの操作を行います。
 
@@ -90,15 +90,15 @@ ht-degree: 0%
 
 1. 必要に応じてターゲットとクリエイターを変更する：
 
-   * [最終レベルのターゲットを追加](experience-target-node-add-final.md#manual-editor)、[ ノード間にターゲットを挿入](experience-target-node-add-inner.md#manual-editor)または[兄弟ターゲットを追加](experience-target-node-add-sibling.md#manual-editor)。
+   * [最終レベルのターゲットを追加](experience-target-node-add-final.md#manual-editor)、[&#x200B; ノード間にターゲットを挿入](experience-target-node-add-inner.md#manual-editor)または[兄弟ターゲットを追加](experience-target-node-add-sibling.md#manual-editor)。
 
-   * [子ノードとクリエイティブをコピー](experience-target-node-copy.md#manual-editor)または[ ノードを削除](experience-target-node-delete.md#manual-editor)。
+   * [子ノードとクリエイティブをコピー](experience-target-node-copy.md#manual-editor)または[&#x200B; ノードを削除](experience-target-node-delete.md#manual-editor)。
 
-   * [ クリエイティブバンドルの割り当てまたは割り当て解除](experience-assign-creative-bundles.md#manual-editor)。
+   * [&#x200B; クリエイティブバンドルの割り当てまたは割り当て解除](experience-assign-creative-bundles.md#manual-editor)。
 
-   * [ クリエイティブの最適化とスケジュールのカスタマイズ ](experience-optimization-scheduling-targeting.md)または[ トラッキング URL](experience-tracking-urls-targeting.md#manual-editor)。
+   * [&#x200B; クリエイティブの最適化とスケジュールのカスタマイズ &#x200B;](experience-optimization-scheduling-targeting.md)または[&#x200B; トラッキング URL](experience-tracking-urls-targeting.md#manual-editor)。
 
-1. [ エクスペリエンスを保存](#save)。
+1. [&#x200B; エクスペリエンスを保存](#save)。
 
 ## エディターの切り替えやエクスペリエンス設定の編集 {#switch-editors}
 
@@ -126,14 +126,14 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ターゲット設定](experience-settings-targeting.md)
+>* [&#x200B; ターゲット設定](experience-settings-targeting.md)
 >* [最終レベルにターゲットノードを追加](experience-target-node-add-final.md)
->* [ ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
->* [ ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)
+>* [&#x200B; ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
+>* [&#x200B; ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)
 >* [子ノードとクリエイターを同じレベルの別のノードにコピー](experience-target-node-copy.md)
->* [ クリエイティブを最終ノードに割り当て](experience-assign-creative-bundles.md)
->* [割り当てられたバンドル内のクリエイティブのトラッキング URLをカスタマイズ ](experience-tracking-urls-targeting.md)
->* [ クリエイティブの最適化とスケジュールのカスタマイズ ](experience-optimization-scheduling-targeting.md)
->* [ ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](/help/creative/experiences/experience-tag-export.md)
+>* [&#x200B; クリエイティブを最終ノードに割り当て](experience-assign-creative-bundles.md)
+>* [割り当てられたバンドル内のクリエイティブのトラッキング URLをカスタマイズ &#x200B;](experience-tracking-urls-targeting.md)
+>* [&#x200B; クリエイティブの最適化とスケジュールのカスタマイズ &#x200B;](experience-optimization-scheduling-targeting.md)
+>* [&#x200B; ライブエクスペリエンスの広告エクスペリエンスタグの書き出しと実装](/help/creative/experiences/experience-tag-export.md)
 >* [決定木ターゲティングでエクスペリエンスを作成](experience-create-targeting.md)
->* [ エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)
+>* [&#x200B; エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)

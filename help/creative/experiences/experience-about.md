@@ -52,7 +52,7 @@ ht-degree: 0%
 
   決定ツリーでターゲットオーディエンスブランチを作成したら、クリエイティブのバンドルをブランチに割り当てることで、ターゲットオーディエンスと潜在的なクリエイターを組み合わせることができます。 エクスペリエンスごとに、クリエイティブバンドルの最適化とスケジュールをカスタマイズし、各バンドル内の個々のクリエイターのデフォルトのランディングページとトラッキング URL<!-- later: and any flexible attributes -->を変更できます。
 
-  デフォルトのAI駆動型デシジョンツリーエディター（Beta）では、AI エージェントに対するツリーまたは変更内容を記述し、結果を確認して、インタラクティブなキャンバスを直接編集できます。 既存の手動エディターを使用することもできます。 どちらのエディターも同じタイプのターゲットエクスペリエンスを設定します。 [決定木レイアウト ](experience-decision-tree.md)および[決定木ターゲティングでエクスペリエンスを編集](experience-edit-targeting.md)を参照してください。
+  デフォルトのAI駆動型デシジョンツリーエディター（Beta）では、AI エージェントに対するツリーまたは変更内容を記述し、結果を確認して、インタラクティブなキャンバスを直接編集できます。 既存の手動エディターを使用することもできます。 どちらのエディターも同じタイプのターゲットエクスペリエンスを設定します。 [決定木レイアウト &#x200B;](experience-decision-tree.md)および[決定木ターゲティングでエクスペリエンスを編集](experience-edit-targeting.md)を参照してください。
 
 * **決定木ターゲティングのないエクスペリエンス：** [!DNL Creative]は、オーディエンスを絞り込むことなく、広告エクスペリエンスの広告要素を最適化します。 各エクスペリエンスについて、開始日と終了日および一部のデフォルト設定を指定しますが、ワークフローの多くはエクスペリエンス内で直接実行されません。 クリエイターをエクスペリエンスに直接追加する代わりに、[!UICONTROL Tag Manager]を使用してエクスペリエンスの広告サイズごとに広告タグを作成し、その広告サイズにクリエイターを追加して、クリエイティブの最適化とスケジュールを設定し、ランディングページとトラッキング URLをカスタマイズします<!-- later: and any flexible attributes -->。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 ## エクスペリエンスの導入と管理
 
-（必要なすべての広告要素を含む）ライブエクスペリエンスを作成したら、[ エクスペリエンス全体のJavaScriptまたはiframe タグを生成できます](experience-tag-export.md)。 エクスペリエンスタグを広告としてAdobe Advertising DSPのキャンペーンにアップロードするか、サードパーティのDSPに広告として実装できます。
+（必要なすべての広告要素を含む）ライブエクスペリエンスを作成したら、[&#x200B; エクスペリエンス全体のJavaScriptまたはiframe タグを生成できます](experience-tag-export.md)。 エクスペリエンスタグを広告としてAdobe Advertising DSPのキャンペーンにアップロードするか、サードパーティのDSPに広告として実装できます。
 
 >[!NOTE]
 >
@@ -91,15 +91,15 @@ ht-degree: 0%
 
 * [!UICONTROL Creative] > [!UICONTROL Experiences] ビューで[!UICONTROL Metrics] オプションを有効にすると、各エクスペリエンスカードまたは行は、エクスペリエンスが受け取ったインプレッション数とクリック数を示します。
 
-  ![指標オプション ](/help/creative/assets/metrics-option.png "指標オプション ")
+  ![指標オプション &#x200B;](/help/creative/assets/metrics-option.png "指標オプション ")
 
 * [!UICONTROL Experiences] ビューから[任意のエクスペリエンスの詳細なパフォーマンスデータを](experience-performance-details.md)表示できます。
 
-* エクスペリエンス全体のパフォーマンスを監視するには、[ カスタムクリエイティブレポート ](/help/creative/reports/report-manage.md)を作成します。
+* エクスペリエンス全体のパフォーマンスを監視するには、[&#x200B; カスタムクリエイティブレポート &#x200B;](/help/creative/reports/report-manage.md)を作成します。
 
 ## アラート指標
 
-「[!UICONTROL Alerts]」列は、エクスペリエンスまたはその下にあるすべての子クリエイティブに問題がある場合を示します。 ツールバーの右側にある[!UICONTROL Pulse Panel] アイコンは、子クリエイティブを含め、エクスペリエンスにアラートが使用できるかどうかを示します。 詳しくは、「[ アラートを表示](/help/creative/reports/alerts-view.md)」を参照してください。
+「[!UICONTROL Alerts]」列は、エクスペリエンスまたはその下にあるすべての子クリエイティブに問題がある場合を示します。 ツールバーの右側にある[!UICONTROL Pulse Panel] アイコンは、子クリエイティブを含め、エクスペリエンスにアラートが使用できるかどうかを示します。 詳しくは、「[&#x200B; アラートを表示](/help/creative/reports/alerts-view.md)」を参照してください。
 
 ## 顧客体験のステータス {#experience-statuses}
 
@@ -130,19 +130,19 @@ ht-degree: 0%
 
 * ターゲティングを使用したエクスペリエンスを[作成](/help/creative/experiences/experience-create-targeting.md)および[編集](/help/creative/experiences/experience-edit-targeting.md)する
 
-* [Create](/help/creative/experiences/experience-create-no-targeting.md)、[edit](/help/creative/experiences/experience-edit-no-targeting.md)、および[ ターゲティングなしでエクスペリエンスの広告タグ ](/help/creative/experiences/experience-tag-create-manually.md)を手動で作成する
+* [Create](/help/creative/experiences/experience-create-no-targeting.md)、[edit](/help/creative/experiences/experience-edit-no-targeting.md)、および[&#x200B; ターゲティングなしでエクスペリエンスの広告タグ &#x200B;](/help/creative/experiences/experience-tag-create-manually.md)を手動で作成する
 
-* [ エクスペリエンスを複製](experience-clone.md)
+* [&#x200B; エクスペリエンスを複製](experience-clone.md)
 
-* [ エクスペリエンスをプレビュー](experience-preview.md)
+* [&#x200B; エクスペリエンスをプレビュー](experience-preview.md)
 
-* [ エクスペリエンスのデモ URL ](experience-share-demo-url.md)を共有
+* [&#x200B; エクスペリエンスのデモ URL &#x200B;](experience-share-demo-url.md)を共有
 
-* [ エクスペリエンスの広告タグを書き出します](experience-tag-export.md)。オプションで、広告タグをAdvertising DSP キャンペーンに直接アップロードすることもできます
+* [&#x200B; エクスペリエンスの広告タグを書き出します](experience-tag-export.md)。オプションで、広告タグをAdvertising DSP キャンペーンに直接アップロードすることもできます
 
-* [ エクスペリエンスを削除](experience-delete.md)
+* [&#x200B; エクスペリエンスを削除](experience-delete.md)
 
 >[!MORELIKETHIS]
 >
 >* [決定木ターゲティングでエクスペリエンスを作成](experience-create-targeting.md)
->* [ ターゲティングせずにエクスペリエンスを作成](experience-create-no-targeting.md)
+>* [&#x200B; ターゲティングせずにエクスペリエンスを作成](experience-create-no-targeting.md)

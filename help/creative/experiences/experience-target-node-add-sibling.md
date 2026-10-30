@@ -79,7 +79,7 @@ ht-degree: 0%
 
    * リターゲティングピクセルターゲットの場合は、リターゲティングピクセルを選択し、クリエイターの表示に必要なピクセル属性の値を指定します。
 
-     使用可能な属性は、[ リターゲティングピクセル設定](/help/creative/pixels/retargeting-pixel-manage.md)で設定されます。
+     使用可能な属性は、[&#x200B; リターゲティングピクセル設定](/help/creative/pixels/retargeting-pixel-manage.md)で設定されます。
 
    * デバイスターゲットの場合は、デバイスタイプ、オペレーティングシステム、ブラウザーなど、既存のレベルでデバイスカテゴリ内の値を選択します。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 1. （オプション）新しいノードの名前を変更するには、**[!UICONTROL ...]** > **[!UICONTROL Edit Name]**&#x200B;をクリックし、**[!UICONTROL Node Name]**&#x200B;を入力して、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-1. [新しいノードが最終ノードの場合はクリエイティブバンドル ](experience-assign-creative-bundles.md#ai-editor)を割り当て、次に[ エクスペリエンスを保存](#save)します。
+1. [新しいノードが最終ノードの場合はクリエイティブバンドル &#x200B;](experience-assign-creative-bundles.md#ai-editor)を割り当て、次に[&#x200B; エクスペリエンスを保存](#save)します。
 
 ## 手動エディターの使用 {#manual-editor}
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
    * リターゲティングピクセルターゲットの場合は、使用するリターゲティングピクセルと、クリエイターを表示するために存在する必要があるピクセルの属性の必要な値を選択します。 次に、**[!UICONTROL Apply]**&#x200B;をクリックします。
 
-     使用可能な属性は、[ リターゲティングピクセル設定](/help/creative/pixels/retargeting-pixel-manage.md)で設定されます。
+     使用可能な属性は、[&#x200B; リターゲティングピクセル設定](/help/creative/pixels/retargeting-pixel-manage.md)で設定されます。
 
    * デバイスターゲットの場合は、次の操作を行います。
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 
    1. **[!UICONTROL Node Name]**&#x200B;を入力し、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-1. （オプション） [ クリエイティブバンドル ](experience-assign-creative-bundles.md#manual-editor)を新しいターゲットノードに割り当てます。
+1. （オプション） [&#x200B; クリエイティブバンドル &#x200B;](experience-assign-creative-bundles.md#manual-editor)を新しいターゲットノードに割り当てます。
 
 ## エクスペリエンスを保存 {#save}
 
@@ -188,10 +188,10 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [最終レベルにターゲットノードを追加](experience-target-node-add-final.md)
->* [ ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
+>* [&#x200B; ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
 >* [子ノードとクリエイターを同じレベルの別のノードにコピー](experience-target-node-copy.md)
->* [ クリエイティブを最終ノードに割り当て](experience-assign-creative-bundles.md)
->* [ ターゲットノードまたはクリエイティブリーフノードを削除](/help/creative/experiences/experience-target-node-delete.md)
+>* [&#x200B; クリエイティブを最終ノードに割り当て](experience-assign-creative-bundles.md)
+>* [&#x200B; ターゲットノードまたはクリエイティブリーフノードを削除](/help/creative/experiences/experience-target-node-delete.md)
 >* [決定木ターゲティングでエクスペリエンスを作成](experience-create-targeting.md)
 >* [決定木ターゲティングでエクスペリエンスを編集](experience-edit-targeting.md)
->* [ ターゲット設定](experience-settings-targeting.md)
+>* [&#x200B; ターゲット設定](experience-settings-targeting.md)

@@ -37,7 +37,7 @@ ht-degree: 0%
 
    ノードは、別の&#x200B;**[!UICONTROL Delete Node]**&#x200B;確認なしで作業ツリーから削除されます。
 
-1. 残りのブランチを確認し、[ エクスペリエンスを保存](#save)します。
+1. 残りのブランチを確認し、[&#x200B; エクスペリエンスを保存](#save)します。
 
 ## 手動エディターの使用 {#manual-editor}
 
@@ -55,9 +55,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
->* [ ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)
+>* [&#x200B; ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)
+>* [&#x200B; ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)
 >* [子ノードとクリエイターを同じレベルの別のノードにコピー](experience-target-node-copy.md)
 >* [決定木ターゲティングでエクスペリエンスを作成](experience-create-targeting.md)
 >* [決定木ターゲティングでエクスペリエンスを編集](experience-edit-targeting.md)
->* [ ターゲット設定](experience-settings-targeting.md)
+>* [&#x200B; ターゲット設定](experience-settings-targeting.md)

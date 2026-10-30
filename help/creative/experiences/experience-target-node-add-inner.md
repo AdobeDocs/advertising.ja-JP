@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ターゲットノードを決定ツリーの下位レベルに追加するには、「[ エクスペリエンスの最終レベルにターゲットノードを追加](experience-target-node-add-final.md)」を参照してください。
+>ターゲットノードを決定ツリーの下位レベルに追加するには、「[&#x200B; エクスペリエンスの最終レベルにターゲットノードを追加](experience-target-node-add-final.md)」を参照してください。
 
 ## AI ドリブン型エディターの使用（Beta） {#ai-editor}
 
@@ -57,15 +57,15 @@ ht-degree: 0%
 
    レベルを挿入しても、ターゲット値が表示されません。 新しいレベルでは、最初に「すべて」が使用され、既存の子ターゲットとクリエイターが保持されます。
 
-1. （オプション）新しいレベルで特定のターゲットを定義するには、[兄弟ターゲットノード ](experience-target-node-add-sibling.md#ai-editor)を追加します。 それ以外の場合は、特定のターゲットを追加せずに新しい「すべて」ノードを維持します。
+1. （オプション）新しいレベルで特定のターゲットを定義するには、[兄弟ターゲットノード &#x200B;](experience-target-node-add-sibling.md#ai-editor)を追加します。 それ以外の場合は、特定のターゲットを追加せずに新しい「すべて」ノードを維持します。
 
 1. （オプション）ユーザー定義のターゲットノードの名前を変更するには、**[!UICONTROL ...]** > **[!UICONTROL Edit Name]**&#x200B;をクリックし、**[!UICONTROL Node Name]**&#x200B;を入力してから&#x200B;**[!UICONTROL Save]**&#x200B;をクリックします。
 
    「All」または「Everyone Else」ノードの名前は変更できません。
 
-1. 保持されているブランチを確認し、新しい最終ノードにクリエイティブバンドル ](experience-assign-creative-bundles.md#ai-editor)を[割り当てます。
+1. 保持されているブランチを確認し、新しい最終ノードにクリエイティブバンドル [&#128279;](experience-assign-creative-bundles.md#ai-editor)を割り当てます。
 
-1. [ エクスペリエンスを保存](#save)。
+1. [&#x200B; エクスペリエンスを保存](#save)。
 
 ## 手動エディターの使用 {#manual-editor}
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
      * リターゲティングピクセルターゲットの場合は、使用する1つのリターゲティングピクセルと、クリエイターを表示するために必要なピクセル属性の値を選択し、**[!UICONTROL Apply]**&#x200B;をクリックします。
 
-       使用可能な属性は、[ リターゲティングピクセル設定](/help/creative/pixels/retargeting-pixel-manage.md)で設定されます。
+       使用可能な属性は、[&#x200B; リターゲティングピクセル設定](/help/creative/pixels/retargeting-pixel-manage.md)で設定されます。
 
      * デバイスターゲットの場合は、次の操作を行います。
 
@@ -171,9 +171,9 @@ ht-degree: 0%
 
    1. **[!UICONTROL Node Name]**&#x200B;を入力し、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-1. （オプション） [ クリエイティブバンドル ](experience-assign-creative-bundles.md#manual-editor)を新しいターゲットノードと「その他のすべてのもの」ノードに割り当てます。
+1. （オプション） [&#x200B; クリエイティブバンドル &#x200B;](experience-assign-creative-bundles.md#manual-editor)を新しいターゲットノードと「その他のすべてのもの」ノードに割り当てます。
 
-1. （オプション） [指定したターゲットタイプの兄弟ターゲットノード ](experience-target-node-add-sibling.md#manual-editor)を追加します。
+1. （オプション） [指定したターゲットタイプの兄弟ターゲットノード &#x200B;](experience-target-node-add-sibling.md#manual-editor)を追加します。
 
 ## エクスペリエンスを保存 {#save}
 
@@ -184,10 +184,10 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [最終レベルにターゲットノードを追加](experience-target-node-add-final.md)
->* [ ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)
+>* [&#x200B; ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)
 >* [子ノードとクリエイターを同じレベルの別のノードにコピー](experience-target-node-copy.md)
->* [ クリエイティブを最終ノードに割り当て](experience-assign-creative-bundles.md)
->* [ ターゲットノードまたはクリエイティブリーフノードを削除](/help/creative/experiences/experience-target-node-delete.md)
+>* [&#x200B; クリエイティブを最終ノードに割り当て](experience-assign-creative-bundles.md)
+>* [&#x200B; ターゲットノードまたはクリエイティブリーフノードを削除](/help/creative/experiences/experience-target-node-delete.md)
 >* [決定木ターゲティングでエクスペリエンスを作成](experience-create-targeting.md)
 >* [決定木ターゲティングでエクスペリエンスを編集](experience-edit-targeting.md)
->* [ ターゲット設定](experience-settings-targeting.md)
+>* [&#x200B; ターゲット設定](experience-settings-targeting.md)

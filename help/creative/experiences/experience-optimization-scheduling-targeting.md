@@ -36,7 +36,7 @@ ht-degree: 0%
 >
 >これらの機能は、割り当てられたクリエイティブの代わりにデフォルトのクリエイティブを使用するノードでは使用できません。
 
-これらの設定は、AI ドリブン型エディター（Beta）のキャンバスまたは手動エディターで直接設定できます。 どちらのエディターでも、バンドルダイアログを保存すると、作業ツリーが更新されます。ツリーヘッダーから[ エクスペリエンス ](#save)も保存する必要があります。
+これらの設定は、AI ドリブン型エディター（Beta）のキャンバスまたは手動エディターで直接設定できます。 どちらのエディターでも、バンドルダイアログを保存すると、作業ツリーが更新されます。ツリーヘッダーから[&#x200B; エクスペリエンス &#x200B;](#save)も保存する必要があります。
 
 ## 回転設定 {#rotation-settings}
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. エクスペリエンスを[作成](experience-create-targeting.md#ai-editor)または[編集](experience-edit-targeting.md#ai-editor)している間に、クリエイティブ リーフ ノードの&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**&#x200B;をクリックします。
 
-   バンドルのない最終ノードの場合は、**[!UICONTROL Assign Bundles]**&#x200B;をクリックし、[ バンドルを最初に割り当てます](experience-assign-creative-bundles.md#ai-editor)。
+   バンドルのない最終ノードの場合は、**[!UICONTROL Assign Bundles]**&#x200B;をクリックし、[&#x200B; バンドルを最初に割り当てます](experience-assign-creative-bundles.md#ai-editor)。
 
 1. 「**[!UICONTROL Creative optimisation]**」タブを開きます。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. ダイアログで「**[!UICONTROL Save]**」をクリックします。
 
-1. [ エクスペリエンスを保存](#save)。
+1. [&#x200B; エクスペリエンスを保存](#save)。
 
 ### 手動エディターの使用 {#without-scheduling-manual}
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
       * 既存のバンドルの場合は、**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**&#x200B;をクリックします。
 
-      * 新しいバンドルの場合は、**[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]**&#x200B;をクリックし、[ バンドルを割り当てます](experience-assign-creative-bundles.md)。
+      * 新しいバンドルの場合は、**[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]**&#x200B;をクリックし、[&#x200B; バンドルを割り当てます](experience-assign-creative-bundles.md)。
 
    1. 「**[!UICONTROL Creative Optimization]**」タブをクリックします。
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 1. エクスペリエンスを[作成](experience-create-targeting.md#ai-editor)または[編集](experience-edit-targeting.md#ai-editor)している間に、クリエイティブ リーフ ノードの&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**&#x200B;をクリックします。
 
-   バンドルのない最終ノードの場合は、**[!UICONTROL Assign Bundles]**&#x200B;をクリックし、[ バンドルを最初に割り当てます](experience-assign-creative-bundles.md#ai-editor)。
+   バンドルのない最終ノードの場合は、**[!UICONTROL Assign Bundles]**&#x200B;をクリックし、[&#x200B; バンドルを最初に割り当てます](experience-assign-creative-bundles.md#ai-editor)。
 
 1. 「**[!UICONTROL Creative optimisation]**」タブを開き、**[!UICONTROL Schedule]**&#x200B;を有効にします。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 1. ダイアログで「**[!UICONTROL Save]**」をクリックします。
 
-1. [ エクスペリエンスを保存](#save)。
+1. [&#x200B; エクスペリエンスを保存](#save)。
 
 ### 手動エディターの使用 {#with-scheduling-manual}
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
       * 既存のバンドルの場合は、**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**&#x200B;をクリックします。
 
-      * 新しいバンドルの場合は、**[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]**&#x200B;をクリックし、[ バンドルを割り当てます](experience-assign-creative-bundles.md)。
+      * 新しいバンドルの場合は、**[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]**&#x200B;をクリックし、[&#x200B; バンドルを割り当てます](experience-assign-creative-bundles.md)。
 
    1. 「**[!UICONTROL Creative Optimization]**」タブをクリックします。
 
@@ -212,6 +212,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除](/help/creative/experiences/experience-assign-creative-bundles.md)
->* [ クリエイティブのトラッキング URLのカスタマイズ ](/help/creative/experiences/experience-tracking-urls-targeting.md)
->* [ エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)
+>* [&#x200B; エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [&#x200B; クリエイティブのトラッキング URLのカスタマイズ &#x200B;](/help/creative/experiences/experience-tracking-urls-targeting.md)
+>* [&#x200B; エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)

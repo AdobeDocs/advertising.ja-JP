@@ -45,15 +45,15 @@ ht-degree: 0%
 
 ## 手動エディター {#manual-editor}
 
-AI駆動型エディターから既存の手動エディターを開くには、**[!UICONTROL Manual Decision Tree]**&#x200B;をクリックします。 [!UICONTROL Experiences] ビューのエクスペリエンスのアクションから&#x200B;**[!UICONTROL Create Decision Tree Manually (Legacy)]**&#x200B;を選択することもできます。 [ エディターの切り替えまたはエクスペリエンス設定の編集](experience-edit-targeting.md#switch-editors)を参照してください。
+AI駆動型エディターから既存の手動エディターを開くには、**[!UICONTROL Manual Decision Tree]**&#x200B;をクリックします。 [!UICONTROL Experiences] ビューのエクスペリエンスのアクションから&#x200B;**[!UICONTROL Create Decision Tree Manually (Legacy)]**&#x200B;を選択することもできます。 [&#x200B; エディターの切り替えまたはエクスペリエンス設定の編集](experience-edit-targeting.md#switch-editors)を参照してください。
 
 手動エディターでは、ツリーはデフォルトで垂直方向に表示されます。 水平表示に変更し、スライダーでズームを調整できます。 ビュー設定は、ログアウトするまで保存されます。
 
 次に、手動エディターの例を示します。
 
-![ ターゲットのない垂直方向の決定ツリーの例](/help/creative/assets/experience-decision-tree-no-targets.png " ターゲットのない垂直方向の決定ツリーの例")
+![&#x200B; ターゲットのない垂直方向の決定ツリーの例](/help/creative/assets/experience-decision-tree-no-targets.png " ターゲットのない垂直方向の決定ツリーの例")
 
-![ ターゲットのない水平方向の決定ツリーの例](/help/creative/assets/experience-decision-tree-no-targets-horizontal.png " ターゲットのない水平方向の決定ツリーの例")
+![&#x200B; ターゲットのない水平方向の決定ツリーの例](/help/creative/assets/experience-decision-tree-no-targets-horizontal.png " ターゲットのない水平方向の決定ツリーの例")
 
 >[!IMPORTANT]
 >
@@ -75,7 +75,7 @@ AI駆動型エディターから既存の手動エディターを開くには、
 
 <!-- Add a screen shot of the AI editor -->次の例は、手動エディターのターゲットを示しています。
 
-![ ターゲットを持つ決定ツリーの例](/help/creative/assets/experience-decision-tree.png " ターゲットを持つ決定ツリーの例")
+![&#x200B; ターゲットを持つ決定ツリーの例](/help/creative/assets/experience-decision-tree.png " ターゲットを持つ決定ツリーの例")
 
 最終レベルにターゲットノードを追加する場合は、新しいノードのターゲットを指定します。 指定したターゲットと一致しないユーザー全員に対して、「その他のすべてのもの」という追加の兄弟ノードが自動的に作成されます。 その後、同じタイプの異なるターゲットを持つ兄弟ノードを追加できます。
 
@@ -94,5 +94,5 @@ AI駆動型エディターから既存の手動エディターを開くには、
 >[!MORELIKETHIS]
 >
 >* [Advertising Creative 2.0](experience-about.md)での体験について
->* [ ターゲティングでエクスペリエンスを作成](/help/creative/experiences/experience-create-targeting.md)
->* [ ターゲット設定](/help/creative/experiences/experience-settings-targeting.md)
+>* [&#x200B; ターゲティングでエクスペリエンスを作成](/help/creative/experiences/experience-create-targeting.md)
+>* [&#x200B; ターゲット設定](/help/creative/experiences/experience-settings-targeting.md)
