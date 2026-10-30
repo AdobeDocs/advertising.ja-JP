@@ -19,40 +19,74 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '448'
 ht-degree: 0%
 ---
 # デジジョンツリーのターゲティング機能により、エクスペリエンス内のクリエイターのトラッキング URLをカスタマイズ
 
 *既存のクリエイターのみを含むTarget ノード*
 
-デジジョンツリーのターゲティングを使用するエクスペリエンスでは、エクスペリエンスに使用する個々のクリエイティブに対して、最大5つのカスタムインプレッション追跡URL、5つのカスタムクリックトラッキング URL、1つのカスタムランディングページ URLを作成できます。 決定ツリー内からトラッキング URLをカスタマイズできます。
+デジジョンツリーのターゲティングを使用するエクスペリエンスでは、エクスペリエンスに使用する個々のクリエイティブに対して、最大5つのカスタムインプレッション追跡URLと5つのカスタムクリックトラッキング URLを作成できます。 ランディングページの上書きが可能な場合は、1つのカスタムランディングページ URLを指定することもできます。 トラッキング URLは、任意のディシジョンツリーエディター内からカスタマイズできます。
 
 カスタム URLは、エクスペリエンスから作成された広告にのみ使用され、[!UICONTROL Creative Libraries]の基本クリエイティブ設定には保存されません。
 
-1. ターゲットノードの下にあるクリエイティブバンドルリーフ/フォルダーにカーソルを合わせ、**[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**&#x200B;をクリックします。
+ランディングページの上書きは、標準のエクスペリエンスと、デフォルトのクリエイティブを使用するノードで使用できます。 割り当てられた動的バンドルの場合、ランディングページはフィードによって決まり、「ランディングページ」タブは表示されません。
 
-   「[!UICONTROL Click Tracking URLs]」、「[!UICONTROL Impression Tracking URLs]」、「[!UICONTROL Landing URLs]」タブには、割り当てられたバンドル内の該当するサイズのすべてのクリエイターの名前が一覧表示されます。 エクスペリエンスの既定のクリエイターのサイズによって、使用可能なサイズが決まります。<!-- There's no distinct "Creative Sizes" setting. -->
+## AI ドリブン型エディターの使用（Beta） {#ai-editor}
 
-1. **[!UICONTROL Click Tracking URLs]**、**[!UICONTROL Impression Tracking URLs]**、**[!UICONTROL Landing URLs]**&#x200B;の各タブで、必要に応じて各クリエイティブについて次の操作を行います。
+エクスペリエンスを[作成中](experience-create-targeting.md#ai-editor)または[編集中](experience-edit-targeting.md#ai-editor)に、キャンバス コントロールを使用します。
 
-   1. クリエイティブの行を展開します。
+1. ターゲットノードの下にあるクリエイティブなリーフ ノードで、**[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**&#x200B;をクリックします。
 
-   1. 次のいずれかの操作を行います。
+1. 「**[!UICONTROL Click Tracking URLs]**」、「**[!UICONTROL Impression Tracking URLs]**」または「（使用可能な場合） **[!UICONTROL Landing URL]**」タブを選択します。
 
-      * カスタム URLを追加または編集するには、入力フィールドにURLを入力します。
+   クリエイターはバンドルでグループ化されます。 エクスペリエンスのデフォルトのクリエイティブサイズによって、使用可能なクリエイティブサイズが決まります。
 
-      * 別のカスタム URLを追加するには、**[!UICONTROL +]**&#x200B;をクリックし、入力フィールドにURLを入力します。
+1. 編集するクリエイティブを展開し、次のいずれかの操作を行います。
 
-      * カスタム URLを削除するには、クリエイティブ行の上にカーソルを置き、![削除](/help/creative/assets/delete.png "削除")をクリックします。
+   * カスタム URLを追加または編集するには、入力フィールドにURLを入力します。
 
-      最大5つのカスタムインプレッショントラッキング URL、5つのカスタムクリックトラッキング URL、1つのカスタムランディングページ URLを含めることができます。
+   * 別のカスタムトラッキング URLを追加するには、**[!UICONTROL Add URL]**&#x200B;をクリックし、入力フィールドにURLを入力します。
 
-1. **[!UICONTROL Save]**&#x200B;をクリックします。
+   * カスタム URLを削除するには、**[!UICONTROL Delete URL]**&#x200B;をクリックします。
+
+   編集したフィールドの外側をクリックし、保存する前に検証エラーを修正します。
+
+1. ダイアログで「**[!UICONTROL Save]**」をクリックして、作業ツリーを更新します。
+
+1. [ ツリーヘッダーからエクスペリエンス ](#save)を保存します。
+
+## 手動エディターの使用 {#manual-editor}
+
+[次の手順に従う前に、手動エディター](experience-edit-targeting.md#experience-open)を開きます。
+
+1. ターゲットノードの下にあるクリエイティブなリーフ ノードで、**[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**&#x200B;をクリックします。
+
+1. 「**[!UICONTROL Click Tracking URLs]**」、「**[!UICONTROL Impression Tracking URLs]**」または「（使用可能な場合） **[!UICONTROL Landing URLs]**」タブを選択します。
+
+   タブには、割り当てられたバンドル内のクリエイターが一覧表示されます。 エクスペリエンスの既定のクリエイティブ サイズによって、使用可能なクリエイティブ サイズが決まります。<!-- There's no distinct "Creative Sizes" setting. -->
+
+1. 編集するクリエイティブを展開し、次のいずれかの操作を行います。
+
+   * カスタム URLを追加または編集するには、入力フィールドにURLを入力します。
+
+   * 別のカスタムトラッキング URLを追加するには、**[!UICONTROL +]**&#x200B;をクリックし、入力フィールドにURLを入力します。
+
+   * カスタム URLを削除するには、クリエイティブ行の上にカーソルを置き、![削除](/help/creative/assets/delete.png "削除")をクリックします。
+
+1. ダイアログで「**[!UICONTROL Save]**」をクリックして、作業ツリーを更新します。
+
+1. [ ツリーヘッダーからエクスペリエンス ](#save)を保存します。
+
+## エクスペリエンスを保存 {#save}
+
+次の手順は、両方のエディターに適用されます。 トラッキング URL ダイアログを単独で保存しても、エクスペリエンスは保存または公開されません。
+
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [ エクスペリエンスの最終ノードへのクリエイティブバンドルの割り当てと割り当て解除](/help/creative/experiences/experience-assign-creative-bundles.md)
 >* [決定木ターゲティングを使用しないエクスペリエンスのトラッキング URLをカスタマイズする](experience-tracking-urls-no-targeting.md)
