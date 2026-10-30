@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4b3b47621930d9f560e9967285d7400ef305e017
+source-git-commit: d3c51a9af27cafb0b257beab61eb2f4611a32c6e
 workflow-type: tm+mt
-source-wordcount: '8099'
+source-wordcount: '8197'
 ht-degree: 0%
 ---
 # DSPの新機能
@@ -51,6 +51,7 @@ ht-degree: 0%
 | 日付 | 機能 | 説明 | 詳細 |
 | ---- | ------- | ----------- | -------------------- |
 | 2026年10月29日（PT） | [!DNL ChatGPT Ads] | Adobe DSPと[!DNL OpenAI Ads]との統合により、[!DNL ChatGPT]の会話内に表示される[!DNL ChatGPT Ads]件のチャットカード広告を実行できるようになりました。 この機能では、DSPが広告アカウントを作成し、組織の代わりにメディアを購入します。 この機能を使用すると、[!DNL ChatGPT Ads]との直接的な関係を確立せずにAI メディアをテストできます。これには最低限の支出のコミットメントが必要な場合があります。<br><br> [!DNL ChatGPT Ads] キャンペーンはDSP キャンペーンとは異なる構造になっているので、それらを管理し、メインメニューの別のオプションからパフォーマンスデータを表示します：[!DNL Conversational Ads]。 キャンペーン、広告グループ、広告レベルのパフォーマンスデータには、[!UICONTROL Impressions]、[!UICONTROL Clicks]、[!UICONTROL Spend]、[!UICONTROL CTR]、[!UICONTROL Avg CPC]、および[!UICONTROL Avg CPM]が含まれます。<br><br> この機能を使用するには、Adobe アカウントチームに連絡してオンボーディングプロセスを開始してください。 | 実施要件を含む詳細については、[[!DNL ChatGPT Ads]  アカウント &#x200B;](/help/dsp/campaign-management/conversational-ads/account-manage.md)および対応する[&#x200B; キャンペーン、広告グループ、広告](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)を管理するためのドキュメントを参照してください。 |
+| 2026年10月28日（PT） | AIを活用した意思決定ツリーエディター | （Betaの機能） Advertising Creativeを導入している広告主は、AIを活用したエディターを使用して、デジジョンツリーターゲティングでエクスペリエンスを構築および編集できるようになりました。 自然言語による会話で必要なターゲティング構造や変更を記述し、結果の決定ツリーを確認します。 キャンバスを直接編集して、ターゲットノードの管理、クリエイティブバンドルの割り当て、クリエイティブの最適化、スケジューリング、トラッキング URLの設定を行うこともできます。 AI駆動のエディターがデフォルトで開き、手動エディターは引き続き使用できます。 | 「[決定木レイアウト &#x200B;](/help/creative/experiences/experience-decision-tree.md)」、「[&#x200B; ターゲティングでエクスペリエンスを作成](/help/creative/experiences/experience-create-targeting.md)」、「[&#x200B; ターゲティングでエクスペリエンスを編集](/help/creative/experiences/experience-edit-targeting.md)」を参照してください。 |
 | 2026年10月28日（PT） | DSPの[!DNL AI Assistant]、再利用可能な[!UICONTROL Audiences] | [!DNL AI Assistant]を使用して、利用可能なすべてのファーストパーティセグメントとサードパーティセグメントから再利用可能なオーディエンスを生成できるようになりました。 オーディエンスエージェントは[!UICONTROL Audiences] > [!UICONTROL All Audiences]からも引き続き利用でき、引き続き手動でオーディエンスを作成できます。 | 「[Advertising DSPのAI アシスタントについて](/help/dsp/ai-assistant/ai-assistant-about.md)」、「[AI アシスタントを使用して再利用可能なオーディエンスを生成](/help/dsp/ai-assistant/audience-builder-agent.md)」、「[再利用可能なオーディエンスを作成](/help/dsp/audiences/reusable-audience-create.md)」を参照してください。 |
 | 2026年10月26日（PT） | DSPの[!DNL AI Assistant] | DSPのAI アシスタントを使用して、次のいずれかの操作を行います。<ul><li>（Beta機能） レポートを手動で作成することなく、キャンペーンの指標と完全なレポートを取得します</li>（Beta機能）ライブパッケージとプレースメントのパフォーマンスと配信の問題を診断します<li><li>DSPと[!UICONTROL Creative]の使用方法について、製品ドキュメントを検索します。 これは既に利用可能でした。</li></ul> | 「[Advertising DSPのAI アシスタントについて](/help/dsp/ai-assistant/ai-assistant-about.md)」を参照し、AI アシスタントを使用してパフォーマンスと配信の問題をトラブルシューティングする[&#x200B; レポートを作成](/help/dsp/ai-assistant/insights-agent.md)および[方法](/help/dsp/ai-assistant/troubleshooting-agent.md)を説明します。 |
 | 2026年10月15日（PT） | [!DNL Creative] | （Beta機能）既存の静的ディスプレイ広告イメージを編集可能なディスプレイ広告テンプレートに変換するために、[!UICONTROL Creative Studio]でAIを使用して生成できるようになりました。 | 「[[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md){target="_blank"}の広告テンプレートの管理」を参照してください。 |

@@ -1,6 +1,6 @@
 ---
 title: 決定木のレイアウト
-description: ターゲティングを使用したエクスペリエンスの決定木レイアウトについて説明します。
+description: ターゲティングによるエクスペリエンスのためのAIを活用した手作業による意思決定ツリーエディターについて説明します。
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
 TQID: 'https://experienceleague.adobe.com/JFrcVBHxv90Fchk-VfkmxAITQJswboszNMFOfaAQlL4'
@@ -18,28 +18,46 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '807'
 ht-degree: 0%
 ---
 # [!DNL Creative] エクスペリエンスの決定木レイアウト
 
 エクスペリエンスに「[!UICONTROL Targeting]」オプションを有効にする場合は、デシジョンツリーを使用してエクスペリエンスを設定します。
 
-最初に、各決定ツリーはルートレベル「All」で始まります。 1つ以上のターゲットノードを追加し、決定ツリーの各ブランチの最終ノードにクリエイティブバンドルを割り当てることができます。 デフォルトでは、決定ツリーは垂直方向に表示されますが、オプションでツリーを水平方向に表示することもできます。
+最初に、各決定ツリーはルートレベル「All」で始まります。 1つ以上のターゲットノードを追加し、決定ツリーの各ブランチの最終ノードにクリエイティブバンドルを割り当てることができます。
+
+## AIを活用したエディター（Beta） {#ai-editor}
+
+ターゲティングを使用してエクスペリエンスを作成または編集すると、AI駆動のエディターがデフォルトで開きます。 AI エージェントとの会話と、インタラクティブな意思決定ツリーキャンバスが組み合わされています。
+
+* 会話で必要なターゲティング構造または変更を記述し、保存する前に結果のツリーを確認します。
+
+* キャンバスを直接編集して、ターゲットレベルとノードの追加、バンドルの割り当て、クリエイティブの最適化とトラッキング URLの設定を行います。 これらのコントロールを使用するために手動エディターに切り替える必要はありません。
+
+* ヘッダーでエクスペリエンス名、ステータス、および広告主を表示し、可能な場合はノード IDを使用して、変更を記述するときにターゲットノードを識別します。
+
+* **[!UICONTROL Zoom in]**、**[!UICONTROL Zoom out]**&#x200B;および&#x200B;**[!UICONTROL Change orientation]**&#x200B;を使用して、ビューを調整します。 **[!UICONTROL Reset tree]**&#x200B;は確認後にツリーをクリアします。ズームをリセットするだけではありません。
+
+アシスタントが変更を処理している間、キャンバスとその&#x200B;**[!UICONTROL Save]** ボタンは一時的に無効になっています。 別のキャンバスを変更する前に、処理が終了するのを待ちます。
+
+## 手動エディター {#manual-editor}
+
+AI駆動型エディターから既存の手動エディターを開くには、**[!UICONTROL Manual Decision Tree]**&#x200B;をクリックします。 [!UICONTROL Experiences] ビューのエクスペリエンスのアクションから&#x200B;**[!UICONTROL Create Decision Tree Manually (Legacy)]**&#x200B;を選択することもできます。 [&#x200B; エディターの切り替えまたはエクスペリエンス設定の編集](experience-edit-targeting.md#switch-editors)を参照してください。
+
+手動エディターでは、ツリーはデフォルトで垂直方向に表示されます。 水平表示に変更し、スライダーでズームを調整できます。 ビュー設定は、ログアウトするまで保存されます。
+
+次に、手動エディターの例を示します。
 
 ![&#x200B; ターゲットのない垂直方向の決定ツリーの例](/help/creative/assets/experience-decision-tree-no-targets.png " ターゲットのない垂直方向の決定ツリーの例")
 
 ![&#x200B; ターゲットのない水平方向の決定ツリーの例](/help/creative/assets/experience-decision-tree-no-targets-horizontal.png " ターゲットのない水平方向の決定ツリーの例")
 
-<!--
->[!NOTE]
+>[!IMPORTANT]
 >
->You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.
--->
-
-<!-- Explain the diff and why to choose the other option. -->
+>AI駆動型エディターを終了する前に、保持したい変更を保存します。 **[!UICONTROL Manual Decision Tree]**、**[!UICONTROL Experience Form]**&#x200B;または&#x200B;**[!UICONTROL Cancel]**&#x200B;をクリックすると、確認ダイアログが開きます。 **[!UICONTROL Yes]**&#x200B;をクリックすると、未保存のツリーの変更が破棄されます。**[!UICONTROL No]**&#x200B;をクリックすると、エディターに残ります。
 
 ## 条件
 
@@ -54,6 +72,8 @@ ht-degree: 0%
 各決定ツリーには、最大5つのレベルのターゲットを設定できます。 エクスペリエンスレベルのターゲットは、DSPのターゲティングオプションと組み合わせて適用されます。階層的なターゲティング動作は、DSPによって異なる場合があります。 広告エクスペリエンスには、それを実装するキャンペーンと互換性のあるターゲティングが含まれていることを確認します。
 
 各ターゲットレベルには、複数の分岐を含めることができ、それぞれ同じターゲットタイプ（オーディエンスセグメント、地理的な場所タイプ、指定されたデータパスキーの値、指定されたリターゲティングピクセルの属性、デバイスカテゴリ）を持つ1つ以上のノードを持ちます。 デフォルトの画像クリエイティブまたはビデオクリエイティブを指定した各広告サイズのクリエイティブバンドルを、最下位レベルのターゲットノードに割り当てることができます。
+
+<!-- Add a screen shot of the AI editor -->次の例は、手動エディターのターゲットを示しています。
 
 ![&#x200B; ターゲットを持つ決定ツリーの例](/help/creative/assets/experience-decision-tree.png " ターゲットを持つ決定ツリーの例")
 

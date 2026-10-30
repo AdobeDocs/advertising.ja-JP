@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '403'
 ht-degree: 0%
 ---
 # 子ノードを同じレベルの別のターゲットノードにコピーする
@@ -29,22 +29,37 @@ ht-degree: 0%
 
 この機能は、親ノードに指定されたターゲットには影響しません。子ノードにのみ影響します。
 
-<!-- 1. [ways to get to the decision tree] -->
+## AI ドリブン型エディターの使用（Beta） {#ai-editor}
+
+エクスペリエンスを[作成中](experience-create-targeting.md#ai-editor)または[編集中](experience-edit-targeting.md#ai-editor)に、キャンバス コントロールを使用します。
+
+1. コピーする子を持つ親ノードで、**[!UICONTROL ...]** > **[!UICONTROL Copy Children]**&#x200B;をクリックします。
+
+1. 同じレベルの宛先ノードで、**[!UICONTROL ...]**&#x200B;をクリックし、次のいずれかを選択します。
+
+   * 既存の子を削除せずに、コピーされた子ターゲットとクリエイティブを追加するには、**[!UICONTROL Add]**&#x200B;をクリックします。
+
+   * 既存の子ターゲットとクリエイティブをコピーされた子に置き換えるには、**[!UICONTROL Replace]**&#x200B;をクリックします。
+
+   ツリー構造がサポートしていない場合、アクションは無効になります。 続行する前に警告を確認してください。
+
+1. 宛先ブランチを確認し、[&#x200B; エクスペリエンスを保存](#save)します。
+
+## 手動エディターの使用 {#manual-editor}
+
+[次の手順に従う前に、手動エディター](experience-edit-targeting.md#experience-open)を開きます。
 
 1. コピーする子を持つ親ノードをクリックし、![追加](/help/creative/assets/add.png "追加")をクリックしてから、a\）選択&#x200B;**[!UICONTROL Copy Children ctrl+c]**&#x200B;またはb\）キーボードで&#x200B;**[!UICONTROL Ctrl+C]** （[!DNL Microsoft Windows]）または&#x200B;**[!UICONTROL Command-C]** （[!DNL Apple Macintosh]）と入力します。
 
 1. 次のいずれかの操作を行います。
 
-   * ノードのすべての子ノードとクリエイターを置き換えるには、コピーした情報を貼り付けるノードをクリックし、**...**&#x200B;をクリックしてから、**[!UICONTROL Replace ctrl+shift+v]**&#x200B;またはb\）を選択し、キーボードに&#x200B;**[!UICONTROL Ctrl+Shift+V]** （[!DNL Microsoft Windows]）または&#x200B;**[!UICONTROL Command-Shift-V]** （[!DNL Apple Macintosh]）と入力します。
+   * ノードのすべての子ノードとクリエイターを置き換えるには、コピーした情報を貼り付けるノードをクリックし、**[!UICONTROL ...]**&#x200B;をクリックして、**[!UICONTROL Replace ctrl+shift+v]**&#x200B;を選択するかb\）を選択します。キーボードに&#x200B;**[!UICONTROL Ctrl+Shift+V]** （[!DNL Microsoft Windows]）または&#x200B;**[!UICONTROL Command-Shift-V]** （[!DNL Apple Macintosh]）と入力します。
 
-   * （複数の子ターゲットを持つノード、すべての「すべての」ノードなし、およびクリエイターのみ）既存のノードを削除せずに、すべての子ノードとクリエイターをノードに追加するには、コピーした情報を貼り付けるノードをクリックし、**...**&#x200B;をクリックし、a\）を選択します。**[!UICONTROL Add ctrl+v]** **またはb\）キーボードで&#x200B;**&#x200B;[!UICONTROL Ctrl+V] **&#x200B; （[!DNL Microsoft Windows]）または[!DNL Apple Macintosh]）と入力します。**&#x200B;[!UICONTROL Command-V]**
+   * （複数の子ターゲットを持つノード、すべての「すべての」ノードなし、およびクリエイターのみ）既存のノードを削除せずに、すべての子ノードとクリエイターをノードに追加するには、コピーした情報を貼り付けるノードをクリックし、**[!UICONTROL ...]**&#x200B;をクリックし、**[!UICONTROL Add ctrl+v]**&#x200B;またはb\）を選択します。キーボードで&#x200B;**[!UICONTROL Ctrl+V]** （[!DNL Microsoft Windows]）または&#x200B;**[!UICONTROL Command-V]** （[!DNL Apple Macintosh]）と入力します。
 
-<!--
-1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
-...
+## エクスペリエンスを保存 {#save}
 
-These formatted steps are inserted automatically from text in the following file in the _includes folder, which reused in multiple places.
--->
+次の手順は、両方のエディターに適用されます。
 
 {{$include /help/_includes/experience-save.md}}
 

@@ -20,12 +20,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1262'
 ht-degree: 0%
 ---
 # ターゲット広告エクスペリエンスの設定
+
+これらの一般的な設定は、AI駆動型のデシジョンツリーエディター（Beta）と手動エディターで共有されます。
+
+既存のエクスペリエンスの場合は、決定ツリーから「**[!UICONTROL Experience Form]**」をクリックします。 最初に保持したいツリーの変更を保存します。 AI駆動のエディターを終了するには、確認が必要で、保存されていないツリーの変更は破棄されます。 [&#x200B; エディターの切り替えまたはエクスペリエンス設定の編集](experience-edit-targeting.md#switch-editors)を参照してください。
 
 ## [!UICONTROL Experience basics] セクション
 

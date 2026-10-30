@@ -1,6 +1,6 @@
 ---
 title: 決定木ターゲティングによるエクスペリエンスの作成
-description: 意思決定ツリーを使用して、ターゲット広告エクスペリエンスを作成する方法を説明します。
+description: AIを活用した手動の意思決定ツリーエディターを使用して、ターゲットを絞った広告エクスペリエンスを作成する方法を説明します。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
 TQID: 'https://experienceleague.adobe.com/nxegtoNEqfAk7LUyb-3qD6YJYaGfx3M3QdrLx-q5y14'
@@ -21,79 +21,97 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '715'
 ht-degree: 0%
 ---
 # 決定木ターゲティングによるエクスペリエンスの作成
 
 デジジョンツリーを使用して、ターゲットを絞った広告体験を構築。 各エクスペリエンスでは、単一のクリエイティブライブラリの広告を使用します。
 
+デフォルトでAI ドリブン型エディター（Beta）が開きます。 AI エージェントを使用してツリーを設定するか、そのキャンバスを直接編集できます。 既存の手動エディターに切り替えることもできます。
+
 >[!NOTE]
 >
 >* ターゲティングされたエクスペリエンスを作成した後で、別のワークフローを使用する非ターゲティングされたエクスペリエンスに変更することはできません。
 >* 広告エクスペリエンスには、それを実装するキャンペーンと互換性のあるターゲティングが含まれていることを確認します。 階層的なターゲティングの動作は、DSPによって異なる場合があります。 広告体験タグをAdvertising DSPにアップロードしてプレースメントに添付すると、広告レベルのターゲティングは（代わりに）プレースメントレベルのターゲティングの上に適用されます。 例えば、プレースメントがオーストラリアのユーザーをターゲットにし、広告が日本のユーザーをターゲットにした場合、広告は「その他のユーザー」ブランチをターゲットにします。
 
+## エクスペリエンスの構築
+
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;をクリックします。
 
 1. **[!UICONTROL Create New Experience]**&#x200B;をクリックします。
 
-1. [一般的なエクスペリエンス設定](experience-settings-targeting.md)を入力します。
+1. **[!UICONTROL Targeting]**&#x200B;が有効になっている[一般的なエクスペリエンス設定](experience-settings-targeting.md)を入力します。
 
 1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
-1. 決定ツリーで、次の操作を行います。
+   AIを活用した決定ツリーエディターが開き、新しいエクスペリエンスが表示されます。
 
-   1. （オプション）決定ツリーの表示設定を変更します。
+1. 次のいずれかの手順を使用して、ツリーを設定します。
 
-      設定は、ログアウトするまで保存されます。
+## AI ドリブン型エディターを使用したツリーの設定（Beta） {#ai-editor}
 
-      * スライダーを移動して、ズームインまたはズームアウトします。
+1. 会話では、各ブランチの基準や、指定したターゲットに一致しない視聴者の処理方法など、希望するターゲット構造を記述します。
 
-      * ![縦の木として表示](/help/creative/assets/tree-vertical.png "縦の木として表示")または![水平ツリーとして表示](/help/creative/assets/tree-horizontal.png "水平ツリーとして表示")をそれぞれクリックして、縦のリストと横のリストを表示する切り替えます。
+1. カンバスのツリーを確認します。 変更を要求するには、それを会話に記述します。 アシスタントが処理を完了するのを待ってから、キャンバスを操作します。
 
-   1. （オプション）次のいずれかの方法で、広告ターゲットと対応するクリエイターを設定します。
+1. （オプション）キャンバスでツリーを直接調整します。
 
-      * 目標：
+   * [最終レベルのターゲットを追加](experience-target-node-add-final.md#ai-editor)、[&#x200B; ターゲットレベルを挿入](experience-target-node-add-inner.md#ai-editor)、または[兄弟ターゲットを追加](experience-target-node-add-sibling.md#ai-editor)。
 
-        * [最終レベル &#x200B;](experience-target-node-add-final.md)にターゲットノードを追加します。
+   * [子ノードとクリエイティブをコピー](experience-target-node-copy.md#ai-editor)または[&#x200B; ノードを削除](experience-target-node-delete.md#ai-editor)。
 
-        * [&#x200B; ノード間にターゲットノードを挿入](experience-target-node-add-inner.md)。
+1. [&#x200B; クリエイティブバンドルを最終ノード &#x200B;](experience-assign-creative-bundles.md#ai-editor)に割り当て、オプションで[&#x200B; クリエイティブの最適化とスケジュールのカスタマイズ &#x200B;](experience-optimization-scheduling-targeting.md)と[&#x200B; トラッキング URL](experience-tracking-urls-targeting.md#ai-editor)を行います。
 
-        * [&#x200B; ノード間に兄弟ターゲットノードを追加](experience-target-node-add-sibling.md)。
+   エクスペリエンスを公開するには、最終的なノードごとにバンドルを割り当てるか、エクスペリエンスのデフォルトのクリエイティブを使用する必要があります。 保存するときに、未割り当てのノードにデフォルトを割り当てることができます。
 
-        * [子ノードとクリエイターを同じレベルの別のノードにコピー](experience-target-node-copy.md)。
+1. （オプション）一般的なエクスペリエンス設定を編集します。
 
-      * Creative バンドル：
+   1. 保持するツリーの変更を保存するには、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-        * [&#x200B; クリエイターを最終ノードに割り当て解除](experience-assign-creative-bundles.md)。
+   1. **[!UICONTROL Experience Form]**&#x200B;をクリックし、**[!UICONTROL Yes]**&#x200B;をクリックして未保存のツリーの変更を破棄し、フォームを開きます。
 
-          最後のノードごとに少なくとも1つのバンドルを割り当てない場合は、エクスペリエンスを保存するときに、割り当てられていないノードごとにデフォルトのクリエイティブを使用することを選択できます。 エクスペリエンスを公開するには、バンドルを割り当てるか、最終的なノードごとにデフォルトのクリエイターを使用する必要があります。
+   1. [一般的なエクスペリエンス設定](experience-settings-targeting.md)を編集し、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-        * [割り当てられたバンドルのクリエイティブの最適化とスケジュール &#x200B;](experience-optimization-scheduling-targeting.md)をカスタマイズします。
+      AIを活用したエディターが開きます。
 
-        * [割り当てられたバンドル内のクリエイティブのトラッキング URLをカスタマイズする](experience-tracking-urls-targeting.md)。
+1. [&#x200B; エクスペリエンスを保存](#save)。
 
-1. （オプション）決定ツリーと一般設定を切り替えます。
+## 手動エディターを使用したツリーの設定 {#manual-editor}
 
-   * 決定ツリーから一般設定を開くには、右上の「**[!UICONTROL Experience Form]**」をクリックします。
+1. AI ドリブン型エディターで、**[!UICONTROL Manual Decision Tree]**&#x200B;をクリックし、**[!UICONTROL Yes]**&#x200B;をクリックしてAI ドリブン型エディターを終了します。
 
-   * 一般設定から決定ツリーを開くには、右上の「**[!UICONTROL Decision Tree]**」をクリックします。
+   切り替える前に、維持したいAI エディターの変更を保存します。 スイッチを確認すると、保存されていないツリーの変更が破棄されます。
 
-1. **[!UICONTROL Save]**&#x200B;をクリックし、次の操作を行います。
+1. （オプション）表示設定を変更します。
 
-   * （最下位レベルの各ノードに少なくとも1つのクリエイティブ バンドルが含まれている場合）「**[!UICONTROL OK]**」をクリックします。
+   * スライダーを移動して、ズームインまたはズームアウトします。
 
-   * （最下位レベルの各ノードに少なくとも1つのクリエイティブバンドルが含まれていない場合）次のいずれかの操作を行います。
+   * ![縦のツリーとして表示](/help/creative/assets/tree-vertical.png "縦のツリーとして表示")または![水平ツリーとして表示](/help/creative/assets/tree-horizontal.png "水平ツリーとして表示")をクリックして、縦と横のビューを切り替えます。
 
-     * 必要なすべてのクリエイティブ バンドルを含まないエクスペリエンスを保存するには、**[!UICONTROL Save as Draft]**&#x200B;をクリックします。
+   ビュー設定は、ログアウトするまで保存されます。
 
-       [&#x200B; ドラフト &#x200B;](experience-about.md#experience-statuses) エクスペリエンスの広告タグを作成することはできません。
+1. 広告ターゲットと対応するクリエイターを設定します。
 
-     * クリエイティブバンドルがまだ割り当てられていない各ターゲットにデフォルトのクリエイティブを割り当てるには、**[!UICONTROL Assign Default Creatives]**&#x200B;をクリックします。 デフォルトのクリエイターが割り当てられている更新されたツリーを確認したら、「**[!UICONTROL Save]**」と「**[!UICONTROL OK]**」をクリックします。
+   * [最終レベルのターゲットを追加](experience-target-node-add-final.md#manual-editor)、[&#x200B; ノード間にターゲットを挿入](experience-target-node-add-inner.md#manual-editor)または[兄弟ターゲットを追加](experience-target-node-add-sibling.md#manual-editor)。
 
-     * 決定ツリーの編集を続行するには、**[!UICONTROL Continue Edit]**&#x200B;をクリックします。
+   * [子ノードとクリエイティブをコピー](experience-target-node-copy.md#manual-editor)または[&#x200B; ノードを削除](experience-target-node-delete.md#manual-editor)。
+
+   * [&#x200B; クリエイティブバンドルを割り当て](experience-assign-creative-bundles.md#manual-editor)、オプションで[&#x200B; クリエイティブの最適化とスケジュールのカスタマイズ &#x200B;](experience-optimization-scheduling-targeting.md)および[&#x200B; トラッキング URL](experience-tracking-urls-targeting.md#manual-editor)。
+
+1. （オプション）一般的なエクスペリエンス設定を編集するには、**[!UICONTROL Experience Form]**&#x200B;をクリックし、[一般的なエクスペリエンス設定](experience-settings-targeting.md)を編集します。
+
+1. [&#x200B; エクスペリエンスを保存](#save)。
+
+## エクスペリエンスを保存 {#save}
+
+次の手順は、両方のエディターに適用されます。
+
+{{$include /help/_includes/experience-save.md}}
+
+## 保存されたエクスペリエンスの広告タグと動画のトランスコーディング
 
 エクスペリエンスがライブになると、[!DNL Creative]は、該当するクリエイティブサイズまたはビデオのデュレーションごとに1つの広告タグを自動的に作成します。 その後、[広告タグを書き出して、DSP](/help/creative/experiences/experience-tag-export.md)に実装できます。
 

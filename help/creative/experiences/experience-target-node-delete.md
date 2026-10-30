@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 0%
 ---
 # エクスペリエンス内のターゲットノードまたはクリエイティブリーフノードの削除
@@ -27,25 +27,31 @@ ht-degree: 0%
 
 すべての子ターゲットとそれらに割り当てられたクリエイティブバンドルを含むターゲットノードを削除できます。 クリエイティブなリーフ ノードを削除することもできます。
 
-<!-- 1. [ways to get to the decision tree] -->
+## AI ドリブン型エディターの使用（Beta） {#ai-editor}
+
+エクスペリエンスを[作成中](experience-create-targeting.md#ai-editor)または[編集中](experience-edit-targeting.md#ai-editor)に、キャンバス コントロールを使用します。
+
+1. ノードを削除する前に、ノードとその子ターゲットとクリエイティブを確認してください。
+
+1. ターゲットノードまたはクリエイティブリーフノードの上にカーソルを置き、**[!UICONTROL ...]** > **[!UICONTROL Delete]**&#x200B;をクリックします。
+
+   ノードは、別の&#x200B;**[!UICONTROL Delete Node]**&#x200B;確認なしで作業ツリーから削除されます。
+
+1. 残りのブランチを確認し、[&#x200B; エクスペリエンスを保存](#save)します。
+
+## 手動エディターの使用 {#manual-editor}
+
+[次の手順に従う前に、手動エディター](experience-edit-targeting.md#experience-open)を開きます。
 
 1. ターゲットノードまたはクリエイティブリーフノードの上にカーソルを置き、**[!UICONTROL ...]** > **[!UICONTROL Delete]**&#x200B;をクリックします。
 
 1. 確認メッセージで、**[!UICONTROL Delete Node]**&#x200B;をクリックします。
 
-1. （オプション）エクスペリエンスを保存するには：
+## エクスペリエンスを保存 {#save}
 
-   1. 「**[!UICONTROL Save]**」をクリックし、「**[!UICONTROL OK]**」をクリックします。
+次の手順は、両方のエディターに適用されます。
 
-   1. （最下位レベルの各ノードに1つ以上のクリエイティブが含まれていない場合）：次のいずれかの操作を行います。
-
-      * 必要なすべてのクリエイティブ バンドルを含まないエクスペリエンスを保存するには、**[!UICONTROL Save as Draft]**&#x200B;をクリックします。
-
-        ドラフトエクスペリエンスの広告タグを作成することはできません。
-
-      * クリエイティブバンドルがまだ割り当てられていない各ターゲットにデフォルトのクリエイティブを割り当てるには、**[!UICONTROL Assign Default Creatives]**&#x200B;をクリックします。 デフォルトのクリエイターが割り当てられている更新されたツリーを確認したら、「**[!UICONTROL Save]**」と「**[!UICONTROL OK]**」をクリックします。
-
-      * 決定ツリーの編集を続行するには、**[!UICONTROL Continue Edit]**&#x200B;をクリックします。
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >
