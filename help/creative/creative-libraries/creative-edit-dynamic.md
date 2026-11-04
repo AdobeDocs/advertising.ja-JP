@@ -1,6 +1,6 @@
 ---
-title: クリエイティブライブラリでのダイナミッククリエイティブの編集
-description: クリエイティブライブラリでダイナミッククリエイティブを編集する方法について説明します。
+title: 動的なクリエイティブの編集と品質確認
+description: クリエイティブライブラリで動的なクリエイティブ設定を編集し、カタログコンテンツの品質を確認する方法を説明します。
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
 TQID: 'https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y'
@@ -16,14 +16,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: ed1682eff9ce28df30a5314de90f6f67c10f338a
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '1118'
 ht-degree: 0%
 ---
-# クリエイティブライブラリでのダイナミッククリエイティブの編集
+# 動的なクリエイティブの編集と品質確認
 
-## 新しいUIから
+クリエイティブ設定を編集して、クリエイティブの名前、カタログ、属性マッピングなどの設定を変更します。 QA エージェントを使用して、結果の広告を確認し、カタログ値を修正します。
+
+## クリエイティブ設定の編集 {#edit-creative-settings}
+
+### 新しいUIから {#from-the-new-ui}
 
 1. クリエイティブ設定を開きます。
 
@@ -67,7 +71,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Update Creative]**&#x200B;をクリックします。
 
-## レガシーUIから
+### レガシーUIから {#from-the-legacy-ui}
 
 1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
 
@@ -112,6 +116,100 @@ ht-degree: 0%
      1. バンドルを選択し、**[!UICONTROL Attach Creative to Bundles]**&#x200B;をクリックします。
 
    * 広告を保存して設定を終了するには、**[!UICONTROL Save]**&#x200B;をクリックし、もう一度&#x200B;**[!UICONTROL Save]**&#x200B;をクリックします。
+
+## 動的なクリエイティブの品質チェック（新しいUIのみ） {#qa-dynamic-creative}
+
+新しいUIのQA エージェントを使用して、動的なクリエイティブのテンプレートに対してカタログ行を分析し、結果の広告をプレビューし、潜在的なコンテンツの問題を特定します。 **[!UICONTROL AI Assistant]**&#x200B;を使用して広告をフィルタリングおよびグループ化し、カタログアラートを確認し、変更を公開する前にカタログ値を手動で修正できます。
+
+>[!NOTE]
+>
+>[!UICONTROL Creative Libraries]または[!UICONTROL Creative Studio]から動的なクリエイティブを品質チェックできます。 その他のエントリポイントについては、「[Creative Studioの動的なクリエイティブの品質チェック &#x200B;](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#qa-dynamic-creative)」を参照してください。
+
+QA Agentは、動的テンプレートに基づく動的ディスプレイクリエイターにのみ使用でき、標準的なクリエイターや動的なビデオクリエイターには使用できません。
+
+### QA エージェントを開きます {#open-qa-agent}
+
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+
+1. 次のいずれかの方法でライブラリを開きます。
+
+   * ライブラリ名をクリックします。
+   * ライブラリ名の横にある「**[!UICONTROL ...]**」 > 「**[!UICONTROL Open]**」をクリックします。
+
+1. 「**[!UICONTROL Creatives]**」タブで、動的クリエイティブ名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL QA Agent]**」をクリックします。
+
+   **[!UICONTROL Dynamic Creative QA]**&#x200B;画面が開き、プレビューキャンバスと&#x200B;**[!UICONTROL AI Assistant]** チャットパネルが表示されます。
+
+1. クリエイティブで複数のカタログを使用している場合は、ヘッダーの&#x200B;**[!UICONTROL Catalog]**&#x200B;からレビューするカタログを選択します。
+
+   アシスタントは、選択したカタログを分析します。 クリエイティブが1つのカタログのみを使用する場合、カタログセレクターは無効になります。
+
+### AIを活用した広告の分析とフィルタリング {#analyze-ads}
+
+1. **[!UICONTROL AI Assistant]** パネルで、**[!UICONTROL Ask anything]**&#x200B;にリクエストを入力して&#x200B;**[!UICONTROL Enter]**&#x200B;を押すか、提案されたプロンプトのいずれかをクリックします。
+
+   * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
+   * **[!UICONTROL Group ads by product]**
+   * **[!UICONTROL Filter ads by geography]**
+   * **[!UICONTROL Show all ads with headlines over 80 characters]**
+
+   アシスタントはチャットパネルで応答し、一致するカタログ行をキャンバス上の広告プレビューとして表示します。 リクエストを送信するまで、キャンバスはアシスタントにカタログの分析を依頼するよう求めます。
+
+1. フォローアップリクエストを使用してレビューの改善を続行します。 Ai アシスタントでは、次のことが可能になります。
+
+   * オーディエンスセグメント、言語、地域、郵便番号などで広告をフィルタリング。
+   * 指定したしきい値を使用して、文字の長さを確認します。
+   * フィードのエラー、コンテンツの欠落、疑わしいコンテンツを確認します。
+   * 翻訳ステータスの確認。
+   * A/B テストのバリエーション。
+   * 製品や問題など、レビュー用に広告をグループ化できます。
+
+   変更を保存する前に、アシスタントの応答を確認し、プレビューを調べます。
+
+### プレビューとアラートの確認 {#review-previews}
+
+* カンバスツールバーを使用して、以下を行います。
+
+  * ズームを調整します。
+  * **[!UICONTROL Thumbnail view]**&#x200B;と&#x200B;**[!UICONTROL Actual size]**&#x200B;を切り替えます。
+  * プレビューを再生するには、**[!UICONTROL Replay animations]**&#x200B;をクリックします。
+  * ページあたりの行数を選択するか、ページ番号を選択するか、**[!UICONTROL Previous page]**&#x200B;と&#x200B;**[!UICONTROL Next page]**&#x200B;を使用します。
+
+* アシスタントが結果をグループ化したら、リンクをクリックして、グループ内のすべてのクリエイターを表示します。 **[!UICONTROL Back to groups]**&#x200B;を使用してグループ化された結果に戻るか、**[!UICONTROL Catalog Rows]**&#x200B;を使用してグループ化されたビューを終了します。
+
+* プレビューに&#x200B;**[!UICONTROL Issues detected]**&#x200B;が表示されたら、インジケーターの上にカーソルを置くと、問題の詳細が表示されます。
+
+* カタログアラートが使用可能な場合は、**[!UICONTROL View Alerts]**&#x200B;をクリックします。 **[!UICONTROL Alerts]** ダイアログには、各問題のカタログ、行番号、列、エラーメッセージが一覧表示されます。 **[!UICONTROL Close]**&#x200B;をクリックしてキャンバスに戻ります。
+
+### 正しいカタログ値 {#correct-catalog-values}
+
+QA画面を離れることなく、広告プレビューからカタログ値を手動で編集できます。
+
+1. 修正するプレビューで、**[!UICONTROL Edit]**&#x200B;をクリックします。
+
+1. 編集ダイアログで、**[!UICONTROL Catalog columns to edit]**&#x200B;の下で変更する列を選択します。 列を検索するには、**[!UICONTROL Search columns]**&#x200B;を使用します。
+
+1. **[!UICONTROL Columns content]**&#x200B;で、選択したフィールド値を更新します。
+
+1. **[!UICONTROL Update]**&#x200B;をクリックします。
+
+   プレビューが更新され、更新された値が反映されます。 カタログの変更は、ダイナミッククリエイティブを保存するまで公開されません。
+
+>[!IMPORTANT]
+>
+>これらの編集は、広告プレビューだけでなく、カタログデータも更新します。 値を公開する前に、値を確認します。
+
+### 変更を保存または終了 {#save-or-exit}
+
+* 既存の動的クリエイティブを保存し、カタログ編集を公開するには：
+
+  1. ヘッダーの&#x200B;**[!UICONTROL Save Dynamic Creative]**&#x200B;をクリックします。
+
+  1. **[!UICONTROL Update Dynamic Creative]**&#x200B;確認ダイアログで、**[!UICONTROL Update]**&#x200B;をクリックします。
+
+     クリエイティブライブラリに戻ります。
+
+* 保留中のカタログ編集を公開せずに終了するには、ページヘッダーの「**[!UICONTROL Cancel]**」をクリックします。
 
 >[!MORELIKETHIS]
 >

@@ -11,9 +11,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 1cc477f531051d94ea88eaae0a4fb83918e95ea5
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1263'
 ht-degree: 0%
 ---
 # [!UICONTROL Creative Studio]の標準広告の管理
@@ -149,11 +149,17 @@ ht-degree: 0%
 
 1. **[!UICONTROL Update Creative]**&#x200B;をクリックします。
 
-## 標準的な広告の広告バリエーションを生成 {#generate-ad-variations}
+## 柔軟なHTML5 クリエイティブ用に広告バリエーションを生成 {#generate-ad-variations}
+
+**[!UICONTROL Generate Variations]** アクションは、柔軟なHTML5 クリエイティブでのみ使用できます。 クリエイティブがジェネレーターで必要な内部親広告テンプレート参照を持っていない場合、または別のバリエーション生成リクエストが開始されている間は無効になります。 親広告テンプレート参照は、編集できる設定ではありません。
+
+>[!NOTE]
+>
+>また、[!UICONTROL Creative Libraries]から適格な柔軟なHTML5 クリエイティブのバリエーションを生成することもできます。 両方のエントリ ポイントが同じ[!UICONTROL Ad Variations Generator]を開きます。 その他のエントリポイントと可用性の要件については、「[柔軟なHTML 5 クリエイティブのバリエーションを生成](/help/creative/creative-libraries/creative-generate-variations.md)」を参照してください。
 
 1. メインメニューで、**[!UICONTROL Creative Studio]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL Creatives]**」タブで、クリエイティブカードの上にカーソルを置き、**[!UICONTROL ...]** > **[!UICONTROL Generate Ad Variations]**&#x200B;をクリックします。
+1. 「**[!UICONTROL Creatives]**」タブで、クリエイティブカードの上にカーソルを置き、**[!UICONTROL ...]** > **[!UICONTROL Generate Variations]**&#x200B;をクリックします。
 
    選択した広告がプリロードされた状態で[!UICONTROL Ad Variations Generator]が開きます。
 

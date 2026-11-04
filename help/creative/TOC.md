@@ -3,13 +3,11 @@ role: User
 user-guide-title: Advertising Creative ガイド
 user-guide-description: Advertising Creative を使用するために必要な主な機能、タスク、設定、その他のリソースについて学習します。
 breadcrumb-title: Creative ガイド
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: 1cc477f531051d94ea88eaae0a4fb83918e95ea5
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 4%
-
 ---
-
 
 # Advertising Creative 2.0 ガイド {#creative}
 
@@ -36,11 +34,12 @@ ht-degree: 4%
     + 標準クリエイター {#standard-creatives}
       + [標準クリエイティブをクリエイティブライブラリに追加](/help/creative/creative-libraries/creative-add-standard.md)
       + [標準クリエイティブの編集](/help/creative/creative-libraries/creative-edit-standard.md)
+      + [柔軟性の高いHTML5のクリエイティブバリエーションの制作](/help/creative/creative-libraries/creative-generate-variations.md)
       + [標準クリエイティブ設定](/help/creative/creative-libraries/creative-settings-standard.md)
       + [HTML5のクリエイティブ仕様](/help/creative/creative-libraries/html5-creative-specification.md)
     + 動的なクリエイター {#dynamic-creatives}
       + [クリエイティブライブラリへの動的クリエイターの追加](/help/creative/creative-libraries/creative-add-dynamic.md)
-      + [動的なクリエイティブの編集](/help/creative/creative-libraries/creative-edit-dynamic.md)
+      + [動的なクリエイティブの編集と品質確認](/help/creative/creative-libraries/creative-edit-dynamic.md)
       + [動的なクリエイティブ設定](/help/creative/creative-libraries/creative-settings-dynamic.md)
     + [クリエイティブのプレビュー](/help/creative/creative-libraries/creative-preview.md)
     + [バンドルへのクリエイターの添付](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
