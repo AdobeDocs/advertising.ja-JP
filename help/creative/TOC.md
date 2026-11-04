@@ -3,13 +3,11 @@ role: User
 user-guide-title: Advertising Creative ガイド
 user-guide-description: Advertising Creative を使用するために必要な主な機能、タスク、設定、その他のリソースについて学習します。
 breadcrumb-title: Creative ガイド
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: 2ffa1910ffd60b0a93fa5edb54d5956319ad7fb8
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '434'
 ht-degree: 4%
-
 ---
-
 
 # Advertising Creative 2.0 ガイド {#creative}
 
@@ -18,8 +16,8 @@ ht-degree: 4%
   + [Adobe Advertising Creativeについて](/help/creative/introduction/creative-about.md)
   + [データビューのカスタマイズ](/help/creative/introduction/customize-data-views.md)
   + [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)
-  + [消費者のプライバシーのサポート](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
-  + [ポリシーとガイドライン](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
+  + [消費者のプライバシーのサポート](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+  + [ポリシーとガイドライン](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative Studio {#creative-studio}
   + [Creative Studioについて](/help/creative/creative-studio/creative-studio-about.md)
   + [[!UICONTROL Creative Studio]のC2PA メタデータ](/help/creative/creative-studio/creative-studio-content-credentials.md)
@@ -40,7 +38,7 @@ ht-degree: 4%
       + [HTML5のクリエイティブ仕様](/help/creative/creative-libraries/html5-creative-specification.md)
     + 動的なクリエイター {#dynamic-creatives}
       + [クリエイティブライブラリへの動的クリエイターの追加](/help/creative/creative-libraries/creative-add-dynamic.md)
-      + [動的なクリエイティブの編集](/help/creative/creative-libraries/creative-edit-dynamic.md)
+      + [動的なクリエイティブの編集と品質確認](/help/creative/creative-libraries/creative-edit-dynamic.md)
       + [動的なクリエイティブ設定](/help/creative/creative-libraries/creative-settings-dynamic.md)
     + [クリエイティブのプレビュー](/help/creative/creative-libraries/creative-preview.md)
     + [バンドルへのクリエイターの添付](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
@@ -103,4 +101,4 @@ ht-degree: 4%
 + [リターゲティングピクセル](/help/creative/pixels/retargeting-pixel-manage.md)
 + [トラッキング URLに使用できるマクロ](/help/creative/creative-macros.md)
 + [ヘルプを表示](/help/creative/get-help.md)
-+ [Adobe CX Enterprise リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target="_blank"}
++ [Adobe CX Enterprise リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

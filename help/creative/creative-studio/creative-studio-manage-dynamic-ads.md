@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 88fead9ffc4eaa572be090877790422e67831036
+source-git-commit: b9a68528b3c622aae44a46bca9b3bb747019bc95
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # [!UICONTROL Creative Studio]での動的クリエイティブの管理
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    QAを続行すると、**[!UICONTROL Dynamic Creative QA]**&#x200B;画面が開き、プレビューキャンバスと&#x200B;**[!UICONTROL AI Assistant]** チャットパネルが表示されます。
 
-1. QAを続行する場合は、「[動的クリエイティブの品質チェック &#x200B;](#qa-dynamic-creative)」の手順に従って、[広告の分析とフィルタリング &#x200B;](#analyze-ads)、[&#x200B; プレビューとアラートのレビュー](#review-previews)、およびオプションで[&#x200B; カタログ値](#correct-catalog-values)を修正します。 完了したら、[動的クリエイティブを保存](#save-or-exit)します。
+1. QAを続行する場合は、「[動的クリエイティブの品質チェック ](#qa-dynamic-creative)」の手順に従って、[広告の分析とフィルタリング ](#analyze-ads)、[ プレビューとアラートのレビュー](#review-previews)、およびオプションで[ カタログ値](#correct-catalog-values)を修正します。 完了したら、[動的クリエイティブを保存](#save-or-exit)します。
 
 ## ダイナミッククリエイティブの編集 {#edit-dynamic-creative}
 
@@ -117,33 +117,21 @@ ht-degree: 0%
 
 ## 動的なクリエイティブの品質チェック {#qa-dynamic-creative}
 
-QA エージェントを使用すると、動的なクリエイティブのテンプレートに対してカタログ行を分析し、結果の広告をプレビューし、潜在的なコンテンツの問題を特定できます。 **[!UICONTROL AI Assistant]**&#x200B;を使用して広告をフィルタリングおよびグループ化し、カタログアラートを確認し、変更を公開する前にカタログ値を手動で修正できます。
-
-エージェントは[!UICONTROL Creative Libraries]または[!UICONTROL Creative Studio]から&#x200B;**[!UICONTROL Dynamic Creative QA]**&#x200B;画面を開きます。 メニューラベルは異なりますが、どちらのエントリポイントも同じQA機能を提供します。 分析は、選択したクリエイティブ、カタログ、リクエストによって異なります。
+QA アシスタントを使用して、動的なクリエイティブのテンプレートに合わせてカタログ行を分析し、生成される広告をプレビューし、潜在的なコンテンツの問題を特定します。 **[!UICONTROL AI Assistant]**&#x200B;を使用して広告をフィルタリングおよびグループ化し、カタログアラートを確認し、変更を公開する前にカタログ値を手動で修正できます。
 
 >[!NOTE]
 >
->QA Agentは、標準のクリエイティブや動的なビデオのクリエイティブではなく、動的なディスプレイのクリエイティブに使用できます。 [!UICONTROL Creative Libraries]では、このアクションは、動的テンプレートに基づく動的クリエイターにのみ使用できます。
+>[!UICONTROL Creative Studio]または[!UICONTROL Creative Libraries]から動的なクリエイティブを品質チェックできます。 メニューラベルは異なりますが、両方のエントリポイントで同じ&#x200B;**[!UICONTROL Dynamic Creative QA]**&#x200B;画面が同じ機能で開きます。 分析は、選択したクリエイティブ、カタログ、リクエストによって異なります。 その他のエントリポイントについては、「[Creative Libraries](/help/creative/creative-libraries/creative-edit-dynamic.md#qa-dynamic-creative)」の動的クリエイティブの品質チェックを参照してください。
 
-### QA エージェントを開きます {#open-qa-agent}
+QA アシスタントは、標準のクリエイティブや動的な動画クリエイティブではなく、動的なディスプレイクリエイティブに使用できます。
 
-1. 次のいずれかの方法で、保存されたQA用の動的クリエイティブを開きます。
+### QA アシスタントを開く {#open-qa-agent}
 
-   * **[!UICONTROL Creative Libraries]から：**
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**&#x200B;をクリックします。
 
-     1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+1. 「**[!UICONTROL Creatives]**」タブで、「[!UICONTROL Generate or Build Creatives]」セクションの下にあるクリエイティブライブラリで、ダイナミッククリエイティブを見つけます。
 
-     1. ライブラリ名をクリックしてライブラリを開きます。
-
-     1. 「**[!UICONTROL Creatives]**」タブで、動的クリエイティブ名の横にある「**[!UICONTROL ...]**」をクリックし、「**[!UICONTROL QA Agent]**」をクリックします。
-
-   * **[!UICONTROL Creative Studio]から：**
-
-     1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**&#x200B;をクリックします。
-
-     1. 「**[!UICONTROL Creatives]**」タブで、「[!UICONTROL Generate or Build Creatives]」セクションの下にあるクリエイティブライブラリで、ダイナミッククリエイティブを見つけます。
-
-     1. クリエイティブカードの上にカーソルを置き、**[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**&#x200B;をクリックします。
+1. クリエイティブカードの上にカーソルを置き、**[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**&#x200B;をクリックします。
 
    **[!UICONTROL Dynamic Creative QA]**&#x200B;画面が開き、プレビューキャンバスと&#x200B;**[!UICONTROL AI Assistant]** チャットパネルが表示されます。
 
@@ -217,7 +205,7 @@ QA画面を離れることなく、広告プレビューからカタログ値を
      * 新しいクリエイティブの場合は、**[!UICONTROL Create Dynamic Creative]**&#x200B;の確認ダイアログで「**[!UICONTROL Create]**」をクリックします。
      * 既存のクリエイティブの場合、**[!UICONTROL Update Dynamic Creative]**&#x200B;の確認ダイアログで「**[!UICONTROL Update]**」をクリックします。
 
-     QA画面を開いた場所に応じて、クリエイティブライブラリまたは[!UICONTROL Creative Studio]に戻ります。
+     [!UICONTROL Creative Studio]に戻ります。
 
 * 保留中のカタログ編集を公開せずに終了するには、ページヘッダーの「**[!UICONTROL Cancel]**」をクリックします。
 
