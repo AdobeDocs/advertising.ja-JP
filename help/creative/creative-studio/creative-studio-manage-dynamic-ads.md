@@ -85,7 +85,7 @@ ht-degree: 0%
 
    QAを続行すると、**[!UICONTROL Dynamic Creative QA]**&#x200B;画面が開き、プレビューキャンバスと&#x200B;**[!UICONTROL AI Assistant]** チャットパネルが表示されます。
 
-1. QAを続行する場合は、「[動的クリエイティブの品質チェック ](#qa-dynamic-creative)」の手順に従って、[広告の分析とフィルタリング ](#analyze-ads)、[ プレビューとアラートのレビュー](#review-previews)、およびオプションで[ カタログ値](#correct-catalog-values)を修正します。 完了したら、[動的クリエイティブを保存](#save-or-exit)します。
+1. QAを続行する場合は、「[動的クリエイティブの品質チェック &#x200B;](#qa-dynamic-creative)」の手順に従って、[広告の分析とフィルタリング &#x200B;](#analyze-ads)、[&#x200B; プレビューとアラートのレビュー](#review-previews)、およびオプションで[&#x200B; カタログ値](#correct-catalog-values)を修正します。 完了したら、[動的クリエイティブを保存](#save-or-exit)します。
 
 ## ダイナミッククリエイティブの編集 {#edit-dynamic-creative}
 

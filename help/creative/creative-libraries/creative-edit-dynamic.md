@@ -107,7 +107,7 @@ ht-degree: 0%
 
 1. クリエイターを救う：
 
-   * 広告を保存し、ライブラリの[ クリエイティブバンドル ](bundle-manage.md)に追加するには：
+   * 広告を保存し、ライブラリの[&#x200B; クリエイティブバンドル &#x200B;](bundle-manage.md)に追加するには：
 
      1. **[!UICONTROL Save and Attach to Bundle]**&#x200B;をクリックします。
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!UICONTROL Creative Libraries]または[!UICONTROL Creative Studio]から動的なクリエイティブを品質チェックできます。 その他のエントリポイントについては、「[Creative Studioの動的なクリエイティブの品質チェック ](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#qa-dynamic-creative)」を参照してください。
+>[!UICONTROL Creative Libraries]または[!UICONTROL Creative Studio]から動的なクリエイティブを品質チェックできます。 その他のエントリポイントについては、「[Creative Studioの動的なクリエイティブの品質チェック &#x200B;](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#qa-dynamic-creative)」を参照してください。
 
 QA Agentは、動的テンプレートに基づく動的ディスプレイクリエイターにのみ使用でき、標準的なクリエイターや動的なビデオクリエイターには使用できません。
 
@@ -214,6 +214,6 @@ QA画面を離れることなく、広告プレビューからカタログ値を
 >[!MORELIKETHIS]
 >
 >* [動的なクリエイティブ設定](creative-settings-dynamic.md)
->* [ クリエイティブライブラリに動的なクリエイティブを追加](creative-add-dynamic.md)
->* [ クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
+>* [&#x200B; クリエイティブライブラリに動的なクリエイティブを追加](creative-add-dynamic.md)
+>* [&#x200B; クリエイティブの変更ログを表示](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [動的広告のワークフロー](/help/creative/introduction/workflow-dynamic-ads.md)
