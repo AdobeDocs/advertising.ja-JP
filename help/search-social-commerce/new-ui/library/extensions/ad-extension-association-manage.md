@@ -67,7 +67,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]アカウントのみ*
 
-共有コールアウトは、検索ネットワーク上の[ サポートされているGoogle Ads キャンペーンと広告グループ ](/help/search-social-commerce/introduction/supported-inventory.md)に関連付けることができます。 各キャンペーンまたは広告グループに少なくとも2つのコールアウトを割り当てます。
+共有コールアウトは、検索ネットワーク上の[&#x200B; サポートされているGoogle Ads キャンペーンと広告グループ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)に関連付けることができます。 各キャンペーンまたは広告グループに少なくとも2つのコールアウトを割り当てます。
 
 1. メインメニューで、**[!UICONTROL Library]>[!UICONTROL Extensions]**&#x200B;をクリックし、**[!UICONTROL Associations]** タブをクリックします。
 

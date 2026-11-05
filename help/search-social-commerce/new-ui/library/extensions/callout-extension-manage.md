@@ -27,7 +27,7 @@ ht-degree: 0%
 
 コールアウト拡張機能とは、サイトが提供する製品、サービス、プロモーションに関する情報テキストを、テキスト広告とともに表示することです。 広告ネットワークは、広告を含む2～4のコールアウトを表示する場合があります。
 
-[同期済みのGoogle Ads アカウント ](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)のアカウントレベルで、共通のコールアウトテキストと設定を作成します。 ライブラリ内のコールアウトは、検索ネットワークでサポートされているキャンペーンまたは広告グループに関連付けるまで、広告では使用されません。
+[同期済みのGoogle Ads アカウント &#x200B;](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)のアカウントレベルで、共通のコールアウトテキストと設定を作成します。 ライブラリ内のコールアウトは、検索ネットワークでサポートされているキャンペーンまたは広告グループに関連付けるまで、広告では使用されません。
 
 コールアウト付きの広告を表示する資格を得るには、キャンペーンまたは広告グループごとに少なくとも2つのコールアウトを割り当てます。 広告グループレベルのコールアウトは、キャンペーンレベルのコールアウトを上書きします。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 これらのタブを表示するには[!UICONTROL View Extensions]権限が必要です。 コールアウトの作成、編集、削除、関連の作成または削除には、[!UICONTROL Edit Extensions]権限が必要です。
 
-1 アカウントあたりの最大拡張機能の数については、アカウント制限](https://support.google.com/google-ads/answer/6372658)に関する[Google広告のドキュメントを参照してください。
+1 アカウントあたりの最大拡張機能の数については、アカウント制限[&#128279;](https://support.google.com/google-ads/answer/6372658)に関するGoogle広告のドキュメントを参照してください。
 
 ### 使用可能なアクション
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
-コールアウトを作成したら、[ キャンペーンまたは広告グループに関連付けます](ad-extension-association-manage.md#callout-associate)。
+コールアウトを作成したら、[&#x200B; キャンペーンまたは広告グループに関連付けます](ad-extension-association-manage.md#callout-associate)。
 
 ## 共有コールアウト設定の編集 {#callout-edit}
 

@@ -29,7 +29,7 @@ ht-degree: 0%
 
 オプションで、各サイトリンクに説明テキストを含めることができます。 また、広告ネットワークは、サイトリンクに関連性が高い場合、アカウント内の既存の広告のコピーを表示することもできます。 [!DNL Google Ads]は、デスクトップ広告では2 ～ 6個、モバイル広告では4個までサイトリンクを表示できます。 [!DNL Microsoft Advertising]には、説明のあるサイトリンクが2つ、4つ、6つ、または説明なしのサイトリンクが表示される場合があります。
 
-[同期広告ネットワークアカウント ](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)のアカウントレベルで、共有サイトリンクのテキストと設定を作成します。 ライブラリ内のサイトリンクは、アカウントエンティティに関連付けるまで広告と共に使用されません。
+[同期広告ネットワークアカウント &#x200B;](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)のアカウントレベルで、共有サイトリンクのテキストと設定を作成します。 ライブラリ内のサイトリンクは、アカウントエンティティに関連付けるまで広告と共に使用されません。
 
 ## [!UICONTROL Sitelinks]および[!UICONTROL Associations] ビューについて {#sitelink-view-about}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 これらのタブを表示するには[!UICONTROL View Extensions]権限が必要です。 サイトリンクの作成、編集、削除、関連の作成または削除には、[!UICONTROL Edit Extensions]権限が必要です。
 
-[Microsoft Ads アカウント ](https://support.google.com/google-ads/answer/6372658)および[Google Ads アカウント ](https://help.ads.microsoft.com/#apex/3/en/52001)あたりの最大拡張機能の数については、広告ネットワークのヘルプを参照してください。
+[Microsoft Ads アカウント &#x200B;](https://support.google.com/google-ads/answer/6372658)および[Google Ads アカウント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/52001)あたりの最大拡張機能の数については、広告ネットワークのヘルプを参照してください。
 
 ### 使用可能なアクション
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
-サイトリンクを作成したら、[ アカウント、キャンペーン、または広告グループに関連付けます](ad-extension-association-manage.md#sitelink-associate)。
+サイトリンクを作成したら、[&#x200B; アカウント、キャンペーン、または広告グループに関連付けます](ad-extension-association-manage.md#sitelink-associate)。
 
 ## 共有サイトリンク設定の編集 {#sitelink-edit}
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 * キャンペーン設定に&#x200B;**[!UICONTROL EF Redirect]**&#x200B;と&#x200B;**[!UICONTROL Auto Upload]**&#x200B;が含まれている場合、レコードを保存すると、Search、Social、およびCommerceが自動的に独自のリダイレクトコードとトラッキングコードのプレフィックスを付けます。
 
-* 最終的なURLを埋め込むパラメーターについては、[Microsoft Advertising ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799)または[Google Ads ValueTrack ドキュメント ](https://support.google.com/google-ads/answer/6305348)の「トラッキングテンプレートのみ」パラメーターを参照してください。
+* 最終的なURLを埋め込むパラメーターについては、[Microsoft Advertising ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)または[Google Ads ValueTrack ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「トラッキングテンプレートのみ」パラメーターを参照してください。
 
 * URL パラメーターとキャンペーンレベルのカスタムパラメーターを、アンパサンド（`&`）で区切って含めることができ、サードパーティのリダイレクトとトラッキングを含めることができます。
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 
 Search, Social, &amp; Commerceは、広告の拡張機能をクリックし、その拡張機能が表示される広告に関連付けられたキーワードにコンバージョンをマッピングします。 Search, Social, &amp; Commerceでは、拡張機能レベルのコストとクリックデータは利用できません。
 
-[!UICONTROL Transaction Report]では、`sl:See Current Offers`などの[!UICONTROL Link Type]の値`sl:<Sitelink text>`は、広告自体ではなくサイトリンクからのトランザクションを識別します。 「[ トランザクションレポート ](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)」を参照してください。
+[!UICONTROL Transaction Report]では、`sl:See Current Offers`などの[!UICONTROL Link Type]の値`sl:<Sitelink text>`は、広告自体ではなくサイトリンクからのトランザクションを識別します。 「[&#x200B; トランザクションレポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)」を参照してください。
 
 広告ネットワークのインターフェイスで拡張機能レベルのコストを表示し、データをクリックすることができます。
 
