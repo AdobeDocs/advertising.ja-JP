@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ## スプレッドシート レポート フィード用の[!DNL Excel] テンプレートの作成 {#spreadsheet-feed-create-excel-template}
 
-スプレッドシート フィードを作成するには、まず、通常の[ レポートテンプレート ](report-templates-manage.md)を使用して、特別に書式設定された[!DNL Microsoft Excel] スプレッドシート テンプレートを作成する必要があります。 必要に応じて、[!DNL Excel] スプレッドシートをカスタマイズして、列とグラフを追加できます。
+スプレッドシート フィードを作成するには、まず、通常の[&#x200B; レポートテンプレート &#x200B;](report-templates-manage.md)を使用して、特別に書式設定された[!DNL Microsoft Excel] スプレッドシート テンプレートを作成する必要があります。 必要に応じて、[!DNL Excel] スプレッドシートをカスタマイズして、列とグラフを追加できます。
 
 1. **[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;で、「[!UICONTROL Daily]」の[!UICONTROL Date Aggregation] ユニットと、必要な他のすべてのデータパラメーターを使用して、目的のレポートタイプを生成し、レポートをテンプレートとして保存します。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ## スプレッドシートレポートフィードの作成 {#spreadsheet-feed-create}
 
-1. [ レポートデータを入力する [!DNL Excel]  テンプレートを作成します](#spreadsheet-feed-create-excel-template)。
+1. [&#x200B; レポートデータを入力する [!DNL Excel]  テンプレートを作成します](#spreadsheet-feed-create-excel-template)。
 
 1. スプレッドシート フィードを作成します。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
    1. 右上の「**[!UICONTROL Create Spreadsheet]**」をクリックします。
 
-   1. **[!UICONTROL Create Spreadsheet Feed]** ダイアログで、[ スプレッドシート フィード設定](#spreadsheet-feed-settings)を指定します。
+   1. **[!UICONTROL Create Spreadsheet Feed]** ダイアログで、[&#x200B; スプレッドシート フィード設定](#spreadsheet-feed-settings)を指定します。
 
    1. **[!UICONTROL Submit]**&#x200B;をクリックします。
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 1. （オプション）スプレッドシート フィードに使用されているレポートテンプレートまたは[!DNL Excel] テンプレートを更新するには、次の手順を実行します。
 
-   * （オプション）フィードに別のレポートテンプレートまたは更新されたレポートテンプレートを使用するには、[ レポートテンプレート ](#spreadsheet-feed-create-excel-template)用に新しい [!DNL Excel]  テンプレートを作成します。
+   * （オプション）フィードに別のレポートテンプレートまたは更新されたレポートテンプレートを使用するには、[&#x200B; レポートテンプレート &#x200B;](#spreadsheet-feed-create-excel-template)用に新しい [!DNL Excel]  テンプレートを作成します。
 
      レポートテンプレートを選択し、次の手順で新しい[!DNL Excel] ファイルをアップロードします。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
    1. 一括操作ツールバーで、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-   1. **[!UICONTROL Edit Spreadsheet Feed]** ダイアログで、[ スプレッドシート フィード設定](#spreadsheet-feed-settings)を変更します。
+   1. **[!UICONTROL Edit Spreadsheet Feed]** ダイアログで、[&#x200B; スプレッドシート フィード設定](#spreadsheet-feed-settings)を変更します。
 
    1. **[!UICONTROL Submit]**&#x200B;をクリックします。
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 1. 完了したら、**[!UICONTROL Cancel]**&#x200B;をクリックします。 設定を破棄するよう求められた場合は、**[!UICONTROL Discard]**&#x200B;をクリックします。
 
-元のレポートテンプレートを変更するには、[ レポートテンプレート編集手順](report-templates-manage.md#template-edit)に従います。 フィードに別のテンプレートを使用するには、[ スプレッドシートのフィード設定を編集](#spreadsheet-feed-edit)して、テンプレートを選択します。
+元のレポートテンプレートを変更するには、[&#x200B; レポートテンプレート編集手順](report-templates-manage.md#template-edit)に従います。 フィードに別のテンプレートを使用するには、[&#x200B; スプレッドシートのフィード設定を編集](#spreadsheet-feed-edit)して、テンプレートを選択します。
 
 ## スプレッドシート レポート フィード ファイルの表示または保存 {#spreadsheet-feed-view-or-save}
 

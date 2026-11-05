@@ -23,15 +23,15 @@ ht-degree: 0%
 
 ## 使用可能なアクション
 
-* [新しいテンプレートとして、または既存のテンプレートに基づいて、レポートテンプレート ](#template-create)を作成します。
+* [新しいテンプレートとして、または既存のテンプレートに基づいて、レポートテンプレート &#x200B;](#template-create)を作成します。
 
 * [元の](#template-view)を変更せずにレポートテンプレートの設定を表示します。
 
-* [ レポートテンプレート ](#template-edit)を編集し、そのスケジュールを表示します。
+* [&#x200B; レポートテンプレート &#x200B;](#template-edit)を編集し、そのスケジュールを表示します。
 
 * [指定したテンプレートに対してオンデマンドでレポートを実行](#template-run)。
 
-* [ レポートテンプレートを削除](#template-delete)。
+* [&#x200B; レポートテンプレートを削除](#template-delete)。
 
 * [選択した行のすべてのデータをクリップボードにコピー](#copy-to-clipboard)。
 
@@ -45,13 +45,13 @@ ht-degree: 0%
 
    * 新しいテンプレートを作成するには、**[!UICONTROL Create Template]**&#x200B;をクリックします。 **[!UICONTROL Create a New Template]** パネルで、レポートカテゴリとレポートタイプを選択し、**[!UICONTROL Proceed]**&#x200B;をクリックします。
 
-   * 既存のテンプレートに基づいてテンプレートを作成するには、テンプレート行の上にカーソルを置き、![ テンプレート設定](/help/search-social-commerce/assets/settings-new.png " テンプレート設定") **[!UICONTROL Template Settings]**&#x200B;または&#x200B;**[!UICONTROL ...]>[!UICONTROL Duplicate]**&#x200B;のいずれかをクリックします。
+   * 既存のテンプレートに基づいてテンプレートを作成するには、テンプレート行の上にカーソルを置き、![&#x200B; テンプレート設定](/help/search-social-commerce/assets/settings-new.png " テンプレート設定") **[!UICONTROL Template Settings]**&#x200B;または&#x200B;**[!UICONTROL ...]>[!UICONTROL Duplicate]**&#x200B;のいずれかをクリックします。
 
 1. テンプレートの一意の&#x200B;**[!UICONTROL Report Name]**&#x200B;を入力し、**[!UICONTROL Save as Template]**&#x200B;が有効になっていることを確認します。
 
    設定は、**[!UICONTROL Create Template]**&#x200B;で開始すると、デフォルトで有効になります。 これを無効にすると、最終的なアクションは&#x200B;**[!UICONTROL Run Report]**&#x200B;に変わり、テンプレートを保存する代わりにレポートが生成されます。
 
-1. [基本レポートおよび詳細レポート ](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-settings.md)、[ アシストレポート ](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-settings.md)、[ モデル精度レポート ](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)、または[特殊レポート ](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-settings.md)のレポート設定を構成します。
+1. [基本レポートおよび詳細レポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-settings.md)、[&#x200B; アシストレポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-settings.md)、[&#x200B; モデル精度レポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)、または[特殊レポート &#x200B;](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-settings.md)のレポート設定を構成します。
 
    **[!UICONTROL Next]**&#x200B;をクリックして、設定セクション間を移動します。
 
@@ -69,13 +69,13 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Templates]**」タブをクリックします。
 
-1. テンプレート行の上にカーソルを置き、![ テンプレート設定](/help/search-social-commerce/assets/settings-new.png " テンプレート設定")**[!UICONTROL Template Settings]**&#x200B;をクリックします。
+1. テンプレート行の上にカーソルを置き、![&#x200B; テンプレート設定](/help/search-social-commerce/assets/settings-new.png " テンプレート設定")**[!UICONTROL Template Settings]**&#x200B;をクリックします。
 
 1. レポート設定を確認します。
 
 1. 完了したら、**[!UICONTROL Cancel]**&#x200B;をクリックします。 設定を破棄するよう求められた場合は、**[!UICONTROL Discard]**&#x200B;をクリックします。
 
-代わりにコピーを保存するには、[ テンプレート作成手順](#template-create)に従います。
+代わりにコピーを保存するには、[&#x200B; テンプレート作成手順](#template-create)に従います。
 
 ## レポートテンプレートの編集 {#template-edit}
 

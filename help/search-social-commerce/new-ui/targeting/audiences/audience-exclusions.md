@@ -25,13 +25,13 @@ ht-degree: 0%
 
 *[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントのみ*
 
-オーディエンスの除外は、キャンペーンまたは広告グループ内の広告が、特定の[ オーディエンス ](audience-manage.md)のユーザーに表示されるのを防ぎます。
+オーディエンスの除外は、キャンペーンまたは広告グループ内の広告が、特定の[&#x200B; オーディエンス &#x200B;](audience-manage.md)のユーザーに表示されるのを防ぎます。
 
 [!DNL Google Ads] アカウントの場合、任意のオーディエンスタイプを除外できます。 [!DNL Microsoft Advertising] アカウントの場合、動的リマーケティングオーディエンスのみを除外できます。
 
 >[!NOTE]
 >
->除外は常に[ オーディエンスターゲット ](audience-targets-manage.md)を上書きします。
+>除外は常に[&#x200B; オーディエンスターゲット &#x200B;](audience-targets-manage.md)を上書きします。
 
 ## [!UICONTROL Exclusions] ビューについて {#audience-exclusions-view-about}
 
@@ -111,5 +111,5 @@ Creating exclusions requires the [!UICONTROL Edit Audience Exclusions] permissio
 
 >[!MORELIKETHIS]
 >
->* [ オーディエンスの管理](audience-manage.md)
->* [ キャンペーンと広告グループのオーディエンスターゲットの管理](audience-targets-manage.md)
+>* [&#x200B; オーディエンスの管理](audience-manage.md)
+>* [&#x200B; キャンペーンと広告グループのオーディエンスターゲットの管理](audience-targets-manage.md)
