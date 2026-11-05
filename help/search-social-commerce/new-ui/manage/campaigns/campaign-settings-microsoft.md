@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 7e7dcde9fb195e04025a1a8d89e792ff562b053f
 workflow-type: tm+mt
 source-wordcount: '2256'
 ht-degree: 0%
@@ -337,7 +337,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 **[!UICONTROL Audience Signal]:** （オプション） キャンペーンのオーディエンスシグナルとして使用する[!DNL Microsoft Advertising] オーディエンス。 [!DNL Microsoft Advertising]個のマシンラーニング モデルは、オーディエンスを使用して、ターゲットとする類似のweb サーファーを見つけます。また、シグナルとして指定されていないオーディエンスに広告を表示して、パフォーマンス目標を達成するのに役立てることもできます。 コンバージョンに至る可能性が最も高いオーディエンスを特定：
 
 >[!NOTE]
->オーディエンスシグナルは、[広告グループレベルのオーディエンスターゲット &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)とは異なります。
+>オーディエンスシグナルは、[広告グループレベルのオーディエンスターゲット &#x200B;](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md)とは異なります。
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 

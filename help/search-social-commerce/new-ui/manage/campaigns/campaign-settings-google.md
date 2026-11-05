@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
+source-git-commit: 7e7dcde9fb195e04025a1a8d89e792ff562b053f
 workflow-type: tm+mt
 source-wordcount: '3244'
 ht-degree: 0%
@@ -421,7 +421,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 
 >[!NOTE]
 >
->オーディエンスシグナルは、[&#x200B; キャンペーンレベルおよび広告グループレベルのオーディエンスターゲット &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)とは異なります。
+>オーディエンスシグナルは、[&#x200B; キャンペーンレベルおよび広告グループレベルのオーディエンスターゲット &#x200B;](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md)とは異なります。
 
 **[!UICONTROL Primary Status]:** （パフォーマンスの最大キャンペーンの既存のアセットグループの読み取り専用フィールド）アセットグループがフルキャパシティで提供されている、または提供されていない理由。 アセットグループのステータスだけでなく、ポリシーや品質の承認など、その他のシグナルも考慮されます。 値には、*実施要件、* *制限付き、* *非実施要件、* *一時停止、* *保留中、* *削除済み、* *不明、*&#x200B;または&#x200B;*未指定*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->&#x200B;が含まれます。
 

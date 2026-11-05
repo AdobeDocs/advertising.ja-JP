@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1395'
 ht-degree: 0%
 ---
 # ユーザーインターフェイスの構成方法
@@ -87,35 +87,33 @@ ht-degree: 0%
 
   * **[!UICONTROL Bulksheets]**：新しい[!UICONTROL Bulksheets] ビューを開きます。
 
-  * **[!UICONTROL Label Classification]**&#x200B;新しい[!UICONTROL Label Classifications] ビューを開きます。 分類を管理し、新しいUIで使用可能な該当するアカウントコンポーネントに分類値を割り当て/割り当て解除できます。
+  * **[!UICONTROL Label Classification]**&#x200B;新しいビューを開き、分類を管理し、新しいUIで使用可能な該当するアカウントコンポーネントに分類値を割り当て/割り当て解除します。
 
-  * **[!UICONTROL Manager Accounts]**：既存のマネージャーアカウントと広告ネットワークの新しいビューを開きます。 マネージャーアカウントを管理するには、従来の[!UICONTROL Admin] > [!UICONTROL Manager Accounts] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+  * **[!UICONTROL Manager Accounts]**：広告ネットワーク上のマネージャーアカウントを一覧表示および管理するための新しいビューを開きます。
 
 * **[!UICONTROL Goals]** サブメニュー：
 
-  * **[!UICONTROL Objectives]**&#x200B;新しい[!UICONTROL Objectives] ビューを開きます。このビューから、既存のすべての目標を表示したり、目標を作成、編集、削除したりできます。
+  * **[!UICONTROL Objectives]**&#x200B;新しいビューを開きます。このビューから、既存のすべての目標を表示したり、目標を作成、編集、削除したりできます。
 
   * **[!UICONTROL Conversions]**&#x200B;新しいビューを開きます。このビューから、広告主のコンバージョン指標を表示し、管理ビューとレポートで使用できる指標をカスタマイズできます。
 
-  * **[!UICONTROL Conversion Value Rules]** [!DNL Google Ads] アカウントのキャンペーンレベルおよびアカウントレベルのコンバージョン値ルールを表示および管理するための新しいビューを開きます。
+  * **[!UICONTROL Conversion Value Rules]** [!DNL Google Ads] アカウントのキャンペーンレベルおよびアカウントレベルのコンバージョン値ルールを一覧表示および管理するための新しいビューを開きます。
 
-  * **[!UICONTROL Constraints]**&#x200B;既存の制約の読み取り専用ビューを開きます。 制約を管理するには、従来の[!UICONTROL Optimization] > [!UICONTROL Constraints] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+  * **[!UICONTROL Constraints]**&#x200B;入札制約を一覧表示および管理するための新しいビューを開きます。
 
 * **[!UICONTROL Targeting]** サブメニュー：
 
-  * **[!UICONTROL Audiences]**：広告主の既存のオーディエンス、すべてのオーディエンスターゲット、およびすべてのオーディエンス除外を表示する新しいビューを開きます。 オーディエンスを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Audiences] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+  * **[!UICONTROL Audiences]**：広告主、すべてのオーディエンス ターゲット、およびすべてのオーディエンス除外のオーディエンスを管理するための新しいビューを開きます。
 
   * **[!UICONTROL Auto Targets]**&#x200B;新しいビューを開きます。このビューには、広告主の既存の自動ターゲットがすべて表示されます。 自動ターゲットを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Auto Targets] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 
-  * **[!UICONTROL Placements]**&#x200B;新しい[!UICONTROL Placements] ビューを開きます。このビューには、広告主の既存のプレースメントと負のプレースメントが表示されます。 選択したプレースメントの制約の割り当てを管理できます。
-
-    プレースメントと負のプレースメントを作成、編集、削除するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+  * **[!UICONTROL Placements]**&#x200B;広告主のプレースメントと負のプレースメントを一覧表示および管理するための新しいビューを開きます。
 
 * **[!UICONTROL Library]** サブメニュー：
 
-  * **[!UICONTROL Assets]**&#x200B;既存のクリエイティブアセットを一覧表示する新しいビューを開きます。 各クリエイティブをプレビューできます。 アセットライブラリを管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Asset Library] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+  * **[!UICONTROL Assets]** クリエイティブアセットを一覧表示および管理するための新しいビューを開きます。
 
-  * **[!UICONTROL Extensions]**&#x200B;既存の広告拡張機能の読み取り専用ビューを開きます。 拡張機能を管理するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Campaigns] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
+  * **[!UICONTROL Extensions]** コールアウト拡張機能、サイトリンク拡張機能、広告拡張機能とアカウントエンティティ間の関連付けを一覧表示および管理するためのタブを含む新しいビューを開きます。
 
   * **[!UICONTROL Products]**&#x200B;既存のマーチャント センターのアカウントと製品の読み取り専用ビューを開きます。 マーチャント センターのアカウントを追加するには、従来の[!UICONTROL Campaigns] > [!UICONTROL Products] ビューを使用します。 [[!UICONTROL Switch to Old UI] ボタン &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)をクリックして、従来のユーザーインターフェイスに戻ります。
 

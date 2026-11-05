@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: edf008b5ac23852101d29361110773030f1a2f81
+source-git-commit: fd18dc1423269ce0238826318f58cfcfdce1bce1
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2440'
 ht-degree: 2%
 ---
 # Adobe Advertising Search, Social &amp; Commerce ガイド {#search-social-commerce}
@@ -254,10 +254,18 @@ ht-degree: 2%
     + [コンバージョン値ルールの管理 [!DNL Google Ads] 件](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
     + [検索入札単位の制約の管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
   + ターゲティング {#targeting}
+    + オーディエンス {#audiences-new-ui}
+      + [オーディエンスの管理](/help/search-social-commerce/new-ui/targeting/audiences/audience-manage.md)
+      + [キャンペーンと広告グループのオーディエンスターゲットの管理](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md)
+      + [キャンペーンと広告グループのオーディエンス除外の管理](/help/search-social-commerce/new-ui/targeting/audiences/audience-exclusions.md)
     + [&#x200B; [!DNL Google Ads] 動的検索ターゲットの管理](/help/search-social-commerce/new-ui/targeting/dynamic-search-target-manage.md)
     + [プレースメントの管理](/help/search-social-commerce/new-ui/targeting/placement-manage.md)
   + Library {#library}
     + [クリエイティブアセットの表示と作成](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)
+    + 拡張機能 {#extensions-new-ui}
+      + [共有サイトリンク拡張機能を管理](/help/search-social-commerce/new-ui/library/extensions/sitelink-extension-manage.md)
+      + [&#x200B; [!DNL Google Ads] 共有コールアウト拡張機能の管理](/help/search-social-commerce/new-ui/library/extensions/callout-extension-manage.md)
+      + [広告の拡張機能の関連付けを管理](/help/search-social-commerce/new-ui/library/extensions/ad-extension-association-manage.md)
   + [カスタムアラートの管理](/help/search-social-commerce/new-ui/alerts-manage.md)
   + [通知の管理](/help/search-social-commerce/new-ui/notifications-manage.md)
   + [ユーザー管理](/help/search-social-commerce/new-ui/user-administration.md)
