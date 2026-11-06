@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '173'
 ht-degree: 0%
 ---
 # レポートテンプレートの作成
 
-任意のタイプのパフォーマンスレポート用に、複数のレポートテンプレートを保存できます。 テンプレートを初めて作成することも、既存のテンプレートをベースにすることもできます。 一度に最大100個のテンプレートを管理できます。
+任意のタイプのパフォーマンスレポート用に、複数のレポートテンプレートを保存できます。 新しい設定を使用してテンプレートを作成したり、既存のテンプレートをベースにしたりできます。 一度に最大100個のテンプレートを管理できます。
 
-* テンプレートをゼロから作成するには、次のいずれかの操作を行います。
+* 新しい設定でテンプレートを作成するには、次のいずれかの操作を行います。
 
   * 「[!UICONTROL Reports]」タブからレポートを作成し、レポート名の横にある&#x200B;**[!UICONTROL Save as template]**&#x200B;の横にあるチェックボックスを選択します。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; レポートテンプレートについて](template-about.md)
->* [&#x200B; レポートテンプレートを編集](template-edit.md)
->* [&#x200B; レポートテンプレートを表示](template-view.md)
->* [&#x200B; レポートテンプレートを削除](template-delete.md)
+>* [ レポートテンプレートについて](template-about.md)
+>* [ レポートテンプレートを編集](template-edit.md)
+>* [ レポートテンプレートを表示](template-view.md)
+>* [ レポートテンプレートを削除](template-delete.md)

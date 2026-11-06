@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
     internal-label: DSP Audiences
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 0%
@@ -63,9 +63,9 @@ AIを活用したオーディエンスエージェントを使用して、記載
 
    AI オプションがデフォルトです。 [自分でオーディエンスを組み立てる](/help/dsp/audiences/reusable-audience-create.md)には、下部にある「手動モードに切り替える」ボタンをクリックします。
 
-   1. 含めたり除外したりするオーディエンス特性を説明する1つ以上のプロンプトを入力します。 各プロンプトを送信するには、![&#x200B; プロンプトを送信](/help/dsp/assets/submit-prompt.png " プロンプトを送信")をクリックします。
+   1. 含めたり除外したりするオーディエンス特性を説明する1つ以上のプロンプトを入力します。 各プロンプトを送信するには、![ プロンプトを送信](/help/dsp/assets/submit-prompt.png " プロンプトを送信")をクリックします。
 
-      詳しくは、「[&#x200B; プロンプトの作成](#writing-prompts)」および「[&#x200B; オーディエンス概要の作成に関するベストプラクティス &#x200B;](#audience-brief-best-practices)」を参照してください。
+      詳しくは、「[ プロンプトの作成](#writing-prompts)」および「[ オーディエンス概要の作成に関するベストプラクティス ](#audience-brief-best-practices)」を参照してください。
 
       該当する場合、担当者は、より効果的なオーディエンス概要の作成に役立つ追加のセグメントフィルターを提案します。 提案を承認または却下できます。
 
@@ -83,7 +83,7 @@ AIを活用したオーディエンスエージェントを使用して、記載
 
    >[!NOTE]
    >
-   >Audience Agentを使用して後でオーディエンスを編集することはできません。 代わりに、[&#x200B; オーディエンス式を手動で編集します](/help/dsp/audiences/reusable-audience-edit.md)。
+   >Audience Agentを使用して後でオーディエンスを編集することはできません。 代わりに、[ オーディエンス式を手動で編集します](/help/dsp/audiences/reusable-audience-edit.md)。
 
 ## プロンプトの作成の基本 {#writing-prompts}
 
@@ -111,14 +111,14 @@ AIを活用したオーディエンスエージェントを使用して、記載
 
   オーディエンスエージェントは、生成されたオーディエンス式をオーディエンスとして自動的に保存しません。 オーディエンスを保存するには、プロンプトエリアの外にある[!UICONTROL Create] ボタンをクリックする必要があるので、保存しない変更を取り消すことができます。
 
-オーディエンスのプロンプトを最適化する方法について詳しくは、「[&#x200B; オーディエンス概要の作成に関するベストプラクティス &#x200B;](#audience-brief-best-practices)」を参照してください。
+オーディエンスのプロンプトを最適化する方法について詳しくは、「[ オーディエンス概要の作成に関するベストプラクティス ](#audience-brief-best-practices)」を参照してください。
 
 <!--
 Consider starting by asking for what you should include.
 
 you can give thumbs up or down to [what exactly?].
 
-Verify what info is carried over from session to session and what starts from scratch.
+Verify what info is carried over from session to session and what is reset for each new session.
 
 -->
 
