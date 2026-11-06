@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!UICONTROL Simulations] ビュー](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)からカスタムシミュレーションを[作成または再実行することもできます。
+>[!UICONTROL Simulations] ビュー[&#128279;](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)からカスタムシミュレーションを作成または再実行することもできます。
 
 ## カスタムシミュレーションの実行 {#run-simulation}
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    * ポートフォリオの横にあるチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL More]>[!UICONTROL Run Simulation]**&#x200B;をクリックします。
 
-1. [ カスタムシミュレーション設定](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md#custom-simulation-settings)を指定します。
+1. [&#x200B; カスタムシミュレーション設定](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md#custom-simulation-settings)を指定します。
 
    1. 「**[!UICONTROL Basic Settings]**」タブで、一意の&#x200B;**[!UICONTROL Simulation Name]**&#x200B;を入力し、必要に応じて基本パラメーターを変更します。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Submit & Run]**&#x200B;をクリックします。
 
-リクエストが送信され、[!UICONTROL Simulations] ビューが開きます。 シミュレーションが正常に完了したら、[ ダウンロードできます](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)。
+リクエストが送信され、[!UICONTROL Simulations] ビューが開きます。 シミュレーションが正常に完了したら、[&#x200B; ダウンロードできます](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)。
 
 ## 週次シミュレーションのダウンロード {#download-simulations}
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
->* [ ポートフォリオについて](portfolio-about.md)
->* [ カスタムシミュレーションの実行または再実行](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
->* [ シミュレーションのダウンロード ](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+>* [&#x200B; （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
+>* [&#x200B; ポートフォリオについて](portfolio-about.md)
+>* [&#x200B; カスタムシミュレーションの実行または再実行](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+>* [&#x200B; シミュレーションのダウンロード &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)

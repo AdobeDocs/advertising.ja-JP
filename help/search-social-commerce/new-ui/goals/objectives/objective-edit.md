@@ -30,7 +30,7 @@ ht-degree: 0%
 
 *Beta機能*
 
-元のオブジェクトを編集せずに、同じ設定で新しいオブジェクトを作成するには、[ オブジェクトを複製](objective-create.md#objective-duplicate)します。
+元のオブジェクトを編集せずに、同じ設定で新しいオブジェクトを作成するには、[&#x200B; オブジェクトを複製](objective-create.md#objective-duplicate)します。
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;をクリックします。
 
@@ -54,4 +54,4 @@ ht-degree: 0%
 >* [目標に重み付けの推奨事項を適用](objective-apply-weight-recommendations.md)
 >* [目標の設定](objective-settings.md)
 >* [目的の設定を書き出し](objective-export.md)
->* [目的のパフォーマンスデータをダウンロード ](objective-download-performance-data.md)
+>* [目的のパフォーマンスデータをダウンロード &#x200B;](objective-download-performance-data.md)

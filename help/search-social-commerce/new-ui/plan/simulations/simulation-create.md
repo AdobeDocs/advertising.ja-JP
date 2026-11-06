@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 新しいシミュレーションの作成 {#simulation-create}
 
-[!UICONTROL Simulations] ビューから開始するか、[ カスタムシミュレーションを[!UICONTROL Portfolios] ビュー](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#run-simulation)から実行できます。
+[!UICONTROL Simulations] ビューから開始するか、[&#x200B; カスタムシミュレーションを[!UICONTROL Portfolios] ビュー](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#run-simulation)から実行できます。
 
 1. メインメニューで、**[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;をクリックします。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    1. **[!UICONTROL Proceed]**&#x200B;をクリックします。
 
-1. [ カスタムシミュレーション設定](#custom-simulation-settings)を指定します。
+1. [&#x200B; カスタムシミュレーション設定](#custom-simulation-settings)を指定します。
 
    1. （オプション）シミュレーションに使用するポートフォリオを変更するには、ポートフォリオ名の横にある&#x200B;**[!UICONTROL Change Portfolio]**&#x200B;をクリックし、ポートフォリオを選択してから&#x200B;**[!UICONTROL Proceed]**&#x200B;をクリックします。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Submit & Run]**&#x200B;をクリックします。
 
-リクエストが送信され、[!UICONTROL Simulations] ビューが開きます。 シミュレーションレポートが使用可能になると、指定した他の電子メール受信者は、ダウンロードリンク付きの通知を受け取ります。 [!UICONTROL Simulations] ビュー](simulation-download.md)からシミュレーションを[ ダウンロードすることもできます。
+リクエストが送信され、[!UICONTROL Simulations] ビューが開きます。 シミュレーションレポートが使用可能になると、指定した他の電子メール受信者は、ダウンロードリンク付きの通知を受け取ります。 [!UICONTROL Simulations] ビュー[&#128279;](simulation-download.md)からシミュレーションを ダウンロードすることもできます。
 
 <!-- Still true:  When the results for any report type include more than 60,000 rows, the workbook includes multiple worksheets. -->
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 1. データテーブルの上で、**[!UICONTROL Run Simulation]**&#x200B;をクリックします。
 
-1. 一意の&#x200B;**[!UICONTROL Simulation Name]**&#x200B;を含む[ カスタムシミュレーション設定](#custom-simulation-settings)を指定します。 必要に応じて、**[!UICONTROL Basic Settings]** タブと&#x200B;**[!UICONTROL Advanced Settings]** タブのパラメーターを変更します。
+1. 一意の&#x200B;**[!UICONTROL Simulation Name]**&#x200B;を含む[&#x200B; カスタムシミュレーション設定](#custom-simulation-settings)を指定します。 必要に応じて、**[!UICONTROL Basic Settings]** タブと&#x200B;**[!UICONTROL Advanced Settings]** タブのパラメーターを変更します。
 
 1. **[!UICONTROL Next]**&#x200B;をクリックします。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Submit & Run]**&#x200B;をクリックします。
 
-リクエストが送信され、[!UICONTROL Simulations] ビューが開きます。 シミュレーションが正常に完了したら、[ ダウンロードできます](simulation-download.md)。
+リクエストが送信され、[!UICONTROL Simulations] ビューが開きます。 シミュレーションが正常に完了したら、[&#x200B; ダウンロードできます](simulation-download.md)。
 
 ## カスタムシミュレーション設定 {#custom-simulation-settings}
 
@@ -122,6 +122,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ シミュレーションについて](simulation-about.md)
->* [ シミュレーションの詳細を表示](simulation-view.md)
->* [ シミュレーションのダウンロード ](simulation-download.md)
+>* [&#x200B; シミュレーションについて](simulation-about.md)
+>* [&#x200B; シミュレーションの詳細を表示](simulation-view.md)
+>* [&#x200B; シミュレーションのダウンロード &#x200B;](simulation-download.md)
