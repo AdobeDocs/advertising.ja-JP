@@ -1,6 +1,6 @@
 ---
 title: （新しいUI）目的の作成
-description: 目的の作成方法。
+description: 目的を作成する方法、または既存の目的を複製する方法を説明します。
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 21516197-d005-4703-8735-c789107dc3c4
@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '319'
 ht-degree: 0%
 ---
 # （新しいUI）目的の作成
@@ -41,6 +41,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >目標をポートフォリオに関連付けるには、[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)&#x200B; ポートフォリオを作成するか、[&#x200B; ポートフォリオ設定の変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)までに行います。 &#x200B;複数のポートフォリオに対して同じ目的を使用できます。
+
+## 目標の設定
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;をクリックします。
 
@@ -55,6 +57,32 @@ ht-degree: 0%
 1. 設定の下部にある「**[!UICONTROL Save]**」をクリックします。
 
 Advertising DSP パッケージで使用する目的の先頭に「`ADSP_`」を付けます（大文字と小文字は区別しません）。この目的は、2日以内にDSP内のカスタム目標として使用できます。
+
+## 目標の複製 {#objective-duplicate}
+
+目的を複製して、同じ設定で新しい目的を作成します。 オプションで、新しい目的のデフォルト名を変更し、必要に応じて目的の設定を編集できます。 当初の目的は変わりません。
+
+目標を複製するには、[!UICONTROL Edit Objectives]権限が必要です。 既定の[!UICONTROL Maximize Clicks] オブジェクトは複製できません。
+
+1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;をクリックします。
+
+1. 次のいずれかの操作を行います。
+
+   * 目的の行の上にカーソルを置き、**[!UICONTROL ...]>[!UICONTROL Duplicate]**&#x200B;をクリックします。
+
+   * 目的の横にあるチェックボックスをオンにします。 一括操作ツールバーで、![複製](/help/search-social-commerce/assets/duplicate.png "複製") **[!UICONTROL Duplicate]**&#x200B;をクリックします。
+
+     複数の目標が選択されている場合、[!UICONTROL Duplicate]は使用できません。
+
+1. 目的の設定を編集します。
+
+   デフォルトでは、新しい目的名は「Revenue_Copy」など、`<original objective name>_Copy`です。 元の名前が既に`_Copy`で終わっている場合、新しい名前には「Revenue_Copy （1）」などのカウンターが含まれます。 提案された名前が既に存在する場合は、一意の&#x200B;**[!UICONTROL Name]**&#x200B;を入力します。
+
+   手順については、検索、ソーシャル、およびCommerce内から入手できるユーザーインターフェイスまたは最適化ガイドのヘルプを参照してください。
+
+1. **[!UICONTROL Save]**&#x200B;をクリックします。
+
+   警告ダイアログが表示された場合は、警告を確認し、**[!UICONTROL Save]**&#x200B;をクリックして続行します。
 
 >[!MORELIKETHIS]
 >

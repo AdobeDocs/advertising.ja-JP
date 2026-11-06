@@ -21,14 +21,16 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '133'
 ht-degree: 0%
 ---
 # （新しいUI）目的の編集
 
 *Beta機能*
+
+元のオブジェクトを編集せずに、同じ設定で新しいオブジェクトを作成するには、[&#x200B; オブジェクトを複製](objective-create.md#objective-duplicate)します。
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;をクリックします。
 
@@ -42,7 +44,7 @@ ht-degree: 0%
 
    * 目的を保存するには、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-   * 指定した設定で新しい目標を作成するには、**[!UICONTROL Save As]**&#x200B;をクリックし、新しい目標の名前を入力してから、**[!UICONTROL Save]**&#x200B;をクリックします。
+   * 元のオブジェクトを変更せずに、指定した設定で新しいオブジェクトを作成するには、**[!UICONTROL Save as]**&#x200B;をクリックし、新しいオブジェクトの名前を入力してから、**[!UICONTROL Save]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >

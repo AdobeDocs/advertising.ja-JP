@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fd18dc1423269ce0238826318f58cfcfdce1bce1
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 2%
@@ -86,7 +86,7 @@ ht-degree: 2%
       + [ポートフォリオ名の変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)
       + [ポートフォリオのステータスの変更](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-change-status.md)
       + [Portfolioの設定](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
-      + [[!UICONTROL Portfolios] ビューからカスタムシミュレーションを実行します](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
+      + [[!UICONTROL Portfolios] ビューからシミュレーションを実行してダウンロードします](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
       + [[!UICONTROL Portfolios] ビューでのパフォーマンス グラフの表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
       + [ポートフォリオパフォーマンスの詳細の表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
       + [ポートフォリオの変更履歴の表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)

@@ -1,6 +1,6 @@
 ---
 title: シミュレーションのダウンロード
-description: スプレッドシート ファイルでシミュレーションをダウンロードする方法を説明します。
+description: シミュレーションを個別または結合されたスプレッドシート ファイルとしてダウンロードする方法について説明します。
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '242'
 ht-degree: 0%
 ---
 # シミュレーションのダウンロード
@@ -40,20 +40,31 @@ ht-degree: 0%
 
 *Beta機能*
 
-一度に複数のシミュレーション用のデータをZIP形式のファイルにダウンロードできます。 ファイルには、選択したシミュレーションごとに1つの[!DNL Microsoft Excel] ワークブック （XLSX ファイル）が含まれます。
+[!UICONTROL Simulations] ビューから、1回に最大10個の週単位またはカスタム シミュレーションをダウンロードできます。 1つのシミュレーションが[!DNL Microsoft Excel] ワークブック （XLSX ファイル）としてダウンロードされます。 複数のシミュレーションの場合は、1つの結合ワークブックまたは各シミュレーションごとに個別のワークブックを含むZIP ファイルをダウンロードできます。
+
+シミュレーションをダウンロードするには、[!UICONTROL View Simulation]権限を持つ[!UICONTROL Simulations] ビューにアクセスする必要があります。
 
 >[!NOTE]
 >
 >* [&#x200B; シミュレーション結果を画面で表示することもできます](simulation-view.md)。
 >* [追加の多くの指標とほとんどのシミュレーション設定の列を含めるように[!UICONTROL Simulations] ビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)をカスタマイズできます。 含めることができる列について詳しくは、「[&#x200B; シミュレーションについて](simulation-about.md#simulations-actions)」の「使用可能なアクション」の節を参照してください。
+>* [!UICONTROL Portfolios] ビュー[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations)から、最大100 ポートフォリオの週次シミュレーションを ダウンロードすることもできます。
 
 1. メインメニューで、**[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;をクリックします。
 
-1. ダウンロードするシミュレーションの横にあるチェックボックスをオンにします。
+1. ダウンロードする最大10個のシミュレーションの横にあるチェックボックスをオンにします。
 
-1. データテーブルの上にあるツールバーで、![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")**[!UICONTROL Simulation Report]**&#x200B;をクリックします。
+   ステータスが[!UICONTROL Successful]のシミュレーションのみを選択します。 選択したシミュレーションのステータスが[!UICONTROL Failed]、[!UICONTROL Queued]または[!UICONTROL In Progress]の場合、ダウンロードは開始されません。 ダウンロードする前に、これらの選択を消去します。
 
-   ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。 ZIP ファイルを解凍して、シミュレーションを表示します。
+1. データテーブルの上のツールバーで、**[!UICONTROL Download Simulation]**&#x200B;をクリックします。
+
+1. （複数のシミュレーションを選択した場合） ダウンロードオプションを選択します。
+
+   * **[!UICONTROL Download as Single File]**：選択したすべてのシミュレーションを含む1つのワークブックをダウンロードします。
+
+   * **[!UICONTROL Download as Multiple Files]**：選択したシミュレーションごとに個別のワークブックを含むZIP ファイルをダウンロードします。
+
+ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。 ZIP ファイルをダウンロードする場合は、ファイルを解凍してワークブックを表示します。
 
 >[!MORELIKETHIS]
 >
