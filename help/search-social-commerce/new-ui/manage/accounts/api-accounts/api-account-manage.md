@@ -20,7 +20,7 @@ ht-degree: 0%
 
 アカウントを作成、編集、または再認証するには、アカウントを編集する権限が必要です。
 
-各広告ネットワークで使用できる機能について詳しくは、「[ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 ## [!UICONTROL Accounts] ビューについて {#account-view-about}
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 次の列には、アカウントのステータス、認証およびアクセスの詳細が表示されます。
 
-* **[!UICONTROL Status]:** アカウントの操作ステータス。認証と権限とは別です。 有効なアカウントは、広告ネットワークとデータを同期し、サポートされているアカウント管理および最適化機能を使用できます。 無効なアカウントは、Search, Social, &amp; Commerce内のアクティビティを停止します。 アカウントのステータス表示では、**[!UICONTROL Enabled]**&#x200B;には緑色のインジケーター、**[!UICONTROL Disabled]**&#x200B;には赤色のインジケーター、**[!UICONTROL Pending]**&#x200B;にはオレンジ色のインジケーターが使用されます。 ビューまたはアカウント設定から[ アカウントを有効または無効にできます](#enable-disable-account)。
+* **[!UICONTROL Status]:** アカウントの操作ステータス。認証と権限とは別です。 有効なアカウントは、広告ネットワークとデータを同期し、サポートされているアカウント管理および最適化機能を使用できます。 無効なアカウントは、Search, Social, &amp; Commerce内のアクティビティを停止します。 アカウントのステータス表示では、**[!UICONTROL Enabled]**&#x200B;には緑色のインジケーター、**[!UICONTROL Disabled]**&#x200B;には赤色のインジケーター、**[!UICONTROL Pending]**&#x200B;にはオレンジ色のインジケーターが使用されます。 ビューまたはアカウント設定から[&#x200B; アカウントを有効または無効にできます](#enable-disable-account)。
 
 * **[!UICONTROL Authenticated]:** アカウントが認証されているかどうか：
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
   * **[!UICONTROL Expiring in N days]**、**[!UICONTROL Expiring today]**、または&#x200B;**[!UICONTROL Expired]:**&#x200B;有効期限に関する情報が利用可能で、トークンが14日以内に期限切れになったり、既に期限切れになったりすると、トークンの有効期限に関する警告が&#x200B;**[!UICONTROL Yes]**&#x200B;に置き換わります。 警告アイコンをクリックして、アカウントのアクセスの詳細と[再認証](#reauthenticate)を表示します。
 
-* **[!UICONTROL Manager Account for Cross-Account Conversions]:** （[!DNL Google Ads] アカウントのみ）クロスアカウントコンバージョンアップロードに使用される関連マネージャーアカウントのID。 マネージャーアカウントでエラーが発生すると、IDの横に警告アイコンが表示されます。 エラーを表示するには、アイコンの上にカーソルを置きます。 マネージャーアカウントの資格情報は、広告ネットワークアカウントの資格情報とは別です。 マネージャーアカウントの資格情報を追加または更新するには、**[!UICONTROL Setup]** > **[!UICONTROL Manager Accounts]**&#x200B;を使用します。 「[ マネージャーアカウントの管理](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)」を参照してください。
+* **[!UICONTROL Manager Account for Cross-Account Conversions]:** （[!DNL Google Ads] アカウントのみ）クロスアカウントコンバージョンアップロードに使用される関連マネージャーアカウントのID。 マネージャーアカウントでエラーが発生すると、IDの横に警告アイコンが表示されます。 エラーを表示するには、アイコンの上にカーソルを置きます。 マネージャーアカウントの資格情報は、広告ネットワークアカウントの資格情報とは別です。 マネージャーアカウントの資格情報を追加または更新するには、**[!UICONTROL Setup]** > **[!UICONTROL Manager Accounts]**&#x200B;を使用します。 「[&#x200B; マネージャーアカウントの管理](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)」を参照してください。
 
 * **[!UICONTROL Access Level]:** アクセス レベルの値が使用できない場合に、**[!UICONTROL Full]**、**[!UICONTROL Limited]**、**[!UICONTROL None]**&#x200B;または&#x200B;**[!UICONTROL Not Applicable]**&#x200B;などの報告されたアカウント アクセス レベル。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
    **[!UICONTROL Next]**&#x200B;をクリックして続行します。
 
-1. 使用可能な各タブで[ アカウント設定](#account-settings-api)を指定します。 ポップアップで認証されたアカウントの場合、**[!UICONTROL Select Accounts]** タブの&#x200B;**[!UICONTROL Linked Ad Accounts]**&#x200B;から同期するアカウントを選択します。
+1. 使用可能な各タブで[&#x200B; アカウント設定](#account-settings-api)を指定します。 ポップアップで認証されたアカウントの場合、**[!UICONTROL Select Accounts]** タブの&#x200B;**[!UICONTROL Linked Ad Accounts]**&#x200B;から同期するアカウントを選択します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 ## 広告ネットワークアカウントの詳細を編集 {#edit-account}
 
-アカウントのアクティビティを有効または無効にするには、アカウント全体でデフォルトのトラッキングパラメーターを変更するか、トラッキングとレポートに使用する[!DNL Analytics] レポートスイートを変更して、アカウントの詳細を編集します。 接続または権限を更新するには、アカウント設定または[!UICONTROL Accounts] ビューから[ アカウントを再認証できます](#reauthenticate)。
+アカウントのアクティビティを有効または無効にするには、アカウント全体でデフォルトのトラッキングパラメーターを変更するか、トラッキングとレポートに使用する[!DNL Analytics] レポートスイートを変更して、アカウントの詳細を編集します。 接続または権限を更新するには、アカウント設定または[!UICONTROL Accounts] ビューから[&#x200B; アカウントを再認証できます](#reauthenticate)。
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ ht-degree: 0%
 
    * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. 使用可能なタブで[ アカウント設定](#account-settings-api)を編集します。
+1. 使用可能なタブで[&#x200B; アカウント設定](#account-settings-api)を編集します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
    新しいアクセストークンは、再認証が成功すると自動的に保存されます。 他のアカウント設定も変更する場合は、**[!UICONTROL Save]**&#x200B;をクリックして変更を保存します。
 
-   [!DNL Meta Ads]の場合、情報メッセージは、再認証が成功した後に欠落している権限を識別します。 影響を受ける機能を特定するには、[ アクセスの詳細](#authentication-status)を確認してください。
+   [!DNL Meta Ads]の場合、情報メッセージは、再認証が成功した後に欠落している権限を識別します。 影響を受ける機能を特定するには、[&#x200B; アクセスの詳細](#authentication-status)を確認してください。
 
 ## 広告ネットワークアカウントを有効または無効にする {#enable-disable-account}
 
@@ -182,13 +182,13 @@ ht-degree: 0%
 
 1. 日付範囲を指定し、パフォーマンスを表示するアカウントのフィルターを適用します。
 
-1. データテーブルの上にある「![ グラフ ](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
+1. データテーブルの上にある「![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
 
 1. （オプション） **[!UICONTROL Currency]**&#x200B;と&#x200B;**[!UICONTROL Metrics]**&#x200B;を使用して、通貨と、チャートに含める最大3つの指標を指定します。
 
 ### 表示されているパフォーマンスグラフを非表示にする
 
-* データテーブルの上にある「![ グラフ ](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
+* データテーブルの上にある「![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
 
 ## [!UICONTROL Accounts] ビューからのデータビューレポートの管理 {#account-reports}
 
@@ -208,13 +208,13 @@ ht-degree: 0%
 
    * フィルタリングされたビュー内のすべてのアカウントのデータをダウンロードするには、すべてのチェックボックスをオフのままにします。
 
-1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. [!UICONTROL Grid Reports] ダイアログで、デフォルトの&#x200B;**[!UICONTROL Report Name]**&#x200B;を保持するか、別の名前を入力して、**[!UICONTROL Generate]**&#x200B;をクリックします。
 
    レポートが&#x200B;**[!UICONTROL Recently Generated]** リストに追加されました。
 
-1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -222,9 +222,9 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
 
-1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
-1. [!UICONTROL Grid Reports] ダイアログの&#x200B;**[!UICONTROL Recently Generated]** リストで、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. [!UICONTROL Grid Reports] ダイアログの&#x200B;**[!UICONTROL Recently Generated]** リストで、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
@@ -232,7 +232,7 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
 
-1. データテーブルの上にあるツールバーで、![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
 
 1. [!UICONTROL Grid Reports] ダイアログの&#x200B;**[!UICONTROL Recently Generated]** リストで、完了したレポートまたは生成に失敗したレポートの名前の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
 
@@ -322,7 +322,7 @@ ht-degree: 0%
 
 例：`param1=value1&param2=value2`
 
-Adobe Advertising クリック トラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック ID （[!DNL Microsoft Advertising]の`msclkid`; Googleの`gclid`）を含める必要があります。 Adobe Analyticsとの統合を持つアカウントでは、AMO ID パラメーター（`s_kwcid`で始まる）を使用する必要があります。 アカウントにサーバーサイド AMO ID実装がある場合、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、ここで手動で追加する必要があります。  [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の[必要なサフィックス形式を参照してください。
+Adobe Advertising クリック トラッキングを使用するアカウントでは、サフィックスに広告ネットワークのクリック ID （[!DNL Microsoft Advertising]の`msclkid`; Googleの`gclid`）を含める必要があります。 Adobe Analyticsとの統合を持つアカウントでは、AMO ID パラメーター（`s_kwcid`で始まる）を使用する必要があります。 アカウントにサーバーサイド AMO ID実装がある場合、ユーザーが広告をクリックするとパラメーターが自動的に追加されます。それ以外の場合は、ここで手動で追加する必要があります。  [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)の[必要なサフィックス形式と [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)の必要なサフィックス形式を参照してください。
 
 >[!NOTE]
 >
@@ -333,7 +333,7 @@ Adobe Advertising クリック トラッキングを使用するアカウント�
 
 * 最終的なURLを埋め込むには：
 
-  * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）を参照してください。
+  * （[!DNL Google Ads]および[!DNL Microsoft Advertising]のみ）トラッキングテンプレートの最終的なURLを示すパラメーターのリストについては、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーター（[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）を参照してください。
 
   * （[!DNL LY Ads]のみ） パラメーター`!{lpurl}`を使用して、ランディングページ URLを示します。
 
@@ -362,5 +362,5 @@ Adobe Advertising クリック トラッキングを使用するアカウント�
 >[!MORELIKETHIS]
 >
 >* [広告ネットワークアカウントについて](../ad-network-account-about.md)
->* [ マーチャント センターのアカウントの管理](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
->* [ アカウント  [!DNL Google Ads] のs_kwcid トラッキングコードを更新します](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
+>* [&#x200B; マーチャント センターのアカウントの管理](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
+>* [&#x200B; アカウント  [!DNL Google Ads] のs_kwcid トラッキングコードを更新します](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
