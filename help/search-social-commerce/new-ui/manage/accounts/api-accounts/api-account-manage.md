@@ -9,19 +9,64 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
+source-git-commit: b568da9300e9adb8d189811c3c8b52516dfcef6f
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '3156'
 ht-degree: 0%
 ---
 # （新しいUI） API接続による広告ネットワークアカウントの管理
 
-<!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
-以下は、Search、Social、およびCommerceが広告ネットワークのAPIを使用して同期する広告ネットワークアカウントを管理する手順です。
+これらの手順では、認証、接続更新、ステータスチェックなど、APIを介してSearch、Social、およびCommerceが同期するアドネットワークアカウントを管理する方法について説明します。
 
-<!-- Move out info about Naver into a separate page -->
+アカウントを作成、編集、または再認証するには、アカウントを編集する権限が必要です。
 
 各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+
+## [!UICONTROL Accounts] ビューについて {#account-view-about}
+
+[!UICONTROL Manage] > [!UICONTROL Accounts] ビューには、選択した広告主アカウントのフィルタリングされたビュー内のすべての広告ネットワークアカウントが一覧表示されます。 アカウント名をクリックして、そのアカウント用にフィルタリングされた[!UICONTROL Campaigns] ビューを開きます。
+
+### アカウント認証とアクセスステータス {#authentication-status}
+
+認証とアクセスの詳細は、広告ネットワークとアカウントで利用可能な情報によって異なります。 有効または正常に認証されたアカウントには、引き続き権限が欠落している可能性があります。
+
+次の列には、アカウントのステータス、認証およびアクセスの詳細が表示されます。
+
+* **[!UICONTROL Status]:** アカウントの操作ステータス。認証と権限とは別です。 有効なアカウントは、広告ネットワークとデータを同期し、サポートされているアカウント管理および最適化機能を使用できます。 無効なアカウントは、Search, Social, &amp; Commerce内のアクティビティを停止します。 アカウントのステータス表示では、**[!UICONTROL Enabled]**&#x200B;には緑色のインジケーター、**[!UICONTROL Disabled]**&#x200B;には赤色のインジケーター、**[!UICONTROL Pending]**&#x200B;にはオレンジ色のインジケーターが使用されます。 ビューまたはアカウント設定から[&#x200B; アカウントを有効または無効にできます](#enable-disable-account)。
+
+* **[!UICONTROL Authenticated]:** アカウントが認証されているかどうか：
+
+  * **[!UICONTROL Yes]:** アカウントが認証されました。
+
+  * **[!UICONTROL No]:** アカウントが認証されていません。 認証エラーが使用可能な場合は、赤い警告アイコンの上にカーソルを置くと、エラーが表示されます。
+
+  * **[!UICONTROL Not Applicable]:**&#x200B;認証は、APIを介して接続するのではなく、アカウントのデータをアップロードするため、適用されません。
+
+  * **[!UICONTROL Expiring in N days]**、**[!UICONTROL Expiring today]**、または&#x200B;**[!UICONTROL Expired]:**&#x200B;有効期限に関する情報が利用可能で、トークンが14日以内に期限切れになったり、既に期限切れになったりすると、トークンの有効期限に関する警告が&#x200B;**[!UICONTROL Yes]**&#x200B;に置き換わります。 警告アイコンをクリックして、アカウントのアクセスの詳細と[再認証](#reauthenticate)を表示します。
+
+* **[!UICONTROL Manager Account for Cross-Account Conversions]:** （[!DNL Google Ads] アカウントのみ）クロスアカウントコンバージョンアップロードに使用される関連マネージャーアカウントのID。 マネージャーアカウントでエラーが発生すると、IDの横に警告アイコンが表示されます。 エラーを表示するには、アイコンの上にカーソルを置きます。 マネージャーアカウントの資格情報は、広告ネットワークアカウントの資格情報とは別です。 マネージャーアカウントの資格情報を追加または更新するには、**[!UICONTROL Setup]** > **[!UICONTROL Manager Accounts]**&#x200B;を使用します。 「[&#x200B; マネージャーアカウントの管理](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)」を参照してください。
+
+* **[!UICONTROL Access Level]:** アクセス レベルの値が使用できない場合に、**[!UICONTROL Full]**、**[!UICONTROL Limited]**、**[!UICONTROL None]**&#x200B;または&#x200B;**[!UICONTROL Not Applicable]**&#x200B;などの報告されたアカウント アクセス レベル。
+
+  権限がない場合は、警告アイコンをクリックして、アカウントのアクセスの詳細を表示します。 **[!UICONTROL Access]** セクションには、権限が&#x200B;**[!UICONTROL Granted]**&#x200B;または&#x200B;**[!UICONTROL Missing]**&#x200B;として一覧表示されます。 影響の詳細が使用可能な場合、**[!UICONTROL Not working]** セクションには、影響を受ける機能が一覧表示されます。 [再認証](#reauthenticate)して権限を更新するには、**[!UICONTROL Update Access]**&#x200B;をクリックします。
+
+### 使用可能なアクション
+
+使用可能なアクションは、権限とアカウントタイプによって異なります。
+
+* [広告ネットワークアカウントの詳細の作成](#create-account)
+
+* [広告ネットワークアカウントの詳細を編集](#edit-account)
+
+* [広告ネットワークアカウントの再認証](#reauthenticate)
+
+* [広告ネットワークアカウントを有効または無効にする](#enable-disable-account)
+
+* [アカウントデータを広告ネットワークと同期する](sync-api-accounts.md)
+
+* [[!UICONTROL Accounts] ビューでのパフォーマンス グラフの表示](#account-performance-graph)
+
+* [[!UICONTROL Accounts] ビューからのデータビューレポートの管理](#account-reports)
 
 ## 広告ネットワークアカウントの詳細の作成 {#create-account}
 
@@ -35,11 +80,17 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create Account]**&#x200B;をクリックします。
 
-1. 広告ネットワークの名前をクリックし、**[!UICONTROL Next]**&#x200B;をクリックします。
+1. 広告ネットワークの名前をクリックして、アカウント設定を開きます。
 
-1. （広告主の資格情報を使用して広告ネットワークにログインします（[!DNL ChatGPT Ads]と[!DNL Yandex]を除くすべての広告ネットワーク）。 「このアカウントのアカウントトラッキング」オプションを選択します。 次に、右上の「**[!UICONTROL Next]**」をクリックします。
+1. （[!DNL ChatGPT Ads]と[!DNL Yandex]を除くすべての広告ネットワーク）「**[!UICONTROL Authenticate]**」タブで、広告主の資格情報を使用してポップアップウィンドウでサインインを完了し、要求されたアカウントアクセスを許可します。
 
-1. 使用可能な各タブで[&#x200B; アカウント設定](#account-settings-api)を指定します。
+   セットアップ画面は自動的に更新され、認証が成功すると&#x200B;**[!UICONTROL Authentication Successful]**&#x200B;と表示されます。 ログインウィンドウを再度開く必要がある場合は、**[!UICONTROL Open login again]**&#x200B;をクリックします。 ブラウザーがウィンドウをブロックする場合は、ブラウザーの設定を編集して、サイトのポップアップを許可します。
+
+   [!DNL Meta Ads]の場合、欠落している権限とその影響を警告で特定します。 認証が成功したからといって、必ずしもすべての要求された権限が付与されたとは限りません。
+
+   **[!UICONTROL Next]**&#x200B;をクリックして続行します。
+
+1. 使用可能な各タブで[&#x200B; アカウント設定](#account-settings-api)を指定します。 ポップアップで認証されたアカウントの場合、**[!UICONTROL Select Accounts]** タブの&#x200B;**[!UICONTROL Linked Ad Accounts]**&#x200B;から同期するアカウントを選択します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -47,7 +98,7 @@ ht-degree: 0%
 
 ## 広告ネットワークアカウントの詳細を編集 {#edit-account}
 
-アカウント設定を再認証して接続を更新したり、権限を更新したり、アカウントのアクティビティを有効または無効にしたり、アカウント全体のデフォルトのトラッキングパラメーターを変更したり、トラッキングとレポートに使用する[!DNL Analytics] レポートスイートを変更したりするには、アカウントの詳細を編集します。
+アカウントのアクティビティを有効または無効にするには、アカウント全体でデフォルトのトラッキングパラメーターを変更するか、トラッキングとレポートに使用する[!DNL Analytics] レポートスイートを変更して、アカウントの詳細を編集します。 接続または権限を更新するには、アカウント設定または[!UICONTROL Accounts] ビューから[&#x200B; アカウントを再認証できます](#reauthenticate)。
 
 >[!NOTE]
 >
@@ -71,7 +122,7 @@ ht-degree: 0%
 
 ## 広告ネットワークアカウントの再認証 {#reauthenticate}
 
-*該当しない[!DNL ChatGPT Ads] アカウント*
+*ポップアップ認証を使用するアカウントの場合。[!DNL ChatGPT Ads]または[!DNL Yandex] アカウントには適用できません*
 
 アカウントの広告ネットワーク接続を更新したり、権限を更新したりするには、アカウントを再認証します。
 
@@ -79,17 +130,21 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
 
-<!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
+1. 次のいずれかの方法で認証を開きます。
 
-1. 次のいずれかの方法でアカウントを選択します。
+   * （アカウントの&#x200B;**[!UICONTROL Authenticated]**&#x200B;値が&#x200B;**[!UICONTROL No]**&#x200B;の場合）アカウント名にカーソルを合わせ、**...**&#x200B;をクリックし、使用可能な場合は&#x200B;**[!UICONTROL Re authenticate]**&#x200B;をクリックします。
 
-   * アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Edit]**」をクリックします。
+   * （トークンの有効期限に関する警告が表示された場合） **[!UICONTROL Authenticated]**&#x200B;列の警告アイコンをクリックし、**[!UICONTROL Reauthenticate]**&#x200B;をクリックします。
 
-   * アカウント名の上にカーソルを置き、**...**&#x200B;をクリックしてから、**[!UICONTROL Edit]**&#x200B;をクリックします。
+   * （権限がない場合） **[!UICONTROL Access Level]**&#x200B;列の警告アイコンをクリックし、**[!UICONTROL Update Access]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL Account Details]**」タブで「**[!UICONTROL Re authenticate]**」をクリックし、広告主の資格情報を使用して広告ネットワークにログインします。
+   * （アカウント設定から）アカウント名の横にあるチェックボックスを選択し、一括アクションツールバーの&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックするか、アカウント名にカーソルを合わせたまま、**...**&#x200B;をクリックし、**[!UICONTROL Edit]**&#x200B;をクリックします。 **[!UICONTROL Account Details]** タブの&#x200B;**[!UICONTROL Account Authentication]**&#x200B;で、**[!UICONTROL Re authenticate]**&#x200B;をクリックします。
 
-1. **[!UICONTROL Save]**&#x200B;をクリックします。
+1. 広告主の資格情報を使用してポップアップウィンドウでサインインを完了し、要求されたアカウントアクセスを許可します。
+
+   新しいアクセストークンは、再認証が成功すると自動的に保存されます。 他のアカウント設定も変更する場合は、**[!UICONTROL Save]**&#x200B;をクリックして変更を保存します。
+
+   [!DNL Meta Ads]の場合、情報メッセージは、再認証が成功した後に欠落している権限を識別します。 影響を受ける機能を特定するには、[&#x200B; アクセスの詳細](#authentication-status)を確認してください。
 
 ## 広告ネットワークアカウントを有効または無効にする {#enable-disable-account}
 
@@ -101,9 +156,9 @@ ht-degree: 0%
 
    * （[!UICONTROL Accounts] ビューから）:
 
-     * （アカウントを有効にするには） アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Activate]**」をクリックします。
+     * （アカウントを有効にするには） アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Enable]**」をクリックします。
 
-     * （アカウントを無効にするには） アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Pause]**」をクリックします。
+     * （アカウントを無効にするには） アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Disable]**」をクリックします。
 
    * （アカウント設定から）:
 
@@ -113,20 +168,83 @@ ht-degree: 0%
 
         * アカウント名の横にあるチェックボックスを選択し、一括操作ツールバーの「**[!UICONTROL Edit]**」をクリックします。
 
-     1. 「**[!UICONTROL Account Details]**」タブで「**[!UICONTROL Account enabled]**」をオフにします。
+     1. 「**[!UICONTROL Account Details]**」タブで、**[!UICONTROL Account Enabled]**&#x200B;をオンにしてアカウントを有効にするか、オフにしてアカウントを無効にします。
 
      1. **[!UICONTROL Save]**&#x200B;をクリックします。
+
+## [!UICONTROL Accounts] ビューでのパフォーマンス グラフの表示 {#account-performance-graph}
+
+指定した日付範囲と通貨のフィルタービューで、アカウント間で合計される最大3つの指標を含むパフォーマンスグラフを開いて設定します。
+
+### パフォーマンスグラフを表示
+
+1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
+
+1. 日付範囲を指定し、パフォーマンスを表示するアカウントのフィルターを適用します。
+
+1. データテーブルの上にある「![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
+
+1. （オプション） **[!UICONTROL Currency]**&#x200B;と&#x200B;**[!UICONTROL Metrics]**&#x200B;を使用して、通貨と、チャートに含める最大3つの指標を指定します。
+
+### 表示されているパフォーマンスグラフを非表示にする
+
+* データテーブルの上にある「![&#x200B; グラフ &#x200B;](/help/search-social-commerce/assets/charts.png " グラフ ")」をクリックします。
+
+## [!UICONTROL Accounts] ビューからのデータビューレポートの管理 {#account-reports}
+
+[!UICONTROL Accounts] ビューの1つ以上のアカウントのデータ行を含むレポートを生成し、レポートをMicrosoft Excel ワークシート ファイル （XLSX形式）としてダウンロードします。 レポートには、指定した日付範囲のビューに表示される列が含まれます。
+
+生成に失敗した完了レポートとレポートを削除できます。
+
+### フィルタリングされたデータ行を含むレポートを生成する
+
+1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
+
+1. 日付範囲を指定し、ダウンロードするデータのフィルターを適用します。
+
+1. データをダウンロードするアカウントを指定します。
+
+   * 特定のアカウントのデータをダウンロードするには、アカウントの横にあるチェックボックスをオンにします。
+
+   * フィルタリングされたビュー内のすべてのアカウントのデータをダウンロードするには、すべてのチェックボックスをオフのままにします。
+
+1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+
+1. [!UICONTROL Grid Reports] ダイアログで、デフォルトの&#x200B;**[!UICONTROL Report Name]**&#x200B;を保持するか、別の名前を入力して、**[!UICONTROL Generate]**&#x200B;をクリックします。
+
+   レポートが&#x200B;**[!UICONTROL Recently Generated]** リストに追加されました。
+
+1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+
+   ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
+
+### 完成したレポートをダウンロード
+
+1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
+
+1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+
+1. [!UICONTROL Grid Reports] ダイアログの&#x200B;**[!UICONTROL Recently Generated]** リストで、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+
+   ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
+
+### レポートの削除
+
+1. メインメニューで、**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;をクリックします。
+
+1. データテーブルの上にあるツールバーで、![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ") **[!UICONTROL Reports]**&#x200B;をクリックします。
+
+1. [!UICONTROL Grid Reports] ダイアログの&#x200B;**[!UICONTROL Recently Generated]** リストで、完了したレポートまたは生成に失敗したレポートの名前の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
+
+1. 削除を確認します。
 
 ## 広告ネットワークアカウント設定 {#account-settings-api}
 
 アカウント設定は広告ネットワークによって異なります。 以下のすべての設定が表示されない場合があります。
 
-<!--
- When you're creating new accounts only; not sure that you'll have anything to do here once you've authenticated
+### [!UICONTROL Authenticate] タブ
 
-### Authenticate tab
-
--->
+（ポップアップ認証を使用するアカウントの作成中に表示）広告主の資格情報を使用して広告ネットワークに接続します。 タブには接続ステータスが表示され、ログインポップアップを再度開くための&#x200B;**[!UICONTROL Open login again]**&#x200B;が含まれています。
 
 ### [!UICONTROL Select Accounts]/[!UICONTROL Account Details] タブ
 
@@ -136,7 +254,7 @@ ht-degree: 0%
 >
 >Search、Social、CommerceとAdobe Analyticsの統合があり、検索アカウントの名前を変更した場合は、Adobe アカウントチームにマッピングを更新するように依頼します。
 
-**[!DNL [Ad Network] アカウント &#x200B;]:** （アカウント作成中に表示）同期する広告ネットワークアカウント。
+**[!UICONTROL Linked Ad Accounts]:** （ポップアップ認証を使用するアカウントの作成中に表示）同期する広告ネットワークアカウント。 ネットワークログインにリンクされている広告アカウントから選択します。
 
 **[ログインの詳細]:** （[!DNL Yandex] アカウントのみ）使用するアカウント資格情報：
 
@@ -150,7 +268,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Purse Campaign ID]:** （[!DNL Yandex] アカウント （共有アカウント設定が無効になっているアカウントのみ、オプション）アカウント内のすべての広告キャンペーンの支払いに使用されるキャンペーンの数値ID。
 
-* **[!UICONTROL Finance Token]:** （[!DNL Yandex] アカウントで、共有アカウント設定が無効になっている場合のみ、オプション）金融関連のAPI呼び出しに使用する開発者トークン。例えば、ポートフォリオの最適化に必要に応じて、広告主のキャンペーン間でウォレットから資金を再配分する場合などに使用します。
+* **[!UICONTROL Finance Token]:** （[!DNL Yandex] アカウントで、共有アカウント設定が無効になっている場合のみ、オプション）金融関連のAPI呼び出し（ポートフォリオ最適化のために広告主キャンペーン間で資金を再配分する場合など）用の開発者トークン。
 
 **[!UICONTROL Currency]:** （読み取り専用）アカウントに使用される通貨の略語。 この値は、レコードを保存すると、広告ネットワーク上のアカウントに設定された通貨で自動的に入力されます。
 
@@ -160,11 +278,13 @@ ht-degree: 0%
 
 **[!UICONTROL Account Synchronization and Management]> [!UICONTROL Account Enabled]:** Search, Social, &amp; Commerceは、キャンペーンデータをアカウントと（サポートされている場合）同期し、ポートフォリオ内のキャンペーンの自動入札やキャンペーン予算をプッシュします。
 
+**[!UICONTROL Account Authentication]> [!UICONTROL Re authenticate]:** （ポップアップ認証を使用するアカウントの編集中に表示）接続を更新するか、アカウント権限を更新します。 新しいアクセストークンは、再認証が成功すると自動的に保存されます。
+
 ## [!UICONTROL Setup Tracking] タブ
 
 <!-- This should be the name of the whole left side of options -- they're all enabled/disabled depending on whether you enable our tracking -->
 
-**[!UICONTROL Search, Social, & Commerce Tracking]:** トラッキングを有効にするかどうかをAdobe Advertising コンバージョントラッキングサービスを使用します。 この方法では、一意のクリックトラッキング IDを生成し、ユーザーをトラッキング目的でAdobe Advertising サーバーにリダイレクトしてから、クライアントのランディングページに送信します。 このメソッドには、オプションでカスタマイズできるデフォルトのトラッキングオプションがあり、各URLに追加するパラメーターを指定することもできます。
+**[!UICONTROL Search, Social, & Commerce Tracking]:** Adobe Advertising コンバージョントラッキングサービスを使用してトラッキングを有効にするかどうかを指定します。 この方法では、一意のクリックトラッキング IDを生成し、ユーザーをトラッキング目的でAdobe Advertising サーバーにリダイレクトしてから、クライアントのランディングページに送信します。 このメソッドには、オプションでカスタマイズできるデフォルトのトラッキングオプションがあり、各URLに追加するパラメーターを指定することもできます。
 
 この機能を有効にするには、**[トラッキングを有効にする]**&#x200B;をオンにします。
 
@@ -175,7 +295,7 @@ ht-degree: 0%
 
 **[!UICONTROL Tracking Type]:** （Search, Social, &amp; Commerce トラッキングが有効になっている場合）エンドユーザーを最終URLまたは宛先URLにリダイレクトする方法。 選択したオプションは、アカウントまたはキャンペーンのすべての入札単位に適用されます。 デフォルトのアカウントレベル設定は広告主のトラッキング設定から継承され、デフォルトのキャンペーンレベル設定はアカウント設定から継承されます。
 
-* *[!UICONTROL Standard]:* エンドユーザーを指定されたURLにリダイレクトするだけです。
+* *[!UICONTROL Standard]:* エンドユーザーを指定されたURLにリダイレクトします。
 
 * *[!UICONTROL Token]:* エンドユーザーをURLにリダイレクトし、クリック用の検索、ソーシャル、およびCommerce ID （`ef_id`）をクエリ文字列パラメーターとして記録します。このパラメーターはトークンとして使用されます。 オフラインのトランザクションをレポートする場合、Search、Social、およびCommerceでAdobe Analyticsとデータを交換する場合、または[!DNL Apple Safari] ブラウザー内で発生するすべてのコンバージョンをトラッキングする場合は、このオプションを選択します。
 
@@ -190,7 +310,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL Encoding]:** （Search, Social, &amp; Commerce トラッキングが有効になっている場合、リンク先URLを持つアカウントのみ） エンドユーザーのアドレスバー内のベース URLをエンコードします（`=`ではなく`%3D`など）。
 
-**[!UICONTROL Tracking Level]:** （Search, Social, &amp; Commerce トラッキングが有効になっている場合、アカウントレベルとキャンペーンレベルで利用可能です。並列トラッキングが有効になっている広告ネットワークには適用されません） クリックと収益をトラッキングするレベルは、リダイレクトを追加し（関連する場合）、関連するURLにパラメーターを追加することで追跡されます。
+**[!UICONTROL Tracking Level]:** （Search, Social, &amp; Commerce トラッキングが有効になっている場合、アカウントレベルとキャンペーンレベルで利用可能です。並列トラッキングが有効な広告ネットワークには適用されません） リダイレクトと追加パラメーターを関連URLに追加することで、クリックと収益をトラッキングするレベル：
 
 * *[!UICONTROL Keyword]:* キーワードレベルでのみデータを追跡します。 [!DNL Yandex]では利用できません。
 
@@ -225,7 +345,7 @@ Adobe Advertising クリック トラッキングを使用するアカウント�
 
 >[!NOTE]
 >
->* [!DNL Google Ads]の場合、並列追跡を有効にするソースからのクリックに代わらないマクロの使用を避けてください。 広告主がマクロを使用する必要がある場合、Adobe アカウントチームは、カスタマーサポートまたは実装チームと協力してマクロを追加する必要があります。
+>* [!DNL Google Ads]の場合、並列追跡を有効にするソースからのクリックに代わらないマクロの使用を避けてください。 広告主がマクロを使用する必要がある場合は、Adobe アカウントチームがカスタマーサポートまたは実装チームと協力してマクロを追加します。
 >* 最も詳細なレベルのトラッキングテンプレートは、より高いレベルのすべての値を上書きします。 例えば、アカウント設定とキーワード設定の両方に値が含まれている場合、キーワード値が適用されます。
 >* 広告、サイトリンク、またはキーワードレベルでトラッキングテンプレートを更新すると、関連する広告がレビュー用に再送信されます。 承認のために広告を再送信することなく、アカウントレベル、キャンペーンレベル、広告グループレベルでトラッキングテンプレートを更新できます。
 
