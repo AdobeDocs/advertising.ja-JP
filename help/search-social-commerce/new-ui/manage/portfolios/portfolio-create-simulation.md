@@ -13,9 +13,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
     internal-label: Search Simulations
-source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
+source-git-commit: 3e70998ad9547cecc0f3581d6cfd917051d549db
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '396'
 ht-degree: 0%
 ---
 # [!UICONTROL Portfolios] ビューからシミュレーションを実行してダウンロードします
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    * ポートフォリオの横にあるチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL More]>[!UICONTROL Run Simulation]**&#x200B;をクリックします。
 
-1. [&#x200B; カスタムシミュレーション設定](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md#custom-simulation-settings)を指定します。
+1. [&#x200B; カスタムシミュレーション設定](#custom-simulation-settings)を指定します。
 
    1. 「**[!UICONTROL Basic Settings]**」タブで、一意の&#x200B;**[!UICONTROL Simulation Name]**&#x200B;を入力し、必要に応じて基本パラメーターを変更します。
 
@@ -75,6 +75,10 @@ ht-degree: 0%
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。 完了メッセージは、ポートフォリオがいくつ含まれているかを示します。
 
 カスタムシミュレーションをダウンロードするか、毎週の個別のシミュレーションを選択するには、[[!UICONTROL Simulations] ビュー](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)を使用します。
+
+## カスタムシミュレーション設定 {#custom-simulation-settings}
+
+カスタムシミュレーション設定について詳しくは、Search, Social, &amp; Commerce内から入手できるOptimization Guideを参照してください。
 
 >[!MORELIKETHIS]
 >

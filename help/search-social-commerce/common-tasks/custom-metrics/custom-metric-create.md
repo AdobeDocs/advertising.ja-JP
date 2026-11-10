@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a2ff8c1115487f12eb67f6db06e25f723c551e80
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '265'
 ht-degree: 0%
 ---
 # カスタム指標の作成
 
 ## （新しいUI）管理ビューからカスタム指標を作成する
 
-*[!UICONTROL Simulations]、[!UICONTROL Portfolios]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups] ビューで利用可能*
+*ほとんどのエンティティ ビューで[!UICONTROL Manage] メニュー、<!-- [!UICONTROL Plan] > [!UICONTROL Simulations],-->で利用できます [!UICONTROL Setup] > [!UICONTROL Label Classifications]、[!UICONTROL Goals] > [!UICONTROL Objectives] and [!UICONTROL Constraints]、[!UICONTROL Targeting] > [!UICONTROL Placements]*
 
 1. データテーブルの上で、次のいずれかの操作を行います。
 
