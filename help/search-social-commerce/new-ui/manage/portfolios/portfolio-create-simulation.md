@@ -13,9 +13,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
     internal-label: Search Simulations
-source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
+source-git-commit: 3e70998ad9547cecc0f3581d6cfd917051d549db
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '396'
 ht-degree: 0%
 ---
 # [!UICONTROL Portfolios] ビューからシミュレーションを実行してダウンロードします
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!UICONTROL Simulations] ビュー[&#128279;](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)からカスタムシミュレーションを作成または再実行することもできます。
+>[!UICONTROL Simulations] ビュー](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)からカスタムシミュレーションを[作成または再実行することもできます。
 
 ## カスタムシミュレーションの実行 {#run-simulation}
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    * ポートフォリオの横にあるチェックボックスをオンにします。 一括操作ツールバーで、**[!UICONTROL More]>[!UICONTROL Run Simulation]**&#x200B;をクリックします。
 
-1. [&#x200B; カスタムシミュレーション設定](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md#custom-simulation-settings)を指定します。
+1. [ カスタムシミュレーション設定](#custom-simulation-settings)を指定します。
 
    1. 「**[!UICONTROL Basic Settings]**」タブで、一意の&#x200B;**[!UICONTROL Simulation Name]**&#x200B;を入力し、必要に応じて基本パラメーターを変更します。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Submit & Run]**&#x200B;をクリックします。
 
-リクエストが送信され、[!UICONTROL Simulations] ビューが開きます。 シミュレーションが正常に完了したら、[&#x200B; ダウンロードできます](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)。
+リクエストが送信され、[!UICONTROL Simulations] ビューが開きます。 シミュレーションが正常に完了したら、[ ダウンロードできます](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)。
 
 ## 週次シミュレーションのダウンロード {#download-simulations}
 
@@ -76,9 +76,13 @@ ht-degree: 0%
 
 カスタムシミュレーションをダウンロードするか、毎週の個別のシミュレーションを選択するには、[[!UICONTROL Simulations] ビュー](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)を使用します。
 
+## カスタムシミュレーション設定 {#custom-simulation-settings}
+
+カスタムシミュレーション設定について詳しくは、Search, Social, &amp; Commerce内から入手できるOptimization Guideを参照してください。
+
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
->* [&#x200B; ポートフォリオについて](portfolio-about.md)
->* [&#x200B; カスタムシミュレーションの実行または再実行](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
->* [&#x200B; シミュレーションのダウンロード &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+>* [ （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
+>* [ ポートフォリオについて](portfolio-about.md)
+>* [ カスタムシミュレーションの実行または再実行](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+>* [ シミュレーションのダウンロード ](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
