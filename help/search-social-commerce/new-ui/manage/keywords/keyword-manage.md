@@ -1,6 +1,6 @@
 ---
 title: キーワードの管理
-description: 入札可能キーワードとネガティブキーワードを作成および管理し、キーワードに制約を割り当てる方法について説明します。
+description: Adobe Advertising Search, Social, & Commerceで、入札可能なキーワードと否定的なキーワードを管理する方法、制約を割り当てる方法、キーワード入札単価の履歴を表示およびダウンロードする方法について説明します。
 feature: Search Optimization, Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # キーワードの管理
@@ -31,9 +31,9 @@ ht-degree: 0%
 
 キーワードとは、広告に関連付けられた単語またはフレーズのことです。 キーワード設定には、キーワード一致タイプ、キーワードによって広告がトリガーされたときに使用される最大入札額、および（一部の広告ネットワークの場合）オプションのトラッキングパラメーターが含まれます。 キーワードレベルの設定は、広告グループまたはキャンペーンの設定を上書きします。 ネガティブキーワードは、一致する検索に対して広告が表示されるのを防ぎます。
 
-[API接続を介して広告ネットワークアカウントにアクセスできるようにし](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、Search, Social, &amp; Commerceがアカウントデータを広告ネットワークと同期したら、[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)で検索広告グループのキーワードを作成できます。 また、キーワードのステータスを編集および変更したり、負のキーワードを作成および削除したりすることもできます。
+[API接続を介して広告ネットワークアカウントにアクセスできるようにし](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、Search, Social, &amp; Commerceがアカウントデータを広告ネットワークと同期したら、[ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md)で検索広告グループのキーワードを作成できます。 また、キーワードのステータスを編集および変更したり、負のキーワードを作成および削除したりすることもできます。
 
-各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+各広告ネットワークで使用できる機能について詳しくは、「[ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 ## [!UICONTROL Keywords] ビューについて {#keyword-view-about}
 
@@ -53,17 +53,37 @@ ht-degree: 0%
 
 * [キーワードと負のキーワードのステータスを変更または削除](#keyword-status)
 
+* [入札単価の履歴の表示とダウンロード](#bid-unit-history)
+
 * [選択した行のすべてのデータをクリップボードにコピー](#copy-to-clipboard)
 
 * [キーワードに制約を割り当て、キーワードから制約を割り当て解除する](#keyword-constraints)
 
-* [&#x200B; キーワードにラベル分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)を割り当てる
+* [ キーワードにラベル分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)を割り当てる
+
+## 入札単価の履歴の表示とダウンロード {#bid-unit-history}
+
+キーワードデータテーブルで[!UICONTROL Bid Unit ID]列が使用可能な場合は、IDから入札単位の履歴を直接開くことができます。
+
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Keywords]**&#x200B;をクリックします。
+
+1. 「**[!UICONTROL Keywords]**」タブで、キーワードの&#x200B;**[!UICONTROL Bid Unit ID]**&#x200B;列の値をクリックします。
+
+1. [!UICONTROL Bid Unit Details] ダイアログで、「**[!UICONTROL History]**」タブをクリックします。
+
+1. （オプション）テーブルの上にあるデバイスメニューから、履歴を表示するデバイスタイプを選択します。 デフォルトでは、すべてのデバイスのデータが表示されます。
+
+1. （オプション）履歴データが利用可能な場合は、**[!UICONTROL Export as csv]**&#x200B;をクリックして、表示された履歴をダウンロードします。
+
+ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
+
+ポートフォリオのパフォーマンスの詳細](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details)から[入札単位の詳細を開くこともできます。 ダイアログ内の他のタブについて詳しくは、「[ ポートフォリオパフォーマンスの詳細を表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)」を参照してください。
 
 ## キーワードの作成 {#keyword-create}
 
 >[!TIP]
 >
->一度に多数のキーワードを作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
+>一度に多数のキーワードを作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Keywords]**&#x200B;をクリックします。
 
@@ -91,7 +111,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->異なる広告ネットワーク上のキーワードを含む、大量のキーワードデータを一度に編集するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
+>異なる広告ネットワーク上のキーワードを含む、大量のキーワードデータを一度に編集するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Keywords]**&#x200B;をクリックします。
 
@@ -117,11 +137,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、[広告グループ設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)および[&#x200B; キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)で、否定的なキーワードを作成および編集することもできます。
+>また、[広告グループ設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)および[ キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)で、否定的なキーワードを作成および編集することもできます。
 
 >[!TIP]
 >
->一度に多数の否定的なキーワードを作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
+>一度に多数の否定的なキーワードを作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Keywords]**&#x200B;をクリックします。
 
@@ -234,4 +254,4 @@ ht-degree: 0%
 >* [[!DNL Microsoft Advertising]  キーワード設定](keyword-settings-microsoft.md)
 >* [[!DNL Yandex]  キーワード設定](keyword-settings-yandex.md)
 >* [検索入札単位の制約の管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [&#x200B; ラベル分類の管理](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
+>* [ ラベル分類の管理](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)

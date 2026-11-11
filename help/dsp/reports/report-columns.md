@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
 workflow-type: tm+mt
 source-wordcount: '2989'
 ht-degree: 0%
@@ -127,10 +127,10 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Description] | 請求可能セグメントに関連付けられている説明。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Key] | 請求可能なセグメントに関連付けられた一意のキー。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Name] | 請求可能なセグメントの名前。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Description] | データプロバイダーが提供するセグメントに関連付けられた説明。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Key] | セグメントに関連付けられた一意のキー。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Name] | セグメントの名前。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Provider Name] | セグメントに関連付けられているデータプロバイダーの名前。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Description] | データプロバイダーが提供するセグメントに関連付けられた説明。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | セグメントに関連付けられた一意のキー。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | セグメントの名前。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Provider Name] | セグメントに関連付けられているデータプロバイダーの名前。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | DSPのサイトまたはアプリの一意のID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | サイトの名前。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Traffic Type] | 広告が&#x200B;*[!UICONTROL sites]*&#x200B;または&#x200B;*[!UICONTROL Apps]*&#x200B;に表示されたかどうか。 |
@@ -282,7 +282,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | すべての測定可能なインプレッションのうち、表示可能なインプレッションの割合（<code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]として計算）</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | 表示可能と見なされる広告インプレッションの数。 |
 | [!UICONTROL Conversion Metrics] | [ レポート設定で広告主別にグループ化] | [広告主固有のコンバージョン ] | 指定された広告主固有のコンバージョン指標またはAdobe Analytics イベントの合計。 |
-| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化] | [広告主固有のカスタム目標] | 指定された[&#x200B; カスタム目標](/help/dsp/optimization/custom-goal.md)に含まれるすべてのコンバージョンの重み付け合計。 |
+| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化] | [広告主固有のカスタム目標] | 指定された[ カスタム目標](/help/dsp/optimization/custom-goal.md)に含まれるすべてのコンバージョンの重み付け合計。 |
 
 {style="table-layout:auto"}
 
@@ -290,8 +290,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて](/help/dsp/reports/report-about.md)
->* [&#x200B; カスタムレポートを作成](/help/dsp/reports/report-create.md)
->* [&#x200B; カスタムレポートを複製](/help/dsp/reports/report-copy.md)
->* [&#x200B; カスタムレポートを編集](/help/dsp/reports/report-edit.md)
->* [&#x200B; カスタムレポート設定](/help/dsp/reports/report-settings.md)
+>* [ カスタムレポートについて](/help/dsp/reports/report-about.md)
+>* [ カスタムレポートを作成](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートを複製](/help/dsp/reports/report-copy.md)
+>* [ カスタムレポートを編集](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポート設定](/help/dsp/reports/report-settings.md)

@@ -1,6 +1,6 @@
 ---
 title: （新しいUI） ポートフォリオパフォーマンスの詳細の表示
-description: ポートフォリオレベルおよび割り当てられた各キャンペーンの実際の指標と予測指標を含む、ポートフォリオパフォーマンスの詳細を表示する方法について説明します。
+description: Adobe Advertising Search, Social, & Commerceで、ポートフォリオパフォーマンス、キーワード入札単位の詳細、予測、入札履歴を表示する方法と、入札単位の履歴を書き出す方法について説明します。
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1168'
 ht-degree: 0%
 ---
 # （新しいUI） ポートフォリオパフォーマンスの詳細の表示
@@ -58,7 +58,7 @@ ht-degree: 0%
 
   * [!UICONTROL History] タブ：入札日ごとに表示された日付と時刻、インプレッション数、クリック数、総費用、平均CPC、平均順位、クリック日で表示された加重収益など、過去36日間のすべての入札。 データは、すべてのデバイスおよび各デバイスの種類（モバイル、コンピューター、タブレット）について表示されます。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
 
-  * [!UICONTROL Detail] タブ：一致タイプ（該当する場合）、入札単位が属する親広告グループ、キャンペーン、広告ネットワークアカウント、およびポートフォリオ。
+  * [!UICONTROL Details] タブ：キーワード、一致タイプ（該当する場合）、入札単位が属する親広告グループ、キャンペーン、およびネットワークアカウントとポートフォリオ。
 
 ## ポートフォリオのパフォーマンスの詳細を開く
 
@@ -82,13 +82,13 @@ ht-degree: 0%
 
     * **[!UICONTROL Display predictions]**&#x200B;の横にあるスイッチを移動して、予測指標の値を表示または非表示にします。
 
-    * グラフ ビュー（![&#x200B; グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
+    * グラフ ビュー（![ グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
 
     * （グラフ表示）グラフ上の任意のポイントのデータを表示するには、そのポイントにカーソルを合わせます。
 
 * （オプション） [!UICONTROL Model accuracy]傾向グラフをカスタマイズするには、次のいずれかの操作を行います。
 
-  * グラフ ビュー（![&#x200B; グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
+  * グラフ ビュー（![ グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
 
   * *[!UICONTROL Click Date]*&#x200B;と&#x200B;*[!UICONTROL Transaction Date]*&#x200B;によるデータの表示を切り替えます。
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 * ポートフォリオ内のキャンペーン内のすべての広告グループを表示するには、「**[!UICONTROL Campaigns]**」タブをクリックし、キャンペーン名をクリックします。
 
-## ポートフォリオ内のキーワードに関する詳細のリストと表示
+## ポートフォリオ内のキーワードに関する詳細のリストと表示 {#bid-unit-details}
 
 各キーワードの詳細には、入札単位ID、照合タイプ、実際のコストと予測コスト、クリック数、目標値、コスト、クリック数、目標値の違いなどがあります。 個々のキーワードに関する入札単位の詳細を表示できます。
 
@@ -138,11 +138,25 @@ ht-degree: 0%
 
 1. （オプション）特定の入札単位に関する詳細を表示するには、**[!UICONTROL Bid Unit ID]**&#x200B;列の値をクリックします。 詳細については、[!UICONTROL Bid Unit Details]の任意のタブをクリックしてください。
 
+### 個々の入札単位の履歴の表示とダウンロード {#bid-unit-history}
+
+1. [入札単位の詳細](#bid-unit-details)を開きます。
+
+1. 「**[!UICONTROL History]**」タブをクリックします。
+
+1. （オプション）テーブルの上にあるデバイスメニューから、履歴を表示するデバイスタイプを選択します。 デフォルトでは、すべてのデバイスのデータが表示されます。
+
+1. （オプション）履歴データが利用可能な場合は、**[!UICONTROL Export as csv]**&#x200B;をクリックして、表示された履歴をダウンロードします。
+
+ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
+
+ポートフォリオ全体の入札履歴を表示し、その日付範囲を変更するには、「[ ポートフォリオの入札変更履歴を表示](portfolio-view-change-history.md#portfolio-bid-change-history)」を参照してください。
+
 ## ポートフォリオ設定の表示と編集
 
 * ポートフォリオ設定を表示または非表示にするには、**[!UICONTROL Portfolio Settings]**&#x200B;をクリックします。
 
-  * 表示されているポートフォリオ設定を編集するには、設定セクションの横にある![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックし、[&#x200B; ポートフォリオ設定を編集](portfolio-edit.md)します。
+  * 表示されているポートフォリオ設定を編集するには、設定セクションの横にある![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックし、[ ポートフォリオ設定を編集](portfolio-edit.md)します。
 
 ポートフォリオ設定について詳しくは、Search, Social, &amp; Commerce内から入手できる最適化ガイドを参照してください。
 
@@ -168,6 +182,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新しいUI） ポートフォリオについて](portfolio-about.md)
->* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [&#x200B; （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード &#x200B;](portfolio-view-report.md)
+>* [ （新しいUI） ポートフォリオについて](portfolio-about.md)
+>* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [ （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード ](portfolio-view-report.md)
