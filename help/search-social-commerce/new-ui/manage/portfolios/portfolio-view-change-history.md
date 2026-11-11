@@ -38,21 +38,21 @@ ht-degree: 0%
 
 1. （オプション）表示される情報を変更します。
 
-   * 「![ カレンダー](/help/search-social-commerce/assets/calendar-new.png " カレンダー")」をクリックして、レポートの日付範囲を変更します。
+   * 「![&#x200B; カレンダー](/help/search-social-commerce/assets/calendar-new.png " カレンダー")」をクリックして、レポートの日付範囲を変更します。
 
-   * 「![ フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター")」をクリックして、データをカテゴリ別にフィルタリングします：[!UICONTROL All]、[!UICONTROL Objective]、[!UICONTROL Campaign]、[!UICONTROL Target]、[!UICONTROL Constraints]、[!UICONTROL Optimization Levers]、または[!UICONTROL Others]。
+   * 「![&#x200B; フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター")」をクリックして、データをカテゴリ別にフィルタリングします：[!UICONTROL All]、[!UICONTROL Objective]、[!UICONTROL Campaign]、[!UICONTROL Target]、[!UICONTROL Constraints]、[!UICONTROL Optimization Levers]、または[!UICONTROL Others]。
 
 ## ポートフォリオの入札変更履歴の表示 {#portfolio-bid-change-history}
 
-1. [ ポートフォリオの変更履歴を開きます](#portfolio-change-history)。
+1. [&#x200B; ポートフォリオの変更履歴を開きます](#portfolio-change-history)。
 
 1. 「**[!UICONTROL Portfolio Bid Change History]**」タブをクリックします。
 
-1. （オプション）「![ カレンダー](/help/search-social-commerce/assets/calendar-new.png " カレンダー")」をクリックして、日付範囲を変更します。
+1. （オプション）「![&#x200B; カレンダー](/help/search-social-commerce/assets/calendar-new.png " カレンダー")」をクリックして、日付範囲を変更します。
 
 1. （オプション）日付列の見出しをクリックして、リストを昇順または降順で日付順に並べ替えます。
 
-個々の入札単位の履歴を表示するには、[ ポートフォリオのパフォーマンスの詳細](portfolio-details.md#bid-unit-history)から入札単位の詳細を開きます。 [!UICONTROL Bid Unit ID]列が使用可能な場合は、[!UICONTROL Keywords] ビュー](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#bid-unit-history)から入札単位履歴を[開くこともできます。
+個々の入札単位の履歴を表示するには、[&#x200B; ポートフォリオのパフォーマンスの詳細](portfolio-details.md#bid-unit-history)から入札単位の詳細を開きます。 [!UICONTROL Bid Unit ID]列が使用可能な場合は、[!UICONTROL Keywords] ビュー[&#128279;](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#bid-unit-history)から入札単位履歴を開くこともできます。
 
 ## ポートフォリオ変更履歴のレポートの管理
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 
 ### フィルタリングされたデータ行を含むレポートを生成する
 
-1. [ ポートフォリオの変更履歴](#portfolio-change-history)を開き、データをダウンロードするタブをクリックします。
+1. [&#x200B; ポートフォリオの変更履歴](#portfolio-change-history)を開き、データをダウンロードするタブをクリックします。
 
-1. 右上の「![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
+1. 右上の「![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
 
 1. [!UICONTROL Portfolio History]または[!UICONTROL Portfolio Bid History]の設定で、デフォルトのレポート名をそのまま使用するか、一意のレポート名を入力して、**[!UICONTROL Generate]**&#x200B;をクリックします。
 
@@ -72,32 +72,32 @@ ht-degree: 0%
 
    ファイルが[!UICONTROL Recently Generated] リストに追加されます。
 
-1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. （オプション）完了したファイルをダウンロードするには、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
 ### 完成したレポートをダウンロード
 
-1. [ ポートフォリオの変更履歴](#portfolio-change-history)を開き、レポートを生成したタブをクリックします。
+1. [&#x200B; ポートフォリオの変更履歴](#portfolio-change-history)を開き、レポートを生成したタブをクリックします。
 
-1. 右上の「![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
+1. 右上の「![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
 
-1. [!UICONTROL Portfolio History]または[!UICONTROL Portfolio Bid History]設定の[!UICONTROL Recently Generated] リストで、ファイル名の横にある![ ダウンロード ](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
+1. [!UICONTROL Portfolio History]または[!UICONTROL Portfolio Bid History]設定の[!UICONTROL Recently Generated] リストで、ファイル名の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " ダウンロード ")をクリックします。
 
    ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
 ### 完了済みレポートの削除
 
-1. [ ポートフォリオの変更履歴](#portfolio-change-history)を開き、レポートを生成したタブをクリックします。
+1. [&#x200B; ポートフォリオの変更履歴](#portfolio-change-history)を開き、レポートを生成したタブをクリックします。
 
-1. 右上の「![ レポートをダウンロード ](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
+1. 右上の「![&#x200B; レポートをダウンロード &#x200B;](/help/search-social-commerce/assets/download.png " レポートをダウンロード ")」をクリックします。
 
 1. [!UICONTROL Portfolio History]または[!UICONTROL Portfolio Bid History]設定の[!UICONTROL Recently Generated] リストで、ファイル名の横にある![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [ ポートフォリオを作成](portfolio-create.md)
->* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [ （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
->* [ （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード ](portfolio-view-report.md)
->* [ ポートフォリオについて](portfolio-about.md)
+>* [&#x200B; ポートフォリオを作成](portfolio-create.md)
+>* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [&#x200B; （新しいUI） ポートフォリオパフォーマンスの詳細を表示](portfolio-details.md)
+>* [&#x200B; （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード &#x200B;](portfolio-view-report.md)
+>* [&#x200B; ポートフォリオについて](portfolio-about.md)

@@ -31,9 +31,9 @@ ht-degree: 0%
 
 キーワードとは、広告に関連付けられた単語またはフレーズのことです。 キーワード設定には、キーワード一致タイプ、キーワードによって広告がトリガーされたときに使用される最大入札額、および（一部の広告ネットワークの場合）オプションのトラッキングパラメーターが含まれます。 キーワードレベルの設定は、広告グループまたはキャンペーンの設定を上書きします。 ネガティブキーワードは、一致する検索に対して広告が表示されるのを防ぎます。
 
-[API接続を介して広告ネットワークアカウントにアクセスできるようにし](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、Search, Social, &amp; Commerceがアカウントデータを広告ネットワークと同期したら、[ サポートされているキャンペーンタイプ ](/help/search-social-commerce/introduction/supported-inventory.md)で検索広告グループのキーワードを作成できます。 また、キーワードのステータスを編集および変更したり、負のキーワードを作成および削除したりすることもできます。
+[API接続を介して広告ネットワークアカウントにアクセスできるようにし](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、Search, Social, &amp; Commerceがアカウントデータを広告ネットワークと同期したら、[&#x200B; サポートされているキャンペーンタイプ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)で検索広告グループのキーワードを作成できます。 また、キーワードのステータスを編集および変更したり、負のキーワードを作成および削除したりすることもできます。
 
-各広告ネットワークで使用できる機能について詳しくは、「[ サポートされているインベントリ ](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
+各広告ネットワークで使用できる機能について詳しくは、「[&#x200B; サポートされているインベントリ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)」を参照してください。
 
 ## [!UICONTROL Keywords] ビューについて {#keyword-view-about}
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 * [キーワードに制約を割り当て、キーワードから制約を割り当て解除する](#keyword-constraints)
 
-* [ キーワードにラベル分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)を割り当てる
+* [&#x200B; キーワードにラベル分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)を割り当てる
 
 ## 入札単価の履歴の表示とダウンロード {#bid-unit-history}
 
@@ -77,13 +77,13 @@ ht-degree: 0%
 
 ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
-ポートフォリオのパフォーマンスの詳細](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details)から[入札単位の詳細を開くこともできます。 ダイアログ内の他のタブについて詳しくは、「[ ポートフォリオパフォーマンスの詳細を表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)」を参照してください。
+ポートフォリオのパフォーマンスの詳細[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details)から入札単位の詳細を開くこともできます。 ダイアログ内の他のタブについて詳しくは、「[&#x200B; ポートフォリオパフォーマンスの詳細を表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)」を参照してください。
 
 ## キーワードの作成 {#keyword-create}
 
 >[!TIP]
 >
->一度に多数のキーワードを作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
+>一度に多数のキーワードを作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Keywords]**&#x200B;をクリックします。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->異なる広告ネットワーク上のキーワードを含む、大量のキーワードデータを一度に編集するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
+>異なる広告ネットワーク上のキーワードを含む、大量のキーワードデータを一度に編集するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Keywords]**&#x200B;をクリックします。
 
@@ -137,11 +137,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->また、[広告グループ設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)および[ キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)で、否定的なキーワードを作成および編集することもできます。
+>また、[広告グループ設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)および[&#x200B; キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)で、否定的なキーワードを作成および編集することもできます。
 
 >[!TIP]
 >
->一度に多数の否定的なキーワードを作成するには、[ キャンペーンのバルクシート ](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
+>一度に多数の否定的なキーワードを作成するには、[&#x200B; キャンペーンのバルクシート &#x200B;](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)を使用します。
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Keywords]**&#x200B;をクリックします。
 
@@ -254,4 +254,4 @@ ht-degree: 0%
 >* [[!DNL Microsoft Advertising]  キーワード設定](keyword-settings-microsoft.md)
 >* [[!DNL Yandex]  キーワード設定](keyword-settings-yandex.md)
 >* [検索入札単位の制約の管理](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [ ラベル分類の管理](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
+>* [&#x200B; ラベル分類の管理](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
