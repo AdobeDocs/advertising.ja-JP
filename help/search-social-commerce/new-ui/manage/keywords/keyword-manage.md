@@ -1,6 +1,6 @@
 ---
 title: キーワードの管理
-description: 入札可能キーワードとネガティブキーワードを作成および管理し、キーワードに制約を割り当てる方法について説明します。
+description: Adobe Advertising Search, Social, & Commerceで、入札可能なキーワードと否定的なキーワードを管理する方法、制約を割り当てる方法、キーワード入札単価の履歴を表示およびダウンロードする方法について説明します。
 feature: Search Optimization, Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # キーワードの管理
@@ -53,11 +53,31 @@ ht-degree: 0%
 
 * [キーワードと負のキーワードのステータスを変更または削除](#keyword-status)
 
+* [入札単価の履歴の表示とダウンロード](#bid-unit-history)
+
 * [選択した行のすべてのデータをクリップボードにコピー](#copy-to-clipboard)
 
 * [キーワードに制約を割り当て、キーワードから制約を割り当て解除する](#keyword-constraints)
 
 * [&#x200B; キーワードにラベル分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)を割り当てる
+
+## 入札単価の履歴の表示とダウンロード {#bid-unit-history}
+
+キーワードデータテーブルで[!UICONTROL Bid Unit ID]列が使用可能な場合は、IDから入札単位の履歴を直接開くことができます。
+
+1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Keywords]**&#x200B;をクリックします。
+
+1. 「**[!UICONTROL Keywords]**」タブで、キーワードの&#x200B;**[!UICONTROL Bid Unit ID]**&#x200B;列の値をクリックします。
+
+1. [!UICONTROL Bid Unit Details] ダイアログで、「**[!UICONTROL History]**」タブをクリックします。
+
+1. （オプション）テーブルの上にあるデバイスメニューから、履歴を表示するデバイスタイプを選択します。 デフォルトでは、すべてのデバイスのデータが表示されます。
+
+1. （オプション）履歴データが利用可能な場合は、**[!UICONTROL Export as csv]**&#x200B;をクリックして、表示された履歴をダウンロードします。
+
+ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
+
+ポートフォリオのパフォーマンスの詳細[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details)から入札単位の詳細を開くこともできます。 ダイアログ内の他のタブについて詳しくは、「[&#x200B; ポートフォリオパフォーマンスの詳細を表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)」を参照してください。
 
 ## キーワードの作成 {#keyword-create}
 

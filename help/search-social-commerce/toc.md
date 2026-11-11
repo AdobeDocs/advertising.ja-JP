@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '2440'
+source-wordcount: '2443'
 ht-degree: 2%
 ---
 # Adobe Advertising Search, Social &amp; Commerce ガイド {#search-social-commerce}
@@ -89,7 +89,7 @@ ht-degree: 2%
       + [[!UICONTROL Portfolios] ビューからシミュレーションを実行してダウンロードします](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
       + [[!UICONTROL Portfolios] ビューでのパフォーマンス グラフの表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
       + [ポートフォリオパフォーマンスの詳細の表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
-      + [ポートフォリオの変更履歴の表示](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
+      + [ポートフォリオの変更履歴と入札変更履歴を表示する](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
       + [[!UICONTROL Portfolios] ビューからのデータビューレポートの管理](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
     + アカウント {#accounts}
       + [広告ネットワークアカウントについて](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)

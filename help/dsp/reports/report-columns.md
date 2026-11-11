@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
 workflow-type: tm+mt
 source-wordcount: '2989'
 ht-degree: 0%
@@ -127,10 +127,10 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Description] | 請求可能セグメントに関連付けられている説明。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Key] | 請求可能なセグメントに関連付けられた一意のキー。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Name] | 請求可能なセグメントの名前。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Description] | データプロバイダーが提供するセグメントに関連付けられた説明。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Key] | セグメントに関連付けられた一意のキー。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Name] | セグメントの名前。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Provider Name] | セグメントに関連付けられているデータプロバイダーの名前。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Description] | データプロバイダーが提供するセグメントに関連付けられた説明。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | セグメントに関連付けられた一意のキー。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | セグメントの名前。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Provider Name] | セグメントに関連付けられているデータプロバイダーの名前。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | DSPのサイトまたはアプリの一意のID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | サイトの名前。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Traffic Type] | 広告が&#x200B;*[!UICONTROL sites]*&#x200B;または&#x200B;*[!UICONTROL Apps]*&#x200B;に表示されたかどうか。 |
