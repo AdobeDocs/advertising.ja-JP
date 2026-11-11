@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
+source-git-commit: e5b13eece252d5f0a86d86e0449dd13483c3665f
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '3129'
 ht-degree: 0%
 ---
 # 使用可能なレポート列
@@ -124,12 +124,13 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement End Date] | プレースメント終了日。 |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Start Date] | プレースメント開始日。 |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Tags] | プレースメントのカスタム IDとして使用されるプレースメントタグ。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Description] | 請求可能セグメントに関連付けられている説明。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Key] | 請求可能なセグメントに関連付けられた一意のキー。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Name] | 請求可能なセグメントの名前。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Description] | インプレッションの帰属を示すセグメントに関連付けられた説明は、データプロバイダーによって提供されます。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Key] | インプレッションの帰属セグメントに関連付けられている一意のキー。 **注：**&#x200B;それぞれのインプレッションは1つのセグメントに起因しているため、実際の合計に支出が加算されます。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Name] | インプレッションの帰属セグメントの名前。 **注：**&#x200B;それぞれのインプレッションは1つのセグメントに起因しているため、実際の合計に支出が加算されます。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Provider Name] | インプレッションが関連付けられているセグメントに関連付けられているデータプロバイダーの名前。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Description] | データプロバイダーが提供するセグメントに関連付けられた説明。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | セグメントに関連付けられた一意のキー。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | セグメントの名前。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | セグメントに関連付けられた一意のキー。 **注意：** インプレッションが複数のセグメントに一致する場合、インプレッションとそのすべての標準、支出、およびパフォーマンス指標は、一致する各セグメントに関連付けられます。 セグメントを組み合わせた行の指標は、キャンペーンの合計よりも高くなる可能性があります。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | セグメントの名前。 **注意：** インプレッションが複数のセグメントに一致する場合、インプレッションとそのすべての標準、支出、およびパフォーマンス指標は、一致する各セグメントに関連付けられます。 セグメントを組み合わせた行の指標は、キャンペーンの合計よりも高くなる可能性があります。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Provider Name] | セグメントに関連付けられているデータプロバイダーの名前。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | DSPのサイトまたはアプリの一意のID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | サイトの名前。 |
@@ -282,7 +283,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | すべての測定可能なインプレッションのうち、表示可能なインプレッションの割合（<code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]として計算）</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | 表示可能と見なされる広告インプレッションの数。 |
 | [!UICONTROL Conversion Metrics] | [ レポート設定で広告主別にグループ化] | [広告主固有のコンバージョン ] | 指定された広告主固有のコンバージョン指標またはAdobe Analytics イベントの合計。 |
-| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化] | [広告主固有のカスタム目標] | 指定された[&#x200B; カスタム目標](/help/dsp/optimization/custom-goal.md)に含まれるすべてのコンバージョンの重み付け合計。 |
+| [!UICONTROL Custom Goals] | [ レポート設定で広告主別にグループ化] | [広告主固有のカスタム目標] | 指定された[ カスタム目標](/help/dsp/optimization/custom-goal.md)に含まれるすべてのコンバージョンの重み付け合計。 |
 
 {style="table-layout:auto"}
 
@@ -290,8 +291,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; カスタムレポートについて](/help/dsp/reports/report-about.md)
->* [&#x200B; カスタムレポートを作成](/help/dsp/reports/report-create.md)
->* [&#x200B; カスタムレポートを複製](/help/dsp/reports/report-copy.md)
->* [&#x200B; カスタムレポートを編集](/help/dsp/reports/report-edit.md)
->* [&#x200B; カスタムレポート設定](/help/dsp/reports/report-settings.md)
+>* [ カスタムレポートについて](/help/dsp/reports/report-about.md)
+>* [ カスタムレポートを作成](/help/dsp/reports/report-create.md)
+>* [ カスタムレポートを複製](/help/dsp/reports/report-copy.md)
+>* [ カスタムレポートを編集](/help/dsp/reports/report-edit.md)
+>* [ カスタムレポート設定](/help/dsp/reports/report-settings.md)
