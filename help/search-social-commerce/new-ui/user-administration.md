@@ -1,6 +1,6 @@
 ---
-title: （新しいUI） ユーザー管理
-description: ユーザーアクセスの管理方法について説明します。
+title: （新しいUI）検索、ソーシャル、Commerceのユーザー管理
+description: Adobe Admin Consoleを使用して、Adobe Advertisingの検索、ソーシャル、Commerceのユーザーアクセス、管理者の役割、製品プロファイル、および機能の権限を管理する方法について説明します。
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
 TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
@@ -18,12 +18,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 70595626157c6d39bcf65540c2eb8437e7bd0f4c
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1143'
 ht-degree: 0%
 ---
-# （新しいUI）検索、ソーシャル、コマースのユーザー管理
+# （新しいUI）検索、ソーシャル、Commerceのユーザー管理
 
 一部のユーザーは、すべてのAdobeの使用権限とユーザー管理を一元管理する[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)を使用して、新しいSearch, Social, &amp; Commerce ユーザーインターフェイスへのアクセスを管理できます。 ユーザーは、エンドユーザーまたは管理者に分類されます。 管理者は、Adobe アカウントチームから通知を受け取ります。 管理者の場合は、次の節を参照して、ユーザーを管理するための権限とワークフローを特定してください。
 
@@ -45,7 +45,7 @@ Admin Consoleには、複数のタイプの管理者が用意されています�
 
 製品プロファイル：役割に似たもので、特定の製品に対して特定のサービスを利用者に提供します。
 
-Search, Social &amp; Commerceの新しいユーザーインターフェイスには、次のデフォルトの製品プロファイルがあり、様々な機能やサービスのサブセットを提供します。 デフォルトの製品プロファイルの製品権限を編集したり、デフォルトの製品プロファイルを削除したりすることはできません。 ただし、製品管理者、製品プロファイル管理者、システム管理者は、必要に応じて、利用可能な権限の異なるサブセットを持つ追加の製品プロファイルを作成および管理できます。
+Search、Social、およびCommerceの新しいユーザーインターフェイスには、次のデフォルトの製品プロファイルがあり、様々な機能とサービスのサブセットを提供します。 デフォルトの製品プロファイルの製品権限を編集したり、デフォルトの製品プロファイルを削除したりすることはできません。 ただし、製品管理者、製品プロファイル管理者、システム管理者は、必要に応じて、利用可能な権限の異なるサブセットを持つ追加の製品プロファイルを作成および管理できます。
 
 * **[!UICONTROL Basic Optimization]:**&#x200B;標準のポートフォリオ管理機能と基本設定へのアクセス権を持つプランニング機能を必要とするユーザー。
 
@@ -60,6 +60,8 @@ Search, Social &amp; Commerceの新しいユーザーインターフェイスに
 <!-- These don't correspond exactly to the GUI menu -->
 
 チェックマーク （✓）は、権限が製品プロファイルに含まれていることを示します。
+
+表示と編集の権限は個別です。 機能を表示する権限だけでは、ユーザーがデータを作成、編集、削除することはできません。 カスタム製品プロファイルでは、デフォルトの製品プロファイルに表示される権限とは異なる権限の組み合わせを指定できます。
 
 **Portfolio Management**
 
@@ -137,9 +139,32 @@ Noone has permissions as of 6/1; spelling [sic]:
 | MCC アカウントの表示 | ✓ | ✓ | ✓ | ✓ |
 | MCC アカウントの編集 | | ✓ | | ✓ |
 
+<!--
+
+Include? And why aren't all edit permissions available for some standard profiles?
+
+### Permissions for custom product profiles
+
+When you create a custom product profile, include the view permissions for the features that users need to open and the separate permissions for the actions they need to perform. The following permissions cover additional capabilities that aren't listed in the default-profile tables above.
+
+| Capability | Permissions |
+|---|---|
+| View and create client instances | [!UICONTROL View Instances] and [!UICONTROL Create Instances] |
+| View and edit keywords and negative keywords | [!UICONTROL View Keywords] and [!UICONTROL Edit Keywords] |
+| View and edit product groups | [!UICONTROL View Product Groups] and [!UICONTROL Edit Product Groups] |
+| View and edit auto targets | [!UICONTROL View Auto Targets] and [!UICONTROL Edit Auto Targets] |
+| View and edit placements and negative placements | [!UICONTROL View Placements] and [!UICONTROL Edit Placements] |
+| View and edit extensions | [!UICONTROL View Extensions] and [!UICONTROL Edit Extensions] |
+| View and edit constraints | [!UICONTROL View Constraints] and [!UICONTROL Edit Constraints] |
+| View spreadsheet feeds | [!UICONTROL View Spreadsheets] |
+
+For example, permission to view client instances doesn't by itself allow a user to create an instance. Similarly, permission to view keywords doesn't by itself allow a user to edit keywords or negative keywords.
+
+-->
+
 ## 管理者のタスク
 
-### Adobe Admin Consoleにログインし、Search, Social, &amp; Commerceに開きます
+### Adobe Admin Consoleにログインし、Search, Social, &amp; Commerceに開きます {#open-admin-console}
 
 >[!PREREQUISITES]
 >
@@ -151,7 +176,7 @@ Noone has permissions as of 6/1; spelling [sic]:
 
    1. [!DNL Adobe] IDを入力し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-   1. **[!UICONTROL Personal Account]&quot;または&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->のいずれかを選択します
+   1. **[!UICONTROL Personal Account]**&#x200B;または&#x200B;**[!UICONTROL Company or School Account]**&#x200B;のいずれかを選択します。<!-- Will it necessarily be "Company or School Account?" -->
 
    1. 該当するCX Enterprise組織を選択します。
 

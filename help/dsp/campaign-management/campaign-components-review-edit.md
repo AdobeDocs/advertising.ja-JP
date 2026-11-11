@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # バルクシートを使用したキャンペーンコンポーネント設定の確認と編集
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    * 通知メッセージで、**[!UICONTROL Download].**&#x200B;をクリックします
 
-   * 上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。 ジョブの横にある&#x200B;**[!UICONTROL Download]**&#x200B;をクリックします。
+   * 上部のメニューバーの右側で、![Job Manager](/help/creative/assets/job-manager.png "Job Manager") （**[!UICONTROL Job Manager]**）をクリックします。 ジョブの横にある&#x200B;**[!UICONTROL Download]**&#x200B;をクリックします。
 
      ファイルはブラウザーのダウンロード フォルダーに保存されます。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    1. **[!UICONTROL Upload]**&#x200B;をクリックします。
 
-1. （オプション）更新が処理されたことを確認するには、上部のメニューバーの右側にある「![&#x200B; ジョブ &#x200B;](/help/dsp/assets/downloads.png)」をクリックします。
+1. （オプション）更新が処理されたことを確認するには、上部のメニューバーの右側にある![Job Manager](/help/creative/assets/job-manager.png "Job Manager") （**[!UICONTROL Job Manager]**）をクリックします。
 
 設定の更新に失敗した場合は、カラーコーディング付きのバルクシート エラーファイルをダウンロードして、各失敗の理由とともに、どの設定（行）が保存され、どの失敗したかを示すことができます。 その後、同じファイル内の問題に対処し、修正された情報を処理するために再度アップロードできます。
 
