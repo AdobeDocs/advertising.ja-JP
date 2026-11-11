@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->1つ以上のプレースメントの複数のフィールドをすばやく編集するには、「[ プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)」を参照してください。
+>1つ以上のプレースメントの複数のフィールドをすばやく編集するには、「[&#x200B; プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)」を参照してください。
 
 ## キャンペーン内のすべてのプレースメントの設定のダウンロード
 
@@ -246,6 +246,6 @@ Check on Brand Safety - Contextual Filtering # with new DV feature/fct change.
 
 >[!MORELIKETHIS]
 >
->* [ バルクシートを使用したキャンペーンコンポーネント設定のレビューと編集](/help/dsp/campaign-management/campaign-components-review-edit.md)
->* [ プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [&#x200B; バルクシートを使用したキャンペーンコンポーネント設定のレビューと編集](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [&#x200B; プレースメントを編集](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -188,5 +188,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [配置の設定](/help/dsp/campaign-management/placements/placement-settings.md)
->* [ アカウントレベルおよび広告主レベルのブロックされたサイトリストについて](/help/dsp/admin/blocked-sites-list-about.md)
->* [ アカウントレベルまたは広告主レベルのブロック済みサイトリストを編集](/help/dsp/admin/blocked-sites-list-edit.md)
+>* [&#x200B; アカウントレベルおよび広告主レベルのブロックされたサイトリストについて](/help/dsp/admin/blocked-sites-list-about.md)
+>* [&#x200B; アカウントレベルまたは広告主レベルのブロック済みサイトリストを編集](/help/dsp/admin/blocked-sites-list-edit.md)
