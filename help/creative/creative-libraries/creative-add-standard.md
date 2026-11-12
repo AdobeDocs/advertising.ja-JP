@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: a2a6d94329df17c332a140de428bb44fb892c97a
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '2018'
 ht-degree: 0%
 ---
 # 標準クリエイティブをクリエイティブライブラリに追加
@@ -243,13 +243,30 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 ## クリエイティブライブラリへのサードパーティクリエイティブの追加 {#creative-add-third-party}
 
-[!DNL Creative]は、ほとんどのサードパーティ広告サーバーでホストされているクリエイターに対して、JavaScript トラッキングタグをサポートしています。
+[!DNL Creative]は、サードパーティ広告サーバーでホストされているディスプレイ クリエイティブの広告タグをサポートしています。 新しいUIでは、人身売買シートから1人以上のクリエイターを読み込むことができます。 従来のUIでは、1つのクリエイティブのタグを入力できます。
 
 ### 新しいUIから
 
-1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
+#### 人身売買シートの準備 {#third-party-sheet-requirements}
 
-1. （オプション） [特定のライブラリを含めるようにビュー](/help/creative/introduction/customize-data-views.md)をカスタマイズします。
+* Excel （`.xlsx`または`.xls`）、CSV、またはTSV ファイルを10 MB以下、500人以下のクリエイターで使用してください。
+
+* Excel ファイルの場合は、最初のワークシートにクリエイターを配置します。 最初のワークシートのみが読み込まれます。 パスワードで保護されたファイルはサポートされていません。
+
+* [!DNL Flashtalking]または[!DNL Google Campaign Manager 360]書き出しを使用するか、汎用シートを準備します。 シートは、アップロード時に選択した広告サーバーレイアウトと一致する必要があります。
+
+* 各クリエイティブのクリエイティブ名、サイズ、広告タグを含めます。 名前には最大255文字を含めることができます。 1つのサイズ列（`300x250`など）または仕入先書き出しの幅と高さの列でディメンションを指定します。 [&#x200B; サポートされているクリエイティブサイズ &#x200B;](creative-sizes.md)を使用します。
+
+* 汎用シートの場合は、列ヘッダー`Creative Name`、`Size`、`Ad Tag`を使用します。 アップロードダイアログからCSV テンプレートをダウンロードできます。 サンプル行を独自のクリエイティブデータに置き換えます。
+
+>[!IMPORTANT]
+>
+>* 一括アップロードでは、表示タグのみがサポートされます。 ビデオタグとVAST タグはサポートされていません。
+>* 一括アップロードでは、指定された広告タグが保存されます。読み込み中にトラッキングマクロを挿入したり、トラッキング URLを書き換えたりすることはありません。 シートをアップロードする前に、タグに必要な[&#x200B; トラッキングマクロ &#x200B;](/help/creative/creative-macros.md)を含めます。
+
+#### クリエイターのアップロードとレビュー {#third-party-bulk-upload}
+
+1. メインメニューで、**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;をクリックします。
 
 1. 次のいずれかの方法でライブラリを開きます。
 
@@ -259,11 +276,43 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. **[!UICONTROL Creatives]** タブで、**[!UICONTROL Add new]** > **[!UICONTROL Upload]** > **[!UICONTROL 3rd Party]**&#x200B;をクリックします。
 
-1. [&#x200B; サードパーティのクリエイティブ設定](#creative-settings-third-party)で、クリエイティブのJavaScript タグとその他の設定を指定します。
+   **[!UICONTROL Bulk upload third-party tags]** ダイアログが開きます。
 
-   使用可能な[&#x200B; マクロ &#x200B;](/help/creative/creative-macros.md)のいずれかをJavaScript タグにコピーして貼り付けることができます。
+1. シートに一致する&#x200B;**[!UICONTROL Ad server]**&#x200B;を選択します。
 
-1. **[!UICONTROL Create]**&#x200B;をクリックします。
+   * **[!UICONTROL Flashtalking]**
+
+   * **[!UICONTROL Google CM360]**
+
+   * **[!UICONTROL Generic]**
+
+   ファイルをアップロードする前に、広告サーバーを選択する必要があります。 選択した広告サーバーは、シート内のすべてのクリエイティブに適用されます。個々のタグからは検出されません。
+
+1. （オプション）汎用シートを準備するには、**[!UICONTROL Download CSV template]**&#x200B;をクリックし、サンプル データを独自のクリエイティブに置き換えて、ファイルを保存します。
+
+1. 次のいずれかの方法でシートを指定します。
+
+   * ファイルをアップロードボックスにドラッグ&amp;ドロップします。
+
+   * **[!UICONTROL select a file]**&#x200B;をクリックして、デバイスまたはネットワーク上のファイルを見つけます。
+
+   シートがアップロードされ、分析されます。 レイアウトが選択した広告サーバーと一致しない場合は、シートを修正するか、一致する広告サーバーを選択して、ファイルを再度アップロードします。
+
+1. **[!UICONTROL Review third-party creatives]**&#x200B;で、各行の&#x200B;**[!UICONTROL Creative name]**、**[!UICONTROL Size]**、**[!UICONTROL Type]**、**[!UICONTROL Language]**&#x200B;および&#x200B;**[!UICONTROL Status]**&#x200B;を確認します。
+
+   * シートに複数のタグ形式が含まれている場合は、読み込むタグ列のタブを選択します。 選択した書式はすべての行に適用され、その列にタグのない行は表示されません。 タブを変更すると、選択範囲がその形式のすべての重要な行にリセットされます。
+
+   * すべてのインポート可能な行がデフォルトで選択されます。 読み込みたくないクリエイティブの横にあるチェックボックスをオフにします。
+
+   * （オプション）個々のクリエイターの&#x200B;**[!UICONTROL Language]**&#x200B;を変更します。 デフォルトは英語です。
+
+   * **[!UICONTROL Error]** ステータスの行は、選択または読み込めません。 有効な行を読み込むか、**[!UICONTROL Cancel]**&#x200B;をクリックしてソースシートを修正し、再度アップロードできます。 見つからない名前、寸法、タグを修正し、サポートされていないタグとしてフラグ付けされたビデオタグや文字を削除します。
+
+1. 「**[!UICONTROL インポート」をクリックします <N> creatives &#x200B;]**。`<N>`は選択したクリエイティブの数です。 1つのクリエイティブの場合は、**[!UICONTROL Import 1 creative]**&#x200B;をクリックします。
+
+   ダイアログが閉じ、読み込みが開始されたことを通知が確認します。 処理が完了すると、クリエイティブがライブラリに表示されます。
+
+インポートを追跡するには、上部のメニューバーの右側にある![Job Manager](/help/creative/assets/job-manager.png "Job Manager") （**[!UICONTROL Job Manager]**）をクリックします。 処理中に行が失敗した場合は、読み込みジョブの&#x200B;**[!UICONTROL Download failed rows]**&#x200B;をクリックし、ダウンロードしたシートを修正して、再度アップロードします。
 
 ### レガシーUIから
 

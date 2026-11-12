@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fcd97d29c5009d22100283970892d258043b2d90
+source-git-commit: 1683592f2645be8911a142b5696ad481393023c3
 workflow-type: tm+mt
-source-wordcount: '3697'
+source-wordcount: '4143'
 ht-degree: 1%
 ---
 # [!UICONTROL Creative Studio]での広告テンプレートの管理
@@ -39,7 +39,9 @@ Probably not necessary:
 
 制作：
 
-* [AIを使用して広告テンプレートを生成する](#template-generate)
+* [AIを使用してテキストプロンプトから広告テンプレートを生成する](#template-generate-from-text)
+
+* [AIを利用して、画像から広告テンプレートを生成](#template-generate-from-image)
 
 * [広告テンプレートを手動で作成](#template-create)
 
@@ -100,23 +102,75 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 ## AIを使用して広告テンプレートを生成する {#template-generate}
 
-*Beta機能*
+[!UICONTROL Creative Studio]のAIを使用して、テキストプロンプトまたは既存の静的ディスプレイ広告イメージから編集可能なディスプレイ広告テンプレートを生成します。
 
-[!UICONTROL Creative Studio]のAIを使用して、既存の静的ディスプレイ広告イメージを編集可能なディスプレイ広告テンプレートに変換します。 3段階のウィザードを使用すると、テンプレートの生成とレビュー、自然言語を使用した変更のリクエスト、テンプレートエディターの開いた状態で手動による変更を行い、テンプレートを保存できます。
+### テキストプロンプトから広告テンプレートを生成する {#template-generate-from-text}
 
-### 前提条件
+作成するテンプレートを記述し、オプションでブランドプロファイルと画像を選択し、複数の生成されたテンプレートを確認します。 既存の画像広告は必要ありません。
 
-Creativeライブラリには、静止画像の広告が必要です。 このワークフローでは、ライブラリから広告を選択します。生成ダイアログに新しい画像を直接アップロードすることはありません。
+1. メインメニューで、**[!UICONTROL Creative Studio]**&#x200B;をクリックします。
 
-<!--
+1. 「**[!UICONTROL Templates]**」タブをクリックします。
 
-Publish this when prompt-based generation becomes available:
+1. （オプション）ページ上部の広告主リストから広告主を選択して、その広告主のブランドプロファイルを表示します。
 
-To generate a template from an existing image, you need a static image ad in a Creative Library. This option selects ads from your libraries; it doesn't upload a new image directly in the generation dialog. You don't need an existing ad image to generate a template from a prompt.
+1. **[!UICONTROL Use AI to Generate a New Display Ad Template]** ボックスで、**[!UICONTROL Generate]**&#x200B;をクリックします。
 
--->
+1. **[!UICONTROL Generate New Ad Template]** ダイアログで、「**[!UICONTROL Generate from Prompt]**」タブがまだ選択されていない場合はそれをクリックします。
 
-### 手順1：テンプレートの生成とレビュー
+1. **[!UICONTROL Template size]**&#x200B;を選択します。
+
+   デフォルトは300 x 250 ピクセルです。 現在のセッションで生成開始後にサイズを変更することはできません。
+
+1. （オプション） **[!UICONTROL Brand]** リストからブランドプロファイルを選択して、生成のブランドコンテキストを提供します。
+
+1. （オプション）生成されたテンプレートに画像を含めるには、次の手順を実行します。
+
+   1. **[!UICONTROL Add image]**&#x200B;をクリックします。
+
+   1. **[!UICONTROL Select from Asset Library]** ビューで、既存の画像を選択するか、**[!UICONTROL Browse files]**&#x200B;をクリックしてアップロードします。
+
+      サポートされているアップロードフォーマットは、PNG、JPEG、GIF、TIFFです。 一度に1つの画像を添付できます。
+
+   1. **[!UICONTROL Add to chat]**&#x200B;をクリックします。
+
+1. 「**[!UICONTROL Generation prompt]**」フィールドに、作成するテンプレートを記述します。 レイアウト、見出し、call to action、ビジュアルスタイルなどの詳細を含めます。
+
+   例えば、`Create a summer sale ad with a blue background, the headline "Summer Savings," and a "Shop Now" button`と入力します。
+
+1. **[!UICONTROL Generate]**&#x200B;をクリックし、テンプレートのプレビューを待ちます。
+
+   各リクエストで最大4つのテンプレートが生成されます。 テンプレートを選択する前に、テキスト、画像、レイアウトを確認します。
+
+1. （オプション）その他のオプションを表示するには、**[!UICONTROL Generate more results]**&#x200B;をクリックします。 プロンプトを修正して、**[!UICONTROL Generate]**&#x200B;をクリックすることもできます。
+
+   結果は、1 セッションにつき20個まで生成されたテンプレートを含むダイアログに蓄積されます。
+
+1. 使用するテンプレートの上にカーソルを置き、**[!UICONTROL Open in Editor]**&#x200B;をクリックします。
+
+   表示テンプレートエディターが新しいブラウザータブで開き、生成された結果は元のタブで使用できます。
+
+1. 生成された要素を確認し、[&#x200B; テンプレートエディターのコントロール &#x200B;](#template-controls)を使用して残りの変更を行います。
+
+1. **[!UICONTROL Save]**&#x200B;をクリックします。
+
+1. **[!UICONTROL Save As New Template]** ダイアログで、**[!UICONTROL Template name]**&#x200B;を入力し、**[!UICONTROL Advertiser]**&#x200B;を選択し、オプションでタグを追加してから、**[!UICONTROL Save]**&#x200B;をクリックします。
+
+   テンプレートが新しいコピーとして保存され、エディタータブが&#x200B;**[!UICONTROL Templates]** ビューに戻ります。 次に、保存したテンプレートを使用して、[広告バリエーションを生成](#ad-variations-generate)できます。
+
+>[!NOTE]
+>
+> 生成が開始されると、同じダイアログでテキスト生成と画像生成を切り替えることはできません。 別のサイズまたは生成方法で最初からやり直すには、**[!UICONTROL Cancel]**&#x200B;をクリックして、ダイアログを再度開きます。 まず、エディターに保存したいテンプレートを保存します。
+
+### 画像から広告テンプレートを生成 {#template-generate-from-image}
+
+既存の静的ディスプレイ広告画像を編集可能なディスプレイ広告テンプレートに変換し、自然言語を使用して変更を要求し、テンプレートエディターを開いて手作業で変更し、テンプレートを保存します。
+
+#### 前提条件
+
+この機能を使用するには、Creative ライブラリの静止画像の広告が必要です。 このワークフローでは、ライブラリから広告を選択します。生成ダイアログに新しい画像を直接アップロードすることはありません。
+
+#### 手順1：テンプレートの生成とレビュー
 
 1. メインメニューで、**[!UICONTROL Creative Studio]**&#x200B;をクリックします。
 
@@ -126,7 +180,7 @@ To generate a template from an existing image, you need a static image ad in a C
 
 1. **[!UICONTROL Use AI to Generate a New Display Ad Template]** ボックスで、**[!UICONTROL Generate]**&#x200B;をクリックします。
 
-1. **[!UICONTROL Generate New Ad Template]** ダイアログで、まだ選択されていない場合は&#x200B;**[!UICONTROL Generate from Existing Standard Ad Image]**&#x200B;を選択します。
+1. **[!UICONTROL Generate New Ad Template]** ダイアログで、「**[!UICONTROL Generate from Existing Standard Ad Image]**」タブをクリックします。
 
 1. **[!UICONTROL Ad Library]** リストから画像広告を含むライブラリを選択します。
 
@@ -134,37 +188,9 @@ To generate a template from an existing image, you need a static image ad in a C
 
    選択した広告の幅と高さを使用して、生成が自動的に開始されます。
 
-<!--
-
-Switch to this when prompt-based generation becomes available:
-
-1. In the **[!UICONTROL Generate New Ad Template]** dialog, choose how to generate the template:
-
-   * **[!UICONTROL Generate from Prompt]:** Describe the ad template you want to create using a text prompt.
-
-   * **[!UICONTROL Generate from Existing Standard Ad Image]:** Convert an existing static image ad into an editable template.
-
-1. Follow the steps for your selected option:
-
-   * From a prompt:
-
-      1. Enter a description of the template you want to create. Include details such as the layout, headline, call to action, and visual style.
-
-      1. Follow the on-screen instructions to generate the template.
-
-   * From an existing standard ad image:
-
-      1. Select the library containing the image ad from the **[!UICONTROL Ad Library]** list.
-
-      1. Hold the cursor over the image ad card and click **[!UICONTROL Use this Standard Ad]**.
-
-         Generation begins automatically, using the selected ad's width and height.
-
--->
-
 1. [生成されたテンプレートをレビューして調整する](#template-review)。
 
-### 手順2：テンプレートのレビューと調整 {#template-review}
+#### 手順2：テンプレートのレビューと調整 {#template-review}
 
 1. 生成が完了するのを待ってから、テンプレートのプレビューと&#x200B;**[!UICONTROL Layers]** パネルが使用可能な場合は確認します。
 
@@ -182,7 +208,7 @@ Switch to this when prompt-based generation becomes available:
 
    生成されたテンプレートが表示テンプレートエディターで開きます。
 
-### 手順3：テンプレートの編集と保存 {#template-save}
+#### 手順3：テンプレートの編集と保存 {#template-save}
 
 >[!TIP]
 >
@@ -206,16 +232,11 @@ Switch to this when prompt-based generation becomes available:
 
 | イシュー | 今後の施策 |
 | --- | --- |
+| テキストベースの生成が失敗するか、リクエストが拒否されます | 表示されたメッセージを確認し、必要に応じてプロンプトを修正し、**[!UICONTROL Generate]**&#x200B;をクリックして再試行します。 |
+| セッションは20個の生成されたテンプレートに達しました | 保存したいテンプレートをエディターに保存し、**[!UICONTROL Cancel]**&#x200B;をクリックして生成ダイアログを再度開き、新しいセッションを開始します。 |
+| テキストで生成された結果からエディターが開かない | サイトのポップアップを許可してから、**[!UICONTROL Open in Editor]**&#x200B;をもう一度クリックしてください。 |
 | 画像から生成する際に、ライブラリまたは画像広告が表示されない | 選択した広告主と&#x200B;**[!UICONTROL Ad Library]**&#x200B;を確認してください。 ライブラリに標準広告画像がない場合は、既存の静的画像広告を含む別のライブラリを選択します。 |
 | 画像ベースの生成が失敗するか、画像を変換できません | 表示されたメッセージを確認し、**[!UICONTROL Back to library]**&#x200B;をクリックして画像広告を選択し、もう一度試してください。 |
-
-<!--
-
-Add when prompt-based generation is available:
-
-| Prompt-based generation fails | Review the displayed message and revise your prompt before trying again. |
-
--->
 
 ## 広告テンプレートを手動で作成 {#template-create}
 
