@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fcd97d29c5009d22100283970892d258043b2d90
+source-git-commit: 1683592f2645be8911a142b5696ad481393023c3
 workflow-type: tm+mt
-source-wordcount: '3697'
+source-wordcount: '4143'
 ht-degree: 1%
 ---
 # [!UICONTROL Creative Studio]での広告テンプレートの管理
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 「**[!UICONTROL Templates]**」タブには、新しい広告テンプレートを作成または読み込むためのクイックアクションが表示されます。
 
-[!UICONTROL Templates] タブには、ページ <!-- Only in the Templates tab -->の下部にある既存の広告テンプレートが[個別カード （デフォルト）またはテーブル/リスト &#x200B;](/help/creative/introduction/customize-data-views.md)として一覧表示されます。 広告テンプレートリストには、[!UICONTROL All]、[!UICONTROL System Templates] （Adobe アカウントチームがアカウントにアップロードしたもの）、[!UICONTROL User Templates]のタブが含まれています。 デフォルトでは、すべての広告主向けの広告テンプレートが表示されます。 特定の広告主の広告テンプレートのみを表示するには、ページ上部の広告主リストから選択します。
+[!UICONTROL Templates] タブには、ページ <!-- Only in the Templates tab -->の下部にある既存の広告テンプレートが[個別カード （デフォルト）またはテーブル/リスト ](/help/creative/introduction/customize-data-views.md)として一覧表示されます。 広告テンプレートリストには、[!UICONTROL All]、[!UICONTROL System Templates] （Adobe アカウントチームがアカウントにアップロードしたもの）、[!UICONTROL User Templates]のタブが含まれています。 デフォルトでは、すべての広告主向けの広告テンプレートが表示されます。 特定の広告主の広告テンプレートのみを表示するには、ページ上部の広告主リストから選択します。
 
 <!--
 Probably not necessary:
@@ -39,7 +39,9 @@ Probably not necessary:
 
 制作：
 
-* [AIを使用して広告テンプレートを生成する](#template-generate)
+* [AIを使用してテキストプロンプトから広告テンプレートを生成する](#template-generate-from-text)
+
+* [AIを利用して、画像から広告テンプレートを生成](#template-generate-from-image)
 
 * [広告テンプレートを手動で作成](#template-create)
 
@@ -100,23 +102,75 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 ## AIを使用して広告テンプレートを生成する {#template-generate}
 
-*Beta機能*
+[!UICONTROL Creative Studio]のAIを使用して、テキストプロンプトまたは既存の静的ディスプレイ広告イメージから編集可能なディスプレイ広告テンプレートを生成します。
 
-[!UICONTROL Creative Studio]のAIを使用して、既存の静的ディスプレイ広告イメージを編集可能なディスプレイ広告テンプレートに変換します。 3段階のウィザードを使用すると、テンプレートの生成とレビュー、自然言語を使用した変更のリクエスト、テンプレートエディターの開いた状態で手動による変更を行い、テンプレートを保存できます。
+### テキストプロンプトから広告テンプレートを生成する {#template-generate-from-text}
 
-### 前提条件
+作成するテンプレートを記述し、オプションでブランドプロファイルと画像を選択し、複数の生成されたテンプレートを確認します。 既存の画像広告は必要ありません。
 
-Creativeライブラリには、静止画像の広告が必要です。 このワークフローでは、ライブラリから広告を選択します。生成ダイアログに新しい画像を直接アップロードすることはありません。
+1. メインメニューで、**[!UICONTROL Creative Studio]**&#x200B;をクリックします。
 
-<!--
+1. 「**[!UICONTROL Templates]**」タブをクリックします。
 
-Publish this when prompt-based generation becomes available:
+1. （オプション）ページ上部の広告主リストから広告主を選択して、その広告主のブランドプロファイルを表示します。
 
-To generate a template from an existing image, you need a static image ad in a Creative Library. This option selects ads from your libraries; it doesn't upload a new image directly in the generation dialog. You don't need an existing ad image to generate a template from a prompt.
+1. **[!UICONTROL Use AI to Generate a New Display Ad Template]** ボックスで、**[!UICONTROL Generate]**&#x200B;をクリックします。
 
--->
+1. **[!UICONTROL Generate New Ad Template]** ダイアログで、「**[!UICONTROL Generate from Prompt]**」タブがまだ選択されていない場合はそれをクリックします。
 
-### 手順1：テンプレートの生成とレビュー
+1. **[!UICONTROL Template size]**&#x200B;を選択します。
+
+   デフォルトは300 x 250 ピクセルです。 現在のセッションで生成開始後にサイズを変更することはできません。
+
+1. （オプション） **[!UICONTROL Brand]** リストからブランドプロファイルを選択して、生成のブランドコンテキストを提供します。
+
+1. （オプション）生成されたテンプレートに画像を含めるには、次の手順を実行します。
+
+   1. **[!UICONTROL Add image]**&#x200B;をクリックします。
+
+   1. **[!UICONTROL Select from Asset Library]** ビューで、既存の画像を選択するか、**[!UICONTROL Browse files]**&#x200B;をクリックしてアップロードします。
+
+      サポートされているアップロードフォーマットは、PNG、JPEG、GIF、TIFFです。 一度に1つの画像を添付できます。
+
+   1. **[!UICONTROL Add to chat]**&#x200B;をクリックします。
+
+1. 「**[!UICONTROL Generation prompt]**」フィールドに、作成するテンプレートを記述します。 レイアウト、見出し、call to action、ビジュアルスタイルなどの詳細を含めます。
+
+   例えば、`Create a summer sale ad with a blue background, the headline "Summer Savings," and a "Shop Now" button`と入力します。
+
+1. **[!UICONTROL Generate]**&#x200B;をクリックし、テンプレートのプレビューを待ちます。
+
+   各リクエストで最大4つのテンプレートが生成されます。 テンプレートを選択する前に、テキスト、画像、レイアウトを確認します。
+
+1. （オプション）その他のオプションを表示するには、**[!UICONTROL Generate more results]**&#x200B;をクリックします。 プロンプトを修正して、**[!UICONTROL Generate]**&#x200B;をクリックすることもできます。
+
+   結果は、1 セッションにつき20個まで生成されたテンプレートを含むダイアログに蓄積されます。
+
+1. 使用するテンプレートの上にカーソルを置き、**[!UICONTROL Open in Editor]**&#x200B;をクリックします。
+
+   表示テンプレートエディターが新しいブラウザータブで開き、生成された結果は元のタブで使用できます。
+
+1. 生成された要素を確認し、[ テンプレートエディターのコントロール ](#template-controls)を使用して残りの変更を行います。
+
+1. **[!UICONTROL Save]**&#x200B;をクリックします。
+
+1. **[!UICONTROL Save As New Template]** ダイアログで、**[!UICONTROL Template name]**&#x200B;を入力し、**[!UICONTROL Advertiser]**&#x200B;を選択し、オプションでタグを追加してから、**[!UICONTROL Save]**&#x200B;をクリックします。
+
+   テンプレートが新しいコピーとして保存され、エディタータブが&#x200B;**[!UICONTROL Templates]** ビューに戻ります。 次に、保存したテンプレートを使用して、[広告バリエーションを生成](#ad-variations-generate)できます。
+
+>[!NOTE]
+>
+> 生成が開始されると、同じダイアログでテキスト生成と画像生成を切り替えることはできません。 別のサイズまたは生成方法で最初からやり直すには、**[!UICONTROL Cancel]**&#x200B;をクリックして、ダイアログを再度開きます。 まず、エディターに保存したいテンプレートを保存します。
+
+### 画像から広告テンプレートを生成 {#template-generate-from-image}
+
+既存の静的ディスプレイ広告画像を編集可能なディスプレイ広告テンプレートに変換し、自然言語を使用して変更を要求し、テンプレートエディターを開いて手作業で変更し、テンプレートを保存します。
+
+#### 前提条件
+
+この機能を使用するには、Creative ライブラリの静止画像の広告が必要です。 このワークフローでは、ライブラリから広告を選択します。生成ダイアログに新しい画像を直接アップロードすることはありません。
+
+#### 手順1：テンプレートの生成とレビュー
 
 1. メインメニューで、**[!UICONTROL Creative Studio]**&#x200B;をクリックします。
 
@@ -126,7 +180,7 @@ To generate a template from an existing image, you need a static image ad in a C
 
 1. **[!UICONTROL Use AI to Generate a New Display Ad Template]** ボックスで、**[!UICONTROL Generate]**&#x200B;をクリックします。
 
-1. **[!UICONTROL Generate New Ad Template]** ダイアログで、まだ選択されていない場合は&#x200B;**[!UICONTROL Generate from Existing Standard Ad Image]**&#x200B;を選択します。
+1. **[!UICONTROL Generate New Ad Template]** ダイアログで、「**[!UICONTROL Generate from Existing Standard Ad Image]**」タブをクリックします。
 
 1. **[!UICONTROL Ad Library]** リストから画像広告を含むライブラリを選択します。
 
@@ -134,37 +188,9 @@ To generate a template from an existing image, you need a static image ad in a C
 
    選択した広告の幅と高さを使用して、生成が自動的に開始されます。
 
-<!--
-
-Switch to this when prompt-based generation becomes available:
-
-1. In the **[!UICONTROL Generate New Ad Template]** dialog, choose how to generate the template:
-
-   * **[!UICONTROL Generate from Prompt]:** Describe the ad template you want to create using a text prompt.
-
-   * **[!UICONTROL Generate from Existing Standard Ad Image]:** Convert an existing static image ad into an editable template.
-
-1. Follow the steps for your selected option:
-
-   * From a prompt:
-
-      1. Enter a description of the template you want to create. Include details such as the layout, headline, call to action, and visual style.
-
-      1. Follow the on-screen instructions to generate the template.
-
-   * From an existing standard ad image:
-
-      1. Select the library containing the image ad from the **[!UICONTROL Ad Library]** list.
-
-      1. Hold the cursor over the image ad card and click **[!UICONTROL Use this Standard Ad]**.
-
-         Generation begins automatically, using the selected ad's width and height.
-
--->
-
 1. [生成されたテンプレートをレビューして調整する](#template-review)。
 
-### 手順2：テンプレートのレビューと調整 {#template-review}
+#### 手順2：テンプレートのレビューと調整 {#template-review}
 
 1. 生成が完了するのを待ってから、テンプレートのプレビューと&#x200B;**[!UICONTROL Layers]** パネルが使用可能な場合は確認します。
 
@@ -182,7 +208,7 @@ Switch to this when prompt-based generation becomes available:
 
    生成されたテンプレートが表示テンプレートエディターで開きます。
 
-### 手順3：テンプレートの編集と保存 {#template-save}
+#### 手順3：テンプレートの編集と保存 {#template-save}
 
 >[!TIP]
 >
@@ -190,7 +216,7 @@ Switch to this when prompt-based generation becomes available:
 >
 > 最適な結果を得るには、テンプレートエディターで、AIで生成したロゴを、ピクセルに最適なオリジナルのロゴに置き換えます。
 
-1. テンプレートエディターで、生成された要素を確認し、[&#x200B; テンプレートエディターコントロール &#x200B;](#template-controls)を使用して残りの変更を行います。
+1. テンプレートエディターで、生成された要素を確認し、[ テンプレートエディターコントロール ](#template-controls)を使用して残りの変更を行います。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -206,16 +232,11 @@ Switch to this when prompt-based generation becomes available:
 
 | イシュー | 今後の施策 |
 | --- | --- |
+| テキストベースの生成が失敗するか、リクエストが拒否されます | 表示されたメッセージを確認し、必要に応じてプロンプトを修正し、**[!UICONTROL Generate]**&#x200B;をクリックして再試行します。 |
+| セッションは20個の生成されたテンプレートに達しました | 保存したいテンプレートをエディターに保存し、**[!UICONTROL Cancel]**&#x200B;をクリックして生成ダイアログを再度開き、新しいセッションを開始します。 |
+| テキストで生成された結果からエディターが開かない | サイトのポップアップを許可してから、**[!UICONTROL Open in Editor]**&#x200B;をもう一度クリックしてください。 |
 | 画像から生成する際に、ライブラリまたは画像広告が表示されない | 選択した広告主と&#x200B;**[!UICONTROL Ad Library]**&#x200B;を確認してください。 ライブラリに標準広告画像がない場合は、既存の静的画像広告を含む別のライブラリを選択します。 |
 | 画像ベースの生成が失敗するか、画像を変換できません | 表示されたメッセージを確認し、**[!UICONTROL Back to library]**&#x200B;をクリックして画像広告を選択し、もう一度試してください。 |
-
-<!--
-
-Add when prompt-based generation is available:
-
-| Prompt-based generation fails | Review the displayed message and revise your prompt before trying again. |
-
--->
 
 ## 広告テンプレートを手動で作成 {#template-create}
 
@@ -229,7 +250,7 @@ Add when prompt-based generation is available:
 
 1. （広告を表示）広告テンプレートのサイズを選択し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-1. テンプレートエディター[&#128279;](#template-controls)の コントロールを使用して、テンプレート設定を構成します。
+1. テンプレートエディター](#template-controls)の[ コントロールを使用して、テンプレート設定を構成します。
 
 1. （オプション）定義されたテンプレートのコピーをダウンロードするには、**[!UICONTROL ...]** > **[!UICONTROL Download]**&#x200B;をクリックします。
 
@@ -291,7 +312,7 @@ ZIP ファイルとしてパッケージ化された1つ以上の事前定義済
 
 1. テンプレートカードまたはテーブルの行にカーソルを置き、**[!UICONTROL ...]** > **[!UICONTROL Edit Template]**&#x200B;をクリックします。
 
-1. テンプレートエディター[&#128279;](#template-controls)の コントロールを使用して、テンプレートレイアウトまたは要素を編集します。
+1. テンプレートエディター](#template-controls)の[ コントロールを使用して、テンプレートレイアウトまたは要素を編集します。
 
 1. （オプション）定義されたテンプレートのコピーをダウンロードするには、**[!UICONTROL ...]** > **[!UICONTROL Download]**&#x200B;をクリックします。
 
@@ -432,7 +453,7 @@ The top toolbar above the canvas is the same for both display and video template
 | **[!UICONTROL Links]** | テンプレート内の要素に添付されたクリックスルーURLを管理するパネルを開きます。 |
 | ズームコントロール | 「**[!UICONTROL Zoom out]**」または「**[!UICONTROL Zoom in]**」をクリックして、カンバスの倍率を調整します（10% ～ 150%、10%単位）。 ズームレベルのラベル（キャンバスが自動的にフィットする場合は&#x200B;**[!UICONTROL Auto]**、手動で設定する場合は割合）をクリックして、オプションのメニューを開きます（**[!UICONTROL Auto-Fit Page]**、**[!UICONTROL 100% Zoom]**、**[!UICONTROL 50% Zoom]**、**[!UICONTROL Zoom In]**、および&#x200B;**[!UICONTROL Zoom Out]**）。 |
 | 広告サイズ | 現在の広告ディメンションを表示します（例：300 × 250）。 クリックしてサイズピッカーを開きます。このサイズピッカーには、一般的に使用される6つのIAB標準サイズがカードとして表示され、さらに19の標準IAB ディスプレイ広告サイズすべてを含むドロップダウンが表示されます。 新しいテンプレートのデフォルトサイズは300 × 250 （Medium Rectangle）です。 |
-| ![&#x200B; レイヤーパネルを開く](/help/creative/assets/layers-panel-open.png " レイヤーパネルを開く") | [!UICONTROL Layers] パネルを開きます。 [!UICONTROL Layers] パネルを閉じた場合にのみ表示されます。 |
+| ![ レイヤーパネルを開く](/help/creative/assets/layers-panel-open.png " レイヤーパネルを開く") | [!UICONTROL Layers] パネルを開きます。 [!UICONTROL Layers] パネルを閉じた場合にのみ表示されます。 |
 
 #### ビデオ広告テンプレート
 
@@ -440,7 +461,7 @@ The top toolbar above the canvas is the same for both display and video template
 | --- | --- |
 | **[!UICONTROL Undo]** / ![やり直し](/help/creative/assets/cs-icon-redo.png "やり直し") **[!UICONTROL Redo]** | 最後のアクションを取り消すか、やり直します。 |
 | ズームコントロール | **[!UICONTROL Zoom out]**&#x200B;または&#x200B;**[!UICONTROL Zoom in]**&#x200B;をクリックして、キャンバスの倍率を調整します。 ズームレベルをクリックして、オプション **[!UICONTROL Auto-Fit Page]**、**[!UICONTROL 100% Zoom]**、**[!UICONTROL 50% Zoom]**、**[!UICONTROL Zoom In]**、**[!UICONTROL Zoom Out]**&#x200B;のメニューを開きます。 |
-| ![&#x200B; レイヤーパネルを開く](/help/creative/assets/layers-panel-open.png " レイヤーパネルを開く") | [!UICONTROL Layers] パネルを開きます。 [!UICONTROL Layers] パネルを閉じた場合にのみ表示されます。 |
+| ![ レイヤーパネルを開く](/help/creative/assets/layers-panel-open.png " レイヤーパネルを開く") | [!UICONTROL Layers] パネルを開きます。 [!UICONTROL Layers] パネルを閉じた場合にのみ表示されます。 |
 
 <!--
 
@@ -515,7 +536,7 @@ Not there as of 10/15:
 | **[!UICONTROL Typeface]**, **[!UICONTROL Bold]**, **[!UICONTROL Italic]**, **[!UICONTROL Font size]**, **[!UICONTROL Align horizontal]**, **[!UICONTROL Advanced]** | テキスト | フォントファミリー、太さ、サイズ、水平方向の整列、その他の高度なタイポグラフィ設定を調整します。 |
 | **[!UICONTROL Image]** / **[!UICONTROL Video]** | 画像とビデオ | エレメントの塗りつぶし画像またはビデオソースを設定します。 |
 | **[!UICONTROL Trim]** | ビデオとオーディオ | トリミングモードを開いて、クリップの開始点と終了点を設定します。 |
-| ![&#x200B; ボリューム &#x200B;](/help/creative/assets/volume.png " ボリューム ") （[!UICONTROL Volume]） | ビデオとオーディオ | オーディオレベルを調整します。 |
+| ![ ボリューム ](/help/creative/assets/volume.png " ボリューム ") （[!UICONTROL Volume]） | ビデオとオーディオ | オーディオレベルを調整します。 |
 | ![再生速度](/help/creative/assets/speed.png "再生速度") （[!UICONTROL Playback speed]） | ビデオとオーディオ | 再生率を調整します。 |
 | ![切り抜き](/help/creative/assets/crop.png "切り抜き") （[!UICONTROL Crop]） | すべて | 要素をカスタム領域に切り抜きます。 |
 | 回転と反転のコントロール | すべて | 選択したエレメントを回転または反転します。 |
@@ -526,11 +547,11 @@ Not there as of 10/15:
 | **[!UICONTROL Shadow]** | すべて | ドロップシャドウを追加または編集します。 |
 | **[!UICONTROL Opacity]** | すべて | エレメントの透明度レベルを設定します。 |
 | **[!UICONTROL Position]** | すべて | エレメントのサイズ、位置、回転を数値で調整します。 |
-| ![&#x200B; パネルの編集](/help/creative/assets/cs-template-video-editing-panel.png " パネルの編集") | すべて | 選択した要素の[編集パネル &#x200B;](#detailed-element-properties-for-video-templates)を開いたり閉じたりします。その他の編集機能があります。 |
+| ![ パネルの編集](/help/creative/assets/cs-template-video-editing-panel.png " パネルの編集") | すべて | 選択した要素の[編集パネル ](#detailed-element-properties-for-video-templates)を開いたり閉じたりします。その他の編集機能があります。 |
 
 #### ビデオテンプレートの詳細な要素プロパティ
 
-ビデオテンプレートエディターで、ツールバーの「![編集パネル &#x200B;](/help/creative/assets/cs-template-video-editing-panel.png "編集パネル ")」をクリックして、選択した要素の編集パネルを開きます。その他の編集機能を使用できます。 編集パネルはカンバスの左側に表示され、テンプレート内のレイヤーを一覧表示する[!UICONTROL Layers] パネルとは別になっています。
+ビデオテンプレートエディターで、ツールバーの「![編集パネル ](/help/creative/assets/cs-template-video-editing-panel.png "編集パネル ")」をクリックして、選択した要素の編集パネルを開きます。その他の編集機能を使用できます。 編集パネルはカンバスの左側に表示され、テンプレート内のレイヤーを一覧表示する[!UICONTROL Layers] パネルとは別になっています。
 
 ##### 個々の要素
 
@@ -541,22 +562,22 @@ Not there as of 10/15:
 | [!UICONTROL Layer] | 整列とレイヤーの配置 | 選択したレイヤーを左、水平方向の中央、右、上、垂直方向の中央または下に整列させます。 配置メニューで、前面から背面への重ね順が変更されます。 これらのコントロールは、レイヤー自体を配置します。レイヤー内のテキストを正当化しません。 |
 | | [!UICONTROL Rotate & Flip] | 回転角度を度単位で入力します。 ![水平方向を反転](/help/creative/assets/cs-template-video-flip.png "水平方向を反転")してレイヤーを水平方向にミラーリングするか、![垂直方向を反転](/help/creative/assets/cs-template-video-flip-vertical.png "垂直方向を反転")して垂直方向にミラーリングします。 |
 | | ![不透明度](/help/creative/assets/cs-template-video-opacity.png "不透明度") [!UICONTROL Opacity] | 選択したレイヤーの透明度を調整します。 |
-| | ![描画モード &#x200B;](/help/creative/assets/cs-template-video-blend-mode.png "描画モード ") [!UICONTROL Blend Mode] | 選択したレイヤーのカラーとその背後にあるレイヤーの組み合わせ方法を変更します。 |
+| | ![描画モード ](/help/creative/assets/cs-template-video-blend-mode.png "描画モード ") [!UICONTROL Blend Mode] | 選択したレイヤーのカラーとその背後にあるレイヤーの組み合わせ方法を変更します。 |
 | | [!UICONTROL Transform]: [!UICONTROL Position & Size] | レイヤーの位置と寸法に関する追加コントロールを開きます。 使用可能かどうかは、選択したレイヤーの変換権限によって異なります。 |
-| [!UICONTROL Shape] | ![&#x200B; シェイプオプション &#x200B;](/help/creative/assets/cs-template-video-shape-options.png " シェイプオプション ") [!UICONTROL Shape]およびシェイプ固有のプロパティ | ポイント、辺、内径、線幅、コーナー半径など、シェイプとその使用可能なプロパティを変更します。 コントロールは、選択したシェイプによって異なります。 |
+| [!UICONTROL Shape] | ![ シェイプオプション ](/help/creative/assets/cs-template-video-shape-options.png " シェイプオプション ") [!UICONTROL Shape]およびシェイプ固有のプロパティ | ポイント、辺、内径、線幅、コーナー半径など、シェイプとその使用可能なプロパティを変更します。 コントロールは、選択したシェイプによって異なります。 |
 | | [!UICONTROL Vector]: [!UICONTROL Edit Path] | 使用可能な場合は、シェイプのパスを編集するベクター編集モードを開始します。 |
-| [!UICONTROL Character] | ![書体](/help/creative/assets/cs-template-video-typeface.png "書体")書体、![&#x200B; テキストスタイル &#x200B;](/help/creative/assets/cs-template-video-text-style.png " テキストスタイル ") テキストスタイル、![太字](/help/creative/assets/cs-template-video-text-bold.png "太字")太字、![斜体](/help/creative/assets/cs-template-video-text-italic.png "斜体")斜体、および![&#x200B; フォントサイズ &#x200B;](/help/creative/assets/cs-template-video-font-size.png " フォントサイズ ") | （テキストレイヤー）選択したテキストのフォントファミリー、フォントスタイル、サイズを変更します。 |
+| [!UICONTROL Character] | ![書体](/help/creative/assets/cs-template-video-typeface.png "書体")書体、![ テキストスタイル ](/help/creative/assets/cs-template-video-text-style.png " テキストスタイル ") テキストスタイル、![太字](/help/creative/assets/cs-template-video-text-bold.png "太字")太字、![斜体](/help/creative/assets/cs-template-video-text-italic.png "斜体")斜体、および![ フォントサイズ ](/help/creative/assets/cs-template-video-font-size.png " フォントサイズ ") | （テキストレイヤー）選択したテキストのフォントファミリー、フォントスタイル、サイズを変更します。 |
 | | ![左揃え](/help/creative/assets/cs-template-video-text-align-l.png "左揃え") / ![中央揃え](/help/creative/assets/cs-template-video-text-align-c.png "中央揃え") / ![右揃え](/help/creative/assets/cs-template-video-text-align-r.png "右揃え") テキスト揃え | （テキストレイヤー）フレーム内のテキストを左、中央、右に揃えるか、整列を自動的に検出します。 |
 | | ![詳細テキスト設定](/help/creative/assets/cs-template-video-advanced-text.png "詳細テキスト設定")詳細テキスト設定 | （テキストレイヤー）追加のタイポグラフィ設定を開きます。 |
 | [!UICONTROL Fill] | ![塗りつぶし](/help/creative/assets/cs-template-video-fill.png "塗りつぶし")塗りつぶしコントロール | 選択したレイヤーのカラー、画像、またはビデオの塗りを変更します。 コントロールには、現在の塗りつぶしタイプが反映され、設定が開きます。 テキストの場合、テキストの色を変更します。 |
 | [!UICONTROL Stroke] | ![線](/help/creative/assets/cs-template-video-stroke.png "線")線コントロール | アウトラインを有効または無効にし、カラー、幅、スタイル、配置を変更します。 ストロークを有効にすると、追加のコントロールが表示されます。 |
-| [!UICONTROL Text Background] | ![&#x200B; テキストの背景](/help/creative/assets/cs-template-video-text-bg.png " テキストの背景")背景コントロール | （テキストレイヤー） テキストの背景を追加または変更します。 |
-| [!UICONTROL Animations] | ![&#x200B; アニメーション &#x200B;](/help/creative/assets/cs-template-video-animation.png " アニメーション ") [!UICONTROL Presets] | 選択したレイヤーのアニメーションプリセット（入口、終了、ループのアニメーションなど）を開きます。 |
+| [!UICONTROL Text Background] | ![ テキストの背景](/help/creative/assets/cs-template-video-text-bg.png " テキストの背景")背景コントロール | （テキストレイヤー） テキストの背景を追加または変更します。 |
+| [!UICONTROL Animations] | ![ アニメーション ](/help/creative/assets/cs-template-video-animation.png " アニメーション ") [!UICONTROL Presets] | 選択したレイヤーのアニメーションプリセット（入口、終了、ループのアニメーションなど）を開きます。 |
 | [!UICONTROL Appearance] | ![調整](/help/creative/assets/cs-template-video-adjustments.png "調整") [!UICONTROL Adjustments] | 選択したレイヤーのビジュアルプロパティを変更します。 |
-| | ![&#x200B; フィルター](/help/creative/assets/cs-template-video-filter.png " フィルター") [!UICONTROL Filter] | 選択したレイヤーにビジュアルフィルターを適用します。 |
+| | ![ フィルター](/help/creative/assets/cs-template-video-filter.png " フィルター") [!UICONTROL Filter] | 選択したレイヤーにビジュアルフィルターを適用します。 |
 | | ![効果](/help/creative/assets/cs-template-video-effects.png "効果") [!UICONTROL Effect] | 選択したレイヤーにエフェクトを適用します。 |
 | | ![ぼかし](/help/creative/assets/cs-template-video-blur.png "ぼかし") [!UICONTROL Blur] | 選択したレイヤーにぼかしを適用します。 |
-| | ![&#x200B; シャドウ &#x200B;](/help/creative/assets/cs-template-video-shadow.png " シャドウ ") [!UICONTROL Shadow] | 選択したレイヤーのシャドウを追加または変更します。 |
+| | ![ シャドウ ](/help/creative/assets/cs-template-video-shadow.png " シャドウ ") [!UICONTROL Shadow] | 選択したレイヤーのシャドウを追加または変更します。 |
 
 ##### 複数の選択肢と特殊要素
 
@@ -567,11 +588,11 @@ Not there as of 10/15:
 | [!UICONTROL Layer] | 整列とレイヤーの配置 | 選択した複数の要素またはグループを整列させます。 配置メニューでは、前面から背面への重ね順が変更されます。 |
 | | [!UICONTROL Rotate & Flip] | 選択したエレメントまたはグループを回転または反転します。 |
 | | ![不透明度](/help/creative/assets/cs-template-video-opacity.png "不透明度") [!UICONTROL Opacity] | 選択したエレメントまたはグループの透明度を調整します。 |
-| | ![描画モード &#x200B;](/help/creative/assets/cs-template-video-blend-mode.png "描画モード ") [!UICONTROL Blend Mode] | 選択したエレメントまたはグループのカラーと、その背後にあるレイヤーとの組み合わせ方法を変更します。 |
+| | ![描画モード ](/help/creative/assets/cs-template-video-blend-mode.png "描画モード ") [!UICONTROL Blend Mode] | 選択したエレメントまたはグループのカラーと、その背後にあるレイヤーとの組み合わせ方法を変更します。 |
 | | [!UICONTROL Transform]: [!UICONTROL Position & Size] | 選択したエレメントまたはグループの位置と寸法のコントロールを開きます。 使用可能なコントロールは、選択した要素によって異なります。 |
-| [!UICONTROL Selection] | ![&#x200B; グループ &#x200B;](/help/creative/assets/cs-template-video-group.png " グループ ") グループ / ![&#x200B; グループ解除](/help/creative/assets/cs-template-video-ungroup.png " グループ解除") グループ解除 | 選択した複数のレイヤーまたは選択したグループの[!UICONTROL Layer]の下に表示されます。 選択したレイヤーをグループ化して一緒に管理したり、グループを個別のレイヤーに分割したりできます。 |
-| [!UICONTROL Settings] | ![&#x200B; カットアウトクリップ &#x200B;](/help/creative/assets/cs-template-video-cutout-clip.png " カットアウトクリップ ") / ![&#x200B; カットアウトオーバーレイ &#x200B;](/help/creative/assets/cs-template-video-cutout-overlay.png " カットアウトオーバーレイ ") カットアウトコントロール | （カットアウトレイヤー）が[!UICONTROL Layer]の下に表示されます。 カットアウトタイプを選択し、そのオフセットとエッジのスムージングを調整します。 |
-| [!UICONTROL Audio Properties] | ![&#x200B; トリミング &#x200B;](/help/creative/assets/cs-template-video-trim.png " トリミング ") トリミング、![&#x200B; ボリューム &#x200B;](/help/creative/assets/cs-template-video-volume.png " ボリューム ") ボリューム、![再生速度](/help/creative/assets/cs-template-video-playback-speed.png "再生速度")再生速度 | （オーディオレイヤー） クリップの開始点と終了点、オーディオレベル、再生速度を設定します。 |
+| [!UICONTROL Selection] | ![ グループ ](/help/creative/assets/cs-template-video-group.png " グループ ") グループ / ![ グループ解除](/help/creative/assets/cs-template-video-ungroup.png " グループ解除") グループ解除 | 選択した複数のレイヤーまたは選択したグループの[!UICONTROL Layer]の下に表示されます。 選択したレイヤーをグループ化して一緒に管理したり、グループを個別のレイヤーに分割したりできます。 |
+| [!UICONTROL Settings] | ![ カットアウトクリップ ](/help/creative/assets/cs-template-video-cutout-clip.png " カットアウトクリップ ") / ![ カットアウトオーバーレイ ](/help/creative/assets/cs-template-video-cutout-overlay.png " カットアウトオーバーレイ ") カットアウトコントロール | （カットアウトレイヤー）が[!UICONTROL Layer]の下に表示されます。 カットアウトタイプを選択し、そのオフセットとエッジのスムージングを調整します。 |
+| [!UICONTROL Audio Properties] | ![ トリミング ](/help/creative/assets/cs-template-video-trim.png " トリミング ") トリミング、![ ボリューム ](/help/creative/assets/cs-template-video-volume.png " ボリューム ") ボリューム、![再生速度](/help/creative/assets/cs-template-video-playback-speed.png "再生速度")再生速度 | （オーディオレイヤー） クリップの開始点と終了点、オーディオレベル、再生速度を設定します。 |
 
 #### キャンバス上でエレメントを直接編集する
 
@@ -640,10 +661,10 @@ Not there as of 10/15:
 
 | アクション | 説明 |
 | --- | --- |
-| ![&#x200B; レイヤー名の変更](/help/creative/assets/edit.png " レイヤー名の変更") **[!UICONTROL Rename layer]** | パネルに新しいレイヤー名を入力できます。 |
-| ![&#x200B; レイヤーをロック &#x200B;](/help/creative/assets/cs-icon-lock.png " レイヤーをロック ") **[!UICONTROL Lock layer]** / ![&#x200B; レイヤーをロック解除](/help/creative/assets/cs-icon-unlock.png " レイヤーをロック解除") **[!UICONTROL Unlock layer]** | レイヤーの移動、編集、並べ替えを防止または許可します。 |
-| ![&#x200B; レイヤーを非表示](/help/creative/assets/cs-icon-hidden.png " レイヤーを非表示") **[!UICONTROL Hide layer]** / ![&#x200B; レイヤーを表示](/help/creative/assets/cs-icon-visible.png " レイヤーを表示") **[!UICONTROL Show layer]** | カンバス上のレイヤーを表示または非表示にします。 非表示のレイヤーはテンプレート内に保持されますが、テンプレートのレンダリング時には表示されません。 |
-| ![&#x200B; ドラッグして並べ替え](/help/creative/assets/cs-icon-drag.png " ドラッグして並べ替え") ドラッグして並べ替え | （広告テンプレートの表示のみ）並べ替えアイコンをドラッグして、レイヤーの重なり順の位置を変更します。 レイヤーをロック解除して並べ替える必要があります。 |
+| ![ レイヤー名の変更](/help/creative/assets/edit.png " レイヤー名の変更") **[!UICONTROL Rename layer]** | パネルに新しいレイヤー名を入力できます。 |
+| ![ レイヤーをロック ](/help/creative/assets/cs-icon-lock.png " レイヤーをロック ") **[!UICONTROL Lock layer]** / ![ レイヤーをロック解除](/help/creative/assets/cs-icon-unlock.png " レイヤーをロック解除") **[!UICONTROL Unlock layer]** | レイヤーの移動、編集、並べ替えを防止または許可します。 |
+| ![ レイヤーを非表示](/help/creative/assets/cs-icon-hidden.png " レイヤーを非表示") **[!UICONTROL Hide layer]** / ![ レイヤーを表示](/help/creative/assets/cs-icon-visible.png " レイヤーを表示") **[!UICONTROL Show layer]** | カンバス上のレイヤーを表示または非表示にします。 非表示のレイヤーはテンプレート内に保持されますが、テンプレートのレンダリング時には表示されません。 |
+| ![ ドラッグして並べ替え](/help/creative/assets/cs-icon-drag.png " ドラッグして並べ替え") ドラッグして並べ替え | （広告テンプレートの表示のみ）並べ替えアイコンをドラッグして、レイヤーの重なり順の位置を変更します。 レイヤーをロック解除して並べ替える必要があります。 |
 
 **パネルフッター**
 
