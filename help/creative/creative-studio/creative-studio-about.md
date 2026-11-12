@@ -33,7 +33,7 @@ ht-degree: 0%
 
 * **広告テンプレートの作成と管理：**
 
-  * **AIを使用してテキストから生成：** [ テキストプロンプト ](creative-studio-manage-templates.md#template-generate-from-text)からディスプレイ広告テンプレートを生成します（オプションでブランドプロファイルと画像を含む）。 複数の結果を確認し、エディターでテンプレートを開いて、新しいコピーをカスタマイズして保存します。
+  * **AIを使用してテキストから生成：** [&#x200B; テキストプロンプト &#x200B;](creative-studio-manage-templates.md#template-generate-from-text)からディスプレイ広告テンプレートを生成します（オプションでブランドプロファイルと画像を含む）。 複数の結果を確認し、エディターでテンプレートを開いて、新しいコピーをカスタマイズして保存します。
 
   * **AIを使用して画像から生成：** [既存の静的ディスプレイ広告画像を編集可能なテンプレートに変換](creative-studio-manage-templates.md#template-generate-from-image)。 Creativeライブラリから画像の広告を選択し、生成されたテンプレートを確認して、自然言語を使用して変更をリクエストします。 テンプレートエディターを開いて手動で変更し、テンプレートを保存します。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 * **広告コンテンツと形式のカスタマイズ：**
 
-  * **ブランドガイドラインの適用：** [ ブランドプロファイル ](/help/creative/brands/brand-manage.md)が適用されると、AIはブランドのロゴ、カラーパレット、音声ガイドライン、画像標準、チャネルガイドラインを使用して、生成されたコンテンツをブランドに即したものにします。
+  * **ブランドガイドラインの適用：** [&#x200B; ブランドプロファイル &#x200B;](/help/creative/brands/brand-manage.md)が適用されると、AIはブランドのロゴ、カラーパレット、音声ガイドライン、画像標準、チャネルガイドラインを使用して、生成されたコンテンツをブランドに即したものにします。
 
   * **ライブラリアセットの添付：** アセットライブラリから選択して、画像やその他のアセットをAI チャットメッセージに直接添付し、コンテンツ生成中もビジュアルコンテキストを利用できるようにします。
 
@@ -63,9 +63,9 @@ ht-degree: 0%
 
 | ワークフロー | 使用するタイミング |
 | --- | --- |
-| [ テンプレートから標準広告を生成](creative-studio-manage-standard-ads.md) | ディスプレイまたはビデオ テンプレートを選択し、[!UICONTROL Ad Variations Generator]を使用して、AIが生成したコンテンツのバリエーションを作成します。 テンプレートが既に存在していて、AIによるコンテンツ生成が必要な場合に最適です。 |
+| [&#x200B; テンプレートから標準広告を生成](creative-studio-manage-standard-ads.md) | ディスプレイまたはビデオ テンプレートを選択し、[!UICONTROL Ad Variations Generator]を使用して、AIが生成したコンテンツのバリエーションを作成します。 テンプレートが既に存在していて、AIによるコンテンツ生成が必要な場合に最適です。 |
 | [動的なクリエイティブの管理](creative-studio-manage-dynamic-ads.md) | 製品またはコンテンツカタログをテンプレートに接続し、カタログフィールドをテンプレート要素にマッピングしてから、AI エージェントを使用して生成されたすべての広告の組み合わせをプレビューおよびQAします。 カタログ主導の大規模なキャンペーンに最適です。 |
-| [ テキストからテンプレートを生成](creative-studio-manage-templates.md#template-generate-from-text) | ディスプレイ広告テンプレートを記述し、オプションでブランドプロファイルと画像を選択し、AIが生成した結果から選択します。 既存の広告デザインがない新しいテンプレートが必要な場合に最適です。 |
+| [&#x200B; テキストからテンプレートを生成](creative-studio-manage-templates.md#template-generate-from-text) | ディスプレイ広告テンプレートを記述し、オプションでブランドプロファイルと画像を選択し、AIが生成した結果から選択します。 既存の広告デザインがない新しいテンプレートが必要な場合に最適です。 |
 | [画像からテンプレートを生成](creative-studio-manage-templates.md#template-generate-from-image) | （Betaの機能）既存の静的なディスプレイ広告イメージをCreative ライブラリから編集可能なテンプレートに変換し、自然言語を使用して変更をリクエストし、テンプレートを編集して保存します。 既存の画像広告を開始デザインとして使用する場合に最適です。 |
 | 新しいテンプレートを作成する | 空白のキャンバスから開始して、ディスプレイまたはビデオテンプレートを作成します。 既存のテンプレートがお客様のニーズを満たしていない場合に最適です。 |
 | HTML 5 テンプレートのアップロード | ZIP ファイルとしてパッケージ化された1つ以上のHTML5広告テンプレートを読み込みます。 実稼動対応のHTML5 クリエイターが[!DNL Advertising Creative]以外で作成されている場合に最適です。 |
@@ -85,4 +85,4 @@ ht-degree: 0%
 >* [Creative Studioでテンプレートを管理](creative-studio-manage-templates.md)
 >* [Creative Studioでアセットを管理](creative-studio-manage-assets.md)
 >* [Advertising Creativeでブランドプロファイルを管理](/help/creative/brands/brand-manage.md)
->* [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)の[C2PA メタデータ
+>* [!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-content-credentials.md)のC2PA メタデータ
