@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ##### HTML5のクリエイティブ
 
-* **GenStudio エクスペリエンス：** [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)の[&#x200B; ディスプレイ広告エクスペリエンス &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)からすべての広告バリエーションを個々のHTML5 クリエイターとして読み込むことができます。 外部リンクはローカル参照に変換されます。 HTML コンテンツは最大20 MB、個々の画像は最大50 MBです。
+* **GenStudio エクスペリエンス：** [GenStudio for Performance Marketing](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)の[&#x200B; ディスプレイ広告エクスペリエンス &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)からすべての広告バリエーションを個々のHTML5 クリエイターとして読み込むことができます。 外部リンクはローカル参照に変換されます。 HTML コンテンツは最大20 MB、個々の画像は最大50 MBです。
 
   GenStudio エクスペリエンスを読み込むと、読み込んだクリエイティブのメタデータ（名前、言語、タグ）は編集できますが、クリエイティブコンテンツは編集できません。 GenStudio内でGenStudio エクスペリエンスを編集する場合は、[!DNL Creative]でエクスペリエンスを再インポートして最新バージョンを使用します。
 
@@ -101,7 +101,7 @@ GIF、JPEG、JPG、またはPNG形式で画像クリエイティブを含める�
 
 web、モバイル、コネクテッド TV用の1st パーティビデオのクリエイティブを、デバイスやネットワークからアップロードできます。 各動画広告エクスペリエンスには、エクスペリエンスに割り当てられたクリエイティブ期間ごとに、デフォルトの動画クリエイティブが必要です。 DSPでは、すべてのビデオクリエイティブがVAST 2.0 タグとして自動的にトランスコードされるので、プレビューできます。 [!UICONTROL Tag Manager]では、オプションで[DSP固有のトランスコーディング &#x200B;](/help/creative/experiences/experience-tag-video-transcoding.md)を任意のビデオ広告エクスペリエンスタグに適用できます。
 
-次のビデオクリエイティブ要件を参照してください。 **注：** ビデオ エクスペリエンスをAdvertising DSPにアップロードする場合は、[DSPの高精細ビデオの要件](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)も参照してください。これは、より制限されている可能性があります。
+次のビデオクリエイティブ要件を参照してください。 **注：** ビデオ エクスペリエンスをAdvertising DSPにアップロードする場合は、[DSPの高精細ビデオの要件](https://experienceleague.adobe.com/ja/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)も参照してください。これは、より制限されている可能性があります。
 
 **ファイルの種類：** .mov、.mp4、.webm
 
