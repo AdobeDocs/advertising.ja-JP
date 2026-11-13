@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 6e16fa2ca69e4fffa295bcc7014e5499b1215b64
 workflow-type: tm+mt
-source-wordcount: '4577'
+source-wordcount: '5059'
 ht-degree: 0%
 ---
 # 配置の設定
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Fixed/floor price for both Private and On-demand deals]*: アルゴリズムで計算された入札額が少ない場合でも、DSPは、ターゲットとなるプライベートおよび[!DNL On-Demand]件の取引に対して少なくとも固定/床価格を入札します。 これはパフォーマンスに影響を与える可能性があります。
 
-**[!UICONTROL Placement Pre-bid Filters]:**&#x200B;入札を行うには、最大5つのKPIしきい値（最小表示率やクリックスルー率など）を満たす必要があります。 入札前のフィルターを最適化戦術として使用できますが、各ルールによって、このプレースメントで入札できる機会が制限される場合があることを理解してください。 フィルターを追加または編集するには：
+**[!UICONTROL Placement Pre-bid Filters]:**&#x200B;入札を行うには、最大5つのKPIしきい値（最小表示率やクリックスルー率など）を満たす必要があります。 入札前のフィルターは最適化戦術として使用できますが、各ルールでは、このプレースメントで入札できる機会が制限されていることを理解してください。 フィルターを追加または編集するには：
 
 1. ![編集](/help/dsp/assets/edit.png)をクリックします。
 1. 次のいずれかの操作を行います。
@@ -111,7 +111,7 @@ ht-degree: 0%
    * フィルターを削除するには、フィルター行の&#x200B;**[!UICONTROL X]**&#x200B;をクリックします。
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
-各入札前フィルターの説明については、「[&#x200B; プレースメントレベルの入札前フィルターとその使用方法](/help/dsp/optimization/optimization-pre-bid-filters.md)」を参照してください。
+各入札前フィルターの説明については、「[ プレースメントレベルの入札前フィルターとその使用方法](/help/dsp/optimization/optimization-pre-bid-filters.md)」を参照してください。
 
 ### その他すべてのプレースメント
 
@@ -155,7 +155,7 @@ ht-degree: 0%
   >
   >このオプションはパフォーマンスに悪影響を及ぼす可能性があります。 配信と支出の優先順位がパフォーマンスの最適化よりも高い場合にのみ使用してください。
 
-**[!UICONTROL Placement Pre-bid Filters]:** （オプション）入札を行うには、最大5つのフィルターを満たす必要があります。 入札前のフィルターを最適化戦術として使用できますが、各ルールでは、このプレースメントで入札できる機会が制限される場合があることに注意してください。 フィルターを追加または編集するには：
+**[!UICONTROL Placement Pre-bid Filters]:** （オプション）入札を行うには、最大5つのフィルターを満たす必要があります。 入札前のフィルターを最適化戦術として使用できますが、各ルールは、このプレースメントが入札できる機会を制限することに注意してください。 フィルターを追加または編集するには：
 
 1. ![編集](/help/dsp/assets/edit.png)をクリックします。
 1. 次のいずれかの操作を行います。
@@ -181,7 +181,7 @@ ht-degree: 0%
      1. 左側の列で場所の種類を選択します。
      1. （必要に応じて）場所をクリックして展開します。
      1. 場所の横にある「*[!UICONTROL Include]*」をクリックしてターゲットとして含めるか、「*[!UICONTROL Exclude]*」をクリックしてターゲットとして除外します。
-   * [郵便番号リスト &#x200B;](/help/dsp/resources/lists-postal-codes-manage.md)を含めるまたは除外するには：
+   * [郵便番号リスト ](/help/dsp/resources/lists-postal-codes-manage.md)を含めるまたは除外するには：
      1. 左側の列の&#x200B;**[!UICONTROL Postal Code List]**&#x200B;をクリックします。
      1. 郵便番号の横にある「*[!UICONTROL Include]*」をクリックしてターゲットとして含めるか、「*[!UICONTROL Exclude]*」をクリックしてターゲットとして除外します。
    * 郵便番号を検索し、選択したすべての結果を含めるまたは除外するには：
@@ -208,17 +208,17 @@ ht-degree: 0%
 
 ## [!UICONTROL Inventory Targeting]
 
-**[!UICONTROL Inventory Sources]:** ターゲットとして含めるか除外するインベントリ ソース。 ほとんどの配置タイプでは、すべての在庫タイプと各タイプのすべてのソースがデフォルトで含まれています。 [!DNL Roku]件のプレースメントの場合は、在庫タイプとソースを指定する必要があります。 次の種類の在庫から選択できます。
+**[!UICONTROL Inventory Sources]:** ターゲットとして含めるか除外するインベントリ ソース。 ほとんどの配置タイプの場合、DSPには、デフォルトで、すべての在庫タイプと各タイプのすべてのソースが含まれます。 [!DNL Roku]件のプレースメントの場合は、在庫タイプとソースを指定する必要があります。 次の種類の在庫から選択できます。
 
 * [!UICONTROL Public]: （Rokuを除くすべてのプレースメントタイプ） DSPがアクセスできるオープンなExchange インベントリです。 公開在庫を含めることも除外することもできます。
 
   ソース別またはフィード別にリストを表示できます。 フィードでリストを表示する場合、フィード名、フィード キー、または選択した特性タグで検索できます。
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]:DSPで設定したパブリッシャーとの既存のプライベート取引（または[!DNL Roku]件のプレースメントの既存のプライベート [!DNL Roku]件の取引）、および既存の[&#x200B; プライベート取引リスト &#x200B;](/help/dsp/inventory/lists-deals-manage.md)。 公開在庫は含めることができますが、除外することはできません。
+* [!UICONTROL Private] | [!UICONTROL Roku Private]:DSPで設定したパブリッシャーとの既存のプライベート取引（または[!DNL Roku]件のプレースメントの既存のプライベート [!DNL Roku]件の取引）、および既存の[ プライベート取引リスト ](/help/dsp/inventory/lists-deals-manage.md)。 公開在庫は含めることができますが、除外することはできません。
 
   「[!UICONTROL Deals]」タブで、キーワード、キー、取引ID、またはカスタムタグでリストを検索できます。 「[!UICONTROL Deal Lists]」タブで、取引リスト名または取引リスト IDでリストを検索できます。
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: [!DNL DSP]で購読したすべての[&#x200B; プレミアム、保証されていない[!UICONTROL On Demand]在庫](/help/dsp/inventory/on-demand-inventory-about.md) （または[!DNL Roku] プレースメントの[!UICONTROL On Demand] [!DNL Roku]件の取引）です。 [!UICONTROL On Demand]在庫を含めることも除外することもできます。
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: [!DNL DSP]で購読したすべての[ プレミアム、保証されていない[!UICONTROL On Demand]在庫](/help/dsp/inventory/on-demand-inventory-about.md) （または[!DNL Roku] プレースメントの[!UICONTROL On Demand] [!DNL Roku]件の取引）です。 [!UICONTROL On Demand]在庫を含めることも除外することもできます。
 
   ソース別またはフィード別にリストを表示できます。 フィード別にリストを表示する場合、フィード名、フィード キー、または選択したパブリッシャー地域、カテゴリタグ、または特性タグで検索できます。
 
@@ -247,15 +247,49 @@ ht-degree: 0%
 >
 >[!UICONTROL On Demand]のインベントリを購読したが、ターゲットとするパブリッシャーや取引が見つからない場合は、取引のステータスを確認してください。 ステータスについて詳しくは、[概要 [!DNL On Demand]  プレミアム在庫](/help/dsp/inventory/on-demand-inventory-about.md)を参照してください。
 
-**[!UICONTROL Video targeting]:** インベントリ属性でインベントリをターゲットにする（ただし、除外しない）。 同じビデオ属性に複数の値をターゲットする場合、選択した属性のいずれかをターゲットにすることができます（例：\[Player size = large OR Player size = HD\]）。 複数の属性をターゲットにする場合、指定された各属性が存在する必要があります（例：\[Duration = 30-60 min] AND \[Player size = large OR Player size = HD\]）。
+**[!UICONTROL Video targeting]:** ビデオ属性でインベントリをターゲットにする（ただし、除外しない）。 同じビデオ属性に複数の値をターゲットする場合、在庫は選択した任意の値（例えば、[!UICONTROL Large]または[!UICONTROL HD]のプレーヤーサイズ）に一致させることができます。 複数の属性をターゲットにする場合、在庫は指定された各属性と一致する必要があります（例えば、スキップ不可の在庫でプレーヤーサイズが[!UICONTROL Large]または[!UICONTROL HD]の場合など）。
 
-* **[!UICONTROL Player size]:** プレーヤーのサイズ別のターゲット （ただし、除外はしません） インベントリ。 この設定は、プリロールのプレースメント、モバイル標準のプリロールのプレースメント、およびデスクトップ環境とモバイル環境用のユニバーサルビデオのプレースメントに適用されます。 デフォルトでは、すべてのサイズがターゲットになっています。 ターゲットを絞り込むには、特定のターゲットサイズまたは&#x200B;*不明*&#x200B;を選択します。
+* **[!UICONTROL Player size]:**&#x200B;入札リクエストで指定されたプレーヤー幅で在庫をターゲットします（ただし、除外しません）。 この設定は、プリロールのプレースメント、モバイル標準のプリロールのプレースメント、およびデスクトップ環境とモバイル環境用のユニバーサルビデオのプレースメントに適用されます。 デフォルトでは、すべてのサイズがターゲットになっています。 ターゲットを絞り込むには、特定のターゲットサイズまたは[!UICONTROL Unknown]を選択します。
 
-* **[!UICONTROL Playback mode]:**&#x200B;再生の開始方法によってインベントリをターゲットします（ただし、除外しません）。 この設定は、プリロールのプレースメント、モバイル標準のプリロールのプレースメント、およびデスクトップ環境とモバイル環境用のユニバーサルビデオのプレースメントに適用されます。 デフォルトでは、すべてのモードがターゲットになっています。 ターゲットを絞り込むには、特定のターゲットモードまたは&#x200B;*不明*&#x200B;を選択します。
+  * **[!UICONTROL Small]:** 1 ～ 299 ピクセル（幅）。
+  * 幅&#x200B;**[!UICONTROL Large]:** 300 ～ 719 ピクセル
+  * 幅&#x200B;**[!UICONTROL HD]:** 720 10000 ピクセル
+  * **[!UICONTROL Unknown]:** プレーヤーの幅が見つからないか、正の値ではありません。
 
-* **[!UICONTROL Skippability]:** スキップ可能かどうかに応じて、インベントリをターゲットに設定します（ただし、除外しません）。 この設定は、プリロール、モバイル標準プリロール、コネクテッド TV、ユニバーサルビデオプレースメントなど、すべてのVAST/VPAID プレースメントに適用されます。 デフォルトでは、すべてのオプションがターゲットになっています。 ターゲットを絞り込むには、特定のターゲットまたは&#x200B;*不明*&#x200B;を選択します。
+* **[!UICONTROL Playback mode]:**&#x200B;再生の開始方法または継続方法によってインベントリをターゲットします（ただし、除外しません）。 この設定は、プリロールのプレースメント、モバイル標準のプリロールのプレースメント、およびデスクトップ環境とモバイル環境用のユニバーサルビデオのプレースメントに適用されます。 デフォルトでは、すべてのモードがターゲットになっています。 ターゲットを絞り込むには、特定のターゲットモードまたは[!UICONTROL Unknown]を選択します。
 
-**[!UICONTROL Position targeting]:**&#x200B;広告ポジション別の在庫をターゲットにする（ただし除外しない）。 この設定は、プリロール、モバイル標準プリロール、コネクテッド TV、ユニバーサルビデオプレースメントなど、すべてのVAST/VPAID プレースメントに適用されます。 デフォルトでは、すべてのポジションがターゲットになります。 ターゲットを絞り込むには、特定のターゲット位置または&#x200B;*不明*&#x200B;を選択します。
+  サポートされるモードには、デフォルトでサウンドをオンまたはオフにした自動再生、クリックまたはマウスオーバーで開始した再生、デフォルトでサウンドをオンまたはオフにした状態でプレーヤーがビューに入ったときに開始した再生、連続再生などがあります。 入札リクエストに複数の再生方法が含まれる場合、DSPはリストされた最初の方法を使用します。
+
+* **[!UICONTROL Skippability]:** スキップ可能かどうかに応じて、インベントリをターゲットに設定します（ただし、除外しません）。 この設定は、プリロール、モバイル標準プリロール、コネクテッド TV、ユニバーサルビデオプレースメントなど、すべてのVAST/VPAID プレースメントに適用されます。 デフォルトでは、すべてのオプションがターゲットになっています。 ターゲットを絞り込むには、スキップ可能またはスキップ不可の在庫および/または[!UICONTROL Unknown]を選択します。 DSPは、入札リクエストで有効なスキッパビリティ値が指定されていない場合、スキッパビリティを[!UICONTROL Unknown]として分類します。
+
+<!-- DRAFT: Before publishing this update, confirm the production database changes, available position options and labels, and GA rollout. The source catalog and bidder support the positions below, but the wiki's database/API handoff and release status remain unresolved. -->
+
+**[!UICONTROL Position targeting]:** ビデオ広告の位置属性によるインベントリのターゲット （ただし、除外はしません）。 この設定は、プリロール、モバイル標準プリロール、コネクテッド TV、ユニバーサルビデオプレースメントなど、すべてのVAST/VPAID プレースメントに適用されます。 デフォルトでは、すべてのポジションがターゲットになります。 ターゲットを絞り込むには、**[!UICONTROL Video Ad Position]**&#x200B;で特定の位置を選択します。
+
+DSPでは、[!DNL Magnite]を含むサプライサイドプラットフォーム（SSP）が提供するOpenRTB 2.6 ビデオプレースメントシグナルを使用して、広告ポジションを分類します。 使用可能なオプションは、配置タイプによって異なります。
+
+| 広告ポジション | 説明 |
+| --- | --- |
+| インストリームプレロール、ミッドロール、ポストロール | 視聴者が要求したビデオコンテンツの前、中、後の広告。 OpenRTB 2.6では、インストリームのインベントリは、プレーヤーの開始時にサウンドをオンにするか、視聴者がビデオを視聴する意図があることを明確に示す必要があります。 |
+| [!UICONTROL Accompanying Content] | テキストやその他のコンテンツを伴うビデオプレーヤーの広告。 プレーヤーはビューに入ると再生を開始し、ビューアがスクロールするにつれてスティッキーまたはフローティングになる可能性があります。 |
+| [!UICONTROL Interstitial] | 表示の大部分を占め、再生中にスクロールして表示できないビデオコンテンツを伴わないビデオ広告。 |
+| [!UICONTROL No Content/Standalone] | フィードの広告、スティッキーまたはフローティングプレーヤーの広告など、ストリーミング動画コンテンツのない動画広告。 |
+| [!UICONTROL Pause] | 視聴者がストリーミングビデオコンテンツを一時停止している間に表示される広告。 |
+| [!UICONTROL Screensaver] | オペレーティングシステムまたはアプリケーションがスクリーンセーバーを起動したときに表示される広告。 |
+| [!UICONTROL Overlay] | 従来の広告枠の外で、動画コンテンツを通じて表示される広告。 |
+| [!UICONTROL Squeezeback] | 広告に覆われることなく、広告の余地を確保するためにサイズを変更した動画コンテンツとともに表示される広告。 |
+| [!UICONTROL In-scene] | 広告は、別の広告ブレークやコンテンツに表示されるのではなく、ビデオシーン自体に統合されます。 |
+| [!UICONTROL Unknown] | DSPが提供されたシグナルからサポートされているビデオ広告の位置を判断できないインベントリ。 |
+
+複数のポジションを選択すると、在庫は選択したポジションと一致します。 特定の役職を選択することで、適格在庫を減らすことができます。 DSPが判断できないポジションの在庫もターゲットにする場合は、**[!UICONTROL Unknown]**&#x200B;を含めます。 広告位置による在庫の制限を避けるには、設定をデフォルトのままにします。
+
+DSPは、入札リクエストで指定された開始遅延信号から、インストリームのプレロール、ミッドロール、ポストロールを決定します。 そのシグナルが見つからないか無効な場合、DSPはインストリームの位置を&#x200B;**[!UICONTROL Unknown]**&#x200B;に分類します。
+
+有効なOpenRTB 2.6 ポジションが指定されている場合、DSPは従来のOpenRTB 2.5 ポジションよりも優先して使用します。 OpenRTB 2.6の位置が見つからないか無効な場合でも、DSPは、有効な開始遅延信号が指定されたときに、従来のインストリームのインベントリを認識できます。 その他のレガシー職位は、新しいカテゴリに翻訳されるのではなく、**[!UICONTROL Unknown]**&#x200B;として分類されます。
+
+>[!NOTE]
+>
+>OpenRTB 2.6の位置カテゴリは、従来のカテゴリの1対1の代替ではありません。 例えば、以前はインストリームとして記載されていた在庫が、付随コンテンツとして分類されるようになった。 SSPが新しいシグナルを採用することで、適格な在庫量が変更される場合は、Adobeアカウントチームでポジション目標を確認してください。
 
 ## [!UICONTROL Site or App and Keyword Targeting]
 
@@ -292,7 +326,7 @@ ht-degree: 0%
 1. （オプション）ターゲティング情報を含むCSV ファイルをブラウザーのダウンロード場所にダウンロードするには、**[!UICONTROL Export]**&#x200B;をクリックします。
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
-**[!UICONTROL Exclude Sites or Apps]:** （オプション、**[!UICONTROL Toggle for Sites or Apps Tiering]**&#x200B;が&#x200B;*[!UICONTROL On]*&#x200B;の場合に使用可能） サイト/アプリと[URL リスト &#x200B;](/help/dsp/resources/lists-url-manage.md)を除外できます。 「[!UICONTROL Paste URL]」タブでは、サイトを検索して選択したり、ドメイン名を入力または貼り付けたりできます。 「[!UICONTROL URL Lists]」タブから、URL リストを選択できます。
+**[!UICONTROL Exclude Sites or Apps]:** （オプション、**[!UICONTROL Toggle for Sites or Apps Tiering]**&#x200B;が&#x200B;*[!UICONTROL On]*&#x200B;の場合に使用可能） サイト/アプリと[URL リスト ](/help/dsp/resources/lists-url-manage.md)を除外できます。 「[!UICONTROL Paste URL]」タブでは、サイトを検索して選択したり、ドメイン名を入力または貼り付けたりできます。 「[!UICONTROL URL Lists]」タブから、URL リストを選択できます。
 
 1. ![編集](/help/dsp/assets/edit.png)をクリックします。
 1. サイトを指定します。
@@ -302,7 +336,7 @@ ht-degree: 0%
        1. キーワードを入力し、サイト階層を選択するか、サイト カテゴリを選択します。
        1. 検索結果で、除外するサイトを選択します。
           * 個々のサイトを除外するには、隣接するチェックボックスをオンにします。
-          * （50件を超える結果が使用可能な場合）最初の50件の結果を除外するには、**[!UICONTROL Exclude these 50]**&#x200B;をクリックします。 すべての検索結果を除外するには、**[!UICONTROL Exclude these \<*NN *\>]**&#x200B;をクリックします。
+          * （50件を超える結果が使用可能な場合）最初の50件の結果を除外するには、**[!UICONTROL Exclude these 50]**&#x200B;をクリックします。 すべての検索結果を除外するには、**[!UICONTROL Exclude these \<*NN *\>]**をクリックします。
      * ドメイン名を入力するには：
        1. **[!UICONTROL Paste]**&#x200B;をクリックします。
        1. 1つ以上のドメイン名を別々の行に入力します。
@@ -314,7 +348,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* DSP [&#x200B; グローバルにブロックされるサイトリスト &#x200B;](/help/dsp/introduction/features/brand-safety-media-quality.md)に加えて、アカウントレベルと広告主レベルのブロックされたサイトリストも適用されます。このサイトには、広告にとって安全でないと見なされるサイトが含まれます。
+>* DSP [ グローバルにブロックされるサイトリスト ](/help/dsp/introduction/features/brand-safety-media-quality.md)に加えて、アカウントレベルと広告主レベルのブロックされたサイトリストも適用されます。このサイトには、広告にとって安全でないと見なされるサイトが含まれます。
 >* ブロックされたサイトリストは、常にターゲットサイトとサイトリストを上書きします。 プレースメントの両方が除外され、広告に同じターゲットが含まれる場合、そのターゲットは除外されます。
 
 **[!UICONTROL Context of Sites or App]:** （オプション）ターゲットまたは除外するコンテキスト ターゲット セグメント。 次のLから選択します
@@ -337,7 +371,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Audience Targeting]
 
-**[!UICONTROL Included Audiences]:** [&#x200B; サードパーティセグメント、ファーストパーティセグメント、Adobe セグメント、カスタムセグメント、保存済みオーディエンス &#x200B;](/help/dsp/audiences/audience-settings.md)など、プレースメントのオーディエンスターゲティング。 選択したすべてのセグメントおよび保存されたオーディエンスの合計およびアクティブな重複排除オーディエンスサイズも表示されます。 既存のオーディエンスを選択したり、後で再利用できるオーディエンスを作成したり、特定のオーディエンスセグメントを選択したりできます。
+**[!UICONTROL Included Audiences]:** [ サードパーティセグメント、ファーストパーティセグメント、Adobe セグメント、カスタムセグメント、保存済みオーディエンス ](/help/dsp/audiences/audience-settings.md)など、プレースメントのオーディエンスターゲティング。 選択したすべてのセグメントおよび保存されたオーディエンスの合計およびアクティブな重複排除オーディエンスサイズも表示されます。 既存のオーディエンスを選択したり、後で再利用できるオーディエンスを作成したり、特定のオーディエンスセグメントを選択したりできます。
 
 * 既存のオーディエンスを選択するには、[!UICONTROL Included Audiences]の横にある![選択](/help/dsp/assets/chevron-down.png)をクリックし、オーディエンスを選択します。
 * オーディエンスを作成するには、[!UICONTROL Included Audiences]の横にある![選択](/help/dsp/assets/chevron-down.png)をクリックし、**[!UICONTROL + Create Audience]**&#x200B;を選択します。 手順については、[手順3から始まる再利用可能なオーディエンスの作成](/help/dsp/audiences/reusable-audience-create.md)を参照してください。
@@ -347,7 +381,7 @@ ht-degree: 0%
 >
 >アクティブなプレースメント、スケジュールされたプレースメント、または一時停止されたプレースメントにアタッチされていないファーストパーティのRampID セグメントは一時停止されます。 セグメントは、「自動一時停止」としてセグメントリストに表示されます。
 
-**[!UICONTROL Excluded Audiences]:** [&#x200B; サードパーティセグメント、ファーストパーティセグメント、Adobe セグメント、カスタムセグメント、保存済みオーディエンス &#x200B;](/help/dsp/audiences/audience-settings.md)を含む、プレースメントで除外するオーディエンス。 除外されたすべてのオーディエンスの合計およびアクティブな重複排除オーディエンスサイズも表示されます。 既存のオーディエンスを選択するか、後で再利用できる新しいオーディエンスを作成できます。
+**[!UICONTROL Excluded Audiences]:** [ サードパーティセグメント、ファーストパーティセグメント、Adobe セグメント、カスタムセグメント、保存済みオーディエンス ](/help/dsp/audiences/audience-settings.md)を含む、プレースメントで除外するオーディエンス。 除外されたすべてのオーディエンスの合計およびアクティブな重複排除オーディエンスサイズも表示されます。 既存のオーディエンスを選択するか、後で再利用できる新しいオーディエンスを作成できます。
 
 * 既存のオーディエンスを選択するには、[!UICONTROL Excluded Audiences]の横にある![選択](/help/dsp/assets/chevron-down.png)をクリックし、オーディエンスを選択します。
 
@@ -359,7 +393,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: （既定値） Cookie、モバイル広告ID、コネクテッド TV （CTV） IDに基づいてユーザーをターゲティングします。 IDは、ブラウザー、アプリ内、CTVのインベントリにもとづいて選択されます。
 
-* *[!UICONTROL Universal ID]*: ユーザーのプライバシーに焦点を当てたIDをターゲットにします。1つのID タイプを選択してください。 使用可能なオプションは、[!UICONTROL Geo-Targeting] セクションで選択した地理的目標によって決まります。 [[!DNL RampID] 個のセグメントをDSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)に直接読み込み、[個のセグメントを使用して、PIIをDSPがユニバーサル ID](/help/dsp/audiences/sources/source-about.md)に変換します。[&#x200B; ファーストパーティ  [!DNL AdFixus] 個のセグメントをDSP](/help/dsp/audiences/sources/source-adfixus.md)にストリーミングします。または、ユニバーサル ID[&#128279;](/help/dsp/audiences/custom-segment-create.md)をトラッキングする個のカスタムセグメントを使用します。
+* *[!UICONTROL Universal ID]*: ユーザーのプライバシーに焦点を当てたIDをターゲットにします。1つのID タイプを選択してください。 使用可能なオプションは、[!UICONTROL Geo-Targeting] セクションで選択した地理的目標によって決まります。 [[!DNL RampID] 個のセグメントをDSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)に直接読み込み、[個のセグメントを使用して、PIIをDSPがユニバーサル ID](/help/dsp/audiences/sources/source-about.md)に変換します。[ ファーストパーティ  [!DNL AdFixus] 個のセグメントをDSP](/help/dsp/audiences/sources/source-adfixus.md)にストリーミングします。または、ユニバーサル ID](/help/dsp/audiences/custom-segment-create.md)をトラッキングする[個のカスタムセグメントを使用します。
 
   * *[!UICONTROL AdFixus]*: ターゲット [!DNL AdFixus] IDがAdvertising DSPにインポートされました。
 
@@ -371,7 +405,7 @@ ht-degree: 0%
 
   **[!UICONTROL Terms of service]**：ユニバーサル IDを使用するための利用条件。 お客様またはDSP アカウント内の他のユーザーは、IDを読み込む、データを新しいID タイプに変換する、またはID タイプをターゲティングする前に、条件に1回同意する必要があります。 マネージドサービス契約を締結しているお客様には、Adobeアカウントチームが同意を得て、組織の代わりに条件に同意します。 条件を読むには、**>**&#x200B;をクリックします。 条件に同意するには、条件の一番下までスクロールして「**[!UICONTROL Accept]**」をクリックします。
 
-**[!UICONTROL Cross Device Targeting]:** （[&#x200B; キャンペーンがピープルベースのクロスデバイスターゲティング用に設定されている場合に使用できます](/help/dsp/campaign-management/campaigns/campaign-settings.md)、レガシーIDのみをターゲットにし（ユニバーサル IDではない）、少なくとも1つのセグメントまたはオーディエンスを選択します。 指定したセグメントに含まれていないデバイスも含め、ユーザーの既知のすべてのデバイス（キャンペーン設定で指定したデバイスグラフごと）にターゲティングを拡張できます。 料金は、キャンペーンに指定されたグラフによって適用される場合があります。 デバイスグラフデータは北米でのみ利用可能です。
+**[!UICONTROL Cross Device Targeting]:** （[ キャンペーンがピープルベースのクロスデバイスターゲティング用に設定されている場合に使用できます](/help/dsp/campaign-management/campaigns/campaign-settings.md)、レガシーIDのみをターゲットにし（ユニバーサル IDではない）、少なくとも1つのセグメントまたはオーディエンスを選択します。 指定したセグメントに含まれていないデバイスも含め、ユーザーの既知のすべてのデバイス（キャンペーン設定で指定したデバイスグラフごと）にターゲティングを拡張できます。 料金は、キャンペーンに指定されたグラフによって適用される場合があります。 デバイスグラフデータは北米でのみ利用可能です。
 
 **[!UICONTROL Placement Cap]:** （オプション）一意のデバイス、ユニバーサル ID、またはユーザー（キャンペーン用に指定された[!UICONTROL Cross Device Level]とプレースメントの[!UICONTROL Targeting]設定に応じて）がプレースメントから広告を配信できる回数。 オプションには、1日、週、または月あたりの特定の金額&#x200B;*[!UICONTROL Unlimited]*&#x200B;が含まれます。
 
@@ -435,7 +469,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
-**[!UICONTROL DoubleVerify ABS segment ID]:** （オプション、[!DNL DoubleVerify]のお客様のみ。デスクトッププレロール、標準およびクリックトゥプレイ表示、ネイティブのディスプレイとビデオの配置でのみ使用できます。[&#x200B; ディールのデフォルトのプログラマティック保証配置](/help/dsp/inventory/programmatic-guaranteed-about.md)ではサポートされていません）組織の[!DNL DoubleVerify] アカウントに関連付けられた[!DNL DoubleVerify Authentic Brand Suitability] セグメント IDは、配置に使用します。 IDを指定すると、指定したセグメント ID用に設定されたカスタムブランド安全ルールを使用して、入札後のインプレッションがブロックされます。 DSPは、セグメント IDの使用状況についてアカウントに請求します。
+**[!UICONTROL DoubleVerify ABS segment ID]:** （オプション、[!DNL DoubleVerify]のお客様のみ。デスクトッププレロール、標準およびクリックトゥプレイ表示、ネイティブのディスプレイとビデオの配置でのみ使用できます。[ ディールのデフォルトのプログラマティック保証配置](/help/dsp/inventory/programmatic-guaranteed-about.md)ではサポートされていません）組織の[!DNL DoubleVerify] アカウントに関連付けられた[!DNL DoubleVerify Authentic Brand Suitability] セグメント IDは、配置に使用します。 IDを指定すると、指定したセグメント ID用に設定されたカスタムブランド安全ルールを使用して、入札後のインプレッションがブロックされます。 DSPは、セグメント IDの使用状況についてアカウントに請求します。
 
 IDは「51」で始まり、8桁で構成されている必要があります。 デフォルトでは、広告主アカウント設定でセグメント IDが指定されている場合、広告主レベルのIDが入力されますが、IDを変更して別のセグメントを使用したり、IDを削除して機能を無効にしたりできます。
 
@@ -489,7 +523,7 @@ IDは「51」で始まり、8桁で構成されている必要があります。
 * *[!UICONTROL Ads.txt sellers only]*: ドメインの承認済みの直接販売者と再販者からのみ在庫を購入する場合。
 * *[!UICONTROL Ads.txt sellers only]*: ドメインの承認済みの直接販売者からのみ在庫を購入する場合。
 
-**[!UICONTROL Attention Targeting]:** （デスクトップおよびモバイル web ディスプレイ、ビデオ、標準のコネクテッド TV広告に適用）指定したサイト、形式、広告サイズに基づいて、特定の注意レベル（高、中、低）の[!DNL Adelaide]の入札前セグメントをターゲットにします。 セグメントは毎週更新されます。 **注：** ターゲティングに[!DNL Adelaide] セグメントを使用すると、[!DNL Adelaide]件のアテンションのターゲティングで配信されたインプレッションごとにCPMの料金が発生します。この料金は、[&#x200B; アテンションの測定](/help/dsp/campaign-management/campaigns/campaign-settings.md)の料金とは別です。 インタラクティブなプレロールのプレースメントの場合、膨大なインプレッションに対してのみ課金されます。
+**[!UICONTROL Attention Targeting]:** （デスクトップおよびモバイル web ディスプレイ、ビデオ、標準のコネクテッド TV広告に適用）指定したサイト、形式、広告サイズに基づいて、特定の注意レベル（高、中、低）の[!DNL Adelaide]の入札前セグメントをターゲットにします。 セグメントは毎週更新されます。 **注：** ターゲティングに[!DNL Adelaide] セグメントを使用すると、[!DNL Adelaide]件のアテンションのターゲティングで配信されたインプレッションごとにCPMの料金が発生します。この料金は、[ アテンションの測定](/help/dsp/campaign-management/campaigns/campaign-settings.md)の料金とは別です。 インタラクティブなプレロールのプレースメントの場合、膨大なインプレッションに対してのみ課金されます。
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
@@ -543,9 +577,9 @@ IDは「51」で始まり、8桁で構成されている必要があります。
 >[!MORELIKETHIS]
 >
 >* [Advertising DSPでのプレースメント管理について](placement-about.md)
->* [&#x200B; プレースメントの作成](placement-create.md)
->* [&#x200B; プレースメントを編集](placement-edit.md)
->* [&#x200B; プレースメントの入札乗数を管理](placement-manage-bid-multipliers.md)
->* [&#x200B; プレースメントの変更ログを表示](placement-change-log.md)
->* [&#x200B; キーボードショートカット &#x200B;](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+>* [ プレースメントの作成](placement-create.md)
+>* [ プレースメントを編集](placement-edit.md)
+>* [ プレースメントの入札乗数を管理](placement-manage-bid-multipliers.md)
+>* [ プレースメントの変更ログを表示](placement-change-log.md)
+>* [ キーボードショートカット ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* キャンペーン管理に関する[FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
