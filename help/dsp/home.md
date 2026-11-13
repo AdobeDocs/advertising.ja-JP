@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 44bb4cdb1d132bbc25e39f8b63efea3a507dff40
+source-git-commit: aae8f6364235cdbc2e846180b1372037ca55a506
 workflow-type: tm+mt
-source-wordcount: '8406'
+source-wordcount: '8477'
 ht-degree: 0%
 ---
 # DSPの新機能
@@ -52,6 +52,7 @@ ht-degree: 0%
 | ---- | ------- | ----------- | -------------------- |
 | 2026年11月11日（PT） | [!UICONTROL Reports] | （10月にリリース）セグメント データを含む次のレポートで変更点を確認できます。<ul><li>**[!UICONTROL Segment]レポート：**&#x200B;既存のレポートの「[!UICONTROL Segment Membership] *」列は「[!UICONTROL Segment] *」と呼ばれるようになりました。<br><br>このレポートを使用して、オーディエンスセグメント別のパフォーマンスを評価します。 インプレッションが複数のセグメントに一致する場合、インプレッションとそのすべての標準、支出、およびパフォーマンス指標は、一致する各セグメントに関連付けられます。 セグメントを組み合わせた行の指標は、キャンペーンの合計よりも高くなる可能性があります。</li><li>**[!UICONTROL Billing]レポート：**&#x200B;属性セグメントデータを含めて、オーディエンスセグメント全体の支出を評価します。 それぞれのインプレッションは、単一のセグメントに起因しているため、支出は実際の合計になります。 使用可能なレポート列には、[!UICONTROL Attributed Segment Name]、[!UICONTROL Attributed Segment Key]、[!UICONTROL Attributed Segment Description]、および[!UICONTROL Attributed Segment Provider Name]が含まれます。 これらの列は、以前は「[!UICONTROL Billable Segment] *」という名前でした。</li></ul> | 「[&#x200B; カスタムレポートについて](/help/dsp/reports/report-about.md)」および「[使用可能なレポート列](/help/dsp/reports/report-columns.md)」を参照してください。 |
 | 2026年11月6日（PT） | [!DNL Creative] >新規[!DNL Creative Library] ユーザーインターフェイス | サードパーティ広告サーバーでホストされている1つ以上のクリエイターの広告タグを、人身売買シートを使用して読み込めるようになりました。 従来のユーザーインターフェイスでは、引き続き、単一のサードパーティクリエイティブの広告タグの入力をサポートしています。 | 「[&#x200B; クリエイティブライブラリについて](/help/creative/creative-libraries/creative-libraries-about.md)」および「[標準クリエイティブをクリエイティブライブラリに追加](/help/creative/creative-libraries/creative-add-standard.md)」を参照してください。 |
+| 2026年11月5日（PT） | [!UICONTROL Placements]、インベントリ | （ビデオおよびコネクテッド TV プレースメント）新しい[!UICONTROL Position Targeting]設定では、ビデオ広告の位置属性によって在庫をターゲットにできます（ただし、除外することはできません）。 この設定は、プリロール、モバイル標準プリロール、コネクテッド TV、ユニバーサルビデオプレースメントなど、すべてのVAST/VPAID プレースメントに適用されます。 DSPでは、[!DNL Magnite]を含むサプライサイドプラットフォーム（SSP）が提供する[!DNL OpenRTB] 2.6 ビデオプレースメントシグナルを使用して、広告ポジションを分類します。 使用可能なオプションは、配置タイプによって異なります。 | 「[配置設定](/help/dsp/campaign-management/placements/placement-settings.md)」を参照してください。 |
 | 2026年11月4日（PT） | [!DNL Creative] > [!DNL Creative Studio] | （もはやベータ版ではありません） AIを活用して、既存の静的なディスプレイ広告画像またはテキストプロンプトからディスプレイ広告テンプレートを生成します。 | 「[[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md)の広告テンプレートの管理」を参照してください。 |
 | 2026年10月29日（PT） | [!DNL ChatGPT Ads] | Adobe DSPと[!DNL OpenAI Ads]との統合により、[!DNL ChatGPT]の会話内に表示される[!DNL ChatGPT Ads]件のチャットカード広告を実行できるようになりました。 この機能では、DSPが広告アカウントを作成し、組織の代わりにメディアを購入します。 この機能を使用すると、[!DNL ChatGPT Ads]との直接的な関係を確立せずにAI メディアをテストできます。これには最低限の支出のコミットメントが必要な場合があります。<br><br> [!DNL ChatGPT Ads] キャンペーンはDSP キャンペーンとは異なる構造になっているので、それらを管理し、メインメニューの別のオプションからパフォーマンスデータを表示します：[!DNL Conversational Ads]。 キャンペーン、広告グループ、広告レベルのパフォーマンスデータには、[!UICONTROL Impressions]、[!UICONTROL Clicks]、[!UICONTROL Spend]、[!UICONTROL CTR]、[!UICONTROL Avg CPC]、および[!UICONTROL Avg CPM]が含まれます。<br><br> この機能を使用するには、Adobe アカウントチームに連絡してオンボーディングプロセスを開始してください。 | 実施要件を含む詳細については、[[!DNL ChatGPT Ads]  アカウント &#x200B;](/help/dsp/campaign-management/conversational-ads/account-manage.md)および対応する[&#x200B; キャンペーン、広告グループ、広告](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)を管理するためのドキュメントを参照してください。 |
 | 2026年10月28日（PT） | AIを活用した意思決定ツリーエディター | （Betaの機能） Advertising Creativeを導入している広告主は、AIを活用したエディターを使用して、デジジョンツリーターゲティングでエクスペリエンスを構築および編集できるようになりました。 自然言語による会話で必要なターゲティング構造や変更を記述し、結果の決定ツリーを確認します。 キャンバスを直接編集して、ターゲットノードの管理、クリエイティブバンドルの割り当て、クリエイティブの最適化、スケジューリング、トラッキング URLの設定を行うこともできます。 AI駆動のエディターがデフォルトで開き、手動エディターは引き続き使用できます。 | 「[決定木レイアウト &#x200B;](/help/creative/experiences/experience-decision-tree.md)」、「[&#x200B; ターゲティングでエクスペリエンスを作成](/help/creative/experiences/experience-create-targeting.md)」、「[&#x200B; ターゲティングでエクスペリエンスを編集](/help/creative/experiences/experience-edit-targeting.md)」を参照してください。 |
