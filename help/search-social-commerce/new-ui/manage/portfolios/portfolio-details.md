@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 0%
@@ -48,9 +48,9 @@ ht-degree: 0%
 
   必要に応じて、ポートフォリオ設定を開いて編集できます。
 
-* ポートフォリオ内のキャンペーン、広告グループ、キーワードのリスト。 個々のキーワードについて、予測、履歴情報、階層情報などの入札単位の詳細を表示できます。
+* ポートフォリオ内のキャンペーン、広告グループ、キーワードのリスト。
 
-  [!UICONTROL Bid Unit Details] ビューには、選択した入札単位に関する次の予測、履歴情報、および階層情報が含まれます。
+  個々のキーワードについて、予測、履歴情報、階層情報などの入札単位の詳細を表示できます。 [!UICONTROL Bid Unit Details] ビューには、選択した入札単位に関する次の予測、履歴情報、および階層情報が含まれます。
 
   * [!UICONTROL Forecast] タブ：異なる入札価格での入札単位の現在の予測クリック数、コスト、クリック単価、位置、収益。 すべてのデバイスと各デバイスタイプ （[!UICONTROL Mobile]、[!UICONTROL Computer]、および[!UICONTROL Tablet]）のデータが表示されます。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
 

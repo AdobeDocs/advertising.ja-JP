@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fbbc4aabc435023aafbef2443735a7fb285561be
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '618'
 ht-degree: 6%
 ---
 # レポートに使用するデータ
@@ -57,20 +57,20 @@ Adobe Advertising コンバージョン追跡サービスを使用する広告�
 
 | レポートグループ | レポート | データが使用可能な日付 |
 | --- | --- | --- |
-| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 2021年5月15日以降。<br><br><b>例外：</b> プロミネンス指標データは、2022年9月8日から利用できます。 |
-| | その他すべての[!UICONTROL Basic Reports] | 過去36か月間の例外：<br><br><b>例外：</b> プロミネンス指標データは、2022年9月8日から利用できます。 |
+| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 過去36か月。 |
+| | その他すべての[!UICONTROL Basic Reports] | 過去36か月。 |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | 過去45日間。 |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | 前の2か月（2）と現在の月。 |
 | [!UICONTROL Assist Reports] | すべて | 過去18か月。 |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | 前年です。 |
-| | [!UICONTROL Google Asset Group Performance Report] | 制限なし |
+| | [!UICONTROL Google Asset Group Performance Report] | 過去36か月。 |
 | | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | 過去180日間。 |
-| | [!UICONTROL RSA Assets Report] | 2022年8月10日より。 |
+| | [!UICONTROL RSA Assets Report] | 過去36か月。 |
 | | その他すべての[!UICONTROL Specialty Reports] | 過去2か月（2）。 |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | 過去18か月。 |
 | [!UICONTROL Change History Report] | — | 過去31日間。 |
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; レポートについて](report-about.md)
->* [&#x200B; レポートの初期設定タスク &#x200B;](initial-setup.md)
+>* [&#x200B; レポートについて](/help/search-social-commerce/reports/report-about.md)
+>* [&#x200B; レポートの初期設定タスク &#x200B;](/help/search-social-commerce/reports/initial-setup.md)

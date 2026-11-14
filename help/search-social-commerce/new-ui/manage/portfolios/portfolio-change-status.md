@@ -1,6 +1,6 @@
 ---
 title: （新しいUI）ポートフォリオのステータスの変更
-description: ポートフォリオ設定を開かずにポートフォリオのステータスを変更したり、非アクティブなポートフォリオを削除したりする方法を説明します。
+description: ポートフォリオ設定を開かずに、ポートフォリオのステータスを変更したり、1つ以上の非アクティブなポートフォリオを削除したりする方法について説明します。
 feature: Search Portfolios, Search Optimization
 hide: true
 product_v2:
@@ -11,16 +11,16 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '457'
 ht-degree: 0%
 ---
 # （新しいUI）ポートフォリオのステータスの変更
 
 *Beta機能*
 
-完全なポートフォリオ設定を開かずに、[&#x200B; ポートフォリオのステータス &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses)をすばやく変更できます。
+完全なポートフォリオ設定を開かずに、[&#x200B; ポートフォリオのステータス &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-status)をすばやく変更できます。
 
 関連するキャンペーンのコスト/クリック/インプレッションデータと収益データの収集を停止するには、ポートフォリオを削除します。 ポートフォリオを削除すると、Search, Social, &amp; Commerce内で使用できなくなります。
 
@@ -40,9 +40,15 @@ ht-degree: 0%
 
    * 非アクティブまたは最適化されたポートフォリオをアクティブ化するには、**[!UICONTROL Active]**&#x200B;を選択します。
 
-   * アクティブなポートフォリオを非アクティブにするには、**[!UICONTROL Inactive]**&#x200B;を選択します。
+   * アクティブなポートフォリオまたは最適化されたポートフォリオを非アクティブ化するには、**[!UICONTROL Inactive]**&#x200B;を選択します。
 
-   * アクティブなポートフォリオを最適化（起動）するには、**[!UICONTROL Optimized]**&#x200B;を選択します。
+   * アクティブなポートフォリオを最適化（起動）するには：
+
+     1. **[!UICONTROL Optimized]**&#x200B;を選択します。
+
+     1. 確認メッセージで、**[!UICONTROL Update]**&#x200B;をクリックします。
+
+     1. 追加の確認メッセージが表示された場合は、プロンプトに従って変更を適用します。
 
      >[!NOTE]
      >
@@ -53,7 +59,7 @@ ht-degree: 0%
      >* Search, Social, &amp; Commerceがポートフォリオの最適化を開始したら、今後のキャンペーン予算と（該当する場合）入札変更（該当する場合）をすべて管理します。 Search, Social, &amp; Commerceは、広告ネットワーク内から加えた変更を上書きします。
      >* キャンペーンのバルクシートを作成して投稿することで、ポートフォリオで最適化されたCPC キャンペーンに一時的に手動入札を設定できます。 投稿されたデータから生じる入札変更は、1日適用されます。 その後、Search, Social, &amp; Commerceは、独自の最適化戦略に従って入札額の設定を再開します。
 
-## 非アクティブなポートフォリオを[!UICONTROL Portfolios] ビューから削除します
+## [!UICONTROL Portfolios] ビューから1つ以上の非アクティブなポートフォリオを削除
 
 削除できるのは、非アクティブなポートフォリオのみです。 ポートフォリオが最適化またはアクティブな場合は、削除するオプションが表示される前に、まずステータスを非アクティブに変更する必要があります。
 
@@ -61,11 +67,19 @@ ht-degree: 0%
 
 1. 次のいずれかの操作を行います。
 
-   * ポートフォリオ行の上にカーソルを置き、**[!UICONTROL ...]>[!UICONTROL Delete]**&#x200B;をクリックします。
+   * 単一の非アクティブなポートフォリオを削除するには：
 
-   * ポートフォリオの横にあるチェックボックスをオンにします。 一括操作ツールバーで、![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
+     1. ポートフォリオ行の上にカーソルを置き、**[!UICONTROL ...]>[!UICONTROL Delete]**&#x200B;をクリックします。
 
-1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
+     1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
+
+   * 1つ以上の非アクティブなポートフォリオを削除するには：
+
+     1. 削除する非アクティブな各ポートフォリオの横にあるチェックボックスをオンにします。
+
+     1. 一括操作ツールバーで、![削除](/help/search-social-commerce/assets/delete-new.png "削除")をクリックします。
+
+     1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
