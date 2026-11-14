@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '152'
 ht-degree: 0%
 ---
 # （新しいUI）目的の設定の書き出し
@@ -34,9 +34,17 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;をクリックします。
 
-1. 書き出す各オブジェクトの横にあるチェックボックスをオンにします。
+1. 次のいずれかの操作を行います。
 
-1. 一括操作ツールバーで、**[!UICONTROL Export Objectives]**&#x200B;をクリックします。
+   * 1つのオブジェクトを書き出すには：
+
+     1. 目的の行の上にカーソルを置き、**[!UICONTROL ...]>[!UICONTROL Export Objective]**&#x200B;をクリックします。
+
+   * 1つ以上の目標を書き出すには：
+
+     1. 書き出す各オブジェクトの横にあるチェックボックスをオンにします。
+
+     1. 一括操作ツールバーで、**[!UICONTROL Export Objectives]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
@@ -45,4 +53,4 @@ ht-degree: 0%
 >* [目標を削除](objective-delete.md)
 >* [目標に重み付けの推奨事項を適用](objective-apply-weight-recommendations.md)
 >* [目標の設定](objective-settings.md)
->* [目的のパフォーマンスデータをダウンロード &#x200B;](objective-download-performance-data.md)
+>* [目的のパフォーマンスデータをダウンロード ](objective-download-performance-data.md)
