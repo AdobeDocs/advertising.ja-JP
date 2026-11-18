@@ -13,13 +13,13 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '43'
 ht-degree: 0%
 ---
 # 管理ビューでのデータの更新
 
-* （新しいUI） データテーブルの上にあるツールバーで、![更新](/help/search-social-commerce/assets/refresh-new.png)をクリックします。
+* （新しいUI）該当する管理ビューで、ページタイトルの横にある![更新](/help/search-social-commerce/assets/refresh-new.png "更新") コントロールをクリックします。
 
 * （従来のUI） データテーブルの下部にある「![更新](/help/search-social-commerce/assets/refresh.png)」をクリックします。

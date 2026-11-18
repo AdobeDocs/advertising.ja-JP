@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '499'
 ht-degree: 0%
 ---
 # ツールバーからのデータフィルターの適用
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## （新しいUI）管理ビューのツールバーからデータフィルターを適用する
 
-1. ツールバーで、![&#x200B; フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター")をクリックします。
+1. ツールバーで、グリッド検索前にアイコンのみの![ フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター") コントロールをクリックします。
 
 1. フィルター設定で、次のいずれかの操作を行います。
 
@@ -56,11 +56,11 @@ ht-degree: 0%
 
 ## （従来のUI）キャンペーン管理ビューのツールバーからデータフィルターを適用する
 
-1. ツールバーで、![&#x200B; フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックします。
+1. ツールバーで、![ フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックします。
 
 1. フィルター設定で、次のいずれかの操作を行います。
 
-   * フィルターを追加するには、![&#x200B; フィルターを追加](/help/search-social-commerce/assets/add.png " フィルターを追加") **[!UICONTROL ADD FILTER]**&#x200B;をクリックし、次の操作を行います。
+   * フィルターを追加するには、![ フィルターを追加](/help/search-social-commerce/assets/add.png " フィルターを追加") **[!UICONTROL ADD FILTER]**&#x200B;をクリックし、次の操作を行います。
 
      1. （オプション）列名をテキスト文字列でフィルタリングするには、**[!UICONTROL ADD FILTER]**&#x200B;入力フィールドに検索文字列を入力します。
 
