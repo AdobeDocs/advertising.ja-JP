@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2f170883b2876ea4a7b39e814df598d337f7ca07
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '570'
 ht-degree: 0%
 ---
 # キャンペーン管理ビューでのデータのカスタマイズについて
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 * [特定のエンティティ表示（[!UICONTROL Campaigns]など）のデフォルトビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md##view-edit)全体の設定を編集して、特定の列の順序、フィルター、日付範囲、アトリビューションルールなどを含め、設定を一時的に適用するか、保存します。 [追加のカスタムビューを作成](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)、[既存のビューを複製](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#view-clone)および[いずれかのビューを適用](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#apply-a-default-or-custom-view)することもできます。
 
-* [&#x200B; ツールバーの[!UICONTROL Custom Columns] コントロールを使用して、列とその並べ替え順序](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)を変更します。 新しいUIで、ツールバーが狭すぎてコントロールが表示されない場合は、**[!UICONTROL Actions]>[!UICONTROL Custom Columns]**&#x200B;をクリックします。 また、ビューの任意の列見出しから[列だけを変更することもできます](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)。
+* [ ツールバーの[!UICONTROL Custom Columns] コントロールを使用して、列とその並べ替え順序](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)を変更します。 新しいUIで、ツールバーが狭すぎてコントロールが表示されない場合は、**[!UICONTROL Actions]>[!UICONTROL Custom Columns]**&#x200B;をクリックします。 また、ビューの任意の列見出しから[列だけを変更することもできます](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)。
 
-* （レガシーユーザーインターフェイスのみ） [左側のナビゲーションパネル &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md)から、次の操作を実行できます。
+* （レガシーユーザーインターフェイスのみ） [左側のナビゲーションパネル ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md)から、次の操作を実行できます。
 
   * 広告ネットワーク別にエンティティを参照または検索し、エンティティのステータスと、アカウント、キャンペーン、広告グループまたは広告セットのステータスでフィルタリングします。 パネル内の任意のエンティティまたはエンティティグループをクリックして、子エンティティのビューを読み込みます（例えば、キャンペーン名をクリックして子広告グループを表示します）。
 
@@ -40,38 +40,27 @@ ht-degree: 0%
 
 * [特定の日付範囲を保存していないすべてのデフォルトビューとカスタムビューで使用されている日付範囲](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)を変更します。
 
-* [特定の列の値に従ってデータ &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)を並べ替えます。
+* [特定の列の値に従ってデータ ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)を並べ替えます。
 
 * 任意のページの下部に25行、50行、100行、（レガシーユーザーインターフェイスのみ） 200行、または（レガシーユーザーインターフェイスのみ） [!UICONTROL Continuous Scroll]を表示するかどうかを制御します。
 
-<!--
 
-## (New UI) Data table tools {#grid-controls-new-ui}
+## （新しいUI） データテーブルコントロール {#data-table-tools-new-ui}
 
-In applicable management views, the toolbar includes the following controls:
+データテーブルの上にあるツールバーを使用して、データを管理し、表示方法を変更します。 使用可能なツールは、ビューと権限によって異なります。
 
-* On the left, the [!UICONTROL Filter] control appears before grid search. Where supported, the [!UICONTROL Conversion based on] selector follows search and lets you select [!UICONTROL Click Date] or [!UICONTROL Transaction Date].
+ツールバーの幅が狭すぎてツールが表示されない場合は、**[!UICONTROL Actions]** メニューでツールバーを探します。
 
-* On the right, operational actions, such as [!UICONTROL Reports], appear alongside view and display controls. The available controls depend on the view and your permissions.
+利用可能な場合は、次のことができます。
 
-* When the available width is reduced, controls move into the [!UICONTROL Actions] menu. This can happen when you narrow the window or open the AI Assistant panel. If a control isn't visible in the toolbar, look for it in [!UICONTROL Actions]. In wider layouts, controls remain inline.
+* [!UICONTROL Conversion based on]から&#x200B;*[!UICONTROL Click Date]*&#x200B;または&#x200B;*[!UICONTROL Transaction Date]*&#x200B;を選択して、コンバージョンデータのレポート方法を制御します。
 
-* Within [!UICONTROL Actions], a horizontal divider separates operational actions from view and display controls, such as the current view, [!UICONTROL Custom Columns], [!UICONTROL Compressed Mode], and [!UICONTROL Charts], where available.
+* 2つの期間のパフォーマンスを比較し、違いを表示する方法を選択します。 「[日付範囲](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#compare-periods-new-ui)でデータをフィルタリング」を参照してください。
 
-* The primary create button remains outside [!UICONTROL Actions].
+* ツールバーまたは&#x200B;**[!UICONTROL Actions]** メニューの&#x200B;**[!UICONTROL Compressed Mode]**&#x200B;を使用して、コンパクト表の間隔をオンまたはオフにします。
 
-The [!UICONTROL Refresh] icon is beside the page title in applicable views. The date range control is in the page header. For instructions on comparing two date ranges and changing the comparison format, see "[Filter data by date range](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#compare-periods-new-ui)."
+  圧縮モードがオンの場合、ツールバーボタンが選択されます。 [!UICONTROL Actions]では、スイッチは現在の状態を示します。
 
-### Change the grid density
+* ツールバーまたは&#x200B;**[!UICONTROL Actions]** メニューの&#x200B;**[!UICONTROL Charts]**&#x200B;を使用して、グラフを表示または非表示にします。
 
-* Where available, click **[!UICONTROL Compressed Mode]** in the toolbar or **[!UICONTROL Actions]** menu to turn compact grid spacing on or off.
-
-  The toolbar button is selected when compressed mode is on. In [!UICONTROL Actions], a switch indicates the current state.
-
-### Show or hide charts
-
-* Where available, click **[!UICONTROL Charts]** in the toolbar or **[!UICONTROL Actions]** menu.
-
-  The toolbar button is selected when charts are shown. In [!UICONTROL Actions], a switch indicates whether charts are shown. Click the control again to hide the charts.
-
--->
+  グラフが表示されているときにツールバーボタンが選択されます。 [!UICONTROL Actions]では、グラフが表示されているかどうかをスイッチで示します。 コントロールをもう一度クリックして、グラフを非表示にします。

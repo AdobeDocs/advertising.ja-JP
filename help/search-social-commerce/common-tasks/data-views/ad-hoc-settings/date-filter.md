@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # 日付範囲でデータをフィルタリング
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 1. **[!UICONTROL As percentage]**&#x200B;または&#x200B;**[!UICONTROL As variance]**&#x200B;を選択してください。
 
-   選択範囲は、選択した列だけでなく、グリッド内のすべての比較指標に適用されます。 日付範囲コントロールは選択範囲と同期され、保存された日付範囲を含むビューを含め、現在の広告主に適用されるページ間で形式が共有されます。
+   選択は、選択した列だけでなく、データテーブル内のすべての比較指標に適用されます。 日付範囲コントロールは選択範囲と同期され、保存された日付範囲を含むビューを含め、現在の広告主に適用されるページ間で形式が共有されます。
 
-   グリッドが正常に更新された後、確認メッセージが表示されます。 選択した形式でグリッドを更新できない場合は、代わりにエラーメッセージが表示されます。形式をもう一度選択してみてください。
+   データテーブルが正常に更新された後、確認メッセージが表示されます。 選択した形式でデータテーブルを更新できない場合は、代わりにエラーメッセージが表示されます。形式をもう一度選択してみてください。
 
 並べ替えとフィルタリングのオプションは、サポートされている列メニューでも引き続き使用できます。
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 >
 >* 過去13か月間のデータを表示できますが、既存のカスタムビューには、過去180日間までのデータのみを含めることができます。
 >* 以前のデータを表示するには、[[!UICONTROL Reports] ビュー](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)に移動し、基本レポートを実行します。
->* [&#x200B; デフォルトビューまたはカスタムビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)の日付範囲を保存することもできます。
+>* [ デフォルトビューまたはカスタムビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)の日付範囲を保存することもできます。
 
 ## （従来のUI）キャンペーンビューでのグローバル日付フィルターの変更
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
    * 特定の範囲の場合：**[!UICONTROL Custom Date Range]**&#x200B;を選択し、開始日と終了日を指定します。
 
-     MM/DD/YYYYまたはMM-DD-YYYY形式で日付を入力するか、各フィールドの横にある![&#x200B; カレンダーアイコン &#x200B;](/help/search-social-commerce/assets/calendar.png " カレンダーアイコン ")をクリックしてカレンダーを開き、日付を選択します。
+     MM/DD/YYYYまたはMM-DD-YYYY形式で日付を入力するか、各フィールドの横にある![ カレンダーアイコン ](/help/search-social-commerce/assets/calendar.png " カレンダーアイコン ")をクリックしてカレンダーを開き、日付を選択します。
 
 1. （オプション）指定した日付範囲のデータと2番目の日付範囲のデータを比較します。
 
