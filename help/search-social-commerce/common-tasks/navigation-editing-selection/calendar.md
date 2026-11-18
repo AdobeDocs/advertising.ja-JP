@@ -28,19 +28,19 @@ ht-degree: 0%
 
 1. **[!UICONTROL Apply]**&#x200B;をクリックします。
 
-2つの期間のデータを比較するには、「[日付範囲でデータをフィルタリング ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#date-filter-new-ui)」を参照してください。
+2つの期間のデータを比較するには、「[日付範囲でデータをフィルタリング &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#date-filter-new-ui)」を参照してください。
 
 ## 個別の日付を選択
 
 個々の日付カレンダーフィールド（従来のユーザーインターフェイスのカレンダーフィールドを含む）には、次の手順を使用します。
 
-1. 「![ カレンダーボタン ](/help/search-social-commerce/assets/calendar-date-range.png " カレンダーボタン ")」をクリックして、カレンダーを開きます。
+1. 「![&#x200B; カレンダーボタン &#x200B;](/help/search-social-commerce/assets/calendar-date-range.png " カレンダーボタン ")」をクリックして、カレンダーを開きます。
 
    >[!NOTE]
    >
    >カレンダーボタンは、日付入力オプションが選択されている場合にのみ有効にできます。
 
-   ![ カレンダーを開いた](/help/search-social-commerce/assets/calendar-full.png " カレンダーを開いた")
+   ![&#x200B; カレンダーを開いた](/help/search-social-commerce/assets/calendar-full.png " カレンダーを開いた")
 
 1. 次のいずれかのオプションを使用して日付を選択します。
 

@@ -26,9 +26,9 @@ ht-degree: 0%
 
 * [特定のエンティティ表示（[!UICONTROL Campaigns]など）のデフォルトビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md##view-edit)全体の設定を編集して、特定の列の順序、フィルター、日付範囲、アトリビューションルールなどを含め、設定を一時的に適用するか、保存します。 [追加のカスタムビューを作成](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)、[既存のビューを複製](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#view-clone)および[いずれかのビューを適用](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#apply-a-default-or-custom-view)することもできます。
 
-* [ ツールバーの[!UICONTROL Custom Columns] コントロールを使用して、列とその並べ替え順序](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)を変更します。 新しいUIで、ツールバーが狭すぎてコントロールが表示されない場合は、**[!UICONTROL Actions]>[!UICONTROL Custom Columns]**&#x200B;をクリックします。 また、ビューの任意の列見出しから[列だけを変更することもできます](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)。
+* [&#x200B; ツールバーの[!UICONTROL Custom Columns] コントロールを使用して、列とその並べ替え順序](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)を変更します。 新しいUIで、ツールバーが狭すぎてコントロールが表示されない場合は、**[!UICONTROL Actions]>[!UICONTROL Custom Columns]**&#x200B;をクリックします。 また、ビューの任意の列見出しから[列だけを変更することもできます](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)。
 
-* （レガシーユーザーインターフェイスのみ） [左側のナビゲーションパネル ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md)から、次の操作を実行できます。
+* （レガシーユーザーインターフェイスのみ） [左側のナビゲーションパネル &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md)から、次の操作を実行できます。
 
   * 広告ネットワーク別にエンティティを参照または検索し、エンティティのステータスと、アカウント、キャンペーン、広告グループまたは広告セットのステータスでフィルタリングします。 パネル内の任意のエンティティまたはエンティティグループをクリックして、子エンティティのビューを読み込みます（例えば、キャンペーン名をクリックして子広告グループを表示します）。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * [特定の日付範囲を保存していないすべてのデフォルトビューとカスタムビューで使用されている日付範囲](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)を変更します。
 
-* [特定の列の値に従ってデータ ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)を並べ替えます。
+* [特定の列の値に従ってデータ &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)を並べ替えます。
 
 * 任意のページの下部に25行、50行、100行、（レガシーユーザーインターフェイスのみ） 200行、または（レガシーユーザーインターフェイスのみ） [!UICONTROL Continuous Scroll]を表示するかどうかを制御します。
 

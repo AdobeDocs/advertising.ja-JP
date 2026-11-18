@@ -30,7 +30,7 @@ ht-degree: 0%
 
    リストを検索して、広告主を見つけることができます。 リストには、現在選択されている広告主が表示されます。
 
-   ![ メインメニューの上の広告主セレクター](/help/search-social-commerce/assets/advertiser-selector.png " メインメニューの上の広告主セレクター")
+   ![&#x200B; メインメニューの上の広告主セレクター](/help/search-social-commerce/assets/advertiser-selector.png " メインメニューの上の広告主セレクター")
 
 >[!NOTE]
 >
