@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
+source-git-commit: 54920f5e0e08c1bf6f960b4d96aa4161dfa11143
 workflow-type: tm+mt
-source-wordcount: '2443'
+source-wordcount: '2445'
 ht-degree: 2%
 ---
 # Adobe Advertising Search, Social &amp; Commerce ガイド {#search-social-commerce}
@@ -141,6 +141,7 @@ ht-degree: 2%
         + [[!DNL Yandex] キーワード設定](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yandex.md)
     + [ショッピング商品グループの管理](/help/search-social-commerce/new-ui/manage/product-groups-manage.md)
   + レポート {#reports}
+    + [Advertisingのインサイト](/help/search-social-commerce/new-ui/reports/insights.md)
     + スケジュールレポート {#scheduled}
       + [スケジュールレポートについて](/help/search-social-commerce/new-ui/reports/report-about.md)
       + [レポートの初期設定タスク](/help/search-social-commerce/new-ui/reports/initial-setup.md)
