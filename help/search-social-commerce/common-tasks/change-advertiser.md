@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '145'
 ht-degree: 0%
 ---
 # 別の広告主のデータを表示
@@ -24,9 +24,17 @@ ht-degree: 0%
 
 ## （新しいUI）別の広告主のデータの表示
 
-* データテーブルの上のツールバーで、広告主を選択します。
+1. 左側のナビゲーションパネルが折りたたまれている場合は、![折りたたみ/展開](/help/search-social-commerce/assets/collapse-expand.png "折りたたみ/展開")をクリックして展開します。
 
-  ![&#x200B; ツールバーの広告主セレクター](/help/search-social-commerce/assets/advertiser-selector.png " ツールバーの広告主セレクター")
+1. 左側のナビゲーションパネルの検索フィールドの上で、広告主リストを開き、広告主を選択します。
+
+   リストを検索して、広告主を見つけることができます。 リストには、現在選択されている広告主が表示されます。
+
+   ![&#x200B; メインメニューの上の広告主セレクター](/help/search-social-commerce/assets/advertiser-selector.png " メインメニューの上の広告主セレクター")
+
+>[!NOTE]
+>
+>広告主の切り替えは、ポートフォリオの詳細やシミュレーションの詳細など、一部の詳細ビューでは無効になっています。 対応するリスト表示に戻って、別の広告主を選択します。
 
 ## （レガシーUI）別の広告主のデータの表示
 

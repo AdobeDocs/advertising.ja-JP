@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
+source-git-commit: 7d9c610b13af9e4f64b9955fc89e71fcae708c45
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1482'
 ht-degree: 0%
 ---
 # ユーザーインターフェイスの構成方法
@@ -40,6 +40,10 @@ ht-degree: 0%
 新しいユーザーインターフェイスの左側には、新しいメインメニューがあり、作業ステージ別にタスクが整理されています。
 
 ### メインメニューオプション
+
+* （該当する場合）左側の拡張ナビゲーションパネルの検索フィールドの上にある、管理中の広告主の選択可能なリスト。
+
+* メインメニューオプションの検索フィールド。
 
 * **[!UICONTROL Dashboard]** サブメニュー：
 
@@ -131,6 +135,12 @@ Tools > Admin > Data Source Setup
 
 * 左側のメインメニューの上で、![折りたたみ/展開](/help/search-social-commerce/assets/collapse-expand.png "折りたたみ/展開")をクリックします。
 
+### 別の広告主のデータを表示
+
+* 折りたたまれている場合は、左側のナビゲーションパネルを展開します。 検索フィールドの上で、広告主リストを開き、広告主を選択します。
+
+  詳しくは、「[別の広告主のデータを表示](/help/search-social-commerce/common-tasks/change-advertiser.md)」を参照してください。
+
 ### メインメニューオプションの検索
 
 メインメニューの上にある検索フィールドを使用して、「ポートフォリオ」や「レポート」などの特定のメニューオプションを検索します。
@@ -153,9 +163,7 @@ Tools > Admin > Data Source Setup
 
 **メモ：**&#x200B;一部の画面には追加のオプションがあります。
 
-* （該当する場合）管理中の広告主の選択可能なリスト。
-
-* 現在のビューの設定可能な日付範囲
+* 現在のビューの設定可能な日付範囲。 日付比較がサポートされている場合、日付範囲コントロールでは、2つの期間を比較し、変更をパーセントまたは数値の分散として表示するかどうかも選択できます。 「[日付範囲](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#date-filter-new-ui)でデータをフィルタリング」を参照してください。
 
 * ![古いUIに切り替え](/help/search-social-commerce/assets/switch-to-old-ui.png "古いUIに切り替え")新しいタブまたはウィンドウでレガシーユーザーインターフェイスを開きます。
 

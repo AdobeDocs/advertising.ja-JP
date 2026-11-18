@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: dabc3d714941ccecfae1646d554dd3f554a83adf
+source-git-commit: 3619dd14a392381c304d91e5cc8cd4da974ab053
 workflow-type: tm+mt
-source-wordcount: '5697'
+source-wordcount: '5722'
 ht-degree: 1%
 ---
 # Search, Social, &amp; Commerceの新機能
@@ -38,6 +38,7 @@ ht-degree: 1%
 
 | 日付 | 機能 | 説明 | 詳細 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年11月16日（PT） | 新規UI | 従来のUIのほとんどの機能は、新しいUIで使用できるようになりました。 | 「[&#x200B; ユーザーインターフェイスの構成方法](/help/search-social-commerce/getting-started/user-interface.md)」を参照してください。 |
 | 2026年11月4日（PT） | [!UICONTROL Portfolios]、最適化 | （キャンペーンレベルまたは広告グループレベルの最適化を備えたポートフォリオの[!DNL Google Ads] キャンペーンのオプトイン機能） Search, Social, and Commerceに、予算予算予算案の推奨事項（推奨予算額と予測コンバージョン率の両方を含む）からのシグナルを含めることができるようになり、予算案の決定を行うことができます。 [!DNL Google Ads]この機能をオプトインするには、Adobe アカウントチームにお問い合わせください。 | — |
 | | [!UICONTROL Accounts] | アドネットワーク API アカウントの場合、認証権限が欠落しているものを特定し、トークン有効期限の警告を参照し、[!UICONTROL Accounts] ビュー内の回復手順に関する情報を取得できるようになりました。 | 「[&#x200B; アカウント認証とアクセス状態](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md#authentication-status)」を参照してください。 |
 | 2026年10月26日（PT） | [!UICONTROL Campaigns], [!UICONTROL Bulksheets] | （[!DNL AI Max]が有効な[!DNL Google Ads] キャンペーン）新しい検索、ソーシャル、Commerce ユーザーインターフェイスで次の設定を行えるようになりました。<ul><li>キャンペーンレベル：<ul><li>**[!UICONTROL Brand inclusions]**&#x200B;と&#x200B;**[!UICONTROL Brand exclusions]:** ブランド関連のクエリでアカウントのブランドリストを一致させることができるものを指定します。</li><li>**[!UICONTROL URL inclusions]:**&#x200B;最終的なURL拡張から生成されたランディングページとして除外するURLを指定します。 この設定は、[!UICONTROL Text customization]と[!UICONTROL Final URL expansion]が有効になっている場合に使用できます。</li></ul></li><li>広告グループレベル：<ul><li>**[!UICONTROL URL inclusions]:**&#x200B;最終的なURL拡張から生成されたランディングページとして除外するURLを指定します。 この設定は、[!UICONTROL Text customization]が有効になっているキャンペーンで使用できます。</li></ul></li></ul>バルクシートのサポートも設定で利用できます。 | 「[[!DNL Google Ads]  キャンペーン設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)」、「[[!DNL Google Ads] 広告グループ設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)」、「[&#x200B; アカウントに必要なバルクシート データ &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)」を参照してください。 [!DNL Google Ads]  |

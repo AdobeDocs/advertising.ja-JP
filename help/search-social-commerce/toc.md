@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 54920f5e0e08c1bf6f960b4d96aa4161dfa11143
+source-git-commit: 48ceda965e7ebd4a62bfcb497bd0ca489ebac726
 workflow-type: tm+mt
 source-wordcount: '2445'
 ht-degree: 2%
@@ -46,7 +46,7 @@ ht-degree: 2%
     + [デフォルトビューとカスタムビューの管理](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)
     + アドホックビュー設定 {#ad-hoc-settings}
       + [列見出しメニューから列セットを編集する](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)
-      + [[!UICONTROL Custom Columns] アイコンから列セットを編集して並べ替え](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
+      + [[!UICONTROL Custom Columns] コントロールから列セットを編集して並べ替えます](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
       + [キャンペーンビューでの列設定のロックとロック解除](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)
       + [列の並べ替え](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)
       + [日付範囲でデータをフィルタリング](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)

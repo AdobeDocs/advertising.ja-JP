@@ -1,5 +1,5 @@
 ---
-title: '[!UICONTROL Custom Columns] アイコンから列セットを編集して並べ替え'
+title: '[!UICONTROL Custom Columns] コントロールから列セットを編集して並べ替えます'
 description: 列カスタマイザーを使用して表示列を変更する方法について説明します。
 exl-id: bc03b53f-179a-426f-bc31-20be25915506
 feature: Search Common Tasks, Search Custom Data Views
@@ -15,18 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '322'
 ht-degree: 0%
 ---
-# [!UICONTROL Custom Columns] アイコンから列セットを編集して並べ替え
-
-<!-- The same in new UI and legacy CM views except for icon -->
+# [!UICONTROL Custom Columns] コントロールから列セットを編集して並べ替えます
 
 <!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
 
-右側のツールバーから、任意のビューで表示されている列を変更できます。 変更は、該当するビューを離れるか、別の広告主のデータを表示するまでのみ適用されます。
+[!UICONTROL Custom Columns] コントロールを使用して、ビュー内の表示列を変更できます。 変更は、該当するビューを離れるか、別の広告主のデータを表示するまでのみ適用されます。
 
 >[!NOTE]
 >
@@ -34,7 +32,11 @@ ht-degree: 0%
 >
 >デフォルトのビューを編集するか[&#x200B; カスタムビューを作成することで、特定の広告主向けに含まれている列に変更を保存できます](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)。
 
-1. ツールバーの右側で、![&#x200B; カスタム列](/help/search-social-commerce/assets/custom-columns.png " カスタム列")または![カスタム列](/help/search-social-commerce/assets/custom-columns-new.png "カスタム列")をクリックします。
+1. 列設定を開きます。
+
+   * （新しいUI）右側のツールバーの![&#x200B; カスタム列](/help/search-social-commerce/assets/custom-columns-new.png " カスタム列")をクリックします。 ツールバーが狭すぎてコントロールが表示されない場合は、**[!UICONTROL Actions]>[!UICONTROL Custom Columns]**&#x200B;をクリックします。
+
+   * （従来のUI）ツールバーの右側で、![&#x200B; カスタム列](/help/search-social-commerce/assets/custom-columns.png " カスタム列")をクリックします。
 
 1. （オプション） [&#x200B; カスタム指標](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)を作成して、列として含めます。
 

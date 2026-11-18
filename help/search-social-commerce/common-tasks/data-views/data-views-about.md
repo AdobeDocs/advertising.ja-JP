@@ -15,20 +15,18 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '570'
 ht-degree: 0%
 ---
 # キャンペーン管理ビューでのデータのカスタマイズについて
-
-<!-- Add info about new UI -->
 
 ほとんどのキャンペーンデータビューでは、データテーブル内に表示されるデータをカスタマイズできます。 データは、次の方法でカスタマイズできます。
 
 * [特定のエンティティ表示（[!UICONTROL Campaigns]など）のデフォルトビュー](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md##view-edit)全体の設定を編集して、特定の列の順序、フィルター、日付範囲、アトリビューションルールなどを含め、設定を一時的に適用するか、保存します。 [追加のカスタムビューを作成](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)、[既存のビューを複製](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#view-clone)および[いずれかのビューを適用](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#apply-a-default-or-custom-view)することもできます。
 
-* [&#x200B; ツールバーの右側にある[!UICONTROL Columns] アイコンから列とその並べ替え順序](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)を変更するか、ビューの任意の列見出しから列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)だけを変更します。
+* [&#x200B; ツールバーの[!UICONTROL Custom Columns] コントロールを使用して、列とその並べ替え順序](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)を変更します。 新しいUIで、ツールバーが狭すぎてコントロールが表示されない場合は、**[!UICONTROL Actions]>[!UICONTROL Custom Columns]**&#x200B;をクリックします。 また、ビューの任意の列見出しから[列だけを変更することもできます](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)。
 
 * （レガシーユーザーインターフェイスのみ） [左側のナビゲーションパネル &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md)から、次の操作を実行できます。
 
@@ -45,3 +43,24 @@ ht-degree: 0%
 * [特定の列の値に従ってデータ &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)を並べ替えます。
 
 * 任意のページの下部に25行、50行、100行、（レガシーユーザーインターフェイスのみ） 200行、または（レガシーユーザーインターフェイスのみ） [!UICONTROL Continuous Scroll]を表示するかどうかを制御します。
+
+
+## （新しいUI） データテーブルコントロール {#data-table-tools-new-ui}
+
+データテーブルの上にあるツールバーを使用して、データを管理し、表示方法を変更します。 使用可能なツールは、ビューと権限によって異なります。
+
+ツールバーの幅が狭すぎてツールが表示されない場合は、**[!UICONTROL Actions]** メニューでツールバーを探します。
+
+利用可能な場合は、次のことができます。
+
+* [!UICONTROL Conversion based on]から&#x200B;*[!UICONTROL Click Date]*&#x200B;または&#x200B;*[!UICONTROL Transaction Date]*&#x200B;を選択して、コンバージョンデータのレポート方法を制御します。
+
+* 2つの期間のパフォーマンスを比較し、違いを表示する方法を選択します。 「[日付範囲](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#compare-periods-new-ui)でデータをフィルタリング」を参照してください。
+
+* ツールバーまたは&#x200B;**[!UICONTROL Actions]** メニューの&#x200B;**[!UICONTROL Compressed Mode]**&#x200B;を使用して、コンパクト表の間隔をオンまたはオフにします。
+
+  圧縮モードがオンの場合、ツールバーボタンが選択されます。 [!UICONTROL Actions]では、スイッチは現在の状態を示します。
+
+* ツールバーまたは&#x200B;**[!UICONTROL Actions]** メニューの&#x200B;**[!UICONTROL Charts]**&#x200B;を使用して、グラフを表示または非表示にします。
+
+  グラフが表示されているときにツールバーボタンが選択されます。 [!UICONTROL Actions]では、グラフが表示されているかどうかをスイッチで示します。 コントロールをもう一度クリックして、グラフを非表示にします。

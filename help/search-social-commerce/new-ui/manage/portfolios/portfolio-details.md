@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
+source-git-commit: 6b779d2f91a140cd69ed4a25ac97d376dd1ed48d
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1555'
 ht-degree: 0%
 ---
 # （新しいUI） ポートフォリオパフォーマンスの詳細の表示
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 * アクティブなポートフォリオのモデル精度データ。モデルが予測からどの程度偏差しているかを示します。 このレポートには、毎日またはローリングの7日間のコスト精度、クリック精度、および目標値の精度が全体的に表示されます。
 
-  クリック日（デフォルト）またはトランザクション日別にデータを表示できます。 データは、トレンドチャート（デフォルト）またはテーブルとして表示することもできます。
+  データは、トレンドチャート（デフォルト）またはテーブルとして表示できます。
 
 * アクティブなポートフォリオの実際の費用に対するターゲット支出。 オプションで、ポートフォリオのキャンペーン予算合計も含めることができます。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
   必要に応じて、ポートフォリオ設定を開いて編集できます。
 
-* ポートフォリオ内のキャンペーン、広告グループ、キーワードのリスト。
+* ポートフォリオ内の広告ネットワーク、アカウント、キャンペーン、広告グループ、キーワードのリストと、パフォーマンスデータ。
 
   個々のキーワードについて、予測、履歴情報、階層情報などの入札単位の詳細を表示できます。 [!UICONTROL Bid Unit Details] ビューには、選択した入札単位に関する次の予測、履歴情報、および階層情報が含まれます。
 
@@ -64,11 +64,19 @@ ht-degree: 0%
 
 1. メインメニューで、**[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;をクリックします。
 
-1. ポートフォリオ名の上にカーソルを置き、 （/help/search-social-commerce/assets/portfolio-overview.png「Portfolioの概要」をクリック）をクリックします。
+1. ポートフォリオ名の上にカーソルを置き、![Portfolioの概要](/help/search-social-commerce/assets/portfolio-overview.png "Portfolioの概要")をクリックします。
+
+1. （オプション）ポートフォリオの詳細の日付範囲を変更するには、右上の日付範囲をクリックし、日付範囲を指定してから「**[!UICONTROL Apply]**」をクリックします。
 
 1. （オプション） **[!UICONTROL Data Aggregation]** メニューから、各行に含まれるデータの時間単位を変更します：*[!UICONTROL Daily]、*、*[!UICONTROL Weekly]、*&#x200B;または&#x200B;*[!UICONTROL Monthly]。*
 
-1. （オプション）ポートフォリオの詳細の日付範囲を変更するには、右上の日付範囲をクリックし、日付範囲を指定してから「**[!UICONTROL Apply]**」をクリックします。
+   使用可能なオプションは、選択した日付範囲によって異なります。 現在の集計が新しい日付範囲で使用できない場合は、別の使用可能な集計が自動的に選択されます。
+
+1. （オプション）ページヘッダーの&#x200B;**[!UICONTROL Conversion Based On]** メニューから、**[!UICONTROL Click Date]**&#x200B;または&#x200B;**[!UICONTROL Transaction Date]**&#x200B;を選択します。
+
+   この設定は、ポートフォリオレポートとコンポーネントリストのコンバージョンデータに適用されます。
+
+別のポートフォリオの詳細を表示するには、ポートフォリオ名の横にあるポートフォリオセレクターを使用します。
 
 ## [!UICONTROL Portfolio Overview] タブをカスタマイズ
 
@@ -86,15 +94,19 @@ ht-degree: 0%
 
     * （グラフ表示）グラフ上の任意のポイントのデータを表示するには、そのポイントにカーソルを合わせます。
 
+    * （グラフ表示で）ズームするには、グラフ上の領域を選択します。
+
+    * （ポートフォリオ設定 – 変更マーカーが表示されている場合）マークされた日付のポートフォリオの変更履歴を表示するには、グラフのマーカーをクリックします。 履歴について詳しくは、「[&#x200B; ポートフォリオの変更履歴を表示](portfolio-view-change-history.md#portfolio-change-history)」を参照してください。
+
 * （オプション） [!UICONTROL Model accuracy]傾向グラフをカスタマイズするには、次のいずれかの操作を行います。
 
   * グラフ ビュー（![&#x200B; グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
 
-  * *[!UICONTROL Click Date]*&#x200B;と&#x200B;*[!UICONTROL Transaction Date]*&#x200B;によるデータの表示を切り替えます。
-
   * *[!UICONTROL Daily Accuracy]*&#x200B;と&#x200B;*[!UICONTROL 7 Day Rolling Accuracy]*&#x200B;に関するデータの表示を切り替えます。
 
     [!UICONTROL 7 Day Rolling Accuracy]は、過去7日間の予測の平均精度で、パーセントで表されます。 例えば、2025年5月8日の値は、2025年5月1日～5月7日の平均精度です。
+
+    [!UICONTROL 7 Day Rolling Accuracy]は、[!UICONTROL Data Aggregation]が[!UICONTROL Daily]に設定されている場合にのみ使用できます。
 
   * （グラフ表示）グラフ上の任意のポイントのデータを表示するには、そのポイントにカーソルを合わせます。
 
@@ -108,19 +120,50 @@ ht-degree: 0%
 
   * 報告された指標を&#x200B;*[!UICONTROL Cost]*、*[!UICONTROL Clicks]*&#x200B;または&#x200B;*[!UICONTROL Objective Value]*&#x200B;に変更します。
 
+  * 複数のネットワークでデータが使用可能な場合は、指標メニューの横にあるメニューからネットワークを選択します。
+
   * グラフ上の任意のポイントのデータを表示するには、そのポイントの上にカーソルを置きます。
 
-1. **[!UICONTROL Download report]**&#x200B;をクリックします。
+  * ズームするには、グラフ上の領域を選択します。
+
+## ポートフォリオコンポーネントのリストのカスタマイズ
+
+[!UICONTROL Networks]、[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]および[!UICONTROL Keywords]のタブには、次のコントロールが含まれます。
+
+* 名前で検索するには、表の上の検索フィールドにテキストを入力して、検索を送信します。
+
+* データを[&#x200B; フィルターするには、![&#x200B; フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター")をクリックします。 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)テーブルの上にあるフィルターコントロールを使用して、適用されたフィルターを編集または削除できます。
+
+* ネットワーク、アカウント、キャンペーンまたは広告グループのコンポーネントを次のタブで表示するには、その名前をクリックします。 選択した親がテーブルの上のパンくずリストに表示され、該当するフィルターはドリルダウンすると続行されます。 タブを切り替えても、親の選択によってリストが引き続き制限される場合があります。
+
+  ドリルダウン選択（ネットワーク名やアカウント名など）を削除するには、テーブルの上にあるパンくずリスト内のコンポーネント名の横にある&#x200B;**[!UICONTROL X]**&#x200B;をクリックします。 上位レベルの親の選択は引き続き有効です。 ポートフォリオ内のすべてのコンポーネントに戻るには、残りの親の選択とその他のフィルターを削除します。
+
+* データを更新するには、![更新](/help/search-social-commerce/assets/refresh-new.png "更新")をクリックします。
+
+* （[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、および[!UICONTROL Keywords] タブのみ）表示される列または並べ替え順序を変更するには、![&#x200B; カスタム列](/help/search-social-commerce/assets/custom-columns-new.png " カスタム列")をクリックし、[列セットと並べ替えオプション &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)を編集します。
+
+
+## ポートフォリオ内の広告ネットワークのリスト
+
+* 「**[!UICONTROL Networks]**」タブをクリックします。
+
+## ポートフォリオのアカウントのリスト
+
+* ポートフォリオ内のすべてのアカウントを表示するには、「**[!UICONTROL Accounts]**」タブをクリックします。
+
+* ポートフォリオ内の特定のネットワークのアカウントを表示するには、「**[!UICONTROL Networks]**」タブをクリックし、ネットワーク名をクリックします。
 
 ## ポートフォリオ内のキャンペーンのリスト
 
 各キャンペーンの詳細には、入札戦略、実際のコストと予測コスト、クリック数、目標値、コスト、クリック数、目標値の精度などが含まれます。
 
-* 「**[!UICONTROL Campaigns]**」タブをクリックします。
+* ポートフォリオ内のすべてのキャンペーンを表示するには、「**[!UICONTROL Campaigns]**」タブをクリックします。
+
+* ポートフォリオ内の特定のアカウントのキャンペーンを表示するには、「**[!UICONTROL Accounts]**」タブをクリックし、アカウント名をクリックします。
 
 ## ポートフォリオ内の広告グループのリスト
 
-各広告グループの詳細には、コスト、クリック数、客観的価値が含まれます。
+各広告グループの詳細には、ネットワーク、デフォルトの入札額、コスト、クリック数、CPC、インプレッション数、客観的価値、ポートフォリオの目標で使用されるコンバージョン指標などが含まれます。
 
 * ポートフォリオ内のすべての広告グループを表示するには、「**[!UICONTROL Ad Groups]**」タブをクリックします。
 
@@ -160,23 +203,27 @@ ht-degree: 0%
 
 ポートフォリオ設定について詳しくは、Search, Social, &amp; Commerce内から入手できる最適化ガイドを参照してください。
 
-## ポートフォリオパフォーマンスレポートとポートフォリオコンポーネントのリストをダウンロードします
+## ポートフォリオパフォーマンスレポートとポートフォリオコンポーネントのリストのダウンロード
 
-* すべてのレポートをダウンロードするには：
+* パフォーマンスレポートとコンポーネントリストをダウンロードするには：
 
   1. ツールバーで、**[!UICONTROL Download report]**&#x200B;をクリックします。
 
   1. 含める各パフォーマンスレポートとポートフォリオコンポーネントタイプの横にあるチェックボックスをオンにします。
 
-     一部のパフォーマンスレポートでは、データをチャートまたはテーブルとしてダウンロードするかどうかを選択できます。
+     使用可能なポートフォリオコンポーネントは&#x200B;*[!UICONTROL Campaigns table]*、*[!UICONTROL Ad groups table]*、*[!UICONTROL Keywords table]*&#x200B;です。 [!UICONTROL Networks]と[!UICONTROL Accounts] テーブルは、このダウンロードには含まれていません。
+
+     両方のオプションを含むパフォーマンスレポートの場合は、**[!UICONTROL As chart]**、**[!UICONTROL As table]**、またはその両方を選択します。 [!UICONTROL Network accuracy chart] レポートはグラフとしてのみ使用できます。
 
   1. **[!UICONTROL Download report]**&#x200B;をクリックします。
 
-* 特定の種類のデータを含む[!DNL model accuracy] レポートをダウンロードするには：
+* 特定の種類のデータを含む[!UICONTROL Model accuracy] レポートをダウンロードするには：
 
-  1. レポートのツールバーで、**[!UICONTROL Download report]**&#x200B;をクリックします。
+  1. [!UICONTROL Model accuracy]のツールバーで、**[!UICONTROL Download report]**&#x200B;をクリックします。
 
-  1. 含めるデータの各タイプの横にあるチェックボックスと、データの分類の方法（入札単位またはクリックボリューム別）を選択します。
+  1. **[!UICONTROL Cost Accuracy]**、**[!UICONTROL Objective Value Accuracy]**、またはその両方を選択します。
+
+  1. 選択した各タイプのデータについて、**[!UICONTROL By Bid Unit]**、**[!UICONTROL By Click Volume]**、またはその両方を選択します。
 
   1. **[!UICONTROL Download report]**&#x200B;をクリックします。
 

@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '500'
 ht-degree: 0%
 ---
 # ツールバーからのデータフィルターの適用
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## （新しいUI）管理ビューのツールバーからデータフィルターを適用する
 
-1. ツールバーで、![&#x200B; フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター")をクリックします。
+1. ツールバーで、検索フィールドの前にあるアイコンのみの![&#x200B; フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター") コントロールをクリックします。
 
 1. フィルター設定で、次のいずれかの操作を行います。
 
