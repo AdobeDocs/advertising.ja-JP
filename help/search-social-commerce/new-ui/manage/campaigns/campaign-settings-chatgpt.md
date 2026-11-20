@@ -39,7 +39,7 @@ ht-degree: 0%
 
 **[!UICONTROL Status]:** キャンペーンの表示ステータス：*アクティブ*&#x200B;または&#x200B;*一時停止*。 新規広告キャンペーンのデフォルトは&#x200B;*アクティブ*&#x200B;です。
 
-**[!UICONTROL Objective]:** キャンペーン目標：*[!UICONTROL Reach]*、*[!UICONTROL Clicks]*、または&#x200B;*[!UICONTROL Conversions]*。 目標は、使用可能な[広告グループ入札オプション ](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)を決定します。ターゲット CPC入札はクリックに対してサポートされ、ターゲット CPA入札はコンバージョンに対してサポートされます。 ターゲット CPCおよびターゲット CPA入札は、リーチキャンペーンでは使用できません。
+**[!UICONTROL Objective]:** キャンペーン目標：*[!UICONTROL Reach]*、*[!UICONTROL Clicks]*、または&#x200B;*[!UICONTROL Conversions]*。 目標は、使用可能な[広告グループ入札オプション &#x200B;](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)を決定します。ターゲット CPC入札はクリックに対してサポートされ、ターゲット CPA入札はコンバージョンに対してサポートされます。 ターゲット CPCおよびターゲット CPA入札は、リーチキャンペーンでは使用できません。
 
 **[!UICONTROL Billing event]:** （目標[!UICONTROL Conversions]を持つ新しいキャンペーン）クリック数またはインプレッション数に基づいて課金されているかどうか。 デフォルトはクリック数です。 目標によってキャンペーンの最適化対象が決まり、請求イベントによって請求方法が決まります。 キャンペーンを保存した後に請求イベントを変更することはできません。
 
@@ -69,4 +69,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ キャンペーンの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
+>* [&#x200B; キャンペーンの管理](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
