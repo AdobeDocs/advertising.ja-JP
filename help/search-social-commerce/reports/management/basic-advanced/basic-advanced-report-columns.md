@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3919'
 ht-degree: 0%
 ---
 # 基本レポートと詳細レポートのレポート列
@@ -59,6 +59,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | 広告のサイズ。 |
 | [!UICONTROL AD Strength] | （[!DNL Google Ads] レスポンシブ検索広告）広告の有効性：<i>[!UICONTROL average]</i>、<i>[!UICONTROL excellent]</i>、<i>[!UICONTROL good]</i>、<i>[!UICONTROL no_ads]</i>、<i>[!UICONTROL pending]</i>、<i>[!UICONTROL poor]</i>、<i>[!UICONTROL unknown]</i>または<i>[!UICONTROL unspecified]</i>。 |
 | [!UICONTROL Adgroup MBA] | （[!DNL Google Ads]、[!DNL LY Ads]、および[!DNL Microsoft Advertising] キャンペーン）現在の広告グループレベルのモバイル入札調整。この調整は、広告がモバイルデバイスに表示されたときに入札額がどのように調整されるかを決定します。 |
+| [!UICONTROL Adobe Tech Fees] | （[!UICONTROL Search Engine Account Report]、[!UICONTROL Campaign Report]、[!UICONTROL Ad Group Report]、および[!UICONTROL Ad Variation Report]のみ） メディア費用の[!DNL Adobe] テクノロジー料金は、該当する料金レートを使用して計算されます。[!DNL ChatGPT Ads] |
 | [!UICONTROL AI Max Bundling Required] | （検索ネットワークのみをターゲットとするキャンペーン、AI最大機能が有効になっているキャンペーン、読み取り専用）バンドルが必要かどうか：*[!UICONTROL REQUIRED]*、*[!UICONTROL NOT_REQUIRED]*、*[!UICONTROL UNSPECIFIED]*、またはnull。 |
 | [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]機能](https://support.google.com/google-ads/answer/15910366)が有効かどうか：*[!UICONTROL true]*、*[!UICONTROL false]*、またはnull。 |
 | [!UICONTROL AI Max Search Term Matching] | （検索ネットワークをターゲットとし、[AI Max機能](https://support.google.com/google-ads/answer/15910366)とキャンペーンレベルの検索語句の照合機能が有効になっているキャンペーン。読み取り専用）広告グループレベルの検索語句の照合が有効かどうか：*[!UICONTROL true]*、*[!UICONTROL false]*、またはnull。 |
@@ -67,6 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Avg Position] | 指定された日付範囲内の広告の平均位置。<br><br>[!DNL Google Ads]および[!DNL LY Ads] キャンペーンの場合、このデータは2019年9月までのみ利用できます。 [!DNL Microsoft Advertising]の場合、このデータは2021年1月22日までのみ利用できます。 |
 | [!UICONTROL Base URL] | キャンペーンまたはアカウントに設定された追加パラメーターを含む、キーワードのベース URL。 検索、ソーシャル、Commerceのリダイレクトとトラッキングコードは含まれていません。 |
 | [!UICONTROL Bid Strategy] | （ほとんどの広告ネットワーク）キャンペーンまたはキャンペーンコンポーネントの場合、これはキャンペーンの入札戦略です。 マネージャーアカウントにリンクされている広告ネットワークアカウントの場合、これはクロスアカウント入札戦略です。 使用可能な値は、広告ネットワークによって異なります。 |
+| [!UICONTROL Billable Spend] | （[!UICONTROL Search Engine Account Report]、[!UICONTROL Campaign Report]、[!UICONTROL Ad Group Report]、および[!UICONTROL Ad Variation Report]のみ） メディアのコストに[!DNL Adobe]の技術費が加算され、税抜きです。[!DNL ChatGPT Ads] |
 | [!UICONTROL Business Name] | （[!DNL Microsoft Advertising]件のレスポンシブ広告） ビジネス名。 |
 | [!UICONTROL Call to Action] | （[!DNL Microsoft Advertising]件のレスポンシブ広告とマルチメディア広告）広告に含まれるcall to action。 |
 | [!UICONTROL Campaign] | キャンペーン。 |
@@ -131,6 +133,7 @@ ht-degree: 0%
 | [!UICONTROL Est. Clicks] | （[!UICONTROL Geo Distribution Report]；検索および表示キャンペーンのみ）広告グループ/キャンペーン/ポートフォリオの組み合わせのクリック数の推定値。 この値は、広告ネットワークによって提供される値とは異なる場合があります。 |
 | [!UICONTROL Estimated Cost] | Search, Social, &amp; Commerceが追跡した関連する広告の見積もり費用の合計。 この値は、広告ネットワークによって提供される値とは異なる場合があります。 |
 | [!UICONTROL Estimated Impressions] | （ディスプレイキャンペーンのみ） Search, Social, &amp; Commerceが追跡した広告インプレッションの推定数。 この値は、広告ネットワークによって提供される値を示す[!UICONTROL Impressions]列（使用可能な場合）の値とは異なる場合があります。 |
+| [!UICONTROL Estimated Tax] | （[!UICONTROL Search Engine Account Report]、[!UICONTROL Campaign Report]、[!UICONTROL Ad Group Report]、および[!UICONTROL Ad Variation Report]のみ） メディア費用と[!DNL Adobe]技術費に対する推定税は、適用可能な税率を使用して計算されます。[!DNL ChatGPT Ads] |
 | [!UICONTROL Exclude (yes/no)] | 一致する製品の広告に対して、入札が除外されているか（<i>[!UICONTROL Yes]</i>）、または入札が許可されているか（<i>[!UICONTROL No]</i>）。 |
 | [!UICONTROL First Page CPC] | （Google キャンペーンのみ）指定した日付範囲の検索結果の最初のページに表示される広告のクリック単価（CPC）。 |
 | [!UICONTROL Frequency] | （[!DNL Meta] キャンペーンのみ）ユーザーが広告を閲覧した平均回数。 |
