@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '149'
 ht-degree: 0%
 ---
 # キャンペーンビューでの列設定のロックとロック解除
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
 
-その列とその左側にあるすべての列を1つの静的ペインにロックし、右側にあるすべての列を別のペインにロックして、水平にスクロールできるようにします。
+その列とその左側にあるすべての列を1つの静的ペインにロックし、右側にあるすべての列を別のペインにロックして、水平にスクロールできるようにします。 新しいUIでは、列見出しの間の境界を最初にロック解除せずにドラッグすることで、対象となるロック済み列のサイズを変更できます。
 
 ロックは、エンティティ ビューから離れるまでのみ機能します。 デフォルトビューまたはカスタムビューに保存することはできません。
 
