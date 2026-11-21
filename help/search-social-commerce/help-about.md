@@ -39,19 +39,19 @@ ht-degree: 0%
 
 * 次の章では、新しいユーザーインターフェイスのメインメニューオプションの機能について説明します。「[!UICONTROL Dashboard]」、「[!UICONTROL Manage]」、「[!UICONTROL Reports]」、「[!UICONTROL Plan]」、「[!UICONTROL Setup]」、「[!UICONTROL Goals]」、「[!UICONTROL Targeting]」、「[!UICONTROL Library]」。
 
-  各章について詳しくは、「[ ユーザーインターフェイスの構成方法](/help/search-social-commerce/getting-started/user-interface.md)」を参照してください。
+  各章について詳しくは、「[&#x200B; ユーザーインターフェイスの構成方法](/help/search-social-commerce/getting-started/user-interface.md)」を参照してください。
 
 * 「トラッキング」では、広告とキーワードのクリックとコンバージョンのトラッキングを設定する方法について説明します。
 
-* 「レガシーユーザーインターフェイス」では、[ レガシーユーザーインターフェイス ](/help/search-social-commerce/getting-started/ui-switch.md)で実行できるタスクについて説明します。
+* 「レガシーユーザーインターフェイス」では、[&#x200B; レガシーユーザーインターフェイス &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md)で実行できるタスクについて説明します。
 
   これらのタスクのほとんどは、新しいユーザーインターフェイスでも使用できます。
 
 >[!NOTE]
 >
->従来のユーザーインターフェイスでの入札にポートフォリオを使用するなど、最適化に関する追加のヘルプは、Search、Social、およびCommerce内の任意のページの右上にある[!UICONTROL Help] メニュー（![ ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から利用できます。
+>従来のユーザーインターフェイスでの入札にポートフォリオを使用するなど、最適化に関する追加のヘルプは、Search、Social、およびCommerce内の任意のページの右上にある[!UICONTROL Help] メニュー（![&#x200B; ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から利用できます。
 
 >[!MORELIKETHIS]
 >
->* [ ユーザーインターフェイスの構成方法](/help/search-social-commerce/getting-started/user-interface.md)
+>* [&#x200B; ユーザーインターフェイスの構成方法](/help/search-social-commerce/getting-started/user-interface.md)
 >* [新しいユーザーインターフェイスと従来のユーザーインターフェイスを切り替える](/help/search-social-commerce/getting-started/ui-switch.md)
