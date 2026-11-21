@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7d9c610b13af9e4f64b9955fc89e71fcae708c45
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 各ページには、メインメニューと、その他のタスクおよび情報ベースのメニューが含まれています。
 
-ご利用の[製品プロファイル &#x200B;](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles)によって、各ビュー内で利用可能な機能を含め、利用可能なオプションが決まります。
+ご利用の[製品プロファイル &#x200B;](/help/search-social-commerce/user-administration.md#default-product-profiles)によって、各ビュー内で利用可能な機能を含め、利用可能なオプションが決まります。
 
 ## メインメニュー
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Plan]** サブメニュー：
 
-  * **[!UICONTROL Simulations]** ユーザーが作成したすべてのカスタムシミュレーションと自動生成された週次シミュレーションを表示したり、新しいカスタムシミュレーションを生成したり、既存のシミュレーションを再実行したりできる、新しい[[!UICONTROL Simulations] ビュー](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)を開きます。 [!UICONTROL Spend Planner] ボタンをクリックすると、[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]のレガシー[!UICONTROL Spend Recommendation] ツールが開きます。
+  * **[!UICONTROL Simulations]** ユーザーが作成したすべてのカスタムシミュレーションと自動生成された週次シミュレーションを表示したり、新しいカスタムシミュレーションを生成したり、既存のシミュレーションを再実行したりできる、新しい[[!UICONTROL Simulations] ビュー](/help/search-social-commerce/plan/simulations/simulation-about.md)を開きます。 [!UICONTROL Spend Planner] ボタンをクリックすると、[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]のレガシー[!UICONTROL Spend Recommendation] ツールが開きます。
 
   * **[!UICONTROL Spend Planner]**&#x200B;新しいサイトを終了し、従来の[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] ビューを開きます。
 

@@ -10,7 +10,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cb25ab04e8fef5d00935e5325a897b1de97e2674
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Adobe DSPと[!DNL OpenAI Ads]との統合により、[!DNL ChatGPT Ads]件のチ
 
 次の手順で、この機能の実施要件を決定します。
 
-* **既存の[!DNL Search, Social, & Commerce]のお客様：**&#x200B;広告主が既に[!DNL Search, Social, & Commerce]を使用している場合、[DSPではなく、検索、ソーシャル、Commerce](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)で [!DNL ChatGPT Ads]  キャンペーンを作成および管理します。
+* **既存の[!DNL Search, Social, & Commerce]のお客様：**&#x200B;広告主が既に[!DNL Search, Social, & Commerce]を使用している場合、[DSPではなく、検索、ソーシャル、Commerce](/help/search-social-commerce/manage/campaigns/campaign-manage.md)で [!DNL ChatGPT Ads]  キャンペーンを作成および管理します。
 
 * **制限付き業界：**&#x200B;制限付きカテゴリー（金融や医療など）の広告主は、会話型の広告アカウントやキャンペーンを作成できません。
 

@@ -1,9 +1,8 @@
 ---
-source-git-commit: 287e8bd0c2a3c3aedbf5f1f9551823b0c4586a57
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
 # スニペット
 
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合、レコードを保存すると、Search, Social, &amp; Commerceは自動的に独自のリダイレクトコードとトラッキングコードの先頭に付けられます。
 
-* サポートされているパラメーターを使用して最終的なURLを埋め込む場合は、サポートされている[[!DNL Google Ads] 形式 [!DNL ValueTrack] の](https://support.google.com/google-ads/answer/6305348) ドキュメントを参照してください。 （「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーターに移動します）。
+* サポートされているパラメーターを使用して最終的なURLを埋め込む場合は、サポートされている [!DNL ValueTrack] 形式[&#128279;](https://support.google.com/google-ads/answer/6305348)の[!DNL Google Ads]  ドキュメントを参照してください。 （「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーターに移動します）。
 
 * 必要に応じて、URL パラメーターと、キャンペーン用に定義された任意のカスタムパラメーターをアンパサンド（&amp;）で区切って含めることができます（{lpurl}?matchtype={matchtype}&amp;device={device}など）。
 
@@ -50,7 +49,7 @@ ht-degree: 0%
 
 ## テキスト広告テンプレート – 動的パラメーターの挿入方法を説明するメモ {#inventory-feed-template-insert-dynamic-parameter}
 
-列名または修飾子グループを動的パラメーターとして挿入するには、入力フィールドをクリックし、列リストの列名または修飾子リストの[修飾子名](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)をクリックします。 [!DNL Param1]または[!DNL Param2]変数を挿入するには、値`{param1:default text}`または`{param2:default text}`を入力します。ここで、「デフォルトテキスト」は、フィードファイルのパラメーター列が広告行に対して空の場合に使用されるテキストです。
+列名または修飾子グループを動的パラメーターとして挿入するには、入力フィールドをクリックし、列リストの列名または修飾子リストの[修飾子名](/help/search-social-commerce/legacy-ui/campaign-management/inventory-feeds/modifiers-manage.md)をクリックします。 [!DNL Param1]または[!DNL Param2]変数を挿入するには、値`{param1:default text}`または`{param2:default text}`を入力します。ここで、「デフォルトテキスト」は、フィードファイルのパラメーター列が広告行に対して空の場合に使用されるテキストです。
 
 ## テキスト広告テンプレート – 広告カスタマイザーの挿入方法を説明するメモ {#inventory-feed-template-insert-ad-customizer}
 

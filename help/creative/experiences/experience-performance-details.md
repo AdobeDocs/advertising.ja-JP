@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -96,7 +96,7 @@ ht-degree: 0%
 
    * （オプション）報告されたコンバージョンを変更するには、![設定](/help/creative/assets/settings.png)をクリックし、**[!UICONTROL Conversions]** メニューでコンバージョン名を選択します。 現在、利用可能な指標は、すべてのコンバージョン指標を含む「すべてを選択」のみです。
 
-     使用可能なコンバージョン列には、Search、Social、およびCommerceのお客様であるかどうかにかかわらず、Advertising Search、Social、およびCommerceで使用可能なコンバージョンが含まれます。 リストには、広告主が[an [!DNL Adobe Analytics for Advertising] integration](/help/integrations/analytics/overview.md)を持つ場合にAdobe Analyticsから同期されたコンバージョンとサイトエンゲージメントの指標を含めることができます。 [!DNL Analytics]個の計算指標と高度な計算指標は使用できません。 収集したコンバージョンをレポートに含める方法について詳しくは、Search, Social, &amp; Commerce ガイドのトピック「[広告主のコンバージョン指標の管理について](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)」を参照してください。
+     使用可能なコンバージョン列には、Search、Social、およびCommerceのお客様であるかどうかにかかわらず、Advertising Search、Social、およびCommerceで使用可能なコンバージョンが含まれます。 リストには、広告主が[an [!DNL Adobe Analytics for Advertising] integration](/help/integrations/analytics/overview.md)を持つ場合にAdobe Analyticsから同期されたコンバージョンとサイトエンゲージメントの指標を含めることができます。 [!DNL Analytics]個の計算指標と高度な計算指標は使用できません。 収集したコンバージョンをレポートに含める方法について詳しくは、Search, Social, &amp; Commerce ガイドのトピック「[広告主のコンバージョン指標の管理について](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md)」を参照してください。
 
 1. （[!UICONTROL Overview] タブで）:
 

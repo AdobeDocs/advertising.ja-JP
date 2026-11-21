@@ -1,9 +1,7 @@
 ---
 title: 特殊レポートのレポート列
 description: 特殊レポートで使用可能なデータ列について説明します。
-exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-TQID: 'https://experienceleague.adobe.com/RI7bIXkj-J3Zf9-0cQozmrvRKZhTTDcbICnJCV22IxM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,19 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3223'
 ht-degree: 1%
 ---
 # 特殊レポートのレポート列
@@ -88,6 +76,7 @@ ht-degree: 1%
 | [!UICONTROL Content IS% (Google)] | （[!DNL Google Ads]のみ；[!UICONTROL Campaign Daily Impression Share Report]） ディスプレイ/オーディエンスネットワーク上の広告に対して受け取ったインプレッションの数を、受け取る資格のあるインプレッションの推定数で割った数。 10%未満の割合は「`<10%`」、90%を超える割合は「`>90%`」と表示されます。 |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | （[!DNL Google Ads]のみ；[!UICONTROL Campaign Daily Impression Share Report]）ディスプレイ/オーディエンスネットワーク上の広告が受け取らなかったインプレッションの推定パーセンテージ。毎日または月々の予算が低すぎたためです。 10%未満の割合は「`<10%`」、90%を超える割合は「`>90%`」と表示されます。 |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | （[!DNL Google Ads]のみ；[!UICONTROL Campaign Daily Impression Share Report]）広告ランクが低いため、ディスプレイ/オーディエンスネットワーク上の広告が表示されなかったインプレッションの推定割合。 10%未満の割合は「`<10%`」、90%を超える割合は「`>90%`」と表示されます。 |
+| [!UICONTROL Conversion Actions] | （[!UICONTROL Google AI Max Search Term Combination]件のレポート） コンバージョンに至ったコンバージョンアクション。 |
 | [!UICONTROL Conversion Rate] | コンバージョン数をクリック数で割った値です。 |
 | [!UICONTROL Conversion Type] | 広告主のweb サイトで追跡された、ユーザー定義のコンバージョンタイプ。 |
 | [!UICONTROL Conversions] | （[!UICONTROL Google AI Max Search Term Combination]、[!UICONTROL Google Asset Group Performance]および[!UICONTROL MSA Ad Extension]件のレポート）指定した期間の合計コンバージョン数。 [!UICONTROL MSA Ad Extension] レポートの場合、これは、販売または別の成功指標に結び付いたクリック数です。 [!UICONTROL Google AI Max Search Term Combination] レポートの場合、「コンバージョンに含める」が有効になっているコンバージョンアクションからのコンバージョンの合計数です |
@@ -126,7 +115,7 @@ ht-degree: 1%
 | [!UICONTROL Final Mobile URLs] | （[!UICONTROL Google Asset Group Performance Report]）すべてのクロスドメインリダイレクト後のモバイルデバイスの最終的なURLのリスト。 キャンペーンでURL拡張が有効になっている場合、URLは拡張される場合があります。 |
 | [!UICONTROL Goal] | （[!UICONTROL MSA Ad ExtensionReport]件のレポート、[!UICONTROL MSA Network Performance Report]）コンバージョン目標の名前。 |
 | [!UICONTROL Goal Type] | （[!UICONTROL MSA Ad Extension]件のレポート、[!UICONTROL MSA Network Performance Report]） コンバージョン目標のタイプ。 |
-| [!UICONTROL Google Conversions] | （[!UICONTROL AdWords Conversion Report]） [the [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)が追跡したオンライン コンバージョンの数。 |
+| [!UICONTROL Google Conversions] | （[!UICONTROL AdWords Conversion Report]） [the [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/tracking/google-conversion-data.md)が追跡したオンライン コンバージョンの数。 |
 | [!UICONTROL Google Converted Clicks] | （[!UICONTROL AdWords Conversion Report]; 2016年に非推奨） 1つ以上のコンバージョンに至ったクリック数。 |
 | [!UICONTROL Headline 1] | （[!UICONTROL Google AI Max Search Term Combination Report]）広告の最初の見出し。 |
 | [!UICONTROL Headline 2] | （[!UICONTROL Google AI Max Search Term Combination Report]）広告の2番目の見出し。 |
@@ -215,6 +204,6 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [専門性レポートについて](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
->* [専門性レポートの生成](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [特殊レポート設定](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [専門性レポートについて](specialty-report-about.md)
+>* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/reports/management/report-manage.md)
+>* [特殊レポート設定](specialty-report-settings.md)

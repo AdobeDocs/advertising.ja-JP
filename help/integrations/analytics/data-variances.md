@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '3529'
 ht-degree: 0%
@@ -212,7 +212,7 @@ The following is an example of a workspace to track clicks to instances.
 
 * アカウントまたは任意のサブレベルでクリックトラッキングが欠落しているか、または重複したクリックトラッキング（アカウントレベルとキャンペーンレベルの両方など）がありますか？
 
-  Search, Social, &amp; Commerceで、[&#x200B; アカウントのバルクシートをダウンロード &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)して、トラッキング URLを確認します。
+  Search, Social, &amp; Commerceで、[&#x200B; アカウントのバルクシートをダウンロード &#x200B;](/help/search-social-commerce/set-up/bulksheets/download.md)して、トラッキング URLを確認します。
 
   また、[!DNL Analytics]では、次のように計算された「[!DNL AMO ID] ～ [!DNL EF ID]」計算指標を使用して、AMO IDとEF IFが一貫して追加されているかどうかを確認できます。
 

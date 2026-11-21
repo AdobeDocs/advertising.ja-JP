@@ -1,0 +1,89 @@
+---
+title: '[!DNL Baidu] アカウントに必要なバルクシート データ'
+description: '[!DNL Baidu] アカウントの必須ヘッダーフィールドとデータフィールドを一括シートで参照します。'
+exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
+feature: Search Bulksheets
+TQID: 'https://experienceleague.adobe.com/-MST6KDJBF73Dcbi4zwIbqK9W8EiV7UvUMpGq2aYeGE'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
+subfeature_v2:
+  - id: e58024d1-d6da-420c-80af-6be211808316
+    internal-label: Bulksheets
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '1956'
+ht-degree: 0%
+---
+# 付録 – [!DNL Baidu] アカウントに必要なバルクシート データ
+
+[!DNL Baidu]件のキャンペーンデータを一括で作成および更新するには、[!DNL Baidu]件のアカウントに特化してフォーマットされたSearch、Social、およびCommerceのバルクシート ファイルを使用できます。 a） [&#128279;](/help/search-social-commerce/set-up/bulksheets/download.md)必要なファイル形式で既存のアカウントの一括シートファイルを生成するか、b）手動で作成できます（サポートされているファイル形式に関する一般的な情報については、「[&#x200B; サポートされている一括シートファイル形式](bulksheet-file-formats.md)」を参照）。
+
+{{$include /help/_includes/bulksheet-appendices-intro.md}}
+
+## 使用可能なデータフィールド
+
+{{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+
+>[!TIP]
+>
+>次の表は幅が広いです。 表示領域を拡大するには、左ペインの上部にある![左ペインを非表示](/help/dsp/assets/hide-left-pane.png "左ペインを非表示")および右ペインの上部にある![右ペインを隠す](/help/dsp/assets/hide-right-pane.png "右ペインを隠す")をクリックして、目次と右ペインを一時的に非表示にすることができます。 テーブルの下部にあるスクロールバーを使用して、コンテンツ全体を表示することもできます。
+
+| フィールド | キャンペーン | 広告グループ | キーワード | テキスト広告 | 場所ターゲット | 説明 |
+|----|----|----|----|----|----|----|
+| [!UICONTROL Platform] | なし | なし | なし | なし | なし | （情報目的で生成されたバルクシートに含まれる）広告プラットフォーム。 各行にエンティティのAMO IDが含まれていない限り、必須です。 |
+| [!UICONTROL Acct Name] | 必須/オプション | R/O | 必須/オプション | 必須/オプション | 必須/オプション | （情報目的で生成されたバルクシートに含まれる）広告プラットフォーム。 各行にエンティティのAMO IDが含まれていない限り、必須です。 |
+| [!UICONTROL Campaign Name] | 必須 | 必須 | 必須 | 必須 | 必須 | アカウントのキャンペーンを識別する一意の名前。 |
+| [!UICONTROL Campaign Budget] | 必須：作成<br> オプション：編集または削除 | なし | なし | なし | なし | 金銭的な記号や句読点の有無にかかわらず、キャンペーンの1日の支出制限。 この値は上書きされますが、アカウントの予算を超えることはできません。 |
+| [!UICONTROL Location] | なし | なし | なし | なし | 必須 | キャンペーンの広告を配置する地理的な場所。 場所を除外するには、その場所の先頭にマイナス記号（`-`）を付けます。 キャンペーンに特定の値を入力しない場合は、すべての場所がターゲットになります。 |
+| [!UICONTROL Excluded IPs (Baidu)] | オプション | なし | なし | なし | なし | 広告を表示しないweb サイトのIP アドレス。 複数の値はコンマで区切ります。 |
+| [!UICONTROL Ad Serving (Baidu)] | オプション | なし | なし | なし | なし | 広告グループ内でアクティブな広告を相互に関連して配信する頻度：<ul><li><i>回転</i> （新しいキャンペーンのデフォルト）：各広告は、ほぼ同じ回数の広告オークションに参加します。これにより、Search, Social, &amp; Commerceでは、クリックスルー率だけでなく、コンバージョンでも広告をスコアリングできます。</li><li><i>最適化：</i>広告ネットワークは、クリックスルー率が高く、スコアが高い広告を好みます。 これらの広告は、より頻繁に広告オークションに出稿され、時間の経過とともに1つの広告が支持されます。 この結果は、ビジネス目標や最適化目標と一致していない可能性があります。</li></ul> |
+| [!UICONTROL Ad Group Name] | なし | 必須 | 必須 | 必須 | なし | 広告グループを識別する一意の名前。 |
+| [!UICONTROL Max CPC] | なし | O | O | なし | なし | クリック単価（CPC）：検索ネットワークにおける広告クリックに対する支払い額として最も高い金額です。金銭的記号と句読点の有無にかかわらず適用されます。 広告グループとキーワードの値を設定できます。 新しいキーワードのデフォルトは、広告グループレベルから継承されます。 |
+| [!UICONTROL Keyword] | オプション / n/a | オプション / n/a | 必須 | なし | なし | キーワード文字列。<br><br>広告グループまたはキャンペーンレベルでキーワードを除外するには、[!UICONTROL Match Type]を[!UICONTROL Negative]に設定します。 行に広告グループ名が含まれている場合、広告グループのキーワードは除外されます。 行に広告グループ名が含まれていない場合、キャンペーン全体のキーワードは除外されます。<br><br><b>注意：</b>Baidu キーワードを変更すると、既存のキーワードが削除され、新しいキーワード IDを持つ新しいキーワードが作成されます。 ただし、既存のキーワードを削除せずに、一致タイプを変更できます。 |
+| [!UICONTROL Match Type] | オプション / n/a | オプション / n/a | オプション：Create<br>必須/オプション：編集または削除 | なし | なし | キーワードのキーワードマッチングオプション : <i>[!UICONTROL Broad]</i>、<i>[!UICONTROL Exact]</i>、<i>[!UICONTROL Phrase]</i>、<i>[!UICONTROL Negative Broad]</i>、または<i>[!UICONTROL Negative Exact]</i>。 キャンペーンレベルまたは広告グループレベルで、否定的なキーワードを定義します。<br><br>新しいキーワードの場合、デフォルトは<i>[!UICONTROL Broad]</i>です。 一致タイプまたはキーワード IDの値は、複数の一致タイプを持つキーワードを編集する場合にのみ必要です。<br><br><b>注意：</b>既存のキーワードを削除せずに、[!DNL Baidu] キーワードの一致タイプを変更できます。 |
+| [!UICONTROL Ad Title] | なし | なし | なし | 必須 | なし | 広告の見出し。 最大の長さは、14個の2 バイトまたは28個の1 バイト文字です。<br><br><b>注意：</b>広告コピーを変更すると、既存の広告が削除され、同じプロパティを持つ新しい広告が作成されます。 |
+| [!UICONTROL Description Line 1] | なし | なし | なし | 必須 | なし | 広告の本文の最初の行。 最小長は4文字または8文字で、最大長は20文字または40文字です。<br><br><b>注意：</b>広告コピーを変更すると、既存の広告が削除され、同じプロパティを持つ新しい広告が作成されます。 |
+| [!UICONTROL Description Line 2] | なし | なし | なし | 必須 | なし | 広告の本文の2行目。 最小長は4文字または8文字で、最大長は20文字または40文字です。<br><br><b>注意：</b>広告コピーを変更すると、既存の広告が削除され、同じプロパティを持つ新しい広告が作成されます。 |
+| [!UICONTROL Display URL] | なし | なし | なし | 必須 | なし | 広告に表示されるURL。 最大長は35文字です。 |
+| [!UICONTROL Base URL] | なし | なし | オプション | 必須 | なし | 広告をクリックしたときにエンドユーザーが取得するランディングページ URL。キャンペーンまたはアカウント用に設定された追加パラメーターも含まれます。<br><br> キーワードレベルのベース/最終URLは、広告レベル以上のURLを上書きします。 |
+| [!UICONTROL Destination URL] | なし | なし | なし | なし | なし | （生成されたバルクシートに含まれ、広告ネットワークには投稿されません）宛先URLを持つアカウントの場合、この値は、広告を広告主のweb サイト上のベース URL/ランディングページにリンクするURLです（クリックを追跡し、ユーザーをランディングページにリダイレクトする別のサイト経由で送信する場合もあります）。 これには、検索、ソーシャル、Commerceのキャンペーンまたはアカウント用に設定された追加パラメーターが含まれます。 トラッキング URLを生成した場合、この値は、アカウント設定とキャンペーン設定のトラッキングパラメーターに基づきます。 広告ネットワーク固有のパラメーターを追加した場合、検索、ソーシャル、Commerceの同等のパラメーターに置き換えることができます。<br><br>最終的なURLを持つアカウントの場合、この列には[!UICONTROL Base URL/Final URL column]と同じ値が表示されます。 |
+| [!UICONTROL Custom URL Param] | なし | なし | オプション | オプション | なし | 検索アカウントまたはキャンペーン設定のトラッキングパラメーターに変数が含まれている場合に、`{custom_code}`動的変数の代わりにデータを使用します。 トラッキング URLにカスタム値を挿入するには、[!UICONTROL Generate Tracking URLs] オプションを使用してバルクシート ファイルをアップロードします。 |
+| [!UICONTROL Campaign Status] | オプション：作成または編集<br>必須：削除 | なし | なし | なし | なし | キャンペーンの表示ステータス：<i>[!UICONTROL Active]</i>、<i>[!UICONTROL Paused]</i>または<i>[!UICONTROL Deleted]</i> （既存のキャンペーンのみ）。 新規キャンペーンのデフォルトは<i>[!UICONTROL Active]</i>です。 アクティブまたは一時停止したキャンペーンを削除するには、値「[!UICONTROL Deleted]」を入力します。 |
+| [!UICONTROL Ad Group Status] | なし | オプション：作成または編集<br>必須：削除 | なし | なし | なし | 広告グループの表示ステータス：<i>[!UICONTROL Active]</i>、<i>[!UICONTROL Paused]</i>または<i>[!UICONTROL Deleted]</i> （既存の広告グループのみ）。 新規広告グループのデフォルトは<i>[!UICONTROL Active]</i>です。 アクティブな広告グループまたは一時停止した広告グループを削除するには、値「[!UICONTROL Deleted]」を入力します。 |
+| [!UICONTROL Keyword Status] | なし | なし | オプション：作成または編集<br>必須：削除 | なし | なし | キーワードの表示ステータス：<i>[!UICONTROL Active]</i>、<i>[!UICONTROL Deleted]</i> （既存のキーワードのみ）、<i>[!UICONTROL Inactive]</i> （編集不可）、<i>[!UICONTROL Paused]</i> （既存のキーワードのみ）、または<i>[!UICONTROL Pending]</i> （編集不可）。 新しいキーワードのデフォルトは<i>[!UICONTROL Active]</i>です。<br><br> キーワードを削除するには、値<i>[!UICONTROL Deleted]</i>を入力します。 |
+| [!UICONTROL Ad Status] | なし | なし | なし | オプション：作成または編集<br>必須：削除 | なし | 広告の表示ステータス：<i>[!UICONTROL Active]</i> （新規広告のデフォルト）、<i>[!UICONTROL Deleted]</i> （既存の広告のみ）、<i>[!UICONTROL Disapproved]</i> （編集不可）、<i>[!UICONTROL Inactive]</i> （編集不可）、<i>[!UICONTROL Paused]</i>または<i>[!UICONTROL Pending (not editable)]</i>。<br><br>広告を削除するには、値<i>[!UICONTROL Deleted]</i>を入力します。 |
+| [!UICONTROL Location Status] | なし | なし | なし | なし | オプション：作成または編集<br>必須：削除 | 場所ターゲットの状態：<i>[!UICONTROL Active]</i>または<i>[!UICONTROL Deleted] （既存の場所のみ）。 新しい場所のデフォルトは<i>[!UICONTROL Active]です。 アクティブな場所を削除するには、値<i>[!UICONTROL Deleted]を入力します。 |
+| \[広告主固有ラベル分類\] | オプション | オプション | オプション | オプション | なし | （広告主固有のラベル分類の名前。例えば、「カラー」というラベル分類の「カラー」など）エンティティに関連付けられている指定された分類の値。 エンティティごとに分類ごとに1つの値のみを含めることができます（キャンペーン Aの「カラー」ラベル分類の「赤」など）。 最大長は100文字で、値にはASCII文字と非ASCII文字を含めることができます。<br><br> ラベル分類とそのラベル値は、すべての子コンポーネントに適用されます。後で追加される新しいコンポーネントは、ラベルに自動的に関連付けられます。 <br><br>分類名と分類値は、大文字と小文字を区別しません。 |
+| [!UICONTROL Constraints] | オプション | オプション | オプション | なし | なし | エンティティに割り当てられた制約。 エンティティごとに割り当てることができる制約は1つだけです。<br><br>制約は子エンティティによって継承されるので、継承された値を上書きしない限り、子エンティティの値を入力する必要はありません。 |
+| [!UICONTROL Campaign ID] | なし：作成<br>必須/オプション：編集および削除 | オプション | オプション | オプション | なし | 既存のキャンペーンを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1]この行にキャンペーンのAMO IDが含まれていない限り、キャンペーン名を変更する場合にのみ必要です。 |
+| [!UICONTROL Ad Group ID] | なし | なし：作成<br>必須/オプション：編集および削除 | オプション | オプション | なし | 既存の広告グループを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1]広告グループ名を変更する場合にのみ必要です。ただし、行に広告グループのAMO IDが含まれている場合は除きます。 |
+| [!UICONTROL Keyword ID] | なし | なし | なし：作成<br>必須/オプション：編集および削除 | なし | なし | 既存のキーワードを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1] キーワード名を変更する場合にのみ必要です。行にa）キーワードを識別するのに十分なプロパティ列またはb） AMO IDが含まれていない限り必要です。 |
+| [!UICONTROL Ad ID] | なし | なし | なし | なし：作成<br>必須/オプション：編集および削除 | なし | 既存のキーワードを識別する一意のID。 CSV ファイルおよびTSV ファイルでは、先頭に引用符（&#39;）を付ける必要があります。[^1] キーワード名を変更する場合にのみ必要です。行にa）キーワードを識別するのに十分なプロパティ列またはb） AMO IDが含まれていない限り必要です。 |
+| [!UICONTROL AMO ID] | なし：作成<br> オプション：編集および削除 | なし：作成<br> オプション：編集および削除 | なし：作成<br> オプション：編集および削除 | なし：作成<br> オプション：編集および削除 | なし：作成<br> オプション：編集および削除 | （生成されたバルクシート内）同期されたエンティティに対して[!DNL Adobe]が生成した一意のID。 レスポンシブ検索広告の場合、[!UICONTROL Ad ID]を含まない限り、AMO IDは広告の編集または削除に必要です。 AMO IDを持つ他のすべてのエンティティの種類のデータを編集するには、エンティティ IDと親エンティティ IDを含まない限り、AMO IDがデータの編集または削除を行う必要があります。<br><br>Search, Social, &amp; Commerceでは、値を使用して正しいIDを判断しますが、IDをアドネットワークに投稿しません。 |
+| [!UICONTROL EF Error Message] | なし | なし | なし | なし | なし | （情報目的で生成されたバルクシートに含まれる）行のデータに関するSearch、Social、およびCommerceのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは[!UICONTROL EF Errors] ファイルに含まれます。 この値は広告ネットワークに投稿されません。 |
+| [!UICONTROL SE Error Message] | なし | なし | なし | なし | なし | （情報目的で生成されたバルクシートに含まれる）行のデータに関する広告ネットワークからのエラーメッセージを表示するためのプレースホルダー。エラーメッセージは[!UICONTROL SE Errors] ファイルに含まれます。 この値は広告ネットワークに投稿されません。 |
+
+[^1]: ファイルを開くと、Excelは大きな数値を科学表記法（2115585666の場合は2.12E+09など）に変換します。 標準表記法で数値を表示するには、列内の任意のセルを選択し、数式バー内をクリックします。
+
+>[!MORELIKETHIS]
+>
+>* [付録 – バルクシート エラー](/help/search-social-commerce/set-up/bulksheets/errors.md)
+>* [&#x200B; バルクシートで実行できる操作](bulksheet-operations.md)
+>* [&#x200B; サポートされているバルクシート ファイル形式](bulksheet-file-formats.md)
+>* [&#x200B; バルクシート ファイルのダウンロードと作成](/help/search-social-commerce/set-up/bulksheets/download.md)
+>*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)の クリックトラッキング形式
+>* [&#x200B; バルクシート ファイルをアップロードするか、エラーファイルを修正](/help/search-social-commerce/set-up/bulksheets/upload.md)

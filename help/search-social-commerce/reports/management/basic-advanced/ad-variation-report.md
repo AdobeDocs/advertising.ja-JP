@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Ad Variation Report]'
 description: '[!UICONTROL Ad Variation Report]について説明します。'
-exl-id: e12f2dee-b430-444f-9204-73fed4e33e29
 feature: Search Reports, Search Basic Reports
-TQID: 'https://experienceleague.adobe.com/9elU8xOtxiLurZdMaOIS077fFH8MtWF1bVx-RtVrMYg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,15 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
     internal-label: Search Basic Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '156'
 ht-degree: 0%
 ---
 # [!UICONTROL Ad Variation Report]
@@ -62,5 +54,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [基本レポートと詳細レポートについて](basic-advanced-report-about.md)
->* [基本レポートまたは詳細レポートを生成](basic-advanced-report-generate.md)
 >* [基本および詳細レポート設定](basic-advanced-report-settings.md)
+>* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/reports/management/report-manage.md)

@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Search, Social, &amp; Commerceでは、次の方法で追跡されたコンバ�
 
 * **Adobe Analytics コンバージョン：**&#x200B;広告主は、すべてのコンバージョンにAdobe Analytics トラッキングを使用します。 このオプションを使用するには、Adobe AdvertisingとAdobe Analyticsの統合が必要です。 詳しくは、「[Adobe Analytics コンバージョントラッキング &#x200B;](conversion-tracking-analytics.md)」を参照してください。
 
-* **[!DNL Google Analytics]コンバージョン：**&#x200B;広告主は[!DNL Google Analytics] タグを使用してすべてのコンバージョンを追跡します。 自動同期されるコンバージョンについて詳しくは、「[[!DNL Google Ads] Search, Social, &amp; Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)」のコンバージョンデータを参照してください。
+* **[!DNL Google Analytics]コンバージョン：**&#x200B;広告主は[!DNL Google Analytics] タグを使用してすべてのコンバージョンを追跡します。 自動同期されるコンバージョンについて詳しくは、「[[!DNL Google Ads] Search, Social, &amp; Commerce](google-conversion-data.md)」のコンバージョンデータを参照してください。
 
 * **広告主によるコンバージョンのトラッキング：** （Search, Social, &amp; Commerce クライアントのみ）広告主は、オンラインとオフラインのコンバージョンデータを任意に組み合わせて、Search, Social, &amp; Commerceにフィードファイルを提供します。 「[EF ID フィードを使用したコンバージョン追跡](feed-efid.md)」および「[&#x200B; トランザクション ID フィードを使用したコンバージョン追跡](feed-transaction-id.md)」を参照してください。
 

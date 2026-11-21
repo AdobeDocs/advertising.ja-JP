@@ -1,0 +1,71 @@
+---
+title: ザ [!UICONTROL MSA Network Impression Share Report]
+description: '[!UICONTROL MSA Network Impression Share Report]について説明します。'
+feature: Search Reports, Search Specialty Reports
+exl-id: 274f7bac-5eea-4e21-bcdb-ebf6250c4959
+TQID: 'https://experienceleague.adobe.com/eJ7bmM92y9h-vkhBd5hBcIkGU0ic4HIxg2MVIN7K-1M'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 0%
+---
+# ザ [!UICONTROL MSA Network Impression Share Report]
+
+*[!DNL Microsoft Advertising]アカウントのみ*
+
+このレポートは、指定された[!DNL Microsoft Advertising] アカウントの広告配信（検索またはオーディエンス）およびネットワーク （例：[!DNL Microsoft] サイトと選択トラフィックまたはオーディエンス）別のキャンペーンレベルのインプレッション共有指標と基本的なトラフィック指標（コスト、クリック、インプレッション）を示します。
+
+指標列のみを使用してディメンションを含まないレポートを実行すると、生成されたレポートには、2つの重複した行（集約データを含むもの）と、すべての指標を含むもの）が含まれます。
+
+過去180日間のデータを表示できます。 Search, Social, &amp; Commerceは、[!DNL Microsoft Advertising]からデータをリアルタイムで取得します。データ量が多いレポートを生成するには、数分かかる場合があります。
+
+>[!NOTE]
+>
+>レポートに大量のデータが含まれている場合、レポートは失敗する可能性があります。 このような場合は、より短い期間レポートを実行します。
+
+## デフォルトの列
+
+すべてのデフォルト列とカスタム列について詳しくは、「[特殊レポートのレポート列](specialty-report-columns.md)」を参照してください。
+
+* [!UICONTROL SE Account Name]
+* [!UICONTROL Campaign Name]
+* [!UICONTROL Impressions]
+* [!UICONTROL Clicks]
+* [!UICONTROL Cost]
+* [!UICONTROL Network]
+* [!UICONTROL Ad Distribution]
+* [!UICONTROL Absolute Top Impression Rate Percent]
+* [!UICONTROL Absolute Top Impression Share Lost To Budget Percent]
+* [!UICONTROL Absolute Top Impression Share Lost To Rank Percent]
+* [!UICONTROL Absolute Top Impression Share Percent]
+* [!UICONTROL Audience Impression Lost To Budget Percent]
+* [!UICONTROL Audience Impression Lost To Rank Percent]
+* [!UICONTROL Audience Impression Share Percent]
+* [!UICONTROL Impression Lost To Budget Percent]
+* [!UICONTROL Impression Lost To Rank Agg Percent]
+* [!UICONTROL Impression Share Percent]
+* [!UICONTROL Top Impression Rate Percent]
+* [!UICONTROL Top Impression Share Lost To Budget Percent]
+* [!UICONTROL Top Impression Share Lost To Rank Percent]
+* [!UICONTROL Top Impression Share Percent]
+
+>[!MORELIKETHIS]
+>
+>* [専門性レポートについて](specialty-report-about.md)
+>* [専門性レポートの生成](specialty-report-generate.md)
+>* [特殊レポート設定](specialty-report-settings.md)
+>* [専門性レポートのレポート列](specialty-report-columns.md)

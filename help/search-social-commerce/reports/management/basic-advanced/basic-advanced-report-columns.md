@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '3919'
 ht-degree: 0%
@@ -137,7 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Exclude (yes/no)] | 一致する製品の広告に対して、入札が除外されているか（<i>[!UICONTROL Yes]</i>）、または入札が許可されているか（<i>[!UICONTROL No]</i>）。 |
 | [!UICONTROL First Page CPC] | （Google キャンペーンのみ）指定した日付範囲の検索結果の最初のページに表示される広告のクリック単価（CPC）。 |
 | [!UICONTROL Frequency] | （[!DNL Meta] キャンペーンのみ）ユーザーが広告を閲覧した平均回数。 |
-| `GGL*`、`GGL_CT*`および`GGL_XD_CT*` [[!DNL Google Ads]件のトラッキング済みコンバージョン ] | （[!DNL Google Ads]件のキャンペーンが検索およびショッピングネットワーク上） [!DNL Google Ads]追跡されたコンバージョン。各コンバージョンに対して最大3つの個別の指標が含まれます：<ul><li>`GGL*` — （トラッキングする場合） 「GGL」プレフィックスで始まるキーワードのコンバージョン値（GGL Purchaseなど）。</li><li>`GGL_CT*` — 「GGL_CT」接頭辞（GGL_CT_Purchaseなど）で始まるコンバージョンの数（カウント）。</li><li>`GGL_XD_CT*` — （コンバージョンタイプで使用可能な場合、トラッキングする場合）クロスデバイスコンバージョンの数（カウント）。「GGL_XD_CT_」接頭辞（GGL_XD_CT_Purchaseなど）で始まる[!DNL Google Ads]で測定されます。</li></ul><br>各コンバージョンは、入札単位とクリック日で記録されます。イベントレベルでは利用できません。 [!DNL Google Ads]件のトラッキングされたコンバージョンについて詳しくは、「[[!DNL Google Ads] Search, Social, &amp; Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)」のコンバージョンデータを参照してください。 |
+| `GGL*`、`GGL_CT*`および`GGL_XD_CT*` [[!DNL Google Ads]件のトラッキング済みコンバージョン ] | （[!DNL Google Ads]件のキャンペーンが検索およびショッピングネットワーク上） [!DNL Google Ads]追跡されたコンバージョン。各コンバージョンに対して最大3つの個別の指標が含まれます：<ul><li>`GGL*` — （トラッキングする場合） 「GGL」プレフィックスで始まるキーワードのコンバージョン値（GGL Purchaseなど）。</li><li>`GGL_CT*` — 「GGL_CT」接頭辞（GGL_CT_Purchaseなど）で始まるコンバージョンの数（カウント）。</li><li>`GGL_XD_CT*` — （コンバージョンタイプで使用可能な場合、トラッキングする場合）クロスデバイスコンバージョンの数（カウント）。「GGL_XD_CT_」接頭辞（GGL_XD_CT_Purchaseなど）で始まる[!DNL Google Ads]で測定されます。</li></ul><br>各コンバージョンは、入札単位とクリック日で記録されます。イベントレベルでは利用できません。 [!DNL Google Ads]件のトラッキングされたコンバージョンについて詳しくは、「[[!DNL Google Ads] Search, Social, &amp; Commerce](/help/search-social-commerce/tracking/google-conversion-data.md)」のコンバージョンデータを参照してください。 |
 | [!UICONTROL Impr. (Abs. Top) %] | （[!DNL Google Ads]のみ）最初の広告としてオーガニック検索結果の上位に表示される広告インプレッションの割合。 |
 | [!UICONTROL Impr. (Top) %] | （[!DNL Google Ads]のみ）オーガニック検索結果の上位に表示される広告インプレッションの割合。 |
 | [!UICONTROL Impressions] | 指定された日付範囲内の広告インプレッション数。 |
@@ -228,5 +228,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [基本レポートと詳細レポートについて](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
->* [基本レポートまたは詳細レポートを生成](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+>* [基本レポートまたは詳細レポートを生成](/help/search-social-commerce/reports/management/report-manage.md#generate-a-new-report)
 >* [基本および詳細レポート設定](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)

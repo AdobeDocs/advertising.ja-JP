@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: データ列を含む予測精度レポートについて説明します。
-exl-id: f0c42323-eb0d-461a-ab09-440fd1bfc960
 feature: Search Reports, Search Model Accuracy Reports
-TQID: 'https://experienceleague.adobe.com/FHLlU9t-6rhRH9XpgF6pxPviMDucJllzsLX-x7FEuTY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,17 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
     internal-label: Search Model Accuracy Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '449'
 ht-degree: 0%
 ---
 # ザ [!UICONTROL Forecast Accuracy Report]
@@ -39,7 +29,7 @@ ht-degree: 0%
 >
 >* コスト予測の場合、過去7日間で10%の偏差は許容できると考えられるため、予測された支出の90%から110%の実際の支出は問題ありません。 売上予測については、過去7日間で15%の偏差が許容できると見なされるので、実際の売上は予測された支出の85%から115%の間です。 より大きな偏差を持つ予測を調査する必要があります。
 >
->* ポートフォリオ内のキーワードが入札シフトの制約に関連付けられている場合、入札シフトによって引き起こされる合計金額だけポートフォリオが過小支出または過小支出になります。 その結果、予測コスト列は、目標支出から増減した支出で逸脱する。
+>* ポートフォリオ内のキーワードが[入札シフト制約](/help/search-social-commerce/goals/constraints-manage.md)に関連付けられている場合、入札シフトによって発生した合計金額だけポートフォリオが超過または超過します。 その結果、予測コスト列は、目標支出から増減した支出で逸脱する。
 
 ## 使用可能な列
 
@@ -66,7 +56,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; モデル精度レポートについて](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [&#x200B; モデル精度レポートについて](model-accuracy-report-about.md)
 >* [The [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [&#x200B; モデル精度レポートを生成](model-accuracy-report-generate.md)
->* [&#x200B; モデル精度レポート設定](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/reports/management/report-manage.md)
+>* [&#x200B; モデル精度レポート設定](model-accuracy-report-settings.md)

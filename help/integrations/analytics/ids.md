@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -151,7 +151,7 @@ EF IDは、Analysis Workspaceの500 kの一意のID制限の対象となりま�
 
     * アカウントまたはキャンペーンに対して[!UICONTROL Auto Upload]設定が有効になっている[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントの場合、エンドユーザーがAdobe Advertising ピクセルで広告をクリックすると、ピクセルサーバーはs_kwcid パラメーターをランディングページのサフィックスに自動的に追加します。
 
-    * 他の広告ネットワーク、または[!UICONTROL Auto Upload]設定が無効になっている[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントの場合は、パラメーターを[&#x200B; アカウントレベルの追加パラメーター](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}に手動で追加し、ベース URLに追加します。
+    * 他の広告ネットワーク、または[!UICONTROL Auto Upload]設定が無効になっている[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントの場合は、パラメーターを[&#x200B; アカウントレベルの追加パラメーター](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#account-settings-api){target="_blank"}に手動で追加し、ベース URLに追加します。
 
 * サーバーサイド挿入機能が実装されていない場合：
 
@@ -163,9 +163,9 @@ EF IDは、Analysis Workspaceの500 kの一意のID制限の対象となりま�
 
   * Search, Social, &amp; Commerceのユーザー：
 
-    * （[!DNL Google Ads]および[!DNL Microsoft Advertising]）広告の場合、個々のアカウントコンポーネントに対して異なるトラッキングが必要な場合を除き、AMO ID パラメーターを手動でランディングページのサフィックスに追加します。理想的には、[&#x200B; アカウントレベル &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}で追加します。
+    * （[!DNL Google Ads]および[!DNL Microsoft Advertising]）広告の場合、個々のアカウントコンポーネントに対して異なるトラッキングが必要な場合を除き、AMO ID パラメーターを手動でランディングページのサフィックスに追加します。理想的には、[&#x200B; アカウントレベル &#x200B;](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#account-settings-api){target="_blank"}で追加します。
 
-    * 他のすべての広告ネットワークの広告の場合は、AMO ID パラメーターを[&#x200B; アカウントレベルの追加パラメーター](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}に手動で追加し、ベース URLに追加します。
+    * 他のすべての広告ネットワークの広告の場合は、AMO ID パラメーターを[&#x200B; アカウントレベルの追加パラメーター](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#account-settings-api){target="_blank"}に手動で追加し、ベース URLに追加します。
 
 サーバーサイド挿入機能を導入する場合や、自社に最適な方法を判断する場合は、Adobeのアカウントチームにお問い合わせください。
 

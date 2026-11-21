@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Campaign Assist Report]'
 description: '[!UICONTROL Campaign Assist Report]について説明します。'
-exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
-TQID: 'https://experienceleague.adobe.com/9CQ9aS6g0C1lCEYQbGEjctsZXEtIqjLOl5ohP45YFSU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,13 +10,7 @@ feature_v2:
     internal-label: Search Reports
   - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
     internal-label: Search Assist Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 1%
@@ -59,7 +51,7 @@ ht-degree: 1%
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[ コンバージョン指標] | 自動型 | （レポート設定では使用できませんが、レポート出力に自動的に含まれます）最後のイベント（最後のキャンペーン）からコンバージョンまでの平均待ち時間（日数）です。 |
 | [!UICONTROL EF Campaign ID] | カスタム | Search, Social, &amp; Commerceがキャンペーンに割り当てる数値ID。 |
 | [!UICONTROL EF Portfolio Group ID] | カスタム | ポートフォリオが属するポートフォリオグループの数値ID。 |
-| [!UICONTROL EF Search Engine ID] | カスタム | Search, Social, &amp; Commerceがアドネットワークに割り当てる数値ID: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> （旧称[!DNL Yahoo! Japan Ads]）, [!DNL Yahoo Native] （非推奨）, <i>[!UICONTROL 106]</i> for [!DNL Pinterest] （非推奨）です。[!DNL LY Ads]<i>[!UICONTROL 105]</i> |
+| [!UICONTROL EF Search Engine ID] | カスタム | Search, Social, &amp; Commerceがアドネットワークに割り当てる数値ID: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo DSP] （旧称[!DNL Yahoo! Display Network]）, <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i>, [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> for [!DNL LY Ads] （旧称[!DNL Yahoo! Japan Ads]）, <i>[!UICONTROL 105]</i> for [!DNL Yahoo Native] （廃止予定）, <i>[!UICONTROL 106]</i> （廃止予定）[!DNL Pinterest] |
 | [!UICONTROL Portfolio ID] | カスタム | 数値ポートフォリオ ID。 |
 | [!UICONTROL User SE Account ID] | カスタム | Search, Social, &amp; Commerceが広告ネットワークに割り当てる数値ID。 |
 
@@ -69,4 +61,4 @@ ht-degree: 1%
 >* [The [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [The [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [&#x200B; レポート設定の支援](assist-report-settings.md)
->* [&#x200B; アシストレポートを生成](assist-report-generate.md)
+>* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/reports/management/report-manage.md)

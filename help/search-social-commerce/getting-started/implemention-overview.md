@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 76a8d8b448441e4d7380ebc4f007aa8b5a2ab5f5
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '886'
 ht-degree: 0%
 ---
 # Search, Social, &amp; Commerce導入の概要
@@ -53,25 +53,27 @@ Search, Social, &amp; Commerceを実装および使用するための一般的�
 
    1. （必要に応じて）広告主がキャンペーンデータを表示および管理し、レポートを生成するためのユーザーアカウントを作成します。
 
-   アカウントの設定について詳しくは、「管理者」のヘルプページを参照してください。
+   管理者と協力して、Adobe Admin Consoleと適切な製品プロファイルを使用してアクセス権を設定します。 「[Search, Social, &amp; Commerce](/help/search-social-commerce/user-administration.md)」のユーザー管理を参照してください。
 
 1. 各広告ネットワークアカウントのキャンペーンを同期または作成：
 
-   * a）アカウントへのアクセス資格情報とトラッキングオプションを含むSearch, Social, &amp; Commerceで対応するアカウントレコードを作成し、b）アカウントステータスを「有効」に設定することで、アカウントと同期します。
+   * API接続アカウントの場合、[&#x200B; アカウントの詳細](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#create-account)を[!UICONTROL Manage] > [!UICONTROL Accounts]に作成し、ネットワーク固有の認証を完了し、トラッキングオプションを設定し、アカウントを有効にします。
+
+   * APIをサポートしていないアカウントの場合は、該当する場合、[&#x200B; データアップロード &#x200B;](/help/search-social-commerce/manage/accounts/data-upload-accounts/data-upload-account-manage.md)または[&#x200B; トラッキング専用アカウント &#x200B;](/help/search-social-commerce/manage/accounts/template-account-manage.md)のワークフローに従います。 これらのアカウントは、広告ネットワークと同期しないか、ポートフォリオ最適化をサポートしません。
 
    * アカウントにキャンペーンデータがまだ含まれていない場合は、Search, Social, &amp; Commerce内または広告ネットワーク内から、キャンペーン、広告グループ、キーワード、広告、および配置を追加します。
 
-     検索キャンペーンの設定について詳しくは、「キャンペーン管理」のヘルプの章を参照してください。
+     設定チェックリストの詳細については、「[広告ネットワークアカウントとキャンペーンの設定](campaign-implementation-overview.md)」を参照してください。 サポートされているキャンペーンの種類については、[!UICONTROL Manage] > [!UICONTROL Campaigns]を使用して[&#x200B; キャンペーンの作成と管理](/help/search-social-commerce/manage/campaigns/campaign-manage.md)を行います。
 
 1. Adobe Advertisingでコンバージョンをトラッキングするすべての広告にトラッキングを設定します。
 
-   1. （必要に応じて）クリックトラッキング URLを生成してアップロードすることで、広告のクリックトラッキングを設定し、オプションでキーワード、[!DNL Google Ads]個のプレースメントおよび[!DNL Google Ads]個の拡張機能を設定します。
+   1. （必要に応じて） [&#x200B; クリックトラッキング URLを生成してアップロードすることで、広告のクリックトラッキング &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)を設定し、オプションでキーワード、[!DNL Google Ads] プレースメント、[!DNL Google Ads]拡張機能を設定します。
 
       Adobe Advertising ピクセルベースのコンバージョントラッキングサービスを使用する広告主向けのクリックトラッキング URLには、[!DNL Adobe]台のサーバーへのリダイレクトが含まれています。
 
-   1. コンバージョン追跡の設定。 実装に応じて、これには、コンバージョン追跡タグを適切なweb ページに追加したり、独自の方法で収集したコンバージョンデータの毎日のフィードドロップを設定したりすることが含まれます。
+   1. [&#x200B; コンバージョン トラッキングを設定](/help/search-social-commerce/tracking/conversion-tracking-about.md)。 実装に応じて、これには、コンバージョン追跡タグを適切なweb ページに追加したり、独自の方法で収集したコンバージョンデータの毎日のフィードドロップを設定したりすることが含まれます。 [Adobe Advertising コンバージョントラッキングタグを](/help/search-social-commerce/goals/conversions/conversion-tag-generate.md)から[!UICONTROL Goals] > [!UICONTROL Conversions]生成できます。
 
-      トラッキングの設定について詳しくは、「トラッキング」のヘルプページを参照してください。
+      詳しくは、「[検索、ソーシャル、Commerceのトラッキングについて](/help/search-social-commerce/tracking/tracking-about.md)」を参照してください。
 
 1. その他の製品との統合を設定する：
 
@@ -81,27 +83,29 @@ Search, Social, &amp; Commerceを実装および使用するための一般的�
 
    1. （広告主、[!DNL Google Analytics]）最適化とレポート用に、[!DNL Google Analytics] アカウント、プロパティ、ビューの組み合わせのコンバージョン指標を同期します。
 
-      ヘルプサブチャプター「管理者」/「[&#x200B; データソースの設定](/help/search-social-commerce/admin/data-sources/data-source-about.md)」を参照してください。
+      この設定では、従来のユーザーインターフェイスを使用します。 「[同期について [!DNL Google Analytics]  コンバージョン指標](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)」を参照し、必要に応じて[従来のインターフェイスに切り替えます](ui-switch.md)。
 
-1. ポートフォリオを設定して起動する：
+1. （オプション）ポートフォリオを設定して起動します。
 
-   1. 目的とビジネス目標に合わせて、適切な施策を伴うポートフォリオを設定します。 そして、実装チームは、クリック数と収益に関するデータを少なくとも14日間収集して検証し、ポートフォリオ設定を検証します。
+   1. [!UICONTROL Goals] > [!UICONTROL Conversions]で、[&#x200B; コンバージョン指標を確認し、必要な指標を表示します](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md#conversion-metrics-change-available)。 [!UICONTROL Goals] > [!UICONTROL Objectives]で、[最適化する目的](/help/search-social-commerce/goals/objectives/objective-about.md)を作成または選択します。
+
+   1. [!UICONTROL Manage] > [!UICONTROL Portfolios]で、[目的とビジネス目標に合わせて構成されたポートフォリオ &#x200B;](/help/search-social-commerce/manage/portfolios/portfolio-create.md)を作成し、適切な[適格キャンペーン &#x200B;](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-portfolio)を行います。 [&#x200B; ポートフォリオ &#x200B;](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md)をアクティブ化して、データを収集およびモデル化します。 そして、実装チームは、クリック数と収益に関するデータを少なくとも14日間収集して検証し、ポートフォリオ設定を検証します。
 
       >[!NOTE]
       >
       >Search, Social, &amp; Commerceでは、ポートフォリオに割り当てられていないキャンペーンのデータを追跡、報告しますが、最適化は行われません。
 
-   1. 十分なデータが収集され、ベースラインを構築できたら、RTCDPでポートフォリオを立ち上げます。それにより、Search, Social, &amp; Commerceが、最適化のタイプに基づいてポートフォリオの入札や予算を最適化できます。
+   1. ベースラインを作成するのに十分なデータが利用可能になると、チームは[&#x200B; ポートフォリオステータスを最適化された](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md)に変更できます。これにより、Search, Social, &amp; Commerceは、ポートフォリオのタイプとキャンペーン入札戦略に基づいて、ポートフォリオの入札、予算、入札戦略目標を最適化できます。
 
-   ポートフォリオの設定と起動について詳しくは、Search, Social, &amp; Commerce内の任意のページの右上にある[!UICONTROL Help] メニュー（![&#x200B; ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から利用できる「最適化」に関するヘルプを参照してください。
+   最適化のサポートとポートフォリオのステータスについては、「[&#x200B; ポートフォリオについて](/help/search-social-commerce/manage/portfolios/portfolio-about.md)」を参照してください。
 
 1. ポートフォリオのパフォーマンスを監視する：
 
-   1. 最適化され、アクティブなポートフォリオに関する視覚的で実用的なデータである広告インサイトを生成します。
+   1. [!UICONTROL Dashboard] > [!UICONTROL Overview]を使用して[&#x200B; ポートフォリオトレンドを確認](/help/search-social-commerce/dashboard/dashboard-overview.md)し、[&#x200B; ポートフォリオパフォーマンスの詳細を表示](/help/search-social-commerce/manage/portfolios/portfolio-details.md)して、結果とモデルの精度を調査します。
 
-   1. パフォーマンスを監視するためにカスタマイズされたレポートを設定し、自動化できます。
+   1. [&#x200B; カスタムアラートを設定](/help/search-social-commerce/common-tasks/alerts-manage.md)および[&#x200B; パフォーマンス監視用にカスタマイズされたレポート &#x200B;](/help/search-social-commerce/reports/management/report-manage.md)を生成します。 必要に応じて、[&#x200B; レポートテンプレート &#x200B;](/help/search-social-commerce/reports/report-templates-manage.md)および[&#x200B; スプレッドシートフィード &#x200B;](/help/search-social-commerce/reports/spreadsheet-feeds-manage.md)を使用してレポートを自動化します。
 
-   広告インサイトの実行とレポートの設定について詳しくは、「インサイトとレポート」のヘルプページを参照してください。
+   詳しくは、「[&#x200B; キャンペーンとポートフォリオパフォーマンスの監視](/help/search-social-commerce/manage/manage-about.md#monitor-performance)」を参照してください。
 
 1. （オプション） [&#x200B; パフォーマンスデータビュー](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)を設定して、表示するデータを表示します。
 
@@ -125,4 +129,4 @@ Search, Social, &amp; Commerceを実装および使用するための一般的�
 
   * 新しいポートフォリオを追加します。
 
-ポートフォリオの監視とポートフォリオ戦略の調整の手順については、Search, Social, &amp; Commerce内の任意のページの右上にある[!UICONTROL Help] メニュー（![&#x200B; ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から利用できるヘルプサブチャプター「最適化」/「ポートフォリオの管理」/「パフォーマンスの監視と管理」を参照してください。
+キャンペーンとポートフォリオの監視と設定の調整の手順については、「[&#x200B; キャンペーンとポートフォリオの管理について](/help/search-social-commerce/manage/manage-about.md)」および「[&#x200B; ポートフォリオの詳細を編集](/help/search-social-commerce/manage/portfolios/portfolio-edit.md)」を参照してください。

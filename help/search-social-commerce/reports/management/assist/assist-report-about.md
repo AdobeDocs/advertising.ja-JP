@@ -1,9 +1,7 @@
 ---
 title: アシストレポートについて
 description: コンバージョンパスに関するインサイトを提供するレポートについて説明します。
-exl-id: 0962c8b1-0116-480a-8253-4e8488fec77c
 feature: Search Reports, Search Assist Reports
-TQID: 'https://experienceleague.adobe.com/dLbcQJUfyS6mDTWvujCrizdO57nXSEaMAek7hup3rlE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,15 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
     internal-label: Search Assist Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '155'
 ht-degree: 0%
 ---
 # アシストレポートについて
@@ -36,11 +28,11 @@ ht-degree: 0%
 
 ## アシストレポートの種類
 
-* [ザ [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
+* [ザ [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
 
-* [ザ [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
+* [ザ [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 
-* [ザ [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
+* [ザ [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 
 >[!MORELIKETHIS]
 >
@@ -48,5 +40,5 @@ ht-degree: 0%
 >* [The [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [The [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [&#x200B; レポート設定の支援](assist-report-settings.md)
->* [&#x200B; アシストレポートを生成](assist-report-generate.md)
->* [&#x200B; レポートについて](/help/search-social-commerce/reports/report-about.md)
+>* [&#x200B; スケジュール済みレポートの管理](/help/search-social-commerce/reports/management/report-manage.md)
+
