@@ -85,7 +85,7 @@ CSV ファイルおよびカンマで区切られたTXT ファイルのデータ
 
 >[!MORELIKETHIS]
 >
->* [ バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/set-up/bulksheets/about.md)
->* [ バルクシートで実行できる操作](bulksheet-operations.md)
+>* [&#x200B; バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/set-up/bulksheets/about.md)
+>* [&#x200B; バルクシートで実行できる操作](bulksheet-operations.md)
 >* [付録 – バルクシート エラー](/help/search-social-commerce/set-up/bulksheets/errors.md)
->* [ バルクシート ファイルのダウンロードと作成](/help/search-social-commerce/set-up/bulksheets/download.md)
+>* [&#x200B; バルクシート ファイルのダウンロードと作成](/help/search-social-commerce/set-up/bulksheets/download.md)

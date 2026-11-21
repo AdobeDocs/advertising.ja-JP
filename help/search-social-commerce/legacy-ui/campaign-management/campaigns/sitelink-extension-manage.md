@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Post]**&#x200B;をクリックします。
 
-サイトリンクを作成したら、[ アカウント、キャンペーン、または広告グループに割り当てることができます](sitelink-extension-associate.md)。
+サイトリンクを作成したら、[&#x200B; アカウント、キャンペーン、または広告グループに割り当てることができます](sitelink-extension-associate.md)。
 
 ## 共有サイトリンク設定の編集
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 * キャンペーン設定に「[!UICONTROL EF Redirect]」と「自動アップロード」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合、レコードを保存すると、Search, Social, &amp; Commerceは自動的に独自のクリックトラッキングコードの先頭に付きます。
 
-* サポートされているパラメーターで最終的なURLを埋め込むには、[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント ](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）トラッキングテンプレートのみ」パラメーターを参照してください。
+* サポートされているパラメーターで最終的なURLを埋め込むには、[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/google-ads/answer/6305348)の「使用可能な[!DNL ValueTrack] パラメーター」の節の「[!DNL Microsoft Advertising]のみ） [[!DNL Microsoft Advertising]  ドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799)または（[!DNL Google Ads]のみ）トラッキングテンプレートのみ」パラメーターを参照してください。
 
 * 必要に応じて、URL パラメーターと、キャンペーン用に定義された任意のカスタムパラメーターを、アンパサンド（&amp;）で区切って含めることができます（`{lpurl}?matchtype={matchtype}&device={device}`）。
 
@@ -127,5 +127,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ サイトリンク拡張機能について](sitelink-extension-about.md)
+>* [&#x200B; サイトリンク拡張機能について](sitelink-extension-about.md)
 >* [共有サイトリンクをアカウント、キャンペーン、広告グループに関連付ける](sitelink-extension-associate.md)

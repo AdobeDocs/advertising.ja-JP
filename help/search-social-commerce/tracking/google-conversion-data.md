@@ -40,7 +40,7 @@ Search, Social, &amp; Commerceは、[!DNL Google Ads]の検索およびショッ
 
 「[!DNL Include in 'Conversions']」オプションが有効になっているコンバージョンのSearch, Social, &amp; Commerceはデータを同期し、過去35日間のデータを引き出した後、広告主のタイムゾーンの09:00-10:00までに毎日データに変更を引き出します。 過去のデータは、クリックごとに新しいコンバージョンを追跡するため、日々変化します。
 
-[[!DNL Google Ads]で追跡されたコンバージョン ](https://support.google.com/google-ads/answer/4677036)ごとに最大3つの指標（[!DNL Google Ads]で設定）が、検索、ソーシャル、およびCommerceで、[!DNL Google Ads]で設定されたコンバージョン名を使用して自動的に使用できます。 各コンバージョンの指標には、次のようなものがあります。
+[[!DNL Google Ads]で追跡されたコンバージョン &#x200B;](https://support.google.com/google-ads/answer/4677036)ごとに最大3つの指標（[!DNL Google Ads]で設定）が、検索、ソーシャル、およびCommerceで、[!DNL Google Ads]で設定されたコンバージョン名を使用して自動的に使用できます。 各コンバージョンの指標には、次のようなものがあります。
 
 <!--
 
@@ -106,7 +106,7 @@ Search, Social, &amp; Commerceでは、「表示」または「レポート」�
 
 1. **[!UICONTROL Create Report]**&#x200B;をクリックし、左側のパネルの&#x200B;**[!UICONTROL Basic Reports]**&#x200B;をクリックして、**[!UICONTROL Search Engine Account Report]**&#x200B;を選択します。 **[!UICONTROL Proceed]**&#x200B;をクリックします。
 
-1. [!UICONTROL Create Report] ウィンドウで、**[!UICONTROL Basic Settings]** タブを開き、次の[ レポート設定](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)を指定します。
+1. [!UICONTROL Create Report] ウィンドウで、**[!UICONTROL Basic Settings]** タブを開き、次の[&#x200B; レポート設定](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)を指定します。
 
    1. **[!UICONTROL Data Aggregation]**&#x200B;を&#x200B;**[!UICONTROL Daily]**&#x200B;に設定します。
 
@@ -127,6 +127,6 @@ Search, Social, &amp; Commerceでは、「表示」または「レポート」�
 >[!MORELIKETHIS]
 >
 >* [広告ネットワークアカウントとキャンペーンを設定](/help/search-social-commerce/getting-started/campaign-implementation-overview.md)
->* [ キャンペーンとポートフォリオの管理について](/help/search-social-commerce/manage/manage-about.md)
+>* [&#x200B; キャンペーンとポートフォリオの管理について](/help/search-social-commerce/manage/manage-about.md)
 >* [広告主に対して追跡されたコンバージョン指標を表示](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md#view-the-conversion-metrics-tracked-for-an-advertiser)
->* [ オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
+>* [&#x200B; オフラインのコンバージョンデータをアップロードしてコンバージョンを強化](/help/search-social-commerce/goals/conversions/conversions-upload-offline-enhanced-conversions.md)

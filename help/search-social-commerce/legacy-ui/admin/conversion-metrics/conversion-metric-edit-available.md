@@ -23,7 +23,7 @@ ht-degree: 0%
 ---
 # 管理ビューとレポートで使用できるコンバージョン指標の変更
 
-Adobe Advertisingが広告主の[ コンバージョン ](/help/search-social-commerce/glossary.md#c-d)指標を追跡する場合、最初はポートフォリオ目標、レポート、管理ビューから除外されます。 コンバージョン指標を表示するには、指標を明示的に使用可能にし、オプションでデフォルトの表示名（表示されている名前）を変更する必要があります。 唯一の例外は、[!DNL Google Ads]、[!DNL Google Analytics]、[!DNL Microsoft Advertising]のユニバーサルイベントトラッキングタグによってトラッキングされたコンバージョンが、自動的に使用可能で表示されることです。
+Adobe Advertisingが広告主の[&#x200B; コンバージョン &#x200B;](/help/search-social-commerce/glossary.md#c-d)指標を追跡する場合、最初はポートフォリオ目標、レポート、管理ビューから除外されます。 コンバージョン指標を表示するには、指標を明示的に使用可能にし、オプションでデフォルトの表示名（表示されている名前）を変更する必要があります。 唯一の例外は、[!DNL Google Ads]、[!DNL Google Analytics]、[!DNL Microsoft Advertising]のユニバーサルイベントトラッキングタグによってトラッキングされたコンバージョンが、自動的に使用可能で表示されることです。
 
 同様に、ポートフォリオ目標、レポート、管理ビューからコンバージョン指標を非表示にすることもできます。 以前に表示されていたコンバージョン指標を非表示にすると、コンバージョン指標を含む派生指標から削除されます。
 
@@ -39,7 +39,7 @@ Adobe Advertisingが広告主の[ コンバージョン ](/help/search-social-co
 
      フレーズ内の任意の場所（最初の文字や最後の3文字など）に表示される文字列を検索できますが、検索語は[大文字と小文字を区別しません](/help/search-social-commerce/glossary.md#c-d)。
 
-   * 管理ビューとレポートの可用性でコンバージョン指標を検索するには、![ フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、フィルター&#x200B;**[!UICONTROL Show in UI and Reports]**&#x200B;を選択します。 次に、**[!UICONTROL Show]** （レポートと管理ビューに含めることができるコンバージョン指標を表示する場合）または&#x200B;**[!UICONTROL Hide]** （レポートと管理ビューで使用できないコンバージョン指標を表示する場合）を選択します。
+   * 管理ビューとレポートの可用性でコンバージョン指標を検索するには、![&#x200B; フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、フィルター&#x200B;**[!UICONTROL Show in UI and Reports]**&#x200B;を選択します。 次に、**[!UICONTROL Show]** （レポートと管理ビューに含めることができるコンバージョン指標を表示する場合）または&#x200B;**[!UICONTROL Hide]** （レポートと管理ビューで使用できないコンバージョン指標を表示する場合）を選択します。
 
 1. 管理ビューとレポートで使用できるコンバージョン指標を変更します。
 
@@ -67,4 +67,4 @@ Adobe Advertisingが広告主の[ コンバージョン ](/help/search-social-co
 >
 >* [広告主のコンバージョン指標の管理について](conversion-metric-about.md)
 >* [広告主に対して追跡されたコンバージョン指標を表示](conversion-metric-view-tracked.md)
->* [ コンバージョン指標の表示名を変更](conversion-metric-edit-display-name.md)
+>* [&#x200B; コンバージョン指標の表示名を変更](conversion-metric-edit-display-name.md)

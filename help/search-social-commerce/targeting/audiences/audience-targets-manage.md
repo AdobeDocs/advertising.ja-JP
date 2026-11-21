@@ -25,13 +25,13 @@ ht-degree: 0%
 
 *[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントのみ*
 
-[!DNL Google Ads]件のキャンペーンと広告グループ、および[!DNL Microsoft Advertising]件の広告グループは、同じ広告ネットワークから特定の[ オーディエンス ](audience-manage.md)をターゲットにできます。 広告ネットワークは、ターゲティングできるオーディエンスの規模を決定します。
+[!DNL Google Ads]件のキャンペーンと広告グループ、および[!DNL Microsoft Advertising]件の広告グループは、同じ広告ネットワークから特定の[&#x200B; オーディエンス &#x200B;](audience-manage.md)をターゲットにできます。 広告ネットワークは、ターゲティングできるオーディエンスの規模を決定します。
 
 オーディエンスターゲットは、既存のオーディエンスをキャンペーンまたは広告グループに関連付けます。 既存のターゲットの入札調整とステータスを編集できます。
 
 >[!NOTE]
 >
->[ オーディエンスの除外](audience-exclusions.md)は、常にターゲットを上書きします。
+>[&#x200B; オーディエンスの除外](audience-exclusions.md)は、常にターゲットを上書きします。
 
 ## [!UICONTROL Targets] ビューについて {#audience-targets-view-about}
 
@@ -161,5 +161,5 @@ Creating targets requires the [!UICONTROL Edit Audience Targets] permission in a
 
 >[!MORELIKETHIS]
 >
->* [ オーディエンスの管理](audience-manage.md)
->* [ キャンペーンと広告グループのオーディエンス除外の管理](audience-exclusions.md)
+>* [&#x200B; オーディエンスの管理](audience-manage.md)
+>* [&#x200B; キャンペーンと広告グループのオーディエンス除外の管理](audience-exclusions.md)

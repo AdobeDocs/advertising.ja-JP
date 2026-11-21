@@ -33,11 +33,11 @@ ht-degree: 0%
 
 1. [!DNL Campaign]で、Advertising Search、Social、およびCommerceへのメールリストの配信を設定します。
 
-   1. Search, Social, &amp; Commerceが提供するSFTP アカウントをリンクする[外部アカウント ](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html)を作成します。
+   1. Search, Social, &amp; Commerceが提供するSFTP アカウントをリンクする[外部アカウント &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html)を作成します。
 
       1. 左側のメニューから、**\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**&#x200B;に移動します。
 
-      1. 「![ アカウントを作成](/help/search-social-commerce/assets/campaign-create-account.png " アカウントを作成")」をクリックします。
+      1. 「![&#x200B; アカウントを作成](/help/search-social-commerce/assets/campaign-create-account.png " アカウントを作成")」をクリックします。
 
       1. アカウントのラベルを入力し、アカウントタイプとして「**[!UICONTROL SFTP]**」を選択します。
 
@@ -117,11 +117,11 @@ Search, Social, &amp; Commerceは、30分ごとに（広告主のタイムゾー
 >
 >* [!DNL Google Ads]は、オーディエンスの更新を処理するのに時間がかかる場合があります。
 >
->* 顧客の一致の仕組みと制限に関する[[!DNL Google Ads]  ドキュメント ](https://support.google.com/displayvideo/answer/9539301)を参照してください。
+>* 顧客の一致の仕組みと制限に関する[[!DNL Google Ads]  ドキュメント &#x200B;](https://support.google.com/displayvideo/answer/9539301)を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ オーディエンスについて](audience-about.md)
->* [顧客マッチオーディエンスを [!DNL Adobe]  オーディエンス ](google-audience-from-adobe-audience.md)から [!DNL Google Ads] 作成
+>* [&#x200B; オーディエンスについて](audience-about.md)
+>* [顧客マッチオーディエンスを [!DNL Adobe]  オーディエンス &#x200B;](google-audience-from-adobe-audience.md)から [!DNL Google Ads] 作成
 >* [顧客データリストを使用した顧客一致オーディエンスの管理](audience-from-customer-data-list.md)
 >* [動的リマーケティングオーディエンスの管理](audience-dynamic-remarketing-manage.md)

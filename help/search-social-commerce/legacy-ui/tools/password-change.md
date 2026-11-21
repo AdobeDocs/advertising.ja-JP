@@ -45,5 +45,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ログイン ](/help/search-social-commerce/getting-started/sign-in.md)
->* [ ログアウト ](/help/search-social-commerce/getting-started/sign-out.md)
+>* [&#x200B; ログイン &#x200B;](/help/search-social-commerce/getting-started/sign-in.md)
+>* [&#x200B; ログアウト &#x200B;](/help/search-social-commerce/getting-started/sign-out.md)

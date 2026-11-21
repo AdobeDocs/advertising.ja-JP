@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * （オプション）アカウントを展開してキャンペーンを表示するには、アカウント名をクリックします。 同様に、キャンペーンを展開して子広告グループを表示するには、キャンペーン名をクリックします。
 
-   * （オプション）キャンペーンリストまたは広告グループリストを、名前に含まれるテキスト文字列でフィルタリングするには、![ フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、テキスト文字列を入力フィールドに入力または貼り付け、**Enter** キーを押します。
+   * （オプション）キャンペーンリストまたは広告グループリストを、名前に含まれるテキスト文字列でフィルタリングするには、![&#x200B; フィルター](/help/search-social-commerce/assets/filter.png " フィルター")をクリックし、テキスト文字列を入力フィールドに入力または貼り付け、**Enter** キーを押します。
 
    * サイトリンクが割り当てられている各エンティティの横にある円（![選択](/help/search-social-commerce/assets/include.png "選択")）を選択します。
 
@@ -50,5 +50,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ サイトリンク拡張機能について](sitelink-extension-about.md)
+>* [&#x200B; サイトリンク拡張機能について](sitelink-extension-about.md)
 >* [共有サイトリンク拡張機能の管理](sitelink-extension-manage.md)

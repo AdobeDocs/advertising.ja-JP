@@ -53,4 +53,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ バルクシート ファイルのダウンロードと作成](/help/search-social-commerce/set-up/bulksheets/download.md)
+>* [&#x200B; バルクシート ファイルのダウンロードと作成](/help/search-social-commerce/set-up/bulksheets/download.md)

@@ -64,7 +64,7 @@ Search, Social, &amp; Commerceでは、バルクシート処理中に2種類の�
 |  | [!UICONTROL Invalid row given] | 行には、エンティティタイプを決定するのに十分な情報が含まれていません。 行を編集して、エンティティタイプのすべての必須フィールドを含めます。 |
 | アカウント | [!UICONTROL Provide Valid Account Details] | （複数のアカウントのバルクシート） アカウント IDはすべての行に含まれません。 各行の列の次のいずれかの組み合わせの値を入力します：a） &quot;[!UICONTROL AMO ID]&quot;またはb） &quot;[!UICONTROL Account Name]&quot;および&quot;[!UICONTROL Platform]&quot;。 |
 |  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | Search, Social, &amp; Commerceでは、広告ネットワークアカウントにアクセスできないため、キャンペーンデータを作成または編集できません。 検索アカウントの資格情報が正しく、アカウントが有効になっていることを確認します。 |
-| キャンペーン | [!UICONTROL Invalid Shopping Country specified] | （ショッピングキャンペーン）「[!UICONTROL Sales Country]」フィールドの値が無効です。  [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable){target="_blank"}の有効な国[と [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083){target="_blank"}の[の一覧を参照してください。 |
+| キャンペーン | [!UICONTROL Invalid Shopping Country specified] | （ショッピングキャンペーン）「[!UICONTROL Sales Country]」フィールドの値が無効です。  [!DNL Google Ads]&#x200B;[&#128279;](https://support.google.com/merchants/answer/160637#countrytable){target="_blank"}の有効な国[と [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083){target="_blank"}のの一覧を参照してください。 |
 | すべてのキャンペーンコンポーネント | [!UICONTROL Campaign creation failed] | 親キャンペーンは作成されていないので、このエンティティは作成されませんでした。 すべての親エンティティにすべての必須フィールドが含まれていることを確認します。 |
 | 広告グループ | [!UICONTROL Campaign Row missing] | 指定された親キャンペーンは存在しないため、広告グループは作成されませんでした。 新しい行に親キャンペーンを作成します。 |
 |  | [!UICONTROL New adgroup has both keywords and placement] | 広告グループには、キーワードとプレースメントのどちらかを含めることができますが、両方を含めることはできません。 キーワードとプレースメント用に個別の広告グループを作成します。 |
@@ -101,8 +101,8 @@ Search, Social, &amp; Commerceでは、バルクシート処理中に2種類の�
 
 >[!MORELIKETHIS]
 >
->* [ （新しいUI）バルクシートを使用したキャンペーンデータの管理について](about.md)
->* [ （新しいUI） バルクシート ファイルのダウンロードと作成](download.md)
->* [ （新しいUI）バルクシート ファイルのランディングページを検証](validate-landing-pages.md)
->* [ （新しいUI） バルクシートまたは修正されたエラーファイルをアップロード ](upload.md)
->* [ （新しいUI）バルクシートの投稿またはエラーファイルの修正](post.md)
+>* [&#x200B; （新しいUI）バルクシートを使用したキャンペーンデータの管理について](about.md)
+>* [&#x200B; （新しいUI） バルクシート ファイルのダウンロードと作成](download.md)
+>* [&#x200B; （新しいUI）バルクシート ファイルのランディングページを検証](validate-landing-pages.md)
+>* [&#x200B; （新しいUI） バルクシートまたは修正されたエラーファイルをアップロード &#x200B;](upload.md)
+>* [&#x200B; （新しいUI）バルクシートの投稿またはエラーファイルの修正](post.md)

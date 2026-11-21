@@ -22,11 +22,11 @@ ht-degree: 0%
 
 *[!DNL Google Ads]、[!DNL LY Ads] （削除操作のみ）、[!DNL Microsoft Advertising]、および[!DNL Yandex] アカウントのみ*
 
-フィード データを広告ネットワークに同時に投稿せずに反映する場合は、次のいずれかの方法でデータを編集できます。 後で、オプションで[ データを投稿](propagated-data-post.md)して、いずれかの場所から関連する広告ネットワークに送信できます。
+フィード データを広告ネットワークに同時に投稿せずに反映する場合は、次のいずれかの方法でデータを編集できます。 後で、オプションで[&#x200B; データを投稿](propagated-data-post.md)して、いずれかの場所から関連する広告ネットワークに送信できます。
 
 * このオプションを「[!UICONTROL Propagate and Preview]」に使用した場合は、生成されたバルクシート ファイル （「`<feed file name>_<template name>`」という名前）を、[!UICONTROL Bulksheets] ビューからダウンロードし、ファイルを編集して、再度アップロードすることで編集できます。 データが[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]のタブに含まれていません。
 
-* このオプションを「[!UICONTROL Propagate only]」に使用した場合、キャンペーン階層ビュー内の[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]のタブから、[[!UICONTROL New] ステータス ](propagated-data-status.md)のコンポーネントに対して生成されたデータを編集できます。
+* このオプションを「[!UICONTROL Propagate only]」に使用した場合、キャンペーン階層ビュー内の[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]のタブから、[[!UICONTROL New] ステータス &#x200B;](propagated-data-status.md)のコンポーネントに対して生成されたデータを編集できます。
 
   キャンペーン階層ビューには、フィードファイルから生成されたデータのみが表示され、既存のアカウントコンポーネントは表示されません。 コンポーネントとそのすべてのサブコンポーネントのデータが広告ネットワークに投稿されると、キャンペーン階層にリストされなくなります。
 
@@ -53,14 +53,14 @@ ht-degree: 0%
 
      * 広告グループ内のすべてをリストするには、広告グループ名をクリックし、「[!UICONTROL Ads]」タブをクリックします。
 
-  1. キャンペーン、広告グループ、キーワード、または広告名の横にある[設定の表示/編集アイコン ](/help/search-social-commerce/assets/settings.png "設定の表示/編集アイコン")をクリックします。
+  1. キャンペーン、広告グループ、キーワード、または広告名の横にある[設定の表示/編集アイコン &#x200B;](/help/search-social-commerce/assets/settings.png "設定の表示/編集アイコン")をクリックします。
 
   1. 設定を編集し、**[!UICONTROL Save]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
 >* [在庫フィードについて](inventory-feeds-about.md)
->* [ フィードから生成されたデータを表示](propagated-data-view.md)
->* [ フィードから生成されたキャンペーンデータを広告ネットワークに投稿](propagated-data-post.md)
+>* [&#x200B; フィードから生成されたデータを表示](propagated-data-view.md)
+>* [&#x200B; フィードから生成されたキャンペーンデータを広告ネットワークに投稿](propagated-data-post.md)
 >* [在庫フィード データの投稿ジョブを停止](stop-job.md)
->* フィードから生成されたデータの[ ステータス ](propagated-data-status.md)
+>* フィードから生成されたデータの[&#x200B; ステータス &#x200B;](propagated-data-status.md)

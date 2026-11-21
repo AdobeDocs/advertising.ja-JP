@@ -10,4 +10,4 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[ キャンペーンをポートフォリオに追加](/help/search-social-commerce/legacy-ui/campaign-management/campaign-assign-to-portfolio.md)し、ポートフォリオオプションを「[!UICONTROL Auto adjust campaign budget limits]」に有効にすると、Search, Social, &amp; Commerceが自動的に予算を調整して、ポートフォリオ全体の支出を最適化できるようになります。
+>[&#x200B; キャンペーンをポートフォリオに追加](/help/search-social-commerce/legacy-ui/campaign-management/campaign-assign-to-portfolio.md)し、ポートフォリオオプションを「[!UICONTROL Auto adjust campaign budget limits]」に有効にすると、Search, Social, &amp; Commerceが自動的に予算を調整して、ポートフォリオ全体の支出を最適化できるようになります。

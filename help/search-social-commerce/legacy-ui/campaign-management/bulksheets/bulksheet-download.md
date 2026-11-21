@@ -20,7 +20,7 @@ ht-degree: 0%
 ---
 # バルクシートファイルのダウンロード/作成
 
-1つ以上の[ サポートされている広告ネットワーク ](bulksheet-about.md#bulksheet-functionality-by-network)で、1つ以上のアカウントのカスタム設定を使用してバルクシートを作成できます。 Bulksheetsには、Search, Social, &amp; Commerce内のデータが含まれます。
+1つ以上の[&#x200B; サポートされている広告ネットワーク &#x200B;](bulksheet-about.md#bulksheet-functionality-by-network)で、1つ以上のアカウントのカスタム設定を使用してバルクシートを作成できます。 Bulksheetsには、Search, Social, &amp; Commerce内のデータが含まれます。
 
 同期済みキャンペーンの場合は、データをダウンロードする前にオプションで広告ネットワークと同期して、広告ネットワーク側の最近のデータ変更を確実に含めることができます。 すべての広告ネットワークに対して、オプションで、ファイルに含める新しいクリックトラッキング URLを生成できます。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. ツールバーで、**[!UICONTROL Download Bulksheet]**&#x200B;をクリックします。
 
-1. [ バルクシート設定](#bulksheet-download-settings)を指定します。
+1. [&#x200B; バルクシート設定](#bulksheet-download-settings)を指定します。
 
 1. 「**[!UICONTROL Selections]**」タブで、フィールドに情報を入力または選択します。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
->* [ バルクシートの投稿またはエラーファイルの修正](bulksheet-post.md)
->* [ バルクシート ファイル内のランディングページの検証](bulksheet-validate-landing-pages.md)
+>* [&#x200B; バルクシートを使用したキャンペーンデータの管理について](bulksheet-about.md)
+>* [&#x200B; バルクシートの投稿またはエラーファイルの修正](bulksheet-post.md)
+>* [&#x200B; バルクシート ファイル内のランディングページの検証](bulksheet-validate-landing-pages.md)
 >* [生成またはアップロードされたバルクシート ファイルを書き出す](bulksheet-export.md)

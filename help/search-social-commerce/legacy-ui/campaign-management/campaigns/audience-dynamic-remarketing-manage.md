@@ -26,7 +26,7 @@ web ページで検索エンジンのJavaScript コンバージョンおよび�
 
 動的リマーケティングオーディエンスには、オーディエンスタイプ「[!UICONTROL Dynamic Remarketing] \&lt;訪問者タイプ\>」（「動的リマーケティングの過去の購入者」など）があります。
 
-動的リマーケティングと必要なJavaScript タグの実装方法について詳しくは、[[!DNL Microsoft Advertising] 動的リマーケティングに関するドキュメント ](https://help.ads.microsoft.com/#apex/ads/en/56910)を参照してください。
+動的リマーケティングと必要なJavaScript タグの実装方法について詳しくは、[[!DNL Microsoft Advertising] 動的リマーケティングに関するドキュメント &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56910)を参照してください。
 
 ## 動的リマーケティングオーディエンスの作成
 
@@ -100,7 +100,7 @@ web ページで検索エンジンのJavaScript コンバージョンおよび�
 
 >[!MORELIKETHIS]
 >
->* [ オーディエンスについて](audience-about.md)
->* [顧客マッチオーディエンスを [!DNL Adobe]  オーディエンス ](google-audience-from-adobe-audience.md)から [!DNL Google Ads] 作成
+>* [&#x200B; オーディエンスについて](audience-about.md)
+>* [顧客マッチオーディエンスを [!DNL Adobe]  オーディエンス &#x200B;](google-audience-from-adobe-audience.md)から [!DNL Google Ads] 作成
 >* [Adobe Campaignのメールリストから [!DNL Google Ads] 顧客マッチオーディエンスを作成](google-audience-from-campaign-email-list.md)
 >* [顧客データリストを使用した顧客一致オーディエンスの管理](audience-from-customer-data-list.md)

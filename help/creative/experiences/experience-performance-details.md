@@ -88,11 +88,11 @@ ht-degree: 0%
 
      * プリセット期間を指定するには、次のレポートを選択します：（*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today],*&#x200B;または&#x200B;*[!UICONTROL Yesterday]*。
 
-     * カスタムの日付範囲を指定するには、開始日と終了日を入力するか、フィールドの横にある![ カレンダーアイコン ](/help/search-social-commerce/assets/calendar.png)をクリックして、日付を選択します。
+     * カスタムの日付範囲を指定するには、開始日と終了日を入力するか、フィールドの横にある![&#x200B; カレンダーアイコン &#x200B;](/help/search-social-commerce/assets/calendar.png)をクリックして、日付を選択します。
 
    * （オプション）コンバージョンにつながる一連のイベントのコンバージョンデータの属性に使用するルールを変更するには、![設定](/help/creative/assets/settings.png)をクリックし、**[!UICONTROL Attribution Rule]**&#x200B;を変更します。
 
-     アトリビューションルールについて詳しくは、「[ アトリビューションルールの計算方法](/help/search-social-commerce/reports/attribution-rules.md)」を参照してください。
+     アトリビューションルールについて詳しくは、「[&#x200B; アトリビューションルールの計算方法](/help/search-social-commerce/reports/attribution-rules.md)」を参照してください。
 
    * （オプション）報告されたコンバージョンを変更するには、![設定](/help/creative/assets/settings.png)をクリックし、**[!UICONTROL Conversions]** メニューでコンバージョン名を選択します。 現在、利用可能な指標は、すべてのコンバージョン指標を含む「すべてを選択」のみです。
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
    * 「[!UICONTROL Creatives]」サブタブでは、次のいずれかを実行できます。
 
-     * （オプション）グラフ表示とグリッド表示を切り替えるには、それぞれ![ グラフ ](/help/creative/assets/chart-view-button.png " グラフ ")と![グリッド](/help/creative/assets/table-view-button.png "グリッド")をクリックします。
+     * （オプション）グラフ表示とグリッド表示を切り替えるには、それぞれ![&#x200B; グラフ &#x200B;](/help/creative/assets/chart-view-button.png " グラフ ")と![グリッド](/help/creative/assets/table-view-button.png "グリッド")をクリックします。
 
      * （オプション）グラフ表示で、グラフ内のポイントにカーソルを合わせると、そのポイントのデータが表示されます。
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 1. バンドル別（デシジョンツリーターゲティングを使用したエクスペリエンス）または広告タグ別（デシジョンツリーターゲティングを使用しないエクスペリエンス）にデータを表示するには、**[!UICONTROL Bundles]** サブタブをクリックします。 次のいずれかを実行できます。
 
-   * （オプション）グラフ表示とグリッド表示を切り替えるには、それぞれ![ グラフ ](/help/creative/assets/chart-view-button.png " グラフ ")と![グリッド](/help/creative/assets/table-view-button.png "グリッド")をクリックします。
+   * （オプション）グラフ表示とグリッド表示を切り替えるには、それぞれ![&#x200B; グラフ &#x200B;](/help/creative/assets/chart-view-button.png " グラフ ")と![グリッド](/help/creative/assets/table-view-button.png "グリッド")をクリックします。
 
    * （オプション）グラフ表示で、グラフ内のポイントにカーソルを合わせると、そのポイントのデータが表示されます。
 
@@ -136,15 +136,15 @@ ht-degree: 0%
 
 ## エクスペリエンスのパフォーマンスレポートのダウンロード
 
-* パフォーマンスレポートの上部にあるツールバーで、![ ダウンロード ](/help/creative/assets/download.png " ダウンロード ")をクリックします。
+* パフォーマンスレポートの上部にあるツールバーで、![&#x200B; ダウンロード &#x200B;](/help/creative/assets/download.png " ダウンロード ")をクリックします。
 
   ファイルは、ブラウザーの通常の手順に従って、スプレッドシート （XLSX）形式の[!DNL Microsoft Excel] ファイルでダウンロードされます。
 
 >[!MORELIKETHIS]
 >
->* [ カスタムレポートについて](/help/creative/reports/reports-about.md)
->* [ カスタムレポートの管理](/help/creative/reports/report-manage.md)
->* [ ビュー内のすべてのエクスペリエンスをダウンロード ](/help/creative/experiences/experience-download-view.md)
->* [ エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)
+>* [&#x200B; カスタムレポートについて](/help/creative/reports/reports-about.md)
+>* [&#x200B; カスタムレポートの管理](/help/creative/reports/report-manage.md)
+>* [&#x200B; ビュー内のすべてのエクスペリエンスをダウンロード &#x200B;](/help/creative/experiences/experience-download-view.md)
+>* [&#x200B; エクスペリエンスの変更ログを表示](/help/creative/experiences/experience-view-change-log.md)
 >* [Advertising Creativeでの体験について](/help/creative/experiences/experience-about.md)
->* [ アラートの表示](/help/creative/reports/alerts-view.md)
+>* [&#x200B; アラートの表示](/help/creative/reports/alerts-view.md)

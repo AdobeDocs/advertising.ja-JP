@@ -14,7 +14,7 @@ ht-degree: 0%
 
 キャンペーン設定に「[!UICONTROL EF Redirect]」と「[!UICONTROL Auto Upload]」が含まれている場合に適用されるAdobe Advertising コンバージョントラッキングの場合、レコードを保存すると、Search, Social, &amp; Commerceは自動的に独自のリダイレクトコードとトラッキングコードの先頭に付けられます。
 
-* サポートされているパラメーターを使用して最終的なURLを埋め込む場合は、サポートされている [!DNL ValueTrack] 形式](https://support.google.com/google-ads/answer/6305348)の[[!DNL Google Ads]  ドキュメントを参照してください。 （「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーターに移動します）。
+* サポートされているパラメーターを使用して最終的なURLを埋め込む場合は、サポートされている [!DNL ValueTrack] 形式[&#128279;](https://support.google.com/google-ads/answer/6305348)の[!DNL Google Ads]  ドキュメントを参照してください。 （「使用可能な[!DNL ValueTrack] パラメーター」の節の「トラッキングテンプレートのみ」パラメーターに移動します）。
 
 * 必要に応じて、URL パラメーターと、キャンペーン用に定義された任意のカスタムパラメーターをアンパサンド（&amp;）で区切って含めることができます（{lpurl}?matchtype={matchtype}&amp;device={device}など）。
 

@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Sitelinks]と[!UICONTROL Associations] ビュー
 
-[!UICONTROL Campaigns] > [!UICONTROL Campaigns]の[!UICONTROL Extensions] > [!UICONTROL Sitelinks] ライブラリには、アカウントレベルのサイトリンクがすべて一覧表示され、そこに共有サイトリンクを作成および管理できます。 [[!DNL Google Ads]  アカウント ](https://support.google.com/google-ads/answer/6372658)および[[!DNL Microsoft Advertising]  アカウント ](https://help.ads.microsoft.com/#apex/3/en/52001)あたりの広告拡張機能の最大数については、広告ネットワークのヘルプを参照してください。 ライブラリ内のサイトリンクは、アカウントエンティティに割り当てるまで、広告で使用されません。
+[!UICONTROL Campaigns] > [!UICONTROL Campaigns]の[!UICONTROL Extensions] > [!UICONTROL Sitelinks] ライブラリには、アカウントレベルのサイトリンクがすべて一覧表示され、そこに共有サイトリンクを作成および管理できます。 [[!DNL Google Ads]  アカウント &#x200B;](https://support.google.com/google-ads/answer/6372658)および[[!DNL Microsoft Advertising]  アカウント &#x200B;](https://help.ads.microsoft.com/#apex/3/en/52001)あたりの広告拡張機能の最大数については、広告ネットワークのヘルプを参照してください。 ライブラリ内のサイトリンクは、アカウントエンティティに割り当てるまで、広告で使用されません。
 
 [!UICONTROL Extensions] > [!UICONTROL Associations] ビューから、アカウントレベル （[!DNL Google Ads]のみ）、キャンペーンレベル、または広告グループレベル （[!DNL Google Ads]のみ）のすべての広告に、サイトリンクを可能な限り割り当てることができます。
 

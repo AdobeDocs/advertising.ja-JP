@@ -46,7 +46,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ メディア企業のレコメンデーションとインサイトのサポートについて](recommendation-support.md)
->* [ メディア企業のレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
+>* [&#x200B; メディア企業のレコメンデーションとインサイトのサポートについて](recommendation-support.md)
+>* [&#x200B; メディア企業のレコメンデーションとパフォーマンスインサイトを表示](recommendation-view.md)
 >* [発行者のレコメンデーションを適用または却下](recommendation-apply-dismiss.md)
->* [ アカウントの発行者のレコメンデーションログを表示](recommendation-view-log.md)
+>* [&#x200B; アカウントの発行者のレコメンデーションログを表示](recommendation-view-log.md)

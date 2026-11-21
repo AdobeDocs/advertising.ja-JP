@@ -73,7 +73,7 @@ ht-degree: 0%
 
    1. （オプション）グラフ上の任意のポイントのコストと収益を表示するには、ポイントの上にカーソルを置きます。
 
-1. （オプション）提案された割り当てとポートフォリオあたりの予想収益をダウンロードするには、右側の列の[!UICONTROL Portfolio Allocation]の横にある![ ダウンロード ](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")をクリックします。
+1. （オプション）提案された割り当てとポートフォリオあたりの予想収益をダウンロードするには、右側の列の[!UICONTROL Portfolio Allocation]の横にある![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")をクリックします。
 
    ブラウザーの通常の手順に従って、ファイルを開くか保存します。 詳しくは、ブラウザーのオンラインヘルプを参照してください。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 >* 適用された変更により、任意のポートフォリオの支出目標が20%以上増加または減少する場合は、変更を承認する必要があります。
 >* ポートフォリオの支出目標が20%以上変化した場合、Search, Social, &amp; Commerceは、モデルを調整し、新しい目標を達成するのに最大3～4日かかります。
 
-1. [1日当たりの予算を持つ1つ以上のポートフォリオの予算予算推奨レポート ](#spend-recommendations-generate)を生成します。
+1. [1日当たりの予算を持つ1つ以上のポートフォリオの予算予算推奨レポート &#x200B;](#spend-recommendations-generate)を生成します。
 
 1. 推奨される費用ターゲットを適用する各ポートフォリオの横にあるチェックボックスをオンにします。 すべてのポートフォリオを選択するには、**[!UICONTROL Select All Recommendations]**&#x200B;の横にあるチェックボックスをオンにします。
 
@@ -131,7 +131,7 @@ ht-degree: 0%
 >* 適用された変更により、任意のポートフォリオの支出目標が20%以上増加または減少する場合は、変更を承認する必要があります。
 >* ポートフォリオの支出目標が20%以上変化した場合、Search, Social, &amp; Commerceは、モデルを調整し、新しい目標を達成するのに最大3～4日かかります。
 
-1. [1日当たりの予算を持つ1つ以上のポートフォリオの予算予算推奨レポート ](#spend-recommendations-generate-legacy)を生成します。
+1. [1日当たりの予算を持つ1つ以上のポートフォリオの予算予算推奨レポート &#x200B;](#spend-recommendations-generate-legacy)を生成します。
 
 1. 推奨される費用ターゲットを適用する各ポートフォリオの横にあるチェックボックスをオンにします。 すべてのポートフォリオを選択するには、**[!UICONTROL Select All Recommendations]**&#x200B;の横にあるチェックボックスをオンにします。
 
@@ -143,9 +143,9 @@ ht-degree: 0%
 
 a）コストポイントと各コストの予想収益を示す折れ線グラフとb）現在および提案されたメディアミックスのドーナツチャートのどちらかのデータを開くか保存できます。 [これはPortfolio割り当てレポートと同じようですが、どのように異なるのでしょうか？]
 
-1. [選択したポートフォリオに対する予算推奨レポート ](#spend-recommendations-generate)を生成します。
+1. [選択したポートフォリオに対する予算推奨レポート &#x200B;](#spend-recommendations-generate)を生成します。
 
-1. レポートの上にある「![ ダウンロード ](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")」をクリックします。
+1. レポートの上にある「![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")」をクリックします。
 
    ブラウザーの通常の手順に従って、ファイルを開くか保存します。 詳しくは、ブラウザーのオンラインヘルプを参照してください。
 
@@ -153,6 +153,6 @@ a）コストポイントと各コストの予想収益を示す折れ線グラ�
 
 1. 選択したポートフォリオの予算推奨レポートを生成します。
 
-1. レポートの右上にある「![ ダウンロード ](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")」をクリックします。
+1. レポートの右上にある「![&#x200B; ダウンロード &#x200B;](/help/search-social-commerce/assets/download-spend-recommendation.png " ダウンロード ")」をクリックします。
 
    ブラウザーの通常の手順に従って、ファイルを開くか保存します。 詳しくは、ブラウザーのオンラインヘルプを参照してください。

@@ -18,7 +18,7 @@ AMO IDは`s_kwcid`とも呼ばれ、「[!DNL squid]」と発音されること�
 
 ### AMO ID形式 {#amo-id-formats}
 
-「Adobe Analytics コンポーネントガイド」のAMO ID ディメンション項目](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)の[形式を参照してください。
+「Adobe Analytics コンポーネントガイド」のAMO ID ディメンション項目[&#128279;](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)の形式を参照してください。
 
 <!--
 Legacy content:

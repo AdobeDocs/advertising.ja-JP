@@ -89,17 +89,17 @@ ht-degree: 0%
 
     * **[!UICONTROL Display predictions]**&#x200B;の横にあるスイッチを移動して、予測指標の値を表示または非表示にします。
 
-    * グラフ ビュー（![ グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
+    * グラフ ビュー（![&#x200B; グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
 
     * （グラフ表示）グラフ上の任意のポイントのデータを表示するには、そのポイントにカーソルを合わせます。
 
     * （グラフ表示で）ズームするには、グラフ上の領域を選択します。
 
-    * （ポートフォリオ設定 – 変更マーカーが表示されている場合）マークされた日付のポートフォリオの変更履歴を表示するには、グラフのマーカーをクリックします。 履歴について詳しくは、「[ ポートフォリオの変更履歴を表示](portfolio-view-change-history.md#portfolio-change-history)」を参照してください。
+    * （ポートフォリオ設定 – 変更マーカーが表示されている場合）マークされた日付のポートフォリオの変更履歴を表示するには、グラフのマーカーをクリックします。 履歴について詳しくは、「[&#x200B; ポートフォリオの変更履歴を表示](portfolio-view-change-history.md#portfolio-change-history)」を参照してください。
 
 * （オプション） [!UICONTROL Model accuracy]傾向グラフをカスタマイズするには、次のいずれかの操作を行います。
 
-  * グラフ ビュー（![ グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
+  * グラフ ビュー（![&#x200B; グラフ ビュー](/help/search-social-commerce/assets/chart-view.png " グラフ ビュー")）とテーブル ビュー（![テーブルビュー](/help/search-social-commerce/assets/table-view.png "テーブルビュー")）を切り替えます。
 
   * *[!UICONTROL Daily Accuracy]*&#x200B;と&#x200B;*[!UICONTROL 7 Day Rolling Accuracy]*&#x200B;に関するデータの表示を切り替えます。
 
@@ -131,7 +131,7 @@ ht-degree: 0%
 
 * 名前で検索するには、表の上の検索フィールドにテキストを入力して、検索を送信します。
 
-* データを[ フィルターするには、![ フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター")をクリックします。 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)テーブルの上にあるフィルターコントロールを使用して、適用されたフィルターを編集または削除できます。
+* データを[&#x200B; フィルターするには、![&#x200B; フィルター](/help/search-social-commerce/assets/filter-new.png " フィルター")をクリックします。 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)テーブルの上にあるフィルターコントロールを使用して、適用されたフィルターを編集または削除できます。
 
 * ネットワーク、アカウント、キャンペーンまたは広告グループのコンポーネントを次のタブで表示するには、その名前をクリックします。 選択した親がテーブルの上のパンくずリストに表示され、該当するフィルターはドリルダウンすると続行されます。 タブを切り替えても、親の選択によってリストが引き続き制限される場合があります。
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 
 * データを更新するには、![更新](/help/search-social-commerce/assets/refresh-new.png "更新")をクリックします。
 
-* （[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、および[!UICONTROL Keywords] タブのみ）表示される列または並べ替え順序を変更するには、![ カスタム列](/help/search-social-commerce/assets/custom-columns-new.png " カスタム列")をクリックし、[列セットと並べ替えオプション ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)を編集します。
+* （[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、および[!UICONTROL Keywords] タブのみ）表示される列または並べ替え順序を変更するには、![&#x200B; カスタム列](/help/search-social-commerce/assets/custom-columns-new.png " カスタム列")をクリックし、[列セットと並べ替えオプション &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)を編集します。
 
 
 ## ポートフォリオ内の広告ネットワークのリスト
@@ -192,13 +192,13 @@ ht-degree: 0%
 
 ファイルは、ブラウザーの通常の手順に従ってダウンロードされます。
 
-ポートフォリオ全体の入札履歴を表示し、その日付範囲を変更するには、「[ ポートフォリオの入札変更履歴を表示](portfolio-view-change-history.md#portfolio-bid-change-history)」を参照してください。
+ポートフォリオ全体の入札履歴を表示し、その日付範囲を変更するには、「[&#x200B; ポートフォリオの入札変更履歴を表示](portfolio-view-change-history.md#portfolio-bid-change-history)」を参照してください。
 
 ## ポートフォリオ設定の表示と編集
 
 * ポートフォリオ設定を表示または非表示にするには、**[!UICONTROL Portfolio Settings]**&#x200B;をクリックします。
 
-  * 表示されているポートフォリオ設定を編集するには、設定セクションの横にある![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックし、[ ポートフォリオ設定を編集](portfolio-edit.md)します。
+  * 表示されているポートフォリオ設定を編集するには、設定セクションの横にある![編集](/help/search-social-commerce/assets/edit.png "編集")をクリックし、[&#x200B; ポートフォリオ設定を編集](portfolio-edit.md)します。
 
 ポートフォリオ設定について詳しくは、Search, Social, &amp; Commerce内から入手できる最適化ガイドを参照してください。
 
@@ -228,6 +228,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ （新しいUI） ポートフォリオについて](portfolio-about.md)
->* [ （新しいUI） ポートフォリオの編集](portfolio-edit.md)
->* [ （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード ](portfolio-view-report.md)
+>* [&#x200B; （新しいUI） ポートフォリオについて](portfolio-about.md)
+>* [&#x200B; （新しいUI） ポートフォリオの編集](portfolio-edit.md)
+>* [&#x200B; （新しいUI） [!UICONTROL Portfolios] ビューでデータをダウンロード &#x200B;](portfolio-view-report.md)

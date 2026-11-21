@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe DSPと[!DNL OpenAI Ads]との統合により、[!DNL ChatGPT Ads]件のチャットカード広告を実行することができ、[!DNL ChatGPT]件の会話内に表示されます。 DSPは、この機能のために会話型の広告アカウントを作成し、組織の代わりにメディアを購入します。 ads.openai.comから広告アカウントにアクセスすることはできません。 この機能を使用すると、[!DNL ChatGPT Ads]との直接的な関係を確立せずにAI メディアをテストできます。
 
-キャンペーン、広告グループ、広告を含む[!DNL ChatGPT Ads]個の会話型広告アカウントを、構造化が異なる通常のDSP キャンペーンとは別に管理します。 また、DSP キャンペーンとは別に、 [!DNL ChatGPT Ads]  キャンペーン、広告グループ、広告](campaign-manage.md#campaign-views-about)のパフォーマンスデータを[表示できます。
+キャンペーン、広告グループ、広告を含む[!DNL ChatGPT Ads]個の会話型広告アカウントを、構造化が異なる通常のDSP キャンペーンとは別に管理します。 また、DSP キャンペーンとは別に、 [!DNL ChatGPT Ads]  キャンペーン、広告グループ、広告[&#128279;](campaign-manage.md#campaign-views-about)のパフォーマンスデータを表示できます。
 
 ## 実施要件
 
@@ -37,7 +37,7 @@ Adobe DSPと[!DNL OpenAI Ads]との統合により、[!DNL ChatGPT Ads]件のチ
 
 ## 課金
 
-DSP アカウントの請求通貨と請求タイムゾーンを使用して、他の請求書と共に月末に[!DNL ChatGPT Ads]の使用量に対して請求されます（ [!DNL ChatGPT Ads]  アカウント ](#account-settings)に使用される[通貨とタイムゾーンに関係なく）。 お支払いに関するご質問は、Adobeのアカウントチームにお問い合わせください。
+DSP アカウントの請求通貨と請求タイムゾーンを使用して、他の請求書と共に月末に[!DNL ChatGPT Ads]の使用量に対して請求されます（ [!DNL ChatGPT Ads]  アカウント [&#128279;](#account-settings)に使用される通貨とタイムゾーンに関係なく）。 お支払いに関するご質問は、Adobeのアカウントチームにお問い合わせください。
 
 ## [!UICONTROL Conversational Ads Beta] > [!UICONTROL Accounts] ビュー {#accounts-view}
 
@@ -103,7 +103,7 @@ DSP アカウントの請求通貨と請求タイムゾーンを使用して、�
 
    * **[!UICONTROL Accounts]** ビューで、広告主を選択し、**[!UICONTROL Create Account]**&#x200B;をクリックします。
 
-1. [ アカウント設定](#account-settings)を指定します。
+1. [&#x200B; アカウント設定](#account-settings)を指定します。
 
 1. 「**[!UICONTROL I agree to the Terms and Conditions]**」チェックボックスを選択します。
 
@@ -119,7 +119,7 @@ DSP アカウントの請求通貨と請求タイムゾーンを使用して、�
 
 1. **[!UICONTROL Accounts]** ビューで、アカウント行の上にカーソルを置き、**[!UICONTROL ...]>[!UICONTROL Edit account]**&#x200B;をクリックします。
 
-1. **[!UICONTROL Legal Business Name]**&#x200B;または&#x200B;**[!UICONTROL Advertiser Website]**&#x200B;を編集します。 フィールドについて詳しくは、「[ アカウント設定](#account-settings)」を参照してください。
+1. **[!UICONTROL Legal Business Name]**&#x200B;または&#x200B;**[!UICONTROL Advertiser Website]**&#x200B;を編集します。 フィールドについて詳しくは、「[&#x200B; アカウント設定](#account-settings)」を参照してください。
 
 1. **[!UICONTROL Save changes]**&#x200B;をクリックします。
 

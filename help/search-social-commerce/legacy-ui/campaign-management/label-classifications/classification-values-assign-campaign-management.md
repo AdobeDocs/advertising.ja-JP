@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 次のいずれかの操作を行います。
 
-   * （1つのエンティティに値を割り当てるには） エンティティ名の上にカーソルを置き、![ メニューボタン ](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューボタン ")をクリックし、**[!UICONTROL Classification]**&#x200B;を選択します。
+   * （1つのエンティティに値を割り当てるには） エンティティ名の上にカーソルを置き、![&#x200B; メニューボタン &#x200B;](/help/search-social-commerce/assets/arrow-dropdown-menu.png " メニューボタン ")をクリックし、**[!UICONTROL Classification]**&#x200B;を選択します。
 
    * （1つ以上のエンティティに値を割り当てるには）次の操作を行います。
 
@@ -122,9 +122,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ラベル分類について](classification-about.md)
->* [ ラベル分類を作成](classification-create.md)
->* [ バルクシートを使用してアカウントコンポーネントに分類値を割り当てる](classification-values-assign-bulksheets.md)
->* [ アカウントコンポーネントからラベル分類値を削除](classification-values-remove.md)
->* [ ラベル分類値を削除](classification-values-delete.md)
->* [ ラベル分類を削除](classification-delete.md)
+>* [&#x200B; ラベル分類について](classification-about.md)
+>* [&#x200B; ラベル分類を作成](classification-create.md)
+>* [&#x200B; バルクシートを使用してアカウントコンポーネントに分類値を割り当てる](classification-values-assign-bulksheets.md)
+>* [&#x200B; アカウントコンポーネントからラベル分類値を削除](classification-values-remove.md)
+>* [&#x200B; ラベル分類値を削除](classification-values-delete.md)
+>* [&#x200B; ラベル分類を削除](classification-delete.md)

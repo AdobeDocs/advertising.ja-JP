@@ -28,7 +28,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]および[!DNL Microsoft Advertising] アカウントのみ*
 
-オーディエンスは、[ ターゲット ](audience-targets-manage.md)または[除外](audience-exclusions.md)として、同じ広告ネットワークでサポートされているキャンペーンと広告グループに使用できるユーザーグループです。 広告ネットワークは、ターゲティングできるオーディエンスの規模を決定します。
+オーディエンスは、[&#x200B; ターゲット &#x200B;](audience-targets-manage.md)または[除外](audience-exclusions.md)として、同じ広告ネットワークでサポートされているキャンペーンと広告グループに使用できるユーザーグループです。 広告ネットワークは、ターゲティングできるオーディエンスの規模を決定します。
 
 ## [!UICONTROL Library] ビューについて {#audience-view-about}
 
@@ -68,7 +68,7 @@ Restricted to internal beta users:
 
   * Audience Manager アカウントを持つ広告主の場合、オーディエンスは、Search、Social、およびCommerceを宛先とするAudience Manager セグメントのユーザーIDを使用します。 これには、Adobe CX Enterpriseに公開された[!DNL Analytics]個のセグメントと、Adobe CX Enterprise Audience Libraryを使用して作成されたセグメントが含まれます。
 
-  [!DNL Google Ads] アカウントは、[顧客の一致](https://support.google.com/adspolicy/answer/6299717)の対象で、[ ユーザーID セグメント ](https://support.google.com/google-ads/answer/9199250)に対してオプトインしている必要があります。 Search, Social, &amp; Commerceの広告主アカウントも、カスタマーマッチオーディエンスの作成を許可するように設定する必要があります。 この機能を有効にするには、Adobe アカウントチームにお問い合わせください。
+  [!DNL Google Ads] アカウントは、[顧客の一致](https://support.google.com/adspolicy/answer/6299717)の対象で、[&#x200B; ユーザーID セグメント &#x200B;](https://support.google.com/google-ads/answer/9199250)に対してオプトインしている必要があります。 Search, Social, &amp; Commerceの広告主アカウントも、カスタマーマッチオーディエンスの作成を許可するように設定する必要があります。 この機能を有効にするには、Adobe アカウントチームにお問い合わせください。
 
   顧客データベースのオーディエンスの[!DNL Adobe]個のセグメントデータとcookie同期ファイルは、毎日[!DNL Google Ads]個に同期されます。
 
@@ -288,5 +288,5 @@ You can change a [!DNL Microsoft Advertising] dynamic remarketing audience's nam
 
 >[!MORELIKETHIS]
 >
->* [ キャンペーンと広告グループのオーディエンスターゲットの管理](audience-targets-manage.md)
->* [ キャンペーンと広告グループのオーディエンス除外の管理](audience-exclusions.md)
+>* [&#x200B; キャンペーンと広告グループのオーディエンスターゲットの管理](audience-targets-manage.md)
+>* [&#x200B; キャンペーンと広告グループのオーディエンス除外の管理](audience-exclusions.md)

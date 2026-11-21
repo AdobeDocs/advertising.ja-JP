@@ -27,7 +27,7 @@ Advertisingのインサイトにより、視覚的かつ実用的なデータを
 
 >[!NOTE]
 >
->このページでは、ベータ版の新しいユーザーインターフェイスにおけるinsight ダッシュボードについて説明します。 可用性は、アクセス権と、選択した広告主が利用できるインサイトによって異なります。 [従来のAdvertising インサイト ](/help/search-social-commerce/legacy-ui/advertising-insights/insight-about.md)には、生成されたファイルの分析と手順の異なるセットが含まれています。
+>このページでは、ベータ版の新しいユーザーインターフェイスにおけるinsight ダッシュボードについて説明します。 可用性は、アクセス権と、選択した広告主が利用できるインサイトによって異なります。 [従来のAdvertising インサイト &#x200B;](/help/search-social-commerce/legacy-ui/advertising-insights/insight-about.md)には、生成されたファイルの分析と手順の異なるセットが含まれています。
 
 ## インサイトの種類 {#insight-types}
 
@@ -120,7 +120,7 @@ Advertisingのインサイトにより、視覚的かつ実用的なデータを
 
 * **[!UICONTROL Simulation Date]:**&#x200B;分析するシミュレーションの日付を選択します。 その日付に複数のシミュレーションが使用可能な場合は、名前でシミュレーションも選択します。
 
-  使用できるカスタムシミュレーションがない場合は、このinsightを使用する前に[ カスタムシミュレーションを生成](/help/search-social-commerce/manage/portfolios/portfolio-create-simulation.md)します。
+  使用できるカスタムシミュレーションがない場合は、このinsightを使用する前に[&#x200B; カスタムシミュレーションを生成](/help/search-social-commerce/manage/portfolios/portfolio-create-simulation.md)します。
 
 * **[!UICONTROL Actual Days]:**&#x200B;実際のパフォーマンスデータの&#x200B;**[!UICONTROL 7]** （デフォルト）、**[!UICONTROL 14]**、または&#x200B;**[!UICONTROL 30]**&#x200B;日間を選択します。 別の数値を指定するには、**[!UICONTROL Enter Actual Days]**&#x200B;を選択し、1 ～ 90の値を入力します。
 
