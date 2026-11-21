@@ -1,0 +1,39 @@
+---
+title: レポートテンプレートについて
+description: 再利用可能なレポートテンプレートの詳細。
+exl-id: 8ac30a16-7fa9-4da3-9375-98efd05c6e74
+feature: Search Reports
+TQID: 'https://experienceleague.adobe.com/8ADgYYht2dTa96mTWXKItzUk7VhuQJJKrJ4aaRatgYs'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 0%
+---
+# レポートテンプレートについて
+
+レポートテンプレートは、ほとんどのレポートを生成するときに再利用できる、事前定義されたレポートレイアウトです。 テンプレートを使用すると、デフォルト以外のパラメーターを使用したり、同じレポートのバリエーションを実行したり、同じスケジュールに従って同じレポートを実行したりする場合の時間を節約できます。 保存されたレポートテンプレートは、レポートページの「レポートテンプレート」セクションから使用できます。
+
+任意のタイプのパフォーマンスレポートの場合、複数のレポートテンプレートを保存し、新しい設定で作成したり、既存のテンプレートに基づいて作成したりできます。 作成したレポートテンプレートの設定を変更することもできます。新しい設定は、今後生成されるテンプレートを使用して、すべてのレポートに適用されます。 1つ以上のテンプレートに対するレポートは、いつでも実行できます。
+
+利用可能なテンプレートを削除することもできます。 スケジュールを含むテンプレートを削除しても、そのレポートは今後生成されません。
+
+一度に最大100個のテンプレートを管理できます。
+
+>[!MORELIKETHIS]
+>
+>* [ レポートテンプレートを作成](template-create.md)
+>* [ レポートテンプレートを編集](template-edit.md)
+>* [ レポートテンプレートを表示](template-view.md)
+>* [ レポートテンプレートを削除](template-delete.md)

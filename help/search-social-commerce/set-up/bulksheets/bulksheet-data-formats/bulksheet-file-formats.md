@@ -1,0 +1,91 @@
+---
+title: サポートされているバルクシートファイル形式
+description: バルクシートの一般的なファイル要件を参照します。
+exl-id: f3daf036-8f0c-4c75-9c76-2734abd850ec
+feature: Search Bulksheets
+TQID: 'https://experienceleague.adobe.com/LaEsBPLbF3nbcIJljn6TvQMmgFU7C-UPEoVjAXu7dp0'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 0%
+---
+# サポートされているバルクシートファイル形式
+
+## ファイル形式
+
+サポートされている広告ネットワーク用のバルクシート ファイルは、次のいずれかの形式でダウンロード、アップロード、投稿できます。
+
+* CSV （コンマ区切り値）
+* TSV （タブ区切り値）
+* TXT （Unicode テキスト）。コンマまたはタブで区切ります
+* CSV形式、TSV形式、またはカンマまたはタブで区切られたTXT形式の1つのファイルを含むZIP （圧縮）
+
+バルクシートを作成またはダウンロードする場合、ファイルに関連するすべてのデータが含まれた指定されたファイル形式で作成されます。 次の情報を使用して、ファイル内のデータを編集したり、独自のバルクシートを手動で作成したりします。
+
+## バルクシートの基本内容
+
+バルクシートファイルの最初のレコード（行）には、特定の列名のセットが含まれており、総称して<i> ヘッダー</i>と呼ばれます。 ヘッダーの列名は指定された順序で表示され、後続のデータレコードの各フィールドに対応します。 ヘッダーに必要な列名は、広告ネットワークによって異なります。
+
+後続の各レコード（行）にはデータが含まれ、ヘッダーの各列の値を含む（または値がない）フィールドがあります。
+
+## 最大ファイルサイズ
+
+バルクシートファイルは、最大2.5 GB （約250万行）まで使用できます。
+
+>[!NOTE]
+>
+>複数のキャンペーンのバルクシートを生成し、結合データが500,000行を超える場合、データはキャンペーンごとに`<bulksheet name>_1.tsv`、`<bulksheet name>_2.tsv`などの名前の2つ以上のファイルに分割されます。
+
+## 様々なファイルタイプの書式要件
+
+タブとコンマで区切られたデータフィールドでは、異なる書式設定が必要です。
+
+### タブで区切られたTSV ファイルとTXT ファイル
+
+TSV ファイルおよびタブで区切られたTXT ファイルのデータフィールドは、次のようにフォーマットする必要があります。
+
+* 各レコードのフィールドは、タブ文字で区切られます。 フィールドの値を省略するには、タブ文字のみを使用します。
+
+  例：`Cruises<TAB>5000<TAB>Caribbean<TAB><TAB><TAB>`
+
+* フィールドに埋め込まれたタブ文字を含めることはできません。
+
+### コンマで区切られたCSV ファイルとTXT ファイル
+
+CSV ファイルおよびカンマで区切られたTXT ファイルのデータフィールドは、次のようにフォーマットする必要があります。
+
+* レコード内のフィールドはコンマで区切られます。 フィールドの値を省略するには、コンマのみを使用します。
+
+  例：`Cruises,5000,Caribbean,,,`
+
+* 任意のフィールドを二重引用符（`""`）で囲むことができます。
+
+  例：`"Cruises","5000","Caribbean",`
+
+* コンマが埋め込まれたフィールドは、二重引用符（`""`）で囲む必要があります。
+
+  例：`Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
+
+* 二重引用符が埋め込まれたフィールドは、二重引用符（`""`）内で囲む必要があります。
+
+  例：`Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
+
+* 先頭または末尾にスペースがあるフィールドは、二重引用符（`""`）で囲む必要があります。
+
+  例：`Cruises,5000,Caribbean,"  Come see what we mean.  ",`
+
+>[!MORELIKETHIS]
+>
+>* [ バルクシートを使用したキャンペーンデータの管理について](/help/search-social-commerce/set-up/bulksheets/about.md)
+>* [ バルクシートで実行できる操作](bulksheet-operations.md)
+>* [付録 – バルクシート エラー](/help/search-social-commerce/set-up/bulksheets/errors.md)
+>* [ バルクシート ファイルのダウンロードと作成](/help/search-social-commerce/set-up/bulksheets/download.md)

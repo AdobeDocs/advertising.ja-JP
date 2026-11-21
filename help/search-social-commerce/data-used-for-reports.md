@@ -23,7 +23,7 @@ subfeature_v2:
     internal-label: Specialty reports
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
     internal-label: Reports
-source-git-commit: fbbc4aabc435023aafbef2443735a7fb285561be
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 6%
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 Search, Social, &amp; Commerceには、クリックとコンバージョンのデータにもとづく包括的なパフォーマンスレポートが用意されています。 ポートフォリオまたは広告アカウントの様々なコンポーネントの基本的なパフォーマンスデータを、[!UICONTROL Portfolios]および[!UICONTROL Campaigns] ビューから表示できます。また、様々な基本および高度なレポートを生成することもできます。
 
-Adobe Advertising コンバージョン追跡サービスを使用する広告主は、参照web サイトの地理的な場所またはドメイン名のクリック数、各チャネルの広告とコンバージョンにつながる様々なイベントが全体的なコンバージョン率にどのように貢献しているか、マーケティングチャネル別の単一の[&#x200B; コンバージョン指標](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)のコンバージョンの分布も特定できます。 利用できるレポートは、ユーザーアカウントの種類によって異なります。 Adobeアカウントチームは、すべてのレポートにアクセスできます。
+Adobe Advertising コンバージョン追跡サービスを使用する広告主は、参照web サイトの地理的な場所またはドメイン名のクリック数、各チャネルの広告とコンバージョンにつながる様々なイベントが全体的なコンバージョン率にどのように貢献しているか、マーケティングチャネル別の単一の[ コンバージョン指標](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md)のコンバージョンの分布も特定できます。 利用できるレポートは、ユーザーアカウントの種類によって異なります。 Adobeアカウントチームは、すべてのレポートにアクセスできます。
 
 ほとんどのレポートは、表示する情報のみを表示するようにカスタマイズできます。 ほとんどのレポートでは、次の標準指標を使用でき、広告レベルで計算されます。
 
@@ -52,7 +52,7 @@ Adobe Advertising コンバージョン追跡サービスを使用する広告�
 
 * **コンバージョン指標：**&#x200B;広告主のコンバージョン指標、またはコンバージョン指標に向けて追跡されたトランザクションデータのそれぞれのコンバージョンの合計数。 これには、コンバージョンやサイトエンゲージメントの指標は含まれますが、Adobe Analyticsから同期される計算指標や高度な計算指標は含まれません。
 
-  これには、広告主アカウント用に同期されている[[!DNL Google Ads]件のトラッキング済みコンバージョン &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)と[[!DNL Google Analytics]件のトラッキング済みコンバージョン &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md)が含まれる場合もあります。
+  これには、広告主アカウント用に同期されている[[!DNL Google Ads]件のトラッキング済みコンバージョン ](/help/search-social-commerce/tracking/google-conversion-data.md)と[[!DNL Google Analytics]件のトラッキング済みコンバージョン ](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)が含まれる場合もあります。
 
 * **カスタム指標：**&#x200B;既存の指標（注文単価など）に基づいて数式を作成して導き出す独自の指標。
 
@@ -79,5 +79,5 @@ Adobe Advertising コンバージョン追跡サービスを使用する広告�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; レポートについて](/help/search-social-commerce/reports/report-about.md)
->* [&#x200B; レポートの初期設定タスク &#x200B;](/help/search-social-commerce/reports/initial-setup.md)
+>* [ レポートについて](/help/search-social-commerce/legacy-ui/reports/report-about.md)
+>* [ レポートの初期設定タスク ](/help/search-social-commerce/legacy-ui/reports/initial-setup.md)

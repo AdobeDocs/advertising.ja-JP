@@ -15,7 +15,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -52,7 +52,7 @@ effp();
 
 * `<ef-userid>`は、Search、Social、およびCommerceが広告主に割り当てる一意の数値ユーザーIDです。
 
-* `<ID5_PartnerID>`は組織のID5 パートナーIDで、組織は[!DNL ID5]との契約書に署名した後に受信します。 この変数は、組織がDSPを使用しており、ID5のユニバーサル ID[&#128279;](/help/dsp/audiences/universal-ids.md)に関連付けられたユーザーを追跡する カスタムセグメントがある場合にのみ含めます。
+* `<ID5_PartnerID>`は組織のID5 パートナーIDで、組織は[!DNL ID5]との契約書に署名した後に受信します。 この変数は、組織がDSPを使用しており、ID5のユニバーサル ID](/help/dsp/audiences/universal-ids.md)に関連付けられたユーザーを追跡する[ カスタムセグメントがある場合にのみ含めます。
 
 * `<propertyname>`は追跡するコンバージョンです。 例えば、「登録」というコンバージョンをトラッキングする場合、タグにはパラメーター`ev_registration=<registration>`が含まれ、各トランザクションの実際の収益（`ev_registration=1`など）を渡す必要があります。 複数のプロパティがトラッキングされると、アンパサンド （`&`）が結合されます（例：`ev_registration=<registration>&ev_sale=<sale>`）（例：`ev_registration=1&ev_sale=12.99`）。 **注意：** プロパティ名に特殊文字を含めることはできません。
 
@@ -65,7 +65,7 @@ effp();
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising コンバージョントラッキングタグについて](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Adobe Advertising コンバージョンタグを生成](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Adobe Advertising コンバージョンタグを生成](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
 >* コンバージョンとページビューのトラッキングタグに関する[FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [JavaScript コンバージョントラッキングタグバージョン 2](format-conversion-tag-jsv2.md)の形式
 >* [JavaScript コンバージョントラッキングタグバージョン 3](format-conversion-tag-jsv3.md)の形式

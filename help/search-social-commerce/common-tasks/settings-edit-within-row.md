@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%
@@ -43,10 +43,10 @@ ht-degree: 0%
 
    * （リスト内のオプション） リストから新しいオプションを選択します。
 
-   * （日付）新しい日付を入力するか、![&#x200B; カレンダー](/help/search-social-commerce/assets/calendar.png " カレンダー")をクリックしてカレンダーを開き、[新しい日付を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)します。
+   * （日付）新しい日付を入力するか、![ カレンダー](/help/search-social-commerce/assets/calendar.png " カレンダー")をクリックしてカレンダーを開き、[新しい日付を選択](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)します。
 
    * （フリーフォーム値）新しい値を入力し、![保存](/help/search-social-commerce/assets/select.png "保存")をクリックするか、**Enter** キーを押します。
 
    >[!MORELIKETHIS]
    >
-   >* [&#x200B; コピー&amp;ペースト &#x200B;](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)を使用してキャンペーンデータを一括作成および編集
+   >* [ コピー&amp;ペースト ](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/copy-paste.md)を使用してキャンペーンデータを一括作成および編集

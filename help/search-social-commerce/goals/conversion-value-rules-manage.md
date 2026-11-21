@@ -1,0 +1,149 @@
+---
+title: （新しいUI） [!DNL Google Ads]のコンバージョン値ルールの管理
+description: Search, Social, & Commerceで[!DNL Google Ads] コンバージョン値ルールを表示および管理する方法について説明します。
+feature: Conversions
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+subfeature_v2:
+  - id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
+    internal-label: Conversion value rules
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '1856'
+ht-degree: 0%
+---
+# （新しいUI） [!DNL Google Ads]のコンバージョン値ルールの管理
+
+*Beta機能*
+
+[!DNL Google Ads] [ コンバージョン値ルール ](https://support.google.com/google-ads/answer/10518330)を使用すると、デバイスの種類、場所、オーディエンスセグメントなどのユーザー情報に基づいて、コンバージョンイベントの値を調整できます。 Google Smart Biddingを使用すると、検索、表示、ショッピング、パフォーマンスの最大化キャンペーンでバリューベース入札のルールを使用できます。 コンバージョンの最大化とターゲット ROAS入札戦略を使用するキャンペーンの場合、[!DNL Google Ads] アルゴリズムは、より高い値のコンバージョンを優先します。
+
+キャンペーンレベルのコンバージョン値ルールは、アカウントレベルのルールを上書きします。 コンバージョンが複数のコンバージョン値ルールを満たす場合、ルールのうち1つだけが適用されます。 通常、最も特定のルールが適用されますが、様々なルール条件タイプの優先順位に関する[[!DNL Google Ads]  ドキュメント ](https://support.google.com/google-ads/answer/10520348)を参照してください。
+
+## [!UICONTROL Conversion Value Rules] ビューと機能
+
+Search, Social, &amp; Commerceは、[!DNL Google Ads] アカウントのコンバージョン値ルールを自動的に同期します。 [!DNL Google Ads] インターフェイスで作成されたすべてのルールは、24時間以内に同期され、[!UICONTROL Goals] > [!UICONTROL Conversion Value Rules] ビューで使用できます。
+
+一部のアカウントでは、コンバージョン値のルールを管理できます。
+
+* 個人アカウントまたはキャンペーンレベルでコンバージョンが追跡されるアカウントでは、アカウントレベルおよびキャンペーンレベルのルールのステータス ](#google-conversion-value-rule-change-status)を[作成](#google-conversion-value-rule-create)、[編集](#google-conversion-value-rule-edit)、[変更できます。
+
+  アカウントは[[!DNL Google Ads]  マネージャーアカウント ](/help/search-social-commerce/set-up/manager-account-manage.md)にリンクできますが、クロスアカウントコンバージョントラッキングを使用することはできません（マネージャーアカウント内のすべてのアカウントでコンバージョンがトラッキングされます）。
+
+* クロスアカウントのコンバージョントラッキングを使用するアカウントでは、アカウントレベルのルールとキャンペーンレベルのルールがマネージャーアカウントから継承され、読み取り専用です。
+
+## Search, Social, &amp; Commerceのポートフォリオによるコンバージョン価値ルール
+
+広告主アカウントがSearch, Social, &amp; Commerceの目標を[!DNL Google Ads]にアップロードするように設定されており、目標を持つポートフォリオにコンバージョン値ルールを使用するキャンペーンを含める場合、[!DNL Google Ads]は、目標で指定された元のコンバージョン値にコンバージョン値ルールを適用します。 その結果、Search、Social、およびCommerceのコンバージョンデータは、[!DNL Google Ads]のコンバージョンデータとは異なります。
+
+例えば、目標が単一のコンバージョン指標「リード」を使用し、モバイルデバイスからのコンバージョンに10の重みを与え、非モバイルデバイスからのコンバージョンに10の重みを与えるとします。 Search, Social, &amp; Commerceでは、いずれかのデバイスタイプのイベントを1回のコンバージョンとしてカウントし、コンバージョン値を10としてクレジットします。 ただし、そのポートフォリオのキャンペーンで「デバイスがモバイルの場合は、2を掛ける」というコンバージョン値ルールが使用されているとします。 モバイルリードイベントがそのキャンペーンで追跡されると、[!DNL Google Ads]はコンバージョン数を1つ（1）とクレジットしますが、コンバージョン値は（10 x 2） = 20とクレジットします。
+
+ルールが適用される前の元のコンバージョン値を含む、ルールの詳細については、 [!DNL Google Ads]](https://support.google.com/google-ads/answer/10519848)の[ コンバージョン値ルール レポートを参照してください。
+
+## [!DNL Google Ads] コンバージョン値ルールの作成 {#google-conversion-value-rule-create}
+
+コンバージョンが個々のアカウントレベル以下で追跡される[!DNL Google Ads] アカウントで、アカウントレベルおよびキャンペーンレベルのコンバージョン値ルールを作成できます。 マスターアカウントレベルで追跡されるクロスアカウントコンバージョンを持つアカウントのルールを作成することはできません。
+
+各ルールには、最大2つの条件と、条件が満たされたときに適用されるコンバージョン値の調整が含まれます。 アカウント内のすべてのルールは、同じタイプのプライマリ条件と（オプションの）セカンダリ条件を使用する必要があります。 例えば、ルール 1にプライマリ条件「Audience」とセカンダリ条件「Location」が含まれている場合、アカウント内の他のすべてのルールにはプライマリ条件「Audience」が必要です。 他のルールにセカンダリ条件が含まれる場合は、「場所」にする必要があります。
+
+キャンペーンごとに複数のキャンペーンレベルのルールを作成できます。 ただし、[!DNL Google Ads]では、アカウントレベルのルールが既に存在する場合、[!DNL Google Ads] エディター以外で新しいアカウントレベルのルールを作成する機能はまだ提供されていません。 追加のアカウントレベルのルールを作成するには、[!DNL Google Ads]に直接ログインし、[!DNL Google Ads] エディターを使用します。
+
+**注：** キャンペーンレベルのコンバージョン値ルールは、アカウントレベルのルールを上書きし、コンバージョンに適用できるルールは1つのみです。 詳細については、[how [!DNL Google Ads]  コンバージョンが複数のルール ](https://support.google.com/google-ads/answer/10520348)の条件を満たしているときに、コンバージョンに適用されるルールを決定するを参照してください。
+
+1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversion Value Rules]**&#x200B;をクリックします。
+
+   デフォルトでは、**[!UICONTROL Campaign]** タブが選択され、すべてのキャンペーンレベルのルールが表示されます。
+
+1. （オプション）代わりにアカウントレベルのルールを作成するには、「**[!UICONTROL Account]**」タブをクリックします。
+
+1. ツールバーで、「**[!UICONTROL Create Campaign Rule]**」（[!UICONTROL Campaign] タブ）または「**[!UICONTROL Create Account Rule]**」（[!UICONTROL Account] タブ）をクリックします。
+
+1. 広告ネットワークとアカウントを選択します。 キャンペーンレベルのルールの場合は、キャンペーンも選択します。 次に、**[!UICONTROL Next]**&#x200B;をクリックします。
+
+1. [ コンバージョンルール設定](#google-ads-conversion-value-rule-settings)を構成します。
+
+   プライマリ条件と値の調整を設定する必要があります。 オプションでセカンダリ条件を設定できます。
+
+   条件内で、ブール演算子`OR`を使用して複数のターゲットまたは除外条件を結合します。これにより、任意のオプションを満たして値の調整を開始できます。 2次条件を含めると、2次条件はブール演算子`ALL`を使用してプライマリ条件に結合されるため、値の調整を開始するには両方の条件を満たす必要があります。 例：\[場所がアルジェリアまたはチュニジア\]で、\[ デバイスがモバイルまたはタブレット\]の場合は、1.5を追加します。
+
+   **注意：** アカウント内のすべてのルールは、同じタイプのプライマリ条件と（オプションの）セカンダリ条件を使用する必要があります。 例えば、ルール 1にプライマリ条件「Audience」とセカンダリ条件「Location」が含まれている場合、アカウント内の他のすべてのルールにはプライマリ条件「Audience」が必要です。 他のルールにセカンダリ条件が含まれる場合は、「場所」にする必要があります。
+
+1. **[!UICONTROL Review and Save]**&#x200B;をクリックして設定を確認します。
+
+1. **[!UICONTROL Save]**&#x200B;をクリックします。
+
+## [!DNL Google Ads] コンバージョン値ルールの編集 {#google-conversion-value-rule-edit}
+
+コンバージョンを個人アカウントレベル以下で追跡するアカウント/キャンペーンのコンバージョン値ルールを編集できます。 マスターアカウントレベルで追跡されるクロスアカウントコンバージョンを持つアカウントのルールを編集することはできません。
+
+1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversion Value Rules]**&#x200B;をクリックします。
+
+   デフォルトでは、**[!UICONTROL Campaign]** タブが選択され、すべてのキャンペーンレベルのルールが表示されます。
+
+1. （オプション）代わりにすべてのアカウントレベルのルールを表示するには、「**[!UICONTROL Account]**」タブをクリックします。
+
+1. ルールの横にあるチェックボックスをオンにします。
+
+1. 一括操作ツールバーで、 （/help/search-social-commerce/assets/edit-new.png &quot;編集）をクリックします。
+
+1. [ コンバージョンルール設定](#google-ads-conversion-value-rule-settings)を編集します。
+
+   既存のルールの条件タイプを編集することはできませんが、条件と値の調整を編集することはできます。
+
+   プライマリ条件と値の調整を設定する必要があります。 オプションでセカンダリ条件を設定できます。
+
+   **メモ：** セカンダリ条件を追加する場合、その条件タイプはアカウント内の他のルールと同じである必要があります。 例えば、アカウント内のルール 1の他のルールにセカンダリ条件「場所」がある場合、他のルールにセカンダリ条件が含まれている場合、セカンダリ条件は「場所」である必要があります。 2次条件を含めると、2次条件はブール演算子`ALL`を使用してプライマリ条件に結合されるため、値の調整を開始するには両方の条件を満たす必要があります。
+
+1. **[!UICONTROL Review and Save]**&#x200B;をクリックして設定を確認します。
+
+1. **[!UICONTROL Save]**&#x200B;をクリックします。
+
+## [!DNL Google Ads] コンバージョン値ルールのステータスの変更 {#google-conversion-value-rule-change-status}
+
+コンバージョンを個々のアカウントレベルで追跡するアカウントおよびキャンペーンでは、コンバージョン値ルールを一時停止、アクティブ化または削除できます。
+
+1. メインメニューで、**[!UICONTROL Goals]>[!UICONTROL Conversion Value Rules]**&#x200B;をクリックします。
+
+   デフォルトでは、**[!UICONTROL Campaign]** タブが選択され、すべてのキャンペーンレベルのルールが表示されます。
+
+1. （オプション）代わりにすべてのアカウントレベルのルールを表示するには、「**[!UICONTROL Account]**」タブをクリックします。
+
+1. 変更する各行の横にあるチェックボックスをオンにします。
+
+1. 一括アクションツールバーの，
+
+   * 一時停止したルールをアクティブ化（有効）するには、**[!UICONTROL ...]>[!UICONTROL Activate]**&#x200B;をクリックします。
+
+   * アクティブなルールを一時停止するには、**[!UICONTROL ...]>[!UICONTROL Pause]**&#x200B;をクリックします。
+
+   * アクティブなルールまたは一時停止したルールを削除するには、![削除](/help/search-social-commerce/assets/delete.png "削除")をクリックします。
+
+1. 確認メッセージで、**[!UICONTROL Confirm]**&#x200B;をクリックします。
+
+## [!DNL Google Ads]変換値ルール設定 {#google-conversion-value-rule-settings}
+
+| セクション | パラメーター | 説明 |
+|---|---|---|
+| [!UICONTROL Select Campaign] | [!UICONTROL Network] | 広告ネットワーク。 |
+| | [!UICONTROL Account] | 広告ネットワークアカウント。 |
+| | [!UICONTROL Campaign] | （キャンペーンレベルのコンバージョン値ルールのみ）広告キャンペーン。 |
+| [!UICONTROL Conditions] > [!UICONTROL Primary Condition] | \[条件タイプ\] | （既存のルールの読み取り専用）値の調整をトリガーするために満たす必要がある条件のタイプ：<ul><li>*[!UICONTROL Device]:*&#x200B;すべてまたは特定のデバイス タイプをターゲットにする。</li><li>*[!UICONTROL Location]:*&#x200B;すべての国と地域をターゲットにするか、特定の場所をターゲットにして除外します。</li><li>*[!UICONTROL Audiences]:*&#x200B;すべてのオーディエンスまたは特定のオーディエンスをターゲットにする</li></ul>**注意：** アカウント内のすべてのルールは、同じタイプのプライマリ条件と（オプションの）セカンダリ条件を使用する必要があります。 例えば、ルール 1にプライマリ条件「Audience」とセカンダリ条件「Location」が含まれている場合、アカウント内の他のすべてのルールにはプライマリ条件「Audience」が必要です。 他のルールにセカンダリ条件が含まれる場合は、「場所」にする必要があります。 |
+| | \[Condition Type\] > [!UICONTROL Device]および[!UICONTROL Device Level] | （デバイスの状態のみ）対象となるデバイスタイプ：<ul><li>*[!UICONTROL All devices]:**すべてのデバイスタイプをターゲットにします。</li><li>*[!UICONTROL Select devices]:*&#x200B;ターゲットとする1つ以上のデバイスタイプを指定するには、*[!UICONTROL Desktop]:*、*[!UICONTROL Mobile]*、*[!UICONTROL Tablet]:*。</li></ul>条件内では、ブール演算子`OR`を使用して複数のターゲットが結合されるため、任意のオプションを満たして値の調整を開始できます。 例：\[ デバイスがモバイルまたはタブレット\]の場合は、1.5を追加します。 |
+| | \[Condition Type\] > [!UICONTROL Location]および[!UICONTROL Location Level] | （ロケーション条件のみ）ロケーションのターゲットと除外条件：<ul><li>*[!UICONTROL All countries and territories]:*&#x200B;すべての国と場所をターゲットにするか、特定の場所をターゲットにして除外します。</li><li>*[!UICONTROL Enter a location]:*&#x200B;特定の場所をターゲットにして除外します。</li></ul><ul><li>場所またはサブロケーションを展開するには、名前の後ろに`>`をクリックします。</li><li>ターゲットを追加するには、ターゲットを1回選択すると、緑色のチェックマークが表示されます。</li><li>ターゲットを除外するには、ターゲットを2回目に選択して、赤い&#x200B;**[!UICONTROL X]**&#x200B;を表示します。</li><li>ターゲットまたは除外を削除するには、次のいずれかの操作を行います。<ul><li>[!UICONTROL Selections]列のアイテムの横にある![削除](/help/search-social-commerce/assets/delete.png "削除")をクリックします。</li><li>チェックマークまたは[!UICONTROL X]が表示されないまで、ターゲットを選択します。</li></ul></li></ul>条件内で、ブール演算子`OR`を使用して複数のターゲットまたは除外条件を結合します。これにより、任意のオプションを満たして値の調整を開始できます。 例：\[場所がアルジェリアまたはチュニジア\]の場合は、1.5を追加します。 |
+| | \[Condition Type\] > [!UICONTROL Audience]および[!UICONTROL Audience Level] | （オーディエンス条件のみ）オーディエンスのターゲット：<ul><li>*[!UICONTROL All audience segments]:*&#x200B;すべての[!DNL Google Ads] オーディエンスセグメントをターゲットにします。</li><li>*[!UICONTROL Enter audience segments]:*&#x200B;特定の[!DNL Google Ads] オーディエンスセグメントをターゲットにします。</li></ul><ul><li>カテゴリまたはサブカテゴリをセグメントに展開するには、名前の後の`>`をクリックします。</li><li>ターゲットを追加するには、ターゲットを選択します。</li><li>ターゲットを削除するには、ターゲットの選択を解除するか、[!UICONTROL Selection]列の項目の横にある![削除](/help/search-social-commerce/assets/delete.png "削除")をクリックします。</li></ul>条件内では、ブール演算子ORを使用して複数のターゲットまたは除外条件を結合します。これにより、任意のオプションを満たして値の調整を開始できます。 例：\[Audience is Bargain Travelers OR Family Vacationers\]の場合、1.5を追加します。<br><br>**注意：** オーディエンスターゲットを保存したら、追加のオーディエンスを追加できますが、[!DNL Google Ads] エディターの外で削除することはできません。 オーディエンスターゲットを削除する必要がある場合は、[!DNL Google Ads]に直接ログインし、[!DNL Google Ads] エディターを使用します。 |
+| [!UICONTROL Conditions] > [!UICONTROL Secondary Condition] | \[条件タイプ\] | （オプション、既存のルールの読み取り専用）値の補正をトリガーするために満たす必要がある条件のタイプ。 2次条件を含めると、2次条件はブール演算子`ALL`を使用してプライマリ条件に結合されるため、値の調整を開始するには両方の条件を満たす必要があります。 例：\[場所がアルジェリアまたはチュニジア\]で、\[ デバイスがモバイルまたはタブレット\]の場合、1.5を追加します。<br><br>説明については、プライマリ条件のエントリを参照してください。<br><br>**注：** アカウント内のすべてのルールでは、同じタイプのプライマリ条件と（オプションの）セカンダリ条件を使用する必要があります。 例えば、ルール 1にプライマリ条件「Audience」とセカンダリ条件「Location」が含まれている場合、アカウント内の他のすべてのルールにはプライマリ条件「Audience」が必要です。 他のルールにセカンダリ条件が含まれる場合は、「場所」にする必要があります。 |
+| [!UICONTROL Value Adjustment] | [!UICONTROL Adjustment Operation]と[!UICONTROL Adjustment Value] | 調整タイプを指定し、正の値を入力します。<ul><li>*[!UICONTROL Add]:*&#x200B;指定した値を、渡されたコンバージョン値に追加します。 値は0より大きくなければなりません。</li><li>*[!UICONTROL Multiply]:*&#x200B;指定した値で渡される変換値を乗算します。 値は0.5から10までである必要があります。</li></ul> |
+
+<!--
+>[!MORELIKETHIS]
+>
+>* 
+-->

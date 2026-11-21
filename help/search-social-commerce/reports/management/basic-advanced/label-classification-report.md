@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Label Classification Report]'
 description: '[!UICONTROL Label Classification Report]について説明します。'
-exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-TQID: 'https://experienceleague.adobe.com/75t5C8Cz-EE5vsPYYXHWHSE-6ZDhwSQaEgtAdirYHQU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,17 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
     internal-label: Search Basic Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '228'
 ht-degree: 0%
 ---
 # [!UICONTROL Label Classification Report]
@@ -35,7 +25,7 @@ ht-degree: 0%
 >
 >* 広告レベルのラベル分類によるレポートは、[!DNL Microsoft Advertising]件の動的検索広告（DSA）キャンペーンでは使用できません。
 >* 同じエンティティに複数のラベル分類が適用される場合があるため、各指標の合計がエンティティの実際の合計よりも高くなる場合があります。 例えば、「スエードシューズ」というキーワードに「スエード」と「フットウェア」という2つのラベル値があり、キーワードが100 クリックを受け取ったとします。 クリック数の列には、それぞれのラベル値に対して「100」が表示されるので、両方の行の合計は「200」になります。
->* エンティティの分類と子ラベルの値をラベル付けするために行った変更は、約1時間で表示されます。
+* エンティティの分類と子ラベルの値をラベル付けするために行った変更は、約1時間で表示されます。
 
 ## デフォルトの列
 
@@ -56,5 +46,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [基本レポートと詳細レポートについて](basic-advanced-report-about.md)
->* [基本レポートまたは詳細レポートを生成](basic-advanced-report-generate.md)
+>* [ スケジュール済みレポートの管理](/help/search-social-commerce/reports/management/report-manage.md)
 >* [基本および詳細レポート設定](basic-advanced-report-settings.md)
