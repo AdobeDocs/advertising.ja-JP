@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5c536fc9d8cd09a0cdaad5c0be1d801eefeade0c
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '223'
 ht-degree: 0%
 ---
 # このガイドについて
@@ -35,20 +35,23 @@ ht-degree: 0%
 
 * 「はじめに」では、初回起動の設定から継続的な管理タスクの実行、ユーザーインターフェイスの整理など、広告主の実装に関わる主なタスクについて説明します。
 
-* 「共通タスク」では、情報のニーズと環境設定に基づいて様々なパフォーマンスデータビューを設定する方法、カスタム指標の管理方法、ラベル分類と入札制約の管理方法、その他の一般的なタスクの実行方法について説明します。
+* 「共通タスク」では、情報のニーズと環境設定に基づいて様々なパフォーマンスデータビューを設定する方法、カスタム指標の管理方法、アラートと通知の管理方法、その他の一般的なタスクの実行方法について説明します。
 
-* 「新しいUI」では、新しいユーザーインターフェイスで実行できるタスクについて説明します。目的の管理、シミュレーションの実行、ポートフォリオの管理、ポートフォリオからのキャンペーンの割り当てと削除、キャンペーンと広告グループへの制約の割り当てと削除の方法です。 以下の「メモ」を参照してください。
+* 次の章では、新しいユーザーインターフェイスのメインメニューオプションの機能について説明します。「[!UICONTROL Dashboard]」、「[!UICONTROL Manage]」、「[!UICONTROL Reports]」、「[!UICONTROL Plan]」、「[!UICONTROL Setup]」、「[!UICONTROL Goals]」、「[!UICONTROL Targeting]」、「[!UICONTROL Library]」。
+
+  各章について詳しくは、「[ ユーザーインターフェイスの構成方法](/help/search-social-commerce/getting-started/user-interface.md)」を参照してください。
 
 * 「トラッキング」では、広告とキーワードのクリックとコンバージョンのトラッキングを設定する方法について説明します。
 
-* 「キャンペーン管理」では、広告ネットワークアカウントのキャンペーンコンポーネントを設定および管理する方法について説明します。
+* 「レガシーユーザーインターフェイス」では、[ レガシーユーザーインターフェイス ](/help/search-social-commerce/getting-started/ui-switch.md)で実行できるタスクについて説明します。
 
-* 「インサイトとレポート」では、広告インサイトの生成、詳細なレポートの生成、レポート作成の自動化、アラートの作成と監視、広告主アカウントに対する変更のログの表示、広告ネットワークで生成されたレコメンデーションのアカウントの表示と適用について説明します。
-
-* 「ツール」では、パスワードの変更方法、クリック追跡とコンバージョン追跡タグの生成ツールの使用方法、コンバージョン指標を[!DNL Google Ads]にアップロードする方法、ハイブリッド最適化のためにポートフォリオ目標を広告ネットワークにアップロードする方法、トラッキングキャンペーン用の指標をアップロードする方法、および[!DNL Google Ads] アカウントに[!DNL Microsoft Advertising] キャンペーンを複製する方法について説明します。
-
-* 「管理」では、収集されるコンバージョン指標とポートフォリオ予測から除外する日付を含む広告主データの管理方法、コンバージョン指標を[!DNL Google Analytics] アカウントから同期する方法、様々な広告主レベルの設定を設定する方法、ユーザー、代理店、広告主アカウントを管理する方法について説明します。
+  これらのタスクのほとんどは、新しいユーザーインターフェイスでも使用できます。
 
 >[!NOTE]
 >
->従来のユーザーインターフェイスでの入札にポートフォリオを使用するなど、最適化に関する追加のヘルプは、Search、Social、およびCommerce内の任意のページの右上にある[!UICONTROL Help] メニュー（![&#x200B; ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から利用できます。
+>従来のユーザーインターフェイスでの入札にポートフォリオを使用するなど、最適化に関する追加のヘルプは、Search、Social、およびCommerce内の任意のページの右上にある[!UICONTROL Help] メニュー（![ ヘルプメニュー](/help/search-social-commerce/assets/help-main-menu.png " ヘルプメニュー")）から利用できます。
+
+>[!MORELIKETHIS]
+>
+>* [ ユーザーインターフェイスの構成方法](/help/search-social-commerce/getting-started/user-interface.md)
+>* [新しいユーザーインターフェイスと従来のユーザーインターフェイスを切り替える](/help/search-social-commerce/getting-started/ui-switch.md)
