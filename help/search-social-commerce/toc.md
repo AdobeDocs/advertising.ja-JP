@@ -27,10 +27,10 @@ ht-degree: 2%
   + [サポートされているインベントリ](/help/search-social-commerce/introduction/supported-inventory.md)
   + Adobe CX Enterpriseとの連携 {#integrations}
     + [Adobe CX Enterpriseのソリューションやサービスとの統合](/help/search-social-commerce/introduction/integrations.md)
-    + [Adobe [!DNL Analytics for Advertising]  （リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
-    + [Adobe Audience Managerとの連携（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
-  + [消費者のプライバシーのサポート（リンク）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-  + [ポリシーとガイドライン（リンク）](https://experienceleague.adobe.com/en/docs/advertising/policies/ad-requirements-policy){target="_blank"}
+    + [Adobe [!DNL Analytics for Advertising]  （リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ja){target="_blank"}
+    + [Adobe Audience Managerとの連携（リンク）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ja){target="_blank"}
+  + [消費者のプライバシーのサポート（リンク）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ja){target="_blank"}
+  + [ポリシーとガイドライン（リンク）](https://experienceleague.adobe.com/ja/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + Adobe Experience Managerの導入方法 {#getting-started}
   + [導入の概要](/help/search-social-commerce/getting-started/implemention-overview.md)
   + [広告ネットワークアカウントとキャンペーンの設定](/help/search-social-commerce/getting-started/campaign-implementation-overview.md)
@@ -290,7 +290,7 @@ ht-degree: 2%
         + [&#x200B; [!DNL Yahoo DSP]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
         + [&#x200B; [!DNL Yandex]のクリックトラッキング形式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
       + [クリックトラッキング URLのオプションのトラッキングパラメーター](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-    + [Adobe Advertising cookie （リンク）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
+    + [Adobe Advertising cookie （リンク）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ja){target="_blank"}
     + [AMO ID （s_kwcid） トラッキングパラメーター](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
   + コンバージョンの追跡 {#conversion-tracking}
     + [コンバージョン追跡オプション](/help/search-social-commerce/tracking/conversion-tracking-about.md)

@@ -64,7 +64,7 @@ Adobe AdvertisingとAudience Managerは、次の方法で統合できます。
 
 >[!NOTE]
 >
->Audience ManagerおよびAdobe CX Enterprise [!DNL Audience Library] インターフェイスでオーディエンスを作成する方法と、様々なオーディエンスタイプの一般的なユースケースについて詳しくは、「[&#x200B; オーディエンス作成オプション &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)」を参照してください。
+>Audience ManagerおよびAdobe CX Enterprise [!DNL Audience Library] インターフェイスでオーディエンスを作成する方法と、様々なオーディエンスタイプの一般的なユースケースについて詳しくは、「[&#x200B; オーディエンス作成オプション &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja)」を参照してください。
 
 ## DSPのメディア露出データをAudience Managerに送信
 
@@ -76,6 +76,6 @@ Adobe Audience Managerを使用しているDSPのお客様は、Audience Manager
 
 ## Audience Analyticsで、サイトのアクティビティに関するより詳細なインサイトを獲得
 
-[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)のAdobe Advertisingのお客様は、Adobe Advertisingで追跡されたデータとAudience Manager セグメントの両方を[!DNL Analytics]に送信して、サイトのアクティビティに関する詳細なインサイトを得ることができます。
+[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja)のAdobe Advertisingのお客様は、Adobe Advertisingで追跡されたデータとAudience Manager セグメントの両方を[!DNL Analytics]に送信して、サイトのアクティビティに関する詳細なインサイトを得ることができます。
 
 詳しくは、「[[!DNL Adobe Audience Analytics] Adobe Advertisingのお客様](/help/integrations/audience-manager/audience-analytics.md)」を参照してください。

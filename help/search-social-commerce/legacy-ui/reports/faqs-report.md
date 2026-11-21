@@ -313,7 +313,7 @@ Search, Social, &amp; Commerceが広告ネットワークと同期していな�
 +++
 
 +++Adobe Analyticsのレベニューデータは
-[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html)を参照してください。<!-- change link URL to relative link -->
+[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=ja](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=ja)を参照してください。<!-- change link URL to relative link -->
 +++
 
 ## 特定のレポート

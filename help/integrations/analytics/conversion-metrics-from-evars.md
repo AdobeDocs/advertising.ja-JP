@@ -38,13 +38,13 @@ ht-degree: 0%
 
 *Adobe AdvertisingとAdobe Analyticsの統合のみを使用する広告主*
 
-サクセスイベント指標を使用すると、ブランドの目標に最適なAdobe Analytics サイトデータに基づいて、DSP パッケージとSearch, Social, &amp; Commerce キャンペーンを最適化できます。 [!DNL eVar] レベルおよび[!DNL prop] レベルのデータをイベントにファネリングすることで、既存の[[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)および[[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html)に基づいてカスタム成功イベント指標を設定できます。 標準、カスタム、予約済みのコンバージョン指標およびトラフィック指標を含むその他の[!DNL Analytics]指標は、DSPおよびSearch, Social, &amp; Commerceで自動的に利用できます。
+サクセスイベント指標を使用すると、ブランドの目標に最適なAdobe Analytics サイトデータに基づいて、DSP パッケージとSearch, Social, &amp; Commerce キャンペーンを最適化できます。 [!DNL eVar] レベルおよび[!DNL prop] レベルのデータをイベントにファネリングすることで、既存の[[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja)および[[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html?lang=ja)に基づいてカスタム成功イベント指標を設定できます。 標準、カスタム、予約済みのコンバージョン指標およびトラフィック指標を含むその他の[!DNL Analytics]指標は、DSPおよびSearch, Social, &amp; Commerceで自動的に利用できます。
 
 ![使用例](/help/integrations/assets/a4adc-conversion-evar-example.jpg "使用例")
 
 次のタスクのほとんどは、[!DNL Analytics]管理者または他のユーザーが実行する必要があります。 サポートが必要な場合は、Adobe アカウントチームにお問い合わせください。
 
-1. [!DNL Analytics]で、[&#x200B; プレースホルダー成功イベントを作成](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event)します。
+1. [!DNL Analytics]で、[&#x200B; プレースホルダー成功イベントを作成](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event)します。
 
    次の追加パラメーターを使用します。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
    >
    >管理者以外のユーザーに権限を付与していない限り、[!DNL Analytics]人のアカウント管理者のみが処理ルールを作成できます。
 
-   1. [次の設定を使用して、処理ルール &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en)を作成します。
+   1. [次の設定を使用して、処理ルール &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=ja)を作成します。
 
       * 条件を満たす必要がある場合は、必須の[!DNL eVars]または[!DNL props]を指定します。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
       * アクションの場合は、**イベントを設定**&#x200B;を選択し、プレースホルダーイベントを選択します。
 
-   1. [!DNL Analytics] [!DNL Analysis Workspace]で、[&#x200B; プロジェクト &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)を作成し、新しいイベントをフリーフォームテーブルに取り込んで、[!DNL eVar]または[!DNL prop]指標にデータが入力されていることを確認します。
+   1. [!DNL Analytics] [!DNL Analysis Workspace]で、[&#x200B; プロジェクト &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja)を作成し、新しいイベントをフリーフォームテーブルに取り込んで、[!DNL eVar]または[!DNL prop]指標にデータが入力されていることを確認します。
 
 1. 新しい指標をAdobe Advertisingに同期するには、Adobe アカウントチームにお問い合わせください。
 

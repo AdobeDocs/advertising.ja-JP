@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 前提条件1：該当するすべての広告アカウントのランディングページ URLにSearch, Social, &amp; Commerce トークン（「ef_id」クエリ文字列パラメーター）を実装する
 
-関連するキャンペーンの有料検索クリックごとに、一意の`ef_id`を生成し、クエリ文字列（`https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s`など）としてランディングページ URLに追加する必要があります。ここで、`&ef_id=abcde:123456789:s`は追加記号、`ef_id` キー、`ef_id`値です。 ef_idを含めるには、関連する広告ネットワークアカウントとキャンペーンに[!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot;と[!UICONTROL Redirect Type] &quot;[!UICONTROL Token]&quot;が必要です。
+関連するキャンペーンの有料検索クリックごとに、一意の`ef_id`を生成し、クエリ文字列（`https://www.adobe.com/jp?someParam=123&ef_id=abcde:123456789:s`など）としてランディングページ URLに追加する必要があります。ここで、`&ef_id=abcde:123456789:s`は追加記号、`ef_id` キー、`ef_id`値です。 ef_idを含めるには、関連する広告ネットワークアカウントとキャンペーンに[!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot;と[!UICONTROL Redirect Type] &quot;[!UICONTROL Token]&quot;が必要です。
 
 既存のアカウントとキャンペーンの場合、ef_idはおそらく既に実装されています。
 
@@ -62,7 +62,7 @@ ef_idが含まれていない場合は、Adobe アカウントチームにお問
    >
    >ef_idは、ランディングページ URL内でのみ使用する必要があります。
 
-   例えば、ランディングページ URLが`https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`の場合、[!DNL Google Analytics]のef_id ディメンションの値は`abcde:123456789:s`です。
+   例えば、ランディングページ URLが`https://www.adobe.com/jp?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`の場合、[!DNL Google Analytics]のef_id ディメンションの値は`abcde:123456789:s`です。
 
    >[!NOTE]
    >

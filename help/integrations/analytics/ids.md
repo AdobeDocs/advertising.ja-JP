@@ -70,13 +70,13 @@ Adobe Advertisingでは、web サイトへのクリックスルーまたはビ�
 
 EF IDは、Adobe Advertisingがアクティビティを個々のブラウザーまたはデバイスレベルでオンラインクリックまたは広告露出に関連付けるために使用する一意のトークンです。 EF IDは、主に、[!DNL Analytics] データとCustomer Journey Analytics データをAdobe Advertisingに送信し、Adobe Advertising内でレポートと入札を最適化するためのキーとして機能します。
 
-[!DNL Analytics]の場合、EF IDは[an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)または[!DNL rVar] （予約済み[!DNL eVar]）ディメンション（Adobe Advertising EF ID）に保存されます。
+[!DNL Analytics]の場合、EF IDは[an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja)または[!DNL rVar] （予約済み[!DNL eVar]）ディメンション（Adobe Advertising EF ID）に保存されます。
 
-Customer Journey Analyticsの場合、EF IDは`conversionDetails` オブジェクトの`trackingIdentities` プロパティに格納されます。これは[the [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)の一部です。
+Customer Journey Analyticsの場合、EF IDは`conversionDetails` オブジェクトの`trackingIdentities` プロパティに格納されます。これは[the [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)の一部です。
 
 ### EF ID形式 {#ef-id-formats}
 
-「Adobe Analytics コンポーネントガイド」のEF ID ディメンション項目[&#128279;](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id#dimension-items)の形式を参照してください。
+「Adobe Analytics コンポーネントガイド」のEF ID ディメンション項目[&#128279;](https://experienceleague.adobe.com/ja/docs/analytics/components/dimensions/amo-ef-id#dimension-items)の形式を参照してください。
 
 >[!NOTE]
 >
@@ -177,7 +177,7 @@ EF IDは、Analysis Workspaceの500 kの一意のID制限の対象となりま�
 
 ## 約[!DNL Analytics]分類
 
-[!DNL Analytics]では、[分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)は、アカウント、キャンペーン、広告など、特定のトラッキングコードのメタデータの一部です。 Adobe Advertisingでは、Adobe Advertisingの生データを分類して分類するため、レポートを生成する際に、広告タイプやCampaignなどのさまざまな方法でデータを表示できます。 分類は、[!DNL Analytics]のAdobe Advertising レポートのベースとなり、[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]、[!UICONTROL AMO Clicks]などのAMO指標や、[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]、[!UICONTROL Revenue]などのカスタムおよび標準のオンサイトイベントで使用できます。
+[!DNL Analytics]では、[分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ja)は、アカウント、キャンペーン、広告など、特定のトラッキングコードのメタデータの一部です。 Adobe Advertisingでは、Adobe Advertisingの生データを分類して分類するため、レポートを生成する際に、広告タイプやCampaignなどのさまざまな方法でデータを表示できます。 分類は、[!DNL Analytics]のAdobe Advertising レポートのベースとなり、[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]、[!UICONTROL AMO Clicks]などのAMO指標や、[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]、[!UICONTROL Revenue]などのカスタムおよび標準のオンサイトイベントで使用できます。
 
 >[!MORELIKETHIS]
 >

@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *従来のキーワードレベルのポートフォリオのCPC キャンペーンの入札単位にのみ適用*
 
-入札単位の制約は、制約に関連付けられたコストと収益モデルを使用して、すべての[入札単位](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html)に対して最適化された入札を制限するルールです。
+入札単位の制約は、制約に関連付けられたコストと収益モデルを使用して、すべての[入札単位](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=ja)に対して最適化された入札を制限するルールです。
 
 ## 制約について
 
